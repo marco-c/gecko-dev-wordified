@@ -409,8 +409,10 @@ BLOCKLIST_DATA
 }
 )
 ;
-let
-blocklistGlobal
+const
+{
+BlocklistPrivate
+}
 =
 ChromeUtils
 .
@@ -429,13 +431,12 @@ Blocklist
 .
 jsm
 "
-null
 )
 ;
 let
 parsedEntries
 =
-blocklistGlobal
+BlocklistPrivate
 .
 ExtensionBlocklistRS
 .

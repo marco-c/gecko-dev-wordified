@@ -4614,7 +4614,9 @@ data
 )
 {
 const
-bsPass
+{
+BlocklistPrivate
+}
 =
 ChromeUtils
 .
@@ -4633,7 +4635,6 @@ Blocklist
 .
 jsm
 "
-null
 )
 ;
 const
@@ -4642,12 +4643,12 @@ blocklistMapping
 {
 extensions
 :
-bsPass
+BlocklistPrivate
 .
 ExtensionBlocklistRS
 extensionsMLBF
 :
-bsPass
+BlocklistPrivate
 .
 ExtensionBlocklistMLBF
 }

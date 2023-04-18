@@ -294,9 +294,13 @@ key
 }
 const
 {
+BlocklistPrivate
+:
+{
 BlocklistTelemetry
-ExtensionBlocklistRS
 ExtensionBlocklistMLBF
+ExtensionBlocklistRS
+}
 }
 =
 ChromeUtils
@@ -316,7 +320,6 @@ Blocklist
 .
 jsm
 "
-null
 )
 ;
 /

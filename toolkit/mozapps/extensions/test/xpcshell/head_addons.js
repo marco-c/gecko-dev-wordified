@@ -6548,8 +6548,10 @@ Services
 .
 uuid
 ;
-let
-bsPass
+const
+{
+BlocklistPrivate
+}
 =
 ChromeUtils
 .
@@ -6568,7 +6570,6 @@ Blocklist
 .
 jsm
 "
-null
 )
 ;
 const
@@ -6717,7 +6718,7 @@ let
 rv
 =
 await
-bsPass
+BlocklistPrivate
 .
 GfxBlocklistRS
 .

@@ -1,5 +1,7 @@
 const
-BlocklistGlobal
+{
+BlocklistPrivate
+}
 =
 ChromeUtils
 .
@@ -18,7 +20,6 @@ Blocklist
 .
 jsm
 "
-null
 )
 ;
 const
@@ -155,7 +156,7 @@ clients
 for
 blocklists
 .
-BlocklistGlobal
+BlocklistPrivate
 .
 ExtensionBlocklistRS
 .
@@ -163,7 +164,7 @@ ensureInitialized
 (
 )
 ;
-BlocklistGlobal
+BlocklistPrivate
 .
 GfxBlocklistRS
 .
@@ -187,7 +188,7 @@ gBlocklistClients
 {
 client
 :
-BlocklistGlobal
+BlocklistPrivate
 .
 ExtensionBlocklistRS
 .
@@ -199,7 +200,7 @@ IS_ANDROID
 {
 client
 :
-BlocklistGlobal
+BlocklistPrivate
 .
 GfxBlocklistRS
 .

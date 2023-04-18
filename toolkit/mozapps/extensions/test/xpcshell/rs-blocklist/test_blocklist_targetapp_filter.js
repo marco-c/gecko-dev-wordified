@@ -1,5 +1,7 @@
 const
-BlocklistGlobal
+{
+BlocklistPrivate
+}
 =
 ChromeUtils
 .
@@ -18,7 +20,6 @@ Blocklist
 .
 jsm
 "
-null
 )
 ;
 const
@@ -191,7 +192,7 @@ specific
 options
 etc
 .
-BlocklistGlobal
+BlocklistPrivate
 .
 ExtensionBlocklistRS
 .
