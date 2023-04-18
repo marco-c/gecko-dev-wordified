@@ -2283,6 +2283,13 @@ if
 this
 .
 extension
+|
+|
+this
+.
+extension
+.
+hasShutdown
 )
 {
 /
