@@ -4116,9 +4116,7 @@ files
 map
 (
 find_in_dir
-self
-.
-settings_paths
+paths
 )
         
 files
