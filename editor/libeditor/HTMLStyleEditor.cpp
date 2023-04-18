@@ -7000,6 +7000,13 @@ now
 .
 if
 (
+splitResult
+.
+GetPreviousContent
+(
+)
+&
+&
 HTMLEditUtils
 :
 :
