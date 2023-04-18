@@ -164,6 +164,16 @@ webrtc
 /
 third_party
 /
+libsrtp
+/
+src
+/
+include
+"
+"
+/
+third_party
+/
 libwebrtc
 "
 "
