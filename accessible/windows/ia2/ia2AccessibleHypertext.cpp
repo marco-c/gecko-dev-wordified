@@ -562,11 +562,11 @@ aHyperlinkIndex
 =
 0
 ;
-HyperTextAccessibleWrap
+HyperTextAccessibleBase
 *
 hyperAcc
 =
-LocalTextAcc
+TextAcc
 (
 )
 ;

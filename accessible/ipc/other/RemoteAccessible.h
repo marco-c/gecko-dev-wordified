@@ -295,6 +295,15 @@ StartOffset
 )
 override
 ;
+virtual
+int32_t
+LinkIndexAtOffset
+(
+uint32_t
+aOffset
+)
+override
+;
 protected
 :
 explicit
