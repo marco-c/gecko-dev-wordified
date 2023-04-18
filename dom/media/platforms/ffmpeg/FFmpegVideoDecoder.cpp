@@ -3481,11 +3481,11 @@ IntSize
 aCodecContext
 -
 >
-coded_width
+width
 aCodecContext
 -
 >
-coded_height
+height
 }
 ;
 const
