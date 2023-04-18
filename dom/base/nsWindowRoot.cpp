@@ -416,13 +416,6 @@ Disconnect
 )
 ;
 }
-if
-(
-XRE_IsContentProcess
-(
-)
-)
-{
 JSActorService
 :
 :
@@ -432,7 +425,6 @@ this
 )
 ;
 }
-}
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsWindowRoot
@@ -441,13 +433,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsWindowRoot
 )
-if
-(
-XRE_IsContentProcess
-(
-)
-)
-{
 JSActorService
 :
 :
@@ -456,7 +441,6 @@ UnregisterChromeEventTarget
 tmp
 )
 ;
-}
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mWindow
@@ -2416,13 +2400,6 @@ nsWindowRoot
 aWindow
 )
 ;
-if
-(
-XRE_IsContentProcess
-(
-)
-)
-{
 RefPtr
 <
 JSActorService
@@ -2444,7 +2421,6 @@ RegisterChromeEventTarget
 result
 )
 ;
-}
 return
 result
 .
