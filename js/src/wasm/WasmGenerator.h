@@ -1241,9 +1241,6 @@ lastPatchedCallSite_
 uint32_t
 startOfUnpatchedCallsites_
 ;
-CodeOffsetVector
-debugTrapFarJumps_
-;
 /
 /
 Parallel

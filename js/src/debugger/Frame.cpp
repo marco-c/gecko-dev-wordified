@@ -6009,6 +6009,7 @@ debug
 incrementStepperCount
 (
 cx
+instance
 wasmFrame
 -
 >
@@ -6215,6 +6216,7 @@ debug
 decrementStepperCount
 (
 gcx
+instance
 wasmFrame
 -
 >

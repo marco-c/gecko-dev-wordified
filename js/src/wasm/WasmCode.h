@@ -2800,6 +2800,10 @@ tier
 (
 tier
 )
+debugTrapOffset
+(
+0
+)
 {
 }
 const
@@ -2842,8 +2846,8 @@ information
 not
 serialized
 .
-Uint32Vector
-debugTrapFarJumpOffsets
+uint32_t
+debugTrapOffset
 ;
 FuncExport
 &
