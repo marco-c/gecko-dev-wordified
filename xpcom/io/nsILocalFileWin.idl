@@ -326,14 +326,6 @@ attribute
 AString
 canonicalPath
 ;
-[
-noscript
-]
-readonly
-attribute
-ACString
-nativeCanonicalPath
-;
 /
 *
 *
