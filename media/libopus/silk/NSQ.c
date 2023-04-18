@@ -1670,11 +1670,6 @@ RESTORE_STACK
 *
 *
 *
-*
-*
-*
-*
-*
 /
 /
 *
@@ -1682,11 +1677,6 @@ silk_noise_shape_quantizer
 *
 /
 /
-*
-*
-*
-*
-*
 *
 *
 *
@@ -2407,7 +2397,7 @@ n_LTP_Q13
 =
 silk_SMULWB
 (
-silk_ADD32
+silk_ADD_SAT32
 (
 shp_lag_ptr
 [

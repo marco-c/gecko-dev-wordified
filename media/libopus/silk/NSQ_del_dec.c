@@ -3611,7 +3611,7 @@ n_LTP_Q14
 =
 silk_SMULWB
 (
-silk_ADD32
+silk_ADD_SAT32
 (
 shp_lag_ptr
 [
@@ -4214,7 +4214,7 @@ n_LTP
 /
 tmp1
 =
-silk_ADD32
+silk_ADD_SAT32
 (
 n_AR_Q14
 n_LF_Q14
@@ -4240,7 +4240,7 @@ Q13
 /
 tmp1
 =
-silk_SUB32
+silk_SUB_SAT32
 (
 tmp2
 tmp1
@@ -4900,7 +4900,7 @@ psSS
 .
 sLTP_shp_Q14
 =
-silk_SUB32
+silk_SUB_SAT32
 (
 sLF_AR_shp_Q14
 n_LF_Q14
@@ -5043,7 +5043,7 @@ psSS
 .
 sLTP_shp_Q14
 =
-silk_SUB32
+silk_SUB_SAT32
 (
 sLF_AR_shp_Q14
 n_LF_Q14

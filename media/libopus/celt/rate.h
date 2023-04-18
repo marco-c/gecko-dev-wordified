@@ -642,7 +642,7 @@ allocated
 *
 /
 int
-compute_allocation
+clt_compute_allocation
 (
 const
 CELTMode
@@ -667,7 +667,7 @@ int
 intensity
 int
 *
-dual_stero
+dual_stereo
 opus_int32
 total
 opus_int32

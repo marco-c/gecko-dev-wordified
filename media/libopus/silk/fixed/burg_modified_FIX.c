@@ -706,7 +706,7 @@ subframes
 /
 C0_64
 =
-silk_inner_prod16_aligned_64
+silk_inner_prod16
 (
 x
 x
@@ -892,7 +892,7 @@ opus_int32
 )
 silk_RSHIFT64
 (
-silk_inner_prod16_aligned_64
+silk_inner_prod16
 (
 x_ptr
 x_ptr
@@ -1827,7 +1827,6 @@ Q17
 *
 We
 sometimes
-have
 get
 overflows
 in
@@ -3026,7 +3025,7 @@ opus_int32
 )
 silk_RSHIFT64
 (
-silk_inner_prod16_aligned_64
+silk_inner_prod16
 (
 x_ptr
 x_ptr
