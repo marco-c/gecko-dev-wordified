@@ -11584,7 +11584,7 @@ StringFileInfo
 \
 \
 %
-s
+S
 "
 (
 i
@@ -11611,17 +11611,7 @@ translate
 ]
 .
 wCodePage
-NS_ConvertASCIItoUTF16
-(
-nsDependentCString
-(
 aField
-)
-)
-.
-get
-(
-)
 )
 ;
 subBlock
