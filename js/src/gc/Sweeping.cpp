@@ -7818,6 +7818,12 @@ main
 atoms
 table
 .
+SweepingTracer
+trc
+(
+rt
+)
+;
 rt
 -
 >
@@ -7825,8 +7831,10 @@ symbolRegistry
 (
 )
 .
-sweep
+traceWeak
 (
+&
+trc
 )
 ;
 }
