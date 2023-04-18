@@ -295,15 +295,6 @@ shell32
 "
 shlwapi
 "
-"
-user32
-"
-"
-userenv
-"
-"
-uuid
-"
 ]
 if
 CONFIG

@@ -123,9 +123,6 @@ OS_LIBS
 =
 [
 "
-advapi32
-"
-"
 crypt32
 "
 "
