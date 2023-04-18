@@ -181,6 +181,7 @@ div
 inspector
 )
 ;
+await
 checkDeclarationIsActive
 (
 view
