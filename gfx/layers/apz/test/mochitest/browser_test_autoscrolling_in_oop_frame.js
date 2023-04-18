@@ -271,7 +271,7 @@ browser
 )
 {
 await
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browser
 )
@@ -289,7 +289,7 @@ children
 ]
 ;
 await
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 iframeContext
 )
@@ -529,7 +529,7 @@ thread
 const
 apzPromise
 =
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browser
 )

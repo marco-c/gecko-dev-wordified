@@ -677,7 +677,7 @@ is
 stable
 .
 await
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browserForPopup
 )
@@ -958,7 +958,7 @@ thread
 const
 apzPromise
 =
-flushApzRepaintsInPopup
+promiseApzFlushedRepaintsInPopup
 (
 browserForPopup
 )
