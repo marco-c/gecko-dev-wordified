@@ -361,6 +361,10 @@ const
 ProfilerInitParams
 &
 params
+StartResolver
+&
+&
+aResolve
 )
 override
 ;
@@ -377,6 +381,10 @@ const
 ProfilerInitParams
 &
 params
+EnsureStartedResolver
+&
+&
+aResolve
 )
 override
 ;
@@ -389,6 +397,10 @@ ipc
 IPCResult
 RecvStop
 (
+StopResolver
+&
+&
+aResolve
 )
 override
 ;
@@ -401,6 +413,10 @@ ipc
 IPCResult
 RecvPause
 (
+PauseResolver
+&
+&
+aResolve
 )
 override
 ;
@@ -413,6 +429,10 @@ ipc
 IPCResult
 RecvResume
 (
+ResumeResolver
+&
+&
+aResolve
 )
 override
 ;
@@ -425,6 +445,10 @@ ipc
 IPCResult
 RecvPauseSampling
 (
+PauseSamplingResolver
+&
+&
+aResolve
 )
 override
 ;
@@ -437,6 +461,10 @@ ipc
 IPCResult
 RecvResumeSampling
 (
+ResumeSamplingResolver
+&
+&
+aResolve
 )
 override
 ;
