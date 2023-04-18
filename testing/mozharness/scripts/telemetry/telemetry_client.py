@@ -1600,7 +1600,7 @@ abs_work_dir
             
 output_timeout
 =
-300
+1000
             
 output_parser
 =
