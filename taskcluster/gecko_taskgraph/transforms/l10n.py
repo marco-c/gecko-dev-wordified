@@ -113,7 +113,12 @@ util
 .
 attributes
 import
+(
+    
 copy_attributes_from_dependent_job
+    
+task_name
+)
 from
 gecko_taskgraph
 .
@@ -1403,9 +1408,10 @@ get
 "
 name
 "
+task_name
+(
 dep
-.
-name
+)
 )
         
 yield
