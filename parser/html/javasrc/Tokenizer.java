@@ -8217,7 +8217,21 @@ newBuf
 new
 char
 [
+Math
+.
+max
+(
 worstCase
+(
+strBuf
+.
+length
+*
+5
+)
+/
+4
+)
 ]
 ;
 System
@@ -17511,7 +17525,6 @@ sign
 it
 /
 /
-is
 participates
 in
 the
@@ -34296,6 +34309,7 @@ extension
 /
 to
 processing
+-
 instruction
 states
 is
@@ -34372,6 +34386,7 @@ Handling
 /
 the
 currently
+-
 unnecessary
 case
 in
@@ -38401,6 +38416,7 @@ request
 into
 an
 immediately
+-
 pending
 suspension
 request
