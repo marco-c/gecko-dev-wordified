@@ -5446,6 +5446,8 @@ forget
 static
 uint32_t
 sNextPresShellId
+=
+0
 ;
 /
 *
@@ -5651,9 +5653,9 @@ mActiveSuppressDisplayport
 )
 mPresShellId
 (
++
++
 sNextPresShellId
-+
-+
 )
 mFontSizeInflationEmPerLine
 (
