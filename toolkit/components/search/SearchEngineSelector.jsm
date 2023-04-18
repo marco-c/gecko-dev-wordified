@@ -928,9 +928,6 @@ order
 "
 id
 "
-loadDumpIfNewer
-:
-true
 }
 )
 ;
