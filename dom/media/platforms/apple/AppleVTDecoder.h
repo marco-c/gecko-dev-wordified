@@ -597,6 +597,13 @@ gfx
 ColorRange
 mColorRange
 ;
+const
+gfx
+:
+:
+ColorDepth
+mColorDepth
+;
 /
 /
 Method
