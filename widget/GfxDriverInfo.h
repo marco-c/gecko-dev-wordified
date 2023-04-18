@@ -1061,6 +1061,7 @@ NvidiaRolloutWebRender
 IntelRolloutWebRender
 IntelModernRolloutWebRender
 IntelWebRenderBlocked
+NvidiaWebRenderBlocked
 AtiRolloutWebRender
 Max
 }
