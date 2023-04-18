@@ -634,7 +634,7 @@ aRv
 ;
 }
 bool
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 )
 {
@@ -642,7 +642,7 @@ return
 mLoader
 -
 >
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 this
 )
@@ -831,14 +831,14 @@ module
 of
 this
 module
-tree
+graph
 nullptr
 if
 this
 is
-/
-/
 a
+/
+/
 top
 level
 module

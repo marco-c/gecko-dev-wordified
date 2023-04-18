@@ -11898,7 +11898,7 @@ if
 request
 -
 >
-InstantiateModuleTree
+InstantiateModuleGraph
 (
 )
 )
