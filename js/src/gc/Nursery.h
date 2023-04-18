@@ -2292,7 +2292,6 @@ for
 profile
 times
 .
-static
 void
 printProfileHeader
 (
@@ -4816,6 +4815,9 @@ static
 void
 printProfileDurations
 (
+FILE
+*
+file
 const
 ProfileDurations
 &
