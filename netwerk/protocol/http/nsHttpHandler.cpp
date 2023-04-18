@@ -16782,6 +16782,13 @@ ClearAltServiceMappings
 )
 ;
 }
+nsCORSListenerProxy
+:
+:
+ClearPrivateBrowsingCache
+(
+)
+;
 }
 else
 if
