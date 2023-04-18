@@ -7998,7 +7998,6 @@ rv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 /
 *
 static
@@ -8844,7 +8843,6 @@ MOZ_ASSERT_UNREACHABLE
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 /
 *
 static
@@ -9949,7 +9947,6 @@ boolVal
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 nsISessionStoreRestoreData
@@ -9989,7 +9986,6 @@ forget
 static
 *
 /
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise

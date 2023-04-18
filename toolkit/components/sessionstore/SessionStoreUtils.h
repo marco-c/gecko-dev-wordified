@@ -579,6 +579,7 @@ CollectedData
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 RestoreFormData
@@ -618,6 +619,7 @@ InputElementData
 ret
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
@@ -631,6 +633,7 @@ GlobalObject
 aGlobal
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
