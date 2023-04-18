@@ -1214,17 +1214,6 @@ if
 this
 .
 _isTempUserDataDir
-&
-&
-this
-.
-_product
-!
-=
-=
-'
-firefox
-'
 )
 {
 this
