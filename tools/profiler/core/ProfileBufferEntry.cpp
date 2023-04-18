@@ -9747,6 +9747,14 @@ aMarkerThreadId
 {
 return
 (
+!
+aThreadId
+.
+IsSpecified
+(
+)
+|
+|
 aMarkerThreadId
 =
 =
