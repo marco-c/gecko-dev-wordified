@@ -5543,6 +5543,7 @@ parent
 #
 PRemotePrintJob
 PPrinting
+PPrintProgressDialog
 and
 PPrintSettingsDialog
         
@@ -5572,6 +5573,24 @@ child
 (
 "
 PPrinting
+"
+"
+parent
+"
+)
+        
+(
+"
+PPrintProgressDialog
+"
+"
+child
+"
+)
+        
+(
+"
+PPrintProgressDialog
 "
 "
 parent

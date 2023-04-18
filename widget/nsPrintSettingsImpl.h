@@ -733,6 +733,9 @@ bool
 mShrinkToFit
 ;
 bool
+mShowPrintProgress
+;
+bool
 mShowMarginGuides
 ;
 bool

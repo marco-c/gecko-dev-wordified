@@ -180,6 +180,9 @@ class
 nsPrintObject
 ;
 class
+nsIPrintProgressParams
+;
+class
 nsIWebProgressListener
 ;
 /
@@ -471,6 +474,12 @@ nsCOMArray
 nsIWebProgressListener
 >
 mPrintProgressListeners
+;
+nsCOMPtr
+<
+nsIPrintProgressParams
+>
+mPrintProgressParams
 ;
 /
 /

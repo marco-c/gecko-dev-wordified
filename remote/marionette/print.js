@@ -388,6 +388,12 @@ true
 ;
 printSettings
 .
+showPrintProgress
+=
+false
+;
+printSettings
+.
 toFileName
 =
 filePath
