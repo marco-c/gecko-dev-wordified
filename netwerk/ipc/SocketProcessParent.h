@@ -210,11 +210,6 @@ CrashReporterHelper
 <
 GeckoProcessType_Socket
 >
-public
-ipc
-:
-:
-ParentToChildStreamActorManager
 {
 public
 :
