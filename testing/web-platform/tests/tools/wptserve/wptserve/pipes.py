@@ -55,9 +55,6 @@ True
 )
 class
 Pipeline
-(
-object
-)
 :
     
 pipes
@@ -212,9 +209,6 @@ return
 response
 class
 PipeTokenizer
-(
-object
-)
 :
     
 def
@@ -630,9 +624,6 @@ char
 )
 class
 pipe
-(
-object
-)
 :
     
 def
@@ -860,9 +851,6 @@ return
 f
 class
 opt
-(
-object
-)
 :
     
 def
@@ -1744,9 +1732,8 @@ content
 )
 :
                     
-for
-item
-in
+yield
+from
 add_content
 (
 delays
@@ -1763,10 +1750,6 @@ value
 ]
 True
 )
-:
-                        
-yield
-item
         
 if
 not
@@ -1936,9 +1919,6 @@ return
 response
 class
 ReplacementTokenizer
-(
-object
-)
 :
     
 def
@@ -2191,9 +2171,6 @@ arguments
 )
 class
 FirstWrapper
-(
-object
-)
 :
     
 def
@@ -2791,9 +2768,6 @@ return
 response
 class
 SubFunctions
-(
-object
-)
 :
     
 staticmethod
@@ -2996,7 +2970,7 @@ read
 )
         
 except
-IOError
+OSError
 :
             
 #

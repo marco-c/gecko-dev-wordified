@@ -110,9 +110,6 @@ type
 ignore
 class
 TestGroupsFile
-(
-object
-)
 :
     
 "
@@ -408,9 +405,6 @@ return
 new_include
 class
 TestChunker
-(
-object
-)
 :
     
 def
@@ -528,14 +522,9 @@ kwargs
 )
 :
         
-for
-item
-in
-manifest
-:
-            
 yield
-item
+from
+manifest
 class
 HashChunker
 (
@@ -771,9 +760,6 @@ test_path
 tests
 class
 TestFilter
-(
-object
-)
 :
     
 "
@@ -979,9 +965,6 @@ test_path
 include_tests
 class
 TagFilter
-(
-object
-)
 :
     
 def
@@ -1029,9 +1012,6 @@ yield
 test
 class
 ManifestLoader
-(
-object
-)
 :
     
 def
@@ -1270,19 +1250,11 @@ f
 iter
 )
     
-for
-item
-in
-iter
-:
-        
 yield
-item
+from
+iter
 class
 TestLoader
-(
-object
-)
 :
     
 "
@@ -2376,9 +2348,6 @@ test_source_kwargs
 chunker_kwargs
 class
 TestSource
-(
-object
-)
 :
     
 __metaclass__

@@ -568,7 +568,6 @@ test
 .
 html
 '
-u
 '
 /
 foo
@@ -605,7 +604,6 @@ test
 .
 html
 '
-u
 '
 /
 foo
@@ -834,7 +832,6 @@ test
 .
 html
 '
-u
 '
 /
 foo
@@ -885,7 +882,6 @@ test
 .
 html
 '
-u
 '
 /
 foo

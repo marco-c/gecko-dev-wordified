@@ -41,9 +41,9 @@ Error
 =
 Tuple
 [
-Text
-Text
-Text
+str
+str
+str
 Optional
 [
 int
@@ -198,7 +198,7 @@ name
 =
 cast
 (
-Text
+str
 cls
 .
 name
@@ -208,7 +208,7 @@ description
 =
 cast
 (
-Text
+str
 cls
 .
 description

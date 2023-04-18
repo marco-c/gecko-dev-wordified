@@ -301,8 +301,6 @@ parent
         
 super
 (
-MarionetteBaseProtocolPart
-self
 )
 .
 __init__
@@ -547,7 +545,7 @@ socket_timeout
 2
             
 except
-IOError
+OSError
 :
                 
 self
@@ -685,7 +683,7 @@ e
 pass
             
 except
-IOError
+OSError
 :
                 
 self
@@ -740,8 +738,6 @@ parent
         
 super
 (
-MarionetteTestharnessProtocolPart
-self
 )
 .
 __init__
@@ -2953,7 +2949,7 @@ except
 errors
 .
 MarionetteException
-IOError
+OSError
 )
 :
                 
@@ -3788,7 +3784,7 @@ except
 errors
 .
 MarionetteException
-IOError
+OSError
 )
 :
                 
@@ -3965,7 +3961,7 @@ except
 errors
 .
 MarionetteException
-IOError
+OSError
 )
 :
                 
@@ -4939,8 +4935,6 @@ do_delayed_imports
         
 super
 (
-MarionetteProtocol
-self
 )
 .
 __init__
@@ -5139,7 +5133,7 @@ raise_for_port
 break
             
 except
-IOError
+OSError
 :
                 
 #
@@ -5295,8 +5289,6 @@ None
         
 super
 (
-MarionetteProtocol
-self
 )
 .
 teardown
@@ -5559,7 +5551,7 @@ set_timeout
 )
         
 except
-IOError
+OSError
 :
             
 msg
@@ -5704,7 +5696,7 @@ None
 )
         
 except
-IOError
+OSError
 :
             
 #
@@ -6131,8 +6123,6 @@ runner
         
 super
 (
-MarionetteTestharnessExecutor
-self
 )
 .
 setup
@@ -7084,8 +7074,6 @@ runner
         
 super
 (
-MarionetteRefTestExecutor
-self
 )
 .
 setup
@@ -7212,8 +7200,6 @@ handles
             
 super
 (
-MarionetteRefTestExecutor
-self
 )
 .
 teardown
@@ -9016,8 +9002,6 @@ runner
         
 super
 (
-MarionettePrintRefTestExecutor
-self
 )
 .
 setup

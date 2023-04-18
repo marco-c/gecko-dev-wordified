@@ -1164,7 +1164,6 @@ os
 path
 .
 sep
-u
 "
 /
 "
@@ -1176,7 +1175,6 @@ rule
 .
 split
 (
-u
 "
 /
 "
@@ -1198,7 +1196,6 @@ part
 .
 endswith
 (
-u
 "
 *
 *
@@ -1222,7 +1219,6 @@ part
 ]
 )
 +
-u
 "
 .
 *
@@ -1234,7 +1230,6 @@ part
 .
 endswith
 (
-u
 "
 *
 "
@@ -1257,7 +1252,6 @@ part
 ]
 )
 +
-u
 "
 [
 ^
@@ -1287,14 +1281,12 @@ re
 .
 compile
 (
-u
 "
 ^
 %
 s
 "
 %
-u
 "
 /
 "
@@ -1497,7 +1489,6 @@ revish
 .
 split
 (
-u
 "
 \
 0
@@ -2069,7 +2060,6 @@ path
 join
 (
 wpt_root
-u
 "
 MANIFEST
 .
@@ -2190,17 +2180,14 @@ None
 skip_dirs
 =
 {
-u
 "
 conformance
 -
 checkers
 "
-u
 "
 docs
 "
-u
 "
 tools
 "
@@ -3520,7 +3507,6 @@ None
         
 revish
 =
-u
 "
 %
 s
@@ -3604,7 +3590,6 @@ new
     
 separator
 =
-u
 "
 \
 0
@@ -3617,7 +3602,6 @@ null
 "
 ]
 else
-u
 "
 \
 n

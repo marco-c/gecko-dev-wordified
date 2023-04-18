@@ -67,9 +67,6 @@ ServoCommandExtensions
     
 class
 ServoCommandExtensions
-(
-object
-)
 :
         
 def
@@ -718,7 +715,7 @@ except
 socket
 .
 timeout
-IOError
+OSError
 )
 :
                 
@@ -818,7 +815,7 @@ except
 socket
 .
 timeout
-IOError
+OSError
 )
 :
             
@@ -1090,7 +1087,7 @@ timeout
 timeout
             
 except
-IOError
+OSError
 :
                 
 msg
@@ -1532,7 +1529,7 @@ result
 )
         
 except
-IOError
+OSError
 :
             
 return
@@ -1717,7 +1714,7 @@ timeout
 timeout
             
 except
-IOError
+OSError
 :
                 
 msg

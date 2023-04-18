@@ -16,9 +16,6 @@ object
 )
 class
 Step
-(
-object
-)
 :
     
 provides
@@ -318,9 +315,6 @@ in
 state
 class
 StepRunner
-(
-object
-)
 :
     
 steps

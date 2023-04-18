@@ -439,7 +439,6 @@ item_classes
     
 path
 =
-u
 "
 a
 "
@@ -470,7 +469,6 @@ text
 (
 alphabet
 =
-u
 "
 0123456789abcdef
 "
@@ -517,7 +515,6 @@ PrintRefTest
         
 ref_path
 =
-u
 "
 b
 "
@@ -661,7 +658,6 @@ characters
 (
 blacklist_characters
 =
-u
 "
 \
 0
@@ -897,12 +893,10 @@ hs
 sampled_from
 (
 [
-u
 "
 =
 =
 "
-u
 "
 !
 =

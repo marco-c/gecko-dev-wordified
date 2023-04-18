@@ -114,9 +114,6 @@ return
 inner
 class
 Timeouts
-(
-object
-)
 :
     
 def
@@ -402,9 +399,6 @@ implicit
 )
 class
 ActionSequence
-(
-object
-)
 :
     
 "
@@ -1942,9 +1936,6 @@ return
 self
 class
 Actions
-(
-object
-)
 :
     
 def
@@ -2132,9 +2123,6 @@ kwargs
 )
 class
 Window
-(
-object
-)
 :
     
 identifier
@@ -2799,9 +2787,6 @@ session
 )
 class
 Frame
-(
-object
-)
 :
     
 identifier
@@ -2860,9 +2845,6 @@ session
 )
 class
 ShadowRoot
-(
-object
-)
 :
     
 identifier
@@ -2985,23 +2967,20 @@ None
         
 url
 =
+f
 "
 shadow
 /
 {
-}
-/
-{
-}
-"
-.
-format
-(
 self
 .
 id
+}
+/
+{
 uri
-)
+}
+"
         
 return
 self
@@ -3098,9 +3077,6 @@ body
 )
 class
 Find
-(
-object
-)
 :
     
 def
@@ -3200,9 +3176,6 @@ body
 )
 class
 Cookies
-(
-object
-)
 :
     
 def
@@ -3333,9 +3306,6 @@ name
 )
 class
 UserPrompt
-(
-object
-)
 :
     
 def
@@ -3482,9 +3452,6 @@ body
 )
 class
 Session
-(
-object
-)
 :
     
 def
@@ -5542,9 +5509,6 @@ screenshot
 )
 class
 Element
-(
-object
-)
 :
     
 "

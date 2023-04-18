@@ -62,9 +62,6 @@ RECONNECT_TIME
 5sec
 class
 DevicesManager
-(
-object
-)
 :
     
 def
@@ -222,6 +219,7 @@ devices
 raise
 NotFoundException
 (
+f
 "
 Could
 not
@@ -229,14 +227,10 @@ find
 device
 '
 {
+token
 }
 '
 "
-.
-format
-(
-token
-)
 )
         
 return

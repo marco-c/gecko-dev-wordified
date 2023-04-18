@@ -2819,7 +2819,6 @@ command
 =
 "
 {
-0
 }
 "
 .
@@ -2935,7 +2934,7 @@ read
 )
         
 except
-IOError
+OSError
 :
             
 logger

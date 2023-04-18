@@ -180,21 +180,18 @@ pass
 item_classes
 =
 {
-u
 "
 testharness
 "
 :
 TestharnessTest
                 
-u
 "
 reftest
 "
 :
 RefTest
                 
-u
 "
 print
 -
@@ -203,42 +200,36 @@ reftest
 :
 PrintRefTest
                 
-u
 "
 crashtest
 "
 :
 CrashTest
                 
-u
 "
 manual
 "
 :
 ManualTest
                 
-u
 "
 wdspec
 "
 :
 WebDriverSpecTest
                 
-u
 "
 conformancechecker
 "
 :
 ConformanceCheckerTest
                 
-u
 "
 visual
 "
 :
 VisualTest
                 
-u
 "
 support
 "
@@ -616,9 +607,6 @@ return
 rv
 class
 Manifest
-(
-object
-)
 :
     
 def
@@ -874,14 +862,9 @@ is
 not
 None
             
-for
-test
-in
-i
-:
-                
 yield
-test
+from
+i
     
 def
 iterdir
@@ -961,14 +944,9 @@ tpath_len
 tpath
 :
                     
-for
-test
-in
-tests
-:
-                        
 yield
-test
+from
+tests
     
 def
 update
@@ -2513,9 +2491,6 @@ with
 open
 (
 manifest
-"
-r
-"
 encoding
 =
 "
@@ -2553,7 +2528,7 @@ True
 )
         
 except
-IOError
+OSError
 :
             
 return

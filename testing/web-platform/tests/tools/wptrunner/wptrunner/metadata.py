@@ -100,9 +100,6 @@ type
 ignore
 class
 RunInfo
-(
-object
-)
 :
     
 "
@@ -230,10 +227,8 @@ self
 )
 :
         
-for
-key
-value
-in
+yield
+from
 self
 .
 data
@@ -241,11 +236,6 @@ data
 items
 (
 )
-:
-            
-yield
-key
-value
     
 def
 items
@@ -1039,9 +1029,6 @@ the
 conditionals
 class
 InternedData
-(
-object
-)
 :
     
 "
@@ -1893,28 +1880,23 @@ update_from_log
 f
 )
     
-for
-item
-in
+yield
+from
 update_results
 (
 id_test_map
 update_properties
 full_update
-                               
+                              
 disable_intermittent
 update_intermittent
 =
 update_intermittent
-                               
+                              
 remove_intermittent
 =
 remove_intermittent
 )
-:
-        
-yield
-item
 def
 update_results
 (
@@ -2282,9 +2264,6 @@ OSError
 pass
 class
 ExpectedUpdater
-(
-object
-)
 :
     
 def
@@ -4169,9 +4148,6 @@ return
 id_test_map
 class
 PackedResultList
-(
-object
-)
 :
     
 "
@@ -4539,9 +4515,6 @@ item
 )
 class
 TestFileData
-(
-object
-)
 :
     
 __slots__
@@ -4887,8 +4860,7 @@ continue
             
 seen_subtests
 =
-set
-(
+{
 ensure_text
 (
 item
@@ -4906,7 +4878,7 @@ item
 is
 not
 None
-)
+}
             
 missing_subtests
 =

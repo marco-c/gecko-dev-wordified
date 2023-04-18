@@ -1159,21 +1159,18 @@ raise
 ProtocolError
 (
                     
+f
 "
 Unimplemented
 capsule
 type
 :
 {
-}
-"
-.
-format
-(
 capsule
 .
 type
-)
+}
+"
 )
             
 if
@@ -1645,7 +1642,7 @@ headers
 )
         
 except
-IOError
+OSError
 :
             
 self

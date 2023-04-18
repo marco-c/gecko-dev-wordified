@@ -8,9 +8,6 @@ import
 defaultdict
 class
 Node
-(
-object
-)
 :
     
 def
@@ -112,14 +109,9 @@ self
 children
 :
             
-for
-item
-in
-node
-:
-                
 yield
-item
+from
+node
     
 def
 __len__

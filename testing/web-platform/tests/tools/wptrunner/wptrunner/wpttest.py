@@ -59,9 +59,6 @@ reftest
 }
 class
 Result
-(
-object
-)
 :
     
 def
@@ -200,9 +197,6 @@ status
 )
 class
 SubtestResult
-(
-object
-)
 :
     
 def
@@ -1404,9 +1398,6 @@ http
 "
 class
 Test
-(
-object
-)
 :
     
 result_cls
@@ -1886,19 +1877,14 @@ _get_metadata
 (
 )
         
-for
-metadata
-in
+yield
+from
 reversed
 (
 self
 .
 _inherit_metadata
 )
-:
-            
-yield
-metadata
     
 def
 disabled
@@ -4251,8 +4237,6 @@ False
         
 super
 (
-PrintReftestTest
-self
 )
 .
 __init__
@@ -4262,13 +4246,13 @@ tests_root
 url
 inherit_metadata
 test_metadata
-                                               
+                         
 references
 timeout
 path
 viewport_size
 dpi
-                                               
+                         
 fuzzy
 protocol
 subdomain
@@ -4296,8 +4280,6 @@ rv
 =
 super
 (
-PrintReftestTest
-cls
 )
 .
 cls_kwargs

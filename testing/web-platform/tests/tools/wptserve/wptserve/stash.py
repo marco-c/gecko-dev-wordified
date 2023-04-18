@@ -238,9 +238,6 @@ QueueProxy
 )
 class
 StashServer
-(
-object
-)
 :
     
 def
@@ -562,9 +559,6 @@ _authkey
 )
 class
 LockWrapper
-(
-object
-)
 :
     
 def
@@ -659,9 +653,6 @@ running
 servers
 class
 Stash
-(
-object
-)
 :
     
 "

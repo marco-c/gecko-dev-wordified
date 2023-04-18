@@ -437,16 +437,13 @@ except
 socket
 .
 timeout
-                    
 error
 .
 NoSuchWindowException
-                    
 error
 .
 UnknownErrorException
-                    
-IOError
+OSError
 )
 :
                 
@@ -2300,8 +2297,6 @@ kwargs
         
 super
 (
-WebDriverProtocol
-self
 )
 .
 __init__

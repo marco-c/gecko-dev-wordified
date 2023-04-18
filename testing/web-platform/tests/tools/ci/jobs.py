@@ -470,9 +470,6 @@ return
 path
 class
 Ruleset
-(
-object
-)
 :
     
 def

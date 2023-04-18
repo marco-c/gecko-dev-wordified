@@ -591,7 +591,6 @@ id
                        
 subtest
 =
-u
 "
 Name
 with
@@ -608,7 +607,6 @@ FAIL
                        
 message
 =
-u
 "
 \
 U0001F601
@@ -639,7 +637,6 @@ PASS
                     
 message
 =
-u
 "
 \
 uDE0A
@@ -752,7 +749,6 @@ message
 ]
 =
 =
-u
 "
 U
 +
@@ -784,7 +780,6 @@ name
 ]
 =
 =
-u
 "
 Name
 with
@@ -802,7 +797,6 @@ message
 ]
 =
 =
-u
 "
 \
 U0001F601
@@ -1051,7 +1045,6 @@ status
 ]
 =
 =
-u
 "
 OK
 "
@@ -1077,7 +1070,6 @@ expected
 ]
 =
 =
-u
 "
 PASS
 "
@@ -1092,7 +1084,6 @@ known_intermittent
 =
 =
 [
-u
 '
 FAIL
 '

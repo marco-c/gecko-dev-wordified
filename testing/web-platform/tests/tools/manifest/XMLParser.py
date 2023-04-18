@@ -225,9 +225,6 @@ type
 int
 class
 XMLParser
-(
-object
-)
 :
     
 "

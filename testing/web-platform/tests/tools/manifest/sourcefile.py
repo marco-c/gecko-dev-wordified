@@ -279,7 +279,6 @@ _
 )
 space_chars
 =
-u
 "
 "
 .
@@ -1378,29 +1377,23 @@ type
 ignore
 class
 SourceFile
-(
-object
-)
 :
     
 parsers
 =
 {
-u
 "
 html
 "
 :
 _parse_html
                
-u
 "
 xhtml
 "
 :
 _parse_xml
                
-u
 "
 svg
 "
@@ -1427,7 +1420,6 @@ Element
 root_dir_non_test
 =
 {
-u
 "
 common
 "
@@ -1436,17 +1428,14 @@ common
 dir_non_test
 =
 {
-u
 "
 resources
 "
                     
-u
 "
 support
 "
                     
-u
 "
 tools
 "
@@ -1456,37 +1445,30 @@ dir_path_non_test
 =
 {
 (
-u
 "
 css21
 "
-u
 "
 archive
 "
 )
                          
 (
-u
 "
 css
 "
-u
 "
 CSS2
 "
-u
 "
 archive
 "
 )
                          
 (
-u
 "
 css
 "
-u
 "
 common
 "
@@ -1648,11 +1630,9 @@ rel_path
 .
 replace
 (
-u
 "
 /
 "
-u
 "
 \
 \
@@ -2582,7 +2562,6 @@ self
 .
 name_prefix
 (
-u
 "
 MANIFEST
 "
@@ -2594,7 +2573,6 @@ self
 filename
 =
 =
-u
 "
 META
 .
@@ -2608,7 +2586,6 @@ filename
 .
 startswith
 (
-u
 "
 .
 "
@@ -2621,7 +2598,6 @@ filename
 .
 endswith
 (
-u
 "
 .
 headers
@@ -2635,7 +2611,6 @@ filename
 .
 endswith
 (
-u
 "
 .
 ini
@@ -3516,7 +3491,6 @@ ext
 ]
 =
 =
-u
 "
 .
 "
@@ -3534,11 +3508,9 @@ if
 ext
 in
 [
-u
 "
 html
 "
-u
 "
 htm
 "
@@ -3546,7 +3518,6 @@ htm
 :
             
 return
-u
 "
 html
 "
@@ -3555,15 +3526,12 @@ if
 ext
 in
 [
-u
 "
 xhtml
 "
-u
 "
 xht
 "
-u
 "
 xml
 "
@@ -3571,7 +3539,6 @@ xml
 :
             
 return
-u
 "
 xhtml
 "
@@ -3580,14 +3547,12 @@ if
 ext
 =
 =
-u
 "
 svg
 "
 :
             
 return
-u
 "
 svg
 "
@@ -4400,11 +4365,9 @@ attrib
 .
 get
 (
-u
 "
 content
 "
-u
 "
 "
 )
@@ -4419,7 +4382,6 @@ item
 .
 rsplit
 (
-u
 "
 :
 "
@@ -4519,12 +4481,10 @@ reftype
 not
 in
 (
-u
 "
 =
 =
 "
-u
 "
 !
 =
@@ -4749,11 +4709,9 @@ rv
 args
 =
 [
-u
 "
 maxDifference
 "
-u
 "
 totalPixels
 "
@@ -4783,7 +4741,6 @@ value
 .
 split
 (
-u
 "
 ;
 "
@@ -4867,7 +4824,6 @@ Text
 ]
                 
 if
-u
 "
 =
 "
@@ -4878,7 +4834,7 @@ range_str_value
 name
 range_str_value
 =
-[
+(
 part
 .
 strip
@@ -4892,13 +4848,12 @@ range_str_value
 .
 split
 (
-u
 "
 =
 "
 1
 )
-]
+)
                     
 if
 name
@@ -4950,7 +4905,6 @@ name
 )
                 
 if
-u
 "
 -
 "
@@ -4965,7 +4919,6 @@ range_str_value
 .
 split
 (
-u
 "
 -
 "
@@ -7858,7 +7811,6 @@ name_is_multi_global
             
 globals
 =
-u
 "
 "
             

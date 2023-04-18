@@ -126,9 +126,6 @@ __name__
 )
 class
 Virtualenv
-(
-object
-)
 :
     
 def
@@ -587,14 +584,10 @@ base
 "
 lib
 "
+f
 "
 python
 {
-}
-"
-.
-format
-(
 sys
 .
 version
@@ -602,7 +595,8 @@ version
 :
 3
 ]
-)
+}
+"
 "
 site
 -

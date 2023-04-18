@@ -135,8 +135,6 @@ None
         
 super
 (
-WebDriverException
-self
 )
         
 if

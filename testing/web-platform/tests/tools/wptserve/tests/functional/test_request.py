@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 pytest
 from
@@ -1206,7 +1194,6 @@ crash
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1277,7 +1264,6 @@ verbatim
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1401,7 +1387,6 @@ UTF
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1531,7 +1516,6 @@ UTF
         
 encoded_text
 =
-u
 "
 "
 .
@@ -1748,7 +1732,6 @@ b
         
 encoded_text
 =
-u
 "
 "
 .

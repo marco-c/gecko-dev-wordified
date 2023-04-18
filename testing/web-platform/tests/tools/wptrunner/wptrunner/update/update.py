@@ -1021,9 +1021,6 @@ UpdateMetadata
 ]
 class
 WPTUpdate
-(
-object
-)
 :
     
 def

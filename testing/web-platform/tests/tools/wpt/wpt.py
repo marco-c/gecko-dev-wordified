@@ -163,6 +163,7 @@ raise
 KeyError
 (
                 
+f
 '
 Unsupported
 conditional
@@ -170,13 +171,9 @@ requirement
 key
 :
 {
+key
 }
 '
-.
-format
-(
-key
-)
 )
     
 return
@@ -214,9 +211,6 @@ here
 paths
 "
 )
-"
-r
-"
 )
 as
 f
@@ -292,9 +286,6 @@ with
 open
 (
 abs_path
-"
-r
-"
 )
 as
 f

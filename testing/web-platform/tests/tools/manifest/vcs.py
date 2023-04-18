@@ -171,7 +171,6 @@ path
 join
 (
 tests_root
-u
 "
 .
 wptcache
@@ -201,7 +200,7 @@ cache_root
 )
         
 except
-IOError
+OSError
 :
             
 cache_root
@@ -257,9 +256,6 @@ return
 tree
 class
 GitHasher
-(
-object
-)
 :
     
 def
@@ -642,9 +638,6 @@ return
 hash_cache
 class
 FileSystem
-(
-object
-)
 :
     
 def
@@ -1189,9 +1182,6 @@ open
 self
 .
 path
-'
-r
-'
 )
 as
 f
@@ -1225,7 +1215,7 @@ data
 )
         
 except
-IOError
+OSError
 :
             
 pass
@@ -1301,7 +1291,6 @@ CacheFile
     
 file_name
 =
-u
 "
 mtime
 .
@@ -1342,8 +1331,6 @@ manifest_path
         
 super
 (
-MtimeCache
-self
 )
 .
 __init__
@@ -1479,7 +1466,6 @@ data
 .
 get
 (
-u
 "
 /
 tests_root
@@ -1539,7 +1525,6 @@ data
 .
 get
 (
-u
 "
 /
 manifest_path
@@ -1685,8 +1670,6 @@ tests_root
         
 super
 (
-MtimeCache
-self
 )
 .
 dump
@@ -1767,7 +1750,6 @@ data
 .
 get
 (
-u
 "
 /
 gitignore_file
@@ -1794,7 +1776,6 @@ data
             
 data
 [
-u
 "
 /
 gitignore_file

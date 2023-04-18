@@ -245,9 +245,6 @@ return
 new_path
 class
 DirectoryHandler
-(
-object
-)
 :
     
 def
@@ -1572,7 +1569,7 @@ read
 )
         
 except
-IOError
+OSError
 :
             
 return
@@ -1669,9 +1666,6 @@ path
 )
 class
 FileHandler
-(
-object
-)
 :
     
 def
@@ -1944,10 +1938,7 @@ return
 response
         
 except
-(
 OSError
-IOError
-)
 :
             
 raise
@@ -2326,9 +2317,6 @@ FileHandler
 )
 class
 PythonScriptHandler
-(
-object
-)
 :
     
 def
@@ -2565,7 +2553,7 @@ path
 )
         
 except
-IOError
+OSError
 :
             
 raise
@@ -2873,9 +2861,6 @@ PythonScriptHandler
 )
 class
 FunctionHandler
-(
-object
-)
 :
     
 def
@@ -3060,9 +3045,6 @@ func
 )
 class
 JsonHandler
-(
-object
-)
 :
     
 def
@@ -3239,9 +3221,6 @@ func
 )
 class
 AsIsHandler
-(
-object
-)
 :
     
 def
@@ -3335,7 +3314,7 @@ close_connection
 True
         
 except
-IOError
+OSError
 :
             
 raise
@@ -3350,9 +3329,6 @@ AsIsHandler
 )
 class
 BasicAuthHandler
-(
-object
-)
 :
     
 def
@@ -3566,9 +3542,6 @@ None
 )
 class
 ErrorHandler
-(
-object
-)
 :
     
 def
@@ -3604,9 +3577,6 @@ status
 )
 class
 StringHandler
-(
-object
-)
 :
     
 def
@@ -3908,8 +3878,6 @@ format_args
 return
 super
 (
-StaticHandler
-self
 )
 .
 __init__

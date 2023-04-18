@@ -39,9 +39,6 @@ object
 )
 class
 Server
-(
-object
-)
 :
     
 "
@@ -175,9 +172,6 @@ self
 _stash
 class
 InputFile
-(
-object
-)
 :
     
 max_buffer_size
@@ -922,9 +916,6 @@ return
 self
 class
 Request
-(
-object
-)
 :
     
 "
@@ -2192,8 +2183,6 @@ frames
         
 super
 (
-H2Request
-self
 )
 .
 __init__
@@ -2764,9 +2753,6 @@ item
 ]
 class
 CookieValue
-(
-object
-)
 :
     
 "
@@ -3929,8 +3915,6 @@ string
         
 super
 (
-BinaryCookieParser
-self
 )
 .
 load
@@ -3997,9 +3981,6 @@ key
 )
 class
 Authentication
-(
-object
-)
 :
     
 "

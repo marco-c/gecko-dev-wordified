@@ -569,6 +569,7 @@ Python
 cmd
 =
 (
+f
 "
 openssl
 x509
@@ -583,13 +584,6 @@ cert_path
 }
 |
 "
-.
-format
-(
-cert_path
-=
-cert_path
-)
 +
            
 "

@@ -100,8 +100,6 @@ str
         
 super
 (
-BidiException
-self
 )
         
 self

@@ -72,9 +72,9 @@ Optional
 [
 Tuple
 [
-Text
-Text
-Text
+str
+str
+str
 ]
 ]
 List
@@ -87,7 +87,7 @@ PageRanges
 =
 Dict
 [
-Text
+str
 List
 [
 int
@@ -187,8 +187,6 @@ inst
 =
 super
 (
-ManifestItemMeta
-cls
 )
 .
 __new__
@@ -772,8 +770,6 @@ None
         
 super
 (
-URLManifestItem
-self
 )
 .
 __init__
@@ -950,7 +946,6 @@ os
 path
 .
 sep
-u
 "
 /
 "
@@ -1174,7 +1169,6 @@ os
 path
 .
 sep
-u
 "
 /
 "
@@ -1487,8 +1481,6 @@ rv
 =
 super
 (
-TestharnessTest
-self
 )
 .
 to_json
@@ -1678,8 +1670,6 @@ Any
         
 super
 (
-RefTest
-self
 )
 .
 __init__
@@ -2354,8 +2344,6 @@ rv
 =
 super
 (
-PrintRefTest
-self
 )
 .
 to_json
@@ -2559,8 +2547,6 @@ rv
 =
 super
 (
-WebDriverSpecTest
-self
 )
 .
 to_json

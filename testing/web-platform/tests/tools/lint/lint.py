@@ -261,10 +261,10 @@ Ignorelist
 =
 Dict
 [
-Text
+str
 Dict
 [
-Text
+str
 Set
 [
 Optional
@@ -477,8 +477,6 @@ else
         
 format
 =
-str
-(
 "
 %
 (
@@ -486,7 +484,6 @@ message
 )
 s
 "
-)
     
 formatter
 =
@@ -2257,12 +2254,10 @@ path
 .
 replace
 (
-u
 "
 \
 \
 "
-u
 "
 /
 "
@@ -2274,7 +2269,6 @@ path
 .
 startswith
 (
-u
 "
 css
 /
@@ -2290,7 +2284,6 @@ SourceFile
 (
 repo_root
 path
-u
 "
 /
 "
@@ -2355,7 +2348,6 @@ path
 .
 find
 (
-u
 "
 /
 support
@@ -2409,7 +2401,6 @@ source_file
 dir_non_test
 -
 {
-u
 "
 support
 "
@@ -2506,12 +2497,10 @@ test_name
 .
 replace
 (
-u
 '
 -
 manual
 '
-u
 '
 '
 )
@@ -2618,7 +2607,6 @@ SourceFile
 (
 repo_root
 path
-u
 "
 /
 "
@@ -8532,9 +8520,6 @@ lint
 ignore
 "
 )
-"
-r
-"
 )
 as
 f

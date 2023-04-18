@@ -75,9 +75,6 @@ return
 item
 class
 Raw
-(
-object
-)
 :
     
 "
@@ -129,9 +126,6 @@ value
 )
 class
 Node
-(
-object
-)
 :
     
 "
@@ -332,9 +326,6 @@ utf8
 )
 class
 RootNode
-(
-object
-)
 :
     
 "
@@ -531,9 +522,6 @@ return
 rv
 class
 HTML
-(
-object
-)
 :
     
 "
@@ -835,9 +823,6 @@ HTML
 )
 class
 TestResult
-(
-object
-)
 :
     
 "

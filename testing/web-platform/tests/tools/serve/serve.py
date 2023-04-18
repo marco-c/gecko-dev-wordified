@@ -289,9 +289,6 @@ slice_index
 ]
 class
 WrapperHandler
-(
-object
-)
 :
     
 __meta__
@@ -907,23 +904,16 @@ as
 f
 :
                 
-for
-key
-value
-in
+yield
+from
 read_script_metadata
 (
 f
 js_meta_re
 )
-:
-                    
-yield
-key
-value
         
 except
-IOError
+OSError
 :
             
 raise
@@ -1324,7 +1314,6 @@ global_type
             
 globals
 =
-u
 "
 "
             
@@ -3329,9 +3318,6 @@ js
 ]
 class
 RoutesBuilder
-(
-object
-)
 :
     
 def
@@ -4164,9 +4150,6 @@ return
 builder
 class
 ServerProc
-(
-object
-)
 :
     
 def
@@ -4785,24 +4768,21 @@ log_handlers
     
 url
 =
+f
 "
 http
 :
 /
 /
 {
+host
 }
 :
 {
+port
 }
 /
 "
-.
-format
-(
-host
-port
-)
     
 connected
 =
@@ -4944,22 +4924,19 @@ logger
 .
 critical
 (
+f
 "
 Failed
 probing
 domain
 {
+domain
 }
 .
 {
+EDIT_HOSTS_HELP
 }
 "
-.
-format
-(
-domain
-EDIT_HOSTS_HELP
-)
 )
             
 sys
@@ -5840,9 +5817,6 @@ logger
 )
 class
 WebSocketDaemon
-(
-object
-)
 :
     
 def
@@ -6497,6 +6471,7 @@ logger
 critical
 (
             
+f
 "
 Failed
 to
@@ -6509,13 +6484,9 @@ HTTP
 server
 :
 {
+error
 }
 "
-.
-format
-(
-error
-)
 )
         
 sys
@@ -6655,7 +6626,6 @@ str
     
 return
 {
-u
 "
 .
 "
@@ -6708,7 +6678,6 @@ str
     
 return
 {
-u
 "
 op
 %
@@ -6730,26 +6699,21 @@ limit
 _subdomains
 =
 {
-u
 "
 www
 "
                
-u
 "
 www1
 "
                
-u
 "
 www2
 "
                
-u
 "
 "
                
-u
 "
 l
 ve
@@ -6758,7 +6722,6 @@ ve
 _not_subdomains
 =
 {
-u
 "
 nonexistent
 "
@@ -7293,8 +7256,6 @@ _not_subdomains
         
 super
 (
-ConfigBuilder
-self
 )
 .
 __init__
@@ -7438,8 +7399,6 @@ rv
 =
 super
 (
-ConfigBuilder
-self
 )
 .
 _get_paths
@@ -8146,9 +8105,6 @@ return
 parser
 class
 MpContext
-(
-object
-)
 :
     
 def
@@ -8541,9 +8497,6 @@ kwargs
 alias_file
 "
 ]
-'
-r
-'
 )
 as
 alias_file
@@ -8558,7 +8511,7 @@ alias_file
 alias
 doc_root
 =
-[
+(
 x
 .
 strip
@@ -8574,7 +8527,7 @@ split
 '
 '
 )
-]
+)
                     
 config
 [

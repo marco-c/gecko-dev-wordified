@@ -1200,7 +1200,7 @@ range_str_value
 name
 range_str_value
 =
-[
+(
 part
 .
 strip
@@ -1219,7 +1219,7 @@ split
 "
 1
 )
-]
+)
                 
 if
 name
@@ -3145,7 +3145,7 @@ url_base
 )
     
 except
-IOError
+OSError
 :
         
 return
@@ -3255,7 +3255,7 @@ DirectoryManifest
 )
     
 except
-IOError
+OSError
 :
         
 return

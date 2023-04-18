@@ -60,9 +60,6 @@ object
 )
 class
 Response
-(
-object
-)
 :
     
 "
@@ -1711,7 +1708,6 @@ self
 code
 message
 =
-u
 "
 "
 )
@@ -1925,9 +1921,6 @@ message
 )
 class
 MultipartContent
-(
-object
-)
 :
     
 def
@@ -2162,9 +2155,6 @@ yield
 self
 class
 MultipartPart
-(
-object
-)
 :
     
 def
@@ -2418,9 +2408,6 @@ s
 )
 class
 ResponseHeaders
-(
-object
-)
 :
     
 "
@@ -2930,8 +2917,6 @@ request
         
 super
 (
-H2Response
-self
 )
 .
 __init__
@@ -3081,9 +3066,6 @@ True
 )
 class
 H2ResponseWriter
-(
-object
-)
 :
     
 def
@@ -5048,9 +5030,6 @@ raise
 ValueError
 class
 ResponseWriter
-(
-object
-)
 :
     
 "

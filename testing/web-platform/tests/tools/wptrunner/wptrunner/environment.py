@@ -488,9 +488,6 @@ join
 )
 class
 TestEnvironment
-(
-object
-)
 :
     
 "
@@ -1953,7 +1950,7 @@ each_sleep_secs
 )
         
 raise
-EnvironmentError
+OSError
 (
 "
 Servers
@@ -1965,7 +1962,7 @@ start
 s
 "
 %
-                               
+                      
 "
 "
 .
@@ -2312,9 +2309,7 @@ timeout
 pass
         
 except
-socket
-.
-error
+OSError
 as
 e
 :
@@ -2375,9 +2370,7 @@ sleep
 )
     
 raise
-socket
-.
-error
+OSError
 (
 "
 Service

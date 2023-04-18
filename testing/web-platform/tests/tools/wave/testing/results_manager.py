@@ -141,9 +141,6 @@ SESSION_RESULTS_TIMEOUT
 30min
 class
 ResultsManager
-(
-object
-)
 :
     
 def
@@ -1667,26 +1664,23 @@ return
 None
         
 return
+f
 "
 /
 results
 /
 {
+token
 }
 /
 {
+api
 }
 /
 all
 .
 html
 "
-.
-format
-(
-token
-api
-)
     
 def
 read_results_wpt_multi_report_uri
@@ -1757,22 +1751,19 @@ api
 )
         
 return
+f
 "
 /
 results
 /
 {
+relative_api_directory_path
 }
 /
 all
 .
 html
 "
-.
-format
-(
-relative_api_directory_path
-)
     
 def
 delete_results
@@ -2041,9 +2032,6 @@ with
 open
 (
 file_path
-"
-r
-"
 )
 as
 file
@@ -3480,9 +3468,6 @@ with
 open
 (
 file_path
-"
-r
-"
 )
 as
 file
@@ -3899,9 +3884,6 @@ with
 open
 (
 zip_file_name
-"
-r
-"
 )
 as
 file
@@ -3953,19 +3935,16 @@ None
 raise
 NotFoundException
 (
+f
 "
 Could
 not
 find
 session
 {
+token
 }
 "
-.
-format
-(
-token
-)
 )
         
 tmp_file_name
@@ -4254,9 +4233,6 @@ with
 open
 (
 info_file_path
-"
-r
-"
 )
 as
 info_file
@@ -4316,15 +4292,9 @@ PermissionDeniedException
         
 tmp_file_name
 =
+f
 "
 {
-}
-.
-zip
-"
-.
-format
-(
 str
 (
 time
@@ -4333,7 +4303,10 @@ time
 (
 )
 )
-)
+}
+.
+zip
+"
         
 with
 open

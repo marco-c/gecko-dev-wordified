@@ -1115,9 +1115,6 @@ literal
 pattern
 class
 PathFilter
-(
-object
-)
 :
     
 def
