@@ -230,8 +230,7 @@ addr
 nsACString
 &
 dst
-const
-int
+size_t
 i
 )
 {

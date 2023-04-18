@@ -154,7 +154,7 @@ public
 :
 template
 <
-int
+size_t
 N
 >
 ModuleLoadCounter
@@ -186,7 +186,7 @@ N
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -218,7 +218,7 @@ i
 }
 template
 <
-int
+size_t
 N
 >
 bool
@@ -277,7 +277,7 @@ true
 ;
 for
 (
-int
+size_t
 i
 =
 0
