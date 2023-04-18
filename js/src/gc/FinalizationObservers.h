@@ -498,7 +498,7 @@ WrapperWeakSet
 ObjectValueWeakMap
 ;
 WrapperWeakSet
-crossZoneWrappers
+crossZoneRecords
 ;
 /
 /
@@ -651,6 +651,9 @@ private
 bool
 addCrossZoneWrapper
 (
+WrapperWeakSet
+&
+weakSet
 JSObject
 *
 wrapper
@@ -659,6 +662,9 @@ wrapper
 void
 removeCrossZoneWrapper
 (
+WrapperWeakSet
+&
+weakSet
 JSObject
 *
 wrapper
