@@ -299,10 +299,14 @@ join
             
 fetches_dir
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 "
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 "
         
 )

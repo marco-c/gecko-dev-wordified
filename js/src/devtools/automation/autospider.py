@@ -3456,10 +3456,14 @@ DIR
 fetches
 )
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 "
 "
-minidump_stackwalk
+minidump
+-
+stackwalk
 "
 )
     
