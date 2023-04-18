@@ -2556,10 +2556,10 @@ GetSenderStats
 const
 RefPtr
 <
-MediaPipelineTransmit
+TransceiverImpl
 >
 &
-aPipeline
+aTransceiver
 )
 ;
 RefPtr
