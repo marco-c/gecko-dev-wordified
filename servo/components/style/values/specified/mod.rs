@@ -1099,16 +1099,6 @@ use
 self
 :
 :
-text
-:
-:
-HyphenateCharacter
-;
-pub
-use
-self
-:
-:
 time
 :
 :
