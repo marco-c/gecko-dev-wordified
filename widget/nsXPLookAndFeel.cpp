@@ -249,15 +249,6 @@ include
 "
 mozilla
 /
-StaticPrefs_findbar
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_ui
 .
 h

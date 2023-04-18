@@ -8801,6 +8801,16 @@ matchdiacritics
 0
 )
 ;
+pref
+(
+"
+findbar
+.
+modalHighlight
+"
+false
+)
+;
 /
 /
 use
