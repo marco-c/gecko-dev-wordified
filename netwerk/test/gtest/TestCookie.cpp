@@ -10514,7 +10514,7 @@ SameSite
 nsICookie
 :
 :
-SAMESITE_NONE
+SAMESITE_LAX
 )
 ;
 }
