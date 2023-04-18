@@ -517,6 +517,15 @@ stdint
 .
 h
 >
+#
+include
+"
+hwy
+/
+highway_export
+.
+h
+"
 /
 /
 Enables
@@ -655,6 +664,7 @@ cache
 the
 result
 .
+HWY_DLLEXPORT
 double
 InvariantTicksPerSecond
 (
@@ -707,6 +717,7 @@ of
 microseconds
 )
 .
+HWY_DLLEXPORT
 double
 Now
 (
@@ -755,6 +766,7 @@ cache
 the
 result
 .
+HWY_DLLEXPORT
 uint64_t
 TimerResolution
 (
@@ -787,6 +799,7 @@ optimizing
 out
 code
 .
+HWY_DLLEXPORT
 int
 Unpredictable1
 (
@@ -1443,6 +1456,7 @@ to
 stderr
 )
 .
+HWY_DLLEXPORT
 size_t
 Measure
 (

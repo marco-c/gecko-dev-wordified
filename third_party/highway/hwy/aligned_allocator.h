@@ -163,6 +163,15 @@ include
 <
 memory
 >
+#
+include
+"
+hwy
+/
+highway_export
+.
+h
+"
 namespace
 hwy
 {
@@ -313,6 +322,7 @@ it
 is
 null
 .
+HWY_DLLEXPORT
 void
 *
 AllocateAlignedBytes
@@ -382,6 +392,7 @@ free
 (
 )
 .
+HWY_DLLEXPORT
 void
 FreeAlignedBytes
 (
@@ -638,6 +649,7 @@ size_t
 t_size
 )
 ;
+HWY_DLLEXPORT
 static
 void
 DeleteAlignedArray

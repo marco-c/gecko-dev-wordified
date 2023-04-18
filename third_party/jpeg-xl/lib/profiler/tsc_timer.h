@@ -149,7 +149,7 @@ endif
 if
 defined
 (
-__MACH__
+__APPLE__
 )
 #
 include
@@ -1127,7 +1127,7 @@ QuadPart
 elif
 defined
 (
-__MACH__
+__APPLE__
 )
 t
 =

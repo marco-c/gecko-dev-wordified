@@ -276,7 +276,7 @@ endif
 if
 defined
 (
-__MACH__
+__APPLE__
 )
 #
 include
@@ -1305,7 +1305,7 @@ QuadPart
 elif
 defined
 (
-__MACH__
+__APPLE__
 )
 t
 =
@@ -3241,6 +3241,7 @@ HWY_ARCH_X86
 /
 /
 namespace
+HWY_DLLEXPORT
 double
 InvariantTicksPerSecond
 (
@@ -3326,7 +3327,7 @@ QuadPart
 elif
 defined
 (
-__MACH__
+__APPLE__
 )
 /
 /
@@ -3410,6 +3411,7 @@ nanoseconds
 #
 endif
 }
+HWY_DLLEXPORT
 double
 Now
 (
@@ -3445,6 +3447,7 @@ Start
 mul
 ;
 }
+HWY_DLLEXPORT
 uint64_t
 TimerResolution
 (
@@ -5336,6 +5339,7 @@ input
 /
 /
 namespace
+HWY_DLLEXPORT
 int
 Unpredictable1
 (
@@ -5354,6 +5358,7 @@ Start
 0ULL
 ;
 }
+HWY_DLLEXPORT
 size_t
 Measure
 (
