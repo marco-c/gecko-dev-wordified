@@ -4675,6 +4675,9 @@ mapping
 name
 |
 .
+if
+(
+!
 dumper_
 -
 >
@@ -4685,7 +4688,15 @@ member
 mapping_id
 identifier_bytes
 )
+)
+{
+identifier_bytes
+.
+clear
+(
+)
 ;
+}
 }
 if
 (
