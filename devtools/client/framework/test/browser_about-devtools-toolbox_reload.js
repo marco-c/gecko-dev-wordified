@@ -192,7 +192,7 @@ targetTab
 .
 linkedBrowser
 .
-outerWindowID
+browserId
 remoteId
 :
 "

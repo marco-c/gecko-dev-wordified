@@ -463,7 +463,7 @@ tabs
 {
 Number
 }
-outerWindowID
+browserId
 /
 /
 -

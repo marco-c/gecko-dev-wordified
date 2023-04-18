@@ -797,13 +797,13 @@ rootFront
 getTab
 (
 {
-outerWindowID
+browserId
 :
 tab2
 .
 linkedBrowser
 .
-outerWindowID
+browserId
 }
 )
 ;
@@ -830,7 +830,7 @@ when
 we
 pass
 an
-outerWindowID
+browserId
 "
 )
 ;
