@@ -1075,13 +1075,6 @@ textToSubURI
 UnEscapeURIForUI
 (
 aFragment
-/
-*
-aDontEscape
-=
-*
-/
-true
 aResult
 )
 ;
