@@ -333,6 +333,19 @@ line
             
 return
         
+if
+CodespellProcess
+.
+_fix
+:
+            
+CodespellProcess
+.
+fixed
++
+=
+1
+        
 #
 Ignore
 false
@@ -400,19 +413,6 @@ m
 :
             
 return
-        
-if
-CodespellProcess
-.
-_fix
-:
-            
-CodespellProcess
-.
-fixed
-+
-=
-1
         
 res
 =
