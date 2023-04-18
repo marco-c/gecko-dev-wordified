@@ -451,7 +451,6 @@ fog_init
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -892,7 +891,6 @@ tag
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -953,7 +951,6 @@ name
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -1015,7 +1012,6 @@ configured
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -1062,7 +1058,6 @@ true
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
