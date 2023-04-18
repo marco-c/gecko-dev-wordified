@@ -3284,6 +3284,13 @@ aError
 NS_ERROR_NET_TIMEOUT
 ;
 }
+bool
+SecurityErrorToBeHandledByTransaction
+(
+nsresult
+aReason
+)
+;
 }
 /
 /
