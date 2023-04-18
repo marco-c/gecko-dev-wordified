@@ -629,6 +629,12 @@ aSinceTime
 /
 0
 aUniqueStacks
+mozilla
+:
+:
+ProgressLogger
+{
+}
 )
 ;
 }
@@ -695,6 +701,12 @@ aSinceTime
 /
 0
 aUniqueStacks
+mozilla
+:
+:
+ProgressLogger
+{
+}
 )
 ;
 }
