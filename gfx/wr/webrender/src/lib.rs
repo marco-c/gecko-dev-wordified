@@ -632,10 +632,6 @@ extern
 crate
 svg_fmt
 ;
-extern
-crate
-foreign_types
-;
 #
 [
 macro_use
