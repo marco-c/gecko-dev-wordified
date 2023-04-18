@@ -667,7 +667,7 @@ later
 .
 for
 (
-UINT32
+int
 i
 =
 1

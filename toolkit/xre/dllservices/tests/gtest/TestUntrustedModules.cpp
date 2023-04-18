@@ -154,7 +154,7 @@ public
 :
 template
 <
-size_t
+int
 N
 >
 ModuleLoadCounter
@@ -186,7 +186,7 @@ N
 {
 for
 (
-size_t
+int
 i
 =
 0
@@ -218,7 +218,7 @@ i
 }
 template
 <
-size_t
+int
 N
 >
 bool
@@ -277,7 +277,7 @@ true
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -1418,7 +1418,7 @@ Data
 length
 (
 )
-1U
+1
 )
 ;
 /
@@ -2175,7 +2175,7 @@ EXPECT_EQ
 evt
 .
 mLoadStatus
-0U
+0
 )
 ;
 }
@@ -2345,7 +2345,7 @@ EXPECT_GT
 aData
 .
 mNumEvents
-0U
+0
 )
 ;
 if
@@ -2362,7 +2362,7 @@ mStacks
 GetModuleCount
 (
 )
-0U
+0
 )
 ;
 EXPECT_LE
@@ -2416,7 +2416,7 @@ mStacks
 GetModuleCount
 (
 )
-0U
+0
 )
 ;
 }
@@ -2431,7 +2431,7 @@ mStacks
 GetModuleCount
 (
 )
-0U
+0
 )
 ;
 }
@@ -2440,7 +2440,7 @@ EXPECT_EQ
 aData
 .
 mSanitizationFailures
-0U
+0
 )
 ;
 EXPECT_EQ
@@ -2448,7 +2448,7 @@ EXPECT_EQ
 aData
 .
 mTrustTestFailures
-0U
+0
 )
 ;
 }

@@ -4110,7 +4110,13 @@ aMsgCode
 WM_GETOBJECT
 |
 |
+static_cast
+<
+DWORD
+>
+(
 aLParam
+)
 !
 =
 OBJID_CLIENT

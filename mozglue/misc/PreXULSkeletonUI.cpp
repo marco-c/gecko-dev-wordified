@@ -2585,7 +2585,7 @@ line
 )
 )
 {
-size_t
+int
 whitespace
 =
 0
@@ -7883,7 +7883,7 @@ break
 }
 for
 (
-size_t
+int
 i
 =
 1
@@ -13245,7 +13245,7 @@ get
 ;
 for
 (
-size_t
+int
 i
 =
 0

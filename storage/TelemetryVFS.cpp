@@ -4216,13 +4216,7 @@ mxPathname
 ;
 MOZ_ASSERT
 (
-static_cast
-<
-size_t
->
-(
 nOut
-)
 >
 strlen
 (

@@ -1203,7 +1203,7 @@ mMockWindowsFunctions
 ;
 ASSERT_EQ
 (
-0U
+0
 size
 )
 ;

@@ -376,7 +376,7 @@ in
 between
 them
 .
-size_t
+int
 slashIdx
 =
 aFilename

@@ -682,13 +682,7 @@ EXPECT_EQ
 GetLastError
 (
 )
-static_cast
-<
-DWORD
->
-(
 ERROR_IO_PENDING
-)
 )
 ;
 EXPECT_TRUE
@@ -777,13 +771,7 @@ EXPECT_EQ
 GetLastError
 (
 )
-static_cast
-<
-DWORD
->
-(
 ERROR_IO_PENDING
-)
 )
 ;
 EXPECT_TRUE

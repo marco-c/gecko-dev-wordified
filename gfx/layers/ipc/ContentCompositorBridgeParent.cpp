@@ -1810,16 +1810,10 @@ if
 sequenceNum
 =
 =
-static_cast
-<
-uint32_t
->
-(
 status
 .
 sequenceNumber
 (
-)
 )
 &
 &

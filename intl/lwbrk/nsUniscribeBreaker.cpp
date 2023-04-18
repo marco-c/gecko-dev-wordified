@@ -861,7 +861,7 @@ false
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -938,7 +938,7 @@ uniscribe
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -1004,7 +1004,7 @@ brokered
 ;
 for
 (
-uint32_t
+int
 i
 =
 0

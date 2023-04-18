@@ -1455,16 +1455,10 @@ rejectedReason
 rejectedReason
 !
 =
-static_cast
-<
-uint32_t
->
-(
 nsIWebProgressListener
 :
 :
 STATE_COOKIES_PARTITIONED_FOREIGN
-)
 ;
 /
 /

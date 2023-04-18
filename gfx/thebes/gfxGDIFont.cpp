@@ -3508,7 +3508,7 @@ aUnicode
 WORD
 glyph
 ;
-HRESULT
+DWORD
 ret
 =
 ScriptGetCMap
@@ -3617,7 +3617,6 @@ bug
 1105807
 )
 .
-DWORD
 ret
 =
 GetGlyphIndicesW
