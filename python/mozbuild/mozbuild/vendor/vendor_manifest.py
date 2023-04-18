@@ -1543,7 +1543,7 @@ open
 (
 yaml_file
 "
-w
+wb
 "
 )
 as
@@ -1554,12 +1554,28 @@ f
 .
 write
 (
+(
 "
 "
 .
 join
 (
 yaml
+)
++
+"
+\
+n
+"
+)
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
 )
     
