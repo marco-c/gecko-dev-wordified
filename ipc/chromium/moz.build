@@ -760,7 +760,7 @@ common
 /
 mach_ipc_mac
 .
-mm
+cc
 "
 "
 src
