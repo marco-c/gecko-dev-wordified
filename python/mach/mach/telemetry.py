@@ -377,6 +377,13 @@ NoopTelemetry
 False
 )
     
+is_enabled
+=
+is_telemetry_enabled
+(
+settings
+)
+    
 try
 :
         
@@ -392,7 +399,7 @@ ImportError
 return
 NoopTelemetry
 (
-True
+is_enabled
 )
     
 from
@@ -415,10 +422,7 @@ mach
 Unknown
 "
         
-is_telemetry_enabled
-(
-settings
-)
+is_enabled
         
 data_dir
 =
