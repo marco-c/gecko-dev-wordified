@@ -642,7 +642,7 @@ if
 aPc
 -
 >
-HasMedia
+IsActive
 (
 )
 )
