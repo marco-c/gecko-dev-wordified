@@ -3614,11 +3614,6 @@ isLocked
 *
 /
 false
-ShouldSanitizePreference
-(
-aName
-false
-)
 Nothing
 (
 )

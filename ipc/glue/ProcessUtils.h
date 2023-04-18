@@ -214,12 +214,11 @@ bool
 const
 char
 *
-bool
 )
 >
 &
 &
-aShouldSanitizeFn
+aShouldSerializeFn
 )
 ;
 SharedPreferenceSerializer
@@ -334,10 +333,9 @@ bool
 const
 char
 *
-bool
 )
 >
-mShouldSanitizeFn
+mShouldSerializeFn
 ;
 }
 ;

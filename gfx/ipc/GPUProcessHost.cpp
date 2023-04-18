@@ -355,7 +355,13 @@ ipc
 SharedPreferenceSerializer
 >
 (
-ShouldSanitizePreference
+dom
+:
+:
+ContentParent
+:
+:
+ShouldSyncPreference
 )
 ;
 if

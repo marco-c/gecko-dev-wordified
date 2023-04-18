@@ -8692,6 +8692,16 @@ UpdateNetworkLinkType
 (
 )
 ;
+static
+bool
+ShouldSyncPreference
+(
+const
+char
+*
+aPref
+)
+;
 already_AddRefed
 <
 JSActor

@@ -458,7 +458,16 @@ extraArgs
 SharedPreferenceSerializer
 prefSerializer
 (
-ShouldSanitizePreference
+mozilla
+:
+:
+dom
+:
+:
+ContentParent
+:
+:
+ShouldSyncPreference
 )
 ;
 if
