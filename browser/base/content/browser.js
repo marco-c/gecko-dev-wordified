@@ -57078,6 +57078,17 @@ _didOpenHTMLDialog
 :
 false
 get
+dialog
+(
+)
+{
+return
+this
+.
+_dialog
+;
+}
+get
 isOpen
 (
 )
