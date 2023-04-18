@@ -216,6 +216,15 @@ include
 "
 mozilla
 /
+ProfilerThreadSleep
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Components
 .
 h
