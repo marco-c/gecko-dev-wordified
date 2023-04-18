@@ -1490,7 +1490,7 @@ __asm__
 volatile
 (
 "
-xor
+pxor
 %
 [
 ftmp0

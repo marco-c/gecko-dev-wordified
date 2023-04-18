@@ -633,8 +633,8 @@ vpx_reader_init
 br
 bw_buffer
 kBufferSize
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 bit_rnd

@@ -189,6 +189,17 @@ only
 -
 bit
 depth
+NV12
+/
+/
+4
+:
+2
+:
+0
+with
+uv
+interleaved
 }
 ColorInputType
 ;

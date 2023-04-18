@@ -248,7 +248,7 @@ height
 }
 static
 void
-SetUpTestCase
+SetUpTestSuite
 (
 )
 {
@@ -285,7 +285,7 @@ kDataBufferSize
 }
 static
 void
-TearDownTestCase
+TearDownTestSuite
 (
 )
 {
@@ -296,7 +296,7 @@ source_data_
 ;
 source_data_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -305,7 +305,7 @@ reference_data_
 ;
 reference_data_
 =
-NULL
+nullptr
 ;
 }
 virtual
@@ -1058,7 +1058,7 @@ BlockinessTestBase
 :
 source_data_
 =
-NULL
+nullptr
 ;
 uint8_t
 *
@@ -1067,7 +1067,7 @@ BlockinessTestBase
 :
 reference_data_
 =
-NULL
+nullptr
 ;
 #
 if
@@ -1441,7 +1441,7 @@ make_tuple
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 BlockinessVP9Test

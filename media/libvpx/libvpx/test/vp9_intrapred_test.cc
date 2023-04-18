@@ -236,11 +236,11 @@ IntraPredParam
 IntraPredFunc
 pred
 =
-NULL
+nullptr
 IntraPredFunc
 ref
 =
-NULL
+nullptr
 int
 block_size_value
 =
@@ -894,7 +894,7 @@ tests
 are
 enabled
 .
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 VP9IntraPredTest
@@ -920,7 +920,7 @@ vpx_d45_predictor_4x4_c
 #
 if
 HAVE_SSE2
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 VP9IntraPredTest
@@ -1221,7 +1221,7 @@ HAVE_SSE2
 #
 if
 HAVE_SSSE3
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSSE3
 VP9IntraPredTest
@@ -1360,7 +1360,7 @@ HAVE_SSSE3
 #
 if
 HAVE_NEON
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 VP9IntraPredTest
@@ -1706,7 +1706,7 @@ HAVE_NEON
 #
 if
 HAVE_DSPR2
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DSPR2
 VP9IntraPredTest
@@ -1800,7 +1800,7 @@ HAVE_DSPR2
 #
 if
 HAVE_MSA
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 VP9IntraPredTest
@@ -2159,7 +2159,7 @@ endif
 #
 if
 HAVE_VSX
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VSX
 VP9IntraPredTest
@@ -2375,11 +2375,11 @@ HighbdIntraPredParam
 HighbdIntraPred
 pred
 =
-NULL
+nullptr
 HighbdIntraPred
 ref
 =
-NULL
+nullptr
 int
 block_size_value
 =
@@ -2422,6 +2422,15 @@ bit_depth
 ;
 }
 ;
+#
+if
+HAVE_SSSE3
+|
+|
+HAVE_NEON
+|
+|
+HAVE_SSE2
 template
 <
 >
@@ -2478,6 +2487,11 @@ uint16_t
 HighbdIntraPredParam
 >
 VP9HighbdIntraPredTest
+;
+GTEST_ALLOW_UNINSTANTIATED_PARAMETERIZED_TEST
+(
+VP9HighbdIntraPredTest
+)
 ;
 TEST_P
 (
@@ -2556,9 +2570,11 @@ ref_dst
 ;
 }
 #
+endif
+#
 if
 HAVE_SSSE3
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSSE3_TO_C_8
 VP9HighbdIntraPredTest
@@ -2743,7 +2759,7 @@ vpx_highbd_d207_predictor_32x32_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSSE3_TO_C_10
 VP9HighbdIntraPredTest
@@ -2928,7 +2944,7 @@ vpx_highbd_d207_predictor_32x32_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSSE3_TO_C_12
 VP9HighbdIntraPredTest
@@ -3121,7 +3137,7 @@ HAVE_SSSE3
 #
 if
 HAVE_SSE2
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2_TO_C_8
 VP9HighbdIntraPredTest
@@ -3432,7 +3448,7 @@ vpx_highbd_v_predictor_32x32_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2_TO_C_10
 VP9HighbdIntraPredTest
@@ -3743,7 +3759,7 @@ vpx_highbd_v_predictor_32x32_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2_TO_C_12
 VP9HighbdIntraPredTest
@@ -4062,7 +4078,7 @@ HAVE_SSE2
 #
 if
 HAVE_NEON
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON_TO_C_8
 VP9HighbdIntraPredTest
@@ -4400,7 +4416,7 @@ vpx_highbd_v_predictor_32x32_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON_TO_C_10
 VP9HighbdIntraPredTest
@@ -4738,7 +4754,7 @@ vpx_highbd_v_predictor_32x32_c
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON_TO_C_12
 VP9HighbdIntraPredTest

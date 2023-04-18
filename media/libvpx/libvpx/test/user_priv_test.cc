@@ -464,7 +464,7 @@ frame_num
 0
 )
 ?
-NULL
+nullptr
 :
 user_priv
 )
@@ -510,7 +510,7 @@ vpx_image_t
 *
 img
 =
-NULL
+nullptr
 ;
 /
 /
@@ -545,7 +545,7 @@ img
 -
 >
 user_priv
-NULL
+nullptr
 )
 ;
 }
@@ -612,7 +612,7 @@ ref
 img
 .
 user_priv
-NULL
+nullptr
 )
 ;
 }

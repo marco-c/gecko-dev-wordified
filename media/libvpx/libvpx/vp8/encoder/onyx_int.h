@@ -1420,7 +1420,7 @@ coding_context
 /
 *
 Rate
-targetting
+targeting
 variables
 *
 /

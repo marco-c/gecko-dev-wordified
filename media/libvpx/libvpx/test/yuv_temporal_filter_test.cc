@@ -5083,7 +5083,7 @@ vp9_highbd_apply_temporal_filter_c
 12
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 YUVTemporalFilterTest
@@ -5124,7 +5124,7 @@ vp9_highbd_apply_temporal_filter_sse4_1
 12
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE4_1
 YUVTemporalFilterTest
@@ -5157,7 +5157,7 @@ endif
 HAVE_SSE4_1
 #
 else
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 YUVTemporalFilterTest
@@ -5180,7 +5180,7 @@ vp9_apply_temporal_filter_c
 #
 if
 HAVE_SSE4_1
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE4_1
 YUVTemporalFilterTest

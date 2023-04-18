@@ -935,18 +935,16 @@ EXPECT_EQ
 0
 vpx_set_worker_interface
 (
-NULL
+nullptr
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_NE
 (
 vpx_get_worker_interface
 (
 )
-!
-=
-NULL
+nullptr
 )
 ;
 for
@@ -987,7 +985,7 @@ winterface
 .
 init
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -998,7 +996,7 @@ winterface
 .
 reset
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -1009,7 +1007,7 @@ winterface
 .
 sync
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -1020,7 +1018,7 @@ winterface
 .
 launch
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -1031,7 +1029,7 @@ winterface
 .
 execute
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -1042,7 +1040,7 @@ winterface
 .
 end
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -1319,7 +1317,7 @@ vpx_image_t
 *
 img
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1384,7 +1382,7 @@ iter
 name
 !
 =
-NULL
+nullptr
 ;
 +
 +
@@ -1892,8 +1890,8 @@ webm
 "
 }
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 }
 ;
@@ -2458,8 +2456,8 @@ webm
 "
 }
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 }
 ;
@@ -2568,8 +2566,8 @@ webm
 "
 }
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 }
 ;
@@ -2584,7 +2582,7 @@ endif
 /
 /
 CONFIG_WEBM_IO
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Synchronous
 VPxWorkerThreadTest

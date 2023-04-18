@@ -271,7 +271,7 @@ shift
 )
 \
 "
-dsrl
+ssrld
 "
 #
 reg1
@@ -521,7 +521,7 @@ shift
 )
 \
 "
-srl
+ssrlw
 "
 #
 reg1

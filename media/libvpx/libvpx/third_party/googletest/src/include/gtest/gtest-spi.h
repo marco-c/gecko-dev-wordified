@@ -630,11 +630,11 @@ part
 result
 reporter
 .
-virtual
 ~
 ScopedFakeTestPartResultReporter
 (
 )
+override
 ;
 /
 /
@@ -666,7 +666,6 @@ TestPartResultReporterInterface
 /
 interface
 .
-virtual
 void
 ReportTestPartResult
 (
@@ -675,6 +674,7 @@ TestPartResult
 &
 result
 )
+override
 ;
 private
 :

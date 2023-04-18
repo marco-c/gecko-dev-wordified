@@ -134,6 +134,8 @@ vpx_rational_t
 frame_rate
 int
 target_bitrate
+int
+encode_speed
 vpx_enc_pass
 enc_pass
 )
@@ -145,6 +147,9 @@ const
 VP9EncoderConfig
 *
 oxcf
+FILE
+*
+fp
 )
 ;
 FRAME_INFO

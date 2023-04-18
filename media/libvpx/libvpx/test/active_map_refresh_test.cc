@@ -683,12 +683,10 @@ img
 (
 )
 ;
-ASSERT_TRUE
+ASSERT_NE
 (
 previous
-!
-=
-NULL
+nullptr
 )
 ;
 vpx_active_map_t
@@ -958,7 +956,7 @@ video
 )
 ;
 }
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 ActiveMapRefreshTest
 :

@@ -991,7 +991,10 @@ extension
 /
 Returns
 true
-iff
+if
+and
+only
+if
 the
 path
 is

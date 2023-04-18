@@ -125,7 +125,7 @@ in
 /
 /
 Unpack
-16
+8
 bit
 elements
 .
@@ -239,7 +239,7 @@ in
 /
 /
 Unpack
-32
+16
 bit
 elements
 resulting

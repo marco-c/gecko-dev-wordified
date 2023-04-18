@@ -543,6 +543,19 @@ noreturn
 )
 )
 #
+elif
+defined
+(
+_MSC_VER
+)
+#
+define
+VPX_NO_RETURN
+__declspec
+(
+noreturn
+)
+#
 else
 #
 define
@@ -569,6 +582,7 @@ FILE
 stream
 )
 ;
+VPX_NO_RETURN
 void
 die
 (
@@ -580,8 +594,8 @@ fmt
 .
 .
 )
-VPX_NO_RETURN
 ;
+VPX_NO_RETURN
 void
 fatal
 (
@@ -593,7 +607,6 @@ fmt
 .
 .
 )
-VPX_NO_RETURN
 ;
 void
 warn
@@ -607,6 +620,7 @@ fmt
 .
 )
 ;
+VPX_NO_RETURN
 void
 die_codec
 (
@@ -618,7 +632,6 @@ char
 *
 s
 )
-VPX_NO_RETURN
 ;
 /
 *
@@ -634,12 +647,12 @@ usage_exit
 )
 *
 /
+VPX_NO_RETURN
 void
 usage_exit
 (
 void
 )
-VPX_NO_RETURN
 ;
 #
 undef

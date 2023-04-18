@@ -121,7 +121,7 @@ include
 "
 vpx_ports
 /
-mem
+compiler_attributes
 .
 h
 "

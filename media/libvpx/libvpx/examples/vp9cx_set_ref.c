@@ -1874,10 +1874,8 @@ cfg
 0
 )
 )
-die_codec
+die
 (
-&
-ecodec
 "
 Failed
 to

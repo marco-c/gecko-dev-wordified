@@ -277,7 +277,7 @@ height
 }
 static
 void
-SetUpTestCase
+SetUpTestSuite
 (
 )
 {
@@ -382,7 +382,7 @@ kDataBufferSize
 }
 static
 void
-TearDownTestCase
+TearDownTestSuite
 (
 )
 {
@@ -399,7 +399,7 @@ source_data_
 0
 ]
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -414,7 +414,7 @@ reference_data_
 0
 ]
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -429,7 +429,7 @@ source_data_
 1
 ]
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -444,7 +444,7 @@ reference_data_
 1
 ]
 =
-NULL
+nullptr
 ;
 delete
 [
@@ -1025,8 +1025,8 @@ source_data_
 ]
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 uint8_t
@@ -1040,8 +1040,8 @@ reference_data_
 ]
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 Ssimv
@@ -1051,7 +1051,7 @@ ConsistencyTestBase
 :
 ssim_array_
 =
-NULL
+nullptr
 ;
 #
 if
@@ -1553,7 +1553,7 @@ make_tuple
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 ConsistencyVP9Test

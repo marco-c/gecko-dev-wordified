@@ -895,7 +895,7 @@ video
 )
 ;
 }
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 AltRefAqSegmentTest
 :

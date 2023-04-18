@@ -568,7 +568,7 @@ video
 )
 ;
 }
-VP8_INSTANTIATE_TEST_CASE
+VP8_INSTANTIATE_TEST_SUITE
 (
 TimestampTest
 :
@@ -587,7 +587,7 @@ kTwoPassGood
 )
 )
 ;
-VP9_INSTANTIATE_TEST_CASE
+VP9_INSTANTIATE_TEST_SUITE
 (
 TimestampTest
 :

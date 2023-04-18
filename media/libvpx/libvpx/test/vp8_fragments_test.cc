@@ -123,7 +123,7 @@ h
 namespace
 {
 class
-VP8FramgmentsTest
+VP8FragmentsTest
 :
 public
 :
@@ -142,7 +142,7 @@ Test
 {
 protected
 :
-VP8FramgmentsTest
+VP8FragmentsTest
 (
 )
 :
@@ -160,7 +160,7 @@ kVP8
 }
 virtual
 ~
-VP8FramgmentsTest
+VP8FragmentsTest
 (
 )
 {
@@ -210,7 +210,7 @@ init_flags
 ;
 TEST_F
 (
-VP8FramgmentsTest
+VP8FragmentsTest
 TestFragmentsEncodeDecode
 )
 {

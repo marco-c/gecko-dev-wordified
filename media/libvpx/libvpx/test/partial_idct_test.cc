@@ -712,7 +712,7 @@ input_block_
 ;
 input_block_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -721,7 +721,7 @@ output_block_
 ;
 output_block_
 =
-NULL
+nullptr
 ;
 vpx_free
 (
@@ -730,7 +730,7 @@ output_block_ref_
 ;
 output_block_ref_
 =
-NULL
+nullptr
 ;
 libvpx_test
 :
@@ -3255,7 +3255,7 @@ TX_4X4
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 C
 PartialIDctTest
@@ -4282,7 +4282,7 @@ TX_4X4
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NEON
 PartialIDctTest
@@ -5320,7 +5320,7 @@ TX_4X4
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE2
 PartialIDctTest
@@ -5409,7 +5409,7 @@ TX_8X8
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSSE3
 PartialIDctTest
@@ -5957,7 +5957,7 @@ TX_4X4
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SSE4_1
 PartialIDctTest
@@ -6205,7 +6205,7 @@ TX_4X4
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DSPR2
 PartialIDctTest
@@ -6464,7 +6464,7 @@ TX_4X4
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MSA
 PartialIDctTest

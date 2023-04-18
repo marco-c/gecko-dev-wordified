@@ -104,7 +104,7 @@ if
 !
 defined
 (
-WIN32
+_WIN32
 )
 &
 &

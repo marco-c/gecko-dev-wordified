@@ -374,7 +374,7 @@ void
 vp9_set_quantizer
 (
 struct
-VP9Common
+VP9_COMP
 *
 cm
 int

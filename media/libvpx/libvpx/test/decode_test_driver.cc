@@ -208,7 +208,7 @@ DecodeFrame
 (
 cxdata
 size
-NULL
+nullptr
 )
 ;
 }
@@ -487,12 +487,10 @@ dec_cfg
 flags_
 )
 ;
-ASSERT_TRUE
+ASSERT_NE
 (
 decoder
-!
-=
-NULL
+nullptr
 )
 ;
 bool
@@ -568,7 +566,7 @@ cxdata
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -676,7 +674,7 @@ decoder
 >
 DecodeFrame
 (
-NULL
+nullptr
 0
 )
 ;
@@ -714,7 +712,7 @@ vpx_image_t
 *
 img
 =
-NULL
+nullptr
 ;
 /
 /

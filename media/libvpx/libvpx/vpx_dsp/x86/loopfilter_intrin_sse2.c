@@ -15476,7 +15476,7 @@ t_dst
 /
 Loop
 filtering
-vpx_lpf_horizontal_4_dual_sse2
+vpx_lpf_horizontal_4_dual
 (
 t_dst
 +
@@ -15632,7 +15632,7 @@ dst
 /
 Loop
 filtering
-vpx_lpf_horizontal_8_sse2
+vpx_lpf_horizontal_8
 (
 t_dst
 +
@@ -15763,7 +15763,7 @@ t_dst
 /
 Loop
 filtering
-vpx_lpf_horizontal_8_dual_sse2
+vpx_lpf_horizontal_8_dual
 (
 t_dst
 +
@@ -15937,7 +15937,7 @@ dst
 /
 Loop
 filtering
-vpx_lpf_horizontal_16_sse2
+vpx_lpf_horizontal_16
 (
 t_dst
 +
@@ -16074,7 +16074,7 @@ t_dst
 /
 Loop
 filtering
-vpx_lpf_horizontal_16_dual_sse2
+vpx_lpf_horizontal_16_dual
 (
 t_dst
 +

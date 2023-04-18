@@ -506,6 +506,9 @@ counter_encode_maxq_scene_change
 int
 skip_flat_static_blocks
 ;
+int
+content_mode
+;
 }
 ;
 struct

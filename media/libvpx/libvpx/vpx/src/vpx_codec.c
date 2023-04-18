@@ -629,9 +629,6 @@ iface
 ctrl_maps
 ;
 entry
-&
-&
-entry
 -
 >
 fn
