@@ -726,7 +726,6 @@ h
 "
 /
 /
-XDRMode
 XDRResult
 XDRStencilEncoder
 XDRStencilDecoder
