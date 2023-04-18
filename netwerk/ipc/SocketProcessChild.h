@@ -1042,6 +1042,17 @@ GetUntrustedModulesDataResolver
 aResolver
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvUnblockUntrustedModulesThread
+(
+)
+;
 #
 endif
 /
