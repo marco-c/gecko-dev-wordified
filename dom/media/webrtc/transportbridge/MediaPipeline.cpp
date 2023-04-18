@@ -5474,6 +5474,9 @@ MakeAndAddRef
 VideoFrameConverter
 >
 (
+GetTimestampMaker
+(
+)
 )
 ;
 mConverter

@@ -146,6 +146,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+SystemTime
+.
+h
+"
 /
 /
 libwebrtc
@@ -633,11 +640,8 @@ MediaSessionConduit
 >
 mConduits
 ;
-dom
-:
-:
-RTCStatsTimestampMaker
-mTimestampMaker
+RTCStatsTimestampMakerRealtimeClock
+mClock
 ;
 UniquePtr
 <

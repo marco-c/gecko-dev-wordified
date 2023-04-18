@@ -4266,7 +4266,7 @@ clock
 Clock
 :
 :
-GetRealTimeClock
+GetRealTimeClockRaw
 (
 )
 )
