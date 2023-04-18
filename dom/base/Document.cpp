@@ -1966,6 +1966,17 @@ mozilla
 /
 dom
 /
+SVGDocument
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGSVGElement
 .
 h

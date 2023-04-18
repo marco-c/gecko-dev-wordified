@@ -192,6 +192,14 @@ withSize
 NSSize
 )
 aSize
+presContext
+:
+(
+const
+nsPresContext
+*
+)
+aPresContext
 computedStyle
 :
 (
@@ -254,6 +262,7 @@ imgIContainer
 :
 :
 FRAME_CURRENT
+aPresContext
 aComputedStyle
 &
 retainedImage
@@ -277,6 +286,7 @@ imgIContainer
 :
 :
 FRAME_CURRENT
+aPresContext
 aComputedStyle
 &
 retainedImage

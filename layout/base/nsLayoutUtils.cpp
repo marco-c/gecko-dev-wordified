@@ -46233,6 +46233,9 @@ SVGImageContext
 MaybeStoreContextPaint
 (
 svgContext
+*
+aPresContext
+*
 aComputedStyle
 aImage
 )

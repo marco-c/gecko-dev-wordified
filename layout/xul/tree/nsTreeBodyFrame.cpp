@@ -21109,6 +21109,9 @@ SVGImageContext
 MaybeStoreContextPaint
 (
 svgContext
+*
+aPresContext
+*
 twistyContext
 image
 )
@@ -23815,6 +23818,9 @@ SVGImageContext
 MaybeStoreContextPaint
 (
 svgContext
+*
+aPresContext
+*
 checkboxContext
 image
 )
