@@ -325,6 +325,7 @@ lock
 static
 StaticMutex
 sLock
+MOZ_UNANNOTATED
 ;
 /
 /

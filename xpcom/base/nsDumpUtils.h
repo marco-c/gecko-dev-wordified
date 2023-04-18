@@ -794,6 +794,7 @@ mozilla
 :
 Mutex
 mFifoInfoLock
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -934,6 +935,7 @@ mozilla
 :
 Mutex
 mSignalInfoLock
+MOZ_UNANNOTATED
 ;
 /
 /

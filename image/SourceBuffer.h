@@ -4181,6 +4181,7 @@ mMutex
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

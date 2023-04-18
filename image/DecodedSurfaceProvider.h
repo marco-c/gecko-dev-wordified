@@ -867,6 +867,7 @@ mDecoder
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

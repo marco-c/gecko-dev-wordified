@@ -1138,6 +1138,7 @@ mDelayedRunnablesCancelPromise
 ;
 Monitor
 mQueueMonitor
+MOZ_UNANNOTATED
 ;
 typedef
 struct

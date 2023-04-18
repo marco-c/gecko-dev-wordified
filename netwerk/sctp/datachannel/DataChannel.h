@@ -1287,6 +1287,7 @@ CLOSED
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 void
 ReadBlob
@@ -2130,6 +2131,7 @@ const
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 ChannelArray
 mChannels
@@ -3302,6 +3304,7 @@ mMainThreadEventTarget
 mutable
 Mutex
 mStatsLock
+MOZ_UNANNOTATED
 ;
 /
 /

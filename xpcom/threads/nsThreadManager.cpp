@@ -457,6 +457,7 @@ mIOPool
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 nsTArray
 <

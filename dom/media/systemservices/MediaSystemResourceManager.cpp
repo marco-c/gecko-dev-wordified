@@ -350,6 +350,7 @@ return
 }
 ReentrantMonitor
 barrier
+MOZ_UNANNOTATED
 (
 "
 MediaSystemResourceManager
@@ -1036,6 +1037,7 @@ InImageBridgeChildThread
 ;
 ReentrantMonitor
 barrier
+MOZ_UNANNOTATED
 (
 "
 MediaSystemResourceManager

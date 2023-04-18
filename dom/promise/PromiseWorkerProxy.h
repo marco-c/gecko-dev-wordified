@@ -1549,6 +1549,7 @@ mCleanedUp
 .
 Mutex
 mCleanUpLock
+MOZ_UNANNOTATED
 ;
 }
 ;

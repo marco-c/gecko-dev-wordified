@@ -2181,6 +2181,7 @@ containers
 /
 Mutex
 mContainerMapLock
+MOZ_UNANNOTATED
 ;
 std
 :

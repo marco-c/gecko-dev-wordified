@@ -1911,6 +1911,7 @@ const
 mutable
 Mutex
 mLock
+MOZ_UNANNOTATED
 {
 "
 nsHostResolver

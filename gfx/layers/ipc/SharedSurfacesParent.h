@@ -642,6 +642,7 @@ aExpired
 static
 StaticMonitor
 sMonitor
+MOZ_UNANNOTATED
 ;
 static
 StaticAutoPtr

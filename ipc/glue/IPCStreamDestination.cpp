@@ -964,6 +964,7 @@ thread
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 class
 HelperRunnable

@@ -715,6 +715,7 @@ thread
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

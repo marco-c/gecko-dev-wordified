@@ -1088,6 +1088,7 @@ PREF_WEBAUTHN_ALLOW_DIRECT_ATTESTATION
 }
 Mutex
 mPrefMutex
+MOZ_UNANNOTATED
 ;
 bool
 mSoftTokenEnabled

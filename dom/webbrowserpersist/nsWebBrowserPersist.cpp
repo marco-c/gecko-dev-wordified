@@ -836,6 +836,7 @@ mStream
 ;
 Mutex
 mStreamMutex
+MOZ_UNANNOTATED
 ;
 int64_t
 mSelfProgress

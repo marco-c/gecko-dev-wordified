@@ -9563,6 +9563,7 @@ below
 .
 Mutex
 mDatabasesMutex
+MOZ_UNANNOTATED
 ;
 nsTArray
 <
@@ -35462,6 +35463,7 @@ mozilla
 :
 Monitor
 monitor
+MOZ_ANNOTATED
 (
 __func__
 )
@@ -36312,6 +36314,7 @@ Notify
 }
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 const
 int64_t
@@ -120365,6 +120368,7 @@ mozilla
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 mozilla
 :

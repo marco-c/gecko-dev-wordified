@@ -1135,6 +1135,7 @@ conditions
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

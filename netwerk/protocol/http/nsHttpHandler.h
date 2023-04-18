@@ -4807,6 +4807,7 @@ mLastActiveTabLoadOptimizationHit
 ;
 Mutex
 mHttpExclusionLock
+MOZ_UNANNOTATED
 {
 "
 nsHttpHandler

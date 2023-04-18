@@ -2020,6 +2020,7 @@ mozilla
 :
 Mutex
 mSPTimerLock
+MOZ_UNANNOTATED
 ;
 WidgetListenerDelegate
 mWidgetListenerDelegate

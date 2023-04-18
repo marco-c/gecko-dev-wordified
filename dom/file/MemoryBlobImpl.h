@@ -637,6 +637,7 @@ mozilla
 :
 StaticMutex
 sDataOwnerMutex
+MOZ_UNANNOTATED
 ;
 static
 mozilla

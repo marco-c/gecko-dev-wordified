@@ -2550,6 +2550,7 @@ TaskQueue
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

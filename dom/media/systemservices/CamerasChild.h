@@ -1755,6 +1755,7 @@ callback
 arrays
 Mutex
 mCallbackMutex
+MOZ_UNANNOTATED
 ;
 bool
 mIPCIsAlive
@@ -1876,6 +1877,7 @@ mReplyMonitor
 .
 Mutex
 mRequestMutex
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1921,6 +1923,7 @@ alive
 .
 Monitor
 mReplyMonitor
+MOZ_UNANNOTATED
 ;
 /
 /

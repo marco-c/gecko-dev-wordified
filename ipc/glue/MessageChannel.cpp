@@ -2229,6 +2229,7 @@ ChannelCounts
 static
 StaticMutex
 sChannelCountMutex
+MOZ_UNANNOTATED
 ;
 static
 CountTable

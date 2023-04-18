@@ -1285,6 +1285,7 @@ and
 mRecycledTextureSizes
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1629,6 +1630,7 @@ ImageContainerListener
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 ImageContainer
 *
@@ -3555,6 +3557,7 @@ threads
 .
 RecursiveMutex
 mRecursiveMutex
+MOZ_UNANNOTATED
 ;
 RefPtr
 <

@@ -6248,6 +6248,7 @@ endif
 static
 StaticMutex
 gInitLock
+MOZ_UNANNOTATED
 =
 {
 STATIC_MUTEX_INIT
@@ -7500,6 +7501,7 @@ out
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 void
 *
@@ -8683,6 +8685,7 @@ locked
 .
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 arena_stats_t
 mStats
@@ -10125,6 +10128,7 @@ mDefaultArena
 }
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 private
 :
@@ -10203,6 +10207,7 @@ structures
 static
 Mutex
 chunks_mtx
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -10293,6 +10298,7 @@ structures
 static
 Mutex
 huge_mtx
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -10434,6 +10440,7 @@ base_pages
 static
 Mutex
 base_mtx
+MOZ_UNANNOTATED
 ;
 static
 size_t

@@ -1257,6 +1257,7 @@ state
 update
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1269,6 +1270,7 @@ among
 threads
 RecursiveMutex
 mRunningMutex
+MOZ_UNANNOTATED
 ;
 friend
 class

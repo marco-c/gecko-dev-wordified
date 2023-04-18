@@ -534,6 +534,7 @@ mozilla
 :
 Mutex
 mTransparentSurfaceLock
+MOZ_UNANNOTATED
 ;
 mozilla
 :

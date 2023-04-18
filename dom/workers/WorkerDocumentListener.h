@@ -216,6 +216,7 @@ WorkerDocumentListener
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

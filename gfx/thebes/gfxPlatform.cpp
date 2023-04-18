@@ -1513,6 +1513,7 @@ mIndex
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

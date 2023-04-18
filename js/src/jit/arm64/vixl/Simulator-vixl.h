@@ -13445,6 +13445,7 @@ js
 :
 Mutex
 lock_
+MOZ_UNANNOTATED
 ;
 vixl
 :

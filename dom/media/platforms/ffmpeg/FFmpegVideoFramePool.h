@@ -913,6 +913,7 @@ pool
 access
 Mutex
 mSurfaceLock
+MOZ_UNANNOTATED
 ;
 nsTArray
 <

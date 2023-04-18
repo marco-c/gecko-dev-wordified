@@ -1146,6 +1146,7 @@ threads
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

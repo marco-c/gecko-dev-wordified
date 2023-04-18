@@ -304,6 +304,7 @@ private
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 }
 ;

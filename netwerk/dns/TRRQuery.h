@@ -512,6 +512,7 @@ mRecord
 ;
 Mutex
 mTrrLock
+MOZ_UNANNOTATED
 ;
 /
 /

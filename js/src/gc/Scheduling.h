@@ -6655,6 +6655,7 @@ lock
 ;
 Mutex
 mutex
+MOZ_UNANNOTATED
 ;
 /
 /

@@ -5065,6 +5065,7 @@ together
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

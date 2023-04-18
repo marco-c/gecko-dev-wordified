@@ -830,6 +830,7 @@ protected
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 public
 :

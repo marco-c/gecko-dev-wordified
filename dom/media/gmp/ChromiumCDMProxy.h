@@ -717,6 +717,7 @@ mCrashHelper
 ;
 Mutex
 mCDMMutex
+MOZ_UNANNOTATED
 ;
 RefPtr
 <

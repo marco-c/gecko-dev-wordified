@@ -1851,6 +1851,7 @@ this
 static
 StaticMutex
 processMapLock
+MOZ_UNANNOTATED
 ;
 static
 std

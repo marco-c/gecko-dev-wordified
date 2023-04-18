@@ -421,6 +421,7 @@ locked
 .
 Mutex
 mLock
+MOZ_UNANNOTATED
 {
 "
 nsUDPSocket
