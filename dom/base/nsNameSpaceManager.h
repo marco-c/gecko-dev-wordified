@@ -274,7 +274,6 @@ NS_INLINE_DECL_REFCOUNTING
 (
 nsNameSpaceManager
 )
-virtual
 nsresult
 RegisterNameSpace
 (
@@ -300,7 +299,6 @@ int32_t
 aNameSpaceID
 )
 ;
-virtual
 nsresult
 GetNameSpaceURI
 (
