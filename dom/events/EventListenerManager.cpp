@@ -7558,7 +7558,6 @@ EventScript
 (
 fetchOptions
 uri
-aElement
 )
 ;
 JS
