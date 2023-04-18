@@ -220,6 +220,12 @@ LockOptions
 aOptions
 )
 ;
+void
+NotifyRequestDestroy
+(
+)
+const
+;
 private
 :
 ~
@@ -228,6 +234,14 @@ LockManagerChild
 )
 =
 default
+;
+void
+NotifyToWindow
+(
+bool
+aCreated
+)
+const
 ;
 nsCOMPtr
 <
