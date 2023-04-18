@@ -540,6 +540,16 @@ aTime
 )
 override
 ;
+static
+bool
+CanTriggerSwipe
+(
+const
+PanGestureInput
+&
+aPanInput
+)
+;
 protected
 :
 ~
