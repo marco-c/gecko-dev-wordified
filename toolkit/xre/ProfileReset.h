@@ -157,8 +157,6 @@ aService
 nsIToolkitProfile
 *
 aOldProfile
-bool
-aDeleteOldProfile
 )
 ;
 class
