@@ -382,7 +382,7 @@ from
 "
 mozilla
 /
-HalScreenConfiguration
+HalIPCUtils
 .
 h
 "

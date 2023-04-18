@@ -2828,7 +2828,10 @@ mozilla
 hal
 :
 :
-eScreenOrientation_None
+ScreenOrientation
+:
+:
+None
 ;
 fields
 .

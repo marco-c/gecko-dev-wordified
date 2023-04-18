@@ -462,7 +462,10 @@ height
 hal
 :
 :
-eScreenOrientation_None
+ScreenOrientation
+:
+:
+None
 0
 mColorDepth
 mPixelDepth

@@ -171,6 +171,15 @@ nsReadableUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+HalIPCUtils
+.
+h
+"
 namespace
 mozilla
 {

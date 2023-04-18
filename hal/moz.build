@@ -131,6 +131,11 @@ HalImpl
 h
 "
 "
+HalIPCUtils
+.
+h
+"
+"
 HalNetworkInformation
 .
 h
