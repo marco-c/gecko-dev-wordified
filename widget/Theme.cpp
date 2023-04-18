@@ -96,21 +96,14 @@ MPL
 #
 include
 "
-nsNativeBasicTheme
+Theme
 .
 h
 "
 #
 include
 "
-nsNativeBasicThemeCocoa
-.
-h
-"
-#
-include
-"
-gfxBlur
+ThemeCocoa
 .
 h
 "
@@ -304,6 +297,20 @@ ScrollbarDrawingWin11
 .
 h
 "
+#
+ifdef
+XP_WIN
+#
+include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
+#
+endif
 using
 namespace
 mozilla
@@ -329,17 +336,7 @@ mozilla
 :
 widget
 ;
-NS_IMPL_ISUPPORTS_INHERITED
-(
-nsNativeBasicTheme
-nsNativeTheme
-nsITheme
-)
 namespace
-mozilla
-:
-:
-widget
 {
 static
 constexpr
@@ -760,16 +757,6 @@ kCheckboxRadioBorderWidth
 .
 0f
 ;
-}
-/
-/
-namespace
-mozilla
-:
-:
-widget
-namespace
-{
 static
 constexpr
 sRGBColor
@@ -918,10 +905,6 @@ mDt
 ;
 }
 ;
-}
-/
-/
-namespace
 static
 StaticRefPtr
 <
@@ -936,6 +919,10 @@ nsITheme
 >
 gRDMInstance
 ;
+}
+/
+/
+namespace
 already_AddRefed
 <
 nsITheme
@@ -959,7 +946,7 @@ ScrollbarDrawing
 >
 scrollbarDrawing
 =
-nsNativeBasicTheme
+Theme
 :
 :
 ScrollbarStyle
@@ -972,7 +959,7 @@ MOZ_WIDGET_COCOA
 gInstance
 =
 new
-nsNativeBasicThemeCocoa
+ThemeCocoa
 (
 std
 :
@@ -988,7 +975,7 @@ else
 gInstance
 =
 new
-nsNativeBasicTheme
+Theme
 (
 std
 :
@@ -1065,7 +1052,7 @@ gRDMInstance
 gRDMInstance
 =
 new
-nsNativeBasicTheme
+Theme
 (
 MakeUnique
 <
@@ -1089,6 +1076,18 @@ gRDMInstance
 )
 ;
 }
+namespace
+mozilla
+:
+:
+widget
+{
+NS_IMPL_ISUPPORTS_INHERITED
+(
+Theme
+nsNativeTheme
+nsITheme
+)
 static
 constexpr
 nsLiteralCString
@@ -1166,7 +1165,7 @@ _ns
 }
 ;
 void
-nsNativeBasicTheme
+Theme
 :
 :
 Init
@@ -1199,7 +1198,7 @@ LookAndFeelChanged
 ;
 }
 void
-nsNativeBasicTheme
+Theme
 :
 :
 Shutdown
@@ -1233,7 +1232,7 @@ static
 *
 /
 void
-nsNativeBasicTheme
+Theme
 :
 :
 LookAndFeelChanged
@@ -1253,7 +1252,7 @@ basicTheme
 =
 static_cast
 <
-nsNativeBasicTheme
+Theme
 *
 >
 (
@@ -1274,7 +1273,7 @@ basicTheme
 >
 SetScrollbarDrawing
 (
-nsNativeBasicTheme
+Theme
 :
 :
 ScrollbarStyle
@@ -1301,7 +1300,7 @@ static
 *
 /
 auto
-nsNativeBasicTheme
+Theme
 :
 :
 GetDPIRatio
@@ -1368,7 +1367,7 @@ static
 *
 /
 auto
-nsNativeBasicTheme
+Theme
 :
 :
 GetDPIRatio
@@ -1515,7 +1514,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeCheckboxColors
@@ -1713,7 +1712,7 @@ No
 ;
 }
 sRGBColor
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeCheckmarkColor
@@ -1783,7 +1782,7 @@ GetForeground
 ;
 }
 sRGBColor
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeBorderColor
@@ -2024,7 +2023,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeButtonColors
@@ -2213,7 +2212,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeTextfieldColors
@@ -2337,7 +2336,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeRangeProgressColors
@@ -2495,7 +2494,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeRangeTrackColors
@@ -2621,7 +2620,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeRangeThumbColors
@@ -2774,7 +2773,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeProgressColors
@@ -2845,7 +2844,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeProgressTrackColors
@@ -2900,7 +2899,7 @@ pair
 sRGBColor
 sRGBColor
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeMeterchunkColors
@@ -2999,7 +2998,7 @@ array
 sRGBColor
 3
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ComputeFocusRectColors
@@ -3121,7 +3120,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintRoundedFocusRect
@@ -3410,7 +3409,7 @@ aDpiRatio
 ;
 }
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintCheckboxControl
@@ -3580,7 +3579,7 @@ kCheckboxRadioBorderWidth
 0f
 ;
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintCheckMark
@@ -3869,7 +3868,7 @@ fillColor
 ;
 }
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintIndeterminateMark
@@ -4022,7 +4021,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintStrokedCircle
@@ -4081,7 +4080,7 @@ aDpiRatio
 ;
 }
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintCircleShadow
@@ -4273,7 +4272,7 @@ Outset
 ;
 }
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintCircleShadow
@@ -4570,7 +4569,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintRadioControl
@@ -4732,7 +4731,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintTextField
@@ -4825,7 +4824,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintListbox
@@ -4918,7 +4917,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintMenulist
@@ -5002,7 +5001,7 @@ kMenulistBorderWidth
 }
 }
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintMenulistArrowButton
@@ -5157,7 +5156,7 @@ arrowColor
 ;
 }
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintSpinnerButton
@@ -5360,7 +5359,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintRange
@@ -5969,7 +5968,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintProgress
@@ -6637,7 +6636,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintButton
@@ -6725,7 +6724,7 @@ kButtonBorderWidth
 }
 }
 NS_IMETHODIMP
-nsNativeBasicTheme
+Theme
 :
 :
 DrawWidgetBackground
@@ -6782,7 +6781,7 @@ NS_OK
 ;
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 CreateWebRenderCommandsForWidget
@@ -6949,7 +6948,7 @@ typename
 PaintBackendData
 >
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 DoDrawWidgetBackground
@@ -8119,7 +8118,7 @@ typename
 PaintBackendData
 >
 void
-nsNativeBasicTheme
+Theme
 :
 :
 PaintAutoStyleOutline
@@ -8599,7 +8598,7 @@ width
 }
 }
 LayoutDeviceIntMargin
-nsNativeBasicTheme
+Theme
 :
 :
 GetWidgetBorder
@@ -8711,7 +8710,7 @@ specified
 by
 authors
 see
-nsNativeBasicTheme
+Theme
 :
 :
 IsWidgetStyled
@@ -8843,7 +8842,7 @@ LayoutDeviceIntMargin
 }
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 GetWidgetPadding
@@ -8933,7 +8932,7 @@ false
 ;
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 GetWidgetOverflow
@@ -9222,7 +9221,7 @@ true
 ;
 }
 auto
-nsNativeBasicTheme
+Theme
 :
 :
 GetScrollbarSizes
@@ -9253,7 +9252,7 @@ aOverlay
 ;
 }
 nscoord
-nsNativeBasicTheme
+Theme
 :
 :
 GetCheckboxRadioPrefSize
@@ -9279,7 +9278,7 @@ UniquePtr
 <
 ScrollbarDrawing
 >
-nsNativeBasicTheme
+Theme
 :
 :
 ScrollbarStyle
@@ -9369,7 +9368,7 @@ UniquePtr
 <
 ScrollbarDrawing
 >
-nsNativeBasicTheme
+Theme
 :
 :
 DefaultPlatformScrollbarStyle
@@ -9463,7 +9462,7 @@ implementation
 endif
 }
 NS_IMETHODIMP
-nsNativeBasicTheme
+Theme
 :
 :
 GetMinimumWidgetSize
@@ -9688,7 +9687,7 @@ nsITheme
 :
 :
 Transparency
-nsNativeBasicTheme
+Theme
 :
 :
 GetWidgetTransparency
@@ -9718,7 +9717,7 @@ eUnknownTransparency
 ;
 }
 NS_IMETHODIMP
-nsNativeBasicTheme
+Theme
 :
 :
 WidgetStateChanged
@@ -9896,7 +9895,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeChanged
@@ -9908,7 +9907,7 @@ NS_OK
 ;
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 WidgetAppearanceDependsOnWindowFocus
@@ -9928,7 +9927,7 @@ nsITheme
 :
 :
 ThemeGeometryType
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeGeometryTypeForWidget
@@ -9945,7 +9944,7 @@ eThemeGeometryTypeUnknown
 ;
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeSupportsWidget
@@ -10162,7 +10161,7 @@ false
 }
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 WidgetIsContainer
@@ -10205,7 +10204,7 @@ true
 }
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeDrawsFocusForWidget
@@ -10220,7 +10219,7 @@ true
 ;
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeNeedsComboboxDropmarker
@@ -10232,7 +10231,7 @@ true
 ;
 }
 bool
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeSupportsScrollbarButtons
@@ -10249,3 +10248,11 @@ ShouldDrawScrollbarButtons
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+widget

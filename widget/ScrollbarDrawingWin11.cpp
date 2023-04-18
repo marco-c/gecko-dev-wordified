@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsNativeBasicTheme
+Theme
 .
 h
 "

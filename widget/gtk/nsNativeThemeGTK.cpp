@@ -381,14 +381,7 @@ h
 #
 include
 "
-nsNativeBasicTheme
-.
-h
-"
-#
-include
-"
-ScrollbarDrawingGTK
+Theme
 .
 h
 "
@@ -440,17 +433,6 @@ mozilla
 :
 :
 widget
-;
-using
-ScrollbarDrawingGTK
-=
-mozilla
-:
-:
-widget
-:
-:
-ScrollbarDrawingGTK
 ;
 static
 int
@@ -786,7 +768,7 @@ nsNativeThemeGTK
 (
 )
 :
-nsNativeBasicTheme
+Theme
 (
 DefaultPlatformScrollbarStyle
 (
@@ -6335,7 +6317,7 @@ No
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 DrawWidgetBackground
@@ -7252,7 +7234,7 @@ No
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 CreateWebRenderCommandsForWidget
@@ -8513,7 +8495,7 @@ No
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 GetWidgetOverflow
@@ -8670,7 +8652,7 @@ versa
 .
 if
 (
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeSupportsWidget
@@ -8755,7 +8737,7 @@ Always
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 GetMinimumWidgetSize
@@ -10268,7 +10250,7 @@ No
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 WidgetStateChanged
@@ -11049,7 +11031,7 @@ Always
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeSupportsWidget
@@ -11866,7 +11848,7 @@ No
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 ThemeDrawsFocusForWidget
@@ -11977,7 +11959,7 @@ No
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 GetWidgetTransparency
@@ -12133,7 +12115,7 @@ widget_non_native_theme_enabled
 )
 {
 return
-nsNativeBasicTheme
+Theme
 :
 :
 GetScrollbarSizes
@@ -12283,9 +12265,9 @@ IsHeadless
 inst
 =
 new
-nsNativeBasicTheme
+Theme
 (
-nsNativeBasicTheme
+Theme
 :
 :
 DefaultPlatformScrollbarStyle

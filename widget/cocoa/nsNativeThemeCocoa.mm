@@ -282,13 +282,6 @@ h
 #
 include
 "
-nsNativeBasicTheme
-.
-h
-"
-#
-include
-"
 nsNativeThemeColors
 .
 h
@@ -2619,7 +2612,7 @@ ScrollbarDrawing
 aScrollbarDrawingCocoa
 )
 :
-nsNativeBasicThemeCocoa
+ThemeCocoa
 (
 std
 :
@@ -20457,7 +20450,7 @@ aAppearance
 )
 {
 return
-nsNativeBasicThemeCocoa
+ThemeCocoa
 :
 :
 GetMinimumWidgetSize
@@ -21186,7 +21179,7 @@ StyleAppearance
 MozMenulistArrowButton
 :
 return
-nsNativeBasicThemeCocoa
+ThemeCocoa
 :
 :
 GetMinimumWidgetSize
