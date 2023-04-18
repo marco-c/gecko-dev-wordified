@@ -5543,6 +5543,13 @@ nsIAccessibleText
 BOUNDARY_CHAR
 )
 {
+if
+(
+IsCaretAtEndOfLine
+(
+)
+)
+{
 /
 /
 The
@@ -5570,6 +5577,7 @@ aAdjustAtEndOfLine
 false
 )
 ;
+}
 }
 return
 ActualizeCaret
@@ -5820,6 +5828,8 @@ if
 searchFrom
 .
 mOffset
++
+1
 <
 static_cast
 <
