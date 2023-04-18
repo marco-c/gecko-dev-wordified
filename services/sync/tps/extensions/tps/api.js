@@ -146,6 +146,11 @@ jsm
 "
 )
 ;
+let
+{
+goQuitApplication
+}
+=
 ChromeUtils
 .
 import
@@ -161,8 +166,13 @@ quit
 .
 js
 "
-TPS
 )
+;
+TPS
+.
+goQuitApplication
+=
+goQuitApplication
 ;
 let
 testFile

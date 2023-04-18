@@ -287,11 +287,10 @@ do_get_profile
 )
 ;
 let
-ns
-=
 {
+initTestLogging
 }
-;
+=
 ChromeUtils
 .
 import
@@ -313,11 +312,8 @@ logging
 .
 js
 "
-ns
 )
 ;
-ns
-.
 initTestLogging
 (
 "

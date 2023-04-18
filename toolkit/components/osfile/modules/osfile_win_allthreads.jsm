@@ -237,9 +237,6 @@ ctypes
 ;
 SharedAll
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -259,7 +256,6 @@ osfile_shared_allthreads
 .
 jsm
 "
-SharedAll
 )
 ;
 this

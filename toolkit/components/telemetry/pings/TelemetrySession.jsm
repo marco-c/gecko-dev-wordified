@@ -2454,11 +2454,10 @@ appTimestamps
 try
 {
 let
-o
-=
 {
+TelemetryTimestamps
 }
-;
+=
 ChromeUtils
 .
 import
@@ -2476,13 +2475,10 @@ TelemetryTimestamps
 .
 jsm
 "
-o
 )
 ;
 appTimestamps
 =
-o
-.
 TelemetryTimestamps
 .
 get

@@ -118,9 +118,6 @@ jsm
 ;
 var
 SysAll
-=
-{
-}
 ;
 if
 (
@@ -129,6 +126,8 @@ Constants
 Win
 )
 {
+SysAll
+=
 ChromeUtils
 .
 import
@@ -148,7 +147,6 @@ osfile_win_allthreads
 .
 jsm
 "
-SysAll
 )
 ;
 }
@@ -160,6 +158,8 @@ Constants
 libc
 )
 {
+SysAll
+=
 ChromeUtils
 .
 import
@@ -179,7 +179,6 @@ osfile_unix_allthreads
 .
 jsm
 "
-SysAll
 )
 ;
 }

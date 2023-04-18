@@ -17,12 +17,6 @@ limited
 scope
 .
 var
-scope
-=
-{
-}
-;
-var
 ctypes
 =
 ctypes
@@ -79,6 +73,9 @@ jsm
 "
 )
 ;
+let
+scope
+=
 ChromeUtils
 .
 import
@@ -96,7 +93,6 @@ ctypes
 .
 jsm
 "
-scope
 )
 ;
 ctypes
