@@ -625,7 +625,6 @@ virtualenv_name
             
 MozSiteMetadata
 (
-                
 0
 "
 mach
@@ -633,19 +632,13 @@ mach
 SitePackagesSource
 .
 VENV
-SitePackagesSource
-.
-VENV
 "
 "
 "
 "
-            
 )
             
-SitePackagesSource
-.
-VENV
+True
             
 MachEnvRequirements
 (

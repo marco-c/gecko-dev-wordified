@@ -284,10 +284,9 @@ pip
 classmethod
     
 def
-from_environment
+for_mach
 (
 cls
-site_name
 )
 :
         
@@ -391,71 +390,6 @@ set
             
 )
         
-if
-site_name
-not
-in
-PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS
-:
-            
-if
-source
-=
-=
-SitePackagesSource
-.
-SYSTEM
-:
-                
-raise
-Exception
-(
-                    
-'
-Cannot
-use
-MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
-=
-"
-system
-"
-for
-any
-'
-                    
-f
-"
-sites
-other
-than
-{
-PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS
-}
-.
-The
-"
-                    
-f
-'
-current
-attempted
-site
-is
-"
-{
-site_name
-}
-"
-.
-'
-                
-)
-            
-return
-SitePackagesSource
-.
-VENV
-        
 mach_use_system_python
 =
 bool
@@ -468,22 +402,6 @@ get
 (
 "
 MACH_USE_SYSTEM_PYTHON
-"
-)
-)
-        
-moz_automation
-=
-bool
-(
-os
-.
-environ
-.
-get
-(
-"
-MOZ_AUTOMATION
 "
 )
 )
@@ -560,13 +478,6 @@ created
 .
         
 if
-site_name
-=
-=
-"
-mach
-"
-and
 mach_use_system_python
 :
             
@@ -625,7 +536,16 @@ if
 (
 mach_use_system_python
 or
-moz_automation
+os
+.
+environ
+.
+get
+(
+"
+MOZ_AUTOMATION
+"
+)
 )
             
 else
@@ -752,10 +672,6 @@ int
 site_name
 :
 str
-        
-site_packages_source
-:
-SitePackagesSource
         
 mach_site_packages_source
 :
@@ -911,12 +827,6 @@ site_name
         
 self
 .
-site_packages_source
-=
-site_packages_source
-        
-self
-.
 mach_site_packages_source
 =
 mach_site_packages_source
@@ -986,16 +896,6 @@ virtualenv_name
 self
 .
 site_name
-            
-"
-site_packages_source
-"
-:
-self
-.
-site_packages_source
-.
-name
             
 "
 mach_site_packages_source
@@ -1096,16 +996,6 @@ site_name
 other
 .
 site_name
-            
-and
-self
-.
-site_packages_source
-=
-=
-other
-.
-site_packages_source
             
 and
 self
@@ -1267,16 +1157,6 @@ raw
 "
 virtualenv_name
 "
-]
-                
-SitePackagesSource
-[
-raw
-[
-"
-site_packages_source
-"
-]
 ]
                 
 SitePackagesSource
@@ -1794,8 +1674,6 @@ mach
             
 site_packages_source
             
-site_packages_source
-            
 original_python
             
 self
@@ -2057,11 +1935,8 @@ source
 =
 SitePackagesSource
 .
-from_environment
+for_mach
 (
-"
-mach
-"
 )
         
 virtualenv_root
@@ -2916,9 +2791,7 @@ _pthfile_lines
 environment
 )
             
-self
-.
-_site_packages_source
+True
             
 self
 .
@@ -3219,9 +3092,9 @@ active_metadata
 :
 MozSiteMetadata
         
-site_packages_source
+populate_virtualenv
 :
-SitePackagesSource
+bool
         
 requirements
 :
@@ -3293,20 +3166,56 @@ moz
 managed
 site
             
-site_packages_source
+populate_virtualenv
 :
-Where
-this
-site
-will
-import
-its
-pip
--
+True
+if
+packages
+should
+be
 installed
+to
+the
+on
+-
+disk
                 
-dependencies
+virtualenv
+with
+"
+pip
+"
+.
+False
+if
+the
+virtualenv
+should
+only
+include
+                
+sys
+.
+path
+modifications
+and
+all
+3rd
+-
+party
+packages
+should
+be
+imported
 from
+                
+Mach
+'
+s
+site
+packages
+source
+.
             
 requirements
 :
@@ -3393,9 +3302,9 @@ bin_path
         
 self
 .
-_site_packages_source
+_populate_virtualenv
 =
-site_packages_source
+populate_virtualenv
         
 self
 .
@@ -3423,8 +3332,6 @@ sys
 hexversion
             
 site_name
-            
-site_packages_source
             
 active_metadata
 .
@@ -3585,76 +3492,135 @@ command
 sites
 "
         
-requirements
+mach_site_packages_source
 =
-resolve_requirements
-(
-topsrcdir
-site_name
-)
-        
-source
-=
-SitePackagesSource
+active_metadata
 .
-from_environment
-(
+mach_site_packages_source
+        
+pip_restricted_site
+=
 site_name
-)
+in
+PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS
         
 if
-source
+(
+            
+not
+pip_restricted_site
+            
+and
+mach_site_packages_source
 =
 =
 SitePackagesSource
 .
-NONE
-and
-requirements
-.
-pypi_requirements
+SYSTEM
+        
+)
 :
+            
+#
+Sites
+that
+aren
+'
+t
+pip
+-
+network
+-
+install
+-
+restricted
+are
+likely
+going
+to
+be
+            
+#
+incompatible
+with
+the
+system
+.
+Besides
+this
+use
+case
+shouldn
+'
+t
+exist
+since
+            
+#
+using
+the
+system
+packages
+is
+supposed
+to
+only
+be
+needed
+to
+lower
+risk
+of
+            
+#
+important
+processes
+like
+building
+Firefox
+.
             
 raise
 Exception
 (
                 
+'
+Cannot
+use
+MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
+=
 "
-Mach
-is
-currently
-configured
-to
-run
-without
-installing
+system
+"
+for
 any
-pip
+'
+                
+f
+"
+sites
+other
+than
+{
+PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS
+}
+.
+The
 "
                 
 f
 '
-packages
-but
-the
 current
+attempted
 site
-(
+is
 "
 {
 site_name
 }
 "
-)
-has
-external
-'
-                
-f
-"
-dependencies
 .
-"
+'
             
 )
         
@@ -3670,8 +3636,6 @@ get_state_dir
 )
             
 if
-active_metadata
-.
 mach_site_packages_source
 =
 =
@@ -3681,6 +3645,23 @@ VENV
             
 else
 None
+        
+)
+        
+populate_virtualenv
+=
+(
+            
+mach_site_packages_source
+=
+=
+SitePackagesSource
+.
+VENV
+            
+or
+not
+pip_restricted_site
         
 )
         
@@ -3706,9 +3687,13 @@ site_name
             
 active_metadata
             
-source
+populate_virtualenv
             
-requirements
+resolve_requirements
+(
+topsrcdir
+site_name
+)
         
 )
     
@@ -3890,7 +3875,7 @@ _pthfile_lines
                 
 self
 .
-_site_packages_source
+_populate_virtualenv
                 
 self
 .
@@ -5314,94 +5299,9 @@ _topsrcdir
 )
         
 if
-(
-            
 self
 .
-_site_packages_source
-=
-=
-SitePackagesSource
-.
-SYSTEM
-            
-and
-not
-mach_site_packages_source
-=
-=
-SitePackagesSource
-.
-SYSTEM
-        
-)
-:
-            
-#
-Only
-add
-the
-system
-environment
-if
-it
-wasn
-'
-t
-already
-added
-            
-#
-earlier
-for
-Mach
-.
-            
-stdlib_paths
-=
-self
-.
-_metadata
-.
-original_python
-.
-stdlib_paths
-(
-)
-            
-system_sys_path
-=
-[
-p
-for
-p
-in
-sys
-.
-path
-if
-p
-not
-in
-stdlib_paths
-]
-            
-lines
-.
-extend
-(
-system_sys_path
-)
-        
-elif
-self
-.
-_site_packages_source
-=
-=
-SitePackagesSource
-.
-VENV
+_populate_virtualenv
 :
             
 #
@@ -5567,17 +5467,11 @@ _site_name
 self
 .
 _requirements
-                
 if
+not
 self
 .
-_site_packages_source
-=
-=
-SitePackagesSource
-.
-SYSTEM
-                
+_populate_virtualenv
 else
 None
             
@@ -8362,7 +8256,7 @@ target_venv
     
 pthfile_lines
     
-site_packages_source
+populate_with_pip
     
 requirements
     
@@ -8522,12 +8416,7 @@ pthfile_contents
 )
     
 if
-site_packages_source
-=
-=
-SitePackagesSource
-.
-VENV
+populate_with_pip
 :
         
 for
