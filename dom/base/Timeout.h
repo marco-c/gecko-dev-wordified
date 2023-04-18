@@ -260,6 +260,7 @@ uint8_t
 {
 eTimeoutOrInterval
 eIdleCallbackTimeout
+eAbortSignalTimeout
 }
 ;
 struct
