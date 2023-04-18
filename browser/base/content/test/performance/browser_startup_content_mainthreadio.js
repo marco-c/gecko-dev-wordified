@@ -1848,9 +1848,6 @@ expandPathWithDirServiceKey
 entry
 .
 path
-entry
-.
-canonicalize
 )
 ;
 }

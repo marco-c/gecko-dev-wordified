@@ -10986,7 +10986,7 @@ rv
 profileFileWin
 -
 >
-GetCanonicalPath
+GetPath
 (
 u16ProfilePath
 )
