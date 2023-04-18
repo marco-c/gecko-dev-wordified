@@ -147,10 +147,6 @@ JSRuntime
 rt
 )
 ;
-ClearEdgesTracer
-(
-)
-;
 private
 :
 template
