@@ -358,14 +358,6 @@ GetStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
-&
-&
-StaticPrefs
-:
-:
-layout_css_touch_action_enabled
-(
-)
 )
 {
 SetDefaultAllowedTouchBehavior

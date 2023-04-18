@@ -4745,17 +4745,6 @@ engines
 "
 gecko
 "
-gecko_pref
-=
-"
-layout
-.
-css
-.
-touch_action
-.
-enabled
-"
 animation_value_type
 =
 "
