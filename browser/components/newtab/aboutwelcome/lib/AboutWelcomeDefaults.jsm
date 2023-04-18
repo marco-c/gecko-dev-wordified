@@ -1090,7 +1090,7 @@ default
 -
 theme
 -
-description
+label
 "
 }
 }
@@ -1132,7 +1132,7 @@ onboarding
 -
 colorway
 -
-description
+label
 "
 }
 }
@@ -1174,7 +1174,7 @@ onboarding
 -
 colorway
 -
-description
+label
 "
 }
 }
@@ -1216,7 +1216,7 @@ onboarding
 -
 colorway
 -
-description
+label
 "
 }
 }
@@ -1258,7 +1258,7 @@ onboarding
 -
 colorway
 -
-description
+label
 "
 }
 }
@@ -1300,7 +1300,7 @@ onboarding
 -
 colorway
 -
-description
+label
 "
 }
 }
@@ -1342,7 +1342,7 @@ onboarding
 -
 colorway
 -
-description
+label
 "
 }
 }
