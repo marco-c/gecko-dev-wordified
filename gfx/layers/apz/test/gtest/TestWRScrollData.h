@@ -350,7 +350,7 @@ APZUpdater
 &
 aUpdater
 const
-nsIntRegion
+LayerIntRegion
 *
 aVisibleRegions
 =
