@@ -9650,9 +9650,8 @@ obj
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-scratch
 )
 ;
 masm
@@ -22877,9 +22876,8 @@ proto
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-output
 )
 ;
 masm
@@ -23199,9 +23197,8 @@ proto
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-output
 )
 ;
 masm
@@ -31038,9 +31035,8 @@ str
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-output
 )
 ;
 masm
@@ -31400,9 +31396,8 @@ result
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-temp1
 )
 ;
 masm
