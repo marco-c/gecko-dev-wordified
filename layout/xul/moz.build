@@ -428,6 +428,3 @@ dom
 xul
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True

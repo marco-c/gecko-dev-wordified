@@ -111,6 +111,13 @@ nsPoint
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsIContent
 ;

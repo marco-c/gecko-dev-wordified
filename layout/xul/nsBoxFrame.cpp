@@ -1656,9 +1656,6 @@ false
 ;
 }
 }
-return
-false
-;
 }
 bool
 nsBoxFrame
@@ -1881,9 +1878,6 @@ false
 ;
 }
 }
-return
-false
-;
 }
 void
 nsBoxFrame
