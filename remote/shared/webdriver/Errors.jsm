@@ -3038,15 +3038,13 @@ the
 EXPORTED_SYMBOLS
 and
 the
-Cu
+ChromeUtils
 .
 import
 (
 "
 foo
 "
-{
-}
 )
 machinery
 sees
