@@ -8733,6 +8733,14 @@ XdndDirectSave
 else
 if
 (
+widget
+:
+:
+GdkIsX11Display
+(
+)
+&
+&
 flavorStr
 .
 EqualsLiteral
