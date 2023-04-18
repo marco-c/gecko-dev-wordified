@@ -1218,11 +1218,6 @@ Parse
 nsIURI
 *
 aURL
-void
-*
-aKey
-=
-nullptr
 )
 =
 0

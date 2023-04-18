@@ -889,15 +889,6 @@ Parse
 nsIURI
 *
 aURL
-void
-*
-/
-*
-legacy
-;
-ignored
-*
-/
 )
 {
 /

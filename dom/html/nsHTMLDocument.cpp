@@ -3268,7 +3268,6 @@ mParser
 Parse
 (
 uri
-this
 )
 ;
 return
