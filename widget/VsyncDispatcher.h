@@ -1050,6 +1050,11 @@ State
 >
 mState
 ;
+int32_t
+mVsyncSkipCounter
+=
+0
+;
 }
 ;
 }
