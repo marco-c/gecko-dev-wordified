@@ -25492,21 +25492,6 @@ clipState
 aBuilder
 )
 ;
-nsRect
-backdropRect
-=
-GetRectRelativeToSelf
-(
-)
-+
-aBuilder
--
->
-ToReferenceFrame
-(
-this
-)
-;
 resultList
 .
 AppendNewToTop
@@ -25518,7 +25503,6 @@ aBuilder
 this
 &
 resultList
-backdropRect
 )
 ;
 ct
@@ -25928,6 +25912,7 @@ this
 &
 resultList
 maskASR
+usingBackdropFilter
 )
 ;
 ct
