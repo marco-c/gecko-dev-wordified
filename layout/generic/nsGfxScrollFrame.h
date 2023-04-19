@@ -5847,6 +5847,11 @@ ScrollOrigin
 aOrigin
 ScrollTriggeredByScript
 aTriggeredByScript
+UniquePtr
+<
+ScrollSnapTargetIds
+>
+aSnapTargetIds
 )
 ;
 /
