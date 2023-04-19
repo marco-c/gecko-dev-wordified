@@ -2311,13 +2311,6 @@ bits_per_sample
 JXL_BIG_ENDIAN
 /
 *
-flipped_y
-=
-*
-/
-false
-/
-*
 pool
 =
 *

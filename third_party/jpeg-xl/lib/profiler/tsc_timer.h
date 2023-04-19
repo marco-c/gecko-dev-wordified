@@ -127,6 +127,17 @@ endif
 /
 NOMINMAX
 #
+ifndef
+NOGDI
+#
+define
+NOGDI
+#
+endif
+/
+/
+NOGDI
+#
 include
 <
 windows

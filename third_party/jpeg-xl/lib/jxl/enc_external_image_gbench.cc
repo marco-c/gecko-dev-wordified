@@ -237,13 +237,6 @@ bits_per_sample
 JXL_NATIVE_ENDIAN
 /
 *
-flipped_y
-=
-*
-/
-false
-/
-*
 pool
 =
 *
