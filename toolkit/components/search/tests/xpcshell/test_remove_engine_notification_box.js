@@ -1021,14 +1021,15 @@ info
 "
 Set
 user
+settings
 metadata
 to
 the
 same
 properties
 as
-cache
-_metadata
+cached
+metadata
 .
 "
 )
