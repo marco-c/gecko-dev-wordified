@@ -59425,7 +59425,6 @@ MinimalDisplayPort
 )
 ;
 }
-const
 nsIScrollableFrame
 *
 scrollableFrame
