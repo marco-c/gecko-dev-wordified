@@ -2074,7 +2074,7 @@ constexpr
 uint32_t
 WasmCheckedTailEntryOffset
 =
-16u
+20u
 ;
 static
 constexpr
