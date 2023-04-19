@@ -5220,7 +5220,7 @@ the
 currently
 acknowledged
 value
-recieved
+received
 from
 the
 /
