@@ -6737,6 +6737,14 @@ size_type
 )
 const
 ;
+}
+/
+/
+namespace
+mozilla
+:
+:
+detail
 /
 *
 *
@@ -6751,7 +6759,7 @@ template
 <
 >
 double
-nsTStringRepr
+nsTString
 <
 char
 >
@@ -6779,7 +6787,9 @@ if
 this
 -
 >
-mLength
+Length
+(
+)
 >
 0
 )
@@ -6796,7 +6806,9 @@ str
 this
 -
 >
-mData
+get
+(
+)
 ;
 /
 /
@@ -6854,7 +6866,9 @@ str
 this
 -
 >
-mLength
+Length
+(
+)
 )
 {
 *
@@ -6899,7 +6913,7 @@ template
 <
 >
 double
-nsTStringRepr
+nsTString
 <
 char16_t
 >
@@ -6944,11 +6958,3 @@ aErrorCode
 )
 ;
 }
-}
-/
-/
-namespace
-mozilla
-:
-:
-detail
