@@ -127,11 +127,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -227,7 +233,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 handlerSvc
 "
@@ -253,7 +259,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gReputationService
 "
@@ -301,19 +307,13 @@ jsm
 "
 )
 ;
-/
-*
-global
-DownloadIntegration
-*
-/
 Integration
 .
 downloads
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadIntegration
 "
@@ -820,6 +820,8 @@ download
 )
 {
 return
+lazy
+.
 UrlbarUtils
 .
 stripPrefixAndTrim
@@ -916,6 +918,8 @@ error
 reputationCheckVerdict
 =
 =
+lazy
+.
 Downloads
 .
 Error
@@ -1054,6 +1058,8 @@ size
 unit
 ]
 =
+lazy
+.
 DownloadUtils
 .
 convertByteUnits
@@ -1066,6 +1072,8 @@ size
 )
 ;
 return
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -1169,6 +1177,8 @@ DOWNLOAD_DIRTY
 DOWNLOAD_BLOCKED_POLICY
 }
 =
+lazy
+.
 DownloadsCommon
 ;
 contextMenu
@@ -1441,6 +1451,8 @@ download
 let
 mimeInfo
 =
+lazy
+.
 DownloadsCommon
 .
 getMimeInfo
@@ -1667,6 +1679,8 @@ useSystemViewerItem
 hidden
 =
 !
+lazy
+.
 DownloadsCommon
 .
 openInSystemViewerItemEnabled
@@ -1689,6 +1703,8 @@ alwaysUseSystemViewerItem
 hidden
 =
 !
+lazy
+.
 DownloadsCommon
 .
 alwaysOpenInSystemViewerItemEnabled
@@ -2247,6 +2263,8 @@ program
 "
 |
 |
+lazy
+.
 gReputationService
 .
 isExecutable
@@ -2278,6 +2296,8 @@ plain
 "
 &
 &
+lazy
+.
 gReputationService
 .
 isBinary
@@ -3496,6 +3516,8 @@ browserWindow
 )
 {
 return
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -4191,6 +4213,8 @@ let
 displayHost
 ]
 =
+lazy
+.
 DownloadUtils
 .
 getURIHost
@@ -4209,6 +4233,8 @@ let
 displayDate
 ]
 =
+lazy
+.
 DownloadUtils
 .
 getReadableDates
@@ -4227,6 +4253,8 @@ endTime
 let
 firstPart
 =
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -4240,6 +4268,8 @@ displayHost
 let
 fullStatus
 =
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -4497,6 +4527,8 @@ setAttribute
 "
 state
 "
+lazy
+.
 DownloadsCommon
 .
 stateOfDownload
@@ -4799,6 +4831,8 @@ status
 newEstimatedSecondsLeft
 ]
 =
+lazy
+.
 DownloadUtils
 .
 getDownloadStatus
@@ -4841,6 +4875,8 @@ launchWhenSucceeded
 {
 status
 =
+lazy
+.
 DownloadUtils
 .
 getFormattedTimeStatus
@@ -4959,6 +4995,8 @@ download
 succeeded
 )
 {
+lazy
+.
 DownloadsCommon
 .
 log
@@ -5035,10 +5073,14 @@ viewable
 -
 internally
 "
+lazy
+.
 DownloadIntegration
 .
 shouldViewDownloadInternally
 (
+lazy
+.
 DownloadsCommon
 .
 getMimeInfo
@@ -5134,6 +5176,8 @@ file
 let
 status
 =
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -5147,6 +5191,8 @@ sizeWithUnits
 {
 status
 =
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -5223,6 +5269,8 @@ showStatusWithDetails
 sizeWithUnits
 |
 |
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -5315,6 +5363,8 @@ this
 .
 showStatusWithDetails
 (
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -5486,6 +5536,8 @@ verdict
 )
 {
 case
+lazy
+.
 Downloads
 .
 Error
@@ -5493,6 +5545,8 @@ Error
 BLOCK_VERDICT_UNCOMMON
 :
 case
+lazy
+.
 Downloads
 .
 Error
@@ -5500,6 +5554,8 @@ Error
 BLOCK_VERDICT_INSECURE
 :
 case
+lazy
+.
 Downloads
 .
 Error
@@ -5552,6 +5608,8 @@ askRemoveFileOrAllow
 break
 ;
 case
+lazy
+.
 Downloads
 .
 Error
@@ -5625,6 +5683,8 @@ this
 .
 showStatusWithDetails
 (
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -5728,6 +5788,8 @@ totalBytes
 let
 transfer
 =
+lazy
+.
 DownloadUtils
 .
 getTransferTotal
@@ -5744,12 +5806,16 @@ this
 .
 showStatus
 (
+lazy
+.
 DownloadsCommon
 .
 strings
 .
 statusSeparatorBeforeNumber
 (
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -5786,6 +5852,8 @@ this
 .
 showStatusWithDetails
 (
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -5881,6 +5949,8 @@ this
 .
 showStatus
 (
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -6084,6 +6154,8 @@ rawBlockedTitleAndDetails
 let
 s
 =
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -6127,6 +6199,8 @@ reputationCheckVerdict
 )
 {
 case
+lazy
+.
 Downloads
 .
 Error
@@ -6149,6 +6223,8 @@ unblockTip2
 ]
 ;
 case
+lazy
+.
 Downloads
 .
 Error
@@ -6171,6 +6247,8 @@ unblockTip2
 ]
 ;
 case
+lazy
+.
 Downloads
 .
 Error
@@ -6193,6 +6271,8 @@ unblockTip2
 ]
 ;
 case
+lazy
+.
 Downloads
 .
 Error
@@ -6215,6 +6295,8 @@ unblockTip2
 ]
 ;
 case
+lazy
+.
 Downloads
 .
 Error
@@ -6338,6 +6420,8 @@ exists
 let
 label
 =
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -6448,6 +6532,8 @@ window
 dialogType
 )
 {
+lazy
+.
 DownloadsCommon
 .
 confirmUnblockDownload
@@ -6693,6 +6779,8 @@ currentDefaultCommandName
 {
 switch
 (
+lazy
+.
 DownloadsCommon
 .
 stateOfDownload
@@ -6704,6 +6792,8 @@ download
 )
 {
 case
+lazy
+.
 DownloadsCommon
 .
 DOWNLOAD_NOTSTARTED
@@ -6714,11 +6804,15 @@ downloadsCmd_cancel
 "
 ;
 case
+lazy
+.
 DownloadsCommon
 .
 DOWNLOAD_FAILED
 :
 case
+lazy
+.
 DownloadsCommon
 .
 DOWNLOAD_CANCELED
@@ -6729,6 +6823,8 @@ downloadsCmd_retry
 "
 ;
 case
+lazy
+.
 DownloadsCommon
 .
 DOWNLOAD_PAUSED
@@ -6739,6 +6835,8 @@ downloadsCmd_pauseResume
 "
 ;
 case
+lazy
+.
 DownloadsCommon
 .
 DOWNLOAD_FINISHED
@@ -6749,6 +6847,8 @@ downloadsCmd_open
 "
 ;
 case
+lazy
+.
 DownloadsCommon
 .
 DOWNLOAD_BLOCKED_PARENTAL
@@ -6759,6 +6859,8 @@ downloadsCmd_openReferrer
 "
 ;
 case
+lazy
+.
 DownloadsCommon
 .
 DOWNLOAD_DIRTY
@@ -7107,10 +7209,14 @@ downloadsCmd_alwaysOpenInSystemViewer
 "
 :
 return
+lazy
+.
 DownloadIntegration
 .
 shouldViewDownloadInternally
 (
+lazy
+.
 DownloadsCommon
 .
 getMimeInfo
@@ -7318,6 +7424,8 @@ tab
 "
 )
 {
+lazy
+.
 DownloadsCommon
 .
 openDownload
@@ -7397,6 +7505,8 @@ let
 file
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -7410,6 +7520,8 @@ target
 path
 )
 ;
+lazy
+.
 DownloadsCommon
 .
 showDownloadedFile
@@ -7590,6 +7702,8 @@ cmd_delete
 (
 )
 {
+lazy
+.
 DownloadsCommon
 .
 deleteDownload
@@ -7628,6 +7742,8 @@ part
 files
 .
 await
+lazy
+.
 DownloadsCommon
 .
 deleteDownloadFiles
@@ -7671,6 +7787,8 @@ using
 the
 system
 viewer
+lazy
+.
 DownloadsCommon
 .
 openDownload
@@ -7729,6 +7847,8 @@ browser
 const
 mimeInfo
 =
+lazy
+.
 DownloadsCommon
 .
 getMimeInfo
@@ -7797,6 +7917,8 @@ viewer
 from
 now
 on
+lazy
+.
 DownloadsCommon
 .
 log
@@ -7842,6 +7964,8 @@ false
 }
 else
 {
+lazy
+.
 DownloadsCommon
 .
 log
@@ -7892,6 +8016,8 @@ mimeInfo
 handleInternally
 ;
 }
+lazy
+.
 handlerSvc
 .
 store
@@ -7899,6 +8025,8 @@ store
 mimeInfo
 )
 ;
+lazy
+.
 DownloadsCommon
 .
 openDownload
@@ -7923,6 +8051,8 @@ downloadsCmd_alwaysOpenSimilarFiles
 const
 mimeInfo
 =
+lazy
+.
 DownloadsCommon
 .
 getMimeInfo
@@ -8026,6 +8156,8 @@ mimeInfo
 .
 useSystemDefault
 ;
+lazy
+.
 handlerSvc
 .
 store
@@ -8033,6 +8165,8 @@ store
 mimeInfo
 )
 ;
+lazy
+.
 DownloadsCommon
 .
 openDownload
@@ -8082,6 +8216,8 @@ mimeInfo
 .
 saveToDisk
 ;
+lazy
+.
 handlerSvc
 .
 store
