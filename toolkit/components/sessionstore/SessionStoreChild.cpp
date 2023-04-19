@@ -946,10 +946,6 @@ UpdateSessionStore
 (
 bool
 aSessionHistoryUpdate
-const
-MaybeSessionStoreZoom
-&
-aZoom
 )
 {
 if
@@ -978,9 +974,6 @@ update
 .
 SessionStoreUpdate
 (
-Nothing
-(
-)
 Nothing
 (
 )
@@ -1069,7 +1062,6 @@ SessionStoreUpdate
 (
 docShellCaps
 privatedMode
-aZoom
 store
 -
 >
@@ -1195,10 +1187,6 @@ bool
 &
 aPrivatedMode
 const
-MaybeSessionStoreZoom
-&
-aZoom
-const
 bool
 aNeedCollectSHistory
 const
@@ -1221,7 +1209,6 @@ SendSessionStoreUpdate
 (
 aDocShellCaps
 aPrivatedMode
-aZoom
 aNeedCollectSHistory
 aEpoch
 )
@@ -1257,7 +1244,6 @@ SessionStoreUpdate
 (
 aDocShellCaps
 aPrivatedMode
-aZoom
 aNeedCollectSHistory
 aEpoch
 )
