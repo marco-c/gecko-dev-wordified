@@ -969,7 +969,7 @@ this
 .
 dataProvider
 .
-destroy
+clear
 (
 )
 ;
