@@ -6280,8 +6280,8 @@ and
 the
 remainder
 of
-the
 *
+the
 URL
 .
 "
@@ -6296,11 +6296,17 @@ scheme
 and
 colon
 plus
-if
-present
+zero
+to
 two
 *
 slashes
+(
+see
+UrlbarTokenizer
+.
+REGEXP_PREFIX
+)
 .
 If
 the
@@ -6308,6 +6314,7 @@ given
 string
 is
 not
+*
 actually
 a
 URL
@@ -6316,7 +6323,6 @@ it
 has
 a
 prefix
-*
 we
 don
 '
@@ -6326,6 +6332,7 @@ then
 an
 empty
 prefix
+*
 and
 the
 string
