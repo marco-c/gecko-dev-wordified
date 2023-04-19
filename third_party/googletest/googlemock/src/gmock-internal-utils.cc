@@ -2041,10 +2041,16 @@ bit_pos
 dst
 |
 =
+static_cast
+<
+char
+>
+(
 src_bin
 <
 <
 2
+)
 ;
 bit_pos
 =
