@@ -15673,7 +15673,6 @@ aPoint
 uint32_t
 aGlyphId
 )
-const
 ;
 /
 /
