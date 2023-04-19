@@ -1725,6 +1725,9 @@ None
 capture_stdio
 =
 True
+restart_on_new_group
+=
+True
 recording
 =
 None
@@ -2170,6 +2173,12 @@ self
 capture_stdio
 =
 capture_stdio
+        
+self
+.
+restart_on_new_group
+=
+restart_on_new_group
     
 def
 run
@@ -5396,7 +5405,14 @@ stop
 force_stop
 )
             
-if
+restart
+=
+(
+self
+.
+restart_on_new_group
+and
+                       
 test_group
 is
 not
@@ -5405,21 +5421,11 @@ self
 state
 .
 test_group
-:
-                
-#
-We
-are
-starting
-a
-new
-group
-of
-tests
-so
-force
-a
+)
+            
+if
 restart
+:
                 
 self
 .
@@ -5436,10 +5442,6 @@ test
 group
 "
 )
-                
-restart
-=
-True
         
 else
 :
@@ -6513,6 +6515,10 @@ capture_stdio
 =
 True
                  
+restart_on_new_group
+=
+True
+                 
 recording
 =
 None
@@ -6602,6 +6608,12 @@ self
 capture_stdio
 =
 capture_stdio
+        
+self
+.
+restart_on_new_group
+=
+restart_on_new_group
         
 self
 .
@@ -6850,6 +6862,10 @@ debug_info
 self
 .
 capture_stdio
+                                        
+self
+.
+restart_on_new_group
                                         
 recording
 =
