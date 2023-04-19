@@ -2510,6 +2510,8 @@ pic
 .
 restore_context
 (
+*
+pic_index
 prim_list
 pic_context
 &
