@@ -1010,6 +1010,11 @@ path
 MOZ_LOG
 :
 moz_log
+MOZ_BACKGROUNDTASKS_PURGE_STALE_PROFILES
+:
+"
+always
+"
 }
 }
 )
