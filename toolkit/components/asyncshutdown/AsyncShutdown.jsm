@@ -390,11 +390,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -417,7 +423,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gDebug
 "
@@ -441,7 +447,7 @@ Object
 .
 defineProperty
 (
-this
+lazy
 "
 gCrashReporter
 "
@@ -1152,6 +1158,8 @@ key
 let
 indirection
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -2115,6 +2123,8 @@ DELAY_BEAT
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -6736,9 +6746,13 @@ msg
 ;
 if
 (
+lazy
+.
 gCrashReporter
 &
 &
+lazy
+.
 gCrashReporter
 .
 enabled
@@ -6756,6 +6770,8 @@ conditions
 state
 }
 ;
+lazy
+.
 gCrashReporter
 .
 annotateCrashReport
@@ -6890,6 +6906,8 @@ getOrigin
 break
 ;
 }
+lazy
+.
 gDebug
 .
 abort
