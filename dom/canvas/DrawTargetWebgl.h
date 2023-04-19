@@ -1528,6 +1528,16 @@ aPattern
 )
 ;
 void
+SetTexFilter
+(
+WebGLTextureJS
+*
+aTex
+bool
+aFilter
+)
+;
+void
 InitTexParameters
 (
 WebGLTextureJS
