@@ -448,6 +448,9 @@ Firefox
 "
 Mozilla
 "
+"
+Thunderbird
+"
 ]
         
 self

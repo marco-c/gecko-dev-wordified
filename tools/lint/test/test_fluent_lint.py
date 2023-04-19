@@ -1174,7 +1174,7 @@ results
 )
 =
 =
-8
+11
     
 assert
 results
@@ -1226,6 +1226,19 @@ message
 assert
 "
 Mozilla
+"
+not
+in
+results
+[
+0
+]
+.
+message
+    
+assert
+"
+Thunderbird
 "
 not
 in
