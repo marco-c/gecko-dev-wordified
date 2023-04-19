@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
