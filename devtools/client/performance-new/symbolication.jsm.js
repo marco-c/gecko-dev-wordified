@@ -245,7 +245,7 @@ any
 const
 global
 =
-this
+globalThis
 ;
 /
 /
