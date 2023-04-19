@@ -1382,6 +1382,10 @@ BackgroundParentImpl
 :
 AllocPBackgroundFileSystemParent
 (
+const
+PrincipalInfo
+&
+aPrincipalInfo
 )
 -
 >
@@ -1410,6 +1414,7 @@ dom
 BackgroundFileSystemParent
 >
 (
+aPrincipalInfo
 )
 ;
 }
