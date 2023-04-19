@@ -280,10 +280,6 @@ estimator
 ;
 }
 ;
-}
-/
-/
-namespace
 TEST
 (
 AutomaticGainController2AdaptiveModeLevelEstimator
@@ -1013,6 +1009,10 @@ kMaxDifferenceDb
 )
 ;
 }
+}
+/
+/
+namespace
 }
 /
 /
