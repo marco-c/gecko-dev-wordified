@@ -115,13 +115,6 @@ REPS
 ;
 const
 {
-createGripMapEntry
-}
-=
-GripEntry
-;
-const
-{
 MODE
 }
 =
@@ -146,6 +139,7 @@ constants
 ;
 const
 {
+createGripMapEntry
 getGripLengthBubbleText
 }
 =
