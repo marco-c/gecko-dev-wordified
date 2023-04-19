@@ -6511,7 +6511,7 @@ char
 *
 cstr
 =
-NumberToCString
+NumberToCStringWithBase
 (
 cx
 &

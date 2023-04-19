@@ -23506,8 +23506,6 @@ NonBMPMax
 ToCStringBuf
 cbuf
 ;
-if
-(
 const
 char
 *
@@ -23515,13 +23513,16 @@ numStr
 =
 NumberToCString
 (
-cx
 &
 cbuf
 nextCP
 )
+;
+MOZ_ASSERT
+(
+numStr
 )
-{
+;
 JS_ReportErrorNumberASCII
 (
 cx
@@ -23531,7 +23532,6 @@ JSMSG_NOT_A_CODEPOINT
 numStr
 )
 ;
-}
 return
 false
 ;
