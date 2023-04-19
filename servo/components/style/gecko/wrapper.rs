@@ -14178,7 +14178,7 @@ MozDirAttrLikeAuto
 NonTSPseudoClass
 :
 :
-MozModalDialog
+Modal
 |
 NonTSPseudoClass
 :
