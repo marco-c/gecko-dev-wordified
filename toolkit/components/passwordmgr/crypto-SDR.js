@@ -1784,8 +1784,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 LoginManagerCrypto_SDR
 .
 prototype

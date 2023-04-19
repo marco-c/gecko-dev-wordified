@@ -5675,8 +5675,7 @@ for
 each
 type
 .
-this
-.
+var
 creditCardRulesets
 =
 {
@@ -5761,8 +5760,6 @@ type
 }
 }
 ;
-this
-.
 creditCardRulesets
 .
 init
