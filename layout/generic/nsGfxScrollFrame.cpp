@@ -55539,13 +55539,6 @@ ScrollFrameHelper
 :
 ComputeScrollSnapInfo
 (
-const
-Maybe
-<
-nsPoint
->
-&
-aDestination
 )
 const
 {
@@ -55690,13 +55683,6 @@ ScrollFrameHelper
 :
 GetScrollSnapInfo
 (
-const
-Maybe
-<
-nsPoint
->
-&
-aDestination
 )
 const
 {
@@ -55715,7 +55701,6 @@ it
 return
 ComputeScrollSnapInfo
 (
-aDestination
 )
 ;
 }
@@ -55751,10 +55736,6 @@ GetSnapPointForDestination
 (
 GetScrollSnapInfo
 (
-Some
-(
-aDestination
-)
 )
 aUnit
 aSnapFlags
