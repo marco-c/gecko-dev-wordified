@@ -467,6 +467,8 @@ const
 *
 *
 Get
+/
+set
 caret
 offset
 if
@@ -484,6 +486,16 @@ CaretOffset
 (
 )
 const
+;
+virtual
+void
+SetCaretOffset
+(
+int32_t
+aOffset
+)
+=
+0
 ;
 /
 *

@@ -442,13 +442,6 @@ CaretOffset
 const
 override
 ;
-void
-SetCaretOffset
-(
-int32_t
-aOffset
-)
-;
 virtual
 void
 TextSubstring

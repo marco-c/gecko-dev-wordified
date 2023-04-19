@@ -255,6 +255,15 @@ TakeFocus
 const
 override
 ;
+virtual
+void
+SetCaretOffset
+(
+int32_t
+aOffset
+)
+override
+;
 bool
 GetCOMInterface
 (
