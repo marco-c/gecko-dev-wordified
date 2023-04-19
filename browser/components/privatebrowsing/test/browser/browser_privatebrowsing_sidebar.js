@@ -281,6 +281,11 @@ sidebar
 ;
 }
 )
+.
+then
+(
+closeCachedWindows
+)
 /
 /
 Part
@@ -378,6 +383,11 @@ sidebar
 )
 ;
 }
+)
+.
+then
+(
+closeCachedWindows
 )
 /
 /
@@ -482,6 +492,11 @@ sidebar
 )
 ;
 }
+)
+.
+then
+(
+closeCachedWindows
 )
 /
 /
