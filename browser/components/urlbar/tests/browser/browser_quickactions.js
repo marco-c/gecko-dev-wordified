@@ -405,6 +405,15 @@ value
 let
 oneOffButton
 =
+await
+TestUtils
+.
+waitForCondition
+(
+(
+)
+=
+>
 window
 .
 document
@@ -424,6 +433,7 @@ item
 -
 actions
 "
+)
 )
 ;
 Assert
