@@ -37310,7 +37310,7 @@ state
 ElementState
 :
 :
-MOZ_UI_INVALID
+USER_INVALID
 ;
 }
 }
@@ -37444,7 +37444,7 @@ HasState
 ElementState
 :
 :
-MOZ_UI_INVALID
+USER_INVALID
 )
 &
 &
@@ -37460,7 +37460,7 @@ state
 ElementState
 :
 :
-MOZ_UI_VALID
+USER_VALID
 ;
 }
 /

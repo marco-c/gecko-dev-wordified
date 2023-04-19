@@ -738,7 +738,7 @@ user
 valid
 "
 UserValid
-MOZ_UI_VALID
+USER_VALID
 _
 )
 (
@@ -748,7 +748,7 @@ user
 invalid
 "
 UserInvalid
-MOZ_UI_INVALID
+USER_INVALID
 _
 )
 (
