@@ -39,7 +39,7 @@ Spotlight
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -54,9 +54,7 @@ lib
 /
 Spotlight
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -67,7 +65,7 @@ PanelTestProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -82,9 +80,7 @@ lib
 /
 PanelTestProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -144,7 +140,7 @@ RemoteImagesTestUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -157,9 +153,7 @@ common
 /
 RemoteImagesTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

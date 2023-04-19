@@ -92,7 +92,7 @@ RemoteL10n
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -107,9 +107,7 @@ lib
 /
 RemoteL10n
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

@@ -136,7 +136,7 @@ PREFS_CONFIG
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -151,9 +151,7 @@ lib
 /
 ActivityStream
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -832,7 +830,7 @@ AboutHomeStartupCacheChild
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -844,9 +842,7 @@ modules
 /
 AboutNewTabService
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -981,7 +977,7 @@ AboutHomeStartupCacheChild
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -993,9 +989,7 @@ modules
 /
 AboutNewTabService
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
