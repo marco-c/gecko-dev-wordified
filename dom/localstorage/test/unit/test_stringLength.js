@@ -30,6 +30,8 @@ zero
 /
 *
 /
+add_task
+(
 async
 function
 testSteps
@@ -430,3 +432,5 @@ length
 )
 ;
 }
+)
+;

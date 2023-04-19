@@ -55,6 +55,8 @@ js
 "
 )
 ;
+add_task
+(
 async
 function
 testSteps
@@ -165,3 +167,5 @@ test_databaseShadowing_clearOrigin2
 .
 js
 }
+)
+;

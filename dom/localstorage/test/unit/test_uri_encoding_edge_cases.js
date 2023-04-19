@@ -86,6 +86,8 @@ bug
 .
 *
 /
+add_task
+(
 async
 function
 testSteps
@@ -398,3 +400,5 @@ exist
 ;
 }
 }
+)
+;

@@ -72,6 +72,8 @@ LocalStorage
 .
 *
 /
+add_task
+(
 async
 function
 testSteps
@@ -207,3 +209,5 @@ result
 ;
 }
 }
+)
+;
