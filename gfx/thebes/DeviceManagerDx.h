@@ -410,6 +410,8 @@ ID3D11Device
 >
 CreateDecoderDevice
 (
+bool
+aHardwareWebRender
 )
 ;
 IDirectDraw7
