@@ -807,7 +807,7 @@ enablePrivateClassMethods
 ;
 extern
 bool
-enableErgonomicBrandChecks
+enableArrayFindLast
 ;
 #
 ifdef
