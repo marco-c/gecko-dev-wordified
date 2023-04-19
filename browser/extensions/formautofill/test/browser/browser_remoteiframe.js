@@ -161,7 +161,7 @@ children
 ]
 ;
 await
-openPopupForSubframe
+openPopupOnSubframe
 (
 browser
 iframeBC
@@ -518,7 +518,7 @@ the
 dropdown
 .
 await
-openPopupForSubframe
+openPopupOnSubframe
 (
 browser
 iframeBC
@@ -582,7 +582,7 @@ Form
 item
 .
 await
-openPopupForSubframe
+openPopupOnSubframe
 (
 browser
 iframeBC
@@ -786,7 +786,7 @@ children
 ]
 ;
 await
-openPopupForSubframe
+openPopupOnSubframe
 (
 browser
 iframeBC
