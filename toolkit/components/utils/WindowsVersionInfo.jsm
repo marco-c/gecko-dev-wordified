@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ctypes
 "
@@ -120,6 +126,8 @@ jsm
 const
 BYTE
 =
+lazy
+.
 ctypes
 .
 uint8_t
@@ -127,6 +135,8 @@ uint8_t
 const
 WORD
 =
+lazy
+.
 ctypes
 .
 uint16_t
@@ -134,6 +144,8 @@ uint16_t
 const
 DWORD
 =
+lazy
+.
 ctypes
 .
 uint32_t
@@ -141,6 +153,8 @@ uint32_t
 const
 WCHAR
 =
+lazy
+.
 ctypes
 .
 char16_t
@@ -148,6 +162,8 @@ char16_t
 const
 BOOL
 =
+lazy
+.
 ctypes
 .
 int
@@ -401,6 +417,8 @@ const
 OSVERSIONINFOEXW
 =
 new
+lazy
+.
 ctypes
 .
 StructType
@@ -437,6 +455,8 @@ DWORD
 {
 szCSDVersion
 :
+lazy
+.
 ctypes
 .
 ArrayType
@@ -480,6 +500,8 @@ try
 {
 kernel32
 =
+lazy
+.
 ctypes
 .
 open
@@ -527,6 +549,8 @@ declare
 "
 GetVersionExW
 "
+lazy
+.
 ctypes
 .
 winapi_abi

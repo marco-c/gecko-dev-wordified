@@ -109,6 +109,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 /
 *
 eslint
@@ -123,7 +129,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ShellService
 "
@@ -145,7 +151,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -168,7 +174,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryArchive
 "
@@ -191,7 +197,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryController
 "
@@ -214,7 +220,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -237,7 +243,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AttributionCode
 "
@@ -259,7 +265,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WindowsVersionInfo
 "
@@ -286,7 +292,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NormandyUtils
 "
@@ -450,6 +456,8 @@ const
 pings
 =
 await
+lazy
+.
 TelemetryArchive
 .
 promiseArchivedPingList
@@ -557,6 +565,8 @@ type
 ]
 =
 await
+lazy
+.
 TelemetryArchive
 .
 promiseArchivedPingById
@@ -645,6 +655,8 @@ target
 .
 main
 =
+lazy
+.
 TelemetryController
 .
 getCurrentPingData
@@ -829,6 +841,8 @@ id
 {
 id
 =
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -875,6 +889,8 @@ channel
 )
 {
 return
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel
@@ -890,6 +906,8 @@ isDefaultBrowser
 )
 {
 return
+lazy
+.
 ShellService
 .
 isDefaultBrowser
@@ -1047,6 +1065,8 @@ const
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAllAddons
@@ -1134,6 +1154,8 @@ const
 plugins
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
@@ -1470,6 +1492,8 @@ null
 ;
 }
 return
+lazy
+.
 WindowsVersionInfo
 .
 get
@@ -1630,6 +1654,8 @@ attribution
 )
 {
 return
+lazy
+.
 AttributionCode
 .
 getAttrDataAsync
