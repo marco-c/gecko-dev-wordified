@@ -705,6 +705,13 @@ layers
 TextureFactoryIdentifier
 >
 aIdentifier
+const
+Maybe
+<
+uint64_t
+>
+&
+aMediaEngineId
 )
 {
 MOZ_ASSERT_IF
@@ -969,6 +976,7 @@ this
 decoderInfo
 aOptions
 aIdentifier
+aMediaEngineId
 )
 ;
 return
@@ -1012,6 +1020,11 @@ aManagerThread
 TaskQueue
 *
 aDecodeTaskQueue
+Maybe
+<
+uint64_t
+>
+aMediaEngineId
 )
 :
 RemoteDecoderParent
@@ -1020,6 +1033,7 @@ aParent
 aOptions
 aManagerThread
 aDecodeTaskQueue
+aMediaEngineId
 )
 mVideoInfo
 (
@@ -1175,6 +1189,7 @@ NoWrapper
 (
 true
 )
+mMediaEngineId
 }
 ;
 mParent
