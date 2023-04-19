@@ -5,9 +5,10 @@ META
 global
 =
 window
-dedicatedworker
+worker
 sharedworker
-serviceworker
+-
+module
 test
 (
 t
