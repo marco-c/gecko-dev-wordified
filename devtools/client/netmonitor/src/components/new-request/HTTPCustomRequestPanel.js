@@ -570,7 +570,7 @@ OPTIONS
 TRACE
 "
 "
-PATH
+PATCH
 "
 ]
 ;
