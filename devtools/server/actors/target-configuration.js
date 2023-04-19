@@ -232,6 +232,14 @@ colorSchemeSimulation
 true
 /
 /
+Enable
+custom
+formatters
+customFormatters
+:
+true
+/
+/
 Set
 a
 custom

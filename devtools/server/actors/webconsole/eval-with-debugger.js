@@ -2668,6 +2668,12 @@ return
 dbg
 ;
 }
+exports
+.
+makeSideeffectFreeDebugger
+=
+makeSideeffectFreeDebugger
+;
 /
 /
 Native

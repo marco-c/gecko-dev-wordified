@@ -582,6 +582,7 @@ function
 getCustomFormatterBody
 (
 objectFront
+customFormatterIndex
 )
 {
 return
@@ -589,6 +590,7 @@ objectFront
 .
 customFormatterBody
 (
+customFormatterIndex
 )
 ;
 }

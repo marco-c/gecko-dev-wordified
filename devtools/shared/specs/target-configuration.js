@@ -106,6 +106,13 @@ nullable
 :
 string
 "
+customFormatters
+:
+"
+nullable
+:
+boolean
+"
 customUserAgent
 :
 "
