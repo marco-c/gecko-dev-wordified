@@ -72045,6 +72045,11 @@ IsPositionedStyle
 IsFlexOrGridItem
 (
 )
+|
+|
+IsMenuPopupFrame
+(
+)
 ;
 }
 Maybe
