@@ -3452,6 +3452,16 @@ const
 =
 0
 ;
+enum
+class
+InScrollingGesture
+:
+bool
+{
+No
+Yes
+}
+;
 /
 *
 *
@@ -3539,6 +3549,8 @@ mozilla
 :
 APZScrollAnimationType
 aAPZScrollAnimationType
+InScrollingGesture
+aInScrollingGesture
 )
 =
 0
