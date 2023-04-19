@@ -201,6 +201,28 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowGlobalParent
 .
 h
@@ -245,6 +267,13 @@ h
 include
 "
 nsXULAppAPI
+.
+h
+"
+#
+include
+"
+ExternalHelperAppParent
 .
 h
 "
@@ -888,7 +917,7 @@ LazyLogModule
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 (
 "
 HelperAppService
@@ -949,7 +978,9 @@ LOG
 define
 LOG
 (
-args
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -957,7 +988,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 mozilla
 :
 :
@@ -965,7 +996,10 @@ LogLevel
 :
 :
 Info
-args
+\
+(
+__VA_ARGS__
+)
 )
 #
 define
@@ -978,7 +1012,7 @@ MOZ_LOG_TEST
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 mozilla
 :
 :
@@ -5090,7 +5124,6 @@ allowURLExtension
 ;
 LOG
 (
-(
 "
 Type
 /
@@ -5107,7 +5140,6 @@ mimeInfo
 .
 get
 (
-)
 )
 )
 ;
@@ -9971,7 +10003,6 @@ rv
 ;
 LOG
 (
-(
 "
 Enabled
 hashing
@@ -9979,7 +10010,6 @@ and
 signature
 verification
 "
-)
 )
 ;
 rv
@@ -11128,7 +11158,6 @@ rv
 {
 LOG
 (
-(
 "
 Failed
 to
@@ -11146,7 +11175,6 @@ to
 prompter
 !
 "
-)
 )
 ;
 }
@@ -13870,7 +13898,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 LogLevel
 :
 :
@@ -13933,7 +13961,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 LogLevel
 :
 :
@@ -14205,7 +14233,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 LogLevel
 :
 :
@@ -14368,7 +14396,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 LogLevel
 :
 :
@@ -14470,7 +14498,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 LogLevel
 :
 :
@@ -14749,7 +14777,6 @@ aStatus
 {
 LOG
 (
-(
 "
 nsExternalAppHandler
 :
@@ -14791,7 +14818,6 @@ uint32_t
 >
 (
 aStatus
-)
 )
 )
 ;
@@ -14929,7 +14955,6 @@ aStatus
 {
 LOG
 (
-(
 "
 nsExternalAppHandler
 :
@@ -14977,7 +15002,6 @@ mTransfer
 .
 get
 (
-)
 )
 )
 ;
@@ -15106,7 +15130,6 @@ rv
 ;
 LOG
 (
-(
 "
 nsExternalAppHandler
 :
@@ -15126,7 +15149,6 @@ RedirectChain
 .
 Length
 (
-)
 )
 )
 ;
@@ -15385,13 +15407,11 @@ nsITransfer
 ;
 LOG
 (
-(
 "
 Notifying
 progress
 listener
 "
-)
 )
 ;
 if
@@ -15622,14 +15642,12 @@ CreateTransfer
 {
 LOG
 (
-(
 "
 nsExternalAppHandler
 :
 :
 CreateTransfer
 "
-)
 )
 ;
 MOZ_ASSERT
@@ -18976,7 +18994,6 @@ characters
 ;
 LOG
 (
-(
 "
 Getting
 mimeinfo
@@ -19009,7 +19026,6 @@ aFileExt
 .
 get
 (
-)
 )
 )
 ;
@@ -19128,7 +19144,6 @@ rv
 }
 LOG
 (
-(
 "
 OS
 gave
@@ -19147,7 +19162,6 @@ n
 *
 _retval
 found
-)
 )
 ;
 /
@@ -19338,7 +19352,6 @@ _retval
 ;
 LOG
 (
-(
 "
 Searched
 extras
@@ -19362,7 +19375,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
@@ -19482,7 +19494,6 @@ _ns
 ;
 LOG
 (
-(
 "
 Data
 source
@@ -19506,7 +19517,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
@@ -19587,7 +19597,6 @@ _retval
 ;
 LOG
 (
-(
 "
 Searched
 extras
@@ -19611,7 +19620,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
@@ -19770,7 +19778,6 @@ overrideType
 ;
 LOG
 (
-(
 "
 Data
 source
@@ -19794,7 +19801,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
@@ -19893,7 +19899,6 @@ desc
 ;
 LOG
 (
-(
 "
 Falling
 back
@@ -19906,7 +19911,6 @@ description
 \
 n
 "
-)
 )
 ;
 }
@@ -20075,7 +20079,6 @@ matches
 ;
 LOG
 (
-(
 "
 Extension
 '
@@ -20100,7 +20103,6 @@ get
 (
 )
 matches
-)
 )
 ;
 if
@@ -20357,7 +20359,6 @@ type
 ;
 LOG
 (
-(
 "
 MIME
 Info
@@ -20386,7 +20387,6 @@ primaryExtension
 .
 get
 (
-)
 )
 )
 ;

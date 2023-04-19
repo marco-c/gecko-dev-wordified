@@ -195,6 +195,13 @@ h
 #
 include
 "
+nsCExternalHandlerService
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -213,7 +220,9 @@ LOG
 define
 LOG
 (
-args
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -221,7 +230,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 mozilla
 :
 :
@@ -229,7 +238,10 @@ LogLevel
 :
 :
 Info
-args
+\
+(
+__VA_ARGS__
+)
 )
 #
 undef
@@ -238,7 +250,9 @@ LOG_ERR
 define
 LOG_ERR
 (
-args
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -246,7 +260,7 @@ MOZ_LOG
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 mozilla
 :
 :
@@ -254,7 +268,10 @@ LogLevel
 :
 :
 Error
-args
+\
+(
+__VA_ARGS__
+)
 )
 #
 undef
@@ -270,7 +287,7 @@ MOZ_LOG_TEST
 nsExternalHelperAppService
 :
 :
-mLog
+sLog
 mozilla
 :
 :
@@ -323,7 +340,6 @@ rv
 {
 LOG_ERR
 (
-(
 "
 nsOSHelperAppServiceChild
 error
@@ -332,7 +348,6 @@ no
 handler
 service
 "
-)
 )
 ;
 return
@@ -363,7 +378,6 @@ aHandlerExists
 ;
 LOG
 (
-(
 "
 nsOSHelperAppServiceChild
 :
@@ -390,7 +404,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
@@ -499,7 +512,6 @@ rv
 {
 LOG_ERR
 (
-(
 "
 nsOSHelperAppServiceChild
 error
@@ -508,7 +520,6 @@ no
 handler
 service
 "
-)
 )
 ;
 return
@@ -527,7 +538,6 @@ aRetVal
 )
 ;
 LOG
-(
 (
 "
 nsOSHelperAppServiceChild
@@ -576,7 +586,6 @@ aRetVal
 .
 get
 (
-)
 )
 )
 ;
@@ -650,7 +659,6 @@ rv
 {
 LOG_ERR
 (
-(
 "
 nsOSHelperAppServiceChild
 error
@@ -659,7 +667,6 @@ no
 handler
 service
 "
-)
 )
 ;
 return
@@ -680,7 +687,6 @@ aMIMEInfo
 )
 ;
 LOG
-(
 (
 "
 nsOSHelperAppServiceChild
@@ -728,7 +734,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;

@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_dom_ExternalHelperAppParent_h
+#
+define
+mozilla_dom_ExternalHelperAppParent_h
+#
 include
 "
 mozilla
@@ -537,3 +543,5 @@ dom
 /
 namespace
 mozilla
+#
+endif

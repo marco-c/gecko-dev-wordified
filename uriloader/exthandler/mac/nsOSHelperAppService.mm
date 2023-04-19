@@ -2309,7 +2309,7 @@ aFileExt
 ;
 MOZ_LOG
 (
-mLog
+sLog
 LogLevel
 :
 :
@@ -2585,7 +2585,7 @@ true
 ;
 MOZ_LOG
 (
-mLog
+sLog
 LogLevel
 :
 :
@@ -2751,7 +2751,7 @@ true
 ;
 MOZ_LOG
 (
-mLog
+sLog
 LogLevel
 :
 :
@@ -4203,7 +4203,7 @@ cfType
 }
 MOZ_LOG
 (
-mLog
+sLog
 LogLevel
 :
 :
