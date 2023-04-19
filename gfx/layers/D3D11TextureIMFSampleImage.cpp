@@ -293,7 +293,7 @@ aRect
 gfx
 :
 :
-YUVColorSpace
+ColorSpace2
 aColorSpace
 gfx
 :
@@ -336,7 +336,7 @@ mPictureRect
 (
 aRect
 )
-mYUVColorSpace
+mColorSpace
 (
 aColorSpace
 )
@@ -386,7 +386,7 @@ SurfaceFormat
 :
 :
 NV12
-mYUVColorSpace
+mColorSpace
 mColorRange
 aKnowsCompositor
 aUsageInfo
