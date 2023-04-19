@@ -69,9 +69,6 @@ EXPORTED_SYMBOLS
 ChromeWebElement
 "
 "
-ContentWebElement
-"
-"
 ContentShadowRoot
 "
 "
@@ -82,6 +79,9 @@ ContentWebWindow
 "
 "
 element
+"
+"
+WebElement
 "
 "
 WebReference
@@ -9832,7 +9832,7 @@ return
 (
 ContentShadowRoot
 |
-ContentWebElement
+WebElement
 |
 ChromeWebElement
 )
@@ -10010,7 +10010,7 @@ uuid
 }
 return
 new
-ContentWebElement
+WebElement
 (
 uuid
 )
@@ -10097,7 +10097,7 @@ one
 of
 {
 link
-ContentWebElement
+WebElement
 }
 *
 {
@@ -10259,12 +10259,12 @@ json
 )
 ;
 case
-ContentWebElement
+WebElement
 .
 Identifier
 :
 return
-ContentWebElement
+WebElement
 .
 fromJSON
 (
@@ -10343,7 +10343,7 @@ Constructs
 a
 {
 link
-ContentWebElement
+WebElement
 }
 or
 {
@@ -10497,7 +10497,7 @@ One
 of
 {
 link
-ContentWebElement
+WebElement
 }
 or
 {
@@ -10593,7 +10593,7 @@ content
 :
 return
 new
-ContentWebElement
+WebElement
 (
 uuid
 )
@@ -10649,7 +10649,7 @@ it
 has
 {
 link
-ContentWebElement
+WebElement
 .
 Identifier
 }
@@ -10757,7 +10757,7 @@ in
 obj
 |
 |
-ContentWebElement
+WebElement
 .
 Identifier
 in
@@ -10872,7 +10872,7 @@ protocol
 *
 /
 class
-ContentWebElement
+WebElement
 extends
 WebReference
 {
@@ -10883,7 +10883,7 @@ toJSON
 return
 {
 [
-ContentWebElement
+WebElement
 .
 Identifier
 ]
@@ -10905,7 +10905,7 @@ const
 Identifier
 }
 =
-ContentWebElement
+WebElement
 ;
 if
 (
@@ -10950,14 +10950,14 @@ Identifier
 ;
 return
 new
-ContentWebElement
+WebElement
 (
 uuid
 )
 ;
 }
 }
-ContentWebElement
+WebElement
 .
 Identifier
 =
