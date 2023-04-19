@@ -315,11 +315,6 @@ RemoteServiceWorkerImpl
 cpp
 "
 "
-RemoteServiceWorkerRegistrationImpl
-.
-cpp
-"
-"
 ServiceWorker
 .
 cpp

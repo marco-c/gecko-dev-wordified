@@ -218,12 +218,9 @@ aGlobal
 RefPtr
 <
 ServiceWorkerRegistration
-:
-:
-Inner
 >
 &
-aInner
+aServiceWorkerRegistration
 )
 ;
 /
@@ -355,11 +352,8 @@ mGlobal
 RefPtr
 <
 ServiceWorkerRegistration
-:
-:
-Inner
 >
-mInner
+mServiceWorkerRegistration
 ;
 }
 ;
