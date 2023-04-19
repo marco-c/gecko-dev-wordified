@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PingCentre
 "
@@ -144,7 +150,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pktApi
 "
@@ -167,7 +173,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 TelemetryEnvironment
 :
@@ -288,7 +294,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 pingCentre
 "
@@ -299,6 +305,8 @@ pingCentre
 {
 return
 new
+lazy
+.
 PingCentre
 (
 {
@@ -557,6 +565,8 @@ this
 impressionId
 pocket_logged_in_status
 :
+lazy
+.
 pktApi
 .
 isUserLoggedIn
@@ -578,6 +588,8 @@ _profileCreationDate
 {
 return
 (
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -587,6 +599,8 @@ profile
 resetDate
 |
 |
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -798,6 +812,8 @@ sendStructuredIngestionEvent
 eventObject
 )
 {
+lazy
+.
 pingCentre
 .
 sendStructuredIngestionPing

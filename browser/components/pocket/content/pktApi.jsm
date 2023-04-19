@@ -458,11 +458,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 IndexedDB
 "
@@ -485,7 +491,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gCookieFirstPartyIsolate
 "
@@ -551,6 +557,8 @@ openDatabase
 )
 {
 return
+lazy
+.
 IndexedDB
 .
 open
@@ -1344,6 +1352,8 @@ oa
 ;
 if
 (
+lazy
+.
 gCookieFirstPartyIsolate
 )
 {

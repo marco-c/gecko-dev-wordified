@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUIUtils
 "
@@ -120,7 +126,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CustomizableUI
 "
@@ -222,6 +228,8 @@ if
 libraryButton
 )
 {
+lazy
+.
 BrowserUIUtils
 .
 setToolbarButtonHeightProperty
@@ -398,6 +406,8 @@ return
 let
 widget
 =
+lazy
+.
 CustomizableUI
 .
 getWidget
