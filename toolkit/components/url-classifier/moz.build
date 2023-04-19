@@ -143,6 +143,11 @@ nsIUrlClassifierPrefixSet
 idl
 "
 "
+nsIUrlClassifierRemoteSettingsService
+.
+idl
+"
+"
 nsIUrlClassifierStreamUpdater
 .
 idl
@@ -322,6 +327,11 @@ jsm
 "
 "
 UrlClassifierListManager
+.
+jsm
+"
+"
+UrlClassifierRemoteSettingsService
 .
 jsm
 "
