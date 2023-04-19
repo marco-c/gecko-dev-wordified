@@ -6551,9 +6551,6 @@ static
 bool
 FormatStackFrameColumn
 (
-JSContext
-*
-cx
 js
 :
 :
@@ -6607,9 +6604,8 @@ char
 *
 cstr
 =
-NumberToCStringWithBase
+NumberToHexCString
 (
-cx
 &
 cbuf
 frame
@@ -6618,19 +6614,13 @@ frame
 wasmBytecodeOffset
 (
 )
-16
 )
 ;
-if
+MOZ_ASSERT
 (
-!
 cstr
 )
-{
-return
-false
 ;
-}
 return
 sb
 .
@@ -6861,7 +6851,6 @@ append
 &
 FormatStackFrameColumn
 (
-cx
 sb
 frame
 )
@@ -7044,7 +7033,6 @@ append
 &
 FormatStackFrameColumn
 (
-cx
 sb
 frame
 )
