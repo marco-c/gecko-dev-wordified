@@ -2513,7 +2513,10 @@ colr
 cpal
 &
 &
-gfxFontUtils
+gfx
+:
+:
+COLRFonts
 :
 :
 ValidateColorGlyphs
@@ -6917,7 +6920,10 @@ aLayerColors
 )
 {
 return
-gfxFontUtils
+gfx
+:
+:
+COLRFonts
 :
 :
 GetColorGlyphLayers
