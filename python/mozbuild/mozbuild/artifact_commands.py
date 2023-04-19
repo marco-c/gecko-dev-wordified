@@ -3069,7 +3069,7 @@ not
 colon
 :
             
-self
+command_context
 .
 log
 (
