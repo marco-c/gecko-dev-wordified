@@ -40055,6 +40055,17 @@ nsWindow
 data
 )
 ;
+if
+(
+!
+window
+-
+>
+IsDestroyed
+(
+)
+)
+{
 window
 -
 >
@@ -40062,6 +40073,7 @@ ResumeCompositorFlickering
 (
 )
 ;
+}
 return
 true
 ;
