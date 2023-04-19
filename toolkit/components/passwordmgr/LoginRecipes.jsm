@@ -904,8 +904,6 @@ resource
 {
 initPromise
 =
-lazy
-.
 fetch
 (
 this
