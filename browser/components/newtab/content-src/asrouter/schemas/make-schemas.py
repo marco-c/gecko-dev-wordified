@@ -1196,18 +1196,18 @@ intersection
 (
 b_keys
 )
-        
+            
 if
 len
 (
 intersection
 )
 :
-            
+                
 raise
 ValueError
 (
-                
+                    
 f
 "
 Schema
@@ -1223,6 +1223,10 @@ overlapping
 template
 values
 :
+"
+                    
+f
+"
 {
 '
 '
@@ -1233,7 +1237,7 @@ intersection
 )
 }
 "
-            
+                
 )
     
 all_templates
