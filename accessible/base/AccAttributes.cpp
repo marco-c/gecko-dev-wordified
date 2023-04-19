@@ -136,7 +136,6 @@ nsAString
 &
 aAttrValue
 )
-const
 {
 if
 (
