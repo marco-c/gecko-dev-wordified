@@ -298,6 +298,15 @@ modules
 module
 ]
 =
+collectStacks
+?
+Cu
+.
+getModuleImportStack
+(
+module
+)
+:
 "
 "
 ;
