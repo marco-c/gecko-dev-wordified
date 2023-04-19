@@ -28137,10 +28137,10 @@ NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
-group
+groupBy
 "
 "
-ArrayGroup
+ArrayGroupBy
 "
 1
 0
@@ -28148,10 +28148,10 @@ ArrayGroup
 JS_SELF_HOSTED_FN
 (
 "
-groupToMap
+groupByToMap
 "
 "
-ArrayGroupToMap
+ArrayGroupByToMap
 "
 1
 0
