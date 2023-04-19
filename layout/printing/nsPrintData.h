@@ -565,9 +565,6 @@ nsPrintObject
 mPrintDocList
 ;
 bool
-mIsParentAFrameSet
-;
-bool
 mOnStartSent
 ;
 bool
