@@ -89,11 +89,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Snapshots
 :
@@ -306,6 +312,8 @@ s
 userPersisted
 =
 =
+lazy
+.
 Snapshots
 .
 USER_PERSISTED
@@ -512,6 +520,8 @@ if
 userPersisted
 !
 =
+lazy
+.
 Snapshots
 .
 USER_PERSISTED
@@ -723,6 +733,8 @@ let
 id
 =
 await
+lazy
+.
 SnapshotGroups
 .
 add
@@ -779,6 +791,8 @@ it
 out
 .
 await
+lazy
+.
 SnapshotGroups
 .
 updateUrls
@@ -848,6 +862,8 @@ let
 groups
 =
 await
+lazy
+.
 SnapshotGroups
 .
 query
@@ -939,6 +955,8 @@ new
 Set
 (
 await
+lazy
+.
 SnapshotGroups
 .
 getUrls
@@ -1042,6 +1060,8 @@ reset
 )
 {
 await
+lazy
+.
 SnapshotGroups
 .
 delete

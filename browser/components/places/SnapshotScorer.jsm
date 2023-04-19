@@ -113,11 +113,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Snapshots
 :
@@ -157,7 +163,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -808,6 +814,8 @@ selectionContext
 filterAdult
 &
 &
+lazy
+.
 FilterAdult
 .
 isAdultUrl
@@ -942,6 +950,8 @@ currentScore
 sourceScore
 }
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -1865,6 +1875,8 @@ snapshot
 userPersisted
 !
 =
+lazy
+.
 Snapshots
 .
 USER_PERSISTED

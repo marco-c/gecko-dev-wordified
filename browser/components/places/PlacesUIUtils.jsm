@@ -187,11 +187,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -346,7 +352,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 bundle
 "
@@ -1396,6 +1402,8 @@ call
 let
 loadType
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1403,12 +1411,16 @@ isWindowPrivate
 win
 )
 ?
+lazy
+.
 PlacesUtils
 .
 favicons
 .
 FAVICON_LOAD_PRIVATE
 :
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1443,6 +1455,8 @@ data
 {
 expiration
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -1450,6 +1464,8 @@ toPRTime
 expiration
 )
 ;
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1468,6 +1484,8 @@ principal
 let
 request
 =
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -2087,6 +2105,8 @@ title
 )
 {
 await
+lazy
+.
 PlacesTransactions
 .
 RenameTag
@@ -2161,6 +2181,8 @@ transactions
 .
 push
 (
+lazy
+.
 PlacesTransactions
 .
 EditUrl
@@ -2209,6 +2231,8 @@ transactions
 .
 push
 (
+lazy
+.
 PlacesTransactions
 .
 EditTitle
@@ -2324,6 +2348,8 @@ transactions
 .
 push
 (
+lazy
+.
 PlacesTransactions
 .
 Tag
@@ -2353,6 +2379,8 @@ transactions
 .
 push
 (
+lazy
+.
 PlacesTransactions
 .
 Untag
@@ -2382,6 +2410,8 @@ transactions
 .
 push
 (
+lazy
+.
 PlacesTransactions
 .
 EditKeyword
@@ -2422,6 +2452,8 @@ transactions
 .
 push
 (
+lazy
+.
 PlacesTransactions
 .
 Move
@@ -2455,6 +2487,8 @@ length
 )
 {
 await
+lazy
+.
 PlacesTransactions
 .
 batch
@@ -2542,6 +2576,8 @@ params
 )
 {
 return
+lazy
+.
 bundle
 .
 formatStringFromName
@@ -2676,11 +2712,15 @@ aParams
 let
 str
 =
+lazy
+.
 PluralForm
 .
 get
 (
 aNumber
+lazy
+.
 bundle
 .
 GetStringFromName
@@ -2769,6 +2809,8 @@ key
 )
 {
 return
+lazy
+.
 bundle
 .
 GetStringFromName
@@ -2902,6 +2944,8 @@ indexOf
 let
 hashedURL
 =
+lazy
+.
 PlacesUtils
 .
 md5
@@ -3022,6 +3066,8 @@ this
 .
 lastBookmarkDialogDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -3192,18 +3238,24 @@ mode
 .
 topUndoEntry
 =
+lazy
+.
 PlacesTransactions
 .
 topUndoEntry
 ;
 batchBlockingDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
 (
 )
 ;
+lazy
+.
 PlacesTransactions
 .
 batch
@@ -3306,11 +3358,15 @@ bookmarkGuid
 topUndoEntry
 !
 =
+lazy
+.
 PlacesTransactions
 .
 topUndoEntry
 )
 {
+lazy
+.
 PlacesTransactions
 .
 undo
@@ -4541,6 +4597,8 @@ PUIU_markPageAsTyped
 aURL
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -4642,6 +4700,8 @@ PUIU_markPageAsFollowedBookmark
 aURL
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -4732,6 +4792,8 @@ PUIU_markPageAsFollowedLink
 aURL
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -4850,6 +4912,8 @@ window
 {
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -4915,6 +4979,8 @@ null
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -4930,6 +4996,8 @@ Map
 (
 [
 [
+lazy
+.
 PlacesUtils
 .
 CHARSET_ANNO
@@ -5030,6 +5098,8 @@ aWindow
 {
 if
 (
+lazy
+.
 PlacesUtils
 .
 nodeIsBookmark
@@ -5263,6 +5333,8 @@ folders
 ?
 if
 (
+lazy
+.
 PlacesUtils
 .
 nodeIsQuery
@@ -5273,6 +5345,8 @@ parentNode
 {
 if
 (
+lazy
+.
 PlacesUtils
 .
 nodeIsFolder
@@ -5284,6 +5358,8 @@ aNode
 let
 guid
 =
+lazy
+.
 PlacesUtils
 .
 getConcreteItemGuid
@@ -5318,6 +5394,8 @@ removed
 .
 if
 (
+lazy
+.
 PlacesUtils
 .
 isRootItem
@@ -5334,6 +5412,8 @@ false
 else
 if
 (
+lazy
+.
 PlacesUtils
 .
 isVirtualLeftPaneItem
@@ -5403,6 +5483,8 @@ itemId
 1
 |
 |
+lazy
+.
 PlacesUtils
 .
 nodeIsQuery
@@ -5626,6 +5708,8 @@ object
 |
 |
 !
+lazy
+.
 PlacesUtils
 .
 nodeIsFolder
@@ -5649,6 +5733,8 @@ placesNode
 }
 return
 (
+lazy
+.
 PlacesUtils
 .
 getConcreteItemId
@@ -5657,6 +5743,8 @@ placesNode
 )
 =
 =
+lazy
+.
 PlacesUtils
 .
 placesRootId
@@ -5764,6 +5852,8 @@ skipMarking
 browserWindow
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -5950,6 +6040,8 @@ stringsToLoad
 .
 appendElement
 (
+lazy
+.
 PlacesUtils
 .
 toISupportsString
@@ -6192,6 +6284,8 @@ urlsToOpen
 ;
 if
 (
+lazy
+.
 PlacesUtils
 .
 nodeIsContainer
@@ -6202,6 +6296,8 @@ nodeOrNodes
 {
 urlsToOpen
 =
+lazy
+.
 PlacesUtils
 .
 getURLsForContainerNode
@@ -6240,6 +6336,8 @@ folders
 .
 if
 (
+lazy
+.
 PlacesUtils
 .
 nodeIsURI
@@ -6266,6 +6364,8 @@ i
 uri
 isBookmark
 :
+lazy
+.
 PlacesUtils
 .
 nodeIsBookmark
@@ -6283,6 +6383,8 @@ i
 }
 if
 (
+lazy
+.
 OpenInTabsUtils
 .
 confirmOpenInTabs
@@ -6431,6 +6533,8 @@ this
 loadBookmarksInTabs
 &
 &
+lazy
+.
 PlacesUtils
 .
 nodeIsBookmark
@@ -6645,6 +6749,8 @@ if
 aNode
 &
 &
+lazy
+.
 PlacesUtils
 .
 nodeIsURI
@@ -6665,6 +6771,8 @@ aWindow
 let
 isBookmark
 =
+lazy
+.
 PlacesUtils
 .
 nodeIsBookmark
@@ -6675,6 +6783,8 @@ aNode
 if
 (
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -6867,6 +6977,8 @@ aNode
 title
 &
 &
+lazy
+.
 PlacesUtils
 .
 nodeIsURI
@@ -7071,6 +7183,8 @@ shouldShowTabsFromOtherComputersMenuitem
 let
 weaveOK
 =
+lazy
+.
 Weave
 .
 Status
@@ -7080,11 +7194,15 @@ checkSetup
 )
 !
 =
+lazy
+.
 Weave
 .
 CLIENT_NOT_CONFIGURED
 &
 &
+lazy
+.
 Weave
 .
 Svc
@@ -7217,6 +7335,8 @@ options
 {
 }
 ;
+lazy
+.
 PlacesUtils
 .
 history
@@ -7419,6 +7539,8 @@ aFetchInfo
 itemType
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7448,6 +7570,8 @@ parent
 itemId
 :
 await
+lazy
+.
 PlacesUtils
 .
 promiseItemId
@@ -7479,6 +7603,8 @@ freeze
 itemId
 :
 await
+lazy
+.
 PlacesUtils
 .
 promiseItemId
@@ -7527,6 +7653,8 @@ aFetchInfo
 itemType
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7969,6 +8097,8 @@ length
 transactions
 =
 [
+lazy
+.
 PlacesTransactions
 .
 Tag
@@ -8201,6 +8331,8 @@ async
 >
 {
 await
+lazy
+.
 PlacesTransactions
 .
 batch
@@ -8502,6 +8634,8 @@ modifKey
 )
 &
 &
+lazy
+.
 PlacesUtils
 .
 hasChildURIs
@@ -8895,6 +9029,8 @@ row
 ;
 if
 (
+lazy
+.
 PlacesUtils
 .
 nodeIsURI
@@ -9169,10 +9305,14 @@ aForceVisible
 toolbarIsCustomized
 |
 |
+lazy
+.
 PlacesUtils
 .
 getChildCountForFolder
 (
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -9206,6 +9346,8 @@ JSON
 stringify
 (
 [
+lazy
+.
 CustomizableUI
 .
 AREA_BOOKMARKS
@@ -9571,6 +9713,8 @@ newprivatewindow
 .
 hidden
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -9580,6 +9724,8 @@ window
 |
 |
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 enabled
@@ -10341,6 +10487,8 @@ contents
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_URL
@@ -10352,6 +10500,8 @@ entries
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 TYPE_HTML
@@ -10363,6 +10513,8 @@ entries
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 TYPE_UNICODE
@@ -10388,6 +10540,8 @@ entries
 .
 push
 (
+lazy
+.
 PlacesUtils
 .
 wrapNode
@@ -10453,6 +10607,8 @@ xferable
 setTransferData
 (
 type
+lazy
+.
 PlacesUtils
 .
 toISupportsString
@@ -10482,6 +10638,8 @@ entries
 .
 join
 (
+lazy
+.
 PlacesUtils
 .
 endl
@@ -10646,6 +10804,8 @@ let
 numberOfBookmarks
 =
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -10688,6 +10848,8 @@ parentId
 {
 parentId
 :
+lazy
+.
 PlacesUtils
 .
 toolbarFolderId
@@ -10753,6 +10915,8 @@ numberOfBookmarks
 3
 )
 {
+lazy
+.
 CustomizableUI
 .
 addWidgetToArea
@@ -10762,6 +10926,8 @@ import
 -
 button
 "
+lazy
+.
 CustomizableUI
 .
 AREA_BOOKMARKS
@@ -10823,6 +10989,8 @@ item
 let
 placement
 =
+lazy
+.
 CustomizableUI
 .
 getPlacementOfWidget
@@ -10842,6 +11010,8 @@ placement
 area
 !
 =
+lazy
+.
 CustomizableUI
 .
 AREA_BOOKMARKS
@@ -10897,6 +11067,8 @@ nsIBrowserProfileMigrator
 BOOKMARKS
 &
 &
+lazy
+.
 MigrationUtils
 .
 getImportedCount
@@ -10909,6 +11081,8 @@ bookmarks
 0
 )
 {
+lazy
+.
 CustomizableUI
 .
 removeWidgetFromArea
@@ -11757,12 +11931,18 @@ PLACES_FLAVORS
 {
 return
 [
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_CONTAINER
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_SEPARATOR
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE
@@ -11786,10 +11966,14 @@ URI_FLAVORS
 {
 return
 [
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_URL
 TAB_DROP_TYPE
+lazy
+.
 PlacesUtils
 .
 TYPE_UNICODE
@@ -11993,6 +12177,8 @@ prefValue
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12021,6 +12207,8 @@ prefValue
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12037,6 +12225,8 @@ try
 {
 return
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12077,6 +12267,8 @@ invalid
 format
 .
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12149,6 +12341,8 @@ unwrappedNode
 concreteGuid
 &
 &
+lazy
+.
 PlacesUtils
 .
 isRootItem
@@ -12166,6 +12360,8 @@ unwrappedNode
 guid
 &
 &
+lazy
+.
 PlacesUtils
 .
 isRootItem
@@ -12193,6 +12389,8 @@ if
 parentGuid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12592,6 +12790,8 @@ item
 instanceId
 !
 =
+lazy
+.
 PlacesUtils
 .
 instanceId
@@ -12604,6 +12804,8 @@ item
 type
 =
 =
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_CONTAINER
@@ -12778,6 +12980,8 @@ to
 .
 return
 [
+lazy
+.
 PlacesTransactions
 .
 Move
@@ -12988,6 +13192,8 @@ item
 instanceId
 =
 =
+lazy
+.
 PlacesUtils
 .
 instanceId
@@ -13060,6 +13266,8 @@ tree
 copy
 .
 !
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -13071,6 +13279,8 @@ guid
 &
 &
 !
+lazy
+.
 PlacesUtils
 .
 isVirtualLeftPaneItem
@@ -13081,6 +13291,8 @@ guid
 {
 transaction
 =
+lazy
+.
 PlacesTransactions
 .
 Copy
@@ -13105,6 +13317,8 @@ item
 type
 =
 =
+lazy
+.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_SEPARATOR
@@ -13112,6 +13326,8 @@ TYPE_X_MOZ_PLACE_SEPARATOR
 {
 transaction
 =
+lazy
+.
 PlacesTransactions
 .
 NewSeparator
@@ -13135,6 +13351,8 @@ item
 type
 !
 =
+lazy
+.
 PlacesUtils
 .
 TYPE_UNICODE
@@ -13149,6 +13367,8 @@ uri
 ;
 transaction
 =
+lazy
+.
 PlacesTransactions
 .
 NewBookmark
@@ -13248,6 +13468,8 @@ browser
 ?
 aWindow
 :
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow

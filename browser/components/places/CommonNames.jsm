@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 shortURL
 :
@@ -3221,6 +3227,8 @@ dot
 )
 {
 return
+lazy
+.
 shortURL
 (
 {
@@ -3314,6 +3322,8 @@ return
 bestName
 ?
 ?
+lazy
+.
 shortURL
 (
 {

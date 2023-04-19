@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -145,7 +151,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 InteractionsBlocklist
 :
@@ -204,6 +210,8 @@ this
 .
 isContentWindowPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -809,6 +817,8 @@ document
 let
 requirements
 =
+lazy
+.
 InteractionsBlocklist
 .
 urlRequirements

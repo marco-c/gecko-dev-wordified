@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -249,7 +255,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -305,7 +311,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 idleService
 :
@@ -332,7 +338,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 pageViewIdleTime
 "
@@ -352,7 +358,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 snapshotIdleTime
 "
@@ -372,7 +378,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 saveInterval
 "
@@ -1164,6 +1170,8 @@ for
 let
 win
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -1198,11 +1206,15 @@ DOMWINDOW_OPENED_TOPIC
 true
 )
 ;
+lazy
+.
 idleService
 .
 addIdleObserver
 (
 this
+lazy
+.
 pageViewIdleTime
 )
 ;
@@ -1242,11 +1254,15 @@ this
 initialized
 )
 {
+lazy
+.
 idleService
 .
 removeIdleObserver
 (
 this
+lazy
+.
 pageViewIdleTime
 )
 ;
@@ -1276,6 +1292,8 @@ reset
 (
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -1500,6 +1518,8 @@ browser
 }
 if
 (
+lazy
+.
 InteractionsBlocklist
 .
 isUrlBlocklisted
@@ -1510,6 +1530,8 @@ url
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -1530,6 +1552,8 @@ docInfo
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -1623,6 +1647,8 @@ a
 snapshot
 or
 not
+.
+lazy
 .
 PageDataService
 .
@@ -1832,6 +1858,8 @@ browser
 return
 ;
 }
+lazy
+.
 logConsole
 .
 debug
@@ -2116,6 +2144,8 @@ activeWindow
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2197,6 +2227,8 @@ if
 userIsIdle
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2249,6 +2281,8 @@ if
 interaction
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2418,6 +2452,8 @@ monotonicNow
 (
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -2467,6 +2503,8 @@ onActivateWindow
 win
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2479,6 +2517,8 @@ activated
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -2533,6 +2573,8 @@ onDeactivateWindow
 win
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2626,6 +2668,8 @@ onTabSelect
 previousBrowser
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2826,6 +2870,8 @@ case
 idle
 "
 :
+lazy
+.
 logConsole
 .
 debug
@@ -2880,6 +2926,8 @@ case
 active
 "
 :
+lazy
+.
 logConsole
 .
 debug
@@ -2949,6 +2997,8 @@ win
 {
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -3481,6 +3531,8 @@ progress
 {
 }
 ;
+lazy
+.
 PlacesUtils
 .
 history
@@ -3548,11 +3600,15 @@ resolve
 (
 )
 ;
+lazy
+.
 idleService
 .
 addIdleObserver
 (
 this
+lazy
+.
 snapshotIdleTime
 )
 ;
@@ -3609,6 +3665,8 @@ clear
 )
 ;
 await
+lazy
+.
 Snapshots
 .
 updateSnapshots
@@ -3624,6 +3682,8 @@ of
 urls
 )
 {
+lazy
+.
 PageDataService
 .
 unlockEntry
@@ -3676,6 +3736,8 @@ this
 timer
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -3736,6 +3798,8 @@ reset
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -3774,6 +3838,8 @@ this
 timer
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -3860,6 +3926,8 @@ add
 interaction
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3956,6 +4024,8 @@ this
 #
 timer
 =
+lazy
+.
 setTimeout
 (
 (
@@ -3983,6 +4053,8 @@ resolve
 )
 ;
 }
+lazy
+.
 saveInterval
 )
 ;
@@ -4510,6 +4582,8 @@ i
 ;
 }
 }
+lazy
+.
 logConsole
 .
 debug
@@ -4533,6 +4607,8 @@ pendingUpdates
 i
 ;
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper

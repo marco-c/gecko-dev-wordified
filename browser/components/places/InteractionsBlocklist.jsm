@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 FilterAdult
 :
@@ -162,7 +168,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -1140,6 +1146,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -1474,6 +1482,8 @@ urlToCheck
 {
 if
 (
+lazy
+.
 FilterAdult
 .
 isAdultUrl
@@ -1556,6 +1566,8 @@ catch
 ex
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -1597,6 +1609,8 @@ false
 let
 hostWithoutSuffix
 =
+lazy
+.
 UrlbarUtils
 .
 stripPublicSuffixFromHost
@@ -1611,6 +1625,8 @@ let
 hostWithSubdomains
 ]
 =
+lazy
+.
 UrlbarUtils
 .
 stripPrefixAndTrim
