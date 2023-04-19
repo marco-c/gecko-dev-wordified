@@ -61,6 +61,7 @@ removeAllRecords
 expectWarningText
 testDialog
 TIMEOUT_ENSURE_PROFILE_NOT_SAVED
+TIMEOUT_ENSURE_CC_EDIT_DIALOG_NOT_CLOSED
 *
 /
 "
@@ -1293,6 +1294,11 @@ const
 TIMEOUT_ENSURE_PROFILE_NOT_SAVED
 =
 1000
+;
+const
+TIMEOUT_ENSURE_CC_EDIT_DIALOG_NOT_CLOSED
+=
+500
 ;
 function
 getDisplayedPopupItems
