@@ -18185,7 +18185,7 @@ An
 OrderedHashMap
 :
 :
-Range
+MutableRange
 stays
 valid
 even
@@ -18224,14 +18224,14 @@ Range
 EphemeronEdgeTable
 :
 :
-Range
+MutableRange
 r
 =
 gcEphemeronEdges
 (
 )
 .
-all
+mutableAll
 (
 )
 ;
