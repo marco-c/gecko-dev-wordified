@@ -403,6 +403,12 @@ MaybeProcessScreenshotQueue
 )
 override
 ;
+bool
+HaveScreenshotsToFlush
+(
+)
+override
+;
 /
 /
 Interface

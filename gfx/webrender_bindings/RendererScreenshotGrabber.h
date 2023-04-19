@@ -281,6 +281,11 @@ RendererOGL
 aRenderer
 )
 ;
+bool
+HaveScreenshotsToFlush
+(
+)
+;
 private
 :
 /

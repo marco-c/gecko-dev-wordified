@@ -1356,6 +1356,16 @@ return
 false
 ;
 }
+virtual
+bool
+HaveScreenshotsToFlush
+(
+)
+{
+return
+false
+;
+}
 /
 /
 Returns
