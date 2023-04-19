@@ -2684,6 +2684,11 @@ base
 :
 ProcessId
 aOtherPid
+nsISerialEventTarget
+*
+aEventTarget
+=
+nullptr
 )
 ;
 bool

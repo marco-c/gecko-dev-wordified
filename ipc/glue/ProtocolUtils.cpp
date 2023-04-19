@@ -3811,6 +3811,9 @@ base
 :
 ProcessId
 aOtherPid
+nsISerialEventTarget
+*
+aEventTarget
 )
 {
 SetOtherProcessId
@@ -3834,6 +3837,7 @@ move
 aPort
 )
 mSide
+aEventTarget
 )
 ;
 }
