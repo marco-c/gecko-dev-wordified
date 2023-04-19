@@ -283,15 +283,6 @@ JSScript
 .
 h
 "
-#
-include
-"
-vm
-/
-TraceLogging
-.
-h
-"
 namespace
 js
 {
