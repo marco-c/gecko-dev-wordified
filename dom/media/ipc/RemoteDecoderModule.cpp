@@ -385,6 +385,8 @@ decoder
 s
 requested
 type
+%
+s
 "
 mLocation
 =
@@ -424,6 +426,15 @@ supports
 "
 rejects
 "
+aParams
+.
+MimeType
+(
+)
+.
+get
+(
+)
 )
 )
 ;
