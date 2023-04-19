@@ -110,10 +110,10 @@ PRFileDesc
 *
 *
 aFileDesc
-nsISSLSocketControl
+nsISupports
 *
 *
-aTLSSocketControl
+aSecurityInfo
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -176,10 +176,10 @@ struct
 PRFileDesc
 *
 aFileDesc
-nsISSLSocketControl
+nsISupports
 *
 *
-aTLSSocketControl
+aSecurityInfo
 )
 {
 /

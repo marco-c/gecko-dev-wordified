@@ -108,6 +108,11 @@ nsISocketProviderService
 idl
 "
 "
+nsISOCKSSocketInfo
+.
+idl
+"
+"
 nsISSLSocketControl
 .
 idl
