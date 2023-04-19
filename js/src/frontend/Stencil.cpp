@@ -1172,7 +1172,6 @@ parserAtoms
 .
 internExternalParserAtomIndex
 (
-cx
 ec
 ref
 .
@@ -17251,9 +17250,6 @@ ExtensibleCompilationStencil
 :
 cloneFromImpl
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -17751,7 +17747,6 @@ parserAtoms
 .
 addPlaceholder
 (
-cx
 ec
 )
 )
@@ -17770,7 +17765,6 @@ parserAtoms
 .
 internExternalParserAtom
 (
-cx
 ec
 entry
 )
@@ -17894,9 +17888,6 @@ ExtensibleCompilationStencil
 :
 cloneFrom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -17909,7 +17900,6 @@ other
 return
 cloneFromImpl
 (
-cx
 ec
 other
 )
@@ -17921,9 +17911,6 @@ ExtensibleCompilationStencil
 :
 cloneFrom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -17936,7 +17923,6 @@ other
 return
 cloneFromImpl
 (
-cx
 ec
 other
 )
@@ -17948,9 +17934,6 @@ ExtensibleCompilationStencil
 :
 steal
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -18254,7 +18237,6 @@ Borrowed
 return
 cloneFrom
 (
-cx
 ec
 *
 other
@@ -18529,7 +18511,6 @@ parserAtoms
 .
 addPlaceholder
 (
-cx
 ec
 )
 )
@@ -18548,7 +18529,6 @@ parserAtoms
 .
 internExternalParserAtom
 (
-cx
 ec
 entry
 )
@@ -27420,9 +27400,6 @@ CompilationStencilMerger
 :
 buildAtomIndexMap
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -27488,7 +27465,6 @@ parserAtoms
 .
 internExternalParserAtom
 (
-cx
 ec
 atom
 )
@@ -28133,7 +28109,6 @@ cx
 return
 addDelazification
 (
-cx
 &
 ec
 delazification
@@ -28146,9 +28121,6 @@ CompilationStencilMerger
 :
 addDelazification
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -28529,7 +28501,6 @@ if
 !
 buildAtomIndexMap
 (
-cx
 ec
 delazification
 atomIndexMap

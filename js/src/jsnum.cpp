@@ -5620,9 +5620,6 @@ js
 :
 Int32ToParserAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -5695,7 +5692,6 @@ parserAtoms
 .
 internAscii
 (
-cx
 ec
 start
 length
@@ -11674,9 +11670,6 @@ js
 :
 NumberToParserAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -11706,7 +11699,6 @@ si
 return
 Int32ToParserAtom
 (
-cx
 ec
 parserAtoms
 si
@@ -11782,7 +11774,6 @@ parserAtoms
 .
 internAscii
 (
-cx
 ec
 numStr
 length

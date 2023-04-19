@@ -65855,7 +65855,6 @@ parserAtoms
 .
 internChar16
 (
-cx_
 ec_
 chars
 .
@@ -67997,7 +67996,6 @@ numAtom
 =
 NumberToParserAtom
 (
-cx_
 ec_
 this
 -

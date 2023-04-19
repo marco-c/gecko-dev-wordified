@@ -714,7 +714,6 @@ parserAtoms
 .
 internUtf8
 (
-cx
 ec
 s
 len
@@ -2290,7 +2289,6 @@ parserAtoms
 .
 internUtf8
 (
-cx
 ec
 sUtf8
 len

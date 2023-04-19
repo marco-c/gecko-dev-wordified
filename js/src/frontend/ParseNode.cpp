@@ -2770,9 +2770,6 @@ NumericLiteral
 :
 toAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2785,7 +2782,6 @@ const
 return
 NumberToParserAtom
 (
-cx
 ec
 parserAtoms
 value

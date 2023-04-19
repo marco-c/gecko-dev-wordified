@@ -6874,7 +6874,6 @@ extensible
 >
 cloneFrom
 (
-cx
 ec
 *
 stencil

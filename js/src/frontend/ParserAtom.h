@@ -2552,9 +2552,6 @@ ParserAtom
 *
 allocate
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4066,9 +4063,6 @@ tested
 TaggedParserAtomIndex
 addEntry
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4093,9 +4087,6 @@ SeqCharT
 TaggedParserAtomIndex
 internChar16Seq
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4124,9 +4115,6 @@ AtomCharT
 TaggedParserAtomIndex
 internExternalParserAtomImpl
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4141,9 +4129,6 @@ public
 TaggedParserAtomIndex
 internAscii
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4158,9 +4143,6 @@ length
 TaggedParserAtomIndex
 internLatin1
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4178,9 +4160,6 @@ length
 TaggedParserAtomIndex
 internUtf8
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4198,9 +4177,6 @@ nbyte
 TaggedParserAtomIndex
 internChar16
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4249,9 +4225,6 @@ well
 TaggedParserAtomIndex
 internExternalParserAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4304,9 +4277,6 @@ op
 TaggedParserAtomIndex
 internExternalParserAtomIndex
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4357,9 +4327,6 @@ const
 bool
 addPlaceholder
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec

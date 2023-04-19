@@ -10049,9 +10049,6 @@ literal
 TaggedParserAtomIndex
 toAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec

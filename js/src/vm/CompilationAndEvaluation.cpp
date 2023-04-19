@@ -1211,7 +1211,6 @@ initial
 >
 steal
 (
-cx
 &
 ec
 std
