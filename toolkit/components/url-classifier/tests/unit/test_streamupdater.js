@@ -1975,6 +1975,7 @@ run_test
 runTests
 (
 [
+testFillDb
 testSimpleForward
 testNestedForward
 testInvalidUrlForward
