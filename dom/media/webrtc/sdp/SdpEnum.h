@@ -133,8 +133,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 sdp
 {
 enum
@@ -408,11 +408,9 @@ kAnswer
 /
 /
 namespace
-sdp
-}
-/
-/
-namespace
 mozilla
+:
+:
+sdp
 #
 endif

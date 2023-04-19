@@ -169,8 +169,8 @@ set
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1096,11 +1096,9 @@ mConeOuterGain
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

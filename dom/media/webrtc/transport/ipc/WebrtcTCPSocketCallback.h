@@ -129,8 +129,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -192,12 +192,10 @@ default
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

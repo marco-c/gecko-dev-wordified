@@ -130,8 +130,8 @@ algorithm
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -533,11 +533,9 @@ rhs
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

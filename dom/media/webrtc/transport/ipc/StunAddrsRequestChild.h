@@ -78,8 +78,8 @@ nsISerialEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -306,12 +306,10 @@ NS_DECL_OWNINGTHREAD
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

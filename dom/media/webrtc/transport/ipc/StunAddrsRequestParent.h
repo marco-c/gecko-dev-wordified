@@ -78,8 +78,8 @@ MDNSService
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -404,12 +404,10 @@ mSharedMDNSService
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

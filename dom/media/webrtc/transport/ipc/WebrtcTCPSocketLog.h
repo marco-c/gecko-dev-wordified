@@ -131,8 +131,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 extern
@@ -143,12 +143,10 @@ webrtcTCPSocketLog
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 undef
 LOG
