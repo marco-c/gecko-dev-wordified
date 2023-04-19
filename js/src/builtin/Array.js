@@ -790,8 +790,10 @@ v
 =
 ToNumber
 (
-wrappedCompareFn
+callContentFunction
 (
+wrappedCompareFn
+undefined
 x
 y
 )
