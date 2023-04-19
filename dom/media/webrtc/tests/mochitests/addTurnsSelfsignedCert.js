@@ -194,11 +194,6 @@ port
 {
 }
 cert
-Ci
-.
-nsICertOverrideService
-.
-ERROR_UNTRUSTED
 false
 )
 ;

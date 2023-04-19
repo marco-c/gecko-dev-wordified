@@ -296,6 +296,12 @@ uint32_t
 providerFlags
 )
 ;
+enum
+class
+OverridableErrorCategory
+:
+uint32_t
+;
 /
 /
 Base
@@ -345,8 +351,8 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
-uint32_t
-aCollectedErrors
+OverridableErrorCategory
+aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
@@ -472,8 +478,8 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
-uint32_t
-aCollectedErrors
+OverridableErrorCategory
+aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
@@ -527,8 +533,8 @@ mSucceeded
 PRErrorCode
 mFinalError
 ;
-uint32_t
-mCollectedErrors
+OverridableErrorCategory
+mOverridableErrorCategory
 ;
 bool
 mIsBuiltCertChainRootBuiltInRoot

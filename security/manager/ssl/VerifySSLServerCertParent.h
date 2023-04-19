@@ -307,7 +307,7 @@ aSucceeded
 PRErrorCode
 aFinalError
 uint32_t
-aCollectedErrors
+aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
 )

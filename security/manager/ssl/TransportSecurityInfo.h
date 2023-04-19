@@ -234,6 +234,12 @@ mozilla
 namespace
 psm
 {
+enum
+class
+OverridableErrorCategory
+:
+uint32_t
+;
 class
 TransportSecurityInfo
 :
@@ -431,8 +437,8 @@ nsIX509Cert
 >
 &
 cert
-uint32_t
-collected_errors
+OverridableErrorCategory
+overridableErrorCategory
 )
 ;
 nsresult

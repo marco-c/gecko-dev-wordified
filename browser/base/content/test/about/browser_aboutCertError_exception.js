@@ -625,8 +625,6 @@ com
 {
 }
 cert
-{
-}
 isTemporary
 )
 ;

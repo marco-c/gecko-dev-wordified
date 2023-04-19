@@ -3586,7 +3586,6 @@ function
 addCertOverride
 (
 host
-bits
 )
 {
 return
@@ -3718,7 +3717,6 @@ host
 securityInfo
 .
 serverCert
-bits
 false
 )
 ;
@@ -3784,11 +3782,6 @@ example
 .
 com
 "
-Ci
-.
-nsICertOverrideService
-.
-ERROR_MISMATCH
 )
 addCertOverride
 (
@@ -3801,11 +3794,6 @@ example
 .
 com
 "
-Ci
-.
-nsICertOverrideService
-.
-ERROR_UNTRUSTED
 )
 addCertOverride
 (
@@ -3816,11 +3804,6 @@ example
 .
 com
 "
-Ci
-.
-nsICertOverrideService
-.
-ERROR_UNTRUSTED
 )
 addCertOverride
 (
@@ -3831,11 +3814,6 @@ example
 .
 com
 "
-Ci
-.
-nsICertOverrideService
-.
-ERROR_TIME
 )
 ]
 )

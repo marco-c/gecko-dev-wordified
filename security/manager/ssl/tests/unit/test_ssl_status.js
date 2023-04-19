@@ -406,11 +406,6 @@ example
 .
 com
 "
-Ci
-.
-nsICertOverrideService
-.
-ERROR_TIME
 SEC_ERROR_EXPIRED_CERTIFICATE
 undefined
 overrideStatus
