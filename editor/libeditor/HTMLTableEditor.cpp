@@ -10094,7 +10094,7 @@ rv
 NS_WARNING
 (
 "
-HTMLEditor
+EditorBase
 :
 :
 DeleteNodeWithTransaction
@@ -10980,7 +10980,7 @@ rv
 NS_WARNING
 (
 "
-HTMLEditor
+EditorBase
 :
 :
 DeleteNodeWithTransaction
@@ -13080,7 +13080,7 @@ rv
 NS_WARNING
 (
 "
-HTMLEditor
+EditorBase
 :
 :
 DeleteNodeWithTransaction
@@ -22427,7 +22427,7 @@ rv
 NS_WARNING
 (
 "
-HTMLEditor
+EditorBase
 :
 :
 DeleteNodeWithTransaction
@@ -23650,7 +23650,7 @@ rv
 NS_WARNING
 (
 "
-HTMLEditor
+EditorBase
 :
 :
 DeleteNodeWithTransaction
@@ -23743,7 +23743,7 @@ rv
 NS_WARNING
 (
 "
-HTMLEditor
+EditorBase
 :
 :
 DeleteNodeWithTransaction
@@ -23925,7 +23925,7 @@ NS_SUCCEEDED
 rv
 )
 "
-HTMLEditor
+EditorBase
 :
 :
 DeleteNodeWithTransaction
