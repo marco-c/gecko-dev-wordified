@@ -96,11 +96,17 @@ policies
 loglevel
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -276,6 +282,8 @@ debug
 mode
 if
 (
+lazy
+.
 log
 .
 maxLogLevel
@@ -286,6 +294,8 @@ debug
 "
 )
 {
+lazy
+.
 log
 .
 debug
@@ -361,6 +371,8 @@ policyName
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -457,6 +469,8 @@ key
 continue
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -636,6 +650,8 @@ subkey
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -859,6 +875,8 @@ lastSubkey
 )
 )
 {
+lazy
+.
 log
 .
 error

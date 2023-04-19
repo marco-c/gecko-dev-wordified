@@ -120,11 +120,17 @@ policies
 loglevel
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -288,6 +294,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -332,6 +340,8 @@ debug
 mode
 if
 (
+lazy
+.
 log
 .
 _maxLogLevel
@@ -342,6 +352,8 @@ debug
 "
 )
 {
+lazy
+.
 log
 .
 debug
@@ -821,6 +833,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
