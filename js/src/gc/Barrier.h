@@ -9440,9 +9440,6 @@ class
 PropertyName
 ;
 class
-ScriptSourceObject
-;
-class
 GetterSetter
 ;
 class
@@ -9662,15 +9659,6 @@ WeakHeapPtrScript
 WeakHeapPtr
 <
 JSScript
-*
->
-;
-using
-WeakHeapPtrScriptSourceObject
-=
-WeakHeapPtr
-<
-ScriptSourceObject
 *
 >
 ;

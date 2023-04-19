@@ -43640,7 +43640,11 @@ DebuggerSource
 ReturnType
 match
 (
-HandleScriptSourceObject
+Handle
+<
+ScriptSourceObject
+*
+>
 source
 )
 {
@@ -45163,7 +45167,11 @@ wrapSource
 JSContext
 *
 cx
-HandleScriptSourceObject
+Handle
+<
+ScriptSourceObject
+*
+>
 source
 )
 {

@@ -8049,7 +8049,11 @@ false
 ;
 }
 }
-RootedScriptSourceObject
+Rooted
+<
+ScriptSourceObject
+*
+>
 sso
 (
 cx
