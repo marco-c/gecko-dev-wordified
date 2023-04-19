@@ -7367,6 +7367,16 @@ element
 .
 name
 ;
+yield
+element
+.
+placeholder
+?
+.
+trim
+(
+)
+;
 const
 labels
 =
@@ -7518,6 +7528,7 @@ regexp
 test
 (
 string
+?
 .
 toLowerCase
 (
