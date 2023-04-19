@@ -34211,6 +34211,11 @@ UpdateVisibleDescendantsState
 (
 )
 ;
+void
+UpdateAnimationVisibility
+(
+)
+;
 /
 *
 *
