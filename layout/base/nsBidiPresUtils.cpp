@@ -15424,6 +15424,11 @@ subRunLength
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+if
+(
+aPresContext
+)
+{
 FormatUnicodeText
 (
 aPresContext
@@ -15436,6 +15441,7 @@ subRunLength
 bidiClass
 )
 ;
+}
 aprocessor
 .
 SetText

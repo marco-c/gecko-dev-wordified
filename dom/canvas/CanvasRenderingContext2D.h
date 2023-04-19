@@ -3751,6 +3751,7 @@ was
 successfully
 updated
 .
+virtual
 bool
 SetFontInternal
 (
