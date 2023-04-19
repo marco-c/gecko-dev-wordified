@@ -90,7 +90,7 @@ attributes
 import
 task_name
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
