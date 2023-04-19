@@ -13604,6 +13604,16 @@ this
 targetIdentifier
 )
 ;
+TelemetryStopwatch
+.
+start
+(
+"
+TEXT_RECOGNITION_API_PERFORMANCE
+"
+imageTextResult
+)
+;
 const
 {
 dialog
