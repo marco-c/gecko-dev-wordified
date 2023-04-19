@@ -9928,7 +9928,7 @@ aPrincipal
 )
 ;
 async
-TestCookiePermissionDecided
+AsyncShouldAllowAccessFor
 (
 MaybeDiscardedBrowsingContext
 aContext
@@ -9938,8 +9938,9 @@ aPrincipal
 returns
 (
 bool
-?
 allowed
+uint32_t
+rejectReason
 )
 ;
 /
