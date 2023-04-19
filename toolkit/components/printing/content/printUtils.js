@@ -3356,7 +3356,9 @@ printSettings
 =
 PSSVC
 .
-newPrintSettings
+createNewPrintSettings
+(
+)
 ;
 printSettings
 .

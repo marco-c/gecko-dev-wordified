@@ -5334,7 +5334,7 @@ aPrintSettings
 nsresult
 rv
 =
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 aPrintSettings
 )
@@ -5410,7 +5410,7 @@ NS_IMETHODIMP
 nsPrintSettingsService
 :
 :
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 nsIPrintSettings
 *

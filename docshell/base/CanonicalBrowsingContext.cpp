@@ -4570,7 +4570,7 @@ rv
 printSettingsSvc
 -
 >
-GetNewPrintSettings
+CreateNewPrintSettings
 (
 getter_AddRefs
 (

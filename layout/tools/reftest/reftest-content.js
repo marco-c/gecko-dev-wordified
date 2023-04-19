@@ -1366,7 +1366,9 @@ ps
 =
 PSSVC
 .
-newPrintSettings
+createNewPrintSettings
+(
+)
 ;
 ps
 .
