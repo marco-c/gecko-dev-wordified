@@ -2434,6 +2434,10 @@ const
 uint32_t
 &
 aKeyModifiers
+const
+uint32_t
+&
+aDropEffect
 )
 ;
 mozilla
