@@ -778,9 +778,6 @@ mRate
 )
 mStreamType
 (
-WMFDecoderModule
-:
-:
 GetStreamTypeFromMimeType
 (
 aConfig
@@ -975,9 +972,6 @@ GetMediaSubtypeGUID
 {
 MOZ_ASSERT
 (
-WMFDecoderModule
-:
-:
 StreamTypeIsAudio
 (
 mStreamType
@@ -1025,9 +1019,6 @@ Init
 {
 NS_ENSURE_TRUE
 (
-WMFDecoderModule
-:
-:
 StreamTypeIsAudio
 (
 mStreamType
