@@ -78,10 +78,7 @@ prim_store
 backdrop
 :
 :
-{
-BackdropCapture
-BackdropRender
-}
+Backdrop
 ;
 pub
 use
