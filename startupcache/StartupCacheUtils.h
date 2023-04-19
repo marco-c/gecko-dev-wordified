@@ -516,7 +516,9 @@ modules
 /
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 or
 /
 /
@@ -530,7 +532,9 @@ modules
 /
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 or
 /
 /
@@ -551,7 +555,9 @@ modules
 /
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 becomes
 /
 /
@@ -565,7 +571,9 @@ modules
 /
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 /
 /
 file

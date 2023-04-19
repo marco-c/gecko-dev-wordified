@@ -41,7 +41,9 @@ defineLazyProxy
 from
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

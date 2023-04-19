@@ -103,7 +103,9 @@ methods
 on
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 .
 *
 Also
