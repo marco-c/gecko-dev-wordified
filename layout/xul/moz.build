@@ -268,11 +268,6 @@ nsRepeatService
 cpp
 "
 "
-nsResizerFrame
-.
-cpp
-"
-"
 nsRootBoxFrame
 .
 cpp

@@ -874,17 +874,6 @@ LEAF
 Frame
 (
 "
-nsResizerFrame
-"
-"
-Box
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsRootBoxFrame
 "
 "
