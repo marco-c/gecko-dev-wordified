@@ -22039,14 +22039,14 @@ quota
 QuotaManager
 :
 :
-ShutdownStorage
+ShutdownStorageInternal
 "
 this
 &
 QuotaManager
 :
 :
-ShutdownStorage
+ShutdownStorageInternal
 )
 ;
 MOZ_ASSERT
@@ -35353,7 +35353,7 @@ void
 QuotaManager
 :
 :
-ShutdownStorage
+ShutdownStorageInternal
 (
 )
 {
@@ -50120,7 +50120,7 @@ RemoveQuota
 }
 aQuotaManager
 .
-ShutdownStorage
+ShutdownStorageInternal
 (
 )
 ;
