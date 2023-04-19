@@ -397,6 +397,7 @@ promiseNodeLikeFromFetchInfo
 bm
 )
 ;
+await
 gEditItemOverlay
 .
 initPanel
@@ -646,6 +647,7 @@ with
 multiple
 uris
 .
+await
 gEditItemOverlay
 .
 initPanel
@@ -1056,6 +1058,7 @@ a
 nsIURI
 entry
 .
+await
 gEditItemOverlay
 .
 initPanel
@@ -1261,6 +1264,7 @@ multiple
 nsIURI
 entries
 .
+await
 gEditItemOverlay
 .
 initPanel
