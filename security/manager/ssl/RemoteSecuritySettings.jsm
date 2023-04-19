@@ -257,11 +257,17 @@ crlite_filters
 enabled
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -273,7 +279,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTextDecoder
 "
@@ -291,7 +297,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -1506,6 +1512,8 @@ end
 "
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1538,6 +1546,8 @@ true
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1755,6 +1765,8 @@ catch
 err
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1844,6 +1856,8 @@ catch
 err
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1888,6 +1902,8 @@ catch
 err
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1923,6 +1939,8 @@ record
 cert_import_complete
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2255,6 +2273,8 @@ catch
 err
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2306,6 +2326,8 @@ topic
 data
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2334,6 +2356,8 @@ catch
 err
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2393,6 +2417,8 @@ true
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2408,6 +2434,8 @@ disabled
 return
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -2607,6 +2635,8 @@ retries
 ;
 dataAsString
 =
+lazy
+.
 gTextDecoder
 .
 decode
@@ -2636,6 +2666,8 @@ BadContentError
 "
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3106,6 +3138,8 @@ true
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3389,6 +3423,8 @@ length
 1
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3439,6 +3475,8 @@ sort
 compareFilters
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -3564,6 +3602,8 @@ in
 parentIdMap
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3669,6 +3709,8 @@ filter
 loaded_into_cert_storage
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -3736,6 +3778,8 @@ buffer
 await
 (
 await
+lazy
+.
 fetch
 (
 localURI
@@ -3755,6 +3799,8 @@ Uint8Array
 buffer
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -3795,6 +3841,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3852,6 +3900,8 @@ length
 1
 )
 {
+lazy
+.
 log
 .
 warn
@@ -3958,6 +4008,8 @@ rv
 =
 >
 {
+lazy
+.
 log
 .
 debug
@@ -4069,6 +4121,8 @@ length
 0
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4104,6 +4158,8 @@ rv
 =
 >
 {
+lazy
+.
 log
 .
 debug
