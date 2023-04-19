@@ -3911,7 +3911,7 @@ NumExtraPushed
 ;
 /
 /
-tls
+instance
 and
 argv
 #
@@ -4400,7 +4400,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 src
 const
@@ -4544,7 +4544,7 @@ Equal
 src
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -4641,7 +4641,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 src
 ValueOperand
@@ -4838,7 +4838,7 @@ Equal
 src
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -5354,12 +5354,12 @@ argument
 /
 return
 /
-TLS
+instance
 register
 so
+/
+/
 that
-/
-/
 we
 can
 use
@@ -5900,7 +5900,7 @@ the
 throw
 stub
 fp
-tls
+instance
 /
 /
 and
@@ -6398,14 +6398,14 @@ Load
 instance
 '
 s
-TLS
+instance
 from
 the
 callee
 .
 static
 void
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 MacroAssembler
 &
@@ -6556,7 +6556,7 @@ framePushed
 frameSize
 )
 ;
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 masm
 frameSize
@@ -7249,7 +7249,7 @@ reserveStack
 frameSize
 )
 ;
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 masm
 frameSize
@@ -9055,7 +9055,7 @@ the
 throw
 stub
 fp
-tls
+instance
 /
 /
 and
@@ -9637,10 +9637,10 @@ may
 have
 clobbered
 the
-Tls
+instance
+/
+/
 register
-/
-/
 so
 reload
 since
@@ -9649,7 +9649,7 @@ will
 need
 it
 .
-GenerateJitEntryLoadTls
+GenerateJitEntryLoadInstance
 (
 masm
 /
@@ -10013,7 +10013,7 @@ argsIter
 argument
 1
 :
-tlsData
+instance
 if
 (
 argsIter
@@ -11478,7 +11478,7 @@ n
 /
 /
 Load
-tls
+instance
 ;
 from
 now
@@ -13384,7 +13384,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 unsigned
 funcImportIndex
 const
@@ -13730,7 +13730,7 @@ scratch2
 UnboxAnyrefIntoValue
 (
 masm
-tls
+instance
 scratch2
 dst
 scratch
@@ -14250,7 +14250,7 @@ scratch
 UnboxAnyrefIntoValue
 (
 masm
-tls
+instance
 scratch
 dst
 scratch2
@@ -14651,7 +14651,7 @@ framePushed
 ;
 const
 unsigned
-sizeOfTlsSlot
+sizeOfInstanceSlot
 =
 sizeof
 (
@@ -14683,7 +14683,7 @@ funcType
 )
 )
 +
-sizeOfTlsSlot
+sizeOfInstanceSlot
 )
 ;
 masm
@@ -14723,7 +14723,7 @@ getStackPointer
 )
 framePushed
 -
-sizeOfTlsSlot
+sizeOfInstanceSlot
 )
 )
 ;
@@ -14802,11 +14802,11 @@ the
 ShadowStackSpace
 and
 the
-Tls
+instance
+/
+/
 fields
 of
-/
-/
 FrameWithInstances
 .
 unsigned
@@ -14975,7 +14975,7 @@ import
 (
 fi
 .
-tlsDataOffset
+instanceOffset
 (
 )
 )
@@ -14985,7 +14985,7 @@ tlsDataOffset
 /
 Restore
 the
-TLS
+instance
 register
 and
 pinned
@@ -15008,7 +15008,7 @@ getStackPointer
 )
 framePushed
 -
-sizeOfTlsSlot
+sizeOfInstanceSlot
 )
 InstanceReg
 )
@@ -15460,10 +15460,10 @@ a
 ShadowStackArea
 and
 the
-tls
+instance
+/
+/
 fields
-/
-/
 before
 the
 args
@@ -16520,7 +16520,7 @@ native
 ABI
 preserves
 the
-TLS
+instance
 heap
 and
 global
@@ -16720,7 +16720,7 @@ arg1
 N
 |
 saved
-Tls
+instance
 |
 .
 .
@@ -16774,7 +16774,7 @@ subsumes
 ;
 const
 unsigned
-sizeOfTlsSlot
+sizeOfInstanceSlot
 =
 sizeof
 (
@@ -16842,7 +16842,7 @@ sizeOfPreFrame
 +
 sizeOfThisAndArgs
 +
-sizeOfTlsSlot
+sizeOfInstanceSlot
 ;
 const
 unsigned
@@ -17200,7 +17200,7 @@ frameAlignExtra
 /
 /
 Preserve
-Tls
+instance
 because
 the
 JIT
@@ -17210,7 +17210,7 @@ it
 .
 const
 size_t
-savedTlsOffset
+savedInstanceOffset
 =
 argOffset
 ;
@@ -17226,7 +17226,7 @@ masm
 getStackPointer
 (
 )
-savedTlsOffset
+savedInstanceOffset
 )
 )
 ;
@@ -17276,7 +17276,7 @@ loadWasmGlobalPtr
 (
 fi
 .
-tlsDataOffset
+instanceOffset
 (
 )
 +
@@ -17668,7 +17668,7 @@ masm
 getStackPointer
 (
 )
-savedTlsOffset
+savedInstanceOffset
 )
 InstanceReg
 )
@@ -21012,7 +21012,7 @@ gprs
 /
 Remove
 the
-TLS
+instance
 register
 from
 this
