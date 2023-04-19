@@ -563,6 +563,10 @@ uint32_t
 aSandboxFlags
 =
 0
+bool
+aSkipCheckForBrokenURLOrZeroSized
+=
+0
 )
 ;
 /
@@ -2236,6 +2240,11 @@ nsILoadInfo
 isFromObjectOrEmbed
 bool
 mIsFromObjectOrEmbed
+=
+false
+;
+bool
+mSkipCheckForBrokenURLOrZeroSized
 =
 false
 ;

@@ -1298,6 +1298,10 @@ uint32_t
 aSandboxFlags
 =
 0
+bool
+aSkipCheckForBrokenURLOrZeroSized
+=
+false
 )
 ;
 /
@@ -1653,6 +1657,10 @@ uint32_t
 aSandboxFlags
 =
 0
+bool
+aSkipCheckForBrokenURLOrZeroSized
+=
+false
 )
 ;
 /
@@ -1723,6 +1731,10 @@ uint32_t
 aSandboxFlags
 =
 0
+bool
+aSkipCheckForBrokenURLOrZeroSized
+=
+false
 )
 ;
 /
@@ -1819,6 +1831,10 @@ uint32_t
 aSandboxFlags
 =
 0
+bool
+aSkipCheckForBrokenURLOrZeroSized
+=
+false
 )
 ;
 nsresult
