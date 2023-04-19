@@ -1195,9 +1195,6 @@ JS
 CharsToNewUTF8CharsZ
 (
 ErrorAllocator
-<
-JSContext
->
 *
 cx
 const
@@ -1219,9 +1216,6 @@ JS
 CharsToNewUTF8CharsZ
 (
 ErrorAllocator
-<
-JSContext
->
 *
 cx
 const
@@ -1243,9 +1237,6 @@ JS
 CharsToNewUTF8CharsZ
 (
 ErrorAllocator
-<
-JSContext
->
 *
 cx
 const
@@ -1268,9 +1259,6 @@ JS
 CharsToNewUTF8CharsZ
 (
 ErrorAllocator
-<
-JSContext
->
 *
 cx
 const
