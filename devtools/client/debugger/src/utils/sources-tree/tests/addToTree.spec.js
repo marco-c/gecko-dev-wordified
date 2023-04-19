@@ -1544,7 +1544,7 @@ createTree
 sources
 :
 sourceMap
-debuggeeUrl
+mainThreadHost
 :
 "
 "
@@ -1721,7 +1721,7 @@ createTree
 sources
 :
 sourceMap
-debuggeeUrl
+mainThreadHost
 :
 "
 "
@@ -1890,13 +1890,9 @@ createTree
 sources
 :
 sourceMap
-debuggeeUrl
+mainThreadHost
 :
 "
-https
-:
-/
-/
 davidwalsh
 .
 name

@@ -1043,7 +1043,7 @@ it
 recreates
 tree
 if
-debuggeeUrl
+mainThreadHost
 is
 changed
 "
@@ -1144,7 +1144,7 @@ setProps
 .
 .
 props
-debuggeeUrl
+mainThreadHost
 :
 "
 mozilla
@@ -2714,13 +2714,9 @@ fn
 sources
 :
 defaultSources
-debuggeeUrl
+mainThreadHost
 :
 "
-http
-:
-/
-/
 mdn
 .
 com
