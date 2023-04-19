@@ -14733,7 +14733,6 @@ nsCString
 aLoadedModules
 )
 {
-return
 mozJSComponentLoader
 :
 :
@@ -14742,10 +14741,13 @@ Get
 )
 -
 >
-GetLoadedJSAndESModules
+GetLoadedModules
 (
 aLoadedModules
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

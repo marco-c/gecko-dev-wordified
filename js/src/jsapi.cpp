@@ -14681,12 +14681,6 @@ rhs
 .
 allocateInstantiationStorage
 ;
-deoptimizeModuleGlobalVars
-=
-rhs
-.
-deoptimizeModuleGlobalVars
-;
 introductionType
 =
 rhs

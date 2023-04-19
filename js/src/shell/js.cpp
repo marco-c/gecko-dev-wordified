@@ -34224,7 +34224,7 @@ true
 static
 ModuleEnvironmentObject
 *
-GetModuleInitialEnvironment
+GetModuleEnvironment
 (
 JSContext
 *
@@ -34427,7 +34427,7 @@ RootedModuleEnvironmentObject
 env
 (
 cx
-GetModuleInitialEnvironment
+GetModuleEnvironment
 (
 cx
 module
@@ -34778,7 +34778,7 @@ RootedModuleEnvironmentObject
 env
 (
 cx
-GetModuleInitialEnvironment
+GetModuleEnvironment
 (
 cx
 module
