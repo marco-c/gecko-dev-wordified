@@ -7446,7 +7446,7 @@ Element
 NotifyUAWidgetSetup
 :
 :
-No
+Yes
 )
 ;
 TextRecognition
@@ -7466,6 +7466,13 @@ aValue
 ResolveValue
 (
 )
+)
+;
+el
+-
+>
+NotifyUAWidgetSetupOrChange
+(
 )
 ;
 /
