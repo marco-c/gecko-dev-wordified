@@ -986,15 +986,15 @@ mStatus
 HttpBaseChannel
 :
 :
-MaybeWaitForUploadStreamNormalization
+MaybeWaitForUploadStreamLength
 can
 only
 be
 used
 on
-/
-/
 main
+/
+/
 thread
 so
 we
@@ -1011,7 +1011,7 @@ NIGHTLY_BUILD
 MOZ_ASSERT
 (
 !
-LoadPendingUploadStreamNormalization
+LoadPendingInputStreamLengthOperation
 (
 )
 )
@@ -1020,7 +1020,7 @@ LoadPendingUploadStreamNormalization
 endif
 if
 (
-LoadPendingUploadStreamNormalization
+LoadPendingInputStreamLengthOperation
 (
 )
 )
