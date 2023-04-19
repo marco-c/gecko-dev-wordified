@@ -136,6 +136,7 @@ nsAString
 &
 aAttrValue
 )
+const
 {
 if
 (
