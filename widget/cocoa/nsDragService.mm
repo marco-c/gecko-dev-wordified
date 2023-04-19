@@ -4019,7 +4019,7 @@ DeviceContext
 )
 -
 >
-AppUnitsPerDevPixelAtUnitFullZoom
+AppUnitsPerDevPixel
 (
 )
 )
