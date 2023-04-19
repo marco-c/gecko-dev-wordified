@@ -813,7 +813,10 @@ InputSize
 ;
 mScale
 =
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 (
 double
 (
@@ -1262,10 +1265,10 @@ ScaleRoundOut
 (
 mScale
 .
-width
+xScale
 mScale
 .
-height
+yScale
 )
 ;
 }
@@ -1994,7 +1997,10 @@ the
 input
 image
 .
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 mScale
 ;
 /
