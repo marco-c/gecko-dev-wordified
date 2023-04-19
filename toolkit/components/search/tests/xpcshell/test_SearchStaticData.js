@@ -50,7 +50,7 @@ SearchStaticData
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -63,7 +63,9 @@ modules
 /
 SearchStaticData
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

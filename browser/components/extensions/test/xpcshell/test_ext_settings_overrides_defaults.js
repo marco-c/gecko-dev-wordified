@@ -79,7 +79,7 @@ SearchTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -92,7 +92,9 @@ common
 /
 SearchTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -103,7 +105,7 @@ SearchUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -116,7 +118,9 @@ modules
 /
 SearchUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

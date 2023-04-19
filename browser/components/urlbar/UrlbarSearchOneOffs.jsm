@@ -103,7 +103,7 @@ SearchOneOffs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -115,7 +115,9 @@ modules
 /
 SearchOneOffs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
