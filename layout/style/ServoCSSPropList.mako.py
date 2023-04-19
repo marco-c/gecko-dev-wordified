@@ -649,6 +649,17 @@ type
 "
 shorthand
 "
+or
+prop
+.
+type
+(
+)
+=
+=
+"
+alias
+"
 :
         
 return
@@ -1236,6 +1247,12 @@ prop
 }
 ]
 [
+{
+flags
+(
+prop
+)
+}
 ]
 {
 pref

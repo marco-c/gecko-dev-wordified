@@ -357,6 +357,7 @@ name_
 aliasid_
 id_
 method_
+flags_
 pref_
 )
 \
@@ -424,6 +425,7 @@ name_
 aliasid_
 id_
 method_
+flags_
 pref_
 )
 #
