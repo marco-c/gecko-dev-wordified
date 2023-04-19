@@ -708,7 +708,10 @@ sInstance
 nullptr
 ;
 }
-bool
+ipc
+:
+:
+IPCResult
 SandboxTestingChild
 :
 :
@@ -721,7 +724,9 @@ Close
 )
 ;
 return
-true
+IPC_OK
+(
+)
 ;
 }
 void
