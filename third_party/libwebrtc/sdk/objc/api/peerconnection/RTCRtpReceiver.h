@@ -136,6 +136,7 @@ RTCRtpMediaType
 RTCRtpMediaTypeAudio
 RTCRtpMediaTypeVideo
 RTCRtpMediaTypeData
+RTCRtpMediaTypeUnsupported
 }
 ;
 class
