@@ -394,6 +394,7 @@ cff2_cs_opset_t
 <
 cff2_cs_opset_flatten_t
 flatten_param_t
+blend_arg_t
 >
 {
 static
@@ -403,6 +404,9 @@ flush_args_and_op
 op_code_t
 op
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 &
 env
 flatten_param_t
@@ -490,6 +494,9 @@ void
 flush_args
 (
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 &
 env
 flatten_param_t
@@ -641,6 +648,9 @@ unsigned
 int
 i
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 &
 env
 flatten_param_t
@@ -881,6 +891,9 @@ flush_op
 op_code_t
 op
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 &
 env
 flatten_param_t
@@ -927,6 +940,7 @@ cff2_cs_opset_t
 <
 cff2_cs_opset_flatten_t
 flatten_param_t
+blend_arg_t
 >
 SUPER
 ;
@@ -937,6 +951,9 @@ blend_arg_t
 cff2_cs_opset_flatten_t
 cff2_cs_opset_flatten_t
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 flatten_param_t
 >
 CSOPSET
@@ -950,6 +967,7 @@ cff2_cs_opset_t
 <
 cff2_cs_opset_subr_subset_t
 subr_subset_param_t
+blend_arg_t
 >
 {
 static
@@ -959,6 +977,9 @@ process_op
 op_code_t
 op
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 &
 env
 subr_subset_param_t
@@ -1101,6 +1122,9 @@ op
 cs_type_t
 type
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 &
 env
 subr_subset_param_t
@@ -1173,6 +1197,7 @@ cff2_cs_opset_t
 <
 cff2_cs_opset_subr_subset_t
 subr_subset_param_t
+blend_arg_t
 >
 SUPER
 ;
@@ -1194,6 +1219,9 @@ cff2
 :
 accelerator_subset_t
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 cff2_cs_opset_subr_subset_t
 >
 {
@@ -1227,6 +1255,9 @@ void
 complete_parsed_str
 (
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 &
 env
 subr_subset_param_t
@@ -1363,6 +1394,9 @@ cff2
 :
 accelerator_subset_t
 cff2_cs_interp_env_t
+<
+blend_arg_t
+>
 cff2_cs_opset_flatten_t
 >
 flattener

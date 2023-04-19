@@ -529,13 +529,6 @@ space
 struct
 hb_ft_font_t
 {
-mutable
-hb_mutex_t
-lock
-;
-FT_Face
-ft_face
-;
 int
 load_flags
 ;
@@ -567,6 +560,13 @@ done
 .
 *
 /
+mutable
+hb_mutex_t
+lock
+;
+FT_Face
+ft_face
+;
 mutable
 int
 cached_x_scale
