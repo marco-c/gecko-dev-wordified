@@ -392,6 +392,7 @@ audio_processing_
 get
 (
 )
+nullptr
 )
 ;
 /

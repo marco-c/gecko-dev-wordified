@@ -328,6 +328,7 @@ AudioProcessingBuilder
 Create
 (
 )
+nullptr
 trials
 )
 ;

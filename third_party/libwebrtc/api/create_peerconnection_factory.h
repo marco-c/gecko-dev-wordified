@@ -242,6 +242,9 @@ class
 AudioDeviceModule
 ;
 class
+AudioFrameProcessor
+;
+class
 AudioProcessing
 ;
 /
@@ -366,6 +369,11 @@ scoped_refptr
 AudioProcessing
 >
 audio_processing
+AudioFrameProcessor
+*
+audio_frame_processor
+=
+nullptr
 )
 ;
 }
