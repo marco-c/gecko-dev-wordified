@@ -305,7 +305,11 @@ prebarriered
 obj
 )
 ;
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 heapptr
 (
 obj

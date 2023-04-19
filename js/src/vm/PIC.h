@@ -837,7 +837,11 @@ accounting
 purposes
 .
 const
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 picObject_
 ;
 /

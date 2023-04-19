@@ -128,7 +128,11 @@ h
 js
 :
 :
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 #
 include
 "
@@ -678,7 +682,11 @@ headerPtr
 )
 ;
 }
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 setter_
 ;
 #

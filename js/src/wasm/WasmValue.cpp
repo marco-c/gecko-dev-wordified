@@ -604,7 +604,11 @@ complicated
 *
 (
 (
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 *
 )
 loc

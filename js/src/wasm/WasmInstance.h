@@ -773,7 +773,11 @@ function
 body
 block
 .
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 pendingException_
 ;
 /
@@ -786,7 +790,11 @@ the
 pending
 exception
 .
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 pendingExceptionTag_
 ;
 /

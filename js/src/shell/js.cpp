@@ -4241,7 +4241,11 @@ token
 struct
 ShellCompartmentPrivate
 {
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 grayRoot
 ;
 }

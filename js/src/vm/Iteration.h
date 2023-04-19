@@ -212,7 +212,11 @@ undefined
 is
 iterated
 .
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 objectBeingIterated_
 =
 {
@@ -225,7 +229,11 @@ iterator
 object
 .
 const
-GCPtrObject
+GCPtr
+<
+JSObject
+*
+>
 iterObj_
 =
 {
