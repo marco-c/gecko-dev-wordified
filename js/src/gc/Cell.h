@@ -5502,8 +5502,9 @@ PtrT
 initial
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+initial
 !
 IsInsideNursery
 (
@@ -5563,8 +5564,9 @@ be
 set
 here
 .
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+newValue
 !
 IsInsideNursery
 (
@@ -5899,6 +5901,9 @@ data
 ;
 if
 (
+initial
+&
+&
 IsInsideNursery
 (
 initial
