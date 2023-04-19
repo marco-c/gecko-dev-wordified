@@ -5754,9 +5754,6 @@ wantsInterfaceHasInstance
 {
 if
 (
-isChrome
-|
-|
 StaticPrefs
 :
 :
