@@ -2770,6 +2770,8 @@ Schemas
 checkParameters
 (
 context
+.
+childManager
 apiNamespace
 apiName
 args
