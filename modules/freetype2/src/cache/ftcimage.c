@@ -97,7 +97,7 @@ C
 )
 2000
 -
-2021
+2022
 by
 *
 David
@@ -364,7 +364,7 @@ NULL
 if
 (
 !
-FT_NEW
+FT_QNEW
 (
 inode
 )
@@ -416,6 +416,13 @@ gnode
 gindex
 family
 )
+;
+inode
+-
+>
+glyph
+=
+NULL
 ;
 /
 *

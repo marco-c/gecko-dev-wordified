@@ -130,7 +130,7 @@ C
 )
 1996
 -
-2021
+2022
 by
 *
 /
@@ -969,7 +969,13 @@ define
 FT_DEPRECATED_ATTRIBUTE
 #
 include
-FT_MAC_H
+<
+freetype
+/
+ftmac
+.
+h
+>
 /
 *
 undefine

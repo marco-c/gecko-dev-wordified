@@ -99,7 +99,7 @@ C
 )
 2003
 -
-2021
+2022
 by
 *
 David
@@ -237,6 +237,9 @@ ftcerror
 .
 h
 "
+#
+undef
+FT_COMPONENT
 #
 define
 FT_COMPONENT
@@ -848,6 +851,18 @@ format
 =
 =
 FT_GLYPH_FORMAT_OUTLINE
+|
+|
+face
+-
+>
+glyph
+-
+>
+format
+=
+=
+FT_GLYPH_FORMAT_SVG
 )
 {
 /

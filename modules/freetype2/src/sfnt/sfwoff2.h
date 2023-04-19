@@ -97,7 +97,7 @@ C
 )
 2019
 -
-2021
+2022
 by
 *
 Nikhil
@@ -385,6 +385,13 @@ GLYF_THIS_Y_IS_SAME
 <
 <
 5
+#
+define
+GLYF_OVERLAP_SIMPLE
+1
+<
+<
+6
 /
 *
 Other

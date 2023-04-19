@@ -98,7 +98,7 @@ C
 )
 1996
 -
-2021
+2022
 by
 *
 David
@@ -9477,7 +9477,7 @@ array_size
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 encode
 -
@@ -9487,7 +9487,7 @@ array_size
 )
 |
 |
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 encode
 -
@@ -10944,7 +10944,7 @@ subrs_hash
 {
 if
 (
-FT_NEW
+FT_QNEW
 (
 loader
 -

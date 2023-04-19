@@ -97,7 +97,7 @@ C
 )
 2002
 -
-2021
+2022
 by
 *
 David
@@ -5942,7 +5942,7 @@ Size
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 phy_font
 -

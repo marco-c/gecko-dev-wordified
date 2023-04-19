@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2021
+2022
 by
 *
 David
@@ -526,13 +526,6 @@ stream
 size
 =
 0
-;
-stream
--
->
-base
-=
-NULL
 ;
 stream
 -

@@ -109,7 +109,7 @@ C
 )
 2001
 -
-2021
+2022
 by
 *
 David
@@ -4109,7 +4109,7 @@ error
 if
 (
 !
-FT_NEW
+FT_QNEW
 (
 globals
 )

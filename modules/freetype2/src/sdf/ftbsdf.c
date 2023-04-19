@@ -102,7 +102,7 @@ C
 )
 2020
 -
-2021
+2022
 by
 *
 David
@@ -1709,7 +1709,7 @@ Vector
 length
 of
 the
-near
+prox
 parameter
 .
 Can
@@ -1733,7 +1733,7 @@ h
 .
 *
 *
-near
+prox
 :
 :
 *
@@ -1800,7 +1800,7 @@ FT_16D16
 dist
 ;
 FT_16D16_Vec
-near
+prox
 ;
 FT_Byte
 alpha
@@ -4431,7 +4431,7 @@ ed
 index
 ]
 .
-near
+prox
 =
 compute_edge_distance
 (
@@ -4464,7 +4464,7 @@ ed
 index
 ]
 .
-near
+prox
 )
 ;
 }
@@ -4499,7 +4499,7 @@ ed
 index
 ]
 .
-near
+prox
 .
 x
 =
@@ -4512,7 +4512,7 @@ ed
 index
 ]
 .
-near
+prox
 .
 y
 =
@@ -5438,10 +5438,6 @@ byte
 :
 0
 ;
-pixel
-=
-0
-;
 }
 }
 }
@@ -6079,7 +6075,7 @@ dist_vec
 to_check
 -
 >
-near
+prox
 ;
 dist_vec
 .
@@ -6126,7 +6122,7 @@ dist
 current
 -
 >
-near
+prox
 =
 dist_vec
 ;
@@ -7530,6 +7526,7 @@ FT_SDFFormat
 t_buffer
 ;
 FT_16D16
+sp_sq
 spread
 ;
 if
@@ -7615,10 +7612,22 @@ goto
 Exit
 ;
 }
+spread
+=
+FT_INT_16D16
+(
+worker
+-
+>
+params
+.
+spread
+)
+;
 #
 if
 USE_SQUARED_DISTANCES
-spread
+sp_sq
 =
 FT_INT_16D16
 (
@@ -7639,7 +7648,7 @@ spread
 ;
 #
 else
-spread
+sp_sq
 =
 FT_INT_16D16
 (
@@ -7724,11 +7733,11 @@ dist
 |
 dist
 >
-spread
+sp_sq
 )
 dist
 =
-spread
+sp_sq
 ;
 #
 if

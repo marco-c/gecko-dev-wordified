@@ -99,7 +99,7 @@ C
 )
 1996
 -
-2021
+2022
 by
 *
 David
@@ -3250,6 +3250,10 @@ slot
 define
 FT_GLYPH_OWN_BITMAP
 0x1U
+#
+define
+FT_GLYPH_OWN_GZIP_SVG
+0x2U
 typedef
 struct
 FT_Slot_InternalRec_

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -15,7 +15,7 @@ C
 )
 2020
 -
-2021
+2022
 by
 #
 David

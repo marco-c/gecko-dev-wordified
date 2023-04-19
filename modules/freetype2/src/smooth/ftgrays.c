@@ -102,7 +102,7 @@ C
 )
 2000
 -
-2021
+2022
 by
 *
 David
@@ -2209,6 +2209,9 @@ ONE_PIXEL
 PIXEL_BITS
 )
 #
+undef
+TRUNC
+#
 define
 TRUNC
 (
@@ -2225,6 +2228,9 @@ x
 >
 PIXEL_BITS
 )
+#
+undef
+FRACT
 #
 define
 FRACT

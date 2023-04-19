@@ -103,7 +103,7 @@ C
 )
 2003
 -
-2021
+2022
 by
 *
 David
@@ -1820,7 +1820,7 @@ array
 /
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 globals
 sizeof
@@ -1845,6 +1845,15 @@ FT_UShort
 )
 goto
 Exit
+;
+FT_ZERO
+(
+&
+globals
+-
+>
+metrics
+)
 ;
 globals
 -

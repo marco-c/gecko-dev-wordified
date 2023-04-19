@@ -95,7 +95,7 @@ C
 )
 1996
 -
-2021
+2022
 by
 *
 David
@@ -230,6 +230,13 @@ c
 include
 "
 ttcpal
+.
+c
+"
+#
+include
+"
+ttsvg
 .
 c
 "

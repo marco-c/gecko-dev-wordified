@@ -98,7 +98,7 @@ C
 )
 2004
 -
-2021
+2022
 by
 *
 Masatake
@@ -4952,13 +4952,6 @@ new_length
 ;
 FT_Error
 error
-=
-FT_Err_Ok
-;
-FT_UNUSED
-(
-error
-)
 ;
 new_length
 =

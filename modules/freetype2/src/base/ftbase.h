@@ -102,7 +102,7 @@ C
 )
 2008
 -
-2021
+2022
 by
 *
 David
@@ -201,6 +201,10 @@ ft_bitmap_glyph_class
 FT_DECLARE_GLYPH
 (
 ft_outline_glyph_class
+)
+FT_DECLARE_GLYPH
+(
+ft_svg_glyph_class
 )
 #
 ifdef

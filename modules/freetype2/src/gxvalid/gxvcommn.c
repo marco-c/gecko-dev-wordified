@@ -100,7 +100,7 @@ C
 )
 2004
 -
-2021
+2022
 by
 *
 suzuki
@@ -8017,9 +8017,7 @@ stateSize
 (
 int
 )
-(
 maxClassID
-)
 )
 )
 ;
@@ -9969,9 +9967,7 @@ stateSize
 (
 int
 )
-(
 maxClassID
-)
 )
 )
 ;
