@@ -17499,7 +17499,7 @@ GetFeatureStatus
 nsIGfxInfo
 :
 :
-FEATURE_HW_DECODED_VIDEO_NO_COPY
+FEATURE_HW_DECODED_VIDEO_ZERO_COPY
 failureId
 &
 status
@@ -17519,7 +17519,7 @@ GetFeature
 Feature
 :
 :
-HW_DECODED_VIDEO_NO_COPY
+HW_DECODED_VIDEO_ZERO_COPY
 )
 ;
 feature
@@ -17571,7 +17571,7 @@ GetFeature
 Feature
 :
 :
-HW_DECODED_VIDEO_NO_COPY
+HW_DECODED_VIDEO_ZERO_COPY
 )
 ;
 feature
@@ -17615,7 +17615,7 @@ GetFeature
 Feature
 :
 :
-HW_DECODED_VIDEO_NO_COPY
+HW_DECODED_VIDEO_ZERO_COPY
 )
 ;
 feature
