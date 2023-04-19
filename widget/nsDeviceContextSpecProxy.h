@@ -158,9 +158,6 @@ class
 nsIFile
 ;
 class
-nsIPrintSession
-;
-class
 nsIUUIDGenerator
 ;
 namespace
@@ -318,12 +315,6 @@ nsCOMPtr
 nsIPrintSettings
 >
 mPrintSettings
-;
-nsCOMPtr
-<
-nsIPrintSession
->
-mPrintSession
 ;
 nsCOMPtr
 <
