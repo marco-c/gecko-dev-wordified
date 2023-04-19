@@ -166,7 +166,7 @@ include
 "
 webrtc
 /
-MediaEngineDefault
+MediaEngineFake
 .
 h
 "
@@ -327,7 +327,7 @@ new
 MediaDevice
 (
 new
-MediaEngineDefault
+MediaEngineFake
 (
 )
 dom
@@ -374,7 +374,7 @@ new
 MediaDevice
 (
 new
-MediaEngineDefault
+MediaEngineFake
 (
 )
 MakeAudioDeviceInfo
@@ -414,7 +414,7 @@ new
 MediaDevice
 (
 new
-MediaEngineDefault
+MediaEngineFake
 (
 )
 MakeAudioDeviceInfo

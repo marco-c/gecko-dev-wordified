@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MEDIAENGINEDEFAULT_H_
+MEDIAENGINEFAKE_H_
 #
 define
-MEDIAENGINEDEFAULT_H_
+MEDIAENGINEFAKE_H_
 #
 include
 "
@@ -94,7 +94,7 @@ MediaEventProducer
 *
 *
 The
-default
+fake
 implementation
 of
 the
@@ -104,14 +104,14 @@ interface
 *
 /
 class
-MediaEngineDefault
+MediaEngineFake
 :
 public
 MediaEngine
 {
 public
 :
-MediaEngineDefault
+MediaEngineFake
 (
 )
 ;
@@ -182,7 +182,7 @@ true
 private
 :
 ~
-MediaEngineDefault
+MediaEngineFake
 (
 )
 ;
@@ -203,6 +203,6 @@ mozilla
 endif
 /
 *
-NSMEDIAENGINEDEFAULT_H_
+NSMEDIAENGINEFAKE_H_
 *
 /
