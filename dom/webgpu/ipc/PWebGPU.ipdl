@@ -490,7 +490,9 @@ async
 BufferUnmap
 (
 RawId
-selfId
+deviceId
+RawId
+bufferId
 bool
 flush
 )
