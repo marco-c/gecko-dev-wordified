@@ -51735,6 +51735,8 @@ blob
 moz
 -
 extension
+|
+data
 "
 )
 ;
