@@ -1634,6 +1634,12 @@ return
 result
 ;
 }
+HashNumber
+staticOrWellKnownHash
+(
+)
+const
+;
 ParserAtomIndex
 toParserAtomIndex
 (
@@ -4413,6 +4419,14 @@ const
 ;
 uint32_t
 length
+(
+TaggedParserAtomIndex
+index
+)
+const
+;
+HashNumber
+hash
 (
 TaggedParserAtomIndex
 index
