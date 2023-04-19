@@ -10864,6 +10864,16 @@ print
 Atom
 (
 "
+printisfocuseddoc
+"
+"
+printisfocuseddoc
+"
+)
+    
+Atom
+(
+"
 printselectionranges
 "
 "
