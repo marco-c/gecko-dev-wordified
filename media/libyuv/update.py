@@ -489,6 +489,14 @@ and
 AVX2
 code
         
+#
+removed
+as
+dead
+in
+1698699
+        
+#
 '
 allow_disabling_asm_avx2
 .
