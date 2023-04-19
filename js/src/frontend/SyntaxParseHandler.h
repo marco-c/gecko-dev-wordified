@@ -2122,6 +2122,8 @@ ifdef
 ENABLE_DECORATORS
 ListNodeType
 decorators
+bool
+hasAccessor
 #
 endif
 )

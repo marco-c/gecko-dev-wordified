@@ -3416,6 +3416,8 @@ ifdef
 ENABLE_DECORATORS
 ListNodeType
 decorators
+bool
+hasAccessor
 #
 endif
 )
@@ -3441,6 +3443,7 @@ isStatic
 if
 ENABLE_DECORATORS
 decorators
+hasAccessor
 #
 endif
 )

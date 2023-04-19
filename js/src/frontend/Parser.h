@@ -1798,6 +1798,7 @@ AsyncGeneratorMethod
 Constructor
 DerivedConstructor
 Field
+FieldWithAccessor
 }
 ;
 enum
