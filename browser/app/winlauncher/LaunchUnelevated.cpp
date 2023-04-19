@@ -1061,16 +1061,7 @@ aArgv
 "
 osint
 "
-static_cast
-<
-const
-wchar_t
-*
-*
->
-(
 nullptr
-)
 CheckArgFlag
 :
 :
