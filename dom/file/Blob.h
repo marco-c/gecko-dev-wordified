@@ -495,6 +495,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 int64_t
 GetFileId
@@ -779,6 +780,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 already_AddRefed
 <
@@ -790,6 +792,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 already_AddRefed
 <
@@ -801,6 +804,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 protected
 :
@@ -863,6 +867,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 /
 /

@@ -185,6 +185,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 already_AddRefed

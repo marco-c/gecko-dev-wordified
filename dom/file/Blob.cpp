@@ -1574,6 +1574,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 mImpl
 -
@@ -1661,6 +1662,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 return
 ConsumeBody
@@ -1686,6 +1688,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 return
 ConsumeBody
@@ -1716,6 +1719,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 if
 (
@@ -2030,6 +2034,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 nsCOMPtr
 <

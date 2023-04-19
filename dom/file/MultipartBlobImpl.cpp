@@ -434,6 +434,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 *
 aStream

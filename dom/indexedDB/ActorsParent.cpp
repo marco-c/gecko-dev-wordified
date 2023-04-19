@@ -29380,6 +29380,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 {
 nsCOMPtr

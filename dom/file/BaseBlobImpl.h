@@ -543,6 +543,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 {
 aRv

@@ -526,6 +526,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 int64_t

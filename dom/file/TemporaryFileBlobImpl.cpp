@@ -757,6 +757,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 #
 ifdef

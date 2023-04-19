@@ -203,6 +203,7 @@ FileBlobImpl
 #
 ifdef
 DEBUG
+mutable
 bool
 mInputStreamCreated
 ;
@@ -236,6 +237,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 void
