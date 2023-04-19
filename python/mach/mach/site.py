@@ -1003,19 +1003,39 @@ other
 .
 mach_site_packages_source
             
+#
+On
+Windows
+execution
+environment
+can
+lead
+to
+different
+cases
+.
+Normalize
+.
+            
 and
+Path
+(
 self
 .
 original_python
 .
 python_path
+)
 =
 =
+Path
+(
 other
 .
 original_python
 .
 python_path
+)
         
 )
     
