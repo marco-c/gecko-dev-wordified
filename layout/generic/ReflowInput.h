@@ -2968,13 +2968,6 @@ mStyleMargin
 =
 nullptr
 ;
-const
-nsStyleText
-*
-mStyleText
-=
-nullptr
-;
 enum
 class
 BreakType

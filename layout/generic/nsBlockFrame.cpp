@@ -9605,10 +9605,9 @@ IsIResize
 )
 &
 &
-reflowInput
--
->
-mStyleText
+StyleText
+(
+)
 -
 >
 mTextIndent
