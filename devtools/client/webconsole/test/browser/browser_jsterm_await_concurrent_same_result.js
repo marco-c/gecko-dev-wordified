@@ -236,15 +236,11 @@ waitFor
 )
 =
 >
-findMessages
+findEvaluationResultMessages
 (
 hud
 "
 foo
-"
-"
-.
-result
 "
 )
 .
