@@ -786,8 +786,6 @@ fog_event_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

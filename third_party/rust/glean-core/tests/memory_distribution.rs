@@ -893,12 +893,6 @@ ErrorType
 :
 :
 InvalidValue
-Some
-(
-"
-store1
-"
-)
 )
 .
 is_err
@@ -1178,12 +1172,6 @@ ErrorType
 :
 :
 InvalidValue
-Some
-(
-"
-store1
-"
-)
 )
 )
 ;

@@ -858,7 +858,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 )
 ;

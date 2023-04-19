@@ -790,7 +790,6 @@ ErrorType
 :
 :
 InvalidOverflow
-None
 )
 )
 ;

@@ -355,8 +355,6 @@ fog_boolean_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

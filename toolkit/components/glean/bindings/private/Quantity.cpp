@@ -317,8 +317,6 @@ fog_quantity_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

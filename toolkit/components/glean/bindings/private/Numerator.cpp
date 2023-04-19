@@ -284,8 +284,6 @@ fog_numerator_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

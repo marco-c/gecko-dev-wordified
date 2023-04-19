@@ -960,7 +960,6 @@ ErrorType
 :
 :
 InvalidOverflow
-None
 )
 )
 ;

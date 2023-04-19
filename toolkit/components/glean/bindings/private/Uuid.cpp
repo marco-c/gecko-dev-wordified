@@ -346,8 +346,6 @@ fog_uuid_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

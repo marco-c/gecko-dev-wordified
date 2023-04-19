@@ -444,8 +444,6 @@ fog_custom_distribution_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

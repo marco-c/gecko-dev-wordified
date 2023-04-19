@@ -527,8 +527,6 @@ fog_datetime_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

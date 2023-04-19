@@ -747,7 +747,6 @@ ErrorType
 :
 :
 InvalidOverflow
-None
 )
 )
 ;

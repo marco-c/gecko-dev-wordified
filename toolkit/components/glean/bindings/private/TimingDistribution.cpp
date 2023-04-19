@@ -873,8 +873,6 @@ fog_timing_distribution_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

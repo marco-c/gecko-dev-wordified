@@ -739,7 +739,6 @@ ErrorType
 :
 :
 InvalidState
-None
 )
 .
 is_err
@@ -861,7 +860,6 @@ ErrorType
 :
 :
 InvalidState
-None
 )
 )
 ;
@@ -1722,7 +1720,6 @@ ErrorType
 :
 :
 InvalidState
-None
 )
 )
 ;
@@ -1998,7 +1995,6 @@ ErrorType
 :
 :
 InvalidState
-None
 )
 )
 ;
@@ -2145,7 +2141,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 )
 ;

@@ -305,8 +305,6 @@ fog_memory_distribution_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

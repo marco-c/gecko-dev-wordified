@@ -5370,12 +5370,6 @@ event_test_get_error
 metric_id
 :
 u32
-ping_name
-:
-Option
-<
-String
->
 )
 -
 >
@@ -5401,7 +5395,7 @@ metric_id
 17
 =
 >
-test_get_errors_string
+test_get_errors
 !
 (
 super
@@ -5411,12 +5405,11 @@ test_nested
 :
 :
 event_metric
-ping_name
 )
 18
 =
 >
-test_get_errors_string
+test_get_errors
 !
 (
 super
@@ -5426,7 +5419,6 @@ test_nested
 :
 :
 event_metric_with_extra
-ping_name
 )
 _
 =

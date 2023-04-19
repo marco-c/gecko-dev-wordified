@@ -209,7 +209,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 .
 is_err
@@ -265,7 +264,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 )
 ;
@@ -468,7 +466,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 .
 is_err
@@ -514,7 +511,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 )
 ;
@@ -879,7 +875,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 .
 is_err
@@ -903,7 +898,6 @@ ErrorType
 :
 :
 InvalidValue
-None
 )
 .
 is_err

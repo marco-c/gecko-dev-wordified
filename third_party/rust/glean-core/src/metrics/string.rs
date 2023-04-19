@@ -921,12 +921,6 @@ self
 error
 :
 ErrorType
-ping_name
-:
-Option
-<
-String
->
 )
 -
 >
@@ -960,11 +954,6 @@ meta
 (
 )
 error
-ping_name
-.
-as_deref
-(
-)
 )
 .
 unwrap_or
@@ -1174,7 +1163,6 @@ ErrorType
 :
 :
 InvalidOverflow
-None
 )
 .
 unwrap

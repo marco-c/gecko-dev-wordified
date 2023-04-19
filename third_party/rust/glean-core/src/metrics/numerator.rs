@@ -693,12 +693,6 @@ self
 error
 :
 ErrorType
-ping_name
-:
-Option
-<
-String
->
 )
 -
 >
@@ -711,7 +705,6 @@ self
 test_get_num_recorded_errors
 (
 error
-ping_name
 )
 }
 }

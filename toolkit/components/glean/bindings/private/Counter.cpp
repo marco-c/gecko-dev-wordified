@@ -362,8 +362,6 @@ fog_counter_test_get_error
 (
 mId
 &
-aPingName
-&
 err
 )
 )

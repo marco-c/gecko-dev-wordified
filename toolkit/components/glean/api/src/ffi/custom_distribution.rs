@@ -402,10 +402,6 @@ fog_custom_distribution_test_get_error
 id
 :
 u32
-ping_name
-:
-&
-nsACString
 error_str
 :
 &
@@ -429,7 +425,6 @@ test_get_errors
 !
 (
 metric
-ping_name
 )
 )
 ;
