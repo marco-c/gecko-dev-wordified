@@ -139,11 +139,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadCombinedList
 "
@@ -166,7 +172,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadList
 "
@@ -189,7 +195,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadSummary
 "
@@ -208,19 +214,13 @@ jsm
 "
 )
 ;
-/
-*
-global
-DownloadIntegration
-*
-/
 Integration
 .
 downloads
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadIntegration
 "
@@ -1156,6 +1156,8 @@ let
 publicList
 =
 new
+lazy
+.
 DownloadList
 (
 )
@@ -1164,6 +1166,8 @@ let
 privateList
 =
 new
+lazy
+.
 DownloadList
 (
 )
@@ -1172,6 +1176,8 @@ let
 combinedList
 =
 new
+lazy
+.
 DownloadCombinedList
 (
 publicList
@@ -1181,6 +1187,8 @@ privateList
 try
 {
 await
+lazy
+.
 DownloadIntegration
 .
 addListObservers
@@ -1190,6 +1198,8 @@ false
 )
 ;
 await
+lazy
+.
 DownloadIntegration
 .
 addListObservers
@@ -1199,6 +1209,8 @@ true
 )
 ;
 await
+lazy
+.
 DownloadIntegration
 .
 initializePublicDownloadList
@@ -1609,6 +1621,8 @@ aType
 ]
 =
 new
+lazy
+.
 DownloadSummary
 (
 )
@@ -1770,6 +1784,8 @@ D_getSystemDownloadsDirectory
 )
 {
 return
+lazy
+.
 DownloadIntegration
 .
 getSystemDownloadsDirectory
@@ -1822,6 +1838,8 @@ D_getPreferredDownloadsDirectory
 )
 {
 return
+lazy
+.
 DownloadIntegration
 .
 getPreferredDownloadsDirectory
@@ -1902,6 +1920,8 @@ D_getTemporaryDownloadsDirectory
 )
 {
 return
+lazy
+.
 DownloadIntegration
 .
 getTemporaryDownloadsDirectory
