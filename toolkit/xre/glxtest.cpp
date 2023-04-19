@@ -3278,7 +3278,7 @@ false
 if
 defined
 (
-_ARM64_
+MOZ_AARCH64
 )
 EGLenum
 api
