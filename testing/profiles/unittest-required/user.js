@@ -3249,16 +3249,6 @@ notification_enable_delay
 0
 )
 ;
-user_pref
-(
-"
-security
-.
-warn_viewing_mixed
-"
-false
-)
-;
 /
 /
 Ensure
