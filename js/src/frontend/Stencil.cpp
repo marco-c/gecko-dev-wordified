@@ -1115,6 +1115,9 @@ internInto
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
@@ -1146,6 +1149,7 @@ parserAtoms
 internJSAtom
 (
 cx
+ec
 atomCache
 ptr
 )
@@ -1190,6 +1194,9 @@ isEqualTo
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
@@ -1316,6 +1323,7 @@ parserAtoms
 toJSAtom
 (
 cx
+ec
 other
 atomCache
 )
@@ -3115,6 +3123,7 @@ name
 internInto
 (
 cx
+ec
 parserAtoms
 atomCache
 )
@@ -3732,6 +3741,7 @@ binding
 internInto
 (
 cx
+ec
 parserAtoms
 input
 .
@@ -3898,6 +3908,9 @@ NameIsOnEnvironment
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
@@ -4002,6 +4015,7 @@ binding
 isEqualTo
 (
 cx
+ec
 parserAtoms
 atomCache
 name
@@ -4120,6 +4134,7 @@ binding2
 isEqualTo
 (
 cx
+ec
 parserAtoms
 atomCache
 name
@@ -4221,6 +4236,9 @@ searchInEnclosingScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -4322,6 +4340,7 @@ MOZ_ASSERT
 NameIsOnEnvironment
 (
 cx
+ec
 parserAtoms
 input
 .
@@ -4439,6 +4458,7 @@ binding
 isEqualTo
 (
 cx
+ec
 parserAtoms
 input
 .
@@ -4546,6 +4566,7 @@ binding2
 isEqualTo
 (
 cx
+ec
 parserAtoms
 input
 .
@@ -4729,6 +4750,7 @@ binding
 isEqualTo
 (
 cx
+ec
 parserAtoms
 input
 .
@@ -4925,6 +4947,7 @@ binding
 isEqualTo
 (
 cx
+ec
 parserAtoms
 input
 .
@@ -5921,6 +5944,7 @@ if
 copyFunctionInfo
 (
 cx
+ec
 parseAtoms
 atomCache
 lazy
@@ -6025,6 +6049,9 @@ copyFunctionInfo
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parseAtoms
@@ -6063,6 +6090,7 @@ name
 internInto
 (
 cx
+ec
 parseAtoms
 atomCache
 )
@@ -6530,6 +6558,7 @@ parseAtoms
 internJSAtom
 (
 cx
+ec
 atomCache
 fun
 -
@@ -7031,6 +7060,7 @@ name
 internInto
 (
 cx
+ec
 parseAtoms
 atomCache
 )
@@ -7365,6 +7395,7 @@ parseAtoms
 internJSAtom
 (
 cx
+ec
 atomCache
 name
 )
@@ -7706,6 +7737,7 @@ name
 internInto
 (
 cx
+ec
 parseAtoms
 atomCache
 )
@@ -7946,6 +7978,7 @@ parserAtoms
 toJSAtom
 (
 cx
+ec
 atom_
 atomCache
 )
@@ -9468,6 +9501,9 @@ InstantiateAtoms
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationAtomCache
 &
 atomCache
@@ -9481,6 +9517,7 @@ return
 InstantiateMarkedAtoms
 (
 cx
+ec
 stencil
 .
 parserAtomData
@@ -12670,12 +12707,20 @@ JSAtom
 /
 JSStrings
 .
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 !
 InstantiateAtoms
 (
 cx
+&
+ec
 atomCache
 stencil
 )
@@ -13236,10 +13281,18 @@ across
 multiple
 runtimes
 .
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 return
 InstantiateMarkedAtomsAsPermanent
 (
 cx
+&
+ec
 atomSet
 parserAtomData
 atomCache
@@ -26307,9 +26360,9 @@ CompilationAtomCache
 :
 setAtomAt
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 ParserAtomIndex
 index
 JSString
@@ -26360,14 +26413,9 @@ index
 {
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
-/
-/
-TODO
-bug
-1782569
 return
 false
 ;

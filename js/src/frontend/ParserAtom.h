@@ -2774,6 +2774,9 @@ instantiateString
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -2789,6 +2792,9 @@ instantiateAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -2804,6 +2810,9 @@ instantiatePermanentAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 AtomSet
 &
 atomSet
@@ -3795,6 +3804,9 @@ InstantiateMarkedAtoms
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ParserAtomSpan
 &
@@ -3810,6 +3822,9 @@ InstantiateMarkedAtomsAsPermanent
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 AtomSet
 &
 atomSet
@@ -4179,6 +4194,9 @@ internJSAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationAtomCache
 &
 atomCache
@@ -4496,6 +4514,9 @@ toJSAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 TaggedParserAtomIndex
 index
 CompilationAtomCache

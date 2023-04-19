@@ -2836,6 +2836,9 @@ internInto
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
@@ -2933,6 +2936,9 @@ isEqualTo
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
@@ -3562,6 +3568,9 @@ searchInEnclosingScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -3867,9 +3876,9 @@ const
 bool
 setAtomAt
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 ParserAtomIndex
 index
 JSString
@@ -5708,6 +5717,9 @@ copyFunctionInfo
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parseAtoms

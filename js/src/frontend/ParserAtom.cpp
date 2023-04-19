@@ -212,6 +212,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h
@@ -820,6 +829,9 @@ instantiateString
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -908,7 +920,7 @@ atomCache
 .
 setAtomAt
 (
-cx
+ec
 index
 str
 )
@@ -932,6 +944,9 @@ instantiateAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -1011,7 +1026,7 @@ atomCache
 .
 setAtomAt
 (
-cx
+ec
 index
 atom
 )
@@ -1035,6 +1050,9 @@ instantiatePermanentAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 AtomSet
 &
 atomSet
@@ -1113,7 +1131,7 @@ atomCache
 .
 setAtomAt
 (
-cx
+ec
 index
 atom
 )
@@ -3817,6 +3835,9 @@ internJSAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationAtomCache
 &
 atomCache
@@ -3932,7 +3953,7 @@ atomCache
 .
 setAtomAt
 (
-cx
+ec
 index
 atom
 )
@@ -3968,6 +3989,7 @@ MOZ_ASSERT
 toJSAtom
 (
 cx
+ec
 parserAtom
 atomCache
 )
@@ -6789,6 +6811,9 @@ toJSAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 TaggedParserAtomIndex
 index
 CompilationAtomCache
@@ -6915,6 +6940,7 @@ parserAtom
 instantiateAtom
 (
 cx
+ec
 atomIndex
 atomCache
 )
@@ -7284,6 +7310,9 @@ InstantiateMarkedAtoms
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ParserAtomSpan
 &
@@ -7397,6 +7426,7 @@ entry
 instantiateString
 (
 cx
+ec
 index
 atomCache
 )
@@ -7418,6 +7448,7 @@ entry
 instantiateAtom
 (
 cx
+ec
 index
 atomCache
 )
@@ -7439,6 +7470,9 @@ InstantiateMarkedAtomsAsPermanent
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 AtomSet
 &
 atomSet
@@ -7560,6 +7594,7 @@ entry
 instantiatePermanentAtom
 (
 cx
+ec
 atomSet
 index
 atomCache
