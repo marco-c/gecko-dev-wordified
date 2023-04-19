@@ -311,6 +311,9 @@ kNsStringBufferMaxPoison
 =
 16
 ;
+class
+nsStringBuffer
+;
 template
 <
 typename
@@ -2045,6 +2048,10 @@ BulkWriteHandle
 <
 T
 >
+;
+friend
+class
+nsStringBuffer
 ;
 public
 :
