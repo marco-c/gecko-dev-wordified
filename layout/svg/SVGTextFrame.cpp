@@ -17711,7 +17711,7 @@ override
 {
 return
 new
-nsDisplayItemGenericImageGeometry
+nsDisplayItemGenericGeometry
 (
 this
 aBuilder
@@ -18004,17 +18004,6 @@ PaintSVG
 ctx
 tm
 imgParams
-)
-;
-nsDisplayItemGenericImageGeometry
-:
-:
-UpdateDrawResult
-(
-this
-imgParams
-.
-result
 )
 ;
 }
