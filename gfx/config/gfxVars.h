@@ -753,6 +753,13 @@ HwDecodedVideoZeroCopy
 bool
 false
 )
+\
+_
+(
+UseDMABufSurfaceExport
+bool
+true
+)
 /
 *
 Add
