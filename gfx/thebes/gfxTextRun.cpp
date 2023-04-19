@@ -6049,6 +6049,8 @@ gfxTextRun
 :
 GetLineHeightMetrics
 (
+Range
+aRange
 gfxFloat
 &
 aAscent
@@ -6065,10 +6067,7 @@ GlyphRunIterator
 iter
 (
 this
-Range
-(
-this
-)
+aRange
 )
 ;
 while
