@@ -843,6 +843,11 @@ FontFaceSet
 h
 "
 "
+FontFaceSetDocumentImpl
+.
+h
+"
+"
 FontFaceSetImpl
 .
 h
@@ -1073,6 +1078,11 @@ cpp
 "
 "
 FontFaceSet
+.
+cpp
+"
+"
+FontFaceSetDocumentImpl
 .
 cpp
 "
