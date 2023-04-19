@@ -410,6 +410,14 @@ typename
 substring_type
 :
 :
+string_view
+string_view
+;
+typedef
+typename
+substring_type
+:
+:
 index_type
 index_type
 ;
