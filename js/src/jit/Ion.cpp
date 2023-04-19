@@ -2289,14 +2289,6 @@ HandleScript
 calleeScript
 )
 {
-IonCompileTask
-*
-task
-;
-{
-AutoLockHelperThreadState
-lock
-;
 /
 /
 Get
@@ -2305,8 +2297,7 @@ pending
 IonCompileTask
 from
 the
-Ion
-frame
+script
 .
 MOZ_ASSERT
 (
@@ -2318,6 +2309,8 @@ hasBaselineScript
 )
 )
 ;
+IonCompileTask
+*
 task
 =
 calleeScript
@@ -2381,7 +2374,6 @@ runtime
 task
 )
 ;
-}
 {
 gc
 :
