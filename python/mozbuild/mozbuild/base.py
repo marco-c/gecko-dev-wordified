@@ -1914,7 +1914,7 @@ staticmethod
 memoize
     
 def
-get_mozconfig_and_target
+get_base_mozconfig_info
 (
 topsrcdir
 path
@@ -2359,8 +2359,12 @@ mozconfig_options
 )
             
 return
-(
+{
                 
+"
+mozconfig
+"
+:
 sandbox
 .
 _value_for
@@ -2373,6 +2377,10 @@ mozconfig
 ]
 )
                 
+"
+target
+"
+:
 sandbox
 .
 _value_for
@@ -2385,7 +2393,7 @@ real_target
 ]
 )
             
-)
+}
         
 except
 SystemExit
@@ -2405,7 +2413,7 @@ raise
 property
     
 def
-mozconfig_and_target
+base_mozconfig_info
 (
 self
 )
@@ -2414,7 +2422,7 @@ self
 return
 self
 .
-get_mozconfig_and_target
+get_base_mozconfig_info
 (
             
 self
@@ -2476,9 +2484,11 @@ read_mozconfig
 return
 self
 .
-mozconfig_and_target
+base_mozconfig_info
 [
-0
+"
+mozconfig
+"
 ]
     
 property
@@ -3894,9 +3904,11 @@ self
 return
 self
 .
-mozconfig_and_target
+base_mozconfig_info
 [
-1
+"
+target
+"
 ]
 .
 alias
