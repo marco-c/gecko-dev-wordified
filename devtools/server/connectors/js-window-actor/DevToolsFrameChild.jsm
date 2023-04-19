@@ -2251,10 +2251,6 @@ will
 also
 contain
 browserId
-and
-watcherTraits
-/
-/
 as
 well
 as
@@ -2262,6 +2258,8 @@ entries
 with
 empty
 arrays
+/
+/
 which
 shouldn
 '
