@@ -3854,21 +3854,21 @@ action
 "
 :
 "
-store_false
+store_true
 "
                 
 "
 default
 "
 :
-True
+False
                 
 "
 dest
 "
 :
 "
-fission
+disable_fission
 "
                 
 "
@@ -8247,59 +8247,25 @@ fission
         
 if
 (
-            
-(
 not
 options
 .
 e10s
 )
-            
-and
-options
-.
-fission
-            
 and
 (
-"
-fission
-.
-autostart
-=
-true
-"
 not
-in
 options
 .
-extraPrefs
-)
-            
-and
-(
-"
-fission
-.
-autostart
-=
-false
-"
-not
-in
-options
-.
-extraPrefs
-)
-        
+disable_fission
 )
 :
             
 options
 .
-fission
+disable_fission
 =
-False
+True
         
 options
 .

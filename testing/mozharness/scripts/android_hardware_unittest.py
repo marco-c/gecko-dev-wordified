@@ -642,7 +642,7 @@ e10s
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -663,7 +663,7 @@ dest
 "
 :
 "
-enable_fission
+disable_fission
 "
                 
 "
@@ -680,7 +680,7 @@ help
 Run
 with
 Fission
-enabled
+disabled
 .
 "
             
@@ -1179,14 +1179,14 @@ disable_e10s
         
 self
 .
-enable_fission
+disable_fission
 =
 c
 .
 get
 (
 "
-enable_fission
+disable_fission
 "
 )
         
@@ -2343,22 +2343,25 @@ e10s
 if
 self
 .
-enable_fission
+disable_fission
+and
+category
+not
+in
+SUITE_NO_E10S
 :
             
 cmd
 .
-extend
+append
 (
-[
 "
 -
 -
-enable
+disable
 -
 fission
 "
-]
 )
         
 cmd
