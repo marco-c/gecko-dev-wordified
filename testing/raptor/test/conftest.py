@@ -127,6 +127,13 @@ browsertime_visualmetrics
 "
 :
 False
+        
+"
+extra_prefs
+"
+:
+{
+}
     
 }
     
