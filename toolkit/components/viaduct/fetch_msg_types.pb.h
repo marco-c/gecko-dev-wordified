@@ -1059,6 +1059,7 @@ Request_HeadersEntry_DoNotUse
 (
 )
 ;
+explicit
 Request_HeadersEntry_DoNotUse
 (
 :
@@ -3324,6 +3325,7 @@ Response_HeadersEntry_DoNotUse
 (
 )
 ;
+explicit
 Response_HeadersEntry_DoNotUse
 (
 :
