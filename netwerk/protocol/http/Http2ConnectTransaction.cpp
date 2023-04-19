@@ -1724,7 +1724,6 @@ mTunneledConn
 >
 SetInSpdyTunnel
 (
-true
 )
 ;
 }
