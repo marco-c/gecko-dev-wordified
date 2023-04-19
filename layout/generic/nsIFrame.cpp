@@ -30147,8 +30147,10 @@ EffectiveAppearance
 )
 )
 )
+{
 return
 ;
+}
 /
 /
 Since
@@ -30200,6 +30202,14 @@ child
 -
 >
 TrackingVisibility
+(
+)
+&
+&
+child
+-
+>
+IsVisibleForPainting
 (
 )
 )
