@@ -700,7 +700,7 @@ surrogate_codepoints
 UNICODE_VERSION
 =
 (
-14
+13
 0
 0
 )

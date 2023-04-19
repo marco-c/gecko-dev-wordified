@@ -4925,7 +4925,7 @@ but
 also
 returns
 a
-reference
+referce
 to
 the
 final
@@ -10490,7 +10490,7 @@ Sync
 for
 F
 .
-We
+we
 do
 create
 a

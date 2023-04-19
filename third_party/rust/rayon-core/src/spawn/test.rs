@@ -1267,7 +1267,7 @@ lifo_order
 /
 In
 the
-absence
+absense
 of
 stealing
 spawn
@@ -1343,7 +1343,7 @@ fifo_order
 /
 In
 the
-absence
+absense
 of
 stealing
 spawn_fifo

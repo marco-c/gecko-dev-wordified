@@ -1063,11 +1063,7 @@ copy_nonoverlapping
 (
 buf
 .
-as_ptr
-(
-)
-.
-add
+get_unchecked
 (
 i
 )
@@ -4473,8 +4469,9 @@ const
 u8
 bytes
 .
-as_mut_ptr
+get_unchecked_mut
 (
+0
 )
 8
 )
@@ -4496,11 +4493,7 @@ const
 u8
 bytes
 .
-as_mut_ptr
-(
-)
-.
-add
+get_unchecked_mut
 (
 8
 )

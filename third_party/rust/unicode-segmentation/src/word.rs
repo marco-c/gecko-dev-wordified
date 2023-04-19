@@ -1542,7 +1542,7 @@ use
 self
 :
 :
-FormatExtendType
+UWordBoundsState
 :
 :
 *
@@ -1551,7 +1551,7 @@ use
 self
 :
 :
-UWordBoundsState
+FormatExtendType
 :
 :
 *
@@ -1899,7 +1899,6 @@ skipped_format_extend
 true
 ;
 continue
-;
 }
 _
 =
@@ -2853,7 +2852,6 @@ _
 )
 =
 >
-{
 unreachable
 !
 (
@@ -2870,7 +2868,6 @@ forward
 iteration
 "
 )
-}
 Emoji
 =
 >
@@ -3212,7 +3209,7 @@ use
 self
 :
 :
-FormatExtendType
+UWordBoundsState
 :
 :
 *
@@ -3221,7 +3218,7 @@ use
 self
 :
 :
-UWordBoundsState
+FormatExtendType
 :
 :
 *
@@ -3898,10 +3895,12 @@ wd
 WC_ZWJ
 =
 >
+{
 FormatExtend
 (
 AcceptAny
 )
+}
 _
 =
 >
@@ -3933,7 +3932,9 @@ if
 skipped_format_extend
 =
 >
+{
 WSegSpace
+}
 _
 =
 >
@@ -4342,7 +4343,6 @@ filter
 &
 c
 |
-{
 !
 (
 c
@@ -4371,7 +4371,6 @@ wd
 :
 WC_Format
 )
-}
 )
 .
 take_while

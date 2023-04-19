@@ -45,7 +45,7 @@ created
 by
 the
 [
-with_min_len
+min_len
 (
 )
 ]
@@ -61,7 +61,7 @@ IndexedParallelIterator
 /
 /
 [
-with_min_len
+min_len
 (
 )
 ]
@@ -74,7 +74,7 @@ html
 #
 method
 .
-with_min_len
+min_len
 /
 /
 /
@@ -765,7 +765,7 @@ created
 by
 the
 [
-with_max_len
+max_len
 (
 )
 ]
@@ -781,7 +781,7 @@ IndexedParallelIterator
 /
 /
 [
-with_max_len
+max_len
 (
 )
 ]
@@ -794,7 +794,7 @@ html
 #
 method
 .
-with_max_len
+max_len
 /
 /
 /

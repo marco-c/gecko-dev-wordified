@@ -90,7 +90,7 @@ They
 can
 be
 safely
-sent
+transfered
 between
 threads
 .
@@ -108,9 +108,11 @@ lock
 free
 -
 they
-succeed
+'
+re
+succeded
 or
-fail
+failed
 immediately
 without
 blocking

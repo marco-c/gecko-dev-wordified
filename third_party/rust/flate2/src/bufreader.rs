@@ -369,6 +369,8 @@ R
 BufReader
 {
 inner
+:
+inner
 buf
 :
 buf

@@ -311,7 +311,7 @@ serde_bytes
 .
 11
 .
-6
+5
 "
 )
 ]
@@ -344,14 +344,6 @@ missing_docs
 [
 allow
 (
-clippy
-:
-:
-missing_errors_doc
-clippy
-:
-:
-must_use_candidate
 clippy
 :
 :

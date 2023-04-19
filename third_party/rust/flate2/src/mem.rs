@@ -703,7 +703,7 @@ in
 order
 for
 the
-decompressor
+decompessor
 to
 finish
 the
@@ -2377,7 +2377,9 @@ ffi
 uInt
 :
 :
-MAX
+max_value
+(
+)
 as
 usize
 )
@@ -3112,7 +3114,9 @@ usize
 len
 )
 ;
+return
 ret
+;
 }
 }
 }
@@ -3424,7 +3428,7 @@ given
 /
 /
 The
-Decompress
+Deompress
 object
 produced
 by
@@ -4217,7 +4221,9 @@ usize
 len
 )
 ;
+return
 ret
+;
 }
 }
 /
@@ -4311,7 +4317,9 @@ ffi
 uInt
 :
 :
-MAX
+max_value
+(
+)
 as
 usize
 )

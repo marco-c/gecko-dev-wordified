@@ -1018,11 +1018,7 @@ copy_nonoverlapping
 (
 buf
 .
-as_ptr
-(
-)
-.
-add
+get_unchecked
 (
 i
 )

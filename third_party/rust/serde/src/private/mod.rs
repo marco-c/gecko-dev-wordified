@@ -2,10 +2,7 @@
 [
 cfg
 (
-not
-(
-no_serde_derive
-)
+serde_derive
 )
 ]
 pub
@@ -16,10 +13,7 @@ de
 [
 cfg
 (
-not
-(
-no_serde_derive
-)
+serde_derive
 )
 ]
 pub
@@ -206,10 +200,7 @@ Vec
 [
 cfg
 (
-not
-(
-no_core_try_from
-)
+core_try_from
 )
 ]
 pub

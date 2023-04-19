@@ -2099,10 +2099,6 @@ clippy
 :
 :
 module_name_repetitions
-clippy
-:
-:
-return_self_not_must_use
 )
 ]
 mod

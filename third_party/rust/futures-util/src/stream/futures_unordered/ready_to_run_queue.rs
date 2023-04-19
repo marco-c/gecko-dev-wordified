@@ -632,16 +632,11 @@ Task
 Fut
 >
 {
-Arc
-:
-:
-as_ptr
-(
 &
+*
 self
 .
 stub
-)
 }
 /
 /

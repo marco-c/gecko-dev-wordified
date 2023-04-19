@@ -256,10 +256,6 @@ std
 [
 cold
 ]
-#
-[
-must_use
-]
 pub
 fn
 new
@@ -674,10 +670,6 @@ await
 #
 [
 cold
-]
-#
-[
-must_use
 ]
 pub
 fn
@@ -2558,10 +2550,6 @@ context
 #
 [
 cold
-]
-#
-[
-must_use
 ]
 pub
 fn

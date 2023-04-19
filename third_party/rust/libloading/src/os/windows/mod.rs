@@ -31,7 +31,7 @@ cfg
 (
 all
 (
-libloading_docs
+docsrs
 not
 (
 windows
@@ -228,7 +228,7 @@ any
 (
 not
 (
-libloading_docs
+docsrs
 )
 windows
 )

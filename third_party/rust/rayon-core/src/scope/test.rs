@@ -1883,7 +1883,7 @@ true
 ;
 /
 /
-spawned
+spanwed
 job
 should
 still
@@ -2210,7 +2210,7 @@ lifo_order
 /
 In
 the
-absence
+absense
 of
 stealing
 scope
@@ -2288,7 +2288,7 @@ fifo_order
 /
 In
 the
-absence
+absense
 of
 stealing
 scope_fifo
@@ -2538,7 +2538,7 @@ nested_lifo_order
 /
 In
 the
-absence
+absense
 of
 stealing
 scope
@@ -2620,7 +2620,7 @@ nested_fifo_order
 /
 In
 the
-absence
+absense
 of
 stealing
 scope_fifo

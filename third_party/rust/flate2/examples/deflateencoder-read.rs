@@ -76,7 +76,7 @@ a
 vector
 containing
 the
-Deflate
+Defalte
 compressed
 version
 of

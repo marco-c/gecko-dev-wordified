@@ -7777,14 +7777,6 @@ sighandler_t
 ;
 pub
 const
-DT_UNKNOWN
-:
-u8
-=
-0
-;
-pub
-const
 DT_FIFO
 :
 u8
