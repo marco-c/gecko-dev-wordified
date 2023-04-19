@@ -7713,7 +7713,6 @@ const
 {
 line
 column
-parentStyleSheet
 }
 =
 rule
@@ -7737,7 +7736,9 @@ styleSheet
 href
 styleSheet
 :
-parentStyleSheet
+editor
+.
+styleSheet
 }
 ;
 if
