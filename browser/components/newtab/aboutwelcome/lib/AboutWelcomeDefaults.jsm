@@ -2298,9 +2298,9 @@ mr2022
 -
 onboarding
 -
-skip
+secondary
 -
-step
+skip
 -
 button
 -
