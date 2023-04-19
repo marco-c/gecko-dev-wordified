@@ -2282,10 +2282,8 @@ a
 strong
 reference
 .
-already_AddRefed
-<
 gfxFont
->
+*
 FindOrMakeFont
 (
 const

@@ -1059,10 +1059,8 @@ nscoord
 aAxisHeight
 )
 {
-RefPtr
-<
 gfxFont
->
+*
 mathFont
 =
 aFontMetrics
@@ -2180,10 +2178,8 @@ AppUnitsPerDevPixel
 (
 )
 ;
-RefPtr
-<
 gfxFont
->
+*
 mathFont
 =
 aFontMetrics
