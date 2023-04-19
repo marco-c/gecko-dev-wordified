@@ -246,6 +246,10 @@ size
 .
 #
 [
+inline
+]
+#
+[
 allow
 (
 clippy

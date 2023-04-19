@@ -988,6 +988,16 @@ deserialize_seq
 visitor
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+missing_errors_doc
+)
+]
 fn
 deserialize_in_place
 <

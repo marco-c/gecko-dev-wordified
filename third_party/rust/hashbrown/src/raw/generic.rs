@@ -89,6 +89,11 @@ target_arch
 "
 x86_64
 "
+target_arch
+=
+"
+wasm32
+"
 )
 )
 ]
@@ -122,6 +127,14 @@ target_arch
 =
 "
 x86_64
+"
+)
+not
+(
+target_arch
+=
+"
+wasm32
 "
 )
 )
@@ -288,7 +301,7 @@ operations
 in
 the
 native
-endianess
+endianness
 and
 convert
 to
@@ -413,6 +426,10 @@ the
 group
 size
 .
+#
+[
+inline
+]
 pub
 const
 fn
@@ -930,7 +947,7 @@ derived
 from
 /
 /
-http
+https
 :
 /
 /

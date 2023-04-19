@@ -853,7 +853,7 @@ a
 BitMask
 returning
 the
-indicies
+indices
 of
 set
 /
