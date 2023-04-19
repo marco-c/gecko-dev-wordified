@@ -2630,6 +2630,15 @@ LessThan
 \
 _
 (
+StringEndsWith
+js
+:
+:
+StringEndsWith
+)
+\
+_
+(
 StringFlatReplaceString
 js
 :

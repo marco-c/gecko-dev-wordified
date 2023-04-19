@@ -15534,7 +15534,7 @@ str_charCodeAt
 0
 StringCharCodeAt
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_endsWith
@@ -15542,6 +15542,7 @@ std_String_endsWith
 str_endsWith
 1
 0
+StringEndsWith
 )
 JS_INLINABLE_FN
 (
