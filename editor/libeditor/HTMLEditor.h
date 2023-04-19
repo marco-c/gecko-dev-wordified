@@ -5185,14 +5185,6 @@ Element
 aElement
 )
 ;
-Element
-*
-GetEditorRoot
-(
-)
-const
-final
-;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveAttributeOrEquivalent
