@@ -398,9 +398,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 /
 /
 Otherwise
@@ -735,6 +737,7 @@ options
 =
 undefined
 )
+{
 options
 =
 std_Object_create
@@ -742,6 +745,7 @@ std_Object_create
 null
 )
 ;
+}
 else
 if
 (
@@ -751,6 +755,7 @@ IsObject
 options
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -768,6 +773,7 @@ typeof
 options
 )
 ;
+}
 /
 /
 Step
