@@ -1758,6 +1758,9 @@ false
 for_non_inherited_property
 :
 None
+container_info
+:
+None
 font_metrics_provider
 quirks_mode
 rule_cache_conditions

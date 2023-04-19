@@ -99,7 +99,7 @@ feature
 {
 AllowsRanges
 Evaluator
-ParsingRequirements
+FeatureFlags
 QueryFeatureDescription
 }
 ;
@@ -3996,7 +3996,7 @@ BoolInteger
 (
 __eval
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -4218,7 +4218,7 @@ BoolInteger
 (
 __eval
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -4333,7 +4333,7 @@ Length
 (
 eval_width
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4361,7 +4361,7 @@ Length
 (
 eval_height
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4391,7 +4391,7 @@ NumberRatio
 (
 eval_aspect_ratio
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4418,7 +4418,7 @@ keyword_evaluator
 eval_orientation
 Orientation
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4448,7 +4448,7 @@ Length
 (
 eval_device_width
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4478,7 +4478,7 @@ Length
 (
 eval_device_height
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4510,7 +4510,7 @@ NumberRatio
 (
 eval_device_aspect_ratio
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4542,7 +4542,7 @@ keyword_evaluator
 eval_device_orientation
 Orientation
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4612,7 +4612,7 @@ Float
 (
 eval_device_pixel_ratio
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 WEBKIT_PREFIX
@@ -4649,7 +4649,7 @@ BoolInteger
 (
 eval_transform_3d
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 WEBKIT_PREFIX
@@ -4682,7 +4682,7 @@ Float
 (
 eval_device_pixel_ratio
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4710,7 +4710,7 @@ Resolution
 (
 eval_resolution
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4739,7 +4739,7 @@ keyword_evaluator
 eval_display_mode
 DisplayMode
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4767,7 +4767,7 @@ BoolInteger
 (
 eval_grid
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4794,7 +4794,7 @@ keyword_evaluator
 eval_scan
 Scan
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4822,7 +4822,7 @@ Integer
 (
 eval_color
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4852,7 +4852,7 @@ Integer
 (
 eval_color_index
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4880,7 +4880,7 @@ Integer
 (
 eval_monochrome
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4911,7 +4911,7 @@ keyword_evaluator
 eval_prefers_reduced_motion
 PrefersReducedMotion
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -4996,7 +4996,7 @@ that
 is
 done
 .
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5025,7 +5025,7 @@ keyword_evaluator
 eval_forced_colors
 ForcedColors
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5054,7 +5054,7 @@ keyword_evaluator
 eval_overflow_block
 OverflowBlock
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5083,7 +5083,7 @@ keyword_evaluator
 eval_overflow_inline
 OverflowInline
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5110,7 +5110,7 @@ keyword_evaluator
 eval_update
 Update
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5141,7 +5141,7 @@ keyword_evaluator
 eval_prefers_color_scheme
 PrefersColorScheme
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5170,7 +5170,7 @@ keyword_evaluator
 eval_dynamic_range
 DynamicRange
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5201,7 +5201,7 @@ keyword_evaluator
 eval_video_dynamic_range
 DynamicRange
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5272,7 +5272,7 @@ keyword_evaluator
 eval_content_prefers_color_scheme
 PrefersColorScheme
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -5297,7 +5297,7 @@ keyword_evaluator
 eval_pointer
 Pointer
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5326,7 +5326,7 @@ keyword_evaluator
 eval_any_pointer
 Pointer
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5353,7 +5353,7 @@ keyword_evaluator
 eval_hover
 Hover
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5382,7 +5382,7 @@ keyword_evaluator
 eval_any_hover
 Hover
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 empty
@@ -5455,7 +5455,7 @@ BoolInteger
 (
 eval_moz_is_glyph
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -5488,7 +5488,7 @@ BoolInteger
 (
 eval_moz_is_resource_document
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -5516,7 +5516,7 @@ keyword_evaluator
 eval_moz_platform
 Platform
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -5547,7 +5547,7 @@ BoolInteger
 (
 eval_moz_print_preview
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -5582,7 +5582,7 @@ BoolInteger
 (
 eval_moz_non_native_content_theme
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -5617,7 +5617,7 @@ BoolInteger
 (
 eval_moz_windows_non_native_menus
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
@@ -5648,7 +5648,7 @@ BoolInteger
 (
 eval_moz_overlay_scrollbars
 )
-ParsingRequirements
+FeatureFlags
 :
 :
 CHROME_AND_UA_ONLY
