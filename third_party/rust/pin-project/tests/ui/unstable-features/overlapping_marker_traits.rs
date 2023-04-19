@@ -1,6 +1,6 @@
 /
 /
-NB
+Note
 :
 If
 you
@@ -76,7 +76,7 @@ Refs
 :
 /
 /
-*
+-
 https
 :
 /
@@ -98,10 +98,9 @@ issues
 issuecomment
 -
 515780867
-.
 /
 /
-*
+-
 https
 :
 /
@@ -155,12 +154,6 @@ overlapping_marker_traits
 )
 ]
 use
-pin_project
-:
-:
-pin_project
-;
-use
 std
 :
 :
@@ -168,6 +161,12 @@ marker
 :
 :
 PhantomPinned
+;
+use
+pin_project
+:
+:
+pin_project
 ;
 #
 [
@@ -183,7 +182,7 @@ T
 [
 pin
 ]
-x
+f
 :
 T
 }

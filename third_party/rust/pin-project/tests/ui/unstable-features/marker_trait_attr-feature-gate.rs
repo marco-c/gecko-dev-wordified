@@ -1,6 +1,6 @@
 /
 /
-NB
+Note
 :
 If
 you
@@ -19,12 +19,6 @@ same
 time
 .
 use
-pin_project
-:
-:
-pin_project
-;
-use
 std
 :
 :
@@ -32,6 +26,12 @@ marker
 :
 :
 PhantomPinned
+;
+use
+pin_project
+:
+:
+pin_project
 ;
 #
 [
@@ -52,7 +52,7 @@ T
 [
 pin
 ]
-x
+f
 :
 T
 }

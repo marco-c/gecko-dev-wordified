@@ -94,6 +94,7 @@ new
 inline
 ]
 pub
+const
 fn
 from_static
 (
