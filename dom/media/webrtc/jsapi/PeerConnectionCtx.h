@@ -84,6 +84,17 @@ h
 #
 include
 "
+api
+/
+transport
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 audio_state
@@ -149,9 +160,6 @@ AudioDecoderFactory
 ;
 class
 SharedModuleThread
-;
-class
-WebRtcKeyValueConfig
 ;
 /
 /

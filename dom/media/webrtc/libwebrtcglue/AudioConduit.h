@@ -1126,10 +1126,7 @@ Maybe
 webrtc
 :
 :
-Call
-:
-:
-Stats
+CallBasicStats
 >
 GetCallStats
 (
