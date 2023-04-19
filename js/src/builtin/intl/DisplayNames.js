@@ -492,9 +492,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 /
 /
 Otherwise
@@ -942,6 +944,7 @@ IsObject
 options
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -959,6 +962,7 @@ typeof
 options
 )
 ;
+}
 /
 /
 Step
