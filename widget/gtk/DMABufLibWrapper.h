@@ -1276,11 +1276,6 @@ mUseWebGLDmabufBackend
 ;
 private
 :
-bool
-IsDMABufEnabled
-(
-)
-;
 GbmFormat
 mXRGBFormat
 ;
