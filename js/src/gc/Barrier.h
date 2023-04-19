@@ -9445,14 +9445,6 @@ JitCode
 namespace
 jit
 using
-PreBarrieredValue
-=
-PreBarriered
-<
-Value
->
-;
-using
 GCPtrAtom
 =
 GCPtr

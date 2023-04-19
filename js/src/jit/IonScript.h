@@ -170,7 +170,6 @@ HeapPtr
 JitCode
 Object
 }
-PreBarrieredValue
 #
 include
 "
@@ -344,7 +343,10 @@ itself
 -
 /
 /
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 [
 ]
 constantTable
@@ -1176,7 +1178,10 @@ alignment
 )
 /
 /
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 *
 constants
 (
@@ -1210,7 +1215,10 @@ required
 return
 offsetToPointer
 <
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 >
 (
 constantTableOffset
@@ -1228,7 +1236,10 @@ const
 return
 numElements
 <
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 >
 (
 constantTableOffset
@@ -2335,7 +2346,10 @@ this
 )
 ;
 }
-PreBarrieredValue
+PreBarriered
+<
+Value
+>
 &
 getConstant
 (
