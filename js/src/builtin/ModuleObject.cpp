@@ -3575,6 +3575,7 @@ BindingsSlot
 )
 ;
 auto
+*
 bindings
 =
 static_cast
@@ -8177,6 +8178,7 @@ nullptr
 ;
 }
 auto
+*
 ns
 =
 ModuleNamespaceObject
