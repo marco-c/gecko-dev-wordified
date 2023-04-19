@@ -223,6 +223,11 @@ return
 path
 ]
     
+cmd_and_path
+=
+[
+]
+    
 #
 If
 the
