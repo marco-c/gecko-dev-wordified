@@ -9220,11 +9220,13 @@ task
 kind
 in
 [
+            
 "
 system
 -
 symbols
 "
+            
 "
 system
 -
@@ -9232,6 +9234,15 @@ symbols
 -
 upload
 "
+            
+"
+system
+-
+symbols
+-
+reprocess
+"
+        
 ]
 :
             
