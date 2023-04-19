@@ -4521,7 +4521,6 @@ initMiscItems
 Use
 "
 Bookmark
-This
 Link
 "
 if
