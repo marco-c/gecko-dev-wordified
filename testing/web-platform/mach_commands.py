@@ -3341,6 +3341,14 @@ command_context
 .
 _mach_context
     
+wpt_setup
+.
+_virtualenv_name
+=
+command_context
+.
+_virtualenv_name
+    
 wpt_runner
 =
 WebPlatformTestsRunner
