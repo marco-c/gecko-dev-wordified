@@ -281,7 +281,11 @@ aIncr
 if
 (
 !
+(
 required
+*
+2
+)
 .
 isValid
 (
