@@ -2375,7 +2375,7 @@ bug
 .
 JSWINDOWACTORS
 .
-ClipboardReadTextPaste
+ClipboardReadPaste
 =
 {
 parent
@@ -2392,7 +2392,7 @@ gre
 /
 actors
 /
-ClipboardReadTextPasteParent
+ClipboardReadPasteParent
 .
 jsm
 "
@@ -2411,14 +2411,14 @@ gre
 /
 actors
 /
-ClipboardReadTextPasteChild
+ClipboardReadPasteChild
 .
 jsm
 "
 events
 :
 {
-MozClipboardReadTextPaste
+MozClipboardReadPaste
 :
 {
 }

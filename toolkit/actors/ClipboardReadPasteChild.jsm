@@ -66,7 +66,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-ClipboardReadTextPasteChild
+ClipboardReadPasteChild
 "
 ]
 ;
@@ -76,7 +76,7 @@ ClipboardReadTextPasteChild
 *
 Propagates
 "
-MozClipboardReadTextPaste
+MozClipboardReadPaste
 "
 events
 from
@@ -100,7 +100,7 @@ process
 *
 /
 class
-ClipboardReadTextPasteChild
+ClipboardReadPasteChild
 extends
 JSWindowActorChild
 {
@@ -131,7 +131,7 @@ type
 =
 =
 "
-MozClipboardReadTextPaste
+MozClipboardReadPaste
 "
 &
 &
@@ -145,7 +145,7 @@ this
 sendAsyncMessage
 (
 "
-ClipboardReadTextPaste
+ClipboardReadPaste
 :
 ShowMenupopup
 "
@@ -174,7 +174,7 @@ name
 {
 case
 "
-ClipboardReadTextPaste
+ClipboardReadPaste
 :
 PasteMenuItemClicked
 "
@@ -198,7 +198,7 @@ break
 }
 case
 "
-ClipboardReadTextPaste
+ClipboardReadPaste
 :
 PasteMenuItemDismissed
 "
