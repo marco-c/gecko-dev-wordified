@@ -209,6 +209,17 @@ NS_DOM_SERVICEWORKER_IID
 \
 }
 bool
+ServiceWorkersEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
+)
+;
+bool
 ServiceWorkerVisible
 (
 JSContext
@@ -216,7 +227,7 @@ JSContext
 aCx
 JSObject
 *
-aObj
+aGlobal
 )
 ;
 class
