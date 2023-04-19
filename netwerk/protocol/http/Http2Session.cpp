@@ -8897,7 +8897,7 @@ indication
 aStream
 -
 >
-Close
+CloseStream
 (
 aResult
 )

@@ -521,8 +521,8 @@ nsACString
 aHeadersOut
 )
 ;
-nsresult
-Close
+void
+CloseStream
 (
 nsresult
 reason

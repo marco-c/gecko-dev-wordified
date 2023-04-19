@@ -183,8 +183,8 @@ RequestContext
 nullptr
 ;
 }
-nsresult
-Close
+void
+CloseStream
 (
 nsresult
 reason
