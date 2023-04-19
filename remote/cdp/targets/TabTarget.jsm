@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 RemoteAgent
 :
@@ -203,7 +209,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 Favicons
 "
@@ -244,6 +250,8 @@ frame
 class
 TabTarget
 extends
+lazy
+.
 Target
 {
 /
@@ -268,6 +276,8 @@ browser
 super
 (
 targetList
+lazy
+.
 TabSession
 )
 ;
@@ -302,6 +312,8 @@ this
 .
 id
 =
+lazy
+.
 TabManager
 .
 getIdForBrowser
@@ -592,6 +604,8 @@ reject
 =
 >
 {
+lazy
+.
 Favicons
 .
 getFaviconURLForPage
@@ -685,6 +699,8 @@ host
 port
 }
 =
+lazy
+.
 RemoteAgent
 ;
 return

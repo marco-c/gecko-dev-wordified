@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NetUtil
 :
@@ -145,6 +151,8 @@ MAX_WINDOW_SIZE
 class
 Emulation
 extends
+lazy
+.
 Domain
 {
 destructor
@@ -1058,6 +1066,8 @@ try
 const
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel

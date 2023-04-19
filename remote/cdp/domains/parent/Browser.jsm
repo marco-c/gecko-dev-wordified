@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Domain
 :
@@ -149,6 +155,8 @@ jsm
 class
 Browser
 extends
+lazy
+.
 Domain
 {
 getVersion

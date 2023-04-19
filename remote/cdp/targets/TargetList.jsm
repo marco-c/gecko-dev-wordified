@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -215,6 +221,8 @@ Map
 (
 )
 ;
+lazy
+.
 EventEmitter
 .
 decorate
@@ -327,6 +335,8 @@ this
 tabObserver
 =
 new
+lazy
+.
 TabObserver
 (
 {
@@ -368,6 +378,8 @@ const
 target
 =
 new
+lazy
+.
 TabTarget
 (
 this
@@ -444,6 +456,8 @@ return
 const
 id
 =
+lazy
+.
 TabManager
 .
 getIdForBrowser
@@ -851,6 +865,8 @@ this
 mainProcessTarget
 =
 new
+lazy
+.
 MainProcessTarget
 (
 this

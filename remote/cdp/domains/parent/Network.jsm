@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Domain
 :
@@ -393,6 +399,8 @@ WebManifest
 class
 Network
 extends
+lazy
+.
 Domain
 {
 constructor

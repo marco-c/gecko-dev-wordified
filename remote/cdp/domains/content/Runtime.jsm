@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 addDebuggerToGlobal
 :
@@ -205,7 +211,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ConsoleAPIStorage
 "
@@ -250,6 +256,8 @@ in
 the
 current
 scope
+lazy
+.
 addDebuggerToGlobal
 (
 globalThis
@@ -441,6 +449,8 @@ _count
 class
 Runtime
 extends
+lazy
+.
 ContentProcessDomain
 {
 constructor
@@ -677,6 +687,8 @@ bind
 this
 )
 ;
+lazy
+.
 ConsoleAPIStorage
 .
 addLogEventListener
@@ -727,6 +739,8 @@ replied
 to
 enable
 request
+.
+lazy
 .
 executeSoon
 (
@@ -796,6 +810,8 @@ unregisterListener
 this
 )
 ;
+lazy
+.
 ConsoleAPIStorage
 .
 removeLogEventListener
@@ -2979,6 +2995,8 @@ const
 context
 =
 new
+lazy
+.
 ExecutionContext
 (
 this

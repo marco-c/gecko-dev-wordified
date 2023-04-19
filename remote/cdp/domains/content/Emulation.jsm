@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AnimationFramePromise
 :
@@ -142,6 +148,8 @@ jsm
 class
 Emulation
 extends
+lazy
+.
 ContentProcessDomain
 {
 /
@@ -249,6 +257,8 @@ animation
 frame
 .
 await
+lazy
+.
 AnimationFramePromise
 (
 win

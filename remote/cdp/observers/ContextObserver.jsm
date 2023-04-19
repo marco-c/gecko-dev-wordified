@@ -304,11 +304,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -359,6 +365,8 @@ chromeEventHandler
 =
 chromeEventHandler
 ;
+lazy
+.
 EventEmitter
 .
 decorate
@@ -1113,6 +1121,8 @@ cleanup
 to
 happen
 first
+lazy
+.
 executeSoon
 (
 (

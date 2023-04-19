@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ContentProcessDomain
 :
@@ -199,6 +205,8 @@ error
 class
 Log
 extends
+lazy
+.
 ContentProcessDomain
 {
 constructor

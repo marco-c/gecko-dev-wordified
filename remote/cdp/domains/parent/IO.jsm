@@ -97,11 +97,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 OS
 :
@@ -178,6 +184,8 @@ const
 streamRegistry
 =
 new
+lazy
+.
 StreamRegistry
 (
 )
@@ -185,6 +193,8 @@ StreamRegistry
 class
 IO
 extends
+lazy
+.
 Domain
 {
 /
@@ -538,6 +548,8 @@ stream
 setPosition
 (
 seekTo
+lazy
+.
 OS
 .
 File

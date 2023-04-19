@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 JSONHandler
 :
@@ -177,7 +183,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -185,10 +191,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -201,7 +211,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 textEncoder
 "
@@ -549,6 +559,8 @@ _running
 =
 true
 ;
+lazy
+.
 RecommendedPreferences
 .
 applyPreferences
@@ -570,6 +582,8 @@ json
 /
 "
 new
+lazy
+.
 JSONHandler
 (
 this
@@ -581,6 +595,8 @@ this
 targetList
 =
 new
+lazy
+.
 TargetList
 (
 )
@@ -723,6 +739,8 @@ has
 finished
 initializing
 .
+lazy
+.
 logger
 .
 debug
@@ -813,6 +831,8 @@ write
 this
 .
 _activePortPath
+lazy
+.
 textEncoder
 .
 encode
@@ -827,6 +847,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -897,6 +919,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -934,6 +958,8 @@ targetList
 =
 null
 ;
+lazy
+.
 RecommendedPreferences
 .
 restorePreferences

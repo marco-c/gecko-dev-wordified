@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Preferences
 :
@@ -141,7 +147,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 sss
 :
@@ -205,6 +211,8 @@ preloadlist
 class
 Security
 extends
+lazy
+.
 Domain
 {
 destructor
@@ -303,6 +311,8 @@ use
 HSTS
 or
 HPKP
+lazy
+.
 Preferences
 .
 set
@@ -311,6 +321,8 @@ HSTS_PRELOAD_LIST_PREF
 false
 )
 ;
+lazy
+.
 Preferences
 .
 set
@@ -322,6 +334,8 @@ CERT_PINNING_ENFORCEMENT_PREF
 }
 else
 {
+lazy
+.
 Preferences
 .
 reset
@@ -329,6 +343,8 @@ reset
 HSTS_PRELOAD_LIST_PREF
 )
 ;
+lazy
+.
 Preferences
 .
 reset
@@ -344,6 +360,8 @@ HSTS
 and
 HPKP
 state
+lazy
+.
 sss
 .
 clearAll
@@ -351,6 +369,8 @@ clearAll
 )
 ;
 }
+lazy
+.
 certOverrideService
 .
 setDisableAllSecurityChecksAndLetAttackersInterceptMyData

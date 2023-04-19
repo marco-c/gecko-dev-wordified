@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 MainProcessSession
 :
@@ -224,6 +230,8 @@ l
 class
 MainProcessTarget
 extends
+lazy
+.
 Target
 {
 /
@@ -242,6 +250,8 @@ targetList
 super
 (
 targetList
+lazy
+.
 MainProcessSession
 )
 ;
@@ -290,6 +300,8 @@ host
 port
 }
 =
+lazy
+.
 RemoteAgent
 ;
 return

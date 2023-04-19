@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 clearInterval
 :
@@ -367,6 +373,8 @@ TIMEOUT_SET_HISTORY_INDEX
 class
 Page
 extends
+lazy
+.
 Domain
 {
 constructor
@@ -760,6 +768,8 @@ topFrameId
 {
 throw
 new
+lazy
+.
 UnsupportedError
 (
 "
@@ -1489,6 +1499,8 @@ fromSurface
 {
 throw
 new
+lazy
+.
 UnsupportedError
 (
 "
@@ -2175,6 +2187,8 @@ format
 {
 throw
 new
+lazy
+.
 UnsupportedError
 (
 Unsupported
@@ -2263,6 +2277,8 @@ this
 _dialogHandler
 =
 new
+lazy
+.
 DialogHandler
 (
 browser
@@ -2421,6 +2437,8 @@ the
 corresponding
 tab
 await
+lazy
+.
 windowManager
 .
 focusWindow
@@ -2429,6 +2447,8 @@ window
 )
 ;
 await
+lazy
+.
 TabManager
 .
 selectTab
@@ -2877,6 +2897,8 @@ entries
 )
 ;
 }
+lazy
+.
 SessionStore
 .
 getSessionHistory
@@ -3189,6 +3211,8 @@ set
 immediately
 .
 await
+lazy
+.
 PollPromise
 (
 async
@@ -3998,12 +4022,16 @@ file
 const
 basePath
 =
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -4029,6 +4057,8 @@ filePath
 }
 =
 await
+lazy
+.
 OS
 .
 File
@@ -4342,6 +4372,8 @@ lastSize
 const
 timerId
 =
+lazy
+.
 setInterval
 (
 async
@@ -4354,6 +4386,8 @@ const
 fileInfo
 =
 await
+lazy
+.
 OS
 .
 File
@@ -4378,6 +4412,8 @@ size
 lastSize
 )
 {
+lazy
+.
 clearInterval
 (
 timerId
@@ -4405,6 +4441,8 @@ const
 fp
 =
 await
+lazy
+.
 OS
 .
 File
@@ -4440,6 +4478,8 @@ retval
 .
 stream
 =
+lazy
+.
 streamRegistry
 .
 add
@@ -4484,6 +4524,8 @@ close
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -4639,6 +4681,8 @@ resolve
 =
 >
 {
+lazy
+.
 SessionStore
 .
 getSessionHistory
@@ -4734,6 +4778,8 @@ null
 )
 ;
 }
+lazy
+.
 SessionStore
 .
 getSessionHistory
