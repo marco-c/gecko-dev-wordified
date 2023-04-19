@@ -103,9 +103,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -121,7 +121,9 @@ modules
 /
 UrlbarProviderAutofill
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
