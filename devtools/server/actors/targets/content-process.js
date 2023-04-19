@@ -434,6 +434,7 @@ connection
 isXpcShellTarget
 =
 false
+sessionContext
 }
 =
 {
@@ -469,6 +470,12 @@ this
 isXpcShellTarget
 =
 isXpcShellTarget
+;
+this
+.
+sessionContext
+=
+sessionContext
 ;
 /
 /

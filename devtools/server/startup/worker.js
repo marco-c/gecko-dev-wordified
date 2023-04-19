@@ -585,6 +585,11 @@ global
 packet
 .
 workerDebuggerData
+packet
+.
+options
+.
+sessionContext
 )
 ;
 /
@@ -731,7 +736,6 @@ if
 packet
 .
 options
-?
 .
 sessionData
 )
