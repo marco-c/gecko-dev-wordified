@@ -339,9 +339,7 @@ image
 .
 src
 =
-OS
-.
-Path
+PathUtils
 .
 toFileURI
 (
@@ -572,9 +570,7 @@ downloaded
 screenshot
 file
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (

@@ -386,9 +386,7 @@ image
 .
 src
 =
-OS
-.
-Path
+PathUtils
 .
 toFileURI
 (
@@ -471,9 +469,7 @@ and
 cleanup
 downloads
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
@@ -766,9 +762,7 @@ image
 .
 src
 =
-OS
-.
-Path
+PathUtils
 .
 toFileURI
 (
@@ -942,9 +936,7 @@ and
 cleanup
 downloads
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (

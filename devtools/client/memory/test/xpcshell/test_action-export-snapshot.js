@@ -232,9 +232,7 @@ const
 stat
 =
 await
-OS
-.
-File
+IOUtils
 .
 stat
 (

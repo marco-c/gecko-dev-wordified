@@ -329,9 +329,7 @@ downloaded
 screenshot
 file
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (

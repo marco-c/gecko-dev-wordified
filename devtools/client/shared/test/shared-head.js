@@ -10386,9 +10386,7 @@ image
 .
 src
 =
-OS
-.
-Path
+PathUtils
 .
 toFileURI
 (
@@ -10410,9 +10408,7 @@ file
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
