@@ -436,8 +436,6 @@ AV1
 via
 .
 ffvpx
-/
-ffmpeg
 is
 supported
 on
@@ -457,6 +455,12 @@ MOZ_AV1
 defined
 (
 MOZ_WAYLAND
+)
+&
+&
+defined
+(
+MOZ_FFVPX
 )
 TEST
 (
