@@ -7126,6 +7126,8 @@ emitSelfHostedCallFunction
 CallNode
 *
 callNode
+JSOp
+op
 )
 ;
 [
