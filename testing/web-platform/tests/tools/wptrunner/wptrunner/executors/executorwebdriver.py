@@ -4549,6 +4549,22 @@ screenshot
 (
 )
         
+if
+screenshot
+is
+None
+:
+            
+raise
+ValueError
+(
+'
+screenshot
+is
+None
+'
+)
+        
 #
 strip
 off
