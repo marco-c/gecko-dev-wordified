@@ -189,11 +189,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -216,7 +222,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManagerPrivate
 "
@@ -239,7 +245,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -264,7 +270,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 jexlFilterFunc
 "
@@ -783,7 +789,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 kXPIAddonTypes
 "
@@ -838,6 +844,8 @@ bug
 1086668
 .
 return
+lazy
+.
 AddonManagerPrivate
 .
 getAddonTypesByProvider
@@ -2107,6 +2115,8 @@ os
 .
 includes
 (
+lazy
+.
 gAppOS
 )
 )
@@ -2143,6 +2153,8 @@ xpcomabi
 .
 includes
 (
+lazy
+.
 gApp
 .
 XPCOMABI
@@ -2539,6 +2551,8 @@ tA
 guid
 =
 =
+lazy
+.
 gAppID
 &
 &
@@ -2833,6 +2847,8 @@ tA
 .
 guid
 =
+lazy
+.
 gAppID
 ;
 }
@@ -3068,6 +3084,8 @@ filter_expression
 )
 {
 return
+lazy
+.
 jexlFilterFunc
 (
 entry
@@ -3193,6 +3211,8 @@ vc
 .
 compare
 (
+lazy
+.
 gApp
 .
 version
@@ -3317,6 +3337,8 @@ if
 guid
 =
 =
+lazy
+.
 gAppID
 &
 &
@@ -3326,6 +3348,8 @@ vc
 .
 compare
 (
+lazy
+.
 gApp
 .
 version
@@ -3603,6 +3627,8 @@ this
 .
 _client
 =
+lazy
+.
 RemoteSettings
 (
 "
@@ -5127,6 +5153,8 @@ this
 .
 _client
 =
+lazy
+.
 RemoteSettings
 (
 "
@@ -5285,10 +5313,14 @@ let
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
 (
+lazy
+.
 kXPIAddonTypes
 )
 ;
@@ -5688,6 +5720,8 @@ pref
 }
 }
 }
+lazy
+.
 AddonManagerPrivate
 .
 updateAddonAppDisabledStates
@@ -5806,6 +5840,8 @@ appVersion
 &
 &
 !
+lazy
+.
 gApp
 .
 version
@@ -5823,6 +5859,8 @@ appVersion
 {
 appVersion
 =
+lazy
+.
 gApp
 .
 version
@@ -5836,6 +5874,8 @@ toolkitVersion
 {
 toolkitVersion
 =
+lazy
+.
 gApp
 .
 platformVersion
@@ -7465,6 +7505,8 @@ this
 .
 _client
 =
+lazy
+.
 RemoteSettings
 (
 "
@@ -7609,10 +7651,14 @@ let
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
 (
+lazy
+.
 kXPIAddonTypes
 )
 ;
@@ -7758,6 +7804,8 @@ blocklist_update
 )
 ;
 }
+lazy
+.
 AddonManagerPrivate
 .
 updateAddonAppDisabledStates
@@ -8171,6 +8219,8 @@ signedState
 !
 =
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_PRELIMINARY
@@ -8180,6 +8230,8 @@ signedState
 !
 =
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_SIGNED
@@ -8824,7 +8876,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gApp
 "
@@ -8945,7 +8997,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAppID
 "
@@ -8954,6 +9006,8 @@ function
 )
 {
 return
+lazy
+.
 gApp
 .
 ID
@@ -8965,7 +9019,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAppOS
 "
@@ -8974,6 +9028,8 @@ function
 )
 {
 return
+lazy
+.
 gApp
 .
 OS

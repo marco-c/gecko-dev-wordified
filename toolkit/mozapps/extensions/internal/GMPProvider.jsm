@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -558,7 +564,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 pluginsBundle
 "
@@ -588,7 +594,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gmpService
 "
@@ -644,6 +650,8 @@ gLogger
 {
 gLogger
 =
+lazy
+.
 Log
 .
 repository
@@ -662,11 +670,15 @@ gLogger
 addAppender
 (
 new
+lazy
+.
 Log
 .
 ConsoleAppender
 (
 new
+lazy
+.
 Log
 .
 BasicFormatter
@@ -687,6 +699,8 @@ getInt
 GMPPrefs
 .
 KEY_LOGGING_LEVEL
+lazy
+.
 Log
 .
 Level
@@ -725,11 +739,15 @@ logDumping
 gLogAppenderDump
 =
 new
+lazy
+.
 Log
 .
 DumpAppender
 (
 new
+lazy
+.
 Log
 .
 BasicFormatter
@@ -808,6 +826,8 @@ this
 .
 _log
 =
+lazy
+.
 Log
 .
 repository
@@ -1230,6 +1250,8 @@ a
 .
 textContent
 =
+lazy
+.
 pluginsBundle
 .
 formatValueSync
@@ -1488,6 +1510,8 @@ scope
 )
 {
 return
+lazy
+.
 AddonManager
 .
 SCOPE_APPLICATION
@@ -1499,6 +1523,8 @@ pendingOperations
 )
 {
 return
+lazy
+.
 AddonManager
 .
 PENDING_NONE
@@ -1510,6 +1536,8 @@ operationsRequiringRestart
 )
 {
 return
+lazy
+.
 AddonManager
 .
 OP_NEEDS_RESTART_NONE
@@ -1536,6 +1564,8 @@ appDisabled
 permissions
 |
 =
+lazy
+.
 AddonManager
 .
 PERM_CAN_UPGRADE
@@ -1547,10 +1577,14 @@ this
 .
 userDisabled
 ?
+lazy
+.
 AddonManager
 .
 PERM_CAN_ENABLE
 :
+lazy
+.
 AddonManager
 .
 PERM_CAN_DISABLE
@@ -1694,6 +1728,8 @@ id
 )
 {
 return
+lazy
+.
 AddonManager
 .
 AUTOUPDATE_DEFAULT
@@ -1715,10 +1751,14 @@ _plugin
 id
 )
 ?
+lazy
+.
 AddonManager
 .
 AUTOUPDATE_ENABLE
 :
+lazy
+.
 AddonManager
 .
 AUTOUPDATE_DISABLE
@@ -1735,6 +1775,8 @@ if
 aVal
 =
 =
+lazy
+.
 AddonManager
 .
 AUTOUPDATE_DEFAULT
@@ -1761,6 +1803,8 @@ if
 aVal
 =
 =
+lazy
+.
 AddonManager
 .
 AUTOUPDATE_ENABLE
@@ -1788,6 +1832,8 @@ if
 aVal
 =
 =
+lazy
+.
 AddonManager
 .
 AUTOUPDATE_DISABLE
@@ -1989,6 +2035,8 @@ some
 may
 )
 .
+lazy
+.
 AddonManagerPrivate
 .
 callNoUpdateListeners
@@ -2003,6 +2051,8 @@ aReason
 =
 =
 =
+lazy
+.
 AddonManager
 .
 UPDATE_WHEN_PERIODIC_UPDATE
@@ -2011,6 +2061,8 @@ UPDATE_WHEN_PERIODIC_UPDATE
 if
 (
 !
+lazy
+.
 AddonManager
 .
 shouldAutoUpdate
@@ -2134,6 +2186,8 @@ aReason
 !
 =
 =
+lazy
+.
 AddonManager
 .
 UPDATE_WHEN_USER_REQUESTED
@@ -2257,6 +2311,8 @@ let
 installManager
 =
 new
+lazy
+.
 GMPInstallManager
 (
 )
@@ -2596,6 +2652,8 @@ this
 isActive
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -2650,6 +2708,8 @@ this
 _gmpPath
 )
 ;
+lazy
+.
 gmpService
 .
 addPluginDirectory
@@ -2683,6 +2743,8 @@ this
 _gmpPath
 )
 ;
+lazy
+.
 gmpService
 .
 removePluginDirectory
@@ -2694,6 +2756,8 @@ _gmpPath
 ;
 }
 }
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -2770,6 +2834,8 @@ _plugin
 )
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -2841,6 +2907,8 @@ _plugin
 )
 )
 {
+lazy
+.
 AddonManagerPrivate
 .
 callInstallListeners
@@ -2854,6 +2922,8 @@ null
 false
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -2865,6 +2935,8 @@ this
 false
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -2998,6 +3070,8 @@ EME
 after
 all
 .
+lazy
+.
 setTimeout
 (
 (
@@ -3017,6 +3091,8 @@ let
 gmpInstallManager
 =
 new
+lazy
+.
 GMPInstallManager
 (
 )
@@ -3104,6 +3180,8 @@ onPrefVersionChanged
 (
 )
 {
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -3143,6 +3221,8 @@ this
 _gmpPath
 )
 ;
+lazy
+.
 gmpService
 .
 removeAndDeletePluginDirectory
@@ -3160,6 +3240,8 @@ defer
 )
 ;
 }
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -3170,6 +3252,8 @@ onUninstalled
 this
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 callInstallListeners
@@ -3183,6 +3267,8 @@ null
 false
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -3285,6 +3371,8 @@ this
 _gmpPath
 )
 ;
+lazy
+.
 gmpService
 .
 addPluginDirectory
@@ -3295,6 +3383,8 @@ _gmpPath
 )
 ;
 }
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -3430,6 +3520,8 @@ uninstallPlugin
 (
 )
 {
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -3469,6 +3561,8 @@ this
 gmpPath
 )
 ;
+lazy
+.
 gmpService
 .
 removeAndDeletePluginDirectory
@@ -3515,6 +3609,8 @@ this
 id
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 callAddonListeners
@@ -3937,6 +4033,8 @@ this
 .
 _log
 =
+lazy
+.
 Log
 .
 repository
@@ -4150,6 +4248,8 @@ gmpPath
 ;
 try
 {
+lazy
+.
 gmpService
 .
 addPluginDirectory
@@ -4288,6 +4388,8 @@ directory
 clearkeyPath
 )
 ;
+lazy
+.
 gmpService
 .
 addPluginDirectory
@@ -4626,6 +4728,8 @@ aPlugin
 id
 name
 :
+lazy
+.
 pluginsBundle
 .
 formatValueSync
@@ -4636,6 +4740,8 @@ name
 )
 description
 :
+lazy
+.
 pluginsBundle
 .
 formatValueSync
@@ -4735,6 +4841,8 @@ wrapper
 isInstalled
 )
 {
+lazy
+.
 gmpService
 .
 addPluginDirectory
@@ -4773,6 +4881,8 @@ topic
 FIRST_CONTENT_PROCESS_TOPIC
 )
 {
+lazy
+.
 AddonManagerPrivate
 .
 registerProvider
@@ -4910,8 +5020,12 @@ callback
 let
 originalGmpService
 =
+lazy
+.
 gmpService
 ;
+lazy
+.
 gmpService
 =
 mockService
@@ -4927,6 +5041,8 @@ callback
 }
 finally
 {
+lazy
+.
 gmpService
 =
 originalGmpService

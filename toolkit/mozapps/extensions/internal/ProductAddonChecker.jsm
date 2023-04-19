@@ -169,11 +169,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ServiceRequest
 :
@@ -547,6 +553,8 @@ const
 request
 =
 new
+lazy
+.
 ServiceRequest
 (
 {
@@ -1781,6 +1789,8 @@ let
 request
 =
 new
+lazy
+.
 ServiceRequest
 (
 )
@@ -2888,6 +2898,8 @@ let
 sr
 =
 new
+lazy
+.
 ServiceRequest
 (
 )
@@ -4232,8 +4244,12 @@ callback
 let
 originalServiceRequest
 =
+lazy
+.
 ServiceRequest
 ;
+lazy
+.
 ServiceRequest
 =
 function
@@ -4256,6 +4272,8 @@ callback
 }
 finally
 {
+lazy
+.
 ServiceRequest
 =
 originalServiceRequest

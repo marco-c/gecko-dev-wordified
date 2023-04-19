@@ -667,11 +667,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonRepository
 :
@@ -759,7 +765,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 WEBEXT_POSTDOWNLOAD_THIRD_PARTY
 "
@@ -2950,6 +2956,8 @@ name
 value
 )
 {
+lazy
+.
 TelemetryTimestamps
 .
 add
@@ -5497,6 +5505,8 @@ progress
 "
 ;
 await
+lazy
+.
 AddonRepository
 .
 shutdown
@@ -5693,6 +5703,8 @@ update
 the
 addons
 cache
+.
+lazy
 .
 AddonRepository
 .
@@ -6430,6 +6442,8 @@ userPermissions
 let
 difference
 =
+lazy
+.
 Extension
 .
 comparePermissions
@@ -6804,6 +6818,8 @@ addon
 updates
 .
 await
+lazy
+.
 AddonRepository
 .
 backgroundUpdateCheck
@@ -11966,6 +11982,8 @@ else
 if
 (
 !
+lazy
+.
 WEBEXT_POSTDOWNLOAD_THIRD_PARTY
 )
 {
@@ -15553,6 +15571,8 @@ prompt
 if
 (
 !
+lazy
+.
 WEBEXT_POSTDOWNLOAD_THIRD_PARTY
 |
 |
@@ -17852,6 +17872,8 @@ supported
 let
 existingDialog
 =
+lazy
+.
 AbuseReporter
 .
 getOpenDialog
@@ -17874,6 +17896,8 @@ const
 dialog
 =
 await
+lazy
+.
 AbuseReporter
 .
 openDialog
@@ -19351,6 +19375,8 @@ overrideAddonRepository
 mockRepo
 )
 {
+lazy
+.
 AddonRepository
 =
 mockRepo
@@ -22788,6 +22814,8 @@ this
 .
 client
 =
+lazy
+.
 RemoteSettings
 (
 this

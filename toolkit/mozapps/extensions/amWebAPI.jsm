@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 AMO_ABUSEREPORT
 "
@@ -1600,6 +1606,8 @@ abuseReportPanelEnabled
 )
 {
 return
+lazy
+.
 AMO_ABUSEREPORT
 ;
 }

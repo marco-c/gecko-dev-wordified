@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -270,7 +276,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PLATFORM
 "
@@ -778,6 +784,8 @@ aIds
 let
 types
 =
+lazy
+.
 Preferences
 .
 get
@@ -802,6 +810,8 @@ let
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByIDs
@@ -865,6 +875,8 @@ default
 if
 (
 !
+lazy
+.
 Preferences
 .
 get
@@ -2282,6 +2294,8 @@ then
 )
 =
 >
+lazy
+.
 AddonManagerPrivate
 .
 updateAddonRepositoryData
@@ -2547,6 +2561,8 @@ let
 request
 =
 new
+lazy
+.
 ServiceRequest
 (
 {
@@ -3175,6 +3191,8 @@ let
 allAddons
 =
 await
+lazy
+.
 AddonManager
 .
 getAllAddons
@@ -3346,6 +3364,8 @@ refill
 the
 cache
 await
+lazy
+.
 AddonManagerPrivate
 .
 updateAddonRepositoryData
@@ -3357,6 +3377,8 @@ updateAddonRepositoryData
 (
 )
 ;
+lazy
+.
 AddonManager
 .
 beforeShutdown
@@ -3374,6 +3396,8 @@ shutter
 await
 shutter
 ;
+lazy
+.
 AddonManager
 .
 beforeShutdown
@@ -3517,6 +3541,8 @@ file
 platform
 =
 =
+lazy
+.
 PLATFORM
 )
 {
@@ -3531,6 +3557,8 @@ addon
 .
 sourceURI
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -3673,6 +3701,8 @@ author
 =
 >
 new
+lazy
+.
 AddonManagerPrivate
 .
 AddonAuthor
@@ -3792,6 +3822,8 @@ thumbnail_size
 ;
 return
 new
+lazy
+.
 AddonManagerPrivate
 .
 AddonScreenshot
@@ -5056,6 +5088,8 @@ this
 _saveTask
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -5078,6 +5112,8 @@ this
 _blockerAdded
 )
 {
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -5662,6 +5698,8 @@ sourceURI
 =
 value
 ?
+lazy
+.
 NetUtil
 .
 newURI
@@ -6137,6 +6175,8 @@ url
 ;
 return
 new
+lazy
+.
 AddonManagerPrivate
 .
 AddonAuthor
@@ -6237,6 +6277,8 @@ caption
 ;
 return
 new
+lazy
+.
 AddonManagerPrivate
 .
 AddonScreenshot
