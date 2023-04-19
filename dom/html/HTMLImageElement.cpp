@@ -7074,6 +7074,9 @@ restyle
 if
 (
 mResponsiveSelector
+&
+&
+mResponsiveSelector
 -
 >
 Content
