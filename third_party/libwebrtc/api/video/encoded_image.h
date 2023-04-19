@@ -531,13 +531,6 @@ EncodedImage
 &
 )
 ;
-/
-/
-Discouraged
-:
-potentially
-expensive
-.
 EncodedImage
 (
 const
@@ -545,6 +538,7 @@ EncodedImage
 &
 )
 ;
+RTC_DEPRECATED
 EncodedImage
 (
 uint8_t
@@ -1373,6 +1367,8 @@ encoded_data_
 ;
 size_t
 size_
+=
+0
 ;
 /
 /
@@ -1399,6 +1395,8 @@ buffer
 uint8_t
 *
 buffer_
+=
+nullptr
 ;
 /
 /
@@ -1419,6 +1417,8 @@ null
 .
 size_t
 capacity_
+=
+0
 ;
 uint32_t
 timestamp_rtp_
