@@ -38737,7 +38737,7 @@ autoHide
 {
 FullScreen
 .
-getAutohide
+updateAutohideMenuitem
 (
 autoHide
 )

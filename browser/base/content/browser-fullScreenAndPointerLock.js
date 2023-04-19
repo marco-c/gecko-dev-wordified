@@ -5026,7 +5026,7 @@ the
 context
 menu
 item
-getAutohide
+updateAutohideMenuitem
 (
 aItem
 )
