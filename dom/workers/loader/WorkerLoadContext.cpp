@@ -143,10 +143,6 @@ WorkerLoadContext
 :
 WorkerLoadContext
 (
-const
-nsString
-&
-aURL
 )
 :
 JS
@@ -167,10 +163,6 @@ ContextKind
 :
 :
 Worker
-)
-mURL
-(
-aURL
 )
 {
 }

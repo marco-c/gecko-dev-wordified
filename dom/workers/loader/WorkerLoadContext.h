@@ -232,10 +232,6 @@ public
 explicit
 WorkerLoadContext
 (
-const
-nsString
-&
-aURL
 )
 ;
 ~
@@ -244,9 +240,6 @@ WorkerLoadContext
 )
 =
 default
-;
-nsString
-mURL
 ;
 /
 /

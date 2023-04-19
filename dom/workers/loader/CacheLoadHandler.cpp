@@ -1783,6 +1783,9 @@ uri
 mLoadContext
 -
 >
+mRequest
+-
+>
 mURL
 nullptr
 mBaseURI
