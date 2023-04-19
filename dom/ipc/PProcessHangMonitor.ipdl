@@ -244,6 +244,11 @@ TerminateScript
 )
 ;
 async
+RequestContentJSInterrupt
+(
+)
+;
+async
 BeginStartingDebugger
 (
 )
