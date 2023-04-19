@@ -178,11 +178,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -324,7 +330,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -334,6 +340,8 @@ log
 >
 {
 return
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -350,7 +358,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 BREACH_ALERTS_ENABLED
 "
@@ -374,7 +382,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 FXA_ENABLED
 "
@@ -392,7 +400,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 OS_AUTH_ENABLED
 "
@@ -416,7 +424,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 VULNERABLE_PASSWORDS_ENABLED
 "
@@ -440,7 +448,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 AboutLoginsL10n
 "
@@ -540,6 +548,8 @@ newtab
 const
 EXPECTED_ABOUTLOGINS_REMOTE_TYPE
 =
+lazy
+.
 E10SUtils
 .
 PRIVILEGEDABOUT_REMOTE_TYPE
@@ -575,6 +585,8 @@ nsILoginInfo
 const
 login
 =
+lazy
+.
 LoginHelper
 .
 loginToVanillaObject
@@ -585,6 +597,8 @@ subject
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isUserFacingLogin
@@ -1137,6 +1151,8 @@ removeMasterPassword
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isPrimaryPasswordSet
@@ -1179,6 +1195,8 @@ titlebar
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 isPrimaryPasswordSet
@@ -1207,6 +1225,8 @@ provided
 let
 origin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -1276,6 +1296,8 @@ passwordField
 ;
 newLogin
 =
+lazy
+.
 LoginHelper
 .
 vanillaObjectToLogin
@@ -1320,6 +1342,8 @@ loginObject
 let
 login
 =
+lazy
+.
 LoginHelper
 .
 vanillaObjectToLogin
@@ -1413,6 +1437,8 @@ importFromBrowser
 {
 try
 {
+lazy
+.
 MigrationUtils
 .
 showMigrationWizard
@@ -1422,6 +1448,8 @@ this
 #
 ownerGlobal
 [
+lazy
+.
 MigrationUtils
 .
 MIGRATION_ENTRYPOINT_PASSWORDS
@@ -1451,6 +1479,8 @@ importReportInit
 let
 reportData
 =
+lazy
+.
 LoginCSVImport
 .
 lastImportReport
@@ -1638,9 +1668,13 @@ support
 .
 if
 (
+lazy
+.
 OS_AUTH_ENABLED
 &
 &
+lazy
+.
 OSKeyStore
 .
 canReauth
@@ -1665,6 +1699,8 @@ captionText
 ]
 =
 await
+lazy
+.
 AboutLoginsL10n
 .
 formatMessages
@@ -1703,6 +1739,8 @@ telemetryEvent
 }
 =
 await
+lazy
+.
 LoginHelper
 .
 requestReauth
@@ -1712,6 +1750,8 @@ this
 browsingContext
 .
 embedderElement
+lazy
+.
 OS_AUTH_ENABLED
 AboutLogins
 .
@@ -1914,6 +1954,8 @@ selectedSort
 syncState
 primaryPasswordEnabled
 :
+lazy
+.
 LoginHelper
 .
 isPrimaryPasswordSet
@@ -2004,6 +2046,8 @@ can
 be
 sent
 .
+lazy
+.
 log
 .
 debug
@@ -2033,6 +2077,8 @@ loginUpdates
 let
 logins
 =
+lazy
+.
 LoginHelper
 .
 searchLoginsWithObject
@@ -2056,6 +2102,8 @@ length
 1
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2246,6 +2294,8 @@ support
 .
 if
 (
+lazy
+.
 OSKeyStore
 .
 canReauth
@@ -2285,6 +2335,8 @@ captionText
 ]
 =
 await
+lazy
+.
 AboutLoginsL10n
 .
 formatMessages
@@ -2323,6 +2375,8 @@ telemetryEvent
 }
 =
 await
+lazy
+.
 LoginHelper
 .
 requestReauth
@@ -2430,6 +2484,8 @@ nsIFilePicker
 returnCancel
 )
 {
+lazy
+.
 LoginExport
 .
 exportAsCSV
@@ -2469,6 +2525,8 @@ csvFilterTitle
 ]
 =
 await
+lazy
+.
 AboutLoginsL10n
 .
 formatValues
@@ -2635,6 +2693,8 @@ tsvFilterTitle
 ]
 =
 await
+lazy
+.
 AboutLoginsL10n
 .
 formatValues
@@ -2786,6 +2846,8 @@ try
 summary
 =
 await
+lazy
+.
 LoginCSVImport
 .
 importFromCSV
@@ -2887,6 +2949,8 @@ login
 :
 augmentVanillaLoginObject
 (
+lazy
+.
 LoginHelper
 .
 loginToVanillaObject
@@ -3221,6 +3285,8 @@ break
 ;
 }
 case
+lazy
+.
 UIState
 .
 ON_UPDATE
@@ -3359,6 +3425,8 @@ return
 }
 if
 (
+lazy
+.
 BREACH_ALERTS_ENABLED
 )
 {
@@ -3373,6 +3441,8 @@ AboutLogins
 UpdateBreaches
 "
 await
+lazy
+.
 LoginBreaches
 .
 getPotentialBreachesByLoginGUID
@@ -3385,6 +3455,8 @@ login
 ;
 if
 (
+lazy
+.
 VULNERABLE_PASSWORDS_ENABLED
 )
 {
@@ -3399,6 +3471,8 @@ AboutLogins
 UpdateVulnerableLogins
 "
 await
+lazy
+.
 LoginBreaches
 .
 getPotentiallyVulnerablePasswordsByLoginGUID
@@ -3465,6 +3539,8 @@ return
 }
 if
 (
+lazy
+.
 BREACH_ALERTS_ENABLED
 )
 {
@@ -3472,6 +3548,8 @@ let
 breachesForThisLogin
 =
 await
+lazy
+.
 LoginBreaches
 .
 getPotentialBreachesByLoginGUID
@@ -3525,6 +3603,8 @@ breachData
 ;
 if
 (
+lazy
+.
 VULNERABLE_PASSWORDS_ENABLED
 )
 {
@@ -3532,6 +3612,8 @@ let
 vulnerablePasswordsForThisLogin
 =
 await
+lazy
+.
 LoginBreaches
 .
 getPotentiallyVulnerablePasswordsByLoginGUID
@@ -3660,6 +3742,8 @@ const
 faviconData
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseFaviconData
@@ -4379,6 +4463,8 @@ message
 is
 sent
 .
+lazy
+.
 log
 .
 debug
@@ -4415,6 +4501,8 @@ let
 logins
 =
 await
+lazy
+.
 LoginHelper
 .
 getAllUserFacingLogins
@@ -4426,6 +4514,8 @@ logins
 .
 map
 (
+lazy
+.
 LoginHelper
 .
 loginToVanillaObject
@@ -4542,6 +4632,8 @@ details
 ;
 if
 (
+lazy
+.
 BREACH_ALERTS_ENABLED
 )
 {
@@ -4553,6 +4645,8 @@ AboutLogins
 SetBreaches
 "
 await
+lazy
+.
 LoginBreaches
 .
 getPotentialBreachesByLoginGUID
@@ -4563,6 +4657,8 @@ logins
 ;
 if
 (
+lazy
+.
 VULNERABLE_PASSWORDS_ENABLED
 )
 {
@@ -4574,6 +4670,8 @@ AboutLogins
 SetVulnerableLogins
 "
 await
+lazy
+.
 LoginBreaches
 .
 getPotentiallyVulnerablePasswordsByLoginGUID
@@ -4608,6 +4706,8 @@ getSyncState
 const
 state
 =
+lazy
+.
 UIState
 .
 get
@@ -4659,6 +4759,8 @@ state
 status
 !
 =
+lazy
+.
 UIState
 .
 STATUS_NOT_CONFIGURED
@@ -4671,6 +4773,8 @@ state
 syncEnabled
 &
 &
+lazy
+.
 PASSWORD_SYNC_ENABLED
 ;
 return
@@ -4688,6 +4792,8 @@ state
 avatarURL
 fxAccountsEnabled
 :
+lazy
+.
 FXA_ENABLED
 passwordSyncEnabled
 }
@@ -4750,6 +4856,8 @@ reload
 -
 all
 "
+lazy
+.
 UIState
 .
 ON_UPDATE
@@ -4852,7 +4960,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 PASSWORD_SYNC_ENABLED
 "
