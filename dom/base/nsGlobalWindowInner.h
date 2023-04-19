@@ -6344,17 +6344,6 @@ ErrorResult
 aError
 )
 ;
-uint64_t
-GetMozPaintCount
-(
-mozilla
-:
-:
-ErrorResult
-&
-aError
-)
-;
 bool
 DidFireDocElemInserted
 (
