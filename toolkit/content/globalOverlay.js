@@ -263,7 +263,7 @@ window
 SessionStore
 ?
 .
-maybeDontRestoreTabs
+maybeDontSaveTabs
 (
 window
 )
