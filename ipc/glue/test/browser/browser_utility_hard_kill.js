@@ -33,10 +33,6 @@ use
 strict
 "
 ;
-startUtilityProcess
-(
-)
-;
 add_task
 (
 async
@@ -45,6 +41,14 @@ async
 =
 >
 {
+const
+utilityPid
+=
+await
+startUtilityProcess
+(
+)
+;
 SimpleTest
 .
 expectChildProcessCrash
