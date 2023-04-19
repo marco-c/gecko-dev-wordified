@@ -58,7 +58,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -166,7 +166,7 @@ quantization
 '
 An
 active
-ComputePressureObserver
+PressureObserver
 calls
 its
 callback

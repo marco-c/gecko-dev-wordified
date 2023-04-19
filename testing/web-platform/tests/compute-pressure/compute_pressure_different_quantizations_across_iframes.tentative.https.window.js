@@ -20,7 +20,7 @@ const
 observer1
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 update
 =
@@ -165,7 +165,7 @@ iframe2
 .
 contentWindow
 .
-ComputePressureObserver
+PressureObserver
 (
 update
 =
@@ -458,7 +458,7 @@ iframe3
 .
 contentWindow
 .
-ComputePressureObserver
+PressureObserver
 (
 update
 =
@@ -634,7 +634,7 @@ quantization
 ;
 }
 '
-ComputePressureObserver
+PressureObserver
 with
 a
 new
