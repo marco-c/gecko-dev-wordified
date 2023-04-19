@@ -586,6 +586,7 @@ pinFirefoxToTaskbar
 window
 )
 {
+return
 window
 .
 getShellService
@@ -1541,6 +1542,7 @@ case
 PIN_FIREFOX_TO_TASKBAR
 "
 :
+await
 this
 .
 pinFirefoxToTaskbar
@@ -1555,6 +1557,7 @@ case
 PIN_AND_DEFAULT
 "
 :
+await
 this
 .
 pinFirefoxToTaskbar
