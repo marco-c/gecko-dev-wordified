@@ -1517,6 +1517,9 @@ cmd_buffer_index
 resolve_op
 :
 None
+can_use_shared_surface
+:
+false
 .
 .
 *
