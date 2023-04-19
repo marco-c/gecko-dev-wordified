@@ -3036,11 +3036,12 @@ log
 debug
 (
 "
-ignoring
+Ignoring
 result
 from
 previous
 search
+.
 "
 )
 ;
