@@ -420,11 +420,6 @@ mExecutionScheduled
 =
 false
 ;
-bool
-mExecutionResult
-=
-false
-;
 Maybe
 <
 nsString
