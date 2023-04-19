@@ -929,6 +929,9 @@ get_pushes
 project
 end_id
 depth
+full_response
+=
+False
 )
 :
     
@@ -1049,7 +1052,35 @@ depth
 :
 ]
     
+push_dict
+=
+{
+push
+:
+r
+.
+json
+(
+)
+[
+"
+pushes
+"
+]
+[
+push
+]
+for
+push
+in
+pushes
+}
+    
 return
+push_dict
+if
+full_response
+else
 pushes
 def
 get_decision_task_id
