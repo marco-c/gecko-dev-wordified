@@ -71,6 +71,17 @@ import
 subprocess
 import
 sys
+from
+typing
+import
+(
+    
+Callable
+    
+List
+    
+Union
+)
 import
 attr
 import
@@ -215,7 +226,12 @@ def
 get_mount_point
 (
 path
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -432,6 +448,8 @@ def
 check
 (
 func
+:
+Callable
 )
 :
     
@@ -484,6 +502,9 @@ dns
 *
 kwargs
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -594,6 +615,9 @@ internet
 *
 kwargs
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -711,6 +735,9 @@ ssh
 *
 kwargs
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -882,7 +909,7 @@ stdout
             
 #
 Parse
-thproc
+proc
 .
 stdout
 for
@@ -1245,6 +1272,9 @@ cpu
 *
 kwargs
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -1361,6 +1391,9 @@ memory
 *
 kwargs
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -1478,25 +1511,35 @@ name
 "
 memory
 "
-status
-=
-status
 display_text
 =
 [
 desc
 ]
+status
+=
+status
 )
 check
 def
 storage_freespace
 (
 topsrcdir
+:
+str
 topobjdir
+:
+str
 *
 *
 kwargs
 )
+-
+>
+List
+[
+DoctorCheck
+]
 :
     
 "
@@ -1871,11 +1914,25 @@ def
 fs_lastaccess
 (
 topsrcdir
+:
+str
 topobjdir
+:
+str
 *
 *
 kwargs
 )
+-
+>
+Union
+[
+DoctorCheck
+List
+[
+DoctorCheck
+]
+]
 :
     
 "
@@ -2009,12 +2066,19 @@ return
 DoctorCheck
 (
                 
+name
+=
+"
+lastaccess
+"
+                
 status
 =
 CheckStatus
 .
 WARNING
-desc
+                
+display_text
 =
 [
 "
@@ -2030,20 +2094,29 @@ behavior
         
 if
 disablelastaccess
-=
-=
+in
+{
 1
+3
+}
 :
             
 return
 DoctorCheck
 (
                 
+name
+=
+"
+lastaccess
+"
+                
 status
 =
 CheckStatus
 .
 OK
+                
 display_text
 =
 [
@@ -2058,14 +2131,22 @@ systemwide
         
 elif
 disablelastaccess
-=
-=
+in
+{
 0
+2
+}
 :
             
 return
 DoctorCheck
 (
+                
+name
+=
+"
+lastaccess
+"
                 
 status
 =
@@ -2086,6 +2167,51 @@ fix
 =
 fix_lastaccess_win
             
+)
+        
+#
+disablelastaccess
+should
+be
+a
+value
+between
+0
+-
+3
+.
+        
+return
+DoctorCheck
+(
+            
+name
+=
+"
+lastaccess
+"
+            
+status
+=
+CheckStatus
+.
+WARNING
+            
+display_text
+=
+[
+"
+Could
+not
+parse
+fsutil
+for
+lastaccess
+behavior
+.
+"
+]
+        
 )
     
 elif
@@ -2192,11 +2318,61 @@ break
         
 return
 mount_checks
+    
+#
+Return
+"
+SKIPPED
+"
+if
+this
+test
+is
+not
+relevant
+.
+    
+return
+DoctorCheck
+(
+        
+name
+=
+"
+lastaccess
+"
+        
+display_text
+=
+[
+"
+lastaccess
+not
+relevant
+for
+this
+platform
+.
+"
+]
+        
+status
+=
+CheckStatus
+.
+SKIPPED
+    
+)
 def
 check_mount_lastaccess
 (
 mount
+:
+str
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -2522,6 +2698,9 @@ mozillabuild
 *
 kwargs
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -2822,6 +3001,9 @@ bad_locale_utf8
 *
 kwargs
 )
+-
+>
+DoctorCheck
 :
     
 "
@@ -3047,15 +3229,22 @@ def
 run_doctor
 (
 fix
+:
+bool
 =
 False
 verbose
+:
+bool
 =
 False
 *
 *
 kwargs
 )
+-
+>
+int
 :
     
 "
@@ -3365,8 +3554,12 @@ fix
 functions
 .
     
+fixer_fail
+=
+0
+    
 for
-fix
+fixer
 in
 fixes
 :
@@ -3374,7 +3567,7 @@ fixes
 try
 :
             
-fix
+fixer
 (
 )
         
@@ -3382,4 +3575,11 @@ except
 Exception
 :
             
+fixer_fail
+=
+1
+            
 pass
+    
+return
+fixer_fail
