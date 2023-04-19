@@ -961,6 +961,9 @@ public
 ISurfaceAllocator
 getSurfaceAllocator
 (
+final
+int
+allocatorId
 )
 {
 Log

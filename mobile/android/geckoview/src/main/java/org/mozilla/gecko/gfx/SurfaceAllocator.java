@@ -124,7 +124,7 @@ android
 .
 util
 .
-SparseArray
+LongSparseArray
 ;
 import
 org
@@ -222,14 +222,14 @@ service
 private
 static
 final
-SparseArray
+LongSparseArray
 <
 GeckoSurface
 >
 sSurfaces
 =
 new
-SparseArray
+LongSparseArray
 <
 GeckoSurface
 >
@@ -829,7 +829,7 @@ void
 sync
 (
 final
-int
+long
 upstream
 )
 {

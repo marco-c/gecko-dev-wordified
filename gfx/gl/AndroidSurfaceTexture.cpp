@@ -989,7 +989,7 @@ NativeGLBlitHelper
 LocalRef
 NativeCreate
 (
-jint
+jlong
 sourceTextureHandle
 jni
 :
@@ -1087,7 +1087,7 @@ AndroidSharedBlitGL
 &
 &
 gl
-jint
+jlong
 sourceTextureHandle
 jint
 width

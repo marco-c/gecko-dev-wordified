@@ -167,7 +167,7 @@ GeckoSurface
 "
 ;
 private
-int
+long
 mHandle
 ;
 private
@@ -338,7 +338,7 @@ mHandle
 =
 p
 .
-readInt
+readLong
 (
 )
 ;
@@ -592,7 +592,7 @@ false
 ;
 out
 .
-writeInt
+writeLong
 (
 mHandle
 )
@@ -720,7 +720,7 @@ release
 }
 WrapForJNI
 public
-int
+long
 getHandle
 (
 )

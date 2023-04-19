@@ -209,6 +209,9 @@ public
 ISurfaceAllocator
 getSurfaceAllocator
 (
+final
+int
+allocatorId
 )
 {
 return
@@ -216,6 +219,7 @@ RemoteSurfaceAllocator
 .
 getInstance
 (
+allocatorId
 )
 ;
 }

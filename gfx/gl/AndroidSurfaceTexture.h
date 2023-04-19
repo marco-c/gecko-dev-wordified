@@ -128,7 +128,7 @@ Matrix
 h
 "
 typedef
-uint32_t
+uint64_t
 AndroidSurfaceTextureHandle
 ;
 #
