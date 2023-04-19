@@ -1426,6 +1426,10 @@ JSContext
 *
 cx
 ;
+ErrorContext
+*
+ec
+;
 frontend
 :
 :
@@ -1510,6 +1514,9 @@ NodeBuilder
 JSContext
 *
 c
+ErrorContext
+*
+e
 bool
 l
 char
@@ -1521,6 +1528,10 @@ s
 cx
 (
 c
+)
+ec
+(
+e
 )
 parser
 (
@@ -4571,7 +4582,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -10927,6 +10938,7 @@ nullptr
 builder
 (
 c
+e
 l
 src
 )

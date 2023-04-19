@@ -2603,6 +2603,16 @@ cx
 return
 ;
 }
+MOZ_ASSERT
+(
+cx
+-
+>
+isMainThreadContext
+(
+)
+)
+;
 cx
 -
 >
