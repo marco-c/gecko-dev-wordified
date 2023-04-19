@@ -78,7 +78,7 @@ lockwise
 -
 card
 .
-mjs
+js
 "
 ;
 import
@@ -91,7 +91,7 @@ monitor
 -
 card
 .
-mjs
+js
 "
 ;
 import
@@ -104,7 +104,7 @@ proxy
 -
 card
 .
-mjs
+js
 "
 ;
 import
@@ -117,7 +117,7 @@ vpn
 -
 card
 .
-mjs
+js
 "
 ;
 let
