@@ -215,8 +215,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 NS_IMPL_CYCLE_COLLECTION
@@ -8108,9 +8108,7 @@ info
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu

@@ -190,8 +190,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -446,9 +446,7 @@ true
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

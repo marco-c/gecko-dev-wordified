@@ -115,8 +115,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 using
@@ -154,12 +154,10 @@ ScopedError
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu
 #
 endif
 /

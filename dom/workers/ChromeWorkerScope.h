@@ -131,8 +131,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -156,12 +156,10 @@ aGlobal
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -133,8 +133,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
@@ -469,9 +469,7 @@ max_vertex_buffer_array_stride
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu

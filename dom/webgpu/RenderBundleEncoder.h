@@ -128,8 +128,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 namespace
@@ -463,12 +463,10 @@ aDesc
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu
 #
 endif
 /

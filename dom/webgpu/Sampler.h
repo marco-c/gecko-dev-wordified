@@ -126,8 +126,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 class
@@ -188,12 +188,10 @@ Cleanup
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu
 #
 endif
 /
