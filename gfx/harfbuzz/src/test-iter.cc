@@ -1487,7 +1487,13 @@ test_iterable
 OT
 :
 :
-Coverage
+Array16Of
+<
+OT
+:
+:
+HBUINT16
+>
 >
 (
 )

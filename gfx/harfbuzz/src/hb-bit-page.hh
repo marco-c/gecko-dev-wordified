@@ -381,12 +381,12 @@ set
 hb_codepoint_t
 g
 bool
-v
+value
 )
 {
 if
 (
-v
+value
 )
 add
 (

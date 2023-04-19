@@ -381,6 +381,7 @@ void
 *
 hb_set_get_user_data
 (
+const
 hb_set_t
 *
 set

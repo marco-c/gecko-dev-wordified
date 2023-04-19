@@ -317,6 +317,16 @@ hb_shape_plan_key_t
 struct
 hb_ot_shape_plan_t
 {
+~
+hb_ot_shape_plan_t
+(
+)
+{
+fini
+(
+)
+;
+}
 hb_segment_properties_t
 props
 ;
@@ -740,7 +750,7 @@ hb_face_t
 face
 const
 hb_segment_properties_t
-*
+&
 props
 )
 ;

@@ -504,12 +504,10 @@ selector
 Return
 value
 :
-%
 true
 if
 data
 found
-%
 false
 otherwise
 *

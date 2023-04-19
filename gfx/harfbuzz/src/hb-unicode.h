@@ -1557,6 +1557,7 @@ void
 *
 hb_unicode_funcs_get_user_data
 (
+const
 hb_unicode_funcs_t
 *
 ufuncs
@@ -2140,13 +2141,11 @@ composition
 Return
 value
 :
-%
 true
 is
 a
 b
 composed
-%
 false
 otherwise
 *
@@ -2291,12 +2290,10 @@ composition
 Return
 value
 :
-%
 true
 if
 ab
 decomposed
-%
 false
 otherwise
 *

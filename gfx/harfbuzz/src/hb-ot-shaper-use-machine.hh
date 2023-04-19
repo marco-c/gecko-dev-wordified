@@ -290,7 +290,7 @@ use_non_cluster
 ;
 #
 line
-57
+54
 "
 hb
 -
@@ -470,7 +470,7 @@ use_syllable_machine_ex_ZWNJ
 14u
 #
 line
-101
+96
 "
 hb
 -
@@ -5842,7 +5842,7 @@ cs
 ;
 #
 line
-784
+773
 "
 hb
 -
@@ -5898,7 +5898,7 @@ syllable_serial
 ;
 #
 line
-797
+782
 "
 hb
 -
@@ -5970,7 +5970,7 @@ break
 ;
 #
 line
-811
+794
 "
 hb
 -
@@ -6732,7 +6732,7 @@ break
 ;
 #
 line
-901
+866
 "
 hb
 -
@@ -6776,7 +6776,7 @@ break
 ;
 #
 line
-910
+873
 "
 hb
 -

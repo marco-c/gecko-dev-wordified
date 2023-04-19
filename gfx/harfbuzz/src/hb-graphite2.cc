@@ -818,6 +818,9 @@ data
 *
 hb_graphite2_face_get_gr_face
 :
+(
+skip
+)
 *
 face
 :
@@ -941,6 +944,9 @@ HB_DISABLE_DEPRECATED
 *
 hb_graphite2_font_get_gr_font
 :
+(
+skip
+)
 *
 font
 :
@@ -951,7 +957,6 @@ hb_font_t
 *
 Always
 returns
-%
 NULL
 .
 Use
@@ -1039,7 +1044,6 @@ unsigned
 int
 cluster
 ;
-unsigned
 int
 advance
 ;

@@ -52,7 +52,7 @@ namespace
 Layout
 {
 namespace
-GSUB
+GSUB_impl
 {
 struct
 ChainContextSubst

@@ -1765,11 +1765,9 @@ object
 Return
 value
 :
-%
 true
 if
 success
-%
 false
 otherwise
 *
@@ -1889,6 +1887,7 @@ void
 *
 hb_face_get_user_data
 (
+const
 hb_face_t
 *
 face
@@ -1989,13 +1988,11 @@ immutable
 Return
 value
 :
-%
 true
 is
 face
 is
 immutable
-%
 false
 otherwise
 *

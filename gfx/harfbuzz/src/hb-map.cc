@@ -341,13 +341,6 @@ hb_map_get_empty
 (
 )
 ;
-map
--
->
-init_shallow
-(
-)
-;
 return
 map
 ;
@@ -548,13 +541,6 @@ map
 )
 return
 ;
-map
--
->
-fini_shallow
-(
-)
-;
 hb_free
 (
 map
@@ -647,11 +633,9 @@ map
 Return
 value
 :
-%
 true
 if
 success
-%
 false
 otherwise
 *
@@ -769,6 +753,7 @@ void
 *
 hb_map_get_user_data
 (
+const
 hb_map_t
 *
 map
@@ -813,12 +798,10 @@ successful
 Return
 value
 :
-%
 true
 if
 allocation
 succeeded
-%
 false
 otherwise
 *
@@ -1188,7 +1171,6 @@ map
 Return
 value
 :
-%
 true
 if
 key
@@ -1196,7 +1178,6 @@ is
 found
 in
 map
-%
 false
 otherwise
 *
@@ -1310,7 +1291,6 @@ elements
 Return
 value
 :
-%
 true
 if
 map
@@ -1449,7 +1429,6 @@ elements
 Return
 value
 :
-%
 true
 if
 the
@@ -1457,7 +1436,6 @@ two
 maps
 are
 equal
-%
 false
 otherwise
 .

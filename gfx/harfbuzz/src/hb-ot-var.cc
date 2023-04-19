@@ -349,12 +349,10 @@ table
 Return
 value
 :
-%
 true
 if
 data
 found
-%
 false
 otherwise
 *
@@ -1029,12 +1027,10 @@ face
 Return
 value
 :
-%
 true
 if
 data
 found
-%
 false
 otherwise
 *

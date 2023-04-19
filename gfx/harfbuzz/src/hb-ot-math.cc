@@ -343,14 +343,12 @@ table
 Return
 value
 :
-%
 true
 if
 the
 table
 is
 found
-%
 false
 otherwise
 *
@@ -843,7 +841,6 @@ face
 Return
 value
 :
-%
 true
 if
 the
@@ -852,7 +849,6 @@ is
 an
 extended
 shape
-%
 false
 otherwise
 *

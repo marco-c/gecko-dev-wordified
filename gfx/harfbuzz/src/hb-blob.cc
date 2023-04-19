@@ -668,7 +668,6 @@ value
 New
 blob
 or
-%
 NULL
 if
 failed
@@ -1410,13 +1409,6 @@ blob
 )
 return
 ;
-blob
--
->
-fini_shallow
-(
-)
-;
 hb_free
 (
 blob
@@ -1510,11 +1502,9 @@ blob
 Return
 value
 :
-%
 true
 if
 success
-%
 false
 otherwise
 *
@@ -1635,6 +1625,7 @@ void
 *
 hb_blob_get_user_data
 (
+const
 hb_blob_t
 *
 blob
@@ -1730,13 +1721,11 @@ immutable
 Return
 value
 :
-%
 true
 if
 blob
 is
 immutable
-%
 false
 otherwise
 *
@@ -2018,7 +2007,6 @@ blob
 data
 *
 or
-%
 NULL
 if
 failed
@@ -3217,7 +3205,6 @@ the
 file
 *
 or
-%
 NULL
 if
 failed

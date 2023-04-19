@@ -203,7 +203,6 @@ HB_EXPERIMENTAL_API
 /
 *
 *
-*
 struct
 hb_link_t
 *
@@ -234,7 +233,6 @@ index
 of
 subtable
 *
-*
 /
 struct
 hb_link_t
@@ -256,7 +254,6 @@ hb_link_t
 hb_link_t
 ;
 /
-*
 *
 *
 struct
@@ -322,7 +319,6 @@ virtual
 link
 info
 *
-*
 /
 struct
 hb_object_t
@@ -361,6 +357,8 @@ hb_blob_t
 *
 hb_subset_repack_or_fail
 (
+hb_tag_t
+table_tag
 hb_object_t
 *
 hb_objects

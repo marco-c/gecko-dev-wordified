@@ -358,6 +358,7 @@ void
 *
 hb_map_get_user_data
 (
+const
 hb_map_t
 *
 map

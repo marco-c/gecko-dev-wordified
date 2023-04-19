@@ -642,7 +642,6 @@ specified
 #
 hb_feature_t
 or
-%
 NULL
 *
 num_features
@@ -668,7 +667,6 @@ nullable
 )
 :
 a
-%
 NULL
 -
 terminated
@@ -679,7 +677,6 @@ shapers
 to
 use
 or
-%
 NULL
 *
 *
@@ -694,7 +691,6 @@ If
 shaper_list
 is
 not
-%
 NULL
 the
 specified
@@ -989,7 +985,6 @@ specified
 #
 hb_feature_t
 or
-%
 NULL
 *
 num_features
@@ -1019,7 +1014,6 @@ If
 features
 is
 not
-%
 NULL
 it
 will

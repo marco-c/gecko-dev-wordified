@@ -700,6 +700,7 @@ void
 *
 hb_blob_get_user_data
 (
+const
 hb_blob_t
 *
 blob

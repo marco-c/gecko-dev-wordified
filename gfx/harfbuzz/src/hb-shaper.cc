@@ -431,7 +431,7 @@ i
 ;
 j
 <
-ARRAY_LENGTH
+ARRAY_LENGTH_CONST
 (
 _hb_all_shapers
 )

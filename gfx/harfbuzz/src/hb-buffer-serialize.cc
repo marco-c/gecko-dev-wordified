@@ -333,7 +333,6 @@ or
 if
 string
 is
-%
 NULL
 terminated
 *
@@ -455,7 +454,6 @@ string
 corresponding
 it
 or
-%
 NULL
 if
 it
@@ -479,7 +477,6 @@ none
 :
 *
 A
-%
 NULL
 terminated
 string
@@ -2638,7 +2635,6 @@ optional
 :
 if
 not
-%
 NULL
 will
 be
@@ -2677,7 +2673,6 @@ and
 extents
 .
 If
-%
 NULL
 an
 empty
@@ -3409,7 +3404,6 @@ optional
 :
 if
 not
-%
 NULL
 will
 be
@@ -4075,7 +4069,6 @@ optional
 :
 if
 not
-%
 NULL
 will
 be
@@ -4114,7 +4107,6 @@ and
 extents
 .
 If
-%
 NULL
 an
 empty
@@ -4579,7 +4571,6 @@ or
 if
 it
 is
-%
 NULL
 -
 terminated
@@ -4649,7 +4640,6 @@ hb_buffer_serialize_glyphs
 Return
 value
 :
-%
 true
 if
 buf
@@ -4657,7 +4647,6 @@ is
 not
 fully
 consumed
-%
 false
 otherwise
 .
@@ -4900,7 +4889,6 @@ or
 if
 it
 is
-%
 NULL
 -
 terminated
@@ -4958,7 +4946,6 @@ hb_buffer_serialize_unicode
 Return
 value
 :
-%
 true
 if
 buf
@@ -4966,7 +4953,6 @@ is
 not
 fully
 consumed
-%
 false
 otherwise
 .

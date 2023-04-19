@@ -339,13 +339,6 @@ hb_set_get_empty
 (
 )
 ;
-set
--
->
-init_shallow
-(
-)
-;
 return
 set
 ;
@@ -546,13 +539,6 @@ set
 )
 return
 ;
-set
--
->
-fini_shallow
-(
-)
-;
 hb_free
 (
 set
@@ -645,11 +631,9 @@ set
 Return
 value
 :
-%
 true
 if
 success
-%
 false
 otherwise
 *
@@ -767,6 +751,7 @@ void
 *
 hb_set_get_user_data
 (
+const
 hb_set_t
 *
 set
@@ -811,12 +796,10 @@ successful
 Return
 value
 :
-%
 true
 if
 allocation
 succeeded
-%
 false
 otherwise
 *
@@ -1021,7 +1004,6 @@ elements
 Return
 value
 :
-%
 true
 if
 set
@@ -1089,14 +1071,12 @@ set
 Return
 value
 :
-%
 true
 if
 codepoint
 is
 in
 set
-%
 false
 otherwise
 *
@@ -1610,7 +1590,6 @@ elements
 Return
 value
 :
-%
 true
 if
 the
@@ -1618,7 +1597,6 @@ two
 sets
 are
 equal
-%
 false
 otherwise
 .
@@ -1752,7 +1730,6 @@ larger_set
 Return
 value
 :
-%
 true
 if
 the
@@ -1767,7 +1744,6 @@ equal
 to
 )
 larger_set
-%
 false
 otherwise
 .
@@ -2470,7 +2446,6 @@ started
 Return
 value
 :
-%
 true
 if
 there
@@ -2478,7 +2453,6 @@ was
 a
 next
 value
-%
 false
 otherwise
 *
@@ -2578,7 +2552,6 @@ started
 Return
 value
 :
-%
 true
 if
 there
@@ -2586,7 +2559,6 @@ was
 a
 previous
 value
-%
 false
 otherwise
 *
@@ -2712,7 +2684,6 @@ started
 Return
 value
 :
-%
 true
 if
 there
@@ -2720,7 +2691,6 @@ was
 a
 next
 range
-%
 false
 otherwise
 *
@@ -2850,7 +2820,6 @@ started
 Return
 value
 :
-%
 true
 if
 there
@@ -2858,7 +2827,6 @@ was
 a
 previous
 range
-%
 false
 otherwise
 *

@@ -501,7 +501,7 @@ namespace
 Layout
 {
 namespace
-GSUB
+GSUB_impl
 {
 struct
 SubstLookup
@@ -526,7 +526,7 @@ OT
 Layout
 :
 :
-GSUB
+GSUB_impl
 :
 :
 SubstLookup
