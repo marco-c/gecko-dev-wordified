@@ -23,7 +23,7 @@ let
 redirectURL
 =
 "
-http
+https
 :
 /
 /
