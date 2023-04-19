@@ -7204,8 +7204,16 @@ masm
 output
 )
 ;
-AutoScratchRegister
+AutoScratchRegisterMaybeOutputType
 scratch2
+(
+allocator
+masm
+output
+)
+;
+AutoScratchRegister
+scratch3
 (
 allocator
 masm
@@ -7269,6 +7277,7 @@ str
 index
 scratch1
 scratch2
+scratch3
 failure
 -
 >
