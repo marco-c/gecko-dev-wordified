@@ -134,7 +134,7 @@ wasmparser
 ;
 extern
 crate
-wat
+wast
 ;
 mod
 wasm
