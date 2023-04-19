@@ -1089,16 +1089,6 @@ LastRelease
 )
 override
 ;
-virtual
-nsresult
-PostHandleEvent
-(
-EventChainPostVisitor
-&
-aVisitor
-)
-override
-;
 /
 /
 nsWrapperCache
