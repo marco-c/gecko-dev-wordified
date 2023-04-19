@@ -2431,9 +2431,9 @@ void
 HttpConnectionUDP
 :
 :
-GetSecurityInfo
+GetTLSSocketControl
 (
-nsISupports
+nsISSLSocketControl
 *
 *
 secinfo
@@ -2459,7 +2459,7 @@ LOG
 HttpConnectionUDP
 :
 :
-GetSecurityInfo
+GetTLSSocketControl
 http3Session
 =
 %
@@ -2485,7 +2485,7 @@ NS_SUCCEEDED
 mHttp3Session
 -
 >
-GetTransactionSecurityInfo
+GetTransactionTLSSocketControl
 (
 secinfo
 )
