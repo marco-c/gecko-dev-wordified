@@ -346,18 +346,6 @@ mAttemptedLoad
 bool
 mLoaded
 ;
-size_t
-SizeOfIncludingThisIfUnshared
-(
-mozilla
-:
-:
-MallocSizeOf
-aMallocSizeOf
-)
-const
-override
-;
 public
 :
 static
@@ -412,7 +400,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 override
 ;
 protected

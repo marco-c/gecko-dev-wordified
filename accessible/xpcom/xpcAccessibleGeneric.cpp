@@ -492,7 +492,6 @@ xpcAccessibleGeneric
 ToInternalAccessible
 (
 )
-const
 {
 return
 mIntl

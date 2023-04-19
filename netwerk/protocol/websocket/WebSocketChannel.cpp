@@ -24481,7 +24481,7 @@ OnTransportAvailableInternal
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 WebSocketChannel
 :
 :

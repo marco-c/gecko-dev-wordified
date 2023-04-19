@@ -579,12 +579,6 @@ PrintSettingsInitializer
 aSettings
 )
 ;
-PrintSettingsInitializer
-GetSettingsInitializer
-(
-)
-final
-;
 nsPrintSettings
 &
 operator

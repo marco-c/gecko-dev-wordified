@@ -616,15 +616,6 @@ OnTransportAvailableInternal
 (
 )
 ;
-nsresult
-OnWebSocketConnectionAvailable
-(
-WebSocketConnectionBase
-*
-aConnection
-)
-override
-;
 void
 OnError
 (

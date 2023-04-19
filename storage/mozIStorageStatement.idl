@@ -1669,11 +1669,6 @@ octetPtr
 aResult
 )
 ;
-%
-{
-C
-+
-+
 /
 *
 *
@@ -1707,6 +1702,11 @@ bloat
 .
 *
 /
+%
+{
+C
++
++
 inline
 int32_t
 AsInt32
