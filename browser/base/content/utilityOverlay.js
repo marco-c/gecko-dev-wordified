@@ -1884,13 +1884,6 @@ params
 .
 resolveOnContentBrowserCreated
 ;
-var
-aGlobalHistoryOptions
-=
-params
-.
-globalHistoryOptions
-;
 if
 (
 !
@@ -3567,9 +3560,6 @@ hasValidUserGestureActivation
 params
 .
 hasValidUserGestureActivation
-globalHistoryOptions
-:
-aGlobalHistoryOptions
 }
 )
 ;
@@ -3736,9 +3726,6 @@ fromExternal
 params
 .
 fromExternal
-globalHistoryOptions
-:
-aGlobalHistoryOptions
 }
 )
 ;
