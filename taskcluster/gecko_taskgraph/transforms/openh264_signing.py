@@ -530,7 +530,7 @@ behavior
 ]
 =
 "
-mac_single_file
+mac_notarize_single_file
 "
         
 else
