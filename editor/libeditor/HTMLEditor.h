@@ -5777,10 +5777,8 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 CreateElementResult
-RelativeFontChangeOnTextNode
+SetFontSizeOnTextNode
 (
-FontSize
-aDir
 Text
 &
 aTextNode
@@ -5788,6 +5786,8 @@ uint32_t
 aStartOffset
 uint32_t
 aEndOffset
+FontSize
+aIncrementOrDecrement
 )
 ;
 /
@@ -26415,10 +26415,10 @@ selection
 /
 MOZ_CAN_RUN_SCRIPT
 nsresult
-RelativeFontChange
+IncrementOrDecrementFontSizeAsSubAction
 (
 FontSize
-aDir
+aIncrementOrDecrement
 )
 ;
 /
