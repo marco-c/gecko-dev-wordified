@@ -141,11 +141,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Services
 :
@@ -339,6 +345,8 @@ false
 }
 )
 ;
+lazy
+.
 Services
 .
 tm
@@ -482,6 +490,8 @@ errorPageURI
 =
 response
 ?
+lazy
+.
 Services
 .
 io
@@ -542,6 +552,8 @@ NS_ERROR_ABORT
 }
 )
 ;
+lazy
+.
 Services
 .
 tm

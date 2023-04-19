@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Services
 :
@@ -329,6 +335,8 @@ onInit
 debug
 onInit
 ;
+lazy
+.
 Services
 .
 obs
@@ -345,6 +353,8 @@ report
 "
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -369,6 +379,8 @@ onDestroy
 debug
 onDestroy
 ;
+lazy
+.
 Services
 .
 obs
@@ -385,6 +397,8 @@ report
 "
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -683,6 +697,8 @@ WAIT_EXPIRATION_TIME
 try
 {
 return
+lazy
+.
 Services
 .
 prefs

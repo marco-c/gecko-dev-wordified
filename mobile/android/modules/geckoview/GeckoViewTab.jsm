@@ -152,11 +152,17 @@ ExtensionError
 =
 ExtensionUtils
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventDispatcher
 :
@@ -488,6 +494,8 @@ extensionId
 try
 {
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -695,6 +703,8 @@ createNewTab
 const
 newSessionId
 =
+lazy
+.
 Services
 .
 uuid
@@ -798,6 +808,8 @@ name
 newSessionId
 )
 {
+lazy
+.
 Services
 .
 obs
@@ -823,6 +835,8 @@ aSubject
 }
 }
 ;
+lazy
+.
 Services
 .
 obs
@@ -852,6 +866,8 @@ try
 didOpenSession
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1262,6 +1278,8 @@ active
 =
 aData
 ;
+lazy
+.
 mobileWindowTracker
 .
 setTabActive

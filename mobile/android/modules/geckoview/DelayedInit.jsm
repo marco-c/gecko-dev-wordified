@@ -100,11 +100,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 MessageLoop
 "
@@ -736,6 +742,8 @@ have
 pending
 inits
 .
+lazy
+.
 MessageLoop
 .
 postIdleTask
@@ -843,6 +851,8 @@ for
 the
 first
 idle
+.
+lazy
 .
 MessageLoop
 .

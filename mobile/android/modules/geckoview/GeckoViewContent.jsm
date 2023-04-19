@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Services
 :
@@ -336,6 +342,8 @@ pageinfo
 this
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -352,6 +360,8 @@ crashed
 "
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -467,6 +477,8 @@ pageinfo
 this
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -483,6 +495,8 @@ crashed
 "
 )
 ;
+lazy
+.
 Services
 .
 obs

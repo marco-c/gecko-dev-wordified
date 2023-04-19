@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Services
 :
@@ -146,7 +152,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 MOBILE_USER_AGENT
 "
@@ -190,7 +196,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 DESKTOP_USER_AGENT
 "
@@ -199,6 +205,8 @@ function
 )
 {
 return
+lazy
+.
 MOBILE_USER_AGENT
 .
 replace
@@ -257,7 +265,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 VR_USER_AGENT
 "
@@ -266,6 +274,8 @@ function
 )
 {
 return
+lazy
+.
 MOBILE_USER_AGENT
 .
 replace
@@ -423,6 +433,8 @@ this
 customUserAgent
 ?
 ?
+lazy
+.
 MOBILE_USER_AGENT
 )
 ;
@@ -629,6 +641,8 @@ USER_AGENT_MODE_DESKTOP
 )
 {
 return
+lazy
+.
 DESKTOP_USER_AGENT
 ;
 }
@@ -644,6 +658,8 @@ USER_AGENT_MODE_VR
 )
 {
 return
+lazy
+.
 VR_USER_AGENT
 ;
 }

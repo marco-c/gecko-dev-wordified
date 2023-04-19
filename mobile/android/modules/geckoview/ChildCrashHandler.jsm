@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppConstants
 :
@@ -176,7 +182,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -219,6 +225,8 @@ name
 const
 uAppDataPath
 =
+lazy
+.
 Services
 .
 dirsvc
@@ -236,6 +244,8 @@ nsIFile
 path
 ;
 return
+lazy
+.
 OS
 .
 Path
@@ -286,6 +296,8 @@ suffix
 >
 {
 return
+lazy
+.
 OS
 .
 Path
@@ -416,6 +428,8 @@ abnormal
 |
 |
 !
+lazy
+.
 AppConstants
 .
 MOZ_CRASHREPORTER
@@ -472,6 +486,8 @@ if
 dumpID
 )
 {
+lazy
+.
 Services
 .
 telemetry
@@ -553,6 +569,8 @@ BACKGROUND_CHILD
 FOREGROUND_CHILD
 "
 ;
+lazy
+.
 EventDispatcher
 .
 instance

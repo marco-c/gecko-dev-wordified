@@ -197,11 +197,17 @@ origins
 ]
 }
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -330,7 +336,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 mimeService
 "
@@ -734,6 +740,8 @@ aTabId
 )
 {
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -742,6 +750,8 @@ instance
 const
 windowId
 =
+lazy
+.
 GeckoViewTabBridge
 .
 tabIdToWindowId
@@ -826,6 +836,8 @@ this
 .
 dispatcher
 =
+lazy
+.
 EventDispatcher
 .
 byName
@@ -1211,6 +1223,8 @@ global
 event
 handler
 return
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1461,6 +1475,8 @@ if
 !
 (
 await
+lazy
+.
 Extension
 .
 shouldPromptFor
@@ -1670,6 +1686,8 @@ optionsType
 =
 =
 =
+lazy
+.
 AddonManager
 .
 OPTIONS_TYPE_TAB
@@ -1877,6 +1895,8 @@ aResolve
 result
 )
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1897,6 +1917,8 @@ CancelInstall
 ;
 }
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -2320,6 +2342,8 @@ addonId
 return
 ;
 }
+lazy
+.
 Management
 .
 off
@@ -2354,6 +2378,8 @@ extension
 ;
 }
 ;
+lazy
+.
 Management
 .
 on
@@ -2445,6 +2471,8 @@ const
 response
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -2501,6 +2529,8 @@ const
 response
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -2752,6 +2782,8 @@ aWindow
 const
 isPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -2858,6 +2890,8 @@ userPermissions
 const
 difference
 =
+lazy
+.
 Extension
 .
 comparePermissions
@@ -2955,6 +2989,8 @@ const
 response
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -3078,6 +3114,8 @@ is
 under
 a
 test
+lazy
+.
 EventDispatcher
 .
 instance
@@ -3110,6 +3148,8 @@ addon
 "
 :
 {
+lazy
+.
 EventDispatcher
 .
 instance
@@ -3144,6 +3184,8 @@ const
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -3185,6 +3227,8 @@ aId
 )
 {
 await
+lazy
+.
 AddonManager
 .
 readyPromise
@@ -3243,6 +3287,8 @@ const
 extensionData
 =
 new
+lazy
+.
 ExtensionData
 (
 aUri
@@ -3326,6 +3372,8 @@ aUri
 )
 {
 await
+lazy
+.
 AddonManager
 .
 readyPromise
@@ -3334,6 +3382,8 @@ const
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 installBuiltinAddon
@@ -3375,6 +3425,8 @@ const
 install
 =
 await
+lazy
+.
 AddonManager
 .
 getInstallForURL
@@ -3437,6 +3489,8 @@ getSystemPrincipal
 const
 mimeType
 =
+lazy
+.
 mimeService
 .
 getTypeFromURI
@@ -3444,6 +3498,8 @@ getTypeFromURI
 aUri
 )
 ;
+lazy
+.
 AddonManager
 .
 installAddonFromWebpage
@@ -3471,6 +3527,8 @@ aAllowed
 )
 {
 await
+lazy
+.
 ExtensionPermissions
 .
 add
@@ -3483,6 +3541,8 @@ PRIVATE_BROWSING_PERMISSION
 else
 {
 await
+lazy
+.
 ExtensionPermissions
 .
 remove
@@ -4062,6 +4122,8 @@ aAddon
 findUpdates
 (
 listener
+lazy
+.
 AddonManager
 .
 UPDATE_WHEN_USER_REQUESTED
@@ -5224,6 +5286,8 @@ List
 try
 {
 await
+lazy
+.
 AddonManager
 .
 readyPromise
@@ -5232,6 +5296,8 @@ const
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
