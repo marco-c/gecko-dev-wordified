@@ -545,7 +545,7 @@ inline_decrypted_bitstream
 frame
 -
 >
-mutable_data
+data
 (
 )
 max_plaintext_byte_size
