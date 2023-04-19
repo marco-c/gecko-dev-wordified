@@ -1116,6 +1116,9 @@ imageset
 xmlhttprequest
 "
 ]
+onlyIfBlockedByETP
+:
+true
 }
 {
 patterns
@@ -1159,9 +1162,6 @@ xmlhttprequest
 ]
 }
 ]
-onlyIfBlockedByETP
-:
-true
 }
 {
 id
@@ -4039,6 +4039,9 @@ imageset
 xmlhttprequest
 "
 ]
+onlyIfBlockedByETP
+:
+true
 }
 {
 patterns
@@ -4082,9 +4085,6 @@ xmlhttprequest
 ]
 }
 ]
-onlyIfBlockedByETP
-:
-true
 }
 {
 id
