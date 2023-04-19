@@ -37,12 +37,6 @@ off
 ;
 -
 -
-warp
--
-async
-;
--
--
 baseline
 -
 eager
