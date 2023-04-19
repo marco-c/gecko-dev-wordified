@@ -146,11 +146,13 @@ len
 >
 MAX_ARGS_LENGTH
 )
+{
 ThrowRangeError
 (
 JSMSG_TOO_MANY_ARGUMENTS
 )
 ;
+}
 /
 /
 Steps
@@ -181,6 +183,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 list
@@ -191,6 +194,7 @@ i
 ]
 )
 ;
+}
 /
 /
 Step
@@ -242,6 +246,7 @@ IsCallable
 target
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -252,6 +257,7 @@ target
 )
 )
 ;
+}
 /
 /
 Step
@@ -349,6 +355,7 @@ IsConstructor
 target
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -359,6 +366,7 @@ target
 )
 )
 ;
+}
 /
 /
 Steps
@@ -393,6 +401,7 @@ IsConstructor
 newTarget
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -403,6 +412,7 @@ newTarget
 )
 )
 ;
+}
 }
 else
 {
@@ -781,6 +791,7 @@ IsObject
 target
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -791,6 +802,7 @@ target
 )
 )
 ;
+}
 /
 /
 Steps
