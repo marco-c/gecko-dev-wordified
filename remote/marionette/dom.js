@@ -832,12 +832,6 @@ ev
 ;
 }
 }
-this
-.
-WebElementEventTarget
-=
-WebElementEventTarget
-;
 /
 *
 *
@@ -1244,9 +1238,3 @@ type
 ;
 }
 }
-this
-.
-ContentEventObserverService
-=
-ContentEventObserverService
-;

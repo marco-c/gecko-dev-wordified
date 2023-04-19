@@ -413,12 +413,6 @@ Content
 content
 "
 ;
-this
-.
-Context
-=
-Context
-;
 /
 *
 *
@@ -2134,10 +2128,4 @@ windowState
 }
 }
 }
-;
-this
-.
-WindowState
-=
-WindowState
 ;
