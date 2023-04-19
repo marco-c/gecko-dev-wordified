@@ -73,11 +73,17 @@ MessageListener
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -751,6 +757,8 @@ destroyed
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
