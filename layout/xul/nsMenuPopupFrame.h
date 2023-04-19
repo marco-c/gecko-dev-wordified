@@ -1054,6 +1054,7 @@ nsIWidget
 GetWidget
 (
 )
+const
 ;
 /
 /
@@ -2788,6 +2789,14 @@ PopupLevel
 (
 bool
 aIsNoAutoHide
+)
+const
+;
+void
+ConstrainSizeForWayland
+(
+nsSize
+&
 )
 const
 ;
