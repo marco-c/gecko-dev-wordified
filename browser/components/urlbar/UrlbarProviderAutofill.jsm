@@ -4966,11 +4966,7 @@ UrlbarPrefs
 get
 (
 "
-autoFill
-.
-adaptiveHistory
-.
-enabled
+autoFillAdaptiveHistoryEnabled
 "
 )
 )
