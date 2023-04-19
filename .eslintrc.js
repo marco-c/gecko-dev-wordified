@@ -1562,14 +1562,6 @@ localstorage
 *
 *
 "
-"
-dom
-/
-tests
-/
-*
-*
-"
 ]
 rules
 :
