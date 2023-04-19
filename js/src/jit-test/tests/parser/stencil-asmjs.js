@@ -1,3 +1,17 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
+if
+:
+isLcovEnabled
+(
+)
 let
 source
 =
