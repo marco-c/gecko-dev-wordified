@@ -662,6 +662,11 @@ imgIContainer
 :
 :
 FLAG_ASYNC_NOTIFY
+|
+imgIContainer
+:
+:
+FLAG_AVOID_REDECODE_FOR_SIZE
 )
 ;
 /
