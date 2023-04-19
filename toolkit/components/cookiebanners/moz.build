@@ -113,6 +113,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIClickRule
+.
+idl
+"
+"
 nsICookieBannerListService
 .
 idl
@@ -165,6 +170,11 @@ mozilla
 =
 [
 "
+nsClickRule
+.
+h
+"
+"
 nsCookieBannerRule
 .
 h
@@ -189,6 +199,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+nsClickRule
+.
+cpp
+"
 "
 nsCookieBannerRule
 .
