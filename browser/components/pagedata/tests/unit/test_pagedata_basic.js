@@ -48,9 +48,9 @@ discovered
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -68,7 +68,9 @@ pagedata
 /
 PageDataService
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

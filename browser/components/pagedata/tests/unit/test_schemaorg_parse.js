@@ -86,7 +86,7 @@ SchemaOrgPageData
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +100,9 @@ pagedata
 /
 SchemaOrgPageData
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

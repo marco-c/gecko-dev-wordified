@@ -109,9 +109,9 @@ com
 14345
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -129,7 +129,9 @@ pagedata
 /
 PageDataSchema
 .
-jsm
+sys
+.
+mjs
 "
 PageDataService
 :
@@ -145,7 +147,9 @@ pagedata
 /
 PageDataService
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
