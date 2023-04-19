@@ -2774,9 +2774,9 @@ radioGroup
 focus
 (
 {
-preventFocusRing
+focusVisible
 :
-true
+false
 }
 )
 ;

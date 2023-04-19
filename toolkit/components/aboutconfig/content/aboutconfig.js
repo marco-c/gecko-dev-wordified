@@ -3043,9 +3043,9 @@ warningButton
 focus
 (
 {
-preventFocusRing
+focusVisible
 :
-true
+false
 }
 )
 ;

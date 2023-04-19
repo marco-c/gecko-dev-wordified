@@ -572,9 +572,9 @@ errorTryAgainButton
 focus
 (
 {
-preventFocusRing
+focusVisible
 :
-true
+false
 }
 )
 ;
