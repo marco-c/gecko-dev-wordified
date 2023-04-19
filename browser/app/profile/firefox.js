@@ -27161,9 +27161,7 @@ browsertoolbox
 scope
 "
 "
-parent
--
-process
+everything
 "
 )
 ;
