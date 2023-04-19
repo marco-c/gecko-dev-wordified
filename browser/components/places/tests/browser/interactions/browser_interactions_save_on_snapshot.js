@@ -77,7 +77,7 @@ Snapshots
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -89,9 +89,7 @@ modules
 /
 Snapshots
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -102,7 +100,7 @@ PlacesTestUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -115,9 +113,7 @@ common
 /
 PlacesTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

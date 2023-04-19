@@ -601,9 +601,7 @@ modules
 /
 PlacesUtils
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource
@@ -779,9 +777,7 @@ modules
 /
 BookmarkHTMLUtils
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource
@@ -794,9 +790,7 @@ modules
 /
 Bookmarks
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource
@@ -848,9 +842,7 @@ modules
 /
 PlacesBackups
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource
@@ -863,9 +855,7 @@ modules
 /
 PlacesExpiration
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource
@@ -878,9 +868,7 @@ modules
 /
 PlacesSyncUtils
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource

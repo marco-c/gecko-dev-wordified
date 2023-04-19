@@ -100,7 +100,7 @@ ExtensionSearchHandler
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -113,9 +113,7 @@ modules
 /
 ExtensionSearchHandler
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

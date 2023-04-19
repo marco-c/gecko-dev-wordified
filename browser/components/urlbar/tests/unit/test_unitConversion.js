@@ -74,9 +74,9 @@ module
 .
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -92,9 +92,7 @@ modules
 /
 UrlbarProviderUnitConversion
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

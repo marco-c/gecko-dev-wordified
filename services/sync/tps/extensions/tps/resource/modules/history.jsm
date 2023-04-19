@@ -120,7 +120,7 @@ PlacesUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -133,9 +133,7 @@ modules
 /
 PlacesUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -146,7 +144,7 @@ PlacesSyncUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -159,9 +157,7 @@ modules
 /
 PlacesSyncUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

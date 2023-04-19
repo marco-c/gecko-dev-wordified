@@ -117,7 +117,7 @@ BookmarkHTMLUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -130,9 +130,7 @@ modules
 /
 BookmarkHTMLUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
