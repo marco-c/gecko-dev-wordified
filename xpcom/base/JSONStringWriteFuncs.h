@@ -209,7 +209,7 @@ char
 &
 aStr
 )
-override
+final
 {
 mString
 .
@@ -303,7 +303,7 @@ char
 &
 aStr
 )
-override
+final
 {
 mString
 .

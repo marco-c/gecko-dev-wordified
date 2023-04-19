@@ -204,6 +204,7 @@ buffer
 .
 struct
 StringWriteFunc
+final
 :
 public
 JSONWriteFunc
@@ -229,7 +230,7 @@ char
 &
 aStr
 )
-override
+final
 {
 mString
 .
