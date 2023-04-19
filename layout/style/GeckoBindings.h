@@ -3979,6 +3979,11 @@ Document
 )
 ;
 bool
+Gecko_MediaFeatures_WindowsNonNativeMenus
+(
+)
+;
+bool
 Gecko_MediaFeatures_ShouldAvoidNativeTheme
 (
 const
