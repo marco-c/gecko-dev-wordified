@@ -2295,7 +2295,16 @@ in
 HTMLEditor
 :
 :
-SplitInlinesAndCollectEditTargetNodesInOneHardLine
+CreateRangeExtendedToHardLineStartAndEnd
+(
+)
+and
+/
+/
+HTMLEditor
+:
+:
+SplitInlinesAndCollectEditTargetNodes
 (
 )
 .
