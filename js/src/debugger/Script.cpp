@@ -9330,6 +9330,12 @@ case
 JSOp
 :
 :
+CallContentIter
+:
+case
+JSOp
+:
+:
 New
 :
 case

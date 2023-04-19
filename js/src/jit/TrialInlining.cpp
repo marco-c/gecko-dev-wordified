@@ -3007,6 +3007,12 @@ case
 JSOp
 :
 :
+CallContentIter
+:
+case
+JSOp
+:
+:
 New
 :
 case
@@ -5071,6 +5077,12 @@ JSOp
 :
 :
 CallIter
+:
+case
+JSOp
+:
+:
+CallContentIter
 :
 case
 JSOp
