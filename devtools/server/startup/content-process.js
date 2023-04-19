@@ -58,9 +58,14 @@ MPL
 /
 /
 *
-global
-addMessageListener
-removeMessageListener
+eslint
+-
+env
+mozilla
+/
+process
+-
+script
 *
 /
 "

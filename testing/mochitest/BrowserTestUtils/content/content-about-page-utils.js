@@ -5,7 +5,7 @@ eslint
 env
 mozilla
 /
-frame
+process
 -
 script
 *

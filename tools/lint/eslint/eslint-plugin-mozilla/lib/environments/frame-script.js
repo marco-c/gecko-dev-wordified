@@ -9,6 +9,9 @@ environment
 for
 frame
 scripts
+and
+process
+script
 .
 *
 *
