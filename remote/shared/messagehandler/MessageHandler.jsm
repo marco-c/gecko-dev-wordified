@@ -810,6 +810,17 @@ _eventsDispatcher
 ;
 }
 get
+moduleCache
+(
+)
+{
+return
+this
+.
+_moduleCache
+;
+}
+get
 name
 (
 )
