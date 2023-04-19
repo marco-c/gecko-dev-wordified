@@ -407,8 +407,10 @@ result
 =
 null
 )
+{
 break
 ;
+}
 /
 /
 Steps
@@ -650,6 +652,7 @@ IsObject
 elemBase
 )
 )
+{
 replacement
 =
 RegExpGetFunctionalReplacement
@@ -660,6 +663,7 @@ position
 replaceValue
 )
 ;
+}
 #
 else
 replacement
@@ -744,8 +748,10 @@ lastIndex
 >
 lengthS
 )
+{
 break
 ;
+}
 lastIndex
 |
 =
@@ -836,9 +842,11 @@ nextSourcePosition
 =
 lengthS
 )
+{
 return
 accumulatedResult
 ;
+}
 /
 /
 Step
