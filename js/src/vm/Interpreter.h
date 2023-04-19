@@ -4730,7 +4730,7 @@ JSContext
 *
 cx
 HandleValue
-v
+funVal
 )
 ;
 bool

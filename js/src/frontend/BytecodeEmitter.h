@@ -7198,6 +7198,16 @@ nodiscard
 ]
 ]
 bool
+emitDebugCheckSelfHosted
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitSelfHostedCallFunction
 (
 CallNode
