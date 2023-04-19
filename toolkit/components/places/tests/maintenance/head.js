@@ -103,9 +103,9 @@ test
 folder
 below
 .
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -122,7 +122,9 @@ modules
 /
 PlacesDBUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
