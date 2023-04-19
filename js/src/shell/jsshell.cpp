@@ -571,7 +571,6 @@ append
 (
 "
 "
-2
 )
 )
 {
@@ -677,7 +676,6 @@ interface
 object
 with
 "
-25
 )
 )
 {
