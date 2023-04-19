@@ -1088,6 +1088,7 @@ FocusedChild
 (
 )
 ;
+virtual
 Accessible
 *
 ChildAtPoint

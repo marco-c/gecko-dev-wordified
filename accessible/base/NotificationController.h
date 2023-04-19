@@ -528,8 +528,6 @@ public
 EventQueue
 public
 nsARefreshObserver
-public
-nsAPostRefreshObserver
 {
 public
 :
@@ -1670,13 +1668,6 @@ mozilla
 :
 TimeStamp
 aTime
-)
-override
-;
-virtual
-void
-DidRefresh
-(
 )
 override
 ;
