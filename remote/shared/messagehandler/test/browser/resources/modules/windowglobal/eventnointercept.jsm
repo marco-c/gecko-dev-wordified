@@ -121,7 +121,7 @@ interception
 ;
 this
 .
-emitProtocolEvent
+emitEvent
 (
 "
 eventnointercept

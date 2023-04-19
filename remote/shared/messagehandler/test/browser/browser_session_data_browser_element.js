@@ -251,7 +251,6 @@ it
 will
 emit
 an
-internal
 event
 .
 /
@@ -271,7 +270,6 @@ info
 (
 "
 Watch
-internal
 events
 emitted
 when

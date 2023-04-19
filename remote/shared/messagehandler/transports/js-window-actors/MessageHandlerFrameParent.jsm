@@ -272,7 +272,6 @@ const
 {
 name
 data
-isProtocolEvent
 sessionId
 }
 =
@@ -462,9 +461,6 @@ emitEvent
 (
 name
 eventPayload
-{
-isProtocolEvent
-}
 )
 ;
 break

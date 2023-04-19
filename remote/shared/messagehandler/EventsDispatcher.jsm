@@ -78,7 +78,6 @@ Helper
 to
 listen
 to
-internal
 events
 which
 rely
@@ -95,10 +94,9 @@ EventsDispatcher
 a
 module
 emitting
-internal
 events
-*
 should
+*
 subscribe
 and
 unsubscribe
@@ -115,8 +113,6 @@ should
 use
 the
 "
-internal
--
 event
 "
 SessionData
@@ -256,7 +252,6 @@ Stop
 listening
 for
 an
-internal
 event
 relying
 on
@@ -264,8 +259,8 @@ SessionData
 and
 relayed
 by
-*
 the
+*
 message
 handler
 .
@@ -280,7 +275,6 @@ event
 Name
 of
 the
-internal
 event
 to
 unsubscribe
@@ -468,7 +462,6 @@ callback
 Listen
 for
 an
-internal
 event
 relying
 on
@@ -477,8 +470,8 @@ and
 relayed
 by
 the
-*
 message
+*
 handler
 .
 *
@@ -492,7 +485,6 @@ event
 Name
 of
 the
-internal
 event
 to
 subscribe
@@ -734,8 +726,6 @@ moduleName
 category
 :
 "
-internal
--
 event
 "
 contextDescriptor

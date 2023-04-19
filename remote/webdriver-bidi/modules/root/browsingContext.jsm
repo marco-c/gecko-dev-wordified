@@ -3060,7 +3060,7 @@ maxDepth
 ;
 this
 .
-emitProtocolEvent
+emitEvent
 (
 "
 browsingContext

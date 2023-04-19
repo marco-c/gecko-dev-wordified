@@ -1131,7 +1131,7 @@ events
 .
 this
 .
-emitProtocolEvent
+emitEvent
 (
 "
 log
@@ -1215,7 +1215,7 @@ stacktrace
 ;
 this
 .
-emitProtocolEvent
+emitEvent
 (
 "
 log
