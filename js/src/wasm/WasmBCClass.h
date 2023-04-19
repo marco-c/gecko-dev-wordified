@@ -13497,6 +13497,16 @@ nodiscard
 ]
 ]
 bool
+emitBrOnNonNull
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitCallRef
 (
 )
