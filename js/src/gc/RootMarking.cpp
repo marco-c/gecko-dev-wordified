@@ -3022,6 +3022,10 @@ finishAtoms
 (
 )
 ;
+restoreSharedAtomsZone
+(
+)
+;
 rootsHash
 .
 ref
