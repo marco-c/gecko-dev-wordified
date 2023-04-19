@@ -209,6 +209,7 @@ AVCodecContext
 avctx
 )
 {
+av_unused
 const
 unsigned
 high_bit_depth
@@ -343,10 +344,9 @@ fdct248
 ff_fdct248_islow_8
 ;
 }
+#
 if
-(
 ARCH_PPC
-)
 ff_fdctdsp_init_ppc
 (
 c
@@ -354,10 +354,9 @@ avctx
 high_bit_depth
 )
 ;
-if
-(
+#
+elif
 ARCH_X86
-)
 ff_fdctdsp_init_x86
 (
 c
@@ -365,4 +364,6 @@ avctx
 high_bit_depth
 )
 ;
+#
+endif
 }
