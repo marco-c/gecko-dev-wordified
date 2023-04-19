@@ -98,11 +98,6 @@ BackgroundFileSystemParent
 .
 h
 "
-"
-OriginPrivateFileSystemParent
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -110,11 +105,6 @@ UNIFIED_SOURCES
 [
 "
 BackgroundFileSystemParent
-.
-cpp
-"
-"
-OriginPrivateFileSystemParent
 .
 cpp
 "
