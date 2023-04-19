@@ -258,6 +258,17 @@ binary
 ]
             
 "
+adb_binary
+"
+:
+kwargs
+[
+"
+adb_binary
+"
+]
+            
+"
 device_serial
 "
 :
@@ -724,6 +735,12 @@ webdriver_binary
 chromedriver
 "
                  
+adb_binary
+=
+"
+adb
+"
+                 
 remote_queue
 =
 None
@@ -782,11 +799,13 @@ __init__
 logger
                          
 webdriver_binary
+adb_binary
 remote_queue
-device_serial
                          
+device_serial
 webdriver_args
 stackwalk_binary
+                         
 symbols_path
 )
         

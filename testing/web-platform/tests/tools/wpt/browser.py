@@ -8312,6 +8312,14 @@ self
 device_serial
 =
 None
+        
+self
+.
+adb_binary
+=
+"
+adb
+"
     
 def
 download
@@ -8480,9 +8488,9 @@ None
 command
 =
 [
-'
-adb
-'
+self
+.
+adb_binary
 ]
         
 if
@@ -8969,9 +8977,9 @@ md
 command
 =
 [
-'
-adb
-'
+self
+.
+adb_binary
 ]
         
 if
