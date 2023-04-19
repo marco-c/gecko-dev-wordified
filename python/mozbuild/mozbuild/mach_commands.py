@@ -1275,6 +1275,17 @@ command_context
 .
 topobjdir
         
+configure_args
+=
+command_context
+.
+mozconfig
+[
+"
+configure_args
+"
+]
+        
 fix
 =
 fix
