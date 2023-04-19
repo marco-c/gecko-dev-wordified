@@ -2666,7 +2666,7 @@ content
 process
 .
 void
-ResumeCompositor
+ResumeCompositorFlickering
 (
 )
 ;
@@ -2676,7 +2676,7 @@ ResumeCompositorFromCompositorThread
 )
 ;
 void
-PauseCompositor
+PauseCompositorFlickering
 (
 )
 ;
