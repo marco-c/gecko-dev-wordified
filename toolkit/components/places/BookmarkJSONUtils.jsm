@@ -113,17 +113,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 lazy
 =

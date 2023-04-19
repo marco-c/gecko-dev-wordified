@@ -148,17 +148,6 @@ IndexedDB
 "
 ]
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-indexedDB
-"
-]
-)
-;
 /
 *
 *
