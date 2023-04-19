@@ -2356,12 +2356,6 @@ dll
 ALL_VERSIONS
 )
 #
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
-#
 Causes
 crashes
 in
@@ -2445,6 +2439,4 @@ dll
 3181
 )
 )
-#
-endif
 ]
