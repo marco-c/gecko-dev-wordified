@@ -34456,9 +34456,9 @@ nsFocusManager
 :
 NotifyOfReFocus
 (
-nsIContent
+Element
 &
-aContent
+aElement
 )
 {
 nsPIDOMWindowOuter
@@ -34468,7 +34468,7 @@ window
 GetCurrentWindow
 (
 &
-aContent
+aElement
 )
 ;
 if
@@ -34489,7 +34489,7 @@ return
 if
 (
 !
-aContent
+aElement
 .
 IsInComposedDoc
 (
@@ -34499,7 +34499,7 @@ IsInComposedDoc
 IsNonFocusableRoot
 (
 &
-aContent
+aElement
 )
 )
 {
@@ -34577,7 +34577,7 @@ OnReFocus
 (
 *
 presContext
-aContent
+aElement
 )
 ;
 }
