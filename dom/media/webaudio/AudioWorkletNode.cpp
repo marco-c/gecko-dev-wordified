@@ -675,16 +675,6 @@ OutputCount
 1
 )
 ;
-TRACE
-(
-"
-WorkletNodeEngine
-:
-:
-ProcessBlock
-"
-)
-;
 ProcessBlocksOnPorts
 (
 aTrack
