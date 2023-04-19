@@ -1076,22 +1076,32 @@ __call__
 (
         
 self
+        
 name
+        
 mode
 =
 "
 r
 "
+        
 buffering
 =
 None
+        
 encoding
 =
 None
+        
 newline
 =
 None
+        
 errors
+=
+None
+        
+opener
 =
 None
     
@@ -1185,6 +1195,10 @@ newline
 errors
 =
 errors
+                
+opener
+=
+opener
             
 )
         
