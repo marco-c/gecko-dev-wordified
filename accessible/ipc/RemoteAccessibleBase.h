@@ -1832,6 +1832,16 @@ GetCachedTextAttributes
 (
 )
 ;
+RefPtr
+<
+const
+AccAttributes
+>
+GetCachedARIAAttributes
+(
+)
+const
+;
 virtual
 HyperTextAccessibleBase
 *
