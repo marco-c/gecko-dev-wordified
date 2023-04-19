@@ -1205,12 +1205,6 @@ parentGroups
 length
 ;
 }
-const
-removedIds
-=
-[
-]
-;
 /
 /
 Check
@@ -2496,11 +2490,7 @@ newMessage
 ;
 }
 return
-removeMessagesFromState
-(
 state
-removedIds
-)
 ;
 }
 /
