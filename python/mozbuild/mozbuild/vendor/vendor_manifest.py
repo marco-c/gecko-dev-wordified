@@ -907,6 +907,7 @@ new_revision
 )
         
 except
+Exception
 :
             
 #
