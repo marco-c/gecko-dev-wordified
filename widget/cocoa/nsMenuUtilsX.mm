@@ -239,6 +239,14 @@ using
 namespace
 mozilla
 ;
+bool
+nsMenuUtilsX
+:
+:
+gIsSynchronouslyActivatingNativeMenuItemDuringTest
+=
+false
+;
 void
 nsMenuUtilsX
 :
