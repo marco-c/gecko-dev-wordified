@@ -1380,7 +1380,7 @@ if
 mCleanShutdown
 &
 &
-SecurityErrorToBeHandledByTransaction
+SecurityErrorThatMayNeedRestart
 (
 aReason
 )

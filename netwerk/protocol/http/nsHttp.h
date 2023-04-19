@@ -3320,7 +3320,7 @@ NS_ERROR_NET_TIMEOUT
 ;
 }
 bool
-SecurityErrorToBeHandledByTransaction
+SecurityErrorThatMayNeedRestart
 (
 nsresult
 aReason
