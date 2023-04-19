@@ -1093,6 +1093,17 @@ nsIContentSecurityPolicy
 :
 BASE_URI_DIRECTIVE
 true
+/
+*
+aSpecific
+*
+/
+true
+/
+*
+aSendViolationReports
+*
+/
 &
 cspPermitsBaseURI
 )
