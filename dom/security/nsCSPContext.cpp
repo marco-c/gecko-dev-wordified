@@ -10819,8 +10819,6 @@ aDir
 bool
 aSpecific
 bool
-aSendViolationReports
-bool
 *
 outPermits
 )
@@ -10975,7 +10973,12 @@ _ns
 no
 nonce
 aSpecific
-aSendViolationReports
+true
+/
+/
+send
+violation
+reports
 true
 /
 /
@@ -11015,7 +11018,7 @@ s
 aDir
 :
 %
-s
+d
 isAllowed
 :
 %
@@ -11031,10 +11034,7 @@ GetSpecOrDefault
 get
 (
 )
-CSP_CSPDirectiveToString
-(
 aDir
-)
 *
 outPermits
 ?

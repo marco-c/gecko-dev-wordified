@@ -5176,17 +5176,6 @@ nsIContentSecurityPolicy
 :
 FORM_ACTION_DIRECTIVE
 true
-/
-*
-aSpecific
-*
-/
-true
-/
-*
-aSendViolationReports
-*
-/
 &
 permitsFormAction
 )
