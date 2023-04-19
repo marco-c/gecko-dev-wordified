@@ -3463,15 +3463,6 @@ IPC_OK
 )
 ;
 }
-void
-CompositorBridgeParent
-:
-:
-Invalidate
-(
-)
-{
-}
 mozilla
 :
 :
@@ -4006,10 +3997,6 @@ return
 mPaused
 =
 false
-;
-Invalidate
-(
-)
 ;
 mCompositorScheduler
 -
@@ -5725,10 +5712,6 @@ aBottom
 )
 ;
 }
-Invalidate
-(
-)
-;
 ScheduleComposition
 (
 wr

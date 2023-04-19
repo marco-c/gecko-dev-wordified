@@ -3835,11 +3835,6 @@ int
 height
 )
 ;
-void
-Invalidate
-(
-)
-;
 bool
 IsPaused
 (
