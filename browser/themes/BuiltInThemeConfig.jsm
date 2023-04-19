@@ -2382,6 +2382,9 @@ expiry
 "
 l10nId
 :
+{
+title
+:
 "
 colorway
 -
@@ -2393,6 +2396,7 @@ in
 -
 color
 "
+}
 }
 {
 id
@@ -2413,6 +2417,9 @@ expiry
 "
 l10nId
 :
+{
+title
+:
 "
 colorway
 -
@@ -2422,6 +2429,7 @@ true
 -
 colors
 "
+}
 }
 {
 id
@@ -2457,6 +2465,9 @@ NIGHTLY_BUILD
 "
 l10nId
 :
+{
+title
+:
 "
 colorway
 -
@@ -2466,6 +2477,20 @@ independent
 -
 voices
 "
+description
+:
+"
+colorway
+-
+collection
+-
+independent
+-
+voices
+-
+description
+"
+}
 }
 ]
 ;
