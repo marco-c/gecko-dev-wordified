@@ -835,7 +835,7 @@ Canceled
 ;
 if
 (
-HasLoadContext
+HasScriptLoadContext
 (
 )
 )
@@ -1154,7 +1154,7 @@ the
 element
 if
 (
-HasLoadContext
+HasScriptLoadContext
 (
 )
 &
