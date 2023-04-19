@@ -481,8 +481,7 @@ virtual
 OutputStreamTunnel
 (
 )
-{
-}
+;
 nsresult
 GetStream
 (
@@ -509,6 +508,12 @@ nsCOMPtr
 nsIOutputStreamCallback
 >
 mCallback
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mSocketThread
 ;
 nsresult
 mCondition
@@ -562,8 +567,6 @@ virtual
 InputStreamTunnel
 (
 )
-=
-default
 ;
 nsresult
 GetStream
@@ -591,6 +594,12 @@ nsCOMPtr
 nsIInputStreamCallback
 >
 mCallback
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mSocketThread
 ;
 nsresult
 mCondition

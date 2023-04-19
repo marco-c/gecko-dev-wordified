@@ -174,6 +174,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+DNS
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h

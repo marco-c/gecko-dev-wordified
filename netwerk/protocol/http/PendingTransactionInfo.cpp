@@ -99,6 +99,13 @@ PendingTransactionInfo
 .
 h
 "
+#
+include
+"
+NullHttpTransaction
+.
+h
+"
 /
 /
 Log
