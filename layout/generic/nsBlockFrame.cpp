@@ -12324,16 +12324,6 @@ buf
 }
 #
 endif
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-(
-*
-reflowInput
-)
-aMetrics
-)
-;
 }
 bool
 nsBlockFrame

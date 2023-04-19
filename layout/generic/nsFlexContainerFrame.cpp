@@ -39846,12 +39846,6 @@ aReflowInput
 aStatus
 )
 ;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aReflowOutput
-)
 /
 /
 Finally

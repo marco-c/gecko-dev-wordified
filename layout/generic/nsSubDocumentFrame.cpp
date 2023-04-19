@@ -5154,13 +5154,6 @@ c_str
 )
 )
 ;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aDesiredSize
-)
-;
 }
 bool
 nsSubDocumentFrame

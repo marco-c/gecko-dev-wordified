@@ -1200,13 +1200,6 @@ drawTarget
 aDesiredSize
 )
 ;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aDesiredSize
-)
-;
 /
 /
 Call
@@ -2301,13 +2294,6 @@ aDesiredSize
 .
 BlockStartAscent
 (
-)
-;
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aDesiredSize
 )
 ;
 }

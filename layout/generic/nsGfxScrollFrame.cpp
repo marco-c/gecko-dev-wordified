@@ -11812,13 +11812,6 @@ t
 be
 split
 .
-NS_FRAME_SET_TRUNCATION
-(
-aStatus
-aReflowInput
-aDesiredSize
-)
-;
 mHelper
 .
 PostOverflowEvent
