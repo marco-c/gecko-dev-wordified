@@ -154,17 +154,6 @@ mozilla
 /
 dom
 /
-CanonicalBrowsingContext
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SessionStoreUtilsBinding
 .
 h
