@@ -3402,6 +3402,12 @@ ResolveOrRejectValue
 &
 aResult
 )
+-
+>
+RefPtr
+<
+GenericNonExclusivePromise
+>
 {
 nsCOMPtr
 <
