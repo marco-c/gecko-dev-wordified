@@ -923,11 +923,6 @@ nsBaseFilePicker
 h
 "
 "
-nsBaseScreen
-.
-h
-"
-"
 nsBaseWidget
 .
 h
@@ -1255,11 +1250,6 @@ cpp
 "
 "
 nsBaseAppShell
-.
-cpp
-"
-"
-nsBaseScreen
 .
 cpp
 "
