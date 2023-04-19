@@ -135,6 +135,15 @@ h
 #
 include
 "
+js
+/
+RootingAPI
+.
+h
+"
+#
+include
+"
 vm
 /
 NativeObject

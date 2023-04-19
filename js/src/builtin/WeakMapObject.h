@@ -135,6 +135,9 @@ h
 namespace
 js
 {
+class
+GlobalObject
+;
 /
 /
 Abstract
