@@ -1532,6 +1532,12 @@ GetBaseURI
 (
 )
 ;
+nsIURI
+*
+GetInitialBaseURI
+(
+)
+;
 void
 MaybeExecuteFinishedScripts
 (
