@@ -191,11 +191,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CryptoUtils
 "
@@ -4342,6 +4348,8 @@ let
 sig
 =
 await
+lazy
+.
 CryptoUtils
 .
 computeHTTPMACSHA1

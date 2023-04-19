@@ -137,11 +137,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -2807,6 +2813,8 @@ path
 )
 {
 return
+lazy
+.
 OS
 .
 File
@@ -2917,6 +2925,8 @@ contents
 )
 ;
 return
+lazy
+.
 OS
 .
 File

@@ -552,11 +552,17 @@ log
 sensitive
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -764,7 +770,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logPII
 "
@@ -1328,6 +1334,8 @@ now
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1357,6 +1365,8 @@ catch
 err
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1713,6 +1723,8 @@ error
 =
 e
 ;
+lazy
+.
 log
 .
 warn
@@ -1768,6 +1780,8 @@ restResponse
 .
 status
 ;
+lazy
+.
 log
 .
 debug
@@ -1802,9 +1816,13 @@ statusText
 ;
 if
 (
+lazy
+.
 logPII
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1976,6 +1994,8 @@ top
 of
 this
 function
+.
+lazy
 .
 log
 .
@@ -2298,6 +2318,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error

@@ -217,11 +217,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CryptoUtils
 "
@@ -654,6 +660,8 @@ let
 header
 =
 await
+lazy
+.
 CryptoUtils
 .
 computeHAWK
@@ -911,6 +919,8 @@ let
 out
 =
 await
+lazy
+.
 CryptoUtils
 .
 hkdfLegacy
