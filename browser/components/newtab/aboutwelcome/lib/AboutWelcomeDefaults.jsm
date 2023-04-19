@@ -1715,6 +1715,9 @@ language
 -
 text
 "
+useLangPack
+:
+true
 }
 languageSwitcher
 :
@@ -1818,6 +1821,9 @@ switch
 -
 to
 "
+useLangPack
+:
+true
 }
 continue
 :
