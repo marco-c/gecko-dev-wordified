@@ -1036,11 +1036,6 @@ AccessKey
 (
 )
 ;
-KeyBinding
-KeyboardShortcut
-(
-)
-;
 void
 AtkKeyBinding
 (
