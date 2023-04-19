@@ -221,7 +221,6 @@ FilePreferences
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 static
 bool
@@ -239,8 +238,12 @@ WinPaths
 static
 WinPaths
 &
-PathWhitelist
+PathAllowlist
 (
+)
+REQUIRES
+(
+sMutex
 )
 {
 sMutex
@@ -470,7 +473,7 @@ return
 /
 /
 The
-whitelist
+allowlist
 makes
 sense
 only
@@ -538,7 +541,7 @@ sMutex
 if
 (
 !
-PathWhitelist
+PathAllowlist
 (
 )
 .
@@ -548,7 +551,7 @@ path
 )
 )
 {
-PathWhitelist
+PathAllowlist
 (
 )
 .
@@ -766,7 +769,7 @@ Length
 ;
 }
 void
-InitDirectoriesWhitelist
+InitDirectoriesAllowlist
 (
 )
 {
@@ -1688,7 +1691,7 @@ auto
 &
 allowedPrefix
 :
-PathWhitelist
+PathAllowlist
 (
 )
 )
@@ -2189,7 +2192,7 @@ void
 testing
 :
 :
-AddDirectoryToWhitelist
+AddDirectoryToAllowlist
 (
 nsAString
 const
@@ -2203,7 +2206,7 @@ lock
 sMutex
 )
 ;
-PathWhitelist
+PathAllowlist
 (
 )
 .

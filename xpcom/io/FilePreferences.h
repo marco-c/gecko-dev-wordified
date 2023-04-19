@@ -133,7 +133,7 @@ InitPrefs
 )
 ;
 void
-InitDirectoriesWhitelist
+InitDirectoriesAllowlist
 (
 )
 ;
@@ -211,7 +211,7 @@ aBlock
 )
 ;
 void
-AddDirectoryToWhitelist
+AddDirectoryToAllowlist
 (
 nsAString
 const

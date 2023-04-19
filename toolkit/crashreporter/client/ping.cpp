@@ -876,7 +876,7 @@ memberName
 {
 if
 (
-IsAnnotationWhitelistedForPing
+IsAnnotationAllowlistedForPing
 (
 annotation
 )

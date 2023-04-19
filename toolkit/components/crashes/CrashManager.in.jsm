@@ -4093,7 +4093,7 @@ if
 (
 crashReporter
 .
-isAnnotationWhitelistedForPing
+isAnnotationAllowlistedForPing
 (
 line
 )
