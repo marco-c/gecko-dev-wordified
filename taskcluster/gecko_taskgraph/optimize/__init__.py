@@ -170,7 +170,7 @@ resolve_task_references
 resolve_timestamps
 )
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
