@@ -335,11 +335,6 @@ fp
 BaselineFrame
 :
 :
-FramePointerOffset
--
-BaselineFrame
-:
-:
 Size
 (
 )
