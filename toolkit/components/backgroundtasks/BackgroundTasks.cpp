@@ -375,7 +375,7 @@ suspend
 Log
 that
 the
-temporary
+ephemeral
 profile
 is
 being
@@ -630,7 +630,7 @@ nsresult
 BackgroundTasks
 :
 :
-CreateTemporaryProfileDirectory
+CreateEphemeralProfileDirectory
 (
 const
 nsCString
@@ -662,7 +662,7 @@ GetSingleton
 )
 -
 >
-CreateTemporaryProfileDirectoryImpl
+CreateEphemeralProfileDirectoryImpl
 (
 aInstallHash
 aFile
@@ -673,7 +673,7 @@ aFile
 Log
 whether
 the
-temporary
+ephemeral
 profile
 was
 created
@@ -704,7 +704,7 @@ Warning
 Failed
 to
 create
-temporary
+ephemeral
 profile
 directory
 !
@@ -770,7 +770,7 @@ Info
 (
 "
 Created
-temporary
+ephemeral
 profile
 directory
 :
@@ -799,7 +799,7 @@ bool
 BackgroundTasks
 :
 :
-IsUsingTemporaryProfile
+IsEphemeralProfile
 (
 )
 {
@@ -947,7 +947,7 @@ nsresult
 BackgroundTasks
 :
 :
-CreateTemporaryProfileDirectoryImpl
+CreateEphemeralProfileDirectoryImpl
 (
 const
 nsCString
@@ -1110,7 +1110,7 @@ as
 creating
 a
 new
-temporary
+ephemeral
 profile
 does
 not
@@ -1122,7 +1122,7 @@ old
 .
 rv
 =
-RemoveStaleTemporaryProfileDirectories
+RemoveStaleEphemeralProfileDirectories
 (
 file
 profilePrefix
@@ -1155,7 +1155,7 @@ Error
 cleaning
 up
 stale
-temporary
+ephemeral
 profile
 directories
 .
@@ -1287,7 +1287,7 @@ nsresult
 BackgroundTasks
 :
 :
-RemoveStaleTemporaryProfileDirectories
+RemoveStaleEphemeralProfileDirectories
 (
 nsIFile
 *
@@ -1708,7 +1708,7 @@ the
 number
 of
 stale
-temporary
+ephemeral
 profiles
 we
 clean
@@ -1737,7 +1737,7 @@ kMaxRemovedProfiles
 Loop
 over
 the
-temporary
+ephemeral
 directory
 entries
 deleting
@@ -1770,7 +1770,7 @@ on
 cleaning
 up
 stale
-temporary
+ephemeral
 profiles
 .
 while
@@ -1970,7 +1970,7 @@ to
 prevent
 deleting
 a
-temporary
+ephemeral
 /
 /
 profile
@@ -2052,7 +2052,7 @@ folder
 Background
 tasks
 '
-temporary
+ephemeral
 profiles
 are
 not
@@ -2207,7 +2207,7 @@ Warning
 Error
 removing
 stale
-temporary
+ephemeral
 profile
 directory
 :
@@ -2276,7 +2276,7 @@ Info
 "
 Removed
 stale
-temporary
+ephemeral
 profile
 directory
 :

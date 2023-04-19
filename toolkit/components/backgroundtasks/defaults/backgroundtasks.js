@@ -348,7 +348,7 @@ of
 /
 /
 the
-temporary
+ephemeral
 profile
 directory
 .
@@ -419,7 +419,7 @@ being
 created
 in
 the
-temporary
+ephemeral
 profile
 .
 pref
