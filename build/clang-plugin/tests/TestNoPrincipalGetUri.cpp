@@ -107,6 +107,8 @@ of
 nsIPrincipal
 }
 }
+:
+:
 nsIPrincipal
 *
 b
