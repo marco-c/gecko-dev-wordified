@@ -223,8 +223,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2339,9 +2339,7 @@ eCSSProperty_UNKNOWN
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

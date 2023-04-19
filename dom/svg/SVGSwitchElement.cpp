@@ -170,8 +170,8 @@ Switch
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1187,9 +1187,7 @@ defaultChild
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

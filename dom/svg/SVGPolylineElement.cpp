@@ -160,8 +160,8 @@ Polyline
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -554,9 +554,7 @@ Finish
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

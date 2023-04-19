@@ -142,8 +142,8 @@ Symbol
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -458,9 +458,7 @@ SVGSymbolElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
