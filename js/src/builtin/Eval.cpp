@@ -2178,7 +2178,11 @@ introducerFilename
 )
 ;
 }
-RootedScope
+Rooted
+<
+Scope
+*
+>
 enclosing
 (
 cx

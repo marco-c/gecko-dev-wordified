@@ -4261,7 +4261,11 @@ initForStandaloneFunctionInNonSyntacticScope
 JSContext
 *
 cx
-HandleScope
+Handle
+<
+Scope
+*
+>
 functionEnclosingScope
 )
 ;
@@ -4271,7 +4275,11 @@ initForEval
 JSContext
 *
 cx
-HandleScope
+Handle
+<
+Scope
+*
+>
 evalEnclosingScope
 )
 {

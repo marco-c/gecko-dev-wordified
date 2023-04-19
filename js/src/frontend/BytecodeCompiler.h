@@ -1593,7 +1593,11 @@ frontend
 :
 FunctionSyntaxKind
 syntaxKind
-HandleScope
+Handle
+<
+Scope
+*
+>
 enclosingScope
 )
 ;

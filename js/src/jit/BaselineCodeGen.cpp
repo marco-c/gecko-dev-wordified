@@ -29013,7 +29013,11 @@ JSContext
 *
 BaselineFrame
 *
-HandleScope
+Handle
+<
+Scope
+*
+>
 )
 ;
 return

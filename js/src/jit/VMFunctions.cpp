@@ -8611,7 +8611,11 @@ cx
 BaselineFrame
 *
 frame
-HandleScope
+Handle
+<
+Scope
+*
+>
 scope
 )
 {

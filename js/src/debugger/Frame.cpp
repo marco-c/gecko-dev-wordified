@@ -7020,7 +7020,11 @@ ScopeKind
 NonSyntactic
 )
 ;
-RootedScope
+Rooted
+<
+Scope
+*
+>
 scope
 (
 cx

@@ -8688,7 +8688,11 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
-HandleScope
+Handle
+<
+Scope
+*
+>
 enclosingScope
 =
 nullptr
@@ -9372,7 +9376,11 @@ uint32_t
 parameterListEnd
 FunctionSyntaxKind
 syntaxKind
-HandleScope
+Handle
+<
+Scope
+*
+>
 enclosingScope
 )
 {

@@ -7063,7 +7063,11 @@ withinInitialFrame
 return
 ;
 }
-RootedScope
+Rooted
+<
+Scope
+*
+>
 scope
 (
 cx

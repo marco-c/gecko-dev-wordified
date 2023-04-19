@@ -2394,7 +2394,11 @@ ScopeKind
 NonSyntactic
 )
 {
-RootedScope
+Rooted
+<
+Scope
+*
+>
 enclosingScope
 (
 cx_
