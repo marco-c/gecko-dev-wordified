@@ -781,7 +781,7 @@ mLib
 ;
 AVBufferRef
 *
-mAVHWDeviceContext
+mAVHWFrameContext
 ;
 AVBufferRef
 *

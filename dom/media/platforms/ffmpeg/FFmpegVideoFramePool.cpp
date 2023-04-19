@@ -235,7 +235,7 @@ mLib
 (
 nullptr
 )
-mAVHWDeviceContext
+mAVHWFrameContext
 (
 nullptr
 )
@@ -343,11 +343,19 @@ FFmpegLibWrapper
 aLib
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+aAVCodecContext
+-
+>
+hw_frames_ctx
+)
+;
 mLib
 =
 aLib
 ;
-mAVHWDeviceContext
+mAVHWFrameContext
 =
 aLib
 -
@@ -357,7 +365,7 @@ av_buffer_ref
 aAVCodecContext
 -
 >
-hw_device_ctx
+hw_frames_ctx
 )
 ;
 mHWAVBuffer
@@ -391,7 +399,7 @@ UID
 d
 "
 "
-mAVHWDeviceContext
+mAVHWFrameContext
 %
 p
 mHWAVBuffer
@@ -404,7 +412,7 @@ mSurface
 GetUID
 (
 )
-mAVHWDeviceContext
+mAVHWFrameContext
 mHWAVBuffer
 )
 ;
@@ -443,7 +451,7 @@ d
 mLib
 %
 p
-mAVHWDeviceContext
+mAVHWFrameContext
 %
 p
 mHWAVBuffer
@@ -458,7 +466,7 @@ GetUID
 )
 aForFrameRecycle
 mLib
-mAVHWDeviceContext
+mAVHWFrameContext
 mHWAVBuffer
 )
 ;
@@ -561,7 +569,7 @@ mLib
 av_buffer_unref
 (
 &
-mAVHWDeviceContext
+mAVHWFrameContext
 )
 ;
 mLib
