@@ -407,7 +407,13 @@ aAnonymous
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aOriginAttributes
 JSContext
 *
