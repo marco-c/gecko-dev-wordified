@@ -652,6 +652,16 @@ Accessible
 aAcc
 )
 {
+MOZ_ASSERT
+(
+aAcc
+-
+>
+IsTable
+(
+)
+)
+;
 if
 (
 !
