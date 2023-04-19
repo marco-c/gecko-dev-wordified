@@ -233,11 +233,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -458,7 +464,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 aomStartup
 :
@@ -506,7 +512,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTimingEnabled
 "
@@ -829,6 +835,8 @@ super
 "
 main
 "
+lazy
+.
 Schemas
 )
 ;
@@ -927,6 +935,8 @@ let
 extension
 =
 new
+lazy
+.
 ExtensionData
 (
 resourceURI
@@ -1086,10 +1096,14 @@ startup
 let
 disabledIds
 =
+lazy
+.
 AddonManager
 .
 getStartupChanges
 (
+lazy
+.
 AddonManager
 .
 STARTUP_CHANGE_DISABLED
@@ -1119,10 +1133,14 @@ onDisable
 let
 uninstalledIds
 =
+lazy
+.
 AddonManager
 .
 getStartupChanges
 (
+lazy
+.
 AddonManager
 .
 STARTUP_CHANGE_UNINSTALLED
@@ -1364,6 +1382,8 @@ loaded
 first
 .
 return
+lazy
+.
 Schemas
 .
 load
@@ -1405,6 +1425,8 @@ promises
 .
 push
 (
+lazy
+.
 Schemas
 .
 load
@@ -1433,6 +1455,8 @@ promises
 .
 push
 (
+lazy
+.
 Schemas
 .
 load
@@ -1455,6 +1479,8 @@ promises
 .
 push
 (
+lazy
+.
 Schemas
 .
 load
@@ -1479,6 +1505,8 @@ then
 =
 >
 {
+lazy
+.
 Schemas
 .
 updateSharedSchemas
@@ -1736,6 +1764,8 @@ id
 )
 ;
 }
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -1857,6 +1887,8 @@ this
 conduit
 =
 new
+lazy
+.
 BroadcastConduit
 (
 ProxyMessenger
@@ -1941,6 +1973,8 @@ geckoViewAddons
 {
 return
 new
+lazy
+.
 GeckoViewConnection
 (
 this
@@ -1985,6 +2019,8 @@ verified
 {
 return
 new
+lazy
+.
 NativeApp
 (
 context
@@ -3110,6 +3146,8 @@ Extension
 SendPerformanceCounter
 "
 :
+lazy
+.
 PerformanceCounters
 .
 merge
@@ -3336,6 +3374,8 @@ xulBrowser
 &
 &
 new
+lazy
+.
 MessageManagerProxy
 (
 xulBrowser
@@ -4661,6 +4701,8 @@ const
 commands
 =
 await
+lazy
+.
 DevToolsShim
 .
 createCommandsForTabForWebExtension
@@ -5076,6 +5118,8 @@ this
 conduit
 =
 new
+lazy
+.
 BroadcastConduit
 (
 this
@@ -5904,6 +5948,8 @@ the
 parent
 counters
 return
+lazy
+.
 PerformanceCounters
 .
 getData
@@ -6038,6 +6084,8 @@ if
 alreadyLogged
 )
 {
+lazy
+.
 ExtensionActivityLog
 .
 log
@@ -6107,6 +6155,8 @@ path
 ;
 if
 (
+lazy
+.
 gTimingEnabled
 )
 {
@@ -6121,6 +6171,8 @@ now
 *
 1000
 ;
+lazy
+.
 PerformanceCounters
 .
 storeExecutionTime
@@ -6720,6 +6772,8 @@ path
 }
 )
 ;
+lazy
+.
 ExtensionActivityLog
 .
 log
@@ -6905,6 +6959,8 @@ if
 alreadyLogged
 )
 {
+lazy
+.
 ExtensionActivityLog
 .
 log
@@ -7003,6 +7059,8 @@ if
 alreadyLogged
 )
 {
+lazy
+.
 ExtensionActivityLog
 .
 log
@@ -7485,6 +7543,8 @@ nsIWebNavigation
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -12104,6 +12164,8 @@ data
 new
 Uint8Array
 (
+lazy
+.
 aomStartup
 .
 encodeBlob
@@ -12183,6 +12245,8 @@ this
 _saveTask
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -12288,6 +12352,8 @@ file
 ;
 result
 =
+lazy
+.
 aomStartup
 .
 decodeBlob
@@ -12364,6 +12430,8 @@ startupCache
 .
 read_errors
 "
+lazy
+.
 getErrorNameForTelemetry
 (
 e

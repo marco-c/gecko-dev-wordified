@@ -115,6 +115,12 @@ FindContent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 /
 *
 exported
@@ -125,7 +131,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FinderIterator
 "
@@ -148,7 +154,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FinderHighlighter
 "
@@ -228,6 +234,8 @@ this
 _iterator
 =
 new
+lazy
+.
 FinderIterator
 (
 )
@@ -257,6 +265,8 @@ this
 _highlighter
 =
 new
+lazy
+.
 FinderHighlighter
 (
 this

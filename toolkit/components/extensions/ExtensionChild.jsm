@@ -241,11 +241,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 finalizationService
 "
@@ -269,7 +275,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionContent
 :
@@ -385,7 +391,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTimingEnabled
 "
@@ -826,6 +832,8 @@ getUniqueId
 let
 witness
 =
+lazy
+.
 finalizationService
 .
 make
@@ -1532,6 +1540,8 @@ android
 {
 data
 =
+lazy
+.
 NativeApp
 .
 encodeMessage
@@ -2983,6 +2993,8 @@ let
 apiManagers
 =
 [
+lazy
+.
 ExtensionPageChild
 .
 apiManager
@@ -3008,6 +3020,8 @@ dependencies
 let
 extension
 =
+lazy
+.
 ExtensionProcessScript
 .
 getExtensionChild
@@ -3118,6 +3132,8 @@ this
 id
 )
 ;
+lazy
+.
 ExtensionContent
 .
 shutdownExtension
@@ -3153,6 +3169,8 @@ window
 )
 {
 return
+lazy
+.
 ExtensionContent
 .
 getContext
@@ -4224,6 +4242,8 @@ fullname
 ;
 if
 (
+lazy
+.
 gTimingEnabled
 )
 {
@@ -4238,6 +4258,8 @@ now
 *
 1000
 ;
+lazy
+.
 PerformanceCounters
 .
 storeExecutionTime
@@ -5360,6 +5382,8 @@ getUniqueId
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer

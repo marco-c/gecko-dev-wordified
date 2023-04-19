@@ -370,11 +370,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -397,7 +403,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JSONFile
 "
@@ -420,7 +426,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -676,6 +682,8 @@ _initializePromise
 _store
 =
 new
+lazy
+.
 JSONFile
 (
 {
@@ -2127,6 +2135,8 @@ saveSoon
 (
 )
 ;
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -2673,6 +2683,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -4185,6 +4197,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -4277,6 +4291,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -4432,6 +4448,8 @@ mozilla
 balanced
 -
 listeners
+lazy
+.
 ExtensionParent
 .
 apiManager

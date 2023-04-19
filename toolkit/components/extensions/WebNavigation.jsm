@@ -121,11 +121,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserWindowTracker
 "
@@ -147,7 +153,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UrlbarUtils
 "
@@ -169,7 +175,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WebNavigationFrames
 "
@@ -192,7 +198,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ClickHandlerParent
 "
@@ -375,6 +381,8 @@ browser
 "
 )
 {
+lazy
+.
 ClickHandlerParent
 .
 addContentClickListener
@@ -445,6 +453,8 @@ browser
 "
 )
 {
+lazy
+.
 ClickHandlerParent
 .
 removeContentClickListener
@@ -1002,6 +1012,8 @@ type
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1017,6 +1029,8 @@ true
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1032,6 +1046,8 @@ true
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1047,6 +1063,8 @@ result
 source
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -1073,6 +1091,8 @@ true
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1107,6 +1127,8 @@ true
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1140,6 +1162,8 @@ Fall
 through
 .
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1180,6 +1204,8 @@ Fall
 through
 .
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1387,6 +1413,8 @@ tabTransitionData
 let
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -1768,6 +1796,8 @@ sourceBC
 )
 sourceFrameId
 :
+lazy
+.
 WebNavigationFrames
 .
 getFrameId
@@ -2202,6 +2232,8 @@ details
 .
 frameId
 =
+lazy
+.
 WebNavigationFrames
 .
 getFrameId
@@ -2213,6 +2245,8 @@ details
 .
 parentFrameId
 =
+lazy
+.
 WebNavigationFrames
 .
 getParentFrameId

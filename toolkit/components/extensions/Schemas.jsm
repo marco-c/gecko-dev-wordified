@@ -210,11 +210,17 @@ DefaultWeakMap
 =
 ExtensionUtils
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -237,7 +243,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -260,7 +266,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ShortcutUtils
 "
@@ -283,7 +289,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 contentPolicyService
 "
@@ -309,7 +315,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 StartupCache
 "
@@ -317,6 +323,8 @@ StartupCache
 )
 =
 >
+lazy
+.
 ExtensionParent
 .
 StartupCache
@@ -326,7 +334,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 treatWarningsAsErrors
 "
@@ -436,6 +444,8 @@ reject
 =
 >
 {
+lazy
+.
 NetUtil
 .
 asyncFetch
@@ -517,6 +527,8 @@ try
 let
 text
 =
+lazy
+.
 NetUtil
 .
 readInputStreamToString
@@ -6597,6 +6609,8 @@ CSP_ALLOW_WASM
 let
 error
 =
+lazy
+.
 contentPolicyService
 .
 validateAddonCSP
@@ -6883,6 +6897,8 @@ context
 {
 if
 (
+lazy
+.
 ShortcutUtils
 .
 validate
@@ -6891,6 +6907,8 @@ string
 )
 =
 =
+lazy
+.
 ShortcutUtils
 .
 IS_VALID
@@ -7713,6 +7731,8 @@ error
 ;
 if
 (
+lazy
+.
 treatWarningsAsErrors
 )
 {
@@ -21048,6 +21068,8 @@ this
 .
 _loadCachedSchemasPromise
 =
+lazy
+.
 StartupCache
 .
 schemas
@@ -21264,6 +21286,8 @@ url
 |
 (
 await
+lazy
+.
 StartupCache
 .
 schemas

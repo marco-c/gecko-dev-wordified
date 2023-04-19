@@ -131,11 +131,17 @@ DefaultMap
 =
 ExtensionUtils
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 mimeHeader
 "
@@ -690,6 +696,8 @@ bytes
 )
 ;
 return
+lazy
+.
 mimeHeader
 .
 getParameterHTTP

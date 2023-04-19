@@ -163,11 +163,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -190,7 +196,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonTestUtils
 "
@@ -213,7 +219,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionTestCommon
 "
@@ -236,7 +242,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -259,7 +265,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Management
 "
@@ -282,7 +288,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Schemas
 "
@@ -1270,6 +1276,8 @@ pending
 "
 ;
 await
+lazy
+.
 ExtensionTestCommon
 .
 setIncognitoOverride
@@ -1875,6 +1883,8 @@ bind
 this
 )
 ;
+lazy
+.
 Management
 .
 on
@@ -1887,6 +1897,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 Management
 .
 on
@@ -1899,6 +1911,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 Management
 .
 on
@@ -1911,6 +1925,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 AddonTestUtils
 .
 on
@@ -1927,6 +1943,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 AddonTestUtils
 .
 on
@@ -1943,6 +1961,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -1967,6 +1987,8 @@ addon
 =
 null
 ;
+lazy
+.
 Management
 .
 off
@@ -1979,6 +2001,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 Management
 .
 off
@@ -1991,6 +2015,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 Management
 .
 off
@@ -2003,6 +2029,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 AddonTestUtils
 .
 off
@@ -2019,6 +2047,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 AddonTestUtils
 .
 off
@@ -2035,6 +2065,8 @@ this
 onEvent
 )
 ;
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -2268,6 +2300,8 @@ this
 .
 addonPromise
 =
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -2704,6 +2738,8 @@ _flushCache
 let
 xpiFile
 =
+lazy
+.
 ExtensionTestCommon
 .
 generateXPI
@@ -2974,6 +3010,8 @@ id
 )
 {
 return
+lazy
+.
 ExtensionTestCommon
 .
 setIncognitoOverride
@@ -3038,6 +3076,8 @@ temporary
 )
 {
 return
+lazy
+.
 AddonManager
 .
 installTemporaryAddon
@@ -3114,6 +3154,8 @@ permanent
 )
 {
 return
+lazy
+.
 AddonManager
 .
 getInstallForFile
@@ -3392,6 +3434,8 @@ testAssertions
 )
 {
 return
+lazy
+.
 ExtensionTestCommon
 .
 testAssertions
@@ -3420,6 +3464,8 @@ getBackgroundServiceWorkerEnabled
 )
 {
 return
+lazy
+.
 ExtensionTestCommon
 .
 getBackgroundServiceWorkerEnabled
@@ -3457,6 +3503,8 @@ isInBackgroundServiceWorkerTests
 )
 {
 return
+lazy
+.
 ExtensionTestCommon
 .
 isInBackgroundServiceWorkerTests
@@ -3481,6 +3529,8 @@ BASE_MANIFEST
 )
 {
 await
+lazy
+.
 Management
 .
 lazyInit
@@ -3540,6 +3590,8 @@ preprocessors
 let
 normalized
 =
+lazy
+.
 Schemas
 .
 normalize
@@ -3622,6 +3674,8 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
+lazy
+.
 FileUtils
 .
 PERMS_DIRECTORY
@@ -3746,6 +3800,8 @@ mockAppInfo
 (
 )
 {
+lazy
+.
 AddonTestUtils
 .
 createAppInfo
@@ -3797,6 +3853,8 @@ mockAppInfo
 )
 ;
 return
+lazy
+.
 AddonTestUtils
 .
 promiseStartupManager
@@ -3848,6 +3906,8 @@ data
 incognitoOverride
 )
 {
+lazy
+.
 ExtensionTestCommon
 .
 setExtensionID
@@ -3859,6 +3919,8 @@ data
 let
 xpiFile
 =
+lazy
+.
 ExtensionTestCommon
 .
 generateXPI
@@ -3879,6 +3941,8 @@ data
 let
 extension
 =
+lazy
+.
 ExtensionTestCommon
 .
 generate

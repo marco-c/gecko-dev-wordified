@@ -231,11 +231,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -247,7 +253,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ConsoleAPI
 :
@@ -316,7 +322,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 styleSheetService
 "
@@ -383,6 +389,8 @@ getConsole
 {
 return
 new
+lazy
+.
 ConsoleAPI
 (
 {
@@ -410,7 +418,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -3229,6 +3237,8 @@ this
 .
 incognito
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -6061,6 +6071,8 @@ this
 name
 ]
 [
+lazy
+.
 Schemas
 .
 REVOKE
@@ -6076,6 +6088,8 @@ this
 name
 ]
 [
+lazy
+.
 Schemas
 .
 REVOKE
@@ -6949,6 +6963,8 @@ context
 if
 (
 !
+lazy
+.
 Schemas
 .
 checkPermissions
@@ -8115,6 +8131,8 @@ map
 url
 =
 >
+lazy
+.
 fetch
 (
 url
@@ -9880,6 +9898,8 @@ false
 if
 (
 !
+lazy
+.
 Schemas
 .
 checkPermissions
@@ -10407,8 +10427,12 @@ let
 root
 =
 new
+lazy
+.
 SchemaRoot
 (
+lazy
+.
 Schemas
 .
 rootSchema
@@ -10752,6 +10776,8 @@ length
 =
 =
 =
+lazy
+.
 Schemas
 )
 {
@@ -10783,6 +10809,8 @@ bases
 }
 return
 new
+lazy
+.
 SchemaRoot
 (
 bases
@@ -15953,6 +15981,8 @@ this
 .
 inputHandling
 [
+lazy
+.
 Schemas
 .
 REVOKE
@@ -16142,11 +16172,15 @@ url
 )
 ;
 return
+lazy
+.
 styleSheetService
 .
 preloadSheet
 (
 uri
+lazy
+.
 styleSheetService
 .
 AGENT_SHEET

@@ -298,11 +298,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionSettingsStore
 "
@@ -325,7 +331,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Preferences
 "
@@ -348,7 +354,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionCommon
 "
@@ -402,7 +408,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 defaultPreferences
 "
@@ -412,6 +418,8 @@ function
 {
 return
 new
+lazy
+.
 Preferences
 (
 {
@@ -760,6 +768,8 @@ it
 .
 if
 (
+lazy
+.
 Preferences
 .
 isSet
@@ -773,6 +783,8 @@ initialValue
 pref
 ]
 =
+lazy
+.
 Preferences
 .
 get
@@ -872,6 +884,8 @@ pref
 =
 =
 =
+lazy
+.
 defaultPreferences
 .
 get
@@ -1084,6 +1098,8 @@ undefined
 {
 if
 (
+lazy
+.
 Preferences
 .
 isSet
@@ -1096,6 +1112,8 @@ changed
 =
 true
 ;
+lazy
+.
 Preferences
 .
 reset
@@ -1108,6 +1126,8 @@ pref
 else
 if
 (
+lazy
+.
 Preferences
 .
 get
@@ -1122,6 +1142,8 @@ pref
 ]
 )
 {
+lazy
+.
 Preferences
 .
 set
@@ -1390,6 +1412,8 @@ action
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -1399,6 +1423,8 @@ initialize
 let
 expectedItem
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -1410,6 +1436,8 @@ name
 let
 item
 =
+lazy
+.
 ExtensionSettingsStore
 [
 action
@@ -1472,6 +1500,8 @@ pref
 ]
 &
 &
+lazy
+.
 Preferences
 .
 get
@@ -1655,6 +1685,8 @@ prefName
 )
 {
 return
+lazy
+.
 defaultPreferences
 .
 get
@@ -1945,6 +1977,8 @@ name
 )
 ;
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -1955,6 +1989,8 @@ let
 item
 =
 await
+lazy
+.
 ExtensionSettingsStore
 .
 addSetting
@@ -2459,6 +2495,8 @@ id
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -2468,6 +2506,8 @@ initialize
 let
 settings
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getAllForExtension
@@ -2575,6 +2615,8 @@ id
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -2584,6 +2626,8 @@ initialize
 let
 settings
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getAllForExtension
@@ -2686,6 +2730,8 @@ id
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -2695,6 +2741,8 @@ initialize
 let
 settings
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getAllForExtension
@@ -2936,6 +2984,8 @@ name
 )
 {
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -2943,6 +2993,8 @@ initialize
 )
 ;
 return
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -3149,6 +3201,8 @@ prefNames
 {
 if
 (
+lazy
+.
 Preferences
 .
 locked
@@ -3166,6 +3220,8 @@ not_controllable
 }
 }
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -3173,6 +3229,8 @@ initialize
 )
 ;
 return
+lazy
+.
 ExtensionSettingsStore
 .
 getLevelOfControl
@@ -4329,6 +4387,8 @@ settingsAPI
 onChange
 =
 new
+lazy
+.
 ExtensionCommon
 .
 EventManager

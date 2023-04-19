@@ -195,11 +195,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -246,7 +252,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Assert
 "
@@ -269,7 +275,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Extension
 "
@@ -292,7 +298,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionData
 "
@@ -315,7 +321,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -338,7 +344,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionPermissions
 "
@@ -361,7 +367,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -384,7 +390,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -407,7 +413,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 apiManager
 "
@@ -415,6 +421,8 @@ apiManager
 )
 =
 >
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -486,7 +494,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -687,6 +695,8 @@ this
 id
 )
 {
+lazy
+.
 apiManager
 .
 off
@@ -709,6 +719,8 @@ extension
 }
 }
 ;
+lazy
+.
 apiManager
 .
 on
@@ -1117,6 +1129,8 @@ temporary
 )
 {
 return
+lazy
+.
 AddonManager
 .
 installTemporaryAddon
@@ -1193,6 +1207,8 @@ let
 install
 =
 await
+lazy
+.
 AddonManager
 .
 getInstallForFile
@@ -1362,6 +1378,8 @@ then
 >
 {
 return
+lazy
+.
 OS
 .
 File
@@ -1596,6 +1614,8 @@ extension
 (
 extension
 instanceof
+lazy
+.
 Extension
 )
 )
@@ -1738,6 +1758,8 @@ apiNs
 apiEvent
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -1776,6 +1798,8 @@ if
 primed
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -1800,6 +1824,8 @@ primed
 }
 else
 {
+lazy
+.
 Assert
 .
 equal
@@ -1859,6 +1885,8 @@ resetStartupPromises
 (
 )
 {
+lazy
+.
 ExtensionParent
 .
 _resetStartupPromises
@@ -1929,6 +1957,8 @@ finished
 )
 ;
 return
+lazy
+.
 ExtensionParent
 .
 browserPaintedPromise
@@ -2015,6 +2045,8 @@ startup
 )
 ;
 return
+lazy
+.
 ExtensionParent
 .
 browserStartupPromise
@@ -3019,6 +3051,8 @@ ZipWriter
 let
 file
 =
+lazy
+.
 FileUtils
 .
 getFile
@@ -3040,6 +3074,8 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
+lazy
+.
 FileUtils
 .
 PERMS_FILE
@@ -3553,6 +3589,8 @@ not_allowed
 )
 {
 return
+lazy
+.
 ExtensionPermissions
 .
 remove
@@ -3577,6 +3615,8 @@ origins
 ;
 }
 return
+lazy
+.
 ExtensionPermissions
 .
 add
@@ -4152,6 +4192,8 @@ number
 let
 signedState
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_SIGNED
@@ -4165,6 +4207,8 @@ isPrivileged
 {
 signedState
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_PRIVILEGED
@@ -4179,6 +4223,8 @@ isSystem
 {
 signedState
 =
+lazy
+.
 AddonManager
 .
 SIGNEDSTATE_SYSTEM
@@ -4187,6 +4233,8 @@ SIGNEDSTATE_SYSTEM
 let
 isPrivileged
 =
+lazy
+.
 ExtensionData
 .
 getIsPrivileged
@@ -4208,6 +4256,8 @@ temporarilyInstalled
 ;
 return
 new
+lazy
+.
 Extension
 (
 {

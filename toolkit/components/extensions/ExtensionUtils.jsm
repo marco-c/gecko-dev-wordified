@@ -163,11 +163,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -190,7 +196,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -213,7 +219,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 idleTimeout
 "
@@ -452,6 +458,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 resolve
@@ -1449,6 +1457,8 @@ resolve
 {
 timeout
 :
+lazy
+.
 idleTimeout
 }
 )
@@ -2092,6 +2102,8 @@ try
 response
 =
 await
+lazy
+.
 fetch
 (
 iconUrl

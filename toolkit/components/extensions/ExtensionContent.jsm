@@ -190,11 +190,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionProcessScript
 :
@@ -279,7 +285,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 styleSheetService
 "
@@ -404,7 +410,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 crypto
@@ -448,7 +454,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -461,7 +467,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 isContentScriptProcess
 "
@@ -550,6 +556,8 @@ super
 "
 content
 "
+lazy
+.
 Schemas
 )
 ;
@@ -1315,6 +1323,8 @@ url
 )
 ;
 return
+lazy
+.
 styleSheetService
 .
 preloadSheetAsync
@@ -1607,6 +1617,8 @@ cssCode
 const
 value
 =
+lazy
+.
 styleSheetService
 .
 preloadSheetAsync
@@ -2165,6 +2177,8 @@ const
 buffer
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -2524,6 +2538,8 @@ window
 if
 (
 !
+lazy
+.
 isContentScriptProcess
 )
 {
@@ -3289,6 +3305,8 @@ be
 automatically
 rejected
 .
+lazy
+.
 ExtensionTelemetry
 .
 contentScriptInjection
@@ -3359,6 +3377,8 @@ code
 }
 finally
 {
+lazy
+.
 ExtensionTelemetry
 .
 contentScriptInjection
@@ -3974,6 +3994,8 @@ be
 automatically
 rejected
 .
+lazy
+.
 ExtensionTelemetry
 .
 userScriptInjection
@@ -4119,6 +4141,8 @@ userScriptSandbox
 }
 finally
 {
+lazy
+.
 ExtensionTelemetry
 .
 userScriptInjection
@@ -4286,6 +4310,8 @@ matcher
 const
 extension
 =
+lazy
+.
 ExtensionProcessScript
 .
 extensions
@@ -4390,6 +4416,8 @@ contentWindow
 let
 frameId
 =
+lazy
+.
 WebNavigationFrames
 .
 getFrameId
@@ -5180,6 +5208,8 @@ chromeObj
 }
 )
 ;
+lazy
+.
 Schemas
 .
 exportLazyGetter
@@ -5199,6 +5229,8 @@ this
 chromeObj
 )
 ;
+lazy
+.
 Schemas
 .
 exportLazyGetter
@@ -5354,6 +5386,8 @@ See
 Bug
 1214658
 )
+lazy
+.
 Schemas
 .
 exportLazyGetter
@@ -5373,6 +5407,8 @@ this
 chromeObj
 )
 ;
+lazy
+.
 Schemas
 .
 exportLazyGetter
@@ -6546,6 +6582,8 @@ let
 result
 =
 await
+lazy
+.
 LanguageDetector
 .
 detectLanguage
@@ -7216,6 +7254,8 @@ data
 if
 (
 !
+lazy
+.
 isContentScriptProcess
 )
 {

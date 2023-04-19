@@ -160,11 +160,17 @@ NS_ERROR_DOM_QUOTA_EXCEEDED_ERR
 =
 0x80530016
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionCommon
 :
@@ -203,7 +209,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 prefPermitsStorageSync
 "
@@ -257,7 +263,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 storageSvc
 "
@@ -314,7 +320,7 @@ XPCOMUtils
 .
 defineLazyModuleGetter
 (
-this
+lazy
 "
 extensionStorageSyncKinto
 "
@@ -672,6 +678,8 @@ id
 ;
 if
 (
+lazy
+.
 prefPermitsStorageSync
 !
 =
@@ -681,6 +689,8 @@ true
 {
 throw
 new
+lazy
+.
 ExtensionUtils
 .
 ExtensionError
@@ -762,6 +772,8 @@ JSON
 stringify
 )
 ;
+lazy
+.
 storageSvc
 [
 fnName
@@ -882,6 +894,8 @@ occurred
 ;
 throw
 new
+lazy
+.
 ExtensionUtils
 .
 ExtensionError
@@ -951,6 +965,8 @@ use
 kinto
 .
 return
+lazy
+.
 extensionStorageSyncKinto
 [
 fnName
@@ -1202,6 +1218,8 @@ of
 listeners
 )
 {
+lazy
+.
 ExtensionCommon
 .
 runSafeSyncWithoutClone

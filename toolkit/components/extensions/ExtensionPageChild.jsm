@@ -169,11 +169,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionChildDevToolsUtils
 "
@@ -196,7 +202,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Schemas
 "
@@ -705,6 +711,8 @@ super
 "
 addon
 "
+lazy
+.
 Schemas
 )
 ;
@@ -789,6 +797,8 @@ super
 "
 devtools
 "
+lazy
+.
 Schemas
 )
 ;
@@ -1273,6 +1283,8 @@ true
 )
 ;
 }
+lazy
+.
 Schemas
 .
 exportLazyGetter
@@ -1311,6 +1323,8 @@ browserObj
 }
 )
 ;
+lazy
+.
 Schemas
 .
 exportLazyGetter
@@ -2001,6 +2015,8 @@ params
 .
 devtoolsToolboxInfo
 ;
+lazy
+.
 ExtensionChildDevToolsUtils
 .
 initThemeChangeObserver

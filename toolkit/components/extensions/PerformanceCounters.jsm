@@ -245,11 +245,17 @@ DefaultMap
 =
 ExtensionUtils
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTimingEnabled
 "
@@ -267,7 +273,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTimingMaxAge
 "
@@ -585,6 +591,8 @@ enabled
 )
 {
 return
+lazy
+.
 gTimingEnabled
 ;
 }
@@ -644,6 +652,8 @@ maxAge
 )
 {
 return
+lazy
+.
 gTimingMaxAge
 ;
 }

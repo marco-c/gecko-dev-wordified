@@ -178,11 +178,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionParent
 :
@@ -221,7 +227,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 StartupCache
 "
@@ -229,6 +235,8 @@ StartupCache
 )
 =
 >
+lazy
+.
 ExtensionParent
 .
 StartupCache
@@ -238,7 +246,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 KeyValueService
 "
@@ -261,7 +269,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -284,7 +292,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Management
 "
@@ -292,6 +300,8 @@ Management
 )
 =
 >
+lazy
+.
 ExtensionParent
 .
 apiManager
@@ -473,6 +483,8 @@ FILE_NAME
 prefs
 =
 new
+lazy
+.
 JSONFile
 (
 {
@@ -740,6 +752,8 @@ _init
 const
 storePath
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -783,6 +797,8 @@ this
 _store
 =
 await
+lazy
+.
 KeyValueService
 .
 getOrCreate
@@ -1461,6 +1477,8 @@ perms
 )
 ;
 return
+lazy
+.
 StartupCache
 .
 permissions
@@ -1494,6 +1512,8 @@ extensionId
 )
 {
 return
+lazy
+.
 StartupCache
 .
 permissions
@@ -1946,6 +1966,8 @@ origins
 }
 )
 ;
+lazy
+.
 Management
 .
 emit
@@ -2219,6 +2241,8 @@ origins
 }
 )
 ;
+lazy
+.
 Management
 .
 emit
@@ -2260,6 +2284,8 @@ removeAll
 extensionId
 )
 {
+lazy
+.
 StartupCache
 .
 permissions
@@ -2287,6 +2313,8 @@ delete
 extensionId
 )
 ;
+lazy
+.
 Management
 .
 emit
@@ -2407,6 +2435,8 @@ addListener
 listener
 )
 {
+lazy
+.
 Management
 .
 on
@@ -2425,6 +2455,8 @@ removeListener
 listener
 )
 {
+lazy
+.
 Management
 .
 off
