@@ -223,15 +223,6 @@ h
 #
 include
 "
-mozilla
-/
-ContentBlocking
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

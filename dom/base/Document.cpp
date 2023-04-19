@@ -102460,7 +102460,7 @@ here
 Unused
 <
 <
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 AllowAccessFor
@@ -104613,7 +104613,7 @@ bool
 >
 resultBecauseCookiesApproved
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckCookiesPermittedDecidesStorageAccessAPI
@@ -104766,7 +104766,7 @@ bool
 >
 resultBecauseBrowserSettings
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckBrowserSettingsDecidesStorageAccessAPI
@@ -104853,7 +104853,7 @@ bool
 >
 resultBecauseCallContext
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckCallingContextDecidesStorageAccessAPI
@@ -104929,7 +104929,7 @@ bool
 >
 resultBecausePreviousPermission
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckExistingPermissionDecidesStorageAccessAPI
@@ -105360,7 +105360,7 @@ user
 prompt
 RefPtr
 <
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 StorageAccessFinalCheckPromise
@@ -105371,7 +105371,7 @@ Private
 p
 =
 new
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 StorageAccessFinalCheckPromise
@@ -105421,7 +105421,7 @@ p
 >
 Resolve
 (
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 eAllow
@@ -105749,13 +105749,13 @@ PromptResult
 Granted
 )
 {
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 StorageAccessPromptChoices
 choice
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 eAllow
@@ -105767,7 +105767,7 @@ autoGrant
 {
 choice
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 eAllowAutoGrant
@@ -105921,7 +105921,7 @@ given
 principal
 .
 return
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 AllowAccessFor
@@ -106216,7 +106216,7 @@ bool
 >
 resultBecauseCookiesApproved
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckCookiesPermittedDecidesStorageAccessAPI
@@ -106420,7 +106420,7 @@ bool
 >
 resultBecauseBrowserSettings
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckBrowserSettingsDecidesStorageAccessAPI
@@ -106528,7 +106528,7 @@ bool
 >
 resultBecauseCallContext
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckCallingContextDecidesStorageAccessAPI
@@ -106625,7 +106625,7 @@ bool
 >
 resultBecausePreviousPermission
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckExistingPermissionDecidesStorageAccessAPI
@@ -107233,7 +107233,7 @@ bool
 >
 resultBecauseBrowserSettings
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckBrowserSettingsDecidesStorageAccessAPI
@@ -107338,7 +107338,7 @@ bool
 >
 resultBecauseCallContext
 =
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 CheckSameSiteCallingContextDecidesStorageAccessAPI
@@ -107686,7 +107686,7 @@ in
 the
 ContentParent
 .
-ContentBlocking
+StorageAccessAPIHelper
 :
 :
 AsyncCheckCookiesPermittedDecidesStorageAccessAPI
