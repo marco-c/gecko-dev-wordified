@@ -744,6 +744,16 @@ fxaccounts
 new_device_id
 "
 ;
+exports
+.
+ON_DEVICELIST_UPDATED
+=
+"
+fxaccounts
+:
+devicelist_updated
+"
+;
 /
 /
 The
