@@ -6892,7 +6892,7 @@ factors
 *
 /
 static
-gfxSize
+MatrixScalesDouble
 GetTransformToAncestorScaleExcludingAnimated
 (
 nsIFrame
