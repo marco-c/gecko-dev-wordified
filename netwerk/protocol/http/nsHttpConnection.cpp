@@ -12512,6 +12512,8 @@ nsACString
 result
 bool
 h2ws
+bool
+aShouldResistFingerprinting
 )
 {
 result
@@ -12709,6 +12711,7 @@ gHttpHandler
 >
 UserAgent
 (
+aShouldResistFingerprinting
 )
 )
 ;
@@ -17029,6 +17032,9 @@ mTransaction
 request
 buf
 false
+mTransactionCaps
+&
+NS_HTTP_USE_RFP
 )
 ;
 if
