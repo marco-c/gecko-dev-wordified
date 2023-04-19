@@ -1492,11 +1492,13 @@ ProcessPendingRequests
 JSContext
 *
 aCx
-const
-Span
+nsTArray
 <
 ScriptLoadInfo
+*
 >
+&
+&
 aLoadInfosToExecute
 )
 ;
