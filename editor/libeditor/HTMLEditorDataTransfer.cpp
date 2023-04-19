@@ -170,14 +170,14 @@ h
 #
 include
 "
-SelectionState
+PendingStyles
 .
 h
 "
 #
 include
 "
-TypeInState
+SelectionState
 .
 h
 "

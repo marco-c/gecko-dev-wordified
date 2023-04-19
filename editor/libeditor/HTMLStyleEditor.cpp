@@ -145,14 +145,14 @@ h
 #
 include
 "
-SelectionState
+PendingStyles
 .
 h
 "
 #
 include
 "
-TypeInState
+SelectionState
 .
 h
 "
@@ -1444,7 +1444,7 @@ the
 next
 text
 insertion
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 PreserveStyles
@@ -13489,7 +13489,7 @@ if
 aAttribute
 )
 {
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 GetTypingState
@@ -13519,7 +13519,7 @@ tOutString
 }
 else
 {
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 GetTypingState
@@ -16168,7 +16168,7 @@ the
 next
 text
 insertion
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 ClearStyles
@@ -19438,7 +19438,7 @@ the
 next
 text
 insertion
-mTypeInState
+mPendingStylesToApplyToNewContent
 -
 >
 PreserveStyle
