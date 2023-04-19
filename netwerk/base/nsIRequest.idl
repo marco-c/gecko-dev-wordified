@@ -1133,7 +1133,7 @@ only
 *
 Requests
 with
-TRR_DISABLED_MODE
+TRR_FIRST_MODE
 will
 first
 use
@@ -1141,8 +1141,8 @@ TRR
 then
 fallback
 to
-*
 regular
+*
 DNS
 unless
 TRR
@@ -1154,8 +1154,8 @@ the
 pref
 to
 mode5
-*
 parental
+*
 control
 being
 enabled
@@ -1166,7 +1166,6 @@ being
 in
 the
 exclusion
-*
 list
 .
 *
