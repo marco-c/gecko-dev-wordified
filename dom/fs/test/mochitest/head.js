@@ -231,7 +231,6 @@ add_task
 (
 async
 function
-setup
 (
 )
 {
