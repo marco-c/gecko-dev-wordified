@@ -271,10 +271,6 @@ nsString
 &
 aDocumentTitle
 const
-nsString
-&
-aPrintToFile
-const
 int32_t
 &
 aStartPage
@@ -290,7 +286,6 @@ rv
 InitializePrintDevice
 (
 aDocumentTitle
-aPrintToFile
 aStartPage
 aEndPage
 )
@@ -451,10 +446,6 @@ nsString
 &
 aDocumentTitle
 const
-nsString
-&
-aPrintToFile
-const
 int32_t
 &
 aStartPage
@@ -564,6 +555,17 @@ return
 rv
 ;
 }
+nsAutoString
+fileName
+;
+mPrintSettings
+-
+>
+GetToFileName
+(
+fileName
+)
+;
 rv
 =
 mPrintDeviceContext
@@ -572,7 +574,7 @@ mPrintDeviceContext
 BeginDocument
 (
 aDocumentTitle
-aPrintToFile
+fileName
 aStartPage
 aEndPage
 )

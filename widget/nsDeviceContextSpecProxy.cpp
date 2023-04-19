@@ -741,10 +741,6 @@ nsString
 (
 aTitle
 )
-nsString
-(
-aPrintToFileName
-)
 aStartPage
 aEndPage
 )

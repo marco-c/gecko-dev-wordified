@@ -260,10 +260,6 @@ nsString
 &
 aDocumentTitle
 const
-nsString
-&
-aPrintToFile
-const
 int32_t
 &
 aStartPage
@@ -463,10 +459,6 @@ const
 nsString
 &
 aDocumentTitle
-const
-nsString
-&
-aPrintToFile
 const
 int32_t
 &

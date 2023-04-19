@@ -179,8 +179,6 @@ InitializePrint
 (
 nsString
 aDocumentTitle
-nsString
-aPrintToFile
 int32_t
 aStartPage
 int32_t
