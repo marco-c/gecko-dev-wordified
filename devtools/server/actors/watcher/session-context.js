@@ -1554,7 +1554,7 @@ TYPES
 STYLESHEET
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
