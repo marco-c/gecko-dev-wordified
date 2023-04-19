@@ -2892,12 +2892,6 @@ this
 _onSettingsSync
 )
 ;
-this
-.
-_queueSettingsSync
-(
-)
-;
 }
 else
 if
