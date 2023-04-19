@@ -1684,6 +1684,14 @@ HTMLEditHelpers
 .
 h
 struct
+EditorInlineStyleAndValue
+;
+/
+/
+HTMLEditHelpers
+.
+h
+struct
 PropItem
 ;
 /
