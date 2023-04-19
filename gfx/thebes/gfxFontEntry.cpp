@@ -10968,12 +10968,6 @@ if
 mOtherFamilyNamesInitialized
 )
 {
-AutoWriteLock
-lock
-(
-mLock
-)
-;
 ReadOtherFamilyNames
 (
 gfxPlatformFontList
@@ -13691,14 +13685,6 @@ gfxPlatformFontList
 aPlatformFontList
 )
 {
-if
-(
-mOtherFamilyNamesInitialized
-)
-{
-return
-;
-}
 AutoWriteLock
 lock
 (

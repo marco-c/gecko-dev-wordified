@@ -5536,6 +5536,12 @@ gfxPlatformFontList
 aPlatformFontList
 )
 {
+AutoWriteLock
+lock
+(
+mLock
+)
+;
 if
 (
 mOtherFamilyNamesInitialized
@@ -5544,12 +5550,6 @@ mOtherFamilyNamesInitialized
 return
 ;
 }
-AutoWriteLock
-lock
-(
-mLock
-)
-;
 gfxFontEntry
 *
 fe
