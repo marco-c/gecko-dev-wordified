@@ -189,8 +189,8 @@ ForeignObject
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1294,9 +1294,7 @@ eCSSProperty_UNKNOWN
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

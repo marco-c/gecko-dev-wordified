@@ -254,8 +254,8 @@ Marker
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1886,9 +1886,7 @@ mViewBoxToViewportTransform
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

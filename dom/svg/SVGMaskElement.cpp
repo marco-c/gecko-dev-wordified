@@ -189,8 +189,8 @@ Mask
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1106,9 +1106,7 @@ name
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

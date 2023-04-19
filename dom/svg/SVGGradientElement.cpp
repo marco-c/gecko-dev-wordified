@@ -233,8 +233,8 @@ RadialGradient
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -2230,9 +2230,7 @@ sLengthInfo
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
