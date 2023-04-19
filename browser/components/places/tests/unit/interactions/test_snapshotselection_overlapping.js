@@ -387,9 +387,13 @@ TEST_URL4
 ;
 selector
 .
-setUrl
+updateDetailsAndRebuild
 (
+{
+url
+:
 TEST_URL1
+}
 )
 ;
 snapshots
