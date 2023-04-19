@@ -263,11 +263,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PageThumbUtils
 :
@@ -306,7 +312,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gUpdateTimerManager
 "
@@ -332,7 +338,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 PageThumbsStorageService
 "
@@ -972,6 +978,8 @@ aUrl
 )
 {
 return
+lazy
+.
 PageThumbsStorageService
 .
 getFilePathForURL
@@ -1398,6 +1406,8 @@ aArgs
 backgroundColor
 ?
 ?
+lazy
+.
 PageThumbUtils
 .
 THUMBNAIL_BG_COLOR
@@ -1409,6 +1419,8 @@ aArgs
 targetWidth
 ?
 ?
+lazy
+.
 PageThumbUtils
 .
 THUMBNAIL_DEFAULT_SIZE
@@ -1574,6 +1586,8 @@ mode
 .
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -1650,6 +1664,8 @@ false
 ;
 }
 return
+lazy
+.
 PageThumbUtils
 .
 shouldStoreContentThumbnail
@@ -1839,6 +1855,8 @@ thumbnail
 sync
 .
 await
+lazy
+.
 PageThumbUtils
 .
 createSnapshotThumbnail
@@ -2138,6 +2156,8 @@ doc
 .
 createElementNS
 (
+lazy
+.
 PageThumbUtils
 .
 HTML_NAMESPACE
@@ -2411,6 +2431,8 @@ response
 .
 channelError
 =
+lazy
+.
 PageThumbUtils
 .
 isChannelErrorResponse
@@ -3261,6 +3283,8 @@ aWindow
 )
 {
 return
+lazy
+.
 PageThumbUtils
 .
 createCanvas
@@ -3381,6 +3405,8 @@ post
 makeDir
 "
 [
+lazy
+.
 PageThumbsStorageService
 .
 path
@@ -3840,6 +3866,8 @@ aNoOverwrite
 let
 path
 =
+lazy
+.
 PageThumbsStorageService
 .
 getFilePathForURL
@@ -4049,6 +4077,8 @@ ensurePath
 let
 sourceFile
 =
+lazy
+.
 PageThumbsStorageService
 .
 getFilePathForURL
@@ -4059,6 +4089,8 @@ aSourceURL
 let
 targetFile
 =
+lazy
+.
 PageThumbsStorageService
 .
 getFilePathForURL
@@ -4149,6 +4181,8 @@ post
 remove
 "
 [
+lazy
+.
 PageThumbsStorageService
 .
 getFilePathForURL
@@ -4367,6 +4401,8 @@ post
 wipe
 "
 [
+lazy
+.
 PageThumbsStorageService
 .
 path
@@ -4429,6 +4465,8 @@ post
 exists
 "
 [
+lazy
+.
 PageThumbsStorageService
 .
 getFilePathForURL
@@ -4456,6 +4494,8 @@ post
 isFileRecent
 "
 [
+lazy
+.
 PageThumbsStorageService
 .
 getFilePathForURL
@@ -5049,6 +5089,8 @@ Expiration_init
 (
 )
 {
+lazy
+.
 gUpdateTimerManager
 .
 registerTimer
@@ -5270,6 +5312,8 @@ map
 url
 =
 >
+lazy
+.
 PageThumbsStorageService
 .
 getLeafNameForURL
@@ -5282,6 +5326,8 @@ let
 msg
 =
 [
+lazy
+.
 PageThumbsStorageService
 .
 path

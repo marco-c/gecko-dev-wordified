@@ -277,11 +277,17 @@ TEL_CAPTURE_DONE_IMAGE_ZERO_DIMENSION
 =
 7
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ContextualIdentityService
 "
@@ -2241,6 +2247,8 @@ thumbnails
 let
 privateIdentity
 =
+lazy
+.
 ContextualIdentityService
 .
 getPrivateIdentity
@@ -4529,6 +4537,8 @@ thumbnails
 let
 privateIdentity
 =
+lazy
+.
 ContextualIdentityService
 .
 getPrivateIdentity
