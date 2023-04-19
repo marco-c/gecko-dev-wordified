@@ -583,7 +583,13 @@ StructuredCloneData
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 scdContent
 (
 cx
@@ -677,7 +683,11 @@ return
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 unevalObj
 (
 cx

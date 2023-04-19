@@ -447,7 +447,13 @@ aCx
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aResult
 )
 ;

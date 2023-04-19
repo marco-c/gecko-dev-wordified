@@ -2219,7 +2219,11 @@ on
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 global
 (
 mContext
