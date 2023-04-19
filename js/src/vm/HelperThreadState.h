@@ -3045,9 +3045,6 @@ or
 generating
 bytecode
 .
-OffThreadFrontendErrors
-errors
-;
 OffThreadErrorContext
 ec_
 ;
