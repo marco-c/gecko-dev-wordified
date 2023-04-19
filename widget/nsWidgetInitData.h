@@ -675,11 +675,6 @@ mClipSiblings
 false
 ;
 bool
-mDropShadow
-=
-false
-;
-bool
 mRTL
 =
 false

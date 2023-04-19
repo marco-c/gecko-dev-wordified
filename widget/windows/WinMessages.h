@@ -514,16 +514,6 @@ WM_USER
 +
 1
 )
-/
-/
-Drop
-shadow
-window
-style
-#
-define
-CS_XP_DROPSHADOW
-0x00020000
 #
 ifndef
 APPCOMMAND_BROWSER_BACKWARD

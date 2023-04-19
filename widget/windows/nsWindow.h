@@ -3967,10 +3967,6 @@ InjectTouchInputPtr
 sInjectTouchFuncPtr
 ;
 static
-bool
-sDropShadowEnabled
-;
-static
 uint32_t
 sInstanceCount
 ;
