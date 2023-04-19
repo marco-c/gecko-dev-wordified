@@ -86,11 +86,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -527,6 +533,8 @@ return
 let
 rs
 =
+lazy
+.
 RemoteSettings
 (
 COLLECTION_NAME
