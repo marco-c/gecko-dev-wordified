@@ -370,7 +370,13 @@ aStorageName
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aResult
 )
 {

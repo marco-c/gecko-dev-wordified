@@ -512,7 +512,13 @@ aCx
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aResult
 )
 {
@@ -620,7 +626,11 @@ d
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 root
 (
 aCx
