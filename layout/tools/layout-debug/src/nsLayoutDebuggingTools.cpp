@@ -1589,12 +1589,11 @@ FrameConstructor
 )
 -
 >
-CounterManager
+GetContainStyleScopeManager
 (
 )
--
->
-Dump
+.
+DumpCounters
 (
 )
 ;
