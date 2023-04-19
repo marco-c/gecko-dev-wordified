@@ -1552,10 +1552,6 @@ primed
 /
 terminateBackground
 (
-.
-.
-.
-args
 )
 {
 return
@@ -1565,10 +1561,6 @@ extension
 .
 terminateBackground
 (
-.
-.
-.
-args
 )
 ;
 }
