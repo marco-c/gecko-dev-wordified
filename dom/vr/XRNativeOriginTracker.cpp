@@ -123,8 +123,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginTracker
@@ -258,9 +258,7 @@ orientation
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

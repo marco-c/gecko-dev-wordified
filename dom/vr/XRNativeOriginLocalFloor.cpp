@@ -139,8 +139,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginLocalFloor
@@ -370,9 +370,7 @@ mInitialPosition
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

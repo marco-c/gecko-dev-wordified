@@ -130,8 +130,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginLocal
@@ -296,9 +296,7 @@ mInitialPosition
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

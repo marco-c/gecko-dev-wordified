@@ -141,8 +141,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRInputSpace
@@ -292,9 +292,7 @@ Cap_None
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

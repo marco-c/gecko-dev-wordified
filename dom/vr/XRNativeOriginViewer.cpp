@@ -130,8 +130,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginViewer
@@ -288,9 +288,7 @@ orientation
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -161,8 +161,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -493,9 +493,7 @@ nullptr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -123,8 +123,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XRNativeOriginFixed
@@ -166,9 +166,7 @@ mPosition
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
