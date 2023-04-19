@@ -9849,6 +9849,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+MOZ_ASSERT
+(
+!
+mUncommittedJsepSession
+)
+;
 mUncommittedJsepSession
 .
 reset
@@ -10448,6 +10454,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+MOZ_ASSERT
+(
+!
+mUncommittedJsepSession
+)
+;
 mUncommittedJsepSession
 .
 reset
@@ -14934,7 +14946,7 @@ wants
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mUncommittedJsepSession
 )
