@@ -832,6 +832,7 @@ pending
 )
 {
 return
+null
 ;
 }
 let
