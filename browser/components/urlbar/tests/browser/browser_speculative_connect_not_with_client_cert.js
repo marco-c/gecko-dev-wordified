@@ -331,9 +331,9 @@ connectionInfo
 =
 transport
 .
-securityInfo
+securityCallbacks
 .
-QueryInterface
+getInterface
 (
 Ci
 .

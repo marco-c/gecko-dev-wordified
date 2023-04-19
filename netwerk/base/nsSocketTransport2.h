@@ -962,8 +962,13 @@ address
 and
 additionally
 supplies
+the
 security
-info
+/
+/
+callbacks
+interface
+requestor
 .
 nsresult
 InitWithConnectedSocket
@@ -975,9 +980,9 @@ const
 NetAddr
 *
 aAddr
-nsISupports
+nsIInterfaceRequestor
 *
-aSecInfo
+aCallbacks
 )
 ;
 #
