@@ -14404,15 +14404,9 @@ aState
 {
 nsSize
 min
-=
-mHelper
-.
-mScrolledFrame
--
->
-GetXULMinSizeForScrollArea
 (
-aState
+0
+0
 )
 ;
 ScrollStyles
@@ -14480,6 +14474,7 @@ vSize
 .
 height
 )
+{
 min
 .
 height
@@ -14488,6 +14483,7 @@ vSize
 .
 height
 ;
+}
 }
 if
 (
@@ -14547,6 +14543,7 @@ hSize
 .
 width
 )
+{
 min
 .
 width
@@ -14555,6 +14552,7 @@ hSize
 .
 width
 ;
+}
 }
 AddXULBorderAndPadding
 (
