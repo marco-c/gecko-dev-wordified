@@ -1853,6 +1853,22 @@ worker
 type
 "
 )
+and
+task
+.
+get
+(
+"
+worker
+-
+type
+"
+)
+!
+=
+"
+default
+"
 :
             
 #
@@ -1872,6 +1888,23 @@ that
 yields
 below
 )
+            
+#
+Unless
+the
+value
+is
+set
+to
+"
+default
+"
+in
+that
+case
+ignore
+it
+.
             
 pass
         
