@@ -124,7 +124,7 @@ certviewer
 /
 asn1js_bundle
 .
-js
+jsm
 "
 )
 ;
@@ -150,7 +150,7 @@ certviewer
 /
 pkijs_bundle
 .
-js
+jsm
 "
 )
 ;
@@ -176,7 +176,7 @@ certviewer
 /
 pvutils_bundle
 .
-js
+jsm
 "
 )
 ;
@@ -231,7 +231,7 @@ certviewer
 /
 certDecoder
 .
-js
+jsm
 "
 )
 ;
