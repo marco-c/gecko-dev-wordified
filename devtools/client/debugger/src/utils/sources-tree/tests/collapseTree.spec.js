@@ -61,6 +61,7 @@ MPL
 import
 {
 makeMockDisplaySource
+formatTree
 }
 from
 "
@@ -83,7 +84,6 @@ mockup
 import
 {
 collapseTree
-formatTree
 addToTree
 createDirectoryNode
 }
