@@ -1334,7 +1334,7 @@ of
 BuiltThing
 .
 #
-if
+ifdef
 DEBUG
 void
 assertBuilt
