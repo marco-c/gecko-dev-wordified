@@ -153,16 +153,6 @@ SOURCES
 =
 [
 "
-GeoclueLocationProvider
-.
-cpp
-"
-]
-SOURCES
-+
-=
-[
-"
 PortalLocationProvider
 .
 cpp
