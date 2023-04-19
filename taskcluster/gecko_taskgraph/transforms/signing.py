@@ -70,6 +70,14 @@ description
 "
 "
 from
+taskgraph
+.
+util
+.
+keyed_by
+import
+evaluate_keyed_by
+from
 gecko_taskgraph
 .
 loader
@@ -98,14 +106,6 @@ copy_attributes_from_dependent_job
     
 release_level
 )
-from
-gecko_taskgraph
-.
-util
-.
-keyed_by
-import
-evaluate_keyed_by
 from
 gecko_taskgraph
 .

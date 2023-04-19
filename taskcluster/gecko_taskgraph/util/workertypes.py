@@ -68,6 +68,9 @@ attributes
 import
 keymatch
 from
+taskgraph
+.
+util
 .
 keyed_by
 import
