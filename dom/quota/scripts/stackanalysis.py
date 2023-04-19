@@ -957,6 +957,12 @@ prev_sid
 unset
 "
     
+prev_tid
+=
+"
+unset
+"
+    
 prev_ctx
 =
 "
@@ -1001,6 +1007,20 @@ session_id
 "
 ]
         
+tid
+=
+row
+[
+"
+seq
+"
+]
+>
+>
+32
+#
+thread_id
+        
 ctx
 =
 row
@@ -1018,6 +1038,10 @@ row
 seq
 "
 ]
+&
+0x00000000FFFFFFFF
+#
+seq
         
 sev
 =
@@ -1061,6 +1085,11 @@ sid
 !
 =
 prev_sid
+or
+tid
+!
+=
+prev_tid
 :
             
 if
@@ -1100,6 +1129,7 @@ we
 change
 client
 session
+thread
 or
 context
 we
@@ -1117,25 +1147,38 @@ frame
 .
             
 if
+(
+                
 seq
 =
 =
 1
+                
 or
 cid
 !
 =
 prev_cid
+                
 or
 sid
 !
 =
 prev_sid
+                
+or
+tid
+!
+=
+prev_tid
+                
 or
 ctx
 !
 =
 prev_ctx
+            
+)
 :
                 
 addTopmostFrame
@@ -1256,6 +1299,10 @@ cid
 prev_sid
 =
 sid
+        
+prev_tid
+=
+tid
         
 prev_ctx
 =
