@@ -1411,10 +1411,14 @@ mainSession
 .
 autofillSession
 .
-getId
+dataFor
 (
 child
 )
+!
+!
+.
+id
 if
 (
 childId
