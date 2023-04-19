@@ -91,11 +91,17 @@ ExtFindChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FindContent
 "
@@ -137,6 +143,8 @@ this
 _findContent
 =
 new
+lazy
+.
 FindContent
 (
 this

@@ -101,11 +101,17 @@ PictureInPictureLauncherChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -152,7 +158,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 KEYBOARD_CONTROLS
 "
@@ -175,7 +181,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TOGGLE_POLICIES
 "
@@ -198,7 +204,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TOGGLE_POLICY_STRINGS
 "
@@ -221,7 +227,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Rect
 "
@@ -244,7 +250,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ContentDOMReference
 "
@@ -340,7 +346,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -362,7 +368,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 DISPLAY_TEXT_TRACKS_PREF
 "
@@ -653,7 +659,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gSiteOverrides
 "
@@ -676,7 +682,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -852,6 +858,8 @@ documentURI
 let
 overrides
 =
+lazy
+.
 gSiteOverrides
 .
 find
@@ -1262,6 +1270,8 @@ window
 const
 videoRef
 =
+lazy
+.
 ContentDOMReference
 .
 get
@@ -1308,6 +1318,8 @@ videoWidth
 videoRef
 ccEnabled
 :
+lazy
+.
 DISPLAY_TEXT_TRACKS_PREF
 webVTTSubtitles
 :
@@ -2442,6 +2454,8 @@ isTrackingVideos
 false
 togglePolicy
 :
+lazy
+.
 TOGGLE_POLICIES
 .
 DEFAULT
@@ -2777,6 +2791,8 @@ apply
 .
 try
 {
+lazy
+.
 gSiteOverrides
 =
 PictureInPictureToggleChild
@@ -4253,6 +4269,8 @@ state
 mousemoveDeferredTask
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -5957,6 +5975,8 @@ clientY
 =
 event
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -5972,6 +5992,8 @@ state
 visibleVideosCount
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -6073,6 +6095,8 @@ of
 elements
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -6089,6 +6113,8 @@ element
 id
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -6108,6 +6134,8 @@ element
 nodeName
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -6130,6 +6158,8 @@ element
 )
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -6204,6 +6234,8 @@ el
 isCloningElementVisually
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -6508,6 +6540,8 @@ state
 .
 togglePolicy
 =
+lazy
+.
 TOGGLE_POLICIES
 .
 DEFAULT
@@ -6550,6 +6584,8 @@ getSiteOverrides
 (
 )
 :
+lazy
+.
 gSiteOverrides
 ;
 let
@@ -6654,6 +6690,8 @@ shouldHideToggle
 video
 )
 ?
+lazy
+.
 TOGGLE_POLICIES
 .
 HIDDEN
@@ -6661,6 +6699,8 @@ HIDDEN
 policy
 |
 |
+lazy
+.
 TOGGLE_POLICIES
 .
 DEFAULT
@@ -6744,6 +6784,8 @@ state
 togglePolicy
 !
 =
+lazy
+.
 TOGGLE_POLICIES
 .
 DEFAULT
@@ -6756,6 +6798,8 @@ state
 togglePolicy
 =
 =
+lazy
+.
 TOGGLE_POLICIES
 .
 BOTTOM
@@ -6774,6 +6818,8 @@ setAttribute
 "
 policy
 "
+lazy
+.
 TOGGLE_POLICY_STRINGS
 [
 state
@@ -6798,6 +6844,8 @@ policy
 const
 nimbusExperimentVariables
 =
+lazy
+.
 NimbusFeatures
 .
 pictureinpicture
@@ -7086,6 +7134,8 @@ state
 hideToggleDeferredTask
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -7220,6 +7270,8 @@ state
 togglePolicy
 !
 =
+lazy
+.
 TOGGLE_POLICIES
 .
 HIDDEN
@@ -7334,6 +7386,8 @@ if
 hasUsedPiP
 )
 {
+lazy
+.
 NimbusFeatures
 .
 pictureinpicture
@@ -7795,6 +7849,8 @@ hitbox
 .
 toggleRect
 =
+lazy
+.
 Rect
 .
 fromRect
@@ -7826,6 +7882,8 @@ clickableChildren
 let
 childRect
 =
+lazy
+.
 Rect
 .
 fromRect
@@ -11979,6 +12037,8 @@ this
 ;
 if
 (
+lazy
+.
 DISPLAY_TEXT_TRACKS_PREF
 )
 {
@@ -12213,6 +12273,8 @@ this
 ;
 if
 (
+lazy
+.
 DISPLAY_TEXT_TRACKS_PREF
 )
 {
@@ -12403,6 +12465,8 @@ const
 video
 =
 await
+lazy
+.
 ContentDOMReference
 .
 resolve
@@ -13131,6 +13195,8 @@ e
 if
 (
 !
+lazy
+.
 DISPLAY_TEXT_TRACKS_PREF
 )
 {
@@ -13239,6 +13305,8 @@ keyboardControls
 }
 ]
 of
+lazy
+.
 gSiteOverrides
 )
 {
@@ -13265,6 +13333,8 @@ keyboardControls
 =
 =
 =
+lazy
+.
 KEYBOARD_CONTROLS
 .
 NONE
@@ -13688,6 +13758,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 PLAY_PAUSE
@@ -13763,6 +13835,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 CLOSE
@@ -13815,6 +13889,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 VOLUME
@@ -13887,6 +13963,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 VOLUME
@@ -13960,6 +14038,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 MUTE_UNMUTE
@@ -14000,6 +14080,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 MUTE_UNMUTE
@@ -14059,6 +14141,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 SEEK
@@ -14171,6 +14255,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 SEEK
@@ -14274,6 +14360,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 SEEK
@@ -14321,6 +14409,8 @@ this
 .
 isKeyEnabled
 (
+lazy
+.
 KEYBOARD_CONTROLS
 .
 SEEK
@@ -15037,6 +15127,8 @@ if
 validateRetVal
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -15102,6 +15194,8 @@ retVal
 )
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -15154,6 +15248,8 @@ catch
 e
 )
 {
+lazy
+.
 logConsole
 .
 debug

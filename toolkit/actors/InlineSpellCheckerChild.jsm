@@ -120,11 +120,17 @@ InlineSpellCheckerChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 InlineSpellCheckerContent
 "
@@ -167,6 +173,8 @@ InlineSpellChecker
 selectDictionaries
 "
 :
+lazy
+.
 InlineSpellCheckerContent
 .
 selectDictionaries
@@ -187,6 +195,8 @@ InlineSpellChecker
 replaceMisspelling
 "
 :
+lazy
+.
 InlineSpellCheckerContent
 .
 replaceMisspelling
@@ -207,6 +217,8 @@ InlineSpellChecker
 toggleEnabled
 "
 :
+lazy
+.
 InlineSpellCheckerContent
 .
 toggleEnabled
@@ -222,6 +234,8 @@ InlineSpellChecker
 recheck
 "
 :
+lazy
+.
 InlineSpellCheckerContent
 .
 recheck
@@ -237,6 +251,8 @@ InlineSpellChecker
 uninit
 "
 :
+lazy
+.
 InlineSpellCheckerContent
 .
 uninitContextMenu

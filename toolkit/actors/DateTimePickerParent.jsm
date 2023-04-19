@@ -130,11 +130,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DateTimePickerPanel
 "
@@ -618,6 +624,8 @@ this
 _picker
 =
 new
+lazy
+.
 DateTimePickerPanel
 (
 panel

@@ -80,11 +80,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LayoutUtils
 "
@@ -469,6 +475,8 @@ aElement
 )
 {
 return
+lazy
+.
 LayoutUtils
 .
 getElementBoundingScreenRect

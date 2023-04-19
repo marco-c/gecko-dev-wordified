@@ -139,11 +139,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUtils
 "
@@ -529,6 +535,8 @@ defaultPrevented
 |
 |
 !
+lazy
+.
 BrowserUtils
 .
 mimeTypeIsTextBased
@@ -542,6 +550,8 @@ contentType
 |
 |
 !
+lazy
+.
 BrowserUtils
 .
 canFindInPage

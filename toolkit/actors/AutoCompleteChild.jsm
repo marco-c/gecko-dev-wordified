@@ -137,11 +137,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LayoutUtils
 "
@@ -164,7 +170,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ContentDOMReference
 "
@@ -187,7 +193,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -764,6 +770,8 @@ return
 let
 rect
 =
+lazy
+.
 LayoutUtils
 .
 getElementBoundingScreenRect
@@ -803,6 +811,8 @@ input
 let
 formOrigin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -817,6 +827,8 @@ documentURI
 let
 inputElementIdentifier
 =
+lazy
+.
 ContentDOMReference
 .
 get

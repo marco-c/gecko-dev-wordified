@@ -115,11 +115,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PageThumbUtils
 "
@@ -171,6 +177,8 @@ width
 height
 ]
 =
+lazy
+.
 PageThumbUtils
 .
 getContentSize
@@ -317,6 +325,8 @@ return
 let
 result
 =
+lazy
+.
 PageThumbUtils
 .
 shouldStoreContentThumbnail
@@ -378,6 +388,8 @@ currentDocumentChannel
 let
 channelError
 =
+lazy
+.
 PageThumbUtils
 .
 isChannelErrorResponse

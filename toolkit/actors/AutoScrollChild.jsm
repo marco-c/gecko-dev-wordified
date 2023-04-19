@@ -114,11 +114,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUtils
 "
@@ -378,6 +384,8 @@ let
 href
 ]
 =
+lazy
+.
 BrowserUtils
 .
 hrefAndLinkNodeForClickEvent

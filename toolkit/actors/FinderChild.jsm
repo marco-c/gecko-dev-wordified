@@ -109,11 +109,17 @@ FinderChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Finder
 "
@@ -155,6 +161,8 @@ this
 _finder
 =
 new
+lazy
+.
 Finder
 (
 this

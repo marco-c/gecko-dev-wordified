@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 DOM_FORMS_SELECTSEARCH
 "
@@ -164,7 +170,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 CUSTOM_STYLING_ENABLED
 "
@@ -639,6 +645,8 @@ sheet
 if
 (
 !
+lazy
+.
 CUSTOM_STYLING_ENABLED
 )
 {
@@ -772,6 +780,8 @@ color
 ;
 if
 (
+lazy
+.
 CUSTOM_STYLING_ENABLED
 )
 {
@@ -1411,6 +1421,8 @@ px
 ;
 if
 (
+lazy
+.
 CUSTOM_STYLING_ENABLED
 )
 {
@@ -1780,6 +1792,8 @@ it
 .
 if
 (
+lazy
+.
 CUSTOM_STYLING_ENABLED
 &
 &
@@ -3764,6 +3778,8 @@ added
 .
 if
 (
+lazy
+.
 DOM_FORMS_SELECTSEARCH
 &
 &
