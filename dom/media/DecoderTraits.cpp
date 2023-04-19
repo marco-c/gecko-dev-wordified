@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsMimeTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

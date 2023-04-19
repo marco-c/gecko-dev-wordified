@@ -138,13 +138,6 @@ HalBatteryInformation
 .
 h
 "
-#
-include
-"
-nsCycleCollectionParticipant
-.
-h
-"
 namespace
 mozilla
 {

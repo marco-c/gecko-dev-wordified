@@ -156,13 +156,6 @@ RefPtr
 .
 h
 "
-#
-include
-"
-VsyncSource
-.
-h
-"
 class
 nsIThread
 ;

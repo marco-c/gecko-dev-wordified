@@ -228,13 +228,6 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-gfxUtils
-.
-h
-"
 namespace
 mozilla
 :
