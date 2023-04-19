@@ -14,6 +14,9 @@ from
 .
 .
 /
+.
+.
+/
 testing
 /
 mochitest
