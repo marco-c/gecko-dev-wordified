@@ -1281,7 +1281,7 @@ assertions
     
 libcxx_include_dir
     
-build_wasm
+targets
     
 is_final_stage
 =
@@ -1381,32 +1381,14 @@ inst_dir
         
 machine_targets
 =
-"
-X86
-;
-ARM
-;
-AArch64
-"
+targets
 if
 is_final_stage
+and
+targets
 else
 "
 X86
-"
-        
-if
-build_wasm
-and
-is_final_stage
-:
-            
-machine_targets
-+
-=
-"
-;
-WebAssembly
 "
         
 cmake_args
@@ -4735,49 +4717,14 @@ builds
             
 )
     
-build_wasm
-=
-False
-    
-if
-"
-build_wasm
-"
-in
-config
-:
-        
-build_wasm
+targets
 =
 config
-[
-"
-build_wasm
-"
-]
-        
-if
-build_wasm
-not
-in
-(
-True
-False
-)
-:
-            
-raise
-ValueError
-(
-"
-Only
-boolean
-values
-are
-accepted
-for
-build_wasm
 .
+get
+(
+"
+targets
 "
 )
     
@@ -6313,7 +6260,7 @@ assertions
             
 libcxx_include_dir
             
-build_wasm
+targets
             
 is_final_stage
 =
@@ -6470,7 +6417,7 @@ assertions
             
 libcxx_include_dir
             
-build_wasm
+targets
             
 is_final_stage
 =
@@ -6637,7 +6584,7 @@ assertions
             
 libcxx_include_dir
             
-build_wasm
+targets
             
 (
 stages
@@ -6945,7 +6892,7 @@ assertions
             
 libcxx_include_dir
             
-build_wasm
+targets
             
 (
 stages
