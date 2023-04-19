@@ -1626,13 +1626,6 @@ aManager
 aDisplayItemKey
 aFrame
 )
-mDrawResult
-(
-ImgDrawResult
-:
-:
-NOT_READY
-)
 {
 }
 WebRenderImageProviderData

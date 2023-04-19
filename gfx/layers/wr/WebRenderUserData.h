@@ -1184,6 +1184,14 @@ image
 :
 ImgDrawResult
 mDrawResult
+=
+image
+:
+:
+ImgDrawResult
+:
+:
+NOT_READY
 ;
 }
 ;
