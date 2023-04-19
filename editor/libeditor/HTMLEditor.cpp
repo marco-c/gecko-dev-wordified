@@ -17426,14 +17426,6 @@ aTagName
 editingHost
 )
 ;
-TopLevelEditSubActionDataRef
-(
-)
-.
-mNewBlockElement
-=
-nullptr
-;
 if
 (
 suggestBlockElementToPutCaretOrError
