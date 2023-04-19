@@ -9525,11 +9525,7 @@ aFamily
 aFamily
 -
 >
-GetFontList
-(
-)
-.
-Length
+FontListLength
 (
 )
 =
