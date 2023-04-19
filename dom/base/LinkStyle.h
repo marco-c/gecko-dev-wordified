@@ -516,6 +516,9 @@ unused
 ePRELOAD
 =
 0x00000080
+eMODULE_PRELOAD
+=
+0x00000100
 }
 ;
 /
