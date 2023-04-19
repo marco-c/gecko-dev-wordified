@@ -997,6 +997,3 @@ Werror
 switch
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
