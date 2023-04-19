@@ -456,6 +456,12 @@ GetOriginalCanvas
 ;
 }
 void
+OnMemoryPressure
+(
+)
+override
+;
+void
 OnBeforePaintTransaction
 (
 )
