@@ -3682,7 +3682,11 @@ self
 .
 expand_component_val_ty
 (
+&
+mut
 t
+.
+0
 )
 ;
 }
@@ -3979,9 +3983,15 @@ ty
 ComponentValType
 :
 :
+Inline
+(
+ComponentDefinedType
+:
+:
 Primitive
 (
 _
+)
 )
 |
 ComponentValType

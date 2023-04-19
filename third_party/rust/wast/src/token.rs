@@ -2811,6 +2811,8 @@ type
 derive
 (
 Debug
+Copy
+Clone
 )
 ]
 pub

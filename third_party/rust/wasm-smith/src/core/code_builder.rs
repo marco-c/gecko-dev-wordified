@@ -5,6 +5,7 @@ super
 {
 Elements
 FuncType
+GlobalInitExpr
 Instruction
 InstructionKind
 :
@@ -5251,10 +5252,10 @@ iter
 {
 if
 let
-Instruction
+GlobalInitExpr
 :
 :
-RefFunc
+FuncRef
 (
 i
 )

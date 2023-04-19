@@ -977,7 +977,7 @@ value
 .
 Value
 (
-ComponentValType
+ComponentValTypeUse
 <
 '
 a

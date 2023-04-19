@@ -693,7 +693,7 @@ Ok
 }
 pub
 fn
-next_code_entry_type
+next_code_index_and_type
 (
 &
 mut
@@ -706,7 +706,10 @@ usize
 >
 Result
 <
+(
 u32
+u32
+)
 >
 {
 let
@@ -785,7 +788,17 @@ index
 ;
 Ok
 (
+(
+(
+*
+index
+-
+1
+)
+as
+u32
 ty
+)
 )
 }
 pub
