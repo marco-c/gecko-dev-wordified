@@ -801,7 +801,7 @@ protects
 mFifoInfo
 FifoInfoArray
 mFifoInfo
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mFifoInfoLock
 )
@@ -945,7 +945,7 @@ protects
 mSignalInfo
 SignalInfoArray
 mSignalInfo
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mSignalInfoLock
 )

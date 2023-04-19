@@ -1586,7 +1586,7 @@ bool
 IsRegistrationBlocked
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 mMutex
 )
@@ -1733,7 +1733,7 @@ mMutex
 ;
 bool
 mIsRegistrationBlocked
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1741,7 +1741,7 @@ mMutex
 StrongReportersTable
 *
 mStrongReporters
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1749,7 +1749,7 @@ mMutex
 WeakReportersTable
 *
 mWeakReporters
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1768,7 +1768,7 @@ purposes
 StrongReportersTable
 *
 mSavedStrongReporters
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1776,7 +1776,7 @@ mMutex
 WeakReportersTable
 *
 mSavedWeakReporters
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -2137,7 +2137,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mThreadPool
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

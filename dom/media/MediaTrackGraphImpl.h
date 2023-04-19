@@ -1236,7 +1236,7 @@ TrackUpdate
 *
 aUpdate
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMonitor
 )
@@ -1774,7 +1774,7 @@ void
 EnsureStableStateEventPosted
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMonitor
 )
@@ -1811,7 +1811,7 @@ PrepareUpdatesToMainThreadState
 bool
 aFinalUpdate
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMonitor
 )
@@ -2026,7 +2026,7 @@ void
 SwapMessageQueues
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMonitor
 )
@@ -3680,7 +3680,7 @@ CurrentDriver
 (
 )
 const
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 #
 ifdef
@@ -5162,7 +5162,7 @@ nsTArray
 TrackUpdate
 >
 mTrackUpdates
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -5193,7 +5193,7 @@ nsIRunnable
 >
 >
 mUpdateRunnables
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -5278,7 +5278,7 @@ nsTArray
 MessageBlock
 >
 mBackMessageQueue
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -5306,7 +5306,7 @@ MessagesQueued
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mMonitor
 )
@@ -5809,7 +5809,7 @@ thread
 /
 LifecycleState
 mLifecycleState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -5819,7 +5819,7 @@ LifecycleState
 LifecycleStateRef
 (
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 #
 if
@@ -5859,7 +5859,7 @@ LifecycleStateRef
 (
 )
 const
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 #
 if
@@ -6018,7 +6018,7 @@ mMonitor
 /
 bool
 mInterruptJSCalled
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -6103,7 +6103,7 @@ held
 /
 bool
 mPostedRunInStableStateEvent
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -6170,7 +6170,7 @@ shutdown
 JSContext
 *
 mJSContext
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -6707,7 +6707,7 @@ mMonitor
 /
 GraphTime
 mNextMainThreadGraphTime
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )

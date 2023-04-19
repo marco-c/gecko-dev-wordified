@@ -721,7 +721,7 @@ mMutex
 ;
 bool
 mDisableAllSecurityCheck
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -731,7 +731,7 @@ nsCOMPtr
 nsIFile
 >
 mSettingsFile
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -741,7 +741,7 @@ nsTHashtable
 nsCertOverrideEntry
 >
 mSettingsTable
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

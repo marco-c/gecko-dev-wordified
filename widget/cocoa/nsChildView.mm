@@ -10044,7 +10044,7 @@ WidgetRenderingContext
 *
 aContext
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /
@@ -10146,7 +10146,7 @@ WidgetRenderingContext
 *
 aContext
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 mCompositingLock
 .

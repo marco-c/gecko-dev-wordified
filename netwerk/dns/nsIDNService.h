@@ -1263,7 +1263,7 @@ net
 BlocklistRange
 >
 mIDNBlocklist
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1310,7 +1310,7 @@ mLock
 /
 bool
 mShowPunycode
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1376,7 +1376,7 @@ mLock
 ;
 restrictionProfile
 mRestrictionProfile
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1395,7 +1395,7 @@ nsCOMPtr
 nsIPrefBranch
 >
 mIDNWhitelistPrefBranch
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1407,7 +1407,7 @@ by
 mLock
 bool
 mIDNUseWhitelist
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )

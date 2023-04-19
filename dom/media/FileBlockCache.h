@@ -1307,7 +1307,7 @@ us
 PRFileDesc
 *
 mFD
-PT_GUARDED_BY
+MOZ_PT_GUARDED_BY
 (
 mFileMutex
 )
@@ -1324,7 +1324,7 @@ file
 .
 int64_t
 mFDCurrentPos
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mFileMutex
 )
@@ -1500,7 +1500,7 @@ BlockChange
 >
 >
 mBlockChanges
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mDataMutex
 )
@@ -1536,7 +1536,7 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mBackgroundET
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mDataMutex
 )
@@ -1564,7 +1564,7 @@ deque
 int32_t
 >
 mChangeIndexList
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mDataMutex
 )
@@ -1594,7 +1594,7 @@ mBackgroundET
 .
 bool
 mIsWriteScheduled
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mDataMutex
 )
@@ -1632,7 +1632,7 @@ caller
 .
 bool
 mIsReading
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mDataMutex
 )
@@ -1687,7 +1687,7 @@ mDataMutex
 .
 bool
 mInitialized
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mDataMutex
 )

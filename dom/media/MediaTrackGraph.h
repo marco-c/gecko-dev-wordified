@@ -4714,7 +4714,7 @@ float
 GetVolumeLocked
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -4724,7 +4724,7 @@ Mutex
 GetMutex
 (
 )
-RETURN_CAPABILITY
+MOZ_RETURN_CAPABILITY
 (
 mMutex
 )
@@ -4918,7 +4918,7 @@ MediaSegment
 *
 aSegment
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -5005,7 +5005,7 @@ MediaSegment
 *
 aSegment
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -5103,7 +5103,7 @@ by
 mMutex
 float
 mVolume
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -5117,7 +5117,7 @@ UniquePtr
 TrackData
 >
 mUpdateTrack
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -5130,7 +5130,7 @@ DirectMediaTrackListener
 >
 >
 mDirectTrackListeners
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

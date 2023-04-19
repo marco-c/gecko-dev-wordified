@@ -338,7 +338,7 @@ StaticRefPtr
 GenericNonExclusivePromise
 >
 sLaunchRDDPromise
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sLaunchRDDMutex
 )
@@ -352,7 +352,7 @@ StaticRefPtr
 GenericNonExclusivePromise
 >
 sLaunchUtilityPromise
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sLaunchUtilityMutex
 )

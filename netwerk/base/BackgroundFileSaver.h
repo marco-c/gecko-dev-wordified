@@ -853,7 +853,7 @@ state
 /
 bool
 mWorkerThreadAttentionRequested
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -880,7 +880,7 @@ possibile
 /
 bool
 mFinishRequested
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -907,7 +907,7 @@ failure
 /
 bool
 mComplete
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -973,7 +973,7 @@ canceled
 /
 nsresult
 mStatus
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1006,7 +1006,7 @@ it
 /
 bool
 mAppend
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1081,7 +1081,7 @@ nsCOMPtr
 nsIFile
 >
 mInitialTarget
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1129,7 +1129,7 @@ canceled
 /
 bool
 mInitialTargetKeepPartial
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1233,7 +1233,7 @@ nsCOMPtr
 nsIFile
 >
 mRenamedTarget
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1280,7 +1280,7 @@ canceled
 /
 bool
 mRenamedTargetKeepPartial
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1326,7 +1326,7 @@ nsCOMPtr
 nsISupports
 >
 mAsyncCopyContext
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1368,7 +1368,7 @@ thread
 /
 nsCString
 mSha256
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1402,7 +1402,7 @@ called
 /
 bool
 mSha256Enabled
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1432,7 +1432,7 @@ uint8_t
 >
 >
 mSignatureInfo
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1466,7 +1466,7 @@ called
 /
 bool
 mSignatureInfoEnabled
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -2406,7 +2406,7 @@ data
 /
 bool
 mReceivedTooMuchData
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mSuspensionLock
 )
@@ -2447,7 +2447,7 @@ nsCOMPtr
 nsIRequest
 >
 mRequest
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mSuspensionLock
 )
@@ -2466,7 +2466,7 @@ suspended
 /
 bool
 mRequestSuspended
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mSuspensionLock
 )

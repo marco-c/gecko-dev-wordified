@@ -2102,7 +2102,7 @@ default
 ;
 TimeDelta
 rollover_
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sNowSingletonLock
 )
@@ -2119,7 +2119,7 @@ rollover
 .
 DWORD
 last_seen_
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sNowSingletonLock
 )
@@ -2132,9 +2132,9 @@ timeGetTime
 value
 we
 saw
+/
+/
 to
-/
-/
 detect
 rollover
 .

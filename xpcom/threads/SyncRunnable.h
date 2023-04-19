@@ -792,7 +792,7 @@ mMonitor
 ;
 bool
 mDone
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )

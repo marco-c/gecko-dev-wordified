@@ -311,7 +311,7 @@ you
 *
 /
 class
-CAPABILITY
+MOZ_CAPABILITY
 OffTheBooksMutex
 :
 public
@@ -432,7 +432,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -472,7 +472,7 @@ bool
 TryLock
 (
 )
-TRY_ACQUIRE
+MOZ_TRY_ACQUIRE
 (
 true
 )
@@ -501,7 +501,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -547,7 +547,7 @@ AssertCurrentThreadOwns
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -615,7 +615,7 @@ AssertNotCurrentThreadOwns
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 !
 this
@@ -628,7 +628,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 ;
@@ -641,7 +641,7 @@ bool
 TryLock
 (
 )
-TRY_ACQUIRE
+MOZ_TRY_ACQUIRE
 (
 true
 )
@@ -650,7 +650,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 ;
@@ -659,7 +659,7 @@ AssertCurrentThreadOwns
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -669,7 +669,7 @@ AssertNotCurrentThreadOwns
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 !
 this
@@ -1192,7 +1192,7 @@ AssertOnWritingThread
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -1213,7 +1213,7 @@ AssertOnWritingThreadOrHeld
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -1365,7 +1365,7 @@ T
 >
 class
 MOZ_RAII
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 BaseAutoLock
 {
 public
@@ -1421,7 +1421,7 @@ BaseAutoLock
 T
 aLock
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aLock
 )
@@ -1443,7 +1443,7 @@ BaseAutoLock
 (
 void
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -1668,7 +1668,7 @@ T
 aMutex
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 aMutex
 )
@@ -1853,7 +1853,7 @@ lock
 mutex
 )
 \
-PUSH_IGNORE_THREAD_SAFETY
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 \
 MutexSingleWriterAutoLock
 lock
@@ -1862,7 +1862,7 @@ mutex
 )
 ;
 \
-POP_THREAD_SAFETY
+MOZ_POP_THREAD_SAFETY
 namespace
 detail
 {
@@ -1922,7 +1922,7 @@ T
 >
 class
 MOZ_RAII
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 ReleasableBaseAutoLock
 {
 public
@@ -1978,7 +1978,7 @@ ReleasableBaseAutoLock
 T
 aLock
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aLock
 )
@@ -2004,7 +2004,7 @@ ReleasableBaseAutoLock
 (
 void
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -2028,7 +2028,7 @@ T
 aMutex
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 aMutex
 )
@@ -2121,7 +2121,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -2145,7 +2145,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -2298,7 +2298,7 @@ T
 >
 class
 MOZ_RAII
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 BaseAutoUnlock
 {
 public
@@ -2309,7 +2309,7 @@ BaseAutoUnlock
 T
 aLock
 )
-SCOPED_UNLOCK_RELEASE
+MOZ_SCOPED_UNLOCK_RELEASE
 (
 aLock
 )
@@ -2338,7 +2338,7 @@ aAutoLock
 )
 /
 *
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 aAutoLock
 .
@@ -2375,7 +2375,7 @@ Unlock
 BaseAutoUnlock
 (
 )
-SCOPED_UNLOCK_REACQUIRE
+MOZ_SCOPED_UNLOCK_REACQUIRE
 (
 )
 {
@@ -2537,7 +2537,7 @@ T
 >
 class
 MOZ_RAII
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 BaseAutoTryLock
 {
 public
@@ -2549,7 +2549,7 @@ T
 &
 aLock
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aLock
 )
@@ -2573,7 +2573,7 @@ nullptr
 BaseAutoTryLock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {

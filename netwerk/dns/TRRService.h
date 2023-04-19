@@ -779,7 +779,7 @@ thread
 only
 nsCString
 mConfirmationNS
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -794,7 +794,7 @@ _ns
 ;
 nsCString
 mBootstrapAddr
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -931,7 +931,7 @@ nsTHashSet
 nsCString
 >
 mExcludedDomains
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -941,7 +941,7 @@ nsTHashSet
 nsCString
 >
 mDNSSuffixDomains
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -951,7 +951,7 @@ nsTHashSet
 nsCString
 >
 mEtcHostsDomains
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
