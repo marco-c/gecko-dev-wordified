@@ -550,6 +550,13 @@ ReportBlockingError
 DisplayOfflineSupportPage
 "
 ]
+RPMCheckAlternateHostAvailable
+:
+[
+"
+*
+"
+]
 RPMAddMessageListener
 :
 [
