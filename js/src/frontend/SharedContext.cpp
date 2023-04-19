@@ -330,6 +330,9 @@ SharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Kind
 kind
 const
@@ -348,6 +351,10 @@ extent
 cx_
 (
 cx
+)
+ec_
+(
+ec
 )
 extent_
 (
@@ -595,6 +602,9 @@ GlobalSharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ScopeKind
 scopeKind
 const
@@ -613,6 +623,7 @@ extent
 SharedContext
 (
 cx
+ec
 Kind
 :
 :
@@ -670,6 +681,9 @@ EvalSharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -680,6 +694,7 @@ extent
 SharedContext
 (
 cx
+ec
 Kind
 :
 :
@@ -768,6 +783,9 @@ SuspendableContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Kind
 kind
 const
@@ -790,6 +808,7 @@ isAsync
 SharedContext
 (
 cx
+ec
 kind
 options
 directives
@@ -823,6 +842,9 @@ FunctionBox
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 SourceExtent
 extent
 CompilationState
@@ -847,6 +869,7 @@ index
 SuspendableContext
 (
 cx
+ec
 Kind
 :
 :
@@ -1866,6 +1889,9 @@ ModuleSharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -1883,6 +1909,7 @@ extent
 SuspendableContext
 (
 cx
+ec
 Kind
 :
 :

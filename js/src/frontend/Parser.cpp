@@ -1874,6 +1874,7 @@ FunctionBox
 >
 (
 cx_
+ec_
 extent
 compilationState_
 inheritedDirectives
@@ -2070,6 +2071,7 @@ FunctionBox
 >
 (
 cx_
+ec_
 cachedScriptExtra
 .
 extent
@@ -2501,6 +2503,10 @@ GlobalSharedContext
 globalsc
 (
 cx_
+this
+-
+>
+ec_
 ScopeKind
 :
 :

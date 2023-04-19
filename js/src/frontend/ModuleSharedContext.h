@@ -227,6 +227,9 @@ ModuleSharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :

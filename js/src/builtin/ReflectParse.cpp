@@ -26323,6 +26323,8 @@ ModuleSharedContext
 modulesc
 (
 cx
+&
+ec
 options
 builder
 extent

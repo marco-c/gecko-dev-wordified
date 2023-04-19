@@ -215,6 +215,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 FunctionFlags
 .
 h
@@ -831,6 +840,11 @@ JSContext
 const
 cx_
 ;
+ErrorContext
+*
+const
+ec_
+;
 protected
 :
 /
@@ -1186,6 +1200,9 @@ SharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Kind
 kind
 const
@@ -1720,6 +1737,9 @@ GlobalSharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ScopeKind
 scopeKind
 const
@@ -1796,6 +1816,9 @@ EvalSharedContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -1854,6 +1877,9 @@ SuspendableContext
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Kind
 kind
 const
@@ -2658,6 +2684,9 @@ FunctionBox
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 SourceExtent
 extent
 CompilationState
