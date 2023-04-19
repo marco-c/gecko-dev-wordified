@@ -1448,6 +1448,17 @@ addActiveTabPermission
 tab
 )
 ;
+this
+.
+extension
+.
+tabManager
+.
+activateScripts
+(
+tab
+)
+;
 let
 popupUrl
 =
