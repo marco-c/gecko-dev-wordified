@@ -634,6 +634,7 @@ points
 ;
 for
 (
+const
 auto
 &
 point
