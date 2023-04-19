@@ -11351,15 +11351,13 @@ it
 }
 getImageURL
 (
-aItem
+icon
 )
 {
 let
 iconURL
 =
-aItem
-.
-image
+icon
 ;
 /
 /
