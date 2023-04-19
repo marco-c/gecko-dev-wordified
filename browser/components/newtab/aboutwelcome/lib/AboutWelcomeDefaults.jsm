@@ -1543,6 +1543,9 @@ navigate
 :
 true
 }
+has_arrow_icon
+:
+true
 }
 secondary_button_top
 :
@@ -2078,6 +2081,9 @@ navigate
 :
 true
 }
+has_arrow_icon
+:
+true
 }
 }
 }
@@ -2314,6 +2320,9 @@ navigate
 :
 true
 }
+has_arrow_icon
+:
+true
 }
 }
 }
@@ -2986,6 +2995,9 @@ navigate
 :
 true
 }
+has_arrow_icon
+:
+true
 }
 }
 }
@@ -3312,6 +3324,9 @@ navigate
 :
 true
 }
+has_arrow_icon
+:
+true
 }
 }
 }
