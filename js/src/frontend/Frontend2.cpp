@@ -1279,6 +1279,7 @@ ScopeStencil
 createForGlobalScope
 (
 cx
+ec
 compilationState
 ScopeKind
 :
@@ -1414,6 +1415,7 @@ ScopeStencil
 createForVarScope
 (
 cx
+ec
 compilationState
 ScopeKind
 :
@@ -1571,6 +1573,7 @@ ScopeStencil
 createForLexicalScope
 (
 cx
+ec
 compilationState
 ScopeKind
 :
@@ -1777,6 +1780,7 @@ ScopeStencil
 createForFunctionScope
 (
 cx
+ec
 compilationState
 data
 hasParameterExprs

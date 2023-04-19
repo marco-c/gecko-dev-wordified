@@ -1081,9 +1081,6 @@ static
 void
 MarkParserScopeData
 (
-JSContext
-*
-cx
 typename
 ConcreteScope
 :
@@ -1312,9 +1309,9 @@ ParserData
 *
 NewEmptyParserScopeData
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc
@@ -1366,7 +1363,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -9639,6 +9636,9 @@ appendScopeStencilAndData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -9725,7 +9725,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -9778,7 +9778,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -9803,6 +9803,9 @@ createForFunctionScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -9870,7 +9873,6 @@ MarkParserScopeData
 ScopeType
 >
 (
-cx
 data
 compilationState
 )
@@ -9885,7 +9887,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-cx
+ec
 compilationState
 .
 alloc
@@ -9932,6 +9934,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 data
 index
@@ -9964,6 +9967,9 @@ createForLexicalScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -10019,7 +10025,6 @@ MarkParserScopeData
 ScopeType
 >
 (
-cx
 data
 compilationState
 )
@@ -10034,7 +10039,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-cx
+ec
 compilationState
 .
 alloc
@@ -10076,6 +10081,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 data
 index
@@ -10100,6 +10106,9 @@ createForClassBodyScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -10155,7 +10164,6 @@ MarkParserScopeData
 ScopeType
 >
 (
-cx
 data
 compilationState
 )
@@ -10170,7 +10178,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-cx
+ec
 compilationState
 .
 alloc
@@ -10212,6 +10220,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 data
 index
@@ -10231,6 +10240,9 @@ createForVarScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -10288,7 +10300,6 @@ MarkParserScopeData
 ScopeType
 >
 (
-cx
 data
 compilationState
 )
@@ -10303,7 +10314,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-cx
+ec
 compilationState
 .
 alloc
@@ -10346,6 +10357,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 data
 index
@@ -10370,6 +10382,9 @@ createForGlobalScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -10415,7 +10430,6 @@ MarkParserScopeData
 ScopeType
 >
 (
-cx
 data
 compilationState
 )
@@ -10430,7 +10444,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-cx
+ec
 compilationState
 .
 alloc
@@ -10524,6 +10538,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 data
 index
@@ -10548,6 +10563,9 @@ createForEvalScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -10601,7 +10619,6 @@ MarkParserScopeData
 ScopeType
 >
 (
-cx
 data
 compilationState
 )
@@ -10616,7 +10633,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-cx
+ec
 compilationState
 .
 alloc
@@ -10662,6 +10679,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 data
 index
@@ -10686,6 +10704,9 @@ createForModuleScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -10745,7 +10766,6 @@ MarkParserScopeData
 ScopeType
 >
 (
-cx
 data
 compilationState
 )
@@ -10760,7 +10780,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-cx
+ec
 compilationState
 .
 alloc
@@ -10848,6 +10868,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 data
 index
@@ -10988,6 +11009,9 @@ createForWithScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationState
 &
 compilationState
@@ -11041,6 +11065,7 @@ return
 appendScopeStencilAndData
 (
 cx
+ec
 compilationState
 nullptr
 index
