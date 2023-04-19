@@ -36,12 +36,6 @@ for
 complete
 details
 .
-from
-__future__
-import
-absolute_import
-division
-print_function
 __all__
 =
 [
@@ -110,9 +104,9 @@ packaging
 __version__
 =
 "
-20
+21
 .
-9
+3
 "
 __author__
 =
