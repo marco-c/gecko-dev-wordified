@@ -162,6 +162,10 @@ onButtonClick
 (
 browser
 "
+.
+action
+-
+buttons
 button
 .
 secondary
