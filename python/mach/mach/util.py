@@ -73,6 +73,7 @@ from
 typing
 import
 Optional
+Union
 class
 UserError
 (
@@ -281,10 +282,20 @@ value
 def
 get_state_dir
 (
+    
 specific_to_topsrcdir
 =
 False
 topsrcdir
+:
+Optional
+[
+Union
+[
+str
+Path
+]
+]
 =
 None
 )
@@ -354,6 +365,8 @@ str
     
 state_dir
 =
+Path
+(
 os
 .
 environ
@@ -363,15 +376,13 @@ get
 "
 MOZBUILD_STATE_PATH
 "
-os
+Path
 .
-path
-.
-expanduser
+home
 (
-"
-~
+)
 /
+"
 .
 mozbuild
 "
@@ -384,7 +395,10 @@ specific_to_topsrcdir
 :
         
 return
+str
+(
 state_dir
+)
     
 if
 not
@@ -434,11 +448,7 @@ MozbuildObject
         
 topsrcdir
 =
-os
-.
-path
-.
-abspath
+Path
 (
             
 MozbuildObject
@@ -447,13 +457,14 @@ from_environment
 (
 cwd
 =
-os
-.
-path
-.
-dirname
+str
+(
+Path
 (
 __file__
+)
+.
+parent
 )
 )
 .
@@ -477,20 +488,13 @@ it
     
 topsrcdir
 =
-os
-.
-path
-.
-normcase
-(
-os
-.
-path
-.
-normpath
+Path
 (
 topsrcdir
 )
+.
+resolve
+(
 )
     
 #
@@ -527,7 +531,10 @@ hashlib
 .
 sha256
 (
+str
+(
 topsrcdir
+)
 .
 encode
 (
@@ -549,49 +556,31 @@ hexdigest
     
 state_dir
 =
-os
-.
-path
-.
-join
-(
-        
 state_dir
+/
 "
 srcdirs
 "
+/
+f
 "
 {
+topsrcdir
+.
+name
 }
 -
 {
+srcdir_hash
 }
 "
-.
-format
-(
-os
-.
-path
-.
-basename
-(
-topsrcdir
-)
-srcdir_hash
-)
-    
-)
     
 if
 not
-os
-.
-path
-.
-isdir
-(
 state_dir
+.
+is_dir
+(
 )
 :
         
@@ -627,27 +616,29 @@ inconsistently
         
 print
 (
+f
 "
 Creating
 local
 state
 directory
 :
-%
-s
-"
-%
+{
 state_dir
+}
+"
 )
         
-os
-.
-makedirs
-(
 state_dir
+.
+mkdir
+(
 mode
 =
 0o770
+parents
+=
+True
 )
         
 #
@@ -678,21 +669,20 @@ deleted
 .
         
 with
-open
-(
-os
-.
-path
-.
-join
 (
 state_dir
+/
 "
 topsrcdir
 .
 txt
 "
 )
+.
+open
+(
+mode
+=
 "
 w
 "
@@ -705,11 +695,17 @@ fh
 .
 write
 (
+str
+(
 topsrcdir
+)
 )
     
 return
+str
+(
 state_dir
+)
 def
 win_to_msys_path
 (
