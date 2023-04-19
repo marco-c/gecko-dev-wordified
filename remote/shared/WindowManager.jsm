@@ -1649,7 +1649,7 @@ window
 .
 *
 /
-waitForInitialApplicationWindow
+waitForInitialApplicationWindowLoaded
 (
 )
 {
