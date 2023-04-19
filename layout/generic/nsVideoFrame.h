@@ -317,12 +317,6 @@ s
 display
 *
 /
-nsSize
-GetVideoIntrinsicSize
-(
-)
-const
-;
 mozilla
 :
 :
