@@ -3833,7 +3833,6 @@ location
 href
 ;
 }
-else
 if
 (
 ownerNode
