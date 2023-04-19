@@ -184,6 +184,13 @@ h
 #
 include
 "
+MoveNodeTransaction
+.
+h
+"
+#
+include
+"
 PlaceholderTransaction
 .
 h
@@ -515,6 +522,10 @@ InsertTextTransaction
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (
 JoinNodesTransaction
+)
+NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
+(
+MoveNodeTransaction
 )
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (

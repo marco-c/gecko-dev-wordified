@@ -1419,6 +1419,14 @@ HTMLEditHelpers
 .
 h
 class
+MoveNodeTransaction
+;
+/
+/
+MoveNodeTransaction
+.
+h
+class
 PlaceholderTransaction
 ;
 /

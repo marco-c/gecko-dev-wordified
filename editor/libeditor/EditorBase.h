@@ -7774,6 +7774,12 @@ case
 EditSubAction
 :
 :
+eMoveNode
+:
+case
+EditSubAction
+:
+:
 eCreateNode
 :
 case
@@ -18083,6 +18089,13 @@ ListItemElementSelectionState
 /
 /
 AutoEditActionDataSetter
+/
+/
+ToGenericNSResult
+friend
+class
+MoveNodeTransaction
+;
 /
 /
 ToGenericNSResult

@@ -353,6 +353,10 @@ JoinNodesTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE
 (
+MoveNodeTransaction
+)
+NS_DECL_GETASTRANSACTION_BASE
+(
 PlaceholderTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE

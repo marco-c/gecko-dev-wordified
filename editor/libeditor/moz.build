@@ -407,6 +407,11 @@ JoinNodesTransaction
 cpp
 "
 "
+MoveNodeTransaction
+.
+cpp
+"
+"
 PlaceholderTransaction
 .
 cpp
