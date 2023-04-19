@@ -123,9 +123,7 @@ serialize_tuple
 N
 :
 :
-to_usize
-(
-)
+USIZE
 )
 ?
 ;
@@ -300,9 +298,7 @@ in
 N
 :
 :
-to_usize
-(
-)
+USIZE
 {
 result
 [
@@ -430,9 +426,7 @@ deserialize_tuple
 N
 :
 :
-to_usize
-(
-)
+USIZE
 visitor
 )
 }
@@ -590,7 +584,7 @@ U2
 >
 (
 &
-array
+serialized
 )
 ;
 assert

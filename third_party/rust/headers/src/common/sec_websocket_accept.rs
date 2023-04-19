@@ -247,14 +247,14 @@ default
 ;
 sha1
 .
-input
+update
 (
 key
 )
 ;
 sha1
 .
-input
+update
 (
 &
 b
@@ -291,7 +291,7 @@ encode
 &
 sha1
 .
-result
+finalize
 (
 )
 )

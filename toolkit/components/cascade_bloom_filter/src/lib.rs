@@ -249,7 +249,6 @@ nsresult
 let
 filter
 =
-*
 Cascade
 :
 :
@@ -361,9 +360,11 @@ filter
 .
 has
 (
-&
-*
 key
+.
+to_vec
+(
+)
 )
 )
 }
