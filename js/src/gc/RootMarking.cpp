@@ -1675,6 +1675,8 @@ GC
 if
 (
 atomsZone
+(
+)
 -
 >
 isGCMarking

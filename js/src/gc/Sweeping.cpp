@@ -4648,6 +4648,8 @@ zone
 findSweepGroupEdges
 (
 atomsZone
+(
+)
 )
 )
 {
@@ -10594,6 +10596,8 @@ zones
 append
 (
 atomsZone
+(
+)
 )
 ;
 }
@@ -11481,6 +11485,8 @@ if
 (
 !
 atomsZone
+(
+)
 -
 >
 isGCSweeping
