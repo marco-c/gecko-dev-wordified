@@ -1479,6 +1479,9 @@ AboutWelcomeDefaults
 .
 getDefaults
 (
+featureConfig
+.
+templateMR
 )
 ;
 /
