@@ -1758,7 +1758,7 @@ compilationState_
 .
 appendScriptStencilAndData
 (
-cx_
+ec_
 )
 )
 {
@@ -1989,7 +1989,7 @@ compilationState_
 .
 appendScriptStencilAndData
 (
-cx_
+ec_
 )
 )
 {
@@ -13736,6 +13736,7 @@ compilationState_
 allocateGCThingsUninitialized
 (
 cx_
+ec_
 funbox
 -
 >
@@ -66358,7 +66359,7 @@ init
 this
 -
 >
-cx_
+ec_
 this
 -
 >

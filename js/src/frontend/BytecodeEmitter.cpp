@@ -1597,7 +1597,7 @@ compilationState
 .
 prepareSharedDataStorage
 (
-cx
+ec
 )
 )
 {
@@ -73610,6 +73610,7 @@ compilationState
 appendGCThings
 (
 cx
+ec
 scriptIndex
 things
 )

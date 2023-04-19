@@ -26143,6 +26143,12 @@ tempLifoAlloc
 )
 )
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 frontend
 :
 :
@@ -26166,6 +26172,8 @@ compilationState
 init
 (
 cx
+&
+ec
 )
 )
 {
@@ -26173,12 +26181,6 @@ return
 false
 ;
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 Parser
 <
 FullParseHandler

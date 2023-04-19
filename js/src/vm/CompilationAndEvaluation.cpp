@@ -1197,6 +1197,12 @@ return
 false
 ;
 }
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 !
@@ -1206,6 +1212,8 @@ initial
 steal
 (
 cx
+&
+ec
 std
 :
 :
@@ -1589,6 +1597,12 @@ tempLifoAlloc
 )
 )
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 frontend
 :
 :
@@ -1612,6 +1626,8 @@ compilationState
 init
 (
 cx
+&
+ec
 )
 )
 {
@@ -1619,12 +1635,6 @@ return
 false
 ;
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 JS
 :
 :
