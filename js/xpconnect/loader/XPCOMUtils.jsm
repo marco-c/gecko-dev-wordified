@@ -94,6 +94,15 @@ MPL
 .
 *
 /
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+XPCOMUtils
+"
+]
+;
 const
 {
 AppConstants
@@ -251,7 +260,6 @@ return
 value
 ;
 }
-export
 var
 XPCOMUtils
 =

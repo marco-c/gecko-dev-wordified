@@ -41,9 +41,7 @@ defineLazyProxy
 from
 XPCOMUtils
 .
-sys
-.
-mjs
+jsm
 .
 *
 /
@@ -54,7 +52,7 @@ XPCOMUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -67,9 +65,7 @@ modules
 /
 XPCOMUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
