@@ -6769,6 +6769,12 @@ gfxFT2FontList
 (
 )
 {
+AutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 mObserver

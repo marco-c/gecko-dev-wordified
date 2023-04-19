@@ -6937,6 +6937,12 @@ gfxMacPlatformFontList
 (
 )
 {
+AutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 XRE_IsParentProcess

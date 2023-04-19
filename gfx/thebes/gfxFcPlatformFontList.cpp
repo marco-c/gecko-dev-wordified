@@ -8669,6 +8669,12 @@ gfxFcPlatformFontList
 (
 )
 {
+AutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 mCheckFontUpdatesTimer
