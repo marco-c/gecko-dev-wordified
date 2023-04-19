@@ -11279,11 +11279,6 @@ IsFixedPosContainingBlockForTransformSupportingFrames
 )
 const
 ;
-void
-GenerateCombinedIndividualTransform
-(
-)
-;
 private
 :
 StyleContain
