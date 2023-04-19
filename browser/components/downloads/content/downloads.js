@@ -3306,7 +3306,7 @@ _preventFocusRing
 {
 focusOptions
 .
-focusRing
+focusVisible
 =
 false
 ;
