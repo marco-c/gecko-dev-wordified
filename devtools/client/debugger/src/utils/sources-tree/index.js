@@ -135,17 +135,6 @@ getURL
 ;
 export
 {
-sortTree
-}
-from
-"
-.
-/
-sortTree
-"
-;
-export
-{
 createTree
 updateTree
 }
