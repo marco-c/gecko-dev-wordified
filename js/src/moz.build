@@ -4713,13 +4713,6 @@ js
 "
 builtin
 /
-Module
-.
-js
-"
-"
-builtin
-/
 Number
 .
 js
