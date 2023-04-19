@@ -326,6 +326,11 @@ MFMediaEngineParent
 .
 cpp
 "
+"
+MFMediaEngineUtils
+.
+cpp
+"
 ]
 EXPORTS
 .
