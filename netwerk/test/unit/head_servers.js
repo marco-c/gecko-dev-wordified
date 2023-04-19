@@ -3405,13 +3405,14 @@ global
 wsInputHandler
 )
 {
-return
 global
 .
 wsInputHandler
 (
 data
 )
+;
+return
 ;
 }
 global
