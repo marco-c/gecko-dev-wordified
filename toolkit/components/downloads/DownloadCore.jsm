@@ -4105,7 +4105,6 @@ deleteTempFileOnExit
 )
 &
 &
-!
 Services
 .
 prefs
@@ -4117,8 +4116,9 @@ browser
 .
 download
 .
-improvements_to_download_panel
+start_downloads_in_tmp_dir
 "
+false
 )
 )
 {
