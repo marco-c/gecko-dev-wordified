@@ -11015,14 +11015,13 @@ NoteGCSliceEnd
 (
 aDesc
 .
-lastSliceEnd
+lastSliceStart
 (
 aCx
 )
--
 aDesc
 .
-lastSliceStart
+lastSliceEnd
 (
 aCx
 )
