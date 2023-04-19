@@ -186,8 +186,8 @@ BytecodeEmitter
 bce
 int32_t
 iterDepth
-bool
-allowSelfHosted
+SelfHostedIter
+selfHostedIter
 IteratorKind
 iterKind
 )
@@ -208,9 +208,9 @@ numYieldsAtBeginCodeNeedingIterClose_
 (
 UINT32_MAX
 )
-allowSelfHosted_
+selfHostedIter_
 (
-allowSelfHosted
+selfHostedIter
 )
 iterKind_
 (
@@ -908,7 +908,7 @@ emitIteratorCloseInScope
 currentScope
 iterKind_
 completionKind
-allowSelfHosted_
+selfHostedIter_
 )
 ;
 }
