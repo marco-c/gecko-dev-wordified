@@ -1295,7 +1295,9 @@ status
 =
 UptakeTelemetry
 .
-STATUS_SUCCESS
+STATUS
+.
+SUCCESS
 )
 ;
 return
