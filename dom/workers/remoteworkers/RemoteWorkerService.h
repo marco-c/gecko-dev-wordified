@@ -352,7 +352,7 @@ InitializeOnTargetThread
 )
 ;
 void
-ShutdownOnTargetThread
+CloseActorOnTargetThread
 (
 )
 ;
