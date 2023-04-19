@@ -1032,6 +1032,11 @@ test_timeout_mode3
 ;
 add_task
 (
+test_trr_retry
+)
+;
+add_task
+(
 test_strict_native_fallback
 )
 ;
