@@ -492,16 +492,6 @@ nsClipboard
 (
 )
 {
-EmptyClipboard
-(
-kGlobalClipboard
-)
-;
-EmptyClipboard
-(
-kFindClipboard
-)
-;
 ClearSelectionCache
 (
 )
