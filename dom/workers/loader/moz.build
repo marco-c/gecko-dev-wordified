@@ -169,6 +169,11 @@ NetworkLoadHandler
 cpp
 "
 "
+ScriptLoadInfo
+.
+cpp
+"
+"
 ScriptResponseHeaderProcessor
 .
 cpp

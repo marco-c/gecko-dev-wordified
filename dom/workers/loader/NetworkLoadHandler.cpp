@@ -1893,15 +1893,6 @@ mLoader
 IsCancelled
 (
 )
-|
-|
-!
-mLoader
--
->
-GetCacheCreator
-(
-)
 )
 {
 return
@@ -2355,7 +2346,7 @@ dom
 :
 Response
 (
-mLoader
+mLoadInfo
 -
 >
 GetCacheCreator
@@ -2451,7 +2442,7 @@ Promise
 >
 cachePromise
 =
-mLoader
+mLoadInfo
 -
 >
 GetCacheCreator
