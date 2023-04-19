@@ -2968,9 +2968,7 @@ parsed
 with
             
 #
-distutils
-.
-version
+looseversion
 .
 LooseVersion
 .

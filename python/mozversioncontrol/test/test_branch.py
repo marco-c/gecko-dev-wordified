@@ -54,9 +54,7 @@ MPL
 /
 .
 from
-distutils
-.
-version
+looseversion
 import
 LooseVersion
 import

@@ -216,29 +216,10 @@ compilation
 "
 "
 "
-try
-:
-  
+from
+looseversion
 import
-distutils
-.
-version
-except
-ImportError
-:
-  
-#
-distutils
-is
-not
-available
-in
-all
-environments
-  
-distutils
-=
-None
+LooseVersion
 import
 logging
 import
@@ -4129,14 +4110,7 @@ check
 .
     
 if
-distutils
-and
 not
-(
-distutils
-.
-version
-.
 LooseVersion
 (
 GetJavaVersion
@@ -4144,11 +4118,6 @@ GetJavaVersion
 )
 )
 >
-        
-distutils
-.
-version
-.
 LooseVersion
 (
 '
@@ -4156,7 +4125,6 @@ LooseVersion
 .
 6
 '
-)
 )
 :
       

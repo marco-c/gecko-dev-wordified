@@ -82,9 +82,7 @@ import
 defaultdict
 OrderedDict
 from
-distutils
-.
-version
+looseversion
 import
 LooseVersion
 from

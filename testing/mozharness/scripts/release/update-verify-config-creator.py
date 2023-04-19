@@ -59,9 +59,7 @@ import
 absolute_import
 division
 from
-distutils
-.
-version
+looseversion
 import
 LooseVersion
 import
