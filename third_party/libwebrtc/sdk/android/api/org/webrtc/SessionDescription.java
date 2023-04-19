@@ -162,6 +162,7 @@ Type
 OFFER
 PRANSWER
 ANSWER
+ROLLBACK
 ;
 public
 String
