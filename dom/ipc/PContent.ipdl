@@ -152,10 +152,6 @@ PHandlerService
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PHal
 ;
 include
@@ -2632,9 +2628,6 @@ manages
 PExternalHelperApp
 ;
 manages
-PFileDescriptorSet
-;
-manages
 PHal
 ;
 manages
@@ -3084,13 +3077,6 @@ isTopLevel
 ;
 both
 :
-async
-PFileDescriptorSet
-(
-FileDescriptor
-fd
-)
-;
 /
 /
 For
