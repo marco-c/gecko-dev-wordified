@@ -3110,6 +3110,16 @@ any
 .
 STARTUPINFOW
 currentStartupInfo
+=
+{
+.
+cb
+=
+sizeof
+(
+STARTUPINFOW
+)
+}
 ;
 GetStartupInfoW
 (
