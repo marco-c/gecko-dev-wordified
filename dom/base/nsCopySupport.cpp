@@ -734,6 +734,11 @@ nsIDocumentEncoder
 :
 :
 OutputForPlainTextClipboardCopy
+|
+nsIDocumentEncoder
+:
+:
+OutputPersistNBSP
 ;
 nsresult
 rv
