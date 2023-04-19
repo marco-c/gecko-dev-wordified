@@ -1355,9 +1355,9 @@ PerScriptData
 :
 init
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 )
 {
 return
@@ -1365,7 +1365,7 @@ atomIndices_
 .
 acquire
 (
-cx
+ec
 )
 ;
 }

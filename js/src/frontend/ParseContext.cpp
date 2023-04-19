@@ -1361,7 +1361,7 @@ sc
 )
 -
 >
-cx_
+ec_
 )
 )
 {
@@ -2166,16 +2166,16 @@ return
 false
 ;
 }
-JSContext
+ErrorContext
 *
-cx
+ec
 =
 sc
 (
 )
 -
 >
-cx_
+ec_
 ;
 if
 (
@@ -2211,7 +2211,7 @@ finish
 parsing
 the
 function
-in
+iNn
 /
 /
 finishFunctionScopes
@@ -2340,7 +2340,7 @@ positionalFormalParameterNames_
 .
 acquire
 (
-cx
+ec
 )
 )
 {
@@ -2356,7 +2356,7 @@ closedOverBindingsForLazy_
 .
 acquire
 (
-cx
+ec
 )
 )
 {
