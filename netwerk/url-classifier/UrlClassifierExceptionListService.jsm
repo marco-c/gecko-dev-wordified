@@ -56,16 +56,12 @@ MPL
 .
 *
 /
-this
-.
-UrlClassifierExceptionListService
-=
 function
+UrlClassifierExceptionListService
 (
 )
 {
 }
-;
 const
 {
 Services
