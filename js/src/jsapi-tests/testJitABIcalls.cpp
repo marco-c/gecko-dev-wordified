@@ -5739,6 +5739,13 @@ this
 result
 )
 ;
+JitContext
+jcx
+(
+cx
+nullptr
+)
+;
 StackMacroAssembler
 masm
 (

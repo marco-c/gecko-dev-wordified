@@ -2506,15 +2506,6 @@ mozilla
 :
 Maybe
 <
-JitContext
->
-jitContext_
-;
-mozilla
-:
-:
-Maybe
-<
 AutoJitContextAlloc
 >
 alloc_
