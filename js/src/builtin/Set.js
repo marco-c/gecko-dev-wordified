@@ -116,6 +116,7 @@ IsCallable
 adder
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -123,6 +124,7 @@ typeof
 adder
 )
 ;
+}
 /
 /
 Steps
@@ -142,6 +144,7 @@ allowContentIter
 iterable
 )
 )
+{
 callContentFunction
 (
 adder
@@ -149,6 +152,7 @@ set
 nextValue
 )
 ;
+}
 }
 #
 ifdef
@@ -3383,6 +3387,7 @@ S
 =
 null
 )
+{
 return
 callFunction
 (
@@ -3395,6 +3400,7 @@ SetForEach
 "
 )
 ;
+}
 /
 /
 Step
@@ -3408,6 +3414,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -3418,6 +3425,7 @@ callbackfn
 )
 )
 ;
+}
 /
 /
 Steps
@@ -3451,6 +3459,7 @@ if
 !
 setIterationResult
 )
+{
 setIterationResult
 =
 setIteratorTemp
@@ -3461,6 +3470,7 @@ CreateSetIterationResult
 (
 )
 ;
+}
 while
 (
 true
@@ -3479,8 +3489,10 @@ if
 (
 done
 )
+{
 break
 ;
+}
 var
 value
 =
@@ -3621,6 +3633,7 @@ O
 =
 null
 )
+{
 return
 callFunction
 (
@@ -3631,6 +3644,7 @@ SetIteratorNext
 "
 )
 ;
+}
 /
 /
 Steps
@@ -3665,6 +3679,7 @@ if
 !
 setIterationResult
 )
+{
 setIterationResult
 =
 setIteratorTemp
@@ -3675,6 +3690,7 @@ CreateSetIterationResult
 (
 )
 ;
+}
 var
 retVal
 =
