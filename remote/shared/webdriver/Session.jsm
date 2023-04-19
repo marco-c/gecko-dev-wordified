@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 accessibility
 :
@@ -294,7 +300,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -302,6 +308,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -1659,6 +1667,8 @@ this
 .
 capabilities
 =
+lazy
+.
 Capabilities
 .
 fromJSON
@@ -1677,6 +1687,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 SessionNotCreatedError
@@ -1699,6 +1711,8 @@ acceptInsecureCerts
 )
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -1716,6 +1730,8 @@ session
 "
 )
 ;
+lazy
+.
 allowAllCerts
 .
 enable
@@ -1734,6 +1750,8 @@ init
 )
 )
 {
+lazy
+.
 logger
 .
 info
@@ -1798,11 +1816,15 @@ this
 a11yChecks
 &
 &
+lazy
+.
 accessibility
 .
 service
 )
 {
+lazy
+.
 logger
 .
 info
@@ -1868,6 +1890,8 @@ destroy
 (
 )
 {
+lazy
+.
 allowAllCerts
 .
 disable
@@ -1911,6 +1935,8 @@ size
 0
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -2078,6 +2104,8 @@ destination
 {
 type
 :
+lazy
+.
 RootMessageHandler
 .
 type
@@ -2100,6 +2128,8 @@ destination
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownCommandError
@@ -2171,6 +2201,8 @@ this
 .
 _messageHandler
 =
+lazy
+.
 RootMessageHandlerRegistry
 .
 getOrCreateMessageHandler
@@ -2376,6 +2408,8 @@ connection
 }
 else
 {
+lazy
+.
 logger
 .
 warn
@@ -2506,6 +2540,8 @@ const
 webSocket
 =
 await
+lazy
+.
 WebSocketHandshake
 .
 upgrade
@@ -2518,6 +2554,8 @@ const
 conn
 =
 new
+lazy
+.
 WebDriverBiDiConnection
 (
 webSocket
