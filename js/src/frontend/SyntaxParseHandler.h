@@ -1154,9 +1154,9 @@ public
 :
 SyntaxParseHandler
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 CompilationState
 &
 compilationState
