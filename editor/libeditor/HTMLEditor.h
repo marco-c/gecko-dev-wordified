@@ -1248,6 +1248,17 @@ aState
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+OnFocus
+(
+const
+nsINode
+&
+aOriginalEventTargetNode
+)
+final
+;
 /
 *
 *
