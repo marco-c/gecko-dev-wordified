@@ -24138,6 +24138,13 @@ ColorwayClosetOpener
 .
 openModal
 (
+{
+source
+:
+"
+aboutaddons
+"
+}
 )
 ;
 }
