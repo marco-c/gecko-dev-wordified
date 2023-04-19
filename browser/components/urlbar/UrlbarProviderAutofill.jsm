@@ -3914,6 +3914,11 @@ SELECT
 queryType
 AS
 query_type
+i
+.
+input
+AS
+input
 h
 .
 url
@@ -4118,6 +4123,9 @@ let
 autofilledValue
 finalCompleteValue
 autofilledType
+;
+let
+adaptiveHistoryInput
 ;
 switch
 (
@@ -4442,6 +4450,17 @@ url
 "
 )
 ;
+adaptiveHistoryInput
+=
+row
+.
+getResultByName
+(
+"
+input
+"
+)
+;
 autofilledType
 =
 "
@@ -4565,6 +4584,7 @@ result
 autofill
 =
 {
+adaptiveHistoryInput
 value
 :
 autofilledValue
