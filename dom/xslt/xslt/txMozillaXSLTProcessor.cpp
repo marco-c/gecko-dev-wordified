@@ -493,6 +493,7 @@ handler
 new
 txMozillaXMLOutput
 (
+mSourceDocument
 aFormat
 mObserver
 )
@@ -550,6 +551,7 @@ handler
 new
 txMozillaTextOutput
 (
+mSourceDocument
 mObserver
 )
 )
@@ -562,7 +564,6 @@ handler
 >
 createResultDocument
 (
-mSourceDocument
 mDocumentIsData
 )
 ;
@@ -677,6 +678,7 @@ handler
 new
 txMozillaXMLOutput
 (
+mSourceDocument
 aFormat
 mObserver
 )
@@ -731,6 +733,7 @@ handler
 new
 txMozillaTextOutput
 (
+mSourceDocument
 mObserver
 )
 )
@@ -743,7 +746,6 @@ handler
 >
 createResultDocument
 (
-mSourceDocument
 mDocumentIsData
 )
 ;
@@ -5248,6 +5250,12 @@ mObserver
 >
 OnTransformDone
 (
+mSource
+-
+>
+OwnerDoc
+(
+)
 mTransformResult
 document
 )

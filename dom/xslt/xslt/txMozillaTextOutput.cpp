@@ -217,11 +217,18 @@ txMozillaTextOutput
 :
 txMozillaTextOutput
 (
+Document
+*
+aSourceDocument
 nsITransformObserver
 *
 aObserver
 )
 :
+mSourceDocument
+(
+aSourceDocument
+)
 mObserver
 (
 do_GetWeakReference
@@ -579,6 +586,7 @@ observer
 >
 OnTransformDone
 (
+mSourceDocument
 aResult
 mDocument
 )
@@ -639,9 +647,6 @@ txMozillaTextOutput
 :
 createResultDocument
 (
-Document
-*
-aSourceDocument
 bool
 aLoadedAsData
 )
@@ -819,7 +824,7 @@ nsIScriptGlobalObject
 *
 sgo
 =
-aSourceDocument
+mSourceDocument
 -
 >
 GetScriptHandlingObject
@@ -858,7 +863,7 @@ URIUtils
 ResetWithSource
 (
 mDocument
-aSourceDocument
+mSourceDocument
 )
 ;
 /
@@ -979,6 +984,7 @@ observer
 >
 OnDocumentCreated
 (
+mSourceDocument
 mDocument
 )
 ;
