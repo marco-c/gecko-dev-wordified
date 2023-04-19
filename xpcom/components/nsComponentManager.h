@@ -465,14 +465,6 @@ d5dc
 /
 /
 /
-extern
-const
-mozilla
-:
-:
-Module
-kXPCOMModule
-;
 namespace
 {
 class
