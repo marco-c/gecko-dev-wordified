@@ -585,7 +585,7 @@ Create
 (
 encoded_image
 .
-capacity
+size
 (
 )
 )
@@ -652,7 +652,7 @@ Create
 (
 encoded_image
 .
-capacity
+size
 (
 )
 )
@@ -6892,18 +6892,6 @@ value_or
 0
 )
 ;
-/
-/
-TODO
-(
-nisse
-)
-:
-Why
-not
-size
-(
-)
 encoded_frame
 [
 index
@@ -6918,7 +6906,7 @@ Create
 (
 encoded_image
 .
-capacity
+size
 (
 )
 )
