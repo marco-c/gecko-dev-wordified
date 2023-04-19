@@ -578,12 +578,13 @@ isMapped
 =
 true
 ;
-return
 replaceNode
 (
 ancestors
 newNode
 )
+;
+return
 ;
 }
 return

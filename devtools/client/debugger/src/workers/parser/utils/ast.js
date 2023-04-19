@@ -266,6 +266,9 @@ opts
 {
 let
 ast
+=
+{
+}
 ;
 if
 (
@@ -274,6 +277,7 @@ text
 )
 {
 return
+ast
 ;
 }
 try
@@ -298,11 +302,6 @@ error
 (
 error
 )
-;
-ast
-=
-{
-}
 ;
 }
 return
@@ -416,6 +415,8 @@ string
 )
 {
 return
+{
+}
 ;
 }
 let
