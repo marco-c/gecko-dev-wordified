@@ -1,17 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-skip
--
-if
-:
-isLcovEnabled
-(
-)
 let
 source
 =
@@ -66,7 +52,7 @@ fileName
 "
 inner
 -
-00
+03
 .
 js
 "
@@ -76,7 +62,7 @@ lineNumber
 eagerDelazificationStrategy
 :
 "
-OnDemandOnly
+ParseEverythingEagerly
 "
 newContext
 :
