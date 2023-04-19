@@ -63,6 +63,15 @@ inherent
 inherent
 ;
 use
+std
+:
+:
+sync
+:
+:
+Arc
+;
+use
 super
 :
 :
@@ -321,6 +330,8 @@ StringMetric
 {
 Parent
 (
+Arc
+<
 glean
 :
 :
@@ -328,6 +339,7 @@ private
 :
 :
 StringMetric
+>
 )
 Child
 (
@@ -393,6 +405,11 @@ StringMetric
 :
 Parent
 (
+Arc
+:
+:
+new
+(
 glean
 :
 :
@@ -405,6 +422,7 @@ StringMetric
 new
 (
 meta
+)
 )
 )
 }
