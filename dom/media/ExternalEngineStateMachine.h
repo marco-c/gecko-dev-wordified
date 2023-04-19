@@ -1451,6 +1451,15 @@ MediaResult
 aError
 )
 ;
+bool
+IsFormatSupportedByExternalEngine
+(
+const
+MediaInfo
+&
+aInfo
+)
+;
 /
 /
 Functions
