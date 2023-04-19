@@ -209,7 +209,7 @@ openNewTabAndConsole
 const
 onMessageAvailable
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 TEST_URI

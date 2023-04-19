@@ -225,11 +225,15 @@ paused
 const
 onFirstCallMessageReceived
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
 undefined
+"
+"
+.
+result
 "
 )
 ;

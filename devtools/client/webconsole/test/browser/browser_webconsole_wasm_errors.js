@@ -86,7 +86,7 @@ TEST_URI
 const
 onCompileError
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Uncaught
@@ -150,7 +150,7 @@ CompileError
 const
 onLinkError
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 Uncaught
@@ -245,7 +245,7 @@ LinkError
 const
 onRuntimeError
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "

@@ -139,11 +139,15 @@ Snoopy
 const
 onLastMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
 Snoopy
+"
+"
+.
+result
 "
 )
 ;

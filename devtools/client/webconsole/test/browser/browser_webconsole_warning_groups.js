@@ -294,7 +294,7 @@ grouped
 let
 onContentBlockingWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 BLOCKED_URL
@@ -409,7 +409,7 @@ grouping
 let
 onContentBlockingWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -677,7 +677,7 @@ group
 ;
 onContentBlockingWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 BLOCKED_URL
@@ -823,7 +823,7 @@ grouped
 ;
 onContentBlockingWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 BLOCKED_URL
@@ -926,7 +926,7 @@ grouping
 ;
 onContentBlockingWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -1477,10 +1477,16 @@ str
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 str
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

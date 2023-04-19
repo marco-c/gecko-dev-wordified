@@ -151,7 +151,7 @@ document
 const
 onLastMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "

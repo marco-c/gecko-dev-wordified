@@ -430,10 +430,14 @@ sjs
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 xhrUrl
+"
+.
+network
+"
 )
 ;
 /

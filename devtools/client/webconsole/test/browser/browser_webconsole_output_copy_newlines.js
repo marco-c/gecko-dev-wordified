@@ -150,10 +150,16 @@ pop
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 lastMessage
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

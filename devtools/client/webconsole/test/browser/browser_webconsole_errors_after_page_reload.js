@@ -234,7 +234,7 @@ expectUncaughtException
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -242,6 +242,10 @@ fooBazBaz
 is
 not
 defined
+"
+"
+.
+error
 "
 )
 ;

@@ -113,7 +113,7 @@ weird
 const
 onErrorMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -122,6 +122,10 @@ not
 load
 or
 link
+"
+"
+.
+error
 "
 )
 ;

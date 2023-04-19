@@ -324,7 +324,7 @@ executed
 let
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -403,11 +403,15 @@ x
 ;
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
 SyntaxError
+"
+"
+.
+error
 "
 )
 ;

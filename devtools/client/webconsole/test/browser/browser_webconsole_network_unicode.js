@@ -136,7 +136,7 @@ hud
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "

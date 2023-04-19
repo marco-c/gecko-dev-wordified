@@ -300,10 +300,16 @@ now
 const
 onSentinelMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 sentinel
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

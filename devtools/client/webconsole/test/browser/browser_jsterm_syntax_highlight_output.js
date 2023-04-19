@@ -133,7 +133,7 @@ Bug
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 var
@@ -143,6 +143,10 @@ a
 str
 '
 ;
+"
+.
+command
+"
 )
 ;
 execute

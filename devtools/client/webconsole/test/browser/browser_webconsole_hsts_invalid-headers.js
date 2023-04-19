@@ -517,13 +517,11 @@ hud
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 text
 "
-.
-message
 .
 warn
 "

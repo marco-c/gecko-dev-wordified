@@ -224,10 +224,16 @@ foobarz
 const
 onFooBarzMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 text
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

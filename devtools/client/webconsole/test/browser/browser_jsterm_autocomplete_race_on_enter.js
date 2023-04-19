@@ -654,7 +654,7 @@ Enter
 const
 onResultMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -1027,7 +1027,7 @@ closed
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -1035,6 +1035,10 @@ docx
 is
 not
 defined
+"
+"
+.
+error
 "
 )
 ;

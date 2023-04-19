@@ -281,7 +281,7 @@ ones
 let
 onContentBlockingWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 BLOCKED_URL
@@ -313,7 +313,7 @@ A
 let
 onContentBlockingWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -432,7 +432,7 @@ navigationMarker
 ;
 onContentBlockingWarningMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 BLOCKED_URL
@@ -463,7 +463,7 @@ C
 ;
 onContentBlockingWarningGroupMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -1843,7 +1843,7 @@ str
 const
 onFirstMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 {
@@ -1851,12 +1851,18 @@ str
 }
 #
 1
+"
+.
+console
+-
+api
+"
 )
 ;
 const
 onSecondMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 {
@@ -1864,6 +1870,12 @@ str
 }
 #
 2
+"
+.
+console
+-
+api
+"
 )
 ;
 SpecialPowers

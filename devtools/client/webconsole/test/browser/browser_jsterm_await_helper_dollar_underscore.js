@@ -540,7 +540,7 @@ last
 const
 onMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -551,8 +551,6 @@ concurrent
 4000
 "
 "
-.
-message
 .
 result
 "

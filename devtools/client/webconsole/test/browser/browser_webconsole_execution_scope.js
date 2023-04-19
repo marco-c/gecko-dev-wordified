@@ -107,7 +107,7 @@ hud
 const
 onInputMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 "
@@ -120,8 +120,6 @@ href
 "
 "
 .
-message
-.
 command
 "
 )
@@ -129,13 +127,11 @@ command
 const
 onEvaluationResultMessage
 =
-waitForMessage
+waitForMessageByType
 (
 hud
 TEST_URI
 "
-.
-message
 .
 result
 "
