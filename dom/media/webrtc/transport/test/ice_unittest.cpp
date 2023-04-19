@@ -348,7 +348,7 @@ h
 #
 include
 "
-stun_socket_filter
+nsISocketFilter
 .
 h
 "

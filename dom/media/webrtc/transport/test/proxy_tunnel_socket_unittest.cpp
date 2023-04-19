@@ -138,17 +138,6 @@ numeric
 #
 include
 "
-mozilla
-/
-net
-/
-NeckoChannelParams
-.
-h
-"
-#
-include
-"
 nr_socket_tcp
 .
 h

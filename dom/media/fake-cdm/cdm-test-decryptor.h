@@ -111,15 +111,6 @@ include
 <
 string
 >
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 FakeDecryptor
 :

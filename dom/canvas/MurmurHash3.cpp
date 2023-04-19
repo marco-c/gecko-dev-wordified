@@ -170,13 +170,6 @@ MurmurHash3
 .
 h
 "
-#
-include
-<
-stdlib
-.
-h
->
 namespace
 {
 /

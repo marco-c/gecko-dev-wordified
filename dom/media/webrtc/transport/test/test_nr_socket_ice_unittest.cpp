@@ -418,13 +418,6 @@ C
 #
 include
 "
-stun_msg
-.
-h
-"
-#
-include
-"
 ice_ctx
 .
 h
