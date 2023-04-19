@@ -986,7 +986,7 @@ IntermediateType
 >
 ;
 using
-RustCallResult
+CallResult
 =
 RustCallResult
 <
@@ -1002,7 +1002,7 @@ TaskPromiseType
 =
 MozPromise
 <
-RustCallResult
+CallResult
 nsresult
 true
 >
@@ -1374,7 +1374,7 @@ the
 worker
 thread
 static
-RustCallResult
+CallResult
 CallScaffoldingFunc
 (
 ScaffoldingFunc
@@ -1438,7 +1438,7 @@ size_t
 Is
 >
 static
-RustCallResult
+CallResult
 CallScaffoldingFuncHelper
 (
 ScaffoldingFunc
@@ -1460,7 +1460,7 @@ Is
 seq
 )
 {
-RustCallResult
+CallResult
 result
 ;
 auto
@@ -1579,7 +1579,7 @@ ReturnResult
 JSContext
 *
 aContext
-RustCallResult
+CallResult
 &
 aCallResult
 dom

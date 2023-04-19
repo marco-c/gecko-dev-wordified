@@ -219,6 +219,15 @@ mozilla
 dom
 :
 :
+ArrayBuffer
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 GlobalObject
 ;
 using
