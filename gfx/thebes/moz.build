@@ -741,6 +741,11 @@ EXPORTS
 =
 [
 "
+gfxDWriteCommon
+.
+h
+"
+"
 gfxDWriteFonts
 .
 h
