@@ -636,12 +636,6 @@ MaybeProcessScreenshotQueue
 )
 override
 ;
-bool
-HaveScreenshotsToFlush
-(
-)
-override
-;
 /
 /
 TODO

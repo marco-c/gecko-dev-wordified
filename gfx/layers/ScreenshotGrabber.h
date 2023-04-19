@@ -428,11 +428,6 @@ MaybeProcessQueue
 (
 )
 ;
-bool
-HaveScreenshotsToFlush
-(
-)
-;
 /
 /
 Insert
