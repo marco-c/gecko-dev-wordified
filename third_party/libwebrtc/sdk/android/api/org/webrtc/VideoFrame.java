@@ -491,6 +491,12 @@ scaleHeight
 .
 *
 /
+CalledByNative
+(
+"
+Buffer
+"
+)
 Buffer
 cropAndScale
 (
