@@ -1068,6 +1068,17 @@ close
 ;
 }
 ;
+window
+.
+AWWaitForMigrationClose
+=
+receive
+(
+"
+WAIT_FOR_MIGRATION_CLOSE
+"
+)
+;
 /
 /
 Update
