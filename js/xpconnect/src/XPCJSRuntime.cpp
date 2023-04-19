@@ -18711,7 +18711,7 @@ id
 )
 {
 case
-JS_TELEMETRY_GC_REASON
+JS_TELEMETRY_GC_REASON_2
 :
 Telemetry
 :
@@ -18728,7 +18728,7 @@ sample
 break
 ;
 case
-JS_TELEMETRY_GC_IS_ZONE_GC
+JS_TELEMETRY_GC_IS_COMPARTMENTAL
 :
 Telemetry
 :
@@ -19170,7 +19170,7 @@ sample
 break
 ;
 case
-JS_TELEMETRY_GC_NURSERY_BYTES
+JS_TELEMETRY_GC_NURSERY_BYTES_2
 :
 Telemetry
 :
