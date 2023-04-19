@@ -757,7 +757,11 @@ aCx
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 stack
 (
 aCx
@@ -1019,7 +1023,11 @@ cx
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 rootedCallback
 (
 cx

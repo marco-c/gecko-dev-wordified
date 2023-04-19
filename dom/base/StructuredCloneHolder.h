@@ -570,7 +570,11 @@ aExtraData
 JS
 :
 :
-MutableHandleObject
+MutableHandle
+<
+JSObject
+*
+>
 aReturnObject
 )
 ;
@@ -1800,7 +1804,11 @@ aExtraData
 JS
 :
 :
-MutableHandleObject
+MutableHandle
+<
+JSObject
+*
+>
 aReturnObject
 )
 override

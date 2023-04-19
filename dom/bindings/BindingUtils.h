@@ -10440,7 +10440,11 @@ here
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 str
 (
 cx
@@ -14382,7 +14386,13 @@ else
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 nameVal
 (
 cx
