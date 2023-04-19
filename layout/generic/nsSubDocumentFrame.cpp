@@ -5577,7 +5577,7 @@ return
 ;
 }
 auto
-preferredColorScheme
+usedColorScheme
 =
 LookAndFeel
 :
@@ -5585,10 +5585,6 @@ LookAndFeel
 ColorSchemeForFrame
 (
 this
-ColorSchemeMode
-:
-:
-Preferred
 )
 ;
 bool
@@ -5615,7 +5611,7 @@ PrefersColorSchemeOverride
 Light
 :
 return
-preferredColorScheme
+usedColorScheme
 !
 =
 ColorScheme
@@ -5630,7 +5626,7 @@ PrefersColorSchemeOverride
 Dark
 :
 return
-preferredColorScheme
+usedColorScheme
 !
 =
 ColorScheme
@@ -5672,7 +5668,7 @@ return
 auto
 value
 =
-preferredColorScheme
+usedColorScheme
 =
 =
 ColorScheme
