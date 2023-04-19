@@ -1294,11 +1294,11 @@ disable
 next
 -
 line
-no
+mozilla
+/
+valid
 -
-unused
--
-vars
+lazy
 XPCOMUtils
 .
 defineLazyModuleGetters
