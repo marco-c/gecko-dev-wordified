@@ -969,7 +969,7 @@ so
 it
 can
 more
-aggresively
+aggressively
 close
 dead
 connections
@@ -1792,7 +1792,7 @@ trace
 !
 (
 "
-interpretting
+interpreting
 NO_ERROR
 user
 error
