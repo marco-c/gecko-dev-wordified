@@ -147,10 +147,6 @@ PNativeDNSResolverOverride
 ;
 include
 protocol
-PRemoteLazyInputStream
-;
-include
-protocol
 PProxyAutoConfig
 ;
 #
@@ -659,9 +655,6 @@ PProxyConfigLookup
 ;
 manages
 PNativeDNSResolverOverride
-;
-manages
-PRemoteLazyInputStream
 ;
 parent
 :
@@ -1177,15 +1170,6 @@ nsCString
 aTopic
 nsString
 aData
-)
-;
-async
-PRemoteLazyInputStream
-(
-nsID
-aID
-uint64_t
-aSize
 )
 ;
 async
