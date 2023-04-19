@@ -880,6 +880,7 @@ getWindowEnumerator
 >
 mockGetWindowEnumerator
 (
+[
 "
 http
 :
@@ -889,8 +890,7 @@ example
 .
 com
 "
-1
-1
+]
 )
 ;
 let
@@ -986,6 +986,7 @@ http
 example
 .
 com
+/
 "
 ]
 icon
@@ -994,7 +995,7 @@ icon
 "
 lastUsed
 :
-1
+2
 }
 ]
 "
