@@ -1971,6 +1971,8 @@ this
 .
 win
 .
+win
+.
 devicePixelRatio
 ;
 composite
