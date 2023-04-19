@@ -40,7 +40,6 @@ this
 function
 openSelectPopup
 (
-selectPopup
 selector
 =
 "
@@ -56,12 +55,9 @@ popupShownPromise
 =
 BrowserTestUtils
 .
-waitForEvent
+waitForSelectPopupShown
 (
-selectPopup
-"
-popupshown
-"
+win
 )
 ;
 EventUtils
