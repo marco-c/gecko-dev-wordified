@@ -674,7 +674,7 @@ themes
 /
 monochromatic
 /
-lush
+2021lush
 /
 soft
 /
@@ -722,7 +722,7 @@ themes
 /
 monochromatic
 /
-lush
+2021lush
 /
 balanced
 /
@@ -770,7 +770,7 @@ themes
 /
 monochromatic
 /
-lush
+2021lush
 /
 bold
 /
@@ -818,7 +818,7 @@ themes
 /
 monochromatic
 /
-abstract
+2021abstract
 /
 soft
 /
@@ -866,7 +866,7 @@ themes
 /
 monochromatic
 /
-abstract
+2021abstract
 /
 balanced
 /
@@ -914,7 +914,7 @@ themes
 /
 monochromatic
 /
-abstract
+2021abstract
 /
 bold
 /
@@ -962,7 +962,7 @@ themes
 /
 monochromatic
 /
-elemental
+2021elemental
 /
 soft
 /
@@ -1010,7 +1010,7 @@ themes
 /
 monochromatic
 /
-elemental
+2021elemental
 /
 balanced
 /
@@ -1058,7 +1058,7 @@ themes
 /
 monochromatic
 /
-elemental
+2021elemental
 /
 bold
 /
@@ -1106,7 +1106,7 @@ themes
 /
 monochromatic
 /
-cheers
+2021cheers
 /
 soft
 /
@@ -1154,7 +1154,7 @@ themes
 /
 monochromatic
 /
-cheers
+2021cheers
 /
 balanced
 /
@@ -1202,7 +1202,7 @@ themes
 /
 monochromatic
 /
-cheers
+2021cheers
 /
 bold
 /
@@ -1250,7 +1250,7 @@ themes
 /
 monochromatic
 /
-graffiti
+2021graffiti
 /
 soft
 /
@@ -1298,7 +1298,7 @@ themes
 /
 monochromatic
 /
-graffiti
+2021graffiti
 /
 balanced
 /
@@ -1346,7 +1346,7 @@ themes
 /
 monochromatic
 /
-graffiti
+2021graffiti
 /
 bold
 /
@@ -1394,7 +1394,7 @@ themes
 /
 monochromatic
 /
-foto
+2021foto
 /
 soft
 /
@@ -1442,7 +1442,7 @@ themes
 /
 monochromatic
 /
-foto
+2021foto
 /
 balanced
 /
@@ -1490,7 +1490,7 @@ themes
 /
 monochromatic
 /
-foto
+2021foto
 /
 bold
 /

@@ -275,7 +275,7 @@ themes
 /
 monochromatic
 /
-lush
+2021lush
 /
 soft
 /
@@ -308,7 +308,7 @@ themes
 /
 monochromatic
 /
-lush
+2021lush
 /
 bold
 /
