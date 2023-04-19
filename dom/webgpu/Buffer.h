@@ -296,8 +296,8 @@ RawId
 aId
 BufferAddress
 aSize
-bool
-aMappable
+uint32_t
+aUsage
 )
 ;
 void
@@ -341,6 +341,12 @@ ErrorResult
 &
 aRv
 )
+;
+bool
+Mappable
+(
+)
+const
 ;
 /
 /
@@ -388,8 +394,8 @@ BufferAddress
 mSize
 ;
 const
-bool
-mMappable
+uint32_t
+mUsage
 ;
 nsString
 mLabel
