@@ -3141,13 +3141,6 @@ _exposureGlobalNames
 =
 =
 0
-and
-not
-self
-.
-isPseudoInterface
-(
-)
 :
                 
 raise
@@ -3372,22 +3365,6 @@ exposureSet
 )
 >
 0
-    
-def
-isExposedInShadowRealms
-(
-self
-)
-:
-        
-return
-"
-ShadowRealmGlobalScope
-"
-in
-self
-.
-exposureSet
     
 def
 getWorkerExposureSet
@@ -6105,28 +6082,6 @@ False
 self
 .
 _isOnGlobalProtoChain
-=
-False
-        
-#
-Pseudo
-interfaces
-aren
-'
-t
-exposed
-anywhere
-and
-so
-shouldn
-'
-t
-issue
-warnings
-        
-self
-.
-_isPseudo
 =
 False
         
@@ -11573,13 +11528,6 @@ self
 _noInterfaceObject
 "
 )
-and
-not
-self
-.
-isPseudoInterface
-(
-)
     
 def
 hasInterfacePrototypeObject
@@ -11615,14 +11563,6 @@ getUserData
 hasConcreteDescendant
 "
 False
-)
-            
-and
-not
-self
-.
-isPseudoInterface
-(
 )
         
 )
@@ -11982,18 +11922,6 @@ return
 self
 .
 _isOnGlobalProtoChain
-    
-def
-isPseudoInterface
-(
-self
-)
-:
-        
-return
-self
-.
-_isPseudo
     
 def
 _getDependentObjects

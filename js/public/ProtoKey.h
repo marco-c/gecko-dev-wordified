@@ -828,15 +828,6 @@ Symbol
 \
 REAL
 (
-ShadowRealm
-OCLASP
-(
-ShadowRealm
-)
-)
-\
-REAL
-(
 SharedArrayBuffer
 OCLASP
 (
