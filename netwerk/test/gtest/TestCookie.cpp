@@ -662,6 +662,12 @@ CookieJarSettings
 :
 :
 eRegular
+/
+*
+shouldResistFingerprinting
+*
+/
+false
 )
 :
 CookieJarSettings
@@ -669,6 +675,12 @@ CookieJarSettings
 :
 GetBlockingAll
 (
+/
+*
+shouldResistFingerprinting
+*
+/
+false
 )
 ;
 MOZ_ASSERT

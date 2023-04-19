@@ -1459,6 +1459,17 @@ if
 cjs
 )
 {
+bool
+shouldResistFingerprinting
+=
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+aChannel
+)
+;
 cjs
 =
 aPrivateBrowsing
@@ -1475,6 +1486,7 @@ CookieJarSettings
 :
 :
 ePrivate
+shouldResistFingerprinting
 )
 :
 net
@@ -1489,6 +1501,7 @@ CookieJarSettings
 :
 :
 eRegular
+shouldResistFingerprinting
 )
 ;
 }

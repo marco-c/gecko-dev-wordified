@@ -53438,6 +53438,12 @@ mScriptGlobal
 aLoadState
 -
 >
+URI
+(
+)
+aLoadState
+-
+>
 TriggeringPrincipal
 (
 )
@@ -67295,6 +67301,12 @@ new
 LoadInfo
 (
 loadingWindow
+aLoadState
+-
+>
+URI
+(
+)
 aLoadState
 -
 >

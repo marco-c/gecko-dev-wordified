@@ -110477,6 +110477,17 @@ CookieJarSettings
 GetIsOnContentBlockingAllowList
 (
 )
+inProcessParent
+-
+>
+CookieJarSettings
+(
+)
+-
+>
+GetShouldResistFingerprinting
+(
+)
 )
 :
 net
