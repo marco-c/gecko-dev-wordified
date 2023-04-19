@@ -75,8 +75,6 @@ strict
 const
 {
 LoginCSVImport
-ImportFailedException
-ImportFailedErrorType
 }
 =
 ChromeUtils

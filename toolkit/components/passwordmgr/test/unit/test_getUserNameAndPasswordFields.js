@@ -14,18 +14,6 @@ use
 strict
 "
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-this
-[
-"
-URL
-"
-]
-)
-;
 const
 {
 LoginManagerChild
@@ -894,8 +882,6 @@ enabled
 )
 ;
 }
-this
-.
 _setPrefs
 (
 )
