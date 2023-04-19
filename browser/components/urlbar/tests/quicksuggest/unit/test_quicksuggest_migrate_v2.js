@@ -7288,7 +7288,6 @@ enrollmentPromise
 doExperimentCleanup
 }
 =
-await
 ExperimentFakes
 .
 enrollmentHelper
