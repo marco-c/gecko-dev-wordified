@@ -212,6 +212,12 @@ GetURLExtraData
 )
 override
 ;
+void
+FlushUserFontSet
+(
+)
+override
+;
 /
 /
 gfxUserFontSet
