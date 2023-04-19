@@ -2008,12 +2008,6 @@ checkForSelection
 browsingContext
 )
 ;
-settings
-.
-isPrintSelectionRBEnabled
-=
-hasSelection
-;
 /
 /
 Prompt
@@ -2065,6 +2059,7 @@ showPrintDialog
 browsingContext
 .
 topChromeWindow
+hasSelection
 settings
 )
 ;
