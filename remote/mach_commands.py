@@ -884,6 +884,13 @@ env
 =
 {
 "
+HUSKY
+"
+:
+"
+0
+"
+"
 PUPPETEER_SKIP_DOWNLOAD
 "
 :
@@ -4696,6 +4703,13 @@ setup
 env
 =
 {
+"
+HUSKY
+"
+:
+"
+0
+"
 }
     
 from
