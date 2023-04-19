@@ -518,7 +518,7 @@ return
 NS_OK
 ;
 }
-class
+struct
 FileInfoManagerGuard
 {
 FileInfoManagerGuard
