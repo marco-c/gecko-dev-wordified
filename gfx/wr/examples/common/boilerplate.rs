@@ -274,12 +274,6 @@ bool
 composite_needed
 :
 bool
-_render_time
-:
-Option
-<
-u64
->
 )
 {
 self
