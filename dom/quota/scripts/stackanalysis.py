@@ -2288,11 +2288,6 @@ stacks
 )
 :
     
-out
-=
-"
-"
-    
 row_format
 =
 "
@@ -2315,6 +2310,11 @@ n
 "
     
 out
+=
+"
+"
+    
+out
 +
 =
 row_format
@@ -2332,6 +2332,9 @@ Hits
 "
 "
 Anchor
+(
+Context
+)
 "
 "
 Stack
@@ -2362,6 +2365,13 @@ format
 -
 -
 -
+-
+"
+"
+-
+-
+-
+-
 "
 "
 -
@@ -2372,8 +2382,6 @@ format
 -
 -
 -
-"
-"
 -
 -
 -
@@ -2384,9 +2392,6 @@ format
 -
 "
 "
--
--
--
 -
 -
 -
@@ -2520,6 +2525,17 @@ hit_count
 "
 ]
             
+"
+{
+}
+(
+{
+}
+)
+"
+.
+format
+(
 stack
 [
 "
@@ -2534,6 +2550,13 @@ frames
 anchor
 "
 ]
+stack
+[
+"
+context
+"
+]
+)
             
 framestr
         
