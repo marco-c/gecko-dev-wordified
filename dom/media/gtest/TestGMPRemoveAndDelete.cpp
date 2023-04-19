@@ -965,8 +965,6 @@ IsTerminated
 )
 ;
 }
-#
-endif
 /
 *
 *
@@ -1139,6 +1137,8 @@ Wait
 )
 ;
 }
+#
+endif
 static
 StaticRefPtr
 <
