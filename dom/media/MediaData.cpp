@@ -2127,14 +2127,6 @@ aBuffer
 aPicture
 )
 ;
-aVideoImage
--
->
-SetDelayedConversion
-(
-true
-)
-;
 if
 (
 aCopyData
