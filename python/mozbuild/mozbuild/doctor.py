@@ -1970,6 +1970,13 @@ subprocess
 check_output
 (
 command
+encoding
+=
+"
+utf
+-
+8
+"
 )
             
 disablelastaccess
