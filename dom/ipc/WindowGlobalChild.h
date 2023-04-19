@@ -193,8 +193,8 @@ nsDocShell
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1237,12 +1237,10 @@ mBeforeUnloadListeners
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -129,8 +129,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -161,12 +161,10 @@ aDest
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

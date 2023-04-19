@@ -194,8 +194,8 @@ ParamTraits
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -833,12 +833,10 @@ aDest
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -128,8 +128,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -281,12 +281,10 @@ MOZILLA_DOM_MEDIADEVICEINFO_IMPLEMENTATION_IID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -165,8 +165,8 @@ SuspendTypes
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -543,11 +543,9 @@ aIsAudible
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

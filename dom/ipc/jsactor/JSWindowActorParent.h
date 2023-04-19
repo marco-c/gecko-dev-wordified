@@ -207,8 +207,8 @@ namespace
 mozilla
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -382,12 +382,10 @@ mManager
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

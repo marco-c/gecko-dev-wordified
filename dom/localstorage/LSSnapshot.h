@@ -225,8 +225,8 @@ nsITimer
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -972,12 +972,10 @@ NS_DECL_NSIRUNNABLE
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

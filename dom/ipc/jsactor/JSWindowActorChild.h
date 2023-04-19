@@ -255,8 +255,8 @@ namespace
 mozilla
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -465,12 +465,10 @@ mGlobal
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

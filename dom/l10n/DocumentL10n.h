@@ -134,8 +134,8 @@ nsIContentSink
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -482,12 +482,10 @@ mIsFirstBrowserWindow
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

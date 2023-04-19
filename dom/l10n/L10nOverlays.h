@@ -147,8 +147,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -699,11 +699,9 @@ aStr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
