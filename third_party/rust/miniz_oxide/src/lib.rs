@@ -233,14 +233,6 @@ blabla
 #
 !
 [
-allow
-(
-warnings
-)
-]
-#
-!
-[
 forbid
 (
 unsafe_code
