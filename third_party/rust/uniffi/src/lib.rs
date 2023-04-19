@@ -5205,6 +5205,10 @@ for
 item
 in
 obj
+.
+into_iter
+(
+)
 {
 <
 T
@@ -5529,6 +5533,10 @@ value
 )
 in
 obj
+.
+into_iter
+(
+)
 {
 <
 K

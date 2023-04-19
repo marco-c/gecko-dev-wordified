@@ -104,7 +104,6 @@ Serialize
 Deserialize
 Debug
 PartialEq
-Eq
 )
 ]
 pub

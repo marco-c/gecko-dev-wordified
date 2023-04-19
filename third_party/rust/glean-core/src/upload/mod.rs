@@ -897,7 +897,6 @@ well
 derive
 (
 PartialEq
-Eq
 Debug
 )
 ]
