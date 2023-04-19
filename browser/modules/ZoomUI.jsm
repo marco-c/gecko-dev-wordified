@@ -1332,14 +1332,6 @@ label
 )
 ;
 }
-win
-.
-FullZoom
-.
-updateCommands
-(
-)
-;
 }
 const
 {

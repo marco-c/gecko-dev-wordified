@@ -403,14 +403,6 @@ removeTabAndWaitForLocationChange
 (
 )
 ;
-await
-FullZoomHelper
-.
-changeDefaultZoom
-(
-100
-)
-;
 }
 )
 ;
