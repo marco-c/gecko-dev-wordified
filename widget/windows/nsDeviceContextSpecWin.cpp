@@ -2654,9 +2654,14 @@ nsIPrintSettings
 :
 :
 kOutputFormatPDF
+#
+ifdef
+MOZ_ENABLE_SKIA_PDF
 |
 |
 mPrintViaSkPDF
+#
+endif
 )
 {
 return
