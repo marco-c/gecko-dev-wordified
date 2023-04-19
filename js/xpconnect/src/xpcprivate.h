@@ -5884,6 +5884,14 @@ JSContext
 aCx
 )
 ;
+bool
+AttachJSServices
+(
+JSContext
+*
+aCx
+)
+;
 /
 /
 Returns
