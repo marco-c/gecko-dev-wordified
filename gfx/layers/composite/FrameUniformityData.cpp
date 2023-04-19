@@ -178,7 +178,13 @@ ToJS
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aOutValue
 JSContext
 *
