@@ -3386,21 +3386,6 @@ extra
 arg
 =
 -
-std
-=
-c
-+
-+
-17
-"
-        
-"
--
-extra
--
-arg
-=
--
 DMOZ_CLANG_PLUGIN
 "
     
