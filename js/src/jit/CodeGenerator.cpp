@@ -18217,6 +18217,9 @@ temp
 ;
 StackMacroAssembler
 masm
+(
+temp
+)
 ;
 AutoCreatedBy
 acb
@@ -20855,6 +20858,9 @@ temp
 ;
 StackMacroAssembler
 masm
+(
+temp
+)
 ;
 AutoCreatedBy
 acb
@@ -22112,6 +22118,9 @@ temp
 ;
 StackMacroAssembler
 masm
+(
+temp
+)
 ;
 AutoCreatedBy
 acb
@@ -77196,6 +77205,9 @@ temp
 ;
 StackMacroAssembler
 masm
+(
+temp
+)
 ;
 AutoCreatedBy
 acb

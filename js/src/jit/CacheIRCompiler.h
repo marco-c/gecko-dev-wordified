@@ -4701,6 +4701,15 @@ writer_
 (
 writer
 )
+masm
+(
+GetJitContext
+(
+)
+-
+>
+temp
+)
 allocator
 (
 writer_

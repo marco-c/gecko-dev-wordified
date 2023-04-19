@@ -331,6 +331,12 @@ maybeMasm_
 .
 emplace
 (
+GetJitContext
+(
+)
+-
+>
+temp
 )
 ;
 return

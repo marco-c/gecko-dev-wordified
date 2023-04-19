@@ -5760,6 +5760,9 @@ temp
 ;
 StackMacroAssembler
 masm
+(
+temp
+)
 ;
 AutoCreatedBy
 acb

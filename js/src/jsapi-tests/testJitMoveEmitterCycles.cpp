@@ -1091,6 +1091,9 @@ alloc
 ;
 StackMacroAssembler
 masm
+(
+alloc
+)
 ;
 AutoCreatedBy
 acb
@@ -1542,6 +1545,9 @@ alloc
 ;
 StackMacroAssembler
 masm
+(
+alloc
+)
 ;
 AutoCreatedBy
 acb
@@ -2972,6 +2978,9 @@ alloc
 ;
 StackMacroAssembler
 masm
+(
+alloc
+)
 ;
 AutoCreatedBy
 acb
@@ -4606,6 +4615,9 @@ alloc
 ;
 StackMacroAssembler
 masm
+(
+alloc
+)
 ;
 AutoCreatedBy
 acb
@@ -6240,6 +6252,9 @@ alloc
 ;
 StackMacroAssembler
 masm
+(
+alloc
+)
 ;
 AutoCreatedBy
 acb
@@ -6697,6 +6712,9 @@ alloc
 ;
 StackMacroAssembler
 masm
+(
+alloc
+)
 ;
 AutoCreatedBy
 acb

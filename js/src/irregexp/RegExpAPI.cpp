@@ -3444,6 +3444,7 @@ stack_masm
 .
 emplace
 (
+temp
 )
 ;
 #

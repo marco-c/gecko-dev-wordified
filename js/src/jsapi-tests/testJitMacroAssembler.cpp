@@ -268,6 +268,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -626,6 +629,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -918,6 +924,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -1271,6 +1280,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -2382,6 +2394,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -2720,6 +2735,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -3099,6 +3117,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -3461,6 +3482,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -3853,6 +3877,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -4327,6 +4354,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
@@ -4791,6 +4821,9 @@ tempAlloc
 ;
 StackMacroAssembler
 masm
+(
+tempAlloc
+)
 ;
 AutoCreatedBy
 acb
