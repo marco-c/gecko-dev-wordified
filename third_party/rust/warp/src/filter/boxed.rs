@@ -32,7 +32,7 @@ sync
 Arc
 ;
 use
-futures
+futures_util
 :
 :
 TryFutureExt
@@ -430,6 +430,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >

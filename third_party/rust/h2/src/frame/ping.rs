@@ -592,7 +592,7 @@ len
 (
 )
 ;
-log
+tracing
 :
 :
 trace

@@ -10,8 +10,6 @@ fmt
 HTTP
 /
 2
-.
-0
 error
 codes
 .
