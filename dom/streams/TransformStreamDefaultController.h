@@ -366,6 +366,7 @@ mGlobal
 /
 Internal
 slots
+MOZ_KNOWN_LIVE
 RefPtr
 <
 TransformStream
