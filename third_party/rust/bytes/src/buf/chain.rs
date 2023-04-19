@@ -1475,7 +1475,7 @@ remaining_mut
 (
 )
 .
-checked_add
+saturating_add
 (
 self
 .
@@ -1484,10 +1484,6 @@ b
 remaining_mut
 (
 )
-)
-.
-unwrap
-(
 )
 }
 fn

@@ -277,7 +277,6 @@ self
 >
 usize
 {
-return
 self
 .
 buf
@@ -289,7 +288,6 @@ len
 self
 .
 pos
-;
 }
 fn
 advance
