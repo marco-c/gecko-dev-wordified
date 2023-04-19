@@ -80,7 +80,7 @@ hashmap
 *
 if
 the
-modification
+modifcation
 /
 /
 /
@@ -106,7 +106,7 @@ If
 keys
 are
 modified
-erroneously
+erronously
 you
 can
 no
