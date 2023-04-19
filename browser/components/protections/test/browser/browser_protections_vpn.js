@@ -730,6 +730,8 @@ ls
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -785,6 +787,8 @@ sy
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -837,6 +841,8 @@ us
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -895,6 +901,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1079,6 +1087,8 @@ us
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1149,6 +1159,8 @@ flipped
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1254,6 +1266,8 @@ ls
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1308,6 +1322,8 @@ sy
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1377,6 +1393,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1461,6 +1479,8 @@ us
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1688,6 +1708,8 @@ CN
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1701,6 +1723,8 @@ true
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1796,6 +1820,8 @@ CN
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -1809,6 +1835,8 @@ true
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab

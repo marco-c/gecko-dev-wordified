@@ -696,9 +696,9 @@ to
 )
 ;
 await
-FullZoomHelper
+BrowserTestUtils
 .
-refreshTab
+reloadTab
 (
 tab1
 )

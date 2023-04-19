@@ -4818,6 +4818,8 @@ date
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab

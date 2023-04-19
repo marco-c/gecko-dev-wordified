@@ -362,6 +362,8 @@ CA
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -435,6 +437,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -482,6 +486,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -592,6 +598,8 @@ startup
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab

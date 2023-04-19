@@ -133,6 +133,8 @@ gBrowser
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -209,6 +211,8 @@ mockMonitorData
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -608,6 +612,8 @@ monitorErrorData
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
@@ -652,6 +658,8 @@ false
 )
 ;
 await
+BrowserTestUtils
+.
 reloadTab
 (
 tab
