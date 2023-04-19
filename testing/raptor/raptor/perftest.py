@@ -481,6 +481,10 @@ conditioned_profile
 =
 None
         
+test_bytecode_cache
+=
+False
+        
 chimera
 =
 False
@@ -752,6 +756,12 @@ conditioned_profile
 "
 :
 conditioned_profile
+            
+"
+test_bytecode_cache
+"
+:
+test_bytecode_cache
             
 "
 chimera

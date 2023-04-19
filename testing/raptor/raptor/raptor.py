@@ -853,6 +853,12 @@ args
 .
 conditioned_profile
             
+test_bytecode_cache
+=
+args
+.
+test_bytecode_cache
+            
 chimera
 =
 args
