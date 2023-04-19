@@ -5166,7 +5166,7 @@ afterFuncIndex
 ]
 "
 ;
-ToCStringBuf
+Int32ToCStringBuf
 cbuf
 ;
 const
@@ -5174,7 +5174,7 @@ char
 *
 funcIndexStr
 =
-NumberToCString
+Uint32ToCString
 (
 &
 cbuf
@@ -7370,7 +7370,7 @@ isFunction
 continue
 ;
 }
-ToCStringBuf
+Int32ToCStringBuf
 cbuf
 ;
 const
@@ -7378,7 +7378,7 @@ char
 *
 bytecodeStr
 =
-NumberToCString
+Uint32ToCString
 (
 &
 cbuf
