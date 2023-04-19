@@ -440,8 +440,13 @@ const
 push
 =
 (
+[
 fn
+.
+.
+.
 args
+]
 )
 =
 >

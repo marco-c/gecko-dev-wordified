@@ -2434,6 +2434,16 @@ creatives
 {
 if
 (
+size
+!
+=
+=
+"
+fluid
+"
+&
+&
+(
 !
 Array
 .
@@ -2458,6 +2468,7 @@ size
 [
 1
 ]
+)
 )
 )
 {
@@ -2486,6 +2497,9 @@ creatives
 )
 ;
 }
+return
+this
+;
 }
 build
 (
