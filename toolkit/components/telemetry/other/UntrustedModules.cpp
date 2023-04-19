@@ -1472,7 +1472,13 @@ SettleAllStagingData
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 jsval
 (
 cx

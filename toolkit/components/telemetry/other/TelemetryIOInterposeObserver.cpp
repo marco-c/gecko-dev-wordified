@@ -894,7 +894,11 @@ above
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 jsStats
 (
 cx
