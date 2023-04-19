@@ -284,7 +284,7 @@ h
 "
 #
 ifdef
-MOZ_WMF_MEDIA_ENGINE
+MOZ_WMF
 #
 include
 "
@@ -1672,7 +1672,7 @@ UtilityProcess
 ;
 #
 ifdef
-MOZ_WMF_MEDIA_ENGINE
+MOZ_WMF
 /
 /
 If
@@ -3722,7 +3722,7 @@ actor
 {
 #
 ifdef
-MOZ_WMF_MEDIA_ENGINE
+MOZ_WMF
 MFMediaEngineChild
 *
 child

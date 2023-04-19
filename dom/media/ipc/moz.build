@@ -298,7 +298,7 @@ if
 CONFIG
 [
 "
-MOZ_WMF_MEDIA_ENGINE
+MOZ_WMF
 "
 ]
 :
@@ -323,11 +323,6 @@ cpp
 "
 "
 MFMediaEngineParent
-.
-cpp
-"
-"
-MFMediaEngineUtils
 .
 cpp
 "
