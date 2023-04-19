@@ -965,12 +965,6 @@ g_shared_delayed_mitigations
 =
 0
 ;
-SANDBOX_INTERCEPT
-MitigationFlags
-g_shared_mitigations
-=
-0
-;
 TargetServicesBase
 :
 :
