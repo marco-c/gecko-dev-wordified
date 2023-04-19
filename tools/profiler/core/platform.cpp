@@ -40089,6 +40089,17 @@ exitProfile
 IsEmpty
 (
 )
+&
+&
+exitProfile
+[
+0
+]
+!
+=
+'
+*
+'
 )
 {
 w
