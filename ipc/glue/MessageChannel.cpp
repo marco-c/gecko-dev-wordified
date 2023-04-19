@@ -3934,6 +3934,10 @@ ScopedPort
 aPort
 Side
 aSide
+const
+nsID
+&
+aMessageChannelId
 nsISerialEventTarget
 *
 aEventTarget
@@ -4134,6 +4138,10 @@ mSide
 =
 UnknownSide
 )
+;
+mMessageChannelId
+=
+aMessageChannelId
 ;
 mWorkerThread
 =
@@ -4356,6 +4364,16 @@ channel
 "
 )
 ;
+nsID
+channelId
+=
+nsID
+:
+:
+GenerateUUID
+(
+)
+;
 std
 :
 :
@@ -4492,6 +4510,7 @@ GetOppSide
 (
 aSide
 )
+channelId
 aEventTarget
 )
 ;
@@ -4549,6 +4568,7 @@ ports
 first
 )
 aSide
+channelId
 )
 ;
 }
@@ -4589,6 +4609,16 @@ CreatePortPair
 (
 )
 ;
+nsID
+channelId
+=
+nsID
+:
+:
+GenerateUUID
+(
+)
+;
 aTargetChan
 -
 >
@@ -4625,6 +4655,7 @@ GetOppSide
 (
 aSide
 )
+channelId
 currentThread
 )
 &
@@ -4639,6 +4670,7 @@ move
 porta
 )
 aSide
+channelId
 currentThread
 )
 ;

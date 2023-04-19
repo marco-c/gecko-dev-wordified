@@ -2656,6 +2656,10 @@ Open
 (
 ScopedPort
 aPort
+const
+nsID
+&
+aMessageChannelId
 base
 :
 :

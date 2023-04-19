@@ -178,6 +178,10 @@ ipc
 :
 ScopedPort
 aPort
+const
+nsID
+&
+aChannelId
 )
 ;
 void

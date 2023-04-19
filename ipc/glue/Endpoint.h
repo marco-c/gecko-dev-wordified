@@ -368,6 +368,10 @@ PrivateIPDLInterface
 &
 ScopedPort
 aPort
+const
+nsID
+&
+aMessageChannelId
 ProcessId
 aMyPid
 =
@@ -393,6 +397,10 @@ move
 (
 aPort
 )
+)
+mMessageChannelId
+(
+aMessageChannelId
 )
 mMyPid
 (
@@ -583,6 +591,7 @@ move
 (
 mPort
 )
+mMessageChannelId
 mOtherPid
 aEventTarget
 )
@@ -616,6 +625,11 @@ UntypedEndpoint
 ;
 ScopedPort
 mPort
+;
+nsID
+mMessageChannelId
+{
+}
 ;
 ProcessId
 mMyPid
@@ -1170,6 +1184,16 @@ CreatePortPair
 (
 )
 ;
+nsID
+channelId
+=
+nsID
+:
+:
+GenerateUUID
+(
+)
+;
 *
 aParentEndpoint
 =
@@ -1186,6 +1210,7 @@ move
 (
 parentPort
 )
+channelId
 )
 ;
 *
@@ -1204,6 +1229,7 @@ move
 (
 childPort
 )
+channelId
 )
 ;
 return
@@ -1288,6 +1314,16 @@ CreatePortPair
 (
 )
 ;
+nsID
+channelId
+=
+nsID
+:
+:
+GenerateUUID
+(
+)
+;
 *
 aParentEndpoint
 =
@@ -1304,6 +1340,7 @@ move
 (
 parentPort
 )
+channelId
 aParentDestPid
 aChildDestPid
 )
@@ -1324,6 +1361,7 @@ move
 (
 childPort
 )
+channelId
 aChildDestPid
 aParentDestPid
 )

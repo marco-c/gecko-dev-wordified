@@ -1049,6 +1049,7 @@ move
 (
 mInitialPort
 )
+mInitialChannelId
 base
 :
 :
@@ -1550,6 +1551,9 @@ mLaunchOptions
 ;
 ScopedPort
 mInitialPort
+;
+nsID
+mInitialChannelId
 ;
 RefPtr
 <
