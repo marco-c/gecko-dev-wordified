@@ -12875,6 +12875,16 @@ c_int
 =
 2
 ;
+pub
+const
+SOMAXCONN
+:
+:
+:
+c_int
+=
+128
+;
 f
 !
 {

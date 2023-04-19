@@ -3651,6 +3651,16 @@ c_int
 =
 10
 ;
+pub
+const
+SOMAXCONN
+:
+:
+:
+c_int
+=
+128
+;
 #
 [
 deprecated
