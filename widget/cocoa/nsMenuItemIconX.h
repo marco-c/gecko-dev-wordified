@@ -137,6 +137,15 @@ IconLoader
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 class
 nsIconLoaderService
 ;
@@ -442,7 +451,10 @@ ComputedStyle
 >
 mComputedStyle
 ;
-RefPtr
+mozilla
+:
+:
+WeakPtr
 <
 nsPresContext
 >
