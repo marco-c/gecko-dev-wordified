@@ -81,8 +81,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -331,8 +330,7 @@ asan
 }
 )
 ;
-this
-.
+const
 AsanReporter
 =
 {
