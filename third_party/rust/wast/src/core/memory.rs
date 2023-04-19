@@ -535,7 +535,7 @@ is_some
 true
 }
 else
-if
+{
 parser
 .
 parse
@@ -554,15 +554,9 @@ i64
 )
 ?
 .
-is_some
+is_none
 (
 )
-{
-false
-}
-else
-{
-true
 }
 ;
 let

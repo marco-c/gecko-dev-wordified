@@ -443,9 +443,7 @@ count
 =
 1
 ;
-return
 index
-;
 }
 pub
 fn
