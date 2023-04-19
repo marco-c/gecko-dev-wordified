@@ -901,16 +901,6 @@ subclass
 }
 /
 /
-ID
-of
-the
-canvas
-HitRegion
-nsString
-mRegion
-;
-/
-/
 Finger
 or
 touch
