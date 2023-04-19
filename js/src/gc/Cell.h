@@ -142,15 +142,6 @@ include
 "
 gc
 /
-GCEnum
-.
-h
-"
-#
-include
-"
-gc
-/
 Heap
 .
 h
@@ -320,9 +311,6 @@ name
 namespace
 gc
 {
-class
-Arena
-;
 enum
 class
 AllocKind
