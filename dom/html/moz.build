@@ -631,6 +631,11 @@ ImageDocument
 h
 "
 "
+MediaDocument
+.
+h
+"
+"
 MediaError
 .
 h
