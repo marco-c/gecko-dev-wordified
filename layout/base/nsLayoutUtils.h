@@ -1004,6 +1004,16 @@ mozilla
 gfx
 :
 :
+MatrixScalesDouble
+MatrixScalesDouble
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 RectCornerRadii
 RectCornerRadii
 ;
@@ -6813,7 +6823,7 @@ otherwise
 *
 /
 static
-gfxSize
+MatrixScalesDouble
 GetTransformToAncestorScale
 (
 const
