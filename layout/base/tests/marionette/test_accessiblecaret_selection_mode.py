@@ -184,14 +184,6 @@ _textarea2_id
 textarea2
 "
     
-_textarea_disabled_id
-=
-"
-textarea
--
-disabled
-"
-    
 _textarea_one_line_id
 =
 "
@@ -1404,14 +1396,6 @@ _textarea_id
     
 parameterized
 (
-_textarea_disabled_id
-el_id
-=
-_textarea_disabled_id
-)
-    
-parameterized
-(
 _textarea_rtl_id
 el_id
 =
@@ -1583,14 +1567,6 @@ _textarea_id
 el_id
 =
 _textarea_id
-)
-    
-parameterized
-(
-_textarea_disabled_id
-el_id
-=
-_textarea_disabled_id
 )
     
 parameterized
@@ -1869,14 +1845,6 @@ _textarea_id
 el_id
 =
 _textarea_id
-)
-    
-parameterized
-(
-_textarea_disabled_id
-el_id
-=
-_textarea_disabled_id
 )
     
 parameterized
@@ -2183,14 +2151,6 @@ _textarea_id
 el_id
 =
 _textarea_id
-)
-    
-parameterized
-(
-_textarea_disabled_id
-el_id
-=
-_textarea_disabled_id
 )
     
 parameterized
@@ -3113,14 +3073,6 @@ _textarea_id
 el_id
 =
 _textarea_id
-)
-    
-parameterized
-(
-_textarea_disabled_id
-el_id
-=
-_textarea_disabled_id
 )
     
 parameterized
