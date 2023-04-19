@@ -3584,26 +3584,9 @@ update
 the
 e10s
 pref
-default
-True
-        
-prefs
-[
-"
-browser
 .
-tabs
-.
-remote
-.
-autostart
-"
-]
-=
-True
         
 if
-not
 options
 .
 e10s
@@ -3622,14 +3605,32 @@ autostart
 "
 ]
 =
-False
-        
-#
-default
-fission
-to
 True
         
+else
+:
+            
+prefs
+[
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+]
+=
+False
+        
+if
+options
+.
+fission
+:
+            
 prefs
 [
 "
@@ -3641,10 +3642,7 @@ autostart
 =
 True
         
-if
-options
-.
-disableFission
+else
 :
             
 prefs

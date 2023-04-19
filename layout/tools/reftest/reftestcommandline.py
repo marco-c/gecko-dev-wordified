@@ -1519,17 +1519,17 @@ fission
 action
 =
 "
-store_true
+store_false
 "
             
 default
 =
-False
+True
             
 dest
 =
 "
-disableFission
+fission
 "
             
 help
@@ -2535,10 +2535,9 @@ totalChunks
 )
         
 if
-not
 options
 .
-disableFission
+fission
 and
 not
 options
