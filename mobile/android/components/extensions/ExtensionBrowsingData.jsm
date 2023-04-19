@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventDispatcher
 :
@@ -177,6 +183,8 @@ const
 result
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance
