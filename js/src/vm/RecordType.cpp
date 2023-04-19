@@ -264,6 +264,15 @@ include
 "
 vm
 /
+RecordTupleShared
+.
+h
+"
+#
+include
+"
+vm
+/
 StringType
 .
 h
