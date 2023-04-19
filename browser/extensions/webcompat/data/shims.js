@@ -1159,7 +1159,7 @@ xmlhttprequest
 ]
 }
 ]
-onlyIfDFPIActive
+onlyIfBlockedByETP
 :
 true
 }
@@ -3769,7 +3769,7 @@ xmlhttprequest
 ]
 }
 ]
-onlyIfDFPIActive
+onlyIfBlockedByETP
 :
 true
 }
