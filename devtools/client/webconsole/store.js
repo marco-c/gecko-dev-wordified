@@ -792,6 +792,12 @@ thunkArgs
 }
 )
 historyPersistence
+.
+bind
+(
+null
+webConsoleUI
+)
 eventTelemetry
 .
 bind
