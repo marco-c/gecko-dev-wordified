@@ -4301,7 +4301,12 @@ bool
 aInitialSecurityCheckDone
 bool
 aIsThirdPartyContext
+const
+Maybe
+<
 bool
+>
+&
 aIsThirdPartyContextToTopWindow
 bool
 aIsFormSubmission
@@ -6073,6 +6078,11 @@ aIsThirdPartyContextToTopWindow
 aIsThirdPartyContextToTopWindow
 =
 mIsThirdPartyContextToTopWindow
+.
+valueOr
+(
+true
+)
 ;
 return
 NS_OK
@@ -6090,7 +6100,10 @@ aIsThirdPartyContextToTopWindow
 {
 mIsThirdPartyContextToTopWindow
 =
+Some
+(
 aIsThirdPartyContextToTopWindow
+)
 ;
 return
 NS_OK
