@@ -2400,9 +2400,6 @@ if
 CanScroll
 (
 )
-|
-|
-mAxisLocked
 )
 {
 return
