@@ -328,7 +328,7 @@ LevelEstimator
 kRms
 /
 *
-min_consecutive_speech_frames
+adjacent_speech_frames_threshold
 =
 *
 /
