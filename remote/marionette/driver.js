@@ -18883,8 +18883,6 @@ if
 flags
 .
 length
->
-0
 )
 {
 for

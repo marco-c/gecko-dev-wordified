@@ -2523,14 +2523,12 @@ file
 :
 isEmpty
 =
+!
 el
 .
 files
 .
 length
-=
-=
-0
 ;
 break
 ;

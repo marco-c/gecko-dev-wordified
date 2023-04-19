@@ -845,8 +845,6 @@ context
 children
 .
 length
->
-0
 )
 {
 const
@@ -1293,12 +1291,10 @@ frameId
 ;
 if
 (
+!
 contexts
 .
 length
-=
-=
-0
 )
 {
 throw

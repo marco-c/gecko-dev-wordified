@@ -138,8 +138,6 @@ ok
 id1
 .
 length
->
-0
 "
 Script
 id
@@ -179,8 +177,6 @@ ok
 id2
 .
 length
->
-0
 "
 Script
 id
@@ -309,8 +305,6 @@ ok
 id1
 .
 length
->
-0
 "
 Script
 id
@@ -356,8 +350,6 @@ ok
 id2
 .
 length
->
-0
 "
 Script
 id

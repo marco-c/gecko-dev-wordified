@@ -447,14 +447,12 @@ type
 ;
 if
 (
+!
 logger
 .
 ownAppenders
 .
 length
-=
-=
-0
 )
 {
 logger

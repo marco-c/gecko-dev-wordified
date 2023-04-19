@@ -1256,8 +1256,6 @@ if
 addresses
 .
 length
->
-0
 )
 {
 this
@@ -3050,12 +3048,10 @@ IsRunning
 ;
 if
 (
+!
 reply
 .
 length
-=
-=
-0
 )
 {
 lazy

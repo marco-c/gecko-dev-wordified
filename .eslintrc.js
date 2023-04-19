@@ -4374,12 +4374,6 @@ netwerk
 *
 "
 "
-remote
-/
-*
-*
-"
-"
 storage
 /
 test

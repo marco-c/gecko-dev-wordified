@@ -989,12 +989,10 @@ target
 ;
 if
 (
+!
 userAgent
 .
 length
-=
-=
-0
 )
 {
 browsingContext

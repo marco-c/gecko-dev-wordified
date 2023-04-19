@@ -613,8 +613,6 @@ attributes
 attributes
 .
 length
->
-0
 ?
 attributes
 :

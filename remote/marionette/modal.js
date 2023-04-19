@@ -419,8 +419,6 @@ if
 geckoViewPrompts
 .
 length
->
-0
 )
 {
 lazy
