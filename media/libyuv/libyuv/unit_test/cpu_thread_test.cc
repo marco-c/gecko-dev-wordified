@@ -106,13 +106,6 @@ defined
 (
 __clang__
 )
-&
-&
-!
-defined
-(
-__wasm__
-)
 #
 if
 __has_include
@@ -186,7 +179,7 @@ flags
 =
 TestCpuFlag
 (
-kCpuInitialized
+kCpuHasSSSE3
 )
 ;
 return

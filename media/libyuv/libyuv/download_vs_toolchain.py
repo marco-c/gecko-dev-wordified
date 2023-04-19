@@ -6,7 +6,8 @@ usr
 bin
 /
 env
-vpython3
+python
+#
 #
 Copyright
 2014
@@ -206,16 +207,6 @@ find_depot_tools
 )
 import
 vs_toolchain
-#
-pylint
-:
-disable
-=
-wrong
--
-import
--
-position
 if
 __name__
 =

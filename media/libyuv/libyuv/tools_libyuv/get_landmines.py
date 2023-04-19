@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python3
+python
 #
 Copyright
 2016
@@ -233,7 +233,6 @@ examples
 .
   
 print
-(
 '
 Clobber
 to
@@ -247,10 +246,8 @@ to
 GN
 .
 '
-)
   
 print
-(
 '
 Another
 try
@@ -265,7 +262,6 @@ to
 GN
 .
 '
-)
 def
 main
 (

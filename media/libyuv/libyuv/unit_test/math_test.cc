@@ -143,9 +143,6 @@ scale
 h
 "
 #
-ifdef
-ENABLE_ROW_TESTS
-#
 include
 "
 libyuv
@@ -154,14 +151,9 @@ scale_row
 .
 h
 "
-#
-endif
 namespace
 libyuv
 {
-#
-ifdef
-ENABLE_ROW_TESTS
 TEST_F
 (
 LibYUVBaseTest
@@ -1486,11 +1478,6 @@ j
 ;
 }
 }
-#
-endif
-/
-/
-ENABLE_ROW_TESTS
 }
 /
 /
