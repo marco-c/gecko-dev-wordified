@@ -3189,12 +3189,13 @@ aParams
 gfxContext
 &
 aRenderingCtx
+const
 mozilla
 :
 :
 ComputedStyle
 *
-mBackgroundSC
+aBackgroundSC
 const
 nsStyleBorder
 &
