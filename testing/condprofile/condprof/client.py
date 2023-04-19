@@ -217,6 +217,11 @@ ARTIFACT_NAME
 =
 "
 profile
+%
+(
+version
+)
+s
 -
 %
 (
@@ -677,10 +682,13 @@ callable
 onerror
 =
 None
+retries
+=
+RETRIES
 )
 :
     
-retries
+_retry_count
 =
 0
     
@@ -689,9 +697,9 @@ pause
 RETRY_PAUSE
     
 while
-retries
+_retry_count
 <
-RETRIES
+retries
 :
         
 try
@@ -730,7 +738,7 @@ retrying
 "
 )
             
-retries
+_retry_count
 +
 =
 1
@@ -761,6 +769,13 @@ all
 attempts
 failed
     
+if
+_retry_count
+>
+=
+RETRIES
+:
+        
 logger
 .
 error
@@ -770,6 +785,25 @@ All
 attempt
 failed
 "
+)
+    
+else
+:
+        
+logger
+.
+info
+(
+"
+Retried
+%
+s
+attempts
+and
+failed
+"
+%
+_retry_count
 )
     
 raise
@@ -817,6 +851,14 @@ sdcard
 test_root
 /
 "
+    
+version
+=
+None
+    
+retries
+=
+RETRIES
 )
 :
     
@@ -868,6 +910,29 @@ XXX
 assert
 values
     
+if
+version
+:
+        
+version
+=
+"
+-
+v
+%
+s
+"
+%
+version
+    
+else
+:
+        
+version
+=
+"
+"
+    
 params
 =
 {
@@ -901,6 +966,12 @@ repo
 "
 :
 repo
+        
+"
+version
+"
+:
+version
     
 }
     
@@ -1402,6 +1473,7 @@ _retries
 (
 _get_profile
 onerror
+retries
 )
     
 except
