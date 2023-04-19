@@ -520,8 +520,9 @@ called
 "
 )
 ;
-promsie_test
+promise_test
 (
+async
 (
 t
 )
