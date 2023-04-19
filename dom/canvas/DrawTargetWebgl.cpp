@@ -5269,6 +5269,9 @@ false
 if
 (
 mCurrentTarget
+&
+&
+mCurrentTarget
 -
 >
 mShmem
@@ -9808,6 +9811,9 @@ aFormat
 ;
 if
 (
+mCurrentTarget
+&
+&
 mCurrentTarget
 -
 >
