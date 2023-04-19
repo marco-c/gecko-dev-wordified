@@ -509,10 +509,6 @@ id
 LInstruction
 *
 ins
-const
-Register
-*
-dynStack
 )
 ;
 template
@@ -528,12 +524,6 @@ callVM
 LInstruction
 *
 ins
-const
-Register
-*
-dynStack
-=
-nullptr
 )
 ;
 template
@@ -1101,8 +1091,6 @@ emitCallInvokeFunction
 T
 *
 apply
-Register
-extraStackSize
 )
 ;
 void
@@ -1111,7 +1099,7 @@ emitAllocateSpaceForApply
 Register
 argcreg
 Register
-extraStackSpace
+scratch
 )
 ;
 void
@@ -1120,7 +1108,7 @@ emitAllocateSpaceForConstructAndPushNewTarget
 Register
 argcreg
 Register
-newTargetAndExtraStackSpace
+newTargetAndScratch
 )
 ;
 void
@@ -1149,7 +1137,7 @@ emitPushArguments
 Register
 argcreg
 Register
-extraStackSpace
+scratch
 Register
 copyreg
 uint32_t
@@ -1176,7 +1164,7 @@ LApplyArgsGeneric
 *
 apply
 Register
-extraStackSpace
+scratch
 )
 ;
 void
@@ -1186,7 +1174,7 @@ LApplyArgsObj
 *
 apply
 Register
-extraStackSpace
+scratch
 )
 ;
 void
@@ -1196,7 +1184,7 @@ LApplyArrayGeneric
 *
 apply
 Register
-extraStackSpace
+scratch
 )
 ;
 void
@@ -1206,7 +1194,7 @@ LConstructArgsGeneric
 *
 construct
 Register
-extraStackSpace
+scratch
 )
 ;
 void
@@ -1216,7 +1204,7 @@ LConstructArrayGeneric
 *
 construct
 Register
-extraStackSpace
+scratch
 )
 ;
 template
