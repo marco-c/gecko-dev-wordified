@@ -569,13 +569,10 @@ getEditorSummary
 longEditor
 )
 ;
-ui
-.
-_view
-.
-setActiveSummary
-(
 summary
+.
+click
+(
 )
 ;
 info
