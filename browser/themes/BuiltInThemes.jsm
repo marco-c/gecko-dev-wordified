@@ -143,7 +143,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 colorways
 .
