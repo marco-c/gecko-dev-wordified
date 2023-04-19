@@ -1179,10 +1179,6 @@ mBounds
 0
 0
 )
-mOriginalBounds
-(
-nullptr
-)
 mIsTiled
 (
 false
@@ -2677,9 +2673,6 @@ gNumWidgets
 ;
 #
 endif
-delete
-mOriginalBounds
-;
 }
 /
 /
@@ -6090,8 +6083,13 @@ mOriginalBounds
 {
 mOriginalBounds
 =
-new
+mozilla
+:
+:
+MakeUnique
+<
 LayoutDeviceIntRect
+>
 (
 )
 ;
