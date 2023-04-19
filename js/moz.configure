@@ -5998,6 +5998,8 @@ x86_64
 "
 and
 c_compiler
+and
+c_compiler
 .
 type
 =
