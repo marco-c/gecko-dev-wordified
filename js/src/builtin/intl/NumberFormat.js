@@ -4569,6 +4569,7 @@ assert
 currency
 =
 =
+=
 toASCIIUpperCase
 (
 currency

@@ -4993,6 +4993,7 @@ typeof
 limit
 =
 =
+=
 "
 number
 "
@@ -6502,6 +6503,7 @@ lastIndex
 if
 (
 endIndex
+=
 =
 =
 -

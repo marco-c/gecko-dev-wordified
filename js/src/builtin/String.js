@@ -2853,6 +2853,7 @@ typeof
 separator
 =
 =
+=
 "
 string
 "
@@ -4592,6 +4593,7 @@ MAX_STRING_LENGTH
 +
 1
 )
+=
 =
 =
 MAX_STRING_LENGTH
