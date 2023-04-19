@@ -2070,10 +2070,6 @@ FileSystemRequestHandler
 :
 GetRoot
 (
-const
-Origin
-&
-aOrigin
 RefPtr
 <
 Promise
@@ -2093,16 +2089,6 @@ value
 -
 param
 )
-MOZ_ASSERT
-(
-!
-aOrigin
-.
-IsEmpty
-(
-)
-)
-;
 MOZ_ASSERT
 (
 aPromise
@@ -2253,7 +2239,6 @@ rootProvider
 >
 SendGetRoot
 (
-aOrigin
 std
 :
 :

@@ -349,15 +349,11 @@ FileSystemRequestHandler
 {
 public
 :
-MOCK_METHOD2
+MOCK_METHOD1
 (
 GetRoot
 void
 (
-const
-Origin
-&
-aOrigin
 RefPtr
 <
 Promise
