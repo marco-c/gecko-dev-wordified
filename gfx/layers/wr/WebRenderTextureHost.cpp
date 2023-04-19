@@ -297,10 +297,6 @@ WebRenderTextureHost
 :
 WebRenderTextureHost
 (
-const
-SurfaceDescriptor
-&
-aDesc
 TextureFlags
 aFlags
 TextureHost

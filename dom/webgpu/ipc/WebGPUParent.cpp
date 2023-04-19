@@ -4862,12 +4862,6 @@ mNextFrameID
 (
 )
 {
-layers
-:
-:
-SurfaceDescriptor
-surfaceDesc
-;
 AutoTArray
 <
 layers
@@ -4983,7 +4977,6 @@ layers
 :
 WebRenderTextureHost
 (
-surfaceDesc
 layers
 :
 :

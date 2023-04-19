@@ -239,10 +239,6 @@ public
 :
 WebRenderTextureHost
 (
-const
-SurfaceDescriptor
-&
-aDesc
 TextureFlags
 aFlags
 TextureHost

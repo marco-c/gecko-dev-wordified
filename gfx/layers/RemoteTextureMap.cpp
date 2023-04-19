@@ -2141,7 +2141,6 @@ textureHost
 new
 WebRenderTextureHost
 (
-desc
 flags
 textureHost
 *

@@ -1653,7 +1653,6 @@ result
 new
 WebRenderTextureHost
 (
-aDesc
 aFlags
 result
 aExternalImageId
