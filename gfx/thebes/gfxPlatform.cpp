@@ -4174,7 +4174,7 @@ StaticPrefs
 GetPrefName_gfx_webrender_blob_tile_size
 (
 )
-512
+256
 )
 ;
 gfx
