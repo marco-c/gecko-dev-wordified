@@ -8512,6 +8512,7 @@ gc
 .
 wantMajorGC
 (
+true
 )
 ;
 }
