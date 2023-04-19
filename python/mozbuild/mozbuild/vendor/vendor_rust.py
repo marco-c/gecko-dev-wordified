@@ -442,12 +442,6 @@ TOLERATED_DUPES
 {
     
 "
-base64
-"
-:
-2
-    
-"
 bytes
 "
 :
