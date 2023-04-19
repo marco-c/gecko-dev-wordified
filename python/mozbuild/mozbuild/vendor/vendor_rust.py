@@ -484,12 +484,6 @@ futures
 2
     
 "
-itertools
-"
-:
-2
-    
-"
 libloading
 "
 :
