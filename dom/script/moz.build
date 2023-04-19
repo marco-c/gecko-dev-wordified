@@ -152,11 +152,6 @@ ModuleLoader
 h
 "
 "
-ScriptCompression
-.
-h
-"
-"
 ScriptDecoding
 .
 h
@@ -203,11 +198,6 @@ cpp
 "
 "
 nsIScriptElement
-.
-cpp
-"
-"
-ScriptCompression
 .
 cpp
 "
