@@ -24580,6 +24580,21 @@ ctor
 (
 )
 )
+            
+isConstructorChromeOnly
+=
+isChromeOnly
+(
+self
+.
+descriptor
+.
+interface
+.
+ctor
+(
+)
+)
         
 else
 :
@@ -24587,6 +24602,10 @@ else
 constructArgs
 =
 0
+            
+isConstructorChromeOnly
+=
+False
         
 if
 len
@@ -25052,6 +25071,9 @@ interfaceClass
 constructArgs
 }
 {
+isConstructorChromeOnly
+}
+{
 namedConstructors
 }
                                         
@@ -25117,6 +25139,13 @@ interfaceClass
 constructArgs
 =
 constructArgs
+            
+isConstructorChromeOnly
+=
+toStringBool
+(
+isConstructorChromeOnly
+)
             
 namedConstructors
 =

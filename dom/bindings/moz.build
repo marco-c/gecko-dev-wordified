@@ -859,6 +859,13 @@ h
 "
 test
 /
+TestInterfaceLength
+.
+h
+"
+"
+test
+/
 TestInterfaceMaplike
 .
 h
@@ -942,6 +949,13 @@ cpp
 test
 /
 TestInterfaceIterableSingle
+.
+cpp
+"
+"
+test
+/
+TestInterfaceLength
 .
 cpp
 "

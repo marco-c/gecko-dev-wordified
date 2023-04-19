@@ -5597,6 +5597,15 @@ if
 no
 constructor
 *
+isConstructorChromeOnly
+if
+true
+the
+constructor
+is
+ChromeOnly
+.
+*
 constructorCache
 a
 pointer
@@ -6063,6 +6072,8 @@ JSClass
 constructorClass
 unsigned
 ctorNargs
+bool
+isConstructorChromeOnly
 const
 LegacyFactoryFunction
 *
