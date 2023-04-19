@@ -494,19 +494,6 @@ allow_disabling_asm_avx2
 .
 patch
 '
-        
-#
-add
-H444ToARGB
-(
-)
-variant
-        
-'
-add_H444ToARGB
-.
-patch
-'
     
 ]
     
