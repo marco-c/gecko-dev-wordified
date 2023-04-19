@@ -162,7 +162,6 @@ cookie
 banner
 for
 .
-readonly
 attribute
 ACString
 domain
