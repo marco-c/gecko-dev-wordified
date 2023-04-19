@@ -420,6 +420,11 @@ ws
 actor
 .
 channelId
+chromeContext
+:
+actor
+.
+chromeContext
 }
 ]
 )
