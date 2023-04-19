@@ -175,7 +175,13 @@ GetOrCreateWrapper
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 val
 (
 RootingCx

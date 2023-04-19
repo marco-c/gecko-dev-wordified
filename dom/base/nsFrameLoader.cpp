@@ -14663,7 +14663,11 @@ Init
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 wrapper
 (
 jsapi
@@ -23792,7 +23796,11 @@ aGivenProto
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 result
 (
 cx

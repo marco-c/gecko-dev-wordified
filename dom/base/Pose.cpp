@@ -387,7 +387,11 @@ false
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 obj
 (
 aJSContext
