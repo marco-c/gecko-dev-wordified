@@ -356,6 +356,12 @@ kDefaultSmoothedVadProbabilityAttack
 .
 f
 ;
+constexpr
+int
+kDefaultAdjacentSpeechFramesThreshold
+=
+1
+;
 /
 /
 Saturation
