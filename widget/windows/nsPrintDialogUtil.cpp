@@ -1372,6 +1372,8 @@ ShowNativePrintDialog
 (
 HWND
 aHWnd
+bool
+aHaveSelection
 nsIPrintSettings
 *
 aPrintSettings
@@ -1891,12 +1893,7 @@ button
 if
 (
 !
-aPrintSettings
--
->
-GetIsPrintSelectionRBEnabled
-(
-)
+aHaveSelection
 )
 {
 prntdlg
@@ -3090,6 +3087,8 @@ NativeShowPrintDialog
 (
 HWND
 aHWnd
+bool
+aHaveSelection
 nsIPrintSettings
 *
 aPrintSettings
@@ -3101,6 +3100,7 @@ rv
 ShowNativePrintDialog
 (
 aHWnd
+aHaveSelection
 aPrintSettings
 )
 ;

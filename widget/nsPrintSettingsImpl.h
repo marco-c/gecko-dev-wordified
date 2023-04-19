@@ -731,11 +731,6 @@ mHonorPageRuleMargins
 true
 ;
 bool
-mIsPrintSelectionRBEnabled
-=
-false
-;
-bool
 mPrintSelectionOnly
 =
 false
