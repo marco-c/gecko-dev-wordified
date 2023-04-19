@@ -2699,7 +2699,7 @@ zones
 ;
 if
 (
-sweepOnBackgroundThread
+useBackgroundThreads
 )
 {
 sweepTask
@@ -2714,7 +2714,7 @@ lock
 if
 (
 !
-sweepOnBackgroundThread
+useBackgroundThreads
 )
 {
 sweepTask
@@ -14583,7 +14583,7 @@ MOZ_ASSERT_IF
 (
 destroyingRuntime
 !
-sweepOnBackgroundThread
+useBackgroundThreads
 )
 ;
 {
@@ -14751,7 +14751,7 @@ i
 |
 |
 !
-sweepOnBackgroundThread
+useBackgroundThreads
 zone
 -
 >
