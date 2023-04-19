@@ -318,7 +318,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 MessageEvent
 Event
 )
-virtual
 JSObject
 *
 WrapObjectInternal
@@ -338,6 +337,17 @@ aGivenProto
 )
 override
 ;
+MessageEvent
+*
+AsMessageEvent
+(
+)
+override
+{
+return
+this
+;
+}
 void
 GetData
 (
