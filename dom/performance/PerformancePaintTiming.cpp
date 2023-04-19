@@ -221,7 +221,7 @@ mPerformance
 (
 aPerformance
 )
-mRawStarTime
+mRawStartTime
 (
 aStartTime
 )
@@ -301,7 +301,7 @@ GetDOMTiming
 >
 TimeStampToDOMHighRes
 (
-mRawStarTime
+mRawStartTime
 )
 ;
 mCachedStartTime

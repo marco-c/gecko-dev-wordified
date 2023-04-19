@@ -290,7 +290,7 @@ mPerformance
 ;
 const
 TimeStamp
-mRawStarTime
+mRawStartTime
 ;
 mutable
 Maybe
