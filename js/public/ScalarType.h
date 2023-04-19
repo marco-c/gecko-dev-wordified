@@ -197,7 +197,7 @@ constants
 /
 /
 *
-JS_FOR_EACH_TYPEDARRAY
+JS_FOR_EACH_TYPED_ARRAY
 /
 /
 *
