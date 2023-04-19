@@ -113,11 +113,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -588,6 +594,8 @@ docInfo
 .
 cookieJarSettings
 =
+lazy
+.
 E10SUtils
 .
 serializeCookieJarSettings
@@ -623,6 +631,8 @@ docInfo
 .
 isContentWindowPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -767,6 +777,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 resolve

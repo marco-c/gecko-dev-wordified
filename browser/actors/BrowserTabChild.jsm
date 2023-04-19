@@ -115,11 +115,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 E10SUtils
 "
@@ -540,6 +546,8 @@ LOAD_FLAGS_USER_ACTIVATION
 }
 try
 {
+lazy
+.
 E10SUtils
 .
 wrapHandlingUserInput

@@ -187,11 +187,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -213,7 +219,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 ACTIVITY_STREAM_DEBUG
 "
@@ -288,6 +294,8 @@ bits
 .
 if
 (
+lazy
+.
 NimbusFeatures
 .
 aboutwelcome
@@ -330,6 +338,8 @@ AppConstants
 RELEASE_OR_BETA
 &
 &
+lazy
+.
 ACTIVITY_STREAM_DEBUG
 ;
 const
@@ -751,6 +761,8 @@ recording
 exposure
 events
 here
+.
+lazy
 .
 NimbusFeatures
 .

@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 MediaManagerService
 "
@@ -3006,6 +3012,8 @@ devices
 {
 }
 ;
+lazy
+.
 MediaManagerService
 .
 mediaCaptureWindowState
@@ -3026,6 +3034,8 @@ camera
 value
 =
 =
+lazy
+.
 MediaManagerService
 .
 STATE_NOCAPTURE
@@ -3036,6 +3046,8 @@ microphone
 value
 =
 =
+lazy
+.
 MediaManagerService
 .
 STATE_NOCAPTURE
@@ -3046,6 +3058,8 @@ screen
 value
 =
 =
+lazy
+.
 MediaManagerService
 .
 STATE_NOCAPTURE
@@ -3056,6 +3070,8 @@ window
 value
 =
 =
+lazy
+.
 MediaManagerService
 .
 STATE_NOCAPTURE
@@ -3066,6 +3082,8 @@ browser
 value
 =
 =
+lazy
+.
 MediaManagerService
 .
 STATE_NOCAPTURE

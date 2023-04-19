@@ -70,11 +70,17 @@ AboutPocketParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pktApi
 "
@@ -97,7 +103,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SaveToPocket
 "
@@ -385,6 +391,8 @@ sendResponseMessageToPanel
 "
 PKT_getTags
 "
+lazy
+.
 pktApi
 .
 getTags
@@ -422,6 +430,8 @@ resolve
 =
 >
 {
+lazy
+.
 pktApi
 .
 getSuggestedTagsForURL
@@ -553,6 +563,8 @@ resolve
 =
 >
 {
+lazy
+.
 pktApi
 .
 addTagsToURL
@@ -676,6 +688,8 @@ resolve
 =
 >
 {
+lazy
+.
 pktApi
 .
 deleteItem
@@ -704,6 +718,8 @@ success
 }
 )
 ;
+lazy
+.
 SaveToPocket
 .
 itemDeleted

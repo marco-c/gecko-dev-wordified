@@ -167,11 +167,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CrashSubmit
 "
@@ -194,7 +200,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gNavigatorBundle
 "
@@ -644,11 +650,15 @@ pluginDumpID
 =
 report
 ;
+lazy
+.
 CrashSubmit
 .
 submit
 (
 pluginDumpID
+lazy
+.
 CrashSubmit
 .
 SUBMITTED_FROM_CRASH_TAB
@@ -931,6 +941,8 @@ svg
 let
 reloadLabel
 =
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -947,6 +959,8 @@ label
 let
 reloadKey
 =
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -998,6 +1012,8 @@ MOZ_CRASHREPORTER
 let
 submitLabel
 =
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -1014,6 +1030,8 @@ label
 let
 submitKey
 =
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -1068,6 +1086,8 @@ submitButton
 let
 messageString
 =
+lazy
+.
 gNavigatorBundle
 .
 formatStringFromName
@@ -1147,6 +1167,8 @@ setAttribute
 "
 value
 "
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName

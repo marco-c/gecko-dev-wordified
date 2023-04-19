@@ -91,11 +91,17 @@ AboutReaderChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AboutReader
 "
@@ -118,7 +124,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ReaderMode
 "
@@ -141,7 +147,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Readerable
 "
@@ -316,6 +322,8 @@ this
 .
 _articlePromise
 =
+lazy
+.
 ReaderMode
 .
 parseDocument
@@ -429,6 +437,8 @@ EnterReaderMode
 "
 :
 {
+lazy
+.
 ReaderMode
 .
 enterReaderMode
@@ -452,6 +462,8 @@ LeaveReaderMode
 "
 :
 {
+lazy
+.
 ReaderMode
 .
 leaveReaderMode
@@ -743,6 +755,8 @@ this
 _reader
 =
 new
+lazy
+.
 AboutReader
 (
 this
@@ -990,6 +1004,8 @@ canDoReadabilityCheck
 {
 return
 (
+lazy
+.
 Readerable
 .
 isEnabledForParseOnLoad
@@ -1355,6 +1371,8 @@ time
 .
 if
 (
+lazy
+.
 Readerable
 .
 shouldCheckUri
@@ -1366,6 +1384,8 @@ true
 )
 &
 &
+lazy
+.
 Readerable
 .
 isProbablyReaderable

@@ -121,11 +121,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 clearTimeout
 :
@@ -953,6 +959,8 @@ this
 _waitForContentTimeout
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -979,6 +987,8 @@ this
 .
 _waitForContentTimeout
 =
+lazy
+.
 setTimeout
 (
 (

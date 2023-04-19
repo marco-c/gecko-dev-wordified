@@ -83,11 +83,17 @@ FormValidationParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserWindowTracker
 "
@@ -302,6 +308,8 @@ for
 let
 win
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows

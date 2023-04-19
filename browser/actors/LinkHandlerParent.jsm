@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUIUtils
 "
@@ -656,6 +662,8 @@ canStoreIcon
 {
 try
 {
+lazy
+.
 PlacesUIUtils
 .
 loadFavicon

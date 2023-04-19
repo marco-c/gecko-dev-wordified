@@ -70,11 +70,17 @@ BrowserProcessChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WebRTCChild
 "
@@ -96,7 +102,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AboutHomeStartupCacheChild
 "
@@ -148,6 +154,8 @@ message
 .
 data
 ;
+lazy
+.
 AboutHomeStartupCacheChild
 .
 init
@@ -213,6 +221,8 @@ window
 ended
 "
 :
+lazy
+.
 WebRTCChild
 .
 observe

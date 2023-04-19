@@ -141,11 +141,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -168,7 +174,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WebNavigationFrames
 "
@@ -191,7 +197,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 E10SUtils
 "
@@ -214,7 +220,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUtils
 "
@@ -561,6 +567,8 @@ node
 principal
 ]
 =
+lazy
+.
 BrowserUtils
 .
 hrefAndLinkNodeForClickEvent
@@ -582,6 +590,8 @@ csp
 {
 csp
 =
+lazy
+.
 E10SUtils
 .
 serializeCSP
@@ -640,6 +650,8 @@ ownerDoc
 }
 referrerInfo
 =
+lazy
+.
 E10SUtils
 .
 serializeReferrerInfo
@@ -650,6 +662,8 @@ referrerInfo
 let
 frameID
 =
+lazy
+.
 WebNavigationFrames
 .
 getFrameId
@@ -712,6 +726,8 @@ originAttributes
 }
 isContentWindowPrivate
 :
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -760,6 +776,8 @@ event
 isTrusted
 &
 &
+lazy
+.
 BrowserUtils
 .
 whereToOpenLink

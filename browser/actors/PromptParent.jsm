@@ -88,11 +88,17 @@ PromptParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromptUtils
 "
@@ -163,7 +169,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 tabChromePromptSubDialog
 "
@@ -179,7 +185,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 contentPromptSubDialog
 "
@@ -195,7 +201,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTabBrowserLocalization
 "
@@ -820,6 +826,8 @@ MODAL_TYPE_CONTENT
 &
 &
 !
+lazy
+.
 contentPromptSubDialog
 )
 |
@@ -839,6 +847,8 @@ MODAL_TYPE_TAB
 &
 &
 !
+lazy
+.
 tabChromePromptSubDialog
 )
 |
@@ -1261,6 +1271,8 @@ unregisterPrompt
 id
 )
 ;
+lazy
+.
 PromptUtils
 .
 fireDialogEvent
@@ -1299,6 +1311,8 @@ enterModalState
 (
 )
 ;
+lazy
+.
 PromptUtils
 .
 fireDialogEvent
@@ -1771,6 +1785,8 @@ enterModalState
 (
 )
 ;
+lazy
+.
 PromptUtils
 .
 fireDialogEvent
@@ -1870,6 +1886,8 @@ args
 }
 bag
 =
+lazy
+.
 PromptUtils
 .
 objectToPropBag
@@ -1955,6 +1973,8 @@ Window
 prompt
 bag
 =
+lazy
+.
 PromptUtils
 .
 objectToPropBag
@@ -1983,6 +2003,8 @@ bag
 )
 ;
 }
+lazy
+.
 PromptUtils
 .
 propBagToObject
@@ -2005,6 +2027,8 @@ maybeLeaveModalState
 (
 )
 ;
+lazy
+.
 PromptUtils
 .
 fireDialogEvent
@@ -2281,6 +2305,8 @@ let
 allowFocusMsg
 ]
 =
+lazy
+.
 gTabBrowserLocalization
 .
 formatMessagesSync

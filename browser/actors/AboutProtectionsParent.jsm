@@ -129,11 +129,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserUtils
 :
@@ -261,7 +267,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -301,7 +307,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 TrackingDBService
 "
@@ -1077,6 +1083,8 @@ try
 if
 (
 await
+lazy
+.
 fxAccounts
 .
 getSignedInUser
@@ -1085,6 +1093,8 @@ getSignedInUser
 )
 {
 await
+lazy
+.
 fxAccounts
 .
 device
@@ -1143,8 +1153,12 @@ logins
 .
 countLogins
 (
+lazy
+.
 FXA_PWDMGR_HOST
 null
+lazy
+.
 FXA_PWDMGR_REALM
 )
 ;
@@ -1192,6 +1206,8 @@ const
 logins
 =
 await
+lazy
+.
 LoginHelper
 .
 getAllUserFacingLogins
@@ -1201,6 +1217,8 @@ getAllUserFacingLogins
 potentiallyBreachedLogins
 =
 await
+lazy
+.
 LoginBreaches
 .
 getPotentialBreachesByLoginGUID
@@ -1212,6 +1230,8 @@ logins
 let
 mobileDeviceConnected
 =
+lazy
+.
 fxAccounts
 .
 device
@@ -1219,6 +1239,8 @@ device
 recentDeviceList
 &
 &
+lazy
+.
 fxAccounts
 .
 device
@@ -1446,6 +1468,8 @@ email
 }
 =
 await
+lazy
+.
 fxAccounts
 .
 getSignedInUser
@@ -1571,6 +1595,8 @@ INVALID_OAUTH_TOKEN
 )
 {
 await
+lazy
+.
 fxAccounts
 .
 removeCachedOAuthToken
@@ -1661,6 +1687,8 @@ email
 }
 =
 await
+lazy
+.
 fxAccounts
 .
 getSignedInUser
@@ -1724,6 +1752,8 @@ try
 token
 =
 await
+lazy
+.
 fxAccounts
 .
 getOAuthToken
@@ -1814,6 +1844,8 @@ shouldShowProxyCard
 const
 region
 =
+lazy
+.
 Region
 .
 home
@@ -1845,6 +1877,8 @@ const
 alreadyInstalled
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -1932,6 +1966,8 @@ try
 vpnToken
 =
 await
+lazy
+.
 fxAccounts
 .
 getOAuthToken
@@ -2121,6 +2157,8 @@ case
 OpenAboutLogins
 "
 :
+lazy
+.
 LoginHelper
 .
 openPasswordManager
@@ -2276,6 +2314,8 @@ weekdays
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -2298,6 +2338,8 @@ let
 sumEvents
 =
 await
+lazy
+.
 TrackingDBService
 .
 sumAllEvents
@@ -2308,6 +2350,8 @@ let
 earliestDate
 =
 await
+lazy
+.
 TrackingDBService
 .
 getEarliestRecordedDate
@@ -2318,6 +2362,8 @@ let
 eventsByDate
 =
 await
+lazy
+.
 TrackingDBService
 .
 getEventsByDateRange
@@ -2591,6 +2637,8 @@ FetchShowVPNCard
 "
 :
 return
+lazy
+.
 BrowserUtils
 .
 shouldShowVPNPromo

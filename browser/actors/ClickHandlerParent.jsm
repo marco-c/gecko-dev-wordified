@@ -102,11 +102,17 @@ MiddleMousePasteHandlerParent
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUIUtils
 "
@@ -128,7 +134,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -151,7 +157,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 E10SUtils
 "
@@ -608,6 +614,8 @@ try
 if
 (
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -616,6 +624,8 @@ window
 )
 )
 {
+lazy
+.
 PlacesUIUtils
 .
 markPageAsFollowedLink
@@ -697,6 +707,8 @@ browser
 characterSet
 referrerInfo
 :
+lazy
+.
 E10SUtils
 .
 deserializeReferrerInfo
@@ -731,6 +743,8 @@ data
 .
 csp
 ?
+lazy
+.
 E10SUtils
 .
 deserializeCSP
