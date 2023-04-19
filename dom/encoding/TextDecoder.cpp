@@ -391,10 +391,10 @@ NewDecoderWithBOMRemoval
 }
 }
 void
-TextDecoder
+TextDecoderCommon
 :
 :
-Decode
+DecodeNative
 (
 Span
 <
@@ -737,7 +737,7 @@ WasPassed
 )
 )
 {
-Decode
+DecodeNative
 (
 nullptr
 aOptions
@@ -858,7 +858,7 @@ Length
 )
 ;
 }
-Decode
+DecodeNative
 (
 Span
 (
@@ -874,7 +874,7 @@ aRv
 ;
 }
 void
-TextDecoder
+TextDecoderCommon
 :
 :
 GetEncoding
