@@ -533,6 +533,11 @@ nsWindowGfx
 cpp
 "
 "
+nsWindowTaskbarConcealer
+.
+cpp
+"
+"
 nsWinGesture
 .
 cpp
