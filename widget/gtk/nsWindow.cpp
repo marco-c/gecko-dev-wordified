@@ -38263,7 +38263,7 @@ with
 BrowserParent
 :
 :
-UpdateVsyncParentVsyncSource
+UpdateVsyncParentVsyncDispatcher
 (
 )
 .
