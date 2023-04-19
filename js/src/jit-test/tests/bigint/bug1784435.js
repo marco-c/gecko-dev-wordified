@@ -7,7 +7,7 @@ test
 |
 error
 :
-InternalError
+RangeError
 v2
 =
 new
