@@ -10751,7 +10751,11 @@ Try
 CacheIR
 first
 :
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 aobj
 (
 cx
@@ -14926,7 +14930,11 @@ range
 "
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 array
 (
 cx

@@ -1740,7 +1740,11 @@ return
 false
 ;
 }
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 partsArray
 (
 cx
@@ -2228,7 +2232,11 @@ ListFormat
 StringList
 list
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 listObj
 (
 cx

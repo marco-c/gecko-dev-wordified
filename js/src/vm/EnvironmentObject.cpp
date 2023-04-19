@@ -19488,7 +19488,11 @@ wild
 .
 *
 /
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 snapshot
 (
 cx

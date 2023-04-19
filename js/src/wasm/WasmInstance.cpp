@@ -1525,7 +1525,11 @@ isSome
 )
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 array
 (
 cx

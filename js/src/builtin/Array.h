@@ -1094,7 +1094,11 @@ ArrayConstructorOneArg
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 templateObject
 int32_t
 lengthInt

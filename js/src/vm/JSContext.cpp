@@ -4241,7 +4241,11 @@ JSErrorReport
 report
 )
 {
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 notesArray
 (
 cx
@@ -4792,7 +4796,11 @@ JSContext
 cx
 )
 {
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 jobs
 (
 cx

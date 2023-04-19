@@ -2145,7 +2145,11 @@ return
 nullptr
 ;
 }
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 array
 (
 cx
@@ -2418,7 +2422,11 @@ false
 Step
 4
 .
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 errorsList
 (
 cx

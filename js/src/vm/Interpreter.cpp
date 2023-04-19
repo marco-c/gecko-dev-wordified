@@ -12214,7 +12214,11 @@ cx
 jsbytecode
 *
 pc
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 arr
 HandleValue
 val
@@ -31814,7 +31818,11 @@ MutableHandleValue
 res
 )
 {
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 aobj
 (
 cx

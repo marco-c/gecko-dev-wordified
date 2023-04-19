@@ -692,7 +692,11 @@ RegExpGetSubstitution
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 matchResult
 HandleLinearString
 string

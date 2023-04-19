@@ -1280,7 +1280,11 @@ length
 (
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 result
 (
 cx

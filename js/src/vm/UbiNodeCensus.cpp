@@ -1096,7 +1096,11 @@ length
 (
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 arr
 (
 cx

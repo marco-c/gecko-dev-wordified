@@ -8747,7 +8747,11 @@ fast
 path
 )
 .
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 array
 =
 other

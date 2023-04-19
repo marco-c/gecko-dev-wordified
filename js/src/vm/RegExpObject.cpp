@@ -5471,7 +5471,11 @@ array
 object
 *
 /
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 templateObject
 (
 cx

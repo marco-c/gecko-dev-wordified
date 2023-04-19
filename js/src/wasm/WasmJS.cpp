@@ -8088,7 +8088,11 @@ ValTypeVector
 valTypes
 )
 {
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 arrayObj
 (
 cx

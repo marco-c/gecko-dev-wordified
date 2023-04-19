@@ -213,10 +213,14 @@ createUnchecked
 JSContext
 *
 cx
+Handle
+<
 js
 :
 :
-HandleArrayObject
+ArrayObject
+*
+>
 aObj
 )
 ;

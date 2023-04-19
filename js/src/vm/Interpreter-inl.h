@@ -3787,7 +3787,11 @@ InitElemIncOperation
 JSContext
 *
 cx
-HandleArrayObject
+Handle
+<
+ArrayObject
+*
+>
 arr
 uint32_t
 index
@@ -3930,7 +3934,11 @@ JSOp
 CallSiteObj
 )
 ;
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 cso
 (
 cx

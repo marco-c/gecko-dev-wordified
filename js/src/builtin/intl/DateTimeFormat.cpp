@@ -8246,7 +8246,11 @@ return
 false
 ;
 }
-RootedArrayObject
+Rooted
+<
+ArrayObject
+*
+>
 partsArray
 (
 cx
