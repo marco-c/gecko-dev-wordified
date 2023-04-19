@@ -66,13 +66,13 @@ packed
 ]
 types
 struct
-S
+Foo
 {
 #
 [
 pin
 ]
-f
+field
 :
 u32
 }

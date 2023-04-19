@@ -220,7 +220,7 @@ None
 Returns
 the
 stream
-identifier
+identifer
 that
 this
 frame
@@ -409,7 +409,7 @@ unset_end_stream
 /
 /
 Returns
-whether
+whther
 the
 PADDED
 flag

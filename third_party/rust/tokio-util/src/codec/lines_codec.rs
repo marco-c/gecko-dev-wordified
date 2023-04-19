@@ -1130,9 +1130,12 @@ is_empty
 )
 {
 return
-Ok
+Err
 (
-None
+LinesCodecError
+:
+:
+MaxLineLengthExceeded
 )
 ;
 }
@@ -1598,7 +1601,7 @@ new
 /
 An
 error
-occurred
+occured
 while
 encoding
 or
@@ -1634,7 +1637,7 @@ MaxLineLengthExceeded
 An
 IO
 error
-occurred
+occured
 .
 Io
 (

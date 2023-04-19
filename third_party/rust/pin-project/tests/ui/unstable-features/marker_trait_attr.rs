@@ -1,6 +1,6 @@
 /
 /
-Note
+NB
 :
 If
 you
@@ -82,6 +82,12 @@ issuecomment
 -
 535355974
 use
+pin_project
+:
+:
+pin_project
+;
+use
 std
 :
 :
@@ -89,12 +95,6 @@ marker
 :
 :
 PhantomPinned
-;
-use
-pin_project
-:
-:
-pin_project
 ;
 #
 [
@@ -115,7 +115,7 @@ T
 [
 pin
 ]
-f
+x
 :
 T
 }
