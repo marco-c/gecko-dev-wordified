@@ -2116,13 +2116,6 @@ preventCancel
 Not
 implemented
 .
-enum
-class
-ReadableStreamReaderMode
-{
-Byob
-}
-;
 /
 *
 *
@@ -2324,6 +2317,9 @@ false
 }
 Maybe
 <
+JS
+:
+:
 ReadableStreamReaderMode
 >
 mode
@@ -2596,6 +2592,9 @@ mode
 =
 Some
 (
+JS
+:
+:
 ReadableStreamReaderMode
 :
 :
@@ -2689,6 +2688,9 @@ value
 )
 =
 =
+JS
+:
+:
 ReadableStreamReaderMode
 :
 :

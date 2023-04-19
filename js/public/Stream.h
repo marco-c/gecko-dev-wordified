@@ -2226,6 +2226,7 @@ class
 ReadableStreamReaderMode
 {
 Default
+Byob
 }
 ;
 /
