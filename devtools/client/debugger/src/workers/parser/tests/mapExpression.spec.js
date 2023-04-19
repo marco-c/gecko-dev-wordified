@@ -242,7 +242,6 @@ formatAwait
 (
 "
 return
-await
 a
 (
 )
@@ -448,7 +447,6 @@ a
 )
 ;
 return
-await
 b
 (
 x
