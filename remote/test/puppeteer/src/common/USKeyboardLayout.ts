@@ -1252,7 +1252,7 @@ internal
 /
 export
 const
-keyDefinitions
+_keyDefinitions
 :
 Readonly
 <

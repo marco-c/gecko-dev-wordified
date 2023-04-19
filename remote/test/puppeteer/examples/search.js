@@ -350,9 +350,7 @@ page
 .
 evaluate
 (
-(
 resultsSelector
-)
 =
 >
 {
@@ -376,9 +374,7 @@ anchors
 .
 map
 (
-(
 anchor
-)
 =
 >
 {

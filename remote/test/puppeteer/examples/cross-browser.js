@@ -206,7 +206,7 @@ resultsSelector
 =
 '
 .
-storylink
+titlelink
 '
 ;
 const
@@ -217,9 +217,7 @@ page
 .
 evaluate
 (
-(
 resultsSelector
-)
 =
 >
 {
@@ -243,9 +241,7 @@ anchors
 .
 map
 (
-(
 anchor
-)
 =
 >
 {

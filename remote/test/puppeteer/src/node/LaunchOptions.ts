@@ -206,6 +206,10 @@ headless
 ?
 :
 boolean
+|
+'
+chrome
+'
 ;
 /
 *

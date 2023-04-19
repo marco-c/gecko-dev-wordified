@@ -131,6 +131,13 @@ License
 .
 *
 /
+/
+*
+*
+*
+internal
+*
+/
 export
 const
 isNode

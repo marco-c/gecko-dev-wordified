@@ -191,11 +191,11 @@ await
 new
 Promise
 (
-(
 x
-)
 =
 >
+{
+return
 (
 frame
 .
@@ -203,6 +203,8 @@ onload
 =
 x
 )
+;
+}
 )
 ;
 return
@@ -342,7 +344,7 @@ Out
 -
 of
 -
-proccess
+process
 /
 /
 iframes
