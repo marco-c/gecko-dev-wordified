@@ -61,8 +61,8 @@ crate
 :
 :
 {
-wgpu_string
 cow_label
+wgpu_string
 AdapterInformation
 ByteBuf
 CommandEncoderAction
@@ -655,6 +655,7 @@ map
 |
 ct
 |
+{
 Some
 (
 wgt
@@ -683,6 +684,7 @@ ct
 write_mask
 }
 )
+}
 )
 .
 collect
