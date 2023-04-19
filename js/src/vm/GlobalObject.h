@@ -730,7 +730,7 @@ DefaultHasher
 JSAtom
 *
 >
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 VarNamesSet

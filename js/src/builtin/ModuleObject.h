@@ -218,7 +218,7 @@ h
 "
 /
 /
-ZoneAllocPolicy
+CellAllocPolicy
 #
 include
 "
@@ -1126,7 +1126,7 @@ DefaultHasher
 <
 PreBarrieredId
 >
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 mozilla

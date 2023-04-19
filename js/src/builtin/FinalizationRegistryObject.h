@@ -1932,7 +1932,7 @@ FinalizationRecordObject
 js
 :
 :
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 /
@@ -2125,7 +2125,7 @@ FinalizationRecordObject
 js
 :
 :
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 /

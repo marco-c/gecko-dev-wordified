@@ -652,7 +652,7 @@ HashableValue
 :
 :
 Hasher
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ValueMap
 ;
@@ -664,7 +664,7 @@ HashableValue
 :
 :
 Hasher
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ValueSet
 ;
@@ -1049,7 +1049,7 @@ OrderedHashMap
 Value
 Value
 UnbarrieredHashPolicy
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 friend
@@ -2161,7 +2161,7 @@ OrderedHashSet
 <
 Value
 UnbarrieredHashPolicy
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 friend

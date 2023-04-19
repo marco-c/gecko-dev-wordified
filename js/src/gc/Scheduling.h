@@ -3326,9 +3326,6 @@ AutoLockGC
 class
 ZoneAllocator
 ;
-class
-ZoneAllocPolicy
-;
 namespace
 gc
 {
@@ -5527,12 +5524,12 @@ removeBytes
 size_t
 nbytes
 bool
-wasSwept
+updateRetainedSize
 )
 {
 if
 (
-wasSwept
+updateRetainedSize
 )
 {
 /
@@ -5606,7 +5603,7 @@ parent_
 removeBytes
 (
 nbytes
-wasSwept
+updateRetainedSize
 )
 ;
 }

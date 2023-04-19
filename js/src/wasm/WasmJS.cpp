@@ -13122,7 +13122,7 @@ DefaultHasher
 <
 uint32_t
 >
-ZoneAllocPolicy
+CellAllocPolicy
 >
 >
 ;
