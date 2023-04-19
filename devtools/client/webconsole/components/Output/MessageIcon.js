@@ -230,11 +230,14 @@ getIconElement
 (
 level
 type
+title
 )
 {
-let
 title
 =
+title
+|
+|
 l10n
 .
 getStr
@@ -378,6 +381,11 @@ type
 PropTypes
 .
 string
+title
+:
+PropTypes
+.
+string
 }
 ;
 function
@@ -390,6 +398,7 @@ const
 {
 level
 type
+title
 }
 =
 props
@@ -404,6 +413,7 @@ getIconElement
 (
 level
 type
+title
 )
 ;
 }
