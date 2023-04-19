@@ -738,11 +738,6 @@ init
 ;
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-&
-&
 !
 Services
 .
