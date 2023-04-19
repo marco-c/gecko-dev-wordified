@@ -239,11 +239,17 @@ PushServiceHttp2
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -440,6 +446,8 @@ pushService
 uri
 )
 {
+lazy
+.
 console
 .
 debug
@@ -504,6 +512,8 @@ onStartRequest
 aRequest
 )
 {
+lazy
+.
 console
 .
 debug
@@ -535,6 +545,8 @@ aOffset
 aCount
 )
 {
+lazy
+.
 console
 .
 debug
@@ -622,6 +634,8 @@ aRequest
 aStatusCode
 )
 {
+lazy
+.
 console
 .
 debug
@@ -671,6 +685,8 @@ associatedChannel
 pushChannel
 )
 {
+lazy
+.
 console
 .
 debug
@@ -750,6 +766,8 @@ function
 pushSubscriptionListener
 )
 {
+lazy
+.
 console
 .
 debug
@@ -811,6 +829,8 @@ aOffset
 aCount
 )
 {
+lazy
+.
 console
 .
 debug
@@ -899,6 +919,8 @@ aRequest
 aStatusCode
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1226,6 +1248,8 @@ aServerURI
 aPushServiceHttp2
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1311,6 +1335,8 @@ aRequest
 aStatus
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1610,6 +1636,8 @@ header
 return
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -1734,6 +1762,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 error
@@ -1871,6 +1901,8 @@ null
 }
 else
 {
+lazy
+.
 console
 .
 debug
@@ -2191,6 +2223,8 @@ indexOf
 }
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -2203,6 +2237,8 @@ pushEndpoint
 pushEndpoint
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -2538,6 +2574,8 @@ register
 aRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2657,6 +2695,8 @@ _subscribeResourceInternal
 aSubInfo
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2850,6 +2890,8 @@ _unsubscribeResource
 aSubscriptionUri
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2886,6 +2928,8 @@ _listenForMsgs
 aSubscriptionUri
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2909,6 +2953,8 @@ aSubscriptionUri
 ]
 )
 {
+lazy
+.
 console
 .
 warn
@@ -2988,6 +3034,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 error
@@ -3085,6 +3133,8 @@ _ackMsgRecv
 aAckUri
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3113,6 +3163,8 @@ aMainPushService
 aServerURL
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3150,6 +3202,8 @@ aSubscriptionUri
 retryAfter
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3412,6 +3466,8 @@ aSubscriptionUri
 retryAfter
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -3436,6 +3492,8 @@ _shutdownConnections
 deleteInfo
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3610,6 +3668,8 @@ startConnections
 aSubscriptions
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3677,6 +3737,8 @@ error
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -3704,6 +3766,8 @@ _startSingleConnection
 record
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3801,6 +3865,8 @@ _shutdownSubscription
 aSubscriptionUri
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3906,6 +3972,8 @@ uninit
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3997,6 +4065,8 @@ messageID
 reason
 )
 {
+lazy
+.
 console
 .
 warn
@@ -4157,6 +4227,8 @@ aSuccess
 aSubscriptionUri
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4400,6 +4472,8 @@ aListener
 )
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4425,6 +4499,8 @@ aHeaders
 aMessage
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4484,6 +4560,8 @@ err
 =
 >
 {
+lazy
+.
 console
 .
 error

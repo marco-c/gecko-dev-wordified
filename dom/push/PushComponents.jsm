@@ -153,6 +153,12 @@ nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
 ;
+const
+lazy
+=
+{
+}
+;
 /
 /
 The
@@ -165,7 +171,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PushService
 "
@@ -1762,6 +1768,8 @@ this
 _service
 |
 |
+lazy
+.
 PushService
 ;
 }

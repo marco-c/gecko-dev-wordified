@@ -118,11 +118,17 @@ PushDB
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -190,6 +196,8 @@ keyPath
 model
 )
 {
+lazy
+.
 console
 .
 debug
@@ -614,6 +622,8 @@ put
 aRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -711,6 +721,8 @@ aEvent
 =
 >
 {
+lazy
+.
 console
 .
 debug
@@ -772,6 +784,8 @@ delete
 aKeyID
 )
 {
+lazy
+.
 console
 .
 debug
@@ -810,6 +824,8 @@ aStore
 =
 >
 {
+lazy
+.
 console
 .
 debug
@@ -897,6 +913,8 @@ clearIf
 testFn
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1004,6 +1022,8 @@ e
 =
 >
 {
+lazy
+.
 console
 .
 error
@@ -1045,6 +1065,8 @@ getByPushEndpoint
 aPushEndpoint
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1128,6 +1150,8 @@ target
 result
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -1161,6 +1185,8 @@ getByKeyID
 aKeyID
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1232,6 +1258,8 @@ target
 result
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -1360,6 +1388,8 @@ originAttributes
 callback
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1513,6 +1543,8 @@ getByIdentifiers
 aPageRecord
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1541,6 +1573,8 @@ originAttributes
 undefined
 )
 {
+lazy
+.
 console
 .
 error
@@ -1865,6 +1899,8 @@ getAllKeyIDs
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -1958,6 +1994,8 @@ _getAllByPushQuota
 range
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2078,6 +2116,8 @@ getAllUnexpired
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2107,6 +2147,8 @@ getAllExpired
 (
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2319,6 +2361,8 @@ newRecord
 )
 )
 {
+lazy
+.
 console
 .
 error
@@ -2372,6 +2416,8 @@ aEvent
 =
 >
 {
+lazy
+.
 console
 .
 debug
@@ -2458,6 +2504,8 @@ drop
 (
 )
 {
+lazy
+.
 console
 .
 debug

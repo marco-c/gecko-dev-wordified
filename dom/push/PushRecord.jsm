@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 EventDispatcher
 "
@@ -136,7 +142,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -159,7 +165,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -978,6 +984,8 @@ let
 result
 =
 await
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1107,6 +1115,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1352,6 +1362,8 @@ window
 closed
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

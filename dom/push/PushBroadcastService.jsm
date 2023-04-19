@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JSONFile
 "
@@ -177,7 +183,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -239,7 +245,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PushService
 "
@@ -332,6 +338,8 @@ this
 jsonFile
 =
 new
+lazy
+.
 JSONFile
 (
 {
@@ -796,6 +804,8 @@ version
 sourceInfo
 )
 {
+lazy
+.
 console
 .
 info
@@ -920,6 +930,8 @@ oldVersion
 version
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1175,6 +1187,8 @@ broadcasts
 context
 )
 {
+lazy
+.
 console
 .
 info
@@ -1217,6 +1231,8 @@ version
 DUMMY_VERSION_STRING
 )
 {
+lazy
+.
 console
 .
 info
@@ -1272,6 +1288,8 @@ broadcastId
 )
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1319,6 +1337,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 error
@@ -1364,6 +1384,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 error
@@ -1402,6 +1424,8 @@ symbolName
 ]
 )
 {
+lazy
+.
 console
 .
 error
@@ -1446,6 +1470,8 @@ handler
 receivedBroadcastMessage
 )
 {
+lazy
+.
 console
 .
 error
@@ -1501,6 +1527,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 error
@@ -1731,6 +1759,8 @@ return
 new
 BroadcastService
 (
+lazy
+.
 PushService
 path
 )
