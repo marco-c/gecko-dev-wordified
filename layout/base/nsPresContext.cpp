@@ -601,17 +601,6 @@ include
 "
 mozilla
 /
-dom
-/
-FontFaceSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPresData
 .
 h
@@ -1666,7 +1655,7 @@ GetFonts
 fonts
 -
 >
-GetImpl
+GetUserFontSet
 (
 )
 -
