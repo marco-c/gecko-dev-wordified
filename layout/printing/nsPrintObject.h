@@ -544,9 +544,13 @@ pointer
 .
 bool
 mHasBeenPrinted
+=
+false
 ;
 bool
 mInvisible
+=
+false
 ;
 /
 /
