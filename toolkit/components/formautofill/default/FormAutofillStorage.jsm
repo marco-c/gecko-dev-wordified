@@ -181,11 +181,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JSONFile
 "
@@ -208,7 +214,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OSKeyStore
 "
@@ -231,7 +237,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CreditCard
 "
@@ -254,7 +260,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -489,6 +495,8 @@ DEFAULT_REGION
 let
 collators
 =
+lazy
+.
 FormAutofillUtils
 .
 getSearchCollators
@@ -580,6 +588,8 @@ address
 "
 &
 &
+lazy
+.
 FormAutofillUtils
 .
 compareStreetAddress
@@ -689,6 +699,8 @@ address
 "
 &
 &
+lazy
+.
 FormAutofillUtils
 .
 strCompare
@@ -1006,6 +1018,8 @@ number
 ;
 if
 (
+lazy
+.
 CreditCard
 .
 isValidNumber
@@ -1023,6 +1037,8 @@ number
 "
 ]
 =
+lazy
+.
 CreditCard
 .
 getLongMaskedNumber
@@ -1112,6 +1128,8 @@ encrypted
 ]
 =
 await
+lazy
+.
 OSKeyStore
 .
 encrypt
@@ -1667,6 +1685,8 @@ _initializeStore
 {
 return
 new
+lazy
+.
 JSONFile
 (
 {

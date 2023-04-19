@@ -105,11 +105,17 @@ PhoneNumber
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PHONE_NUMBER_META_DATA
 "
@@ -132,7 +138,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PhoneNumberNormalizer
 "
@@ -2746,6 +2752,8 @@ whitespace
 .
 number
 =
+lazy
+.
 PhoneNumberNormalizer
 .
 Normalize
@@ -3252,6 +3260,8 @@ ParseNumber
 }
 )
 (
+lazy
+.
 PHONE_NUMBER_META_DATA
 )
 ;

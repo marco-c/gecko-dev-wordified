@@ -210,11 +210,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CreditCard
 :
@@ -2418,6 +2424,8 @@ year
 let
 type
 =
+lazy
+.
 CreditCard
 .
 getType
@@ -2428,6 +2436,8 @@ number
 let
 ccLabelInfo
 =
+lazy
+.
 CreditCard
 .
 getLabelInfo
@@ -3026,6 +3036,8 @@ addCreditCard
 {
 descriptionIcon
 =
+lazy
+.
 CreditCard
 .
 getCreditCardLogo

@@ -213,11 +213,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Log
 "
@@ -240,7 +246,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 formAutofillStorage
 "
@@ -648,6 +654,8 @@ this
 .
 _storage
 =
+lazy
+.
 formAutofillStorage
 [
 this
@@ -1208,6 +1216,8 @@ _log
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -1793,6 +1803,8 @@ _syncStartup
 )
 {
 await
+lazy
+.
 formAutofillStorage
 .
 initialize
@@ -1977,6 +1989,8 @@ _resetClient
 )
 {
 await
+lazy
+.
 formAutofillStorage
 .
 initialize
@@ -2000,6 +2014,8 @@ _wipeClient
 )
 {
 await
+lazy
+.
 formAutofillStorage
 .
 initialize

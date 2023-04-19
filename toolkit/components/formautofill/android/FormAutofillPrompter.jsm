@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CreditCard
 :
@@ -276,6 +282,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 browser
@@ -342,6 +350,8 @@ this
 _createMessage
 (
 [
+lazy
+.
 CreditCard
 .
 fromGecko
@@ -374,6 +384,8 @@ selectedCreditCard
 return
 ;
 }
+lazy
+.
 GeckoViewAutocomplete
 .
 onCreditCardSave

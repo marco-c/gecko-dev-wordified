@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -120,6 +126,8 @@ const
 FIELD_STATES
 }
 =
+lazy
+.
 FormAutofillUtils
 ;
 const

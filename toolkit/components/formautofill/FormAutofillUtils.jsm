@@ -380,11 +380,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CreditCard
 :
@@ -1764,6 +1770,8 @@ ccNumber
 )
 {
 return
+lazy
+.
 CreditCard
 .
 isValidNumber
@@ -1778,6 +1786,8 @@ promptMessage
 )
 {
 return
+lazy
+.
 OSKeyStore
 .
 ensureLoggedIn
@@ -1832,6 +1842,8 @@ getCreditCardNetworks
 )
 {
 return
+lazy
+.
 CreditCard
 .
 getSupportedNetworks
@@ -6570,6 +6582,8 @@ some
 s
 =
 >
+lazy
+.
 CreditCard
 .
 getNetworkFromName

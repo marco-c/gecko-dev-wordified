@@ -156,11 +156,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormAutofillUtils
 "
@@ -181,7 +187,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CreditCard
 :
@@ -2683,6 +2689,8 @@ fieldName
 ;
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 isAddressField
@@ -2702,6 +2710,8 @@ fieldDetail
 else
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardField
@@ -2751,6 +2761,8 @@ return
 {
 type
 :
+lazy
+.
 FormAutofillUtils
 .
 SECTION_TYPES
@@ -2763,6 +2775,8 @@ addressFieldDetails
 {
 type
 :
+lazy
+.
 FormAutofillUtils
 .
 SECTION_TYPES
@@ -3155,6 +3169,8 @@ null
 let
 highestConfidence
 =
+lazy
+.
 FormAutofillUtils
 .
 ccHeuristicsThreshold
@@ -3275,11 +3291,15 @@ elements
 {
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 ccHeuristicsMode
 =
 =
+lazy
+.
 FormAutofillUtils
 .
 CC_FATHOM_NATIVE
@@ -3329,6 +3349,8 @@ c
 let
 type
 =
+lazy
+.
 FormAutofillUtils
 .
 formAutofillConfidencesKeyToCCFieldType
@@ -3437,6 +3459,8 @@ fieldName
 const
 ruleset
 =
+lazy
+.
 creditCardRulesets
 [
 fieldName
@@ -3517,6 +3541,8 @@ confidences
 {
 }
 ;
+lazy
+.
 creditCardRulesets
 .
 types
@@ -4547,6 +4573,8 @@ parsingIndex
 const
 previousFieldType
 =
+lazy
+.
 FormAutofillUtils
 .
 getCategoryFromFieldName
@@ -5409,6 +5437,8 @@ it
 .
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 isFathomCreditCardsEnabled
@@ -5416,6 +5446,8 @@ isFathomCreditCardsEnabled
 )
 &
 &
+lazy
+.
 creditCardRulesets
 .
 types
@@ -5506,6 +5538,8 @@ option
 {
 if
 (
+lazy
+.
 CreditCard
 .
 getNetworkFromName
@@ -5516,6 +5550,8 @@ value
 )
 |
 |
+lazy
+.
 CreditCard
 .
 getNetworkFromName
@@ -6523,6 +6559,8 @@ filter
 elem
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardOrAddressFieldType
@@ -6645,6 +6683,8 @@ parsingIndex
 ;
 }
 }
+lazy
+.
 LabelUtils
 .
 clearLabelMap
@@ -7060,6 +7100,8 @@ email
 }
 if
 (
+lazy
+.
 FormAutofillUtils
 .
 isFathomCreditCardsEnabled
@@ -7091,6 +7133,8 @@ filter
 r
 =
 >
+lazy
+.
 creditCardRulesets
 .
 types
@@ -7207,6 +7251,8 @@ r
 =
 >
 !
+lazy
+.
 creditCardRulesets
 .
 types
@@ -7365,6 +7411,8 @@ trim
 const
 labels
 =
+lazy
+.
 LabelUtils
 .
 findLabelElements
@@ -7382,6 +7430,8 @@ labels
 {
 yield
 *
+lazy
+.
 LabelUtils
 .
 extractLabelStrings
@@ -8773,6 +8823,8 @@ filter
 name
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 isCreditCardField
@@ -8808,6 +8860,8 @@ filter
 name
 =
 >
+lazy
+.
 FormAutofillUtils
 .
 isAddressField
