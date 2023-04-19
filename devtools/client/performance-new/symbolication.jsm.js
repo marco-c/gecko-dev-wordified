@@ -2441,10 +2441,7 @@ any
 }
 *
 /
-(
-this
-)
-.
+var
 module
 =
 {

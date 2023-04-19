@@ -130,10 +130,7 @@ any
 }
 *
 /
-(
-this
-)
-.
+var
 exports
 =
 {

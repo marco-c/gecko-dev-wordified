@@ -5456,10 +5456,7 @@ any
 }
 *
 /
-(
-this
-)
-.
+var
 module
 =
 {
