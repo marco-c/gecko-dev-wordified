@@ -180,6 +180,15 @@ Runtime
 .
 h
 "
+#
+include
+"
+vm
+/
+Time
+.
+h
+"
 using
 namespace
 js

@@ -139,6 +139,15 @@ h
 #
 include
 "
+jit
+/
+JSJitFrameIter
+.
+h
+"
+#
+include
+"
 js
 /
 friend

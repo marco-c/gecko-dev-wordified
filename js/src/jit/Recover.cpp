@@ -129,6 +129,15 @@ include
 "
 builtin
 /
+Object
+.
+h
+"
+#
+include
+"
+builtin
+/
 RegExp
 .
 h
