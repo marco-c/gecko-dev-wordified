@@ -206,7 +206,7 @@ common_video
 /
 include
 /
-i420_buffer_pool
+video_frame_buffer_pool
 .
 h
 "
@@ -2102,7 +2102,7 @@ buffer
 =
 mBufferPool
 .
-CreateBuffer
+CreateI420Buffer
 (
 aFrame
 .
@@ -2501,7 +2501,7 @@ buffer
 =
 mBufferPool
 .
-CreateBuffer
+CreateI420Buffer
 (
 aFrame
 .
@@ -2761,7 +2761,7 @@ mPacingListener
 webrtc
 :
 :
-I420BufferPool
+VideoFrameBufferPool
 mBufferPool
 ;
 FrameToProcess

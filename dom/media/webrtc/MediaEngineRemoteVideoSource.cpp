@@ -3258,7 +3258,7 @@ scaledBuffer
 =
 mRescalingBufferPool
 .
-CreateBuffer
+CreateI420Buffer
 (
 dst_width
 dst_height
