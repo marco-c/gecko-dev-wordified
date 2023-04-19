@@ -455,8 +455,6 @@ all_complete
 LiteralSearcher
 {
 complete
-:
-complete
 lcp
 :
 Memmem
@@ -483,8 +481,6 @@ longest_common_suffix
 (
 )
 )
-matcher
-:
 matcher
 }
 }

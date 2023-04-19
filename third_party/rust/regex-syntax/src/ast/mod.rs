@@ -88,7 +88,7 @@ tree
 /
 Note
 that
-note
+not
 all
 ASTs
 represents
@@ -3011,10 +3011,6 @@ Span
 Span
 {
 start
-:
-start
-end
-:
 end
 }
 }
@@ -3341,13 +3337,7 @@ Position
 Position
 {
 offset
-:
-offset
 line
-:
-line
-column
-:
 column
 }
 }

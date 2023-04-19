@@ -3244,8 +3244,6 @@ ClassFrame
 Binary
 {
 op
-:
-op
 }
 )
 }
@@ -3325,6 +3323,7 @@ op
 )
 =
 >
+{
 Some
 (
 ClassFrame
@@ -3332,8 +3331,6 @@ ClassFrame
 :
 BinaryLHS
 {
-op
-:
 op
 lhs
 :
@@ -3349,6 +3346,7 @@ op
 rhs
 }
 )
+}
 _
 =
 >
@@ -3490,10 +3488,6 @@ ClassFrame
 BinaryRHS
 {
 op
-:
-op
-rhs
-:
 rhs
 }
 )

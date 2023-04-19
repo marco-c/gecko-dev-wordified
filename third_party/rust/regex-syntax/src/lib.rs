@@ -1769,7 +1769,7 @@ Returns
 true
 if
 the
-give
+given
 character
 has
 significance

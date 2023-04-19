@@ -960,7 +960,7 @@ enabled
 verbose
 mode
 permits
-insigificant
+insignificant
 whitespace
 in
 many

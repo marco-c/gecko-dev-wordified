@@ -379,6 +379,7 @@ is
 strongly
 recommended
 :
+<
 https
 :
 /
@@ -392,6 +393,7 @@ rsc
 /
 regexp
 /
+>
 (
 As
 is
@@ -4282,8 +4284,6 @@ dfa
 Fsm
 {
 prog
-:
-prog
 start
 :
 0
@@ -4293,10 +4293,6 @@ filled
 in
 below
 at
-:
-at
-quit_after_match
-:
 quit_after_match
 last_match_si
 :
@@ -4481,8 +4477,6 @@ dfa
 Fsm
 {
 prog
-:
-prog
 start
 :
 0
@@ -4492,10 +4486,6 @@ filled
 in
 below
 at
-:
-at
-quit_after_match
-:
 quit_after_match
 last_match_si
 :
@@ -4703,8 +4693,6 @@ dfa
 Fsm
 {
 prog
-:
-prog
 start
 :
 0
@@ -4713,8 +4701,6 @@ start
 filled
 in
 below
-at
-:
 at
 quit_after_match
 :
@@ -13984,8 +13970,6 @@ vec
 [
 ]
 num_byte_classes
-:
-num_byte_classes
 }
 }
 fn
@@ -14209,8 +14193,6 @@ vec
 !
 [
 ]
-num_byte_classes
-:
 num_byte_classes
 }
 }
@@ -14593,7 +14575,7 @@ self
 .
 0
 &
-0b0000000_1
+0b0000_0001
 >
 0
 }
@@ -14610,7 +14592,7 @@ self
 0
 |
 =
-0b0000000_1
+0b0000_0001
 ;
 }
 fn
@@ -14627,7 +14609,7 @@ self
 .
 0
 &
-0b000000_1_0
+0b0000_0010
 >
 0
 }
@@ -14644,7 +14626,7 @@ self
 0
 |
 =
-0b000000_1_0
+0b0000_0010
 ;
 }
 fn
@@ -14661,7 +14643,7 @@ self
 .
 0
 &
-0b00000_1_00
+0b0000_0100
 >
 0
 }
@@ -14678,7 +14660,7 @@ self
 0
 |
 =
-0b00000_1_00
+0b0000_0100
 ;
 }
 }

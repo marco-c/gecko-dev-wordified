@@ -1884,25 +1884,12 @@ to_empty
 let
 mut
 old
-:
-Vec
-<
-Literal
->
 =
 self
 .
 lits
 .
-iter
-(
-)
-.
-cloned
-(
-)
-.
-collect
+to_vec
 (
 )
 ;
@@ -2119,7 +2106,6 @@ clear
 }
 }
 else
-{
 if
 let
 Some
@@ -2177,7 +2163,6 @@ clear
 (
 )
 ;
-}
 }
 /
 /
@@ -6240,8 +6225,6 @@ RepetitionKind
 :
 ZeroOrMore
 greedy
-:
-greedy
 hir
 :
 Box
@@ -7176,7 +7159,6 @@ u8
 )
 }
 else
-{
 if
 c
 as
@@ -7228,7 +7210,6 @@ c
 as
 u32
 )
-}
 }
 ;
 space_escaped

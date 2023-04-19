@@ -924,10 +924,6 @@ u8
 ]
 =
 replacement
-.
-as_ref
-(
-)
 ;
 if
 rep
@@ -993,6 +989,10 @@ rep
 get
 (
 cap_end
+)
+.
+copied
+(
 )
 .
 map_or
@@ -1426,7 +1426,6 @@ is_valid_cap_letter
 (
 b
 :
-&
 u8
 )
 -
@@ -1434,7 +1433,6 @@ u8
 bool
 {
 match
-*
 b
 {
 b
