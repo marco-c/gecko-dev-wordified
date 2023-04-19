@@ -93,7 +93,7 @@ StrictVersion
 .
 22
 .
-1
+12
 "
 )
 NPM_MIN_VERSION
@@ -105,7 +105,7 @@ StrictVersion
 .
 14
 .
-12
+16
 "
 )
 def
