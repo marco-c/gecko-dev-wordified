@@ -178,6 +178,8 @@ ffi_converter_name
 type
 RustType
 =
+r
+#
 {
 {
 rec
@@ -193,6 +195,8 @@ write
 (
 obj
 :
+r
+#
 {
 {
 rec
@@ -284,6 +288,8 @@ write
 (
 obj
 .
+r
+#
 {
 {
 field
@@ -328,6 +334,8 @@ anyhow
 :
 Result
 <
+r
+#
 {
 {
 rec
@@ -341,6 +349,8 @@ name
 {
 Ok
 (
+r
+#
 {
 {
 rec
@@ -364,6 +374,8 @@ fields
 )
 %
 }
+r
+#
 {
 {
 field

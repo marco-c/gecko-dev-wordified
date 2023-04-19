@@ -1043,7 +1043,6 @@ types
 :
 :
 {
-IterTypes
 Type
 TypeIterator
 }
@@ -1325,12 +1324,7 @@ is_flat
 (
 )
 }
-}
-impl
-IterTypes
-for
-Error
-{
+pub
 fn
 iter_types
 (
@@ -1551,7 +1545,7 @@ assert_eq
 (
 ci
 .
-iter_error_definitions
+error_definitions
 (
 )
 .
@@ -1720,7 +1714,7 @@ assert_eq
 (
 ci
 .
-iter_error_definitions
+error_definitions
 (
 )
 .
@@ -1823,7 +1817,7 @@ assert_eq
 (
 ci
 .
-iter_error_definitions
+error_definitions
 (
 )
 .

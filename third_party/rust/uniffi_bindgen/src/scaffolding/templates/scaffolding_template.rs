@@ -284,7 +284,7 @@ e
 in
 ci
 .
-iter_error_definitions
+error_definitions
 (
 )
 %
@@ -321,7 +321,7 @@ e
 in
 ci
 .
-iter_enum_definitions
+enum_definitions
 (
 )
 %
@@ -363,7 +363,7 @@ rec
 in
 ci
 .
-iter_record_definitions
+record_definitions
 (
 )
 %
@@ -402,7 +402,7 @@ func
 in
 ci
 .
-iter_function_definitions
+function_definitions
 (
 )
 %
@@ -440,7 +440,7 @@ obj
 in
 ci
 .
-iter_object_definitions
+object_definitions
 (
 )
 %
@@ -479,7 +479,7 @@ cbi
 in
 ci
 .
-iter_callback_interface_definitions
+callback_interface_definitions
 (
 )
 %

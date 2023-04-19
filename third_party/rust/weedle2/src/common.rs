@@ -547,7 +547,7 @@ Vec
 T
 >
 =
-separated_list
+separated_list0
 !
 (
 weedle
@@ -621,7 +621,7 @@ T
 terminated
 !
 (
-separated_nonempty_list
+separated_list1
 !
 (
 weedle
