@@ -215,6 +215,7 @@ import
 getSelectedSource
 getActiveSearch
 getSourcesForTabs
+isSourceBlackBoxed
 getContext
 }
 from
@@ -395,6 +396,7 @@ toggleBlackBox
 togglePrettyPrint
 selectedSource
 source
+isBlackBoxed
 }
 =
 this
@@ -784,8 +786,6 @@ tabMenuItems
 toggleBlackBox
 label
 :
-source
-.
 isBlackBoxed
 ?
 L10N
@@ -1280,6 +1280,13 @@ getSourcesForTabs
 state
 )
 selectedSource
+isBlackBoxed
+:
+isSourceBlackBoxed
+(
+state
+source
+)
 activeSearch
 :
 getActiveSearch

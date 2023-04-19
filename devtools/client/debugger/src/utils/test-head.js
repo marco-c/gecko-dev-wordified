@@ -523,13 +523,6 @@ thread
 "
 FakeThread
 "
-isBlackBoxed
-:
-!
-!
-props
-.
-isBlackBoxed
 isPrettyPrinted
 :
 false
@@ -785,13 +778,6 @@ introductionType
 |
 |
 null
-isBlackBoxed
-:
-!
-!
-props
-.
-isBlackBoxed
 extensionName
 :
 null

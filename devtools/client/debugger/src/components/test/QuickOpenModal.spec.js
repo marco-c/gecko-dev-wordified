@@ -200,6 +200,10 @@ displayedSources
 :
 [
 ]
+blackBoxRanges
+:
+{
+}
 tabs
 :
 [

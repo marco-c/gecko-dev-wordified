@@ -142,6 +142,7 @@ import
 {
 getSymbols
 getTabs
+isSourceBlackBoxed
 }
 from
 "
@@ -215,6 +216,7 @@ modifier
 source
 symbols
 framework
+isBlackBoxed
 }
 =
 this
@@ -258,6 +260,7 @@ getSourceClassnames
 (
 source
 symbols
+isBlackBoxed
 )
 ;
 }
@@ -328,6 +331,21 @@ props
 .
 source
 )
+isBlackBoxed
+:
+props
+.
+source
+?
+isSourceBlackBoxed
+(
+state
+props
+.
+source
+)
+:
+null
 framework
 :
 getFramework
