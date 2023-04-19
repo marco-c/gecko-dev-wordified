@@ -18984,6 +18984,9 @@ stream
 hideTopSitesWithSearchParam
 "
 "
+mfadid
+=
+adm
 "
 )
 ;
