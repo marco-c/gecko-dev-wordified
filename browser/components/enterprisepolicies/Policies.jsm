@@ -11746,7 +11746,7 @@ setAndLockPref
 "
 browser
 .
-downloads
+download
 .
 start_downloads_in_tmp_dir
 "
