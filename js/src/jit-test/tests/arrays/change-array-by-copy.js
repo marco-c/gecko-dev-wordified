@@ -74,7 +74,7 @@ reversedSequence
 =
 sequence
 .
-withReversed
+toReversed
 (
 )
 ;
@@ -122,7 +122,7 @@ sortedSequence
 =
 sequence
 .
-withSorted
+toSorted
 (
 (
 x
@@ -205,7 +205,7 @@ sortedSequence
 =
 sequence
 .
-withSorted
+toSorted
 (
 )
 ;
@@ -305,7 +305,7 @@ assertThrowsInstanceOf
 >
 sequence
 .
-withSorted
+toSorted
 (
 [
 1
@@ -318,7 +318,7 @@ TypeError
 ;
 /
 *
-withSpliced
+toSpliced
 *
 /
 /
@@ -419,7 +419,7 @@ myFishSpliced
 =
 myFish
 .
-withSpliced
+toSpliced
 (
 2
 0
@@ -479,7 +479,7 @@ myFishSpliced
 =
 myFish
 .
-withSpliced
+toSpliced
 (
 2
 0
@@ -557,7 +557,7 @@ myFishSpliced
 =
 myFish1
 .
-withSpliced
+toSpliced
 (
 3
 1
@@ -646,7 +646,7 @@ myFishSpliced
 =
 myFish2
 .
-withSpliced
+toSpliced
 (
 2
 1
@@ -742,7 +742,7 @@ myFishSpliced
 =
 myFish3
 .
-withSpliced
+toSpliced
 (
 0
 2
@@ -839,7 +839,7 @@ myFishSpliced
 =
 myFish4
 .
-withSpliced
+toSpliced
 (
 2
 2
@@ -904,7 +904,7 @@ myFishSpliced
 =
 myFish
 .
-withSpliced
+toSpliced
 (
 -
 2
@@ -949,7 +949,7 @@ myFishSpliced
 =
 myFish
 .
-withSpliced
+toSpliced
 (
 2
 )
@@ -978,7 +978,7 @@ true
 ;
 /
 *
-withAt
+with
 *
 /
 sequence
@@ -990,11 +990,11 @@ sequence
 ]
 ;
 let
-seq_withAt
+seq_with
 =
 sequence
 .
-withAt
+with
 (
 1
 42
@@ -1018,7 +1018,7 @@ assertEq
 (
 arraysEqual
 (
-seq_withAt
+seq_with
 [
 1
 42
@@ -1034,7 +1034,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 -
 0
@@ -1068,7 +1068,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 false
 42
@@ -1088,7 +1088,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 true
 42
@@ -1116,7 +1116,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 null
 42
@@ -1145,7 +1145,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 [
 ]
@@ -1166,7 +1166,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 "
 2
@@ -1199,7 +1199,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 "
 monkeys
@@ -1221,7 +1221,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 undefined
 42
@@ -1241,7 +1241,7 @@ arraysEqual
 (
 sequence
 .
-withAt
+with
 (
 function
 (
@@ -1267,7 +1267,7 @@ assertThrowsInstanceOf
 >
 sequence
 .
-withAt
+with
 (
 3
 42
@@ -1283,7 +1283,7 @@ assertThrowsInstanceOf
 >
 sequence
 .
-withAt
+with
 (
 5
 42
@@ -1299,7 +1299,7 @@ assertThrowsInstanceOf
 >
 sequence
 .
-withAt
+with
 (
 -
 10
@@ -1316,7 +1316,7 @@ assertThrowsInstanceOf
 >
 sequence
 .
-withAt
+with
 (
 Infinity
 42

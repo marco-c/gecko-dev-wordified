@@ -527,7 +527,7 @@ argument
 )
 MSG_DEF
 (
-JSMSG_BAD_WITHSORTED_ARG
+JSMSG_BAD_TOSORTED_ARG
 0
 JSEXN_TYPEERR
 "
@@ -540,7 +540,7 @@ Array
 .
 prototype
 .
-withSorted
+toSorted
 "
 )
 MSG_DEF

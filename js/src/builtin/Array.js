@@ -7933,11 +7933,11 @@ Array
 .
 prototype
 .
-withReversed
+toReversed
 (
 )
 function
-ArrayWithReversed
+ArrayToReversed
 (
 )
 {
@@ -8107,11 +8107,11 @@ Array
 .
 prototype
 .
-withSorted
+toSorted
 (
 )
 function
-ArrayWithSorted
+ArrayToSorted
 (
 comparefn
 )
@@ -8141,7 +8141,7 @@ comparefn
 {
 ThrowTypeError
 (
-JSMSG_BAD_WITHSORTED_ARG
+JSMSG_BAD_TOSORTED_ARG
 )
 ;
 }
