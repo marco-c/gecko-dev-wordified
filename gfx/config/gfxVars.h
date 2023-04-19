@@ -698,13 +698,6 @@ false
 \
 _
 (
-UseVAAPI
-bool
-false
-)
-\
-_
-(
 WebRenderRequiresHardwareDriver
 bool
 false
