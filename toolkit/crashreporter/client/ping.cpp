@@ -346,6 +346,7 @@ BSD
 .
 arc4random_buf
 (
+&
 id
 sizeof
 (
