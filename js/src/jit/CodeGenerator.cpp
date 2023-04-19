@@ -123887,12 +123887,14 @@ Address
 addr
 =
 ToAddress
-(
-larg
+<
 BaseRegForAddress
 :
 :
 SP
+>
+(
+larg
 )
 ;
 stackArgs
