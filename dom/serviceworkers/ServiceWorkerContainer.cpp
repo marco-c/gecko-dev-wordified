@@ -443,8 +443,8 @@ DispatchMessage
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -5027,9 +5027,7 @@ Ok
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

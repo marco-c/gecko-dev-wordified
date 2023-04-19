@@ -721,8 +721,8 @@ anonymous
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 CancelChannelRunnable
@@ -7527,9 +7527,7 @@ Event
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

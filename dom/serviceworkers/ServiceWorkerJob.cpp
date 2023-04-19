@@ -162,8 +162,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ServiceWorkerJob
@@ -1490,9 +1490,7 @@ converted
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

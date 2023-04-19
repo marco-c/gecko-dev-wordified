@@ -154,8 +154,8 @@ nsIGlobalWindow
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -945,12 +945,10 @@ mPendingMessages
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

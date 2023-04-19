@@ -180,8 +180,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ServiceWorkerCloneData
@@ -622,9 +622,7 @@ mIsErrorMessageData
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
