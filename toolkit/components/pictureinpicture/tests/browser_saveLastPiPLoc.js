@@ -2296,7 +2296,7 @@ ui
 .
 textScaleFactor
 "
-200
+120
 ]
 ]
 }
