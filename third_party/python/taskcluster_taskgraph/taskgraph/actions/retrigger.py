@@ -1417,17 +1417,17 @@ label
 )
 :
     
-state
+status
 =
 taskcluster
 .
-state_task
+status_task
 (
 task_id
 )
     
 if
-state
+status
 not
 in
 RERUN_STATES
@@ -1462,7 +1462,7 @@ format
 (
                 
 label
-state
+status
 RERUN_STATES
             
 )

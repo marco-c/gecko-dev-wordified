@@ -339,7 +339,7 @@ attributes
 Optional
 (
 "
-task
+job
 -
 from
 "
@@ -348,7 +348,7 @@ from
 task_description_schema
 [
 "
-task
+job
 -
 from
 "

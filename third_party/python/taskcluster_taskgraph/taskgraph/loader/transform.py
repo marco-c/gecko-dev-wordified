@@ -56,7 +56,7 @@ MPL
 import
 logging
 from
-taskgraph
+.
 .
 util
 .
@@ -64,7 +64,7 @@ templates
 import
 merge
 from
-taskgraph
+.
 .
 util
 .
@@ -132,10 +132,10 @@ By
 default
 this
 reads
-tasks
+jobs
 from
 the
-tasks
+jobs
 key
 or
 from
@@ -144,7 +144,7 @@ files
     
 named
 by
-tasks
+jobs
 -
 from
 .
@@ -176,13 +176,13 @@ If
 there
 is
 a
-task
+job
 -
 defaults
 config
 then
 every
-task
+job
 is
 merged
 with
@@ -200,14 +200,14 @@ default
 values
 for
 all
-tasks
+jobs
 of
 a
 kind
 .
     
 The
-task
+job
 -
 defaults
 key
@@ -223,7 +223,7 @@ pointed
 to
 by
     
-tasks
+jobs
 -
 from
 .
@@ -269,7 +269,7 @@ transform_inputs
 "
     
 def
-generate_tasks
+jobs
 (
 )
 :
@@ -281,7 +281,7 @@ config
 get
 (
 "
-task
+job
 -
 defaults
 "
@@ -289,14 +289,14 @@ defaults
         
 for
 name
-task
+job
 in
 config
 .
 get
 (
 "
-tasks
+jobs
 "
 {
 }
@@ -311,18 +311,18 @@ if
 defaults
 :
                 
-task
+job
 =
 merge
 (
 defaults
-task
+job
 )
             
-task
+job
 [
 "
-task
+job
 -
 from
 "
@@ -336,7 +336,7 @@ yml
             
 yield
 name
-task
+job
         
 for
 filename
@@ -346,7 +346,7 @@ config
 get
 (
 "
-tasks
+jobs
 -
 from
 "
@@ -370,7 +370,7 @@ tasks
 pop
 (
 "
-task
+job
 -
 defaults
 "
@@ -394,7 +394,7 @@ or
             
 for
 name
-task
+job
 in
 tasks
 .
@@ -407,18 +407,18 @@ if
 file_defaults
 :
                     
-task
+job
 =
 merge
 (
 file_defaults
-task
+job
 )
                 
-task
+job
 [
 "
-task
+job
 -
 from
 "
@@ -428,18 +428,18 @@ filename
                 
 yield
 name
-task
+job
     
 for
 name
-task
+job
 in
-generate_tasks
+jobs
 (
 )
 :
         
-task
+job
 [
 "
 name
@@ -467,4 +467,4 @@ name
 )
         
 yield
-task
+job
