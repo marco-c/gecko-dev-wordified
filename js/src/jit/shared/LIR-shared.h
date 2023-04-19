@@ -2330,7 +2330,7 @@ opcode
 public
 :
 uint32_t
-argslot
+paddedNumStackArgs
 (
 )
 const
