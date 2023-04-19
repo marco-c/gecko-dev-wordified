@@ -5984,6 +5984,38 @@ information
                 
 )
             
+failed
+=
+True
+        
+#
+If
+we
+failed
+when
+checking
+the
+crates
+list
+and
+/
+or
+running
+cargo
+vet
+        
+#
+stop
+before
+invoking
+cargo
+vendor
+.
+        
+if
+failed
+:
+            
 return
 False
         
