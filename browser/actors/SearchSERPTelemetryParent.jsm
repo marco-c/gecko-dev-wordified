@@ -102,6 +102,17 @@ receiveMessage
 msg
 )
 {
+let
+browser
+=
+this
+.
+browsingContext
+.
+top
+.
+embedderElement
+;
 if
 (
 msg
@@ -123,6 +134,7 @@ reportPageWithAds
 msg
 .
 data
+browser
 )
 ;
 }
