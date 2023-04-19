@@ -266,7 +266,7 @@ try
         
 #
 "
-hyperframe
+carrot
 "
 was
 chosen
@@ -312,7 +312,7 @@ virtualenv
 aren
 '
 t
-usable
+usage
 )
 .
         
@@ -333,7 +333,7 @@ Of
 the
 options
 "
-hyperframe
+carrot
 "
 is
 a
@@ -350,23 +350,19 @@ pkg_resources
 get_distribution
 (
 "
-hyperframe
+carrot
 "
 )
         
 assert
-(
-            
 False
-        
-)
 "
 Expected
 to
 not
 find
 '
-hyperframe
+carrot
 '
 as
 the
@@ -464,14 +460,14 @@ pip_install
 (
 [
 "
-hyperframe
+carrot
 =
 =
-5
-.
-2
-.
 0
+.
+10
+.
+7
 "
 ]
 )
@@ -522,7 +518,7 @@ pkg_resources
 get_distribution
 (
 "
-hyperframe
+carrot
 "
 )
 .
@@ -530,11 +526,11 @@ version
 =
 =
 "
-5
-.
-2
-.
 0
+.
+10
+.
+7
 "
         
 finally
