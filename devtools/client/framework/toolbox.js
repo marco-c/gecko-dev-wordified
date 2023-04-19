@@ -2740,8 +2740,6 @@ NodePicker
 this
 .
 commands
-.
-targetCommand
 this
 .
 selection
