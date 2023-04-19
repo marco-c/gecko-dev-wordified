@@ -1948,7 +1948,7 @@ model_reverb_in_nonlinear_mode_
 !
 aec_state
 .
-TransparentMode
+TransparentModeActive
 (
 )
 )
@@ -2785,7 +2785,7 @@ if
 (
 aec_state
 .
-TransparentMode
+TransparentModeActive
 (
 )
 )
