@@ -1459,7 +1459,7 @@ the
 /
 /
 /
-lenth
+length
 of
 the
 pattern
@@ -2106,14 +2106,13 @@ by
 /
 /
 /
-Th
 ParserBuilder
 .
-is
+It
 is
 used
 when
-reseting
+resetting
 the
 parser
 '
@@ -8802,7 +8801,7 @@ This
 assumes
 that
 the
-paser
+parser
 is
 currently
 positioned
@@ -9231,7 +9230,7 @@ This
 assumes
 that
 the
-paser
+parser
 is
 currently
 positioned

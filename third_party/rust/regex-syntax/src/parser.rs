@@ -430,7 +430,7 @@ the
 /
 /
 /
-lenth
+length
 of
 the
 pattern
