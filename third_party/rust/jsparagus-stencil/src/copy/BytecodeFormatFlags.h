@@ -268,9 +268,8 @@ JOF_RESUMEINDEX
 /
 *
 yield
-await
 or
-retsub
+await
 resume
 index
 *
