@@ -345,6 +345,16 @@ NotImplementedError
 )
     
 def
+result_dir
+(
+self
+)
+:
+        
+return
+None
+    
+def
 build_extra_options
 (
 self
