@@ -8619,12 +8619,9 @@ GetSystemPrincipal
 loadState
 -
 >
-SetLoadFlags
+SetLoadType
 (
-nsIWebNavigation
-:
-:
-LOAD_FLAGS_REPLACE_HISTORY
+LOAD_NORMAL_REPLACE
 )
 ;
 BrowsingContext
