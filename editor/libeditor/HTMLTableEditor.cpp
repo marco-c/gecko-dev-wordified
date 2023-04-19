@@ -7716,7 +7716,7 @@ if
 (
 colIndex
 <
-cellData
+cellDataInLastRow
 .
 mCurrent
 .
@@ -7741,7 +7741,7 @@ NextColumnIndex
 ;
 colIndex
 =
-cellData
+cellDataInLastRow
 .
 NextColumnIndex
 (
