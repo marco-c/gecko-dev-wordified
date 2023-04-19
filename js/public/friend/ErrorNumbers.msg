@@ -5684,11 +5684,9 @@ JSMSG_DECORATOR_NAME_EXPECTED
 JSEXN_SYNTAXERR
 "
 expected
-property
-name
-in
 decorator
-expression
+name
+after
 "
 )
 MSG_DEF
