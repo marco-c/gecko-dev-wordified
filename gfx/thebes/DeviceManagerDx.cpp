@@ -5542,6 +5542,14 @@ mImageDevice
 =
 nullptr
 ;
+mVRDevice
+=
+nullptr
+;
+mDecoderDevice
+=
+nullptr
+;
 mDirectCompositionDevice
 =
 nullptr
