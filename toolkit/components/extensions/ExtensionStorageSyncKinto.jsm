@@ -141,13 +141,13 @@ EXPORTED_SYMBOLS
 =
 [
 "
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 "
 "
 KintoStorageTestUtils
 "
 "
-extensionStorageSync
+extensionStorageSyncKinto
 "
 ]
 ;
@@ -940,7 +940,7 @@ Android
 /
 /
 Global
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 instance
 that
 extensions
@@ -969,7 +969,7 @@ will
 fail
 .
 var
-extensionStorageSync
+extensionStorageSyncKinto
 =
 null
 ;
@@ -2284,7 +2284,7 @@ that
 centralizes
 initialization
 of
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 .
 *
 *
@@ -4248,7 +4248,7 @@ record
 async
 sync
 (
-extensionStorageSync
+extensionStorageSyncKinto
 )
 {
 const
@@ -4262,7 +4262,7 @@ getCollection
 )
 ;
 return
-extensionStorageSync
+extensionStorageSyncKinto
 .
 _syncCollection
 (
@@ -4895,7 +4895,7 @@ coll
 }
 ;
 class
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 {
 /
 *
@@ -9379,10 +9379,10 @@ changes
 }
 }
 }
-extensionStorageSync
+extensionStorageSyncKinto
 =
 new
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 (
 _fxaService
 )

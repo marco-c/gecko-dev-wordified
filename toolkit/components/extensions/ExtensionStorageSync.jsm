@@ -316,9 +316,9 @@ kinto
 .
 .
 .
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 lazy
 "
@@ -336,9 +336,6 @@ modules
 ExtensionStorageSyncKinto
 .
 jsm
-"
-"
-extensionStorageSync
 "
 )
 ;
