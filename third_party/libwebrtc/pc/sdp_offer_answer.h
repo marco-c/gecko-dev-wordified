@@ -3570,7 +3570,7 @@ the
 affected
 channels
 .
-void
+bool
 UpdatePayloadTypeDemuxingState
 (
 cricket

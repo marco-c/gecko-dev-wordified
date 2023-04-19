@@ -316,7 +316,7 @@ override
 ;
 MOCK_METHOD
 (
-void
+bool
 SetPayloadTypeDemuxingEnabled
 (
 bool
