@@ -140,6 +140,11 @@ CanvasManagerParent
 h
 "
 "
+CanvasRenderThread
+.
+h
+"
+"
 CrossProcessPaint
 .
 h
@@ -249,6 +254,11 @@ cpp
 "
 "
 CanvasManagerParent
+.
+cpp
+"
+"
+CanvasRenderThread
 .
 cpp
 "

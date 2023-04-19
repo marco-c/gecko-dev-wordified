@@ -760,6 +760,13 @@ ReuseDecoderDevice
 bool
 false
 )
+\
+_
+(
+UseCanvasRenderThread
+bool
+false
+)
 /
 *
 Add
