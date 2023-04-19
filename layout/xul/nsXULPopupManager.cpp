@@ -4039,8 +4039,6 @@ nsIFrame
 aFrame
 nsIntPoint
 aPnt
-bool
-aByMoveToRect
 )
 {
 nsMenuPopupFrame
@@ -4298,7 +4296,6 @@ MoveTo
 (
 cssPos
 false
-aByMoveToRect
 )
 ;
 }

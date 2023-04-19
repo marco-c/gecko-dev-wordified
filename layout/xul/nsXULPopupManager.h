@@ -4569,7 +4569,7 @@ the
 *
 specified
 screen
-coordinates
+coordiates
 .
 *
 /
@@ -4581,8 +4581,6 @@ nsIFrame
 aFrame
 nsIntPoint
 aPoint
-bool
-aByMoveToRect
 )
 ;
 /

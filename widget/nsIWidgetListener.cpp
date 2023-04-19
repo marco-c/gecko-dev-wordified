@@ -202,7 +202,6 @@ int32_t
 aX
 int32_t
 aY
-ByMoveToRect
 )
 {
 return

@@ -6130,8 +6130,6 @@ int32_t
 x
 int32_t
 y
-ByMoveToRect
-aByMoveToRect
 )
 {
 nsXULPopupManager
@@ -6167,13 +6165,6 @@ nsIntPoint
 x
 y
 )
-aByMoveToRect
-=
-=
-ByMoveToRect
-:
-:
-Yes
 )
 ;
 return
