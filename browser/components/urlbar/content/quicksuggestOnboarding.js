@@ -68,7 +68,7 @@ ONBOARDING_CHOICE
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -80,7 +80,9 @@ modules
 /
 UrlbarQuickSuggest
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

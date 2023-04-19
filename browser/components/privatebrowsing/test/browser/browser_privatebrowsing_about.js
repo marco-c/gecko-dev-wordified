@@ -56,9 +56,9 @@ MPL
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -74,7 +74,9 @@ modules
 /
 UrlbarUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -101,7 +103,7 @@ module
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -114,7 +116,9 @@ common
 /
 UrlbarTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

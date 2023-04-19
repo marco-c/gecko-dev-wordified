@@ -111,9 +111,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -129,7 +129,9 @@ modules
 /
 UrlbarProviderAutofill
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

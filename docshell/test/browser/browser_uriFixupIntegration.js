@@ -40,7 +40,7 @@ UrlbarTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ common
 /
 UrlbarTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
