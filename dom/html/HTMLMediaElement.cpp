@@ -13667,7 +13667,7 @@ ShutdownDecoder
 ;
 }
 bool
-isThirdPartyLoad
+isSameOriginLoad
 =
 false
 ;
@@ -13689,11 +13689,11 @@ rv
 mSrcAttrTriggeringPrincipal
 -
 >
-IsThirdPartyURI
+IsSameOrigin
 (
 mLoadingSrc
 &
-isThirdPartyLoad
+isSameOriginLoad
 )
 ;
 }
@@ -13705,7 +13705,8 @@ rv
 )
 &
 &
-isThirdPartyLoad
+!
+isSameOriginLoad
 )
 {
 /
