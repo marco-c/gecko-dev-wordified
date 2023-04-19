@@ -157,6 +157,15 @@ death
 grip
 "
 )
+CHECK
+(
+KnownLiveChecker
+"
+known
+-
+live
+"
+)
 #
 ifdef
 TARGET_IS_WINDOWS

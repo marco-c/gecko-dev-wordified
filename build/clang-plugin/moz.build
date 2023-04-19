@@ -159,6 +159,11 @@ JSHandleRootedTypedefChecker
 cpp
 "
 "
+KnownLiveChecker
+.
+cpp
+"
+"
 KungFuDeathGripChecker
 .
 cpp
