@@ -214,7 +214,7 @@ AboutHomeStartupCacheChild
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -226,7 +226,9 @@ modules
 /
 AboutNewTabService
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

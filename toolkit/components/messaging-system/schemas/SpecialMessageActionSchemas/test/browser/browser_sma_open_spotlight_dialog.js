@@ -39,7 +39,7 @@ OnboardingMessageProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -54,7 +54,9 @@ lib
 /
 OnboardingMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -65,7 +67,7 @@ Spotlight
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -80,7 +82,9 @@ lib
 /
 Spotlight
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -40,7 +40,7 @@ AboutWelcomeTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,7 +57,9 @@ lib
 /
 AboutWelcomeTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -89,7 +89,7 @@ REMOTE_IMAGES_DB_PATH
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -104,7 +104,9 @@ lib
 /
 RemoteImages
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -116,7 +118,7 @@ RemoteSettingsServer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -129,7 +131,9 @@ common
 /
 RemoteImagesTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
