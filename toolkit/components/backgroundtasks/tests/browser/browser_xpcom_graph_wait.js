@@ -1130,8 +1130,6 @@ org
 /
 gfx
 /
-parent
-/
 screenmanager
 ;
 1
