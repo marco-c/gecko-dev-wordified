@@ -434,8 +434,7 @@ DIGIT
 ]
 )
 ;
-this
-.
+const
 PasswordGenerator
 =
 {

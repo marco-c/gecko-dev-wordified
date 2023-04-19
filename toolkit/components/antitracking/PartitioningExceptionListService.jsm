@@ -458,16 +458,12 @@ entriesAsString
 }
 }
 }
-this
-.
-PartitioningExceptionListService
-=
 function
+PartitioningExceptionListService
 (
 )
 {
 }
-;
 PartitioningExceptionListService
 .
 prototype

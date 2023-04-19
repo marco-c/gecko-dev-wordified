@@ -271,16 +271,12 @@ consider_entity_list
 "
 )
 ;
-this
-.
-PurgeTrackerService
-=
 function
+PurgeTrackerService
 (
 )
 {
 }
-;
 PurgeTrackerService
 .
 prototype

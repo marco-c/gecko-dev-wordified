@@ -71,7 +71,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -82,6 +82,9 @@ FormAutofillHeuristics
 FieldScanner
 "
 ]
+;
+let
+FormAutofillHeuristics
 ;
 const
 {
@@ -3561,8 +3564,6 @@ heuristics
 .
 *
 /
-this
-.
 FormAutofillHeuristics
 =
 {

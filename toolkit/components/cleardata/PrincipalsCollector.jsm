@@ -1094,8 +1094,7 @@ principals
 ;
 }
 }
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

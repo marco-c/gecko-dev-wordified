@@ -56,16 +56,12 @@ MPL
 .
 *
 /
-this
-.
-URLDecorationAnnotationsService
-=
 function
+URLDecorationAnnotationsService
 (
 )
 {
 }
-;
 ChromeUtils
 .
 defineModuleGetter

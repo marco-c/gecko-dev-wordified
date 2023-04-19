@@ -170,8 +170,7 @@ process
 )
 ;
 }
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -326,8 +325,7 @@ promises
 )
 ;
 }
-this
-.
+const
 ServiceWorkerCleanUp
 =
 {

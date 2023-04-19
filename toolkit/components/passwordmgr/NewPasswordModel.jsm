@@ -4472,8 +4472,7 @@ model
 -
 *
 /
-this
-.
+const
 NewPasswordModel
 =
 {

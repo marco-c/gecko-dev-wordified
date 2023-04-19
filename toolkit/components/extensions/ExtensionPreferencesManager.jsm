@@ -214,7 +214,7 @@ set
 .
 *
 /
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -222,6 +222,9 @@ EXPORTED_SYMBOLS
 ExtensionPreferencesManager
 "
 ]
+;
+let
+ExtensionPreferencesManager
 ;
 const
 {
@@ -1503,8 +1506,6 @@ return
 false
 ;
 }
-this
-.
 ExtensionPreferencesManager
 =
 {

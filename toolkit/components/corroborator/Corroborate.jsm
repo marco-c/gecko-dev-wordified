@@ -131,8 +131,7 @@ products
 .
 *
 /
-this
-.
+const
 Corroborate
 =
 {

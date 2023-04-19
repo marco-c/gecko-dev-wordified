@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -75,6 +75,9 @@ AddressDataLoader
 LabelUtils
 "
 ]
+;
+let
+FormAutofillUtils
 ;
 const
 ADDRESS_METADATA_PATH
@@ -1390,8 +1393,6 @@ locales
 }
 }
 ;
-this
-.
 FormAutofillUtils
 =
 {

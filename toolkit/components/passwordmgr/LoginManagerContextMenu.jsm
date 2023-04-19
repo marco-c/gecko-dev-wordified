@@ -205,8 +205,7 @@ menu
 .
 *
 /
-this
-.
+const
 LoginManagerContextMenu
 =
 {

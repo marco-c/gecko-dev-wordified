@@ -245,8 +245,7 @@ security
 *
 *
 /
-this
-.
+const
 InsecurePasswordUtils
 =
 {

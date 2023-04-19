@@ -1037,11 +1037,8 @@ occur
 .
 *
 /
-this
-.
-CrashService
-=
 function
+CrashService
 (
 )
 {
@@ -1060,7 +1057,6 @@ application
 )
 ;
 }
-;
 CrashService
 .
 prototype

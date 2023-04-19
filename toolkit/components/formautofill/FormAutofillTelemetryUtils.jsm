@@ -122,8 +122,7 @@ FIELD_STATES
 =
 FormAutofillUtils
 ;
-this
-.
+const
 CreditCardTelemetry
 =
 {

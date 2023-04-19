@@ -200,8 +200,7 @@ LoginFormFactory
 }
 )
 ;
-this
-.
+const
 LoginFormFactory
 =
 {

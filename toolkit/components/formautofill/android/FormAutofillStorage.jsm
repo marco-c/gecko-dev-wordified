@@ -101,8 +101,7 @@ a
 backstage
 pass
 .
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1557,8 +1556,7 @@ by
 this
 module
 .
-this
-.
+const
 formAutofillStorage
 =
 new

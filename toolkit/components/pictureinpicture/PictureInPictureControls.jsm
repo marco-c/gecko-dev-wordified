@@ -116,8 +116,7 @@ qualified
 video
 element
 .
-this
-.
+const
 KEYBOARD_CONTROLS
 =
 {
@@ -176,8 +175,7 @@ qualified
 video
 element
 .
-this
-.
+const
 TOGGLE_POLICIES
 =
 {
@@ -232,8 +230,7 @@ of
 the
 toggle
 .
-this
-.
+const
 TOGGLE_POLICY_STRINGS
 =
 {

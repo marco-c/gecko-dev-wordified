@@ -934,8 +934,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

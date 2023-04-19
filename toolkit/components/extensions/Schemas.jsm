@@ -356,7 +356,7 @@ errors
 false
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -367,6 +367,9 @@ SchemaRoot
 Schemas
 "
 ]
+;
+let
+Schemas
 ;
 const
 KEY_CONTENT_SCHEMAS
@@ -20686,8 +20689,6 @@ result
 ;
 }
 }
-this
-.
 Schemas
 =
 {

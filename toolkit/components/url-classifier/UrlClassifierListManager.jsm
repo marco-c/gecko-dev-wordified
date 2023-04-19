@@ -282,10 +282,6 @@ safebrowsing
 debug
 is
 true
-this
-.
-log
-=
 function
 log
 (
@@ -369,7 +365,6 @@ n
 )
 ;
 }
-;
 /
 *
 *
@@ -396,10 +391,6 @@ them
 constructor
 *
 /
-this
-.
-PROT_ListManager
-=
 function
 PROT_ListManager
 (
@@ -659,7 +650,6 @@ this
 )
 ;
 }
-;
 /
 *
 *

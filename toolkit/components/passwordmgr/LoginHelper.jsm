@@ -2646,8 +2646,7 @@ components
 .
 *
 /
-this
-.
+const
 LoginHelper
 =
 {

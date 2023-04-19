@@ -847,7 +847,7 @@ occurred
 .
 *
 /
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -855,6 +855,9 @@ EXPORTED_SYMBOLS
 FormHistory
 "
 ]
+;
+let
+FormHistory
 ;
 const
 {
@@ -6340,8 +6343,6 @@ true
 }
 }
 ;
-this
-.
 FormHistory
 =
 {
