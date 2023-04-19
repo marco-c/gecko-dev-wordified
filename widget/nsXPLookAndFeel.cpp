@@ -927,11 +927,6 @@ scrollArrowStyle
 "
 ui
 .
-scrollSliderStyle
-"
-"
-ui
-.
 scrollButtonLeftMouseButtonAction
 "
 "
