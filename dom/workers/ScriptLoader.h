@@ -1525,7 +1525,7 @@ MaybeExecuteFinishedScripts
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 ;
 void
@@ -1533,7 +1533,7 @@ MaybeMoveToLoadedList
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 ;
 bool
@@ -1574,7 +1574,7 @@ OnStreamComplete
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 nsresult
 aStatus
 )
@@ -1707,7 +1707,7 @@ LoadScript
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 ;
 void
@@ -1761,7 +1761,7 @@ LoadingFinished
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 nsresult
 aRv
 )
@@ -1771,7 +1771,7 @@ DispatchMaybeMoveToLoadedList
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 ;
 bool
@@ -1782,7 +1782,7 @@ JSContext
 aCx
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 ;
 void

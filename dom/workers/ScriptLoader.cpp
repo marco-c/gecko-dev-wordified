@@ -718,7 +718,7 @@ AsScriptRequest
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 {
 return
@@ -734,7 +734,7 @@ ScriptLoadRequest
 *
 >
 (
-aLoadInfo
+aRequest
 )
 ;
 }
@@ -2467,7 +2467,7 @@ mScriptLoader
 ;
 ScriptLoadInfo
 *
-mLoadInfo
+mRequest
 ;
 public
 :
@@ -2481,7 +2481,7 @@ nsIEventTarget
 aSyncLoopTarget
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 ;
 private
@@ -3186,7 +3186,7 @@ LoadingFinished
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 nsresult
 aRv
 )
@@ -3195,7 +3195,7 @@ AssertIsOnMainThread
 (
 )
 ;
-aLoadInfo
+aRequest
 -
 >
 mLoadResult
@@ -3205,13 +3205,13 @@ aRv
 MOZ_ASSERT
 (
 !
-aLoadInfo
+aRequest
 -
 >
 mLoadingFinished
 )
 ;
-aLoadInfo
+aRequest
 -
 >
 mLoadingFinished
@@ -3244,7 +3244,7 @@ PrincipalURIMatchesScriptURL
 }
 MaybeExecuteFinishedScripts
 (
-aLoadInfo
+aRequest
 )
 ;
 }
@@ -3256,7 +3256,7 @@ MaybeExecuteFinishedScripts
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 {
 AssertIsOnMainThread
@@ -3292,7 +3292,7 @@ completed
 .
 if
 (
-aLoadInfo
+aRequest
 -
 >
 Finished
@@ -3300,7 +3300,7 @@ Finished
 )
 )
 {
-aLoadInfo
+aRequest
 -
 >
 ClearCacheCreator
@@ -3309,7 +3309,7 @@ ClearCacheCreator
 ;
 DispatchMaybeMoveToLoadedList
 (
-aLoadInfo
+aRequest
 )
 ;
 }
@@ -3322,7 +3322,7 @@ MaybeMoveToLoadedList
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 {
 mWorkerPrivate
@@ -3335,13 +3335,13 @@ AssertIsOnWorkerThread
 MOZ_ASSERT
 (
 !
-aLoadInfo
+aRequest
 -
 >
 mExecutionScheduled
 )
 ;
-aLoadInfo
+aRequest
 -
 >
 mExecutionScheduled
@@ -3804,7 +3804,7 @@ OnStreamComplete
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 nsresult
 aStatus
 )
@@ -3815,7 +3815,7 @@ AssertIsOnMainThread
 ;
 LoadingFinished
 (
-aLoadInfo
+aRequest
 aStatus
 )
 ;
@@ -4219,7 +4219,7 @@ LoadScript
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 {
 AssertIsOnMainThread
@@ -4256,7 +4256,7 @@ point
 .
 if
 (
-aLoadInfo
+aRequest
 -
 >
 mLoadResult
@@ -4266,7 +4266,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 {
 return
-aLoadInfo
+aRequest
 -
 >
 mLoadResult
@@ -4484,7 +4484,7 @@ nsresult
 &
 rv
 =
-aLoadInfo
+aRequest
 -
 >
 mLoadResult
@@ -4715,7 +4715,7 @@ req
 =
 AsScriptRequest
 (
-aLoadInfo
+aRequest
 )
 ;
 rv
@@ -4836,7 +4836,7 @@ new
 NetworkLoadHandler
 (
 this
-aLoadInfo
+aRequest
 )
 ;
 RefPtr
@@ -5135,7 +5135,7 @@ respectedCOEP
 }
 if
 (
-aLoadInfo
+aRequest
 -
 >
 mCacheStatus
@@ -5189,7 +5189,7 @@ we
 return
 early
 .
-aLoadInfo
+aRequest
 -
 >
 mCacheStatus
@@ -5205,7 +5205,7 @@ NS_NewPipe
 (
 getter_AddRefs
 (
-aLoadInfo
+aRequest
 -
 >
 mCacheReadStream
@@ -5329,7 +5329,7 @@ DispatchMaybeMoveToLoadedList
 (
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 {
 AssertIsOnMainThread
@@ -5363,7 +5363,7 @@ ScriptExecutorRunnable
 *
 this
 mSyncLoopTarget
-aLoadInfo
+aRequest
 )
 ;
 if
@@ -5402,7 +5402,7 @@ JSContext
 aCx
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 {
 mWorkerPrivate
@@ -5414,7 +5414,7 @@ AssertIsOnWorkerThread
 ;
 NS_ASSERTION
 (
-aLoadInfo
+aRequest
 -
 >
 mExecutionScheduled
@@ -5429,7 +5429,7 @@ scheduled
 NS_ASSERTION
 (
 !
-aLoadInfo
+aRequest
 -
 >
 mExecutionResult
@@ -5471,7 +5471,7 @@ if
 (
 NS_FAILED
 (
-aLoadInfo
+aRequest
 -
 >
 mLoadResult
@@ -5484,11 +5484,11 @@ workerinternals
 ReportLoadError
 (
 mRv
-aLoadInfo
+aRequest
 -
 >
 mLoadResult
-aLoadInfo
+aRequest
 -
 >
 mURL
@@ -5588,7 +5588,7 @@ ExecutionReady
 NS_ConvertUTF16toUTF8
 filename
 (
-aLoadInfo
+aRequest
 -
 >
 mURL
@@ -5622,7 +5622,7 @@ true
 ;
 MOZ_ASSERT
 (
-aLoadInfo
+aRequest
 -
 >
 mMutedErrorFlag
@@ -5636,7 +5636,7 @@ options
 .
 setMutedErrors
 (
-aLoadInfo
+aRequest
 -
 >
 mMutedErrorFlag
@@ -5649,7 +5649,7 @@ true
 ;
 if
 (
-aLoadInfo
+aRequest
 -
 >
 mSourceMapURL
@@ -5659,7 +5659,7 @@ options
 .
 setSourceMapURL
 (
-aLoadInfo
+aRequest
 -
 >
 mSourceMapURL
@@ -5725,7 +5725,7 @@ std
 swap
 (
 scriptLength
-aLoadInfo
+aRequest
 -
 >
 mScriptLength
@@ -5744,7 +5744,7 @@ active
 arm
 of
 |
-aLoadInfo
+aRequest
 -
 >
 mScript
@@ -5753,7 +5753,7 @@ mScript
 bool
 successfullyEvaluated
 =
-aLoadInfo
+aRequest
 -
 >
 mScriptIsUTF8
@@ -5762,7 +5762,7 @@ EvaluateSourceBuffer
 (
 aCx
 options
-aLoadInfo
+aRequest
 -
 >
 mScript
@@ -5775,7 +5775,7 @@ EvaluateSourceBuffer
 (
 aCx
 options
-aLoadInfo
+aRequest
 -
 >
 mScript
@@ -5786,7 +5786,7 @@ scriptLength
 ;
 MOZ_ASSERT
 (
-aLoadInfo
+aRequest
 -
 >
 ScriptTextIsNull
@@ -5811,7 +5811,7 @@ return
 false
 ;
 }
-aLoadInfo
+aRequest
 -
 >
 mExecutionResult
@@ -6309,7 +6309,7 @@ nsIEventTarget
 aSyncLoopTarget
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 :
 MainThreadWorkerSyncRunnable
@@ -6323,9 +6323,9 @@ mScriptLoader
 (
 aScriptLoader
 )
-mLoadInfo
+mRequest
 (
-aLoadInfo
+aRequest
 )
 {
 }
@@ -6503,7 +6503,7 @@ mScriptLoader
 .
 MaybeMoveToLoadedList
 (
-mLoadInfo
+mRequest
 )
 ;
 return

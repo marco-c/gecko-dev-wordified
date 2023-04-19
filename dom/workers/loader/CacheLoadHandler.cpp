@@ -353,7 +353,7 @@ CancelMainThread
 .
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -365,7 +365,7 @@ ScriptLoadInfo
 WritingToCache
 |
 |
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -379,7 +379,7 @@ Cancel
 ;
 MOZ_ASSERT_IF
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -390,7 +390,7 @@ ScriptLoadInfo
 :
 Cancel
 !
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
@@ -398,13 +398,13 @@ mCachePromise
 ;
 if
 (
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
 )
 {
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -414,7 +414,7 @@ ScriptLoadInfo
 :
 Cached
 ;
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
@@ -426,7 +426,7 @@ mLoader
 >
 MaybeExecuteFinishedScripts
 (
-mLoadInfo
+mRequest
 )
 ;
 }
@@ -479,7 +479,7 @@ CancelMainThread
 .
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -491,7 +491,7 @@ ScriptLoadInfo
 WritingToCache
 |
 |
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -503,7 +503,7 @@ ScriptLoadInfo
 Cancel
 )
 ;
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -513,7 +513,7 @@ ScriptLoadInfo
 :
 Cancel
 ;
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
@@ -544,7 +544,7 @@ each
 ongoing
 operation
 .
-mLoadInfo
+mRequest
 -
 >
 GetCacheCreator
@@ -1437,7 +1437,7 @@ WorkerPrivate
 aWorkerPrivate
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 bool
 aIsWorkerScript
 WorkerScriptLoader
@@ -1445,9 +1445,9 @@ WorkerScriptLoader
 aLoader
 )
 :
-mLoadInfo
+mRequest
 (
-aLoadInfo
+aRequest
 )
 mLoader
 (
@@ -1563,7 +1563,7 @@ mPump
 {
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -1588,7 +1588,7 @@ mPump
 nullptr
 ;
 }
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -1600,13 +1600,13 @@ Cancel
 ;
 if
 (
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
 )
 {
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
@@ -1618,7 +1618,7 @@ aRv
 )
 ;
 }
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
@@ -1630,7 +1630,7 @@ mLoader
 >
 LoadingFinished
 (
-mLoadInfo
+mRequest
 aRv
 )
 ;
@@ -1670,7 +1670,7 @@ getter_AddRefs
 (
 uri
 )
-mLoadInfo
+mRequest
 -
 >
 mURL
@@ -1731,7 +1731,7 @@ return
 }
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mFullURL
@@ -1744,7 +1744,7 @@ IsEmpty
 CopyUTF8toUTF16
 (
 spec
-mLoadInfo
+mRequest
 -
 >
 mFullURL
@@ -1767,7 +1767,7 @@ SetAsUSVString
 .
 ShareOrDependUpon
 (
-mLoadInfo
+mRequest
 -
 >
 mFullURL
@@ -1900,7 +1900,7 @@ AssertIsOnMainThread
 ;
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -1972,7 +1972,7 @@ return
 }
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2171,7 +2171,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2188,7 +2188,7 @@ mLoader
 >
 LoadScript
 (
-mLoadInfo
+mRequest
 )
 ;
 if
@@ -2488,7 +2488,7 @@ if
 inputStream
 )
 {
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2528,7 +2528,7 @@ mLoader
 >
 OnStreamComplete
 (
-mLoadInfo
+mRequest
 rv
 )
 ;
@@ -2729,7 +2729,7 @@ thread
 ;
 }
 }
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2780,7 +2780,7 @@ aStatus
 {
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2792,7 +2792,7 @@ ScriptLoadInfo
 ReadingFromCache
 |
 |
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2815,7 +2815,7 @@ NS_OK
 }
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2827,7 +2827,7 @@ ScriptLoadInfo
 ReadingFromCache
 )
 ;
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -2868,7 +2868,7 @@ mLoader
 >
 OnStreamComplete
 (
-mLoadInfo
+mRequest
 rv
 )
 ;
@@ -2928,7 +2928,7 @@ IsCancelled
 )
 )
 {
-mLoadInfo
+mRequest
 -
 >
 GetCacheCreator
@@ -2961,7 +2961,7 @@ ref
 }
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus
@@ -3053,7 +3053,7 @@ unwrap
 (
 )
 ;
-mLoadInfo
+mRequest
 -
 >
 mMutedErrorFlag
@@ -3089,7 +3089,7 @@ GetDocument
 ;
 MOZ_ASSERT
 (
-mLoadInfo
+mRequest
 -
 >
 ScriptTextIsNull
@@ -3110,7 +3110,7 @@ dom_worker_script_loader_utf8_parsing_enabled
 )
 )
 {
-mLoadInfo
+mRequest
 -
 >
 InitUTF8Script
@@ -3135,13 +3135,13 @@ UTF
 "
 _ns
 parentDoc
-mLoadInfo
+mRequest
 -
 >
 mScript
 .
 mUTF8
-mLoadInfo
+mRequest
 -
 >
 mScriptLength
@@ -3150,7 +3150,7 @@ mScriptLength
 }
 else
 {
-mLoadInfo
+mRequest
 -
 >
 InitUTF16Script
@@ -3175,13 +3175,13 @@ UTF
 "
 _ns
 parentDoc
-mLoadInfo
+mRequest
 -
 >
 mScript
 .
 mUTF16
-mLoadInfo
+mRequest
 -
 >
 mScriptLength
@@ -3218,7 +3218,7 @@ getter_AddRefs
 (
 finalURI
 )
-mLoadInfo
+mRequest
 -
 >
 mFullURL

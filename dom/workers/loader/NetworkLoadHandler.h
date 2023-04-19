@@ -365,7 +365,7 @@ WorkerScriptLoader
 aLoader
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 ;
 NS_IMETHOD
@@ -465,7 +465,7 @@ mWorkerPrivate
 ;
 ScriptLoadInfo
 *
-mLoadInfo
+mRequest
 ;
 }
 ;

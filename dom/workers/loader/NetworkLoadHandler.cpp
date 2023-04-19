@@ -310,7 +310,7 @@ WorkerScriptLoader
 aLoader
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 :
 mLoader
@@ -324,9 +324,9 @@ aLoader
 >
 mWorkerPrivate
 )
-mLoadInfo
+mRequest
 (
-aLoadInfo
+aRequest
 )
 {
 MOZ_ASSERT
@@ -374,7 +374,7 @@ mLoader
 >
 OnStreamComplete
 (
-mLoadInfo
+mRequest
 rv
 )
 ;
@@ -759,7 +759,7 @@ a
 different
 origin
 .
-mLoadInfo
+mRequest
 -
 >
 mMutedErrorFlag
@@ -940,7 +940,7 @@ sourceMapURL
 )
 )
 {
-mLoadInfo
+mRequest
 -
 >
 mSourceMapURL
@@ -1048,7 +1048,7 @@ dom_worker_script_loader_utf8_parsing_enabled
 )
 )
 {
-mLoadInfo
+mRequest
 -
 >
 InitUTF8Script
@@ -1073,13 +1073,13 @@ UTF
 "
 _ns
 parentDoc
-mLoadInfo
+mRequest
 -
 >
 mScript
 .
 mUTF8
-mLoadInfo
+mRequest
 -
 >
 mScriptLength
@@ -1088,7 +1088,7 @@ mScriptLength
 }
 else
 {
-mLoadInfo
+mRequest
 -
 >
 InitUTF16Script
@@ -1113,13 +1113,13 @@ UTF
 "
 _ns
 parentDoc
-mLoadInfo
+mRequest
 -
 >
 mScript
 .
 mUTF16
-mLoadInfo
+mRequest
 -
 >
 mScriptLength
@@ -1140,7 +1140,7 @@ rv
 }
 if
 (
-mLoadInfo
+mRequest
 -
 >
 ScriptTextIsNull
@@ -1150,7 +1150,7 @@ ScriptTextIsNull
 {
 if
 (
-mLoadInfo
+mRequest
 -
 >
 mScriptLength
@@ -1280,7 +1280,7 @@ case
 of
 errors
 .
-mLoadInfo
+mRequest
 -
 >
 mURL
@@ -2059,7 +2059,7 @@ NS_ConvertUTF8toUTF16
 (
 mimeType
 )
-mLoadInfo
+mRequest
 -
 >
 mURL
@@ -2120,7 +2120,7 @@ ir
 >
 SetBody
 (
-mLoadInfo
+mRequest
 -
 >
 mCacheReadStream
@@ -2167,7 +2167,7 @@ keep
 data
 alive
 .
-mLoadInfo
+mRequest
 -
 >
 mCacheReadStream
@@ -2346,7 +2346,7 @@ dom
 :
 Response
 (
-mLoadInfo
+mRequest
 -
 >
 GetCacheCreator
@@ -2379,7 +2379,7 @@ request
 MOZ_ASSERT
 (
 !
-mLoadInfo
+mRequest
 -
 >
 mFullURL
@@ -2397,7 +2397,7 @@ SetAsUSVString
 .
 ShareOrDependUpon
 (
-mLoadInfo
+mRequest
 -
 >
 mFullURL
@@ -2442,7 +2442,7 @@ Promise
 >
 cachePromise
 =
-mLoadInfo
+mRequest
 -
 >
 GetCacheCreator
@@ -2504,7 +2504,7 @@ new
 CachePromiseHandler
 (
 mLoader
-mLoadInfo
+mRequest
 )
 ;
 cachePromise
@@ -2515,7 +2515,7 @@ AppendNativeHandler
 promiseHandler
 )
 ;
-mLoadInfo
+mRequest
 -
 >
 mCachePromise
@@ -2525,7 +2525,7 @@ swap
 cachePromise
 )
 ;
-mLoadInfo
+mRequest
 -
 >
 mCacheStatus

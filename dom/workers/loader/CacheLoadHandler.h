@@ -703,7 +703,7 @@ WorkerPrivate
 aWorkerPrivate
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 bool
 aIsWorkerScript
 WorkerScriptLoader
@@ -831,7 +831,7 @@ DataReceived
 ;
 ScriptLoadInfo
 *
-mLoadInfo
+mRequest
 ;
 const
 RefPtr
@@ -1271,16 +1271,16 @@ WorkerScriptLoader
 aLoader
 ScriptLoadInfo
 *
-aLoadInfo
+aRequest
 )
 :
 mLoader
 (
 aLoader
 )
-mLoadInfo
+mRequest
 (
-aLoadInfo
+aRequest
 )
 {
 AssertIsOnMainThread
@@ -1361,7 +1361,7 @@ mLoader
 ;
 ScriptLoadInfo
 *
-mLoadInfo
+mRequest
 ;
 }
 ;
