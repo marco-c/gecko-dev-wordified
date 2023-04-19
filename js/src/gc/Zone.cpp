@@ -483,7 +483,7 @@ js
 ZoneAllocator
 :
 :
-updateMemoryCountersOnGCStart
+updateSchedulingStateOnGCStart
 (
 )
 {
@@ -502,6 +502,15 @@ updateOnGCStart
 jitHeapSize
 .
 updateOnGCStart
+(
+)
+;
+perZoneGCTime
+=
+mozilla
+:
+:
+TimeDuration
 (
 )
 ;

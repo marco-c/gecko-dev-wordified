@@ -2863,7 +2863,7 @@ clearBlackAndGrayRootTracers
 )
 ;
 void
-updateMemoryCountersOnGCStart
+updateSchedulingStateOnGCStart
 (
 )
 ;
@@ -4017,7 +4017,7 @@ heapThreshold
 )
 ;
 void
-updateGCThresholdsAfterCollection
+updateSchedulingStateAfterCollection
 (
 )
 ;
