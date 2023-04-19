@@ -4720,6 +4720,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -4727,6 +4729,7 @@ gfx
 PointTyped
 <
 dst
+F
 >
 operator
 *
@@ -4738,6 +4741,7 @@ gfx
 PointTyped
 <
 src
+F
 >
 &
 aPoint
@@ -4745,10 +4749,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 src
 dst
+F
 >
 &
 aScale
@@ -4761,6 +4766,7 @@ gfx
 PointTyped
 <
 dst
+F
 >
 (
 aPoint
@@ -4786,6 +4792,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -4793,6 +4801,7 @@ gfx
 PointTyped
 <
 dst
+F
 >
 operator
 /
@@ -4804,6 +4813,7 @@ gfx
 PointTyped
 <
 src
+F
 >
 &
 aPoint
@@ -4811,10 +4821,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 dst
 src
+F
 >
 &
 aScale
@@ -4827,6 +4838,7 @@ gfx
 PointTyped
 <
 dst
+F
 >
 (
 aPoint
@@ -4996,6 +5008,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -5003,6 +5017,7 @@ gfx
 PointTyped
 <
 dst
+F
 >
 operator
 *
@@ -5021,10 +5036,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 src
 dst
+F
 >
 &
 aScale
@@ -5037,9 +5053,10 @@ gfx
 PointTyped
 <
 dst
+F
 >
 (
-float
+F
 (
 aPoint
 .
@@ -5049,7 +5066,7 @@ x
 aScale
 .
 xScale
-float
+F
 (
 aPoint
 .
@@ -5068,6 +5085,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -5075,6 +5094,7 @@ gfx
 PointTyped
 <
 dst
+F
 >
 operator
 /
@@ -5093,10 +5113,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 dst
 src
+F
 >
 &
 aScale
@@ -5109,9 +5130,10 @@ gfx
 PointTyped
 <
 dst
+F
 >
 (
-float
+F
 (
 aPoint
 .
@@ -5121,7 +5143,7 @@ x
 aScale
 .
 xScale
-float
+F
 (
 aPoint
 .
@@ -5308,6 +5330,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -5315,6 +5339,7 @@ gfx
 RectTyped
 <
 dst
+F
 >
 operator
 *
@@ -5326,6 +5351,7 @@ gfx
 RectTyped
 <
 src
+F
 >
 &
 aRect
@@ -5333,10 +5359,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 src
 dst
+F
 >
 &
 aScale
@@ -5349,6 +5376,7 @@ gfx
 RectTyped
 <
 dst
+F
 >
 (
 aRect
@@ -5392,6 +5420,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -5399,6 +5429,7 @@ gfx
 RectTyped
 <
 dst
+F
 >
 operator
 /
@@ -5410,6 +5441,7 @@ gfx
 RectTyped
 <
 src
+F
 >
 &
 aRect
@@ -5417,10 +5449,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 dst
 src
+F
 >
 &
 aScale
@@ -5433,6 +5466,7 @@ gfx
 RectTyped
 <
 dst
+F
 >
 (
 aRect
@@ -5668,6 +5702,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -5675,6 +5711,7 @@ gfx
 RectTyped
 <
 dst
+F
 >
 operator
 *
@@ -5693,10 +5730,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 src
 dst
+F
 >
 &
 aScale
@@ -5709,9 +5747,10 @@ gfx
 RectTyped
 <
 dst
+F
 >
 (
-float
+F
 (
 aRect
 .
@@ -5721,7 +5760,7 @@ x
 aScale
 .
 xScale
-float
+F
 (
 aRect
 .
@@ -5731,7 +5770,7 @@ y
 aScale
 .
 yScale
-float
+F
 (
 aRect
 .
@@ -5743,7 +5782,7 @@ Width
 aScale
 .
 xScale
-float
+F
 (
 aRect
 .
@@ -5764,6 +5803,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -5771,6 +5812,7 @@ gfx
 RectTyped
 <
 dst
+F
 >
 operator
 /
@@ -5789,10 +5831,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 dst
 src
+F
 >
 &
 aScale
@@ -5805,9 +5848,10 @@ gfx
 RectTyped
 <
 dst
+F
 >
 (
-float
+F
 (
 aRect
 .
@@ -5817,7 +5861,7 @@ x
 aScale
 .
 xScale
-float
+F
 (
 aRect
 .
@@ -5827,7 +5871,7 @@ y
 aScale
 .
 yScale
-float
+F
 (
 aRect
 .
@@ -5839,7 +5883,7 @@ Width
 aScale
 .
 xScale
-float
+F
 (
 aRect
 .
@@ -5992,6 +6036,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -5999,6 +6045,7 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 operator
 *
@@ -6010,6 +6057,7 @@ gfx
 SizeTyped
 <
 src
+F
 >
 &
 aSize
@@ -6017,10 +6065,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 src
 dst
+F
 >
 &
 aScale
@@ -6033,6 +6082,7 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 (
 aSize
@@ -6058,6 +6108,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -6065,6 +6117,7 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 operator
 /
@@ -6076,6 +6129,7 @@ gfx
 SizeTyped
 <
 src
+F
 >
 &
 aSize
@@ -6083,10 +6137,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 dst
 src
+F
 >
 &
 aScale
@@ -6099,6 +6154,7 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 (
 aSize
@@ -6268,6 +6324,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -6275,6 +6333,7 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 operator
 *
@@ -6293,10 +6352,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 src
 dst
+F
 >
 &
 aScale
@@ -6309,9 +6369,10 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 (
-float
+F
 (
 aSize
 .
@@ -6321,7 +6382,7 @@ width
 aScale
 .
 xScale
-float
+F
 (
 aSize
 .
@@ -6340,6 +6401,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -6347,6 +6410,7 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 operator
 /
@@ -6365,10 +6429,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 dst
 src
+F
 >
 &
 aScale
@@ -6381,9 +6446,10 @@ gfx
 SizeTyped
 <
 dst
+F
 >
 (
-float
+F
 (
 aSize
 .
@@ -6393,7 +6459,7 @@ width
 aScale
 .
 xScale
-float
+F
 (
 aSize
 .
@@ -6572,6 +6638,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -6579,6 +6647,7 @@ gfx
 MarginTyped
 <
 dst
+F
 >
 operator
 *
@@ -6590,6 +6659,7 @@ gfx
 MarginTyped
 <
 src
+F
 >
 &
 aMargin
@@ -6597,10 +6667,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 src
 dst
+F
 >
 &
 aScale
@@ -6613,6 +6684,7 @@ gfx
 MarginTyped
 <
 dst
+F
 >
 (
 aMargin
@@ -6652,6 +6724,8 @@ class
 src
 class
 dst
+class
+F
 >
 gfx
 :
@@ -6659,6 +6733,7 @@ gfx
 MarginTyped
 <
 dst
+F
 >
 operator
 /
@@ -6670,6 +6745,7 @@ gfx
 MarginTyped
 <
 src
+F
 >
 &
 aMargin
@@ -6677,10 +6753,11 @@ const
 gfx
 :
 :
-ScaleFactors2D
+BaseScaleFactors2D
 <
 dst
 src
+F
 >
 &
 aScale
@@ -6693,6 +6770,7 @@ gfx
 MarginTyped
 <
 dst
+F
 >
 (
 aMargin
