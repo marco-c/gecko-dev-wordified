@@ -286,6 +286,9 @@ commit_to_parent
 gboolean
 before_first_size_alloc
 ;
+gboolean
+waiting_to_show
+;
 int
 buffer_scale
 ;
@@ -555,6 +558,14 @@ container
 ;
 bool
 moz_container_wayland_is_commiting_to_parent
+(
+MozContainer
+*
+container
+)
+;
+bool
+moz_container_wayland_is_waiting_to_show
 (
 MozContainer
 *
