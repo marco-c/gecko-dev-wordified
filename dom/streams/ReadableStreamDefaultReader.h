@@ -472,6 +472,9 @@ Promise
 >
 Read
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv

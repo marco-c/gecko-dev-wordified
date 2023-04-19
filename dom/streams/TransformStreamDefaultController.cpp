@@ -268,7 +268,7 @@ mStream
 aStream
 ;
 }
-TransformerAlgorithmsBase
+TransformerAlgorithms
 *
 TransformStreamDefaultController
 :
@@ -287,7 +287,7 @@ TransformStreamDefaultController
 :
 SetAlgorithms
 (
-TransformerAlgorithmsBase
+TransformerAlgorithms
 *
 aTransformerAlgorithms
 )
@@ -1024,14 +1024,13 @@ Perform
 !
 TransformStreamSetBackpressure
 (
+stream
 true
 )
 .
-stream
--
->
-SetBackpressure
+TransformStreamSetBackpressure
 (
+stream
 true
 aRv
 )
@@ -1493,7 +1492,7 @@ aStream
 TransformStreamDefaultController
 &
 aController
-TransformerAlgorithmsBase
+TransformerAlgorithms
 &
 aTransformerAlgorithms
 )
