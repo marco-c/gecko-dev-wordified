@@ -170,10 +170,11 @@ freeze
 (
 {
 "
-annotationEditorEnabled
+annotationEditorMode
 "
 :
-false
+-
+1
 "
 annotationMode
 "
