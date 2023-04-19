@@ -1257,7 +1257,6 @@ NaN
 0
 "
 "
-+
 Infinity
 "
 "
@@ -2169,7 +2168,6 @@ number
 value
 :
 "
-+
 Infinity
 "
 }
