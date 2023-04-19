@@ -147,8 +147,7 @@ for
 macros
 if
 minor
->
-=
+<
 37
 {
 println
@@ -161,7 +160,7 @@ rustc
 -
 cfg
 =
-underscore_consts
+no_underscore_consts
 "
 )
 ;
@@ -217,8 +216,7 @@ stabilized
 apis
 if
 minor
->
-=
+<
 51
 {
 println
@@ -231,7 +229,7 @@ rustc
 -
 cfg
 =
-ptr_addr_of
+no_ptr_addr_of
 "
 )
 ;

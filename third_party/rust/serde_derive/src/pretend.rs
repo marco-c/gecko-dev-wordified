@@ -784,7 +784,10 @@ _
 [
 cfg
 (
-ptr_addr_of
+not
+(
+no_ptr_addr_of
+)
 )
 ]
 {
@@ -872,10 +875,7 @@ _
 [
 cfg
 (
-not
-(
-ptr_addr_of
-)
+no_ptr_addr_of
 )
 ]
 {

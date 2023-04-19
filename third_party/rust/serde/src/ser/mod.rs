@@ -364,7 +364,7 @@ serde_yaml
 ]
 and
 [
-bincode
+postcard
 ]
 .
 /
@@ -1044,7 +1044,7 @@ html
 /
 !
 [
-bincode
+postcard
 ]
 :
 https
@@ -1055,11 +1055,9 @@ github
 .
 com
 /
-bincode
--
-org
+jamesmunns
 /
-bincode
+postcard
 /
 /
 !
@@ -3516,7 +3514,7 @@ example
 /
 JSON
 or
-Bincode
+Postcard
 .
 This
 is
@@ -12832,7 +12830,7 @@ and
 binary
 formats
 like
-Bincode
+Postcard
 will
 prefer
 the
