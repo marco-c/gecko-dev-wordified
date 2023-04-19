@@ -203,7 +203,7 @@ masm
 .
 subl
 (
-BaselineStackReg
+StackPointer
 eax
 )
 ;
@@ -347,7 +347,7 @@ FramePointer
 /
 /
 -
-BaselineStackReg
+StackPointer
 /
 /
 -
@@ -368,7 +368,7 @@ masm
 .
 subl
 (
-BaselineStackReg
+StackPointer
 scratch
 )
 ;
@@ -456,7 +456,7 @@ Push
 (
 Operand
 (
-BaselineStackReg
+StackPointer
 0
 )
 )
@@ -489,7 +489,7 @@ BaselineJS
 )
 Address
 (
-BaselineStackReg
+StackPointer
 sizeof
 (
 uintptr_t
@@ -520,7 +520,7 @@ masm
 .
 mov
 (
-BaselineStackReg
+StackPointer
 FramePointer
 )
 ;

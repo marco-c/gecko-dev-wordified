@@ -179,13 +179,6 @@ r11
 frame
 -
 pointer
-static
-constexpr
-Register
-BaselineStackReg
-=
-sp
-;
 /
 /
 ValueOperands

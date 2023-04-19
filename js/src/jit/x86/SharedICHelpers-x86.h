@@ -396,7 +396,7 @@ Pop
 (
 Operand
 (
-BaselineStackReg
+StackPointer
 0
 )
 )

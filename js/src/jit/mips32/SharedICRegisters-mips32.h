@@ -153,13 +153,6 @@ jit
 {
 static
 constexpr
-Register
-BaselineStackReg
-=
-sp
-;
-static
-constexpr
 ValueOperand
 R0
 (

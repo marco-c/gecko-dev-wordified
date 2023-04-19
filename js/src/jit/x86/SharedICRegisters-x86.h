@@ -151,13 +151,6 @@ js
 namespace
 jit
 {
-static
-constexpr
-Register
-BaselineStackReg
-=
-esp
-;
 /
 /
 ValueOperands

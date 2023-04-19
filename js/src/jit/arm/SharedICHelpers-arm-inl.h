@@ -222,7 +222,7 @@ masm
 .
 ma_sub
 (
-BaselineStackReg
+StackPointer
 r0
 )
 ;
@@ -416,7 +416,7 @@ masm
 .
 ma_sub
 (
-BaselineStackReg
+StackPointer
 scratch
 )
 ;
@@ -511,7 +511,7 @@ masm
 .
 mov
 (
-BaselineStackReg
+StackPointer
 FramePointer
 )
 ;

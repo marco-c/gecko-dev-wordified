@@ -401,7 +401,7 @@ masm
 movePtr
 (
 FramePointer
-BaselineStackReg
+StackPointer
 )
 ;
 masm

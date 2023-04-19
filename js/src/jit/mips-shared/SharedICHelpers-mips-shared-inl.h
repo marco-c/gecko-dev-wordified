@@ -212,7 +212,7 @@ masm
 .
 subPtr
 (
-BaselineStackReg
+StackPointer
 scratch
 )
 ;
@@ -460,7 +460,7 @@ masm
 .
 subPtr
 (
-BaselineStackReg
+StackPointer
 scratch
 )
 ;
@@ -615,7 +615,7 @@ masm
 .
 movePtr
 (
-BaselineStackReg
+StackPointer
 FramePointer
 )
 ;
