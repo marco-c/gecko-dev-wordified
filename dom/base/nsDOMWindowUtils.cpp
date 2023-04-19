@@ -12380,7 +12380,7 @@ do_AddRef
 observer
 -
 >
-GetObservingContent
+GetObservingElement
 (
 )
 )
