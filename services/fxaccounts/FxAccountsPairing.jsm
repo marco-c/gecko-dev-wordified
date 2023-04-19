@@ -117,7 +117,7 @@ js
 ;
 const
 {
-getFxAccountsSingleton
+fxAccounts
 FxAccounts
 }
 =
@@ -138,13 +138,6 @@ FxAccounts
 .
 jsm
 "
-)
-;
-const
-fxAccounts
-=
-getFxAccountsSingleton
-(
 )
 ;
 const
