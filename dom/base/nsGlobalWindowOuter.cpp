@@ -34992,6 +34992,9 @@ ThrowNotSupportedError
 No
 browsing
 context
+for
+source
+document
 "
 )
 ;
