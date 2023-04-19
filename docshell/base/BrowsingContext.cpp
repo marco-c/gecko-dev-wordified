@@ -22377,7 +22377,7 @@ GetURI
 )
 aInfo
 .
-HasPostData
+GetPostData
 (
 )
 )
