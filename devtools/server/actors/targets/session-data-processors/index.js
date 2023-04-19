@@ -91,7 +91,7 @@ SUPPORTED_DATA
 SessionDataHelpers
 ;
 const
-SessionData
+SessionDataProcessors
 =
 {
 }
@@ -100,7 +100,7 @@ loader
 .
 lazyRequireGetter
 (
-SessionData
+SessionDataProcessors
 SUPPORTED_DATA
 .
 BLACKBOXING
@@ -116,6 +116,8 @@ targets
 session
 -
 data
+-
+processors
 /
 blackboxing
 "
@@ -125,7 +127,7 @@ loader
 .
 lazyRequireGetter
 (
-SessionData
+SessionDataProcessors
 SUPPORTED_DATA
 .
 BREAKPOINTS
@@ -141,6 +143,8 @@ targets
 session
 -
 data
+-
+processors
 /
 breakpoints
 "
@@ -150,7 +154,7 @@ loader
 .
 lazyRequireGetter
 (
-SessionData
+SessionDataProcessors
 SUPPORTED_DATA
 .
 EVENT_BREAKPOINTS
@@ -166,6 +170,8 @@ targets
 session
 -
 data
+-
+processors
 /
 event
 -
@@ -177,7 +183,7 @@ loader
 .
 lazyRequireGetter
 (
-SessionData
+SessionDataProcessors
 SUPPORTED_DATA
 .
 RESOURCES
@@ -193,6 +199,8 @@ targets
 session
 -
 data
+-
+processors
 /
 resources
 "
@@ -202,7 +210,7 @@ loader
 .
 lazyRequireGetter
 (
-SessionData
+SessionDataProcessors
 SUPPORTED_DATA
 .
 TARGET_CONFIGURATION
@@ -218,6 +226,8 @@ targets
 session
 -
 data
+-
+processors
 /
 target
 -
@@ -229,7 +239,7 @@ loader
 .
 lazyRequireGetter
 (
-SessionData
+SessionDataProcessors
 SUPPORTED_DATA
 .
 THREAD_CONFIGURATION
@@ -245,6 +255,8 @@ targets
 session
 -
 data
+-
+processors
 /
 thread
 -
@@ -256,7 +268,7 @@ loader
 .
 lazyRequireGetter
 (
-SessionData
+SessionDataProcessors
 SUPPORTED_DATA
 .
 XHR_BREAKPOINTS
@@ -272,6 +284,8 @@ targets
 session
 -
 data
+-
+processors
 /
 xhr
 -
@@ -281,7 +295,7 @@ breakpoints
 ;
 exports
 .
-SessionData
+SessionDataProcessors
 =
-SessionData
+SessionDataProcessors
 ;
