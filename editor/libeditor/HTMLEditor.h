@@ -16761,6 +16761,15 @@ its
 descendants
 .
 *
+return
+A
+candidate
+point
+to
+put
+caret
+.
+*
 /
 enum
 class
@@ -16776,7 +16785,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 RemoveAlignFromDescendants
 (
 Element
