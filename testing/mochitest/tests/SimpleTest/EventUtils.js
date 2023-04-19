@@ -17679,6 +17679,7 @@ try
 {
 _getDOMWindowUtils
 (
+srcWindow
 )
 .
 disableNonTestMouseEvents
@@ -19446,6 +19447,7 @@ true
 }
 _getDOMWindowUtils
 (
+srcWindow
 )
 .
 disableNonTestMouseEvents
