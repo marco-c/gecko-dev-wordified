@@ -3365,19 +3365,6 @@ delay
 =
 0
         
-prefs
-[
-"
-gfx
-.
-font_loader
-.
-interval
-"
-]
-=
-0
-        
 #
 Ensure
 bundled
