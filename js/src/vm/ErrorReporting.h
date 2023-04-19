@@ -893,15 +893,6 @@ error
 )
 ;
 enum
-ErrorArgumentsType
-{
-ArgumentsAreUnicode
-ArgumentsAreASCII
-ArgumentsAreLatin1
-ArgumentsAreUTF8
-}
-;
-enum
 class
 IsWarning
 {
