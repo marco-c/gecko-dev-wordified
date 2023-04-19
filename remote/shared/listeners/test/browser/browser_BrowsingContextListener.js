@@ -533,7 +533,7 @@ linkedBrowser
 "
 about
 :
-robots
+mozilla
 "
 )
 ;
