@@ -108,7 +108,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -517,14 +517,14 @@ Load
 and
 cache
 with
-importModule
+importESModule
 .
 const
 ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -675,7 +675,7 @@ ns2
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -827,7 +827,7 @@ ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -1002,14 +1002,14 @@ Load
 and
 cache
 with
-importModule
+importESModule
 .
 const
 ns
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -1158,7 +1158,7 @@ ns2
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -1502,7 +1502,7 @@ exports
 =
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource
@@ -3236,7 +3236,7 @@ false
 ;
 ChromeUtils
 .
-importModule
+importESModule
 (
 "
 resource

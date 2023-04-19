@@ -9264,7 +9264,7 @@ NS_ERROR_FILE_NOT_FOUND
 )
 {
 return
-TryFallbackToImportModule
+TryFallbackToImportESModule
 (
 aCx
 aLocation
@@ -9534,7 +9534,7 @@ nsresult
 mozJSComponentLoader
 :
 :
-TryFallbackToImportModule
+TryFallbackToImportESModule
 (
 JSContext
 *
@@ -9586,7 +9586,7 @@ aCx
 nsresult
 rv
 =
-ImportModule
+ImportESModule
 (
 aCx
 mjsLocation
@@ -9732,7 +9732,7 @@ nsresult
 mozJSComponentLoader
 :
 :
-ImportModule
+ImportESModule
 (
 JSContext
 *
@@ -9767,7 +9767,7 @@ from
 ChromeUtils
 :
 :
-ImportModule
+ImportESModule
 .
 nsCString
 str

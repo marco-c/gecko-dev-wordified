@@ -538,7 +538,7 @@ its
 dependencies
 .
 nsresult
-ImportModule
+ImportESModule
 (
 JSContext
 *
@@ -560,10 +560,10 @@ Fallback
 from
 Import
 to
-ImportModule
+ImportESModule
 .
 nsresult
-TryFallbackToImportModule
+TryFallbackToImportESModule
 (
 JSContext
 *
