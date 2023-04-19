@@ -648,11 +648,13 @@ manually
 from
 this
 test
+via
+commands
 .
 await
-client
+commands
 .
-close
+destroy
 (
 )
 ;
