@@ -2479,6 +2479,11 @@ JSContext
 cx
 HandleObject
 evaluationPromise
+JS
+:
+:
+ModuleErrorBehaviour
+errorBehaviour
 )
 ;
 bool

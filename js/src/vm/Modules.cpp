@@ -977,6 +977,8 @@ JSObject
 *
 >
 evaluationPromise
+ModuleErrorBehaviour
+errorBehaviour
 )
 {
 AssertHeapIsIdle
@@ -1004,6 +1006,7 @@ OnModuleEvaluationFailure
 (
 cx
 evaluationPromise
+errorBehaviour
 )
 ;
 }
