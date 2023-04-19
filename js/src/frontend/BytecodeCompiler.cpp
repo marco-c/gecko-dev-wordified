@@ -638,6 +638,8 @@ BytecodeEmitter
 >
 &
 emitter
+uintptr_t
+stackLimit
 const
 EitherParser
 &
@@ -903,6 +905,7 @@ EmplaceEmitter
 (
 compilationState_
 emitter
+stackLimit
 EitherParser
 (
 parser
@@ -3802,6 +3805,8 @@ BytecodeEmitter
 >
 &
 emitter
+uintptr_t
+stackLimit
 const
 EitherParser
 &
@@ -3838,6 +3843,7 @@ emitter
 .
 emplace
 (
+stackLimit
 parser
 sc
 compilationState
@@ -6898,6 +6904,16 @@ return
 false
 ;
 }
+uintptr_t
+stackLimit
+=
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
+;
 Parser
 <
 FullParseHandler
@@ -6907,12 +6923,7 @@ parser
 (
 cx
 ec
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
+stackLimit
 input
 .
 options
@@ -6995,6 +7006,7 @@ false
 BytecodeEmitter
 bce
 (
+stackLimit
 &
 parser
 pn
