@@ -3009,20 +3009,20 @@ get_worker_type
 (
                     
 graph_config
-worker_type
-=
+                    
 alias
-parameters
-=
-{
-"
+                    
 level
-"
-:
+=
 "
 1
 "
-}
+                    
+release_level
+=
+"
+staging
+"
                 
 )
                 

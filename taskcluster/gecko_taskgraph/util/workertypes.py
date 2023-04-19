@@ -54,16 +54,6 @@ MPL
 /
 .
 from
-gecko_taskgraph
-.
-util
-.
-attributes
-import
-release_level
-as
-_release_level
-from
 mozbuild
 .
 util
@@ -257,7 +247,6 @@ graph_config
 alias
 level
 release_level
-project
 )
 :
     
@@ -553,36 +542,6 @@ alias
     
 )
     
-attrs
-=
-{
-"
-level
-"
-:
-level
-"
-release
--
-level
-"
-:
-release_level
-}
-    
-if
-project
-:
-        
-attrs
-[
-"
-project
-"
-]
-=
-project
-    
 worker_config
 [
 "
@@ -619,7 +578,20 @@ worker
 type
 "
         
-attrs
+{
+"
+level
+"
+:
+level
+"
+release
+-
+level
+"
+:
+release_level
+}
     
 )
 .
@@ -667,7 +639,6 @@ def
 worker_type_implementation
 (
 graph_config
-parameters
 worker_type
 )
 :
@@ -714,7 +685,6 @@ worker_config
 =
 _get
 (
-        
 graph_config
 worker_type
 "
@@ -723,13 +693,6 @@ worker_type
 "
 staging
 "
-parameters
-[
-"
-project
-"
-]
-    
 )
     
 return
@@ -751,8 +714,9 @@ def
 get_worker_type
 (
 graph_config
-parameters
 worker_type
+level
+release_level
 )
 :
     
@@ -787,39 +751,10 @@ worker_config
 =
 _get
 (
-        
 graph_config
-        
 worker_type
-        
-parameters
-[
-"
 level
-"
-]
-        
-_release_level
-(
-parameters
-.
-get
-(
-"
-project
-"
-)
-)
-        
-parameters
-.
-get
-(
-"
-project
-"
-)
-    
+release_level
 )
     
 return

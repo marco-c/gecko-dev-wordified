@@ -12770,13 +12770,9 @@ os
 =
 worker_type_implementation
 (
-            
 config
 .
 graph_config
-config
-.
-params
 task
 [
 "
@@ -12785,7 +12781,6 @@ worker
 type
 "
 ]
-        
 )
         
 tags
@@ -16153,10 +16148,6 @@ config
 .
 graph_config
                 
-config
-.
-params
-                
 task
 [
 "
@@ -16165,6 +16156,24 @@ worker
 type
 "
 ]
+                
+level
+=
+level
+                
+release_level
+=
+release_level
+(
+config
+.
+params
+[
+"
+project
+"
+]
+)
             
 )
         

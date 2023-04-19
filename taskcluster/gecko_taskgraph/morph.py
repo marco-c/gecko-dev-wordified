@@ -209,6 +209,13 @@ from
 .
 util
 .
+attributes
+import
+release_level
+from
+.
+util
+.
 workertypes
 import
 get_worker_type
@@ -481,12 +488,24 @@ get_worker_type
 (
         
 graph_config
-        
-parameters
-        
 "
 misc
 "
+parameters
+[
+"
+level
+"
+]
+release_level
+(
+parameters
+[
+"
+project
+"
+]
+)
     
 )
     
