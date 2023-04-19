@@ -178,7 +178,7 @@ Result
 const
 char
 *
-Warning
+Error
 =
 "
 The
@@ -258,11 +258,11 @@ Declarator
 getBeginLoc
 (
 )
-Warning
+Error
 DiagnosticIDs
 :
 :
-Warning
+Error
 )
 <
 <
