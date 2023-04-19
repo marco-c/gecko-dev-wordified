@@ -578,6 +578,14 @@ referrerPolicy
 ;
 this
 .
+_priority
+=
+networkEvent
+.
+priority
+;
+this
+.
 _channelId
 =
 networkEvent
@@ -924,6 +932,11 @@ referrerPolicy
 this
 .
 _referrerPolicy
+priority
+:
+this
+.
+_priority
 blockedReason
 :
 this
