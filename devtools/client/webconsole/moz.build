@@ -164,15 +164,6 @@ js
 "
 webconsole
 -
-connection
--
-proxy
-.
-js
-"
-"
-webconsole
--
 ui
 .
 js

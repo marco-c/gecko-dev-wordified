@@ -127,8 +127,7 @@ setupActions
 describe
 (
 "
-Client
-proxy
+release
 "
 (
 )
