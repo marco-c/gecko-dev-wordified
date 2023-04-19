@@ -741,13 +741,7 @@ false
 ;
 TestRunner
 .
-timeoutAsPass
-=
-false
-;
-TestRunner
-.
-conditionedProfile
+timeoutAspass
 =
 false
 ;
