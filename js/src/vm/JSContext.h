@@ -1676,16 +1676,7 @@ void
 reportAllocationOverflow
 (
 )
-{
-js
-:
-:
-ReportAllocationOverflow
-(
-this
-)
 ;
-}
 /
 /
 Accessors

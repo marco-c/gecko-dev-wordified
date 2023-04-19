@@ -1129,7 +1129,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -1912,7 +1912,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -3983,7 +3983,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return

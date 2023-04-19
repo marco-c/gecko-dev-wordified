@@ -1745,7 +1745,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx_
+ec_
 )
 ;
 return
@@ -1976,7 +1976,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx_
+ec_
 )
 ;
 return
@@ -13702,7 +13702,7 @@ isValid
 {
 ReportAllocationOverflow
 (
-cx_
+ec_
 )
 ;
 return
@@ -65937,7 +65937,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx_
+ec_
 )
 ;
 return
@@ -66295,7 +66295,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-cx_
+ec_
 )
 ;
 return
@@ -66335,7 +66335,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx_
+ec_
 )
 ;
 return
