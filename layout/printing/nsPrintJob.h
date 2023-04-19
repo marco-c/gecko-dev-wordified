@@ -1131,12 +1131,6 @@ EnablePOsForPrinting
 (
 )
 ;
-nsPrintObject
-*
-FindSmallestSTF
-(
-)
-;
 bool
 PrintDocContent
 (

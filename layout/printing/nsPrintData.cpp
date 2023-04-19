@@ -382,10 +382,6 @@ mPrintDocList
 (
 0
 )
-mIsParentAFrameSet
-(
-false
-)
 mOnStartSent
 (
 false
