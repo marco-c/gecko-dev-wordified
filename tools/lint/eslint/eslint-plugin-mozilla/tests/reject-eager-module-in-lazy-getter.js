@@ -565,7 +565,7 @@ defineLazyModuleGetter
 (
 lazy
 "
-Services
+AppConstants
 "
 "
 resource
@@ -576,7 +576,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -591,7 +591,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "

@@ -451,7 +451,7 @@ code
 :
 const
 {
-Services
+AppConstants
 }
 =
 ChromeUtils
@@ -467,7 +467,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -485,7 +485,7 @@ code
 :
 import
 {
-Services
+AppConstants
 }
 from
 "
@@ -497,7 +497,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
