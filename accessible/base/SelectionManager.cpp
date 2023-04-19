@@ -1663,7 +1663,7 @@ void
 SelectionManager
 :
 :
-SpellCheckRangeAdded
+SpellCheckRangeChanged
 (
 const
 nsRange
