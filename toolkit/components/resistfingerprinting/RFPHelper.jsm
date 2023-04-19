@@ -1013,7 +1013,7 @@ try
 {
 Services
 .
-pref
+prefs
 .
 removeObserver
 (
