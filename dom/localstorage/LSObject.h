@@ -560,12 +560,6 @@ mInExplicitSnapshot
 ;
 public
 :
-static
-void
-Initialize
-(
-)
-;
 /
 *
 *
