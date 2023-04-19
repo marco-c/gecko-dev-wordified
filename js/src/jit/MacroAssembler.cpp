@@ -21354,7 +21354,7 @@ dest
 ;
 /
 /
-p
+result
 =
 1
 /
@@ -21399,7 +21399,7 @@ temp1
 ;
 /
 /
-m
+runningSquare
 =
 x
 move32
@@ -21538,10 +21538,10 @@ loop
 ;
 /
 /
-m
+runningSquare
 *
 =
-m
+runningSquare
 branchMul32
 (
 Assembler
@@ -21572,10 +21572,10 @@ n
 =
 0
 )
-p
+result
 *
 =
-m
+runningSquare
 Label
 even
 ;
@@ -21628,7 +21628,7 @@ n
 0
 )
 return
-p
+result
 branchRshift32
 (
 Assembler
