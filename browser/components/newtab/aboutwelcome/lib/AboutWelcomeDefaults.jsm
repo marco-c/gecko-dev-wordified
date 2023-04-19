@@ -706,9 +706,6 @@ logo
 :
 {
 }
-progress_bar
-:
-true
 title
 :
 {
