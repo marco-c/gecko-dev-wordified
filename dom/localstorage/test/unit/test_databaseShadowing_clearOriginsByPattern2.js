@@ -78,9 +78,8 @@ disableNextGenLocalStorage
 (
 )
 ;
-if
+ok
 (
-!
 importShadowDatabase
 (
 "
@@ -91,11 +90,12 @@ clearedOriginsByPattern
 sqlite
 "
 )
+"
+Import
+succeeded
+"
 )
-{
-return
 ;
-}
 verifyData
 (
 [
