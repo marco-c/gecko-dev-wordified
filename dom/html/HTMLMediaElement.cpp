@@ -27155,6 +27155,12 @@ DispatchBlockEventForVideoControl
 (
 )
 ;
+if
+(
+!
+mHasEverBeenBlockedForAutoplay
+)
+{
 MaybeNotifyAutoplayBlocked
 (
 )
@@ -27174,6 +27180,7 @@ mHasEverBeenBlockedForAutoplay
 =
 true
 ;
+}
 }
 void
 HTMLMediaElement
