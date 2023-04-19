@@ -126,6 +126,11 @@ dynamicType
 "
 quickactions
 "
+helpUrl
+:
+UrlbarProviderQuickActions
+.
+helpUrl
 }
 }
 ;
