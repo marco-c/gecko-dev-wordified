@@ -244,13 +244,7 @@ child
 >
 SendSetClipboard
 (
-std
-:
-:
-move
-(
 ipcDataTransfer
-)
 isPrivateData
 IPC
 :
@@ -327,6 +321,12 @@ aAddDataFlavor
 *
 /
 aTransferable
+ContentChild
+:
+:
+GetSingleton
+(
+)
 )
 ;
 }
