@@ -2929,11 +2929,6 @@ ClearCachedResources
 )
 ;
 void
-InvalidateLayers
-(
-)
-;
-void
 SchedulePaint
 (
 )
