@@ -7625,12 +7625,12 @@ FrameType
 BaselineStub
 )
 ;
-JitStubFrameLayout
+BaselineStubFrameLayout
 *
 layout
 =
 (
-JitStubFrameLayout
+BaselineStubFrameLayout
 *
 )
 frame
