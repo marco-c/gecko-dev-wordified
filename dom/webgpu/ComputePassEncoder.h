@@ -324,7 +324,7 @@ aPipeline
 )
 ;
 void
-Dispatch
+DispatchWorkgroups
 (
 uint32_t
 x
@@ -335,7 +335,7 @@ z
 )
 ;
 void
-DispatchIndirect
+DispatchIndirectWorkgroups
 (
 const
 Buffer
