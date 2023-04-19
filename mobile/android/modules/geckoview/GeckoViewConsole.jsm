@@ -119,19 +119,14 @@ jsm
 )
 ;
 const
-lazy
-=
-{
-}
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
 {
 Services
-:
+}
+=
+ChromeUtils
+.
+import
+(
 "
 resource
 :
@@ -145,7 +140,6 @@ Services
 .
 jsm
 "
-}
 )
 ;
 const
@@ -339,8 +333,6 @@ this
 .
 enabled
 =
-lazy
-.
 Services
 .
 prefs
@@ -476,8 +468,6 @@ javascript
 "
 )
 ;
-lazy
-.
 Services
 .
 console
@@ -504,8 +494,6 @@ trace
 const
 bundle
 =
-lazy
-.
 Services
 .
 strings
@@ -670,8 +658,6 @@ n
 }
 )
 ;
-lazy
-.
 Services
 .
 console
@@ -703,8 +689,6 @@ arguments
 const
 bundle
 =
-lazy
-.
 Services
 .
 strings
@@ -747,8 +731,6 @@ name
 ]
 )
 ;
-lazy
-.
 Services
 .
 console
@@ -780,8 +762,6 @@ arguments
 const
 bundle
 =
-lazy
-.
 Services
 .
 strings
@@ -829,8 +809,6 @@ duration
 ]
 )
 ;
-lazy
-.
 Services
 .
 console
@@ -872,8 +850,6 @@ yet
 }
 else
 {
-lazy
-.
 Services
 .
 console
