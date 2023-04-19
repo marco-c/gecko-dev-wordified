@@ -2623,6 +2623,8 @@ dst_a
 =
 8
 *
+/
+/
 dst_stride_a
 "
 add
@@ -2645,6 +2647,8 @@ dst_b
 =
 8
 *
+/
+/
 dst_stride_b
 "
 subs
