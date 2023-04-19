@@ -3350,7 +3350,7 @@ if
 (
 next
 .
-isNurseryAllocatableGCThing
+isGCThing
 (
 )
 &
@@ -3429,7 +3429,7 @@ if
 (
 prev
 .
-isNurseryAllocatableGCThing
+isGCThing
 (
 )
 &
@@ -3479,7 +3479,7 @@ if
 (
 prev
 .
-isNurseryAllocatableGCThing
+isGCThing
 (
 )
 &
@@ -7797,7 +7797,7 @@ this
 >
 value
 .
-isNurseryAllocatableGCThing
+isGCThing
 (
 )
 )
