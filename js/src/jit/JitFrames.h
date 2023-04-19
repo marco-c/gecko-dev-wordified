@@ -1734,7 +1734,7 @@ return
 numActualArgs_
 ;
 }
-void
+uint8_t
 *
 callerFramePtr
 (
@@ -1774,7 +1774,7 @@ this
 return
 reinterpret_cast
 <
-void
+uint8_t
 *
 >
 (
