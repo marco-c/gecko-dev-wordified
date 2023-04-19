@@ -127,6 +127,7 @@ IsGeneratorObject
 this
 )
 )
+{
 return
 callFunction
 (
@@ -138,6 +139,7 @@ GeneratorNext
 "
 )
 ;
+}
 if
 (
 GeneratorObjectIsClosed
@@ -145,6 +147,7 @@ GeneratorObjectIsClosed
 this
 )
 )
+{
 return
 {
 value
@@ -155,6 +158,7 @@ done
 true
 }
 ;
+}
 if
 (
 GeneratorIsRunning
@@ -162,11 +166,13 @@ GeneratorIsRunning
 this
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
 ;
+}
 }
 try
 {
@@ -194,11 +200,13 @@ GeneratorObjectIsClosed
 this
 )
 )
+{
 GeneratorSetClosed
 (
 this
 )
 ;
+}
 throw
 e
 ;
@@ -234,6 +242,7 @@ IsGeneratorObject
 this
 )
 )
+{
 return
 callFunction
 (
@@ -245,6 +254,7 @@ GeneratorThrow
 "
 )
 ;
+}
 if
 (
 GeneratorObjectIsClosed
@@ -252,9 +262,11 @@ GeneratorObjectIsClosed
 this
 )
 )
+{
 throw
 val
 ;
+}
 if
 (
 GeneratorIsRunning
@@ -262,11 +274,13 @@ GeneratorIsRunning
 this
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
 ;
+}
 }
 try
 {
@@ -294,11 +308,13 @@ GeneratorObjectIsClosed
 this
 )
 )
+{
 GeneratorSetClosed
 (
 this
 )
 ;
+}
 throw
 e
 ;
@@ -334,6 +350,7 @@ IsGeneratorObject
 this
 )
 )
+{
 return
 callFunction
 (
@@ -345,6 +362,7 @@ GeneratorReturn
 "
 )
 ;
+}
 if
 (
 GeneratorObjectIsClosed
@@ -352,6 +370,7 @@ GeneratorObjectIsClosed
 this
 )
 )
+{
 return
 {
 value
@@ -362,6 +381,7 @@ done
 true
 }
 ;
+}
 if
 (
 GeneratorIsRunning
@@ -369,11 +389,13 @@ GeneratorIsRunning
 this
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
 ;
+}
 }
 try
 {
@@ -413,11 +435,13 @@ GeneratorObjectIsClosed
 this
 )
 )
+{
 GeneratorSetClosed
 (
 this
 )
 ;
+}
 throw
 e
 ;
@@ -500,6 +524,7 @@ kind
 next
 "
 )
+{
 return
 resumeGenerator
 (
@@ -510,6 +535,7 @@ next
 "
 )
 ;
+}
 if
 (
 kind
@@ -520,6 +546,7 @@ kind
 throw
 "
 )
+{
 return
 resumeGenerator
 (
@@ -530,6 +557,7 @@ throw
 "
 )
 ;
+}
 assert
 (
 kind
