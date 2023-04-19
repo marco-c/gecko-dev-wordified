@@ -3095,7 +3095,7 @@ wasm
 :
 :
 FuncType
-336
+208
 )
 ;
 MOZ_TRY
@@ -3221,7 +3221,7 @@ wasm
 :
 :
 TypeDef
-344
+216
 )
 ;
 /
@@ -3734,7 +3734,7 @@ wasm
 :
 :
 TagType
-224
+160
 )
 ;
 MOZ_TRY
@@ -5590,7 +5590,7 @@ wasm
 :
 :
 Metadata
-472
+464
 )
 ;
 if
