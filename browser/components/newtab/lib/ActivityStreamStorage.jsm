@@ -1,9 +1,3 @@
-const
-lazy
-=
-{
-}
-;
 /
 *
 This
@@ -62,6 +56,12 @@ MPL
 .
 *
 /
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
