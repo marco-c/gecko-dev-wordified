@@ -185,6 +185,9 @@ class
 JsepTransceiver
 ;
 class
+TransceiverImpl
+;
+class
 PeerConnectionImpl
 ;
 class
@@ -204,9 +207,6 @@ RTCDtlsTransport
 ;
 class
 RTCDTMFSender
-;
-class
-RTCRtpTransceiver
 ;
 class
 RTCRtpSender
@@ -247,9 +247,9 @@ dom
 MediaStreamTrack
 *
 aTrack
-RTCRtpTransceiver
+TransceiverImpl
 *
-aTransceiver
+aTransceiverImpl
 )
 ;
 /
@@ -812,9 +812,9 @@ mPipeline
 ;
 RefPtr
 <
-RTCRtpTransceiver
+TransceiverImpl
 >
-mTransceiver
+mTransceiverImpl
 ;
 nsTArray
 <

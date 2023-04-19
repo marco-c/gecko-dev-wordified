@@ -84,7 +84,7 @@ h
 #
 include
 "
-RTCRtpTransceiver
+TransceiverImpl
 .
 h
 "
@@ -183,7 +183,7 @@ RTCDTMFSender
 nsPIDOMWindowInner
 *
 aWindow
-RTCRtpTransceiver
+TransceiverImpl
 *
 aTransceiver
 )
