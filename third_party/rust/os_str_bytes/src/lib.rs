@@ -1812,7 +1812,7 @@ sgx_platform
 #
 !
 [
-forbid
+warn
 (
 unsafe_op_in_unsafe_fn
 )

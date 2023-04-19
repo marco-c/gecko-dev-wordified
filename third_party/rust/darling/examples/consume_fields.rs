@@ -888,6 +888,7 @@ Result
 write
 !
 (
+writer
 #
 fmt_string
 #

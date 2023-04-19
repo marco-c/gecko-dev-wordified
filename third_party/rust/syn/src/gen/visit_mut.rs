@@ -6606,7 +6606,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -6677,7 +6676,6 @@ spans
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -6865,7 +6863,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -6914,7 +6911,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -7198,7 +7194,6 @@ spans
 )
 ;
 }
-;
 v
 .
 visit_type_mut
@@ -8265,7 +8260,6 @@ spans
 )
 ;
 }
-;
 if
 let
 Some
@@ -8287,7 +8281,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -8710,7 +8703,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -9759,6 +9751,13 @@ _binding_0
 )
 ;
 }
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -10161,7 +10160,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_block_mut
@@ -10438,7 +10436,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_block_mut
@@ -10617,7 +10614,6 @@ it
 )
 ;
 }
-;
 if
 let
 Some
@@ -10643,7 +10639,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -10951,31 +10946,6 @@ it
 mut
 node
 .
-asyncness
-{
-tokens_helper
-(
-v
-&
-mut
-it
-.
-span
-)
-;
-}
-;
-if
-let
-Some
-(
-it
-)
-=
-&
-mut
-node
-.
 movability
 {
 tokens_helper
@@ -10989,7 +10959,30 @@ span
 )
 ;
 }
+if
+let
+Some
+(
+it
+)
+=
+&
+mut
+node
+.
+asyncness
+{
+tokens_helper
+(
+v
+&
+mut
+it
+.
+span
+)
 ;
+}
 if
 let
 Some
@@ -11014,7 +11007,6 @@ span
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -11205,7 +11197,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -11380,7 +11371,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -11650,7 +11640,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -12002,7 +11991,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -12311,7 +12299,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -12550,7 +12537,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_path_mut
@@ -12642,7 +12628,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_range_limits_mut
@@ -12679,7 +12664,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -12771,7 +12755,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_expr_mut
@@ -12979,7 +12962,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -13137,7 +13119,6 @@ spans
 )
 ;
 }
-;
 if
 let
 Some
@@ -13163,7 +13144,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -13774,7 +13754,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -13902,7 +13881,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -13998,7 +13976,6 @@ it
 )
 ;
 }
-;
 if
 let
 Some
@@ -14023,7 +14000,6 @@ spans
 )
 ;
 }
-;
 v
 .
 visit_type_mut
@@ -14125,7 +14101,6 @@ spans
 )
 ;
 }
-;
 v
 .
 visit_pat_mut
@@ -14228,7 +14203,6 @@ spans
 )
 ;
 }
-;
 v
 .
 visit_expr_mut
@@ -14848,6 +14822,13 @@ _binding_0
 )
 ;
 }
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -15035,7 +15016,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -15138,7 +15118,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_ident_mut
@@ -15679,7 +15658,6 @@ spans
 )
 ;
 }
-;
 for
 el
 in
@@ -15759,7 +15737,6 @@ spans
 )
 ;
 }
-;
 if
 let
 Some
@@ -15781,7 +15758,6 @@ it
 )
 ;
 }
-;
 }
 pub
 fn
@@ -15965,6 +15941,13 @@ _binding_0
 )
 ;
 }
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -16063,7 +16046,6 @@ span
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -16235,7 +16217,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -16326,7 +16307,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_signature_mut
@@ -16439,7 +16419,6 @@ span
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -16920,6 +16899,13 @@ _binding_0
 )
 ;
 }
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -17386,7 +17372,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -17662,7 +17647,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -17687,7 +17671,6 @@ span
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -17750,7 +17733,6 @@ spans
 )
 ;
 }
-;
 v
 .
 visit_path_mut
@@ -17779,7 +17761,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_type_mut
@@ -17897,7 +17878,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_macro_mut
@@ -17933,7 +17913,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -18167,7 +18146,6 @@ it
 ;
 }
 }
-;
 if
 let
 Some
@@ -18192,7 +18170,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -18295,7 +18272,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_ident_mut
@@ -18502,7 +18478,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -18593,7 +18568,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -18618,7 +18592,6 @@ span
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -18677,7 +18650,6 @@ spans
 )
 ;
 }
-;
 for
 el
 in
@@ -19290,7 +19262,6 @@ spans
 )
 ;
 }
-;
 v
 .
 visit_use_tree_mut
@@ -19522,7 +19493,6 @@ spans
 )
 ;
 }
-;
 for
 el
 in
@@ -20080,7 +20050,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -21355,6 +21324,13 @@ _binding_0
 )
 ;
 }
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -21521,7 +21497,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -21546,7 +21521,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_ident_mut
@@ -21600,7 +21574,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -21813,7 +21786,6 @@ spans
 )
 ;
 }
-;
 for
 el
 in
@@ -21945,7 +21917,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_path_mut
@@ -22138,7 +22109,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_pat_mut
@@ -22497,7 +22467,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -22925,7 +22894,6 @@ spans
 )
 ;
 }
-;
 for
 el
 in
@@ -23414,7 +23382,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_type_mut
@@ -23595,7 +23562,6 @@ span
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -23797,9 +23763,7 @@ it
 )
 ;
 }
-;
 }
-;
 if
 let
 Some
@@ -23824,7 +23788,6 @@ span
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -23990,7 +23953,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -24015,7 +23977,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -24040,7 +24001,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -24062,7 +24022,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -24185,7 +24144,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_return_type_mut
@@ -24419,7 +24377,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_trait_bound_modifier_mut
@@ -24452,7 +24409,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_path_mut
@@ -24673,6 +24629,13 @@ _binding_0
 )
 ;
 }
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -24823,7 +24786,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -24926,7 +24888,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -25014,7 +24975,6 @@ it
 )
 ;
 }
-;
 if
 let
 Some
@@ -25039,7 +24999,6 @@ spans
 )
 ;
 }
-;
 }
 #
 [
@@ -25153,7 +25112,6 @@ spans
 )
 ;
 }
-;
 for
 el
 in
@@ -25250,7 +25208,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -25581,6 +25538,13 @@ _binding_0
 )
 ;
 }
+#
+[
+cfg
+(
+syn_no_non_exhaustive
+)
+]
 _
 =
 >
@@ -25749,7 +25713,6 @@ it
 )
 ;
 }
-;
 if
 let
 Some
@@ -25774,7 +25737,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -25796,7 +25758,6 @@ it
 )
 ;
 }
-;
 tokens_helper
 (
 v
@@ -25897,7 +25858,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_return_type_mut
@@ -26363,7 +26323,6 @@ spans
 )
 ;
 }
-;
 for
 el
 in
@@ -26443,7 +26402,6 @@ spans
 )
 ;
 }
-;
 if
 let
 Some
@@ -26465,7 +26423,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -26689,7 +26646,6 @@ it
 )
 ;
 }
-;
 v
 .
 visit_path_mut
@@ -26783,7 +26739,6 @@ span
 )
 ;
 }
-;
 if
 let
 Some
@@ -26808,7 +26763,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_type_mut
@@ -26900,7 +26854,6 @@ it
 )
 ;
 }
-;
 if
 let
 Some
@@ -26925,7 +26878,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_type_mut
@@ -27078,7 +27030,6 @@ span
 )
 ;
 }
-;
 for
 el
 in
@@ -28042,7 +27993,6 @@ it
 )
 ;
 }
-;
 }
 #
 [
@@ -28253,7 +28203,6 @@ span
 )
 ;
 }
-;
 v
 .
 visit_path_mut

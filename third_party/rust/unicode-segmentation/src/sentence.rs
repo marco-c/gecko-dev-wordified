@@ -1511,11 +1511,13 @@ LF
 )
 =
 >
+{
 return
 Some
 (
 position_before
 )
+}
 /
 /
 SB5
@@ -1620,7 +1622,9 @@ ATerm
 )
 =
 >
+{
 continue
+}
 /
 /
 SB8
@@ -1696,7 +1700,9 @@ state_before
 )
 =
 >
+{
 continue
+}
 /
 /
 SB9
@@ -1746,7 +1752,9 @@ state_before
 )
 =
 >
+{
 continue
+}
 /
 /
 SB10
@@ -1791,7 +1799,9 @@ state_before
 )
 =
 >
+{
 continue
+}
 /
 /
 SB11
@@ -2782,6 +2792,7 @@ else
 {
 return
 None
+;
 }
 }
 if

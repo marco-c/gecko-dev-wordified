@@ -5603,7 +5603,7 @@ The
 intention
 is
 to
-eventualy
+eventually
 integrate
 with
 Rust

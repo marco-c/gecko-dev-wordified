@@ -14,9 +14,7 @@ core
 fmt
 :
 :
-{
 Debug
-}
 ;
 use
 core
@@ -25,9 +23,7 @@ core
 hash
 :
 :
-{
 Hash
-}
 ;
 use
 core
@@ -1516,6 +1512,7 @@ ok
 }
 }
 }
+;
 }
 prim
 !

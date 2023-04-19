@@ -6,15 +6,6 @@ use
 flate2
 :
 :
-bufread
-:
-:
-GzDecoder
-;
-use
-flate2
-:
-:
 write
 :
 :
@@ -24,7 +15,10 @@ use
 flate2
 :
 :
+{
+bufread
 Compression
+}
 ;
 use
 std
@@ -178,6 +172,9 @@ let
 mut
 gz
 =
+bufread
+:
+:
 GzDecoder
 :
 :

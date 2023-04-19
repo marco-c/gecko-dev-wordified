@@ -256,8 +256,6 @@ no_core
 [
 cfg_attr
 (
-any
-(
 feature
 =
 "
@@ -269,15 +267,8 @@ of
 -
 std
 "
-target_os
-=
-"
-redox
-"
-)
 feature
 (
-static_nobundle
 native_link_modifiers
 native_link_modifiers_bundle
 )

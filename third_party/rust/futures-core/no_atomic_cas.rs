@@ -20,7 +20,7 @@ manual
 editing
 .
 const
-NO_ATOMIC_CAS_TARGETS
+NO_ATOMIC_CAS
 :
 &
 [
