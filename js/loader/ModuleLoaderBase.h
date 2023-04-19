@@ -1967,6 +1967,17 @@ aURL
 )
 const
 ;
+nsresult
+GetFetchedModuleURLs
+(
+nsTArray
+<
+nsCString
+>
+&
+aURLs
+)
+;
 /
 /
 Internal
