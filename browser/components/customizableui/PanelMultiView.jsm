@@ -13289,6 +13289,16 @@ context
 "
 )
 ;
+if
+(
+!
+context
+)
+{
+return
+false
+;
+}
 let
 popup
 =
