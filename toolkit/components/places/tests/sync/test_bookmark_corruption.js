@@ -12501,7 +12501,11 @@ apply
 )
 /
 Item
+<
+guid
+:
 folderBBBBBB
+>
 can
 '
 t
@@ -12815,7 +12819,11 @@ apply
 )
 /
 Item
+<
+guid
+:
 folderAAAAAA
+>
 can
 '
 t
