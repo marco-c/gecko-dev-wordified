@@ -273,6 +273,13 @@ PWebGPU
 .
 ipdl
 "
+"
+ipc
+/
+PWebGPUTypes
+.
+ipdlh
+"
 ]
 EXPORTS
 .
