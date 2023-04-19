@@ -2423,6 +2423,8 @@ getStore
 (
 )
 }
+toolbox
+?
 createElement
 (
 ToolboxProvider
@@ -2435,6 +2437,8 @@ store
 }
 consoleOutput
 )
+:
+consoleOutput
 )
 singleUseElement
 (
