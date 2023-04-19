@@ -1939,7 +1939,7 @@ aGivenProto
 )
 ;
 }
-double
+float
 InlineSize
 (
 )
@@ -1953,7 +1953,7 @@ ISize
 )
 ;
 }
-double
+float
 BlockSize
 (
 )
