@@ -5914,6 +5914,12 @@ tunables
 GCSchedulingState
 schedulingState
 ;
+MainThreadData
+<
+bool
+>
+fullGCRequested
+;
 /
 /
 Helper
