@@ -183,7 +183,7 @@ iframe
 .
 contentWindow
 .
-isAnonymouslyFramed
+anonymouslyFramed
 )
 ;
 assert_equals
@@ -334,7 +334,7 @@ iframe
 .
 contentWindow
 .
-isAnonymouslyFramed
+anonymouslyFramed
 )
 ;
 assert_equals
@@ -485,7 +485,7 @@ iframe
 .
 contentWindow
 .
-isAnonymouslyFramed
+anonymouslyFramed
 )
 ;
 assert_true
