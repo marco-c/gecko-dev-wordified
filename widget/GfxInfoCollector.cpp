@@ -191,6 +191,7 @@ const
 char
 *
 name
+const
 nsAString
 &
 value

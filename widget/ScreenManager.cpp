@@ -944,6 +944,7 @@ LayoutDeviceIntRect
 )
 0
 0
+0
 DesktopToLayoutDeviceScale
 (
 )
@@ -956,6 +957,13 @@ CSSToLayoutDeviceScale
 dpi
 *
 /
+Screen
+:
+:
+IsPseudoDisplay
+:
+:
+No
 hal
 :
 :
@@ -1525,6 +1533,7 @@ LayoutDeviceIntRect
 )
 0
 0
+0
 DesktopToLayoutDeviceScale
 (
 )
@@ -1537,6 +1546,13 @@ CSSToLayoutDeviceScale
 dpi
 *
 /
+Screen
+:
+:
+IsPseudoDisplay
+:
+:
+No
 hal
 :
 :
