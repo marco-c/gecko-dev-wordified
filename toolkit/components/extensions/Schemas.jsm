@@ -8096,9 +8096,6 @@ preprocess
 postprocess
 "
 "
-privileged
-"
-"
 allowedContexts
 "
 "
@@ -21511,9 +21508,6 @@ PermissionNoPrompt
 "
 "
 OptionalPermissionNoPrompt
-"
-"
-PermissionPrivileged
 "
 ]
 )
