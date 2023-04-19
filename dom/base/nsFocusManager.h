@@ -1364,6 +1364,7 @@ level
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 RaiseWindow
 (
@@ -1396,6 +1397,7 @@ raised
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 WindowRaised
 (
@@ -1420,7 +1422,7 @@ lowered
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 WindowLowered
 (
