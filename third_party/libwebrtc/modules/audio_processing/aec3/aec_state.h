@@ -1442,7 +1442,7 @@ private
 :
 const
 int
-delay_headroom_samples_
+delay_headroom_blocks_
 ;
 bool
 external_delay_reported_
@@ -1460,8 +1460,6 @@ filter_delays_blocks_
 ;
 int
 min_filter_delay_
-=
-0
 ;
 absl
 :
