@@ -10329,7 +10329,7 @@ or
 very
 end
 of
-aBlcok
+aBlockElement
 this
 won
 '
@@ -30963,6 +30963,13 @@ SplitNodeTransaction
 /
 DoJoinNodes
 DoSplitNode
+friend
+class
+SplitRangeOffFromNodeResult
+;
+/
+/
+CollapseSelectionTo
 friend
 class
 TransactionManager
