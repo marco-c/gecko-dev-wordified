@@ -14200,7 +14200,7 @@ rp
 )
 ;
 RegI32
-emitGcArrayGetLength
+emitGcArrayGetNumElements
 (
 RegPtr
 rdata

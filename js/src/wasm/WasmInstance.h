@@ -3288,7 +3288,7 @@ Instance
 *
 instance
 uint32_t
-length
+numElements
 void
 *
 arrayDescr
