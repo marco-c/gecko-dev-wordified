@@ -506,6 +506,7 @@ int64_t
 GetFileId
 (
 )
+const
 =
 0
 ;
