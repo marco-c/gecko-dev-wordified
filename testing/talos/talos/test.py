@@ -772,6 +772,14 @@ cleanup
 "
         
 "
+pine
+"
+        
+"
+skip_reason
+"
+        
+"
 webextensions
 "
         
@@ -1194,6 +1202,10 @@ flex
 :
 True
 }
+    
+pine
+=
+False
 register_test
 (
 )
@@ -1305,6 +1317,10 @@ enabled
 False
     
 }
+    
+pine
+=
+False
 register_test
 (
 )
@@ -1400,6 +1416,10 @@ enabled
 True
     
 }
+    
+pine
+=
+False
 register_test
 (
 )
@@ -1489,6 +1509,10 @@ enabled
 False
     
 }
+    
+pine
+=
+False
 register_test
 (
 )
@@ -1673,6 +1697,10 @@ unit
 "
 ms
 "
+    
+pine
+=
+False
 register_test
 (
 )
@@ -2147,6 +2175,14 @@ setup
         
 "
 cleanup
+"
+        
+"
+pine
+"
+        
+"
+skip_reason
 "
         
 "
@@ -3671,6 +3707,10 @@ unit
 "
 ms
 "
+    
+pine
+=
+False
 register_test
 (
 )
@@ -3702,6 +3742,10 @@ flex
 :
 True
 }
+    
+pine
+=
+False
 register_test
 (
 )
@@ -6377,6 +6421,10 @@ unit
 "
 ms
 "
+    
+pine
+=
+False
 register_test
 (
 )
@@ -7628,3 +7676,7 @@ True
 fnbpaint
 =
 True
+    
+pine
+=
+False
