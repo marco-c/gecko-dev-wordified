@@ -576,11 +576,6 @@ GetAudioDataListener
 )
 const
 ;
-/
-/
-Any
-thread
-:
 bool
 ConnectToNativeDevice
 (
@@ -593,6 +588,11 @@ ConnectToNonNativeDevice
 )
 const
 ;
+/
+/
+Any
+thread
+:
 DeviceInputConsumerTrack
 *
 AsDeviceInputConsumerTrack
