@@ -235,15 +235,6 @@ include
 "
 js
 /
-CharacterEncoding
-.
-h
-"
-#
-include
-"
-js
-/
 PropertySpec
 .
 h

@@ -153,15 +153,6 @@ include
 "
 js
 /
-CharacterEncoding
-.
-h
-"
-#
-include
-"
-js
-/
 GCAPI
 .
 h
