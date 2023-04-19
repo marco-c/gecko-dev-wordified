@@ -3503,7 +3503,7 @@ useFixed
 ins
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -3540,7 +3540,7 @@ useFixed
 ins
 -
 >
-tls
+instance
 (
 )
 InstanceReg

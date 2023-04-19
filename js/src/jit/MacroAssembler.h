@@ -6497,7 +6497,7 @@ Maybe
 <
 int32_t
 >
-tlsOffset
+instanceOffset
 MoveOp
 :
 :
@@ -24919,7 +24919,7 @@ that
 /
 a
 null
-Tls
+instance
 will
 cause
 a
@@ -26345,13 +26345,13 @@ the
 callee
 '
 s
-TLS
+instance
 and
 pinned
 regs
+/
+/
 but
-/
-/
 it
 is
 the
@@ -26363,9 +26363,11 @@ to
 save
 /
 restore
-TLS
+instance
 or
 pinned
+/
+/
 regs
 .
 CodeOffset
@@ -26638,7 +26640,7 @@ argument
 .
 It
 preserves
-TLS
+instance
 and
 pinned
 registers
@@ -26646,7 +26648,7 @@ registers
 /
 /
 (
-TLS
+instance
 &
 pinned
 regs

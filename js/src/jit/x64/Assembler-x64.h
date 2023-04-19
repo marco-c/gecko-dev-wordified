@@ -1628,7 +1628,7 @@ r10
 ;
 /
 /
-TLS
+Instance
 pointer
 argument
 register
@@ -1639,9 +1639,9 @@ functions
 This
 must
 not
+/
+/
 alias
-/
-/
 any
 other
 register
@@ -1652,10 +1652,10 @@ function
 arguments
 or
 return
+/
+/
 values
 .
-/
-/
 Preserved
 by
 WebAssembly

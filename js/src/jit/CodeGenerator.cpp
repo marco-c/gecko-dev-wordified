@@ -57088,7 +57088,7 @@ preserve
 the
 /
 /
-TLS
+instance
 and
 pinned
 regs
@@ -57104,11 +57104,11 @@ don
 t
 have
 to
+/
+/
 reload
-/
-/
 the
-TLS
+instance
 and
 pinned
 regs
@@ -58901,14 +58901,14 @@ ins
 )
 {
 Register
-tls
+instance
 =
 ToRegister
 (
 ins
 -
 >
-tls
+instance
 (
 )
 )
@@ -58961,7 +58961,7 @@ wasm
 EmitWasmPreBarrierGuard
 (
 masm
-tls
+instance
 temp
 valueAddr
 &
@@ -58974,7 +58974,7 @@ wasm
 EmitWasmPreBarrierCall
 (
 masm
-tls
+instance
 temp
 valueAddr
 )
@@ -62152,7 +62152,7 @@ InstanceReg
 )
 ;
 int32_t
-framePushedAfterTls
+framePushedAfterInstance
 =
 masm
 .
@@ -62231,7 +62231,7 @@ DOUBLE
 )
 ;
 int32_t
-tlsOffset
+instanceOffset
 =
 masm
 .
@@ -62239,7 +62239,7 @@ framePushed
 (
 )
 -
-framePushedAfterTls
+framePushedAfterInstance
 ;
 masm
 .
@@ -62268,7 +62268,7 @@ mozilla
 :
 Some
 (
-tlsOffset
+instanceOffset
 )
 MoveOp
 :
@@ -113115,7 +113115,7 @@ ToRegister
 lir
 -
 >
-tlsPtr
+instance
 (
 )
 )
@@ -113784,9 +113784,9 @@ void
 CodeGenerator
 :
 :
-visitWasmLoadTls
+visitWasmLoadInstance
 (
-LWasmLoadTls
+LWasmLoadInstance
 *
 ins
 )
@@ -113829,7 +113829,7 @@ ToRegister
 ins
 -
 >
-tlsPtr
+instance
 (
 )
 )
@@ -113875,7 +113875,7 @@ ToRegister
 ins
 -
 >
-tlsPtr
+instance
 (
 )
 )
@@ -113913,7 +113913,7 @@ MIRType
 not
 supported
 in
-WasmLoadTls
+WasmLoadInstance
 "
 )
 ;
@@ -113923,9 +113923,9 @@ void
 CodeGenerator
 :
 :
-visitWasmLoadTls64
+visitWasmLoadInstance64
 (
-LWasmLoadTls64
+LWasmLoadInstance64
 *
 ins
 )
@@ -113962,7 +113962,7 @@ ToRegister
 ins
 -
 >
-tlsPtr
+instance
 (
 )
 )

@@ -2164,7 +2164,7 @@ useFixedAtStart
 ins
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -2201,7 +2201,7 @@ useFixedAtStart
 ins
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -3552,7 +3552,7 @@ useFixedAtStart
 div
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -3603,7 +3603,7 @@ useFixedAtStart
 div
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -3696,7 +3696,7 @@ useFixedAtStart
 mod
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -3747,7 +3747,7 @@ useFixedAtStart
 mod
 -
 >
-tls
+instance
 (
 )
 InstanceReg
@@ -8413,12 +8413,12 @@ input
 ;
 MDefinition
 *
-tls
+instance
 =
 ins
 -
 >
-tls
+instance
 (
 )
 ;
@@ -8468,7 +8468,7 @@ opd
 )
 useFixedAtStart
 (
-tls
+instance
 InstanceReg
 )
 )
@@ -8566,7 +8566,7 @@ useFixedAtStart
 ins
 -
 >
-tls
+instance
 (
 )
 InstanceReg

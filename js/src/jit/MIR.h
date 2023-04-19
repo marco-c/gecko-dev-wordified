@@ -2457,7 +2457,7 @@ bounds
 check
 limit
 in
-Tls
+Instance
 .
 ArrayBufferViewLengthOrOffset
 =
@@ -2521,7 +2521,8 @@ and
 length
 field
 in
-Tls
+instance
+data
 .
 WasmStackResult
 =
@@ -2679,7 +2680,7 @@ slot
 on
 the
 wasm
-tls
+instance
 object
 .
 WasmPendingException
@@ -21027,7 +21028,7 @@ MWasmTruncateToInt64
 but
 with
 the
-TLS
+Instance
 dependency
 .
 /
@@ -21083,7 +21084,7 @@ MDefinition
 def
 MDefinition
 *
-tls
+instance
 TruncFlags
 flags
 wasm
@@ -21115,7 +21116,7 @@ def
 initOperand
 (
 1
-tls
+instance
 )
 ;
 setResultType
@@ -21160,7 +21161,7 @@ input
 )
 (
 1
-tls
+instance
 )
 )
 ;
@@ -22467,7 +22468,7 @@ MDefinition
 def
 MDefinition
 *
-tls
+instance
 MIRType
 type
 wasm
@@ -22509,7 +22510,7 @@ def
 initOperand
 (
 1
-tls
+instance
 )
 ;
 setResultType
@@ -22536,7 +22537,7 @@ input
 )
 (
 1
-tls
+instance
 )
 )
 ;
@@ -23622,7 +23623,7 @@ like
 MTruncateToInt32
 but
 with
-tls
+instance
 dependency
 .
 class
@@ -23652,7 +23653,7 @@ MDefinition
 def
 MDefinition
 *
-tls
+instance
 wasm
 :
 :
@@ -23685,7 +23686,7 @@ def
 initOperand
 (
 1
-tls
+instance
 )
 ;
 setResultType
@@ -23749,7 +23750,7 @@ input
 )
 (
 1
-tls
+instance
 )
 )
 TRIVIAL_NEW_WRAPPERS
@@ -31507,7 +31508,7 @@ MDefinition
 right
 MDefinition
 *
-tls
+instance
 )
 :
 MAryInstruction
@@ -31554,7 +31555,7 @@ right
 initOperand
 (
 2
-tls
+instance
 )
 ;
 setResultType
@@ -31588,7 +31589,7 @@ rhs
 )
 (
 2
-tls
+instance
 )
 )
 static
@@ -31607,7 +31608,7 @@ MDefinition
 right
 MDefinition
 *
-tls
+instance
 bool
 unsignd
 bool
@@ -31640,7 +31641,7 @@ MWasmBuiltinDivI64
 (
 left
 right
-tls
+instance
 )
 ;
 wasm64Div
@@ -32515,7 +32516,7 @@ MDefinition
 right
 MDefinition
 *
-tls
+instance
 MIRType
 type
 )
@@ -32540,7 +32541,7 @@ right
 initOperand
 (
 2
-tls
+instance
 )
 ;
 setResultType
@@ -32571,7 +32572,7 @@ rhs
 )
 (
 2
-tls
+instance
 )
 )
 static
@@ -32590,7 +32591,7 @@ MDefinition
 right
 MDefinition
 *
-tls
+instance
 MIRType
 type
 wasm
@@ -32619,7 +32620,7 @@ MWasmBuiltinModD
 (
 left
 right
-tls
+instance
 type
 )
 ;
@@ -32714,7 +32715,7 @@ MDefinition
 right
 MDefinition
 *
-tls
+instance
 )
 :
 MAryInstruction
@@ -32753,7 +32754,7 @@ right
 initOperand
 (
 2
-tls
+instance
 )
 ;
 setResultType
@@ -32787,7 +32788,7 @@ rhs
 )
 (
 2
-tls
+instance
 )
 )
 static
@@ -32806,7 +32807,7 @@ MDefinition
 right
 MDefinition
 *
-tls
+instance
 bool
 unsignd
 bool
@@ -32839,7 +32840,7 @@ MWasmBuiltinModI64
 (
 left
 right
-tls
+instance
 )
 ;
 mod
@@ -36888,7 +36889,7 @@ MWasmInterruptCheck
 (
 MDefinition
 *
-tlsPointer
+instance
 wasm
 :
 :
@@ -36899,7 +36900,7 @@ bytecodeOffset
 MUnaryInstruction
 (
 classOpcode
-tlsPointer
+instance
 )
 bytecodeOffset_
 (
@@ -36922,7 +36923,7 @@ NAMED_OPERANDS
 (
 (
 0
-tlsPtr
+instance
 )
 )
 AliasSet
@@ -53876,7 +53877,7 @@ MWasmBinaryBitwise
 }
 ;
 class
-MWasmLoadTls
+MWasmLoadInstance
 :
 public
 MUnaryInstruction
@@ -53893,11 +53894,11 @@ AliasSet
 aliases_
 ;
 explicit
-MWasmLoadTls
+MWasmLoadInstance
 (
 MDefinition
 *
-tlsPointer
+instance
 uint32_t
 offset
 MIRType
@@ -53909,7 +53910,7 @@ aliases
 MUnaryInstruction
 (
 classOpcode
-tlsPointer
+instance
 )
 offset_
 (
@@ -53923,7 +53924,7 @@ aliases
 /
 /
 Different
-Tls
+instance
 data
 have
 different
@@ -53932,9 +53933,9 @@ classes
 and
 only
 those
+/
+/
 classes
-/
-/
 are
 allowed
 .
@@ -54090,14 +54091,14 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmLoadTls
+WasmLoadInstance
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
 (
 (
 0
-tlsPtr
+instance
 )
 )
 uint32_t
@@ -54143,7 +54144,7 @@ offset
 ins
 -
 >
-toWasmLoadTls
+toWasmLoadInstance
 (
 )
 -
@@ -54202,7 +54203,7 @@ aliases_
 }
 ;
 class
-MWasmStoreTls
+MWasmStoreInstance
 :
 public
 MBinaryInstruction
@@ -54219,11 +54220,11 @@ AliasSet
 aliases_
 ;
 explicit
-MWasmStoreTls
+MWasmStoreInstance
 (
 MDefinition
 *
-tlsPointer
+instance
 MDefinition
 *
 value
@@ -54238,7 +54239,7 @@ aliases
 MBinaryInstruction
 (
 classOpcode
-tlsPointer
+instance
 value
 )
 offset_
@@ -54253,7 +54254,7 @@ aliases
 /
 /
 Different
-Tls
+instance
 data
 have
 different
@@ -54262,9 +54263,9 @@ classes
 and
 only
 those
+/
+/
 classes
-/
-/
 are
 allowed
 .
@@ -54346,14 +54347,14 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmStoreTls
+WasmStoreInstance
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
 (
 (
 0
-tlsPtr
+instance
 )
 (
 1
@@ -54402,7 +54403,7 @@ MWasmHeapBase
 (
 MDefinition
 *
-tlsPointer
+instance
 AliasSet
 aliases
 )
@@ -54410,7 +54411,7 @@ aliases
 MUnaryInstruction
 (
 classOpcode
-tlsPointer
+instance
 )
 aliases_
 (
@@ -54441,7 +54442,7 @@ NAMED_OPERANDS
 (
 (
 0
-tlsPtr
+instance
 )
 )
 bool
@@ -56292,7 +56293,7 @@ newValue
 )
 (
 3
-tls
+instance
 )
 (
 4
@@ -56333,7 +56334,7 @@ MDefinition
 newv
 MDefinition
 *
-tls
+instance
 )
 {
 MWasmCompareExchangeHeap
@@ -56404,7 +56405,7 @@ cas
 initOperand
 (
 3
-tls
+instance
 )
 ;
 if
@@ -56568,7 +56569,7 @@ value
 )
 (
 2
-tls
+instance
 )
 (
 3
@@ -56606,7 +56607,7 @@ MDefinition
 value
 MDefinition
 *
-tls
+instance
 )
 {
 MWasmAtomicExchangeHeap
@@ -56668,7 +56669,7 @@ xchg
 initOperand
 (
 2
-tls
+instance
 )
 ;
 if
@@ -56841,7 +56842,7 @@ value
 )
 (
 2
-tls
+instance
 )
 (
 3
@@ -56881,7 +56882,7 @@ MDefinition
 v
 MDefinition
 *
-tls
+instance
 )
 {
 MWasmAtomicBinopHeap
@@ -56944,7 +56945,7 @@ binop
 initOperand
 (
 2
-tls
+instance
 )
 ;
 if
@@ -57047,13 +57048,13 @@ bool
 isConstant
 MDefinition
 *
-tlsPtr
+instance
 )
 :
 MUnaryInstruction
 (
 classOpcode
-tlsPtr
+instance
 )
 globalDataOffset_
 (
@@ -57126,7 +57127,7 @@ NAMED_OPERANDS
 (
 (
 0
-tlsPtr
+instance
 )
 )
 unsigned
@@ -57426,14 +57427,14 @@ MDefinition
 value
 MDefinition
 *
-tlsPtr
+instance
 )
 :
 MBinaryInstruction
 (
 classOpcode
 value
-tlsPtr
+instance
 )
 globalDataOffset_
 (
@@ -57459,7 +57460,7 @@ value
 )
 (
 1
-tlsPtr
+instance
 )
 )
 unsigned
@@ -58060,7 +58061,7 @@ MWasmStoreRef
 (
 MDefinition
 *
-tls
+instance
 MDefinition
 *
 valueAddr
@@ -58121,7 +58122,7 @@ RefOrNull
 initOperand
 (
 0
-tls
+instance
 )
 ;
 initOperand
@@ -58148,7 +58149,7 @@ NAMED_OPERANDS
 (
 (
 0
-tls
+instance
 )
 (
 1
@@ -58251,7 +58252,7 @@ MDefinition
 ins
 MDefinition
 *
-tls
+instance
 )
 :
 MAryControlInstruction
@@ -58268,7 +58269,7 @@ ins
 initOperand
 (
 1
-tls
+instance
 )
 ;
 }
@@ -58301,7 +58302,7 @@ MWasmReturnVoid
 (
 MDefinition
 *
-tls
+instance
 )
 :
 MAryControlInstruction
@@ -58312,7 +58313,7 @@ classOpcode
 initOperand
 (
 0
-tls
+instance
 )
 ;
 }
@@ -63501,7 +63502,7 @@ MWasmStoreObjectDataRefField
 (
 MDefinition
 *
-tls
+instance
 MDefinition
 *
 obj
@@ -63556,7 +63557,7 @@ RefOrNull
 initOperand
 (
 0
-tls
+instance
 )
 ;
 initOperand
@@ -63589,7 +63590,7 @@ NAMED_OPERANDS
 (
 (
 0
-tls
+instance
 )
 (
 1
