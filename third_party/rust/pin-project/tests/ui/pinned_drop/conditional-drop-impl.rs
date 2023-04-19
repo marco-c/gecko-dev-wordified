@@ -1,13 +1,4 @@
 use
-std
-:
-:
-pin
-:
-:
-Pin
-;
-use
 pin_project
 :
 :
@@ -15,6 +6,15 @@ pin_project
 pin_project
 pinned_drop
 }
+;
+use
+std
+:
+:
+pin
+:
+:
+Pin
 ;
 /
 /
@@ -38,7 +38,7 @@ DropImpl
 T
 >
 {
-f
+field
 :
 T
 }
@@ -93,7 +93,7 @@ T
 [
 pin
 ]
-f
+field
 :
 T
 }

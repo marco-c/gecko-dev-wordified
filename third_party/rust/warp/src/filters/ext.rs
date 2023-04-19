@@ -13,7 +13,7 @@ convert
 Infallible
 ;
 use
-futures_util
+futures
 :
 :
 future

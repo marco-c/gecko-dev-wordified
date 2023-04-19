@@ -124,6 +124,10 @@ u32
 /
 /
 /
+#
+[
+macro_escape
+]
 macro_rules
 !
 unpack_octets_4

@@ -256,10 +256,6 @@ impl
 Fn
 (
 Info
-<
-'
-_
->
 )
 +
 Copy
@@ -273,10 +269,6 @@ move
 info
 :
 Info
-<
-'
-_
->
 |
 {
 /
@@ -586,10 +578,6 @@ F
 Fn
 (
 Info
-<
-'
-_
->
 )
 {
 Log
@@ -703,10 +691,6 @@ FN
 Fn
 (
 Info
-<
-'
-_
->
 )
 +
 Clone
@@ -1240,10 +1224,6 @@ fmt
 :
 :
 Formatter
-<
-'
-_
->
 )
 -
 >
@@ -1332,7 +1312,7 @@ time
 Instant
 ;
 use
-futures_util
+futures
 :
 :
 {
@@ -1495,10 +1475,6 @@ FN
 Fn
 (
 Info
-<
-'
-_
->
 )
 +
 Clone
@@ -1666,10 +1642,6 @@ FN
 Fn
 (
 Info
-<
-'
-_
->
 )
 F
 :
@@ -1718,10 +1690,6 @@ cx
 &
 mut
 Context
-<
-'
-_
->
 )
 -
 >
