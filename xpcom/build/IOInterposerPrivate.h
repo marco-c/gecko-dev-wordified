@@ -265,7 +265,7 @@ positives
 *
 /
 class
-MOZ_CAPABILITY
+CAPABILITY
 Monitor
 {
 public
@@ -317,7 +317,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -331,7 +331,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -349,7 +349,7 @@ aTimeout
 =
 PR_INTERVAL_NO_TIMEOUT
 )
-MOZ_REQUIRES
+REQUIRES
 (
 this
 )
@@ -393,7 +393,7 @@ mCondVar
 }
 ;
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 MonitorAutoLock
 {
 public
@@ -405,7 +405,7 @@ Monitor
 &
 aMonitor
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aMonitor
 )
@@ -426,7 +426,7 @@ Lock
 MonitorAutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -446,7 +446,7 @@ mMonitor
 }
 ;
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 MonitorAutoUnlock
 {
 public
@@ -458,7 +458,7 @@ Monitor
 &
 aMonitor
 )
-MOZ_SCOPED_UNLOCK_RELEASE
+SCOPED_UNLOCK_RELEASE
 (
 aMonitor
 )
@@ -479,7 +479,7 @@ Unlock
 MonitorAutoUnlock
 (
 )
-MOZ_SCOPED_UNLOCK_REACQUIRE
+SCOPED_UNLOCK_REACQUIRE
 (
 )
 {
@@ -499,7 +499,7 @@ mMonitor
 }
 ;
 class
-MOZ_CAPABILITY
+CAPABILITY
 Mutex
 {
 public
@@ -535,7 +535,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -549,7 +549,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -568,7 +568,7 @@ mPRLock
 }
 ;
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 AutoLock
 {
 public
@@ -580,7 +580,7 @@ Mutex
 &
 aLock
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aLock
 )
@@ -601,7 +601,7 @@ Lock
 AutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {

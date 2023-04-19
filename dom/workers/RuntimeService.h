@@ -370,7 +370,7 @@ nsCStringHashKey
 WorkerDomainInfo
 >
 mDomainMap
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -828,7 +828,7 @@ WorkerPrivate
 &
 aWorkers
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )

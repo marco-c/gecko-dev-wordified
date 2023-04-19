@@ -1371,7 +1371,7 @@ FontFaceSet
 *
 MOZ_NON_OWNING_REF
 mOwner
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1493,7 +1493,7 @@ RefPtr
 gfxFontSrcPrincipal
 >
 mStandardFontLoadPrincipal
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1547,7 +1547,7 @@ nsFontFaceLoader
 >
 >
 mLoaders
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1575,7 +1575,7 @@ nsTArray
 FontFaceRecord
 >
 mNonRuleFaces
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1600,7 +1600,7 @@ dom
 :
 FontFaceSetLoadStatus
 mStatus
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1696,7 +1696,7 @@ gfxFontFaceSrc
 bool
 >
 mAllowedFontLoads
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1715,7 +1715,7 @@ ran
 .
 bool
 mNonRuleFacesDirty
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1760,7 +1760,7 @@ instead
 .
 bool
 mHasLoadingFontFaces
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1779,7 +1779,7 @@ false
 .
 bool
 mHasLoadingFontFacesIsDirty
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1802,7 +1802,7 @@ OnFontFaceStatusChanged
 .
 bool
 mDelayedLoadCheck
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

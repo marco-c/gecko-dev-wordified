@@ -418,7 +418,7 @@ needs
 the
 monitor
 .
-MOZ_PT_GUARDED_BY
+PT_GUARDED_BY
 (
 )
 can

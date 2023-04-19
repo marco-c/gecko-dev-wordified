@@ -865,7 +865,7 @@ mMutex
 mutable
 CondVar
 mIdleCondVar
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -909,7 +909,7 @@ EventQueueSized
 64
 >
 mEventQueue
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1003,7 +1003,7 @@ nsCOMPtr
 nsIRunnable
 >
 mExecutor
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1041,7 +1041,7 @@ mMutex
 .
 bool
 mIsPaused
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1303,7 +1303,7 @@ MutexAutoLock
 &
 lock
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -2209,7 +2209,7 @@ MutexAutoLock
 aProofOfLock
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )

@@ -3574,7 +3574,7 @@ Chunk
 &
 aChunk
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -3601,7 +3601,7 @@ nsresult
 Compact
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -3620,7 +3620,7 @@ FibonacciCapacityWithMinimum
 size_t
 aMinCapacity
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -3795,7 +3795,7 @@ IResumable
 *
 aConsumer
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -3804,7 +3804,7 @@ void
 ResumeWaitingConsumers
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -4013,7 +4013,7 @@ HandleError
 nsresult
 aError
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -4022,7 +4022,7 @@ bool
 IsEmpty
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -4033,7 +4033,7 @@ IsLastChunk
 uint32_t
 aChunk
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -4235,7 +4235,7 @@ Chunk
 1
 >
 mChunks
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -4264,7 +4264,7 @@ IResumable
 >
 >
 mWaitingConsumers
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -4289,7 +4289,7 @@ Maybe
 nsresult
 >
 mStatus
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -4304,7 +4304,7 @@ consumers
 .
 uint32_t
 mConsumerCount
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -4321,7 +4321,7 @@ performed
 .
 bool
 mCompacted
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

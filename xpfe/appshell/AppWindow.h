@@ -2035,7 +2035,7 @@ nsCOMPtr
 nsITimer
 >
 mSPTimer
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mSPTimerLock
 )

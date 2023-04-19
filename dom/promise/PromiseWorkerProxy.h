@@ -1157,7 +1157,7 @@ GetWorkerPrivate
 (
 )
 const
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 ;
 /
 /
@@ -1257,7 +1257,7 @@ Mutex
 Lock
 (
 )
-MOZ_RETURN_CAPABILITY
+RETURN_CAPABILITY
 (
 mCleanUpLock
 )
@@ -1271,7 +1271,7 @@ CleanedUp
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mCleanUpLock
 )
@@ -1531,7 +1531,7 @@ lock
 .
 bool
 mCleanedUp
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mCleanUpLock
 )

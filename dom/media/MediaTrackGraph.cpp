@@ -10884,7 +10884,7 @@ execution
 of
 the
 graph
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+PUSH_IGNORE_THREAD_SAFETY
 MOZ_DIAGNOSTIC_ASSERT
 (
 mLifecycleState
@@ -10893,7 +10893,7 @@ mLifecycleState
 LIFECYCLE_RUNNING
 )
 ;
-MOZ_POP_THREAD_SAFETY
+POP_THREAD_SAFETY
 MOZ_ASSERT
 (
 OnGraphThread
@@ -18498,7 +18498,7 @@ aCurrentTime
 TrackTime
 aDesiredUpToTime
 )
-MOZ_REQUIRES
+REQUIRES
 (
 aTrack
 -

@@ -241,7 +241,7 @@ WinPaths
 PathAllowlist
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 sMutex
 )
@@ -255,7 +255,7 @@ AssertCurrentThreadOwns
 static
 WinPaths
 sPaths
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sMutex
 )

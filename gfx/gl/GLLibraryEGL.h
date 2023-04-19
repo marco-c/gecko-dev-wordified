@@ -555,7 +555,7 @@ StaticRefPtr
 GLLibraryEGL
 >
 sInstance
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sMutex
 )

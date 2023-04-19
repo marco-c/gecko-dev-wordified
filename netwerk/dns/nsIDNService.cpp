@@ -2687,7 +2687,7 @@ typename
 T
 >
 class
-MOZ_CAPABILITY
+CAPABILITY
 MOZ_STACK_CLASS
 MutexSettableAutoUnlock
 final
@@ -2715,7 +2715,7 @@ T
 &
 aMutex
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aMutex
 )
@@ -2761,7 +2761,7 @@ make
 /
 /
 this
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mMutex
 )
@@ -2794,7 +2794,7 @@ this
 MutexSettableAutoUnlock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -2845,7 +2845,7 @@ nsACString
 &
 _retval
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 MutexSettableAutoUnlock
 <

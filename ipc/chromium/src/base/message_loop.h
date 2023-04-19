@@ -3386,7 +3386,7 @@ TimerManager
 .
 TaskQueue
 incoming_queue_
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 incoming_queue_lock_
 )

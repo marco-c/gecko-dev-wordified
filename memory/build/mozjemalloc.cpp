@@ -34230,7 +34230,7 @@ _malloc_prefork
 (
 void
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /
@@ -34291,7 +34291,7 @@ _malloc_postfork_parent
 (
 void
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /

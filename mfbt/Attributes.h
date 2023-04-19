@@ -5925,7 +5925,7 @@ ThreadSafety
 -
 -
 *
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 )
 /
@@ -5957,7 +5957,7 @@ not
 need
 any
 *
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 )
 /
@@ -5974,8 +5974,8 @@ analysis
 knows
 it
 can
-*
 ignore
+*
 this
 Mutex
 /

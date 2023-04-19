@@ -272,7 +272,7 @@ CheckedUnsafePtr
 WorkerPrivate
 >
 mWorkerPrivate
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -280,7 +280,7 @@ mMutex
 const
 Behavior
 mBehavior
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

@@ -332,7 +332,7 @@ namespace
 detail
 {
 class
-MOZ_CAPABILITY
+CAPABILITY
 LiveSet
 final
 {
@@ -363,7 +363,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 mMutex
 )
@@ -379,7 +379,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mMutex
 )
@@ -536,7 +536,7 @@ Unlock
 /
 class
 MOZ_RAII
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 LiveSetAutoLock
 final
 {
@@ -549,7 +549,7 @@ LiveSet
 &
 aLiveSet
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aLiveSet
 )
@@ -571,7 +571,7 @@ Lock
 LiveSetAutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -593,7 +593,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -2734,7 +2734,7 @@ IUnknown
 >
 aTarget
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /
@@ -2923,7 +2923,7 @@ void
 *
 aOutInterceptor
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /
@@ -2989,7 +2989,7 @@ hr
 ;
 }
 ;
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+PUSH_IGNORE_THREAD_SAFETY
 /
 /
 Avoid
@@ -3019,7 +3019,7 @@ Unlock
 ;
 }
 ;
-MOZ_POP_THREAD_SAFETY
+POP_THREAD_SAFETY
 ExecuteWhen
 <
 decltype

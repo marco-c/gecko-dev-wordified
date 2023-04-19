@@ -362,7 +362,7 @@ mLock
 ;
 bool
 mShutdown
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -415,7 +415,7 @@ mLock
 .
 int32_t
 mExitValue
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -428,7 +428,7 @@ PROCESSMODEL_WINAPI
 )
 HANDLE
 mProcess
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -443,7 +443,7 @@ XP_UNIX
 PRProcess
 *
 mProcess
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

@@ -651,7 +651,7 @@ nsCStringHashKey
 SubstitutionEntry
 >
 mSubstitutions
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mSubstitutionsLock
 )

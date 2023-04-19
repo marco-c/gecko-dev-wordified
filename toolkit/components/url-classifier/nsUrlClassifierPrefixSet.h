@@ -373,7 +373,7 @@ void
 Clear
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -388,7 +388,7 @@ aArray
 uint32_t
 aLength
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -404,7 +404,7 @@ uint32_t
 target
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -414,7 +414,7 @@ IsEmptyInternal
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -512,7 +512,7 @@ nsTArray
 uint32_t
 >
 mIndexPrefixes
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -587,7 +587,7 @@ uint16_t
 >
 >
 mIndexDeltas
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -602,7 +602,7 @@ have
 .
 uint32_t
 mTotalPrefixes
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

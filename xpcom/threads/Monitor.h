@@ -214,7 +214,7 @@ MonitorAutoUnlock
 *
 /
 class
-MOZ_CAPABILITY
+CAPABILITY
 Monitor
 {
 public
@@ -256,7 +256,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -276,7 +276,7 @@ bool
 TryLock
 (
 )
-MOZ_TRY_ACQUIRE
+TRY_ACQUIRE
 (
 true
 )
@@ -293,7 +293,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -308,7 +308,7 @@ void
 Wait
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 this
 )
@@ -326,7 +326,7 @@ Wait
 TimeDuration
 aDuration
 )
-MOZ_REQUIRES
+REQUIRES
 (
 this
 )
@@ -369,7 +369,7 @@ AssertCurrentThreadOwns
 (
 )
 const
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 this
 )
@@ -386,7 +386,7 @@ AssertNotCurrentThreadOwns
 (
 )
 const
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 !
 this
@@ -623,7 +623,7 @@ AssertOnWritingThread
 (
 )
 const
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 this
 )
@@ -644,7 +644,7 @@ AssertOnWritingThreadOrHeld
 (
 )
 const
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 this
 )
@@ -794,7 +794,7 @@ typename
 T
 >
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 MOZ_STACK_CLASS
 BaseMonitorAutoLock
 {
@@ -807,7 +807,7 @@ T
 &
 aMonitor
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aMonitor
 )
@@ -830,7 +830,7 @@ Lock
 BaseMonitorAutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -1187,7 +1187,7 @@ T
 aMonitor
 )
 const
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 aMonitor
 )
@@ -1355,7 +1355,7 @@ lock
 monitor
 )
 \
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+PUSH_IGNORE_THREAD_SAFETY
 \
 MonitorSingleWriterAutoLock
 lock
@@ -1364,7 +1364,7 @@ monitor
 )
 ;
 \
-MOZ_POP_THREAD_SAFETY
+POP_THREAD_SAFETY
 /
 *
 *
@@ -1425,7 +1425,7 @@ T
 >
 class
 MOZ_STACK_CLASS
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 BaseMonitorAutoUnlock
 {
 public
@@ -1437,7 +1437,7 @@ T
 &
 aMonitor
 )
-MOZ_SCOPED_UNLOCK_RELEASE
+SCOPED_UNLOCK_RELEASE
 (
 aMonitor
 )
@@ -1460,7 +1460,7 @@ Unlock
 BaseMonitorAutoUnlock
 (
 )
-MOZ_SCOPED_UNLOCK_REACQUIRE
+SCOPED_UNLOCK_REACQUIRE
 (
 )
 {
@@ -1592,7 +1592,7 @@ created
 *
 /
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 MOZ_STACK_CLASS
 ReleasableMonitorAutoLock
 {
@@ -1605,7 +1605,7 @@ Monitor
 &
 aMonitor
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aMonitor
 )
@@ -1632,7 +1632,7 @@ true
 ReleasableMonitorAutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -1817,7 +1817,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -1842,7 +1842,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -1869,7 +1869,7 @@ AssertCurrentThreadOwns
 (
 )
 const
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 )
 {
