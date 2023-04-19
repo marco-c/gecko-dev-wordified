@@ -86427,7 +86427,7 @@ State
 :
 DatabaseOpenPending
 :
-QM_TRY
+QM_WARNONLY_TRY
 (
 MOZ_TO_RESULT
 (
@@ -86435,7 +86435,6 @@ DatabaseOpen
 (
 )
 )
-NS_OK
 handleError
 )
 ;
