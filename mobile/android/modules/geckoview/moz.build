@@ -155,6 +155,11 @@ GeckoViewContentBlocking
 jsm
 "
 "
+GeckoViewMedia
+.
+jsm
+"
+"
 GeckoViewMediaControl
 .
 jsm
@@ -186,11 +191,6 @@ jsm
 "
 "
 GeckoViewRemoteDebugger
-.
-jsm
-"
-"
-GeckoViewSelectionAction
 .
 jsm
 "
