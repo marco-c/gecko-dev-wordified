@@ -2849,7 +2849,11 @@ invoke
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 global
 Closure
 &
@@ -2912,7 +2916,13 @@ cx
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 exn
 )
 override

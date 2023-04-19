@@ -546,7 +546,13 @@ aIndex
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aConstant
 char
 *
