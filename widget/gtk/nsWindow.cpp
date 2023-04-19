@@ -533,6 +533,15 @@ include
 "
 mozilla
 /
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_mozilla
 .
 h

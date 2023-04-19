@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

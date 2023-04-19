@@ -165,15 +165,6 @@ PseudoStyleType
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StaticPrefs_layout
-.
-h
-"
 /
 /
 Is

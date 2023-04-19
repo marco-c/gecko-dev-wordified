@@ -114,6 +114,15 @@ include
 "
 mozilla
 /
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_widget
 .
 h
