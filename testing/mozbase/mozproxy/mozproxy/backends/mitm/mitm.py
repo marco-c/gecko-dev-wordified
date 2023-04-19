@@ -2436,18 +2436,6 @@ set
 "
                             
 "
-upstream_cert
-=
-false
-"
-                            
-"
--
--
-set
-"
-                            
-"
 connection_strategy
 =
 lazy
