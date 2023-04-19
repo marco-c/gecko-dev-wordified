@@ -3382,8 +3382,10 @@ match
 is
 found
 .
+already_AddRefed
+<
 gfxCharacterMap
-*
+>
 FindCharMap
 (
 gfxCharacterMap

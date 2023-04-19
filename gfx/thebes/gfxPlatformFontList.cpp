@@ -12552,8 +12552,10 @@ if
 not
 already
 present
+already_AddRefed
+<
 gfxCharacterMap
-*
+>
 gfxPlatformFontList
 :
 :
@@ -12601,7 +12603,10 @@ mShared
 true
 ;
 return
+do_AddRef
+(
 cmap
+)
 ;
 }
 /
