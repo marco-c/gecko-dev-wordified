@@ -359,7 +359,13 @@ filterdata
 \
 macro
 (
-backdrop
+backdrop_capture
+)
+;
+\
+macro
+(
+backdrop_render
 )
 ;
 \
