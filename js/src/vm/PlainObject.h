@@ -717,8 +717,6 @@ IdValuePair
 properties
 size_t
 nproperties
-NewObjectKind
-newKind
 )
 ;
 }

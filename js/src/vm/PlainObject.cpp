@@ -1400,8 +1400,6 @@ IdValuePair
 properties
 size_t
 nproperties
-NewObjectKind
-newKind
 )
 {
 gc
@@ -1430,7 +1428,6 @@ NewPlainObjectWithAllocKind
 (
 cx
 allocKind
-newKind
 )
 )
 ;
