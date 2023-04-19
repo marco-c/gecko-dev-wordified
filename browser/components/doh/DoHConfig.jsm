@@ -167,11 +167,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Preferences
 :
@@ -316,6 +322,8 @@ changed
 const
 gProvidersCollection
 =
+lazy
+.
 RemoteSettings
 (
 "
@@ -328,6 +336,8 @@ providers
 const
 gConfigCollection
 =
+lazy
+.
 RemoteSettings
 (
 "
@@ -357,6 +367,8 @@ prefName
 let
 regionalPrefValue
 =
+lazy
+.
 Preferences
 .
 get
@@ -378,6 +390,8 @@ regionalPrefValue
 ;
 }
 return
+lazy
+.
 Preferences
 .
 get
@@ -976,6 +990,8 @@ resolve
 let
 homeRegion
 =
+lazy
+.
 Preferences
 .
 get
@@ -1030,6 +1046,8 @@ kGlobalPrefBranch
 }
 .
 {
+lazy
+.
 Region
 .
 home
@@ -1039,6 +1057,8 @@ toLowerCase
 )
 }
 ;
+lazy
+.
 Preferences
 .
 set
@@ -1050,6 +1070,8 @@ kGlobalPrefBranch
 home
 -
 region
+lazy
+.
 Region
 .
 home
@@ -1063,6 +1085,8 @@ resolve
 ;
 if
 (
+lazy
+.
 Region
 .
 home
@@ -1096,6 +1120,8 @@ obs
 removeObserver
 (
 obs
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1106,6 +1132,8 @@ updateRegionAndResolve
 )
 ;
 }
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1473,6 +1501,8 @@ c
 let
 homeRegion
 =
+lazy
+.
 Preferences
 .
 get

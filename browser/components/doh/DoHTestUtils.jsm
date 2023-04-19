@@ -70,11 +70,17 @@ DoHTestUtils
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -99,7 +105,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TestUtils
 "
@@ -328,6 +334,8 @@ waitForConfigFlushes
 let
 providerRS
 =
+lazy
+.
 RemoteSettings
 (
 kProviderCollectionKey
@@ -401,6 +409,8 @@ waitForConfigFlushes
 let
 configRS
 =
+lazy
+.
 RemoteSettings
 (
 kConfigCollectionKey
@@ -543,6 +553,8 @@ true
 let
 providerRS
 =
+lazy
+.
 RemoteSettings
 (
 kProviderCollectionKey
@@ -551,6 +563,8 @@ kProviderCollectionKey
 let
 configRS
 =
+lazy
+.
 RemoteSettings
 (
 kConfigCollectionKey
@@ -660,6 +674,8 @@ waitForConfigUpdate
 )
 {
 return
+lazy
+.
 TestUtils
 .
 topicObserved
@@ -673,6 +689,8 @@ waitForControllerReload
 )
 {
 return
+lazy
+.
 TestUtils
 .
 topicObserved
