@@ -45,6 +45,12 @@ connections
 .
 DevToolsServer
 .
+keepAlive
+=
+true
+;
+DevToolsServer
+.
 init
 (
 )
