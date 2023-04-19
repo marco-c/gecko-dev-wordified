@@ -16369,7 +16369,7 @@ ImmutableScriptData
 :
 new_
 (
-cx
+ec
 mainOffset
 (
 )
@@ -73040,9 +73040,9 @@ static
 bool
 AllocSrcNote
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 SrcNotesVector
 &
 notes
@@ -73076,14 +73076,9 @@ MaxSrcNotesLength
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
-/
-/
-TODO
-bug
-1783935
 return
 false
 ;
@@ -73324,7 +73319,7 @@ if
 !
 AllocSrcNote
 (
-cx
+ec
 notes
 size
 &
@@ -73507,7 +73502,7 @@ if
 !
 AllocSrcNote
 (
-cx
+ec
 notes
 size
 &
