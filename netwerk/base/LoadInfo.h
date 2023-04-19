@@ -1562,6 +1562,8 @@ nsILoadInfo
 :
 CrossOriginEmbedderPolicy
 aLoadingEmbedderPolicy
+bool
+aIsOriginTrialCoepCredentiallessEnabledForTopLevel
 nsIURI
 *
 aUnstrippedURI
@@ -2323,6 +2325,11 @@ nsILoadInfo
 :
 :
 EMBEDDER_POLICY_NULL
+;
+bool
+mIsOriginTrialCoepCredentiallessEnabledForTopLevel
+=
+false
 ;
 nsCOMPtr
 <
