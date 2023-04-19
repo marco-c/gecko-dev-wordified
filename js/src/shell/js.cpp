@@ -35430,6 +35430,12 @@ parser
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 options
 units
 length
@@ -37663,6 +37669,12 @@ parser
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 options
 chars
 length

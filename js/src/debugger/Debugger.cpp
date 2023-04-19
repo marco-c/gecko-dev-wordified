@@ -43406,6 +43406,12 @@ parser
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 options
 chars
 .

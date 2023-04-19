@@ -692,6 +692,9 @@ ErrorContext
 *
 errorContext
 ;
+uintptr_t
+stackLimit
+;
 using
 TokenStreamPosition
 =
@@ -734,6 +737,15 @@ compilationState_
 cx
 parserAllocScope
 input
+)
+stackLimit
+(
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 )
 {
 MOZ_ASSERT
@@ -3676,6 +3688,7 @@ emplace
 (
 cx
 errorContext
+stackLimit
 options
 sourceBuffer_
 .
@@ -3726,6 +3739,7 @@ emplace
 (
 cx
 errorContext
+stackLimit
 options
 sourceBuffer_
 .
@@ -6900,6 +6914,12 @@ parser
 (
 cx
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 input
 .
 options

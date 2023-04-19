@@ -2043,6 +2043,9 @@ ErrorContext
 *
 ec_
 ;
+uintptr_t
+stackLimit_
+;
 #
 if
 DEBUG
@@ -2207,6 +2210,8 @@ cx
 ErrorContext
 *
 ec
+uintptr_t
+stackLimit
 const
 JS
 :
@@ -3194,6 +3199,8 @@ cx
 ErrorContext
 *
 ec
+uintptr_t
+stackLimit
 const
 JS
 :
@@ -3226,6 +3233,8 @@ cx
 ErrorContext
 *
 ec
+uintptr_t
+stackLimit
 const
 JS
 :
@@ -3251,6 +3260,7 @@ PerHandlerParser
 (
 cx
 ec
+stackLimit
 options
 foldConstants
 compilationState
@@ -5890,6 +5900,8 @@ cx
 ErrorContext
 *
 ec
+uintptr_t
+stackLimit
 const
 JS
 :
