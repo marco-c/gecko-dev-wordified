@@ -401,11 +401,6 @@ showClose
 PropTypes
 .
 bool
-size
-:
-PropTypes
-.
-string
 toggleFileSearchModifier
 :
 PropTypes
@@ -1647,11 +1642,6 @@ searchOn
 showClose
 =
 true
-size
-=
-"
-big
-"
 }
 =
 this
@@ -1869,7 +1859,9 @@ closeSearch
 buttonClass
 =
 {
-size
+"
+big
+"
 }
 /
 >
