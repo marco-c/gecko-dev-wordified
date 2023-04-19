@@ -2529,16 +2529,13 @@ use
 this
 function
 .
-async
 function
 tap
 (
 element
 )
 {
-let
-actions
-=
+return
 new
 test_driver
 .
@@ -2549,7 +2546,7 @@ Actions
 addPointer
 (
 "
-tapPointer
+touchPointer
 "
 "
 touch
@@ -2574,9 +2571,6 @@ pointerDown
 pointerUp
 (
 )
-;
-await
-actions
 .
 send
 (
@@ -2651,7 +2645,6 @@ use
 this
 function
 .
-async
 function
 addListenersAndTap
 (
@@ -2665,6 +2658,7 @@ element
 events
 )
 ;
+return
 tap
 (
 element
@@ -2708,6 +2702,7 @@ element
 events
 )
 ;
+return
 pressKey
 (
 element
@@ -2737,7 +2732,6 @@ this
 /
 function
 .
-async
 function
 addListenersAndClick
 (
@@ -2766,7 +2760,7 @@ click
 ]
 )
 ;
-await
+return
 test_driver
 .
 click
