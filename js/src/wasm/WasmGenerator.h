@@ -1111,12 +1111,6 @@ lifo_
 jit
 :
 :
-JitContext
-jcx_
-;
-jit
-:
-:
 TempAllocator
 masmAlloc_
 ;

@@ -22510,17 +22510,6 @@ suppressProfilerSampling
 cx
 )
 ;
-{
-jit
-:
-:
-JitContext
-jctx
-(
-cx
-nullptr
-)
-;
 if
 (
 !
@@ -22538,7 +22527,6 @@ observing
 return
 false
 ;
-}
 }
 AbstractFramePtr
 oldestEnabledFrame
