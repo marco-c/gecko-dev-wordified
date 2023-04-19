@@ -4405,6 +4405,38 @@ args
                 
 )
                 
+extra_env
+=
+(
+                    
+{
+"
+GECKO_PATH
+"
+:
+os
+.
+getcwd
+(
+)
+}
+                    
+if
+"
+GECKO_PATH
+"
+not
+in
+os
+.
+environ
+                    
+else
+{
+}
+                
+)
+                
 self
 .
 run_process
@@ -4429,6 +4461,10 @@ command
 require_unix_environment
 =
 True
+                    
+append_env
+=
+extra_env
                 
 )
             
