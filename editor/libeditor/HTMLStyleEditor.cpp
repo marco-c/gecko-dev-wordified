@@ -1930,7 +1930,7 @@ MOZ_KnownLive
 *
 startOfRange
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 )
@@ -2191,7 +2191,7 @@ MOZ_KnownLive
 *
 startOfRange
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 )
@@ -2387,7 +2387,7 @@ IsEditableContent
 *
 endOfRange
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 EditorType
@@ -2407,7 +2407,7 @@ MOZ_KnownLive
 *
 endOfRange
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 )
@@ -6962,18 +6962,7 @@ NS_WARN_IF
 !
 aPointToSplit
 .
-IsSet
-(
-)
-)
-|
-|
-NS_WARN_IF
-(
-!
-aPointToSplit
-.
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -8751,7 +8740,10 @@ if
 !
 atStartOfNextNode
 .
-GetContainerParentAsContent
+GetContainerParentAs
+<
+nsIContent
+>
 (
 )
 )
@@ -12239,7 +12231,7 @@ if
 !
 newRangeStart
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -12346,7 +12338,7 @@ if
 !
 newRangeEnd
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -12575,7 +12567,7 @@ if
 !
 newRangeStart
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -12699,7 +12691,7 @@ if
 !
 newRangeEnd
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )

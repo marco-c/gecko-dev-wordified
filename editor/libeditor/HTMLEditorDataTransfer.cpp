@@ -4829,7 +4829,7 @@ MOZ_KnownLive
 *
 pointToInsert
 .
-GetContainerAsContent
+ContainerAsContent
 (
 )
 )

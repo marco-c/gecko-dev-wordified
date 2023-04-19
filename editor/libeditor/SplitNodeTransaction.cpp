@@ -349,7 +349,11 @@ mSplitContent
 (
 aStartOfRightContent
 .
-GetContainerAsContent
+template
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 )

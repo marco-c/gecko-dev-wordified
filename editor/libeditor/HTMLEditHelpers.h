@@ -3979,7 +3979,10 @@ node
 return
 mGivenSplitPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;

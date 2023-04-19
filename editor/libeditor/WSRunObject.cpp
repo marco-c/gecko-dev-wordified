@@ -1596,7 +1596,10 @@ if
 (
 afterRightBlockChild
 .
-GetContainerAsElement
+GetContainerAs
+<
+Element
+>
 (
 )
 )
@@ -1606,7 +1609,7 @@ rightBlockElement
 *
 afterRightBlockChild
 .
-GetContainerAsElement
+ContainerAsElement
 (
 )
 ;
@@ -1619,7 +1622,10 @@ NS_WARN_IF
 !
 afterRightBlockChild
 .
-GetContainerParentAsElement
+GetContainerParentAs
+<
+Element
+>
 (
 )
 )
@@ -1639,7 +1645,10 @@ rightBlockElement
 *
 afterRightBlockChild
 .
-GetContainerParentAsElement
+GetContainerParentAs
+<
+Element
+>
 (
 )
 ;
@@ -9562,7 +9571,7 @@ MOZ_KnownLive
 *
 aCaretPoint
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 )
@@ -21491,7 +21500,7 @@ IsWhiteSpacePreformatted
 *
 atPreviousCharOfPreviousCharOfEndOfVisibleWhiteSpaces
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 )
