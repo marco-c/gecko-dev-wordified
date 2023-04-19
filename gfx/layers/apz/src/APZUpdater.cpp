@@ -254,7 +254,7 @@ APZCTreeManager
 &
 aApz
 bool
-aIsUsingWebRender
+aConnectedToWebRender
 )
 :
 mApz
@@ -265,9 +265,9 @@ mDestroyed
 (
 false
 )
-mIsUsingWebRender
+mConnectedToWebRender
 (
-aIsUsingWebRender
+aConnectedToWebRender
 )
 mThreadIdLock
 (
@@ -2341,7 +2341,7 @@ In
 the
 scenario
 where
-UsingWebRenderUpdaterThread
+IsConnectedToWebRender
 (
 )
 is
@@ -2436,7 +2436,7 @@ return
 }
 if
 (
-UsingWebRenderUpdaterThread
+IsConnectedToWebRender
 (
 )
 )
@@ -2822,7 +2822,7 @@ const
 {
 if
 (
-UsingWebRenderUpdaterThread
+IsConnectedToWebRender
 (
 )
 )
@@ -2991,13 +2991,13 @@ bool
 APZUpdater
 :
 :
-UsingWebRenderUpdaterThread
+IsConnectedToWebRender
 (
 )
 const
 {
 return
-mIsUsingWebRender
+mConnectedToWebRender
 ;
 }
 /
