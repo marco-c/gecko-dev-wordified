@@ -553,7 +553,7 @@ ClientMessage
 match
 promote_current_thread_to_real_time
 (
-0
+256
 48000
 )
 {
