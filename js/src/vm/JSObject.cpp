@@ -15066,7 +15066,7 @@ names
 (
 )
 .
-group
+groupBy
 )
 |
 |
@@ -15082,7 +15082,7 @@ names
 (
 )
 .
-groupToMap
+groupByToMap
 )
 )
 )
