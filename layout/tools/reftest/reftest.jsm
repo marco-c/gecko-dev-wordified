@@ -11986,6 +11986,13 @@ pref
 }
 )
 ;
+g
+.
+prefsToRestore
+=
+[
+]
+;
 if
 (
 requiresRefresh
