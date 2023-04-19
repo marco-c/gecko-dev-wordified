@@ -454,7 +454,7 @@ if
 (
 IOUtils
 .
-removeMacXAttr
+delMacXAttr
 )
 {
 /
@@ -501,7 +501,7 @@ try
 await
 IOUtils
 .
-removeMacXAttr
+delMacXAttr
 (
 destPath
 "
