@@ -234,6 +234,12 @@ OnMontereyOrLater
 ;
 static
 bool
+OnVenturaOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
