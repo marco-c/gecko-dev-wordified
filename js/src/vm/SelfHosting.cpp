@@ -14497,6 +14497,9 @@ ModuleObject
 )
 )
 ;
+if
+(
+!
 ModuleObject
 :
 :
@@ -14505,7 +14508,12 @@ topLevelCapabilityResolve
 cx
 module
 )
+)
+{
+return
+false
 ;
+}
 args
 .
 rval
@@ -14585,6 +14593,9 @@ args
 1
 ]
 ;
+if
+(
+!
 ModuleObject
 :
 :
@@ -14594,7 +14605,12 @@ cx
 module
 error
 )
+)
+{
+return
+false
 ;
+}
 args
 .
 rval
