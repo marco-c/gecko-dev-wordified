@@ -919,10 +919,12 @@ aMMVar
 return
 ;
 }
-hb_blob_t
-*
+gfxFontUtils
+:
+:
+AutoHBBlob
 nameTable
-=
+(
 aFontEntry
 -
 >
@@ -942,6 +944,7 @@ m
 '
 e
 '
+)
 )
 )
 ;
@@ -1108,9 +1111,4 @@ inst
 )
 ;
 }
-hb_blob_destroy
-(
-nameTable
-)
-;
 }
