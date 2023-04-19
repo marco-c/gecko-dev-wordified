@@ -290,11 +290,6 @@ if
 (
 !
 symbols
-|
-|
-symbols
-.
-loading
 )
 {
 return

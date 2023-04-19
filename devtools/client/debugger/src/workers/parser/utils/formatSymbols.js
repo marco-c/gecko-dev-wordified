@@ -345,9 +345,6 @@ hasJsx
 "
 hasTypes
 "
-"
-loading
-"
 ]
 ;
 const

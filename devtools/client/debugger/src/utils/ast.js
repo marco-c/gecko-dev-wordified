@@ -68,9 +68,8 @@ tokenPos
 {
 if
 (
+!
 symbols
-.
-loading
 )
 {
 return
@@ -517,11 +516,6 @@ if
 (
 !
 symbols
-|
-|
-symbols
-.
-loading
 )
 {
 return
@@ -550,11 +544,6 @@ if
 (
 !
 symbols
-|
-|
-symbols
-.
-loading
 )
 {
 return
