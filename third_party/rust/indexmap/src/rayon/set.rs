@@ -2190,7 +2190,6 @@ set1
 .
 difference
 (
-&
 self
 .
 set2
@@ -2538,7 +2537,6 @@ set1
 .
 intersection
 (
-&
 self
 .
 set2
@@ -2886,7 +2884,6 @@ set1
 .
 symmetric_difference
 (
-&
 self
 .
 set2
@@ -3229,7 +3226,6 @@ set1
 .
 union
 (
-&
 self
 .
 set2

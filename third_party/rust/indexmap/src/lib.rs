@@ -595,7 +595,7 @@ requires
 Rust
 1
 .
-49
+56
 or
 later
 .
