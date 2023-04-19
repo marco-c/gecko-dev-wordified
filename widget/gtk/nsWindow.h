@@ -4910,6 +4910,11 @@ WaylandPopupHideTooltips
 )
 ;
 void
+WaylandPopupCloseOrphanedPopups
+(
+)
+;
+void
 AppendPopupToHierarchyList
 (
 nsWindow
