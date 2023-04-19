@@ -156,6 +156,17 @@ sequence_checker
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+no_unique_address
+.
+h
+"
 namespace
 webrtc
 {
@@ -1003,6 +1014,7 @@ GetTransmissionMaxBitrateMultiplier
 (
 )
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequenced_checker_
 ;

@@ -244,6 +244,17 @@ include
 "
 rtc_base
 /
+system
+/
+no_unique_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 task_utils
 /
 pending_task_safety_flag
@@ -1301,6 +1312,7 @@ worker_thread_
 ScopedTaskSafety
 task_safety_
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 decode_queue_
 ;
@@ -1310,6 +1322,7 @@ rtc
 ThreadChecker
 main_thread_
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 incoming_render_queue_
 ;
