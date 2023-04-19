@@ -356,30 +356,8 @@ an
 -
 importer
     
-from
-functools
-import
-partial
-    
-from
-importlib
-.
-abc
-import
-MetaPathFinder
-    
-from
-importlib
-.
-util
-import
-find_spec
-    
 class
 _Finder
-(
-MetaPathFinder
-)
 :
         
 "
@@ -650,6 +628,18 @@ append
 (
 lock
 )
+                
+from
+functools
+import
+partial
+                
+from
+importlib
+.
+util
+import
+find_spec
                 
 with
 self

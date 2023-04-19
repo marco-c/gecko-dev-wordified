@@ -51,6 +51,11 @@ import
 from_bundle
 from
 .
+periodic_update
+import
+add_wheel_to_update_log
+from
+.
 util
 import
 Version
@@ -118,13 +123,29 @@ version
 qualify
 it
     
+wheel
+=
+None
+    
+if
+not
+download
+or
+version
+!
+=
+Version
+.
+bundle
+:
+        
 #
 1
 .
 acquire
 from
 bundle
-    
+        
 wheel
 =
 from_bundle
@@ -138,6 +159,21 @@ do_periodic_update
 env
 )
     
+if
+download
+and
+wheel
+is
+None
+and
+version
+!
+=
+Version
+.
+embed
+:
+        
 #
 2
 .
@@ -145,17 +181,6 @@ download
 from
 the
 internet
-    
-if
-version
-not
-in
-Version
-.
-non_version
-and
-download
-:
         
 wheel
 =
@@ -197,6 +222,24 @@ env
 =
 env
         
+)
+        
+if
+wheel
+is
+not
+None
+and
+app_data
+.
+can_update
+:
+            
+add_wheel_to_update_log
+(
+wheel
+for_py_version
+app_data
 )
     
 return
