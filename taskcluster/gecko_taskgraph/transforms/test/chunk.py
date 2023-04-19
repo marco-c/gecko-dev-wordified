@@ -55,6 +55,14 @@ MPL
 .
 import
 copy
+from
+taskgraph
+.
+util
+.
+attributes
+import
+keymatch
 import
 gecko_taskgraph
 from
@@ -82,8 +90,6 @@ chunking
 import
 (
     
-DefaultLoader
-    
 chunk_manifests
     
 get_manifest_loader
@@ -91,6 +97,8 @@ get_manifest_loader
 get_runtimes
     
 guess_mozinfo_from_task
+    
+DefaultLoader
 )
 from
 gecko_taskgraph
@@ -101,22 +109,14 @@ perfile
 import
 perfile_number_of_chunks
 from
-taskgraph
-.
-util
-.
-attributes
-import
-keymatch
-from
-taskgraph
+gecko_taskgraph
 .
 util
 .
 treeherder
 import
-join_symbol
 split_symbol
+join_symbol
 DYNAMIC_CHUNK_DURATION
 =
 20

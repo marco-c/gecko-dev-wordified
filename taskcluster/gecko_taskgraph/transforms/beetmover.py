@@ -70,6 +70,11 @@ description
 "
 "
 from
+voluptuous
+import
+Optional
+Required
+from
 gecko_taskgraph
 .
 loader
@@ -114,23 +119,18 @@ generate_beetmover_artifact_map
     
 generate_beetmover_upstream_artifacts
     
-get_beetmover_action_scope
-    
 get_beetmover_bucket_scope
+    
+get_beetmover_action_scope
 )
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
 treeherder
 import
 replace_group
-from
-voluptuous
-import
-Optional
-Required
 transforms
 =
 TransformSequence
