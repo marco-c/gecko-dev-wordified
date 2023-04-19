@@ -123,13 +123,6 @@ h
 "
 #
 include
-"
-ServiceWorkerPrivateImpl
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -4614,7 +4607,7 @@ also
 submits
 final
 telemetry
-ServiceWorkerPrivateImpl
+ServiceWorkerPrivate
 :
 :
 RunningShutdown
