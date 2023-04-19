@@ -3528,9 +3528,3 @@ NetworkObserver
 "
 ]
 ;
-this
-.
-NetworkObserver
-=
-NetworkObserver
-;
