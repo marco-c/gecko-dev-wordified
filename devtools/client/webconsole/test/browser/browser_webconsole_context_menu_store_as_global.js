@@ -647,7 +647,7 @@ existence
 msg
 =
 await
-findMessageVirtualized
+findMessageVirtualizedById
 (
 {
 hud
