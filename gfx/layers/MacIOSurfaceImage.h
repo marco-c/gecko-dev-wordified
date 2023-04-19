@@ -340,6 +340,16 @@ return
 mPictureRect
 ;
 }
+gfx
+:
+:
+ColorDepth
+GetColorDepth
+(
+)
+const
+override
+;
 private
 :
 RefPtr
