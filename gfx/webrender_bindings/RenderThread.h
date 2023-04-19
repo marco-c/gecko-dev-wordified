@@ -2031,6 +2031,13 @@ size_t
 RendererCount
 (
 )
+const
+;
+size_t
+ActiveRendererCount
+(
+)
+const
 ;
 void
 BeginRecordingForWindow
