@@ -478,6 +478,10 @@ float
 src
 .
 data
+.
+data
+(
+)
 )
 )
 ;
@@ -508,6 +512,10 @@ int32_t
 src
 .
 data
+.
+data
+(
+)
 )
 )
 ;
@@ -538,6 +546,10 @@ uint32_t
 src
 .
 data
+.
+data
+(
+)
 )
 )
 ;
@@ -576,6 +588,10 @@ mGenericVertexAttrib0Data
 src
 .
 data
+.
+data
+(
+)
 sizeof
 (
 mGenericVertexAttrib0Data
