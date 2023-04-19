@@ -3355,9 +3355,6 @@ TransformStream
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -3382,9 +3379,6 @@ name
 TransformStreamDefaultController
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
