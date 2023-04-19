@@ -16676,9 +16676,6 @@ aMaxWidth
 :
 prefISize
 ;
-nsresult
-rv
-=
 presShell
 -
 >
@@ -16690,12 +16687,6 @@ ResizeReflowOptions
 :
 :
 BSizeLimit
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 RefPtr
