@@ -273,7 +273,7 @@ open
 "
 ;
 import
-sourceTree
+sourcesTree
 {
 initialSourcesTreeState
 }
@@ -281,7 +281,7 @@ from
 "
 .
 /
-source
+sources
 -
 tree
 "
@@ -453,7 +453,7 @@ quickOpen
 initialQuickOpenState
 (
 )
-sourceTree
+sourcesTree
 :
 initialSourcesTreeState
 (
@@ -508,7 +508,7 @@ fileSearch
 ast
 projectTextSearch
 quickOpen
-sourceTree
+sourcesTree
 threads
 objectInspector
 :

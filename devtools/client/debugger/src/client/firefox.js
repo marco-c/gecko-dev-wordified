@@ -536,9 +536,6 @@ targetFront
 threadFront
 .
 actor
-targetFront
-.
-isWebExtension
 )
 ;
 await

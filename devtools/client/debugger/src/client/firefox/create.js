@@ -2464,6 +2464,11 @@ serviceWorkerStatus
 target
 .
 debuggerServiceWorkerStatus
+isWebExtension
+:
+target
+.
+isWebExtension
 }
 ;
 }

@@ -311,14 +311,14 @@ getState
 (
 )
 .
-threads
+sourcesTree
 .
 isWebExtension
 "
 isWebExtension
 flag
 in
-threads
+sourcesTree
 is
 true
 "
