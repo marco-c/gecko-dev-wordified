@@ -2932,12 +2932,12 @@ focus
 ;
 is
 (
+button
 win
 .
 document
 .
 activeElement
-button
 "
 expected
 button
@@ -3007,12 +3007,12 @@ focus
 ;
 is
 (
+button
 win
 .
 document
 .
 activeElement
-button
 "
 expected
 button
