@@ -809,6 +809,9 @@ aProviderTlsFlags
 ByteArray
 aServerCert
 ByteArray
+?
+aClientCert
+ByteArray
 [
 ]
 aCollectedCANames

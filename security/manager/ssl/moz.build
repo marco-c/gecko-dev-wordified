@@ -220,6 +220,11 @@ nsICryptoHash
 idl
 "
 "
+nsILocalCertService
+.
+idl
+"
+"
 nsINSSComponent
 .
 idl
@@ -571,6 +576,11 @@ cpp
 "
 "
 IPCClientCertsParent
+.
+cpp
+"
+"
+LocalCertService
 .
 cpp
 "
