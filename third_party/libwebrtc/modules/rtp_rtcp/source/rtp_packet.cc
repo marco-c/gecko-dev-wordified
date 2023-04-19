@@ -1859,6 +1859,12 @@ case
 RTPExtensionType
 :
 :
+kRtpExtensionVideoLayersAllocation
+:
+case
+RTPExtensionType
+:
+:
 kRtpExtensionVideoRotation
 :
 case
