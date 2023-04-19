@@ -100528,7 +100528,7 @@ return
 mFontFaceSet
 -
 >
-GetUserFontSet
+GetImpl
 (
 )
 ;
