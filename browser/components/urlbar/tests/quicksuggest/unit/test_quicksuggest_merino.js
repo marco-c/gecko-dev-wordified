@@ -815,7 +815,7 @@ equal
 typeof
 UrlbarQuickSuggest
 .
-SUGGESTION_SCORE
+DEFAULT_SUGGESTION_SCORE
 "
 number
 "
@@ -825,7 +825,7 @@ check
 :
 UrlbarQuickSuggest
 .
-SUGGESTION_SCORE
+DEFAULT_SUGGESTION_SCORE
 is
 defined
 "
@@ -921,7 +921,7 @@ score
 =
 UrlbarQuickSuggest
 .
-SUGGESTION_SCORE
+DEFAULT_SUGGESTION_SCORE
 /
 2
 ;
@@ -1323,7 +1323,7 @@ score
 *
 UrlbarQuickSuggest
 .
-SUGGESTION_SCORE
+DEFAULT_SUGGESTION_SCORE
 ;
 let
 context
@@ -1456,7 +1456,7 @@ score
 =
 UrlbarQuickSuggest
 .
-SUGGESTION_SCORE
+DEFAULT_SUGGESTION_SCORE
 /
 2
 ;
@@ -1589,7 +1589,7 @@ score
 =
 UrlbarQuickSuggest
 .
-SUGGESTION_SCORE
+DEFAULT_SUGGESTION_SCORE
 ;
 let
 context
