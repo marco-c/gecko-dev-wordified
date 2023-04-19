@@ -1766,11 +1766,8 @@ only
 .
 virtual
 void
-SetInitialPrincipal
+SetInitialPrincipalToSubject
 (
-nsIPrincipal
-*
-aNewWindowPrincipal
 nsIContentSecurityPolicy
 *
 aCSP
