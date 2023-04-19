@@ -412,7 +412,6 @@ Clone
 Serialize
 Deserialize
 PartialEq
-Eq
 )
 ]
 pub

@@ -396,8 +396,11 @@ Result
 for
 item
 in
-*
 self
+.
+iter
+(
+)
 {
 item
 .

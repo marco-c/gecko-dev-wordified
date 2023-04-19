@@ -22,8 +22,6 @@ func
 -
 %
 }
-r
-#
 {
 {
 func
@@ -96,8 +94,6 @@ ffi_converter
 :
 try_lift
 (
-r
-#
 {
 {
 arg
@@ -371,8 +367,6 @@ arguments
 )
 %
 }
-r
-#
 {
 {
 -
@@ -474,8 +468,6 @@ arguments
 )
 %
 }
-r
-#
 {
 {
 -
@@ -736,8 +728,6 @@ cons
 )
 %
 }
-r
-#
 {
 {
 -
@@ -1007,8 +997,6 @@ call_status
 let
 _retval
 =
-r
-#
 {
 {
 obj
@@ -1106,8 +1094,6 @@ return_type
 let
 retval
 =
-r
-#
 {
 {
 obj
@@ -1148,8 +1134,6 @@ else
 -
 %
 }
-r
-#
 {
 {
 obj
