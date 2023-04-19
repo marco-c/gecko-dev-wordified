@@ -89,11 +89,11 @@ psutil
 import
 requests
 from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
 import
 mozpack
 .
@@ -146,12 +146,12 @@ version
 .
 LATEST_MOZILLABUILD_VERSION
 =
-LooseVersion
+Version
 (
 "
-3
+4
 .
-3
+0
 "
 )
 DISABLE_LASTACCESS_WIN
@@ -2899,7 +2899,7 @@ version
 )
         
 if
-LooseVersion
+Version
 (
 local_version
 )

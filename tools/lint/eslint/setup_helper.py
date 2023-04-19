@@ -106,11 +106,11 @@ subprocess
 import
 sys
 from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
 from
 filecmp
 import
@@ -1957,7 +1957,7 @@ name
 eslint
 "
 and
-LooseVersion
+Version
 (
 "
 4
@@ -1968,7 +1968,7 @@ LooseVersion
 "
 )
 >
-LooseVersion
+Version
 (
 data
 [
@@ -2150,7 +2150,7 @@ version
     
 version
 =
-LooseVersion
+Version
 (
 version
 )
@@ -2238,14 +2238,14 @@ group
         
 range_min
 =
-LooseVersion
+Version
 (
 range_version
 )
         
 range_max
 =
-LooseVersion
+Version
 (
 "
 %

@@ -72,11 +72,11 @@ spawn
 import
 find_executable
 from
-distutils
+packaging
 .
 version
 import
-StrictVersion
+Version
 from
 mozbuild
 .
@@ -2339,12 +2339,12 @@ actions
 .
     
 if
-StrictVersion
+Version
 (
 fzf_version
 )
 <
-StrictVersion
+Version
 (
 FZF_MIN_VERSION
 )
@@ -2548,12 +2548,12 @@ fzf_bin
 )
         
 if
-StrictVersion
+Version
 (
 fzf_version
 )
 <
-StrictVersion
+Version
 (
 FZF_CURRENT_VERSION
 )

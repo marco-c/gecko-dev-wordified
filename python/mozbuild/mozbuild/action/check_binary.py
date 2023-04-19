@@ -70,12 +70,10 @@ subprocess
 import
 sys
 from
-distutils
+packaging
 .
 version
 import
-StrictVersion
-as
 Version
 import
 buildconfig

@@ -91,11 +91,11 @@ abc
 import
 Iterable
 from
-distutils
+packaging
 .
 version
 import
-StrictVersion
+Version
 import
 argparse
 import
@@ -334,7 +334,7 @@ try
                         
 minus_version
 =
-StrictVersion
+Version
 (
 line
 .
@@ -379,7 +379,7 @@ try
                         
 plus_version
 =
-StrictVersion
+Version
 (
 line
 .
@@ -436,7 +436,7 @@ return
 rev
                         
 if
-StrictVersion
+Version
 (
 v
 )

@@ -64,11 +64,11 @@ signal
 import
 six
 from
-distutils
+packaging
 .
 version
 import
-StrictVersion
+Version
 from
 mozboot
 .
@@ -1030,7 +1030,7 @@ False
     
 version
 =
-StrictVersion
+Version
 (
 version
 [
@@ -1378,7 +1378,7 @@ min_clippy_version
     
 min_version
 =
-StrictVersion
+Version
 (
 min_version_str
 )
