@@ -3849,6 +3849,11 @@ creationOptions
 (
 )
 .
+setFreezeBuiltins
+(
+true
+)
+.
 setNewCompartmentInSystemZone
 (
 )
