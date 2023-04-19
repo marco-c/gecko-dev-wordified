@@ -118,6 +118,9 @@ nsIFile
 interface
 nsIReferrerInfo
 ;
+interface
+nsIHttpChannel
+;
 webidl
 BrowsingContext
 ;
@@ -529,6 +532,10 @@ the
 same
 *
 userContextId
+and
+auth
+header
+.
 *
 *
 param
@@ -556,6 +563,15 @@ within
 *
 the
 browser
+.
+*
+param
+aHttpChannel
+Channel
+of
+the
+initiating
+document
 .
 *
 /
@@ -598,6 +614,9 @@ aBrowsingContext
 in
 boolean
 aHandleInternally
+in
+nsIHttpChannel
+aHttpChannel
 )
 ;
 /

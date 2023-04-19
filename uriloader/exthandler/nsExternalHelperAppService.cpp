@@ -16126,6 +16126,7 @@ mDownloadClassification
 referrerInfo
 mBrowsingContext
 mHandleInternally
+nullptr
 )
 ;
 }
@@ -16677,6 +16678,7 @@ mDownloadClassification
 referrerInfo
 mBrowsingContext
 mHandleInternally
+httpChannel
 )
 ;
 }
