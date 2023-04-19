@@ -1102,32 +1102,19 @@ raised
 )
         
 #
-In
-the
-case
-of
-a
-content
+A
 crash
-Firefox
-will
-be
-closed
-and
-its
-        
-#
-returncode
-will
-report
-0
-(
-this
-will
-change
-with
-1370520
-)
+when
+loading
+about
+:
+crashcontent
+results
+in
+a
+SIGUSR1
+exit
+code
 .
         
 self
@@ -1143,7 +1130,7 @@ instance
 runner
 .
 returncode
-0
+245
 )
         
 self

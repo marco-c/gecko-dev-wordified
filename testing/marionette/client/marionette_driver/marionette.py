@@ -5255,11 +5255,24 @@ crash_count
 0
 :
                     
+#
+SIGUSR1
+indicates
+a
+forced
+shutdown
+due
+to
+a
+content
+process
+crash
+                    
 if
 returncode
 =
 =
-0
+245
 :
                         
 message
