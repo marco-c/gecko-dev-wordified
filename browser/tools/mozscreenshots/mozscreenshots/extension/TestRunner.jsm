@@ -215,11 +215,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserTestUtils
 "
@@ -257,7 +263,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Screenshot
 "
@@ -769,6 +775,8 @@ screenshotPrefix
 _
 "
 ;
+lazy
+.
 Screenshot
 .
 init
@@ -1123,6 +1131,8 @@ gBrowser
 .
 selectedBrowser
 ;
+lazy
+.
 BrowserTestUtils
 .
 loadURI
@@ -1132,6 +1142,8 @@ HOME_PAGE
 )
 ;
 await
+lazy
+.
 BrowserTestUtils
 .
 browserLoaded
@@ -1831,6 +1843,8 @@ gBrowser
 selectedTab
 )
 ;
+lazy
+.
 BrowserTestUtils
 .
 loadURI
@@ -3464,6 +3478,8 @@ const
 imagePath
 =
 await
+lazy
+.
 Screenshot
 .
 captureExternal
