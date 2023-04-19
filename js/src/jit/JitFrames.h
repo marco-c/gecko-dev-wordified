@@ -1574,6 +1574,7 @@ calleeToken
 ;
 }
 static
+constexpr
 size_t
 offsetOfCalleeToken
 (
@@ -1588,6 +1589,7 @@ calleeToken_
 ;
 }
 static
+constexpr
 size_t
 offsetOfNumActualArgs
 (
@@ -1602,6 +1604,7 @@ numActualArgs_
 ;
 }
 static
+constexpr
 size_t
 offsetOfThis
 (
@@ -1615,6 +1618,7 @@ JitFrameLayout
 ;
 }
 static
+constexpr
 size_t
 offsetOfActualArgs
 (
@@ -1635,6 +1639,7 @@ Value
 ;
 }
 static
+constexpr
 size_t
 offsetOfActualArg
 (
