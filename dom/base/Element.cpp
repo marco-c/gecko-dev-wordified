@@ -4951,11 +4951,6 @@ ScrollOverflowHidden
 ScrollFlags
 :
 :
-ScrollSnap
-|
-ScrollFlags
-:
-:
 TriggeredByScript
 ;
 if
