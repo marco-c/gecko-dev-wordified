@@ -1121,6 +1121,11 @@ field
 .
 elementWeakRef
 ;
+delete
+field
+.
+confidence
+;
 Assert
 .
 deepEqual
