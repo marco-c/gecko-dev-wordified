@@ -42630,7 +42630,12 @@ DOMIntersectionObserver
 ComputeInput
 (
 *
-this
+el
+-
+>
+OwnerDoc
+(
+)
 /
 *
 aRoot
