@@ -917,8 +917,8 @@ props
 assert
 (
 startWidth
-=
 >
+=
 0
 &
 &
