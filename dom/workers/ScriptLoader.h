@@ -123,11 +123,11 @@ mozilla_dom_workers_scriptloader_h__
 #
 include
 "
-mozilla
+js
 /
-dom
+loader
 /
-ScriptLoadInfo
+ScriptLoadRequest
 .
 h
 "
@@ -485,7 +485,7 @@ loader
 along
 with
 the
-scriptLoadInfos
+ScriptLoadRequests
 *
 |
 call
@@ -1523,7 +1523,7 @@ GetBaseURI
 void
 MaybeExecuteFinishedScripts
 (
-ScriptLoadInfo
+ScriptLoadRequest
 *
 aRequest
 )
@@ -1531,7 +1531,7 @@ aRequest
 void
 MaybeMoveToLoadedList
 (
-ScriptLoadInfo
+ScriptLoadRequest
 *
 aRequest
 )
@@ -1572,7 +1572,7 @@ isEmpty
 nsresult
 OnStreamComplete
 (
-ScriptLoadInfo
+ScriptLoadRequest
 *
 aRequest
 nsresult
@@ -1705,7 +1705,7 @@ LoadScripts
 nsresult
 LoadScript
 (
-ScriptLoadInfo
+ScriptLoadRequest
 *
 aRequest
 )
@@ -1759,7 +1759,7 @@ NS_OK
 void
 LoadingFinished
 (
-ScriptLoadInfo
+ScriptLoadRequest
 *
 aRequest
 nsresult
@@ -1769,7 +1769,7 @@ aRv
 void
 DispatchMaybeMoveToLoadedList
 (
-ScriptLoadInfo
+ScriptLoadRequest
 *
 aRequest
 )
@@ -1780,7 +1780,7 @@ EvaluateScript
 JSContext
 *
 aCx
-ScriptLoadInfo
+ScriptLoadRequest
 *
 aRequest
 )
