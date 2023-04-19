@@ -111,10 +111,6 @@ rpmconf
 "
         
 "
-watchman
-"
-        
-"
 which
 "
     
