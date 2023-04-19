@@ -1057,6 +1057,10 @@ const
 HTMLBRElement
 *
 aPrecedingInvisibleBRElement
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -1969,7 +1973,7 @@ aHTMLEditor
 .
 CanMoveOrDeleteSomethingInHardLine
 (
-EditorRawDOMPoint
+EditorDOMPoint
 (
 rightBlockElement
 afterRightBlockChild
@@ -1978,6 +1982,7 @@ Offset
 (
 )
 )
+aEditingHost
 )
 ;
 #
@@ -2009,6 +2014,7 @@ EditorDOMPoint
 aLeftBlockElement
 0u
 )
+aEditingHost
 HTMLEditor
 :
 :
@@ -2277,6 +2283,10 @@ const
 HTMLBRElement
 *
 aPrecedingInvisibleBRElement
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -3554,12 +3564,13 @@ aHTMLEditor
 .
 CanMoveOrDeleteSomethingInHardLine
 (
-EditorRawDOMPoint
+EditorDOMPoint
 (
 &
 aRightBlockElement
-0
+0u
 )
+aEditingHost
 )
 ;
 #
@@ -3813,6 +3824,7 @@ aRightBlockElement
 0u
 )
 atPreviousContent
+aEditingHost
 )
 ;
 if
@@ -4035,6 +4047,10 @@ const
 HTMLBRElement
 *
 aPrecedingInvisibleBRElement
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -4442,12 +4458,13 @@ aHTMLEditor
 .
 CanMoveOrDeleteSomethingInHardLine
 (
-EditorRawDOMPoint
+EditorDOMPoint
 (
 &
 aRightBlockElement
-0
+0u
 )
+aEditingHost
 )
 ;
 #
@@ -4483,6 +4500,7 @@ EditorDOMPoint
 aLeftBlockElement
 0u
 )
+aEditingHost
 HTMLEditor
 :
 :
