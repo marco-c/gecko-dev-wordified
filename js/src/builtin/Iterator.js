@@ -92,7 +92,6 @@ Steps
 const
 result
 =
-(
 arguments
 .
 length
@@ -118,7 +117,6 @@ iteratorRecord
 .
 iterator
 value
-)
 )
 ;
 /
