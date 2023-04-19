@@ -154,8 +154,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -424,12 +424,10 @@ MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -182,8 +182,8 @@ namespace
 ipc
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -445,12 +445,10 @@ NS_DECL_OWNINGTHREAD
 /
 /
 namespace
-cache
-}
-/
-/
-namespace
 dom
+:
+:
+cache
 }
 /
 /

@@ -182,8 +182,8 @@ namespace
 ipc
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -443,12 +443,10 @@ override
 /
 /
 namespace
-cache
-}
-/
-/
-namespace
 dom
+:
+:
+cache
 }
 /
 /

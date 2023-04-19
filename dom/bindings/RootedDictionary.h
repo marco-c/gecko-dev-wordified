@@ -140,8 +140,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -304,12 +304,10 @@ trc
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

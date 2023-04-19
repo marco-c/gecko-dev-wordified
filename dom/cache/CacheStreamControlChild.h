@@ -182,8 +182,8 @@ namespace
 ipc
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -365,12 +365,10 @@ mDestroyDelayed
 /
 /
 namespace
-cache
-}
-/
-/
-namespace
 dom
+:
+:
+cache
 }
 /
 /

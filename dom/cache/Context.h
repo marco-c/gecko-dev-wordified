@@ -194,8 +194,8 @@ nsIThread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -1499,12 +1499,10 @@ cache
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -152,8 +152,8 @@ namespace
 ipc
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -280,12 +280,10 @@ aActor
 /
 /
 namespace
-cache
-}
-/
-/
-namespace
 dom
+:
+:
+cache
 }
 /
 /
