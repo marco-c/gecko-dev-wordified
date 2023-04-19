@@ -37,7 +37,7 @@ let
 engine
 ;
 let
-originalDefaultEngine
+appDefaultEngine
 ;
 add_task
 (
@@ -94,7 +94,7 @@ separatePrivateDefault
 true
 )
 ;
-originalDefaultEngine
+appDefaultEngine
 =
 await
 Services
@@ -421,7 +421,7 @@ search
 .
 setDefault
 (
-originalDefaultEngine
+appDefaultEngine
 )
 ;
 Services

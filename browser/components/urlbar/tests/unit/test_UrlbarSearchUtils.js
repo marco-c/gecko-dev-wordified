@@ -155,7 +155,7 @@ Services
 .
 search
 .
-resetToOriginalDefaultEngine
+resetToAppDefaultEngine
 (
 )
 ;

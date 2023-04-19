@@ -3008,7 +3008,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 ;
 }
 else
@@ -3264,7 +3264,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 .
 name
 precedenceList
@@ -3944,7 +3944,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 .
 name
 Default
@@ -3954,7 +3954,7 @@ be
 set
 to
 the
-original
+app
 default
 after
 disabling

@@ -2630,7 +2630,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 ]
 region
 locale
@@ -2678,7 +2678,7 @@ Services
 .
 search
 .
-originalPrivateDefaultEngine
+appPrivateDefaultEngine
 ]
 region
 locale

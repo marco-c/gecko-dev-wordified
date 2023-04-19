@@ -33,7 +33,7 @@ zero
 *
 Test
 that
-originalDefaultEngine
+appDefaultEngine
 property
 is
 set
@@ -92,7 +92,7 @@ add_task
 (
 async
 function
-test_originalDefaultEngine
+test_appDefaultEngine
 (
 )
 {
@@ -123,7 +123,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 .
 name
 "
@@ -136,7 +136,7 @@ have
 returned
 the
 correct
-original
+app
 default
 engine
 "
@@ -238,7 +238,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 .
 name
 /
