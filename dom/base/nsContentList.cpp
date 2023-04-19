@@ -5106,13 +5106,13 @@ aDoFlush
 {
 if
 (
+mFlushesNeeded
+&
+&
 mRootNode
 &
 &
 aDoFlush
-&
-&
-mFlushesNeeded
 )
 {
 /
@@ -5122,6 +5122,8 @@ sXBL
 /
 XBL2
 issue
+if
+(
 Document
 *
 doc
@@ -5132,10 +5134,6 @@ mRootNode
 GetUncomposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 /
