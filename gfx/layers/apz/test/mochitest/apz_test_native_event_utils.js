@@ -5390,6 +5390,7 @@ return
 true
 ;
 }
+async
 function
 synthesizeNativeTouchSequences
 (
@@ -5405,6 +5406,7 @@ aTouchIds
 ]
 )
 {
+await
 synthesizeNativePointerSequences
 (
 aTarget
@@ -5417,6 +5419,7 @@ aTouchIds
 )
 ;
 }
+async
 function
 synthesizeNativePointerDrag
 (
@@ -5615,6 +5618,7 @@ the
 panning
 threshold
 .
+async
 function
 synthesizeNativeTouchDrag
 (
@@ -7956,6 +7960,7 @@ the
 document
 body
 .
+async
 function
 pinchZoomInTouchSequence
 (
@@ -8490,6 +8495,7 @@ all
 the
 touch
 events
+await
 pinchZoomInTouchSequence
 (
 focusX
@@ -8999,6 +9005,7 @@ all
 the
 touch
 events
+await
 synthesizeNativeTouchSequences
 (
 document
@@ -9512,6 +9519,7 @@ currently
 implemented
 on
 macOS
+async
 function
 synthesizeDoubleTap
 (
@@ -9526,6 +9534,7 @@ if
 useTouchpad
 )
 {
+await
 synthesizeNativeTouchpadDoubleTap
 (
 element
@@ -9536,6 +9545,7 @@ y
 }
 else
 {
+await
 synthesizeNativeTap
 (
 element
@@ -9543,6 +9553,7 @@ x
 y
 )
 ;
+await
 synthesizeNativeTap
 (
 element
@@ -9578,6 +9589,7 @@ promiseTransformEnd
 (
 )
 ;
+await
 synthesizeDoubleTap
 (
 element
