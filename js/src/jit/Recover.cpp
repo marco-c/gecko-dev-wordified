@@ -600,6 +600,16 @@ for
 /
 bailouts
 .
+uint32_t
+numIntermediate
+=
+NumIntermediateValues
+(
+mode
+(
+)
+)
+;
 if
 (
 JSContext
@@ -628,6 +638,8 @@ mode
 (
 )
 exprStack
+-
+numIntermediate
 )
 )
 {
