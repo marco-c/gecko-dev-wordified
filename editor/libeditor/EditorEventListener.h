@@ -301,12 +301,6 @@ aEvent
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
-void
-SpellCheckIfNeeded
-(
-)
-;
 protected
 :
 virtual
