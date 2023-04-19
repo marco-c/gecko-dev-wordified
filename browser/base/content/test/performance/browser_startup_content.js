@@ -234,7 +234,9 @@ modules
 /
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 "
 /
 /
