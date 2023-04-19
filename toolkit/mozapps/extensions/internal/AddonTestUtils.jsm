@@ -146,17 +146,6 @@ x509certdb
 1
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 {
 AddonManager

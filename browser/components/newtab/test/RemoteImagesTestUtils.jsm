@@ -142,17 +142,6 @@ settings
 server
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 RemoteImagesTestUtils
 =
