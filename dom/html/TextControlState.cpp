@@ -1583,6 +1583,8 @@ mFrame
 {
 /
 /
+EnsureEditorInitialized
+and
 SetSelectionRange
 leads
 to
@@ -1616,6 +1618,13 @@ bug
 .
 nsAutoScriptBlocker
 scriptBlocker
+;
+mFrame
+-
+>
+EnsureEditorInitialized
+(
+)
 ;
 TextControlState
 :
