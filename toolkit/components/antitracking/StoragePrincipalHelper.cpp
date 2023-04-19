@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-ContentBlocking
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 WorkerPrivate
@@ -260,9 +251,6 @@ rejectedReason
 ;
 if
 (
-ContentBlocking
-:
-:
 ShouldAllowAccessFor
 (
 aChannel
