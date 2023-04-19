@@ -12779,10 +12779,13 @@ gpu_blocks
 .
 push
 (
-PremultipliedColorF
-:
-:
-WHITE
+image_data
+.
+color
+.
+premultiplied
+(
+)
 .
 into
 (
