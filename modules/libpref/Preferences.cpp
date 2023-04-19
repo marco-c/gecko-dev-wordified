@@ -38016,6 +38016,17 @@ PREF_LIST_ENTRY
 "
 media
 .
+decoder
+-
+doctor
+.
+"
+)
+PREF_LIST_ENTRY
+(
+"
+media
+.
 getusermedia
 .
 fake
