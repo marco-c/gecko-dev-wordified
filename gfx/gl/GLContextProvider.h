@@ -263,7 +263,7 @@ GL_CONTEXT_PROVIDER_NAME
 if
 defined
 (
-XP_UNIX
+XP_LINUX
 )
 &
 &
