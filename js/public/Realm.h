@@ -971,6 +971,17 @@ JSContext
 cx
 )
 ;
+extern
+JS_PUBLIC_API
+JSObject
+*
+GetRealmAsyncIteratorPrototype
+(
+JSContext
+*
+cx
+)
+;
 /
 /
 Returns
