@@ -68,7 +68,7 @@ from
 /
 aboutLoginsUtils
 .
-js
+mjs
 "
 ;
 export

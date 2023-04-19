@@ -68,7 +68,7 @@ list
 -
 item
 .
-js
+mjs
 "
 ;
 import
@@ -83,7 +83,7 @@ list
 -
 section
 .
-js
+mjs
 "
 ;
 import
@@ -97,7 +97,7 @@ from
 /
 aboutLoginsUtils
 .
-js
+mjs
 "
 ;
 const
