@@ -877,16 +877,6 @@ int
 flags
 )
 ;
-void
-ff_hpeldsp_init_loongarch
-(
-HpelDSPContext
-*
-c
-int
-flags
-)
-;
 #
 endif
 /

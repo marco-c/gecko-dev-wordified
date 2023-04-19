@@ -299,6 +299,11 @@ ff_mpeg1_videotoolbox_hwaccel
 extern
 const
 AVHWAccel
+ff_mpeg1_xvmc_hwaccel
+;
+extern
+const
+AVHWAccel
 ff_mpeg2_d3d11va_hwaccel
 ;
 extern
@@ -334,6 +339,11 @@ ff_mpeg2_videotoolbox_hwaccel
 extern
 const
 AVHWAccel
+ff_mpeg2_xvmc_hwaccel
+;
+extern
+const
+AVHWAccel
 ff_mpeg4_nvdec_hwaccel
 ;
 extern
@@ -350,11 +360,6 @@ extern
 const
 AVHWAccel
 ff_mpeg4_videotoolbox_hwaccel
-;
-extern
-const
-AVHWAccel
-ff_prores_videotoolbox_hwaccel
 ;
 extern
 const
@@ -425,11 +430,6 @@ extern
 const
 AVHWAccel
 ff_vp9_vdpau_hwaccel
-;
-extern
-const
-AVHWAccel
-ff_vp9_videotoolbox_hwaccel
 ;
 extern
 const
