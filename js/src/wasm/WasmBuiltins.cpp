@@ -11902,7 +11902,6 @@ stub
 JitContext
 jitContext
 (
-&
 tempAlloc
 )
 ;

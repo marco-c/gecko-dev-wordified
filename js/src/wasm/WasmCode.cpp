@@ -3175,7 +3175,6 @@ lifo
 JitContext
 jitContext
 (
-&
 alloc
 )
 ;

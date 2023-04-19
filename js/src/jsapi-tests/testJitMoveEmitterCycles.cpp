@@ -1086,7 +1086,6 @@ JitContext
 jc
 (
 cx
-&
 alloc
 )
 ;
@@ -1538,7 +1537,6 @@ JitContext
 jc
 (
 cx
-&
 alloc
 )
 ;
@@ -2969,7 +2967,6 @@ JitContext
 jc
 (
 cx
-&
 alloc
 )
 ;
@@ -4604,7 +4601,6 @@ JitContext
 jc
 (
 cx
-&
 alloc
 )
 ;
@@ -6239,7 +6235,6 @@ JitContext
 jc
 (
 cx
-&
 alloc
 )
 ;
@@ -6697,7 +6692,6 @@ JitContext
 jc
 (
 cx
-&
 alloc
 )
 ;

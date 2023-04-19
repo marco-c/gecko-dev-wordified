@@ -46919,7 +46919,6 @@ lifo
 JitContext
 jitContext
 (
-&
 alloc
 )
 ;
