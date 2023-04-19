@@ -634,7 +634,6 @@ points
 ;
 for
 (
-const
 auto
 &
 point
@@ -798,9 +797,6 @@ IgnoreErrors
 )
 ;
 }
-#
-ifndef
-XP_MACOSX
 auto
 TextRecognition
 :
@@ -854,8 +850,6 @@ __func__
 )
 ;
 }
-#
-endif
 }
 /
 /
