@@ -726,6 +726,11 @@ secondary
 -
 views
 '
+'
+camera
+-
+access
+'
 ]
 ;
 const
