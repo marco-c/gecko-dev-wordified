@@ -1531,6 +1531,15 @@ audioInfo
 >
 mMimeType
 )
+!
+=
+media
+:
+:
+DecodeSupport
+:
+:
+Unsupported
 )
 {
 mMediaInfo

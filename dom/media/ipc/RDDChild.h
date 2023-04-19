@@ -344,7 +344,7 @@ IPCResult
 RecvUpdateMediaCodecsSupported
 (
 const
-PDMFactory
+media
 :
 :
 MediaCodecsSupported
