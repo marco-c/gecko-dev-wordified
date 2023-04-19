@@ -75,7 +75,7 @@ kind
 "
 "
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .

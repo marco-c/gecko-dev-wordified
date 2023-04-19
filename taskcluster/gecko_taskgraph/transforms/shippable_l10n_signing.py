@@ -70,13 +70,21 @@ description
 "
 "
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+treeherder
+import
+join_symbol
 from
 gecko_taskgraph
 .
@@ -96,14 +104,6 @@ import
     
 generate_specifications_of_artifacts_to_sign
 )
-from
-taskgraph
-.
-util
-.
-treeherder
-import
-join_symbol
 transforms
 =
 TransformSequence

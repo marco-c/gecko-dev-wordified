@@ -126,6 +126,14 @@ mozpath
 from
 taskgraph
 .
+transforms
+.
+base
+import
+TransformSequence
+from
+taskgraph
+.
 util
 .
 python_path
@@ -161,14 +169,6 @@ Required
     
 Exclusive
 )
-from
-gecko_taskgraph
-.
-transforms
-.
-base
-import
-TransformSequence
 from
 gecko_taskgraph
 .

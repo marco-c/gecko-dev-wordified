@@ -72,7 +72,7 @@ dependency
 "
 "
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .

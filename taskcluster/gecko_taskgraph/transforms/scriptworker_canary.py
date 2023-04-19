@@ -85,7 +85,7 @@ scriptworker_canary
 import
 TASK_TYPES
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .

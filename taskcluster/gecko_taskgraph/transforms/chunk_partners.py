@@ -77,7 +77,7 @@ chunkify
 import
 chunkify
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .

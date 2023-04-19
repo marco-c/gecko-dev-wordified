@@ -71,6 +71,14 @@ timedelta
 from
 taskgraph
 .
+transforms
+.
+base
+import
+TransformSequence
+from
+taskgraph
+.
 util
 .
 schema
@@ -98,14 +106,6 @@ Optional
     
 Extra
 )
-from
-gecko_taskgraph
-.
-transforms
-.
-base
-import
-TransformSequence
 transforms
 =
 TransformSequence

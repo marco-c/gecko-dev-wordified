@@ -77,6 +77,14 @@ yml
 from
 taskgraph
 .
+transforms
+.
+base
+import
+TransformSequence
+from
+taskgraph
+.
 util
 .
 taskcluster
@@ -101,14 +109,6 @@ Optional
     
 Required
 )
-from
-gecko_taskgraph
-.
-transforms
-.
-base
-import
-TransformSequence
 from
 gecko_taskgraph
 .

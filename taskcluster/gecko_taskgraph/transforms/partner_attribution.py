@@ -79,7 +79,7 @@ json
 import
 logging
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .

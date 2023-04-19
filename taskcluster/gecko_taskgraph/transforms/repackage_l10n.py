@@ -72,7 +72,7 @@ description
 import
 copy
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .
