@@ -130,11 +130,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gExternalProtocolService
 "
@@ -162,7 +168,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gMIMEService
 "
@@ -184,7 +190,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gHandlerService
 "
@@ -295,6 +301,8 @@ Array
 .
 from
 (
+lazy
+.
 gHandlerService
 .
 enumerate
@@ -601,6 +609,8 @@ later
 let
 handlerInfo
 =
+lazy
+.
 gMIMEService
 .
 getFromTypeAndExtension
@@ -691,6 +701,8 @@ testing
 .
 if
 (
+lazy
+.
 gHandlerService
 .
 exists
@@ -699,6 +711,8 @@ handlerInfo
 )
 )
 {
+lazy
+.
 gHandlerService
 .
 fillHandlerInfo
@@ -753,6 +767,8 @@ osDefaultHandlerFound
 let
 handlerInfo
 =
+lazy
+.
 gExternalProtocolService
 .
 getProtocolHandlerInfoFromOS
@@ -763,6 +779,8 @@ osDefaultHandlerFound
 ;
 if
 (
+lazy
+.
 gHandlerService
 .
 exists
@@ -771,6 +789,8 @@ handlerInfo
 )
 )
 {
+lazy
+.
 gHandlerService
 .
 fillHandlerInfo
@@ -783,6 +803,8 @@ handlerInfo
 }
 else
 {
+lazy
+.
 gExternalProtocolService
 .
 setProtocolHandlerDefaults

@@ -80,11 +80,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -764,6 +770,8 @@ if
 privateAllowed
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
