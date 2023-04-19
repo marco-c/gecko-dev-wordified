@@ -377,7 +377,11 @@ AddUncaughtRejection
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 )
 ;
 /
@@ -402,7 +406,11 @@ AddConsumedRejection
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 )
 ;
 /

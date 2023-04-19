@@ -1142,7 +1142,13 @@ thread
 JS
 :
 :
-PersistentRootedValue
+PersistentRooted
+<
+JS
+:
+:
+Value
+>
 mException
 ;
 bool

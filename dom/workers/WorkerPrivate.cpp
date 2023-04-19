@@ -26356,7 +26356,11 @@ return
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 stack
 (
 aCx

@@ -1066,7 +1066,11 @@ aProxy
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aObj
 )
 ;
