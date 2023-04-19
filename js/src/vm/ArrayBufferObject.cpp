@@ -12634,13 +12634,6 @@ MOZ_ASSERT
 data
 )
 ;
-MOZ_ASSERT
-(
-nbytes
->
-0
-)
-;
 using
 BufferContents
 =
