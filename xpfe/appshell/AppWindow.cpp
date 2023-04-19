@@ -19417,8 +19417,9 @@ nsIWidget
 aParentWindow
 )
 {
-if
+MOZ_ASSERT
 (
+!
 gfxPlatform
 :
 :
@@ -19426,10 +19427,7 @@ IsHeadless
 (
 )
 )
-{
-return
 ;
-}
 /
 /
 Find
@@ -20505,6 +20503,17 @@ commands
 /
 /
 /
+if
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIContentViewer
@@ -20570,6 +20579,7 @@ menubarDoc
 mWindow
 )
 ;
+}
 }
 }
 }
