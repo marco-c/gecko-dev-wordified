@@ -254,15 +254,6 @@ FrameInfoT
 &
 frame
 ;
-js
-:
-:
-Vector
-<
-CodeOffset
->
-traceLoggerToggleOffsets_
-;
 /
 /
 Shared
@@ -2437,9 +2428,6 @@ debugTrapEntries_
 ;
 CodeOffset
 profilerPushToggleOffset_
-;
-CodeOffset
-traceLoggerScriptTextIdOffset_
 ;
 #
 if

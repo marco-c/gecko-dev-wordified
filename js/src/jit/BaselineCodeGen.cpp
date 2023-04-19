@@ -674,10 +674,6 @@ frame
 (
 )
 )
-traceLoggerToggleOffsets_
-(
-cx
-)
 {
 }
 BaselineCompiler
@@ -709,9 +705,6 @@ alloc
 script
 )
 profilerPushToggleOffset_
-(
-)
-traceLoggerScriptTextIdOffset_
 (
 )
 {
@@ -1615,11 +1608,6 @@ resumeOffsets
 )
 .
 size
-(
-)
-traceLoggerToggleOffsets_
-.
-length
 (
 )
 )
