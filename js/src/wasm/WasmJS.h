@@ -525,9 +525,6 @@ class
 JSStringBuilder
 ;
 class
-SharedArrayRawBuffer
-;
-class
 TypedArrayObject
 ;
 class
@@ -535,6 +532,9 @@ WasmFunctionScope
 ;
 class
 WasmInstanceScope
+;
+class
+WasmSharedArrayRawBuffer
 ;
 namespace
 wasm
@@ -3360,7 +3360,7 @@ underlying
 buffer
 object
 .
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 *
 sharedArrayRawBuffer
 (

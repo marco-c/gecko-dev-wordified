@@ -6016,7 +6016,7 @@ return
 CreateSpecificWasmBuffer
 <
 SharedArrayBufferObject
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 >
 (
 cx

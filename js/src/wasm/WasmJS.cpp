@@ -19542,7 +19542,7 @@ ArrayBufferObjectMaybeShared
 )
 ;
 }
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 *
 WasmMemoryObject
 :
@@ -19571,7 +19571,7 @@ SharedArrayBufferObject
 (
 )
 .
-rawBufferObject
+rawWasmBufferObject
 (
 )
 ;
@@ -20417,7 +20417,7 @@ uint64_t
 delta
 )
 {
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 *
 rawBuf
 =
@@ -20428,7 +20428,7 @@ sharedArrayRawBuffer
 (
 )
 ;
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 :
 :
 Lock

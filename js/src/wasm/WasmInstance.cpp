@@ -4342,11 +4342,11 @@ size_t
 )
 ;
 const
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 *
 rawBuf
 =
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 :
 :
 fromDataPtr
@@ -4886,11 +4886,11 @@ memBase
 )
 {
 const
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 *
 rawBuf
 =
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 :
 :
 fromDataPtr
