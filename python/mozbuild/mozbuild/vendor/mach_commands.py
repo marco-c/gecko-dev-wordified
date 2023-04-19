@@ -1311,6 +1311,8 @@ _spawn
 VendorRust
 )
     
+ok
+=
 vendor_command
 .
 vendor
@@ -1318,6 +1320,17 @@ vendor
 *
 *
 kwargs
+)
+    
+sys
+.
+exit
+(
+0
+if
+ok
+else
+1
 )
 #
 =

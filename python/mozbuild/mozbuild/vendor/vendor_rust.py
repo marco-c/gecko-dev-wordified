@@ -74,8 +74,6 @@ import
 re
 import
 subprocess
-import
-sys
 from
 collections
 import
@@ -793,7 +791,7 @@ return
 True
     
 def
-check_modified_files
+has_modified_files
 (
 self
 )
@@ -985,13 +983,9 @@ modified
 )
             
 )
-            
-sys
-.
-exit
-(
-1
-)
+        
+return
+modified
     
 def
 check_openssl
@@ -3514,13 +3508,16 @@ enable_unstructured
 if
 not
 ignore_modified
-:
-            
+and
 self
 .
-check_modified_files
+has_modified_files
 (
 )
+:
+            
+return
+False
         
 cargo
 =
@@ -3556,12 +3553,8 @@ found
 "
 )
             
-sys
-.
-exit
-(
-1
-)
+return
+False
         
 relative_vendor_dir
 =
@@ -4502,12 +4495,8 @@ if
 failed
 :
                 
-sys
-.
-exit
-(
-1
-)
+return
+False
         
 output
 =
@@ -4774,12 +4763,8 @@ replaces
             
 )
             
-sys
-.
-exit
-(
-1
-)
+return
+False
         
 replace_name
 =
@@ -5182,12 +5167,8 @@ clean_directory
 vendor_dir
 )
             
-sys
-.
-exit
-(
-1
-)
+return
+False
         
 self
 .
@@ -5460,12 +5441,8 @@ clean_directory
 vendor_dir
 )
             
-sys
-.
-exit
-(
-1
-)
+return
+False
         
 #
 Only
@@ -5611,3 +5588,6 @@ cumulative_added_size
 )
             
 )
+        
+return
+True
