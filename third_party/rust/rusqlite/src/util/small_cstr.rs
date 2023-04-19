@@ -148,7 +148,7 @@ as_bytes
 contains
 (
 &
-0u8
+0_u8
 )
 {
 return

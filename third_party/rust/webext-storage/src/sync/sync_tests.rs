@@ -399,7 +399,6 @@ actions
 ;
 apply_actions
 (
-&
 tx
 actions
 &
@@ -574,7 +573,6 @@ local
 get
 (
 conn
-&
 ext_id
 serde_json
 :
@@ -665,10 +663,8 @@ sync_change_counter
 0
 ;
 "
-rusqlite
-:
-:
-NO_PARAMS
+[
+]
 |
 row
 |
@@ -742,8 +738,6 @@ ext_id
 ?
 ;
 "
-vec
-!
 [
 extid
 ]
@@ -919,11 +913,10 @@ conn
 (
 )
 .
-query_rows_and_then_named
+query_rows_and_then
 (
 &
 sql
-&
 [
 ]
 from_row
@@ -2213,7 +2206,6 @@ get_mirror_data
 (
 &
 tx
-&
 guid
 )
 DbData

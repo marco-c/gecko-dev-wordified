@@ -308,6 +308,9 @@ Options
 Trace
 =
 7
+Patch
+=
+8
 }
 }
 #

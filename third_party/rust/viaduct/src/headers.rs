@@ -804,7 +804,6 @@ if
 !
 is_valid_header_value
 (
-&
 value
 )
 {

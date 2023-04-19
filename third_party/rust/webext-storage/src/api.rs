@@ -297,6 +297,7 @@ try_query_one
 :
 <
 String
+_
 >
 (
 "
@@ -599,7 +600,7 @@ ext_id
 ;
 tx
 .
-execute_named_cached
+execute_cached
 (
 "
 INSERT
@@ -677,7 +678,7 @@ ext_id
 ;
 tx
 .
-execute_named_cached
+execute_cached
 (
 "
 DELETE
@@ -827,7 +828,7 @@ ext_id
 ;
 tx
 .
-execute_named_cached
+execute_cached
 (
 "
 INSERT
@@ -2905,7 +2906,6 @@ size
 get_quota_size_of
 (
 key
-&
 v
 )
 ;
@@ -3146,7 +3146,6 @@ db
 query_rows_into
 (
 sql
-&
 [
 ]
 |
@@ -3614,7 +3613,6 @@ get
 (
 &
 tx
-&
 ext_id
 q
 )
@@ -3680,7 +3678,6 @@ get
 (
 &
 tx
-&
 ext_id
 q
 .
@@ -3709,7 +3706,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -3790,7 +3786,6 @@ get
 (
 &
 tx
-&
 ext_id
 q
 )
@@ -3921,7 +3916,6 @@ get
 (
 &
 tx
-&
 ext_id
 q
 .
@@ -3954,7 +3948,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4036,7 +4029,6 @@ get
 (
 &
 tx
-&
 ext_id
 JsonValue
 :
@@ -4074,7 +4066,6 @@ get
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4107,7 +4098,6 @@ get
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4153,7 +4143,6 @@ get
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4204,7 +4193,6 @@ remove
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4246,7 +4234,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4321,7 +4308,6 @@ clear
 (
 &
 tx
-&
 ext_id
 )
 ?
@@ -4383,7 +4369,6 @@ get
 (
 &
 tx
-&
 ext_id
 JsonValue
 :
@@ -4512,7 +4497,6 @@ get
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4551,7 +4535,6 @@ get
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4621,7 +4604,6 @@ get
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4742,7 +4724,6 @@ get
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4885,7 +4866,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -4910,7 +4890,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5021,7 +5000,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5063,7 +5041,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5247,7 +5224,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5270,7 +5246,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5302,7 +5277,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5469,7 +5443,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5537,7 +5510,6 @@ remove
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5597,7 +5569,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5669,7 +5640,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5685,7 +5655,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5712,7 +5681,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5739,7 +5707,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5766,7 +5733,6 @@ set
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5794,7 +5760,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5815,7 +5780,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5836,7 +5800,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5857,7 +5820,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5878,7 +5840,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5899,7 +5860,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5922,7 +5882,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5948,7 +5907,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -5974,7 +5932,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -6000,7 +5957,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
@@ -6032,7 +5988,6 @@ get_bytes_in_use
 (
 &
 tx
-&
 ext_id
 json
 !
