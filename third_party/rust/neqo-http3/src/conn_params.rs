@@ -149,7 +149,6 @@ derive
 (
 Debug
 Clone
-Copy
 )
 ]
 pub
