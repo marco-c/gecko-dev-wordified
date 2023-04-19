@@ -46,6 +46,9 @@ mod
 path_list
 ;
 mod
+path_to_string
+;
+mod
 spanned_value
 ;
 mod
@@ -100,6 +103,16 @@ path_list
 :
 :
 PathList
+;
+pub
+use
+self
+:
+:
+path_to_string
+:
+:
+path_to_string
 ;
 pub
 use

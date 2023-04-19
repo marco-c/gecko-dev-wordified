@@ -839,9 +839,7 @@ Move
 our
 address
 being
-free
-'
-d
+freed
 back
 one
 pointer

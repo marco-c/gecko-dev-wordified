@@ -43,6 +43,15 @@ from
 [
 serde
 ]
+(
+https
+:
+/
+/
+serde
+.
+rs
+)
 .
 A
 data

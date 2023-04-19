@@ -893,10 +893,12 @@ new
 let
 registry
 =
-registry
-.
+Arc
+:
+:
 clone
 (
+registry
 )
 ;
 move

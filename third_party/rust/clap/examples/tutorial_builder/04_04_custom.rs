@@ -1,10 +1,19 @@
+/
+/
+Note
+:
+this
+requires
+the
+cargo
+feature
 use
 clap
 :
 :
 {
-app_from_crate
 arg
+command
 ErrorKind
 }
 ;
@@ -21,9 +30,9 @@ like
 normal
 let
 mut
-app
+cmd
 =
-app_from_crate
+command
 !
 (
 )
@@ -242,7 +251,7 @@ false
 let
 matches
 =
-app
+cmd
 .
 get_matches_mut
 (
@@ -347,7 +356,7 @@ patch
 "
 )
 {
-app
+cmd
 .
 error
 (
@@ -478,7 +487,7 @@ _
 =
 >
 {
-app
+cmd
 .
 error
 (
@@ -487,7 +496,7 @@ ErrorKind
 :
 ArgumentConflict
 "
-Cam
+Can
 only
 modify
 one
@@ -585,7 +594,7 @@ unwrap_or_else
 |
 |
 {
-app
+cmd
 .
 error
 (

@@ -1228,9 +1228,6 @@ impl
 '
 a
 T
-:
-?
-Sized
 >
 Index
 for
@@ -1241,6 +1238,9 @@ T
 where
 T
 :
+?
+Sized
++
 Index
 {
 fn
@@ -1406,9 +1406,6 @@ impl
 '
 a
 T
-:
-?
-Sized
 >
 Sealed
 for
@@ -1419,6 +1416,9 @@ T
 where
 T
 :
+?
+Sized
++
 Sealed
 {
 }

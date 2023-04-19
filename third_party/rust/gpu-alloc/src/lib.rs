@@ -69,7 +69,7 @@ with
 fetching
 DeviceProperties
 from
-gfx
+gpu
 -
 alloc
 -
@@ -183,7 +183,7 @@ gpu
 alloc
 version
 without
-gfx
+gpu
 -
 alloc
 -

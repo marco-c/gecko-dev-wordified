@@ -1002,7 +1002,7 @@ inflate
 decompress_to_vec
 ;
 use
-std
+alloc
 :
 :
 vec

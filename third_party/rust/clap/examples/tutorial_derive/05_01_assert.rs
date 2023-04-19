@@ -90,12 +90,12 @@ use
 clap
 :
 :
-IntoApp
+CommandFactory
 ;
 Cli
 :
 :
-into_app
+command
 (
 )
 .
