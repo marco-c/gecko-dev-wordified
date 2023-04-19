@@ -336,6 +336,11 @@ be
 in
 that
 directory
+or
+a
+sibling
+directory
+.
 assertEq
 (
 loadRel
@@ -431,7 +436,13 @@ test
 \
 \
 ]
-basic
+[
+^
+\
+/
+/
+]
++
 [
 \
 /
