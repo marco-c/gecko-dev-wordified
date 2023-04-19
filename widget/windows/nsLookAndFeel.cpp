@@ -1332,7 +1332,7 @@ case
 ColorID
 :
 :
-MozAccentColor
+Accentcolor
 :
 if
 (
@@ -1378,7 +1378,7 @@ case
 ColorID
 :
 :
-MozAccentColorForeground
+Accentcolortext
 :
 if
 (

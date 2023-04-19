@@ -617,7 +617,7 @@ mAccentColor
 kWhite
 ;
 nscolor
-mAccentColorForeground
+mAccentColorText
 =
 kWhite
 ;

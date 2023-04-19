@@ -637,7 +637,7 @@ LookAndFeel
 ColorID
 :
 :
-MozAccentColor
+Accentcolor
 :
 LookAndFeel
 :
@@ -645,7 +645,7 @@ LookAndFeel
 ColorID
 :
 :
-MozAccentColorForeground
+Accentcolortext
 aScheme
 LookAndFeel
 :

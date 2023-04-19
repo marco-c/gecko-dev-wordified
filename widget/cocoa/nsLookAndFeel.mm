@@ -1067,7 +1067,7 @@ case
 ColorID
 :
 :
-MozAccentColorForeground
+Accentcolortext
 :
 case
 ColorID
@@ -2475,7 +2475,7 @@ case
 ColorID
 :
 :
-MozAccentColor
+Accentcolor
 :
 color
 =
