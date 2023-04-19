@@ -1051,6 +1051,11 @@ script
 )
 ;
 await
+waitForAllNetworkUpdateEvents
+(
+)
+;
+await
 navigateTo
 (
 topDocumentURL
@@ -1197,6 +1202,11 @@ without
 throwing
 await
 onNetworkEvents
+;
+await
+waitForAllNetworkUpdateEvents
+(
+)
 ;
 info
 (
