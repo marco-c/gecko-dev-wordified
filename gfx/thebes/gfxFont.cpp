@@ -14080,15 +14080,7 @@ haveColorGlyphs
 &
 &
 !
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
--
->
-HasNativeColrFontSupport
+UseNativeColrFontSupport
 (
 )
 &
