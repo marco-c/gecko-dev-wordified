@@ -5990,11 +5990,6 @@ XULPopupElement
 .
 webidl
 "
-"
-XULResizerElement
-.
-webidl
-"
 ]
 if
 CONFIG

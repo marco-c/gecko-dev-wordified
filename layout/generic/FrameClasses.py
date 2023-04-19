@@ -874,6 +874,17 @@ LEAF
 Frame
 (
 "
+nsResizerFrame
+"
+"
+Box
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 nsRootBoxFrame
 "
 "
@@ -1474,6 +1485,17 @@ nsTextFrame
 Text
 "
 LEAF
+)
+    
+Frame
+(
+"
+nsTitleBarFrame
+"
+"
+Box
+"
+NOT_LEAF
 )
     
 Frame

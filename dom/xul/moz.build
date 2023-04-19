@@ -208,11 +208,6 @@ XULPopupElement
 h
 "
 "
-XULResizerElement
-.
-h
-"
-"
 XULTextElement
 .
 h
@@ -294,11 +289,6 @@ cpp
 "
 "
 XULPopupElement
-.
-cpp
-"
-"
-XULResizerElement
 .
 cpp
 "
