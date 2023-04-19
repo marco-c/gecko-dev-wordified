@@ -743,11 +743,6 @@ _
 IntrinsicUnsafeGetStringFromReservedSlot
 )
 \
-_
-(
-IntrinsicUnsafeGetBooleanFromReservedSlot
-)
-\
 \
 _
 (
