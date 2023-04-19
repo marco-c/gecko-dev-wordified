@@ -2088,6 +2088,15 @@ aBounds
 )
 const
 ;
+void
+ApplyCrossProcOffset
+(
+nsRect
+&
+aBounds
+)
+const
+;
 LayoutDeviceIntRect
 BoundsWithOffset
 (
