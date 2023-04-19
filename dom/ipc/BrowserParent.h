@@ -2185,8 +2185,11 @@ const
 bool
 &
 aHasCustomCursor
-const
-nsCString
+Maybe
+<
+BigBuffer
+>
+&
 &
 aCursorData
 const
@@ -3466,8 +3469,8 @@ aStringToInsert
 bool
 SendPasteTransferable
 (
-const
 IPCDataTransfer
+&
 &
 aDataTransfer
 const
