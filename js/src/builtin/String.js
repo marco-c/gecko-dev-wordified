@@ -90,9 +90,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -233,6 +235,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -241,6 +244,7 @@ match
 this
 )
 ;
+}
 /
 /
 Step
@@ -323,6 +327,7 @@ matcher
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -331,6 +336,7 @@ regexp
 this
 )
 ;
+}
 }
 /
 /
@@ -372,9 +378,11 @@ flatResult
 =
 undefined
 )
+{
 return
 flatResult
 ;
+}
 }
 /
 /
@@ -404,6 +412,7 @@ IsStringMatchOptimizable
 (
 )
 )
+{
 return
 RegExpMatcher
 (
@@ -412,6 +421,7 @@ S
 0
 )
 ;
+}
 /
 /
 Step
@@ -482,6 +492,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -490,6 +501,7 @@ matchAll
 this
 )
 ;
+}
 /
 /
 Step
@@ -646,6 +658,7 @@ matcher
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -654,6 +667,7 @@ regexp
 this
 )
 ;
+}
 }
 /
 /
@@ -769,6 +783,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 padEnd
@@ -783,6 +798,7 @@ padStart
 this
 )
 ;
+}
 /
 /
 Step
@@ -830,9 +846,11 @@ intMaxLength
 =
 strLen
 )
+{
 return
 str
 ;
+}
 /
 /
 Steps
@@ -879,9 +897,11 @@ filler
 "
 "
 )
+{
 return
 str
 ;
+}
 /
 /
 Throw
@@ -918,11 +938,13 @@ intMaxLength
 >
 MAX_STRING_LENGTH
 )
+{
 ThrowRangeError
 (
 JSMSG_RESULTING_STRING_TOO_LARGE
 )
 ;
+}
 /
 /
 Step
@@ -1009,11 +1031,13 @@ padEnd
 =
 true
 )
+{
 return
 str
 +
 truncatedStringFiller
 ;
+}
 return
 truncatedStringFiller
 +
@@ -1096,9 +1120,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -1276,6 +1302,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -1284,6 +1311,7 @@ replace
 this
 )
 ;
+}
 /
 /
 Step
@@ -1359,6 +1387,7 @@ replacer
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -1368,6 +1397,7 @@ this
 replaceValue
 )
 ;
+}
 }
 /
 /
@@ -1485,9 +1515,11 @@ pos
 -
 1
 )
+{
 return
 string
 ;
+}
 /
 /
 Step
@@ -1538,12 +1570,15 @@ pos
 =
 0
 )
+{
 newString
 =
 "
 "
 ;
+}
 else
+{
 newString
 =
 Substring
@@ -1553,6 +1588,7 @@ string
 pos
 )
 ;
+}
 newString
 +
 =
@@ -1571,6 +1607,7 @@ tailPos
 <
 stringLength
 )
+{
 newString
 +
 =
@@ -1583,6 +1620,7 @@ stringLength
 tailPos
 )
 ;
+}
 /
 /
 Step
@@ -1660,6 +1698,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -1668,6 +1707,7 @@ replaceAll
 this
 )
 ;
+}
 /
 /
 Step
@@ -2267,9 +2307,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -2389,6 +2431,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -2397,6 +2440,7 @@ search
 this
 )
 ;
+}
 /
 /
 Step
@@ -2479,6 +2523,7 @@ searcher
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -2487,6 +2532,7 @@ regexp
 this
 )
 ;
+}
 }
 /
 /
@@ -2529,9 +2575,11 @@ flatResult
 -
 2
 )
+{
 return
 flatResult
 ;
+}
 }
 /
 /
@@ -2603,9 +2651,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -2663,6 +2713,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -2671,6 +2722,7 @@ split
 this
 )
 ;
+}
 /
 /
 Optimized
@@ -2858,6 +2910,7 @@ splitter
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -2867,6 +2920,7 @@ this
 limit
 )
 ;
+}
 }
 /
 /
@@ -2932,10 +2986,12 @@ lim
 =
 0
 )
+{
 return
 [
 ]
 ;
+}
 /
 /
 Step
@@ -2949,11 +3005,13 @@ separator
 =
 undefined
 )
+{
 return
 [
 S
 ]
 ;
+}
 /
 /
 Steps
@@ -2997,11 +3055,13 @@ separator
 =
 undefined
 )
+{
 return
 [
 S
 ]
 ;
+}
 /
 /
 Optimized
@@ -3075,6 +3135,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3083,6 +3144,7 @@ substring
 this
 )
 ;
+}
 /
 /
 Step
@@ -3346,6 +3408,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3354,6 +3417,7 @@ substr
 this
 )
 ;
+}
 /
 /
 Step
@@ -3452,6 +3516,7 @@ intStart
 <
 0
 )
+{
 intStart
 =
 std_Math_max
@@ -3462,6 +3527,7 @@ size
 0
 )
 ;
+}
 /
 /
 Step
@@ -3494,10 +3560,12 @@ resultLength
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 /
 /
 Step
@@ -3633,6 +3701,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3641,6 +3710,7 @@ concat
 this
 )
 ;
+}
 /
 /
 Step
@@ -3871,6 +3941,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3879,6 +3950,7 @@ slice
 this
 )
 ;
+}
 /
 /
 Step
@@ -4130,6 +4202,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4138,6 +4211,7 @@ codePointAt
 this
 )
 ;
+}
 /
 /
 Step
@@ -4193,9 +4267,11 @@ position
 =
 size
 )
+{
 return
 undefined
 ;
+}
 /
 /
 Steps
@@ -4233,9 +4309,11 @@ position
 =
 size
 )
+{
 return
 first
 ;
+}
 /
 /
 Steps
@@ -4266,9 +4344,11 @@ second
 >
 0xDFFF
 )
+{
 return
 first
 ;
+}
 /
 /
 Step
@@ -4341,6 +4421,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4349,6 +4430,7 @@ repeat
 this
 )
 ;
+}
 /
 /
 Step
@@ -4386,11 +4468,13 @@ n
 <
 0
 )
+{
 ThrowRangeError
 (
 JSMSG_NEGATIVE_REPETITION_COUNT
 )
 ;
+}
 /
 /
 Step
@@ -4425,11 +4509,13 @@ length
 MAX_STRING_LENGTH
 )
 )
+{
 ThrowRangeError
 (
 JSMSG_RESULTING_STRING_TOO_LARGE
 )
 ;
+}
 /
 /
 Communicate
@@ -4570,11 +4656,13 @@ n
 &
 1
 )
+{
 T
 +
 =
 S
 ;
+}
 n
 >
 >
@@ -4585,14 +4673,18 @@ if
 (
 n
 )
+{
 S
 +
 =
 S
 ;
+}
 else
+{
 break
 ;
+}
 }
 return
 T
@@ -5039,6 +5131,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -5047,6 +5140,7 @@ localeCompare
 this
 )
 ;
+}
 /
 /
 Steps
@@ -5266,6 +5360,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -5274,6 +5369,7 @@ toLocaleLowerCase
 this
 )
 ;
+}
 /
 /
 Step
@@ -5438,10 +5534,12 @@ length
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 if
 (
 requestedLocale
@@ -5450,12 +5548,14 @@ requestedLocale
 =
 undefined
 )
+{
 requestedLocale
 =
 DefaultLocale
 (
 )
 ;
+}
 /
 /
 Steps
@@ -5524,6 +5624,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -5532,6 +5633,7 @@ toLocaleUpperCase
 this
 )
 ;
+}
 /
 /
 Step
@@ -5696,10 +5798,12 @@ length
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 if
 (
 requestedLocale
@@ -5708,12 +5812,14 @@ requestedLocale
 =
 undefined
 )
+{
 requestedLocale
 =
 DefaultLocale
 (
 )
 ;
+}
 /
 /
 Steps
@@ -5840,10 +5946,12 @@ literalSegments
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 /
 /
 Special
@@ -5877,6 +5985,7 @@ literalSegments
 =
 1
 )
+{
 return
 ToString
 (
@@ -5886,6 +5995,7 @@ raw
 ]
 )
 ;
+}
 /
 /
 Steps
@@ -6061,6 +6171,7 @@ arguments
 .
 length
 )
+{
 resultString
 +
 =
@@ -6072,6 +6183,7 @@ nextIndex
 ]
 )
 ;
+}
 /
 /
 Steps
@@ -6161,6 +6273,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6169,6 +6282,7 @@ at
 this
 )
 ;
+}
 /
 /
 Step
@@ -6309,6 +6423,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6317,6 +6432,7 @@ big
 this
 )
 ;
+}
 return
 "
 <
@@ -6373,6 +6489,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6381,6 +6498,7 @@ blink
 this
 )
 ;
+}
 return
 "
 <
@@ -6437,6 +6555,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6445,6 +6564,7 @@ bold
 this
 )
 ;
+}
 return
 "
 <
@@ -6501,6 +6621,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6509,6 +6630,7 @@ fixed
 this
 )
 ;
+}
 return
 "
 <
@@ -6565,6 +6687,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6573,6 +6696,7 @@ italics
 this
 )
 ;
+}
 return
 "
 <
@@ -6629,6 +6753,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6637,6 +6762,7 @@ small
 this
 )
 ;
+}
 return
 "
 <
@@ -6693,6 +6819,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6701,6 +6828,7 @@ strike
 this
 )
 ;
+}
 return
 "
 <
@@ -6757,6 +6885,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6765,6 +6894,7 @@ sub
 this
 )
 ;
+}
 return
 "
 <
@@ -6821,6 +6951,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6829,6 +6960,7 @@ sup
 this
 )
 ;
+}
 return
 "
 <
@@ -6915,6 +7047,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -6923,6 +7056,7 @@ anchor
 this
 )
 ;
+}
 var
 S
 =
@@ -6997,6 +7131,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -7005,6 +7140,7 @@ fontcolor
 this
 )
 ;
+}
 var
 S
 =
@@ -7079,6 +7215,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -7087,6 +7224,7 @@ fontsize
 this
 )
 ;
+}
 var
 S
 =
@@ -7161,6 +7299,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -7169,6 +7308,7 @@ link
 this
 )
 ;
+}
 var
 S
 =
