@@ -205,11 +205,17 @@ getFxAccountsSingleton
 (
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsProfileClient
 "
@@ -297,6 +303,8 @@ profileClient
 |
 |
 new
+lazy
+.
 FxAccountsProfileClient
 (
 {

@@ -191,11 +191,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Weave
 "
@@ -218,7 +224,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 jwcrypto
 "
@@ -241,7 +247,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsPairingChannel
 "
@@ -1109,6 +1115,8 @@ options
 weave
 |
 |
+lazy
+.
 Weave
 ;
 const
@@ -1153,6 +1161,8 @@ pairingChannel
 |
 (
 await
+lazy
+.
 FxAccountsPairingChannel
 .
 create
@@ -2805,6 +2815,8 @@ key
 ;
 }
 return
+lazy
+.
 jwcrypto
 .
 generateJWE

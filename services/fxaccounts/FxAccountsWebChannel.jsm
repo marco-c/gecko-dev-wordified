@@ -177,11 +177,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Services
 "
@@ -204,7 +210,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WebChannel
 "
@@ -227,7 +233,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -267,7 +273,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsStorageManagerCanStoreField
 "
@@ -290,7 +296,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -313,7 +319,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Weave
 "
@@ -336,7 +342,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CryptoUtils
 "
@@ -359,7 +365,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsPairingFlow
 "
@@ -382,7 +388,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 pairingEnabled
 "
@@ -401,7 +407,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 separatePrivilegedMozillaWebContentProcess
 "
@@ -421,7 +427,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 separatedMozillaDomains
 "
@@ -453,7 +459,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 accountServer
 "
@@ -471,6 +477,8 @@ false
 val
 =
 >
+lazy
+.
 Services
 .
 io
@@ -1090,6 +1098,8 @@ this
 .
 _webChannelOrigin
 =
+lazy
+.
 Services
 .
 io
@@ -1142,9 +1152,13 @@ message
 let
 shouldCheckRemoteType
 =
+lazy
+.
 separatePrivilegedMozillaWebContentProcess
 &
 &
+lazy
+.
 separatedMozillaDomains
 .
 some
@@ -1156,6 +1170,8 @@ val
 {
 return
 (
+lazy
+.
 accountServer
 .
 asciiHost
@@ -1164,6 +1180,8 @@ asciiHost
 val
 |
 |
+lazy
+.
 accountServer
 .
 asciiHost
@@ -1241,6 +1259,8 @@ command
 case
 COMMAND_PROFILE_CHANGE
 :
+lazy
+.
 Services
 .
 obs
@@ -1400,6 +1420,8 @@ COMMAND_PAIR_PREFERENCES
 :
 if
 (
+lazy
+.
 pairingEnabled
 )
 {
@@ -1421,6 +1443,8 @@ sync
 {
 triggeringPrincipal
 :
+lazy
+.
 Services
 .
 scriptSecurityManager
@@ -1613,6 +1637,8 @@ channel_id
 const
 flow
 =
+lazy
+.
 FxAccountsPairingFlow
 .
 get
@@ -1712,6 +1738,8 @@ pending
 FxA
 pairing
 flow
+.
+lazy
 .
 FxAccountsPairingFlow
 .
@@ -1995,6 +2023,8 @@ this
 _channel
 =
 new
+lazy
+.
 WebChannel
 (
 this
@@ -2066,6 +2096,8 @@ options
 fxAccounts
 |
 |
+lazy
+.
 fxAccounts
 ;
 this
@@ -2088,6 +2120,8 @@ options
 privateBrowsingUtils
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 ;
 }
@@ -2567,6 +2601,8 @@ disabled
 by
 default
 .
+lazy
+.
 Services
 .
 prefs
@@ -2601,6 +2637,8 @@ engines
 declinedEngines
 )
 ;
+lazy
+.
 Weave
 .
 Service
@@ -2620,6 +2658,8 @@ engine
 =
 >
 {
+lazy
+.
 Services
 .
 prefs
@@ -3305,6 +3345,8 @@ multiService
 true
 pairing
 :
+lazy
+.
 pairingEnabled
 engines
 :
@@ -3333,6 +3375,8 @@ engineName
 try
 {
 return
+lazy
+.
 Services
 .
 prefs
@@ -3576,6 +3620,8 @@ uid
 "
 |
 |
+lazy
+.
 FxAccountsStorageManagerCanStoreField
 (
 name
@@ -3659,6 +3705,8 @@ getPreviousAccountNameHashPref
 try
 {
 return
+lazy
+.
 Services
 .
 prefs
@@ -3718,6 +3766,8 @@ setPreviousAccountNameHashPref
 acctName
 )
 {
+lazy
+.
 Services
 .
 prefs
@@ -3725,6 +3775,8 @@ prefs
 setStringPref
 (
 PREF_LAST_FXA_USER
+lazy
+.
 CryptoUtils
 .
 sha256Base64
@@ -3828,6 +3880,8 @@ uri
 {
 triggeringPrincipal
 :
+lazy
+.
 Services
 .
 scriptSecurityManager
@@ -3897,17 +3951,21 @@ getPreviousAccountNameHashPref
 )
 ;
 return
+(
 prevAcctHash
 &
 &
 prevAcctHash
 !
 =
+lazy
+.
 CryptoUtils
 .
 sha256Base64
 (
 acctName
+)
 )
 ;
 }
@@ -3950,6 +4008,8 @@ acctName
 let
 sb
 =
+lazy
+.
 Services
 .
 strings
@@ -4042,6 +4102,8 @@ description
 let
 ps
 =
+lazy
+.
 Services
 .
 prompt
@@ -4087,6 +4149,8 @@ exist
 let
 pressed
 =
+lazy
+.
 Services
 .
 prompt
@@ -4205,6 +4269,8 @@ EnsureFxAccountsWebChannel
 let
 contentUri
 =
+lazy
+.
 Services
 .
 urlFormatter

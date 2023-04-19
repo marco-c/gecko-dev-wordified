@@ -95,11 +95,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PushCrypto
 "
@@ -194,7 +200,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BulkKeyBundle
 :
@@ -263,7 +269,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 INVALID_SHAREABLE_SCHEMES
 "
@@ -1576,6 +1582,8 @@ scheme
 ;
 if
 (
+lazy
+.
 INVALID_SHAREABLE_SCHEMES
 .
 has
@@ -2637,6 +2645,8 @@ const
 wrapper
 =
 new
+lazy
+.
 CryptoWrapper
 (
 )
@@ -2655,6 +2665,8 @@ json
 const
 syncKeyBundle
 =
+lazy
+.
 BulkKeyBundle
 .
 fromJWK
@@ -2698,6 +2710,8 @@ encrypted
 }
 =
 await
+lazy
+.
 PushCrypto
 .
 encrypt
@@ -2793,6 +2807,8 @@ ciphertext
 )
 ;
 return
+lazy
+.
 PushCrypto
 .
 decrypt
@@ -2832,6 +2848,8 @@ privateKey
 ]
 =
 await
+lazy
+.
 PushCrypto
 .
 generateKeys
@@ -2848,6 +2866,8 @@ publicKey
 let
 authSecret
 =
+lazy
+.
 PushCrypto
 .
 generateAuthenticationSecret
@@ -3119,6 +3139,8 @@ const
 wrapper
 =
 new
+lazy
+.
 CryptoWrapper
 (
 )
@@ -3132,6 +3154,8 @@ keyToEncrypt
 const
 keyBundle
 =
+lazy
+.
 BulkKeyBundle
 .
 fromJWK
