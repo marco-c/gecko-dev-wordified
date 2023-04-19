@@ -640,7 +640,10 @@ if
 int
 r
 =
-cubeb_stream_init
+CubebUtils
+:
+:
+CubebStreamInit
 (
 context
 &
