@@ -557,7 +557,7 @@ lazy
 .
 ComponentUtils
 .
-_getFactory
+generateSingletonFactory
 (
 targetConstructor
 )

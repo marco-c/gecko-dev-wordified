@@ -480,7 +480,7 @@ selectorFactory
 =
 ComponentUtils
 .
-_getFactory
+generateSingletonFactory
 (
 NewProcessSelector
 )
