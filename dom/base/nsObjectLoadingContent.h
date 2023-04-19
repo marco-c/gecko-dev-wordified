@@ -1223,13 +1223,6 @@ AspectRatio
 aIntrinsicRatio
 )
 ;
-void
-SubdocumentImageLoadComplete
-(
-nsresult
-aResult
-)
-;
 protected
 :
 /
@@ -2940,8 +2933,6 @@ ElementState
 aOldState
 bool
 aNotify
-bool
-aForceRestyle
 )
 ;
 /
@@ -3810,11 +3801,6 @@ videos
 .
 bool
 mRewrittenYoutubeEmbed
-:
-1
-;
-bool
-mLoadingSyntheticDocument
 :
 1
 ;

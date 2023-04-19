@@ -23630,7 +23630,7 @@ children
 bc
 -
 >
-NonSyntheticChildren
+Children
 (
 )
 ;
@@ -27492,7 +27492,7 @@ bc
 bc
 -
 >
-NonSyntheticChildren
+Children
 (
 )
 .
