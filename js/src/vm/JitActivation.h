@@ -1060,7 +1060,7 @@ wasm
 Frame
 :
 :
-toJitEntryCaller
+untagExitFP
 (
 packedExitFP_
 )
@@ -1617,7 +1617,7 @@ wasm
 Frame
 :
 :
-isExitOrJitEntryFP
+isExitFP
 (
 packedExitFP_
 )
@@ -1656,7 +1656,7 @@ wasm
 Frame
 :
 :
-toJitEntryCaller
+untagExitFP
 (
 packedExitFP_
 )
@@ -1711,7 +1711,7 @@ wasm
 Frame
 :
 :
-isExitOrJitEntryFP
+isExitFP
 (
 fp
 )
@@ -1725,7 +1725,7 @@ wasm
 Frame
 :
 :
-addExitOrJitEntryFPTag
+addExitFPTag
 (
 fp
 )
