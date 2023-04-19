@@ -1227,15 +1227,18 @@ fakeNimbusFeatures
 cfr
 "
 "
+infobar
+"
+"
+spotlight
+"
+"
 moments
 -
 page
 "
 "
-infobar
-"
-"
-spotlight
+pbNewtab
 "
 ]
 .
@@ -11538,7 +11541,7 @@ let
 experimentAPIStub
 ;
 let
-messageGroups
+featureIds
 =
 [
 "
@@ -11582,7 +11585,7 @@ stub
 (
 )
 ;
-messageGroups
+featureIds
 .
 forEach
 (
@@ -11781,7 +11784,7 @@ remote
 -
 experiments
 "
-messageGroups
+featureIds
 }
 )
 ;
@@ -11811,7 +11814,7 @@ lengthOf
 response
 .
 messages
-messageGroups
+featureIds
 .
 length
 *
@@ -11835,7 +11838,7 @@ m
 .
 forReachEvent
 )
-messageGroups
+featureIds
 .
 length
 )
@@ -17607,7 +17610,7 @@ remote
 -
 experiments
 "
-messageGroups
+featureIds
 :
 [
 "
@@ -17700,7 +17703,7 @@ remote
 -
 experiments
 "
-messageGroups
+featureIds
 :
 [
 "
@@ -17770,7 +17773,7 @@ remote
 -
 experiments
 "
-messageGroups
+featureIds
 :
 [
 "
@@ -17951,7 +17954,7 @@ remote
 -
 experiments
 "
-messageGroups
+featureIds
 :
 [
 "
@@ -18023,7 +18026,7 @@ remote
 -
 experiments
 "
-messageGroups
+featureIds
 :
 [
 "
@@ -18369,7 +18372,7 @@ remote
 -
 experiments
 "
-messageGroups
+featureIds
 :
 [
 "
@@ -18417,7 +18420,7 @@ Nedds
 to
 match
 the
-messageGroups
+featureIds
 value
 to
 return
