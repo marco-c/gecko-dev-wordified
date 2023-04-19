@@ -81,13 +81,9 @@ newStruct
 result
 eqref
 )
-rtt
-.
-canon
-e
 struct
 .
-new_with_rtt
+new
 e
 )
 )

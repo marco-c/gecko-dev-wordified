@@ -65,13 +65,9 @@ make
 result
 eqref
 )
-rtt
-.
-canon
-s
 struct
 .
-new_with_rtt
+new
 s
 )
 (
