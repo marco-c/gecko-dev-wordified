@@ -376,13 +376,6 @@ Family
 /
 namespace
 fontlist
-namespace
-gfx
-{
-struct
-DeviceColor
-;
-}
 }
 /
 /
