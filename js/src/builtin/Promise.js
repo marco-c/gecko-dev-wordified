@@ -106,6 +106,7 @@ IsObject
 promise
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
@@ -120,6 +121,7 @@ value
 "
 )
 ;
+}
 /
 /
 Step
