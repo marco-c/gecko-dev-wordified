@@ -7372,6 +7372,8 @@ tasks
 by
 doing
 scaling
+/
+/
 ourselves
 (
 via
@@ -7615,12 +7617,12 @@ clip
 the
 Visual
 to
+/
+/
 the
 unpadded
 rect
 .
-/
-/
 Just
 do
 this
