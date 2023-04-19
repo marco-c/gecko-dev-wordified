@@ -7135,7 +7135,7 @@ mozilla
 NullPrincipal
 :
 :
-Create
+CreateWithInheritedAttributes
 (
 attrs
 )
