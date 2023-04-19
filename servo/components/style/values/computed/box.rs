@@ -204,6 +204,7 @@ ScrollSnapAxis
 ScrollSnapStop
 ScrollSnapStrictness
 ScrollSnapType
+ScrollTimelineName
 ScrollbarGutter
 TouchAction
 TransitionProperty

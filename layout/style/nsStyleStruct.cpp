@@ -22077,6 +22077,12 @@ aSource
 .
 mAnimationTimelineCount
 )
+mScrollTimelineName
+(
+aSource
+.
+mScrollTimelineName
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -22421,6 +22427,14 @@ mMozWindowTransform
 aNewData
 .
 mMozWindowTransform
+|
+|
+mScrollTimelineName
+!
+=
+aNewData
+.
+mScrollTimelineName
 )
 )
 {
