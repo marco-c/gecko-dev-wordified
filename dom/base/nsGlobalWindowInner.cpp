@@ -23958,6 +23958,13 @@ FORWARD_TO_OUTER_OR_THROW
 Print
 (
 aSettings
+/
+*
+aRemotePrintJob
+=
+*
+/
+nullptr
 aListener
 aDocShellToCloneInto
 nsGlobalWindowOuter

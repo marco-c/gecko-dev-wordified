@@ -2198,6 +2198,15 @@ mozilla
 :
 TimeStamp
 ;
+using
+mozilla
+:
+:
+layout
+:
+:
+RemotePrintJobChild
+;
 #
 define
 FORWARD_TO_INNER
@@ -34744,6 +34753,7 @@ Print
 nullptr
 nullptr
 nullptr
+nullptr
 IsPreview
 (
 forPreview
@@ -34822,6 +34832,9 @@ Print
 nsIPrintSettings
 *
 aPrintSettings
+RemotePrintJobChild
+*
+aRemotePrintJob
 nsIWebProgressListener
 *
 aListener
@@ -35944,6 +35957,7 @@ webBrowserPrint
 Print
 (
 ps
+aRemotePrintJob
 aListener
 )
 ;
