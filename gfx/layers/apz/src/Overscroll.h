@@ -574,6 +574,9 @@ mDeferredTasks
 AppendElement
 (
 NewRunnableMethod
+<
+ScrollSnapFlags
+>
 (
 "
 layers
@@ -591,6 +594,15 @@ AsyncPanZoomController
 :
 :
 ScrollSnap
+ScrollSnapFlags
+:
+:
+IntendedDirection
+|
+ScrollSnapFlags
+:
+:
+IntendedEndPosition
 )
 )
 ;
