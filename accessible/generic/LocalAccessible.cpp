@@ -26183,6 +26183,12 @@ here
 if
 (
 !
+IPCAccessibilityActive
+(
+)
+|
+|
+!
 StaticPrefs
 :
 :
