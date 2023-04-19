@@ -1818,7 +1818,7 @@ errorMessage
 No
 applicable
 application
-windows
+window
 found
 "
 }
