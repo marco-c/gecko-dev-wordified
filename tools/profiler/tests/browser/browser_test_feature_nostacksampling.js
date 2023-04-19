@@ -366,7 +366,7 @@ contentThread
 }
 =
 await
-stopProfilerAndGetThreads
+waitSamplingAndStopProfilerAndGetThreads
 (
 contentPid
 )

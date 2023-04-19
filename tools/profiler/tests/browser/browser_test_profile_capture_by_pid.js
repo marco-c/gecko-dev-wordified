@@ -447,7 +447,7 @@ const
 profile
 =
 await
-stopAndGetProfile
+waitSamplingAndStopAndGetProfile
 (
 )
 ;

@@ -179,11 +179,7 @@ const
 profile
 =
 await
-Services
-.
-profiler
-.
-getProfileDataAsync
+stopNowAndGetProfile
 (
 )
 ;
