@@ -3945,7 +3945,8 @@ mbd
 >
 fullpixel_mask
 =
-0xffffffff
+~
+0
 ;
 if
 (
@@ -3959,7 +3960,8 @@ mbd
 >
 fullpixel_mask
 =
-0xfffffff8
+~
+7
 ;
 vp8_zero
 (

@@ -633,6 +633,10 @@ num_warnings
 {
 warn
 (
+"
+%
+s
+"
 warning
 -
 >

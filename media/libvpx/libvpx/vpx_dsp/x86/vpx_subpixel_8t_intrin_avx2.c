@@ -6880,7 +6880,6 @@ src
 avx2
 0
 )
-;
 FUN_CONV_1D
 (
 vert
@@ -6901,7 +6900,6 @@ num_taps
 avx2
 0
 )
-;
 FUN_CONV_1D
 (
 avg_horiz
@@ -6913,7 +6911,6 @@ avg_
 avx2
 1
 )
-;
 FUN_CONV_1D
 (
 avg_vert
@@ -6935,7 +6932,6 @@ avg_
 avx2
 1
 )
-;
 /
 /
 void
@@ -7025,14 +7021,12 @@ FUN_CONV_2D
 avx2
 0
 )
-;
 FUN_CONV_2D
 (
 avg_
 avx2
 1
 )
-;
 #
 endif
 /

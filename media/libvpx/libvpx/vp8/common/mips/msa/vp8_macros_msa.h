@@ -585,7 +585,7 @@ psrc
 const
 uint8_t
 *
-psrc_m
+psrc_ld
 =
 (
 const
@@ -613,7 +613,7 @@ val0_m
 =
 LW
 (
-psrc_m
+psrc_ld
 )
 ;
 \
@@ -621,7 +621,7 @@ val1_m
 =
 LW
 (
-psrc_m
+psrc_ld
 +
 4
 )

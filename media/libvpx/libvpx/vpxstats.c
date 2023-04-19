@@ -336,7 +336,7 @@ stats
 buffer
 (
 %
-lu
+u
 bytes
 )
 "

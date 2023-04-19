@@ -222,7 +222,7 @@ num_elements_
 )
 raw_buffer_
 (
-NULL
+nullptr
 )
 {
 }
@@ -291,7 +291,7 @@ num_elements_
 )
 raw_buffer_
 (
-NULL
+nullptr
 )
 {
 }
@@ -351,7 +351,7 @@ num_elements_
 )
 raw_buffer_
 (
-NULL
+nullptr
 )
 {
 }
@@ -414,7 +414,7 @@ num_elements_
 )
 raw_buffer_
 (
-NULL
+nullptr
 )
 {
 }
@@ -799,7 +799,7 @@ if
 raw_buffer_
 !
 =
-NULL
+nullptr
 )
 return
 false
@@ -986,12 +986,10 @@ num_elements_
 ]
 ;
 }
-EXPECT_TRUE
+EXPECT_NE
 (
 raw_buffer_
-!
-=
-NULL
+nullptr
 )
 ;
 SetPadding
@@ -1111,7 +1109,7 @@ if
 raw_buffer_
 )
 return
-NULL
+nullptr
 ;
 return
 raw_buffer_

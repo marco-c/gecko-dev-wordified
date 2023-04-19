@@ -669,6 +669,14 @@ sz
 pkt_size
 )
 ;
+ASSERT_NE
+(
+firstpass_stats_
+.
+buf
+nullptr
+)
+;
 memcpy
 (
 (

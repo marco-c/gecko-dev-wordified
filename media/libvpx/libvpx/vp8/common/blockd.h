@@ -302,7 +302,6 @@ A
 (
 B
 )
-;
 typedef
 enum
 {

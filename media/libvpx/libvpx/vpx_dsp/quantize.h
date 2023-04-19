@@ -128,8 +128,6 @@ tran_low_t
 coeff_ptr
 int
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -158,8 +156,6 @@ const
 tran_low_t
 *
 coeff_ptr
-int
-skip_block
 const
 int16_t
 *
@@ -193,8 +189,6 @@ tran_low_t
 coeff_ptr
 int
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -223,8 +217,6 @@ const
 tran_low_t
 *
 coeff_ptr
-int
-skip_block
 const
 int16_t
 *

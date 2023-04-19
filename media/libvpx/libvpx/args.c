@@ -740,6 +740,14 @@ argv
 )
 )
 ;
+if
+(
+!
+new_argv
+)
+return
+NULL
+;
 memcpy
 (
 new_argv

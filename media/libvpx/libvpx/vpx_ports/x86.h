@@ -255,7 +255,6 @@ c
 func2
 )
 )
-;
 #
 else
 #
@@ -354,7 +353,6 @@ c
 func2
 )
 )
-;
 #
 endif
 #
@@ -485,7 +483,6 @@ c
 func2
 )
 )
-;
 #
 else
 #
@@ -588,7 +585,6 @@ c
 func2
 )
 )
-;
 #
 endif
 #
@@ -3023,10 +3019,10 @@ x87_set_control_word
 mode
 &
 ~
-0x300
+0x300u
 )
 |
-0x200
+0x200u
 )
 ;
 return

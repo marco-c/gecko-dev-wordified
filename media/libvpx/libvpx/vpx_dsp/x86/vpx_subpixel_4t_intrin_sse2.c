@@ -7778,7 +7778,6 @@ src
 sse2
 0
 )
-;
 FUN_CONV_1D
 (
 vert
@@ -7799,7 +7798,6 @@ src_stride
 sse2
 0
 )
-;
 FUN_CONV_1D
 (
 avg_horiz
@@ -7811,7 +7809,6 @@ avg_
 sse2
 1
 )
-;
 FUN_CONV_1D
 (
 avg_vert
@@ -7833,7 +7830,6 @@ avg_
 sse2
 1
 )
-;
 /
 /
 void
@@ -7923,14 +7919,12 @@ FUN_CONV_2D
 sse2
 0
 )
-;
 FUN_CONV_2D
 (
 avg_
 sse2
 1
 )
-;
 #
 if
 CONFIG_VP9_HIGHBITDEPTH
@@ -8298,7 +8292,6 @@ src
 sse2
 0
 )
-;
 HIGH_FUN_CONV_1D
 (
 vert
@@ -8319,7 +8312,6 @@ num_taps
 sse2
 0
 )
-;
 HIGH_FUN_CONV_1D
 (
 avg_horiz
@@ -8331,7 +8323,6 @@ avg_
 sse2
 1
 )
-;
 HIGH_FUN_CONV_1D
 (
 avg_vert
@@ -8353,7 +8344,6 @@ avg_
 sse2
 1
 )
-;
 /
 /
 void
@@ -8447,14 +8437,12 @@ HIGH_FUN_CONV_2D
 sse2
 0
 )
-;
 HIGH_FUN_CONV_2D
 (
 avg_
 sse2
 1
 )
-;
 #
 endif
 /

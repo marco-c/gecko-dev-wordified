@@ -1226,7 +1226,8 @@ pass
 +
 )
 {
-last_pts_
+vpx_codec_pts_t
+last_pts
 =
 0
 ;
@@ -1618,10 +1619,10 @@ data
 frame
 .
 pts
-last_pts_
+last_pts
 )
 ;
-last_pts_
+last_pts
 =
 pkt
 -

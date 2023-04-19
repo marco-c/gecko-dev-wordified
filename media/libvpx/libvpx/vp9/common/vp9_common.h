@@ -190,6 +190,7 @@ dest
 src
 )
 \
+do
 {
 \
 assert
@@ -219,6 +220,10 @@ src
 ;
 \
 }
+while
+(
+0
+)
 /
 /
 Use

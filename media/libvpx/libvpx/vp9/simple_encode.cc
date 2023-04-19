@@ -712,6 +712,14 @@ buffer_pool
 )
 )
 ;
+if
+(
+!
+buffer_pool
+)
+return
+NULL
+;
 vp9_initialize_enc
 (
 )
@@ -6090,6 +6098,8 @@ int
 target_bitrate
 int
 encode_speed
+int
+target_level
 vpx_enc_pass
 enc_pass
 const
@@ -6114,6 +6124,7 @@ frame_height
 frame_rate
 target_bitrate
 encode_speed
+target_level
 enc_pass
 )
 ;
@@ -6177,6 +6188,8 @@ int
 target_bitrate
 int
 num_frames
+int
+target_level
 const
 char
 *
@@ -6230,6 +6243,10 @@ num_frames
 encode_speed_
 =
 0
+;
+target_level_
+=
+target_level
 ;
 frame_coding_index_
 =
@@ -6530,6 +6547,7 @@ frame_height_
 frame_rate
 target_bitrate_
 encode_speed_
+target_level_
 enc_pass
 impl_ptr_
 -
@@ -6576,6 +6594,7 @@ frame_height_
 frame_rate
 target_bitrate_
 encode_speed_
+target_level_
 VPX_RC_FIRST_PASS
 impl_ptr_
 -
@@ -7846,6 +7865,7 @@ frame_height_
 frame_rate
 target_bitrate_
 encode_speed_
+target_level_
 VPX_RC_LAST_PASS
 impl_ptr_
 -
@@ -9304,6 +9324,7 @@ frame_height_
 frame_rate
 target_bitrate_
 encode_speed_
+target_level_
 VPX_RC_LAST_PASS
 impl_ptr_
 -
@@ -9439,6 +9460,7 @@ frame_height_
 frame_rate
 target_bitrate_
 encode_speed_
+target_level_
 VPX_RC_LAST_PASS
 impl_ptr_
 -

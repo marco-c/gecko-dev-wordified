@@ -367,7 +367,7 @@ col_buf
 }
 ;
 static
-void
+int
 fs_ctx_init
 (
 fs_ctx
@@ -595,6 +595,15 @@ malloc
 (
 data_size
 )
+;
+if
+(
+!
+data
+)
+return
+-
+1
 ;
 _ctx
 -
@@ -888,6 +897,9 @@ unsigned
 *
 )
 data
+;
+return
+0
 ;
 }
 static
@@ -4243,6 +4255,8 @@ ret
 =
 1
 ;
+if
+(
 fs_ctx_init
 (
 &
@@ -4251,6 +4265,11 @@ _w
 _h
 FS_NLEVELS
 )
+)
+return
+99
+.
+0
 ;
 fs_downsample_level0
 (

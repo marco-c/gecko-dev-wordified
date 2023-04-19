@@ -278,7 +278,7 @@ segment_id
 =
 ~
 (
-1
+1u
 <
 <
 feature_id
