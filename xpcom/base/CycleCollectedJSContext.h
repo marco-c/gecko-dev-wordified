@@ -1138,14 +1138,15 @@ we
 need
 an
 idle
+minor
 GC
 task
 .
+virtual
 void
-IsIdleGCTaskNeeded
+MaybePokeGC
 (
 )
-const
 ;
 uint32_t
 RecursionDepth
