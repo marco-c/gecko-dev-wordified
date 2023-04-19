@@ -266,6 +266,44 @@ h
 "
 #
 endif
+#
+if
+defined
+(
+ANDROID
+)
+#
+define
+ACQUIRE_ANDROID_LOCK
+\
+MonitorAutoLock
+mal
+(
+nsAccessibilityService
+:
+:
+GetAndroidMonitor
+(
+)
+)
+;
+#
+else
+#
+define
+ACQUIRE_ANDROID_LOCK
+\
+do
+{
+\
+}
+while
+(
+0
+)
+;
+#
+endif
 namespace
 mozilla
 {
@@ -382,6 +420,7 @@ bool
 aFromUser
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -1523,6 +1562,7 @@ bool
 aFromUser
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -1874,6 +1914,7 @@ uint32_t
 aEventType
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -2122,6 +2163,7 @@ bool
 aEnabled
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -2380,6 +2422,7 @@ int32_t
 aGranularity
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -2671,6 +2714,7 @@ bool
 aFromUser
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -2917,6 +2961,7 @@ uint32_t
 aType
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -3110,6 +3155,7 @@ bool
 aFromUser
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -3318,6 +3364,7 @@ uint32_t
 aMaxScrollY
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -3525,6 +3572,7 @@ bool
 aFinal
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -3700,6 +3748,7 @@ uint16_t
 aPriority
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -3873,6 +3922,7 @@ TextRangeData
 aSelection
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -4076,6 +4126,7 @@ role
 aRole
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
@@ -5391,6 +5442,7 @@ RecvShutdown
 (
 )
 {
+ACQUIRE_ANDROID_LOCK
 Destroy
 (
 )
@@ -6772,6 +6824,7 @@ LayoutDeviceIntRect
 aCaretRect
 )
 {
+ACQUIRE_ANDROID_LOCK
 if
 (
 mShutdown
