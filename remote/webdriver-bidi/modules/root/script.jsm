@@ -639,9 +639,6 @@ boolean
 =
 }
 awaitPromise
-[
-unsupported
-]
 *
 Determines
 if
@@ -1130,6 +1127,7 @@ id
 params
 :
 {
+awaitPromise
 expression
 :
 source
