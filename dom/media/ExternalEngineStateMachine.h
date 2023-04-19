@@ -1643,6 +1643,14 @@ SetBlankVideoToVideoContainer
 (
 )
 ;
+media
+:
+:
+TimeUnit
+GetVideoThreshold
+(
+)
+;
 UniquePtr
 <
 ExternalPlaybackEngine
