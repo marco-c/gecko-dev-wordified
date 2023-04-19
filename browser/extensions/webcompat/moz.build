@@ -1270,6 +1270,13 @@ svg
 "
 shims
 /
+firebase
+.
+js
+"
+"
+shims
+/
 google
 -
 ads
