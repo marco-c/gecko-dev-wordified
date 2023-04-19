@@ -147,7 +147,6 @@ AppShutdownTelemetry
 XPCOMWillShutdown
 XPCOMShutdown
 XPCOMShutdownThreads
-XPCOMShutdownLoaders
 XPCOMShutdownFinal
 CCPostLastCycleCollection
 ShutdownPhase_Length

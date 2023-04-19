@@ -465,10 +465,6 @@ XPCOMShutdownThreads
 nullptr
 /
 /
-XPCOMShutdownLoaders
-nullptr
-/
-/
 XPCOMShutdownFinal
 nullptr
 /
