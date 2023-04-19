@@ -1120,7 +1120,7 @@ search
 .
 wrappedJSObject
 .
-makeEngineFromConfig
+_makeEngineFromConfig
 (
 config
 )
