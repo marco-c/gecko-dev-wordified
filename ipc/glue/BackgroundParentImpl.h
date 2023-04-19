@@ -248,6 +248,15 @@ override
 ;
 already_AddRefed
 <
+PBackgroundFileSystemParent
+>
+AllocPBackgroundFileSystemParent
+(
+)
+override
+;
+already_AddRefed
+<
 PBackgroundIDBFactoryParent
 >
 AllocPBackgroundIDBFactoryParent
