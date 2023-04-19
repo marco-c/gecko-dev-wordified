@@ -2785,10 +2785,10 @@ Cleanup
 &
 &
 !
-IndexedDatabaseManager
+StaticPrefs
 :
 :
-ExperimentalFeaturesEnabled
+dom_indexedDB_experimental
 (
 )
 )

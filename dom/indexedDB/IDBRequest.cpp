@@ -1718,10 +1718,10 @@ bool
 fileHandleDisabled
 =
 !
-IndexedDatabaseManager
+StaticPrefs
 :
 :
-IsFileHandleEnabled
+dom_fileHandle_enabled
 (
 )
 ;
