@@ -693,6 +693,14 @@ ErrorContext
 public
 :
 virtual
+~
+ErrorContext
+(
+)
+=
+default
+;
+virtual
 bool
 addPendingError
 (
