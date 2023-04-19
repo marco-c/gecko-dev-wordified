@@ -322,10 +322,15 @@ DAMAGE
 .
 #
 ifndef
-GOOGLE_PROTOBUF_UTIL_CONVERTER_UTILITY_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_UTILITY_H__
 #
 define
-GOOGLE_PROTOBUF_UTIL_CONVERTER_UTILITY_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_UTILITY_H__
+#
+include
+<
+cstdint
+>
 #
 include
 <
@@ -426,7 +431,7 @@ protobuf
 /
 stubs
 /
-status
+statusor
 .
 h
 >
@@ -439,7 +444,7 @@ protobuf
 /
 stubs
 /
-statusor
+status
 .
 h
 >
@@ -486,7 +491,7 @@ com
 "
 static
 const
-int64
+int64_t
 kTypeUrlSize
 =
 19
@@ -571,7 +576,7 @@ the
 default_value
 .
 PROTOBUF_EXPORT
-int64
+int64_t
 GetInt64OptionOrDefault
 (
 const
@@ -589,7 +594,7 @@ Option
 options
 StringPiece
 option_name
-int64
+int64_t
 default_value
 )
 ;
@@ -722,12 +727,12 @@ a
 more
 public
 /
-sharable
+shareable
 location
 so
+/
+/
 others
-/
-/
 can
 use
 .
@@ -758,7 +763,7 @@ Any
 type
 .
 PROTOBUF_EXPORT
-int64
+int64_t
 GetInt64FromAny
 (
 const
@@ -1130,7 +1135,7 @@ protobuf
 Type
 *
 type
-int32
+int32_t
 number
 )
 ;
@@ -1230,7 +1235,7 @@ protobuf
 Enum
 *
 enum_type
-int32
+int32_t
 value
 )
 ;
@@ -1710,4 +1715,4 @@ inc
 endif
 /
 /
-GOOGLE_PROTOBUF_UTIL_CONVERTER_UTILITY_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_UTILITY_H__

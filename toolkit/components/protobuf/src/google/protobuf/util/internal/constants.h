@@ -322,10 +322,15 @@ DAMAGE
 .
 #
 ifndef
-GOOGLE_PROTOBUF_UTIL_CONVERTER_CONSTANTS_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_CONSTANTS_H__
 #
 define
-GOOGLE_PROTOBUF_UTIL_CONVERTER_CONSTANTS_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_CONSTANTS_H__
+#
+include
+<
+cstdint
+>
 #
 include
 <
@@ -500,7 +505,7 @@ S
 ;
 /
 /
-Minimun
+Minimum
 seconds
 allowed
 in
@@ -513,7 +518,7 @@ Timestamp
 value
 .
 const
-int64
+int64_t
 kTimestampMinSeconds
 =
 -
@@ -534,7 +539,7 @@ Timestamp
 value
 .
 const
-int64
+int64_t
 kTimestampMaxSeconds
 =
 253402300799LL
@@ -554,7 +559,7 @@ Duration
 value
 .
 const
-int64
+int64_t
 kDurationMinSeconds
 =
 -
@@ -575,7 +580,7 @@ Duration
 value
 .
 const
-int64
+int64_t
 kDurationMaxSeconds
 =
 315576000000LL
@@ -589,7 +594,7 @@ a
 second
 .
 const
-int32
+int32_t
 kNanosPerSecond
 =
 1000000000
@@ -869,4 +874,4 @@ google
 endif
 /
 /
-GOOGLE_PROTOBUF_UTIL_CONVERTER_CONSTANTS_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_CONSTANTS_H__

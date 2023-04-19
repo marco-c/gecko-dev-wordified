@@ -557,6 +557,9 @@ example
 void
 Foo
 (
+std
+:
+:
 string
 s
 )
@@ -591,6 +594,9 @@ NewCallback
 (
 &
 Foo
+std
+:
+:
 string
 (
 "
@@ -619,6 +625,9 @@ void
 Foo
 (
 const
+std
+:
+:
 string
 &
 s
@@ -626,6 +635,9 @@ s
 ;
 /
 /
+std
+:
+:
 string
 my_str
 ;
@@ -649,7 +661,7 @@ Can
 '
 t
 use
-referecnes
+references
 .
 /
 /

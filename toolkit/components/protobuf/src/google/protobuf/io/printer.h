@@ -397,6 +397,13 @@ common
 .
 h
 >
+/
+/
+Must
+be
+included
+last
+.
 #
 include
 <
@@ -569,7 +576,11 @@ AddAnnotationNew
 (
 Annotation
 &
+/
+*
 a
+*
+/
 )
 {
 }
@@ -680,7 +691,6 @@ AnnotationCollector
 :
 AddAnnotation
 .
-virtual
 void
 AddAnnotation
 (
@@ -706,6 +716,7 @@ int
 &
 path
 )
+override
 {
 typename
 AnnotationProto
@@ -788,7 +799,6 @@ AnnotationCollector
 :
 AddAnnotation
 .
-virtual
 void
 AddAnnotationNew
 (
@@ -796,6 +806,7 @@ Annotation
 &
 a
 )
+override
 {
 auto
 *
@@ -1750,7 +1761,7 @@ Printer
 /
 Link
 a
-subsitution
+substitution
 variable
 emitted
 by
@@ -1761,9 +1772,9 @@ to
 Print
 to
 the
+/
+/
 object
-/
-/
 described
 by
 descriptor
@@ -1947,7 +1958,7 @@ path
 /
 Link
 a
-subsitution
+substitution
 variable
 emitted
 by

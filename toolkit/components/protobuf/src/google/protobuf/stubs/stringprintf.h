@@ -477,6 +477,9 @@ C
 string
 PROTOBUF_EXPORT
 extern
+std
+:
+:
 string
 StringPrintf
 (
@@ -503,10 +506,16 @@ it
 PROTOBUF_EXPORT
 extern
 const
+std
+:
+:
 string
 &
 SStringPrintf
 (
+std
+:
+:
 string
 *
 dst
@@ -532,6 +541,9 @@ extern
 void
 StringAppendF
 (
+std
+:
+:
 string
 *
 dst
@@ -578,6 +590,9 @@ extern
 void
 StringAppendV
 (
+std
+:
+:
 string
 *
 dst
@@ -653,6 +668,9 @@ size
 kStringPrintfVectorMaxArgs
 PROTOBUF_EXPORT
 extern
+std
+:
+:
 string
 StringPrintfVector
 (
@@ -666,6 +684,9 @@ std
 :
 vector
 <
+std
+:
+:
 string
 >
 &

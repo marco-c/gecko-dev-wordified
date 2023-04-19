@@ -322,10 +322,10 @@ DAMAGE
 .
 #
 ifndef
-GOOGLE_PROTOBUF_UTIL_CONVERTER_STRUCTURED_OBJECTWRITER_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_STRUCTURED_OBJECTWRITER_H__
 #
 define
-GOOGLE_PROTOBUF_UTIL_CONVERTER_STRUCTURED_OBJECTWRITER_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_STRUCTURED_OBJECTWRITER_H__
 #
 include
 <
@@ -372,6 +372,13 @@ object_writer
 .
 h
 >
+/
+/
+Must
+be
+included
+last
+.
 #
 include
 <
@@ -509,11 +516,11 @@ ObjectWriter
 {
 public
 :
-virtual
 ~
 StructuredObjectWriter
 (
 )
+override
 {
 }
 protected
@@ -606,7 +613,7 @@ level_
 parent
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -884,4 +891,4 @@ inc
 endif
 /
 /
-GOOGLE_PROTOBUF_UTIL_CONVERTER_STRUCTURED_OBJECTWRITER_H__
+GOOGLE_PROTOBUF_UTIL_INTERNAL_STRUCTURED_OBJECTWRITER_H__

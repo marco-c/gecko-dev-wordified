@@ -693,7 +693,7 @@ buffers
 .
 The
 default
-implemenation
+implementation
 does
 nothing
 .
@@ -2009,6 +2009,9 @@ public
 explicit
 StringByteSink
 (
+std
+:
+:
 string
 *
 dest
@@ -2034,6 +2037,9 @@ n
 override
 ;
 private
+:
+std
+:
 :
 string
 *

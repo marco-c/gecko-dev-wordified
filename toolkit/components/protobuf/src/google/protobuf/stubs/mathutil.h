@@ -494,7 +494,11 @@ bool
 IsNan
 (
 T
+/
+*
 val
+*
+/
 )
 {
 return

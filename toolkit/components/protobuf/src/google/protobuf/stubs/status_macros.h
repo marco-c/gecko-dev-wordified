@@ -566,7 +566,7 @@ lhs
 =
 result
 .
-ValueOrDie
+value
 (
 )
 ;

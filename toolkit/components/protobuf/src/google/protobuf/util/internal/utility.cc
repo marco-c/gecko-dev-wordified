@@ -348,6 +348,11 @@ cmath
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #
@@ -433,11 +438,9 @@ google
 /
 protobuf
 /
-util
+stubs
 /
-internal
-/
-constants
+strutil
 .
 h
 >
@@ -448,9 +451,11 @@ google
 /
 protobuf
 /
-stubs
+util
 /
-strutil
+internal
+/
+constants
 .
 h
 >
@@ -565,7 +570,7 @@ value
 )
 ;
 }
-int64
+int64_t
 GetInt64OptionOrDefault
 (
 const
@@ -583,7 +588,7 @@ Option
 options
 StringPiece
 option_name
-int64
+int64_t
 default_value
 )
 {
@@ -861,7 +866,7 @@ value
 )
 ;
 }
-int64
+int64_t
 GetInt64FromAny
 (
 const
@@ -1396,7 +1401,7 @@ protobuf
 Type
 *
 type
-int32
+int32_t
 number
 )
 {
@@ -1588,7 +1593,7 @@ protobuf
 Enum
 *
 enum_type
-int32
+int32_t
 value
 )
 {
@@ -2636,7 +2641,7 @@ string
 *
 well_known_types_
 =
-NULL
+nullptr
 ;
 PROTOBUF_NAMESPACE_ID
 :
