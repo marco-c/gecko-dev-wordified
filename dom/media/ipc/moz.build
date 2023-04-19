@@ -298,7 +298,7 @@ if
 CONFIG
 [
 "
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 "
 ]
 :

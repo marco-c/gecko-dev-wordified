@@ -2549,7 +2549,7 @@ NS_IsMainThread
 ;
 #
 ifndef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 DecodeError
 (
 aError

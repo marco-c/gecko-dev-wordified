@@ -456,7 +456,7 @@ mDemuxer
 ;
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 /
 /
 TODO
