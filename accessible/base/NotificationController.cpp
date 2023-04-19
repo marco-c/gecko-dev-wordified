@@ -4877,6 +4877,11 @@ is
 /
 /
 finished
+and
+the
+PresShell
+has
+initialized
 .
 if
 (
@@ -4896,6 +4901,15 @@ mPresShell
 -
 >
 IsReflowInterrupted
+(
+)
+|
+|
+!
+mPresShell
+-
+>
+DidInitialize
 (
 )
 )
