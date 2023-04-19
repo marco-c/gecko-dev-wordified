@@ -331,17 +331,6 @@ Cleanup
 (
 )
 ;
-void
-UnmapArrayBuffers
-(
-JSContext
-*
-aCx
-ErrorResult
-&
-aRv
-)
-;
 /
 /
 Note
