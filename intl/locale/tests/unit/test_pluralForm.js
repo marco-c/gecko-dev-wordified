@@ -89,7 +89,7 @@ PluralForm
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -102,7 +102,9 @@ modules
 /
 PluralForm
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

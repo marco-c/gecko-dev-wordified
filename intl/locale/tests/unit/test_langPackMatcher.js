@@ -63,7 +63,7 @@ getAddonAndLocalAPIsMocker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +76,9 @@ common
 /
 LangPackMatcherTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -87,7 +89,7 @@ LangPackMatcher
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +102,9 @@ modules
 /
 LangPackMatcher
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

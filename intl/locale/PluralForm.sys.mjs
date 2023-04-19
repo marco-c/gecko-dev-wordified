@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PluralForm
-"
-]
-;
 /
 *
 *
@@ -1411,6 +1402,7 @@ nested
 ternary
 *
 /
+export
 var
 PluralForm
 =

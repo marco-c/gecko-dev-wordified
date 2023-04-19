@@ -2131,6 +2131,7 @@ return
 availableLocales
 ;
 }
+export
 var
 LangPackMatcher
 =
@@ -2142,13 +2143,4 @@ setRequestedAppLocales
 getAvailableLocales
 mockable
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-LangPackMatcher
-"
-]
 ;
