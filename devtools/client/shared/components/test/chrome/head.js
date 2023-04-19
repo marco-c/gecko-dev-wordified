@@ -424,7 +424,7 @@ var
 EXAMPLE_URL
 =
 "
-http
+https
 :
 /
 /
