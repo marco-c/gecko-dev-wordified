@@ -17884,6 +17884,12 @@ info
 defaultSearchEngineData
 .
 submissionURL
+?
+?
+"
+blank
+:
+"
 )
 ;
 Glean
@@ -17968,6 +17974,12 @@ info
 defaultPrivateSearchEngineData
 .
 submissionURL
+?
+?
+"
+blank
+:
+"
 )
 ;
 Glean
