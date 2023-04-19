@@ -134,14 +134,6 @@ TEST_CERT_PASSWORD
 "
 "
 ;
-const
-TEST_OUTPUT_PASSWORD
-=
-"
-other
-password
-"
-;
 function
 findCertByCommonName
 (

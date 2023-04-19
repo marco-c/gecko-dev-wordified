@@ -214,9 +214,6 @@ as
 a
 workaround
 .
-const
-swm
-=
 Cc
 [
 "

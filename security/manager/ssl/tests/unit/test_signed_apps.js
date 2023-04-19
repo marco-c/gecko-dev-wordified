@@ -3717,7 +3717,16 @@ for
 let
 testcase
 of
+[
+.
+.
+.
 coseTestcasesStage
+.
+.
+.
+coseTestcasesProd
+]
 )
 {
 add_signature_test

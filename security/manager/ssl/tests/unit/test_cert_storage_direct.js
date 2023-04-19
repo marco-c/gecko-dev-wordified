@@ -1655,11 +1655,9 @@ Ci
 nsIX509CertDB
 )
 ;
-let
-validCertIssuer
-=
-constructCertFromFile
+addCertFromFile
 (
+certdb
 "
 test_cert_storage_direct
 /
@@ -1670,6 +1668,8 @@ cert
 issuer
 .
 pem
+"
+"
 "
 )
 ;
@@ -1689,11 +1689,9 @@ pem
 "
 )
 ;
-let
-revokedCertIssuer
-=
-constructCertFromFile
+addCertFromFile
 (
+certdb
 "
 test_cert_storage_direct
 /
@@ -1704,6 +1702,8 @@ cert
 issuer
 .
 pem
+"
+"
 "
 )
 ;
