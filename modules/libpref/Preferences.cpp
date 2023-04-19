@@ -37904,6 +37904,16 @@ translateURLOverride
 PREF_LIST_ENTRY
 (
 "
+browser
+.
+uitour
+.
+testingOrigins
+"
+)
+PREF_LIST_ENTRY
+(
+"
 dom
 .
 securecontext
