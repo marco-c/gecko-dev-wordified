@@ -1753,12 +1753,6 @@ unit
 *
 "
 "
-services
-/
-*
-*
-"
-"
 testing
 /
 xpcshell
