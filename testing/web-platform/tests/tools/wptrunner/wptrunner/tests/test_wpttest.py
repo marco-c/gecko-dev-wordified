@@ -1,3 +1,9 @@
+#
+mypy
+:
+ignore
+-
+errors
 from
 io
 import

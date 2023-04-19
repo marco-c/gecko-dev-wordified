@@ -1,3 +1,13 @@
+#
+mypy
+:
+no
+-
+warn
+-
+return
+-
+any
 from
 enum
 import

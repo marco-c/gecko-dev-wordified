@@ -1,4 +1,12 @@
 #
+mypy
+:
+allow
+-
+untyped
+-
+defs
+#
 default_value
 :
 foo

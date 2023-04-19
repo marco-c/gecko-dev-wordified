@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 from
 ua_parser
 import

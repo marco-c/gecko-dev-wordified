@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 import
 multiprocessing
 _context

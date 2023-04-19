@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 import
 asyncio
 from

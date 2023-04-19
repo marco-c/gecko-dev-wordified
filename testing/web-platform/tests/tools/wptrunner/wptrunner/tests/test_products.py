@@ -1,3 +1,16 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
+allow
+-
+untyped
+-
+calls
 from
 os
 .

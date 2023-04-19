@@ -1,3 +1,9 @@
+#
+mypy
+:
+ignore
+-
+errors
 import
 os
 from
