@@ -2463,6 +2463,17 @@ JSObject
 *
 )
 ;
+static
+bool
+CachesEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 bool
 DoResolve
 (
