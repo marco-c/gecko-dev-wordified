@@ -1243,6 +1243,15 @@ allocation
 return
 false
 ;
+allocation
+-
+>
+active_spatial_layers
+.
+clear
+(
+)
+;
 uint32_t
 val
 ;
