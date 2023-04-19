@@ -14127,7 +14127,7 @@ aError
 *
 *
 *
-MoveOneHardLineContents
+MoveOneHardLineContentsWithTransaction
 (
 )
 moves
@@ -14137,15 +14137,16 @@ in
 a
 hard
 line
+*
 which
 contains
-*
 aPointInHardLine
 to
 aPointToInsert
 or
 end
 of
+*
 aPointToInsert
 '
 s
@@ -14271,7 +14272,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 MoveNodeResult
-MoveOneHardLineContents
+MoveOneHardLineContentsWithTransaction
 (
 const
 EditorDOMPoint
@@ -30949,7 +30950,7 @@ JoinNearestEditableNodesWithTransaction
 MoveChildrenWithTransaction
 /
 /
-MoveOneHardLineContents
+MoveOneHardLineContentsWithTransaction
 /
 /
 MoveToEndOfCOntainer
