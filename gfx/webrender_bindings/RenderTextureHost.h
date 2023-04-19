@@ -235,15 +235,6 @@ RenderBufferTextureHost
 class
 RenderTextureHostSWGL
 ;
-GLenum
-ToGlTexFilter
-(
-wr
-:
-:
-ImageRendering
-)
-;
 void
 ActivateBindAndTexParameteri
 (
