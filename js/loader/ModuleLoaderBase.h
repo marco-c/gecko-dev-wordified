@@ -1801,6 +1801,11 @@ aCx
 ModuleLoadRequest
 *
 aRequest
+JS
+:
+:
+ModuleErrorBehaviour
+errorBehaviour
 )
 ;
 void
