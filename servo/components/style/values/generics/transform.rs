@@ -171,7 +171,10 @@ use
 crate
 :
 :
+{
 Zero
+ZeroNoPercent
+}
 ;
 use
 euclid
@@ -1117,6 +1120,8 @@ Zero
 LengthPercentage
 :
 Zero
++
+ZeroNoPercent
 Number
 :
 PartialEq
@@ -1299,10 +1304,10 @@ css
 skip_if
 =
 "
-Zero
+ZeroNoPercent
 :
 :
-is_zero
+is_zero_no_percent
 "
 )
 ]
@@ -2036,6 +2041,8 @@ Zero
 LengthPercentage
 :
 Zero
++
+ZeroNoPercent
 Number
 :
 PartialEq
@@ -2886,6 +2893,8 @@ LoP
 Zero
 +
 ToAbsoluteLength
++
+ZeroNoPercent
 {
 #
 [
@@ -5827,6 +5836,8 @@ y_axis_and_z_axis_are_zero
 LengthPercentage
 :
 Zero
++
+ZeroNoPercent
 Length
 :
 Zero
@@ -5851,7 +5862,7 @@ bool
 {
 y
 .
-is_zero
+is_zero_no_percent
 (
 )
 &
@@ -5971,6 +5982,18 @@ be
 omitted
 when
 serializing
+;
+however
+if
+0
+%
+is
+the
+second
+value
+it
+is
+included
 )
 .
 /
@@ -6086,6 +6109,8 @@ where
 LengthPercentage
 :
 Zero
++
+ZeroNoPercent
 Length
 :
 Zero
