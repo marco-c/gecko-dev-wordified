@@ -338,13 +338,6 @@ nsIPrincipal
 aPrincipal
 )
 {
-MOZ_ASSERT
-(
-IsEditActionDataAvailable
-(
-)
-)
-;
 AutoEditActionDataSetter
 editActionData
 (
