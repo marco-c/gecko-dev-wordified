@@ -17850,10 +17850,8 @@ be
 skipped
 .
 *
-kSelectPopupList
-and
 kPopupList
-are
+is
 always
 skipped
 .

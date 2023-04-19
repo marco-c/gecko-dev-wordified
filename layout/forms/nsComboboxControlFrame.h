@@ -1163,15 +1163,6 @@ aText
 )
 const
 ;
-nsFrameList
-mPopupFrames
-;
-/
-/
-additional
-named
-child
-list
 RefPtr
 <
 nsTextNode

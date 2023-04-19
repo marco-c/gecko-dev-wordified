@@ -4036,10 +4036,6 @@ skip
 nsIFrame
 :
 :
-kSelectPopupList
-nsIFrame
-:
-:
 kPopupList
 }
 ;
