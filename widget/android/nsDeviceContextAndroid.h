@@ -202,12 +202,6 @@ private
 :
 nsCOMPtr
 <
-nsIPrintSettings
->
-mPrintSettings
-;
-nsCOMPtr
-<
 nsIFile
 >
 mTempFile
