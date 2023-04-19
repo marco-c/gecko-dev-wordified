@@ -38574,7 +38574,7 @@ arg0Id
 BytecodeEmitter
 :
 :
-checkSelfHostedUnsafeGetReservedSlot
+assertSelfHostedUnsafeGetReservedSlot
 ensures
 that
 the
@@ -38905,7 +38905,7 @@ arg0Id
 BytecodeEmitter
 :
 :
-checkSelfHostedUnsafeSetReservedSlot
+assertSelfHostedUnsafeSetReservedSlot
 ensures
 that
 the
