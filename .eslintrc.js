@@ -1869,17 +1869,6 @@ rules
 "
 no
 -
-global
--
-assign
-"
-:
-"
-off
-"
-"
-no
--
 shadow
 "
 :
