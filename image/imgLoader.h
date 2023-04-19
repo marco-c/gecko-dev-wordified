@@ -2522,7 +2522,7 @@ itself
 .
 imgSet
 mUncachedImages
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mUncachedImagesMutex
 )

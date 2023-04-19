@@ -638,7 +638,7 @@ Mutex
 &
 .
 class
-CAPABILITY
+MOZ_CAPABILITY
 SharedMutex
 {
 using
@@ -650,7 +650,7 @@ mozilla
 Mutex
 ;
 class
-CAPABILITY
+MOZ_CAPABILITY
 RefCountedMutex
 final
 :
@@ -732,7 +732,7 @@ Mutex
 &
 (
 )
-RETURN_CAPABILITY
+MOZ_RETURN_CAPABILITY
 (
 this
 )
@@ -749,7 +749,7 @@ Mutex
 (
 )
 const
-RETURN_CAPABILITY
+MOZ_RETURN_CAPABILITY
 (
 this
 )
@@ -775,7 +775,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -791,7 +791,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -827,11 +827,11 @@ AssertCurrentThreadOwns
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 mMutex
 -
@@ -1055,7 +1055,7 @@ bool
 Close
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -1102,7 +1102,7 @@ bool
 IsDebuggerRegistered
 (
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 AssertIsOnMainThread
 (
@@ -1972,7 +1972,7 @@ GetJSContext
 (
 )
 const
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /
@@ -2728,7 +2728,7 @@ ParentStatus
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -5457,7 +5457,7 @@ ProcessAllControlRunnablesResult
 ProcessAllControlRunnablesLocked
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -5476,7 +5476,7 @@ void
 WaitForWorkerEvents
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -5692,7 +5692,7 @@ MutexAutoLock
 &
 aProofOfLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -5937,7 +5937,7 @@ mozilla
 :
 CondVar
 mCondVar
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -6224,7 +6224,7 @@ workerinternals
 :
 JSSettings
 mJSSettings
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -6276,7 +6276,7 @@ thread
 JSContext
 *
 mJSContext
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -6299,7 +6299,7 @@ RefPtr
 WorkerThread
 >
 mThread
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -6541,7 +6541,7 @@ WorkerRunnable
 >
 >
 mPreStartRunnables
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -6605,14 +6605,14 @@ mKillTime
 ;
 WorkerStatus
 mParentStatus
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
 ;
 WorkerStatus
 mStatus
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -7447,7 +7447,7 @@ mIsSecureContext
 ;
 bool
 mDebuggerRegistered
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

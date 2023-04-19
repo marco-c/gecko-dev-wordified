@@ -523,7 +523,7 @@ Maybe
 IterationState
 >
 mIterationState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -543,7 +543,7 @@ mMonitor
 .
 IterationResult
 mIterationResult
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -646,7 +646,7 @@ modified
 .
 ThreadState
 mThreadState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )

@@ -169,7 +169,7 @@ namespace
 mozilla
 {
 class
-CAPABILITY
+MOZ_CAPABILITY
 RecursiveMutex
 :
 public
@@ -198,7 +198,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 ;
@@ -206,7 +206,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 ;
@@ -216,7 +216,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -229,7 +229,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -256,7 +256,7 @@ AssertCurrentThreadIn
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -274,7 +274,7 @@ AssertNotCurrentThreadIn
 (
 )
 const
-EXCLUDES
+MOZ_EXCLUDES
 (
 this
 )
@@ -299,7 +299,7 @@ AssertCurrentThreadIn
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -310,7 +310,7 @@ AssertNotCurrentThreadIn
 (
 )
 const
-EXCLUDES
+MOZ_EXCLUDES
 (
 this
 )
@@ -445,7 +445,7 @@ endif
 ;
 class
 MOZ_RAII
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 RecursiveMutexAutoLock
 {
 public
@@ -457,7 +457,7 @@ RecursiveMutex
 &
 aRecursiveMutex
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aRecursiveMutex
 )
@@ -490,7 +490,7 @@ RecursiveMutexAutoLock
 (
 void
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -555,7 +555,7 @@ mRecursiveMutex
 ;
 class
 MOZ_RAII
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 RecursiveMutexAutoUnlock
 {
 public
@@ -567,7 +567,7 @@ RecursiveMutex
 &
 aRecursiveMutex
 )
-SCOPED_UNLOCK_RELEASE
+MOZ_SCOPED_UNLOCK_RELEASE
 (
 aRecursiveMutex
 )
@@ -600,7 +600,7 @@ RecursiveMutexAutoUnlock
 (
 void
 )
-SCOPED_UNLOCK_REACQUIRE
+MOZ_SCOPED_UNLOCK_REACQUIRE
 (
 )
 {

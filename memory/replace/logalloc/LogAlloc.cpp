@@ -218,7 +218,7 @@ void
 prefork
 (
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 sMutex
 .
@@ -232,7 +232,7 @@ void
 postfork_parent
 (
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 sMutex
 .

@@ -691,7 +691,7 @@ aStream
 nsresult
 aRv
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -723,7 +723,7 @@ ReadableStream
 *
 aStream
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -739,7 +739,7 @@ MutexSingleWriterAutoLock
 &
 aProofOfLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -924,7 +924,7 @@ mutex
 .
 State
 mState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -981,7 +981,7 @@ RefPtr
 BodyStreamHolder
 >
 mStreamHolder
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

@@ -1357,7 +1357,7 @@ nsHostRecord
 *
 aRec
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1451,7 +1451,7 @@ MutexAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1483,7 +1483,7 @@ MutexAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1596,7 +1596,7 @@ MutexAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1646,7 +1646,7 @@ nsHostRecord
 *
 rec
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1702,7 +1702,7 @@ MutexAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1721,7 +1721,7 @@ MutexAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1767,7 +1767,7 @@ MutexAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1885,7 +1885,7 @@ nsresult
 &
 aStatus
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1969,7 +1969,7 @@ nsHostKey
 nsHostRecord
 >
 mRecordDB
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -2021,7 +2021,7 @@ net
 :
 HostRecordQueue
 mQueue
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -2034,7 +2034,7 @@ Atomic
 bool
 >
 mShutdown
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -2050,7 +2050,7 @@ Atomic
 uint32_t
 >
 mNumIdleTasks
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -2066,7 +2066,7 @@ Atomic
 uint32_t
 >
 mActiveTaskCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -2082,7 +2082,7 @@ Atomic
 uint32_t
 >
 mActiveAnyThreadCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )

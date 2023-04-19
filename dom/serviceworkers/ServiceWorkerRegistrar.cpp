@@ -4796,7 +4796,7 @@ thread
 safety
 warnings
 .
-PUSH_IGNORE_THREAD_SAFETY
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 if
 (
 overwrite
@@ -4831,7 +4831,7 @@ DeleteData
 )
 ;
 }
-POP_THREAD_SAFETY
+MOZ_POP_THREAD_SAFETY
 return
 NS_OK
 ;

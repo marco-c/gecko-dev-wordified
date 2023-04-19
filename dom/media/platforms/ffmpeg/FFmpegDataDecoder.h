@@ -343,7 +343,7 @@ void
 InitCodecContext
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 sMutex
 )

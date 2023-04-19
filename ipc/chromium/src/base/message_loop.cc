@@ -1021,7 +1021,7 @@ mMutex
 ;
 bool
 mShutdownTasksRun
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1036,7 +1036,7 @@ nsITargetShutdownTask
 >
 >
 mShutdownTasks
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1044,7 +1044,7 @@ mMutex
 MessageLoop
 *
 mLoop
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

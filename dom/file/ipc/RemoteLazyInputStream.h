@@ -360,7 +360,7 @@ void
 StreamNeeded
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -412,7 +412,7 @@ nsresult
 EnsureAsyncRemoteStream
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -489,7 +489,7 @@ nsCString
 Describe
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -720,7 +720,7 @@ NS_BASE_STREAM_CLOSED
 eClosed
 }
 mState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -811,7 +811,7 @@ RefPtr
 RemoteLazyInputStreamChild
 >
 mActor
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -821,7 +821,7 @@ nsCOMPtr
 nsIInputStream
 >
 mInnerStream
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -831,7 +831,7 @@ nsCOMPtr
 nsIAsyncInputStream
 >
 mAsyncInnerStream
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -882,7 +882,7 @@ RefPtr
 nsIInputStreamCallback
 >
 mInputStreamCallback
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -892,14 +892,14 @@ nsCOMPtr
 nsIEventTarget
 >
 mInputStreamCallbackEventTarget
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
 ;
 uint32_t
 mInputStreamCallbackFlags
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -908,7 +908,7 @@ mMutex
 ;
 uint32_t
 mInputStreamCallbackRequestedCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -933,7 +933,7 @@ nsCOMPtr
 nsIFileMetadataCallback
 >
 mFileMetadataCallback
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -943,7 +943,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mFileMetadataCallbackEventTarget
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

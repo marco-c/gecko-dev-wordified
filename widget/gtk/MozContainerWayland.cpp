@@ -4352,7 +4352,7 @@ MozContainer
 *
 container
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /
@@ -4459,7 +4459,7 @@ wl_surface
 *
 surface
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /
@@ -4635,7 +4635,7 @@ MozContainer
 *
 container
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 container
 -
@@ -4657,7 +4657,7 @@ MozContainer
 *
 container
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 container
 -

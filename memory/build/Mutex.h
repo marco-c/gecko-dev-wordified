@@ -410,7 +410,7 @@ the
 locks
 .
 struct
-CAPABILITY
+MOZ_CAPABILITY
 Mutex
 {
 #
@@ -628,7 +628,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -791,7 +791,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -967,7 +967,7 @@ defined
 XP_WIN
 )
 struct
-CAPABILITY
+MOZ_CAPABILITY
 StaticMutex
 {
 SRWLOCK
@@ -978,7 +978,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -994,7 +994,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -1118,7 +1118,7 @@ typename
 T
 >
 struct
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 MOZ_RAII
 AutoLock
 {
@@ -1129,7 +1129,7 @@ T
 &
 aMutex
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aMutex
 )
@@ -1150,7 +1150,7 @@ Lock
 AutoLock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
