@@ -227,6 +227,11 @@ ignoreDestinationZoom
 :
 false
 "
+forcePageColors
+"
+:
+false
+"
 pageColorsBackground
 "
 :
