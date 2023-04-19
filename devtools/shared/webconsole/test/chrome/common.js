@@ -655,14 +655,13 @@ a
 target
 when
 calling
-its
-attach
+this
 method
-.
+:
 await
 target
 .
-attach
+morphWorkerDescriptorIntoWorkerTarget
 (
 )
 ;
