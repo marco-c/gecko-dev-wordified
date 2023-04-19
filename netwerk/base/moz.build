@@ -846,6 +846,11 @@ NetworkConnectivityService
 h
 "
 "
+PartiallySeekableInputStream
+.
+h
+"
+"
 Predictor
 .
 h
@@ -1152,6 +1157,11 @@ cpp
 "
 "
 nsUDPSocket
+.
+cpp
+"
+"
+PartiallySeekableInputStream
 .
 cpp
 "

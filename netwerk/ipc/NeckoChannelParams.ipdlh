@@ -119,6 +119,13 @@ protocol
 PHttpChannel
 ;
 include
+protocol
+PChildToParentStream
+;
+include
+BlobTypes
+;
+include
 ClientIPCTypes
 ;
 include

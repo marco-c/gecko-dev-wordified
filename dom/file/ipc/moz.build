@@ -186,6 +186,11 @@ RemoteLazyInputStreamThread
 .
 h
 "
+"
+RemoteLazyInputStreamUtils
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -232,6 +237,11 @@ RemoteLazyInputStreamThread
 cpp
 "
 "
+RemoteLazyInputStreamUtils
+.
+cpp
+"
+"
 TemporaryIPCBlobChild
 .
 cpp
@@ -246,6 +256,11 @@ IPDL_SOURCES
 +
 =
 [
+"
+BlobTypes
+.
+ipdlh
+"
 "
 IPCBlob
 .
