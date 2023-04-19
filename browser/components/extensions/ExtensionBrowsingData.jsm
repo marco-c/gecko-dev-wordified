@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 makeRange
 "
@@ -156,7 +162,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Preferences
 :
@@ -241,6 +247,8 @@ downloads
 "
 :
 return
+lazy
+.
 Sanitizer
 .
 items
@@ -249,6 +257,8 @@ downloads
 .
 clear
 (
+lazy
+.
 makeRange
 (
 options
@@ -261,6 +271,8 @@ formData
 "
 :
 return
+lazy
+.
 Sanitizer
 .
 items
@@ -269,6 +281,8 @@ formdata
 .
 clear
 (
+lazy
+.
 makeRange
 (
 options
@@ -281,6 +295,8 @@ history
 "
 :
 return
+lazy
+.
 Sanitizer
 .
 items
@@ -289,6 +305,8 @@ history
 .
 clear
 (
+lazy
+.
 makeRange
 (
 options
@@ -416,6 +434,8 @@ to
 let
 clearRange
 =
+lazy
+.
 Sanitizer
 .
 getClearRange
@@ -501,6 +521,8 @@ dataToRemove
 name
 ]
 =
+lazy
+.
 Preferences
 .
 get
