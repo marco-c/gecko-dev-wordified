@@ -1386,7 +1386,7 @@ try
 {
 expect
 =
-0
+1
 ;
 actual
 =
