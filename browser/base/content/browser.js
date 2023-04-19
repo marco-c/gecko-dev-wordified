@@ -44509,6 +44509,14 @@ AddonManager
 PERM_CAN_UNINSTALL
 )
 ;
+ExtensionsUI
+.
+originControlsMenu
+(
+popup
+id
+)
+;
 }
 }
 async
