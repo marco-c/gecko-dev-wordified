@@ -30831,6 +30831,16 @@ CollectEditTargetNodesInExtendedSelectionRanges
 CollectNonEditableNodes
 friend
 class
+MoveNodeResult
+;
+/
+/
+AllowsTransactionsToChangeSelection
+/
+/
+CollapseSelectionTo
+friend
+class
 MoveNodeTransaction
 ;
 /
