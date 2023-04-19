@@ -1207,16 +1207,6 @@ enabled
 "
 true
 ]
-[
-"
-javascript
-.
-options
-.
-streams
-"
-true
-]
 ]
 }
 )
