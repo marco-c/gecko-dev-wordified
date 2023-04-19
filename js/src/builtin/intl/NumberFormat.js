@@ -1782,7 +1782,6 @@ i
 result
 +
 =
-(
 0x61
 <
 =
@@ -1793,7 +1792,6 @@ c
 <
 =
 0x7A
-)
 ?
 callFunction
 (
@@ -2095,6 +2093,7 @@ and
 6
 .
 return
+(
 IsSanctionedSimpleUnitIdentifier
 (
 numerator
@@ -2104,6 +2103,7 @@ numerator
 IsSanctionedSimpleUnitIdentifier
 (
 denominator
+)
 )
 ;
 }

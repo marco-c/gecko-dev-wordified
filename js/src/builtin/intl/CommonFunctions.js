@@ -2576,7 +2576,6 @@ localeMatcher
 var
 r
 =
-(
 matcher
 =
 =
@@ -2584,7 +2583,6 @@ matcher
 "
 lookup
 "
-)
 ?
 LookupMatcher
 (
@@ -3961,7 +3959,6 @@ Steps
 5
 .
 return
-(
 matcher
 =
 =
@@ -3977,7 +3974,6 @@ matcher
 best
 fit
 "
-)
 ?
 BestFitSupportedLocales
 (
