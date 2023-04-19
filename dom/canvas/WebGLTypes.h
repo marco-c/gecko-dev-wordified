@@ -3883,6 +3883,8 @@ final
 public
 ReadPixelsResult
 {
+Maybe
+<
 mozilla
 :
 :
@@ -3890,6 +3892,7 @@ ipc
 :
 :
 Shmem
+>
 shmem
 =
 {
