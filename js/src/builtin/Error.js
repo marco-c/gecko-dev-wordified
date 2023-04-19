@@ -98,6 +98,7 @@ IsObject
 obj
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
@@ -112,6 +113,7 @@ value
 "
 )
 ;
+}
 /
 *
 Steps
@@ -197,9 +199,11 @@ name
 "
 "
 )
+{
 return
 msg
 ;
+}
 /
 *
 Step
@@ -216,9 +220,11 @@ msg
 "
 "
 )
+{
 return
 name
 ;
+}
 /
 *
 Step
