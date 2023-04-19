@@ -3154,8 +3154,6 @@ if
 arguments
 .
 length
->
-0
 &
 &
 arguments
