@@ -2374,13 +2374,13 @@ props
 =
 [
 "
-preprocessors
-"
-"
 isChromeCompat
 "
 "
 manifestVersion
+"
+"
+preprocessors
 "
 ]
 ;

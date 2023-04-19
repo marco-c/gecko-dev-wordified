@@ -461,6 +461,11 @@ ExtensionTestUtils
 loadExtension
 (
 {
+useAddonManager
+:
+"
+temporary
+"
 manifest
 :
 {

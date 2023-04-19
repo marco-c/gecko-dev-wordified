@@ -55,6 +55,11 @@ ExtensionTestUtils
 loadExtension
 (
 {
+useAddonManager
+:
+"
+temporary
+"
 manifest
 :
 {
@@ -709,6 +714,11 @@ ExtensionTestUtils
 loadExtension
 (
 {
+useAddonManager
+:
+"
+temporary
+"
 manifest
 :
 {
@@ -1608,6 +1618,11 @@ ExtensionTestUtils
 loadExtension
 (
 {
+useAddonManager
+:
+"
+temporary
+"
 manifest
 :
 {
