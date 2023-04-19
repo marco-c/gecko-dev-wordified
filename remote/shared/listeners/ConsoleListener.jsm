@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -180,7 +186,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -188,6 +194,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -463,6 +471,8 @@ constructor
 innerWindowId
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
@@ -878,6 +888,8 @@ error
 }
 else
 {
+lazy
+.
 logger
 .
 warn
@@ -923,6 +935,8 @@ message
 errorMessage
 stacktrace
 :
+lazy
+.
 getFramesFromStack
 (
 message

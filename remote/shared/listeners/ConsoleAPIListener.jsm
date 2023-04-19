@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -122,7 +128,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ConsoleAPIStorage
 "
@@ -399,6 +405,8 @@ constructor
 innerWindowId
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
@@ -464,6 +472,8 @@ listening
 return
 ;
 }
+lazy
+.
 ConsoleAPIStorage
 .
 addLogEventListener
@@ -546,6 +556,8 @@ listening
 return
 ;
 }
+lazy
+.
 ConsoleAPIStorage
 .
 removeLogEventListener
@@ -572,6 +584,8 @@ emitCachedMessages
 const
 cachedMessages
 =
+lazy
+.
 ConsoleAPIStorage
 .
 getEvents

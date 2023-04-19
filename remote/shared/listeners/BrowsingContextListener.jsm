@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -349,6 +355,8 @@ constructor
 (
 )
 {
+lazy
+.
 EventEmitter
 .
 decorate
