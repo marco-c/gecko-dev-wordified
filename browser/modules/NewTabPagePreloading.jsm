@@ -141,11 +141,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AboutNewTab
 :
@@ -310,6 +316,8 @@ newTabEnabled
 &
 &
 !
+lazy
+.
 AboutNewTab
 .
 newTabURLOverridden
@@ -349,6 +357,8 @@ win
 let
 oa
 =
+lazy
+.
 E10SUtils
 .
 predictOriginAttributes
@@ -363,6 +373,8 @@ win
 let
 remoteType
 =
+lazy
+.
 E10SUtils
 .
 getRemoteTypeForURI
@@ -370,6 +382,8 @@ getRemoteTypeForURI
 BROWSER_NEW_TAB_URL
 gMultiProcessBrowser
 gFissionBrowser
+lazy
+.
 E10SUtils
 .
 DEFAULT_REMOTE_TYPE
@@ -448,6 +462,8 @@ window
 let
 winPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -473,6 +489,8 @@ browser
 let
 oldWin
 =
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -488,6 +506,8 @@ return
 winPrivate
 =
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -713,6 +733,8 @@ windows
 let
 windowPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -736,6 +758,8 @@ normal
 let
 topWindows
 =
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -745,6 +769,8 @@ filter
 w
 =
 >
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1110,6 +1136,8 @@ browser
 let
 countKey
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

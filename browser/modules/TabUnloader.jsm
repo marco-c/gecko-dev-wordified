@@ -183,11 +183,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 webrtcUI
 "
@@ -209,7 +215,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -606,6 +612,8 @@ top
 window
 .
 return
+lazy
+.
 webrtcUI
 .
 browserHasStreams
@@ -638,6 +646,8 @@ weight
 )
 {
 return
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate

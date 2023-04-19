@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ClientID
 "
@@ -145,7 +151,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ContextualIdentityService
 "
@@ -215,6 +221,8 @@ val
 &
 &
 !
+lazy
+.
 gTelemetryEnabled
 )
 {
@@ -248,9 +256,13 @@ enabled
 )
 {
 return
+lazy
+.
 gTelemetryEnabled
 &
 &
+lazy
+.
 gRecommendationEnabled
 ;
 }
@@ -285,7 +297,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gRecommendationEnabled
 "
@@ -300,7 +312,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTelemetryEnabled
 "
@@ -315,7 +327,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gCachedClientID
 "
@@ -337,7 +349,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gContainersEnabled
 "
@@ -450,9 +462,13 @@ IDs
 ;
 if
 (
+lazy
+.
 gContainersEnabled
 )
 {
+lazy
+.
 ContextualIdentityService
 .
 getPublicIdentities
@@ -526,6 +542,8 @@ TAAR_COOKIE_NAME
 }
 )
 ;
+lazy
+.
 ContextualIdentityService
 .
 getPublicIdentities
@@ -631,6 +649,8 @@ again
 if
 (
 !
+lazy
+.
 gCachedClientID
 )
 {
@@ -641,6 +661,8 @@ let
 id
 =
 await
+lazy
+.
 ClientID
 .
 getClientIdHash

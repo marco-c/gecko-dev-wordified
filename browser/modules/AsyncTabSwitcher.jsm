@@ -164,11 +164,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PictureInPicture
 :
@@ -192,7 +198,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTabWarmingEnabled
 "
@@ -213,7 +219,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTabWarmingMax
 "
@@ -234,7 +240,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTabWarmingUnloadDelayMs
 "
@@ -255,7 +261,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gTabCacheSize
 "
@@ -4933,6 +4939,8 @@ if
 (
 numWarming
 >
+lazy
+.
 gTabWarmingMax
 )
 {
@@ -6472,6 +6480,8 @@ browser
 )
 |
 |
+lazy
+.
 PictureInPicture
 .
 isOriginatingBrowser
@@ -6613,6 +6623,8 @@ tab
 if
 (
 !
+lazy
+.
 gTabWarmingEnabled
 )
 {
@@ -6851,6 +6863,8 @@ this
 .
 queueUnload
 (
+lazy
+.
 gTabWarmingUnloadDelayMs
 )
 ;
@@ -6934,6 +6948,8 @@ tab
 {
 if
 (
+lazy
+.
 gTabCacheSize
 >
 1
@@ -7011,6 +7027,8 @@ tabLayerCache
 .
 length
 >
+lazy
+.
 gTabCacheSize
 )
 {
@@ -8103,6 +8121,8 @@ isPiP
 linkedBrowser
 &
 &
+lazy
+.
 PictureInPicture
 .
 isOriginatingBrowser
@@ -9088,6 +9108,8 @@ tabState
 {
 if
 (
+lazy
+.
 gTabWarmingEnabled
 )
 {

@@ -145,11 +145,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -263,7 +269,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gNavigatorBundle
 "
@@ -2013,12 +2019,16 @@ browser
 {
 remoteType
 :
+lazy
+.
 E10SUtils
 .
 NOT_REMOTE
 }
 )
 ;
+lazy
+.
 SessionStore
 .
 reviveCrashedTab
@@ -2717,6 +2727,8 @@ submitReports
 [
 dumpID
 ]
+lazy
+.
 CrashSubmit
 .
 SUBMITTED_FROM_CRASH_TAB
@@ -2860,6 +2872,8 @@ if
 dumpID
 )
 {
+lazy
+.
 CrashSubmit
 .
 ignore
@@ -3206,6 +3220,8 @@ submitReports
 [
 dumpID
 ]
+lazy
+.
 CrashSubmit
 .
 SUBMITTED_FROM_AUTO
@@ -3327,6 +3343,8 @@ browser
 {
 remoteType
 :
+lazy
+.
 E10SUtils
 .
 NOT_REMOTE
@@ -3537,6 +3555,8 @@ browser
 {
 remoteType
 :
+lazy
+.
 E10SUtils
 .
 NOT_REMOTE
@@ -4022,11 +4042,15 @@ URL
 "
 ;
 }
+lazy
+.
 CrashSubmit
 .
 submit
 (
 dumpID
+lazy
+.
 CrashSubmit
 .
 SUBMITTED_FROM_CRASH_TAB
@@ -5160,6 +5184,8 @@ this
 _checkTimeout
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -5301,6 +5327,8 @@ this
 .
 _checkTimeout
 =
+lazy
+.
 setTimeout
 (
 (
@@ -5472,6 +5500,8 @@ try
 reportIDs
 =
 await
+lazy
+.
 CrashSubmit
 .
 pendingIDs
@@ -5515,6 +5545,8 @@ this
 submitReports
 (
 reportIDs
+lazy
+.
 CrashSubmit
 .
 SUBMITTED_FROM_AUTO
@@ -6015,6 +6047,8 @@ null
 let
 messageTemplate
 =
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -6029,6 +6063,8 @@ label
 let
 message
 =
+lazy
+.
 PluralForm
 .
 get
@@ -6471,6 +6507,8 @@ onAction
 let
 chromeWin
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -6548,6 +6586,8 @@ buttons
 {
 label
 :
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -6570,6 +6610,8 @@ this
 submitReports
 (
 reportIDs
+lazy
+.
 CrashSubmit
 .
 SUBMITTED_FROM_INFOBAR
@@ -6590,6 +6632,8 @@ onAction
 {
 label
 :
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -6618,6 +6662,8 @@ this
 submitReports
 (
 reportIDs
+lazy
+.
 CrashSubmit
 .
 SUBMITTED_FROM_INFOBAR
@@ -6638,6 +6684,8 @@ onAction
 {
 label
 :
+lazy
+.
 gNavigatorBundle
 .
 GetStringFromName
@@ -6739,6 +6787,8 @@ function
 reportID
 )
 {
+lazy
+.
 CrashSubmit
 .
 ignore
@@ -6910,6 +6960,8 @@ of
 reportIDs
 )
 {
+lazy
+.
 CrashSubmit
 .
 submit

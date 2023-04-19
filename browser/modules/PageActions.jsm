@@ -138,11 +138,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -607,6 +613,8 @@ downgraded
 extensions
 for
 example
+.
+lazy
 .
 AsyncShutdown
 .
@@ -1714,6 +1722,8 @@ title
 let
 index
 =
+lazy
+.
 BinarySearch
 .
 insertionIndexOf
@@ -4632,6 +4642,8 @@ this
 disablePrivateBrowsing
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

@@ -61,11 +61,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PanelMultiView
 "
@@ -1290,6 +1296,8 @@ _selectTab
 tab
 )
 ;
+lazy
+.
 PanelMultiView
 .
 hidePopup

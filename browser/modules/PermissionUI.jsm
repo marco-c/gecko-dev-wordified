@@ -528,11 +528,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SitePermissions
 "
@@ -554,7 +560,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -577,7 +583,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 IDNService
 "
@@ -603,7 +609,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 ContentPrefService2
 "
@@ -629,7 +635,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gBrowserBundle
 "
@@ -2357,6 +2363,8 @@ let
 state
 }
 =
+lazy
+.
 SitePermissions
 .
 getForPrincipal
@@ -2377,6 +2385,8 @@ if
 state
 =
 =
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2427,6 +2437,8 @@ this
 postPromptEnabled
 &
 &
+lazy
+.
 SitePermissions
 .
 getDefault
@@ -2437,6 +2449,8 @@ permissionKey
 )
 =
 =
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2463,6 +2477,8 @@ if
 state
 =
 =
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -2525,6 +2541,8 @@ let
 state
 }
 =
+lazy
+.
 SitePermissions
 .
 getForPrincipal
@@ -2543,6 +2561,8 @@ if
 state
 =
 =
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2723,6 +2743,8 @@ promptAction
 scope
 =
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -2737,6 +2759,8 @@ permission
 let
 scope
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -2755,6 +2779,8 @@ mode
 .
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -2767,11 +2793,15 @@ browser
 {
 scope
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_SESSION
 ;
 }
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -2797,6 +2827,8 @@ promptAction
 action
 =
 =
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2832,6 +2864,8 @@ could
 be
 exploited
 .
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -2845,6 +2879,8 @@ permissionKey
 promptAction
 .
 action
+lazy
+.
 SitePermissions
 .
 SCOPE_TEMPORARY
@@ -2870,6 +2906,8 @@ promptAction
 action
 =
 =
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -2915,6 +2953,8 @@ promptAction
 action
 =
 =
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -2951,6 +2991,8 @@ could
 be
 exploited
 .
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -2962,6 +3004,8 @@ permissionKey
 promptAction
 .
 action
+lazy
+.
 SitePermissions
 .
 SCOPE_TEMPORARY
@@ -3207,6 +3251,8 @@ manager
 let
 scope
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -3225,6 +3271,8 @@ mode
 .
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -3235,11 +3283,15 @@ browser
 {
 scope
 =
+lazy
+.
 SitePermissions
 .
 SCOPE_SESSION
 ;
 }
+lazy
+.
 SitePermissions
 .
 setForPrincipal
@@ -4202,6 +4254,8 @@ checkbox
 show
 :
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -4275,6 +4329,8 @@ checkbox
 .
 label
 =
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4337,6 +4393,8 @@ file
 )
 {
 return
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4359,6 +4417,8 @@ isRequestDelegatedToUnsafeThirdParty
 )
 {
 return
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -4382,6 +4442,8 @@ shareWithSiteUnsafeDelegation2
 ;
 }
 return
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -4410,6 +4472,8 @@ return
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4422,6 +4486,8 @@ allow
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4436,6 +4502,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -4443,6 +4511,8 @@ ALLOW
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4455,6 +4525,8 @@ block
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4469,6 +4541,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -4565,6 +4639,8 @@ host
 return
 ;
 }
+lazy
+.
 ContentPrefService2
 .
 set
@@ -4829,6 +4905,8 @@ checkbox
 show
 :
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -4857,6 +4935,8 @@ checkbox
 .
 label
 =
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4919,6 +4999,8 @@ file
 )
 {
 return
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4932,6 +5014,8 @@ shareWithFile4
 ;
 }
 return
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -4960,6 +5044,8 @@ return
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4972,6 +5058,8 @@ allow2
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -4986,6 +5074,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -4993,6 +5083,8 @@ ALLOW
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5005,6 +5097,8 @@ block
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5019,6 +5113,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -5404,6 +5500,8 @@ message
 )
 {
 return
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -5434,6 +5532,8 @@ actions
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5446,6 +5546,8 @@ allow2
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5460,11 +5562,15 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 ALLOW
 scope
 :
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -5485,6 +5591,8 @@ push
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5497,6 +5605,8 @@ notNow
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5511,6 +5621,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -5521,6 +5633,8 @@ BLOCK
 let
 isBrowserPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -5539,6 +5653,8 @@ label
 :
 isBrowserPrivate
 ?
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5550,6 +5666,8 @@ block
 "
 )
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5564,6 +5682,8 @@ accessKey
 :
 isBrowserPrivate
 ?
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5577,6 +5697,8 @@ accesskey
 "
 )
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5591,6 +5713,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -5598,10 +5722,14 @@ scope
 :
 isBrowserPrivate
 ?
+lazy
+.
 SitePermissions
 .
 SCOPE_SESSION
 :
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -5624,6 +5752,8 @@ actions
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5636,6 +5766,8 @@ allow2
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5650,6 +5782,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 ALLOW
@@ -5659,6 +5793,8 @@ ALLOW
 let
 isBrowserPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -5677,6 +5813,8 @@ label
 :
 isBrowserPrivate
 ?
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5688,6 +5826,8 @@ block
 "
 )
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5702,6 +5842,8 @@ accessKey
 :
 isBrowserPrivate
 ?
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5715,6 +5857,8 @@ accesskey
 "
 )
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5729,6 +5873,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -5911,6 +6057,8 @@ message
 )
 {
 return
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -5939,6 +6087,8 @@ return
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5951,6 +6101,8 @@ allow
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5972,6 +6124,8 @@ nsIPermissionManager
 ALLOW_ACTION
 scope
 :
+lazy
+.
 SitePermissions
 .
 SCOPE_PERSISTENT
@@ -5979,6 +6133,8 @@ SCOPE_PERSISTENT
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -5993,6 +6149,8 @@ label
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6007,6 +6165,8 @@ accesskey
 )
 action
 :
+lazy
+.
 SitePermissions
 .
 BLOCK
@@ -6269,6 +6429,8 @@ checkbox
 show
 :
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -6297,6 +6459,8 @@ checkbox
 .
 label
 =
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6370,6 +6534,8 @@ isSysexPerm
 {
 message
 =
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6386,6 +6552,8 @@ else
 {
 message
 =
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6409,6 +6577,8 @@ isSysexPerm
 {
 message
 =
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -6431,6 +6601,8 @@ else
 {
 message
 =
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -6463,6 +6635,8 @@ return
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6477,6 +6651,8 @@ label
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6500,6 +6676,8 @@ ALLOW_ACTION
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6514,6 +6692,8 @@ label
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6610,6 +6790,8 @@ tracker
 return
 3rdPartyStorage
 {
+lazy
+.
 SitePermissions
 .
 PERM_KEY_DELIMITER
@@ -6645,6 +6827,8 @@ split
 ;
 host
 =
+lazy
+.
 IDNService
 .
 convertToDisplayIDN
@@ -6721,6 +6905,8 @@ hostPort
 let
 hintText
 =
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -6786,6 +6972,8 @@ message
 )
 {
 return
+lazy
+.
 gBrowserBundle
 .
 formatStringFromName
@@ -6835,6 +7023,8 @@ return
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6849,6 +7039,8 @@ label
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6895,6 +7087,8 @@ allow
 {
 label
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
@@ -6909,6 +7103,8 @@ label
 )
 accessKey
 :
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName

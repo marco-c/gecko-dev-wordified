@@ -140,6 +140,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 /
 /
 Lazy
@@ -148,7 +154,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PrivateBrowsingUtils
 :
@@ -942,11 +948,15 @@ options
 )
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

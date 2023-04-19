@@ -166,11 +166,17 @@ full
 zoom
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PanelMultiView
 "
@@ -844,6 +850,8 @@ return
 let
 appMenuZoomReset
 =
+lazy
+.
 PanelMultiView
 .
 getViewNode
