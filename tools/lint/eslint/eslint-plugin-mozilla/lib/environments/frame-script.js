@@ -156,9 +156,6 @@ false
 RPMRecordTelemetryEvent
 :
 false
-RPMCheckAlternateHostAvailable
-:
-false
 RPMAddToHistogram
 :
 false
