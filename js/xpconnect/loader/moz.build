@@ -100,6 +100,11 @@ ChromeScriptLoader
 cpp
 "
 "
+ComponentModuleLoader
+.
+cpp
+"
+"
 mozJSLoaderUtils
 .
 cpp
@@ -232,6 +237,11 @@ AutoMemMap
 h
 "
 "
+ComponentModuleLoader
+.
+h
+"
+"
 ScriptCacheActors
 .
 h
@@ -278,6 +288,12 @@ wrappers
 dom
 /
 base
+"
+"
+/
+js
+/
+loader
 "
 "
 /
