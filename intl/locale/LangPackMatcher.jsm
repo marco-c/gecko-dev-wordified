@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonRepository
 :
@@ -143,6 +149,8 @@ jsm
 ;
 if
 (
+lazy
+.
 Services
 .
 appinfo
@@ -151,6 +159,8 @@ processType
 !
 =
 =
+lazy
+.
 Services
 .
 appinfo
@@ -602,6 +612,8 @@ return
 langPack
 langPackDisplayName
 :
+lazy
+.
 Services
 .
 intl
@@ -954,6 +966,8 @@ getAvailableLangpacks
 try
 {
 return
+lazy
+.
 AddonRepository
 .
 getAvailableLangpacks
@@ -1030,6 +1044,8 @@ try
 install
 =
 await
+lazy
+.
 AddonManager
 .
 getInstallForURL
@@ -1153,6 +1169,8 @@ getAvailableLocalesIncludingFallback
 )
 {
 return
+lazy
+.
 Services
 .
 locale
@@ -1175,6 +1193,8 @@ getDefaultLocale
 )
 {
 return
+lazy
+.
 Services
 .
 locale
@@ -1197,6 +1217,8 @@ getLastFallbackLocale
 )
 {
 return
+lazy
+.
 Services
 .
 locale
@@ -1219,6 +1241,8 @@ getAppLocaleAsBCP47
 )
 {
 return
+lazy
+.
 Services
 .
 locale
@@ -1256,6 +1280,8 @@ testing
 const
 systemLocaleOverride
 =
+lazy
+.
 Services
 .
 prefs
@@ -1296,6 +1322,8 @@ the
 pref
 .
 new
+lazy
+.
 Services
 .
 intl
@@ -1371,6 +1399,8 @@ setRequestedAppLocales
 locales
 )
 {
+lazy
+.
 Services
 .
 locale
@@ -1556,6 +1586,8 @@ const
 locale
 =
 new
+lazy
+.
 Services
 .
 intl
@@ -1799,6 +1831,8 @@ appLocale
 const
 systemDirection
 =
+lazy
+.
 Services
 .
 intl
@@ -1813,6 +1847,8 @@ language
 const
 appDirection
 =
+lazy
+.
 Services
 .
 intl
@@ -1827,6 +1863,8 @@ language
 const
 supportsBidiSwitching
 =
+lazy
+.
 Services
 .
 prefs
@@ -1893,6 +1931,8 @@ systemLanguage
 :
 systemLocale
 ?
+lazy
+.
 Services
 .
 intl
@@ -1920,6 +1960,8 @@ appLanguage
 :
 appLocale
 ?
+lazy
+.
 Services
 .
 intl
@@ -2099,6 +2141,8 @@ let
 lastFallbackInstalled
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
