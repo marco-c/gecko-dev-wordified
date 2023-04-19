@@ -19100,7 +19100,7 @@ VsyncSource
 gfxPlatform
 :
 :
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 {
@@ -19360,15 +19360,10 @@ gPlatform
 >
 mVsyncSource
 =
-(
 gPlatform
-)
 -
 >
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;
@@ -19383,7 +19378,7 @@ mVsyncSource
 gPlatform
 -
 >
-CreateHardwareVsyncSource
+CreateGlobalHardwareVsyncSource
 (
 )
 ;
