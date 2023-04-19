@@ -3255,6 +3255,12 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 class_
 )
 \
+using
+:
+:
+ImplCycleCollectionUnlink
+;
+\
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 \
