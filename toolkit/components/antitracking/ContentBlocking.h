@@ -1214,6 +1214,12 @@ nsICookieJarSettings
 aCookieJarSettings
 bool
 aThirdParty
+bool
+aOnRejectForeignAllowlist
+bool
+aIsOnThirdPartySkipList
+bool
+aIsThirdPartyTracker
 )
 ;
 /
