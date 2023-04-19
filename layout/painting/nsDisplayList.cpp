@@ -33644,7 +33644,7 @@ IsStickyPositionLayer
 )
 &
 &
-HasDynamicToolbar
+ShouldFixedAndStickyContentGetAnimationIds
 (
 )
 )
@@ -33883,7 +33883,7 @@ IsStickyPositionLayer
 )
 &
 &
-HasDynamicToolbar
+ShouldFixedAndStickyContentGetAnimationIds
 (
 )
 )
@@ -33995,7 +33995,7 @@ IsStickyPositionLayer
 )
 &
 &
-HasDynamicToolbar
+ShouldFixedAndStickyContentGetAnimationIds
 (
 )
 )
@@ -34071,7 +34071,7 @@ IsStickyPositionLayer
 )
 &
 &
-HasDynamicToolbar
+ShouldFixedAndStickyContentGetAnimationIds
 (
 )
 )
