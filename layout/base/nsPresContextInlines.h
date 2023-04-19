@@ -179,6 +179,7 @@ nsPresContext
 FrameConstructor
 (
 )
+const
 {
 return
 PresShell

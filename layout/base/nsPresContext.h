@@ -1505,6 +1505,7 @@ nsCSSFrameConstructor
 FrameConstructor
 (
 )
+const
 ;
 mozilla
 :
@@ -2189,6 +2190,15 @@ PrefSheetPrefs
 mUseDocumentColors
 ;
 }
+mozilla
+:
+:
+ColorScheme
+DefaultBackgroundColorScheme
+(
+)
+const
+;
 nscolor
 DefaultBackgroundColor
 (
