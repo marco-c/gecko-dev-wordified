@@ -5884,7 +5884,9 @@ if
 newTab
 !
 =
-gFirefoxViewTab
+FirefoxViewHandler
+.
+tab
 )
 {
 this
