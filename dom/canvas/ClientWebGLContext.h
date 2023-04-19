@@ -8594,13 +8594,11 @@ RawBufferData
 GLenum
 target
 const
-Range
-<
-const
 uint8_t
->
-&
-srcData
+*
+srcBytes
+size_t
+srcLen
 GLenum
 usage
 )
