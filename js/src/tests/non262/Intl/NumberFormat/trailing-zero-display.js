@@ -362,6 +362,9 @@ NumberFormat
 en
 "
 {
+minimumFractionDigits
+:
+2
 maximumFractionDigits
 :
 2
@@ -383,6 +386,9 @@ NumberFormat
 en
 "
 {
+minimumFractionDigits
+:
+2
 maximumFractionDigits
 :
 2
@@ -409,6 +415,9 @@ NumberFormat
 en
 "
 {
+minimumFractionDigits
+:
+2
 maximumFractionDigits
 :
 2
@@ -495,7 +504,7 @@ browse
 /
 ICU
 -
-xxx
+21674
 >
 .
 assertEq
