@@ -30137,7 +30137,11 @@ JSContext
 cx
 MutableHandleValue
 res
-MutableHandleSavedFrame
+MutableHandle
+<
+SavedFrame
+*
+>
 stack
 )
 {
@@ -30205,7 +30209,11 @@ MutableHandleValue
 res
 )
 {
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 stack
 (
 cx

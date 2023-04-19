@@ -10777,7 +10777,11 @@ HandleObject
 obj
 )
 {
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 savedFrame
 (
 context
@@ -18679,7 +18683,11 @@ uint32_t
 principalsTag
 )
 {
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 savedFrame
 (
 context

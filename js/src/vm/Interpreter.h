@@ -4174,7 +4174,11 @@ JSContext
 cx
 MutableHandleValue
 res
-MutableHandleSavedFrame
+MutableHandle
+<
+SavedFrame
+*
+>
 stack
 )
 ;

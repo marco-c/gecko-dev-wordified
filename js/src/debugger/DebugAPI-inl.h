@@ -400,7 +400,11 @@ cx
 JSObject
 *
 obj
-HandleSavedFrame
+Handle
+<
+SavedFrame
+*
+>
 frame
 mozilla
 :

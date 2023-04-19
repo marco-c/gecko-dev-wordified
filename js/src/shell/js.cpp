@@ -8907,7 +8907,11 @@ toObject
 )
 )
 ;
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 stack
 (
 cx

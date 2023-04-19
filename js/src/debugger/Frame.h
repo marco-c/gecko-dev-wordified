@@ -1216,7 +1216,11 @@ DebuggerFrame
 *
 >
 frame
-MutableHandleSavedFrame
+MutableHandle
+<
+SavedFrame
+*
+>
 result
 )
 ;

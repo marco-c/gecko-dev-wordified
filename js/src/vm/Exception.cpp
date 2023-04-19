@@ -378,7 +378,11 @@ unwrapped
 object
 anyway
 .
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 nstack
 (
 cx

@@ -3308,7 +3308,11 @@ ErrorObject
 )
 )
 {
-RootedSavedFrame
+Rooted
+<
+SavedFrame
+*
+>
 stack
 (
 cx
