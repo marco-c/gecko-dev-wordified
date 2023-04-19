@@ -69,6 +69,7 @@ arsenic
 errors
 import
 UnknownError
+UnknownArsenicError
 from
 condprof
 .
@@ -99,6 +100,7 @@ asyncio
 .
 TimeoutError
 UnknownError
+UnknownArsenicError
 class
 Builder
 :
