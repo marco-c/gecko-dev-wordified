@@ -345,9 +345,7 @@ if
 (
 extension
 .
-canUseThemeExperiment
-(
-)
+isPrivileged
 )
 {
 this
