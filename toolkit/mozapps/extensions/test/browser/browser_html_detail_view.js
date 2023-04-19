@@ -5621,9 +5621,12 @@ set
 ;
 ok
 (
-text
-instanceof
 Text
+.
+isInstance
+(
+text
+)
 "
 The
 author

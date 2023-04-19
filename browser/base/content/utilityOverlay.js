@@ -5334,9 +5334,12 @@ data
 else
 if
 (
-node
-instanceof
 HTMLImageElement
+.
+isInstance
+(
+node
+)
 )
 {
 /

@@ -88,9 +88,12 @@ dominatorTree
 ;
 ok
 (
-dominatorTree
-instanceof
 DominatorTree
+.
+isInstance
+(
+dominatorTree
+)
 )
 ;
 let

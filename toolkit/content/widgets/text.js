@@ -1448,11 +1448,14 @@ return
 }
 if
 (
+Text
+.
+isInstance
+(
 element
 .
 previousSibling
-instanceof
-Text
+)
 )
 {
 element

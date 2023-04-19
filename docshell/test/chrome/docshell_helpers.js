@@ -2818,11 +2818,14 @@ pageEventListener
 event
 originalTargetIsHTMLDocument
 =
+HTMLDocument
+.
+isInstance
+(
 event
 .
 originalTarget
-instanceof
-HTMLDocument
+)
 )
 {
 try
