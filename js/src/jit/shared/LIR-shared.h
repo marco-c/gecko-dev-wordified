@@ -22553,7 +22553,7 @@ public
 LVariadicInstruction
 <
 NumDefs
-2
+1
 >
 {
 using
@@ -22562,7 +22562,7 @@ Base
 LVariadicInstruction
 <
 NumDefs
-2
+1
 >
 ;
 public
@@ -22581,10 +22581,6 @@ const
 LDefinition
 &
 temp
-const
-LDefinition
-&
-fp
 )
 :
 Base
@@ -22607,15 +22603,6 @@ setTemp
 (
 0
 temp
-)
-;
-this
--
->
-setTemp
-(
-1
-fp
 )
 ;
 }
@@ -22681,10 +22668,6 @@ const
 LDefinition
 &
 temp
-const
-LDefinition
-&
-fp
 )
 :
 LIonToWasmCallBase
@@ -22695,7 +22678,6 @@ LIonToWasmCallBase
 classOpcode
 numOperands
 temp
-fp
 )
 {
 }
@@ -22725,10 +22707,6 @@ const
 LDefinition
 &
 temp
-const
-LDefinition
-&
-fp
 )
 :
 LIonToWasmCallBase
@@ -22739,7 +22717,6 @@ BOX_PIECES
 classOpcode
 numOperands
 temp
-fp
 )
 {
 }
@@ -22769,10 +22746,6 @@ const
 LDefinition
 &
 temp
-const
-LDefinition
-&
-fp
 )
 :
 LIonToWasmCallBase
@@ -22783,7 +22756,6 @@ INT64_PIECES
 classOpcode
 numOperands
 temp
-fp
 )
 {
 }
