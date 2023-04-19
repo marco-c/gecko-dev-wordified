@@ -4145,8 +4145,8 @@ or
 generating
 bytecode
 .
-OffThreadFrontendErrors
-errors_
+OffThreadErrorContext
+ec_
 ;
 /
 /

@@ -601,6 +601,9 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 JS
 :
 :
@@ -622,6 +625,9 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationStencil
 &
 context

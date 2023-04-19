@@ -6712,6 +6712,9 @@ CompileLazyFunctionToStencilMaybeInstantiate
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -6737,6 +6740,7 @@ AutoAssertReportedException
 assertException
 (
 cx
+ec
 )
 ;
 if
@@ -6879,12 +6883,6 @@ return
 false
 ;
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 Parser
 <
 FullParseHandler
@@ -6893,7 +6891,6 @@ Unit
 parser
 (
 cx
-&
 ec
 input
 .
@@ -7562,6 +7559,9 @@ DelazifyCanonicalScriptedFunctionImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 HandleFunction
 fun
 Handle
@@ -7848,6 +7848,7 @@ return
 CompileLazyFunctionToStencilMaybeInstantiate
 (
 cx
+ec
 input
 .
 get
@@ -7872,6 +7873,9 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 HandleFunction
 fun
 )
@@ -7948,6 +7952,7 @@ Utf8Unit
 >
 (
 cx
+ec
 fun
 lazy
 ss
@@ -7982,6 +7987,7 @@ char16_t
 >
 (
 cx
+ec
 fun
 lazy
 ss
@@ -8003,6 +8009,9 @@ DelazifyCanonicalScriptedFunctionImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationStencil
 &
 context
@@ -8321,6 +8330,7 @@ if
 CompileLazyFunctionToStencilMaybeInstantiate
 (
 cx
+ec
 input
 .
 get
@@ -8367,6 +8377,9 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationStencil
 &
 context
@@ -8428,6 +8441,7 @@ Utf8Unit
 >
 (
 cx
+ec
 context
 scriptIndex
 )
@@ -8461,6 +8475,7 @@ char16_t
 >
 (
 cx
+ec
 context
 scriptIndex
 )
