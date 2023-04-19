@@ -529,7 +529,8 @@ UnloadModules
 (
 )
 ;
-void
+JSObject
+*
 CreateLoaderGlobal
 (
 JSContext
@@ -539,11 +540,6 @@ const
 nsACString
 &
 aLocation
-JS
-:
-:
-MutableHandleObject
-aGlobal
 )
 ;
 JSObject
