@@ -767,6 +767,17 @@ BrowsingContext
 (
 self
 )
+        
+self
+.
+script
+=
+modules
+.
+Script
+(
+self
+)
     
 property
     
