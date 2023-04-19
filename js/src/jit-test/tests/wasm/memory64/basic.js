@@ -1500,7 +1500,6 @@ memType
 (
 data
 seg
-passive
 "
 0123456789abcdef
 "
@@ -16927,7 +16926,6 @@ shared
 (
 data
 seg
-passive
 "
 0123456789
 "
