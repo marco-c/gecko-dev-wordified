@@ -254,6 +254,9 @@ attribution
 contextualidentity
 "
 "
+colorways
+"
+"
 customizableui
 "
 "
@@ -355,9 +358,6 @@ DIRS
 +
 =
 [
-"
-colorways
-"
 "
 firefoxview
 "
