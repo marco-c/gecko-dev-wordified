@@ -253,18 +253,6 @@ Vector
 .
 h
 "
-#
-include
-"
-wasm
-/
-WasmSerialize
-.
-h
-"
-/
-/
-SerializableRefPtr
 namespace
 js
 {
@@ -624,7 +612,7 @@ DataSegment
 using
 SharedDataSegment
 =
-SerializableRefPtr
+RefPtr
 <
 const
 DataSegment
@@ -654,7 +642,7 @@ ElemSegment
 using
 SharedElemSegment
 =
-SerializableRefPtr
+RefPtr
 <
 const
 ElemSegment
