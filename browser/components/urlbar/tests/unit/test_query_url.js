@@ -179,6 +179,9 @@ file
 org
 /
 "
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -432,6 +435,9 @@ file
 org
 /
 "
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -642,6 +648,9 @@ org
 test
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -666,6 +675,13 @@ test
 title
 :
 "
+test
+visit
+for
+http
+:
+/
+/
 file
 .
 org

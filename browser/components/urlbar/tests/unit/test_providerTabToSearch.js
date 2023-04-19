@@ -317,6 +317,9 @@ example
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -339,6 +342,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -346,6 +352,7 @@ https
 example
 .
 com
+/
 "
 heuristic
 :
@@ -466,6 +473,9 @@ example
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -488,6 +498,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -495,6 +508,7 @@ https
 example
 .
 com
+/
 "
 heuristic
 :
@@ -793,6 +807,9 @@ test
 ca
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -817,6 +834,9 @@ ca
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -826,6 +846,7 @@ example
 test
 .
 ca
+/
 "
 heuristic
 :
@@ -960,6 +981,9 @@ example
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -984,6 +1008,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -993,6 +1020,7 @@ www
 example
 .
 com
+/
 "
 heuristic
 :
@@ -1172,6 +1200,9 @@ foo
 bar
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -1194,6 +1225,9 @@ bar
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -1201,6 +1235,7 @@ https
 foo
 .
 bar
+/
 "
 heuristic
 :
@@ -1337,6 +1372,9 @@ foo
 bar
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -1361,6 +1399,9 @@ bar
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -1370,6 +1411,7 @@ www
 foo
 .
 bar
+/
 "
 heuristic
 :
@@ -1713,6 +1755,9 @@ foo
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -1735,6 +1780,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -1742,6 +1790,7 @@ https
 foo
 .
 com
+/
 "
 heuristic
 :
@@ -1916,6 +1965,9 @@ foobar
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -1938,6 +1990,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -1945,6 +2000,7 @@ https
 foobar
 .
 com
+/
 "
 heuristic
 :
@@ -2279,6 +2335,9 @@ example
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -2301,6 +2360,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -2308,6 +2370,7 @@ https
 example
 .
 com
+/
 "
 heuristic
 :
@@ -2542,6 +2605,9 @@ example
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -2564,6 +2630,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -2571,6 +2640,7 @@ https
 example
 .
 com
+/
 "
 heuristic
 :
@@ -3031,6 +3101,9 @@ com
 mx
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -3053,6 +3126,9 @@ mx
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -3060,6 +3136,7 @@ https
 com
 .
 mx
+/
 "
 heuristic
 :
@@ -3237,6 +3314,9 @@ disabled
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -3259,6 +3339,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -3266,6 +3349,7 @@ https
 disabled
 .
 com
+/
 "
 heuristic
 :
@@ -3377,6 +3461,9 @@ disabled
 com
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -3399,6 +3486,9 @@ com
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -3406,6 +3496,7 @@ https
 disabled
 .
 com
+/
 "
 heuristic
 :

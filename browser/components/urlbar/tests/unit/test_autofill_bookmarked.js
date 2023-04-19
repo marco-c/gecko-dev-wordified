@@ -442,6 +442,9 @@ https
 host
 }
 /
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -461,6 +464,9 @@ host
 /
 title
 :
+test
+visit
+for
 https
 :
 /
@@ -468,6 +474,7 @@ https
 {
 host
 }
+/
 heuristic
 :
 true
@@ -828,6 +835,9 @@ www
 host
 }
 /
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -914,6 +924,9 @@ www
 host
 }
 /
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -998,6 +1011,9 @@ www
 host
 }
 /
+hasAutofillTitle
+:
+false
 matches
 :
 [

@@ -210,6 +210,9 @@ mozilla
 org
 /
 "
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -409,6 +412,9 @@ org
 test
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -435,6 +441,9 @@ test
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -557,6 +566,9 @@ mozilla
 org
 /
 "
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -743,6 +755,9 @@ org
 test
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -767,6 +782,9 @@ test
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -892,6 +910,9 @@ mozilla
 org
 /
 "
+hasAutofillTitle
+:
+false
 matches
 :
 [
@@ -1087,6 +1108,9 @@ org
 test
 /
 "
+hasAutofillTitle
+:
+true
 matches
 :
 [
@@ -1113,6 +1137,13 @@ test
 title
 :
 "
+test
+visit
+for
+http
+:
+/
+/
 www
 .
 mozilla
