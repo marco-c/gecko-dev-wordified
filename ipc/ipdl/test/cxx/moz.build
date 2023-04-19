@@ -718,11 +718,6 @@ PTestLatency
 ipdl
 "
 "
-PTestLayoutThread
-.
-ipdl
-"
-"
 PTestManyChildAllocs
 .
 ipdl
