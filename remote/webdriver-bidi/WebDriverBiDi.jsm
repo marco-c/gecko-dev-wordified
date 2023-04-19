@@ -692,9 +692,6 @@ for
 initial
 application
 window
-to
-be
-loaded
 )
 ;
 await
