@@ -1647,9 +1647,6 @@ debug
 fission
 "
 "
-e10s
-"
-"
 processor
 "
 "
