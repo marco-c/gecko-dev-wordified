@@ -2499,6 +2499,12 @@ irregexp
 CheckPatternSyntax
 (
 cx
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 dummyTokenStream
 pattern
 flags

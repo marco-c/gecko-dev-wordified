@@ -2238,6 +2238,7 @@ irregexp
 CheckPatternSyntax
 (
 cx
+stackLimit
 ts
 range
 flags

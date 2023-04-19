@@ -1347,6 +1347,12 @@ irregexp
 CheckPatternSyntax
 (
 cx
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 dummyTokenStream
 source
 flags
@@ -7156,6 +7162,12 @@ irregexp
 CheckPatternSyntax
 (
 cx
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 dummyTokenStream
 source
 flags
