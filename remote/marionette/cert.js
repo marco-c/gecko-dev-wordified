@@ -192,8 +192,7 @@ preloadlist
 namespace
 *
 /
-this
-.
+const
 allowAllCerts
 =
 {

@@ -496,8 +496,7 @@ elements
 namespace
 *
 /
-this
-.
+const
 element
 =
 {

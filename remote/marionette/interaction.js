@@ -485,8 +485,7 @@ submit
 namespace
 *
 /
-this
-.
+const
 interaction
 =
 {

@@ -169,8 +169,7 @@ js
 namespace
 *
 /
-this
-.
+const
 permissions
 =
 {

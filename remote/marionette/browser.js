@@ -236,8 +236,7 @@ jsm
 namespace
 *
 /
-this
-.
+const
 browser
 =
 {

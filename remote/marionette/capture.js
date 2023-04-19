@@ -228,8 +228,7 @@ screenshots
 namespace
 *
 /
-this
-.
+const
 capture
 =
 {

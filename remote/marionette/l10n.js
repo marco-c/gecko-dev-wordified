@@ -291,8 +291,7 @@ parser
 namespace
 *
 /
-this
-.
+const
 l10n
 =
 {

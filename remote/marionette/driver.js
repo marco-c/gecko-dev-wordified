@@ -1134,11 +1134,8 @@ server
 .
 *
 /
-this
-.
-GeckoDriver
-=
 function
+GeckoDriver
 (
 server
 )
@@ -1229,7 +1226,6 @@ dialogObserver
 null
 ;
 }
-;
 /
 *
 *

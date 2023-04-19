@@ -1150,8 +1150,7 @@ Marionette
 jsm
 module
 .
-this
-.
+const
 MarionettePrefs
 =
 new

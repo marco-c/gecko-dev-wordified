@@ -493,8 +493,7 @@ html
 namespace
 *
 /
-this
-.
+const
 reftest
 =
 {

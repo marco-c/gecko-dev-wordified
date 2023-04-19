@@ -323,8 +323,7 @@ TIMEOUT_UNLOAD_EVENT
 namespace
 *
 /
-this
-.
+const
 navigate
 =
 {

@@ -317,8 +317,7 @@ browser
 namespace
 *
 /
-this
-.
+const
 action
 =
 {

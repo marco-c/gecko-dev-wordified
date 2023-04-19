@@ -163,8 +163,7 @@ events
 .
 *
 /
-this
-.
+const
 event
 =
 {

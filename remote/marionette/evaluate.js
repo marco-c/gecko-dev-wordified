@@ -270,8 +270,7 @@ finish
 namespace
 *
 /
-this
-.
+const
 evaluate
 =
 {
@@ -3080,8 +3079,7 @@ false
 ;
 }
 ;
-this
-.
+const
 sandbox
 =
 {
@@ -3709,11 +3707,8 @@ memberof
 evaluate
 *
 /
-this
-.
-Sandboxes
-=
 class
+Sandboxes
 {
 /
 *
@@ -4028,4 +4023,3 @@ clear
 ;
 }
 }
-;

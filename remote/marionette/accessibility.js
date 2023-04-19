@@ -255,8 +255,7 @@ undefined
 namespace
 *
 /
-this
-.
+const
 accessibility
 =
 {

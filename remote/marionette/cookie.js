@@ -238,8 +238,7 @@ SAMESITE_STRICT
 namespace
 *
 /
-this
-.
+const
 cookie
 =
 {
