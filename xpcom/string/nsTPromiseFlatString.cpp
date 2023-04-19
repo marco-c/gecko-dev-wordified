@@ -114,6 +114,13 @@ MPL
 .
 *
 /
+#
+include
+"
+nsTPromiseFlatString
+.
+h
+"
 template
 <
 typename
