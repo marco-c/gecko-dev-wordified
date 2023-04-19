@@ -208,17 +208,6 @@ ipc
 :
 :
 IPCResult
-RecvRefresh
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvShutdown
 (
 )
