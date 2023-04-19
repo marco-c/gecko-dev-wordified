@@ -1176,6 +1176,13 @@ js
 "
 shims
 /
+blogger
+.
+js
+"
+"
+shims
+/
 bmauth
 .
 js
