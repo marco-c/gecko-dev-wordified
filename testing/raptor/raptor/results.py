@@ -302,22 +302,9 @@ kwargs
 get
 (
 "
-extra_prefs
-"
-{
-}
-)
-.
-get
-(
-            
-"
 fission
-.
-autostart
 "
-False
-        
+True
 )
         
 self
