@@ -456,8 +456,11 @@ HpkeContext
 *
 hpkeCtx
 ;
-sslBuffer
+PRUint8
 signal
+[
+TLS13_ECH_SIGNAL_LEN
+]
 ;
 }
 ;
@@ -637,6 +640,7 @@ Payload
 /
 }
 ;
+SEC_BEGIN_PROTOS
 SECStatus
 SSLExp_EncodeEchConfigId
 (
@@ -731,6 +735,7 @@ PRFileDesc
 fd
 )
 ;
+SEC_END_PROTOS
 SECStatus
 tls13_ClientSetupEch
 (
