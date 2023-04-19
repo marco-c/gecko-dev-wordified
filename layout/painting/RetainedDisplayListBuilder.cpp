@@ -11077,6 +11077,9 @@ container
 item
 linked
 .
+#
+ifdef
+DEBUG
 RDLUtils
 :
 :
@@ -11085,6 +11088,8 @@ AssertDisplayItemUnmodified
 item
 )
 ;
+#
+endif
 aList
 -
 >
