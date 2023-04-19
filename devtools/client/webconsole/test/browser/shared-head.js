@@ -3048,7 +3048,7 @@ object
 options
 *
 -
-hud
+text
 :
 {
 String
