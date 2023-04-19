@@ -3861,16 +3861,6 @@ channel
 '
 s
 URI
-;
-flash
-feature
-always
-uses
-the
-channel
-'
-s
-URI
 .
 Because
 of
