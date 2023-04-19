@@ -1134,9 +1134,6 @@ ReportCompileWarning
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 ErrorMetadata
 &
 &
@@ -1318,7 +1315,6 @@ if
 ExpandErrorArgumentsVA
 (
 ec
-alloc
 GetErrorMessage
 nullptr
 errorNumber
@@ -1352,9 +1348,6 @@ ReportCompileErrorImpl
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 js
 :
 :
@@ -1518,7 +1511,6 @@ js
 ExpandErrorArgumentsVA
 (
 ec
-alloc
 js
 :
 :
@@ -1553,9 +1545,6 @@ ReportCompileErrorLatin1
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 ErrorMetadata
 &
 &
@@ -1575,7 +1564,6 @@ args
 ReportCompileErrorImpl
 (
 ec
-alloc
 std
 :
 :
@@ -1605,9 +1593,6 @@ ReportCompileErrorUTF8
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 ErrorMetadata
 &
 &
@@ -1627,7 +1612,6 @@ args
 ReportCompileErrorImpl
 (
 ec
-alloc
 std
 :
 :
@@ -2821,8 +2805,6 @@ template
 <
 typename
 T
-typename
-Allocator
 >
 static
 bool
@@ -2831,9 +2813,6 @@ ExpandErrorArgumentsHelper
 ErrorContext
 *
 ec
-Allocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -3049,7 +3028,12 @@ args
 .
 init
 (
-alloc
+ec
+-
+>
+getAllocator
+(
+)
 messageArgs
 argCount
 argumentsType
@@ -3123,10 +3107,14 @@ utf8
 =
 out
 =
-alloc
+ec
 -
 >
-template
+getAllocator
+(
+)
+-
+>
 pod_malloc
 <
 char
@@ -3417,10 +3405,14 @@ char
 *
 message
 =
-alloc
+ec
 -
 >
-template
+getAllocator
+(
+)
+-
+>
 pod_malloc
 <
 char
@@ -3469,9 +3461,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSContext
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -3506,7 +3495,6 @@ return
 ExpandErrorArgumentsHelper
 (
 ec
-alloc
 callback
 userRef
 errorNumber
@@ -3526,9 +3514,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -3563,7 +3548,6 @@ return
 ExpandErrorArgumentsHelper
 (
 ec
-alloc
 callback
 userRef
 errorNumber
@@ -3583,9 +3567,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -3607,7 +3588,6 @@ return
 ExpandErrorArgumentsHelper
 (
 ec
-alloc
 callback
 userRef
 errorNumber
@@ -3627,9 +3607,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -3659,7 +3636,6 @@ return
 ExpandErrorArgumentsHelper
 (
 ec
-alloc
 callback
 userRef
 errorNumber
@@ -3736,7 +3712,6 @@ ExpandErrorArgumentsVA
 (
 &
 ec
-cx
 callback
 userRef
 errorNumber
@@ -3780,9 +3755,6 @@ ExpandErrorArguments
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -3827,7 +3799,6 @@ js
 ExpandErrorArgumentsVA
 (
 ec
-alloc
 callback
 userRef
 errorNumber
@@ -3968,7 +3939,6 @@ ExpandErrorArguments
 (
 &
 ec
-cx
 callback
 userRef
 errorNumber

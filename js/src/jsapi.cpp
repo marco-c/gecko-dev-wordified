@@ -22392,7 +22392,6 @@ ExpandErrorArgumentsVA
 (
 &
 ec
-cx
 errorCallback
 nullptr
 errorNumber
@@ -23569,7 +23568,6 @@ ExpandErrorArgumentsVA
 (
 &
 ec
-cx
 errorCallback
 userRef
 errorNumber
