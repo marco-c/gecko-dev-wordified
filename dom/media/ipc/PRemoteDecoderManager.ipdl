@@ -114,9 +114,6 @@ include
 LayersSurfaces
 ;
 include
-PMediaDecoderParams
-;
-include
 "
 mozilla
 /

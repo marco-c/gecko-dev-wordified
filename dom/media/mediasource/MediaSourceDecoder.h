@@ -440,10 +440,7 @@ MediaDecoderStateMachineBase
 *
 CreateStateMachine
 (
-bool
-aDisableExternalEngine
 )
-override
 ;
 void
 DoSetMediaSourceDuration
