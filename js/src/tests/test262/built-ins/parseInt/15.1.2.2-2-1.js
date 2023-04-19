@@ -45,7 +45,7 @@ radix
 description
 :
 >
-pareseInt
+parseInt
 -
 '
 S

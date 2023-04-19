@@ -119,12 +119,9 @@ props
 "
 TypeError
 if
-at
-least
-one
-property
-is
-not
+no
+properties
+are
 present
 "
 )

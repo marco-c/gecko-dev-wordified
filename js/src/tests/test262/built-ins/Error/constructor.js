@@ -85,7 +85,7 @@ cause
 includes
 :
 [
-deepEqual
+compareArray
 .
 js
 ]
@@ -168,7 +168,7 @@ cause
 ;
 assert
 .
-deepEqual
+compareArray
 (
 sequence
 [

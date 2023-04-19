@@ -157,7 +157,7 @@ maximumFractionDigits
 2
 minimumFractionDigits
 :
-1
+2
 }
 {
 '
@@ -191,7 +191,7 @@ minimumFractionDigits
 '
 1
 .
-5
+50
 '
 '
 1
@@ -202,7 +202,7 @@ minimumFractionDigits
 '
 1
 .
-5
+50
 '
 '
 1
@@ -213,7 +213,7 @@ minimumFractionDigits
 '
 1
 .
-5
+50
 '
 }
 )
@@ -227,6 +227,9 @@ roundingIncrement
 :
 25
 maximumFractionDigits
+:
+3
+minimumFractionDigits
 :
 3
 }
@@ -262,7 +265,7 @@ maximumFractionDigits
 '
 1
 .
-05
+050
 '
 '
 1
@@ -273,7 +276,7 @@ maximumFractionDigits
 '
 1
 .
-05
+050
 '
 '
 1
@@ -284,7 +287,7 @@ maximumFractionDigits
 '
 1
 .
-05
+050
 '
 }
 )

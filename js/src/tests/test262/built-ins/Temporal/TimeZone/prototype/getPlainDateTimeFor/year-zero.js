@@ -72,6 +72,9 @@ features
 :
 [
 Temporal
+arrow
+-
+function
 ]
 -
 -
@@ -118,7 +121,7 @@ invalidStrings
 :
 00
 +
-01
+00
 :
 00
 [
@@ -145,7 +148,7 @@ invalidStrings
 forEach
 (
 (
-str
+arg
 )
 =
 >
@@ -163,7 +166,7 @@ instance
 .
 getPlainDateTimeFor
 (
-str
+arg
 )
 "
 reject

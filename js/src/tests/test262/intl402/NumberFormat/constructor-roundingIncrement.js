@@ -254,6 +254,9 @@ return
 value
 ;
 }
+minimumFractionDigits
+:
+3
 }
 )
 ;

@@ -85,7 +85,7 @@ js
 *
 /
 const
-lastFeb20
+feb29
 =
 new
 Temporal
@@ -100,7 +100,7 @@ PlainDateTime
 )
 ;
 const
-lastFeb21
+feb28
 =
 new
 Temporal
@@ -118,11 +118,11 @@ TemporalHelpers
 .
 assertDuration
 (
-lastFeb20
+feb29
 .
 until
 (
-lastFeb21
+feb28
 {
 largestUnit
 :
@@ -162,11 +162,11 @@ TemporalHelpers
 .
 assertDuration
 (
-lastFeb20
+feb29
 .
 until
 (
-lastFeb21
+feb28
 {
 largestUnit
 :

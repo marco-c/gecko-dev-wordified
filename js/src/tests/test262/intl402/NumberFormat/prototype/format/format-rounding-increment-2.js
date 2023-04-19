@@ -155,6 +155,9 @@ roundingIncrement
 maximumFractionDigits
 :
 1
+minimumFractionDigits
+:
+1
 }
 {
 '
@@ -224,6 +227,9 @@ roundingIncrement
 :
 2
 maximumFractionDigits
+:
+2
+minimumFractionDigits
 :
 2
 }

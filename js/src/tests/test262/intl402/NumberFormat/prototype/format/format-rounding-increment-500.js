@@ -157,7 +157,7 @@ maximumFractionDigits
 3
 minimumFractionDigits
 :
-1
+3
 }
 {
 '
@@ -169,7 +169,7 @@ minimumFractionDigits
 '
 1
 .
-5
+500
 '
 '
 1
@@ -180,7 +180,7 @@ minimumFractionDigits
 '
 1
 .
-5
+500
 '
 '
 1
@@ -191,7 +191,7 @@ minimumFractionDigits
 '
 2
 .
-0
+000
 '
 '
 1
@@ -202,7 +202,7 @@ minimumFractionDigits
 '
 2
 .
-0
+000
 '
 '
 2
@@ -213,7 +213,7 @@ minimumFractionDigits
 '
 2
 .
-0
+000
 '
 }
 )
@@ -229,6 +229,9 @@ roundingIncrement
 maximumFractionDigits
 :
 4
+minimumFractionDigits
+:
+4
 }
 {
 '
@@ -240,7 +243,7 @@ maximumFractionDigits
 '
 1
 .
-05
+0500
 '
 '
 1
@@ -251,7 +254,7 @@ maximumFractionDigits
 '
 1
 .
-05
+0500
 '
 '
 1
@@ -262,7 +265,7 @@ maximumFractionDigits
 '
 1
 .
-1
+1000
 '
 '
 1
@@ -273,7 +276,7 @@ maximumFractionDigits
 '
 1
 .
-1
+1000
 '
 '
 1
@@ -284,7 +287,7 @@ maximumFractionDigits
 '
 1
 .
-1
+1000
 '
 }
 )

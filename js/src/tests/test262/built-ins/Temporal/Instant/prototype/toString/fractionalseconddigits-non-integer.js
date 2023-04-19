@@ -139,7 +139,7 @@ Let
 _precision_
 be
 ?
-ToDurationSecondsStringPrecision
+ToSecondsStringPrecision
 (
 _options_
 )
