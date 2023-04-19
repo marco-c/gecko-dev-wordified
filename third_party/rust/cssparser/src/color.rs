@@ -5665,6 +5665,7 @@ rgb
 [
 inline
 ]
+pub
 fn
 hwb_to_rgb
 (
@@ -5819,6 +5820,7 @@ errors
 [
 inline
 ]
+pub
 fn
 hsl_to_rgb
 (
