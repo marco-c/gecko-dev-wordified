@@ -2535,14 +2535,6 @@ aWidgetChain
 override
 ;
 virtual
-void
-NotifyGeometryChange
-(
-)
-override
-{
-}
-virtual
 nsIWidget
 *
 GetRollupWidget

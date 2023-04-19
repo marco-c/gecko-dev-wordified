@@ -1578,10 +1578,6 @@ x
 y
 )
 ;
-NotifyRollupGeometryChange
-(
-)
-;
 }
 LayoutDeviceIntPoint
 HeadlessWidget

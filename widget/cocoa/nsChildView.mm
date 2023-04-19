@@ -4312,10 +4312,6 @@ mBounds
 }
 )
 ;
-NotifyRollupGeometryChange
-(
-)
-;
 ReportMoveEvent
 (
 )
@@ -4433,10 +4429,6 @@ YES
 ]
 ;
 }
-NotifyRollupGeometryChange
-(
-)
-;
 ReportSizeEvent
 (
 )
@@ -4662,10 +4654,6 @@ YES
 ]
 ;
 }
-NotifyRollupGeometryChange
-(
-)
-;
 if
 (
 isMoving
