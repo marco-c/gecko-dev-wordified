@@ -172,6 +172,18 @@ nsIServiceWorkerManager
 "
 )
 ;
+XPCOMUtils
+.
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+indexedDB
+"
+]
+)
+;
 /
 *
 *
@@ -435,6 +447,8 @@ origin
 let
 request
 =
+lazy
+.
 indexedDB
 .
 openForPrincipal
@@ -1580,6 +1594,8 @@ true
 let
 request
 =
+lazy
+.
 indexedDB
 .
 openForPrincipal

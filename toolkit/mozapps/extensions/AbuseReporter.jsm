@@ -140,6 +140,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+fetch
+"
+]
+)
+;
 const
 PREF_ABUSE_REPORT_URL
 =

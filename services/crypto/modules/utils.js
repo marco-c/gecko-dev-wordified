@@ -145,6 +145,18 @@ lazy
 ;
 XPCOMUtils
 .
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+crypto
+"
+]
+)
+;
+XPCOMUtils
+.
 defineLazyGetter
 (
 lazy
@@ -355,6 +367,8 @@ length
 )
 {
 return
+lazy
+.
 crypto
 .
 getRandomValues
@@ -1047,6 +1061,8 @@ const
 hmacKey
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1079,6 +1095,8 @@ const
 result
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1153,6 +1171,8 @@ const
 key
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1182,6 +1202,8 @@ const
 okm
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1314,6 +1336,8 @@ const
 key
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1343,6 +1367,8 @@ const
 output
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -3074,6 +3100,8 @@ const
 hash
 =
 await
+lazy
+.
 crypto
 .
 subtle

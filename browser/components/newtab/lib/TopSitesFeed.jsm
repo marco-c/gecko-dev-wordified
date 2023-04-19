@@ -480,6 +480,18 @@ jsm
 ;
 XPCOMUtils
 .
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
+XPCOMUtils
+.
 defineLazyGetter
 (
 lazy
@@ -1110,6 +1122,8 @@ const
 response
 =
 await
+lazy
+.
 fetch
 (
 url

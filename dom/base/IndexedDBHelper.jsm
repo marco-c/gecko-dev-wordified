@@ -123,6 +123,17 @@ IndexedDBHelper
 "
 ]
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+indexedDB
+"
+]
+)
+;
 const
 {
 Services

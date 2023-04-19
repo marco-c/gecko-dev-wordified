@@ -355,6 +355,17 @@ AddonRepository
 "
 ]
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+fetch
+"
+]
+)
+;
 const
 PREF_GETADDONS_CACHE_ENABLED
 =

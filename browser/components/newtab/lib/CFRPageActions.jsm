@@ -117,6 +117,18 @@ lazy
 ;
 XPCOMUtils
 .
+defineLazyGlobalGetters
+(
+lazy
+[
+"
+fetch
+"
+]
+)
+;
+XPCOMUtils
+.
 defineLazyModuleGetters
 (
 lazy
@@ -5355,6 +5367,8 @@ const
 response
 =
 await
+lazy
+.
 fetch
 (
 {
