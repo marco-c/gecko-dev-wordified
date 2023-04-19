@@ -2749,6 +2749,17 @@ MaybeDispatchResized
 )
 ;
 void
+DispatchPanGesture
+(
+mozilla
+:
+:
+PanGestureInput
+&
+aPanInput
+)
+;
+void
 RegisterTouchWindow
 (
 )
