@@ -9642,9 +9642,6 @@ raw
 =
 >
 {
-let
-_
-=
 self
 .
 shared

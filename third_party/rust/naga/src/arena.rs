@@ -600,8 +600,10 @@ NonZeroU32
 :
 new_unchecked
 (
-!
-0
+u32
+:
+:
+MAX
 )
 }
 marker
@@ -740,7 +742,7 @@ Failed
 to
 insert
 into
-UniqueArena
+arena
 .
 Handle
 overflows

@@ -253,7 +253,7 @@ mip_range
 :
 selector
 .
-levels
+mips
 layer_range
 :
 selector

@@ -51,7 +51,7 @@ crate
 BufferUses
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 )
 {
 flags
@@ -240,7 +240,7 @@ crate
 TextureUses
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 )
 {
 flags
@@ -983,7 +983,7 @@ intersects
 Bu
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 )
 {
 state
@@ -1253,7 +1253,7 @@ STORAGE_READ
 Tu
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 )
 {
 state
