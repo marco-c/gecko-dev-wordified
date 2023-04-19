@@ -813,17 +813,7 @@ QuicSocketControl
 cpp
 "
 "
-SocketWrapper
-.
-cpp
-"
-"
 SpeculativeTransaction
-.
-cpp
-"
-"
-TLSFilterTransaction
 .
 cpp
 "
