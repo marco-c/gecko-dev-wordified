@@ -420,7 +420,7 @@ CreateInputStream
 nsIInputStream
 *
 *
-aInputStream
+aStream
 ErrorResult
 &
 aRv
@@ -485,7 +485,7 @@ BlobImpl
 *
 >
 &
-aVisitedBlobImpls
+aVisitedBlobs
 )
 const
 override

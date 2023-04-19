@@ -500,7 +500,7 @@ aGlobal
 const
 nsAString
 &
-aFilePath
+aPath
 const
 ChromeFilePropertyBag
 &
@@ -528,7 +528,7 @@ GlobalObject
 aGlobal
 nsIFile
 *
-aFile
+aData
 const
 ChromeFilePropertyBag
 &
@@ -545,7 +545,7 @@ GetName
 (
 nsAString
 &
-aName
+aFileName
 )
 const
 ;
@@ -584,7 +584,7 @@ GetMozFullPathInternal
 (
 nsAString
 &
-aName
+aFileName
 ErrorResult
 &
 aRv

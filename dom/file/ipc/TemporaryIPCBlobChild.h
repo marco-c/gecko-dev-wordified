@@ -205,7 +205,7 @@ TemporaryIPCBlobChild
 (
 MutableBlobStorage
 *
-aMutableBlobStorage
+aStorage
 )
 ;
 void

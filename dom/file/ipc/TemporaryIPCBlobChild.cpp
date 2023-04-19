@@ -285,7 +285,7 @@ Recv__delete__
 const
 IPCBlobOrError
 &
-aData
+aBlobOrError
 )
 {
 mActive
@@ -298,7 +298,7 @@ nullptr
 ;
 if
 (
-aData
+aBlobOrError
 .
 type
 (
@@ -330,7 +330,7 @@ IPCBlobUtils
 :
 Deserialize
 (
-aData
+aBlobOrError
 .
 get_IPCBlob
 (
@@ -365,7 +365,7 @@ mCallback
 {
 MOZ_ASSERT
 (
-aData
+aBlobOrError
 .
 type
 (
@@ -383,7 +383,7 @@ mCallback
 >
 OperationFailed
 (
-aData
+aBlobOrError
 .
 get_nsresult
 (
