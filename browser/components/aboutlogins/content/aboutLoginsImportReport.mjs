@@ -70,7 +70,7 @@ details
 -
 row
 .
-js
+mjs
 "
 ;
 const
