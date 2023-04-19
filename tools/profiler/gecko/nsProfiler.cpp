@@ -435,6 +435,7 @@ Shutdown
 }
 ResetGathering
 (
+NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 )
 ;
 }
@@ -996,6 +997,7 @@ aPromise
 {
 ResetGathering
 (
+NS_ERROR_DOM_ABORT_ERR
 )
 ;
 Vector
@@ -1148,6 +1150,7 @@ aPromise
 {
 ResetGathering
 (
+NS_ERROR_DOM_ABORT_ERR
 )
 ;
 return
@@ -7136,6 +7139,7 @@ Length
 {
 ResetGathering
 (
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
@@ -7144,7 +7148,7 @@ GatheringPromise
 :
 CreateAndReject
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_OUT_OF_MEMORY
 __func__
 )
 ;
@@ -7270,6 +7274,7 @@ gathering
 .
 ResetGathering
 (
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -8941,6 +8946,7 @@ __func__
 ;
 ResetGathering
 (
+NS_ERROR_UNEXPECTED
 )
 ;
 }
@@ -8950,6 +8956,8 @@ nsProfiler
 :
 ResetGathering
 (
+nsresult
+aPromiseRejectionIfPending
 )
 {
 /
@@ -8988,7 +8996,7 @@ mPromiseHolder
 >
 RejectIfExists
 (
-NS_ERROR_DOM_ABORT_ERR
+aPromiseRejectionIfPending
 __func__
 )
 ;

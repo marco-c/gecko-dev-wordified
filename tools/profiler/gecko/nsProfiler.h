@@ -384,6 +384,8 @@ FinishGathering
 void
 ResetGathering
 (
+nsresult
+aPromiseRejectionIfPending
 )
 ;
 static
