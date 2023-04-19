@@ -14186,7 +14186,7 @@ MozModalDialog
 NonTSPseudoClass
 :
 :
-MozTopmostModalDialog
+MozTopmostModal
 |
 NonTSPseudoClass
 :
