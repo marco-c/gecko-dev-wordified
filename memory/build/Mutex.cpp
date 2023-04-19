@@ -76,7 +76,7 @@ bool
 Mutex
 :
 :
-UseUnfairLocks
+SpinInKernelSpace
 (
 )
 {
@@ -107,10 +107,9 @@ bool
 Mutex
 :
 :
-gFallbackToOSSpinLock
+gSpinInKernelSpace
 =
-!
-UseUnfairLocks
+SpinInKernelSpace
 (
 )
 ;
