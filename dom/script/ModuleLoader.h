@@ -187,8 +187,8 @@ namespace
 JS
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -611,12 +611,10 @@ mKind
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

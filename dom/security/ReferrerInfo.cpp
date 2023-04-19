@@ -369,8 +369,8 @@ net
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -9147,9 +9147,7 @@ telemetryOffset
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

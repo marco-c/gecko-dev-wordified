@@ -246,8 +246,8 @@ std
 is_same
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -731,12 +731,10 @@ written
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

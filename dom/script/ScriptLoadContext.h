@@ -331,8 +331,8 @@ namespace
 JS
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1268,12 +1268,10 @@ mUnreportedPreloadError
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

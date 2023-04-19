@@ -344,8 +344,8 @@ host
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -4201,9 +4201,7 @@ ReportingHeader
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

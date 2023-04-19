@@ -272,8 +272,8 @@ Maybe
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -2844,12 +2844,10 @@ DEBUG
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
