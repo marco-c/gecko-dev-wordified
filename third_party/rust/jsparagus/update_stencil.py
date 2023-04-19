@@ -301,6 +301,15 @@ h
 (
 vm_dir
 '
+CompletionKind
+.
+h
+'
+)
+    
+(
+vm_dir
+'
 FunctionFlags
 .
 h
@@ -2440,6 +2449,15 @@ extract_enum
 types
 paths
 '
+CompletionKind
+'
+)
+    
+extract_enum
+(
+types
+paths
+'
 FunctionPrefixKind
 '
 )
@@ -3038,6 +3056,10 @@ AsyncFunctionResolveKind
         
 '
 CheckIsObjectKind
+'
+        
+'
+CompletionKind
 '
         
 '
