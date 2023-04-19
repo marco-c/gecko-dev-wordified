@@ -4969,6 +4969,16 @@ aAtkObj
 if
 (
 !
+acc
+)
+{
+return
+relation_set
+;
+}
+if
+(
+!
 StaticPrefs
 :
 :
