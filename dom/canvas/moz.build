@@ -125,7 +125,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 with
@@ -146,7 +146,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 with
@@ -173,7 +173,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 with
@@ -200,7 +200,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 with
@@ -225,7 +225,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 with
@@ -251,7 +251,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 with
@@ -277,7 +277,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 #

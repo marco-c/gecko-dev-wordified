@@ -477,6 +477,6 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )

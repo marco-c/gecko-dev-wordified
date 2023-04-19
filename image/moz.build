@@ -151,6 +151,8 @@ BUG_COMPONENT
 Core
 "
 "
+Graphics
+:
 ImageLib
 "
 )

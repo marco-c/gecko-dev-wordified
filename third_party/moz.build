@@ -185,6 +185,8 @@ BUG_COMPONENT
 Core
 '
 '
+Graphics
+:
 ImageLib
 '
 )
@@ -231,6 +233,8 @@ BUG_COMPONENT
 Core
 '
 '
+Graphics
+:
 ImageLib
 '
 )
