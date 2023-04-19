@@ -1103,6 +1103,12 @@ position
 "
 split
 "
+split_narrow_bkg_position
+:
+"
+-
+100px
+"
 background
 :
 "
@@ -2202,6 +2208,12 @@ progress_bar
 :
 "
 true
+"
+split_narrow_bkg_position
+:
+"
+-
+60px
 "
 background
 :
