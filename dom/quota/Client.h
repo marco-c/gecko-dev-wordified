@@ -422,7 +422,7 @@ TypeMax
 {
 if
 (
-CachedNextGenLocalStorageEnabled
+NextGenLocalStorageEnabled
 (
 )
 )
