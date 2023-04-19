@@ -808,8 +808,6 @@ topic
 ;
 }
 }
-this
-.
 SyncAuthManager
 .
 prototype

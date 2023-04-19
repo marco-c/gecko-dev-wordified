@@ -11423,8 +11423,6 @@ Sync11Service
 (
 )
 ;
-this
-.
 Service
 .
 promiseInitialized
@@ -11436,8 +11434,6 @@ resolve
 =
 >
 {
-this
-.
 Service
 .
 onStartup

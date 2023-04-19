@@ -915,8 +915,6 @@ _localtimeOffsetMsec
 ;
 }
 ;
-this
-.
 HawkClient
 .
 prototype
