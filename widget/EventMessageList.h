@@ -2138,10 +2138,6 @@ NS_EVENT_MESSAGE
 (
 eVRDisplayPresentChange
 )
-NS_EVENT_MESSAGE
-(
-eShow
-)
 /
 /
 Fullscreen

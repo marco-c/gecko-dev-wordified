@@ -831,12 +831,6 @@ Menu
 )
 HTML_TAG
 (
-menuitem
-MenuItem
-MenuItem
-)
-HTML_TAG
-(
 meta
 Meta
 Meta

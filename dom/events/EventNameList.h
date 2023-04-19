@@ -1545,13 +1545,6 @@ eBasicEventClass
 )
 EVENT
 (
-show
-eShow
-EventNameType_HTML
-eBasicEventClass
-)
-EVENT
-(
 slotchange
 eSlotChange
 EventNameType_All
