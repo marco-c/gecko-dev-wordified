@@ -188,15 +188,6 @@ GetPrincipal
 virtual
 nsIPrincipal
 *
-GetEffectiveCookiePrincipal
-(
-)
-=
-0
-;
-virtual
-nsIPrincipal
-*
 GetEffectiveStoragePrincipal
 (
 )
