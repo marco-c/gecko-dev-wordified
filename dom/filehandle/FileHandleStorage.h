@@ -122,8 +122,8 @@ define
 mozilla_dom_FileHandleStorage_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -149,12 +149,10 @@ FILE_HANDLE_STORAGE_MAX
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

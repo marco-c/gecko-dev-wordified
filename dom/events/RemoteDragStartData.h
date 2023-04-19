@@ -114,8 +114,8 @@ nsICookieJarSettings
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -352,12 +352,10 @@ mVisualization
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
