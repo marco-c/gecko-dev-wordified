@@ -186,11 +186,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SetClipboardSearchString
 "
@@ -213,7 +219,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -264,7 +270,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 matchesCountLimit
 "
@@ -541,6 +547,8 @@ null
 aSourceDocument
 *
 /
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -704,6 +712,8 @@ _findFailedString
 =
 null
 ;
+lazy
+.
 SetClipboardSearchString
 (
 data
@@ -729,6 +739,8 @@ data
 .
 rawQuery
 ;
+lazy
+.
 SetClipboardSearchString
 (
 data
@@ -888,6 +900,8 @@ total
 limit
 :
 typeof
+lazy
+.
 matchesCountLimit
 =
 =
@@ -896,6 +910,8 @@ matchesCountLimit
 number
 "
 ?
+lazy
+.
 matchesCountLimit
 :
 0

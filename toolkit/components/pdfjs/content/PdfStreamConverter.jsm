@@ -279,11 +279,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncPrefs
 "
@@ -306,7 +312,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -329,7 +335,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetworkManager
 "
@@ -352,7 +358,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -375,7 +381,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PdfJsTelemetry
 "
@@ -398,7 +404,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PdfJs
 "
@@ -421,7 +427,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PdfSandbox
 "
@@ -498,7 +504,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gOurBinary
 "
@@ -1666,6 +1672,8 @@ this
 sandbox
 =
 new
+lazy
+.
 PdfSandbox
 (
 this
@@ -1829,6 +1837,8 @@ isInPrivateBrowsing
 )
 {
 return
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -2214,6 +2224,8 @@ telemetryState
 documentInfo
 )
 {
+lazy
+.
 PdfJsTelemetry
 .
 onDocumentVersion
@@ -2223,6 +2235,8 @@ probeInfo
 version
 )
 ;
+lazy
+.
 PdfJsTelemetry
 .
 onDocumentGenerator
@@ -2239,6 +2253,8 @@ probeInfo
 formType
 )
 {
+lazy
+.
 PdfJsTelemetry
 .
 onForm
@@ -2275,6 +2291,8 @@ telemetryState
 firstPageInfo
 )
 {
+lazy
+.
 PdfJsTelemetry
 .
 onTimeToView
@@ -2410,6 +2428,8 @@ key
 ]
 )
 {
+lazy
+.
 PdfJsTelemetry
 .
 onStreamType
@@ -2478,6 +2498,8 @@ key
 ]
 )
 {
+lazy
+.
 PdfJsTelemetry
 .
 onFontType
@@ -2505,6 +2527,8 @@ case
 print
 "
 :
+lazy
+.
 PdfJsTelemetry
 .
 onPrint
@@ -2533,6 +2557,8 @@ featureId
 ]
 )
 {
+lazy
+.
 PdfJsTelemetry
 .
 onFallbackError
@@ -2563,6 +2589,8 @@ case
 tagged
 "
 :
+lazy
+.
 PdfJsTelemetry
 .
 onTagged
@@ -3016,6 +3044,8 @@ case
 boolean
 "
 :
+lazy
+.
 AsyncPrefs
 .
 set
@@ -3031,6 +3061,8 @@ case
 number
 "
 :
+lazy
+.
 AsyncPrefs
 .
 set
@@ -3079,6 +3111,8 @@ preference
 }
 else
 {
+lazy
+.
 AsyncPrefs
 .
 set
@@ -3650,6 +3684,8 @@ this
 networkManager
 =
 new
+lazy
+.
 NetworkManager
 (
 this
@@ -4950,6 +4986,8 @@ executable
 .
 equals
 (
+lazy
+.
 gOurBinary
 )
 ;
@@ -5084,6 +5122,8 @@ processType
 PROCESS_TYPE_DEFAULT
 |
 |
+lazy
+.
 PdfJs
 .
 cachedIsDefault
@@ -6488,6 +6528,8 @@ false
 )
 ;
 }
+lazy
+.
 PdfJsTelemetry
 .
 onViewerIsUsed
@@ -6500,6 +6542,8 @@ aRequest
 DISPOSITION_ATTACHMENT
 )
 ;
+lazy
+.
 PdfJsTelemetry
 .
 onDocumentSize
@@ -6645,6 +6689,8 @@ resource
 var
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -6991,6 +7037,8 @@ EMBED
 :
 false
 ;
+lazy
+.
 PdfJsTelemetry
 .
 onEmbed
@@ -7093,6 +7141,8 @@ consistent
 var
 uri
 =
+lazy
+.
 NetUtil
 .
 newURI

@@ -321,11 +321,17 @@ nsIHandlerService
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PdfJsDefaultPreferences
 "
@@ -373,6 +379,8 @@ for
 var
 key
 in
+lazy
+.
 PdfJsDefaultPreferences
 )
 {
@@ -426,6 +434,8 @@ continue
 }
 defaultValue
 =
+lazy
+.
 PdfJsDefaultPreferences
 [
 key
