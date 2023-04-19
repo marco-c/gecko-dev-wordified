@@ -289,6 +289,11 @@ _
 (
 GetPropSuper
 )
+\
+_
+(
+CloseIter
+)
 }
 /
 /

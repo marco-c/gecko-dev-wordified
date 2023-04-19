@@ -1357,6 +1357,11 @@ GetIterator
 \
 _
 (
+CloseIter
+)
+\
+_
+(
 OptimizeSpreadCall
 )
 \
