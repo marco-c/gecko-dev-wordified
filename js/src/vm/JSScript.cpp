@@ -12494,14 +12494,6 @@ mutedErrors
 (
 )
 ;
-delazificationMode_
-=
-options
-.
-eagerDelazificationStrategy
-(
-)
-;
 startLine_
 =
 options
