@@ -361,10 +361,6 @@ Thread
 worker_thread
 )
 :
-MessageHandler
-(
-false
-)
 main_thread_
 (
 rtc

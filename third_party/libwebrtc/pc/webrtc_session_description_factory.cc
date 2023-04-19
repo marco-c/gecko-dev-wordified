@@ -834,10 +834,6 @@ UniqueRandomIdGenerator
 ssrc_generator
 )
 :
-MessageHandler
-(
-false
-)
 signaling_thread_
 (
 signaling_thread

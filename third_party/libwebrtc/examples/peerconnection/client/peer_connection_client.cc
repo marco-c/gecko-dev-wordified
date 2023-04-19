@@ -294,10 +294,6 @@ PeerConnectionClient
 (
 )
 :
-MessageHandler
-(
-false
-)
 callback_
 (
 NULL

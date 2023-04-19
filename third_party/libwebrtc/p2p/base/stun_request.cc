@@ -1343,13 +1343,6 @@ StunRequest
 (
 )
 :
-rtc
-:
-:
-MessageHandler
-(
-false
-)
 count_
 (
 0
@@ -1399,13 +1392,6 @@ StunMessage
 request
 )
 :
-rtc
-:
-:
-MessageHandler
-(
-false
-)
 count_
 (
 0
