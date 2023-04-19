@@ -384,6 +384,9 @@ ArrayObject
 class
 PropertyName
 ;
+class
+StringBuffer
+;
 /
 *
 The
