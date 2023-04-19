@@ -1496,7 +1496,7 @@ imageId
 :
 imageInfo
 .
-imageId
+recordId
 }
 }
 }
