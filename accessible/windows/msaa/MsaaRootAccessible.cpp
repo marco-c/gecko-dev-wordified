@@ -1124,9 +1124,12 @@ IDispatch
 >
 docDisp
 =
+already_AddRefed
+(
 NativeAccessible
 (
 docProxy
+)
 )
 ;
 if
