@@ -205,8 +205,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -598,12 +598,10 @@ MUTATION_GUARD
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 template
 <
 typename

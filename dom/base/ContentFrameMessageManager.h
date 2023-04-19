@@ -156,8 +156,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -348,12 +348,10 @@ NS_CONTENTFRAMEMESSAGEMANAGER_IID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

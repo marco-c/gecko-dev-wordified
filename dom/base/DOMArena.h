@@ -260,8 +260,8 @@ this
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -344,11 +344,9 @@ mArenaId
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

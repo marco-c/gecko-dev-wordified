@@ -212,8 +212,8 @@ JSContext
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -846,12 +846,10 @@ sHasShutDown
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

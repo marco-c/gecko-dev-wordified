@@ -187,8 +187,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -201,12 +201,10 @@ HTMLSlotElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 define
 CHARACTER_DATA_FLAG_BIT

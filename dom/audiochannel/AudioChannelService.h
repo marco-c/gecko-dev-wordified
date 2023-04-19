@@ -186,8 +186,8 @@ PRLogModuleInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1466,11 +1466,9 @@ aReason
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

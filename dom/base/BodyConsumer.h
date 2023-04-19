@@ -168,8 +168,8 @@ nsIThread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -722,12 +722,10 @@ mShuttingDown
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

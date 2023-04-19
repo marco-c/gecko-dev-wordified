@@ -210,8 +210,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -1873,11 +1873,9 @@ Seek
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
