@@ -56,10 +56,7 @@ shift
 *
 ;
 use
-crate
-:
-:
-lib
+core
 :
 :
 mem

@@ -25,10 +25,7 @@ Rust
 numbers
 .
 use
-crate
-:
-:
-lib
+core
 :
 :
 ops
