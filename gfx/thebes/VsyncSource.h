@@ -161,7 +161,7 @@ namespace
 mozilla
 {
 class
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 ;
 class
 CompositorVsyncDispatcher
@@ -226,8 +226,8 @@ typedef
 mozilla
 :
 :
-RefreshTimerVsyncDispatcher
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
+VsyncDispatcher
 ;
 typedef
 mozilla
@@ -629,9 +629,9 @@ aNewSource
 ;
 RefPtr
 <
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 >
-GetRefreshTimerVsyncDispatcher
+GetVsyncDispatcher
 (
 )
 ;
@@ -701,9 +701,9 @@ mRegisteredCompositorVsyncDispatchers
 ;
 RefPtr
 <
-RefreshTimerVsyncDispatcher
+VsyncDispatcher
 >
-mRefreshTimerVsyncDispatcher
+mVsyncDispatcher
 ;
 nsTArray
 <
