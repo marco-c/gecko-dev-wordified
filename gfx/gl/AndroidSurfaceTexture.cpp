@@ -598,6 +598,15 @@ return
 nullptr
 ;
 }
+gl
+-
+>
+mOwningThreadId
+=
+Nothing
+(
+)
+;
 /
 /
 Yield

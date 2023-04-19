@@ -607,7 +607,7 @@ IsDestroyed
 ctx
 -
 >
-IsOwningThread
+IsValidOwningThread
 (
 )
 )

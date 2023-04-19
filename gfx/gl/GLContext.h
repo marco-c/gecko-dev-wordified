@@ -16811,7 +16811,7 @@ thread
 *
 /
 bool
-IsOwningThread
+IsValidOwningThread
 (
 )
 const
@@ -17453,6 +17453,8 @@ GLContext
 >
 mSharedContext
 ;
+public
+:
 /
 /
 The
@@ -17464,10 +17466,14 @@ context
 was
 created
 .
-const
+Maybe
+<
 PlatformThreadId
+>
 mOwningThreadId
 ;
+protected
+:
 GLContextSymbols
 mSymbols
 =
