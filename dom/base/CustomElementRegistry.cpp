@@ -6218,16 +6218,6 @@ return
 ;
 }
 }
-if
-(
-StaticPrefs
-:
-:
-dom_webcomponents_disabledFeatures_enabled
-(
-)
-)
-{
 /
 *
 *
@@ -6401,7 +6391,6 @@ shadow
 )
 )
 ;
-}
 if
 (
 StaticPrefs
