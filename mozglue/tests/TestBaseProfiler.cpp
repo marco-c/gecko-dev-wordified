@@ -9676,7 +9676,7 @@ actual
 static_cast
 <
 StringWriteFunc
-*
+&
 >
 (
 aWriter
@@ -9685,8 +9685,7 @@ WriteFunc
 (
 )
 )
--
->
+.
 mString
 ;
 if
