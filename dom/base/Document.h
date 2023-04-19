@@ -11221,7 +11221,7 @@ FullscreenRequest
 >
 aRequest
 bool
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 =
 false
 )
@@ -11237,7 +11237,7 @@ FullscreenRequest
 >
 aRequest
 bool
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 )
 ;
 void
@@ -11249,7 +11249,7 @@ FullscreenRequest
 >
 aRequest
 bool
-applyFullScreenDirectly
+aApplyFullscreenDirectly
 )
 ;
 /
