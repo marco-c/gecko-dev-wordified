@@ -1718,6 +1718,16 @@ Cancel
 (
 )
 ;
+if
+(
+!
+mTree
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 nsIEventTarget
 *
 target
