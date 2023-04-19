@@ -668,10 +668,6 @@ const
 nsAString
 &
 aViolatedDirective
-const
-nsAString
-&
-aEffectiveDirective
 uint32_t
 aViolatedPolicyIndex
 const
@@ -893,10 +889,6 @@ const
 nsAString
 &
 aViolatedDirective
-const
-nsAString
-&
-aEffectiveDirective
 uint32_t
 aViolatedPolicyIndex
 uint32_t

@@ -868,7 +868,7 @@ Ci
 .
 nsIContentSecurityPolicy
 .
-SCRIPT_SRC_ELEM_DIRECTIVE
+SCRIPT_SRC_DIRECTIVE
 "
 "
 /
@@ -1309,7 +1309,7 @@ Ci
 .
 nsIContentSecurityPolicy
 .
-SCRIPT_SRC_ELEM_DIRECTIVE
+SCRIPT_SRC_DIRECTIVE
 "
 "
 /
