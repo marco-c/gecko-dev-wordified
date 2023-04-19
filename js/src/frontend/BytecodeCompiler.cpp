@@ -5212,6 +5212,9 @@ ParseModuleToStencilAndMaybeInstantiate
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5268,12 +5271,6 @@ tempLifoAlloc
 )
 )
 ;
-GeneralErrorContext
-ec
-(
-cx
-)
-;
 ModuleCompiler
 <
 Unit
@@ -5294,7 +5291,6 @@ compiler
 init
 (
 cx
-&
 ec
 )
 )
@@ -5576,6 +5572,9 @@ ParseModuleToStencilImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5611,6 +5610,7 @@ if
 ParseModuleToStencilAndMaybeInstantiate
 (
 cx
+ec
 input
 srcBuf
 output
@@ -5648,6 +5648,9 @@ ParseModuleToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5663,6 +5666,7 @@ return
 ParseModuleToStencilImpl
 (
 cx
+ec
 input
 srcBuf
 )
@@ -5680,6 +5684,9 @@ ParseModuleToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5695,6 +5702,7 @@ return
 ParseModuleToStencilImpl
 (
 cx
+ec
 input
 srcBuf
 )
@@ -5714,6 +5722,9 @@ ParseModuleToExtensibleStencilImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5749,6 +5760,7 @@ if
 ParseModuleToStencilAndMaybeInstantiate
 (
 cx
+ec
 input
 srcBuf
 output
@@ -5788,6 +5800,9 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5803,6 +5818,7 @@ return
 ParseModuleToExtensibleStencilImpl
 (
 cx
+ec
 input
 srcBuf
 )
@@ -5820,6 +5836,9 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -5835,6 +5854,7 @@ return
 ParseModuleToExtensibleStencilImpl
 (
 cx
+ec
 input
 srcBuf
 )
@@ -5853,6 +5873,9 @@ CompileModuleImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -5925,6 +5948,7 @@ if
 ParseModuleToStencilAndMaybeInstantiate
 (
 cx
+ec
 input
 .
 get
@@ -5965,6 +5989,9 @@ CompileModule
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -5984,6 +6011,7 @@ return
 CompileModuleImpl
 (
 cx
+ec
 options
 srcBuf
 )
@@ -5999,6 +6027,9 @@ CompileModule
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -6018,6 +6049,7 @@ return
 CompileModuleImpl
 (
 cx
+ec
 options
 srcBuf
 )

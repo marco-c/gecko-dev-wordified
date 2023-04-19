@@ -5069,6 +5069,12 @@ stencilInput_
 return
 ;
 }
+OffThreadErrorContext
+ec
+(
+cx
+)
+;
 stencil_
 =
 frontend
@@ -5077,6 +5083,8 @@ frontend
 ParseModuleToStencil
 (
 cx
+&
+ec
 *
 stencilInput_
 data

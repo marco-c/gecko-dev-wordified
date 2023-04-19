@@ -986,6 +986,9 @@ ModuleObject
 class
 ScriptSourceObject
 ;
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -1034,6 +1037,9 @@ CompileModule
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -1059,6 +1065,9 @@ CompileModule
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -1121,6 +1130,9 @@ ParseModuleToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -1144,6 +1156,9 @@ ParseModuleToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -1170,6 +1185,9 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -1193,6 +1211,9 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input

@@ -32556,6 +32556,12 @@ return
 false
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 RootedObject
 module
 (
@@ -32566,6 +32572,8 @@ frontend
 CompileModule
 (
 cx
+&
+ec
 options
 srcBuf
 )
@@ -35658,6 +35666,12 @@ return
 false
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 UniquePtr
 <
 frontend
@@ -35681,12 +35695,6 @@ ParseGoal
 Script
 )
 {
-GeneralErrorContext
-ec
-(
-cx
-)
-;
 stencil
 =
 frontend
@@ -35720,6 +35728,8 @@ frontend
 ParseModuleToExtensibleStencil
 (
 cx
+&
+ec
 input
 .
 get
