@@ -1057,7 +1057,7 @@ loaded
 /
 /
 (
-hasSymbols
+getSymbols
 (
 source
 )

@@ -1250,7 +1250,7 @@ const
 {
 getSelectedSource
 getSelectedSourceTextContent
-hasSymbols
+getSymbols
 getBreakableLines
 }
 =
@@ -1369,7 +1369,7 @@ false
 }
 }
 return
-hasSymbols
+getSymbols
 (
 source
 )
