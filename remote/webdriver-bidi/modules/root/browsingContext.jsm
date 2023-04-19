@@ -2123,6 +2123,9 @@ ProgressListener
 (
 webProgress
 {
+expectNavigation
+:
+true
 resolveWhenStarted
 /
 /
