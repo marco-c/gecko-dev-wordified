@@ -103,6 +103,13 @@ deref_nullptr
 /
 /
 Until
+we
+require
+rust
+1
+.
+53
+or
 bindgen
 #
 1651
@@ -129,11 +136,6 @@ clippy
 :
 :
 too_many_lines
-unknown_lints
-clippy
-:
-:
-borrow_as_ptr
 )
 ]
 include

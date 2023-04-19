@@ -1211,11 +1211,12 @@ u8
 :
 try_from
 (
+&
 seed
+[
 .
-as_ref
-(
-)
+.
+]
 )
 .
 unwrap

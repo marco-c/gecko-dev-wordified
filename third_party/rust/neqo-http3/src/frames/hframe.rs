@@ -883,11 +883,8 @@ enc
 .
 encode
 (
+&
 update_frame
-.
-as_ref
-(
-)
 )
 ;
 }
