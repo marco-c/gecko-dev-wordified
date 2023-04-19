@@ -29672,6 +29672,8 @@ bool
 aForEventsOnly
 bool
 aNeedsActiveLayer
+bool
+aWrapsBackdropFilter
 )
 ;
 nsDisplayOpacity
@@ -29714,6 +29716,12 @@ ChildOpacityState
 :
 :
 Unknown
+)
+mWrapsBackdropFilter
+(
+aOther
+.
+mWrapsBackdropFilter
 )
 {
 MOZ_COUNT_CTOR
@@ -30282,6 +30290,9 @@ mChildOpacityState
 ;
 #
 endif
+bool
+mWrapsBackdropFilter
+;
 }
 ;
 class
@@ -34466,6 +34477,8 @@ aList
 nsIFrame
 *
 aStyleFrame
+bool
+aWrapsBackdropFilter
 )
 ;
 nsDisplayFilters
@@ -34495,6 +34508,12 @@ mEffectsBounds
 aOther
 .
 mEffectsBounds
+)
+mWrapsBackdropFilter
+(
+aOther
+.
+mWrapsBackdropFilter
 )
 {
 MOZ_COUNT_CTOR
@@ -34819,6 +34838,9 @@ mEffectsBounds
 ;
 nsRect
 mVisibleRect
+;
+bool
+mWrapsBackdropFilter
 ;
 }
 ;
