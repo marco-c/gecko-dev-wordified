@@ -13005,13 +13005,6 @@ index
 rhs
 )
 ;
-ins
--
->
-setNeedsBarrier
-(
-)
-;
 store
 =
 ins
