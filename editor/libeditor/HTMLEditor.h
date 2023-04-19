@@ -22639,15 +22639,15 @@ aValue
 *
 *
 *
-RemoveInlinePropertyInternal
+RemoveInlinePropertyAsSubAction
 (
 )
 removes
 specified
 style
 from
-mTypeInState
 *
+mTypeInState
 if
 Selection
 is
@@ -22765,7 +22765,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 nsresult
-RemoveInlinePropertyInternal
+RemoveInlinePropertyAsSubAction
 (
 nsStaticAtom
 *
