@@ -299,6 +299,11 @@ gfxPlatformFontList
 h
 "
 "
+gfxPlatformWorker
+.
+h
+"
+"
 gfxPoint
 .
 h
@@ -1142,6 +1147,11 @@ cpp
 "
 "
 gfxPlatformFontList
+.
+cpp
+"
+"
+gfxPlatformWorker
 .
 cpp
 "

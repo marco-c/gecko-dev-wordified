@@ -48843,12 +48843,7 @@ aTarget
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
-ScreenReferenceDrawTarget
+ThreadLocalScreenReferenceDrawTarget
 (
 )
 ;
