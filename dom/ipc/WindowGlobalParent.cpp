@@ -9066,7 +9066,7 @@ blocking
 log
 when
 a
-documnet
+document
 is
 loaded
 in
@@ -9077,7 +9077,7 @@ parent
 process
 (
 See
-NotifyContentBlockingeEvent
+NotifyContentBlockingEvent
 )
 so
 we
@@ -9205,6 +9205,18 @@ GetContentBlockingLog
 >
 ReportOrigins
 (
+)
+;
+GetContentBlockingLog
+(
+)
+-
+>
+ReportEmailTrackingLog
+(
+DocumentPrincipal
+(
+)
 )
 ;
 }
