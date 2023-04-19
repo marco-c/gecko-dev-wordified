@@ -203,7 +203,16 @@ info
 )
 {
 throw
-0x80004001
+Components
+.
+Exception
+(
+"
+"
+Cr
+.
+NS_ERROR_NOT_IMPLEMENTED
+)
 ;
 }
 }
