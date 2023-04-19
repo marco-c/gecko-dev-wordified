@@ -1354,7 +1354,7 @@ to
 /
 reveal
 the
-precidence
+precedence
 of
 the
 parsed

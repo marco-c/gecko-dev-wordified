@@ -79,12 +79,6 @@ token
 :
 Token
 ;
-use
-unicode_xid
-:
-:
-UnicodeXID
-;
 pub
 use
 proc_macro2
@@ -804,7 +798,7 @@ _
 '
 |
 |
-UnicodeXID
+unicode_ident
 :
 :
 is_xid_start
@@ -824,7 +818,7 @@ chars
 {
 if
 !
-UnicodeXID
+unicode_ident
 :
 :
 is_xid_continue
