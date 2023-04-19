@@ -62,19 +62,14 @@ strict
 "
 ;
 const
-lazy
-=
 {
+UptakeTelemetry
 }
-;
+=
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-lazy
-"
-UptakeTelemetry
-"
 "
 resource
 :
@@ -142,8 +137,6 @@ Action
 uptake
 ACTION_NETWORK_ERROR
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -151,8 +144,6 @@ STATUS
 NETWORK_ERROR
 ACTION_PRE_EXECUTION_ERROR
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -160,8 +151,6 @@ STATUS
 CUSTOM_1_ERROR
 ACTION_POST_EXECUTION_ERROR
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -169,8 +158,6 @@ STATUS
 CUSTOM_2_ERROR
 ACTION_SERVER_ERROR
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -178,8 +165,6 @@ STATUS
 SERVER_ERROR
 ACTION_SUCCESS
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -193,8 +178,6 @@ recipe
 uptake
 RECIPE_ACTION_DISABLED
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -202,8 +185,6 @@ STATUS
 CUSTOM_1_ERROR
 RECIPE_DIDNT_MATCH_FILTER
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -211,8 +192,6 @@ STATUS
 BACKOFF
 RECIPE_INCOMPATIBLE_CAPABILITIES
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -220,8 +199,6 @@ STATUS
 BACKOFF
 RECIPE_EXECUTION_ERROR
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -229,8 +206,6 @@ STATUS
 APPLY_ERROR
 RECIPE_FILTER_BROKEN
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -238,8 +213,6 @@ STATUS
 CONTENT_ERROR
 RECIPE_ARGUMENTS_INVALID
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -247,8 +220,6 @@ STATUS
 CONTENT_ERROR
 RECIPE_INVALID_ACTION
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -256,8 +227,6 @@ STATUS
 DOWNLOAD_ERROR
 RECIPE_SUCCESS
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -265,8 +234,6 @@ STATUS
 SUCCESS
 RECIPE_INVALID_SIGNATURE
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -283,8 +250,6 @@ a
 whole
 RUNNER_NETWORK_ERROR
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -292,8 +257,6 @@ STATUS
 NETWORK_ERROR
 RUNNER_SERVER_ERROR
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -301,8 +264,6 @@ STATUS
 SERVER_ERROR
 RUNNER_SUCCESS
 :
-lazy
-.
 UptakeTelemetry
 .
 STATUS
@@ -390,8 +351,6 @@ status
 ;
 }
 await
-lazy
-.
 UptakeTelemetry
 .
 report
