@@ -318,7 +318,6 @@ Input
 Scroll
 SessionHistory
 WireFrame
-Resize
 }
 ;
 static
