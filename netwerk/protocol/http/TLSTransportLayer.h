@@ -845,9 +845,9 @@ mSocketOutWrapper
 ;
 nsCOMPtr
 <
-nsISupports
+nsISSLSocketControl
 >
-mSecInfo
+mTLSSocketControl
 ;
 nsCOMPtr
 <

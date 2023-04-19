@@ -1079,8 +1079,8 @@ nsINetAddr
 ;
 FWD_TS_T_ADDREF
 (
-GetSecurityInfo
-nsISupports
+GetTlsSocketControl
+nsISSLSocketControl
 )
 ;
 FWD_TS_T_PTR

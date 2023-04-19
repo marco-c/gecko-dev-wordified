@@ -180,10 +180,10 @@ PRFileDesc
 *
 *
 _result
-nsISupports
+nsISSLSocketControl
 *
 *
-securityInfo
+tlsSocketControl
 )
 {
 nsresult
@@ -197,7 +197,7 @@ port
 proxy
 originAttributes
 _result
-securityInfo
+tlsSocketControl
 false
 flags
 tlsFlags
@@ -255,10 +255,10 @@ tlsFlags
 PRFileDesc
 *
 aSocket
-nsISupports
+nsISSLSocketControl
 *
 *
-securityInfo
+tlsSocketControl
 )
 {
 nsresult
@@ -272,7 +272,7 @@ port
 proxy
 originAttributes
 aSocket
-securityInfo
+tlsSocketControl
 false
 flags
 tlsFlags
