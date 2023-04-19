@@ -3238,6 +3238,12 @@ MaybeRequestScreenCapturePermission
 (
 )
 ;
+static
+void
+InvalidateHiDPIState
+(
+)
+;
 private
 :
 /
