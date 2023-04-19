@@ -7284,10 +7284,10 @@ callback
 {
 let
 {
+enrollmentPromise
 doExperimentCleanup
 }
 =
-await
 ExperimentFakes
 .
 enrollmentHelper
@@ -7345,6 +7345,9 @@ true
 }
 )
 )
+;
+await
+enrollmentPromise
 ;
 await
 callback
