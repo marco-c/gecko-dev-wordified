@@ -241,6 +241,16 @@ aSample
 )
 override
 ;
+MediaDataDecoder
+:
+:
+ConversionRequired
+NeedsConversion
+(
+)
+const
+override
+;
 private
 :
 HRESULT
