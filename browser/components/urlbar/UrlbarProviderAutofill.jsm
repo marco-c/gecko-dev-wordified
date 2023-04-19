@@ -3901,11 +3901,7 @@ UrlbarPrefs
 get
 (
 "
-autoFill
-.
-adaptiveHistory
-.
-useCountThreshold
+autoFillAdaptiveHistoryUseCountThreshold
 "
 )
 }
@@ -4977,11 +4973,7 @@ UrlbarPrefs
 get
 (
 "
-autoFill
-.
-adaptiveHistory
-.
-minCharsThreshold
+autoFillAdaptiveHistoryMinCharsThreshold
 "
 )
 <
