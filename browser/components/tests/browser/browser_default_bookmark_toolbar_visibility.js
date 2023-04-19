@@ -330,7 +330,7 @@ Bookmarks
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -343,9 +343,7 @@ modules
 /
 Bookmarks
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -356,7 +354,7 @@ PlacesUIUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -368,9 +366,7 @@ modules
 /
 PlacesUIUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

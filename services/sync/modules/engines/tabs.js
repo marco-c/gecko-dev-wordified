@@ -414,9 +414,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 lazy
 {
@@ -433,9 +433,7 @@ modules
 /
 PlacesUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

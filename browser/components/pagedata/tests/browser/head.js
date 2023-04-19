@@ -124,6 +124,15 @@ sys
 .
 mjs
 "
+}
+)
+;
+XPCOMUtils
+.
+defineLazyModuleGetters
+(
+this
+{
 Snapshots
 :
 "
@@ -136,9 +145,7 @@ modules
 /
 Snapshots
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

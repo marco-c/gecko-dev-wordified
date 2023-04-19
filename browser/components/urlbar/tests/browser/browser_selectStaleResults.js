@@ -88,9 +88,9 @@ use
 strict
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -106,9 +106,7 @@ modules
 /
 UrlbarView
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

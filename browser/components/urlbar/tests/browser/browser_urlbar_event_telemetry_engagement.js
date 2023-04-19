@@ -33,9 +33,9 @@ use
 strict
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -51,9 +51,7 @@ modules
 /
 UrlbarUtils
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarProvidersManager
 :
@@ -67,9 +65,7 @@ modules
 /
 UrlbarProvidersManager
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarUtils
 :
@@ -83,9 +79,7 @@ modules
 /
 UrlbarUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

@@ -125,9 +125,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -144,9 +144,7 @@ common
 /
 PlacesTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarProvidersManager
 :
@@ -160,9 +158,7 @@ modules
 /
 UrlbarProvidersManager
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarResult
 :
@@ -176,9 +172,7 @@ modules
 /
 UrlbarResult
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarUtils
 :
@@ -192,9 +186,7 @@ modules
 /
 UrlbarUtils
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarView
 :
@@ -208,9 +200,7 @@ modules
 /
 UrlbarView
 .
-sys
-.
-mjs
+jsm
 "
 }
 )
@@ -237,7 +227,7 @@ module
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -250,9 +240,7 @@ common
 /
 UrlbarTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

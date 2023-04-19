@@ -2654,9 +2654,7 @@ modules
 /
 SnapshotSelector
 .
-sys
-.
-mjs
+jsm
 "
 }
 /

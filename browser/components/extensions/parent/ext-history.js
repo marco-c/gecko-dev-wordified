@@ -106,9 +106,9 @@ use
 strict
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -125,9 +125,7 @@ modules
 /
 PlacesUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )
