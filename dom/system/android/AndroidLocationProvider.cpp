@@ -198,7 +198,7 @@ java
 GeckoAppShell
 :
 :
-EnableLocation
+EnableLocationUpdates
 (
 true
 )
@@ -257,7 +257,7 @@ java
 GeckoAppShell
 :
 :
-EnableLocation
+EnableLocationUpdates
 (
 false
 )

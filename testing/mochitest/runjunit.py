@@ -3157,6 +3157,19 @@ options
 app
 )
             
+self
+.
+device
+.
+add_mock_location
+(
+self
+.
+options
+.
+app
+)
+            
 cmd
 =
 self
