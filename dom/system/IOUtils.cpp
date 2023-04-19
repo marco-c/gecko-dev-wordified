@@ -1936,9 +1936,6 @@ SHUTDOWN_ERROR
 )
 ;
 }
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 static
 bool
 AssertParentProcessWithCallerLocationImpl
@@ -2133,8 +2130,6 @@ get
 ;
 }
 }
-#
-endif
 /
 /
 IOUtils
@@ -2190,16 +2185,11 @@ Fn
 aFn
 )
 {
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 AssertParentProcessWithCallerLocation
 (
 aGlobal
 )
 ;
-#
-endif
 RefPtr
 <
 Promise
