@@ -2408,6 +2408,13 @@ audioSink
 InitializeAudioStream
 (
 mParams
+AudioSink
+:
+:
+InitializationType
+:
+:
+UNMUTING
 )
 ;
 mOwnerThread
@@ -2788,6 +2795,13 @@ mAudioSink
 InitializeAudioStream
 (
 mParams
+AudioSink
+:
+:
+InitializationType
+:
+:
+INITIAL
 )
 ;
 if
