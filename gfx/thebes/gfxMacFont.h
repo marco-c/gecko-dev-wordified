@@ -392,6 +392,13 @@ return
 FONT_TYPE_MAC
 ;
 }
+bool
+UseNativeColrFontSupport
+(
+)
+const
+override
+;
 /
 /
 Helper
