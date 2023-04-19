@@ -1091,6 +1091,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 alloc
 )
 ;
@@ -1544,6 +1545,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 alloc
 )
 ;
@@ -2976,6 +2978,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 alloc
 )
 ;
@@ -4612,6 +4615,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 alloc
 )
 ;
@@ -6248,6 +6252,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 alloc
 )
 ;
@@ -6707,6 +6712,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 alloc
 )
 ;

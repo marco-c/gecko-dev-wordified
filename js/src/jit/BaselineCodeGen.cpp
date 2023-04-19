@@ -671,6 +671,7 @@ cx
 )
 masm
 (
+cx
 alloc
 )
 frame
@@ -40579,6 +40580,7 @@ tempLifoAlloc
 StackMacroAssembler
 masm
 (
+cx
 temp
 )
 ;

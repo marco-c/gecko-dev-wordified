@@ -3443,6 +3443,7 @@ stack_masm
 .
 emplace
 (
+cx
 temp
 )
 ;

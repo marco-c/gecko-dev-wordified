@@ -4706,6 +4706,7 @@ writer
 )
 masm
 (
+cx
 alloc
 )
 allocator

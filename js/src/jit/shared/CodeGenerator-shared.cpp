@@ -318,6 +318,9 @@ masmArg
 TempAllocator
 &
 alloc
+CompileRealm
+*
+realm
 )
 {
 if
@@ -335,6 +338,7 @@ maybeMasm_
 emplace
 (
 alloc
+realm
 )
 ;
 return
@@ -372,6 +376,10 @@ gen
 alloc
 (
 )
+gen
+-
+>
+realm
 )
 )
 gen

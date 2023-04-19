@@ -18217,6 +18217,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 temp
 )
 ;
@@ -20857,6 +20858,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 temp
 )
 ;
@@ -22116,6 +22118,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 temp
 )
 ;
@@ -77202,6 +77205,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 temp
 )
 ;
@@ -87850,9 +87854,7 @@ JSAtomState
 &
 names
 =
-GetJitContext
-(
-)
+gen
 -
 >
 runtime

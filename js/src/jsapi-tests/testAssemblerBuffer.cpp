@@ -4565,6 +4565,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 alloc
 )
 ;

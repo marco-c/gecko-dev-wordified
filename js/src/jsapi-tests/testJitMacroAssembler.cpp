@@ -268,6 +268,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -628,6 +629,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -922,6 +924,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -1277,6 +1280,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -2390,6 +2394,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -2730,6 +2735,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -3111,6 +3117,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -3475,6 +3482,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -3869,6 +3877,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -4345,6 +4354,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
@@ -4811,6 +4821,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 tempAlloc
 )
 ;
