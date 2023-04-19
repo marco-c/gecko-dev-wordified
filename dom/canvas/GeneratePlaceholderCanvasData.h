@@ -156,8 +156,8 @@ RANDOM_BYTES_TO_SAMPLE
 32
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -614,12 +614,10 @@ buffer
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

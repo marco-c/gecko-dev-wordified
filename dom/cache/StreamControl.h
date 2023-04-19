@@ -181,8 +181,8 @@ namespace
 ipc
 namespace
 dom
-{
-namespace
+:
+:
 cache
 {
 class
@@ -539,12 +539,10 @@ mReadStreamList
 /
 /
 namespace
-cache
-}
-/
-/
-namespace
 dom
+:
+:
+cache
 }
 /
 /

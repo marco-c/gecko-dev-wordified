@@ -139,8 +139,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 class
@@ -381,12 +381,10 @@ const
 /
 /
 namespace
-webgl
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgl
 #
 endif
 /

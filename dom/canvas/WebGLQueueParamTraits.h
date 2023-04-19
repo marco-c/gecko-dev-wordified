@@ -136,8 +136,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 template
@@ -1743,12 +1743,10 @@ NonPremult
 /
 /
 namespace
-webgl
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgl
 #
 endif
 /

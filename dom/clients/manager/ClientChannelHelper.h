@@ -144,8 +144,8 @@ nsISerialEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -422,12 +422,10 @@ aEventTarget
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

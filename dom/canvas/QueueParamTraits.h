@@ -232,8 +232,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 template
@@ -5106,12 +5106,10 @@ true
 /
 /
 namespace
-webgl
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgl
 #
 endif
 /

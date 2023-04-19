@@ -120,8 +120,8 @@ define
 mozilla_dom_ImageBitmapSource_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -149,11 +149,9 @@ ImageBitmapSource
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

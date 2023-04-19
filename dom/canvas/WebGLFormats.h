@@ -127,8 +127,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 using
@@ -1759,12 +1759,10 @@ const
 /
 /
 namespace
-webgl
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgl
 #
 endif
 /

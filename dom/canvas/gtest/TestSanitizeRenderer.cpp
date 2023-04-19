@@ -104,8 +104,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgl
 {
 std
@@ -126,12 +126,10 @@ string
 /
 /
 namespace
-webgl
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgl
 TEST
 (
 SanitizeRenderer
