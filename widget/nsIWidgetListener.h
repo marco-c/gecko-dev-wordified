@@ -344,6 +344,16 @@ coordinates
 .
 *
 /
+enum
+class
+ByMoveToRect
+:
+bool
+{
+No
+Yes
+}
+;
 virtual
 bool
 WindowMoved
@@ -355,6 +365,7 @@ int32_t
 aX
 int32_t
 aY
+ByMoveToRect
 )
 ;
 /
