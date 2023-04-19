@@ -2741,6 +2741,9 @@ license
                     
 return
 False
+            
+return
+True
         
 def
 check_package
@@ -3117,11 +3120,17 @@ group
 1
 )
                     
+if
+not
 verify_acceptable_license
 (
 package
 license
 )
+:
+                        
+return
+False
                 
 else
 :
