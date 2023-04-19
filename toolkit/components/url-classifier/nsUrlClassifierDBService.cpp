@@ -10058,13 +10058,7 @@ content
 >
 AllocPURLClassifierChild
 (
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 aResult
 )
 )
@@ -10083,13 +10077,7 @@ content
 SendPURLClassifierConstructor
 (
 actor
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 aResult
 )
 )

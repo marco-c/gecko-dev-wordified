@@ -38610,15 +38610,6 @@ uri
 aURI
 )
 ;
-IPC
-:
-:
-Principal
-principal
-(
-aPrincipal
-)
-;
 for
 (
 auto
@@ -38668,7 +38659,7 @@ cp
 >
 TransmitPermissionsForPrincipal
 (
-principal
+aPrincipal
 )
 ;
 if
@@ -38723,7 +38714,7 @@ SendBlobURLRegistration
 (
 uri
 ipcBlob
-principal
+aPrincipal
 aAgentClusterId
 )
 ;

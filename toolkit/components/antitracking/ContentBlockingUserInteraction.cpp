@@ -534,13 +534,7 @@ cc
 >
 SendStoreUserInteractionAsPermission
 (
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 )
 ;
 }

@@ -957,17 +957,11 @@ GetSingleton
 >
 SendRemovePermission
 (
-IPC
-:
-:
-Principal
-(
 document
 -
 >
 NodePrincipal
 (
-)
 )
 permissionType
 &

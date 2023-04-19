@@ -108224,14 +108224,8 @@ cc
 >
 SendAutomaticStorageAccessPermissionCanBeGranted
 (
-IPC
-:
-:
-Principal
-(
 NodePrincipal
 (
-)
 )
 )
 -
