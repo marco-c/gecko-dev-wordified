@@ -133,7 +133,7 @@ return
 getRowByIndex
 (
 panel
-2
+0
 )
 .
 querySelector
@@ -182,7 +182,7 @@ expandRow
 (
 panel
 "
-_b
+B
 "
 )
 ;
@@ -190,7 +190,7 @@ return
 getRowByIndex
 (
 panel
-3
+1
 )
 .
 querySelector
