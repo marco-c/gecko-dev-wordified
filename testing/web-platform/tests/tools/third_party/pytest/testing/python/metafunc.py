@@ -89,7 +89,7 @@ _pytest
 .
 pytester
 import
-Testdir
+Pytester
 from
 _pytest
 .
@@ -102,6 +102,12 @@ _pytest
 python
 import
 idmaker
+from
+_pytest
+.
+scope
+import
+Scope
 class
 TestMetafunc
 :
@@ -213,17 +219,17 @@ func
 )
         
 fixtureinfo
+:
+Any
 =
 FuncFixtureInfoMock
 (
 names
 )
-#
-type
-:
-Any
         
 definition
+:
+Any
 =
 DefinitionMock
 .
@@ -237,10 +243,6 @@ mock
 nodeid
 "
 )
-#
-type
-:
-Any
         
 return
 python
@@ -250,6 +252,9 @@ Metafunc
 definition
 fixtureinfo
 config
+_ispytest
+=
+True
 )
     
 def
@@ -915,9 +920,9 @@ def
 test_parametrize_request_name
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1060,7 +1065,7 @@ class
 DummyFixtureDef
 :
             
-scope
+_scope
 =
 attr
 .
@@ -1095,9 +1100,9 @@ session_fix
 [
 DummyFixtureDef
 (
-"
-session
-"
+Scope
+.
+Session
 )
 ]
                 
@@ -1106,9 +1111,9 @@ package_fix
 [
 DummyFixtureDef
 (
-"
-package
-"
+Scope
+.
+Package
 )
 ]
                 
@@ -1117,9 +1122,9 @@ module_fix
 [
 DummyFixtureDef
 (
-"
-module
-"
+Scope
+.
+Module
 )
 ]
                 
@@ -1128,9 +1133,9 @@ class_fix
 [
 DummyFixtureDef
 (
-"
-class
-"
+Scope
+.
+Class
 )
 ]
                 
@@ -1139,9 +1144,9 @@ func_fix
 [
 DummyFixtureDef
 (
-"
-function
-"
+Scope
+.
+Function
 )
 ]
             
@@ -1210,9 +1215,9 @@ True
 )
 =
 =
-"
-function
-"
+Scope
+.
+Function
         
 assert
 find_scope
@@ -1228,9 +1233,9 @@ True
 )
 =
 =
-"
-class
-"
+Scope
+.
+Class
         
 assert
 find_scope
@@ -1246,9 +1251,9 @@ True
 )
 =
 =
-"
-module
-"
+Scope
+.
+Module
         
 assert
 find_scope
@@ -1264,9 +1269,9 @@ True
 )
 =
 =
-"
-package
-"
+Scope
+.
+Package
         
 assert
 find_scope
@@ -1282,9 +1287,9 @@ True
 )
 =
 =
-"
-session
-"
+Scope
+.
+Session
         
 assert
 find_scope
@@ -1303,9 +1308,9 @@ True
 )
 =
 =
-"
-function
-"
+Scope
+.
+Function
         
 assert
 find_scope
@@ -1324,9 +1329,9 @@ True
 )
 =
 =
-"
-function
-"
+Scope
+.
+Function
         
 assert
 find_scope
@@ -1345,11 +1350,13 @@ True
 )
 =
 =
-"
-class
-"
+Scope
+.
+Class
         
 assert
+(
+            
 find_scope
 (
 [
@@ -1366,9 +1373,11 @@ True
 )
 =
 =
-"
-package
-"
+Scope
+.
+Package
+        
+)
         
 assert
 find_scope
@@ -1387,9 +1396,9 @@ True
 )
 =
 =
-"
-module
-"
+Scope
+.
+Module
         
 #
 when
@@ -1407,6 +1416,8 @@ use
 function
         
 assert
+(
+            
 find_scope
 (
 [
@@ -1423,9 +1434,11 @@ False
 )
 =
 =
-"
-function
-"
+Scope
+.
+Function
+        
+)
         
 assert
 (
@@ -1451,9 +1464,9 @@ module_fix
             
 =
 =
-"
-function
-"
+Scope
+.
+Function
         
 )
         
@@ -1486,9 +1499,9 @@ module_fix
             
 =
 =
-"
-module
-"
+Scope
+.
+Module
         
 )
     
@@ -2641,6 +2654,16 @@ disable_test_id_escaping_and_forfeit_all_rights_to_community_support
 "
         
 values
+:
+List
+[
+Tuple
+[
+str
+Any
+str
+]
+]
 =
 [
             
@@ -2687,18 +2710,6 @@ xe3o
 "
 )
         
-]
-#
-type
-:
-List
-[
-Tuple
-[
-str
-Any
-str
-]
 ]
         
 for
@@ -3475,6 +3486,19 @@ xb4
 other
 "
 )
+                
+pytest
+.
+param
+(
+1
+.
+0j
+-
+2
+.
+0j
+)
             
 ]
         
@@ -3573,6 +3597,17 @@ xc3
 xb4
 -
 other
+"
+            
+"
+1j
+-
+(
+-
+0
+-
+2j
+)
 "
         
 ]
@@ -4242,6 +4277,15 @@ disable_test_id_escaping_and_forfeit_all_rights_to_community_support
 "
         
 values
+:
+List
+[
+Tuple
+[
+Any
+str
+]
+]
 =
 [
             
@@ -4281,17 +4325,6 @@ xe3o
 )
         
 ]
-#
-type
-:
-List
-[
-Tuple
-[
-Any
-str
-]
-]
         
 for
 config
@@ -4310,6 +4343,7 @@ idmaker
 a
 "
 )
+                
 [
 pytest
 .
@@ -4320,6 +4354,7 @@ string
 "
 )
 ]
+                
 idfn
 =
 lambda
@@ -4329,6 +4364,7 @@ _
 a
 o
 "
+                
 config
 =
 config
@@ -4446,6 +4482,15 @@ disable_test_id_escaping_and_forfeit_all_rights_to_community_support
 "
         
 values
+:
+List
+[
+Tuple
+[
+Any
+str
+]
+]
 =
 [
             
@@ -4485,17 +4530,6 @@ xe3o
 )
         
 ]
-#
-type
-:
-List
-[
-Tuple
-[
-Any
-str
-]
-]
         
 for
 config
@@ -4514,6 +4548,7 @@ idmaker
 a
 "
 )
+                
 [
 pytest
 .
@@ -4524,6 +4559,7 @@ string
 "
 )
 ]
+                
 ids
 =
 [
@@ -4532,6 +4568,7 @@ a
 o
 "
 ]
+                
 config
 =
 config
@@ -4550,9 +4587,9 @@ def
 test_parametrize_ids_exception
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -4565,12 +4602,12 @@ None
         
 :
 param
-testdir
+pytester
 :
 the
 instance
 of
-Testdir
+Pytester
 class
 a
 temporary
@@ -4583,7 +4620,7 @@ directory
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4650,7 +4687,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4702,16 +4739,16 @@ def
 test_parametrize_ids_returns_non_string
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4808,7 +4845,7 @@ arg
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5677,9 +5714,9 @@ def
 test_parametrize_indirect_list_functional
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -5709,7 +5746,6 @@ arguments
 As
 y
 is
-is
 direct
 its
 value
@@ -5725,18 +5761,17 @@ passed
 to
 the
 fixture
-        
 y
 .
         
 :
 param
-testdir
+pytester
 :
 the
 instance
 of
-Testdir
+Pytester
 class
 a
 temporary
@@ -5749,7 +5784,7 @@ directory
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5874,7 +5909,7 @@ y
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5993,9 +6028,9 @@ test_parametrize_uses_no_fixture_error_indirect_false
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
     
 )
 -
@@ -6062,7 +6097,7 @@ pass
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6123,7 +6158,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6161,9 +6196,9 @@ test_parametrize_uses_no_fixture_error_indirect_true
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
     
 )
 -
@@ -6180,7 +6215,7 @@ None
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6291,7 +6326,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6329,9 +6364,9 @@ test_parametrize_indirect_uses_no_fixture_error_indirect_string
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
     
 )
 -
@@ -6348,7 +6383,7 @@ None
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6436,7 +6471,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6474,9 +6509,9 @@ test_parametrize_indirect_uses_no_fixture_error_indirect_list
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
     
 )
 -
@@ -6493,7 +6528,7 @@ None
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6583,7 +6618,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6619,10 +6654,12 @@ y
 def
 test_parametrize_argument_not_in_indirect_list
 (
+        
 self
-testdir
+pytester
 :
-Testdir
+Pytester
+    
 )
 -
 >
@@ -6638,7 +6675,7 @@ None
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6728,7 +6765,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6766,7 +6803,9 @@ test_parametrize_gives_indicative_error_on_function_with_default_argument
 (
         
 self
-testdir
+pytester
+:
+Pytester
     
 )
 -
@@ -6774,7 +6813,7 @@ testdir
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6835,7 +6874,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6878,16 +6917,16 @@ def
 test_parametrize_functional
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6982,7 +7021,7 @@ y
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7382,16 +7421,16 @@ def
 test_parametrize_multiple_times
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7476,7 +7515,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7503,16 +7542,16 @@ def
 test_parametrize_CSV
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7570,7 +7609,7 @@ y
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7589,16 +7628,16 @@ def
 test_parametrize_class_scenarios
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7813,7 +7852,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8012,9 +8051,9 @@ def
 test_attributes
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -8023,7 +8062,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8188,7 +8227,7 @@ TestClass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8212,9 +8251,9 @@ def
 test_two_functions
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -8223,7 +8262,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8298,7 +8337,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8371,9 +8410,9 @@ def
 test_noself_in_method
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -8382,7 +8421,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8432,7 +8471,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8452,9 +8491,9 @@ def
 test_generate_tests_in_class
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -8463,7 +8502,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8532,7 +8571,7 @@ world
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8572,9 +8611,9 @@ def
 test_two_functions_not_same_instance
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -8583,7 +8622,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8661,7 +8700,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8712,9 +8751,9 @@ def
 test_issue28_setup_method_in_generate_tests
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -8723,7 +8762,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8796,7 +8835,7 @@ val
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8816,16 +8855,16 @@ def
 test_parametrize_functional2
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8890,7 +8929,7 @@ arg2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8950,9 +8989,9 @@ def
 test_parametrize_and_inner_getfixturevalue
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -8961,7 +9000,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9077,7 +9116,7 @@ arg1
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9117,9 +9156,9 @@ def
 test_parametrize_on_setup_arg
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -9128,7 +9167,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9225,7 +9264,7 @@ arg2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9265,16 +9304,16 @@ def
 test_parametrize_with_ids
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -9297,7 +9336,7 @@ classic
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9373,7 +9412,7 @@ b
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9423,16 +9462,16 @@ def
 test_parametrize_without_ids
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9501,7 +9540,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9550,16 +9589,16 @@ def
 test_parametrize_with_None_in_ids
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9640,7 +9679,7 @@ b
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9707,9 +9746,9 @@ def
 test_fixture_parametrized_empty_ids
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -9737,7 +9776,7 @@ error
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9797,7 +9836,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9823,9 +9862,9 @@ def
 test_parametrized_empty_ids
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -9853,7 +9892,7 @@ error
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9900,7 +9939,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9926,9 +9965,9 @@ def
 test_parametrized_ids_invalid_type
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -9959,7 +9998,7 @@ generator
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10028,7 +10067,7 @@ expected
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10094,9 +10133,9 @@ test_parametrize_with_identical_ids_get_unique_names
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
     
 )
 -
@@ -10104,7 +10143,7 @@ Testdir
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10180,7 +10219,7 @@ b
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10263,9 +10302,9 @@ test_parametrize_scope_overrides
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 scope
 :
 str
@@ -10279,7 +10318,7 @@ int
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10419,7 +10458,7 @@ length
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10438,16 +10477,16 @@ def
 test_parametrize_issue323
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10514,7 +10553,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10542,16 +10581,16 @@ def
 test_usefixtures_seen_in_generate_tests
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10618,7 +10657,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10637,9 +10676,9 @@ def
 test_generate_tests_only_done_in_subdir
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -10648,7 +10687,7 @@ None
         
 sub1
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -10659,7 +10698,7 @@ sub1
         
 sub2
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -10670,7 +10709,7 @@ sub2
         
 sub1
 .
-join
+joinpath
 (
 "
 conftest
@@ -10679,7 +10718,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -10721,7 +10760,7 @@ test_1
         
 sub2
 .
-join
+joinpath
 (
 "
 conftest
@@ -10730,7 +10769,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -10772,7 +10811,7 @@ test_2
         
 sub1
 .
-join
+joinpath
 (
 "
 test_in_sub1
@@ -10781,7 +10820,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -10795,7 +10834,7 @@ pass
         
 sub2
 .
-join
+joinpath
 (
 "
 test_in_sub2
@@ -10804,7 +10843,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -10818,7 +10857,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10855,16 +10894,16 @@ def
 test_generate_same_function_names_issue403
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10929,7 +10968,7 @@ make_tests
         
 reprec
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10948,9 +10987,9 @@ def
 test_parametrize_misspelling
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -10966,7 +11005,7 @@ None
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11010,7 +11049,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11126,6 +11165,9 @@ collection
 "
 *
 =
+no
+tests
+collected
 1
 error
 in
@@ -11168,16 +11210,16 @@ def
 test_parametrize_auto_scope
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11289,7 +11331,7 @@ fish
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11315,16 +11357,16 @@ def
 test_parametrize_auto_scope_indirect
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11481,7 +11523,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11507,16 +11549,16 @@ def
 test_parametrize_auto_scope_override_fixture
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11599,7 +11641,7 @@ cat
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11625,16 +11667,16 @@ def
 test_parametrize_all_indirects
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11801,7 +11843,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11828,9 +11870,9 @@ test_parametrize_some_arguments_auto_scope
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 monkeypatch
     
 )
@@ -11854,15 +11896,13 @@ for
 "
         
 class_fix_setup
-=
-[
-]
-#
-type
 :
 List
 [
 object
+]
+=
+[
 ]
         
 monkeypatch
@@ -11880,15 +11920,13 @@ False
 )
         
 func_fix_setup
-=
-[
-]
-#
-type
 :
 List
 [
 object
+]
+=
+[
 ]
         
 monkeypatch
@@ -11905,7 +11943,7 @@ raising
 False
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12024,7 +12062,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -12070,16 +12108,16 @@ def
 test_parametrize_issue634
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12234,7 +12272,7 @@ True
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12302,9 +12340,9 @@ def
 test_simple_mark
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -12392,7 +12430,7 @@ expected
         
 items
 =
-testdir
+pytester
 .
 getitems
 (
@@ -12465,9 +12503,9 @@ def
 test_select_based_on_mark
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -12547,7 +12585,7 @@ expected
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12556,7 +12594,7 @@ s
         
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12610,9 +12648,9 @@ def
 test_simple_xfail
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -12692,7 +12730,7 @@ expected
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12701,7 +12739,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12730,9 +12768,9 @@ def
 test_simple_xfail_single_argname
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -12799,7 +12837,7 @@ n
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12808,7 +12846,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12830,9 +12868,9 @@ def
 test_xfail_with_arg
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -12917,7 +12955,7 @@ expected
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12926,7 +12964,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12948,9 +12986,9 @@ def
 test_xfail_with_kwarg
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -13038,7 +13076,7 @@ expected
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13047,7 +13085,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13069,9 +13107,9 @@ def
 test_xfail_with_arg_and_kwarg
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -13162,7 +13200,7 @@ expected
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13171,7 +13209,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13208,9 +13246,9 @@ def
 test_xfail_passing_is_xpass
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 strict
 :
 bool
@@ -13330,7 +13368,7 @@ strict
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13339,7 +13377,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13376,9 +13414,9 @@ def
 test_parametrize_called_in_generate_tests
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -13490,7 +13528,7 @@ expected
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13499,7 +13537,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13520,10 +13558,12 @@ skipped
 def
 test_parametrize_ID_generation_string_int_works
 (
+        
 self
-testdir
+pytester
 :
-Testdir
+Pytester
+    
 )
 -
 >
@@ -13539,7 +13579,7 @@ None
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13602,7 +13642,7 @@ return
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13636,9 +13676,9 @@ def
 test_parametrize_marked_value
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 strict
 :
 bool
@@ -13791,7 +13831,7 @@ strict
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13800,7 +13840,7 @@ s
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13837,16 +13877,16 @@ def
 test_pytest_make_parametrize_id
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -13877,7 +13917,7 @@ val
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13921,7 +13961,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13963,16 +14003,16 @@ def
 test_pytest_make_parametrize_id_with_argname
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -14015,7 +14055,7 @@ val
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14082,7 +14122,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14135,16 +14175,16 @@ def
 test_parametrize_positional_args
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14188,7 +14228,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14207,16 +14247,16 @@ def
 test_parametrize_iterator
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14357,7 +14397,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (

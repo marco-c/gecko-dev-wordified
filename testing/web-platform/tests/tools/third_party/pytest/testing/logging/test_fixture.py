@@ -13,7 +13,7 @@ _pytest
 .
 pytester
 import
-Testdir
+Pytester
 logger
 =
 logging
@@ -38,13 +38,18 @@ baz
 def
 test_fixture_help
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -183,9 +188,9 @@ text
 def
 test_change_level_undo
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -230,7 +235,7 @@ levels
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -341,7 +346,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -388,9 +393,9 @@ test2
 def
 test_change_level_undos_handler_level
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -433,7 +438,7 @@ specifically
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -545,7 +550,7 @@ level
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1293,7 +1298,7 @@ caplog
 .
 _item
 .
-_store
+stash
 [
 caplog_records_key
 ]
@@ -1311,11 +1316,16 @@ call
 def
 test_ini_controls_global_log_level
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1429,7 +1439,7 @@ text
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -1454,7 +1464,7 @@ ERROR
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1487,11 +1497,16 @@ ret
 def
 test_caplog_can_override_global_log_level
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1699,7 +1714,7 @@ text
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -1724,7 +1739,7 @@ WARNING
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1740,11 +1755,16 @@ ret
 def
 test_caplog_captures_despite_exception
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1864,7 +1884,7 @@ Exception
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -1889,7 +1909,7 @@ WARNING
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1943,8 +1963,14 @@ ret
 def
 test_log_report_captures_according_to_config_option_upon_failure
 (
-testdir
+    
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2025,7 +2051,7 @@ INFO
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2191,7 +2217,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

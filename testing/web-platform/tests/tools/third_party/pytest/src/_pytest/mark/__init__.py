@@ -14,8 +14,6 @@ functions
 "
 "
 import
-typing
-import
 warnings
 from
 typing
@@ -24,11 +22,19 @@ AbstractSet
 from
 typing
 import
+Collection
+from
+typing
+import
 List
 from
 typing
 import
 Optional
+from
+typing
+import
+TYPE_CHECKING
 from
 typing
 import
@@ -83,12 +89,6 @@ ParameterSet
 from
 _pytest
 .
-compat
-import
-TYPE_CHECKING
-from
-_pytest
-.
 config
 import
 Config
@@ -133,9 +133,9 @@ MINUS_K_DASH
 from
 _pytest
 .
-store
+stash
 import
-StoreKey
+StashKey
 if
 TYPE_CHECKING
 :
@@ -176,7 +176,7 @@ get_empty_parameterset_mark
 ]
 old_mark_config_key
 =
-StoreKey
+StashKey
 [
 Optional
 [
@@ -196,12 +196,9 @@ object
     
 marks
 :
-"
 Union
 [
 MarkDecorator
-typing
-.
 Collection
 [
 Union
@@ -211,7 +208,6 @@ Mark
 ]
 ]
 ]
-"
 =
 (
 )
@@ -282,6 +278,7 @@ expected
 "
             
 [
+                
 (
 "
 3
@@ -290,6 +287,7 @@ expected
 "
 8
 )
+                
 pytest
 .
 param
@@ -308,6 +306,7 @@ mark
 .
 xfail
 )
+            
 ]
         
 )
@@ -913,6 +912,9 @@ s
 slots
 =
 True
+auto_attribs
+=
+True
 )
 class
 KeywordMatcher
@@ -1019,18 +1021,11 @@ functions
 "
     
 _names
-=
-attr
-.
-ib
-(
-type
-=
+:
 AbstractSet
 [
 str
 ]
-)
     
 classmethod
     
@@ -1089,14 +1084,9 @@ not
 isinstance
 (
 node
-(
-pytest
-.
-Instance
 pytest
 .
 Session
-)
 )
 :
                 
@@ -1322,7 +1312,7 @@ be
 removed
 in
 pytest
-7
+8
 .
 0
 .
@@ -1375,7 +1365,7 @@ be
 removed
 in
 pytest
-7
+8
 .
 0
 .
@@ -1405,28 +1395,11 @@ keywordexpr
 1
 ]
     
-try
-:
-        
-expression
+expr
 =
-Expression
-.
-compile
+_parse_expression
 (
 keywordexpr
-)
-    
-except
-ParseError
-as
-e
-:
-        
-raise
-UsageError
-(
-            
 "
 Wrong
 expression
@@ -1436,23 +1409,8 @@ to
 -
 k
 '
-:
-{
-}
-:
-{
-}
 "
-.
-format
-(
-keywordexpr
-e
 )
-        
-)
-from
-None
     
 remaining
 =
@@ -1474,7 +1432,7 @@ if
 keywordexpr
 and
 not
-expression
+expr
 .
 evaluate
 (
@@ -1540,6 +1498,9 @@ s
 slots
 =
 True
+auto_attribs
+=
+True
 )
 class
 MarkMatcher
@@ -1576,12 +1537,11 @@ colitem
 "
     
 own_mark_names
-=
-attr
-.
-ib
-(
-)
+:
+AbstractSet
+[
+str
+]
     
 classmethod
     
@@ -1590,6 +1550,10 @@ from_item
 (
 cls
 item
+:
+"
+Item
+"
 )
 -
 >
@@ -1674,28 +1638,11 @@ matchexpr
         
 return
     
-try
-:
-        
-expression
+expr
 =
-Expression
-.
-compile
+_parse_expression
 (
 matchexpr
-)
-    
-except
-ParseError
-as
-e
-:
-        
-raise
-UsageError
-(
-            
 "
 Wrong
 expression
@@ -1705,30 +1652,25 @@ to
 -
 m
 '
-:
-{
-}
-:
-{
-}
 "
-.
-format
-(
-matchexpr
-e
 )
-        
-)
-from
-None
     
 remaining
+:
+List
+[
+Item
+]
 =
 [
 ]
     
 deselected
+:
+List
+[
+Item
+]
 =
 [
 ]
@@ -1740,7 +1682,7 @@ items
 :
         
 if
-expression
+expr
 .
 evaluate
 (
@@ -1792,6 +1734,58 @@ items
 =
 remaining
 def
+_parse_expression
+(
+expr
+:
+str
+exc_message
+:
+str
+)
+-
+>
+Expression
+:
+    
+try
+:
+        
+return
+Expression
+.
+compile
+(
+expr
+)
+    
+except
+ParseError
+as
+e
+:
+        
+raise
+UsageError
+(
+f
+"
+{
+exc_message
+}
+:
+{
+expr
+}
+:
+{
+e
+}
+"
+)
+from
+None
+def
 pytest_collection_modifyitems
 (
 items
@@ -1836,7 +1830,7 @@ None
     
 config
 .
-_store
+stash
 [
 old_mark_config_key
 ]
@@ -1934,7 +1928,7 @@ _config
 =
 config
 .
-_store
+stash
 .
 get
 (

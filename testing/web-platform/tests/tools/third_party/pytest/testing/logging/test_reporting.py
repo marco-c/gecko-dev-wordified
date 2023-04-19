@@ -25,9 +25,15 @@ ExitCode
 from
 _pytest
 .
+fixtures
+import
+FixtureRequest
+from
+_pytest
+.
 pytester
 import
-Testdir
+Pytester
 from
 _pytest
 .
@@ -37,11 +43,16 @@ TerminalReporter
 def
 test_nothing_logged
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -98,7 +109,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -197,11 +208,16 @@ call
 def
 test_messages_logged
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -282,7 +298,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -385,11 +401,16 @@ stderr
 def
 test_root_logger_affected
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -474,11 +495,13 @@ assert
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -486,12 +509,11 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -704,11 +726,16 @@ contents
 def
 test_log_cli_level_log_level_interaction
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -809,7 +836,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -924,11 +951,16 @@ DEBUG
 def
 test_setup_logging
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1001,7 +1033,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1083,11 +1115,16 @@ call
 def
 test_teardown_logging
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1160,7 +1197,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1256,9 +1293,16 @@ False
 def
 test_log_cli_enabled_disabled
 (
-testdir
+pytester
+:
+Pytester
 enabled
+:
+bool
 )
+-
+>
+None
 :
     
 msg
@@ -1271,7 +1315,7 @@ by
 test
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1316,7 +1360,7 @@ if
 enabled
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -1341,7 +1385,7 @@ true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1421,8 +1465,13 @@ str
 def
 test_log_cli_default_level
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 #
@@ -1431,7 +1480,7 @@ log
 file
 level
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1530,7 +1579,7 @@ shown
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -1555,7 +1604,7 @@ true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1627,7 +1676,6 @@ shown
 make
 sure
 that
-that
 we
 get
 a
@@ -1650,9 +1698,17 @@ ret
 def
 test_log_cli_default_level_multiple_tests
 (
-testdir
+    
+pytester
+:
+Pytester
 request
+:
+FixtureRequest
 )
+-
+>
+None
 :
     
 "
@@ -1688,7 +1744,7 @@ name
 py
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1742,7 +1798,7 @@ test_log_2
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -1767,7 +1823,7 @@ true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1782,18 +1838,15 @@ fnmatch_lines
         
 [
             
+f
 "
 {
+filename
 }
 :
 :
 test_log_1
 "
-.
-format
-(
-filename
-)
             
 "
 *
@@ -1814,18 +1867,15 @@ PASSED
 *
 "
             
+f
 "
 {
+filename
 }
 :
 :
 test_log_2
 "
-.
-format
-(
-filename
-)
             
 "
 *
@@ -1862,9 +1912,17 @@ in
 def
 test_log_cli_default_level_sections
 (
-testdir
+    
+pytester
+:
+Pytester
 request
+:
+FixtureRequest
 )
+-
+>
+None
 :
     
 "
@@ -1911,7 +1969,7 @@ name
 py
 "
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -1984,7 +2042,7 @@ END
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2104,7 +2162,7 @@ test_log_2
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -2129,7 +2187,7 @@ true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2144,18 +2202,15 @@ fnmatch_lines
         
 [
             
+f
 "
 {
+filename
 }
 :
 :
 test_log_1
 "
-.
-format
-(
-filename
-)
             
 "
 *
@@ -2300,18 +2355,15 @@ END
 *
 "
             
+f
 "
 {
+filename
 }
 :
 :
 test_log_2
 "
-.
-format
-(
-filename
-)
             
 "
 *
@@ -2472,9 +2524,17 @@ in
 def
 test_live_logs_unknown_sections
 (
-testdir
+    
+pytester
+:
+Pytester
 request
+:
+FixtureRequest
 )
+-
+>
+None
 :
     
 "
@@ -2521,7 +2581,7 @@ name
 py
 "
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -2613,7 +2673,7 @@ END
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2714,7 +2774,7 @@ test_log_1
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -2739,7 +2799,7 @@ true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2763,18 +2823,15 @@ Section
 *
 "
             
+f
 "
 {
+filename
 }
 :
 :
 test_log_1
 "
-.
-format
-(
-filename
-)
             
 "
 *
@@ -2911,9 +2968,17 @@ in
 def
 test_sections_single_new_line_after_test_outcome
 (
-testdir
+    
+pytester
+:
+Pytester
 request
+:
+FixtureRequest
 )
+-
+>
+None
 :
     
 "
@@ -2954,7 +3019,7 @@ name
 py
 "
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -3048,7 +3113,7 @@ END
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -3173,7 +3238,7 @@ test_log_1
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -3198,7 +3263,7 @@ true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3213,18 +3278,15 @@ fnmatch_lines
         
 [
             
+f
 "
 {
+filename
 }
 :
 :
 test_log_1
 "
-.
-format
-(
-filename
-)
             
 "
 *
@@ -3515,8 +3577,13 @@ None
 def
 test_log_cli_level
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 #
@@ -3525,7 +3592,7 @@ log
 file
 level
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -3633,7 +3700,7 @@ PASSED
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -3658,7 +3725,7 @@ true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3757,7 +3824,6 @@ shown
 make
 sure
 that
-that
 we
 get
 a
@@ -3780,7 +3846,7 @@ ret
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3877,7 +3943,6 @@ shown
 make
 sure
 that
-that
 we
 get
 a
@@ -3900,11 +3965,16 @@ ret
 def
 test_log_cli_ini_level
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -3931,7 +4001,7 @@ INFO
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4041,7 +4111,7 @@ PASSED
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4128,7 +4198,6 @@ shown
 #
 make
 sure
-that
 that
 we
 get
@@ -4199,9 +4268,16 @@ WARNING
 def
 test_log_cli_auto_enable
 (
-testdir
+pytester
+:
+Pytester
 cli_args
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -4256,7 +4332,7 @@ file
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4308,7 +4384,7 @@ test_log_1
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -4337,7 +4413,7 @@ INFO
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4490,8 +4566,13 @@ stdout
 def
 test_log_file_cli
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 #
@@ -4500,7 +4581,7 @@ log
 file
 level
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4610,11 +4691,13 @@ PASSED
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -4622,12 +4705,11 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4636,6 +4718,7 @@ runpytest
 -
 s
 "
+f
 "
 -
 -
@@ -4644,13 +4727,9 @@ log
 file
 =
 {
+log_file
 }
 "
-.
-format
-(
-log_file
-)
 "
 -
 -
@@ -4691,7 +4770,6 @@ PASSED
 #
 make
 sure
-that
 that
 we
 get
@@ -4769,8 +4847,13 @@ contents
 def
 test_log_file_cli_level
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 #
@@ -4779,7 +4862,7 @@ log
 file
 level
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4889,11 +4972,13 @@ PASSED
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -4901,20 +4986,19 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
-        
 "
 -
 s
 "
+f
 "
 -
 -
@@ -4923,13 +5007,9 @@ log
 file
 =
 {
+log_file
 }
 "
-.
-format
-(
-log_file
-)
 "
 -
 -
@@ -4941,7 +5021,6 @@ level
 =
 INFO
 "
-    
 )
     
 #
@@ -4970,7 +5049,6 @@ PASSED
 #
 make
 sure
-that
 that
 we
 get
@@ -5048,11 +5126,16 @@ contents
 def
 test_log_level_not_changed_by_default
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5092,7 +5175,7 @@ WARNING
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5121,17 +5204,24 @@ in
 def
 test_log_file_ini
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -5139,10 +5229,9 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
-testdir
+pytester
 .
 makeini
 (
@@ -5177,7 +5266,7 @@ log_file
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5287,7 +5376,7 @@ PASSED
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5323,7 +5412,6 @@ PASSED
 #
 make
 sure
-that
 that
 we
 get
@@ -5401,17 +5489,24 @@ contents
 def
 test_log_file_ini_level
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -5419,10 +5514,9 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
-testdir
+pytester
 .
 makeini
 (
@@ -5457,7 +5551,7 @@ log_file
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5567,7 +5661,7 @@ PASSED
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5603,7 +5697,6 @@ PASSED
 #
 make
 sure
-that
 that
 we
 get
@@ -5681,17 +5774,24 @@ contents
 def
 test_log_file_unicode
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -5699,10 +5799,9 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
-testdir
+pytester
 .
 makeini
 (
@@ -5737,7 +5836,7 @@ log_file
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5814,7 +5913,7 @@ message
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5823,7 +5922,6 @@ runpytest
 #
 make
 sure
-that
 that
 we
 get
@@ -5918,10 +6016,13 @@ False
 def
 test_live_logging_suspends_capture
 (
+    
 has_capture_manager
 :
 bool
 request
+:
+FixtureRequest
 )
 -
 >
@@ -5965,7 +6066,7 @@ do
 it
 using
     
-testdir
+pytester
 facilities
 because
 they
@@ -6233,11 +6334,16 @@ n
 def
 test_collection_live_logging
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6271,7 +6377,7 @@ message
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6348,12 +6454,19 @@ qq
 def
 test_collection_collect_only_live_logging
 (
-testdir
+pytester
+:
+Pytester
 verbose
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6378,7 +6491,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6441,9 +6554,9 @@ py
                 
 "
 *
-no
-tests
-ran
+1
+test
+collected
 *
 "
             
@@ -6496,9 +6609,9 @@ test_simple
 "
                 
 "
-no
-tests
-ran
+1
+test
+collected
 in
 [
 0
@@ -6577,17 +6690,24 @@ expected_lines
 def
 test_collection_logging_to_file
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -6595,10 +6715,9 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
-testdir
+pytester
 .
 makeini
 (
@@ -6633,7 +6752,7 @@ log_file
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6705,7 +6824,7 @@ test_simple
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6805,17 +6924,24 @@ contents
 def
 test_log_in_hooks
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -6823,10 +6949,9 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
-testdir
+pytester
 .
 makeini
 (
@@ -6865,7 +6990,7 @@ log_file
     
 )
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -6934,7 +7059,7 @@ sessionfinish
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7005,17 +7130,24 @@ contents
 def
 test_log_in_runtest_logreport
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 log_file
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -7023,10 +7155,9 @@ pytest
 log
 "
 )
-.
-strpath
+)
     
-testdir
+pytester
 .
 makeini
 (
@@ -7065,7 +7196,7 @@ log_file
     
 )
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -7108,7 +7239,7 @@ logreport
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7132,7 +7263,7 @@ True
     
 )
     
-testdir
+pytester
 .
 runpytest
 (
@@ -7170,19 +7301,25 @@ logreport
 def
 test_log_set_path
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 report_dir_base
 =
-testdir
+str
+(
+pytester
 .
-tmpdir
-.
-strpath
+path
+)
     
-testdir
+pytester
 .
 makeini
 (
@@ -7209,7 +7346,7 @@ true
     
 )
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -7308,7 +7445,7 @@ report_dir_base
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7381,7 +7518,7 @@ True
     
 )
     
-testdir
+pytester
 .
 runpytest
 (
@@ -7463,8 +7600,13 @@ content
 def
 test_colored_captured_log
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7491,7 +7633,7 @@ colored
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7543,7 +7685,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7618,8 +7760,13 @@ call
 def
 test_colored_ansi_esc_caplogtext
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7642,7 +7789,7 @@ sequences
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7703,7 +7850,7 @@ text
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7735,9 +7882,9 @@ ret
 def
 test_logging_emit_error
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -7799,7 +7946,7 @@ exception
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7838,7 +7985,7 @@ first
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7894,9 +8041,9 @@ formatting
 def
 test_logging_emit_error_supressed
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -7927,7 +8074,7 @@ either
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7978,7 +8125,7 @@ first
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7995,13 +8142,19 @@ passed
 def
 test_log_file_cli_subdirectories_are_successfully_created
 (
-testdir
+    
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 path
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -8048,7 +8201,7 @@ bar
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

@@ -37,30 +37,17 @@ complete
 details
 .
 import
-json
-import
 itertools
+import
+json
 import
 os
 .
 path
-try
-:
-    
 import
 xmlrpc
 .
 client
-as
-xmlrpc_client
-except
-ImportError
-:
-    
-import
-xmlrpclib
-as
-xmlrpc_client
 import
 invoke
 import
@@ -163,9 +150,6 @@ with
 open
 (
 cache_path
-"
-r
-"
 )
 as
 fp
@@ -235,7 +219,9 @@ Versions
         
 client
 =
-xmlrpc_client
+xmlrpc
+.
+client
 .
 Server
 (
@@ -256,13 +242,10 @@ pypi
         
 data
 =
-dict
-(
+{
             
-[
-                
-(
 project
+:
 client
 .
 package_releases
@@ -270,8 +253,7 @@ package_releases
 project
 True
 )
-)
-                
+            
 for
 project
 in
@@ -285,10 +267,8 @@ list_packages
 (
 )
 )
-            
-]
         
-)
+}
         
 os
 .

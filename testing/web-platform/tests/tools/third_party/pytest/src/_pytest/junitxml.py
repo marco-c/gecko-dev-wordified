@@ -184,9 +184,9 @@ TestReport
 from
 _pytest
 .
-store
+stash
 import
-StoreKey
+StashKey
 from
 _pytest
 .
@@ -195,7 +195,7 @@ import
 TerminalReporter
 xml_key
 =
-StoreKey
+StashKey
 [
 "
 LogXML
@@ -712,11 +712,6 @@ duration
 self
 .
 properties
-=
-[
-]
-#
-type
 :
 List
 [
@@ -726,15 +721,13 @@ str
 str
 ]
 ]
+=
+[
+]
         
 self
 .
 nodes
-=
-[
-]
-#
-type
 :
 List
 [
@@ -742,21 +735,22 @@ ET
 .
 Element
 ]
+=
+[
+]
         
 self
 .
 attrs
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 str
 ]
+=
+{
+}
     
 def
 append
@@ -1000,6 +994,12 @@ prefix
 )
         
 attrs
+:
+Dict
+[
+str
+str
+]
 =
 {
             
@@ -1041,14 +1041,6 @@ location
 ]
         
 }
-#
-type
-:
-Dict
-[
-str
-str
-]
         
 if
 testreport
@@ -1738,6 +1730,11 @@ not
 None
             
 reprcrash
+:
+Optional
+[
+ReprFileLocation
+]
 =
 getattr
 (
@@ -1751,13 +1748,6 @@ reprcrash
 None
             
 )
-#
-type
-:
-Optional
-[
-ReprFileLocation
-]
             
 if
 reprcrash
@@ -1915,6 +1905,11 @@ not
 None
         
 reprcrash
+:
+Optional
+[
+ReprFileLocation
+]
 =
 getattr
 (
@@ -1928,13 +1923,6 @@ reprcrash
 None
         
 )
-#
-type
-:
-Optional
-[
-ReprFileLocation
-]
         
 if
 reprcrash
@@ -1974,6 +1962,7 @@ teardown
             
 msg
 =
+f
 '
 failed
 on
@@ -1981,20 +1970,17 @@ teardown
 with
 "
 {
+reason
 }
 "
 '
-.
-format
-(
-reason
-)
         
 else
 :
             
 msg
 =
+f
 '
 failed
 on
@@ -2002,14 +1988,10 @@ setup
 with
 "
 {
+reason
 }
 "
 '
-.
-format
-(
-reason
-)
         
 self
 .
@@ -2153,23 +2135,20 @@ skipreason
             
 details
 =
+f
 "
 {
-}
-:
-{
-}
-:
-{
-}
-"
-.
-format
-(
 filename
+}
+:
+{
 lineno
+}
+:
+{
 skipreason
-)
+}
+"
             
 skipped
 =
@@ -2244,7 +2223,7 @@ clear
 #
 Type
 ignored
-becuase
+because
 mypy
 doesn
 '
@@ -2332,7 +2311,7 @@ request
 .
 config
 .
-_store
+stash
 .
 get
 (
@@ -2674,7 +2653,7 @@ request
 .
 config
 .
-_store
+stash
 .
 get
 (
@@ -2996,30 +2975,11 @@ __
 plugin
 .
 See
-issue
         
-#
-7767
-<
-https
 :
-/
-/
-github
-.
-com
-/
-pytest
--
-dev
-/
-pytest
-/
-issues
-/
+issue
+:
 7767
->
-__
 for
 details
 .
@@ -3090,7 +3050,7 @@ request
 .
 config
 .
-_store
+stash
 .
 get
 (
@@ -3504,7 +3464,7 @@ junit_family
         
 config
 .
-_store
+stash
 [
 xml_key
 ]
@@ -3568,7 +3528,7 @@ register
 (
 config
 .
-_store
+stash
 [
 xml_key
 ]
@@ -3589,7 +3549,7 @@ xml
 =
 config
 .
-_store
+stash
 .
 get
 (
@@ -3604,7 +3564,7 @@ xml
 del
 config
 .
-_store
+stash
 [
 xml_key
 ]
@@ -3656,25 +3616,6 @@ split
 :
 "
 )
-    
-try
-:
-        
-names
-.
-remove
-(
-"
-(
-)
-"
-)
-    
-except
-ValueError
-:
-        
-pass
     
 #
 Convert
@@ -3886,6 +3827,12 @@ family
 self
 .
 stats
+:
+Dict
+[
+str
+int
+]
 =
 dict
 .
@@ -3909,30 +3856,14 @@ skipped
 0
         
 )
-#
-type
-:
-Dict
-[
-str
-int
-]
         
 self
 .
 node_reporters
-=
-(
-            
-{
-}
-        
-)
-#
-type
 :
 Dict
 [
+            
 Tuple
 [
 Union
@@ -3943,30 +3874,27 @@ TestReport
 object
 ]
 _NodeReporter
+        
 ]
+=
+{
+}
         
 self
 .
 node_reporters_ordered
-=
-[
-]
-#
-type
 :
 List
 [
 _NodeReporter
 ]
+=
+[
+]
         
 self
 .
 global_properties
-=
-[
-]
-#
-type
 :
 List
 [
@@ -3975,6 +3903,9 @@ Tuple
 str
 str
 ]
+]
+=
+[
 ]
         
 #
@@ -3994,15 +3925,13 @@ pending
 self
 .
 open_reports
-=
-[
-]
-#
-type
 :
 List
 [
 TestReport
+]
+=
+[
 ]
         
 self
@@ -4129,6 +4058,12 @@ _NodeReporter
 :
         
 nodeid
+:
+Union
+[
+str
+TestReport
+]
 =
 getattr
 (
@@ -4138,14 +4073,6 @@ nodeid
 "
 report
 )
-#
-type
-:
-Union
-[
-str
-TestReport
-]
         
 #
 Local
@@ -5140,8 +5067,7 @@ makedirs
 dirname
 )
         
-logfile
-=
+with
 open
 (
 self
@@ -5158,7 +5084,10 @@ utf
 8
 "
 )
-        
+as
+logfile
+:
+            
 suite_stop_time
 =
 timing
@@ -5166,7 +5095,7 @@ timing
 time
 (
 )
-        
+            
 suite_time_delta
 =
 suite_stop_time
@@ -5174,11 +5103,11 @@ suite_stop_time
 self
 .
 suite_start_time
-        
+            
 numtests
 =
 (
-            
+                
 self
 .
 stats
@@ -5187,7 +5116,7 @@ stats
 passed
 "
 ]
-            
+                
 +
 self
 .
@@ -5197,7 +5126,7 @@ stats
 failure
 "
 ]
-            
+                
 +
 self
 .
@@ -5207,7 +5136,7 @@ stats
 skipped
 "
 ]
-            
+                
 +
 self
 .
@@ -5217,14 +5146,14 @@ stats
 error
 "
 ]
-            
+                
 -
 self
 .
 cnt_double_fail_tests
-        
+            
 )
-        
+            
 logfile
 .
 write
@@ -5251,24 +5180,24 @@ utf
 >
 '
 )
-        
+            
 suite_node
 =
 ET
 .
 Element
 (
-            
+                
 "
 testsuite
 "
-            
+                
 name
 =
 self
 .
 suite_name
-            
+                
 errors
 =
 str
@@ -5282,7 +5211,7 @@ error
 "
 ]
 )
-            
+                
 failures
 =
 str
@@ -5296,7 +5225,7 @@ failure
 "
 ]
 )
-            
+                
 skipped
 =
 str
@@ -5310,14 +5239,14 @@ skipped
 "
 ]
 )
-            
+                
 tests
 =
 str
 (
 numtests
 )
-            
+                
 time
 =
 "
@@ -5327,7 +5256,7 @@ time
 "
 %
 suite_time_delta
-            
+                
 timestamp
 =
 datetime
@@ -5342,7 +5271,7 @@ suite_start_time
 isoformat
 (
 )
-            
+                
 hostname
 =
 platform
@@ -5350,9 +5279,9 @@ platform
 node
 (
 )
-        
+            
 )
-        
+            
 global_properties
 =
 self
@@ -5360,21 +5289,21 @@ self
 _get_global_properties_node
 (
 )
-        
+            
 if
 global_properties
 is
 not
 None
 :
-            
+                
 suite_node
 .
 append
 (
 global_properties
 )
-        
+            
 for
 node_reporter
 in
@@ -5382,7 +5311,7 @@ self
 .
 node_reporters_ordered
 :
-            
+                
 suite_node
 .
 append
@@ -5393,7 +5322,7 @@ to_xml
 (
 )
 )
-        
+            
 testsuites
 =
 ET
@@ -5404,14 +5333,14 @@ Element
 testsuites
 "
 )
-        
+            
 testsuites
 .
 append
 (
 suite_node
 )
-        
+            
 logfile
 .
 write
@@ -5427,12 +5356,6 @@ encoding
 unicode
 "
 )
-)
-        
-logfile
-.
-close
-(
 )
     
 def
@@ -5455,21 +5378,18 @@ write_sep
 "
 -
 "
+f
 "
 generated
 xml
 file
 :
 {
-}
-"
-.
-format
-(
 self
 .
 logfile
-)
+}
+"
 )
     
 def

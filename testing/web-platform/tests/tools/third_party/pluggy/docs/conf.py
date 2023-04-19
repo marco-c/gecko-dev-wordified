@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 sys
 if
@@ -130,7 +118,6 @@ pluggy
 "
 copyright
 =
-u
 "
 2016
 Holger
@@ -160,7 +147,6 @@ version
 .
 version
 =
-u
 "
 .
 "
@@ -275,14 +261,6 @@ star
 "
     
 "
-travis_button
-"
-:
-"
-true
-"
-    
-"
 badge_branch
 "
 :
@@ -375,7 +353,6 @@ master_doc
 "
 pluggy
 "
-u
 "
 pluggy
 Documentation
@@ -476,7 +453,6 @@ master_doc
 pluggy
 "
         
-u
 "
 pluggy
 Documentation

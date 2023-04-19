@@ -1,9 +1,23 @@
+from
+_pytest
+.
+pytester
+import
+Pytester
 def
 test_show_fixtures_and_test
 (
-testdir
+    
+pytester
+:
+Pytester
 dummy_yaml_custom_test
+:
+None
 )
+-
+>
+None
 :
     
 "
@@ -20,7 +34,7 @@ executed
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -63,7 +77,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -122,8 +136,14 @@ arg
 def
 test_show_multi_test_fixture_setup_and_teardown_correctly_simple
 (
-testdir
+    
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -262,7 +282,7 @@ only
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -330,7 +350,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -450,8 +470,14 @@ teardown_count
 def
 test_show_multi_test_fixture_setup_and_teardown_same_as_setup_show
 (
-testdir
+    
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -478,7 +504,7 @@ show
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -623,7 +649,7 @@ True
     
 plan_result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -638,7 +664,7 @@ plan
     
 show_result
 =
-testdir
+pytester
 .
 runpytest
 (

@@ -10,14 +10,14 @@ def
 pytest_collect_file
 (
 parent
-path
+file_path
 )
 :
     
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -25,9 +25,9 @@ ext
 yaml
 "
 and
-path
+file_path
 .
-basename
+name
 .
 startswith
 (
@@ -43,9 +43,9 @@ YamlFile
 from_parent
 (
 parent
-fspath
-=
 path
+=
+file_path
 )
 class
 YamlFile
@@ -87,7 +87,7 @@ safe_load
 (
 self
 .
-fspath
+path
 .
 open
 (
@@ -134,9 +134,11 @@ def
 __init__
 (
 self
-name
-parent
+*
 spec
+*
+*
+kwargs
 )
 :
         
@@ -146,8 +148,9 @@ super
 .
 __init__
 (
-name
-parent
+*
+*
+kwargs
 )
         
 self
@@ -311,21 +314,18 @@ self
 return
 self
 .
-fspath
+path
 0
+f
 "
 usecase
 :
 {
-}
-"
-.
-format
-(
 self
 .
 name
-)
+}
+"
 class
 YamlException
 (

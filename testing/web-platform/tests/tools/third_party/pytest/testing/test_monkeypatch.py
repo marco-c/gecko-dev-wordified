@@ -7,6 +7,10 @@ sys
 import
 textwrap
 from
+pathlib
+import
+Path
+from
 typing
 import
 Dict
@@ -14,16 +18,12 @@ from
 typing
 import
 Generator
+from
+typing
 import
-py
+Type
 import
 pytest
-from
-_pytest
-.
-compat
-import
-TYPE_CHECKING
 from
 _pytest
 .
@@ -35,15 +35,7 @@ _pytest
 .
 pytester
 import
-Testdir
-if
-TYPE_CHECKING
-:
-    
-from
-typing
-import
-Type
+Pytester
 pytest
 .
 fixture
@@ -963,17 +955,15 @@ None
 :
     
 d
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 object
 ]
+=
+{
+}
     
 monkeypatch
 =
@@ -1131,6 +1121,12 @@ None
 :
     
 d
+:
+Dict
+[
+str
+object
+]
 =
 {
 "
@@ -1139,14 +1135,6 @@ x
 :
 1
 }
-#
-type
-:
-Dict
-[
-str
-object
-]
     
 monkeypatch
 =
@@ -1758,9 +1746,9 @@ environ
 def
 test_monkeypatch_plugin
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1769,7 +1757,7 @@ None
     
 reprec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -2008,13 +1996,9 @@ test_chdir_with_path_local
 mp
 :
 MonkeyPatch
-tmpdir
+tmp_path
 :
-py
-.
-path
-.
-local
+Path
 )
 -
 >
@@ -2025,7 +2009,7 @@ mp
 .
 chdir
 (
-tmpdir
+tmp_path
 )
     
 assert
@@ -2036,22 +2020,19 @@ getcwd
 )
 =
 =
-tmpdir
-.
-strpath
+str
+(
+tmp_path
+)
 def
 test_chdir_with_str
 (
 mp
 :
 MonkeyPatch
-tmpdir
+tmp_path
 :
-py
-.
-path
-.
-local
+Path
 )
 -
 >
@@ -2062,9 +2043,10 @@ mp
 .
 chdir
 (
-tmpdir
-.
-strpath
+str
+(
+tmp_path
+)
 )
     
 assert
@@ -2075,22 +2057,19 @@ getcwd
 )
 =
 =
-tmpdir
-.
-strpath
+str
+(
+tmp_path
+)
 def
 test_chdir_undo
 (
 mp
 :
 MonkeyPatch
-tmpdir
+tmp_path
 :
-py
-.
-path
-.
-local
+Path
 )
 -
 >
@@ -2109,7 +2088,7 @@ mp
 .
 chdir
 (
-tmpdir
+tmp_path
 )
     
 mp
@@ -2133,13 +2112,9 @@ test_chdir_double_undo
 mp
 :
 MonkeyPatch
-tmpdir
+tmp_path
 :
-py
-.
-path
-.
-local
+Path
 )
 -
 >
@@ -2150,9 +2125,10 @@ mp
 .
 chdir
 (
-tmpdir
-.
-strpath
+str
+(
+tmp_path
+)
 )
     
 mp
@@ -2161,10 +2137,11 @@ undo
 (
 )
     
-tmpdir
+os
 .
 chdir
 (
+tmp_path
 )
     
 mp
@@ -2181,22 +2158,23 @@ getcwd
 )
 =
 =
-tmpdir
-.
-strpath
+str
+(
+tmp_path
+)
 def
 test_issue185_time_breaks
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2243,7 +2221,7 @@ f
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2273,9 +2251,9 @@ passed
 def
 test_importerror
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -2284,7 +2262,7 @@ None
     
 p
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -2295,7 +2273,7 @@ package
     
 p
 .
-join
+joinpath
 (
 "
 a
@@ -2304,7 +2282,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -2332,11 +2310,11 @@ x
     
 )
     
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_importerror
@@ -2345,7 +2323,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -2389,7 +2367,7 @@ x
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2462,10 +2440,12 @@ parametrize
 "
 Sample
 "
+    
 [
 Sample
 SampleInherit
 ]
+    
 ids
 =
 [
@@ -2484,12 +2464,10 @@ test_issue156_undo_staticmethod
 (
 Sample
 :
-"
 Type
 [
 Sample
 ]
-"
 )
 -
 >
@@ -2778,12 +2756,65 @@ functools
 partial
 )
 def
+test_context_classmethod
+(
+)
+-
+>
+None
+:
+    
+class
+A
+:
+        
+x
+=
+1
+    
+with
+MonkeyPatch
+.
+context
+(
+)
+as
+m
+:
+        
+m
+.
+setattr
+(
+A
+"
+x
+"
+2
+)
+        
+assert
+A
+.
+x
+=
+=
+2
+    
+assert
+A
+.
+x
+=
+=
+1
+def
 test_syspath_prepend_with_namespace_packages
 (
     
-testdir
+pytester
 :
-Testdir
+Pytester
 monkeypatch
 :
 MonkeyPatch
@@ -2806,7 +2837,7 @@ world
         
 d
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -2817,7 +2848,7 @@ ns
 =
 d
 .
-mkdir
+joinpath
 (
 "
 ns_pkg
@@ -2826,7 +2857,13 @@ ns_pkg
         
 ns
 .
-join
+mkdir
+(
+)
+        
+ns
+.
+joinpath
 (
 "
 __init__
@@ -2835,7 +2872,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 "
@@ -2858,14 +2895,20 @@ lib
 =
 ns
 .
-mkdir
+joinpath
 (
 dirname
 )
         
 lib
 .
-join
+mkdir
+(
+)
+        
+lib
+.
+joinpath
 (
 "
 __init__
@@ -2874,7 +2917,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -2977,15 +3020,9 @@ importlib
 invalidate_caches
 .
     
-tmpdir
-=
-testdir
-.
-tmpdir
-    
 modules_tmpdir
 =
-tmpdir
+pytester
 .
 mkdir
 (
@@ -3006,7 +3043,7 @@ modules_tmpdir
     
 modules_tmpdir
 .
-join
+joinpath
 (
 "
 main_app
@@ -3015,7 +3052,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 app

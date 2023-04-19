@@ -97,11 +97,6 @@ checked_order
 :
     
 order
-=
-[
-]
-#
-type
 :
 List
 [
@@ -111,6 +106,9 @@ str
 str
 str
 ]
+]
+=
+[
 ]
     
 yield
@@ -131,10 +129,6 @@ order
         
 (
 "
-testing
-/
-example_scripts
-/
 issue_519
 .
 py
@@ -217,10 +211,6 @@ arg2v2
         
 (
 "
-testing
-/
-example_scripts
-/
 issue_519
 .
 py

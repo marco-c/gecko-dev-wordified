@@ -36,12 +36,6 @@ for
 complete
 details
 .
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 itertools
 import
@@ -77,8 +71,8 @@ from
 .
 test_version
 import
-VERSIONS
 LEGACY_VERSIONS
+VERSIONS
 LEGACY_SPECIFIERS
 =
 [
@@ -1684,24 +1678,19 @@ spec
 )
 =
 =
+f
 "
 <
 Specifier
 (
 {
-0
+expected
+!
+r
 }
 )
 >
 "
-.
-format
-(
-repr
-(
-expected
-)
-)
     
 pytest
 .
@@ -3256,6 +3245,21 @@ operation
 1
 .
 0
+"
+)
+                
+(
+"
+1
+.
+1
+"
+"
+~
+=
+1
+.
+0a1
 "
 )
                 
@@ -6264,8 +6268,7 @@ spec
         
 items
 =
-set
-(
+{
 str
 (
 item
@@ -6274,7 +6277,7 @@ for
 item
 in
 spec
-)
+}
         
 assert
 items
@@ -8792,24 +8795,19 @@ spec
 )
 =
 =
+f
 "
 <
 SpecifierSet
 (
 {
-0
+expected
+!
+r
 }
 )
 >
 "
-.
-format
-(
-repr
-(
-expected
-)
-)
     
 pytest
 .

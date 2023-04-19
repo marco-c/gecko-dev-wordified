@@ -13,22 +13,26 @@ contextlib
 import
 contextmanager
 from
+pathlib
+import
+Path
+from
 string
 import
 ascii_lowercase
-import
-py
-.
-path
 from
 _pytest
-import
+.
 pytester
+import
+Pytester
 contextmanager
 def
 subst_path_windows
 (
-filename
+filepath
+:
+Path
 )
 :
     
@@ -98,17 +102,15 @@ subst
     
 directory
 =
-filename
+filepath
 .
-dirpath
-(
-)
+parent
     
 basename
 =
-filename
+filepath
 .
-basename
+name
     
 args
 =
@@ -145,16 +147,14 @@ try
         
 filename
 =
-py
-.
-path
-.
-local
+Path
 (
 drive
-)
-/
+os
+.
+sep
 basename
+)
         
 yield
 filename
@@ -185,23 +185,23 @@ contextmanager
 def
 subst_path_linux
 (
-filename
+filepath
+:
+Path
 )
 :
     
 directory
 =
-filename
+filepath
 .
-dirpath
-(
-)
+parent
     
 basename
 =
-filename
+filepath
 .
-basename
+name
     
 target
 =
@@ -271,11 +271,9 @@ pass
 def
 test_link_resolve
 (
-testdir
-:
 pytester
-.
-Testdir
+:
+Pytester
 )
 -
 >
@@ -311,7 +309,7 @@ issues
     
 sub1
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -324,7 +322,7 @@ p
 =
 sub1
 .
-join
+joinpath
 (
 "
 test_foo
@@ -335,7 +333,7 @@ py
     
 p
 .
-write
+write_text
 (
         
 textwrap
@@ -399,7 +397,7 @@ subst_p
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -513,19 +511,14 @@ Linux
         
 expect
 =
-(
-            
+f
 "
 *
 {
+subst_p
 }
 *
 "
-.
-format
-(
-subst_p
-)
 if
 sys
 .
@@ -545,8 +538,6 @@ test_foo
 py
 *
 "
-        
-)
         
 result
 .

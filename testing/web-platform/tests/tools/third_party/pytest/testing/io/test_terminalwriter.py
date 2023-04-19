@@ -9,6 +9,10 @@ shutil
 import
 sys
 from
+pathlib
+import
+Path
+from
 typing
 import
 Generator
@@ -431,7 +435,9 @@ tw
         
 self
 request
-tmpdir
+tmp_path
+:
+Path
     
 )
 -
@@ -459,9 +465,9 @@ path
             
 p
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 tmpfile
@@ -1983,13 +1989,16 @@ param
 (
             
 True
+            
 False
+            
 "
 assert
 0
 \
 n
 "
+            
 id
 =
 "
@@ -2008,13 +2017,16 @@ param
 (
             
 False
+            
 True
+            
 "
 assert
 0
 \
 n
 "
+            
 id
 =
 "
@@ -2033,13 +2045,16 @@ param
 (
             
 False
+            
 False
+            
 "
 assert
 0
 \
 n
 "
+            
 id
 =
 "

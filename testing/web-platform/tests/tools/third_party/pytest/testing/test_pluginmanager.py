@@ -1,6 +1,8 @@
 import
 os
 import
+shutil
+import
 sys
 import
 types
@@ -10,6 +12,12 @@ import
 List
 import
 pytest
+from
+_pytest
+.
+config
+import
+Config
 from
 _pytest
 .
@@ -36,6 +44,24 @@ _pytest
 main
 import
 Session
+from
+_pytest
+.
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
+pathlib
+import
+import_path
+from
+_pytest
+.
+pytester
+import
+Pytester
 pytest
 .
 fixture
@@ -59,13 +85,22 @@ TestPytestPluginInteractions
 def
 test_addhooks_conftestplugin
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 _config_for_test
+:
+Config
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -96,7 +131,7 @@ hook
         
 conf
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -178,12 +213,19 @@ pluginmanager
 .
 _importconftest
 (
+            
 conf
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+        
 )
         
 #
@@ -223,11 +265,16 @@ def
 test_addhooks_nohooks
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -261,7 +308,7 @@ sys
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -298,13 +345,18 @@ def
 test_do_option_postinitialize
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -324,7 +376,7 @@ test123
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -372,12 +424,19 @@ pluginmanager
 .
 _importconftest
 (
+            
 p
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+        
 )
         
 assert
@@ -391,13 +450,18 @@ def
 test_configure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -532,6 +596,8 @@ test_hook_tracing
 (
 self
 _config_for_test
+:
+Config
 )
 -
 >
@@ -608,15 +674,13 @@ ValueError
 )
         
 values
-=
-[
-]
-#
-type
 :
 List
 [
 str
+]
+=
+[
 ]
         
 pytestpm
@@ -764,8 +828,13 @@ def
 test_hook_proxy
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -785,7 +854,7 @@ function
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -800,7 +869,7 @@ from_config
 config
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -834,11 +903,11 @@ py
         
 conftest1
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 tests
@@ -851,11 +920,11 @@ py
         
 conftest2
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 tests
@@ -874,12 +943,19 @@ pluginmanager
 .
 _importconftest
 (
+            
 conftest1
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+        
 )
         
 ihook_a
@@ -888,16 +964,13 @@ session
 .
 gethookproxy
 (
-testdir
+pytester
 .
-tmpdir
-.
-join
-(
+path
+/
 "
 tests
 "
-)
 )
         
 assert
@@ -912,12 +985,19 @@ pluginmanager
 .
 _importconftest
 (
+            
 conftest2
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+        
 )
         
 ihook_b
@@ -926,16 +1006,13 @@ session
 .
 gethookproxy
 (
-testdir
+pytester
 .
-tmpdir
-.
-join
-(
+path
+/
 "
 tests
 "
-)
 )
         
 assert
@@ -948,8 +1025,13 @@ def
 test_hook_with_addoption
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -970,7 +1052,7 @@ pytest_addoption
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1007,7 +1089,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1085,7 +1167,7 @@ default_value
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1121,7 +1203,7 @@ default_value
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1155,13 +1237,18 @@ default_value
 def
 test_default_markers
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1198,9 +1285,17 @@ last
 def
 test_importplugin_error_message
 (
-testdir
+    
+pytester
+:
+Pytester
 pytestpm
+:
+PytestPluginManager
 )
+-
+>
+None
 :
     
 "
@@ -1237,16 +1332,16 @@ and
 "
 "
     
-testdir
+pytester
 .
 syspathinsert
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1359,6 +1454,9 @@ test_register_imported_modules
 (
 self
 )
+-
+>
+None
 :
         
 pm
@@ -1527,24 +1625,28 @@ mod
 def
 test_consider_module
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 pytestpm
 :
 PytestPluginManager
+    
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1555,7 +1657,7 @@ pytest_p1
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1639,9 +1741,15 @@ pytest_p2
 def
 test_consider_module_import_module
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 _config_for_test
+:
+Config
+    
 )
 -
 >
@@ -1680,7 +1788,7 @@ pytest_a
         
 aplugin
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1693,22 +1801,20 @@ pytest_a
         
 reprec
 =
-testdir
+pytester
 .
 make_hook_recorder
 (
 pytestpm
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
 aplugin
 .
-dirpath
-(
-)
+parent
 )
         
 pytestpm
@@ -1784,10 +1890,19 @@ values
 def
 test_consider_env_fails_to_import
 (
+        
 self
 monkeypatch
+:
+MonkeyPatch
 pytestpm
+:
+PytestPluginManager
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -1836,14 +1951,21 @@ def
 test_plugin_skip
 (
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1875,13 +1997,14 @@ True
         
 )
         
-p
+shutil
 .
 copy
 (
 p
+p
 .
-dirpath
+with_name
 (
 "
 skipping2
@@ -1905,7 +2028,7 @@ skipping2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1966,20 +2089,34 @@ hello
 def
 test_consider_env_plugin_instantiation
 (
+        
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 monkeypatch
+:
+MonkeyPatch
+        
 pytestpm
+:
+PytestPluginManager
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2077,13 +2214,22 @@ l3
 def
 test_pluginmanager_ENV_startup
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2096,7 +2242,7 @@ pytest_x500
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2158,7 +2304,7 @@ prepend
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2195,10 +2341,19 @@ passed
 def
 test_import_plugin_importname
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 pytestpm
+:
+PytestPluginManager
+    
 )
+-
+>
+None
 :
         
 pytest
@@ -2231,7 +2386,7 @@ y
 "
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -2243,7 +2398,7 @@ pluginname
 pytest_hello
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2345,10 +2500,19 @@ plugin1
 def
 test_import_plugin_dotted_name
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 pytestpm
+:
+PytestPluginManager
+    
 )
+-
+>
+None
 :
         
 pytest
@@ -2381,13 +2545,13 @@ y
 "
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 mkpydir
 (
@@ -2396,7 +2560,7 @@ pkg
 "
 )
 .
-join
+joinpath
 (
 "
 plug
@@ -2405,7 +2569,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 x
@@ -2453,15 +2617,29 @@ x
 def
 test_consider_conftest_deps
 (
+        
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 pytestpm
+:
+PytestPluginManager
+    
 )
+-
+>
+None
 :
         
 mod
 =
-testdir
+import_path
+(
+            
+pytester
 .
 makepyfile
 (
@@ -2473,9 +2651,12 @@ xyz
 '
 "
 )
+root
+=
+pytester
 .
-pyimport
-(
+path
+        
 )
         
 with
@@ -2502,7 +2683,12 @@ test_preparse_args
 (
 self
 pytestpm
+:
+PytestPluginManager
 )
+-
+>
+None
 :
         
 pytest
@@ -2666,7 +2852,12 @@ test_plugin_prevent_register
 (
 self
 pytestpm
+:
+PytestPluginManager
 )
+-
+>
+None
 :
         
 pytestpm
@@ -2738,9 +2929,16 @@ l2
 def
 test_plugin_prevent_register_unregistered_alredy_registered
 (
+        
 self
 pytestpm
+:
+PytestPluginManager
+    
 )
+-
+>
+None
 :
         
 pytestpm
@@ -2808,8 +3006,13 @@ test_plugin_prevent_register_stepwise_on_cacheprovider_unregister
         
 self
 pytestpm
+:
+PytestPluginManager
     
 )
+-
+>
+None
 :
         
 "
@@ -2847,6 +3050,10 @@ org
 en
 /
 stable
+/
+how
+-
+to
 /
 plugins
 .
@@ -2953,7 +3160,12 @@ test_blocked_plugin_can_be_used
 (
 self
 pytestpm
+:
+PytestPluginManager
 )
+-
+>
+None
 :
         
 pytestpm

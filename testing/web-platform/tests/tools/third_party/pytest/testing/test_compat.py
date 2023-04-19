@@ -13,6 +13,10 @@ wraps
 from
 typing
 import
+TYPE_CHECKING
+from
+typing
+import
 Union
 import
 pytest
@@ -61,15 +65,15 @@ safe_isclass
 from
 _pytest
 .
-compat
-import
-TYPE_CHECKING
-from
-_pytest
-.
 outcomes
 import
 OutcomeException
+from
+_pytest
+.
+pytester
+import
+Pytester
 if
 TYPE_CHECKING
 :
@@ -82,6 +86,9 @@ def
 test_is_generator
 (
 )
+-
+>
+None
 :
     
 def
@@ -126,6 +133,9 @@ def
 test_real_func_loop_limit
 (
 )
+-
+>
+None
 :
     
 class
@@ -153,25 +163,19 @@ self
 :
             
 return
+f
 "
 <
 Evil
 left
 =
 {
+self
+.
 left
 }
 >
 "
-.
-format
-(
-left
-=
-self
-.
-left
-)
         
 def
 __getattr__
@@ -273,6 +277,9 @@ def
 test_get_real_func
 (
 )
+-
+>
+None
 :
     
 "
@@ -416,6 +423,9 @@ def
 test_get_real_func_partial
 (
 )
+-
+>
+None
 :
     
 "
@@ -459,14 +469,41 @@ foo
 )
 is
 foo
+pytest
+.
+mark
+.
+skipif
+(
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+reason
+=
+"
+couroutine
+removed
+"
+)
 def
 test_is_generator_asyncio
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -546,7 +583,7 @@ logging
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -570,11 +607,16 @@ passed
 def
 test_is_generator_async_syntax
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -639,7 +681,7 @@ bar
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -660,44 +702,19 @@ passed
 "
 ]
 )
-pytest
-.
-mark
-.
-skipif
-(
-    
-sys
-.
-version_info
-<
-(
-3
-6
-)
-reason
-=
-"
-async
-gen
-syntax
-available
-in
-Python
-3
-.
-6
-+
-"
-)
 def
 test_is_generator_async_gen_syntax
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -764,7 +781,7 @@ bar
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -826,7 +843,7 @@ Exception
 exception
 should
 be
-catched
+caught
 "
 )
     
@@ -847,13 +864,16 @@ fail
 fail
 should
 be
-catched
+caught
 "
 )
 def
 test_helper_failures
 (
 )
+-
+>
+None
 :
     
 helper
@@ -891,6 +911,9 @@ def
 test_safe_getattr
 (
 )
+-
+>
+None
 :
     
 helper
@@ -957,6 +980,9 @@ def
 test_safe_isclass
 (
 )
+-
+>
+None
 :
     
 assert
@@ -1120,16 +1146,14 @@ None
 :
     
 x
-=
-10
-#
-type
 :
 Union
 [
 int
 str
 ]
+=
+10
     
 if
 isinstance
@@ -1219,14 +1243,12 @@ b
 )
     
 x
+:
+E
 =
 E
 .
 a
-#
-type
-:
-E
     
 if
 x
@@ -1301,12 +1323,6 @@ None
 :
     
 x
-=
-"
-a
-"
-#
-type
 :
 Literal
 [
@@ -1317,6 +1333,10 @@ a
 b
 "
 ]
+=
+"
+a
+"
     
 if
 x

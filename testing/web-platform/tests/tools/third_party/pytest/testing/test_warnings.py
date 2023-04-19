@@ -27,7 +27,7 @@ _pytest
 .
 pytester
 import
-Testdir
+Pytester
 WARNINGS_SUMMARY_HEADER
 =
 "
@@ -40,9 +40,9 @@ fixture
 def
 pyfile_with_warnings
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 request
 :
 FixtureRequest
@@ -74,7 +74,7 @@ warnings
 "
 "
     
-testdir
+pytester
 .
 syspathinsert
 (
@@ -105,7 +105,7 @@ _module
     
 test_file
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -219,14 +219,28 @@ filterwarnings
 (
 "
 default
+:
+:
+UserWarning
+"
+"
+default
+:
+:
+RuntimeWarning
 "
 )
 def
 test_normal_flow
 (
-testdir
+pytester
+:
+Pytester
 pyfile_with_warnings
 )
+-
+>
+None
 :
     
 "
@@ -246,7 +260,7 @@ displayed
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -364,16 +378,24 @@ filterwarnings
 (
 "
 always
+:
+:
+UserWarning
 "
 )
 def
 test_setup_teardown_warnings
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -445,7 +467,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -570,10 +592,15 @@ ini
 def
 test_as_errors
 (
-testdir
+pytester
+:
+Pytester
 pyfile_with_warnings
 method
 )
+-
+>
+None
 :
     
 args
@@ -607,7 +634,7 @@ ini
 "
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -650,7 +677,7 @@ xdist
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -718,10 +745,15 @@ ini
 def
 test_ignore
 (
-testdir
+pytester
+:
+Pytester
 pyfile_with_warnings
 method
 )
+-
+>
+None
 :
     
 args
@@ -755,7 +787,7 @@ ini
 "
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -780,7 +812,7 @@ ignore
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -825,16 +857,24 @@ filterwarnings
 (
 "
 always
+:
+:
+UserWarning
 "
 )
 def
 test_unicode
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -886,7 +926,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -946,8 +986,13 @@ warning
 def
 test_works_with_filterwarnings
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -974,7 +1019,7 @@ filters
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1055,7 +1100,7 @@ True
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1100,9 +1145,14 @@ cmdline
 def
 test_filterwarnings_mark
 (
-testdir
+pytester
+:
+Pytester
 default_config
 )
+-
+>
+None
 :
     
 "
@@ -1136,7 +1186,7 @@ ini
 "
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -1152,6 +1202,9 @@ pytest
 filterwarnings
 =
 always
+:
+:
+RuntimeWarning
         
 "
 "
@@ -1159,7 +1212,7 @@ always
         
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1252,14 +1305,18 @@ RuntimeWarning
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
+        
 "
 -
 W
 always
+:
+:
+RuntimeWarning
 "
 if
 default_config
@@ -1271,6 +1328,7 @@ cmdline
 else
 "
 "
+    
 )
     
 result
@@ -1297,8 +1355,13 @@ in
 def
 test_non_string_warning_argument
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -1321,7 +1384,7 @@ pytest
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1364,7 +1427,7 @@ foo
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1374,6 +1437,9 @@ W
 "
 "
 always
+:
+:
+UserWarning
 "
 )
     
@@ -1399,8 +1465,13 @@ in
 def
 test_filterwarnings_mark_registration
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -1415,7 +1486,7 @@ registered
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1454,7 +1525,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1482,16 +1553,24 @@ filterwarnings
 (
 "
 always
+:
+:
+UserWarning
 "
 )
 def
 test_warning_captured_hook
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -1529,7 +1608,7 @@ stacklevel
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1665,7 +1744,7 @@ location
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1885,7 +1964,7 @@ the
 types
 of
 the
-paremeters
+parameters
 match
 what
 we
@@ -1989,13 +2068,21 @@ filterwarnings
 (
 "
 always
+:
+:
+UserWarning
 "
 )
 def
 test_collection_warnings
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2020,7 +2107,7 @@ collection
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2061,7 +2148,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2138,13 +2225,21 @@ filterwarnings
 (
 "
 always
+:
+:
+UserWarning
 "
 )
 def
 test_mark_regex_escape
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2170,7 +2265,7 @@ characters
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2232,7 +2327,7 @@ warning
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2257,6 +2352,11 @@ filterwarnings
 (
 "
 default
+:
+:
+pytest
+.
+PytestWarning
 "
 )
 pytest
@@ -2283,9 +2383,15 @@ cmdline
 def
 test_hide_pytest_internal_warnings
 (
-testdir
+    
+pytester
+:
+Pytester
 ignore_pytest_warnings
 )
+-
+>
+None
 :
     
 "
@@ -2308,7 +2414,7 @@ filter
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2362,7 +2468,7 @@ ini
 "
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -2425,7 +2531,7 @@ else
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2523,9 +2629,15 @@ False
 def
 test_option_precedence_cmdline_over_ini
 (
-testdir
+    
+pytester
+:
+Pytester
 ignore_on_cmdline
 )
+-
+>
+None
 :
     
 "
@@ -2555,7 +2667,7 @@ files
 "
 "
     
-testdir
+pytester
 .
 makeini
 (
@@ -2571,6 +2683,9 @@ pytest
 filterwarnings
 =
 error
+:
+:
+UserWarning
     
 "
 "
@@ -2578,7 +2693,7 @@ error
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2633,7 +2748,7 @@ else
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2684,8 +2799,13 @@ in
 def
 test_option_precedence_mark
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2708,7 +2828,7 @@ precedence
 "
 "
     
-testdir
+pytester
 .
 makeini
 (
@@ -2731,7 +2851,7 @@ ignore
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2781,7 +2901,7 @@ hello
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2853,15 +2973,20 @@ def
 create_file
 (
 self
-testdir
+pytester
+:
+Pytester
 mark
 =
 "
 "
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2943,9 +3068,14 @@ def
 test_shown_by_default
 (
 self
-testdir
+pytester
+:
+Pytester
 customize_filters
 )
+-
+>
+None
 :
         
 "
@@ -2977,14 +3107,14 @@ self
 .
 create_file
 (
-testdir
+pytester
 )
         
 if
 customize_filters
 :
             
-testdir
+pytester
 .
 makeini
 (
@@ -3013,7 +3143,7 @@ UserWarning
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3085,18 +3215,23 @@ def
 test_hidden_by_ini
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 self
 .
 create_file
 (
-testdir
+pytester
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -3130,7 +3265,7 @@ PendingDeprecationWarning
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3152,8 +3287,13 @@ def
 test_hidden_by_mark
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3188,7 +3328,7 @@ self
 create_file
 (
             
-testdir
+pytester
             
 mark
 =
@@ -3212,7 +3352,7 @@ PendingDeprecationWarning
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3270,20 +3410,25 @@ def
 test_hidden_by_cmdline
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 self
 .
 create_file
 (
-testdir
+pytester
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3330,16 +3475,21 @@ def
 test_hidden_by_system
 (
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
 )
+-
+>
+None
 :
         
 self
 .
 create_file
 (
-testdir
+pytester
 )
         
 monkeypatch
@@ -3359,7 +3509,7 @@ UserWarning
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3395,37 +3545,17 @@ cmdline
 "
 ]
 )
-pytest
-.
-mark
-.
-skip
-(
-    
-reason
-=
-"
-This
-test
-should
-be
-enabled
-again
-before
-pytest
-7
-.
-0
-is
-released
-"
-)
 def
-test_deprecation_warning_as_error
+test_removed_in_x_warning_as_error
 (
-testdir
+pytester
+:
+Pytester
 change_default
 )
+-
+>
+None
 :
     
 "
@@ -3434,7 +3564,7 @@ change_default
 This
 ensures
 that
-PytestDeprecationWarnings
+PytestRemovedInXWarnings
 raised
 by
 pytest
@@ -3476,7 +3606,7 @@ expected
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -3501,7 +3631,7 @@ warn
 (
 pytest
 .
-PytestDeprecationWarning
+PytestRemovedIn7Warning
 (
 "
 some
@@ -3525,7 +3655,7 @@ ini
 "
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -3546,7 +3676,7 @@ ignore
 :
 pytest
 .
-PytestDeprecationWarning
+PytestRemovedIn7Warning
         
 "
 "
@@ -3566,7 +3696,7 @@ Wignore
 :
 pytest
 .
-PytestDeprecationWarning
+PytestRemovedIn7Warning
 "
 )
         
@@ -3586,7 +3716,7 @@ else
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3660,6 +3790,9 @@ assert_result_warns
 result
 msg
 )
+-
+>
+None
 :
         
 result
@@ -3686,11 +3819,16 @@ def
 test_tuple_warning
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3720,7 +3858,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3748,6 +3886,9 @@ def
 test_warnings_checker_twice
 (
 )
+-
+>
+None
 :
     
 "
@@ -3805,32 +3946,25 @@ mark
 filterwarnings
 (
 "
-ignore
-:
-:
-pytest
-.
-PytestExperimentalApiWarning
-"
-)
-pytest
-.
-mark
-.
-filterwarnings
-(
-"
 always
+:
+:
+UserWarning
 "
 )
 def
 test_group_warnings_by_message
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 copy_example
 (
@@ -3845,7 +3979,7 @@ py
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4132,32 +4266,25 @@ mark
 filterwarnings
 (
 "
-ignore
-:
-:
-pytest
-.
-PytestExperimentalApiWarning
-"
-)
-pytest
-.
-mark
-.
-filterwarnings
-(
-"
 always
+:
+:
+UserWarning
 "
 )
 def
 test_group_warnings_by_message_summary
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 copy_example
 (
@@ -4168,7 +4295,7 @@ test_group_warnings_by_message_summary
 "
 )
     
-testdir
+pytester
 .
 syspathinsert
 (
@@ -4176,7 +4303,7 @@ syspathinsert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4317,9 +4444,14 @@ True
 def
 test_pytest_configure_warning
 (
-testdir
+pytester
+:
+Pytester
 recwarn
 )
+-
+>
+None
 :
     
 "
@@ -4332,7 +4464,7 @@ Issue
 "
 "
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -4368,7 +4500,7 @@ pytest_configure
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4429,7 +4561,9 @@ def
 capwarn
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 :
         
@@ -4438,18 +4572,10 @@ CapturedWarnings
 :
             
 captured
-=
-(
-                
-[
-]
-            
-)
-#
-type
 :
 List
 [
+                
 Tuple
 [
 warnings
@@ -4465,6 +4591,10 @@ str
 ]
 ]
 ]
+            
+]
+=
+[
 ]
             
 classmethod
@@ -4492,7 +4622,7 @@ location
 )
 )
         
-testdir
+pytester
 .
 plugins
 =
@@ -4509,9 +4639,14 @@ def
 test_issue4445_rewrite
 (
 self
-testdir
+pytester
+:
+Pytester
 capwarn
 )
+-
+>
+None
 :
         
 "
@@ -4550,7 +4685,7 @@ py
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4562,7 +4697,7 @@ some_mod
         
 conftest
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -4592,7 +4727,7 @@ some_mod
         
 )
         
-testdir
+pytester
 .
 parseconfig
 (
@@ -4695,9 +4830,14 @@ def
 test_issue4445_preparse
 (
 self
-testdir
+pytester
+:
+Pytester
 capwarn
 )
+-
+>
+None
 :
         
 "
@@ -4736,7 +4876,7 @@ py
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4754,7 +4894,7 @@ nothing
         
 )
         
-testdir
+pytester
 .
 parseconfig
 (
@@ -4785,7 +4925,7 @@ is
 thrown
 by
 an
-errorneous
+erroneous
 conftest
 .
 py
@@ -4835,24 +4975,18 @@ message
 )
         
 assert
+f
 "
 config
 {
+os
+.
 sep
 }
 __init__
 .
 py
 "
-.
-format
-(
-sep
-=
-os
-.
-sep
-)
 in
 file
         
@@ -4879,9 +5013,9 @@ def
 test_conftest_warning_captured
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -4911,7 +5045,7 @@ captured
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4945,7 +5079,7 @@ warning
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4983,9 +5117,14 @@ def
 test_issue4445_import_plugin
 (
 self
-testdir
+pytester
+:
+Pytester
 capwarn
 )
+-
+>
+None
 :
         
 "
@@ -5007,7 +5146,7 @@ location
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5039,13 +5178,13 @@ True
         
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 parseconfig
 (
@@ -5129,24 +5268,18 @@ message
 )
         
 assert
+f
 "
 config
 {
+os
+.
 sep
 }
 __init__
 .
 py
 "
-.
-format
-(
-sep
-=
-os
-.
-sep
-)
 in
 file
         
@@ -5162,8 +5295,13 @@ def
 test_issue4445_issue5928_mark_generator
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -5202,7 +5340,7 @@ used
         
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5236,7 +5374,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -5267,6 +5405,7 @@ fnmatch_lines_random
             
 [
                 
+f
 "
 *
 {
@@ -5276,16 +5415,6 @@ testfile
 3
 *
 "
-.
-format
-(
-testfile
-=
-str
-(
-testfile
-)
-)
                 
 "
 *

@@ -31,9 +31,6 @@ pm
     
 class
 Api
-(
-object
-)
 :
         
 hookspec
@@ -61,9 +58,6 @@ Api
     
 class
 Plugin
-(
-object
-)
 :
         
 hookimpl
@@ -118,9 +112,6 @@ pm
     
 class
 Api
-(
-object
-)
 :
         
 hookspec
@@ -218,9 +209,6 @@ spec
     
 class
 Api
-(
-object
-)
 :
         
 hookspec
@@ -243,9 +231,6 @@ hook
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -266,9 +251,6 @@ common_arg
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -348,9 +330,6 @@ pm
     
 class
 Api
-(
-object
-)
 :
         
 hookspec
@@ -378,9 +357,6 @@ Api
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -398,9 +374,6 @@ return
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -418,9 +391,6 @@ return
     
 class
 Plugin3
-(
-object
-)
 :
         
 hookimpl
@@ -438,9 +408,6 @@ return
     
 class
 Plugin4
-(
-object
-)
 :
         
 hookimpl
@@ -556,9 +523,6 @@ pm
     
 class
 Api
-(
-object
-)
 :
         
 hookspec
@@ -591,9 +555,6 @@ Api
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -613,9 +574,6 @@ arg
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -635,9 +593,6 @@ arg
     
 class
 Plugin3
-(
-object
-)
 :
         
 hookimpl
@@ -655,9 +610,6 @@ None
     
 class
 Plugin4
-(
-object
-)
 :
         
 hookimpl
@@ -793,16 +745,12 @@ in
 a
 wrapper
 .
-    
 "
 "
 "
     
 class
 Api
-(
-object
-)
 :
         
 hookspec
@@ -835,9 +783,6 @@ Api
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -857,9 +802,6 @@ arg
     
 class
 Plugin2
-(
-object
-)
 :
         
 hookimpl
@@ -906,9 +848,6 @@ force_result
     
 class
 Plugin3
-(
-object
-)
 :
         
 hookimpl
@@ -1022,9 +961,6 @@ value
     
 class
 Api
-(
-object
-)
 :
         
 hookspec
@@ -1057,9 +993,6 @@ Api
     
 class
 Plugin1
-(
-object
-)
 :
         
 hookimpl
@@ -1142,9 +1075,6 @@ value
     
 class
 Api
-(
-object
-)
 :
         
 hookspec

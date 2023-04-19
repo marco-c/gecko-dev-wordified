@@ -7,6 +7,10 @@ sys
 import
 textwrap
 from
+pathlib
+import
+Path
+from
 typing
 import
 Dict
@@ -22,12 +26,16 @@ from
 typing
 import
 Tuple
+from
+typing
+import
+Type
+from
+typing
+import
+Union
 import
 attr
-import
-py
-.
-path
 import
 _pytest
 .
@@ -40,12 +48,6 @@ _pytest
 compat
 import
 importlib_metadata
-from
-_pytest
-.
-compat
-import
-TYPE_CHECKING
 from
 _pytest
 .
@@ -131,21 +133,13 @@ _pytest
 .
 pathlib
 import
-Path
+absolutepath
 from
 _pytest
 .
 pytester
 import
-Testdir
-if
-TYPE_CHECKING
-:
-    
-from
-typing
-import
-Type
+Pytester
 class
 TestParseIni
 :
@@ -194,9 +188,9 @@ test_getcfg_and_config
         
 self
         
-testdir
+pytester
 :
-Testdir
+Pytester
         
 tmp_path
 :
@@ -321,7 +315,7 @@ value
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -350,13 +344,18 @@ def
 test_setupcfg_uses_toolpytest_with_pytest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -370,7 +369,7 @@ pass
 "
 )
         
-testdir
+pytester
 .
 makefile
 (
@@ -412,13 +411,13 @@ ignored
 %
 p1
 .
-basename
+name
         
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -461,11 +460,22 @@ ret
 def
 test_append_parse_args
 (
+        
 self
-testdir
-tmpdir
+pytester
+:
+Pytester
+tmp_path
+:
+Path
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -492,9 +502,9 @@ short
 '
 )
         
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 pytest
@@ -503,7 +513,7 @@ ini
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -536,11 +546,11 @@ verbose
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
-tmpdir
+tmp_path
 )
         
 assert
@@ -590,11 +600,16 @@ def
 test_tox_ini_wrong_version
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makefile
 (
@@ -628,7 +643,7 @@ minversion
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -727,22 +742,27 @@ def
 test_ini_names
 (
 self
-testdir
+pytester
+:
+Pytester
 name
 section
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 name
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -785,7 +805,7 @@ section
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -812,11 +832,16 @@ def
 test_pyproject_toml
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyprojecttoml
 (
@@ -849,7 +874,7 @@ minversion
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -876,15 +901,18 @@ def
 test_toxini_before_lower_pytestini
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 sub
 =
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -895,7 +923,7 @@ sub
         
 sub
 .
-join
+joinpath
 (
 "
 tox
@@ -904,7 +932,7 @@ ini
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -934,11 +962,11 @@ minversion
         
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -947,7 +975,7 @@ ini
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -979,7 +1007,7 @@ minversion
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -1007,15 +1035,20 @@ def
 test_ini_parse_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytest
@@ -1024,7 +1057,7 @@ ini
 "
 )
 .
-write
+write_text
 (
 "
 addopts
@@ -1036,7 +1069,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1094,13 +1127,18 @@ def
 test_confcutdir
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 sub
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1109,13 +1147,14 @@ sub
 "
 )
         
-sub
+os
 .
 chdir
 (
+sub
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -1142,7 +1181,7 @@ qwe
         
 result
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1510,16 +1549,26 @@ test_invalid_config_options
 (
         
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 ini_file_text
+        
 invalid_keys
+        
 warning_output
+        
 exception_text
     
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1552,7 +1601,7 @@ conftest_ini_key
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1566,7 +1615,7 @@ pass
 "
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -1575,7 +1624,7 @@ ini_file_text
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -1599,7 +1648,7 @@ invalid_keys
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1616,7 +1665,7 @@ warning_output
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1698,9 +1747,9 @@ def
 test_silence_unknown_key_warning
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -1727,7 +1776,7 @@ filterwarnings
 "
 "
         
-testdir
+pytester
 .
 makeini
 (
@@ -1765,7 +1814,7 @@ foobar
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1792,6 +1841,11 @@ filterwarnings
 (
 "
 default
+:
+:
+pytest
+.
+PytestConfigWarning
 "
 )
     
@@ -1800,9 +1854,9 @@ test_disable_warnings_plugin_disables_config_warnings
 (
         
 self
-testdir
+pytester
 :
-Testdir
+Pytester
     
 )
 -
@@ -1827,7 +1881,7 @@ warnings
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1876,7 +1930,7 @@ stacklevel
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1910,6 +1964,7 @@ parametrize
         
 "
 ini_file_text
+plugin_version
 exception_text
 "
         
@@ -1935,6 +1990,12 @@ z
                 
 "
 "
+"
+                
+"
+1
+.
+5
 "
                 
 "
@@ -1977,6 +2038,12 @@ myplugin
                 
 "
 "
+"
+                
+"
+1
+.
+5
 "
                 
 "
@@ -2021,6 +2088,12 @@ myplugin
                 
 "
 "
+"
+                
+"
+1
+.
+5
 "
                 
 None
@@ -2059,6 +2132,12 @@ myplugin
                 
 "
 "
+"
+                
+"
+1
+.
+5
 "
                 
 None
@@ -2106,6 +2185,12 @@ myplugin
 "
 "
                 
+"
+1
+.
+5
+"
+                
 None
                 
 id
@@ -2137,7 +2222,48 @@ pytest
                 
 required_plugins
 =
-pyplugin
+myplugin
+                
+"
+"
+"
+                
+"
+1
+.
+5a1
+"
+                
+None
+                
+id
+=
+"
+1
+-
+ok
+-
+prerelease
+"
+            
+)
+            
+pytest
+.
+param
+(
+                
+"
+"
+"
+                
+[
+pytest
+]
+                
+required_plugins
+=
+myplugin
 =
 =
 1
@@ -2149,11 +2275,17 @@ pyplugin
 "
                 
 "
+1
+.
+5
+"
+                
+"
 Missing
 required
 plugins
 :
-pyplugin
+myplugin
 =
 =
 1
@@ -2186,7 +2318,7 @@ pytest
                 
 required_plugins
 =
-pyplugin
+myplugin
 =
 =
 1
@@ -2201,6 +2333,12 @@ other
                 
 "
 "
+"
+                
+"
+1
+.
+5
 "
                 
 "
@@ -2208,18 +2346,18 @@ Missing
 required
 plugins
 :
+myplugin
+=
+=
+1
+.
+6
 other
 =
 =
 1
 .
 0
-pyplugin
-=
-=
-1
-.
-6
 "
                 
 id
@@ -2247,7 +2385,9 @@ some_other_header
                 
 required_plugins
 =
-wont
+won
+'
+t
 be
 triggered
                 
@@ -2257,6 +2397,12 @@ pytest
                 
 "
 "
+"
+                
+"
+1
+.
+5
 "
                 
 None
@@ -2280,12 +2426,31 @@ test_missing_required_plugins
 (
         
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 monkeypatch
+:
+MonkeyPatch
+        
 ini_file_text
+:
+str
+        
+plugin_version
+:
+str
+        
 exception_text
+:
+str
     
 )
+-
+>
+None
 :
         
 "
@@ -2420,11 +2585,7 @@ files
             
 version
 =
-"
-1
-.
-5
-"
+plugin_version
             
 property
             
@@ -2460,7 +2621,7 @@ entry_points
 )
 ]
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2474,7 +2635,7 @@ module
 "
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -2491,8 +2652,6 @@ distributions
 my_dists
 )
         
-testdir
-.
 monkeypatch
 .
 delenv
@@ -2505,7 +2664,7 @@ raising
 False
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -2530,7 +2689,7 @@ exception_text
 )
 :
                 
-testdir
+pytester
 .
 parseconfig
 (
@@ -2539,7 +2698,7 @@ parseconfig
 else
 :
             
-testdir
+pytester
 .
 parseconfig
 (
@@ -2548,10 +2707,19 @@ parseconfig
 def
 test_early_config_cmdline
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 "
@@ -2591,7 +2759,7 @@ in
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2667,7 +2835,7 @@ myplugin
 "
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -2675,7 +2843,7 @@ syspathinsert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2711,13 +2879,18 @@ def
 test_parsing_again_fails
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -2742,12 +2915,19 @@ parse
 def
 test_explicitly_specified_config_file_is_loaded
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2780,7 +2960,7 @@ custom
         
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -2803,7 +2983,7 @@ custom
         
 )
         
-testdir
+pytester
 .
 makefile
 (
@@ -2835,7 +3015,7 @@ custom
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -2865,7 +3045,7 @@ custom
 1
 "
         
-testdir
+pytester
 .
 makefile
 (
@@ -2899,7 +3079,7 @@ custom
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -2929,7 +3109,7 @@ custom
 1
 "
         
-testdir
+pytester
 .
 makefile
 (
@@ -2988,7 +3168,7 @@ file
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3022,13 +3202,18 @@ def
 test_absolute_win32_path
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 temp_ini_file
 =
-testdir
+pytester
 .
 makefile
 (
@@ -3067,7 +3252,7 @@ path
 import
 normpath
         
-temp_ini_file
+temp_ini_file_norm
 =
 normpath
 (
@@ -3088,7 +3273,7 @@ main
 -
 c
 "
-temp_ini_file
+temp_ini_file_norm
 ]
 )
         
@@ -3107,7 +3292,9 @@ def
 test_config_trace
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3116,22 +3303,20 @@ None
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
 )
         
 values
-=
-[
-]
-#
-type
 :
 List
 [
 str
+]
+=
+[
 ]
         
 config
@@ -3185,11 +3370,16 @@ def
 test_config_getoption
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3233,7 +3423,7 @@ hello
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3295,11 +3485,16 @@ def
 test_config_getoption_unicode
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3337,7 +3532,7 @@ str
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3369,13 +3564,18 @@ def
 test_config_getvalueorskip
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3423,11 +3623,16 @@ def
 test_config_getvalueorskip_None
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3462,7 +3667,7 @@ hello
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3494,13 +3699,18 @@ def
 test_getoption
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3542,16 +3752,23 @@ def
 test_getconftest_pathlist
 (
 self
-testdir
-tmpdir
+pytester
+:
+Pytester
+tmp_path
+:
+Path
 )
+-
+>
+None
 :
         
 somepath
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 x
@@ -3566,9 +3783,9 @@ z
         
 p
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 conftest
@@ -3579,29 +3796,29 @@ py
         
 p
 .
-write
+write_text
 (
+f
 "
-pathlist
+mylist
 =
+{
 [
 '
 .
 '
-%
-r
-]
-"
-%
 str
 (
 somepath
 )
+]
+}
+"
 )
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -3609,6 +3826,8 @@ p
 )
         
 assert
+(
+            
 config
 .
 _getconftest_pathlist
@@ -3618,23 +3837,40 @@ notexist
 "
 path
 =
-tmpdir
+tmp_path
+rootpath
+=
+tmp_path
 )
+            
 is
 None
         
+)
+        
 pl
 =
+(
+            
 config
 .
 _getconftest_pathlist
 (
 "
-pathlist
+mylist
 "
 path
 =
-tmpdir
+tmp_path
+rootpath
+=
+tmp_path
+)
+            
+or
+[
+]
+        
 )
         
 print
@@ -3658,7 +3894,7 @@ pl
 ]
 =
 =
-tmpdir
+tmp_path
         
 assert
 pl
@@ -3669,19 +3905,80 @@ pl
 =
 somepath
     
+pytest
+.
+mark
+.
+parametrize
+(
+"
+maybe_type
+"
+[
+"
+not
+passed
+"
+"
+None
+"
+'
+"
+string
+"
+'
+]
+)
+    
 def
 test_addini
 (
 self
-testdir
+pytester
+:
+Pytester
+maybe_type
+:
+str
 )
+-
+>
+None
 :
         
-testdir
+if
+maybe_type
+=
+=
+"
+not
+passed
+"
+:
+            
+type_string
+=
+"
+"
+        
+else
+:
+            
+type_string
+=
+f
+"
+{
+maybe_type
+}
+"
+        
+pytester
 .
 makeconftest
 (
             
+f
 "
 "
 "
@@ -3706,6 +4003,9 @@ new
 ini
 value
 "
+{
+type_string
+}
 )
         
 "
@@ -3714,7 +4014,7 @@ value
         
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -3739,7 +4039,7 @@ hello
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -3777,15 +4077,42 @@ other
 "
 )
     
+pytest
+.
+mark
+.
+parametrize
+(
+"
+config_type
+"
+[
+"
+ini
+"
+"
+pyproject
+"
+]
+)
+    
 def
-make_conftest_for_pathlist
+test_addini_paths
 (
 self
-testdir
+pytester
+:
+Pytester
+config_type
+:
+str
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3817,7 +4144,7 @@ value
 type
 =
 "
-pathlist
+paths
 "
 )
                 
@@ -3839,37 +4166,31 @@ value
 "
         
 )
-    
-def
-test_addini_pathlist_ini_files
-(
-self
-testdir
-)
-:
         
-self
-.
-make_conftest_for_pathlist
-(
-testdir
-)
-        
-p
+if
+config_type
 =
-testdir
+=
+"
+ini
+"
+:
+            
+inipath
+=
+pytester
 .
 makeini
 (
-            
+                
 "
 "
 "
-            
+                
 [
 pytest
 ]
-            
+                
 paths
 =
 hello
@@ -3878,47 +4199,33 @@ world
 sub
 .
 py
-        
+            
 "
 "
 "
-        
+            
 )
         
-self
-.
-check_config_pathlist
-(
-testdir
-p
-)
-    
-def
-test_addini_pathlist_pyproject_toml
-(
-self
-testdir
-)
-:
-        
-self
-.
-make_conftest_for_pathlist
-(
-testdir
-)
-        
-p
+elif
+config_type
 =
-testdir
+=
+"
+pyproject
+"
+:
+            
+inipath
+=
+pytester
 .
 makepyprojecttoml
 (
-            
+                
 "
 "
 "
-            
+                
 [
 tool
 .
@@ -3926,7 +4233,7 @@ pytest
 .
 ini_options
 ]
-            
+                
 paths
 =
 [
@@ -3941,33 +4248,16 @@ sub
 py
 "
 ]
-        
+            
 "
 "
 "
-        
+            
 )
-        
-self
-.
-check_config_pathlist
-(
-testdir
-p
-)
-    
-def
-check_config_pathlist
-(
-self
-testdir
-config_path
-)
-:
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -4000,9 +4290,11 @@ values
 ]
 =
 =
-config_path
+inipath
 .
-dirpath
+parent
+.
+joinpath
 (
 "
 hello
@@ -4016,9 +4308,11 @@ values
 ]
 =
 =
-config_path
+inipath
 .
-dirpath
+parent
+.
+joinpath
 (
 "
 world
@@ -4046,11 +4340,16 @@ def
 make_conftest_for_args
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4119,18 +4418,23 @@ def
 test_addini_args_ini_files
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 self
 .
 make_conftest_for_args
 (
-testdir
+pytester
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -4164,25 +4468,30 @@ self
 .
 check_config_args
 (
-testdir
+pytester
 )
     
 def
 test_addini_args_pyproject_toml
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 self
 .
 make_conftest_for_args
 (
-testdir
+pytester
 )
         
-testdir
+pytester
 .
 makepyprojecttoml
 (
@@ -4224,20 +4533,25 @@ self
 .
 check_config_args
 (
-testdir
+pytester
 )
     
 def
 check_config_args
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -4297,11 +4611,16 @@ def
 make_conftest_for_linelist
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4357,18 +4676,23 @@ def
 test_addini_linelist_ini_files
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 self
 .
 make_conftest_for_linelist
 (
-testdir
+pytester
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -4399,25 +4723,30 @@ self
 .
 check_config_linelist
 (
-testdir
+pytester
 )
     
 def
 test_addini_linelist_pprojecttoml
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 self
 .
 make_conftest_for_linelist
 (
-testdir
+pytester
 )
         
-testdir
+pytester
 .
 makepyprojecttoml
 (
@@ -4457,20 +4786,25 @@ self
 .
 check_config_linelist
 (
-testdir
+pytester
 )
     
 def
 check_config_linelist
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -4568,14 +4902,25 @@ True
 def
 test_addini_bool
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 str_val
+:
+str
 bool_val
+:
+bool
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4627,7 +4972,7 @@ ini
 "
 :
             
-testdir
+pytester
 .
 makeini
 (
@@ -4656,7 +5001,7 @@ str_val
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -4678,11 +5023,16 @@ def
 test_addinivalue_line_existing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4720,7 +5070,7 @@ linelist
         
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -4745,7 +5095,7 @@ xy
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -4830,11 +5180,16 @@ def
 test_addinivalue_line_new
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4874,7 +5229,7 @@ linelist
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -4982,8 +5337,13 @@ def
 test_confcutdir_check_isdir
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -5039,34 +5399,25 @@ exp_match
 )
 :
             
-testdir
+pytester
 .
 parseconfig
 (
-                
 "
 -
 -
 confcutdir
 "
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 file
 "
 )
-.
-ensure
-(
-file
-=
-1
-)
-            
 )
         
 with
@@ -5083,7 +5434,7 @@ exp_match
 )
 :
             
-testdir
+pytester
 .
 parseconfig
 (
@@ -5092,48 +5443,41 @@ parseconfig
 -
 confcutdir
 "
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
-inexistant
+nonexistent
 "
 )
+)
+        
+p
+=
+pytester
+.
+mkdir
+(
+"
+dir
+"
 )
         
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
-            
 "
 -
 -
 confcutdir
 "
-testdir
-.
-tmpdir
-.
-join
-(
-"
-dir
-"
-)
-.
-ensure
-(
-dir
-=
-1
-)
-        
+p
 )
         
 assert
@@ -5149,16 +5493,7 @@ confcutdir
 =
 str
 (
-testdir
-.
-tmpdir
-.
-join
-(
-"
-dir
-"
-)
+p
 )
     
 pytest
@@ -5384,6 +5719,9 @@ self
 names
 expected
 )
+-
+>
+None
 :
         
 assert
@@ -5407,6 +5745,9 @@ test_basic_behavior
 self
 _sys_snapshot
 )
+-
+>
+None
 :
         
 option_dict
@@ -5551,17 +5892,15 @@ format
 "
         
 option_dict
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 object
 ]
+=
+{
+}
         
 args
 =
@@ -5646,28 +5985,54 @@ def
 test_inifilename
 (
 self
-tmpdir
+tmp_path
+:
+Path
 )
+-
+>
+None
 :
         
-tmpdir
+d1
+=
+tmp_path
 .
-join
+joinpath
 (
 "
 foo
-/
+"
+)
+        
+d1
+.
+mkdir
+(
+)
+        
+p1
+=
+d1
+.
+joinpath
+(
+"
 bar
 .
 ini
 "
 )
+        
+p1
 .
-ensure
+touch
 (
 )
+        
+p1
 .
-write
+write_text
 (
             
 textwrap
@@ -5696,7 +6061,7 @@ value
         
 )
         
-inifile
+inifilename
 =
 "
 .
@@ -5719,7 +6084,7 @@ option_dict
 inifilename
 "
 :
-inifile
+inifilename
 "
 capture
 "
@@ -5731,9 +6096,9 @@ no
         
 cwd
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 a
@@ -5744,7 +6109,18 @@ b
         
 cwd
 .
-join
+mkdir
+(
+parents
+=
+True
+)
+        
+p2
+=
+cwd
+.
+joinpath
 (
 "
 pytest
@@ -5752,12 +6128,16 @@ pytest
 ini
 "
 )
+        
+p2
 .
-ensure
+touch
 (
 )
+        
+p2
 .
-write
+write_text
 (
             
 textwrap
@@ -5793,19 +6173,21 @@ true
 )
         
 with
-cwd
+MonkeyPatch
 .
-ensure
-(
-dir
-=
-True
-)
-.
-as_cwd
+context
 (
 )
+as
+mp
 :
+            
+mp
+.
+chdir
+(
+cwd
+)
             
 config
 =
@@ -5820,13 +6202,9 @@ option_dict
             
 inipath
 =
-py
-.
-path
-.
-local
+absolutepath
 (
-inifile
+inifilename
 )
         
 assert
@@ -5850,7 +6228,7 @@ option
 inifilename
 =
 =
-inifile
+inifilename
         
 assert
 config
@@ -5880,7 +6258,7 @@ values
 assert
 config
 .
-inifile
+inipath
 =
 =
 inipath
@@ -5918,7 +6296,9 @@ None
 def
 test_options_on_small_file_do_not_blow_up
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5942,7 +6322,7 @@ None
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5977,11 +6357,14 @@ passed
     
 path
 =
-testdir
+str
+(
+        
+pytester
 .
 makepyfile
 (
-        
+            
 "
 "
 "
@@ -6005,6 +6388,8 @@ assert
 "
 "
 "
+        
+)
     
 )
     
@@ -6131,9 +6516,17 @@ path
 def
 test_preparse_ordering_with_setuptools
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 monkeypatch
@@ -6235,7 +6628,7 @@ distributions
 my_dists
 )
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -6270,7 +6663,7 @@ mytestplugin
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -6299,9 +6692,17 @@ x
 def
 test_setuptools_importerror_issue1479
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 monkeypatch
@@ -6427,7 +6828,7 @@ ImportError
 )
 :
         
-testdir
+pytester
 .
 parseconfig
 (
@@ -6435,9 +6836,17 @@ parseconfig
 def
 test_importlib_metadata_broken_distribution
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 "
@@ -6563,7 +6972,7 @@ distributions
 distributions
 )
     
-testdir
+pytester
 .
 parseconfig
 (
@@ -6585,10 +6994,20 @@ False
 def
 test_plugin_preparse_prevents_setuptools_loading
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 block_it
+:
+bool
 )
+-
+>
+None
 :
     
 monkeypatch
@@ -6722,7 +7141,7 @@ else
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -6823,11 +7242,38 @@ False
 def
 test_disable_plugin_autoload
 (
-testdir
+    
+pytester
+:
+Pytester
+    
 monkeypatch
+:
+MonkeyPatch
+    
 parse_args
-should_load
+:
+Union
+[
+Tuple
+[
+str
+str
+]
+Tuple
+[
+(
 )
+]
+]
+    
+should_load
+:
+bool
+)
+-
+>
+None
 :
     
 class
@@ -6995,10 +7441,17 @@ PseudoPlugin
 (
 )
 )
+#
+type
+:
+ignore
+[
+misc
+]
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -7058,8 +7511,13 @@ attrs_used
 def
 test_plugin_loading_order
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7080,7 +7538,7 @@ p
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -7197,7 +7655,7 @@ terminalreporter
     
 )
     
-testdir
+pytester
 .
 syspathinsert
 (
@@ -7205,7 +7663,7 @@ syspathinsert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7232,11 +7690,16 @@ ret
 def
 test_cmdline_processargs_simple
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -7270,7 +7733,7 @@ h
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7299,8 +7762,13 @@ h
 def
 test_invalid_options_show_extra_information
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7327,7 +7795,7 @@ line
 "
 "
     
-testdir
+pytester
 .
 makeini
 (
@@ -7356,7 +7824,7 @@ option
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7395,11 +7863,11 @@ s
 *
 "
 %
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 tox
@@ -7417,9 +7885,9 @@ s
 *
 "
 %
-testdir
+pytester
 .
-tmpdir
+path
         
 ]
     
@@ -7494,9 +7962,20 @@ dir1
 def
 test_consider_args_after_options_for_rootdir
 (
-testdir
+    
+pytester
+:
+Pytester
 args
+:
+List
+[
+str
+]
 )
+-
+>
+None
 :
     
 "
@@ -7552,9 +8031,7 @@ directory
     
 root
 =
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -7567,22 +8044,34 @@ d1
 =
 root
 .
-mkdir
+joinpath
 (
 "
 dir1
 "
 )
     
+d1
+.
+mkdir
+(
+)
+    
 d2
 =
 root
 .
-mkdir
+joinpath
 (
 "
 dir2
 "
+)
+    
+d2
+.
+mkdir
+(
 )
     
 for
@@ -7609,7 +8098,10 @@ args
 i
 ]
 =
+str
+(
 d1
+)
         
 elif
 arg
@@ -7625,19 +8117,31 @@ args
 i
 ]
 =
+str
+(
 d2
+)
     
 with
-root
+MonkeyPatch
 .
-as_cwd
+context
 (
 )
+as
+mp
 :
+        
+mp
+.
+chdir
+(
+root
+)
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7664,13 +8168,18 @@ myroot
 def
 test_toolongargs_issue224
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7697,8 +8206,14 @@ NO_TESTS_COLLECTED
 def
 test_config_in_subdirectory_colon_command_line_issue2148
 (
-testdir
+    
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 conftest_source
@@ -7730,7 +8245,7 @@ foo
 "
 "
     
-testdir
+pytester
 .
 makefile
 (
@@ -7775,7 +8290,7 @@ subdir
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7841,7 +8356,7 @@ subdir
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7867,14 +8382,19 @@ ret
 def
 test_notify_exception
 (
-testdir
+pytester
+:
+Pytester
 capfd
 )
+-
+>
+None
 :
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -7973,7 +8493,7 @@ err
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -8033,11 +8553,16 @@ err
 def
 test_no_terminal_discovery_error
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8055,7 +8580,7 @@ oops
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8133,54 +8658,114 @@ hook
 .
 pytest_load_initial_conftests
     
-values
-=
-hc
-.
-_nonwrappers
-+
-hc
-.
-_wrappers
-    
-expected
+hookimpls
 =
 [
+        
+(
+            
+hookimpl
+.
+function
+.
+__module__
+            
+"
+wrapper
+"
+if
+hookimpl
+.
+hookwrapper
+else
+"
+nonwrapper
+"
+        
+)
+        
+for
+hookimpl
+in
+hc
+.
+get_hookimpls
+(
+)
+    
+]
+    
+assert
+hookimpls
+=
+=
+[
+        
+(
 "
 _pytest
 .
 config
 "
+"
+nonwrapper
+"
+)
+        
+(
 m
 .
 __module__
+"
+nonwrapper
+"
+)
+        
+(
+"
+_pytest
+.
+legacypath
+"
+"
+nonwrapper
+"
+)
+        
+(
+"
+_pytest
+.
+python_path
+"
+"
+nonwrapper
+"
+)
+        
+(
 "
 _pytest
 .
 capture
 "
 "
+wrapper
+"
+)
+        
+(
+"
 _pytest
 .
 warnings
 "
-]
+"
+wrapper
+"
+)
     
-assert
-[
-x
-.
-function
-.
-__module__
-for
-x
-in
-values
 ]
-=
-=
-expected
 def
 test_get_plugin_specs_as_list
 (
@@ -8419,8 +9004,13 @@ bar
 def
 test_collect_pytest_prefix_bug_integration
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8438,7 +9028,7 @@ issue
     
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -8451,7 +9041,7 @@ collect_pytest_prefix
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9422,6 +10012,155 @@ x
 }
     
 def
+test_explicit_config_file_sets_rootdir
+(
+        
+self
+tmp_path
+:
+Path
+monkeypatch
+:
+pytest
+.
+MonkeyPatch
+    
+)
+-
+>
+None
+:
+        
+tests_dir
+=
+tmp_path
+/
+"
+tests
+"
+        
+tests_dir
+.
+mkdir
+(
+)
+        
+monkeypatch
+.
+chdir
+(
+tmp_path
+)
+        
+#
+No
+config
+file
+is
+explicitly
+given
+:
+rootdir
+is
+determined
+to
+be
+cwd
+.
+        
+rootpath
+found_inipath
+*
+_
+=
+determine_setup
+(
+None
+[
+str
+(
+tests_dir
+)
+]
+)
+        
+assert
+rootpath
+=
+=
+tmp_path
+        
+assert
+found_inipath
+is
+None
+        
+#
+Config
+file
+is
+explicitly
+given
+:
+rootdir
+is
+determined
+to
+be
+inifile
+'
+s
+directory
+.
+        
+inipath
+=
+tmp_path
+/
+"
+pytest
+.
+ini
+"
+        
+inipath
+.
+touch
+(
+)
+        
+rootpath
+found_inipath
+*
+_
+=
+determine_setup
+(
+str
+(
+inipath
+)
+[
+str
+(
+tests_dir
+)
+]
+)
+        
+assert
+rootpath
+=
+=
+tmp_path
+        
+assert
+found_inipath
+=
+=
+inipath
+    
+def
 test_with_arg_outside_cwd_without_inifile
 (
         
@@ -9961,9 +10700,16 @@ def
 test_override_ini_names
 (
 self
-testdir
+pytester
+:
+Pytester
 name
+:
+str
 )
+-
+>
+None
 :
         
 section
@@ -9991,16 +10737,16 @@ pytest
 ]
 "
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 name
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -10038,7 +10784,7 @@ section
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -10070,7 +10816,7 @@ custom
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10121,7 +10867,7 @@ ini_val
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10172,7 +10918,7 @@ custom_option
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10237,14 +10983,19 @@ custom_option
 )
     
 def
-test_override_ini_pathlist
+test_override_ini_paths
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -10276,7 +11027,7 @@ value
 type
 =
 "
-pathlist
+paths
 "
 )
 "
@@ -10285,7 +11036,7 @@ pathlist
         
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -10309,22 +11060,18 @@ py
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
             
+r
 "
 "
 "
-            
-import
-py
-.
-path
             
 def
-test_pathlist
+test_overriden
 (
 pytestconfig
 )
@@ -10356,7 +11103,6 @@ print
 (
 '
 \
-\
 nuser_path
 :
 %
@@ -10365,8 +11111,9 @@ s
 %
 cpf
 .
-basename
+name
 )
+            
 "
 "
 "
@@ -10375,7 +11122,7 @@ basename
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10436,11 +11183,16 @@ def
 test_override_multiple_and_default
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -10529,7 +11281,7 @@ bool
         
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -10556,7 +11308,7 @@ custom_option_2
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10634,7 +11386,7 @@ ini_value
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10770,11 +11522,16 @@ def
 test_override_ini_usage_error_bad_style
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -10799,7 +11556,7 @@ False
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10875,10 +11632,19 @@ False
 def
 test_override_ini_handled_asap
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 with_ini
+:
+bool
+    
 )
+-
+>
+None
 :
         
 "
@@ -10914,7 +11680,7 @@ if
 with_ini
 :
             
-testdir
+pytester
 .
 makeini
 (
@@ -10940,7 +11706,7 @@ py
             
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10967,7 +11733,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11008,11 +11774,18 @@ in
 def
 test_addopts_before_initini
 (
+        
 self
 monkeypatch
+:
+MonkeyPatch
 _config_for_test
 _sys_snapshot
+    
 )
+-
+>
+None
 :
         
 cache_dir
@@ -11076,10 +11849,17 @@ cache_dir
 def
 test_addopts_from_env_not_concatenated
 (
+        
 self
 monkeypatch
+:
+MonkeyPatch
 _config_for_test
+    
 )
+-
+>
+None
 :
         
 "
@@ -11187,8 +11967,13 @@ def
 test_addopts_from_ini_not_concatenated
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -11213,7 +11998,7 @@ args
 "
 "
         
-testdir
+pytester
 .
 makeini
 (
@@ -11239,7 +12024,7 @@ o
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11287,9 +12072,9 @@ config
                 
 %
 (
-testdir
+pytester
 .
-request
+_request
 .
 config
 .
@@ -11321,10 +12106,15 @@ USAGE_ERROR
 def
 test_override_ini_does_not_contain_paths
 (
+        
 self
 _config_for_test
 _sys_snapshot
+    
 )
+-
+>
+None
 :
         
 "
@@ -11398,8 +12188,13 @@ def
 test_multiple_override_ini_options
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -11429,7 +12224,7 @@ error
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11575,7 +12370,7 @@ False
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11645,11 +12440,16 @@ in
 def
 test_help_via_addopts
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -11689,7 +12489,7 @@ help
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11751,11 +12551,16 @@ markers
 def
 test_help_and_version_after_argument_error
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -11832,7 +12637,7 @@ validate
     
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -11869,7 +12674,7 @@ help
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11963,9 +12768,9 @@ argument
             
 %
 (
-testdir
+pytester
 .
-request
+_request
 .
 config
 .
@@ -12023,7 +12828,7 @@ USAGE_ERROR
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12036,23 +12841,20 @@ version
     
 result
 .
-stderr
+stdout
 .
 fnmatch_lines
 (
 [
+f
 "
 pytest
 {
-}
-"
-.
-format
-(
 pytest
 .
 __version__
-)
+}
+"
 ]
 )
     
@@ -12069,7 +12871,12 @@ def
 test_help_formatter_uses_py_get_terminal_width
 (
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 from
@@ -12165,8 +12972,13 @@ _width
 def
 test_config_does_not_load_blocked_plugin_from_args
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -12195,7 +13007,7 @@ X
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -12212,7 +13024,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12259,7 +13071,7 @@ TESTS_FAILED
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12312,8 +13124,13 @@ USAGE_ERROR
 def
 test_invocation_args
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -12341,7 +13158,7 @@ pass
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -12363,7 +13180,7 @@ DummyPlugin
     
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12423,7 +13240,10 @@ args
 =
 =
 (
+str
+(
 p
+)
 "
 -
 v
@@ -12438,15 +13258,9 @@ invocation_params
 dir
 =
 =
-Path
-(
-str
-(
-testdir
+pytester
 .
-tmpdir
-)
-)
+path
     
 plugins
 =
@@ -12491,7 +13305,7 @@ Collect
 #
 installed
 by
-testdir
+pytester
 .
 inline_run
 (
@@ -12576,9 +13390,16 @@ essential_plugins
 def
 test_config_blocked_default_plugins
 (
-testdir
+pytester
+:
+Pytester
 plugin
+:
+str
 )
+-
+>
+None
 :
     
 if
@@ -12594,7 +13415,6 @@ debugging
 Fixed
 in
 xdist
-master
 (
 after
 1
@@ -12661,7 +13481,7 @@ currently
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -12677,7 +13497,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12800,7 +13620,7 @@ in
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -12817,7 +13637,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -12893,11 +13713,16 @@ def
 test_pytest_setup_cfg_unsupported
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makefile
 (
@@ -12942,7 +13767,7 @@ Exception
 )
 :
             
-testdir
+pytester
 .
 runpytest
 (
@@ -12952,11 +13777,16 @@ def
 test_pytest_custom_cfg_unsupported
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makefile
 (
@@ -13001,7 +13831,7 @@ Exception
 )
 :
             
-testdir
+pytester
 .
 runpytest
 (
@@ -13022,12 +13852,19 @@ TestPytestPluginsVariable
 def
 test_pytest_plugins_in_non_top_level_conftest_unsupported
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13064,7 +13901,7 @@ capture
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13089,7 +13926,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13130,9 +13967,8 @@ stdout
 .
 fnmatch_lines
 (
-            
 [
-                
+f
 "
 *
 {
@@ -13140,18 +13976,13 @@ msg
 }
 *
 "
-.
-format
-(
-msg
-=
-msg
-)
-                
+f
 "
 *
 subdirectory
 {
+os
+.
 sep
 }
 conftest
@@ -13159,18 +13990,7 @@ conftest
 py
 *
 "
-.
-format
-(
-sep
-=
-os
-.
-sep
-)
-            
 ]
-        
 )
     
 pytest
@@ -13193,10 +14013,17 @@ test_pytest_plugins_in_non_top_level_conftest_unsupported_pyargs
 (
         
 self
-testdir
+pytester
+:
+Pytester
 use_pyargs
+:
+bool
     
 )
+-
+>
+None
 :
         
 "
@@ -13339,7 +14166,7 @@ pass
         
 }
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13348,15 +14175,15 @@ makepyfile
 files
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 src
@@ -13384,7 +14211,7 @@ else
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -13459,6 +14286,7 @@ stdout
 fnmatch_lines
 (
 [
+f
 "
 *
 {
@@ -13466,13 +14294,6 @@ msg
 }
 *
 "
-.
-format
-(
-msg
-=
-msg
-)
 ]
 )
     
@@ -13481,18 +14302,23 @@ test_pytest_plugins_in_non_top_level_conftest_unsupported_no_top_level_conftest
 (
         
 self
-testdir
+pytester
+:
+Pytester
     
 )
+-
+>
+None
 :
         
 subdirectory
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 subdirectory
@@ -13505,7 +14331,7 @@ mkdir
 (
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -13528,11 +14354,11 @@ capture
         
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 conftest
@@ -13541,11 +14367,12 @@ py
 "
 )
 .
-move
+rename
 (
+            
 subdirectory
 .
-join
+joinpath
 (
 "
 conftest
@@ -13553,9 +14380,10 @@ conftest
 py
 "
 )
+        
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13580,7 +14408,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -13621,9 +14449,8 @@ stdout
 .
 fnmatch_lines
 (
-            
 [
-                
+f
 "
 *
 {
@@ -13631,18 +14458,13 @@ msg
 }
 *
 "
-.
-format
-(
-msg
-=
-msg
-)
-                
+f
 "
 *
 subdirectory
 {
+os
+.
 sep
 }
 conftest
@@ -13650,18 +14472,7 @@ conftest
 py
 *
 "
-.
-format
-(
-sep
-=
-os
-.
-sep
-)
-            
 ]
-        
 )
     
 def
@@ -13669,12 +14480,17 @@ test_pytest_plugins_in_non_top_level_conftest_unsupported_no_false_positives
 (
         
 self
-testdir
+pytester
+:
+Pytester
     
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13743,7 +14559,7 @@ capture
         
 res
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -13792,8 +14608,13 @@ str
 def
 test_conftest_import_error_repr
 (
-tmpdir
+tmp_path
+:
+Path
 )
+-
+>
+None
 :
     
 "
@@ -13824,9 +14645,9 @@ file
     
 path
 =
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 foo
@@ -13851,6 +14672,7 @@ re
 .
 escape
 (
+f
 "
 RuntimeError
 :
@@ -13859,14 +14681,10 @@ error
 (
 from
 {
+path
 }
 )
 "
-.
-format
-(
-path
-)
 )
     
 )
@@ -13923,6 +14741,9 @@ def
 test_strtobool
 (
 )
+-
+>
+None
 :
     
 assert
@@ -14183,7 +15004,6 @@ escape
 bool
 expected
 :
-"
 Tuple
 [
 str
@@ -14195,7 +15015,6 @@ Warning
 str
 int
 ]
-"
 )
 -
 >
@@ -14219,15 +15038,78 @@ mark
 .
 parametrize
 (
+    
 "
 arg
 "
+    
 [
+        
+#
+Too
+much
+parts
+.
+        
 "
 :
 "
 *
 5
+        
+#
+Invalid
+action
+.
+        
+"
+FOO
+:
+:
+"
+        
+#
+ImportError
+when
+importing
+the
+warning
+class
+.
+        
+"
+:
+:
+test_parse_warning_filter_failure
+.
+NonExistentClass
+:
+:
+"
+        
+#
+Class
+is
+not
+a
+Warning
+subclass
+.
+        
+"
+:
+:
+list
+:
+:
+"
+        
+#
+Negative
+line
+number
+.
+        
 "
 :
 :
@@ -14236,6 +15118,14 @@ arg
 -
 1
 "
+        
+#
+Not
+a
+line
+number
+.
+        
 "
 :
 :
@@ -14247,6 +15137,7 @@ a
 -
 number
 "
+    
 ]
 )
 def
@@ -14261,17 +15152,14 @@ str
 None
 :
     
-import
-warnings
-    
 with
 pytest
 .
 raises
 (
-warnings
+pytest
 .
-_OptionError
+UsageError
 )
 :
         
@@ -14281,4 +15169,443 @@ arg
 escape
 =
 True
+)
+class
+TestDebugOptions
+:
+    
+def
+test_without_debug_does_not_write_log
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+result
+=
+pytester
+.
+runpytest
+(
+)
+        
+result
+.
+stderr
+.
+no_fnmatch_line
+(
+            
+"
+*
+writing
+pytest
+debug
+information
+to
+*
+pytestdebug
+.
+log
+"
+        
+)
+        
+result
+.
+stderr
+.
+no_fnmatch_line
+(
+            
+"
+*
+wrote
+pytest
+debug
+information
+to
+*
+pytestdebug
+.
+log
+"
+        
+)
+        
+assert
+not
+[
+f
+.
+name
+for
+f
+in
+pytester
+.
+path
+.
+glob
+(
+"
+*
+*
+/
+*
+.
+log
+"
+)
+]
+    
+def
+test_with_only_debug_writes_pytestdebug_log
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+debug
+"
+)
+        
+result
+.
+stderr
+.
+fnmatch_lines
+(
+            
+[
+                
+"
+*
+writing
+pytest
+debug
+information
+to
+*
+pytestdebug
+.
+log
+"
+                
+"
+*
+wrote
+pytest
+debug
+information
+to
+*
+pytestdebug
+.
+log
+"
+            
+]
+        
+)
+        
+assert
+"
+pytestdebug
+.
+log
+"
+in
+[
+f
+.
+name
+for
+f
+in
+pytester
+.
+path
+.
+glob
+(
+"
+*
+*
+/
+*
+.
+log
+"
+)
+]
+    
+def
+test_multiple_custom_debug_logs
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+debug
+"
+"
+bar
+.
+log
+"
+)
+        
+result
+.
+stderr
+.
+fnmatch_lines
+(
+            
+[
+                
+"
+*
+writing
+pytest
+debug
+information
+to
+*
+bar
+.
+log
+"
+                
+"
+*
+wrote
+pytest
+debug
+information
+to
+*
+bar
+.
+log
+"
+            
+]
+        
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+debug
+"
+"
+foo
+.
+log
+"
+)
+        
+result
+.
+stderr
+.
+fnmatch_lines
+(
+            
+[
+                
+"
+*
+writing
+pytest
+debug
+information
+to
+*
+foo
+.
+log
+"
+                
+"
+*
+wrote
+pytest
+debug
+information
+to
+*
+foo
+.
+log
+"
+            
+]
+        
+)
+        
+assert
+{
+"
+bar
+.
+log
+"
+"
+foo
+.
+log
+"
+}
+=
+=
+{
+            
+f
+.
+name
+for
+f
+in
+pytester
+.
+path
+.
+glob
+(
+"
+*
+*
+/
+*
+.
+log
+"
+)
+        
+}
+    
+def
+test_debug_help
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+h
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
+[
+                
+"
+*
+store
+internal
+tracing
+debug
+information
+in
+this
+log
+*
+"
+                
+"
+*
+This
+file
+is
+opened
+with
+'
+w
+'
+and
+truncated
+as
+a
+result
+*
+"
+                
+"
+*
+Defaults
+to
+'
+pytestdebug
+.
+log
+'
+.
+"
+            
+]
+        
 )

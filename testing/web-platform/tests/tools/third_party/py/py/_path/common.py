@@ -52,6 +52,38 @@ nt
 try
 :
     
+#
+FileNotFoundError
+might
+happen
+in
+py34
+and
+is
+not
+available
+with
+py27
+.
+    
+import_errors
+=
+(
+ImportError
+FileNotFoundError
+)
+except
+NameError
+:
+    
+import_errors
+=
+(
+ImportError
+)
+try
+:
+    
 from
 os
 import
@@ -207,7 +239,7 @@ import
 pathlib
             
 except
-ImportError
+import_errors
 :
                 
 pass

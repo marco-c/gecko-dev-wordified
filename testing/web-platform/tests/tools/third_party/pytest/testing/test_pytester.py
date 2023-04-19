@@ -7,19 +7,23 @@ sys
 import
 time
 from
+pathlib
+import
+Path
+from
+types
+import
+ModuleType
+from
 typing
 import
 List
-import
-py
-.
-path
 import
 _pytest
 .
 pytester
 as
-pytester
+pytester_mod
 import
 pytest
 from
@@ -34,6 +38,12 @@ _pytest
 config
 import
 PytestPluginManager
+from
+_pytest
+.
+monkeypatch
+import
+MonkeyPatch
 from
 _pytest
 .
@@ -57,6 +67,12 @@ _pytest
 .
 pytester
 import
+Pytester
+from
+_pytest
+.
+pytester
+import
 SysModulesSnapshot
 from
 _pytest
@@ -64,16 +80,12 @@ _pytest
 pytester
 import
 SysPathsSnapshot
-from
-_pytest
-.
-pytester
-import
-Testdir
 def
 test_make_hook_recorder
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -82,7 +94,7 @@ None
     
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -98,7 +110,7 @@ pass
     
 recorder
 =
-testdir
+pytester
 .
 make_hook_recorder
 (
@@ -193,21 +205,14 @@ report
 =
 rep
 )
-    
-failures
-=
-recorder
-.
-getfailures
-(
-)
-    
-assert
-failures
-=
-=
+#
+type
+:
+ignore
 [
-rep
+attr
+-
+defined
 ]
     
 failures
@@ -224,6 +229,40 @@ failures
 =
 [
 rep
+]
+#
+type
+:
+ignore
+[
+comparison
+-
+overlap
+]
+    
+failures
+=
+recorder
+.
+getfailures
+(
+)
+    
+assert
+failures
+=
+=
+[
+rep
+]
+#
+type
+:
+ignore
+[
+comparison
+-
+overlap
 ]
     
 class
@@ -274,10 +313,19 @@ report
 =
 rep2
 )
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
     
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -328,6 +376,15 @@ report
 =
 rep3
 )
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
     
 passed
 skipped
@@ -393,6 +450,15 @@ recorder
 unregister
 (
 )
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
     
 recorder
 .
@@ -410,6 +476,15 @@ report
 =
 rep3
 )
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
     
 pytest
 .
@@ -423,7 +498,9 @@ getfailures
 def
 test_parseconfig
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -432,7 +509,7 @@ None
     
 config1
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -440,7 +517,7 @@ parseconfig
     
 config2
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -452,16 +529,18 @@ is
 not
 config1
 def
-test_testdir_runs_with_plugin
+test_pytester_runs_with_plugin
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -479,7 +558,7 @@ pytester
 def
 test_hello
 (
-testdir
+pytester
 )
 :
             
@@ -494,7 +573,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -509,10 +588,15 @@ passed
 1
 )
 def
-test_testdir_with_doctest
+test_pytester_with_doctest
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -520,7 +604,7 @@ testdir
 "
 Check
 that
-testdir
+pytester
 can
 be
 used
@@ -545,7 +629,7 @@ doctests
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -581,12 +665,12 @@ os
 >
 >
 >
-testdir
+pytester
 =
 getfixture
 (
 "
-testdir
+pytester
 "
 )
         
@@ -595,7 +679,7 @@ testdir
 >
 str
 (
-testdir
+pytester
 .
 makepyfile
 (
@@ -658,7 +742,7 @@ py
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -699,14 +783,16 @@ ret
 def
 test_runresult_assertion_on_xfail
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -747,7 +833,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -772,14 +858,16 @@ ret
 def
 test_runresult_assertion_on_xpassed
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -820,7 +908,7 @@ True
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -845,14 +933,16 @@ ret
 def
 test_xpassed_with_strict_is_considered_a_failure
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -898,7 +988,7 @@ True
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1066,6 +1156,9 @@ rec
 HookRecorder
 (
 pm
+_ispytest
+=
+True
 )
     
 pm
@@ -1156,14 +1249,16 @@ pytest_xyz_noarg
 def
 test_makepyfile_unicode
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1175,7 +1270,9 @@ chr
 def
 test_makepyfile_utf8
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1233,7 +1330,7 @@ encode
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1257,11 +1354,8 @@ encode
 in
 p
 .
-read
+read_bytes
 (
-"
-rb
-"
 )
 class
 TestInlineRunModulesCleanup
@@ -1271,7 +1365,9 @@ def
 test_inline_run_test_module_not_cleaned_up
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1280,7 +1376,7 @@ None
         
 test_mod
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1297,7 +1393,7 @@ True
         
 result
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1333,7 +1429,7 @@ imported
         
 test_mod
 .
-write
+write_text
 (
 "
 def
@@ -1348,7 +1444,7 @@ False
         
 result2
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -1380,16 +1476,20 @@ SysModulesSnapshotSpy
 :
             
 instances
+:
+List
+[
+"
+SysModulesSnapshotSpy
+"
+]
 =
 [
 ]
 #
-type
+noqa
 :
-List
-[
-SysModulesSnapshotSpy
-]
+F821
             
 def
 __init__
@@ -1467,8 +1567,12 @@ test_inline_run_taking_and_restoring_a_sys_modules_snapshot
 (
         
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
     
 )
 -
@@ -1488,14 +1592,14 @@ monkeypatch
 .
 setattr
 (
-pytester
+pytester_mod
 "
 SysModulesSnapshot
 "
 spy_factory
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -1510,7 +1614,7 @@ sys
 modules
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1527,7 +1631,7 @@ person
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1546,7 +1650,7 @@ eels
         
 test_mod
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1571,7 +1675,7 @@ import2
         
 )
         
-testdir
+pytester
 .
 inline_run
 (
@@ -1644,8 +1748,12 @@ test_inline_run_sys_modules_snapshot_restore_preserving_modules
 (
         
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
     
 )
 -
@@ -1665,7 +1773,7 @@ monkeypatch
 .
 setattr
 (
-pytester
+pytester_mod
 "
 SysModulesSnapshot
 "
@@ -1674,7 +1782,7 @@ spy_factory
         
 test_mod
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1688,7 +1796,7 @@ pass
 "
 )
         
-testdir
+pytester
 .
 inline_run
 (
@@ -1753,21 +1861,25 @@ zopelicious
 def
 test_external_test_module_imports_not_cleaned_up
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1792,7 +1904,7 @@ imported
         
 test_mod
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1821,7 +1933,7 @@ data
         
 )
         
-testdir
+pytester
 .
 inline_run
 (
@@ -1841,14 +1953,16 @@ data
 def
 test_assert_outcomes_after_pytest_error
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1865,7 +1979,7 @@ True
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1908,53 +2022,42 @@ passed
 def
 test_cwd_snapshot
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
     
-tmpdir
-=
-testdir
-.
-tmpdir
-    
 foo
 =
-tmpdir
+pytester
 .
-ensure
+mkdir
 (
 "
 foo
 "
-dir
-=
-1
 )
     
 bar
 =
-tmpdir
+pytester
 .
-ensure
+mkdir
 (
 "
 bar
 "
-dir
-=
-1
 )
     
-foo
+os
 .
 chdir
 (
+foo
 )
     
 snapshot
@@ -1963,18 +2066,19 @@ CwdSnapshot
 (
 )
     
-bar
+os
 .
 chdir
 (
+bar
 )
     
 assert
-py
+Path
+(
+)
 .
-path
-.
-local
+absolute
 (
 )
 =
@@ -1988,11 +2092,11 @@ restore
 )
     
 assert
-py
+Path
+(
+)
 .
-path
-.
-local
+absolute
 (
 )
 =
@@ -2056,13 +2160,12 @@ self
 key
 ]
 =
+ModuleType
+(
 "
 something
 "
-#
-type
-:
-ignore
+)
         
 assert
 self
@@ -2092,6 +2195,8 @@ test_add_removed
 (
 self
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -2118,9 +2223,12 @@ modules
 self
 .
 key
+ModuleType
+(
 "
 something
 "
+)
 )
         
 assert
@@ -2186,6 +2294,8 @@ test_restore_reloaded
 (
 self
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -2212,9 +2322,12 @@ modules
 self
 .
 key
+ModuleType
+(
 "
 something
 "
+)
 )
         
 assert
@@ -2250,14 +2363,13 @@ self
 key
 ]
 =
+ModuleType
+(
 "
 something
 else
 "
-#
-type
-:
-ignore
+)
         
 snapshot
 .
@@ -2278,6 +2390,8 @@ test_preserve_modules
 (
 self
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -2329,14 +2443,10 @@ key
 )
 :
             
-monkeypatch
-.
-setitem
+mod
+=
+ModuleType
 (
-sys
-.
-modules
-k
 "
 something
 "
@@ -2345,6 +2455,17 @@ str
 (
 i
 )
+)
+            
+monkeypatch
+.
+setitem
+(
+sys
+.
+modules
+k
+mod
 )
         
 original
@@ -2411,14 +2532,13 @@ key
 ]
 ]
 =
+ModuleType
+(
 "
 something
 else0
 "
-#
-type
-:
-ignore
+)
         
 sys
 .
@@ -2438,14 +2558,13 @@ key
 ]
 ]
 =
+ModuleType
+(
 "
 something
 else1
 "
-#
-type
-:
-ignore
+)
         
 sys
 .
@@ -2457,14 +2576,13 @@ key
 ]
 ]
 =
+ModuleType
+(
 "
 something
 else2
 "
-#
-type
-:
-ignore
+)
         
 snapshot
 .
@@ -2485,6 +2603,8 @@ test_preserve_container
 (
 self
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -2524,15 +2644,14 @@ self
 key
 ]
 =
+ModuleType
+(
 "
 life
 of
 brian
 "
-#
-type
-:
-ignore
+)
         
 snapshot
 =
@@ -2648,6 +2767,8 @@ test_restore
 (
 self
 monkeypatch
+:
+MonkeyPatch
 path_type
 )
 -
@@ -2916,6 +3037,8 @@ test_preserve_container
 (
 self
 monkeypatch
+:
+MonkeyPatch
 path_type
 )
 -
@@ -2959,15 +3082,13 @@ original_other
 )
         
 new
-=
-[
-]
-#
-type
 :
 List
 [
 object
+]
+=
+[
 ]
         
 snapshot
@@ -3029,9 +3150,11 @@ other_path_type
 =
 original_other_data
 def
-test_testdir_subprocess
+test_pytester_subprocess
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3040,7 +3163,7 @@ None
     
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3055,7 +3178,7 @@ pass
 )
     
 assert
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3067,9 +3190,11 @@ ret
 =
 0
 def
-test_testdir_subprocess_via_runpytest_arg
+test_pytester_subprocess_via_runpytest_arg
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3078,7 +3203,7 @@ None
     
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3088,9 +3213,9 @@ makepyfile
 "
         
 def
-test_testdir_subprocess
+test_pytester_subprocess
 (
-testdir
+pytester
 )
 :
             
@@ -3099,7 +3224,7 @@ os
             
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3146,7 +3271,7 @@ getpid
 )
             
 assert
-testdir
+pytester
 .
 runpytest
 (
@@ -3166,9 +3291,9 @@ ret
     
 result
 =
-testdir
+pytester
 .
-runpytest_subprocess
+runpytest_inprocess
 (
         
 "
@@ -3200,7 +3325,9 @@ ret
 def
 test_unicode_args
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3209,7 +3336,7 @@ None
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3231,9 +3358,11 @@ ExitCode
 .
 NO_TESTS_COLLECTED
 def
-test_testdir_run_no_timeout
+test_pytester_run_no_timeout
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3242,7 +3371,7 @@ None
     
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3257,7 +3386,7 @@ pass
 )
     
 assert
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3271,9 +3400,11 @@ ExitCode
 .
 OK
 def
-test_testdir_run_with_timeout
+test_pytester_run_with_timeout
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3282,7 +3413,7 @@ None
     
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3310,7 +3441,7 @@ time
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -3349,9 +3480,11 @@ duration
 <
 timeout
 def
-test_testdir_run_timeout_expires
+test_pytester_run_timeout_expires
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3360,7 +3493,7 @@ None
     
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3395,13 +3528,13 @@ pytest
 .
 raises
 (
-testdir
+pytester
 .
 TimeoutExpired
 )
 :
         
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -4025,6 +4158,9 @@ def
 test_linematcher_consecutive
 (
 )
+-
+>
+None
 :
     
 lm
@@ -4245,6 +4381,8 @@ def
 test_linematcher_no_matching
 (
 function
+:
+str
 )
 -
 >
@@ -4442,19 +4580,16 @@ obtained
 =
 [
                 
+f
 "
 nomatch
 :
 '
 {
+good_pattern
 }
 '
 "
-.
-format
-(
-good_pattern
-)
                 
 "
 and
@@ -4488,19 +4623,16 @@ and
 '
 "
                 
+f
 "
 fnmatch
 :
 '
 {
+good_pattern
 }
 '
 "
-.
-format
-(
-good_pattern
-)
                 
 "
 with
@@ -4524,19 +4656,16 @@ obtained
 =
 [
                 
+f
 "
 nomatch
 :
 '
 {
+good_pattern
 }
 '
 "
-.
-format
-(
-good_pattern
-)
                 
 "
 and
@@ -4570,6 +4699,7 @@ and
 '
 "
                 
+f
 "
 re
 .
@@ -4577,14 +4707,10 @@ match
 :
 '
 {
+good_pattern
 }
 '
 "
-.
-format
-(
-good_pattern
-)
                 
 "
 with
@@ -4715,10 +4841,47 @@ with
 "
 ]
 def
-test_pytester_addopts_before_testdir
+test_linematcher_string_api
+(
+)
+-
+>
+None
+:
+    
+lm
+=
+LineMatcher
+(
+[
+"
+foo
+"
+"
+bar
+"
+]
+)
+    
+assert
+str
+(
+lm
+)
+=
+=
+"
+foo
+\
+nbar
+"
+def
+test_pytest_addopts_before_pytester
 (
 request
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -4755,14 +4918,16 @@ unused
 "
 )
     
-testdir
+pytester
+:
+Pytester
 =
 request
 .
 getfixturevalue
 (
 "
-testdir
+pytester
 "
 )
     
@@ -4776,9 +4941,9 @@ os
 .
 environ
     
-testdir
+pytester
 .
-finalize
+_finalize
 (
 )
     
@@ -4826,7 +4991,9 @@ orig
 def
 test_run_stdin
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -4838,13 +5005,13 @@ pytest
 .
 raises
 (
-testdir
+pytester
 .
 TimeoutExpired
 )
 :
         
-testdir
+pytester
 .
 run
 (
@@ -4901,7 +5068,7 @@ pytest
 .
 raises
 (
-testdir
+pytester
 .
 TimeoutExpired
 )
@@ -4909,7 +5076,7 @@ TimeoutExpired
         
 result
 =
-testdir
+pytester
 .
 run
 (
@@ -4966,7 +5133,7 @@ timeout
     
 result
 =
-testdir
+pytester
 .
 run
 (
@@ -5047,7 +5214,9 @@ ret
 def
 test_popen_stdin_pipe
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5056,7 +5225,7 @@ None
     
 proc
 =
-testdir
+pytester
 .
 popen
 (
@@ -5169,7 +5338,9 @@ returncode
 def
 test_popen_stdin_bytes
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5178,7 +5349,7 @@ None
     
 proc
 =
-testdir
+pytester
 .
 popen
 (
@@ -5282,7 +5453,9 @@ returncode
 def
 test_popen_default_stdin_stderr_and_stdin_None
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5345,7 +5518,7 @@ s
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5360,13 +5533,13 @@ sys
 def
 test_inner
 (
-testdir
+pytester
 )
 :
             
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5417,7 +5590,7 @@ stderr
             
 proc
 =
-testdir
+pytester
 .
 popen
 (
@@ -5497,7 +5670,7 @@ returncode
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5524,7 +5697,9 @@ ret
 def
 test_spawn_uses_tmphome
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5535,9 +5710,9 @@ tmphome
 =
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
     
 assert
@@ -5555,9 +5730,9 @@ HOME
 =
 tmphome
     
-testdir
+pytester
 .
-monkeypatch
+_monkeypatch
 .
 setenv
 (
@@ -5571,7 +5746,7 @@ CUSTOMENV
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5638,7 +5813,7 @@ tmphome
     
 child
 =
-testdir
+pytester
 .
 spawn_pytest
 (
@@ -5720,7 +5895,7 @@ code
     
 r
 =
-pytester
+pytester_mod
 .
 RunResult
 (
@@ -5735,22 +5910,30 @@ duration
 )
     
 assert
-(
-        
 repr
 (
 r
 )
 =
 =
+(
+        
+f
 "
 <
 RunResult
 ret
 =
+{
+str
+(
+pytest
+.
 ExitCode
 .
 TESTS_FAILED
+)
+}
 len
 (
 stdout
@@ -5791,7 +5974,7 @@ number
     
 r
 =
-pytester
+pytester_mod
 .
 RunResult
 (
@@ -5849,15 +6032,20 @@ duration
     
 )
 def
-test_testdir_outcomes_with_multiple_errors
+test_pytester_outcomes_with_multiple_errors
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5913,7 +6101,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5951,6 +6139,9 @@ def
 test_parse_summary_line_always_plural
 (
 )
+-
+>
+None
 :
     
 "
@@ -6020,7 +6211,7 @@ done
 ]
     
 assert
-pytester
+pytester_mod
 .
 RunResult
 .
@@ -6108,7 +6299,7 @@ done
 ]
     
 assert
-pytester
+pytester_mod
 .
 RunResult
 .
@@ -6148,9 +6339,9 @@ warnings
 def
 test_makefile_joins_absolute_path
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -6159,35 +6350,17 @@ None
     
 absfile
 =
-testdir
+pytester
 .
-tmpdir
+path
 /
 "
 absfile
 "
     
-if
-sys
-.
-platform
+p1
 =
-=
-"
-win32
-"
-:
-        
-with
-pytest
-.
-raises
-(
-OSError
-)
-:
-            
-testdir
+pytester
 .
 makepyfile
 (
@@ -6204,28 +6377,6 @@ absfile
 }
 )
     
-else
-:
-        
-p1
-=
-testdir
-.
-makepyfile
-(
-*
-*
-{
-str
-(
-absfile
-)
-:
-"
-"
-}
-)
-        
 assert
 str
 (
@@ -6233,15 +6384,267 @@ p1
 )
 =
 =
+str
 (
-testdir
+pytester
 .
-tmpdir
+path
 /
-absfile
-)
-+
 "
+absfile
 .
 py
 "
+)
+def
+test_pytester_makefile_dot_prefixes_extension_with_warning
+(
+    
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+    
+with
+pytest
+.
+raises
+(
+        
+ValueError
+        
+match
+=
+"
+pytester
+.
+makefile
+expects
+a
+file
+extension
+try
+.
+foo
+.
+bar
+instead
+of
+foo
+.
+bar
+"
+    
+)
+:
+        
+pytester
+.
+makefile
+(
+"
+foo
+.
+bar
+"
+"
+"
+)
+pytest
+.
+mark
+.
+filterwarnings
+(
+"
+default
+"
+)
+def
+test_pytester_assert_outcomes_warnings
+(
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+    
+pytester
+.
+makepyfile
+(
+        
+"
+"
+"
+        
+import
+warnings
+        
+def
+test_with_warning
+(
+)
+:
+            
+warnings
+.
+warn
+(
+UserWarning
+(
+"
+some
+custom
+warning
+"
+)
+)
+        
+"
+"
+"
+    
+)
+    
+result
+=
+pytester
+.
+runpytest
+(
+)
+    
+result
+.
+assert_outcomes
+(
+passed
+=
+1
+warnings
+=
+1
+)
+    
+#
+If
+warnings
+is
+not
+passed
+it
+is
+not
+checked
+at
+all
+.
+    
+result
+.
+assert_outcomes
+(
+passed
+=
+1
+)
+def
+test_pytester_outcomes_deselected
+(
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+    
+pytester
+.
+makepyfile
+(
+        
+"
+"
+"
+        
+def
+test_one
+(
+)
+:
+            
+pass
+        
+def
+test_two
+(
+)
+:
+            
+pass
+        
+"
+"
+"
+    
+)
+    
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+k
+"
+"
+test_one
+"
+)
+    
+result
+.
+assert_outcomes
+(
+passed
+=
+1
+deselected
+=
+1
+)
+    
+#
+If
+deselected
+is
+not
+passed
+it
+is
+not
+checked
+at
+all
+.
+    
+result
+.
+assert_outcomes
+(
+passed
+=
+1
+)

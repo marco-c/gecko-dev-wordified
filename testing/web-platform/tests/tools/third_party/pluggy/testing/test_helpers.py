@@ -1,19 +1,15 @@
 from
 pluggy
 .
-hooks
+_hooks
 import
 varnames
 from
 pluggy
 .
-manager
+_manager
 import
 _formatdef
-import
-sys
-import
-pytest
 def
 test_varnames
 (
@@ -35,9 +31,6 @@ noqa
     
 class
 A
-(
-object
-)
 :
         
 def
@@ -52,9 +45,6 @@ pass
     
 class
 B
-(
-object
-)
 :
         
 def
@@ -168,9 +158,6 @@ test_varnames_class
     
 class
 C
-(
-object
-)
 :
         
 def
@@ -185,18 +172,12 @@ pass
     
 class
 D
-(
-object
-)
 :
         
 pass
     
 class
 E
-(
-object
-)
 :
         
 def
@@ -211,9 +192,6 @@ pass
     
 class
 F
-(
-object
-)
 :
         
 pass
@@ -279,56 +257,12 @@ F
 (
 )
 )
-pytest
-.
-mark
-.
-skipif
-(
-    
-sys
-.
-version_info
-<
-(
-3
-)
-reason
-=
-"
-Keyword
-only
-arguments
-are
-Python
-3
-only
-"
-)
 def
 test_varnames_keyword_only
 (
 )
 :
     
-#
-SyntaxError
-on
-Python
-2
-so
-we
-exec
-    
-ns
-=
-{
-}
-    
-exec
-(
-        
-"
 def
 f1
 (
@@ -337,12 +271,9 @@ x
 y
 )
 :
-pass
-\
-n
-"
         
-"
+pass
+    
 def
 f2
 (
@@ -353,12 +284,9 @@ y
 3
 )
 :
-pass
-\
-n
-"
         
-"
+pass
+    
 def
 f3
 (
@@ -371,24 +299,13 @@ y
 3
 )
 :
-pass
-\
-n
-"
         
-ns
-    
-)
+pass
     
 assert
 varnames
 (
-ns
-[
-"
 f1
-"
-]
 )
 =
 =
@@ -405,12 +322,7 @@ x
 assert
 varnames
 (
-ns
-[
-"
 f2
-"
-]
 )
 =
 =
@@ -427,12 +339,7 @@ x
 assert
 varnames
 (
-ns
-[
-"
 f3
-"
-]
 )
 =
 =

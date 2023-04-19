@@ -1,9 +1,33 @@
 import
+argparse
+import
 os
 import
 textwrap
+from
+pathlib
 import
-py
+Path
+from
+typing
+import
+cast
+from
+typing
+import
+Dict
+from
+typing
+import
+Generator
+from
+typing
+import
+List
+from
+typing
+import
+Optional
 import
 pytest
 from
@@ -21,20 +45,35 @@ PytestPluginManager
 from
 _pytest
 .
-pathlib
+monkeypatch
 import
-Path
+MonkeyPatch
 from
 _pytest
 .
 pathlib
 import
 symlink_or_skip
+from
+_pytest
+.
+pytester
+import
+Pytester
+from
+_pytest
+.
+tmpdir
+import
+TempPathFactory
 def
 ConftestWithSetinitial
 (
 path
 )
+-
+>
+PytestPluginManager
 :
     
 conftest
@@ -56,12 +95,30 @@ conftest
 def
 conftest_setinitial
 (
+    
 conftest
+:
+PytestPluginManager
 args
 confcutdir
+:
+Optional
+[
+"
+os
+.
+PathLike
+[
+str
+]
+"
+]
 =
 None
 )
+-
+>
+None
 :
     
 class
@@ -73,6 +130,9 @@ __init__
 (
 self
 )
+-
+>
+None
 :
             
 self
@@ -85,10 +145,19 @@ self
 .
 confcutdir
 =
-str
+os
+.
+fspath
 (
 confcutdir
 )
+if
+confcutdir
+is
+not
+None
+else
+None
             
 self
 .
@@ -110,12 +179,31 @@ importmode
 prepend
 "
     
+namespace
+=
+cast
+(
+argparse
+.
+Namespace
+Namespace
+(
+)
+)
+    
 conftest
 .
 _set_initial_conftests
 (
-Namespace
+namespace
+rootpath
+=
+Path
 (
+args
+[
+0
+]
 )
 )
 pytest
@@ -156,15 +244,27 @@ inpackage
 def
 basedir
 (
+        
 self
 request
-tmpdir_factory
+tmp_path_factory
+:
+TempPathFactory
+    
 )
+-
+>
+Generator
+[
+Path
+None
+None
+]
 :
         
-tmpdir
+tmp_path
 =
-tmpdir_factory
+tmp_path_factory
 .
 mktemp
 (
@@ -176,9 +276,27 @@ numbered
 True
 )
         
-tmpdir
+tmp_path
 .
-ensure
+joinpath
+(
+"
+adir
+/
+b
+"
+)
+.
+mkdir
+(
+parents
+=
+True
+)
+        
+tmp_path
+.
+joinpath
 (
 "
 adir
@@ -189,7 +307,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 a
@@ -202,9 +320,9 @@ Directory
 "
 )
         
-tmpdir
+tmp_path
 .
-ensure
+joinpath
 (
 "
 adir
@@ -217,7 +335,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 b
@@ -243,9 +361,9 @@ inpackage
 "
 :
             
-tmpdir
+tmp_path
 .
-ensure
+joinpath
 (
 "
 adir
@@ -255,10 +373,14 @@ __init__
 py
 "
 )
-            
-tmpdir
 .
-ensure
+touch
+(
+)
+            
+tmp_path
+.
+joinpath
 (
 "
 adir
@@ -270,16 +392,25 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
         
 yield
-tmpdir
+tmp_path
     
 def
 test_basic_init
 (
 self
 basedir
+:
+Path
 )
+-
+>
+None
 :
         
 conftest
@@ -291,15 +422,14 @@ PytestPluginManager
 p
 =
 basedir
-.
-join
-(
+/
 "
 adir
 "
-)
         
 assert
+(
+            
 conftest
 .
 _rget_with_confmod
@@ -313,20 +443,35 @@ importmode
 "
 prepend
 "
+rootpath
+=
+basedir
 )
 [
+                
 1
+            
 ]
+            
 =
 =
 1
+        
+)
     
 def
 test_immediate_initialiation_and_incremental_are_the_same
 (
+        
 self
 basedir
+:
+Path
+    
 )
+-
+>
+None
 :
         
 conftest
@@ -348,12 +493,20 @@ conftest
 .
 _getconftestmodules
 (
+            
 basedir
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+Path
+(
+basedir
+)
+        
 )
         
 snap1
@@ -375,19 +528,21 @@ conftest
 .
 _getconftestmodules
 (
+            
 basedir
-.
-join
-(
+/
 "
 adir
 "
-)
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+basedir
+        
 )
         
 assert
@@ -407,19 +562,21 @@ conftest
 .
 _getconftestmodules
 (
+            
 basedir
-.
-join
-(
+/
 "
 b
 "
-)
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+basedir
+        
 )
         
 assert
@@ -440,7 +597,12 @@ test_value_access_not_existing
 (
 self
 basedir
+:
+Path
 )
+-
+>
+None
 :
         
 conftest
@@ -463,6 +625,7 @@ conftest
 .
 _rget_with_confmod
 (
+                
 "
 a
 "
@@ -472,6 +635,13 @@ importmode
 "
 prepend
 "
+rootpath
+=
+Path
+(
+basedir
+)
+            
 )
     
 def
@@ -479,7 +649,12 @@ test_value_access_by_path
 (
 self
 basedir
+:
+Path
 )
+-
+>
+None
 :
         
 conftest
@@ -492,35 +667,10 @@ basedir
 adir
 =
 basedir
-.
-join
-(
+/
 "
 adir
 "
-)
-        
-assert
-conftest
-.
-_rget_with_confmod
-(
-"
-a
-"
-adir
-importmode
-=
-"
-prepend
-"
-)
-[
-1
-]
-=
-=
-1
         
 assert
 (
@@ -529,22 +679,56 @@ conftest
 .
 _rget_with_confmod
 (
+                
 "
 a
 "
 adir
-.
-join
-(
-"
-b
-"
-)
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+basedir
+            
+)
+[
+1
+]
+            
+=
+=
+1
+        
+)
+        
+assert
+(
+            
+conftest
+.
+_rget_with_confmod
+(
+                
+"
+a
+"
+adir
+/
+"
+b
+"
+importmode
+=
+"
+prepend
+"
+rootpath
+=
+basedir
+            
 )
 [
 1
@@ -563,33 +747,37 @@ test_value_access_with_confmod
 (
 self
 basedir
+:
+Path
 )
+-
+>
+None
 :
         
 startdir
 =
 basedir
-.
-join
-(
+/
 "
 adir
 "
+/
 "
 b
 "
-)
         
 startdir
 .
-ensure
+joinpath
 (
 "
 xx
 "
-dir
-=
-True
+)
+.
+mkdir
+(
 )
         
 conftest
@@ -606,6 +794,7 @@ conftest
 .
 _rget_with_confmod
 (
+            
 "
 a
 "
@@ -615,6 +804,13 @@ importmode
 "
 prepend
 "
+rootpath
+=
+Path
+(
+basedir
+)
+        
 )
         
 assert
@@ -627,11 +823,7 @@ value
         
 path
 =
-py
-.
-path
-.
-local
+Path
 (
 mod
 .
@@ -641,45 +833,66 @@ __file__
 assert
 path
 .
-dirpath
-(
-)
+parent
 =
 =
 basedir
-.
-join
-(
+/
 "
 adir
 "
+/
 "
 b
 "
-)
         
 assert
 path
 .
-purebasename
-.
-startswith
-(
+stem
+=
+=
 "
 conftest
 "
-)
 def
 test_conftest_in_nonpkg_with_init
 (
-tmpdir
+tmp_path
+:
+Path
 _sys_snapshot
 )
+-
+>
+None
 :
     
-tmpdir
+tmp_path
 .
-ensure
+joinpath
+(
+"
+adir
+-
+1
+.
+0
+/
+b
+"
+)
+.
+mkdir
+(
+parents
+=
+True
+)
+    
+tmp_path
+.
+joinpath
 (
 "
 adir
@@ -694,7 +907,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 a
@@ -707,9 +920,9 @@ Directory
 "
 )
     
-tmpdir
+tmp_path
 .
-ensure
+joinpath
 (
 "
 adir
@@ -726,7 +939,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 b
@@ -741,9 +954,9 @@ a
 "
 )
     
-tmpdir
+tmp_path
 .
-ensure
+joinpath
 (
 "
 adir
@@ -759,10 +972,14 @@ __init__
 py
 "
 )
-    
-tmpdir
 .
-ensure
+touch
+(
+)
+    
+tmp_path
+.
+joinpath
 (
 "
 adir
@@ -776,12 +993,16 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
     
 ConftestWithSetinitial
 (
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 adir
@@ -798,13 +1019,18 @@ b
 def
 test_doubledash_considered
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 conf
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -817,13 +1043,17 @@ option
     
 conf
 .
-ensure
+joinpath
 (
 "
 conftest
 .
 py
 "
+)
+.
+touch
+(
 )
     
 conftest
@@ -838,10 +1068,10 @@ conftest
 [
 conf
 .
-basename
+name
 conf
 .
-basename
+name
 ]
 )
     
@@ -851,12 +1081,19 @@ conftest
 .
 _getconftestmodules
 (
+        
 conf
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+    
 )
     
 assert
@@ -870,8 +1107,13 @@ values
 def
 test_issue151_load_all_conftests
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 names
@@ -894,7 +1136,7 @@ names
         
 p
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -903,13 +1145,17 @@ name
         
 p
 .
-ensure
+joinpath
 (
 "
 conftest
 .
 py
 "
+)
+.
+touch
+(
 )
     
 conftest
@@ -951,11 +1197,16 @@ names
 def
 test_conftest_global_import
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -968,7 +1219,7 @@ x
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -977,8 +1228,12 @@ makepyfile
 "
 "
         
+from
+pathlib
 import
-py
+Path
+        
+import
 pytest
         
 from
@@ -1000,11 +1255,7 @@ conf
 .
 _importconftest
 (
-py
-.
-path
-.
-local
+Path
 (
 "
 conftest
@@ -1017,6 +1268,13 @@ importmode
 "
 prepend
 "
+rootpath
+=
+Path
+.
+cwd
+(
+)
 )
         
 assert
@@ -1039,31 +1297,34 @@ conftest
 mod
 )
         
-subconf
+sub
 =
-py
-.
-path
-.
-local
-(
-)
-.
-ensure
+Path
 (
 "
 sub
 "
+)
+        
+sub
+.
+mkdir
+(
+)
+        
+subconf
+=
+sub
+/
 "
 conftest
 .
 py
 "
-)
         
 subconf
 .
-write
+write_text
 (
 "
 y
@@ -1084,6 +1345,13 @@ importmode
 "
 prepend
 "
+rootpath
+=
+Path
+.
+cwd
+(
+)
 )
         
 assert
@@ -1120,7 +1388,7 @@ mod
     
 res
 =
-testdir
+pytester
 .
 runpython
 (
@@ -1137,13 +1405,18 @@ ret
 def
 test_conftestcutdir
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 conf
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -1153,7 +1426,7 @@ makeconftest
     
 p
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1172,9 +1445,9 @@ conftest_setinitial
 (
 conftest
 [
-testdir
+pytester
 .
-tmpdir
+path
 ]
 confcutdir
 =
@@ -1187,12 +1460,19 @@ conftest
 .
 _getconftestmodules
 (
+        
 p
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+    
 )
     
 assert
@@ -1210,16 +1490,21 @@ conftest
 .
 _getconftestmodules
 (
+        
 conf
 .
-dirpath
-(
-)
+parent
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+    
 )
     
 assert
@@ -1232,7 +1517,10 @@ values
 0
     
 assert
+Path
+(
 conf
+)
 not
 in
 conftest
@@ -1259,6 +1547,11 @@ importmode
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
 )
     
 values
@@ -1267,16 +1560,21 @@ conftest
 .
 _getconftestmodules
 (
+        
 conf
 .
-dirpath
-(
-)
+parent
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+    
 )
     
 assert
@@ -1310,12 +1608,19 @@ conftest
 .
 _getconftestmodules
 (
+        
 p
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+    
 )
     
 assert
@@ -1345,13 +1650,18 @@ conf
 def
 test_conftestcutdir_inplace_considered
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 conf
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -1371,17 +1681,13 @@ conftest
 [
 conf
 .
-dirpath
-(
-)
+parent
 ]
 confcutdir
 =
 conf
 .
-dirpath
-(
-)
+parent
 )
     
 values
@@ -1390,16 +1696,21 @@ conftest
 .
 _getconftestmodules
 (
+        
 conf
 .
-dirpath
-(
-)
+parent
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+    
 )
     
 assert
@@ -1450,14 +1761,21 @@ split
 def
 test_setinitial_conftest_subdirs
 (
-testdir
+pytester
+:
+Pytester
 name
+:
+str
 )
+-
+>
+None
 :
     
 sub
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1468,13 +1786,19 @@ subconftest
 =
 sub
 .
-ensure
+joinpath
 (
 "
 conftest
 .
 py
 "
+)
+    
+subconftest
+.
+touch
+(
 )
     
 conftest
@@ -1489,26 +1813,18 @@ conftest
 [
 sub
 .
-dirpath
-(
-)
+parent
 ]
 confcutdir
 =
-testdir
+pytester
 .
-tmpdir
+path
 )
     
 key
 =
-Path
-(
-str
-(
 subconftest
-)
-)
 .
 resolve
 (
@@ -1571,11 +1887,16 @@ _conftestpath2mod
 def
 test_conftest_confcutdir
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -1587,7 +1908,7 @@ assert
     
 x
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1598,7 +1919,7 @@ x
     
 x
 .
-join
+joinpath
 (
 "
 conftest
@@ -1607,7 +1928,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -1653,7 +1974,7 @@ store_true
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1711,8 +2032,13 @@ initial
 def
 test_conftest_symlink
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -1819,9 +2145,7 @@ work
     
 real
 =
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -1834,28 +2158,32 @@ realtests
 =
 real
 .
-mkdir
+joinpath
 (
 "
 app
+/
+tests
 "
 )
+    
+realtests
 .
 mkdir
 (
-"
-tests
-"
+parents
+=
+True
 )
     
 symlink_or_skip
 (
 realtests
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 symlinktests
@@ -1866,11 +2194,11 @@ symlinktests
 symlink_or_skip
 (
 real
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 symlink
@@ -1878,7 +2206,7 @@ symlink
 )
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1979,7 +2307,7 @@ structure
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2041,7 +2369,7 @@ registered
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2066,8 +2394,13 @@ OK
 def
 test_conftest_symlink_files
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2097,9 +2430,7 @@ files
     
 real
 =
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -2193,7 +2524,7 @@ fixture_used
     
 }
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2246,9 +2577,7 @@ directories
     
 build
 =
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -2259,11 +2588,15 @@ build
     
 build
 .
-mkdir
+joinpath
 (
 "
 app
 "
+)
+.
+mkdir
+(
 )
     
 for
@@ -2276,27 +2609,28 @@ symlink_or_skip
 (
 real
 .
-join
+joinpath
 (
 f
 )
 build
 .
-join
+joinpath
 (
 f
 )
 )
     
-build
+os
 .
 chdir
 (
+build
 )
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2385,8 +2719,13 @@ systems
 def
 test_conftest_badcase
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2411,22 +2750,24 @@ wrong
 "
 "
     
-testdir
+pytester
 .
-tmpdir
+path
 .
-mkdir
+joinpath
 (
 "
 JenkinsRoot
+/
+test
 "
 )
 .
 mkdir
 (
-"
-test
-"
+parents
+=
+True
 )
     
 source
@@ -2462,7 +2803,7 @@ py
 "
 }
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2491,11 +2832,15 @@ items
 }
 )
     
-testdir
+os
 .
-tmpdir
+chdir
+(
+pytester
 .
-join
+path
+.
+joinpath
 (
 "
 jenkinsroot
@@ -2503,14 +2848,11 @@ jenkinsroot
 test
 "
 )
-.
-chdir
-(
 )
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2528,8 +2870,13 @@ NO_TESTS_COLLECTED
 def
 test_conftest_uppercase
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -2586,7 +2933,7 @@ py
 "
 }
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -2595,17 +2942,18 @@ makepyfile
 source
 )
     
-testdir
-.
-tmpdir
+os
 .
 chdir
 (
+pytester
+.
+path
 )
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2623,11 +2971,16 @@ NO_TESTS_COLLECTED
 def
 test_no_conftest
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -2639,7 +2992,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2662,7 +3015,7 @@ NO_TESTS_COLLECTED
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2680,13 +3033,18 @@ USAGE_ERROR
 def
 test_conftest_existing_junitxml
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 x
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -2697,7 +3055,7 @@ tests
     
 x
 .
-join
+joinpath
 (
 "
 conftest
@@ -2706,7 +3064,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -2750,7 +3108,7 @@ store_true
     
 )
     
-testdir
+pytester
 .
 makefile
 (
@@ -2773,7 +3131,7 @@ xml
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2812,14 +3170,21 @@ xyz
 def
 test_conftest_import_order
 (
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 ct1
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -2829,7 +3194,7 @@ makeconftest
     
 sub
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -2841,19 +3206,16 @@ sub
 ct2
 =
 sub
-.
-join
-(
+/
 "
 conftest
 .
 py
 "
-)
     
 ct2
 .
-write
+write_text
 (
 "
 "
@@ -2864,6 +3226,7 @@ impct
 (
 p
 importmode
+root
 )
 :
         
@@ -2880,9 +3243,9 @@ conftest
 .
 _confcutdir
 =
-testdir
+pytester
 .
-tmpdir
+path
     
 monkeypatch
 .
@@ -2895,7 +3258,16 @@ _importconftest
 impct
 )
     
-assert
+mods
+=
+cast
+(
+        
+List
+[
+Path
+]
+        
 conftest
 .
 _getconftestmodules
@@ -2906,23 +3278,40 @@ importmode
 "
 prepend
 "
-)
+rootpath
 =
+pytester
+.
+path
+)
+    
+)
+    
+expected
 =
 [
 ct1
 ct2
 ]
+    
+assert
+mods
+=
+=
+expected
 def
 test_fixture_dependency
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-ct1
-=
-testdir
+pytester
 .
 makeconftest
 (
@@ -2930,11 +3319,11 @@ makeconftest
 "
 )
     
-ct1
-=
-testdir
+pytester
 .
-makepyfile
+path
+.
+joinpath
 (
 "
 __init__
@@ -2942,18 +3331,14 @@ __init__
 py
 "
 )
-    
-ct1
 .
-write
+touch
 (
-"
-"
 )
     
 sub
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -2964,7 +3349,7 @@ sub
     
 sub
 .
-join
+joinpath
 (
 "
 __init__
@@ -2973,15 +3358,13 @@ py
 "
 )
 .
-write
+touch
 (
-"
-"
 )
     
 sub
 .
-join
+joinpath
 (
 "
 conftest
@@ -2990,7 +3373,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -3074,7 +3457,7 @@ subsub
 =
 sub
 .
-mkdir
+joinpath
 (
 "
 subsub
@@ -3083,7 +3466,13 @@ subsub
     
 subsub
 .
-join
+mkdir
+(
+)
+    
+subsub
+.
+joinpath
 (
 "
 __init__
@@ -3092,15 +3481,13 @@ py
 "
 )
 .
-write
+touch
 (
-"
-"
 )
     
 subsub
 .
-join
+joinpath
 (
 "
 test_bar
@@ -3109,7 +3496,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -3167,7 +3554,7 @@ bar
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3194,13 +3581,18 @@ passed
 def
 test_conftest_found_with_double_dash
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 sub
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -3211,7 +3603,7 @@ sub
     
 sub
 .
-join
+joinpath
 (
 "
 conftest
@@ -3220,7 +3612,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -3270,7 +3662,7 @@ p
 =
 sub
 .
-join
+joinpath
 (
 "
 test_hello
@@ -3281,7 +3673,7 @@ py
     
 p
 .
-write
+write_text
 (
 "
 def
@@ -3295,7 +3687,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3347,8 +3739,17 @@ def
 _setup_tree
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+Dict
+[
+str
+Path
+]
 :
 #
 for
@@ -3388,7 +3789,7 @@ html
         
 runner
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -3399,7 +3800,7 @@ empty
         
 package
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -3410,7 +3811,7 @@ package
         
 package
 .
-join
+joinpath
 (
 "
 conftest
@@ -3419,7 +3820,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -3462,7 +3863,7 @@ package
         
 package
 .
-join
+joinpath
 (
 "
 test_pkgroot
@@ -3471,7 +3872,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -3513,7 +3914,7 @@ swc
 =
 package
 .
-mkdir
+joinpath
 (
 "
 swc
@@ -3522,7 +3923,13 @@ swc
         
 swc
 .
-join
+mkdir
+(
+)
+        
+swc
+.
+joinpath
 (
 "
 __init__
@@ -3531,13 +3938,13 @@ py
 "
 )
 .
-ensure
+touch
 (
 )
         
 swc
 .
-join
+joinpath
 (
 "
 conftest
@@ -3546,7 +3953,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -3589,7 +3996,7 @@ swc
         
 swc
 .
-join
+joinpath
 (
 "
 test_with_conftest
@@ -3598,7 +4005,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -3640,7 +4047,7 @@ snc
 =
 package
 .
-mkdir
+joinpath
 (
 "
 snc
@@ -3649,7 +4056,13 @@ snc
         
 snc
 .
-join
+mkdir
+(
+)
+        
+snc
+.
+joinpath
 (
 "
 __init__
@@ -3658,13 +4071,13 @@ py
 "
 )
 .
-ensure
+touch
 (
 )
         
 snc
 .
-join
+joinpath
 (
 "
 test_no_conftest
@@ -3673,7 +4086,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -3738,22 +4151,12 @@ structure
 "
 )
         
-tmppath
-=
-Path
-(
-str
-(
-testdir
-.
-tmpdir
-)
-)
-        
 for
 x
 in
-tmppath
+pytester
+.
+path
 .
 rglob
 (
@@ -3773,7 +4176,9 @@ x
 .
 relative_to
 (
-tmppath
+pytester
+.
+path
 )
 )
 )
@@ -4092,12 +4497,23 @@ test_parsefactories_relative_node_ids
 (
         
 self
-testdir
+pytester
+:
+Pytester
 chdir
+:
+str
 testarg
+:
+str
 expect_ntests_passed
+:
+int
     
 )
+-
+>
+None
 :
         
 "
@@ -4115,7 +4531,7 @@ self
 .
 _setup_tree
 (
-testdir
+pytester
 )
         
 print
@@ -4136,11 +4552,11 @@ dirs
 chdir
 ]
 .
-relto
+relative_to
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
 )
 )
@@ -4154,9 +4570,7 @@ pytestarg
 s
 "
 %
-(
 testarg
-)
 )
         
 print
@@ -4169,25 +4583,22 @@ pass
 s
 "
 %
-(
 expect_ntests_passed
 )
-)
         
-with
+os
+.
+chdir
+(
 dirs
 [
 chdir
 ]
-.
-as_cwd
-(
 )
-:
-            
+        
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4202,7 +4613,7 @@ q
 traceconfig
 "
 )
-            
+        
 reprec
 .
 assertoutcome
@@ -4248,11 +4659,23 @@ None
 def
 test_search_conftest_up_to_inifile
 (
-testdir
+    
+pytester
+:
+Pytester
 confcutdir
+:
+str
 passed
+:
+int
 error
+:
+int
 )
+-
+>
+None
 :
     
 "
@@ -4288,31 +4711,30 @@ given
     
 root
 =
-testdir
+pytester
 .
-tmpdir
+path
     
 src
 =
 root
 .
-join
+joinpath
 (
 "
 src
 "
-)
-.
-ensure
-(
-dir
-=
-1
 )
     
 src
 .
-join
+mkdir
+(
+)
+    
+src
+.
+joinpath
 (
 "
 pytest
@@ -4321,7 +4743,7 @@ ini
 "
 )
 .
-write
+write_text
 (
 "
 [
@@ -4332,7 +4754,7 @@ pytest
     
 src
 .
-join
+joinpath
 (
 "
 conftest
@@ -4341,7 +4763,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -4378,7 +4800,7 @@ pass
     
 src
 .
-join
+joinpath
 (
 "
 test_foo
@@ -4387,7 +4809,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -4428,7 +4850,7 @@ pass
     
 root
 .
-join
+joinpath
 (
 "
 conftest
@@ -4437,7 +4859,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -4499,7 +4921,7 @@ s
 %
 root
 .
-join
+joinpath
 (
 confcutdir
 )
@@ -4507,7 +4929,7 @@ confcutdir
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4565,11 +4987,16 @@ match
 def
 test_issue1073_conftest_special_objects
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -4616,7 +5043,7 @@ DontTouchMe
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4642,7 +5069,7 @@ pass
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4658,11 +5085,16 @@ ret
 def
 test_conftest_exception_handling
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -4683,7 +5115,7 @@ ValueError
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4709,7 +5141,7 @@ pass
     
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4747,8 +5179,13 @@ errlines
 def
 test_hook_proxy
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -4784,7 +5221,7 @@ altogether
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4855,7 +5292,7 @@ py
 def
 pytest_ignore_collect
 (
-path
+collection_path
 config
 )
 :
@@ -4915,7 +5352,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4962,11 +5399,16 @@ passed
 def
 test_required_option_help
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -4978,7 +5420,7 @@ assert
     
 x
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -4989,7 +5431,7 @@ x
     
 x
 .
-join
+joinpath
 (
 "
 conftest
@@ -4998,7 +5440,7 @@ py
 "
 )
 .
-write
+write_text
 (
         
 textwrap
@@ -5047,7 +5489,7 @@ True
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

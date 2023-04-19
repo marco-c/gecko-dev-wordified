@@ -1,3 +1,11 @@
+#
+SPDX
+-
+License
+-
+Identifier
+:
+MIT
 "
 "
 "

@@ -232,7 +232,6 @@ include
 PYTHON_ARGCOMPLETE_OK
 so
 the
-the
 python
 -
 argcomplete
@@ -774,17 +773,15 @@ exit
 )
     
 filescompleter
-=
-FastFilesCompleter
-(
-)
-#
-type
 :
 Optional
 [
 FastFilesCompleter
 ]
+=
+FastFilesCompleter
+(
+)
     
 def
 try_argcomplete

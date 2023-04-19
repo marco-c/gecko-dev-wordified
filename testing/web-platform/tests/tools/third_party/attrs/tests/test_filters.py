@@ -1,3 +1,11 @@
+#
+SPDX
+-
+License
+-
+Identifier
+:
+MIT
 "
 "
 "
@@ -161,19 +169,21 @@ mark
 .
 parametrize
 (
+        
 "
 incl
 value
 "
-[
         
+[
+            
 (
 (
 int
 )
 42
 )
-        
+            
 (
 (
 str
@@ -182,7 +192,7 @@ str
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -195,7 +205,7 @@ a
 )
 42
 )
-        
+            
 (
 (
 str
@@ -210,8 +220,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def
@@ -235,7 +246,7 @@ class
 or
 attribute
 is
-whitelisted
+included
 .
         
 "
@@ -270,19 +281,21 @@ mark
 .
 parametrize
 (
+        
 "
 incl
 value
 "
+        
 [
-        
+            
 (
 (
 str
 )
 42
 )
-        
+            
 (
 (
 int
@@ -291,7 +304,7 @@ int
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -304,7 +317,7 @@ b
 )
 42
 )
-        
+            
 (
 (
 int
@@ -319,8 +332,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def
@@ -341,7 +355,7 @@ False
 on
 non
 -
-whitelisted
+included
 classes
 and
 attributes
@@ -398,19 +412,21 @@ mark
 .
 parametrize
 (
+        
 "
 excl
 value
 "
+        
 [
-        
+            
 (
 (
 str
 )
 42
 )
-        
+            
 (
 (
 int
@@ -419,7 +435,7 @@ int
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -432,7 +448,7 @@ b
 )
 42
 )
-        
+            
 (
 (
 int
@@ -447,8 +463,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def
@@ -472,7 +489,7 @@ or
 attribute
 is
 not
-blacklisted
+excluded
 .
         
 "
@@ -507,19 +524,21 @@ mark
 .
 parametrize
 (
+        
 "
 excl
 value
 "
-[
         
+[
+            
 (
 (
 int
 )
 42
 )
-        
+            
 (
 (
 str
@@ -528,7 +547,7 @@ str
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -541,7 +560,7 @@ a
 )
 42
 )
-        
+            
 (
 (
 str
@@ -556,8 +575,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def
@@ -578,7 +598,7 @@ True
 on
 non
 -
-blacklisted
+excluded
 classes
 and
 attributes

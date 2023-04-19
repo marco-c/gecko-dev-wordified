@@ -1,6 +1,10 @@
 import
 os
 from
+pathlib
+import
+Path
+from
 typing
 import
 Dict
@@ -27,6 +31,10 @@ Tuple
 from
 typing
 import
+TYPE_CHECKING
+from
+typing
+import
 Union
 import
 iniconfig
@@ -35,12 +43,6 @@ from
 exceptions
 import
 UsageError
-from
-_pytest
-.
-compat
-import
-TYPE_CHECKING
 from
 _pytest
 .
@@ -59,12 +61,6 @@ _pytest
 pathlib
 import
 commonpath
-from
-_pytest
-.
-pathlib
-import
-Path
 if
 TYPE_CHECKING
 :
@@ -132,7 +128,10 @@ iniconfig
 .
 IniConfig
 (
+str
+(
 path
+)
 )
     
 except
@@ -489,19 +488,53 @@ toml
 :
         
 import
-toml
+tomli
         
+toml_text
+=
+filepath
+.
+read_text
+(
+encoding
+=
+"
+utf
+-
+8
+"
+)
+        
+try
+:
+            
 config
 =
-toml
+tomli
 .
-load
+loads
+(
+toml_text
+)
+        
+except
+tomli
+.
+TOMLDecodeError
+as
+exc
+:
+            
+raise
+UsageError
 (
 str
 (
-filepath
+exc
 )
 )
+from
+exc
         
 result
 =
@@ -654,7 +687,6 @@ Path
 >
 Tuple
 [
-    
 Optional
 [
 Path
@@ -866,15 +898,13 @@ Path
 :
     
 common_ancestor
-=
-None
-#
-type
 :
 Optional
 [
 Path
 ]
+=
+None
     
 for
 path
@@ -1307,15 +1337,13 @@ inifile
 )
         
 inipath
-=
-inipath_
-#
-type
 :
 Optional
 [
 Path
 ]
+=
+inipath_
         
 inicfg
 =
@@ -1335,10 +1363,9 @@ None
             
 rootdir
 =
-get_common_ancestor
-(
-dirs
-)
+inipath_
+.
+parent
     
 else
 :

@@ -7,6 +7,10 @@ sys
 import
 types
 from
+pathlib
+import
+Path
+from
 typing
 import
 Dict
@@ -18,12 +22,10 @@ from
 typing
 import
 Tuple
+from
+typing
 import
-py
-import
-_pytest
-.
-_code
+Type
 import
 pytest
 from
@@ -41,9 +43,17 @@ runner
 from
 _pytest
 .
-compat
+_code
 import
-TYPE_CHECKING
+ExceptionInfo
+from
+_pytest
+.
+_code
+.
+code
+import
+ExceptionChainRepr
 from
 _pytest
 .
@@ -53,17 +63,21 @@ ExitCode
 from
 _pytest
 .
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
 outcomes
 import
 OutcomeException
-if
-TYPE_CHECKING
-:
-    
 from
-typing
+_pytest
+.
+pytester
 import
-Type
+Pytester
 class
 TestSetupState
 :
@@ -72,24 +86,18 @@ def
 test_setup
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
         
-ss
-=
-runner
-.
-SetupState
-(
-)
-        
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -103,6 +111,14 @@ pass
 "
 )
         
+ss
+=
+item
+.
+session
+.
+_setupstate
+        
 values
 =
 [
@@ -111,7 +127,7 @@ values
         
 ss
 .
-prepare
+setup
 (
 item
 )
@@ -123,8 +139,6 @@ addfinalizer
 values
 .
 pop
-colitem
-=
 item
 )
         
@@ -133,8 +147,9 @@ values
         
 ss
 .
-_pop_and_teardown
+teardown_exact
 (
+None
 )
         
 assert
@@ -145,7 +160,9 @@ def
 test_teardown_exact_stack_empty
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -154,7 +171,7 @@ None
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -170,17 +187,23 @@ pass
         
 ss
 =
-runner
+item
 .
-SetupState
+session
+.
+_setupstate
+        
+ss
+.
+setup
 (
+item
 )
         
 ss
 .
 teardown_exact
 (
-item
 None
 )
         
@@ -188,7 +211,6 @@ ss
 .
 teardown_exact
 (
-item
 None
 )
         
@@ -196,7 +218,6 @@ ss
 .
 teardown_exact
 (
-item
 None
 )
     
@@ -204,7 +225,9 @@ def
 test_setup_fails_and_failure_is_cached
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -213,7 +236,7 @@ None
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -250,47 +273,51 @@ pass
         
 ss
 =
-runner
+item
 .
-SetupState
-(
-)
+session
+.
+_setupstate
         
+with
 pytest
 .
 raises
 (
 ValueError
-lambda
+)
 :
+            
 ss
 .
-prepare
+setup
 (
 item
 )
-)
         
+with
 pytest
 .
 raises
 (
 ValueError
-lambda
+)
 :
+            
 ss
 .
-prepare
+setup
 (
 item
-)
 )
     
 def
 test_teardown_multiple_one_fails
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -348,7 +375,7 @@ fin3
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -364,10 +391,17 @@ pass
         
 ss
 =
-runner
+item
 .
-SetupState
+session
+.
+_setupstate
+        
+ss
+.
+setup
 (
+item
 )
         
 ss
@@ -407,9 +441,9 @@ err
             
 ss
 .
-_callfinalizers
+teardown_exact
 (
-item
+None
 )
         
 assert
@@ -443,7 +477,9 @@ def
 test_teardown_multiple_fail
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -504,7 +540,7 @@ oops2
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -520,10 +556,17 @@ pass
         
 ss
 =
-runner
+item
 .
-SetupState
+session
+.
+_setupstate
+        
+ss
+.
+setup
 (
+item
 )
         
 ss
@@ -555,9 +598,9 @@ err
             
 ss
 .
-_callfinalizers
+teardown_exact
 (
-item
+None
 )
         
 assert
@@ -578,7 +621,9 @@ def
 test_teardown_multiple_scopes_one_fails
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -621,7 +666,7 @@ fin_module
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -635,19 +680,8 @@ pass
 "
 )
         
-ss
+mod
 =
-runner
-.
-SetupState
-(
-)
-        
-ss
-.
-addfinalizer
-(
-fin_module
 item
 .
 listchain
@@ -657,6 +691,28 @@ listchain
 -
 2
 ]
+        
+ss
+=
+item
+.
+session
+.
+_setupstate
+        
+ss
+.
+setup
+(
+item
+)
+        
+ss
+.
+addfinalizer
+(
+fin_module
+mod
 )
         
 ss
@@ -664,13 +720,6 @@ ss
 addfinalizer
 (
 fin_func
-item
-)
-        
-ss
-.
-prepare
-(
 item
 )
         
@@ -692,12 +741,18 @@ ss
 .
 teardown_exact
 (
-item
 None
 )
         
 assert
 module_teardown
+=
+=
+[
+"
+fin_module
+"
+]
 class
 BaseFunctionalTests
 :
@@ -706,7 +761,9 @@ def
 test_passfunction
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -715,7 +772,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -776,7 +833,9 @@ def
 test_failfunction
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -785,7 +844,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -867,7 +926,9 @@ def
 test_skipfunction
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -876,7 +937,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -1021,7 +1082,9 @@ def
 test_skip_in_setup_function
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1030,7 +1093,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -1163,7 +1226,9 @@ def
 test_failure_in_setup_function
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1172,7 +1237,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -1258,7 +1323,9 @@ def
 test_failure_in_teardown_function
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1267,7 +1334,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -1381,14 +1448,16 @@ def
 test_custom_failure_repr
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1432,7 +1501,7 @@ hello
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -1545,7 +1614,9 @@ def
 test_teardown_final_returncode
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1554,7 +1625,7 @@ None
         
 rec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1602,7 +1673,9 @@ def
 test_logstart_logfinish_hooks
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1611,7 +1684,7 @@ None
         
 rec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1716,7 +1789,9 @@ def
 test_exact_teardown_issue90
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -1725,7 +1800,7 @@ None
         
 rec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -1779,7 +1854,7 @@ on
 python2
 exc_info
 is
-keept
+kept
 till
 a
 function
@@ -2009,7 +2084,9 @@ def
 test_exact_teardown_issue1206
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -2036,7 +2113,7 @@ teardown_method
         
 rec
 =
-testdir
+pytester
 .
 inline_runsource
 (
@@ -2222,12 +2299,28 @@ when
 teardown
 "
         
-assert
+longrepr
+=
 reps
 [
 2
 ]
 .
+longrepr
+        
+assert
+isinstance
+(
+longrepr
+ExceptionChainRepr
+)
+        
+assert
+longrepr
+.
+reprcrash
+        
+assert
 longrepr
 .
 reprcrash
@@ -2235,10 +2328,6 @@ reprcrash
 message
 in
 (
-            
-#
-python3
-error
             
 "
 TypeError
@@ -2262,23 +2351,34 @@ z
 "
             
 #
-python2
-error
+Python
+>
+=
+3
+.
+10
             
 "
 TypeError
 :
+TestClass
+.
 teardown_method
 (
 )
-takes
-exactly
-4
-arguments
-(
+missing
 2
-given
-)
+required
+positional
+arguments
+:
+'
+y
+'
+and
+'
+z
+'
 "
         
 )
@@ -2286,15 +2386,19 @@ given
 def
 test_failure_in_setup_function_ignores_custom_repr
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2336,7 +2440,7 @@ assert
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -2471,7 +2575,9 @@ def
 test_systemexit_does_not_bail_out
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -2483,7 +2589,7 @@ try
             
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -2550,7 +2656,9 @@ def
 test_exit_propagates
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -2560,7 +2668,7 @@ None
 try
 :
             
-testdir
+pytester
 .
 runitem
 (
@@ -2652,7 +2760,9 @@ def
 test_keyboardinterrupt_propagates
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -2662,7 +2772,7 @@ None
 try
 :
             
-testdir
+pytester
 .
 runitem
 (
@@ -2715,7 +2825,9 @@ def
 test_collect_result
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -2724,7 +2836,7 @@ None
         
 col
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -2797,9 +2909,9 @@ locinfo
 =
 col
 .
-fspath
+path
 .
-basename
+name
         
 assert
 not
@@ -2817,9 +2929,9 @@ locinfo
 =
 col
 .
-fspath
+path
 .
-basename
+name
         
 res
 =
@@ -2862,6 +2974,16 @@ name
 TestClass
 "
 reporttypes
+:
+List
+[
+Type
+[
+reports
+.
+BaseReport
+]
+]
 =
 [
     
@@ -2876,18 +2998,6 @@ TestReport
 reports
 .
 CollectReport
-]
-#
-type
-:
-List
-[
-Type
-[
-reports
-.
-BaseReport
-]
 ]
 pytest
 .
@@ -2917,14 +3027,12 @@ test_report_extra_parameters
 (
 reporttype
 :
-"
 Type
 [
 reports
 .
 BaseReport
 ]
-"
 )
 -
 >
@@ -2956,17 +3064,6 @@ keys
 ]
     
 basekw
-=
-dict
-.
-fromkeys
-(
-args
-[
-]
-)
-#
-type
 :
 Dict
 [
@@ -2976,6 +3073,15 @@ List
 object
 ]
 ]
+=
+dict
+.
+fromkeys
+(
+args
+[
+]
+)
     
 report
 =
@@ -3136,6 +3242,7 @@ ci2
 )
 =
 =
+f
 "
 <
 CallInfo
@@ -3147,18 +3254,14 @@ collect
 excinfo
 =
 {
+ci2
+.
+excinfo
 !
 r
 }
 >
 "
-.
-format
-(
-ci2
-.
-excinfo
-)
     
 assert
 str
@@ -3216,6 +3319,7 @@ ci3
 )
 =
 =
+f
 "
 <
 CallInfo
@@ -3227,18 +3331,14 @@ call
 excinfo
 =
 {
+ci3
+.
+excinfo
 !
 r
 }
 >
 "
-.
-format
-(
-ci3
-.
-excinfo
-)
     
 assert
 "
@@ -3282,7 +3382,9 @@ xfail
 def
 test_runtest_in_module_ordering
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -3291,7 +3393,7 @@ None
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3493,7 +3595,7 @@ mylist
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3690,14 +3792,16 @@ Failed
 def
 test_pytest_exit_msg
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -3734,7 +3838,7 @@ noes
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3828,14 +3932,16 @@ ResourceWarning
 def
 test_pytest_exit_returncode
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -3874,7 +3980,7 @@ msg
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3938,7 +4044,7 @@ during
 pytest_sessionstart
 .
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -3975,7 +4081,7 @@ during_sessionstart
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4032,7 +4138,9 @@ ret
 def
 test_pytest_fail_notrace_runtest
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -4066,7 +4174,7 @@ run
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4123,7 +4231,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4161,7 +4269,9 @@ teardown_function
 def
 test_pytest_fail_notrace_collection
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -4194,7 +4304,7 @@ collection
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4236,7 +4346,7 @@ some_internal_function
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4273,7 +4383,9 @@ some_internal_function
 def
 test_pytest_fail_notrace_non_ascii
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -4320,7 +4432,7 @@ chars
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4361,7 +4473,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4403,7 +4515,9 @@ test_hello
 def
 test_pytest_no_tests_collected_exit_status
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -4412,7 +4526,7 @@ None
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4445,7 +4559,7 @@ ExitCode
 .
 NO_TESTS_COLLECTED
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -4473,7 +4587,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4524,7 +4638,7 @@ OK
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4622,10 +4736,6 @@ Exception
         
 excinfo
 =
-_pytest
-.
-_code
-.
 ExceptionInfo
 .
 from_current
@@ -4765,11 +4875,7 @@ None
         
 path
 =
-py
-.
-path
-.
-local
+Path
 (
 excrepr
 .
@@ -4800,7 +4906,7 @@ file
 assert
 path
 .
-purebasename
+stem
 =
 =
 "
@@ -4945,28 +5051,19 @@ cover
         
 assert
 False
+f
 "
 spurious
 skip
 :
 {
-}
-"
-.
-format
-(
-            
-_pytest
-.
-_code
-.
 ExceptionInfo
 .
 from_current
 (
 )
-        
-)
+}
+"
 def
 test_importorskip_imports_last_module_part
 (
@@ -5125,32 +5222,25 @@ cover
         
 assert
 False
+f
 "
 spurious
 skip
 :
 {
-}
-"
-.
-format
-(
-            
-_pytest
-.
-_code
-.
 ExceptionInfo
 .
 from_current
 (
 )
-        
-)
+}
+"
 def
 test_importorskip_module_level
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5178,7 +5268,7 @@ level
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5217,7 +5307,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5245,7 +5335,9 @@ skipped
 def
 test_importorskip_custom_reason
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5266,7 +5358,7 @@ used
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5311,7 +5403,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5359,7 +5451,9 @@ skipped
 def
 test_pytest_cmdline_main
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -5368,7 +5462,7 @@ None
     
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5462,14 +5556,16 @@ ret
 def
 test_unicode_in_longrepr
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -5533,7 +5629,7 @@ longrepr
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5559,7 +5655,7 @@ assert
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5589,14 +5685,16 @@ str
 def
 test_failure_in_setup
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5631,7 +5729,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5660,14 +5758,16 @@ setup_module
 def
 test_makereport_getsource
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
 None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5700,7 +5800,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5739,8 +5839,13 @@ False
 def
 test_makereport_getsource_dynamic_code
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -5828,7 +5933,7 @@ findsource
 findsource
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -5871,7 +5976,7 @@ False
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6148,8 +6253,12 @@ last_traceback
 def
 test_current_test_env_var
 (
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
 -
 >
@@ -6157,11 +6266,6 @@ None
 :
     
 pytest_current_test_vars
-=
-[
-]
-#
-type
 :
 List
 [
@@ -6170,6 +6274,9 @@ Tuple
 str
 str
 ]
+]
+=
+[
 ]
     
 monkeypatch
@@ -6188,7 +6295,7 @@ False
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6296,7 +6403,7 @@ PYTEST_CURRENT_TEST
     
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -6422,7 +6529,9 @@ def
 test_longreprtext_pass
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -6431,7 +6540,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -6474,7 +6583,9 @@ def
 test_longreprtext_skip
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -6504,7 +6615,7 @@ attributes
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -6562,7 +6673,9 @@ def
 test_longreprtext_collect_skip
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -6590,7 +6703,7 @@ attributes
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6619,7 +6732,7 @@ True
         
 rec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6667,7 +6780,9 @@ def
 test_longreprtext_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -6676,7 +6791,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -6731,7 +6846,9 @@ def
 test_captured_text
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -6740,7 +6857,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -7000,7 +7117,9 @@ def
 test_no_captured_text
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -7009,7 +7128,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -7061,7 +7180,9 @@ def
 test_longrepr_type
 (
 self
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -7070,7 +7191,7 @@ None
         
 reports
 =
-testdir
+pytester
 .
 runitem
 (
@@ -7116,13 +7237,7 @@ isinstance
 rep
 .
 longrepr
-_pytest
-.
-_code
-.
-code
-.
-ExceptionRepr
+ExceptionChainRepr
 )
 def
 test_outcome_exception_bad_msg

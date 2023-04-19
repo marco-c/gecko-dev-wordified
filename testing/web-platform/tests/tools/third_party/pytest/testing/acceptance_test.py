@@ -7,8 +7,6 @@ types
 import
 attr
 import
-py
-import
 pytest
 from
 _pytest
@@ -33,13 +31,16 @@ _pytest
 .
 pytester
 import
-Testdir
+Pytester
 def
 prepend_pythonpath
 (
 *
 dirs
 )
+-
+>
+str
 :
     
 cur
@@ -88,11 +89,16 @@ def
 test_config_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -107,13 +113,13 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
         
 assert
@@ -160,11 +166,16 @@ def
 test_root_conftest_syntax_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -180,7 +191,7 @@ n
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -214,11 +225,16 @@ def
 test_early_hook_error_issue38_1
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -245,13 +261,13 @@ pytest_sessionstart
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
         
 assert
@@ -307,13 +323,13 @@ line
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
-testdir
+pytester
 .
-tmpdir
+path
 "
 -
 -
@@ -375,11 +391,16 @@ def
 test_early_hook_configure_error_issue38
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -406,13 +427,13 @@ pytest_configure
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
-testdir
+pytester
 .
-tmpdir
+path
 )
         
 assert
@@ -468,13 +489,18 @@ def
 test_file_not_found
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -516,11 +542,16 @@ def
 test_file_not_found_unconfigure_issue143
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -569,7 +600,7 @@ unconfigure
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -641,11 +672,16 @@ def
 test_config_preparse_plugin_option
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -690,7 +726,7 @@ store
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -728,7 +764,7 @@ xyz
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -793,11 +829,18 @@ False
 def
 test_early_load_setuptools_name
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
 load_cov_early
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -809,7 +852,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -819,7 +862,7 @@ mytestplugin1_module
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -829,7 +872,7 @@ mytestplugin2_module
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -839,7 +882,7 @@ mycov_module
 "
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -1012,7 +1055,7 @@ else
 (
 )
         
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -1085,14 +1128,19 @@ def
 test_assertion_rewrite
 (
 self
-testdir
+pytester
+:
+Pytester
 import_mode
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1122,11 +1170,12 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
 p
+f
 "
 -
 -
@@ -1135,13 +1184,9 @@ import
 mode
 =
 {
+import_mode
 }
 "
-.
-format
-(
-import_mode
-)
 )
         
 result
@@ -1176,13 +1221,18 @@ def
 test_nested_import_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1214,7 +1264,7 @@ a
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1228,7 +1278,7 @@ does_not_work
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1279,13 +1329,18 @@ def
 test_not_collectable_arguments
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1295,7 +1350,7 @@ makepyfile
         
 p2
 =
-testdir
+pytester
 .
 makefile
 (
@@ -1310,7 +1365,7 @@ pyc
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1337,6 +1392,7 @@ fnmatch_lines
             
 [
                 
+f
 "
 ERROR
 :
@@ -1344,19 +1400,20 @@ not
 found
 :
 {
+p2
 }
 "
-.
-format
-(
-p2
-)
                 
+f
 "
 (
 no
 name
 {
+str
+(
+p2
+)
 !
 r
 }
@@ -1371,14 +1428,6 @@ of
 ]
 )
 "
-.
-format
-(
-str
-(
-p2
-)
-)
                 
 "
 "
@@ -1401,9 +1450,16 @@ default
 def
 test_better_reporting_on_conftest_load_failure
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -1429,7 +1485,7 @@ failures
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1439,7 +1495,7 @@ makepyfile
         
 conftest
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -1469,7 +1525,7 @@ foo
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1513,34 +1569,10 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
-)
-        
-exc_name
-=
-(
-            
-"
-ModuleNotFoundError
-"
-if
-sys
-.
-version_info
->
-=
-(
-3
-6
-)
-else
-"
-ImportError
-"
-        
 )
         
 assert
@@ -1564,6 +1596,7 @@ lines
 =
 [
             
+f
 "
 ImportError
 while
@@ -1571,15 +1604,11 @@ loading
 conftest
 '
 {
+conftest
 }
 '
 .
 "
-.
-format
-(
-conftest
-)
             
 "
 conftest
@@ -1618,8 +1647,7 @@ qwerty
             
 "
 E
-{
-}
+ModuleNotFoundError
 :
 No
 module
@@ -1628,11 +1656,6 @@ named
 qwerty
 '
 "
-.
-format
-(
-exc_name
-)
         
 ]
     
@@ -1640,11 +1663,16 @@ def
 test_early_skip
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 mkdir
 (
@@ -1653,7 +1681,7 @@ xyz
 "
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1688,7 +1716,7 @@ early
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1724,11 +1752,16 @@ def
 test_issue88_initial_file_multinodes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -1739,7 +1772,7 @@ issue88_initial_file_multinodes
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1755,7 +1788,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1797,11 +1830,16 @@ def
 test_issue93_initialnode_importing_capturing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1845,7 +1883,7 @@ n
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1895,11 +1933,16 @@ def
 test_conftest_printing_shows_if_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1928,7 +1971,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1961,13 +2004,18 @@ def
 test_issue109_sibling_conftests_not_loaded
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 sub1
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1978,7 +2026,7 @@ sub1
         
 sub2
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -1989,7 +2037,7 @@ sub2
         
 sub1
 .
-join
+joinpath
 (
 "
 conftest
@@ -1998,7 +2046,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 assert
@@ -2008,7 +2056,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2027,7 +2075,7 @@ NO_TESTS_COLLECTED
         
 sub2
 .
-ensure
+joinpath
 (
 "
 __init__
@@ -2035,12 +2083,16 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
         
 p
 =
 sub2
 .
-ensure
+joinpath
 (
 "
 test_hello
@@ -2049,9 +2101,15 @@ py
 "
 )
         
+p
+.
+touch
+(
+)
+        
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2070,7 +2128,7 @@ NO_TESTS_COLLECTED
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2091,11 +2149,16 @@ def
 test_directory_skipped
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2128,7 +2191,7 @@ intentional
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2144,7 +2207,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2180,13 +2243,18 @@ def
 test_multiple_items_per_collector_byid
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 c
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -2252,15 +2320,15 @@ self
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-basename
+name
 .
 startswith
 (
@@ -2275,9 +2343,9 @@ MyCollector
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -2291,13 +2359,13 @@ parent
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
 c
 .
-basename
+name
 +
 "
 :
@@ -2337,11 +2405,16 @@ def
 test_skip_on_generated_funcarg_id
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2427,7 +2500,7 @@ assert
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2448,7 +2521,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2483,13 +2556,18 @@ def
 test_direct_addressing_selects
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2545,13 +2623,13 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
 p
 .
-basename
+name
 +
 "
 :
@@ -2594,13 +2672,18 @@ def
 test_direct_addressing_notfound
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2625,13 +2708,13 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
 p
 .
-basename
+name
 +
 "
 :
@@ -2671,6 +2754,9 @@ test_docstring_on_hookspec
 (
 self
 )
+-
+>
+None
 :
         
 from
@@ -2721,11 +2807,16 @@ def
 test_initialization_error_issue49
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2750,7 +2841,7 @@ x
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2827,13 +2918,20 @@ test_a
 def
 test_issue134_report_error_when_collecting_member
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 lookfor
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2861,7 +2959,7 @@ def
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2927,11 +3025,16 @@ def
 test_report_all_failed_collections_initargs
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2975,7 +3078,7 @@ pytest_sessionfinish_called
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2993,7 +3096,7 @@ def
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3075,9 +3178,16 @@ USAGE_ERROR
 def
 test_namespace_import_doesnt_confuse_import_hook
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -3130,7 +3240,7 @@ crash
 "
 "
         
-testdir
+pytester
 .
 mkdir
 (
@@ -3141,7 +3251,7 @@ not_a_package
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3189,13 +3299,13 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
 p
 .
-basename
+name
 )
         
 assert
@@ -3210,13 +3320,18 @@ def
 test_unknown_option
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3251,10 +3366,17 @@ unrecognized
 def
 test_getsourcelines_error_issue553
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -3271,7 +3393,7 @@ None
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3324,7 +3446,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3364,11 +3486,18 @@ found
 def
 test_plugins_given_as_strings
 (
+        
 self
-tmpdir
+pytester
+:
+Pytester
 monkeypatch
 _sys_snapshot
+    
 )
+-
+>
+None
 :
         
 "
@@ -3424,7 +3553,9 @@ main
 [
 str
 (
-tmpdir
+pytester
+.
+path
 )
 ]
 plugins
@@ -3452,9 +3583,11 @@ value
         
 p
 =
-tmpdir
+pytester
 .
-join
+path
+.
+joinpath
 (
 "
 test_test_plugins_given_as_strings
@@ -3465,7 +3598,7 @@ py
         
 p
 .
-write
+write_text
 (
 "
 def
@@ -3511,7 +3644,9 @@ args
 [
 str
 (
-tmpdir
+pytester
+.
+path
 )
 ]
 plugins
@@ -3530,13 +3665,18 @@ def
 test_parametrized_with_bytes_regex
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3590,7 +3730,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3617,8 +3757,13 @@ def
 test_parametrized_with_null_bytes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3647,7 +3792,7 @@ characters
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3706,7 +3851,7 @@ data
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3729,13 +3874,18 @@ def
 test_earlyinit
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3764,7 +3914,7 @@ mark
         
 result
 =
-testdir
+pytester
 .
 runpython
 (
@@ -3783,50 +3933,32 @@ def
 test_pydoc
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-for
-name
-in
-(
-"
-py
-.
-test
-"
-"
-pytest
-"
-)
-:
-            
 result
 =
-testdir
+pytester
 .
 runpython_c
 (
 "
 import
-{
-}
+pytest
 ;
 help
 (
-{
-}
+pytest
 )
 "
-.
-format
-(
-name
-name
 )
-)
-            
+        
 assert
 result
 .
@@ -3834,7 +3966,7 @@ ret
 =
 =
 0
-            
+        
 s
 =
 result
@@ -3844,7 +3976,7 @@ stdout
 str
 (
 )
-            
+        
 assert
 "
 MarkGenerator
@@ -3853,96 +3985,21 @@ in
 s
     
 def
-test_import_star_py_dot_test
-(
-self
-testdir
-)
-:
-        
-p
-=
-testdir
-.
-makepyfile
-(
-            
-"
-"
-"
-            
-from
-py
-.
-test
-import
-*
-            
-#
-collect
-            
-#
-cmdline
-            
-#
-Item
-            
-#
-assert
-collect
-.
-Item
-is
-Item
-            
-#
-assert
-collect
-.
-Collector
-is
-Collector
-            
-main
-            
-skip
-            
-xfail
-        
-"
-"
-"
-        
-)
-        
-result
-=
-testdir
-.
-runpython
-(
-p
-)
-        
-assert
-result
-.
-ret
-=
-=
-0
-    
-def
 test_import_star_pytest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3976,7 +4033,7 @@ xfail
         
 result
 =
-testdir
+pytester
 .
 runpython
 (
@@ -3995,13 +4052,18 @@ def
 test_double_pytestcmdline
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4033,7 +4095,7 @@ main
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4058,7 +4120,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpython
 (
@@ -4091,13 +4153,18 @@ def
 test_python_minus_m_invocation_ok
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4113,7 +4180,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 run
 (
@@ -4145,13 +4212,18 @@ def
 test_python_minus_m_invocation_fail
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4169,7 +4241,7 @@ test_fail
         
 res
 =
-testdir
+pytester
 .
 run
 (
@@ -4201,13 +4273,18 @@ def
 test_python_pytest_package
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -4223,7 +4300,7 @@ pass
         
 res
 =
-testdir
+pytester
 .
 run
 (
@@ -4266,55 +4343,6 @@ passed
 "
 ]
 )
-    
-def
-test_equivalence_pytest_pydottest
-(
-self
-)
--
->
-None
-:
-        
-#
-Type
-ignored
-because
-py
-.
-test
-is
-not
-and
-will
-not
-be
-typed
-.
-        
-assert
-pytest
-.
-main
-=
-=
-py
-.
-test
-.
-cmdline
-.
-main
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
     
 def
 test_invoke_with_invalid_type
@@ -4377,13 +4405,9 @@ def
 test_invoke_with_path
 (
 self
-tmpdir
+pytester
 :
-py
-.
-path
-.
-local
+Pytester
 capsys
 )
 -
@@ -4397,7 +4421,14 @@ pytest
 .
 main
 (
-tmpdir
+[
+str
+(
+pytester
+.
+path
+)
+]
 )
         
 assert
@@ -4423,6 +4454,9 @@ test_invoke_plugin_api
 self
 capsys
 )
+-
+>
+None
 :
         
 class
@@ -4489,9 +4523,14 @@ def
 test_pyargs_importerror
 (
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -4506,7 +4545,7 @@ False
         
 path
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -4517,7 +4556,7 @@ tpkg
         
 path
 .
-join
+joinpath
 (
 "
 test_hello
@@ -4526,7 +4565,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 raise
@@ -4536,7 +4575,7 @@ ImportError
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4590,13 +4629,18 @@ def
 test_pyargs_only_imported_once
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 pkg
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -4607,7 +4651,7 @@ foo
         
 pkg
 .
-join
+joinpath
 (
 "
 test_foo
@@ -4616,8 +4660,9 @@ py
 "
 )
 .
-write
+write_text
 (
+            
 "
 print
 (
@@ -4635,11 +4680,12 @@ test
 :
 pass
 "
+        
 )
         
 pkg
 .
-join
+joinpath
 (
 "
 conftest
@@ -4648,7 +4694,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 "
@@ -4670,10 +4716,11 @@ configuring
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
+            
 "
 -
 -
@@ -4691,6 +4738,7 @@ s
 syspathinsert
 =
 True
+        
 )
         
 #
@@ -4741,15 +4789,20 @@ def
 test_pyargs_filename_looks_like_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 conftest
@@ -4758,15 +4811,15 @@ py
 "
 )
 .
-ensure
+touch
 (
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 t
@@ -4775,7 +4828,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -4789,7 +4842,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4819,9 +4872,14 @@ def
 test_cmdline_python_package
 (
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
 )
+-
+>
+None
 :
         
 import
@@ -4839,7 +4897,7 @@ False
         
 path
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -4850,7 +4908,7 @@ tpkg
         
 path
 .
-join
+joinpath
 (
 "
 test_hello
@@ -4859,7 +4917,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -4873,7 +4931,7 @@ pass
         
 path
 .
-join
+joinpath
 (
 "
 test_world
@@ -4882,7 +4940,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -4896,7 +4954,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4936,7 +4994,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4981,7 +5039,7 @@ passed
         
 empty_package
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -5058,7 +5116,7 @@ ImportWarning
             
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5105,7 +5163,7 @@ PYTHONPATH
 "
 str
 (
-testdir
+pytester
 )
 prepend
 =
@@ -5116,7 +5174,7 @@ pathsep
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5165,10 +5223,17 @@ test_missing
 def
 test_cmdline_python_namespace_package
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 "
@@ -5243,7 +5308,7 @@ world
             
 d
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -5261,7 +5326,7 @@ ns
 =
 d
 .
-mkdir
+joinpath
 (
 "
 ns_pkg
@@ -5270,7 +5335,13 @@ ns_pkg
             
 ns
 .
-join
+mkdir
+(
+)
+            
+ns
+.
+joinpath
 (
 "
 __init__
@@ -5279,7 +5350,7 @@ py
 "
 )
 .
-write
+write_text
 (
                 
 "
@@ -5302,14 +5373,20 @@ lib
 =
 ns
 .
-mkdir
+joinpath
 (
 dirname
 )
             
 lib
 .
-ensure
+mkdir
+(
+)
+            
+lib
+.
+joinpath
 (
 "
 __init__
@@ -5317,32 +5394,35 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
             
 lib
 .
-join
+joinpath
 (
+f
 "
 test_
 {
+dirname
 }
 .
 py
 "
-.
-format
-(
-dirname
-)
 )
 .
-write
+write_text
 (
                 
+f
 "
 def
 test_
 {
+dirname
 }
 (
 )
@@ -5356,11 +5436,6 @@ test_other
 :
 pass
 "
-.
-format
-(
-dirname
-)
             
 )
         
@@ -5484,7 +5559,7 @@ world
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5601,7 +5676,7 @@ within
 a
 module
         
-testdir
+pytester
 .
 chdir
 (
@@ -5609,7 +5684,7 @@ chdir
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5678,13 +5753,18 @@ def
 test_invoke_test_and_doctestmodules
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5709,7 +5789,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5751,10 +5831,17 @@ passed
 def
 test_cmdline_python_package_symlink
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 "
@@ -5808,7 +5895,7 @@ lib
         
 d
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -5819,7 +5906,7 @@ foo
 =
 d
 .
-mkdir
+joinpath
 (
 "
 foo
@@ -5828,7 +5915,13 @@ foo
         
 foo
 .
-ensure
+mkdir
+(
+)
+        
+foo
+.
+joinpath
 (
 "
 __init__
@@ -5836,12 +5929,16 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
         
 lib
 =
 foo
 .
-mkdir
+joinpath
 (
 "
 bar
@@ -5850,7 +5947,13 @@ bar
         
 lib
 .
-ensure
+mkdir
+(
+)
+        
+lib
+.
+joinpath
 (
 "
 __init__
@@ -5858,10 +5961,14 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
         
 lib
 .
-join
+joinpath
 (
 "
 test_bar
@@ -5870,7 +5977,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 "
@@ -5894,7 +6001,7 @@ pass
         
 lib
 .
-join
+joinpath
 (
 "
 conftest
@@ -5903,7 +6010,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 "
@@ -5927,7 +6034,7 @@ pass
         
 d_local
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -6102,7 +6209,7 @@ path
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6122,7 +6229,7 @@ bar
 "
 )
         
-testdir
+pytester
 .
 chdir
 (
@@ -6198,13 +6305,18 @@ def
 test_cmdline_python_package_not_exists
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6268,13 +6380,18 @@ def
 test_noclass_discovery_if_not_testcase
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 testpath
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -6327,7 +6444,7 @@ attr
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6347,11 +6464,16 @@ def
 test_doctest_id
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makefile
 (
@@ -6448,7 +6570,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6515,7 +6637,7 @@ RUNNER_CLASS
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6547,6 +6669,9 @@ test_core_backward_compatibility
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -6601,6 +6726,9 @@ test_has_plugin
 self
 request
 )
+-
+>
+None
 :
         
 "
@@ -6711,12 +6839,17 @@ def
 test_calls
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6727,7 +6860,7 @@ source
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -6815,12 +6948,17 @@ def
 test_calls_show_2
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6831,7 +6969,7 @@ source
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -6884,12 +7022,17 @@ def
 test_calls_showall
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6900,7 +7043,7 @@ source
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -6990,32 +7133,34 @@ else
 raise
 AssertionError
 (
+f
 "
 not
 found
 {
+x
 }
 {
+y
 }
 "
-.
-format
-(
-x
-y
-)
 )
     
 def
 test_calls_showall_verbose
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7026,7 +7171,7 @@ source
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -7116,32 +7261,34 @@ else
 raise
 AssertionError
 (
+f
 "
 not
 found
 {
+x
 }
 {
+y
 }
 "
-.
-format
-(
-x
-y
-)
 )
     
 def
 test_with_deselected
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7152,7 +7299,7 @@ source
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -7204,12 +7351,17 @@ def
 test_with_failing_collection
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7218,7 +7370,7 @@ self
 source
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7235,7 +7387,7 @@ xyz
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -7312,12 +7464,17 @@ def
 test_with_not
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7328,7 +7485,7 @@ source
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -7404,12 +7561,17 @@ def
 test_setup_function
 (
 self
-testdir
+pytester
+:
+Pytester
 mock_timing
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7420,7 +7582,7 @@ source
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -7480,9 +7642,13 @@ test_1
 def
 test_zipimport_hook
 (
-testdir
-tmpdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7516,25 +7682,22 @@ zipapp
 "
 )
     
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 app
 "
 )
 .
-ensure
+mkdir
 (
-dir
-=
-1
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7590,9 +7753,11 @@ foo
     
 target
 =
-tmpdir
+pytester
 .
-join
+path
+.
+joinpath
 (
 "
 foo
@@ -7605,13 +7770,14 @@ zipapp
 .
 create_archive
 (
+        
 str
 (
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 app
@@ -7629,11 +7795,12 @@ foo
 :
 main
 "
+    
 )
     
 result
 =
-testdir
+pytester
 .
 runpython
 (
@@ -7682,11 +7849,16 @@ INTERNALERROR
 def
 test_import_plugin_unicode_name
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7696,7 +7868,7 @@ myplugin
 "
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7710,7 +7882,7 @@ pass
 "
 )
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -7727,7 +7899,7 @@ myplugin
     
 r
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7743,8 +7915,13 @@ ret
 def
 test_pytest_plugins_as_module
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7769,7 +7946,7 @@ module
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7830,7 +8007,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7855,8 +8032,13 @@ in
 def
 test_deferred_hook_checking
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7877,13 +8059,13 @@ possible
 "
 "
     
-testdir
+pytester
 .
 syspathinsert
 (
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8019,7 +8201,7 @@ config
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8043,8 +8225,13 @@ passed
 def
 test_fixture_values_leak
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8081,7 +8268,7 @@ times
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8296,7 +8483,7 @@ hook
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -8320,8 +8507,13 @@ passed
 def
 test_fixture_order_respects_scope
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8345,7 +8537,7 @@ order
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8444,7 +8636,7 @@ value
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8460,8 +8652,13 @@ ret
 def
 test_frame_leak_on_failing_test
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8535,7 +8732,7 @@ collector
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8614,7 +8811,7 @@ None
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -8641,8 +8838,13 @@ in
 def
 test_fixture_mock_integration
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8667,7 +8869,7 @@ working
     
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -8682,7 +8884,7 @@ py
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8707,13 +8909,18 @@ passed
 def
 test_usage_error_code
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8743,13 +8950,23 @@ filterwarnings
 (
 "
 default
+:
+:
+pytest
+.
+PytestUnhandledCoroutineWarning
 "
 )
 def
 test_warn_on_async_function
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 #
@@ -8788,7 +9005,7 @@ other
 tests
 .
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8846,7 +9063,7 @@ coro
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8959,46 +9176,26 @@ filterwarnings
 (
 "
 default
-"
-)
+:
+:
 pytest
 .
-mark
-.
-skipif
-(
-    
-sys
-.
-version_info
-<
-(
-3
-6
-)
-reason
-=
-"
-async
-gen
-syntax
-available
-in
-Python
-3
-.
-6
-+
+PytestUnhandledCoroutineWarning
 "
 )
 def
 test_warn_on_async_gen_function
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9046,7 +9243,7 @@ test_2
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -9154,11 +9351,16 @@ supported
 def
 test_pdb_can_be_rewritten
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9290,7 +9492,7 @@ set_trace
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -9392,13 +9594,18 @@ ret
 def
 test_tee_stdio_captures_and_live_prints
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 testpath
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9447,7 +9654,7 @@ stderr
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -9545,17 +9752,12 @@ junitxml
 with
 open
 (
-os
+pytester
 .
 path
 .
-join
+joinpath
 (
-testdir
-.
-tmpdir
-.
-strpath
 "
 output
 .
@@ -9631,9 +9833,9 @@ instead
 def
 test_no_brokenpipeerror_message
 (
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -9651,7 +9853,7 @@ pipe
 error
 message
 is
-supressed
+suppressed
 .
     
 In
@@ -9696,13 +9898,13 @@ enough
     
 popen
 =
-testdir
+pytester
 .
 popen
 (
 (
 *
-testdir
+pytester
 .
 _getpytestargs
 (
@@ -9750,3 +9952,15 @@ ret
 =
 =
 1
+    
+#
+Cleanup
+.
+    
+popen
+.
+stderr
+.
+close
+(
+)

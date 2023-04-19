@@ -32,6 +32,10 @@ typing
 import
 Optional
 from
+typing
+import
+TYPE_CHECKING
+from
 _pytest
 .
 assertion
@@ -57,12 +61,6 @@ assertion
 rewrite
 import
 assertstate_key
-from
-_pytest
-.
-compat
-import
-TYPE_CHECKING
 from
 _pytest
 .
@@ -590,10 +588,6 @@ assertion
 self
 .
 hook
-=
-None
-#
-type
 :
 Optional
 [
@@ -601,6 +595,8 @@ rewrite
 .
 AssertionRewritingHook
 ]
+=
+None
 def
 install_importhook
 (
@@ -636,7 +632,7 @@ fails
     
 config
 .
-_store
+stash
 [
 assertstate_key
 ]
@@ -651,7 +647,7 @@ rewrite
     
 config
 .
-_store
+stash
 [
 assertstate_key
 ]
@@ -679,7 +675,7 @@ hook
     
 config
 .
-_store
+stash
 [
 assertstate_key
 ]
@@ -707,7 +703,7 @@ hook
 =
 config
 .
-_store
+stash
 [
 assertstate_key
 ]
@@ -778,7 +774,7 @@ example
 not
 in
 the
-master
+managing
 process
 of
 pytest
@@ -802,7 +798,7 @@ session
 .
 config
 .
-_store
+stash
 .
 get
 (
@@ -1172,6 +1168,14 @@ _reprcompare
 =
 callbinrepr
     
+util
+.
+_config
+=
+item
+.
+config
+    
 if
 ihook
 .
@@ -1234,6 +1238,12 @@ util
 _assertion_pass
 =
 saved_assert_hooks
+    
+util
+.
+_config
+=
+None
 def
 pytest_sessionfinish
 (
@@ -1254,7 +1264,7 @@ session
 .
 config
 .
-_store
+stash
 .
 get
 (

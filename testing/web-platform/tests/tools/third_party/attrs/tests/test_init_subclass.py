@@ -1,3 +1,11 @@
+#
+SPDX
+-
+License
+-
+Identifier
+:
+MIT
 "
 "
 "
@@ -67,7 +75,7 @@ both
 with
 dict
 and
-slots
+slotted
 classes
 .
     

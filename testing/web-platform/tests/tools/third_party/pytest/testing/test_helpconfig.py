@@ -6,16 +6,26 @@ _pytest
 config
 import
 ExitCode
+from
+_pytest
+.
+pytester
+import
+Pytester
 def
 test_version_verbose
 (
-testdir
+pytester
+:
+Pytester
 pytestconfig
+monkeypatch
 )
+-
+>
+None
 :
     
-testdir
-.
 monkeypatch
 .
 delenv
@@ -27,7 +37,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -53,32 +63,27 @@ ret
     
 result
 .
-stderr
+stdout
 .
 fnmatch_lines
 (
-        
 [
+f
 "
 *
 pytest
 *
 {
+pytest
+.
+__version__
 }
 *
 imported
 from
 *
 "
-.
-format
-(
-pytest
-.
-__version__
-)
 ]
-    
 )
     
 if
@@ -93,7 +98,7 @@ list_plugin_distinfo
         
 result
 .
-stderr
+stdout
 .
 fnmatch_lines
 (
@@ -115,13 +120,17 @@ at
 def
 test_version_less_verbose
 (
-testdir
+pytester
+:
+Pytester
 pytestconfig
+monkeypatch
 )
+-
+>
+None
 :
     
-testdir
-.
 monkeypatch
 .
 delenv
@@ -133,7 +142,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -152,55 +161,79 @@ ret
 =
 0
     
-#
-p
-=
-py
-.
-path
-.
-local
-(
-py
-.
-__file__
-)
-.
-dirpath
-(
-)
-    
 result
 .
-stderr
+stdout
 .
 fnmatch_lines
 (
 [
+f
 "
 pytest
 {
+pytest
+.
+__version__
 }
 "
+]
+)
+def
+test_versions
+(
+)
+:
+    
+"
+"
+"
+Regression
+check
+for
+the
+public
+version
+attributes
+in
+pytest
 .
-format
+"
+"
+"
+    
+assert
+isinstance
 (
 pytest
 .
 __version__
+str
 )
-]
+    
+assert
+isinstance
+(
+pytest
+.
+version_tuple
+tuple
 )
 def
 test_help
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -264,6 +297,31 @@ durations
 =
 N
 *
+          
+-
+V
+-
+-
+version
+display
+pytest
+version
+and
+information
+about
+plugins
+.
+                                
+When
+given
+twice
+also
+display
+information
+about
+                                
+plugins
+.
         
 *
 setup
@@ -307,8 +365,13 @@ fixtures
 def
 test_none_help_param_raises_exception
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -328,7 +391,7 @@ TypeError
 "
 "
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -370,7 +433,7 @@ bool
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -408,8 +471,13 @@ test_ini
 def
 test_empty_help_param
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -429,7 +497,7 @@ correctly
 "
 "
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -472,7 +540,7 @@ bool
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -547,11 +615,16 @@ True
 def
 test_hookvalidation_unknown
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -577,7 +650,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -611,11 +684,16 @@ pytest_hello
 def
 test_hookvalidation_optional
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -653,7 +731,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -671,13 +749,18 @@ NO_TESTS_COLLECTED
 def
 test_traceconfig
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -701,8 +784,6 @@ using
 *
 pytest
 *
-py
-*
 "
 "
 *
@@ -715,13 +796,18 @@ plugins
 def
 test_debug
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -744,11 +830,11 @@ NO_TESTS_COLLECTED
     
 p
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 pytestdebug
@@ -764,15 +850,25 @@ pytest_sessionstart
 in
 p
 .
-read
+read_text
 (
+"
+utf
+-
+8
+"
 )
 def
 test_PYTEST_DEBUG
 (
-testdir
+pytester
+:
+Pytester
 monkeypatch
 )
+-
+>
+None
 :
     
 monkeypatch
@@ -789,7 +885,7 @@ PYTEST_DEBUG
     
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (

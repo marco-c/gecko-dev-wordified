@@ -7,6 +7,10 @@ datetime
 import
 datetime
 from
+pathlib
+import
+Path
+from
 typing
 import
 cast
@@ -17,7 +21,19 @@ List
 from
 typing
 import
+Optional
+from
+typing
+import
 Tuple
+from
+typing
+import
+TYPE_CHECKING
+from
+typing
+import
+Union
 from
 xml
 .
@@ -25,17 +41,9 @@ dom
 import
 minidom
 import
-py
-import
 xmlschema
 import
 pytest
-from
-_pytest
-.
-compat
-import
-TYPE_CHECKING
 from
 _pytest
 .
@@ -57,9 +65,21 @@ LogXML
 from
 _pytest
 .
-pathlib
+monkeypatch
 import
-Path
+MonkeyPatch
+from
+_pytest
+.
+pytester
+import
+Pytester
+from
+_pytest
+.
+pytester
+import
+RunResult
 from
 _pytest
 .
@@ -75,9 +95,9 @@ TestReport
 from
 _pytest
 .
-store
+stash
 import
-Store
+Stash
 pytest
 .
 fixture
@@ -92,6 +112,11 @@ def
 schema
 (
 )
+-
+>
+xmlschema
+.
+XMLSchema
 :
     
 "
@@ -152,15 +177,207 @@ XMLSchema
 (
 f
 )
+class
+RunAndParse
+:
+    
+def
+__init__
+(
+self
+pytester
+:
+Pytester
+schema
+:
+xmlschema
+.
+XMLSchema
+)
+-
+>
+None
+:
+        
+self
+.
+pytester
+=
+pytester
+        
+self
+.
+schema
+=
+schema
+    
+def
+__call__
+(
+        
+self
+*
+args
+:
+Union
+[
+str
+"
+os
+.
+PathLike
+[
+str
+]
+"
+]
+family
+:
+Optional
+[
+str
+]
+=
+"
+xunit1
+"
+    
+)
+-
+>
+Tuple
+[
+RunResult
+"
+DomNode
+"
+]
+:
+        
+if
+family
+:
+            
+args
+=
+(
+"
+-
+o
+"
+"
+junit_family
+=
+"
++
+family
+)
++
+args
+        
+xml_path
+=
+self
+.
+pytester
+.
+path
+.
+joinpath
+(
+"
+junit
+.
+xml
+"
+)
+        
+result
+=
+self
+.
+pytester
+.
+runpytest
+(
+"
+-
+-
+junitxml
+=
+%
+s
+"
+%
+xml_path
+*
+args
+)
+        
+if
+family
+=
+=
+"
+xunit2
+"
+:
+            
+with
+xml_path
+.
+open
+(
+)
+as
+f
+:
+                
+self
+.
+schema
+.
+validate
+(
+f
+)
+        
+xmldoc
+=
+minidom
+.
+parse
+(
+str
+(
+xml_path
+)
+)
+        
+return
+result
+DomNode
+(
+xmldoc
+)
 pytest
 .
 fixture
 def
 run_and_parse
 (
-testdir
+pytester
+:
+Pytester
 schema
+:
+xmlschema
+.
+XMLSchema
 )
+-
+>
+RunAndParse
 :
     
 "
@@ -222,122 +439,12 @@ schema
 "
 "
     
-def
-run
+return
+RunAndParse
 (
-*
-args
-family
-=
-"
-xunit1
-"
-)
-:
-        
-if
-family
-:
-            
-args
-=
-(
-"
--
-o
-"
-"
-junit_family
-=
-"
-+
-family
-)
-+
-args
-        
-xml_path
-=
-testdir
-.
-tmpdir
-.
-join
-(
-"
-junit
-.
-xml
-"
-)
-        
-result
-=
-testdir
-.
-runpytest
-(
-"
--
--
-junitxml
-=
-%
-s
-"
-%
-xml_path
-*
-args
-)
-        
-if
-family
-=
-=
-"
-xunit2
-"
-:
-            
-with
-xml_path
-.
-open
-(
-)
-as
-f
-:
-                
+pytester
 schema
-.
-validate
-(
-f
 )
-        
-xmldoc
-=
-minidom
-.
-parse
-(
-str
-(
-xml_path
-)
-)
-        
-return
-result
-DomNode
-(
-xmldoc
-)
-    
-return
-run
 def
 assert_attr
 (
@@ -788,14 +895,25 @@ parametrize_families
 def
 test_summing_simple
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -928,14 +1046,25 @@ parametrize_families
 def
 test_summing_simple_with_errors
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1083,14 +1212,25 @@ parametrize_families
 def
 test_hostname_in_xml
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1152,14 +1292,25 @@ parametrize_families
 def
 test_timestamp_in_xml
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1261,14 +1412,23 @@ now
 def
 test_timing_function
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 mock_timing
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1400,12 +1560,27 @@ test_junit_duration_report
 (
         
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 monkeypatch
+:
+MonkeyPatch
+        
 duration_report
+:
+str
+        
 run_and_parse
+:
+RunAndParse
     
 )
+-
+>
+None
 :
         
 #
@@ -1470,7 +1645,7 @@ node_reporter
 node_reporter_wrapper
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1498,23 +1673,18 @@ dom
 =
 run_and_parse
 (
-            
 "
 -
 o
 "
+f
 "
 junit_duration_report
 =
 {
+duration_report
 }
 "
-.
-format
-(
-duration_report
-)
-        
 )
         
 node
@@ -1592,14 +1762,25 @@ parametrize_families
 def
 test_setup_error
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1758,14 +1939,25 @@ parametrize_families
 def
 test_teardown_error
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1913,14 +2105,25 @@ parametrize_families
 def
 test_call_failure_teardown_error
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2103,14 +2306,25 @@ parametrize_families
 def
 test_skip_contains_name_reason
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2242,14 +2456,25 @@ parametrize_families
 def
 test_mark_skip_contains_name_reason
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2392,14 +2617,23 @@ test_mark_skipif_contains_name_reason
 (
         
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
     
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2547,14 +2781,23 @@ test_mark_skip_doesnt_capture_output
 (
         
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
     
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2646,14 +2889,25 @@ parametrize_families
 def
 test_classname_instance
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2756,24 +3010,37 @@ parametrize_families
 def
 test_classname_nested_dir
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
-tmpdir
-.
-ensure
+mkdir
 (
 "
 sub
 "
+)
+.
+joinpath
+(
 "
 test_hello
 .
@@ -2783,7 +3050,7 @@ py
         
 p
 .
-write
+write_text
 (
 "
 def
@@ -2866,14 +3133,25 @@ parametrize_families
 def
 test_internal_error
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2889,7 +3167,7 @@ pytest_runtest_protocol
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3048,15 +3326,26 @@ test_failure_function
 (
         
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 junit_logging
+        
 run_and_parse
+:
+RunAndParse
+        
 xunit_family
     
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3650,14 +3939,25 @@ parametrize_families
 def
 test_failure_verbose_message
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3753,14 +4053,25 @@ parametrize_families
 def
 test_failure_escape
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3953,14 +4264,25 @@ parametrize_families
 def
 test_junit_prefixing
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4113,14 +4435,25 @@ parametrize_families
 def
 test_xfailure_function
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4253,14 +4586,25 @@ parametrize_families
 def
 test_xfailure_marker
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4437,14 +4781,25 @@ all
 def
 test_xfail_captures_output_once
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 junit_logging
+:
+str
 run_and_parse
+:
+RunAndParse
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4677,14 +5032,25 @@ parametrize_families
 def
 test_xfailure_xpass
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4787,14 +5153,25 @@ parametrize_families
 def
 test_xfailure_xpass_strict
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4943,14 +5320,25 @@ parametrize_families
 def
 test_collect_error
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5047,9 +5435,16 @@ def
 test_unicode
 (
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
         
 value
@@ -5068,7 +5463,7 @@ x87
 n
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5158,10 +5553,19 @@ toxml
 def
 test_assertion_binchars
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
+    
 )
+-
+>
+None
 :
         
 "
@@ -5183,7 +5587,7 @@ strict
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5276,14 +5680,25 @@ out
 def
 test_pass_captures_stdout
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 junit_logging
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5465,14 +5880,25 @@ err
 def
 test_pass_captures_stderr
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 junit_logging
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5661,14 +6087,25 @@ out
 def
 test_setup_error_captures_stdout
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 junit_logging
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5872,14 +6309,25 @@ err
 def
 test_setup_error_captures_stderr
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 junit_logging
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6090,14 +6538,25 @@ out
 def
 test_avoid_double_stdout
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 junit_logging
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6300,6 +6759,9 @@ def
 test_mangle_test_address
 (
 )
+-
+>
+None
 :
     
 from
@@ -6332,10 +6794,6 @@ py
 "
 "
 Class
-"
-"
-(
-)
 "
 "
 method
@@ -6394,7 +6852,9 @@ a
 def
 test_dont_configure_on_workers
 (
-tmpdir
+tmp_path
+:
+Path
 )
 -
 >
@@ -6402,15 +6862,13 @@ None
 :
     
 gotten
-=
-[
-]
-#
-type
 :
 List
 [
 object
+]
+=
+[
 ]
     
 class
@@ -6446,9 +6904,9 @@ self
             
 self
 .
-_store
+stash
 =
-Store
+Stash
 (
 )
         
@@ -6476,16 +6934,16 @@ shouldn
 '
 t
 need
-tmpdir
+tmp_path
 ?
         
 xmlpath
 =
 str
 (
-tmpdir
+tmp_path
 .
-join
+joinpath
 (
 "
 junix
@@ -6562,14 +7020,25 @@ parametrize_families
 def
 test_summing_simple
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -6584,15 +7053,15 @@ pytest
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
                 
 if
-path
+file_path
 .
-ext
+suffix
 =
 =
 "
@@ -6608,9 +7077,9 @@ from_parent
 (
 name
 =
-path
+file_path
 .
-basename
+name
 parent
 =
 parent
@@ -6660,11 +7129,11 @@ failed
         
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 myfile
@@ -6673,7 +7142,7 @@ xyz
 "
 )
 .
-write
+write_text
 (
 "
 hello
@@ -6809,9 +7278,16 @@ out
 def
 test_nullbyte
 (
-testdir
+pytester
+:
+Pytester
 junit_logging
+:
+str
 )
+-
+>
+None
 :
     
 #
@@ -6834,7 +7310,7 @@ the
 spec
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -6920,11 +7396,11 @@ False
     
 xmlf
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 junit
@@ -6933,7 +7409,7 @@ xml
 "
 )
     
-testdir
+pytester
 .
 runpytest
 (
@@ -6965,7 +7441,7 @@ text
 =
 xmlf
 .
-read
+read_text
 (
 )
     
@@ -7037,9 +7513,16 @@ out
 def
 test_nullbyte_replace
 (
-testdir
+pytester
+:
+Pytester
 junit_logging
+:
+str
 )
+-
+>
+None
 :
     
 #
@@ -7051,7 +7534,7 @@ byte
 gets
 replaced
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7137,11 +7620,11 @@ False
     
 xmlf
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 junit
@@ -7150,7 +7633,7 @@ xml
 "
 )
     
-testdir
+pytester
 .
 runpytest
 (
@@ -7182,7 +7665,7 @@ text
 =
 xmlf
 .
-read
+read_text
 (
 )
     
@@ -7226,6 +7709,9 @@ def
 test_invalid_xml_escape
 (
 )
+-
+>
+None
 :
     
 #
@@ -7448,18 +7934,21 @@ i
 def
 test_logxml_path_expansion
 (
-tmpdir
+tmp_path
+:
+Path
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
 home_tilde
 =
-py
-.
-path
-.
-local
+Path
 (
 os
 .
@@ -7473,7 +7962,7 @@ expanduser
 )
 )
 .
-join
+joinpath
 (
 "
 test
@@ -7486,17 +7975,17 @@ xml_tilde
 =
 LogXML
 (
+Path
+(
 "
 ~
-%
-stest
+"
+"
+test
 .
 xml
 "
-%
-tmpdir
-.
-sep
+)
 None
 )
     
@@ -7506,7 +7995,10 @@ xml_tilde
 logfile
 =
 =
+str
+(
 home_tilde
+)
     
 monkeypatch
 .
@@ -7517,7 +8009,7 @@ HOME
 "
 str
 (
-tmpdir
+tmp_path
 )
 )
     
@@ -7549,17 +8041,17 @@ xml_var
 =
 LogXML
 (
+Path
+(
 "
 HOME
-%
-stest
+"
+"
+test
 .
 xml
 "
-%
-tmpdir
-.
-sep
+)
 None
 )
     
@@ -7569,15 +8061,23 @@ xml_var
 logfile
 =
 =
+str
+(
 home_var
+)
 def
 test_logxml_changingdir
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7610,9 +8110,7 @@ a
     
 )
     
-testdir
-.
-tmpdir
+pytester
 .
 mkdir
 (
@@ -7623,7 +8121,7 @@ a
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7649,11 +8147,11 @@ ret
 0
     
 assert
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 a
@@ -7664,14 +8162,19 @@ xml
 "
 )
 .
-check
+exists
 (
 )
 def
 test_logxml_makedir
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7692,7 +8195,7 @@ file
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7717,7 +8220,7 @@ pass
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7745,11 +8248,11 @@ ret
 0
     
 assert
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 path
@@ -7762,14 +8265,19 @@ xml
 "
 )
 .
-check
+exists
 (
 )
 def
 test_logxml_check_isdir
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -7797,7 +8305,7 @@ directory
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7835,12 +8343,20 @@ filename
 def
 test_escaped_parametrized_names_xml
 (
-testdir
+    
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -7931,12 +8447,20 @@ x00
 def
 test_double_colon_split_function_issue469
 (
-testdir
+    
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8038,12 +8562,20 @@ colon
 def
 test_double_colon_split_method_issue469
 (
-testdir
+    
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8155,7 +8687,9 @@ colon
 def
 test_unicode_issue368
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -8164,11 +8698,11 @@ None
     
 path
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test
@@ -8206,11 +8740,6 @@ longrepr
 ustr
         
 sections
-=
-[
-]
-#
-type
 :
 List
 [
@@ -8219,6 +8748,9 @@ Tuple
 str
 str
 ]
+]
+=
+[
 ]
         
 nodeid
@@ -8241,6 +8773,12 @@ py
 TestClass
 .
 method
+"
+        
+when
+=
+"
+teardown
 "
     
 test_report
@@ -8374,12 +8912,19 @@ pytest_sessionfinish
 def
 test_record_property
 (
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8546,12 +9091,20 @@ in
 def
 test_record_property_same_name
 (
-testdir
+    
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8702,12 +9255,20 @@ record_xml_attribute
 def
 test_record_fixtures_without_junitxml
 (
-testdir
+    
+pytester
+:
+Pytester
 fixture_name
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8754,7 +9315,7 @@ fixture_name
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8780,12 +9341,19 @@ default
 def
 test_record_attribute
 (
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -8808,7 +9376,7 @@ xunit1
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -8974,10 +9542,20 @@ record_property
 def
 test_record_fixtures_xunit2
 (
-testdir
+    
+pytester
+:
+Pytester
 fixture_name
+:
+str
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
 "
@@ -8999,7 +9577,7 @@ family
 "
 "
     
-testdir
+pytester
 .
 makeini
 (
@@ -9022,7 +9600,7 @@ xunit2
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9203,10 +9781,20 @@ expected_lines
 def
 test_random_report_log_xdist
 (
-testdir
+    
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
 "
@@ -9270,7 +9858,7 @@ raising
 False
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9399,13 +9987,23 @@ parametrize_families
 def
 test_root_testsuites_tag
 (
-testdir
+    
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9472,14 +10070,21 @@ testsuite
 def
 test_runs_twice
 (
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
 f
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9527,7 +10132,7 @@ INTERNALERROR
 first
 second
 =
-[
+(
 x
 [
 "
@@ -9545,7 +10150,7 @@ find_by_tag
 testcase
 "
 )
-]
+)
     
 assert
 first
@@ -9555,9 +10160,20 @@ second
 def
 test_runs_twice_xdist
 (
-testdir
+    
+pytester
+:
+Pytester
+monkeypatch
+:
+MonkeyPatch
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
 pytest
@@ -9569,8 +10185,6 @@ xdist
 "
 )
     
-testdir
-.
 monkeypatch
 .
 delenv
@@ -9582,7 +10196,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
     
 f
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -9647,7 +10261,7 @@ INTERNALERROR
 first
 second
 =
-[
+(
 x
 [
 "
@@ -9665,7 +10279,7 @@ find_by_tag
 testcase
 "
 )
-]
+)
     
 assert
 first
@@ -9675,16 +10289,23 @@ second
 def
 test_fancy_items_regression
 (
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
 #
 issue
 1259
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -9798,23 +10419,21 @@ self
 def
 pytest_collect_file
 (
-path
+file_path
 parent
 )
 :
             
 if
-path
+file_path
 .
-check
-(
-ext
+suffix
+=
 =
 '
 .
 py
 '
-)
 :
                 
 return
@@ -9822,9 +10441,9 @@ FunCollector
 .
 from_parent
 (
-fspath
-=
 path
+=
+file_path
 parent
 =
 parent
@@ -9836,7 +10455,7 @@ parent
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -9966,8 +10585,12 @@ parametrize_families
 def
 test_global_properties
 (
-testdir
+pytester
+:
+Pytester
 xunit_family
+:
+str
 )
 -
 >
@@ -9976,11 +10599,11 @@ None
     
 path
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_global_properties
@@ -10011,11 +10634,6 @@ BaseReport
 :
         
 sections
-=
-[
-]
-#
-type
 :
 List
 [
@@ -10024,6 +10642,9 @@ Tuple
 str
 str
 ]
+]
+=
+[
 ]
         
 nodeid
@@ -10210,7 +10831,9 @@ expected
 def
 test_url_property
 (
-testdir
+pytester
+:
+Pytester
 )
 -
 >
@@ -10237,11 +10860,11 @@ dev
     
 path
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_url_property
@@ -10275,11 +10898,6 @@ FooBarBaz
 "
         
 sections
-=
-[
-]
-#
-type
 :
 List
 [
@@ -10288,6 +10906,9 @@ Tuple
 str
 str
 ]
+]
+=
+[
 ]
         
 nodeid
@@ -10407,13 +11028,23 @@ parametrize_families
 def
 test_record_testsuite_property
 (
-testdir
+    
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10560,11 +11191,16 @@ value
 def
 test_record_testsuite_property_junit_disabled
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10599,7 +11235,7 @@ good
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10629,12 +11265,20 @@ False
 def
 test_record_testsuite_property_type_checking
 (
-testdir
+    
+pytester
+:
+Pytester
 junit
+:
+bool
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10683,7 +11327,7 @@ else
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10746,18 +11390,30 @@ parametrize_families
 def
 test_set_suite_name
 (
-testdir
+    
+pytester
+:
+Pytester
 suite_name
+:
+str
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
 )
+-
+>
+None
 :
     
 if
 suite_name
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -10813,7 +11469,7 @@ expected
 pytest
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10879,12 +11535,20 @@ expected
 def
 test_escaped_skipreason_issue3533
 (
-testdir
+    
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -10985,13 +11649,22 @@ def
 test_logging_passing_tests_disabled_does_not_log_test_output
 (
     
-testdir
+pytester
+:
+Pytester
 run_and_parse
+:
+RunAndParse
 xunit_family
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -11035,7 +11708,7 @@ xunit_family
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -11194,14 +11867,28 @@ def
 test_logging_passing_tests_disabled_logs_output_for_failing_test_issue5430
 (
     
-testdir
+pytester
+:
+Pytester
+    
 junit_logging
+:
+str
+    
 run_and_parse
+:
+RunAndParse
+    
 xunit_family
+:
+str
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeini
 (
@@ -11239,7 +11926,7 @@ xunit_family
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (

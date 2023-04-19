@@ -27,6 +27,10 @@ io
 import
 StringIO
 from
+pathlib
+import
+Path
+from
 typing
 import
 AbstractSet
@@ -62,8 +66,6 @@ from
 typing
 import
 Union
-import
-pytest
 from
 _pytest
 import
@@ -114,10 +116,34 @@ from
 _pytest
 .
 config
+import
+hookimpl
+from
+_pytest
+.
+config
+import
+UsageError
+from
+_pytest
+.
+config
 .
 argparsing
 import
 Parser
+from
+_pytest
+.
+deprecated
+import
+check_ispytest
+from
+_pytest
+.
+fixtures
+import
+fixture
 from
 _pytest
 .
@@ -133,15 +159,9 @@ Session
 from
 _pytest
 .
-pathlib
+stash
 import
-Path
-from
-_pytest
-.
-store
-import
-StoreKey
+StashKey
 from
 _pytest
 .
@@ -215,7 +235,7 @@ m
 )
 caplog_handler_key
 =
-StoreKey
+StashKey
 [
 "
 LogCaptureHandler
@@ -225,7 +245,7 @@ LogCaptureHandler
 )
 caplog_records_key
 =
-StoreKey
+StashKey
 [
 Dict
 [
@@ -301,6 +321,15 @@ __init__
 "
     
 LOGLEVEL_COLOROPTS
+:
+Mapping
+[
+int
+AbstractSet
+[
+str
+]
+]
 =
 {
         
@@ -376,17 +405,6 @@ set
 )
     
 }
-#
-type
-:
-Mapping
-[
-int
-AbstractSet
-[
-str
-]
-]
     
 LEVELNAME_FMT_REGEX
 =
@@ -412,6 +430,16 @@ levelname
 \
 d
 *
+(
+?
+:
+\
+.
+\
+d
++
+)
+?
 s
 )
 "
@@ -450,6 +478,12 @@ kwargs
         
 self
 .
+_terminalwriter
+=
+terminalwriter
+        
+self
+.
 _original_fmt
 =
 self
@@ -461,17 +495,147 @@ _fmt
 self
 .
 _level_to_fmt_mapping
-=
-{
-}
-#
-type
 :
 Dict
 [
 int
 str
 ]
+=
+{
+}
+        
+for
+level
+color_opts
+in
+self
+.
+LOGLEVEL_COLOROPTS
+.
+items
+(
+)
+:
+            
+self
+.
+add_color_level
+(
+level
+*
+color_opts
+)
+    
+def
+add_color_level
+(
+self
+level
+:
+int
+*
+color_opts
+:
+str
+)
+-
+>
+None
+:
+        
+"
+"
+"
+Add
+or
+update
+color
+opts
+for
+a
+log
+level
+.
+        
+:
+param
+level
+:
+            
+Log
+level
+to
+apply
+a
+style
+to
+e
+.
+g
+.
+logging
+.
+INFO
+.
+        
+:
+param
+color_opts
+:
+            
+ANSI
+escape
+sequence
+color
+options
+.
+Capitalized
+colors
+indicates
+            
+background
+color
+i
+.
+e
+.
+'
+green
+'
+'
+Yellow
+'
+'
+bold
+'
+will
+give
+bold
+            
+green
+text
+on
+yellow
+background
+.
+        
+.
+.
+warning
+:
+:
+            
+This
+is
+an
+experimental
+API
+.
+        
+"
+"
+"
         
 assert
 self
@@ -509,25 +673,11 @@ group
 (
 )
         
-for
-level
-color_opts
-in
-self
-.
-LOGLEVEL_COLOROPTS
-.
-items
-(
-)
-:
-            
 formatted_levelname
 =
 levelname_fmt
 %
 {
-                
 "
 levelname
 "
@@ -538,9 +688,8 @@ getLevelName
 (
 level
 )
-            
 }
-            
+        
 #
 add
 ANSI
@@ -550,7 +699,7 @@ around
 the
 formatted
 levelname
-            
+        
 color_kwargs
 =
 {
@@ -562,21 +711,23 @@ name
 in
 color_opts
 }
-            
+        
 colorized_formatted_levelname
 =
-terminalwriter
+self
+.
+_terminalwriter
 .
 markup
 (
-                
+            
 formatted_levelname
 *
 *
 color_kwargs
-            
+        
 )
-            
+        
 self
 .
 _level_to_fmt_mapping
@@ -590,12 +741,12 @@ LEVELNAME_FMT_REGEX
 .
 sub
 (
-                
+            
 colorized_formatted_levelname
 self
 .
 _fmt
-            
+        
 )
     
 def
@@ -739,53 +890,6 @@ _get_auto_indent
 (
 auto_indent
 )
-    
-staticmethod
-    
-def
-_update_message
-(
-        
-record_dict
-:
-Dict
-[
-str
-object
-]
-message
-:
-str
-    
-)
--
->
-Dict
-[
-str
-object
-]
-:
-        
-tmp
-=
-record_dict
-.
-copy
-(
-)
-        
-tmp
-[
-"
-message
-"
-]
-=
-message
-        
-return
-tmp
     
 staticmethod
     
@@ -1269,18 +1373,21 @@ self
 .
 _fmt
 %
-self
-.
-_update_message
-(
+{
+*
+*
 record
 .
 __dict__
+"
+message
+"
+:
 lines
 [
 0
 ]
-)
+}
                 
 if
 auto_indent
@@ -2267,10 +2374,6 @@ text
 "
     
 stream
-=
-None
-#
-type
 :
 StringIO
     
@@ -2311,17 +2414,15 @@ StringIO
 self
 .
 records
-=
-[
-]
-#
-type
 :
 List
 [
 logging
 .
 LogRecord
+]
+=
+[
 ]
     
 def
@@ -2509,11 +2610,22 @@ item
 nodes
 .
 Node
+*
+_ispytest
+:
+bool
+=
+False
 )
 -
 >
 None
 :
+        
+check_ispytest
+(
+_ispytest
+)
         
 self
 .
@@ -2524,15 +2636,13 @@ item
 self
 .
 _initial_handler_level
-=
-None
-#
-type
 :
 Optional
 [
 int
 ]
+=
+None
         
 #
 Dict
@@ -2548,11 +2658,6 @@ level
 self
 .
 _initial_logger_levels
-=
-{
-}
-#
-type
 :
 Dict
 [
@@ -2562,6 +2667,9 @@ str
 ]
 int
 ]
+=
+{
+}
     
 def
 _finalize
@@ -2692,7 +2800,7 @@ self
 .
 _item
 .
-_store
+stash
 [
 caplog_handler_key
 ]
@@ -2804,7 +2912,7 @@ self
 .
 _item
 .
-_store
+stash
 [
 caplog_records_key
 ]
@@ -3349,7 +3457,11 @@ at_level
 self
 level
 :
+Union
+[
 int
+str
+]
 logger
 :
 Optional
@@ -3498,8 +3610,6 @@ setLevel
 (
 handler_orig_level
 )
-pytest
-.
 fixture
 def
 caplog
@@ -3623,6 +3733,9 @@ LogCaptureFixture
 request
 .
 node
+_ispytest
+=
+True
 )
     
 yield
@@ -3743,8 +3856,6 @@ logging
 level
         
 raise
-pytest
-.
 UsageError
 (
             
@@ -3801,8 +3912,6 @@ terminalreporter
 capturemanager
 are
 configured
-pytest
-.
 hookimpl
 (
 trylast
@@ -4232,22 +4341,20 @@ works
 self
 .
 log_cli_handler
-=
-_LiveLoggingStreamHandler
-(
-                
-terminal_reporter
-capture_manager
-            
-)
-#
-type
 :
 Union
 [
+                
 _LiveLoggingStreamHandler
 _LiveLoggingNullHandler
+            
 ]
+=
+_LiveLoggingStreamHandler
+(
+terminal_reporter
+capture_manager
+)
         
 else
 :
@@ -4370,6 +4477,10 @@ log_format
 :
             
 formatter
+:
+logging
+.
+Formatter
 =
 ColoredLevelFormatter
 (
@@ -4384,12 +4495,6 @@ log_format
 log_date_format
             
 )
-#
-type
-:
-logging
-.
-Formatter
         
 else
 :
@@ -4627,11 +4732,37 @@ if
 old_stream
 :
             
+#
+https
+:
+/
+/
+github
+.
+com
+/
+python
+/
+typeshed
+/
+pull
+/
+5663
+            
 old_stream
 .
 close
 (
 )
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
     
 def
 _log_cli_enabled
@@ -4739,8 +4870,6 @@ False
 return
 True
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -4807,8 +4936,6 @@ log_file_level
                 
 yield
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -4875,8 +5002,6 @@ log_file_level
                 
 yield
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -4997,8 +5122,6 @@ the
 tests
 .
     
-pytest
-.
 hookimpl
     
 def
@@ -5030,8 +5153,6 @@ start
 "
 )
     
-pytest
-.
 hookimpl
     
 def
@@ -5102,6 +5223,7 @@ catching_logs
 self
 .
 caplog_handler
+            
 level
 =
 self
@@ -5117,6 +5239,7 @@ catching_logs
 self
 .
 report_handler
+            
 level
 =
 self
@@ -5142,7 +5265,7 @@ reset
             
 item
 .
-_store
+stash
 [
 caplog_records_key
 ]
@@ -5156,7 +5279,7 @@ records
             
 item
 .
-_store
+stash
 [
 caplog_handler_key
 ]
@@ -5190,8 +5313,6 @@ log
 log
 )
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -5231,11 +5352,6 @@ setup
 )
         
 empty
-=
-{
-}
-#
-type
 :
 Dict
 [
@@ -5247,10 +5363,13 @@ logging
 LogRecord
 ]
 ]
+=
+{
+}
         
 item
 .
-_store
+stash
 [
 caplog_records_key
 ]
@@ -5269,8 +5388,6 @@ setup
 "
 )
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -5321,8 +5438,6 @@ call
 "
 )
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -5376,7 +5491,7 @@ teardown
 del
 item
 .
-_store
+stash
 [
 caplog_records_key
 ]
@@ -5384,13 +5499,11 @@ caplog_records_key
 del
 item
 .
-_store
+stash
 [
 caplog_handler_key
 ]
     
-pytest
-.
 hookimpl
     
 def
@@ -5414,8 +5527,6 @@ finish
 "
 )
     
-pytest
-.
 hookimpl
 (
 hookwrapper
@@ -5482,8 +5593,6 @@ log_file_level
                 
 yield
     
-pytest
-.
 hookimpl
     
 def
@@ -5665,12 +5774,10 @@ it
 .
     
 stream
-=
-None
-#
-type
 :
 TerminalReporter
+=
+None
 #
 type
 :
@@ -5699,13 +5806,12 @@ CaptureManager
 None
 :
         
-logging
-.
-StreamHandler
+super
+(
+)
 .
 __init__
 (
-self
 stream
 =
 terminal_reporter

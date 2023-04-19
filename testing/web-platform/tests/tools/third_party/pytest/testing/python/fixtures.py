@@ -1,7 +1,13 @@
 import
+os
+import
 sys
 import
 textwrap
+from
+pathlib
+import
+Path
 import
 pytest
 from
@@ -29,15 +35,27 @@ FixtureRequest
 from
 _pytest
 .
-pathlib
+monkeypatch
 import
-Path
+MonkeyPatch
 from
 _pytest
 .
 pytester
 import
 get_public_names
+from
+_pytest
+.
+pytester
+import
+Pytester
+from
+_pytest
+.
+python
+import
+Function
 def
 test_getfuncargnames_functions
 (
@@ -278,6 +296,82 @@ arg2
 "
 )
 def
+test_getfuncargnames_staticmethod_inherited
+(
+)
+-
+>
+None
+:
+    
+"
+"
+"
+Test
+getfuncargnames
+for
+inherited
+staticmethods
+(
+#
+8061
+)
+"
+"
+"
+    
+class
+A
+:
+        
+staticmethod
+        
+def
+static
+(
+arg1
+arg2
+x
+=
+1
+)
+:
+            
+raise
+NotImplementedError
+(
+)
+    
+class
+B
+(
+A
+)
+:
+        
+pass
+    
+assert
+getfuncargnames
+(
+B
+.
+static
+cls
+=
+B
+)
+=
+=
+(
+"
+arg1
+"
+"
+arg2
+"
+)
+def
 test_getfuncargnames_partial
 (
 )
@@ -493,17 +587,22 @@ _fillfuncargs
 =
 fixtures
 .
-fillfixtures
+_fillfuncargs
     
 def
 test_funcarg_lookupfails
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -511,7 +610,7 @@ copy_example
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -576,11 +675,16 @@ def
 test_detect_recursive_dependency_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -588,7 +692,7 @@ copy_example
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -622,11 +726,16 @@ def
 test_funcarg_basic
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -634,7 +743,7 @@ copy_example
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -648,12 +757,35 @@ py
 )
 )
         
+assert
+isinstance
+(
+item
+Function
+)
+        
+#
+Execute
+'
+s
+item
+'
+s
+setup
+which
+fills
+fixtures
+.
+        
 item
 .
-_request
+session
 .
-_fillfixtures
+_setupstate
+.
+setup
 (
+item
 )
         
 del
@@ -712,11 +844,16 @@ def
 test_funcarg_lookup_modulelevel
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -724,7 +861,7 @@ copy_example
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -743,13 +880,18 @@ def
 test_funcarg_lookup_classlevel
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -757,7 +899,7 @@ copy_example
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -783,12 +925,19 @@ passed
 def
 test_conftest_funcargs_only_available_in_subdir
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -796,7 +945,7 @@ copy_example
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -819,13 +968,18 @@ def
 test_extend_fixture_module_class
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 testfile
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -833,7 +987,7 @@ copy_example
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -857,7 +1011,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -884,13 +1038,18 @@ def
 test_extend_fixture_conftest_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -898,7 +1057,7 @@ copy_example
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -922,7 +1081,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -971,13 +1130,18 @@ def
 test_extend_fixture_conftest_conftest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 copy_example
 (
@@ -985,7 +1149,7 @@ copy_example
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1009,7 +1173,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1058,11 +1222,16 @@ def
 test_extend_fixture_conftest_plugin
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1095,13 +1264,13 @@ return
         
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1141,7 +1310,7 @@ foo
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1171,7 +1340,7 @@ foo
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1193,8 +1362,13 @@ def
 test_extend_fixture_plugin_plugin
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 #
@@ -1208,7 +1382,7 @@ in
 loading
 order
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1241,7 +1415,7 @@ return
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1277,13 +1451,13 @@ foo
         
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1324,7 +1498,7 @@ foo
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1341,9 +1515,16 @@ ret
 def
 test_override_parametrized_fixture_conftest_module
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -1370,7 +1551,7 @@ level
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1415,7 +1596,7 @@ param
         
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1465,7 +1646,7 @@ spam
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1489,7 +1670,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1515,9 +1696,16 @@ passed
 def
 test_override_parametrized_fixture_conftest_conftest
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -1543,7 +1731,7 @@ level
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1588,7 +1776,7 @@ param
         
 subdir
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -1599,7 +1787,7 @@ subdir
         
 subdir
 .
-join
+joinpath
 (
 "
 conftest
@@ -1608,7 +1796,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -1651,7 +1839,7 @@ testfile
 =
 subdir
 .
-join
+joinpath
 (
 "
 test_spam
@@ -1662,7 +1850,7 @@ py
         
 testfile
 .
-write
+write_text
 (
             
 textwrap
@@ -1700,7 +1888,7 @@ spam
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1724,7 +1912,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1750,9 +1938,16 @@ passed
 def
 test_override_non_parametrized_fixture_conftest_module
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -1779,7 +1974,7 @@ level
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -1814,7 +2009,7 @@ spam
         
 testfile
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -1897,7 +2092,7 @@ spam
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1921,7 +2116,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1947,9 +2142,16 @@ passed
 def
 test_override_non_parametrized_fixture_conftest_conftest
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -1975,7 +2177,7 @@ level
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2010,7 +2212,7 @@ spam
         
 subdir
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -2021,7 +2223,7 @@ subdir
         
 subdir
 .
-join
+joinpath
 (
 "
 conftest
@@ -2030,7 +2232,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -2083,7 +2285,7 @@ testfile
 =
 subdir
 .
-join
+joinpath
 (
 "
 test_spam
@@ -2094,7 +2296,7 @@ py
         
 testfile
 .
-write
+write_text
 (
             
 textwrap
@@ -2155,7 +2357,7 @@ spam
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2179,7 +2381,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2207,9 +2409,14 @@ test_override_autouse_fixture_with_parametrized_fixture_conftest_conftest
 (
         
 self
-testdir
+pytester
+:
+Pytester
     
 )
+-
+>
+None
 :
         
 "
@@ -2244,7 +2451,7 @@ issue
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2284,7 +2491,7 @@ spam
         
 subdir
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -2295,7 +2502,7 @@ subdir
         
 subdir
 .
-join
+joinpath
 (
 "
 conftest
@@ -2304,7 +2511,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -2357,7 +2564,7 @@ testfile
 =
 subdir
 .
-join
+joinpath
 (
 "
 test_spam
@@ -2368,7 +2575,7 @@ py
         
 testfile
 .
-write
+write_text
 (
             
 textwrap
@@ -2429,7 +2636,7 @@ spam
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2453,7 +2660,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2479,9 +2686,16 @@ passed
 def
 test_override_fixture_reusing_super_fixture_parametrization
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -2514,7 +2728,7 @@ parametrized
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2556,7 +2770,7 @@ param
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2607,7 +2821,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2632,9 +2846,16 @@ passed
 def
 test_override_parametrize_fixture_and_indirect
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -2668,7 +2889,7 @@ parametrization
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2710,7 +2931,7 @@ param
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2803,7 +3024,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2830,9 +3051,14 @@ test_override_top_level_fixture_reusing_super_fixture_parametrization
 (
         
 self
-testdir
+pytester
+:
+Pytester
     
 )
+-
+>
+None
 :
         
 "
@@ -2854,7 +3080,7 @@ overwriting
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -2900,7 +3126,7 @@ param
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2981,7 +3207,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3006,9 +3232,16 @@ passed
 def
 test_override_parametrized_fixture_with_new_parametrized_fixture
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -3048,7 +3281,7 @@ param
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3094,7 +3327,7 @@ param
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3162,7 +3395,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3188,8 +3421,13 @@ def
 test_autouse_fixture_plugin
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 #
@@ -3213,7 +3451,7 @@ fixture
 handling
 .
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3257,13 +3495,13 @@ foo
         
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3303,7 +3541,7 @@ foo
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3321,11 +3559,16 @@ def
 test_funcarg_lookup_error
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -3387,7 +3630,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3413,7 +3656,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3526,8 +3769,13 @@ def
 test_fixture_excinfo_leak
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 #
@@ -3542,7 +3790,7 @@ into
 fixture
 executions
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3660,7 +3908,7 @@ None
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3681,13 +3929,18 @@ def
 test_request_attributes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -3725,6 +3978,13 @@ pass
         
 )
         
+assert
+isinstance
+(
+item
+Function
+)
+        
 req
 =
 fixtures
@@ -3732,6 +3992,9 @@ fixtures
 FixtureRequest
 (
 item
+_ispytest
+=
+True
 )
         
 assert
@@ -3817,15 +4080,20 @@ def
 test_request_attributes_method
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 (
 item
 )
 =
-testdir
+pytester
 .
 getitems
 (
@@ -3875,6 +4143,13 @@ pass
         
 )
         
+assert
+isinstance
+(
+item
+Function
+)
+        
 req
 =
 item
@@ -3909,13 +4184,18 @@ def
 test_request_contains_funcarg_arg2fixturedefs
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -3967,7 +4247,7 @@ pass
 item1
 )
 =
-testdir
+pytester
 .
 genitems
 (
@@ -3992,7 +4272,12 @@ fixtures
 .
 FixtureRequest
 (
+            
 item1
+_ispytest
+=
+True
+        
 )
 .
 _arg2fixturedefs
@@ -4060,8 +4345,13 @@ def
 test_request_garbage
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 try
@@ -4097,7 +4387,7 @@ xdist
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4223,7 +4513,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -4250,11 +4540,16 @@ def
 test_getfixturevalue_recursive
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -4286,7 +4581,7 @@ return
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4342,7 +4637,7 @@ something
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -4361,8 +4656,13 @@ def
 test_getfixturevalue_teardown
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -4440,7 +4740,7 @@ this
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4563,7 +4863,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4590,13 +4890,18 @@ def
 test_getfixturevalue
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -4608,12 +4913,6 @@ getitem
 import
 pytest
             
-values
-=
-[
-2
-]
-            
 pytest
 .
 fixture
@@ -4624,8 +4923,15 @@ something
 request
 )
 :
+                
 return
 1
+            
+values
+=
+[
+2
+]
             
 pytest
 .
@@ -4659,11 +4965,37 @@ pass
         
 )
         
+assert
+isinstance
+(
+item
+Function
+)
+        
 req
 =
 item
 .
 _request
+        
+#
+Execute
+item
+'
+s
+setup
+.
+        
+item
+.
+session
+.
+_setupstate
+.
+setup
+(
+item
+)
         
 with
 pytest
@@ -4757,14 +5089,6 @@ val2
 =
 2
         
-item
-.
-_request
-.
-_fillfixtures
-(
-)
-        
 assert
 item
 .
@@ -4805,13 +5129,18 @@ def
 test_request_addfinalizer
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 item
 =
-testdir
+pytester
 .
 getitem
 (
@@ -4867,13 +5196,20 @@ pass
         
 )
         
+assert
+isinstance
+(
+item
+Function
+)
+        
 item
 .
 session
 .
 _setupstate
 .
-prepare
+setup
 (
 item
 )
@@ -4892,7 +5228,7 @@ check
 finalization
 calls
         
-teardownlist
+parent
 =
 item
 .
@@ -4902,6 +5238,16 @@ pytest
 .
 Module
 )
+        
+assert
+parent
+is
+not
+None
+        
+teardownlist
+=
+parent
 .
 obj
 .
@@ -4923,7 +5269,6 @@ ss
 .
 teardown_exact
 (
-item
 None
 )
         
@@ -4946,11 +5291,16 @@ def
 test_request_addfinalizer_failing_setup
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5018,7 +5368,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5043,12 +5393,19 @@ passed
 def
 test_request_addfinalizer_failing_setup_module
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5123,7 +5480,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5160,14 +5517,21 @@ values
 def
 test_request_addfinalizer_partial_setup_failure
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5242,7 +5606,7 @@ values
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5277,9 +5641,16 @@ fails
 def
 test_request_subrequest_addfinalizer_exceptions
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -5317,7 +5688,7 @@ exception
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5495,7 +5866,7 @@ values
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5535,13 +5906,18 @@ def
 test_request_getmodulepath
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 modcol
 =
-testdir
+pytester
 .
 getmodulecol
 (
@@ -5559,7 +5935,7 @@ pass
 item
 )
 =
-testdir
+pytester
 .
 genitems
 (
@@ -5575,27 +5951,35 @@ fixtures
 FixtureRequest
 (
 item
+_ispytest
+=
+True
 )
         
 assert
 req
 .
-fspath
+path
 =
 =
 modcol
 .
-fspath
+path
     
 def
 test_request_fixturenames
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5655,7 +6039,7 @@ True
 def
 sarg
 (
-tmpdir
+tmp_path
 )
 :
                 
@@ -5687,9 +6071,6 @@ set
 (
 [
 "
-tmpdir
-"
-"
 sarg
 "
 "
@@ -5719,7 +6100,7 @@ tmp_path_factory
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -5738,8 +6119,13 @@ def
 test_request_fixturenames_dynamic_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -5754,7 +6140,7 @@ for
 "
 "
         
-testdir
+pytester
 .
 copy_example
 (
@@ -5769,7 +6155,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5795,11 +6181,16 @@ def
 test_setupdecorator_and_xunit
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5988,7 +6379,7 @@ function
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6011,8 +6402,13 @@ def
 test_fixtures_sub_subdir_normalize_sep
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 #
@@ -6027,17 +6423,15 @@ place
         
 b
 =
-testdir
+pytester
 .
-mkdir
+path
+.
+joinpath
 (
 "
 tests
 "
-)
-.
-mkdir
-(
 "
 unit
 "
@@ -6045,7 +6439,16 @@ unit
         
 b
 .
-join
+mkdir
+(
+parents
+=
+True
+)
+        
+b
+.
+joinpath
 (
 "
 conftest
@@ -6054,7 +6457,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -6094,7 +6497,7 @@ p
 =
 b
 .
-join
+joinpath
 (
 "
 test_module
@@ -6105,7 +6508,7 @@ py
         
 p
 .
-write
+write_text
 (
 "
 def
@@ -6120,7 +6523,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6172,11 +6575,16 @@ def
 test_show_fixtures_color_yes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6193,7 +6601,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6216,7 +6624,7 @@ assert
 \
 x1b
 [
-32mtmpdir
+32mtmp_path
 "
 in
 result
@@ -6231,11 +6639,16 @@ def
 test_newstyle_with_request
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6279,7 +6692,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6298,11 +6711,16 @@ def
 test_setupcontext_no_param
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6388,7 +6806,7 @@ in
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6403,6 +6821,92 @@ passed
 2
 )
 class
+TestRequestSessionScoped
+:
+    
+pytest
+.
+fixture
+(
+scope
+=
+"
+session
+"
+)
+    
+def
+session_request
+(
+self
+request
+)
+:
+        
+return
+request
+    
+pytest
+.
+mark
+.
+parametrize
+(
+"
+name
+"
+[
+"
+path
+"
+"
+module
+"
+]
+)
+    
+def
+test_session_scoped_unavailable_attributes
+(
+self
+session_request
+name
+)
+:
+        
+with
+pytest
+.
+raises
+(
+            
+AttributeError
+            
+match
+=
+f
+"
+{
+name
+}
+not
+available
+in
+session
+-
+scoped
+context
+"
+        
+)
+:
+            
+getattr
+(
+session_request
+name
+)
+class
 TestRequestMarking
 :
     
@@ -6410,14 +6914,19 @@ def
 test_applymarker
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 item1
 item2
 =
-testdir
+pytester
 .
 getitems
 (
@@ -6482,6 +6991,9 @@ fixtures
 FixtureRequest
 (
 item1
+_ispytest
+=
+True
 )
         
 assert
@@ -6559,16 +7071,30 @@ applymarker
 (
 42
 )
+#
+type
+:
+ignore
+[
+arg
+-
+type
+]
     
 def
 test_accesskeywords
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6635,7 +7161,7 @@ keywords
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6654,11 +7180,16 @@ def
 test_accessmarker_dynamic
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -6731,7 +7262,7 @@ hello
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6803,7 +7334,7 @@ keywords
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6825,11 +7356,16 @@ def
 test_noargfixturedec
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6875,7 +7411,7 @@ arg1
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -6894,11 +7430,16 @@ def
 test_receives_funcargs
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6984,7 +7525,7 @@ arg2
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7003,11 +7544,16 @@ def
 test_receives_funcargs_scope_mismatch
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7083,7 +7629,7 @@ arg2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7148,12 +7694,19 @@ error
 def
 test_receives_funcargs_scope_mismatch_issue660
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7230,7 +7783,7 @@ arg2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7272,11 +7825,16 @@ def
 test_invalid_scope
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7324,7 +7882,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest_inprocess
 (
@@ -7383,11 +7941,16 @@ test_parameters_without_eq_semantics
 (
 self
 scope
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7533,7 +8096,7 @@ scope
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7559,11 +8122,16 @@ def
 test_funcarg_parametrized_and_used_twice
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7662,7 +8230,7 @@ arg1
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7687,12 +8255,19 @@ passed
 def
 test_factory_uses_unknown_funcarg_as_dependency_error
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7751,7 +8326,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7818,11 +8393,16 @@ def
 test_factory_setup_as_classes_fails
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7874,7 +8454,7 @@ arg1
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -7901,11 +8481,16 @@ def
 test_usefixtures_marker
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8038,7 +8623,7 @@ TestClass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8057,11 +8642,16 @@ def
 test_usefixtures_ini
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -8084,7 +8674,7 @@ myfix
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -8130,7 +8720,7 @@ world
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8188,7 +8778,7 @@ world
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8207,13 +8797,18 @@ def
 test_usefixtures_seen_in_showmarkers
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8256,11 +8851,16 @@ def
 test_request_instance_issue203
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8329,7 +8929,7 @@ arg1
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8348,11 +8948,16 @@ def
 test_fixture_parametrized_with_iterator
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8465,7 +9070,7 @@ arg2
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8519,8 +9124,13 @@ def
 test_setup_functions_as_fixtures
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -8545,7 +9155,7 @@ rules
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8667,7 +9277,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8698,25 +9308,19 @@ pytest
 fixture
     
 def
-testdir
+pytester
 (
 self
-request
+pytester
+:
+Pytester
 )
+-
+>
+Pytester
 :
         
-testdir
-=
-request
-.
-getfixturevalue
-(
-"
-testdir
-"
-)
-        
-testdir
+pytester
 .
 makeconftest
 (
@@ -8783,17 +9387,22 @@ _pyfuncitem
 )
         
 return
-testdir
+pytester
     
 def
 test_parsefactories_evil_objects_issue214
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8853,7 +9462,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8875,11 +9484,16 @@ def
 test_parsefactories_conftest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8958,7 +9572,7 @@ name
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -8980,12 +9594,19 @@ passed
 def
 test_parsefactories_conftest_and_module_and_class
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9137,7 +9758,7 @@ class
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -9159,9 +9780,19 @@ passed
 def
 test_parsefactories_relative_node_ids
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 #
@@ -9198,7 +9829,7 @@ html
         
 runner
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9209,7 +9840,7 @@ runner
         
 package
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9220,7 +9851,7 @@ package
         
 package
 .
-join
+joinpath
 (
 "
 conftest
@@ -9229,7 +9860,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9268,7 +9899,7 @@ return
         
 package
 .
-join
+joinpath
 (
 "
 test_x
@@ -9277,7 +9908,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9315,7 +9946,7 @@ sub
 =
 package
 .
-mkdir
+joinpath
 (
 "
 sub
@@ -9324,7 +9955,13 @@ sub
         
 sub
 .
-join
+mkdir
+(
+)
+        
+sub
+.
+joinpath
 (
 "
 __init__
@@ -9333,13 +9970,13 @@ py
 "
 )
 .
-ensure
+touch
 (
 )
         
 sub
 .
-join
+joinpath
 (
 "
 conftest
@@ -9348,7 +9985,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9387,7 +10024,7 @@ return
         
 sub
 .
-join
+joinpath
 (
 "
 test_y
@@ -9396,7 +10033,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9432,7 +10069,7 @@ one
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -9448,16 +10085,25 @@ passed
 )
         
 with
-runner
+monkeypatch
 .
-as_cwd
+context
 (
 )
+as
+mp
 :
+            
+mp
+.
+chdir
+(
+runner
+)
             
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -9480,11 +10126,16 @@ def
 test_package_xunit_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9509,7 +10160,7 @@ values
         
 package
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9520,7 +10171,7 @@ package
         
 package
 .
-join
+joinpath
 (
 "
 __init__
@@ -9529,7 +10180,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9587,7 +10238,7 @@ values
         
 package
 .
-join
+joinpath
 (
 "
 test_x
@@ -9596,7 +10247,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9641,7 +10292,7 @@ package
         
 package
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9652,7 +10303,7 @@ package2
         
 package
 .
-join
+joinpath
 (
 "
 __init__
@@ -9661,7 +10312,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9719,7 +10370,7 @@ values
         
 package
 .
-join
+joinpath
 (
 "
 test_x
@@ -9728,7 +10379,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9773,7 +10424,7 @@ package2
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -9792,11 +10443,16 @@ def
 test_package_fixture_complex
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -9819,20 +10475,20 @@ values
         
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
-testdir
+pytester
 .
-tmpdir
+path
 .
-dirname
+name
 )
         
 package
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -9843,7 +10499,7 @@ package
         
 package
 .
-join
+joinpath
 (
 "
 __init__
@@ -9852,7 +10508,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 "
@@ -9860,7 +10516,7 @@ write
         
 package
 .
-join
+joinpath
 (
 "
 conftest
@@ -9869,7 +10525,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -9976,7 +10632,7 @@ pop
         
 package
 .
-join
+joinpath
 (
 "
 test_x
@@ -9985,7 +10641,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -10054,7 +10710,7 @@ package
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10073,11 +10729,16 @@ def
 test_collect_custom_items
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 copy_example
 (
@@ -10090,7 +10751,7 @@ custom_item
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -10122,14 +10783,19 @@ pytest
 fixture
     
 def
-testdir
+pytester
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+Pytester
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -10154,7 +10820,7 @@ def
 perfunction
 (
 request
-tmpdir
+tmp_path
 )
 :
                 
@@ -10169,7 +10835,7 @@ fixture
 def
 arg1
 (
-tmpdir
+tmp_path
 )
 :
                 
@@ -10232,17 +10898,22 @@ _pyfuncitem
 )
         
 return
-testdir
+pytester
     
 def
 test_parsefactories_conftest
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10268,6 +10939,8 @@ fm
                 
 autousenames
 =
+list
+(
 fm
 .
 _getautousenames
@@ -10275,6 +10948,7 @@ _getautousenames
 item
 .
 nodeid
+)
 )
                 
 assert
@@ -10311,7 +10985,7 @@ autousenames
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10334,11 +11008,16 @@ def
 test_two_classes_separated_autouse
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10466,7 +11145,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10485,11 +11164,16 @@ def
 test_setup_at_classlevel
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10579,7 +11263,7 @@ test_method2
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10620,11 +11304,16 @@ def
 test_setup_enabled_functionnode
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10743,7 +11432,7 @@ fixturenames
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10766,8 +11455,13 @@ def
 test_callables_nocode
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -10802,7 +11496,7 @@ object
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -10857,7 +11551,7 @@ _call
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -10883,13 +11577,18 @@ def
 test_autouse_in_conftests
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 a
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -10900,7 +11599,7 @@ a
         
 b
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -10911,7 +11610,7 @@ a1
         
 conftest
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -10948,21 +11647,21 @@ xxx
         
 conftest
 .
-move
+rename
 (
 a
 .
-join
+joinpath
 (
 conftest
 .
-basename
+name
 )
 )
         
 a
 .
-join
+joinpath
 (
 "
 test_something
@@ -10971,7 +11670,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -10985,7 +11684,7 @@ pass
         
 b
 .
-join
+joinpath
 (
 "
 test_otherthing
@@ -10994,7 +11693,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 def
@@ -11008,7 +11707,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -11043,11 +11742,16 @@ def
 test_autouse_in_module_and_two_classes
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11202,7 +11906,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -11224,13 +11928,18 @@ def
 test_autouse_conftest_mid_directory
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 pkgdir
 =
-testdir
+pytester
 .
 mkpydir
 (
@@ -11241,7 +11950,7 @@ xyz123
         
 pkgdir
 .
-join
+joinpath
 (
 "
 conftest
@@ -11250,7 +11959,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -11300,15 +12009,29 @@ hello
         
 )
         
-t
+sub
 =
 pkgdir
 .
-ensure
+joinpath
 (
 "
 tests
 "
+)
+        
+sub
+.
+mkdir
+(
+)
+        
+t
+=
+sub
+.
+joinpath
+(
 "
 test_app
 .
@@ -11318,7 +12041,13 @@ py
         
 t
 .
-write
+touch
+(
+)
+        
+t
+.
+write_text
 (
             
 textwrap
@@ -11360,7 +12089,7 @@ hello
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -11383,11 +12112,16 @@ def
 test_funcarg_and_setup
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11529,7 +12263,7 @@ arg
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -11548,11 +12282,16 @@ def
 test_uses_parametrized_resource
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11674,7 +12413,7 @@ else
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -11697,11 +12436,16 @@ def
 test_session_parametrized_function
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -11838,7 +12582,7 @@ arg
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -11864,14 +12608,21 @@ passed
 def
 test_class_function_parametrization_finalization
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makeconftest
 (
@@ -12011,7 +12762,7 @@ fin
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12061,27 +12812,9 @@ pass
         
 )
         
-confcut
-=
-"
--
--
-confcutdir
-=
-{
-}
-"
-.
-format
-(
-testdir
-.
-tmpdir
-)
-        
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12093,7 +12826,14 @@ v
 -
 s
 "
-confcut
+"
+-
+-
+confcutdir
+"
+pytester
+.
+path
 )
         
 reprec
@@ -12129,17 +12869,22 @@ pluginmanager
 .
 _getconftestmodules
 (
+            
 p
 importmode
 =
 "
 prepend
 "
+rootpath
+=
+pytester
+.
+path
+        
 )
 [
-            
 0
-        
 ]
 .
 values
@@ -12169,11 +12914,16 @@ def
 test_scope_ordering
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12303,7 +13053,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12322,11 +13072,16 @@ def
 test_parametrization_setup_teardown_ordering
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12568,7 +13323,7 @@ teardown
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12591,11 +13346,16 @@ def
 test_ordering_autouse_before_explicit
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12677,7 +13437,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12759,11 +13519,18 @@ p11
 def
 test_ordering_dependencies_torndown_first
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 param1
 param2
+    
 )
+-
+>
+None
 :
         
 "
@@ -12775,7 +13542,7 @@ param2
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -12926,7 +13693,7 @@ locals
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -12952,11 +13719,16 @@ def
 test_parametrize
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13043,7 +13815,7 @@ abc
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13062,11 +13834,16 @@ def
 test_multiple_parametrization_issue_736
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13153,7 +13930,7 @@ in
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13219,10 +13996,17 @@ val
 def
 test_override_parametrized_fixture_issue_979
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 param_args
+    
 )
+-
+>
+None
 :
         
 "
@@ -13257,7 +14041,7 @@ for
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13338,7 +14122,7 @@ param_args
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13357,11 +14141,16 @@ def
 test_scope_session
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13478,7 +14267,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13497,11 +14286,16 @@ def
 test_scope_session_exc
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13591,7 +14385,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13613,11 +14407,16 @@ def
 test_scope_session_exc_two_fix
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13744,7 +14543,7 @@ m
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13766,11 +14565,16 @@ def
 test_scope_exc
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -13904,7 +14708,7 @@ req_list
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -13926,11 +14730,16 @@ def
 test_scope_module_uses_session
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14047,7 +14856,7 @@ values
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -14066,11 +14875,16 @@ def
 test_scope_module_and_finalizer
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -14181,7 +14995,7 @@ finalized_list
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14302,7 +15116,7 @@ finalized
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -14321,11 +15135,16 @@ def
 test_scope_mismatch_various
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -14373,7 +15192,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14431,7 +15250,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14475,11 +15294,16 @@ def
 test_dynamic_scope
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -14592,7 +15416,7 @@ calls
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14635,7 +15459,7 @@ dynamic_fixture
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -14652,7 +15476,7 @@ passed
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -14681,11 +15505,16 @@ def
 test_dynamic_scope_bad_return
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14738,7 +15567,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -14781,11 +15610,16 @@ def
 test_register_only_with_mark
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -14818,7 +15652,7 @@ return
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14871,7 +15705,7 @@ arg
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -14890,11 +15724,16 @@ def
 test_parametrize_and_scope
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -14969,7 +15808,7 @@ arg
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -15042,11 +15881,16 @@ def
 test_scope_mismatch
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -15084,7 +15928,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -15133,7 +15977,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -15164,11 +16008,16 @@ def
 test_parametrize_separated_order
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -15250,7 +16099,7 @@ arg
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -15304,11 +16153,16 @@ def
 test_module_parametrized_ordering
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -15331,7 +16185,7 @@ classic
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -15407,7 +16261,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -15492,7 +16346,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -15715,11 +16569,16 @@ def
 test_dynamic_parametrized_ordering
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -15742,7 +16601,7 @@ classic
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -15884,7 +16743,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -15919,7 +16778,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -16054,11 +16913,16 @@ def
 test_class_ordering
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -16081,7 +16945,7 @@ classic
         
 )
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -16218,7 +17082,7 @@ fin
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -16279,7 +17143,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -16526,12 +17390,19 @@ PASSED
 def
 test_parametrize_separated_order_higher_scope_first
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -16766,7 +17637,7 @@ test4
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -17030,11 +17901,16 @@ def
 test_parametrized_fixture_teardown_order
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -17232,7 +18108,7 @@ values
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -17281,11 +18157,16 @@ def
 test_fixture_finalizer
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -17321,7 +18202,7 @@ sys
 .
 stdout
 .
-write
+write_text
 (
 '
 Finalized
@@ -17347,7 +18228,7 @@ return
         
 b
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -17358,7 +18239,7 @@ subdir
         
 b
 .
-join
+joinpath
 (
 "
 test_overridden_fixture_finalizer
@@ -17367,7 +18248,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -17433,7 +18314,7 @@ True
         
 reprec
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -17472,13 +18353,18 @@ def
 test_class_scope_with_normal_tests
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 testpath
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -17593,7 +18479,7 @@ a
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -17630,11 +18516,16 @@ def
 test_request_is_clean
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -17703,7 +18594,7 @@ pass
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -17746,11 +18637,16 @@ def
 test_parametrize_separated_lifecycle
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -17858,7 +18754,7 @@ arg
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -17972,12 +18868,19 @@ fin2
 def
 test_parametrize_function_scoped_finalizers_called
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -18123,7 +19026,7 @@ fin2
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -18167,10 +19070,17 @@ module
 def
 test_finalizer_order_on_parametrization
 (
+        
 self
 scope
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -18182,7 +19092,7 @@ testdir
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -18371,7 +19281,7 @@ scope
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -18394,8 +19304,13 @@ def
 test_class_scope_parametrization_ordering
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -18407,7 +19322,7 @@ testdir
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -18552,7 +19467,7 @@ test_population
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -18643,11 +19558,16 @@ def
 test_parametrize_setup_function
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -18847,7 +19767,7 @@ setup2
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -18869,12 +19789,19 @@ passed
 def
 test_fixture_marked_function_not_collected_as_test
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -18920,7 +19847,7 @@ test_app
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -18939,11 +19866,16 @@ def
 test_params_and_ids
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -19012,7 +19944,7 @@ assert
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -19050,11 +19982,16 @@ def
 test_params_and_ids_yieldfixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -19122,7 +20059,7 @@ assert
         
 res
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -19159,10 +20096,17 @@ beta
 def
 test_deterministic_fixture_collection
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 "
@@ -19174,7 +20118,7 @@ monkeypatch
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -19335,7 +20279,7 @@ PYTHONHASHSEED
         
 out1
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -19359,7 +20303,7 @@ PYTHONHASHSEED
         
 out2
 =
-testdir
+pytester
 .
 runpytest_subprocess
 (
@@ -19369,7 +20313,7 @@ v
 "
 )
         
-out1
+output1
 =
 [
             
@@ -19399,7 +20343,7 @@ test_foo
         
 ]
         
-out2
+output2
 =
 [
             
@@ -19432,17 +20376,17 @@ test_foo
 assert
 len
 (
-out1
+output1
 )
 =
 =
 12
         
 assert
-out1
+output1
 =
 =
-out2
+output2
 class
 TestRequestScopeAccess
 :
@@ -19477,7 +20421,7 @@ session
 "
 "
 "
-fspath
+path
 class
 function
 module
@@ -19490,7 +20434,7 @@ module
 "
 "
 module
-fspath
+path
 "
 "
 cls
@@ -19504,7 +20448,7 @@ class
 "
 "
 module
-fspath
+path
 cls
 "
 "
@@ -19518,7 +20462,7 @@ function
 "
 "
 module
-fspath
+path
 cls
 function
 "
@@ -19534,14 +20478,19 @@ def
 test_setup
 (
 self
-testdir
+pytester
+:
+Pytester
 scope
 ok
 error
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -19650,7 +20599,7 @@ split
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -19673,14 +20622,19 @@ def
 test_funcarg
 (
 self
-testdir
+pytester
+:
+Pytester
 scope
 ok
 error
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -19787,7 +20741,7 @@ split
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -19809,11 +20763,16 @@ def
 test_subfactory_missing_funcarg
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -19858,7 +20817,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -19914,11 +20873,16 @@ def
 test_issue498_fixture_finalizer_failing
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -20021,7 +20985,7 @@ values
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20080,11 +21044,16 @@ def
 test_setupfunc_missing_funcarg
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -20131,7 +21100,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20190,13 +21159,18 @@ def
 test_funcarg_compat
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -20218,13 +21192,18 @@ def
 test_show_fixtures
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20245,7 +21224,7 @@ fnmatch_lines
 [
                 
 "
-tmpdir_factory
+tmp_path_factory
 [
 [
 ]
@@ -20254,6 +21233,19 @@ scope
 [
 ]
 ]
+-
+-
+.
+.
+.
+/
+_pytest
+/
+tmpdir
+.
+py
+:
+*
 "
                 
 "
@@ -20266,7 +21258,20 @@ session
 "
                 
 "
+tmp_path
+-
+-
+.
+.
+.
+/
+_pytest
+/
 tmpdir
+.
+py
+:
+*
 "
                 
 "
@@ -20284,13 +21289,18 @@ def
 test_show_fixtures_verbose
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20315,7 +21325,7 @@ fnmatch_lines
 [
                 
 "
-tmpdir_factory
+tmp_path_factory
 [
 [
 ]
@@ -20326,10 +21336,16 @@ scope
 ]
 -
 -
-*
+.
+.
+.
+/
+_pytest
+/
 tmpdir
 .
 py
+:
 *
 "
                 
@@ -20343,13 +21359,19 @@ session
 "
                 
 "
-tmpdir
+tmp_path
 -
 -
-*
+.
+.
+.
+/
+_pytest
+/
 tmpdir
 .
 py
+:
 *
 "
                 
@@ -20368,13 +21390,18 @@ def
 test_show_fixtures_testmodule
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -20431,7 +21458,7 @@ world
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20455,7 +21482,10 @@ fnmatch_lines
 "
             
 *
-tmpdir
+tmp_path
+-
+-
+*
             
 *
 fixtures
@@ -20465,6 +21495,13 @@ from
             
 *
 arg1
+-
+-
+test_show_fixtures_testmodule
+.
+py
+:
+6
 *
             
 *
@@ -20510,12 +21547,17 @@ def
 test_show_fixtures_conftest
 (
 self
-testdir
+pytester
+:
+Pytester
 testmod
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -20556,7 +21598,7 @@ if
 testmod
 :
             
-testdir
+pytester
 .
 makepyfile
 (
@@ -20581,7 +21623,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20604,7 +21646,7 @@ fnmatch_lines
 "
             
 *
-tmpdir
+tmp_path
 *
             
 *
@@ -20634,13 +21676,18 @@ def
 test_show_fixtures_trimmed_doc
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -20712,7 +21759,7 @@ line2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20749,12 +21796,26 @@ test_show_fixtures_trimmed_doc
 *
                 
 arg2
+-
+-
+test_show_fixtures_trimmed_doc
+.
+py
+:
+10
                     
 line1
                     
 line2
                 
 arg1
+-
+-
+test_show_fixtures_trimmed_doc
+.
+py
+:
+3
                     
 line1
                     
@@ -20772,13 +21833,18 @@ def
 test_show_fixtures_indented_doc
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -20829,7 +21895,7 @@ line
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20866,6 +21932,13 @@ test_show_fixtures_indented_doc
 *
                 
 fixture1
+-
+-
+test_show_fixtures_indented_doc
+.
+py
+:
+3
                     
 line1
                         
@@ -20883,14 +21956,21 @@ line
 def
 test_show_fixtures_indented_doc_first_line_unindented
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -20942,7 +22022,7 @@ line
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -20979,6 +22059,13 @@ test_show_fixtures_indented_doc_first_line_unindented
 *
                 
 fixture1
+-
+-
+test_show_fixtures_indented_doc_first_line_unindented
+.
+py
+:
+3
                     
 line1
                     
@@ -20999,13 +22086,18 @@ def
 test_show_fixtures_indented_in_class
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -21065,7 +22157,7 @@ line
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -21102,6 +22194,13 @@ test_show_fixtures_indented_in_class
 *
                 
 fixture1
+-
+-
+test_show_fixtures_indented_in_class
+.
+py
+:
+4
                     
 line1
                     
@@ -21122,8 +22221,13 @@ def
 test_show_fixtures_different_files
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -21147,7 +22251,7 @@ file
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -21197,7 +22301,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -21249,7 +22353,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -21279,6 +22383,13 @@ test_a
 *
             
 fix_a
+-
+-
+test_a
+.
+py
+:
+4
                 
 Fixture
 A
@@ -21291,6 +22402,13 @@ test_b
 *
             
 fix_b
+-
+-
+test_b
+.
+py
+:
+4
                 
 Fixture
 B
@@ -21305,11 +22423,16 @@ def
 test_show_fixtures_with_same_name
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -21356,7 +22479,7 @@ World
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -21387,7 +22510,7 @@ World
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -21448,7 +22571,7 @@ Hi
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -21478,6 +22601,13 @@ conftest
 *
             
 arg1
+-
+-
+conftest
+.
+py
+:
+3
                 
 Hello
 World
@@ -21494,6 +22624,13 @@ test_show_fixtures_with_same_name
 *
             
 arg1
+-
+-
+test_show_fixtures_with_same_name
+.
+py
+:
+3
                 
 Hi
 from
@@ -21566,131 +22703,20 @@ class
 TestContextManagerFixtureFuncs
 :
     
-pytest
-.
-fixture
-(
-params
-=
-[
-"
-fixture
-"
-"
-yield_fixture
-"
-]
-)
-    
-def
-flavor
-(
-self
-request
-testdir
-monkeypatch
-)
-:
-        
-monkeypatch
-.
-setenv
-(
-"
-PYTEST_FIXTURE_FLAVOR
-"
-request
-.
-param
-)
-        
-testdir
-.
-makepyfile
-(
-            
-test_context
-=
-"
-"
-"
-            
-import
-os
-            
-import
-pytest
-            
-import
-warnings
-            
-VAR
-=
-"
-PYTEST_FIXTURE_FLAVOR
-"
-            
-if
-VAR
-not
-in
-os
-.
-environ
-:
-                
-warnings
-.
-warn
-(
-"
-PYTEST_FIXTURE_FLAVOR
-was
-not
-set
-assuming
-fixture
-"
-)
-                
-fixture
-=
-pytest
-.
-fixture
-            
-else
-:
-                
-fixture
-=
-getattr
-(
-pytest
-os
-.
-environ
-[
-VAR
-]
-)
-        
-"
-"
-"
-        
-)
-    
 def
 test_simple
 (
 self
-testdir
-flavor
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -21699,11 +22725,11 @@ makepyfile
 "
 "
             
-from
-test_context
 import
-fixture
+pytest
             
+pytest
+.
 fixture
             
 def
@@ -21770,7 +22796,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -21827,12 +22853,16 @@ def
 test_scoped
 (
 self
-testdir
-flavor
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -21841,11 +22871,11 @@ makepyfile
 "
 "
             
-from
-test_context
 import
-fixture
+pytest
             
+pytest
+.
 fixture
 (
 scope
@@ -21916,7 +22946,7 @@ arg1
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -21965,12 +22995,16 @@ def
 test_setup_exception
 (
 self
-testdir
-flavor
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -21979,11 +23013,11 @@ makepyfile
 "
 "
             
-from
-test_context
 import
-fixture
+pytest
             
+pytest
+.
 fixture
 (
 scope
@@ -22028,7 +23062,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -22072,12 +23106,16 @@ def
 test_teardown_exception
 (
 self
-testdir
-flavor
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -22086,11 +23124,11 @@ makepyfile
 "
 "
             
-from
-test_context
 import
-fixture
+pytest
             
+pytest
+.
 fixture
 (
 scope
@@ -22135,7 +23173,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -22182,12 +23220,16 @@ def
 test_yields_more_than_one
 (
 self
-testdir
-flavor
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -22196,11 +23238,11 @@ makepyfile
 "
 "
             
-from
-test_context
 import
-fixture
+pytest
             
+pytest
+.
 fixture
 (
 scope
@@ -22239,7 +23281,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -22282,12 +23324,16 @@ def
 test_custom_name
 (
 self
-testdir
-flavor
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -22296,11 +23342,11 @@ makepyfile
 "
 "
             
-from
-test_context
 import
-fixture
+pytest
             
+pytest
+.
 fixture
 (
 name
@@ -22341,7 +23387,7 @@ meow
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -22373,11 +23419,16 @@ def
 test_call_from_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -22455,7 +23506,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -22541,11 +23592,16 @@ def
 test_call_from_test
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -22608,7 +23664,7 @@ fix_with_param
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -22693,11 +23749,16 @@ def
 test_external_fixture
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -22740,7 +23801,7 @@ param
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -22775,7 +23836,7 @@ fix_with_param
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -22863,13 +23924,18 @@ def
 test_non_relative_path
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 tests_dir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -22880,7 +23946,7 @@ tests
         
 fixdir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -22893,7 +23959,7 @@ fixfile
 =
 fixdir
 .
-join
+joinpath
 (
 "
 fix
@@ -22904,7 +23970,7 @@ py
         
 fixfile
 .
-write
+write_text
 (
             
 textwrap
@@ -22957,7 +24023,7 @@ testfile
 =
 tests_dir
 .
-join
+joinpath
 (
 "
 test_foos
@@ -22968,7 +24034,7 @@ py
         
 testfile
 .
-write
+write_text
 (
             
 textwrap
@@ -23010,13 +24076,14 @@ fix_with_param
         
 )
         
-tests_dir
+os
 .
 chdir
 (
+tests_dir
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -23025,7 +24092,7 @@ fixdir
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -23076,17 +24143,14 @@ in
 :
 "
                 
+f
 "
 {
+fixfile
 }
 :
 4
 "
-.
-format
-(
-fixfile
-)
                 
 "
 Requested
@@ -23125,7 +24189,7 @@ tests_dir
         
 rootdir
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -23134,15 +24198,16 @@ rootdir
 "
 )
         
-rootdir
+os
 .
 chdir
 (
+rootdir
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -23200,17 +24265,14 @@ in
 :
 "
                 
+f
 "
 {
+fixfile
 }
 :
 4
 "
-.
-format
-(
-fixfile
-)
                 
 "
 Requested
@@ -23218,17 +24280,14 @@ here
 :
 "
                 
+f
 "
 {
+testfile
 }
 :
 4
 "
-.
-format
-(
-testfile
-)
                 
 "
 *
@@ -23243,11 +24302,16 @@ failed
 def
 test_pytest_fixture_setup_and_post_finalizer_hook
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -23338,7 +24402,7 @@ name
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -23504,7 +24568,7 @@ some
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -23642,11 +24706,18 @@ autouse
 def
 test_func_closure_module_auto
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 variant
 monkeypatch
+    
 )
+-
+>
+None
 :
         
 "
@@ -23679,7 +24750,7 @@ FIXTURE_ACTIVATION_VARIANT
 variant
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -23854,7 +24925,7 @@ pass
 items
 _
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -23868,6 +24939,9 @@ items
 [
 0
 ]
+_ispytest
+=
+True
 )
         
 assert
@@ -23888,9 +24962,15 @@ split
 def
 test_func_closure_with_native_fixtures
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
 -
 >
@@ -23950,7 +25030,7 @@ raising
 False
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -24058,7 +25138,7 @@ session
 )
             
 def
-my_tmpdir_factory
+my_tmp_path_factory
 (
 )
 :
@@ -24068,7 +25148,7 @@ FIXTURE_ORDER
 append
 (
 '
-my_tmpdir_factory
+my_tmp_path_factory
 '
 )
             
@@ -24077,9 +25157,9 @@ pytest
 fixture
             
 def
-my_tmpdir
+my_tmp_path
 (
-my_tmpdir_factory
+my_tmp_path_factory
 )
 :
                 
@@ -24088,7 +25168,7 @@ FIXTURE_ORDER
 append
 (
 '
-my_tmpdir
+my_tmp_path
 '
 )
             
@@ -24099,7 +25179,7 @@ fixture
 def
 f1
 (
-my_tmpdir
+my_tmp_path
 )
 :
                 
@@ -24152,7 +25232,7 @@ pass
 items
 _
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -24166,6 +25246,9 @@ items
 [
 0
 ]
+_ispytest
+=
+True
 )
         
 #
@@ -24189,16 +25272,17 @@ assert
 request
 .
 fixturenames
+            
 =
 =
 "
 s1
-my_tmpdir_factory
+my_tmp_path_factory
 p1
 m1
 f1
 f2
-my_tmpdir
+my_tmp_path
 "
 .
 split
@@ -24207,7 +25291,7 @@ split
         
 )
         
-testdir
+pytester
 .
 runpytest
 (
@@ -24227,7 +25311,7 @@ created
 first
 (
 "
-my_tmpdir
+my_tmp_path
 "
 )
         
@@ -24252,10 +25336,10 @@ FIXTURE_ORDER
 =
 "
 s1
-my_tmpdir_factory
+my_tmp_path_factory
 p1
 m1
-my_tmpdir
+my_tmp_path
 f1
 f2
 "
@@ -24268,11 +25352,16 @@ def
 test_func_closure_module
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -24339,7 +25428,7 @@ pass
 items
 _
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -24353,6 +25442,9 @@ items
 [
 0
 ]
+_ispytest
+=
+True
 )
         
 assert
@@ -24374,8 +25466,13 @@ def
 test_func_closure_scopes_reordered
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -24411,7 +25508,7 @@ order
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -24541,7 +25638,7 @@ pass
 items
 _
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -24555,6 +25652,9 @@ items
 [
 0
 ]
+_ispytest
+=
+True
 )
         
 assert
@@ -24578,9 +25678,16 @@ split
 def
 test_func_closure_same_scope_closer_root_first
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 "
@@ -24606,7 +25713,7 @@ first
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -24645,7 +25752,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -24801,7 +25908,7 @@ pass
 items
 _
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -24815,6 +25922,9 @@ items
 [
 0
 ]
+_ispytest
+=
+True
 )
         
 assert
@@ -24839,8 +25949,13 @@ def
 test_func_closure_all_scopes_complex
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -24861,7 +25976,7 @@ fixtures
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -24918,7 +26033,7 @@ pass
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -24936,7 +26051,7 @@ py
 }
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -25072,7 +26187,7 @@ pass
 items
 _
 =
-testdir
+pytester
 .
 inline_genitems
 (
@@ -25086,6 +26201,9 @@ items
 [
 0
 ]
+_ispytest
+=
+True
 )
         
 assert
@@ -25112,8 +26230,13 @@ def
 test_multiple_packages
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -25178,7 +26301,7 @@ py
         
 root
 =
-testdir
+pytester
 .
 mkdir
 (
@@ -25189,7 +26312,7 @@ root
         
 root
 .
-join
+joinpath
 (
 "
 __init__
@@ -25198,7 +26321,7 @@ py
 "
 )
 .
-write
+write_text
 (
 "
 values
@@ -25212,7 +26335,7 @@ sub1
 =
 root
 .
-mkdir
+joinpath
 (
 "
 sub1
@@ -25221,7 +26344,13 @@ sub1
         
 sub1
 .
-ensure
+mkdir
+(
+)
+        
+sub1
+.
+joinpath
 (
 "
 __init__
@@ -25229,10 +26358,14 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
         
 sub1
 .
-join
+joinpath
 (
 "
 conftest
@@ -25241,7 +26374,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -25318,7 +26451,7 @@ sub1
         
 sub1
 .
-join
+joinpath
 (
 "
 test_1
@@ -25327,7 +26460,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -25377,7 +26510,7 @@ sub2
 =
 root
 .
-mkdir
+joinpath
 (
 "
 sub2
@@ -25386,7 +26519,13 @@ sub2
         
 sub2
 .
-ensure
+mkdir
+(
+)
+        
+sub2
+.
+joinpath
 (
 "
 __init__
@@ -25394,10 +26533,14 @@ __init__
 py
 "
 )
+.
+touch
+(
+)
         
 sub2
 .
-join
+joinpath
 (
 "
 conftest
@@ -25406,7 +26549,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -25483,7 +26626,7 @@ sub2
         
 sub2
 .
-join
+joinpath
 (
 "
 test_2
@@ -25492,7 +26635,7 @@ py
 "
 )
 .
-write
+write_text
 (
             
 textwrap
@@ -25540,7 +26683,7 @@ sub2
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -25559,8 +26702,13 @@ def
 test_class_fixture_self_instance
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -25591,7 +26739,7 @@ see
 "
 "
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -25676,7 +26824,7 @@ arg
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -25714,7 +26862,7 @@ myfix
         
 reprec
 =
-testdir
+pytester
 .
 inline_run
 (
@@ -25796,8 +26944,13 @@ fix
 def
 test_fixture_param_shadowing
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -25825,7 +26978,7 @@ exists
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -26009,7 +27162,7 @@ run
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -26126,11 +27279,16 @@ test_indirect
 def
 test_fixture_named_request
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 copy_example
 (
@@ -26145,7 +27303,7 @@ py
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -26192,8 +27350,13 @@ py
 def
 test_indirect_fixture_does_not_break_scope
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -26217,7 +27380,7 @@ fixtures
 "
 "
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -26496,7 +27659,7 @@ c2
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -26513,8 +27676,13 @@ passed
 def
 test_fixture_parametrization_nparray
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 pytest
@@ -26526,7 +27694,7 @@ numpy
 "
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -26590,7 +27758,7 @@ value
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -26607,8 +27775,13 @@ passed
 def
 test_fixture_arg_ordering
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -26673,7 +27846,7 @@ and
     
 p1
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -26833,7 +28006,7 @@ fix_5
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -26857,11 +28030,16 @@ ret
 def
 test_yield_fixture_with_no_value
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -26927,7 +28105,7 @@ value
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (

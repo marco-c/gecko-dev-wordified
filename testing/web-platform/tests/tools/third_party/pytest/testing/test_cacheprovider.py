@@ -2,12 +2,18 @@ import
 os
 import
 shutil
+from
+pathlib
 import
-stat
+Path
+from
+typing
 import
-sys
+Generator
+from
+typing
 import
-py
+List
 import
 pytest
 from
@@ -19,9 +25,21 @@ ExitCode
 from
 _pytest
 .
+monkeypatch
+import
+MonkeyPatch
+from
+_pytest
+.
 pytester
 import
-Testdir
+Pytester
+from
+_pytest
+.
+tmpdir
+import
+TempPathFactory
 pytest_plugins
 =
 (
@@ -34,14 +52,19 @@ TestNewAPI
 :
     
 def
-test_config_cache_makedir
+test_config_cache_mkdir
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -54,11 +77,19 @@ pytest
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
+        
+assert
+config
+.
+cache
+is
+not
+None
         
 with
 pytest
@@ -73,7 +104,7 @@ config
 .
 cache
 .
-makedir
+mkdir
 (
 "
 key
@@ -88,7 +119,7 @@ config
 .
 cache
 .
-makedir
+mkdir
 (
 "
 name
@@ -98,7 +129,7 @@ name
 assert
 p
 .
-check
+is_dir
 (
 )
     
@@ -106,11 +137,16 @@ def
 test_config_cache_dataerror
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -123,11 +159,19 @@ pytest
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
+        
+assert
+config
+.
+cache
+is
+not
+None
         
 cache
 =
@@ -235,11 +279,16 @@ def
 test_cache_writefail_cachfile_silent
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -250,11 +299,11 @@ pytest
 "
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 .
@@ -262,7 +311,7 @@ pytest_cache
 "
 )
 .
-write
+write_text
 (
 "
 gone
@@ -272,7 +321,7 @@ wrong
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
@@ -283,6 +332,12 @@ cache
 config
 .
 cache
+        
+assert
+cache
+is
+not
+None
         
 cache
 .
@@ -299,28 +354,97 @@ broken
     
 pytest
 .
-mark
-.
-skipif
+fixture
+    
+def
+unwritable_cache_dir
 (
-sys
+self
+pytester
+:
+Pytester
+)
+-
+>
+Generator
+[
+Path
+None
+None
+]
+:
+        
+cache_dir
+=
+pytester
 .
-platform
+path
 .
-startswith
+joinpath
 (
 "
-win
+.
+pytest_cache
 "
 )
-reason
+        
+cache_dir
+.
+mkdir
+(
+)
+        
+mode
 =
-"
-no
+cache_dir
+.
+stat
+(
+)
+.
+st_mode
+        
+cache_dir
+.
 chmod
-on
-windows
+(
+0
+)
+        
+if
+os
+.
+access
+(
+cache_dir
+os
+.
+W_OK
+)
+:
+            
+pytest
+.
+skip
+(
 "
+Failed
+to
+make
+cache
+dir
+unwritable
+"
+)
+        
+yield
+cache_dir
+        
+cache_dir
+.
+chmod
+(
+mode
 )
     
 pytest
@@ -349,12 +473,22 @@ PytestWarning
 def
 test_cache_writefail_permissions
 (
+        
 self
-testdir
+unwritable_cache_dir
+:
+Path
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeini
 (
@@ -365,71 +499,26 @@ pytest
 "
 )
         
-cache_dir
-=
-str
-(
-testdir
-.
-tmpdir
-.
-ensure_dir
-(
-"
-.
-pytest_cache
-"
-)
-)
-        
-mode
-=
-os
-.
-stat
-(
-cache_dir
-)
-[
-stat
-.
-ST_MODE
-]
-        
-testdir
-.
-tmpdir
-.
-ensure_dir
-(
-"
-.
-pytest_cache
-"
-)
-.
-chmod
-(
-0
-)
-        
-try
-:
-            
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
-            
+        
 cache
 =
 config
 .
 cache
-            
+        
+assert
+cache
+is
+not
+None
+        
 cache
 .
 set
@@ -441,52 +530,6 @@ broken
 "
 [
 ]
-)
-        
-finally
-:
-            
-testdir
-.
-tmpdir
-.
-ensure_dir
-(
-"
-.
-pytest_cache
-"
-)
-.
-chmod
-(
-mode
-)
-    
-pytest
-.
-mark
-.
-skipif
-(
-sys
-.
-platform
-.
-startswith
-(
-"
-win
-"
-)
-reason
-=
-"
-no
-chmod
-on
-windows
-"
 )
     
 pytest
@@ -503,10 +546,25 @@ default
 def
 test_cache_failure_warns
 (
+        
 self
-testdir
+        
+pytester
+:
+Pytester
+        
 monkeypatch
+:
+MonkeyPatch
+        
+unwritable_cache_dir
+:
+Path
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -521,58 +579,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD
 "
 )
         
-cache_dir
-=
-str
-(
-testdir
-.
-tmpdir
-.
-ensure_dir
-(
-"
-.
-pytest_cache
-"
-)
-)
-        
-mode
-=
-os
-.
-stat
-(
-cache_dir
-)
-[
-stat
-.
-ST_MODE
-]
-        
-testdir
-.
-tmpdir
-.
-ensure_dir
-(
-"
-.
-pytest_cache
-"
-)
-.
-chmod
-(
-0
-)
-        
-try
-:
-            
-testdir
+pytester
 .
 makepyfile
 (
@@ -586,15 +593,15 @@ raise
 Exception
 "
 )
-            
+        
 result
 =
-testdir
+pytester
 .
 runpytest
 (
 )
-            
+        
 assert
 result
 .
@@ -602,7 +609,7 @@ ret
 =
 =
 1
-            
+        
 #
 warnings
 from
@@ -610,16 +617,16 @@ nodeids
 lastfailed
 and
 stepwise
-            
+        
 result
 .
 stdout
 .
 fnmatch_lines
 (
-                
+            
 [
-                    
+                
 #
 Validate
 location
@@ -630,7 +637,7 @@ warning
 from
 cacheprovider
 .
-                    
+                
 "
 *
 =
@@ -639,7 +646,7 @@ summary
 =
 *
 "
-                    
+                
 "
 *
 /
@@ -649,7 +656,7 @@ py
 :
 *
 "
-                    
+                
 "
 *
 /
@@ -667,9 +674,11 @@ create
 cache
 path
 "
-                    
+                
+f
 "
 {
+unwritable_cache_dir
 }
 /
 v
@@ -678,12 +687,7 @@ cache
 /
 nodeids
 "
-.
-format
-(
-cache_dir
-)
-                    
+                
 '
 config
 .
@@ -704,7 +708,7 @@ cached_nodeids
 )
 )
 '
-                    
+                
 "
 *
 1
@@ -714,40 +718,25 @@ warnings
 in
 *
 "
-                
+            
 ]
-            
-)
         
-finally
-:
-            
-testdir
-.
-tmpdir
-.
-ensure_dir
-(
-"
-.
-pytest_cache
-"
-)
-.
-chmod
-(
-mode
 )
     
 def
 test_config_cache
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -788,7 +777,7 @@ cache
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -821,7 +810,7 @@ cache
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -855,11 +844,16 @@ def
 test_cachefuncarg
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -961,7 +955,7 @@ val
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -995,8 +989,13 @@ def
 test_custom_rel_cache_dir
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 rel_cache_dir
@@ -1015,7 +1014,7 @@ subdir
 "
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -1049,7 +1048,7 @@ rel_cache_dir
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1068,40 +1067,47 @@ False
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
 )
         
 assert
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 rel_cache_dir
 )
 .
-isdir
+is_dir
 (
 )
     
 def
 test_custom_abs_cache_dir
 (
+        
 self
-testdir
-tmpdir_factory
+pytester
+:
+Pytester
+tmp_path_factory
+:
+TempPathFactory
+    
 )
+-
+>
+None
 :
         
 tmp
 =
-str
-(
-tmpdir_factory
+tmp_path_factory
 .
 mktemp
 (
@@ -1109,23 +1115,16 @@ mktemp
 tmp
 "
 )
-)
         
 abs_cache_dir
 =
-os
-.
-path
-.
-join
-(
 tmp
+/
 "
 custom_cache_dir
 "
-)
         
-testdir
+pytester
 .
 makeini
 (
@@ -1159,7 +1158,7 @@ abs_cache_dir
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1178,33 +1177,35 @@ False
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
 )
         
 assert
-py
-.
-path
-.
-local
-(
 abs_cache_dir
-)
 .
-isdir
+is_dir
 (
 )
     
 def
 test_custom_cache_dir_with_env_var
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -1219,7 +1220,7 @@ custom_cache_dir
 "
 )
         
-testdir
+pytester
 .
 makeini
 (
@@ -1255,7 +1256,7 @@ env_var
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -1274,25 +1275,25 @@ False
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
 )
         
 assert
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 custom_cache_dir
 "
 )
 .
-isdir
+is_dir
 (
 )
 pytest
@@ -1322,12 +1323,19 @@ def
 test_cache_reportheader
 (
 env
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
 )
+-
+>
+None
 :
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1399,7 +1407,7 @@ pytest_cache
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1429,14 +1437,22 @@ expected
 def
 test_cache_reportheader_external_abspath
 (
-testdir
-tmpdir_factory
+    
+pytester
+:
+Pytester
+tmp_path_factory
+:
+TempPathFactory
 )
+-
+>
+None
 :
     
 external_cache
 =
-tmpdir_factory
+tmp_path_factory
 .
 mktemp
 (
@@ -1447,7 +1463,7 @@ test_cache_reportheader_external_abspath_abs
     
 )
     
-testdir
+pytester
 .
 makepyfile
 (
@@ -1461,7 +1477,7 @@ pass
 "
 )
     
-testdir
+pytester
 .
 makeini
 (
@@ -1497,7 +1513,7 @@ external_cache
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1513,35 +1529,32 @@ stdout
 .
 fnmatch_lines
 (
-        
 [
+f
 "
 cachedir
 :
 {
-abscache
+external_cache
 }
 "
-.
-format
-(
-abscache
-=
-external_cache
-)
 ]
-    
 )
 def
 test_cache_show
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1579,7 +1592,7 @@ empty
 ]
 )
     
-testdir
+pytester
 .
 makeconftest
 (
@@ -1653,7 +1666,7 @@ config
 .
 cache
 .
-makedir
+mkdir
 (
 "
 mydb
@@ -1662,20 +1675,28 @@ mydb
             
 dp
 .
-ensure
+joinpath
 (
 "
 hello
 "
 )
+.
+touch
+(
+)
             
 dp
 .
-ensure
+joinpath
 (
 "
 world
 "
+)
+.
+touch
+(
 )
     
 "
@@ -1686,7 +1707,7 @@ world
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1706,7 +1727,7 @@ executed
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1844,7 +1865,7 @@ ret
     
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -1989,10 +2010,19 @@ TestLastFailed
 def
 test_lastfailed_usecase
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -2009,7 +2039,7 @@ True
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2050,7 +2080,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2078,7 +2108,7 @@ failed
         
 p
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -2119,7 +2149,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2185,7 +2215,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2246,29 +2276,32 @@ passed
         
 )
         
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 .
 pytest_cache
 "
-)
-.
-mkdir
-(
 "
 .
 git
 "
 )
+.
+mkdir
+(
+parents
+=
+True
+)
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2310,11 +2343,11 @@ passed
 )
         
 assert
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 .
@@ -2327,16 +2360,16 @@ md
 "
 )
 .
-isfile
+is_file
 (
 )
         
 assert
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 .
@@ -2348,7 +2381,7 @@ git
 "
 )
 .
-isdir
+is_dir
 (
 )
         
@@ -2391,7 +2424,7 @@ pytest_cache
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2432,11 +2465,16 @@ def
 test_failedfirst_order
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2468,7 +2506,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2508,7 +2546,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2579,11 +2617,16 @@ def
 test_lastfailed_failedfirst_order
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2616,7 +2659,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2656,7 +2699,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2715,10 +2758,19 @@ py
 def
 test_lastfailed_difference_invocations
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -2733,7 +2785,7 @@ dont_write_bytecode
 True
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2780,11 +2832,11 @@ assert
         
 p
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_a
@@ -2795,11 +2847,11 @@ py
         
 p2
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_b
@@ -2810,7 +2862,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2834,7 +2886,7 @@ failed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2862,7 +2914,7 @@ failed
 ]
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -2881,7 +2933,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2911,7 +2963,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -2975,10 +3027,19 @@ in
 def
 test_lastfailed_usecase_splice
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
 monkeypatch
@@ -2993,7 +3054,7 @@ dont_write_bytecode
 True
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3023,11 +3084,11 @@ assert
         
 p2
 =
-testdir
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_something
@@ -3038,7 +3099,7 @@ py
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3062,7 +3123,7 @@ failed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3092,7 +3153,7 @@ failed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3123,11 +3184,16 @@ def
 test_lastfailed_xpass
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 inline_runsource
 (
@@ -3162,11 +3228,19 @@ assert
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
+        
+assert
+config
+.
+cache
+is
+not
+None
         
 lastfailed
 =
@@ -3196,8 +3270,13 @@ def
 test_non_serializable_parametrize
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -3225,7 +3304,7 @@ cache
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3280,7 +3359,7 @@ False
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3307,13 +3386,18 @@ def
 test_terminal_report_lastfailed
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 test_a
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3346,7 +3430,7 @@ pass
         
 test_b
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -3381,7 +3465,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3413,7 +3497,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3471,7 +3555,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3528,7 +3612,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3582,7 +3666,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3645,11 +3729,16 @@ def
 test_terminal_report_failedfirst
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3683,7 +3772,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3715,7 +3804,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -3772,13 +3861,22 @@ in
 def
 test_lastfailed_collectfailure
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -3879,7 +3977,7 @@ fail_run
 )
 )
             
-testdir
+pytester
 .
 runpytest
 (
@@ -3891,11 +3989,19 @@ q
             
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
+            
+assert
+config
+.
+cache
+is
+not
+None
             
 lastfailed
 =
@@ -3996,13 +4102,22 @@ test_hello
 def
 test_lastfailed_failure_subset
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 monkeypatch
+:
+MonkeyPatch
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4069,7 +4184,7 @@ FAILTEST
         
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4184,7 +4299,7 @@ fail_run
             
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4203,11 +4318,19 @@ args
             
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
+            
+assert
+config
+.
+cache
+is
+not
+None
             
 lastfailed
 =
@@ -4429,8 +4552,13 @@ def
 test_lastfailed_creates_cache_when_needed
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 #
@@ -4438,7 +4566,7 @@ Issue
 #
 1342
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4448,7 +4576,7 @@ test_empty
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
@@ -4483,7 +4611,7 @@ lastfailed
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4502,7 +4630,7 @@ True
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
@@ -4537,7 +4665,7 @@ lastfailed
 "
 )
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4556,7 +4684,7 @@ False
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
@@ -4594,11 +4722,16 @@ def
 test_xfail_not_considered_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4632,7 +4765,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4659,7 +4792,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -4670,11 +4803,16 @@ def
 test_xfail_strict_considered_failure
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4712,7 +4850,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4739,7 +4877,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -4782,13 +4920,22 @@ skip
 def
 test_failed_changed_to_xfail_or_skip
 (
+        
 self
-testdir
+pytester
+:
+Pytester
 mark
+:
+str
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4816,7 +4963,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4827,7 +4974,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -4852,7 +4999,7 @@ ret
 =
 1
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -4895,7 +5042,7 @@ mark
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -4914,7 +5061,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -4970,18 +5117,29 @@ lf
 def
 test_lf_and_ff_prints_no_needless_message
 (
+        
 self
 quiet
+:
+bool
 opt
-testdir
+:
+str
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
 #
 Issue
 3853
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5018,7 +5176,7 @@ q
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5042,7 +5200,7 @@ all
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5089,17 +5247,33 @@ def
 get_cached_last_failed
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+List
+[
+str
+]
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
+        
+assert
+config
+.
+cache
+is
+not
+None
         
 return
 sorted
@@ -5124,8 +5298,13 @@ def
 test_cache_cumulative
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -5158,7 +5337,7 @@ run
         
 test_bar
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5192,7 +5371,7 @@ assert
         
 test_foo
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5224,7 +5403,7 @@ assert
         
 )
         
-testdir
+pytester
 .
 runpytest
 (
@@ -5235,7 +5414,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -5272,7 +5451,7 @@ test_bar
 .
 py
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5305,7 +5484,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5345,7 +5524,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -5362,7 +5541,7 @@ test_foo_4
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5426,7 +5605,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -5454,7 +5633,7 @@ py
         
 test_foo
 =
-testdir
+pytester
 .
 makepyfile
 (
@@ -5487,7 +5666,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5555,7 +5734,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -5564,7 +5743,7 @@ testdir
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5598,7 +5777,7 @@ self
 .
 get_cached_last_failed
 (
-testdir
+pytester
 )
 =
 =
@@ -5608,12 +5787,19 @@ testdir
 def
 test_lastfailed_no_failures_behavior_all_passed
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5644,7 +5830,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5668,7 +5854,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5697,7 +5883,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5755,7 +5941,7 @@ right
 after
 .
         
-testdir
+pytester
 .
 makeconftest
 (
@@ -5817,7 +6003,7 @@ deselected
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5902,12 +6088,19 @@ NO_TESTS_COLLECTED
 def
 test_lastfailed_no_failures_behavior_empty_cache
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -5939,7 +6132,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -5978,7 +6171,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6025,7 +6218,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6071,8 +6264,13 @@ def
 test_lastfailed_skip_collection
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
 "
@@ -6109,7 +6307,7 @@ cache
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6232,7 +6430,7 @@ test_2
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6282,7 +6480,7 @@ passed
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6356,7 +6554,7 @@ than
 1
 file
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6394,7 +6592,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6454,12 +6652,19 @@ in
 def
 test_lastfailed_with_known_failures_not_being_selected
 (
+        
 self
-testdir
+pytester
+:
+Pytester
+    
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6517,7 +6722,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6547,11 +6752,7 @@ in
 ]
 )
         
-py
-.
-path
-.
-local
+Path
 (
 "
 pkg1
@@ -6562,13 +6763,13 @@ py
 "
 )
 .
-remove
+unlink
 (
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6630,7 +6831,7 @@ known
 failure
 .
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6663,7 +6864,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6731,7 +6932,7 @@ file
 again
 .
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -6764,7 +6965,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6861,7 +7062,7 @@ in
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -6939,9 +7140,9 @@ def
 test_lastfailed_args_with_deselected
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -6986,7 +7187,7 @@ arguments
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7032,7 +7233,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7072,7 +7273,7 @@ ret
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7169,7 +7370,7 @@ True
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7274,7 +7475,14 @@ test_fail
 *
 =
 1
+/
+2
+tests
+collected
+(
+1
 deselected
+)
 in
 *
 "
@@ -7287,9 +7495,9 @@ def
 test_lastfailed_with_class_items
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
@@ -7313,7 +7521,7 @@ classes
 "
 "
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7373,7 +7581,7 @@ assert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7413,7 +7621,7 @@ ret
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7512,8 +7720,15 @@ test_other
 "
 *
 =
+2
+/
+3
+tests
+collected
+(
 1
 deselected
+)
 in
 *
 "
@@ -7530,16 +7745,16 @@ def
 test_lastfailed_with_all_filtered
 (
 self
-testdir
+pytester
 :
-Testdir
+Pytester
 )
 -
 >
 None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7585,7 +7800,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7629,7 +7844,7 @@ known
 failure
 .
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7667,7 +7882,7 @@ pass
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7741,9 +7956,9 @@ test_pass
 "
 *
 =
-no
-tests
-ran
+1
+test
+collected
 in
 *
 "
@@ -7763,6 +7978,250 @@ ret
 =
 =
 0
+    
+def
+test_packages
+(
+self
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+        
+"
+"
+"
+Regression
+test
+for
+#
+7758
+.
+        
+The
+particular
+issue
+here
+was
+that
+Package
+nodes
+were
+included
+in
+the
+        
+filtering
+being
+themselves
+Modules
+for
+the
+__init__
+.
+py
+even
+if
+they
+        
+had
+failed
+Modules
+in
+them
+.
+        
+The
+tests
+includes
+a
+test
+in
+an
+__init__
+.
+py
+file
+just
+to
+make
+sure
+the
+        
+fix
+doesn
+'
+t
+somehow
+regress
+that
+it
+is
+not
+critical
+for
+the
+issue
+.
+        
+"
+"
+"
+        
+pytester
+.
+makepyfile
+(
+            
+*
+*
+{
+                
+"
+__init__
+.
+py
+"
+:
+"
+"
+                
+"
+a
+/
+__init__
+.
+py
+"
+:
+"
+def
+test_a_init
+(
+)
+:
+assert
+False
+"
+                
+"
+a
+/
+test_one
+.
+py
+"
+:
+"
+def
+test_1
+(
+)
+:
+assert
+False
+"
+                
+"
+b
+/
+__init__
+.
+py
+"
+:
+"
+"
+                
+"
+b
+/
+test_two
+.
+py
+"
+:
+"
+def
+test_2
+(
+)
+:
+assert
+False
+"
+            
+}
+        
+)
+        
+pytester
+.
+makeini
+(
+            
+"
+"
+"
+            
+[
+pytest
+]
+            
+python_files
+=
+*
+.
+py
+            
+"
+"
+"
+        
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+)
+        
+result
+.
+assert_outcomes
+(
+failed
+=
+3
+)
+        
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+lf
+"
+)
+        
+result
+.
+assert_outcomes
+(
+failed
+=
+3
+)
 class
 TestNewFirst
 :
@@ -7771,11 +8230,16 @@ def
 test_newfirst_usecase
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -7836,11 +8300,13 @@ assert
         
 )
         
-testdir
+p1
+=
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_1
@@ -7850,15 +8316,32 @@ test_1
 py
 "
 )
+        
+os
 .
-setmtime
+utime
 (
-1
+p1
+ns
+=
+(
+p1
+.
+stat
+(
+)
+.
+st_atime_ns
+int
+(
+1e9
+)
+)
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7908,7 +8391,7 @@ PASSED
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -7961,24 +8444,10 @@ PASSED
         
 )
         
-testdir
+p1
 .
-tmpdir
-.
-join
+write_text
 (
-"
-test_1
-/
-test_1
-.
-py
-"
-)
-.
-write
-(
-            
 "
 def
 test_1
@@ -8001,32 +8470,33 @@ assert
 \
 n
 "
-        
 )
         
-testdir
+os
 .
-tmpdir
-.
-join
+utime
 (
-"
-test_1
-/
-test_1
+p1
+ns
+=
+(
+p1
 .
-py
-"
+stat
+(
 )
 .
-setmtime
+st_atime_ns
+int
 (
-1
+1e9
+)
+)
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8105,7 +8575,7 @@ pytest_collection_modifyitems
 hook
 .
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8164,7 +8634,7 @@ items
         
 )
         
-testdir
+pytester
 .
 syspathinsert
 (
@@ -8172,7 +8642,7 @@ syspathinsert
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8269,11 +8739,16 @@ def
 test_newfirst_parametrize
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8372,11 +8847,13 @@ num
         
 )
         
-testdir
+p1
+=
+pytester
 .
-tmpdir
+path
 .
-join
+joinpath
 (
 "
 test_1
@@ -8386,15 +8863,32 @@ test_1
 py
 "
 )
+        
+os
 .
-setmtime
+utime
 (
-1
+p1
+ns
+=
+(
+p1
+.
+stat
+(
+)
+.
+st_atime_ns
+int
+(
+1e9
+)
+)
 )
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8479,7 +8973,7 @@ test_1
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8567,22 +9061,9 @@ test_1
         
 )
         
-testdir
+p1
 .
-tmpdir
-.
-join
-(
-"
-test_1
-/
-test_1
-.
-py
-"
-)
-.
-write
+write_text
 (
             
 "
@@ -8627,24 +9108,26 @@ n
         
 )
         
-testdir
+os
 .
-tmpdir
-.
-join
+utime
 (
-"
-test_1
-/
-test_1
+p1
+ns
+=
+(
+p1
 .
-py
-"
+stat
+(
 )
 .
-setmtime
+st_atime_ns
+int
 (
-1
+1e9
+)
+)
 )
         
 #
@@ -8662,7 +9145,7 @@ ones
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8726,7 +9209,7 @@ test_1
         
 result
 =
-testdir
+pytester
 .
 runpytest
 (
@@ -8836,17 +9319,30 @@ def
 check_readme
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+bool
 :
         
 config
 =
-testdir
+pytester
 .
 parseconfigure
 (
 )
+        
+assert
+config
+.
+cache
+is
+not
+None
         
 readme
 =
@@ -8876,11 +9372,16 @@ def
 test_readme_passed
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8894,7 +9395,7 @@ pass
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
@@ -8905,7 +9406,7 @@ self
 .
 check_readme
 (
-testdir
+pytester
 )
 is
 True
@@ -8914,11 +9415,16 @@ def
 test_readme_failed
 (
 self
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
         
-testdir
+pytester
 .
 makepyfile
 (
@@ -8933,7 +9439,7 @@ assert
 "
 )
         
-testdir
+pytester
 .
 runpytest
 (
@@ -8944,15 +9450,20 @@ self
 .
 check_readme
 (
-testdir
+pytester
 )
 is
 True
 def
 test_gitignore
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -8987,7 +9498,7 @@ Cache
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -9000,6 +9511,9 @@ Cache
 for_config
 (
 config
+_ispytest
+=
+True
 )
     
 cache
@@ -9111,10 +9625,154 @@ UTF
 custom
 "
 def
+test_preserve_keys_order
+(
+pytester
+:
+Pytester
+)
+-
+>
+None
+:
+    
+"
+"
+"
+Ensure
+keys
+order
+is
+preserved
+when
+saving
+dicts
+(
+#
+9205
+)
+.
+"
+"
+"
+    
+from
+_pytest
+.
+cacheprovider
+import
+Cache
+    
+config
+=
+pytester
+.
+parseconfig
+(
+)
+    
+cache
+=
+Cache
+.
+for_config
+(
+config
+_ispytest
+=
+True
+)
+    
+cache
+.
+set
+(
+"
+foo
+"
+{
+"
+z
+"
+:
+1
+"
+b
+"
+:
+2
+"
+a
+"
+:
+3
+"
+d
+"
+:
+10
+}
+)
+    
+read_back
+=
+cache
+.
+get
+(
+"
+foo
+"
+None
+)
+    
+assert
+list
+(
+read_back
+.
+items
+(
+)
+)
+=
+=
+[
+(
+"
+z
+"
+1
+)
+(
+"
+b
+"
+2
+)
+(
+"
+a
+"
+3
+)
+(
+"
+d
+"
+10
+)
+]
+def
 test_does_not_create_boilerplate_in_existing_dirs
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 from
@@ -9124,7 +9782,7 @@ cacheprovider
 import
 Cache
     
-testdir
+pytester
 .
 makeini
 (
@@ -9149,7 +9807,7 @@ cache_dir
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -9162,6 +9820,9 @@ Cache
 for_config
 (
 config
+_ispytest
+=
+True
 )
     
 cache
@@ -9222,8 +9883,13 @@ md
 def
 test_cachedir_tag
 (
-testdir
+pytester
+:
+Pytester
 )
+-
+>
+None
 :
     
 "
@@ -9266,7 +9932,7 @@ CACHEDIR_TAG_CONTENT
     
 config
 =
-testdir
+pytester
 .
 parseconfig
 (
@@ -9279,6 +9945,9 @@ Cache
 for_config
 (
 config
+_ispytest
+=
+True
 )
     
 cache

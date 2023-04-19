@@ -46,11 +46,19 @@ Optional
 from
 typing
 import
+overload
+from
+typing
+import
 Pattern
 from
 typing
 import
 Tuple
+from
+typing
+import
+Type
 from
 typing
 import
@@ -68,15 +76,15 @@ final
 from
 _pytest
 .
-compat
+deprecated
 import
-overload
+check_ispytest
 from
 _pytest
 .
-compat
+deprecated
 import
-TYPE_CHECKING
+WARNS_NONE_ARG
 from
 _pytest
 .
@@ -89,14 +97,6 @@ _pytest
 outcomes
 import
 fail
-if
-TYPE_CHECKING
-:
-    
-from
-typing
-import
-Type
 T
 =
 TypeVar
@@ -143,7 +143,7 @@ functions
 .
     
 See
-http
+https
 :
 /
 /
@@ -155,6 +155,12 @@ org
 /
 library
 /
+how
+-
+to
+/
+capture
+-
 warnings
 .
 html
@@ -174,6 +180,9 @@ wrec
 =
 WarningsRecorder
 (
+_ispytest
+=
+True
 )
     
 with
@@ -204,12 +213,10 @@ Optional
 Union
 [
 str
-"
 Pattern
 [
 str
 ]
-"
 ]
 ]
 =
@@ -228,18 +235,9 @@ WarningsRecorder
 .
 .
 overload
-#
-noqa
-:
-F811
 def
 deprecated_call
 (
-#
-noqa
-:
-F811
-    
 func
 :
 Callable
@@ -270,10 +268,6 @@ T
 def
 deprecated_call
 (
-#
-noqa
-:
-F811
     
 func
 :
@@ -376,7 +370,15 @@ return
 >
 >
 >
+import
+pytest
+        
+>
+>
+>
 with
+pytest
+.
 deprecated_call
 (
 )
@@ -536,36 +538,32 @@ warns
     
 expected_warning
 :
-Optional
-[
 Union
 [
-"
 Type
 [
 Warning
 ]
-"
 Tuple
 [
-"
 Type
 [
 Warning
 ]
-"
 .
 .
 .
 ]
 ]
-]
+=
+.
+.
+.
     
 *
     
 match
 :
-"
 Optional
 [
 Union
@@ -577,7 +575,6 @@ str
 ]
 ]
 ]
-"
 =
 .
 .
@@ -594,42 +591,27 @@ WarningsChecker
 .
 .
 overload
-#
-noqa
-:
-F811
 def
 warns
 (
-#
-noqa
-:
-F811
     
 expected_warning
 :
-Optional
-[
 Union
 [
-"
 Type
 [
 Warning
 ]
-"
 Tuple
 [
-"
 Type
 [
 Warning
 ]
-"
 .
 .
 .
-]
 ]
 ]
     
@@ -665,37 +647,28 @@ T
 def
 warns
 (
-#
-noqa
-:
-F811
     
 expected_warning
 :
-Optional
-[
 Union
 [
-"
 Type
 [
 Warning
 ]
-"
 Tuple
 [
-"
 Type
 [
 Warning
 ]
-"
 .
 .
 .
 ]
 ]
-]
+=
+Warning
     
 *
 args
@@ -709,12 +682,10 @@ Optional
 Union
 [
 str
-"
 Pattern
 [
 str
 ]
-"
 ]
 ]
 =
@@ -822,6 +793,9 @@ the
 other
 ways
     
+:
+func
+:
 pytest
 .
 raises
@@ -834,7 +808,15 @@ used
 >
 >
 >
+import
+pytest
+        
+>
+>
+>
 with
+pytest
+.
 warns
 (
 RuntimeWarning
@@ -885,6 +867,8 @@ regex
 >
 >
 with
+pytest
+.
 warns
 (
 UserWarning
@@ -922,6 +906,8 @@ UserWarning
 >
 >
 with
+pytest
+.
 warns
 (
 UserWarning
@@ -958,6 +944,8 @@ UserWarning
 >
 >
 with
+pytest
+.
 warns
 (
 UserWarning
@@ -1020,7 +1008,7 @@ UserWarning
 .
 .
 .
-was
+were
 emitted
 .
 .
@@ -1098,6 +1086,9 @@ expected_warning
 match_expr
 =
 match
+_ispytest
+=
+True
 )
     
 else
@@ -1121,9 +1112,10 @@ func
 raise
 TypeError
 (
-                
+f
 "
 {
+func
 !
 r
 }
@@ -1132,28 +1124,25 @@ object
 type
 :
 {
+type
+(
+func
+)
 }
 )
 must
 be
 callable
 "
-.
-format
-(
-func
-type
-(
-func
-)
-)
-            
 )
         
 with
 WarningsChecker
 (
 expected_warning
+_ispytest
+=
+True
 )
 :
             
@@ -1206,11 +1195,22 @@ def
 __init__
 (
 self
+*
+_ispytest
+:
+bool
+=
+False
 )
 -
 >
 None
 :
+        
+check_ispytest
+(
+_ispytest
+)
         
 #
 Type
@@ -1255,17 +1255,15 @@ False
 self
 .
 _list
-=
-[
-]
-#
-type
 :
 List
 [
 warnings
 .
 WarningMessage
+]
+=
+[
 ]
     
 property
@@ -1419,12 +1417,10 @@ pop
 self
 cls
 :
-"
 Type
 [
 Warning
 ]
-"
 =
 Warning
 )
@@ -1665,12 +1661,10 @@ exc_type
 :
 Optional
 [
-"
 Type
 [
 BaseException
 ]
-"
 ]
         
 exc_val
@@ -1784,20 +1778,16 @@ Optional
             
 Union
 [
-"
 Type
 [
 Warning
 ]
-"
 Tuple
 [
-"
 Type
 [
 Warning
 ]
-"
 .
 .
 .
@@ -1806,7 +1796,7 @@ Warning
         
 ]
 =
-None
+Warning
         
 match_expr
 :
@@ -1815,16 +1805,22 @@ Optional
 Union
 [
 str
-"
 Pattern
 [
 str
 ]
-"
 ]
 ]
 =
 None
+        
+*
+        
+_ispytest
+:
+bool
+=
+False
     
 )
 -
@@ -1832,12 +1828,20 @@ None
 None
 :
         
+check_ispytest
+(
+_ispytest
+)
+        
 super
 (
 )
 .
 __init__
 (
+_ispytest
+=
+True
 )
         
 msg
@@ -1859,6 +1863,16 @@ expected_warning
 is
 None
 :
+            
+warnings
+.
+warn
+(
+WARNS_NONE_ARG
+stacklevel
+=
+4
+)
             
 expected_warning_tup
 =
@@ -1952,12 +1966,10 @@ exc_type
 :
 Optional
 [
-"
 Type
 [
 BaseException
 ]
-"
 ]
         
 exc_val
@@ -2069,7 +2081,7 @@ of
 type
 {
 }
-was
+were
 emitted
 .
 "
@@ -2184,7 +2196,7 @@ matching
 }
 '
 )
-was
+were
 emitted
 .
 The
