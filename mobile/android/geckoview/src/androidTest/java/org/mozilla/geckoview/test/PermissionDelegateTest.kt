@@ -1091,7 +1091,6 @@ getUserMedia
 audio
 :
 true
-:
 video
 :
 true
