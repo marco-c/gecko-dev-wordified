@@ -2599,6 +2599,15 @@ postData
 submission
 .
 postData
+globalHistoryOptions
+:
+{
+triggeringSearchEngine
+:
+engine
+.
+name
+}
 }
 ;
 if
