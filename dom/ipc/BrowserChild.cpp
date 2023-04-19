@@ -19189,11 +19189,6 @@ mLayersConnected
 isNothing
 (
 )
-|
-|
-!
-*
-mLayersConnected
 )
 {
 return
