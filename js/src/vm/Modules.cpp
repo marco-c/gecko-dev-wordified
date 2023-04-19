@@ -311,7 +311,7 @@ h
 js
 :
 :
-GeneralErrorContext
+MainThreadErrorContext
 #
 include
 "
@@ -817,7 +817,7 @@ CHECK_THREAD
 cx
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

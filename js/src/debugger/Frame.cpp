@@ -700,7 +700,7 @@ h
 /
 /
 for
-GeneralErrorContext
+MainThreadErrorContext
 #
 include
 "
@@ -7166,7 +7166,7 @@ ScopeKind
 NonSyntactic
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

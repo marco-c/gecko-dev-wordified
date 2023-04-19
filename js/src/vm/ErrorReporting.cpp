@@ -200,7 +200,7 @@ h
 "
 /
 /
-GeneralErrorContext
+MainThreadErrorContext
 OffThreadErrorContext
 #
 include
@@ -2990,7 +2990,7 @@ cx
 report
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -3217,7 +3217,7 @@ cx
 report
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

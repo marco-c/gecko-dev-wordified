@@ -200,10 +200,10 @@ reallocPtr
 )
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
-GeneralErrorContext
+MainThreadErrorContext
 (
 JSContext
 *
@@ -217,7 +217,7 @@ cx
 {
 }
 bool
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 addPendingError
@@ -234,7 +234,7 @@ true
 }
 void
 *
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 onOutOfMemory
@@ -264,7 +264,7 @@ reallocPtr
 ;
 }
 void
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 reportAllocationOverflow
@@ -283,7 +283,7 @@ reportAllocationOverflow
 const
 JSErrorFormatString
 *
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 gcSafeCallback
@@ -316,7 +316,7 @@ errorNumber
 ;
 }
 void
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 reportError
@@ -374,7 +374,7 @@ cx_
 ;
 }
 void
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 reportWarning
@@ -406,7 +406,7 @@ cx_
 }
 }
 bool
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 hadOutOfMemory
@@ -427,7 +427,7 @@ outOfMemory
 ;
 }
 bool
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 hadOverRecursed
@@ -458,7 +458,7 @@ CompileError
 SystemAllocPolicy
 >
 &
-GeneralErrorContext
+MainThreadErrorContext
 :
 :
 errors

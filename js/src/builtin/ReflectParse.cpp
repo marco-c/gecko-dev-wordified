@@ -26167,7 +26167,7 @@ return
 false
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

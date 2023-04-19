@@ -464,7 +464,7 @@ h
 js
 :
 :
-GeneralErrorContext
+MainThreadErrorContext
 #
 include
 "
@@ -690,7 +690,7 @@ CHECK_THREAD
 cx
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -840,7 +840,7 @@ ScopeKind
 :
 Global
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -1607,7 +1607,7 @@ return
 false
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -3581,7 +3581,7 @@ setIsRunOnce
 true
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

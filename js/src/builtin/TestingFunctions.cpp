@@ -41689,7 +41689,7 @@ stencil
 .
 *
 /
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
