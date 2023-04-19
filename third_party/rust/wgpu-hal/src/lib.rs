@@ -786,7 +786,7 @@ MAX_COLOR_TARGETS
 :
 usize
 =
-4
+8
 ;
 pub
 const

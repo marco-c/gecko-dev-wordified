@@ -1195,15 +1195,6 @@ new
 device
 )
 private_caps
-:
-PrivateCapabilities
-:
-:
-new
-(
-&
-device
-)
 device
 :
 Mutex
