@@ -227,6 +227,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 /
 *
 *
@@ -247,7 +253,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 Internals
 "
@@ -445,6 +451,8 @@ reject
 =
 >
 {
+lazy
+.
 Internals
 .
 read
@@ -790,6 +798,8 @@ reject
 =
 >
 {
+lazy
+.
 Internals
 .
 writeAtomic

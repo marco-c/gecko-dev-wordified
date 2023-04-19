@@ -427,6 +427,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 /
 /
 The
@@ -438,7 +444,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -1877,6 +1883,8 @@ etc
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
