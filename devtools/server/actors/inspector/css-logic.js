@@ -5671,7 +5671,7 @@ line
 =
 InspectorUtils
 .
-getRuleLine
+getRelativeRuleLine
 (
 this
 .

@@ -266,7 +266,7 @@ line
 =
 InspectorUtils
 .
-getRuleLine
+getRelativeRuleLine
 (
 mediaRule
 )
