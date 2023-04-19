@@ -4654,7 +4654,7 @@ cost_manager
 CostManager
 *
 )
-WebPSafeMalloc
+WebPSafeCalloc
 (
 1ULL
 sizeof

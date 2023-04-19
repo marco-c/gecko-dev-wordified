@@ -7825,8 +7825,12 @@ i
 *
 cache_bits_best
 ;
+double
+bit_cost_trace
+;
 if
 (
+!
 VP8LBackwardReferencesTraceBackwards
 (
 width
@@ -7843,9 +7847,10 @@ refs_tmp
 )
 )
 {
-double
-bit_cost_trace
+goto
+Error
 ;
+}
 VP8LHistogramCreate
 (
 histo
@@ -7880,7 +7885,6 @@ i
 ]
 )
 ;
-}
 }
 }
 BackwardReferences2DLocality
