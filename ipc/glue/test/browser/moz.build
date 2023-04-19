@@ -94,6 +94,11 @@ browser
 .
 ini
 "
+"
+browser_child_hang
+.
+ini
+"
 ]
 MOCHITEST_MANIFESTS
 +
