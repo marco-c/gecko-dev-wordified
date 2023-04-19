@@ -23,7 +23,7 @@ Struct
 [
 pin
 ]
-field
+f
 :
 u8
 }

@@ -78,7 +78,7 @@ str
 FromStr
 ;
 use
-futures
+futures_util
 :
 :
 future
@@ -373,7 +373,7 @@ move
 route
 |
 {
-log
+tracing
 :
 :
 trace
@@ -525,7 +525,7 @@ move
 route
 |
 {
-log
+tracing
 :
 :
 trace
@@ -767,7 +767,7 @@ move
 route
 |
 {
-log
+tracing
 :
 :
 trace
@@ -1015,7 +1015,7 @@ move
 route
 |
 {
-log
+tracing
 :
 :
 trace
@@ -1227,7 +1227,7 @@ move
 route
 |
 {
-log
+tracing
 :
 :
 trace
@@ -1411,7 +1411,7 @@ warp
 header
 :
 :
-exact
+exact_ignore_case
 (
 "
 connection
@@ -1466,7 +1466,7 @@ move
 route
 |
 {
-log
+tracing
 :
 :
 trace
@@ -1714,7 +1714,7 @@ move
 route
 |
 {
-log
+tracing
 :
 :
 trace
