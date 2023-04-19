@@ -1924,6 +1924,14 @@ nullptr
 kTlsAlertNoApplicationProtocol
 )
 ;
+client_
+-
+>
+CheckErrorCode
+(
+SSL_ERROR_NEXT_PROTOCOL_NO_PROTOCOL
+)
+;
 }
 TEST_P
 (
