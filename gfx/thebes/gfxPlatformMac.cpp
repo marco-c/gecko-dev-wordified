@@ -274,6 +274,15 @@ nsDirectoryServiceDefs
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPrefs_gfx
+.
+h
+"
+#
 endif
 #
 include
