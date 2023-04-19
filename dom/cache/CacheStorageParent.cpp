@@ -245,8 +245,10 @@ in
 ActorUtils
 .
 h
+already_AddRefed
+<
 PCacheStorageParent
-*
+>
 AllocPCacheStorageParent
 (
 PBackgroundParent
@@ -291,8 +293,10 @@ nullptr
 ;
 }
 return
-new
+MakeAndAddRef
+<
 CacheStorageParent
+>
 (
 aManagingActor
 aNamespace
