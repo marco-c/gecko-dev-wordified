@@ -636,7 +636,6 @@ options
 param
 {
 boolean
-=
 }
 awaitPromise
 *
@@ -663,11 +662,6 @@ value
 is
 a
 Promise
-.
-Defaults
-to
-*
-true
 .
 *
 param
@@ -780,8 +774,6 @@ options
 const
 {
 awaitPromise
-=
-true
 expression
 :
 source
