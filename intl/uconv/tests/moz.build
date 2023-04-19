@@ -85,14 +85,6 @@ MPL
 0
 /
 .
-TEST_DIRS
-+
-=
-[
-"
-gtest
-"
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
