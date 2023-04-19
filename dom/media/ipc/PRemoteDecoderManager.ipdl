@@ -270,6 +270,9 @@ options
 TextureFactoryIdentifier
 ?
 identifier
+uint64_t
+?
+mediaEngineId
 )
 ;
 sync

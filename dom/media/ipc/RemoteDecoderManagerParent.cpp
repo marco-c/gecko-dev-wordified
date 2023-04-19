@@ -1147,6 +1147,13 @@ TextureFactoryIdentifier
 >
 &
 aIdentifier
+const
+Maybe
+<
+uint64_t
+>
+&
+aMediaEngineId
 )
 {
 RefPtr
@@ -1220,6 +1227,7 @@ aOptions
 aIdentifier
 sRemoteDecoderManagerParentThread
 decodeTaskQueue
+aMediaEngineId
 )
 ;
 }
@@ -1251,6 +1259,7 @@ get_AudioInfo
 aOptions
 sRemoteDecoderManagerParentThread
 decodeTaskQueue
+aMediaEngineId
 )
 ;
 }

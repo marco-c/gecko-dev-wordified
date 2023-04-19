@@ -161,6 +161,11 @@ aManagerThread
 TaskQueue
 *
 aDecodeTaskQueue
+Maybe
+<
+uint64_t
+>
+aMediaEngineId
 )
 :
 ShmemRecycleAllocator
@@ -178,6 +183,10 @@ aOptions
 mDecodeTaskQueue
 (
 aDecodeTaskQueue
+)
+mMediaEngineId
+(
+aMediaEngineId
 )
 mManagerThread
 (

@@ -322,6 +322,13 @@ CreateDecoderParams
 OptionSet
 &
 aOptions
+const
+Maybe
+<
+uint64_t
+>
+&
+aMediaEngineId
 )
 {
 RefPtr
@@ -454,6 +461,7 @@ aOptions
 Nothing
 (
 )
+aMediaEngineId
 )
 ;
 return
@@ -485,6 +493,11 @@ aManagerThread
 TaskQueue
 *
 aDecodeTaskQueue
+Maybe
+<
+uint64_t
+>
+aMediaEngineId
 )
 :
 RemoteDecoderParent
@@ -493,6 +506,7 @@ aParent
 aOptions
 aManagerThread
 aDecodeTaskQueue
+aMediaEngineId
 )
 mAudioInfo
 (
@@ -526,6 +540,7 @@ NoWrapper
 (
 true
 )
+mMediaEngineId
 }
 ;
 mParent
