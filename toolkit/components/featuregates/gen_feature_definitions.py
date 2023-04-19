@@ -1378,6 +1378,10 @@ edition
 "
 esr
 "
+            
+"
+thunderbird
+"
         
 }
     
