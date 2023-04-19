@@ -206,6 +206,10 @@ right
 SessionHistory
 entry
 count
+after
+initial
+tab
+load
 .
 "
 )
@@ -230,6 +234,10 @@ for
 the
 loaded
 entry
+after
+initial
+tab
+load
 .
 "
 )
@@ -272,6 +280,10 @@ right
 SessionHistory
 entry
 count
+after
+loading
+page
+2
 .
 "
 )
@@ -297,6 +309,10 @@ for
 the
 first
 entry
+after
+loading
+page
+2
 .
 "
 )
@@ -321,6 +337,10 @@ for
 the
 loaded
 entry
+after
+loading
+page
+2
 .
 "
 )
@@ -380,6 +400,9 @@ for
 the
 second
 entry
+after
+going
+back
 .
 "
 )
@@ -402,6 +425,9 @@ for
 the
 loaded
 entry
+after
+going
+back
 .
 "
 )
@@ -447,6 +473,10 @@ right
 SessionHistory
 entry
 count
+after
+going
+forward
+again
 .
 "
 )
@@ -472,6 +502,10 @@ for
 the
 first
 entry
+after
+going
+forward
+again
 .
 "
 )
@@ -496,6 +530,10 @@ for
 the
 loaded
 entry
+after
+going
+forward
+again
 .
 "
 )
@@ -575,6 +613,9 @@ right
 SessionHistory
 entry
 count
+after
+using
+pushState
 .
 "
 )
@@ -600,6 +641,9 @@ for
 the
 first
 entry
+after
+using
+pushState
 .
 "
 )
@@ -625,6 +669,9 @@ for
 the
 second
 entry
+after
+using
+pushState
 .
 "
 )
@@ -650,6 +697,9 @@ for
 the
 third
 entry
+after
+using
+pushState
 .
 "
 )
@@ -674,6 +724,9 @@ for
 the
 loaded
 entry
+after
+using
+pushState
 .
 "
 )
