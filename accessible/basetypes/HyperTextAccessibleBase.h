@@ -592,8 +592,8 @@ at
 given
 offset
 relative
-given
 *
+given
 coordinate
 system
 .
