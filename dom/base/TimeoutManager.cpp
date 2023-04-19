@@ -3338,6 +3338,13 @@ if
 (
 !
 doc
+|
+|
+mWindow
+.
+IsDying
+(
+)
 )
 {
 return
