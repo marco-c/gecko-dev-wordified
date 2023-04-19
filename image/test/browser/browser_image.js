@@ -1433,12 +1433,10 @@ nextTest
 {
 if
 (
+!
 tests
 .
 length
-=
-=
-0
 )
 {
 finish
