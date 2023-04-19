@@ -206,6 +206,11 @@ false
 )
 )
 ;
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 /
 /
 Clear
@@ -423,6 +428,11 @@ object
 netmonitor
 "
 }
+;
+await
+waitForAllNetworkUpdateEvents
+(
+)
 ;
 /
 /
