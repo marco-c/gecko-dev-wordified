@@ -3535,7 +3535,33 @@ not
 cargo
 :
             
-return
+self
+.
+log
+(
+logging
+.
+ERROR
+"
+cargo_not_found
+"
+{
+}
+"
+Cargo
+was
+not
+found
+.
+"
+)
+            
+sys
+.
+exit
+(
+1
+)
         
 relative_vendor_dir
 =
