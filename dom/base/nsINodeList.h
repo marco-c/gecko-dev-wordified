@@ -134,6 +134,13 @@ nsISupports
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 /
 /
 IID
