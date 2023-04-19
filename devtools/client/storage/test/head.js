@@ -6549,8 +6549,7 @@ getCellLength
 len
 Table
 should
-initially
-display
+contain
 {
 len
 }
