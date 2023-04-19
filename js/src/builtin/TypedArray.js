@@ -11166,6 +11166,11 @@ TypedArrayToReversed
 )
 ;
 }
+GetAttachedArrayBuffer
+(
+this
+)
+;
 /
 /
 Step
@@ -11371,12 +11376,12 @@ kValue
 true
 )
 .
-DefineDataProperty
-(
 A
+[
 k
+]
+=
 fromValue
-)
 ;
 }
 /
