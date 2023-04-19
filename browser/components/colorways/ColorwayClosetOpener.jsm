@@ -157,11 +157,6 @@ resizable
 =
 no
 "
-sizeTo
-:
-"
-available
-"
 }
 )
 ;
