@@ -684,7 +684,11 @@ getSection
 (
 doc
 "
+theme
+-
 enabled
+-
+section
 "
 )
 ;
@@ -1316,7 +1320,11 @@ getSection
 (
 doc
 "
+theme
+-
 disabled
+-
+section
 "
 )
 ;
