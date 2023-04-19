@@ -1429,6 +1429,8 @@ n
 "
 )
 ;
+window
+.
 sizeToContent
 (
 )
