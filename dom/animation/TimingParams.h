@@ -253,7 +253,6 @@ dom
 struct
 TimingParams
 {
-constexpr
 TimingParams
 (
 )
