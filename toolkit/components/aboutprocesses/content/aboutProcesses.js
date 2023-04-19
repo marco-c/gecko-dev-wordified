@@ -6929,6 +6929,9 @@ default
 "
 ipcmessages
 "
+"
+power
+"
 ]
 [
 "
