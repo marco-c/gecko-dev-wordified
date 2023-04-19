@@ -308,7 +308,7 @@ locking
 static
 Maybe
 <
-nsPoint
+SnapTarget
 >
 GetSnapPointForDestination
 (
