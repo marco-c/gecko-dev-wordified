@@ -35,7 +35,6 @@ def
 test_null
 (
 bidi_session
-current_session
 top_context
 test_page
 type_hint
@@ -71,11 +70,14 @@ complete
     
 current_top_level_context_id
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
     
-other_top_level_context_id
+other_top_level_context
 =
 await
 bidi_session
@@ -84,12 +86,19 @@ browsing_context
 .
 create
 (
-        
 type_hint
 =
 type_hint
-    
 )
+    
+other_top_level_context_id
+=
+other_top_level_context
+[
+"
+context
+"
+]
     
 #
 Retrieve
@@ -236,9 +245,7 @@ async
 def
 test_top_level_context
 (
-    
 bidi_session
-current_session
 top_context
 test_page
 type_hint
@@ -272,6 +279,29 @@ complete
     
 )
     
+other_top_level_context
+=
+await
+bidi_session
+.
+browsing_context
+.
+create
+(
+type_hint
+=
+type_hint
+)
+    
+other_top_level_context_id
+=
+other_top_level_context
+[
+"
+context
+"
+]
+    
 #
 Retrieve
 all
@@ -284,22 +314,6 @@ opened
 tab
 /
 window
-    
-other_top_level_context_id
-=
-await
-bidi_session
-.
-browsing_context
-.
-create
-(
-        
-type_hint
-=
-type_hint
-    
-)
     
 contexts
 =
@@ -358,8 +372,6 @@ test_child_context
     
 bidi_session
     
-current_session
-    
 top_context
     
 test_page_same_origin_frame
@@ -402,14 +414,18 @@ all
 browsing
 contexts
 for
-current
+the
+first
 tab
     
 top_level_context_id
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
     
 all_contexts
 =

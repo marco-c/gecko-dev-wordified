@@ -19,8 +19,6 @@ test_multiple_frames
     
 bidi_session
     
-current_session
-    
 top_context
     
 test_page
@@ -66,14 +64,17 @@ browsing
 contexts
 of
 the
-current
+first
 tab
     
 top_level_context_id
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
     
 all_contexts
 =
@@ -258,8 +259,6 @@ test_cross_origin
     
 bidi_session
     
-current_session
-    
 top_context
     
 test_page_cross_origin
@@ -303,14 +302,17 @@ browsing
 contexts
 of
 the
-current
+first
 tab
     
 top_level_context_id
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
     
 all_contexts
 =
