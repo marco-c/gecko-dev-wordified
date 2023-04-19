@@ -1475,6 +1475,17 @@ offsets
 )
 ;
 void
+GenerateJitEntryEpilogue
+(
+jit
+:
+:
+MacroAssembler
+&
+masm
+)
+;
+void
 GenerateFunctionPrologue
 (
 jit
