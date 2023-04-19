@@ -217,12 +217,6 @@ ToastNotificationHandler
 >
 mActiveHandlers
 ;
-nsCOMPtr
-<
-nsIThread
->
-mBackgroundThread
-;
 bool
 mSuppressForScreenSharing
 =
