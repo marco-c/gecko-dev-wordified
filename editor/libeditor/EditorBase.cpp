@@ -34349,8 +34349,9 @@ EditorBase
 :
 FindSelectionRoot
 (
+const
 nsINode
-*
+&
 aNode
 )
 const
@@ -34397,9 +34398,10 @@ EditorBase
 :
 InitializeSelection
 (
+const
 nsINode
 &
-aFocusEventTargetNode
+aOriginalEventTargetNode
 )
 {
 MOZ_ASSERT
@@ -34417,8 +34419,7 @@ selectionRootContent
 =
 FindSelectionRoot
 (
-&
-aFocusEventTargetNode
+aOriginalEventTargetNode
 )
 ;
 if
@@ -34633,7 +34634,7 @@ caret
 >
 SetIgnoreUserModify
 (
-aFocusEventTargetNode
+aOriginalEventTargetNode
 .
 IsInDesignMode
 (
@@ -37064,9 +37065,10 @@ EditorBase
 :
 OnFocus
 (
+const
 nsINode
 &
-aFocusEventTargetNode
+aOriginalEventTargetNode
 )
 {
 AutoEditActionDataSetter
@@ -37098,7 +37100,7 @@ return
 }
 InitializeSelection
 (
-aFocusEventTargetNode
+aOriginalEventTargetNode
 )
 ;
 mSpellCheckerDictionaryUpdated
