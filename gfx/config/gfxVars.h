@@ -760,6 +760,13 @@ UseDMABufSurfaceExport
 bool
 true
 )
+\
+_
+(
+ReuseDecoderDevice
+bool
+false
+)
 /
 *
 Add
