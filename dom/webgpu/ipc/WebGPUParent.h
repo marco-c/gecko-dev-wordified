@@ -798,6 +798,12 @@ set
 bool
 mHasMapFlags
 ;
+uint64_t
+mMappedOffset
+;
+uint64_t
+mMappedSize
+;
 }
 ;
 BufferMapData
