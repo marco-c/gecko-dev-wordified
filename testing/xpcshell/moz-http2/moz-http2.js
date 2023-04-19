@@ -5190,6 +5190,11 @@ md5
 "
 )
 ;
+var
+received_data
+=
+false
+;
 req
 .
 on
@@ -5203,6 +5208,10 @@ receivePostData
 chunk
 )
 {
+received_data
+=
+true
+;
 post_hash
 .
 update
@@ -5232,6 +5241,8 @@ finishPost
 let
 md5
 =
+received_data
+?
 post_hash
 .
 digest
@@ -5240,6 +5251,10 @@ digest
 hex
 "
 )
+:
+"
+0
+"
 ;
 res
 .
