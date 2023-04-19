@@ -382,12 +382,6 @@ AbortMapRequest
 (
 )
 ;
-bool
-Mappable
-(
-)
-const
-;
 /
 /
 Note
