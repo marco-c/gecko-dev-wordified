@@ -3832,6 +3832,9 @@ PermissionNoPrompt
 "
 OptionalPermissionNoPrompt
 "
+"
+PermissionPrivileged
+"
 ]
 )
 ;

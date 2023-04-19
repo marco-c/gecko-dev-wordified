@@ -1132,6 +1132,9 @@ PermissionNoPrompt
 "
 OptionalPermissionNoPrompt
 "
+"
+PermissionPrivileged
+"
 ]
 )
 )
