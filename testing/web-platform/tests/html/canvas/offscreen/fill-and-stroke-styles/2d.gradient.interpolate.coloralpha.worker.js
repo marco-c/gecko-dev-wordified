@@ -35,7 +35,7 @@ gradient
 .
 interpolate
 .
-colouralpha
+coloralpha
 /
 /
 Description

@@ -41,7 +41,7 @@ alpha
 Description
 :
 Shadow
-colour
+color
 alpha
 components
 are
@@ -87,7 +87,7 @@ async_test
 (
 "
 Shadow
-colour
+color
 alpha
 components
 are

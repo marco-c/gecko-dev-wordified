@@ -44,7 +44,7 @@ getImageData
 (
 )
 clamps
-colours
+colors
 to
 the
 range
@@ -96,7 +96,7 @@ getImageData
 (
 )
 clamps
-colours
+colors
 to
 the
 range

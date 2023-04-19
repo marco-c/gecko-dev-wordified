@@ -57,7 +57,7 @@ notes
 "
 >
 Assumes
-colours
+colors
 are
 clamped
 to

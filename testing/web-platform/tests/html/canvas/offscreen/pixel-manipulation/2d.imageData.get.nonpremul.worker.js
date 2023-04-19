@@ -47,7 +47,7 @@ returns
 non
 -
 premultiplied
-colours
+colors
 /
 /
 Note
@@ -95,7 +95,7 @@ returns
 non
 -
 premultiplied
-colours
+colors
 "
 )
 ;
