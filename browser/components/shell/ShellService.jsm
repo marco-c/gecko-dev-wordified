@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -213,7 +219,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 XreDirProvider
 "
@@ -239,7 +245,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -519,6 +525,8 @@ win
 let
 optOutValue
 =
+lazy
+.
 WindowsRegistry
 .
 readRegKey
@@ -542,6 +550,8 @@ DefaultBrowserOptOut
 "
 )
 ;
+lazy
+.
 WindowsRegistry
 .
 removeRegKey
@@ -911,6 +921,8 @@ exe
 "
 ;
 return
+lazy
+.
 Subprocess
 .
 call
@@ -1045,6 +1057,8 @@ _shouldSetDefaultPDFHandler
 if
 (
 !
+lazy
+.
 NimbusFeatures
 .
 shellService
@@ -1274,6 +1288,8 @@ default
 PDF
 handler
 .
+lazy
+.
 log
 .
 warn
@@ -1310,6 +1326,8 @@ currentProgID
 "
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1360,6 +1378,8 @@ if
 knownBrowserPrefix
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1394,6 +1414,8 @@ return
 true
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1519,6 +1541,8 @@ only
 )
 ;
 }
+lazy
+.
 log
 .
 info
@@ -1666,6 +1690,8 @@ failed
 const
 aumi
 =
+lazy
+.
 XreDirProvider
 .
 getInstallHash
@@ -1698,6 +1724,8 @@ aumi
 ;
 if
 (
+lazy
+.
 NimbusFeatures
 .
 shellService
@@ -1719,6 +1747,8 @@ _shouldSetDefaultPDFHandler
 )
 )
 {
+lazy
+.
 log
 .
 info
@@ -1749,6 +1779,8 @@ FirefoxPDF
 }
 else
 {
+lazy
+.
 log
 .
 info
@@ -1861,6 +1893,8 @@ resolve
 reject
 )
 {
+lazy
+.
 setTimeout
 (
 (
@@ -2064,6 +2098,8 @@ win
 )
 &
 &
+lazy
+.
 NimbusFeatures
 .
 shellService
@@ -2586,6 +2622,8 @@ disabled
 .
 if
 (
+lazy
+.
 NimbusFeatures
 .
 shellService
