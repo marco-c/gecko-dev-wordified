@@ -528,4 +528,12 @@ LOCAL_INCLUDES
 /
 caps
 "
+"
+/
+dom
+/
+fs
+/
+include
+"
 ]
