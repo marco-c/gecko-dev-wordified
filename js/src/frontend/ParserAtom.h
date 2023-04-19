@@ -2555,6 +2555,9 @@ allocate
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 LifoAlloc
 &
 alloc
@@ -4066,6 +4069,9 @@ addEntry
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 EntryMap
 :
 :
@@ -4090,6 +4096,9 @@ internChar16Seq
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 EntryMap
 :
 :
@@ -4118,6 +4127,9 @@ internExternalParserAtomImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ParserAtom
 *
@@ -4132,6 +4144,9 @@ internAscii
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 char
 *
@@ -4146,6 +4161,9 @@ internLatin1
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -4163,6 +4181,9 @@ internUtf8
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 mozilla
 :
@@ -4180,6 +4201,9 @@ internChar16
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 char16_t
 *
@@ -4228,6 +4252,9 @@ internExternalParserAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ParserAtom
 *
@@ -4280,6 +4307,9 @@ internExternalParserAtomIndex
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 CompilationStencil
 &
@@ -4330,6 +4360,9 @@ addPlaceholder
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 ;
 private

@@ -2773,6 +2773,9 @@ toAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
@@ -2783,6 +2786,7 @@ return
 NumberToParserAtom
 (
 cx
+ec
 parserAtoms
 value
 (

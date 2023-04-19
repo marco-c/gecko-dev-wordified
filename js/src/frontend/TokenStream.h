@@ -11586,6 +11586,10 @@ JSContext
 *
 cx
 ;
+ErrorContext
+*
+ec
+;
 /
 *
 *
@@ -11662,6 +11666,9 @@ TokenStreamCharsShared
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 *
 parserAtoms
@@ -11670,6 +11677,10 @@ parserAtoms
 cx
 (
 cx
+)
+ec
+(
+ec
 )
 charBuffer
 (
@@ -11810,6 +11821,7 @@ parserAtoms
 internChar16
 (
 cx
+ec
 charBuffer
 .
 begin
@@ -11964,6 +11976,9 @@ TokenStreamCharsBase
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 *
 parserAtoms
@@ -12659,6 +12674,7 @@ parserAtoms
 internChar16
 (
 cx
+ec
 units
 .
 data
@@ -12717,6 +12733,7 @@ parserAtoms
 internUtf8
 (
 cx
+ec
 units
 .
 data
@@ -18268,6 +18285,9 @@ TokenStreamSpecific
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 *
 parserAtoms
@@ -21472,6 +21492,7 @@ TokenStreamAnyCharsAccess
 >
 (
 cx
+ec
 parserAtoms
 options
 units

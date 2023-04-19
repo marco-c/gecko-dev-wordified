@@ -8607,6 +8607,7 @@ parserAtoms_
 internAscii
 (
 cx_
+ec_
 name
 strlen
 (
@@ -8764,6 +8765,7 @@ parserAtoms_
 internAscii
 (
 cx_
+ec_
 name
 strlen
 (

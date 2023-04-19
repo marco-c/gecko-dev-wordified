@@ -1818,6 +1818,7 @@ buf_
 finishParserAtom
 (
 parserAtoms_
+ec_
 )
 ;
 return
@@ -2793,6 +2794,7 @@ buf_
 finishParserAtom
 (
 parserAtoms_
+ec_
 )
 ;
 if

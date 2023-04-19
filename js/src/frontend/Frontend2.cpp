@@ -620,6 +620,9 @@ ConvertAtoms
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 SmooshResult
 &
@@ -712,6 +715,7 @@ parserAtoms
 internUtf8
 (
 cx
+ec
 s
 len
 )
@@ -2287,6 +2291,7 @@ parserAtoms
 internUtf8
 (
 cx
+ec
 sUtf8
 len
 )
@@ -3225,6 +3230,7 @@ sharedData
 addAndShare
 (
 cx
+ec
 scriptIndex
 sharedData
 )
@@ -3837,6 +3843,7 @@ input
 initForGlobal
 (
 cx
+ec
 )
 )
 {
@@ -3879,6 +3886,7 @@ if
 ConvertAtoms
 (
 cx
+ec
 result
 compilationState
 allAtoms

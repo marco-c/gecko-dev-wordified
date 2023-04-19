@@ -1320,6 +1320,7 @@ source
 assignSource
 (
 cx
+ec
 input
 .
 options
@@ -1832,6 +1833,7 @@ input
 initForGlobal
 (
 cx
+ec
 )
 )
 {
@@ -3168,6 +3170,12 @@ assertException
 cx
 )
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 CompilationInput
@@ -3193,6 +3201,8 @@ get
 initForEval
 (
 cx
+&
+ec
 enclosingScope
 )
 )
@@ -3211,12 +3221,6 @@ cx
 tempLifoAlloc
 (
 )
-)
-;
-MainThreadErrorContext
-ec
-(
-cx
 )
 ;
 JS
@@ -3788,6 +3792,7 @@ source
 assignSource
 (
 cx
+ec
 options
 sourceBuffer_
 )
@@ -5424,6 +5429,7 @@ input
 initForModule
 (
 cx
+ec
 )
 )
 {
@@ -8800,6 +8806,12 @@ assertException
 cx
 )
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 CompilationInput
@@ -8830,6 +8842,8 @@ get
 initForStandaloneFunctionInNonSyntacticScope
 (
 cx
+&
+ec
 enclosingScope
 )
 )
@@ -8853,6 +8867,8 @@ get
 initForStandaloneFunction
 (
 cx
+&
+ec
 )
 )
 {
@@ -8895,12 +8911,6 @@ InheritThis
 :
 :
 No
-;
-MainThreadErrorContext
-ec
-(
-cx
-)
 ;
 JS
 :

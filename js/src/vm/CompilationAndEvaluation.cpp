@@ -1541,6 +1541,12 @@ frontend
 :
 Parser
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 CompileOptions
 options
 (
@@ -1578,6 +1584,8 @@ get
 initForGlobal
 (
 cx
+&
+ec
 )
 )
 {
@@ -1595,12 +1603,6 @@ cx
 tempLifoAlloc
 (
 )
-)
-;
-MainThreadErrorContext
-ec
-(
-cx
 )
 ;
 frontend

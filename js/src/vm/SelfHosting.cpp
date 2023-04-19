@@ -18234,6 +18234,12 @@ return
 nullptr
 ;
 }
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 !
@@ -18243,6 +18249,8 @@ source
 initFromOptions
 (
 cx
+&
+ec
 options
 )
 )

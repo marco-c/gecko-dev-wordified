@@ -3382,6 +3382,9 @@ info
 cx
 info
 .
+ec
+info
+.
 parserAtoms
 )
 ;
@@ -8333,6 +8336,9 @@ info
 cx
 info
 .
+ec
+info
+.
 parserAtoms
 )
 ;
@@ -9309,6 +9315,9 @@ finishParserAtom
 info
 .
 parserAtoms
+info
+.
+ec
 )
 ;
 if

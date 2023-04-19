@@ -628,6 +628,9 @@ allocate
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 LifoAlloc
 &
 alloc
@@ -682,7 +685,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -1957,6 +1960,9 @@ addEntry
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 EntryMap
 :
 :
@@ -2030,7 +2036,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -2068,7 +2074,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -2100,6 +2106,9 @@ internChar16Seq
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 EntryMap
 :
 :
@@ -2136,6 +2145,7 @@ AtomCharT
 >
 (
 cx
+ec
 *
 alloc_
 seq
@@ -2162,6 +2172,7 @@ return
 addEntry
 (
 cx
+ec
 addPtr
 entry
 )
@@ -2183,6 +2194,9 @@ internAscii
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 char
 *
@@ -2221,6 +2235,7 @@ return
 internLatin1
 (
 cx
+ec
 latin1Ptr
 length
 )
@@ -2235,6 +2250,9 @@ internLatin1
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 Latin1Char
 *
@@ -2357,6 +2375,7 @@ Latin1Char
 >
 (
 cx
+ec
 addPtr
 lookup
 .
@@ -2436,6 +2455,9 @@ internExternalParserAtomImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ParserAtom
 *
@@ -2575,6 +2597,7 @@ AtomCharT
 >
 (
 cx
+ec
 addPtr
 atom
 -
@@ -2669,6 +2692,9 @@ internExternalParserAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ParserAtom
 *
@@ -2695,6 +2721,7 @@ Latin1Char
 >
 (
 cx
+ec
 atom
 )
 ;
@@ -2706,6 +2733,7 @@ char16_t
 >
 (
 cx
+ec
 atom
 )
 ;
@@ -2719,6 +2747,9 @@ addPlaceholder
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 {
 ParserAtomIndex
@@ -2772,7 +2803,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -2792,6 +2823,9 @@ internExternalParserAtomIndex
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 CompilationStencil
 &
@@ -2859,6 +2893,7 @@ return
 internExternalParserAtom
 (
 cx
+ec
 context
 .
 parserAtomData
@@ -3297,6 +3332,9 @@ internUtf8
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 mozilla
 :
@@ -3456,6 +3494,7 @@ return
 internLatin1
 (
 cx
+ec
 latin1Ptr
 nbyte
 )
@@ -3627,6 +3666,7 @@ char16_t
 >
 (
 cx
+ec
 addPtr
 lookup
 .
@@ -3643,6 +3683,7 @@ Latin1Char
 >
 (
 cx
+ec
 addPtr
 lookup
 .
@@ -3663,6 +3704,9 @@ internChar16
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 char16_t
 *
@@ -3799,6 +3843,7 @@ char16_t
 >
 (
 cx
+ec
 addPtr
 lookup
 .
@@ -3815,6 +3860,7 @@ Latin1Char
 >
 (
 cx
+ec
 addPtr
 lookup
 .
@@ -3868,6 +3914,7 @@ hasLatin1Chars
 internLatin1
 (
 cx
+ec
 atom
 -
 >
@@ -3886,6 +3933,7 @@ length
 internChar16
 (
 cx
+ec
 atom
 -
 >

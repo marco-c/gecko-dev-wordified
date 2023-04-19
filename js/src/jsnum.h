@@ -342,6 +342,9 @@ NumberToParserAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -402,6 +405,9 @@ Int32ToParserAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :

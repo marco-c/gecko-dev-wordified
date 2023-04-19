@@ -169,6 +169,9 @@ namespace
 js
 {
 class
+ErrorContext
+;
+class
 ScriptSource
 ;
 /
@@ -382,6 +385,9 @@ SetSourceOptions
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ScriptSource
 *
 source

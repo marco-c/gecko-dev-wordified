@@ -162,6 +162,9 @@ h
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -2548,6 +2551,9 @@ frontend
 ParserAtomsTable
 &
 parserAtoms
+ErrorContext
+*
+ec
 )
 ;
 /
