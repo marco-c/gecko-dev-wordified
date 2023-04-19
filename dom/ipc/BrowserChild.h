@@ -1922,6 +1922,10 @@ mozilla
 WidgetKeyboardEvent
 &
 aEvent
+const
+nsID
+&
+aUUID
 )
 ;
 mozilla
@@ -1940,6 +1944,10 @@ mozilla
 WidgetKeyboardEvent
 &
 aEvent
+const
+nsID
+&
+aUUID
 )
 ;
 mozilla
