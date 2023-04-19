@@ -1192,6 +1192,7 @@ spec
 .
 StripChars
 (
+u
 "
 \
 n

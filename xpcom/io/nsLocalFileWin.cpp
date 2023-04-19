@@ -8379,6 +8379,7 @@ handlerCommand
 .
 StripChars
 (
+u
 "
 \
 "
