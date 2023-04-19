@@ -1241,6 +1241,17 @@ Result
 DumperError
 >
 {
+let
+threads_count
+=
+self
+.
+threads
+.
+len
+(
+)
+;
 /
 /
 Iterate
@@ -1333,6 +1344,9 @@ DumperError
 :
 :
 SuspendNoThreadsLeft
+(
+threads_count
+)
 )
 }
 else
