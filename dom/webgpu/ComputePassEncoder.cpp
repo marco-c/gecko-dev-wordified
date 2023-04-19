@@ -431,7 +431,7 @@ mValid
 ffi
 :
 :
-wgpu_compute_pass_dispatch_workgroups
+wgpu_compute_pass_dispatch
 (
 mPass
 x
@@ -463,7 +463,7 @@ mValid
 ffi
 :
 :
-wgpu_compute_pass_dispatch_workgroups_indirect
+wgpu_compute_pass_dispatch_indirect
 (
 mPass
 aIndirectBuffer

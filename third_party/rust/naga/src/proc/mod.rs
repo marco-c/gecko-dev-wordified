@@ -982,15 +982,6 @@ Sampler
 .
 .
 }
-|
-Self
-:
-:
-BindingArray
-{
-.
-.
-}
 =
 >
 0
