@@ -89,11 +89,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 EnableDelayHelper
 "
@@ -1615,6 +1621,8 @@ this
 delayHelper
 =
 new
+lazy
+.
 EnableDelayHelper
 (
 {
