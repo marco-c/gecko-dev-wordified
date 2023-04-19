@@ -527,7 +527,7 @@ to
 bool
 mWebglValid
 =
-true
+false
 ;
 /
 /
