@@ -184,15 +184,6 @@ nsIPrincipal
 aPrincipal
 )
 ;
-static
-bool
-Check
-(
-nsIURI
-*
-aURI
-)
-;
 private
 :
 static

@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-StorageAccessAPIHelper
+ContentBlocking
 .
 h
 "
@@ -282,7 +282,7 @@ eAllow
 ;
 /
 /
-StorageAccessAPIHelper
+ContentBlocking
 :
 :
 StorageAccessPromptChoices
@@ -298,7 +298,7 @@ ParamTraits
 mozilla
 :
 :
-StorageAccessAPIHelper
+ContentBlocking
 :
 :
 StorageAccessPromptChoices
@@ -310,14 +310,14 @@ ContiguousEnumSerializerInclusive
 mozilla
 :
 :
-StorageAccessAPIHelper
+ContentBlocking
 :
 :
 StorageAccessPromptChoices
 mozilla
 :
 :
-StorageAccessAPIHelper
+ContentBlocking
 :
 :
 StorageAccessPromptChoices
@@ -327,7 +327,7 @@ eAllow
 mozilla
 :
 :
-StorageAccessAPIHelper
+ContentBlocking
 :
 :
 StorageAccessPromptChoices
