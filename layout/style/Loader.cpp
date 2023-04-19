@@ -3573,6 +3573,10 @@ mDocument
 =
 aDocument
 ;
+mIsDocumentAssociated
+=
+true
+;
 mDocumentCompatMode
 =
 aDocument

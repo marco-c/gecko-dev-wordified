@@ -604,7 +604,7 @@ aData
 mLoader
 -
 >
-GetDocument
+IsDocumentAssociated
 (
 )
 "
