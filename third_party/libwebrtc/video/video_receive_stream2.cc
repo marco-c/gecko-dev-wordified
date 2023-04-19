@@ -769,17 +769,6 @@ decoder
 VideoCodec
 codec
 ;
-memset
-(
-&
-codec
-0
-sizeof
-(
-codec
-)
-)
-;
 codec
 .
 codecType
