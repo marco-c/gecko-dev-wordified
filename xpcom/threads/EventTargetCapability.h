@@ -445,6 +445,7 @@ nsIEventTarget
 ;
 public
 :
+explicit
 EventTargetCapability
 (
 T
