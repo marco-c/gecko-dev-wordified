@@ -357,7 +357,7 @@ Navigator
 GetUserAgent
 (
 nullptr
-aPrincipal
+nullptr
 false
 data
 .

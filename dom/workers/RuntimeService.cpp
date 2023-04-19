@@ -6526,7 +6526,7 @@ mNavigatorProperties
 mAppName
 aWorkerPrivate
 .
-GetPrincipal
+GetDocument
 (
 )
 false
@@ -6551,7 +6551,7 @@ mNavigatorProperties
 mAppVersion
 aWorkerPrivate
 .
-GetPrincipal
+GetDocument
 (
 )
 false
@@ -6576,7 +6576,7 @@ mNavigatorProperties
 mPlatform
 aWorkerPrivate
 .
-GetPrincipal
+GetDocument
 (
 )
 false

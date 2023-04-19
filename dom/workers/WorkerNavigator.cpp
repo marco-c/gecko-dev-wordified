@@ -983,7 +983,7 @@ window
 mWorkerPrivate
 -
 >
-GetPrincipal
+GetDocument
 (
 )
 isCallerChrome
