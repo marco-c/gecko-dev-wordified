@@ -395,7 +395,7 @@ nsTArray
 <
 RefPtr
 <
-MsaaAccessible
+IUnknown
 >
 >
 mTargets

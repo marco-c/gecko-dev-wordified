@@ -185,12 +185,15 @@ mTargets
 .
 AppendElement
 (
+already_AddRefed
+(
 MsaaAccessible
 :
 :
-GetFrom
+NativeAccessible
 (
 target
+)
 )
 )
 ;
@@ -394,7 +397,7 @@ E_INVALIDARG
 ;
 RefPtr
 <
-IAccessible
+IUnknown
 >
 target
 =
