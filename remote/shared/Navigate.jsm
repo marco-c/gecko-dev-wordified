@@ -1417,10 +1417,13 @@ flag
 /
 /
 If
-only
-hash
+location
 has
 changed
+in
+the
+same
+document
 the
 navigation
 is
@@ -1434,7 +1437,7 @@ Ci
 .
 nsIWebProgressListener
 .
-LOCATION_CHANGE_HASHCHANGE
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 {
 this
@@ -1474,7 +1477,7 @@ messagePrefix
 }
 location
 =
-hashChange
+sameDocument
 :
 {
 this
