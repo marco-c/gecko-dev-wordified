@@ -3355,11 +3355,11 @@ mWindowType
 =
 eWindowType_child
 ;
-clipChildren
+mClipChildren
 =
 true
 ;
-clipSiblings
+mClipSiblings
 =
 true
 ;

@@ -7048,7 +7048,7 @@ if
 aInitData
 -
 >
-clipChildren
+mClipChildren
 )
 {
 style
@@ -7071,7 +7071,7 @@ if
 aInitData
 -
 >
-clipSiblings
+mClipSiblings
 )
 {
 style

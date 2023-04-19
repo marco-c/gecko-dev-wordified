@@ -4213,9 +4213,6 @@ bool
 mHasRemoteContent
 ;
 bool
-mFissionWindow
-;
-bool
 mUpdateCursor
 ;
 bool
