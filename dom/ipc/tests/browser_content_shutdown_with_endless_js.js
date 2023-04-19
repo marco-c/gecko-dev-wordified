@@ -468,6 +468,17 @@ test
 return
 ;
 }
+await
+pushPref
+(
+"
+dom
+.
+abort_script_on_child_shutdown
+"
+true
+)
+;
 /
 /
 Ensure
