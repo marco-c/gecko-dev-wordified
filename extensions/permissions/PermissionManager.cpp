@@ -1310,7 +1310,7 @@ std
 array
 <
 nsLiteralCString
-2
+1
 >
 kSiteScopedPermissions
 =
@@ -1318,11 +1318,6 @@ kSiteScopedPermissions
 {
 "
 3rdPartyStorage
-^
-"
-_ns
-"
-AllowStorageAccessRequest
 ^
 "
 _ns
