@@ -9442,15 +9442,6 @@ JitCode
 namespace
 jit
 using
-WeakHeapPtrAtom
-=
-WeakHeapPtr
-<
-JSAtom
-*
->
-;
-using
 WeakHeapPtrDebugEnvironmentProxy
 =
 WeakHeapPtr
