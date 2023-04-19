@@ -6391,16 +6391,6 @@ shadow
 )
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_webcomponents_formAssociatedCustomElement_enabled
-(
-)
-)
-{
 /
 /
 14
@@ -6521,7 +6511,6 @@ aCx
 ;
 return
 ;
-}
 }
 }
 /
