@@ -3651,7 +3651,7 @@ getTemp
 const
 LDefinition
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -3885,7 +3885,7 @@ getTemp
 const
 LDefinition
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -4118,7 +4118,7 @@ getTemp
 const
 LDefinition
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -4341,7 +4341,7 @@ getTemp
 }
 /
 /
-tempStackCounter
+tempForArgCopy
 is
 mapped
 to
@@ -4353,7 +4353,7 @@ newTarget
 :
 /
 /
-tempStackCounter
+tempForArgCopy
 becomes
 live
 as
@@ -4370,7 +4370,7 @@ calltemps
 const
 LAllocation
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
@@ -4616,7 +4616,7 @@ getOperand
 }
 /
 /
-tempStackCounter
+tempForArgCopy
 is
 mapped
 to
@@ -4628,7 +4628,7 @@ newTarget
 :
 /
 /
-tempStackCounter
+tempForArgCopy
 becomes
 live
 as
@@ -4645,7 +4645,7 @@ calltemps
 const
 LAllocation
 *
-getTempStackCounter
+getTempForArgCopy
 (
 )
 {
