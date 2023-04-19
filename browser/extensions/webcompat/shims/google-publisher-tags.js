@@ -612,12 +612,6 @@ creatives
 length
 )
 {
-node
-.
-remove
-(
-)
-;
 return
 ;
 }
@@ -639,12 +633,6 @@ creative
 )
 )
 {
-node
-.
-remove
-(
-)
-;
 return
 ;
 }
