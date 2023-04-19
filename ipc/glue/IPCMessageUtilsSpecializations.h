@@ -5921,6 +5921,16 @@ nsILoadInfo
 :
 EMBEDDER_POLICY_REQUIRE_CORP
 )
+|
+|
+AreIntegralValuesEqual
+(
+e
+nsILoadInfo
+:
+:
+EMBEDDER_POLICY_CREDENTIALLESS
+)
 ;
 }
 private
