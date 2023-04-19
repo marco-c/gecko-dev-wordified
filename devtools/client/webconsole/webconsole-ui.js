@@ -2191,6 +2191,17 @@ stopWatchingNetworkResources
 (
 )
 {
+if
+(
+!
+this
+.
+hud
+)
+{
+return
+;
+}
 await
 this
 .
