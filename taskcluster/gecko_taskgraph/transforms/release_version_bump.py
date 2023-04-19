@@ -177,13 +177,6 @@ repo
 "
 dontbuild
 "
-"
-ignore
--
-closed
--
-tree
-"
 )
 :
             
