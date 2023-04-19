@@ -121,8 +121,6 @@ jsm
 ;
 const
 {
-_TaskSchedulerWinImpl
-:
 WinImpl
 }
 =

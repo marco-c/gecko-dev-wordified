@@ -169,8 +169,6 @@ jsm
 ;
 const
 {
-_TaskSchedulerMacOSImpl
-:
 MacOSImpl
 }
 =

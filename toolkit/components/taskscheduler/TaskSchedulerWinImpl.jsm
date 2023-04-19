@@ -91,7 +91,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_TaskSchedulerWinImpl
+WinImpl
 "
 ]
 ;
@@ -283,7 +283,7 @@ testing
 *
 /
 var
-_TaskSchedulerWinImpl
+WinImpl
 =
 {
 registerTask

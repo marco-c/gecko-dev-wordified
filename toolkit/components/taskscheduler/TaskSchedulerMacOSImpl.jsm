@@ -91,7 +91,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_TaskSchedulerMacOSImpl
+MacOSImpl
 "
 ]
 ;
@@ -389,7 +389,7 @@ testing
 *
 /
 var
-_TaskSchedulerMacOSImpl
+MacOSImpl
 =
 {
 async
