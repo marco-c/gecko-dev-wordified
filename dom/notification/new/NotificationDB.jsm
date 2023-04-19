@@ -98,11 +98,17 @@ n
 )
 ;
 }
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -125,7 +131,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 KeyValueService
 "
@@ -979,6 +985,8 @@ kvstore
 const
 dir
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -999,6 +1007,8 @@ this
 _store
 =
 await
+lazy
+.
 KeyValueService
 .
 getOrCreate
