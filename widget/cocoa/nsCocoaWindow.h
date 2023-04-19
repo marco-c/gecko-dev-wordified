@@ -2137,11 +2137,10 @@ override
 ;
 virtual
 void
-SetInputRegion
+SetWindowMouseTransparent
 (
-const
-InputRegion
-&
+bool
+aIsTransparent
 )
 override
 ;
