@@ -539,22 +539,26 @@ def
 _shared_libs
 (
 cls
-python_dir
 )
 :
         
 return
-python_dir
-.
-glob
-(
+[
 "
 libpypy
-*
+-
+c
 .
-*
+so
 "
-)
+"
+libpypy
+-
+c
+.
+dylib
+"
+]
     
 property
     
@@ -688,20 +692,10 @@ def
 _shared_libs
 (
 cls
-python_dir
 )
 :
         
-#
-No
-glob
-in
-python2
-PathLib
-        
-for
-candidate
-in
+return
 [
 "
 libpypy
@@ -717,32 +711,7 @@ libffi
 .
 dll
 "
-"
-libffi
--
-8
-.
-dll
-"
 ]
-:
-            
-dll
-=
-python_dir
-/
-candidate
-            
-if
-dll
-.
-exists
-(
-)
-:
-                
-yield
-dll
     
 classmethod
     

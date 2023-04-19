@@ -102,16 +102,13 @@ wheel
 =
 periodic_update
 (
-                
 distribution
-of_version
 for_py_version
 wheel
 search_dirs
 app_data
 do_periodic_update
 env
-            
 )
         
 #
