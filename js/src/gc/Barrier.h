@@ -9427,9 +9427,6 @@ mozilla
 namespace
 js
 {
-class
-DebugEnvironmentProxy
-;
 namespace
 jit
 {
@@ -9441,15 +9438,6 @@ JitCode
 /
 namespace
 jit
-using
-WeakHeapPtrDebugEnvironmentProxy
-=
-WeakHeapPtr
-<
-DebugEnvironmentProxy
-*
->
-;
 using
 WeakHeapPtrJitCode
 =

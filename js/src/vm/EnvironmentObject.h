@@ -7348,7 +7348,11 @@ typedef
 HashMap
 <
 MissingEnvironmentKey
-WeakHeapPtrDebugEnvironmentProxy
+WeakHeapPtr
+<
+DebugEnvironmentProxy
+*
+>
 MissingEnvironmentKey
 ZoneAllocPolicy
 >
