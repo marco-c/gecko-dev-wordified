@@ -15455,7 +15455,7 @@ script
 )
 -
 >
-module
+isModule
 (
 )
 ;
