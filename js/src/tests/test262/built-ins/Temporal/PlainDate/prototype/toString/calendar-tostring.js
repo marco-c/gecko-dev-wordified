@@ -61,7 +61,6 @@ tostring
 description
 :
 Should
-always
 call
 '
 toString
@@ -70,6 +69,13 @@ on
 the
 calendar
 once
+unless
+calendarName
+=
+=
+'
+never
+'
 .
 features
 :
@@ -137,6 +143,7 @@ ca
 custom
 ]
 "
+1
 ]
 [
 "
@@ -156,6 +163,7 @@ ca
 custom
 ]
 "
+1
 ]
 [
 "
@@ -168,6 +176,7 @@ never
 -
 02
 "
+0
 ]
 [
 undefined
@@ -185,6 +194,7 @@ ca
 custom
 ]
 "
+1
 ]
 ]
 .
@@ -193,7 +203,8 @@ forEach
 (
 [
 calendarName
-expected
+expectedResult
+expectedCalls
 ]
 )
 =
@@ -220,7 +231,7 @@ assert
 sameValue
 (
 result
-expected
+expectedResult
 calendarName
 =
 {
@@ -229,7 +240,7 @@ calendarName
 :
 expected
 {
-expected
+expectedResult
 }
 )
 ;
@@ -238,7 +249,7 @@ assert
 sameValue
 (
 calls
-1
+expectedCalls
 calendarName
 =
 {
@@ -246,8 +257,13 @@ calendarName
 }
 :
 expected
-one
+{
+expectedCalls
+}
 call
+(
+s
+)
 to
 '
 toString

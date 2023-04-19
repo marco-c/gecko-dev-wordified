@@ -170,6 +170,11 @@ var
 r
 =
 {
+flags
+:
+'
+g
+'
 global
 :
 true
