@@ -7332,7 +7332,7 @@ PresShell
 (
 )
 ;
-MatrixScalesDouble
+MatrixScales
 scale
 =
 ScaleFactor
@@ -7366,13 +7366,6 @@ LayoutDeviceToScreenScale2D
 >
 (
 scale
-.
-ConvertTo
-<
-float
->
-(
-)
 )
 ;
 /

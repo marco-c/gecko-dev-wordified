@@ -6844,7 +6844,7 @@ otherwise
 *
 /
 static
-MatrixScalesDouble
+MatrixScales
 GetTransformToAncestorScale
 (
 const
@@ -6913,7 +6913,7 @@ factors
 *
 /
 static
-MatrixScalesDouble
+MatrixScales
 GetTransformToAncestorScaleExcludingAnimated
 (
 nsIFrame
