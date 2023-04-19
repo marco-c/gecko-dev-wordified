@@ -152,7 +152,7 @@ RefPtr
 h
 "
 class
-nsILoadInfo
+nsIChannel
 ;
 class
 nsIURI
@@ -190,9 +190,9 @@ aLinkHeader
 nsIURI
 *
 aBaseURI
-nsILoadInfo
+nsIChannel
 *
-aLoadInfo
+aChannel
 )
 ;
 void
