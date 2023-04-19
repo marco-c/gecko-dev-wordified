@@ -3885,13 +3885,6 @@ shrinkTo
 newSize
 )
 ;
-dstVec
--
->
-shrinkStorageToFit
-(
-)
-;
 }
 return
 true
@@ -4556,7 +4549,7 @@ tryNoteFilter
 ]
 (
 const
-WasmTryNote
+TryNote
 *
 tn
 )
@@ -4605,7 +4598,7 @@ tryNoteOp
 ]
 (
 uint32_t
-WasmTryNote
+TryNote
 *
 tn
 )
@@ -6360,7 +6353,7 @@ last
 for
 (
 const
-WasmTryNote
+TryNote
 &
 tryNote
 :

@@ -5558,12 +5558,12 @@ const
 wasm
 :
 :
-WasmTryNote
+TryNote
 *
 CodeTier
 :
 :
-lookupWasmTryNote
+lookupTryNote
 (
 const
 void
@@ -5589,7 +5589,7 @@ base
 )
 ;
 const
-WasmTryNoteVector
+TryNoteVector
 &
 tryNotes
 =
@@ -6951,12 +6951,12 @@ const
 wasm
 :
 :
-WasmTryNote
+TryNote
 *
 Code
 :
 :
-lookupWasmTryNote
+lookupTryNote
 (
 void
 *
@@ -6978,7 +6978,7 @@ tiers
 )
 {
 const
-WasmTryNote
+TryNote
 *
 result
 =
@@ -6987,7 +6987,7 @@ codeTier
 t
 )
 .
-lookupWasmTryNote
+lookupTryNote
 (
 pc
 )

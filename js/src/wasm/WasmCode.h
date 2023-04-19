@@ -2955,7 +2955,7 @@ funcExports
 StackMaps
 stackMaps
 ;
-WasmTryNoteVector
+TryNoteVector
 tryNotes
 ;
 /
@@ -4019,9 +4019,9 @@ pc
 const
 ;
 const
-WasmTryNote
+TryNote
 *
-lookupWasmTryNote
+lookupTryNote
 (
 const
 void
@@ -5521,9 +5521,9 @@ nextPC
 const
 ;
 const
-WasmTryNote
+TryNote
 *
-lookupWasmTryNote
+lookupTryNote
 (
 void
 *

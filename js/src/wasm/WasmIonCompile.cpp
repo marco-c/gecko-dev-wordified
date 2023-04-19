@@ -1961,7 +1961,10 @@ to
 masm
 .
 tryNotes_
-WasmTryNoteVector
+wasm
+:
+:
+TryNoteVector
 &
 tryNotes_
 ;
@@ -1987,7 +1990,7 @@ locals
 MIRGenerator
 &
 mirGen
-WasmTryNoteVector
+TryNoteVector
 &
 tryNotes
 )
@@ -18066,7 +18069,10 @@ tryNotes_
 .
 append
 (
-WasmTryNote
+wasm
+:
+:
+TryNote
 (
 )
 )

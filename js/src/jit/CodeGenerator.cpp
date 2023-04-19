@@ -57752,7 +57752,10 @@ code
 block
 initialise
 a
-WasmTryNote
+wasm
+:
+:
+TryNote
 for
 this
 /
@@ -57787,7 +57790,7 @@ tryNoteIndex
 wasm
 :
 :
-WasmTryNoteVector
+TryNoteVector
 &
 tryNotes
 =
@@ -57800,7 +57803,7 @@ tryNotes
 wasm
 :
 :
-WasmTryNote
+TryNote
 &
 tryNote
 =
@@ -58654,7 +58657,7 @@ tryNoteIndex
 wasm
 :
 :
-WasmTryNoteVector
+TryNoteVector
 &
 tryNotes
 =
@@ -58667,7 +58670,7 @@ tryNotes
 wasm
 :
 :
-WasmTryNote
+TryNote
 &
 tryNote
 =
@@ -58975,7 +58978,7 @@ lir
 wasm
 :
 :
-WasmTryNoteVector
+TryNoteVector
 &
 tryNotes
 =
@@ -58988,7 +58991,7 @@ tryNotes
 wasm
 :
 :
-WasmTryNote
+TryNote
 &
 tryNote
 =
