@@ -122,8 +122,8 @@ define
 mozilla_dom_serviceworkeractors_h__
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -186,12 +186,10 @@ aDescriptor
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

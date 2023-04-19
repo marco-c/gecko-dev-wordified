@@ -171,8 +171,8 @@ NS_ConvertUTF8toUTF16
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -182,12 +182,10 @@ Document
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 using
 FilenameTypeAndDetails
 =

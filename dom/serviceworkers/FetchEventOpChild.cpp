@@ -408,8 +408,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -3591,9 +3591,7 @@ MaybeScheduleTimeCheckAndUpdate
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

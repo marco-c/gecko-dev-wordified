@@ -270,8 +270,8 @@ forward
 declaration
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -282,11 +282,13 @@ nsProtocolProxyService
 forward
 declaration
 }
-}
 /
 /
 namespace
 mozilla
+:
+:
+net
 class
 nsMixedContentBlocker
 :

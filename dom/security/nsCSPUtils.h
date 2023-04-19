@@ -183,8 +183,8 @@ nsIChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -197,12 +197,10 @@ Document
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 /
 *
 =
