@@ -161,7 +161,7 @@ false
 >
 ;
 class
-PageThumbStreamGetter
+RemoteStreamGetter
 ;
 class
 PageThumbProtocolHandler
@@ -869,7 +869,7 @@ aURI
 nsILoadInfo
 *
 aLoadinfo
-PageThumbStreamGetter
+RemoteStreamGetter
 *
 aStreamGetter
 nsIChannel
