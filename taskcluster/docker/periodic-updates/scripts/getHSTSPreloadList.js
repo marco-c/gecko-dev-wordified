@@ -2013,8 +2013,6 @@ while
 inHosts
 .
 length
->
-0
 )
 {
 let
@@ -2038,8 +2036,6 @@ MAX_CONCURRENT_REQUESTS
 inHosts
 .
 length
->
-0
 ;
 i
 +
