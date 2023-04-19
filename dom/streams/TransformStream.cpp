@@ -854,7 +854,7 @@ chunk
 .
 RefPtr
 <
-TransformerAlgorithms
+TransformerAlgorithmsBase
 >
 algorithms
 =
@@ -2163,7 +2163,7 @@ flushAlgorithm
 .
 RefPtr
 <
-TransformerAlgorithms
+TransformerAlgorithmsBase
 >
 algorithms
 =
