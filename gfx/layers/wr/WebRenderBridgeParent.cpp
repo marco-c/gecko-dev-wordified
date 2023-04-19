@@ -16221,6 +16221,14 @@ aStats
 ;
 if
 (
+StaticPrefs
+:
+:
+gfx_logging_slow_frames_enabled_AtStartup
+(
+)
+&
+&
 contentFrameTime
 >
 200
