@@ -4368,14 +4368,6 @@ layout
 *
 "
 "
-mobile
-/
-android
-/
-*
-*
-"
-"
 modules
 /
 *
