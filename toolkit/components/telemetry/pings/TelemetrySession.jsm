@@ -310,11 +310,6 @@ Utils
 =
 TelemetryUtils
 ;
-const
-myScope
-=
-this
-;
 /
 /
 When
@@ -8000,7 +7995,8 @@ Cu
 cloneInto
 (
 aProvidedPayload
-myScope
+{
+}
 )
 ;
 /
