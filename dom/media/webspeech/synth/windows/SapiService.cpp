@@ -209,8 +209,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 StaticRefPtr
@@ -2515,9 +2515,7 @@ forget
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

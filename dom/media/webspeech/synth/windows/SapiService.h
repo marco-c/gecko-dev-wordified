@@ -173,8 +173,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -283,11 +283,9 @@ sSingleton
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

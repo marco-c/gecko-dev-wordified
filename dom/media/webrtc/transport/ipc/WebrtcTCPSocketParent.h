@@ -143,8 +143,8 @@ nsIAuthPromptProvider
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -347,12 +347,10 @@ mChannel
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

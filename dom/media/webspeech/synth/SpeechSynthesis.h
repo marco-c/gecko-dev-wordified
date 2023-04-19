@@ -188,8 +188,8 @@ nsIDOMWindow
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -392,11 +392,9 @@ mInnerID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
