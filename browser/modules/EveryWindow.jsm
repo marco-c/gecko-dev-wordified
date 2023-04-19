@@ -325,8 +325,7 @@ win
 ;
 }
 }
-this
-.
+const
 EveryWindow
 =
 {
