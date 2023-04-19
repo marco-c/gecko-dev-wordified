@@ -588,11 +588,6 @@ id
 "
 PB_NEWTAB_FOCUS_PROMO
 "
-type
-:
-"
-default
-"
 template
 :
 "
@@ -801,6 +796,11 @@ modal
 :
 "
 tab
+"
+metrics
+:
+"
+block
 "
 backdrop
 :
@@ -1217,11 +1217,6 @@ id
 "
 PB_NEWTAB_KLAR_PROMO
 "
-type
-:
-"
-default
-"
 template
 :
 "
@@ -1418,6 +1413,11 @@ modal
 :
 "
 tab
+"
+metrics
+:
+"
+block
 "
 backdrop
 :
