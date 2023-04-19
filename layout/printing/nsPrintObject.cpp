@@ -409,14 +409,6 @@ mDocument
 &
 aDoc
 )
-mFrameType
-(
-aParent
-?
-eIFrame
-:
-eDoc
-)
 mParent
 (
 aParent
