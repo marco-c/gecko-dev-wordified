@@ -2748,6 +2748,9 @@ entries
 if
 (
 datalistItems
+?
+.
+length
 )
 {
 filteredEntries
