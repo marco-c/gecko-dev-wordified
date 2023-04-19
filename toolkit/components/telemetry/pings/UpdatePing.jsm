@@ -158,11 +158,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryController
 "
@@ -690,6 +696,8 @@ usePingSender
 false
 }
 ;
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -945,6 +953,8 @@ usePingSender
 true
 }
 ;
+lazy
+.
 TelemetryController
 .
 submitExternalPing

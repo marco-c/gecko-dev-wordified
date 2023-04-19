@@ -246,11 +246,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 idleService
 :
@@ -875,6 +881,8 @@ _rescheduleTimeout
 (
 )
 ;
+lazy
+.
 idleService
 .
 addIdleObserver
@@ -995,6 +1003,8 @@ _schedulerTimer
 null
 ;
 }
+lazy
+.
 idleService
 .
 removeIdleObserver

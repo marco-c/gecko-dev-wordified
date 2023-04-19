@@ -139,11 +139,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 TelemetryController
 :
@@ -291,6 +297,8 @@ options
 )
 =
 >
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -892,6 +900,8 @@ this
 .
 _logger
 =
+lazy
+.
 Log
 .
 repository

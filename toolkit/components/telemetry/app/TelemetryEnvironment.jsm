@@ -223,11 +223,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AttributionCode
 "
@@ -249,7 +255,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ProfileAge
 "
@@ -272,7 +278,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WindowsRegistry
 "
@@ -295,7 +301,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -342,7 +348,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -382,7 +388,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WindowsVersionInfo
 "
@@ -3264,6 +3270,8 @@ registered
 const
 AUTO_UPDATE_PREF_CHANGE_TOPIC
 =
+lazy
+.
 UpdateUtils
 .
 PER_INSTALLATION_PREFS
@@ -3282,6 +3290,8 @@ observerTopic
 const
 BACKGROUND_UPDATE_PREF_CHANGE_TOPIC
 =
+lazy
+.
 UpdateUtils
 .
 PER_INSTALLATION_PREFS
@@ -10974,6 +10984,8 @@ let
 profileAccessor
 =
 await
+lazy
+.
 ProfileAge
 (
 )
@@ -11098,6 +11110,8 @@ _loadAttributionAsync
 try
 {
 await
+lazy
+.
 AttributionCode
 .
 getAttrDataAsync
@@ -11174,6 +11188,8 @@ try
 {
 data
 =
+lazy
+.
 AttributionCode
 .
 getCachedAttributionData
@@ -11352,6 +11368,8 @@ this
 _updateAutoDownloadCache
 =
 await
+lazy
+.
 UpdateUtils
 .
 getAppUpdateAutoEnabled
@@ -11363,6 +11381,8 @@ this
 _updateBackgroundCache
 =
 await
+lazy
+.
 UpdateUtils
 .
 readUpdateConfigSetting
@@ -11555,6 +11575,8 @@ _getFxaSignedInUser
 )
 {
 return
+lazy
+.
 fxAccounts
 .
 getSignedInUser
@@ -12446,6 +12468,8 @@ CurrentVersion
 let
 versionInfo
 =
+lazy
+.
 WindowsVersionInfo
 .
 get
@@ -12580,6 +12604,8 @@ error
 let
 ubr
 =
+lazy
+.
 WindowsRegistry
 .
 readRegKey

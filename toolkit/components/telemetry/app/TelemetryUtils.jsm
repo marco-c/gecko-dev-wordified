@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -1910,6 +1916,8 @@ overrideChannel
 ;
 }
 return
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel

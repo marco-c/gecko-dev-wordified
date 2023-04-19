@@ -93,11 +93,17 @@ Policy
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryController
 "
@@ -120,7 +126,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -143,7 +149,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 clearTimeout
 "
@@ -166,7 +172,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryUtils
 "
@@ -213,7 +219,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Log
 "
@@ -259,6 +265,8 @@ jsm
 const
 Utils
 =
+lazy
+.
 TelemetryUtils
 ;
 const
@@ -330,6 +338,8 @@ delayMs
 )
 =
 >
+lazy
+.
 setTimeout
 (
 callback
@@ -340,6 +350,8 @@ clearSchedulerTickTimeout
 id
 =
 >
+lazy
+.
 clearTimeout
 (
 id
@@ -1185,6 +1197,8 @@ dispatchToMainThread
 >
 r
 (
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -1678,6 +1692,8 @@ this
 .
 _logger
 =
+lazy
+.
 Log
 .
 repository
@@ -1710,6 +1726,8 @@ TelemetryHealthPing
 "
 enabled
 "
+lazy
+.
 TelemetryUtils
 .
 Preferences

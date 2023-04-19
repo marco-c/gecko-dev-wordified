@@ -139,11 +139,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 TelemetrySession
 :
@@ -197,7 +203,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -220,7 +226,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 clearTimeout
 "
@@ -243,7 +249,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryUtils
 "
@@ -289,6 +295,8 @@ jsm
 const
 Utils
 =
+lazy
+.
 TelemetryUtils
 ;
 const
@@ -362,6 +370,8 @@ delayMs
 )
 =
 >
+lazy
+.
 setTimeout
 (
 callback
@@ -372,6 +382,8 @@ clearTimeout
 id
 =
 >
+lazy
+.
 clearTimeout
 (
 id
@@ -385,6 +397,8 @@ options
 )
 =
 >
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -570,6 +584,8 @@ now
 (
 )
 -
+lazy
+.
 TelemetryUtils
 .
 monotonicNow
@@ -1175,6 +1191,8 @@ back
 let
 sessionMeta
 =
+lazy
+.
 TelemetrySession
 .
 getMetadata
@@ -1418,6 +1436,8 @@ this
 .
 _logger
 =
+lazy
+.
 Log
 .
 repository

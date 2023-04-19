@@ -402,11 +402,17 @@ subsession
 payload
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 jwcrypto
 "
@@ -429,7 +435,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ClientID
 :
@@ -723,6 +729,8 @@ getCachedClientID
 )
 =
 >
+lazy
+.
 ClientID
 .
 getCachedClientID
@@ -2197,6 +2205,8 @@ anymore
 _shutdownBarrier
 :
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
@@ -2257,6 +2267,8 @@ saving
 _connectionsBarrier
 :
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
@@ -3126,6 +3138,8 @@ aOptions
 overrideEnvironment
 |
 |
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -3798,6 +3812,8 @@ this
 _clientID
 =
 await
+lazy
+.
 ClientID
 .
 getClientID
@@ -3926,6 +3942,8 @@ payload
 encryptedData
 =
 await
+lazy
+.
 jwcrypto
 .
 generateJWE
@@ -4158,6 +4176,8 @@ calls
 let
 archivePromise
 =
+lazy
+.
 TelemetryArchive
 .
 promiseArchivePing
@@ -4203,6 +4223,8 @@ p
 .
 push
 (
+lazy
+.
 TelemetrySend
 .
 submitPing
@@ -5205,6 +5227,8 @@ aOptions
 let
 savePromise
 =
+lazy
+.
 TelemetryStorage
 .
 savePendingPing
@@ -5215,6 +5239,8 @@ pingData
 let
 archivePromise
 =
+lazy
+.
 TelemetryArchive
 .
 promiseArchivePing
@@ -5348,6 +5374,8 @@ let
 ping
 =
 await
+lazy
+.
 TelemetryStorage
 .
 loadAbortedSessionPing
@@ -5423,6 +5451,8 @@ knownClientID
 )
 {
 await
+lazy
+.
 TelemetryStorage
 .
 addPendingPing
@@ -5431,6 +5461,8 @@ ping
 )
 ;
 await
+lazy
+.
 TelemetryArchive
 .
 promiseArchivePing
@@ -5468,6 +5500,8 @@ e
 finally
 {
 await
+lazy
+.
 TelemetryStorage
 .
 removeAbortedSessionPing
@@ -5566,6 +5600,8 @@ options
 )
 ;
 return
+lazy
+.
 TelemetryStorage
 .
 saveAbortedSessionPing
@@ -5579,6 +5615,8 @@ removeAbortedSessionPing
 )
 {
 return
+lazy
+.
 TelemetryStorage
 .
 removeAbortedSessionPing
@@ -5630,6 +5668,8 @@ payload
 .
 otherInstalls
 =
+lazy
+.
 UninstallPing
 .
 getOtherInstallsCount
@@ -5699,6 +5739,8 @@ options
 )
 ;
 return
+lazy
+.
 TelemetryStorage
 .
 saveUninstallPing
@@ -5984,6 +6026,8 @@ the
 datachoices
 infobar
 .
+lazy
+.
 TelemetryReportingPolicy
 .
 setup
@@ -6057,6 +6101,8 @@ initializing
 the
 session
 .
+lazy
+.
 TelemetrySession
 .
 earlyInit
@@ -6087,6 +6133,8 @@ pings
 for
 startup
 crashes
+lazy
+.
 TelemetrySend
 .
 earlyInit
@@ -6141,6 +6189,8 @@ this
 .
 _clientID
 =
+lazy
+.
 ClientID
 .
 getCachedClientID
@@ -6170,6 +6220,8 @@ an
 impact
 on
 startup
+.
+lazy
 .
 UpdatePing
 .
@@ -6258,6 +6310,8 @@ _initialized
 true
 ;
 await
+lazy
+.
 TelemetryEnvironment
 .
 delayedInit
@@ -6275,6 +6329,8 @@ this
 _clientID
 =
 await
+lazy
+.
 ClientID
 .
 getClientID
@@ -6346,6 +6402,8 @@ Resetting
 )
 ;
 await
+lazy
+.
 ClientID
 .
 removeClientID
@@ -6357,6 +6415,8 @@ this
 _clientID
 =
 await
+lazy
+.
 ClientID
 .
 getClientID
@@ -6406,6 +6466,8 @@ ID
 )
 ;
 await
+lazy
+.
 ClientID
 .
 setCanaryClientID
@@ -6417,6 +6479,8 @@ this
 _clientID
 =
 await
+lazy
+.
 ClientID
 .
 getClientID
@@ -6425,6 +6489,8 @@ getClientID
 ;
 }
 await
+lazy
+.
 TelemetrySend
 .
 setup
@@ -6442,6 +6508,8 @@ delayed
 init
 .
 await
+lazy
+.
 TelemetrySession
 .
 delayedInit
@@ -6475,6 +6543,8 @@ false
 &
 &
 !
+lazy
+.
 TelemetrySession
 .
 newProfilePingSent
@@ -6533,6 +6603,8 @@ during
 /
 shutdown
 .
+lazy
+.
 TelemetryStorage
 .
 runCleanPingArchiveTask
@@ -6577,6 +6649,8 @@ drop
 in
 the
 future
+.
+lazy
 .
 TelemetryStorage
 .
@@ -6635,6 +6709,8 @@ the
 Firefox
 process
 .
+lazy
+.
 TelemetryModules
 .
 start
@@ -6648,6 +6724,8 @@ coverage
 ping
 .
 await
+lazy
+.
 CoveragePing
 .
 startup
@@ -6688,6 +6766,8 @@ win
 "
 )
 {
+lazy
+.
 TelemetryUntrustedModulesPing
 .
 start
@@ -6696,12 +6776,16 @@ start
 ;
 }
 }
+lazy
+.
 TelemetryEventPing
 .
 startup
 (
 )
 ;
+lazy
+.
 TelemetryPrioPing
 .
 startup
@@ -6745,6 +6829,8 @@ e
 else
 {
 await
+lazy
+.
 TelemetryStorage
 .
 removeUninstallPings
@@ -6822,6 +6908,8 @@ _testMode
 undefined
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 sendTelemetry
@@ -6998,6 +7086,8 @@ now
 (
 )
 ;
+lazy
+.
 UpdatePing
 .
 shutdown
@@ -7016,6 +7106,8 @@ now
 (
 )
 ;
+lazy
+.
 TelemetryEventPing
 .
 shutdown
@@ -7035,6 +7127,8 @@ now
 )
 ;
 await
+lazy
+.
 TelemetryPrioPing
 .
 shutdown
@@ -7115,6 +7209,8 @@ now
 (
 )
 ;
+lazy
+.
 TelemetryReportingPolicy
 .
 shutdown
@@ -7133,6 +7229,8 @@ now
 (
 )
 ;
+lazy
+.
 TelemetryEnvironment
 .
 shutdown
@@ -7159,6 +7257,8 @@ now
 )
 ;
 await
+lazy
+.
 TelemetrySend
 .
 shutdown
@@ -7185,6 +7285,8 @@ now
 )
 ;
 await
+lazy
+.
 TelemetryHealthPing
 .
 shutdown
@@ -7204,6 +7306,8 @@ now
 )
 ;
 await
+lazy
+.
 TelemetrySession
 .
 shutdown
@@ -7336,6 +7440,8 @@ now
 (
 )
 ;
+lazy
+.
 TelemetrySend
 .
 flushPingSenderBatch
@@ -7364,6 +7470,8 @@ now
 )
 ;
 await
+lazy
+.
 TelemetryStorage
 .
 shutdown
@@ -7857,6 +7965,8 @@ _connectionsBarrier
 state
 sendModule
 :
+lazy
+.
 TelemetrySend
 .
 getShutdownState
@@ -8011,6 +8121,8 @@ async
 >
 {
 await
+lazy
+.
 ClientID
 .
 removeClientID
@@ -8021,6 +8133,8 @@ let
 id
 =
 await
+lazy
+.
 ClientID
 .
 getClientID
@@ -8135,6 +8249,8 @@ Clear
 unpersisted
 pings
 await
+lazy
+.
 TelemetrySend
 .
 clearCurrentPings
@@ -8150,6 +8266,8 @@ all
 pending
 pings
 await
+lazy
+.
 TelemetryStorage
 .
 removeAppDataPings
@@ -8157,6 +8275,8 @@ removeAppDataPings
 )
 ;
 await
+lazy
+.
 TelemetryStorage
 .
 runRemovePendingPingsTask
@@ -8164,6 +8284,8 @@ runRemovePendingPingsTask
 )
 ;
 await
+lazy
+.
 TelemetryStorage
 .
 removeUninstallPings
@@ -8205,6 +8327,8 @@ session
 and
 subsession
 counter
+lazy
+.
 TelemetrySession
 .
 resetSubsessionCounter
@@ -8266,6 +8390,8 @@ let
 oldClientId
 =
 await
+lazy
+.
 ClientID
 .
 getClientID
@@ -8273,6 +8399,8 @@ getClientID
 )
 ;
 await
+lazy
+.
 ClientID
 .
 setCanaryClientID
@@ -8284,6 +8412,8 @@ this
 _clientID
 =
 await
+lazy
+.
 ClientID
 .
 getClientID
@@ -8598,6 +8728,8 @@ PING_TYPE_MAIN
 const
 payload
 =
+lazy
+.
 TelemetrySession
 .
 getPayload
@@ -8659,6 +8791,8 @@ _detachObservers
 let
 sessionReset
 =
+lazy
+.
 TelemetrySession
 .
 testReset
@@ -8670,6 +8804,8 @@ this
 _connectionsBarrier
 =
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
@@ -8690,6 +8826,8 @@ this
 _shutdownBarrier
 =
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
@@ -8740,6 +8878,8 @@ await
 sessionReset
 ;
 await
+lazy
+.
 TelemetrySend
 .
 reset
@@ -8747,6 +8887,8 @@ reset
 )
 ;
 await
+lazy
+.
 TelemetryStorage
 .
 reset
@@ -8754,6 +8896,8 @@ reset
 )
 ;
 await
+lazy
+.
 TelemetryEnvironment
 .
 testReset
@@ -9060,6 +9204,8 @@ then
 )
 =
 >
+lazy
+.
 TelemetrySession
 .
 markNewProfilePingSent

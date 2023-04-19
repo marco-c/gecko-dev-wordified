@@ -99,11 +99,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -828,6 +834,8 @@ spoofProfileReset
 )
 {
 return
+lazy
+.
 CommonUtils
 .
 writeJSON
@@ -843,12 +851,16 @@ firstUse
 :
 PROFILE_FIRST_USE_MS
 }
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -994,6 +1006,8 @@ gIsWindows
 gIsMac
 )
 {
+lazy
+.
 AttributionCode
 .
 _clearCache
@@ -1001,6 +1015,8 @@ _clearCache
 )
 ;
 await
+lazy
+.
 AttributionCode
 .
 writeAttributionFile
@@ -1022,6 +1038,8 @@ gIsWindows
 gIsMac
 )
 {
+lazy
+.
 AttributionCode
 .
 attributionFile
@@ -1031,6 +1049,8 @@ remove
 false
 )
 ;
+lazy
+.
 AttributionCode
 .
 _clearCache
@@ -1043,6 +1063,8 @@ registerFakeSysInfo
 (
 )
 {
+lazy
+.
 MockRegistrar
 .
 register
@@ -1341,6 +1363,8 @@ spidermonkey
 "
 }
 ;
+lazy
+.
 Assert
 .
 ok
@@ -1371,6 +1395,8 @@ in
 expectedInfo
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -1398,6 +1424,8 @@ string
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -1435,6 +1463,8 @@ in
 the
 environment
 .
+lazy
+.
 Assert
 .
 ok
@@ -1451,6 +1481,8 @@ architecture
 )
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -1532,6 +1564,8 @@ object
 "
 }
 ;
+lazy
+.
 Assert
 .
 ok
@@ -1562,6 +1596,8 @@ in
 EXPECTED_FIELDS_TYPES
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -1619,6 +1655,8 @@ data
 settings
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -1643,6 +1681,8 @@ addonCompatibilityCheckEnabled
 "
 separately
 .
+lazy
+.
 Assert
 .
 equal
@@ -1652,6 +1692,8 @@ data
 settings
 .
 addonCompatibilityCheckEnabled
+lazy
+.
 AddonManager
 .
 checkCompatibility
@@ -1689,6 +1731,8 @@ if
 gIsAndroid
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -1750,6 +1794,8 @@ session
 was
 restored
 .
+lazy
+.
 Assert
 .
 ok
@@ -1792,6 +1838,8 @@ settings
 .
 update
 ;
+lazy
+.
 Assert
 .
 ok
@@ -1806,6 +1854,8 @@ channel
 )
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -1819,6 +1869,8 @@ boolean
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -1832,6 +1884,8 @@ boolean
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -1869,6 +1923,8 @@ effectiveContentProcessLevel
 null
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -1912,6 +1968,8 @@ contentWin32kLockdownState
 null
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -1950,6 +2008,8 @@ sandbox
 .
 contentWin32kLockdownState
 ;
+lazy
+.
 Assert
 .
 ok
@@ -2005,6 +2065,8 @@ settings
 defaultSearchEngine
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -2032,6 +2094,8 @@ data
 settings
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -2068,6 +2132,8 @@ browser
 "
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -2083,6 +2149,8 @@ object
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -2145,6 +2213,8 @@ of
 fields
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -2248,6 +2318,8 @@ field
 =
 null
 ;
+lazy
+.
 Assert
 .
 ok
@@ -2273,6 +2345,8 @@ checkProfileSection
 data
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -2295,6 +2369,8 @@ Environment
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -2310,6 +2386,8 @@ PROFILE_CREATION_DATE_MS
 )
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -2325,6 +2403,8 @@ PROFILE_RESET_DATE_MS
 )
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -2368,6 +2448,8 @@ distributorChannel
 DISTRIBUTOR_CHANNEL
 }
 ;
+lazy
+.
 Assert
 .
 ok
@@ -2410,6 +2492,8 @@ EXPECTED_FIELDS
 f
 ]
 ;
+lazy
+.
 Assert
 .
 strictEqual
@@ -2448,6 +2532,8 @@ the
 correct
 element
 .
+lazy
+.
 Assert
 .
 ok
@@ -2469,6 +2555,8 @@ if
 isInitial
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -2486,6 +2574,8 @@ length
 }
 else
 {
+lazy
+.
 Assert
 .
 ok
@@ -2573,6 +2663,8 @@ in
 EXPECTED_ADAPTER_FIELDS_TYPES
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -2615,6 +2707,8 @@ has
 the
 correct
 type
+.
+lazy
 .
 Assert
 .
@@ -2674,6 +2768,8 @@ appleModelId
 "
 ]
 ;
+lazy
+.
 Assert
 .
 ok
@@ -2718,6 +2814,8 @@ of
 EXPECTED_FIELDS
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -2738,6 +2836,8 @@ available
 )
 ;
 }
+lazy
+.
 Assert
 .
 ok
@@ -2840,6 +2940,8 @@ is
 the
 fallback
 .
+lazy
+.
 Assert
 .
 ok
@@ -2869,6 +2971,8 @@ if
 gIsWindows
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -2898,6 +3002,8 @@ type
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -2927,6 +3033,8 @@ type
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -2967,6 +3075,8 @@ Mozilla
 produced
 MSIX
 packages
+lazy
+.
 Assert
 .
 ok
@@ -3018,6 +3128,8 @@ null
 "
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3038,6 +3150,8 @@ available
 "
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3092,6 +3206,8 @@ speedMHz
 ]
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -3166,6 +3282,8 @@ speedMHz
 ]
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -3243,6 +3361,8 @@ cores
 ]
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -3298,6 +3418,8 @@ system
 .
 cpu
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3329,6 +3451,8 @@ system
 .
 os
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3343,6 +3467,8 @@ name
 )
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3357,6 +3483,8 @@ version
 )
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3386,6 +3514,8 @@ if
 gIsWindows
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -3408,6 +3538,8 @@ number
 "
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3451,6 +3583,8 @@ all
 Windows
 platforms
 .
+lazy
+.
 Assert
 .
 ok
@@ -3495,6 +3629,8 @@ all
 Windows
 platforms
 .
+lazy
+.
 Assert
 .
 ok
@@ -3536,6 +3672,8 @@ if
 gIsAndroid
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -3559,6 +3697,8 @@ of
 EXPECTED_HDD_FIELDS
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -3580,6 +3720,8 @@ model
 )
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3601,6 +3743,8 @@ revision
 )
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3632,6 +3776,8 @@ system
 .
 gfx
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3643,6 +3789,8 @@ in
 gfxData
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3654,6 +3802,8 @@ in
 gfxData
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3665,6 +3815,8 @@ in
 gfxData
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3717,6 +3869,8 @@ if
 gIsWindows
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -3730,6 +3884,8 @@ boolean
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -3743,6 +3899,8 @@ boolean
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -3787,6 +3945,8 @@ DWriteVersion
 )
 ;
 }
+lazy
+.
 Assert
 .
 ok
@@ -3798,6 +3958,8 @@ in
 gfxData
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3840,6 +4002,8 @@ adapter
 )
 ;
 }
+lazy
+.
 Assert
 .
 equal
@@ -3858,6 +4022,8 @@ boolean
 "
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3882,6 +4048,8 @@ active
 "
 )
 ;
+lazy
+.
 Assert
 .
 ok
@@ -3907,6 +4075,8 @@ gIsMac
 gIsLinux
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -3930,6 +4100,8 @@ monitor
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -3948,6 +4120,8 @@ number
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -3971,6 +4145,8 @@ if
 gIsWindows
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -3989,6 +4165,8 @@ number
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4013,6 +4191,8 @@ if
 gIsMac
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -4033,6 +4213,8 @@ number
 ;
 }
 }
+lazy
+.
 Assert
 .
 equal
@@ -4046,6 +4228,8 @@ object
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4061,6 +4245,8 @@ string
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4076,6 +4262,8 @@ object
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4150,6 +4338,8 @@ gIsWindows
 gIsMac
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -4165,6 +4355,8 @@ adapters
 vendorID
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4190,6 +4382,8 @@ getFeatures
 (
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4204,6 +4398,8 @@ features
 compositor
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4222,6 +4418,8 @@ gpuProcess
 status
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4236,6 +4434,8 @@ features
 opengl
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4262,6 +4462,8 @@ if
 gIsMac
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -4281,6 +4483,8 @@ appleModelId
 }
 else
 {
+lazy
+.
 Assert
 .
 ok
@@ -4326,6 +4530,8 @@ win
 )
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -4372,6 +4578,8 @@ of
 SEC_FIELDS
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -4418,6 +4626,8 @@ null
 on
 Windows
 Server
+lazy
+.
 Assert
 .
 ok
@@ -4466,6 +4676,8 @@ of
 value
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -4656,6 +4868,8 @@ fields
 )
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -4673,6 +4887,8 @@ available
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4715,6 +4931,8 @@ it
 can
 be
 null
+.
+lazy
 .
 Assert
 .
@@ -4801,6 +5019,8 @@ in
 EXPECTED_THEME_FIELDS_TYPES
 )
 {
+lazy
+.
 Assert
 .
 ok
@@ -4818,6 +5038,8 @@ available
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4857,6 +5079,8 @@ it
 can
 be
 null
+.
+lazy
 .
 Assert
 .
@@ -4900,6 +5124,8 @@ data
 version
 )
 {
+lazy
+.
 Assert
 .
 equal
@@ -4914,6 +5140,8 @@ string
 )
 ;
 }
+lazy
+.
 Assert
 .
 equal
@@ -4927,6 +5155,8 @@ boolean
 "
 )
 ;
+lazy
+.
 Assert
 .
 equal
@@ -4963,6 +5193,8 @@ activeGMPlugins
 "
 ]
 ;
+lazy
+.
 Assert
 .
 ok
@@ -4993,6 +5225,8 @@ of
 EXPECTED_FIELDS
 )
 {
+lazy
+.
 Assert
 .
 ok

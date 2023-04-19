@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Preferences
 "
@@ -112,7 +118,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Log
 "
@@ -135,7 +141,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryController
 "
@@ -206,7 +212,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gUpdateTimerManager
 "
@@ -315,6 +321,8 @@ freeze
 {
 _log
 :
+lazy
+.
 Log
 .
 repository
@@ -392,6 +400,8 @@ sessions
 let
 interval
 =
+lazy
+.
 Preferences
 .
 get
@@ -400,6 +410,8 @@ MODULES_PING_INTERVAL_PREFERENCE
 MODULES_PING_INTERVAL_SECONDS
 )
 ;
+lazy
+.
 gUpdateTimerManager
 .
 registerTimer
@@ -644,6 +656,8 @@ TRUNCATION_DELIMITER
 ;
 }
 }
+lazy
+.
 TelemetryController
 .
 submitExternalPing
