@@ -20808,7 +20808,7 @@ gPlatform
 gPlatform
 -
 >
-mVsyncSource
+mVsyncDispatcher
 )
 {
 return
@@ -20821,7 +20821,7 @@ round
 gPlatform
 -
 >
-mVsyncSource
+mVsyncDispatcher
 -
 >
 GetVsyncRate
