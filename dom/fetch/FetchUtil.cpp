@@ -1866,9 +1866,9 @@ JSStreamConsumer
 :
 OnInputStreamReady
 and
+/
+/
 drops
-/
-/
 the
 last
 reference
@@ -1880,9 +1880,9 @@ this
 '
 will
 not
+/
+/
 be
-/
-/
 destroyed
 since
 ~
@@ -1893,6 +1893,8 @@ only
 enqueues
 a
 release
+/
+/
 proxy
 .
 self
