@@ -22924,6 +22924,9 @@ const
 ObservableArrayProxyHandler
 *
 aHandler
+void
+*
+aOwner
 )
 ;
 /
