@@ -5,15 +5,9 @@ eslint
 env
 mozilla
 /
-frame
+chrome
 -
 script
-*
-/
-/
-*
-global
-assert
 *
 /
 /

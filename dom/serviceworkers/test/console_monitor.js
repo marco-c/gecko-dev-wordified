@@ -1,3 +1,15 @@
+/
+*
+eslint
+-
+env
+mozilla
+/
+chrome
+-
+script
+*
+/
 let
 consoleListener
 ;

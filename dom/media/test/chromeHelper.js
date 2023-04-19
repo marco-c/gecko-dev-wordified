@@ -113,7 +113,7 @@ eslint
 env
 mozilla
 /
-frame
+chrome
 -
 script
 *
