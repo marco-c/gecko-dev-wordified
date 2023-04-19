@@ -237,7 +237,7 @@ class
 BodyStream
 ;
 class
-StrongWorkerRef
+WeakWorkerRef
 ;
 class
 ReadableStream
@@ -1038,15 +1038,9 @@ mInputStream
 ;
 RefPtr
 <
-StrongWorkerRef
+WeakWorkerRef
 >
 mWorkerRef
-;
-RefPtr
-<
-StrongWorkerRef
->
-mAsyncWaitWorkerRef
 ;
 }
 ;
