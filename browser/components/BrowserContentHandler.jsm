@@ -374,7 +374,9 @@ defineLazyGlobalGetters
 (
 this
 [
+"
 URL
+"
 ]
 )
 ;
