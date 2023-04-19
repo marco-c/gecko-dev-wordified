@@ -114,6 +114,13 @@ MPL
 .
 *
 /
+#
+include
+"
+nsTDependentString
+.
+h
+"
 template
 <
 typename
