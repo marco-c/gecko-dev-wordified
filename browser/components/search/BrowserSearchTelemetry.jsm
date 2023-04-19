@@ -1547,7 +1547,7 @@ issued
 record
 (
 {
-newtab_session_id
+newtab_visit_id
 :
 details
 .

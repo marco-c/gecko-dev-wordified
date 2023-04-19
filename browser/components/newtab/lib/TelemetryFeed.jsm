@@ -2660,7 +2660,7 @@ closed
 record
 (
 {
-newtab_session_id
+newtab_visit_id
 :
 session
 .
@@ -5252,7 +5252,7 @@ impression
 record
 (
 {
-newtab_session_id
+newtab_visit_id
 :
 session
 .
@@ -5322,7 +5322,7 @@ click
 record
 (
 {
-newtab_session_id
+newtab_visit_id
 :
 session
 .
@@ -7147,7 +7147,7 @@ opened
 record
 (
 {
-newtab_session_id
+newtab_visit_id
 :
 session
 .
