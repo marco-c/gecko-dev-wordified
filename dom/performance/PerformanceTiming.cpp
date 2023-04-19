@@ -917,6 +917,15 @@ mAllRedirectsSameOrigin
 aChannel
 -
 >
+GetAllRedirectsPassTimingAllowCheck
+(
+&
+mAllRedirectsPassTAO
+)
+;
+aChannel
+-
+>
 GetRedirectCount
 (
 &
