@@ -1542,6 +1542,8 @@ SECItem
 *
 *
 digests
+=
+NULL
 ;
 int
 nsigners
