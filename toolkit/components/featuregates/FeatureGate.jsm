@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FeatureGateImplementation
 "
@@ -134,7 +140,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -155,7 +161,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gFeatureDefinitionsPromise
 "
@@ -200,6 +206,8 @@ const
 res
 =
 await
+lazy
+.
 fetch
 (
 url
@@ -285,6 +293,8 @@ key
 }
 return
 new
+lazy
+.
 FeatureGateImplementation
 (
 definition
@@ -522,6 +532,8 @@ else
 featureDefinitions
 =
 await
+lazy
+.
 gFeatureDefinitionsPromise
 ;
 }
@@ -668,6 +680,8 @@ else
 featureDefinitions
 =
 await
+lazy
+.
 gFeatureDefinitionsPromise
 ;
 }
