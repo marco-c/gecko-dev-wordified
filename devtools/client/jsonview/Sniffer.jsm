@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+gPrefs
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+gPrefs
 "
 gEnabled
 "
@@ -289,6 +295,8 @@ only
 .
 if
 (
+gPrefs
+.
 gEnabled
 &
 &
