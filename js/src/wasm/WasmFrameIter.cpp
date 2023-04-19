@@ -11579,7 +11579,7 @@ return
 call
 to
 native
-Allocate
+newCell
 <
 BigInt
 NoGC

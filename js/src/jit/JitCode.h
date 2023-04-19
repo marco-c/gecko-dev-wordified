@@ -306,6 +306,13 @@ TenuredCellWithNonGCPointer
 uint8_t
 >
 {
+friend
+struct
+gc
+:
+:
+CellAllocator
+;
 public
 :
 /

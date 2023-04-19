@@ -1306,9 +1306,14 @@ BigInt
 *
 x
 =
-AllocateBigInt
-(
 cx
+-
+>
+newCell
+<
+BigInt
+>
+(
 heap
 )
 ;

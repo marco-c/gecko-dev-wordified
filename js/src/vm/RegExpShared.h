@@ -564,6 +564,16 @@ TenuredCell
 JSAtom
 >
 {
+friend
+struct
+js
+:
+:
+gc
+:
+:
+CellAllocator
+;
 public
 :
 enum
