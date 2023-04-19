@@ -6519,7 +6519,7 @@ elem
 >
 FormAutofillUtils
 .
-isFieldEligibleForAutofill
+isCreditCardOrAddressFieldType
 (
 elem
 )

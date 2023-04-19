@@ -625,7 +625,7 @@ if
 !
 FormAutofillUtils
 .
-isFieldEligibleForAutofill
+isCreditCardOrAddressFieldType
 (
 element
 )

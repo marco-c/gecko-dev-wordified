@@ -918,7 +918,7 @@ el
 >
 FormAutofillUtils
 .
-isFieldEligibleForAutofill
+isCreditCardOrAddressFieldType
 (
 el
 )
