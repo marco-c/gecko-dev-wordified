@@ -1169,10 +1169,6 @@ mJSONWriter
 .
 StartArrayElement
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 }
