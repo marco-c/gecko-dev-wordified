@@ -5876,6 +5876,13 @@ output_size_samples_
 false
 )
 ;
+controller_
+-
+>
+NotifyMutedState
+(
+)
+;
 *
 muted
 =

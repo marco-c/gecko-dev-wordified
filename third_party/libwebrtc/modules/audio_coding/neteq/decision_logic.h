@@ -684,6 +684,13 @@ RegisterEmptyPacket
 )
 ;
 }
+void
+NotifyMutedState
+(
+)
+override
+{
+}
 bool
 SetMaximumDelay
 (
