@@ -262,10 +262,6 @@ sLastUsedUnicodeDirectory
 define
 MAX_EXTENSION_LENGTH
 10
-#
-define
-FILE_BUFFER_SIZE
-4096
 typedef
 DWORD
 FILEOPENDIALOGOPTIONS
