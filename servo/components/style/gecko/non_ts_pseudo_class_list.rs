@@ -480,7 +480,7 @@ _
 modal
 "
 Modal
-MODAL_DIALOG
+MODAL
 _
 )
 (
