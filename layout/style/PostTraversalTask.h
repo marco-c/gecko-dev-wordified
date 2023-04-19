@@ -156,6 +156,9 @@ FontFace
 class
 FontFaceSet
 ;
+class
+FontFaceSetImpl
+;
 }
 /
 /
@@ -375,7 +378,7 @@ DispatchFontFaceSetCheckLoadingFinishedAfterDelay
 dom
 :
 :
-FontFaceSet
+FontFaceSetImpl
 *
 aFontFaceSet
 )
@@ -582,7 +585,7 @@ DispatchLoadingEventAndReplaceReadyPromise
 /
 mTarget
 (
-FontFaceSet
+FontFaceSetImpl
 *
 )
 DispatchFontFaceSetCheckLoadingFinishedAfterDelay

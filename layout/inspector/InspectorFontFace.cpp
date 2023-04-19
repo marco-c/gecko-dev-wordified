@@ -588,7 +588,7 @@ if
 fontSet
 )
 {
-FontFaceSet
+FontFaceSetImpl
 *
 fontFaceSet
 =
