@@ -427,15 +427,6 @@ NS_GetNativeAppSupport
 (
 )
 ;
-nsresult
-NS_NewToolkitProfileService
-(
-nsIToolkitProfileService
-*
-*
-aResult
-)
-;
 /
 *
 *
