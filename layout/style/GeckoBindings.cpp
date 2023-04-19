@@ -6778,6 +6778,9 @@ const
 nsTimingFunction
 *
 aTimingFunction
+const
+CompositeOperationOrAuto
+aComposition
 KeyframeSearchDirection
 aSearchDirection
 KeyframeInsertPosition
@@ -6870,6 +6873,7 @@ aKeyframes
 aOffset
 *
 aTimingFunction
+aComposition
 keyframeIndex
 )
 )
@@ -6908,6 +6912,7 @@ aKeyframes
 aOffset
 *
 aTimingFunction
+aComposition
 keyframeIndex
 )
 )
@@ -7001,6 +7006,13 @@ aTimingFunction
 )
 ;
 }
+keyframe
+-
+>
+mComposite
+=
+aComposition
+;
 return
 keyframe
 ;
@@ -7021,6 +7033,9 @@ const
 nsTimingFunction
 *
 aTimingFunction
+const
+CompositeOperationOrAuto
+aComposition
 )
 {
 MOZ_ASSERT
@@ -7081,6 +7096,7 @@ GetOrCreateKeyframe
 aKeyframes
 aOffset
 aTimingFunction
+aComposition
 KeyframeSearchDirection
 :
 :
@@ -7106,6 +7122,9 @@ const
 nsTimingFunction
 *
 aTimingFunction
+const
+CompositeOperationOrAuto
+aComposition
 )
 {
 return
@@ -7115,6 +7134,7 @@ aKeyframes
 0
 .
 aTimingFunction
+aComposition
 KeyframeSearchDirection
 :
 :
@@ -7140,6 +7160,9 @@ const
 nsTimingFunction
 *
 aTimingFunction
+const
+CompositeOperationOrAuto
+aComposition
 )
 {
 return
@@ -7149,6 +7172,7 @@ aKeyframes
 1
 .
 aTimingFunction
+aComposition
 KeyframeSearchDirection
 :
 :
