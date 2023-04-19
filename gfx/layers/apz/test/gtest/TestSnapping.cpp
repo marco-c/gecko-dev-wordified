@@ -345,6 +345,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+1
+}
 )
 )
 ;
@@ -387,6 +391,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+2
+}
 )
 )
 ;
@@ -933,6 +941,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+1
+}
 )
 )
 ;
@@ -975,6 +987,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+2
+}
 )
 )
 ;
@@ -1393,6 +1409,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+1
+}
 )
 )
 ;
@@ -1435,6 +1455,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+2
+}
 )
 )
 ;
@@ -2023,6 +2047,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+1
+}
 )
 )
 ;
@@ -2065,6 +2093,10 @@ StyleScrollSnapStop
 :
 :
 Normal
+ScrollSnapTargetId
+{
+2
+}
 )
 )
 ;
