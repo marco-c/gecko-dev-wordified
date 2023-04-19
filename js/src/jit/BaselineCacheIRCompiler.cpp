@@ -552,12 +552,12 @@ MOZ_ASSERT
 !
 compiler
 .
-preparedForVMCall_
+enteredStubFrame_
 )
 ;
 compiler
 .
-preparedForVMCall_
+enteredStubFrame_
 =
 true
 ;
@@ -597,12 +597,12 @@ MOZ_ASSERT
 (
 compiler
 .
-preparedForVMCall_
+enteredStubFrame_
 )
 ;
 compiler
 .
-preparedForVMCall_
+enteredStubFrame_
 =
 false
 ;
@@ -666,7 +666,7 @@ MOZ_ASSERT
 !
 compiler
 .
-preparedForVMCall_
+enteredStubFrame_
 )
 ;
 }
@@ -806,7 +806,7 @@ id
 MOZ_ASSERT
 (
 !
-preparedForVMCall_
+enteredStubFrame_
 )
 ;
 TrampolinePtr
@@ -1081,7 +1081,7 @@ more
 MOZ_ASSERT
 (
 !
-preparedForVMCall_
+enteredStubFrame_
 )
 ;
 masm

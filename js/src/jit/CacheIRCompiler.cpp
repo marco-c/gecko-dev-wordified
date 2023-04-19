@@ -54226,6 +54226,11 @@ VMFunctionId
 id
 )
 {
+MOZ_ASSERT
+(
+enteredStubFrame_
+)
+;
 if
 (
 mode_
@@ -54237,11 +54242,6 @@ Mode
 Ion
 )
 {
-MOZ_ASSERT
-(
-preparedForVMCall_
-)
-;
 TrampolinePtr
 code
 =
@@ -54403,11 +54403,6 @@ Mode
 :
 :
 Baseline
-)
-;
-MOZ_ASSERT
-(
-preparedForVMCall_
 )
 ;
 TrampolinePtr
@@ -54632,7 +54627,7 @@ allocator
 Ion
 needs
 to
-prepareVMCall
+enterStubFrame
 before
 it
 can
@@ -54834,7 +54829,7 @@ asIon
 )
 -
 >
-prepareVMCall
+enterStubFrame
 (
 masm_
 *

@@ -4511,7 +4511,7 @@ Ion
 }
 ;
 bool
-preparedForVMCall_
+enteredStubFrame_
 ;
 bool
 isBaseline
@@ -4680,7 +4680,7 @@ StubFieldPolicy
 policy
 )
 :
-preparedForVMCall_
+enteredStubFrame_
 (
 false
 )
