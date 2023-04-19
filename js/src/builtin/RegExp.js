@@ -2042,8 +2042,9 @@ Step
 var
 results
 =
-[
-]
+new_List
+(
+)
 ;
 var
 nResults
@@ -2693,8 +2694,9 @@ h
 var
 captures
 =
-[
-]
+new_List
+(
+)
 ;
 var
 capturesLength
@@ -3338,8 +3340,9 @@ ii
 var
 captures
 =
-[
-]
+new_List
+(
+)
 ;
 for
 (
