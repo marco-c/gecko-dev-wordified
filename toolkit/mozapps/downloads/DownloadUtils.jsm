@@ -276,11 +276,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PluralForm
 "
@@ -530,7 +536,7 @@ Object
 .
 defineProperty
 (
-this
+lazy
 "
 gBundle
 "
@@ -793,6 +799,8 @@ params
 =
 [
 transfer
+lazy
+.
 gBundle
 .
 GetStringFromName
@@ -806,6 +814,8 @@ timeLeft
 ;
 status
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -831,6 +841,8 @@ timeLeft
 ;
 status
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -1020,6 +1032,8 @@ timeLeft
 let
 status
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -1472,6 +1486,8 @@ totalUnits
 ;
 }
 return
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -1638,6 +1654,8 @@ aSeconds
 {
 return
 [
+lazy
+.
 gBundle
 .
 GetStringFromName
@@ -1950,6 +1968,8 @@ few
 seconds
 timeLeft
 =
+lazy
+.
 gBundle
 .
 GetStringFromName
@@ -1992,6 +2012,8 @@ aSeconds
 let
 pair1
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -2013,6 +2035,8 @@ unit1
 let
 pair2
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -2081,6 +2105,8 @@ time2
 {
 timeLeft
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -2110,6 +2136,8 @@ to
 display
 timeLeft
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -2410,6 +2438,8 @@ show
 yesterday
 dateTimeCompact
 =
+lazy
+.
 gBundle
 .
 GetStringFromName
@@ -2985,6 +3015,8 @@ file
 protocol
 displayHost
 =
+lazy
+.
 gBundle
 .
 GetStringFromName
@@ -3028,6 +3060,8 @@ icon
 )
 displayHost
 =
+lazy
+.
 gBundle
 .
 formatStringFromName
@@ -3378,6 +3412,8 @@ aBytes
 return
 [
 aBytes
+lazy
+.
 gBundle
 .
 GetStringFromName
@@ -4121,11 +4157,15 @@ return
 ;
 }
 return
+lazy
+.
 PluralForm
 .
 get
 (
 aTime
+lazy
+.
 gBundle
 .
 GetStringFromName
