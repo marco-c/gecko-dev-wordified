@@ -1609,6 +1609,13 @@ machine_targets
             
 "
 -
+DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR
+=
+OFF
+"
+            
+"
+-
 DLLVM_ENABLE_ASSERTIONS
 =
 %
