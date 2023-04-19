@@ -35386,13 +35386,6 @@ Register
 bailoutInfo
 )
 ;
-void
-assertRectifierFrameParentType
-(
-Register
-frameType
-)
-;
 public
 :
 #

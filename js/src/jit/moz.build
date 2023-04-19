@@ -510,6 +510,11 @@ Snapshots
 cpp
 "
 "
+Trampoline
+.
+cpp
+"
+"
 TrialInlining
 .
 cpp
