@@ -404,7 +404,7 @@ include
 "
 wasm
 /
-WasmMemory
+WasmInstanceData
 .
 h
 "
@@ -413,7 +413,7 @@ include
 "
 wasm
 /
-WasmTlsData
+WasmMemory
 .
 h
 "

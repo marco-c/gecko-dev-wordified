@@ -219,7 +219,7 @@ include
 "
 wasm
 /
-WasmTlsData
+WasmInstanceData
 .
 h
 "

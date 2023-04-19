@@ -227,7 +227,7 @@ include
 "
 wasm
 /
-WasmStubs
+WasmInstanceData
 .
 h
 "
@@ -236,7 +236,7 @@ include
 "
 wasm
 /
-WasmTlsData
+WasmStubs
 .
 h
 "
