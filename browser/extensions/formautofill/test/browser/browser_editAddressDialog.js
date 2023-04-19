@@ -3328,7 +3328,7 @@ focus
 )
 ;
 let
-mutatableLabels
+mutableLabels
 =
 [
 "
@@ -3449,7 +3449,7 @@ for
 let
 labelEl
 of
-mutatableLabels
+mutableLabels
 )
 {
 labelEl
@@ -3511,7 +3511,7 @@ for
 let
 labelEl
 of
-mutatableLabels
+mutableLabels
 )
 {
 if
