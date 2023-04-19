@@ -3511,7 +3511,7 @@ lazy
 .
 ExtensionScriptingStore
 .
-clear
+clearOnUninstall
 (
 addon
 .
