@@ -103,6 +103,16 @@ Create
 (
 )
 ;
+static
+bool
+SupportsConfig
+(
+const
+TrackInfo
+&
+aConfig
+)
+;
 already_AddRefed
 <
 MediaDataDecoder
