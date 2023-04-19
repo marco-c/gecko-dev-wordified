@@ -2453,8 +2453,11 @@ NimbusFeatures
 .
 tcpPreferences
 .
-isEnabled
+getVariable
 (
+"
+enabled
+"
 )
 |
 |
