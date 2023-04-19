@@ -827,15 +827,6 @@ numArgSlots
 )
 const
 ;
-enum
-class
-BaseRegForAddress
-{
-Default
-FP
-SP
-}
-;
 inline
 Address
 ToAddress
