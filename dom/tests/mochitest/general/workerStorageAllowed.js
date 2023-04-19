@@ -258,6 +258,7 @@ location
 protocol
 !
 =
+=
 "
 https
 :
@@ -289,7 +290,16 @@ e
 {
 ok
 (
-false
+location
+.
+protocol
+!
+=
+=
+"
+https
+:
+"
 "
 WORKER
 getting
@@ -299,6 +309,10 @@ not
 have
 thrown
 "
+)
+;
+workerTest
+(
 )
 ;
 }
