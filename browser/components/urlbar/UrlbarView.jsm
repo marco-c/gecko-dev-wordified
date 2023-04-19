@@ -9787,10 +9787,14 @@ DYNAMIC
 &
 oldResult
 .
+payload
+.
 dynamicType
 !
 =
 result
+.
+payload
 .
 dynamicType
 )

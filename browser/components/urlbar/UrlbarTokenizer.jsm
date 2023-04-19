@@ -733,6 +733,9 @@ RESTRICT_TITLE
 RESTRICT_URL
 :
 10
+RESTRICT_ACTION
+:
+11
 }
 /
 /
@@ -858,6 +861,11 @@ URL
 :
 "
 "
+ACTION
+:
+"
+>
+"
 }
 /
 /
@@ -903,6 +911,11 @@ this
 RESTRICT
 .
 SEARCH
+this
+.
+RESTRICT
+.
+ACTION
 ]
 )
 ;

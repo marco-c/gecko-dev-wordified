@@ -2749,5 +2749,12 @@ UrlbarUtils
 RESULT_SOURCE
 .
 TABS
+actions
+:
+UrlbarUtils
+.
+RESULT_SOURCE
+.
+ACTIONS
 }
 ;
