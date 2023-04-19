@@ -315,6 +315,7 @@ dom
 Element
 *
 aElement
+const
 ComputedStyle
 *
 aBaseComputedStyle
@@ -555,6 +556,7 @@ owning
 reference
 here
 .
+const
 ComputedStyle
 *
 mBaseComputedStyle

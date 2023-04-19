@@ -4213,6 +4213,7 @@ false
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 elementStyle
@@ -4352,6 +4353,7 @@ false
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 elementStyle
@@ -4491,6 +4493,7 @@ false
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 elementStyle

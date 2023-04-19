@@ -2306,6 +2306,7 @@ aElement
 {
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle
@@ -11344,6 +11345,7 @@ aElement
 {
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle
@@ -11425,6 +11427,7 @@ aElement
 {
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle

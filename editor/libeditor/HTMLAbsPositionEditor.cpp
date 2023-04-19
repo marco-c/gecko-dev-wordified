@@ -5806,6 +5806,7 @@ NS_OK
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 style

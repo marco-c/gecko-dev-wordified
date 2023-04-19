@@ -4733,6 +4733,7 @@ frame
 .
 RefPtr
 <
+const
 ComputedStyle
 >
 sc

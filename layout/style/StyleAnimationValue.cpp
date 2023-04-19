@@ -1194,6 +1194,7 @@ valid
 .
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle

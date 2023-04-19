@@ -1201,6 +1201,7 @@ static
 float
 GetFontSize
 (
+const
 ComputedStyle
 *
 nsPresContext
@@ -1289,6 +1290,7 @@ static
 float
 GetFontXHeight
 (
+const
 ComputedStyle
 *
 nsPresContext

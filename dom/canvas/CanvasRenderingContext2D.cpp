@@ -7010,6 +7010,7 @@ necessary
 .
 RefPtr
 <
+const
 ComputedStyle
 >
 canvasStyle
@@ -10158,6 +10159,7 @@ middle
 .
 RefPtr
 <
+const
 ComputedStyle
 >
 canvasStyle
@@ -14513,6 +14515,7 @@ aDocument
 static
 already_AddRefed
 <
+const
 ComputedStyle
 >
 GetFontStyleForServo
@@ -14657,6 +14660,7 @@ StyleSet
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 parentStyle
@@ -14835,6 +14839,7 @@ destroyed
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 sc
@@ -15027,6 +15032,7 @@ aDocument
 static
 already_AddRefed
 <
+const
 ComputedStyle
 >
 ResolveFilterStyleForServo
@@ -15138,6 +15144,7 @@ StyleSet
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 computedValues
@@ -15218,6 +15225,7 @@ usedFont
 unused
 RefPtr
 <
+const
 ComputedStyle
 >
 parentStyle
@@ -15245,6 +15253,7 @@ false
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 style
@@ -20554,6 +20563,7 @@ usedFont
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 sc
@@ -24565,6 +24575,7 @@ Truncate
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 canvasStyle

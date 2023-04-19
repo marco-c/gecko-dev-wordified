@@ -476,6 +476,7 @@ dom
 static
 already_AddRefed
 <
+const
 ComputedStyle
 >
 GetCleanComputedStyleForElement
@@ -1256,6 +1257,7 @@ return
 }
 RefPtr
 <
+const
 ComputedStyle
 >
 computedStyle

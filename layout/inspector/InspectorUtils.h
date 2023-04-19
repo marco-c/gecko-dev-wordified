@@ -159,9 +159,6 @@ nsINodeList
 class
 nsRange
 ;
-class
-ComputedStyle
-;
 namespace
 mozilla
 {

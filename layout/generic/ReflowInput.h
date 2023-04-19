@@ -5745,6 +5745,7 @@ CalcLineHeight
 nsIContent
 *
 aContent
+const
 ComputedStyle
 *
 aComputedStyle

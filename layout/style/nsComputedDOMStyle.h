@@ -597,6 +597,7 @@ mElement
 static
 already_AddRefed
 <
+const
 ComputedStyle
 >
 GetComputedStyle
@@ -621,6 +622,7 @@ All
 static
 already_AddRefed
 <
+const
 ComputedStyle
 >
 GetComputedStyleNoFlush
@@ -664,6 +666,7 @@ aStyleType
 static
 already_AddRefed
 <
+const
 ComputedStyle
 >
 GetUnanimatedComputedStyleNoFlush
@@ -948,6 +951,7 @@ SetResolvedComputedStyle
 (
 RefPtr
 <
+const
 ComputedStyle
 >
 &
@@ -970,6 +974,7 @@ aGeneration
 static
 already_AddRefed
 <
+const
 ComputedStyle
 >
 DoGetComputedStyleNoFlush
@@ -2092,6 +2097,7 @@ processed
 /
 RefPtr
 <
+const
 ComputedStyle
 >
 mComputedStyle

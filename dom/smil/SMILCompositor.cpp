@@ -424,6 +424,7 @@ with
 .
 RefPtr
 <
+const
 ComputedStyle
 >
 baseComputedStyle
@@ -895,6 +896,7 @@ SMILCompositor
 :
 CreateSMILAttr
 (
+const
 ComputedStyle
 *
 aBaseComputedStyle

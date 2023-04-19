@@ -702,12 +702,6 @@ imageURIString
 nsresult
 rv
 ;
-RefPtr
-<
-ComputedStyle
->
-sc
-;
 nsCOMPtr
 <
 nsIURI
@@ -776,6 +770,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+RefPtr
+<
+const
+ComputedStyle
+>
 sc
 =
 nsComputedDOMStyle

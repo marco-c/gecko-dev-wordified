@@ -675,6 +675,7 @@ SMILAttr
 >
 CreateSMILAttr
 (
+const
 ComputedStyle
 *
 aBaseComputedStyle

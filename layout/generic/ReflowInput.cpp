@@ -22346,6 +22346,7 @@ inline
 nscoord
 ComputeLineHeight
 (
+const
 ComputedStyle
 *
 aComputedStyle
@@ -22742,6 +22743,7 @@ CalcLineHeight
 nsIContent
 *
 aContent
+const
 ComputedStyle
 *
 aComputedStyle

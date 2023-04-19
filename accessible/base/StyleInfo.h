@@ -314,6 +314,7 @@ mElement
 ;
 RefPtr
 <
+const
 ComputedStyle
 >
 mComputedStyle
