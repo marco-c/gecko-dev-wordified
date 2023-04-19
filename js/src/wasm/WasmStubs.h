@@ -1682,10 +1682,6 @@ FuncExport
 &
 fe
 const
-FuncType
-&
-funcType
-const
 Maybe
 <
 jit
