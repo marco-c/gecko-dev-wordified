@@ -676,9 +676,12 @@ percentage
 padding
 case
 )
-kidReflowInput
-.
-mStylePadding
+frame
+-
+>
+StylePadding
+(
+)
 -
 >
 GetPadding

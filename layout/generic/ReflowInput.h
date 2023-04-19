@@ -2969,13 +2969,6 @@ mStyleMargin
 nullptr
 ;
 const
-nsStylePadding
-*
-mStylePadding
-=
-nullptr
-;
-const
 nsStyleText
 *
 mStyleText
