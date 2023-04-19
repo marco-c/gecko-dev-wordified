@@ -477,7 +477,6 @@ const
 override
 {
 return
-*
 mMetrics
 ;
 }
@@ -553,7 +552,6 @@ on
 older
 DWrite
 Metrics
-*
 mMetrics
 ;
 /
