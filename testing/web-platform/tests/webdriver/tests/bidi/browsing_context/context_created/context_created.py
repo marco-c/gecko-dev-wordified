@@ -816,6 +816,48 @@ children_info
 =
 2
     
+#
+Note
+:
+Live
+browsingContext
+.
+contextCreated
+events
+are
+always
+created
+with
+"
+about
+:
+blank
+"
+:
+    
+#
+https
+:
+/
+/
+github
+.
+com
+/
+w3c
+/
+webdriver
+-
+bidi
+/
+issues
+/
+220
+#
+issuecomment
+-
+1145785349
+    
 assert_browsing_context
 (
         
@@ -840,15 +882,11 @@ None
         
 url
 =
-children_info
-[
-0
-]
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
@@ -885,15 +923,11 @@ None
         
 url
 =
-children_info
-[
-1
-]
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
@@ -1176,6 +1210,46 @@ children
 0
 ]
     
+#
+Note
+:
+browsingContext
+.
+contextCreated
+is
+always
+created
+with
+"
+about
+:
+blank
+"
+:
+    
+#
+https
+:
+/
+/
+github
+.
+com
+/
+w3c
+/
+webdriver
+-
+bidi
+/
+issues
+/
+220
+#
+issuecomment
+-
+1145785349
+    
 assert_browsing_context
 (
         
@@ -1197,12 +1271,11 @@ None
         
 url
 =
-child1_info
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
@@ -1236,12 +1309,11 @@ None
         
 url
 =
-child2_info
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
