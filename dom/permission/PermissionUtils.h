@@ -153,8 +153,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 const
@@ -189,11 +189,9 @@ aAction
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

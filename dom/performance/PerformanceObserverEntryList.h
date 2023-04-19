@@ -161,8 +161,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -346,11 +346,9 @@ mEntries
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

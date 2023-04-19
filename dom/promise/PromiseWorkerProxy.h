@@ -220,8 +220,8 @@ namespace
 JS
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1603,12 +1603,10 @@ mCleanUpLock
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

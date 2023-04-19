@@ -165,8 +165,8 @@ nsISupports
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -291,12 +291,10 @@ mServerTiming
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

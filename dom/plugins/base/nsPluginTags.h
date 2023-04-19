@@ -155,8 +155,8 @@ nsIURI
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -166,12 +166,10 @@ FakePluginTagInit
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 /
 /
 An

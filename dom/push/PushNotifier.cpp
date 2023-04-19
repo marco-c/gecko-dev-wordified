@@ -245,8 +245,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 PushNotifier
@@ -2536,9 +2536,7 @@ eOMIT_LOCATION
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
