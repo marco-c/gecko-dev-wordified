@@ -26333,9 +26333,17 @@ expectedTestCounters
 0
 }
 {
+0u
+0
+}
+{
 1u
 -
 17
+}
+{
+0u
+0
 }
 {
 0u
