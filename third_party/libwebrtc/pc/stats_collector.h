@@ -189,6 +189,15 @@ h
 #
 include
 "
+pc
+/
+stats_collector_interface
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 network_constants
@@ -326,6 +335,9 @@ TrackIdMap
 ;
 class
 StatsCollector
+:
+public
+StatsCollectorInterface
 {
 public
 :
@@ -426,6 +438,7 @@ audio_track
 uint32_t
 ssrc
 )
+override
 ;
 /
 /
@@ -454,6 +467,7 @@ audio_track
 uint32_t
 ssrc
 )
+override
 ;
 /
 /
