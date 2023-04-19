@@ -499,7 +499,11 @@ JSTracer
 trc
 CacheIRStubKey
 *
-WeakHeapPtrJitCode
+WeakHeapPtr
+<
+JitCode
+*
+>
 *
 value
 )
@@ -574,7 +578,11 @@ BaselineCacheIRStubCodeMap
 GCHashMap
 <
 CacheIRStubKey
-WeakHeapPtrJitCode
+WeakHeapPtr
+<
+JitCode
+*
+>
 CacheIRStubKey
 SystemAllocPolicy
 BaselineCacheIRStubCodeMapGCPolicy
