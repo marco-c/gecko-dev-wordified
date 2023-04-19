@@ -1109,14 +1109,6 @@ nsILineIterator
 methods
 public
 :
-virtual
-void
-DisposeLineIterator
-(
-)
-override
-{
-}
 /
 /
 The
@@ -1232,13 +1224,12 @@ row
 group
 *
 /
-virtual
 int32_t
 GetNumLines
 (
 )
 const
-override
+final
 ;
 /
 *
@@ -1258,12 +1249,11 @@ is
 rtl
 *
 /
-virtual
 bool
 GetDirection
 (
 )
-override
+final
 ;
 /
 *
@@ -1287,7 +1277,7 @@ GetLine
 int32_t
 aLineNumber
 )
-override
+final
 ;
 /
 *
@@ -1361,7 +1351,6 @@ found
 .
 *
 /
-virtual
 int32_t
 FindLineContaining
 (
@@ -1373,7 +1362,7 @@ aStartLine
 =
 0
 )
-override
+final
 ;
 /
 *
@@ -1484,7 +1473,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
-override
+final
 ;
 /
 *
@@ -1580,7 +1569,7 @@ nsIFrame
 *
 aLastVisual
 )
-override
+final
 ;
 /
 /
