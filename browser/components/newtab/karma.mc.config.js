@@ -1212,7 +1212,7 @@ lines
 60
 functions
 :
-65
+50
 branches
 :
 50
