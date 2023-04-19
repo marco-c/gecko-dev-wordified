@@ -5027,7 +5027,7 @@ aFrame
 if
 LIBAVCODEC_VERSION_MAJOR
 >
-58
+57
 return
 aFrame
 -
