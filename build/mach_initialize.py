@@ -3426,6 +3426,23 @@ py
 "
         
 )
+        
+"
+esmify
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+esmify
+/
+mach_commands
+.
+py
+"
+)
     
 }
     
