@@ -469,7 +469,6 @@ CreateListFromArrayLikeForArgs
 var
 args
 =
-(
 IsPackedArray
 (
 argumentsList
@@ -482,7 +481,6 @@ length
 <
 =
 MAX_ARGS_LENGTH
-)
 ?
 argumentsList
 :
