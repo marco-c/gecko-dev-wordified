@@ -206,6 +206,9 @@ JSWindowActorInfo
 class
 EventTarget
 ;
+class
+JSActorProtocolUtils
+;
 /
 *
 *
@@ -529,6 +532,10 @@ nsTArray
 nsString
 >
 mMessageManagerGroups
+;
+friend
+class
+JSActorProtocolUtils
 ;
 ParentSide
 mParent
