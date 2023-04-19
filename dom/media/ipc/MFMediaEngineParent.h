@@ -773,6 +773,13 @@ mIsEnableDcompMode
 =
 false
 ;
+float
+mPlaybackRate
+=
+1
+.
+0
+;
 }
 ;
 }
