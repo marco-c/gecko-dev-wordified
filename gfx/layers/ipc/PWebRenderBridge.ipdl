@@ -672,11 +672,6 @@ ClearCachedResources
 )
 ;
 async
-ClearAnimationResources
-(
-)
-;
-async
 SetDefaultClearColor
 (
 uint32_t

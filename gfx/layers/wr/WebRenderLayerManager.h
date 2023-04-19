@@ -783,11 +783,6 @@ ClearCachedResources
 )
 ;
 void
-ClearAnimationResources
-(
-)
-;
-void
 UpdateTextureFactoryIdentifier
 (
 const
