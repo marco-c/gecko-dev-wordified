@@ -7,7 +7,8 @@ Defines
 the
 environment
 for
-jsm
+privileges
+JS
 files
 .
 *

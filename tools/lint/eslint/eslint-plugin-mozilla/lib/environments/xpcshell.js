@@ -7,8 +7,9 @@ Defines
 the
 environment
 for
-frame
-scripts
+xpcshell
+test
+files
 .
 *
 *
