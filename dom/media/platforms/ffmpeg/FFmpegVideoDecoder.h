@@ -351,6 +351,10 @@ void
 InitCodecContext
 (
 )
+REQUIRES
+(
+sMutex
+)
 override
 ;
 nsCString
