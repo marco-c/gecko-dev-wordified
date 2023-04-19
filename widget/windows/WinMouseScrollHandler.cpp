@@ -2745,7 +2745,7 @@ destWindow
 WinUtils
 :
 :
-GetNSWindowBasePtr
+GetNSWindowPtr
 (
 underCursorWnd
 )
@@ -2820,7 +2820,7 @@ destWindow
 WinUtils
 :
 :
-GetNSWindowBasePtr
+GetNSWindowPtr
 (
 wnd
 )
