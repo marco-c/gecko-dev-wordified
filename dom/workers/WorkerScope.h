@@ -1508,6 +1508,9 @@ IDBFactory
 >
 GetIndexedDB
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aErrorResult

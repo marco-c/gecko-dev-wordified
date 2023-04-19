@@ -5067,6 +5067,9 @@ IDBFactory
 *
 GetIndexedDB
 (
+JSContext
+*
+aCx
 mozilla
 :
 :
