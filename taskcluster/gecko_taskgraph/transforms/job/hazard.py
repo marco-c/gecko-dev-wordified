@@ -68,7 +68,7 @@ scripts
 "
 "
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .

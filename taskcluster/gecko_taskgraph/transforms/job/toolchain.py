@@ -80,7 +80,7 @@ quote
 as
 shell_quote
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .

@@ -72,6 +72,14 @@ tasks
 import
 logging
 from
+taskgraph
+.
+util
+.
+schema
+import
+resolve_keyed_by
+from
 gecko_taskgraph
 .
 transforms
@@ -119,14 +127,6 @@ check_if_partners_enabled
     
 get_partners_to_be_published
 )
-from
-gecko_taskgraph
-.
-util
-.
-schema
-import
-resolve_keyed_by
 from
 gecko_taskgraph
 .

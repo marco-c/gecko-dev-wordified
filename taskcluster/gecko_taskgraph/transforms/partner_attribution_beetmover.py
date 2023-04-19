@@ -86,6 +86,15 @@ taskcluster
 import
 get_artifact_prefix
 from
+taskgraph
+.
+util
+.
+schema
+import
+optionally_keyed_by
+resolve_keyed_by
+from
 voluptuous
 import
 Any
@@ -140,19 +149,6 @@ import
 get_partner_config_by_kind
     
 apply_partner_priority
-)
-from
-gecko_taskgraph
-.
-util
-.
-schema
-import
-(
-    
-optionally_keyed_by
-    
-resolve_keyed_by
 )
 from
 gecko_taskgraph

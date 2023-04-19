@@ -227,6 +227,14 @@ taskgraph
 .
 util
 .
+schema
+import
+resolve_keyed_by
+from
+taskgraph
+.
+util
+.
 taskcluster
 import
 get_artifact_prefix
@@ -238,11 +246,6 @@ util
 yaml
 import
 load_yaml
-from
-.
-schema
-import
-resolve_keyed_by
 #
 constants
 {
