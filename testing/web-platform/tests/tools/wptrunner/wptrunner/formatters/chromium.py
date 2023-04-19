@@ -7,6 +7,8 @@ untyped
 -
 defs
 import
+functools
+import
 json
 import
 time
@@ -20,6 +22,27 @@ mozlog
 formatters
 import
 base
+from
+wptrunner
+.
+wptmanifest
+import
+serializer
+_escape_heading
+=
+functools
+.
+partial
+(
+serializer
+.
+escape
+extras
+=
+"
+]
+"
+)
 class
 ChromiumFormatter
 (
@@ -657,7 +680,11 @@ n
 "
 %
 (
+_escape_heading
+(
 subtest
+)
+                                                     
 wpt_actual_status
 )
             
@@ -769,7 +796,11 @@ n
 "
 %
 (
+                
+_escape_heading
+(
 test_name_last_part
+)
 wpt_actual_status
 )
             
