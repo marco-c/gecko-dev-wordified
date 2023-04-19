@@ -462,6 +462,12 @@ mStream
 is
 at
 EOF
+bool
+mSeekable
+{
+true
+}
+;
 uint8_t
 mGetBufferCount
 {
