@@ -342,11 +342,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 OS
 "
@@ -388,7 +394,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 proxyService
 :
@@ -2638,6 +2644,8 @@ proxyFilter
 {
 proxyInfo
 :
+lazy
+.
 proxyService
 .
 newProxyInfo
@@ -2741,6 +2749,8 @@ defaultProxyInfo
 }
 }
 ;
+lazy
+.
 proxyService
 .
 registerChannelFilter
@@ -3158,6 +3168,8 @@ testList
 let
 promise
 =
+lazy
+.
 OS
 .
 File
@@ -3613,6 +3625,8 @@ urls
 )
 )
 ;
+lazy
+.
 OS
 .
 File
@@ -13755,6 +13769,8 @@ path
 callback
 )
 {
+lazy
+.
 OS
 .
 File
