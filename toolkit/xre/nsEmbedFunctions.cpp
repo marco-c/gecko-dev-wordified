@@ -5765,7 +5765,11 @@ aCallback
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 cmd
 (
 aCx
