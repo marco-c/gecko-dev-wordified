@@ -239,7 +239,7 @@ WinPaths
 static
 WinPaths
 &
-PathAllowlist
+PathWhitelist
 (
 )
 {
@@ -470,7 +470,7 @@ return
 /
 /
 The
-allowlist
+whitelist
 makes
 sense
 only
@@ -538,7 +538,7 @@ sMutex
 if
 (
 !
-PathAllowlist
+PathWhitelist
 (
 )
 .
@@ -548,7 +548,7 @@ path
 )
 )
 {
-PathAllowlist
+PathWhitelist
 (
 )
 .
@@ -766,7 +766,7 @@ Length
 ;
 }
 void
-InitDirectoriesAllowlist
+InitDirectoriesWhitelist
 (
 )
 {
@@ -1688,7 +1688,7 @@ auto
 &
 allowedPrefix
 :
-PathAllowlist
+PathWhitelist
 (
 )
 )
@@ -2189,7 +2189,7 @@ void
 testing
 :
 :
-AddDirectoryToAllowlist
+AddDirectoryToWhitelist
 (
 nsAString
 const
@@ -2203,7 +2203,7 @@ lock
 sMutex
 )
 ;
-PathAllowlist
+PathWhitelist
 (
 )
 .
