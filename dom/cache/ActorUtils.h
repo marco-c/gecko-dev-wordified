@@ -195,8 +195,10 @@ actor
 cpp
 files
 .
+already_AddRefed
+<
 PCacheChild
-*
+>
 AllocPCacheChild
 (
 )
