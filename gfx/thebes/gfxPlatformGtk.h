@@ -393,7 +393,7 @@ bool
 InitVAAPIConfig
 (
 bool
-aForceEnabledByUser
+aEnabledByPlatform
 )
 ;
 void
