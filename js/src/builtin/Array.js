@@ -1648,7 +1648,7 @@ prototype
 .
 groupby
 function
-ArrayGroupBy
+ArrayGroup
 (
 callbackfn
 /
@@ -2114,7 +2114,7 @@ Array
 .
 prototype
 .
-groupByToMap
+groupToMap
 /
 /
 https
@@ -2140,7 +2140,7 @@ prototype
 .
 groupbymap
 function
-ArrayGroupByToMap
+ArrayGroupToMap
 (
 callbackfn
 /
