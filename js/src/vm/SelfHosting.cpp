@@ -20376,6 +20376,12 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
+cx
+-
+>
+tempLifoAlloc
+(
+)
 *
 input
 srcBuf
