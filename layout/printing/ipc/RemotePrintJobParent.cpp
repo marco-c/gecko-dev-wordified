@@ -1598,6 +1598,11 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
+|
+nsIWebProgressListener
+:
+:
+STATE_IS_DOCUMENT
 NS_OK
 )
 ;
