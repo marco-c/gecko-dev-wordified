@@ -2575,6 +2575,9 @@ intelDrivers
 iris
 "
 "
+crocus
+"
+"
 i915
 "
 "
