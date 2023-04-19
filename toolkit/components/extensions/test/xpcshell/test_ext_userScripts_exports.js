@@ -1792,11 +1792,8 @@ test
 assertEq
 (
 undefined
-typeof
 objWithMethods
-&
-&
-objWithMethods
+?
 .
 objMethod
 "
