@@ -172,15 +172,6 @@ include
 "
 mozilla
 /
-ContentBlocking
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ContentBlockingNotifier
 .
 h
