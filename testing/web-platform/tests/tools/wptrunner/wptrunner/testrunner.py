@@ -5405,14 +5405,11 @@ stop
 force_stop
 )
             
-restart
-=
-(
+if
 self
 .
 restart_on_new_group
 and
-                       
 test_group
 is
 not
@@ -5421,10 +5418,6 @@ self
 state
 .
 test_group
-)
-            
-if
-restart
 :
                 
 self
@@ -5442,6 +5435,10 @@ test
 group
 "
 )
+                
+restart
+=
+True
         
 else
 :
