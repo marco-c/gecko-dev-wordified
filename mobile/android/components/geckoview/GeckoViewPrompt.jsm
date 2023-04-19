@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 GeckoViewPrompter
 :
@@ -161,7 +167,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -827,6 +833,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 win
@@ -849,6 +857,8 @@ const
 deferredUpdate
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -1372,6 +1382,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aElement
@@ -2241,6 +2253,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 target
@@ -2356,6 +2370,8 @@ const
 prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aEvent
@@ -3110,6 +3126,8 @@ this
 _prompter
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aParent
@@ -4840,6 +4858,8 @@ u2026
 const
 bundle
 =
+lazy
+.
 Services
 .
 strings

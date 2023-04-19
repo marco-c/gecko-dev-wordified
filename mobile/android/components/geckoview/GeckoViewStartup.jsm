@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ActorManagerParent
 :
@@ -794,6 +800,8 @@ process
 only
 if
 (
+lazy
+.
 Services
 .
 appinfo
@@ -801,6 +809,8 @@ appinfo
 processType
 =
 =
+lazy
+.
 Services
 .
 appinfo
@@ -808,6 +818,8 @@ appinfo
 PROCESS_TYPE_DEFAULT
 )
 {
+lazy
+.
 ActorManagerParent
 .
 addJSWindowActors
@@ -815,6 +827,8 @@ addJSWindowActors
 JSWINDOWACTORS
 )
 ;
+lazy
+.
 ActorManagerParent
 .
 addJSProcessActors
@@ -1045,6 +1059,8 @@ aborted
 }
 )
 ;
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1210,6 +1226,8 @@ for
 global
 EventDispatcher
 messages
+lazy
+.
 EventDispatcher
 .
 instance
@@ -1236,6 +1254,8 @@ SetLocale
 ]
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -1256,6 +1276,8 @@ finished
 "
 )
 ;
+lazy
+.
 Services
 .
 obs
@@ -1324,6 +1346,8 @@ once
 during
 startup
 .
+lazy
+.
 Services
 .
 obs
@@ -1362,6 +1386,8 @@ rebuilt
 on
 next
 startup
+.
+lazy
 .
 Services
 .
@@ -1406,6 +1432,8 @@ const
 prefs
 =
 new
+lazy
+.
 Preferences
 (
 )
@@ -1434,6 +1462,8 @@ const
 prefs
 =
 new
+lazy
+.
 Preferences
 (
 {
@@ -1507,6 +1537,8 @@ aData
 requestedLocales
 )
 {
+lazy
+.
 Services
 .
 locale
@@ -1551,6 +1583,8 @@ aData
 .
 acceptLanguages
 ;
+lazy
+.
 Services
 .
 prefs

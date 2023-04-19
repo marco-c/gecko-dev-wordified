@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 FileUtils
 :
@@ -264,6 +270,8 @@ this
 _prompt
 =
 new
+lazy
+.
 GeckoViewPrompter
 (
 aParent
@@ -607,6 +615,8 @@ null
 }
 return
 new
+lazy
+.
 FileUtils
 .
 File
@@ -623,6 +633,8 @@ fileURL
 )
 {
 return
+lazy
+.
 Services
 .
 io
@@ -685,6 +697,8 @@ domFile
 }
 yield
 new
+lazy
+.
 FileUtils
 .
 File
