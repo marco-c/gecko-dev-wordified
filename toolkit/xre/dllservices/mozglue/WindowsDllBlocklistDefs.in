@@ -1925,12 +1925,6 @@ dll
 )
 )
 #
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
-#
 Forcepoint
 DLLs
 causing
@@ -1965,8 +1959,6 @@ dll
 1
 )
 )
-#
-endif
 ]
 ALL_PROCESSES_TESTS
 +
