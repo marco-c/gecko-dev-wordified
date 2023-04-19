@@ -834,6 +834,7 @@ new
 MFMediaEngineWrapper
 (
 this
+mFrameStats
 )
 )
 ;
