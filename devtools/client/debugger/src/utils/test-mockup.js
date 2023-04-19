@@ -595,9 +595,6 @@ id
 breakpoint
 "
 location
-astLocation
-:
-null
 generatedLocation
 :
 location

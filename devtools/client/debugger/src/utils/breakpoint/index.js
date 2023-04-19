@@ -114,15 +114,6 @@ from
 "
 .
 /
-astBreakpointLocation
-"
-;
-export
-*
-from
-"
-.
-/
 breakpointPositions
 "
 ;
@@ -595,11 +586,6 @@ disabled
 location
 :
 pendingLocation
-astLocation
-:
-bp
-.
-astLocation
 generatedLocation
 :
 pendingGeneratedLocation
