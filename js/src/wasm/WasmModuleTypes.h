@@ -788,6 +788,11 @@ mallocSizeOf
 )
 const
 ;
+WASM_DECLARE_FRIEND_SERIALIZE
+(
+Export
+)
+;
 }
 ;
 WASM_DECLARE_CACHEABLE_POD
@@ -1849,6 +1854,11 @@ MallocSizeOf
 mallocSizeOf
 )
 const
+;
+WASM_DECLARE_FRIEND_SERIALIZE
+(
+GlobalDesc
+)
 ;
 }
 ;
