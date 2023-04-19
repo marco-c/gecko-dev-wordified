@@ -7811,10 +7811,6 @@ metrics
 GC_MINOR_US
 (
 totalTime
-.
-ToMicroseconds
-(
-)
 )
 ;
 rt
