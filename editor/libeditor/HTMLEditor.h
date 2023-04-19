@@ -8792,10 +8792,13 @@ This
 point
 must
 be
-descendant
-of
+in
+aEditingHost
+.
 *
-active
+param
+aEditingHost
+The
 editing
 host
 .
@@ -8833,6 +8836,10 @@ const
 EditorDOMPoint
 &
 aStartOfDeepestRightNode
+const
+Element
+&
+aEditingHost
 )
 ;
 /
