@@ -370,9 +370,6 @@ pod
 index_
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 uint32_t
 Export
 :
@@ -401,8 +398,6 @@ pod
 index_
 ;
 }
-#
-endif
 uint32_t
 Export
 :
@@ -668,9 +663,6 @@ mallocSizeOf
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 size_t
 TagDesc
 :
@@ -692,11 +684,6 @@ mallocSizeOf
 )
 ;
 }
-#
-endif
-/
-/
-ENABLE_WASM_EXCEPTIONS
 size_t
 ElemSegment
 :

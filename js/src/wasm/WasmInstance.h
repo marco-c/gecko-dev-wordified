@@ -676,9 +676,6 @@ JSContext
 *
 cx_
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 The
@@ -792,8 +789,6 @@ exception
 GCPtrObject
 pendingExceptionTag_
 ;
-#
-endif
 /
 /
 Usually
@@ -1471,9 +1466,6 @@ td
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 GCPtrWasmTagObject
 &
 tagTls
@@ -1485,8 +1477,6 @@ td
 )
 const
 ;
-#
-endif
 /
 /
 Only
@@ -1825,9 +1815,6 @@ valueBoxClass_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 constexpr
 size_t
@@ -1858,11 +1845,6 @@ pendingExceptionTag_
 )
 ;
 }
-#
-endif
-/
-/
-ENABLE_WASM_EXCEPTIONS
 static
 constexpr
 size_t
@@ -2421,9 +2403,6 @@ Spec
 Exception
 handling
 support
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 void
 setPendingException
 (
@@ -2431,8 +2410,6 @@ HandleAnyRef
 exn
 )
 ;
-#
-endif
 /
 /
 Constant
@@ -3248,9 +3225,6 @@ void
 structDescr
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 void
 *
@@ -3276,8 +3250,6 @@ JSObject
 exn
 )
 ;
-#
-endif
 static
 void
 *

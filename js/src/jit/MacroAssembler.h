@@ -24874,9 +24874,6 @@ BytecodeOffset
 bytecodeOffset
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 [
 [
 nodiscard
@@ -24890,8 +24887,6 @@ size_t
 tryNoteIndex
 )
 ;
-#
-endif
 /
 /
 Load

@@ -7150,9 +7150,6 @@ ContinuationKind
 kind
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 This
@@ -7199,8 +7196,6 @@ StackHeight
 stackBase
 )
 ;
-#
-endif
 Stk
 captureStackResult
 (
@@ -10970,9 +10965,6 @@ t
 )
 const
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 Abstracted
@@ -11066,8 +11058,6 @@ RegRef
 tagDst
 )
 ;
-#
-endif
 /
 /
 /
@@ -11966,9 +11956,6 @@ emitElse
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 Used
@@ -12092,8 +12079,6 @@ emitRethrow
 (
 )
 ;
-#
-endif
 [
 [
 nodiscard
@@ -12476,9 +12461,6 @@ ResultType
 type
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 [
 [
 nodiscard
@@ -12491,8 +12473,6 @@ ResultType
 type
 )
 ;
-#
-endif
 void
 doReturn
 (

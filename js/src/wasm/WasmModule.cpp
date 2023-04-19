@@ -4362,9 +4362,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 bool
 Module
 :
@@ -4534,8 +4531,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 Module
 :
@@ -6426,9 +6421,6 @@ false
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -6454,8 +6446,6 @@ tagIndex
 break
 ;
 }
-#
-endif
 }
 if
 (
@@ -6660,9 +6650,6 @@ with
 unique
 tags
 .
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -6679,8 +6666,6 @@ return
 false
 ;
 }
-#
-endif
 /
 /
 Note

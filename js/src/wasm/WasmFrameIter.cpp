@@ -12620,12 +12620,6 @@ wasm
 )
 "
 ;
-#
-if
-defined
-(
-ENABLE_WASM_EXCEPTIONS
-)
 case
 SymbolicAddress
 :
@@ -12664,8 +12658,6 @@ wasm
 )
 "
 ;
-#
-endif
 case
 SymbolicAddress
 :

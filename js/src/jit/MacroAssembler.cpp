@@ -25440,9 +25440,6 @@ bytecodeOffset
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 [
 [
 nodiscard
@@ -25485,8 +25482,6 @@ tryNoteIndex
 )
 ;
 }
-#
-endif
 std
 :
 :

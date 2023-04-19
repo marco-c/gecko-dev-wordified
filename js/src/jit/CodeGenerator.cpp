@@ -56898,9 +56898,6 @@ callBase
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 If
@@ -56982,8 +56979,6 @@ currentOffset
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 (
@@ -57789,9 +57784,6 @@ switchRealm
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 inTry
@@ -57972,8 +57964,6 @@ FallthroughBranchIndex
 )
 ;
 }
-#
-endif
 }
 void
 CodeGenerator

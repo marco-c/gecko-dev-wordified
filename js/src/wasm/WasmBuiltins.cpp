@@ -1721,9 +1721,6 @@ _END
 }
 }
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 const
 SymbolicAddressSignature
 SASigExceptionNew
@@ -1762,8 +1759,6 @@ _END
 }
 }
 ;
-#
-endif
 const
 SymbolicAddressSignature
 SASigArrayNew
@@ -2867,9 +2862,6 @@ catchable
 by
 wasm
 .
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 bool
 HasCatchableException
@@ -3121,8 +3113,6 @@ return
 false
 ;
 }
-#
-endif
 /
 /
 Unwind
@@ -3547,9 +3537,6 @@ object
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 JitActivation
 *
 activation
@@ -3576,8 +3563,6 @@ cx
 exn
 )
 ;
-#
-endif
 for
 (
 ;
@@ -3635,9 +3620,6 @@ realm
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 Only
@@ -3913,8 +3895,6 @@ true
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -8971,12 +8951,6 @@ InlineTypedObject
 :
 class_
 ;
-#
-if
-defined
-(
-ENABLE_WASM_EXCEPTIONS
-)
 case
 SymbolicAddress
 :
@@ -9045,8 +9019,6 @@ throwException
 abiType
 )
 ;
-#
-endif
 #
 ifdef
 WASM_CODEGEN_DEBUG
@@ -10052,9 +10024,6 @@ SymbolicAddress
 :
 StructNew
 :
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 SymbolicAddress
 :
@@ -10067,8 +10036,6 @@ SymbolicAddress
 :
 ThrowException
 :
-#
-endif
 case
 SymbolicAddress
 :
@@ -12087,9 +12054,6 @@ empty
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 MOZ_ASSERT
 (
 masm
@@ -12103,8 +12067,6 @@ empty
 )
 )
 ;
-#
-endif
 if
 (
 !

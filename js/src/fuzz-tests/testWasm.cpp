@@ -1910,16 +1910,11 @@ currentGlobalExportId
 =
 0
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 size_t
 currentTagExportId
 =
 0
 ;
-#
-endif
 for
 (
 const
@@ -2333,9 +2328,6 @@ return
 }
 break
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -2375,8 +2367,6 @@ return
 }
 break
 ;
-#
-endif
 }
 }
 }

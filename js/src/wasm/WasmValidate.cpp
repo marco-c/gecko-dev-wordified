@@ -8919,9 +8919,6 @@ nothing
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 uint16_t
 (
@@ -9223,8 +9220,6 @@ unusedDepth
 )
 ;
 }
-#
-endif
 case
 uint16_t
 (
@@ -14014,9 +14009,6 @@ true
 }
 #
 ifdef
-ENABLE_WASM_EXCEPTIONS
-#
-ifdef
 WASM_PRIVATE_REFTYPES
 static
 bool
@@ -14301,8 +14293,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 DecodeImport
@@ -14728,9 +14718,6 @@ globals
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -14901,8 +14888,6 @@ tags
 break
 ;
 }
-#
-endif
 default
 :
 return
@@ -15918,9 +15903,6 @@ global
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 bool
 DecodeTagSection
@@ -16233,8 +16215,6 @@ tag
 )
 ;
 }
-#
-endif
 using
 CStringSet
 =
@@ -16879,9 +16859,6 @@ Global
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 DefinitionKind
 :
@@ -17013,8 +16990,6 @@ Tag
 )
 ;
 }
-#
-endif
 default
 :
 return
@@ -19269,9 +19244,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -19286,8 +19258,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 !

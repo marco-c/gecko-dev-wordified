@@ -8697,9 +8697,6 @@ type
 ;
 }
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 This
@@ -8867,8 +8864,6 @@ type
 )
 ;
 }
-#
-endif
 Stk
 BaseCompiler
 :
@@ -12575,9 +12570,6 @@ bytes
 /
 Exception
 handling
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 /
 /
 Abstracted
@@ -12817,8 +12809,6 @@ pendingAddr
 )
 ;
 }
-#
-endif
 /
 /
 /
@@ -24546,9 +24536,6 @@ jumps
 to
 it
 .
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -24561,8 +24548,6 @@ return
 false
 ;
 }
-#
-endif
 iter_
 .
 popEnd
@@ -24719,9 +24704,6 @@ popEnd
 ;
 break
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 LabelKind
 :
@@ -24761,8 +24743,6 @@ popEnd
 ;
 break
 ;
-#
-endif
 }
 return
 true
@@ -25694,9 +25674,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 bool
 BaseCompiler
 :
@@ -29237,8 +29214,6 @@ lineOrBytecode
 )
 ;
 }
-#
-endif
 bool
 BaseCompiler
 :
@@ -52692,9 +52667,6 @@ emitElse
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 case
 uint16_t
 (
@@ -52921,8 +52893,6 @@ emitRethrow
 )
 )
 ;
-#
-endif
 case
 uint16_t
 (
