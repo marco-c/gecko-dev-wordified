@@ -2770,13 +2770,15 @@ ep
 MOZ_ASSERT
 (
 ep
->
+=
 =
 chars
 .
 begin
 (
 )
++
+i
 )
 ;
 return
