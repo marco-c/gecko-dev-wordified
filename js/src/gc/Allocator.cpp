@@ -4615,8 +4615,6 @@ count
 (
 )
 <
-tunables
-.
 minEmptyChunkCount
 (
 lock
