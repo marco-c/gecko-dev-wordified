@@ -324,8 +324,8 @@ uint32_t
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -404,12 +404,10 @@ uint32_t
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 enum
 UIStateChangeType
 {

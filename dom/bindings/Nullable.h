@@ -160,8 +160,8 @@ nsCycleCollectionTraversalCallback
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -704,12 +704,10 @@ Value
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

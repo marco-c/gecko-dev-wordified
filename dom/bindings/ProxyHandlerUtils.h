@@ -227,8 +227,8 @@ js
 StringIsArrayIndex
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 extern
@@ -513,12 +513,10 @@ UINT32_MAX
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

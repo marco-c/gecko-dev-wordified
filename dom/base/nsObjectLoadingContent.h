@@ -260,8 +260,8 @@ nsFrameLoader
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -299,12 +299,10 @@ XULFrameElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 class
 nsObjectLoadingContent
 :

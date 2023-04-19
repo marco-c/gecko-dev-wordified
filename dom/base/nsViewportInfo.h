@@ -87,8 +87,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -103,11 +103,13 @@ Cover
 }
 ;
 }
-}
 /
 /
 namespace
 mozilla
+:
+:
+dom
 /
 *
 *

@@ -197,8 +197,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -214,12 +214,10 @@ BrowserChildMessageManager
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 class
 SandboxPrivate
 ;

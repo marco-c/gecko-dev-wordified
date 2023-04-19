@@ -239,8 +239,8 @@ already_AddRefed
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -250,12 +250,10 @@ Document
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 class
 nsNodeInfoManager
 final

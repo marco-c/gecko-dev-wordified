@@ -309,8 +309,8 @@ JSCLASS_IS_DOMIFACEANDPROTOJSCLASS
 JSCLASS_USERBIT2
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -5110,12 +5110,10 @@ toPrivate
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

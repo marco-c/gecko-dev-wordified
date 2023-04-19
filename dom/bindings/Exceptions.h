@@ -179,8 +179,8 @@ already_AddRefed
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -496,11 +496,9 @@ exceptions
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

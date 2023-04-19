@@ -161,8 +161,8 @@ namespace
 hal
 namespace
 dom
-{
-namespace
+:
+:
 battery
 {
 class
@@ -404,12 +404,10 @@ mRemainingTime
 /
 /
 namespace
-battery
-}
-/
-/
-namespace
 dom
+:
+:
+battery
 }
 /
 /
