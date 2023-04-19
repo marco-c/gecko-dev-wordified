@@ -359,6 +359,9 @@ FileReader
 FormData
 "
 "
+Headers
+"
+"
 indexedDB
 "
 "
@@ -405,6 +408,7 @@ Element
 Event
 FileReader
 FormData
+Headers
 indexedDB
 InspectorUtils
 Node
@@ -1405,6 +1409,7 @@ DOMRect
 Element
 FileReader
 FormData
+Headers
 IOUtils
 isWorker
 :
