@@ -711,6 +711,12 @@ PaintFilteredFrame
 nsIFrame
 *
 aFilteredFrame
+Span
+<
+const
+StyleFilter
+>
+aFilterChain
 gfxContext
 *
 aCtx

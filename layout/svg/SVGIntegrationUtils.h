@@ -1496,6 +1496,12 @@ const
 PaintFramesParams
 &
 aParams
+Span
+<
+const
+StyleFilter
+>
+aFilters
 const
 SVGFilterPaintCallback
 &
