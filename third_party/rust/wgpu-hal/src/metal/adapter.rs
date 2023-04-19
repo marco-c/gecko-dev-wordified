@@ -4361,6 +4361,11 @@ F
 :
 :
 DEPTH32FLOAT_STENCIL8
+|
+F
+:
+:
+MULTI_DRAW_INDIRECT
 ;
 features
 .
@@ -4884,6 +4889,11 @@ max_threads_per_group
 max_compute_workgroups_per_dimension
 :
 0xFFFF
+max_buffer_size
+:
+self
+.
+max_buffer_size
 }
 alignments
 :

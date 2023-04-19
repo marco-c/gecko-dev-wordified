@@ -1208,8 +1208,6 @@ type_arena
 const_arena
 )
 ?
-.
-0
 ;
 let
 size

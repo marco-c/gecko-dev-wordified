@@ -1612,6 +1612,8 @@ color_targets
 :
 &
 [
+Some
+(
 wgt
 :
 :
@@ -1646,6 +1648,7 @@ default
 (
 )
 }
+)
 ]
 multiview
 :
@@ -4100,8 +4103,7 @@ surface
 .
 acquire_texture
 (
-!
-0
+None
 )
 .
 unwrap
@@ -4314,6 +4316,8 @@ color_attachments
 :
 &
 [
+Some
+(
 hal
 :
 :
@@ -4381,6 +4385,7 @@ a
 0
 }
 }
+)
 ]
 depth_stencil_attachment
 :

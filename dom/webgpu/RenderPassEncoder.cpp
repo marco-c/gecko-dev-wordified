@@ -617,7 +617,7 @@ Length
 (
 )
 >
-WGPUMAX_COLOR_TARGETS
+WGPUMAX_COLOR_ATTACHMENTS
 )
 {
 aParent
@@ -656,7 +656,7 @@ ffi
 :
 :
 WGPURenderPassColorAttachment
-WGPUMAX_COLOR_TARGETS
+WGPUMAX_COLOR_ATTACHMENTS
 >
 colorDescs
 =

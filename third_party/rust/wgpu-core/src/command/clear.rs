@@ -2993,6 +2993,8 @@ is_color
 color_attachments_tmp
 =
 [
+Some
+(
 hal
 :
 :
@@ -3046,6 +3048,7 @@ Color
 :
 TRANSPARENT
 }
+)
 ]
 ;
 (
