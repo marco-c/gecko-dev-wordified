@@ -1369,8 +1369,6 @@ commandLine
 handleFlagWithParam
 (
 "
--
--
 targeting
 -
 snapshot
@@ -1400,7 +1398,7 @@ log
 Saw
 -
 -
-target
+targeting
 -
 snapshot
 read
