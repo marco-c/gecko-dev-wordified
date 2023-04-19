@@ -2704,6 +2704,9 @@ getManifestPermissions
 manifest
 :
 {
+manifest_version
+:
+3
 permissions
 :
 [
@@ -2777,6 +2780,9 @@ getManifestPermissions
 manifest
 :
 {
+manifest_version
+:
+3
 permissions
 :
 [
@@ -2875,6 +2881,9 @@ getManifestPermissions
 manifest
 :
 {
+manifest_version
+:
+3
 permissions
 :
 [
