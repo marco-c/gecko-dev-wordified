@@ -2411,7 +2411,6 @@ refcounted
 .
 class
 GZWriterWrapper
-final
 :
 public
 JSONWriteFunc
@@ -2444,7 +2443,7 @@ char
 &
 aStr
 )
-final
+override
 {
 /
 /
@@ -3068,7 +3067,7 @@ rv
 static_cast
 <
 GZWriterWrapper
-&
+*
 >
 (
 mWriter
@@ -3078,7 +3077,8 @@ WriteFunc
 (
 )
 )
-.
+-
+>
 Finish
 (
 )

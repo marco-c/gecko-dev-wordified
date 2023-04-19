@@ -335,7 +335,6 @@ sSingleton
 ;
 class
 FpWriteFunc
-final
 :
 public
 mozilla
@@ -429,7 +428,7 @@ char
 &
 aStr
 )
-final
+override
 {
 for
 (

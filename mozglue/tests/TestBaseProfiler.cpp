@@ -9599,7 +9599,6 @@ n
 }
 struct
 StringWriteFunc
-final
 :
 public
 JSONWriteFunc
@@ -9625,7 +9624,7 @@ char
 &
 aStr
 )
-final
+override
 {
 mString
 .
@@ -9677,7 +9676,7 @@ actual
 static_cast
 <
 StringWriteFunc
-&
+*
 >
 (
 aWriter
@@ -9686,7 +9685,8 @@ WriteFunc
 (
 )
 )
-.
+-
+>
 mString
 ;
 if
