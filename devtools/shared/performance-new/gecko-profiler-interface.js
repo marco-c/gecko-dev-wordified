@@ -438,6 +438,9 @@ cpu
 "
 responsiveness
 "
+"
+leaf
+"
 ]
 threads
 :

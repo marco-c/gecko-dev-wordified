@@ -39572,6 +39572,14 @@ baseprofiler
 ProfilerFeature
 :
 :
+Leaf
+|
+baseprofiler
+:
+:
+ProfilerFeature
+:
+:
 StackWalk
 ;
 baseprofiler
