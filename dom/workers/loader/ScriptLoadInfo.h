@@ -221,6 +221,12 @@ ScriptLoadInfo
 nsString
 mURL
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mURI
+;
 /
 /
 This

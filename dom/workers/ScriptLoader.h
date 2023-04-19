@@ -1434,6 +1434,13 @@ ScriptLoadInfo
 >
 aLoadInfos
 const
+mozilla
+:
+:
+Encoding
+*
+aDocumentEncoding
+const
 Maybe
 <
 ClientInfo
@@ -1851,6 +1858,13 @@ aWorkerScriptType
 ErrorResult
 &
 aRv
+const
+mozilla
+:
+:
+Encoding
+*
+aDocumentEncoding
 )
 ;
 void
