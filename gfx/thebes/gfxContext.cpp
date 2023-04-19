@@ -3147,8 +3147,6 @@ int
 ndash
 Float
 offset
-Float
-devPxScale
 )
 {
 CURRENTSTATE_CHANGED
@@ -3198,8 +3196,6 @@ dashes
 [
 i
 ]
-*
-devPxScale
 ;
 }
 state
@@ -3217,8 +3213,6 @@ strokeOptions
 mDashOffset
 =
 offset
-*
-devPxScale
 ;
 state
 .
