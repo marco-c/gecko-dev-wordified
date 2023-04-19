@@ -141,6 +141,9 @@ this
 "
 fetch
 "
+"
+URL
+"
 ]
 )
 ;
@@ -148,6 +151,7 @@ fetch
 *
 globals
 fetch
+URL
 *
 /
 var

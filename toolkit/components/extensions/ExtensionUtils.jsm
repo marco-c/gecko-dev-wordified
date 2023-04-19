@@ -195,6 +195,9 @@ this
 "
 fetch
 "
+"
+btoa
+"
 ]
 )
 ;
