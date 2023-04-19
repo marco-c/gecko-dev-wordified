@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 RemoteSettings
 :
@@ -339,6 +345,8 @@ isParentProcess
 let
 rs
 =
+lazy
+.
 RemoteSettings
 (
 COLLECTION_NAME

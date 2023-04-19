@@ -195,11 +195,17 @@ contentblocking
 trackers_blocked_count
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 DB_PATH
 "
@@ -235,7 +241,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 social_enabled
 "
@@ -255,7 +261,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 milestoneMessagingEnabled
 "
@@ -277,7 +283,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 milestones
 "
@@ -306,7 +312,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 oldMilestone
 "
@@ -356,7 +362,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 MILESTONE_UPDATE_INTERVAL
 "
@@ -386,7 +392,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -822,6 +828,8 @@ openConnection
 {
 path
 :
+lazy
+.
 DB_PATH
 }
 )
@@ -949,6 +957,8 @@ throw
 e
 ;
 }
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -1071,6 +1081,8 @@ let
 task
 =
 new
+lazy
+.
 DeferredTask
 (
 async
@@ -1216,6 +1228,8 @@ or
 cookie
 is
 blocked
+.
+lazy
 .
 social_enabled
 &
@@ -1840,6 +1854,8 @@ reasons
 if
 (
 !
+lazy
+.
 milestoneMessagingEnabled
 |
 |
@@ -1859,6 +1875,8 @@ this
 .
 lastChecked
 <
+lazy
+.
 MILESTONE_UPDATE_INTERVAL
 )
 )
@@ -1904,6 +1922,8 @@ index
 milestone
 ]
 of
+lazy
+.
 milestones
 .
 entries
@@ -1925,6 +1945,8 @@ milestone
 ;
 nextMilestone
 =
+lazy
+.
 milestones
 [
 index
@@ -1982,9 +2004,13 @@ totalSaved
 &
 (
 !
+lazy
+.
 oldMilestone
 |
 |
+lazy
+.
 oldMilestone
 <
 reachedMilestone

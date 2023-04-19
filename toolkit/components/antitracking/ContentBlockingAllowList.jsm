@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -324,6 +330,8 @@ browser
 )
 {
 return
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -348,6 +356,8 @@ browser
 )
 {
 return
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
