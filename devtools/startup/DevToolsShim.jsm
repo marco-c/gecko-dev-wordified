@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 DevToolsStartup
 "
@@ -181,7 +187,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Telemetry
 "
@@ -404,6 +410,8 @@ this
 _telemetry
 =
 new
+lazy
+.
 Telemetry
 (
 )
@@ -1165,6 +1173,8 @@ isDevToolsUser
 )
 {
 return
+lazy
+.
 DevToolsStartup
 .
 isDevToolsUser
@@ -1300,6 +1310,8 @@ isDisabledByPolicy
 )
 )
 {
+lazy
+.
 DevToolsStartup
 .
 openInstallPage
@@ -1521,6 +1533,8 @@ isDisabledByPolicy
 )
 )
 {
+lazy
+.
 DevToolsStartup
 .
 openInstallPage
@@ -1850,6 +1864,8 @@ isInitialized
 )
 )
 {
+lazy
+.
 DevToolsStartup
 .
 initDevTools

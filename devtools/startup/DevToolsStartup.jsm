@@ -331,11 +331,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CustomizableUI
 "
@@ -357,7 +363,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CustomizableWidgets
 "
@@ -379,7 +385,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -402,7 +408,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ProfilerMenuButton
 "
@@ -435,7 +441,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WebChannel
 "
@@ -458,7 +464,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PanelMultiView
 "
@@ -505,7 +511,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Telemetry
 "
@@ -577,7 +583,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 KeyShortcutsBundle
 "
@@ -735,6 +741,8 @@ id
 try
 {
 return
+lazy
+.
 KeyShortcutsBundle
 .
 formatValueSync
@@ -774,7 +782,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 KeyShortcuts
 "
@@ -1415,6 +1423,8 @@ shift
 }
 if
 (
+lazy
+.
 ProfilerMenuButton
 .
 isInNavbar
@@ -1940,7 +1950,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ProfilerPopupBackground
 "
@@ -2142,6 +2152,8 @@ this
 _telemetry
 =
 new
+lazy
+.
 Telemetry
 (
 )
@@ -3411,6 +3423,8 @@ button
 const
 widget
 =
+lazy
+.
 CustomizableUI
 .
 getWidget
@@ -3428,6 +3442,8 @@ widget
 provider
 =
 =
+lazy
+.
 CustomizableUI
 .
 PROVIDER_API
@@ -3507,6 +3523,8 @@ ownerDocument
 const
 developerItems
 =
+lazy
+.
 PanelMultiView
 .
 getViewNode
@@ -3617,6 +3635,8 @@ defaultView
 }
 }
 ;
+lazy
+.
 CustomizableUI
 .
 createWidget
@@ -3624,6 +3644,8 @@ createWidget
 item
 )
 ;
+lazy
+.
 CustomizableWidgets
 .
 push
@@ -3739,6 +3761,8 @@ menu
 children
 ]
 ;
+lazy
+.
 CustomizableUI
 .
 clearSubview
@@ -3746,6 +3770,8 @@ clearSubview
 subview
 )
 ;
+lazy
+.
 CustomizableUI
 .
 fillSubviewFromMenuItems
@@ -3928,6 +3954,8 @@ the
 CustomizableUI
 widget
 .
+lazy
+.
 ProfilerMenuButton
 .
 initialize
@@ -3972,6 +4000,8 @@ enable
 =
 >
 {
+lazy
+.
 ProfilerMenuButton
 .
 initialize
@@ -4199,6 +4229,8 @@ urlPref
 channel
 =
 new
+lazy
+.
 WebChannel
 (
 "
@@ -4246,6 +4278,8 @@ gets
 loaded
 at
 startup
+.
+lazy
 .
 ProfilerPopupBackground
 .
@@ -4545,6 +4579,8 @@ this
 attachKeys
 (
 doc
+lazy
+.
 KeyShortcuts
 keyset
 )
@@ -5092,6 +5128,8 @@ profilerStartStop
 "
 :
 {
+lazy
+.
 ProfilerPopupBackground
 .
 toggleProfiler
@@ -5110,6 +5148,8 @@ profilerCapture
 "
 :
 {
+lazy
+.
 ProfilerPopupBackground
 .
 captureProfile
@@ -7227,6 +7267,8 @@ KeyShortcuts
 )
 {
 return
+lazy
+.
 KeyShortcuts
 ;
 }
@@ -7956,6 +7998,8 @@ cache
 key
 *
 /
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
