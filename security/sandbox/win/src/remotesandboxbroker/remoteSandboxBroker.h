@@ -404,6 +404,17 @@ aHandle
 )
 override
 ;
+bool
+IsWin32kLockedDown
+(
+)
+final
+{
+return
+false
+;
+}
+;
 private
 :
 virtual
