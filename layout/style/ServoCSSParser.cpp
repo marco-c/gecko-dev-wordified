@@ -395,13 +395,13 @@ aUrl
 StyleFontFamilyList
 &
 aList
-StyleComputedFontStyleDescriptor
+StyleFontStyle
 &
 aStyle
-float
+StyleFontStretch
 &
 aStretch
-float
+StyleFontWeight
 &
 aWeight
 float

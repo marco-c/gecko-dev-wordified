@@ -1265,9 +1265,7 @@ Min
 FontWeight
 :
 :
-Normal
-(
-)
+NORMAL
 &
 &
 Weight
@@ -1282,9 +1280,7 @@ Max
 FontWeight
 :
 :
-Normal
-(
-)
+NORMAL
 &
 &
 Stretch
@@ -1299,9 +1295,7 @@ Min
 FontStretch
 :
 :
-Normal
-(
-)
+NORMAL
 &
 &
 Stretch
@@ -1316,9 +1310,7 @@ Max
 FontStretch
 :
 :
-Normal
-(
-)
+NORMAL
 ;
 }
 /
@@ -3736,6 +3728,9 @@ mWeightRange
 WeightRange
 (
 FontWeight
+:
+:
+FromInt
 (
 500
 )
@@ -3749,9 +3744,7 @@ StretchRange
 FontStretch
 :
 :
-Normal
-(
-)
+NORMAL
 )
 ;
 SlantStyleRange
@@ -3762,9 +3755,7 @@ SlantStyleRange
 FontSlantStyle
 :
 :
-Normal
-(
-)
+NORMAL
 )
 ;
 /
