@@ -321,10 +321,12 @@ start
 <
 0
 )
+{
 return
 -
 1
 ;
+}
 /
 /
 And
@@ -388,10 +390,12 @@ privateExt
 <
 start
 )
+{
 return
 -
 1
 ;
+}
 return
 start
 ;
@@ -644,8 +648,10 @@ i
 =
 HYPHEN
 )
+{
 continue
 ;
+}
 if
 (
 callFunction
@@ -661,9 +667,11 @@ i
 =
 HYPHEN
 )
+{
 return
 i
 ;
+}
 /
 /
 Skip
@@ -797,9 +805,11 @@ start
 <
 0
 )
+{
 return
 locale
 ;
+}
 var
 end
 =
@@ -1052,9 +1062,11 @@ c
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1121,11 +1133,13 @@ localeCache
 runtimeDefaultLocale
 )
 )
+{
 return
 localeCache
 .
 defaultLocale
 ;
+}
 /
 /
 If
@@ -1265,10 +1279,12 @@ locales
 =
 undefined
 )
+{
 return
 [
 ]
 ;
+}
 /
 /
 Step
@@ -1446,11 +1462,13 @@ kValue
 )
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INVALID_LOCALES_ELEMENT
 )
 ;
+}
 /
 /
 Steps
@@ -1513,6 +1531,7 @@ tag
 -
 1
 )
+{
 DefineDataProperty
 (
 seen
@@ -1522,6 +1541,7 @@ length
 tag
 )
 ;
+}
 }
 /
 /
@@ -1886,6 +1906,7 @@ locale
 =
 noExtensionsLocale
 )
+{
 result
 .
 extension
@@ -1895,6 +1916,7 @@ getUnicodeExtensions
 locale
 )
 ;
+}
 /
 /
 Step
@@ -2343,8 +2365,10 @@ len
 =
 2
 )
+{
 break
 ;
+}
 /
 /
 Step
@@ -2437,10 +2461,12 @@ extension
 searchValue
 )
 )
+{
 return
 "
 "
 ;
+}
 /
 /
 Step
@@ -3056,6 +3082,7 @@ keyLocaleData
 =
 undefined
 )
+{
 keyLocaleData
 =
 callFunction
@@ -3068,6 +3095,7 @@ null
 foundLocale
 )
 ;
+}
 /
 /
 Step
@@ -3220,6 +3248,7 @@ length
 >
 2
 )
+{
 foundLocale
 =
 addUnicodeExtension
@@ -3228,6 +3257,7 @@ foundLocale
 supportedExtension
 )
 ;
+}
 /
 /
 Step
@@ -3672,6 +3702,7 @@ availableLocale
 =
 undefined
 )
+{
 DefineDataProperty
 (
 subset
@@ -3681,6 +3712,7 @@ length
 locale
 )
 ;
+}
 }
 /
 /
@@ -3911,12 +3943,14 @@ best
 fit
 "
 )
+{
 ThrowRangeError
 (
 JSMSG_INVALID_LOCALE_MATCHER
 matcher
 )
 ;
+}
 }
 }
 /
@@ -4071,6 +4105,7 @@ type
 boolean
 "
 )
+{
 value
 =
 ToBoolean
@@ -4078,6 +4113,7 @@ ToBoolean
 value
 )
 ;
+}
 else
 if
 (
@@ -4089,6 +4125,7 @@ type
 string
 "
 )
+{
 value
 =
 ToString
@@ -4096,7 +4133,9 @@ ToString
 value
 )
 ;
+}
 else
+{
 assert
 (
 false
@@ -4105,6 +4144,7 @@ GetOption
 "
 )
 ;
+}
 /
 /
 Step
@@ -4133,6 +4173,7 @@ value
 -
 1
 )
+{
 ThrowRangeError
 (
 JSMSG_INVALID_OPTION_VALUE
@@ -4144,6 +4185,7 @@ value
 "
 )
 ;
+}
 /
 /
 Step
@@ -4256,9 +4298,11 @@ value
 =
 undefined
 )
+{
 return
 fallback
 ;
+}
 /
 /
 Step
@@ -4272,9 +4316,11 @@ value
 =
 true
 )
+{
 return
 trueValue
 ;
+}
 /
 /
 Steps
@@ -4287,9 +4333,11 @@ if
 !
 value
 )
+{
 return
 falsyValue
 ;
+}
 /
 /
 Step
@@ -4321,9 +4369,11 @@ value
 -
 1
 )
+{
 return
 fallback
 ;
+}
 /
 /
 Step
@@ -4517,9 +4567,11 @@ value
 =
 undefined
 )
+{
 return
 fallback
 ;
+}
 /
 /
 Step
@@ -4554,12 +4606,14 @@ value
 >
 maximum
 )
+{
 ThrowRangeError
 (
 JSMSG_INVALID_DIGITS_VALUE
 value
 )
 ;
+}
 /
 /
 Step
@@ -5423,9 +5477,11 @@ if
 (
 lazyData
 )
+{
 return
 null
 ;
+}
 assert
 (
 IsObject
@@ -5938,9 +5994,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 /
 /
 Otherwise
@@ -5970,6 +6028,7 @@ type
 Collator
 "
 )
+{
 internalProps
 =
 resolveCollatorInternals
@@ -5979,6 +6038,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -5990,6 +6050,7 @@ type
 DateTimeFormat
 "
 )
+{
 internalProps
 =
 resolveDateTimeFormatInternals
@@ -5999,6 +6060,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -6010,6 +6072,7 @@ type
 DisplayNames
 "
 )
+{
 internalProps
 =
 resolveDisplayNamesInternals
@@ -6019,6 +6082,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -6030,6 +6094,7 @@ type
 ListFormat
 "
 )
+{
 internalProps
 =
 resolveListFormatInternals
@@ -6039,6 +6104,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -6050,6 +6116,7 @@ type
 NumberFormat
 "
 )
+{
 internalProps
 =
 resolveNumberFormatInternals
@@ -6059,6 +6126,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -6070,6 +6138,7 @@ type
 PluralRules
 "
 )
+{
 internalProps
 =
 resolvePluralRulesInternals
@@ -6079,7 +6148,9 @@ internals
 lazyData
 )
 ;
+}
 else
+{
 internalProps
 =
 resolveRelativeTimeFormatInternals
@@ -6089,6 +6160,7 @@ internals
 lazyData
 )
 ;
+}
 setInternalProperties
 (
 internals
