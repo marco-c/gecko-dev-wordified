@@ -11627,6 +11627,14 @@ true
 }
 if
 (
+StaticPrefs
+:
+:
+dom_webidl_crosscontext_hasinstance_enabled
+(
+)
+&
+&
 id
 .
 isWellKnownSymbol
