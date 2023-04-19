@@ -40,7 +40,10 @@ ErrorKind
 stream
 :
 :
+{
 Event
+OwnedEvent
+}
 u64_to_usize
 Uid
 }
@@ -1625,7 +1628,7 @@ Result
 <
 Option
 <
-Event
+OwnedEvent
 >
 Error
 >
@@ -2291,6 +2294,10 @@ read_data
 len
 )
 ?
+.
+into
+(
+)
 )
 )
 }
@@ -2363,6 +2370,10 @@ Event
 String
 (
 string
+.
+into
+(
+)
 )
 )
 }
@@ -2468,6 +2479,10 @@ Event
 String
 (
 string
+.
+into
+(
+)
 )
 )
 }
@@ -3208,7 +3223,7 @@ Item
 =
 Result
 <
-Event
+OwnedEvent
 Error
 >
 ;
@@ -3225,7 +3240,7 @@ Option
 <
 Result
 <
-Event
+OwnedEvent
 Error
 >
 >
@@ -3735,6 +3750,10 @@ vec
 0
 0
 ]
+.
+into
+(
+)
 )
 EndCollection
 ]
@@ -3853,7 +3872,7 @@ or
 better
 "
 .
-to_owned
+into
 (
 )
 )
@@ -3909,6 +3928,10 @@ assert_eq
 !
 (
 poem
+.
+to_mut
+(
+)
 .
 pop
 (

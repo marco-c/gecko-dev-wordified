@@ -56,9 +56,7 @@ dependencies
 plist
 =
 "
-0
-.
-5
+1
 "
 /
 /
@@ -665,6 +663,13 @@ Integer
 ;
 pub
 use
+stream
+:
+:
+XmlWriteOptions
+;
+pub
+use
 uid
 :
 :
@@ -802,6 +807,7 @@ to_file_binary
 to_file_xml
 to_writer_binary
 to_writer_xml
+to_writer_xml_with_options
 }
 }
 ;

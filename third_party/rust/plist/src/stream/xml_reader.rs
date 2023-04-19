@@ -63,7 +63,10 @@ FilePosition
 stream
 :
 :
+{
 Event
+OwnedEvent
+}
 Date
 Integer
 }
@@ -475,7 +478,7 @@ Result
 <
 Option
 <
-Event
+OwnedEvent
 >
 Error
 >
@@ -620,6 +623,10 @@ read_content
 (
 )
 ?
+.
+into
+(
+)
 )
 )
 )
@@ -743,6 +750,10 @@ Event
 Data
 (
 data
+.
+into
+(
+)
 )
 )
 )
@@ -967,6 +978,10 @@ read_content
 (
 )
 ?
+.
+into
+(
+)
 )
 )
 )
@@ -1330,7 +1345,7 @@ Item
 =
 Result
 <
-Event
+OwnedEvent
 Error
 >
 ;
@@ -1347,7 +1362,7 @@ Option
 <
 Result
 <
-Event
+OwnedEvent
 Error
 >
 >
@@ -1786,7 +1801,7 @@ String
 Author
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1797,7 +1812,7 @@ William
 Shakespeare
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1807,7 +1822,7 @@ String
 Lines
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1828,7 +1843,7 @@ an
 idiot
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1845,7 +1860,7 @@ nothing
 .
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1856,7 +1871,7 @@ String
 Death
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1874,7 +1889,7 @@ String
 Height
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1890,7 +1905,7 @@ String
 Data
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1915,6 +1930,10 @@ vec
 0
 0
 ]
+.
+into
+(
+)
 )
 String
 (
@@ -1922,7 +1941,7 @@ String
 Birthdate
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1959,7 +1978,7 @@ String
 Blank
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1968,7 +1987,7 @@ String
 "
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1978,7 +1997,7 @@ String
 BiggestNumber
 "
 .
-to_owned
+into
 (
 )
 )
@@ -1996,7 +2015,7 @@ String
 SmallestNumber
 "
 .
-to_owned
+into
 (
 )
 )
@@ -2017,7 +2036,7 @@ String
 HexademicalNumber
 "
 .
-to_owned
+into
 (
 )
 )
