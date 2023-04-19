@@ -41688,6 +41688,12 @@ ec
 cx
 )
 ;
+frontend
+:
+:
+NoScopeBindingCache
+scopeCache
+;
 Rooted
 <
 frontend
@@ -41742,6 +41748,8 @@ input
 get
 (
 )
+&
+scopeCache
 srcBuf
 )
 ;
@@ -41769,6 +41777,8 @@ input
 get
 (
 )
+&
+scopeCache
 srcBuf
 ScopeKind
 :

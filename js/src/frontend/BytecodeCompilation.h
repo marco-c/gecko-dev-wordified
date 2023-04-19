@@ -274,6 +274,9 @@ CompilationStencil
 struct
 ExtensibleCompilationStencil
 ;
+class
+ScopeBindingCache
+;
 extern
 already_AddRefed
 <
@@ -301,6 +304,9 @@ tempLifoAlloc
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -341,6 +347,9 @@ tempLifoAlloc
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -378,6 +387,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -412,6 +424,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -692,6 +707,9 @@ JS
 :
 NativeStackLimit
 stackLimit
+ScopeBindingCache
+*
+scopeCache
 CompilationStencil
 &
 context

@@ -1031,6 +1031,9 @@ ParseNode
 class
 TaggedParserAtomIndex
 ;
+class
+ScopeBindingCache
+;
 /
 /
 Compile
@@ -1166,6 +1169,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -1197,6 +1203,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -1231,6 +1240,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :
@@ -1262,6 +1274,9 @@ stackLimit
 CompilationInput
 &
 input
+ScopeBindingCache
+*
+scopeCache
 JS
 :
 :

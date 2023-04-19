@@ -26191,6 +26191,12 @@ tempLifoAlloc
 frontend
 :
 :
+NoScopeBindingCache
+scopeCache
+;
+frontend
+:
+:
 CompilationState
 compilationState
 (
@@ -26213,6 +26219,8 @@ init
 cx
 &
 ec
+&
+scopeCache
 )
 )
 {
