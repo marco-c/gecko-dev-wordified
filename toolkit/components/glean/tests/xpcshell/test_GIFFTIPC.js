@@ -258,7 +258,7 @@ aScalarName
 undefined
 ;
 }
-add_task
+add_setup
 (
 {
 skip_if

@@ -115,7 +115,7 @@ ms
 )
 ;
 }
-add_task
+add_setup
 (
 /
 *
