@@ -4113,6 +4113,11 @@ eventTarget
 ;
 }
 }
+if
+(
+aCallback
+)
+{
 /
 /
 if
@@ -4153,6 +4158,7 @@ eventTarget
 this
 )
 ;
+}
 return
 NS_OK
 ;
