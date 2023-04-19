@@ -919,6 +919,7 @@ ValveIndex
 OculusGo
 OculusTouch
 OculusTouch2
+OculusTouch3
 PicoGaze
 PicoG2
 PicoNeo2
