@@ -50680,10 +50680,6 @@ mIsBackground
 (
 false
 )
-mDesktopModeViewport
-(
-false
-)
 mIsRootOuterWindow
 (
 false

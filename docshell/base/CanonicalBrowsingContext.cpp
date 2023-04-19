@@ -2099,6 +2099,15 @@ GetDisplayMode
 )
 )
 ;
+txn
+.
+SetForceDesktopViewport
+(
+GetForceDesktopViewport
+(
+)
+)
+;
 /
 /
 As
