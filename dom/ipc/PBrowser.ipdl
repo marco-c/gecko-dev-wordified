@@ -1758,6 +1758,8 @@ PDocAccessible
 aParentDoc
 uint64_t
 aParentAcc
+MaybeDiscardedBrowsingContext
+aBrowsingContext
 uint32_t
 aMsaaID
 IAccessibleHolder

@@ -11128,6 +11128,12 @@ SendPDocAccessibleConstructor
 ipcDoc
 nullptr
 0
+mDocumentNode
+-
+>
+GetBrowsingContext
+(
+)
 childID
 holder
 )

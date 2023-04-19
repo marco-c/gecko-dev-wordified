@@ -7271,6 +7271,17 @@ SendPDocAccessibleConstructor
 ipcDoc
 parentIPCDoc
 id
+childDoc
+-
+>
+DocumentNode
+(
+)
+-
+>
+GetBrowsingContext
+(
+)
 0
 0
 )
