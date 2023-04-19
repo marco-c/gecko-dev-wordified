@@ -270,6 +270,11 @@ hidePopup
 await
 popupHiddenPromise
 ;
+await
+closeStream
+(
+)
+;
 }
 )
 ;
