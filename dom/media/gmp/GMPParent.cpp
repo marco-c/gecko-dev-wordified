@@ -6444,6 +6444,9 @@ dll
 ole32
 .
 dll
+oleaut32
+.
+dll
 "
 _ns
 ;
