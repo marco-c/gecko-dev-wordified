@@ -14,6 +14,14 @@ mode
 on
 -
 demand
+;
+skip
+-
+if
+:
+isLcovEnabled
+(
+)
 function
 foo
 (
