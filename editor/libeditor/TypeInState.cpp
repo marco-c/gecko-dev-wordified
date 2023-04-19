@@ -2573,7 +2573,7 @@ index
 ]
 -
 >
-value
+mAttributeValueOrCSSValue
 =
 aValue
 ;
@@ -2804,7 +2804,7 @@ index
 ]
 -
 >
-specifiedStyle
+mSpecifiedStyle
 =
 SpecifiedStyle
 :
@@ -3346,7 +3346,7 @@ outValue
 item
 -
 >
-value
+mAttributeValueOrCSSValue
 ;
 }
 outIndex
@@ -3568,7 +3568,7 @@ outValue
 item
 -
 >
-value
+mAttributeValueOrCSSValue
 ;
 }
 outIndex
