@@ -264,8 +264,8 @@ the
 attributes
 *
 param
-aStartContent
-node
+aStartAcc
+Accessible
 to
 start
 from
@@ -278,9 +278,9 @@ SetLiveContainerAttributes
 AccAttributes
 *
 aAttributes
-nsIContent
+Accessible
 *
-aStartContent
+aStartAcc
 )
 ;
 /
