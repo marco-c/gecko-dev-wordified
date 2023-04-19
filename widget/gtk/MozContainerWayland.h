@@ -572,6 +572,14 @@ MozContainer
 container
 )
 ;
+void
+moz_container_wayland_clear_waiting_to_show_flag
+(
+MozContainer
+*
+container
+)
+;
 #
 endif
 /
