@@ -149,11 +149,6 @@ EXPORTS
 =
 [
 "
-COLRFonts
-.
-h
-"
-"
 DrawMode
 .
 h
@@ -1057,11 +1052,6 @@ UNIFIED_SOURCES
 [
 "
 CJKCompatSVS
-.
-cpp
-"
-"
-COLRFonts
 .
 cpp
 "
