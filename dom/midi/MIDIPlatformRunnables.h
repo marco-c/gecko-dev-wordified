@@ -665,8 +665,10 @@ override
 ;
 private
 :
+RefPtr
+<
 MIDIPortParent
-*
+>
 mPort
 ;
 MIDIPortDeviceState
