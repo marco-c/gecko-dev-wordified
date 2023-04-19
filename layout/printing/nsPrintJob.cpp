@@ -3789,9 +3789,6 @@ mPrintSettings
 GetShrinkToFit
 (
 &
-printData
--
->
 mShrinkToFit
 )
 ;
@@ -6865,9 +6862,6 @@ required
 .
 if
 (
-printData
--
->
 mShrinkToFit
 )
 {
@@ -9201,9 +9195,6 @@ mParent
 {
 if
 (
-mPrt
--
->
 mShrinkToFit
 )
 {
@@ -9584,9 +9575,6 @@ the
 furthest
 if
 (
-mPrt
--
->
 mShrinkToFit
 &
 &

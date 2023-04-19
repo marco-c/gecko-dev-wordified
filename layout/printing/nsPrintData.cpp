@@ -394,10 +394,6 @@ mPreparingForPrint
 (
 false
 )
-mShrinkToFit
-(
-false
-)
 mNumPrintablePages
 (
 0

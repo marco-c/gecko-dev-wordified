@@ -587,9 +587,6 @@ mPreparingForPrint
 see
 comments
 above
-bool
-mShrinkToFit
-;
 int32_t
 mNumPrintablePages
 ;
