@@ -284,13 +284,6 @@ settings
 "
 ;
 const
-PREF_SETTINGS_DEFAULT_SIGNER
-=
-"
-default_signer
-"
-;
-const
 PREF_SETTINGS_SERVER_BACKOFF
 =
 "
