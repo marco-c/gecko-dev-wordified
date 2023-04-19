@@ -123,9 +123,9 @@ browser
 .
 urlbar
 .
-quickactions
+suggest
 .
-enabled
+quickactions
 "
 true
 ]

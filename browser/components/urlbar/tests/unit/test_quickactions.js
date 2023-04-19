@@ -142,9 +142,9 @@ UrlbarPrefs
 set
 (
 "
-quickactions
+suggest
 .
-enabled
+quickactions
 "
 true
 )
@@ -206,9 +206,9 @@ UrlbarPrefs
 clear
 (
 "
-quickactions
+suggest
 .
-enabled
+quickactions
 "
 )
 ;
@@ -287,9 +287,9 @@ UrlbarPrefs
 set
 (
 "
-quickactions
+suggest
 .
-enabled
+quickactions
 "
 false
 )
@@ -344,9 +344,9 @@ UrlbarPrefs
 set
 (
 "
-quickactions
+suggest
 .
-enabled
+quickactions
 "
 true
 )
