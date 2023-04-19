@@ -999,6 +999,14 @@ AbsolutelyPositionDropDown
 (
 )
 ;
+nscoord
+GetLongestOptionISize
+(
+gfxContext
+*
+)
+const
+;
 /
 /
 Helper
