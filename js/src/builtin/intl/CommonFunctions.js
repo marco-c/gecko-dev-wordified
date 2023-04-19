@@ -491,6 +491,12 @@ sequence
 "
 )
 ;
+/
+*
+global
+HYPHEN
+*
+/
 #
 define
 HYPHEN
