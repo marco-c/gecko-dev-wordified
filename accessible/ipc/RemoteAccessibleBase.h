@@ -1672,6 +1672,7 @@ Update
 aFields
 )
 ;
+}
 if
 (
 IsTextLeaf
@@ -1707,7 +1708,6 @@ InvalidateCachedHyperTextOffsets
 (
 )
 ;
-}
 }
 }
 }
