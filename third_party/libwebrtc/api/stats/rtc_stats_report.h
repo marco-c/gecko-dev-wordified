@@ -673,7 +673,7 @@ the
 stats
 in
 |
-victim
+other
 |
 leaving
 it
@@ -689,7 +689,7 @@ scoped_refptr
 <
 RTCStatsReport
 >
-victim
+other
 )
 ;
 /
