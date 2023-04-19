@@ -3082,7 +3082,11 @@ aValue
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 obj
 (
 aCx
@@ -3146,7 +3150,13 @@ key
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 value
 (
 aCx

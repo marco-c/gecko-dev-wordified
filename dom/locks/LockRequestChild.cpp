@@ -802,7 +802,13 @@ cx
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 reason
 (
 cx
