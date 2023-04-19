@@ -4695,6 +4695,10 @@ if
 (
 !
 initial
+|
+|
+!
+initial
 -
 >
 cloneFrom
