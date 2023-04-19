@@ -265,6 +265,9 @@ class
 BasicLayerManager
 ;
 class
+CanvasRenderer
+;
+class
 ImageClient
 ;
 class
@@ -1878,6 +1881,14 @@ WebRenderCanvasRendererAsync
 *
 CreateCanvasRenderer
 (
+)
+;
+bool
+SetCanvasRenderer
+(
+CanvasRenderer
+*
+aCanvasRenderer
 )
 ;
 void
