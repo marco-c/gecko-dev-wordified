@@ -23001,10 +23001,10 @@ aPanDistance
 mStartTouch
 )
 ;
-double
+float
 angle
 =
-atan2
+atan2f
 (
 vector
 .
@@ -23024,7 +23024,7 @@ pi
 ]
 angle
 =
-fabs
+fabsf
 (
 angle
 )
@@ -23112,7 +23112,7 @@ we
 are
 within
 the
-breakout
+lock
 angle
 from
 the
@@ -23137,7 +23137,7 @@ angle
 StaticPrefs
 :
 :
-apz_axis_lock_breakout_angle
+apz_axis_lock_lock_angle
 (
 )
 )
@@ -23207,7 +23207,7 @@ we
 are
 within
 the
-breakout
+lock
 angle
 from
 the
@@ -23232,7 +23232,7 @@ angle
 StaticPrefs
 :
 :
-apz_axis_lock_breakout_angle
+apz_axis_lock_lock_angle
 (
 )
 )
