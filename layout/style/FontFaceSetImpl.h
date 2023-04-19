@@ -703,9 +703,8 @@ void
 FlushUserFontSet
 (
 )
-=
-0
-;
+{
+}
 static
 nsPresContext
 *
