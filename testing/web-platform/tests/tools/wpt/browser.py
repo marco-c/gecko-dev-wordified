@@ -5100,19 +5100,6 @@ Mac
 bits
 =
 "
-64_m1
-"
-if
-uname
-.
-machine
-=
-=
-"
-arm64
-"
-else
-"
 64
 "
         
