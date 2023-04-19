@@ -979,7 +979,7 @@ zone
 gc
 :
 :
-HeapSize
+HeapSizeChild
 gcHeapSize
 ;
 /
