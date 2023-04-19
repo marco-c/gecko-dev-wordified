@@ -564,6 +564,7 @@ const
 openStatistics
 summary
 timingMarkers
+connector
 }
 =
 this
@@ -587,6 +588,15 @@ load
 }
 =
 timingMarkers
+;
+const
+toolbox
+=
+connector
+.
+getToolbox
+(
+)
 ;
 const
 countText
@@ -688,6 +698,11 @@ toolbar
 bottom
 "
 }
+!
+toolbox
+.
+isBrowserToolbox
+?
 button
 (
 {
@@ -729,6 +744,8 @@ icon
 }
 )
 )
+:
+null
 div
 (
 {
