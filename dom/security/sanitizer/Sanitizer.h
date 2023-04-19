@@ -286,6 +286,7 @@ mTreeSanitizer
 .
 WithWebSanitizerOptions
 (
+aGlobal
 aOptions
 )
 ;
