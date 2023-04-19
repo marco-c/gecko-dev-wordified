@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesSyncUtils
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -194,6 +185,7 @@ parents
 .
 *
 /
+export
 var
 PlacesSyncUtils
 =

@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesTestUtils
-"
-]
-;
 const
 lazy
 =
@@ -64,6 +55,7 @@ jsm
 "
 )
 ;
+export
 var
 PlacesTestUtils
 =

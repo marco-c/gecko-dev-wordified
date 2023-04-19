@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesUIUtils
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -2482,6 +2473,7 @@ _guid
 ;
 }
 }
+export
 var
 PlacesUIUtils
 =

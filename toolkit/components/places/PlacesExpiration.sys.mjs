@@ -2813,6 +2813,7 @@ DEBUG
 }
 }
 ;
+export
 function
 nsPlacesExpiration
 (
@@ -6234,13 +6235,4 @@ nsISupportsWeakReference
 ]
 )
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-nsPlacesExpiration
-"
-]
 ;

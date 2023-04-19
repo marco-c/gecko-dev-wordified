@@ -121,6 +121,7 @@ Tagging
 Service
 *
 /
+export
 function
 TaggingService
 (
@@ -3400,6 +3401,7 @@ _result
 /
 Implements
 nsIAutoCompleteSearch
+export
 function
 TagAutoCompleteSearch
 (
@@ -3589,16 +3591,4 @@ nsIAutoCompleteSearch
 ]
 )
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TaggingService
-"
-"
-TagAutoCompleteSearch
-"
-]
 ;

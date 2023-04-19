@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Interactions
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -3327,6 +3318,7 @@ nsISupportsWeakReference
 )
 ;
 }
+export
 const
 Interactions
 =

@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesTransactions
-"
-]
-;
 /
 *
 *
@@ -2850,6 +2841,7 @@ TransactionsHistoryArray
 )
 )
 ;
+export
 var
 PlacesTransactions
 =

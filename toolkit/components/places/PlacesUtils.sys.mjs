@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesUtils
-"
-]
-;
 const
 {
 AppConstants
@@ -2990,6 +2981,7 @@ visits
 }
 )
 ;
+export
 var
 PlacesUtils
 =

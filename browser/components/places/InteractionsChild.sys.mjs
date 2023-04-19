@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-InteractionsChild
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -169,6 +160,7 @@ parent
 .
 *
 /
+export
 class
 InteractionsChild
 extends

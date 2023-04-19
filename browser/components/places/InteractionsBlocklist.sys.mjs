@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-InteractionsBlocklist
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -2159,6 +2150,7 @@ toString
 ;
 }
 }
+export
 const
 InteractionsBlocklist
 =
