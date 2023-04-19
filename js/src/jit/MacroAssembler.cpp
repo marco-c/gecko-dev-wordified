@@ -14645,7 +14645,10 @@ subPtr
 (
 Imm32
 (
-4
+sizeof
+(
+uintptr_t
+)
 )
 copyCur
 )
@@ -14654,11 +14657,14 @@ subFromStackPtr
 (
 Imm32
 (
-4
+sizeof
+(
+uintptr_t
+)
 )
 )
 ;
-load32
+loadPtr
 (
 Address
 (
@@ -14668,7 +14674,7 @@ copyCur
 temp
 )
 ;
-store32
+storePtr
 (
 temp
 Address
