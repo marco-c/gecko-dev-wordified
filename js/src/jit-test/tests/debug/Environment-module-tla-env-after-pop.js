@@ -174,10 +174,9 @@ p
 ;
 )
 ;
-m
-.
-declarationInstantiation
+moduleLink
 (
+m
 )
 ;
 /
@@ -187,10 +186,9 @@ until
 await
 p
 .
-m
-.
-evaluation
+moduleEvaluate
 (
+m
 )
 ;
 drainJobQueue

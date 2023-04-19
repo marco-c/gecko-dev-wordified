@@ -76,10 +76,9 @@ b
 )
 )
 ;
-b
-.
-declarationInstantiation
+moduleLink
 (
+b
 )
 ;
 let

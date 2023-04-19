@@ -153,10 +153,9 @@ false
 ;
 try
 {
-c
-.
-declarationInstantiation
+moduleLink
 (
+c
 )
 ;
 }
@@ -202,10 +201,9 @@ e2
 ;
 try
 {
-c
-.
-declarationInstantiation
+moduleLink
 (
+c
 )
 ;
 }

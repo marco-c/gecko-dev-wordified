@@ -8,13 +8,12 @@ test
 error
 :
 Error
+moduleEvaluate
+(
 parseModule
 (
 "
 "
 )
-.
-evaluation
-(
 )
 ;

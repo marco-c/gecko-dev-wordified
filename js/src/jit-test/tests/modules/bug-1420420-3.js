@@ -27,10 +27,9 @@ new
 Error
 )
 ;
-a
-.
-declarationInstantiation
+moduleLink
 (
+a
 )
 ;
 stackTest
@@ -39,10 +38,9 @@ function
 (
 )
 {
-a
-.
-evaluation
+moduleEvaluate
 (
+a
 )
 ;
 }

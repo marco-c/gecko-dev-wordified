@@ -33,10 +33,9 @@ parseModule
 source
 )
 ;
-m
-.
-declarationInstantiation
+moduleLink
 (
+m
 )
 ;
 }

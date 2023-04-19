@@ -137,10 +137,9 @@ false
 ;
 try
 {
-c
-.
-declarationInstantiation
+moduleLink
 (
+c
 )
 ;
 }
@@ -236,10 +235,9 @@ false
 ;
 try
 {
-d
-.
-declarationInstantiation
+moduleLink
 (
+d
 )
 ;
 }

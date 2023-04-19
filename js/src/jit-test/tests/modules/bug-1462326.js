@@ -22,9 +22,8 @@ A
 ;
 )
 ;
-m
-.
-declarationInstantiation
+moduleLink
 (
+m
 )
 ;
