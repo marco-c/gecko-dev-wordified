@@ -556,11 +556,10 @@ neon
 )
 )
 ;
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_mc_dsp_init_arm
-)
+mc_dsp_init_arm
 (
 Dav1dMCDSPContext
 *

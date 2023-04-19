@@ -365,12 +365,10 @@ decl_fg_fns
 avx512icl
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_film_grain_dsp_init_x86
-)
+film_grain_dsp_init_x86
 (
 Dav1dFilmGrainDSPContext
 *

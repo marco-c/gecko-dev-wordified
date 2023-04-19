@@ -1140,7 +1140,11 @@ break
 }
 bench_new
 (
+alternate
+(
+c_dst
 a_dst
+)
 448
 *
 sizeof
@@ -1689,7 +1693,11 @@ break
 }
 bench_new
 (
+alternate
+(
+c_dst
 a_dst
+)
 448
 *
 sizeof
