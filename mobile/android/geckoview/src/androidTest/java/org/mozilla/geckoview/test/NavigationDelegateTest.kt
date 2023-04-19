@@ -4002,7 +4002,7 @@ https
 /
 example
 .
-org
+com
 /
 tests
 /
@@ -4049,7 +4049,7 @@ test1
 .
 example
 .
-org
+com
 /
 "
 val
@@ -4064,7 +4064,7 @@ test1
 .
 example
 .
-org
+com
 /
 "
 mainSession
@@ -4161,7 +4161,7 @@ nocert
 .
 example
 .
-org
+com
 /
 "
 mainSession
@@ -4249,6 +4249,11 @@ return
 null
 }
 }
+)
+sessionRule
+.
+clearHSTSState
+(
 )
 }
 Ignore
