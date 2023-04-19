@@ -5887,6 +5887,7 @@ EditorBase
 GetWidget
 (
 )
+const
 {
 nsPresContext
 *
@@ -12997,6 +12998,7 @@ Element
 &
 aElement
 )
+const
 {
 /
 /
@@ -17583,6 +17585,7 @@ EditorBase
 ScrollSelectionFocusIntoView
 (
 )
+const
 {
 nsISelectionController
 *
@@ -32099,6 +32102,7 @@ nsAtom
 *
 aTag
 )
+const
 {
 MOZ_ASSERT
 (
@@ -32216,6 +32220,7 @@ nsAString
 &
 aData
 )
+const
 {
 MOZ_ASSERT
 (

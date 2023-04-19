@@ -965,10 +965,16 @@ GetAsHTMLEditor
 nullptr
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 GetReturnInParagraphCreatesNewParagraph
 (
 )
+const
 ;
 /
 /
@@ -15947,6 +15953,7 @@ AutoRangeArray
 &
 aRangesToDelete
 )
+const
 ;
 /
 *
@@ -28550,6 +28557,11 @@ eWidth
 eHeight
 }
 ;
+[
+[
+nodiscard
+]
+]
 int32_t
 GetNewResizingIncrement
 (
@@ -28560,6 +28572,7 @@ aY
 ResizeAt
 aResizeAt
 )
+const
 ;
 [
 [
@@ -29016,6 +29029,7 @@ int32_t
 &
 newY
 )
+const
 ;
 nsresult
 GrabberClicked

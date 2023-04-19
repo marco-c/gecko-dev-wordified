@@ -358,6 +358,7 @@ nsRange
 GetRange
 (
 )
+const
 ;
 /
 /

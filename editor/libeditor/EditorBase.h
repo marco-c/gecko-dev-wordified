@@ -1583,6 +1583,7 @@ nsIWidget
 GetWidget
 (
 )
+const
 ;
 nsISelectionController
 *
@@ -11398,6 +11399,7 @@ nsAtom
 *
 aTag
 )
+const
 ;
 /
 *
@@ -11441,6 +11443,7 @@ nsAString
 &
 aData
 )
+const
 ;
 /
 *
@@ -11694,6 +11697,7 @@ Element
 &
 aElement
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -15105,6 +15109,7 @@ nsresult
 ScrollSelectionFocusIntoView
 (
 )
+const
 ;
 virtual
 nsresult
@@ -15197,15 +15202,26 @@ editor
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 bool
 GetDesiredSpellCheckState
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 CanEnableSpellCheck
 (
 )
+const
 {
 /
 /
