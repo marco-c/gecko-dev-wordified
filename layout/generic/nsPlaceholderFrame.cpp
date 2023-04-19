@@ -242,6 +242,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsIFrameInlines
 .
 h
