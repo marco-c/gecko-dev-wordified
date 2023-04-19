@@ -22002,6 +22002,12 @@ aDataTransfer
 aIsPrivateData
 aRequestingPrincipal
 aContentPolicyType
+true
+/
+*
+aAddDataFlavor
+*
+/
 trans
 this
 )

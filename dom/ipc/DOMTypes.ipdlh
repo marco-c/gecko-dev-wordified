@@ -780,6 +780,9 @@ IPCDataTransferItem
 nsCString
 flavor
 ;
+IPCDataTransferData
+data
+;
 /
 /
 The
@@ -793,10 +796,8 @@ transferring
 images
 .
 IPCDataTransferImage
+?
 imageDetails
-;
-IPCDataTransferData
-data
 ;
 }
 ;
