@@ -607,7 +607,7 @@ test_element_styles
 (
 browser
 "
-div
+nav
 .
 steps
 "
@@ -840,7 +840,7 @@ section
 main
 "
 "
-div
+nav
 .
 steps
 "
@@ -983,7 +983,7 @@ theme
 container
 "
 "
-div
+nav
 .
 steps
 "
@@ -1108,7 +1108,7 @@ main
 AW_STEP3
 "
 "
-div
+nav
 .
 steps
 "
