@@ -1788,6 +1788,12 @@ hadEvaluationError
 const
 ;
 Value
+maybeEvaluationError
+(
+)
+const
+;
+Value
 evaluationError
 (
 )
