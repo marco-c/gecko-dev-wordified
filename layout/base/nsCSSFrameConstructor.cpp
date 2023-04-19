@@ -10540,6 +10540,16 @@ constructor
 is
 run
 .
+if
+(
+aState
+.
+mAutoPageNameValue
+)
+{
+return
+;
+}
 for
 (
 const
