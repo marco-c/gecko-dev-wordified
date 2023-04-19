@@ -1319,7 +1319,6 @@ getFileReferences
 (
 name
 id
-null
 count
 )
 ;
@@ -1368,7 +1367,6 @@ getFileReferences
 (
 name
 id
-null
 {
 }
 count
