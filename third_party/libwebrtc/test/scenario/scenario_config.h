@@ -773,6 +773,15 @@ absl
 :
 optional
 <
+DataRate
+>
+min_data_rate
+;
+absl
+:
+:
+optional
+<
 int
 >
 max_framerate
@@ -854,6 +863,11 @@ DegradationPreference
 :
 :
 MAINTAIN_FRAMERATE
+;
+bool
+suspend_below_min_bitrate
+=
+false
 ;
 }
 encoder
