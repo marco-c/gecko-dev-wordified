@@ -776,6 +776,12 @@ progress
 function
 promiseInterruptibleDownload
 (
+extension
+=
+"
+.
+txt
+"
 )
 {
 let
@@ -789,11 +795,10 @@ getFile
 TmpD
 "
 [
-"
 interruptible
-.
-txt
-"
+{
+extension
+}
 ]
 )
 ;
