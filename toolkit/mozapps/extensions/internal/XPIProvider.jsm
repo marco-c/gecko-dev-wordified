@@ -269,11 +269,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonSettings
 :
@@ -485,7 +491,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 aomStartup
 :
@@ -1003,7 +1009,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 enabledScopesPref
 "
@@ -1017,7 +1023,7 @@ Object
 .
 defineProperty
 (
-this
+lazy
 "
 enabledScopes
 "
@@ -1035,6 +1041,8 @@ is
 always
 enabled
 return
+lazy
+.
 enabledScopesPref
 |
 AddonManager
@@ -1241,11 +1249,6 @@ theme
 "
 ]
 )
-;
-var
-gGlobalScope
-=
-this
 ;
 /
 *
@@ -2552,6 +2555,8 @@ io
 .
 newURI
 (
+lazy
+.
 resProto
 .
 resolveURI
@@ -3604,6 +3609,8 @@ isPrivileged
 )
 {
 return
+lazy
+.
 ExtensionData
 .
 getIsPrivileged
@@ -4248,11 +4255,15 @@ lastModifiedTime
 ;
 if
 (
+lazy
+.
 XPIDatabase
 .
 initialized
 )
 {
+lazy
+.
 XPIDatabase
 .
 saveChanges
@@ -6124,6 +6135,8 @@ null
 }
 return
 new
+lazy
+.
 XPIInstall
 .
 DirectoryInstaller
@@ -7327,6 +7340,8 @@ null
 }
 return
 new
+lazy
+.
 XPIInstall
 .
 SystemAddonInstaller
@@ -8247,6 +8262,8 @@ try
 {
 state
 =
+lazy
+.
 aomStartup
 .
 readStartupData
@@ -8792,6 +8809,8 @@ loc
 .
 scope
 &
+lazy
+.
 AddonSettings
 .
 SCOPES_SIDELOAD
@@ -8896,6 +8915,8 @@ loc
 .
 scope
 &
+lazy
+.
 AddonSettings
 .
 SCOPES_SIDELOAD
@@ -9768,6 +9789,8 @@ this
 _jsonFile
 =
 new
+lazy
+.
 JSONFile
 (
 {
@@ -10739,6 +10762,8 @@ active
 )
 {
 await
+lazy
+.
 XPIDatabase
 .
 updateAddonDisabledState
@@ -10999,6 +11024,8 @@ addon
 )
 )
 {
+lazy
+.
 XPIDatabase
 .
 updateAddonDisabledState
@@ -11230,6 +11257,8 @@ this
 .
 scope
 =
+lazy
+.
 Extension
 .
 getBootstrapScope
@@ -11247,6 +11276,8 @@ this
 .
 scope
 =
+lazy
+.
 SitePermission
 .
 getBootstrapScope
@@ -11264,6 +11295,8 @@ this
 .
 scope
 =
+lazy
+.
 Langpack
 .
 getBootstrapScope
@@ -11281,6 +11314,8 @@ this
 .
 scope
 =
+lazy
+.
 Dictionary
 .
 getBootstrapScope
@@ -12210,6 +12245,8 @@ this
 file
 )
 {
+lazy
+.
 XPIInstall
 .
 flushJarCache
@@ -12403,6 +12440,8 @@ updateCallback
 let
 reason
 =
+lazy
+.
 XPIInstall
 .
 newVersionReason
@@ -12546,6 +12585,8 @@ database
 existingAddon
 =
 await
+lazy
+.
 XPIDatabase
 .
 getAddonByID
@@ -12568,6 +12609,8 @@ XPIState
 newAddon
 =
 await
+lazy
+.
 XPIInstall
 .
 loadManifestFromFile
@@ -12833,7 +12876,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-gGlobalScope
+lazy
 "
 XPIDatabase
 "
@@ -12842,6 +12885,8 @@ XPIDatabase
 value
 &
 &
+lazy
+.
 XPIDatabase
 .
 initialized
@@ -13324,6 +13369,8 @@ try
 var
 dir
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -13368,6 +13415,8 @@ try
 var
 dir
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -13410,6 +13459,8 @@ try
 var
 dir
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -13690,6 +13741,8 @@ if
 scope
 |
 |
+lazy
+.
 enabledScopes
 &
 scope
@@ -13855,6 +13908,8 @@ lang
 =
 uri
 ;
+lazy
+.
 spellCheck
 .
 addDictionary
@@ -13937,6 +13992,8 @@ aDicts
 let
 origDicts
 =
+lazy
+.
 spellCheck
 .
 dictionaries
@@ -13969,6 +14026,8 @@ aDicts
 {
 if
 (
+lazy
+.
 spellCheck
 .
 removeDictionary
@@ -13988,6 +14047,8 @@ lang
 )
 )
 {
+lazy
+.
 spellCheck
 .
 addDictionary
@@ -14013,6 +14074,8 @@ lang
 ;
 }
 }
+lazy
+.
 spellCheck
 .
 dictionaries
@@ -14882,6 +14945,8 @@ most
 /
 of
 XPCOM
+lazy
+.
 AsyncShutdown
 .
 quitApplicationGranted
@@ -15086,6 +15151,8 @@ existing
 {
 reason
 =
+lazy
+.
 XPIInstall
 .
 newVersionReason
@@ -15120,6 +15187,8 @@ shutdown
 reason
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -15552,6 +15621,8 @@ event
 )
 ;
 }
+lazy
+.
 XPIDatabase
 .
 asyncLoadDB
@@ -15589,6 +15660,8 @@ XPI_startup_end
 "
 )
 ;
+lazy
+.
 timerManager
 .
 registerTimer
@@ -15605,6 +15678,8 @@ verification
 =
 >
 {
+lazy
+.
 XPIDatabase
 .
 verifySignatures
@@ -15726,6 +15801,8 @@ we
 were
 doing
 asynchronously
+lazy
+.
 XPIInstall
 .
 cancelAll
@@ -15737,6 +15814,8 @@ for
 let
 install
 of
+lazy
+.
 XPIInstall
 .
 installs
@@ -15792,6 +15871,8 @@ false
 )
 )
 {
+lazy
+.
 XPIDatabase
 .
 updateActiveAddons
@@ -15810,6 +15891,8 @@ false
 ;
 }
 await
+lazy
+.
 XPIDatabase
 .
 shutdown
@@ -15932,6 +16015,8 @@ cleanup
 (
 )
 ;
+lazy
+.
 XPIDatabase
 .
 makeAddonLocationVisible
@@ -15962,6 +16047,8 @@ cleanup
 )
 ;
 }
+lazy
+.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -16102,6 +16189,8 @@ e
 )
 {
 }
+lazy
+.
 TelemetrySession
 .
 setAddOns
@@ -16311,6 +16400,8 @@ promises
 .
 push
 (
+lazy
+.
 XPIInstall
 .
 installStagedAddon
@@ -16630,6 +16721,8 @@ distroDirs
 .
 push
 (
+lazy
+.
 FileUtils
 .
 getDir
@@ -16991,6 +17084,8 @@ addon
 =
 awaitPromise
 (
+lazy
+.
 XPIInstall
 .
 installDistributionAddon
@@ -17246,6 +17341,8 @@ installed
 ;
 if
 (
+lazy
+.
 enabledScopes
 &
 BuiltInLocation
@@ -17311,6 +17408,8 @@ Array
 .
 from
 (
+lazy
+.
 XPIDatabase
 .
 getAddons
@@ -17932,6 +18031,8 @@ XPIDB_startup_load_reasons
 updateReasons
 )
 ;
+lazy
+.
 XPIDatabase
 .
 syncLoadDB
@@ -17943,6 +18044,8 @@ try
 {
 extensionListChanged
 =
+lazy
+.
 XPIDatabaseReconcile
 .
 processFileChanges
@@ -18013,6 +18116,8 @@ extensionListChanged
 hasPendingChanges
 )
 {
+lazy
+.
 XPIDatabase
 .
 updateActiveAddons
@@ -18141,6 +18246,8 @@ for
 them
 .
 await
+lazy
+.
 XPIDatabase
 .
 asyncLoadDB
@@ -18148,6 +18255,8 @@ asyncLoadDB
 false
 )
 ;
+lazy
+.
 XPIDatabaseReconcile
 .
 processFileChanges
@@ -18157,6 +18266,8 @@ processFileChanges
 false
 )
 ;
+lazy
+.
 XPIDatabase
 .
 updateActiveAddons
@@ -18665,6 +18776,8 @@ return
 ;
 }
 return
+lazy
+.
 XPIDatabase
 .
 getAddonsByTypes
@@ -18928,6 +19041,8 @@ aData
 XPI_PERMISSION
 )
 {
+lazy
+.
 XPIDatabase
 .
 importPermissions
@@ -18955,6 +19070,8 @@ PREF_XPI_SIGNATURES_REQUIRED
 case
 PREF_LANGPACK_SIGNATURES
 :
+lazy
+.
 XPIDatabase
 .
 updateAddonAppDisabledStates
@@ -18982,6 +19099,8 @@ KEY_APP_SYSTEM_PROFILE
 )
 ;
 return
+lazy
+.
 XPIInstall
 .
 uninstallAddonFromLocation
@@ -19039,6 +19158,8 @@ function
 )
 {
 return
+lazy
+.
 XPIInstall
 [
 meth
@@ -19087,6 +19208,8 @@ function
 )
 {
 return
+lazy
+.
 XPIDatabase
 [
 meth
@@ -19145,6 +19268,8 @@ overrideAsyncShutdown
 mockAsyncShutdown
 )
 {
+lazy
+.
 AsyncShutdown
 =
 mockAsyncShutdown
