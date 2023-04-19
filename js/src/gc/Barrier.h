@@ -9445,14 +9445,6 @@ JitCode
 namespace
 jit
 using
-PreBarrieredId
-=
-PreBarriered
-<
-jsid
->
-;
-using
 PreBarrieredValue
 =
 PreBarriered
