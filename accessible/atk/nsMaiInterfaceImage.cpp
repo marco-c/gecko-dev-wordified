@@ -128,7 +128,11 @@ h
 #
 include
 "
-ImageAccessible
+mozilla
+/
+a11y
+/
+Accessible
 .
 h
 "
@@ -152,13 +156,6 @@ h
 include
 "
 nsIAccessibleTypes
-.
-h
-"
-#
-include
-"
-RemoteAccessible
 .
 h
 "

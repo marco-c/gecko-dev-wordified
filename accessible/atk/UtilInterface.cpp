@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-ApplicationAccessibleWrap
+ApplicationAccessible
 .
 h
 "
@@ -146,7 +146,16 @@ include
 <
 atk
 /
+atkobject
+.
+h
+>
+#
+include
+<
 atk
+/
+atkutil
 .
 h
 >

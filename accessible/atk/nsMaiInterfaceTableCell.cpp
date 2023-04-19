@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsAccUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y
@@ -173,7 +166,7 @@ h
 #
 include
 "
-nsArrayUtils
+nsTArray
 .
 h
 "
