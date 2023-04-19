@@ -3205,6 +3205,11 @@ nurseryUsedBytes
 0
 ;
 size_t
+nurseryUsedChunkCount
+=
+0
+;
+size_t
 tenuredBytes
 =
 0
