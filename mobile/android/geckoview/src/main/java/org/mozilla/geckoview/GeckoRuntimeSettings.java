@@ -3586,13 +3586,13 @@ Pref
 >
 (
 "
-gl
+webgl
 .
 msaa
 -
-level
+samples
 "
-0
+4
 )
 ;
 /
