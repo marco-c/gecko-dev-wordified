@@ -949,6 +949,13 @@ data
 :
 {
 JSON
+:
+{
+placements
+:
+[
+]
+}
 }
 debugWindow
 (
