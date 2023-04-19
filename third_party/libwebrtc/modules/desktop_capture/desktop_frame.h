@@ -196,7 +196,7 @@ DesktopFrame
 objects
 always
 hold
-BGRA
+RGBA
 data
 .
 static
