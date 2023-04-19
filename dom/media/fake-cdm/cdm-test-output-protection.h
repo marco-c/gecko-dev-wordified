@@ -169,8 +169,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 cdmtest
 {
 #
@@ -797,9 +797,7 @@ completed
 /
 /
 namespace
-cdmtest
-}
-/
-/
-namespace
 mozilla
+:
+:
+cdmtest

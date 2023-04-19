@@ -171,8 +171,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -599,12 +599,10 @@ mAdapter
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp
 #
 endif
 /

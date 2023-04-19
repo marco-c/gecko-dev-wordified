@@ -179,8 +179,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 class
@@ -190,12 +190,10 @@ TimeIntervals
 /
 /
 namespace
-media
-}
-/
-/
-namespace
 mozilla
+:
+:
+media
 /
 /
 CopyChooser

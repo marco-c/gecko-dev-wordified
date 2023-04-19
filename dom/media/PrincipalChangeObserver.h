@@ -122,8 +122,8 @@ define
 MOZILLA_PRINCIPALCHANGEOBSERVER_H_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -203,12 +203,10 @@ aArg
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

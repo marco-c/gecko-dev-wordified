@@ -149,8 +149,8 @@ queue
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -498,12 +498,10 @@ mShutdown
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp
 #
 endif
 /
