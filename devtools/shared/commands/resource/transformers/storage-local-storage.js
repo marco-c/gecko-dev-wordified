@@ -164,12 +164,6 @@ LOCAL_STORAGE
 ;
 resource
 .
-resourceId
-=
-LOCAL_STORAGE
-;
-resource
-.
 resourceKey
 =
 "

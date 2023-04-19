@@ -164,12 +164,6 @@ CACHE_STORAGE
 ;
 resource
 .
-resourceId
-=
-CACHE_STORAGE
-;
-resource
-.
 resourceKey
 =
 "
