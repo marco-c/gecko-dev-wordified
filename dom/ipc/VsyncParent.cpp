@@ -263,7 +263,7 @@ mVsyncDispatcher
 mVsyncSource
 -
 >
-GetRefreshTimerVsyncDispatcher
+GetVsyncDispatcher
 (
 )
 ;
