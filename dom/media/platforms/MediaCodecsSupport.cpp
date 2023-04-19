@@ -455,12 +455,6 @@ supportInfo
 aSupportString
 =
 "
-Codec
-support
-information
-:
-\
-n
 "
 _ns
 ;

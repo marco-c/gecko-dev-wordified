@@ -1310,12 +1310,7 @@ supportString
 Equals
 (
 "
-Codec
-support
-information
-:
-\
-nH264
+H264
 SW
 \
 nH264
