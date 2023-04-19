@@ -176,6 +176,9 @@ GET
 isNavigationRequest
 :
 true
+chromeContext
+:
+false
 }
 {
 url
@@ -192,6 +195,9 @@ CSP_BLOCKED_REASON_CODE
 isNavigationRequest
 :
 false
+chromeContext
+:
+false
 }
 {
 url
@@ -206,6 +212,9 @@ blockedReason
 :
 CSP_BLOCKED_REASON_CODE
 isNavigationRequest
+:
+false
+chromeContext
 :
 false
 }
@@ -227,6 +236,9 @@ GET
 isNavigationRequest
 :
 true
+chromeContext
+:
+false
 }
 {
 url
@@ -243,6 +255,9 @@ CSP_BLOCKED_REASON_CODE
 isNavigationRequest
 :
 false
+chromeContext
+:
+false
 }
 {
 url
@@ -257,6 +272,9 @@ blockedReason
 :
 CSP_BLOCKED_REASON_CODE
 isNavigationRequest
+:
+false
+chromeContext
 :
 false
 }
@@ -444,6 +462,9 @@ GET
 isNavigationRequest
 :
 true
+chromeContext
+:
+false
 }
 {
 url
@@ -462,6 +483,9 @@ blockedReason
 "
 NS_BINDING_ABORTED
 "
+chromeContext
+:
+false
 }
 ]
 ;
@@ -481,6 +505,9 @@ GET
 isNavigationRequest
 :
 true
+chromeContext
+:
+false
 }
 {
 url
@@ -499,6 +526,9 @@ blockedReason
 "
 NS_BINDING_ABORTED
 "
+chromeContext
+:
+false
 }
 ]
 ;
@@ -839,6 +869,9 @@ method
 "
 GET
 "
+chromeContext
+:
+false
 isNavigationRequest
 :
 true
@@ -918,6 +951,9 @@ false
 targetFrontUrl
 :
 pageUrl
+chromeContext
+:
+false
 }
 {
 url
@@ -934,6 +970,9 @@ false
 targetFrontUrl
 :
 iframeUrl
+chromeContext
+:
+false
 }
 ]
 ;
@@ -953,6 +992,9 @@ GET
 isNavigationRequest
 :
 true
+chromeContext
+:
+false
 }
 {
 url
@@ -966,6 +1008,9 @@ GET
 isNavigationRequest
 :
 false
+chromeContext
+:
+false
 }
 {
 url
@@ -977,6 +1022,9 @@ method
 GET
 "
 isNavigationRequest
+:
+false
+chromeContext
 :
 false
 }
