@@ -63,7 +63,7 @@ api
 {
 BorderRadius
 ClipMode
-HitTestItem
+HitTestResultItem
 HitTestResult
 ItemTag
 PrimitiveFlags
@@ -772,6 +772,9 @@ LayoutRect
 tag
 :
 ItemTag
+animation_id
+:
+u64
 is_backface_visible
 :
 bool
@@ -805,6 +808,9 @@ new
 tag
 :
 ItemTag
+animation_id
+:
+u64
 info
 :
 &
@@ -839,6 +845,7 @@ info
 .
 clip_rect
 tag
+animation_id
 is_backface_visible
 :
 info
@@ -1320,6 +1327,9 @@ self
 tag
 :
 ItemTag
+anim_id
+:
+u64
 info
 :
 &
@@ -1535,6 +1545,7 @@ HitTestingItem
 new
 (
 tag
+anim_id
 info
 spatial_node_index
 clip_range
@@ -2518,7 +2529,7 @@ items
 .
 push
 (
-HitTestItem
+HitTestResultItem
 {
 pipeline
 :
@@ -2528,6 +2539,11 @@ tag
 item
 .
 tag
+animation_id
+:
+item
+.
+animation_id
 }
 )
 ;

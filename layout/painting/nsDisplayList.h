@@ -31871,6 +31871,12 @@ HasDynamicToolbar
 const
 ;
 bool
+ShouldFixedAndStickyContentGetAnimationIds
+(
+)
+const
+;
+bool
 CreatesStackingContextHelper
 (
 )
