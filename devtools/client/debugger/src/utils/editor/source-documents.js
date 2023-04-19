@@ -224,7 +224,6 @@ cm
 )
 ;
 }
-export
 function
 updateLineNumberFormat
 (
@@ -241,11 +240,12 @@ sourceId
 )
 )
 {
-return
 resetLineNumberFormat
 (
 editor
 )
+;
+return
 ;
 }
 const
@@ -926,7 +926,6 @@ symbols
 )
 ;
 return
-doc
 ;
 }
 const
