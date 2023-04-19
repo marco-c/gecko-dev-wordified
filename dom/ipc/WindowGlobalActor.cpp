@@ -140,13 +140,6 @@ h
 #
 include
 "
-mozJSComponentLoader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Components

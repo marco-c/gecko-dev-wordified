@@ -135,7 +135,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -418,7 +418,7 @@ cx
 nsresult
 rv
 =
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get

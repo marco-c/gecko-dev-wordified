@@ -212,13 +212,6 @@ h
 #
 include
 "
-mozJSComponentLoader
-.
-h
-"
-#
-include
-"
 js
 /
 Object

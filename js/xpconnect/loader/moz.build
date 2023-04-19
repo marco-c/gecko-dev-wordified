@@ -146,7 +146,7 @@ cpp
 "
 ]
 #
-mozJSComponentLoader
+mozJSModuleLoader
 .
 cpp
 cannot
@@ -167,7 +167,7 @@ SOURCES
 =
 [
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 cpp
 "

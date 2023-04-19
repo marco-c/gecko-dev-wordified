@@ -133,13 +133,6 @@ h
 #
 include
 "
-mozJSComponentLoader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ContentBlockingAllowList

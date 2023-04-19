@@ -188,7 +188,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -562,15 +562,12 @@ Load
 the
 module
 using
-mozJSComponentLoader
+mozJSModuleLoader
 .
 RefPtr
-<
-mozJSComponentLoader
->
 loader
 =
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get

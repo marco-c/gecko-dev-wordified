@@ -168,7 +168,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -703,11 +703,11 @@ bool
 _retval
 )
 {
-mozJSComponentLoader
+mozJSModuleLoader
 *
 loader
 =
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Get

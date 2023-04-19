@@ -2494,7 +2494,7 @@ consumers
 like
 /
 /
-mozJSComponentLoader
+mozJSModuleLoader
 )
 have
 done

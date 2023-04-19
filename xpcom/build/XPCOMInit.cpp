@@ -223,7 +223,7 @@ h
 #
 include
 "
-mozJSComponentLoader
+mozJSModuleLoader
 .
 h
 "
@@ -4201,7 +4201,7 @@ for
 the
 details
 .
-mozJSComponentLoader
+mozJSModuleLoader
 :
 :
 Unload
