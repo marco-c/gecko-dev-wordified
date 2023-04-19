@@ -41654,6 +41654,13 @@ SetSandboxFlags
 sandboxFlags
 )
 ;
+blankDoc
+-
+>
+InitFeaturePolicy
+(
+)
+;
 /
 /
 create
