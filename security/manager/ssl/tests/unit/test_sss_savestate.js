@@ -92,7 +92,7 @@ EXPECTED_ENTRIES
 const
 EXPECTED_HSTS_COLUMNS
 =
-4
+3
 ;
 var
 gProfileDir
@@ -988,11 +988,6 @@ maxAge
 +
 includeSubdomains
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 )
 ;
 }

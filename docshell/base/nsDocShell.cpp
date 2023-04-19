@@ -21981,8 +21981,6 @@ IsSecureURI
 (
 aURI
 attrsForHSTS
-nullptr
-nullptr
 &
 isStsHost
 )

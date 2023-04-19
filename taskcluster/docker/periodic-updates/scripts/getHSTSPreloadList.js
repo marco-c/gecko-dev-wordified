@@ -1163,11 +1163,6 @@ processHeader
 uri
 header
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_PRELOAD_LIST
 {
 }
 maxAge

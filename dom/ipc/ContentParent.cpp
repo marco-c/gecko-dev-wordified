@@ -29378,8 +29378,6 @@ IsSecureURI
 (
 aURI
 aOriginAttributes
-nullptr
-nullptr
 aIsSecureURI
 )
 ;

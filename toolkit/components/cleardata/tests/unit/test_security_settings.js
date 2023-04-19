@@ -250,11 +250,6 @@ age
 ;
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 attrs
 )
 ;

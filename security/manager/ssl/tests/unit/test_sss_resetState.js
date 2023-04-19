@@ -261,11 +261,6 @@ age
 ;
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 originAttributes
 )
 ;
@@ -377,11 +372,6 @@ age
 ;
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 originAttributes
 )
 ;
@@ -517,11 +507,6 @@ age
 ;
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 originAttributes
 )
 ;
@@ -632,11 +617,6 @@ age
 ;
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 originAttributes
 )
 ;

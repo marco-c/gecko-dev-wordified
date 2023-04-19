@@ -199,9 +199,6 @@ processHeader
 dummyUri
 header
 secInfo
-sss
-.
-SOURCE_ORGANIC_REQUEST
 {
 }
 maxAge
@@ -299,9 +296,6 @@ processHeader
 dummyUri
 header
 secInfo
-sss
-.
-SOURCE_ORGANIC_REQUEST
 {
 }
 maxAge

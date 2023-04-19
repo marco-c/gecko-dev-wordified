@@ -17133,8 +17133,6 @@ IsSecureURI
 (
 aURI
 originAttributes
-nullptr
-nullptr
 &
 isStsHost
 )

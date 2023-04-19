@@ -243,11 +243,6 @@ age
 includeSubdomains
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 )
 ;
 ok
