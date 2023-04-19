@@ -178,7 +178,7 @@ selectedTab
 )
 ;
 await
-testOpenInDebugger
+testOpenFrameInDebugger
 (
 hud
 toolbox
@@ -192,7 +192,7 @@ trace
 )
 ;
 await
-testOpenInDebugger
+testOpenFrameInDebugger
 (
 hud
 toolbox
@@ -206,7 +206,7 @@ myErrorObject
 ;
 async
 function
-testOpenInDebugger
+testOpenFrameInDebugger
 (
 hud
 toolbox
@@ -308,7 +308,7 @@ frameNodes
 )
 {
 await
-checkClickOnNode
+checkMousedownOnNode
 (
 hud
 toolbox
@@ -339,7 +339,7 @@ webconsole
 }
 async
 function
-checkClickOnNode
+checkMousedownOnNode
 (
 hud
 toolbox
