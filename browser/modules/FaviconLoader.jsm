@@ -3174,9 +3174,7 @@ iconUri
 spec
 canStoreIcon
 :
-this
-.
-beforePageShow
+true
 }
 )
 ;
