@@ -177,8 +177,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1376,12 +1376,10 @@ indexedDB
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (
 mozilla

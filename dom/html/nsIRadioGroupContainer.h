@@ -135,8 +135,8 @@ nsIFormControl
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -146,12 +146,10 @@ HTMLInputElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 define
 NS_IRADIOGROUPCONTAINER_IID
