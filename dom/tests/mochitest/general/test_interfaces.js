@@ -9860,9 +9860,6 @@ OffscreenCanvas
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 /
 /
@@ -9887,9 +9884,6 @@ name
 OffscreenCanvasRenderingContext2D
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 }
