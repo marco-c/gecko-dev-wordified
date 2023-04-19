@@ -4081,7 +4081,7 @@ to
 /
 /
 be
-STUB_FRAME_SIZE
+StubFrameSize
 so
 that
 assertions
@@ -4094,7 +4094,7 @@ leaveStubFrame
 .
 framePushedAtEnterStubFrame_
 =
-STUB_FRAME_SIZE
+StubFrameSize
 ;
 #
 endif
@@ -11059,7 +11059,7 @@ reg
 size_t
 valueOffset
 =
-STUB_FRAME_SIZE
+StubFrameSize
 ;
 /
 /
@@ -11416,7 +11416,7 @@ pushValue
 Address
 (
 FramePointer
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
@@ -11442,7 +11442,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
@@ -11467,7 +11467,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
@@ -11492,7 +11492,7 @@ sizeof
 Value
 )
 +
-STUB_FRAME_SIZE
+StubFrameSizeFromFP
 )
 )
 ;
