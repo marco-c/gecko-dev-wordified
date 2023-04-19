@@ -365,7 +365,7 @@ nsresult
 Init
 (
 nsIDocShell
-*
+&
 aDocShell
 mozilla
 :
@@ -374,7 +374,7 @@ dom
 :
 :
 Document
-*
+&
 aDoc
 nsPrintObject
 *
