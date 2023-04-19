@@ -16399,6 +16399,7 @@ GetBackgroundColor
 nsIFrame
 *
 aFrame
+const
 ComputedStyle
 *
 aStyle
@@ -16531,6 +16532,7 @@ DetermineBackgroundColor
 nsPresContext
 *
 aPresContext
+const
 ComputedStyle
 *
 aStyle

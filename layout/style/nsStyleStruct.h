@@ -2550,6 +2550,7 @@ const
 bool
 IsTransparent
 (
+const
 mozilla
 :
 :
