@@ -141,9 +141,6 @@ this
 "
 fetch
 "
-"
-URL
-"
 ]
 )
 ;
@@ -151,7 +148,6 @@ URL
 *
 globals
 fetch
-URL
 *
 /
 var

@@ -321,9 +321,6 @@ defineLazyGlobalGetters
 this
 [
 "
-AbortController
-"
-"
 crypto
 "
 "

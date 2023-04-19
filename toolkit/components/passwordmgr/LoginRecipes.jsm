@@ -204,9 +204,6 @@ defineLazyGlobalGetters
 this
 [
 "
-URL
-"
-"
 fetch
 "
 ]

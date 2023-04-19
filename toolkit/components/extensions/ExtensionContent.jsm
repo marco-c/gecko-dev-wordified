@@ -409,9 +409,6 @@ this
 "
 crypto
 "
-"
-TextEncoder
-"
 ]
 )
 ;
