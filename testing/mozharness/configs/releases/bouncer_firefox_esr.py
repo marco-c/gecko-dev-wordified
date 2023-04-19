@@ -756,7 +756,7 @@ SSL
 check_uptake
 "
 :
-True
+False
             
 "
 platforms
@@ -810,7 +810,7 @@ SSL
 check_uptake
 "
 :
-True
+False
             
 "
 platforms
