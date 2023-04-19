@@ -7485,6 +7485,14 @@ ShowWaylandToplevelWindow
 (
 )
 {
+MOZ_ASSERT
+(
+!
+IsWaylandPopup
+(
+)
+)
+;
 LOG
 (
 "
