@@ -95,6 +95,14 @@ body
 =
 body
 ;
+requestInit
+.
+duplex
+=
+"
+half
+"
+;
 }
 return
 fetch
