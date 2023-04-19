@@ -326,12 +326,6 @@ bool
 aEmbolden
 )
 ;
-virtual
-~
-gfxFT2FontBase
-(
-)
-;
 uint32_t
 GetGlyph
 (
@@ -550,6 +544,12 @@ const
 ;
 protected
 :
+~
+gfxFT2FontBase
+(
+)
+override
+;
 void
 InitMetrics
 (

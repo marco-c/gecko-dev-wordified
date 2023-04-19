@@ -137,6 +137,7 @@ MacOSFontEntry
 ;
 class
 gfxMacFont
+final
 :
 public
 gfxFont
@@ -165,12 +166,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-)
-;
-virtual
-~
-gfxMacFont
-(
 )
 ;
 CGFontRef
@@ -459,6 +454,12 @@ nullptr
 ;
 protected
 :
+~
+gfxMacFont
+(
+)
+override
+;
 const
 Metrics
 &

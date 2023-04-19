@@ -152,6 +152,7 @@ FT2FontEntry
 ;
 class
 gfxFT2Font
+final
 :
 public
 gfxFT2FontBase
@@ -199,12 +200,6 @@ gfxFontStyle
 aFontStyle
 int
 aLoadFlags
-)
-;
-virtual
-~
-gfxFT2Font
-(
 )
 ;
 FT2FontEntry
@@ -271,6 +266,12 @@ override
 ;
 protected
 :
+~
+gfxFT2Font
+(
+)
+override
+;
 struct
 CachedGlyphData
 {

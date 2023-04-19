@@ -142,6 +142,7 @@ h
 "
 class
 gfxGDIFont
+final
 :
 public
 gfxFont
@@ -161,12 +162,6 @@ AntialiasOption
 anAAOption
 =
 kAntialiasDefault
-)
-;
-virtual
-~
-gfxGDIFont
-(
 )
 ;
 HFONT
@@ -422,6 +417,12 @@ FONT_TYPE_GDI
 }
 protected
 :
+~
+gfxGDIFont
+(
+)
+override
+;
 const
 Metrics
 &
