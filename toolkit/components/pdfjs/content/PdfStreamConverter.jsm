@@ -1976,6 +1976,7 @@ saveURL
 "
 {
 blobUrl
+originalUrl
 filename
 }
 )

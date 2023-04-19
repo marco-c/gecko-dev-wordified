@@ -9568,6 +9568,10 @@ dataURL
 null
 /
 /
+originalURL
+null
+/
+/
 document
 name
 null
@@ -10507,6 +10511,7 @@ waiting
 saveURL
 (
 linkURL
+null
 linkText
 dialogTitle
 bypassCache
@@ -11277,6 +11282,10 @@ blobURL
 null
 /
 /
+originalURL
+null
+/
+/
 document
 "
 canvas
@@ -11384,6 +11393,10 @@ internalSave
 this
 .
 mediaURL
+null
+/
+/
+originalURL
 null
 /
 /

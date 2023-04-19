@@ -1565,6 +1565,7 @@ function
 DLT_init
 (
 aSource
+aSourceOriginalURI
 aTarget
 aDisplayName
 aMIMEInfo
@@ -1582,6 +1583,7 @@ this
 _nsITransferInitInternal
 (
 aSource
+aSourceOriginalURI
 aTarget
 aDisplayName
 aMIMEInfo
@@ -1665,6 +1667,7 @@ this
 _nsITransferInitInternal
 (
 aSource
+null
 aTarget
 aDisplayName
 aMIMEInfo
@@ -1684,6 +1687,7 @@ aHttpChannel
 _nsITransferInitInternal
 (
 aSource
+aSourceOriginalURI
 aTarget
 aDisplayName
 aMIMEInfo
@@ -1870,6 +1874,14 @@ source
 url
 :
 aSource
+.
+spec
+originalUrl
+:
+aSourceOriginalURI
+&
+&
+aSourceOriginalURI
 .
 spec
 isPrivate

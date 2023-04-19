@@ -491,6 +491,14 @@ aURL
 /
 data
 .
+originalUrl
+/
+*
+aOriginalURL
+*
+/
+data
+.
 filename
 /
 *
