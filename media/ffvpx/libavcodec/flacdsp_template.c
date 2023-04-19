@@ -180,7 +180,7 @@ include
 "
 libavutil
 /
-macros
+avutil
 .
 h
 "
@@ -459,7 +459,7 @@ i
 +
 )
 {
-unsigned
+int
 a
 =
 in
@@ -470,7 +470,7 @@ in
 i
 ]
 ;
-unsigned
+int
 b
 =
 in
@@ -565,7 +565,7 @@ i
 +
 )
 {
-unsigned
+int
 a
 =
 in
@@ -576,7 +576,7 @@ in
 i
 ]
 ;
-unsigned
+int
 b
 =
 in
@@ -671,7 +671,7 @@ i
 +
 )
 {
-unsigned
+int
 a
 =
 in

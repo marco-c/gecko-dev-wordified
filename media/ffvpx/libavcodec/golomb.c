@@ -199,11 +199,13 @@ at
 /
 #
 include
-<
-stdint
+"
+libavutil
+/
+common
 .
 h
->
+"
 const
 uint8_t
 ff_golomb_vlc_len

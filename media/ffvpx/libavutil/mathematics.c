@@ -200,13 +200,6 @@ h
 #
 include
 "
-avutil
-.
-h
-"
-#
-include
-"
 mathematics
 .
 h
@@ -233,6 +226,13 @@ h
 include
 "
 avassert
+.
+h
+"
+#
+include
+"
+version
 .
 h
 "
