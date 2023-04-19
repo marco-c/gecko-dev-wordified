@@ -2500,15 +2500,7 @@ endif
 /
 /
 namespace
-/
-/
-Only
-needed
-for
-refcounted
-objects
-.
-NS_IMPL_CYCLE_COLLECTION_CLASS
+NS_IMPL_CYCLE_COLLECTION_MULTI_ZONE_JSHOLDER_CLASS
 (
 CustomElementRegistry
 )
