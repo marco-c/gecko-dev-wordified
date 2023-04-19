@@ -309,12 +309,6 @@ CacheIRSpewer
 \
 _
 (
-TraceLoggerThreadState
-500
-)
-\
-_
-(
 DateTimeInfoMutex
 500
 )
@@ -431,12 +425,6 @@ ThreadId
 _
 (
 WasmCodeSegmentMap
-600
-)
-\
-_
-(
-TraceLoggerGraphState
 600
 )
 \
