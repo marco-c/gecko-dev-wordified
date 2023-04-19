@@ -1232,11 +1232,6 @@ process
 (
 )
 ;
-void
-ProcessIter
-(
-)
-;
 private
 :
 /
@@ -1289,11 +1284,6 @@ unique_ptr
 DesktopCapturer
 >
 desktop_capturer_cursor_composer_
-;
-bool
-cursor_composer_started_
-=
-false
 ;
 std
 :

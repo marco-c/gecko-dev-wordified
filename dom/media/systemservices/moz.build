@@ -192,10 +192,6 @@ include
 "
 "
 /
-mfbt
-"
-"
-/
 third_party
 /
 libwebrtc
