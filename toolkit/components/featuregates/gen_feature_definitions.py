@@ -71,8 +71,6 @@ re
 import
 sys
 import
-six
-import
 voluptuous
 import
 voluptuous
@@ -94,12 +92,8 @@ Text
 =
 Any
 (
-six
-.
-text_type
-six
-.
-binary_type
+str
+bytes
 )
 id_regex
 =
