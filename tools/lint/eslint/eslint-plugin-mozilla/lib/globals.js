@@ -434,7 +434,9 @@ files
 are
 included
 via
-xul
+html
+/
+xhtml
 files
 etc
 .
@@ -444,8 +446,8 @@ is
 used
 to
 avoid
-getting
 *
+getting
 into
 loops
 whilst
