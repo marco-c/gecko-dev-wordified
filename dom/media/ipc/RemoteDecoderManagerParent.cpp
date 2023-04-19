@@ -1330,7 +1330,6 @@ new
 MFMediaEngineParent
 (
 this
-sRemoteDecoderManagerParentThread
 )
 ;
 #
