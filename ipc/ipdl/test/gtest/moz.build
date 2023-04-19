@@ -139,11 +139,6 @@ TestBasic
 .
 cpp
 "
-"
-TestManyHandles
-.
-cpp
-"
 ]
 IPDL_SOURCES
 +
@@ -156,11 +151,6 @@ ipdl
 "
 "
 PTestBasic
-.
-ipdl
-"
-"
-PTestManyHandles
 .
 ipdl
 "
