@@ -5630,7 +5630,7 @@ newWindowPrincipal
 NullPrincipal
 :
 :
-CreateWithInheritedAttributes
+Create
 (
 parentBC
 -
