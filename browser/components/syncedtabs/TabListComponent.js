@@ -144,11 +144,17 @@ RemoteTabs
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 OpenInTabsUtils
 :
@@ -843,6 +849,8 @@ where
 if
 (
 !
+lazy
+.
 OpenInTabsUtils
 .
 confirmOpenInTabs

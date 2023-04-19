@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -3280,6 +3286,8 @@ syncedTabsOpenSelectedInPrivateWindow
 {
 show
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 enabled
