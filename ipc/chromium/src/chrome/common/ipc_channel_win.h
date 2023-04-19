@@ -705,7 +705,7 @@ message
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 Message
 >

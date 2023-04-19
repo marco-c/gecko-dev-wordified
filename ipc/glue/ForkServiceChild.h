@@ -512,13 +512,12 @@ received
 void
 OnMessageReceived
 (
-UniquePtr
-<
 IPC
 :
 :
 Message
->
+&
+&
 message
 )
 ;

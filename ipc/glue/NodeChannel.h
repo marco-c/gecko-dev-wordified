@@ -969,13 +969,12 @@ implementation
 void
 OnMessageReceived
 (
-UniquePtr
-<
 IPC
 :
 :
 Message
->
+&
+&
 aMessage
 )
 override

@@ -13023,17 +13023,14 @@ ret
 Type
 (
 "
-mozilla
-:
-:
-UniquePtr
-<
 IPC
 :
 :
 Message
->
 "
+ptr
+=
+True
 )
         
 )
@@ -13421,25 +13418,75 @@ segmentSize
 )
     
 if
-not
 segmentSize
 :
         
-segmentSize
-=
-0
-    
 func
 .
 addstmt
 (
-        
+            
 StmtReturn
 (
+                
+ExprNew
+(
+                    
+Type
+(
+"
+IPC
+:
+:
+Message
+"
+)
+                    
+args
+=
+[
+                        
+routingId
+                        
+ExprVar
+(
+msgid
+)
+                        
+ExprLiteral
+.
+Int
+(
+int
+(
+segmentSize
+)
+)
+                        
+flags
+                    
+]
+                
+)
             
-ExprCall
+)
+        
+)
+    
+else
+:
+        
+func
+.
+addstmt
+(
+            
+StmtReturn
 (
                 
+ExprCall
+(
+                    
 ExprVar
 (
 "
@@ -13452,36 +13499,22 @@ Message
 IPDLMessage
 "
 )
-                
+                    
 args
 =
 [
-                    
 routingId
-                    
 ExprVar
 (
 msgid
 )
-                    
-ExprLiteral
-.
-Int
-(
-int
-(
-segmentSize
-)
-)
-                    
 flags
-                
 ]
+                
+)
             
 )
         
-)
-    
 )
     
 return
@@ -28820,12 +28853,12 @@ Decl
 Type
 (
 "
-UniquePtr
-<
 Message
->
 "
 ref
+=
+True
+ptr
 =
 True
 )
@@ -32545,7 +32578,10 @@ deserializeReply
             
 md
             
+ExprAddrOf
+(
 replyvar
+)
             
 self
 .
@@ -32632,10 +32668,7 @@ potentially
 freed
 .
             
-UniquePtr
-<
 Message
->
 {
 replyvar
 }
@@ -33330,10 +33363,7 @@ Decl
 Type
 (
 "
-UniquePtr
-<
 Message
->
 "
 )
 replyvar
@@ -33356,7 +33386,10 @@ deserializeReply
 (
             
 md
+ExprAddrOf
+(
 replyvar
+)
 self
 .
 side
@@ -34246,7 +34279,10 @@ deserializeReply
 (
             
 md
+ExprAddrOf
+(
 replyvar
+)
 self
 .
 side
@@ -34276,10 +34312,7 @@ Decl
 Type
 (
 "
-UniquePtr
-<
 Message
->
 "
 )
 replyvar
@@ -34981,14 +35014,14 @@ Decl
 Type
 (
 "
-UniquePtr
-<
 IPC
 :
 :
 Message
->
 "
+ptr
+=
+True
 )
 msgvar
 .
@@ -37018,12 +37051,9 @@ name
 initargs
 =
 [
-ExprDeref
-(
 self
 .
 replyvar
-)
 ExprVar
 .
 THIS
@@ -37262,26 +37292,18 @@ ExprCall
 (
                         
 send
-                        
 args
 =
 [
-                            
-ExprMove
-(
 msgexpr
-)
-                            
 ExprMove
 (
 resolvefn
 )
-                            
 ExprMove
 (
 rejectfn
 )
-                        
 ]
                     
 )
@@ -37314,7 +37336,6 @@ sendok
 .
 name
 )
-                    
 init
 =
 ExprCall
@@ -37323,10 +37344,7 @@ send
 args
 =
 [
-ExprMove
-(
 msgexpr
-)
 ]
 )
                 
@@ -37572,14 +37590,10 @@ ExprCall
 (
                                         
 send
-                                        
 args
 =
 [
-ExprMove
-(
 msgexpr
-)
 ExprAddrOf
 (
 replyexpr
