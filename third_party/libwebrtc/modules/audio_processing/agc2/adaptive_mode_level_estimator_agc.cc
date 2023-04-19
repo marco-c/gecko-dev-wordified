@@ -278,7 +278,7 @@ kFrameDurationMs
 }
 level_estimator_
 .
-UpdateEstimation
+Update
 (
 vad_prob
 )
@@ -368,7 +368,7 @@ target_level_dbfs
 -
 level_estimator_
 .
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 +

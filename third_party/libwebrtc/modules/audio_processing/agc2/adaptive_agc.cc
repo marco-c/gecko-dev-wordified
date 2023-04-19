@@ -329,7 +329,7 @@ peak_dbfs
 ;
 speech_level_estimator_
 .
-UpdateEstimation
+Update
 (
 signal_with_levels
 .
@@ -342,7 +342,7 @@ input_level_dbfs
 =
 speech_level_estimator_
 .
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 ;
@@ -407,7 +407,7 @@ estimate_is_confident
 =
 speech_level_estimator_
 .
-LevelEstimationIsConfident
+IsConfident
 (
 )
 ;

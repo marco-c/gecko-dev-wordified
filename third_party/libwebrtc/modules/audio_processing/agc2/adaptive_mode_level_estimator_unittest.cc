@@ -210,7 +210,7 @@ i
 {
 level_estimator
 .
-UpdateEstimation
+Update
 (
 vad_level
 )
@@ -327,7 +327,7 @@ level_estimator
 estimator
 -
 >
-UpdateEstimation
+Update
 (
 vad_level
 )
@@ -342,7 +342,7 @@ level_estimator
 estimator
 -
 >
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 )
@@ -399,7 +399,7 @@ level_estimator
 estimator
 -
 >
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 -
@@ -537,7 +537,7 @@ level_estimator
 estimator
 -
 >
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 -
@@ -736,7 +736,7 @@ level_estimator
 estimator
 -
 >
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 )
@@ -806,7 +806,7 @@ level_estimator
 estimator
 -
 >
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 -
@@ -1002,7 +1002,7 @@ level_estimator
 estimator
 -
 >
-LatestLevelEstimate
+GetLevelDbfs
 (
 )
 -
