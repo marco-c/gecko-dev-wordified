@@ -8359,7 +8359,7 @@ call
 #
 ifdef
 ENABLE_WASM_FUNCTION_REFERENCES
-CodeOffset
+void
 callRef
 (
 const
@@ -8370,6 +8370,12 @@ const
 FunctionCall
 &
 call
+CodeOffset
+*
+fastCallOffset
+CodeOffset
+*
+slowCallOffset
 )
 ;
 #

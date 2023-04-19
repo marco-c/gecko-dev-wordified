@@ -26817,7 +26817,7 @@ from
 pinned
 reg
 .
-CodeOffset
+void
 wasmCallRef
 (
 const
@@ -26834,6 +26834,12 @@ wasm
 CalleeDesc
 &
 callee
+CodeOffset
+*
+fastCallOffset
+CodeOffset
+*
+slowCallOffset
 )
 ;
 /

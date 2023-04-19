@@ -3064,6 +3064,12 @@ CallSiteDesc
 :
 FuncRef
 :
+case
+CallSiteDesc
+:
+:
+FuncRefFast
+:
 break
 ;
 case
