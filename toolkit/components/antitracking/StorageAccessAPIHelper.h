@@ -1380,6 +1380,8 @@ dom
 Document
 *
 aDocument
+bool
+aRequestingStorageAccess
 )
 ;
 private

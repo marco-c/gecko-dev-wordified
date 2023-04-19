@@ -103999,6 +103999,7 @@ StorageAccessAPIHelper
 CheckExistingPermissionDecidesStorageAccessAPI
 (
 this
+false
 )
 ;
 if
@@ -105726,6 +105727,7 @@ StorageAccessAPIHelper
 CheckExistingPermissionDecidesStorageAccessAPI
 (
 this
+true
 )
 ;
 if
