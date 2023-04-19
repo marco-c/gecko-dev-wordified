@@ -632,8 +632,9 @@ const
 auto
 result
 =
+Mul
+(
 multiplier
-*
 TF_PQ
 (
 )
@@ -642,6 +643,7 @@ DisplayFromEncoded
 (
 df
 val
+)
 )
 ;
 Store
@@ -1188,9 +1190,11 @@ TF_PQ
 EncodedFromDisplay
 (
 df
+Mul
+(
 multiplier
-*
 val
+)
 )
 ;
 Store

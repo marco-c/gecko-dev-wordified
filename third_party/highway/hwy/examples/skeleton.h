@@ -6,6 +6,19 @@ Google
 LLC
 /
 /
+SPDX
+-
+License
+-
+Identifier
+:
+Apache
+-
+2
+.
+0
+/
+/
 /
 /
 Licensed
@@ -221,6 +234,7 @@ Supports
 dynamic
 dispatch
 .
+HWY_DLLEXPORT
 void
 CallFloorLog2
 (

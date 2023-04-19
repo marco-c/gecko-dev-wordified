@@ -5704,11 +5704,6 @@ ClusterHistograms
 (
 params
 histograms_
-histograms_
-.
-size
-(
-)
 kClustersLimit
 &
 clustered_histograms

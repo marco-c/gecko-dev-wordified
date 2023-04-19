@@ -168,6 +168,15 @@ hwy
 HWY_NAMESPACE
 :
 :
+TableLookupLanes
+;
+using
+hwy
+:
+:
+HWY_NAMESPACE
+:
+:
 Vec
 ;
 /
