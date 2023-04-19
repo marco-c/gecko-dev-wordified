@@ -116,6 +116,7 @@ IsCallable
 adder
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -123,6 +124,7 @@ typeof
 adder
 )
 ;
+}
 /
 /
 Steps
@@ -158,6 +160,7 @@ IsObject
 nextItem
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INVALID_MAP_ITERABLE
@@ -166,6 +169,7 @@ WeakMap
 "
 )
 ;
+}
 /
 /
 Steps

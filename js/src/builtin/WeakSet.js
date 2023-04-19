@@ -116,6 +116,7 @@ IsCallable
 adder
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -123,6 +124,7 @@ typeof
 adder
 )
 ;
+}
 /
 /
 Steps
@@ -142,6 +144,7 @@ allowContentIter
 iterable
 )
 )
+{
 callContentFunction
 (
 adder
@@ -149,4 +152,5 @@ set
 nextValue
 )
 ;
+}
 }
