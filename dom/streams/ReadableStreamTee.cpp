@@ -159,6 +159,17 @@ mozilla
 /
 dom
 /
+PromiseNativeHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 -
 inl
