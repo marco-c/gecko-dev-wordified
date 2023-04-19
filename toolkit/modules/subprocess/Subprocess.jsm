@@ -137,14 +137,6 @@ use
 strict
 "
 ;
-/
-/
-SubprocessImpl
-is
-exported
-for
-tests
-.
 var
 EXPORTED_SYMBOLS
 =
@@ -153,7 +145,7 @@ EXPORTED_SYMBOLS
 Subprocess
 "
 "
-SubprocessImpl
+getSubprocessImplForTest
 "
 ]
 ;
@@ -1512,3 +1504,12 @@ freeze
 Subprocess
 )
 ;
+function
+getSubprocessImplForTest
+(
+)
+{
+return
+SubprocessImpl
+;
+}

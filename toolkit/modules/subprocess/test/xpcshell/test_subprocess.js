@@ -5275,7 +5275,7 @@ test_cleanup
 {
 let
 {
-SubprocessImpl
+getSubprocessImplForTest
 }
 =
 ChromeUtils
@@ -5300,7 +5300,9 @@ jsm
 let
 worker
 =
-SubprocessImpl
+getSubprocessImplForTest
+(
+)
 .
 Process
 .
