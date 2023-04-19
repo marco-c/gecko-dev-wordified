@@ -124,6 +124,27 @@ deepcopy
 import
 attr
 from
+voluptuous
+import
+All
+Any
+Extra
+NotIn
+Optional
+Required
+from
+taskgraph
+import
+MAX_DEPENDENCIES
+from
+taskgraph
+.
+transforms
+.
+base
+import
+TransformSequence
+from
 taskgraph
 .
 util
@@ -152,27 +173,11 @@ taskgraph
 .
 util
 .
-treeherder
-import
-split_symbol
-from
-taskgraph
-.
-transforms
-.
-base
-import
-TransformSequence
-from
-taskgraph
-.
-util
-.
 schema
 import
 (
     
-validate_schema
+OptimizationSchema
     
 Schema
     
@@ -180,10 +185,18 @@ optionally_keyed_by
     
 resolve_keyed_by
     
-OptimizationSchema
-    
 taskref_or_string
+    
+validate_schema
 )
+from
+taskgraph
+.
+util
+.
+treeherder
+import
+split_symbol
 from
 taskgraph
 .
@@ -192,19 +205,6 @@ util
 workertypes
 import
 worker_type_implementation
-from
-voluptuous
-import
-Any
-Required
-Optional
-Extra
-All
-NotIn
-from
-taskgraph
-import
-MAX_DEPENDENCIES
 from
 .
 .
@@ -464,7 +464,7 @@ or
 decision
 '
 as
-depdency
+dependency
 names
 .
 "
@@ -1001,7 +1001,7 @@ A
 newly
 completed
 task
-supercedes
+supersedes
 the
 currently
             
@@ -2718,7 +2718,7 @@ int
 ]
         
 #
-Wether
+Whether
 any
 artifacts
 are
@@ -4261,7 +4261,18 @@ hashlib
 .
 sha256
 (
+                    
 out_of_tree_image
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
+                
 )
 .
 hexdigest
@@ -5399,7 +5410,7 @@ proxy
 bool
         
 #
-Wether
+Whether
 any
 artifacts
 are

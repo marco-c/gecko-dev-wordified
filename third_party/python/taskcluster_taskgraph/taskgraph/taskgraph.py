@@ -53,6 +53,8 @@ MPL
 0
 /
 .
+import
+attr
 from
 .
 graph
@@ -63,8 +65,6 @@ from
 task
 import
 Task
-import
-attr
 attr
 .
 s

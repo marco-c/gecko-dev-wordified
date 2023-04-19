@@ -87,9 +87,9 @@ delta
 here
 .
 import
-re
-import
 datetime
+import
+re
 PATTERN
 =
 re
