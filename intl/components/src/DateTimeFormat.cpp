@@ -4040,14 +4040,6 @@ DateTimePatternGenerator
 aDateTimePatternGenerator
 Maybe
 <
-DateTimeFormat
-:
-:
-HourCycle
->
-aHourCycle
-Maybe
-<
 Span
 <
 const
@@ -4188,7 +4180,6 @@ TryCreateFromSkeleton
 aLocale
 skeletonUtf16Buffer
 aDateTimePatternGenerator
-aHourCycle
 timeZone
 )
 ;

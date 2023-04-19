@@ -405,9 +405,6 @@ dateTimePatternGenerator
 get
 (
 )
-Nothing
-(
-)
 Some
 (
 MakeStringSpan

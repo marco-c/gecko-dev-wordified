@@ -716,9 +716,6 @@ dateTimePatternGenerator
 get
 (
 )
-Nothing
-(
-)
 Some
 (
 MakeStringSpan
@@ -838,9 +835,6 @@ yMdhhmmss
 dateTimePatternGenerator
 .
 get
-(
-)
-Nothing
 (
 )
 Some
@@ -4178,9 +4172,6 @@ yMMddHHmm
 dateTimePatternGenerator
 .
 get
-(
-)
-Nothing
 (
 )
 Some
