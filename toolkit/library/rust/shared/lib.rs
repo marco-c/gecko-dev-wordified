@@ -492,6 +492,10 @@ dap_ffi
 ;
 extern
 crate
+data_encoding_ffi
+;
+extern
+crate
 log
 ;
 use
