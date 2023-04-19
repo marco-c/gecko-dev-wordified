@@ -105,6 +105,11 @@ MFMediaEngineDecoderModule
 h
 "
 "
+MFMediaEngineExtra
+.
+h
+"
+"
 MFMediaEngineStream
 .
 h
