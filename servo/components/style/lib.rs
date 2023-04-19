@@ -494,17 +494,6 @@ servo_atoms
 ;
 #
 [
-cfg
-(
-target_pointer_width
-=
-"
-64
-"
-)
-]
-#
-[
 macro_use
 ]
 extern

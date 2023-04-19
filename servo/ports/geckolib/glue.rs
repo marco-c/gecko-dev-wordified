@@ -18004,7 +18004,9 @@ ContainerRule
 {
 rule
 .
-condition
+query_condition
+(
+)
 .
 to_css
 (
@@ -35438,6 +35440,9 @@ quirks_mode
 )
 for_smil_animation
 for_non_inherited_property
+:
+None
+container_info
 :
 None
 rule_cache_conditions
