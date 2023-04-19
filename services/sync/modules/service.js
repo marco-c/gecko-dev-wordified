@@ -847,6 +847,12 @@ return
 result
 ;
 }
+const
+lazy
+=
+{
+}
+;
 /
 /
 A
@@ -888,7 +894,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 browserSessionID
 "
@@ -9305,6 +9311,8 @@ in
 browser
 session
 {
+lazy
+.
 browserSessionID
 }
 )

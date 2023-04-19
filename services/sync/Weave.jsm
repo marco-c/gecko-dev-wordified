@@ -104,11 +104,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -131,7 +137,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 syncUsername
 "
@@ -1008,6 +1014,8 @@ return
 (
 !
 !
+lazy
+.
 syncUsername
 &
 &
@@ -1094,6 +1102,8 @@ aLoadInfo
 let
 dir
 =
+lazy
+.
 FileUtils
 .
 getDir

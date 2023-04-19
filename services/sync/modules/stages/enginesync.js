@@ -183,11 +183,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Doctor
 "
@@ -1593,6 +1599,8 @@ fastSync
 )
 {
 await
+lazy
+.
 Doctor
 .
 consult

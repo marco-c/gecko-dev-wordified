@@ -304,11 +304,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 OS
 :
@@ -347,7 +353,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -392,6 +398,8 @@ path
 let
 basename
 =
+lazy
+.
 OS
 .
 Path
@@ -402,6 +410,8 @@ path
 )
 ;
 return
+lazy
+.
 OS
 .
 File
@@ -412,6 +422,8 @@ basename
 {
 from
 :
+lazy
+.
 OS
 .
 Constants
@@ -8810,6 +8822,8 @@ for
 let
 ids
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray

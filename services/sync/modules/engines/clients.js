@@ -444,11 +444,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -788,6 +794,8 @@ this
 .
 fxAccounts
 =
+lazy
+.
 fxAccounts
 ;
 this
@@ -2401,6 +2409,8 @@ let
 localFxADeviceId
 =
 await
+lazy
+.
 fxAccounts
 .
 device
@@ -3147,6 +3157,8 @@ let
 localFxADeviceId
 =
 await
+lazy
+.
 fxAccounts
 .
 device
@@ -4261,6 +4273,8 @@ const
 localFxADeviceId
 =
 await
+lazy
+.
 fxAccounts
 .
 device

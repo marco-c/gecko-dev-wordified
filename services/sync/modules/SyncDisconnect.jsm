@@ -104,11 +104,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Services
 :
@@ -206,7 +212,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -246,7 +252,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 FxAccountsCommon
 "
@@ -488,6 +494,8 @@ getWeave
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -684,6 +692,8 @@ lock
 "
 )
 ;
+lazy
+.
 setTimeout
 (
 checkLock
@@ -753,6 +763,8 @@ logs
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -928,12 +940,16 @@ from
 the
 profile
 .
+lazy
+.
 Services
 .
 prefs
 .
 clearUserPref
 (
+lazy
+.
 FxAccountsCommon
 .
 PREF_LAST_FXA_USER
@@ -1097,6 +1113,8 @@ Object
 .
 keys
 (
+lazy
+.
 Sanitizer
 .
 items
@@ -1116,6 +1134,8 @@ openWindows
 )
 ;
 await
+lazy
+.
 Sanitizer
 .
 sanitize
@@ -1222,6 +1242,8 @@ startOver
 )
 ;
 await
+lazy
+.
 fxAccounts
 .
 signOut
@@ -1448,6 +1470,8 @@ aborted
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -1508,6 +1532,8 @@ state
 if
 (
 !
+lazy
+.
 Utils
 .
 ensureMPUnlocked
@@ -1797,6 +1823,8 @@ promiseDisconnectFinished
 ;
 }
 ;
+lazy
+.
 AsyncShutdown
 .
 quitApplicationGranted
@@ -1859,6 +1887,8 @@ blocker
 did
 call
 us
+.
+lazy
 .
 AsyncShutdown
 .

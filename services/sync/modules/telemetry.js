@@ -226,11 +226,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Async
 :
@@ -464,7 +470,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -526,7 +532,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 WeaveService
 "
@@ -559,6 +565,8 @@ wrappedJSObject
 const
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -859,6 +867,8 @@ tryGetMonotonicTimestamp
 try
 {
 return
+lazy
+.
 Services
 .
 telemetry
@@ -1174,6 +1184,8 @@ key
 }
 }
 return
+lazy
+.
 ObjectUtils
 .
 isEmpty
@@ -1926,6 +1938,8 @@ reProfileDir
 new
 RegExp
 (
+lazy
+.
 OS
 .
 Constants
@@ -2619,6 +2633,8 @@ engine
 let
 engineImpl
 =
+lazy
+.
 Weave
 .
 Service
@@ -3637,6 +3653,8 @@ this
 .
 syncNodeType
 =
+lazy
+.
 Weave
 .
 Service
@@ -3692,6 +3710,8 @@ engines
 let
 status
 =
+lazy
+.
 Status
 .
 engines
@@ -3732,6 +3752,8 @@ statusObject
 let
 serviceStatus
 =
+lazy
+.
 Status
 .
 service
@@ -3766,6 +3788,8 @@ statusObject
 let
 syncStatus
 =
+lazy
+.
 Status
 .
 sync
@@ -4553,6 +4577,8 @@ this
 .
 maxEventsCount
 =
+lazy
+.
 Svc
 .
 Prefs
@@ -4571,6 +4597,8 @@ this
 .
 maxPayloadCount
 =
+lazy
+.
 Svc
 .
 Prefs
@@ -4588,6 +4616,8 @@ this
 .
 submissionInterval
 =
+lazy
+.
 Svc
 .
 Prefs
@@ -4607,6 +4637,8 @@ this
 .
 lastSubmissionTime
 =
+lazy
+.
 Services
 .
 telemetry
@@ -4726,10 +4758,14 @@ this
 .
 sessionStartDate
 =
+lazy
+.
 TelemetryUtils
 .
 toLocalTimeISOString
 (
+lazy
+.
 TelemetryUtils
 .
 truncateToHours
@@ -4738,6 +4774,8 @@ sessionStartDate
 )
 )
 ;
+lazy
+.
 TelemetryController
 .
 registerSyncPingShutdown
@@ -4760,6 +4798,8 @@ deviceId
 )
 {
 return
+lazy
+.
 fxAccounts
 .
 telemetry
@@ -4994,11 +5034,15 @@ syncIsEnabled
 )
 {
 return
+lazy
+.
 WeaveService
 .
 enabled
 &
 &
+lazy
+.
 WeaveService
 .
 ready
@@ -5045,6 +5089,8 @@ first
 ;
 }
 return
+lazy
+.
 Weave
 .
 Service
@@ -5127,6 +5173,8 @@ getFxaDevices
 )
 {
 return
+lazy
+.
 fxAccounts
 .
 device
@@ -5160,6 +5208,8 @@ return
 {
 os
 :
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -5482,6 +5532,8 @@ of
 TOPICS
 )
 {
+lazy
+.
 Observers
 .
 add
@@ -5514,6 +5566,8 @@ of
 TOPICS
 )
 {
+lazy
+.
 Observers
 .
 remove
@@ -5654,6 +5708,8 @@ to
 telemetry
 )
 ;
+lazy
+.
 TelemetryController
 .
 submitExternalPing
@@ -5776,6 +5832,8 @@ sync
 if
 (
 !
+lazy
+.
 FxAccounts
 .
 config
@@ -5785,6 +5843,8 @@ isProductionConfig
 )
 |
 |
+lazy
+.
 Services
 .
 prefs
@@ -6096,6 +6156,8 @@ new
 state
 )
 .
+lazy
+.
 fxAccounts
 .
 device
@@ -6113,6 +6175,8 @@ deviceId
 let
 sanitizedDeviceId
 =
+lazy
+.
 fxAccounts
 .
 telemetry
@@ -6246,6 +6310,8 @@ substr
 32
 )
 ;
+lazy
+.
 Services
 .
 telemetry
@@ -6331,6 +6397,8 @@ onAccountLogout
 (
 )
 {
+lazy
+.
 Services
 .
 telemetry
@@ -6396,6 +6464,8 @@ _shouldSubmitForDataChange
 let
 newID
 =
+lazy
+.
 fxAccounts
 .
 telemetry
@@ -6652,6 +6722,8 @@ this
 .
 lastSubmissionTime
 =
+lazy
+.
 Services
 .
 telemetry
@@ -6677,6 +6749,8 @@ them
 let
 current_uid
 =
+lazy
+.
 fxAccounts
 .
 telemetry
@@ -6773,6 +6847,8 @@ current
 null
 &
 &
+lazy
+.
 Services
 .
 telemetry
@@ -6803,6 +6879,8 @@ this
 .
 lastSubmissionTime
 =
+lazy
+.
 Services
 .
 telemetry
@@ -7004,6 +7082,8 @@ hist
 let
 histogram
 =
+lazy
+.
 Services
 .
 telemetry
@@ -7150,6 +7230,8 @@ if
 extra
 &
 &
+lazy
+.
 Resource
 .
 serverTime
@@ -7167,6 +7249,8 @@ serverTime
 =
 String
 (
+lazy
+.
 Resource
 .
 serverTime
@@ -7997,6 +8081,8 @@ cause
 }
 if
 (
+lazy
+.
 Async
 .
 isShutdownException
@@ -8094,6 +8180,8 @@ if
 (
 error
 instanceof
+lazy
+.
 AuthenticationError
 )
 {

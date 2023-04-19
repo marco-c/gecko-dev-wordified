@@ -97,11 +97,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BridgedEngine
 :
@@ -245,7 +251,7 @@ XPCOMUtils
 .
 defineLazyModuleGetter
 (
-this
+lazy
 "
 extensionStorageSyncKinto
 "
@@ -271,7 +277,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 StorageSyncService
 "
@@ -430,6 +436,8 @@ UI
 const
 forced
 =
+lazy
+.
 Svc
 .
 Prefs
@@ -454,6 +462,8 @@ forced
 ;
 }
 return
+lazy
+.
 Svc
 .
 Prefs
@@ -596,6 +606,8 @@ state
 .
 if
 (
+lazy
+.
 Svc
 .
 Prefs
@@ -606,6 +618,8 @@ PREF_FORCE_ENABLE
 )
 )
 {
+lazy
+.
 Svc
 .
 Prefs
@@ -641,6 +655,8 @@ service
 let
 bridge
 =
+lazy
+.
 StorageSyncService
 .
 getInterface
@@ -650,6 +666,8 @@ Ci
 mozIBridgedSyncEngine
 )
 ;
+lazy
+.
 BridgedEngine
 .
 call
@@ -708,6 +726,8 @@ register
 (
 logger_target
 new
+lazy
+.
 LogAdapter
 (
 this
@@ -724,6 +744,8 @@ prototype
 {
 __proto__
 :
+lazy
+.
 BridgedEngine
 .
 prototype
@@ -807,6 +829,8 @@ json
 {
 try
 {
+lazy
+.
 extensionStorageSync
 .
 notifyListeners
@@ -1079,6 +1103,8 @@ if
 info
 )
 {
+lazy
+.
 Observers
 .
 notify
@@ -1433,6 +1459,8 @@ ExtensionStorageEngineKinto
 service
 )
 {
+lazy
+.
 SyncEngine
 .
 call
@@ -1476,6 +1504,8 @@ prototype
 {
 __proto__
 :
+lazy
+.
 SyncEngine
 .
 prototype
@@ -1515,6 +1545,8 @@ _sync
 )
 {
 return
+lazy
+.
 extensionStorageSyncKinto
 .
 syncAll
@@ -1596,6 +1628,8 @@ _wipeClient
 )
 {
 return
+lazy
+.
 extensionStorageSyncKinto
 .
 clearAll
@@ -1690,6 +1724,8 @@ _tracker
 score
 >
 =
+lazy
+.
 MULTI_DEVICE_THRESHOLD
 )
 {
@@ -1816,6 +1852,8 @@ name
 engine
 )
 {
+lazy
+.
 Tracker
 .
 call
@@ -1839,6 +1877,8 @@ prototype
 {
 __proto__
 :
+lazy
+.
 Tracker
 .
 prototype
@@ -1870,6 +1910,8 @@ onStart
 (
 )
 {
+lazy
+.
 Svc
 .
 Obs
@@ -1895,6 +1937,8 @@ onStop
 (
 )
 {
+lazy
+.
 Svc
 .
 Obs
@@ -1985,6 +2029,8 @@ this
 score
 +
 =
+lazy
+.
 SCORE_INCREMENT_MEDIUM
 ;
 }

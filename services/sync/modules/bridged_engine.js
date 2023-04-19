@@ -240,11 +240,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Async
 :
@@ -429,6 +435,8 @@ this
 .
 _log
 =
+lazy
+.
 Log
 .
 repository
@@ -464,6 +472,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -1111,6 +1121,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -1131,6 +1143,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -1151,6 +1165,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -1171,6 +1187,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level

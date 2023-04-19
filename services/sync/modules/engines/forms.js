@@ -243,11 +243,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormHistory
 "
@@ -433,6 +439,8 @@ results
 }
 }
 ;
+lazy
+.
 FormHistory
 .
 search
@@ -455,6 +463,8 @@ changes
 if
 (
 !
+lazy
+.
 FormHistory
 .
 enabled
@@ -498,6 +508,8 @@ resolve
 }
 }
 ;
+lazy
+.
 FormHistory
 .
 update

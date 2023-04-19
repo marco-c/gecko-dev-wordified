@@ -537,11 +537,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -564,7 +570,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonRepository
 "
@@ -2939,6 +2945,8 @@ addon
 .
 pendingOperations
 &
+lazy
+.
 AddonManager
 .
 PENDING_UNINSTALL
@@ -3860,6 +3868,8 @@ id
 )
 {
 return
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -3906,6 +3916,8 @@ guid
 )
 {
 return
+lazy
+.
 AddonManager
 .
 getAddonBySyncGUID
@@ -4206,6 +4218,8 @@ addon
 .
 scope
 &
+lazy
+.
 AddonManager
 .
 SCOPE_PROFILE
@@ -4451,6 +4465,8 @@ ignoreRepoCheck
 |
 |
 !
+lazy
+.
 AddonRepository
 .
 cacheEnabled
@@ -4471,6 +4487,8 @@ res
 =
 >
 {
+lazy
+.
 AddonRepository
 .
 getCachedAddonByID
@@ -5386,6 +5404,8 @@ getClientItems
 )
 {
 return
+lazy
+.
 AddonManager
 .
 getAllAddons
@@ -5412,6 +5432,8 @@ item
 .
 pendingOperations
 &
+lazy
+.
 AddonManager
 .
 PENDING_ENABLE
@@ -5429,6 +5451,8 @@ item
 .
 pendingOperations
 &
+lazy
+.
 AddonManager
 .
 PENDING_DISABLE
@@ -5563,6 +5587,8 @@ original
 .
 pendingOperations
 &
+lazy
+.
 AddonManager
 .
 PENDING_UNINSTALL

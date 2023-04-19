@@ -255,11 +255,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BookmarkValidator
 :
@@ -403,7 +409,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PlacesBundle
 "
@@ -441,7 +447,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ANNOS_TO_TRACK
 "
@@ -450,9 +456,13 @@ ANNOS_TO_TRACK
 =
 >
 [
+lazy
+.
 PlacesUtils
 .
 LMANNO_FEEDURI
+lazy
+.
 PlacesUtils
 .
 LMANNO_SITEURI
@@ -628,7 +638,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 IGNORED_SOURCES
 "
@@ -637,6 +647,8 @@ IGNORED_SOURCES
 =
 >
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -644,6 +656,8 @@ bookmarks
 SOURCES
 .
 SYNC
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -651,6 +665,8 @@ bookmarks
 SOURCES
 .
 IMPORT
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -658,6 +674,8 @@ bookmarks
 SOURCES
 .
 RESTORE
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -665,6 +683,8 @@ bookmarks
 SOURCES
 .
 RESTORE_ON_STARTUP
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1078,6 +1098,8 @@ parentid
 let
 dateAdded
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2084,6 +2106,8 @@ newSyncID
 )
 {
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2124,6 +2148,8 @@ let
 shouldWipeRemote
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2298,6 +2324,8 @@ getSyncID
 )
 {
 return
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2336,6 +2364,8 @@ let
 newSyncID
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2470,6 +2500,8 @@ already
 applied
 .
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -2537,6 +2569,8 @@ starting
 )
 ;
 await
+lazy
+.
 PlacesBackups
 .
 create
@@ -2911,6 +2945,8 @@ elapsedSinceMaintenance
 )
 ;
 await
+lazy
+.
 PlacesDBUtils
 .
 maintenanceOnIdle
@@ -2973,6 +3009,8 @@ this
 )
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -3010,6 +3048,8 @@ _modified
 changes
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -3104,6 +3144,8 @@ _resetClient
 )
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -3243,6 +3285,8 @@ apply
 {
 remoteTimeSeconds
 :
+lazy
+.
 Resource
 .
 serverTime
@@ -4228,6 +4272,8 @@ let
 item
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -4458,6 +4504,8 @@ try
 frecency
 =
 await
+lazy
+.
 PlacesSyncUtils
 .
 history
@@ -4555,6 +4603,8 @@ all
 bookmarks
 .
 await
+lazy
+.
 PlacesBackups
 .
 create
@@ -4564,6 +4614,8 @@ true
 )
 ;
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -4668,12 +4720,16 @@ _openMirror
 let
 mirrorPath
 =
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -4692,12 +4748,16 @@ sqlite
 )
 ;
 await
+lazy
+.
 OS
 .
 File
 .
 makeDir
 (
+lazy
+.
 OS
 .
 Path
@@ -4709,6 +4769,8 @@ mirrorPath
 {
 from
 :
+lazy
+.
 OS
 .
 Constants
@@ -4720,6 +4782,8 @@ profileDir
 )
 ;
 return
+lazy
+.
 SyncedBookmarksMirror
 .
 open
@@ -4738,6 +4802,8 @@ counts
 =
 >
 {
+lazy
+.
 Observers
 .
 notify
@@ -4772,6 +4838,8 @@ problems
 =
 >
 {
+lazy
+.
 Observers
 .
 notify
@@ -4824,6 +4892,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -5031,6 +5101,8 @@ onStart
 (
 )
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5058,6 +5130,8 @@ this
 )
 )
 ;
+lazy
+.
 PlacesUtils
 .
 observers
@@ -5167,6 +5241,8 @@ onStop
 (
 )
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5176,6 +5252,8 @@ removeObserver
 this
 )
 ;
+lazy
+.
 PlacesUtils
 .
 observers
@@ -5287,6 +5365,8 @@ getChangedIDs
 )
 {
 return
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -5628,6 +5708,8 @@ changed
 :
 if
 (
+lazy
+.
 IGNORED_SOURCES
 .
 includes
@@ -5761,6 +5843,8 @@ source
 {
 if
 (
+lazy
+.
 IGNORED_SOURCES
 .
 includes
@@ -5778,6 +5862,8 @@ isAnno
 &
 &
 !
+lazy
+.
 ANNOS_TO_TRACK
 .
 includes

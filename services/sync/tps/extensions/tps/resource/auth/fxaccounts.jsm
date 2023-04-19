@@ -244,11 +244,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Services
 "
@@ -271,7 +277,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -516,6 +522,8 @@ uri
 let
 mainWindow
 =
+lazy
+.
 Services
 .
 wm
@@ -731,6 +739,8 @@ let
 resp
 =
 await
+lazy
+.
 fetch
 (
 restmailURI
@@ -1087,6 +1097,8 @@ let
 deleteResult
 =
 await
+lazy
+.
 fetch
 (
 restmailURI

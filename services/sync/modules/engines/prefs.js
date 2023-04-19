@@ -280,11 +280,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PREFS_GUID
 "
@@ -308,7 +314,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -450,7 +456,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 ALLOW_ARBITRARY
 "
@@ -534,7 +540,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PREFS_DOC_URL
 "
@@ -588,6 +594,8 @@ this
 }
 if
 (
+lazy
+.
 ALLOW_ARBITRARY
 )
 {
@@ -827,6 +835,8 @@ modified
 {
 changedIDs
 [
+lazy
+.
 PREFS_GUID
 ]
 =
@@ -1878,6 +1888,8 @@ true
 +
 See
 {
+lazy
+.
 PREFS_DOC_URL
 }
 for
@@ -2184,6 +2196,8 @@ try
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -2331,6 +2345,8 @@ allprefs
 ;
 allprefs
 [
+lazy
+.
 PREFS_GUID
 ]
 =
@@ -2374,6 +2390,8 @@ id
 =
 =
 =
+lazy
+.
 PREFS_GUID
 ;
 }
@@ -2399,6 +2417,8 @@ if
 id
 =
 =
+lazy
+.
 PREFS_GUID
 )
 {
@@ -2491,6 +2511,8 @@ record
 id
 !
 =
+lazy
+.
 PREFS_GUID
 )
 {
@@ -2897,6 +2919,8 @@ getPrefsGUIDForTest
 )
 {
 return
+lazy
+.
 PREFS_GUID
 ;
 }

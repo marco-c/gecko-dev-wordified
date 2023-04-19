@@ -190,6 +190,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 /
 /
 The
@@ -200,7 +206,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 weaveXPCService
 "
@@ -396,7 +402,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -713,6 +719,8 @@ getTabClients
 filter
 )
 {
+lazy
+.
 log
 .
 info
@@ -752,11 +760,15 @@ anything
 if
 (
 !
+lazy
+.
 weaveXPCService
 .
 ready
 )
 {
+lazy
+.
 log
 .
 debug
@@ -886,6 +898,8 @@ _makeClient
 client
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -917,6 +931,8 @@ urlHistory
 0
 ]
 ;
+lazy
+.
 log
 .
 trace
@@ -1018,6 +1034,8 @@ clientRepr
 )
 ;
 }
+lazy
+.
 log
 .
 info
@@ -1112,6 +1130,8 @@ lastFetch
 TABS_FRESH_ENOUGH_INTERVAL
 )
 {
+lazy
+.
 log
 .
 info
@@ -1176,6 +1196,8 @@ Weave
 CLIENT_NOT_CONFIGURED
 )
 {
+lazy
+.
 log
 .
 info
@@ -1215,6 +1237,8 @@ can
 .
 try
 {
+lazy
+.
 log
 .
 info
@@ -1260,6 +1284,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -1283,6 +1309,8 @@ topic
 data
 )
 {
+lazy
+.
 log
 .
 trace
@@ -1496,11 +1524,15 @@ isConfiguredToSyncTabs
 if
 (
 !
+lazy
+.
 weaveXPCService
 .
 ready
 )
 {
+lazy
+.
 log
 .
 debug
