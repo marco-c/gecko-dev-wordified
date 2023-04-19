@@ -5689,6 +5689,16 @@ name
 after
 "
 )
+MSG_DEF
+(
+JSMSG_CLASS_EXPECTED
+0
+JSEXN_SYNTAXERR
+"
+expected
+class
+"
+)
 /
 /
 UTF
