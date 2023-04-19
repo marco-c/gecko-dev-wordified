@@ -12759,6 +12759,8 @@ numMappedBytes
 map
 -
 >
+header
+.
 numMappedWords
 *
 sizeof
@@ -12780,6 +12782,8 @@ frame
 map
 -
 >
+header
+.
 frameOffsetFromTop
 *
 sizeof
@@ -13077,6 +13081,8 @@ MOZ_ASSERT_IF
 map
 -
 >
+header
+.
 numExitStubWords
 >
 0
@@ -13085,6 +13091,8 @@ stackWords
 map
 -
 >
+header
+.
 numExitStubWords
 -
 1
@@ -13119,6 +13127,8 @@ i
 map
 -
 >
+header
+.
 numMappedWords
 ;
 i
@@ -13279,6 +13289,8 @@ if
 map
 -
 >
+header
+.
 hasDebugFrameWithLiveRefs
 )
 {

@@ -5797,7 +5797,7 @@ metadataTier_
 >
 stackMaps
 .
-sort
+finishAndSort
 (
 )
 ;
@@ -5868,6 +5868,7 @@ stack
 slot
 pointerness
 .
+const
 uint8_t
 *
 previousNextInsnAddr
