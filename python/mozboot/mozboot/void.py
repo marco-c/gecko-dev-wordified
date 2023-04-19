@@ -98,6 +98,9 @@ make
 mercurial
 "
 "
+watchman
+"
+"
 unzip
 "
 "
