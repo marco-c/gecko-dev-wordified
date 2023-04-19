@@ -642,7 +642,11 @@ IntrinsicId
 ids
 Shareable
 sharedMemory
-MutableHandleWasmModuleObject
+MutableHandle
+<
+WasmModuleObject
+*
+>
 result
 )
 {

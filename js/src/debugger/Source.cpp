@@ -477,7 +477,11 @@ h
 /
 for
 Bytes
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 #
 include
 "
@@ -1806,7 +1810,11 @@ return
 false
 ;
 }
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 instanceObj
 (
 cx

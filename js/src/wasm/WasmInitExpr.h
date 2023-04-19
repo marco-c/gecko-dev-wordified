@@ -479,7 +479,11 @@ const
 ValVector
 &
 globalImportValues
-HandleWasmInstanceObject
+Handle
+<
+WasmInstanceObject
+*
+>
 instanceObj
 MutableHandleVal
 result

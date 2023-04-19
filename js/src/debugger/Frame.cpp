@@ -11468,7 +11468,11 @@ isWasmDebugFrame
 )
 )
 {
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 instance
 (
 cx

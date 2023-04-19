@@ -3540,7 +3540,11 @@ the
 innermost
 instance
 .
-RootedWasmInstanceObject
+Rooted
+<
+WasmInstanceObject
+*
+>
 keepAlive
 (
 cx
