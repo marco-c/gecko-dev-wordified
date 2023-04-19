@@ -1498,6 +1498,10 @@ nsCSPScriptSrcDirective
 *
 mScriptSrc
 ;
+nsCSPStyleSrcDirective
+*
+mStyleSrc
+;
 /
 /
 cache
