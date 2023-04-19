@@ -181,7 +181,7 @@ include
 "
 vm
 /
-ErrorContext
+BigIntType
 .
 h
 "

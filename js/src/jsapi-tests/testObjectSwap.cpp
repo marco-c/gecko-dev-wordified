@@ -195,6 +195,15 @@ include
 "
 vm
 /
+PlainObject
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl

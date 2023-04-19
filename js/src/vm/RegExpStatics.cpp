@@ -122,7 +122,7 @@ include
 "
 gc
 /
-GCContext
+Zone
 .
 h
 "
@@ -131,9 +131,7 @@ include
 "
 vm
 /
-NativeObject
--
-inl
+RegExpShared
 .
 h
 "

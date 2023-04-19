@@ -187,6 +187,17 @@ SharedMem
 .
 h
 "
+#
+include
+"
+vm
+/
+JSContext
+-
+inl
+.
+h
+"
 inline
 JSRuntime
 *

@@ -128,13 +128,16 @@ include
 "
 vm
 /
-Shape
+NativeObject
 .
 h
 "
 namespace
 js
 {
+class
+Shape
+;
 class
 StringObject
 :

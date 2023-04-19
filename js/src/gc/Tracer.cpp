@@ -237,6 +237,15 @@ include
 "
 vm
 /
+Scope
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 .
 h

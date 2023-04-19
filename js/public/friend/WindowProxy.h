@@ -392,9 +392,6 @@ JS
 :
 Handle
 struct
-JSClass
-;
-struct
 JS_PUBLIC_API
 JSContext
 ;

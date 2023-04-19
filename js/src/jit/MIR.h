@@ -326,6 +326,15 @@ include
 "
 vm
 /
+BigIntType
+.
+h
+"
+#
+include
+"
+vm
+/
 EnvironmentObject
 .
 h
