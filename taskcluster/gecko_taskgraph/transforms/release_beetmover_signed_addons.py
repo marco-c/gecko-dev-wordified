@@ -69,10 +69,6 @@ description
 "
 "
 "
-import
-copy
-import
-logging
 from
 gecko_taskgraph
 .
@@ -97,14 +93,6 @@ transforms
 beetmover
 import
 craft_release_properties
-from
-gecko_taskgraph
-.
-transforms
-.
-task
-import
-task_description_schema
 from
 gecko_taskgraph
 .
@@ -136,16 +124,16 @@ scriptworker
 import
 (
     
-generate_beetmover_artifact_map
-    
-generate_beetmover_upstream_artifacts
+get_beetmover_bucket_scope
     
 get_beetmover_action_scope
     
-get_beetmover_bucket_scope
+generate_beetmover_upstream_artifacts
+    
+generate_beetmover_artifact_map
 )
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
@@ -153,10 +141,22 @@ treeherder
 import
 inherit_treeherder_from_dep
 from
+gecko_taskgraph
+.
+transforms
+.
+task
+import
+task_description_schema
+from
 voluptuous
 import
-Optional
 Required
+Optional
+import
+logging
+import
+copy
 logger
 =
 logging

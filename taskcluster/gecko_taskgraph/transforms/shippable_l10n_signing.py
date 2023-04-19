@@ -97,7 +97,7 @@ import
 generate_specifications_of_artifacts_to_sign
 )
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
