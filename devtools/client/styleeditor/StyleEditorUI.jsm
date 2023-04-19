@@ -573,6 +573,16 @@ error
 occured
 *
 *
+/
+class
+StyleEditorUI
+extends
+EventEmitter
+{
+/
+*
+*
+*
 param
 {
 Toolbox
@@ -627,8 +637,7 @@ database
 .
 *
 /
-function
-StyleEditorUI
+constructor
 (
 toolbox
 commands
@@ -636,11 +645,8 @@ panelDoc
 cssProperties
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this
@@ -955,11 +961,6 @@ _onOrigSourcesPrefChanged
 )
 ;
 }
-StyleEditorUI
-.
-prototype
-=
-{
 get
 cssProperties
 (
@@ -1146,8 +1147,6 @@ handlers
 *
 /
 createUI
-:
-function
 (
 )
 {
@@ -2084,8 +2083,6 @@ indicator
 *
 /
 _clear
-:
-function
 (
 )
 {
@@ -2376,8 +2373,6 @@ null
 *
 /
 _addStyleSheet
-:
-function
 (
 resource
 )
@@ -2782,8 +2777,6 @@ created
 *
 /
 _getNextFriendlyIndex
-:
-function
 (
 styleSheet
 )
@@ -3221,8 +3214,6 @@ picker
 *
 /
 _importFromFile
-:
-function
 (
 file
 parentWindow
@@ -3409,8 +3400,6 @@ data
 *
 /
 _onError
-:
-function
 (
 data
 )
@@ -3439,8 +3428,6 @@ pref
 *
 /
 _toggleOrigSources
-:
-function
 (
 )
 {
@@ -3488,8 +3475,6 @@ editor
 *
 /
 _toggleMediaSidebar
-:
-function
 (
 )
 {
@@ -3536,8 +3521,6 @@ setting
 *
 /
 _onMediaPrefChanged
-:
-function
 (
 )
 {
@@ -3650,8 +3633,6 @@ menu
 *
 /
 _updateContextMenuItems
-:
-function
 (
 )
 {
@@ -3736,8 +3717,6 @@ tab
 *
 /
 _openLinkNewTab
-:
-function
 (
 )
 {
@@ -3773,8 +3752,6 @@ URL
 *
 /
 _copyUrl
-:
-function
 (
 )
 {
@@ -3824,8 +3801,6 @@ remove
 *
 /
 _removeStyleSheetEditor
-:
-function
 (
 editor
 )
@@ -3946,8 +3921,6 @@ UI
 *
 /
 _clearStyleSheetEditors
-:
-function
 (
 )
 {
@@ -4017,8 +3990,6 @@ for
 *
 /
 _sourceLoaded
-:
-function
 (
 editor
 )
@@ -4715,8 +4686,6 @@ selected
 *
 /
 switchToSelectedSheet
-:
-function
 (
 )
 {
@@ -4881,8 +4850,6 @@ test
 *
 /
 _isEditorToSelect
-:
-function
 (
 editor
 )
@@ -5029,8 +4996,6 @@ used
 *
 /
 _selectEditor
-:
-function
 (
 editor
 line
@@ -5365,8 +5330,6 @@ summaryPromise
 ;
 }
 getEditorSummary
-:
-function
 (
 editor
 )
@@ -5453,8 +5416,6 @@ summary
 ;
 }
 getEditorDetails
-:
-function
 (
 editor
 )
@@ -5571,8 +5532,6 @@ identified
 *
 /
 getStyleSheetIdentifier
-:
-function
 (
 styleSheet
 )
@@ -5675,8 +5634,6 @@ null
 *
 /
 getOriginalSourceSheet
-:
-function
 (
 sourceId
 )
@@ -5813,8 +5770,6 @@ null
 *
 /
 getStylesheetFrontForGeneratedURL
-:
-function
 (
 url
 )
@@ -5975,8 +5930,6 @@ used
 *
 /
 selectStyleSheet
-:
-function
 (
 stylesheet
 line
@@ -6078,8 +6031,6 @@ changed
 *
 /
 _summaryChange
-:
-function
 (
 editor
 )
@@ -6142,8 +6093,6 @@ used
 *
 /
 _updateSummaryForEditor
-:
-function
 (
 editor
 summary
@@ -6531,8 +6480,6 @@ of
 *
 /
 _updateMediaList
-:
-function
 (
 editor
 )
@@ -7279,8 +7226,6 @@ object
 *
 /
 _onMediaConditionClick
-:
-function
 (
 e
 )
@@ -7520,8 +7465,6 @@ properties
 *
 /
 _jumpToLocation
-:
-function
 (
 location
 )
@@ -8115,8 +8058,6 @@ break
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -8317,4 +8258,3 @@ null
 }
 }
 }
-;
