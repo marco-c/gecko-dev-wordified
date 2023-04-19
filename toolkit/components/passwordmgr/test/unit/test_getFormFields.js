@@ -4,7 +4,7 @@
 *
 Test
 for
-LoginManagerChild
+LoginFormState
 .
 _getFormFields
 .
@@ -2889,7 +2889,7 @@ document
 let
 actual
 =
-lmc
+loginFormState
 .
 _getFormFields
 (
