@@ -9373,16 +9373,6 @@ selectors
 [
 "
 #
-margins
-"
-"
-#
-headers
--
-footers
-"
-"
-#
 backgrounds
 "
 "
