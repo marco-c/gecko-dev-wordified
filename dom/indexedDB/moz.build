@@ -329,11 +329,6 @@ KeyPath
 h
 "
 "
-PermissionRequestBase
-.
-h
-"
-"
 SerializationHelpers
 .
 h
@@ -450,11 +445,6 @@ cpp
 "
 "
 KeyPath
-.
-cpp
-"
-"
-PermissionRequestBase
 .
 cpp
 "
