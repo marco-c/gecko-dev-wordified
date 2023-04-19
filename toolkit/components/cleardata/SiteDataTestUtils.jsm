@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 swm
 "
@@ -170,7 +176,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 indexedDB
@@ -441,6 +447,8 @@ origin
 let
 request
 =
+lazy
+.
 indexedDB
 .
 openForPrincipal
@@ -1586,6 +1594,8 @@ true
 let
 request
 =
+lazy
+.
 indexedDB
 .
 openForPrincipal
@@ -1898,6 +1908,8 @@ origin
 let
 serviceWorkers
 =
+lazy
+.
 swm
 .
 getAllRegistrations
@@ -2067,6 +2079,8 @@ host
 return
 ;
 }
+lazy
+.
 swm
 .
 removeListener
@@ -2082,6 +2096,8 @@ registration
 }
 }
 ;
+lazy
+.
 swm
 .
 addListener
@@ -2204,6 +2220,8 @@ host
 return
 ;
 }
+lazy
+.
 swm
 .
 removeListener
@@ -2219,6 +2237,8 @@ registration
 }
 }
 ;
+lazy
+.
 swm
 .
 addListener

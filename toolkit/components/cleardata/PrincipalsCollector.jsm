@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 serviceWorkerManager
 "
@@ -836,6 +842,8 @@ workers
 let
 serviceWorkers
 =
+lazy
+.
 serviceWorkerManager
 .
 getAllRegistrations
