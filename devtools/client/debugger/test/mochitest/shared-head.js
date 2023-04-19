@@ -1338,7 +1338,10 @@ url
 .
 includes
 (
+encodeURI
+(
 sourceOrUrl
+)
 )
 )
 {
