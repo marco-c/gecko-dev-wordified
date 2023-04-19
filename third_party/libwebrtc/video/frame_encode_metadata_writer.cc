@@ -1446,7 +1446,7 @@ modified_buffer
 SpsVuiRewriter
 :
 :
-ParseOutgoingBitstreamAndRewriteSps
+ParseOutgoingBitstreamAndRewrite
 (
 buffer
 encoded_image

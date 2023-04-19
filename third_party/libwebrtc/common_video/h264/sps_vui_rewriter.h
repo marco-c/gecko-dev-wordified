@@ -407,11 +407,16 @@ from
 |
 buffer
 |
+strips
+AUD
+blocks
 and
 rewrites
 VUI
 in
 SPS
+/
+/
 blocks
 if
 necessary
@@ -421,7 +426,7 @@ rtc
 :
 :
 Buffer
-ParseOutgoingBitstreamAndRewriteSps
+ParseOutgoingBitstreamAndRewrite
 (
 rtc
 :
