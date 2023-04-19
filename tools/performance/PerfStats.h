@@ -419,6 +419,11 @@ MACRO
 (
 JSBC_IO_Write
 )
+\
+MACRO
+(
+MajorGC
+)
 namespace
 mozilla
 {
