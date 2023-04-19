@@ -860,11 +860,9 @@ Step
 DefineDataProperty
 (
 newList
-(
 len
 -
 k
-)
 -
 1
 E
@@ -1240,6 +1238,8 @@ k
 ;
 }
 }
+else
+{
 /
 *
 Step
@@ -1247,8 +1247,6 @@ Step
 .
 *
 /
-else
-{
 /
 *
 Step
@@ -1956,7 +1954,6 @@ ITEM_KIND_VALUE
 )
 ;
 }
-;
 SetCanonicalName
 (
 TupleValues
