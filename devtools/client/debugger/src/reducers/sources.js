@@ -1462,16 +1462,6 @@ state
 .
 plainUrls
 }
-sourcesWithUrls
-:
-[
-.
-.
-.
-state
-.
-sourcesWithUrls
-]
 }
 ;
 const
