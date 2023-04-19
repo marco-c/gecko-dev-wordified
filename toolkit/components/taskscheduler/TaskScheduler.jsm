@@ -119,11 +119,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
 (
-this
+lazy
 "
 WinImpl
 "
@@ -149,7 +155,7 @@ XPCOMUtils
 .
 defineLazyModuleGetter
 (
-this
+lazy
 "
 MacOSImpl
 "
@@ -175,7 +181,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gImpl
 "
@@ -197,6 +203,8 @@ win
 )
 {
 return
+lazy
+.
 WinImpl
 ;
 }
@@ -213,6 +221,8 @@ macosx
 )
 {
 return
+lazy
+.
 MacOSImpl
 ;
 }
@@ -1002,6 +1012,8 @@ short
 ;
 }
 return
+lazy
+.
 gImpl
 .
 registerTask
@@ -1046,6 +1058,8 @@ id
 )
 {
 return
+lazy
+.
 gImpl
 .
 deleteTask
@@ -1074,6 +1088,8 @@ deleteAllTasks
 )
 {
 return
+lazy
+.
 gImpl
 .
 deleteAllTasks
@@ -1129,6 +1145,8 @@ id
 )
 {
 return
+lazy
+.
 gImpl
 .
 taskExists

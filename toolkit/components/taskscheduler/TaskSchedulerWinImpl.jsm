@@ -167,11 +167,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 WinTaskSvc
 :
@@ -320,6 +326,8 @@ updateExisting
 =
 true
 ;
+lazy
+.
 WinTaskSvc
 .
 registerTask
@@ -345,6 +353,8 @@ deleteTask
 id
 )
 {
+lazy
+.
 WinTaskSvc
 .
 deleteTask
@@ -443,6 +453,8 @@ try
 {
 allTasks
 =
+lazy
+.
 WinTaskSvc
 .
 getFolderTasks
@@ -546,6 +558,8 @@ Browser
 Agent
 "
 +
+lazy
+.
 XreDirProvider
 .
 getInstallHash
@@ -583,6 +597,8 @@ continue
 }
 try
 {
+lazy
+.
 WinTaskSvc
 .
 deleteTask
@@ -669,6 +685,8 @@ to
 be
 static
 .
+lazy
+.
 WinTaskSvc
 .
 deleteTask
@@ -726,6 +744,8 @@ try
 {
 allTasks
 =
+lazy
+.
 WinTaskSvc
 .
 getFolderTasks
@@ -1324,6 +1344,8 @@ _taskFolderNameParts
 ;
 try
 {
+lazy
+.
 WinTaskSvc
 .
 createFolder
@@ -1374,6 +1396,8 @@ _taskFolderNameParts
 ;
 try
 {
+lazy
+.
 WinTaskSvc
 .
 deleteFolder
@@ -1638,6 +1662,8 @@ id
 const
 installHash
 =
+lazy
+.
 XreDirProvider
 .
 getInstallHash
@@ -1661,6 +1687,8 @@ name
 const
 installHash
 =
+lazy
+.
 XreDirProvider
 .
 getInstallHash
