@@ -2393,11 +2393,11 @@ mMaxConsecutiveDecodingError
 (
 aNumOfMaxError
 )
-mNumOfConsecutiveRDDCrashes
+mNumOfConsecutiveRDDOrGPUCrashes
 (
 0
 )
-mMaxConsecutiveRDDCrashes
+mMaxConsecutiveRDDOrGPUCrashes
 (
 StaticPrefs
 :
@@ -2958,10 +2958,10 @@ the
 limit
 .
 uint32_t
-mNumOfConsecutiveRDDCrashes
+mNumOfConsecutiveRDDOrGPUCrashes
 ;
 uint32_t
-mMaxConsecutiveRDDCrashes
+mMaxConsecutiveRDDOrGPUCrashes
 ;
 /
 /
@@ -3153,7 +3153,7 @@ ref
 )
 =
 =
-NS_ERROR_DOM_MEDIA_REMOTE_DECODER_CRASHED_ERR
+NS_ERROR_DOM_MEDIA_REMOTE_DECODER_CRASHED_RDD_OR_GPU_ERR
 )
 {
 /
@@ -3186,9 +3186,9 @@ as
 errors
 .
 return
-mNumOfConsecutiveRDDCrashes
+mNumOfConsecutiveRDDOrGPUCrashes
 >
-mMaxConsecutiveRDDCrashes
+mMaxConsecutiveRDDOrGPUCrashes
 |
 |
 StaticPrefs
