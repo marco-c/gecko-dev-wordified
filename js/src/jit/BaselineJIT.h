@@ -3027,6 +3027,15 @@ delete
 ;
 }
 ;
+enum
+class
+BailoutReason
+{
+Normal
+ExceptionHandler
+Invalidate
+}
+;
 [
 [
 nodiscard
@@ -3053,6 +3062,8 @@ const
 ExceptionBailoutInfo
 *
 exceptionInfo
+BailoutReason
+reason
 )
 ;
 MethodStatus
