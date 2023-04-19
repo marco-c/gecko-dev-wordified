@@ -1124,7 +1124,14 @@ SymbolRegistry
 public
 GCHashSet
 <
-WeakHeapPtrSymbol
+WeakHeapPtr
+<
+JS
+:
+:
+Symbol
+*
+>
 HashSymbolsByDescription
 SystemAllocPolicy
 >
