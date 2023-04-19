@@ -4526,7 +4526,9 @@ eCSSProperty_font_weight
 FontWeight
 :
 :
-NORMAL
+Normal
+(
+)
 .
 ToFloat
 (
@@ -4555,7 +4557,9 @@ eCSSProperty_font_weight
 FontWeight
 :
 :
-BOLD
+Bold
+(
+)
 .
 ToFloat
 (

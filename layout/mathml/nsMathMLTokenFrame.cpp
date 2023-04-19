@@ -324,8 +324,12 @@ StyleFont
 mFont
 .
 style
-.
-IsItalic
+=
+=
+FontSlantStyle
+:
+:
+Italic
 (
 )
 |
