@@ -480,6 +480,7 @@ box_
 {
 Clear
 ContentVisibility
+ContainIntrinsicSize
 Float
 Overflow
 OverflowAnchor
