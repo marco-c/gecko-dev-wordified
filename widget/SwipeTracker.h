@@ -496,6 +496,10 @@ const
 PanGestureInput
 &
 aEvent
+bool
+aProcessingFirstEvent
+=
+false
 )
 ;
 void
