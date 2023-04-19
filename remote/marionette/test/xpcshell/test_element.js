@@ -59,10 +59,10 @@ MPL
 const
 {
 ChromeWebElement
-ContentWebFrame
 ContentWebWindow
 element
 WebElement
+WebFrame
 WebReference
 }
 =
@@ -2931,7 +2931,7 @@ from
 domFrame
 )
 instanceof
-ContentWebFrame
+WebFrame
 )
 ;
 ok
@@ -3149,7 +3149,7 @@ run_next_test
 add_test
 (
 function
-test_WebReference_fromJSON_ContentWebFrame
+test_WebReference_fromJSON_WebFrame
 (
 )
 {
@@ -3158,7 +3158,7 @@ ref
 =
 {
 [
-ContentWebFrame
+WebFrame
 .
 Identifier
 ]
@@ -3182,7 +3182,7 @@ ok
 (
 frame
 instanceof
-ContentWebFrame
+WebFrame
 )
 ;
 equal
@@ -3498,7 +3498,7 @@ isReference
 (
 {
 [
-ContentWebFrame
+WebFrame
 .
 Identifier
 ]
@@ -3814,7 +3814,7 @@ run_next_test
 add_test
 (
 function
-test_ContentWebFrame_toJSON
+test_WebFrame_toJSON
 (
 )
 {
@@ -3822,7 +3822,7 @@ let
 frame
 =
 new
-ContentWebFrame
+WebFrame
 (
 "
 foo
@@ -3840,7 +3840,7 @@ toJSON
 ;
 ok
 (
-ContentWebFrame
+WebFrame
 .
 Identifier
 in
@@ -3851,7 +3851,7 @@ equal
 (
 json
 [
-ContentWebFrame
+WebFrame
 .
 Identifier
 ]
@@ -3870,7 +3870,7 @@ run_next_test
 add_test
 (
 function
-test_ContentWebFrame_fromJSON
+test_WebFrame_fromJSON
 (
 )
 {
@@ -3879,7 +3879,7 @@ ref
 =
 {
 [
-ContentWebFrame
+WebFrame
 .
 Identifier
 ]
@@ -3892,7 +3892,7 @@ foo
 let
 win
 =
-ContentWebFrame
+WebFrame
 .
 fromJSON
 (
@@ -3903,7 +3903,7 @@ ok
 (
 win
 instanceof
-ContentWebFrame
+WebFrame
 )
 ;
 equal
