@@ -2651,6 +2651,7 @@ Step
 16
 .
 return
+(
 accumulatedResult
 +
 Substring
@@ -2660,6 +2661,7 @@ nextSourcePosition
 lengthS
 -
 nextSourcePosition
+)
 )
 ;
 }
@@ -3869,6 +3871,7 @@ Step
 16
 .
 return
+(
 accumulatedResult
 +
 Substring
@@ -3878,6 +3881,7 @@ nextSourcePosition
 lengthS
 -
 nextSourcePosition
+)
 )
 ;
 }
@@ -6836,6 +6840,7 @@ RegExpCtor
 prototype
 ;
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -6846,6 +6851,7 @@ RegExpInstanceOptimizable
 (
 rx
 RegExpProto
+)
 )
 ;
 }
@@ -7370,6 +7376,7 @@ data
 property
 .
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -7383,6 +7390,7 @@ exec
 =
 =
 RegExp_prototype_Exec
+)
 ;
 }
 /

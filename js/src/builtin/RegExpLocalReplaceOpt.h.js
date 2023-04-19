@@ -944,6 +944,7 @@ Step
 16
 .
 return
+(
 accumulatedResult
 +
 Substring
@@ -953,6 +954,7 @@ nextSourcePosition
 lengthS
 -
 nextSourcePosition
+)
 )
 ;
 }
