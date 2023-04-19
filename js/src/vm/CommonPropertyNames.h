@@ -279,6 +279,15 @@ allowContentIter
 \
 MACRO_
 (
+ambiguous
+ambiguous
+"
+ambiguous
+"
+)
+\
+MACRO_
+(
 anonymous
 anonymous
 "
