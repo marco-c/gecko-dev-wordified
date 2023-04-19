@@ -4474,6 +4474,28 @@ input_variables
     
 )
     
+#
+Don
+'
+t
+make
+use_x11
+part
+of
+the
+string
+for
+openbsd
+to
+avoid
+creating
+    
+#
+new
+json
+files
+.
+    
 gn_arg_string
 =
 "
@@ -4484,6 +4506,7 @@ join
 (
         
 [
+            
 str
 (
 input_variables
@@ -4491,6 +4514,7 @@ input_variables
 k
 ]
 )
+            
 for
 k
 in
@@ -4502,6 +4526,27 @@ keys
 (
 )
 )
+            
+if
+k
+!
+=
+"
+use_x11
+"
+or
+input_variables
+[
+"
+target_os
+"
+]
+!
+=
+"
+openbsd
+"
+        
 ]
     
 )
