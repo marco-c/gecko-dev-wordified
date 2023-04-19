@@ -157,6 +157,12 @@ FileSystemFileHandle
 nsIGlobalObject
 *
 aGlobal
+RefPtr
+<
+FileSystemActorHolder
+>
+&
+aActor
 const
 fs
 :
@@ -177,6 +183,12 @@ FileSystemFileHandle
 nsIGlobalObject
 *
 aGlobal
+RefPtr
+<
+FileSystemActorHolder
+>
+&
+aActor
 const
 fs
 :

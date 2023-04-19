@@ -190,6 +190,17 @@ include
 "
 mozilla
 /
+dom
+/
+OriginPrivateFileSystemChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -264,6 +275,16 @@ testDir
 "
 _ns
 ;
+mActor
+=
+MakeAndAddRef
+<
+FileSystemActorHolder
+>
+(
+nullptr
+)
+;
 }
 nsIGlobalObject
 *
@@ -285,6 +306,12 @@ mMetadata
 nsString
 mName
 ;
+RefPtr
+<
+FileSystemActorHolder
+>
+mActor
+;
 }
 ;
 TEST_F
@@ -305,6 +332,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 )
 ;
@@ -332,6 +360,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -382,6 +411,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -432,6 +462,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -482,6 +513,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -528,6 +560,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -596,6 +629,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 )
 ;
@@ -655,6 +689,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -723,6 +758,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 )
 ;
@@ -782,6 +818,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -850,6 +887,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 )
 ;
@@ -909,6 +947,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -974,6 +1013,7 @@ FileSystemDirectoryHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 )
 ;
