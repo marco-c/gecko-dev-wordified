@@ -3536,15 +3536,6 @@ vim
 "
 ]
 ]
-"
-consistent
--
-return
-"
-:
-"
-off
-"
 }
 }
 ;
