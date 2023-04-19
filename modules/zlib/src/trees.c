@@ -18,7 +18,7 @@ C
 )
 1995
 -
-2017
+2021
 Jean
 -
 loup
@@ -1404,9 +1404,9 @@ OF
 (
 (
 unsigned
-value
+code
 int
-length
+len
 )
 )
 ;
@@ -9353,6 +9353,10 @@ ush
 stored_len
 )
 ;
+if
+(
+stored_len
+)
 zmemcpy
 (
 s
@@ -11713,7 +11717,7 @@ to
 the
 *
 "
-black
+block
 list
 "
 (
@@ -11746,7 +11750,7 @@ to
 the
 *
 "
-white
+allow
 list
 "
 (
@@ -11852,13 +11856,13 @@ s
 {
 /
 *
-black_mask
+block_mask
 is
 the
 bit
 mask
 of
-black
+block
 -
 listed
 bytes
@@ -11887,7 +11891,7 @@ binary
 /
 unsigned
 long
-black_mask
+block_mask
 =
 0xf3ffc07fUL
 ;
@@ -11903,7 +11907,7 @@ non
 textual
 (
 "
-black
+block
 -
 listed
 "
@@ -11926,7 +11930,7 @@ n
 n
 +
 +
-black_mask
+block_mask
 >
 >
 =
@@ -11935,7 +11939,7 @@ black_mask
 if
 (
 (
-black_mask
+block_mask
 &
 1
 )
@@ -11966,7 +11970,7 @@ for
 textual
 (
 "
-white
+allow
 -
 listed
 "
@@ -12059,13 +12063,13 @@ There
 are
 no
 "
-black
+block
 -
 listed
 "
 or
 "
-white
+allow
 -
 listed
 "

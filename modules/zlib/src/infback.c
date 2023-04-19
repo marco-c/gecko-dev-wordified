@@ -19,7 +19,7 @@ C
 )
 1995
 -
-2016
+2022
 Mark
 Adler
 *
@@ -3778,6 +3778,11 @@ mode
 =
 LEN
 ;
+/
+*
+fallthrough
+*
+/
 case
 LEN
 :
