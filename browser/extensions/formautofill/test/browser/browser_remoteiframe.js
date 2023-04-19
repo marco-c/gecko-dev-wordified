@@ -14,17 +14,6 @@ autocomplete_iframe
 html
 "
 ;
-const
-PRIVACY_PREF_URL
-=
-"
-about
-:
-preferences
-#
-privacy
-"
-;
 /
 /
 Start
