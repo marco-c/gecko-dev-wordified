@@ -598,9 +598,6 @@ flags
 FLAG_PREVIOUS_FAILED
 ;
 }
-return
-true
-;
 }
 catch
 (
@@ -613,6 +610,9 @@ e
 )
 ;
 }
+return
+true
+;
 }
 asyncPromptAuth
 :
@@ -625,8 +625,6 @@ context
 encryptionLevel
 authInfo
 )
-{
-try
 {
 var
 me
@@ -754,18 +752,6 @@ true
 }
 )
 ;
-}
-catch
-(
-e
-)
-{
-do_throw
-(
-e
-)
-;
-}
 }
 }
 ;
