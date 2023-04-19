@@ -2951,7 +2951,7 @@ case
 DeviceFamily
 :
 :
-RadeonBlockNoVideoCopy
+RadeonBlockZeroVideoCopy
 :
 /
 /
@@ -6024,7 +6024,7 @@ case
 DeviceFamily
 :
 :
-RadeonBlockNoVideoCopy
+RadeonBlockZeroVideoCopy
 :
 case
 DeviceFamily
