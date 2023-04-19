@@ -17233,14 +17233,6 @@ alignment
 size_t
 expectedFrameSize
 =
-0
-#
-if
-defined
-(
-JS_CODEGEN_X86
-)
-+
 sizeof
 (
 void
@@ -17252,8 +17244,6 @@ frame
 pointer
 *
 /
-#
-endif
 +
 sizeof
 (
