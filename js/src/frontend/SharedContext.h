@@ -215,15 +215,6 @@ include
 "
 vm
 /
-ErrorContext
-.
-h
-"
-#
-include
-"
-vm
-/
 FunctionFlags
 .
 h
@@ -311,6 +302,9 @@ JS
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {

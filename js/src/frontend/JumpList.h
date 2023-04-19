@@ -116,6 +116,16 @@ define
 frontend_JumpList_h
 #
 include
+<
+stddef
+.
+h
+>
+/
+/
+ptrdiff_t
+#
+include
 "
 frontend
 /

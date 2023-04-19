@@ -248,15 +248,6 @@ h
 /
 /
 StringBuffer
-#
-include
-"
-vm
-/
-StringType
-.
-h
-"
 using
 namespace
 js
