@@ -169,11 +169,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PrivacyFilter
 :
@@ -1546,6 +1552,8 @@ cancel
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -1594,6 +1602,8 @@ COLLECT_DATA_MS
 let
 state
 =
+lazy
+.
 SessionStore
 .
 getCurrentState
@@ -1601,6 +1611,8 @@ getCurrentState
 forceUpdateAllWindows
 )
 ;
+lazy
+.
 PrivacyFilter
 .
 filterPrivateWindowsAndTabs
@@ -1620,6 +1632,8 @@ saving
 tabs
 to
 disk
+.
+lazy
 .
 SessionStore
 .
@@ -1895,6 +1909,8 @@ shutdown
 if
 (
 !
+lazy
+.
 RunState
 .
 isClosing
@@ -2245,6 +2261,8 @@ the
 observers
 .
 return
+lazy
+.
 SessionFile
 .
 write

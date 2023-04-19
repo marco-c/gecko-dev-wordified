@@ -327,11 +327,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionFile
 "
@@ -355,7 +361,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 StartupPerformance
 "
@@ -379,7 +385,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CrashMonitor
 "
@@ -402,7 +408,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -721,6 +727,8 @@ started
 "
 )
 ;
+lazy
+.
 StartupPerformance
 .
 init
@@ -744,6 +752,8 @@ browsing
 sessions
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -883,6 +893,8 @@ false
 )
 ;
 }
+lazy
+.
 SessionFile
 .
 read
@@ -1339,6 +1351,8 @@ _initialState
 lastSessionState
 ;
 }
+lazy
+.
 CrashMonitor
 .
 previousCheckpoints
@@ -2057,6 +2071,8 @@ this
 _resumeSessionEnabled
 =
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing

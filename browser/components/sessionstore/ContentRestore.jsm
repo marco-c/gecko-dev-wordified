@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionHistory
 "
@@ -123,7 +129,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Utils
 "
@@ -963,6 +969,8 @@ uri
 )
 ;
 }
+lazy
+.
 SessionHistory
 .
 restore
@@ -2046,6 +2054,8 @@ Restore
 form
 data
 .
+lazy
+.
 Utils
 .
 restoreFrameTreeData
@@ -2123,6 +2133,8 @@ data
 Restore
 scroll
 data
+.
+lazy
 .
 Utils
 .

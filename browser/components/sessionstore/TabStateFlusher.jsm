@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionStore
 "
@@ -893,6 +899,8 @@ it
 .
 *
 /
+lazy
+.
 SessionStore
 .
 ensureInitialized
@@ -922,6 +930,8 @@ flush
 id
 epoch
 :
+lazy
+.
 SessionStore
 .
 getCurrentEpoch

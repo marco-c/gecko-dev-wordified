@@ -70,11 +70,17 @@ SessionMigration
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 E10SUtils
 "
@@ -391,6 +397,8 @@ entry
 url
 triggeringPrincipal_base64
 :
+lazy
+.
 E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL

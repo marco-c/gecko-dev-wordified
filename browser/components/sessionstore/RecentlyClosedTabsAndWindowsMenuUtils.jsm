@@ -89,11 +89,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PluralForm
 "
@@ -116,7 +122,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionStore
 "
@@ -140,7 +146,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUIUtils
 "
@@ -359,6 +365,8 @@ createDocumentFragment
 ;
 if
 (
+lazy
+.
 SessionStore
 .
 getClosedTabCount
@@ -373,6 +381,8 @@ aWindow
 let
 closedTabs
 =
+lazy
+.
 SessionStore
 .
 getClosedTabData
@@ -599,6 +609,8 @@ windows
 let
 closedWindowData
 =
+lazy
+.
 SessionStore
 .
 getClosedWindowData
@@ -699,6 +711,8 @@ otherTabsCount
 ?
 menuLabelStringSingleTab
 :
+lazy
+.
 PluralForm
 .
 get
@@ -1085,6 +1099,8 @@ image
 const
 iconURL
 =
+lazy
+.
 PlacesUIUtils
 .
 getImageURL

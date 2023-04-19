@@ -1697,11 +1697,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionHistory
 "
@@ -1726,7 +1732,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 gScreenManager
 :
@@ -1753,7 +1759,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -3547,6 +3553,8 @@ nsISupportsWeakReference
 _globalState
 :
 new
+lazy
+.
 GlobalState
 (
 )
@@ -4950,6 +4958,8 @@ state
 let
 ss
 =
+lazy
+.
 SessionStartup
 ;
 if
@@ -5311,6 +5321,8 @@ entry
 url
 triggeringPrincipal_base64
 :
+lazy
+.
 E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
@@ -5452,6 +5464,8 @@ entries
 .
 triggeringPrincipal_base64
 =
+lazy
+.
 E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
@@ -5720,6 +5734,8 @@ set
 if
 (
 !
+lazy
+.
 RunState
 .
 isQuitting
@@ -6067,6 +6083,8 @@ the
 last
 state
 .
+lazy
+.
 RunState
 .
 setClosing
@@ -6088,6 +6106,8 @@ this
 _sessionInitialized
 )
 {
+lazy
+.
 SessionSaver
 .
 run
@@ -6123,6 +6143,8 @@ to
 cancel
 pending
 saves
+.
+lazy
 .
 SessionSaver
 .
@@ -6822,6 +6844,8 @@ kNoIndex
 let
 historychange
 =
+lazy
+.
 SessionHistory
 .
 collectFromParent
@@ -7397,6 +7421,8 @@ permanentKey
 return
 ;
 }
+lazy
+.
 TabState
 .
 update
@@ -7508,6 +7534,8 @@ to
 the
 same
 object
+.
+lazy
 .
 TabState
 .
@@ -7842,6 +7870,8 @@ much
 data
 to
 skip
+.
+lazy
 .
 TabStateFlusher
 .
@@ -8550,6 +8580,8 @@ to
 be
 done
 .
+lazy
+.
 TabStateFlusher
 .
 resolve
@@ -8621,6 +8653,8 @@ SessionStore
 error
 "
 :
+lazy
+.
 TabStateFlusher
 .
 resolveAll
@@ -9127,6 +9161,8 @@ shutting
 down
 if
 (
+lazy
+.
 RunState
 .
 isQuitting
@@ -9611,11 +9647,15 @@ is
 loading
 if
 (
+lazy
+.
 RunState
 .
 isStopped
 )
 {
+lazy
+.
 RunState
 .
 setRunning
@@ -9677,6 +9717,8 @@ the
 next
 write
 .
+lazy
+.
 SessionSaver
 .
 updateLastSaveTime
@@ -9734,6 +9776,8 @@ this
 .
 _deferredInitialState
 =
+lazy
+.
 SessionStartup
 .
 state
@@ -9857,6 +9901,8 @@ before
 loading
 any
 tabs
+.
+lazy
 .
 SessionCookies
 .
@@ -10277,6 +10323,8 @@ macosx
 |
 |
 !
+lazy
+.
 SessionStartup
 .
 willRestore
@@ -10943,6 +10991,8 @@ all
 (
 [
 promise
+lazy
+.
 SessionStartup
 .
 onceInitialized
@@ -11495,6 +11545,8 @@ shutdown
 .
 if
 (
+lazy
+.
 RunState
 .
 isRunning
@@ -12080,6 +12132,8 @@ window
 may
 contain
 .
+lazy
+.
 PrivacyFilter
 .
 filterPrivateTabs
@@ -12098,6 +12152,8 @@ isLastWindow
 }
 completionPromise
 =
+lazy
+.
 TabStateFlusher
 .
 flushWindow
@@ -12195,6 +12251,8 @@ browser
 permanentKey
 )
 ;
+lazy
+.
 TabState
 .
 copyFromCache
@@ -12276,6 +12334,8 @@ need
 to
 filter
 again
+.
+lazy
 .
 PrivacyFilter
 .
@@ -12559,6 +12619,8 @@ of
 browsers
 )
 {
+lazy
+.
 TabStateFlusher
 .
 resolveAll
@@ -12802,6 +12864,8 @@ window
 .
 if
 (
+lazy
+.
 RunState
 .
 isRunning
@@ -13314,6 +13378,8 @@ and
 tabs
 correctly
 .
+lazy
+.
 RunState
 .
 setQuitting
@@ -13434,6 +13500,8 @@ shutdown
 is
 observed
 .
+lazy
+.
 AsyncShutdown
 .
 quitApplicationGranted
@@ -13513,6 +13581,8 @@ topic
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -13701,6 +13771,8 @@ Math
 max
 (
 0
+lazy
+.
 AsyncShutdown
 .
 DELAY_CRASH_MS
@@ -14080,6 +14152,8 @@ windowPromises
 set
 (
 window
+lazy
+.
 TabStateFlusher
 .
 flushWindow
@@ -14646,6 +14720,8 @@ ssi_onPurgeSessionHistory
 (
 )
 {
+lazy
+.
 SessionFile
 .
 wipe
@@ -14693,6 +14769,8 @@ exit
 .
 if
 (
+lazy
+.
 RunState
 .
 isQuitting
@@ -14879,6 +14957,8 @@ setTimeout
 )
 =
 >
+lazy
+.
 SessionSaver
 .
 run
@@ -14891,11 +14971,15 @@ run
 else
 if
 (
+lazy
+.
 RunState
 .
 isRunning
 )
 {
+lazy
+.
 SessionSaver
 .
 run
@@ -15476,11 +15560,15 @@ title
 }
 if
 (
+lazy
+.
 RunState
 .
 isRunning
 )
 {
+lazy
+.
 SessionSaver
 .
 run
@@ -15888,6 +15976,8 @@ browser
 )
 &
 &
+lazy
+.
 TabStateCache
 .
 get
@@ -15901,6 +15991,8 @@ permanentKey
 let
 tabState
 =
+lazy
+.
 TabState
 .
 clone
@@ -16169,6 +16261,8 @@ cache
 let
 tabState
 =
+lazy
+.
 TabState
 .
 collect
@@ -16712,6 +16806,8 @@ didStartLoadSinceLastUserTyping
 let
 cacheState
 =
+lazy
+.
 TabStateCache
 .
 get
@@ -16952,6 +17048,8 @@ jsm
 to
 work
 properly
+.
+lazy
 .
 TabStateCache
 .
@@ -17964,6 +18062,8 @@ aWindow
 {
 if
 (
+lazy
+.
 RunState
 .
 isRunning
@@ -18124,6 +18224,8 @@ page
 .
 if
 (
+lazy
+.
 TabCrashHandler
 .
 willShowCrashedTab
@@ -18486,6 +18588,8 @@ for
 the
 crashed
 browser
+.
+lazy
 .
 TabStateFlusher
 .
@@ -19326,6 +19430,8 @@ Restore
 session
 cookies
 .
+lazy
+.
 SessionCookies
 .
 restore
@@ -19594,6 +19700,8 @@ NS_ERROR_INVALID_ARG
 let
 tabState
 =
+lazy
+.
 TabState
 .
 collect
@@ -20221,6 +20329,8 @@ flushing
 let
 tabState
 =
+lazy
+.
 TabState
 .
 collect
@@ -20253,6 +20363,8 @@ aTab
 .
 linkedBrowser
 ;
+lazy
+.
 TabStateFlusher
 .
 flush
@@ -20387,6 +20499,8 @@ includePrivateData
 true
 }
 ;
+lazy
+.
 TabState
 .
 copyFromCache
@@ -20893,6 +21007,8 @@ switches
 let
 preferredRemoteType
 =
+lazy
+.
 E10SUtils
 .
 DEFAULT_REMOTE_TYPE
@@ -20953,6 +21069,8 @@ activeIndex
 ;
 preferredRemoteType
 =
+lazy
+.
 E10SUtils
 .
 getRemoteTypeForURI
@@ -20971,10 +21089,14 @@ gMultiProcessBrowser
 aWindow
 .
 gFissionBrowser
+lazy
+.
 E10SUtils
 .
 DEFAULT_REMOTE_TYPE
 null
+lazy
+.
 E10SUtils
 .
 predictOriginAttributes
@@ -22193,6 +22315,8 @@ aName
 {
 if
 (
+lazy
+.
 TabAttributes
 .
 persist
@@ -22581,6 +22705,8 @@ tabData
 {
 tabData
 =
+lazy
+.
 TabState
 .
 collect
@@ -22823,6 +22949,8 @@ iconLoadingPrincipal
 )
 ;
 }
+lazy
+.
 TabStateCache
 .
 update
@@ -23415,6 +23543,8 @@ Restore
 session
 cookies
 .
+lazy
+.
 SessionCookies
 .
 restore
@@ -23870,6 +24000,8 @@ _closedObjectsChanged
 true
 ;
 }
+lazy
+.
 DevToolsShim
 .
 restoreDevToolsSession
@@ -24229,6 +24361,8 @@ userContextId
 )
 remoteTypeOverride
 :
+lazy
+.
 E10SUtils
 .
 NOT_REMOTE
@@ -24238,6 +24372,8 @@ NOT_REMOTE
 let
 data
 =
+lazy
+.
 TabState
 .
 collect
@@ -24455,6 +24591,8 @@ if
 updatedCallback
 )
 {
+lazy
+.
 TabStateFlusher
 .
 flush
@@ -24523,6 +24661,8 @@ linkedBrowser
 let
 tabState
 =
+lazy
+.
 TabState
 .
 collect
@@ -24807,6 +24947,8 @@ homePages
 .
 concat
 (
+lazy
+.
 HomePage
 .
 get
@@ -25301,6 +25443,8 @@ FX_SESSION_RESTORE_COLLECT_ALL_WINDOWS_DATA_MS
 ;
 if
 (
+lazy
+.
 RunState
 .
 isRunning
@@ -25766,6 +25910,8 @@ lastClosedWindowsCopy
 length
 &
 &
+lazy
+.
 RunState
 .
 isQuitting
@@ -26001,12 +26147,16 @@ state
 .
 cookies
 =
+lazy
+.
 SessionCookies
 .
 collect
 (
 )
 ;
+lazy
+.
 DevToolsShim
 .
 saveDevToolsSession
@@ -26154,6 +26304,8 @@ aWindow
 }
 if
 (
+lazy
+.
 RunState
 .
 isRunning
@@ -26346,6 +26498,8 @@ continue
 let
 tabData
 =
+lazy
+.
 TabState
 .
 collect
@@ -27363,6 +27517,8 @@ e
 before
 bug
 912717
+.
+lazy
 .
 SessionCookies
 .
@@ -28845,6 +29001,8 @@ windows
 }
 )
 ;
+lazy
+.
 DevToolsShim
 .
 restoreDevToolsSession
@@ -29663,6 +29821,8 @@ forEach
 a
 =
 >
+lazy
+.
 TabAttributes
 .
 persist
@@ -29930,6 +30090,8 @@ tabData
 |
 information
 .
+lazy
+.
 TabStateCache
 .
 update
@@ -30127,6 +30289,8 @@ in
 tabData
 )
 {
+lazy
+.
 TabAttributes
 .
 set
@@ -30827,6 +30991,8 @@ gBrowser
 let
 tabData
 =
+lazy
+.
 TabState
 .
 clone
@@ -31347,6 +31513,8 @@ do
 anything
 if
 (
+lazy
+.
 RunState
 .
 isQuitting
@@ -31791,6 +31959,8 @@ placed
 let
 screen
 =
+lazy
+.
 gScreenManager
 .
 screenForRect
@@ -32742,6 +32912,8 @@ aWindow
 )
 ;
 }
+lazy
+.
 SessionSaver
 .
 runDelayed
@@ -32910,6 +33082,8 @@ _closedObjectsChanged
 =
 false
 ;
+lazy
+.
 setTimeout
 (
 (
@@ -33078,6 +33252,8 @@ for
 let
 window
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -33148,6 +33324,8 @@ iterator
 let
 windows
 =
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -33272,6 +33450,8 @@ ssi_getTopWindow
 )
 {
 return
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -33985,6 +34165,8 @@ WINDOW_SHOWING_PROMISES
 set
 (
 window
+lazy
+.
 PromiseUtils
 .
 defer
@@ -38206,6 +38388,8 @@ DELAY_BEAT
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -38799,6 +38983,8 @@ null
 const
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -39416,6 +39602,8 @@ stop
 (
 )
 ;
+lazy
+.
 SessionHistory
 .
 restoreFromParent
@@ -40126,6 +40314,8 @@ restored
 let
 tabData
 =
+lazy
+.
 TabState
 .
 collect
@@ -40463,6 +40653,8 @@ it
 let
 cacheState
 =
+lazy
+.
 TabStateCache
 .
 get
@@ -40488,6 +40680,8 @@ initiatedBySessionStore
 isNavigateAndRestore
 )
 {
+lazy
+.
 TabStateCache
 .
 update
@@ -40658,6 +40852,8 @@ navigating
 let
 tabData
 =
+lazy
+.
 TabState
 .
 collect
@@ -40726,6 +40922,8 @@ t
 need
 any
 longer
+.
+lazy
 .
 TabStateCache
 .
@@ -40802,6 +41000,8 @@ appropriate
 let
 cacheState
 =
+lazy
+.
 TabStateCache
 .
 get
@@ -40854,6 +41054,8 @@ setURI
 )
 ;
 }
+lazy
+.
 TabStateCache
 .
 update
@@ -41214,6 +41416,8 @@ prepareForProcessChange
 )
 ;
 await
+lazy
+.
 TabStateFlusher
 .
 flush
@@ -41323,6 +41527,8 @@ return
 let
 tabState
 =
+lazy
+.
 TabState
 .
 clone
