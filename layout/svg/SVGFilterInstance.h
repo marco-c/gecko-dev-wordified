@@ -703,7 +703,10 @@ gfxRect
 &
 aTargetBBox
 const
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 &
 aUserSpaceToFilterSpaceScale
 )
@@ -1584,7 +1587,10 @@ space
 .
 *
 /
-gfxSize
+gfx
+:
+:
+MatrixScalesDouble
 mUserSpaceToFilterSpaceScale
 ;
 /
