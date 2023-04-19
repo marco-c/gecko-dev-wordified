@@ -16541,10 +16541,7 @@ chunkId
 /
 installedChunks
 [
-chunkIds
-[
-i
-]
+chunkId
 ]
 =
 0
