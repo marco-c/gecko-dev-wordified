@@ -10293,6 +10293,7 @@ token
 Integer
 .
 MAX_VALUE
+false
 )
 ;
 mActions
@@ -13885,6 +13886,9 @@ start
 final
 int
 unboundedOldEnd
+final
+boolean
+causedOnlyByComposition
 )
 {
 /
@@ -14087,6 +14091,10 @@ start
 unboundedOldEnd
 >
 currentLength
+&
+&
+!
+causedOnlyByComposition
 )
 {
 /
