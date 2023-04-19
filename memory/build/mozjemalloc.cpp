@@ -9609,7 +9609,7 @@ CreateArena
 (
 /
 *
-IsPrivate
+aIsPrivate
 =
 *
 /
@@ -13966,7 +13966,7 @@ GetSlot
 aKey
 /
 *
-create
+aCreate
 =
 *
 /
@@ -14052,7 +14052,9 @@ a
 )
 &
 (
+(
 alignment
+)
 -
 1
 )
@@ -14086,7 +14088,9 @@ s
 )
 +
 (
+(
 alignment
+)
 -
 1
 )
@@ -14095,7 +14099,9 @@ alignment
 (
 ~
 (
+(
 alignment
+)
 -
 1
 )
@@ -15183,7 +15189,9 @@ CAN_RECYCLE
 size
 )
 (
+(
 size
+)
 =
 =
 kChunkSize
@@ -16404,14 +16412,14 @@ CreateArena
 (
 /
 *
-IsPrivate
+aIsPrivate
 =
 *
 /
 false
 /
 *
-Params
+aParams
 =
 *
 /
@@ -29740,9 +29748,6 @@ char
 *
 opts
 ;
-long
-result
-;
 AutoLock
 <
 StaticMutex
@@ -29799,6 +29804,8 @@ and
 number
 of
 CPUs
+const
+size_t
 result
 =
 GetKernelPageSize
@@ -29842,9 +29849,6 @@ if
 (
 gPageSize
 %
-(
-size_t
-)
 result
 )
 {
@@ -29882,9 +29886,6 @@ gRealPageSize
 =
 gPageSize
 =
-(
-size_t
-)
 result
 ;
 #
@@ -30840,7 +30841,7 @@ Malloc
 aSize
 /
 *
-zero
+aZero
 =
 *
 /
@@ -31056,7 +31057,7 @@ Malloc
 allocSize
 /
 *
-zero
+aZero
 =
 *
 /
@@ -31225,7 +31226,7 @@ Malloc
 aSize
 /
 *
-zero
+aZero
 =
 *
 /
