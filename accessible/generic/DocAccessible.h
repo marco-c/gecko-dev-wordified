@@ -345,7 +345,7 @@ const
 override
 ;
 virtual
-LocalAccessible
+Accessible
 *
 FocusedChild
 (

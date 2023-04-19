@@ -3158,7 +3158,7 @@ Shutdown
 )
 ;
 }
-LocalAccessible
+Accessible
 *
 XULTreeGridCellAccessible
 :

@@ -636,7 +636,7 @@ return
 nullptr
 ;
 }
-LocalAccessible
+Accessible
 *
 ApplicationAccessible
 :

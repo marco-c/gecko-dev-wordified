@@ -1022,12 +1022,6 @@ double
 aValue
 )
 ;
-RemoteAccessible
-*
-FocusedChild
-(
-)
-;
 Accessible
 *
 ChildAtPoint
