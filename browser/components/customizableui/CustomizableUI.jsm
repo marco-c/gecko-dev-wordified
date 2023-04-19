@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -285,7 +291,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gWidgetsBundle
 "
@@ -1359,7 +1365,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gDebuggingEnabled
 "
@@ -1376,6 +1382,8 @@ newVal
 if
 (
 typeof
+lazy
+.
 log
 !
 =
@@ -1384,6 +1392,8 @@ undefined
 "
 )
 {
+lazy
+.
 log
 .
 maxLogLevel
@@ -1406,7 +1416,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -1445,6 +1455,8 @@ consoleOptions
 {
 maxLogLevel
 :
+lazy
+.
 gDebuggingEnabled
 ?
 "
@@ -1479,6 +1491,8 @@ initialize
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1488,6 +1502,8 @@ Initializing
 "
 )
 ;
+lazy
+.
 AddonManagerPrivate
 .
 databaseReady
@@ -1500,6 +1516,8 @@ async
 =
 >
 {
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -1511,6 +1529,8 @@ let
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
@@ -1901,6 +1921,8 @@ newtab
 true
 )
 ;
+lazy
+.
 SearchWidgetTracker
 .
 init
@@ -2031,6 +2053,8 @@ for
 let
 widgetDefinition
 of
+lazy
+.
 CustomizableWidgets
 )
 {
@@ -4030,6 +4054,8 @@ currentVersion
 let
 homePage
 =
+lazy
+.
 HomePage
 .
 get
@@ -6591,6 +6617,8 @@ defaultView
 let
 inPrivateWindow
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -6877,6 +6905,8 @@ if
 node
 )
 {
+lazy
+.
 log
 .
 debug
@@ -7421,6 +7451,8 @@ removable
 false
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -8114,6 +8146,8 @@ document
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -8173,6 +8207,8 @@ widget
 ]
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -8216,6 +8252,8 @@ node
 ]
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -8527,6 +8565,8 @@ if
 showInPrivateBrowsing
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -8595,6 +8635,8 @@ widgetNode
 )
 )
 {
+lazy
+.
 log
 .
 info
@@ -9489,6 +9531,8 @@ if
 placements
 )
 {
+lazy
+.
 log
 .
 error
@@ -9599,6 +9643,8 @@ if
 showInPrivateBrowsing
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -9629,6 +9675,8 @@ if
 widgetNode
 )
 {
+lazy
+.
 log
 .
 error
@@ -10607,6 +10655,8 @@ if
 aId
 )
 {
+lazy
+.
 log
 .
 error
@@ -11121,6 +11171,8 @@ aWidget
 showInPrivateBrowsing
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -11135,6 +11187,8 @@ return
 null
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -11208,6 +11262,8 @@ node
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -11608,6 +11664,8 @@ keyEl
 {
 shortcut
 =
+lazy
+.
 ShortcutUtils
 .
 prettifyShortcut
@@ -11618,6 +11676,8 @@ keyEl
 }
 else
 {
+lazy
+.
 log
 .
 error
@@ -12127,6 +12187,8 @@ if
 viewbutton
 )
 {
+lazy
+.
 log
 .
 debug
@@ -12342,6 +12404,8 @@ _addedEventListeners
 =
 true
 ;
+lazy
+.
 log
 .
 debug
@@ -12602,6 +12666,9 @@ length
 )
 {
 return
+(
+lazy
+.
 gWidgetsBundle
 .
 formatStringFromName
@@ -12612,9 +12679,12 @@ aFormatArgs
 |
 |
 def
+)
 ;
 }
 return
+lazy
+.
 gWidgetsBundle
 .
 GetStringFromName
@@ -12677,6 +12747,8 @@ aProp
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -12820,6 +12892,8 @@ commandId
 {
 shortcut
 =
+lazy
+.
 ShortcutUtils
 .
 findShortcut
@@ -12850,6 +12924,8 @@ setAttribute
 "
 shortcut
 "
+lazy
+.
 ShortcutUtils
 .
 prettifyShortcut
@@ -12891,6 +12967,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -13087,6 +13165,8 @@ type
 view
 "
 .
+lazy
+.
 log
 .
 debug
@@ -13121,6 +13201,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -13342,6 +13424,8 @@ aNode
 aEvent
 )
 {
+lazy
+.
 log
 .
 debug
@@ -14012,6 +14096,8 @@ if
 panel
 )
 {
+lazy
+.
 PanelMultiView
 .
 hidePopup
@@ -14366,6 +14452,8 @@ ownerGlobal
 let
 isWindowPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -14498,6 +14586,8 @@ id
 }
 }
 }
+lazy
+.
 log
 .
 debug
@@ -14524,6 +14614,8 @@ aWindowPalette
 children
 )
 {
+lazy
+.
 log
 .
 debug
@@ -15710,6 +15802,8 @@ if
 state
 )
 {
+lazy
+.
 log
 .
 debug
@@ -15800,6 +15894,8 @@ gSavedState
 {
 }
 ;
+lazy
+.
 log
 .
 debug
@@ -15934,6 +16030,8 @@ if
 placementsPreexisted
 )
 {
+lazy
+.
 log
 .
 debug
@@ -16019,6 +16117,8 @@ gSavedState
 placements
 )
 {
+lazy
+.
 log
 .
 debug
@@ -16078,6 +16178,8 @@ if
 restored
 )
 {
+lazy
+.
 log
 .
 debug
@@ -16228,6 +16330,8 @@ aArea
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -16431,6 +16535,8 @@ placements
 }
 }
 }
+lazy
+.
 log
 .
 debug
@@ -16455,6 +16561,8 @@ this
 serializerHelper
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -16750,6 +16858,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -16898,6 +17008,8 @@ if
 widget
 )
 {
+lazy
+.
 log
 .
 error
@@ -17795,6 +17907,8 @@ if
 widget
 )
 {
+lazy
+.
 log
 .
 error
@@ -17815,6 +17929,8 @@ id
 return
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -18084,6 +18200,8 @@ id
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -18163,6 +18281,8 @@ string
 "
 )
 {
+lazy
+.
 log
 .
 error
@@ -18375,6 +18495,8 @@ widget
 removable
 )
 {
+lazy
+.
 log
 .
 error
@@ -18650,6 +18772,8 @@ string
 "
 )
 {
+lazy
+.
 log
 .
 error
@@ -19651,6 +19775,8 @@ gNewElementCount
 =
 0
 ;
+lazy
+.
 log
 .
 debug
@@ -21554,6 +21680,8 @@ null
 nondefaultState
 )
 {
+lazy
+.
 log
 .
 debug
@@ -21597,6 +21725,8 @@ false
 }
 }
 }
+lazy
+.
 log
 .
 debug
@@ -21705,6 +21835,8 @@ i
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -21758,6 +21890,8 @@ kPrefUIDensity
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -21789,6 +21923,8 @@ kPrefAutoTouchMode
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -21820,6 +21956,8 @@ kPrefDrawInTitlebar
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -21868,6 +22006,8 @@ gSelectedTheme
 id
 )
 {
+lazy
+.
 log
 .
 debug
@@ -30248,6 +30388,8 @@ the
 original
 event
 .
+lazy
+.
 BrowserUsageTelemetry
 .
 ignoreEvent
@@ -30351,6 +30493,8 @@ to
 the
 original
 event
+.
+lazy
 .
 BrowserUsageTelemetry
 .
@@ -33199,6 +33343,8 @@ aEvent
 }
 else
 {
+lazy
+.
 PanelMultiView
 .
 hidePopup
@@ -33298,6 +33444,8 @@ case
 dragend
 "
 :
+lazy
+.
 PanelMultiView
 .
 hidePopup
@@ -33682,6 +33830,8 @@ true
 }
 )
 ;
+lazy
+.
 PanelMultiView
 .
 openPopup
@@ -33767,6 +33917,8 @@ open
 =
 false
 ;
+lazy
+.
 PanelMultiView
 .
 hidePopup
@@ -34186,6 +34338,8 @@ clientWidth
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -34322,6 +34476,8 @@ _onOverflowHandle
 onOverflowHandle
 )
 {
+lazy
+.
 log
 .
 debug
@@ -34542,6 +34698,8 @@ _onOverflowHandle
 onOverflowHandle
 )
 {
+lazy
+.
 log
 .
 debug
@@ -34738,6 +34896,8 @@ shouldMoveAllItems
 totalAvailWidth
 )
 {
+lazy
+.
 log
 .
 debug
@@ -34827,6 +34987,8 @@ child
 id
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -34910,6 +35072,8 @@ _moveItemsBackToTheirOriginHandle
 moveItemsBackToTheirOriginHandle
 )
 {
+lazy
+.
 log
 .
 debug
@@ -34937,6 +35101,8 @@ totalAvailWidth
 minSize
 )
 {
+lazy
+.
 log
 .
 debug
@@ -34959,6 +35125,8 @@ break
 ;
 }
 }
+lazy
+.
 log
 .
 debug
@@ -35382,6 +35550,8 @@ here
 return
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -36783,6 +36953,8 @@ hover
 )
 )
 {
+lazy
+.
 PanelMultiView
 .
 hidePopup

@@ -899,11 +899,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CustomizableUI
 "
@@ -925,7 +931,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gBundle
 "
@@ -10637,6 +10643,8 @@ aria
 -
 label
 "
+lazy
+.
 gBundle
 .
 GetStringFromName
@@ -10783,6 +10791,8 @@ dispatchCustomEvent
 args
 )
 {
+lazy
+.
 CustomizableUI
 .
 ensureSubviewListeners
