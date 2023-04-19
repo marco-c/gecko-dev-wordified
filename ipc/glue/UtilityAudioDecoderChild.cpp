@@ -297,7 +297,7 @@ UtilityAudioDecoderChild
 RecvUpdateMediaCodecsSupported
 (
 const
-media
+PDMFactory
 :
 :
 MediaCodecsSupported

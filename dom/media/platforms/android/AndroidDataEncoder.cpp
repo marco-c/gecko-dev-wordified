@@ -73,13 +73,6 @@ h
 #
 include
 "
-H264
-.
-h
-"
-#
-include
-"
 MediaData
 .
 h
@@ -1247,9 +1240,6 @@ aYUVBuffer
 )
 {
 const
-layers
-:
-:
 PlanarYCbCrImage
 *
 image
@@ -1270,9 +1260,6 @@ image
 )
 ;
 const
-layers
-:
-:
 PlanarYCbCrData
 *
 yuv

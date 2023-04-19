@@ -551,15 +551,6 @@ aTargetFrameRate
 )
 override
 ;
-NS_IMETHOD
-GetCodecSupportInfo
-(
-nsACString
-&
-aCodecSupportInfo
-)
-override
-;
 /
 /
 Non
