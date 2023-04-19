@@ -164,6 +164,8 @@ ffi_converter_name
 type
 RustType
 =
+r
+#
 {
 {
 e
@@ -219,6 +221,8 @@ write
 (
 obj
 :
+r
+#
 {
 {
 e
@@ -281,6 +285,8 @@ variants
 )
 %
 }
+r
+#
 {
 {
 e
@@ -292,6 +298,8 @@ name
 }
 :
 :
+r
+#
 {
 {
 variant
@@ -372,6 +380,8 @@ anyhow
 :
 Result
 <
+r
+#
 {
 {
 e
@@ -515,6 +525,8 @@ write
 (
 obj
 :
+r
+#
 {
 {
 e
@@ -568,6 +580,8 @@ variants
 )
 %
 }
+r
+#
 {
 {
 e
@@ -579,6 +593,8 @@ name
 }
 :
 :
+r
+#
 {
 {
 variant
@@ -611,6 +627,8 @@ fields
 )
 %
 }
+r
+#
 {
 {
 field
@@ -689,6 +707,8 @@ ffi_converter
 :
 write
 (
+r
+#
 {
 {
 field
@@ -742,6 +762,8 @@ anyhow
 :
 Result
 <
+r
+#
 {
 {
 e
@@ -840,6 +862,8 @@ index
 }
 =
 >
+r
+#
 {
 {
 e
@@ -851,6 +875,8 @@ name
 }
 :
 :
+r
+#
 {
 {
 variant
@@ -883,6 +909,8 @@ fields
 )
 %
 }
+r
+#
 {
 {
 field

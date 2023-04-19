@@ -4,9 +4,14 @@
 let
 e
 =
-self
+ci
 .
-inner
+get_error_definition
+(
+name
+)
+.
+unwrap
 (
 )
 %
@@ -14,8 +19,6 @@ inner
 class
 {
 {
-e
-|
 type_name
 }
 }
@@ -311,6 +314,8 @@ field
 name
 (
 )
+|
+var_name
 }
 }
 =
@@ -331,6 +336,8 @@ field
 name
 (
 )
+|
+var_name
 }
 }
 )
@@ -348,8 +355,6 @@ return
 "
 {
 {
-e
-|
 type_name
 }
 }
@@ -393,8 +398,6 @@ return
 "
 {
 {
-e
-|
 type_name
 }
 }
@@ -435,8 +438,6 @@ endif
 class
 {
 {
-e
-|
 ffi_converter_name
 }
 }
@@ -492,8 +493,6 @@ index
 return
 {
 {
-e
-|
 type_name
 }
 }
@@ -654,8 +653,6 @@ isinstance
 value
 {
 {
-e
-|
 type_name
 }
 }
