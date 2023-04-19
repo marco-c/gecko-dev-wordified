@@ -608,6 +608,7 @@ copy
 {
 PostEvent
 (
+owner_
 SE_WRITE
 0
 )
@@ -746,6 +747,7 @@ copy
 {
 PostEvent
 (
+owner_
 SE_READ
 0
 )
@@ -892,6 +894,7 @@ size
 {
 PostEvent
 (
+owner_
 SE_WRITE
 0
 )
@@ -1067,6 +1070,7 @@ size
 {
 PostEvent
 (
+owner_
 SE_READ
 0
 )
