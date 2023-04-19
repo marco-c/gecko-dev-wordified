@@ -36425,6 +36425,17 @@ ForceMousewheelAutodirHonourRoot
 ;
 mScrollMetadata
 .
+SetIsPaginatedPresentation
+(
+aScrollMetadata
+.
+IsPaginatedPresentation
+(
+)
+)
+;
+mScrollMetadata
+.
 SetDisregardedDirection
 (
 aScrollMetadata
