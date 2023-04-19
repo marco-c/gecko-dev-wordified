@@ -1299,6 +1299,11 @@ DoLoad
 (
 )
 ;
+void
+UpdateOwnerPromise
+(
+)
+;
 /
 /
 Helper
