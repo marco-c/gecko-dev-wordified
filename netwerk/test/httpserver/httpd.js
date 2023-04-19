@@ -300,16 +300,6 @@ tweakable
 in
 server
 tests
-var
-gGlobalObject
-=
-Cu
-.
-getGlobalForObject
-(
-this
-)
-;
 const
 {
 Services
@@ -18489,7 +18479,7 @@ Cu
 .
 Sandbox
 (
-gGlobalObject
+globalThis
 )
 ;
 s

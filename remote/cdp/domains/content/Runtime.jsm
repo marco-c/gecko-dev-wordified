@@ -243,12 +243,7 @@ current
 scope
 addDebuggerToGlobal
 (
-Cu
-.
-getGlobalForObject
-(
-this
-)
+globalThis
 )
 ;
 const
