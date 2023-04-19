@@ -368,7 +368,7 @@ include
 "
 mozilla
 /
-StorageAccess
+ContentBlocking
 .
 h
 "
@@ -4985,6 +4985,9 @@ rv
 *
 aOutAllowed
 =
+ContentBlocking
+:
+:
 ShouldAllowAccessFor
 (
 win
