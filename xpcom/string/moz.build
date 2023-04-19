@@ -269,6 +269,11 @@ nsTextFormatter
 cpp
 "
 "
+nsTLiteralString
+.
+cpp
+"
+"
 nsTPromiseFlatString
 .
 cpp
@@ -295,11 +300,6 @@ cpp
 "
 "
 nsTSubstringTuple
-.
-cpp
-"
-"
-precompiled_templates
 .
 cpp
 "
@@ -332,6 +332,3 @@ FINAL_LIBRARY
 "
 xul
 "
-REQUIRES_UNIFIED_BUILD
-=
-True
