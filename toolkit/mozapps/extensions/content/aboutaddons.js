@@ -23808,6 +23808,8 @@ setAttributes
 (
 colorwayPreviewHeading
 l10nId
+.
+title
 )
 ;
 document
@@ -23819,6 +23821,8 @@ setAttributes
 colorwayPreviewSubHeading
 {
 l10nId
+.
+title
 }
 -
 subheading
@@ -23972,6 +23976,8 @@ collection
 BuiltInThemes
 .
 findActiveColorwayCollection
+?
+.
 (
 )
 ;
