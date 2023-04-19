@@ -369,12 +369,6 @@ Protector
 settings
 .
 constexpr
-bool
-kDefaultUseSaturationProtector
-=
-true
-;
-constexpr
 float
 kDefaultInitialSaturationMarginDb
 =
