@@ -249,8 +249,6 @@ nsCollapsingMargin
 aPrevMargin
 nscoord
 aClearance
-bool
-aIsAdjacentWithBStart
 nsLineBox
 *
 aLine
