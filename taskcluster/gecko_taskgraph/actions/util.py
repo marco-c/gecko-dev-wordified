@@ -90,6 +90,14 @@ slugid
 from
 taskgraph
 .
+optimize
+.
+base
+import
+optimize_task_graph
+from
+taskgraph
+.
 taskgraph
 import
 TaskGraph
@@ -128,12 +136,6 @@ import
 read_artifact
 write_artifact
 rename_artifact
-from
-gecko_taskgraph
-.
-optimize
-import
-optimize_task_graph
 from
 gecko_taskgraph
 .

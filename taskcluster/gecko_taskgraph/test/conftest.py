@@ -54,6 +54,22 @@ GraphConfig
 from
 taskgraph
 .
+optimize
+import
+base
+as
+optimize_mod
+from
+taskgraph
+.
+optimize
+.
+base
+import
+OptimizationStrategy
+from
+taskgraph
+.
 parameters
 import
 Parameters
@@ -65,10 +81,6 @@ import
 GECKO
     
 generator
-    
-optimize
-as
-optimize_mod
 )
 from
 gecko_taskgraph
@@ -89,12 +101,6 @@ generator
 import
 TaskGraphGenerator
 Kind
-from
-gecko_taskgraph
-.
-optimize
-import
-OptimizationStrategy
 from
 gecko_taskgraph
 .
@@ -706,6 +712,15 @@ FakeOptimization
 OptimizationStrategy
 )
 :
+    
+description
+=
+"
+Fake
+strategy
+for
+testing
+"
     
 def
 __init__
