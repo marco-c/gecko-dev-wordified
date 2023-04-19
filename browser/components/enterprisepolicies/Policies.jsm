@@ -133,11 +133,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 gCertDB
 :
@@ -240,7 +246,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonManager
 :
@@ -416,7 +422,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -1167,6 +1173,8 @@ length
 2
 )
 {
+lazy
+.
 log
 .
 error
@@ -1194,6 +1202,8 @@ length
 3
 )
 {
+lazy
+.
 log
 .
 error
@@ -1230,6 +1240,8 @@ trailingPinPart
 "
 )
 {
+lazy
+.
 log
 .
 error
@@ -1268,6 +1280,8 @@ pinMajorVersionStr
 length
 )
 {
+lazy
+.
 log
 .
 error
@@ -1304,6 +1318,8 @@ pinMajorVersionStr
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1341,6 +1357,8 @@ pinMajorVersionStr
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1380,6 +1398,8 @@ pinMajorVersionInt
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1412,6 +1432,8 @@ pinMajorVersionInt
 earliestPinMajorVersion
 )
 {
+lazy
+.
 log
 .
 error
@@ -1463,6 +1485,8 @@ pinMinorVersionStr
 length
 )
 {
+lazy
+.
 log
 .
 error
@@ -1499,6 +1523,8 @@ pinMinorVersionStr
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1538,6 +1564,8 @@ pinMinorVersionStr
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1577,6 +1605,8 @@ pinMinorVersionInt
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -1615,6 +1645,8 @@ pinMinorVersionInt
 earliestPinMinorVersion
 )
 {
+lazy
+.
 log
 .
 error
@@ -2263,6 +2295,8 @@ manager
 param
 )
 {
+lazy
+.
 BookmarksPolicies
 .
 processBookmarks
@@ -2666,6 +2700,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -2711,6 +2747,8 @@ reader
 DONE
 )
 {
+lazy
+.
 log
 .
 error
@@ -2781,6 +2819,8 @@ try
 {
 cert
 =
+lazy
+.
 gCertDB
 .
 constructX509
@@ -2794,6 +2834,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2827,6 +2869,8 @@ DER
 .
 cert
 =
+lazy
+.
 gCertDB
 .
 constructX509FromBase64
@@ -2843,6 +2887,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -2869,6 +2915,8 @@ cert
 {
 if
 (
+lazy
+.
 gCertDB
 .
 isCertTrusted
@@ -2899,6 +2947,8 @@ return
 }
 try
 {
+lazy
+.
 gCertDB
 .
 addCert
@@ -2925,6 +2975,8 @@ PEM
 instead
 of
 DER
+.
+lazy
 .
 gCertDB
 .
@@ -3036,6 +3088,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -4841,6 +4895,8 @@ visibilityPref
 visibility
 )
 ;
+lazy
+.
 gXulStore
 .
 setValue
@@ -5009,6 +5065,8 @@ value
 =
 >
 {
+lazy
+.
 gXulStore
 .
 setValue
@@ -5087,6 +5145,8 @@ true
 break
 ;
 }
+lazy
+.
 gXulStore
 .
 setValue
@@ -5719,6 +5779,8 @@ let
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonsByIDs
@@ -5771,6 +5833,8 @@ can
 t
 be
 uninstalled
+.
+lazy
 .
 log
 .
@@ -5883,6 +5947,8 @@ let
 xpiFile
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -6004,6 +6070,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -6207,6 +6275,8 @@ let
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAllAddons
@@ -6464,6 +6534,8 @@ let
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -6501,6 +6573,8 @@ can
 t
 be
 uninstalled
+.
+lazy
 .
 log
 .
@@ -6561,6 +6635,8 @@ addon
 .
 scope
 &
+lazy
+.
 AddonManager
 .
 SCOPE_PROFILE
@@ -6607,6 +6683,8 @@ let
 addonToUninstall
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -6644,6 +6722,8 @@ can
 t
 be
 uninstalled
+.
+lazy
 .
 log
 .
@@ -7134,6 +7214,8 @@ mimeType
 let
 realMIMEInfo
 =
+lazy
+.
 gMIMEService
 .
 getFromTypeAndExtension
@@ -7185,6 +7267,8 @@ try
 let
 realMIMEInfo
 =
+lazy
+.
 gMIMEService
 .
 getFromTypeAndExtension
@@ -7206,6 +7290,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -7255,6 +7341,8 @@ scheme
 let
 realHandlerInfo
 =
+lazy
+.
 gExternalProtocolService
 .
 getProtocolHandlerInfo
@@ -8196,6 +8284,8 @@ in
 policies
 )
 {
+lazy
+.
 log
 .
 error
@@ -9226,6 +9316,8 @@ preference
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -9274,6 +9366,8 @@ preference
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -9319,6 +9413,8 @@ prefix
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -9667,6 +9763,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -9802,6 +9900,8 @@ changeProxySettings
 "
 )
 ;
+lazy
+.
 ProxyPolicies
 .
 configureProxySettings
@@ -9813,6 +9913,8 @@ setAndLockPref
 }
 else
 {
+lazy
+.
 ProxyPolicies
 .
 configureProxySettings
@@ -10492,6 +10594,8 @@ separate
 "
 )
 {
+lazy
+.
 CustomizableUI
 .
 addWidgetToArea
@@ -10501,9 +10605,13 @@ search
 -
 container
 "
+lazy
+.
 CustomizableUI
 .
 AREA_NAVBAR
+lazy
+.
 CustomizableUI
 .
 getPlacementOfWidget
@@ -10532,6 +10640,8 @@ unified
 "
 )
 {
+lazy
+.
 CustomizableUI
 .
 removeWidgetFromArea
@@ -10683,6 +10793,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -10896,6 +11008,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -10933,6 +11047,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -11023,6 +11139,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -11079,6 +11197,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -11170,6 +11290,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -11227,6 +11349,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -11417,6 +11541,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -11431,6 +11557,8 @@ deviceName
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -11481,6 +11609,8 @@ param
 let
 homeButtonPlacement
 =
+lazy
+.
 CustomizableUI
 .
 getPlacementOfWidget
@@ -11501,6 +11631,8 @@ homeButtonPlacement
 let
 placement
 =
+lazy
+.
 CustomizableUI
 .
 getPlacementOfWidget
@@ -11512,6 +11644,8 @@ button
 "
 )
 ;
+lazy
+.
 CustomizableUI
 .
 addWidgetToArea
@@ -11521,6 +11655,8 @@ home
 -
 button
 "
+lazy
+.
 CustomizableUI
 .
 AREA_NAVBAR
@@ -11535,6 +11671,8 @@ position
 }
 else
 {
+lazy
+.
 CustomizableUI
 .
 removeWidgetFromArea
@@ -12005,6 +12143,8 @@ manager
 param
 )
 {
+lazy
+.
 WebsiteFilter
 .
 init
@@ -12831,6 +12971,8 @@ of
 an
 origin
 .
+lazy
+.
 log
 .
 error
@@ -12996,6 +13138,8 @@ false
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -13271,6 +13415,8 @@ policyValue
 oldPolicyValue
 )
 {
+lazy
+.
 log
 .
 debug
@@ -13498,6 +13644,8 @@ reinstall
 return
 ;
 }
+lazy
+.
 AddonManager
 .
 getInstallForURL
@@ -13538,6 +13686,8 @@ addon
 appDisabled
 )
 {
+lazy
+.
 log
 .
 error
@@ -13625,6 +13775,8 @@ id
 extensionID
 )
 {
+lazy
+.
 log
 .
 error
@@ -13679,6 +13831,8 @@ addon
 appDisabled
 )
 {
+lazy
+.
 log
 .
 error
@@ -13732,6 +13886,8 @@ version
 0
 )
 {
+lazy
+.
 log
 .
 debug
@@ -13776,6 +13932,8 @@ removeListener
 listener
 )
 ;
+lazy
+.
 log
 .
 error
@@ -13784,6 +13942,8 @@ Download
 failed
 -
 {
+lazy
+.
 AddonManager
 .
 errorToString
@@ -13821,6 +13981,8 @@ removeListener
 listener
 )
 ;
+lazy
+.
 log
 .
 error
@@ -13829,6 +13991,8 @@ Installation
 failed
 -
 {
+lazy
+.
 AddonManager
 .
 errorToString
@@ -13894,6 +14058,8 @@ removeListener
 listener
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -13964,6 +14130,8 @@ install
 state
 =
 =
+lazy
+.
 AddonManager
 .
 STATE_CANCELLED
@@ -14537,6 +14705,8 @@ let
 file
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -14586,6 +14756,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -14642,6 +14814,8 @@ https
 "
 )
 {
+lazy
+.
 log
 .
 error
@@ -14693,6 +14867,8 @@ s
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -14754,6 +14930,8 @@ uriTemplate
 }
 else
 {
+lazy
+.
 log
 .
 error
@@ -14850,6 +15028,8 @@ possibleApplicationHandlers
 length
 )
 {
+lazy
+.
 log
 .
 error
@@ -14890,6 +15070,8 @@ mimeInfo
 ask
 ;
 }
+lazy
+.
 gHandlerService
 .
 store

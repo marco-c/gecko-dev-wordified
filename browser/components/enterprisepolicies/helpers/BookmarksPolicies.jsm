@@ -365,11 +365,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -403,7 +409,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -615,6 +621,8 @@ bookmark
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -636,6 +644,8 @@ values
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -647,6 +657,8 @@ bookmark
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -668,6 +680,8 @@ values
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -679,12 +693,16 @@ bookmark
 .
 catch
 (
+lazy
+.
 log
 .
 error
 )
 ;
 }
+lazy
+.
 gFoldersMapPromise
 .
 then
@@ -909,6 +927,8 @@ Map
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1194,6 +1214,8 @@ url
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1263,6 +1285,8 @@ keys
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1289,6 +1313,8 @@ keys
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1362,6 +1388,8 @@ size
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1392,6 +1420,8 @@ title
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1455,6 +1485,8 @@ Folder
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1483,6 +1515,8 @@ bookmark
 Title
 guid
 :
+lazy
+.
 PlacesUtils
 .
 generateGuidWithPrefix
@@ -1600,6 +1634,8 @@ URL
 href
 )
 ;
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1656,6 +1692,8 @@ break
 ;
 default
 :
+lazy
+.
 log
 .
 error
@@ -1679,6 +1717,8 @@ Title
 return
 ;
 }
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1704,6 +1744,8 @@ false
 forceReload
 *
 /
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -1778,7 +1820,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gFoldersMapPromise
 "
@@ -1804,6 +1846,8 @@ Map
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1891,12 +1935,16 @@ placement
 menu
 "
 ?
+lazy
+.
 PlacesUtils
 .
 bookmarks
 .
 menuGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1939,6 +1987,8 @@ let
 foldersMap
 =
 await
+lazy
+.
 gFoldersMapPromise
 ;
 let
@@ -1974,6 +2024,8 @@ folderName
 let
 guid
 =
+lazy
+.
 PlacesUtils
 .
 generateGuidWithPrefix
@@ -1984,6 +2036,8 @@ FOLDER_GUID_PREFIX
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1993,6 +2047,8 @@ insert
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks

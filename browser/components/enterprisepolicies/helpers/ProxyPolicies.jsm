@@ -96,11 +96,17 @@ policies
 loglevel
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -429,6 +435,8 @@ SOCKSVersion
 5
 )
 {
+lazy
+.
 log
 .
 error
@@ -518,6 +526,8 @@ param
 FTPProxy
 )
 {
+lazy
+.
 log
 .
 warn
@@ -585,6 +595,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
