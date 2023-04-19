@@ -563,8 +563,6 @@ onShowGridOutlineHighlight
 PropTypes
 .
 func
-.
-isRequired
 onToggleGeometryEditor
 :
 PropTypes
