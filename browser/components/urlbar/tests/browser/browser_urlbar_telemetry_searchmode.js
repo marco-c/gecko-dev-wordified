@@ -120,9 +120,9 @@ suggest
 enabled
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -138,9 +138,7 @@ modules
 /
 UrlbarProviderTabToSearch
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarTestUtils
 :
@@ -155,9 +153,7 @@ common
 /
 UrlbarTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

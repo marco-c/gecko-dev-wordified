@@ -42,9 +42,9 @@ use
 strict
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -60,9 +60,7 @@ modules
 /
 UrlbarUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )
