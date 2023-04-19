@@ -265,6 +265,9 @@ false
 indexedDB
 :
 false
+structuredClone
+:
+false
 }
 }
 ;

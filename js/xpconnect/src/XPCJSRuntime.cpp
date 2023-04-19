@@ -1119,6 +1119,12 @@ indexedDB
 /
 /
 IDX_INDEXEDDB
+"
+structuredClone
+"
+/
+/
+IDX_STRUCTUREDCLONE
 }
 ;
 /
