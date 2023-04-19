@@ -2134,7 +2134,7 @@ parent
 is
 reflowing
 .
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 aComputedISize
 >
@@ -2164,7 +2164,14 @@ ComputedISize
 (
 )
 =
+std
+:
+:
+max
+(
+0
 aComputedISize
+)
 ;
 const
 LayoutFrameType
@@ -2421,7 +2428,7 @@ isize
 is
 pointless
 .
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 aComputedBSize
 >
@@ -2441,7 +2448,14 @@ ComputedBSize
 (
 )
 =
+std
+:
+:
+max
+(
+0
 aComputedBSize
+)
 ;
 }
 void
