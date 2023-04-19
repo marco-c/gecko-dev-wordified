@@ -1683,6 +1683,7 @@ this
 parentWindow
 )
 {
+await
 this
 .
 driver
