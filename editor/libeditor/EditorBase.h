@@ -3930,6 +3930,7 @@ event
 .
 *
 /
+virtual
 nsresult
 OnBlur
 (
@@ -3941,6 +3942,8 @@ EventTarget
 *
 aEventTarget
 )
+=
+0
 ;
 /
 *
