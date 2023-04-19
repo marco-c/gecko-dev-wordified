@@ -381,7 +381,7 @@ fd
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 dup
@@ -418,7 +418,7 @@ fd
 mExpectError
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unexpected
@@ -517,7 +517,7 @@ GetDesc
 ;
 }
 }
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 attempt

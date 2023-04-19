@@ -126,7 +126,7 @@ This
 header
 defines
 the
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 macro
 used
 in
@@ -447,7 +447,7 @@ type
 .
 #
 define
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 fmt
 args

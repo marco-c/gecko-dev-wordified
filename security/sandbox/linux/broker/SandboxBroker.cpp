@@ -411,7 +411,7 @@ fds
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxBroker
@@ -470,7 +470,7 @@ mThread
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxBroker
@@ -1260,7 +1260,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 policy
@@ -1815,7 +1815,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 policy
@@ -2242,7 +2242,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 fixing
@@ -2505,7 +2505,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 skip
@@ -2583,7 +2583,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 removing
@@ -2643,7 +2643,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 new
@@ -4499,7 +4499,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Reversing
@@ -4924,7 +4924,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Tempdir
@@ -4956,7 +4956,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Tempdir
@@ -5245,7 +5245,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 EOF
@@ -5303,7 +5303,7 @@ recvd
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 bad
@@ -5348,7 +5348,7 @@ req
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 bad
@@ -5391,7 +5391,7 @@ respfd
 1
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 no
@@ -5558,7 +5558,7 @@ recvBufLen
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 corrupted
@@ -7000,7 +7000,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Recording
@@ -7133,7 +7133,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Recording
@@ -7370,7 +7370,7 @@ sent
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 failed
@@ -7733,7 +7733,7 @@ errno
 0
 ;
 }
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxBroker
@@ -7829,7 +7829,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxBroker

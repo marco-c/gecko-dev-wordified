@@ -1220,7 +1220,7 @@ accessFlags
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 %
@@ -3223,7 +3223,7 @@ rv
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 socketpair
@@ -3419,7 +3419,7 @@ rv
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 pthread_sigmask
@@ -3509,7 +3509,7 @@ rv
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 pthread_sigmask
@@ -4557,7 +4557,7 @@ SetCurrent
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 capset
@@ -4990,7 +4990,7 @@ SetCurrent
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 capset

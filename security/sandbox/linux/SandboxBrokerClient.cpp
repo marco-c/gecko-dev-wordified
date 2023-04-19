@@ -519,7 +519,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 rewriting
@@ -542,7 +542,7 @@ rewrittenPath
 }
 else
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 not
@@ -1002,7 +1002,7 @@ recvd
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Unexpected
@@ -1185,7 +1185,7 @@ message
 is
 expected
 .
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Failed
