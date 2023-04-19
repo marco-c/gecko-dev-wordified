@@ -32100,7 +32100,11 @@ Imm32
 (
 sizeof
 (
-GCPtrLinearString
+GCPtr
+<
+JSLinearString
+*
+>
 )
 )
 cursorAddr
