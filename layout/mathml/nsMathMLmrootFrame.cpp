@@ -647,8 +647,10 @@ AppUnitsPerDevPixel
 (
 )
 ;
+RefPtr
+<
 gfxFont
-*
+>
 mathFont
 =
 aFontMetrics
@@ -1807,8 +1809,10 @@ raiseIndexPercent
 .
 6f
 ;
+RefPtr
+<
 gfxFont
-*
+>
 mathFont
 =
 fm

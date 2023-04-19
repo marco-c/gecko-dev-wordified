@@ -1206,7 +1206,12 @@ FontOrientation
 aOrientation
 )
 {
-return
+RefPtr
+<
+gfxFont
+>
+font
+=
 aFontMetrics
 -
 >
@@ -1218,6 +1223,9 @@ GetThebesFontGroup
 GetFirstValidFont
 (
 )
+;
+return
+font
 -
 >
 GetMetrics
