@@ -5669,14 +5669,6 @@ __lastSessionWindowID
 )
 ;
 }
-if
-(
-state
-?
-.
-windows
-)
-{
 /
 /
 clear
@@ -5700,8 +5692,10 @@ don
 t
 matter
 state
+?
 .
 windows
+?
 .
 forEach
 (
@@ -5715,8 +5709,10 @@ _maybeDontRestoreTabs
 )
 ;
 state
+?
 .
 _closedWindows
+?
 .
 forEach
 (
@@ -5729,7 +5725,6 @@ win
 _maybeDontRestoreTabs
 )
 ;
-}
 }
 catch
 (
