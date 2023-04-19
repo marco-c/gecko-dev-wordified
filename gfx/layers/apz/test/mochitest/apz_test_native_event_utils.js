@@ -3124,6 +3124,8 @@ works
 only
 on
 Windows
+and
+Linux
 .
 /
 /
@@ -3164,6 +3166,16 @@ getPlatform
 =
 "
 windows
+"
+&
+&
+getPlatform
+(
+)
+!
+=
+"
+linux
 "
 )
 {
