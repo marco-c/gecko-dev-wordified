@@ -3601,11 +3601,6 @@ ClearThemeRegion
 (
 )
 ;
-void
-SetThemeRegion
-(
-)
-;
 /
 *
 *
