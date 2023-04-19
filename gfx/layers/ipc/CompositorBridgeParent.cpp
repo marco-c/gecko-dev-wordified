@@ -749,15 +749,6 @@ include
 "
 mozilla
 /
-PerfStats
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PodOperations
 .
 h
