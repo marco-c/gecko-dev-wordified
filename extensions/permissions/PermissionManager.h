@@ -1276,7 +1276,7 @@ key
 *
 /
 static
-nsresult
+void
 GetKeyForPrincipal
 (
 nsIPrincipal
@@ -1465,7 +1465,7 @@ key
 *
 /
 static
-nsresult
+void
 GetKeyForOrigin
 (
 const
@@ -1639,7 +1639,7 @@ key
 *
 /
 static
-nsresult
+void
 GetKeyForPermission
 (
 nsIPrincipal
