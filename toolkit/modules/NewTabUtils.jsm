@@ -7021,6 +7021,8 @@ stream
 .
 hideTopSitesWithSearchParam
 "
+"
+"
 )
 }
 aOptions
