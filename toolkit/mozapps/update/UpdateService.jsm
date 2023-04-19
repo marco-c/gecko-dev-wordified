@@ -18873,7 +18873,7 @@ Services
 .
 startup
 .
-wasSilentlyRestarted
+wasSilentlyStarted
 )
 {
 /
