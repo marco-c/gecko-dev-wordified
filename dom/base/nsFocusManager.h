@@ -1510,6 +1510,7 @@ focus
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 WindowHidden
 (
@@ -1538,6 +1539,7 @@ actions
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FireDelayedEvents
 (
@@ -3173,6 +3175,7 @@ WindowRaised
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 SendFocusOrBlurEvent
 (
@@ -3261,6 +3264,7 @@ WindowRaised
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FireFocusOrBlurEvent
 (
@@ -3406,6 +3410,7 @@ focusout
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FireFocusInOrOutEvent
 (
