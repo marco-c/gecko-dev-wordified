@@ -816,6 +816,9 @@ WeakSet
 "
 Storage
 "
+"
+URLSearchParams
+"
 ]
 .
 includes
