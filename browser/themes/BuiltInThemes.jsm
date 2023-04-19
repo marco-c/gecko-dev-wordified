@@ -1318,10 +1318,6 @@ builtInThemeMap
 .
 findActiveColorwayCollection
 (
-new
-Date
-(
-)
 )
 ;
 }
