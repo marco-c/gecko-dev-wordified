@@ -3268,13 +3268,6 @@ return
 }
 ;
 }
-auto
-wm
-=
-GetWritingMode
-(
-)
-;
 if
 (
 !
@@ -3287,7 +3280,8 @@ containAxes
 ContainSize
 (
 kFallbackIntrinsicSize
-wm
+*
+this
 )
 ;
 }
@@ -3335,7 +3329,8 @@ ToAppUnits
 *
 size
 )
-wm
+*
+this
 )
 ;
 }
@@ -3366,7 +3361,8 @@ ContainSize
 (
 *
 imgSize
-wm
+*
+this
 )
 ;
 }
@@ -3377,7 +3373,8 @@ containAxes
 ContainSize
 (
 kFallbackIntrinsicSize
-wm
+*
+this
 )
 ;
 }

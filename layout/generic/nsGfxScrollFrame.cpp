@@ -4225,7 +4225,12 @@ aKidMetrics
 PhysicalSize
 (
 )
-wm
+*
+aState
+.
+mReflowInput
+.
+mFrame
 )
 ;
 const
@@ -7619,7 +7624,12 @@ kidDesiredSize
 PhysicalSize
 (
 )
-desiredWm
+*
+aState
+.
+mReflowInput
+.
+mFrame
 )
 ;
 nsSize

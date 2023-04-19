@@ -3121,9 +3121,8 @@ GetCanvasSize
 (
 )
 )
-GetWritingMode
-(
-)
+*
+this
 )
 ;
 }
