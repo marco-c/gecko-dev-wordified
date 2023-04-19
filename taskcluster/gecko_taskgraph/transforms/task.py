@@ -9602,6 +9602,34 @@ bool
         
 )
         
+Optional
+(
+"
+pin
+-
+channels
+"
+)
+:
+optionally_keyed_by
+(
+            
+"
+release
+-
+type
+"
+"
+release
+-
+level
+"
+[
+str
+]
+        
+)
+        
 #
 list
 of
@@ -9912,6 +9940,12 @@ mapping
 -
 update
 "
+            
+"
+pin
+-
+channels
+"
         
 )
 :
@@ -10065,6 +10099,12 @@ bouncer
 product
 -
 pattern
+"
+            
+"
+pin
+-
+channels
 "
         
 )
