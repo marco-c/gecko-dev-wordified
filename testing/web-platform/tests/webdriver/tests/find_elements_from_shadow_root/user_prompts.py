@@ -95,6 +95,7 @@ check_user_prompt_closed_without_exception
 (
 session
 create_dialog
+inline
 get_shadow_page
 )
 :
@@ -111,6 +112,8 @@ session
 .
 url
 =
+inline
+(
 get_shadow_page
 (
 "
@@ -129,6 +132,7 @@ p
 div
 >
 "
+)
 )
         
 outer_element
@@ -266,6 +270,7 @@ check_user_prompt_closed_with_exception
 (
 session
 create_dialog
+inline
 get_shadow_page
 )
 :
@@ -282,6 +287,8 @@ session
 .
 url
 =
+inline
+(
 get_shadow_page
 (
 "
@@ -300,6 +307,7 @@ p
 div
 >
 "
+)
 )
         
 outer_element
@@ -384,6 +392,7 @@ check_user_prompt_not_closed_but_exception
 (
 session
 create_dialog
+inline
 get_shadow_page
 )
 :
@@ -399,6 +408,8 @@ session
 .
 url
 =
+inline
+(
 get_shadow_page
 (
 "
@@ -417,6 +428,7 @@ p
 div
 >
 "
+)
 )
         
 outer_element
