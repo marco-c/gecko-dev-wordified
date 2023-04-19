@@ -166,11 +166,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 isWindowGlobalPartOfContext
 :
@@ -325,6 +331,8 @@ DEBUG
 return
 ;
 }
+lazy
+.
 WindowGlobalLogger
 .
 logWindowGlobal
@@ -890,6 +898,8 @@ frame
 )
 &
 &
+lazy
+.
 isWindowGlobalPartOfContext
 (
 this
@@ -3027,6 +3037,8 @@ browserId
 &
 &
 !
+lazy
+.
 isWindowGlobalPartOfContext
 (
 this
@@ -3558,6 +3570,8 @@ from
 .
 if
 (
+lazy
+.
 isWindowGlobalPartOfContext
 (
 this
@@ -3629,6 +3643,8 @@ d
 const
 targetActors
 =
+lazy
+.
 TargetActorRegistry
 .
 getTargetActors

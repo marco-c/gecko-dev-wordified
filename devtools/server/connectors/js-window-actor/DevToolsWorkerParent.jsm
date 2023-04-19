@@ -148,11 +148,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 JsWindowActorTransport
 "
@@ -776,6 +782,8 @@ const
 transport
 =
 new
+lazy
+.
 JsWindowActorTransport
 (
 this
