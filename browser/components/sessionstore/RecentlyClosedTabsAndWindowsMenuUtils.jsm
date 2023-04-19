@@ -1106,8 +1106,6 @@ PlacesUIUtils
 getImageURL
 (
 aClosedTab
-.
-image
 )
 ;
 element
