@@ -2701,11 +2701,6 @@ RetrieveCachedBounds
 )
 const
 {
-MOZ_ASSERT
-(
-mCachedFields
-)
-;
 if
 (
 !
