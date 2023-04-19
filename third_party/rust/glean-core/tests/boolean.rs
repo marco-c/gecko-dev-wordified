@@ -253,7 +253,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -506,7 +506,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean

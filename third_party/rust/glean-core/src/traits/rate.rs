@@ -371,10 +371,10 @@ S
 >
 Option
 <
-(
-i32
-i32
-)
+crate
+:
+:
+Rate
 >
 ;
 /

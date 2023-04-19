@@ -4,13 +4,6 @@
 Parsers
 recognizing
 numbers
-#
-[
-macro_use
-]
-mod
-macros
-;
 pub
 mod
 complete

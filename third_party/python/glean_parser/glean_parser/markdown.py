@@ -102,6 +102,10 @@ parse_qs
 from
 .
 import
+__version__
+from
+.
+import
 metrics
 from
 .
@@ -1919,6 +1923,10 @@ template
 .
 render
 (
+                
+parser_version
+=
+__version__
                 
 metrics_by_pings
 =

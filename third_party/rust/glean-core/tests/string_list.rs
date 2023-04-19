@@ -179,7 +179,7 @@ default
 ;
 list
 .
-add
+add_sync
 (
 &
 glean
@@ -193,7 +193,7 @@ assert_eq
 (
 list
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -216,7 +216,7 @@ first
 ;
 list
 .
-add
+add_sync
 (
 &
 glean
@@ -230,7 +230,7 @@ assert_eq
 (
 list
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -256,7 +256,7 @@ second
 ;
 list
 .
-set
+set_sync
 (
 &
 glean
@@ -278,7 +278,7 @@ assert_eq
 (
 list
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -301,7 +301,7 @@ third
 ;
 list
 .
-add
+add_sync
 (
 &
 glean
@@ -315,7 +315,7 @@ assert_eq
 (
 list
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -469,7 +469,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -673,7 +673,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -856,7 +856,7 @@ repeat
 ;
 metric
 .
-add
+add_sync
 (
 &
 glean
@@ -898,7 +898,7 @@ to_string
 ]
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -947,7 +947,7 @@ None
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -993,7 +993,7 @@ to_string
 ]
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1126,7 +1126,7 @@ default
 ;
 metric
 .
-add
+add_sync
 (
 &
 glean
@@ -1155,7 +1155,7 @@ assert_eq
 None
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1167,7 +1167,7 @@ store1
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -1200,7 +1200,7 @@ assert_eq
 None
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1336,7 +1336,7 @@ in
 {
 metric
 .
-add
+add_sync
 (
 &
 glean
@@ -1389,7 +1389,7 @@ assert_eq
 expected
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1416,7 +1416,7 @@ added
 .
 metric
 .
-add
+add_sync
 (
 &
 glean
@@ -1431,7 +1431,7 @@ assert_eq
 expected
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1539,7 +1539,7 @@ collect
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -1552,7 +1552,7 @@ assert_eq
 expected
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1676,7 +1676,7 @@ default
 ;
 metric
 .
-set
+set_sync
 (
 &
 glean
@@ -1706,7 +1706,7 @@ vec
 )
 metric
 .
-test_get_value
+get_value
 (
 &
 glean

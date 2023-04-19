@@ -308,7 +308,7 @@ self
 >
 HashMap
 <
-i32
+String
 String
 >
 ;
@@ -471,7 +471,7 @@ self
 >
 HashMap
 <
-i32
+String
 String
 >
 {

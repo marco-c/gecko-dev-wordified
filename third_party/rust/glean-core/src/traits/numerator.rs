@@ -62,6 +62,12 @@ crate
 :
 ErrorType
 ;
+use
+crate
+:
+:
+Rate
+;
 /
 /
 When
@@ -303,10 +309,7 @@ S
 >
 Option
 <
-(
-i32
-i32
-)
+Rate
 >
 ;
 /

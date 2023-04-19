@@ -180,7 +180,6 @@ tempdir
 dir
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -245,10 +244,17 @@ time_unit
 let
 id
 =
+4u64
+.
+into
+(
+)
+;
 metric
 .
 set_start
 (
+id
 0
 )
 ;
@@ -267,7 +273,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -293,6 +299,8 @@ snapshot
 .
 sum
 duration
+as
+i64
 )
 ;
 }
@@ -446,7 +454,6 @@ duration
 1
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -508,10 +515,17 @@ Nanosecond
 let
 id
 =
+4u64
+.
+into
+(
+)
+;
 metric
 .
 set_start
 (
+id
 0
 )
 ;
@@ -648,7 +662,6 @@ TimeUnit
 Nanosecond
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -733,10 +746,17 @@ discarded
 let
 id
 =
+4u64
+.
+into
+(
+)
+;
 metric
 .
 set_start
 (
+id
 duration
 )
 ;
@@ -755,7 +775,7 @@ assert
 (
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -830,7 +850,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -918,7 +937,7 @@ reporting
 .
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -938,7 +957,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1042,7 +1061,7 @@ snapshot
 values
 [
 &
-984_625_593
+984625593
 ]
 )
 ;
@@ -1055,7 +1074,7 @@ snapshot
 values
 [
 &
-1_969_251_187
+1969251187
 ]
 )
 ;
@@ -1068,7 +1087,7 @@ snapshot
 values
 [
 &
-2_784_941_737
+2784941737
 ]
 )
 ;
@@ -1131,7 +1150,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -1204,7 +1222,7 @@ samples
 .
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1226,7 +1244,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1381,7 +1399,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -1492,7 +1509,7 @@ samples
 .
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1513,7 +1530,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1549,6 +1566,8 @@ assert_eq
 snapshot
 .
 sum
+as
+u64
 MAX_SAMPLE_TIME
 +
 6
@@ -1667,7 +1686,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -1771,10 +1789,17 @@ max_value
 let
 id
 =
+4u64
+.
+into
+(
+)
+;
 metric
 .
 set_start
 (
+id
 0
 )
 ;
@@ -1793,7 +1818,7 @@ val
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1833,6 +1858,8 @@ val
 .
 sum
 time
+as
+i64
 )
 ;
 }
@@ -1857,7 +1884,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -1922,13 +1948,22 @@ TimeUnit
 Nanosecond
 )
 ;
+let
+id
+=
+3785u64
+.
+into
+(
+)
+;
 metric
 .
 set_stop_and_accumulate
 (
 &
 glean
-3785
+id
 60
 )
 ;
@@ -1991,7 +2026,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -2067,7 +2101,7 @@ seconds_to_nanos
 ;
 metric
 .
-accumulate_raw_samples_nanos
+accumulate_raw_samples_nanos_sync
 (
 &
 glean
@@ -2091,7 +2125,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -2133,6 +2167,8 @@ sum
 6
 *
 seconds_to_nanos
+as
+i64
 )
 ;
 /
@@ -2186,7 +2222,7 @@ snapshot
 values
 [
 &
-984_625_593
+984625593
 ]
 )
 ;
@@ -2199,7 +2235,7 @@ snapshot
 values
 [
 &
-1_969_251_187
+1969251187
 ]
 )
 ;
@@ -2212,7 +2248,7 @@ snapshot
 values
 [
 &
-2_784_941_737
+2784941737
 ]
 )
 ;
@@ -2239,7 +2275,7 @@ meta
 ErrorType
 :
 :
-InvalidValue
+InvalidState
 Some
 (
 "
@@ -2275,7 +2311,6 @@ None
 )
 ;
 let
-mut
 metric
 =
 TimingDistributionMetric
@@ -2360,7 +2395,7 @@ max_sample_time
 ;
 metric
 .
-accumulate_raw_samples_nanos
+accumulate_raw_samples_nanos_sync
 (
 &
 glean
@@ -2407,7 +2442,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -2449,6 +2484,8 @@ sum
 2
 +
 max_sample_time
+as
+i64
 )
 ;
 /
@@ -2514,7 +2551,7 @@ snapshot
 values
 [
 &
-599_512_966_122
+599512966122
 ]
 )
 ;
@@ -2529,7 +2566,10 @@ reported
 assert_eq
 !
 (
+Ok
+(
 1
+)
 test_get_num_recorded_errors
 (
 &
@@ -2549,10 +2589,6 @@ Some
 store1
 "
 )
-)
-.
-unwrap
-(
 )
 )
 ;

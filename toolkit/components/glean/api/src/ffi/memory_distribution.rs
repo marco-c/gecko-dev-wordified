@@ -183,6 +183,8 @@ sum
 val
 .
 sum
+as
+_
 ;
 for
 (
@@ -205,6 +207,8 @@ buckets
 push
 (
 bucket
+as
+_
 )
 ;
 counts
@@ -212,6 +216,8 @@ counts
 push
 (
 count
+as
+_
 )
 ;
 }

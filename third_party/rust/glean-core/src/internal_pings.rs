@@ -57,7 +57,7 @@ MPL
 /
 .
 use
-super
+crate
 :
 :
 metrics
@@ -175,6 +175,7 @@ directly
 derive
 (
 Debug
+Clone
 )
 ]
 pub

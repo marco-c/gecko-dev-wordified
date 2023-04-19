@@ -97,6 +97,10 @@ Union
 from
 .
 import
+__version__
+from
+.
+import
 metrics
 from
 .
@@ -1334,6 +1338,10 @@ template
 render
 (
                 
+parser_version
+=
+__version__
+                
 categories
 =
 categories
@@ -1343,6 +1351,12 @@ extra_args
 util
 .
 metric_args
+                
+common_metric_args
+=
+util
+.
+common_metric_args
             
 )
         

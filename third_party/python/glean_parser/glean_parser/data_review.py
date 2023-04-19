@@ -1161,6 +1161,8 @@ i
 e
 .
 not
+Glean
+or
 Telemetry
 )
 that

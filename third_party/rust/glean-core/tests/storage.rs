@@ -218,7 +218,7 @@ default
 ;
 local_metric
 .
-set
+set_sync
 (
 &
 glean
@@ -351,7 +351,7 @@ default
 ;
 metric
 .
-add
+add_sync
 (
 &
 glean
@@ -681,7 +681,7 @@ move
 {
 threadsafe_metric_clone
 .
-add
+add_sync
 (
 &
 *
@@ -705,7 +705,7 @@ wait
 ;
 threadsafe_metric_clone
 .
-add
+add_sync
 (
 &
 *
@@ -726,7 +726,7 @@ unwrap
 ;
 threadsafe_metric
 .
-add
+add_sync
 (
 &
 *
@@ -750,7 +750,7 @@ wait
 ;
 threadsafe_metric
 .
-add
+add_sync
 (
 &
 *

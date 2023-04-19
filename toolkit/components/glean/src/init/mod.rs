@@ -1015,6 +1015,12 @@ ClientInfoMetrics
 {
 app_build
 app_display_version
+channel
+:
+Some
+(
+channel
+)
 }
 ;
 log
@@ -1195,12 +1201,6 @@ None
 delay_ping_lifetime_io
 :
 true
-channel
-:
-Some
-(
-channel
-)
 server_endpoint
 :
 Some

@@ -478,9 +478,9 @@ pings_submitted
 LabeledMetric
 :
 :
-new
-(
+<
 CounterMetric
+>
 :
 :
 new
@@ -540,7 +540,6 @@ dynamic_label
 :
 None
 }
-)
 None
 )
 }
@@ -600,9 +599,9 @@ ping_upload_failure
 LabeledMetric
 :
 :
-new
-(
+<
 CounterMetric
+>
 :
 :
 new
@@ -655,7 +654,6 @@ dynamic_label
 :
 None
 }
-)
 Some
 (
 vec

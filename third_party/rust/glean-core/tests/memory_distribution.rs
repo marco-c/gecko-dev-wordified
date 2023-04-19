@@ -234,7 +234,7 @@ memory_unit
 ;
 metric
 .
-accumulate
+accumulate_sync
 (
 &
 glean
@@ -246,7 +246,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -484,7 +484,7 @@ Byte
 ;
 metric
 .
-accumulate
+accumulate_sync
 (
 &
 glean
@@ -721,7 +721,7 @@ reporting
 .
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -741,7 +741,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean
@@ -1000,7 +1000,7 @@ samples
 .
 metric
 .
-accumulate_samples_signed
+accumulate_samples_sync
 (
 &
 glean
@@ -1022,7 +1022,7 @@ snapshot
 =
 metric
 .
-test_get_value
+get_value
 (
 &
 glean

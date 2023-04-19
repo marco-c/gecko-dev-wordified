@@ -227,7 +227,7 @@ url
 UploadResult
 :
 :
-HttpStatus
+http_status
 (
 200
 )

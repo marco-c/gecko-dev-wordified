@@ -309,9 +309,6 @@ id
 #
 [
 inherent
-(
-pub
-)
 ]
 impl
 Counter
@@ -381,6 +378,7 @@ is
 or
 negative
 .
+pub
 fn
 add
 (
@@ -613,6 +611,7 @@ if
 nothing
 stored
 .
+pub
 fn
 test_get_value
 <
@@ -803,6 +802,7 @@ of
 errors
 reported
 .
+pub
 fn
 test_get_num_recorded_errors
 <

@@ -69,15 +69,6 @@ with_gecko
 )
 ]
 use
-chrono
-:
-:
-prelude
-:
-:
-*
-;
-use
 nsstring
 :
 :
@@ -207,8 +198,6 @@ year
 val
 .
 year
-(
-)
 ;
 value
 .
@@ -217,8 +206,6 @@ month
 val
 .
 month
-(
-)
 ;
 value
 .
@@ -227,8 +214,6 @@ day
 val
 .
 day
-(
-)
 ;
 value
 .
@@ -237,8 +222,6 @@ hour
 val
 .
 hour
-(
-)
 ;
 value
 .
@@ -247,8 +230,6 @@ minute
 val
 .
 minute
-(
-)
 ;
 value
 .
@@ -257,8 +238,6 @@ second
 val
 .
 second
-(
-)
 ;
 value
 .
@@ -267,8 +246,6 @@ nano
 val
 .
 nanosecond
-(
-)
 ;
 value
 .
@@ -276,13 +253,7 @@ offset_seconds
 =
 val
 .
-offset
-(
-)
-.
-local_minus_utc
-(
-)
+offset_seconds
 ;
 }
 #

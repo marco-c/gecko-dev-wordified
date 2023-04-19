@@ -204,7 +204,7 @@ EventRecord
 u64
 HashMap
 <
-i32
+String
 String
 >
 )

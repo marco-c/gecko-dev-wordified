@@ -491,7 +491,7 @@ cfg
 glean_core
 :
 :
-Configuration
+InternalConfiguration
 {
 data_path
 :
@@ -501,7 +501,11 @@ path
 (
 )
 .
-into
+display
+(
+)
+.
+to_string
 (
 )
 application_id
