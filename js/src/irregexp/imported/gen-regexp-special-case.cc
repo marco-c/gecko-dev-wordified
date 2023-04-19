@@ -78,6 +78,9 @@ internal
 {
 static
 const
+base
+:
+:
 uc32
 kSurrogateStart
 =
@@ -85,6 +88,9 @@ kSurrogateStart
 ;
 static
 const
+base
+:
+:
 uc32
 kSurrogateEnd
 =
@@ -92,6 +98,9 @@ kSurrogateEnd
 ;
 static
 const
+base
+:
+:
 uc32
 kNonBmpStart
 =
