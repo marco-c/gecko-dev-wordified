@@ -7544,6 +7544,15 @@ editing
 host
 .
 *
+return
+A
+suggest
+point
+to
+put
+caret
+.
+*
 /
 [
 [
@@ -7551,7 +7560,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 HandleInsertLinefeed
 (
 const
