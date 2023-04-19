@@ -147,7 +147,6 @@ frame_builder
 :
 :
 {
-ChasePrimitive
 FrameBuilderConfig
 }
 ;
@@ -1897,12 +1896,6 @@ true
 dual_source_blending_is_supported
 :
 false
-chase_primitive
-:
-ChasePrimitive
-:
-:
-Nothing
 testing
 :
 false

@@ -1393,12 +1393,6 @@ bool
 disable_dual_source_blending
 :
 bool
-chase_primitive
-:
-webrender
-:
-:
-ChasePrimitive
 dump_shader_source
 :
 Option
@@ -1552,7 +1546,6 @@ clone
 )
 )
 )
-chase_primitive
 testing
 :
 true
