@@ -2442,6 +2442,14 @@ BinPathType
 Self
 )
 {
+bool
+isUtilityProcess
+=
+aProcessType
+=
+=
+GeckoProcessType_Utility
+;
 RefPtr
 <
 DllServices
@@ -2469,6 +2477,7 @@ targetInfo
 .
 hProcess
 aCachedNtdllThunk
+isUtilityProcess
 )
 ;
 if
