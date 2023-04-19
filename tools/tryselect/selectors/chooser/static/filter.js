@@ -369,6 +369,7 @@ updateLabels
 ;
 if
 (
+!
 Object
 .
 keys
@@ -377,9 +378,6 @@ filters
 )
 .
 length
-=
-=
-0
 |
 |
 (

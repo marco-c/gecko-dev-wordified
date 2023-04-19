@@ -268,8 +268,6 @@ if
 markers
 .
 length
->
-0
 )
 {
 backgroundThread

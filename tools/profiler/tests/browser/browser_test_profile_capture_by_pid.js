@@ -462,6 +462,7 @@ function
 )
 {
 return
+!
 (
 await
 GetPidsWithSamplerThread
@@ -470,9 +471,6 @@ GetPidsWithSamplerThread
 )
 .
 length
-=
-=
-0
 ;
 }
 "
