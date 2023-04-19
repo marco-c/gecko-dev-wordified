@@ -276,7 +276,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 bcHud
 "

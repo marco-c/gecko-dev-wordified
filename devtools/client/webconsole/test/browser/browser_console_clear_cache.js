@@ -233,7 +233,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 CACHED_MESSAGE
@@ -403,7 +403,7 @@ message
 ;
 is
 (
-findMessage
+findConsoleAPIMessage
 (
 hud
 CACHED_MESSAGE

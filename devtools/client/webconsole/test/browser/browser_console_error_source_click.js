@@ -299,7 +299,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 messageText

@@ -355,16 +355,12 @@ wait
 const
 error
 =
-findMessage
+findErrorMessage
 (
 hud
 "
 "
 "
-.
-message
-.
-error
 :
 not
 (

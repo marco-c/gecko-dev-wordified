@@ -746,7 +746,7 @@ every
 expectedMessage
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 expectedMessage
@@ -788,7 +788,7 @@ nonPrimitiveVariablesDisplayed
 const
 tableMessage
 =
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -799,8 +799,6 @@ table
 )
 "
 "
-.
-message
 .
 table
 "
@@ -901,7 +899,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 contentArgs
@@ -944,7 +942,7 @@ expectedMessages
 ok
 (
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 expectedMessage
@@ -987,7 +985,7 @@ every
 expectedMessage
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 expectedMessage
@@ -1028,7 +1026,7 @@ expectedMessages
 {
 ok
 (
-findMessage
+findConsoleAPIMessage
 (
 hud
 expectedMessage
