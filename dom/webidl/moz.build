@@ -5056,11 +5056,6 @@ StorageManager
 webidl
 "
 "
-StorageType
-.
-webidl
-"
-"
 StreamFilter
 .
 webidl
