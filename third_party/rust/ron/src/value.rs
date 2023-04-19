@@ -163,6 +163,13 @@ Deserialize
 Serialize
 )
 ]
+#
+[
+serde
+(
+transparent
+)
+]
 pub
 struct
 Map
@@ -255,7 +262,7 @@ self
 )
 -
 >
-usize
+bool
 {
 self
 .
@@ -264,6 +271,9 @@ self
 len
 (
 )
+=
+=
+0
 }
 /
 /
@@ -2087,8 +2097,10 @@ write_u64
 self
 .
 0
-as
-u64
+.
+to_bits
+(
+)
 )
 ;
 }
