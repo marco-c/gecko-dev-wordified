@@ -79,6 +79,7 @@ clipboard
 when
 the
 Copy
+Value
 option
 is
 selected
@@ -115,10 +116,6 @@ value
 ;
 }
 return
-{
-name
-}
-:
 {
 value
 }

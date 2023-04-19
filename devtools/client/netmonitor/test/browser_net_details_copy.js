@@ -209,6 +209,7 @@ objectRow
 Test
 for
 copy
+value
 on
 the
 url
@@ -248,7 +249,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -292,6 +293,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -633,6 +635,7 @@ value
 Test
 for
 copy
+value
 *
 /
 EventUtils
@@ -669,7 +672,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -679,8 +682,6 @@ click
 ;
 }
 "
-Version
-:
 HTTP
 /
 1
@@ -695,6 +696,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -1081,6 +1083,8 @@ stringRow
 Test
 for
 copy
+value
+on
 an
 object
 *
@@ -1144,7 +1148,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -1162,6 +1166,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -1246,6 +1251,8 @@ clipboard
 Test
 for
 copy
+value
+of
 a
 single
 row
@@ -1285,7 +1292,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -1295,8 +1302,6 @@ click
 ;
 }
 "
-type
-:
 string
 "
 )
@@ -1307,6 +1312,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -1676,7 +1682,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -1707,18 +1713,12 @@ expectedRequestCookies
 =
 [
 "
-bob
-:
 true
 "
 "
-foo
-:
 bar
 "
 "
-tom
-:
 cool
 "
 ]
@@ -1787,7 +1787,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
