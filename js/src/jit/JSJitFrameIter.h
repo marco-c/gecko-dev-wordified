@@ -3356,6 +3356,14 @@ fallback
 )
 ;
 }
+bool
+tryRead
+(
+Value
+*
+result
+)
+;
 void
 traceAllocation
 (
