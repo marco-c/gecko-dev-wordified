@@ -840,6 +840,9 @@ RPMSendQuery
 :
 [
 "
+IsPromoBlocked
+"
+"
 ShouldShowSearch
 "
 "
