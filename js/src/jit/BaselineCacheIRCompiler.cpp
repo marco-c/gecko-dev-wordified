@@ -19517,6 +19517,8 @@ ObjOperandId
 iterId
 ObjOperandId
 calleeId
+CompletionKind
+kind
 )
 {
 JitSpew
@@ -19674,6 +19676,17 @@ callJit
 code
 )
 ;
+if
+(
+kind
+!
+=
+CompletionKind
+:
+:
+Throw
+)
+{
 /
 /
 Verify
@@ -19747,6 +19760,7 @@ bind
 success
 )
 ;
+}
 stubFrame
 .
 leave

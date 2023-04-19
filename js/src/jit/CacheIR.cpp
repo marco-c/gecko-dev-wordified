@@ -74897,6 +74897,8 @@ ICState
 state
 HandleObject
 iter
+CompletionKind
+kind
 )
 :
 IRGenerator
@@ -74913,6 +74915,10 @@ state
 iter_
 (
 iter
+)
+kind_
+(
+kind
 )
 {
 }
@@ -75552,6 +75558,7 @@ closeIterScriptedResult
 (
 objId
 calleeId
+kind_
 )
 ;
 writer

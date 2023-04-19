@@ -222,6 +222,8 @@ SavedFrame
 enum
 class
 CompletionKind
+:
+uint8_t
 ;
 enum
 class

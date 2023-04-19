@@ -29743,6 +29743,8 @@ ObjOperandId
 iterId
 ObjOperandId
 calleeId
+CompletionKind
+kind
 )
 {
 MDefinition
@@ -29882,6 +29884,17 @@ return
 false
 ;
 }
+if
+(
+kind
+!
+=
+CompletionKind
+:
+:
+Throw
+)
+{
 MCheckIsObj
 *
 check
@@ -29909,6 +29922,7 @@ add
 check
 )
 ;
+}
 return
 true
 ;

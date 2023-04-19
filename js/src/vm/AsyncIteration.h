@@ -2466,6 +2466,8 @@ AsyncGeneratorObject
 enum
 class
 CompletionKind
+:
+uint8_t
 ;
 extern
 const
