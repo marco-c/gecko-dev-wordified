@@ -234,6 +234,10 @@ http_sfv
 ;
 extern
 crate
+jog
+;
+extern
+crate
 jsrust_shared
 ;
 extern
