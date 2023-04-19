@@ -94,6 +94,11 @@ loader
 =
 [
 "
+ImportMap
+.
+h
+"
+"
 LoadContextBase
 .
 h
@@ -128,6 +133,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+ImportMap
+.
+cpp
+"
 "
 LoadContextBase
 .
