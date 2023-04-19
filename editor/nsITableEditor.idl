@@ -2046,9 +2046,6 @@ this
 .
 *
 /
-[
-can_run_script
-]
 void
 getTableSize
 (
@@ -2214,9 +2211,6 @@ exception
 .
 *
 /
-[
-can_run_script
-]
 Element
 getCellAt
 (
@@ -2676,9 +2670,6 @@ false
 .
 *
 /
-[
-can_run_script
-]
 void
 getCellDataAt
 (
@@ -2870,9 +2861,6 @@ source
 .
 *
 /
-[
-can_run_script
-]
 Element
 getFirstRow
 (
@@ -3220,9 +3208,6 @@ element
 .
 *
 /
-[
-can_run_script
-]
 Element
 getSelectedOrParentTableElement
 (
@@ -3700,9 +3685,6 @@ ranges
 .
 *
 /
-[
-can_run_script
-]
 Array
 <
 Element
