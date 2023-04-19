@@ -705,6 +705,11 @@ aChannel
 )
 ;
 bool
+HasUsableResponse
+(
+)
+;
+bool
 UseDefaultServer
 (
 )

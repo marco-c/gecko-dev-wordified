@@ -253,6 +253,16 @@ GetRCode
 )
 const
 ;
+Result
+<
+bool
+nsresult
+>
+RecursionAvailable
+(
+)
+const
+;
 /
 /
 Called
