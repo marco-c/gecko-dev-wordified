@@ -271,6 +271,9 @@ const
 output
 =
 const
+base
+:
+:
 uc32
 UnicodePropertySequences
 :
@@ -362,6 +365,9 @@ clang
 format
 off
 const
+base
+:
+:
 uc32
 UnicodePropertySequences
 :
@@ -1156,6 +1162,9 @@ list
 }
 ;
 const
+base
+:
+:
 uc32
 UnicodePropertySequences
 :
@@ -1200,6 +1209,9 @@ list
 }
 ;
 const
+base
+:
+:
 uc32
 UnicodePropertySequences
 :

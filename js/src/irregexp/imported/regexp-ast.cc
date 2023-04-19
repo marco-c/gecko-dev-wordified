@@ -208,7 +208,8 @@ MAKE_TYPE_CASE
 #
 undef
 MAKE_TYPE_CASE
-static
+namespace
+{
 Interval
 ListCaptureRegisters
 (
@@ -275,6 +276,10 @@ return
 result
 ;
 }
+}
+/
+/
+namespace
 Interval
 RegExpAlternative
 :
@@ -405,6 +410,9 @@ assertion_type
 RegExpAssertion
 :
 :
+Type
+:
+:
 START_OF_INPUT
 ;
 }
@@ -423,6 +431,9 @@ assertion_type
 =
 =
 RegExpAssertion
+:
+:
+Type
 :
 :
 END_OF_INPUT
@@ -819,6 +830,8 @@ IsAnchoredAtEnd
 )
 ;
 }
+namespace
+{
 /
 /
 Convert
@@ -964,6 +977,10 @@ zone_
 ;
 }
 ;
+}
+/
+/
+namespace
 void
 *
 RegExpUnparser
@@ -1324,6 +1341,9 @@ case
 RegExpAssertion
 :
 :
+Type
+:
+:
 START_OF_INPUT
 :
 os_
@@ -1340,6 +1360,9 @@ case
 RegExpAssertion
 :
 :
+Type
+:
+:
 END_OF_INPUT
 :
 os_
@@ -1353,6 +1376,9 @@ break
 ;
 case
 RegExpAssertion
+:
+:
+Type
 :
 :
 START_OF_LINE
@@ -1371,6 +1397,9 @@ case
 RegExpAssertion
 :
 :
+Type
+:
+:
 END_OF_LINE
 :
 os_
@@ -1386,6 +1415,9 @@ case
 RegExpAssertion
 :
 :
+Type
+:
+:
 BOUNDARY
 :
 os_
@@ -1399,6 +1431,9 @@ break
 ;
 case
 RegExpAssertion
+:
+:
+Type
 :
 :
 NON_BOUNDARY
@@ -1439,9 +1474,15 @@ os_
 '
 "
 ;
+base
+:
+:
 Vector
 <
 const
+base
+:
+:
 uc16
 >
 chardata
@@ -2190,7 +2231,8 @@ max_match
 ;
 }
 }
-static
+namespace
+{
 int
 IncreaseBy
 (
@@ -2228,6 +2270,10 @@ increase
 ;
 }
 }
+}
+/
+/
+namespace
 RegExpAlternative
 :
 :

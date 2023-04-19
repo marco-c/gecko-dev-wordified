@@ -72,6 +72,9 @@ namespace
 internal
 {
 class
+ByteArray
+;
+class
 V8_EXPORT_PRIVATE
 IrregexpInterpreter
 :
@@ -225,12 +228,9 @@ up
 /
 Arguments
 input_start
-input_end
 and
-backtrack_stack
+input_end
 are
-/
-/
 unused
 .
 They
@@ -238,6 +238,8 @@ are
 only
 passed
 to
+/
+/
 match
 the
 signature
@@ -245,8 +247,6 @@ of
 the
 native
 irregex
-/
-/
 code
 .
 /
@@ -306,8 +306,6 @@ int
 output_registers
 int32_t
 output_register_count
-Address
-backtrack_stack
 RegExp
 :
 :
