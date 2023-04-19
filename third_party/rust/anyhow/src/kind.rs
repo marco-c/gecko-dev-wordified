@@ -379,7 +379,7 @@ use
 crate
 :
 :
-private
+__private
 :
 :
 {
