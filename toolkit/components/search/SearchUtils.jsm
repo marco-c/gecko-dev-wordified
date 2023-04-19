@@ -135,11 +135,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -368,6 +374,8 @@ onStartRequest
 request
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -415,6 +423,8 @@ request
 statusCode
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -476,6 +486,8 @@ _countRead
 0
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -526,6 +538,8 @@ contentType
 )
 )
 {
+lazy
+.
 logConsole
 .
 warn
@@ -1405,6 +1419,8 @@ search
 isInitialized
 )
 {
+lazy
+.
 logConsole
 .
 debug
