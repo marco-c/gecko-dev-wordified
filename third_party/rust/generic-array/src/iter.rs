@@ -39,8 +39,8 @@ core
 {
 cmp
 fmt
-ptr
 mem
+ptr
 }
 ;
 /
@@ -622,12 +622,12 @@ their
 original
 indices
 .
-unsafe
-{
 let
 mut
 array
 =
+unsafe
+{
 ptr
 :
 :
@@ -638,6 +638,7 @@ self
 .
 array
 )
+}
 ;
 let
 mut
@@ -670,6 +671,8 @@ as_slice
 )
 )
 {
+unsafe
+{
 ptr
 :
 :
@@ -682,6 +685,7 @@ clone
 (
 )
 )
+}
 ;
 index_back
 +
@@ -696,7 +700,6 @@ index
 :
 0
 index_back
-}
 }
 }
 }
