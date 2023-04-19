@@ -1200,7 +1200,7 @@ public
 explicit
 SingleAccIterator
 (
-LocalAccessible
+Accessible
 *
 aTarget
 )
@@ -1219,7 +1219,7 @@ SingleAccIterator
 {
 }
 virtual
-LocalAccessible
+Accessible
 *
 Next
 (
@@ -1249,10 +1249,8 @@ SingleAccIterator
 &
 )
 ;
-RefPtr
-<
-LocalAccessible
->
+Accessible
+*
 mAcc
 ;
 }
