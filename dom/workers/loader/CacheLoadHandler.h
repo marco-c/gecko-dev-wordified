@@ -298,7 +298,7 @@ mozilla
 dom
 {
 class
-ScriptLoadInfo
+WorkerLoadContext
 ;
 namespace
 workerinternals
@@ -835,7 +835,7 @@ DataReceived
 (
 )
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 mLoadContext
 ;
@@ -1352,7 +1352,7 @@ WorkerScriptLoader
 >
 mLoader
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 mLoadContext
 ;

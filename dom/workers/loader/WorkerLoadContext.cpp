@@ -138,10 +138,10 @@ mozilla
 namespace
 dom
 {
-ScriptLoadInfo
+WorkerLoadContext
 :
 :
-ScriptLoadInfo
+WorkerLoadContext
 (
 const
 nsString
@@ -208,11 +208,11 @@ mUTF16
 nullptr
 ;
 }
-ScriptLoadInfo
+WorkerLoadContext
 :
 :
 ~
-ScriptLoadInfo
+WorkerLoadContext
 (
 )
 {
@@ -255,7 +255,7 @@ data
 }
 }
 void
-ScriptLoadInfo
+WorkerLoadContext
 :
 :
 SetCacheCreator
@@ -283,7 +283,7 @@ aCacheCreator
 ;
 }
 void
-ScriptLoadInfo
+WorkerLoadContext
 :
 :
 ClearCacheCreator
@@ -309,7 +309,7 @@ loader
 :
 CacheCreator
 >
-ScriptLoadInfo
+WorkerLoadContext
 :
 :
 GetCacheCreator

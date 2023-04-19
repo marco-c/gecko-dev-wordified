@@ -148,7 +148,7 @@ class
 ScriptLoadContext
 ;
 class
-ScriptLoadInfo
+WorkerLoadContext
 ;
 }
 /
@@ -459,7 +459,7 @@ mozilla
 dom
 :
 :
-ScriptLoadInfo
+WorkerLoadContext
 *
 AsWorkerContext
 (

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_ScriptLoadInfo_h__
+mozilla_dom_workers_WorkerLoadContext_h__
 #
 define
-mozilla_dom_workers_ScriptLoadInfo_h__
+mozilla_dom_workers_WorkerLoadContext_h__
 #
 include
 "
@@ -216,7 +216,7 @@ CacheCreator
 ;
 }
 class
-ScriptLoadInfo
+WorkerLoadContext
 :
 public
 JS
@@ -230,7 +230,7 @@ LoadContextBase
 public
 :
 explicit
-ScriptLoadInfo
+WorkerLoadContext
 (
 const
 nsString
@@ -239,7 +239,7 @@ aURL
 )
 ;
 ~
-ScriptLoadInfo
+WorkerLoadContext
 (
 )
 ;
@@ -698,6 +698,6 @@ dom
 endif
 /
 *
-mozilla_dom_workers_ScriptLoadInfo_h__
+mozilla_dom_workers_WorkerLoadContext_h__
 *
 /
