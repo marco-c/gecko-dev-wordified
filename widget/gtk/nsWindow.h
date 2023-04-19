@@ -2893,11 +2893,6 @@ ResumeCompositorHiddenWindow
 )
 ;
 void
-PauseCompositorHiddenWindow
-(
-)
-;
-void
 WaylandStartVsync
 (
 )
@@ -4859,11 +4854,6 @@ RemovePopupFromHierarchyList
 ;
 void
 ShowWaylandWindow
-(
-)
-;
-void
-HideWaylandWindow
 (
 )
 ;
