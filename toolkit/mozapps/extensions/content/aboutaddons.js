@@ -30956,7 +30956,7 @@ insertFTLIfNeeded
 "
 preview
 /
-colorwaycloset
+colorways
 .
 ftl
 "
