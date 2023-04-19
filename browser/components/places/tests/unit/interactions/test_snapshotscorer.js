@@ -1025,6 +1025,11 @@ getCurrentSessionUrls
 sessionUrls
 }
 {
+source
+:
+"
+foo
+"
 recommendations
 :
 [
@@ -1054,6 +1059,11 @@ snapshots
 [
 {
 url
+source
+:
+"
+foo
+"
 score
 :
 data
@@ -1217,6 +1227,11 @@ getCurrentSessionUrls
 sessionUrls
 }
 {
+source
+:
+"
+bar
+"
 recommendations
 :
 sourceRecommendations
@@ -1275,6 +1290,11 @@ SCORE_TESTS
 .
 length
 }
+source
+:
+"
+bar
+"
 score
 :
 t
