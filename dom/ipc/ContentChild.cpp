@@ -17836,6 +17836,12 @@ remoteTypePrefix
 =
 =
 WITH_COOP_COEP_REMOTE_TYPE
+|
+|
+aRemoteType
+=
+=
+PRIVILEGEDABOUT_REMOTE_TYPE
 )
 )
 {
