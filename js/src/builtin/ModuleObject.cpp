@@ -9639,6 +9639,13 @@ assertionObject
 ;
 }
 }
+else
+{
+assertionArray
+=
+nullptr
+;
+}
 moduleRequest
 =
 ModuleRequestObject
