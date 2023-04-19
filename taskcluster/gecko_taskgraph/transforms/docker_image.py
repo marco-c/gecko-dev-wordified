@@ -68,7 +68,7 @@ path
 as
 mozpath
 import
-gecko_taskgraph
+taskgraph
 from
 gecko_taskgraph
 .
@@ -428,7 +428,7 @@ tasks
     
 if
 not
-gecko_taskgraph
+taskgraph
 .
 fast
 and
@@ -578,7 +578,7 @@ p
         
 if
 not
-gecko_taskgraph
+taskgraph
 .
 fast
 :
@@ -682,7 +682,6 @@ write_artifacts
 raise
 Exception
 (
-                    
 "
 Can
 '
@@ -690,14 +689,13 @@ t
 write
 artifacts
 if
-gecko_taskgraph
+taskgraph
 .
 fast
 is
 set
 .
 "
-                
 )
             
 context_hash
@@ -1567,7 +1565,7 @@ True
 )
 and
 not
-gecko_taskgraph
+taskgraph
 .
 fast
 :

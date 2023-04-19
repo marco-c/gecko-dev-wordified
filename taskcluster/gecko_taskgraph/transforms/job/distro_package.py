@@ -71,6 +71,8 @@ import
 os
 import
 re
+import
+taskgraph
 from
 taskgraph
 .
@@ -123,8 +125,6 @@ from
 gecko_taskgraph
 import
 GECKO
-import
-gecko_taskgraph
 DSC_PACKAGE_RE
 =
 re
@@ -1924,7 +1924,7 @@ patch
     
 if
 not
-gecko_taskgraph
+taskgraph
 .
 fast
 :
