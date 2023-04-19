@@ -2212,6 +2212,11 @@ INTEGER
 "
 \
 "
+removed_reason
+INTEGER
+"
+\
+"
 first_interaction_at
 INTEGER
 NOT
