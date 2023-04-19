@@ -5870,6 +5870,11 @@ EndTouch
 (
 TimeStamp
 aTimestamp
+Axis
+:
+:
+ClearAxisLock
+aClearAxisLock
 )
 ;
 /
@@ -7174,12 +7179,6 @@ UniquePtr
 PlatformSpecificStateBase
 >
 mPlatformSpecificState
-;
-AxisX
-mX
-;
-AxisY
-mY
 ;
 /
 /
@@ -9377,6 +9376,12 @@ bug
 .
 PanZoomState
 mState
+;
+AxisX
+mX
+;
+AxisY
+mY
 ;
 static
 bool
