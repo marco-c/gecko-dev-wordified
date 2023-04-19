@@ -646,8 +646,6 @@ dumps_locations
 =
 [
 "
-mozilla
-/
 services
 /
 settings
@@ -662,6 +660,8 @@ dumps_locations
 =
 [
 "
+comm
+/
 mail
 /
 app
@@ -696,8 +696,6 @@ dumps_locations
 =
 [
 "
-mozilla
-/
 services
 /
 settings
