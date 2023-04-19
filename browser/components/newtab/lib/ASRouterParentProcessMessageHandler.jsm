@@ -260,6 +260,11 @@ msg
 .
 SPOTLIGHT_TELEMETRY
 :
+case
+msg
+.
+TOAST_NOTIFICATION_TELEMETRY
+:
 {
 return
 this
