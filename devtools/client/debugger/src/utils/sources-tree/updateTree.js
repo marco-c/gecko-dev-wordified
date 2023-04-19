@@ -85,7 +85,6 @@ import
 createDirectoryNode
 createParentMap
 getPathParts
-isInvalidUrl
 }
 from
 "
@@ -528,16 +527,6 @@ prevEntries
 return
 ;
 }
-if
-(
-!
-isInvalidUrl
-(
-newUrl
-newSource
-)
-)
-{
 const
 parts
 =
@@ -702,7 +691,6 @@ newSource
 ;
 return
 ;
-}
 }
 }
 /
