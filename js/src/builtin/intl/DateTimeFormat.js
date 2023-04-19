@@ -1445,6 +1445,8 @@ offsetHours
 offset
 /
 msPerHour
+;
+var
 offsetHoursFraction
 =
 offset
@@ -4290,13 +4292,11 @@ Steps
 var
 x
 =
-(
 date
 =
 =
 =
 undefined
-)
 ?
 std_Date_now
 (
@@ -4626,13 +4626,11 @@ Steps
 var
 x
 =
-(
 date
 =
 =
 =
 undefined
-)
 ?
 std_Date_now
 (
