@@ -222,9 +222,7 @@ tab_line
 optionalElementID
 :
 "
-tabbrowser
--
-tabs
+TabsToolbar
 "
 }
 ]
