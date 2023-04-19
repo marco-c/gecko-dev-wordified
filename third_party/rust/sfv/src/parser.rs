@@ -1641,7 +1641,6 @@ crate
 fn
 parse_bare_item
 (
-mut
 input_chars
 :
 &
@@ -1730,8 +1729,6 @@ Self
 :
 parse_bool
 (
-&
-mut
 input_chars
 )
 ?
@@ -1758,8 +1755,6 @@ Self
 :
 parse_string
 (
-&
-mut
 input_chars
 )
 ?
@@ -1786,8 +1781,6 @@ Self
 :
 parse_byte_sequence
 (
-&
-mut
 input_chars
 )
 ?
@@ -1827,8 +1820,6 @@ Self
 :
 parse_token
 (
-&
-mut
 input_chars
 )
 ?
@@ -1856,15 +1847,12 @@ is_ascii_digit
 )
 =
 >
-{
 match
 Self
 :
 :
 parse_number
 (
-&
-mut
 input_chars
 )
 ?
@@ -1907,7 +1895,6 @@ Integer
 val
 )
 )
-}
 }
 _
 =
