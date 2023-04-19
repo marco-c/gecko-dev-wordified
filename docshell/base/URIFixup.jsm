@@ -299,11 +299,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 externalProtocolService
 "
@@ -331,7 +337,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 defaultProtocolHandler
 "
@@ -359,7 +365,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 fileProtocolHandler
 "
@@ -387,7 +393,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 fixupSchemeTypos
 "
@@ -407,7 +413,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 dnsFirstForSingleWords
 "
@@ -425,7 +431,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 keywordEnabled
 "
@@ -441,7 +447,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 alternateEnabled
 "
@@ -461,7 +467,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 alternateProtocol
 "
@@ -549,7 +555,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 userPasswordRegex
 "
@@ -610,7 +616,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 portRegex
 "
@@ -650,7 +656,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 numberRegex
 "
@@ -701,7 +707,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 maxOneTabRegex
 "
@@ -902,7 +908,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 possiblyHostPortRegex
 "
@@ -969,7 +975,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 newLinesRegex
 "
@@ -1046,7 +1052,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 possibleProtocolRegex
 "
@@ -1147,7 +1153,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 IPv4LikeRegex
 "
@@ -1223,7 +1229,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 IPv6LikeRegex
 "
@@ -1320,7 +1326,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 knownDomains
 "
@@ -1641,7 +1647,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 knownSuffixes
 "
@@ -2082,6 +2088,8 @@ trim
 .
 replace
 (
+lazy
+.
 newLinesRegex
 "
 "
@@ -2301,9 +2309,13 @@ scheme
 )
 !
 =
+lazy
+.
 defaultProtocolHandler
 |
 |
+lazy
+.
 externalProtocolService
 .
 externalProtocolHandlerExists
@@ -2370,6 +2382,8 @@ later
 .
 (
 !
+lazy
+.
 possiblyHostPortRegex
 .
 test
@@ -2379,6 +2393,8 @@ uriString
 &
 &
 !
+lazy
+.
 userPasswordRegex
 .
 test
@@ -2523,6 +2539,8 @@ info
 fixedURI
 &
 &
+lazy
+.
 keywordEnabled
 &
 &
@@ -2727,6 +2745,8 @@ if
 isCommonProtocol
 &
 &
+lazy
+.
 maxOneTabRegex
 .
 test
@@ -2963,6 +2983,8 @@ up
 .
 if
 (
+lazy
+.
 keywordEnabled
 &
 &
@@ -3060,6 +3082,8 @@ match
 .
 if
 (
+lazy
+.
 keywordEnabled
 &
 &
@@ -3967,6 +3991,8 @@ asciiHost
 {
 if
 (
+lazy
+.
 dnsFirstForSingleWords
 )
 {
@@ -4079,6 +4105,8 @@ lastIndexOf
 }
 if
 (
+lazy
+.
 knownDomains
 .
 has
@@ -4191,6 +4219,8 @@ lastDotIndex
 let
 suffixes
 =
+lazy
+.
 knownSuffixes
 .
 get
@@ -4624,6 +4654,8 @@ if
 suffix
 |
 |
+lazy
+.
 numberRegex
 .
 test
@@ -5034,6 +5066,8 @@ FIXUP_FLAGS_MAKE_ALTERNATE_URI
 |
 |
 !
+lazy
+.
 alternateEnabled
 |
 |
@@ -5417,6 +5451,8 @@ mutate
 .
 setScheme
 (
+lazy
+.
 alternateProtocol
 )
 .
@@ -5702,6 +5738,8 @@ io
 .
 newURI
 (
+lazy
+.
 fileProtocolHandler
 .
 getURLSpecFromActualFile
@@ -6254,6 +6292,8 @@ IPs
 const
 userPassword
 =
+lazy
+.
 userPasswordRegex
 .
 exec
@@ -6282,6 +6322,8 @@ uriString
 ;
 if
 (
+lazy
+.
 IPv4LikeRegex
 .
 test
@@ -6290,6 +6332,8 @@ ipString
 )
 |
 |
+lazy
+.
 IPv6LikeRegex
 .
 test
@@ -6643,6 +6687,8 @@ uriString
 .
 match
 (
+lazy
+.
 possibleProtocolRegex
 )
 ;
@@ -6682,6 +6728,8 @@ matches
 const
 isFixupSchemeTypos
 =
+lazy
+.
 fixupSchemeTypos
 &
 &
@@ -7584,6 +7632,8 @@ length
 ;
 }
 return
+lazy
+.
 portRegex
 .
 test
