@@ -154,8 +154,8 @@ type_traits
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -387,11 +387,9 @@ idx
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

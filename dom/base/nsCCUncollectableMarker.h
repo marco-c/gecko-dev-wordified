@@ -265,8 +265,8 @@ default
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -281,11 +281,9 @@ aTrc
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

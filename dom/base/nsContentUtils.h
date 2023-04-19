@@ -23473,8 +23473,8 @@ sDOMNodeRemovedSuppressCount
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -23530,12 +23530,10 @@ aElem2
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 define
 NS_INTERFACE_MAP_ENTRY_TEAROFF

@@ -160,8 +160,8 @@ nsIScriptGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -171,12 +171,10 @@ ErrorEventInit
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 /
 /
 A

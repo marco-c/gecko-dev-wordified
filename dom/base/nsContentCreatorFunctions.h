@@ -186,8 +186,8 @@ nsGenericHTMLElement
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -203,12 +203,10 @@ CustomElementDefinition
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 nsresult
 NS_NewElement
 (

@@ -329,8 +329,8 @@ namespace
 mozilla
 namespace
 JS
-{
-namespace
+:
+:
 loader
 {
 class
@@ -340,12 +340,10 @@ ModuleLoaderBase
 /
 /
 namespace
-loader
-}
-/
-/
-namespace
 JS
+:
+:
+loader
 /
 *
 *

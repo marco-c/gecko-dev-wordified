@@ -968,8 +968,8 @@ cx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1201,12 +1201,10 @@ mStackHolder
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 /
 /
 An

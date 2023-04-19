@@ -299,8 +299,8 @@ namespace
 IPC
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -937,12 +937,10 @@ mIsRequestDelegatedToUnsafeThirdParty
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 using
 mozilla
 :

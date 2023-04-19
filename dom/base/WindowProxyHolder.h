@@ -155,8 +155,8 @@ namespace
 JS
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -513,12 +513,10 @@ aValue
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

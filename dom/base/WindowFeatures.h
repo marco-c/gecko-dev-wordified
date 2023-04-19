@@ -185,8 +185,8 @@ nsCString
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -962,12 +962,10 @@ tokenizedFeatures_
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

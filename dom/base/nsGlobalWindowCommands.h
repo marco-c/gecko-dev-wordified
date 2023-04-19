@@ -129,8 +129,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 struct
@@ -140,12 +140,10 @@ KeyboardScrollAction
 /
 /
 namespace
-layers
-}
-/
-/
-namespace
 mozilla
+:
+:
+layers
 class
 nsControllerCommandTable
 ;
