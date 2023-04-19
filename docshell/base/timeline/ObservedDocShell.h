@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+Mutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -233,6 +242,8 @@ mTimelineMarkers
 ;
 bool
 mPopping
+=
+false
 ;
 /
 /
@@ -242,6 +253,9 @@ main
 thread
 only
 .
+Mutex
+mLock
+;
 nsTArray
 <
 UniquePtr
@@ -250,6 +264,10 @@ AbstractTimelineMarker
 >
 >
 mOffTheMainThreadTimelineMarkers
+GUARDED_BY
+(
+mLock
+)
 ;
 public
 :

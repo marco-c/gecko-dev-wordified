@@ -237,11 +237,6 @@ AutoTimelineMarker
 cpp
 "
 "
-MarkersStorage
-.
-cpp
-"
-"
 ObservedDocShell
 .
 cpp
