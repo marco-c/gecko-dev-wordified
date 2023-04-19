@@ -524,6 +524,7 @@ int32_t
 aOffset
 )
 ;
+virtual
 int32_t
 OffsetAtPoint
 (
@@ -534,6 +535,7 @@ aY
 uint32_t
 aCoordType
 )
+override
 ;
 bool
 SetSelectionBoundsAt

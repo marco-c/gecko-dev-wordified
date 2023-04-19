@@ -79,6 +79,7 @@ coordinates
 .
 *
 /
+async
 function
 testOffsetAtPoint
 (
@@ -89,8 +90,13 @@ coordType
 expectedOffset
 )
 {
-is
+await
+untilCacheIs
 (
+(
+)
+=
+>
 hyperText
 .
 getOffsetAtPoint
@@ -252,6 +258,7 @@ browser
 )
 )
 ;
+await
 testOffsetAtPoint
 (
 hyperText
@@ -366,6 +373,7 @@ browser
 )
 )
 ;
+await
 testOffsetAtPoint
 (
 hyperText
