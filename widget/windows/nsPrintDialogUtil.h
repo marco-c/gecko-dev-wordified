@@ -104,8 +104,6 @@ NativeShowPrintDialog
 (
 HWND
 aHWnd
-bool
-aHaveSelection
 nsIPrintSettings
 *
 aPrintSettings

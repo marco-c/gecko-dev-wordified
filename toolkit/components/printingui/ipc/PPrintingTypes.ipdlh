@@ -173,6 +173,9 @@ bool
 showMarginGuides
 ;
 bool
+isPrintSelectionRBEnabled
+;
+bool
 printSelectionOnly
 ;
 int32_t
@@ -203,6 +206,9 @@ footerStrCenter
 ;
 nsString
 footerStrRight
+;
+bool
+isCancelled
 ;
 bool
 printSilent
