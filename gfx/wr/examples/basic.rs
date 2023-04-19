@@ -402,8 +402,9 @@ builder
 .
 define_clip_image_mask
 (
-&
 root_space_and_clip
+.
+spatial_id
 mask
 &
 vec

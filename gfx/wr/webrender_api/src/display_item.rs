@@ -1689,9 +1689,9 @@ id
 :
 ClipId
 pub
-parent_space_and_clip
+spatial_id
 :
-SpaceAndClipInfo
+SpatialId
 pub
 image_mask
 :
