@@ -311,6 +311,7 @@ Class
 -
 class
 nsPrintObject
+final
 {
 public
 :
@@ -323,11 +324,6 @@ nsPrintObject
 (
 )
 ;
-/
-/
-non
--
-virtual
 nsresult
 InitAsRootObject
 (
