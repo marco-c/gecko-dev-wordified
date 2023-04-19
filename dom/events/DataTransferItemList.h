@@ -158,8 +158,8 @@ nsIVariant
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -970,12 +970,10 @@ mIndexedItems
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

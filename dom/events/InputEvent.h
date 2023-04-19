@@ -171,8 +171,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -356,12 +356,10 @@ mInputTypeValue
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 already_AddRefed
 <
 mozilla

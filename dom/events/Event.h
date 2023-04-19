@@ -288,8 +288,8 @@ namespace
 IPC
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2303,12 +2303,10 @@ NS_EVENT_IID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 already_AddRefed
 <
 mozilla
