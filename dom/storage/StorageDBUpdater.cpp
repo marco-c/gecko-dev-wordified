@@ -202,8 +202,8 @@ CURRENT_SCHEMA_VERSION
 2
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -3037,9 +3037,7 @@ StorageDBUpdater
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

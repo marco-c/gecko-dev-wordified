@@ -301,8 +301,8 @@ hours
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -1737,9 +1737,7 @@ StorageActivityService
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

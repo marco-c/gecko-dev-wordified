@@ -399,8 +399,8 @@ CURRENT_SCHEMA_VERSION
 2
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -9444,9 +9444,7 @@ NS_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

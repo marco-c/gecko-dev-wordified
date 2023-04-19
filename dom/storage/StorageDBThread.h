@@ -260,8 +260,8 @@ mozIStorageConnection
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2945,12 +2945,10 @@ ThreadFunc
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

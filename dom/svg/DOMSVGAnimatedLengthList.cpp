@@ -188,8 +188,8 @@ header
 .
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -857,9 +857,7 @@ mAttrEnum
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
