@@ -577,6 +577,7 @@ resolve
 )
 ;
 }
+true
 )
 ;
 PartitionedStorageHelper
@@ -731,5 +732,6 @@ resolve
 )
 ;
 }
+true
 )
 ;

@@ -189,7 +189,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 /
@@ -211,10 +211,14 @@ user
 -
 interaction
 test
-0
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 /
 /
-no
+expected
 blocking
 notifications
 false
@@ -420,7 +424,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 /
@@ -574,7 +578,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 /
@@ -754,7 +758,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 /
@@ -898,7 +902,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 /
@@ -1075,7 +1079,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 /
@@ -1230,7 +1234,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 /
