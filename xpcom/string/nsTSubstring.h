@@ -4747,7 +4747,7 @@ well
 *
 *
 param
-aEliminateLeading
+aTrimLeading
 controls
 stripping
 of
@@ -4755,7 +4755,7 @@ leading
 ws
 *
 param
-aEliminateTrailing
+aTrimTrailing
 controls
 stripping
 of
@@ -4767,11 +4767,11 @@ void
 CompressWhitespace
 (
 bool
-aEliminateLeading
+aTrimLeading
 =
 true
 bool
-aEliminateTrailing
+aTrimTrailing
 =
 true
 )
