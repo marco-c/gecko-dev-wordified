@@ -42696,16 +42696,6 @@ showAutoCompleteFooter
 false
 )
 ;
-pref
-(
-"
-signon
-.
-showAutoCompleteOrigins
-"
-true
-)
-;
 /
 /
 Satchel
