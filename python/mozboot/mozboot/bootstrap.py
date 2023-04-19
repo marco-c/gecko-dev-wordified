@@ -1270,20 +1270,17 @@ platform
 .
 startswith
 (
+(
 "
 dragonfly
 "
-)
-or
-sys
-.
-platform
-.
-startswith
-(
 "
 freebsd
 "
+"
+netbsd
+"
+)
 )
 :
             

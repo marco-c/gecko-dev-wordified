@@ -473,6 +473,18 @@ startswith
 freebsd
 "
 )
+        
+or
+sys
+.
+platform
+.
+startswith
+(
+"
+netbsd
+"
+)
     
 )
 :
