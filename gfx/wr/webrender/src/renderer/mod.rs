@@ -34315,9 +34315,6 @@ pre_scene_swap
 (
 &
 self
-scenebuild_time
-:
-u64
 )
 ;
 /
@@ -34372,9 +34369,6 @@ DocumentId
 info
 :
 PipelineInfo
-sceneswap_time
-:
-u64
 )
 ;
 /
