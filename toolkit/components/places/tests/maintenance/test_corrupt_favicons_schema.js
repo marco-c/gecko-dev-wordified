@@ -53,16 +53,7 @@ path
 await
 setupPlacesDatabase
 (
-OS
-.
-Path
-.
-join
-(
-"
-.
-.
-"
+[
 "
 migration
 "
@@ -71,7 +62,7 @@ favicons_v41
 .
 sqlite
 "
-)
+]
 )
 ;
 /

@@ -179,11 +179,9 @@ filenamesRegex
 .
 test
 (
-OS
+PathUtils
 .
-Path
-.
-basename
+filename
 (
 entry
 )
@@ -240,9 +238,7 @@ past
 let
 oldJsonPath
 =
-OS
-.
-Path
+PathUtils
 .
 join
 (
@@ -286,9 +282,7 @@ oldJsonPath
 let
 jsonPath
 =
-OS
-.
-Path
+PathUtils
 .
 join
 (

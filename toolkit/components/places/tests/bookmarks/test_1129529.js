@@ -36,9 +36,7 @@ function
 let
 bookmarksFile
 =
-OS
-.
-Path
+PathUtils
 .
 join
 (
@@ -57,9 +55,7 @@ json
 let
 bookmarksUrl
 =
-OS
-.
-Path
+PathUtils
 .
 toFileURI
 (
