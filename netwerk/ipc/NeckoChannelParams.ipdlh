@@ -602,6 +602,9 @@ bool
 isFirstPartyIsolated
 ;
 bool
+shouldResistFingerprinting
+;
+bool
 isOnContentBlockingAllowList
 ;
 CookiePermissionData
