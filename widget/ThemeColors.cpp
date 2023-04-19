@@ -1263,7 +1263,7 @@ return
 nsNativeTheme
 :
 :
-IsDarkBackground
+IsDarkBackgroundForScrollbar
 (
 const_cast
 <
