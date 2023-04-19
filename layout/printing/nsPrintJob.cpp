@@ -3609,13 +3609,6 @@ get
 )
 )
 ;
-mPrintObject
--
->
-mFrameType
-=
-eDoc
-;
 BuildNestedPrintObjects
 (
 mPrintObject
