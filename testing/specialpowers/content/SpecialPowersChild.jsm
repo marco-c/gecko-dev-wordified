@@ -136,11 +136,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 MockFilePicker
 "
@@ -161,7 +167,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 MockColorPicker
 "
@@ -182,7 +188,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 MockPermissionPrompt
 "
@@ -203,7 +209,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SpecialPowersSandbox
 "
@@ -224,7 +230,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WrapPrivileged
 "
@@ -245,7 +251,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -268,7 +274,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -315,7 +321,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PerTestCoverageUtils
 "
@@ -338,7 +344,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ContentTaskUtils
 "
@@ -373,6 +379,8 @@ return
 aWindow
 &
 &
+lazy
+.
 WrapPrivileged
 .
 wrap
@@ -461,6 +469,8 @@ get
 let
 value
 =
+lazy
+.
 WrapPrivileged
 .
 wrap
@@ -1100,6 +1110,8 @@ _extensionListeners
 =
 null
 ;
+lazy
+.
 WrapPrivileged
 .
 disableAutoWrap
@@ -2351,6 +2363,8 @@ obj
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -2365,6 +2379,8 @@ val
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 isWrapper
@@ -2392,6 +2408,8 @@ win
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 wrap
@@ -2471,6 +2489,8 @@ func
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 wrapCallback
@@ -2488,6 +2508,8 @@ obj
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 wrapCallbackObject
@@ -2532,6 +2554,8 @@ val
 if
 (
 !
+lazy
+.
 WrapPrivileged
 .
 isWrapper
@@ -2561,6 +2585,8 @@ objects
 }
 obj
 =
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -2673,6 +2699,8 @@ b
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -2682,6 +2710,8 @@ a
 =
 =
 =
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -2696,6 +2726,8 @@ MockFilePicker
 )
 {
 return
+lazy
+.
 MockFilePicker
 ;
 }
@@ -2705,6 +2737,8 @@ MockColorPicker
 )
 {
 return
+lazy
+.
 MockColorPicker
 ;
 }
@@ -2714,6 +2748,8 @@ MockPermissionPrompt
 )
 {
 return
+lazy
+.
 MockPermissionPrompt
 ;
 }
@@ -3221,6 +3257,8 @@ nsIScriptableInputStream
 var
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -5418,6 +5456,8 @@ obs
 .
 observe
 =
+lazy
+.
 WrapPrivileged
 .
 wrapCallback
@@ -5631,6 +5671,8 @@ obs
 .
 observe
 =
+lazy
+.
 WrapPrivileged
 .
 wrapCallback
@@ -5810,6 +5852,8 @@ obj2
 {
 obj1
 =
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -5819,6 +5863,8 @@ obj1
 ;
 obj2
 =
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -9273,6 +9319,8 @@ let
 sb
 =
 new
+lazy
+.
 SpecialPowersSandbox
 (
 null
@@ -9313,6 +9361,8 @@ sandbox
 .
 ContentTaskUtils
 =
+lazy
+.
 ContentTaskUtils
 ;
 for
@@ -10206,6 +10256,8 @@ arg
 {
 arg
 =
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -10683,6 +10735,8 @@ win
 )
 {
 return
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -10848,6 +10902,8 @@ parent
 if
 (
 !
+lazy
+.
 PerTestCoverageUtils
 .
 enabled
@@ -10891,6 +10947,8 @@ parent
 if
 (
 !
+lazy
+.
 PerTestCoverageUtils
 .
 enabled
@@ -11632,6 +11690,8 @@ httpStatus
 let
 uri
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -11642,6 +11702,8 @@ url
 let
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -11798,6 +11860,8 @@ baseURI
 =
 baseURL
 ?
+lazy
+.
 NetUtil
 .
 newURI
@@ -11812,6 +11876,8 @@ pu
 .
 parseFragment
 (
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -11821,6 +11887,8 @@ fragment
 flags
 isXML
 baseURI
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -11846,6 +11914,8 @@ showAnonymousContent
 {
 node
 =
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -11921,6 +11991,8 @@ firstChild
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 wrap
@@ -11940,6 +12012,8 @@ lastChild
 )
 {
 return
+lazy
+.
 WrapPrivileged
 .
 wrap
@@ -11964,6 +12038,8 @@ nativeAnonymousChildList
 subtree
 )
 {
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -11973,6 +12049,8 @@ mo
 .
 observe
 (
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -12350,6 +12428,8 @@ classifierService
 .
 classify
 (
+lazy
+.
 WrapPrivileged
 .
 unwrap
@@ -12439,6 +12519,8 @@ function
 {
 callback
 (
+lazy
+.
 WrapPrivileged
 .
 wrap
@@ -12460,6 +12542,8 @@ onClassifyComplete
 call
 (
 undefined
+lazy
+.
 WrapPrivileged
 .
 wrap
@@ -12503,6 +12587,8 @@ classifierService
 .
 asyncClassifyLocalWithFeatures
 (
+lazy
+.
 WrapPrivileged
 .
 unwrap

@@ -65,11 +65,17 @@ MockColorPicker
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WrapPrivileged
 "
@@ -545,6 +551,8 @@ this
 .
 showCallbackWrapped
 =
+lazy
+.
 WrapPrivileged
 .
 wrapCallback

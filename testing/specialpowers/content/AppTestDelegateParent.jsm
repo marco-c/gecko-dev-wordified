@@ -118,6 +118,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 /
 /
 Each
@@ -130,7 +136,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppUiTestDelegate
 :
@@ -282,6 +288,8 @@ clickPageAction
 "
 :
 return
+lazy
+.
 AppUiTestDelegate
 .
 clickPageAction
@@ -298,6 +306,8 @@ clickBrowserAction
 "
 :
 return
+lazy
+.
 AppUiTestDelegate
 .
 clickBrowserAction
@@ -314,6 +324,8 @@ closePageAction
 "
 :
 return
+lazy
+.
 AppUiTestDelegate
 .
 closePageAction
@@ -330,6 +342,8 @@ closeBrowserAction
 "
 :
 return
+lazy
+.
 AppUiTestDelegate
 .
 closeBrowserAction
@@ -385,6 +399,8 @@ fully
 loaded
 .
 await
+lazy
+.
 AppUiTestDelegate
 .
 awaitExtensionPanel
@@ -447,6 +463,8 @@ const
 tab
 =
 await
+lazy
+.
 AppUiTestDelegate
 .
 openNewForegroundTab
@@ -500,6 +518,8 @@ tabId
 )
 ;
 return
+lazy
+.
 AppUiTestDelegate
 .
 removeTab

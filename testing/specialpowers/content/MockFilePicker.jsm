@@ -65,11 +65,17 @@ MockFilePicker
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WrapPrivileged
 "
@@ -110,7 +116,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -595,6 +601,8 @@ useAnyFile
 var
 file
 =
+lazy
+.
 FileUtils
 .
 getDir
@@ -1583,6 +1591,8 @@ this
 .
 showCallbackWrapped
 =
+lazy
+.
 WrapPrivileged
 .
 wrapCallback

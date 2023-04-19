@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionData
 :
@@ -4023,6 +4029,8 @@ let
 sb
 =
 new
+lazy
+.
 SpecialPowersSandbox
 (
 null
@@ -5799,6 +5807,8 @@ let
 sb
 =
 new
+lazy
+.
 SpecialPowersSandbox
 (
 scriptName
@@ -6250,6 +6260,8 @@ SPRequestDumpCoverageCounters
 :
 {
 return
+lazy
+.
 PerTestCoverageUtils
 .
 afterTest
@@ -6264,6 +6276,8 @@ SPRequestResetCoverageCounters
 :
 {
 return
+lazy
+.
 PerTestCoverageUtils
 .
 beforeTest
@@ -6538,6 +6552,8 @@ useAddonManager
 let
 extension
 =
+lazy
+.
 ExtensionTestCommon
 .
 generate
@@ -6909,6 +6925,8 @@ let
 extensionData
 =
 new
+lazy
+.
 ExtensionData
 (
 extension
@@ -7059,6 +7077,8 @@ id
 )
 {
 await
+lazy
+.
 ExtensionTestCommon
 .
 setIncognitoOverride
@@ -7584,6 +7604,8 @@ let
 hiddenFrame
 =
 new
+lazy
+.
 HiddenFrame
 (
 )
@@ -7754,6 +7776,8 @@ SPRemoveAllServiceWorkers
 :
 {
 return
+lazy
+.
 ServiceWorkerCleanUp
 .
 removeAll
@@ -7768,6 +7792,8 @@ SPRemoveServiceWorkerDataForExampleDomain
 :
 {
 return
+lazy
+.
 ServiceWorkerCleanUp
 .
 removeFromHost
