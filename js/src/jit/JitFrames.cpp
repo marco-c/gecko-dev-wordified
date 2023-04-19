@@ -16008,6 +16008,13 @@ defined
 (
 JS_CODEGEN_NONE
 )
+&
+&
+!
+defined
+(
+JS_CODEGEN_WASM32
+)
 if
 (
 state_

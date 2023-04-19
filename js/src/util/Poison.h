@@ -619,6 +619,12 @@ defined
 (
 JS_CODEGEN_NONE
 )
+|
+|
+defined
+(
+JS_CODEGEN_WASM32
+)
 #
 define
 JS_SWEPT_CODE_PATTERN

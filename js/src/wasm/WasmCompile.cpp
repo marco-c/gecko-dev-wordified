@@ -632,6 +632,12 @@ defined
 (
 JS_CODEGEN_NONE
 )
+|
+|
+defined
+(
+JS_CODEGEN_WASM32
+)
 return
 0
 ;

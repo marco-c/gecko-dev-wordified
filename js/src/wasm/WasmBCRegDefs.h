@@ -322,6 +322,12 @@ defined
 (
 JS_CODEGEN_NONE
 )
+|
+|
+defined
+(
+JS_CODEGEN_WASM32
+)
 #
 define
 RABALDR_SCRATCH_I32
