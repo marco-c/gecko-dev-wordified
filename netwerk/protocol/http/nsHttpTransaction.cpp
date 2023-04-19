@@ -19495,7 +19495,14 @@ NS_FAILED
 (
 rv
 )
+&
+&
+rv
+!
+=
+NS_BASE_STREAM_WOULD_BLOCK
 )
+{
 NS_ERROR
 (
 "
@@ -19504,6 +19511,7 @@ failed
 "
 )
 ;
+}
 }
 return
 NS_OK
