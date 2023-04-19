@@ -1231,6 +1231,14 @@ const
 override
 ;
 virtual
+KeyBinding
+AccessKey
+(
+)
+const
+override
+;
+virtual
 void
 SelectionRanges
 (
