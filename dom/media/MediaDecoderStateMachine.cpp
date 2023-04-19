@@ -24724,7 +24724,7 @@ GetPosition
 aTimeStamp
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 GetMediaTime
 (
