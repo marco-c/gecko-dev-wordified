@@ -5691,8 +5691,13 @@ incr
 decr
 }
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
-nsresult
+CreateElementResult
 RelativeFontChangeOnTextNode
 (
 FontSize
