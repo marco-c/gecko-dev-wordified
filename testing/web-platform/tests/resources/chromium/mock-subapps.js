@@ -149,7 +149,7 @@ close
 }
 add
 (
-install_path
+sub_apps
 )
 {
 return
@@ -160,9 +160,8 @@ resolve
 {
 result
 :
-testInternal
-.
-serviceResultCode
+[
+]
 }
 )
 ;
