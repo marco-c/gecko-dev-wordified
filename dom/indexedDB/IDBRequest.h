@@ -1283,16 +1283,6 @@ NoteComplete
 /
 /
 EventTarget
-virtual
-nsresult
-PostHandleEvent
-(
-EventChainPostVisitor
-&
-aVisitor
-)
-override
-;
 IMPL_EVENT_HANDLER
 (
 blocked
