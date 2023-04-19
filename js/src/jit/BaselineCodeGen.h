@@ -719,9 +719,7 @@ storeFrameSizeAndPushDescriptor
 uint32_t
 argSize
 Register
-scratch1
-Register
-scratch2
+scratch
 )
 ;
 enum

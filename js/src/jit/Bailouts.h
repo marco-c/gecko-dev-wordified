@@ -1114,9 +1114,6 @@ uint8_t
 *
 framePointer_
 ;
-size_t
-topFrameSize_
-;
 IonScript
 *
 topIonScript_
@@ -1210,16 +1207,6 @@ const
 return
 &
 machine_
-;
-}
-size_t
-topFrameSize
-(
-)
-const
-{
-return
-topFrameSize_
 ;
 }
 IonScript
