@@ -22267,7 +22267,6 @@ aAddDataFlavor
 *
 /
 trans
-this
 )
 ;
 NS_ENSURE_SUCCESS
@@ -22865,7 +22864,13 @@ the
 promise
 aResolver
 (
+std
+:
+:
+move
+(
 ipcDataTransfer
+)
 )
 ;
 return
@@ -34082,7 +34087,13 @@ Unused
 SendInvokeDragSession
 (
 sourceWC
+std
+:
+:
+move
+(
 dataTransfers
+)
 action
 )
 ;
