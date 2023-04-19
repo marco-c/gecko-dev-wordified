@@ -485,8 +485,7 @@ UnsupportedCommandError
 namespace
 *
 /
-this
-.
+const
 error
 =
 {

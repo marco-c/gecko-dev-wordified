@@ -251,8 +251,7 @@ URIError
 namespace
 *
 /
-this
-.
+const
 error
 =
 {

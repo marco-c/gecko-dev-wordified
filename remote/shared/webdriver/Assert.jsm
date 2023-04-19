@@ -173,8 +173,7 @@ WebDriver
 namespace
 *
 /
-this
-.
+const
 assert
 =
 {
