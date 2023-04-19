@@ -2198,7 +2198,7 @@ principal
 aDocument
 -
 >
-EffectiveCookiePrincipal
+EffectiveStoragePrincipal
 (
 )
 ;
