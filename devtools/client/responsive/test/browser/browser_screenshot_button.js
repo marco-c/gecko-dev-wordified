@@ -231,6 +231,11 @@ remove
 filePath
 )
 ;
+await
+resetDownloads
+(
+)
+;
 }
 )
 ;
