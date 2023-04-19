@@ -187,11 +187,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -753,6 +759,8 @@ data
 )
 ;
 await
+lazy
+.
 OS
 .
 File
