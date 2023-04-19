@@ -1748,6 +1748,8 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+Serialize
+Deserialize
 )
 ]
 #

@@ -642,6 +642,10 @@ BASIC_SERDE_FUNCS
 (
 StylePositionOrAuto
 )
+BASIC_SERDE_FUNCS
+(
+StyleComputedTimingFunction
+)
 #
 undef
 BASIC_SERDE_FUNCS

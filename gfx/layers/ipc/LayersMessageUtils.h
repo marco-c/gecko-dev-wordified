@@ -7095,6 +7095,10 @@ IMPL_PARAMTRAITS_BY_SERDE
 (
 StyleTransform
 )
+IMPL_PARAMTRAITS_BY_SERDE
+(
+StyleComputedTimingFunction
+)
 }
 /
 *
