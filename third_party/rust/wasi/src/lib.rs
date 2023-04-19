@@ -379,9 +379,6 @@ compatible
 no_std
 ]
 mod
-error
-;
-mod
 lib_generated
 ;
 pub
