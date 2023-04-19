@@ -268,6 +268,7 @@ iOS
 #
 if
 (
+(
 defined
 (
 __clang__
@@ -293,6 +294,14 @@ WEBRTC_IOS
 __cplusplus
 >
 201703L
+)
+&
+&
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 /
 /
 NOLINTNEXTLINE
