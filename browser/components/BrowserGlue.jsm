@@ -3678,6 +3678,11 @@ bookmarksSidebar
 .
 xhtml
 "
+"
+about
+:
+firefoxview
+"
 ]
 }
 LinkHandler
