@@ -228,11 +228,17 @@ shortcuts
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 KeyCodes
 "
@@ -252,7 +258,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 OriginalSource
 "
@@ -274,7 +280,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -298,7 +304,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -322,7 +328,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 ResponsiveUIManager
 "
@@ -341,7 +347,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 openContentLink
 "
@@ -361,7 +367,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 copyString
 "
@@ -2484,6 +2490,8 @@ event
 keyCode
 =
 =
+lazy
+.
 KeyCodes
 .
 DOM_VK_PAGE_UP
@@ -2494,6 +2502,8 @@ event
 keyCode
 =
 =
+lazy
+.
 KeyCodes
 .
 DOM_VK_HOME
@@ -2515,6 +2525,8 @@ event
 keyCode
 =
 =
+lazy
+.
 KeyCodes
 .
 DOM_VK_PAGE_DOWN
@@ -2525,6 +2537,8 @@ event
 keyCode
 =
 =
+lazy
+.
 KeyCodes
 .
 DOM_VK_END
@@ -2549,6 +2563,8 @@ event
 keyCode
 =
 =
+lazy
+.
 KeyCodes
 .
 DOM_VK_UP
@@ -2588,6 +2604,8 @@ event
 keyCode
 =
 =
+lazy
+.
 KeyCodes
 .
 DOM_VK_DOWN
@@ -3469,6 +3487,8 @@ const
 original
 =
 new
+lazy
+.
 OriginalSource
 (
 originalURL
@@ -4209,6 +4229,8 @@ selected
 return
 ;
 }
+lazy
+.
 NetUtil
 .
 asyncFetch
@@ -4216,6 +4238,8 @@ asyncFetch
 {
 uri
 :
+lazy
+.
 NetUtil
 .
 newURI
@@ -4289,6 +4313,8 @@ return
 const
 source
 =
+lazy
+.
 NetUtil
 .
 readInputStreamToString
@@ -4729,6 +4755,8 @@ this
 contextMenuStyleSheet
 )
 {
+lazy
+.
 openContentLink
 (
 this
@@ -4771,6 +4799,8 @@ this
 contextMenuStyleSheet
 )
 {
+lazy
+.
 copyString
 (
 this
@@ -5273,6 +5303,8 @@ event
 keyCode
 =
 =
+lazy
+.
 KeyCodes
 .
 DOM_VK_RETURN
@@ -8445,6 +8477,8 @@ ownerDocument
 defaultView
 ;
 await
+lazy
+.
 ResponsiveUIManager
 .
 openIfNeeded
@@ -8473,6 +8507,8 @@ opened
 "
 )
 ;
+lazy
+.
 ResponsiveUIManager
 .
 getResponsiveUIForTab
@@ -8699,6 +8735,8 @@ file
 fileName
 ?
 new
+lazy
+.
 FileUtils
 .
 File
