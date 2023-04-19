@@ -521,7 +521,7 @@ ChromeTooltipListener
 mozilla
 :
 :
-CSSIntPoint
+LayoutDeviceIntPoint
 mMouseScreenPoint
 ;
 /
@@ -535,7 +535,7 @@ constexpr
 mozilla
 :
 :
-CSSIntCoord
+LayoutDeviceIntCoord
 kTooltipMouseMoveTolerance
 =
 7
