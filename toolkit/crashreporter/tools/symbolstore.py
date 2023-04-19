@@ -7360,19 +7360,31 @@ bundle
 .
             
 return
+(
+                
 [
 self
 .
 dump_syms
 ]
+                
 +
 arch
 .
 split
 (
 )
+                
 +
 [
+"
+-
+-
+type
+"
+"
+macho
+"
 "
 -
 j
@@ -7383,6 +7395,8 @@ j
 dsymbundle
 file
 ]
+            
+)
         
 return
 Dumper
