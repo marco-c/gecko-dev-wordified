@@ -743,8 +743,6 @@ Services
 .
 catMan
 .
-nsICategoryManager
-.
 addCategoryEntry
 (
 categoryName
@@ -783,8 +781,6 @@ id
 Services
 .
 catMan
-.
-nsICategoryManager
 .
 deleteCategoryEntry
 (
