@@ -5038,7 +5038,7 @@ aHeight
 {
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Normal
@@ -5108,7 +5108,7 @@ aDy
 {
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Normal
@@ -5781,7 +5781,7 @@ state
 "
 <
 <
-mSizeState
+mSizeMode
 ;
 }
 /
@@ -6360,7 +6360,7 @@ y
 ;
 if
 (
-mSizeState
+mSizeMode
 !
 =
 nsSizeMode_Normal
@@ -12833,7 +12833,7 @@ state
 "
 <
 <
-mSizeState
+mSizeMode
 ;
 }
 WaylandPopupPropagateChangesToLayout
@@ -16700,17 +16700,6 @@ aMode
 ;
 /
 /
-Save
-the
-requested
-state
-.
-mSizeMode
-=
-aMode
-;
-/
-/
 Return
 if
 there
@@ -16742,7 +16731,7 @@ if
 mShell
 |
 |
-mSizeState
+mSizeMode
 =
 =
 aMode
@@ -16761,7 +16750,7 @@ return
 }
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Fullscreen
@@ -16804,17 +16793,9 @@ transition
 to
 aMode
 .
-mSizeState
-=
-mSizeMode
-;
-mSizeMode
-=
-aMode
-;
 if
 (
-mSizeState
+mSizeMode
 =
 =
 aMode
@@ -16928,7 +16909,7 @@ really
 .
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Minimized
@@ -16946,7 +16927,7 @@ mShell
 else
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Maximized
@@ -16964,9 +16945,9 @@ mShell
 break
 ;
 }
-mSizeState
-=
 mSizeMode
+=
+aMode
 ;
 }
 static
@@ -23684,7 +23665,7 @@ mTransparencyBitmapForTitlebar
 {
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Normal
@@ -26005,7 +25986,7 @@ state
 "
 <
 <
-mSizeState
+mSizeMode
 ;
 }
 /
@@ -26640,7 +26621,7 @@ windows
 .
 if
 (
-mSizeState
+mSizeMode
 !
 =
 nsSizeMode_Normal
@@ -29043,7 +29024,7 @@ pos
 {
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Maximized
@@ -29058,7 +29039,7 @@ nsSizeMode_Normal
 else
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Normal
@@ -31615,7 +31596,7 @@ the
 stored
 /
 /
-mSizeState
+mSizeMode
 and
 obtaining
 a
@@ -31646,7 +31627,7 @@ new_window_state
 GDK_WINDOW_STATE_FOCUSED
 &
 &
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Minimized
@@ -31718,7 +31699,7 @@ n
 "
 )
 ;
-mSizeState
+mSizeMode
 =
 nsSizeMode_Minimized
 ;
@@ -31756,7 +31737,7 @@ n
 "
 )
 ;
-mSizeState
+mSizeMode
 =
 nsSizeMode_Fullscreen
 ;
@@ -31782,7 +31763,7 @@ n
 "
 )
 ;
-mSizeState
+mSizeMode
 =
 nsSizeMode_Maximized
 ;
@@ -31811,7 +31792,7 @@ n
 "
 )
 ;
-mSizeState
+mSizeMode
 =
 nsSizeMode_Normal
 ;
@@ -31881,7 +31862,7 @@ mWidgetListener
 >
 SizeModeChanged
 (
-mSizeState
+mSizeMode
 )
 ;
 if
@@ -31919,7 +31900,7 @@ mTransparencyBitmapForTitlebar
 {
 if
 (
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Normal
@@ -42376,7 +42357,7 @@ IsChromeWindowTitlebar
 )
 &
 &
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Normal
@@ -45442,7 +45423,7 @@ NS_ERROR_NOT_AVAILABLE
 bool
 wasFullscreen
 =
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Fullscreen
@@ -54558,7 +54539,7 @@ if
 mDrawInTitlebar
 &
 &
-mSizeState
+mSizeMode
 =
 =
 nsSizeMode_Normal
