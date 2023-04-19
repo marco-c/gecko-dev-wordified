@@ -142,6 +142,7 @@ data
 properties
 .
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -170,6 +171,7 @@ match
 =
 =
 RegExpMatch
+)
 ;
 }
 function
@@ -2359,6 +2361,7 @@ data
 properties
 .
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -2387,6 +2390,7 @@ search
 =
 =
 RegExpSearch
+)
 ;
 }
 /
