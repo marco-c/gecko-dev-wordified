@@ -2983,16 +2983,6 @@ depth_threshold
 #
 ifdef
 FUZZING
-(
-void
-)
-signalBandwidth
-;
-(
-void
-)
-depth_threshold
-;
 if
 (
 (

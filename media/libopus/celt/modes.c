@@ -1667,17 +1667,8 @@ allocVectors
 =
 NULL
 )
-{
-mode
--
->
-allocVectors
-=
-NULL
-;
 return
 ;
-}
 /
 *
 Check

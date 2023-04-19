@@ -321,14 +321,6 @@ OPUS_ARCHMASK
 3
 #
 elif
-defined
-(
-OPUS_HAVE_RTCD
-)
-&
-&
-\
-(
 (
 defined
 (
@@ -388,7 +380,6 @@ OPUS_X86_MAY_HAVE_AVX
 defined
 (
 OPUS_X86_PRESUME_AVX
-)
 )
 )
 #

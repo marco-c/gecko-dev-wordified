@@ -3304,9 +3304,6 @@ shp_lag_ptr
 *
 psLPC_Q14
 ;
-int
-rdo_offset
-;
 VARDECL
 (
 NSQ_sample_pair
@@ -3347,6 +3344,7 @@ nStatesDelayedDecision
 NSQ_sample_pair
 )
 ;
+int
 rdo_offset
 =
 (

@@ -272,12 +272,6 @@ h
 "
 #
 if
-defined
-(
-OPUS_HAVE_RTCD
-)
-&
-&
 !
 defined
 (
