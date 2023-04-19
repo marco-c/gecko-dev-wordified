@@ -576,8 +576,15 @@ IsCollapsed
 const
 ;
 bool
+HasOnlyCollapsedRange
+(
+)
+const
+;
+bool
 Equals
 (
+const
 SelectionState
 &
 aOther

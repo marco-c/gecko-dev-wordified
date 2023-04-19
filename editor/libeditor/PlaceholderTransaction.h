@@ -421,14 +421,6 @@ aDidMerge
 )
 override
 ;
-bool
-StartSelectionEquals
-(
-SelectionState
-&
-aSelectionState
-)
-;
 nsresult
 EndPlaceHolderBatch
 (
