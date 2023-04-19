@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Master
 include
 file
@@ -424,15 +423,6 @@ ZYCORE_H
 #
 define
 ZYCORE_H
-#
-include
-"
-zydis
-/
-ZycoreExportConfig
-.
-h
-"
 #
 include
 "
@@ -864,7 +854,6 @@ Constants
 *
 *
 *
-brief
 A
 macro
 that
@@ -881,7 +870,7 @@ ZYCORE_VERSION
 (
 ZyanU64
 )
-0x0001000000000000
+0x0001000100000000
 /
 *
 -
@@ -1088,7 +1077,6 @@ macros
 *
 *
 *
-brief
 Extracts
 the
 major
@@ -1132,7 +1120,6 @@ version
 *
 *
 *
-brief
 Extracts
 the
 minor
@@ -1176,7 +1163,6 @@ version
 *
 *
 *
-brief
 Extracts
 the
 patch
@@ -1220,7 +1206,6 @@ version
 *
 *
 *
-brief
 Extracts
 the
 build
@@ -1559,7 +1544,6 @@ functions
 *
 *
 *
-brief
 Returns
 the
 zycore

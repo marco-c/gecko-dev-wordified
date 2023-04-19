@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Provides
 some
 internal
@@ -420,8 +419,8 @@ helper
 functions
 for
 the
-*
 ZyanString
+*
 data
 -
 type
@@ -555,6 +554,17 @@ zydis
 Zycore
 /
 Types
+.
+h
+"
+#
+include
+"
+zydis
+/
+Zycore
+/
+Format
 .
 h
 "
@@ -999,7 +1009,6 @@ Case
 *
 *
 *
-brief
 Defines
 the
 ZydisLetterCase
@@ -1015,7 +1024,6 @@ ZydisLetterCase_
 *
 *
 *
-brief
 Uses
 the
 given
@@ -1032,7 +1040,6 @@ ZYDIS_LETTER_CASE_DEFAULT
 *
 *
 *
-brief
 Converts
 the
 given
@@ -1048,7 +1055,6 @@ ZYDIS_LETTER_CASE_LOWER
 *
 *
 *
-brief
 Converts
 the
 given
@@ -1064,7 +1070,6 @@ ZYDIS_LETTER_CASE_UPPER
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1080,7 +1085,6 @@ ZYDIS_LETTER_CASE_UPPER
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1611,7 +1615,6 @@ macros
 *
 *
 *
-brief
 Checks
 for
 a
@@ -1682,7 +1685,6 @@ size
 *
 *
 *
-brief
 Writes
 a
 terminating
@@ -2249,7 +2251,6 @@ Appending
 *
 *
 *
-brief
 Appends
 the
 content
@@ -2447,7 +2448,6 @@ ZYAN_STATUS_SUCCESS
 *
 *
 *
-brief
 Appends
 the
 content
@@ -2461,8 +2461,8 @@ end
 of
 the
 destination
-string
 *
+string
 converting
 the
 characters
@@ -2906,7 +2906,6 @@ ZYAN_STATUS_SUCCESS
 *
 *
 *
-brief
 Appends
 the
 content
@@ -3085,7 +3084,6 @@ ZYAN_STATUS_SUCCESS
 *
 *
 *
-brief
 Appends
 the
 content
@@ -3714,7 +3712,6 @@ Formatting
 *
 *
 *
-brief
 Formats
 the
 given
@@ -3857,7 +3854,6 @@ suffix
 *
 *
 *
-brief
 Formats
 the
 given
@@ -4075,8 +4071,10 @@ return
 ZydisStringAppendDecU
 (
 string
--
+ZyanAbsI64
+(
 value
+)
 padding_length
 (
 const
@@ -4127,7 +4125,6 @@ suffix
 *
 *
 *
-brief
 Formats
 the
 given
@@ -4305,7 +4302,6 @@ suffix
 *
 *
 *
-brief
 Formats
 the
 given
@@ -4574,8 +4570,10 @@ return
 ZydisStringAppendHexU
 (
 string
--
+ZyanAbsI64
+(
 value
+)
 padding_length
 uppercase
 (

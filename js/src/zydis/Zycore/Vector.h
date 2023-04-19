@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Implements
 the
 vector
@@ -423,15 +422,6 @@ ZYCORE_VECTOR_H
 #
 define
 ZYCORE_VECTOR_H
-#
-include
-"
-zydis
-/
-ZycoreExportConfig
-.
-h
-"
 #
 include
 "
@@ -702,7 +692,6 @@ Constants
 *
 *
 *
-brief
 The
 initial
 minimum
@@ -730,7 +719,6 @@ ZYAN_VECTOR_MIN_CAPACITY
 *
 *
 *
-brief
 The
 default
 growth
@@ -746,13 +734,10 @@ instances
 define
 ZYAN_VECTOR_DEFAULT_GROWTH_FACTOR
 2
-.
-00f
 /
 *
 *
 *
-brief
 The
 default
 shrink
@@ -767,9 +752,7 @@ instances
 #
 define
 ZYAN_VECTOR_DEFAULT_SHRINK_THRESHOLD
-0
-.
-25f
+4
 /
 *
 =
@@ -977,7 +960,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZyanVector
@@ -1017,7 +999,6 @@ ZyanVector_
 *
 *
 *
-brief
 The
 memory
 allocator
@@ -1032,35 +1013,32 @@ allocator
 *
 *
 *
-brief
 The
 growth
 factor
 .
 *
 /
-float
+ZyanU8
 growth_factor
 ;
 /
 *
 *
 *
-brief
 The
 shrink
 threshold
 .
 *
 /
-float
+ZyanU8
 shrink_threshold
 ;
 /
 *
 *
 *
-brief
 The
 current
 number
@@ -1079,7 +1057,6 @@ size
 *
 *
 *
-brief
 The
 maximum
 capacity
@@ -1098,7 +1075,6 @@ capacity
 *
 *
 *
-brief
 The
 size
 of
@@ -1117,7 +1093,6 @@ element_size
 *
 *
 *
-brief
 The
 element
 destructor
@@ -1132,7 +1107,6 @@ destructor
 *
 *
 *
-brief
 The
 data
 pointer
@@ -1552,7 +1526,6 @@ General
 *
 *
 *
-brief
 Defines
 an
 uninitialized
@@ -1580,8 +1553,6 @@ growth_factor
 *
 /
 0
-.
-0f
 \
 /
 *
@@ -1589,8 +1560,6 @@ shrink_threshold
 *
 /
 0
-.
-0f
 \
 /
 *
@@ -1834,7 +1803,6 @@ macros
 *
 *
 *
-brief
 Returns
 the
 value
@@ -1961,7 +1929,6 @@ endif
 *
 *
 *
-brief
 Loops
 through
 all
@@ -2106,7 +2073,6 @@ body
 *
 *
 *
-brief
 Loops
 through
 all
@@ -2757,7 +2723,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -2850,19 +2815,11 @@ the
 default
 growth
 factor
-of
-2
-.
-0f
 and
 the
 default
 shrink
 threshold
-of
-0
-.
-25f
 .
 *
 *
@@ -2906,7 +2863,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -2998,16 +2954,6 @@ growth_factor
 The
 growth
 factor
-(
-from
-1
-.
-0f
-to
-x
-.
-xf
-)
 .
 *
 param
@@ -3015,16 +2961,6 @@ shrink_threshold
 The
 shrink
 threshold
-(
-from
-0
-.
-0f
-to
-1
-.
-0f
-)
 .
 *
 *
@@ -3041,8 +2977,6 @@ growth
 factor
 of
 1
-.
-0f
 disables
 overallocation
 and
@@ -3051,8 +2985,6 @@ shrink
 threshold
 of
 0
-.
-0f
 disables
 *
 dynamic
@@ -3091,9 +3023,9 @@ destructor
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 ;
@@ -3101,7 +3033,6 @@ shrink_threshold
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -3245,7 +3176,6 @@ destructor
 *
 *
 *
-brief
 Destroys
 the
 given
@@ -3491,7 +3421,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -3590,19 +3519,11 @@ default
 *
 growth
 factor
-of
-2
-.
-0f
 and
 the
 default
 shrink
 threshold
-of
-0
-.
-25f
 .
 *
 *
@@ -3646,7 +3567,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -3744,16 +3664,6 @@ growth_factor
 The
 growth
 factor
-(
-from
-1
-.
-0f
-to
-x
-.
-xf
-)
 .
 *
 param
@@ -3761,16 +3671,6 @@ shrink_threshold
 The
 shrink
 threshold
-(
-from
-0
-.
-0f
-to
-1
-.
-0f
-)
 .
 *
 *
@@ -3787,8 +3687,6 @@ growth
 factor
 of
 1
-.
-0f
 disables
 overallocation
 and
@@ -3797,8 +3695,6 @@ shrink
 threshold
 of
 0
-.
-0f
 disables
 *
 dynamic
@@ -3837,9 +3733,9 @@ capacity
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 ;
@@ -3847,7 +3743,6 @@ shrink_threshold
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -4200,7 +4095,6 @@ access
 *
 *
 *
-brief
 Returns
 a
 constant
@@ -4250,7 +4144,7 @@ if
 an
 error
 *
-occured
+occurred
 .
 *
 *
@@ -4328,7 +4222,6 @@ index
 *
 *
 *
-brief
 Returns
 a
 mutable
@@ -4378,7 +4271,7 @@ if
 an
 error
 *
-occured
+occurred
 .
 *
 *
@@ -4455,7 +4348,6 @@ index
 *
 *
 *
-brief
 Returns
 a
 constant
@@ -4567,7 +4459,6 @@ value
 *
 *
 *
-brief
 Returns
 a
 mutable
@@ -4678,7 +4569,6 @@ value
 *
 *
 *
-brief
 Assigns
 a
 new
@@ -4947,7 +4837,6 @@ Insertion
 *
 *
 *
-brief
 Adds
 a
 new
@@ -5008,7 +4897,6 @@ element
 *
 *
 *
-brief
 Inserts
 an
 element
@@ -5078,7 +4966,6 @@ element
 *
 *
 *
-brief
 Inserts
 multiple
 elements
@@ -5159,7 +5046,6 @@ count
 *
 *
 *
-brief
 Constructs
 an
 element
@@ -5248,7 +5134,6 @@ constructor
 *
 *
 *
-brief
 Constructs
 an
 element
@@ -5551,7 +5436,6 @@ Utils
 *
 *
 *
-brief
 Swaps
 the
 element
@@ -5850,7 +5734,6 @@ Deletion
 *
 *
 *
-brief
 Deletes
 the
 element
@@ -5905,7 +5788,6 @@ index
 *
 *
 *
-brief
 Deletes
 multiple
 elements
@@ -5977,7 +5859,6 @@ count
 *
 *
 *
-brief
 Removes
 the
 last
@@ -6020,7 +5901,6 @@ vector
 *
 *
 *
-brief
 Erases
 all
 elements
@@ -6264,7 +6144,6 @@ Searching
 *
 *
 *
-brief
 Sequentially
 searches
 for
@@ -6349,7 +6228,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -6392,7 +6271,6 @@ comparison
 *
 *
 *
-brief
 Sequentially
 searches
 for
@@ -6500,7 +6378,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -6547,7 +6425,6 @@ count
 *
 *
 *
-brief
 Searches
 for
 the
@@ -6638,7 +6515,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -6713,7 +6590,6 @@ comparison
 *
 *
 *
-brief
 Searches
 for
 the
@@ -6827,7 +6703,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -7108,7 +6984,6 @@ management
 *
 *
 *
-brief
 Resizes
 the
 given
@@ -7161,7 +7036,6 @@ size
 *
 *
 *
-brief
 Resizes
 the
 given
@@ -7235,7 +7109,6 @@ initializer
 *
 *
 *
-brief
 Changes
 the
 capacity
@@ -7292,7 +7165,6 @@ capacity
 *
 *
 *
-brief
 Shrinks
 the
 capacity
@@ -7542,7 +7414,6 @@ Information
 *
 *
 *
-brief
 Returns
 the
 current
@@ -7599,7 +7470,6 @@ capacity
 *
 *
 *
-brief
 Returns
 the
 current

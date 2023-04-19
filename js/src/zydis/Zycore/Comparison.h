@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Defines
 prototypes
 of
@@ -665,7 +664,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZyanEqualityComparison
@@ -738,7 +736,6 @@ right
 *
 *
 *
-brief
 Defines
 the
 ZyanComparison
@@ -1235,7 +1232,6 @@ functions
 *
 *
 *
-brief
 Declares
 a
 generic
@@ -1245,7 +1241,9 @@ function
 for
 an
 integral
-datatype
+data
+-
+type
 .
 *
 *
@@ -1265,7 +1263,9 @@ name
 of
 the
 integral
-datatype
+data
+-
+type
 .
 *
 /
@@ -1325,7 +1325,6 @@ ZYAN_FALSE
 *
 *
 *
-brief
 Declares
 a
 generic
@@ -1338,7 +1337,9 @@ a
 single
 integral
 *
-datatype
+data
+-
+type
 field
 of
 a
@@ -1362,7 +1363,9 @@ name
 of
 the
 integral
-datatype
+data
+-
+type
 .
 *
 param
@@ -1639,7 +1642,6 @@ functions
 *
 *
 *
-brief
 Declares
 a
 generic
@@ -1648,7 +1650,9 @@ function
 for
 an
 integral
-datatype
+data
+-
+type
 .
 *
 *
@@ -1668,7 +1672,9 @@ name
 of
 the
 integral
-datatype
+data
+-
+type
 .
 *
 /
@@ -1752,7 +1758,6 @@ return
 *
 *
 *
-brief
 Declares
 a
 generic
@@ -1763,7 +1768,9 @@ compares
 a
 single
 integral
-datatype
+data
+-
+type
 field
 *
 of
@@ -1788,7 +1795,9 @@ name
 of
 the
 integral
-datatype
+data
+-
+type
 .
 *
 param
@@ -2395,7 +2404,6 @@ functions
 *
 *
 *
-brief
 Defines
 a
 default
@@ -2460,7 +2468,6 @@ const
 *
 *
 *
-brief
 Defines
 a
 default
@@ -2523,7 +2530,6 @@ ZyanBool
 *
 *
 *
-brief
 Defines
 a
 default
@@ -2589,7 +2595,6 @@ ZyanU8
 *
 *
 *
-brief
 Defines
 a
 default
@@ -2655,7 +2660,6 @@ ZyanU16
 *
 *
 *
-brief
 Defines
 a
 default
@@ -2721,7 +2725,6 @@ ZyanU32
 *
 *
 *
-brief
 Defines
 a
 default
@@ -2990,7 +2993,6 @@ functions
 *
 *
 *
-brief
 Defines
 a
 default
@@ -3074,7 +3076,6 @@ const
 *
 *
 *
-brief
 Defines
 a
 default
@@ -3156,7 +3157,6 @@ ZyanBool
 *
 *
 *
-brief
 Defines
 a
 default
@@ -3241,7 +3241,6 @@ ZyanU8
 *
 *
 *
-brief
 Defines
 a
 default
@@ -3326,7 +3325,6 @@ ZyanU16
 *
 *
 *
-brief
 Defines
 a
 default
@@ -3411,7 +3409,6 @@ ZyanU32
 *
 *
 *
-brief
 Defines
 a
 default

@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Other
 utility
 functions
@@ -1173,7 +1172,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionSegment
@@ -1190,7 +1188,6 @@ ZYDIS_INSTR_SEGMENT_NONE
 *
 *
 *
-brief
 The
 legacy
 prefixes
@@ -1208,7 +1205,6 @@ ZYDIS_INSTR_SEGMENT_PREFIXES
 *
 *
 *
-brief
 The
 effective
 REX
@@ -1222,7 +1218,6 @@ ZYDIS_INSTR_SEGMENT_REX
 *
 *
 *
-brief
 The
 XOP
 prefix
@@ -1235,7 +1230,6 @@ ZYDIS_INSTR_SEGMENT_XOP
 *
 *
 *
-brief
 The
 VEX
 prefix
@@ -1248,7 +1242,6 @@ ZYDIS_INSTR_SEGMENT_VEX
 *
 *
 *
-brief
 The
 EVEX
 prefix
@@ -1261,7 +1254,6 @@ ZYDIS_INSTR_SEGMENT_EVEX
 *
 *
 *
-brief
 The
 MVEX
 prefix
@@ -1274,7 +1266,6 @@ ZYDIS_INSTR_SEGMENT_MVEX
 *
 *
 *
-brief
 The
 opcode
 bytes
@@ -1286,7 +1277,6 @@ ZYDIS_INSTR_SEGMENT_OPCODE
 *
 *
 *
-brief
 The
 ModRM
 byte
@@ -1298,7 +1288,6 @@ ZYDIS_INSTR_SEGMENT_MODRM
 *
 *
 *
-brief
 The
 SIB
 byte
@@ -1310,7 +1299,6 @@ ZYDIS_INSTR_SEGMENT_SIB
 *
 *
 *
-brief
 The
 displacement
 bytes
@@ -1322,7 +1310,6 @@ ZYDIS_INSTR_SEGMENT_DISPLACEMENT
 *
 *
 *
-brief
 The
 immediate
 bytes
@@ -1334,7 +1321,6 @@ ZYDIS_INSTR_SEGMENT_IMMEDIATE
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1350,7 +1336,6 @@ ZYDIS_INSTR_SEGMENT_IMMEDIATE
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1380,7 +1365,6 @@ ZydisInstructionSegment
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionSegments
@@ -1396,7 +1380,6 @@ ZydisInstructionSegments_
 *
 *
 *
-brief
 The
 number
 of
@@ -1415,7 +1398,6 @@ struct
 *
 *
 *
-brief
 The
 type
 of
@@ -1431,7 +1413,6 @@ type
 *
 *
 *
-brief
 The
 offset
 of
@@ -1458,7 +1439,6 @@ offset
 *
 *
 *
-brief
 The
 size
 of
@@ -1691,7 +1671,6 @@ addtogroup
 utils
 Utils
 *
-brief
 Miscellaneous
 utility
 functions
@@ -1932,7 +1911,6 @@ parameter
 *
 *
 *
-brief
 Calculates
 the
 absolute
@@ -2105,7 +2083,6 @@ result_address
 *
 *
 *
-brief
 Calculates
 the
 absolute
@@ -2468,7 +2445,6 @@ flags
 *
 *
 *
-brief
 Returns
 a
 mask
@@ -2539,7 +2515,6 @@ flags
 *
 *
 *
-brief
 Returns
 a
 mask
@@ -2561,6 +2536,35 @@ instruction
 .
 *
 *
+DEPRECATED
+.
+This
+function
+will
+be
+removed
+in
+the
+next
+major
+release
+.
+Please
+refer
+to
+the
+*
+cpu_flags_read
+or
+fpu_flags_read
+fields
+of
+the
+ZydisDecodedInstruction
+instead
+.
+*
+*
 param
 instruction
 A
@@ -2588,7 +2592,7 @@ code
 .
 *
 /
-ZYDIS_EXPORT
+ZYDIS_DEPRECATED_EXPORT
 ZyanStatus
 ZydisGetAccessedFlagsRead
 (
@@ -2605,7 +2609,6 @@ flags
 *
 *
 *
-brief
 Returns
 a
 mask
@@ -2623,9 +2626,38 @@ undefined
 )
 by
 the
-*
 current
+*
 instruction
+.
+*
+*
+DEPRECATED
+.
+This
+function
+will
+be
+removed
+in
+the
+next
+major
+release
+.
+Please
+refer
+to
+the
+*
+cpu_flags_written
+or
+fpu_flags_written
+fields
+of
+the
+ZydisDecodedInstruction
+instead
 .
 *
 *
@@ -2656,7 +2688,7 @@ code
 .
 *
 /
-ZYDIS_EXPORT
+ZYDIS_DEPRECATED_EXPORT
 ZyanStatus
 ZydisGetAccessedFlagsWritten
 (
@@ -2875,7 +2907,6 @@ segments
 *
 *
 *
-brief
 Returns
 offsets
 and

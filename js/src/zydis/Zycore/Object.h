@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Defines
 some
 generic
@@ -664,7 +663,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZyanMemberProcedure
@@ -699,7 +697,6 @@ object
 *
 *
 *
-brief
 Defines
 the
 ZyanConstMemberProcedure
@@ -735,7 +732,6 @@ object
 *
 *
 *
-brief
 Defines
 the
 ZyanMemberFunction
@@ -778,7 +774,6 @@ object
 *
 *
 *
-brief
 Defines
 the
 ZyanConstMemberFunction

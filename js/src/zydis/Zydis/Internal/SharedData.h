@@ -925,7 +925,6 @@ definition
 *
 *
 *
-brief
 Defines
 the
 ZydisSemanticOperandType
@@ -954,6 +953,7 @@ ZYDIS_SEMANTIC_OPTYPE_MMX
 ZYDIS_SEMANTIC_OPTYPE_XMM
 ZYDIS_SEMANTIC_OPTYPE_YMM
 ZYDIS_SEMANTIC_OPTYPE_ZMM
+ZYDIS_SEMANTIC_OPTYPE_TMM
 ZYDIS_SEMANTIC_OPTYPE_BND
 ZYDIS_SEMANTIC_OPTYPE_SREG
 ZYDIS_SEMANTIC_OPTYPE_CR
@@ -973,7 +973,6 @@ ZYDIS_SEMANTIC_OPTYPE_MIB
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -989,7 +988,6 @@ ZYDIS_SEMANTIC_OPTYPE_MIB
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1117,7 +1115,6 @@ ZydisSemanticOperandType
 *
 *
 *
-brief
 Defines
 the
 ZydisInternalElementType
@@ -1146,6 +1143,7 @@ ZYDIS_IELEMENT_TYPE_UINT64
 ZYDIS_IELEMENT_TYPE_UINT128
 ZYDIS_IELEMENT_TYPE_UINT256
 ZYDIS_IELEMENT_TYPE_FLOAT16
+ZYDIS_IELEMENT_TYPE_FLOAT16X2
 ZYDIS_IELEMENT_TYPE_FLOAT32
 ZYDIS_IELEMENT_TYPE_FLOAT64
 ZYDIS_IELEMENT_TYPE_FLOAT80
@@ -1156,7 +1154,6 @@ ZYDIS_IELEMENT_TYPE_CC5
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1172,7 +1169,6 @@ ZYDIS_IELEMENT_TYPE_CC5
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1300,7 +1296,6 @@ ZydisInternalElementType
 *
 *
 *
-brief
 Defines
 the
 ZydisImplicitRegisterType
@@ -1323,7 +1318,6 @@ ZYDIS_IMPLREG_TYPE_FLAGS_SSZ
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1339,7 +1333,6 @@ ZYDIS_IMPLREG_TYPE_FLAGS_SSZ
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1467,7 +1460,6 @@ ZydisImplicitRegisterType
 *
 *
 *
-brief
 Defines
 the
 ZydisImplicitMemBase
@@ -1484,15 +1476,14 @@ ZYDIS_IMPLMEM_BASE_AGPR_RM
 ZYDIS_IMPLMEM_BASE_AAX
 ZYDIS_IMPLMEM_BASE_ADX
 ZYDIS_IMPLMEM_BASE_ABX
-ZYDIS_IMPLMEM_BASE_ASP
-ZYDIS_IMPLMEM_BASE_ABP
 ZYDIS_IMPLMEM_BASE_ASI
 ZYDIS_IMPLMEM_BASE_ADI
+ZYDIS_IMPLMEM_BASE_SSP
+ZYDIS_IMPLMEM_BASE_SBP
 /
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1503,12 +1494,11 @@ enum
 /
 ZYDIS_IMPLMEM_BASE_MAX_VALUE
 =
-ZYDIS_IMPLMEM_BASE_ADI
+ZYDIS_IMPLMEM_BASE_SBP
 /
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1725,7 +1715,6 @@ ZYDIS_IMPLMEM_BASE_REQUIRED_BITS
 *
 *
 *
-brief
 Defines
 the
 ZydisOperandDefinition
@@ -1832,6 +1821,20 @@ mem
 ;
 }
 op
+;
+ZyanBool
+is_multisource4
+ZYAN_BITFIELD
+(
+1
+)
+;
+ZyanBool
+ignore_seg_override
+ZYAN_BITFIELD
+(
+1
+)
 ;
 }
 ZydisOperandDefinition
@@ -2042,7 +2045,6 @@ definition
 *
 *
 *
-brief
 Defines
 the
 ZydisReadWriteAction
@@ -2062,7 +2064,6 @@ ZYDIS_RW_ACTION_READWRITE
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -2078,7 +2079,6 @@ ZYDIS_RW_ACTION_READWRITE
 *
 *
 *
-brief
 The
 minimum
 number
@@ -2206,7 +2206,6 @@ ZydisReadWriteAction
 *
 *
 *
-brief
 Defines
 the
 ZydisRegisterConstraint
@@ -2228,11 +2227,11 @@ ZYDIS_REG_CONSTRAINTS_DR
 ZYDIS_REG_CONSTRAINTS_MASK
 ZYDIS_REG_CONSTRAINTS_BND
 ZYDIS_REG_CONSTRAINTS_VSIB
+ZYDIS_REG_CONSTRAINTS_NO_REL
 /
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -2243,12 +2242,11 @@ enum
 /
 ZYDIS_REG_CONSTRAINTS_MAX_VALUE
 =
-ZYDIS_REG_CONSTRAINTS_VSIB
+ZYDIS_REG_CONSTRAINTS_NO_REL
 /
 *
 *
 *
-brief
 The
 minimum
 number
@@ -2376,7 +2374,6 @@ ZydisRegisterConstraint
 *
 *
 *
-brief
 Defines
 the
 ZydisInternalVectorLength
@@ -2396,7 +2393,6 @@ ZYDIS_IVECTOR_LENGTH_FIXED_512
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -2412,7 +2408,6 @@ ZYDIS_IVECTOR_LENGTH_FIXED_512
 *
 *
 *
-brief
 The
 minimum
 number
@@ -2540,7 +2535,6 @@ ZydisInternalVectorLength
 *
 *
 *
-brief
 Defines
 the
 ZydisInternalElementSize
@@ -2562,7 +2556,6 @@ ZYDIS_IELEMENT_SIZE_128
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -2578,7 +2571,6 @@ ZYDIS_IELEMENT_SIZE_128
 *
 *
 *
-brief
 The
 minimum
 number
@@ -2706,7 +2698,6 @@ ZydisInternalElementSize
 *
 *
 *
-brief
 Defines
 the
 ZydisEVEXFunctionality
@@ -2723,7 +2714,6 @@ ZYDIS_EVEX_FUNC_INVALID
 *
 *
 *
-brief
 EVEX
 .
 b
@@ -2738,7 +2728,6 @@ ZYDIS_EVEX_FUNC_BC
 *
 *
 *
-brief
 EVEX
 .
 b
@@ -2755,7 +2744,6 @@ ZYDIS_EVEX_FUNC_RC
 *
 *
 *
-brief
 EVEX
 .
 b
@@ -2770,7 +2758,6 @@ ZYDIS_EVEX_FUNC_SAE
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -2786,7 +2773,6 @@ ZYDIS_EVEX_FUNC_SAE
 *
 *
 *
-brief
 The
 minimum
 number
@@ -2914,7 +2900,6 @@ ZydisEVEXFunctionality
 *
 *
 *
-brief
 Defines
 the
 ZydisEVEXTupleType
@@ -2931,7 +2916,6 @@ ZYDIS_TUPLETYPE_INVALID
 *
 *
 *
-brief
 Full
 Vector
 *
@@ -2941,7 +2925,6 @@ ZYDIS_TUPLETYPE_FV
 *
 *
 *
-brief
 Half
 Vector
 *
@@ -2951,7 +2934,6 @@ ZYDIS_TUPLETYPE_HV
 *
 *
 *
-brief
 Full
 Vector
 Mem
@@ -2962,7 +2944,6 @@ ZYDIS_TUPLETYPE_FVM
 *
 *
 *
-brief
 Tuple1
 Scalar
 *
@@ -2972,7 +2953,6 @@ ZYDIS_TUPLETYPE_T1S
 *
 *
 *
-brief
 Tuple1
 Fixed
 *
@@ -2982,7 +2962,6 @@ ZYDIS_TUPLETYPE_T1F
 *
 *
 *
-brief
 Tuple1
 4x32
 *
@@ -2992,7 +2971,6 @@ ZYDIS_TUPLETYPE_T1_4X
 *
 *
 *
-brief
 Gather
 /
 Scatter
@@ -3003,7 +2981,6 @@ ZYDIS_TUPLETYPE_GSCAT
 *
 *
 *
-brief
 Tuple2
 *
 /
@@ -3012,7 +2989,6 @@ ZYDIS_TUPLETYPE_T2
 *
 *
 *
-brief
 Tuple4
 *
 /
@@ -3021,7 +2997,6 @@ ZYDIS_TUPLETYPE_T4
 *
 *
 *
-brief
 Tuple8
 *
 /
@@ -3030,7 +3005,6 @@ ZYDIS_TUPLETYPE_T8
 *
 *
 *
-brief
 Half
 Mem
 *
@@ -3040,7 +3014,6 @@ ZYDIS_TUPLETYPE_HVM
 *
 *
 *
-brief
 QuarterMem
 *
 /
@@ -3049,7 +3022,6 @@ ZYDIS_TUPLETYPE_QVM
 *
 *
 *
-brief
 OctMem
 *
 /
@@ -3058,7 +3030,6 @@ ZYDIS_TUPLETYPE_OVM
 *
 *
 *
-brief
 Mem128
 *
 /
@@ -3067,7 +3038,6 @@ ZYDIS_TUPLETYPE_M128
 *
 *
 *
-brief
 MOVDDUP
 *
 /
@@ -3076,7 +3046,20 @@ ZYDIS_TUPLETYPE_DUP
 *
 *
 *
-brief
+Quarter
+of
+the
+vector
+-
+length
+.
+*
+/
+ZYDIS_TUPLETYPE_QUARTER
+/
+*
+*
+*
 Maximum
 value
 of
@@ -3087,12 +3070,11 @@ enum
 /
 ZYDIS_TUPLETYPE_MAX_VALUE
 =
-ZYDIS_TUPLETYPE_DUP
+ZYDIS_TUPLETYPE_QUARTER
 /
 *
 *
 *
-brief
 The
 minimum
 number
@@ -3220,7 +3202,6 @@ ZydisEVEXTupleType
 *
 *
 *
-brief
 Defines
 the
 ZydisMVEXFunctionality
@@ -3236,7 +3217,6 @@ ZydisMVEXFunctionality_
 *
 *
 *
-brief
 The
 MVEX
 .
@@ -3252,7 +3232,6 @@ ZYDIS_MVEX_FUNC_IGNORED
 *
 *
 *
-brief
 MVEX
 .
 SSS
@@ -3267,7 +3246,6 @@ ZYDIS_MVEX_FUNC_INVALID
 *
 *
 *
-brief
 MVEX
 .
 SSS
@@ -3284,7 +3262,6 @@ ZYDIS_MVEX_FUNC_RC
 *
 *
 *
-brief
 MVEX
 .
 SSS
@@ -3299,7 +3276,6 @@ ZYDIS_MVEX_FUNC_SAE
 *
 *
 *
-brief
 No
 special
 operation
@@ -3316,7 +3292,6 @@ ZYDIS_MVEX_FUNC_F_32
 *
 *
 *
-brief
 No
 special
 operation
@@ -3333,7 +3308,6 @@ ZYDIS_MVEX_FUNC_I_32
 *
 *
 *
-brief
 No
 special
 operation
@@ -3350,7 +3324,6 @@ ZYDIS_MVEX_FUNC_F_64
 *
 *
 *
-brief
 No
 special
 operation
@@ -3367,7 +3340,6 @@ ZYDIS_MVEX_FUNC_I_64
 *
 *
 *
-brief
 Sf32
 (
 reg
@@ -3385,7 +3357,6 @@ ZYDIS_MVEX_FUNC_SWIZZLE_32
 *
 *
 *
-brief
 Sf64
 (
 reg
@@ -3403,7 +3374,6 @@ ZYDIS_MVEX_FUNC_SWIZZLE_64
 *
 *
 *
-brief
 Sf32
 (
 mem
@@ -3416,7 +3386,6 @@ ZYDIS_MVEX_FUNC_SF_32
 *
 *
 *
-brief
 Sf32
 (
 mem
@@ -3431,7 +3400,6 @@ ZYDIS_MVEX_FUNC_SF_32_BCST
 *
 *
 *
-brief
 Sf32
 (
 mem
@@ -3447,7 +3415,6 @@ ZYDIS_MVEX_FUNC_SF_32_BCST_4TO16
 *
 *
 *
-brief
 Sf64
 (
 mem
@@ -3460,7 +3427,6 @@ ZYDIS_MVEX_FUNC_SF_64
 *
 *
 *
-brief
 Si32
 (
 mem
@@ -3473,7 +3439,6 @@ ZYDIS_MVEX_FUNC_SI_32
 *
 *
 *
-brief
 Si32
 (
 mem
@@ -3488,7 +3453,6 @@ ZYDIS_MVEX_FUNC_SI_32_BCST
 *
 *
 *
-brief
 Si32
 (
 mem
@@ -3504,7 +3468,6 @@ ZYDIS_MVEX_FUNC_SI_32_BCST_4TO16
 *
 *
 *
-brief
 Si64
 (
 mem
@@ -3517,7 +3480,6 @@ ZYDIS_MVEX_FUNC_SI_64
 *
 *
 *
-brief
 Uf32
 .
 *
@@ -3527,7 +3489,6 @@ ZYDIS_MVEX_FUNC_UF_32
 *
 *
 *
-brief
 Uf64
 .
 *
@@ -3537,7 +3498,6 @@ ZYDIS_MVEX_FUNC_UF_64
 *
 *
 *
-brief
 Ui32
 .
 *
@@ -3547,7 +3507,6 @@ ZYDIS_MVEX_FUNC_UI_32
 *
 *
 *
-brief
 Ui64
 .
 *
@@ -3557,7 +3516,6 @@ ZYDIS_MVEX_FUNC_UI_64
 *
 *
 *
-brief
 Df32
 .
 *
@@ -3567,7 +3525,6 @@ ZYDIS_MVEX_FUNC_DF_32
 *
 *
 *
-brief
 Df64
 .
 *
@@ -3577,7 +3534,6 @@ ZYDIS_MVEX_FUNC_DF_64
 *
 *
 *
-brief
 Di32
 .
 *
@@ -3587,7 +3543,6 @@ ZYDIS_MVEX_FUNC_DI_32
 *
 *
 *
-brief
 Di64
 .
 *
@@ -3597,7 +3552,6 @@ ZYDIS_MVEX_FUNC_DI_64
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -3613,7 +3567,6 @@ ZYDIS_MVEX_FUNC_DI_64
 *
 *
 *
-brief
 The
 minimum
 number
@@ -3741,7 +3694,6 @@ ZydisMVEXFunctionality
 *
 *
 *
-brief
 Defines
 the
 ZydisVEXStaticBroadcast
@@ -3764,7 +3716,6 @@ ZYDIS_VEX_STATIC_BROADCAST_2_TO_4
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -3780,7 +3731,6 @@ ZYDIS_VEX_STATIC_BROADCAST_2_TO_4
 *
 *
 *
-brief
 The
 minimum
 number
@@ -3908,7 +3858,6 @@ ZydisVEXStaticBroadcast
 *
 *
 *
-brief
 Defines
 the
 ZydisEVEXStaticBroadcast
@@ -3937,7 +3886,6 @@ ZYDIS_EVEX_STATIC_BROADCAST_8_TO_16
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -3953,7 +3901,6 @@ ZYDIS_EVEX_STATIC_BROADCAST_8_TO_16
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4081,7 +4028,6 @@ ZydisEVEXStaticBroadcast
 *
 *
 *
-brief
 Defines
 the
 ZydisMVEXStaticBroadcast
@@ -4102,7 +4048,6 @@ ZYDIS_MVEX_STATIC_BROADCAST_4_TO_16
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -4118,7 +4063,6 @@ ZYDIS_MVEX_STATIC_BROADCAST_4_TO_16
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4246,7 +4190,6 @@ ZydisMVEXStaticBroadcast
 *
 *
 *
-brief
 Defines
 the
 ZydisMaskPolicy
@@ -4263,7 +4206,6 @@ ZYDIS_MASK_POLICY_INVALID
 *
 *
 *
-brief
 The
 instruction
 accepts
@@ -4293,7 +4235,6 @@ ZYDIS_MASK_POLICY_ALLOWED
 *
 *
 *
-brief
 The
 instruction
 requires
@@ -4318,7 +4259,6 @@ ZYDIS_MASK_POLICY_REQUIRED
 *
 *
 *
-brief
 The
 instruction
 does
@@ -4345,7 +4285,6 @@ ZYDIS_MASK_POLICY_FORBIDDEN
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -4361,7 +4300,6 @@ ZYDIS_MASK_POLICY_FORBIDDEN
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4489,7 +4427,6 @@ ZydisMaskPolicy
 *
 *
 *
-brief
 Defines
 the
 ZydisMaskOverride
@@ -4508,7 +4445,6 @@ ZYDIS_MASK_OVERRIDE_CONTROL
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -4524,7 +4460,6 @@ ZYDIS_MASK_OVERRIDE_CONTROL
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4800,6 +4735,14 @@ ZYAN_BITFIELD
 )
 ;
 \
+ZyanBool
+no_compat_mode
+ZYAN_BITFIELD
+(
+1
+)
+;
+\
 ZyanU8
 category
 ZYAN_BITFIELD
@@ -4877,6 +4820,14 @@ xmm_state
 ZYAN_BITFIELD
 (
 ZYDIS_RW_ACTION_REQUIRED_BITS
+)
+;
+\
+ZyanBool
+accepts_segment
+ZYAN_BITFIELD
+(
+1
 )
 #
 else
@@ -4958,11 +4909,18 @@ ZYAN_BITFIELD
 (
 1
 )
+;
+\
+ZyanBool
+no_source_dest_match
+ZYAN_BITFIELD
+(
+1
+)
 /
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionDefinition
@@ -4983,7 +4941,6 @@ ZydisInstructionDefinition
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionDefinitionLEGACY
@@ -5062,6 +5019,13 @@ ZYAN_BITFIELD
 )
 ;
 ZyanBool
+accepts_NOTRACK
+ZYAN_BITFIELD
+(
+1
+)
+;
+ZyanBool
 accepts_hle_without_lock
 ZYAN_BITFIELD
 (
@@ -5070,13 +5034,6 @@ ZYAN_BITFIELD
 ;
 ZyanBool
 accepts_branch_hints
-ZYAN_BITFIELD
-(
-1
-)
-;
-ZyanBool
-accepts_segment
 ZYAN_BITFIELD
 (
 1
@@ -5091,7 +5048,6 @@ ZydisInstructionDefinitionLEGACY
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionDefinition3DNOW
@@ -5112,7 +5068,6 @@ ZydisInstructionDefinition3DNOW
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionDefinitionXOP
@@ -5166,7 +5121,6 @@ ZYDIS_VEX_STATIC_BROADCAST_REQUIRED_BITS
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionDefinitionVEX
@@ -5283,7 +5237,6 @@ ZYDIS_EVEX_STATIC_BROADCAST_REQUIRED_BITS
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionDefinitionEVEX
@@ -5424,7 +5377,6 @@ ZYDIS_MVEX_STATIC_BROADCAST_REQUIRED_BITS
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionDefinitionMVEX
@@ -5690,6 +5642,34 @@ ZYDIS_CPUFLAG_MAX_VALUE
 +
 1
 ]
+;
+ZyanU32
+cpu_flags_read
+ZYAN_BITFIELD
+(
+22
+)
+;
+ZyanU32
+cpu_flags_written
+ZYAN_BITFIELD
+(
+22
+)
+;
+ZyanU8
+fpu_flags_read
+ZYAN_BITFIELD
+(
+4
+)
+;
+ZyanU8
+fpu_flags_written
+ZYAN_BITFIELD
+(
+4
+)
 ;
 }
 ZydisAccessedFlags
@@ -6216,7 +6196,6 @@ definition
 *
 *
 *
-brief
 Returns
 the
 instruction
@@ -6491,7 +6470,6 @@ ZYDIS_MINIMAL_MODE
 *
 *
 *
-brief
 Returns
 the
 the
@@ -6782,7 +6760,6 @@ ZYDIS_MINIMAL_MODE
 *
 *
 *
-brief
 Returns
 the
 actual
@@ -7048,7 +7025,6 @@ ZYDIS_MINIMAL_MODE
 *
 *
 *
-brief
 Returns
 the
 the

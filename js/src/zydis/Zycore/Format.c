@@ -1612,7 +1612,6 @@ macros
 *
 *
 *
-brief
 Writes
 a
 terminating
@@ -2094,6 +2093,12 @@ ZYAN_ARM
 defined
 (
 ZYAN_EMSCRIPTEN
+)
+|
+|
+defined
+(
+ZYAN_WASM
 )
 ZyanStatus
 ZyanStringAppendDecU32
@@ -2865,6 +2870,12 @@ ZYAN_ARM
 defined
 (
 ZYAN_EMSCRIPTEN
+)
+|
+|
+defined
+(
+ZYAN_WASM
 )
 ZyanStatus
 ZyanStringAppendHexU32
@@ -5079,8 +5090,10 @@ return
 ZyanStringAppendDecU
 (
 string
--
+ZyanAbsI64
+(
 value
+)
 padding_length
 )
 ;
@@ -5274,8 +5287,10 @@ return
 ZyanStringAppendHexU
 (
 string
--
+ZyanAbsI64
+(
 value
+)
 padding_length
 uppercase
 )

@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Implements
 a
 doubly
@@ -423,15 +422,6 @@ ZYCORE_LIST_H
 #
 define
 ZYCORE_LIST_H
-#
-include
-"
-zydis
-/
-ZycoreExportConfig
-.
-h
-"
 #
 include
 "
@@ -693,7 +683,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZyanListNode
@@ -733,7 +722,6 @@ ZyanListNode_
 *
 *
 *
-brief
 A
 pointer
 to
@@ -753,7 +741,6 @@ prev
 *
 *
 *
-brief
 A
 pointer
 to
@@ -776,7 +763,6 @@ ZyanListNode
 *
 *
 *
-brief
 Defines
 the
 ZyanList
@@ -816,7 +802,6 @@ ZyanList_
 *
 *
 *
-brief
 The
 memory
 allocator
@@ -831,7 +816,6 @@ allocator
 *
 *
 *
-brief
 The
 current
 number
@@ -850,7 +834,6 @@ size
 *
 *
 *
-brief
 The
 size
 of
@@ -869,7 +852,6 @@ element_size
 *
 *
 *
-brief
 The
 element
 destructor
@@ -884,7 +866,6 @@ destructor
 *
 *
 *
-brief
 The
 head
 node
@@ -899,7 +880,6 @@ head
 *
 *
 *
-brief
 The
 tail
 node
@@ -914,7 +894,6 @@ tail
 *
 *
 *
-brief
 The
 data
 buffer
@@ -939,7 +918,6 @@ buffer
 *
 *
 *
-brief
 The
 data
 buffer
@@ -969,7 +947,6 @@ capacity
 *
 *
 *
-brief
 The
 first
 unused
@@ -1519,7 +1496,6 @@ General
 *
 *
 *
-brief
 Defines
 an
 uninitialized
@@ -1804,7 +1780,6 @@ macros
 *
 *
 *
-brief
 Returns
 the
 data
@@ -2422,7 +2397,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -2538,7 +2512,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -2650,7 +2623,6 @@ allocator
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -2838,7 +2810,6 @@ capacity
 *
 *
 *
-brief
 Destroys
 the
 given
@@ -3083,7 +3054,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -3183,7 +3153,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -3280,7 +3249,6 @@ allocator
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -3679,7 +3647,6 @@ access
 *
 *
 *
-brief
 Returns
 a
 pointer
@@ -3748,7 +3715,6 @@ node
 *
 *
 *
-brief
 Returns
 a
 pointer
@@ -3817,7 +3783,6 @@ node
 *
 *
 *
-brief
 Receives
 a
 pointer
@@ -3876,7 +3841,6 @@ node
 *
 *
 *
-brief
 Receives
 a
 pointer
@@ -3934,7 +3898,6 @@ node
 *
 *
 *
-brief
 Returns
 a
 constant
@@ -4017,7 +3980,6 @@ node
 *
 *
 *
-brief
 Returns
 a
 constant
@@ -4104,7 +4066,6 @@ value
 *
 *
 *
-brief
 Returns
 a
 mutable
@@ -4188,7 +4149,6 @@ node
 *
 *
 *
-brief
 Returns
 a
 mutable
@@ -4275,7 +4235,6 @@ value
 *
 *
 *
-brief
 Assigns
 a
 new
@@ -4548,7 +4507,6 @@ Insertion
 *
 *
 *
-brief
 Adds
 a
 new
@@ -4609,7 +4567,6 @@ item
 *
 *
 *
-brief
 Adds
 a
 new
@@ -4670,7 +4627,6 @@ item
 *
 *
 *
-brief
 Constructs
 an
 item
@@ -4759,7 +4715,6 @@ constructor
 *
 *
 *
-brief
 Constructs
 an
 item
@@ -5049,7 +5004,6 @@ Deletion
 *
 *
 *
-brief
 Removes
 the
 last
@@ -5092,7 +5046,6 @@ list
 *
 *
 *
-brief
 Removes
 the
 firstelement
@@ -5134,7 +5087,6 @@ list
 *
 *
 *
-brief
 Removes
 the
 given
@@ -5191,7 +5143,6 @@ node
 *
 *
 *
-brief
 Removes
 multiple
 nodes
@@ -5261,7 +5212,6 @@ last
 *
 *
 *
-brief
 Erases
 all
 elements
@@ -5710,7 +5660,6 @@ management
 *
 *
 *
-brief
 Resizes
 the
 given
@@ -5763,7 +5712,6 @@ size
 *
 *
 *
-brief
 Resizes
 the
 given
@@ -6038,7 +5986,6 @@ Information
 *
 *
 *
-brief
 Returns
 the
 current

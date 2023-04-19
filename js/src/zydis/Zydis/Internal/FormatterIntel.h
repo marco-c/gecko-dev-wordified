@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Implements
 the
 INTEL
@@ -1703,7 +1702,6 @@ INTEL
 *
 *
 *
-brief
 The
 default
 formatter
@@ -1739,6 +1737,12 @@ force_memory_seg
 *
 /
 ZYAN_FALSE
+/
+*
+force_memory_scale
+*
+/
+ZYAN_TRUE
 /
 *
 force_relative_branches
@@ -2380,7 +2384,6 @@ MASM
 *
 *
 *
-brief
 The
 default
 formatter
@@ -2416,6 +2419,12 @@ force_memory_seg
 *
 /
 ZYAN_FALSE
+/
+*
+force_memory_scale
+*
+/
+ZYAN_TRUE
 /
 *
 force_relative_branches

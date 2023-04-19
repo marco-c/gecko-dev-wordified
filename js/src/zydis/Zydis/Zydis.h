@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Master
 include
 file
@@ -969,7 +968,6 @@ Constants
 *
 *
 *
-brief
 A
 macro
 that
@@ -986,7 +984,7 @@ ZYDIS_VERSION
 (
 ZyanU64
 )
-0x0003000000000000
+0x0003000200010000
 /
 *
 -
@@ -1193,7 +1191,6 @@ macros
 *
 *
 *
-brief
 Extracts
 the
 major
@@ -1239,7 +1236,6 @@ version
 *
 *
 *
-brief
 Extracts
 the
 minor
@@ -1285,7 +1281,6 @@ version
 *
 *
 *
-brief
 Extracts
 the
 patch
@@ -1331,7 +1326,6 @@ version
 *
 *
 *
-brief
 Extracts
 the
 build
@@ -1673,7 +1667,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZydisFeature
@@ -1693,7 +1686,6 @@ ZYDIS_FEATURE_KNC
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1709,7 +1701,6 @@ ZYDIS_FEATURE_KNC
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1945,7 +1936,6 @@ addtogroup
 version
 Version
 *
-brief
 Functions
 for
 checking
@@ -1964,7 +1954,6 @@ options
 *
 *
 *
-brief
 Returns
 the
 zydis
@@ -2015,7 +2004,6 @@ void
 *
 *
 *
-brief
 Checks
 if
 the

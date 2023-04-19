@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Defines
 decoder
 /
@@ -1363,7 +1362,6 @@ mode
 *
 *
 *
-brief
 Defines
 the
 ZydisMachineMode
@@ -1379,7 +1377,6 @@ ZydisMachineMode_
 *
 *
 *
-brief
 64
 bit
 mode
@@ -1391,7 +1388,6 @@ ZYDIS_MACHINE_MODE_LONG_64
 *
 *
 *
-brief
 32
 bit
 protected
@@ -1404,7 +1400,6 @@ ZYDIS_MACHINE_MODE_LONG_COMPAT_32
 *
 *
 *
-brief
 16
 bit
 protected
@@ -1417,7 +1412,6 @@ ZYDIS_MACHINE_MODE_LONG_COMPAT_16
 *
 *
 *
-brief
 32
 bit
 protected
@@ -1430,7 +1424,6 @@ ZYDIS_MACHINE_MODE_LEGACY_32
 *
 *
 *
-brief
 16
 bit
 protected
@@ -1443,7 +1436,6 @@ ZYDIS_MACHINE_MODE_LEGACY_16
 *
 *
 *
-brief
 16
 bit
 real
@@ -1456,7 +1448,6 @@ ZYDIS_MACHINE_MODE_REAL_16
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1472,7 +1463,6 @@ ZYDIS_MACHINE_MODE_REAL_16
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1704,7 +1694,6 @@ width
 *
 *
 *
-brief
 Defines
 the
 ZydisAddressWidth
@@ -1723,7 +1712,6 @@ ZYDIS_ADDRESS_WIDTH_64
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1739,7 +1727,6 @@ ZYDIS_ADDRESS_WIDTH_64
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1971,7 +1958,6 @@ type
 *
 *
 *
-brief
 Defines
 the
 ZydisElementType
@@ -1988,7 +1974,6 @@ ZYDIS_ELEMENT_TYPE_INVALID
 *
 *
 *
-brief
 A
 struct
 type
@@ -2000,7 +1985,6 @@ ZYDIS_ELEMENT_TYPE_STRUCT
 *
 *
 *
-brief
 Unsigned
 integer
 value
@@ -2012,7 +1996,6 @@ ZYDIS_ELEMENT_TYPE_UINT
 *
 *
 *
-brief
 Signed
 integer
 value
@@ -2024,7 +2007,6 @@ ZYDIS_ELEMENT_TYPE_INT
 *
 *
 *
-brief
 16
 -
 bit
@@ -2042,7 +2024,6 @@ ZYDIS_ELEMENT_TYPE_FLOAT16
 *
 *
 *
-brief
 32
 -
 bit
@@ -2060,7 +2041,6 @@ ZYDIS_ELEMENT_TYPE_FLOAT32
 *
 *
 *
-brief
 64
 -
 bit
@@ -2078,7 +2058,6 @@ ZYDIS_ELEMENT_TYPE_FLOAT64
 *
 *
 *
-brief
 80
 -
 bit
@@ -2096,7 +2075,6 @@ ZYDIS_ELEMENT_TYPE_FLOAT80
 *
 *
 *
-brief
 Binary
 coded
 decimal
@@ -2109,7 +2087,6 @@ ZYDIS_ELEMENT_TYPE_LONGBCD
 *
 *
 *
-brief
 A
 condition
 code
@@ -2134,7 +2111,6 @@ ZYDIS_ELEMENT_TYPE_CC
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -2150,7 +2126,6 @@ ZYDIS_ELEMENT_TYPE_CC
 *
 *
 *
-brief
 The
 minimum
 number
@@ -2382,7 +2357,6 @@ size
 *
 *
 *
-brief
 Defines
 the
 ZydisElementSize
@@ -2600,7 +2574,6 @@ type
 *
 *
 *
-brief
 Defines
 the
 ZydisOperandType
@@ -2616,7 +2589,6 @@ ZydisOperandType_
 *
 *
 *
-brief
 The
 operand
 is
@@ -2630,7 +2602,6 @@ ZYDIS_OPERAND_TYPE_UNUSED
 *
 *
 *
-brief
 The
 operand
 is
@@ -2645,7 +2616,6 @@ ZYDIS_OPERAND_TYPE_REGISTER
 *
 *
 *
-brief
 The
 operand
 is
@@ -2660,7 +2630,6 @@ ZYDIS_OPERAND_TYPE_MEMORY
 *
 *
 *
-brief
 The
 operand
 is
@@ -2681,7 +2650,6 @@ ZYDIS_OPERAND_TYPE_POINTER
 *
 *
 *
-brief
 The
 operand
 is
@@ -2696,7 +2664,6 @@ ZYDIS_OPERAND_TYPE_IMMEDIATE
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -2712,7 +2679,6 @@ ZYDIS_OPERAND_TYPE_IMMEDIATE
 *
 *
 *
-brief
 The
 minimum
 number
@@ -2944,7 +2910,6 @@ encoding
 *
 *
 *
-brief
 Defines
 the
 ZydisOperandEncoding
@@ -2995,7 +2960,6 @@ ZYDIS_OPERAND_ENCODING_JIMM16_32_32
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -3011,7 +2975,6 @@ ZYDIS_OPERAND_ENCODING_JIMM16_32_32
 *
 *
 *
-brief
 The
 minimum
 number
@@ -3243,7 +3206,6 @@ visibility
 *
 *
 *
-brief
 Defines
 the
 ZydisOperandVisibility
@@ -3260,7 +3222,6 @@ ZYDIS_OPERAND_VISIBILITY_INVALID
 *
 *
 *
-brief
 The
 operand
 is
@@ -3277,7 +3238,6 @@ ZYDIS_OPERAND_VISIBILITY_EXPLICIT
 *
 *
 *
-brief
 The
 operand
 is
@@ -3298,7 +3258,6 @@ ZYDIS_OPERAND_VISIBILITY_IMPLICIT
 *
 *
 *
-brief
 The
 operand
 is
@@ -3321,7 +3280,6 @@ ZYDIS_OPERAND_VISIBILITY_HIDDEN
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -3337,7 +3295,6 @@ ZYDIS_OPERAND_VISIBILITY_HIDDEN
 *
 *
 *
-brief
 The
 minimum
 number
@@ -3569,7 +3526,6 @@ action
 *
 *
 *
-brief
 Defines
 the
 ZydisOperandAction
@@ -3779,7 +3735,6 @@ actions
 *
 *
 *
-brief
 The
 operand
 is
@@ -3797,7 +3752,6 @@ ZYDIS_OPERAND_ACTION_READ
 *
 *
 *
-brief
 The
 operand
 is
@@ -3819,7 +3773,6 @@ ZYDIS_OPERAND_ACTION_WRITE
 *
 *
 *
-brief
 The
 operand
 is
@@ -3838,7 +3791,6 @@ ZYDIS_OPERAND_ACTION_CONDREAD
 *
 *
 *
-brief
 The
 operand
 is
@@ -4055,7 +4007,6 @@ actions
 *
 *
 *
-brief
 The
 operand
 is
@@ -4085,7 +4036,6 @@ ZYDIS_OPERAND_ACTION_WRITE
 *
 *
 *
-brief
 The
 operand
 is
@@ -4099,8 +4049,8 @@ and
 conditionally
 written
 by
-the
 *
+the
 instruction
 (
 may
@@ -4118,7 +4068,6 @@ ZYDIS_OPERAND_ACTION_CONDWRITE
 *
 *
 *
-brief
 The
 operand
 is
@@ -4132,8 +4081,8 @@ conditionally
 written
 by
 the
-instruction
 *
+instruction
 (
 may
 write
@@ -4150,7 +4099,6 @@ ZYDIS_OPERAND_ACTION_CONDWRITE
 *
 *
 *
-brief
 The
 operand
 is
@@ -4164,8 +4112,8 @@ conditionally
 read
 by
 the
-instruction
 *
+instruction
 (
 may
 read
@@ -4182,7 +4130,6 @@ ZYDIS_OPERAND_ACTION_WRITE
 *
 *
 *
-brief
 Mask
 combining
 all
@@ -4201,7 +4148,6 @@ ZYDIS_OPERAND_ACTION_CONDREAD
 *
 *
 *
-brief
 Mask
 combining
 all
@@ -4314,7 +4260,6 @@ ZYDIS_OPERAND_ACTION_CONDWRITE
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4344,7 +4289,6 @@ ZydisOperandAction
 *
 *
 *
-brief
 Defines
 the
 ZydisOperandActions
@@ -4564,7 +4508,6 @@ encoding
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionEncoding
@@ -4580,7 +4523,6 @@ ZydisInstructionEncoding_
 *
 *
 *
-brief
 The
 instruction
 uses
@@ -4595,7 +4537,6 @@ ZYDIS_INSTRUCTION_ENCODING_LEGACY
 *
 *
 *
-brief
 The
 instruction
 uses
@@ -4612,7 +4553,6 @@ ZYDIS_INSTRUCTION_ENCODING_3DNOW
 *
 *
 *
-brief
 The
 instruction
 uses
@@ -4629,7 +4569,6 @@ ZYDIS_INSTRUCTION_ENCODING_XOP
 *
 *
 *
-brief
 The
 instruction
 uses
@@ -4645,7 +4584,6 @@ ZYDIS_INSTRUCTION_ENCODING_VEX
 *
 *
 *
-brief
 The
 instruction
 uses
@@ -4661,7 +4599,6 @@ ZYDIS_INSTRUCTION_ENCODING_EVEX
 *
 *
 *
-brief
 The
 instruction
 uses
@@ -4677,7 +4614,6 @@ ZYDIS_INSTRUCTION_ENCODING_MVEX
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -4693,7 +4629,6 @@ ZYDIS_INSTRUCTION_ENCODING_MVEX
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4925,7 +4860,6 @@ map
 *
 *
 *
-brief
 Defines
 the
 ZydisOpcodeMap
@@ -4941,6 +4875,18 @@ ZYDIS_OPCODE_MAP_DEFAULT
 ZYDIS_OPCODE_MAP_0F
 ZYDIS_OPCODE_MAP_0F38
 ZYDIS_OPCODE_MAP_0F3A
+ZYDIS_OPCODE_MAP_MAP4
+/
+/
+not
+used
+ZYDIS_OPCODE_MAP_MAP5
+ZYDIS_OPCODE_MAP_MAP6
+ZYDIS_OPCODE_MAP_MAP7
+/
+/
+not
+used
 ZYDIS_OPCODE_MAP_0F0F
 ZYDIS_OPCODE_MAP_XOP8
 ZYDIS_OPCODE_MAP_XOP9
@@ -4949,7 +4895,6 @@ ZYDIS_OPCODE_MAP_XOPA
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -4965,7 +4910,6 @@ ZYDIS_OPCODE_MAP_XOPA
 *
 *
 *
-brief
 The
 minimum
 number

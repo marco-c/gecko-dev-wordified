@@ -892,7 +892,6 @@ tree
 *
 *
 *
-brief
 Defines
 the
 ZydisDecoderTreeNodeType
@@ -910,7 +909,6 @@ ZydisDecoderTreeNodeType
 *
 *
 *
-brief
 Values
 that
 represent
@@ -932,7 +930,6 @@ ZYDIS_NODETYPE_INVALID
 *
 *
 *
-brief
 Reference
 to
 an
@@ -949,7 +946,6 @@ ZYDIS_NODETYPE_DEFINITION_MASK
 *
 *
 *
-brief
 Reference
 to
 an
@@ -967,7 +963,6 @@ ZYDIS_NODETYPE_FILTER_XOP
 *
 *
 *
-brief
 Reference
 to
 an
@@ -985,7 +980,6 @@ ZYDIS_NODETYPE_FILTER_VEX
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1005,7 +999,6 @@ ZYDIS_NODETYPE_FILTER_EMVEX
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1021,7 +1014,6 @@ ZYDIS_NODETYPE_FILTER_OPCODE
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1039,7 +1031,6 @@ ZYDIS_NODETYPE_FILTER_MODE
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1058,7 +1049,6 @@ ZYDIS_NODETYPE_FILTER_MODE_COMPACT
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1076,7 +1066,6 @@ ZYDIS_NODETYPE_FILTER_MODRM_MOD
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1095,7 +1084,6 @@ ZYDIS_NODETYPE_FILTER_MODRM_MOD_COMPACT
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1113,7 +1101,6 @@ ZYDIS_NODETYPE_FILTER_MODRM_REG
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1131,7 +1118,6 @@ ZYDIS_NODETYPE_FILTER_MODRM_RM
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1147,7 +1133,6 @@ ZYDIS_NODETYPE_FILTER_PREFIX_GROUP1
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1165,7 +1150,6 @@ ZYDIS_NODETYPE_FILTER_MANDATORY_PREFIX
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1183,7 +1167,6 @@ ZYDIS_NODETYPE_FILTER_OPERAND_SIZE
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1201,7 +1184,6 @@ ZYDIS_NODETYPE_FILTER_ADDRESS_SIZE
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1219,7 +1201,6 @@ ZYDIS_NODETYPE_FILTER_VECTOR_LENGTH
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1241,7 +1222,6 @@ ZYDIS_NODETYPE_FILTER_REX_W
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1263,7 +1243,6 @@ ZYDIS_NODETYPE_FILTER_REX_B
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1281,7 +1260,6 @@ ZYDIS_NODETYPE_FILTER_EVEX_B
 *
 *
 *
-brief
 Reference
 to
 an
@@ -1299,7 +1277,6 @@ ZYDIS_NODETYPE_FILTER_MVEX_E
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1317,7 +1294,6 @@ ZYDIS_NODETYPE_FILTER_MODE_AMD
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1335,7 +1311,6 @@ ZYDIS_NODETYPE_FILTER_MODE_KNC
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1353,7 +1328,6 @@ ZYDIS_NODETYPE_FILTER_MODE_MPX
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1371,7 +1345,6 @@ ZYDIS_NODETYPE_FILTER_MODE_CET
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1389,7 +1362,6 @@ ZYDIS_NODETYPE_FILTER_MODE_LZCNT
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1407,7 +1379,6 @@ ZYDIS_NODETYPE_FILTER_MODE_TZCNT
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1425,7 +1396,6 @@ ZYDIS_NODETYPE_FILTER_MODE_WBNOINVD
 *
 *
 *
-brief
 Reference
 to
 a
@@ -1543,7 +1513,6 @@ ZYDIS_NODETYPE_FILTER_MODE_CLDEMOTE
 *
 *
 *
-brief
 Defines
 the
 ZydisDecoderTreeNodeValue
@@ -1659,7 +1628,6 @@ ZydisDecoderTreeNodeValue
 *
 *
 *
-brief
 Defines
 the
 ZydisDecoderTreeNode
@@ -2003,7 +1971,6 @@ info
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionEncodingFlags
@@ -2021,7 +1988,6 @@ ZydisInstructionEncodingFlags
 *
 *
 *
-brief
 The
 instruction
 has
@@ -2040,7 +2006,6 @@ ZYDIS_INSTR_ENC_FLAG_HAS_MODRM
 *
 *
 *
-brief
 The
 instruction
 has
@@ -2059,7 +2024,6 @@ ZYDIS_INSTR_ENC_FLAG_HAS_DISP
 *
 *
 *
-brief
 The
 instruction
 has
@@ -2078,7 +2042,6 @@ ZYDIS_INSTR_ENC_FLAG_HAS_IMM0
 *
 *
 *
-brief
 The
 instruction
 has
@@ -2098,7 +2061,6 @@ ZYDIS_INSTR_ENC_FLAG_HAS_IMM1
 *
 *
 *
-brief
 The
 instruction
 ignores
@@ -2155,7 +2117,6 @@ ZYDIS_INSTR_ENC_FLAG_FORCE_REG_FORM
 *
 *
 *
-brief
 Defines
 the
 ZydisInstructionEncodingInfo
@@ -2171,7 +2132,6 @@ ZydisInstructionEncodingInfo_
 *
 *
 *
-brief
 Contains
 flags
 with
@@ -2192,7 +2152,6 @@ flags
 *
 *
 *
-brief
 Displacement
 info
 .
@@ -2204,7 +2163,6 @@ struct
 *
 *
 *
-brief
 The
 size
 of
@@ -2227,7 +2185,6 @@ disp
 *
 *
 *
-brief
 Immediate
 info
 .
@@ -2239,7 +2196,6 @@ struct
 *
 *
 *
-brief
 The
 size
 of
@@ -2259,7 +2215,6 @@ size
 *
 *
 *
-brief
 Signals
 if
 the
@@ -2276,7 +2231,6 @@ is_signed
 *
 *
 *
-brief
 Signals
 if
 the
@@ -2801,11 +2755,15 @@ tree
 -
 *
 /
+extern
+const
+ZydisDecoderTreeNode
+zydis_decoder_tree_root
+;
 /
 *
 *
 *
-brief
 Returns
 the
 root
@@ -2828,7 +2786,7 @@ tree
 .
 *
 /
-ZYDIS_NO_EXPORT
+ZYAN_INLINE
 const
 ZydisDecoderTreeNode
 *
@@ -2836,12 +2794,16 @@ ZydisDecoderTreeGetRootNode
 (
 void
 )
+{
+return
+&
+zydis_decoder_tree_root
 ;
+}
 /
 *
 *
 *
-brief
 Returns
 the
 child
@@ -2900,7 +2862,6 @@ index
 *
 *
 *
-brief
 Returns
 information
 about

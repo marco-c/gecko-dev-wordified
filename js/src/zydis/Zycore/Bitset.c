@@ -630,14 +630,10 @@ constants
 define
 ZYAN_BITSET_GROWTH_FACTOR
 2
-.
-00f
 #
 define
 ZYAN_BITSET_SHRINK_THRESHOLD
-0
-.
-50f
+2
 /
 *
 =
@@ -844,7 +840,6 @@ macros
 *
 *
 *
-brief
 Computes
 the
 smallest
@@ -922,7 +917,6 @@ x
 *
 *
 *
-brief
 Converts
 bits
 to
@@ -966,14 +960,11 @@ x
 )
 /
 8
-.
-0f
 )
 /
 *
 *
 *
-brief
 Returns
 the
 offset
@@ -1428,7 +1419,6 @@ functions
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -2343,9 +2333,9 @@ count
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 {

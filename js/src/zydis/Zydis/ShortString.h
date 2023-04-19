@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Defines
 the
 immutable
@@ -417,10 +416,10 @@ efficient
 ZydisShortString
 struct
 which
+*
 is
 used
 to
-*
 store
 strings
 in
@@ -691,7 +690,6 @@ push
 *
 *
 *
-brief
 Defines
 the
 ZydisShortString
@@ -750,7 +748,6 @@ ZydisShortString_
 *
 *
 *
-brief
 The
 buffer
 that
@@ -775,7 +772,6 @@ data
 *
 *
 *
-brief
 The
 length
 (
@@ -1012,7 +1008,6 @@ Macros
 *
 *
 *
-brief
 Declares
 a
 ZydisShortString

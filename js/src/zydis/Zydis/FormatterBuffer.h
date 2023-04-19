@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Implements
 the
 ZydisFormatterToken
@@ -907,7 +906,6 @@ ZYDIS_TOKEN_INVALID
 *
 *
 *
-brief
 A
 whitespace
 character
@@ -922,7 +920,6 @@ ZYDIS_TOKEN_WHITESPACE
 *
 *
 *
-brief
 A
 delimiter
 character
@@ -954,7 +951,6 @@ ZYDIS_TOKEN_DELIMITER
 *
 *
 *
-brief
 An
 opening
 parenthesis
@@ -982,7 +978,6 @@ ZYDIS_TOKEN_PARENTHESIS_OPEN
 *
 *
 *
-brief
 A
 closing
 parenthesis
@@ -1010,7 +1005,6 @@ ZYDIS_TOKEN_PARENTHESIS_CLOSE
 *
 *
 *
-brief
 A
 prefix
 literal
@@ -1034,7 +1028,6 @@ ZYDIS_TOKEN_PREFIX
 *
 *
 *
-brief
 A
 mnemonic
 literal
@@ -1061,7 +1054,6 @@ ZYDIS_TOKEN_MNEMONIC
 *
 *
 *
-brief
 A
 register
 literal
@@ -1089,7 +1081,6 @@ ZYDIS_TOKEN_REGISTER
 *
 *
 *
-brief
 An
 absolute
 address
@@ -1109,7 +1100,6 @@ ZYDIS_TOKEN_ADDRESS_ABS
 *
 *
 *
-brief
 A
 relative
 address
@@ -1130,7 +1120,6 @@ ZYDIS_TOKEN_ADDRESS_REL
 *
 *
 *
-brief
 A
 displacement
 literal
@@ -1153,7 +1142,6 @@ ZYDIS_TOKEN_DISPLACEMENT
 *
 *
 *
-brief
 An
 immediate
 literal
@@ -1175,7 +1163,6 @@ ZYDIS_TOKEN_IMMEDIATE
 *
 *
 *
-brief
 A
 typecast
 literal
@@ -1195,7 +1182,6 @@ ZYDIS_TOKEN_TYPECAST
 *
 *
 *
-brief
 A
 decorator
 literal
@@ -1219,7 +1205,6 @@ ZYDIS_TOKEN_DECORATOR
 *
 *
 *
-brief
 A
 symbol
 literal
@@ -1234,7 +1219,6 @@ ZYDIS_TOKEN_SYMBOL
 *
 *
 *
-brief
 The
 base
 for
@@ -1763,7 +1747,6 @@ push
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterToken
@@ -1803,7 +1786,6 @@ ZydisFormatterToken_
 *
 *
 *
-brief
 The
 token
 type
@@ -1817,7 +1799,6 @@ type
 *
 *
 *
-brief
 An
 offset
 to
@@ -1845,7 +1826,6 @@ pop
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterTokenConst
@@ -2065,7 +2045,6 @@ Buffer
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterBuffer
@@ -2089,10 +2068,10 @@ private
 Any
 changes
 may
+*
 lead
 to
 unexpected
-*
 behavior
 .
 *
@@ -2105,7 +2084,6 @@ ZydisFormatterBuffer_
 *
 *
 *
-brief
 ZYAN_TRUE
 if
 the
@@ -2118,8 +2096,8 @@ or
 ZYAN_FALSE
 if
 it
-contains
 *
+contains
 a
 simple
 string
@@ -2133,7 +2111,6 @@ is_token_list
 *
 *
 *
-brief
 The
 remaining
 capacity
@@ -2150,7 +2127,6 @@ capacity
 *
 *
 *
-brief
 The
 ZyanString
 instance
@@ -2163,8 +2139,8 @@ value
 of
 the
 most
-recently
 *
+recently
 added
 token
 .
@@ -2681,7 +2657,6 @@ Token
 *
 *
 *
-brief
 Returns
 the
 type
@@ -2757,7 +2732,6 @@ value
 *
 *
 *
-brief
 Obtains
 the
 next
@@ -2780,10 +2754,10 @@ the
 next
 ZydisFormatterToken
 struct
+*
 linked
 to
 the
-*
 passed
 one
 .
@@ -3012,7 +2986,6 @@ Buffer
 *
 *
 *
-brief
 Returns
 the
 current
@@ -3091,7 +3064,6 @@ token
 *
 *
 *
-brief
 Returns
 the
 ZyanString
@@ -3206,7 +3178,6 @@ string
 *
 *
 *
-brief
 Appends
 a
 new
@@ -3281,7 +3252,6 @@ type
 *
 *
 *
-brief
 Returns
 a
 snapshot
@@ -3370,7 +3340,6 @@ state
 *
 *
 *
-brief
 Restores
 a
 previously

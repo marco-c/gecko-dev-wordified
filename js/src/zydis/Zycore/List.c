@@ -630,7 +630,6 @@ macros
 *
 *
 *
-brief
 Returns
 a
 pointer
@@ -1094,7 +1093,6 @@ functions
 *
 *
 *
-brief
 Allocates
 memory
 for
@@ -1334,7 +1332,6 @@ ZYAN_STATUS_SUCCESS
 *
 *
 *
-brief
 Frees
 memory
 of

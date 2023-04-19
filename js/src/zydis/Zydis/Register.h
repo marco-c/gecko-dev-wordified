@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Utility
 functions
 and
@@ -1099,7 +1098,6 @@ classes
 *
 *
 *
-brief
 Defines
 the
 ZydisRegisterClass
@@ -1190,7 +1188,6 @@ ZYDIS_REGCLASS_INVALID
 *
 *
 *
-brief
 8
 -
 bit
@@ -1206,7 +1203,6 @@ ZYDIS_REGCLASS_GPR8
 *
 *
 *
-brief
 16
 -
 bit
@@ -1222,7 +1218,6 @@ ZYDIS_REGCLASS_GPR16
 *
 *
 *
-brief
 32
 -
 bit
@@ -1238,7 +1233,6 @@ ZYDIS_REGCLASS_GPR32
 *
 *
 *
-brief
 64
 -
 bit
@@ -1254,7 +1248,6 @@ ZYDIS_REGCLASS_GPR64
 *
 *
 *
-brief
 Floating
 point
 legacy
@@ -1267,7 +1260,6 @@ ZYDIS_REGCLASS_X87
 *
 *
 *
-brief
 Floating
 point
 multimedia
@@ -1280,7 +1272,6 @@ ZYDIS_REGCLASS_MMX
 *
 *
 *
-brief
 128
 -
 bit
@@ -1294,7 +1285,6 @@ ZYDIS_REGCLASS_XMM
 *
 *
 *
-brief
 256
 -
 bit
@@ -1308,7 +1298,6 @@ ZYDIS_REGCLASS_YMM
 *
 *
 *
-brief
 512
 -
 bit
@@ -1322,7 +1311,15 @@ ZYDIS_REGCLASS_ZMM
 *
 *
 *
-brief
+Matrix
+registers
+.
+*
+/
+ZYDIS_REGCLASS_TMM
+/
+*
+*
 Flags
 registers
 .
@@ -1333,7 +1330,6 @@ ZYDIS_REGCLASS_FLAGS
 *
 *
 *
-brief
 Instruction
 -
 pointer
@@ -1346,7 +1342,6 @@ ZYDIS_REGCLASS_IP
 *
 *
 *
-brief
 Segment
 registers
 .
@@ -1357,7 +1352,6 @@ ZYDIS_REGCLASS_SEGMENT
 *
 *
 *
-brief
 Test
 registers
 .
@@ -1368,7 +1362,6 @@ ZYDIS_REGCLASS_TEST
 *
 *
 *
-brief
 Control
 registers
 .
@@ -1379,7 +1372,6 @@ ZYDIS_REGCLASS_CONTROL
 *
 *
 *
-brief
 Debug
 registers
 .
@@ -1390,7 +1382,6 @@ ZYDIS_REGCLASS_DEBUG
 *
 *
 *
-brief
 Mask
 registers
 .
@@ -1401,7 +1392,6 @@ ZYDIS_REGCLASS_MASK
 *
 *
 *
-brief
 Bound
 registers
 .
@@ -1412,7 +1402,6 @@ ZYDIS_REGCLASS_BOUND
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1428,7 +1417,6 @@ ZYDIS_REGCLASS_BOUND
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1660,7 +1648,6 @@ width
 *
 *
 *
-brief
 Defines
 the
 ZydisRegisterWidth
@@ -1880,7 +1867,6 @@ context
 *
 *
 *
-brief
 Defines
 the
 ZydisRegisterContext
@@ -1896,7 +1882,6 @@ ZydisRegisterContext_
 *
 *
 *
-brief
 The
 values
 stored
@@ -2226,7 +2211,6 @@ addtogroup
 register
 Register
 *
-brief
 Functions
 allowing
 retrieval
@@ -2444,7 +2428,6 @@ Register
 *
 *
 *
-brief
 Returns
 the
 register
@@ -2509,7 +2492,6 @@ id
 *
 *
 *
-brief
 Returns
 the
 id
@@ -2558,7 +2540,6 @@ reg
 *
 *
 *
-brief
 Returns
 the
 register
@@ -2602,7 +2583,6 @@ reg
 *
 *
 *
-brief
 Returns
 the
 width
@@ -2666,7 +2646,6 @@ reg
 *
 *
 *
-brief
 Returns
 the
 largest
@@ -2742,7 +2721,6 @@ reg
 *
 *
 *
-brief
 Returns
 the
 specified
@@ -2787,7 +2765,6 @@ reg
 *
 *
 *
-brief
 Returns
 the
 specified
@@ -3056,7 +3033,6 @@ class
 *
 *
 *
-brief
 Returns
 the
 width

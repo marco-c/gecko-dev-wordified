@@ -410,7 +410,6 @@ SOFTWARE
 *
 file
 *
-brief
 Provides
 a
 simple
@@ -1084,7 +1083,6 @@ h
 *
 *
 *
-brief
 Defines
 the
 ZyanVAList
@@ -1374,7 +1372,6 @@ vsnprintf
 *
 *
 *
-brief
 Defines
 the
 ZyanFile
@@ -2520,7 +2517,6 @@ ZYAN_ICC
 *
 *
 *
-brief
 Defines
 the
 ZyanVAList
@@ -2571,7 +2567,6 @@ ZYAN_GNUC
 *
 *
 *
-brief
 Defines
 the
 ZyanVAList

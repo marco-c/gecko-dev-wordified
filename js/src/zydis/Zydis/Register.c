@@ -834,7 +834,6 @@ mapping
 *
 *
 *
-brief
 Defines
 the
 ZydisRegisterMapItem
@@ -850,7 +849,6 @@ ZydisRegisterMapItem_
 *
 *
 *
-brief
 The
 register
 class
@@ -864,7 +862,6 @@ class
 *
 *
 *
-brief
 The
 lowest
 register
@@ -882,7 +879,6 @@ lo
 *
 *
 *
-brief
 The
 highest
 register
@@ -900,7 +896,6 @@ hi
 *
 *
 *
-brief
 The
 width
 of
@@ -927,7 +922,6 @@ width
 *
 *
 *
-brief
 The
 width
 of
@@ -954,7 +948,6 @@ ZydisRegisterMapItem
 *
 *
 *
-brief
 Provides
 register
 to
@@ -1050,6 +1043,13 @@ ZYDIS_REGISTER_ZMM0
 ZYDIS_REGISTER_ZMM31
 512
 512
+}
+{
+ZYDIS_REGCLASS_TMM
+ZYDIS_REGISTER_TMM0
+ZYDIS_REGISTER_TMM7
+8192
+8192
 }
 {
 ZYDIS_REGCLASS_FLAGS

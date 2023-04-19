@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Implements
 the
 bitset
@@ -422,15 +421,6 @@ ZYCORE_BITSET_H
 #
 define
 ZYCORE_BITSET_H
-#
-include
-"
-zydis
-/
-ZycoreExportConfig
-.
-h
-"
 #
 include
 "
@@ -692,7 +682,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZyanVector
@@ -732,7 +721,6 @@ ZyanBitset_
 *
 *
 *
-brief
 The
 bitset
 size
@@ -746,7 +734,6 @@ size
 *
 *
 *
-brief
 The
 bitset
 data
@@ -763,7 +750,6 @@ ZyanBitset
 *
 *
 *
-brief
 Defines
 the
 ZyanBitsetByteOperation
@@ -1258,7 +1244,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -1313,19 +1298,11 @@ default
 *
 growth
 factor
-of
-2
-.
-0f
 and
 the
 default
 shrink
 threshold
-of
-0
-.
-5f
 .
 *
 /
@@ -1350,7 +1327,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -1405,16 +1381,6 @@ growth_factor
 The
 growth
 factor
-(
-from
-1
-.
-0f
-to
-x
-.
-xf
-)
 .
 *
 param
@@ -1422,16 +1388,6 @@ shrink_threshold
 The
 shrink
 threshold
-(
-from
-0
-.
-0f
-to
-1
-.
-0f
-)
 .
 *
 *
@@ -1448,8 +1404,6 @@ growth
 factor
 of
 1
-.
-0f
 disables
 overallocation
 and
@@ -1458,8 +1412,6 @@ shrink
 threshold
 of
 0
-.
-0f
 disables
 *
 dynamic
@@ -1479,9 +1431,9 @@ count
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 ;
@@ -1489,7 +1441,6 @@ shrink_threshold
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -1593,7 +1544,6 @@ capacity
 *
 *
 *
-brief
 Destroys
 the
 given
@@ -1836,7 +1786,6 @@ operations
 *
 *
 *
-brief
 Performs
 a
 byte
@@ -1955,7 +1904,6 @@ operation
 *
 *
 *
-brief
 Performs
 a
 logical
@@ -2058,7 +2006,6 @@ source
 *
 *
 *
-brief
 Performs
 a
 logical
@@ -2161,7 +2108,6 @@ source
 *
 *
 *
-brief
 Performs
 a
 logical
@@ -2264,7 +2210,6 @@ source
 *
 *
 *
-brief
 Flips
 all
 bits
@@ -2510,7 +2455,6 @@ access
 *
 *
 *
-brief
 Sets
 the
 bit
@@ -2567,7 +2511,6 @@ index
 *
 *
 *
-brief
 Sets
 the
 bit
@@ -2624,7 +2567,6 @@ index
 *
 *
 *
-brief
 Sets
 the
 bit
@@ -2692,7 +2634,6 @@ value
 *
 *
 *
-brief
 Toggles
 the
 bit
@@ -2747,7 +2688,6 @@ index
 *
 *
 *
-brief
 Returns
 the
 value
@@ -2796,7 +2736,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -2815,7 +2755,6 @@ index
 *
 *
 *
-brief
 Returns
 the
 value
@@ -2858,7 +2797,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -2875,7 +2814,6 @@ bitset
 *
 *
 *
-brief
 Returns
 the
 value
@@ -2918,7 +2856,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -3033,7 +2971,6 @@ bitset
 *
 *
 *
-brief
 Sets
 all
 bits
@@ -3079,7 +3016,6 @@ bitset
 *
 *
 *
-brief
 Sets
 all
 bits
@@ -3327,7 +3263,6 @@ management
 *
 *
 *
-brief
 Adds
 a
 new
@@ -3385,7 +3320,6 @@ value
 *
 *
 *
-brief
 Removes
 the
 last
@@ -3428,7 +3362,6 @@ bitset
 *
 *
 *
-brief
 Deletes
 all
 bits
@@ -3674,7 +3607,6 @@ management
 *
 *
 *
-brief
 Changes
 the
 capacity
@@ -3732,7 +3664,6 @@ count
 *
 *
 *
-brief
 Shrinks
 the
 capacity
@@ -3982,7 +3913,6 @@ Information
 *
 *
 *
-brief
 Returns
 the
 current
@@ -4043,7 +3973,6 @@ size
 *
 *
 *
-brief
 Returns
 the
 current
@@ -4104,7 +4033,6 @@ capacity
 *
 *
 *
-brief
 Returns
 the
 current
@@ -4165,7 +4093,6 @@ size
 *
 *
 *
-brief
 Returns
 the
 current
@@ -4324,7 +4251,6 @@ capacity
 *
 *
 *
-brief
 Returns
 the
 amount
@@ -4388,7 +4314,6 @@ count
 *
 *
 *
-brief
 Checks
 if
 all
@@ -4432,7 +4357,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -4450,7 +4375,6 @@ bitset
 *
 *
 *
-brief
 Checks
 if
 at
@@ -4498,7 +4422,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -4516,7 +4440,6 @@ bitset
 *
 *
 *
-brief
 Checks
 if
 none
@@ -4560,7 +4483,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -4684,7 +4607,6 @@ bitset
 /
 /
 *
-brief
 Returns
 a
 32
@@ -4770,7 +4692,6 @@ value
 /
 /
 *
-brief
 Returns
 a
 64

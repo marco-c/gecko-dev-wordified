@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Implements
 command
 -
@@ -686,7 +685,6 @@ types
 *
 *
 *
-brief
 Definition
 of
 a
@@ -703,7 +701,6 @@ ZyanArgParseDefinition_
 *
 *
 *
-brief
 The
 argument
 name
@@ -765,7 +762,6 @@ name
 *
 *
 *
-brief
 Whether
 the
 argument
@@ -785,7 +781,6 @@ boolean
 *
 *
 *
-brief
 Whether
 this
 argument
@@ -809,7 +804,6 @@ ZyanArgParseDefinition
 *
 *
 *
-brief
 Configuration
 for
 argument
@@ -825,7 +819,6 @@ ZyanArgParseConfig_
 *
 *
 *
-brief
 argv
 argument
 passed
@@ -846,7 +839,6 @@ argv
 *
 *
 *
-brief
 argc
 argument
 passed
@@ -864,7 +856,6 @@ argc
 *
 *
 *
-brief
 Minimum
 #
 of
@@ -883,7 +874,6 @@ min_unnamed_args
 *
 *
 *
-brief
 Maximum
 #
 of
@@ -902,7 +892,6 @@ max_unnamed_args
 *
 *
 *
-brief
 Argument
 definition
 array
@@ -968,7 +957,6 @@ ZyanArgParseConfig
 *
 *
 *
-brief
 Information
 about
 a
@@ -985,7 +973,6 @@ ZyanArgParseArg_
 *
 *
 *
-brief
 Corresponding
 argument
 definition
@@ -1020,7 +1007,6 @@ def
 *
 *
 *
-brief
 Whether
 the
 argument
@@ -1043,7 +1029,6 @@ has_value
 *
 *
 *
-brief
 If
 has_value
 =
@@ -1290,7 +1275,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Parse
 arguments
 according
@@ -1425,7 +1409,6 @@ endif
 *
 *
 *
-brief
 Parse
 arguments
 according

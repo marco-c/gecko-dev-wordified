@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Provides
 formatter
 functions
@@ -868,7 +867,6 @@ String
 *
 *
 *
-brief
 Appends
 an
 unsigned
@@ -1052,7 +1050,6 @@ ZYAN_STATUS_INVALID_ARGUMENT
 *
 *
 *
-brief
 Appends
 a
 signed
@@ -1455,7 +1452,6 @@ Buffer
 *
 *
 *
-brief
 Invokes
 the
 ZydisFormatterBufferAppend
@@ -1547,7 +1543,6 @@ type
 *
 *
 *
-brief
 Returns
 a
 snapshot
@@ -1671,7 +1666,6 @@ size
 *
 *
 *
-brief
 Appends
 a
 string
@@ -1694,7 +1688,7 @@ prefix
 .
 *
 *
-brief
+param
 buffer
 A
 pointer
@@ -1704,7 +1698,7 @@ ZydisFormatterBuffer
 struct
 .
 *
-brief
+param
 name
 The
 base
@@ -1792,7 +1786,6 @@ tokens
 *
 *
 *
-brief
 Appends
 a
 string
@@ -1815,7 +1808,7 @@ prefix
 .
 *
 *
-brief
+param
 buffer
 A
 pointer
@@ -1825,7 +1818,7 @@ ZydisFormatterBuffer
 struct
 .
 *
-brief
+param
 name
 The
 base
@@ -1842,7 +1835,7 @@ or
 token
 .
 *
-brief
+param
 letter
 -
 case
@@ -2491,7 +2484,6 @@ endif
 *
 *
 *
-brief
 Appends
 a
 predefined
@@ -2975,7 +2967,6 @@ General
 *
 *
 *
-brief
 Returns
 the
 size

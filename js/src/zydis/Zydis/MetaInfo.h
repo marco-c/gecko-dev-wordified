@@ -904,7 +904,6 @@ functions
 *
 *
 *
-brief
 Returns
 the
 specified
@@ -952,7 +951,6 @@ category
 *
 *
 *
-brief
 Returns
 the
 specified
@@ -1005,7 +1003,6 @@ isa_set
 *
 *
 *
-brief
 Returns
 the
 specified

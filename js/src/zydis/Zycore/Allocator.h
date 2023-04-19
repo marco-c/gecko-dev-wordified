@@ -422,15 +422,6 @@ include
 "
 zydis
 /
-ZycoreExportConfig
-.
-h
-"
-#
-include
-"
-zydis
-/
 Zycore
 /
 Status
@@ -668,7 +659,6 @@ ZyanAllocator_
 *
 *
 *
-brief
 Defines
 the
 ZyanAllocatorAllocate
@@ -819,7 +809,6 @@ n
 *
 *
 *
-brief
 Defines
 the
 ZyanAllocatorDeallocate
@@ -914,7 +903,6 @@ n
 *
 *
 *
-brief
 Defines
 the
 ZyanAllocator
@@ -967,7 +955,6 @@ ZyanAllocator_
 *
 *
 *
-brief
 The
 allocate
 function
@@ -981,7 +968,6 @@ allocate
 *
 *
 *
-brief
 The
 reallocate
 function
@@ -995,7 +981,6 @@ reallocate
 *
 *
 *
-brief
 The
 deallocate
 function
@@ -1214,7 +1199,6 @@ functions
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -1285,7 +1269,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Returns
 the
 default

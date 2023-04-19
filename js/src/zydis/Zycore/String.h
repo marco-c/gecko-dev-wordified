@@ -408,7 +408,6 @@ SOFTWARE
 *
 file
 *
-brief
 Implements
 a
 string
@@ -422,15 +421,6 @@ ZYCORE_STRING_H
 #
 define
 ZYCORE_STRING_H
-#
-include
-"
-zydis
-/
-ZycoreExportConfig
-.
-h
-"
 #
 include
 "
@@ -690,7 +680,6 @@ Constants
 *
 *
 *
-brief
 The
 initial
 minimum
@@ -729,7 +718,6 @@ ZYAN_STRING_MIN_CAPACITY
 *
 *
 *
-brief
 The
 default
 growth
@@ -745,13 +733,10 @@ instances
 define
 ZYAN_STRING_DEFAULT_GROWTH_FACTOR
 2
-.
-00f
 /
 *
 *
 *
-brief
 The
 default
 shrink
@@ -766,9 +751,7 @@ instances
 #
 define
 ZYAN_STRING_DEFAULT_SHRINK_THRESHOLD
-0
-.
-25f
+4
 /
 *
 =
@@ -1178,11 +1161,12 @@ flags
 *
 *
 *
-brief
 Defines
 the
 ZyanStringFlags
-datatype
+data
+-
+type
 .
 *
 /
@@ -1194,7 +1178,6 @@ ZyanStringFlags
 *
 *
 *
-brief
 The
 string
 uses
@@ -1428,7 +1411,6 @@ String
 *
 *
 *
-brief
 Defines
 the
 ZyanString
@@ -1525,7 +1507,6 @@ ZyanString_
 *
 *
 *
-brief
 String
 flags
 .
@@ -1538,7 +1519,6 @@ flags
 *
 *
 *
-brief
 The
 vector
 that
@@ -1760,7 +1740,6 @@ View
 *
 *
 *
-brief
 Defines
 the
 ZyanStringView
@@ -1932,7 +1911,6 @@ ZyanStringView_
 *
 *
 *
-brief
 The
 string
 data
@@ -2470,7 +2448,6 @@ General
 *
 *
 *
-brief
 Defines
 an
 uninitialized
@@ -2706,7 +2683,6 @@ macros
 *
 *
 *
-brief
 Casts
 a
 ZyanString
@@ -2737,7 +2713,6 @@ string
 *
 *
 *
-brief
 Defines
 a
 ZyanStringView
@@ -2811,8 +2786,6 @@ growth_factor
 *
 /
 1
-.
-0f
 \
 /
 *
@@ -2820,8 +2793,6 @@ shrink_threshold
 *
 /
 0
-.
-0f
 \
 /
 *
@@ -3388,7 +3359,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -3446,19 +3416,11 @@ default
 *
 growth
 factor
-of
-2
-.
-0f
 and
 the
 default
 shrink
 threshold
-of
-0
-.
-25f
 .
 *
 *
@@ -3526,7 +3488,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -3584,16 +3545,6 @@ growth_factor
 The
 growth
 factor
-(
-from
-1
-.
-0f
-to
-x
-.
-xf
-)
 .
 *
 param
@@ -3601,16 +3552,6 @@ shrink_threshold
 The
 shrink
 threshold
-(
-from
-0
-.
-0f
-to
-1
-.
-0f
-)
 .
 *
 *
@@ -3627,8 +3568,6 @@ growth
 factor
 of
 1
-.
-0f
 disables
 overallocation
 and
@@ -3637,8 +3576,6 @@ shrink
 threshold
 of
 0
-.
-0f
 disables
 *
 dynamic
@@ -3701,9 +3638,9 @@ capacity
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 ;
@@ -3711,7 +3648,6 @@ shrink_threshold
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -3825,7 +3761,6 @@ capacity
 *
 *
 *
-brief
 Destroys
 the
 given
@@ -4071,7 +4006,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -4199,19 +4133,11 @@ default
 *
 growth
 factor
-of
-2
-.
-0f
 and
 the
 default
 shrink
 threshold
-of
-0
-.
-25f
 .
 *
 *
@@ -4283,7 +4209,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -4381,16 +4306,6 @@ growth_factor
 The
 growth
 factor
-(
-from
-1
-.
-0f
-to
-x
-.
-xf
-)
 .
 *
 param
@@ -4398,16 +4313,6 @@ shrink_threshold
 The
 shrink
 threshold
-(
-from
-0
-.
-0f
-to
-1
-.
-0f
-)
 .
 *
 *
@@ -4453,8 +4358,6 @@ growth
 factor
 of
 1
-.
-0f
 disables
 overallocation
 and
@@ -4463,8 +4366,6 @@ shrink
 threshold
 of
 0
-.
-0f
 disables
 *
 dynamic
@@ -4531,9 +4432,9 @@ capacity
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 ;
@@ -4541,7 +4442,6 @@ shrink_threshold
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -4935,7 +4835,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -5095,19 +4994,11 @@ default
 *
 growth
 factor
-of
-2
-.
-0f
 and
 the
 default
 shrink
 threshold
-of
-0
-.
-25f
 .
 *
 *
@@ -5183,7 +5074,6 @@ ZYAN_NO_LIBC
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -5314,16 +5204,6 @@ growth_factor
 The
 growth
 factor
-(
-from
-1
-.
-0f
-to
-x
-.
-xf
-)
 .
 *
 param
@@ -5331,16 +5211,6 @@ shrink_threshold
 The
 shrink
 threshold
-(
-from
-0
-.
-0f
-to
-1
-.
-0f
-)
 .
 *
 *
@@ -5387,8 +5257,6 @@ growth
 factor
 of
 1
-.
-0f
 disables
 overallocation
 and
@@ -5397,8 +5265,6 @@ shrink
 threshold
 of
 0
-.
-0f
 disables
 *
 dynamic
@@ -5469,9 +5335,9 @@ capacity
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 ;
@@ -5479,7 +5345,6 @@ shrink_threshold
 *
 *
 *
-brief
 Initializes
 a
 new
@@ -5900,7 +5765,6 @@ Views
 *
 *
 *
-brief
 Returns
 a
 view
@@ -5980,7 +5844,6 @@ source
 *
 *
 *
-brief
 Returns
 a
 view
@@ -6084,7 +5947,6 @@ count
 *
 *
 *
-brief
 Returns
 a
 view
@@ -6145,7 +6007,6 @@ string
 *
 *
 *
-brief
 Returns
 a
 view
@@ -6224,7 +6085,6 @@ length
 *
 *
 *
-brief
 Returns
 the
 size
@@ -6290,7 +6150,6 @@ size
 *
 *
 *
-brief
 Returns
 the
 C
@@ -6319,7 +6178,7 @@ terminated
 *
 *
 param
-string
+view
 A
 pointer
 to
@@ -6329,7 +6188,7 @@ instance
 .
 *
 param
-value
+buffer
 Receives
 a
 pointer
@@ -6571,7 +6430,6 @@ access
 *
 *
 *
-brief
 Returns
 the
 character
@@ -6638,7 +6496,6 @@ value
 *
 *
 *
-brief
 Returns
 a
 pointer
@@ -6711,7 +6568,6 @@ value
 *
 *
 *
-brief
 Assigns
 a
 new
@@ -6978,7 +6834,6 @@ Insertion
 *
 *
 *
-brief
 Inserts
 the
 content
@@ -7046,7 +6901,6 @@ source
 *
 *
 *
-brief
 Inserts
 count
 characters
@@ -7352,7 +7206,6 @@ Appending
 *
 *
 *
-brief
 Appends
 the
 content
@@ -7410,7 +7263,6 @@ source
 *
 *
 *
-brief
 Appends
 count
 characters
@@ -7704,7 +7556,6 @@ Deletion
 *
 *
 *
-brief
 Deletes
 characters
 from
@@ -7775,7 +7626,6 @@ count
 *
 *
 *
-brief
 Deletes
 all
 remaining
@@ -7836,7 +7686,6 @@ index
 *
 *
 *
-brief
 Erases
 the
 given
@@ -8077,7 +7926,6 @@ Searching
 *
 *
 *
-brief
 Searches
 for
 the
@@ -8198,7 +8046,6 @@ found_index
 *
 *
 *
-brief
 Searches
 for
 the
@@ -8347,7 +8194,6 @@ count
 *
 *
 *
-brief
 Performs
 a
 case
@@ -8473,7 +8319,6 @@ found_index
 *
 *
 *
-brief
 Performs
 a
 case
@@ -8582,7 +8427,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -8627,7 +8472,6 @@ count
 *
 *
 *
-brief
 Searches
 for
 the
@@ -8707,7 +8551,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -8748,7 +8592,6 @@ found_index
 *
 *
 *
-brief
 Searches
 for
 the
@@ -8852,7 +8695,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -8897,7 +8740,6 @@ count
 *
 *
 *
-brief
 Performs
 a
 case
@@ -8982,7 +8824,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -9023,7 +8865,6 @@ found_index
 *
 *
 *
-brief
 Performs
 a
 case
@@ -9132,7 +8973,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 *
@@ -9378,7 +9219,6 @@ Comparing
 *
 *
 *
-brief
 Compares
 two
 strings
@@ -9496,7 +9336,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -9521,7 +9361,6 @@ result
 *
 *
 *
-brief
 Performs
 a
 case
@@ -9645,7 +9484,7 @@ code
 if
 an
 error
-occured
+occurred
 .
 *
 /
@@ -9872,7 +9711,6 @@ conversion
 *
 *
 *
-brief
 Converts
 the
 given
@@ -9934,7 +9772,6 @@ string
 *
 *
 *
-brief
 Converts
 count
 characters
@@ -10025,7 +9862,6 @@ count
 *
 *
 *
-brief
 Converts
 the
 given
@@ -10087,7 +9923,6 @@ string
 *
 *
 *
-brief
 Converts
 count
 characters
@@ -10380,7 +10215,6 @@ management
 *
 *
 *
-brief
 Resizes
 the
 given
@@ -10452,7 +10286,6 @@ size
 *
 *
 *
-brief
 Changes
 the
 capacity
@@ -10528,7 +10361,6 @@ capacity
 *
 *
 *
-brief
 Shrinks
 the
 capacity
@@ -10797,7 +10629,6 @@ Information
 *
 *
 *
-brief
 Returns
 the
 current
@@ -10854,7 +10685,6 @@ capacity
 *
 *
 *
-brief
 Returns
 the
 current
@@ -10929,7 +10759,6 @@ size
 *
 *
 *
-brief
 Returns
 the
 C

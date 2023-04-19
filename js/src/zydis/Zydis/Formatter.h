@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Functions
 for
 formatting
@@ -695,7 +694,6 @@ Constants
 *
 *
 *
-brief
 Use
 this
 constant
@@ -705,14 +703,15 @@ for
 runtime_address
 in
 ZydisFormatterFormatInstruction
-/
+(
+Ex
+)
 *
-ZydisFormatterFormatInstructionEx
 or
 ZydisFormatterFormatOperand
-/
-*
-ZydisFormatterFormatOperandEx
+(
+Ex
+)
 to
 print
 relative
@@ -1142,7 +1141,6 @@ style
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterStyle
@@ -1158,7 +1156,6 @@ ZydisFormatterStyle_
 *
 *
 *
-brief
 Generates
 AT
 &
@@ -1174,7 +1171,6 @@ ZYDIS_FORMATTER_STYLE_ATT
 *
 *
 *
-brief
 Generates
 Intel
 -
@@ -1188,7 +1184,6 @@ ZYDIS_FORMATTER_STYLE_INTEL
 *
 *
 *
-brief
 Generates
 MASM
 -
@@ -1201,8 +1196,8 @@ accepted
 as
 input
 for
-the
 *
+the
 MASM
 assembler
 .
@@ -1225,7 +1220,6 @@ ZYDIS_FORMATTER_STYLE_INTEL_MASM
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1241,7 +1235,6 @@ ZYDIS_FORMATTER_STYLE_INTEL_MASM
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1472,7 +1465,6 @@ Properties
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterProperty
@@ -1677,7 +1669,6 @@ General
 *
 *
 *
-brief
 Controls
 the
 printing
@@ -1736,7 +1727,6 @@ ZYDIS_FORMATTER_PROP_FORCE_SIZE
 *
 *
 *
-brief
 Controls
 the
 printing
@@ -1782,7 +1772,60 @@ ZYDIS_FORMATTER_PROP_FORCE_SEGMENT
 *
 *
 *
-brief
+Controls
+the
+printing
+of
+the
+scale
+-
+factor
+component
+for
+memory
+operands
+.
+*
+*
+Pass
+ZYAN_TRUE
+as
+value
+to
+force
+the
+formatter
+to
+always
+print
+the
+scale
+-
+factor
+component
+*
+of
+memory
+operands
+or
+ZYAN_FALSE
+to
+omit
+the
+scale
+factor
+for
+values
+of
+1
+.
+*
+/
+ZYDIS_FORMATTER_PROP_FORCE_SCALE_ONE
+/
+*
+*
+*
 Controls
 the
 printing
@@ -1832,7 +1875,6 @@ ZYDIS_FORMATTER_PROP_FORCE_RELATIVE_BRANCHES
 *
 *
 *
-brief
 Controls
 the
 printing
@@ -1892,7 +1934,6 @@ ZYDIS_FORMATTER_PROP_FORCE_RELATIVE_RIPREL
 *
 *
 *
-brief
 Controls
 the
 printing
@@ -1946,7 +1987,6 @@ ZYDIS_FORMATTER_PROP_PRINT_BRANCH_SIZE
 *
 *
 *
-brief
 Controls
 the
 printing
@@ -2185,7 +2225,6 @@ values
 *
 *
 *
-brief
 Controls
 the
 base
@@ -2200,7 +2239,6 @@ ZYDIS_FORMATTER_PROP_ADDR_BASE
 *
 *
 *
-brief
 Controls
 the
 signedness
@@ -2211,8 +2249,8 @@ addresses
 Absolute
 addresses
 are
-always
 *
+always
 unsigned
 .
 *
@@ -2222,7 +2260,6 @@ ZYDIS_FORMATTER_PROP_ADDR_SIGNEDNESS
 *
 *
 *
-brief
 Controls
 the
 padding
@@ -2270,7 +2307,6 @@ ZYDIS_FORMATTER_PROP_ADDR_PADDING_ABSOLUTE
 *
 *
 *
-brief
 Controls
 the
 padding
@@ -2410,7 +2446,6 @@ ZYDIS_FORMATTER_PROP_ADDR_PADDING_RELATIVE
 *
 *
 *
-brief
 Controls
 the
 base
@@ -2425,7 +2460,6 @@ ZYDIS_FORMATTER_PROP_DISP_BASE
 *
 *
 *
-brief
 Controls
 the
 signedness
@@ -2440,7 +2474,6 @@ ZYDIS_FORMATTER_PROP_DISP_SIGNEDNESS
 *
 *
 *
-brief
 Controls
 the
 padding
@@ -2564,7 +2597,6 @@ ZYDIS_FORMATTER_PROP_DISP_PADDING
 *
 *
 *
-brief
 Controls
 the
 base
@@ -2579,7 +2611,6 @@ ZYDIS_FORMATTER_PROP_IMM_BASE
 *
 *
 *
-brief
 Controls
 the
 signedness
@@ -2617,7 +2648,6 @@ ZYDIS_FORMATTER_PROP_IMM_SIGNEDNESS
 *
 *
 *
-brief
 Controls
 the
 padding
@@ -2854,7 +2884,6 @@ formatting
 *
 *
 *
-brief
 Controls
 the
 letter
@@ -2887,7 +2916,6 @@ ZYDIS_FORMATTER_PROP_UPPERCASE_PREFIXES
 *
 *
 *
-brief
 Controls
 the
 letter
@@ -2921,7 +2949,6 @@ ZYDIS_FORMATTER_PROP_UPPERCASE_MNEMONIC
 *
 *
 *
-brief
 Controls
 the
 letter
@@ -2954,7 +2981,6 @@ ZYDIS_FORMATTER_PROP_UPPERCASE_REGISTERS
 *
 *
 *
-brief
 Controls
 the
 letter
@@ -2987,7 +3013,6 @@ ZYDIS_FORMATTER_PROP_UPPERCASE_TYPECASTS
 *
 *
 *
-brief
 Controls
 the
 letter
@@ -3210,7 +3235,6 @@ formatting
 *
 *
 *
-brief
 Controls
 the
 prefix
@@ -3271,7 +3295,6 @@ ZYDIS_FORMATTER_PROP_DEC_PREFIX
 *
 *
 *
-brief
 Controls
 the
 suffix
@@ -3424,7 +3447,6 @@ ZYDIS_FORMATTER_PROP_DEC_SUFFIX
 *
 *
 *
-brief
 Controls
 the
 letter
@@ -3466,7 +3488,6 @@ ZYDIS_FORMATTER_PROP_HEX_UPPERCASE
 *
 *
 *
-brief
 Controls
 the
 prefix
@@ -3527,7 +3548,6 @@ ZYDIS_FORMATTER_PROP_HEX_PREFIX
 *
 *
 *
-brief
 Controls
 the
 suffix
@@ -3680,7 +3700,6 @@ ZYDIS_FORMATTER_PROP_HEX_SUFFIX
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -3696,7 +3715,6 @@ ZYDIS_FORMATTER_PROP_HEX_SUFFIX
 *
 *
 *
-brief
 The
 minimum
 number
@@ -3824,7 +3842,6 @@ ZydisFormatterProperty
 *
 *
 *
-brief
 Defines
 the
 ZydisNumericBase
@@ -3840,7 +3857,6 @@ ZydisNumericBase_
 *
 *
 *
-brief
 Decimal
 system
 .
@@ -3851,7 +3867,6 @@ ZYDIS_NUMERIC_BASE_DEC
 *
 *
 *
-brief
 Hexadecimal
 system
 .
@@ -3862,7 +3877,6 @@ ZYDIS_NUMERIC_BASE_HEX
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -3878,7 +3892,6 @@ ZYDIS_NUMERIC_BASE_HEX
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4006,7 +4019,6 @@ ZydisNumericBase
 *
 *
 *
-brief
 Defines
 the
 ZydisSignedness
@@ -4022,7 +4034,6 @@ ZydisSignedness_
 *
 *
 *
-brief
 Automatically
 choose
 the
@@ -4048,7 +4059,6 @@ ZYDIS_SIGNEDNESS_AUTO
 *
 *
 *
-brief
 Force
 signed
 values
@@ -4060,7 +4070,6 @@ ZYDIS_SIGNEDNESS_SIGNED
 *
 *
 *
-brief
 Force
 unsigned
 values
@@ -4072,7 +4081,6 @@ ZYDIS_SIGNEDNESS_UNSIGNED
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -4088,7 +4096,6 @@ ZYDIS_SIGNEDNESS_UNSIGNED
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4216,7 +4223,6 @@ ZydisSignedness
 *
 *
 *
-brief
 Defines
 the
 ZydisPadding
@@ -4232,7 +4238,6 @@ ZydisPadding_
 *
 *
 *
-brief
 Disables
 padding
 .
@@ -4245,7 +4250,6 @@ ZYDIS_PADDING_DISABLED
 *
 *
 *
-brief
 Padds
 the
 value
@@ -4260,10 +4264,10 @@ addresses
 or
 to
 the
+*
 operand
 -
 width
-*
 for
 immediate
 values
@@ -4284,7 +4288,6 @@ ZYDIS_PADDING_AUTO
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -4300,7 +4303,6 @@ ZYDIS_PADDING_AUTO
 *
 *
 *
-brief
 The
 minimum
 number
@@ -4532,7 +4534,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterFunction
@@ -4759,7 +4760,6 @@ Instruction
 *
 *
 *
-brief
 This
 function
 is
@@ -4778,7 +4778,6 @@ ZYDIS_FORMATTER_FUNC_PRE_INSTRUCTION
 *
 *
 *
-brief
 This
 function
 is
@@ -4889,7 +4888,6 @@ ZYDIS_FORMATTER_FUNC_POST_INSTRUCTION
 *
 *
 *
-brief
 This
 function
 refers
@@ -5119,7 +5117,6 @@ Operands
 *
 *
 *
-brief
 This
 function
 is
@@ -5138,7 +5135,6 @@ ZYDIS_FORMATTER_FUNC_PRE_OPERAND
 *
 *
 *
-brief
 This
 function
 is
@@ -5249,7 +5245,6 @@ ZYDIS_FORMATTER_FUNC_POST_OPERAND
 *
 *
 *
-brief
 This
 function
 is
@@ -5267,7 +5262,6 @@ ZYDIS_FORMATTER_FUNC_FORMAT_OPERAND_REG
 *
 *
 *
-brief
 This
 function
 is
@@ -5307,7 +5301,6 @@ ZYDIS_FORMATTER_FUNC_FORMAT_OPERAND_MEM
 *
 *
 *
-brief
 This
 function
 is
@@ -5325,7 +5318,6 @@ ZYDIS_FORMATTER_FUNC_FORMAT_OPERAND_PTR
 *
 *
 *
-brief
 This
 function
 is
@@ -5554,7 +5546,6 @@ tokens
 *
 *
 *
-brief
 This
 function
 is
@@ -5664,7 +5655,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_MNEMONIC
 *
 *
 *
-brief
 This
 function
 is
@@ -5681,7 +5671,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_REGISTER
 *
 *
 *
-brief
 This
 function
 is
@@ -5780,7 +5769,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_ADDRESS_ABS
 *
 *
 *
-brief
 This
 function
 is
@@ -5828,7 +5816,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_ADDRESS_REL
 *
 *
 *
-brief
 This
 function
 is
@@ -5873,7 +5860,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_DISP
 *
 *
 *
-brief
 This
 function
 is
@@ -6128,7 +6114,6 @@ tokens
 *
 *
 *
-brief
 This
 function
 is
@@ -6153,7 +6138,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_TYPECAST
 *
 *
 *
-brief
 This
 function
 is
@@ -6176,7 +6160,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_SEGMENT
 *
 *
 *
-brief
 This
 function
 is
@@ -6194,7 +6177,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_PREFIXES
 *
 *
 *
-brief
 This
 function
 is
@@ -6311,7 +6293,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_DECORATOR
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -6327,7 +6308,6 @@ ZYDIS_FORMATTER_FUNC_PRINT_DECORATOR
 *
 *
 *
-brief
 The
 minimum
 number
@@ -6559,7 +6539,6 @@ types
 *
 *
 *
-brief
 Defines
 the
 ZydisDecorator
@@ -6576,7 +6555,6 @@ ZYDIS_DECORATOR_INVALID
 *
 *
 *
-brief
 The
 embedded
 -
@@ -6590,7 +6568,6 @@ ZYDIS_DECORATOR_MASK
 *
 *
 *
-brief
 The
 broadcast
 decorator
@@ -6602,7 +6579,6 @@ ZYDIS_DECORATOR_BC
 *
 *
 *
-brief
 The
 rounding
 -
@@ -6616,7 +6592,6 @@ ZYDIS_DECORATOR_RC
 *
 *
 *
-brief
 The
 suppress
 -
@@ -6632,7 +6607,6 @@ ZYDIS_DECORATOR_SAE
 *
 *
 *
-brief
 The
 register
 -
@@ -6646,7 +6620,6 @@ ZYDIS_DECORATOR_SWIZZLE
 *
 *
 *
-brief
 The
 conversion
 decorator
@@ -6658,7 +6631,6 @@ ZYDIS_DECORATOR_CONVERSION
 *
 *
 *
-brief
 The
 eviction
 -
@@ -6672,7 +6644,6 @@ ZYDIS_DECORATOR_EH
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -6688,7 +6659,6 @@ ZYDIS_DECORATOR_EH
 *
 *
 *
-brief
 The
 minimum
 number
@@ -6925,7 +6895,6 @@ ZydisFormatter
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterContext
@@ -6941,7 +6910,6 @@ ZydisFormatterContext_
 *
 *
 *
-brief
 A
 pointer
 to
@@ -6960,7 +6928,6 @@ instruction
 *
 *
 *
-brief
 A
 pointer
 to
@@ -6979,7 +6946,6 @@ operand
 *
 *
 *
-brief
 The
 runtime
 address
@@ -6996,7 +6962,6 @@ runtime_address
 *
 *
 *
-brief
 A
 pointer
 to
@@ -7220,7 +7185,6 @@ prototypes
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterFunc
@@ -7422,7 +7386,6 @@ context
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterRegisterFunc
@@ -7531,7 +7494,6 @@ reg
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatterDecoratorFunc
@@ -7837,7 +7799,6 @@ struct
 *
 *
 *
-brief
 Defines
 the
 ZydisFormatter
@@ -7896,7 +7857,6 @@ ZydisFormatter_
 *
 *
 *
-brief
 The
 formatter
 style
@@ -7910,7 +7870,6 @@ style
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_PROP_FORCE_SIZE
 property
@@ -7924,7 +7883,6 @@ force_memory_size
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_PROP_FORCE_SEGMENT
 property
@@ -7938,7 +7896,19 @@ force_memory_segment
 *
 *
 *
-brief
+The
+ZYDIS_FORMATTER_PROP_FORCE_SCALE_ONE
+property
+.
+*
+/
+ZyanBool
+force_memory_scale
+;
+/
+*
+*
+*
 The
 ZYDIS_FORMATTER_PROP_FORCE_RELATIVE_BRANCHES
 property
@@ -7952,7 +7922,6 @@ force_relative_branches
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_PROP_FORCE_RELATIVE_RIPREL
 property
@@ -7966,7 +7935,6 @@ force_relative_riprel
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_PROP_PRINT_BRANCH_SIZE
 property
@@ -7980,7 +7948,6 @@ print_branch_size
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_DETAILED_PREFIXES
 property
@@ -7994,7 +7961,6 @@ detailed_prefixes
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_ADDR_BASE
 property
@@ -8008,7 +7974,6 @@ addr_base
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_ADDR_SIGNEDNESS
 property
@@ -8022,7 +7987,6 @@ addr_signedness
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_ADDR_PADDING_ABSOLUTE
 property
@@ -8036,7 +8000,6 @@ addr_padding_absolute
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_ADDR_PADDING_RELATIVE
 property
@@ -8050,7 +8013,6 @@ addr_padding_relative
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_DISP_BASE
 property
@@ -8064,7 +8026,6 @@ disp_base
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_DISP_SIGNEDNESS
 property
@@ -8078,7 +8039,6 @@ disp_signedness
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_DISP_PADDING
 property
@@ -8092,7 +8052,6 @@ disp_padding
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_IMM_BASE
 property
@@ -8106,7 +8065,6 @@ imm_base
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_IMM_SIGNEDNESS
 property
@@ -8120,7 +8078,6 @@ imm_signedness
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_IMM_PADDING
 property
@@ -8134,7 +8091,6 @@ imm_padding
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_UPPERCASE_PREFIXES
 property
@@ -8148,7 +8104,6 @@ case_prefixes
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_UPPERCASE_MNEMONIC
 property
@@ -8162,7 +8117,6 @@ case_mnemonic
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_UPPERCASE_REGISTERS
 property
@@ -8176,7 +8130,6 @@ case_registers
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_UPPERCASE_TYPECASTS
 property
@@ -8190,7 +8143,6 @@ case_typecasts
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_UPPERCASE_DECORATORS
 property
@@ -8204,7 +8156,6 @@ case_decorators
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_HEX_UPPERCASE
 property
@@ -8218,7 +8169,6 @@ hex_uppercase
 *
 *
 *
-brief
 The
 number
 formats
@@ -8246,7 +8196,6 @@ struct
 *
 *
 *
-brief
 A
 pointer
 to
@@ -8270,7 +8219,6 @@ string
 *
 *
 *
-brief
 The
 ZyanStringView
 to
@@ -8288,7 +8236,6 @@ string_data
 *
 *
 *
-brief
 The
 actual
 string
@@ -8317,7 +8264,6 @@ ZYDIS_NUMERIC_BASE_MAX_VALUE
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRE_INSTRUCTION
 function
@@ -8331,7 +8277,6 @@ func_pre_instruction
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_POST_INSTRUCTION
 function
@@ -8345,7 +8290,6 @@ func_post_instruction
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_FORMAT_INSTRUCTION
 function
@@ -8359,7 +8303,6 @@ func_format_instruction
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRE_OPERAND
 function
@@ -8373,7 +8316,6 @@ func_pre_operand
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_POST_OPERAND
 function
@@ -8387,7 +8329,6 @@ func_post_operand
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_FORMAT_OPERAND_REG
 function
@@ -8401,7 +8342,6 @@ func_format_operand_reg
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_FORMAT_OPERAND_MEM
 function
@@ -8415,7 +8355,6 @@ func_format_operand_mem
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_FORMAT_OPERAND_PTR
 function
@@ -8429,7 +8368,6 @@ func_format_operand_ptr
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_FORMAT_OPERAND_IMM
 function
@@ -8443,7 +8381,6 @@ func_format_operand_imm
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_MNEMONIC
 function
@@ -8457,7 +8394,6 @@ func_print_mnemonic
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_REGISTER
 function
@@ -8471,7 +8407,6 @@ func_print_register
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_ADDRESS_ABS
 function
@@ -8485,7 +8420,6 @@ func_print_address_abs
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_ADDRESS_REL
 function
@@ -8499,7 +8433,6 @@ func_print_address_rel
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_DISP
 function
@@ -8513,7 +8446,6 @@ func_print_disp
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_IMM
 function
@@ -8527,7 +8459,6 @@ func_print_imm
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_TYPECAST
 function
@@ -8541,7 +8472,6 @@ func_print_typecast
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_SEGMENT
 function
@@ -8555,7 +8485,6 @@ func_print_segment
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_PREFIXES
 function
@@ -8569,7 +8498,6 @@ func_print_prefixes
 *
 *
 *
-brief
 The
 ZYDIS_FORMATTER_FUNC_PRINT_DECORATOR
 function
@@ -8889,7 +8817,6 @@ addtogroup
 formatter
 Formatter
 *
-brief
 Functions
 allowing
 formatting
@@ -9111,7 +9038,6 @@ Initialization
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -9372,7 +9298,6 @@ Setter
 *
 *
 *
-brief
 Changes
 the
 value
@@ -9460,7 +9385,6 @@ value
 *
 *
 *
-brief
 Replaces
 a
 formatter
@@ -9802,7 +9726,6 @@ Formatting
 *
 *
 *
-brief
 Formats
 the
 given
@@ -9912,7 +9835,6 @@ runtime_address
 *
 *
 *
-brief
 Formats
 the
 given
@@ -10045,7 +9967,6 @@ user_data
 *
 *
 *
-brief
 Formats
 the
 given
@@ -10181,7 +10102,6 @@ runtime_address
 *
 *
 *
-brief
 Formats
 the
 given
@@ -10541,7 +10461,6 @@ Tokenizing
 *
 *
 *
-brief
 Tokenizes
 the
 given
@@ -10670,7 +10589,6 @@ token
 *
 *
 *
-brief
 Tokenizes
 the
 given
@@ -10822,7 +10740,6 @@ user_data
 *
 *
 *
-brief
 Tokenizes
 the
 given
@@ -10977,7 +10894,6 @@ token
 *
 *
 *
-brief
 Tokenizes
 the
 given

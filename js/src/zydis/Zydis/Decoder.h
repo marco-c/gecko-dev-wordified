@@ -406,7 +406,6 @@ SOFTWARE
 *
 file
 *
-brief
 Functions
 for
 decoding
@@ -883,7 +882,6 @@ mode
 *
 *
 *
-brief
 Defines
 the
 ZydisDecoderMode
@@ -899,7 +897,6 @@ ZydisDecoderMode_
 *
 *
 *
-brief
 Enables
 minimal
 instruction
@@ -995,7 +992,6 @@ ZYDIS_DECODER_MODE_MINIMAL
 *
 *
 *
-brief
 Enables
 the
 AMD
@@ -1090,7 +1086,6 @@ ZYDIS_DECODER_MODE_AMD_BRANCHES
 *
 *
 *
-brief
 Enables
 KNC
 compatibility
@@ -1151,7 +1146,6 @@ ZYDIS_DECODER_MODE_KNC
 *
 *
 *
-brief
 Enables
 the
 MPX
@@ -1191,7 +1185,6 @@ ZYDIS_DECODER_MODE_MPX
 *
 *
 *
-brief
 Enables
 the
 CET
@@ -1231,7 +1224,6 @@ ZYDIS_DECODER_MODE_CET
 *
 *
 *
-brief
 Enables
 the
 LZCNT
@@ -1271,7 +1263,6 @@ ZYDIS_DECODER_MODE_LZCNT
 *
 *
 *
-brief
 Enables
 the
 TZCNT
@@ -1311,7 +1302,6 @@ ZYDIS_DECODER_MODE_TZCNT
 *
 *
 *
-brief
 Enables
 the
 WBNOINVD
@@ -1353,7 +1343,6 @@ ZYDIS_DECODER_MODE_WBNOINVD
 *
 *
 *
-brief
 Enables
 the
 CLDEMOTE
@@ -1393,7 +1382,6 @@ ZYDIS_DECODER_MODE_CLDEMOTE
 *
 *
 *
-brief
 Maximum
 value
 of
@@ -1409,7 +1397,6 @@ ZYDIS_DECODER_MODE_CLDEMOTE
 *
 *
 *
-brief
 The
 minimum
 number
@@ -1641,7 +1628,6 @@ struct
 *
 *
 *
-brief
 Defines
 the
 ZydisDecoder
@@ -1681,7 +1667,6 @@ ZydisDecoder_
 *
 *
 *
-brief
 The
 machine
 mode
@@ -1695,7 +1680,6 @@ machine_mode
 *
 *
 *
-brief
 The
 address
 width
@@ -1709,7 +1693,6 @@ address_width
 *
 *
 *
-brief
 The
 decoder
 mode
@@ -2036,7 +2019,6 @@ addtogroup
 decoder
 Decoder
 *
-brief
 Functions
 allowing
 decoding
@@ -2057,7 +2039,6 @@ struct
 *
 *
 *
-brief
 Initializes
 the
 given
@@ -2116,7 +2097,6 @@ address_width
 *
 *
 *
-brief
 Enables
 or
 disables
@@ -2187,7 +2167,6 @@ enabled
 *
 *
 *
-brief
 Decodes
 the
 instruction
@@ -2226,6 +2205,56 @@ length
 of
 the
 input
+buffer
+.
+Note
+that
+this
+can
+be
+bigger
+than
+the
+*
+actual
+size
+of
+the
+instruction
+-
+-
+you
+don
+'
+t
+have
+to
+know
+the
+size
+up
+*
+front
+.
+This
+length
+is
+merely
+used
+to
+prevent
+Zydis
+from
+doing
+*
+out
+-
+of
+-
+bounds
+reads
+on
+your
 buffer
 .
 *
