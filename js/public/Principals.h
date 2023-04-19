@@ -451,7 +451,7 @@ friends
 .
 *
 See
-GlobalObject
+JSContext
 :
 :
 isRuntimeCodeGenEnabled
@@ -460,7 +460,7 @@ isRuntimeCodeGenEnabled
 in
 vm
 /
-GlobalObject
+JSContext
 .
 cpp
 .
