@@ -1439,15 +1439,6 @@ GetComponentJSMs
 )
 ;
 static
-already_AddRefed
-<
-nsIUTF8StringEnumerator
->
-GetComponentESModules
-(
-)
-;
-static
 Span
 <
 const
