@@ -303,6 +303,16 @@ NotifyDeviceReset
 (
 )
 ;
+void
+NotifyOverlayInfo
+(
+layers
+:
+:
+OverlayInfo
+aInfo
+)
+;
 mozilla
 :
 :
