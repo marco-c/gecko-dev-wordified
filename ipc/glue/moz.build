@@ -151,6 +151,11 @@ BackgroundUtils
 h
 "
 "
+BigBuffer
+.
+h
+"
+"
 BrowserProcessSubThread
 .
 h
@@ -869,6 +874,11 @@ cpp
 "
 "
 BackgroundUtils
+.
+cpp
+"
+"
+BigBuffer
 .
 cpp
 "
