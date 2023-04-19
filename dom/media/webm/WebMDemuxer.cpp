@@ -2611,7 +2611,7 @@ mCodecSpecificConfig
 =
 AudioCodecSpecificVariant
 {
-AudioCodecSpecificBinaryBlob
+VorbisCodecSpecificData
 {
 }
 }
@@ -2901,7 +2901,7 @@ MediaByteBuffer
 >
 audioCodecSpecificBlob
 =
-ForceGetAudioCodecSpecificBlob
+GetAudioCodecSpecificBlob
 (
 mInfo
 .
