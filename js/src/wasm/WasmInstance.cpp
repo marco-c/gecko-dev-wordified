@@ -10580,9 +10580,7 @@ metadata
 (
 )
 .
-debugFuncReturnTypes
-.
-length
+debugNumFuncs
 (
 )
 ;
