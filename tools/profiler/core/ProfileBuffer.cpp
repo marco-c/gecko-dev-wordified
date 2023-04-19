@@ -1337,8 +1337,15 @@ Nothing
 Nothing
 (
 )
-Nothing
+Some
 (
+JS
+:
+:
+ProfilingCategoryPair
+:
+:
+JS_Wasm
 )
 )
 ;
