@@ -3408,7 +3408,8 @@ stories
 to
 fill
 a
-compact
+four
+card
 layout
 "
 async
@@ -3445,7 +3446,7 @@ values
 pocketConfig
 :
 {
-compactLayout
+fourCardLayout
 :
 true
 }
