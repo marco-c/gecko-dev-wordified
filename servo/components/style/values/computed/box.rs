@@ -199,6 +199,7 @@ Overflow
 OverflowAnchor
 OverflowClipBox
 OverscrollBehavior
+ScrollAxis
 ScrollSnapAlign
 ScrollSnapAxis
 ScrollSnapStop

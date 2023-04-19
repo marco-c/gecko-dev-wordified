@@ -6695,6 +6695,8 @@ Default
 .
 )
 Block
+=
+0
 /
 /
 /
@@ -6707,6 +6709,8 @@ scroll
 container
 .
 Inline
+=
+1
 /
 /
 /
@@ -6720,6 +6724,8 @@ scroll
 container
 .
 Vertical
+=
+2
 /
 /
 /
@@ -6732,6 +6738,8 @@ scroll
 container
 .
 Horizontal
+=
+3
 }
 impl
 Default
