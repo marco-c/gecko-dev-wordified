@@ -569,7 +569,16 @@ cx
 JS
 :
 :
-HandleString
+RuntimeCode
+kind
+JS
+:
+:
+Handle
+<
+JSString
+*
+>
 aCode
 )
 ;
