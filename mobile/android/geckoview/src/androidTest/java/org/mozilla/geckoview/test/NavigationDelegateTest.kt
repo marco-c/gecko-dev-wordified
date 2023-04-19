@@ -2215,7 +2215,7 @@ equalTo
 (
 WebRequestError
 .
-ERROR_CATEGORY_SECURITY
+ERROR_CATEGORY_NETWORK
 )
 )
 assertThat
@@ -2665,7 +2665,7 @@ equalTo
 (
 WebRequestError
 .
-ERROR_CATEGORY_SECURITY
+ERROR_CATEGORY_NETWORK
 )
 )
 assertThat
