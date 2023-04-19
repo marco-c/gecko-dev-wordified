@@ -1441,7 +1441,7 @@ nodiscard
 ]
 extern
 bool
-GetDecimalNonInteger
+GetDecimal
 (
 JSContext
 *
