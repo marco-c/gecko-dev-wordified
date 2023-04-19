@@ -9580,6 +9580,17 @@ Double
 ;
 EXPECT_HAS_JSON
 (
+meta
+[
+"
+profilingEndTime
+"
+]
+Double
+)
+;
+EXPECT_HAS_JSON
+(
 aRoot
 [
 "
