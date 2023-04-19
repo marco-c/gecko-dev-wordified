@@ -142,8 +142,8 @@ AnimateTransform
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -610,9 +610,7 @@ mAnimationFunction
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

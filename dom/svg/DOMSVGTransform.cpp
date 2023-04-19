@@ -242,8 +242,8 @@ M_PI
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -2159,9 +2159,7 @@ aMatrix
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

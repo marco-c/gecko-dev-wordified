@@ -169,8 +169,8 @@ h
 .
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -3087,9 +3087,7 @@ nullptr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

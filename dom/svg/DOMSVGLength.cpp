@@ -221,8 +221,8 @@ h
 .
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2794,9 +2794,7 @@ endif
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

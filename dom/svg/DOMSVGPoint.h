@@ -201,8 +201,8 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 30
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -1259,12 +1259,10 @@ SVGSVGElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 undef
 MOZ_SVG_LIST_INDEX_BIT_COUNT

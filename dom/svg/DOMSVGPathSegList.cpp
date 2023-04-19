@@ -201,8 +201,8 @@ header
 .
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -3981,9 +3981,7 @@ i
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

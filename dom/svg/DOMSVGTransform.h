@@ -201,8 +201,8 @@ list
 items
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -1212,12 +1212,10 @@ mTransform
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 undef
 MOZ_SVG_LIST_INDEX_BIT_COUNT

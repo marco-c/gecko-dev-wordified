@@ -275,8 +275,8 @@ i
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2806,9 +2806,7 @@ aIndex
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
