@@ -21315,7 +21315,7 @@ get
 )
 )
 ;
-ErrorResult
+IgnoredErrorResult
 er
 ;
 dom
