@@ -3157,11 +3157,6 @@ GetUserFontSet
 =
 =
 mFontFaceSet
--
->
-GetUserFontSet
-(
-)
 "
 user
 font
@@ -4467,11 +4462,6 @@ f
 -
 >
 mFontFaceSet
--
->
-GetUserFontSet
-(
-)
 )
 ;
 }
@@ -4492,11 +4482,6 @@ aResult
 AppendElement
 (
 s
--
->
-GetUserFontSet
-(
-)
 )
 ;
 }
