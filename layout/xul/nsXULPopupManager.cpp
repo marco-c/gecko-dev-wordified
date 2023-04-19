@@ -13873,6 +13873,16 @@ mKeyListener
 newTarget
 )
 {
+OwningNonNull
+<
+nsXULPopupManager
+>
+kungFuDeathGrip
+(
+*
+this
+)
+;
 if
 (
 mKeyListener

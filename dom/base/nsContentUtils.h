@@ -13414,6 +13414,7 @@ FALSE
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 void
 NotifyInstalledMenuKeyboardListener
