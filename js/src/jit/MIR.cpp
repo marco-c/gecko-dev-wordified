@@ -45451,6 +45451,9 @@ callee
 MDefinitionVector
 &
 args
+ArgumentsObject
+*
+templateObj
 )
 {
 MCreateInlinedArgumentsObject
@@ -45463,6 +45466,7 @@ alloc
 )
 MCreateInlinedArgumentsObject
 (
+templateObj
 )
 ;
 uint32_t
