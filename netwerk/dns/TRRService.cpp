@@ -3870,6 +3870,10 @@ threads
 )
 )
 {
+mShutdown
+=
+true
+;
 /
 /
 If
@@ -3908,6 +3912,7 @@ recorded
 in
 telemetry
 .
+{
 MutexSingleWriterAutoLock
 lock
 (
@@ -3924,6 +3929,7 @@ shutdown
 lock
 )
 ;
+}
 if
 (
 sTRRBackgroundThread
@@ -3991,6 +3997,9 @@ StaticPrefs
 network_trr_split_horizon_mitigations
 (
 )
+|
+|
+mShutdown
 )
 {
 return

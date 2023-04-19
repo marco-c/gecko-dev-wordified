@@ -832,6 +832,16 @@ don
 t
 even
 try
+Atomic
+<
+bool
+Relaxed
+>
+mShutdown
+{
+false
+}
+;
 /
 /
 TRR
