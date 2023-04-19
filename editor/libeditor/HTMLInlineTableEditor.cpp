@@ -1874,6 +1874,16 @@ rv
 )
 ;
 }
+OwningNonNull
+<
+Element
+>
+targetCellElement
+(
+*
+mInlineEditedCell
+)
+;
 DebugOnly
 <
 nsresult
@@ -1882,6 +1892,7 @@ rvIgnored
 =
 InsertTableRowsWithTransaction
 (
+targetCellElement
 1
 InsertPosition
 :
@@ -1901,6 +1912,7 @@ HTMLEditor
 :
 InsertTableRowsWithTransaction
 (
+targetCellElement
 1
 "
 "
@@ -1981,6 +1993,16 @@ rv
 )
 ;
 }
+OwningNonNull
+<
+Element
+>
+targetCellElement
+(
+*
+mInlineEditedCell
+)
+;
 DebugOnly
 <
 nsresult
@@ -1989,6 +2011,7 @@ rvIgnored
 =
 InsertTableRowsWithTransaction
 (
+targetCellElement
 1
 InsertPosition
 :
@@ -2008,6 +2031,7 @@ HTMLEditor
 :
 InsertTableRowsWithTransaction
 (
+targetCellElement
 1
 "
 "

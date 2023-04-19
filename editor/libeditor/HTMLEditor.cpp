@@ -8427,8 +8427,11 @@ be
 selected
 element
 )
+const
+RefPtr
+<
 Element
-*
+>
 cellElement
 =
 GetInclusiveAncestorByTagNameAtSelection
@@ -8860,6 +8863,8 @@ rv
 =
 InsertTableRowsWithTransaction
 (
+*
+cellElement
 1
 InsertPosition
 :
@@ -8900,6 +8905,8 @@ HTMLEditor
 :
 InsertTableRowsWithTransaction
 (
+*
+cellElement
 1
 "
 "
