@@ -601,7 +601,7 @@ virtual
 bool
 CheckSpecialCharacterClass
 (
-uc16
+StandardCharacterSet
 type
 Label
 *
@@ -791,6 +791,7 @@ bool
 CanReadUnaligned
 (
 )
+const
 ;
 private
 :
