@@ -109,6 +109,7 @@ if
 b
 )
 )
+{
 \
 AssertionFailed
 (
@@ -126,6 +127,8 @@ __LINE__
 +
 info
 )
+\
+}
 \
 }
 while
@@ -548,9 +551,11 @@ func
 =
 null
 )
+{
 return
 undefined
 ;
+}
 /
 /
 Step
@@ -564,6 +569,7 @@ IsCallable
 func
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -571,6 +577,7 @@ typeof
 func
 )
 ;
+}
 /
 /
 Step
@@ -738,9 +745,11 @@ ctor
 =
 undefined
 )
+{
 return
 defaultConstructor
 ;
+}
 /
 /
 Step
@@ -754,6 +763,7 @@ IsObject
 ctor
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -768,6 +778,7 @@ property
 "
 )
 ;
+}
 /
 /
 Steps
@@ -806,9 +817,11 @@ s
 =
 null
 )
+{
 return
 defaultConstructor
 ;
+}
 /
 /
 Step
@@ -821,9 +834,11 @@ IsConstructor
 s
 )
 )
+{
 return
 s
 ;
+}
 /
 /
 Step
@@ -1088,8 +1103,10 @@ source
 =
 null
 )
+{
 return
 ;
+}
 /
 /
 Step
@@ -1138,8 +1155,10 @@ keys
 =
 null
 )
+{
 return
 ;
+}
 /
 /
 Step
@@ -1307,8 +1326,10 @@ source
 =
 null
 )
+{
 return
 ;
+}
 /
 /
 Step
@@ -1357,8 +1378,10 @@ keys
 =
 null
 )
+{
 return
 ;
+}
 /
 /
 Step
@@ -1420,6 +1443,7 @@ from
 key
 )
 )
+{
 DefineDataProperty
 (
 target
@@ -1430,6 +1454,7 @@ key
 ]
 )
 ;
+}
 }
 /
 /
