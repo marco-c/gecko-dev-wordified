@@ -762,6 +762,10 @@ Destroy
 (
 )
 ;
+mOwner
+=
+nullptr
+;
 }
 void
 FontFaceSetImpl
