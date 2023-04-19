@@ -15573,7 +15573,7 @@ str_includes
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_indexOf
@@ -15581,6 +15581,7 @@ std_String_indexOf
 str_indexOf
 1
 0
+StringIndexOf
 )
 JS_INLINABLE_FN
 (

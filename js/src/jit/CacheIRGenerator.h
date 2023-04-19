@@ -2890,6 +2890,11 @@ tryAttachStringFromCodePoint
 )
 ;
 AttachDecision
+tryAttachStringIndexOf
+(
+)
+;
+AttachDecision
 tryAttachStringStartsWith
 (
 )
