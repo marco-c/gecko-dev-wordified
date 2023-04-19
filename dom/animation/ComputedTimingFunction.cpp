@@ -632,10 +632,7 @@ StepFunc
 aStepFunc
 double
 aPortion
-ComputedTimingFunction
-:
-:
-BeforeFlag
+StyleEasingBeforeFlag
 aBeforeFlag
 )
 {
@@ -820,10 +817,7 @@ if
 aBeforeFlag
 =
 =
-ComputedTimingFunction
-:
-:
-BeforeFlag
+StyleEasingBeforeFlag
 :
 :
 Set
@@ -1568,10 +1562,7 @@ GetValue
 (
 double
 aPortion
-ComputedTimingFunction
-:
-:
-BeforeFlag
+StyleEasingBeforeFlag
 aBeforeFlag
 )
 const
