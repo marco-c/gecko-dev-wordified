@@ -425,6 +425,16 @@ aGlobal
 ;
 if
 (
+StaticPrefs
+:
+:
+dom_serviceWorkers_hide_in_pbmode_enabled
+(
+)
+)
+{
+if
+(
 const
 nsCOMPtr
 <
@@ -460,6 +470,7 @@ ePrivateBrowsing
 return
 false
 ;
+}
 }
 }
 /
@@ -548,7 +559,7 @@ if
 IsSecureContextOrObjectIsFromSecureContext
 (
 aCx
-aGlobal
+global
 )
 )
 {
@@ -567,7 +578,7 @@ dom_serviceWorkers_testing_enabled
 |
 IsServiceWorkersTestingEnabledInWindow
 (
-aGlobal
+global
 )
 ;
 }
