@@ -1122,6 +1122,15 @@ CloneRegExpObject
 \
 _
 (
+CloseIterOperation
+js
+:
+:
+CloseIterOperation
+)
+\
+_
+(
 ConcatStrings
 js
 :
