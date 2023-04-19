@@ -3375,6 +3375,12 @@ Image
 >
 mImage
 ;
+ColorDepth
+GetColorDepth
+(
+)
+const
+;
 uint32_t
 mFrameID
 ;
