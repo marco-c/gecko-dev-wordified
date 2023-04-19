@@ -1531,7 +1531,7 @@ False
 readmode
 =
 "
-rU
+r
 "
 )
 :

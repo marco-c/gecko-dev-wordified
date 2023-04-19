@@ -90,7 +90,7 @@ open
 (
 conf_filename
 "
-rU
+r
 "
 )
     
