@@ -28047,6 +28047,15 @@ aEvent
 button
 )
 ;
+SetLastMousePressEvent
+(
+(
+GdkEvent
+*
+)
+aEvent
+)
+;
 /
 /
 If
@@ -28749,6 +28758,11 @@ aEvent
 -
 >
 button
+)
+;
+SetLastMousePressEvent
+(
+nullptr
 )
 ;
 if
