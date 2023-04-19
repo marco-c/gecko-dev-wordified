@@ -767,7 +767,6 @@ Find
 -
 "
 _ns
-true
 spacePos
 )
 ;
@@ -783,7 +782,6 @@ Find
 /
 "
 _ns
-true
 dashPos
 )
 ;

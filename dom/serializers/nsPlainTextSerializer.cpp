@@ -2692,6 +2692,7 @@ textstr
 .
 FindCharInSet
 (
+u
 "
 \
 n
@@ -2757,6 +2758,7 @@ textstr
 .
 FindCharInSet
 (
+u
 "
 \
 n
@@ -3755,6 +3757,7 @@ style
 .
 Find
 (
+u
 "
 white
 -
@@ -3773,14 +3776,13 @@ kNotFound
 =
 style
 .
-Find
+LowerCaseFindASCII
 (
 "
 pre
 -
 wrap
 "
-true
 whitespace
 )
 )
@@ -3819,12 +3821,11 @@ kNotFound
 =
 style
 .
-Find
+LowerCaseFindASCII
 (
 "
 pre
 "
-true
 whitespace
 )
 )
@@ -10639,6 +10640,7 @@ str
 .
 FindCharInSet
 (
+u
 "
 \
 t

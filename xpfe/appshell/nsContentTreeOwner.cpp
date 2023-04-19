@@ -2173,6 +2173,7 @@ persistString
 .
 Find
 (
+u
 "
 screenX
 "
@@ -2238,6 +2239,7 @@ persistString
 .
 Find
 (
+u
 "
 screenY
 "
@@ -2303,6 +2305,7 @@ persistString
 .
 Find
 (
+u
 "
 width
 "
@@ -2368,6 +2371,7 @@ persistString
 .
 Find
 (
+u
 "
 height
 "
@@ -2433,6 +2437,7 @@ persistString
 .
 Find
 (
+u
 "
 sizemode
 "
@@ -2619,6 +2624,7 @@ if
 (
 aPersistPosition
 )
+{
 *
 aPersistPosition
 =
@@ -2626,6 +2632,7 @@ persistString
 .
 Find
 (
+u
 "
 screenX
 "
@@ -2639,6 +2646,7 @@ persistString
 .
 Find
 (
+u
 "
 screenY
 "
@@ -2646,15 +2654,13 @@ screenY
 >
 =
 0
-?
-true
-:
-false
 ;
+}
 if
 (
 aPersistSize
 )
+{
 *
 aPersistSize
 =
@@ -2662,6 +2668,7 @@ persistString
 .
 Find
 (
+u
 "
 width
 "
@@ -2675,6 +2682,7 @@ persistString
 .
 Find
 (
+u
 "
 height
 "
@@ -2682,15 +2690,13 @@ height
 >
 =
 0
-?
-true
-:
-false
 ;
+}
 if
 (
 aPersistSizeMode
 )
+{
 *
 aPersistSizeMode
 =
@@ -2698,6 +2704,7 @@ persistString
 .
 Find
 (
+u
 "
 sizemode
 "
@@ -2705,11 +2712,8 @@ sizemode
 >
 =
 0
-?
-true
-:
-false
 ;
+}
 return
 NS_OK
 ;

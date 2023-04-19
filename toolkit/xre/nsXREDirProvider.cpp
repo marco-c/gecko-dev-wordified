@@ -7831,6 +7831,7 @@ appDirPath
 .
 RFind
 (
+u
 "
 .
 app

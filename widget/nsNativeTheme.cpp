@@ -2524,6 +2524,7 @@ classStr
 .
 Find
 (
+u
 "
 tab
 -
