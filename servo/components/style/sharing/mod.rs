@@ -1044,10 +1044,7 @@ use
 uluru
 :
 :
-{
-Entry
 LRUCache
-}
 ;
 mod
 checks
@@ -3368,14 +3365,8 @@ entries
 :
 LRUCache
 <
-[
-Entry
-<
 Candidate
->
-;
 SHARING_CACHE_SIZE
-]
 >
 }
 impl

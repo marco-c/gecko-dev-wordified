@@ -438,12 +438,6 @@ TOLERATED_DUPES
 {
     
 "
-arrayvec
-"
-:
-2
-    
-"
 base64
 "
 :
