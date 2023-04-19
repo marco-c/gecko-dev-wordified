@@ -208,6 +208,15 @@ GlobalObject
 ;
 static
 void
+SignalIPCReady
+(
+const
+GlobalObject
+&
+)
+;
+static
+void
 EnableAccessibility
 (
 const
