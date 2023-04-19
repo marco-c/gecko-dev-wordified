@@ -413,9 +413,9 @@ ObjLiteralWriter
 :
 checkForDuplicatedNames
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 )
 {
 if
@@ -482,7 +482,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
