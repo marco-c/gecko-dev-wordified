@@ -10714,7 +10714,7 @@ JSContext
 cx
 Handle
 <
-ArrayObject
+NativeObject
 *
 >
 obj

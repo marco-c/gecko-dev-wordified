@@ -3150,6 +3150,7 @@ GuardClassKind
 uint8_t
 {
 Array
+PlainObject
 ArrayBuffer
 SharedArrayBuffer
 DataView
