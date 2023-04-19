@@ -1158,6 +1158,9 @@ add
 "
 noShadow
 "
+"
+fullScreen
+"
 )
 ;
 addEventListener
@@ -1175,6 +1178,9 @@ remove
 (
 "
 noShadow
+"
+"
+fullScreen
 "
 )
 )
