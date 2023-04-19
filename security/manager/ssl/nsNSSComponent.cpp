@@ -8846,6 +8846,12 @@ the
 main
 thread
 .
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 MOZ_ASSERT
 (
 NS_IsMainThread
