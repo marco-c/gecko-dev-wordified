@@ -4500,10 +4500,13 @@ EnsureWin32kInitialized
 (
 )
 ;
-gfxPlatform
+gfx
 :
 :
-GetPlatform
+gfxVars
+:
+:
+Initialize
 (
 )
 ;
