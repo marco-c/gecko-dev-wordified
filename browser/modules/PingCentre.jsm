@@ -931,12 +931,6 @@ e
 }
 }
 }
-this
-.
-PingCentre
-=
-PingCentre
-;
 const
 PingCentreConstants
 =
