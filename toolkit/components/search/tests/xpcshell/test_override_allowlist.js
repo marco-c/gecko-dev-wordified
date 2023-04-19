@@ -72,7 +72,7 @@ Engine
 "
 ;
 const
-whitelist
+allowlist
 =
 [
 {
@@ -267,7 +267,7 @@ search_url
 :
 kSearchEngineURL
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -322,7 +322,7 @@ search_url
 :
 kSearchEngineURL
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -381,7 +381,7 @@ kSearchEngineURL
 a
 "
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -448,7 +448,7 @@ UTF
 8
 "
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -547,7 +547,7 @@ UTF
 8a
 "
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -629,7 +629,7 @@ UTF
 8
 "
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -731,7 +731,7 @@ UTF
 8a
 "
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -811,7 +811,7 @@ com
 form
 "
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -907,7 +907,7 @@ com
 forma
 "
 }
-whitelistUrls
+allowlistUrls
 :
 [
 {
@@ -1150,7 +1150,7 @@ returns
 .
 .
 .
-whitelist
+allowlist
 [
 0
 ]
@@ -1158,7 +1158,7 @@ urls
 :
 test
 .
-whitelistUrls
+allowlistUrls
 }
 ]
 )
