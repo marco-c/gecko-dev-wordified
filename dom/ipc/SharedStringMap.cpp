@@ -527,13 +527,12 @@ aEntry
 )
 {
 return
-aKey
-.
 Compare
 (
+aKey
 keys
 .
-GetBare
+Get
 (
 aEntry
 .

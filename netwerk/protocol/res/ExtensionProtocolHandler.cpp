@@ -3545,11 +3545,13 @@ aOther
 )
 {
 return
-ext
-.
 Compare
 (
+ext
+nsDependentCString
+(
 aOther
+)
 )
 ;
 }

@@ -776,11 +776,13 @@ aElem
 )
 {
 return
-aUrl
-.
 Compare
 (
+aUrl
+nsDependentCString
+(
 aElem
+)
 )
 ;
 }

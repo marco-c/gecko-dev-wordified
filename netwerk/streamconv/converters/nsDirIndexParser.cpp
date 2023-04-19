@@ -688,13 +688,15 @@ aProperty
 )
 {
 return
-locale
-.
 Compare
+(
+locale
+nsDependentCString
 (
 aProperty
 .
 mKey
+)
 )
 ;
 }

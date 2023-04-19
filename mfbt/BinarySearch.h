@@ -1075,11 +1075,13 @@ const
 {
 *
 return
-mStr
-.
 Compare
 (
+mStr
+nsDependentCString
+(
 aVal
+)
 )
 ;
 *

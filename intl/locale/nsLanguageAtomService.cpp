@@ -1719,13 +1719,15 @@ entry
 int
 {
 return
-script
-.
 Compare
+(
+script
+nsDependentCString
 (
 entry
 .
 mTag
+)
 )
 ;
 }
