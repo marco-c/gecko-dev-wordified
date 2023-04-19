@@ -2456,7 +2456,7 @@ already_AddRefed
 <
 nsIURI
 >
-GetPrincipalURIOrPrecursorPrincialURI
+GetPrincipalURIOrPrecursorPrincipalURI
 (
 nsIPrincipal
 *
@@ -4652,7 +4652,7 @@ baseLoadingPrincipal
 {
 requestingLocation
 =
-GetPrincipalURIOrPrecursorPrincialURI
+GetPrincipalURIOrPrecursorPrincipalURI
 (
 baseLoadingPrincipal
 )
@@ -4683,7 +4683,7 @@ baseTriggeringPrincipal
 {
 requestingLocation
 =
-GetPrincipalURIOrPrecursorPrincialURI
+GetPrincipalURIOrPrecursorPrincipalURI
 (
 baseTriggeringPrincipal
 )
