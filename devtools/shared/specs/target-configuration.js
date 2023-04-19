@@ -113,13 +113,6 @@ nullable
 :
 string
 "
-isNewPerfPanelEnabled
-:
-"
-nullable
-:
-boolean
-"
 javascriptEnabled
 :
 "
