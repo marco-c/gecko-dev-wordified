@@ -315,15 +315,6 @@ final
 {
 public
 :
-nsPrintObject
-(
-)
-;
-~
-nsPrintObject
-(
-)
-;
 /
 *
 *
@@ -361,8 +352,7 @@ nsPrintObject
 .
 *
 /
-nsresult
-Init
+nsPrintObject
 (
 nsIDocShell
 &
@@ -381,6 +371,11 @@ nsPrintObject
 aParent
 =
 nullptr
+)
+;
+~
+nsPrintObject
+(
 )
 ;
 void
@@ -516,6 +511,7 @@ nsIContent
 >
 mContent
 ;
+const
 PrintObjectType
 mFrameType
 ;
@@ -531,6 +527,7 @@ nsPrintObject
 >
 mKids
 ;
+const
 nsPrintObject
 *
 mParent
