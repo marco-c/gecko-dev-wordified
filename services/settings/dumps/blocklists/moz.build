@@ -146,7 +146,11 @@ android
 :
 #
 Remove
-this
+"
+addons
+.
+json
+"
 once
 bug
 1639050
@@ -165,6 +169,11 @@ blocklists
 [
 "
 addons
+.
+json
+"
+"
+gfx
 .
 json
 "
