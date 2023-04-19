@@ -4423,6 +4423,12 @@ bool
 >
 mLayersConnected
 ;
+Maybe
+<
+bool
+>
+mLayersConnectRequested
+;
 EffectsInfo
 mEffectsInfo
 ;
