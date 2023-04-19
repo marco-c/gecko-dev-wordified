@@ -61,11 +61,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 IndexedDB
 "
@@ -88,7 +94,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEnvironment
 "
@@ -111,7 +117,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryEvents
 "
@@ -443,6 +449,8 @@ openDatabase
 )
 {
 return
+lazy
+.
 IndexedDB
 .
 open
@@ -689,6 +697,8 @@ getAllActive
 )
 )
 {
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -756,6 +766,8 @@ rollout
 .
 enrollmentId
 =
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER

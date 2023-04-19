@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NormandyApi
 "
@@ -112,7 +118,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ClientEnvironmentBase
 "
@@ -139,7 +145,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PreferenceExperiments
 "
@@ -162,7 +168,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PreferenceRollouts
 "
@@ -185,7 +191,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonStudies
 "
@@ -208,7 +214,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonRollouts
 "
@@ -262,6 +268,8 @@ null
 class
 ClientEnvironment
 extends
+lazy
+.
 ClientEnvironmentBase
 {
 /
@@ -321,6 +329,8 @@ _classifyRequest
 {
 _classifyRequest
 =
+lazy
+.
 NormandyApi
 .
 classifyClient
@@ -551,6 +561,8 @@ expired
 }
 of
 await
+lazy
+.
 PreferenceExperiments
 .
 getAll
@@ -638,6 +650,8 @@ const
 prefStudy
 of
 await
+lazy
+.
 PreferenceExperiments
 .
 getAll
@@ -663,6 +677,8 @@ const
 addonStudy
 of
 await
+lazy
+.
 AddonStudies
 .
 getAll
@@ -725,6 +741,8 @@ const
 prefRollout
 of
 await
+lazy
+.
 PreferenceRollouts
 .
 getAll
@@ -750,6 +768,8 @@ const
 addonRollout
 of
 await
+lazy
+.
 AddonRollouts
 .
 getAll

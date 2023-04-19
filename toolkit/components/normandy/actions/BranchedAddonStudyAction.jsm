@@ -193,11 +193,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ActionSchemas
 :
@@ -895,6 +901,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "
@@ -1078,6 +1086,8 @@ const
 study
 =
 await
+lazy
+.
 AddonStudies
 .
 get
@@ -1093,6 +1103,8 @@ suitability
 )
 {
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -1137,6 +1149,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -1165,6 +1179,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -1193,6 +1209,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -1228,6 +1246,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -1263,6 +1283,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -1378,6 +1400,8 @@ const
 activeStudies
 =
 await
+lazy
+.
 AddonStudies
 .
 getAllActive
@@ -1385,6 +1409,8 @@ getAllActive
 {
 branched
 :
+lazy
+.
 AddonStudies
 .
 FILTER_BRANCHED_ONLY
@@ -1693,6 +1719,8 @@ extensionDetails
 const
 downloadDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -1702,6 +1730,8 @@ defer
 const
 installDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -1712,6 +1742,8 @@ const
 install
 =
 await
+lazy
+.
 AddonManager
 .
 getInstallForURL
@@ -1770,6 +1802,8 @@ branch
 branchSlug
 detail
 :
+lazy
+.
 AddonManager
 .
 errorToString
@@ -1834,6 +1868,8 @@ branch
 branchSlug
 detail
 :
+lazy
+.
 AddonManager
 .
 errorToString
@@ -2019,6 +2055,8 @@ ratio
 const
 userId
 =
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -2114,6 +2152,8 @@ const
 index
 =
 await
+lazy
+.
 Sampling
 .
 ratioSample
@@ -2473,6 +2513,8 @@ slug
 const
 enrollmentId
 =
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -2546,6 +2588,8 @@ null
 try
 {
 await
+lazy
+.
 AddonStudies
 .
 add
@@ -2578,6 +2622,8 @@ report
 success
 to
 Telemetry
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2592,11 +2638,15 @@ slug
 {
 addonId
 :
+lazy
+.
 AddonStudies
 .
 NO_ADDON_MARKER
 addonVersion
 :
+lazy
+.
 AddonStudies
 .
 NO_ADDON_MARKER
@@ -2610,6 +2660,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -2623,6 +2675,8 @@ const
 extensionDetails
 =
 await
+lazy
+.
 NormandyApi
 .
 fetchExtensionDetails
@@ -2862,6 +2916,8 @@ null
 try
 {
 await
+lazy
+.
 AddonStudies
 .
 add
@@ -2911,6 +2967,8 @@ async
 >
 {
 await
+lazy
+.
 AddonStudies
 .
 delete
@@ -2963,6 +3021,8 @@ report
 success
 to
 Telemetry
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2991,6 +3051,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -2998,6 +3060,8 @@ NO_ENROLLMENT_ID_MARKER
 )
 ;
 }
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -3019,6 +3083,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3177,6 +3243,8 @@ temporaryErrorDeadline
 null
 ;
 await
+lazy
+.
 AddonStudies
 .
 update
@@ -3188,6 +3256,8 @@ const
 extensionDetails
 =
 await
+lazy
+.
 NormandyApi
 .
 fetchExtensionDetails
@@ -3246,6 +3316,8 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3303,6 +3375,8 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3424,6 +3498,8 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3486,6 +3562,8 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3530,6 +3608,8 @@ listener
 try
 {
 await
+lazy
+.
 AddonStudies
 .
 update
@@ -3609,6 +3689,8 @@ onFailedInstall
 =
 >
 {
+lazy
+.
 AddonStudies
 .
 update
@@ -3658,6 +3740,8 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3673,6 +3757,8 @@ report
 success
 to
 Telemetry
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -3703,6 +3789,8 @@ study
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3735,6 +3823,8 @@ it
 nicely
 to
 telemetry
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -3842,6 +3932,8 @@ error
 name
 }
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -3902,6 +3994,8 @@ it
 nicely
 to
 telemetry
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -4009,6 +4103,8 @@ error
 name
 }
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -4116,6 +4212,8 @@ const
 study
 =
 await
+lazy
+.
 AddonStudies
 .
 get
@@ -4175,6 +4273,8 @@ inactive
 ;
 }
 await
+lazy
+.
 AddonStudies
 .
 markAsEnded
@@ -4258,6 +4358,8 @@ const
 addon
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -4563,6 +4665,8 @@ temporaryErrorDeadline
 newDeadline
 ;
 await
+lazy
+.
 AddonStudies
 .
 update
@@ -4613,6 +4717,8 @@ temporaryErrorDeadline
 newDeadline
 ;
 await
+lazy
+.
 AddonStudies
 .
 update

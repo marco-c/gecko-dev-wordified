@@ -61,11 +61,17 @@ use
 strict
 "
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncShutdown
 "
@@ -226,6 +232,8 @@ are
 /
 /
 finished
+.
+lazy
 .
 AsyncShutdown
 .

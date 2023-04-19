@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Sampling
 "
@@ -116,7 +122,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ActionSchemas
 "
@@ -141,7 +147,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BaseAction
 "
@@ -164,7 +170,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ClientEnvironment
 "
@@ -187,7 +193,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PreferenceExperiments
 "
@@ -265,6 +271,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "
@@ -365,6 +373,8 @@ try
 experiment
 =
 await
+lazy
+.
 PreferenceExperiments
 .
 get
@@ -412,6 +422,8 @@ if
 (
 err
 instanceof
+lazy
+.
 PreferenceExperiments
 .
 NotFoundError
@@ -430,6 +442,8 @@ suitability
 )
 {
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -457,6 +471,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -476,6 +492,8 @@ expired
 )
 {
 await
+lazy
+.
 PreferenceExperiments
 .
 stop
@@ -510,6 +528,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -570,6 +590,8 @@ const
 activeExperiments
 =
 await
+lazy
+.
 PreferenceExperiments
 .
 getAllActive
@@ -730,6 +752,8 @@ exp
 "
 ;
 await
+lazy
+.
 PreferenceExperiments
 .
 start
@@ -792,6 +816,8 @@ temporaryErrorDeadline
 null
 ;
 await
+lazy
+.
 PreferenceExperiments
 .
 update
@@ -800,6 +826,8 @@ experiment
 )
 ;
 await
+lazy
+.
 PreferenceExperiments
 .
 markLastSeen
@@ -812,6 +840,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -831,6 +861,8 @@ expired
 )
 {
 await
+lazy
+.
 PreferenceExperiments
 .
 stop
@@ -865,6 +897,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -892,6 +926,8 @@ break
 ;
 }
 case
+lazy
+.
 BaseAction
 .
 suitability
@@ -911,6 +947,8 @@ expired
 )
 {
 await
+lazy
+.
 PreferenceExperiments
 .
 stop
@@ -1012,6 +1050,8 @@ ratio
 const
 userId
 =
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -1105,6 +1145,8 @@ const
 index
 =
 await
+lazy
+.
 Sampling
 .
 ratioSample
@@ -1196,6 +1238,8 @@ const
 activeExperiments
 =
 await
+lazy
+.
 PreferenceExperiments
 .
 getAllActive
@@ -1312,6 +1356,8 @@ null
 ;
 }
 return
+lazy
+.
 PreferenceExperiments
 .
 stop
@@ -1639,6 +1685,8 @@ temporaryErrorDeadline
 newDeadline
 ;
 await
+lazy
+.
 PreferenceExperiments
 .
 update
@@ -1657,6 +1705,8 @@ deadline
 )
 {
 await
+lazy
+.
 PreferenceExperiments
 .
 stop
@@ -1699,6 +1749,8 @@ temporaryErrorDeadline
 newDeadline
 ;
 await
+lazy
+.
 PreferenceExperiments
 .
 update

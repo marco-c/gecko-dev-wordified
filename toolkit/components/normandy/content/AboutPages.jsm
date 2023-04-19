@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonStudies
 "
@@ -136,7 +142,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BranchedAddonStudyAction
 "
@@ -159,7 +165,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PreferenceExperiments
 "
@@ -182,7 +188,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RecipeRunner
 "
@@ -205,7 +211,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExperimentManager
 "
@@ -228,7 +234,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettingsExperimentLoader
 "
@@ -271,7 +277,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gOptOutStudiesEnabled
 "
@@ -680,6 +686,8 @@ getAddonStudyList
 )
 {
 return
+lazy
+.
 AddonStudies
 .
 getAll
@@ -692,6 +700,8 @@ getPreferenceStudyList
 )
 {
 return
+lazy
+.
 PreferenceExperiments
 .
 getAll
@@ -704,6 +714,8 @@ getMessagingSystemList
 )
 {
 return
+lazy
+.
 ExperimentManager
 .
 store
@@ -722,6 +734,8 @@ data
 try
 {
 await
+lazy
+.
 RemoteSettingsExperimentLoader
 .
 optInToExperiment
@@ -987,6 +1001,8 @@ getStudiesEnabled
 )
 {
 await
+lazy
+.
 RecipeRunner
 .
 initializedPromise
@@ -994,11 +1010,15 @@ initializedPromise
 promise
 ;
 return
+lazy
+.
 RecipeRunner
 .
 enabled
 &
 &
+lazy
+.
 gOptOutStudiesEnabled
 ;
 }
@@ -1058,6 +1078,8 @@ const
 action
 =
 new
+lazy
+.
 BranchedAddonStudyAction
 (
 )
@@ -1222,6 +1244,8 @@ reason
 try
 {
 await
+lazy
+.
 PreferenceExperiments
 .
 stop
@@ -1352,6 +1376,8 @@ slug
 reason
 )
 {
+lazy
+.
 ExperimentManager
 .
 unenroll
@@ -1369,6 +1395,8 @@ Shield
 :
 UpdateMessagingSystemExperimentList
 "
+lazy
+.
 ExperimentManager
 .
 store

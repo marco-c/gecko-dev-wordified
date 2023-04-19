@@ -1,3 +1,9 @@
+const
+lazy
+=
+{
+}
+;
 /
 *
 This
@@ -60,7 +66,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LogManager
 "
@@ -83,7 +89,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Uptake
 "
@@ -106,7 +112,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 JsonSchemaValidator
 "
@@ -232,6 +238,8 @@ this
 .
 log
 =
+lazy
+.
 LogManager
 .
 getLogger
@@ -515,6 +523,8 @@ BaseAction
 STATE_PREPARING
 :
 {
+lazy
+.
 Uptake
 .
 reportAction
@@ -522,6 +532,8 @@ reportAction
 this
 .
 name
+lazy
+.
 Uptake
 .
 ACTION_PRE_EXECUTION_ERROR
@@ -670,6 +682,8 @@ parsedValue
 validated
 }
 =
+lazy
+.
 JsonSchemaValidator
 .
 validate
@@ -868,11 +882,15 @@ BaseAction
 STATE_READY
 )
 {
+lazy
+.
 Uptake
 .
 reportRecipe
 (
 recipe
+lazy
+.
 Uptake
 .
 RECIPE_ACTION_DISABLED
@@ -1018,6 +1036,8 @@ error
 ;
 uptakeResult
 =
+lazy
+.
 Uptake
 .
 RECIPE_EXECUTION_ERROR
@@ -1058,11 +1078,15 @@ err
 ;
 uptakeResult
 =
+lazy
+.
 Uptake
 .
 RECIPE_EXECUTION_ERROR
 ;
 }
+lazy
+.
 Uptake
 .
 reportRecipe
@@ -1423,6 +1447,8 @@ options
 ;
 status
 =
+lazy
+.
 Uptake
 .
 ACTION_SUCCESS
@@ -1435,6 +1461,8 @@ err
 {
 status
 =
+lazy
+.
 Uptake
 .
 ACTION_POST_EXECUTION_ERROR
@@ -1575,6 +1603,8 @@ disabled
 ;
 status
 =
+lazy
+.
 Uptake
 .
 ACTION_SUCCESS
@@ -1675,6 +1705,8 @@ if
 status
 )
 {
+lazy
+.
 Uptake
 .
 reportAction
@@ -2036,6 +2068,8 @@ suitability
 SIGNATURE_ERROR
 ]
 :
+lazy
+.
 Uptake
 .
 RECIPE_INVALID_SIGNATURE
@@ -2047,6 +2081,8 @@ suitability
 CAPABILITIES_MISMATCH
 ]
 :
+lazy
+.
 Uptake
 .
 RECIPE_INCOMPATIBLE_CAPABILITIES
@@ -2058,6 +2094,8 @@ suitability
 FILTER_MATCH
 ]
 :
+lazy
+.
 Uptake
 .
 RECIPE_SUCCESS
@@ -2069,6 +2107,8 @@ suitability
 FILTER_MISMATCH
 ]
 :
+lazy
+.
 Uptake
 .
 RECIPE_DIDNT_MATCH_FILTER
@@ -2080,6 +2120,8 @@ suitability
 FILTER_ERROR
 ]
 :
+lazy
+.
 Uptake
 .
 RECIPE_FILTER_BROKEN
@@ -2091,6 +2133,8 @@ suitability
 ARGUMENTS_INVALID
 ]
 :
+lazy
+.
 Uptake
 .
 RECIPE_ARGUMENTS_INVALID

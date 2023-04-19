@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExperimentManager
 "
@@ -112,7 +118,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ActionSchemas
 "
@@ -166,6 +172,8 @@ this
 .
 manager
 =
+lazy
+.
 ExperimentManager
 ;
 }
@@ -175,6 +183,8 @@ schema
 )
 {
 return
+lazy
+.
 ActionSchemas
 [
 "
