@@ -252,11 +252,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Services
 :
@@ -400,7 +406,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -440,7 +446,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -586,6 +592,8 @@ handler
 =
 >
 {
+lazy
+.
 Svc
 .
 Obs
@@ -610,6 +618,8 @@ handlerTimeout
 =
 >
 {
+lazy
+.
 Svc
 .
 Obs
@@ -637,6 +647,8 @@ resolve
 ;
 }
 ;
+lazy
+.
 Svc
 .
 Obs
@@ -647,6 +659,8 @@ aEventName
 handler
 )
 ;
+lazy
+.
 setTimeout
 (
 handlerTimeout
@@ -774,6 +788,8 @@ try
 {
 return
 await
+lazy
+.
 fxAccounts
 .
 getSignedInUser
@@ -849,6 +865,8 @@ resolve
 {
 timeoutID
 =
+lazy
+.
 setTimeout
 (
 (
@@ -898,6 +916,8 @@ Promise
 race
 (
 [
+lazy
+.
 fxAccounts
 .
 whenVerified
@@ -911,6 +931,8 @@ finally
 )
 =
 >
+lazy
+.
 clearTimeout
 (
 timeoutID
@@ -957,6 +979,8 @@ page
 let
 mainWindow
 =
+lazy
+.
 Services
 .
 wm
@@ -1203,6 +1227,8 @@ resolve
 var
 timer
 =
+lazy
+.
 setTimeout
 (
 handlerTimeout
@@ -1224,6 +1250,8 @@ resolve
 (
 )
 ;
+lazy
+.
 clearTimeout
 (
 timer
@@ -1376,6 +1404,8 @@ let
 resp
 =
 await
+lazy
+.
 fetch
 (
 restmailURI
@@ -1598,6 +1628,8 @@ link
 :
 "
 +
+lazy
+.
 Log
 .
 exceptionStr
@@ -1638,6 +1670,8 @@ resendVerificationEmail
 )
 ;
 await
+lazy
+.
 fxAccounts
 .
 resendVerificationEmail
@@ -1722,6 +1756,8 @@ ensureConfigured
 )
 ;
 await
+lazy
+.
 FxAccountsConfig
 .
 ensureConfigured
@@ -1732,6 +1768,8 @@ let
 client
 =
 new
+lazy
+.
 FxAccountsClient
 (
 )
@@ -1773,6 +1811,8 @@ fxAccounts
 )
 ;
 await
+lazy
+.
 fxAccounts
 .
 _internal
@@ -1891,6 +1931,8 @@ device
 ID
 .
 await
+lazy
+.
 fxAccounts
 .
 signOut
@@ -1936,12 +1978,16 @@ getSyncLogsDirectory
 )
 {
 return
+lazy
+.
 OS
 .
 Path
 .
 join
 (
+lazy
+.
 OS
 .
 Constants
@@ -1968,6 +2014,8 @@ init
 (
 )
 {
+lazy
+.
 Svc
 .
 Obs
@@ -1986,6 +2034,8 @@ error
 this
 )
 ;
+lazy
+.
 Svc
 .
 Obs
@@ -2004,6 +2054,8 @@ complete
 this
 )
 ;
+lazy
+.
 Svc
 .
 Obs
@@ -2035,6 +2087,8 @@ can
 trigger
 it
 manually
+lazy
+.
 Weave
 .
 Svc
@@ -2051,6 +2105,8 @@ immediateInterval
 7200
 )
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -2067,6 +2123,8 @@ idleInterval
 7200
 )
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -2083,6 +2141,8 @@ activeInterval
 7200
 )
 ;
+lazy
+.
 Weave
 .
 Svc
@@ -2180,6 +2240,8 @@ connected
 )
 ;
 await
+lazy
+.
 Weave
 .
 Service
@@ -2191,6 +2253,8 @@ configure
 if
 (
 !
+lazy
+.
 Weave
 .
 Status
@@ -2213,6 +2277,8 @@ ready
 }
 if
 (
+lazy
+.
 Weave
 .
 Service
@@ -2322,6 +2388,8 @@ sync
 )
 ;
 await
+lazy
+.
 Weave
 .
 Service
@@ -2349,6 +2417,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 resolve
@@ -2409,6 +2479,8 @@ if
 !
 (
 await
+lazy
+.
 OS
 .
 File
@@ -2439,6 +2511,8 @@ let
 iterator
 =
 new
+lazy
+.
 OS
 .
 File
@@ -2461,6 +2535,8 @@ entry
 try
 {
 await
+lazy
+.
 OS
 .
 File
@@ -2541,6 +2617,8 @@ entries
 if
 (
 await
+lazy
+.
 OS
 .
 File
@@ -2561,6 +2639,8 @@ let
 iterator
 =
 new
+lazy
+.
 OS
 .
 File
@@ -2584,6 +2664,8 @@ let
 info
 =
 await
+lazy
+.
 OS
 .
 File
@@ -2660,6 +2742,8 @@ let
 content
 =
 await
+lazy
+.
 OS
 .
 File
@@ -2710,6 +2794,8 @@ initConfig
 autoconfig
 )
 {
+lazy
+.
 Services
 .
 prefs
