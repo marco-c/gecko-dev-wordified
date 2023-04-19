@@ -20731,7 +20731,7 @@ contains
 ComputeSizeFlag
 :
 :
-UseAutoBSize
+IsGridMeasuringReflow
 )
 )
 {

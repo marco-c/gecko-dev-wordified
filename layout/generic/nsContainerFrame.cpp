@@ -16983,17 +16983,6 @@ BSize
 aWM
 )
 )
-|
-|
-aFlags
-.
-contains
-(
-ComputeSizeFlag
-:
-:
-UseAutoBSize
-)
 ;
 const
 auto
