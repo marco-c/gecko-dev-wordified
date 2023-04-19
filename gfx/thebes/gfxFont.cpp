@@ -172,15 +172,6 @@ include
 "
 mozilla
 /
-ServoStyleSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_gfx
 .
 h
@@ -718,10 +709,7 @@ stylo
 MOZ_ASSERT
 (
 !
-ServoStyleSet
-:
-:
-IsCurrentThreadInServoTraversal
+Servo_IsWorkerThread
 (
 )
 )

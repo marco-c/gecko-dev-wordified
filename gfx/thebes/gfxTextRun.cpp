@@ -13519,10 +13519,7 @@ stylo
 MOZ_ASSERT
 (
 !
-ServoStyleSet
-:
-:
-IsCurrentThreadInServoTraversal
+Servo_IsWorkerThread
 (
 )
 )
