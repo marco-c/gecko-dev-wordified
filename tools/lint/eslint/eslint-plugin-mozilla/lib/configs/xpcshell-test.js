@@ -21,6 +21,16 @@ exports
 env
 :
 {
+browser
+:
+false
+"
+mozilla
+/
+privileged
+"
+:
+true
 "
 mozilla
 /
