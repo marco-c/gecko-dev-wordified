@@ -5052,9 +5052,8 @@ in_media_query
 :
 false
 quirks_mode
-container_info
 :
-None
+quirks_mode
 for_smil_animation
 :
 false

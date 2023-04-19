@@ -161,16 +161,6 @@ use
 self
 :
 :
-feature
-:
-:
-FeatureFlags
-;
-pub
-use
-self
-:
-:
 feature_expression
 :
 :

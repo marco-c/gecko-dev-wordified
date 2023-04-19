@@ -1623,10 +1623,6 @@ self
 context
 cascade_level
 cascade_data
-&
-self
-.
-stylist
 )
 ;
 }
@@ -1692,10 +1688,6 @@ self
 context
 cascade_level
 cascade_data
-&
-self
-.
-stylist
 )
 ;
 }
