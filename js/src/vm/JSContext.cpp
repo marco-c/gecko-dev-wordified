@@ -6078,11 +6078,6 @@ options_
 this
 options
 )
-freeLists_
-(
-this
-nullptr
-)
 freeUnusedMemory
 (
 false
