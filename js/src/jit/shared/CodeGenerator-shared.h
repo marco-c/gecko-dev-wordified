@@ -805,15 +805,6 @@ slot
 )
 const
 ;
-inline
-int32_t
-StackOffsetToSlot
-(
-int32_t
-offset
-)
-const
-;
 /
 /
 For

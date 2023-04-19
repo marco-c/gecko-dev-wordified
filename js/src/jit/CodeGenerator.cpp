@@ -93289,7 +93289,7 @@ cx
 compilationId
 graph
 .
-totalSlotsSize
+localSlotsSize
 (
 )
 argumentSlots
