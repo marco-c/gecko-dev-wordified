@@ -328,7 +328,7 @@ this
 .
 mResetButton
 .
-addEventListener
+removeEventListener
 (
 "
 mousedown
