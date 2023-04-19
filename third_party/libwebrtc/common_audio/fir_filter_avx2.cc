@@ -250,7 +250,7 @@ of
 the
 coefficients
 .
-RTC_DCHECK_GT
+RTC_DCHECK_GE
 (
 coefficients_length_
 unaligned_coefficients_length
