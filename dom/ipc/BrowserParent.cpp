@@ -24613,10 +24613,6 @@ const
 uint32_t
 &
 aFlags
-const
-uint64_t
-&
-aBrowserId
 )
 {
 if
@@ -24690,7 +24686,6 @@ widget
 aURI
 aLastVisitedURI
 aFlags
-aBrowserId
 )
 ;
 }
