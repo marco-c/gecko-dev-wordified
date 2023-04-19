@@ -1002,16 +1002,6 @@ true
 ]
 [
 "
-datareporting
-.
-healthreport
-.
-uploadEnabled
-"
-true
-]
-[
-"
 browser
 .
 newtabpage
