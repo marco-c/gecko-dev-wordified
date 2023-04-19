@@ -2393,7 +2393,7 @@ translation
 *
 /
 nscoord
-GetLowestFloatTop
+LowestFloatBStart
 (
 )
 const
