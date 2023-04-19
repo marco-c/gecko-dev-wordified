@@ -65,6 +65,29 @@ Services
 .
 prefs
 .
+setCharPref
+(
+"
+dom
+.
+securecontext
+.
+allowlist
+"
+"
+example
+.
+com
+example
+.
+net
+"
+)
+;
+Services
+.
+prefs
+.
 setBoolPref
 (
 "
@@ -125,7 +148,7 @@ test_hint_preload
 test_103_error_400
 "
 "
-https
+http
 :
 /
 /
@@ -134,7 +157,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -188,7 +211,7 @@ test_hint_preload
 test_103_error_401
 "
 "
-https
+http
 :
 /
 /
@@ -197,7 +220,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -251,7 +274,7 @@ test_hint_preload
 test_103_error_403
 "
 "
-https
+http
 :
 /
 /
@@ -260,7 +283,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -315,7 +338,7 @@ test_hint_preload
 test_103_error_404
 "
 "
-https
+http
 :
 /
 /
@@ -324,7 +347,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -379,7 +402,7 @@ test_hint_preload
 test_103_error_408
 "
 "
-https
+http
 :
 /
 /
@@ -388,7 +411,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -442,7 +465,7 @@ test_hint_preload
 test_103_error_410
 "
 "
-https
+http
 :
 /
 /
@@ -451,7 +474,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -507,7 +530,7 @@ test_hint_preload
 test_103_error_429
 "
 "
-https
+http
 :
 /
 /
@@ -516,7 +539,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -572,7 +595,7 @@ test_hint_preload
 test_103_error_500
 "
 "
-https
+http
 :
 /
 /
@@ -581,7 +604,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -636,7 +659,7 @@ test_hint_preload
 test_103_error_502
 "
 "
-https
+http
 :
 /
 /
@@ -645,7 +668,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -700,7 +723,7 @@ test_hint_preload
 test_103_error_503
 "
 "
-https
+http
 :
 /
 /
@@ -709,7 +732,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
@@ -764,7 +787,7 @@ test_hint_preload
 test_103_error_504
 "
 "
-https
+http
 :
 /
 /
@@ -773,7 +796,7 @@ example
 com
 "
 "
-https
+http
 :
 /
 /
