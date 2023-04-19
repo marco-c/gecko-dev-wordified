@@ -606,12 +606,16 @@ None
 expires
 =
 None
+samesite
+=
+None
 secure
 =
 False
 httponly
 =
 False
+                   
 comment
 =
 None
@@ -712,6 +716,24 @@ which
 the
 cookie
 applies
+        
+:
+param
+samesit
+:
+String
+indicating
+whether
+the
+cookie
+should
+be
+                         
+restricted
+to
+same
+site
+context
         
 :
 param
@@ -1100,6 +1122,14 @@ maybe_set
 httponly
 "
 httponly
+)
+        
+maybe_set
+(
+"
+samesite
+"
+samesite
 )
         
 self
