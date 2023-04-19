@@ -256,6 +256,10 @@ estimate_is_confident
 ;
 /
 /
+Ctor
+.
+/
+/
 adjacent_speech_frames_threshold
 indicates
 how
@@ -287,6 +291,15 @@ across
 frames
 )
 .
+/
+/
+max_output_noise_level_dbfs
+limits
+the
+output
+noise
+level
+.
 AdaptiveDigitalGainApplier
 (
 ApmDataDumper
@@ -296,6 +309,8 @@ int
 adjacent_speech_frames_threshold
 float
 max_gain_change_db_per_second
+float
+max_output_noise_level_dbfs
 )
 ;
 AdaptiveDigitalGainApplier
@@ -377,6 +392,10 @@ adjacent_speech_frames_threshold_
 const
 float
 max_gain_change_db_per_10ms_
+;
+const
+float
+max_output_noise_level_dbfs_
 ;
 int
 calls_since_last_gain_log_

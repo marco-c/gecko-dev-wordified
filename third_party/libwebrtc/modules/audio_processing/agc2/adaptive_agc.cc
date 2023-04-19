@@ -254,6 +254,15 @@ kMaxGainChangePerSecondDb
 .
 f
 ;
+constexpr
+float
+kMaxOutputNoiseLevelDbfs
+=
+-
+50
+.
+f
+;
 }
 /
 /
@@ -277,6 +286,7 @@ gain_applier_
 apm_data_dumper
 kGainApplierAdjacentSpeechFramesThreshold
 kMaxGainChangePerSecondDb
+kMaxOutputNoiseLevelDbfs
 )
 apm_data_dumper_
 (
@@ -358,6 +368,11 @@ config
 adaptive_digital
 .
 max_gain_change_db_per_second
+config
+.
+adaptive_digital
+.
+max_output_noise_level_dbfs
 )
 apm_data_dumper_
 (
