@@ -888,7 +888,7 @@ GetPlatform
 )
 -
 >
-GetGlobalVsyncDispatcher
+GetHardwareVsync
 (
 )
 -

@@ -869,7 +869,7 @@ GetPlatform
 )
 -
 >
-GetGlobalVsyncDispatcher
+GetHardwareVsync
 (
 )
 -

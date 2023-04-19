@@ -609,13 +609,6 @@ nsIException
 .
 h
 "
-#
-include
-"
-VsyncSource
-.
-h
-"
 namespace
 mozilla
 :

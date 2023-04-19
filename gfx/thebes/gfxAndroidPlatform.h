@@ -257,7 +257,7 @@ gfx
 :
 VsyncSource
 >
-CreateGlobalHardwareVsyncSource
+CreateHardwareVsyncSource
 (
 )
 override

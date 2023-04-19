@@ -4911,7 +4911,7 @@ aConsecutiveTouchMoveCount
 )
 ;
 void
-UpdateVsyncParentVsyncDispatcher
+UpdateVsyncParentVsyncSource
 (
 )
 ;

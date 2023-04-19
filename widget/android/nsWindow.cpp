@@ -1882,7 +1882,7 @@ See
 gfxAndroidPlatform
 :
 :
-CreateGlobalHardwareVsyncSource
+CreateHardwareVsyncSource
 (
 )
 for
