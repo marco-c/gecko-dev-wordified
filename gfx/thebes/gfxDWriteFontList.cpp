@@ -3709,6 +3709,11 @@ if
 gfxPlatform
 :
 :
+GetPlatform
+(
+)
+-
+>
 HasVariationFontSupport
 (
 )
