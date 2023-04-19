@@ -4044,7 +4044,10 @@ AppendElement
 *
 atCaret
 .
-ContainerAsContent
+ContainerAs
+<
+nsIContent
+>
 (
 )
 )

@@ -14372,7 +14372,11 @@ IsWhiteSpacePreformatted
 *
 aPoint
 .
-ContainerAsText
+template
+ContainerAs
+<
+Text
+>
 (
 )
 )
@@ -14485,7 +14489,11 @@ IsWhiteSpacePreformatted
 *
 aPoint
 .
-ContainerAsText
+template
+ContainerAs
+<
+Text
+>
 (
 )
 )

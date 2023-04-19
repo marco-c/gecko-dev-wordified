@@ -486,7 +486,10 @@ mTextNode
 (
 aPointToInsert
 .
-ContainerAsText
+ContainerAs
+<
+Text
+>
 (
 )
 )
