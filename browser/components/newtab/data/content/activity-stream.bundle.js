@@ -1265,7 +1265,7 @@ MPL
 .
 *
 /
-var
+const
 MAIN_MESSAGE_TYPE
 =
 "
@@ -1274,7 +1274,7 @@ ActivityStream
 Main
 "
 ;
-var
+const
 CONTENT_MESSAGE_TYPE
 =
 "
@@ -1283,7 +1283,7 @@ ActivityStream
 Content
 "
 ;
-var
+const
 PRELOAD_MESSAGE_TYPE
 =
 "
@@ -1292,12 +1292,12 @@ ActivityStream
 PreloadedBrowser
 "
 ;
-var
+const
 UI_CODE
 =
 1
 ;
-var
+const
 BACKGROUND_PROCESS
 =
 2
@@ -1365,11 +1365,6 @@ BACKGROUND_PROCESS
 :
 UI_CODE
 ;
-/
-/
-Export
-for
-tests
 /
 /
 Create
@@ -3171,7 +3166,7 @@ action
 action
 ;
 }
-var
+const
 actionCreators
 =
 {
@@ -3202,7 +3197,7 @@ certain
 kinds
 of
 actions
-var
+const
 actionUtils
 =
 {
@@ -78308,7 +78303,7 @@ prevState
 ;
 }
 }
-var
+const
 reducers
 =
 {
