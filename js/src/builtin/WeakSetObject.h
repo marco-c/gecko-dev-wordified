@@ -127,9 +127,6 @@ namespace
 js
 {
 class
-GlobalObject
-;
-class
 WeakSetObject
 :
 public
