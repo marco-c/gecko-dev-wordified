@@ -3751,7 +3751,7 @@ wasmIter
 (
 )
 .
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 )
@@ -3764,7 +3764,7 @@ wasmIter
 (
 )
 .
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 ;
@@ -3781,7 +3781,7 @@ will
 skip
 the
 first
-ion
+jit
 -
 >
 wasm

@@ -529,11 +529,11 @@ instance_
 (
 nullptr
 )
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 (
 nullptr
 )
-unwoundIonFrameType_
+unwoundJitFrameType_
 (
 jit
 :
@@ -834,7 +834,7 @@ done
 )
 |
 |
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 )
 ;
 }
@@ -1303,7 +1303,7 @@ returnAddress
 )
 )
 ;
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 fp_
 -
@@ -1312,7 +1312,7 @@ jitEntryCaller
 (
 )
 ;
-unwoundIonFrameType_
+unwoundJitFrameType_
 =
 FrameType
 :
@@ -1335,7 +1335,7 @@ activation_
 >
 setJSExitFP
 (
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 )
@@ -1657,7 +1657,7 @@ JSJit
 frame
 iterator
 .
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 reinterpret_cast
 <
@@ -1668,7 +1668,7 @@ uint8_t
 fp_
 )
 ;
-unwoundIonFrameType_
+unwoundJitFrameType_
 =
 FrameType
 :
@@ -1703,7 +1703,7 @@ activation_
 >
 setJSExitFP
 (
-unwoundIonCallerFP
+unwoundJitCallerFP
 (
 )
 )
@@ -2475,19 +2475,19 @@ FrameType
 WasmFrameIter
 :
 :
-unwoundIonFrameType
+unwoundJitFrameType
 (
 )
 const
 {
 MOZ_ASSERT
 (
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 )
 ;
 MOZ_ASSERT
 (
-unwoundIonFrameType_
+unwoundJitFrameType_
 !
 =
 jit
@@ -2501,7 +2501,7 @@ FrameType
 )
 ;
 return
-unwoundIonFrameType_
+unwoundJitFrameType_
 ;
 }
 uint8_t
@@ -6960,7 +6960,7 @@ stackAddress_
 (
 nullptr
 )
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 (
 nullptr
 )
@@ -7014,7 +7014,7 @@ stackAddress_
 (
 nullptr
 )
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 (
 nullptr
 )
@@ -7068,7 +7068,7 @@ stackAddress_
 (
 nullptr
 )
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 (
 nullptr
 )
@@ -7408,7 +7408,7 @@ jitEntryCaller
 )
 )
 ;
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 fp
 -
@@ -7583,7 +7583,7 @@ callerFP_
 =
 nullptr
 ;
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 fp
 -
@@ -10390,7 +10390,7 @@ stackAddress_
 (
 nullptr
 )
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 (
 nullptr
 )
@@ -10637,7 +10637,7 @@ fp
 )
 )
 {
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 callerFP_
 ;
@@ -10735,7 +10735,7 @@ isFunction
 )
 )
 ;
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 Frame
 :
@@ -10762,10 +10762,10 @@ isJitEntry
 MOZ_ASSERT
 (
 !
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 )
 ;
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 callerFP_
 ;
@@ -10896,7 +10896,7 @@ return
 }
 if
 (
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 )
 {
 MOZ_ASSERT
@@ -11089,7 +11089,7 @@ AssertDirectJitCall
 callerFP_
 )
 ;
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 Frame
 :
@@ -11124,7 +11124,7 @@ isJitEntry
 )
 )
 {
-unwoundIonCallerFP_
+unwoundJitCallerFP_
 =
 callerFP_
 ;
