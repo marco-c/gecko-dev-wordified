@@ -242,8 +242,8 @@ process
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -687,12 +687,10 @@ mPendingRegisterInfo
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

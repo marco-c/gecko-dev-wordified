@@ -176,8 +176,8 @@ types
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 typedef
@@ -277,12 +277,10 @@ default
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

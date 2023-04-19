@@ -172,8 +172,8 @@ HIDs
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -898,12 +898,10 @@ mSignPromise
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -383,8 +383,8 @@ webauthn_enable_android_fido2
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -3394,9 +3394,7 @@ NS_ERROR_DOM_ABORT_ERR
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

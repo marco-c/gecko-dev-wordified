@@ -220,8 +220,8 @@ softtoken_counter
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -6737,9 +6737,7 @@ aborted
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

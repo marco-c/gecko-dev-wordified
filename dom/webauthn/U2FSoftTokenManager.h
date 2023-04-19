@@ -163,8 +163,8 @@ APIs
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -332,12 +332,10 @@ mCounter
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -176,8 +176,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -422,12 +422,10 @@ aClientDataHash
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 namespace
 IPC
 {

@@ -302,8 +302,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -5766,9 +5766,7 @@ NS_ERROR_DOM_ABORT_ERR
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -196,8 +196,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 constexpr
@@ -1151,9 +1151,7 @@ NS_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
