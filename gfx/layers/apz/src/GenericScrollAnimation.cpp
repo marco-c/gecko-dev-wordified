@@ -591,6 +591,8 @@ if
 IsZero
 (
 displacement
+/
+zoom
 )
 )
 {
@@ -810,12 +812,16 @@ if
 IsZero
 (
 displacement
+/
+zoom
 )
 &
 &
 IsZero
 (
 adjustedOffset
+/
+zoom
 )
 )
 {

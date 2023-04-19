@@ -692,6 +692,8 @@ if
 IsZero
 (
 overscroll
+/
+zoom
 )
 )
 {

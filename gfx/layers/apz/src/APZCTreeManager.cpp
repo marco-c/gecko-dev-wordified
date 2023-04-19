@@ -19953,6 +19953,9 @@ off
 .
 if
 (
+current
+-
+>
 IsZero
 (
 residualVelocity

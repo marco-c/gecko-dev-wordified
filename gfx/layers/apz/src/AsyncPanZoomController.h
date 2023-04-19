@@ -3966,6 +3966,16 @@ GetFrameTime
 )
 const
 ;
+bool
+IsZero
+(
+const
+ParentLayerPoint
+&
+aPoint
+)
+const
+;
 private
 :
 /
