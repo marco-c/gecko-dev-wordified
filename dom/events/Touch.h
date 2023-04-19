@@ -497,6 +497,13 @@ aCallerType
 )
 const
 ;
+EventTarget
+*
+GetOriginalTarget
+(
+)
+const
+;
 nsCOMPtr
 <
 EventTarget
