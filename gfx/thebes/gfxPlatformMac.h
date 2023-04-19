@@ -326,14 +326,6 @@ aFontList
 )
 override
 ;
-bool
-IsFontFormatSupported
-(
-uint32_t
-aFormatFlags
-)
-override
-;
 void
 GetCommonFallbackFonts
 (
