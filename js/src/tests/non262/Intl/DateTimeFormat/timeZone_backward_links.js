@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2022a
+2022b
 const
 tzMapper
 =
@@ -727,6 +727,17 @@ UCT
 Etc
 /
 UTC
+"
+"
+Europe
+/
+Kiev
+"
+:
+"
+Europe
+/
+Kyiv
 "
 "
 GB

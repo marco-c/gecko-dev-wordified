@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2022a
+2022b
 /
 /
 This
@@ -2028,12 +2028,12 @@ Kaliningrad
 "
 Europe
 /
-Kiev
+Kirov
 "
 "
 Europe
 /
-Kirov
+Kyiv
 "
 "
 Europe
