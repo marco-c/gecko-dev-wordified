@@ -155,7 +155,6 @@ getVisibleSelectedFrame
 getPauseReason
 getSourceTextContent
 getCurrentThread
-getPausePreviewLocation
 }
 from
 "
@@ -677,19 +676,8 @@ state
 )
 ;
 const
-previewLocation
-=
-getPausePreviewLocation
-(
-state
-)
-;
-const
 location
 =
-previewLocation
-|
-|
 frame
 ?
 .
@@ -697,7 +685,6 @@ location
 ;
 return
 {
-frame
 location
 sourceTextContent
 :
