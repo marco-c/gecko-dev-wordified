@@ -3039,6 +3039,13 @@ WinUtils
 SystemScaleFactor
 (
 )
+/
+LookAndFeel
+:
+:
+GetTextScaleFactor
+(
+)
 ;
 /
 /
