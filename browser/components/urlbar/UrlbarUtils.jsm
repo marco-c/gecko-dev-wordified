@@ -5929,6 +5929,12 @@ url
 {
 url
 input
+:
+input
+.
+toLowerCase
+(
+)
 }
 )
 ;

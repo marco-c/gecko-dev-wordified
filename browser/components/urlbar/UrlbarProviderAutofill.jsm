@@ -3972,8 +3972,6 @@ id
 WHERE
 :
 searchString
-COLLATE
-NOCASE
 BETWEEN
 i
 .
