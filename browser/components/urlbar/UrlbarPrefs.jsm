@@ -1037,7 +1037,7 @@ resolve
 "
 dnsResolveSingleWordsAfterSearch
 "
-1
+0
 ]
 /
 /
