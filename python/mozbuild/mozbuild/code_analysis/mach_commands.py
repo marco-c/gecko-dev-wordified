@@ -6048,6 +6048,13 @@ command
 =
 "
 cpp
+-
+std
+=
+c
++
++
+17
 "
 +
 file
