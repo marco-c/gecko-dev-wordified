@@ -290,6 +290,8 @@ H264
 enum
 class
 MediaCodec
+:
+int
 {
 #
 define
@@ -416,6 +418,8 @@ AACSoftwareDecode
 enum
 class
 MediaCodecsSupport
+:
+int
 {
 #
 define
@@ -488,6 +492,8 @@ information
 enum
 class
 DecodeSupport
+:
+int
 {
 Unsupported
 =

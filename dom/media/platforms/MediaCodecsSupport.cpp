@@ -492,7 +492,13 @@ enum
 %
 d
 "
+static_cast
+<
+int
+>
+(
 it
+)
 )
 ;
 aSupportString
@@ -870,7 +876,13 @@ enum
 d
 !
 "
+static_cast
+<
+int
+>
+(
 aCodec
+)
 )
 ;
 }
