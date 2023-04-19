@@ -364,10 +364,10 @@ instead
 .
 *
 /
-JXL_DEPRECATED
 static
 const
 int
+JXL_DEPRECATED
 JXL_TYPE_BOOLEAN
 =
 1
@@ -386,10 +386,10 @@ instead
 .
 *
 /
-JXL_DEPRECATED
 static
 const
 int
+JXL_DEPRECATED
 JXL_TYPE_UINT32
 =
 4

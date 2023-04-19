@@ -1627,6 +1627,11 @@ if
 metadata
 .
 have_animation
+bool
+use_sjpeg
+=
+false
+;
 /
 /
 If

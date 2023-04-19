@@ -1574,12 +1574,10 @@ GetWriteToPixelCallbackStage
 pixel_callback
 width
 height
-output_channels
+rgb_output_is_rgba
 has_alpha
 unpremul_alpha
 alpha_c
-swap_endianness
-undo_orientation
 )
 )
 ;

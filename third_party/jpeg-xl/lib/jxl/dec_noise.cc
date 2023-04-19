@@ -219,15 +219,6 @@ hwy
 HWY_NAMESPACE
 :
 :
-Or
-;
-using
-hwy
-:
-:
-HWY_NAMESPACE
-:
-:
 ShiftRight
 ;
 using
@@ -390,8 +381,6 @@ rand12
 BitCast
 (
 df
-Or
-(
 ShiftRight
 <
 9
@@ -399,11 +388,11 @@ ShiftRight
 (
 bits
 )
+|
 Set
 (
 du
 0x3F800000
-)
 )
 )
 ;

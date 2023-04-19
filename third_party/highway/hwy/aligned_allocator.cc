@@ -6,19 +6,6 @@ Google
 LLC
 /
 /
-SPDX
--
-License
--
-Identifier
-:
-Apache
--
-2
-.
-0
-/
-/
 /
 /
 Licensed
@@ -438,7 +425,6 @@ offset
 /
 /
 namespace
-HWY_DLLEXPORT
 void
 *
 AllocateAlignedBytes
@@ -870,7 +856,6 @@ kAlignment
 )
 ;
 }
-HWY_DLLEXPORT
 void
 FreeAlignedBytes
 (
@@ -969,7 +954,6 @@ allocated
 /
 /
 static
-HWY_DLLEXPORT
 void
 AlignedDeleter
 :

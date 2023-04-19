@@ -3553,8 +3553,8 @@ future
 .
 *
 /
-JXL_DEPRECATED
 JXL_EXPORT
+JXL_DEPRECATED
 JxlDecoderStatus
 JxlDecoderDefaultPixelFormat
 (
@@ -7992,8 +7992,8 @@ rendering
 .
 *
 /
-JXL_DEPRECATED
 JXL_EXPORT
+JXL_DEPRECATED
 JxlDecoderStatus
 JxlDecoderDCOutBufferSize
 (
@@ -8173,8 +8173,8 @@ rendering
 .
 *
 /
-JXL_DEPRECATED
 JXL_EXPORT
+JXL_DEPRECATED
 JxlDecoderStatus
 JxlDecoderSetDCOutBuffer
 (

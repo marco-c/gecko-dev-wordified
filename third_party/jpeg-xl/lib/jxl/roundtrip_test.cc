@@ -746,6 +746,13 @@ pixel_format
 endianness
 /
 *
+flipped_y
+=
+*
+/
+false
+/
+*
 pool
 =
 *
