@@ -55103,6 +55103,10 @@ move
 (
 snapArea
 )
+styleDisplay
+-
+>
+mScrollSnapStop
 )
 :
 ScrollSnapInfo
@@ -55131,6 +55135,10 @@ move
 (
 snapArea
 )
+styleDisplay
+-
+>
+mScrollSnapStop
 )
 )
 ;

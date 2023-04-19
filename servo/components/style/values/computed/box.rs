@@ -201,6 +201,7 @@ OverflowClipBox
 OverscrollBehavior
 ScrollSnapAlign
 ScrollSnapAxis
+ScrollSnapStop
 ScrollSnapStrictness
 ScrollSnapType
 ScrollbarGutter

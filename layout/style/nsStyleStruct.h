@@ -8422,6 +8422,12 @@ mScrollSnapAlign
 mozilla
 :
 :
+StyleScrollSnapStop
+mScrollSnapStop
+;
+mozilla
+:
+:
 StyleScrollSnapType
 mScrollSnapType
 ;
