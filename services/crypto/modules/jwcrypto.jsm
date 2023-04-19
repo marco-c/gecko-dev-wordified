@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 crypto
@@ -366,6 +372,8 @@ const
 epk
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -385,6 +393,8 @@ const
 ownPublicJWK
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -489,6 +499,8 @@ const
 peerPublicKey
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -645,6 +657,8 @@ case
 let
 iv
 =
+lazy
+.
 crypto
 .
 getRandomValues
@@ -707,6 +721,8 @@ const
 encrypted
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1173,6 +1189,8 @@ const
 peerPublicKey
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1299,6 +1317,8 @@ const
 decrypted
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1460,6 +1480,8 @@ const
 sharedKey
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1515,6 +1537,8 @@ let
 sharedKeyBytes
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1666,6 +1690,8 @@ const
 derivedKeyBytes
 =
 await
+lazy
+.
 crypto
 .
 subtle
@@ -1685,6 +1711,8 @@ pkcsBuf
 )
 ;
 return
+lazy
+.
 crypto
 .
 subtle
