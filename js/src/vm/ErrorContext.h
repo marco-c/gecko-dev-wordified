@@ -353,7 +353,7 @@ nullptr
 ;
 virtual
 void
-reportAllocationOverflow
+onAllocationOverflow
 (
 )
 =
@@ -492,7 +492,7 @@ nullptr
 override
 ;
 void
-reportAllocationOverflow
+onAllocationOverflow
 (
 )
 override
@@ -652,7 +652,7 @@ nullptr
 override
 ;
 void
-reportAllocationOverflow
+onAllocationOverflow
 (
 )
 override

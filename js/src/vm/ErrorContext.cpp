@@ -164,7 +164,7 @@ reportAllocationOverflow
 context_
 -
 >
-reportAllocationOverflow
+onAllocationOverflow
 (
 )
 ;
@@ -251,7 +251,7 @@ void
 MainThreadErrorContext
 :
 :
-reportAllocationOverflow
+onAllocationOverflow
 (
 )
 {
@@ -511,7 +511,7 @@ void
 OffThreadErrorContext
 :
 :
-reportAllocationOverflow
+onAllocationOverflow
 (
 )
 {
