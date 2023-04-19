@@ -1020,13 +1020,9 @@ xpc
 Scriptability
 :
 :
-Get
+AllowedIfExists
 (
 aEvaluationGlobal
-)
-.
-Allowed
-(
 )
 ;
 }
