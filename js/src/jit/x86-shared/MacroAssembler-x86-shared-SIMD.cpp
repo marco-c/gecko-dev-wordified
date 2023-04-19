@@ -9719,7 +9719,7 @@ zeroes
 in
 dest
 .
-vpxor
+vxorps
 (
 Operand
 (
@@ -10217,13 +10217,13 @@ IEEE
 754
 number
 representation
-to
+:
 convert
 lanes
 above
-/
-/
 7FFFFFFFh
+/
+/
 mutiply
 by
 2
@@ -10236,6 +10236,8 @@ exponent
 )
 and
 shift
+to
+the
 left
 by
 8
