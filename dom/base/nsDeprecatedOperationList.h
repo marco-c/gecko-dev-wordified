@@ -312,10 +312,6 @@ MathML_DeprecatedBevelledAttribute
 )
 DEPRECATED_OPERATION
 (
-MathML_DeprecatedLineThicknessValue
-)
-DEPRECATED_OPERATION
-(
 MathML_DeprecatedMathSizeValue
 )
 DEPRECATED_OPERATION
