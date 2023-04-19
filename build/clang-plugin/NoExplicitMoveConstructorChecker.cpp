@@ -91,6 +91,9 @@ cxxConstructorDecl
 isExplicitMoveConstructor
 (
 )
+isFirstParty
+(
+)
 )
 .
 bind
