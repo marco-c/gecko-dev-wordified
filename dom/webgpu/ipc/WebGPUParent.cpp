@@ -3114,6 +3114,16 @@ BufferMapSuccess
 (
 offset
 size
+req
+-
+>
+mHostMap
+=
+=
+ffi
+:
+:
+WGPUHostMap_Write
 )
 ;
 mapData
