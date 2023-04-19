@@ -36,9 +36,7 @@ test_console_log_cached_messages
 (
     
 bidi_session
-current_session
 wait_for_event
-inline
 log_type
 top_context
 )
@@ -95,10 +93,36 @@ previous
 tests
 .
     
-current_session
+await
+bidi_session
 .
-refresh
+browsing_context
+.
+navigate
 (
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+url
+=
+top_context
+[
+"
+url
+"
+]
+wait
+=
+"
+complete
+"
+    
 )
     
 #
@@ -110,10 +134,11 @@ subscribing
     
 expected_text
 =
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 cached_message
@@ -344,10 +369,11 @@ entryAdded
     
 expected_text
 =
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 live_message
@@ -426,10 +452,11 @@ entryAdded
     
 expected_text
 =
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 cached_message_2
@@ -539,9 +566,8 @@ test_console_log_cached_message_after_refresh
 (
     
 bidi_session
-current_session
 wait_for_event
-inline
+top_context
 log_type
 )
 :
@@ -597,10 +623,36 @@ previous
 tests
 .
     
-current_session
+await
+bidi_session
 .
-refresh
+browsing_context
+.
+navigate
 (
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+url
+=
+top_context
+[
+"
+url
+"
+]
+wait
+=
+"
+complete
+"
+    
 )
     
 #
@@ -662,28 +714,56 @@ message
 and
 subscribe
     
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 missed_message
 "
 )
     
-current_session
+await
+bidi_session
 .
-refresh
+browsing_context
+.
+navigate
 (
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+url
+=
+top_context
+[
+"
+url
+"
+]
+wait
+=
+"
+complete
+"
+    
 )
     
 expected_text
 =
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 cached_message
