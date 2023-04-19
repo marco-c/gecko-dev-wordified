@@ -737,6 +737,10 @@ mProg
 ;
 const
 GLint
+mLoc_uAlphaMultiply
+;
+const
+GLint
 mLoc_uDestMatrix
 ;
 const
@@ -894,6 +898,11 @@ Maybe
 uint32_t
 >
 texUnitForColorLut
+;
+bool
+alphaMultiply
+=
+false
 ;
 }
 ;

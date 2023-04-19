@@ -130,14 +130,7 @@ h
 #
 include
 <
-DXGIType
-.
-h
->
-#
-include
-<
-dxgiformat
+dxgi1_2
 .
 h
 >
@@ -1841,6 +1834,9 @@ gfx
 :
 SurfaceFormat
 format
+;
+DXGI_ALPHA_MODE
+alphaMode
 ;
 CspaceAndRange
 space
