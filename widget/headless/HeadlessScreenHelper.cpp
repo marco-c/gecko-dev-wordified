@@ -276,6 +276,7 @@ rect
 rect
 24
 24
+0
 DesktopToLayoutDeviceScale
 (
 )
@@ -285,6 +286,13 @@ CSSToLayoutDeviceScale
 96
 .
 0f
+Screen
+:
+:
+IsPseudoDisplay
+:
+:
+No
 )
 ;
 screenList
