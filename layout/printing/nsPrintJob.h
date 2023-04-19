@@ -612,13 +612,13 @@ nsresult
 Initialize
 (
 nsIDocumentViewerPrint
-*
+&
 aDocViewerPrint
 nsIDocShell
-*
+&
 aDocShell
 Document
-*
+&
 aOriginalDoc
 float
 aScreenDPI
