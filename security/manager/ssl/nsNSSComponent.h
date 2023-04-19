@@ -581,13 +581,6 @@ out
 TimeDuration
 &
 hardTimeout
-const
-mozilla
-:
-:
-MutexAutoLock
-&
-proofOfLock
 )
 ;
 void
