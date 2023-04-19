@@ -1887,6 +1887,12 @@ bumpGeneration
 (
 )
 ;
+scopeCache
+.
+purge
+(
+)
+;
 }
 void
 purgeStencils

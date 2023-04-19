@@ -487,6 +487,9 @@ ScopeStencil
 struct
 ScopeStencilRef
 ;
+class
+RuntimeScopeBindingCache
+;
 }
 /
 /
@@ -1970,6 +1973,16 @@ AbstractBindingIter
 <
 JSAtom
 >
+;
+friend
+class
+js
+:
+:
+frontend
+:
+:
+RuntimeScopeBindingCache
 ;
 protected
 :

@@ -7723,8 +7723,11 @@ the
 mean
 time
 .
-ScopeBindingCache
+StencilScopeBindingCache
 scopeCache
+(
+merger
+)
 ;
 while
 (
