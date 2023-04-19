@@ -25473,11 +25473,15 @@ wasm
 :
 WasmTryNote
 (
+)
+;
+tryNote
+.
+setTryBodyBegin
+(
 currentOffset
 (
 )
-0
-0
 )
 ;
 return
