@@ -3651,6 +3651,15 @@ DrawingBufferSize
 (
 )
 ;
+if
+(
+IsContextLost
+(
+)
+)
+return
+false
+;
 data
 .
 mIsOpaque
