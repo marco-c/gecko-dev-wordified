@@ -4767,6 +4767,13 @@ add
 logical_cores
 )
         
+if
+physical_cores
+is
+not
+None
+:
+            
 system_metrics
 .
 physical_cores
