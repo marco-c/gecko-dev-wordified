@@ -2881,10 +2881,6 @@ getEngineByName
 (
 details
 .
-chrome_settings_overrides
-.
-search_provider
-.
 name
 )
 ;
@@ -10509,7 +10505,7 @@ locale
 }
 engine
 .
-_updateFromManifest
+updateFromManifest
 (
 policy
 .
@@ -15434,7 +15430,7 @@ defaultPrivateEngine
 ;
 engine
 .
-_updateFromManifest
+updateFromManifest
 (
 extension
 .

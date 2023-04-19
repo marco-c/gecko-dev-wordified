@@ -973,12 +973,6 @@ test
 policy
 engine
 "
-chrome_settings_overrides
-:
-{
-search_provider
-:
-{
 name
 :
 "
@@ -1004,8 +998,6 @@ search
 searchTerms
 }
 "
-}
-}
 }
 )
 ;

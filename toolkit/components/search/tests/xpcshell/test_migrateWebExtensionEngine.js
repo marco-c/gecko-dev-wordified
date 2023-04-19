@@ -748,12 +748,6 @@ search
 addPolicyEngine
 (
 {
-chrome_settings_overrides
-:
-{
-search_provider
-:
-{
 name
 :
 "
@@ -770,8 +764,6 @@ example
 .
 com
 "
-}
-}
 }
 )
 /
@@ -817,12 +809,6 @@ search
 addPolicyEngine
 (
 {
-chrome_settings_overrides
-:
-{
-search_provider
-:
-{
 name
 :
 "
@@ -840,8 +826,6 @@ example
 .
 com
 "
-}
-}
 }
 )
 ;

@@ -10893,12 +10893,6 @@ IconURL
 href
 :
 null
-chrome_settings_overrides
-:
-{
-search_provider
-:
-{
 name
 :
 newEngine
@@ -10967,8 +10961,6 @@ suggest_url
 newEngine
 .
 SuggestURLTemplate
-}
-}
 }
 ;
 let

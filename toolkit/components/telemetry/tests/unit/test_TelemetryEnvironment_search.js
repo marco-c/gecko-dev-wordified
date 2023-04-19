@@ -2408,7 +2408,7 @@ engine
 .
 wrappedJSObject
 .
-_updateFromManifest
+updateFromManifest
 (
 extension
 .
