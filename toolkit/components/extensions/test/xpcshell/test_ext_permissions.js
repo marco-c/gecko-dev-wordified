@@ -3749,6 +3749,12 @@ contextualIdentities
 cookies
 "
 "
+declarativeNetRequestFeedback
+"
+"
+declarativeNetRequestWithHostAccess
+"
+"
 dns
 "
 "
