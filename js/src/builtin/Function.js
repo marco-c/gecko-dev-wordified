@@ -110,6 +110,7 @@ IsCallable
 target
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
@@ -122,6 +123,7 @@ bind
 target
 )
 ;
+}
 /
 /
 Step
@@ -528,9 +530,11 @@ if
 (
 false
 )
+{
 void
 boundArgs
 ;
+}
 var
 newTarget
 ;
@@ -555,10 +559,12 @@ newTarget
 =
 bound
 )
+{
 newTarget
 =
 fun
 ;
+}
 switch
 (
 arguments
@@ -837,9 +843,11 @@ if
 (
 false
 )
+{
 void
 boundArgs
 ;
+}
 var
 newTarget
 ;
@@ -864,10 +872,12 @@ newTarget
 =
 bound
 )
+{
 newTarget
 =
 fun
 ;
+}
 switch
 (
 arguments
@@ -1124,6 +1134,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 args
@@ -1136,6 +1147,7 @@ i
 ]
 )
 ;
+}
 return
 args
 ;
@@ -1160,6 +1172,7 @@ newTarget
 =
 undefined
 )
+{
 return
 bind_applyFunctionN
 (
@@ -1168,6 +1181,7 @@ thisArg
 args
 )
 ;
+}
 return
 bind_constructFunctionN
 (
@@ -1242,9 +1256,11 @@ if
 (
 false
 )
+{
 void
 boundArgs
 ;
+}
 var
 newTarget
 ;
@@ -1269,10 +1285,12 @@ newTarget
 =
 bound
 )
+{
 newTarget
 =
 fun
 ;
+}
 switch
 (
 arguments
@@ -1548,6 +1566,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 args
@@ -1560,6 +1579,7 @@ i
 ]
 )
 ;
+}
 return
 args
 ;
@@ -1584,6 +1604,7 @@ newTarget
 =
 undefined
 )
+{
 return
 bind_applyFunctionN
 (
@@ -1592,6 +1613,7 @@ thisArg
 args
 )
 ;
+}
 return
 bind_constructFunctionN
 (
@@ -1670,10 +1692,12 @@ newTarget
 =
 bound
 )
+{
 newTarget
 =
 fun
 ;
+}
 }
 if
 (
@@ -1694,6 +1718,7 @@ newTarget
 =
 undefined
 )
+{
 return
 bind_constructFunctionN
 (
@@ -1702,6 +1727,7 @@ newTarget
 boundArgs
 )
 ;
+}
 return
 bind_applyFunctionN
 (
@@ -1765,6 +1791,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 args
@@ -1775,6 +1802,7 @@ i
 ]
 )
 ;
+}
 for
 (
 var
@@ -1790,6 +1818,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 args
@@ -1802,6 +1831,7 @@ i
 ]
 )
 ;
+}
 return
 args
 ;
@@ -1826,6 +1856,7 @@ newTarget
 =
 undefined
 )
+{
 return
 bind_constructFunctionN
 (
@@ -1834,6 +1865,7 @@ newTarget
 args
 )
 ;
+}
 return
 bind_applyFunctionN
 (
@@ -1880,6 +1912,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 args
@@ -1890,6 +1923,7 @@ i
 ]
 )
 ;
+}
 return
 args
 ;
