@@ -3677,6 +3677,9 @@ available
 on
 Windows
 11
+and
+Apple
+Silicon
 .
 "
 experimental
