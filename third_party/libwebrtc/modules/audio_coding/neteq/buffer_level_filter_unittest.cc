@@ -228,7 +228,7 @@ filter
 .
 SetTargetBufferLevel
 (
-1
+20
 )
 ;
 /
@@ -484,7 +484,7 @@ filter
 .
 SetTargetBufferLevel
 (
-3
+60
 )
 ;
 /
@@ -579,7 +579,7 @@ filter
 .
 SetTargetBufferLevel
 (
-7
+140
 )
 ;
 /
@@ -673,7 +673,7 @@ filter
 .
 SetTargetBufferLevel
 (
-8
+160
 )
 ;
 /
@@ -771,7 +771,7 @@ filter
 .
 SetTargetBufferLevel
 (
-1
+20
 )
 ;
 /
