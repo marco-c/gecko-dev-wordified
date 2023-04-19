@@ -5309,15 +5309,6 @@ initialized
 .
 *
 /
-js
-:
-:
-WriteOnceData
-<
-bool
->
-gcInitialized
-;
 bool
 hasZealMode
 (
