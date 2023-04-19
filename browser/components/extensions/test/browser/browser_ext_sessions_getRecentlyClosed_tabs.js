@@ -692,16 +692,6 @@ startup
 (
 )
 ;
-let
-sessionUpdatePromise
-=
-BrowserTestUtils
-.
-waitForSessionStoreUpdate
-(
-tab
-)
-;
 /
 /
 Test
@@ -716,9 +706,6 @@ removeTab
 (
 tab
 )
-;
-await
-sessionUpdatePromise
 ;
 extension
 .
