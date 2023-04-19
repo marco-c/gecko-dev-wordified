@@ -1,7 +1,7 @@
 const
 {
 element
-WebElement
+WebReference
 }
 =
 ChromeUtils
@@ -333,7 +333,7 @@ browser
 const
 domWebEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -343,7 +343,7 @@ domEl
 const
 svgWebEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -353,7 +353,7 @@ svgEl
 const
 xulWebEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -1247,7 +1247,7 @@ browsingContextId
 4
 webElRef
 :
-WebElement
+WebReference
 .
 from
 (

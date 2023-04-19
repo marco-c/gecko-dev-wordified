@@ -84,7 +84,7 @@ ContentWebWindow
 element
 "
 "
-WebElement
+WebReference
 "
 ]
 ;
@@ -597,7 +597,7 @@ is
 augmented
 with
 a
-WebElement
+WebReference
 *
 reference
 so
@@ -865,7 +865,7 @@ return
 Array
 .
 <
-WebElement
+WebReference
 >
 }
 *
@@ -952,7 +952,7 @@ elements
 *
 return
 {
-WebElement
+WebReference
 }
 *
 Web
@@ -1016,7 +1016,7 @@ id
 )
 {
 return
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -1036,7 +1036,7 @@ id
 const
 webEl
 =
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -1110,7 +1110,7 @@ performed
 *
 param
 {
-WebElement
+WebReference
 }
 webEl
 *
@@ -1160,7 +1160,7 @@ not
 a
 {
 link
-WebElement
+WebReference
 }
 .
 *
@@ -1176,7 +1176,7 @@ if
 (
 webEl
 instanceof
-WebElement
+WebReference
 )
 )
 {
@@ -1234,7 +1234,7 @@ its
 unique
 {
 link
-WebElement
+WebReference
 }
 reference
 .
@@ -1242,7 +1242,7 @@ reference
 *
 param
 {
-WebElement
+WebReference
 }
 webEl
 *
@@ -1289,7 +1289,7 @@ not
 a
 {
 link
-WebElement
+WebReference
 }
 .
 *
@@ -1331,7 +1331,7 @@ if
 (
 webEl
 instanceof
-WebElement
+WebReference
 )
 )
 {
@@ -3815,7 +3815,7 @@ augmented
 with
 a
 Marionette
-WebElement
+WebReference
 reference
 and
 some
@@ -3939,7 +3939,7 @@ refreshed
 const
 webEl
 =
-WebElement
+WebReference
 .
 from
 (
@@ -9564,7 +9564,7 @@ attr
 *
 A
 web
-element
+reference
 is
 an
 abstraction
@@ -9607,7 +9607,7 @@ elements
 *
 /
 class
-WebElement
+WebReference
 {
 /
 *
@@ -9684,7 +9684,7 @@ var
 *
 param
 {
-WebElement
+WebReference
 }
 other
 *
@@ -9732,7 +9732,7 @@ other
 return
 other
 instanceof
-WebElement
+WebReference
 &
 &
 this
@@ -9779,7 +9779,7 @@ a
 new
 {
 link
-WebElement
+WebReference
 }
 reference
 for
@@ -9897,7 +9897,7 @@ node
 const
 uuid
 =
-WebElement
+WebReference
 .
 generateUUID
 (
@@ -10149,7 +10149,7 @@ of
 the
 {
 link
-WebElement
+WebReference
 }
 concrete
 *
@@ -10162,7 +10162,7 @@ identifiers
 *
 return
 {
-WebElement
+WebReference
 }
 *
 Representation
@@ -10215,7 +10215,7 @@ if
 (
 json
 instanceof
-WebElement
+WebReference
 )
 {
 return
@@ -10434,7 +10434,7 @@ of
 *
 {
 link
-WebElement
+WebReference
 }
 to
 return
@@ -10490,7 +10490,7 @@ element
 *
 return
 {
-WebElement
+WebReference
 }
 *
 One
@@ -10636,7 +10636,7 @@ is
 a
 {
 link
-WebElement
+WebReference
 }
 reference
 *
@@ -10686,7 +10686,7 @@ to
 a
 {
 link
-WebElement
+WebReference
 }
 .
 *
@@ -10709,7 +10709,7 @@ is
 a
 {
 link
-WebElement
+WebReference
 }
 false
 otherwise
@@ -10874,7 +10874,7 @@ protocol
 class
 ContentWebElement
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -10999,7 +10999,7 @@ protocol
 class
 ContentShadowRoot
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -11145,7 +11145,7 @@ protocol
 class
 ContentWebWindow
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -11307,7 +11307,7 @@ protocol
 class
 ContentWebFrame
 extends
-WebElement
+WebReference
 {
 toJSON
 (
@@ -11429,7 +11429,7 @@ protocol
 class
 ChromeWebElement
 extends
-WebElement
+WebReference
 {
 toJSON
 (

@@ -266,7 +266,7 @@ message
 .
 js
 "
-WebElement
+WebReference
 :
 "
 chrome
@@ -1962,7 +1962,7 @@ rv
 instanceof
 lazy
 .
-WebElement
+WebReference
 |
 |
 typeof

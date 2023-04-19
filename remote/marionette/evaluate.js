@@ -190,7 +190,7 @@ Log
 .
 jsm
 "
-WebElement
+WebReference
 :
 "
 chrome
@@ -1492,7 +1492,7 @@ element
 .
 ReferenceStore
 return
-WebElement
+WebReference
 .
 If
 seenEls
@@ -1519,7 +1519,7 @@ the
 parent
 process
 the
-WebElement
+WebReference
 *
 is
 passed
@@ -1751,7 +1751,7 @@ if
 (
 lazy
 .
-WebElement
+WebReference
 .
 isReference
 (
@@ -1981,7 +1981,7 @@ returned
 *
 *
 -
-WebElements
+WebReferences
 are
 transformed
 to
@@ -2315,14 +2315,14 @@ seenEls
 ;
 /
 /
-WebElement
+WebReference
 }
 else
 if
 (
 lazy
 .
-WebElement
+WebReference
 .
 isReference
 (
@@ -2349,7 +2349,7 @@ get
 (
 lazy
 .
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -2366,7 +2366,7 @@ if
 (
 lazy
 .
-WebElement
+WebReference
 .
 isReference
 (

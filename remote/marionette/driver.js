@@ -807,7 +807,7 @@ Session
 .
 jsm
 "
-WebElement
+WebReference
 :
 "
 chrome
@@ -4218,7 +4218,7 @@ number
 |
 object
 |
-WebElement
+WebReference
 )
 >
 }
@@ -4430,7 +4430,7 @@ number
 |
 object
 |
-WebElement
+WebReference
 )
 }
 *
@@ -4860,7 +4860,7 @@ number
 |
 object
 |
-WebElement
+WebReference
 )
 >
 }
@@ -5072,7 +5072,7 @@ number
 |
 object
 |
-WebElement
+WebReference
 )
 }
 *
@@ -9210,7 +9210,7 @@ should
 be
 passed
 as
-WebElement
+WebReference
 reference
 let
 byFrame
@@ -9230,7 +9230,7 @@ byFrame
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -9251,7 +9251,7 @@ byFrame
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromJSON
 (
@@ -9483,7 +9483,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -10033,7 +10033,7 @@ startNode
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -10310,7 +10310,7 @@ startNode
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -10613,7 +10613,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -10653,7 +10653,7 @@ document
 *
 return
 {
-WebElement
+WebReference
 }
 *
 Active
@@ -10982,7 +10982,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -11313,7 +11313,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -11573,7 +11573,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -11802,7 +11802,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -12017,7 +12017,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -12207,7 +12207,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -12468,7 +12468,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -12683,7 +12683,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -12879,7 +12879,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -13058,7 +13058,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -13300,7 +13300,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -13507,7 +13507,7 @@ webEl
 =
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
@@ -16021,7 +16021,7 @@ id
 ?
 lazy
 .
-WebElement
+WebReference
 .
 fromUUID
 (
