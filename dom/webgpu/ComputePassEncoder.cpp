@@ -413,7 +413,7 @@ void
 ComputePassEncoder
 :
 :
-DispatchWorkgroups
+Dispatch
 (
 uint32_t
 x
@@ -445,7 +445,7 @@ void
 ComputePassEncoder
 :
 :
-DispatchWorkgroupsIndirect
+DispatchIndirect
 (
 const
 Buffer
