@@ -1806,6 +1806,12 @@ case
 JSOp
 :
 :
+PushVarEnv
+:
+case
+JSOp
+:
+:
 ImplicitThis
 :
 case

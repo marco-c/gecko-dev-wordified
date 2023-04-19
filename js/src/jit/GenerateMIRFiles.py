@@ -700,6 +700,11 @@ ClassBodyScope
 "
     
 "
+VarScope
+*
+"
+    
+"
 NamedLambdaObject
 *
 "
