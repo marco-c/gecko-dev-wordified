@@ -1274,6 +1274,8 @@ targets
 .
 bool
 mHasSkippedTargets
+=
+false
 ;
 /
 /
