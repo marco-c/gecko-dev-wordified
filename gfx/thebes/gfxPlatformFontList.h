@@ -1842,8 +1842,10 @@ gfxFontFamily
 aFamilyArray
 )
 ;
+already_AddRefed
+<
 gfxFont
-*
+>
 SystemFindFontForChar
 (
 nsPresContext
@@ -5145,8 +5147,10 @@ given
 character
 null
 otherwise
+already_AddRefed
+<
 gfxFont
-*
+>
 CommonFontFallback
 (
 nsPresContext
@@ -5189,8 +5193,10 @@ if
 not
 found
 .
+already_AddRefed
+<
 gfxFont
-*
+>
 GlobalFontFallback
 (
 nsPresContext
