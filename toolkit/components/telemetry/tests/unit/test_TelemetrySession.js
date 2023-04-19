@@ -1785,6 +1785,7 @@ checkScalar
 function
 (
 scalar
+name
 )
 {
 /
@@ -1967,6 +1968,7 @@ scalars
 [
 name
 ]
+name
 )
 ;
 }
@@ -2111,6 +2113,7 @@ name
 [
 key
 ]
+name
 )
 ;
 }
