@@ -61,7 +61,7 @@ MPL
 import
 {
 getSymbols
-getSource
+getLocationSource
 getSelectedFrame
 getCurrentThread
 }
@@ -314,7 +314,7 @@ return
 const
 source
 =
-getSource
+getLocationSource
 (
 getState
 (
@@ -322,8 +322,6 @@ getState
 frame
 .
 location
-.
-sourceId
 )
 ;
 if

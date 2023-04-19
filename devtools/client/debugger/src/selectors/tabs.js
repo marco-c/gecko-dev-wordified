@@ -99,7 +99,7 @@ source
 ;
 import
 {
-getSource
+getLocationSource
 getSpecificSourceByURL
 getSourcesMap
 }
@@ -398,12 +398,10 @@ return
 const
 selectedTab
 =
-getSource
+getLocationSource
 (
 state
 selectedLocation
-.
-sourceId
 )
 ;
 if

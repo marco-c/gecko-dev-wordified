@@ -759,11 +759,9 @@ originalSource
 =
 dbg
 .
-getSource
+getLocationSource
 (
 originalLocation
-.
-sourceId
 )
 ;
 if

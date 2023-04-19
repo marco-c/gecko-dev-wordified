@@ -62,7 +62,7 @@ import
 {
 getFrames
 getSymbols
-getSource
+getLocationSource
 }
 from
 "
@@ -115,7 +115,7 @@ frame
 const
 source
 =
-getSource
+getLocationSource
 (
 getState
 (
@@ -123,8 +123,6 @@ getState
 frame
 .
 location
-.
-sourceId
 )
 ;
 if

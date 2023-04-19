@@ -62,6 +62,7 @@ import
 {
 getSelectedFrameId
 getSource
+getLocationSource
 getSourceContent
 isMapScopesEnabled
 getSelectedFrame
@@ -765,7 +766,7 @@ thunkArgs
 const
 generatedSource
 =
-getSource
+getLocationSource
 (
 getState
 (
@@ -773,14 +774,12 @@ getState
 frame
 .
 generatedLocation
-.
-sourceId
 )
 ;
 const
 source
 =
-getSource
+getLocationSource
 (
 getState
 (
@@ -788,8 +787,6 @@ getState
 frame
 .
 location
-.
-sourceId
 )
 ;
 if
