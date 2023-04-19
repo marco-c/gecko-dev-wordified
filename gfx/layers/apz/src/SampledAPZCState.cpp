@@ -611,7 +611,7 @@ small
 (
 0
 .
-01
+02
 parentlayer
 pixels
 or
@@ -720,6 +720,14 @@ mVisualScrollOffset
 return
 ;
 }
+const
+ParentLayerCoord
+EPSILON
+=
+0
+.
+02
+;
 ParentLayerPoint
 paintedOffset
 =
@@ -748,7 +756,9 @@ x
 asyncOffset
 .
 x
-COORDINATE_EPSILON
+EPSILON
+.
+value
 )
 &
 &
@@ -760,7 +770,9 @@ y
 asyncOffset
 .
 y
-COORDINATE_EPSILON
+EPSILON
+.
+value
 )
 )
 {
