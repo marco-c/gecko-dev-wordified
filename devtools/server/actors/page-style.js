@@ -7731,11 +7731,10 @@ this
 .
 styleSheetsManager
 .
-update
+setStyleSheetText
 (
 resourceId
 authoredText
-false
 )
 ;
 }
