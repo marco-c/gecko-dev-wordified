@@ -36,8 +36,8 @@ clap
 :
 :
 {
-App
 Arg
+Command
 }
 ;
 use
@@ -147,7 +147,7 @@ Criterion
 {
 let
 mut
-app
+cmd
 =
 app_short
 (
@@ -173,7 +173,7 @@ build_help
 (
 &
 mut
-app
+cmd
 )
 )
 )
@@ -192,7 +192,7 @@ Criterion
 {
 let
 mut
-app
+cmd
 =
 app_long
 (
@@ -218,7 +218,7 @@ build_help
 (
 &
 mut
-app
+cmd
 )
 )
 )
@@ -5893,13 +5893,13 @@ app_short
 )
 -
 >
-App
+Command
 <
 '
 static
 >
 {
-app
+cmd
 (
 false
 |
@@ -5931,13 +5931,13 @@ app_long
 )
 -
 >
-App
+Command
 <
 '
 static
 >
 {
-app
+cmd
 (
 true
 |
@@ -5965,11 +5965,11 @@ application
 fn
 build_help
 (
-app
+cmd
 :
 &
 mut
-App
+Command
 )
 -
 >
@@ -5993,7 +5993,7 @@ with_capacity
 )
 )
 ;
-app
+cmd
 .
 write_help
 (
@@ -6063,7 +6063,7 @@ help
 /
 string
 .
-app
+cmd
 will
 panic
 if
@@ -6111,7 +6111,7 @@ completion
 files
 .
 fn
-app
+cmd
 <
 F
 >
@@ -6125,7 +6125,7 @@ F
 )
 -
 >
-App
+Command
 <
 '
 static
@@ -6185,7 +6185,7 @@ long
 name
 )
 ;
-App
+Command
 :
 :
 new

@@ -358,7 +358,7 @@ would
 the
 top
 level
-app
+cmd
 match
 &
 cli
