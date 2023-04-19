@@ -157,7 +157,7 @@ cookie
 thread
 Services
 .
-cookiemgr
+cookies
 .
 sessionCookies
 ;
@@ -698,7 +698,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -727,7 +727,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -768,7 +768,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -786,7 +786,7 @@ cookies
 =
 Services
 .
-cookiemgr
+cookies
 .
 getCookiesFromHost
 (

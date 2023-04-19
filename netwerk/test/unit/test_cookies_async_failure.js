@@ -1116,7 +1116,7 @@ triplet
 .
 Services
 .
-cookiemgr
+cookies
 .
 add
 (
@@ -1176,7 +1176,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -1320,7 +1320,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -1431,7 +1431,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -1450,7 +1450,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -1576,7 +1576,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -1594,7 +1594,7 @@ cookies
 =
 Services
 .
-cookiemgr
+cookies
 .
 getCookiesFromHost
 (
@@ -1925,7 +1925,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -2027,7 +2027,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -2444,7 +2444,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -2463,7 +2463,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -3013,7 +3013,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -3101,7 +3101,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -3196,7 +3196,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -3534,7 +3534,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -3553,7 +3553,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -3741,7 +3741,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
@@ -3760,7 +3760,7 @@ equal
 (
 Services
 .
-cookiemgr
+cookies
 .
 countCookiesFromHost
 (
