@@ -424,15 +424,6 @@ include
 "
 mozilla
 /
-ContentBlocking
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ContentBlockingAllowList
 .
 h
@@ -109813,9 +109804,6 @@ rejectedReason
 ;
 if
 (
-ContentBlocking
-:
-:
 ShouldAllowAccessFor
 (
 inner
