@@ -8870,12 +8870,12 @@ if
 (
 Element
 *
-fullscreenElement
+fsElement
 =
 document
 -
 >
-GetFullscreenElement
+GetUnretargetedFullscreenElement
 (
 )
 )
@@ -8943,7 +8943,7 @@ change
 .
 if
 (
-fullscreenElement
+fsElement
 !
 =
 document
@@ -8954,7 +8954,7 @@ GetRootElement
 )
 &
 &
-fullscreenElement
+fsElement
 !
 =
 mViewportScrollOverrideElement
