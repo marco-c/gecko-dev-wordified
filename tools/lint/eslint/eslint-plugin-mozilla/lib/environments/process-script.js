@@ -7,7 +7,7 @@ Defines
 the
 environment
 for
-frame
+process
 scripts
 .
 *
@@ -139,14 +139,11 @@ sendSyncMessage
 false
 /
 /
-ContentFrameMessageManager
-content
+ContentProcessMessageManager
+initialProcessData
 :
 false
-docShell
-:
-false
-tabEventTarget
+sharedData
 :
 false
 }
