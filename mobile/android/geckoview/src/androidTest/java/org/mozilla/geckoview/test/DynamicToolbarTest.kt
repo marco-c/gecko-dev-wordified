@@ -3494,6 +3494,11 @@ mainSession
 waitForPageStop
 (
 )
+mainSession
+.
+flushApzRepaints
+(
+)
 /
 /
 Scrolling
