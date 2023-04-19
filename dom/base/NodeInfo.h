@@ -298,8 +298,8 @@ nsNodeInfoManager
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1955,12 +1955,10 @@ mLocalName
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

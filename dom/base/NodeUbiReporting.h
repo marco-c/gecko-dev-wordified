@@ -223,8 +223,8 @@ reporting
 /
 namespace
 JS
-{
-namespace
+:
+:
 ubi
 {
 /
@@ -692,11 +692,9 @@ concreteTypeName
 /
 /
 namespace
-ubi
-}
-/
-/
-namespace
 JS
+:
+:
+ubi
 #
 endif

@@ -150,8 +150,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -457,12 +457,10 @@ mQualifiedName
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 inline
 void
 CheckValidNodeInfo
