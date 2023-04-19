@@ -2397,9 +2397,6 @@ cachedPlain
 )
 .
 length
-!
-=
-0
 )
 {
 throw
@@ -2670,6 +2667,8 @@ data
 let
 needWrite
 =
+!
+!
 Object
 .
 keys
@@ -2680,9 +2679,6 @@ cachedSecure
 )
 .
 length
-!
-=
-0
 ;
 let
 readSecure
@@ -4570,12 +4566,10 @@ FXA_PWDMGR_REALM
 ;
 if
 (
+!
 logins
 .
 length
-=
-=
-0
 )
 {
 /

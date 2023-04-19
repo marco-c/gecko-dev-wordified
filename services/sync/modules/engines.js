@@ -8473,8 +8473,6 @@ if
 remainingIDs
 .
 length
->
-0
 )
 {
 this
@@ -12758,8 +12756,6 @@ while
 val
 .
 length
->
-0
 )
 {
 await

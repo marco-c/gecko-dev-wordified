@@ -225,12 +225,10 @@ FXA_PWDMGR_REALM
 ;
 if
 (
+!
 logins
 .
 length
-=
-=
-0
 )
 {
 return

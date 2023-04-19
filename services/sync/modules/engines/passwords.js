@@ -1597,8 +1597,6 @@ if
 logins
 .
 length
->
-0
 )
 {
 this

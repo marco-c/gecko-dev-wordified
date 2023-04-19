@@ -730,6 +730,7 @@ engineInfos
 {
 if
 (
+!
 Object
 .
 keys
@@ -738,9 +739,6 @@ engineInfos
 )
 .
 length
-=
-=
-0
 )
 {
 log
@@ -784,9 +782,6 @@ maxRecords
 )
 .
 length
-!
-=
-0
 )
 {
 /

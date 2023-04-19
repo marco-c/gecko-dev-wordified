@@ -4457,12 +4457,6 @@ manager
 *
 "
 "
-services
-/
-*
-*
-"
-"
 storage
 /
 test

@@ -4084,8 +4084,6 @@ if
 idsToNotify
 .
 length
->
-0
 )
 {
 this

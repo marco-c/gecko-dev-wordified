@@ -397,11 +397,11 @@ Assert
 .
 ok
 (
+!
+!
 after
 .
 length
->
-0
 )
 ;
 let
