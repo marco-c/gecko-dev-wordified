@@ -2262,17 +2262,6 @@ ReflowOutput
 aDesiredSize
 )
 ;
-void
-SlideChild
-(
-TableRowGroupReflowInput
-&
-aReflowInput
-nsIFrame
-*
-aKidFrame
-)
-;
 /
 *
 *
