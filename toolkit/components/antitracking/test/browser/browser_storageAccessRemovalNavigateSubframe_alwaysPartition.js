@@ -175,7 +175,7 @@ partition
 .
 always_partition_third_party_non_cookie_storage
 "
-false
+true
 ]
 ]
 /
@@ -197,10 +197,14 @@ user
 -
 interaction
 test
-0
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 /
 /
-no
+expected
 blocking
 notifications
 false
