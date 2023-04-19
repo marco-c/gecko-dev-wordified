@@ -94,15 +94,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesBackups
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -611,6 +602,7 @@ null
 )
 ;
 }
+export
 var
 PlacesBackups
 =

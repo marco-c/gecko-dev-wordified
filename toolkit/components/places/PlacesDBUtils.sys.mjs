@@ -227,18 +227,7 @@ jsm
 }
 )
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesDBUtils
-"
-"
-PlacesDBUtilsIdleMaintenance
-"
-]
-;
+export
 var
 PlacesDBUtils
 =
@@ -9460,6 +9449,7 @@ close
 ;
 }
 }
+export
 function
 PlacesDBUtilsIdleMaintenance
 (

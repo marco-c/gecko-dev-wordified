@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ExtensionSearchHandler
-"
-]
-;
 /
 /
 Used
@@ -481,6 +472,7 @@ disposition
 ;
 }
 }
+export
 var
 ExtensionSearchHandler
 =

@@ -498,15 +498,6 @@ issues
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SyncedBookmarksMirror
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -1837,6 +1828,7 @@ out
 .
 *
 /
+export
 class
 SyncedBookmarksMirror
 {

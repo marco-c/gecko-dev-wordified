@@ -57,15 +57,6 @@ MPL
 *
 /
 const
-EXPORTED_SYMBOLS
-=
-[
-"
-SnapshotMonitor
-"
-]
-;
-const
 {
 XPCOMUtils
 }
@@ -402,6 +393,7 @@ necessary
 .
 *
 /
+export
 const
 SnapshotMonitor
 =

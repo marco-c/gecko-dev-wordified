@@ -619,15 +619,6 @@ it
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BookmarkHTMLUtils
-"
-]
-;
 const
 {
 NetUtil
@@ -1042,6 +1033,7 @@ html
 )
 ;
 }
+export
 var
 BookmarkHTMLUtils
 =

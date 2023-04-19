@@ -482,15 +482,6 @@ see
 nsINavBookmarkObserver
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Bookmarks
-"
-]
-;
 const
 lazy
 =
@@ -751,6 +742,7 @@ mozIPlacesAutoComplete
 .
 BEHAVIOR_BOOKMARK
 ;
+export
 var
 Bookmarks
 =

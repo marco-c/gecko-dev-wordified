@@ -57,15 +57,6 @@ MPL
 *
 /
 const
-EXPORTED_SYMBOLS
-=
-[
-"
-SnapshotScorer
-"
-]
-;
-const
 {
 XPCOMUtils
 }
@@ -362,6 +353,7 @@ candidates
 .
 *
 /
+export
 const
 SnapshotScorer
 =

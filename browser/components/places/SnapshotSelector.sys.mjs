@@ -57,15 +57,6 @@ MPL
 *
 /
 const
-EXPORTED_SYMBOLS
-=
-[
-"
-SnapshotSelector
-"
-]
-;
-const
 {
 XPCOMUtils
 }
@@ -617,6 +608,7 @@ tested
 .
 *
 /
+export
 class
 SnapshotSelector
 extends

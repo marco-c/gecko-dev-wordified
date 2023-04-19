@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Snapshots
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -1289,6 +1280,7 @@ removed
 .
 *
 /
+export
 const
 Snapshots
 =
