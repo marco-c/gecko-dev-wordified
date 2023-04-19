@@ -335,6 +335,12 @@ TestDecodeWidthHeightSet
 )
 override
 ;
+void
+TestEncoderInfoForDefaultTemporalLayerProfileHasFpsAllocation
+(
+)
+override
+;
 static
 void
 DefaultSettings

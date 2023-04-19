@@ -238,6 +238,14 @@ TestDecodeWidthHeightSet
 =
 0
 ;
+virtual
+void
+TestEncoderInfoForDefaultTemporalLayerProfileHasFpsAllocation
+(
+)
+=
+0
+;
 }
 ;
 }
