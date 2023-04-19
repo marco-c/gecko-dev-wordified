@@ -9532,6 +9532,20 @@ target_profile
 '
                 
 )
+            
+args
+=
+[
+"
+-
+-
+profile
+"
+shlex_quote
+(
+target_profile
+)
+]
         
 #
 FIXME
@@ -9569,20 +9583,6 @@ MOZ_FORCE_ENABLE_FISSION
 1
 "
 )
-            
-args
-=
-[
-"
--
--
-profile
-"
-shlex_quote
-(
-target_profile
-)
-]
         
 extras
 =
