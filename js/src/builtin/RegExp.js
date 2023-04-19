@@ -149,6 +149,7 @@ IsObject
 R
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -166,6 +167,7 @@ typeof
 R
 )
 ;
+}
 /
 /
 Step
@@ -190,6 +192,7 @@ R
 .
 hasIndices
 )
+{
 result
 +
 =
@@ -197,6 +200,7 @@ result
 d
 "
 ;
+}
 /
 /
 Steps
@@ -210,6 +214,7 @@ R
 .
 global
 )
+{
 result
 +
 =
@@ -217,6 +222,7 @@ result
 g
 "
 ;
+}
 /
 /
 Steps
@@ -230,6 +236,7 @@ R
 .
 ignoreCase
 )
+{
 result
 +
 =
@@ -237,6 +244,7 @@ result
 i
 "
 ;
+}
 /
 /
 Steps
@@ -250,6 +258,7 @@ R
 .
 multiline
 )
+{
 result
 +
 =
@@ -257,6 +266,7 @@ result
 m
 "
 ;
+}
 /
 /
 Steps
@@ -270,6 +280,7 @@ R
 .
 dotAll
 )
+{
 result
 +
 =
@@ -277,6 +288,7 @@ result
 s
 "
 ;
+}
 /
 /
 Steps
@@ -290,6 +302,7 @@ R
 .
 unicode
 )
+{
 result
 +
 =
@@ -297,6 +310,7 @@ result
 u
 "
 ;
+}
 /
 /
 Steps
@@ -309,6 +323,7 @@ R
 .
 sticky
 )
+{
 result
 +
 =
@@ -316,6 +331,7 @@ result
 y
 "
 ;
+}
 /
 /
 Step
@@ -376,6 +392,7 @@ IsObject
 R
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -393,6 +410,7 @@ typeof
 R
 )
 ;
+}
 /
 /
 Step
@@ -569,11 +587,13 @@ index
 =
 length
 )
+{
 return
 index
 +
 1
 ;
+}
 /
 /
 Step
@@ -605,11 +625,13 @@ first
 >
 0xDBFF
 )
+{
 return
 index
 +
 1
 ;
+}
 /
 /
 Step
@@ -643,11 +665,13 @@ second
 >
 0xDFFF
 )
+{
 return
 index
 +
 1
 ;
+}
 /
 /
 Step
@@ -703,6 +727,7 @@ IsObject
 rx
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -720,6 +745,7 @@ typeof
 rx
 )
 ;
+}
 /
 /
 Step
@@ -885,6 +911,7 @@ rx
 .
 global
 )
+{
 return
 RegExpExec
 (
@@ -893,6 +920,7 @@ S
 false
 )
 ;
+}
 /
 /
 Step
@@ -995,6 +1023,7 @@ result
 =
 null
 )
+{
 return
 (
 n
@@ -1008,6 +1037,7 @@ null
 :
 A
 ;
+}
 /
 /
 Step
@@ -1253,6 +1283,7 @@ result
 =
 null
 )
+{
 return
 (
 n
@@ -1266,6 +1297,7 @@ null
 :
 A
 ;
+}
 lastIndex
 =
 result
@@ -1357,9 +1389,11 @@ lastIndex
 >
 lengthS
 )
+{
 return
 A
 ;
+}
 }
 /
 /
@@ -1454,9 +1488,11 @@ IsRegExpObject
 rx
 )
 )
+{
 return
 false
 ;
+}
 var
 RegExpProto
 =
@@ -1554,6 +1590,7 @@ IsObject
 rx
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -1571,6 +1608,7 @@ typeof
 rx
 )
 ;
+}
 /
 /
 Step
@@ -1681,6 +1719,7 @@ length
 >
 1
 )
+{
 firstDollarIndex
 =
 GetFirstDollarIndex
@@ -1688,6 +1727,7 @@ GetFirstDollarIndex
 replaceValue
 )
 ;
+}
 }
 /
 /
@@ -1840,6 +1880,7 @@ lengthS
 <
 0x7fff
 )
+{
 return
 RegExpGlobalReplaceShortOpt
 (
@@ -1850,6 +1891,7 @@ replaceValue
 flags
 )
 ;
+}
 return
 RegExpGlobalReplaceOpt
 (
@@ -1865,6 +1907,7 @@ if
 (
 functionalReplace
 )
+{
 return
 RegExpLocalReplaceOptFunc
 (
@@ -1874,6 +1917,7 @@ lengthS
 replaceValue
 )
 ;
+}
 if
 (
 firstDollarIndex
@@ -1883,6 +1927,7 @@ firstDollarIndex
 -
 1
 )
+{
 return
 RegExpLocalReplaceOptSubst
 (
@@ -1893,12 +1938,14 @@ replaceValue
 firstDollarIndex
 )
 ;
+}
 if
 (
 lengthS
 <
 0x7fff
 )
+{
 return
 RegExpLocalReplaceOptShort
 (
@@ -1908,6 +1955,7 @@ lengthS
 replaceValue
 )
 ;
+}
 return
 RegExpLocalReplaceOpt
 (
@@ -2093,8 +2141,10 @@ result
 =
 null
 )
+{
 break
 ;
+}
 /
 /
 Step
@@ -2127,8 +2177,10 @@ if
 !
 global
 )
+{
 break
 ;
+}
 /
 /
 Step
@@ -2459,11 +2511,13 @@ capN
 =
 undefined
 )
+{
 ToString
 (
 capN
 )
 ;
+}
 }
 /
 /
@@ -2509,11 +2563,13 @@ namedCaptures
 =
 undefined
 )
+{
 ToObject
 (
 namedCaptures
 )
 ;
+}
 replacement
 =
 replaceValue
@@ -2586,9 +2642,11 @@ nextSourcePosition
 =
 lengthS
 )
+{
 return
 accumulatedResult
 ;
+}
 /
 /
 Step
@@ -2790,6 +2848,7 @@ capN
 =
 undefined
 )
+{
 capN
 =
 ToString
@@ -2797,6 +2856,7 @@ ToString
 capN
 )
 ;
+}
 /
 /
 Step
@@ -3684,8 +3744,10 @@ result
 -
 1
 )
+{
 break
 ;
+}
 var
 position
 =
@@ -3780,8 +3842,10 @@ lastIndex
 >
 lengthS
 )
+{
 break
 ;
+}
 }
 }
 /
@@ -3796,9 +3860,11 @@ nextSourcePosition
 =
 lengthS
 )
+{
 return
 accumulatedResult
 ;
+}
 /
 /
 Step
@@ -4240,6 +4306,7 @@ IsObject
 rx
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -4257,6 +4324,7 @@ typeof
 rx
 )
 ;
+}
 /
 /
 Step
@@ -4301,12 +4369,14 @@ if
 !
 lastIndexIsZero
 )
+{
 rx
 .
 lastIndex
 =
 0
 ;
+}
 if
 (
 IsRegExpMethodOptimizable
@@ -4496,12 +4566,14 @@ REGEXP_GLOBAL_FLAG
 REGEXP_STICKY_FLAG
 )
 )
+{
 rx
 .
 lastIndex
 =
 previousLastIndex
 ;
+}
 }
 /
 /
@@ -4517,10 +4589,12 @@ result
 -
 1
 )
+{
 return
 -
 1
 ;
+}
 /
 /
 Step
@@ -4621,12 +4695,14 @@ currentLastIndex
 previousLastIndex
 )
 )
+{
 rx
 .
 lastIndex
 =
 previousLastIndex
 ;
+}
 /
 /
 Step
@@ -4640,10 +4716,12 @@ result
 =
 null
 )
+{
 return
 -
 1
 ;
+}
 /
 /
 Step
@@ -4670,9 +4748,11 @@ IsRegExpObject
 rx
 )
 )
+{
 return
 false
 ;
+}
 var
 RegExpCtor
 =
@@ -4691,9 +4771,11 @@ C
 =
 RegExpCtor
 )
+{
 return
 false
 ;
+}
 var
 RegExpProto
 =
@@ -4786,6 +4868,7 @@ IsObject
 rx
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -4803,6 +4886,7 @@ typeof
 rx
 )
 ;
+}
 /
 /
 Step
@@ -5015,11 +5099,14 @@ y
 "
 )
 )
+{
 newFlags
 =
 flags
 ;
+}
 else
+{
 newFlags
 =
 flags
@@ -5028,6 +5115,7 @@ flags
 y
 "
 ;
+}
 /
 /
 Step
@@ -5081,11 +5169,14 @@ limit
 =
 undefined
 )
+{
 lim
 =
 MAX_UINT32
 ;
+}
 else
+{
 lim
 =
 limit
@@ -5094,6 +5185,7 @@ limit
 >
 0
 ;
+}
 /
 /
 Step
@@ -5117,9 +5209,11 @@ lim
 =
 0
 )
+{
 return
 A
 ;
+}
 /
 /
 Step
@@ -5163,6 +5257,7 @@ if
 (
 optimizable
 )
+{
 z
 =
 RegExpMatcher
@@ -5172,7 +5267,9 @@ S
 0
 )
 ;
+}
 else
+{
 z
 =
 RegExpExec
@@ -5182,6 +5279,7 @@ S
 false
 )
 ;
+}
 /
 /
 Step
@@ -5197,9 +5295,11 @@ z
 =
 null
 )
+{
 return
 A
 ;
+}
 /
 /
 Step
@@ -5305,8 +5405,10 @@ z
 =
 null
 )
+{
 break
 ;
+}
 /
 /
 splitter
@@ -5329,8 +5431,10 @@ q
 =
 size
 )
+{
 break
 ;
+}
 /
 /
 Step
@@ -5531,9 +5635,11 @@ lengthA
 =
 lim
 )
+{
 return
 A
 ;
+}
 /
 /
 Step
@@ -5693,9 +5799,11 @@ lengthA
 =
 lim
 )
+{
 return
 A
 ;
+}
 }
 /
 /
@@ -5727,6 +5835,7 @@ p
 =
 size
 )
+{
 DefineDataProperty
 (
 A
@@ -5735,7 +5844,9 @@ lengthA
 "
 )
 ;
+}
 else
+{
 DefineDataProperty
 (
 A
@@ -5750,6 +5861,7 @@ p
 )
 )
 ;
+}
 /
 /
 Step
@@ -5823,6 +5935,7 @@ IsRegExpObject
 R
 )
 )
+{
 return
 callFunction
 (
@@ -5834,6 +5947,7 @@ RegExp_prototype_Exec
 "
 )
 ;
+}
 /
 /
 Steps
@@ -6055,11 +6169,13 @@ IsObject
 result
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_EXEC_NOT_OBJORNULL
 )
 ;
+}
 /
 /
 Step
@@ -6155,6 +6271,7 @@ IsRegExpObject
 R
 )
 )
+{
 return
 UnwrapAndCallRegExpBuiltinExec
 (
@@ -6163,6 +6280,7 @@ S
 forTest
 )
 ;
+}
 /
 /
 Steps
@@ -6273,12 +6391,14 @@ if
 (
 globalOrSticky
 )
+{
 R
 .
 lastIndex
 =
 0
 ;
+}
 return
 forTest
 ?
@@ -6362,12 +6482,14 @@ if
 (
 globalOrSticky
 )
+{
 R
 .
 lastIndex
 =
 0
 ;
+}
 return
 false
 ;
@@ -6381,12 +6503,14 @@ if
 (
 globalOrSticky
 )
+{
 R
 .
 lastIndex
 =
 endIndex
 ;
+}
 return
 true
 ;
@@ -6454,12 +6578,14 @@ if
 (
 globalOrSticky
 )
+{
 R
 .
 lastIndex
 =
 0
 ;
+}
 }
 else
 {
@@ -6472,6 +6598,7 @@ if
 (
 globalOrSticky
 )
+{
 R
 .
 lastIndex
@@ -6487,6 +6614,7 @@ result
 .
 length
 ;
+}
 }
 return
 result
@@ -6566,6 +6694,7 @@ IsObject
 R
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -6583,6 +6712,7 @@ typeof
 R
 )
 ;
+}
 /
 /
 Steps
@@ -6672,9 +6802,11 @@ IsRegExpObject
 rx
 )
 )
+{
 return
 false
 ;
+}
 var
 RegExpCtor
 =
@@ -6693,9 +6825,11 @@ C
 =
 RegExpCtor
 )
+{
 return
 false
 ;
+}
 var
 RegExpProto
 =
@@ -6768,6 +6902,7 @@ IsObject
 rx
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -6785,6 +6920,7 @@ typeof
 rx
 )
 ;
+}
 /
 /
 Step
@@ -7525,10 +7661,12 @@ if
 !
 globalOrSticky
 )
+{
 lastIndex
 =
 0
 ;
+}
 var
 match
 =
