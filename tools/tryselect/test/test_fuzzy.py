@@ -136,9 +136,7 @@ debug
 -
 xpcshell
 -
-fis
--
-e10s
+nofis
 -
 "
         
@@ -228,9 +226,7 @@ debug
 -
 xpcshell
 -
-fis
--
-e10s
+nofis
 -
 1
 "
