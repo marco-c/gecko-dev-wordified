@@ -185,13 +185,7 @@ true
 )
 ;
 let
-engine
-;
-let
 reconciler
-;
-let
-store
 ;
 let
 tracker
@@ -340,6 +334,7 @@ register
 AddonsEngine
 )
 ;
+let
 engine
 =
 Service
@@ -358,12 +353,6 @@ reconciler
 engine
 .
 _reconciler
-;
-store
-=
-engine
-.
-_store
 ;
 tracker
 =

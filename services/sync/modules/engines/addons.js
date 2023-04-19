@@ -4197,7 +4197,8 @@ syncable
 type
 not
 in
-whitelist
+allowed
+list
 :
 "
 +

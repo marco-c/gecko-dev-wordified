@@ -84,9 +84,6 @@ h2b
 hexAsString
 :
 h2s
-stringAsHex
-:
-s2h
 bytesAsHex
 :
 b2h

@@ -1313,7 +1313,9 @@ the
 *
 account
 is
-whitelisted
+allow
+-
+listed
 .
 *
 /
@@ -1822,7 +1824,9 @@ the
 account
 is
 not
-whitelisted
+allow
+-
+listed
 for
 tests
 we

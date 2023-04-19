@@ -2481,8 +2481,8 @@ scopedKeys
 ;
 /
 /
-A
-whitelist
+An
+allowlist
 of
 fields
 that
@@ -2507,7 +2507,7 @@ removed
 .
 exports
 .
-FXA_PWDMGR_REAUTH_WHITELIST
+FXA_PWDMGR_REAUTH_ALLOWLIST
 =
 new
 Set
