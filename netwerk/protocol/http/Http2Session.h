@@ -236,22 +236,10 @@ class
 Http2PushedStream
 ;
 class
-Http2StreamBase
-;
-class
-Http2StreamTunnel
+Http2Stream
 ;
 class
 nsHttpTransaction
-;
-enum
-Http2StreamBaseType
-{
-Normal
-WebSocket
-Tunnel
-ServerPush
-}
 ;
 /
 /
@@ -507,7 +495,7 @@ ID
 uint32_t
 RegisterStreamID
 (
-Http2StreamBase
+Http2Stream
 *
 uint32_t
 aNewID
@@ -1639,7 +1627,7 @@ LogIO
 (
 Http2Session
 *
-Http2StreamBase
+Http2Stream
 *
 const
 char
@@ -1677,11 +1665,11 @@ a
 similar
 version
 for
-Http2StreamBase
+Http2Stream
 void
 TransactionHasDataToWrite
 (
-Http2StreamBase
+Http2Stream
 *
 )
 ;
@@ -1756,7 +1744,7 @@ nodiscard
 bool
 TryToActivate
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 )
@@ -1764,7 +1752,7 @@ stream
 void
 ConnectPushedStream
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 )
@@ -1772,7 +1760,7 @@ stream
 void
 ConnectSlowConsumer
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 )
@@ -2099,18 +2087,6 @@ kMagicHello
 24
 ]
 ;
-void
-CreateStream
-(
-nsAHttpTransaction
-*
-aHttpTransaction
-int32_t
-aPriority
-Http2StreamBaseType
-streamType
-)
-;
 [
 [
 nodiscard
@@ -2195,7 +2171,7 @@ uint32_t
 void
 CleanupStream
 (
-Http2StreamBase
+Http2Stream
 *
 nsresult
 errorType
@@ -2212,7 +2188,7 @@ errorType
 void
 CloseStream
 (
-Http2StreamBase
+Http2Stream
 *
 nsresult
 )
@@ -2225,7 +2201,7 @@ SendHello
 void
 RemoveStreamFromQueues
 (
-Http2StreamBase
+Http2Stream
 *
 )
 ;
@@ -2266,7 +2242,7 @@ nodiscard
 nsresult
 ProcessConnectedPush
 (
-Http2StreamBase
+Http2Stream
 *
 nsAHttpSegmentWriter
 *
@@ -2283,7 +2259,7 @@ nodiscard
 nsresult
 ProcessSlowConsumer
 (
-Http2StreamBase
+Http2Stream
 *
 nsAHttpSegmentWriter
 *
@@ -2326,7 +2302,7 @@ uint8_t
 bool
 VerifyStream
 (
-Http2StreamBase
+Http2Stream
 *
 uint32_t
 )
@@ -2339,7 +2315,7 @@ SetNeedsCleanup
 void
 UpdateLocalRwin
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 uint32_t
@@ -2349,7 +2325,7 @@ bytes
 void
 UpdateLocalStreamWindow
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 uint32_t
@@ -2366,7 +2342,7 @@ bytes
 void
 MaybeDecrementConcurrent
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 )
@@ -2379,7 +2355,7 @@ RoomForMoreConcurrent
 void
 IncrementConcurrent
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 )
@@ -2387,7 +2363,7 @@ stream
 void
 QueueStream
 (
-Http2StreamBase
+Http2Stream
 *
 stream
 )
@@ -2672,7 +2648,7 @@ streams
 nsTHashMap
 <
 nsUint32HashKey
-Http2StreamBase
+Http2Stream
 *
 >
 mStreamIDHash
@@ -2683,7 +2659,7 @@ nsPtrHashKey
 <
 nsAHttpTransaction
 >
-Http2StreamBase
+Http2Stream
 >
 mStreamTransactionHash
 ;
@@ -2691,7 +2667,7 @@ nsTArray
 <
 WeakPtr
 <
-Http2StreamBase
+Http2Stream
 >
 >
 mReadyForWrite
@@ -2700,7 +2676,7 @@ nsTArray
 <
 WeakPtr
 <
-Http2StreamBase
+Http2Stream
 >
 >
 mQueuedStreams
@@ -2709,7 +2685,7 @@ nsTArray
 <
 WeakPtr
 <
-Http2StreamBase
+Http2Stream
 >
 >
 mPushesReadyForRead
@@ -2718,7 +2694,7 @@ nsTArray
 <
 WeakPtr
 <
-Http2StreamBase
+Http2Stream
 >
 >
 mSlowConsumersReadyForRead
@@ -3004,7 +2980,7 @@ to
 the
 stream
 .
-Http2StreamBase
+Http2Stream
 *
 mInputFrameDataStream
 ;
@@ -3083,7 +3059,7 @@ at
 that
 time
 .
-Http2StreamBase
+Http2Stream
 *
 mNeedsCleanup
 ;
@@ -3814,7 +3790,7 @@ during
 GoAway
 nsDeque
 <
-Http2StreamBase
+Http2Stream
 >
 mGoAwayStreamsToRestart
 ;
@@ -3982,7 +3958,7 @@ nsTArray
 <
 WeakPtr
 <
-Http2StreamBase
+Http2Stream
 >
 >
 m0RTTStreams
@@ -4029,7 +4005,7 @@ nsTArray
 <
 WeakPtr
 <
-Http2StreamBase
+Http2Stream
 >
 >
 mCannotDo0RTTStreams
@@ -4157,14 +4133,14 @@ nsIInterfaceRequestor
 void
 RegisterTunnel
 (
-Http2StreamTunnel
+Http2Stream
 *
 )
 ;
 void
 UnRegisterTunnel
 (
-Http2StreamTunnel
+Http2Stream
 *
 )
 ;
