@@ -996,7 +996,6 @@ visibility
 =
 =
 "
-visible
 "
 )
 "
