@@ -373,6 +373,7 @@ HTMLDialogElement
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FocusDialog
 (

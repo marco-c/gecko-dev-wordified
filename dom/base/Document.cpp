@@ -36991,6 +36991,7 @@ of
 this
 call
 .
+const
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -37664,8 +37665,12 @@ if
 clearFocus
 )
 {
+if
+(
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
@@ -37674,10 +37679,6 @@ nsFocusManager
 GetFocusManager
 (
 )
-;
-if
-(
-fm
 )
 {
 fm

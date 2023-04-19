@@ -829,6 +829,7 @@ removed
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ContentRemoved
 (
@@ -1258,6 +1259,7 @@ target
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DetermineElementToMoveFocus
 (
@@ -2201,6 +2203,7 @@ aBrowsingContext
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 AdjustInProcessWindowFocus
 (
@@ -2221,6 +2224,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 AdjustWindowFocus
 (
@@ -2689,17 +2693,7 @@ state
 .
 *
 /
-/
-/
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-for
-now
-until
-we
-annotate
-callers
-.
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 bool
 Blur
 (

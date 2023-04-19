@@ -3978,6 +3978,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -4000,6 +4001,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
