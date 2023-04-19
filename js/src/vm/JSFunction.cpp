@@ -10911,6 +10911,13 @@ cx
 >
 isRuntimeCodeGenEnabled
 (
+JS
+:
+:
+RuntimeCode
+:
+:
+JS
 functionText
 )
 )
