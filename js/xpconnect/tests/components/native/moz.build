@@ -125,6 +125,17 @@ xpctest_returncode
 cpp
 "
 ]
+LOCAL_INCLUDES
++
+=
+[
+"
+/
+xpcom
+/
+components
+"
+]
 FINAL_LIBRARY
 =
 "
