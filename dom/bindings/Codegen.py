@@ -3857,6 +3857,30 @@ wrapperCacheGetter
 nullptr
 "
     
+if
+descriptor
+.
+hasOrdinaryObjectPrototype
+:
+        
+getProto
+=
+"
+JS
+:
+:
+GetRealmObjectPrototypeHandle
+"
+    
+else
+:
+        
+getProto
+=
+"
+GetProtoObjectHandle
+"
+    
 return
 fill
 (
@@ -3896,7 +3920,9 @@ nativeType
 :
 Get
           
-GetProtoObjectHandle
+{
+getProto
+}
           
 GetCCParticipant
 <
@@ -3952,6 +3978,10 @@ serializer
 wrapperCacheGetter
 =
 wrapperCacheGetter
+        
+getProto
+=
+getProto
     
 )
 def
@@ -26169,6 +26199,16 @@ unforgeableHolderSetup
 =
 None
         
+#
+FIXME
+Unclear
+whether
+this
+is
+needed
+for
+hasOrdinaryObjectPrototype
+        
 if
 (
             
@@ -26184,6 +26224,14 @@ isOnGlobalProtoChain
             
 and
 needInterfacePrototypeObject
+            
+and
+not
+self
+.
+descriptor
+.
+hasOrdinaryObjectPrototype
         
 )
 :
@@ -32050,6 +32098,32 @@ unforgeable
 "
 "
         
+if
+self
+.
+descriptor
+.
+hasOrdinaryObjectPrototype
+:
+            
+getProto
+=
+"
+JS
+:
+:
+GetRealmObjectPrototypeHandle
+"
+        
+else
+:
+            
+getProto
+=
+"
+GetProtoObjectHandle
+"
+        
 return
 fill
 (
@@ -32092,7 +32166,9 @@ CreateGlobal
 {
 nativeType
 }
-GetProtoObjectHandle
+{
+getProto
+}
 >
 (
 aCx
@@ -32216,6 +32292,10 @@ self
 descriptor
 .
 nativeType
+            
+getProto
+=
+getProto
             
 properties
 =
@@ -112435,12 +112515,22 @@ CGCreateInterfaceObjectsMethod
 .
         
 if
+(
+            
 descriptor
 .
 interface
 .
 hasInterfacePrototypeObject
 (
+)
+            
+and
+not
+descriptor
+.
+hasOrdinaryObjectPrototype
+        
 )
 :
             
