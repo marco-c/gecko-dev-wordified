@@ -1369,7 +1369,6 @@ std
 :
 move
 (
-*
 message
 )
 )

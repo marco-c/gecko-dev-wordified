@@ -1478,10 +1478,13 @@ MiniTransceiver
 :
 Recv
 (
+UniquePtr
+<
 IPC
 :
 :
 Message
+>
 &
 aMsg
 )
@@ -1755,7 +1758,6 @@ std
 :
 move
 (
-*
 msg
 )
 ;

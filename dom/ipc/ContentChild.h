@@ -5072,8 +5072,10 @@ const
 Message
 &
 aMsg
+UniquePtr
+<
 Message
-*
+>
 &
 aReply
 )
