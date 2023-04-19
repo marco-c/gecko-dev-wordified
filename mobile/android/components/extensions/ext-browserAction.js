@@ -780,7 +780,7 @@ ext
 browser
 .
 json
-indipendently
+independently
 from
 the
 manifest
