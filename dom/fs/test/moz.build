@@ -209,13 +209,6 @@ test_basics
 .
 js
 "
-"
-common
-/
-test_fileSystemDirectoryHandle
-.
-js
-"
 ]
 TEST_DIRS
 +
