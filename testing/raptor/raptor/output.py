@@ -13938,6 +13938,22 @@ name
 ]
 in
 VISUAL_METRICS
+or
+subtest
+[
+"
+name
+"
+]
+.
+startswith
+(
+                
+"
+perfstat
+"
+            
+)
 :
                 
 subtest
