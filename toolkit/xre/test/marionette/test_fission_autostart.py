@@ -835,6 +835,11 @@ that
 window
 .
           
+let
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -852,8 +857,14 @@ Services
 .
 jsm
 "
-window
 )
+;
+          
+window
+.
+Services
+=
+Services
 ;
           
 window
