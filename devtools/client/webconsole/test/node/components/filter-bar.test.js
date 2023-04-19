@@ -282,9 +282,6 @@ FilterBar
 (
 {
 serviceContainer
-hidePersistLogsCheckbox
-:
-false
 attachRefToWebConsoleUI
 :
 (
