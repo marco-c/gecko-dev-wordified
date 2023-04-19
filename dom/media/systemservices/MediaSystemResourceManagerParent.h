@@ -137,8 +137,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 /
@@ -305,11 +305,9 @@ mResourceRequests
 /
 /
 namespace
-media
-}
-/
-/
-namespace
 mozilla
+:
+:
+media
 #
 endif

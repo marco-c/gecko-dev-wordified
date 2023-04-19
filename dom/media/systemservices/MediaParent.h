@@ -137,8 +137,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 /
@@ -555,12 +555,10 @@ aActor
 /
 /
 namespace
-media
-}
-/
-/
-namespace
 mozilla
+:
+:
+media
 #
 endif
 /

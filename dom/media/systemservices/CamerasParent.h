@@ -226,8 +226,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 camera
 {
 class
@@ -1086,12 +1086,10 @@ CreateCamerasParent
 /
 /
 namespace
-camera
-}
-/
-/
-namespace
 mozilla
+:
+:
+camera
 #
 endif
 /

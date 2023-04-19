@@ -187,8 +187,8 @@ functional
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 camera
 {
 /
@@ -709,11 +709,9 @@ GenerateId
 /
 /
 namespace
-camera
-}
-/
-/
-namespace
 mozilla
+:
+:
+camera
 #
 endif

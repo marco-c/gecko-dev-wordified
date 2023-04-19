@@ -241,8 +241,8 @@ nsIEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 /
@@ -2037,12 +2037,10 @@ p
 /
 /
 namespace
-media
-}
-/
-/
-namespace
 mozilla
+:
+:
+media
 #
 endif
 /
