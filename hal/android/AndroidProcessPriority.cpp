@@ -154,13 +154,6 @@ ServiceAllocatorWrappers
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-hal
-;
 /
 *
 *
