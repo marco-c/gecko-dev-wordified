@@ -4129,17 +4129,6 @@ normandy
 -
 recipes
 "
-{
-bucketNamePref
-:
-"
-services
-.
-settings
-.
-default_bucket
-"
-}
 )
 ;
 await

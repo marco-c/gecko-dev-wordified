@@ -360,17 +360,6 @@ language
 -
 dictionaries
 "
-{
-bucketNamePref
-:
-"
-services
-.
-settings
-.
-default_bucket
-"
-}
 )
 ;
 const
