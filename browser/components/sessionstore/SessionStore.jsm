@@ -5669,6 +5669,14 @@ __lastSessionWindowID
 )
 ;
 }
+if
+(
+state
+?
+.
+windows
+)
+{
 /
 /
 clear
@@ -5721,6 +5729,7 @@ win
 _maybeDontRestoreTabs
 )
 ;
+}
 }
 catch
 (
