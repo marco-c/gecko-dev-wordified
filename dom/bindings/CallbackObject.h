@@ -612,7 +612,11 @@ aCx
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 stack
 (
 aCx

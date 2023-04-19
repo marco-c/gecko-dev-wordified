@@ -489,7 +489,11 @@ transformer
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 thisObj
 (
 aCx
@@ -663,7 +667,11 @@ transformer
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 thisObj
 (
 aCx

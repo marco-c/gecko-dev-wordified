@@ -358,7 +358,11 @@ byteLength
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 chunkObj
 (
 cx

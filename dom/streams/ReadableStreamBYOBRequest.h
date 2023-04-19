@@ -369,7 +369,11 @@ SetView
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aView
 )
 {

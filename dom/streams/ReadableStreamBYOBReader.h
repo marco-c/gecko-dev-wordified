@@ -457,7 +457,11 @@ aReader
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aView
 ReadIntoRequest
 *

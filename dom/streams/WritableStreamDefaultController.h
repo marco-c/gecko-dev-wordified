@@ -892,7 +892,11 @@ aStream
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aUnderlyingSink
 UnderlyingSink
 &

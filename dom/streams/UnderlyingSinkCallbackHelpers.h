@@ -399,7 +399,11 @@ aGlobal
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aUnderlyingSink
 UnderlyingSink
 &
