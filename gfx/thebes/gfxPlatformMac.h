@@ -501,6 +501,12 @@ return
 mFontAntiAliasingThreshold
 ;
 }
+static
+bool
+CheckVariationFontSupport
+(
+)
+;
 protected
 :
 bool
@@ -514,12 +520,6 @@ GetBackendPrefs
 (
 )
 const
-override
-;
-bool
-CheckVariationFontSupport
-(
-)
 override
 ;
 void
