@@ -16811,9 +16811,10 @@ thread
 *
 /
 bool
-IsOwningThreadCurrent
+IsOwningThread
 (
 )
+const
 ;
 static
 void
@@ -17463,6 +17464,7 @@ context
 was
 created
 .
+const
 PlatformThreadId
 mOwningThreadId
 ;
