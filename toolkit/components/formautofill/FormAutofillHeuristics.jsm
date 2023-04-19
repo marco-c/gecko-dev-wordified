@@ -3260,11 +3260,14 @@ null
 {
 highestConfidence
 =
+parseFloat
+(
 lazy
 .
 FormAutofillUtils
 .
 ccHeuristicTestConfidence
+)
 ;
 }
 return
