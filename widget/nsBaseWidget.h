@@ -3601,12 +3601,6 @@ ClearCachedWebrenderResources
 )
 override
 ;
-void
-ClearWebrenderAnimationResources
-(
-)
-override
-;
 bool
 SetNeedFastSnaphot
 (
