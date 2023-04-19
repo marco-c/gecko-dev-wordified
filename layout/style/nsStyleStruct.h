@@ -578,6 +578,10 @@ const
 nsIFrame
 &
 aFrame
+nscoord
+aNoneValue
+=
+0
 )
 const
 ;
@@ -591,6 +595,10 @@ const
 nsIFrame
 &
 aFrame
+nscoord
+aNoneValue
+=
+0
 )
 const
 ;

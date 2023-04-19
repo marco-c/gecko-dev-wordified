@@ -29203,6 +29203,10 @@ nscoord
 >
 ContainIntrinsicBSize
 (
+nscoord
+aNoneValue
+=
+0
 )
 const
 {
@@ -29220,6 +29224,7 @@ ContainIntrinsicBSize
 (
 *
 this
+aNoneValue
 )
 ;
 }
@@ -29229,6 +29234,10 @@ nscoord
 >
 ContainIntrinsicISize
 (
+nscoord
+aNoneValue
+=
+0
 )
 const
 {
@@ -29246,6 +29255,7 @@ ContainIntrinsicISize
 (
 *
 this
+aNoneValue
 )
 ;
 }

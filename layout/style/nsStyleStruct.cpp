@@ -24482,6 +24482,8 @@ const
 StyleContainIntrinsicSize
 &
 aSize
+nscoord
+aNoneValue
 )
 {
 if
@@ -24494,7 +24496,7 @@ IsNone
 )
 {
 return
-0
+aNoneValue
 ;
 }
 if
@@ -24606,6 +24608,7 @@ stylePos
 -
 >
 mContainIntrinsicWidth
+0
 )
 Resolve
 (
@@ -24613,6 +24616,7 @@ stylePos
 -
 >
 mContainIntrinsicHeight
+0
 )
 )
 ;
@@ -24665,6 +24669,7 @@ stylePos
 -
 >
 mContainIntrinsicWidth
+0
 )
 aUncontainedSize
 .
@@ -24688,6 +24693,7 @@ stylePos
 -
 >
 mContainIntrinsicHeight
+0
 )
 )
 ;
@@ -24748,6 +24754,7 @@ stylePos
 -
 >
 mContainIntrinsicWidth
+0
 )
 Resolve
 (
@@ -24755,6 +24762,7 @@ stylePos
 -
 >
 mContainIntrinsicHeight
+0
 )
 )
 ;
@@ -24816,6 +24824,7 @@ stylePos
 -
 >
 mContainIntrinsicWidth
+0
 )
 )
 ;
@@ -24834,6 +24843,7 @@ stylePos
 -
 >
 mContainIntrinsicHeight
+0
 )
 )
 ;
@@ -24855,6 +24865,8 @@ const
 nsIFrame
 &
 aFrame
+nscoord
+aNoneValue
 )
 const
 {
@@ -24905,6 +24917,7 @@ stylePos
 -
 >
 mContainIntrinsicHeight
+aNoneValue
 )
 )
 ;
@@ -24922,6 +24935,8 @@ const
 nsIFrame
 &
 aFrame
+nscoord
+aNoneValue
 )
 const
 {
@@ -24972,6 +24987,7 @@ stylePos
 -
 >
 mContainIntrinsicWidth
+aNoneValue
 )
 )
 ;
