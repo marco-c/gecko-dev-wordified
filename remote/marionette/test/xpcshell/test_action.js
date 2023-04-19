@@ -1840,9 +1840,13 @@ of
 "
 mouse
 "
+/
+*
 "
 touch
 "
+*
+/
 ]
 )
 {
@@ -3982,6 +3986,12 @@ pointerType
 :
 "
 mouse
+"
+/
+/
+TODO
+"
+touch
 "
 }
 }
