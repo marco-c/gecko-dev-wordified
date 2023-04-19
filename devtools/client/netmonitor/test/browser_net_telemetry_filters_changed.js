@@ -153,6 +153,11 @@ false
 )
 )
 ;
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 /
 /
 Remove
@@ -234,6 +239,11 @@ waitForNetworkEvents
 (
 monitor
 1
+)
+;
+await
+waitForAllNetworkUpdateEvents
+(
 )
 ;
 await

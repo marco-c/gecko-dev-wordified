@@ -433,6 +433,11 @@ document
 true
 )
 ;
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 /
 /
 Page
