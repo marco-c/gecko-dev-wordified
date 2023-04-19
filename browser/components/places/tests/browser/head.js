@@ -895,12 +895,6 @@ it
 hidden
 .
 *
-param
-{
-function
-}
-aCallback
-*
 *
 returns
 {
@@ -933,7 +927,6 @@ promiseSetToolbarVisibility
 (
 aToolbar
 aVisible
-aCallback
 )
 {
 if
