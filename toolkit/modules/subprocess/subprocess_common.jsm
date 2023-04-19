@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncShutdown
 "
@@ -169,7 +175,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -413,6 +419,8 @@ bind
 this
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 webWorkersShutdown
@@ -439,6 +447,8 @@ onClose
 (
 )
 {
+lazy
+.
 AsyncShutdown
 .
 webWorkersShutdown
@@ -4210,6 +4220,8 @@ if
 force
 )
 {
+lazy
+.
 setTimeout
 (
 (

@@ -308,11 +308,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 env
 "
@@ -457,6 +463,8 @@ win
 )
 comspec
 :
+lazy
+.
 env
 .
 get
