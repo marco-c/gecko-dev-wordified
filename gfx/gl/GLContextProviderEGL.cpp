@@ -1189,6 +1189,19 @@ if
 nativeWindow
 )
 {
+gfxCriticalNote
+<
+<
+"
+Failed
+to
+obtain
+native
+window
+from
+Surface
+"
+;
 return
 EGL_NO_SURFACE
 ;
@@ -1241,6 +1254,8 @@ window
 0
 )
 ;
+#
+endif
 if
 (
 !
@@ -1282,8 +1297,6 @@ err
 )
 ;
 }
-#
-endif
 return
 newSurface
 ;
