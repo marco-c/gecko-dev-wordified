@@ -4623,6 +4623,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Print
 (
@@ -4634,6 +4635,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :

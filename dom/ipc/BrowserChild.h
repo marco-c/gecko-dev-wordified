@@ -3030,6 +3030,7 @@ uint32_t
 aCharCodes
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -3063,6 +3064,7 @@ RecvExitPrintPreview
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :

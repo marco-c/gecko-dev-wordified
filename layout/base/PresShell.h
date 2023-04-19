@@ -7048,6 +7048,12 @@ FireResizeEvent
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+FireResizeEventSync
+(
+)
+;
 void
 NativeAnonymousContentRemoved
 (
