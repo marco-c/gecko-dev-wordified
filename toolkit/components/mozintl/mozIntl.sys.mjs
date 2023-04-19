@@ -3764,6 +3764,7 @@ unit
 }
 }
 }
+export
 class
 MozIntl
 {
@@ -5143,13 +5144,4 @@ nsISupportsWeakReference
 "
 ]
 )
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-MozIntl
-"
-]
 ;

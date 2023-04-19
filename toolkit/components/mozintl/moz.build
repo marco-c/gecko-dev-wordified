@@ -153,7 +153,9 @@ EXTRA_JS_MODULES
 "
 mozIntl
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
