@@ -3148,7 +3148,7 @@ is
 not
 updated
 .
-int
+guint
 mCompositorPauseTimeoutID
 =
 0
