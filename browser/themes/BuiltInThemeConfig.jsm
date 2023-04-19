@@ -3288,7 +3288,7 @@ banner
 .
 avif
 "
-iconUrl
+figureUrl
 :
 "
 chrome
