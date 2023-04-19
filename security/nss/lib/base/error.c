@@ -517,9 +517,12 @@ if
 nss3
 )
 {
-FARPROC
+PRThreadPrivateDTOR
 freePtr
 =
+(
+PRThreadPrivateDTOR
+)
 GetProcAddress
 (
 nss3

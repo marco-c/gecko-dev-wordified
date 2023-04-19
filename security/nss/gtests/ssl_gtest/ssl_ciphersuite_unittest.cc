@@ -959,6 +959,8 @@ type
 .
 uint16_t
 actual
+=
+TLS_NULL_WITH_NULL_NULL
 ;
 EXPECT_TRUE
 (
@@ -998,6 +1000,8 @@ actual
 ;
 SSLAuthType
 auth
+=
+ssl_auth_size
 ;
 EXPECT_TRUE
 (
@@ -1037,6 +1041,8 @@ auth
 ;
 SSLKEAType
 kea
+=
+ssl_kea_size
 ;
 EXPECT_TRUE
 (
