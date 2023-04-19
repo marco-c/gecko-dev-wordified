@@ -113,11 +113,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExperimentAPI
 :
@@ -283,7 +289,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 UrlbarTestUtils
 "
@@ -681,6 +687,8 @@ BEST_MATCH_LEARN_MORE_URL
 )
 {
 return
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 bestMatchHelpUrl
@@ -692,6 +700,8 @@ SCALARS
 )
 {
 return
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 TELEMETRY_SCALARS
@@ -1107,6 +1117,8 @@ readyPromise
 )
 ;
 await
+lazy
+.
 UrlbarQuickSuggest
 .
 readyPromise
@@ -1152,6 +1164,8 @@ ignored
 let
 sandbox
 =
+lazy
+.
 sinon
 .
 createSandbox
@@ -1162,6 +1176,8 @@ sandbox
 .
 stub
 (
+lazy
+.
 UrlbarQuickSuggest
 "
 _queueSettingsSync
@@ -1195,6 +1211,8 @@ if
 results
 )
 {
+lazy
+.
 UrlbarQuickSuggest
 .
 _resultsByKeyword
@@ -1204,6 +1222,8 @@ clear
 )
 ;
 await
+lazy
+.
 UrlbarQuickSuggest
 .
 _addResults
@@ -1327,6 +1347,8 @@ onStartup
 )
 ;
 await
+lazy
+.
 ExperimentManager
 .
 onStartup
@@ -1349,6 +1371,8 @@ ready
 )
 ;
 await
+lazy
+.
 ExperimentAPI
 .
 ready
@@ -1374,6 +1398,8 @@ let
 doCleanup
 =
 await
+lazy
+.
 ExperimentFakes
 .
 enrollWithRollout
@@ -1381,6 +1407,8 @@ enrollWithRollout
 {
 featureId
 :
+lazy
+.
 NimbusFeatures
 .
 urlbar
@@ -1514,6 +1542,8 @@ setConfig
 config
 )
 {
+lazy
+.
 UrlbarQuickSuggest
 .
 _setConfig
@@ -1659,6 +1689,8 @@ waitForScenarioUpdated
 )
 ;
 await
+lazy
+.
 UrlbarPrefs
 .
 updateFirefoxSuggestScenario
@@ -1690,6 +1722,8 @@ waitForScenarioUpdated
 )
 {
 await
+lazy
+.
 TestUtils
 .
 waitForCondition
@@ -1699,6 +1733,8 @@ waitForCondition
 =
 >
 !
+lazy
+.
 UrlbarPrefs
 .
 updatingFirefoxSuggestScenario
@@ -1926,6 +1962,8 @@ index
 let
 resultCount
 =
+lazy
+.
 UrlbarTestUtils
 .
 getResultCount
@@ -1999,6 +2037,8 @@ let
 details
 =
 await
+lazy
+.
 UrlbarTestUtils
 .
 getDetailsOfResultAt
@@ -2068,6 +2108,8 @@ equal
 details
 .
 type
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -2310,6 +2352,8 @@ equal
 !
 !
 blockButton
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2345,6 +2389,8 @@ equal
 !
 !
 blockButton
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2420,6 +2466,8 @@ let
 details
 =
 await
+lazy
+.
 UrlbarTestUtils
 .
 getDetailsOfResultAt
@@ -2495,6 +2543,8 @@ i
 ;
 i
 <
+lazy
+.
 UrlbarTestUtils
 .
 getResultCount
@@ -2596,6 +2646,8 @@ expectedIndexesByScalarName
 let
 scalars
 =
+lazy
+.
 TelemetryTestUtils
 .
 getProcessScalars
@@ -2629,6 +2681,8 @@ in
 expectedIndexesByScalarName
 )
 {
+lazy
+.
 TelemetryTestUtils
 .
 assertKeyedScalar
@@ -2799,6 +2853,8 @@ options
 undefined
 )
 {
+lazy
+.
 TelemetryTestUtils
 .
 assertEvents
@@ -2949,6 +3005,8 @@ createTelemetryPingSpy
 let
 sandbox
 =
+lazy
+.
 sinon
 .
 createSandbox
@@ -3741,6 +3799,8 @@ TIMESTAMP_TEMPLATE
 TIMESTAMP_LENGTH
 }
 =
+lazy
+.
 UrlbarProviderQuickSuggest
 ;
 /
@@ -4329,6 +4389,8 @@ ready
 )
 ;
 await
+lazy
+.
 ExperimentAPI
 .
 ready
@@ -4443,6 +4505,8 @@ Promise
 race
 (
 [
+lazy
+.
 TestUtils
 .
 topicObserved
@@ -4451,6 +4515,8 @@ QuickSuggestTestUtils
 .
 UPDATE_TOPIC
 )
+lazy
+.
 TestUtils
 .
 topicObserved
@@ -4466,6 +4532,8 @@ let
 doExperimentCleanup
 =
 await
+lazy
+.
 ExperimentFakes
 .
 enrollWithFeatureConfig
@@ -4551,6 +4619,8 @@ Promise
 race
 (
 [
+lazy
+.
 TestUtils
 .
 topicObserved
@@ -4559,6 +4629,8 @@ QuickSuggestTestUtils
 .
 UPDATE_TOPIC
 )
+lazy
+.
 TestUtils
 .
 topicObserved
@@ -4693,6 +4765,8 @@ clearEvents
 (
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 urlbar
@@ -4701,6 +4775,8 @@ _didSendExposureEvent
 =
 false
 ;
+lazy
+.
 UrlbarQuickSuggest
 .
 _recordedExposureEvent
@@ -4789,6 +4865,8 @@ Assert
 .
 equal
 (
+lazy
+.
 UrlbarQuickSuggest
 .
 _recordedExposureEvent
@@ -4908,6 +4986,8 @@ idleDispatchToMainThread
 =
 >
 {
+lazy
+.
 TelemetryTestUtils
 .
 assertEvents

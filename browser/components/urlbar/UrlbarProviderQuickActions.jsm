@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 QuickActionsLoaderDefault
 :
@@ -361,6 +367,8 @@ super
 (
 )
 ;
+lazy
+.
 UrlbarResult
 .
 addDynamicResultType
@@ -378,6 +386,8 @@ idleDispatchToMainThread
 )
 =
 >
+lazy
+.
 QuickActionsLoaderDefault
 .
 load
@@ -538,6 +548,8 @@ queryContext
 {
 return
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -558,6 +570,8 @@ queryContext
 restrictSource
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -786,6 +800,8 @@ const
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils

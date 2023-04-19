@@ -160,11 +160,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 SearchSuggestionController
 :
@@ -306,6 +312,8 @@ chars
 return
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES
@@ -695,6 +703,8 @@ false
 let
 wantsLocalSuggestions
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -711,6 +721,8 @@ queryContext
 trimmedSearchString
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -860,6 +872,8 @@ t
 type
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -991,6 +1005,8 @@ Urlbar
 .
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1014,6 +1030,8 @@ queryContext
 |
 |
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1037,6 +1055,8 @@ isPrivate
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1594,6 +1614,8 @@ null
 ;
 if
 (
+lazy
+.
 UrlbarTokenizer
 .
 isRestrictionToken
@@ -1627,6 +1649,8 @@ tokens
 type
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1719,6 +1743,8 @@ leadingRestrictionToken
 =
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -1804,6 +1830,8 @@ else
 {
 engine
 =
+lazy
+.
 UrlbarSearchUtils
 .
 getDefaultEngine
@@ -2006,6 +2034,8 @@ this
 _suggestionsController
 =
 new
+lazy
+.
 SearchSuggestionController
 (
 )
@@ -2339,6 +2369,8 @@ it
 .
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2441,6 +2473,8 @@ searchString
 .
 length
 >
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2637,6 +2671,8 @@ tail
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2688,6 +2724,8 @@ results
 push
 (
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2702,6 +2740,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -3059,6 +3099,8 @@ string
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES_START
@@ -3089,6 +3131,8 @@ let
 engineMatch
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 engineForAlias
@@ -3134,6 +3178,8 @@ entry
 {
 return
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -3148,6 +3194,8 @@ RESULT_SOURCE
 HISTORY
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

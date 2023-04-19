@@ -134,11 +134,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AboutPagesUtils
 :
@@ -440,6 +446,8 @@ for
 const
 aboutUrl
 of
+lazy
+.
 AboutPagesUtils
 .
 visibleAboutUrls
@@ -459,6 +467,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -473,6 +483,8 @@ RESULT_SOURCE
 HISTORY
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

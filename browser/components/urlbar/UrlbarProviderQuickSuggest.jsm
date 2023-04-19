@@ -147,11 +147,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -754,12 +760,16 @@ super
 args
 )
 ;
+lazy
+.
 UrlbarQuickSuggest
 .
 init
 (
 )
 ;
+lazy
+.
 UrlbarQuickSuggest
 .
 on
@@ -786,6 +796,8 @@ _updateFeatureState
 (
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 urlbar
@@ -803,6 +815,8 @@ _updateFeatureState
 )
 )
 ;
+lazy
+.
 UrlbarPrefs
 .
 addObserver
@@ -836,6 +850,8 @@ impression
 counters
 reset
 telemetry
+.
+lazy
 .
 AsyncShutdown
 .
@@ -1295,6 +1311,8 @@ queryContext
 isPrivate
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1306,6 +1324,8 @@ quickSuggestEnabled
 &
 &
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1320,6 +1340,8 @@ nonsponsored
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1334,6 +1356,8 @@ sponsored
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1490,6 +1514,8 @@ promises
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1516,6 +1542,8 @@ searchString
 }
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1526,6 +1554,8 @@ merinoEnabled
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1883,6 +1913,8 @@ _test_is_best_match
 else
 if
 (
+lazy
+.
 UrlbarQuickSuggest
 .
 config
@@ -1895,6 +1927,8 @@ let
 best_match
 }
 =
+lazy
+.
 UrlbarQuickSuggest
 .
 config
@@ -1943,6 +1977,8 @@ isResultBestMatch
 isSuggestionBestMatch
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1953,6 +1989,8 @@ bestMatchEnabled
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2075,6 +2113,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2089,6 +2129,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2131,6 +2173,8 @@ position
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2162,6 +2206,8 @@ result
 .
 suggestedIndex
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2336,6 +2382,8 @@ the
 event
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2346,6 +2394,8 @@ isBestMatchExperiment
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2371,6 +2421,8 @@ isSuggestionBestMatch
 &
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2381,6 +2433,8 @@ bestMatchEnabled
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2394,6 +2448,8 @@ bestmatch
 )
 )
 {
+lazy
+.
 UrlbarQuickSuggest
 .
 ensureExposureEventRecorded
@@ -2405,6 +2461,8 @@ ensureExposureEventRecorded
 else
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2421,6 +2479,8 @@ modal
 "
 )
 {
+lazy
+.
 UrlbarQuickSuggest
 .
 ensureExposureEventRecorded
@@ -2541,6 +2601,8 @@ isBestMatch
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2559,6 +2621,8 @@ isBestMatch
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2778,6 +2842,8 @@ true
 ;
 try
 {
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -3039,6 +3105,8 @@ clear
 (
 )
 ;
+lazy
+.
 UrlbarPrefs
 .
 clear
@@ -4134,6 +4202,8 @@ payload
 sponsoredBlockId
 improve_suggest_experience_checked
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4161,6 +4231,8 @@ requestId
 /
 /
 impression
+lazy
+.
 PartnerLinkAttribution
 .
 sendContextualServicesPing
@@ -4179,6 +4251,8 @@ payload
 .
 sponsoredImpressionUrl
 }
+lazy
+.
 CONTEXTUAL_SERVICES_PING_TYPES
 .
 QS_IMPRESSION
@@ -4192,6 +4266,8 @@ if
 is_clicked
 )
 {
+lazy
+.
 PartnerLinkAttribution
 .
 sendContextualServicesPing
@@ -4209,6 +4285,8 @@ payload
 .
 sponsoredClickUrl
 }
+lazy
+.
 CONTEXTUAL_SERVICES_PING_TYPES
 .
 QS_SELECTION
@@ -4228,6 +4306,8 @@ block
 "
 )
 {
+lazy
+.
 PartnerLinkAttribution
 .
 sendContextualServicesPing
@@ -4245,6 +4325,8 @@ payload
 .
 sponsoredIabCategory
 }
+lazy
+.
 CONTEXTUAL_SERVICES_PING_TYPES
 .
 QS_BLOCK
@@ -4395,6 +4477,8 @@ enabled
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 updatingFirefoxSuggestScenario
@@ -4410,6 +4494,8 @@ TELEMETRY_EVENT_CATEGORY
 "
 data_collect_toggled
 "
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4441,6 +4527,8 @@ nonsponsored
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 updatingFirefoxSuggestScenario
@@ -4456,6 +4544,8 @@ TELEMETRY_EVENT_CATEGORY
 "
 enable_toggled
 "
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4487,6 +4577,8 @@ sponsored
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 updatingFirefoxSuggestScenario
@@ -4502,6 +4594,8 @@ TELEMETRY_EVENT_CATEGORY
 "
 sponsored_toggled
 "
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5104,6 +5198,8 @@ try
 suggestions
 =
 await
+lazy
+.
 UrlbarQuickSuggest
 .
 query
@@ -5419,6 +5515,8 @@ network
 let
 endpointString
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5525,6 +5623,8 @@ _merinoSequenceNumber
 let
 clientVariants
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5557,6 +5657,8 @@ clientVariants
 let
 providers
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5590,6 +5692,8 @@ else
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5605,6 +5709,8 @@ nonsponsored
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5707,6 +5813,8 @@ timer
 let
 timeout
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6625,6 +6733,8 @@ is_sponsored
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6648,6 +6758,8 @@ is_sponsored
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6702,6 +6814,8 @@ suggestion
 is_sponsored
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6720,6 +6834,8 @@ suggestion
 is_sponsored
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -7257,6 +7373,8 @@ this
 _impressionStats
 impression_caps
 :
+lazy
+.
 UrlbarQuickSuggest
 .
 config
@@ -7286,6 +7404,8 @@ isSponsored
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -7303,6 +7423,8 @@ isSponsored
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -7545,6 +7667,8 @@ true
 ;
 try
 {
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -7630,6 +7754,8 @@ _loadImpressionStats
 let
 json
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -7819,6 +7945,8 @@ let
 impression_caps
 }
 =
+lazy
+.
 UrlbarQuickSuggest
 .
 config
@@ -8690,6 +8818,8 @@ this
 _impressionStats
 impression_caps
 :
+lazy
+.
 UrlbarQuickSuggest
 .
 config
@@ -9461,6 +9591,8 @@ this
 _impressionCountersResetInterval
 )
 {
+lazy
+.
 clearInterval
 (
 this
@@ -9473,6 +9605,8 @@ this
 .
 _impressionCountersResetInterval
 =
+lazy
+.
 setInterval
 (
 (
@@ -9619,6 +9753,8 @@ digests
 let
 json
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -9893,6 +10029,8 @@ _updateFeatureState
 let
 enabled
 =
+lazy
+.
 UrlbarPrefs
 .
 get

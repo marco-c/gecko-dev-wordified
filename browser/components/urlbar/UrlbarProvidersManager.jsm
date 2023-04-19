@@ -122,11 +122,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ObjectUtils
 :
@@ -263,7 +269,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -271,6 +277,8 @@ logger
 )
 =
 >
+lazy
+.
 UrlbarUtils
 .
 getLogger
@@ -976,6 +984,8 @@ provider
 (
 provider
 instanceof
+lazy
+.
 UrlbarProvider
 )
 )
@@ -1000,6 +1010,8 @@ Object
 .
 values
 (
+lazy
+.
 UrlbarUtils
 .
 PROVIDER_TYPE
@@ -1028,6 +1040,8 @@ type
 )
 ;
 }
+lazy
+.
 logger
 .
 info
@@ -1054,6 +1068,8 @@ provider
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 PROVIDER_TYPE
@@ -1107,6 +1123,8 @@ p
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 PROVIDER_TYPE
@@ -1167,6 +1185,8 @@ unregisterProvider
 provider
 )
 {
+lazy
+.
 logger
 .
 info
@@ -1317,6 +1337,8 @@ muxer
 (
 muxer
 instanceof
+lazy
+.
 UrlbarMuxer
 )
 )
@@ -1334,6 +1356,8 @@ muxer
 )
 ;
 }
+lazy
+.
 logger
 .
 info
@@ -1407,6 +1431,8 @@ muxer
 .
 name
 ;
+lazy
+.
 logger
 .
 info
@@ -1467,6 +1493,8 @@ controller
 null
 )
 {
+lazy
+.
 logger
 .
 info
@@ -1498,6 +1526,8 @@ muxer
 |
 DEFAULT_MUXER
 ;
+lazy
+.
 logger
 .
 info
@@ -1604,6 +1634,8 @@ providers
 /
 Apply
 tokenization
+.
+lazy
 .
 UrlbarTokenizer
 .
@@ -1764,6 +1796,8 @@ restrictSource
 .
 if
 (
+lazy
+.
 UrlbarTokenizer
 .
 SEARCH_MODE_RESTRICT
@@ -1789,6 +1823,8 @@ sources
 ;
 }
 }
+lazy
+.
 logger
 .
 debug
@@ -1873,6 +1909,8 @@ do
 it
 .
 await
+lazy
+.
 UrlbarSearchUtils
 .
 init
@@ -1921,6 +1959,8 @@ provider
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 PROVIDER_TYPE
@@ -2011,6 +2051,8 @@ cancelQuery
 queryContext
 )
 {
+lazy
+.
 logger
 .
 info
@@ -2083,6 +2125,8 @@ try
 let
 db
 =
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection
@@ -2976,6 +3020,8 @@ catch
 ex
 =
 >
+lazy
+.
 logger
 .
 error
@@ -3165,6 +3211,8 @@ provider
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 PROVIDER_TYPE
@@ -3253,6 +3301,8 @@ this
 _sleepTimer
 =
 new
+lazy
+.
 SkippableTimer
 (
 {
@@ -3265,6 +3315,8 @@ timer
 "
 time
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3312,6 +3364,8 @@ provider
 )
 ;
 }
+lazy
+.
 logger
 .
 info
@@ -3546,6 +3600,8 @@ catch
 ex
 =
 >
+lazy
+.
 logger
 .
 error
@@ -3575,6 +3631,8 @@ catch
 ex
 =
 >
+lazy
+.
 logger
 .
 error
@@ -3604,6 +3662,8 @@ catch
 ex
 =
 >
+lazy
+.
 logger
 .
 error
@@ -3656,6 +3716,8 @@ if
 (
 provider
 instanceof
+lazy
+.
 UrlbarProvider
 )
 )
@@ -3937,6 +3999,8 @@ result
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -3949,6 +4013,8 @@ result
 source
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -3963,6 +4029,8 @@ acceptableSources
 .
 includes
 (
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -4012,6 +4080,8 @@ result
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -4057,6 +4127,8 @@ javascript
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4205,6 +4277,8 @@ provider
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 PROVIDER_TYPE
@@ -4225,6 +4299,8 @@ this
 _heuristicProviderTimer
 =
 new
+lazy
+.
 SkippableTimer
 (
 {
@@ -4273,6 +4349,8 @@ this
 _chunkTimer
 =
 new
+lazy
+.
 SkippableTimer
 (
 {
@@ -4361,6 +4439,8 @@ catch
 ex
 =
 >
+lazy
+.
 logger
 .
 error
@@ -4406,6 +4486,8 @@ catch
 ex
 =
 >
+lazy
+.
 logger
 .
 error
@@ -4441,6 +4523,8 @@ catch
 ex
 =
 >
+lazy
+.
 logger
 .
 error
@@ -4611,6 +4695,8 @@ context
 firstResultChanged
 =
 !
+lazy
+.
 ObjectUtils
 .
 deepEqual
@@ -4773,41 +4859,57 @@ t
 =
 >
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
 .
 RESTRICT_HISTORY
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
 .
 RESTRICT_BOOKMARK
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
 .
 RESTRICT_TAG
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
 .
 RESTRICT_OPENPAGE
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
 .
 RESTRICT_SEARCH
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
 .
 RESTRICT_TITLE
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
 .
 RESTRICT_URL
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -4845,6 +4947,8 @@ restrictToken
 type
 !
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -4857,6 +4961,8 @@ restrictToken
 type
 !
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -4878,6 +4984,8 @@ Object
 .
 values
 (
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -4932,6 +5040,8 @@ source
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -4944,6 +5054,8 @@ restrictTokenType
 =
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -4955,6 +5067,8 @@ restrictTokenType
 =
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -4967,6 +5081,8 @@ RESTRICT_TAG
 restrictTokenType
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4991,6 +5107,8 @@ source
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -5003,6 +5121,8 @@ restrictTokenType
 =
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -5015,6 +5135,8 @@ RESTRICT_HISTORY
 restrictTokenType
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5039,6 +5161,8 @@ source
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -5051,6 +5175,8 @@ restrictTokenType
 =
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -5146,6 +5272,8 @@ source
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -5158,6 +5286,8 @@ restrictTokenType
 =
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -5170,6 +5300,8 @@ RESTRICT_OPENPAGE
 restrictTokenType
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5194,6 +5326,8 @@ source
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -5223,6 +5357,8 @@ source
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE

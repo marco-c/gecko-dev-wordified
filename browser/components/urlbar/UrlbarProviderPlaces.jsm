@@ -823,11 +823,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 KeywordUtils
 :
@@ -1050,7 +1056,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 typeToBehaviorMap
 "
@@ -1065,6 +1071,8 @@ Map
 (
 [
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1075,6 +1083,8 @@ history
 "
 ]
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1085,6 +1095,8 @@ bookmark
 "
 ]
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1095,6 +1107,8 @@ tag
 "
 ]
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1105,6 +1119,8 @@ openpage
 "
 ]
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1115,6 +1131,8 @@ search
 "
 ]
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1125,6 +1143,8 @@ title
 "
 ]
 [
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -1144,7 +1164,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 sourceToBehaviorMap
 "
@@ -1333,6 +1353,8 @@ prefix
 let
 action
 =
+lazy
+.
 PlacesUtils
 .
 parseActionUrl
@@ -2084,6 +2106,8 @@ info
 let
 action
 =
+lazy
+.
 PlacesUtils
 .
 parseActionUrl
@@ -2130,6 +2154,8 @@ result
 .
 return
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2144,6 +2170,8 @@ RESULT_SOURCE
 HISTORY
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2190,6 +2218,8 @@ toLocaleLowerCase
 }
 return
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2204,6 +2234,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2293,6 +2325,8 @@ switchtab
 :
 return
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2307,6 +2341,8 @@ RESULT_SOURCE
 TABS
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2356,6 +2392,8 @@ visiturl
 :
 return
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2370,6 +2408,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2761,6 +2801,8 @@ sort
 }
 return
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2771,6 +2813,8 @@ URL
 source
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2995,6 +3039,8 @@ this
 .
 _searchString
 ?
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3112,6 +3158,8 @@ this
 .
 _userContextId
 =
+lazy
+.
 UrlbarProviderOpenTabs
 .
 getUserContextIdForOpenPagesTable
@@ -3151,6 +3199,8 @@ let
 tokens
 }
 =
+lazy
+.
 UrlbarTokenizer
 .
 tokenize
@@ -3197,6 +3247,8 @@ length
 {
 if
 (
+lazy
+.
 UrlbarTokenizer
 .
 isRestrictionToken
@@ -3224,6 +3276,8 @@ tokens
 type
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -3406,6 +3460,8 @@ queryContext
 restrictSource
 &
 &
+lazy
+.
 sourceToBehaviorMap
 .
 has
@@ -3434,6 +3490,8 @@ restrict
 let
 behavior
 =
+lazy
+.
 sourceToBehaviorMap
 .
 get
@@ -3626,6 +3684,8 @@ not
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3972,6 +4032,8 @@ tokens
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 isRestrictionToken
@@ -3993,6 +4055,8 @@ continue
 let
 behavior
 =
+lazy
+.
 typeToBehaviorMap
 .
 get
@@ -4371,6 +4435,8 @@ sooner
 if
 (
 !
+lazy
+.
 UrlbarProvidersManager
 .
 interruptLevel
@@ -4449,6 +4515,8 @@ let
 tokenAliasEngines
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 tokenAliasEngines
@@ -4605,6 +4673,8 @@ this
 _leadingRestrictionToken
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -4938,6 +5008,8 @@ let
 aliasEngine
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 engineForAlias
@@ -4965,6 +5037,8 @@ entry
 }
 =
 await
+lazy
+.
 KeywordUtils
 .
 getBindableKeyword
@@ -5802,6 +5876,8 @@ every
 if
 (
 !
+lazy
+.
 UrlbarSearchUtils
 .
 serpsAreEquivalent
@@ -6042,6 +6118,8 @@ favicon
 &
 &
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6073,6 +6151,8 @@ if
 restyled
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6394,6 +6474,8 @@ some
 e
 =
 >
+lazy
+.
 ObjectUtils
 .
 deepEqual
@@ -6494,6 +6576,8 @@ i
 ;
 if
 (
+lazy
+.
 ObjectUtils
 .
 deepEqual
@@ -6738,6 +6822,8 @@ existingPrefix
 ;
 if
 (
+lazy
+.
 ObjectUtils
 .
 deepEqual
@@ -7065,6 +7151,8 @@ this
 .
 _makeGroups
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -8103,6 +8191,8 @@ pages
 .
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -8657,6 +8747,8 @@ BEHAVIOR_RESTRICT
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -8682,6 +8774,8 @@ BEHAVIOR_HISTORY
 else
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -8876,6 +8970,8 @@ params
 {
 parent
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -9513,6 +9609,8 @@ let
 conn
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection
@@ -9536,6 +9634,8 @@ late
 to
 block
 shutdown
+.
+lazy
 .
 Sqlite
 .
@@ -9720,6 +9820,8 @@ searchMode
 engineName
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -10172,6 +10274,8 @@ callback
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer

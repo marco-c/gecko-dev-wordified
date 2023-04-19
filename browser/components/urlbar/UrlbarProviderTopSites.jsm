@@ -162,11 +162,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AboutNewTab
 :
@@ -949,6 +955,8 @@ return
 let
 sites
 =
+lazy
+.
 AboutNewTab
 .
 getTopSites
@@ -1002,6 +1010,8 @@ site
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1097,6 +1107,8 @@ stream
 .
 topSitesRows
 "
+lazy
+.
 TOP_SITES_DEFAULT_ROWS
 )
 ;
@@ -1150,6 +1162,8 @@ Math
 .
 min
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1158,6 +1172,8 @@ get
 maxRichResults
 "
 )
+lazy
+.
 TOP_SITES_MAX_SITES_PER_ROW
 *
 this
@@ -1487,6 +1503,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1501,6 +1519,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -1518,6 +1538,8 @@ tabs
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1532,6 +1554,8 @@ openpage
 {
 tabs
 =
+lazy
+.
 UrlbarProviderOpenTabs
 .
 getOpenTabs
@@ -1598,6 +1622,8 @@ TABS
 else
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1614,6 +1640,8 @@ let
 bookmark
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1692,6 +1720,8 @@ let
 engine
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 engineForAlias
@@ -1755,6 +1785,8 @@ engine
 =
 (
 await
+lazy
+.
 UrlbarSearchUtils
 .
 enginesForDomainPrefix
@@ -1806,6 +1838,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1820,6 +1854,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2063,6 +2099,8 @@ position
 1
 )
 ;
+lazy
+.
 PartnerLinkAttribution
 .
 sendContextualServicesPing
@@ -2102,6 +2140,8 @@ toLocaleLowerCase
 (
 )
 }
+lazy
+.
 CONTEXTUAL_SERVICES_PING_TYPES
 .
 TOPSITES_IMPRESSION

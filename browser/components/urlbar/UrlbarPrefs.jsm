@@ -163,11 +163,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -3590,6 +3596,8 @@ children
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3599,6 +3607,8 @@ HEURISTIC_TEST
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3608,6 +3618,8 @@ HEURISTIC_EXTENSION
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3617,6 +3629,8 @@ HEURISTIC_SEARCH_TIP
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3626,6 +3640,8 @@ HEURISTIC_OMNIBOX
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3635,6 +3651,8 @@ HEURISTIC_ENGINE_ALIAS
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3644,6 +3662,8 @@ HEURISTIC_BOOKMARK_KEYWORD
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3653,6 +3673,8 @@ HEURISTIC_AUTOFILL
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3662,6 +3684,8 @@ HEURISTIC_PRELOADED
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3671,6 +3695,8 @@ HEURISTIC_TOKEN_ALIAS_ENGINE
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3689,6 +3715,8 @@ API
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3696,6 +3724,8 @@ RESULT_GROUP
 OMNIBOX
 availableSpan
 :
+lazy
+.
 UrlbarUtils
 .
 MAX_OMNIBOX_RESULT_COUNT
@@ -3769,6 +3799,8 @@ flex
 2
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3781,6 +3813,8 @@ flex
 4
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3792,6 +3826,8 @@ REMOTE_SUGGESTION
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3806,6 +3842,8 @@ general
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3820,6 +3858,8 @@ availableSpan
 3
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3839,6 +3879,8 @@ flex
 1
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3851,6 +3893,8 @@ flex
 2
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3890,6 +3934,8 @@ flex
 2
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3902,6 +3948,8 @@ flex
 1
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -3913,6 +3961,8 @@ PRELOADED
 {
 group
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_GROUP
@@ -4205,6 +4255,8 @@ _updatingFirefoxSuggestScenario
 =
 false
 ;
+lazy
+.
 NimbusFeatures
 .
 urlbar
@@ -5051,6 +5103,8 @@ wrong
 scenario
 .
 await
+lazy
+.
 Region
 .
 init
@@ -5058,6 +5112,8 @@ init
 )
 ;
 await
+lazy
+.
 NimbusFeatures
 .
 urlbar
@@ -6569,6 +6625,8 @@ scenario
 {
 if
 (
+lazy
+.
 Region
 .
 home
@@ -9939,6 +9997,8 @@ this
 .
 __nimbus
 =
+lazy
+.
 NimbusFeatures
 .
 urlbar

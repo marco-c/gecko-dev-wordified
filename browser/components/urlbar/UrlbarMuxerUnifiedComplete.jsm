@@ -161,11 +161,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarPrefs
 :
@@ -230,7 +236,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -842,6 +848,8 @@ maxHeuristicResultSpan
 {
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -996,6 +1004,8 @@ searchMode
 .
 engineName
 ?
+lazy
+.
 UrlbarPrefs
 .
 makeResultGroups
@@ -1007,6 +1017,8 @@ true
 }
 )
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1016,6 +1028,8 @@ resultGroups
 "
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -4190,6 +4204,8 @@ it
 break
 us
 .
+lazy
+.
 logger
 .
 error
@@ -4550,6 +4566,8 @@ FORM_HISTORY
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5008,6 +5026,8 @@ result
 providerName
 =
 =
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 name
@@ -5438,6 +5458,8 @@ type
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5526,6 +5548,8 @@ result
 providerName
 =
 =
+lazy
+.
 UrlbarProviderTabToSearch
 .
 name
@@ -6371,6 +6395,8 @@ terms
 ;
 if
 (
+lazy
+.
 UrlbarSearchUtils
 .
 serpsAreEquivalent
@@ -6464,6 +6490,8 @@ engine
 let
 searchModeRootDomain
 =
+lazy
+.
 UrlbarSearchUtils
 .
 getRootDomainFromEngine
@@ -6598,6 +6626,8 @@ RESULT_TYPE
 URL
 &
 &
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 isURLEquivalentToResultURL
@@ -7241,6 +7271,8 @@ result
 providerName
 =
 =
+lazy
+.
 UrlbarProviderTabToSearch
 .
 name
@@ -7339,6 +7371,8 @@ heuristic
 |
 |
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -7509,6 +7543,8 @@ result
 providerName
 =
 =
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 name
@@ -7746,6 +7782,8 @@ result
 providerName
 =
 =
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 name
@@ -7899,6 +7937,8 @@ query
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -8135,6 +8175,8 @@ result
 providerName
 =
 =
+lazy
+.
 UrlbarProviderTabToSearch
 .
 name
@@ -8193,6 +8235,8 @@ payload
 dynamicType
 )
 {
+lazy
+.
 UrlbarProviderTabToSearch
 .
 enginesShown
@@ -8211,6 +8255,8 @@ engine
 }
 else
 {
+lazy
+.
 UrlbarProviderTabToSearch
 .
 enginesShown
@@ -8739,6 +8785,8 @@ providerName
 =
 =
 =
+lazy
+.
 UrlbarProviderTabToSearch
 .
 name
@@ -8756,6 +8804,8 @@ providerName
 =
 =
 =
+lazy
+.
 UrlbarProviderTabToSearch
 .
 name
@@ -8774,6 +8824,8 @@ providerName
 =
 =
 =
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 name
@@ -8791,6 +8843,8 @@ providerName
 =
 =
 =
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 name

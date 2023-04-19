@@ -187,11 +187,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ProfileAge
 :
@@ -404,7 +410,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PreloadedSiteStorage
 "
@@ -491,7 +497,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ProfileAgeCreatedPromise
 "
@@ -505,6 +511,8 @@ let
 times
 =
 await
+lazy
+.
 ProfileAge
 (
 )
@@ -545,6 +553,8 @@ super
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -597,6 +607,8 @@ then
 sites
 =
 >
+lazy
+.
 PreloadedSiteStorage
 .
 populate
@@ -866,6 +878,8 @@ false
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -885,6 +899,8 @@ false
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1045,6 +1061,8 @@ whitespace
 .
 if
 (
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES
@@ -1323,6 +1341,8 @@ for
 let
 site
 of
+lazy
+.
 PreloadedSiteStorage
 .
 sites
@@ -1389,6 +1409,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1403,6 +1425,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -1560,6 +1584,8 @@ populatePreloadedSiteStorage
 list
 )
 {
+lazy
+.
 PreloadedSiteStorage
 .
 populate
@@ -1577,6 +1603,8 @@ queryContext
 let
 matchedSite
 =
+lazy
+.
 PreloadedSiteStorage
 .
 sites
@@ -1705,6 +1733,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1719,6 +1749,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -1850,6 +1882,8 @@ _checkPreloadedSitesExpiry
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1869,6 +1903,8 @@ let
 profileCreationDate
 =
 await
+lazy
+.
 ProfileAgeCreatedPromise
 ;
 let
@@ -1890,6 +1926,8 @@ if
 (
 daysSinceProfileCreation
 >
+lazy
+.
 UrlbarPrefs
 .
 get

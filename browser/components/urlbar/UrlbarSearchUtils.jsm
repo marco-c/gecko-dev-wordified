@@ -183,11 +183,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarTokenizer
 :
@@ -1121,6 +1127,8 @@ searchString
 let
 query
 =
+lazy
+.
 UrlbarUtils
 .
 substringAfter
@@ -1167,6 +1175,8 @@ string
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES_START
@@ -1735,6 +1745,8 @@ source
 {
 scalarKey
 =
+lazy
+.
 UrlbarUtils
 .
 getResultSourceName

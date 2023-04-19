@@ -165,11 +165,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarPrefs
 :
@@ -445,6 +451,8 @@ name
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -466,6 +474,8 @@ UrlbarProviderExtension
 name
 )
 ;
+lazy
+.
 UrlbarProvidersManager
 .
 registerProvider
@@ -1109,6 +1119,8 @@ _eventListeners
 size
 )
 {
+lazy
+.
 UrlbarProvidersManager
 .
 unregisterProvider
@@ -2015,6 +2027,8 @@ timer
 "
 time
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2295,6 +2309,8 @@ alias
 engine
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 engineForAlias
@@ -2362,6 +2378,8 @@ engine
 =
 (
 await
+lazy
+.
 UrlbarSearchUtils
 .
 enginesForDomainPrefix
@@ -2460,6 +2478,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarProviderExtension
@@ -2480,6 +2500,8 @@ source
 ]
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

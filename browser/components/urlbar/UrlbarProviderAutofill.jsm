@@ -135,11 +135,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AboutPagesUtils
 :
@@ -2042,6 +2048,8 @@ pref
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2205,6 +2213,8 @@ t
 type
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -2217,6 +2227,8 @@ t
 type
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -2312,6 +2324,8 @@ shorter
 .
 if
 (
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES
@@ -2834,6 +2848,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection
@@ -2865,6 +2881,8 @@ let
 params
 =
 [
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3373,6 +3391,8 @@ toLowerCase
 )
 stddevMultiplier
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4306,6 +4326,8 @@ toLowerCase
 )
 useCountThreshold
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5333,6 +5355,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -5347,6 +5371,8 @@ RESULT_SOURCE
 HISTORY
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -5574,6 +5600,8 @@ for
 const
 aboutUrl
 of
+lazy
+.
 AboutPagesUtils
 .
 visibleAboutUrls
@@ -5636,6 +5664,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -5650,6 +5680,8 @@ RESULT_SOURCE
 HISTORY
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -5755,6 +5787,8 @@ let
 conn
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection
@@ -5784,6 +5818,8 @@ first
 .
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5794,6 +5830,8 @@ autoFillAdaptiveHistoryEnabled
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5998,6 +6036,8 @@ params
 ;
 if
 (
+lazy
+.
 UrlbarTokenizer
 .
 looksLikeOrigin
@@ -6103,6 +6143,8 @@ queryContext
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6244,6 +6286,8 @@ out
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 looksLikeOrigin
@@ -6286,6 +6330,8 @@ engine
 =
 (
 await
+lazy
+.
 UrlbarSearchUtils
 .
 enginesForDomainPrefix
@@ -6467,6 +6513,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -6481,6 +6529,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

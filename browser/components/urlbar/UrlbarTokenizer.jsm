@@ -159,11 +159,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarUtils
 :
@@ -186,7 +192,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -194,6 +200,8 @@ logger
 )
 =
 >
+lazy
+.
 UrlbarUtils
 .
 getLogger
@@ -1217,6 +1225,8 @@ slashIndex
 "
 "
 ;
+lazy
+.
 logger
 .
 debug
@@ -1813,6 +1823,8 @@ test
 hostPort
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -1823,6 +1835,8 @@ userinfo
 userinfo
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -2050,6 +2064,8 @@ tokenize
 queryContext
 )
 {
+lazy
+.
 logger
 .
 info
@@ -3247,6 +3263,8 @@ lastIndex
 ;
 }
 }
+lazy
+.
 logger
 .
 info

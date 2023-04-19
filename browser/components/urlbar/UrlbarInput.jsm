@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserSearchTelemetry
 :
@@ -455,7 +461,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 ClipboardHelper
 "
@@ -634,6 +640,8 @@ this
 .
 isPrivate
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -809,6 +817,8 @@ this
 .
 searchButton
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -846,6 +856,8 @@ this
 controller
 =
 new
+lazy
+.
 UrlbarController
 (
 {
@@ -865,6 +877,8 @@ this
 view
 =
 new
+lazy
+.
 UrlbarView
 (
 this
@@ -1556,6 +1570,8 @@ valueFormatter
 {
 return
 new
+lazy
+.
 UrlbarValueFormatter
 (
 this
@@ -1712,6 +1728,8 @@ this
 eventBufferer
 =
 new
+lazy
+.
 UrlbarEventBufferer
 (
 this
@@ -1988,6 +2006,8 @@ this
 .
 _compositionState
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -2492,6 +2512,8 @@ uri
 )
 &
 &
+lazy
+.
 BrowserUIUtils
 .
 checkEmptyPageOrigin
@@ -2638,6 +2660,8 @@ value
 )
 &
 &
+lazy
+.
 BrowserUIUtils
 .
 checkEmptyPageOrigin
@@ -3099,6 +3123,8 @@ itself
 let
 readerStrippedURI
 =
+lazy
+.
 ReaderMode
 .
 getOriginalUrlObjectForDisplay
@@ -3792,6 +3818,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -3867,6 +3895,8 @@ selection
 .
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4116,6 +4146,8 @@ openParams
 postData
 ]
 =
+lazy
+.
 UrlbarUtils
 .
 getSearchQueryUrl
@@ -4139,6 +4171,8 @@ url
 }
 )
 ;
+lazy
+.
 UrlbarUtils
 .
 addToFormHistory
@@ -4612,6 +4646,8 @@ browser
 .
 lastLocationChange
 ;
+lazy
+.
 UrlbarUtils
 .
 getHeuristicResultFor
@@ -5052,6 +5088,8 @@ newtabSessionId
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5496,6 +5534,8 @@ result
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -5661,6 +5701,8 @@ postData
 null
 }
 :
+lazy
+.
 UrlbarUtils
 .
 getUrlFromResult
@@ -5682,6 +5724,8 @@ type
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -5926,6 +5970,8 @@ result
 heuristic
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5940,6 +5986,8 @@ dns_first_for_single_words
 )
 &
 &
+lazy
+.
 UrlbarUtils
 .
 looksLikeSingleWordHost
@@ -5957,6 +6005,8 @@ break
 ;
 }
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6000,6 +6050,8 @@ break
 ;
 }
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6051,6 +6103,8 @@ loadOpts
 {
 adoptIntoActiveWindow
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6193,6 +6247,8 @@ Just
 reportError
 it
 .
+lazy
+.
 UrlbarUtils
 .
 addToInputHistory
@@ -6213,6 +6269,8 @@ return
 ;
 }
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6291,6 +6349,8 @@ facto
 check
 .
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6336,6 +6396,8 @@ will
 run
 it
 .
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6355,6 +6417,8 @@ window
 gKeywordURIFixup
 &
 &
+lazy
+.
 UrlbarUtils
 .
 looksLikeSingleWordHost
@@ -6539,6 +6603,8 @@ result
 source
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -6589,6 +6655,8 @@ payload
 inPrivateWindow
 )
 {
+lazy
+.
 UrlbarUtils
 .
 addToFormHistory
@@ -6623,6 +6691,8 @@ break
 ;
 }
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6766,6 +6836,8 @@ providerName
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -6817,6 +6889,8 @@ break
 ;
 }
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6885,6 +6959,8 @@ handleRevert
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -7003,6 +7079,8 @@ break
 ;
 }
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7139,6 +7217,8 @@ as
 a
 sanity
 check
+.
+lazy
 .
 ExtensionSearchHandler
 .
@@ -7298,6 +7378,8 @@ Just
 reportError
 it
 .
+lazy
+.
 UrlbarUtils
 .
 addToInputHistory
@@ -7360,6 +7442,8 @@ payload
 sendAttributionRequest
 )
 {
+lazy
+.
 PartnerLinkAttribution
 .
 makeRequest
@@ -7448,6 +7532,8 @@ position
 1
 )
 ;
+lazy
+.
 PartnerLinkAttribution
 .
 sendContextualServicesPing
@@ -7489,6 +7575,8 @@ toLocaleLowerCase
 (
 )
 }
+lazy
+.
 CONTEXTUAL_SERVICES_PING_TYPES
 .
 TOPSITES_SELECTION
@@ -8005,6 +8093,8 @@ type
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -8026,6 +8116,8 @@ switchtab
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -8299,6 +8391,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -8307,6 +8401,8 @@ URL
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -8335,6 +8431,8 @@ url
 .
 startsWith
 (
+lazy
+.
 BrowserUIUtils
 .
 trimURLProtocol
@@ -8348,6 +8446,8 @@ this
 .
 _getURIFixupInfo
 (
+lazy
+.
 BrowserUIUtils
 .
 trimURL
@@ -9416,6 +9516,8 @@ this
 isPrivate
 maxResults
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -9462,6 +9564,8 @@ prohibitRemoteResults
 event
 &
 &
+lazy
+.
 UrlbarUtils
 .
 isPasteEvent
@@ -9470,6 +9574,8 @@ event
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -9584,6 +9690,8 @@ controller
 startQuery
 (
 new
+lazy
+.
 UrlbarQueryContext
 (
 options
@@ -9781,6 +9889,8 @@ trimmedValue
 .
 search
 (
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES
@@ -9822,6 +9932,8 @@ token
 let
 searchMode
 =
+lazy
+.
 UrlbarUtils
 .
 searchModeForToken
@@ -9924,6 +10036,8 @@ firstToken
 }
 if
 (
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES
@@ -9980,6 +10094,8 @@ Object
 .
 values
 (
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -10017,6 +10133,8 @@ Object
 .
 values
 (
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -10807,6 +10925,8 @@ searchMode
 )
 |
 |
+lazy
+.
 ObjectUtils
 .
 deepEqual
@@ -10984,6 +11104,8 @@ searchMode
 .
 source
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -11001,6 +11123,8 @@ source
 let
 sourceName
 =
+lazy
+.
 UrlbarUtils
 .
 getResultSourceName
@@ -11049,6 +11173,8 @@ isPreview
 ;
 if
 (
+lazy
+.
 UrlbarUtils
 .
 SEARCH_MODE_ENTRY
@@ -11278,6 +11404,8 @@ areSearchModesSame
 {
 try
 {
+lazy
+.
 BrowserSearchTelemetry
 .
 recordSearchMode
@@ -11399,6 +11527,8 @@ searchMode
 {
 source
 :
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -11406,6 +11536,8 @@ RESULT_SOURCE
 SEARCH
 engineName
 :
+lazy
+.
 UrlbarSearchUtils
 .
 getDefaultEngine
@@ -11871,6 +12003,8 @@ isInAutomation
 {
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -12709,6 +12843,8 @@ topic
 )
 {
 case
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -12720,6 +12856,8 @@ data
 )
 {
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -12727,6 +12865,8 @@ MODIFIED_TYPE
 CHANGED
 :
 case
+lazy
+.
 SearchUtils
 .
 MODIFIED_TYPE
@@ -12813,6 +12953,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -13322,6 +13464,8 @@ user
 let
 originalUrl
 =
+lazy
+.
 ReaderMode
 .
 getOriginalUrlObjectForDisplay
@@ -13459,6 +13603,8 @@ type
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -13473,6 +13619,8 @@ payload
 input
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -13529,6 +13677,8 @@ value
 ;
 }
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -13543,6 +13693,8 @@ payload
 content
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -13792,6 +13944,8 @@ searchMode
 source
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -13983,6 +14137,8 @@ else
 {
 canAutofillPlaceholder
 =
+lazy
+.
 UrlbarUtils
 .
 canAutofillURL
@@ -15035,6 +15191,8 @@ data
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -15082,6 +15240,8 @@ selectedVal
 .
 startsWith
 (
+lazy
+.
 BrowserUIUtils
 .
 trimURLProtocol
@@ -15135,6 +15295,8 @@ displaySpec
 {
 selectedVal
 =
+lazy
+.
 BrowserUIUtils
 .
 trimURLProtocol
@@ -15187,6 +15349,8 @@ URIs
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -15733,6 +15897,8 @@ searchmode
 "
 ;
 }
+lazy
+.
 BrowserSearchTelemetry
 .
 recordSearch
@@ -15816,6 +15982,8 @@ val
 )
 {
 return
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -15825,6 +15993,8 @@ trimURLs
 "
 )
 ?
+lazy
+.
 BrowserUIUtils
 .
 trimURL
@@ -15979,6 +16149,8 @@ ctrlKey
 |
 |
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -16751,6 +16923,8 @@ url
 }
 try
 {
+lazy
+.
 UrlbarUtils
 .
 addToUrlbarHistory
@@ -17502,6 +17676,8 @@ event
 ctrlKey
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -17569,6 +17745,8 @@ false
 }
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -18255,6 +18433,8 @@ null
 let
 searchMode
 =
+lazy
+.
 UrlbarUtils
 .
 searchModeForToken
@@ -18808,6 +18988,8 @@ source
 let
 sourceName
 =
+lazy
+.
 UrlbarUtils
 .
 getResultSourceName
@@ -19023,6 +19205,8 @@ this
 _compositionState
 !
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -19485,6 +19669,8 @@ here
 .
 if
 (
+lazy
+.
 ExtensionSearchHandler
 .
 hasActiveInputSession
@@ -19492,6 +19678,8 @@ hasActiveInputSession
 )
 )
 {
+lazy
+.
 ExtensionSearchHandler
 .
 handleInputCancelled
@@ -19520,6 +19708,8 @@ toolbox
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -20147,6 +20337,8 @@ event
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -20387,6 +20579,8 @@ this
 .
 search
 (
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -20578,6 +20772,8 @@ toolbox
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -20734,6 +20930,8 @@ this
 _compositionState
 !
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -20745,6 +20943,8 @@ this
 .
 _compositionState
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -20862,6 +21062,8 @@ value
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -20992,6 +21194,8 @@ start
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -21006,6 +21210,8 @@ keepPanelOpenDuringImeComposition
 compositionState
 =
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -21017,6 +21223,8 @@ COMPOSING
 compositionState
 =
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -21069,6 +21277,8 @@ allowAutofill
 =
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -21083,6 +21293,8 @@ compositionState
 !
 =
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -21099,6 +21311,8 @@ data
 &
 &
 !
+lazy
+.
 UrlbarUtils
 .
 isPasteEvent
@@ -21363,6 +21577,8 @@ val
 return
 ;
 }
+lazy
+.
 ClipboardHelper
 .
 copyStringToClipboard
@@ -21757,6 +21973,8 @@ g
 ;
 pasteData
 =
+lazy
+.
 UrlbarUtils
 .
 stripUnsafeProtocolOnPaste
@@ -21984,6 +22202,8 @@ this
 .
 _keyDownEnterDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -22452,6 +22672,8 @@ this
 _compositionState
 =
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -22479,6 +22701,8 @@ this
 .
 _compositionState
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -22487,6 +22711,8 @@ COMPOSING
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -22671,6 +22897,8 @@ this
 _compositionState
 !
 =
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -22698,6 +22926,8 @@ composition
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -22800,12 +23030,16 @@ event
 .
 data
 ?
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
 .
 COMMIT
 :
+lazy
+.
 UrlbarUtils
 .
 COMPOSITION
@@ -23551,6 +23785,8 @@ url
 ;
 if
 (
+lazy
+.
 UrlbarUtils
 .
 stripUnsafeProtocolOnPaste
@@ -25203,6 +25439,8 @@ event
 )
 ;
 }
+lazy
+.
 ClipboardHelper
 .
 copyString
@@ -25576,6 +25814,8 @@ false
 ;
 }
 return
+lazy
+.
 ObjectUtils
 .
 deepEqual
@@ -26329,6 +26569,8 @@ let
 added
 =
 await
+lazy
+.
 SearchUIUtils
 .
 addOpenSearchEngine

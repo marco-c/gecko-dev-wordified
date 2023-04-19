@@ -137,11 +137,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AddonTestUtils
 :
@@ -919,6 +925,8 @@ path
 .
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -932,6 +940,8 @@ trimURLs
 value
 !
 =
+lazy
+.
 BrowserUIUtils
 .
 trimURL
@@ -2600,6 +2610,8 @@ server
 ;
 }
 return
+lazy
+.
 BrowserTestUtils
 .
 waitForCondition
@@ -3070,6 +3082,8 @@ menupopup
 let
 openPromise
 =
+lazy
+.
 BrowserTestUtils
 .
 waitForEvent
@@ -3178,6 +3192,8 @@ showing
 let
 closePromise
 =
+lazy
+.
 BrowserTestUtils
 .
 waitForEvent
@@ -3401,6 +3417,8 @@ placeholderName
 "
 +
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -4233,6 +4251,8 @@ engineName
 let
 engineRootDomain
 =
+lazy
+.
 UrlbarSearchUtils
 .
 getRootDomainFromEngine
@@ -4450,6 +4470,8 @@ window
 )
 ;
 await
+lazy
+.
 TestUtils
 .
 waitForCondition
@@ -5426,6 +5448,8 @@ options
 {
 return
 new
+lazy
+.
 UrlbarController
 (
 Object
@@ -5580,6 +5604,8 @@ engines
 try
 {
 await
+lazy
+.
 AddonTestUtils
 .
 promiseStartupManager
@@ -5685,6 +5711,8 @@ values
 ]
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -5703,6 +5731,8 @@ window
 )
 ;
 return
+lazy
+.
 FormHistoryTestUtils
 .
 add
@@ -5787,6 +5817,8 @@ values
 ]
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -5805,6 +5837,8 @@ window
 )
 ;
 return
+lazy
+.
 FormHistoryTestUtils
 .
 remove
@@ -5872,6 +5906,8 @@ clear
 (
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -5890,6 +5926,8 @@ window
 )
 ;
 return
+lazy
+.
 FormHistoryTestUtils
 .
 clear
@@ -5970,6 +6008,8 @@ criteria
 }
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -5988,6 +6028,8 @@ window
 )
 ;
 return
+lazy
+.
 FormHistoryTestUtils
 .
 search
@@ -6061,6 +6103,8 @@ null
 )
 {
 return
+lazy
+.
 TestUtils
 .
 topicObserved
@@ -6144,6 +6188,8 @@ getFormHistoryName
 (
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -6560,6 +6606,8 @@ resolve
 =
 >
 {
+lazy
+.
 setTimeout
 (
 (

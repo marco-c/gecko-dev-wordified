@@ -121,11 +121,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarPrefs
 :
@@ -176,7 +182,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 ClipboardHelper
 "
@@ -381,6 +387,8 @@ super
 (
 )
 ;
+lazy
+.
 UrlbarResult
 .
 addDynamicResultType
@@ -388,6 +396,8 @@ addDynamicResultType
 DYNAMIC_RESULT_TYPE
 )
 ;
+lazy
+.
 UrlbarView
 .
 addDynamicViewTemplate
@@ -539,6 +549,8 @@ queryContext
 searchMode
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -679,6 +691,8 @@ const
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -829,6 +843,8 @@ payload
 }
 )
 {
+lazy
+.
 ClipboardHelper
 .
 copyString

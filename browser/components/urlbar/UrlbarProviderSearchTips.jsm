@@ -176,11 +176,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppMenuNotifications
 :
@@ -304,7 +310,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 updateManager
 "
@@ -365,7 +371,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 cfrFeaturesUserPref
 "
@@ -1454,6 +1460,8 @@ if
 tip
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1568,6 +1576,8 @@ sites
 providers
 .
 return
+lazy
+.
 UrlbarProviderTopSites
 .
 PRIORITY
@@ -1722,6 +1732,8 @@ this
 currentTip
 &
 &
+lazy
+.
 cfrFeaturesUserPref
 ;
 }
@@ -1892,6 +1904,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2099,6 +2113,8 @@ result
 let
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -2389,6 +2405,8 @@ count
 to
 the
 max
+.
+lazy
 .
 UrlbarPrefs
 .
@@ -2841,6 +2859,8 @@ session
 if
 (
 !
+lazy
+.
 cfrFeaturesUserPref
 |
 |
@@ -2851,6 +2871,8 @@ disableTipsForCurrentSession
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3096,6 +3118,8 @@ return
 let
 ignoreShowLimits
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3140,6 +3164,8 @@ again
 let
 shownCount
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3217,6 +3243,8 @@ Start
 a
 search
 .
+lazy
+.
 setTimeout
 (
 async
@@ -3241,6 +3269,8 @@ return
 let
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -3381,6 +3411,8 @@ new
 shown
 count
 .
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -3436,6 +3468,8 @@ isBrowserShowingNotification
 let
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -3494,12 +3528,16 @@ notification
 doorhanger
 if
 (
+lazy
+.
 AppMenuNotifications
 .
 activeNotification
 &
 &
 !
+lazy
+.
 AppMenuNotifications
 .
 activeNotification
@@ -3508,6 +3546,8 @@ dismissed
 &
 &
 !
+lazy
+.
 AppMenuNotifications
 .
 activeNotification
@@ -3791,6 +3831,8 @@ const
 willPrompt
 =
 await
+lazy
+.
 DefaultBrowserCheck
 .
 willCheckDefaultBrowser
@@ -4060,9 +4102,13 @@ bug
 .
 if
 (
+lazy
+.
 updateManager
 &
 &
+lazy
+.
 updateManager
 .
 getUpdateCount
@@ -4073,6 +4119,8 @@ getUpdateCount
 let
 update
 =
+lazy
+.
 updateManager
 .
 getUpdateAt
@@ -4099,6 +4147,8 @@ let
 age
 =
 await
+lazy
+.
 ProfileAge
 (
 )

@@ -165,11 +165,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -1540,6 +1546,8 @@ RESULT_SOURCE
 BOOKMARKS
 restrict
 :
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -1578,6 +1586,8 @@ RESULT_SOURCE
 TABS
 restrict
 :
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -1616,6 +1626,8 @@ RESULT_SOURCE
 HISTORY
 restrict
 :
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -1654,6 +1666,8 @@ RESULT_SOURCE
 ACTIONS
 restrict
 :
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -1815,6 +1829,8 @@ window
 if
 (
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1867,6 +1883,8 @@ url
 )
 )
 {
+lazy
+.
 PlacesUIUtils
 .
 markPageAsTyped
@@ -2109,6 +2127,8 @@ try
 entry
 =
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -2182,6 +2202,8 @@ postData
 ]
 =
 await
+lazy
+.
 KeywordUtils
 .
 parseUrlAndPostData
@@ -4691,6 +4713,8 @@ if
 token
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -4702,6 +4726,8 @@ return
 {
 engineName
 :
+lazy
+.
 UrlbarSearchUtils
 .
 getDefaultEngine
@@ -4854,6 +4880,8 @@ window
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5756,6 +5784,8 @@ input
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -6377,6 +6407,8 @@ str
 let
 match
 =
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_PREFIX
@@ -6604,6 +6636,8 @@ getHeuristicResultFor
 searchString
 window
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -6643,6 +6677,8 @@ allowAutofill
 false
 isPrivate
 :
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -6738,6 +6774,8 @@ options
 )
 ;
 await
+lazy
+.
 UrlbarProvidersManager
 .
 startQuery
@@ -6859,6 +6897,8 @@ this
 .
 _logger
 =
+lazy
+.
 Log
 .
 repository
@@ -6892,11 +6932,15 @@ _logger
 addAppender
 (
 new
+lazy
+.
 Log
 .
 ConsoleAppender
 (
 new
+lazy
+.
 Log
 .
 BasicFormatter
@@ -6952,6 +6996,8 @@ actual
 Proxy
 .
 return
+lazy
+.
 Log
 .
 repository
@@ -7284,6 +7330,8 @@ value
 .
 length
 >
+lazy
+.
 SearchSuggestionController
 .
 SEARCH_HISTORY_MAX_VALUE_LENGTH
@@ -7308,6 +7356,8 @@ reject
 =
 >
 {
+lazy
+.
 FormHistory
 .
 update
@@ -7546,6 +7596,8 @@ work
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_PREFIX
@@ -7571,6 +7623,8 @@ url
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_PREFIX
@@ -8399,6 +8453,8 @@ DEFAULT
 >
 {
 return
+lazy
+.
 PlacesUtils
 .
 favicons
@@ -10766,6 +10822,8 @@ tokens
 type
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE

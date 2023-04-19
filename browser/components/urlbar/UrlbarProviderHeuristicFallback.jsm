@@ -193,11 +193,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarPrefs
 :
@@ -638,6 +644,8 @@ ex
 {
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -651,6 +659,8 @@ enabled
 &
 &
 (
+lazy
+.
 UrlbarTokenizer
 .
 looksLikeOrigin
@@ -667,6 +677,8 @@ true
 )
 |
 |
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_COMMON_EMAIL
@@ -879,6 +891,8 @@ RESULT_SOURCE
 SEARCH
 |
 |
+lazy
+.
 UrlbarTokenizer
 .
 SEARCH_MODE_RESTRICT
@@ -998,6 +1012,8 @@ NS_ERROR_MALFORMED_URI
 &
 &
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1014,6 +1030,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1028,6 +1046,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -1577,6 +1597,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1591,6 +1613,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -1671,6 +1695,8 @@ value
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 SEARCH_MODE_RESTRICT
@@ -1928,6 +1954,8 @@ firstToken
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES_START
@@ -1975,6 +2003,8 @@ else
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1989,6 +2019,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -2078,6 +2110,8 @@ else
 {
 engine
 =
+lazy
+.
 UrlbarSearchUtils
 .
 getDefaultEngine
@@ -2192,6 +2226,8 @@ value
 =
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -2223,6 +2259,8 @@ trim
 }
 return
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -2237,6 +2275,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
