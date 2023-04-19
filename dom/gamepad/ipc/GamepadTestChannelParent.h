@@ -142,8 +142,8 @@ define
 mozilla_dom_GamepadTestChannelParent_h_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -283,11 +283,9 @@ mDeferredGamepadAdded
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

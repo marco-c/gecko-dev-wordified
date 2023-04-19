@@ -122,8 +122,8 @@ define
 mozilla_dom_gamepad_GamepadPoseState_h_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -814,12 +814,10 @@ flags
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

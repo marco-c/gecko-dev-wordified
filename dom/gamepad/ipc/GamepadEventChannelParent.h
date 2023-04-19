@@ -133,8 +133,8 @@ define
 mozilla_dom_GamepadEventChannelParent_h_
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -349,11 +349,9 @@ mBackgroundEventTarget
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

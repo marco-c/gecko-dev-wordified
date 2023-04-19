@@ -133,8 +133,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -157,7 +157,6 @@ FileSystemRootDirectoryEntry
 nsIGlobalObject
 *
 aGlobalObject
-const
 Sequence
 <
 RefPtr
@@ -165,7 +164,6 @@ RefPtr
 FileSystemEntry
 >
 >
-&
 aEntries
 FileSystem
 *
@@ -287,12 +285,10 @@ mEntries
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
