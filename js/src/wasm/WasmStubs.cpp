@@ -16587,7 +16587,7 @@ funcImportIndex
 Label
 *
 throwLabel
-JitExitOffsets
+CallableOffsets
 *
 offsets
 )
@@ -22578,7 +22578,7 @@ canHaveJitExit
 continue
 ;
 }
-JitExitOffsets
+CallableOffsets
 jitOffsets
 ;
 if
@@ -22610,6 +22610,10 @@ codeRanges
 .
 emplaceBack
 (
+CodeRange
+:
+:
+ImportJitExit
 funcIndex
 jitOffsets
 )
