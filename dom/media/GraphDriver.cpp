@@ -536,7 +536,7 @@ mThread
 mThread
 -
 >
-Shutdown
+AsyncShutdown
 (
 )
 ;
@@ -1043,7 +1043,7 @@ this
 mThread
 -
 >
-Shutdown
+AsyncShutdown
 (
 )
 ;

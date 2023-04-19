@@ -2152,9 +2152,6 @@ Start
 *
 Shutdown
 GraphDriver
-(
-synchronously
-)
 *
 /
 MOZ_CAN_RUN_SCRIPT
