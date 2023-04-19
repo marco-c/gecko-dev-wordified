@@ -598,6 +598,15 @@ use
 crate
 :
 :
+segment
+:
+:
+EdgeAaSegmentMask
+;
+use
+crate
+:
+:
 spatial_tree
 :
 :
@@ -7897,6 +7906,7 @@ rect
 start
 end
 stops
+edge_aa_mask
 |
 {
 let
@@ -7951,6 +7961,7 @@ zero
 (
 )
 None
+edge_aa_mask
 )
 {
 self
@@ -8016,6 +8027,12 @@ info
 .
 tile_spacing
 None
+EdgeAaSegmentMask
+:
+:
+all
+(
+)
 )
 {
 self
@@ -16392,6 +16409,12 @@ new
 nine_patch
 )
 )
+EdgeAaSegmentMask
+:
+:
+all
+(
+)
 )
 {
 Some
@@ -16691,6 +16714,9 @@ Box
 NinePatchDescriptor
 >
 >
+edge_aa_mask
+:
+EdgeAaSegmentMask
 )
 -
 >
@@ -17183,6 +17209,7 @@ stops
 reverse_stops
 nine_patch
 cached
+edge_aa_mask
 }
 )
 }
