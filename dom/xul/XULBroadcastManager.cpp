@@ -503,8 +503,8 @@ true
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -3821,9 +3821,7 @@ eHookupRemove
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

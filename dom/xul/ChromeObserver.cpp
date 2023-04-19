@@ -216,8 +216,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -1566,9 +1566,7 @@ NS_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

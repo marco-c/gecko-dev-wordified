@@ -213,8 +213,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -631,9 +631,7 @@ false
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

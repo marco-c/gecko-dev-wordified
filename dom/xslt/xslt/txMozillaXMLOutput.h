@@ -174,8 +174,8 @@ nsINode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -191,12 +191,10 @@ Element
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 class
 txTransformNotifier
 final

@@ -164,8 +164,8 @@ namespace
 mozilla
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -292,11 +292,9 @@ AsPrimitiveValue
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

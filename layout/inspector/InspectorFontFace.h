@@ -175,8 +175,8 @@ gfxFontGroup
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -494,12 +494,10 @@ mRanges
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

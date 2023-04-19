@@ -204,8 +204,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -1208,9 +1208,7 @@ aNotify
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -234,8 +234,8 @@ namespace
 mozilla
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2088,12 +2088,10 @@ mInFontFaceSet
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

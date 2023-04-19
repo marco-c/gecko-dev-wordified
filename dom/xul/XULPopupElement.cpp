@@ -233,8 +233,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsXULElement
@@ -1925,9 +1925,7 @@ Height
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

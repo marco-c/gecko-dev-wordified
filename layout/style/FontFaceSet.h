@@ -232,8 +232,8 @@ namespace
 mozilla
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2536,12 +2536,10 @@ mPrivateBrowsing
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

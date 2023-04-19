@@ -129,8 +129,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsXULElement
@@ -247,12 +247,10 @@ default
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

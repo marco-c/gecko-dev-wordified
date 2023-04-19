@@ -207,8 +207,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsXULElement
@@ -831,9 +831,7 @@ NS_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
