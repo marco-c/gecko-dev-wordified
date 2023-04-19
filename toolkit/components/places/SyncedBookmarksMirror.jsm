@@ -8472,12 +8472,6 @@ finalizePromise
 ;
 }
 }
-this
-.
-SyncedBookmarksMirror
-=
-SyncedBookmarksMirror
-;
 /
 *
 *
