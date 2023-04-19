@@ -1204,6 +1204,7 @@ callback
 minidump
 extra
 extrafile
+memoryfile
 )
 ;
 }
