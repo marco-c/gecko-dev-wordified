@@ -1329,6 +1329,15 @@ custom_fields
 )
 ;
 let
+target
+=
+args
+.
+target
+(
+)
+;
+let
 err_event
 =
 match
@@ -1365,6 +1374,10 @@ tracing
 error
 !
 (
+target
+:
+#
+target
 error
 =
 %
@@ -1393,6 +1406,10 @@ tracing
 error
 !
 (
+target
+:
+#
+target
 error
 =
 ?
@@ -1434,6 +1451,10 @@ tracing
 event
 !
 (
+target
+:
+#
+target
 #
 level
 return
@@ -1460,7 +1481,6 @@ Debug
 )
 =
 >
-{
 Some
 (
 quote
@@ -1472,6 +1492,10 @@ tracing
 event
 !
 (
+target
+:
+#
+target
 #
 level
 return
@@ -1481,7 +1505,6 @@ x
 )
 )
 )
-}
 _
 =
 >
