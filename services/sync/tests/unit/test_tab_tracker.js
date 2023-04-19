@@ -1887,7 +1887,6 @@ an
 about
 page
 does
-not
 trigger
 sync
 "
@@ -1921,7 +1920,6 @@ Assert
 .
 ok
 (
-!
 tracker
 .
 modified
@@ -1941,7 +1939,6 @@ Assert
 .
 ok
 (
-!
 tracker
 .
 tabsQuickWriteTimer
@@ -1949,7 +1946,6 @@ tabsQuickWriteTimer
 about
 schema
 should
-not
 trigger
 a
 sync
