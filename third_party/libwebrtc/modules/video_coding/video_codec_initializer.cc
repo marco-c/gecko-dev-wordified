@@ -1619,6 +1619,8 @@ spatial_layers
 size
 (
 )
++
+first_active_layer
 ;
 +
 +
