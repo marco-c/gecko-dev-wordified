@@ -3182,7 +3182,7 @@ uri
 url
 *
 *
-iconuri
+iconUri
 :
 favicon
 '

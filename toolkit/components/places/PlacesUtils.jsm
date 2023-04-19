@@ -11165,7 +11165,7 @@ none
 .
 *
 -
-iconuri
+iconUri
 (
 string
 )
@@ -11481,7 +11481,7 @@ charset
 tags
 "
 "
-iconuri
+iconUri
 "
 )
 ;
@@ -12052,7 +12052,7 @@ LIMIT
 1
 )
 AS
-iconuri
+iconUri
 (
 SELECT
 GROUP_CONCAT
