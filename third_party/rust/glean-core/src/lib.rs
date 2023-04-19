@@ -59,17 +59,6 @@ MPL
 #
 !
 [
-allow
-(
-clippy
-:
-:
-significant_drop_in_scrutinee
-)
-]
-#
-!
-[
 deny
 (
 rustdoc

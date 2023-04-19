@@ -603,7 +603,7 @@ assert_eq
 (
 ci
 .
-function_definitions
+iter_function_definitions
 (
 )
 .
@@ -987,7 +987,7 @@ assert_eq
 (
 ci
 .
-function_definitions
+iter_function_definitions
 (
 )
 .

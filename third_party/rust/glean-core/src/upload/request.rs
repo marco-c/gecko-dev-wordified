@@ -1365,7 +1365,6 @@ ping
 derive
 (
 PartialEq
-Eq
 Debug
 Clone
 )

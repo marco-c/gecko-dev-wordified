@@ -415,8 +415,6 @@ static_assertions
 assert_impl_all
 !
 (
-r
-#
 {
 {
 obj
@@ -549,8 +547,6 @@ ptr
 as
 *
 const
-r
-#
 {
 {
 obj
@@ -596,8 +592,6 @@ extern
 C
 "
 fn
-r
-#
 {
 {
 cons
@@ -802,8 +796,6 @@ extern
 C
 "
 fn
-r
-#
 {
 {
 meth
