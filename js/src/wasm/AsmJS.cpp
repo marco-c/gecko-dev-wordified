@@ -8157,6 +8157,9 @@ JSContext
 *
 cx_
 ;
+GeneralErrorContext
+ec_
+;
 ParserAtomsTable
 &
 parserAtoms_
@@ -8269,6 +8272,10 @@ moduleFunctionNode
 )
 :
 cx_
+(
+cx
+)
+ec_
 (
 cx
 )
@@ -11848,7 +11855,8 @@ throwOnAsmJSValidationFailureOption
 {
 ReportCompileErrorLatin1
 (
-cx_
+&
+ec_
 cx_
 std
 :

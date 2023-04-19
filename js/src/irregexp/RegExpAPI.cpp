@@ -1289,7 +1289,7 @@ suppressGC
 (
 ts
 .
-context
+allocator
 (
 )
 )
@@ -1316,7 +1316,7 @@ ReportOverRecursed
 (
 ts
 .
-context
+allocator
 (
 )
 )
@@ -1789,7 +1789,7 @@ windowBuf
 (
 ts
 .
-context
+allocator
 (
 )
 )
@@ -1913,7 +1913,7 @@ context
 )
 ts
 .
-context
+allocator
 (
 )
 std

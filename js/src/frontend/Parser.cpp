@@ -1224,6 +1224,10 @@ foldConstants_
 (
 foldConstants
 )
+ec_
+(
+cx
+)
 #
 ifdef
 DEBUG

@@ -381,7 +381,7 @@ current
 context
 .
 virtual
-JSContext
+ErrorContext
 *
 getContext
 (
