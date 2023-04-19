@@ -339,8 +339,6 @@ dom
 Document
 *
 aDoc
-bool
-aForPrintPreview
 )
 ;
 nsresult

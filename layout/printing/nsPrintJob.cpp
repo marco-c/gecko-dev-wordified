@@ -3590,7 +3590,6 @@ InitAsRootObject
 (
 docShell
 aDoc
-mIsCreatingPrintPreview
 )
 ;
 NS_ENSURE_SUCCESS
