@@ -2164,6 +2164,11 @@ cxreg
 scratch
 )
 ;
+Push
+(
+FramePointer
+)
+;
 /
 /
 Push
@@ -2200,6 +2205,11 @@ linkExitFrame
 (
 cxreg
 scratch
+)
+;
+Push
+(
+FramePointer
 )
 ;
 Push
