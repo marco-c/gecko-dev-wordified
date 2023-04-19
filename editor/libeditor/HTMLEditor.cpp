@@ -1355,6 +1355,16 @@ HTMLEditor
 (
 )
 :
+EditorBase
+(
+EditorBase
+:
+:
+EditorType
+:
+:
+HTML
+)
 mCRInParagraphCreatesParagraph
 (
 false
@@ -1534,10 +1544,6 @@ ParagraphSeparator
 br
 )
 {
-mIsHTMLEditorClass
-=
-true
-;
 }
 HTMLEditor
 :

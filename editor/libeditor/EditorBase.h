@@ -1091,8 +1091,11 @@ class
 .
 *
 /
+explicit
 EditorBase
 (
+EditorType
+aEditorType
 )
 ;
 bool

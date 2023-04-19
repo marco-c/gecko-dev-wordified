@@ -568,6 +568,17 @@ TextEditor
 TextEditor
 (
 )
+:
+EditorBase
+(
+EditorBase
+:
+:
+EditorType
+:
+:
+Text
+)
 {
 /
 /
