@@ -1623,8 +1623,8 @@ NS_OK
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XMLDocument
@@ -2360,9 +2360,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

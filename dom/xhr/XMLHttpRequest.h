@@ -165,8 +165,8 @@ nsIInputStream
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -809,12 +809,10 @@ aGlobalObject
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

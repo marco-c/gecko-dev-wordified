@@ -147,8 +147,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 CDATASection
@@ -419,9 +419,7 @@ endif
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

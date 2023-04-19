@@ -134,8 +134,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_INTERFACE_MAP_BEGIN
@@ -198,9 +198,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -354,8 +354,8 @@ forget
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ProcessingInstruction
@@ -785,9 +785,7 @@ endif
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
