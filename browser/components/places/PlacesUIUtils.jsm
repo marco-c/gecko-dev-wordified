@@ -11509,6 +11509,13 @@ a
 title
 *
 property
+which
+should
+be
+a
+string
+or
+null
 .
 *
 The
@@ -11689,6 +11696,12 @@ continue
 .
 if
 (
+!
+candidate
+.
+title
+|
+|
 candidate
 .
 title
