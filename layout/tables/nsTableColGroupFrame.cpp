@@ -121,6 +121,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
 nsTableColFrame
 .
 h
