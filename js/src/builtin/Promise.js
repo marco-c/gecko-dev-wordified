@@ -234,8 +234,10 @@ Step
 var
 result
 =
-onFinally
+callContentFunction
 (
+onFinally
+undefined
 )
 ;
 /
@@ -362,8 +364,10 @@ Step
 var
 result
 =
-onFinally
+callContentFunction
 (
+onFinally
+undefined
 )
 ;
 /
