@@ -65,6 +65,8 @@ script
 /
 IndexedDB
 /
+resources
+/
 support
 -
 promises

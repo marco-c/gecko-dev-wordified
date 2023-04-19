@@ -14,8 +14,7 @@ META
 :
 script
 =
-.
-.
+resources
 /
 support
 -
@@ -28,7 +27,7 @@ META
 :
 script
 =
-.
+resources
 /
 reading
 -

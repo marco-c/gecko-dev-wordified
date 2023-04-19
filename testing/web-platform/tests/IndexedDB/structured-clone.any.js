@@ -24,6 +24,8 @@ META
 :
 script
 =
+resources
+/
 support
 -
 promises

@@ -17,6 +17,8 @@ META
 :
 script
 =
+resources
+/
 support
 .
 js
@@ -26,6 +28,8 @@ META
 :
 script
 =
+resources
+/
 support
 -
 promises

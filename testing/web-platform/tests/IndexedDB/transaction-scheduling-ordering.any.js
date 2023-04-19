@@ -4,6 +4,8 @@ META
 :
 script
 =
+resources
+/
 support
 .
 js

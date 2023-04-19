@@ -7,6 +7,8 @@ script
 /
 IndexedDB
 /
+resources
+/
 support
 .
 js
