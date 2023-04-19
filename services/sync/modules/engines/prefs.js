@@ -562,11 +562,8 @@ control
 pref
 or
 PREF_SYNC_PREFS_ARBITRARY
-this
-.
-isAllowedPrefName
-=
 function
+isAllowedPrefName
 (
 prefName
 )
@@ -694,7 +691,6 @@ false
 ;
 }
 }
-;
 function
 PrefRec
 (
