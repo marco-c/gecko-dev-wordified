@@ -904,7 +904,7 @@ mAudioSink
 ;
 mEndedPromiseHolder
 .
-Resolve
+ResolveIfExists
 (
 true
 __func__
