@@ -43595,6 +43595,7 @@ childNodes
 static
 *
 /
+const
 Document
 *
 nsContentUtils
@@ -43602,6 +43603,7 @@ nsContentUtils
 :
 GetInProcessSubtreeRootDocument
 (
+const
 Document
 *
 aDoc
@@ -43617,6 +43619,7 @@ return
 nullptr
 ;
 }
+const
 Document
 *
 doc
