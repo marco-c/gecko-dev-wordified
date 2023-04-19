@@ -9036,7 +9036,7 @@ keygen
 /
 CPPONLY
 :
-NS_NewHTMLElement
+NS_NewHTMLUnknownElement
 /
 /
 CPPONLY
