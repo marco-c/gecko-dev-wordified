@@ -273,7 +273,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021lush
 /
@@ -306,7 +306,7 @@ builtin
 -
 themes
 /
-monochromatic
+colorways
 /
 2021lush
 /
