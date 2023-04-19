@@ -123,6 +123,13 @@ mozilla_ipc_ProcessChild_h
 #
 include
 "
+Endpoint
+.
+h
+"
+#
+include
+"
 base
 /
 message_loop
@@ -367,6 +374,11 @@ return
 mParentPid
 ;
 }
+UntypedEndpoint
+TakeInitialEndpoint
+(
+)
+;
 private
 :
 static

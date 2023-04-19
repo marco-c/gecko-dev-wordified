@@ -494,7 +494,7 @@ mUtility
 >
 Init
 (
-ParentPid
+TakeInitialEndpoint
 (
 )
 nsCString
@@ -504,12 +504,6 @@ parentBuildID
 )
 *
 sandboxingKind
-IOThreadChild
-:
-:
-TakeInitialPort
-(
-)
 )
 ;
 }

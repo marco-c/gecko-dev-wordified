@@ -2387,6 +2387,9 @@ mSuccess
 ;
 }
 ;
+class
+UntypedEndpoint
+;
 template
 <
 class
