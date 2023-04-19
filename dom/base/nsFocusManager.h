@@ -1483,6 +1483,7 @@ chain
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 WindowShown
 (
@@ -3014,7 +3015,7 @@ state
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 Focus
 (
