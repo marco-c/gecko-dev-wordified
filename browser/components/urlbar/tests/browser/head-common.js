@@ -1,15 +1,3 @@
-/
-*
-eslint
--
-env
-mozilla
-/
-frame
--
-script
-*
-/
 var
 {
 XPCOMUtils

@@ -1,16 +1,4 @@
 /
-*
-eslint
--
-env
-mozilla
-/
-frame
--
-script
-*
-/
-/
 /
 Enable
 HTTPS

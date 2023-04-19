@@ -1,15 +1,3 @@
-/
-*
-eslint
--
-env
-mozilla
-/
-frame
--
-script
-*
-/
 add_task
 (
 async
