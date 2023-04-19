@@ -950,9 +950,7 @@ chromedriver
                  
 adb_binary
 =
-"
-adb
-"
+None
                  
 remote_queue
 =
@@ -1002,6 +1000,10 @@ self
 adb_binary
 =
 adb_binary
+or
+"
+adb
+"
         
 self
 .
@@ -1703,9 +1705,7 @@ chromedriver
                  
 adb_binary
 =
-"
-adb
-"
+None
                  
 remote_queue
 =
