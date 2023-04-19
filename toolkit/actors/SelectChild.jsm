@@ -177,7 +177,10 @@ kStateActive
 ;
 /
 /
-NS_EVENT_STATE_ACTIVE
+ElementState
+:
+:
+ACTIVE
 const
 kStateHover
 =
@@ -185,7 +188,10 @@ kStateHover
 ;
 /
 /
-NS_EVENT_STATE_HOVER
+ElementState
+:
+:
+HOVER
 /
 /
 Duplicated

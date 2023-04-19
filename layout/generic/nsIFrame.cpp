@@ -950,15 +950,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -2856,7 +2847,10 @@ ContentStatesChanged
 mozilla
 :
 :
-EventStates
+dom
+:
+:
+ElementState
 aStates
 )
 {

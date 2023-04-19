@@ -98,15 +98,6 @@ use
 crate
 :
 :
-element_state
-:
-:
-ElementState
-;
-use
-crate
-:
-:
 selector_parser
 :
 :
@@ -148,6 +139,12 @@ LocalName
 Namespace
 WeakAtom
 }
+;
+use
+dom
+:
+:
+ElementState
 ;
 use
 selectors
@@ -1886,7 +1883,7 @@ intersects
 ElementState
 :
 :
-IN_VISITED_OR_UNVISITED_STATE
+VISITED_OR_UNVISITED
 )
 None
 =

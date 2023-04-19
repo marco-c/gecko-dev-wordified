@@ -596,15 +596,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HashTable
 .
 h
@@ -24303,7 +24294,7 @@ IsWindowActive
 )
 const
 {
-EventStates
+DocumentState
 docState
 =
 mFrame
@@ -24329,7 +24320,10 @@ docState
 .
 HasState
 (
-NS_DOCUMENT_STATE_WINDOW_INACTIVE
+DocumentState
+:
+:
+WINDOW_INACTIVE
 )
 ;
 }

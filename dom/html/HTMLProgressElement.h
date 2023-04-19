@@ -188,7 +188,7 @@ NodeInfo
 aNodeInfo
 )
 ;
-EventStates
+ElementState
 IntrinsicState
 (
 )

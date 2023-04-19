@@ -343,7 +343,10 @@ kStateHover
 ;
 /
 /
-NS_EVENT_STATE_HOVER
+ElementState
+:
+:
+HOVER
 const
 {
 EVENT_TEXT_CHANGED

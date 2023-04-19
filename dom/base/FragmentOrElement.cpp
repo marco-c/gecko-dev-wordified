@@ -232,15 +232,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HTMLEditor
 .
 h
@@ -1381,7 +1372,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_READWRITE
+ElementState
+:
+:
+READWRITE
 )
 )
 {

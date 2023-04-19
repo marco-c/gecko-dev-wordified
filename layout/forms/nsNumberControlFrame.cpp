@@ -135,15 +135,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FloatingPoint
 .
 h

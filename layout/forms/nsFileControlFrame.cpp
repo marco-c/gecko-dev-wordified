@@ -283,15 +283,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 Segmenter
@@ -3341,7 +3332,7 @@ SyncDisabledState
 (
 )
 {
-EventStates
+ElementState
 eventStates
 =
 mContent
@@ -3362,7 +3353,10 @@ eventStates
 .
 HasState
 (
-NS_EVENT_STATE_DISABLED
+ElementState
+:
+:
+DISABLED
 )
 )
 {
@@ -3407,7 +3401,7 @@ nsFileControlFrame
 :
 ContentStatesChanged
 (
-EventStates
+ElementState
 aStates
 )
 {
@@ -3417,7 +3411,10 @@ aStates
 .
 HasState
 (
-NS_EVENT_STATE_DISABLED
+ElementState
+:
+:
+DISABLED
 )
 )
 {

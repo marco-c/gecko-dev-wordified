@@ -230,7 +230,10 @@ kStateHover
 ;
 /
 /
-NS_EVENT_STATE_HOVER
+ElementState
+:
+:
+HOVER
 /
 *
 *

@@ -3440,7 +3440,7 @@ false
 ;
 }
 const
-NS_EVENT_STATE_VISITED
+ELEMENT_STATE_VISITED
 =
 1
 <
@@ -3459,7 +3459,7 @@ getContentState
 node
 )
 &
-NS_EVENT_STATE_VISITED
+ELEMENT_STATE_VISITED
 )
 |
 |

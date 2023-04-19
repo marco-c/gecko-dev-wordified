@@ -2095,7 +2095,10 @@ mDocument
 >
 UpdateDocumentStates
 (
-NS_DOCUMENT_STATE_RTL_LOCALE
+DocumentState
+:
+:
+RTL_LOCALE
 true
 )
 ;

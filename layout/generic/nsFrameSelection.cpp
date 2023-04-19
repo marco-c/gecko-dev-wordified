@@ -172,15 +172,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HTMLEditor
 .
 h

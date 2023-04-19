@@ -1302,7 +1302,7 @@ ServoStyleSet
 :
 InvalidateStyleForDocumentStateChanges
 (
-EventStates
+DocumentState
 aStatesChanged
 )
 {
@@ -1462,7 +1462,7 @@ get
 nonDocumentStyles
 aStatesChanged
 .
-ServoValue
+GetInternalValue
 (
 )
 )
@@ -8467,7 +8467,10 @@ const
 Element
 &
 aElement
-EventStates
+dom
+:
+:
+ElementState
 aState
 )
 const
@@ -8484,7 +8487,7 @@ get
 aElement
 aState
 .
-ServoValue
+GetInternalValue
 (
 )
 )
@@ -8496,7 +8499,10 @@ ServoStyleSet
 :
 HasDocumentStateDependency
 (
-EventStates
+dom
+:
+:
+DocumentState
 aState
 )
 const
@@ -8511,7 +8517,7 @@ get
 )
 aState
 .
-ServoValue
+GetInternalValue
 (
 )
 )

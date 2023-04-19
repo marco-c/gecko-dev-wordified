@@ -204,15 +204,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HTMLEditor
 .
 h
@@ -5825,7 +5816,7 @@ static
 bool
 ImageOk
 (
-EventStates
+ElementState
 aState
 )
 {
@@ -5835,7 +5826,10 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_BROKEN
+ElementState
+:
+:
+BROKEN
 )
 ;
 }

@@ -1664,7 +1664,7 @@ AdjustUnthemedScrollbarThumbColor
 (
 nscolor
 aFaceColor
-EventStates
+ElementState
 aStates
 )
 {
@@ -1776,7 +1776,10 @@ aStates
 .
 HasState
 (
-NS_EVENT_STATE_ACTIVE
+ElementState
+:
+:
+ACTIVE
 )
 ;
 bool
@@ -1786,7 +1789,10 @@ aStates
 .
 HasState
 (
-NS_EVENT_STATE_HOVER
+ElementState
+:
+:
+HOVER
 )
 ;
 if

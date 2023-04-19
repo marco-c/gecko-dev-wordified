@@ -126,15 +126,6 @@ h
 #
 include
 "
-mozilla
-/
-EventStates
-.
-h
-"
-#
-include
-"
 inLayoutUtils
 .
 h
@@ -3383,7 +3374,7 @@ GetEventStateManagerFor
 aElement
 )
 ;
-EventStates
+ElementState
 state
 (
 aState
@@ -3468,7 +3459,7 @@ GetEventStateManagerFor
 aElement
 )
 ;
-EventStates
+ElementState
 state
 (
 aState
@@ -3521,7 +3512,10 @@ aClearActiveDocument
 state
 =
 =
-NS_EVENT_STATE_ACTIVE
+ElementState
+:
+:
+ACTIVE
 )
 {
 EventStateManager
@@ -3598,7 +3592,7 @@ please
 remove
 GetInternalValue
 from
-EventStates
+ElementState
 return
 aElement
 .
@@ -3673,7 +3667,7 @@ rv
 }
 }
 static
-EventStates
+ElementState
 GetStatesForPseudoClass
 (
 const
@@ -3704,7 +3698,7 @@ u
 )
 {
 return
-EventStates
+ElementState
 (
 )
 ;
@@ -3720,7 +3714,7 @@ aStatePseudo
 )
 ;
 return
-EventStates
+ElementState
 (
 Servo_PseudoClass_GetStates
 (
@@ -3898,7 +3892,7 @@ bool
 aEnabled
 )
 {
-EventStates
+ElementState
 state
 =
 GetStatesForPseudoClass
@@ -3950,7 +3944,7 @@ nsAString
 aPseudoClass
 )
 {
-EventStates
+ElementState
 state
 =
 GetStatesForPseudoClass
@@ -4001,7 +3995,7 @@ nsAString
 aPseudoClass
 )
 {
-EventStates
+ElementState
 state
 =
 GetStatesForPseudoClass
@@ -4022,7 +4016,7 @@ return
 false
 ;
 }
-EventStates
+ElementState
 locks
 =
 aElement

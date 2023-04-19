@@ -2784,7 +2784,7 @@ mouseEvent
 NS_ERROR_FAILURE
 )
 ;
-EventStates
+ElementState
 eventStates
 =
 mElement
@@ -2800,7 +2800,10 @@ eventStates
 .
 HasState
 (
-NS_EVENT_STATE_DISABLED
+ElementState
+:
+:
+DISABLED
 )
 )
 {
@@ -3038,7 +3041,7 @@ mButtonDown
 =
 false
 ;
-EventStates
+ElementState
 eventStates
 =
 mElement
@@ -3054,7 +3057,10 @@ eventStates
 .
 HasState
 (
-NS_EVENT_STATE_DISABLED
+ElementState
+:
+:
+DISABLED
 )
 )
 {
@@ -3272,7 +3278,7 @@ null
 "
 )
 ;
-EventStates
+ElementState
 eventStates
 =
 mElement
@@ -3288,7 +3294,10 @@ eventStates
 .
 HasState
 (
-NS_EVENT_STATE_DISABLED
+ElementState
+:
+:
+DISABLED
 )
 )
 {
@@ -4376,7 +4385,7 @@ null
 "
 )
 ;
-EventStates
+ElementState
 eventStates
 =
 mElement
@@ -4392,7 +4401,10 @@ eventStates
 .
 HasState
 (
-NS_EVENT_STATE_DISABLED
+ElementState
+:
+:
+DISABLED
 )
 )
 {

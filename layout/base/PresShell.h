@@ -572,9 +572,6 @@ class
 AccessibleCaretEventHub
 ;
 class
-EventStates
-;
-class
 GeckoMVMContext
 ;
 class
@@ -8366,7 +8363,10 @@ changed
 void
 DocumentStatesChanged
 (
-EventStates
+dom
+:
+:
+DocumentState
 )
 ;
 /

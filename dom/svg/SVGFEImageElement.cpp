@@ -130,15 +130,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SVGObserverUtils
 .
 h
@@ -543,7 +534,10 @@ out
 broken
 AddStatesSilently
 (
-NS_EVENT_STATE_BROKEN
+ElementState
+:
+:
+BROKEN
 )
 ;
 }
@@ -1406,7 +1400,7 @@ aNullParent
 )
 ;
 }
-EventStates
+ElementState
 SVGFEImageElement
 :
 :

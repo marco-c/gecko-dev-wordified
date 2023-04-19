@@ -447,7 +447,7 @@ override
 /
 nsIContent
 virtual
-EventStates
+ElementState
 IntrinsicState
 (
 )

@@ -240,9 +240,6 @@ class
 EventChainPreVisitor
 ;
 class
-EventStates
-;
-class
 PresState
 ;
 namespace
@@ -399,7 +396,7 @@ aNotify
 override
 ;
 virtual
-EventStates
+ElementState
 IntrinsicState
 (
 )
@@ -1390,7 +1387,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_REQUIRED
+ElementState
+:
+:
+REQUIRED
 )
 ;
 }

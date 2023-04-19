@@ -148,15 +148,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindContext
@@ -1947,7 +1938,7 @@ aTarget
 }
 }
 }
-EventStates
+ElementState
 SVGAElement
 :
 :

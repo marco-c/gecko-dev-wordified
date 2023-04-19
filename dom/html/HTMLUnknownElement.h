@@ -132,15 +132,6 @@ h
 #
 include
 "
-mozilla
-/
-EventStates
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

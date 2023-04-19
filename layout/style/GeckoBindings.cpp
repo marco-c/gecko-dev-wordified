@@ -413,15 +413,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FontPropertyTypes
 .
 h
@@ -1641,10 +1632,10 @@ return
 true
 ;
 }
-EventStates
+ElementState
 :
 :
-ServoType
+InternalType
 Gecko_ElementState
 (
 const
@@ -1661,7 +1652,7 @@ StyleState
 (
 )
 .
-ServoValue
+GetInternalValue
 (
 )
 ;

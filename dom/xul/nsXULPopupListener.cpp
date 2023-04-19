@@ -237,15 +237,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -1552,7 +1543,10 @@ esm
 SetContentState
 (
 newFocusElement
-NS_EVENT_STATE_ACTIVE
+ElementState
+:
+:
+ACTIVE
 )
 ;
 return

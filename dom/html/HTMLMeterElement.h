@@ -196,7 +196,7 @@ aNodeInfo
 )
 ;
 virtual
-EventStates
+ElementState
 IntrinsicState
 (
 )
@@ -545,7 +545,10 @@ the
 element
 .
 *
-NS_EVENT_STATE_OPTIMUM
+ElementState
+:
+:
+OPTIMUM
 if
 the
 actual
@@ -557,7 +560,10 @@ optimum
 region
 .
 *
-NS_EVENT_STATE_SUB_OPTIMUM
+ElementState
+:
+:
+SUB_OPTIMUM
 if
 the
 actual
@@ -572,7 +578,10 @@ optimal
 region
 .
 *
-NS_EVENT_STATE_SUB_SUB_OPTIMUM
+ElementState
+:
+:
+SUB_SUB_OPTIMUM
 if
 the
 actual
@@ -600,7 +609,7 @@ element
 .
 *
 /
-EventStates
+ElementState
 GetOptimumState
 (
 )

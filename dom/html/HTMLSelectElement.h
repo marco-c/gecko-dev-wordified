@@ -938,7 +938,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_REQUIRED
+ElementState
+:
+:
+REQUIRED
 )
 ;
 }
@@ -1407,7 +1410,7 @@ aNotify
 )
 override
 ;
-EventStates
+ElementState
 IntrinsicState
 (
 )

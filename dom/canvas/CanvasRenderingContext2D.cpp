@@ -18789,7 +18789,10 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_FOCUSRING
+ElementState
+:
+:
+FOCUSRING
 )
 )
 {

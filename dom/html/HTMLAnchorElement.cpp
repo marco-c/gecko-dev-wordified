@@ -172,15 +172,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryReporting
 .
 h
@@ -1300,7 +1291,7 @@ aNotify
 )
 ;
 }
-EventStates
+ElementState
 HTMLAnchorElement
 :
 :

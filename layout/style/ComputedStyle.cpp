@@ -1453,7 +1453,10 @@ adds
 /
 nsChangeHint_RepaintFrame
 for
-NS_EVENT_STATE_VISITED
+ElementState
+:
+:
+VISITED
 changes
 (
 and
@@ -1472,7 +1475,10 @@ right
 /
 /
 for
-NS_EVENT_STATE_VISITED
+ElementState
+:
+:
+VISITED
 )
 .
 Hopefully

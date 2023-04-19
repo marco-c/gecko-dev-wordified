@@ -341,15 +341,6 @@ include
 "
 mozilla
 /
-EventStates
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -7143,7 +7134,7 @@ ForceImageState
 (
 bool
 aForce
-EventStates
+ElementState
 :
 :
 InternalType
@@ -7156,7 +7147,7 @@ aForce
 ;
 mForcedImageState
 =
-EventStates
+ElementState
 (
 aState
 )
@@ -8005,7 +7996,7 @@ return
 size
 ;
 }
-EventStates
+ElementState
 nsImageLoadingContent
 :
 :
@@ -8023,7 +8014,7 @@ return
 mForcedImageState
 ;
 }
-EventStates
+ElementState
 states
 ;
 if
@@ -8034,7 +8025,10 @@ mBroken
 states
 |
 =
-NS_EVENT_STATE_BROKEN
+ElementState
+:
+:
+BROKEN
 ;
 }
 if
@@ -8045,7 +8039,10 @@ mLoading
 states
 |
 =
-NS_EVENT_STATE_LOADING
+ElementState
+:
+:
+LOADING
 ;
 }
 return
