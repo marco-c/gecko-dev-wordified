@@ -109,6 +109,12 @@ SessionDataHelpers
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 if
 (
 typeof
@@ -170,7 +176,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 validateBreakpointLocation
 "
@@ -192,7 +198,7 @@ loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 validateEventBreakpoint
 "
@@ -243,7 +249,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 validateBreakpointLocation
 "
@@ -283,7 +289,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 validateEventBreakpoint
 "
@@ -517,6 +523,8 @@ location
 }
 )
 {
+lazy
+.
 validateBreakpointLocation
 (
 location
@@ -751,6 +759,8 @@ instead
 if
 (
 !
+lazy
+.
 validateEventBreakpoint
 (
 id
