@@ -1402,12 +1402,10 @@ if
 testURLs
 |
 |
+!
 testURLs
 .
 length
-=
-=
-0
 )
 {
 dump

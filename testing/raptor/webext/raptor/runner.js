@@ -1531,12 +1531,10 @@ true
 ;
 if
 (
+!
 tabs
 .
 length
-=
-=
-0
 )
 {
 throw
@@ -3427,12 +3425,10 @@ index
 ;
 if
 (
+!
 pendingHeroes
 .
 length
-=
-=
-0
 )
 {
 raptorLog

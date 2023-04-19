@@ -1743,12 +1743,11 @@ false
 var
 success
 =
+!
+!
 aFilenames
 .
 length
-!
-=
-0
 ;
 aFilenames
 .

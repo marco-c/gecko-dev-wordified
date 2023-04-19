@@ -11,10 +11,8 @@ null
 var
 onpaint
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 debug
@@ -246,8 +244,6 @@ while
 onpaint
 .
 length
->
-0
 )
 {
 window
@@ -669,6 +665,7 @@ flushmode
 )
 ;
 }
+;
 }
 )
 (

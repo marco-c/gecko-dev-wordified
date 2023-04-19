@@ -4385,12 +4385,6 @@ test_vacuum
 js
 "
 "
-testing
-/
-*
-*
-"
-"
 tools
 /
 *

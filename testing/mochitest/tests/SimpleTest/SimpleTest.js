@@ -1608,8 +1608,6 @@ if
 arguments
 .
 length
->
-0
 )
 {
 for
@@ -9131,14 +9129,12 @@ detected
 }
 if
 (
+!
 SimpleTest
 .
 _tests
 .
 length
-=
-=
-0
 )
 {
 SimpleTest
@@ -9268,8 +9264,6 @@ if
 workers
 .
 length
->
-0
 )
 {
 let
