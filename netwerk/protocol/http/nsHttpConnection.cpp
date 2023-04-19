@@ -12682,6 +12682,7 @@ TLSTransportLayer
 mSocketTransport
 mSocketIn
 mSocketOut
+this
 )
 ;
 if
