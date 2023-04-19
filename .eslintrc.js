@@ -1029,14 +1029,6 @@ path
 *
 *
 )
-excludedFiles
-:
-"
-devtools
-/
-*
-*
-"
 }
 {
 /
