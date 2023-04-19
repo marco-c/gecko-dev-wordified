@@ -207,6 +207,10 @@ EncodedImageBuffer
 image_buffer
 )
 :
+image_buffer_
+(
+image_buffer
+)
 first_seq_num_
 (
 first_seq_num
@@ -316,13 +320,7 @@ playout_delay
 ;
 SetEncodedData
 (
-std
-:
-:
-move
-(
-image_buffer
-)
+image_buffer_
 )
 ;
 _encodedWidth

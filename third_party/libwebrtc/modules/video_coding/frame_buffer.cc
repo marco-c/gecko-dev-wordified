@@ -912,9 +912,16 @@ _sessionInfo
 InsertPacket
 (
 packet
+encoded_image_buffer_
+?
+encoded_image_buffer_
+-
+>
 data
 (
 )
+:
+nullptr
 frame_data
 )
 ;
