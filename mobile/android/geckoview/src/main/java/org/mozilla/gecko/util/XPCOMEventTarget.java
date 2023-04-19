@@ -376,7 +376,7 @@ if
 (
 BuildConfig
 .
-DEBUG_BUILD
+DEBUG
 &
 &
 !
@@ -418,7 +418,7 @@ if
 (
 BuildConfig
 .
-DEBUG_BUILD
+DEBUG
 &
 &
 launcherThread

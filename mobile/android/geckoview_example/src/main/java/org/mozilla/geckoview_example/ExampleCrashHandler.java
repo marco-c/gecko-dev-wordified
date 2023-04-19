@@ -547,7 +547,7 @@ if
 (
 BuildConfig
 .
-DEBUG_BUILD
+DEBUG
 )
 {
 oldPolicy
