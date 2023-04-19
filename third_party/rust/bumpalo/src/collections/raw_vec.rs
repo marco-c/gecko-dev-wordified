@@ -5234,9 +5234,6 @@ use
 crate
 :
 :
-alloc
-:
-:
 AllocErr
 ;
 /
