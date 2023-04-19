@@ -8957,7 +8957,7 @@ len
 gfxEnv
 :
 :
-DebugShaders
+MOZ_DEBUG_SHADERS
 (
 )
 )
@@ -9346,7 +9346,7 @@ len
 gfxEnv
 :
 :
-DebugShaders
+MOZ_DEBUG_SHADERS
 (
 )
 )

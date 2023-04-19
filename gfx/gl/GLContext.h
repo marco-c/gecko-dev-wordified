@@ -172,7 +172,7 @@ endif
 /
 /
 Define
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 unconditionally
 to
 enable
@@ -189,7 +189,7 @@ ifdef
 DEBUG
 #
 define
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 1
 #
 endif
@@ -2560,7 +2560,7 @@ userParam
 -
 /
 /
-MOZ_GL_DEBUG
+Debugging
 implementation
 private
 :
@@ -2864,7 +2864,7 @@ ptr
 ;
 #
 ifdef
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 #
 define
 TRACKING_CONTEXT
@@ -2987,7 +2987,7 @@ else
 /
 /
 ifdef
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 #
 define
 TRACKING_CONTEXT
@@ -3038,7 +3038,7 @@ endif
 /
 /
 ifdef
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 /
 /
 Do
@@ -18119,7 +18119,7 @@ mMaxTexOrRbSize
 }
 #
 ifdef
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 void
 CreatedProgram
 (

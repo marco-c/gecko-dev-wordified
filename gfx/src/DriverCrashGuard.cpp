@@ -597,7 +597,7 @@ return
 gfxEnv
 :
 :
-ForceCrashGuardNightly
+MOZ_FORCE_CRASH_GUARD_NIGHTLY
 (
 )
 ;
@@ -624,7 +624,7 @@ return
 gfxEnv
 :
 :
-DisableCrashGuard
+MOZ_DISABLE_CRASH_GUARD
 (
 )
 ;

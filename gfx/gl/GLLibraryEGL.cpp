@@ -3298,7 +3298,7 @@ shouldWarn
 gfxEnv
 :
 :
-GlSpew
+MOZ_GL_SPEW
 (
 )
 ;
@@ -5769,7 +5769,7 @@ ret
 gfxEnv
 :
 :
-GlDebugVerbose
+MOZ_GL_DEBUG_VERBOSE
 (
 )
 ;
