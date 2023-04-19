@@ -1876,6 +1876,10 @@ url
 .
 sjs
 "
+testServer
+.
+urlFor
+(
 "
 same
 -
@@ -1883,6 +1887,7 @@ url
 .
 sjs
 "
+)
 )
 ;
 ok

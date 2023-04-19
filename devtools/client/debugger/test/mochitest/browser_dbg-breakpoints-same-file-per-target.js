@@ -501,6 +501,8 @@ script
 .
 js
 "
+EXAMPLE_URL
++
 "
 same
 -

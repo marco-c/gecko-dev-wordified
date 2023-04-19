@@ -175,6 +175,15 @@ getCurrentThread
 =
 dbg
 ;
+await
+waitForSourcesInSourceTree
+(
+dbg
+[
+WORKER_URL
+]
+)
+;
 /
 /
 Execute

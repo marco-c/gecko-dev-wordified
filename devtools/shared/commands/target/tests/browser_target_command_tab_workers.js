@@ -91,8 +91,10 @@ URL_ROOT_SSL
 WORKER_FILE
 ;
 const
-IFRAME_WORKER_URL
+REMOTE_IFRAME_WORKER_URL
 =
+URL_ROOT_ORG_SSL
++
 WORKER_FILE
 ;
 add_task
@@ -446,13 +448,15 @@ find
 worker
 =
 >
+{
+return
 worker
 .
 url
 =
 =
 {
-IFRAME_WORKER_URL
+REMOTE_IFRAME_WORKER_URL
 }
 #
 simple
@@ -462,6 +466,8 @@ worker
 in
 -
 iframe
+;
+}
 )
 ;
 ok
@@ -981,9 +987,8 @@ innerTarget
 url
 =
 =
-=
 {
-WORKER_FILE
+WORKER_URL
 }
 #
 spawned
@@ -1016,9 +1021,8 @@ innerTarget
 url
 =
 =
-=
 {
-WORKER_FILE
+REMOTE_IFRAME_WORKER_URL
 }
 #
 spawned
@@ -1382,7 +1386,7 @@ url
 =
 =
 {
-IFRAME_WORKER_URL
+REMOTE_IFRAME_WORKER_URL
 }
 #
 simple
@@ -1827,7 +1831,7 @@ url
 =
 =
 {
-WORKER_FILE
+WORKER_URL
 }
 #
 simple
@@ -1859,7 +1863,7 @@ url
 =
 =
 {
-WORKER_FILE
+WORKER_URL
 }
 #
 simple
@@ -1891,7 +1895,7 @@ url
 =
 =
 {
-WORKER_FILE
+REMOTE_IFRAME_WORKER_URL
 }
 #
 simple
@@ -1925,7 +1929,7 @@ url
 =
 =
 {
-WORKER_FILE
+REMOTE_IFRAME_WORKER_URL
 }
 #
 simple
