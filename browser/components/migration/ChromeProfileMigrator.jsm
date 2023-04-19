@@ -189,6 +189,7 @@ jsm
 const
 {
 MigratorPrototype
+MigrationUtils
 }
 =
 ChromeUtils
@@ -232,20 +233,6 @@ resource
 modules
 /
 ChromeMigrationUtils
-.
-jsm
-"
-MigrationUtils
-:
-"
-resource
-:
-/
-/
-/
-modules
-/
-MigrationUtils
 .
 jsm
 "
@@ -1593,8 +1580,6 @@ return
 {
 type
 :
-lazy
-.
 MigrationUtils
 .
 resourceTypes
@@ -1728,8 +1713,6 @@ errorGatherer
 )
 ;
 await
-lazy
-.
 MigrationUtils
 .
 insertManyBookmarksWrapper
@@ -1800,8 +1783,6 @@ errorGatherer
 )
 ;
 await
-lazy
-.
 MigrationUtils
 .
 insertManyBookmarksWrapper
@@ -1909,8 +1890,6 @@ return
 {
 type
 :
-lazy
-.
 MigrationUtils
 .
 resourceTypes
@@ -2054,8 +2033,6 @@ let
 rows
 =
 await
-lazy
-.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -2224,8 +2201,6 @@ length
 )
 {
 await
-lazy
-.
 MigrationUtils
 .
 insertVisitsWrapper
@@ -2325,8 +2300,6 @@ return
 {
 type
 :
-lazy
-.
 MigrationUtils
 .
 resourceTypes
@@ -2354,8 +2327,6 @@ let
 columns
 =
 await
-lazy
-.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -2531,8 +2502,6 @@ let
 rows
 =
 await
-lazy
-.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -2933,8 +2902,6 @@ return
 {
 type
 :
-lazy
-.
 MigrationUtils
 .
 resourceTypes
@@ -2950,8 +2917,6 @@ let
 rows
 =
 await
-lazy
-.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -3635,8 +3600,6 @@ length
 )
 {
 await
-lazy
-.
 MigrationUtils
 .
 insertLoginsWrapper
