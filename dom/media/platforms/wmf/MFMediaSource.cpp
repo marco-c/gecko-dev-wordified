@@ -256,7 +256,9 @@ aAudio
 )
 {
 mAudioStream
-=
+.
+Attach
+(
 MFMediaEngineAudioStream
 :
 :
@@ -268,6 +270,7 @@ streamId
 *
 aAudio
 this
+)
 )
 ;
 if
@@ -359,7 +362,9 @@ aVideo
 )
 {
 mVideoStream
-=
+.
+Attach
+(
 MFMediaEngineVideoStream
 :
 :
@@ -371,6 +376,7 @@ streamId
 *
 aVideo
 this
+)
 )
 ;
 if
