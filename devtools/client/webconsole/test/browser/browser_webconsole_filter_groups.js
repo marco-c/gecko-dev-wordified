@@ -667,7 +667,7 @@ const
 groupA
 =
 await
-findMessageVirtualized
+findMessageVirtualizedByType
 (
 {
 hud
@@ -678,6 +678,14 @@ text
 a
 ]
 "
+typeSelector
+:
+"
+.
+console
+-
+api
+"
 }
 )
 ;
@@ -685,7 +693,7 @@ const
 groupJ
 =
 await
-findMessageVirtualized
+findMessageVirtualizedByType
 (
 {
 hud
@@ -695,6 +703,14 @@ text
 [
 j
 ]
+"
+typeSelector
+:
+"
+.
+console
+-
+api
 "
 }
 )

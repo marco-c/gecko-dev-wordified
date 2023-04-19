@@ -1440,15 +1440,13 @@ hud
 )
 {
 return
-findMessagesVirtualized
+findMessagesVirtualizedByType
 (
 {
 hud
-selector
+typeSelector
 :
 "
-.
-message
 .
 error
 "

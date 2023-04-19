@@ -549,7 +549,7 @@ wait
 is
 (
 await
-findMessageVirtualized
+findMessageVirtualizedByType
 (
 {
 hud
@@ -562,7 +562,7 @@ Console
 logging
 API
 "
-selector
+typeSelector
 :
 "
 .

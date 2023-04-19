@@ -308,7 +308,7 @@ importFunctions
 (
 {
 findMessagesVirtualized
-findMessageVirtualized
+findMessageVirtualizedByType
 waitUntil
 }
 )
@@ -367,7 +367,7 @@ waitUntil
 )
 =
 >
-findMessageVirtualized
+findMessageVirtualizedByType
 (
 {
 hud
@@ -376,6 +376,14 @@ text
 "
 Data
 Message
+"
+typeSelector
+:
+"
+.
+console
+-
+api
 "
 }
 )
@@ -453,7 +461,7 @@ waitUntil
 )
 =
 >
-findMessageVirtualized
+findMessageVirtualizedByType
 (
 {
 hud
@@ -461,6 +469,14 @@ text
 :
 "
 stringLog
+"
+typeSelector
+:
+"
+.
+console
+-
+api
 "
 }
 )
