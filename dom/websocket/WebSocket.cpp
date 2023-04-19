@@ -1109,6 +1109,7 @@ aMsg
 bool
 isBinary
 )
+const
 ;
 /
 /
@@ -4126,6 +4127,7 @@ aMsg
 bool
 isBinary
 )
+const
 {
 AssertIsOnTargetThread
 (

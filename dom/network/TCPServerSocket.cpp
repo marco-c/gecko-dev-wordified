@@ -593,6 +593,7 @@ TCPServerSocket
 LocalPort
 (
 )
+const
 {
 return
 mPort

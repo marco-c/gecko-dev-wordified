@@ -355,6 +355,7 @@ uint16_t
 *
 aPort
 )
+const
 ;
 mozilla
 :

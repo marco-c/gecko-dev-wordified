@@ -236,6 +236,7 @@ uint16_t
 LocalPort
 (
 )
+const
 ;
 void
 Close
