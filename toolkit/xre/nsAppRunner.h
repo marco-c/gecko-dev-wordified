@@ -436,15 +436,6 @@ nsIToolkitProfileService
 aResult
 )
 ;
-nsresult
-NS_NewToolkitProfileFactory
-(
-nsIFactory
-*
-*
-aResult
-)
-;
 /
 *
 *
