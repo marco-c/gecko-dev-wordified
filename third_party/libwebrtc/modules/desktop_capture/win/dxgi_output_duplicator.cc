@@ -1965,7 +1965,7 @@ if
 (
 metadata_
 .
-capacity
+size
 (
 )
 <
@@ -2037,7 +2037,7 @@ UINT
 (
 metadata_
 .
-capacity
+size
 (
 )
 )
@@ -2136,7 +2136,7 @@ UINT
 (
 metadata_
 .
-capacity
+size
 (
 )
 )
