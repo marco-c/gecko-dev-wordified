@@ -131,13 +131,6 @@ h
 #
 include
 "
-NativeFontResourceFreeType
-.
-h
-"
-#
-include
-"
 Logging
 .
 h

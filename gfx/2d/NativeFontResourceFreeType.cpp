@@ -128,13 +128,6 @@ UnscaledFontFreeType
 .
 h
 "
-#
-include
-"
-Logging
-.
-h
-"
 namespace
 mozilla
 :
