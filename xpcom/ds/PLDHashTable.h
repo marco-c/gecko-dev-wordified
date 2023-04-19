@@ -4344,7 +4344,7 @@ Shallow
 prefix
 .
 size_t
-ShallowSizeOfIncludingThis
+ShallowSizeOfExcludingThis
 (
 mozilla
 :
@@ -4369,7 +4369,7 @@ this
 )
 .
 size_t
-ShallowSizeOfExcludingThis
+ShallowSizeOfIncludingThis
 (
 mozilla
 :
