@@ -61,6 +61,7 @@ def
 read_reserved_word_list
 (
 filename
+enable_decorators
 )
 :
     
@@ -72,10 +73,6 @@ compile
 (
 r
 "
-^
-\
-s
-*
 MACRO
 \
 (
@@ -148,18 +145,36 @@ if
 m
 :
                 
-reserved_word_list
-.
-append
-(
-(
-index
+reserved_word
+=
 m
 .
 group
 (
 1
 )
+                
+if
+reserved_word
+=
+=
+"
+accessor
+"
+and
+not
+enable_decorators
+:
+                    
+continue
+                
+reserved_word_list
+.
+append
+(
+(
+index
+reserved_word
 )
 )
                 
@@ -1304,6 +1319,9 @@ main
 (
 output
 reserved_words_h
+enable_decorators
+=
+False
 )
 :
     
@@ -1312,6 +1330,7 @@ reserved_word_list
 read_reserved_word_list
 (
 reserved_words_h
+enable_decorators
 )
     
 opt
