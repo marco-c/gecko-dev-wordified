@@ -5597,6 +5597,15 @@ Where
 ref
 list
 )
+|
+Component
+:
+:
+Has
+(
+ref
+list
+)
 =
 >
 list
