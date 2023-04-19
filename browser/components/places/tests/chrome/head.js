@@ -159,15 +159,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-ChromeUtils
-.
-defineESModuleGetters
-(
-window
-{
 PlacesTransactions
 :
 "
