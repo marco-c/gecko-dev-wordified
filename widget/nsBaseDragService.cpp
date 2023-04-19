@@ -6282,13 +6282,7 @@ SamplingFilter
 :
 :
 GOOD
-/
-*
-no
 SVGImageContext
-*
-/
-Nothing
 (
 )
 imgIContainer

@@ -481,18 +481,12 @@ TimeStamp
 ref
 ]
 native
-MaybeSVGImageContext
+SVGImageContext
 (
 mozilla
 :
 :
-Maybe
-<
-mozilla
-:
-:
 SVGImageContext
->
 )
 ;
 [
@@ -2634,7 +2628,7 @@ aSize
 const
 ]
 in
-MaybeSVGImageContext
+SVGImageContext
 aSVGContext
 [
 const
@@ -4026,7 +4020,7 @@ aSamplingFilter
 const
 ]
 in
-MaybeSVGImageContext
+SVGImageContext
 aSVGContext
 in
 uint32_t

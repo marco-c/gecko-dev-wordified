@@ -21100,10 +21100,7 @@ context
 paint
 if
 applicable
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 SVGImageContext
@@ -23809,10 +23806,7 @@ context
 paint
 if
 applicable
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 SVGImageContext

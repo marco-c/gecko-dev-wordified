@@ -31517,10 +31517,7 @@ GetSize
 appUnitsPerDevPixel
 )
 ;
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 Maybe

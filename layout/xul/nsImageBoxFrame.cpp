@@ -2360,10 +2360,7 @@ height
 0
 )
 ;
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 SVGImageContext
@@ -2553,10 +2550,7 @@ dest
 appUnitsPerDevPixel
 )
 ;
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 Maybe

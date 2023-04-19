@@ -2929,15 +2929,8 @@ and
 viewBox
 .
 const
-Maybe
-<
 SVGImageContext
->
 context
-(
-Some
-(
-SVGImageContext
 (
 Some
 (
@@ -2959,8 +2952,6 @@ mPreserveAspectRatio
 .
 GetAnimValue
 (
-)
-)
 )
 )
 )
@@ -3147,7 +3138,7 @@ aDirtyRect
 dirtyRect
 :
 nullptr
-Nothing
+SVGImageContext
 (
 )
 flags
@@ -4318,10 +4309,7 @@ align
 }
 }
 }
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 if
@@ -4368,7 +4356,7 @@ inner
 SVGs
 svgContext
 .
-emplace
+SetViewportSize
 (
 Some
 (
@@ -4381,6 +4369,12 @@ width
 height
 )
 )
+)
+;
+svgContext
+.
+SetPreserveAspectRatio
+(
 Some
 (
 imgElem

@@ -1561,10 +1561,7 @@ public
 AutoPreserveAspectRatioOverride
 (
 const
-Maybe
-<
 SVGImageContext
->
 &
 aSVGContext
 dom
@@ -1603,14 +1600,6 @@ if
 (
 aSVGContext
 .
-isSome
-(
-)
-&
-&
-aSVGContext
--
->
 GetPreserveAspectRatio
 (
 )
@@ -1664,8 +1653,7 @@ SetImageOverridePreserveAspectRatio
 (
 *
 aSVGContext
--
->
+.
 GetPreserveAspectRatio
 (
 )

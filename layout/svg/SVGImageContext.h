@@ -509,10 +509,7 @@ static
 void
 MaybeStoreContextPaint
 (
-Maybe
-<
 SVGImageContext
->
 &
 aContext
 nsIFrame
@@ -527,10 +524,7 @@ static
 void
 MaybeStoreContextPaint
 (
-Maybe
-<
 SVGImageContext
->
 &
 aContext
 const
