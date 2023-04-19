@@ -608,6 +608,10 @@ False
 enable_marionette_trace
 =
 False
+        
+collect_perfstats
+=
+False
     
 )
     
