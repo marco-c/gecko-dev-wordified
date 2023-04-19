@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-let
-global
-=
-this
-;
 Services
 .
 prefs
