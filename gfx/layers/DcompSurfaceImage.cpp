@@ -550,6 +550,10 @@ aDescriptor
 :
 TextureHost
 (
+TextureHostType
+:
+:
+DcompSurface
 aFlags
 )
 mHandle

@@ -624,6 +624,12 @@ TransactionBuilder
 aTxn
 )
 ;
+TextureHostType
+GetTextureHostType
+(
+)
+override
+;
 const
 RefPtr
 <
