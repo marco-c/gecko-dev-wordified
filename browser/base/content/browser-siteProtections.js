@@ -12653,6 +12653,7 @@ hidePopup
 this
 .
 _protectionsPopup
+true
 )
 ;
 delete
