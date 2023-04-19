@@ -3722,9 +3722,12 @@ hidden
 .
 if
 (
-child
-instanceof
 Element
+.
+isInstance
+(
+child
+)
 &
 &
 (

@@ -5085,12 +5085,13 @@ true
 if
 (
 !
+ImageDocument
+.
+isInstance
 (
 content
 .
 document
-instanceof
-ImageDocument
 )
 )
 {

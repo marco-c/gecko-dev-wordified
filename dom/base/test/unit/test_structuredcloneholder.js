@@ -334,11 +334,14 @@ resultPromise
 ;
 ok
 (
+StructuredCloneHolder
+.
+isInstance
+(
 res
 .
 data
-instanceof
-StructuredCloneHolder
+)
 "
 Sending
 structured

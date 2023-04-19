@@ -994,9 +994,12 @@ getBoundingClientRect
 ;
 while
 (
-element
-instanceof
 Element
+.
+isInstance
+(
+element
+)
 &
 &
 index

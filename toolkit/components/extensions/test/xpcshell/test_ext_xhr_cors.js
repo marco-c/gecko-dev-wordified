@@ -1119,11 +1119,14 @@ test
 .
 assertTrue
 (
+HTMLDocument
+.
+isInstance
+(
 x
 .
 response
-instanceof
-HTMLDocument
+)
 "
 is
 doc

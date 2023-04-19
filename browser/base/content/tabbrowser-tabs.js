@@ -12362,9 +12362,12 @@ TAB_DROP_TYPE
 ;
 if
 (
-sourceNode
-instanceof
 XULElement
+.
+isInstance
+(
+sourceNode
+)
 &
 &
 sourceNode

@@ -2452,14 +2452,15 @@ attributes
 |
 |
 !
+NamedNodeMap
+.
+isInstance
 (
 this
 .
 rawNode
 .
 attributes
-instanceof
-NamedNodeMap
 )
 )
 {

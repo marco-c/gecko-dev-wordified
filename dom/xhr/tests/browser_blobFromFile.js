@@ -342,9 +342,12 @@ response
 ;
 ok
 (
-blob
-instanceof
 File
+.
+isInstance
+(
+blob
+)
 "
 We
 have
