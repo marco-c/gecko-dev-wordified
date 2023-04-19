@@ -358,7 +358,13 @@ f
 ;
 constexpr
 int
-kDefaultAdjacentSpeechFramesThreshold
+kDefaultDigitalGainApplierAdjacentSpeechFramesThreshold
+=
+1
+;
+constexpr
+int
+kDefaultLevelEstimatorAdjacentSpeechFramesThreshold
 =
 1
 ;
