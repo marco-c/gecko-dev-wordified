@@ -153,11 +153,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 CrashManager
 :
@@ -245,6 +251,8 @@ return
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -262,6 +270,8 @@ log
 .
 level
 =
+lazy
+.
 Log
 .
 Level
@@ -272,6 +282,8 @@ let
 appender
 =
 new
+lazy
+.
 Log
 .
 DumpAppender
@@ -282,6 +294,8 @@ appender
 .
 level
 =
+lazy
+.
 Log
 .
 Level
@@ -317,6 +331,8 @@ resolve
 =
 >
 {
+lazy
+.
 setTimeout
 (
 (
@@ -345,6 +361,8 @@ function
 options
 )
 {
+lazy
+.
 CrashManager
 .
 call
@@ -362,6 +380,8 @@ prototype
 {
 __proto__
 :
+lazy
+.
 CrashManager
 .
 prototype
@@ -428,6 +448,8 @@ hr
 {
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -457,6 +479,8 @@ else
 {
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -482,6 +506,8 @@ txt
 }
 mode
 =
+lazy
+.
 OS
 .
 Constants
@@ -490,6 +516,8 @@ libc
 .
 S_IRUSR
 |
+lazy
+.
 OS
 .
 Constants
@@ -498,6 +526,8 @@ libc
 .
 S_IWUSR
 |
+lazy
+.
 OS
 .
 Constants
@@ -506,6 +536,8 @@ libc
 .
 S_IRGRP
 |
+lazy
+.
 OS
 .
 Constants
@@ -519,6 +551,8 @@ else
 {
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -538,6 +572,8 @@ dmp
 ;
 mode
 =
+lazy
+.
 OS
 .
 Constants
@@ -546,6 +582,8 @@ libc
 .
 S_IRUSR
 |
+lazy
+.
 OS
 .
 Constants
@@ -566,6 +604,8 @@ let
 f
 =
 await
+lazy
+.
 OS
 .
 File
@@ -645,6 +685,8 @@ submitted
 {
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -662,6 +704,8 @@ else
 {
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -685,6 +729,8 @@ function
 let
 mode
 =
+lazy
+.
 OS
 .
 Constants
@@ -693,6 +739,8 @@ libc
 .
 S_IRUSR
 |
+lazy
+.
 OS
 .
 Constants
@@ -702,6 +750,8 @@ libc
 S_IWUSR
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -760,6 +810,8 @@ index
 let
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -843,6 +895,8 @@ function
 )
 {
 await
+lazy
+.
 OS
 .
 File
@@ -854,6 +908,8 @@ array
 )
 ;
 await
+lazy
+.
 OS
 .
 File
@@ -898,6 +954,8 @@ dirs
 )
 {
 await
+lazy
+.
 OS
 .
 File
@@ -1006,6 +1064,8 @@ EVENT_FILE_ERROR_UNKNOWN_EVENT
 ;
 }
 return
+lazy
+.
 CrashManager
 .
 prototype
@@ -1047,6 +1107,8 @@ function
 const
 dirMode
 =
+lazy
+.
 OS
 .
 Constants
@@ -1058,6 +1120,8 @@ S_IRWXU
 let
 baseFile
 =
+lazy
+.
 OS
 .
 Constants
@@ -1084,6 +1148,8 @@ function
 let
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -1130,6 +1196,8 @@ n
 )
 ;
 await
+lazy
+.
 OS
 .
 File
