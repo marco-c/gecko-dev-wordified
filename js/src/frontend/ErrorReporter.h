@@ -981,6 +981,9 @@ ReportCompileErrorLatin1
 getContext
 (
 )
+getContext
+(
+)
 std
 :
 :
@@ -1801,6 +1804,9 @@ ReportCompileErrorLatin1
 getContext
 (
 )
+getContext
+(
+)
 std
 :
 :
@@ -1867,6 +1873,9 @@ args
 return
 ReportCompileWarning
 (
+getContext
+(
+)
 getContext
 (
 )

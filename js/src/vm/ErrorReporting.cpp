@@ -424,6 +424,9 @@ ReportCompileWarning
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -658,6 +661,9 @@ ReportCompileErrorImpl
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 js
 :
 :
@@ -862,7 +868,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-cx
+alloc
 js
 :
 :
@@ -936,6 +942,9 @@ ReportCompileErrorLatin1
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -955,6 +964,7 @@ args
 ReportCompileErrorImpl
 (
 cx
+alloc
 std
 :
 :
@@ -984,6 +994,9 @@ ReportCompileErrorUTF8
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -1003,6 +1016,7 @@ args
 ReportCompileErrorImpl
 (
 cx
+alloc
 std
 :
 :
@@ -1697,9 +1711,9 @@ here
 bool
 init
 (
-JSContext
+JSAllocator
 *
-cx
+alloc
 void
 *
 argsArg
@@ -1881,7 +1895,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-cx
+alloc
 range
 )
 .
@@ -1987,7 +2001,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-cx
+alloc
 range
 )
 .
@@ -2245,6 +2259,14 @@ suppressGC
 cx
 )
 ;
+/
+/
+TODO
+bug
+1773324
+remove
+JSContext
+use
 efs
 =
 callback
@@ -3077,6 +3099,11 @@ cx
 report
 )
 ;
+/
+/
+TODO
+bug
+1773324
 if
 (
 !
@@ -3106,6 +3133,11 @@ callback
 userRef
 )
 ;
+/
+/
+TODO
+bug
+1773324
 return
 report
 .

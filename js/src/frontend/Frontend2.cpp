@@ -3545,6 +3545,7 @@ errorNumber
 ReportCompileErrorUTF8
 (
 cx
+cx
 std
 :
 :
