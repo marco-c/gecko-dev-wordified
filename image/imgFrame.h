@@ -696,6 +696,10 @@ bool
 aFinalize
 =
 true
+bool
+aOrientationSwapsWidthAndHeight
+=
+false
 )
 ;
 /
