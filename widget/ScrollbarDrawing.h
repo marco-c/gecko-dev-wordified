@@ -269,8 +269,6 @@ Win10
 Win11
 }
 ;
-public
-:
 explicit
 ScrollbarDrawing
 (
@@ -284,6 +282,8 @@ aKind
 )
 {
 }
+public
+:
 virtual
 ~
 ScrollbarDrawing
@@ -291,6 +291,17 @@ ScrollbarDrawing
 )
 =
 default
+;
+enum
+class
+ScrollbarKind
+:
+uint8_t
+{
+Horizontal
+VerticalLeft
+VerticalRight
+}
 ;
 static
 DPIRatio
@@ -517,6 +528,7 @@ StyleAppearance
 const
 LayoutDeviceRect
 &
+ScrollbarKind
 nsIFrame
 *
 const
@@ -547,8 +559,7 @@ DrawTarget
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -581,8 +592,7 @@ WebRenderBackendData
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -619,8 +629,7 @@ PaintBackendData
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -650,8 +659,7 @@ DrawTarget
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -681,8 +689,7 @@ WebRenderBackendData
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -713,8 +720,7 @@ DrawTarget
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -757,8 +763,7 @@ WebRenderBackendData
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -805,6 +810,7 @@ PaintBackendData
 const
 LayoutDeviceRect
 &
+ScrollbarKind
 nsIFrame
 *
 const
@@ -831,6 +837,7 @@ DrawTarget
 const
 LayoutDeviceRect
 &
+ScrollbarKind
 nsIFrame
 *
 const
@@ -857,6 +864,7 @@ WebRenderBackendData
 const
 LayoutDeviceRect
 &
+ScrollbarKind
 nsIFrame
 *
 const

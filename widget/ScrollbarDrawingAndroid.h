@@ -186,8 +186,7 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 aFrame
@@ -220,8 +219,7 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 aFrame
@@ -255,8 +253,7 @@ const
 LayoutDeviceRect
 &
 aRect
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 aFrame

@@ -228,8 +228,7 @@ PaintBackendData
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -259,8 +258,7 @@ DrawTarget
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
@@ -291,8 +289,7 @@ WebRenderBackendData
 const
 LayoutDeviceRect
 &
-bool
-aHorizontal
+ScrollbarKind
 nsIFrame
 *
 const
