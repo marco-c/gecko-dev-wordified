@@ -177,8 +177,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -440,12 +440,10 @@ mInternalSubset
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 already_AddRefed
 <
 mozilla

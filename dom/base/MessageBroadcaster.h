@@ -140,8 +140,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -321,12 +321,10 @@ aFlags
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

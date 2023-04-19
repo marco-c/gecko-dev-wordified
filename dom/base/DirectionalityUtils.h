@@ -148,8 +148,8 @@ nsTextNode
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -162,12 +162,10 @@ HTMLSlotElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 namespace
 mozilla
 {

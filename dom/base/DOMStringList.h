@@ -150,8 +150,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -520,12 +520,10 @@ mNames
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

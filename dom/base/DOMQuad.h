@@ -213,8 +213,8 @@ JSStructuredCloneWriter
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -546,12 +546,10 @@ mPoints
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

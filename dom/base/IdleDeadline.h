@@ -194,8 +194,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -311,12 +311,10 @@ mDeadline
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -122,8 +122,8 @@ define
 mozilla_dom_FromParser_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -170,12 +170,10 @@ FROM_PARSER_XSLT
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

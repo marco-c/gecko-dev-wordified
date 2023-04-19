@@ -174,8 +174,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -434,12 +434,10 @@ aDirtyBits
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

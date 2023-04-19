@@ -187,8 +187,8 @@ nsPIDOMWindowInner
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -308,12 +308,10 @@ mTimeoutHandle
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

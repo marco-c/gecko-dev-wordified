@@ -359,8 +359,8 @@ methods
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1582,12 +1582,10 @@ ContentUnbinder
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 define
 NS_ELEMENT_INTERFACE_TABLE_TO_MAP_SEGUE

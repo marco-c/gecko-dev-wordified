@@ -189,8 +189,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -344,12 +344,10 @@ mCountListeners
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 /
 *
 *

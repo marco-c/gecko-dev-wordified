@@ -152,8 +152,8 @@ define
 mozilla_dom_DOMTokenListSupportedTokens_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -247,12 +247,10 @@ DOMTokenListSupportedTokenArray
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

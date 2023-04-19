@@ -140,8 +140,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -740,12 +740,10 @@ DOMEventTargetHelper
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

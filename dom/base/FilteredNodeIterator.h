@@ -144,8 +144,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -341,12 +341,10 @@ Iter
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

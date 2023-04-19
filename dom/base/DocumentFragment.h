@@ -193,8 +193,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -610,12 +610,10 @@ mHost
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 inline
 mozilla
 :
