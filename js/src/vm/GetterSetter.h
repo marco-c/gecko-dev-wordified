@@ -676,7 +676,7 @@ JSObject
 >
 {
 friend
-struct
+class
 gc
 :
 :

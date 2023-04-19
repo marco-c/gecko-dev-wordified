@@ -565,7 +565,7 @@ JSAtom
 >
 {
 friend
-struct
+class
 js
 :
 :
