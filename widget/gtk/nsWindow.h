@@ -2666,6 +2666,11 @@ content
 process
 .
 void
+ResumeCompositorImpl
+(
+)
+;
+void
 ResumeCompositorFlickering
 (
 )
