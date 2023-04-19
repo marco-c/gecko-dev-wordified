@@ -31514,7 +31514,7 @@ names
 (
 )
 .
-groupBy
+group
 value
 )
 |
@@ -31531,7 +31531,7 @@ names
 (
 )
 .
-groupByToMap
+groupToMap
 value
 )
 )
