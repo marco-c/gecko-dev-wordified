@@ -19142,12 +19142,7 @@ nsIScrollableFrame
 *
 sf
 =
-mPrintJob
--
->
-GetPrintPreviewPresShell
-(
-)
+mPresShell
 -
 >
 GetRootScrollFrameAsScrollable
@@ -19519,12 +19514,7 @@ nsIScrollableFrame
 *
 sf
 =
-mPrintJob
--
->
-GetPrintPreviewPresShell
-(
-)
+mPresShell
 -
 >
 GetRootScrollFrameAsScrollable
