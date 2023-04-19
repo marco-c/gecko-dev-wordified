@@ -800,7 +800,9 @@ plugin
 from
 GMPProvider
 .
-jsm
+sys
+.
+mjs
 )
 is
 intentionally
