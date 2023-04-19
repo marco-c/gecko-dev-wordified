@@ -17555,10 +17555,6 @@ this
 test
 due
 to
-the
-packetization
-overhead
-and
 encoder
 pushback
 .
@@ -17584,14 +17580,6 @@ GetFieldTrialString
 )
 )
 +
-"
-WebRTC
--
-SubtractPacketizationOverhead
-/
-Disabled
-/
-"
 "
 WebRTC
 -
