@@ -299,9 +299,7 @@ it
 attempting
 to
 import
-Services
-.
-jsm
+JSMs
 on
 load
 which

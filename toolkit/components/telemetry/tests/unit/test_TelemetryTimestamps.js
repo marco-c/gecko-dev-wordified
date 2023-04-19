@@ -110,8 +110,6 @@ is
 needed
 by
 Services
-.
-jsm
 and
 /
 /

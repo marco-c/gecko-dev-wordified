@@ -46,18 +46,7 @@ xpcshell
 -
 test
 because
-according
-to
-*
-toolkit
-/
-modules
-/
-Services
-.
-jsm
-"
-Not
+not
 all
 applications
 implement
@@ -74,7 +63,6 @@ doesn
 t
 )
 .
-"
 *
 /
 const
