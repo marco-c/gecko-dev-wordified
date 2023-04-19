@@ -211,12 +211,6 @@ aParams
 .
 mRate
 )
-mMediaEngineId
-(
-aParams
-.
-mMediaEngineId
-)
 {
 }
 CreateDecoderParamsForAsync
