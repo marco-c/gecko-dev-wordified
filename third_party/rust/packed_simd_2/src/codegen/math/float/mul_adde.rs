@@ -23,7 +23,10 @@ bit
 1
 element
 mul_adde
+pub
+(
 crate
+)
 trait
 MulAddE
 {

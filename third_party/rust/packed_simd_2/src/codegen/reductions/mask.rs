@@ -69,7 +69,10 @@ crate
 :
 *
 ;
+pub
+(
 crate
+)
 trait
 All
 :
@@ -92,7 +95,10 @@ self
 bool
 ;
 }
+pub
+(
 crate
+)
 trait
 Any
 :

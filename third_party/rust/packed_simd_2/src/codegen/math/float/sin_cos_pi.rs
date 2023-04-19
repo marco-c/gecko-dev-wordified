@@ -30,7 +30,10 @@ crate
 :
 *
 ;
+pub
+(
 crate
+)
 trait
 SinCosPi
 :
