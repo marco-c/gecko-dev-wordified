@@ -14861,11 +14861,15 @@ All
 )
 )
 ;
+MOZ_ASSERT
+(
+!
 enterRegs
 .
-takeUnchecked
+has
 (
 BaselineFrameReg
+)
 )
 ;
 Register
