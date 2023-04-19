@@ -6864,8 +6864,6 @@ join
 topsrcdir
 "
 configure
-.
-in
 "
 )
 os
@@ -6883,8 +6881,6 @@ src
 "
 "
 configure
-.
-in
 "
 )
 os
