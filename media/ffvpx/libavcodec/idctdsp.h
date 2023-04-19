@@ -226,6 +226,7 @@ FF_IDCT_PERM_SSE2
 void
 ff_init_scantable
 (
+const
 uint8_t
 *
 permutation
@@ -821,6 +822,19 @@ high_bit_depth
 ;
 void
 ff_idctdsp_init_mips
+(
+IDCTDSPContext
+*
+c
+AVCodecContext
+*
+avctx
+unsigned
+high_bit_depth
+)
+;
+void
+ff_idctdsp_init_loongarch
 (
 IDCTDSPContext
 *

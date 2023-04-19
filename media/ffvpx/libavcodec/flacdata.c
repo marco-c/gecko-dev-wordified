@@ -168,7 +168,7 @@ USA
 #
 include
 "
-internal
+flacdata
 .
 h
 "

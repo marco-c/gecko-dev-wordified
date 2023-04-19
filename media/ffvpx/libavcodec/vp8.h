@@ -244,7 +244,7 @@ h
 #
 include
 "
-thread
+threadframe
 .
 h
 "
@@ -1854,9 +1854,9 @@ ff_vp8_decode_frame
 AVCodecContext
 *
 avctx
-void
+AVFrame
 *
-data
+frame
 int
 *
 got_frame

@@ -185,6 +185,13 @@ packet
 #
 include
 "
+config_components
+.
+h
+"
+#
+include
+"
 libavutil
 /
 log
@@ -2117,6 +2124,7 @@ vp
 )
 ;
 }
+const
 AVCodecParser
 ff_vorbis_parser
 =

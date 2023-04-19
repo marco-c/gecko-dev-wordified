@@ -204,13 +204,6 @@ h
 #
 include
 "
-internal
-.
-h
-"
-#
-include
-"
 vlc
 .
 h
@@ -224,10 +217,9 @@ define
 MODE_EXT_I_STEREO
 1
 extern
-av_export_avcodec
 const
 uint16_t
-avpriv_mpa_bitrate_tab
+ff_mpa_bitrate_tab
 [
 2
 ]
@@ -239,10 +231,9 @@ avpriv_mpa_bitrate_tab
 ]
 ;
 extern
-av_export_avcodec
 const
 uint16_t
-avpriv_mpa_freq_tab
+ff_mpa_freq_tab
 [
 3
 ]
