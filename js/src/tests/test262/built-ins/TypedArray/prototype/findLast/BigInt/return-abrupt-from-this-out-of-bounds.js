@@ -6,13 +6,6 @@ reftest
 skip
 -
 -
-array
--
-find
--
-from
--
-last
 resizable
 -
 arraybuffer

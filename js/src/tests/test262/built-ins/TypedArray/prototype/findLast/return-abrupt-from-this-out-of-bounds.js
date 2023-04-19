@@ -9,13 +9,6 @@ skip
 resizable
 -
 arraybuffer
-array
--
-find
--
-from
--
-last
 is
 not
 supported
