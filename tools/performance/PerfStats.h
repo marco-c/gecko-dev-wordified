@@ -422,6 +422,11 @@ JSBC_IO_Write
 \
 MACRO
 (
+MinorGC
+)
+\
+MACRO
+(
 MajorGC
 )
 \
