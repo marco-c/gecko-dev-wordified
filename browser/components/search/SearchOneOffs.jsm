@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PrivateBrowsingUtils
 :
@@ -2423,6 +2429,8 @@ _engineInfo
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -6986,6 +6994,8 @@ the
 new
 engine
 .
+lazy
+.
 SearchUIUtils
 .
 addOpenSearchEngine
@@ -7202,6 +7212,8 @@ engineType
 const
 isPrivateWin
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

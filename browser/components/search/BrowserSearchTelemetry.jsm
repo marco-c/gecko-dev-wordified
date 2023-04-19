@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PartnerLinkAttribution
 :
@@ -462,6 +468,8 @@ browser
 return
 (
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -985,6 +993,8 @@ return
 let
 scalarKey
 =
+lazy
+.
 UrlbarSearchUtils
 .
 getSearchModeScalarKey
@@ -1712,6 +1722,8 @@ if
 url
 )
 {
+lazy
+.
 PartnerLinkAttribution
 .
 makeSearchEngineRequest
@@ -1738,6 +1750,8 @@ get
 source
 )
 ;
+lazy
+.
 SearchSERPTelemetry
 .
 recordBrowserSource
