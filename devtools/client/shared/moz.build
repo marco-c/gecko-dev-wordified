@@ -259,13 +259,6 @@ parser
 js
 "
 "
-options
--
-view
-.
-js
-"
-"
 output
 -
 parser
