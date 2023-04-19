@@ -88,7 +88,8 @@ ProcessPower
 BaseProfilerCount
 (
 "
-task_energy
+Process
+Power
 "
 nullptr
 nullptr
