@@ -1479,17 +1479,6 @@ LEAF
 Frame
 (
 "
-nsTitleBarFrame
-"
-"
-Box
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsTreeBodyFrame
 "
 "
