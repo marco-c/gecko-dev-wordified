@@ -7480,11 +7480,9 @@ beginByteOffset
 =
 srcByteOffset
 +
-(
 beginIndex
 *
 elementSize
-)
 ;
 /
 /
