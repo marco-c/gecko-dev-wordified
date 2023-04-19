@@ -1574,7 +1574,6 @@ aCancelable
 aIsPrivate
 aDownloadClassification
 aReferrerInfo
-aOpenDownloadsListOnStart
 )
 {
 return
@@ -1592,7 +1591,6 @@ aCancelable
 aIsPrivate
 aDownloadClassification
 aReferrerInfo
-aOpenDownloadsListOnStart
 )
 ;
 }
@@ -1611,7 +1609,6 @@ aCancelable
 aIsPrivate
 aDownloadClassification
 aReferrerInfo
-aOpenDownloadsListOnStart
 aBrowsingContext
 aHandleInternally
 )
@@ -1676,7 +1673,6 @@ aCancelable
 aIsPrivate
 aDownloadClassification
 aReferrerInfo
-aOpenDownloadsListOnStart
 userContextId
 browsingContextId
 aHandleInternally
@@ -1695,9 +1691,6 @@ aCancelable
 isPrivate
 aDownloadClassification
 referrerInfo
-openDownloadsListOnStart
-=
-true
 userContextId
 =
 0
@@ -1883,7 +1876,6 @@ launchWhenSucceeded
 contentType
 launcherPath
 handleInternally
-openDownloadsListOnStart
 }
 ;
 /
