@@ -36959,6 +36959,9 @@ Bug
 1782324
 if
 (
+aParentFrame
+&
+&
 aState
 .
 mPresContext
