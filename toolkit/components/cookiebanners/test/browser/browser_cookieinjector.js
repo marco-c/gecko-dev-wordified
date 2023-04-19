@@ -2193,7 +2193,7 @@ Ci
 .
 nsICookieBannerService
 .
-MODE_REJECT
+MODE_REJECT_OR_ACCEPT
 ]
 [
 "
@@ -2383,7 +2383,7 @@ rules
 "
 )
 ;
-todo
+ok
 (
 SiteDataTestUtils
 .
