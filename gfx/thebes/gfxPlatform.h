@@ -3216,6 +3216,11 @@ mozilla
 :
 StyleFontFaceSourceFormatKeyword
 aFormatHint
+mozilla
+:
+:
+StyleFontFaceSourceTechFlags
+aTechFlags
 )
 ;
 virtual

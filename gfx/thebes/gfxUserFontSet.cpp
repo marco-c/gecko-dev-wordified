@@ -1474,6 +1474,15 @@ aPrivate
 userFontData
 -
 >
+mTechFlags
+=
+src
+.
+mTechFlags
+;
+userFontData
+-
+>
 mFormatHint
 =
 src
@@ -3168,6 +3177,9 @@ IsFontFormatSupported
 currSrc
 .
 mFormatHint
+currSrc
+.
+mTechFlags
 )
 )
 {
