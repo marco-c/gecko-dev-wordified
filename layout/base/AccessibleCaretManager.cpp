@@ -5564,9 +5564,12 @@ FLAG_BYLONGPRESS
 ;
 }
 else
-{
+if
+(
+nsCOMPtr
+<
 nsPIDOMWindowOuter
-*
+>
 win
 =
 mPresShell
@@ -5580,10 +5583,6 @@ GetDocument
 GetWindow
 (
 )
-;
-if
-(
-win
 )
 {
 fm
@@ -5602,7 +5601,6 @@ SetFocusedWindow
 win
 )
 ;
-}
 }
 }
 nsresult

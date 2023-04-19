@@ -2350,10 +2350,16 @@ aCallerType
 {
 if
 (
+RefPtr
+<
+nsFocusManager
+>
+fm
+=
 sInstance
 )
 {
-sInstance
+fm
 -
 >
 SetFocusedWindowWithCallerType

@@ -590,7 +590,7 @@ media
 .
 if
 (
-RefPtr
+nsCOMPtr
 <
 nsPIDOMWindowOuter
 >

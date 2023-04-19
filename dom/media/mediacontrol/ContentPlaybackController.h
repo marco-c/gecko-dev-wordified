@@ -339,6 +339,17 @@ ContentPlaybackController
 =
 default
 ;
+/
+/
+TODO
+:
+Convert
+Focus
+(
+)
+to
+MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Focus
 (
