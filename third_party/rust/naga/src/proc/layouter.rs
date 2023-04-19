@@ -1582,6 +1582,15 @@ Sampler
 .
 .
 }
+|
+Ti
+:
+:
+BindingArray
+{
+.
+.
+}
 =
 >
 TypeLayout

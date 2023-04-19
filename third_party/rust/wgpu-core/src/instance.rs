@@ -4940,12 +4940,12 @@ discrete
 .
 or
 (
-other
+integrated
 )
 .
 or
 (
-integrated
+other
 )
 .
 or
