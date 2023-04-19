@@ -262,7 +262,11 @@ h
 /
 /
 ModuleObject
-HandleModuleObject
+Handle
+<
+ModuleObject
+*
+>
 #
 include
 "

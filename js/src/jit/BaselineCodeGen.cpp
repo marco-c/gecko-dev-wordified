@@ -38324,7 +38324,11 @@ compile
 -
 time
 .
-RootedModuleObject
+Rooted
+<
+ModuleObject
+*
+>
 module
 (
 cx

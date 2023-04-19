@@ -1921,7 +1921,11 @@ create
 JSContext
 *
 cx
-HandleModuleObject
+Handle
+<
+ModuleObject
+*
+>
 module
 )
 {
