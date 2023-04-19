@@ -111,7 +111,6 @@ namespace
 webrtc
 {
 namespace
-test
 {
 TEST
 (
@@ -223,13 +222,13 @@ is
 ignored
 )
 .
-VadWithLevel
-vad_with_level
+VadLevelAnalyzer
+analyzer
 ;
 auto
 levels_and_vad_prob
 =
-vad_with_level
+analyzer
 .
 AnalyzeFrame
 (
@@ -248,10 +247,10 @@ EXPECT_LT
 (
 levels_and_vad_prob
 .
-speech_rms_dbfs
+rms_dbfs
 levels_and_vad_prob
 .
-speech_peak_dbfs
+peak_dbfs
 )
 ;
 }
@@ -259,7 +258,6 @@ speech_peak_dbfs
 /
 /
 namespace
-test
 }
 /
 /

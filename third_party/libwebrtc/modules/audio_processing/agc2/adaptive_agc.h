@@ -232,7 +232,7 @@ private
 AdaptiveModeLevelEstimator
 speech_level_estimator_
 ;
-VadWithLevel
+VadLevelAnalyzer
 vad_
 ;
 AdaptiveDigitalGainApplier
