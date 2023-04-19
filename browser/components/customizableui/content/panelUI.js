@@ -2633,6 +2633,17 @@ panelmultiview
 if
 (
 container
+&
+&
+!
+viewNode
+.
+hasAttribute
+(
+"
+disallowSubView
+"
+)
 )
 {
 container
