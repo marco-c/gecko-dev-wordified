@@ -800,7 +800,11 @@ Kind
 :
 Unparsed
 ;
-GCPtrAtom
+GCPtr
+<
+JSAtom
+*
+>
 patternAtom_
 ;
 uint32_t
