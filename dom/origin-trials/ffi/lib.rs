@@ -107,9 +107,6 @@ TestTrial
 OffscreenCanvas
 =
 2
-CoepCredentialless
-=
-3
 MAX
 }
 impl
@@ -153,15 +150,6 @@ Self
 :
 :
 OffscreenCanvas
-"
-CoepCredentialless
-"
-=
->
-Self
-:
-:
-CoepCredentialless
 _
 =
 >

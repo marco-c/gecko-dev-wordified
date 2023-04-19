@@ -3228,12 +3228,6 @@ aLoadInfo
 GetLoadingEmbedderPolicy
 (
 )
-aLoadInfo
--
->
-GetIsOriginTrialCoepCredentiallessEnabledForTopLevel
-(
-)
 unstrippedURI
 )
 )
@@ -4694,11 +4688,6 @@ loadingContext
 loadInfoArgs
 .
 loadingEmbedderPolicy
-(
-)
-loadInfoArgs
-.
-originTrialCoepCredentiallessEnabledForTopLevel
 (
 )
 loadInfoArgs
