@@ -184,11 +184,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 loader
 .
 lazyRequireGetter
 (
-this
+lazy
 "
 getMockedModule
 "
@@ -1503,6 +1509,8 @@ flags
 testing
 &
 &
+lazy
+.
 getMockedModule
 (
 uri
@@ -1510,6 +1518,8 @@ uri
 )
 {
 return
+lazy
+.
 getMockedModule
 (
 uri

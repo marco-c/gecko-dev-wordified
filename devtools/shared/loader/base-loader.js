@@ -201,11 +201,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 resProto
 "
@@ -233,7 +239,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -410,6 +416,8 @@ uri
 const
 nsURI
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -456,6 +464,8 @@ bug
 1135219
 uri
 =
+lazy
+.
 resProto
 .
 resolveURI
@@ -467,6 +477,8 @@ nsURI
 const
 stream
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -474,6 +486,8 @@ newChannel
 {
 uri
 :
+lazy
+.
 NetUtil
 .
 newURI
@@ -507,6 +521,8 @@ available
 const
 data
 =
+lazy
+.
 NetUtil
 .
 readInputStreamToString
