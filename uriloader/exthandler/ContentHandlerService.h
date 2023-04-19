@@ -200,6 +200,15 @@ HandlerInfo
 aHandlerInfo
 )
 ;
+static
+already_AddRefed
+<
+nsIHandlerService
+>
+Create
+(
+)
+;
 private
 :
 virtual
