@@ -571,10 +571,6 @@ const
 bool
 HasStorageAccess
 (
-UseCounter
-aLabel
-UseCounterWorker
-aLabelWorker
 )
 const
 ;
