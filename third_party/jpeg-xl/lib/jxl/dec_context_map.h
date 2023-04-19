@@ -144,7 +144,7 @@ in
 *
 context_map
 .
-bool
+Status
 DecodeContextMap
 (
 std

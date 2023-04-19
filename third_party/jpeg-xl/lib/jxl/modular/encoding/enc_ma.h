@@ -1006,7 +1006,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 >
 compact_properties
@@ -1058,7 +1058,7 @@ value
 .
 static
 constexpr
-int
+int32_t
 kPropertyRange
 =
 511

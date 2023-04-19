@@ -622,7 +622,7 @@ for
 size_t
 num_entries
 =
-0
+1
 ;
 num_entries
 <

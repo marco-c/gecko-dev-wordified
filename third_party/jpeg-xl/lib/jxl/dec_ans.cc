@@ -395,7 +395,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 *
 counts
@@ -2311,7 +2311,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 counts
 ;

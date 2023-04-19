@@ -259,7 +259,7 @@ index
 ;
 }
 }
-bool
+Status
 VerifyContextMap
 (
 const
@@ -376,7 +376,7 @@ true
 /
 /
 namespace
-bool
+Status
 DecodeContextMap
 (
 std

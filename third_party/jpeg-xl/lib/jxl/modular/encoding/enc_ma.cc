@@ -4297,7 +4297,7 @@ tree
 ;
 }
 constexpr
-int
+int32_t
 TreeSamples
 :
 :
@@ -6012,7 +6012,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 QuantizeHistogram
 (
@@ -6070,7 +6070,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 thresholds
 ;
@@ -6187,7 +6187,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 QuantizeSamples
 (
@@ -6322,7 +6322,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 thresholds
 =
@@ -6802,7 +6802,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 quantized
 ;
@@ -6861,7 +6861,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 abs_pixel_thr
 ;
@@ -6870,7 +6870,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 pixel_thr
 ;
@@ -6974,7 +6974,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 abs_diff_thr
 ;
@@ -6983,7 +6983,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 diff_thr
 ;
@@ -7104,7 +7104,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 {
 -
@@ -7145,7 +7145,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 {
 -
@@ -7200,7 +7200,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 {
 -

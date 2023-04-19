@@ -503,6 +503,7 @@ int32_t
 >
 error
 ;
+const
 Header
 header
 ;

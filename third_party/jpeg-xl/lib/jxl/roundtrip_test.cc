@@ -5138,7 +5138,7 @@ basic_info
 .
 uses_original_profile
 =
-JXL_FALSE
+JXL_TRUE
 ;
 EXPECT_EQ
 (
@@ -5512,13 +5512,11 @@ string
 jpeg_path
 =
 "
-third_party
+jxl
 /
-imagecompression
-.
-info
+flower
 /
-flower_foveon
+flower
 .
 png
 .

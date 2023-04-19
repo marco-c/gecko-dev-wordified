@@ -424,6 +424,17 @@ size_t
 num_pixels
 )
 ;
+void
+UnpremultiplyAlpha
+(
+float
+*
+JXL_RESTRICT
+rgba
+size_t
+num_pixels
+)
+;
 }
 /
 /

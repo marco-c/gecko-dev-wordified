@@ -720,6 +720,7 @@ from
 CICP
 TransferCharacteristics
 enum
+class
 TransferFunction
 :
 uint32_t

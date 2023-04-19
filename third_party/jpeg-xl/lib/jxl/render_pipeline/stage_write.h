@@ -203,6 +203,8 @@ bool
 rgba
 bool
 has_alpha
+bool
+unpremul_alpha
 size_t
 alpha_c
 )

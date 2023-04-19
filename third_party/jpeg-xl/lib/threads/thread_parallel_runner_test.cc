@@ -44,6 +44,11 @@ file
 .
 #
 include
+<
+atomic
+>
+#
+include
 "
 gtest
 /

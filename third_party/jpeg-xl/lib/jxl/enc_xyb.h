@@ -334,16 +334,6 @@ JxlCmsInterface
 cms
 )
 ;
-/
-/
-For
-opsin_image_test
-.
-void
-TestCubeRoot
-(
-)
-;
 }
 /
 /

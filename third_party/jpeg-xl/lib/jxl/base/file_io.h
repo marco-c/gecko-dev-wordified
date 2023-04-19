@@ -591,7 +591,15 @@ open
 file
 for
 reading
+:
+%
+s
 "
+pathname
+.
+c_str
+(
+)
 )
 ;
 /

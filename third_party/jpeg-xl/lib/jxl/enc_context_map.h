@@ -179,6 +179,11 @@ num_histograms
 BitWriter
 *
 writer
+size_t
+layer
+AuxOut
+*
+aux_out
 )
 ;
 void

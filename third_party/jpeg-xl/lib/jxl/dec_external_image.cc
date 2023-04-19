@@ -3744,6 +3744,8 @@ jxl
 :
 Orientation
 undo_orientation
+bool
+unpremul_alpha
 )
 {
 bool
@@ -3807,6 +3809,9 @@ ib
 HasAlpha
 (
 )
+&
+&
+unpremul_alpha
 )
 {
 unpremul

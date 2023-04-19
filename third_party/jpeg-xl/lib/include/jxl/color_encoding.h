@@ -92,15 +92,6 @@ stdint
 h
 >
 #
-include
-"
-jxl
-/
-types
-.
-h
-"
-#
 if
 defined
 (
@@ -758,9 +749,7 @@ specified
 in
 SMPTE
 ST
-428
--
-1
+2084
 *
 /
 JXL_TRANSFER_FUNCTION_PQ

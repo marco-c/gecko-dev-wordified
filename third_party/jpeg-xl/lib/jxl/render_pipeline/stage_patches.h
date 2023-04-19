@@ -100,6 +100,8 @@ const
 PatchDictionary
 *
 patches
+size_t
+num_channels
 )
 ;
 }

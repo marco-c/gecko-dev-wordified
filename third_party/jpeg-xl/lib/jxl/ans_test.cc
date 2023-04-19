@@ -785,6 +785,9 @@ distributions
 [
 kNumHistograms
 ]
+=
+{
+}
 ;
 for
 (
