@@ -106,9 +106,9 @@ browser
 )
 {
 let
-promiseShown
+onPopupShown
 =
-promiseNotificationShown
+waitForPopupShown
 (
 )
 ;
@@ -183,7 +183,7 @@ tel
 )
 ;
 await
-promiseShown
+onPopupShown
 ;
 let
 cb
@@ -592,9 +592,9 @@ browser
 )
 {
 let
-promiseShown
+onPopupShown
 =
-promiseNotificationShown
+waitForPopupShown
 (
 )
 ;
@@ -671,7 +671,7 @@ tel
 )
 ;
 await
-promiseShown
+onPopupShown
 ;
 let
 cb
