@@ -1252,6 +1252,16 @@ fxaccounts
 pair_preferences
 "
 ;
+exports
+.
+COMMAND_FIREFOX_VIEW
+=
+"
+fxaccounts
+:
+firefox_view
+"
+;
 /
 /
 The
