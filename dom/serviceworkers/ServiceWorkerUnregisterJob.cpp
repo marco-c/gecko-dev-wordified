@@ -723,6 +723,14 @@ mScope
 )
 ;
 }
+swm
+-
+>
+EvictFromBFCache
+(
+registration
+)
+;
 /
 /
 "

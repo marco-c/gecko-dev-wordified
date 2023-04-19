@@ -4033,6 +4033,11 @@ GetAncestorWindow
 )
 const
 ;
+void
+EvictFromBFCache
+(
+)
+;
 nsIContentSecurityPolicy
 *
 GetCSP
