@@ -21614,6 +21614,7 @@ aWM
 aContainerSize
 )
 ;
+const
 nsRect
 insetRect
 =
@@ -21657,6 +21658,7 @@ ComputeInsetRadii
 (
 aBasicShape
 physicalShapeBoxRect
+insetRect
 physicalRadii
 )
 ;

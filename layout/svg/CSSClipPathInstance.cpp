@@ -1631,6 +1631,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
+const
 nsRect
 insetRect
 =
@@ -1668,6 +1669,7 @@ ComputeInsetRadii
 (
 basicShape
 aRefBox
+insetRect
 appUnitsRadii
 )
 )
