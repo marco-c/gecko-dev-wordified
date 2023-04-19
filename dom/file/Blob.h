@@ -483,6 +483,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 CreateInputStream

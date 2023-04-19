@@ -155,6 +155,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 MOZ_ASSERT
 (

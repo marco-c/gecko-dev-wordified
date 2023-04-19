@@ -723,6 +723,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 MOZ_CRASH
 (
