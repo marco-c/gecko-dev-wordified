@@ -899,9 +899,6 @@ featureId
 "
 cfr
 "
-enabled
-:
-true
 value
 :
 MESSAGE_CONTENT
@@ -922,9 +919,6 @@ featureId
 "
 cfr
 "
-enabled
-:
-true
 value
 :
 MESSAGE_CONTENT

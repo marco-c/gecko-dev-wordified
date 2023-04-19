@@ -2353,9 +2353,6 @@ featureId
 "
 pink
 "
-enabled
-:
-true
 value
 :
 {
@@ -2382,9 +2379,6 @@ featureId
 "
 pink
 "
-enabled
-:
-true
 value
 :
 {
@@ -3716,10 +3710,15 @@ features
 {
 value
 :
+{
+.
+.
+.
 content
 enabled
 :
 true
+}
 featureId
 :
 "
@@ -4069,9 +4068,6 @@ force
 -
 enrollment
 "
-enabled
-:
-true
 value
 :
 {
@@ -4117,9 +4113,6 @@ force
 -
 enrollment
 "
-enabled
-:
-true
 value
 :
 {

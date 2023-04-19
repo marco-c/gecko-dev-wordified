@@ -7324,9 +7324,6 @@ features
 :
 [
 {
-enabled
-:
-true
 featureId
 :
 NimbusFeatures
@@ -7336,7 +7333,11 @@ urlbar
 featureId
 value
 :
-null
+{
+enabled
+:
+true
+}
 }
 ]
 }
