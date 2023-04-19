@@ -451,6 +451,15 @@ override
 ;
 NS_IMETHOD_
 (
+bool
+)
+HasDecodedPixels
+(
+)
+override
+;
+NS_IMETHOD_
+(
 DecodeResult
 )
 RequestDecodeWithResult
