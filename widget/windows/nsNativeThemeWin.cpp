@@ -865,7 +865,7 @@ nsIFrame
 *
 aFrame
 ElementState
-eventState
+elementState
 )
 {
 if
@@ -890,7 +890,7 @@ FS_INACTIVE
 {
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -927,7 +927,7 @@ BS_INACTIVE
 }
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -940,7 +940,7 @@ HOVER
 {
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -993,12 +993,12 @@ int32_t
 GetClassicWindowFrameButtonState
 (
 ElementState
-eventState
+elementState
 )
 {
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -1009,7 +1009,7 @@ ACTIVE
 )
 &
 &
-eventState
+elementState
 .
 HasState
 (
@@ -3991,7 +3991,7 @@ return
 ;
 }
 ElementState
-eventStates
+elementState
 =
 GetContentState
 (
@@ -4010,7 +4010,7 @@ parentFrame
 bool
 indeterminate
 =
-eventStates
+elementState
 .
 HasState
 (
@@ -5301,7 +5301,7 @@ wantFocused
 )
 {
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -5311,7 +5311,7 @@ aAppearance
 ;
 if
 (
-eventState
+elementState
 .
 HasAllStates
 (
@@ -5333,7 +5333,7 @@ TS_ACTIVE
 }
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -5355,7 +5355,7 @@ wantFocused
 {
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -5417,7 +5417,7 @@ StyleAppearance
 Button
 &
 &
-eventState
+elementState
 .
 HasState
 (
@@ -5637,7 +5637,7 @@ NS_OK
 ;
 }
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -5647,7 +5647,7 @@ aAppearance
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -5798,7 +5798,7 @@ TS_NORMAL
 else
 {
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -5808,7 +5808,7 @@ aAppearance
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -5829,7 +5829,7 @@ if
 isCheckbox
 &
 &
-eventState
+elementState
 .
 HasState
 (
@@ -5847,7 +5847,7 @@ INDETERMINATE
 }
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -5964,7 +5964,7 @@ Textarea
 :
 {
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -6064,7 +6064,7 @@ TFS_EDITBORDER_NORMAL
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6107,7 +6107,7 @@ TFS_EDITBORDER_NORMAL
 else
 if
 (
-eventState
+elementState
 .
 HasAtLeastOneOfStates
 (
@@ -6131,7 +6131,7 @@ TFS_EDITBORDER_FOCUSED
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6299,7 +6299,7 @@ NS_OK
 ;
 }
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -6309,7 +6309,7 @@ aAppearance
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6346,7 +6346,7 @@ NS_OK
 }
 if
 (
-eventState
+elementState
 .
 HasAllStates
 (
@@ -6368,7 +6368,7 @@ TS_ACTIVE
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6512,7 +6512,7 @@ TKP_THUMBRIGHT
 ;
 }
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -6534,7 +6534,7 @@ TS_NORMAL
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6554,7 +6554,7 @@ else
 {
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6601,7 +6601,7 @@ TS_ACTIVE
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6618,7 +6618,7 @@ TKP_FOCUSED
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -6672,7 +6672,7 @@ SPNP_UP
 SPNP_DOWN
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -6694,7 +6694,7 @@ TS_NORMAL
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -7076,7 +7076,7 @@ NS_OK
 ;
 }
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -7086,7 +7086,7 @@ aAppearance
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -7258,7 +7258,7 @@ IsHTMLElement
 )
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -7318,7 +7318,7 @@ CBP_DROPFRAME
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -7368,7 +7368,7 @@ if
 useDropBorder
 &
 &
-eventState
+elementState
 .
 HasState
 (
@@ -7387,7 +7387,7 @@ TS_ACTIVE
 else
 if
 (
-eventState
+elementState
 .
 HasAllStates
 (
@@ -7411,7 +7411,7 @@ TS_ACTIVE
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -7512,7 +7512,7 @@ aFrame
 parentFrame
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -7586,7 +7586,7 @@ CBP_DROPMARKER
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -7816,7 +7816,7 @@ hover
 .
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -7878,7 +7878,7 @@ TS_ACTIVE
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -8016,7 +8016,7 @@ aFrame
 )
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -8094,7 +8094,7 @@ by
 3
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -8142,7 +8142,7 @@ by
 2
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -8193,7 +8193,7 @@ aPart
 MENU_POPUPSUBMENU
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -8203,7 +8203,7 @@ aAppearance
 ;
 aState
 =
-eventState
+elementState
 .
 HasState
 (
@@ -8235,7 +8235,7 @@ Menuradio
 :
 {
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -8285,7 +8285,7 @@ by
 1
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -10279,7 +10279,7 @@ bgState
 MCB_NORMAL
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -10298,7 +10298,7 @@ by
 1
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -18800,7 +18800,7 @@ aFrame
 )
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -18924,7 +18924,7 @@ IsOpen
 }
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -19001,7 +19001,7 @@ aState
 0
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -19011,7 +19011,7 @@ aAppearance
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -19312,7 +19312,7 @@ aFrame
 parentFrame
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -19322,7 +19322,7 @@ aAppearance
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -19435,7 +19435,7 @@ hover
 .
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -21784,7 +21784,7 @@ BF_ADJUST
 )
 ;
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -21799,7 +21799,7 @@ in
 background
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -22105,7 +22105,7 @@ RangeThumb
 :
 {
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -22132,7 +22132,7 @@ BF_ADJUST
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -22369,7 +22369,7 @@ GetParent
 )
 ;
 ElementState
-eventStates
+elementState
 =
 GetContentState
 (
@@ -22381,7 +22381,7 @@ const
 bool
 indeterminate
 =
-eventStates
+elementState
 .
 HasState
 (

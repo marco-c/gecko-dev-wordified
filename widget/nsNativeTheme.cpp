@@ -1374,7 +1374,7 @@ aFrame
 )
 {
 ElementState
-eventState
+state
 =
 GetContentState
 (
@@ -1387,7 +1387,7 @@ Toolbarbutton
 ;
 if
 (
-eventState
+state
 .
 HasState
 (
@@ -1397,9 +1397,11 @@ ElementState
 DISABLED
 )
 )
+{
 return
 false
 ;
+}
 return
 IsOpenButton
 (
@@ -1407,7 +1409,7 @@ aFrame
 )
 |
 |
-eventState
+state
 .
 HasAllStates
 (

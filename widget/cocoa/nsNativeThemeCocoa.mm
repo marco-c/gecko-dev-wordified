@@ -14569,7 +14569,7 @@ originalHeight
 ;
 }
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -14610,7 +14610,7 @@ MenuIcon
 ComputeMenuIconParams
 (
 aFrame
-eventState
+elementState
 MenuIcon
 :
 :
@@ -14642,7 +14642,7 @@ MenuItem
 ComputeMenuItemParams
 (
 aFrame
-eventState
+elementState
 aAppearance
 =
 =
@@ -14671,7 +14671,7 @@ MenuSeparator
 ComputeMenuItemParams
 (
 aFrame
-eventState
+elementState
 false
 )
 )
@@ -14722,7 +14722,7 @@ MenuIcon
 ComputeMenuIconParams
 (
 aFrame
-eventState
+elementState
 icon
 )
 )
@@ -14780,7 +14780,7 @@ eOff
 ;
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -14804,7 +14804,7 @@ eIndeterminate
 else
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -14832,7 +14832,7 @@ controlParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ;
 params
@@ -15045,7 +15045,7 @@ params
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ;
 params
@@ -15097,7 +15097,7 @@ controlParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ;
 controlParams
@@ -15244,7 +15244,7 @@ ButtonParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ButtonType
 :
@@ -15268,7 +15268,7 @@ ButtonParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ButtonType
 :
@@ -15314,7 +15314,7 @@ ButtonParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ButtonType
 :
@@ -15373,7 +15373,7 @@ ButtonParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 buttonType
 }
@@ -15563,7 +15563,7 @@ params
 .
 disabled
 =
-eventState
+elementState
 .
 HasState
 (
@@ -15679,7 +15679,7 @@ params
 .
 disabled
 =
-eventState
+elementState
 .
 HasState
 (
@@ -15751,7 +15751,7 @@ params
 ComputeSegmentParams
 (
 aFrame
-eventState
+elementState
 SegmentType
 :
 :
@@ -15957,7 +15957,7 @@ controlParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ;
 controlParams
@@ -16022,7 +16022,7 @@ ButtonParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ButtonType
 :
@@ -16072,7 +16072,7 @@ TextField
 ComputeTextFieldParams
 (
 aFrame
-eventState
+elementState
 )
 )
 )
@@ -16094,7 +16094,7 @@ SearchField
 ComputeTextFieldParams
 (
 aFrame
-eventState
+elementState
 )
 )
 )
@@ -16108,7 +16108,7 @@ ProgressBar
 {
 if
 (
-eventState
+elementState
 .
 HasState
 (
@@ -16158,7 +16158,7 @@ ProgressBar
 ComputeProgressParams
 (
 aFrame
-eventState
+elementState
 !
 IsVerticalProgress
 (
@@ -16237,7 +16237,7 @@ ButtonParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ButtonType
 :
@@ -16266,7 +16266,7 @@ ButtonParams
 ComputeControlParams
 (
 aFrame
-eventState
+elementState
 )
 ButtonType
 :
@@ -16293,7 +16293,7 @@ TreeHeaderCell
 ComputeTreeHeaderCellParams
 (
 aFrame
-eventState
+elementState
 )
 )
 )
@@ -16405,7 +16405,7 @@ params
 ComputeHTMLScaleParams
 (
 aFrame
-eventState
+elementState
 )
 ;
 if
@@ -16444,7 +16444,7 @@ WidgetInfo
 :
 MultilineTextField
 (
-eventState
+elementState
 .
 HasState
 (
@@ -16600,7 +16600,7 @@ params
 ComputeSegmentParams
 (
 aFrame
-eventState
+elementState
 SegmentType
 :
 :
@@ -22067,7 +22067,7 @@ Checkmenuitem
 :
 {
 ElementState
-eventState
+elementState
 =
 GetContentState
 (
@@ -22078,7 +22078,7 @@ aAppearance
 bool
 isDisabled
 =
-eventState
+elementState
 .
 HasState
 (
