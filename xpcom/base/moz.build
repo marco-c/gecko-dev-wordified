@@ -633,6 +633,11 @@ JSObjectHolder
 h
 "
 "
+JSONStringWriteFuncs
+.
+h
+"
+"
 Logging
 .
 h
