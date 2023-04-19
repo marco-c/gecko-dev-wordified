@@ -1512,6 +1512,7 @@ Checking
 {
 testDesc
 }
+worker
 navigator
 .
 appVersion
@@ -1530,6 +1531,7 @@ Checking
 {
 testDesc
 }
+worker
 navigator
 .
 platform
@@ -1548,6 +1550,7 @@ Checking
 {
 testDesc
 }
+worker
 navigator
 .
 userAgent
@@ -1566,6 +1569,7 @@ Checking
 {
 testDesc
 }
+worker
 navigator
 .
 hardwareConcurrency
@@ -1579,6 +1583,7 @@ result
 appCodeName
 CONST_APPCODENAME
 "
+worker
 Navigator
 .
 appCodeName
@@ -1597,6 +1602,7 @@ result
 appName
 CONST_APPNAME
 "
+worker
 Navigator
 .
 appName
@@ -1615,6 +1621,7 @@ result
 product
 CONST_PRODUCT
 "
+worker
 Navigator
 .
 product
