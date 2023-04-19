@@ -16039,10 +16039,15 @@ happen
 uint32_t
 limit
 =
-StaticPrefs
+gfxPlatformGtk
 :
 :
-gfx_font_rendering_fontconfig_max_generic_substitutions
+GetPlatform
+(
+)
+-
+>
+MaxGenericSubstitions
 (
 )
 ;
