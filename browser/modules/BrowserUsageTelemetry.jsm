@@ -4987,6 +4987,9 @@ if
 (
 !
 node
+?
+.
+parentNode
 )
 {
 /
@@ -4999,10 +5002,17 @@ space
 or
 label
 or
+top
+-
+level
+document
+or
 something
 we
 '
 re
+/
+/
 not
 interested
 in
