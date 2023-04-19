@@ -6891,7 +6891,7 @@ new
 -
 indicator
 "
-false
+true
 )
 ;
 /
@@ -6917,7 +6917,7 @@ new
 -
 logo
 "
-false
+true
 )
 ;
 /
@@ -7033,7 +7033,7 @@ private
 -
 windows
 "
-false
+true
 )
 ;
 /
@@ -7058,7 +7058,7 @@ preferences
 .
 show
 "
-false
+true
 )
 ;
 pref
