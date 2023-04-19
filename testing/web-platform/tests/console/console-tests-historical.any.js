@@ -1,4 +1,13 @@
 /
+/
+META
+:
+global
+=
+window
+dedicatedworker
+shadowrealm
+/
 *
 *
 *
