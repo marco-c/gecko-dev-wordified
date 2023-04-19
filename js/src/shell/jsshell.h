@@ -732,15 +732,6 @@ WASM_FEATURE
 #
 undef
 WASM_FEATURE
-#
-ifdef
-ENABLE_WASM_SIMD_WORMHOLE
-extern
-bool
-enableWasmSimdWormhole
-;
-#
-endif
 extern
 bool
 enableWasmVerbose
