@@ -6549,6 +6549,8 @@ V3
 extension_pages
 allows
 localhost
+and
+WASM
 .
 When
 sandbox
@@ -6594,6 +6596,12 @@ Ci
 nsIAddonContentPolicy
 .
 CSP_ALLOW_LOCALHOST
+|
+Ci
+.
+nsIAddonContentPolicy
+.
+CSP_ALLOW_WASM
 ;
 let
 error
