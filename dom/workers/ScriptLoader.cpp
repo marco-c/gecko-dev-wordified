@@ -2955,7 +2955,7 @@ WorkerScriptLoader
 LoadingFinished
 (
 ScriptLoadInfo
-&
+*
 aLoadInfo
 nsresult
 aRv
@@ -2966,7 +2966,8 @@ AssertIsOnMainThread
 )
 ;
 aLoadInfo
-.
+-
+>
 mLoadResult
 =
 aRv
@@ -2975,12 +2976,14 @@ MOZ_ASSERT
 (
 !
 aLoadInfo
-.
+-
+>
 mLoadingFinished
 )
 ;
 aLoadInfo
-.
+-
+>
 mLoadingFinished
 =
 true
@@ -3023,7 +3026,7 @@ MaybeExecuteFinishedScripts
 (
 const
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 {
@@ -3061,7 +3064,8 @@ completed
 if
 (
 aLoadInfo
-.
+-
+>
 Finished
 (
 )
@@ -3416,6 +3420,7 @@ if
 EvaluateScript
 (
 aCx
+&
 loadInfo
 )
 )
@@ -3448,7 +3453,7 @@ WorkerScriptLoader
 OnStreamComplete
 (
 ScriptLoadInfo
-&
+*
 aLoadInfo
 nsresult
 aStatus
@@ -3656,6 +3661,7 @@ Finished
 {
 LoadingFinished
 (
+&
 loadInfo
 aCancelResult
 )
@@ -3817,6 +3823,7 @@ rv
 =
 LoadScript
 (
+&
 loadInfo
 )
 ;
@@ -3833,6 +3840,7 @@ rv
 {
 LoadingFinished
 (
+&
 loadInfo
 rv
 )
@@ -3883,6 +3891,7 @@ CacheLoadHandler
 >
 (
 mWorkerPrivate
+&
 loadInfo
 IsMainWorkerScript
 (
@@ -4004,7 +4013,7 @@ WorkerScriptLoader
 LoadScript
 (
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 {
@@ -4254,7 +4263,8 @@ nsresult
 rv
 =
 aLoadInfo
-.
+-
+>
 mLoadResult
 ;
 nsLoadFlags
@@ -4481,7 +4491,8 @@ rv
 ConstructURI
 (
 aLoadInfo
-.
+-
+>
 mURL
 baseURI
 parentDoc
@@ -4972,7 +4983,8 @@ respectedCOEP
 if
 (
 aLoadInfo
-.
+-
+>
 mCacheStatus
 !
 =
@@ -5025,7 +5037,8 @@ return
 early
 .
 aLoadInfo
-.
+-
+>
 mCacheStatus
 =
 ScriptLoadInfo
@@ -5040,7 +5053,8 @@ NS_NewPipe
 getter_AddRefs
 (
 aLoadInfo
-.
+-
+>
 mCacheReadStream
 )
 getter_AddRefs
@@ -5151,7 +5165,8 @@ rv
 }
 }
 aLoadInfo
-.
+-
+>
 mChannel
 .
 swap
@@ -5532,7 +5547,7 @@ JSContext
 *
 aCx
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 {
@@ -5547,7 +5562,8 @@ NS_ASSERTION
 (
 !
 aLoadInfo
-.
+-
+>
 mChannel
 "
 Should
@@ -5563,7 +5579,8 @@ channel
 NS_ASSERTION
 (
 aLoadInfo
-.
+-
+>
 mExecutionScheduled
 "
 Should
@@ -5577,7 +5594,8 @@ NS_ASSERTION
 (
 !
 aLoadInfo
-.
+-
+>
 mExecutionResult
 "
 Should
@@ -5618,7 +5636,8 @@ if
 NS_FAILED
 (
 aLoadInfo
-.
+-
+>
 mLoadResult
 )
 )
@@ -5630,10 +5649,12 @@ ReportLoadError
 (
 mRv
 aLoadInfo
-.
+-
+>
 mLoadResult
 aLoadInfo
-.
+-
+>
 mURL
 )
 ;
@@ -5732,7 +5753,8 @@ NS_ConvertUTF16toUTF8
 filename
 (
 aLoadInfo
-.
+-
+>
 mURL
 )
 ;
@@ -5765,7 +5787,8 @@ true
 MOZ_ASSERT
 (
 aLoadInfo
-.
+-
+>
 mMutedErrorFlag
 .
 isSome
@@ -5778,7 +5801,8 @@ options
 setMutedErrors
 (
 aLoadInfo
-.
+-
+>
 mMutedErrorFlag
 .
 valueOr
@@ -5790,7 +5814,8 @@ true
 if
 (
 aLoadInfo
-.
+-
+>
 mSourceMapURL
 )
 {
@@ -5799,7 +5824,8 @@ options
 setSourceMapURL
 (
 aLoadInfo
-.
+-
+>
 mSourceMapURL
 -
 >
@@ -5864,7 +5890,8 @@ swap
 (
 scriptLength
 aLoadInfo
-.
+-
+>
 mScriptLength
 )
 ;
@@ -5882,7 +5909,8 @@ arm
 of
 |
 aLoadInfo
-.
+-
+>
 mScript
 |
 .
@@ -5890,7 +5918,8 @@ bool
 successfullyEvaluated
 =
 aLoadInfo
-.
+-
+>
 mScriptIsUTF8
 ?
 EvaluateSourceBuffer
@@ -5898,7 +5927,8 @@ EvaluateSourceBuffer
 aCx
 options
 aLoadInfo
-.
+-
+>
 mScript
 .
 mUTF8
@@ -5910,7 +5940,8 @@ EvaluateSourceBuffer
 aCx
 options
 aLoadInfo
-.
+-
+>
 mScript
 .
 mUTF16
@@ -5920,7 +5951,8 @@ scriptLength
 MOZ_ASSERT
 (
 aLoadInfo
-.
+-
+>
 ScriptTextIsNull
 (
 )
@@ -5944,7 +5976,8 @@ false
 ;
 }
 aLoadInfo
-.
+-
+>
 mExecutionResult
 =
 true

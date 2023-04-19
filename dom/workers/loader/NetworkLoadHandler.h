@@ -364,7 +364,7 @@ WorkerScriptLoader
 *
 aLoader
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 ;
@@ -464,7 +464,7 @@ const
 mWorkerPrivate
 ;
 ScriptLoadInfo
-&
+*
 mLoadInfo
 ;
 }
