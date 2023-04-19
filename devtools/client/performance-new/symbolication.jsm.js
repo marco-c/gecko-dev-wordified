@@ -69,6 +69,21 @@ strict
 /
 *
 *
+type
+{
+any
+}
+*
+/
+const
+lazy
+=
+{
+}
+;
+/
+*
+*
 *
 typedef
 {
@@ -191,7 +206,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -214,7 +229,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 clearTimeout
 "
@@ -704,6 +719,8 @@ Reset
 expiry
 timer
 .
+lazy
+.
 clearTimeout
 (
 gCachedWASMModuleExpiryTimer
@@ -711,6 +728,8 @@ gCachedWASMModuleExpiryTimer
 ;
 gCachedWASMModuleExpiryTimer
 =
+lazy
+.
 setTimeout
 (
 clearCachedWASMModule
