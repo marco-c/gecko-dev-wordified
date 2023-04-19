@@ -1271,6 +1271,7 @@ r
 error
 <
 =
+(
 0
 .
 5
@@ -1280,8 +1281,9 @@ error
 5
 /
 3
-+
-epsilon
+)
+*
+ulp
 *
 /
 return
