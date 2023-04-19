@@ -389,7 +389,16 @@ THIRD_PARTY_SNAPPY_SNAPPY_H__
 #
 include
 <
-cstddef
+stddef
+.
+h
+>
+#
+include
+<
+stdint
+.
+h
 >
 #
 include
@@ -705,7 +714,7 @@ GetUncompressedLength
 Source
 *
 source
-uint32
+uint32_t
 *
 result
 )
