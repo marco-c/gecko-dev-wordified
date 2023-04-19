@@ -44254,6 +44254,9 @@ BrowserAddonUI
 manageAddon
 (
 id
+"
+browserAction
+"
 )
 ;
 }
