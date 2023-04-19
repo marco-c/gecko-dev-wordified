@@ -8826,9 +8826,12 @@ CanHandleAndMaybeDispatchBeforeInputEvent
 ;
 if
 (
+MOZ_UNLIKELY
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
