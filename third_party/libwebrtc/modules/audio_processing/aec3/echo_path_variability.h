@@ -102,9 +102,7 @@ class
 DelayAdjustment
 {
 kNone
-kBufferReadjustment
 kBufferFlush
-kDelayReset
 kNewDetectedDelay
 }
 ;
