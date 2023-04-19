@@ -271,18 +271,6 @@ yaml
 "
     
 "
-netwerk
-/
-protocol
-/
-http
-/
-metrics
-.
-yaml
-"
-    
-"
 toolkit
 /
 components
