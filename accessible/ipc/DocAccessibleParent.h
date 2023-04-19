@@ -1984,6 +1984,15 @@ aRanges
 const
 override
 ;
+void
+URL
+(
+nsAString
+&
+aURL
+)
+const
+;
 private
 :
 ~
