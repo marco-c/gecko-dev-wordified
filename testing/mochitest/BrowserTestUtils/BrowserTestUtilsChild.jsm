@@ -115,11 +115,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 E10SUtils
 "
@@ -1831,6 +1837,8 @@ height
 let
 result
 ;
+lazy
+.
 E10SUtils
 .
 wrapHandlingUserInput
