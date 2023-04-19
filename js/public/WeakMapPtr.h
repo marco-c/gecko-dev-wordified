@@ -117,7 +117,7 @@ js_WeakMapPtr_h
 #
 include
 "
-jspubtd
+jstypes
 .
 h
 "
@@ -130,6 +130,10 @@ TypeDecls
 .
 h
 "
+class
+JS_PUBLIC_API
+JSTracer
+;
 namespace
 JS
 {

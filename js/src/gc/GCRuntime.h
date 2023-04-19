@@ -299,9 +299,6 @@ VerifyPreTracer
 class
 WeakRefObject
 ;
-class
-ZoneAllocator
-;
 namespace
 gc
 {
