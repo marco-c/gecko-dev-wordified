@@ -10182,10 +10182,6 @@ mTopLevelOuterContentWindow
 (
 false
 )
-mStorageAccessPermissionGranted
-(
-false
-)
 mDelayedPrintUntilAfterLoad
 (
 false
@@ -18072,10 +18068,6 @@ DispatchDOMWindowCreated
 PreloadLocalStorage
 (
 )
-;
-mStorageAccessPermissionGranted
-=
-false
 ;
 /
 /
