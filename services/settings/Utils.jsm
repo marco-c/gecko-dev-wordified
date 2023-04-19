@@ -247,18 +247,6 @@ nsINetworkLinkService
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
 /
 /
 Create
@@ -1866,8 +1854,6 @@ collection
 try
 {
 await
-lazy
-.
 fetch
 (
 resource
@@ -2002,8 +1988,6 @@ let
 res
 =
 await
-lazy
-.
 fetch
 (
 "

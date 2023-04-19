@@ -275,18 +275,6 @@ lazy
 ;
 XPCOMUtils
 .
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
-XPCOMUtils
-.
 defineLazyModuleGetters
 (
 lazy
@@ -2221,8 +2209,6 @@ let
 response
 =
 await
-lazy
-.
 fetch
 (
 this
@@ -2485,8 +2471,6 @@ let
 response
 =
 await
-lazy
-.
 fetch
 (
 this
