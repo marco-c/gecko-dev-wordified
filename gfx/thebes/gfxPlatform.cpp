@@ -9132,13 +9132,6 @@ Shutdown
 (
 )
 ;
-RemoteTextureMap
-:
-:
-Shutdown
-(
-)
-;
 /
 /
 This
@@ -9156,6 +9149,13 @@ layers
 :
 :
 CompositorThreadHolder
+:
+:
+Shutdown
+(
+)
+;
+RemoteTextureMap
 :
 :
 Shutdown
