@@ -1676,6 +1676,14 @@ structs
 *
 /
 struct
+EditorInlineStyle
+;
+/
+/
+HTMLEditHelpers
+.
+h
+struct
 PropItem
 ;
 /
