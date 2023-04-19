@@ -100,6 +100,16 @@ browser
 .
 download
 .
+alwaysOpenPanel
+"
+true
+]
+[
+"
+browser
+.
+download
+.
 always_ask_before_handling_new_types
 "
 false
@@ -242,7 +252,7 @@ panelOpenedPromise
 The
 downloads
 panel
-may
+will
 open
 automatically
 after
