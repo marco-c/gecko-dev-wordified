@@ -4890,7 +4890,7 @@ case
 InfoColorSpace
 :
 :
-WINDOWS
+WIN
 :
 default
 :
@@ -6289,7 +6289,7 @@ case
 InfoColorSpace
 :
 :
-WINDOWS
+WIN
 :
 MOZ_LOG
 (
