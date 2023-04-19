@@ -2084,6 +2084,10 @@ const
 nsAString
 &
 aNamedCurve
+bool
+aVerifyValid
+=
+true
 )
 ;
 }
