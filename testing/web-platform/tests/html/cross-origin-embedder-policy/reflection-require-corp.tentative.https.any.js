@@ -1,3 +1,13 @@
+/
+/
+META
+:
+global
+=
+window
+dedicatedworker
+sharedworker
+serviceworker
 test
 (
 t
