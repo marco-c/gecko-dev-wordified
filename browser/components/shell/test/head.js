@@ -239,17 +239,6 @@ malloc_context_size
 =
 5
 "
-/
-/
-Don
-'
-t
-enable
-Marionette
-.
-MOZ_MARIONETTE
-:
-null
 }
 }
 )
