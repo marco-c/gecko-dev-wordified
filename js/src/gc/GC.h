@@ -435,6 +435,15 @@ true
 _
 (
 "
+heapGrowthFactor
+"
+JSGC_HEAP_GROWTH_FACTOR
+true
+)
+\
+_
+(
+"
 allocationThreshold
 "
 JSGC_ALLOCATION_THRESHOLD
