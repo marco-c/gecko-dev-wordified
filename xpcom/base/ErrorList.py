@@ -11374,6 +11374,18 @@ FAILURE
 43
 )
     
+errors
+[
+"
+NS_ERROR_EMAILTRACKING_URI
+"
+]
+=
+FAILURE
+(
+44
+)
+    
 #
 Used
 when
