@@ -1497,6 +1497,13 @@ proc
 kill
 (
 )
+                            
+proc
+.
+wait
+(
+10
+)
                     
 except
 psutil
