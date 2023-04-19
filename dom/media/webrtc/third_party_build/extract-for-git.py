@@ -56,6 +56,8 @@ MPL
 import
 argparse
 import
+os
+import
 re
 import
 subprocess
@@ -123,13 +125,12 @@ LIBWEBRTC_DIR
 third_party
 /
 libwebrtc
-/
-webrtc
 "
 def
 build_commit_list
 (
 revset
+env
 )
 :
     
@@ -241,6 +242,10 @@ text
 =
 True
         
+env
+=
+env
+        
 cwd
 =
 "
@@ -290,6 +295,7 @@ def
 extract_author_date
 (
 sha1
+env
 )
 :
     
@@ -337,6 +343,10 @@ True
 text
 =
 True
+        
+env
+=
+env
     
 )
     
@@ -355,6 +365,7 @@ def
 extract_description
 (
 sha1
+env
 )
 :
     
@@ -396,6 +407,10 @@ True
 text
 =
 True
+        
+env
+=
+env
     
 )
     
@@ -407,6 +422,7 @@ def
 extract_commit
 (
 sha1
+env
 )
 :
     
@@ -451,6 +467,10 @@ True
 text
 =
 True
+        
+env
+=
+env
     
 )
     
@@ -570,6 +590,29 @@ and
 not
 line
 .
+startswith
+(
+"
+diff
+-
+-
+git
+a
+/
+"
++
+LIBWEBRTC_DIR
++
+"
+/
+third_party
+"
+)
+            
+and
+not
+line
+.
 endswith
 (
 "
@@ -633,20 +676,44 @@ commit
 )
 :
     
+#
+make
+sure
+we
+only
+rewrite
+paths
+in
+the
+diff
+-
+related
+lines
+    
 return
 re
 .
 sub
 (
 "
-third_party
+(
+[
+ab
+]
+)
 /
-libwebrtc
-/
-webrtc
+"
++
+LIBWEBRTC_DIR
++
+"
 /
 "
 "
+\
+\
+1
+/
 "
 commit
 )
@@ -931,6 +998,51 @@ parse_args
 (
 )
     
+#
+must
+run
+'
+hg
+'
+with
+HGPLAIN
+=
+1
+to
+ensure
+aliases
+don
+'
+t
+interfere
+with
+    
+#
+command
+output
+.
+    
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+    
+env
+[
+"
+HGPLAIN
+"
+]
+=
+"
+1
+"
+    
 for
 revset
 in
@@ -946,6 +1058,7 @@ extend
 build_commit_list
 (
 revset
+env
 )
 )
     
@@ -977,6 +1090,7 @@ date
 extract_author_date
 (
 sha1
+env
 )
             
 description
@@ -984,6 +1098,7 @@ description
 extract_description
 (
 sha1
+env
 )
             
 filtered_commit
@@ -993,6 +1108,7 @@ filter_nonwebrtc
 extract_commit
 (
 sha1
+env
 )
 )
             
