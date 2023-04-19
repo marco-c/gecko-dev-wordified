@@ -962,7 +962,7 @@ return
 mVsyncSource
 -
 >
-NotifyRefreshTimerVsyncStatus
+NotifyVsyncDispatcherVsyncStatus
 (
 NeedsVsync
 (
