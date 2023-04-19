@@ -422,12 +422,13 @@ NULL
 endif
 /
 /
-Temporary
-configurator
+Configurator
 for
-experiment
-associated
-with
+delaying
+on
+OOM
+.
+See
 bug
 1716727
 .
@@ -439,7 +440,7 @@ XP_WIN
 )
 MOZ_JEMALLOC_API
 void
-mozjemalloc_experiment_win_set_always_stall
+mozjemalloc_win_set_always_stall
 (
 bool
 )

@@ -11180,7 +11180,7 @@ true
 ;
 MOZ_JEMALLOC_API
 void
-mozjemalloc_experiment_win_set_always_stall
+mozjemalloc_win_set_always_stall
 (
 bool
 aVal
@@ -11191,9 +11191,6 @@ sShouldAlwaysStall
 aVal
 ;
 }
-#
-ifdef
-MOZ_STALL_ON_OOM
 /
 /
 Implementation
@@ -11761,17 +11758,6 @@ MozAllocRetries
 :
 MozVirtualAlloc
 ;
-#
-else
-#
-define
-MozVirtualAlloc
-VirtualAlloc
-#
-endif
-/
-/
-MOZ_STALL_ON_OOM
 #
 endif
 /

@@ -1648,7 +1648,7 @@ then
 give
 up
 .
-mozjemalloc_experiment_win_set_always_stall
+mozjemalloc_win_set_always_stall
 (
 processType
 =
