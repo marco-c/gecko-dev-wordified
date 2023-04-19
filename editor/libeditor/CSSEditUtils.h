@@ -770,6 +770,15 @@ one
 value
 .
 *
+return
+A
+candidate
+point
+to
+put
+caret
+.
+*
 /
 [
 [
@@ -777,7 +786,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 RemoveCSSInlineStyleWithTransaction
 (
 nsStyledElement
