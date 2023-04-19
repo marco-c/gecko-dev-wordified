@@ -541,9 +541,8 @@ overrides
 files
 :
 "
-test
-/
-unit
+*
+*
 /
 head
 .
