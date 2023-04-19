@@ -2567,15 +2567,6 @@ StyleDisplay
 (
 )
 ;
-mStyleVisibility
-=
-mFrame
--
->
-StyleVisibility
-(
-)
-;
 mStyleBorder
 =
 mFrame
