@@ -79,10 +79,6 @@ jsm
 "
 )
 ;
-this
-.
-ActivityStreamStorage
-=
 class
 ActivityStreamStorage
 {
@@ -679,7 +675,6 @@ result
 ;
 }
 }
-;
 function
 getDefaultOptions
 (

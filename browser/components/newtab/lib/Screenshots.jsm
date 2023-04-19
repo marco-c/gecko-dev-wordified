@@ -226,8 +226,7 @@ separatePrivilegedContentProcess
 false
 )
 ;
-this
-.
+const
 Screenshots
 =
 {

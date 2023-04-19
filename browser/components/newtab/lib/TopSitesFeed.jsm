@@ -1349,10 +1349,6 @@ false
 ;
 }
 }
-this
-.
-TopSitesFeed
-=
 class
 TopSitesFeed
 {
@@ -8440,7 +8436,6 @@ break
 }
 }
 }
-;
 this
 .
 DEFAULT_TOP_SITES

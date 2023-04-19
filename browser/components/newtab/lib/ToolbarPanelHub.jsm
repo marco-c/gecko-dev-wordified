@@ -3803,8 +3803,7 @@ messages
 .
 *
 /
-this
-.
+const
 ToolbarPanelHub
 =
 new

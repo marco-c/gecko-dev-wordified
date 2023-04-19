@@ -81,10 +81,6 @@ object
 .
 *
 /
-this
-.
-PersistentCache
-=
 class
 PersistentCache
 {
@@ -600,7 +596,6 @@ tmp
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

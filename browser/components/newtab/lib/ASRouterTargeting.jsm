@@ -3798,8 +3798,7 @@ get
 }
 }
 ;
-this
-.
+const
 ASRouterTargeting
 =
 {
@@ -4781,8 +4780,7 @@ CachedTargetingGetter
 =
 CachedTargetingGetter
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

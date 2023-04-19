@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-this
-.
-Dedupe
-=
 class
 Dedupe
 {
@@ -271,7 +267,6 @@ values
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

@@ -233,10 +233,6 @@ jsm
 }
 )
 ;
-this
-.
-PrefsFeed
-=
 class
 PrefsFeed
 {
@@ -1724,7 +1720,6 @@ break
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

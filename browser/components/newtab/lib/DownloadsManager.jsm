@@ -204,10 +204,6 @@ for
 downloads
 changed
 events
-this
-.
-DownloadsManager
-=
 class
 DownloadsManager
 {
@@ -1158,9 +1154,7 @@ break
 }
 }
 }
-;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

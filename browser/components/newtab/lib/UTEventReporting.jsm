@@ -144,10 +144,6 @@ action_position
 "
 ]
 ;
-this
-.
-UTEventReporting
-=
 class
 UTEventReporting
 {
@@ -395,7 +391,6 @@ false
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

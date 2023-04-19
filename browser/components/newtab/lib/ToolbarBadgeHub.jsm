@@ -1894,8 +1894,7 @@ messages
 .
 *
 /
-this
-.
+const
 ToolbarBadgeHub
 =
 new

@@ -209,10 +209,6 @@ contained
 in
 here
 .
-this
-.
-RecommendationProvider
-=
 class
 RecommendationProvider
 {
@@ -703,7 +699,6 @@ break
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

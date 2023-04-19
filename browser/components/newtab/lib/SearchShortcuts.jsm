@@ -241,8 +241,7 @@ not
 be
 added
 organically
-this
-.
+const
 CUSTOM_SEARCH_SHORTCUTS
 =
 [
@@ -388,8 +387,7 @@ using
 outside
 activity
 stream
-this
-.
+const
 SEARCH_SHORTCUTS_EXPERIMENT
 =
 "
@@ -398,8 +396,7 @@ improvesearch
 topSiteSearchShortcuts
 "
 ;
-this
-.
+const
 SEARCH_SHORTCUTS_SEARCH_ENGINES_PREF
 =
 "
@@ -410,8 +407,7 @@ topSiteSearchShortcuts
 searchEngines
 "
 ;
-this
-.
+const
 SEARCH_SHORTCUTS_HAVE_PINNED_PREF
 =
 "

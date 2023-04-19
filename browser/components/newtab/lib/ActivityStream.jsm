@@ -3427,10 +3427,6 @@ config
 )
 ;
 }
-this
-.
-ActivityStream
-=
 class
 ActivityStream
 {
@@ -4604,7 +4600,6 @@ break
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

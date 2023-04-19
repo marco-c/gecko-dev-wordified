@@ -433,10 +433,6 @@ RECENT_DOWNLOAD_THRESHOLD
 *
 1000
 ;
-this
-.
-HighlightsFeed
-=
 class
 HighlightsFeed
 {
@@ -2254,7 +2250,6 @@ break
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

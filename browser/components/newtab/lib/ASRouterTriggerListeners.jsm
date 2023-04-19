@@ -542,8 +542,7 @@ methods
 .
 *
 /
-this
-.
+const
 ASRouterTriggerListeners
 =
 new

@@ -677,8 +677,7 @@ com
 ]
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -693,8 +692,7 @@ Immutable
 for
 export
 .
-this
-.
+const
 DEFAULT_SITES
 =
 Object

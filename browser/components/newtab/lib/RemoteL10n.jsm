@@ -1217,8 +1217,7 @@ locale
 ;
 }
 }
-this
-.
+const
 RemoteL10n
 =
 new

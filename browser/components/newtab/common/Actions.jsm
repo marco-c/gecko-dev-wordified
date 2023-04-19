@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 MAIN_MESSAGE_TYPE
 =
 "
@@ -71,8 +70,7 @@ ActivityStream
 Main
 "
 ;
-this
-.
+const
 CONTENT_MESSAGE_TYPE
 =
 "
@@ -81,8 +79,7 @@ ActivityStream
 Content
 "
 ;
-this
-.
+const
 PRELOAD_MESSAGE_TYPE
 =
 "
@@ -91,14 +88,12 @@ ActivityStream
 PreloadedBrowser
 "
 ;
-this
-.
+const
 UI_CODE
 =
 1
 ;
-this
-.
+const
 BACKGROUND_PROCESS
 =
 2
@@ -1984,8 +1979,7 @@ actionTypes
 =
 actionTypes
 ;
-this
-.
+const
 actionCreators
 =
 {
@@ -2016,8 +2010,7 @@ certain
 kinds
 of
 actions
-this
-.
+const
 actionUtils
 =
 {

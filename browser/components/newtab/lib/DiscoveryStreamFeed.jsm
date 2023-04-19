@@ -604,10 +604,6 @@ override
 let
 getHardcodedLayout
 ;
-this
-.
-DiscoveryStreamFeed
-=
 class
 DiscoveryStreamFeed
 {
@@ -11457,7 +11453,6 @@ break
 }
 }
 }
-;
 /
 *
 This

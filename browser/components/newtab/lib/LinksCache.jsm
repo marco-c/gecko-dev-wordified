@@ -216,10 +216,6 @@ url
 .
 *
 /
-this
-.
-LinksCache
-=
 class
 LinksCache
 {
@@ -965,4 +961,3 @@ link
 ;
 }
 }
-;

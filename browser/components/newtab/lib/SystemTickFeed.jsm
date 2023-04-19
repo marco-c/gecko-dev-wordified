@@ -153,10 +153,6 @@ SYSTEM_TICK_INTERVAL
 *
 1000
 ;
-this
-.
-SystemTickFeed
-=
 class
 SystemTickFeed
 {
@@ -234,7 +230,6 @@ break
 }
 }
 }
-;
 this
 .
 SYSTEM_TICK_INTERVAL

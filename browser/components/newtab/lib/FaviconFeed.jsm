@@ -755,10 +755,6 @@ getSystemPrincipal
 }
 }
 }
-this
-.
-FaviconFeed
-=
 class
 FaviconFeed
 {
@@ -1188,7 +1184,6 @@ break
 }
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

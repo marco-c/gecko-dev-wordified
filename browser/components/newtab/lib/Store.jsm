@@ -258,10 +258,6 @@ store
 .
 *
 /
-this
-.
-Store
-=
 class
 Store
 {
@@ -1305,7 +1301,6 @@ destroyChannel
 ;
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

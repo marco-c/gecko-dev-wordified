@@ -884,10 +884,6 @@ _contextId
 }
 )
 ;
-this
-.
-TelemetryFeed
-=
 class
 TelemetryFeed
 {
@@ -7023,7 +7019,6 @@ unfinished
 sessions
 }
 }
-;
 const
 EXPORTED_SYMBOLS
 =

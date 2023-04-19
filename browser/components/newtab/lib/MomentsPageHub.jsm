@@ -989,8 +989,7 @@ messages
 .
 *
 /
-this
-.
+const
 MomentsPageHub
 =
 new
