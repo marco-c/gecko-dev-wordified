@@ -389,6 +389,7 @@ unregisterAll
 }
 )
 ;
+await
 registerObject
 (
 )
