@@ -13828,14 +13828,6 @@ lh
 IsNormal
 (
 )
-&
-&
-StaticPrefs
-:
-:
-layout_css_line_height_normal_as_resolved_value_enabled
-(
-)
 )
 {
 return
