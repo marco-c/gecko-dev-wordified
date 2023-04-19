@@ -167,7 +167,11 @@ EvaluateAdminConfigScript
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 sandbox
 const
 char
