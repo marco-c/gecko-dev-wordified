@@ -6626,12 +6626,6 @@ aSubject
 )
 ;
 }
-this
-.
-_notifyOfClosedObjectsChange
-(
-)
-;
 break
 ;
 }
