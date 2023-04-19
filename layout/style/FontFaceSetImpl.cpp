@@ -5914,7 +5914,7 @@ mBuffer
 aFontFace
 -
 >
-CreateBufferSource
+TakeBufferSource
 (
 )
 ;
