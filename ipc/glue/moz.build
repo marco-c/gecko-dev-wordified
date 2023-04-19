@@ -121,11 +121,6 @@ ipc
 =
 [
 "
-ActorHolder
-.
-h
-"
-"
 AsyncBlockers
 .
 h
@@ -367,6 +362,11 @@ h
 "
 "
 TaskFactory
+.
+h
+"
+"
+ToplevelActorHolder
 .
 h
 "

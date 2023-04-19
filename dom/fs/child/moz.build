@@ -109,6 +109,11 @@ UNIFIED_SOURCES
 =
 [
 "
+FileSystemChildFactory
+.
+cpp
+"
+"
 FileSystemRequestHandler
 .
 cpp
