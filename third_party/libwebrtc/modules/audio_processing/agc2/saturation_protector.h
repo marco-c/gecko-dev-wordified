@@ -146,8 +146,6 @@ ApmDataDumper
 apm_data_dumper
 float
 initial_saturation_margin_db
-float
-extra_saturation_margin_db
 )
 ;
 void
@@ -206,11 +204,15 @@ computed
 margin
 .
 float
-GetMarginDb
+margin_db
 (
 )
 const
+{
+return
+margin_db_
 ;
+}
 void
 DebugDumpEstimate
 (
@@ -348,10 +350,6 @@ Parameters
 const
 float
 initial_saturation_margin_db_
-;
-const
-float
-extra_saturation_margin_db_
 ;
 /
 /
