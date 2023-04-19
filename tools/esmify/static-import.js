@@ -258,10 +258,15 @@ jscodeshift
 inputFile
 path
 resourceURINode
+alwaysReplace
 )
 {
 if
 (
+!
+alwaysReplace
+&
+&
 !
 inputFile
 .
@@ -677,6 +682,7 @@ replaceImportESModuleCall
 inputFile
 jscodeshift
 path
+alwaysReplace
 )
 {
 if
@@ -746,6 +752,12 @@ string
 return
 ;
 }
+if
+(
+!
+alwaysReplace
+)
+{
 const
 resourceURI
 =
@@ -764,6 +776,7 @@ resourceURI
 {
 return
 ;
+}
 }
 /
 /
@@ -784,6 +797,7 @@ jscodeshift
 inputFile
 path
 resourceURINode
+alwaysReplace
 )
 ;
 }
