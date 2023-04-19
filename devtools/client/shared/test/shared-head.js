@@ -3078,7 +3078,7 @@ target
 >
 target
 .
-_onThreadInitialized
+initialized
 )
 )
 ;

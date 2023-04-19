@@ -252,10 +252,7 @@ t
 >
 t
 .
-attachAndInitThread
-(
-targetCommand
-)
+initialized
 )
 )
 ;
@@ -494,10 +491,7 @@ t
 >
 t
 .
-attachAndInitThread
-(
-targetCommand
-)
+initialized
 )
 )
 ;

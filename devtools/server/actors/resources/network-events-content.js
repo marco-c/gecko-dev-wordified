@@ -760,6 +760,16 @@ resource
 .
 resourceId
 {
+browsingContextID
+:
+resource
+.
+browsingContextID
+innerWindowId
+:
+resource
+.
+innerWindowId
 resourceId
 :
 resource
@@ -931,6 +941,8 @@ return
 }
 const
 {
+browsingContextID
+innerWindowId
 resourceId
 resourceType
 resourceUpdates
@@ -984,6 +996,8 @@ onUpdated
 (
 [
 {
+browsingContextID
+innerWindowId
 resourceType
 resourceId
 resourceUpdates
