@@ -282,6 +282,8 @@ column
 is
 missing
 .
+add_task
+(
 async
 function
 testSteps
@@ -630,3 +632,5 @@ thrown
 ;
 }
 }
+)
+;

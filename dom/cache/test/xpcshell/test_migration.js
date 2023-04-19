@@ -75,6 +75,8 @@ legofenris
 .
 *
 /
+add_task
+(
 async
 function
 testSteps
@@ -502,3 +504,5 @@ header
 ;
 }
 }
+)
+;

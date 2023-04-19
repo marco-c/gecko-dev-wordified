@@ -111,6 +111,8 @@ test
 )
 ;
 }
+add_task
+(
 async
 function
 testSteps
@@ -512,3 +514,5 @@ test
 )
 ;
 }
+)
+;

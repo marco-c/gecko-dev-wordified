@@ -1541,14 +1541,6 @@ size
 "
 dom
 /
-cache
-/
-*
-*
-"
-"
-dom
-/
 indexedDB
 /
 *
