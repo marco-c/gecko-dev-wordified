@@ -37926,6 +37926,16 @@ testingOrigins
 PREF_LIST_ENTRY
 (
 "
+capability
+.
+policy
+.
+policynames
+"
+)
+PREF_LIST_ENTRY
+(
+"
 dom
 .
 securecontext
