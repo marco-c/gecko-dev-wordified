@@ -705,6 +705,17 @@ media
 .
 lastDownloadFailed
 "
+KEY_PLUGIN_LAST_DOWNLOAD_FAIL_REASON
+:
+"
+media
+.
+{
+0
+}
+.
+lastDownloadFailReason
+"
 KEY_PLUGIN_LAST_INSTALL_FAILED
 :
 "
