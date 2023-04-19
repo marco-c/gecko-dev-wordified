@@ -2771,8 +2771,27 @@ if
 args
 .
 collect_perfstats
+and
+"
+chrom
+"
+not
+in
+args
+.
+app
+.
+lower
+(
+)
 :
         
+for
+next_test
+in
+tests_to_run
+:
+            
 next_test
 [
 "
