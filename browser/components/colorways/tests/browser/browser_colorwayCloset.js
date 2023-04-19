@@ -167,9 +167,7 @@ collection
 -
 expiry
 -
-date
--
-span
+label
 "
 ;
 const
