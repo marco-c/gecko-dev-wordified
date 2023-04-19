@@ -121,6 +121,9 @@ Window
 interface
 XSLTProcessor
 {
+[
+UseCounter
+]
 constructor
 (
 )
