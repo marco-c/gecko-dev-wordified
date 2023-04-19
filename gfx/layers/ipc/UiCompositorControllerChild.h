@@ -539,17 +539,6 @@ Surface
 :
 Param
 aSurface
-java
-:
-:
-sdk
-:
-:
-SurfaceControl
-:
-:
-Param
-aSurfaceControl
 )
 ;
 #

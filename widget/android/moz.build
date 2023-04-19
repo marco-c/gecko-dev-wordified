@@ -322,6 +322,9 @@ SpeechSynthesisService
 SurfaceAllocator
 "
 "
+SurfaceControlManager
+"
+"
 SurfaceTextureListener
 "
 "
