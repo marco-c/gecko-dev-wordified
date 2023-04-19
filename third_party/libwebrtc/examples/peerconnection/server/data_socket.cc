@@ -285,11 +285,6 @@ Headers
 Content
 -
 Length
-X
--
-Peer
--
-Id
 \
 r
 \
