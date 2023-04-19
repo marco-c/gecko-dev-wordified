@@ -12824,16 +12824,6 @@ inst_
 )
 ;
 static
-uint8_t
-*
-BailoutTableStart
-(
-uint8_t
-*
-code
-)
-;
-static
 size_t
 ToggledCallSize
 (
