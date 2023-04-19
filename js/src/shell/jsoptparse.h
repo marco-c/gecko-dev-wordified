@@ -1397,13 +1397,6 @@ argument
 int
 restArgument
 ;
-static
-const
-char
-prognameMeta
-[
-]
-;
 Option
 *
 findOption
