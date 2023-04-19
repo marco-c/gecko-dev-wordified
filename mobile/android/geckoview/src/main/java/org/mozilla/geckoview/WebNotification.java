@@ -1451,7 +1451,8 @@ dest
 .
 writeString
 (
-null
+"
+"
 )
 ;
 }
