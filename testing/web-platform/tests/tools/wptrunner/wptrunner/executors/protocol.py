@@ -2292,6 +2292,15 @@ actions
 "
         
 pass
+    
+def
+release
+(
+self
+)
+:
+        
+pass
 class
 TestDriverProtocolPart
 (
