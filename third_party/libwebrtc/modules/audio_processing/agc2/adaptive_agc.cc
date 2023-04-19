@@ -342,7 +342,7 @@ input_level_dbfs
 =
 speech_level_estimator_
 .
-GetLevelDbfs
+level_dbfs
 (
 )
 ;
