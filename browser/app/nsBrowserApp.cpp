@@ -1574,7 +1574,6 @@ private
 -
 window
 "
-nullptr
 }
 ;
 EnsureCommandlineSafe
