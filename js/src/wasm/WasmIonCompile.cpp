@@ -36491,6 +36491,11 @@ f
 funcIndex
 (
 )
+f
+.
+locals
+(
+)
 )
 )
 {
