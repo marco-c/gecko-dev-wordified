@@ -1269,8 +1269,6 @@ loading
 activity
 :
 await
-PerfTestHelpers
-.
 throttledMapPromises
 (
 uris

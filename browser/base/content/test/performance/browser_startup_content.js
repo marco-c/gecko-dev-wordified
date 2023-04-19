@@ -1250,7 +1250,6 @@ uri
 "
 ;
 }
-await
 checkLoadedScripts
 (
 {

@@ -1026,7 +1026,6 @@ uri
 "
 ;
 }
-await
 checkLoadedScripts
 (
 {
