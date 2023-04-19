@@ -119,7 +119,7 @@ dom
 =
 [
 "
-ScriptLoadInfo
+WorkerLoadContext
 .
 h
 "
@@ -169,12 +169,12 @@ NetworkLoadHandler
 cpp
 "
 "
-ScriptLoadInfo
+ScriptResponseHeaderProcessor
 .
 cpp
 "
 "
-ScriptResponseHeaderProcessor
+WorkerLoadContext
 .
 cpp
 "

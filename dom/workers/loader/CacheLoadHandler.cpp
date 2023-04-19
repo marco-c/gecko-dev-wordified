@@ -134,7 +134,7 @@ ScriptResponseHeaderProcessor
 #
 include
 "
-ScriptLoadInfo
+WorkerLoadContext
 .
 h
 "

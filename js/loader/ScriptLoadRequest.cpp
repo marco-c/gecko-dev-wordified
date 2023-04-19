@@ -157,7 +157,7 @@ mozilla
 /
 dom
 /
-ScriptLoadInfo
+WorkerLoadContext
 .
 h
 "

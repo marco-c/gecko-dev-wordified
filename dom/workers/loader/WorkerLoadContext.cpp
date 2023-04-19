@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-ScriptLoadInfo
+WorkerLoadContext
 .
 h
 "
