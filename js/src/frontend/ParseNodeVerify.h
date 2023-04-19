@@ -133,6 +133,9 @@ namespace
 js
 {
 class
+ErrorContext
+;
+class
 LifoAlloc
 ;
 namespace
@@ -224,6 +227,9 @@ CheckParseTree
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const
@@ -249,6 +255,9 @@ CheckParseTree
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const
@@ -278,6 +287,9 @@ CheckParseTree
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const

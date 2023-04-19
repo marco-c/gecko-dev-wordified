@@ -152,6 +152,9 @@ AutoCheckRecursionLimit
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -423,6 +426,10 @@ JSContext
 *
 cx_
 ;
+ErrorContext
+*
+ec_
+;
 uintptr_t
 stackLimit_
 ;
@@ -431,6 +438,9 @@ ParseNodeVisitor
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 )
@@ -438,6 +448,10 @@ stackLimit
 cx_
 (
 cx
+)
+ec_
+(
+ec
 )
 stackLimit_
 (
@@ -471,7 +485,7 @@ recursion
 .
 check
 (
-cx_
+ec_
 stackLimit_
 )
 )
@@ -756,6 +770,10 @@ JSContext
 *
 cx_
 ;
+ErrorContext
+*
+ec_
+;
 uintptr_t
 stackLimit_
 ;
@@ -764,6 +782,9 @@ RewritingParseNodeVisitor
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 )
@@ -771,6 +792,10 @@ stackLimit
 cx_
 (
 cx
+)
+ec_
+(
+ec
 )
 stackLimit_
 (
@@ -805,7 +830,7 @@ recursion
 .
 check
 (
-cx_
+ec_
 stackLimit_
 )
 )

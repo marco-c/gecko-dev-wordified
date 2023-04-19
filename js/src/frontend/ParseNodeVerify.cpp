@@ -168,6 +168,9 @@ ParseNodeVerifier
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const
@@ -179,6 +182,7 @@ alloc
 Base
 (
 cx
+ec
 stackLimit
 )
 alloc_
@@ -337,6 +341,9 @@ CheckParseTree
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const
@@ -352,6 +359,7 @@ ParseNodeVerifier
 verifier
 (
 cx
+ec
 stackLimit
 alloc
 )

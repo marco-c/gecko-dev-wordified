@@ -126,6 +126,9 @@ h
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -297,6 +300,9 @@ FoldConstants
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable
@@ -323,6 +329,9 @@ FoldConstants
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 ParserAtomsTable
