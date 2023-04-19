@@ -420,7 +420,7 @@ nsAString
 aContentDispositionFilename
 )
 ;
-void
+bool
 Init
 (
 const
