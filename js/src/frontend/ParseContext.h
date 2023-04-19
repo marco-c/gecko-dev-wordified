@@ -2104,17 +2104,6 @@ private
 :
 /
 /
-Trace
-logging
-of
-parsing
-time
-.
-AutoFrontendTraceLog
-traceLog_
-;
-/
-/
 Context
 shared
 between
