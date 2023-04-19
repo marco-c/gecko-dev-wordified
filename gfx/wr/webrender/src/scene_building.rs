@@ -18548,6 +18548,12 @@ clip_chain_id
 }
 else
 {
+let
+mut
+clip_roots
+=
+1
+;
 self
 .
 clip_store
@@ -18576,6 +18582,11 @@ clip_id
 true
 )
 ;
+clip_roots
++
+=
+1
+;
 }
 let
 filtered_clip_chain_id
@@ -18589,6 +18600,14 @@ get_or_build_clip_chain_id
 clip_id
 )
 ;
+for
+_
+in
+0
+.
+.
+clip_roots
+{
 self
 .
 clip_store
@@ -18597,6 +18616,7 @@ pop_clip_root
 (
 )
 ;
+}
 filtered_clip_chain_id
 }
 ;
