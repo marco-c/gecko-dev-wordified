@@ -4864,7 +4864,6 @@ Number
 !
 NumberValueToStringBuffer
 (
-cx
 NumberValue
 (
 d
@@ -11222,9 +11221,6 @@ js
 :
 NumberValueToStringBuffer
 (
-JSContext
-*
-cx
 const
 Value
 &

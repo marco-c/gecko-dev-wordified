@@ -1155,7 +1155,6 @@ isNumber
 return
 NumberValueToStringBuffer
 (
-cx
 v
 sb
 )

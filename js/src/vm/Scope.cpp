@@ -4643,8 +4643,7 @@ if
 !
 NumberValueToStringBuffer
 (
-cx
-Int32Value
+NumberValue
 (
 index
 )

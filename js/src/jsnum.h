@@ -506,9 +506,6 @@ extern
 bool
 NumberValueToStringBuffer
 (
-JSContext
-*
-cx
 const
 Value
 &
