@@ -13492,10 +13492,11 @@ len
 (
 objs
 )
-3
+4
 )
         
 ldflags
+host_cflags
 lib
 cflags
 =
@@ -13514,6 +13515,14 @@ self
 assertIsInstance
 (
 cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_cflags
 ComputedFlags
 )
         
@@ -13720,10 +13729,11 @@ len
 (
 objs
 )
-3
+4
 )
         
 ldflags
+host_cflags
 lib
 cflags
 =
@@ -13742,6 +13752,14 @@ self
 assertIsInstance
 (
 cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_cflags
 ComputedFlags
 )
         
@@ -14215,10 +14233,11 @@ len
 (
 objs
 )
-3
+4
 )
         
 ldflags
+host_cflags
 cflags
 prog
 =
@@ -14237,6 +14256,14 @@ self
 assertIsInstance
 (
 cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_cflags
 ComputedFlags
 )
         
@@ -14473,10 +14500,11 @@ len
 (
 objs
 )
-3
+4
 )
         
 ldflags
+host_cflags
 lib
 cflags
 =
@@ -14495,6 +14523,14 @@ self
 assertIsInstance
 (
 cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_cflags
 ComputedFlags
 )
         
@@ -14606,10 +14642,11 @@ len
 (
 objs
 )
-3
+4
 )
         
 ldflags
+host_cflags
 lib
 cflags
 =
@@ -14628,6 +14665,14 @@ self
 assertIsInstance
 (
 cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_cflags
 ComputedFlags
 )
         
