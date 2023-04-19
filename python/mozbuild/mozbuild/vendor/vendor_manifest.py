@@ -122,11 +122,17 @@ DEFAULT_KEEP_FILES
 =
 [
 "
+*
+*
+/
 moz
 .
 build
 "
 "
+*
+*
+/
 moz
 .
 yaml
