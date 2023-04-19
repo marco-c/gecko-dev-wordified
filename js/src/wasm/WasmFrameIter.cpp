@@ -3067,6 +3067,13 @@ PoppedFP
 =
 4
 ;
+static
+const
+unsigned
+PoppedFPJitEntry
+=
+0
+;
 #
 elif
 defined
