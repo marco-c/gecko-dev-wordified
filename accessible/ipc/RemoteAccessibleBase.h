@@ -1121,11 +1121,13 @@ Bounds
 const
 override
 ;
+virtual
 nsRect
-GetBoundsInAppUnits
+BoundsInAppUnits
 (
 )
 const
+override
 ;
 virtual
 uint64_t
