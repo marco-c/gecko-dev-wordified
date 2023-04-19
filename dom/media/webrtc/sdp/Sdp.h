@@ -801,6 +801,16 @@ Sdp
 default
 ;
 virtual
+Sdp
+*
+Clone
+(
+)
+const
+=
+0
+;
+virtual
 const
 SdpOrigin
 &

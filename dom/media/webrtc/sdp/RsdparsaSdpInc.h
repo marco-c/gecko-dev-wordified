@@ -1068,6 +1068,16 @@ RustSdpSession
 aSess
 )
 ;
+RustSdpSession
+*
+create_sdp_clone
+(
+const
+RustSdpSession
+*
+aSess
+)
+;
 void
 sdp_free_session
 (
