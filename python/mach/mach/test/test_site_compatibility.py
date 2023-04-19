@@ -973,13 +973,44 @@ sys
 .
 executable
             
+str
+(
+                
+Path
+(
+topsrcdir
+)
+                
+/
 "
--
-m
+third_party
+"
+                
+/
+"
+python
+"
+                
+/
+"
+virtualenv
+"
+                
+/
+"
+virtualenv
+.
+py
 "
             
+)
+            
 "
-venv
+-
+-
+no
+-
+download
 "
             
 str
