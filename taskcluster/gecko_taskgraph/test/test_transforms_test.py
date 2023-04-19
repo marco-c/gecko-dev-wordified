@@ -245,6 +245,14 @@ bar
 "
                 
 "
+expiration
+"
+:
+"
+never
+"
+                
+"
 merge
 "
 :
@@ -312,6 +320,14 @@ component
 "
 foo
 bar
+"
+                
+"
+expiration
+"
+:
+"
+never
 "
                 
 "
