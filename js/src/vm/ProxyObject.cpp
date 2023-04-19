@@ -209,6 +209,8 @@ const
 Value
 &
 priv
+bool
+withInlineValues
 )
 {
 MOZ_ASSERT
@@ -277,6 +279,15 @@ nreserved
 uint32_t
 nslots
 =
+0
+;
+if
+(
+withInlineValues
+)
+{
+nslots
+=
 detail
 :
 :
@@ -288,6 +299,7 @@ allocCount
 nreserved
 )
 ;
+}
 MOZ_ASSERT
 (
 nslots
@@ -617,6 +629,13 @@ GetProxyGCObjectKind
 clasp
 handler
 priv
+/
+*
+withInlineValues
+=
+*
+/
+true
 )
 ;
 Realm
@@ -953,6 +972,9 @@ data
 .
 handler
 priv
+usingInlineValueArray
+(
+)
 )
 ;
 }

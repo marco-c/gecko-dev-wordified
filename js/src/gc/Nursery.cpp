@@ -4212,6 +4212,15 @@ cell
 )
 )
 {
+MOZ_ASSERT
+(
+!
+isInside
+(
+oldBuffer
+)
+)
+;
 return
 zone
 -
