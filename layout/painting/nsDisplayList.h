@@ -10061,7 +10061,7 @@ class
 nsDisplayBackgroundImage
 ;
 friend
-struct
+class
 RetainedDisplayListBuilder
 ;
 /
@@ -31901,11 +31901,6 @@ nsIFrame
 aFrame
 )
 override
-;
-void
-Disown
-(
-)
 ;
 protected
 :
