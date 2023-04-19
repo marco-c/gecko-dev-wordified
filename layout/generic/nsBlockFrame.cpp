@@ -8988,11 +8988,10 @@ aReflowInput
 mutableReflowInput
 -
 >
-AvailableBSize
+SetAvailableBSize
 (
-)
-=
 NS_UNCONSTRAINEDSIZE
+)
 ;
 reflowInput
 =

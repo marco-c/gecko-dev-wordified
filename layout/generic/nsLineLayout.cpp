@@ -6010,11 +6010,10 @@ NS_UNCONSTRAINEDSIZE
 {
 reflowInput
 .
-AvailableISize
+SetAvailableISize
 (
-)
-=
 availableSpaceOnLine
+)
 ;
 }
 pfd
@@ -8605,11 +8604,14 @@ GetWritingMode
 ;
 aReflowInput
 .
+SetAvailableISize
+(
+aReflowInput
+.
 AvailableISize
 (
 )
 -
-=
 pfd
 -
 >
@@ -8624,6 +8626,7 @@ lineWM
 IStart
 (
 wm
+)
 )
 ;
 }
