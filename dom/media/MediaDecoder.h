@@ -337,7 +337,7 @@ class
 MediaFormatReader
 ;
 class
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 ;
 struct
 MediaPlaybackEvent
@@ -1897,7 +1897,7 @@ aLoadInBackground
 )
 {
 }
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 GetStateMachine
 (
@@ -1907,7 +1907,7 @@ const
 void
 SetStateMachine
 (
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 aStateMachine
 )
@@ -3322,7 +3322,7 @@ FinishShutdown
 void
 ConnectMirrors
 (
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 aObject
 )
@@ -3421,7 +3421,7 @@ accessors
 .
 RefPtr
 <
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 >
 mDecoderStateMachine
 ;

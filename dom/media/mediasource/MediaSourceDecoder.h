@@ -151,7 +151,7 @@ namespace
 mozilla
 {
 class
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 ;
 class
 MediaSourceDemuxer
@@ -436,7 +436,7 @@ NotifyDataArrived
 ;
 private
 :
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 CreateStateMachine
 (
