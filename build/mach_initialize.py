@@ -3443,6 +3443,23 @@ mach_commands
 py
 "
 )
+        
+"
+xpcshell
+"
+:
+MachCommandReference
+(
+"
+js
+/
+xpconnect
+/
+mach_commands
+.
+py
+"
+)
     
 }
     
