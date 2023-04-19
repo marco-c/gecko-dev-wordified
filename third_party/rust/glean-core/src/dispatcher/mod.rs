@@ -441,6 +441,7 @@ derive
 Error
 Debug
 PartialEq
+Eq
 )
 ]
 pub

@@ -913,7 +913,6 @@ types
 :
 :
 {
-IterTypes
 Type
 TypeIterator
 }
@@ -1154,12 +1153,7 @@ self
 .
 flat
 }
-}
-impl
-IterTypes
-for
-Enum
-{
+pub
 fn
 iter_types
 (
@@ -1189,7 +1183,7 @@ iter
 .
 flat_map
 (
-IterTypes
+Variant
 :
 :
 iter_types
@@ -1719,12 +1713,7 @@ is_empty
 (
 )
 }
-}
-impl
-IterTypes
-for
-Variant
-{
+pub
 fn
 iter_types
 (
@@ -1754,7 +1743,7 @@ iter
 .
 flat_map
 (
-IterTypes
+Field
 :
 :
 iter_types
@@ -2455,7 +2444,7 @@ assert_eq
 (
 ci
 .
-iter_enum_definitions
+enum_definitions
 (
 )
 .
@@ -2617,7 +2606,7 @@ assert_eq
 (
 ci
 .
-iter_enum_definitions
+enum_definitions
 (
 )
 .
@@ -2632,7 +2621,7 @@ assert_eq
 (
 ci
 .
-iter_function_definitions
+function_definitions
 (
 )
 .
