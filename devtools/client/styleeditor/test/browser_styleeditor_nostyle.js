@@ -77,7 +77,6 @@ function
 const
 {
 panel
-ui
 }
 =
 await
@@ -96,9 +95,10 @@ panel
 ok
 (
 !
-ui
-.
-_root
+getRootElement
+(
+panel
+)
 .
 classList
 .
@@ -127,9 +127,10 @@ anymore
 ;
 ok
 (
-ui
-.
-_root
+getRootElement
+(
+panel
+)
 .
 querySelector
 (

@@ -189,9 +189,6 @@ styleeditor
 const
 {
 panelWindow
-UI
-:
-ui
 }
 =
 panel
@@ -199,9 +196,10 @@ panel
 ok
 (
 !
-ui
-.
-_root
+getRootElement
+(
+panel
+)
 .
 classList
 .
