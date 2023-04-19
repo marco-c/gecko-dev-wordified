@@ -9918,6 +9918,7 @@ DatabaseInfo
 &
 aDatabaseInfo
 )
+const
 ;
 bool
 CloseDatabaseWhenIdleInternal
@@ -19383,6 +19384,7 @@ DatabaseConnection
 *
 aConnection
 )
+const
 ;
 bool
 Init
@@ -19586,6 +19588,7 @@ IndexDataValue
 &
 aIndexValues
 )
+const
 ;
 nsresult
 DoDatabaseWork
@@ -47051,6 +47054,7 @@ DatabaseInfo
 &
 aDatabaseInfo
 )
+const
 {
 AssertIsOnOwningThread
 (
@@ -68107,6 +68111,7 @@ nsIFile
 &
 aJournalFile
 )
+const
 {
 QuotaManager
 *
@@ -101309,6 +101314,7 @@ DatabaseConnection
 *
 aConnection
 )
+const
 {
 MOZ_ASSERT
 (
@@ -103185,6 +103191,7 @@ IndexDataValue
 &
 aIndexValues
 )
+const
 {
 MOZ_ASSERT
 (
