@@ -794,12 +794,7 @@ ToolboxTask
 .
 spawn
 (
-JSON
-.
-stringify
-(
 selectors
-)
 async
 _selectors
 =
