@@ -440,17 +440,6 @@ e10s
 "
 ]
             
-"
-disable_fission
-"
-:
-kwargs
-[
-"
-disable_fission
-"
-]
-            
 #
 desktop
 only
@@ -816,7 +805,7 @@ config
 test_type
 extra_prefs
                  
-disable_fission
+enable_fission
 debug_test
 browser_channel
 certutil_binary
@@ -837,7 +826,7 @@ test_type
 extra_prefs
                          
 True
-disable_fission
+enable_fission
 debug_test
 browser_channel
 None
@@ -1045,42 +1034,6 @@ True
             
 }
 )
-        
-profile
-.
-set_preferences
-(
-{
-"
-fission
-.
-autostart
-"
-:
-True
-}
-)
-        
-if
-self
-.
-disable_fission
-:
-            
-profile
-.
-set_preferences
-(
-{
-"
-fission
-.
-autostart
-"
-:
-False
-}
-)
 class
 FirefoxAndroidBrowser
 (
@@ -1187,9 +1140,6 @@ adb_binary
 None
                  
 debug_test
-=
-False
-disable_fission
 =
 False
 *
@@ -1347,12 +1297,6 @@ adb_binary
         
 self
 .
-disable_fission
-=
-disable_fission
-        
-self
-.
 profile_creator
 =
 ProfileCreator
@@ -1367,7 +1311,7 @@ test_type
                                               
 extra_prefs
                                               
-disable_fission
+False
                                               
 debug_test
                                               
@@ -2352,7 +2296,7 @@ e10s
 =
 False
                  
-disable_fission
+enable_fission
 =
 False
 stackfix_dir
@@ -2444,9 +2388,9 @@ e10s
 =
 e10s
                          
-disable_fission
+enable_fission
 =
-disable_fission
+enable_fission
 stackfix_dir
 =
 stackfix_dir

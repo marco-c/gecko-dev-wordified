@@ -1252,24 +1252,6 @@ runjunit
 import
 run_test_harness
     
-#
-Force
-fission
-disabled
-by
-default
-for
-android
-    
-args
-[
-"
-disable_fission
-"
-]
-=
-True
-    
 logger
 .
 info

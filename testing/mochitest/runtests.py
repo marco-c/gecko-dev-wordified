@@ -23388,6 +23388,19 @@ options
 extraPrefs
 )
         
+if
+"
+fission
+.
+autostart
+"
+not
+in
+self
+.
+extraPrefs
+:
+            
 self
 .
 extraPrefs
@@ -23399,10 +23412,9 @@ autostart
 "
 ]
 =
-not
 options
 .
-disable_fission
+fission
         
 #
 for
@@ -23438,10 +23450,19 @@ e10s
 fission
 "
 :
-not
-options
+self
 .
-disable_fission
+extraPrefs
+.
+get
+(
+"
+fission
+.
+autostart
+"
+True
+)
                 
 "
 headless
@@ -26386,7 +26407,7 @@ get
 "
 fission
 "
-True
+False
 )
                     
 )
