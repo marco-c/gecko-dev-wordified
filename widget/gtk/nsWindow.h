@@ -4816,7 +4816,7 @@ RemovePopupFromHierarchyList
 )
 ;
 void
-ShowWaylandWindow
+ShowWaylandPopupWindow
 (
 )
 ;
@@ -4827,6 +4827,11 @@ bool
 aTemporaryHidden
 bool
 aRemoveFromPopupList
+)
+;
+void
+ShowWaylandToplevelWindow
+(
 )
 ;
 void
