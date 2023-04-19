@@ -294,7 +294,14 @@ heap
 js
 :
 :
-HandleShape
+Handle
+<
+js
+:
+:
+Shape
+*
+>
 shape
 )
 {

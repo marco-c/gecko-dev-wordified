@@ -1813,7 +1813,11 @@ ObjectFlag
 Indexed
 }
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx
@@ -2115,7 +2119,11 @@ return
 nullptr
 ;
 }
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

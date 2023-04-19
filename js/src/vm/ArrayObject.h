@@ -336,7 +336,11 @@ gc
 :
 InitialHeap
 heap
-HandleShape
+Handle
+<
+Shape
+*
+>
 shape
 uint32_t
 length

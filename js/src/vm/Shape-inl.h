@@ -327,7 +327,11 @@ to
 simplify
 insertInitialShape
 .
-RootedShape
+Rooted
+<
+Shape
+*
+>
 emptyShape
 (
 cx
@@ -350,7 +354,11 @@ assigned
 do
 so
 .
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

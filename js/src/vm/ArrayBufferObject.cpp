@@ -8640,7 +8640,11 @@ NativeObject
 MAX_FIXED_SLOTS
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

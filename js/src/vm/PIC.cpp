@@ -1126,7 +1126,11 @@ stub
 to
 add
 .
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

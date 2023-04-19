@@ -8230,7 +8230,11 @@ cross
 zone
 shapes
 .
-GCPtrShape
+GCPtr
+<
+Shape
+*
+>
 &
 shapeField
 =
@@ -28361,7 +28365,11 @@ JSContext
 *
 HandleNativeObject
 HandleValue
-HandleShape
+Handle
+<
+Shape
+*
+>
 )
 ;
 callvm

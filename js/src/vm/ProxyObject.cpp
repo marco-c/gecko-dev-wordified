@@ -667,7 +667,11 @@ in
 the
 NewProxyCache
 .
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

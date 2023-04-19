@@ -19452,7 +19452,11 @@ JSObject
 (
 JSContext
 *
-HandleShape
+Handle
+<
+Shape
+*
+>
 gc
 :
 :

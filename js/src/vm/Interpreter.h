@@ -4341,7 +4341,11 @@ NewPlainObjectBaselineFallback
 JSContext
 *
 cx
-HandleShape
+Handle
+<
+Shape
+*
+>
 shape
 gc
 :
@@ -4363,7 +4367,11 @@ NewPlainObjectOptimizedFallback
 JSContext
 *
 cx
-HandleShape
+Handle
+<
+Shape
+*
+>
 shape
 gc
 :

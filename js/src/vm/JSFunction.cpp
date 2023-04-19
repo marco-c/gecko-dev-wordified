@@ -12323,7 +12323,11 @@ FunctionClassForAllocKind
 allocKind
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx
@@ -13051,7 +13055,11 @@ exposed
 to
 script
 .
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

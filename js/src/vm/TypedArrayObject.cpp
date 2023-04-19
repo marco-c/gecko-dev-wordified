@@ -2446,7 +2446,11 @@ TypedArrayObject
 FIXED_DATA_START
 )
 ;
-RootedShape
+Rooted
+<
+Shape
+*
+>
 shape
 (
 cx

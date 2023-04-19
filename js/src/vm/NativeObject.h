@@ -4826,7 +4826,11 @@ gc
 :
 InitialHeap
 heap
-HandleShape
+Handle
+<
+Shape
+*
+>
 shape
 gc
 :
@@ -12240,7 +12244,11 @@ HandleNativeObject
 obj
 HandleValue
 v
-HandleShape
+Handle
+<
+Shape
+*
+>
 newShape
 )
 ;

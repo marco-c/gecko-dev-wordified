@@ -2867,7 +2867,11 @@ heap
 js
 :
 :
-HandleShape
+Handle
+<
+Shape
+*
+>
 shape
 js
 :

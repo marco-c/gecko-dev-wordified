@@ -881,7 +881,11 @@ the
 canonical
 value
 .
-GCPtrShape
+GCPtr
+<
+Shape
+*
+>
 arrayProtoShape_
 ;
 uint32_t
@@ -911,7 +915,11 @@ the
 canonical
 value
 .
-GCPtrShape
+GCPtr
+<
+Shape
+*
+>
 arrayIteratorProtoShape_
 ;
 uint32_t
