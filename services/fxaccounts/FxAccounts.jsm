@@ -674,15 +674,8 @@ actually
 be
 rejected
 .
-var
-AccountState
-=
-(
-this
-.
-AccountState
-=
 function
+AccountState
 (
 storageManager
 )
@@ -784,8 +777,6 @@ here
 )
 ;
 }
-)
-;
 AccountState
 .
 prototype
