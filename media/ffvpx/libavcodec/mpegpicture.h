@@ -203,10 +203,14 @@ h
 #
 include
 "
-thread
+threadframe
 .
 h
 "
+#
+define
+MPEGVIDEO_MAX_PLANES
+4
 #
 define
 MAX_PICTURE_COUNT
@@ -547,7 +551,7 @@ shared
 uint64_t
 encoding_error
 [
-AV_NUM_DATA_POINTERS
+MPEGVIDEO_MAX_PLANES
 ]
 ;
 }
@@ -663,8 +667,11 @@ picture
 )
 ;
 void
-ff_free_picture_tables
+ff_mpv_picture_free
 (
+AVCodecContext
+*
+avctx
 Picture
 *
 pic
@@ -676,6 +683,7 @@ ff_update_picture_tables
 Picture
 *
 dst
+const
 Picture
 *
 src

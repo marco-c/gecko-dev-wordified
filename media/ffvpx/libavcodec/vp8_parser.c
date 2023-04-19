@@ -448,6 +448,7 @@ return
 buf_size
 ;
 }
+const
 AVCodecParser
 ff_vp8_parser
 =

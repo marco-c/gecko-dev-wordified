@@ -456,14 +456,14 @@ h
 #
 include
 "
-attributes
+config
 .
 h
 "
 #
 include
 "
-common
+attributes
 .
 h
 "

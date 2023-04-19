@@ -190,15 +190,6 @@ include
 "
 libavutil
 /
-imgutils
-.
-h
-"
-#
-include
-"
-libavutil
-/
 imgutils_internal
 .
 h
@@ -208,7 +199,7 @@ include
 "
 libavutil
 /
-internal
+macros
 .
 h
 "

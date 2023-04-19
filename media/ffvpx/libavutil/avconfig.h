@@ -2,7 +2,8 @@
 *
 Generated
 by
-ffconf
+ffmpeg
+configure
 *
 /
 #

@@ -211,14 +211,7 @@ h
 #
 include
 "
-avcodec
-.
-h
-"
-#
-include
-"
-internal
+threadframe
 .
 h
 "
