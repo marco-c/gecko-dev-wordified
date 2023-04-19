@@ -1099,7 +1099,7 @@ ImgDrawResult
 SUCCESS
 ;
 }
-gfxSize
+MatrixScalesDouble
 scale
 (
 double
@@ -1140,14 +1140,14 @@ Scale
 /
 scale
 .
-width
+xScale
 1
 .
 0
 /
 scale
 .
-height
+yScale
 )
 ;
 gfxContextMatrixAutoSaveRestore
@@ -1167,11 +1167,6 @@ gfxMatrix
 Scaling
 (
 scale
-.
-width
-scale
-.
-height
 )
 )
 ;

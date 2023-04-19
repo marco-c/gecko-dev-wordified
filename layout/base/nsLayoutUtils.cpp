@@ -41645,7 +41645,7 @@ gfxRect
 aTo
 )
 {
-gfxSize
+MatrixScalesDouble
 scale
 (
 aTo
@@ -41677,7 +41677,7 @@ x
 *
 scale
 .
-width
+xScale
 aTo
 .
 y
@@ -41688,7 +41688,7 @@ y
 *
 scale
 .
-height
+yScale
 )
 ;
 return
@@ -41696,12 +41696,12 @@ gfxMatrix
 (
 scale
 .
-width
+xScale
 0
 0
 scale
 .
-height
+yScale
 translation
 .
 x
