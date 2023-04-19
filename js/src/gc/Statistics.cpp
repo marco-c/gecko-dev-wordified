@@ -10555,6 +10555,7 @@ States
 "
 "
 FSNR
+SizeKB
 budget
 total
 bgwrk
@@ -10784,6 +10785,20 @@ isFullCollection
 (
 )
 ;
+size_t
+sizeKB
+=
+gc
+-
+>
+heapSize
+.
+bytes
+(
+)
+/
+1024
+;
 FILE
 *
 file
@@ -10825,6 +10840,8 @@ MajorGC
 1s
 %
 1s
+%
+6zu
 "
 size_t
 (
@@ -10891,6 +10908,7 @@ R
 :
 "
 "
+sizeKB
 )
 ;
 if
