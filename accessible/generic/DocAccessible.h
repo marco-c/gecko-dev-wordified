@@ -402,16 +402,6 @@ const
 override
 ;
 virtual
-already_AddRefed
-<
-AccAttributes
->
-Attributes
-(
-)
-override
-;
-virtual
 void
 TakeFocus
 (
