@@ -2311,9 +2311,9 @@ fragment_length
 if
 (
 rv
+!
 =
-=
-SECFailure
+SECSuccess
 )
 {
 goto
@@ -3135,9 +3135,9 @@ fragment_length
 if
 (
 rv
+!
 =
-=
-SECFailure
+SECSuccess
 )
 {
 goto
