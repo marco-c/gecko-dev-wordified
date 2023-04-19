@@ -9182,10 +9182,7 @@ browser
 it
 is
 visible
-gfx
-:
-:
-Size
+MatrixScales
 scale
 =
 aSc
@@ -9243,14 +9240,7 @@ EffectsInfo
 VisibleWithinRect
 (
 visibleRect
-{
 scale
-.
-width
-scale
-.
-height
-}
 transformToAncestorScale
 )
 )

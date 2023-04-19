@@ -1590,7 +1590,7 @@ mBuildingRect
 gfx
 :
 :
-Size
+MatrixScales
 mScale
 ;
 float
@@ -2153,7 +2153,7 @@ mMaskStyle
 gfx
 :
 :
-Size
+MatrixScales
 mScale
 ;
 bool
