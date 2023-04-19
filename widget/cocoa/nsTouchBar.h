@@ -85,6 +85,13 @@ nsTouchBarInput
 .
 h
 "
+#
+include
+"
+nsTouchBarNativeAPIDefines
+.
+h
+"
 const
 NSTouchBarItemIdentifier
 kTouchBarBaseIdentifier

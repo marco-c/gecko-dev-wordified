@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsTouchBarNativeAPIDefines
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
