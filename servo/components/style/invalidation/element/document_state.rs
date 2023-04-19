@@ -173,6 +173,7 @@ MatchingContext
 MatchingMode
 QuirksMode
 VisitedHandlingMode
+NeedsSelectorFlags
 }
 ;
 /
@@ -366,6 +367,10 @@ VisitedHandlingMode
 :
 AllLinksVisitedAndUnvisited
 quirks_mode
+NeedsSelectorFlags
+:
+:
+No
 )
 ;
 matching_context

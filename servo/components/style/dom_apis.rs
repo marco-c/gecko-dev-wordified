@@ -181,6 +181,7 @@ matching
 self
 MatchingContext
 MatchingMode
+NeedsSelectorFlags
 }
 ;
 use
@@ -285,6 +286,10 @@ Normal
 None
 None
 quirks_mode
+NeedsSelectorFlags
+:
+:
+No
 )
 ;
 context
@@ -424,6 +429,10 @@ mut
 nth_index_cache
 )
 quirks_mode
+NeedsSelectorFlags
+:
+:
+No
 )
 ;
 context
@@ -3848,6 +3857,10 @@ mut
 nth_index_cache
 )
 quirks_mode
+NeedsSelectorFlags
+:
+:
+No
 )
 ;
 let
