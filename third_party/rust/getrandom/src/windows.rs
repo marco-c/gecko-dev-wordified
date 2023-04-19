@@ -206,14 +206,6 @@ as
 usize
 )
 {
-/
-/
-BCryptGenRandom
-was
-introduced
-in
-Windows
-Vista
 let
 ret
 =
