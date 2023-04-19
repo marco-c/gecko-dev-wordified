@@ -47613,9 +47613,6 @@ nsIDocShell
 *
 docShell
 =
-this
--
->
 GetDocShell
 (
 )
@@ -81357,9 +81354,6 @@ nsINode
 >
 clonedNode
 =
-this
--
->
 CloneNode
 (
 true
@@ -100473,9 +100467,6 @@ nsIDocShell
 *
 docShell
 =
-this
--
->
 GetDocShell
 (
 )
@@ -102962,9 +102953,6 @@ nsPIDOMWindowInner
 >
 inner
 =
-this
--
->
 GetInnerWindow
 (
 )
@@ -104409,9 +104397,6 @@ RequestStorageAccessUserGesture
 "
 )
 ;
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -104453,9 +104438,6 @@ nsPIDOMWindowInner
 >
 inner
 =
-this
--
->
 GetInnerWindow
 (
 )
@@ -104466,9 +104448,6 @@ if
 inner
 )
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -104594,9 +104573,6 @@ forget
 }
 else
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -104799,9 +104775,6 @@ forget
 }
 else
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -104902,9 +104875,6 @@ forget
 }
 else
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -104999,9 +104969,6 @@ forget
 }
 else
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105043,9 +105010,6 @@ BrowsingContext
 >
 bc
 =
-this
--
->
 GetBrowsingContext
 (
 )
@@ -105075,9 +105039,6 @@ if
 outer
 )
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105133,9 +105094,6 @@ activation
 gated
 APIs
 .
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105434,9 +105392,6 @@ RequestStorageAccessUserGesture
 "
 )
 ;
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105616,9 +105571,6 @@ forget
 )
 ;
 }
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105716,9 +105668,6 @@ forget
 )
 ;
 }
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105766,9 +105715,6 @@ BrowsingContext
 >
 bc
 =
-this
--
->
 GetBrowsingContext
 (
 )
@@ -105779,9 +105725,6 @@ nsPIDOMWindowInner
 >
 inner
 =
-this
--
->
 GetInnerWindow
 (
 )
@@ -105792,9 +105735,6 @@ if
 inner
 )
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105839,9 +105779,6 @@ if
 outer
 )
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105889,9 +105826,6 @@ if
 principal
 )
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -105954,9 +105888,6 @@ activation
 gated
 APIs
 .
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
@@ -107017,9 +106948,6 @@ if
 argumentPrincipal
 )
 {
-this
--
->
 ConsumeTransientUserGestureActivation
 (
 )
