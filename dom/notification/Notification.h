@@ -210,8 +210,8 @@ nsIVariant
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2312,12 +2312,10 @@ mTaskCount
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

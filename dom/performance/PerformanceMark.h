@@ -133,8 +133,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 struct
@@ -350,12 +350,10 @@ mDetail
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

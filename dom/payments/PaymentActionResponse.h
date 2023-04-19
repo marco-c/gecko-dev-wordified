@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -583,13 +583,9 @@ mBillingAddress
 /
 /
 namespace
-dom
-}
-/
-/
-end
-of
-namespace
 mozilla
+:
+:
+dom
 #
 endif

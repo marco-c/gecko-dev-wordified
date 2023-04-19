@@ -190,8 +190,8 @@ TCPSOCKETPARENT_CID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -487,11 +487,9 @@ aReadyState
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

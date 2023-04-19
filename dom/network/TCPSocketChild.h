@@ -200,8 +200,8 @@ aVal
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -429,11 +429,9 @@ mIPCEventTarget
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

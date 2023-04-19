@@ -226,8 +226,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -240,12 +240,10 @@ Event
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 class
 nsDOMOfflineResourceList
 final
