@@ -405,6 +405,13 @@ LOCAL_EGL_D3D11_TEXTURE_ANGLE
 0x3484
 /
 /
+EGL_MESA_platform_surfaceless
+#
+define
+LOCAL_EGL_PLATFORM_SURFACELESS_MESA
+0x31DD
+/
+/
 clang
 -
 format
