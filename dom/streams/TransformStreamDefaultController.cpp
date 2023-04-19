@@ -268,7 +268,7 @@ mStream
 aStream
 ;
 }
-TransformerAlgorithms
+TransformerAlgorithmsBase
 *
 TransformStreamDefaultController
 :
@@ -287,7 +287,7 @@ TransformStreamDefaultController
 :
 SetAlgorithms
 (
-TransformerAlgorithms
+TransformerAlgorithmsBase
 *
 aTransformerAlgorithms
 )
@@ -1493,7 +1493,7 @@ aStream
 TransformStreamDefaultController
 &
 aController
-TransformerAlgorithms
+TransformerAlgorithmsBase
 &
 aTransformerAlgorithms
 )
