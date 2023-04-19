@@ -555,6 +555,15 @@ JSContext
 aCx
 )
 ;
+static
+bool
+LocationIsRealFile
+(
+nsIURI
+*
+aURI
+)
+;
 JSObject
 *
 PrepareObjectForLocation
@@ -569,7 +578,6 @@ nsIURI
 *
 aComponent
 bool
-*
 aRealFile
 )
 ;
