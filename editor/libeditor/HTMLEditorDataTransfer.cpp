@@ -9630,7 +9630,6 @@ Find
 -
 >
 "
-false
 startCommentIndx
 )
 ;
@@ -9693,7 +9692,6 @@ Find
 -
 >
 "
-false
 endCommentIndx
 )
 ;

@@ -1797,6 +1797,7 @@ documentURI
 .
 Find
 (
+u
 "
 chrome
 :
@@ -1849,6 +1850,7 @@ documentURI
 .
 Find
 (
+u
 "
 about
 :
@@ -1876,6 +1878,7 @@ documentURI
 .
 Find
 (
+u
 "
 about
 :
@@ -1903,6 +1906,7 @@ documentURI
 .
 Find
 (
+u
 "
 about
 :

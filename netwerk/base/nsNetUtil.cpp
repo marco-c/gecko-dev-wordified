@@ -23102,10 +23102,6 @@ aInput
 Find
 (
 aHost
-.
-BeginReading
-(
-)
 )
 ;
 if

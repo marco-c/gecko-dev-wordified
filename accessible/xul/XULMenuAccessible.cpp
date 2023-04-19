@@ -1570,6 +1570,7 @@ modifiersStr
 .
 Find
 (
+u
 "
 shift
 "
@@ -1593,6 +1594,7 @@ modifiersStr
 .
 Find
 (
+u
 "
 alt
 "
@@ -1616,6 +1618,7 @@ modifiersStr
 .
 Find
 (
+u
 "
 meta
 "
@@ -1639,6 +1642,7 @@ modifiersStr
 .
 Find
 (
+u
 "
 os
 "
@@ -1662,6 +1666,7 @@ modifiersStr
 .
 Find
 (
+u
 "
 control
 "
@@ -1685,6 +1690,7 @@ modifiersStr
 .
 Find
 (
+u
 "
 accel
 "

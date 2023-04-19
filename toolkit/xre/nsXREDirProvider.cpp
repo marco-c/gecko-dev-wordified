@@ -7963,6 +7963,7 @@ appDirPath
 .
 RFind
 (
+u
 "
 .
 app

@@ -550,13 +550,6 @@ buffer
 Find
 (
 minorCodeString
-/
-*
-aIgnoreCase
-=
-*
-/
-false
 endptr
 -
 buffer

@@ -38730,10 +38730,9 @@ styleStart
 =
 styleValue
 .
-Find
+LowerCaseFindASCII
 (
 stylename
-true
 )
 ;
 if
@@ -38751,10 +38750,10 @@ styleValue
 .
 Find
 (
+u
 "
 ;
 "
-false
 styleStart
 )
 ;
