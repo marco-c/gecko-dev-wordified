@@ -1172,10 +1172,6 @@ const
 bool
 has_packet_feedback_
 ;
-const
-bool
-use_deferred_fec_
-;
 /
 /
 TODO
