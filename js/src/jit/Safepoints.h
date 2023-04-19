@@ -211,9 +211,9 @@ explicit
 SafepointWriter
 (
 uint32_t
-slotCount
+slotsSize
 uint32_t
-argumentCount
+argumentsSize
 )
 ;
 [

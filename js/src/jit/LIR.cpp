@@ -251,7 +251,7 @@ id
 is
 1
 .
-localSlotCount_
+localSlotsSize_
 (
 0
 )
