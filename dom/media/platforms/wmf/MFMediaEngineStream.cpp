@@ -923,13 +923,6 @@ mShouldServeSmamples
 (
 false
 )
-mMutex
-(
-"
-MFMediaEngineStream
-Mutex
-"
-)
 {
 }
 MFMediaEngineStream
