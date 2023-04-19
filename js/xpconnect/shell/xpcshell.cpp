@@ -147,6 +147,13 @@ XREShellData
 h
 "
 #
+include
+"
+nsXULAppAPI
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
