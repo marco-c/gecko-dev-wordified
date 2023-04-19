@@ -329,11 +329,17 @@ log
 file
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gLogEnabled
 "
@@ -2893,6 +2899,8 @@ string
 {
 if
 (
+lazy
+.
 gLogEnabled
 )
 {

@@ -196,11 +196,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppUpdater
 :
@@ -298,7 +304,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 UpdateService
 "
@@ -324,7 +330,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -620,6 +626,8 @@ before
 any
 usage
 .
+lazy
+.
 log
 .
 debug
@@ -668,6 +676,8 @@ Ci
 nsISupports
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -690,6 +700,8 @@ let
 reasons
 =
 await
+lazy
+.
 BackgroundUpdate
 .
 _reasonsToNotUpdateInstallation
@@ -698,6 +710,8 @@ _reasonsToNotUpdateInstallation
 ;
 if
 (
+lazy
+.
 BackgroundUpdate
 .
 _force
@@ -719,6 +733,8 @@ monkey
 with
 the
 system
+.
+lazy
 .
 log
 .
@@ -796,6 +812,8 @@ if
 enabled
 )
 {
+lazy
+.
 log
 .
 info
@@ -840,6 +858,8 @@ let
 appUpdater
 =
 new
+lazy
+.
 AppUpdater
 (
 )
@@ -858,6 +878,8 @@ progressMax
 let
 stringStatus
 =
+lazy
+.
 AppUpdater
 .
 STATUS
@@ -891,6 +913,8 @@ stringStatus
 ;
 if
 (
+lazy
+.
 AppUpdater
 .
 STATUS
@@ -901,6 +925,8 @@ status
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -943,6 +969,8 @@ if
 status
 =
 =
+lazy
+.
 AppUpdater
 .
 STATUS
@@ -1019,6 +1047,8 @@ the
 entire
 update
 .
+lazy
+.
 log
 .
 debug
@@ -1039,6 +1069,8 @@ only
 .
 )
 ;
+lazy
+.
 UpdateService
 .
 onlyDownloadUpdatesThisSession
@@ -1052,6 +1084,8 @@ if
 status
 =
 =
+lazy
+.
 AppUpdater
 .
 STATUS
@@ -1060,6 +1094,8 @@ DOWNLOADING
 &
 &
 (
+lazy
+.
 UpdateService
 .
 onlyDownloadUpdatesThisSession
@@ -1165,6 +1201,8 @@ yet
 .
 if
 (
+lazy
+.
 UpdateService
 .
 onlyDownloadUpdatesThisSession
@@ -1181,6 +1219,8 @@ progress
 progressMax
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1230,6 +1270,8 @@ it
 to
 complete
 .
+lazy
+.
 UpdateService
 .
 onlyDownloadUpdatesThisSession
@@ -1251,6 +1293,8 @@ true
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1269,6 +1313,8 @@ completed
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1447,6 +1493,8 @@ submit
 (
 )
 ;
+lazy
+.
 log
 .
 info
@@ -1478,6 +1526,8 @@ SLUG
 runBackgroundTask
 "
 ;
+lazy
+.
 log
 .
 error
@@ -1615,6 +1665,8 @@ id
 )
 updateChannel
 :
+lazy
+.
 UpdateUtils
 .
 UpdateChannel
@@ -1637,6 +1689,8 @@ nsIFile
 path
 }
 ;
+lazy
+.
 log
 .
 debug
@@ -1815,6 +1869,8 @@ Glean
 storage
 resource
 .
+lazy
+.
 log
 .
 debug
@@ -1869,6 +1925,8 @@ isOtherInstanceRunning
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -2011,6 +2069,8 @@ let
 defaultProfilePrefs
 ;
 await
+lazy
+.
 BackgroundTasksUtils
 .
 withProfileLock
@@ -2122,6 +2182,8 @@ metrics
 defaultProfilePrefs
 =
 await
+lazy
+.
 BackgroundTasksUtils
 .
 readPreferences
@@ -2134,6 +2196,8 @@ let
 telemetryClientID
 =
 await
+lazy
+.
 BackgroundTasksUtils
 .
 readTelemetryClientID
@@ -2261,6 +2325,8 @@ e
 if
 (
 !
+lazy
+.
 BackgroundTasksUtils
 .
 hasDefaultProfile
@@ -2268,6 +2334,8 @@ hasDefaultProfile
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -2304,6 +2372,8 @@ CannotLockProfileError
 "
 )
 {
+lazy
+.
 log
 .
 error
@@ -2329,6 +2399,8 @@ EXIT_CODE
 DEFAULT_PROFILE_CANNOT_BE_LOCKED
 ;
 }
+lazy
+.
 log
 .
 error
@@ -2423,6 +2495,8 @@ in
 pings
 .
 await
+lazy
+.
 BackgroundUpdate
 .
 recordUpdateEnvironment
@@ -2482,6 +2556,8 @@ html
 let
 gleanRoot
 =
+lazy
+.
 FileUtils
 .
 getFile
@@ -2738,12 +2814,16 @@ SUCCESS
 let
 stringStatus
 =
+lazy
+.
 AppUpdater
 .
 STATUS
 .
 debugStringFor
 (
+lazy
+.
 AppUpdater
 .
 STATUS
@@ -2780,6 +2860,8 @@ _attemptBackgroundUpdate
 (
 )
 ;
+lazy
+.
 log
 .
 info
@@ -2841,6 +2923,8 @@ of
 continuous
 persistent
 errors
+.
+lazy
 .
 log
 .
@@ -2948,6 +3032,8 @@ Bug
 1703572
 .
 await
+lazy
+.
 ExtensionUtils
 .
 promiseTimeout
