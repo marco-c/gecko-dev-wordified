@@ -54702,6 +54702,7 @@ const
 {
 isRecentSave
 DiscoveryStream
+saveToPocketCard
 }
 =
 this
@@ -54711,7 +54712,6 @@ props
 const
 {
 pocketButtonEnabled
-saveToPocketCard
 hideDescriptions
 compactImages
 imageGradient
@@ -58447,11 +58447,19 @@ editorsPicksHeader
 widgets
 recentSavesEnabled
 hideDescriptions
+DiscoveryStream
 }
 =
 this
 .
 props
+;
+const
+{
+saveToPocketCard
+}
+=
+DiscoveryStream
 ;
 const
 showRecentSaves
@@ -58692,6 +58700,9 @@ this
 props
 .
 is_collection
+saveToPocketCard
+:
+saveToPocketCard
 }
 )
 )
@@ -59900,6 +59911,11 @@ Prefs
 state
 .
 Prefs
+DiscoveryStream
+:
+state
+.
+DiscoveryStream
 }
 )
 )
