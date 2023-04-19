@@ -169,7 +169,7 @@ array
 )
 ;
 const
-gripMapEntryStubs
+gripEntryStubs
 =
 require
 (
@@ -191,8 +191,6 @@ stubs
 reps
 /
 grip
--
-map
 -
 entry
 "
@@ -1701,7 +1699,7 @@ contents
 {
 value
 :
-gripMapEntryStubs
+gripEntryStubs
 .
 get
 (

@@ -155,7 +155,7 @@ map
 )
 ;
 const
-GripMapEntryRep
+GripEntryRep
 =
 require
 (
@@ -173,8 +173,6 @@ reps
 reps
 /
 grip
--
-map
 -
 entry
 "
@@ -680,7 +678,7 @@ item
 )
 {
 return
-GripMapEntryRep
+GripEntryRep
 .
 supportsObject
 (
