@@ -229,6 +229,7 @@ private
 TemporaryIPCBlobChild
 (
 )
+override
 ;
 mozilla
 :

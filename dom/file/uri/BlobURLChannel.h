@@ -178,6 +178,7 @@ private
 BlobURLChannel
 (
 )
+override
 ;
 nsresult
 OpenContentStream

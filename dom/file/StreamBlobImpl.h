@@ -452,6 +452,7 @@ aBlobImplType
 StreamBlobImpl
 (
 )
+override
 ;
 void
 MaybeRegisterMemoryReporter

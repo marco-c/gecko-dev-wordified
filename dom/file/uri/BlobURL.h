@@ -287,7 +287,6 @@ and
 EqualsInternal
 (
 )
-virtual
 nsresult
 CloneInternal
 (
@@ -304,7 +303,6 @@ aClone
 )
 override
 ;
-virtual
 nsresult
 EqualsInternal
 (
@@ -346,7 +344,6 @@ hand
 back
 a
 BlobURL
-virtual
 mozilla
 :
 :
@@ -408,11 +405,11 @@ override
 ;
 private
 :
-virtual
 ~
 BlobURL
 (
 )
+override
 =
 default
 ;

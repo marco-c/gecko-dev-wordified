@@ -429,7 +429,6 @@ aContentType
 /
 WebIDL
 methods
-virtual
 JSObject
 *
 WrapObject
@@ -593,7 +592,6 @@ aRv
 ;
 protected
 :
-virtual
 bool
 HasFileInterface
 (
@@ -644,6 +642,7 @@ aImpl
 File
 (
 )
+override
 ;
 }
 ;

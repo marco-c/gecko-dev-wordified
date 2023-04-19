@@ -536,6 +536,7 @@ XRE_IsParentProcess
 TemporaryFileInputStream
 (
 )
+override
 {
 /
 /

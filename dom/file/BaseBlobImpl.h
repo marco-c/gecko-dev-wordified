@@ -356,7 +356,6 @@ false
 )
 ;
 }
-virtual
 void
 GetName
 (
@@ -367,7 +366,6 @@ aName
 const
 override
 ;
-virtual
 void
 GetDOMPath
 (
@@ -378,7 +376,6 @@ aName
 const
 override
 ;
-virtual
 void
 SetDOMPath
 (
@@ -389,7 +386,6 @@ aName
 )
 override
 ;
-virtual
 int64_t
 GetLastModified
 (
@@ -399,7 +395,6 @@ aRv
 )
 override
 ;
-virtual
 void
 GetMozFullPath
 (
@@ -418,7 +413,6 @@ aRv
 )
 override
 ;
-virtual
 void
 GetMozFullPathInternal
 (
@@ -431,7 +425,6 @@ aRv
 )
 override
 ;
-virtual
 uint64_t
 GetSize
 (
@@ -445,7 +438,6 @@ return
 mLength
 ;
 }
-virtual
 void
 GetType
 (
@@ -486,7 +478,6 @@ GetAllocationSize
 )
 ;
 }
-virtual
 uint64_t
 GetSerialNumber
 (
@@ -498,7 +489,6 @@ return
 mSerialNumber
 ;
 }
-virtual
 already_AddRefed
 <
 BlobImpl
@@ -523,7 +513,6 @@ return
 nullptr
 ;
 }
-virtual
 const
 nsTArray
 <
@@ -543,7 +532,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 CreateInputStream
 (
@@ -565,14 +553,12 @@ NS_ERROR_NOT_IMPLEMENTED
 )
 ;
 }
-virtual
 int64_t
 GetFileId
 (
 )
 override
 ;
-virtual
 void
 SetLazyData
 (
@@ -618,7 +604,6 @@ IsVoid
 )
 ;
 }
-virtual
 bool
 IsMemoryFile
 (
@@ -630,7 +615,6 @@ return
 false
 ;
 }
-virtual
 bool
 IsFile
 (
@@ -642,7 +626,6 @@ return
 mIsFile
 ;
 }
-virtual
 void
 GetBlobImplType
 (
@@ -664,11 +647,11 @@ _ns
 }
 protected
 :
-virtual
 ~
 BaseBlobImpl
 (
 )
+override
 =
 default
 ;

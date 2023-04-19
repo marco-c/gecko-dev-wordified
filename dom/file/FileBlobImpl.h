@@ -444,7 +444,6 @@ aType
 )
 override
 ;
-virtual
 void
 GetBlobImplType
 (
@@ -516,7 +515,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 CreateInputStream
 (
@@ -693,6 +691,7 @@ protected
 FileBlobImpl
 (
 )
+override
 =
 default
 ;
