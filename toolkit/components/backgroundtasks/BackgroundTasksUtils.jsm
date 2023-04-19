@@ -135,11 +135,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -246,7 +252,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 ProfileService
 "
@@ -416,6 +422,8 @@ if
 defaultProfilePath
 )
 {
+lazy
+.
 log
 .
 info
@@ -485,6 +493,8 @@ this
 .
 _defaultProfile
 =
+lazy
+.
 ProfileService
 .
 createProfile
@@ -508,6 +518,8 @@ if
 noDefaultProfile
 )
 {
+lazy
+.
 log
 .
 info
@@ -532,6 +544,8 @@ else
 {
 try
 {
+lazy
+.
 log
 .
 info
@@ -548,6 +562,8 @@ this
 .
 _defaultProfile
 =
+lazy
+.
 ProfileService
 .
 defaultProfile
@@ -598,6 +614,8 @@ getDefaultProfile
 let
 currentProfile
 =
+lazy
+.
 ProfileService
 .
 currentProfile
@@ -888,6 +906,8 @@ lock
 }
 )
 ;
+lazy
+.
 log
 .
 info
@@ -956,6 +976,8 @@ finally
 {
 try
 {
+lazy
+.
 log
 .
 info
@@ -980,6 +1002,8 @@ unlock
 (
 )
 ;
+lazy
+.
 log
 .
 info
@@ -996,6 +1020,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1184,6 +1210,8 @@ _throwIfNotLocked
 lock
 )
 ;
+lazy
+.
 log
 .
 info
@@ -1291,6 +1319,8 @@ js
 "
 )
 ;
+lazy
+.
 log
 .
 info
@@ -1320,6 +1350,8 @@ prefsFile
 path
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1377,6 +1409,8 @@ should
 be
 infrequent
 .
+lazy
+.
 log
 .
 error
@@ -1391,6 +1425,8 @@ prefsFile
 path
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1544,6 +1580,8 @@ json
 "
 )
 ;
+lazy
+.
 log
 .
 info

@@ -135,11 +135,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 setTimeout
 :
@@ -163,7 +169,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -442,6 +448,8 @@ load
 that
 code
 .
+lazy
+.
 log
 .
 error
@@ -683,6 +691,8 @@ name
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -711,6 +721,8 @@ import
 URI
 )
 ;
+lazy
+.
 log
 .
 info
@@ -753,6 +765,8 @@ ex
 }
 }
 }
+lazy
+.
 log
 .
 warn
@@ -1016,6 +1030,8 @@ bts
 isBackgroundTaskMode
 )
 {
+lazy
+.
 log
 .
 info
@@ -1045,6 +1061,8 @@ backgroundTaskName
 (
 )
 ;
+lazy
+.
 log
 .
 info
@@ -1156,6 +1174,8 @@ CASE_INSENSITIVE
 0
 )
 {
+lazy
+.
 log
 .
 info
@@ -1216,6 +1236,8 @@ topic
 data
 )
 {
+lazy
+.
 log
 .
 info
@@ -1364,6 +1386,8 @@ AfterRunBackgroundTaskNamed
 "
 )
 ;
+lazy
+.
 log
 .
 info
@@ -1476,6 +1500,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 (
@@ -1483,6 +1509,8 @@ setTimeout
 =
 >
 {
+lazy
+.
 log
 .
 error
@@ -1523,6 +1551,8 @@ commandLine
 ]
 )
 ;
+lazy
+.
 log
 .
 info
@@ -1549,6 +1579,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error
@@ -1586,6 +1618,8 @@ AfterAwaitRunBackgroundTask
 "
 )
 ;
+lazy
+.
 log
 .
 info
