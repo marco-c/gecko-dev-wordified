@@ -199,8 +199,8 @@ properties
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -759,12 +759,10 @@ mNextStream
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

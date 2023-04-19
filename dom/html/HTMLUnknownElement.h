@@ -147,8 +147,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -276,12 +276,10 @@ NS_HTMLUNKNOWNELEMENT_IID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

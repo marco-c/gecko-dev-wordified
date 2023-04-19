@@ -253,8 +253,8 @@ nsIFrame
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1694,12 +1694,10 @@ mInputElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

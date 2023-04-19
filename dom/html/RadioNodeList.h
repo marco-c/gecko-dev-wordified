@@ -177,8 +177,8 @@ MOZILLA_DOM_RADIONODELIST_IMPLEMENTATION_IID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -270,12 +270,10 @@ MOZILLA_DOM_RADIONODELIST_IMPLEMENTATION_IID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

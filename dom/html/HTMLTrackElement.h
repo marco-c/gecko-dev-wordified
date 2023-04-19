@@ -177,8 +177,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -803,12 +803,10 @@ mWindowDestroyObserver
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
