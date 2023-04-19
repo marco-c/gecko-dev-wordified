@@ -610,6 +610,14 @@ aMoz2DBackend
 )
 {
 }
+virtual
+~
+BufferTextureData
+(
+)
+=
+default
+;
 BufferDescriptor
 mDescriptor
 ;
