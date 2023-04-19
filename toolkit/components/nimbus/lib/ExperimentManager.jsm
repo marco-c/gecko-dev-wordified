@@ -121,11 +121,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ClientEnvironment
 :
@@ -243,7 +249,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -457,6 +463,8 @@ store
 |
 |
 new
+lazy
+.
 ExperimentStore
 (
 )
@@ -551,12 +559,16 @@ context
 {
 isFirstStartup
 :
+lazy
+.
 FirstStartup
 .
 state
 =
 =
 =
+lazy
+.
 FirstStartup
 .
 IN_PROGRESS
@@ -890,6 +902,8 @@ if
 isEnrollmentPaused
 )
 {
+lazy
+.
 log
 .
 debug
@@ -923,6 +937,8 @@ bucketConfig
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1010,6 +1026,8 @@ slug
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1322,6 +1340,8 @@ if
 bucketConfig
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1361,6 +1381,8 @@ normandy_id
 {
 id
 =
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -1374,6 +1396,8 @@ Others
 not
 currently
 supported
+.
+lazy
 .
 log
 .
@@ -1394,6 +1418,8 @@ false
 ;
 }
 return
+lazy
+.
 Sampling
 .
 bucketSample
@@ -1601,6 +1627,8 @@ featureId
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1708,6 +1736,8 @@ active
 true
 enrollmentId
 :
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -1841,6 +1871,8 @@ sendEnrollmentTelemetry
 experiment
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1987,6 +2019,8 @@ if
 experiment
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2023,6 +2057,8 @@ if
 rollout
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2188,6 +2224,8 @@ active
 false
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2418,6 +2456,8 @@ expired
 )
 ;
 }
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentInactive
@@ -2463,6 +2503,8 @@ false
 }
 )
 ;
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2488,12 +2530,16 @@ enrollment
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2645,6 +2691,8 @@ slug
 reason
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2680,6 +2728,8 @@ enrollmentId
 }
 )
 {
+lazy
+.
 TelemetryEvents
 .
 sendEvent
@@ -2701,6 +2751,8 @@ enrollmentId
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -2733,6 +2785,8 @@ setExperimentActive
 experiment
 )
 {
+lazy
+.
 TelemetryEnvironment
 .
 setExperimentActive
@@ -2763,6 +2817,8 @@ experiment
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -2811,6 +2867,8 @@ experiment
 enrollmentId
 |
 |
+lazy
+.
 TelemetryEvents
 .
 NO_ENROLLMENT_ID_MARKER
@@ -3089,6 +3147,8 @@ length
 const
 id
 =
+lazy
+.
 NormandyUtils
 .
 generateUuid
@@ -3099,6 +3159,8 @@ const
 enrolls
 =
 await
+lazy
+.
 Sampling
 .
 bucketSample
@@ -3174,6 +3236,8 @@ pickedBranch
 =
 id
 ;
+lazy
+.
 log
 .
 debug
@@ -3256,6 +3320,8 @@ slug
 branches
 userId
 =
+lazy
+.
 ClientEnvironment
 .
 userId
@@ -3375,6 +3441,8 @@ const
 index
 =
 await
+lazy
+.
 Sampling
 .
 ratioSample
