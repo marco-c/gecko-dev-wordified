@@ -149,7 +149,6 @@ globals
 .
 jsm
 "
-this
 )
 ;
 const
