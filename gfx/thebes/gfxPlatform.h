@@ -3211,11 +3211,8 @@ virtual
 bool
 IsFontFormatSupported
 (
-mozilla
-:
-:
-StyleFontFaceSourceFormatKeyword
-aFormatHint
+uint32_t
+aFormatFlags
 )
 ;
 virtual
