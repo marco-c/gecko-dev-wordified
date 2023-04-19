@@ -50,9 +50,6 @@ TEST_ENGINE_NAME
 Test
 "
 ;
-let
-win
-;
 add_setup
 (
 async
@@ -60,15 +57,6 @@ function
 (
 )
 {
-win
-=
-await
-BrowserTestUtils
-.
-openNewBrowserWindow
-(
-)
-;
 await
 SearchTestUtils
 .
@@ -94,29 +82,6 @@ async
 =
 >
 {
-await
-BrowserTestUtils
-.
-closeWindow
-(
-win
-)
-;
-/
-/
-Avoid
-memory
-leaking
-need
-to
-set
-null
-explicitly
-.
-win
-=
-null
-;
 await
 PlacesUtils
 .
@@ -309,8 +274,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -323,8 +286,6 @@ result
 ;
 while
 (
-win
-.
 gURLBar
 .
 searchMode
@@ -343,9 +304,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 let
@@ -355,7 +313,7 @@ UrlbarTestUtils
 .
 getSelectedRowIndex
 (
-win
+window
 )
 ;
 result
@@ -365,7 +323,7 @@ UrlbarTestUtils
 .
 getDetailsOfResultAt
 (
-win
+window
 index
 )
 ;
@@ -429,7 +387,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 expectedSearchMode
 )
 ;
@@ -441,7 +399,7 @@ UrlbarTestUtils
 .
 promiseSearchComplete
 (
-win
+window
 )
 ;
 EventUtils
@@ -451,9 +409,6 @@ synthesizeKey
 "
 KEY_Enter
 "
-{
-}
-win
 )
 ;
 await
@@ -475,7 +430,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -497,7 +452,7 @@ UrlbarTestUtils
 .
 exitSearchMode
 (
-win
+window
 )
 ;
 }
@@ -540,8 +495,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -551,8 +504,6 @@ value
 ;
 while
 (
-win
-.
 gURLBar
 .
 searchMode
@@ -571,9 +522,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 }
@@ -582,7 +530,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -605,7 +553,7 @@ UrlbarTestUtils
 .
 promiseSearchComplete
 (
-win
+window
 )
 ;
 EventUtils
@@ -615,9 +563,6 @@ synthesizeKey
 "
 M
 "
-{
-}
-win
 )
 ;
 await
@@ -628,7 +573,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -646,7 +591,7 @@ UrlbarTestUtils
 .
 exitSearchMode
 (
-win
+window
 )
 ;
 }
@@ -725,8 +670,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -759,9 +702,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 let
@@ -772,7 +712,7 @@ UrlbarTestUtils
 .
 getDetailsOfResultAt
 (
-win
+window
 0
 )
 ;
@@ -781,7 +721,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -806,7 +746,7 @@ UrlbarTestUtils
 .
 exitSearchMode
 (
-win
+window
 )
 ;
 }
@@ -842,8 +782,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -853,8 +791,6 @@ value
 ;
 while
 (
-win
-.
 gURLBar
 .
 searchMode
@@ -873,9 +809,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 }
@@ -884,7 +817,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -917,13 +850,11 @@ UrlbarTestUtils
 .
 promisePopupClose
 (
-win
+window
 (
 )
 =
 >
-win
-.
 gURLBar
 .
 blur
@@ -936,7 +867,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -963,7 +894,7 @@ UrlbarTestUtils
 .
 promisePopupOpen
 (
-win
+window
 (
 )
 =
@@ -971,8 +902,6 @@ win
 {
 if
 (
-win
-.
 gURLBar
 .
 getAttribute
@@ -988,8 +917,6 @@ invalid
 "
 )
 {
-win
-.
 gURLBar
 .
 handleRevert
@@ -1001,14 +928,11 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-win
-.
 gURLBar
 .
 inputField
 {
 }
-win
 )
 ;
 }
@@ -1019,7 +943,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -1028,7 +952,7 @@ UrlbarTestUtils
 .
 promisePopupClose
 (
-win
+window
 )
 ;
 }
@@ -1064,8 +988,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -1075,8 +997,6 @@ value
 ;
 while
 (
-win
-.
 gURLBar
 .
 searchMode
@@ -1095,9 +1015,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 }
@@ -1106,7 +1023,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -1139,8 +1056,6 @@ tab
 let
 tab1
 =
-win
-.
 gBrowser
 .
 selectedTab
@@ -1153,8 +1068,6 @@ BrowserTestUtils
 .
 openNewForegroundTab
 (
-win
-.
 gBrowser
 )
 ;
@@ -1163,8 +1076,6 @@ BrowserTestUtils
 .
 switchTab
 (
-win
-.
 gBrowser
 tab1
 )
@@ -1174,7 +1085,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -1224,8 +1135,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -1240,7 +1149,7 @@ UrlbarTestUtils
 .
 getOneOffSearchButtons
 (
-win
+window
 )
 ;
 await
@@ -1275,7 +1184,7 @@ UrlbarTestUtils
 .
 getResultCount
 (
-win
+window
 )
 ;
 /
@@ -1309,9 +1218,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 }
@@ -1337,9 +1243,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 /
@@ -1373,7 +1276,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 getExpectedSearchMode
 (
 oneOffs
@@ -1389,9 +1292,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 }
@@ -1434,7 +1334,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -1455,7 +1355,7 @@ UrlbarTestUtils
 .
 promisePopupClose
 (
-win
+window
 )
 ;
 await
@@ -1463,7 +1363,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -1651,8 +1551,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -1667,7 +1565,7 @@ UrlbarTestUtils
 .
 getOneOffSearchButtons
 (
-win
+window
 )
 ;
 await
@@ -1719,9 +1617,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 let
@@ -1732,7 +1627,7 @@ UrlbarTestUtils
 .
 getDetailsOfResultAt
 (
-win
+window
 0
 )
 ;
@@ -1741,7 +1636,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -1788,7 +1683,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 /
@@ -1816,7 +1710,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 getExpectedSearchMode
 (
 oneOffs
@@ -1837,7 +1731,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 }
@@ -1873,9 +1766,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 Assert
@@ -1886,7 +1776,7 @@ UrlbarTestUtils
 .
 getSelectedRowIndex
 (
-win
+window
 )
 1
 "
@@ -1904,7 +1794,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -1931,9 +1821,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
-win
 )
 ;
 await
@@ -1941,7 +1828,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 {
 engineName
 :
@@ -1975,7 +1862,7 @@ UrlbarTestUtils
 .
 promisePopupClose
 (
-win
+window
 )
 ;
 await
@@ -1983,7 +1870,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -2032,8 +1919,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -2048,7 +1933,7 @@ UrlbarTestUtils
 .
 getOneOffSearchButtons
 (
-win
+window
 )
 ;
 await
@@ -2091,7 +1976,7 @@ UrlbarTestUtils
 .
 enterSearchMode
 (
-win
+window
 )
 ;
 let
@@ -2124,7 +2009,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 expectedSearchMode
 )
 ;
@@ -2143,7 +2028,7 @@ UrlbarTestUtils
 .
 getResultCount
 (
-win
+window
 )
 ;
 for
@@ -2169,9 +2054,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 /
@@ -2196,7 +2078,7 @@ UrlbarTestUtils
 .
 getDetailsOfResultAt
 (
-win
+window
 i
 )
 ;
@@ -2205,7 +2087,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 Object
 .
 assign
@@ -2248,9 +2130,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 /
@@ -2288,7 +2167,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 getExpectedSearchMode
 (
 oneOffs
@@ -2305,9 +2184,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 }
@@ -2338,7 +2214,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 expectedSearchMode
 )
 ;
@@ -2347,7 +2223,7 @@ UrlbarTestUtils
 .
 exitSearchMode
 (
-win
+window
 )
 ;
 await
@@ -2355,7 +2231,7 @@ UrlbarTestUtils
 .
 promisePopupClose
 (
-win
+window
 )
 ;
 }
@@ -2437,8 +2313,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -2453,7 +2327,7 @@ UrlbarTestUtils
 .
 getOneOffSearchButtons
 (
-win
+window
 )
 ;
 let
@@ -2496,7 +2370,7 @@ UrlbarTestUtils
 .
 enterSearchMode
 (
-win
+window
 )
 ;
 let
@@ -2516,7 +2390,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 expectedSearchMode
 )
 ;
@@ -2536,9 +2410,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 /
@@ -2568,7 +2439,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 /
@@ -2644,7 +2514,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 getExpectedSearchMode
 (
 oneOffs
@@ -2666,7 +2536,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 }
@@ -2684,7 +2553,7 @@ UrlbarTestUtils
 .
 exitSearchMode
 (
-win
+window
 {
 clickClose
 :
@@ -2719,7 +2588,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 while
@@ -2734,7 +2602,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 getExpectedSearchMode
 (
 oneOffs
@@ -2756,7 +2624,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 }
@@ -2765,7 +2632,7 @@ UrlbarTestUtils
 .
 promisePopupClose
 (
-win
+window
 )
 ;
 await
@@ -2773,7 +2640,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -2914,8 +2781,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -2930,7 +2795,7 @@ UrlbarTestUtils
 .
 getOneOffSearchButtons
 (
-win
+window
 )
 ;
 let
@@ -2973,7 +2838,7 @@ UrlbarTestUtils
 .
 enterSearchMode
 (
-win
+window
 {
 source
 :
@@ -3016,7 +2881,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 expectedSearchMode
 )
 ;
@@ -3038,9 +2903,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 await
@@ -3048,7 +2910,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 expectedSearchMode
 )
 ;
@@ -3105,7 +2967,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 await
@@ -3113,7 +2974,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 getExpectedSearchMode
 (
 oneOffs
@@ -3144,9 +3005,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 await
@@ -3154,7 +3012,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 expectedSearchMode
 )
 ;
@@ -3185,7 +3043,7 @@ UrlbarTestUtils
 .
 exitSearchMode
 (
-win
+window
 )
 ;
 await
@@ -3195,8 +3053,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-:
-win
 value
 :
 "
@@ -3222,9 +3078,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 await
@@ -3232,7 +3085,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -3262,7 +3115,6 @@ altKey
 :
 true
 }
-win
 )
 ;
 await
@@ -3270,7 +3122,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 getExpectedSearchMode
 (
 oneOffs
@@ -3300,9 +3152,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
-win
 )
 ;
 await
@@ -3310,7 +3159,7 @@ UrlbarTestUtils
 .
 assertSearchMode
 (
-win
+window
 null
 )
 ;
@@ -3319,7 +3168,7 @@ UrlbarTestUtils
 .
 promisePopupClose
 (
-win
+window
 )
 ;
 await
