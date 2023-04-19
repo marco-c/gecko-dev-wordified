@@ -466,6 +466,14 @@ h
 "
 regexp
 -
+parser
+.
+h
+"
+        
+"
+regexp
+-
 stack
 .
 h
@@ -518,6 +526,23 @@ regexp
 headers
 :
     
+#
+Note
+that
+we
+exclude
+regexp
+-
+flags
+.
+h
+and
+provide
+our
+own
+definition
+.
+    
 regexp_include
 =
 re
@@ -531,6 +556,16 @@ include
 src
 /
 regexp
+(
+?
+!
+/
+regexp
+-
+flags
+.
+h
+)
 '
 )
     
@@ -805,6 +840,14 @@ OWNERS
 regexp
 .
 cc
+"
+        
+"
+regexp
+-
+flags
+.
+h
 "
         
 "
