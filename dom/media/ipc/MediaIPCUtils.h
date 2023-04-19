@@ -1223,7 +1223,6 @@ mExtendedProfile
 WriteParam
 (
 aWriter
-*
 aParam
 .
 mCodecSpecificConfig
@@ -1333,14 +1332,11 @@ mExtendedProfile
 ReadParam
 (
 aReader
+&
 aResult
 -
 >
 mCodecSpecificConfig
-.
-get
-(
-)
 )
 &
 &

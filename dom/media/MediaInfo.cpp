@@ -555,11 +555,9 @@ rhs
 mExtendedProfile
 &
 &
-*
 mCodecSpecificConfig
 =
 =
-*
 rhs
 .
 mCodecSpecificConfig
