@@ -131,6 +131,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -144,6 +145,7 @@ every
 "
 )
 ;
+}
 if
 (
 !
@@ -152,6 +154,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -162,6 +165,7 @@ callbackfn
 )
 )
 ;
+}
 /
 *
 Step
@@ -257,9 +261,11 @@ k
 O
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 /
@@ -364,6 +370,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -377,6 +384,7 @@ some
 "
 )
 ;
+}
 if
 (
 !
@@ -385,6 +393,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -395,6 +404,7 @@ callbackfn
 )
 )
 ;
+}
 /
 *
 Step
@@ -489,9 +499,11 @@ k
 O
 )
 )
+{
 return
 true
 ;
+}
 }
 }
 /
@@ -587,11 +599,13 @@ IsCallable
 comparefn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_BAD_SORT_ARG
 )
 ;
+}
 }
 /
 /
@@ -647,9 +661,11 @@ O
 comparefn
 )
 )
+{
 return
 O
 ;
+}
 /
 /
 Step
@@ -672,9 +688,11 @@ len
 =
 1
 )
+{
 return
 O
 ;
+}
 /
 *
 22
@@ -735,9 +753,11 @@ y
 =
 undefined
 )
+{
 return
 0
 ;
+}
 return
 1
 ;
@@ -750,10 +770,12 @@ y
 =
 undefined
 )
+{
 return
 -
 1
 ;
+}
 /
 *
 Step
@@ -883,6 +905,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -896,6 +919,7 @@ forEach
 "
 )
 ;
+}
 if
 (
 !
@@ -904,6 +928,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -914,6 +939,7 @@ callbackfn
 )
 )
 ;
+}
 /
 *
 Step
@@ -1113,6 +1139,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1126,6 +1153,7 @@ map
 "
 )
 ;
+}
 if
 (
 !
@@ -1134,6 +1162,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1144,6 +1173,7 @@ callbackfn
 )
 )
 ;
+}
 /
 *
 Step
@@ -1389,6 +1419,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1402,6 +1433,7 @@ filter
 "
 )
 ;
+}
 if
 (
 !
@@ -1410,6 +1442,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1420,6 +1453,7 @@ callbackfn
 )
 )
 ;
+}
 /
 *
 Step
@@ -1578,6 +1612,7 @@ if
 (
 selected
 )
+{
 DefineDataProperty
 (
 A
@@ -1587,6 +1622,7 @@ to
 kValue
 )
 ;
+}
 }
 }
 /
@@ -2744,6 +2780,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -2757,6 +2794,7 @@ reduce
 "
 )
 ;
+}
 if
 (
 !
@@ -2765,6 +2803,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -2775,6 +2814,7 @@ callbackfn
 )
 )
 ;
+}
 /
 *
 Step
@@ -2858,12 +2898,14 @@ len
 =
 0
 )
+{
 throw
 ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
 ;
+}
 /
 /
 Use
@@ -2950,12 +2992,14 @@ if
 !
 kPresent
 )
+{
 throw
 ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
 ;
+}
 /
 /
 Moved
@@ -3136,6 +3180,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -3149,6 +3194,7 @@ reduce
 "
 )
 ;
+}
 if
 (
 !
@@ -3157,6 +3203,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -3167,6 +3214,7 @@ callbackfn
 )
 )
 ;
+}
 /
 *
 Step
@@ -3252,12 +3300,14 @@ len
 =
 0
 )
+{
 throw
 ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
 ;
+}
 /
 /
 Use
@@ -3345,12 +3395,14 @@ if
 !
 kPresent
 )
+{
 throw
 ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
 ;
+}
 /
 /
 Moved
@@ -3540,6 +3592,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -3553,6 +3606,7 @@ find
 "
 )
 ;
+}
 if
 (
 !
@@ -3561,6 +3615,7 @@ IsCallable
 predicate
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -3571,6 +3626,7 @@ predicate
 )
 )
 ;
+}
 /
 *
 Step
@@ -3668,9 +3724,11 @@ k
 O
 )
 )
+{
 return
 kValue
 ;
+}
 }
 /
 *
@@ -3766,6 +3824,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -3779,6 +3838,7 @@ find
 "
 )
 ;
+}
 if
 (
 !
@@ -3787,6 +3847,7 @@ IsCallable
 predicate
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -3797,6 +3858,7 @@ predicate
 )
 )
 ;
+}
 /
 *
 Step
@@ -3880,9 +3942,11 @@ k
 O
 )
 )
+{
 return
 k
 ;
+}
 }
 /
 *
@@ -4170,6 +4234,7 @@ from
 in
 O
 )
+{
 O
 [
 to
@@ -4180,13 +4245,16 @@ O
 from
 ]
 ;
+}
 else
+{
 delete
 O
 [
 to
 ]
 ;
+}
 from
 -
 -
@@ -4221,6 +4289,7 @@ from
 in
 O
 )
+{
 O
 [
 to
@@ -4231,13 +4300,16 @@ O
 from
 ]
 ;
+}
 else
+{
 delete
 O
 [
 to
 ]
 ;
+}
 from
 +
 +
@@ -4768,11 +4840,13 @@ PossiblyWrappedTypedArrayHasDetachedBuffer
 a
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 }
 }
 else
@@ -5069,6 +5143,7 @@ IsCallable
 mapfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -5079,6 +5154,7 @@ mapfn
 )
 )
 ;
+}
 var
 T
 =
@@ -5157,6 +5233,7 @@ IsCallable
 usingIterator
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_ITERABLE
@@ -5167,6 +5244,7 @@ items
 )
 )
 ;
+}
 /
 /
 Steps
@@ -5312,11 +5390,13 @@ k
 =
 0x1fffffffffffff
 )
+{
 ThrowTypeError
 (
 JSMSG_TOO_LONG_ARRAY
 )
 ;
+}
 *
 /
 /
@@ -5757,6 +5837,7 @@ IsCallable
 func
 )
 )
+{
 return
 callFunction
 (
@@ -5764,6 +5845,7 @@ std_Object_toString
 array
 )
 ;
+}
 return
 callContentFunction
 (
@@ -5897,10 +5979,12 @@ len
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 /
 /
 Step
@@ -6273,10 +6357,12 @@ length
 -
 0
 )
+{
 length
 =
 0
 ;
+}
 /
 /
 Step
@@ -6291,12 +6377,14 @@ IsArray
 originalArray
 )
 )
+{
 return
 std_Array
 (
 length
 )
 ;
+}
 /
 /
 Step
@@ -6331,12 +6419,14 @@ IsCrossRealmArrayConstructor
 C
 )
 )
+{
 return
 std_Array
 (
 length
 )
 ;
+}
 /
 /
 Step
@@ -6395,12 +6485,14 @@ Array
 "
 )
 )
+{
 return
 std_Array
 (
 length
 )
 ;
+}
 /
 /
 Step
@@ -6418,12 +6510,14 @@ C
 =
 null
 )
+{
 return
 std_Array
 (
 length
 )
 ;
+}
 }
 /
 /
@@ -6438,12 +6532,14 @@ C
 =
 undefined
 )
+{
 return
 std_Array
 (
 length
 )
 ;
+}
 /
 /
 Step
@@ -6457,6 +6553,7 @@ IsConstructor
 C
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -6466,6 +6563,7 @@ property
 "
 )
 ;
+}
 /
 /
 Step
@@ -6566,12 +6664,14 @@ spreadable
 =
 undefined
 )
+{
 return
 ToBoolean
 (
 spreadable
 )
 ;
+}
 #
 ifdef
 ENABLE_RECORD_TUPLE
@@ -6582,9 +6682,11 @@ IsTuple
 O
 )
 )
+{
 return
 true
 ;
+}
 #
 endif
 /
@@ -6806,11 +6908,13 @@ len
 >
 MAX_NUMERIC_INDEX
 )
+{
 ThrowTypeError
 (
 JSMSG_TOO_LONG_ARRAY
 )
 ;
+}
 if
 (
 IsPackedArray
@@ -6977,6 +7081,7 @@ k
 in
 E
 )
+{
 DefineDataProperty
 (
 A
@@ -6987,6 +7092,7 @@ k
 ]
 )
 ;
+}
 /
 /
 Step
@@ -7023,11 +7129,13 @@ n
 =
 MAX_NUMERIC_INDEX
 )
+{
 ThrowTypeError
 (
 JSMSG_TOO_LONG_ARRAY
 )
 ;
+}
 /
 /
 Step
@@ -7065,8 +7173,10 @@ i
 =
 argsLen
 )
+{
 break
 ;
+}
 /
 /
 Step
@@ -7188,6 +7298,7 @@ IsCallable
 mapperFunction
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -7198,6 +7309,7 @@ mapperFunction
 )
 )
 ;
+}
 /
 /
 Step
@@ -7354,6 +7466,7 @@ arguments
 =
 undefined
 )
+{
 depthNum
 =
 ToInteger
@@ -7364,6 +7477,7 @@ arguments
 ]
 )
 ;
+}
 /
 /
 Step
@@ -7692,11 +7806,13 @@ targetIndex
 =
 MAX_NUMERIC_INDEX
 )
+{
 ThrowTypeError
 (
 JSMSG_TOO_LONG_ARRAY
 )
 ;
+}
 /
 /
 Step
