@@ -58,7 +58,7 @@ with
 a
 [
 [
-SymboldData
+SymbolData
 ]
 ]
 internal

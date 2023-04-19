@@ -123,7 +123,7 @@ resultHours
 4
 404
 442
-799
+800
 "
 negative
 fractional
@@ -156,7 +156,7 @@ resultMinutes
 34
 73
 407
-379
+380
 "
 negative
 fractional

@@ -1026,9 +1026,6 @@ dateFromFieldsCalls
 year
 :
 2022
-month
-:
-2
 monthCode
 :
 "
@@ -1169,9 +1166,6 @@ dateFromFieldsCalls
 year
 :
 2022
-month
-:
-2
 monthCode
 :
 "
@@ -1318,9 +1312,6 @@ dateFromFieldsCalls
 year
 :
 2022
-month
-:
-2
 monthCode
 :
 "
@@ -1465,9 +1456,6 @@ dateFromFieldsCalls
 year
 :
 2022
-month
-:
-2
 monthCode
 :
 "

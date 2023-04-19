@@ -62,7 +62,7 @@ valid
 identifier
 name
 (
-IdentiferReference
+IdentifierReference
 in
 ObjectAssignmentPattern
 cannot

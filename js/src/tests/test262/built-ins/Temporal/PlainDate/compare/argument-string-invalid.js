@@ -81,13 +81,7 @@ is
 used
 as
 a
-%
-%
-%
-conversion_target
-%
-%
-%
+PlainDate
 features
 :
 [

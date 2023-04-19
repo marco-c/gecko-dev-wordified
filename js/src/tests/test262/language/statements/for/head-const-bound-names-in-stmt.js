@@ -126,6 +126,8 @@ for
 (
 const
 x
+=
+0
 ;
 false
 ;

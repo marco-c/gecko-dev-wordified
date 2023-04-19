@@ -66,7 +66,7 @@ name
 using
 escape
 (
-IdentiferReference
+IdentifierReference
 in
 ObjectAssignmentPattern
 cannot

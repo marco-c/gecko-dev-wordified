@@ -117,7 +117,7 @@ sameValue
 resultHours
 .
 epochNanoseconds
-999_911_555_595_557_201n
+999_911_555_595_557_200n
 "
 negative
 fractional
@@ -147,7 +147,7 @@ sameValue
 resultMinutes
 .
 epochNanoseconds
-999_913_565_926_592_621n
+999_913_565_926_592_620n
 "
 negative
 fractional

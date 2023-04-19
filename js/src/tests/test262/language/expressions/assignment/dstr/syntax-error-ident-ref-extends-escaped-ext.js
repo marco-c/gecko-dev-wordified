@@ -69,7 +69,7 @@ using
 extended
 escape
 (
-IdentiferReference
+IdentifierReference
 in
 ObjectAssignmentPattern
 cannot

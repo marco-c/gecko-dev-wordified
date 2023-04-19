@@ -35,7 +35,7 @@ info
 :
 |
 The
-Identifer
+Identifier
 within
 a
 FunctionDeclaration

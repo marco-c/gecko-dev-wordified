@@ -68,7 +68,7 @@ PlainDateTime
 to
 Temporal
 .
-PlainDate
+PlainTime
 by
 reading
 internal

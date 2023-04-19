@@ -374,7 +374,7 @@ overflow
 }
 )
 "
-bigint
+number
 "
 )
 ;
