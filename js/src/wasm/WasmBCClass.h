@@ -431,7 +431,7 @@ CatchInfoVector
 Vector
 <
 CatchInfo
-0
+1
 SystemAllocPolicy
 >
 ;

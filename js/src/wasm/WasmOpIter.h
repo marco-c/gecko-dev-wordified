@@ -1515,7 +1515,7 @@ TypeAndValueStack
 Vector
 <
 TypeAndValue
-8
+16
 SystemAllocPolicy
 >
 ;
@@ -1542,7 +1542,7 @@ ControlStack
 Vector
 <
 Control
-8
+16
 SystemAllocPolicy
 >
 ;
