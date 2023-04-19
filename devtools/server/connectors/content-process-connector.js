@@ -516,8 +516,6 @@ server
 "
 {
 prefix
-:
-prefix
 /
 /
 This

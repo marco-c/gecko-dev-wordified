@@ -104,8 +104,6 @@ ActorClassWithSpec
 helloSpec
 {
 initialize
-:
-function
 (
 )
 {
@@ -131,8 +129,6 @@ counter
 ;
 }
 count
-:
-function
 (
 )
 {

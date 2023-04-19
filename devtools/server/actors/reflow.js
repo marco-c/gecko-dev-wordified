@@ -304,8 +304,6 @@ ActorClassWithSpec
 reflowSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -361,8 +359,6 @@ false
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -444,8 +440,6 @@ promise
 *
 /
 start
-:
-function
 (
 )
 {
@@ -518,8 +512,6 @@ promise
 *
 /
 stop
-:
-function
 (
 )
 {
@@ -553,8 +545,6 @@ false
 }
 }
 _onReflow
-:
-function
 (
 reflows
 )
@@ -737,8 +727,6 @@ instance
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -827,8 +815,6 @@ observe
 *
 /
 start
-:
-function
 (
 )
 {
@@ -869,8 +855,6 @@ observing
 *
 /
 stop
-:
-function
 (
 )
 {
@@ -938,8 +922,6 @@ windows
 }
 }
 _onWindowReady
-:
-function
 (
 {
 window
@@ -965,8 +947,6 @@ window
 }
 }
 _onWindowDestroyed
-:
-function
 (
 {
 window
@@ -992,8 +972,6 @@ window
 }
 }
 _startListeners
-:
-function
 (
 windows
 )
@@ -1010,8 +988,6 @@ classes
 .
 }
 _stopListeners
-:
-function
 (
 windows
 )
@@ -1046,8 +1022,6 @@ observed
 *
 /
 notifyCallback
-:
-function
 (
 .
 .
@@ -1643,8 +1617,6 @@ sent
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -1690,8 +1662,6 @@ null
 ;
 }
 start
-:
-function
 (
 )
 {
@@ -1748,8 +1718,6 @@ start
 ;
 }
 stop
-:
-function
 (
 )
 {
@@ -1840,8 +1808,6 @@ loop
 *
 /
 _startEventLoop
-:
-function
 (
 )
 {
@@ -1973,8 +1939,6 @@ EVENT_BATCHING_DELAY
 ;
 }
 _stopEventLoop
-:
-function
 (
 )
 {
@@ -2003,8 +1967,6 @@ them
 if
 needed
 _setTimeout
-:
-function
 (
 cb
 ms
@@ -2019,8 +1981,6 @@ ms
 ;
 }
 _clearTimeout
-:
-function
 (
 t
 )
@@ -2093,8 +2053,6 @@ isInterruptible
 *
 /
 _onReflow
-:
-function
 (
 start
 end
@@ -2151,13 +2109,7 @@ push
 (
 {
 start
-:
-start
 end
-:
-end
-isInterruptible
-:
 isInterruptible
 }
 )
@@ -2199,8 +2151,6 @@ later
 *
 /
 _onResize
-:
-function
 (
 )
 {

@@ -808,8 +808,6 @@ responsive
 container
 "
 initialHeight
-:
-initialHeight
 minSize
 :
 "

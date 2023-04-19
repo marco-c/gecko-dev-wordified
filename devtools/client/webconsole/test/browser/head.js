@@ -6570,8 +6570,6 @@ resolve
 (
 {
 link
-:
-link
 where
 }
 )

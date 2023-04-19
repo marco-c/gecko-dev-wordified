@@ -909,8 +909,6 @@ ActorClassWithSpec
 webconsoleSpec
 {
 initialize
-:
-function
 (
 connection
 parentActor
@@ -1376,8 +1374,6 @@ found
 *
 /
 _getWindowForBrowserConsole
-:
-function
 (
 )
 {
@@ -1656,8 +1652,6 @@ null
 *
 /
 _handleNewWindow
-:
-function
 (
 window
 )
@@ -1975,8 +1969,6 @@ _webConsoleCommandsCache
 :
 null
 grip
-:
-function
 (
 )
 {
@@ -2211,8 +2203,6 @@ global
 *
 /
 createEnvironmentActor
-:
-function
 (
 environment
 )
@@ -2290,8 +2280,6 @@ object
 *
 /
 createValueGrip
-:
-function
 (
 value
 )
@@ -2386,8 +2374,6 @@ value
 *
 /
 makeDebuggeeValue
-:
-function
 (
 value
 useObjectGlobal
@@ -2544,8 +2530,6 @@ grip
 *
 /
 objectGrip
-:
-function
 (
 object
 pool
@@ -2699,8 +2683,6 @@ string
 *
 /
 longStringGrip
-:
-function
 (
 string
 pool
@@ -2807,8 +2789,6 @@ string
 *
 /
 _createStringGrip
-:
-function
 (
 string
 )
@@ -2868,8 +2848,6 @@ object
 *
 /
 getLastConsoleInputEvaluation
-:
-function
 (
 )
 {
@@ -3160,10 +3138,8 @@ next
 -
 line
 complexity
-startListeners
-:
 async
-function
+startListeners
 (
 listeners
 )
@@ -4338,8 +4314,6 @@ array
 *
 /
 stopListeners
-:
-function
 (
 listeners
 )
@@ -4740,8 +4714,6 @@ _listeners
 return
 {
 stoppedListeners
-:
-stoppedListeners
 }
 ;
 }
@@ -4818,8 +4790,6 @@ array
 *
 /
 getCachedMessages
-:
-function
 (
 messageTypes
 )
@@ -5202,8 +5172,6 @@ break
 return
 {
 messages
-:
-messages
 }
 ;
 }
@@ -5297,10 +5265,8 @@ field
 .
 *
 /
-evaluateJSAsync
-:
 async
-function
+evaluateJSAsync
 (
 request
 )
@@ -5749,10 +5715,8 @@ object
 .
 *
 /
-_maybeWaitForResponseResult
-:
 async
-function
+_maybeWaitForResponseResult
 (
 response
 )
@@ -6038,8 +6002,6 @@ packet
 *
 /
 evaluateJS
-:
-function
 (
 request
 )
@@ -6325,8 +6287,6 @@ next
 line
 complexity
 prepareEvaluationResult
-:
-function
 (
 evalInfo
 input
@@ -7379,8 +7339,6 @@ catch
 return
 {
 input
-:
-input
 result
 :
 resultGrip
@@ -7409,8 +7367,6 @@ errorGrip
 null
 errorMessageName
 frame
-helperResult
-:
 helperResult
 notes
 :
@@ -7517,8 +7473,6 @@ properties
 *
 /
 autocomplete
-:
-function
 (
 text
 cursor
@@ -8233,8 +8187,6 @@ handler
 *
 /
 clearMessagesCacheAsync
-:
-function
 (
 )
 {
@@ -8479,8 +8431,6 @@ map
 *
 /
 getPreferences
-:
-function
 (
 preferences
 )
@@ -8552,8 +8502,6 @@ updated
 *
 /
 setPreferences
-:
-function
 (
 preferences
 )
@@ -8809,8 +8757,6 @@ evaluation
 *
 /
 _getWebConsoleCommands
-:
-function
 (
 debuggerGlobal
 )
@@ -9138,8 +9084,6 @@ helpers
 ;
 }
 _getWebConsoleCommandsCache
-:
-function
 (
 )
 {
@@ -9242,8 +9186,6 @@ client
 *
 /
 onConsoleServiceMessage
-:
-function
 (
 message
 )
@@ -9583,8 +9525,6 @@ client
 *
 /
 preparePageErrorForRemote
-:
-function
 (
 pageError
 )
@@ -10183,8 +10123,6 @@ emitted
 *
 /
 onConsoleAPICall
-:
-function
 (
 message
 extraProperties
@@ -10333,8 +10271,6 @@ js
 *
 /
 onDocumentEvent
-:
-function
 (
 name
 {
@@ -11557,8 +11493,6 @@ URI
 *
 /
 onFileActivity
-:
-function
 (
 fileURI
 )
@@ -11679,8 +11613,6 @@ client
 *
 /
 prepareConsoleMessageForRemote
-:
-function
 (
 message
 useObjectGlobal
@@ -12206,8 +12138,6 @@ call
 *
 /
 _getConsoleTableMessageItems
-:
-function
 (
 result
 )
@@ -12606,8 +12536,6 @@ topic
 *
 /
 _onObserverNotification
-:
-function
 (
 subject
 topic
@@ -12668,8 +12596,6 @@ scope
 *
 /
 _onWillNavigate
-:
-function
 (
 {
 window
@@ -12744,8 +12670,6 @@ document
 *
 /
 _onChangedToplevelDocument
-:
-function
 (
 )
 {

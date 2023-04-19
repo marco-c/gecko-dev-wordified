@@ -362,10 +362,8 @@ tab
 .
 *
 /
-create
-:
 async
-function
+create
 (
 )
 {
@@ -560,8 +558,6 @@ host
 *
 /
 raise
-:
-function
 (
 )
 {
@@ -594,8 +590,6 @@ type
 *
 /
 setTitle
-:
-function
 (
 )
 {
@@ -612,8 +606,6 @@ dock
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -1360,8 +1352,6 @@ toolbox
 *
 /
 create
-:
-function
 (
 )
 {
@@ -1745,8 +1735,6 @@ window
 *
 /
 _boundUnload
-:
-function
 (
 event
 )
@@ -1805,8 +1793,6 @@ host
 *
 /
 raise
-:
-function
 (
 )
 {
@@ -1831,8 +1817,6 @@ title
 *
 /
 setTitle
-:
-function
 (
 title
 )
@@ -1859,8 +1843,6 @@ window
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -1957,10 +1939,8 @@ type
 "
 browsertoolbox
 "
-create
-:
 async
-function
+create
 (
 )
 {
@@ -2014,8 +1994,6 @@ host
 *
 /
 raise
-:
-function
 (
 )
 {
@@ -2042,8 +2020,6 @@ title
 *
 /
 setTitle
-:
-function
 (
 title
 )
@@ -2072,8 +2048,6 @@ the
 application
 .
 destroy
-:
-function
 (
 )
 {
@@ -2168,8 +2142,6 @@ type
 page
 "
 create
-:
-function
 (
 )
 {
@@ -2190,8 +2162,6 @@ Do
 nothing
 .
 raise
-:
-function
 (
 )
 {
@@ -2202,8 +2172,6 @@ Do
 nothing
 .
 setTitle
-:
-function
 (
 title
 )
@@ -2215,8 +2183,6 @@ Do
 nothing
 .
 destroy
-:
-function
 (
 )
 {

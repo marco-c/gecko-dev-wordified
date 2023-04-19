@@ -257,8 +257,6 @@ value
 *
 /
 getPropertyFromRule
-:
-function
 (
 rule
 property
@@ -391,8 +389,6 @@ string
 *
 /
 getProperty
-:
-function
 (
 property
 )
@@ -638,8 +634,6 @@ rule
 *
 /
 getPropertyIndex
-:
-function
 (
 name
 rule
@@ -1219,8 +1213,6 @@ apply
 }
 }
 destroy
-:
-function
 (
 )
 {

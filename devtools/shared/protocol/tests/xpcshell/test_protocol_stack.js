@@ -174,8 +174,6 @@ ActorClassWithSpec
 rootSpec
 {
 initialize
-:
-function
 (
 conn
 )
@@ -227,8 +225,6 @@ sayHello
 :
 simpleHello
 simpleReturn
-:
-function
 (
 )
 {

@@ -353,8 +353,6 @@ endpoint
 *
 /
 send
-:
-function
 (
 packet
 )
@@ -644,8 +642,6 @@ it
 *
 /
 startBulkSend
-:
-function
 (
 {
 actor
@@ -782,13 +778,7 @@ packet
 =
 {
 actor
-:
-actor
 type
-:
-type
-length
-:
 length
 copyTo
 :
@@ -1034,8 +1024,6 @@ transport
 *
 /
 close
-:
-function
 (
 )
 {
@@ -1152,8 +1140,6 @@ API
 *
 /
 ready
-:
-function
 (
 )
 {
@@ -1174,8 +1160,6 @@ immutable
 *
 /
 _deepFreeze
-:
-function
 (
 object
 )

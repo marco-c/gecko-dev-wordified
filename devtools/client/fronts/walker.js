@@ -1054,8 +1054,6 @@ releaseNode
 (
 {
 actorID
-:
-actorID
 }
 )
 ;
@@ -2231,10 +2229,6 @@ node
 return
 {
 previousSibling
-:
-previousSibling
-nextSibling
-:
 nextSibling
 }
 ;

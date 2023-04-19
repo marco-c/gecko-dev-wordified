@@ -451,10 +451,8 @@ done
 .
 *
 /
-build
-:
 async
-function
+build
 (
 )
 {
@@ -572,8 +570,6 @@ log
 /
 Helpers
 buildPage
-:
-function
 (
 file
 )
@@ -638,8 +634,6 @@ page
 ;
 }
 getPage
-:
-function
 (
 log
 file
@@ -702,10 +696,8 @@ return
 page
 ;
 }
-buildEntry
-:
 async
-function
+buildEntry
 (
 log
 file
@@ -1185,8 +1177,6 @@ entry
 ;
 }
 buildPageTimings
-:
-function
 (
 page
 file
@@ -1256,10 +1246,8 @@ return
 timings
 ;
 }
-buildRequest
-:
 async
-function
+buildRequest
 (
 file
 )
@@ -1549,8 +1537,6 @@ object
 *
 /
 buildHeaders
-:
-function
 (
 input
 )
@@ -1578,8 +1564,6 @@ headers
 ;
 }
 appendHeadersPostData
-:
-function
 (
 input
 =
@@ -1653,8 +1637,6 @@ input
 ;
 }
 buildCookies
-:
-function
 (
 input
 )
@@ -1685,8 +1667,6 @@ input
 ;
 }
 buildNameValuePairs
-:
-function
 (
 entries
 )
@@ -1774,8 +1754,6 @@ entry
 .
 name
 value
-:
-value
 }
 )
 ;
@@ -1789,10 +1767,8 @@ return
 result
 ;
 }
-buildPostData
-:
 async
-function
+buildPostData
 (
 file
 )
@@ -2108,10 +2084,8 @@ return
 postData
 ;
 }
-buildResponse
-:
 async
-function
+buildResponse
 (
 file
 )
@@ -2458,10 +2432,8 @@ return
 response
 ;
 }
-buildContent
-:
 async
-function
+buildContent
 (
 file
 )
@@ -2684,10 +2656,8 @@ return
 content
 ;
 }
-buildCache
-:
 async
-function
+buildCache
 (
 file
 )
@@ -2817,8 +2787,6 @@ cache
 ;
 }
 buildCacheEntry
-:
-function
 (
 cacheEntry
 )
@@ -2987,8 +2955,6 @@ cache
 ;
 }
 getBlockingEndTime
-:
-function
 (
 file
 )
@@ -3060,8 +3026,6 @@ waitingForTime
 RDP
 Helpers
 fetchData
-:
-function
 (
 string
 )

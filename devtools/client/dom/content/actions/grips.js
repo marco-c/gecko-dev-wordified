@@ -111,8 +111,6 @@ grip
 return
 {
 grip
-:
-grip
 type
 :
 constants
@@ -156,8 +154,6 @@ error
 return
 {
 grip
-:
-grip
 type
 :
 constants
@@ -169,10 +165,6 @@ status
 done
 "
 response
-:
-response
-error
-:
 error
 }
 ;

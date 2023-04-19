@@ -313,8 +313,6 @@ actor
 *
 /
 getText
-:
-function
 (
 )
 {
@@ -472,8 +470,6 @@ properties
 *
 /
 getOriginalLocation
-:
-function
 (
 relatedSheet
 line
@@ -563,15 +559,11 @@ an
 event
 .
 on
-:
-function
 (
 )
 {
 }
 off
-:
-function
 (
 )
 {

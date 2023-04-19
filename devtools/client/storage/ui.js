@@ -4939,8 +4939,6 @@ id
 :
 host
 label
-:
-label
 type
 :
 "
@@ -6531,8 +6529,6 @@ type
 id
 :
 host
-label
-:
 label
 type
 :

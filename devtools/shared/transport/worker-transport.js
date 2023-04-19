@@ -427,8 +427,6 @@ constructor
 :
 WorkerThreadWorkerDebuggerTransport
 ready
-:
-function
 (
 )
 {
@@ -448,8 +446,6 @@ _onMessage
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -478,8 +474,6 @@ onTransportClosed
 ;
 }
 send
-:
-function
 (
 packet
 )
@@ -514,8 +508,6 @@ packet
 ;
 }
 startBulkSend
-:
-function
 (
 )
 {
@@ -539,8 +531,6 @@ threads
 ;
 }
 _onMessage
-:
-function
 (
 event
 )

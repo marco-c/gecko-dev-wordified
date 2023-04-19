@@ -380,8 +380,6 @@ exports
 name
 {
 get
-:
-function
 (
 )
 {

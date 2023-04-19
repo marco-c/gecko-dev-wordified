@@ -991,8 +991,6 @@ use
 *
 /
 startInitialization
-:
-function
 (
 inputString
 )
@@ -1104,8 +1102,6 @@ modify
 *
 /
 completeInitialization
-:
-function
 (
 index
 )
@@ -1320,8 +1316,6 @@ position
 *
 /
 getIndentation
-:
-function
 (
 string
 offset
@@ -1624,8 +1618,6 @@ safe
 *
 /
 sanitizePropertyValue
-:
-function
 (
 text
 )
@@ -2405,8 +2397,6 @@ or
 *
 /
 skipWhitespaceBackward
-:
-function
 (
 string
 index
@@ -2507,8 +2497,6 @@ that
 *
 /
 maybeTerminateDecl
-:
-function
 (
 index
 )
@@ -2953,8 +2941,6 @@ text
 *
 /
 sanitizeText
-:
-function
 (
 text
 index
@@ -3040,8 +3026,6 @@ property
 *
 /
 renameProperty
-:
-function
 (
 index
 name
@@ -3188,8 +3172,6 @@ disabled
 *
 /
 setPropertyEnabled
-:
-function
 (
 index
 name
@@ -3695,10 +3677,8 @@ rule
 .
 *
 /
-getDefaultIndentation
-:
 async
-function
+getDefaultIndentation
 (
 )
 {
@@ -4435,8 +4415,6 @@ disabled
 *
 /
 createProperty
-:
-function
 (
 index
 name
@@ -4601,8 +4579,6 @@ important
 *
 /
 setProperty
-:
-function
 (
 index
 name
@@ -4826,8 +4802,6 @@ remove
 *
 /
 removeProperty
-:
-function
 (
 index
 name
@@ -5207,8 +5181,6 @@ string
 *
 /
 completeCopying
-:
-function
 (
 copyOffset
 )
@@ -5272,8 +5244,6 @@ complete
 *
 /
 apply
-:
-function
 (
 )
 {
@@ -5404,8 +5374,6 @@ rule
 *
 /
 getResult
-:
-function
 (
 )
 {

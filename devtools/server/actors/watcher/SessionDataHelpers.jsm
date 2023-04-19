@@ -507,8 +507,6 @@ SUPPORTED_DATA
 .
 BLACKBOXING
 ]
-:
-function
 (
 {
 url
@@ -567,8 +565,6 @@ SUPPORTED_DATA
 .
 BREAKPOINTS
 ]
-:
-function
 (
 {
 location
@@ -615,8 +611,6 @@ SUPPORTED_DATA
 .
 TARGET_CONFIGURATION
 ]
-:
-function
 (
 {
 key
@@ -657,8 +651,6 @@ SUPPORTED_DATA
 .
 THREAD_CONFIGURATION
 ]
-:
-function
 (
 {
 key
@@ -680,8 +672,6 @@ SUPPORTED_DATA
 .
 XHR_BREAKPOINTS
 ]
-:
-function
 (
 {
 path
@@ -768,8 +758,6 @@ SUPPORTED_DATA
 .
 EVENT_BREAKPOINTS
 ]
-:
-function
 (
 id
 )

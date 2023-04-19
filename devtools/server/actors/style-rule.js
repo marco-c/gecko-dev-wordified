@@ -487,8 +487,6 @@ ActorClassWithSpec
 styleRuleSpec
 {
 initialize
-:
-function
 (
 pageStyle
 item
@@ -767,8 +765,6 @@ item
 .
 style
 toString
-:
-function
 (
 )
 {
@@ -806,8 +802,6 @@ conn
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -2057,8 +2051,6 @@ data
 ;
 }
 getDocument
-:
-function
 (
 sheet
 )
@@ -2097,8 +2089,6 @@ associatedDocument
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -2129,8 +2119,6 @@ next
 line
 complexity
 form
-:
-function
 (
 )
 {
@@ -3460,8 +3448,6 @@ number
 *
 /
 _notifyLocationChanged
-:
-function
 (
 line
 column
@@ -3536,8 +3522,6 @@ rules
 *
 /
 _computeRuleIndex
-:
-function
 (
 )
 {
@@ -3730,8 +3714,6 @@ _ruleIndex
 *
 /
 _getRuleFromIndex
-:
-function
 (
 parentSheet
 )
@@ -3815,8 +3797,6 @@ event
 *
 /
 _onStyleApplied
-:
-function
 (
 kind
 )
@@ -4183,10 +4163,8 @@ changed
 .
 *
 /
-getAuthoredCssText
-:
 async
-function
+getAuthoredCssText
 (
 skipCache
 =
@@ -4516,10 +4494,8 @@ String
 }
 *
 /
-getRuleText
-:
 async
-function
+getRuleText
 (
 )
 {
@@ -5414,8 +5390,6 @@ properties
 *
 /
 modifyProperties
-:
-function
 (
 modifications
 )
@@ -7207,8 +7181,6 @@ element
 *
 /
 modifySelector
-:
-function
 (
 node
 value

@@ -811,8 +811,6 @@ ActorClassWithSpec
 inspectorSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -879,8 +877,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -948,8 +944,6 @@ window
 ;
 }
 getWalker
-:
-function
 (
 options
 =
@@ -1258,8 +1252,6 @@ _walkerPromise
 ;
 }
 getPageStyle
-:
-function
 (
 )
 {
@@ -1320,8 +1312,6 @@ _pageStylePromise
 ;
 }
 getCompatibility
-:
-function
 (
 )
 {
@@ -1469,10 +1459,8 @@ available
 highlighter
 *
 /
-getHighlighterByType
-:
 async
-function
+getHighlighterByType
 (
 typeName
 )
@@ -1640,8 +1628,6 @@ smaller
 *
 /
 getImageDataFromURL
-:
-function
 (
 url
 maxDim
@@ -1787,8 +1773,6 @@ url
 *
 /
 resolveRelativeURL
-:
-function
 (
 url
 node
@@ -1902,8 +1886,6 @@ navigation
 *
 /
 createEyeDropper
-:
-function
 (
 )
 {
@@ -1969,8 +1951,6 @@ instance
 *
 /
 destroyEyeDropper
-:
-function
 (
 )
 {
@@ -2073,10 +2053,8 @@ Object
 options
 *
 /
-pickColorFromPage
-:
 async
-function
+pickColorFromPage
 (
 options
 )
@@ -2203,8 +2181,6 @@ method
 *
 /
 cancelPickColorFromPage
-:
-function
 (
 )
 {
@@ -2317,8 +2293,6 @@ error
 *
 /
 supportsHighlighters
-:
-function
 (
 )
 {
@@ -2399,8 +2373,6 @@ true
 ;
 }
 _onColorPicked
-:
-function
 (
 color
 )
@@ -2419,8 +2391,6 @@ color
 ;
 }
 _onColorPickCanceled
-:
-function
 (
 )
 {

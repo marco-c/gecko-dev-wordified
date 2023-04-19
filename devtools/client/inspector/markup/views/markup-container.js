@@ -360,8 +360,6 @@ READ_ONLY_CONTAINER
 *
 /
 initialize
-:
-function
 (
 markupView
 node
@@ -574,8 +572,6 @@ true
 }
 }
 buildMarkup
-:
-function
 (
 )
 {
@@ -984,8 +980,6 @@ children
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -1006,8 +1000,6 @@ node
 ;
 }
 isPreviewable
-:
-function
 (
 )
 {
@@ -1142,8 +1134,6 @@ displayed
 *
 /
 updateIsDisplayed
-:
-function
 (
 )
 {
@@ -1484,8 +1474,6 @@ focus
 *
 /
 clearFocus
-:
-function
 (
 )
 {
@@ -1694,8 +1682,6 @@ mustExpand
 ;
 }
 updateExpander
-:
-function
 (
 )
 {
@@ -1854,8 +1840,6 @@ view
 *
 /
 setChildrenRole
-:
-function
 (
 )
 {
@@ -1903,8 +1887,6 @@ subtree
 *
 /
 updateLevel
-:
-function
 (
 )
 {
@@ -2039,8 +2021,6 @@ children
 *
 /
 getChildContainers
-:
-function
 (
 )
 {
@@ -2129,8 +2109,6 @@ collapsed
 ;
 }
 setExpanded
-:
-function
 (
 value
 )
@@ -2378,8 +2356,6 @@ children
 *
 /
 showCloseTagLine
-:
-function
 (
 )
 {
@@ -2624,8 +2600,6 @@ expanded
 *
 /
 hideCloseTagLine
-:
-function
 (
 )
 {
@@ -2659,8 +2633,6 @@ undefined
 ;
 }
 parentContainer
-:
-function
 (
 )
 {
@@ -2979,8 +2951,6 @@ draggable
 *
 /
 isDraggable
-:
-function
 (
 )
 {
@@ -3085,8 +3055,6 @@ null
 ;
 }
 isSlotted
-:
-function
 (
 )
 {
@@ -3095,8 +3063,6 @@ false
 ;
 }
 _onKeyDown
-:
-function
 (
 event
 )
@@ -3386,8 +3352,6 @@ stopPropagation
 ;
 }
 _onMouseDown
-:
-function
 (
 event
 )
@@ -3985,8 +3949,6 @@ listeners
 *
 /
 onMouseMove
-:
-function
 (
 event
 )
@@ -4274,8 +4236,6 @@ el
 }
 }
 cancelDragging
-:
-function
 (
 )
 {
@@ -4337,8 +4297,6 @@ mutations
 *
 /
 flashMutation
-:
-function
 (
 )
 {
@@ -4865,8 +4823,6 @@ node
 *
 /
 update
-:
-function
 (
 )
 {
@@ -5025,8 +4981,6 @@ editor
 *
 /
 focus
-:
-function
 (
 )
 {
@@ -5078,8 +5032,6 @@ focus
 }
 }
 _onToggle
-:
-function
 (
 event
 )
@@ -5186,8 +5138,6 @@ collapsed
 *
 /
 expandContainer
-:
-function
 (
 applyToDescendants
 )
@@ -5239,8 +5189,6 @@ needed
 *
 /
 destroy
-:
-function
 (
 )
 {

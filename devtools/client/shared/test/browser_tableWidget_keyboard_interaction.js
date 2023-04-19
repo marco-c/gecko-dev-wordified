@@ -207,8 +207,6 @@ l10n
 :
 {
 setAttributes
-:
-function
 (
 )
 {
@@ -625,8 +623,6 @@ synthesizeMouseAtCenter
 (
 node
 {
-button
-:
 button
 type
 :

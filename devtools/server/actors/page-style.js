@@ -504,8 +504,6 @@ constructor
 *
 /
 initialize
-:
-function
 (
 inspector
 )
@@ -797,8 +795,6 @@ _onStylesheetUpdated
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -968,8 +964,6 @@ window
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -1222,8 +1216,6 @@ updated
 *
 /
 _styleApplied
-:
-function
 (
 kind
 styleSheet
@@ -1307,8 +1299,6 @@ element
 *
 /
 _styleRef
-:
-function
 (
 item
 )
@@ -1436,8 +1426,6 @@ StyleRuleActor
 *
 /
 updateStyleRef
-:
-function
 (
 oldItem
 item
@@ -1509,8 +1497,6 @@ sheet
 *
 /
 _sheetRef
-:
-function
 (
 sheet
 )
@@ -1634,8 +1620,6 @@ null
 *
 /
 getRule
-:
-function
 (
 ruleId
 )
@@ -1874,8 +1858,6 @@ value
 *
 /
 getComputed
-:
-function
 (
 node
 options
@@ -2160,8 +2142,6 @@ node
 *
 /
 getAllUsedFontFaces
-:
-function
 (
 options
 )
@@ -2341,8 +2321,6 @@ node
 *
 /
 getUsedFontFaces
-:
-function
 (
 node
 options
@@ -2764,8 +2742,6 @@ this
 conn
 dataURL
 )
-size
-:
 size
 }
 ;
@@ -3259,8 +3235,6 @@ domsheet
 *
 /
 getMatchedSelectors
-:
-function
 (
 node
 property
@@ -3383,8 +3357,6 @@ push
 (
 {
 rule
-:
-rule
 sourceText
 :
 this
@@ -3433,8 +3405,6 @@ sheets
 return
 {
 matched
-:
-matched
 rules
 :
 [
@@ -3472,8 +3442,6 @@ given
 node
 .
 getSelectorSource
-:
-function
 (
 selectorInfo
 relativeTo
@@ -3912,8 +3880,6 @@ result
 ;
 }
 _hasInheritedProps
-:
-function
 (
 style
 )
@@ -4121,8 +4087,6 @@ String
 *
 /
 _getAllElementRules
-:
-function
 (
 node
 inherited
@@ -5018,8 +4982,6 @@ Array
 *
 /
 _getElementRules
-:
-function
 (
 node
 pseudo
@@ -5329,8 +5291,6 @@ _getAllElementRules
 *
 /
 findEntryMatchingRule
-:
-function
 (
 node
 filterRule
@@ -5636,8 +5596,6 @@ rules
 *
 /
 getAppliedProps
-:
-function
 (
 node
 entries
@@ -6045,8 +6003,6 @@ sheets
 return
 {
 entries
-:
-entries
 rules
 :
 [
@@ -6087,8 +6043,6 @@ sheets
 *
 /
 expandSets
-:
-function
 (
 ruleSet
 sheetSet
@@ -6458,8 +6412,6 @@ Object
 *
 /
 getLayout
-:
-function
 (
 node
 options
@@ -6779,8 +6731,6 @@ properties
 *
 /
 processMargins
-:
-function
 (
 cssLogic
 )
@@ -6889,8 +6839,6 @@ objects
 *
 /
 onFrameUnload
-:
-function
 (
 )
 {
@@ -6939,8 +6887,6 @@ stylesheet
 *
 /
 onStyleSheetAdded
-:
-function
 (
 actor
 )
@@ -7176,8 +7122,6 @@ tag
 *
 /
 getStyleElement
-:
-function
 (
 document
 )
@@ -7309,8 +7253,6 @@ properties
 *
 /
 getNewAppliedProps
-:
-function
 (
 node
 rule

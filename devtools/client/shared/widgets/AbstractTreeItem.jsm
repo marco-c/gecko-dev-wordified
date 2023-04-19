@@ -1072,8 +1072,6 @@ Node
 *
 /
 _displaySelf
-:
-function
 (
 document
 arrowNode
@@ -1156,8 +1154,6 @@ children
 *
 /
 _populateSelf
-:
-function
 (
 children
 )
@@ -1572,8 +1568,6 @@ item
 *
 /
 attachTo
-:
-function
 (
 containerNode
 fragmentNode
@@ -1667,8 +1661,6 @@ container
 *
 /
 remove
-:
-function
 (
 )
 {
@@ -1709,8 +1701,6 @@ tree
 *
 /
 focus
-:
-function
 (
 )
 {
@@ -1737,8 +1727,6 @@ tree
 *
 /
 expand
-:
-function
 (
 )
 {
@@ -1818,8 +1806,6 @@ tree
 *
 /
 collapse
-:
-function
 (
 )
 {
@@ -1908,8 +1894,6 @@ AbstractTreeItem
 *
 /
 getChild
-:
-function
 (
 index
 =
@@ -1961,8 +1945,6 @@ cb
 *
 /
 traverse
-:
-function
 (
 cb
 )
@@ -2025,8 +2007,6 @@ AbstractTreeItem
 *
 /
 find
-:
-function
 (
 predicate
 )
@@ -2111,8 +2091,6 @@ otherwise
 *
 /
 _toggleChildren
-:
-function
 (
 visible
 )
@@ -2186,8 +2164,6 @@ tree
 *
 /
 _showChildren
-:
-function
 (
 )
 {
@@ -2310,8 +2286,6 @@ tree
 *
 /
 _hideChildren
-:
-function
 (
 )
 {
@@ -2371,8 +2345,6 @@ expand
 *
 /
 _appendChildrenBatch
-:
-function
 (
 )
 {
@@ -2468,8 +2440,6 @@ successively
 *
 /
 _appendChildrenSuccessive
-:
-function
 (
 )
 {
@@ -2591,8 +2561,6 @@ item
 *
 /
 _constructTargetNode
-:
-function
 (
 )
 {
@@ -2883,8 +2851,6 @@ offset
 *
 /
 _getSiblingAtDelta
-:
-function
 (
 delta
 )
@@ -2939,8 +2905,6 @@ undefined
 ;
 }
 _getNodesPerPageSize
-:
-function
 (
 )
 {
@@ -2991,8 +2955,6 @@ nodeHeight
 ;
 }
 _getHeight
-:
-function
 (
 elem
 )
@@ -3039,8 +3001,6 @@ tree
 *
 /
 _focusFirstNode
-:
-function
 (
 )
 {
@@ -3154,8 +3114,6 @@ tree
 *
 /
 _focusLastNode
-:
-function
 (
 )
 {
@@ -3197,8 +3155,6 @@ tree
 *
 /
 _focusNextNode
-:
-function
 (
 )
 {
@@ -3243,8 +3199,6 @@ tree
 *
 /
 _focusPrevNode
-:
-function
 (
 )
 {
@@ -3311,8 +3265,6 @@ children
 *
 /
 _focusParentNode
-:
-function
 (
 )
 {
@@ -3362,8 +3314,6 @@ item
 *
 /
 _onArrowClick
-:
-function
 (
 e
 )
@@ -3415,8 +3365,6 @@ item
 *
 /
 _onClick
-:
-function
 (
 e
 )
@@ -3456,8 +3404,6 @@ item
 *
 /
 _onDoubleClick
-:
-function
 (
 e
 )
@@ -3536,8 +3482,6 @@ item
 *
 /
 _onKeyDown
-:
-function
 (
 e
 )
@@ -3823,8 +3767,6 @@ item
 *
 /
 _onFocus
-:
-function
 (
 e
 )
@@ -3864,8 +3806,6 @@ item
 *
 /
 _onBlur
-:
-function
 (
 e
 )

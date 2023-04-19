@@ -91,8 +91,6 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 )
 {
@@ -107,8 +105,6 @@ start
 ;
 }
 onStopRequest
-:
-function
 (
 )
 {
@@ -123,8 +119,6 @@ stop
 ;
 }
 onDataAvailable
-:
-function
 (
 request
 inputStream
@@ -182,8 +176,6 @@ data
 ;
 }
 setState
-:
-function
 (
 state
 )
@@ -219,8 +211,6 @@ null
 }
 }
 onStateChanged
-:
-function
 (
 )
 {
@@ -315,8 +305,6 @@ prototype
 =
 {
 QueryInterface
-:
-function
 (
 )
 {
@@ -357,8 +345,6 @@ throttled
 ;
 }
 setNewListener
-:
-function
 (
 listener
 )

@@ -1239,8 +1239,6 @@ message
 .
 workerTargetForm
 transport
-:
-transport
 }
 )
 ;

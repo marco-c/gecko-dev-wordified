@@ -512,8 +512,6 @@ _loadPreferredDevices
 :
 loadPreferredDevices
 updatePreferredDevices
-:
-updatePreferredDevices
 addCustomDevice
 (
 device

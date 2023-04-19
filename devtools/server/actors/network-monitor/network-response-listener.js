@@ -924,8 +924,6 @@ void
 *
 /
 setAsyncListener
-:
-function
 (
 stream
 listener
@@ -1047,8 +1045,6 @@ count
 *
 /
 onDataAvailable
-:
-function
 (
 request
 inputStream
@@ -1214,8 +1210,6 @@ context
 *
 /
 onStartRequest
-:
-function
 (
 request
 )
@@ -1824,10 +1818,8 @@ client
 .
 *
 /
-_getSecurityInfo
-:
 async
-function
+_getSecurityInfo
 (
 )
 {
@@ -2115,8 +2107,6 @@ private
 *
 /
 _fetchCacheInformation
-:
-function
 (
 )
 {
@@ -2196,8 +2186,6 @@ NsIRequestObserver
 *
 /
 onStopRequest
-:
-function
 (
 )
 {
@@ -2286,8 +2274,6 @@ encoded
 *
 /
 onProgress
-:
-function
 (
 request
 progress
@@ -2337,8 +2323,6 @@ arguments
 ;
 }
 onStatus
-:
-function
 (
 )
 {
@@ -2425,8 +2409,6 @@ private
 *
 /
 _findOpenResponse
-:
-function
 (
 )
 {
@@ -2567,8 +2549,6 @@ void
 *
 /
 onStreamClose
-:
-function
 (
 )
 {
@@ -2824,8 +2804,6 @@ cache
 *
 /
 _onComplete
-:
-function
 (
 data
 )
@@ -2886,8 +2864,6 @@ client
 *
 /
 _getResponseContent
-:
-function
 (
 data
 )
@@ -3173,8 +3149,6 @@ id
 ;
 }
 _destroy
-:
-function
 (
 )
 {
@@ -3269,8 +3243,6 @@ void
 *
 /
 onInputStreamReady
-:
-function
 (
 stream
 )

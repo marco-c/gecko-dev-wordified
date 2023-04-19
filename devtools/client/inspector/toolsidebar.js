@@ -292,8 +292,6 @@ TabBar
 /
 Rendering
 render
-:
-function
 (
 )
 {
@@ -374,8 +372,6 @@ tabs
 *
 /
 addAllQueuedTabs
-:
-function
 (
 )
 {
@@ -462,8 +458,6 @@ inserted
 *
 /
 addTab
-:
-function
 (
 id
 title
@@ -576,8 +570,6 @@ inserted
 *
 /
 addExistingTab
-:
-function
 (
 id
 title
@@ -594,8 +586,6 @@ InspectorTabPanel
 (
 {
 id
-:
-id
 idPrefix
 :
 this
@@ -604,8 +594,6 @@ TABPANEL_ID_PREFIX
 key
 :
 id
-title
-:
 title
 }
 )
@@ -700,8 +688,6 @@ inserted
 *
 /
 queueTab
-:
-function
 (
 id
 title
@@ -814,8 +800,6 @@ inserted
 *
 /
 queueExistingTab
-:
-function
 (
 id
 title
@@ -832,8 +816,6 @@ InspectorTabPanel
 (
 {
 id
-:
-id
 idPrefix
 :
 this
@@ -842,8 +824,6 @@ TABPANEL_ID_PREFIX
 key
 :
 id
-title
-:
 title
 }
 )
@@ -1010,8 +990,6 @@ hidden
 *
 /
 toggleTab
-:
-function
 (
 isVisible
 id
@@ -1040,8 +1018,6 @@ tab
 *
 /
 select
-:
-function
 (
 id
 )
@@ -1071,8 +1047,6 @@ tab
 *
 /
 getCurrentTabID
-:
-function
 (
 )
 {
@@ -1110,8 +1084,6 @@ DOMNode
 *
 /
 getTabPanel
-:
-function
 (
 id
 )
@@ -1176,8 +1148,6 @@ handler
 *
 /
 handleSelectionChange
-:
-function
 (
 id
 )
@@ -1302,8 +1272,6 @@ tool
 *
 /
 updateTelemetryOnChange
-:
-function
 (
 currentToolId
 previousToolId
@@ -1513,8 +1481,6 @@ process
 *
 /
 getTelemetryPanelNameOrOther
-:
-function
 (
 id
 )
@@ -1661,8 +1627,6 @@ select
 *
 /
 show
-:
-function
 (
 id
 )
@@ -1722,8 +1686,6 @@ sidebar
 *
 /
 hide
-:
-function
 (
 )
 {

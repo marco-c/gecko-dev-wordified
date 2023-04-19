@@ -1703,8 +1703,6 @@ push
 (
 {
 className
-:
-className
 wasAppliedOnNode
 :
 this

@@ -885,8 +885,6 @@ docShells
 "
 {
 get
-:
-function
 (
 )
 {

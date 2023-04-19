@@ -151,8 +151,6 @@ display
 *
 /
 timestampString
-:
-function
 (
 milliseconds
 )
@@ -265,8 +263,6 @@ string
 *
 /
 getStr
-:
-function
 (
 name
 )
@@ -371,8 +367,6 @@ string
 *
 /
 getFormatStr
-:
-function
 (
 name
 array

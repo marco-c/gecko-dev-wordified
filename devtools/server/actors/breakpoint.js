@@ -330,8 +330,6 @@ oldOptions
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -349,8 +347,6 @@ null
 ;
 }
 hasScript
-:
-function
 (
 script
 )
@@ -424,8 +420,6 @@ with
 *
 /
 addScript
-:
-function
 (
 script
 offsets
@@ -486,8 +480,6 @@ cache
 *
 /
 removeScripts
-:
-function
 (
 )
 {
@@ -711,8 +703,6 @@ message
 *
 /
 checkCondition
-:
-function
 (
 frame
 condition
@@ -875,8 +865,6 @@ next
 line
 complexity
 hit
-:
-function
 (
 frame
 )
@@ -1208,8 +1196,6 @@ reason
 ;
 }
 delete
-:
-function
 (
 )
 {

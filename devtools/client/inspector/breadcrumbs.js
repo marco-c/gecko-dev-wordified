@@ -305,8 +305,6 @@ events
 *
 /
 init
-:
-function
 (
 )
 {
@@ -553,8 +551,6 @@ scrolling
 *
 /
 scrollToElement
-:
-function
 (
 element
 block
@@ -565,8 +561,6 @@ element
 scrollIntoView
 (
 {
-block
-:
 block
 behavior
 :
@@ -614,8 +608,6 @@ held
 *
 /
 clickOrHold
-:
-function
 (
 repeatFn
 )
@@ -752,8 +744,6 @@ element
 *
 /
 onStartBtnDblClick
-:
-function
 (
 )
 {
@@ -818,8 +808,6 @@ element
 *
 /
 onEndBtnDblClick
-:
-function
 (
 )
 {
@@ -884,8 +872,6 @@ element
 *
 /
 onStartBtnClick
-:
-function
 (
 )
 {
@@ -952,8 +938,6 @@ element
 *
 /
 onEndBtnClick
-:
-function
 (
 )
 {
@@ -1025,8 +1009,6 @@ buttons
 *
 /
 onScroll
-:
-function
 (
 )
 {
@@ -1133,8 +1115,6 @@ invisible
 *
 /
 onUnderflow
-:
-function
 (
 )
 {
@@ -1185,8 +1165,6 @@ buttons
 *
 /
 onOverflow
-:
-function
 (
 )
 {
@@ -1301,8 +1279,6 @@ element
 *
 /
 elementLeftOfContainer
-:
-function
 (
 left
 right
@@ -1404,8 +1380,6 @@ element
 *
 /
 elementRightOfContainer
-:
-function
 (
 left
 right
@@ -1460,8 +1434,6 @@ box
 *
 /
 getFirstInvisibleElement
-:
-function
 (
 )
 {
@@ -1530,8 +1502,6 @@ box
 *
 /
 getLastInvisibleElement
-:
-function
 (
 )
 {
@@ -1603,8 +1573,6 @@ information
 *
 /
 findFirstWithBounds
-:
-function
 (
 elements
 predicate
@@ -1729,8 +1697,6 @@ DOM
 *
 /
 constructHtml
-:
-function
 (
 )
 {
@@ -1945,8 +1911,6 @@ element
 *
 /
 createElement
-:
-function
 (
 tagName
 className
@@ -2002,8 +1966,6 @@ up
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -2288,8 +2250,6 @@ walker
 ;
 }
 _init
-:
-function
 (
 )
 {
@@ -2744,8 +2704,6 @@ String
 *
 /
 prettyPrintNodeAsText
-:
-function
 (
 node
 )
@@ -3005,8 +2963,6 @@ DocumentFragment
 *
 /
 prettyPrintNodeAsXHTML
-:
-function
 (
 node
 )
@@ -3508,8 +3464,6 @@ event
 *
 /
 handleEvent
-:
-function
 (
 event
 )
@@ -3655,8 +3609,6 @@ event
 *
 /
 handleFocus
-:
-function
 (
 event
 )
@@ -3750,8 +3702,6 @@ event
 *
 /
 handleClick
-:
-function
 (
 event
 )
@@ -3807,8 +3757,6 @@ event
 *
 /
 handleMouseOver
-:
-function
 (
 event
 )
@@ -3862,8 +3810,6 @@ event
 *
 /
 handleMouseOut
-:
-function
 (
 event
 )
@@ -3934,8 +3880,6 @@ shortcut
 *
 /
 handleShortcut
-:
-function
 (
 event
 )
@@ -4141,8 +4085,6 @@ up
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -4347,8 +4289,6 @@ container
 *
 /
 empty
-:
-function
 (
 )
 {
@@ -4405,8 +4345,6 @@ select
 *
 /
 setCursor
-:
-function
 (
 index
 )
@@ -4562,8 +4500,6 @@ found
 *
 /
 indexOf
-:
-function
 (
 node
 )
@@ -4647,8 +4583,6 @@ index
 *
 /
 cutAfter
-:
-function
 (
 index
 )
@@ -4729,8 +4663,6 @@ node
 *
 /
 buildButton
-:
-function
 (
 node
 )
@@ -4928,8 +4860,6 @@ reach
 *
 /
 expand
-:
-function
 (
 node
 )
@@ -5126,8 +5056,6 @@ found
 *
 /
 getCommonAncestor
-:
-function
 (
 node
 )
@@ -5187,8 +5115,6 @@ visible
 *
 /
 scroll
-:
-function
 (
 )
 {
@@ -5255,8 +5181,6 @@ outputs
 *
 /
 updateSelectors
-:
-function
 (
 )
 {
@@ -5483,8 +5407,6 @@ Boolean
 *
 /
 _hasInterestingMutations
-:
-function
 (
 mutations
 )
@@ -5806,8 +5728,6 @@ listener
 *
 /
 update
-:
-function
 (
 reason
 mutations

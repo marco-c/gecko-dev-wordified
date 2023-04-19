@@ -557,8 +557,6 @@ changes
 *
 /
 refresh
-:
-function
 (
 )
 {
@@ -694,8 +692,6 @@ constructor
 *
 /
 _attach
-:
-function
 (
 element
 )
@@ -748,8 +744,6 @@ element
 *
 /
 _detach
-:
-function
 (
 )
 {
@@ -862,8 +856,6 @@ hiding
 *
 /
 show
-:
-function
 (
 element
 text
@@ -995,8 +987,6 @@ occur
 *
 /
 hide
-:
-function
 (
 shouldCommit
 )
@@ -1105,8 +1095,6 @@ handlers
 *
 /
 destroy
-:
-function
 (
 )
 {

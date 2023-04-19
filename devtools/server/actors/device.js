@@ -183,8 +183,6 @@ ActorClassWithSpec
 deviceSpec
 {
 initialize
-:
-function
 (
 conn
 )
@@ -269,8 +267,6 @@ _acquireWakeLock
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -318,8 +314,6 @@ true
 }
 }
 getDescription
-:
-function
 (
 )
 {
@@ -342,8 +336,6 @@ true
 ;
 }
 _acquireWakeLock
-:
-function
 (
 )
 {
@@ -406,8 +398,6 @@ _window
 ;
 }
 _releaseWakeLock
-:
-function
 (
 )
 {
@@ -454,8 +444,6 @@ null
 }
 }
 _onPageShow
-:
-function
 (
 )
 {

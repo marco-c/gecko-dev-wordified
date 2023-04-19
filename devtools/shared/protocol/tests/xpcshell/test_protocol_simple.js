@@ -412,8 +412,6 @@ ActorClassWithSpec
 rootSpec
 {
 initialize
-:
-function
 (
 conn
 )
@@ -459,8 +457,6 @@ sayHello
 :
 simpleHello
 simpleReturn
-:
-function
 (
 )
 {
@@ -469,8 +465,6 @@ return
 ;
 }
 promiseReturn
-:
-function
 (
 )
 {
@@ -484,8 +478,6 @@ resolve
 ;
 }
 simpleArgs
-:
-function
 (
 a
 b
@@ -507,8 +499,6 @@ b
 ;
 }
 optionArgs
-:
-function
 (
 options
 )
@@ -529,8 +519,6 @@ option2
 ;
 }
 optionalArgs
-:
-function
 (
 a
 b
@@ -543,8 +531,6 @@ b
 ;
 }
 arrayArgs
-:
-function
 (
 a
 )
@@ -554,8 +540,6 @@ a
 ;
 }
 nestedArrayArgs
-:
-function
 (
 a
 )
@@ -597,8 +581,6 @@ name
 *
 /
 renamedEcho
-:
-function
 (
 a
 )
@@ -630,8 +612,6 @@ a
 ;
 }
 testOneWay
-:
-function
 (
 a
 )
@@ -668,8 +648,6 @@ a
 ;
 }
 emitFalsyOptions
-:
-function
 (
 )
 {

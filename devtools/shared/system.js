@@ -873,8 +873,6 @@ or
 BE
 "
 endianness
-:
-endianness
 /
 /
 Returns
@@ -883,8 +881,6 @@ hostname
 of
 the
 machine
-hostname
-:
 hostname
 /
 /

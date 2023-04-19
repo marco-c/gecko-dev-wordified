@@ -1025,8 +1025,6 @@ initializer
 *
 /
 init
-:
-function
 (
 )
 {
@@ -1271,8 +1269,6 @@ null
 ;
 }
 _getThrottler
-:
-function
 (
 )
 {
@@ -1319,8 +1315,6 @@ _decodedCertificateCache
 :
 null
 _serviceWorkerRequest
-:
-function
 (
 subject
 topic
@@ -1453,8 +1447,6 @@ failures
 *
 /
 _httpFailedOpening
-:
-function
 (
 subject
 topic
@@ -1604,8 +1596,6 @@ blockedCode
 ;
 }
 _httpStopRequest
-:
-function
 (
 subject
 topic
@@ -2138,8 +2128,6 @@ void
 *
 /
 _httpResponseExaminer
-:
-function
 (
 subject
 topic
@@ -2356,8 +2344,6 @@ gSequenceId
 (
 )
 channel
-:
-channel
 headers
 :
 [
@@ -2386,8 +2372,6 @@ visitOriginalResponseHeaders
 (
 {
 visitHeader
-:
-function
 (
 name
 value
@@ -2430,10 +2414,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )
@@ -2763,8 +2743,6 @@ fromCache
 !
 fromServiceWorker
 fromServiceWorker
-:
-fromServiceWorker
 }
 )
 ;
@@ -2982,8 +2960,6 @@ void
 *
 /
 _httpModifyExaminer
-:
-function
 (
 subject
 )
@@ -3116,8 +3092,6 @@ observeActivity
 *
 /
 _dispatchActivity
-:
-function
 (
 httpActivity
 channel
@@ -3800,8 +3774,6 @@ content
 *
 /
 _createNetworkEvent
-:
-function
 (
 channel
 {
@@ -4052,8 +4024,6 @@ void
 *
 /
 _onRequestHeader
-:
-function
 (
 channel
 timestamp
@@ -4138,8 +4108,6 @@ found
 *
 /
 _findActivityObject
-:
-function
 (
 channel
 )
@@ -4260,8 +4228,6 @@ object
 *
 /
 createOrGetActivityObject
-:
-function
 (
 channel
 )
@@ -4314,16 +4280,12 @@ gSequenceId
 (
 )
 channel
-:
-channel
 /
 /
 see
 _onRequestBodySent
 (
 )
-charset
-:
 charset
 sentBody
 :
@@ -4727,8 +4689,6 @@ tracking
 *
 /
 _setupResponseListener
-:
-function
 (
 httpActivity
 fromCache
@@ -5020,8 +4980,6 @@ with
 *
 /
 _onRequestBodySent
-:
-function
 (
 httpActivity
 )
@@ -5289,8 +5247,6 @@ headers
 *
 /
 _onResponseHeader
-:
-function
 (
 httpActivity
 extraStringData
@@ -5739,8 +5695,6 @@ with
 *
 /
 _onTransactionClose
-:
-function
 (
 httpActivity
 )
@@ -5795,8 +5749,6 @@ serverTimings
 }
 }
 _getBlockedTiming
-:
-function
 (
 timings
 )
@@ -5855,8 +5807,6 @@ return
 ;
 }
 _getDnsTiming
-:
-function
 (
 timings
 )
@@ -5893,8 +5843,6 @@ return
 ;
 }
 _getConnectTiming
-:
-function
 (
 timings
 )
@@ -5933,8 +5881,6 @@ return
 ;
 }
 _getReceiveTiming
-:
-function
 (
 timings
 )
@@ -5971,8 +5917,6 @@ return
 ;
 }
 _getWaitTiming
-:
-function
 (
 timings
 )
@@ -6013,8 +5957,6 @@ return
 ;
 }
 _getSslTiming
-:
-function
 (
 timings
 )
@@ -6051,8 +5993,6 @@ return
 ;
 }
 _getSendTiming
-:
-function
 (
 timings
 )
@@ -6111,8 +6051,6 @@ return
 ;
 }
 _getDataFromTimedChannel
-:
-function
 (
 timedChannel
 )
@@ -6236,8 +6174,6 @@ value
 ;
 }
 _getSecureConnectionStartTimeInfo
-:
-function
 (
 timings
 )
@@ -6311,8 +6247,6 @@ secureConnectionStartTimeRelative
 ;
 }
 _getStartSendingTimeInfo
-:
-function
 (
 timings
 connectStartTimeTc
@@ -6531,8 +6465,6 @@ object
 *
 /
 _setupHarTimings
-:
-function
 (
 httpActivity
 fromCache
@@ -7186,8 +7118,6 @@ offsets
 ;
 }
 _extractServerTimings
-:
-function
 (
 channel
 )
@@ -7277,8 +7207,6 @@ serverTimings
 ;
 }
 _convertTimeToMs
-:
-function
 (
 timing
 )
@@ -7302,8 +7230,6 @@ timing
 ;
 }
 _calculateOffsetAndTotalTime
-:
-function
 (
 harTimings
 secureConnectionStartTime
@@ -7560,14 +7486,10 @@ total
 :
 totalTime
 offsets
-:
-offsets
 }
 ;
 }
 _sendRequestBody
-:
-function
 (
 httpActivity
 )
@@ -7650,8 +7572,6 @@ httpActivity
 .
 sentBody
 size
-:
-size
 }
 )
 ;
@@ -7675,8 +7595,6 @@ responses
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -7720,8 +7638,6 @@ listening
 *
 /
 destroy
-:
-function
 (
 )
 {

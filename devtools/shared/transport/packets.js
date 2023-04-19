@@ -612,8 +612,6 @@ length
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -941,8 +939,6 @@ written
 *
 /
 get
-:
-function
 (
 )
 {
@@ -972,8 +968,6 @@ called
 *
 /
 set
-:
-function
 (
 object
 )
@@ -1395,8 +1389,6 @@ done
 "
 {
 get
-:
-function
 (
 )
 {
@@ -1930,8 +1922,6 @@ copying
 ;
 }
 stream
-:
-stream
 done
 :
 resolve
@@ -2267,8 +2257,6 @@ copying
 ;
 }
 stream
-:
-stream
 done
 :
 resolve
@@ -2382,8 +2370,6 @@ streamReadyForWriting
 "
 {
 get
-:
-function
 (
 )
 {
@@ -2408,8 +2394,6 @@ header
 "
 {
 get
-:
-function
 (
 )
 {
@@ -2434,8 +2418,6 @@ length
 ;
 }
 set
-:
-function
 (
 header
 )
@@ -2480,8 +2462,6 @@ done
 "
 {
 get
-:
-function
 (
 )
 {
@@ -2737,8 +2717,6 @@ done
 "
 {
 get
-:
-function
 (
 )
 {

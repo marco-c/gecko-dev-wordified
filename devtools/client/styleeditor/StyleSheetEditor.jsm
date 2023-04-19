@@ -1393,8 +1393,6 @@ generated
 *
 /
 linkCSSFile
-:
-function
 (
 )
 {
@@ -1939,8 +1937,6 @@ error
 *
 /
 fetchSource
-:
-function
 (
 )
 {
@@ -2344,8 +2340,6 @@ sheet
 *
 /
 onPropertyChange
-:
-function
 (
 property
 value
@@ -2392,8 +2386,6 @@ packet
 *
 /
 onStyleApplied
-:
-function
 (
 update
 )
@@ -2591,8 +2583,6 @@ sheet
 *
 /
 onMediaRulesChanged
-:
-function
 (
 rules
 )
@@ -2646,8 +2636,6 @@ stylesheet
 *
 /
 emitMediaRulesChanged
-:
-function
 (
 )
 {
@@ -2726,10 +2714,8 @@ loaded
 .
 *
 /
-load
-:
 async
-function
+load
 (
 inputElement
 cssProperties
@@ -3074,8 +3060,6 @@ editor
 *
 /
 getSourceEditor
-:
-function
 (
 )
 {
@@ -3149,8 +3133,6 @@ input
 *
 /
 focus
-:
-function
 (
 )
 {
@@ -3218,8 +3200,6 @@ shown
 *
 /
 onShow
-:
-function
 (
 options
 =
@@ -3384,8 +3364,6 @@ sheet
 *
 /
 updateStyleSheet
-:
-function
 (
 )
 {
@@ -3663,8 +3641,6 @@ everytime
 *
 /
 _onMouseMove
-:
-function
 (
 e
 )
@@ -4317,8 +4293,6 @@ savedFile
 *
 /
 saveToFile
-:
-function
 (
 file
 callback
@@ -4572,8 +4546,6 @@ disk
 *
 /
 onFileSaved
-:
-function
 (
 returnFile
 )
@@ -4702,8 +4674,6 @@ sheet
 *
 /
 checkLinkedFileForChanges
-:
-function
 (
 )
 {
@@ -4868,8 +4838,6 @@ file
 *
 /
 markLinkedFileBroken
-:
-function
 (
 error
 )
@@ -4968,8 +4936,6 @@ contents
 *
 /
 updateLinkedStyleSheet
-:
-function
 (
 )
 {
@@ -5110,8 +5076,6 @@ editor
 *
 /
 _getKeyBindings
-:
-function
 (
 )
 {
@@ -5288,8 +5252,6 @@ editor
 *
 /
 destroy
-:
-function
 (
 )
 {

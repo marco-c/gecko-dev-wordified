@@ -1046,8 +1046,6 @@ name
 ;
 }
 name
-:
-name
 primitive
 :
 !

@@ -710,8 +710,6 @@ false
 *
 /
 isKnownTab
-:
-function
 (
 tab
 )

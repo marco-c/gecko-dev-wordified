@@ -544,8 +544,6 @@ interactive
 *
 /
 start
-:
-function
 (
 baseNode
 targetNodeCb
@@ -725,8 +723,6 @@ tracking
 *
 /
 stop
-:
-function
 (
 )
 {
@@ -840,8 +836,6 @@ null
 ;
 }
 _onMouseMove
-:
-function
 (
 event
 )
@@ -1094,8 +1088,6 @@ null
 ;
 }
 _onMouseOut
-:
-function
 (
 event
 )
@@ -1246,8 +1238,6 @@ _toggleDelay
 ;
 }
 destroy
-:
-function
 (
 )
 {

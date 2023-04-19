@@ -482,8 +482,6 @@ created
 *
 /
 initialize
-:
-function
 (
 animationsActor
 player
@@ -686,8 +684,6 @@ currentTime
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1036,15 +1032,11 @@ method
 *
 /
 release
-:
-function
 (
 )
 {
 }
 form
-:
-function
 (
 detail
 )
@@ -1134,8 +1126,6 @@ data
 ;
 }
 isCssAnimation
-:
-function
 (
 player
 =
@@ -1155,8 +1145,6 @@ CSSAnimation
 ;
 }
 isCssTransition
-:
-function
 (
 player
 =
@@ -1176,8 +1164,6 @@ CSSTransition
 ;
 }
 isScriptAnimation
-:
-function
 (
 player
 =
@@ -1220,8 +1206,6 @@ CSSTransition
 ;
 }
 getType
-:
-function
 (
 )
 {
@@ -1322,8 +1306,6 @@ String
 *
 /
 getName
-:
-function
 (
 )
 {
@@ -1407,8 +1389,6 @@ Number
 *
 /
 getDuration
-:
-function
 (
 )
 {
@@ -1448,8 +1428,6 @@ Number
 *
 /
 getDelay
-:
-function
 (
 )
 {
@@ -1489,8 +1467,6 @@ Number
 *
 /
 getEndDelay
-:
-function
 (
 )
 {
@@ -1555,8 +1531,6 @@ infinitely
 *
 /
 getIterationCount
-:
-function
 (
 )
 {
@@ -1620,8 +1594,6 @@ Number
 *
 /
 getIterationStart
-:
-function
 (
 )
 {
@@ -1659,8 +1631,6 @@ String
 *
 /
 getEasing
-:
-function
 (
 )
 {
@@ -1699,8 +1669,6 @@ String
 *
 /
 getFill
-:
-function
 (
 )
 {
@@ -1738,8 +1706,6 @@ String
 *
 /
 getDirection
-:
-function
 (
 )
 {
@@ -1782,8 +1748,6 @@ String
 *
 /
 getAnimationTimingFunction
-:
-function
 (
 )
 {
@@ -1861,8 +1825,6 @@ animationTimingFunction
 ;
 }
 getPropertiesCompositorStatus
-:
-function
 (
 )
 {
@@ -1931,8 +1893,6 @@ Object
 *
 /
 getState
-:
-function
 (
 )
 {
@@ -2342,8 +2302,6 @@ Object
 *
 /
 getCurrentState
-:
-function
 (
 )
 {
@@ -2520,8 +2478,6 @@ front
 *
 /
 onAnimationMutation
-:
-function
 (
 mutations
 )
@@ -2847,8 +2803,6 @@ distances
 *
 /
 getProperties
-:
-function
 (
 )
 {
@@ -3471,8 +3425,6 @@ rgb
 *
 /
 getAnimationTypes
-:
-function
 (
 propertyNames
 )
@@ -3584,8 +3536,6 @@ distance
 *
 /
 getDistance
-:
-function
 (
 target
 propertyName
@@ -3698,8 +3648,6 @@ ActorClassWithSpec
 animationsSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -3800,8 +3748,6 @@ onNavigate
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -3949,8 +3895,6 @@ walker
 *
 /
 setWalkerActor
-:
-function
 (
 walker
 )
@@ -4045,8 +3989,6 @@ inspector
 *
 /
 getAnimationPlayersForNode
-:
-function
 (
 nodeActor
 )
@@ -4270,8 +4212,6 @@ actors
 ;
 }
 onAnimationMutation
-:
-function
 (
 mutations
 )
@@ -4897,8 +4837,6 @@ method
 *
 /
 stopAnimationPlayerUpdates
-:
-function
 (
 )
 {
@@ -4931,8 +4869,6 @@ disconnect
 }
 }
 onWillNavigate
-:
-function
 (
 {
 isTopLevel
@@ -4953,8 +4889,6 @@ stopAnimationPlayerUpdates
 }
 }
 onNavigate
-:
-function
 (
 {
 isTopLevel
@@ -4997,8 +4931,6 @@ AnimationPlayerActor
 *
 /
 pauseSome
-:
-function
 (
 actors
 )
@@ -5053,8 +4985,6 @@ AnimationPlayerActor
 *
 /
 playSome
-:
-function
 (
 actors
 )
@@ -5139,8 +5069,6 @@ too
 *
 /
 setCurrentTimes
-:
-function
 (
 players
 time
@@ -5260,8 +5188,6 @@ rate
 *
 /
 setPlaybackRates
-:
-function
 (
 players
 rate

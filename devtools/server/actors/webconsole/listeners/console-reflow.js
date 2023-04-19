@@ -230,8 +230,6 @@ interruptible
 *
 /
 sendReflow
-:
-function
 (
 start
 end
@@ -321,13 +319,7 @@ onReflowActivity
 (
 {
 interruptible
-:
-interruptible
 start
-:
-start
-end
-:
 end
 sourceURL
 :
@@ -373,8 +365,6 @@ end
 *
 /
 reflow
-:
-function
 (
 start
 end
@@ -409,8 +399,6 @@ end
 *
 /
 reflowInterruptible
-:
-function
 (
 start
 end
@@ -436,8 +424,6 @@ listener
 *
 /
 destroy
-:
-function
 (
 )
 {

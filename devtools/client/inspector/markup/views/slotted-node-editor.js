@@ -182,8 +182,6 @@ prototype
 =
 {
 buildMarkup
-:
-function
 (
 )
 {
@@ -346,8 +344,6 @@ revealLink
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -411,8 +407,6 @@ ElementEditor
 *
 /
 getInfoAtNode
-:
-function
 (
 )
 {

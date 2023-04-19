@@ -273,8 +273,6 @@ toolbox
 :
 gToolbox
 commands
-:
-commands
 heapWorker
 :
 gHeapAnalysesClient

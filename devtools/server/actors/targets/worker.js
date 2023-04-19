@@ -373,8 +373,6 @@ js
 *
 /
 initialize
-:
-function
 (
 connection
 workerGlobal

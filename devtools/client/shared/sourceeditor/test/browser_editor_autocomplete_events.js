@@ -167,8 +167,6 @@ autocompleteOpts
 :
 {
 walker
-:
-walker
 cssProperties
 :
 getClientCssProperties

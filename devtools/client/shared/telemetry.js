@@ -5014,16 +5014,8 @@ DEVTOOLS_CUSTOM_OPENED_COUNT
 return
 {
 useTimedEvent
-:
-useTimedEvent
-timerHist
-:
 timerHist
 countHist
-:
-countHist
-countScalar
-:
 countScalar
 }
 ;

@@ -1586,8 +1586,6 @@ return
 .
 item
 checked
-:
-checked
 }
 ;
 }

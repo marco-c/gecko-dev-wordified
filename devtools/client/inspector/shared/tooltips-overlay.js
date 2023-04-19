@@ -593,8 +593,6 @@ needed
 *
 /
 addToView
-:
-function
 (
 )
 {
@@ -829,8 +827,6 @@ tooltip
 *
 /
 getTooltip
-:
-function
 (
 name
 )
@@ -1138,8 +1134,6 @@ tooltips
 *
 /
 removeFromView
-:
-function
 (
 )
 {
@@ -1245,8 +1239,6 @@ null
 *
 /
 _getTooltipType
-:
-function
 (
 {
 type
@@ -2777,8 +2769,6 @@ text
 ;
 }
 _onNewSelection
-:
-function
 (
 )
 {
@@ -2818,8 +2808,6 @@ view
 *
 /
 destroy
-:
-function
 (
 )
 {

@@ -972,8 +972,6 @@ ActorClassWithSpec
 highlighterTestSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -1079,8 +1077,6 @@ iframes
 *
 /
 _querySelector
-:
-function
 (
 selector
 )
@@ -1388,8 +1384,6 @@ otherwise
 *
 /
 getHighlighterAttribute
-:
-function
 (
 nodeID
 name
@@ -1493,8 +1487,6 @@ value
 *
 /
 getHighlighterNodeTextContent
-:
-function
 (
 nodeID
 actorID
@@ -1585,8 +1577,6 @@ found
 *
 /
 getSelectorHighlighterBoxNb
-:
-function
 (
 actorID
 )
@@ -1708,8 +1698,6 @@ ID
 *
 /
 changeHighlightedNodeWaitForUpdate
-:
-function
 (
 name
 value
@@ -4367,16 +4355,8 @@ visible
 !
 hidden
 x1
-:
-x1
-y1
-:
 y1
 x2
-:
-x2
-y2
-:
 y2
 }
 ;

@@ -319,8 +319,6 @@ targetActor
 ;
 }
 getTraits
-:
-function
 (
 )
 {

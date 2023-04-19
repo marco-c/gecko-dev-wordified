@@ -202,8 +202,6 @@ null
 ;
 }
 initialize
-:
-function
 (
 mediaRule
 parentActor
@@ -332,8 +330,6 @@ _matchesChange
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -407,8 +403,6 @@ this
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -478,8 +472,6 @@ form
 ;
 }
 _matchesChange
-:
-function
 (
 )
 {

@@ -408,16 +408,8 @@ prototype
 =
 {
 PREF_INVALID
-:
-PREF_INVALID
-PREF_STRING
-:
 PREF_STRING
 PREF_INT
-:
-PREF_INT
-PREF_BOOL
-:
 PREF_BOOL
 /
 *
@@ -451,8 +443,6 @@ getPrefType
 *
 /
 getPrefType
-:
-function
 (
 prefName
 )
@@ -479,8 +469,6 @@ getBoolPref
 *
 /
 getBoolPref
-:
-function
 (
 prefName
 defaultValue
@@ -569,8 +557,6 @@ setBoolPref
 *
 /
 setBoolPref
-:
-function
 (
 prefName
 value
@@ -661,8 +647,6 @@ getCharPref
 *
 /
 getCharPref
-:
-function
 (
 prefName
 defaultValue
@@ -751,8 +735,6 @@ getStringPref
 *
 /
 getStringPref
-:
-function
 (
 )
 {
@@ -779,8 +761,6 @@ setCharPref
 *
 /
 setCharPref
-:
-function
 (
 prefName
 value
@@ -871,8 +851,6 @@ setStringPref
 *
 /
 setStringPref
-:
-function
 (
 )
 {
@@ -899,8 +877,6 @@ getIntPref
 *
 /
 getIntPref
-:
-function
 (
 prefName
 defaultValue
@@ -989,8 +965,6 @@ setIntPref
 *
 /
 setIntPref
-:
-function
 (
 prefName
 value
@@ -1080,8 +1054,6 @@ clearUserPref
 *
 /
 clearUserPref
-:
-function
 (
 prefName
 )
@@ -1113,8 +1085,6 @@ prefHasUserValue
 *
 /
 prefHasUserValue
-:
-function
 (
 prefName
 )
@@ -1145,8 +1115,6 @@ addObserver
 *
 /
 addObserver
-:
-function
 (
 domain
 observer
@@ -1219,8 +1187,6 @@ removeObserver
 *
 /
 removeObserver
-:
-function
 (
 domain
 observer
@@ -1289,8 +1255,6 @@ savePrefFile
 *
 /
 savePrefFile
-:
-function
 (
 file
 )
@@ -1340,8 +1304,6 @@ getBranch
 *
 /
 getBranch
-:
-function
 (
 prefRoot
 )
@@ -1458,8 +1420,6 @@ type
 *
 /
 _get
-:
-function
 (
 )
 {
@@ -1530,8 +1490,6 @@ value
 *
 /
 _set
-:
-function
 (
 value
 )
@@ -1611,8 +1569,6 @@ value
 *
 /
 _setDefault
-:
-function
 (
 value
 )
@@ -1679,8 +1635,6 @@ notification
 *
 /
 _clearUserValue
-:
-function
 (
 )
 {
@@ -1738,8 +1692,6 @@ notification
 *
 /
 _saveAndNotify
-:
-function
 (
 )
 {
@@ -1978,8 +1930,6 @@ valid
 *
 /
 _storageUpdated
-:
-function
 (
 type
 userValue
@@ -2108,8 +2058,6 @@ object
 *
 /
 _findPref
-:
-function
 (
 prefName
 )
@@ -2229,8 +2177,6 @@ branch
 *
 /
 _notify
-:
-function
 (
 relativeName
 )
@@ -2470,8 +2416,6 @@ branch
 *
 /
 _createBranch
-:
-function
 (
 branchList
 )
@@ -2699,8 +2643,6 @@ prefs
 *
 /
 _findOrCreatePref
-:
-function
 (
 keyName
 userValue
@@ -2873,8 +2815,6 @@ branch
 ;
 }
 getKeyName
-:
-function
 (
 keyName
 )
@@ -2948,8 +2888,6 @@ change
 *
 /
 _onStorageChange
-:
-function
 (
 event
 )
@@ -3092,8 +3030,6 @@ PrefBranch
 *
 /
 _initializeRoot
-:
-function
 (
 )
 {
@@ -3376,8 +3312,6 @@ strings
 :
 {
 createBundle
-:
-function
 (
 bundle
 )
@@ -3385,8 +3319,6 @@ bundle
 return
 {
 GetStringFromName
-:
-function
 (
 str
 )

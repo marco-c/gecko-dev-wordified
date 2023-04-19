@@ -1031,8 +1031,6 @@ prefsBlueprint
 return
 {
 register
-:
-function
 (
 )
 {
@@ -1066,8 +1064,6 @@ this
 ;
 }
 unregister
-:
-function
 (
 )
 {
@@ -1084,8 +1080,6 @@ this
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -1257,8 +1251,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 subject
 topic
@@ -1291,8 +1283,6 @@ data
 }
 }
 destroy
-:
-function
 (
 )
 {

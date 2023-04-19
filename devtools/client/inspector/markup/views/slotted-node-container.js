@@ -188,8 +188,6 @@ MarkupContainer
 prototype
 {
 _onMouseDown
-:
-function
 (
 event
 )
@@ -260,8 +258,6 @@ toggle
 *
 /
 _onToggle
-:
-function
 (
 event
 )
@@ -326,8 +322,6 @@ true
 ;
 }
 _onKeyDown
-:
-function
 (
 event
 )
@@ -395,10 +389,8 @@ _revealFromSlot
 ;
 }
 }
-onContainerClick
-:
 async
-function
+onContainerClick
 (
 event
 )
@@ -433,8 +425,6 @@ _revealFromSlot
 ;
 }
 isDraggable
-:
-function
 (
 )
 {
@@ -443,8 +433,6 @@ false
 ;
 }
 isSlotted
-:
-function
 (
 )
 {

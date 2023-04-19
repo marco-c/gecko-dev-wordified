@@ -191,8 +191,6 @@ ActorClassWithSpec
 addonsSpec
 {
 initialize
-:
-function
 (
 conn
 )

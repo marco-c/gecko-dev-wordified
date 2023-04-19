@@ -277,8 +277,6 @@ startListening
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -322,8 +320,6 @@ Actor
 API
 .
 startListening
-:
-function
 (
 )
 {

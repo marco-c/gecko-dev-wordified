@@ -232,8 +232,6 @@ removeAllRanges
 ;
 }
 title
-:
-title
 }
 )
 ;

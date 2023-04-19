@@ -677,8 +677,6 @@ loop
 *
 /
 schedule
-:
-function
 (
 )
 {
@@ -735,8 +733,6 @@ called
 *
 /
 cancel
-:
-function
 (
 )
 {
@@ -775,8 +771,6 @@ onCancel
 ;
 }
 _timeoutHandler
-:
-function
 (
 )
 {
@@ -845,8 +839,6 @@ e
 }
 }
 _runBatch
-:
-function
 (
 )
 {
@@ -940,8 +932,6 @@ ERROR_ITERATION_DONE
 *
 /
 _next
-:
-function
 (
 )
 {
@@ -2077,8 +2067,6 @@ view
 ;
 }
 _handlePrefChange
-:
-function
 (
 )
 {
@@ -2156,8 +2144,6 @@ complete
 *
 /
 selectElement
-:
-function
 (
 element
 )
@@ -2471,8 +2457,6 @@ next
 line
 complexity
 getNodeInfo
-:
-function
 (
 node
 )
@@ -3129,8 +3113,6 @@ value
 ;
 }
 _createPropertyViews
-:
-function
 (
 )
 {
@@ -3343,8 +3325,6 @@ _createViewsPromise
 ;
 }
 isPanelVisible
-:
-function
 (
 )
 {
@@ -3433,8 +3413,6 @@ visible
 *
 /
 refreshPanel
-:
-function
 (
 )
 {
@@ -3834,8 +3812,6 @@ view
 *
 /
 _onShortcut
-:
-function
 (
 name
 event
@@ -3986,8 +3962,6 @@ value
 *
 /
 setFilterStyles
-:
-function
 (
 value
 =
@@ -4040,8 +4014,6 @@ box
 *
 /
 _onFilterStyles
-:
-function
 (
 )
 {
@@ -4159,8 +4131,6 @@ otherwise
 *
 /
 _onClearSearch
-:
-function
 (
 )
 {
@@ -4205,8 +4175,6 @@ checkbox
 *
 /
 _onIncludeBrowserStyles
-:
-function
 (
 )
 {
@@ -4279,8 +4247,6 @@ stylesheets
 *
 /
 refreshSourceFilter
-:
-function
 (
 )
 {
@@ -4326,8 +4292,6 @@ UI
 *
 /
 createStyleViews
-:
-function
 (
 )
 {
@@ -4655,8 +4619,6 @@ mousedown
 *
 /
 focusWindow
-:
-function
 (
 )
 {
@@ -4680,8 +4642,6 @@ handler
 *
 /
 _onContextMenu
-:
-function
 (
 event
 )
@@ -4741,8 +4701,6 @@ event
 ;
 }
 _onClick
-:
-function
 (
 event
 )
@@ -4816,8 +4774,6 @@ object
 *
 /
 _onCopy
-:
-function
 (
 event
 )
@@ -4884,8 +4840,6 @@ clipboard
 *
 /
 copySelection
-:
-function
 (
 )
 {
@@ -4948,8 +4902,6 @@ CssComputedView
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -6083,8 +6035,6 @@ Element
 *
 /
 buildMain
-:
-function
 (
 )
 {
@@ -6879,8 +6829,6 @@ element
 ;
 }
 buildSelectorContainer
-:
-function
 (
 )
 {
@@ -6974,8 +6922,6 @@ value
 *
 /
 refresh
-:
-function
 (
 )
 {
@@ -7243,8 +7189,6 @@ rules
 *
 /
 refreshMatchedSelectors
-:
-function
 (
 )
 {
@@ -7516,8 +7460,6 @@ _matchedSelectorResponse
 ;
 }
 _buildMatchedSelectors
-:
-function
 (
 )
 {
@@ -7974,8 +7916,6 @@ event
 *
 /
 onMatchedToggle
-:
-function
 (
 event
 )
@@ -8034,8 +7974,6 @@ property
 *
 /
 mdnLinkClick
-:
-function
 (
 event
 )
@@ -8062,8 +8000,6 @@ listeners
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -8354,8 +8290,6 @@ generatedLocation
 =
 {
 sheet
-:
-sheet
 href
 :
 sheet
@@ -8542,8 +8476,6 @@ array
 *
 /
 _cacheStatusNames
-:
-function
 (
 )
 {
@@ -8973,8 +8905,6 @@ null
 *
 /
 _updateLocation
-:
-function
 (
 originalLocation
 )
@@ -9192,8 +9122,6 @@ editor
 *
 /
 openStyleEditor
-:
-function
 (
 )
 {
@@ -9360,8 +9288,6 @@ listeners
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -9582,8 +9508,6 @@ prototype
 =
 {
 isPanelVisible
-:
-function
 (
 )
 {
@@ -9610,8 +9534,6 @@ isPanelVisible
 ;
 }
 onDetachedFront
-:
-function
 (
 )
 {
@@ -9623,10 +9545,8 @@ false
 )
 ;
 }
-onSelected
-:
 async
-function
+onSelected
 (
 selectElement
 =
@@ -9812,8 +9732,6 @@ done
 }
 }
 refresh
-:
-function
 (
 )
 {
@@ -9837,8 +9755,6 @@ refreshPanel
 }
 }
 onPanelSelected
-:
-function
 (
 )
 {
@@ -9879,8 +9795,6 @@ onSelected
 }
 }
 destroy
-:
-function
 (
 )
 {

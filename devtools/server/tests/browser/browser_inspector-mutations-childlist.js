@@ -539,8 +539,6 @@ autoCleanup
 :
 false
 postCheck
-:
-function
 (
 walker
 mutations
@@ -620,8 +618,6 @@ longlist
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -855,8 +851,6 @@ sibling
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -1097,8 +1091,6 @@ longlist
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -1308,8 +1300,6 @@ longlist
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -1439,8 +1429,6 @@ longlist
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -1507,8 +1495,6 @@ null
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -1673,8 +1659,6 @@ null
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -1821,8 +1805,6 @@ sibling
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations
@@ -2005,8 +1987,6 @@ sibling
 ]
 ]
 postCheck
-:
-function
 (
 walker
 mutations

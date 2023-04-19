@@ -305,8 +305,6 @@ prototype
 =
 {
 buildMarkup
-:
-function
 (
 type
 )
@@ -483,8 +481,6 @@ update
 ;
 }
 showTextEditor
-:
-function
 (
 element
 )
@@ -610,10 +606,8 @@ false
 )
 ;
 }
-update
-:
 async
-function
+update
 (
 )
 {
@@ -677,8 +671,6 @@ e
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -708,8 +700,6 @@ ElementEditor
 *
 /
 getInfoAtNode
-:
-function
 (
 )
 {

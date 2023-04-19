@@ -246,8 +246,6 @@ ActorClassWithSpec
 rootSpec
 {
 initialize
-:
-function
 (
 conn
 )
@@ -299,8 +297,6 @@ sayHello
 :
 simpleHello
 simpleReturn
-:
-function
 (
 )
 {
@@ -322,10 +318,8 @@ after
 simpleReturn
 returns
 .
-promiseReturn
-:
 async
-function
+promiseReturn
 (
 toWait
 )
@@ -380,8 +374,6 @@ sequence
 ;
 }
 simpleThrow
-:
-function
 (
 )
 {
@@ -408,8 +400,6 @@ simpleReturn
 returns
 .
 promiseThrow
-:
-function
 (
 toWait
 )

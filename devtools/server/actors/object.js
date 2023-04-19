@@ -516,8 +516,6 @@ decrementGripDepth
 ;
 }
 rawValue
-:
-function
 (
 )
 {
@@ -603,8 +601,6 @@ message
 *
 /
 form
-:
-function
 (
 )
 {
@@ -1113,8 +1109,6 @@ g
 ;
 }
 _getOwnPropertyLength
-:
-function
 (
 )
 {
@@ -1218,8 +1212,6 @@ null
 ;
 }
 getRawObject
-:
-function
 (
 )
 {
@@ -1315,8 +1307,6 @@ type
 *
 /
 _populateGripPreview
-:
-function
 (
 grip
 raw
@@ -1447,8 +1437,6 @@ state
 *
 /
 promiseState
-:
-function
 (
 )
 {
@@ -1617,8 +1605,6 @@ object
 *
 /
 enumProperties
-:
-function
 (
 options
 )
@@ -1657,8 +1643,6 @@ object
 *
 /
 enumEntries
-:
-function
 (
 )
 {
@@ -1695,8 +1679,6 @@ properties
 *
 /
 enumSymbols
-:
-function
 (
 )
 {
@@ -1728,8 +1710,6 @@ properties
 *
 /
 enumPrivateProperties
-:
-function
 (
 )
 {
@@ -1935,8 +1915,6 @@ descriptors
 *
 /
 prototypeAndProperties
-:
-function
 (
 )
 {
@@ -2219,8 +2197,6 @@ protocol
 *
 /
 _findSafeGetterValues
-:
-function
 (
 ownProperties
 limit
@@ -2923,8 +2899,6 @@ Object
 *
 /
 _findSafeGetters
-:
-function
 (
 object
 )
@@ -3149,8 +3123,6 @@ object
 *
 /
 prototype
-:
-function
 (
 )
 {
@@ -3234,8 +3206,6 @@ of
 *
 /
 property
-:
-function
 (
 name
 )
@@ -3404,8 +3374,6 @@ referent
 *
 /
 propertyValue
-:
-function
 (
 name
 receiverId
@@ -3621,8 +3589,6 @@ primitives
 *
 /
 apply
-:
-function
 (
 context
 args
@@ -4067,8 +4033,6 @@ true
 *
 /
 _propertyDescriptor
-:
-function
 (
 name
 onlyEnumerable
@@ -4412,8 +4376,6 @@ proxy
 *
 /
 proxySlots
-:
-function
 (
 )
 {
@@ -4544,8 +4506,6 @@ proxyHandler
 ;
 }
 customFormatterHeader
-:
-function
 (
 )
 {
@@ -4984,8 +4944,6 @@ object
 *
 /
 customFormatterBody
-:
-function
 (
 customFormatterIndex
 )
@@ -5328,8 +5286,6 @@ method
 *
 /
 release
-:
-function
 (
 )
 {

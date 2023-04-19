@@ -2225,10 +2225,8 @@ b
 ]
 ]
 }
-additionalTest
-:
 async
-function
+additionalTest
 (
 node
 )

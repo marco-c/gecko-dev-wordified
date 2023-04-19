@@ -852,8 +852,6 @@ type
 longString
 "
 initial
-:
-initial
 length
 :
 str

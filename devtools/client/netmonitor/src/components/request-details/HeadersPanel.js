@@ -2445,10 +2445,6 @@ raw
 headers
 "
 rows
-:
-rows
-value
-:
 value
 readOnly
 :

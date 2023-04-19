@@ -390,8 +390,6 @@ preventDefault
 *
 /
 dispatchEvent
-:
-function
 (
 target
 type
@@ -520,8 +518,6 @@ to
 *
 /
 delegateWidgetAttributeMethods
-:
-function
 (
 widget
 node
@@ -631,8 +627,6 @@ to
 *
 /
 delegateWidgetEventMethods
-:
-function
 (
 widget
 node
@@ -717,8 +711,6 @@ emitter
 *
 /
 isEventEmitter
-:
-function
 (
 object
 )
@@ -783,8 +775,6 @@ otherwise
 *
 /
 isNode
-:
-function
 (
 object
 )
@@ -843,8 +833,6 @@ prevented
 *
 /
 preventScrolling
-:
-function
 (
 e
 )
@@ -943,8 +931,6 @@ element
 *
 /
 isSpaceOrReturn
-:
-function
 (
 event
 )
@@ -1090,8 +1076,6 @@ toggle
 *
 /
 togglePane
-:
-function
 (
 flags
 pane
@@ -2056,8 +2040,6 @@ element
 *
 /
 append
-:
-function
 (
 element
 options
@@ -2240,8 +2222,6 @@ remove
 *
 /
 remove
-:
-function
 (
 item
 )
@@ -2320,8 +2300,6 @@ item
 *
 /
 _entangleItem
-:
-function
 (
 item
 element
@@ -2379,8 +2357,6 @@ element
 *
 /
 _untangleItem
-:
-function
 (
 item
 )
@@ -2462,8 +2438,6 @@ element
 *
 /
 _unlinkItem
-:
-function
 (
 item
 )
@@ -2506,8 +2480,6 @@ string
 *
 /
 stringify
-:
-function
 (
 )
 {

@@ -1093,8 +1093,6 @@ matchedSelectors
 :
 true
 filter
-:
-filter
 }
 )
 ;

@@ -1087,8 +1087,6 @@ action
 copy
 "
 submenu
-:
-submenu
 }
 )
 )
@@ -1120,8 +1118,6 @@ with
 -
 attrs
 "
-submenu
-:
 submenu
 accesskey
 :

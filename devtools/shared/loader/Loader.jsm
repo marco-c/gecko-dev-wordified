@@ -1569,8 +1569,6 @@ return
 ;
 }
 destroy
-:
-function
 (
 reason
 =
@@ -1617,8 +1615,6 @@ plugin
 *
 /
 isLoaderPluginId
-:
-function
 (
 id
 )

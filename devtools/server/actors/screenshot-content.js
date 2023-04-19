@@ -172,8 +172,6 @@ ActorClassWithSpec
 screenshotContentSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor

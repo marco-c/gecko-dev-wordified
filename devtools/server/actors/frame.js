@@ -542,8 +542,6 @@ frame
 *
 /
 initialize
-:
-function
 (
 frame
 threadActor
@@ -662,8 +660,6 @@ pool
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -702,8 +698,6 @@ this
 ;
 }
 getEnvironment
-:
-function
 (
 )
 {
@@ -819,8 +813,6 @@ message
 *
 /
 form
-:
-function
 (
 )
 {
@@ -1250,8 +1242,6 @@ form
 ;
 }
 _args
-:
-function
 (
 )
 {

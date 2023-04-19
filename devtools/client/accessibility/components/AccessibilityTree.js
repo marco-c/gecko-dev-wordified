@@ -1277,8 +1277,6 @@ decorator
 :
 {
 getRowClass
-:
-function
 (
 )
 {
@@ -1343,8 +1341,6 @@ accessibles
 filtered
 dispatch
 )
-columns
-:
 columns
 className
 renderValue
@@ -1441,8 +1437,6 @@ true
 ;
 }
 onContextMenuTree
-:
-function
 (
 e
 )

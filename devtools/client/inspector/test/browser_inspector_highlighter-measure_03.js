@@ -131,8 +131,6 @@ HANDLER_MAP
 =
 {
 top
-:
-function
 (
 areaWidth
 areaHeight
@@ -157,8 +155,6 @@ y
 ;
 }
 topright
-:
-function
 (
 areaWidth
 areaHeight
@@ -176,8 +172,6 @@ y
 ;
 }
 right
-:
-function
 (
 areaWidth
 areaHeight
@@ -202,8 +196,6 @@ areaHeight
 ;
 }
 bottomright
-:
-function
 (
 areaWidth
 areaHeight
@@ -221,8 +213,6 @@ areaHeight
 ;
 }
 bottom
-:
-function
 (
 areaWidth
 areaHeight
@@ -247,8 +237,6 @@ areaHeight
 ;
 }
 bottomleft
-:
-function
 (
 areaWidth
 areaHeight
@@ -266,8 +254,6 @@ areaHeight
 ;
 }
 left
-:
-function
 (
 areaWidth
 areaHeight
@@ -292,8 +278,6 @@ areaHeight
 ;
 }
 topleft
-:
-function
 (
 areaWidth
 areaHeight

@@ -598,8 +598,6 @@ val
 ;
 }
 parentNode
-:
-function
 (
 )
 {
@@ -688,8 +686,6 @@ parentNode
 ;
 }
 nextNode
-:
-function
 (
 )
 {
@@ -752,8 +748,6 @@ nextNode
 ;
 }
 firstChild
-:
-function
 (
 )
 {
@@ -816,8 +810,6 @@ firstChild
 ;
 }
 lastChild
-:
-function
 (
 )
 {
@@ -880,8 +872,6 @@ lastChild
 ;
 }
 previousSibling
-:
-function
 (
 )
 {
@@ -925,8 +915,6 @@ node
 ;
 }
 nextSibling
-:
-function
 (
 )
 {
@@ -970,8 +958,6 @@ node
 ;
 }
 getStartingNode
-:
-function
 (
 node
 skipTo
@@ -1091,8 +1077,6 @@ function
 *
 /
 getClosestAcceptedSibling
-:
-function
 (
 node
 )
@@ -1248,8 +1232,6 @@ null
 ;
 }
 isSkippedNode
-:
-function
 (
 node
 )

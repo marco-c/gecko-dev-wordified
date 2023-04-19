@@ -365,8 +365,6 @@ object
 .
 actor
 className
-:
-className
 title
 :
 shouldRenderTooltip

@@ -181,8 +181,6 @@ _batchDepth
 :
 0
 destroy
-:
-function
 (
 )
 {
@@ -276,8 +274,6 @@ action
 *
 /
 startBatch
-:
-function
 (
 )
 {
@@ -328,8 +324,6 @@ stack
 *
 /
 endBatch
-:
-function
 (
 )
 {
@@ -426,8 +420,6 @@ entry
 =
 {
 do
-:
-function
 (
 )
 {
@@ -448,8 +440,6 @@ do
 }
 }
 undo
-:
-function
 (
 )
 {
@@ -551,8 +541,6 @@ action
 *
 /
 do
-:
-function
 (
 toDo
 undo
@@ -601,8 +589,6 @@ anything
 *
 /
 canUndo
-:
-function
 (
 )
 {
@@ -639,8 +625,6 @@ undone
 *
 /
 undo
-:
-function
 (
 )
 {
@@ -694,8 +678,6 @@ anything
 *
 /
 canRedo
-:
-function
 (
 )
 {
@@ -735,8 +717,6 @@ redone
 *
 /
 redo
-:
-function
 (
 )
 {
@@ -801,8 +781,6 @@ controller
 *
 /
 installController
-:
-function
 (
 controllerWindow
 )
@@ -869,8 +847,6 @@ controller
 *
 /
 uninstallController
-:
-function
 (
 )
 {
@@ -898,8 +874,6 @@ this
 ;
 }
 supportsCommand
-:
-function
 (
 command
 )
@@ -922,8 +896,6 @@ cmd_redo
 ;
 }
 isCommandEnabled
-:
-function
 (
 command
 )
@@ -963,8 +935,6 @@ false
 ;
 }
 doCommand
-:
-function
 (
 command
 )
@@ -1006,8 +976,6 @@ null
 }
 }
 onEvent
-:
-function
 (
 event
 )

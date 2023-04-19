@@ -489,8 +489,6 @@ data
 :
 {
 securityInfo
-:
-securityInfo
 }
 }
 ]

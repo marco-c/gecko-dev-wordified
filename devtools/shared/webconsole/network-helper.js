@@ -841,8 +841,6 @@ text
 *
 /
 convertToUnicode
-:
-function
 (
 text
 charset
@@ -999,8 +997,6 @@ charset
 *
 /
 readAndConvertFromStream
-:
-function
 (
 stream
 charset
@@ -1104,8 +1100,6 @@ null
 *
 /
 readPostTextFromRequest
-:
-function
 (
 request
 charset
@@ -1319,8 +1313,6 @@ null
 *
 /
 readPostTextFromPage
-:
-function
 (
 docShell
 charset
@@ -1402,8 +1394,6 @@ null
 *
 /
 readPostTextFromPageViaWebNav
-:
-function
 (
 webNav
 charset
@@ -1530,8 +1520,6 @@ request
 *
 /
 getTopFrameForRequest
-:
-function
 (
 request
 )
@@ -1594,8 +1582,6 @@ null
 *
 /
 getWindowForRequest
-:
-function
 (
 request
 )
@@ -1732,8 +1718,6 @@ null
 *
 /
 getRequestLoadContext
-:
-function
 (
 request
 )
@@ -1832,8 +1816,6 @@ document
 *
 /
 isTopLevelLoad
-:
-function
 (
 request
 )
@@ -1961,8 +1943,6 @@ content
 *
 /
 loadFromCache
-:
-function
 (
 url
 charset
@@ -2179,8 +2159,6 @@ value
 *
 /
 parseCookieHeader
-:
-function
 (
 header
 )
@@ -2354,8 +2332,6 @@ string
 *
 /
 parseSetCookieHeader
-:
-function
 (
 header
 )
@@ -2521,10 +2497,6 @@ cookie
 =
 {
 name
-:
-name
-value
-:
 value
 }
 ;
@@ -3553,8 +3525,6 @@ boolean
 *
 /
 isTextMimeType
-:
-function
 (
 mimeType
 )
@@ -4079,10 +4049,8 @@ getReasonsForWeakness
 .
 *
 /
-parseSecurityInfo
-:
 async
-function
+parseSecurityInfo
 (
 securityInfo
 originAttributes
@@ -5086,10 +5054,8 @@ sha256
 }
 *
 /
-parseCertificateInfo
-:
 async
-function
+parseCertificateInfo
 (
 cert
 decodedCertificateCache
@@ -5399,8 +5365,6 @@ otherwise
 *
 /
 formatSecurityProtocol
-:
-function
 (
 version
 )
@@ -5565,8 +5529,6 @@ RC4
 *
 /
 getReasonsForWeakness
-:
-function
 (
 state
 )
@@ -5747,8 +5709,6 @@ value
 *
 /
 parseQueryString
-:
-function
 (
 queryString
 )

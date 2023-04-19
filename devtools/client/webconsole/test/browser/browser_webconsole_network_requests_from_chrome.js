@@ -111,8 +111,6 @@ nsIObserver
 ]
 )
 observe
-:
-function
 (
 subject
 )

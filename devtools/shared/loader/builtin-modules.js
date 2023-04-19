@@ -506,8 +506,6 @@ object
 name
 {
 get
-:
-function
 (
 )
 {
@@ -1425,8 +1423,6 @@ lazyServiceGetter
 :
 defineLazyServiceGetter
 lazyRequireGetter
-:
-lazyRequireGetter
 /
 /
 Defined
@@ -1548,8 +1544,6 @@ globals
 name
 {
 get
-:
-function
 (
 )
 {

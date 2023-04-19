@@ -1007,8 +1007,6 @@ label
 *
 /
 complete
-:
-function
 (
 source
 caret
@@ -1348,8 +1346,6 @@ next
 line
 complexity
 resolveState
-:
-function
 (
 source
 {
@@ -4987,8 +4983,6 @@ completed
 *
 /
 suggestSelectors
-:
-function
 (
 )
 {
@@ -5306,8 +5300,6 @@ actor
 *
 /
 prepareSelectorResults
-:
-function
 (
 result
 )
@@ -5686,8 +5678,6 @@ completed
 *
 /
 completeProperties
-:
-function
 (
 startProp
 )
@@ -5885,8 +5875,6 @@ completed
 *
 /
 completeValues
-:
-function
 (
 propName
 startValue
@@ -6187,8 +6175,6 @@ source
 *
 /
 findNearestNullState
-:
-function
 (
 line
 )
@@ -6474,8 +6460,6 @@ line
 *
 /
 invalidateCache
-:
-function
 (
 line
 )
@@ -6747,8 +6731,6 @@ ch
 *
 /
 getInfoAt
-:
-function
 (
 source
 caret
@@ -7172,8 +7154,6 @@ resolveState
 limitedSource
 {
 line
-:
-line
 ch
 :
 token
@@ -7215,8 +7195,6 @@ prevToken
 location
 =
 {
-line
-:
 line
 ch
 :
@@ -7553,8 +7531,6 @@ resolveState
 limitedSource
 {
 line
-:
-line
 ch
 :
 token
@@ -7609,8 +7585,6 @@ i
 location
 =
 {
-line
-:
 line
 ch
 :
@@ -7935,19 +7909,11 @@ n
 return
 {
 state
-:
-state
-selector
-:
 selector
 loc
 :
 {
 start
-:
-start
-end
-:
 end
 }
 }
@@ -8046,8 +8012,6 @@ ch
 return
 {
 state
-:
-state
 propertyName
 :
 token
@@ -8065,8 +8029,6 @@ start
 :
 {
 line
-:
-line
 ch
 :
 token
@@ -8076,8 +8038,6 @@ startOffset
 end
 :
 {
-line
-:
 line
 ch
 :
@@ -8257,10 +8217,6 @@ n
 return
 {
 state
-:
-state
-propertyName
-:
 propertyName
 selectors
 :
@@ -8268,16 +8224,10 @@ this
 .
 selectors
 value
-:
-value
 loc
 :
 {
 start
-:
-start
-end
-:
 end
 }
 }

@@ -145,8 +145,6 @@ typeName
 root
 "
 initialize
-:
-function
 (
 conn
 )
@@ -198,8 +196,6 @@ sayHello
 :
 simpleHello
 simpleReturn
-:
-function
 (
 )
 {

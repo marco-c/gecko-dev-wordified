@@ -176,8 +176,6 @@ ed
 return
 {
 supportsCommand
-:
-function
 (
 cmd
 )
@@ -231,8 +229,6 @@ false
 ;
 }
 isCommandEnabled
-:
-function
 (
 cmd
 )
@@ -336,8 +332,6 @@ false
 ;
 }
 doCommand
-:
-function
 (
 cmd
 )
@@ -425,8 +419,6 @@ jumpToLine
 }
 }
 onEvent
-:
-function
 (
 )
 {

@@ -125,10 +125,8 @@ ActorClassWithSpec
 (
 screenshotSpec
 {
-capture
-:
 async
-function
+capture
 (
 args
 )

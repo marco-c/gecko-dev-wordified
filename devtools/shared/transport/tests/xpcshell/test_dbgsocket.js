@@ -391,8 +391,6 @@ hooks
 =
 {
 onPacket
-:
-function
 (
 packet
 )
@@ -487,8 +485,6 @@ root
 ;
 }
 onTransportClosed
-:
-function
 (
 status
 )
@@ -773,8 +769,6 @@ hooks
 =
 {
 onPacket
-:
-function
 (
 packet
 )
@@ -799,8 +793,6 @@ close
 ;
 }
 onTransportClosed
-:
-function
 (
 status
 )

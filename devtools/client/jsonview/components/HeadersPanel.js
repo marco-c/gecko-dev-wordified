@@ -330,8 +330,6 @@ Headers
 (
 {
 data
-:
-data
 }
 )
 )

@@ -2514,14 +2514,8 @@ item
 securityState
 )
 onWaterfallMouseDown
-:
-onWaterfallMouseDown
 requestFilterTypes
 openRequestBlockingAndAddUrl
-:
-openRequestBlockingAndAddUrl
-openRequestBlockingAndDisableUrls
-:
 openRequestBlockingAndDisableUrls
 }
 )

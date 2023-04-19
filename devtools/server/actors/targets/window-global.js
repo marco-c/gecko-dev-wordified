@@ -2119,8 +2119,6 @@ js
 *
 /
 initialize
-:
-function
 (
 connection
 {
@@ -4004,8 +4002,6 @@ this
 .
 followWindowGlobalLifeCycle
 innerWindowId
-parentInnerWindowId
-:
 parentInnerWindowId
 topInnerWindowId
 :
@@ -9766,10 +9762,6 @@ navigate
 "
 {
 window
-:
-window
-isTopLevel
-:
 isTopLevel
 }
 )
@@ -9950,8 +9942,6 @@ state
 "
 stop
 "
-isFrameSwitching
-:
 isFrameSwitching
 }
 )

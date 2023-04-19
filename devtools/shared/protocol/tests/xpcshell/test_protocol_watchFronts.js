@@ -134,8 +134,6 @@ release
 {
 }
 form
-:
-function
 (
 )
 {
@@ -217,8 +215,6 @@ typeName
 root
 "
 initialize
-:
-function
 (
 conn
 )

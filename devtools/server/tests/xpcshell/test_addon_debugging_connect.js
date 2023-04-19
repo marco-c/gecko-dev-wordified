@@ -375,8 +375,6 @@ useAddonManager
 temporary
 "
 background
-:
-function
 (
 )
 {

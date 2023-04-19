@@ -287,10 +287,8 @@ elements
 .
 *
 /
-show
-:
 async
-function
+show
 (
 node
 options
@@ -527,10 +525,8 @@ is
 ready
 *
 /
-_showHighlighter
-:
 async
-function
+_showHighlighter
 (
 node
 options
@@ -571,8 +567,6 @@ highlighter
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -602,8 +596,6 @@ _highlighters
 ;
 }
 destroy
-:
-function
 (
 )
 {

@@ -297,8 +297,6 @@ SidebarItem
 (
 {
 page
-:
-page
 key
 :
 sidebar

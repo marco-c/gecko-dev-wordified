@@ -523,8 +523,6 @@ isToolSupported
 >
 true
 build
-:
-function
 (
 )
 {

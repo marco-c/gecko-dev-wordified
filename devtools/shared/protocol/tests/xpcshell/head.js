@@ -236,8 +236,6 @@ Remove
 actor
 names
 normalize
-:
-function
 (
 packet
 )
@@ -305,8 +303,6 @@ value
 ;
 }
 send
-:
-function
 (
 packet
 )
@@ -346,8 +342,6 @@ packet
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -362,8 +356,6 @@ close
 ;
 }
 ready
-:
-function
 (
 )
 {
@@ -378,8 +370,6 @@ ready
 ;
 }
 onPacket
-:
-function
 (
 packet
 )
@@ -418,8 +408,6 @@ packet
 ;
 }
 onTransportClosed
-:
-function
 (
 )
 {
@@ -443,8 +431,6 @@ onTransportClosed
 }
 }
 expectSend
-:
-function
 (
 expected
 )
@@ -490,8 +476,6 @@ expected
 ;
 }
 expectReceive
-:
-function
 (
 expected
 )
@@ -564,8 +548,6 @@ your
 test
 .
 dumpLog
-:
-function
 (
 )
 {

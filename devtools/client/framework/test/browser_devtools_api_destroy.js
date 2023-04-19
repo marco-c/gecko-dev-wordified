@@ -98,8 +98,6 @@ label
 someLabel
 "
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -129,14 +127,10 @@ toolbox
 .
 target
 toolbox
-:
-toolbox
 isReady
 :
 true
 destroy
-:
-function
 (
 )
 {

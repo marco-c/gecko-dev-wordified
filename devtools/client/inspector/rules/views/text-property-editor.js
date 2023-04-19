@@ -1211,8 +1211,6 @@ DOM
 *
 /
 _create
-:
-function
 (
 )
 {
@@ -2805,10 +2803,8 @@ rows
 .
 *
 /
-getGridlineNames
-:
 async
-function
+getGridlineNames
 (
 )
 {
@@ -3312,8 +3308,6 @@ next
 line
 complexity
 update
-:
-function
 (
 )
 {
@@ -5023,8 +5017,6 @@ focus
 }
 }
 _onStartEditing
-:
-function
 (
 )
 {
@@ -5245,8 +5237,6 @@ property
 *
 /
 updatePropertyState
-:
-function
 (
 )
 {
@@ -5508,8 +5498,6 @@ updatePropertyCompatibilityIndicator
 }
 }
 updatePropertyUsedIndicator
-:
-function
 (
 )
 {
@@ -5598,10 +5586,8 @@ false
 ;
 }
 }
-updatePropertyCompatibilityIndicator
-:
 async
-function
+updatePropertyCompatibilityIndicator
 (
 )
 {
@@ -5678,8 +5664,6 @@ visible
 *
 /
 _updateComputed
-:
-function
 (
 )
 {
@@ -5762,8 +5746,6 @@ styles
 *
 /
 _populateComputed
-:
-function
 (
 )
 {
@@ -5898,8 +5880,6 @@ visible
 *
 /
 _updateShorthandOverridden
-:
-function
 (
 )
 {
@@ -5940,8 +5920,6 @@ styles
 *
 /
 _populateShorthandOverridden
-:
-function
 (
 )
 {
@@ -6066,8 +6044,6 @@ property
 *
 /
 _createComputedListItem
-:
-function
 (
 parentEl
 computed
@@ -6326,8 +6302,6 @@ drag
 *
 /
 _onDraggablePreferenceChanged
-:
-function
 (
 )
 {
@@ -6380,8 +6354,6 @@ checkbox
 *
 /
 _onEnableClicked
-:
-function
 (
 event
 )
@@ -6407,8 +6379,6 @@ property
 *
 /
 _onEnableChanged
-:
-function
 (
 event
 )
@@ -6528,8 +6498,6 @@ user
 *
 /
 _onExpandClicked
-:
-function
 (
 event
 )
@@ -6715,8 +6683,6 @@ filter
 *
 /
 expandForFilter
-:
-function
 (
 )
 {
@@ -6792,8 +6758,6 @@ filtering
 *
 /
 collapseForFilter
-:
-function
 (
 )
 {
@@ -6916,8 +6880,6 @@ number
 *
 /
 _onNameDone
-:
-function
 (
 value
 commit
@@ -7261,8 +7223,6 @@ number
 *
 /
 remove
-:
-function
 (
 direction
 )
@@ -7503,8 +7463,6 @@ number
 *
 /
 _onValueDone
-:
-function
 (
 value
 =
@@ -7956,8 +7914,6 @@ change
 *
 /
 _onSwatchCommit
-:
-function
 (
 )
 {
@@ -7999,8 +7955,6 @@ change
 *
 /
 _onSwatchPreview
-:
-function
 (
 )
 {
@@ -8045,8 +7999,6 @@ editing
 *
 /
 _onSwatchRevert
-:
-function
 (
 )
 {
@@ -8205,8 +8157,6 @@ priority
 *
 /
 _getValueAndExtraProperties
-:
-function
 (
 value
 )
@@ -8457,10 +8407,6 @@ slice
 return
 {
 propertiesToAdd
-:
-propertiesToAdd
-firstValue
-:
 firstValue
 }
 ;
@@ -8514,8 +8460,6 @@ value
 *
 /
 _previewValue
-:
-function
 (
 value
 reverting
@@ -8645,8 +8589,6 @@ Boolean
 *
 /
 _hasSmallIncrementModifier
-:
-function
 (
 event
 )
@@ -8749,8 +8691,6 @@ null
 *
 /
 _parseDimension
-:
-function
 (
 value
 )
@@ -8876,8 +8816,6 @@ Boolean
 *
 /
 _isDraggableProperty
-:
-function
 (
 textProperty
 )
@@ -9026,8 +8964,6 @@ dimensionMatchObj
 ;
 }
 _draggingOnMouseDown
-:
-function
 (
 event
 )
@@ -9189,8 +9125,6 @@ signal
 ;
 }
 _draggingOnMouseMove
-:
-function
 (
 event
 )
@@ -9500,8 +9434,6 @@ true
 ;
 }
 _draggingOnMouseUp
-:
-function
 (
 event
 )
@@ -9555,8 +9487,6 @@ event
 ;
 }
 _draggingOnKeydown
-:
-function
 (
 event
 )
@@ -9607,8 +9537,6 @@ preventDefault
 }
 }
 _onStopDragging
-:
-function
 (
 event
 )
@@ -9752,8 +9680,6 @@ horizontally
 *
 /
 _addDraggingCapability
-:
-function
 (
 )
 {
@@ -9801,8 +9727,6 @@ _draggingOnMouseDown
 ;
 }
 _removeDraggingCapacity
-:
-function
 (
 )
 {
@@ -9909,8 +9833,6 @@ otherwise
 *
 /
 isValid
-:
-function
 (
 )
 {
@@ -9953,8 +9875,6 @@ otherwise
 *
 /
 isNameValid
-:
-function
 (
 )
 {

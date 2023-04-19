@@ -222,8 +222,6 @@ private
 *
 /
 _init
-:
-function
 (
 )
 {
@@ -295,8 +293,6 @@ instance
 *
 /
 startMonitor
-:
-function
 (
 )
 {
@@ -317,8 +313,6 @@ monitoring
 *
 /
 stopMonitor
-:
-function
 (
 )
 {
@@ -330,8 +324,6 @@ destroy
 ;
 }
 onStateChange
-:
-function
 (
 progress
 request
@@ -408,8 +400,6 @@ private
 *
 /
 _checkFileActivity
-:
-function
 (
 progress
 request
@@ -552,8 +542,6 @@ ConsoleFileActivityListener
 *
 /
 destroy
-:
-function
 (
 )
 {

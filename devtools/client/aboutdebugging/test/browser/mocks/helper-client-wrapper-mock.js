@@ -400,8 +400,6 @@ no
 match
 .
 getPreference
-:
-function
 (
 prefName
 )
@@ -595,8 +593,6 @@ about
 config
 )
 setPreference
-:
-function
 (
 prefName
 value

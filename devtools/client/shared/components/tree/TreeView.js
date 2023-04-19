@@ -3733,8 +3733,6 @@ CSS
 customization
 )
 type
-:
-type
 /
 /
 Class
@@ -3792,8 +3790,6 @@ has
 children
 .
 hasChildren
-:
-hasChildren
 /
 /
 Value
@@ -3809,8 +3805,6 @@ the
 data
 provider
 )
-value
-:
 value
 /
 /
@@ -4093,8 +4087,6 @@ active
 inactive
 "
 }
-member
-:
 member
 columns
 :

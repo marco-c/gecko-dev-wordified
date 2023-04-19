@@ -1344,8 +1344,6 @@ getTelemetryRuntimeId
 runtimeId
 )
 status
-:
-status
 }
 )
 ;

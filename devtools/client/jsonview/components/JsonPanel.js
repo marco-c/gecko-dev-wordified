@@ -713,8 +713,6 @@ this
 .
 onFilter
 columns
-:
-columns
 renderValue
 :
 this

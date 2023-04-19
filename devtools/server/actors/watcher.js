@@ -685,8 +685,6 @@ context
 *
 /
 initialize
-:
-function
 (
 conn
 sessionContext
@@ -1239,8 +1237,6 @@ type
 ;
 }
 destroy
-:
-function
 (
 )
 {

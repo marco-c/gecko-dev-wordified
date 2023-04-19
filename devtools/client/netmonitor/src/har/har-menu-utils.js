@@ -578,8 +578,6 @@ connector
 return
 {
 connector
-:
-connector
 items
 :
 requests

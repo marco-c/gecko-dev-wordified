@@ -133,8 +133,6 @@ installTemporaryExtensionFromXPI
 (
 {
 background
-:
-function
 (
 )
 {

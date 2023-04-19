@@ -3114,8 +3114,6 @@ toolbox
 *
 /
 getToolPanels
-:
-function
 (
 )
 {
@@ -3143,8 +3141,6 @@ tool
 *
 /
 getPanel
-:
-function
 (
 id
 )
@@ -3264,8 +3260,6 @@ ready
 *
 /
 getPanelWhenReady
-:
-function
 (
 id
 )
@@ -3370,8 +3364,6 @@ visible
 *
 /
 getCurrentPanel
-:
-function
 (
 )
 {
@@ -3680,8 +3672,6 @@ console
 *
 /
 isSplitConsoleFocused
-:
-function
 (
 )
 {
@@ -3915,8 +3905,6 @@ none
 *
 /
 getSelectedTargetFront
-:
-function
 (
 )
 {
@@ -5136,8 +5124,6 @@ toolbox
 *
 /
 open
-:
-function
 (
 )
 {
@@ -6893,8 +6879,6 @@ here
 *
 /
 _addChromeEventHandlerEvents
-:
-function
 (
 )
 {
@@ -7060,8 +7044,6 @@ _onMouseDown
 ;
 }
 _removeChromeEventHandlerEvents
-:
-function
 (
 )
 {
@@ -7172,8 +7154,6 @@ null
 ;
 }
 _addShortcuts
-:
-function
 (
 )
 {
@@ -7614,8 +7594,6 @@ shortcuts
 }
 }
 _removeShortcuts
-:
-function
 (
 )
 {
@@ -7662,8 +7640,6 @@ mode
 *
 /
 _addWindowHostShortcuts
-:
-function
 (
 )
 {
@@ -8078,8 +8054,6 @@ closeToolbox
 }
 }
 _removeWindowHostShortcuts
-:
-function
 (
 )
 {
@@ -8107,8 +8081,6 @@ null
 }
 }
 _onContextMenu
-:
-function
 (
 e
 )
@@ -8341,8 +8313,6 @@ screenY
 }
 }
 _onMouseDown
-:
-function
 (
 e
 )
@@ -8431,8 +8401,6 @@ preventDefault
 }
 }
 _getDebugTargetData
-:
-function
 (
 )
 {
@@ -8679,8 +8647,6 @@ service
 *
 /
 _createSourceMapService
-:
-function
 (
 )
 {
@@ -9406,8 +9372,6 @@ id
 for
 telemetry
 _getTelemetryHostId
-:
-function
 (
 )
 {
@@ -9493,8 +9457,6 @@ string
 for
 telemetry
 _getTelemetryHostString
-:
-function
 (
 )
 {
@@ -9587,8 +9549,6 @@ bottom
 }
 }
 _pingTelemetry
-:
-function
 (
 )
 {
@@ -10175,8 +10135,6 @@ on
 *
 /
 _createButtonState
-:
-function
 (
 options
 )
@@ -10511,8 +10469,6 @@ button
 ;
 }
 _splitConsoleOnKeypress
-:
-function
 (
 e
 )
@@ -10699,8 +10655,6 @@ active
 *
 /
 useKeyWithSplitConsole
-:
-function
 (
 key
 handler
@@ -10752,8 +10706,6 @@ preventDefault
 ;
 }
 _addWindowListeners
-:
-function
 (
 )
 {
@@ -10788,8 +10740,6 @@ true
 ;
 }
 _removeWindowListeners
-:
-function
 (
 )
 {
@@ -10854,8 +10804,6 @@ send
 a
 message
 _onBrowserMessage
-:
-function
 (
 event
 )
@@ -10924,8 +10872,6 @@ browsingContextID
 }
 }
 _saveSplitConsoleHeight
-:
-function
 (
 )
 {
@@ -11063,8 +11009,6 @@ height
 *
 /
 _refreshConsoleDisplay
-:
-function
 (
 )
 {
@@ -11219,8 +11163,6 @@ current
 *
 /
 fireCustomKey
-:
-function
 (
 toolId
 )
@@ -11424,8 +11366,6 @@ changes
 *
 /
 _buildDockOptions
-:
-function
 (
 )
 {
@@ -11626,8 +11566,6 @@ hostTypes
 ;
 }
 postMessage
-:
-function
 (
 msg
 )
@@ -11738,10 +11676,8 @@ render
 .
 *
 /
-_buildTabs
-:
 async
-function
+_buildTabs
 (
 )
 {
@@ -12092,8 +12028,6 @@ event
 *
 /
 _onToolbarFocus
-:
-function
 (
 id
 )
@@ -12183,8 +12117,6 @@ event
 *
 /
 _onToolbarArrowKeypress
-:
-function
 (
 event
 )
@@ -12914,10 +12846,8 @@ behaviour
 .
 *
 /
-_onPickerClick
-:
 async
-function
+_onPickerClick
 (
 )
 {
@@ -13031,8 +12961,6 @@ console
 *
 /
 _onPickerKeypress
-:
-function
 (
 event
 )
@@ -13105,10 +13033,8 @@ stopImmediatePropagation
 ;
 }
 }
-_onPickerStarting
-:
 async
-function
+_onPickerStarting
 (
 )
 {
@@ -13192,10 +13118,8 @@ _onToolSelectedStopPicker
 )
 ;
 }
-_onPickerStarted
-:
 async
-function
+_onPickerStarted
 (
 )
 {
@@ -13216,8 +13140,6 @@ true
 ;
 }
 _onPickerStopped
-:
-function
 (
 )
 {
@@ -13280,8 +13202,6 @@ false
 ;
 }
 _onToolSelectedStopPicker
-:
-function
 (
 )
 {
@@ -13320,8 +13240,6 @@ focus
 *
 /
 _onPickerCanceled
-:
-function
 (
 )
 {
@@ -13351,8 +13269,6 @@ focus
 }
 }
 _onPickerPicked
-:
-function
 (
 nodeFront
 )
@@ -13379,8 +13295,6 @@ picked
 ;
 }
 _onPickerPreviewed
-:
-function
 (
 nodeFront
 )
@@ -13474,10 +13388,8 @@ picker
 constants
 *
 /
-tellRDMAboutPickerState
-:
 async
-function
+tellRDMAboutPickerState
 (
 state
 pickerType
@@ -13862,10 +13774,8 @@ tab
 .
 *
 /
-_applyCacheSettings
-:
 async
-function
+_applyCacheSettings
 (
 )
 {
@@ -13971,10 +13881,8 @@ tab
 .
 *
 /
-_applyCustomFormatterSetting
-:
 async
-function
+_applyCustomFormatterSetting
 (
 )
 {
@@ -14085,8 +13993,6 @@ tab
 *
 /
 _applyServiceWorkersTestingSettings
-:
-function
 (
 )
 {
@@ -14811,8 +14717,6 @@ value
 *
 /
 _commandIsVisible
-:
-function
 (
 button
 )
@@ -14913,8 +14817,6 @@ for
 *
 /
 _buildPanelForTool
-:
-function
 (
 toolDefinition
 )
@@ -16061,8 +15963,6 @@ method
 *
 /
 loadTool
-:
-function
 (
 id
 options
@@ -17048,8 +16948,6 @@ iframe
 *
 /
 setIframeDocumentDir
-:
-function
 (
 iframe
 )
@@ -17196,8 +17094,6 @@ select
 *
 /
 selectSingleNode
-:
-function
 (
 collection
 id
@@ -17480,8 +17376,6 @@ background
 *
 /
 setIframeVisible
-:
-function
 (
 iframe
 visible
@@ -17651,8 +17545,6 @@ panel
 *
 /
 selectTool
-:
-function
 (
 id
 reason
@@ -18225,16 +18117,12 @@ this
 .
 _hostType
 width
-:
-width
 panel_name
 :
 prevPanelName
 next_panel
 :
 panelName
-reason
-:
 reason
 session_id
 :
@@ -18262,8 +18150,6 @@ tools
 "
 null
 {
-width
-:
 width
 session_id
 :
@@ -18333,8 +18219,6 @@ reason
 panel_name
 :
 panelName
-cold
-:
 cold
 session_id
 :
@@ -18492,8 +18376,6 @@ focus
 *
 /
 focusTool
-:
-function
 (
 id
 state
@@ -18558,8 +18440,6 @@ line
 *
 /
 focusConsoleInput
-:
-function
 (
 )
 {
@@ -18602,8 +18482,6 @@ console
 *
 /
 disableAllConsoleNetworkLogs
-:
-function
 (
 )
 {
@@ -18678,8 +18556,6 @@ closes
 *
 /
 _onFocus
-:
-function
 (
 {
 originalTarget
@@ -18749,8 +18625,6 @@ originalTarget
 ;
 }
 _onTabsOrderUpdated
-:
-function
 (
 )
 {
@@ -18793,8 +18667,6 @@ focused
 *
 /
 openSplitConsole
-:
-function
 (
 )
 {
@@ -18989,8 +18861,6 @@ closed
 *
 /
 closeSplitConsole
-:
-function
 (
 )
 {
@@ -19154,8 +19024,6 @@ closed
 *
 /
 toggleSplitConsole
-:
-function
 (
 )
 {
@@ -19225,8 +19093,6 @@ panel
 *
 /
 toggleOptions
-:
-function
 (
 event
 )
@@ -19349,8 +19215,6 @@ tool
 *
 /
 selectNextTool
-:
-function
 (
 )
 {
@@ -19450,8 +19314,6 @@ tool
 *
 /
 selectPreviousTool
-:
-function
 (
 )
 {
@@ -19735,8 +19597,6 @@ host
 *
 /
 raise
-:
-function
 (
 )
 {
@@ -20126,8 +19986,6 @@ title
 *
 /
 _refreshHostTitle
-:
-function
 (
 )
 {
@@ -20881,10 +20739,8 @@ DISABLE_AUTOHIDE_PREF
 )
 ;
 }
-_listFrames
-:
 async
-function
+_listFrames
 (
 event
 )
@@ -21021,8 +20877,6 @@ frameIdOrTargetActorId
 *
 /
 onIframePickerFrameSelected
-:
-function
 (
 frameIdOrTargetActorId
 )
@@ -21223,10 +21077,8 @@ String
 frameIdOrTargetActorId
 *
 /
-onHighlightFrame
-:
 async
-function
+onHighlightFrame
 (
 frameIdOrTargetActorId
 )
@@ -21598,8 +21450,6 @@ window
 *
 /
 _updateFrames
-:
-function
 (
 data
 )
@@ -22413,8 +22263,6 @@ UI
 *
 /
 switchToPreviousHost
-:
-function
 (
 )
 {
@@ -22477,8 +22325,6 @@ object
 *
 /
 switchHost
-:
-function
 (
 hostType
 )
@@ -22781,8 +22627,6 @@ tab
 ;
 }
 _onSwitchedHost
-:
-function
 (
 {
 hostType
@@ -23118,8 +22962,6 @@ toolbox
 *
 /
 isToolRegistered
-:
-function
 (
 toolId
 )
@@ -23201,8 +23043,6 @@ definition
 *
 /
 getToolDefinition
-:
-function
 (
 toolId
 )
@@ -23293,8 +23133,6 @@ removed
 *
 /
 unloadTool
-:
-function
 (
 toolId
 )
@@ -23647,8 +23485,6 @@ registered
 *
 /
 _toolRegistered
-:
-function
 (
 toolId
 )
@@ -23836,8 +23672,6 @@ unregistered
 *
 /
 _toolUnregistered
-:
-function
 (
 toolId
 )
@@ -24619,10 +24453,8 @@ _destroyer
 )
 ;
 }
-_onNewSelectedNodeFront
-:
 async
-function
+_onNewSelectedNodeFront
 (
 )
 {
@@ -24719,8 +24551,6 @@ targetFrontActorID
 }
 }
 _onToolSelected
-:
-function
 (
 )
 {
@@ -24810,10 +24640,8 @@ inspectFromAnnotation
 )
 ;
 }
-inspectObjectActor
-:
 async
-function
+inspectObjectActor
 (
 objectActor
 inspectFromAnnotation
@@ -25044,8 +24872,6 @@ component
 *
 /
 getNotificationBox
-:
-function
 (
 )
 {
@@ -25055,10 +24881,8 @@ this
 notificationBox
 ;
 }
-closeToolbox
-:
 async
-function
+closeToolbox
 (
 )
 {
@@ -25090,8 +24914,6 @@ destroyed
 *
 /
 isDestroying
-:
-function
 (
 )
 {
@@ -25118,8 +24940,6 @@ up
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -25221,10 +25041,8 @@ this
 _destroyer
 ;
 }
-_destroyToolbox
-:
 async
-function
+_destroyToolbox
 (
 )
 {
@@ -26005,10 +25823,6 @@ prevPanelName
 null
 {
 host
-:
-host
-width
-:
 width
 panel_name
 :
@@ -26053,10 +25867,6 @@ tools
 null
 {
 host
-:
-host
-width
-:
 width
 session_id
 :
@@ -26681,8 +26491,6 @@ y
 *
 /
 openTextBoxContextMenu
-:
-function
 (
 x
 y
@@ -26783,8 +26591,6 @@ available
 *
 /
 getTextBoxContextMenu
-:
-function
 (
 )
 {
@@ -27089,10 +26895,8 @@ open
 .
 *
 /
-viewGeneratedSourceInStyleEditor
-:
 async
-function
+viewGeneratedSourceInStyleEditor
 (
 url
 )
@@ -27241,10 +27045,8 @@ version
 .
 *
 /
-viewSourceInStyleEditorByURL
-:
 async
-function
+viewSourceInStyleEditorByURL
 (
 url
 line
@@ -27416,10 +27218,8 @@ version
 .
 *
 /
-viewSourceInStyleEditorByFront
-:
 async
-function
+viewSourceInStyleEditorByFront
 (
 stylesheetFront
 line
@@ -27547,10 +27347,8 @@ column
 )
 ;
 }
-viewElementInInspector
-:
 async
-function
+viewElementInInspector
 (
 objectGrip
 reason
@@ -27655,10 +27453,8 @@ open
 .
 *
 /
-viewGeneratedSourceInDebugger
-:
 async
-function
+viewGeneratedSourceInDebugger
 (
 url
 )
@@ -27767,10 +27563,8 @@ utils
 js
 *
 /
-viewSourceInDebugger
-:
 async
-function
+viewSourceInDebugger
 (
 sourceURL
 sourceLine
@@ -27942,8 +27736,6 @@ js
 *
 /
 viewSource
-:
-function
 (
 sourceURL
 sourceLine
@@ -28003,10 +27795,8 @@ API
 .
 *
 /
-getNetMonitorAPI
-:
 async
-function
+getNetMonitorAPI
 (
 )
 {
@@ -28127,10 +27917,8 @@ panel
 .
 *
 /
-getHARFromNetMonitor
-:
 async
-function
+getHARFromNetMonitor
 (
 )
 {
@@ -28245,10 +28033,8 @@ argument
 .
 *
 /
-addRequestFinishedListener
-:
 async
-function
+addRequestFinishedListener
 (
 listener
 )
@@ -28271,10 +28057,8 @@ listener
 )
 ;
 }
-removeRequestFinishedListener
-:
 async
-function
+removeRequestFinishedListener
 (
 listener
 )
@@ -28451,10 +28235,8 @@ fetched
 .
 *
 /
-fetchResponseContent
-:
 async
-function
+fetchResponseContent
 (
 requestId
 )
@@ -28545,8 +28327,6 @@ js
 *
 /
 listWebExtensions
-:
-function
 (
 )
 {
@@ -28703,8 +28483,6 @@ js
 *
 /
 registerWebExtension
-:
-function
 (
 extensionUUID
 {
@@ -28859,8 +28637,6 @@ js
 *
 /
 unregisterWebExtension
-:
-function
 (
 extensionUUID
 )
@@ -28969,8 +28745,6 @@ js
 *
 /
 isWebExtensionEnabled
-:
-function
 (
 extensionUUID
 )
@@ -29083,8 +28857,6 @@ process
 *
 /
 getTelemetryPanelNameOrOther
-:
-function
 (
 id
 )

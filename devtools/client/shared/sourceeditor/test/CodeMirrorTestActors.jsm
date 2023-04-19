@@ -133,13 +133,7 @@ setStatus
 "
 {
 statusMsg
-:
-statusMsg
 type
-:
-type
-customMsg
-:
 customMsg
 }
 )

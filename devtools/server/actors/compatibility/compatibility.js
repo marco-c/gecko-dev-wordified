@@ -292,8 +292,6 @@ constructor
 *
 /
 initialize
-:
-function
 (
 inspector
 )
@@ -322,8 +320,6 @@ inspector
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -632,8 +628,6 @@ Array
 *
 /
 getCSSDeclarationBlockIssues
-:
-function
 (
 declarationBlock
 targetBrowsers

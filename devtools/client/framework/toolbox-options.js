@@ -588,8 +588,6 @@ this
 ;
 }
 _addListeners
-:
-function
 (
 )
 {
@@ -787,8 +785,6 @@ setupToolsList
 ;
 }
 _removeListeners
-:
-function
 (
 )
 {
@@ -944,8 +940,6 @@ _themeUnregistered
 ;
 }
 _prefChanged
-:
-function
 (
 subject
 topic
@@ -1052,8 +1046,6 @@ updateSourceMapPref
 }
 }
 _themeRegistered
-:
-function
 (
 themeId
 )
@@ -1066,8 +1058,6 @@ setupThemeList
 ;
 }
 _themeUnregistered
-:
-function
 (
 theme
 )
@@ -1439,8 +1429,6 @@ button
 }
 }
 setupToolsList
-:
-function
 (
 )
 {
@@ -2524,8 +2512,6 @@ focus
 ;
 }
 setupThemeList
-:
-function
 (
 )
 {
@@ -2813,8 +2799,6 @@ preference
 *
 /
 setupAdditionalOptions
-:
-function
 (
 )
 {
@@ -4093,8 +4077,6 @@ none
 }
 }
 updateCurrentTheme
-:
-function
 (
 )
 {
@@ -4197,8 +4179,6 @@ true
 }
 }
 updateSourceMapPref
-:
-function
 (
 )
 {
@@ -4340,8 +4320,6 @@ checkbox
 *
 /
 _disableJSClicked
-:
-function
 (
 event
 )
@@ -4373,8 +4351,6 @@ checked
 ;
 }
 destroy
-:
-function
 (
 )
 {

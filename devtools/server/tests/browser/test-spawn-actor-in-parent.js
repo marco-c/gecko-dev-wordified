@@ -163,8 +163,6 @@ ActorClassWithSpec
 inContentSpec
 {
 initialize
-:
-function
 (
 conn
 )
@@ -185,8 +183,6 @@ conn
 ;
 }
 isInContent
-:
-function
 (
 )
 {
@@ -207,10 +203,8 @@ PROCESS_TYPE_CONTENT
 )
 ;
 }
-spawnInParent
-:
 async
-function
+spawnInParent
 (
 url
 )
@@ -340,8 +334,6 @@ ActorClassWithSpec
 inParentSpec
 {
 initialize
-:
-function
 (
 conn
 a1
@@ -401,8 +393,6 @@ mm
 ;
 }
 test
-:
-function
 (
 )
 {

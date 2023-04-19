@@ -687,8 +687,6 @@ item
 *
 /
 isSelected
-:
-function
 (
 item
 )
@@ -763,8 +761,6 @@ true
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -799,8 +795,6 @@ TreeWidget
 *
 /
 setupRoot
-:
-function
 (
 )
 {
@@ -992,8 +986,6 @@ tree
 *
 /
 setPlaceholderText
-:
-function
 (
 text
 )
@@ -1038,8 +1030,6 @@ item
 *
 /
 selectItem
-:
-function
 (
 id
 )
@@ -1067,8 +1057,6 @@ tree
 *
 /
 selectNextItem
-:
-function
 (
 )
 {
@@ -1109,8 +1097,6 @@ tree
 *
 /
 selectPreviousItem
-:
-function
 (
 )
 {
@@ -1151,8 +1137,6 @@ tree
 *
 /
 getNextVisibleItem
-:
-function
 (
 )
 {
@@ -1318,8 +1302,6 @@ tree
 *
 /
 getPreviousVisibleItem
-:
-function
 (
 )
 {
@@ -1513,8 +1495,6 @@ null
 ;
 }
 clearSelection
-:
-function
 (
 )
 {
@@ -1819,8 +1799,6 @@ id
 *
 /
 add
-:
-function
 (
 items
 )
@@ -1960,8 +1938,6 @@ item
 *
 /
 exists
-:
-function
 (
 item
 )
@@ -2055,8 +2031,6 @@ item
 *
 /
 remove
-:
-function
 (
 item
 )
@@ -2138,8 +2112,6 @@ tree
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -2194,8 +2166,6 @@ completely
 *
 /
 expandAll
-:
-function
 (
 )
 {
@@ -2219,8 +2189,6 @@ completely
 *
 /
 collapseAll
-:
-function
 (
 )
 {
@@ -2256,8 +2224,6 @@ nodes
 *
 /
 onClick
-:
-function
 (
 event
 )
@@ -2429,8 +2395,6 @@ item
 *
 /
 onKeydown
-:
-function
 (
 event
 )
@@ -2603,8 +2567,6 @@ visible
 *
 /
 ensureSelectedVisible
-:
-function
 (
 )
 {
@@ -3204,8 +3166,6 @@ parent
 *
 /
 add
-:
-function
 (
 items
 defaultType
@@ -3755,8 +3715,6 @@ removed
 *
 /
 remove
-:
-function
 (
 items
 =
@@ -3924,8 +3882,6 @@ selected
 *
 /
 setSelectedItem
-:
-function
 (
 items
 )
@@ -4063,8 +4019,6 @@ items
 *
 /
 collapseAll
-:
-function
 (
 )
 {
@@ -4126,8 +4080,6 @@ items
 *
 /
 expandAll
-:
-function
 (
 )
 {
@@ -4176,8 +4128,6 @@ expandAll
 }
 }
 destroy
-:
-function
 (
 )
 {

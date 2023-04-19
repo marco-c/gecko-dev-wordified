@@ -182,10 +182,8 @@ visible
 :
 true
 }
-changeStyle
-:
 async
-function
+changeStyle
 (
 )
 {
@@ -271,10 +269,8 @@ visible
 :
 false
 }
-changeStyle
-:
 async
-function
+changeStyle
 (
 )
 {
@@ -363,10 +359,8 @@ visible
 :
 false
 }
-changeStyle
-:
 async
-function
+changeStyle
 (
 )
 {
@@ -455,10 +449,8 @@ visible
 :
 false
 }
-changeStyle
-:
 async
-function
+changeStyle
 (
 )
 {

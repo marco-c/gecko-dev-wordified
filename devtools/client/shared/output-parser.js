@@ -928,8 +928,6 @@ etc
 *
 /
 parseCssProperty
-:
-function
 (
 name
 value
@@ -1418,8 +1416,6 @@ text
 *
 /
 _parseMatchingParens
-:
-function
 (
 text
 tokenStream
@@ -1929,8 +1925,6 @@ variable
 *
 /
 _parseVariable
-:
-function
 (
 initialToken
 text
@@ -2552,8 +2546,6 @@ next
 line
 complexity
 _doParse
-:
-function
 (
 text
 options
@@ -4221,8 +4213,6 @@ fragment
 *
 /
 _parse
-:
-function
 (
 text
 options
@@ -4328,8 +4318,6 @@ _parse
 *
 /
 _isDisplayFlex
-:
-function
 (
 text
 token
@@ -4431,8 +4419,6 @@ _parse
 *
 /
 _isDisplayGrid
-:
-function
 (
 text
 token
@@ -4526,8 +4512,6 @@ _mergeOptions
 *
 /
 _appendCubicBezier
-:
-function
 (
 bezier
 options
@@ -4705,8 +4689,6 @@ span
 *
 /
 _appendHighlighterToggle
-:
-function
 (
 text
 className
@@ -4856,8 +4838,6 @@ _mergeOptions
 *
 /
 _appendShape
-:
-function
 (
 shape
 options
@@ -5195,8 +5175,6 @@ next
 line
 complexity
 _addPolygonPointNodes
-:
-function
 (
 coords
 container
@@ -6179,8 +6157,6 @@ next
 line
 complexity
 _addCirclePointNodes
-:
-function
 (
 coords
 container
@@ -7238,8 +7214,6 @@ next
 line
 complexity
 _addEllipsePointNodes
-:
-function
 (
 coords
 container
@@ -8353,8 +8327,6 @@ next
 line
 complexity
 _addInsetPointNodes
-:
-function
 (
 coords
 container
@@ -9453,8 +9425,6 @@ _mergeOptions
 *
 /
 _appendAngle
-:
-function
 (
 angle
 options
@@ -9734,8 +9704,6 @@ check
 *
 /
 _cssPropertySupportsValue
-:
-function
 (
 name
 value
@@ -9824,8 +9792,6 @@ transparent
 *
 /
 _isValidColor
-:
-function
 (
 colorObj
 )
@@ -9906,8 +9872,6 @@ _mergeOptions
 *
 /
 _appendColor
-:
-function
 (
 color
 options
@@ -10489,8 +10453,6 @@ nodes
 *
 /
 _wrapFilter
-:
-function
 (
 filters
 options
@@ -10600,8 +10562,6 @@ container
 ;
 }
 _onColorSwatchMouseDown
-:
-function
 (
 event
 )
@@ -10696,8 +10656,6 @@ val
 ;
 }
 _onAngleSwatchMouseDown
-:
-function
 (
 event
 )
@@ -10786,8 +10744,6 @@ URL
 *
 /
 _sanitizeURL
-:
-function
 (
 url
 )
@@ -10919,8 +10875,6 @@ _mergeOptions
 *
 /
 _appendURL
-:
-function
 (
 match
 url
@@ -11226,8 +11180,6 @@ options
 .
 urlClass
 href
-:
-href
 }
 body
 )
@@ -11300,8 +11252,6 @@ _mergeOptions
 *
 /
 _appendFontFamily
-:
-function
 (
 fontFamily
 options
@@ -11649,8 +11599,6 @@ Node
 *
 /
 _createNode
-:
-function
 (
 tagName
 attributes
@@ -11836,8 +11784,6 @@ tags
 *
 /
 _appendNode
-:
-function
 (
 tagName
 attributes
@@ -11914,8 +11860,6 @@ append
 *
 /
 _appendTextNode
-:
-function
 (
 text
 )
@@ -12006,8 +11950,6 @@ Fragment
 *
 /
 _toDOM
-:
-function
 (
 )
 {
@@ -12553,8 +12495,6 @@ object
 *
 /
 _mergeOptions
-:
-function
 (
 overrides
 )

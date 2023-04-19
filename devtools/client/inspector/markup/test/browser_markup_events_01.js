@@ -439,10 +439,8 @@ selector
 #
 noevents
 "
-beforeTest
-:
 async
-function
+beforeTest
 (
 inspector
 )
@@ -554,10 +552,8 @@ selector
 #
 noevents
 "
-beforeTest
-:
 async
-function
+beforeTest
 (
 inspector
 )

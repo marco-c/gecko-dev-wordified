@@ -235,8 +235,6 @@ url
 ;
 }
 equals
-:
-function
 (
 other
 )
@@ -301,8 +299,6 @@ column
 ;
 }
 toJSON
-:
-function
 (
 )
 {

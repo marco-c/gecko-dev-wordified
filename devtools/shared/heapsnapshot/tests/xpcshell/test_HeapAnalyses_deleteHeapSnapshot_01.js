@@ -219,8 +219,6 @@ getDominatorTree
 (
 {
 dominatorTreeId
-:
-dominatorTreeId
 breakdown
 }
 )

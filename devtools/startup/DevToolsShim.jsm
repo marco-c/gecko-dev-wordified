@@ -440,8 +440,6 @@ isDisabledByPolicy
 *
 /
 isEnabled
-:
-function
 (
 )
 {
@@ -489,8 +487,6 @@ called
 *
 /
 isDisabledByPolicy
-:
-function
 (
 )
 {
@@ -533,8 +529,6 @@ initialized
 *
 /
 isInitialized
-:
-function
 (
 )
 {
@@ -588,8 +582,6 @@ toolboxes
 *
 /
 getToolboxes
-:
-function
 (
 )
 {
@@ -655,8 +647,6 @@ devtools
 *
 /
 register
-:
-function
 (
 gDevTools
 )
@@ -710,8 +700,6 @@ shutdown
 *
 /
 unregister
-:
-function
 (
 )
 {
@@ -832,8 +820,6 @@ destroyed
 *
 /
 on
-:
-function
 (
 event
 listener
@@ -903,8 +889,6 @@ on
 *
 /
 off
-:
-function
 (
 event
 listener
@@ -1000,8 +984,6 @@ reference
 *
 /
 saveDevToolsSession
-:
-function
 (
 state
 )
@@ -1067,8 +1049,6 @@ items
 *
 /
 restoreDevToolsSession
-:
-function
 (
 session
 )
@@ -1261,8 +1241,6 @@ enabled
 *
 /
 inspectA11Y
-:
-function
 (
 tab
 domReference
@@ -1484,8 +1462,6 @@ enabled
 *
 /
 inspectNode
-:
-function
 (
 tab
 domReference
@@ -1608,8 +1584,6 @@ startTime
 ;
 }
 _onDevToolsRegistered
-:
-function
 (
 )
 {
@@ -1734,8 +1708,6 @@ json
 *
 /
 initDevTools
-:
-function
 (
 reason
 )

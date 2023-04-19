@@ -215,8 +215,6 @@ ObjectActor
 *
 /
 initialize
-:
-function
 (
 obj
 hooks
@@ -257,8 +255,6 @@ isThreadLifetimePool
 ;
 }
 isPaused
-:
-function
 (
 )
 {
@@ -283,8 +279,6 @@ true
 ;
 }
 withPaused
-:
-function
 (
 method
 )

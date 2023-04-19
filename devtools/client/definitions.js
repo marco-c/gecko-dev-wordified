@@ -676,8 +676,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 )
 {
@@ -686,8 +684,6 @@ true
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -910,8 +906,6 @@ preventRaisingOnKey
 :
 true
 onkey
-:
-function
 (
 panel
 toolbox
@@ -927,8 +921,6 @@ togglePicker
 ;
 }
 isToolSupported
-:
-function
 (
 toolbox
 )
@@ -947,8 +939,6 @@ inspector
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -1112,8 +1102,6 @@ preventClosingOnKey
 :
 true
 onkey
-:
-function
 (
 panel
 toolbox
@@ -1145,8 +1133,6 @@ undefined
 ;
 }
 isToolSupported
-:
-function
 (
 )
 {
@@ -1155,8 +1141,6 @@ true
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -1307,8 +1291,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 )
 {
@@ -1317,8 +1299,6 @@ true
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -1463,8 +1443,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 toolbox
 )
@@ -1483,8 +1461,6 @@ styleSheets
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -1631,8 +1607,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 toolbox
 )
@@ -1748,8 +1722,6 @@ isBrowserToolbox
 ;
 }
 build
-:
-function
 (
 frame
 toolbox
@@ -1857,8 +1829,6 @@ tooltip
 "
 )
 isToolSupported
-:
-function
 (
 toolbox
 )
@@ -1881,8 +1851,6 @@ isWorkerTarget
 ;
 }
 build
-:
-function
 (
 frame
 toolbox
@@ -2042,8 +2010,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 toolbox
 )
@@ -2072,8 +2038,6 @@ isWorkerTarget
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -2228,8 +2192,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 toolbox
 )
@@ -2248,8 +2210,6 @@ storage
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -2409,8 +2369,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 )
 {
@@ -2419,8 +2377,6 @@ true
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox
@@ -2713,8 +2669,6 @@ inMenu
 :
 false
 isToolSupported
-:
-function
 (
 toolbox
 )
@@ -2733,8 +2687,6 @@ manifest
 ;
 }
 build
-:
-function
 (
 iframeWindow
 toolbox

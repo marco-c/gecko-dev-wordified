@@ -139,8 +139,6 @@ ActorClassWithSpec
 arrayBufferSpec
 {
 initialize
-:
-function
 (
 conn
 buffer
@@ -176,8 +174,6 @@ byteLength
 ;
 }
 rawValue
-:
-function
 (
 )
 {
@@ -188,8 +184,6 @@ buffer
 ;
 }
 form
-:
-function
 (
 )
 {

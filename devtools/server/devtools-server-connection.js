@@ -1474,8 +1474,6 @@ errorString
 ;
 }
 _queueResponse
-:
-function
 (
 from
 type
@@ -2937,8 +2935,6 @@ error
 unrecognizedPacketType
 "
 message
-:
-message
 }
 ;
 packet
@@ -3589,10 +3585,6 @@ this
 .
 prefix
 module
-:
-module
-setupParent
-:
 setupParent
 }
 )

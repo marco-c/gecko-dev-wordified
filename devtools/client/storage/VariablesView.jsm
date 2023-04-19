@@ -945,8 +945,6 @@ instance
 *
 /
 addScope
-:
-function
 (
 l10nId
 =
@@ -1070,8 +1068,6 @@ enabled
 *
 /
 empty
-:
-function
 (
 aTimeout
 =
@@ -1336,8 +1332,6 @@ commitHierarchy
 *
 /
 _emptySoon
-:
-function
 (
 aTimeout
 )
@@ -2724,8 +2718,6 @@ searching
 *
 /
 _enableSearch
-:
-function
 (
 )
 {
@@ -2961,8 +2953,6 @@ searching
 *
 /
 _disableSearch
-:
-function
 (
 )
 {
@@ -3077,8 +3067,6 @@ visibility
 *
 /
 _toggleSearchVisibility
-:
-function
 (
 aVisibleFlag
 )
@@ -3134,8 +3122,6 @@ event
 *
 /
 _onSearchboxInput
-:
-function
 (
 )
 {
@@ -3165,8 +3151,6 @@ event
 *
 /
 _onSearchboxKeyDown
-:
-function
 (
 e
 )
@@ -3258,8 +3242,6 @@ draining
 *
 /
 scheduleSearch
-:
-function
 (
 aToken
 aWait
@@ -3432,8 +3414,6 @@ for
 *
 /
 _doSearch
-:
-function
 (
 aToken
 )
@@ -3732,8 +3712,6 @@ found
 *
 /
 _findInVisibleItems
-:
-function
 (
 aPredicate
 )
@@ -3868,8 +3846,6 @@ found
 *
 /
 _findInVisibleItemsReverse
-:
-function
 (
 aPredicate
 )
@@ -3970,8 +3946,6 @@ not
 *
 /
 getScopeAtIndex
-:
-function
 (
 aIndex
 )
@@ -4042,8 +4016,6 @@ found
 *
 /
 getItemForNode
-:
-function
 (
 aNode
 )
@@ -4101,8 +4073,6 @@ scope
 *
 /
 getOwnerScopeForVariableOrProperty
-:
-function
 (
 aItem
 )
@@ -4240,8 +4210,6 @@ Scopes
 *
 /
 getParentScopesForVariableOrProperty
-:
-function
 (
 aItem
 )
@@ -4322,8 +4290,6 @@ found
 *
 /
 getFocusedItem
-:
-function
 (
 )
 {
@@ -4366,8 +4332,6 @@ container
 *
 /
 focusFirstVisibleItem
-:
-function
 (
 )
 {
@@ -4435,8 +4399,6 @@ container
 *
 /
 focusLastVisibleItem
-:
-function
 (
 )
 {
@@ -4507,8 +4469,6 @@ view
 *
 /
 focusNextItem
-:
-function
 (
 )
 {
@@ -4539,8 +4499,6 @@ view
 *
 /
 focusPrevItem
-:
-function
 (
 )
 {
@@ -4599,8 +4557,6 @@ change
 *
 /
 focusItemAtDelta
-:
-function
 (
 aDelta
 )
@@ -4736,8 +4692,6 @@ instead
 *
 /
 _focusChange
-:
-function
 (
 aDirection
 )
@@ -4909,8 +4863,6 @@ focused
 *
 /
 _focusItem
-:
-function
 (
 aItem
 aCollapseFlag
@@ -4980,8 +4932,6 @@ clipboard
 *
 /
 _copyItem
-:
-function
 (
 )
 {
@@ -5041,8 +4991,6 @@ next
 line
 complexity
 _onViewKeyDown
-:
-function
 (
 e
 )
@@ -5587,8 +5535,6 @@ empty
 *
 /
 _appendEmptyNotice
-:
-function
 (
 )
 {
@@ -5681,8 +5627,6 @@ empty
 *
 /
 _removeEmptyNotice
-:
-function
 (
 )
 {
@@ -7710,8 +7654,6 @@ Variable
 *
 /
 _createChild
-:
-function
 (
 aName
 aDescriptor
@@ -8022,8 +7964,6 @@ exists
 *
 /
 addItem
-:
-function
 (
 aName
 aDescriptor
@@ -8354,8 +8294,6 @@ added
 *
 /
 addItems
-:
-function
 (
 aItems
 aOptions
@@ -8483,8 +8421,6 @@ recursively
 *
 /
 remove
-:
-function
 (
 )
 {
@@ -8610,8 +8546,6 @@ found
 *
 /
 get
-:
-function
 (
 aName
 )
@@ -8681,8 +8615,6 @@ found
 *
 /
 find
-:
-function
 (
 aNode
 )
@@ -8801,8 +8733,6 @@ otherwise
 *
 /
 isChildOf
-:
-function
 (
 aParent
 )
@@ -8872,8 +8802,6 @@ otherwise
 *
 /
 isDescendantOf
-:
-function
 (
 aParent
 )
@@ -8941,8 +8869,6 @@ scope
 *
 /
 show
-:
-function
 (
 )
 {
@@ -8987,8 +8913,6 @@ scope
 *
 /
 hide
-:
-function
 (
 )
 {
@@ -9038,8 +8962,6 @@ details
 *
 /
 expand
-:
-function
 (
 )
 {
@@ -9186,8 +9108,6 @@ details
 *
 /
 collapse
-:
-function
 (
 )
 {
@@ -9280,8 +9200,6 @@ state
 *
 /
 toggle
-:
-function
 (
 e
 )
@@ -9389,8 +9307,6 @@ header
 *
 /
 showHeader
-:
-function
 (
 )
 {
@@ -9452,8 +9368,6 @@ scope
 *
 /
 hideHeader
-:
-function
 (
 )
 {
@@ -9567,8 +9481,6 @@ than
 *
 /
 _naturalSort
-:
-function
 (
 a
 b
@@ -9623,8 +9535,6 @@ arrow
 *
 /
 showArrow
-:
-function
 (
 )
 {
@@ -9673,8 +9583,6 @@ arrow
 *
 /
 hideArrow
-:
-function
 (
 )
 {
@@ -10146,8 +10054,6 @@ scope
 *
 /
 focus
-:
-function
 (
 )
 {
@@ -10195,8 +10101,6 @@ aCapture
 *
 /
 addEventListener
-:
-function
 (
 aName
 aCallback
@@ -10249,8 +10153,6 @@ aCapture
 *
 /
 removeEventListener
-:
-function
 (
 aName
 aCallback
@@ -10458,8 +10360,6 @@ scope
 *
 /
 _init
-:
-function
 (
 l10nId
 aFlags
@@ -10627,8 +10527,6 @@ element
 *
 /
 _displayScope
-:
-function
 (
 {
 l10nId
@@ -10939,8 +10837,6 @@ scope
 *
 /
 _addEventListeners
-:
-function
 (
 )
 {
@@ -10976,8 +10872,6 @@ title
 *
 /
 _onClick
-:
-function
 (
 e
 )
@@ -11056,8 +10950,6 @@ container
 *
 /
 _openEnum
-:
-function
 (
 )
 {
@@ -11103,8 +10995,6 @@ container
 *
 /
 _openNonEnum
-:
-function
 (
 )
 {
@@ -11349,8 +11239,6 @@ for
 *
 /
 _performSearch
-:
-function
 (
 aLowerCaseQuery
 )
@@ -11809,8 +11697,6 @@ found
 *
 /
 _findInVisibleItems
-:
-function
 (
 aPredicate
 )
@@ -12030,8 +11916,6 @@ found
 *
 /
 _findInVisibleItemsReverse
-:
-function
 (
 aPredicate
 )
@@ -13015,8 +12899,6 @@ Property
 *
 /
 _createChild
-:
-function
 (
 aName
 aDescriptor
@@ -13053,8 +12935,6 @@ recursively
 *
 /
 remove
-:
-function
 (
 )
 {
@@ -13260,8 +13140,6 @@ them
 *
 /
 populate
-:
-function
 (
 aObject
 aOptions
@@ -13541,8 +13419,6 @@ target
 *
 /
 _populateTarget
-:
-function
 (
 aVar
 aObject
@@ -13637,8 +13513,6 @@ instance
 *
 /
 _addRawValueProperty
-:
-function
 (
 aName
 aDescriptor
@@ -13793,8 +13667,6 @@ instance
 *
 /
 _addRawNonValueProperty
-:
-function
 (
 aName
 aDescriptor
@@ -14114,8 +13986,6 @@ array
 *
 /
 _buildSymbolicPath
-:
-function
 (
 path
 =
@@ -14394,8 +14264,6 @@ Object
 *
 /
 setGrip
-:
-function
 (
 aGrip
 )
@@ -14761,8 +14629,6 @@ not
 *
 /
 setOverridden
-:
-function
 (
 aFlag
 )
@@ -14828,8 +14694,6 @@ duration
 *
 /
 flash
-:
-function
 (
 aDuration
 =
@@ -14959,8 +14823,6 @@ descriptor
 *
 /
 _init
-:
-function
 (
 aName
 aDescriptor
@@ -15119,8 +14981,6 @@ variable
 *
 /
 _displayVariable
-:
-function
 (
 )
 {
@@ -15557,8 +15417,6 @@ flags
 *
 /
 _customizeVariable
-:
-function
 (
 )
 {
@@ -16203,8 +16061,6 @@ variable
 *
 /
 _prepareTooltips
-:
-function
 (
 )
 {
@@ -16237,8 +16093,6 @@ variable
 *
 /
 _setTooltips
-:
-function
 (
 )
 {
@@ -16626,8 +16480,6 @@ done
 *
 /
 _isLinkableToInspector
-:
-function
 (
 )
 {
@@ -16719,8 +16571,6 @@ click
 *
 /
 _linkToInspector
-:
-function
 (
 )
 {
@@ -16923,8 +16773,6 @@ ready
 *
 /
 openNodeInInspector
-:
-function
 (
 event
 )
@@ -17132,10 +16980,8 @@ corresponding
 node
 *
 /
-highlightDomNode
-:
 async
-function
+highlightDomNode
 (
 )
 {
@@ -17222,8 +17068,6 @@ highlightDomNode
 *
 /
 unhighlightDomNode
-:
-function
 (
 )
 {
@@ -17306,8 +17150,6 @@ next
 line
 complexity
 _setAttributes
-:
-function
 (
 )
 {
@@ -17747,8 +17589,6 @@ variable
 *
 /
 _addEventListeners
-:
-function
 (
 )
 {
@@ -17810,8 +17650,6 @@ editable
 *
 /
 _activateNameInput
-:
-function
 (
 e
 )
@@ -17938,8 +17776,6 @@ editable
 *
 /
 _activateValueInput
-:
-function
 (
 e
 )
@@ -18023,8 +17859,6 @@ evaluation
 *
 /
 _disable
-:
-function
 (
 )
 {
@@ -18152,8 +17986,6 @@ button
 *
 /
 _onEdit
-:
-function
 (
 e
 )
@@ -18205,8 +18037,6 @@ button
 *
 /
 _onDelete
-:
-function
 (
 e
 )
@@ -18290,8 +18120,6 @@ button
 *
 /
 _onAddProperty
-:
-function
 (
 e
 )
@@ -21435,8 +21263,6 @@ byType
 =
 {
 string
-:
-function
 (
 aGrip
 {
@@ -21466,8 +21292,6 @@ aGrip
 ;
 }
 longString
-:
-function
 (
 {
 initial
@@ -21543,8 +21367,6 @@ ellipsis
 ;
 }
 object
-:
-function
 (
 aGrip
 aOptions
@@ -21627,8 +21449,6 @@ null
 ;
 }
 symbol
-:
-function
 (
 aGrip
 aOptions
@@ -21659,8 +21479,6 @@ name
 ;
 }
 mapEntry
-:
-function
 (
 aGrip
 {
@@ -21741,8 +21559,6 @@ byObjectClass
 =
 {
 Function
-:
-function
 (
 aGrip
 {
@@ -21872,8 +21688,6 @@ params
 ;
 }
 RegExp
-:
-function
 (
 {
 displayString
@@ -21895,8 +21709,6 @@ true
 ;
 }
 Date
-:
-function
 (
 {
 preview
@@ -21973,8 +21785,6 @@ toISOString
 ;
 }
 Number
-:
-function
 (
 aGrip
 )
@@ -22057,8 +21867,6 @@ byObjectKind
 =
 {
 ArrayLike
-:
-function
 (
 aGrip
 {
@@ -22319,8 +22127,6 @@ join
 ;
 }
 MapLike
-:
-function
 (
 aGrip
 {
@@ -22519,8 +22325,6 @@ join
 ;
 }
 ObjectWithText
-:
-function
 (
 aGrip
 {
@@ -22560,8 +22364,6 @@ text
 ;
 }
 ObjectWithURL
-:
-function
 (
 aGrip
 {
@@ -22638,8 +22440,6 @@ of
 object
 .
 Object
-:
-function
 (
 aGrip
 {
@@ -23058,8 +22858,6 @@ join
 /
 Object
 Error
-:
-function
 (
 aGrip
 {
@@ -23177,8 +22975,6 @@ msg
 ;
 }
 DOMException
-:
-function
 (
 aGrip
 {
@@ -23323,8 +23119,6 @@ msg
 ;
 }
 DOMEvent
-:
-function
 (
 aGrip
 {
@@ -23529,8 +23323,6 @@ join
 /
 DOMEvent
 DOMNode
-:
-function
 (
 aGrip
 {
@@ -24967,8 +24759,6 @@ Editable
 *
 /
 activate
-:
-function
 (
 e
 )
@@ -25341,8 +25131,6 @@ state
 *
 /
 deactivate
-:
-function
 (
 )
 {
@@ -25484,8 +25272,6 @@ Editable
 *
 /
 _save
-:
-function
 (
 )
 {
@@ -25563,8 +25349,6 @@ desired
 *
 /
 _next
-:
-function
 (
 )
 {
@@ -25596,8 +25380,6 @@ saving
 *
 /
 _reset
-:
-function
 (
 )
 {
@@ -25632,8 +25414,6 @@ focus
 *
 /
 _onBlur
-:
-function
 (
 )
 {
@@ -25662,8 +25442,6 @@ press
 *
 /
 _onKeydown
-:
-function
 (
 e
 )
@@ -25972,8 +25750,6 @@ EditableName
 prototype
 {
 _reset
-:
-function
 (
 e
 )
@@ -26007,8 +25783,6 @@ deactivate
 ;
 }
 _next
-:
-function
 (
 e
 )
@@ -26109,8 +25883,6 @@ deactivate
 ;
 }
 _save
-:
-function
 (
 e
 )

@@ -2307,8 +2307,6 @@ null
 ;
 }
 onResourceAvailable
-:
-function
 (
 resources
 )
@@ -2513,10 +2511,8 @@ mutation
 .
 *
 /
-onRootNodeAvailable
-:
 async
-function
+onRootNodeAvailable
 (
 rootNodeFront
 )
@@ -2651,10 +2647,8 @@ e
 ;
 }
 }
-_initMarkupView
-:
 async
-function
+_initMarkupView
 (
 )
 {
@@ -3650,8 +3644,6 @@ requests
 *
 /
 _handleRejectionIfNotDestroyed
-:
-function
 (
 e
 )
@@ -3674,8 +3666,6 @@ e
 }
 }
 _onWillNavigate
-:
-function
 (
 )
 {
@@ -3723,10 +3713,8 @@ _pendingSelectionUnique
 null
 ;
 }
-_getCssProperties
-:
 async
-function
+_getCssProperties
 (
 targetFront
 )
@@ -3746,10 +3734,8 @@ cssProperties
 )
 ;
 }
-_getAccessibilityFront
-:
 async
-function
+_getAccessibilityFront
 (
 targetFront
 )
@@ -3811,10 +3797,8 @@ walker
 .
 *
 /
-_getDefaultNodeForSelection
-:
 async
-function
+_getDefaultNodeForSelection
 (
 rootNodeFront
 )
@@ -4123,8 +4107,6 @@ suggestions
 *
 /
 setupSearchBox
-:
-function
 (
 )
 {
@@ -4519,8 +4501,6 @@ autocompleter
 ;
 }
 _clearSearchResultsLabel
-:
-function
 (
 result
 )
@@ -4536,8 +4516,6 @@ true
 ;
 }
 _updateSearchResultsLabel
-:
-function
 (
 result
 clear
@@ -4862,8 +4840,6 @@ mode
 *
 /
 useLandscapeMode
-:
-function
 (
 )
 {
@@ -4970,8 +4946,6 @@ panel
 *
 /
 setupSplitter
-:
-function
 (
 )
 {
@@ -5195,10 +5169,8 @@ true
 )
 ;
 }
-_onLazyPanelResize
-:
 async
-function
+_onLazyPanelResize
 (
 )
 {
@@ -5279,8 +5251,6 @@ resize
 ;
 }
 getSidebarSize
-:
-function
 (
 )
 {
@@ -5443,8 +5413,6 @@ splitSidebarWidth
 ;
 }
 onSidebarHidden
-:
-function
 (
 )
 {
@@ -5537,8 +5505,6 @@ width
 ;
 }
 onSidebarResized
-:
-function
 (
 width
 height
@@ -5578,8 +5544,6 @@ active
 *
 /
 getActiveSidebar
-:
-function
 (
 )
 {
@@ -5601,8 +5565,6 @@ activeSidebar
 ;
 }
 setActiveSidebar
-:
-function
 (
 toolId
 )
@@ -5640,8 +5602,6 @@ user
 *
 /
 getSelectedSidebar
-:
-function
 (
 )
 {
@@ -5663,8 +5623,6 @@ selectedSidebar
 ;
 }
 setSelectedSidebar
-:
-function
 (
 toolId
 )
@@ -5687,8 +5645,6 @@ toolId
 ;
 }
 onSidebarSelect
-:
-function
 (
 toolId
 )
@@ -5765,8 +5721,6 @@ toolId
 ;
 }
 onSidebarShown
-:
-function
 (
 )
 {
@@ -6938,8 +6892,6 @@ exists
 *
 /
 hasPanel
-:
-function
 (
 id
 )
@@ -6972,8 +6924,6 @@ sidebar
 *
 /
 getPanel
-:
-function
 (
 id
 )
@@ -8145,8 +8095,6 @@ title
 *
 /
 addExtensionSidebar
-:
-function
 (
 id
 {
@@ -8383,8 +8331,6 @@ destroy
 *
 /
 removeExtensionSidebar
-:
-function
 (
 id
 )
@@ -8577,8 +8523,6 @@ selected
 *
 /
 addSidebarTab
-:
-function
 (
 id
 title
@@ -8961,8 +8905,6 @@ updated
 ;
 }
 teardownToolbar
-:
-function
 (
 )
 {
@@ -9341,8 +9283,6 @@ Boolean
 *
 /
 canAddHTMLChild
-:
-function
 (
 )
 {
@@ -9740,8 +9680,6 @@ selected
 *
 /
 onNewSelection
-:
-function
 (
 value
 reason
@@ -10154,8 +10092,6 @@ viewing
 *
 /
 updating
-:
-function
 (
 name
 )
@@ -10228,8 +10164,6 @@ Set
 (
 )
 checkDone
-:
-function
 (
 )
 {
@@ -10396,8 +10330,6 @@ updates
 *
 /
 cancelUpdate
-:
-function
 (
 )
 {
@@ -10449,8 +10381,6 @@ selected
 *
 /
 onDetached
-:
-function
 (
 parentNode
 )
@@ -10510,8 +10440,6 @@ inspector
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -11174,8 +11102,6 @@ null
 ;
 }
 _destroyMarkup
-:
-function
 (
 )
 {
@@ -11223,8 +11149,6 @@ hidden
 }
 }
 onEyeDropperButtonClicked
-:
-function
 (
 )
 {
@@ -11255,8 +11179,6 @@ showEyeDropper
 ;
 }
 startEyeDropperListeners
-:
-function
 (
 )
 {
@@ -11322,8 +11244,6 @@ onEyeDropperDone
 ;
 }
 stopEyeDropperListeners
-:
-function
 (
 )
 {
@@ -11389,8 +11309,6 @@ onEyeDropperDone
 ;
 }
 onEyeDropperDone
-:
-function
 (
 )
 {
@@ -11440,8 +11358,6 @@ visible
 *
 /
 showEyeDropper
-:
-function
 (
 )
 {
@@ -11595,8 +11511,6 @@ hidden
 *
 /
 hideEyeDropper
-:
-function
 (
 )
 {
@@ -11852,8 +11766,6 @@ class
 *
 /
 togglePseudoClass
-:
-function
 (
 pseudo
 )

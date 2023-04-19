@@ -310,8 +310,6 @@ log
 *
 /
 logWindowGlobal
-:
-function
 (
 windowGlobal
 message

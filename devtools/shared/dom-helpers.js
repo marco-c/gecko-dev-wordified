@@ -186,8 +186,6 @@ callback
 *
 /
 onceDOMReady
-:
-function
 (
 win
 callback

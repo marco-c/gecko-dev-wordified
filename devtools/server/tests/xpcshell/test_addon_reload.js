@@ -75,8 +75,6 @@ listener
 [
 event
 ]
-:
-function
 (
 .
 .

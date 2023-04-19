@@ -836,8 +836,6 @@ server
 *
 /
 _initServer
-:
-function
 (
 )
 {
@@ -2099,8 +2097,6 @@ debugger
 *
 /
 _create
-:
-function
 (
 )
 {
@@ -2992,10 +2988,8 @@ process
 .
 *
 /
-close
-:
 async
-function
+close
 (
 )
 {

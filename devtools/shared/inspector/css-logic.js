@@ -3318,10 +3318,6 @@ after
 return
 {
 bindingElement
-:
-bindingElement
-pseudo
-:
 pseudo
 }
 ;

@@ -112,8 +112,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -299,10 +297,8 @@ prototype
 /
 /
 Connection
-start
-:
 async
-function
+start
 (
 )
 {
@@ -341,10 +337,8 @@ onResourceUpdated
 )
 ;
 }
-stop
-:
 async
-function
+stop
 (
 )
 {
@@ -384,8 +378,6 @@ onResourceUpdated
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -453,8 +445,6 @@ requests
 ;
 }
 waitForHarLoad
-:
-function
 (
 )
 {
@@ -547,8 +537,6 @@ this
 ;
 }
 waitForResponses
-:
-function
 (
 )
 {
@@ -846,8 +834,6 @@ pageLoadedTimeout
 *
 /
 waitForTimeout
-:
-function
 (
 )
 {
@@ -994,8 +980,6 @@ timeout
 ;
 }
 resetPageLoadTimeout
-:
-function
 (
 )
 {
@@ -1073,8 +1057,6 @@ null
 Collected
 Data
 getFile
-:
-function
 (
 actorId
 )
@@ -1091,8 +1073,6 @@ actorId
 ;
 }
 getItems
-:
-function
 (
 )
 {
@@ -1107,8 +1087,6 @@ items
 Event
 Handlers
 onResourceAvailable
-:
-function
 (
 resources
 )
@@ -1244,13 +1222,7 @@ startedMs
 :
 startTime
 method
-:
-method
 url
-:
-url
-isXHR
-:
 isXHR
 }
 ;
@@ -1284,8 +1256,6 @@ file
 }
 }
 onResourceUpdated
-:
-function
 (
 updates
 )
@@ -1870,8 +1840,6 @@ server
 *
 /
 onRequestHeaders
-:
-function
 (
 response
 )
@@ -1935,8 +1903,6 @@ server
 *
 /
 onRequestCookies
-:
-function
 (
 response
 )
@@ -2000,8 +1966,6 @@ server
 *
 /
 onRequestPostData
-:
-function
 (
 response
 )
@@ -2119,8 +2083,6 @@ server
 *
 /
 onResponseHeaders
-:
-function
 (
 response
 )
@@ -2184,8 +2146,6 @@ server
 *
 /
 onResponseCookies
-:
-function
 (
 response
 )
@@ -2249,8 +2209,6 @@ server
 *
 /
 onResponseContent
-:
-function
 (
 response
 )
@@ -2355,8 +2313,6 @@ server
 *
 /
 onEventTimings
-:
-function
 (
 response
 )
@@ -2392,8 +2348,6 @@ totalTime
 /
 Helpers
 getLongHeaders
-:
-function
 (
 headers
 )
@@ -2557,10 +2511,8 @@ wrong
 .
 *
 /
-getString
-:
 async
-function
+getString
 (
 stringGrip
 )

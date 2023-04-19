@@ -188,8 +188,6 @@ tab
 *
 /
 initialize
-:
-function
 (
 conn
 targetActor
@@ -280,8 +278,6 @@ changes
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -336,8 +332,6 @@ this
 ;
 }
 start
-:
-function
 (
 )
 {
@@ -389,8 +383,6 @@ meaning
 /
 }
 changeCount
-:
-function
 (
 )
 {
@@ -403,8 +395,6 @@ length
 ;
 }
 change
-:
-function
 (
 index
 )
@@ -470,8 +460,6 @@ undefined
 ;
 }
 allChanges
-:
-function
 (
 )
 {
@@ -683,8 +671,6 @@ data
 *
 /
 onWillNavigate
-:
-function
 (
 eventData
 )
@@ -705,8 +691,6 @@ clearChanges
 }
 }
 pushChange
-:
-function
 (
 change
 )
@@ -742,8 +726,6 @@ change
 }
 }
 popChange
-:
-function
 (
 )
 {
@@ -783,8 +765,6 @@ change
 ;
 }
 clearChanges
-:
-function
 (
 )
 {

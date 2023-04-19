@@ -210,8 +210,6 @@ in
 this
 pool
 getActorByID
-:
-function
 (
 actorID
 )
@@ -1311,8 +1309,6 @@ actor
 *
 /
 getParent
-:
-function
 (
 )
 {

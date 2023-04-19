@@ -473,8 +473,6 @@ status
 code
 "
 onMouseOver
-:
-function
 (
 {
 target

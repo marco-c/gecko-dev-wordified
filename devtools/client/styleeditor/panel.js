@@ -374,8 +374,6 @@ message
 *
 /
 _showError
-:
-function
 (
 data
 )
@@ -616,8 +614,6 @@ used
 *
 /
 selectStyleSheet
-:
-function
 (
 front
 line
@@ -755,8 +751,6 @@ used
 *
 /
 selectOriginalSheet
-:
-function
 (
 originalId
 line
@@ -809,8 +803,6 @@ col
 ;
 }
 getStylesheetFrontForGeneratedURL
-:
-function
 (
 url
 )
@@ -850,8 +842,6 @@ editor
 *
 /
 destroy
-:
-function
 (
 )
 {

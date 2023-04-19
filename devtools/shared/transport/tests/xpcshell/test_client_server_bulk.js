@@ -289,13 +289,7 @@ startBulkSend
 (
 {
 actor
-:
-actor
 type
-:
-type
-length
-:
 length
 }
 )
@@ -406,8 +400,6 @@ startBulkSend
 actor
 :
 to
-type
-:
 type
 length
 :
@@ -634,8 +626,6 @@ replyHandlers
 =
 {
 json
-:
-function
 (
 request
 )
@@ -689,8 +679,6 @@ resolve
 ;
 }
 bulk
-:
-function
 (
 request
 )

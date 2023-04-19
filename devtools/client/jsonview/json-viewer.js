@@ -239,8 +239,6 @@ actions
 =
 {
 onCopyJson
-:
-function
 (
 )
 {
@@ -268,8 +266,6 @@ textContent
 ;
 }
 onSaveJson
-:
-function
 (
 )
 {
@@ -322,8 +318,6 @@ null
 ;
 }
 onCopyHeaders
-:
-function
 (
 )
 {
@@ -488,8 +482,6 @@ value
 ;
 }
 onSearch
-:
-function
 (
 value
 )
@@ -507,8 +499,6 @@ value
 ;
 }
 onPrettify
-:
-function
 (
 data
 )
@@ -608,8 +598,6 @@ prettified
 ;
 }
 onCollapse
-:
-function
 (
 data
 )
@@ -630,8 +618,6 @@ forceUpdate
 ;
 }
 onExpand
-:
-function
 (
 data
 )

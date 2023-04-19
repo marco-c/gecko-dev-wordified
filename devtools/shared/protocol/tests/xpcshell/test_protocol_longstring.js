@@ -292,8 +292,6 @@ ActorClassWithSpec
 rootSpec
 {
 initialize
-:
-function
 (
 conn
 )
@@ -343,8 +341,6 @@ sayHello
 :
 simpleHello
 shortString
-:
-function
 (
 )
 {
@@ -360,8 +356,6 @@ SHORT_STR
 ;
 }
 longString
-:
-function
 (
 )
 {
@@ -377,8 +371,6 @@ LONG_STR
 ;
 }
 emitShortString
-:
-function
 (
 )
 {
@@ -404,8 +396,6 @@ SHORT_STR
 ;
 }
 emitLongString
-:
-function
 (
 )
 {

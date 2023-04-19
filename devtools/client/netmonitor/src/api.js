@@ -948,8 +948,6 @@ argument
 *
 /
 addRequestFinishedListener
-:
-function
 (
 listener
 )
@@ -965,8 +963,6 @@ listener
 ;
 }
 removeRequestFinishedListener
-:
-function
 (
 listener
 )
@@ -982,8 +978,6 @@ listener
 ;
 }
 hasRequestFinishedListeners
-:
-function
 (
 )
 {

@@ -618,8 +618,6 @@ string
 *
 /
 getStr
-:
-function
 (
 name
 )
@@ -721,8 +719,6 @@ string
 *
 /
 getFormatStr
-:
-function
 (
 name
 .
@@ -803,8 +799,6 @@ string
 *
 /
 getFormatStrWithNumbers
-:
-function
 (
 name
 .
@@ -920,8 +914,6 @@ string
 *
 /
 numberWithDecimals
-:
-function
 (
 number
 decimals
@@ -1695,8 +1687,6 @@ name
 >
 (
 {
-name
-:
 name
 descriptor
 :

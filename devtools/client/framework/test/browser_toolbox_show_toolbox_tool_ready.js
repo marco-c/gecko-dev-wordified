@@ -232,8 +232,6 @@ label
 Lazy
 "
 build
-:
-function
 (
 iframeWindow
 toolbox

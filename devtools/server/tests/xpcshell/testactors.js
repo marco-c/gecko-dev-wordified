@@ -589,8 +589,6 @@ destroy
 {
 }
 getList
-:
-function
 (
 )
 {
@@ -624,8 +622,6 @@ of
 tablist
 .
 getTargetActorForTab
-:
-function
 (
 title
 )
@@ -761,8 +757,6 @@ ActorClassWithSpec
 tabDescriptorSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -909,8 +903,6 @@ ActorClassWithSpec
 windowGlobalTargetSpec
 {
 initialize
-:
-function
 (
 conn
 global
@@ -1159,8 +1151,6 @@ _sourcesManager
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -1270,8 +1260,6 @@ actors
 ;
 }
 detach
-:
-function
 (
 request
 )
@@ -1295,8 +1283,6 @@ detached
 ;
 }
 reload
-:
-function
 (
 request
 )
@@ -1333,8 +1319,6 @@ return
 ;
 }
 removeActorByName
-:
-function
 (
 name
 )

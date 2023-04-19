@@ -1312,8 +1312,6 @@ prototype
 =
 {
 open
-:
-function
 (
 )
 {
@@ -1382,8 +1380,6 @@ _toolbox
 ;
 }
 destroy
-:
-function
 (
 )
 {

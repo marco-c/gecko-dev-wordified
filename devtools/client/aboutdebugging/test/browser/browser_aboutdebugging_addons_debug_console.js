@@ -360,8 +360,6 @@ installTemporaryExtensionFromXPI
 (
 {
 background
-:
-function
 (
 )
 {
@@ -625,8 +623,6 @@ installTemporaryExtensionFromXPI
 (
 {
 background
-:
-function
 (
 )
 {
@@ -2214,8 +2210,6 @@ installTemporaryExtensionFromXPI
 (
 {
 background
-:
-function
 (
 )
 {

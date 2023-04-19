@@ -278,8 +278,6 @@ response
 *
 /
 write
-:
-function
 (
 ret
 ctx
@@ -448,8 +446,6 @@ response
 *
 /
 read
-:
-function
 (
 packet
 ctx
@@ -588,8 +584,6 @@ prototype
 =
 {
 write
-:
-function
 (
 v
 ctx
@@ -608,8 +602,6 @@ ctx
 ;
 }
 read
-:
-function
 (
 v
 ctx
@@ -628,8 +620,6 @@ ctx
 ;
 }
 isArrayType
-:
-function
 (
 )
 {

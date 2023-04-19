@@ -156,8 +156,6 @@ prototype
 =
 {
 getList
-:
-function
 (
 )
 {
@@ -372,8 +370,6 @@ _checkListening
 ;
 }
 _checkListening
-:
-function
 (
 )
 {

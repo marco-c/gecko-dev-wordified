@@ -2006,8 +2006,6 @@ visitRequestHeaders
 (
 {
 visitHeader
-:
-function
 (
 name
 value
@@ -2034,10 +2032,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )

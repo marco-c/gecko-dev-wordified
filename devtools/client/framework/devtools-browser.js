@@ -2635,8 +2635,6 @@ load
 *
 /
 loadBrowserStyleSheet
-:
-function
 (
 win
 )

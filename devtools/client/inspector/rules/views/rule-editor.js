@@ -661,8 +661,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -847,8 +845,6 @@ isAnonymous
 ;
 }
 _create
-:
-function
 (
 )
 {
@@ -2105,8 +2101,6 @@ unregistered
 *
 /
 _onToolChanged
-:
-function
 (
 )
 {
@@ -2245,8 +2239,6 @@ StyleRuleActor
 *
 /
 _locationChanged
-:
-function
 (
 )
 {
@@ -2258,8 +2250,6 @@ updateSourceLink
 ;
 }
 _onSourceClick
-:
-function
 (
 )
 {
@@ -2391,8 +2381,6 @@ null
 *
 /
 _updateLocation
-:
-function
 (
 originalLocation
 )
@@ -2537,8 +2525,6 @@ sourceTextContent
 ;
 }
 updateSourceLink
-:
-function
 (
 )
 {
@@ -2967,8 +2953,6 @@ populating
 *
 /
 populate
-:
-function
 (
 reset
 )
@@ -3568,8 +3552,6 @@ property
 *
 /
 addProperty
-:
-function
 (
 name
 value
@@ -3831,8 +3813,6 @@ added
 *
 /
 addProperties
-:
-function
 (
 properties
 siblingProp
@@ -3999,8 +3979,6 @@ rule
 *
 /
 newProperty
-:
-function
 (
 )
 {
@@ -4279,8 +4257,6 @@ committed
 *
 /
 _onNewProperty
-:
-function
 (
 value
 commit
@@ -4463,8 +4439,6 @@ state
 *
 /
 _newPropertyDestroy
-:
-function
 (
 )
 {
@@ -5175,8 +5149,6 @@ number
 *
 /
 _moveSelectorFocus
-:
-function
 (
 direction
 )

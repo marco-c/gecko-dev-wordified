@@ -215,8 +215,6 @@ data
 *
 /
 import
-:
-function
 (
 har
 )
@@ -240,8 +238,6 @@ json
 ;
 }
 doImport
-:
-function
 (
 har
 )
@@ -351,8 +347,6 @@ addRequest
 (
 requestId
 {
-startedMs
-:
 startedMs
 method
 :

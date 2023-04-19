@@ -193,8 +193,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -759,8 +757,6 @@ description
 *
 /
 copy
-:
-function
 (
 options
 )
@@ -823,8 +819,6 @@ description
 *
 /
 getHar
-:
-function
 (
 options
 )
@@ -863,8 +857,6 @@ null
 /
 Helpers
 fetchHarData
-:
-function
 (
 options
 )
@@ -1280,10 +1272,8 @@ strings
 .
 *
 /
-buildHarData
-:
 async
-function
+buildHarData
 (
 options
 )
@@ -1415,8 +1405,6 @@ object
 *
 /
 stringify
-:
-function
 (
 har
 )

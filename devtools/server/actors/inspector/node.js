@@ -443,8 +443,6 @@ ActorClassWithSpec
 nodeSpec
 {
 initialize
-:
-function
 (
 walker
 node
@@ -608,8 +606,6 @@ overflowCausingElementsMap
 }
 }
 toString
-:
-function
 (
 )
 {
@@ -679,8 +675,6 @@ conn
 ;
 }
 isDocumentElement
-:
-function
 (
 )
 {
@@ -710,8 +704,6 @@ rawNode
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -976,8 +968,6 @@ the
 wire
 .
 form
-:
-function
 (
 )
 {
@@ -1471,8 +1461,6 @@ API
 *
 /
 watchDocument
-:
-function
 (
 doc
 callback
@@ -1597,8 +1585,6 @@ node
 *
 /
 watchSlotchange
-:
-function
 (
 callback
 )
@@ -2416,8 +2402,6 @@ dbg
 ;
 }
 writeAttrs
-:
-function
 (
 )
 {
@@ -2525,8 +2509,6 @@ value
 ;
 }
 writePseudoClassLocks
-:
-function
 (
 )
 {
@@ -2627,8 +2609,6 @@ definition
 *
 /
 getCustomElementLocation
-:
-function
 (
 )
 {
@@ -3063,8 +3043,6 @@ value
 *
 /
 getNodeValue
-:
-function
 (
 )
 {
@@ -3105,8 +3083,6 @@ string
 *
 /
 setNodeValue
-:
-function
 (
 value
 )
@@ -3136,8 +3112,6 @@ node
 *
 /
 getUniqueSelector
-:
-function
 (
 )
 {
@@ -3204,8 +3178,6 @@ ancestors
 *
 /
 getCssPath
-:
-function
 (
 )
 {
@@ -3265,8 +3237,6 @@ page
 *
 /
 getXPath
-:
-function
 (
 )
 {
@@ -3310,8 +3280,6 @@ view
 *
 /
 scrollIntoView
-:
-function
 (
 )
 {
@@ -3446,8 +3414,6 @@ smaller
 *
 /
 getImageData
-:
-function
 (
 maxDim
 )
@@ -3509,8 +3475,6 @@ node
 *
 /
 getEventListenerInfo
-:
-function
 (
 )
 {
@@ -3641,8 +3605,6 @@ eventListenerInfoId
 *
 /
 disableEventListener
-:
-function
 (
 eventListenerInfoId
 )
@@ -3710,8 +3672,6 @@ eventListenerInfoId
 *
 /
 enableEventListener
-:
-function
 (
 eventListenerInfoId
 )
@@ -3837,8 +3797,6 @@ made
 *
 /
 modifyAttributes
-:
-function
 (
 modifications
 )
@@ -4008,8 +3966,6 @@ uri
 *
 /
 getFontFamilyDataURL
-:
-function
 (
 font
 fillStyle
@@ -4039,8 +3995,6 @@ previewFontSize
 :
 FONT_FAMILY_PREVIEW_TEXT_SIZE
 fillStyle
-:
-fillStyle
 }
 ;
 const
@@ -4067,8 +4021,6 @@ this
 conn
 dataURL
 )
-size
-:
 size
 }
 ;
@@ -4136,8 +4088,6 @@ found
 *
 /
 getClosestBackgroundColor
-:
-function
 (
 )
 {
@@ -4230,8 +4180,6 @@ max
 *
 /
 getBackgroundColor
-:
-function
 (
 )
 {
@@ -4271,8 +4219,6 @@ Object
 *
 /
 getOwnerGlobalDimensions
-:
-function
 (
 )
 {
@@ -4872,8 +4818,6 @@ ActorClassWithSpec
 nodeListSpec
 {
 initialize
-:
-function
 (
 walker
 nodeList
@@ -4910,8 +4854,6 @@ nodeList
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -4984,8 +4926,6 @@ walker
 *
 /
 marshallPool
-:
-function
 (
 )
 {
@@ -5009,8 +4949,6 @@ the
 wire
 .
 form
-:
-function
 (
 )
 {
@@ -5053,8 +4991,6 @@ list
 *
 /
 item
-:
-function
 (
 index
 )
@@ -5093,8 +5029,6 @@ list
 *
 /
 items
-:
-function
 (
 start
 =
@@ -5153,8 +5087,6 @@ items
 ;
 }
 release
-:
-function
 (
 )
 {

@@ -415,8 +415,6 @@ hooks
 =
 {
 onPacket
-:
-function
 (
 packet
 )
@@ -485,8 +483,6 @@ _flushOutgoing
 ;
 }
 onTransportClosed
-:
-function
 (
 status
 )

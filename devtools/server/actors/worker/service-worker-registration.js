@@ -899,15 +899,11 @@ unregisterCallback
 =
 {
 unregisterSucceeded
-:
-function
 (
 )
 {
 }
 unregisterFailed
-:
-function
 (
 )
 {

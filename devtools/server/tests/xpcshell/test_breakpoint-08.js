@@ -170,8 +170,6 @@ source
 .
 url
 line
-:
-line
 }
 {
 }

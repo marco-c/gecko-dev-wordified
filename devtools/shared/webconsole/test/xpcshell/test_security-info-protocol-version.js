@@ -57,8 +57,6 @@ NetworkHelper
 "
 {
 get
-:
-function
 (
 )
 {

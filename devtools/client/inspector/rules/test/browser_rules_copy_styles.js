@@ -748,10 +748,8 @@ true
 }
 }
 {
-setup
-:
 async
-function
+setup
 (
 )
 {
@@ -953,10 +951,8 @@ true
 }
 }
 {
-setup
-:
 async
-function
+setup
 (
 )
 {

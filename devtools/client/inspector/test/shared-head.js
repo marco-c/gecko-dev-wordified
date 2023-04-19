@@ -3685,10 +3685,6 @@ propertyName
 return
 {
 nameSpan
-:
-nameSpan
-valueSpan
-:
 valueSpan
 }
 ;
@@ -4771,8 +4767,6 @@ contextMenu
 _openMenu
 (
 {
-target
-:
 target
 }
 )

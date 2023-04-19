@@ -2754,8 +2754,6 @@ reference
 *
 /
 saveDevToolsSession
-:
-function
 (
 state
 )
@@ -2797,10 +2795,8 @@ SessionStore
 .
 *
 /
-restoreDevToolsSession
-:
 async
-function
+restoreDevToolsSession
 (
 {
 browserConsole
@@ -4569,8 +4565,6 @@ getDevToolsCommands
 *
 /
 createCommandsForTabForWebExtension
-:
-function
 (
 tab
 )
@@ -4621,8 +4615,6 @@ js
 *
 /
 openBrowserConsole
-:
-function
 (
 )
 {

@@ -175,8 +175,6 @@ session
 *
 /
 initializeCacheSession
-:
-function
 (
 request
 )
@@ -297,8 +295,6 @@ backend
 *
 /
 parseCacheDescriptor
-:
-function
 (
 descriptor
 )
@@ -473,8 +469,6 @@ function
 *
 /
 getCacheEntry
-:
-function
 (
 request
 onCacheDescriptorAvailable

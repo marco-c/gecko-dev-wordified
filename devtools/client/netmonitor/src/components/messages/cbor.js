@@ -1588,7 +1588,5 @@ exports
 =
 {
 decode
-:
-decode
 }
 ;

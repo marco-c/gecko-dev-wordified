@@ -132,8 +132,6 @@ nsISupportsString
 *
 /
 supportsString
-:
-function
 (
 string
 )

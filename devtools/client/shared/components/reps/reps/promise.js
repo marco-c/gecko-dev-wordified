@@ -389,8 +389,6 @@ value
 =
 {
 value
-:
-value
 }
 ;
 +

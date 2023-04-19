@@ -309,8 +309,6 @@ highlighter
 -
 "
 _buildMarkup
-:
-function
 (
 )
 {
@@ -1047,8 +1045,6 @@ container
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -1129,8 +1125,6 @@ break
 }
 }
 _onScroll
-:
-function
 (
 event
 )
@@ -1276,8 +1270,6 @@ scrollY
 ;
 }
 _update
-:
-function
 (
 )
 {
@@ -1369,8 +1361,6 @@ _update
 ;
 }
 _cancelUpdate
-:
-function
 (
 )
 {
@@ -1403,8 +1393,6 @@ _rafID
 }
 }
 updateViewport
-:
-function
 (
 )
 {
@@ -1559,8 +1547,6 @@ strokeWidth
 ;
 }
 updateViewportInfobar
-:
-function
 (
 )
 {
@@ -1629,8 +1615,6 @@ textContent
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1695,8 +1679,6 @@ destroy
 ;
 }
 show
-:
-function
 (
 )
 {
@@ -1751,8 +1733,6 @@ true
 ;
 }
 hide
-:
-function
 (
 )
 {

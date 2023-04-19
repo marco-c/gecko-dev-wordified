@@ -208,8 +208,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -347,10 +345,8 @@ prototype
 /
 /
 Initialization
-initialize
-:
 async
-function
+initialize
 (
 toolbox
 )
@@ -378,8 +374,6 @@ startMonitoring
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -419,10 +413,8 @@ disconnect
 /
 /
 Automation
-startMonitoring
-:
 async
-function
+startMonitoring
 (
 )
 {
@@ -547,8 +539,6 @@ true
 ;
 }
 pageLoadBegin
-:
-function
 (
 response
 )
@@ -561,8 +551,6 @@ resetCollector
 ;
 }
 resetCollector
-:
-function
 (
 )
 {
@@ -713,8 +701,6 @@ object
 *
 /
 pageLoadDone
-:
-function
 (
 response
 )
@@ -766,8 +752,6 @@ autoExport
 }
 }
 autoExport
-:
-function
 (
 )
 {
@@ -872,8 +856,6 @@ collected
 *
 /
 triggerExport
-:
-function
 (
 data
 )
@@ -925,8 +907,6 @@ data
 *
 /
 clear
-:
-function
 (
 )
 {
@@ -971,10 +951,8 @@ file
 .
 *
 /
-executeExport
-:
 async
-function
+executeExport
 (
 data
 )
@@ -1049,8 +1027,6 @@ this
 view
 :
 this
-items
-:
 items
 }
 ;
@@ -1216,10 +1192,8 @@ string
 .
 *
 /
-getString
-:
 async
-function
+getString
 (
 stringGrip
 )

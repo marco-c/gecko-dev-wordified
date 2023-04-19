@@ -2064,8 +2064,6 @@ destroy
 }
 }
 unmanage
-:
-function
 (
 actor
 )
@@ -3220,8 +3218,6 @@ null
 ;
 }
 onHighlighterEvent
-:
-function
 (
 data
 )
@@ -4652,8 +4648,6 @@ allowed
 *
 /
 _isEventAllowed
-:
-function
 (
 {
 view
@@ -5630,8 +5624,6 @@ listeners
 *
 /
 pick
-:
-function
 (
 )
 {
@@ -5676,8 +5668,6 @@ window
 *
 /
 pickAndFocus
-:
-function
 (
 )
 {
@@ -6028,8 +6018,6 @@ listeners
 *
 /
 _setPickerEnvironment
-:
-function
 (
 )
 {
@@ -6212,8 +6200,6 @@ element
 *
 /
 _unsetPickerEnvironment
-:
-function
 (
 )
 {
@@ -6577,8 +6563,6 @@ highlighter
 *
 /
 cancelPick
-:
-function
 (
 )
 {

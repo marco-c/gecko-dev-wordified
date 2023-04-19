@@ -670,8 +670,6 @@ png
 return
 {
 dataURL
-:
-dataURL
 size
 :
 textWidth
@@ -1474,8 +1472,6 @@ column
 ;
 return
 {
-offset
-:
 offset
 text
 :

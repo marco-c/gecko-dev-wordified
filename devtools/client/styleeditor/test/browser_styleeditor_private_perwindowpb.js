@@ -346,8 +346,6 @@ prototype
 =
 {
 onCacheStorageInfo
-:
-function
 (
 num
 )
@@ -369,8 +367,6 @@ entries
 ;
 }
 onCacheEntryInfo
-:
-function
 (
 uri
 )
@@ -401,8 +397,6 @@ fileName
 ;
 }
 onCacheEntryVisitCompleted
-:
-function
 (
 )
 {

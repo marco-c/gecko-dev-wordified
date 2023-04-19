@@ -125,8 +125,6 @@ prototype
 =
 {
 getRowClass
-:
-function
 (
 object
 )
@@ -234,8 +232,6 @@ column
 *
 /
 getValueRep
-:
-function
 (
 value
 colId

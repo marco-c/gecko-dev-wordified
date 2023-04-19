@@ -128,8 +128,6 @@ string
 *
 /
 getWorkerType
-:
-function
 (
 message
 )
@@ -200,8 +198,6 @@ it
 *
 /
 getInnerWindowId
-:
-function
 (
 window
 )
@@ -286,8 +282,6 @@ ids
 *
 /
 getInnerWindowIDsForFrames
-:
-function
 (
 window
 )
@@ -472,8 +466,6 @@ grip
 *
 /
 createValueGrip
-:
-function
 (
 value
 objectWrapper
@@ -1081,8 +1073,6 @@ register
 *
 /
 _registerOriginal
-:
-function
 (
 name
 command
@@ -1317,8 +1307,6 @@ selectedNode
 *
 /
 register
-:
-function
 (
 name
 command
@@ -1377,8 +1365,6 @@ command
 *
 /
 unregister
-:
-function
 (
 name
 )
@@ -1461,8 +1447,6 @@ command
 *
 /
 getCommand
-:
-function
 (
 name
 )
@@ -1523,8 +1507,6 @@ registered
 *
 /
 hasCommand
-:
-function
 (
 name
 )
@@ -1928,8 +1910,6 @@ _
 "
 {
 get
-:
-function
 (
 owner
 )
@@ -2451,8 +2431,6 @@ _registerOriginal
 "
 {
 get
-:
-function
 (
 owner
 )

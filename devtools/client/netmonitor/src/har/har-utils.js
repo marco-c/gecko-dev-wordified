@@ -374,8 +374,6 @@ HarUtils
 =
 {
 getHarFileName
-:
-function
 (
 defaultFileName
 jsonp
@@ -588,8 +586,6 @@ true
 *
 /
 saveToFile
-:
-function
 (
 file
 jsonString
@@ -1102,8 +1098,6 @@ false
 ;
 }
 getLocalDirectory
-:
-function
 (
 path
 )

@@ -520,8 +520,6 @@ Provider
 (
 {
 store
-:
-store
 }
 app
 )

@@ -1707,8 +1707,6 @@ exports
 *
 /
 lazyRequireGetter
-:
-function
 (
 obj
 properties

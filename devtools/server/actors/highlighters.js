@@ -376,8 +376,6 @@ typeName
 *
 /
 initialize
-:
-function
 (
 parent
 typeName
@@ -647,8 +645,6 @@ conn
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -679,8 +675,6 @@ null
 ;
 }
 release
-:
-function
 (
 )
 {
@@ -840,8 +834,6 @@ shown
 *
 /
 show
-:
-function
 (
 node
 options
@@ -894,8 +886,6 @@ before
 *
 /
 hide
-:
-function
 (
 )
 {
@@ -936,8 +926,6 @@ client
 *
 /
 _onHighlighterEvent
-:
-function
 (
 data
 )
@@ -981,8 +969,6 @@ destroyed
 *
 /
 finalize
-:
-function
 (
 )
 {
@@ -1250,8 +1236,6 @@ prototype
 =
 {
 initFromTargetActor
-:
-function
 (
 targetActor
 )
@@ -1310,8 +1294,6 @@ relayTargetActorWillNavigate
 ;
 }
 initFromWindow
-:
-function
 (
 win
 )
@@ -1368,8 +1350,6 @@ nsISupportsWeakReference
 ]
 )
 onStateChange
-:
-function
 (
 progress
 request
@@ -1872,8 +1852,6 @@ chromeEventHandler
 ;
 }
 relayTargetActorWindowReady
-:
-function
 (
 data
 )
@@ -1892,8 +1870,6 @@ data
 ;
 }
 relayTargetActorNavigate
-:
-function
 (
 data
 )
@@ -1910,8 +1886,6 @@ data
 ;
 }
 relayTargetActorWillNavigate
-:
-function
 (
 data
 )
@@ -1930,8 +1904,6 @@ data
 ;
 }
 destroy
-:
-function
 (
 )
 {

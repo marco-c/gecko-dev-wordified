@@ -386,8 +386,6 @@ handler
 =
 {
 get
-:
-function
 (
 target
 name

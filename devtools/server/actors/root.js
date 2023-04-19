@@ -973,8 +973,6 @@ ActorClassWithSpec
 rootSpec
 {
 initialize
-:
-function
 (
 conn
 parameters
@@ -1293,8 +1291,6 @@ Protocol
 *
 /
 sayHello
-:
-function
 (
 )
 {
@@ -1344,8 +1340,6 @@ traits
 ;
 }
 forwardingCancelled
-:
-function
 (
 prefix
 )
@@ -1381,8 +1375,6 @@ window
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -1722,8 +1714,6 @@ browser
 *
 /
 getRoot
-:
-function
 (
 )
 {
@@ -1813,10 +1803,8 @@ request
 .
 *
 /
-listTabs
-:
 async
-function
+listTabs
 (
 )
 {
@@ -2106,10 +2094,8 @@ IDs
 .
 *
 /
-getTab
-:
 async
-function
+getTab
 (
 {
 browserId
@@ -2272,8 +2258,6 @@ descriptorActor
 ;
 }
 onTabListChanged
-:
-function
 (
 )
 {
@@ -2407,10 +2391,8 @@ client
 .
 *
 /
-listAddons
-:
 async
-function
+listAddons
 (
 option
 )
@@ -2558,8 +2540,6 @@ addonTargetActors
 ;
 }
 onAddonListChanged
-:
-function
 (
 )
 {
@@ -2595,8 +2575,6 @@ null
 ;
 }
 listWorkers
-:
-function
 (
 )
 {
@@ -2768,8 +2746,6 @@ actors
 ;
 }
 onWorkerListChanged
-:
-function
 (
 )
 {
@@ -2805,8 +2781,6 @@ null
 ;
 }
 listServiceWorkerRegistrations
-:
-function
 (
 )
 {
@@ -2951,8 +2925,6 @@ actors
 ;
 }
 onServiceWorkerRegistrationListChanged
-:
-function
 (
 )
 {
@@ -2988,8 +2960,6 @@ null
 ;
 }
 listProcesses
-:
-function
 (
 )
 {
@@ -3180,8 +3150,6 @@ poolChildren
 ;
 }
 onProcessListChanged
-:
-function
 (
 )
 {
@@ -3471,8 +3439,6 @@ name
 *
 /
 removeActorByName
-:
-function
 (
 name
 )

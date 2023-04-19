@@ -1329,8 +1329,6 @@ index
 ]
 {
 isVisible
-:
-isVisible
 }
 )
 ;
@@ -1348,8 +1346,6 @@ this
 .
 state
 {
-tabs
-:
 tabs
 }
 )

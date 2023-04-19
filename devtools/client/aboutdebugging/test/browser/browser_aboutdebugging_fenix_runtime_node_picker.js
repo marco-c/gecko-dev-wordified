@@ -181,8 +181,6 @@ channel
 nightly
 "
 clientWrapper
-:
-clientWrapper
 deviceName
 :
 DEVICE_NAME

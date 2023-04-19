@@ -909,8 +909,6 @@ separate
 }
 ]
 isActive
-:
-isActive
 }
 ;
 }

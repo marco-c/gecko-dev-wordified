@@ -521,8 +521,6 @@ destroy
 "
 {
 watcherActorID
-:
-watcherActorID
 sessionContext
 }
 )

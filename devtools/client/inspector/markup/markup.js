@@ -2828,8 +2828,6 @@ requests
 *
 /
 _handleRejectionIfNotDestroyed
-:
-function
 (
 e
 )
@@ -2852,8 +2850,6 @@ e
 }
 }
 _initTooltips
-:
-function
 (
 )
 {
@@ -2911,8 +2907,6 @@ _enableImagePreviewTooltip
 ;
 }
 _enableImagePreviewTooltip
-:
-function
 (
 )
 {
@@ -2932,8 +2926,6 @@ _isImagePreviewTarget
 ;
 }
 _disableImagePreviewTooltip
-:
-function
 (
 )
 {
@@ -2947,8 +2939,6 @@ stopTogglingOnHover
 ;
 }
 _onToolboxPickerHover
-:
-function
 (
 nodeFront
 )
@@ -3009,8 +2999,6 @@ element
 *
 /
 _onToolboxPickerCanceled
-:
-function
 (
 )
 {
@@ -3041,8 +3029,6 @@ _draggedContainer
 :
 null
 _onMouseMove
-:
-function
 (
 event
 )
@@ -3313,8 +3299,6 @@ keyboard
 *
 /
 _onBlur
-:
-function
 (
 event
 )
@@ -3374,8 +3358,6 @@ clearFocus
 }
 }
 _onContextMenu
-:
-function
 (
 event
 )
@@ -3433,8 +3415,6 @@ in
 *
 /
 _autoScroll
-:
-function
 (
 event
 )
@@ -3689,8 +3669,6 @@ requestAnimationFrame
 *
 /
 _runUpdateLoop
-:
-function
 (
 update
 )
@@ -3728,8 +3706,6 @@ loop
 ;
 }
 _onMouseClick
-:
-function
 (
 event
 )
@@ -3840,8 +3816,6 @@ event
 }
 }
 _onMouseUp
-:
-function
 (
 event
 )
@@ -3898,8 +3872,6 @@ _autoScrollAnimationFrame
 }
 }
 _onCollapseAttributesPrefChange
-:
-function
 (
 )
 {
@@ -3937,8 +3909,6 @@ update
 ;
 }
 cancelDragging
-:
-function
 (
 )
 {
@@ -4049,8 +4019,6 @@ hovered
 *
 /
 _showNodeAsHovered
-:
-function
 (
 nodeFront
 )
@@ -4074,8 +4042,6 @@ container
 ;
 }
 _showContainerAsHovered
-:
-function
 (
 container
 )
@@ -4123,10 +4089,8 @@ _hoveredContainer
 container
 ;
 }
-_onMouseOut
-:
 async
-function
+_onMouseOut
 (
 event
 )
@@ -4296,8 +4260,6 @@ shown
 *
 /
 _showBoxModel
-:
-function
 (
 nodeFront
 options
@@ -4359,8 +4321,6 @@ hidden
 *
 /
 _hideBoxModel
-:
-function
 (
 )
 {
@@ -4521,8 +4481,6 @@ instance
 *
 /
 handleHighlighterEvent
-:
-function
 (
 eventName
 data
@@ -4832,8 +4790,6 @@ tests
 *
 /
 getSelectedContainer
-:
-function
 (
 )
 {
@@ -4910,8 +4866,6 @@ node
 *
 /
 getContainer
-:
-function
 (
 node
 slotted
@@ -4993,8 +4947,6 @@ node
 *
 /
 setContainer
-:
-function
 (
 node
 container
@@ -5091,8 +5043,6 @@ otherwise
 *
 /
 hasContainer
-:
-function
 (
 node
 slotted
@@ -5121,8 +5071,6 @@ key
 ;
 }
 _getContainerKey
-:
-function
 (
 node
 slotted
@@ -5176,8 +5124,6 @@ node
 ;
 }
 _isContainerSelected
-:
-function
 (
 container
 )
@@ -5229,8 +5175,6 @@ isSlotted
 ;
 }
 update
-:
-function
 (
 )
 {
@@ -5715,8 +5659,6 @@ highlighted
 *
 /
 _shouldNewSelectionBeHighlighted
-:
-function
 (
 )
 {
@@ -5829,8 +5771,6 @@ view
 *
 /
 _onNewSelection
-:
-function
 (
 nodeFront
 reason
@@ -6222,10 +6162,8 @@ selected
 .
 *
 /
-maybeNavigateToNewSelection
-:
 async
-function
+maybeNavigateToNewSelection
 (
 )
 {
@@ -6476,8 +6414,6 @@ selection
 *
 /
 _selectionWalker
-:
-function
 (
 start
 )
@@ -6559,8 +6495,6 @@ walker
 ;
 }
 _onCopy
-:
-function
 (
 evt
 )
@@ -6643,8 +6577,6 @@ clipboard
 *
 /
 copyOuterHTML
-:
-function
 (
 )
 {
@@ -6783,8 +6715,6 @@ clipboard
 *
 /
 copyInnerHTML
-:
-function
 (
 )
 {
@@ -6876,8 +6806,6 @@ debugger
 *
 /
 followAttributeLink
-:
-function
 (
 type
 link
@@ -7168,8 +7096,6 @@ shortcuts
 *
 /
 _initShortcuts
-:
-function
 (
 )
 {
@@ -7446,8 +7372,6 @@ textarea
 *
 /
 _isInputOrTextarea
-:
-function
 (
 element
 )
@@ -7547,8 +7471,6 @@ one
 *
 /
 deleteNodeOrAttribute
-:
-function
 (
 moveBackward
 )
@@ -7775,8 +7697,6 @@ one
 *
 /
 deleteNode
-:
-function
 (
 node
 moveBackward
@@ -8271,8 +8191,6 @@ container
 *
 /
 _onFocus
-:
-function
 (
 event
 )
@@ -8359,8 +8277,6 @@ to
 *
 /
 navigate
-:
-function
 (
 container
 )
@@ -8463,8 +8379,6 @@ element
 *
 /
 importNode
-:
-function
 (
 node
 flashNode
@@ -8707,10 +8621,8 @@ return
 container
 ;
 }
-_onResourceAvailable
-:
 async
-function
+_onResourceAvailable
 (
 resources
 )
@@ -8876,8 +8788,6 @@ true
 }
 }
 _onTargetAvailable
-:
-function
 (
 {
 targetFront
@@ -8886,8 +8796,6 @@ targetFront
 {
 }
 _onTargetDestroyed
-:
-function
 (
 {
 targetFront
@@ -8988,8 +8896,6 @@ nodes
 *
 /
 _onWalkerMutations
-:
-function
 (
 mutations
 )
@@ -9383,8 +9289,6 @@ nodeFronts
 *
 /
 _onWalkerNodeStatesChanged
-:
-function
 (
 nodes
 )
@@ -9447,8 +9351,6 @@ attention
 *
 /
 _flashMutatedNodes
-:
-function
 (
 mutations
 )
@@ -9788,8 +9690,6 @@ screen
 *
 /
 showNode
-:
-function
 (
 node
 {
@@ -9930,8 +9830,6 @@ _handleRejectionIfNotDestroyed
 ;
 }
 _ensureNodeImported
-:
-function
 (
 node
 )
@@ -9992,8 +9890,6 @@ children
 *
 /
 _expandContainer
-:
-function
 (
 container
 )
@@ -10077,8 +9973,6 @@ children
 *
 /
 expandNode
-:
-function
 (
 node
 )
@@ -10130,8 +10024,6 @@ expand
 *
 /
 _expandAll
-:
-function
 (
 container
 )
@@ -10260,8 +10152,6 @@ expanded
 *
 /
 expandAll
-:
-function
 (
 node
 )
@@ -10303,8 +10193,6 @@ children
 *
 /
 collapseNode
-:
-function
 (
 node
 )
@@ -10328,8 +10216,6 @@ false
 ;
 }
 _collapseAll
-:
-function
 (
 container
 )
@@ -10412,8 +10298,6 @@ collapsed
 *
 /
 collapseAll
-:
-function
 (
 node
 )
@@ -10523,8 +10407,6 @@ innerHTML
 *
 /
 _getNodeHTML
-:
-function
 (
 node
 isOuter
@@ -10617,8 +10499,6 @@ outerHTML
 *
 /
 getNodeOuterHTML
-:
-function
 (
 node
 )
@@ -10677,8 +10557,6 @@ innerHTML
 *
 /
 getNodeInnerHTML
-:
-function
 (
 node
 )
@@ -10754,8 +10632,6 @@ removed
 *
 /
 reselectOnRemoved
-:
-function
 (
 removedNode
 reason
@@ -11169,8 +11045,6 @@ failed
 *
 /
 cancelReselectOnRemoved
-:
-function
 (
 )
 {
@@ -11303,8 +11177,6 @@ updated
 *
 /
 updateNodeOuterHTML
-:
-function
 (
 node
 newValue
@@ -11488,8 +11360,6 @@ updated
 *
 /
 updateNodeInnerHTML
-:
-function
 (
 node
 newValue
@@ -11674,8 +11544,6 @@ inserted
 *
 /
 insertAdjacentHTMLToNode
-:
-function
 (
 node
 position
@@ -11841,8 +11709,6 @@ edit
 *
 /
 beginEditingHTML
-:
-function
 (
 node
 )
@@ -12213,8 +12079,6 @@ collapsed
 *
 /
 setNodeExpanded
-:
-function
 (
 node
 expanded
@@ -12356,8 +12220,6 @@ otherwise
 *
 /
 markNodeAsSelected
-:
-function
 (
 node
 reason
@@ -12387,8 +12249,6 @@ container
 ;
 }
 _markContainerAsSelected
-:
-function
 (
 container
 reason
@@ -12562,8 +12422,6 @@ children
 *
 /
 _ensureVisible
-:
-function
 (
 node
 )
@@ -12661,8 +12519,6 @@ selected
 *
 /
 unmarkSelectedNode
-:
-function
 (
 )
 {
@@ -12745,8 +12601,6 @@ any
 *
 /
 _checkSelectionVisible
-:
-function
 (
 container
 )
@@ -12809,10 +12663,8 @@ return
 centered
 ;
 }
-_forceUpdateChildren
-:
 async
-function
+_forceUpdateChildren
 (
 container
 options
@@ -13126,8 +12978,6 @@ immediately
 *
 /
 _updateChildren
-:
-function
 (
 container
 options
@@ -13973,8 +13823,6 @@ updatePromise
 ;
 }
 buildMoreNodesButtonMarkup
-:
-function
 (
 container
 )
@@ -14163,8 +14011,6 @@ elt
 ;
 }
 _waitForChildren
-:
-function
 (
 )
 {
@@ -14223,10 +14069,8 @@ container
 .
 *
 /
-_getVisibleChildren
-:
 async
-function
+_getVisibleChildren
 (
 container
 centered
@@ -14418,8 +14262,6 @@ DOM
 *
 /
 _getParentInTree
-:
-function
 (
 node
 )
@@ -14533,8 +14375,6 @@ panel
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -15155,8 +14995,6 @@ DOMNode
 *
 /
 findClosestDragDropTarget
-:
-function
 (
 el
 )
@@ -15228,8 +15066,6 @@ target
 *
 /
 indicateDropTarget
-:
-function
 (
 el
 )
@@ -15324,8 +15160,6 @@ place
 *
 /
 indicateDragTarget
-:
-function
 (
 el
 )

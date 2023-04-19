@@ -107,8 +107,6 @@ prototype
 =
 {
 match
-:
-function
 (
 act
 )
@@ -124,8 +122,6 @@ template
 ;
 }
 matches
-:
-function
 (
 act
 )
@@ -163,8 +159,6 @@ false
 ;
 }
 assert
-:
-function
 (
 act
 message
@@ -401,8 +395,6 @@ prototype
 =
 {
 toString
-:
-function
 (
 )
 {

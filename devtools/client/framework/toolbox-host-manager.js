@@ -1002,8 +1002,6 @@ toolbox
 ;
 }
 setMinWidthWithZoom
-:
-function
 (
 )
 {

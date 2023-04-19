@@ -3098,8 +3098,6 @@ stylesheet
 :
 href
 line
-:
-line
 col
 :
 ch
@@ -7069,13 +7067,7 @@ styleSheetToSelect
 =
 {
 stylesheet
-:
-stylesheet
 line
-:
-line
-col
-:
 col
 }
 ;
@@ -7722,10 +7714,6 @@ location
 =
 {
 line
-:
-line
-column
-:
 column
 source
 :

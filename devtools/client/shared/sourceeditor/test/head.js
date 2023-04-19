@@ -325,8 +325,6 @@ ed
 :
 editor
 win
-:
-win
 edWin
 :
 editor

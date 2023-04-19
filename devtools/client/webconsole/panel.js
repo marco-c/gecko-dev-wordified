@@ -208,8 +208,6 @@ it
 *
 /
 focusInput
-:
-function
 (
 )
 {
@@ -254,10 +252,8 @@ opening
 .
 *
 /
-open
-:
 async
-function
+open
 (
 )
 {
@@ -531,8 +527,6 @@ target
 ;
 }
 destroy
-:
-function
 (
 )
 {

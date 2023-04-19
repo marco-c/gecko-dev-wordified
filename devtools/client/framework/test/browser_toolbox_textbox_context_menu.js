@@ -652,8 +652,6 @@ tool
 intervention
 "
 build
-:
-function
 (
 iframeWindow
 toolbox

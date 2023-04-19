@@ -1273,8 +1273,6 @@ ActorClassWithSpec
 styleSheetSpec
 {
 toString
-:
-function
 (
 )
 {
@@ -1615,8 +1613,6 @@ _styleSheetIndex
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1669,8 +1665,6 @@ this
 ;
 }
 initialize
-:
-function
 (
 styleSheet
 parentActor
@@ -1869,8 +1863,6 @@ CSSOM
 *
 /
 hasRulesModifiedByCSSOM
-:
-function
 (
 )
 {
@@ -1919,8 +1911,6 @@ CSSRuleList
 *
 /
 getCSSRules
-:
-function
 (
 )
 {
@@ -2121,8 +2111,6 @@ imported
 *
 /
 form
-:
-function
 (
 )
 {
@@ -2428,8 +2416,6 @@ toggling
 *
 /
 toggleDisabled
-:
-function
 (
 )
 {
@@ -2497,8 +2483,6 @@ property
 *
 /
 _notifyPropertyChanged
-:
-function
 (
 property
 )
@@ -2541,8 +2525,6 @@ stylesheet
 *
 /
 getText
-:
-function
 (
 )
 {
@@ -2626,8 +2608,6 @@ stylesheet
 *
 /
 _getText
-:
-function
 (
 )
 {
@@ -2701,8 +2681,6 @@ stylesheet
 *
 /
 getMediaRules
-:
-function
 (
 )
 {
@@ -2747,8 +2725,6 @@ MediaRuleActors
 *
 /
 _getMediaRules
-:
-function
 (
 )
 {
@@ -2912,8 +2888,6 @@ update
 *
 /
 update
-:
-function
 (
 text
 transition
@@ -3086,8 +3060,6 @@ update
 *
 /
 _startTransition
-:
-function
 (
 kind
 cause
@@ -3277,8 +3249,6 @@ update
 *
 /
 _onTransitionEnd
-:
-function
 (
 kind
 cause

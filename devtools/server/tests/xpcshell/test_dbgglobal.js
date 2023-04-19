@@ -326,8 +326,6 @@ hooks
 =
 {
 onPacket
-:
-function
 (
 packet1
 )
@@ -391,8 +389,6 @@ hooks
 =
 {
 onPacket
-:
-function
 (
 packet2
 )
@@ -429,8 +425,6 @@ close
 ;
 }
 onTransportClosed
-:
-function
 (
 result
 )
@@ -452,8 +446,6 @@ ready
 ;
 }
 onTransportClosed
-:
-function
 (
 result
 )

@@ -941,8 +941,6 @@ _tooltip
 ;
 }
 onInputKeyDown
-:
-function
 (
 event
 )
@@ -1259,8 +1257,6 @@ stopPropagation
 }
 }
 onInputBlur
-:
-function
 (
 event
 )
@@ -1287,8 +1283,6 @@ hidePopup
 }
 }
 onSelect
-:
-function
 (
 e
 )
@@ -1310,8 +1304,6 @@ e
 }
 }
 onClick
-:
-function
 (
 e
 )
@@ -1541,10 +1533,8 @@ information
 .
 *
 /
-openPopup
-:
 async
-function
+openPopup
 (
 anchor
 xOffset
@@ -1831,8 +1821,6 @@ autoSelect
 *
 /
 selectItemAtIndex
-:
-function
 (
 index
 options
@@ -2070,8 +2058,6 @@ panel
 *
 /
 hidePopup
-:
-function
 (
 )
 {
@@ -2220,8 +2206,6 @@ cleanup
 *
 /
 destroy
-:
-function
 (
 )
 {
@@ -2403,8 +2387,6 @@ index
 *
 /
 getItemAtIndex
-:
-function
 (
 index
 )
@@ -2443,8 +2425,6 @@ items
 *
 /
 getItems
-:
-function
 (
 )
 {
@@ -2561,8 +2541,6 @@ autoSelect
 *
 /
 setItems
-:
-function
 (
 items
 selectedIndex
@@ -2846,8 +2824,6 @@ options
 ;
 }
 _scrollElementIntoViewIfNeeded
-:
-function
 (
 element
 )
@@ -2983,8 +2959,6 @@ list
 *
 /
 clearItems
-:
-function
 (
 )
 {
@@ -3193,8 +3167,6 @@ suggestion
 *
 /
 _setActiveDescendant
-:
-function
 (
 id
 )
@@ -3302,8 +3274,6 @@ element
 *
 /
 _clearActiveDescendant
-:
-function
 (
 )
 {
@@ -3333,8 +3303,6 @@ activedescendant
 ;
 }
 createListItem
-:
-function
 (
 item
 index
@@ -3910,8 +3878,6 @@ object
 *
 /
 selectNextItem
-:
-function
 (
 )
 {
@@ -3987,8 +3953,6 @@ object
 *
 /
 selectPreviousItem
-:
-function
 (
 )
 {
@@ -4077,8 +4041,6 @@ object
 *
 /
 selectNextPageItem
-:
-function
 (
 )
 {
@@ -4160,8 +4122,6 @@ object
 *
 /
 selectPreviousPageItem
-:
-function
 (
 )
 {
@@ -4242,8 +4202,6 @@ not
 *
 /
 _isValidColor
-:
-function
 (
 color
 )
