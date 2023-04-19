@@ -2793,6 +2793,12 @@ json
 {
 APPLICATION_XJAVASCRIPT
 "
+mjs
+"
+}
+{
+APPLICATION_XJAVASCRIPT
+"
 js
 "
 }
