@@ -672,7 +672,7 @@ void
 *
 aPluginAPI
 const
-nsCString
+nsACString
 &
 aKeySystem
 )
@@ -763,7 +763,10 @@ p
 aAPIName
 aHostAPI
 aPluginAPI
+PromiseFlatCString
+(
 aKeySystem
+)
 .
 get
 (
@@ -929,7 +932,7 @@ create
 version
 aKeySystem
 .
-get
+BeginReading
 (
 )
 aKeySystem

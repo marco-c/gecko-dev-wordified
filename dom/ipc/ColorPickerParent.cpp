@@ -220,10 +220,7 @@ mColorPickerParent
 >
 SendUpdate
 (
-nsString
-(
 aColor
-)
 )
 ;
 }
@@ -260,10 +257,7 @@ ColorPickerParent
 Send__delete__
 (
 mColorPickerParent
-nsString
-(
 aColor
-)
 )
 ;
 }

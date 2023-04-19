@@ -11520,7 +11520,7 @@ mozIStorageStatement
 *
 aStatement
 const
-nsCString
+nsACString
 &
 aParameterName
 const
@@ -12578,7 +12578,7 @@ public
 WaitForTransactionsHelper
 (
 const
-nsCString
+nsACString
 &
 aDatabaseId
 nsIRunnable
@@ -13737,11 +13737,11 @@ PBackgroundMutableFileParent
 AllocPBackgroundMutableFileParent
 (
 const
-nsString
+nsAString
 &
 aName
 const
-nsString
+nsAString
 &
 aType
 )
@@ -15275,7 +15275,7 @@ mTransactionId
 ;
 }
 const
-nsCString
+nsACString
 &
 DatabaseId
 (
@@ -16494,7 +16494,7 @@ IndexOrObjectStoreId
 &
 aObjectStoreId
 const
-nsString
+nsAString
 &
 aName
 )
@@ -16558,7 +16558,7 @@ IndexOrObjectStoreId
 &
 aIndexId
 const
-nsString
+nsAString
 &
 aName
 )
@@ -17492,7 +17492,7 @@ mInPrivateBrowsing
 public
 :
 const
-nsCString
+nsACString
 &
 Origin
 (
@@ -17529,7 +17529,7 @@ IsEmpty
 ;
 }
 const
-nsString
+nsAString
 &
 DatabaseFilePath
 (
@@ -23247,7 +23247,7 @@ nsCString
 mContinuePrimaryKeyQuery
 ;
 const
-nsCString
+nsACString
 &
 GetContinueQuery
 (
@@ -23323,7 +23323,7 @@ nsCString
 mContinueToQuery
 ;
 const
-nsCString
+nsACString
 &
 GetContinueQuery
 (
@@ -24279,7 +24279,7 @@ const
 size_t
 aInitialResponseSize
 const
-nsCString
+nsACString
 &
 aOperation
 Key
@@ -24581,7 +24581,7 @@ nsACString
 &
 aDirectionClause
 const
-nsCString
+nsACString
 &
 aQueryStart
 )
@@ -25236,11 +25236,11 @@ PersistenceType
 &
 aPersistenceType
 const
-nsCString
+nsACString
 &
 aOrigin
 const
-nsString
+nsAString
 &
 aDatabaseName
 const
@@ -27621,7 +27621,7 @@ IsEmpty
 for
 (
 const
-nsString
+nsAString
 &
 databasePath
 :
@@ -27902,7 +27902,7 @@ OriginMetadata
 &
 aOriginMetadata
 const
-nsString
+nsAString
 &
 aDatabasePath
 const
@@ -27980,7 +27980,7 @@ Id
 ;
 }
 const
-nsString
+nsAString
 &
 DatabasePath
 (
@@ -34218,7 +34218,7 @@ nsAutoCString
 GetKeyClause
 (
 const
-nsCString
+nsACString
 &
 aColumnName
 const
@@ -35556,7 +35556,7 @@ aKeyPath
 bool
 aMultiEntry
 const
-nsCString
+nsACString
 &
 aLocale
 StructuredCloneReadInfoParent
@@ -36188,7 +36188,7 @@ aKeyPath
 bool
 aMultiEntry
 const
-nsCString
+nsACString
 &
 aLocale
 StructuredCloneReadInfoParent
@@ -43104,7 +43104,7 @@ mBlockingTransactions
 for
 (
 const
-nsString
+nsAString
 &
 objectStoreName
 :
@@ -43595,7 +43595,7 @@ true
 for
 (
 const
-nsCString
+nsACString
 &
 databaseId
 :
@@ -55068,11 +55068,11 @@ Database
 AllocPBackgroundMutableFileParent
 (
 const
-nsString
+nsAString
 &
 aName
 const
-nsString
+nsAString
 &
 aType
 )
@@ -62425,7 +62425,7 @@ IndexOrObjectStoreId
 &
 aObjectStoreId
 const
-nsString
+nsAString
 &
 aName
 )
@@ -63463,7 +63463,7 @@ IndexOrObjectStoreId
 &
 aIndexId
 const
-nsString
+nsAString
 &
 aName
 )
@@ -68971,7 +68971,7 @@ aDirectory
 ]
 (
 const
-nsString
+nsAString
 &
 subdirName
 )
@@ -69910,7 +69910,7 @@ aOriginMetadata
 ]
 (
 const
-nsString
+nsAString
 &
 subdirName
 )
@@ -75196,7 +75196,7 @@ directoryLock
 for
 (
 const
-nsString
+nsAString
 &
 databasePath
 :
@@ -78901,7 +78901,7 @@ mozIStorageStatement
 const
 aStatement
 const
-nsCString
+nsACString
 &
 aParameterName
 const
@@ -86423,7 +86423,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 const
-nsString
+nsAString
 &
 databaseName
 =
@@ -88705,13 +88705,9 @@ isAutoLocale
 !
 indexedLocale
 .
-EqualsASCII
+Equals
 (
 systemLocale
-.
-get
-(
-)
 )
 )
 {
@@ -93190,7 +93186,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 const
-nsString
+nsAString
 &
 databaseName
 =
@@ -113703,7 +113699,7 @@ const
 size_t
 aInitialResponseSize
 const
-nsCString
+nsACString
 &
 aOperation
 Key
@@ -114069,7 +114065,10 @@ mTransactionLoggingSerialNumber
 mOp
 .
 mLoggingSerialNumber
+PromiseFlatCString
+(
 aOperation
+)
 .
 get
 (
@@ -114162,7 +114161,10 @@ mTransactionLoggingSerialNumber
 mOp
 .
 mLoggingSerialNumber
+PromiseFlatCString
+(
 aOperation
+)
 .
 get
 (
@@ -114397,7 +114399,7 @@ nsACString
 &
 aDirectionClause
 const
-nsCString
+nsACString
 &
 aQueryStart
 )
@@ -118229,11 +118231,11 @@ PersistenceType
 &
 aPersistenceType
 const
-nsCString
+nsACString
 &
 aOrigin
 const
-nsString
+nsAString
 &
 aDatabaseName
 const

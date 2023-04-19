@@ -782,7 +782,7 @@ WebrtcTCPSocketWrapper
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )

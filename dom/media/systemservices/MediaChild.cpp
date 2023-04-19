@@ -282,7 +282,7 @@ p
 ]
 (
 const
-nsCString
+nsACString
 &
 aKey
 )

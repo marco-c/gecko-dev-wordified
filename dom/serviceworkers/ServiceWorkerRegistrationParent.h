@@ -213,7 +213,7 @@ IPCResult
 RecvUpdate
 (
 const
-nsCString
+nsACString
 &
 aNewestWorkerScriptUrl
 UpdateResolver
@@ -253,7 +253,7 @@ IPCResult
 RecvSetNavigationPreloadHeader
 (
 const
-nsCString
+nsACString
 &
 aHeader
 SetNavigationPreloadHeaderResolver

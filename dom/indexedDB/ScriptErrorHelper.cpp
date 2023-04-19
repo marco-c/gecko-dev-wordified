@@ -647,10 +647,6 @@ aLineNumber
 aColumnNumber
 aSeverityFlag
 category
-.
-get
-(
-)
 /
 *
 IDB

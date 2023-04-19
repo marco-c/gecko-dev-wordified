@@ -849,7 +849,7 @@ WebBrowserPersistURIMap
 &
 aMap
 const
-nsCString
+nsACString
 &
 aRequestedContentType
 const
@@ -901,7 +901,7 @@ WebBrowserPersistURIMap
 &
 aMap
 const
-nsCString
+nsACString
 &
 aRequestedContentType
 const

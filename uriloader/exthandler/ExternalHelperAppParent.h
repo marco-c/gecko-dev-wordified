@@ -337,7 +337,7 @@ IPCResult
 RecvOnStartRequest
 (
 const
-nsCString
+nsACString
 &
 entityID
 )
@@ -353,7 +353,7 @@ IPCResult
 RecvOnDataAvailable
 (
 const
-nsCString
+nsACString
 &
 data
 const
@@ -407,7 +407,7 @@ bool
 &
 wasFileChannel
 const
-nsCString
+nsACString
 &
 aContentDispositionHeader
 const
@@ -415,7 +415,7 @@ uint32_t
 &
 aContentDispositionHint
 const
-nsString
+nsAString
 &
 aContentDispositionFilename
 )
@@ -437,7 +437,7 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-nsCString
+nsACString
 &
 aMimeContentType
 const

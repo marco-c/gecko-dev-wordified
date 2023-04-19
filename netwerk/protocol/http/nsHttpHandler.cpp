@@ -19880,7 +19880,7 @@ nsHttpHandler
 SetDeviceModelId
 (
 const
-nsCString
+nsACString
 &
 aModelId
 )

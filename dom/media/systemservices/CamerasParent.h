@@ -448,7 +448,7 @@ CaptureEngine
 &
 aEngine
 const
-nsCString
+nsACString
 &
 aUnique_idUTF8
 const
@@ -504,7 +504,7 @@ const
 CaptureEngine
 &
 const
-nsCString
+nsACString
 &
 )
 override
@@ -522,7 +522,7 @@ const
 CaptureEngine
 &
 const
-nsCString
+nsACString
 &
 const
 int

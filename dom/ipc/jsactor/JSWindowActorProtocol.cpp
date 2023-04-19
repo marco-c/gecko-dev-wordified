@@ -1682,6 +1682,7 @@ aTopic
 "
 JSActor
 "
+_ns
 /
 *
 aFromPrivateWindow

@@ -886,11 +886,11 @@ ProxyAutoConfigChild
 RecvConfigurePAC
 (
 const
-nsCString
+nsACString
 &
 aPACURI
 const
-nsCString
+nsACString
 &
 aPACScriptData
 const
@@ -958,7 +958,7 @@ Resolve
 nsresult
 aStatus
 const
-nsCString
+nsACString
 &
 aResult
 )
@@ -971,7 +971,7 @@ const
 nsresult
 &
 const
-nsCString
+nsACString
 &
 >
 (
@@ -994,11 +994,11 @@ ProxyAutoConfigChild
 RecvGetProxyForURI
 (
 const
-nsCString
+nsACString
 &
 aTestURI
 const
-nsCString
+nsACString
 &
 aTestHost
 GetProxyForURIResolver

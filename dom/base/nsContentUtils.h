@@ -7585,8 +7585,8 @@ nsAString
 &
 aErrorText
 const
-char
-*
+nsACString
+&
 aCategory
 bool
 aFromPrivateWindow

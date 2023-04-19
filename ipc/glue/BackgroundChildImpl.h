@@ -318,7 +318,7 @@ PBackgroundTestChild
 AllocPBackgroundTestChild
 (
 const
-nsCString
+nsACString
 &
 aTestArg
 )
@@ -484,7 +484,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsCString
+nsACString
 &
 aOriginKey
 const
@@ -510,7 +510,7 @@ PBackgroundStorageChild
 AllocPBackgroundStorageChild
 (
 const
-nsString
+nsAString
 &
 aProfilePath
 const
@@ -554,15 +554,15 @@ PFileCreatorChild
 AllocPFileCreatorChild
 (
 const
-nsString
+nsAString
 &
 aFullPath
 const
-nsString
+nsAString
 &
 aType
 const
-nsString
+nsAString
 &
 aName
 const
@@ -802,7 +802,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsCString
+nsACString
 &
 aFilter
 )
@@ -828,11 +828,11 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsCString
+nsACString
 &
 aOrigin
 const
-nsString
+nsAString
 &
 aChannel
 )
@@ -1076,7 +1076,7 @@ PEndpointForReportChild
 AllocPEndpointForReportChild
 (
 const
-nsString
+nsAString
 &
 aGroupName
 const

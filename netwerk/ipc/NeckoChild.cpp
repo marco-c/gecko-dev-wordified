@@ -777,7 +777,7 @@ NeckoChild
 AllocPAltDataOutputStreamChild
 (
 const
-nsCString
+nsACString
 &
 type
 const
@@ -1298,7 +1298,7 @@ NeckoChild
 AllocPTCPSocketChild
 (
 const
-nsString
+nsAString
 &
 host
 const
@@ -1447,7 +1447,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsCString
+nsACString
 &
 aFilter
 )

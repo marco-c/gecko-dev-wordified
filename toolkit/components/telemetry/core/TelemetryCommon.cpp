@@ -851,6 +851,7 @@ aLogLevel
 chrome
 javascript
 "
+_ns
 false
 /
 *

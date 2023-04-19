@@ -195,7 +195,7 @@ HandlerInfo
 &
 aHandlerInfoData
 const
-nsCString
+nsACString
 &
 aOverrideType
 HandlerInfo
@@ -214,11 +214,11 @@ IPCResult
 RecvGetMIMEInfoFromOS
 (
 const
-nsCString
+nsACString
 &
 aMIMEType
 const
-nsCString
+nsACString
 &
 aExtension
 nsresult
@@ -262,7 +262,7 @@ IPCResult
 RecvGetTypeFromExtension
 (
 const
-nsCString
+nsACString
 &
 aFileExtension
 nsCString
@@ -281,7 +281,7 @@ IPCResult
 RecvExistsForProtocolOS
 (
 const
-nsCString
+nsACString
 &
 aProtocolScheme
 bool
@@ -300,7 +300,7 @@ IPCResult
 RecvExistsForProtocol
 (
 const
-nsCString
+nsACString
 &
 aProtocolScheme
 bool
@@ -319,7 +319,7 @@ IPCResult
 RecvGetApplicationDescription
 (
 const
-nsCString
+nsACString
 &
 aScheme
 nsresult

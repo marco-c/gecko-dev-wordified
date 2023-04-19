@@ -788,7 +788,7 @@ ContentParent
 *
 aParent
 const
-nsCString
+nsACString
 &
 aPerfStats
 )
@@ -865,7 +865,7 @@ ContentParent
 *
 aParent
 const
-nsCString
+nsACString
 &
 aPerfStats
 )

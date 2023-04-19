@@ -227,7 +227,7 @@ EndpointForReportParent
 Run
 (
 const
-nsString
+nsAString
 &
 aGroupName
 const
@@ -263,6 +263,11 @@ Run
 [
 self
 aGroupName
+=
+nsString
+(
+aGroupName
+)
 aPrincipalInfo
 ]
 (

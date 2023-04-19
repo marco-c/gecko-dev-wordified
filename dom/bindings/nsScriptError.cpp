@@ -1097,8 +1097,8 @@ columnNumber
 uint32_t
 flags
 const
-char
-*
+nsACString
+&
 category
 bool
 fromPrivateWindow
@@ -1114,15 +1114,6 @@ lineNumber
 columnNumber
 flags
 category
-?
-nsDependentCString
-(
-category
-)
-:
-EmptyCString
-(
-)
 0
 /
 *

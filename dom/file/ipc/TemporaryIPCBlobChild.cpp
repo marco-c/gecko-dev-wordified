@@ -507,10 +507,7 @@ aCallback
 ;
 SendOperationDone
 (
-nsCString
-(
 aContentType
-)
 fdd
 )
 ;

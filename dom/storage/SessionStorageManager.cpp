@@ -1826,7 +1826,7 @@ nsIPrincipal
 &
 aPrincipal
 const
-nsCString
+nsACString
 &
 aOriginKey
 SessionStorageCache
@@ -2183,7 +2183,7 @@ nsIPrincipal
 &
 aPrincipal
 const
-nsCString
+nsACString
 &
 aOriginKey
 SessionStorageCache
@@ -4506,7 +4506,7 @@ OriginAttributesPattern
 &
 aPattern
 const
-nsCString
+nsACString
 &
 aOriginScope
 )

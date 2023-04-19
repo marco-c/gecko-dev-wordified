@@ -196,7 +196,7 @@ SpeechSynthesisChild
 RecvVoiceRemoved
 (
 const
-nsString
+nsAString
 &
 aUri
 )
@@ -228,7 +228,7 @@ SpeechSynthesisChild
 RecvSetDefaultVoice
 (
 const
-nsString
+nsAString
 &
 aUri
 const
@@ -319,15 +319,15 @@ SpeechSynthesisChild
 AllocPSpeechSynthesisRequestChild
 (
 const
-nsString
+nsAString
 &
 aText
 const
-nsString
+nsAString
 &
 aLang
 const
-nsString
+nsAString
 &
 aUri
 const
@@ -440,7 +440,7 @@ SpeechSynthesisRequestChild
 RecvOnStart
 (
 const
-nsString
+nsAString
 &
 aUri
 )
@@ -629,7 +629,7 @@ SpeechSynthesisRequestChild
 RecvOnBoundary
 (
 const
-nsString
+nsAString
 &
 aName
 const
@@ -681,7 +681,7 @@ SpeechSynthesisRequestChild
 RecvOnMark
 (
 const
-nsString
+nsAString
 &
 aName
 const

@@ -229,11 +229,11 @@ nsIFile
 *
 aTempDir
 const
-nsString
+nsAString
 &
 aGMPName
 const
-nsCString
+nsACString
 &
 aNodeId
 )
@@ -554,11 +554,11 @@ explicit
 GMPDiskStorage
 (
 const
-nsCString
+nsACString
 &
 aNodeId
 const
-nsString
+nsAString
 &
 aGMPName
 )
@@ -862,7 +862,7 @@ GMPErr
 Open
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -1057,7 +1057,7 @@ bool
 IsOpen
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -1113,7 +1113,7 @@ GMPErr
 Read
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 nsTArray
@@ -1429,7 +1429,7 @@ GMPErr
 Write
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 const
@@ -1751,7 +1751,7 @@ record
 mFileDesc
 aRecordName
 .
-get
+BeginReading
 (
 )
 aRecordName
@@ -1889,7 +1889,7 @@ void
 Close
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -2765,7 +2765,7 @@ nsresult
 RemoveStorageFile
 (
 const
-nsString
+nsAString
 &
 aFilename
 )
@@ -2932,11 +2932,11 @@ GMPStorage
 CreateGMPDiskStorage
 (
 const
-nsCString
+nsACString
 &
 aNodeId
 const
-nsString
+nsAString
 &
 aGMPName
 )

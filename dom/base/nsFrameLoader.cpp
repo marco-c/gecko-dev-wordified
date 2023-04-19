@@ -19097,10 +19097,7 @@ browserParent
 >
 SendActivateFrameEvent
 (
-nsString
-(
 aType
-)
 aCapture
 )
 ;
@@ -19637,10 +19634,7 @@ browserParent
 >
 SendLoadRemoteScript
 (
-nsString
-(
 aURL
-)
 aRunInGlobalScope
 )
 ;
@@ -19886,10 +19880,7 @@ browserParent
 >
 SendAsyncMessage
 (
-nsString
-(
 aMessage
-)
 data
 )
 )

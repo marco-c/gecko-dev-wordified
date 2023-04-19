@@ -749,7 +749,7 @@ char
 *
 aPropertyName
 const
-nsCString
+nsACString
 &
 aJSON
 )
@@ -834,7 +834,7 @@ JSONWriter
 &
 aWriter
 const
-nsCString
+nsACString
 &
 aString
 ContentParent
@@ -1294,7 +1294,7 @@ ContentParent
 *
 aParent
 const
-nsCString
+nsACString
 &
 aPerfStats
 )

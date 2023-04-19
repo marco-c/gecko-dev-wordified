@@ -267,7 +267,7 @@ RemotePrintJobParent
 RecvInitializePrint
 (
 const
-nsString
+nsAString
 &
 aDocumentTitle
 const
@@ -442,7 +442,7 @@ RemotePrintJobParent
 InitializePrintDevice
 (
 const
-nsString
+nsAString
 &
 aDocumentTitle
 const

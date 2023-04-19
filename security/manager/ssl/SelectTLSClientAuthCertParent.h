@@ -271,7 +271,7 @@ bool
 Dispatch
 (
 const
-nsCString
+nsACString
 &
 aHostName
 const

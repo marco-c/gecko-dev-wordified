@@ -1015,7 +1015,7 @@ nsresult
 SetCurrentDictionary
 (
 const
-nsCString
+nsACString
 &
 aDictionary
 )

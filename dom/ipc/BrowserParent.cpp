@@ -5597,7 +5597,7 @@ BrowserParent
 SendLoadRemoteScript
 (
 const
-nsString
+nsAString
 &
 aURL
 const
@@ -5617,7 +5617,10 @@ AppendElement
 (
 FrameScriptInfo
 (
+nsString
+(
 aURL
+)
 aRunInGlobalScope
 )
 )

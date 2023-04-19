@@ -1191,7 +1191,8 @@ void
 *
 aPluginAPI
 const
-nsCString
+nsACString
+&
 aKeySystem
 )
 {

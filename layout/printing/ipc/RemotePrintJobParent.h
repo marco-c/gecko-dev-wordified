@@ -256,7 +256,7 @@ IPCResult
 RecvInitializePrint
 (
 const
-nsString
+nsAString
 &
 aDocumentTitle
 const
@@ -456,7 +456,7 @@ nsresult
 InitializePrintDevice
 (
 const
-nsString
+nsAString
 &
 aDocumentTitle
 const

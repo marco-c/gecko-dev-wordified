@@ -129,7 +129,7 @@ IPCResult
 RecvSetDictionary
 (
 const
-nsCString
+nsACString
 &
 aDictionary
 bool
@@ -217,7 +217,7 @@ IPCResult
 RecvSuggest
 (
 const
-nsString
+nsAString
 &
 aWord
 uint32_t

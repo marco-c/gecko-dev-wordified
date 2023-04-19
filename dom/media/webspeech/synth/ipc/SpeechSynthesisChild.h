@@ -185,7 +185,7 @@ IPCResult
 RecvVoiceRemoved
 (
 const
-nsString
+nsAString
 &
 aUri
 )
@@ -200,7 +200,7 @@ IPCResult
 RecvSetDefaultVoice
 (
 const
-nsString
+nsAString
 &
 aUri
 const
@@ -252,15 +252,15 @@ PSpeechSynthesisRequestChild
 AllocPSpeechSynthesisRequestChild
 (
 const
-nsString
+nsAString
 &
 aLang
 const
-nsString
+nsAString
 &
 aUri
 const
-nsString
+nsAString
 &
 aText
 const
@@ -325,7 +325,7 @@ IPCResult
 RecvOnStart
 (
 const
-nsString
+nsAString
 &
 aUri
 )
@@ -405,7 +405,7 @@ IPCResult
 RecvOnBoundary
 (
 const
-nsString
+nsAString
 &
 aName
 const
@@ -437,7 +437,7 @@ IPCResult
 RecvOnMark
 (
 const
-nsString
+nsAString
 &
 aName
 const

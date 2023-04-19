@@ -1954,10 +1954,7 @@ i
 >
 SendVoiceRemoved
 (
-nsString
-(
 aUri
-)
 )
 ;
 return
@@ -2229,10 +2226,7 @@ i
 >
 SendSetDefaultVoice
 (
-nsString
-(
 aUri
-)
 aIsDefault
 )
 ;

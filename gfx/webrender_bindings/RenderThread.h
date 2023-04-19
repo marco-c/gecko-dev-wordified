@@ -1271,7 +1271,7 @@ wr
 WindowId
 aWindowId
 const
-nsCString
+nsACString
 &
 aUI
 )

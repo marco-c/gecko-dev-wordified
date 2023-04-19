@@ -193,7 +193,7 @@ PTestShellCommandParent
 AllocPTestShellCommandParent
 (
 const
-nsString
+nsAString
 &
 aCommand
 )
@@ -213,7 +213,7 @@ TestShellCommandParent
 *
 aActor
 const
-nsString
+nsAString
 &
 aResponse
 )
@@ -257,7 +257,7 @@ bool
 RunCallback
 (
 const
-nsString
+nsAString
 &
 aResponse
 )
@@ -273,7 +273,7 @@ bool
 ExecuteCallback
 (
 const
-nsString
+nsAString
 &
 aResponse
 )
@@ -296,7 +296,7 @@ IPCResult
 Recv__delete__
 (
 const
-nsString
+nsAString
 &
 aResponse
 )

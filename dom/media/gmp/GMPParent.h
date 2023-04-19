@@ -270,7 +270,7 @@ explicit
 GMPCapability
 (
 const
-nsCString
+nsACString
 &
 aAPIName
 )
@@ -313,7 +313,7 @@ GMPCapability
 &
 aCapabilities
 const
-nsCString
+nsACString
 &
 aAPI
 const
@@ -337,7 +337,7 @@ GMPCapability
 &
 aCapabilities
 const
-nsCString
+nsACString
 &
 aAPI
 const

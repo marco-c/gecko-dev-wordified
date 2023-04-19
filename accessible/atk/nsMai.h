@@ -721,7 +721,7 @@ void
 FireTextChangeEvent
 (
 const
-nsString
+nsAString
 &
 aStr
 int32_t

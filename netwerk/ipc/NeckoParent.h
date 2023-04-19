@@ -464,7 +464,7 @@ PAltDataOutputStreamParent
 AllocPAltDataOutputStreamParent
 (
 const
-nsCString
+nsACString
 &
 type
 const
@@ -520,7 +520,7 @@ PTCPSocketParent
 AllocPTCPSocketParent
 (
 const
-nsString
+nsAString
 &
 host
 const
@@ -662,7 +662,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsCString
+nsACString
 &
 aFilter
 )
@@ -683,7 +683,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsCString
+nsACString
 &
 aFilter
 )
@@ -703,11 +703,11 @@ PDNSRequestParent
 AllocPDNSRequestParent
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
-nsCString
+nsACString
 &
 aTrrServer
 const
@@ -742,11 +742,11 @@ PDNSRequestParent
 *
 actor
 const
-nsCString
+nsACString
 &
 aHost
 const
-nsCString
+nsACString
 &
 trrServer
 const
@@ -799,7 +799,7 @@ IPCResult
 RecvHTMLDNSPrefetch
 (
 const
-nsString
+nsAString
 &
 hostname
 const
@@ -826,7 +826,7 @@ IPCResult
 RecvCancelHTMLDNSPrefetch
 (
 const
-nsString
+nsAString
 &
 hostname
 const

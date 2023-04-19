@@ -153,7 +153,7 @@ IPCResult
 RecvUpdate
 (
 const
-nsString
+nsAString
 &
 aColor
 )
@@ -170,7 +170,7 @@ IPCResult
 Recv__delete__
 (
 const
-nsString
+nsAString
 &
 aColor
 )

@@ -130,7 +130,7 @@ void
 OnQueryComplete
 (
 const
-nsCString
+nsACString
 &
 hostname
 const
@@ -174,11 +174,11 @@ IPCResult
 RecvRegisterMDNSHostname
 (
 const
-nsCString
+nsACString
 &
 hostname
 const
-nsCString
+nsACString
 &
 address
 )
@@ -195,7 +195,7 @@ IPCResult
 RecvQueryMDNSHostname
 (
 const
-nsCString
+nsACString
 &
 hostname
 )
@@ -212,7 +212,7 @@ IPCResult
 RecvUnregisterMDNSHostname
 (
 const
-nsCString
+nsACString
 &
 hostname
 )
@@ -257,7 +257,7 @@ void
 OnQueryComplete_m
 (
 const
-nsCString
+nsACString
 &
 hostname
 const

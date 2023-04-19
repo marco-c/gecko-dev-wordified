@@ -2192,7 +2192,7 @@ NodeIdVariant
 &
 aNodeIdVariant
 const
-nsCString
+nsACString
 &
 aAPI
 const
@@ -5234,7 +5234,7 @@ FindPluginForAPIFrom
 size_t
 aSearchStartIndex
 const
-nsCString
+nsACString
 &
 aAPI
 const
@@ -5345,7 +5345,7 @@ nsACString
 &
 aNodeId
 const
-nsCString
+nsACString
 &
 aAPI
 const
@@ -7221,11 +7221,11 @@ nsIFile
 *
 aPath
 const
-nsCString
+nsACString
 &
 aFileName
 const
-nsCString
+nsACString
 &
 aData
 )
@@ -7334,7 +7334,7 @@ PR_Write
 f
 aData
 .
-get
+BeginReading
 (
 )
 aData
@@ -9967,7 +9967,7 @@ return
 for
 (
 const
-nsCString
+nsACString
 &
 nodeId
 :
@@ -11482,7 +11482,7 @@ NodeIdVariant
 &
 aNodeIdVariant
 const
-nsCString
+nsACString
 &
 aAPI
 nsTArray
@@ -11874,15 +11874,15 @@ GMPServiceParent
 RecvGetGMPNodeId
 (
 const
-nsString
+nsAString
 &
 aOrigin
 const
-nsString
+nsAString
 &
 aTopLevelOrigin
 const
-nsString
+nsAString
 &
 aGMPName
 nsCString

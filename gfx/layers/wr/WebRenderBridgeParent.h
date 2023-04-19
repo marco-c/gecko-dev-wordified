@@ -731,7 +731,7 @@ TimeStamp
 &
 aTxnStartTime
 const
-nsCString
+nsACString
 &
 aTxnURL
 const
@@ -800,7 +800,7 @@ TimeStamp
 &
 aTxnStartTime
 const
-nsCString
+nsACString
 &
 aTxnURL
 const
@@ -963,7 +963,7 @@ IPCResult
 RecvStartCaptureSequence
 (
 const
-nsCString
+nsACString
 &
 path
 const
@@ -1351,7 +1351,7 @@ TimeStamp
 &
 aTxnStartTime
 const
-nsCString
+nsACString
 &
 aTxnURL
 const
@@ -2705,7 +2705,7 @@ TimeStamp
 &
 aTxnStartTime
 const
-nsCString
+nsACString
 &
 aTxnURL
 const

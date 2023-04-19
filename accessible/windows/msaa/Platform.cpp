@@ -1328,7 +1328,7 @@ RemoteAccessible
 *
 aText
 const
-nsString
+nsAString
 &
 aStr
 int32_t

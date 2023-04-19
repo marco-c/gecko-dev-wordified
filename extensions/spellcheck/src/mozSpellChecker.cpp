@@ -192,12 +192,6 @@ using
 mozilla
 :
 :
-PRemoteSpellcheckEngineChild
-;
-using
-mozilla
-:
-:
 RemoteSpellcheckEngineChild
 ;
 using
@@ -1010,10 +1004,7 @@ mEngine
 >
 SendSuggest
 (
-nsString
-(
 aWord
-)
 aMaxCount
 )
 -
@@ -2459,7 +2450,7 @@ mozSpellChecker
 SetCurrentDictionary
 (
 const
-nsCString
+nsACString
 &
 aDictionary
 )

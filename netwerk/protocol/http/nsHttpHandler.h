@@ -3196,7 +3196,7 @@ void
 SetDeviceModelId
 (
 const
-nsCString
+nsACString
 &
 aModelId
 )

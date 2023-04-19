@@ -189,7 +189,7 @@ GMPStorageParent
 GMPStorageParent
 (
 const
-nsCString
+nsACString
 &
 aNodeId
 GMPParent
@@ -372,7 +372,7 @@ GMPStorageParent
 RecvOpen
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -399,7 +399,10 @@ s
 )
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -490,7 +493,10 @@ null
 nodeId
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -549,7 +555,10 @@ name
 empty
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -610,7 +619,10 @@ in
 use
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -689,7 +701,10 @@ rv
 d
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -726,7 +741,7 @@ GMPStorageParent
 RecvRead
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -753,7 +768,10 @@ s
 )
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -830,7 +848,10 @@ not
 open
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -895,7 +916,10 @@ rv
 "
 PRIu32
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -945,7 +969,7 @@ GMPStorageParent
 RecvWrite
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 nsTArray
@@ -982,7 +1006,10 @@ zu
 bytes
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -1057,7 +1084,10 @@ not
 open
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -1117,7 +1147,10 @@ too
 big
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -1180,7 +1213,10 @@ rv
 d
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (
@@ -1217,7 +1253,7 @@ GMPStorageParent
 RecvClose
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -1244,7 +1280,10 @@ s
 )
 "
 this
+PromiseFlatCString
+(
 aRecordName
+)
 .
 get
 (

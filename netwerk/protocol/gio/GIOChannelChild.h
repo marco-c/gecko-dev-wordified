@@ -351,11 +351,11 @@ int64_t
 &
 aContentLength
 const
-nsCString
+nsACString
 &
 aContentType
 const
-nsCString
+nsACString
 &
 aEntityID
 const
@@ -379,7 +379,7 @@ nsresult
 &
 aChannelStatus
 const
-nsCString
+nsACString
 &
 aData
 const
@@ -449,11 +449,11 @@ int64_t
 &
 aContentLength
 const
-nsCString
+nsACString
 &
 aContentType
 const
-nsCString
+nsACString
 &
 aEntityID
 const
@@ -470,7 +470,7 @@ nsresult
 &
 aChannelStatus
 const
-nsCString
+nsACString
 &
 aData
 const

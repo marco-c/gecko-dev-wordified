@@ -626,7 +626,7 @@ void
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )

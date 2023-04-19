@@ -3381,7 +3381,7 @@ WebRenderAPI
 SetProfilerUI
 (
 const
-nsCString
+nsACString
 &
 aUIString
 )
@@ -4008,7 +4008,7 @@ WebRenderAPI
 StartCaptureSequence
 (
 const
-nsCString
+nsACString
 &
 aPath
 uint32_t

@@ -1239,7 +1239,7 @@ uint32_t
 &
 aCount
 const
-nsDependentCSubstring
+nsACString
 &
 aData
 const
@@ -1255,12 +1255,6 @@ HttpBackgroundChannelChild
 self
 =
 this
-;
-nsCString
-data
-(
-aData
-)
 ;
 std
 :
@@ -1280,6 +1274,11 @@ aTransportStatus
 aOffset
 aCount
 data
+=
+nsCString
+(
+aData
+)
 aDataFromSocketProcess
 ]
 (

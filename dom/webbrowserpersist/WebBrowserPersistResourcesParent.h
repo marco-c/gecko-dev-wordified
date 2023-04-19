@@ -162,7 +162,7 @@ IPCResult
 RecvVisitResource
 (
 const
-nsCString
+nsACString
 &
 aURI
 const

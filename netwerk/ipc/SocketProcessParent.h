@@ -385,11 +385,11 @@ PDNSRequestParent
 AllocPDNSRequestParent
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
-nsCString
+nsACString
 &
 aTrrServer
 const
@@ -424,11 +424,11 @@ PDNSRequestParent
 *
 actor
 const
-nsCString
+nsACString
 &
 aHost
 const
-nsCString
+nsACString
 &
 trrServer
 const
@@ -515,7 +515,7 @@ uint64_t
 &
 aExtraSizeData
 const
-nsCString
+nsACString
 &
 aExtraStringData
 )

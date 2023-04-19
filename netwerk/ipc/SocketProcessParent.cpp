@@ -1309,11 +1309,11 @@ SocketProcessParent
 AllocPDNSRequestParent
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
-nsCString
+nsACString
 &
 aTrrServer
 const
@@ -1381,11 +1381,11 @@ PDNSRequestParent
 *
 aActor
 const
-nsCString
+nsACString
 &
 aHost
 const
-nsCString
+nsACString
 &
 aTrrServer
 const
@@ -1491,7 +1491,7 @@ uint64_t
 &
 aExtraSizeData
 const
-nsCString
+nsACString
 &
 aExtraStringData
 )

@@ -756,10 +756,7 @@ Hal
 >
 SendModifyWakeLock
 (
-nsString
-(
 aTopic
-)
 aLockAdjust
 aHiddenAdjust
 aProcessID
@@ -785,10 +782,7 @@ Hal
 >
 SendGetWakeLockInfo
 (
-nsString
-(
 aTopic
-)
 aWakeLockInfo
 )
 ;
@@ -1691,7 +1685,7 @@ IPCResult
 RecvModifyWakeLock
 (
 const
-nsString
+nsAString
 &
 aTopic
 const
@@ -1821,7 +1815,7 @@ IPCResult
 RecvGetWakeLockInfo
 (
 const
-nsString
+nsAString
 &
 aTopic
 WakeLockInformation

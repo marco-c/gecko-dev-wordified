@@ -227,7 +227,7 @@ PAltDataOutputStreamChild
 AllocPAltDataOutputStreamChild
 (
 const
-nsCString
+nsACString
 &
 type
 const
@@ -315,7 +315,7 @@ PTCPSocketChild
 AllocPTCPSocketChild
 (
 const
-nsString
+nsAString
 &
 host
 const
@@ -364,7 +364,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsCString
+nsACString
 &
 aFilter
 )

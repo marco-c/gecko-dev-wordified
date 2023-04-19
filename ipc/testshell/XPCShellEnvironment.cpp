@@ -340,12 +340,6 @@ using
 mozilla
 :
 :
-AutoSafeJSContext
-;
-using
-mozilla
-:
-:
 dom
 :
 :
@@ -2717,7 +2711,7 @@ XPCShellEnvironment
 EvaluateString
 (
 const
-nsString
+nsAString
 &
 aString
 nsString
@@ -2788,7 +2782,7 @@ init
 cx
 aString
 .
-get
+BeginReading
 (
 )
 aString

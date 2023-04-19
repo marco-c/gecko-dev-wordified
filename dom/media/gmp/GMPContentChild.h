@@ -252,7 +252,7 @@ PChromiumCDMChild
 *
 aActor
 const
-nsCString
+nsACString
 &
 aKeySystem
 )
@@ -281,7 +281,7 @@ PChromiumCDMChild
 AllocPChromiumCDMChild
 (
 const
-nsCString
+nsACString
 &
 aKeySystem
 )

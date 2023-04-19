@@ -117,7 +117,7 @@ IPCResult
 RecvGetStats
 (
 const
-nsString
+nsAString
 &
 aPcIdFilter
 GetStatsResolver

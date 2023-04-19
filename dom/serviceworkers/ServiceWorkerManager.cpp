@@ -18786,10 +18786,7 @@ mActor
 SendPropagateUnregister
 (
 principalInfo
-nsString
-(
 aScope
-)
 )
 ;
 nsresult

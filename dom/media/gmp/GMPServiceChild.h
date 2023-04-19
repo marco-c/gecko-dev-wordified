@@ -331,7 +331,7 @@ NodeIdVariant
 &
 aNodeIdVariant
 const
-nsCString
+nsACString
 &
 aAPI
 const

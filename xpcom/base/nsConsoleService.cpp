@@ -2282,7 +2282,10 @@ msg
 new
 nsConsoleMessage
 (
+nsDependentString
+(
 aMessage
+)
 )
 )
 ;

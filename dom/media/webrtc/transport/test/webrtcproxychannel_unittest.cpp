@@ -2333,7 +2333,7 @@ void
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )
@@ -2504,7 +2504,7 @@ void
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )
@@ -2692,7 +2692,7 @@ WebrtcTCPSocketTest
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )
@@ -2994,7 +2994,7 @@ WebrtcTCPSocketTestCallback
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )

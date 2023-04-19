@@ -138,7 +138,7 @@ IPCResult
 RecvExecuteCommand
 (
 const
-nsString
+nsAString
 &
 aCommand
 )
@@ -148,7 +148,7 @@ PTestShellCommandChild
 AllocPTestShellCommandChild
 (
 const
-nsString
+nsAString
 &
 aCommand
 )
@@ -166,7 +166,7 @@ PTestShellCommandChild
 *
 aActor
 const
-nsString
+nsAString
 &
 aCommand
 )

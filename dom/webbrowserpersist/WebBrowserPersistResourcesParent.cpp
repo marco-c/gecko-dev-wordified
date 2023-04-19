@@ -335,7 +335,7 @@ WebBrowserPersistResourcesParent
 RecvVisitResource
 (
 const
-nsCString
+nsACString
 &
 aURI
 const

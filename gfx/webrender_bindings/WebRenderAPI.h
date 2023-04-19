@@ -1532,7 +1532,7 @@ void
 SetProfilerUI
 (
 const
-nsCString
+nsACString
 &
 aUIString
 )
@@ -1676,7 +1676,7 @@ void
 StartCaptureSequence
 (
 const
-nsCString
+nsACString
 &
 aPath
 uint32_t

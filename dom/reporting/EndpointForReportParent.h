@@ -168,7 +168,7 @@ void
 Run
 (
 const
-nsString
+nsAString
 &
 aGroupName
 const

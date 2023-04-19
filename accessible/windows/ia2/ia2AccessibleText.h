@@ -979,7 +979,7 @@ aAcc
 bool
 aInsert
 const
-nsString
+nsAString
 &
 aStr
 int32_t

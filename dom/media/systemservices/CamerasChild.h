@@ -1251,11 +1251,11 @@ IPCResult
 RecvReplyGetCaptureDevice
 (
 const
-nsCString
+nsACString
 &
 device_name
 const
-nsCString
+nsACString
 &
 device_id
 const

@@ -354,7 +354,7 @@ void
 *
 aPluginAPI
 const
-nsCString
+nsACString
 &
 aKeySystem
 )
@@ -544,7 +544,7 @@ void
 *
 aPluginAPI
 const
-nsCString
+nsACString
 &
 aKeySystem
 )

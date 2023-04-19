@@ -681,7 +681,7 @@ uint64_t
 &
 aID
 const
-nsString
+nsAString
 &
 aStr
 const
@@ -724,7 +724,7 @@ uint64_t
 &
 aID
 const
-nsString
+nsAString
 &
 aStr
 const
@@ -993,7 +993,7 @@ uint64_t
 &
 aID
 const
-nsString
+nsAString
 &
 aAnnouncement
 const

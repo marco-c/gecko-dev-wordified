@@ -145,7 +145,7 @@ GMPStorageParent
 GMPStorageParent
 (
 const
-nsCString
+nsACString
 &
 aNodeId
 GMPParent
@@ -175,7 +175,7 @@ IPCResult
 RecvOpen
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -191,7 +191,7 @@ IPCResult
 RecvRead
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -207,7 +207,7 @@ IPCResult
 RecvWrite
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 nsTArray
@@ -230,7 +230,7 @@ IPCResult
 RecvClose
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )

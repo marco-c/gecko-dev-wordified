@@ -196,7 +196,7 @@ ContentDecryptionModule_10
 *
 aCDM
 const
-nsCString
+nsACString
 &
 aStorageId
 )
@@ -496,7 +496,7 @@ OnResolveNewSessionPromiseInternal
 uint32_t
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 )
@@ -620,7 +620,7 @@ uint32_t
 &
 aSessionType
 const
-nsCString
+nsACString
 &
 aSessionId
 )
@@ -637,7 +637,7 @@ uint32_t
 &
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 nsTArray
@@ -661,7 +661,7 @@ uint32_t
 &
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 )
@@ -678,7 +678,7 @@ uint32_t
 &
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 )

@@ -381,11 +381,11 @@ StunAddrsRequestParent
 RecvRegisterMDNSHostname
 (
 const
-nsCString
+nsACString
 &
 aHostname
 const
-nsCString
+nsACString
 &
 aAddress
 )
@@ -448,7 +448,7 @@ StunAddrsRequestParent
 RecvQueryMDNSHostname
 (
 const
-nsCString
+nsACString
 &
 aHostname
 )
@@ -507,7 +507,7 @@ StunAddrsRequestParent
 RecvUnregisterMDNSHostname
 (
 const
-nsCString
+nsACString
 &
 aHostname
 )
@@ -590,7 +590,7 @@ StunAddrsRequestParent
 OnQueryComplete
 (
 const
-nsCString
+nsACString
 &
 hostname
 const
@@ -619,7 +619,10 @@ StunAddrsRequestParent
 :
 :
 OnQueryComplete_m
+nsCString
+(
 hostname
+)
 address
 )
 NS_DISPATCH_NORMAL
@@ -1170,7 +1173,7 @@ StunAddrsRequestParent
 OnQueryComplete_m
 (
 const
-nsCString
+nsACString
 &
 hostname
 const

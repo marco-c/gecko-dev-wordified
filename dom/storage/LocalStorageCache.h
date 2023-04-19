@@ -406,7 +406,7 @@ nsAString
 &
 aKey
 const
-nsString
+nsAString
 &
 aValue
 )
@@ -989,7 +989,7 @@ nsAString
 &
 aKey
 const
-nsString
+nsAString
 &
 aValue
 nsString
@@ -1113,7 +1113,7 @@ nsAString
 &
 aKey
 const
-nsString
+nsAString
 &
 aValue
 )
@@ -1381,15 +1381,15 @@ LocalStorage
 *
 aStorage
 const
-nsString
+nsAString
 &
 aKey
 const
-nsString
+nsAString
 &
 aOldValue
 const
-nsString
+nsAString
 &
 aNewValue
 )

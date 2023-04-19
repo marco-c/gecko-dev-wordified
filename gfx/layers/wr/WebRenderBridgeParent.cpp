@@ -7690,7 +7690,7 @@ TimeStamp
 &
 aTxnStartTime
 const
-nsCString
+nsACString
 &
 aTxnURL
 const
@@ -8578,7 +8578,7 @@ TimeStamp
 &
 aTxnStartTime
 const
-nsCString
+nsACString
 &
 aTxnURL
 const
@@ -13146,7 +13146,7 @@ WebRenderBridgeParent
 RecvStartCaptureSequence
 (
 const
-nsCString
+nsACString
 &
 aPath
 const
@@ -15256,7 +15256,7 @@ TimeStamp
 &
 aTxnStartTime
 const
-nsCString
+nsACString
 &
 aTxnURL
 const

@@ -4008,10 +4008,7 @@ IPCOpen
 {
 SendSetLinkStatus
 (
-nsString
-(
 aStatusText
-)
 )
 ;
 }
@@ -13498,7 +13495,7 @@ BrowserChild
 RecvInsertText
 (
 const
-nsString
+nsAString
 &
 aStringToInsert
 )
@@ -13528,7 +13525,10 @@ mString
 =
 Some
 (
+nsString
+(
 aStringToInsert
+)
 )
 ;
 DispatchWidgetEventViaAPZ
@@ -13555,7 +13555,7 @@ BrowserChild
 RecvNormalPriorityInsertText
 (
 const
-nsString
+nsAString
 &
 aStringToInsert
 )
@@ -13833,10 +13833,10 @@ BrowserChild
 AllocPColorPickerChild
 (
 const
-nsString
+nsAString
 &
 const
-nsString
+nsAString
 &
 )
 {
@@ -13892,7 +13892,7 @@ BrowserChild
 AllocPFilePickerChild
 (
 const
-nsString
+nsAString
 &
 const
 int16_t
@@ -14049,7 +14049,7 @@ BrowserChild
 RecvActivateFrameEvent
 (
 const
-nsString
+nsAString
 &
 aType
 const
@@ -14141,7 +14141,7 @@ BrowserChild
 RecvLoadRemoteScript
 (
 const
-nsString
+nsAString
 &
 aURL
 const
@@ -14266,7 +14266,7 @@ BrowserChild
 RecvAsyncMessage
 (
 const
-nsString
+nsAString
 &
 aMessage
 const

@@ -206,11 +206,11 @@ IPCResult
 RecvConfigurePAC
 (
 const
-nsCString
+nsACString
 &
 aPACURI
 const
-nsCString
+nsACString
 &
 aPACScriptData
 const
@@ -233,11 +233,11 @@ IPCResult
 RecvGetProxyForURI
 (
 const
-nsCString
+nsACString
 &
 aTestURI
 const
-nsCString
+nsACString
 &
 aTestHost
 GetProxyForURIResolver
@@ -375,7 +375,7 @@ Resolve
 nsresult
 aStatus
 const
-nsCString
+nsACString
 &
 aResult
 )

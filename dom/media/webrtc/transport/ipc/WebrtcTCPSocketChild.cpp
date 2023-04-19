@@ -258,7 +258,7 @@ WebrtcTCPSocketChild
 RecvOnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )
@@ -459,7 +459,7 @@ WebrtcTCPSocketChild
 AsyncOpen
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
@@ -467,7 +467,7 @@ int
 &
 aPort
 const
-nsCString
+nsACString
 &
 aLocalAddress
 const
@@ -507,7 +507,10 @@ d
 n
 "
 this
+PromiseFlatCString
+(
 aHost
+)
 .
 get
 (
