@@ -9605,10 +9605,6 @@ Base
 =
 RewritingParseNodeVisitor
 ;
-JSContext
-*
-cx
-;
 ParserAtomsTable
 &
 parserAtoms
@@ -9626,7 +9622,7 @@ const
 return
 FoldInfo
 {
-cx
+cx_
 parserAtoms
 handler
 }
@@ -9649,10 +9645,6 @@ handler
 )
 :
 RewritingParseNodeVisitor
-(
-cx
-)
-cx
 (
 cx
 )
