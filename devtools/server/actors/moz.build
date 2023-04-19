@@ -215,11 +215,6 @@ frame
 js
 "
 "
-framerate
-.
-js
-"
-"
 heap
 -
 snapshot
@@ -281,13 +276,6 @@ js
 "
 "
 perf
-.
-js
-"
-"
-performance
--
-recording
 .
 js
 "

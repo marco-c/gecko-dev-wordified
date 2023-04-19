@@ -169,11 +169,6 @@ frame
 js
 "
 "
-framerate
-.
-js
-"
-"
 highlighters
 .
 js
@@ -238,13 +233,6 @@ js
 "
 "
 perf
-.
-js
-"
-"
-performance
--
-recording
 .
 js
 "
