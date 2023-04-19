@@ -32,7 +32,7 @@ add_task
 (
 async
 function
-about_myfirefox_smoke_test
+about_firefoxview_smoke_test
 (
 )
 {
@@ -48,7 +48,7 @@ url
 "
 about
 :
-myfirefox
+firefoxview
 "
 }
 async

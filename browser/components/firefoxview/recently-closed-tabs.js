@@ -199,7 +199,7 @@ Localization
 "
 preview
 /
-myFirefox
+firefoxView
 .
 ftl
 "
@@ -347,7 +347,7 @@ fluentStrings
 formatValueSync
 (
 "
-myfirefox
+firefoxview
 -
 just
 -
@@ -733,7 +733,7 @@ setAttributes
 (
 li
 "
-myfirefox
+firefoxview
 -
 closed
 -

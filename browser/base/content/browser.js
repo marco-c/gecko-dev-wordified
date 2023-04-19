@@ -4201,7 +4201,7 @@ png
 "
 about
 :
-myfirefox
+firefoxview
 "
 :
 "
@@ -4304,7 +4304,7 @@ NIGHTLY_BUILD
 "
 about
 :
-myfirefox
+firefoxview
 "
 ]
 :
