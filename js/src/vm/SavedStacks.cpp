@@ -6599,6 +6599,9 @@ js
 Int32ToCStringBuf
 cbuf
 ;
+size_t
+cstrlen
+;
 const
 char
 *
@@ -6614,6 +6617,8 @@ frame
 wasmBytecodeOffset
 (
 )
+&
+cstrlen
 )
 ;
 MOZ_ASSERT
@@ -6637,10 +6642,7 @@ sb
 append
 (
 cstr
-strlen
-(
-cstr
-)
+cstrlen
 )
 ;
 }

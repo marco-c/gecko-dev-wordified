@@ -5169,6 +5169,9 @@ afterFuncIndex
 Int32ToCStringBuf
 cbuf
 ;
+size_t
+funcIndexStrLen
+;
 const
 char
 *
@@ -5179,6 +5182,8 @@ Uint32ToCString
 &
 cbuf
 funcIndex
+&
+funcIndexStrLen
 )
 ;
 MOZ_ASSERT
@@ -5206,10 +5211,7 @@ bytes
 append
 (
 funcIndexStr
-strlen
-(
-funcIndexStr
-)
+funcIndexStrLen
 )
 &
 &
@@ -7373,6 +7375,9 @@ continue
 Int32ToCStringBuf
 cbuf
 ;
+size_t
+bytecodeStrLen
+;
 const
 char
 *
@@ -7387,6 +7392,8 @@ codeRange
 funcLineOrBytecode
 (
 )
+&
+bytecodeStrLen
 )
 ;
 MOZ_ASSERT
@@ -7511,10 +7518,7 @@ name
 append
 (
 bytecodeStr
-strlen
-(
-bytecodeStr
-)
+bytecodeStrLen
 )
 |
 |
