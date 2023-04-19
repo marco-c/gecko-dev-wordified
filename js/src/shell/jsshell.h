@@ -809,10 +809,6 @@ extern
 bool
 enablePrivateClassMethods
 ;
-extern
-bool
-enableArrayFindLast
-;
 #
 ifdef
 ENABLE_CHANGE_ARRAY_BY_COPY
