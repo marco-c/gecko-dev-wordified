@@ -589,8 +589,12 @@ D8
 /
 expected
 :
-nothing
+one
+replacement
+char
 "
+\
+uFFFD
 "
 ]
 /
@@ -615,8 +619,12 @@ D8
 /
 expected
 :
-nothing
+one
+replacement
+char
 "
+\
+uFFFD
 "
 ]
 ]
