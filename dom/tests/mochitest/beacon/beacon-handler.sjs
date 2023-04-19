@@ -592,9 +592,6 @@ true
 false
 )
 ;
-/
-/
-fallthrough
 case
 "
 getLastBeacon

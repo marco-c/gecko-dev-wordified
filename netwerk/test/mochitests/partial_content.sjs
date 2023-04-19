@@ -991,13 +991,16 @@ id
 firstResponse
 "
 >
+'
++
+"
 First
 response
 <
 /
 p
 >
-'
+"
 ;
 var
 remainderContent
@@ -1017,6 +1020,9 @@ response
 /
 p
 >
+'
++
+"
 <
 /
 body
@@ -1025,7 +1031,7 @@ body
 /
 html
 >
-'
+"
 ;
 var
 totalLength
