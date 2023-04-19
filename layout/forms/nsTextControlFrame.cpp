@@ -6053,9 +6053,6 @@ nsINode
 aEndNode
 uint32_t
 aEndOffset
-nsITextControlFrame
-:
-:
 SelectionDirection
 aDirection
 )
@@ -6142,7 +6139,10 @@ if
 aDirection
 =
 =
-eNone
+SelectionDirection
+:
+:
+None
 )
 {
 /
@@ -6168,7 +6168,10 @@ direction
 aDirection
 =
 =
-eBackward
+SelectionDirection
+:
+:
+Backward
 )
 ?
 eDirPrevious
