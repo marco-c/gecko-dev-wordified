@@ -6424,6 +6424,7 @@ JSContext
 *
 aCx
 )
+const
 {
 if
 (

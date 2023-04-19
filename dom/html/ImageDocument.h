@@ -429,6 +429,7 @@ float
 GetRatio
 (
 )
+const
 {
 return
 std

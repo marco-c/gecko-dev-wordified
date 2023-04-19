@@ -394,6 +394,7 @@ nsIMenuBuilder
 CreateBuilder
 (
 )
+const
 ;
 void
 Build

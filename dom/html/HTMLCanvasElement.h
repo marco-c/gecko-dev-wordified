@@ -2112,6 +2112,7 @@ JSContext
 *
 aCx
 )
+const
 ;
 bool
 IsPrintCallbackDone

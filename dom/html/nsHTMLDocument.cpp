@@ -3522,6 +3522,7 @@ nsHTMLDocument
 GetNumFormsSynchronous
 (
 )
+const
 {
 return
 mNumForms

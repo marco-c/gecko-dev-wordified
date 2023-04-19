@@ -808,6 +808,7 @@ bool
 AlwaysLoad
 (
 )
+const
 {
 return
 mAlwaysLoad

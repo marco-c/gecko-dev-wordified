@@ -2744,6 +2744,7 @@ uint32_t
 GetCurrentLoadID
 (
 )
+const
 {
 return
 mCurrentLoadID
@@ -4423,6 +4424,7 @@ bool
 ContainsRestrictedContent
 (
 )
+const
 ;
 void
 NotifyWaitingForKey
@@ -5009,6 +5011,7 @@ nsString
 &
 aSinkId
 )
+const
 {
 MOZ_ASSERT
 (
