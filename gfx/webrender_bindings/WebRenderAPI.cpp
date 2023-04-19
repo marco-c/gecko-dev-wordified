@@ -7002,6 +7002,8 @@ bool
 aIsBackfaceVisible
 bool
 aForceAntiAliasing
+bool
+aIsCheckerboard
 const
 wr
 :
@@ -7075,6 +7077,7 @@ aBounds
 clip
 aIsBackfaceVisible
 aForceAntiAliasing
+aIsCheckerboard
 &
 mCurrentSpaceAndClipChain
 aColor

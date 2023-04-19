@@ -18108,6 +18108,7 @@ BackfaceIsHidden
 (
 )
 false
+mIsCheckerboardBackground
 wr
 :
 :
@@ -18437,6 +18438,7 @@ r
 BackfaceIsHidden
 (
 )
+false
 false
 wr
 :
@@ -24944,6 +24946,7 @@ BackfaceIsHidden
 (
 )
 false
+false
 wr
 :
 :
@@ -27045,6 +27048,7 @@ BackfaceIsHidden
 (
 )
 false
+false
 wr
 :
 :
@@ -27074,6 +27078,7 @@ hook
 BackfaceIsHidden
 (
 )
+false
 false
 wr
 :

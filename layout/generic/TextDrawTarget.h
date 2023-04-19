@@ -1914,6 +1914,7 @@ ClipRect
 )
 mBackfaceVisible
 false
+false
 color
 )
 ;
@@ -3580,6 +3581,7 @@ ClipRect
 (
 )
 mBackfaceVisible
+false
 false
 color
 )
