@@ -1142,11 +1142,6 @@ date
 new
 Date
 (
-Date
-.
-now
-(
-)
 )
 ;
 /
