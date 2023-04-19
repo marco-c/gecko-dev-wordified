@@ -2046,7 +2046,7 @@ number
 }
 *
 /
-_scoreIsUsedRemoved
+_scoreIsUserRemoved
 (
 snapshot
 )
