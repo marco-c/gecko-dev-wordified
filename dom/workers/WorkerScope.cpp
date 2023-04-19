@@ -1217,8 +1217,8 @@ PrincipalInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -7651,9 +7651,7 @@ WorkerDebuggerSandbox
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

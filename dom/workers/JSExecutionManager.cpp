@@ -170,8 +170,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSExecutionManager
@@ -1328,9 +1328,7 @@ nullptr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

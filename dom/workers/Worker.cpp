@@ -215,8 +215,8 @@ PostMessage
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -1254,9 +1254,7 @@ DOMEventTargetHelper
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

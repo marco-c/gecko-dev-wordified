@@ -188,8 +188,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MessageEventRunnable
@@ -988,9 +988,7 @@ event
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

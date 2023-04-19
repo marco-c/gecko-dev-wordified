@@ -170,8 +170,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 WorkerPrincipal
@@ -271,9 +271,7 @@ aPrincipals
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

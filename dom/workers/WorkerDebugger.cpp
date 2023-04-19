@@ -287,8 +287,8 @@ XP_WIN
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -2881,9 +2881,7 @@ __func__
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
