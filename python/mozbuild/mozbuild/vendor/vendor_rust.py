@@ -5436,6 +5436,17 @@ append
 locked
 "
 )
+            
+flags
+.
+append
+(
+"
+-
+-
+frozen
+"
+)
         
 res
 =
