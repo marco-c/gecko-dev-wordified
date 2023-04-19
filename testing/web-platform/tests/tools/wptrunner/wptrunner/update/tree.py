@@ -109,19 +109,18 @@ existing
         
 test
 =
+f
 "
-%
-s_
-%
-s
-"
-%
-(
+{
 initial
+}
+_
+{
 i
 +
 1
-)
+}
+"
         
 if
 test
@@ -2285,18 +2284,16 @@ git
 fetch
 "
 remote
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 remote_branch
+}
+:
+{
 local_branch
-)
+}
+"
 )
         
 self

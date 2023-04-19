@@ -183,27 +183,25 @@ self
 :
         
 return
+f
 "
 <
-%
-s
-http_status
-=
-%
-s
->
-"
-%
-(
+{
 self
 .
 __class__
 .
 __name__
+}
+http_status
+=
+{
 self
 .
 http_status
-)
+}
+>
+"
     
 def
 __str__
@@ -214,23 +212,21 @@ self
         
 message
 =
+f
 "
-%
-s
-(
-%
-s
-)
-"
-%
-(
+{
 self
 .
 status_code
+}
+(
+{
 self
 .
 http_status
+}
 )
+"
         
 if
 self

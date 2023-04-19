@@ -453,6 +453,7 @@ version
     
 url
 =
+f
 '
 https
 :
@@ -472,17 +473,14 @@ sdk
 -
 tools
 -
-%
-s
+{
+os_name
+}
 -
 4333796
 .
 zip
 '
-%
-(
-os_name
-)
     
 logger
 .

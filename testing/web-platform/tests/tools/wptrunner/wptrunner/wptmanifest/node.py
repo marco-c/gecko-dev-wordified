@@ -153,25 +153,23 @@ self
 :
         
 return
+f
 "
 <
-%
-s
-%
-s
->
-"
-%
-(
+{
 self
 .
 __class__
 .
 __name__
+}
+{
 self
 .
 data
-)
+}
+>
+"
     
 def
 __str__
