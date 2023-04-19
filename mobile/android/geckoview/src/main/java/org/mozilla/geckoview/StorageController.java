@@ -2231,6 +2231,7 @@ permission
 *
 /
 AnyThread
+Deprecated
 DeprecationSchedule
 (
 id
@@ -2242,7 +2243,7 @@ string
 "
 version
 =
-93
+106
 )
 public
 void
@@ -2370,6 +2371,7 @@ permission
 *
 /
 AnyThread
+Deprecated
 DeprecationSchedule
 (
 id
@@ -2381,7 +2383,7 @@ string
 "
 version
 =
-93
+106
 )
 public
 void
