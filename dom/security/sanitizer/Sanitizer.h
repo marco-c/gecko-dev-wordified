@@ -621,9 +621,6 @@ nsIGlobalObject
 >
 mGlobal
 ;
-SanitizerConfig
-mOptions
-;
 nsTreeSanitizer
 mTreeSanitizer
 ;

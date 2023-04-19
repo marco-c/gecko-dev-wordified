@@ -10672,6 +10672,16 @@ popupsinherittooltip
 Atom
 (
 "
+portal
+"
+"
+portal
+"
+)
+    
+Atom
+(
+"
 position
 "
 "
@@ -11932,6 +11942,16 @@ selectedindex
 "
 "
 selectedindex
+"
+)
+    
+Atom
+(
+"
+selectmenu
+"
+"
+selectmenu
 "
 )
     
