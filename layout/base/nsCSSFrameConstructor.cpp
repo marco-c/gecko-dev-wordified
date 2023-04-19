@@ -21708,14 +21708,12 @@ rv
 ;
 MOZ_ASSERT
 (
+!
 newAnonymousItems
 .
-Length
+IsEmpty
 (
 )
-=
-=
-2
 )
 ;
 /
