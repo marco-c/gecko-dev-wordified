@@ -2139,13 +2139,15 @@ inDictionaryMode
 {
 MOZ_ASSERT
 (
-!
 obj
 -
 >
-isIndexed
+getDenseInitializedLength
 (
 )
+=
+=
+0
 )
 ;
 MOZ_ASSERT
