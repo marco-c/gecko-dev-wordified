@@ -168,15 +168,6 @@ NativeObject
 .
 h
 "
-#
-include
-"
-vm
-/
-Runtime
-.
-h
-"
 namespace
 mozilla
 :
