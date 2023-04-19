@@ -154,6 +154,7 @@ data
 key
 )
 {
+let
 x
 =
 {
