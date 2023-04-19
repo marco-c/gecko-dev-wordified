@@ -1340,10 +1340,14 @@ attributes
 )
 )
 {
-ThrowArgTypeNotObject
+ThrowTypeError
 (
-NOT_OBJECT_KIND_DESCRIPTOR
+JSMSG_OBJECT_REQUIRED_PROP_DESC
+DecompileArg
+(
+2
 attributes
+)
 )
 ;
 }
