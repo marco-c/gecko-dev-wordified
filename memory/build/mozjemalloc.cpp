@@ -11180,7 +11180,7 @@ true
 ;
 MOZ_JEMALLOC_API
 void
-mozjemalloc_experiment_set_always_stall
+mozjemalloc_experiment_win_set_always_stall
 (
 bool
 aVal
