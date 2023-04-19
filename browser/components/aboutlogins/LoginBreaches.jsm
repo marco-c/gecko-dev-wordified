@@ -195,8 +195,7 @@ jsm
 }
 )
 ;
-this
-.
+const
 LoginBreaches
 =
 {

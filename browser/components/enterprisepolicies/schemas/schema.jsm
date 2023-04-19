@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -71,8 +70,7 @@ schema
 "
 ]
 ;
-this
-.
+const
 schema
 =
 #

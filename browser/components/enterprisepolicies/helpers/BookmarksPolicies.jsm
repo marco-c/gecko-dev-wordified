@@ -497,8 +497,7 @@ PREF_LOGLEVEL
 }
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -507,8 +506,7 @@ BookmarksPolicies
 "
 ]
 ;
-this
-.
+const
 BookmarksPolicies
 =
 {
