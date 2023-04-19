@@ -146,6 +146,8 @@ NameFunctions
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms

@@ -5531,6 +5531,7 @@ recursion
 check
 (
 cx
+stackLimit
 )
 )
 {
@@ -16496,6 +16497,7 @@ if
 NameFunctions
 (
 cx
+stackLimit
 parserAtoms
 (
 )
@@ -16944,6 +16946,7 @@ if
 NameFunctions
 (
 cx
+stackLimit
 parserAtoms
 (
 )
@@ -47807,6 +47810,7 @@ recursion
 check
 (
 cx
+stackLimit
 )
 )
 {
@@ -52035,6 +52039,7 @@ recursion
 check
 (
 cx
+stackLimit
 )
 )
 {
@@ -69128,6 +69133,7 @@ recursion
 check
 (
 cx
+stackLimit
 )
 )
 {

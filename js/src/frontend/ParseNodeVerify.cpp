@@ -168,6 +168,8 @@ ParseNodeVerifier
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 const
 LifoAlloc
 &
@@ -177,6 +179,7 @@ alloc
 Base
 (
 cx
+stackLimit
 )
 alloc_
 (
@@ -334,6 +337,8 @@ CheckParseTree
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 const
 LifoAlloc
 &
@@ -347,6 +352,7 @@ ParseNodeVerifier
 verifier
 (
 cx
+stackLimit
 alloc
 )
 ;

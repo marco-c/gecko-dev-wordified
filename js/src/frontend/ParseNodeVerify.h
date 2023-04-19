@@ -224,6 +224,8 @@ CheckParseTree
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 const
 LifoAlloc
 &
@@ -247,6 +249,8 @@ CheckParseTree
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 const
 LifoAlloc
 &
@@ -274,6 +278,8 @@ CheckParseTree
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 const
 LifoAlloc
 &
