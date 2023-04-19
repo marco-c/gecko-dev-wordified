@@ -234,6 +234,16 @@ NativeState
 const
 override
 ;
+virtual
+bool
+AttributeChangesState
+(
+nsAtom
+*
+aAttribute
+)
+override
+;
 /
 /
 ActionAccessible
