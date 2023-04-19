@@ -1804,6 +1804,7 @@ fh
 .
 write
 (
+                    
 "
 mk_add_options
 MOZ_OBJDIR
@@ -1813,6 +1814,18 @@ s
 "
 %
 real_topobjdir
+.
+replace
+(
+"
+\
+\
+"
+"
+/
+"
+)
+                
 )
             
 mozinfo
