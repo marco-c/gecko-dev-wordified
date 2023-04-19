@@ -215,7 +215,7 @@ Document
 namespace
 dom
 class
-ContentBlocking
+StorageAccessAPIHelper
 final
 {
 public

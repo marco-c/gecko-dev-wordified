@@ -517,15 +517,6 @@ include
 "
 mozilla
 /
-ContentBlocking
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h
