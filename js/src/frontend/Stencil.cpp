@@ -13897,6 +13897,12 @@ in
 most
 cases
 .
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 CompilationGCOutput
@@ -13917,7 +13923,8 @@ get
 .
 ensureReservedWithBaseIndex
 (
-cx
+&
+ec
 range
 .
 start
@@ -14519,6 +14526,12 @@ the
 gcOutput
 vectors
 .
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 !
@@ -14526,7 +14539,8 @@ gcOutput
 .
 ensureReserved
 (
-cx
+&
+ec
 stencil
 .
 scriptData

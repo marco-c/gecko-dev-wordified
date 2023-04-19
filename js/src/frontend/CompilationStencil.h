@@ -10389,9 +10389,9 @@ nodiscard
 bool
 ensureReserved
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 size_t
 scriptDataLength
 size_t
@@ -10411,7 +10411,7 @@ scriptDataLength
 {
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -10431,7 +10431,7 @@ scopeDataLength
 {
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -10508,9 +10508,9 @@ nodiscard
 bool
 ensureReservedWithBaseIndex
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 ScriptIndex
 scriptStart
 ScriptIndex
@@ -10538,7 +10538,7 @@ scopeStart
 return
 ensureReserved
 (
-cx
+ec
 scriptLimit
 -
 scriptStart
