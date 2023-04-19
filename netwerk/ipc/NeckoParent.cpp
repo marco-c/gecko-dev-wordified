@@ -5298,6 +5298,13 @@ RecvGetPageThumbStream
 nsIURI
 *
 aURI
+const
+Maybe
+<
+LoadInfoArgs
+>
+&
+aLoadInfoArgs
 GetPageThumbStreamResolver
 &
 &
