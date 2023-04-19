@@ -11894,6 +11894,10 @@ mAnimation
 =
 aAnimation
 ;
+UpdateNormalizedTiming
+(
+)
+;
 /
 /
 The
