@@ -170,6 +170,17 @@ include
 "
 mozilla
 /
+dom
+/
+DocumentInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
