@@ -7917,7 +7917,7 @@ tabmanager
 .
 enabled
 "
-false
+true
 )
 ;
 /
