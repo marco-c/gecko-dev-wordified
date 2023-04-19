@@ -553,12 +553,6 @@ password
 date
 "
 "
-month
-"
-"
-week
-"
-"
 time
 "
 "
