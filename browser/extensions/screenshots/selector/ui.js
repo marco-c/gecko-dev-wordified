@@ -583,8 +583,7 @@ max
 width
 "
 "
-100
-%
+none
 "
 "
 important
@@ -605,8 +604,7 @@ max
 height
 "
 "
-100
-%
+none
 "
 "
 important
@@ -1697,8 +1695,7 @@ max
 width
 "
 "
-100
-%
+none
 "
 "
 important
@@ -1716,11 +1713,10 @@ setProperty
 "
 max
 -
-width
+height
 "
 "
-100
-%
+none
 "
 "
 important
@@ -2699,8 +2695,7 @@ max
 width
 "
 "
-100
-%
+none
 "
 "
 important
@@ -2718,11 +2713,10 @@ setProperty
 "
 max
 -
-width
+height
 "
 "
-100
-%
+none
 "
 "
 important
