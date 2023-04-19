@@ -38,7 +38,7 @@ worker_wrapper
 .
 js
 .
-var
+let
 client
 ;
 function
@@ -435,7 +435,7 @@ getStorageManager
 )
 ;
 }
-var
+let
 completeInstall
 ;
 addEventListener

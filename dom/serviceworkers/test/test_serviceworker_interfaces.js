@@ -217,7 +217,7 @@ JavaScript
 Engine
 peer
 !
-var
+let
 wasmGlobalEntry
 =
 {
@@ -241,7 +241,7 @@ wasmIsSupportedByHardware
 )
 }
 ;
-var
+let
 wasmGlobalInterfaces
 =
 [
@@ -379,7 +379,7 @@ JavaScript
 Engine
 peer
 !
-var
+let
 ecmaGlobals
 =
 [
@@ -574,7 +574,7 @@ a
 DOM
 peer
 !
-var
+let
 interfaceNamesInGlobalScope
 =
 [

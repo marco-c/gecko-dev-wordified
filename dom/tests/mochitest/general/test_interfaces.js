@@ -464,7 +464,7 @@ JavaScript
 Engine
 peer
 !
-var
+let
 wasmGlobalEntry
 =
 {
@@ -492,7 +492,7 @@ wasmIsSupportedByHardware
 )
 }
 ;
-var
+let
 wasmGlobalInterfaces
 =
 [
@@ -630,7 +630,7 @@ JavaScript
 Engine
 peer
 !
-var
+let
 ecmaGlobals
 =
 [
@@ -1228,7 +1228,7 @@ your
 /
 interface
 .
-var
+let
 legacyMozPrefixedInterfaces
 =
 [
@@ -1303,7 +1303,7 @@ r
 #
 webidl
 )
-var
+let
 interfaceNamesInGlobalScope
 =
 [
