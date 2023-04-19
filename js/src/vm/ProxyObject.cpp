@@ -1448,7 +1448,11 @@ in
 proxies
 are
 not
-GCPtrValues
+GCPtr
+<
+Value
+>
+s
 so
 do
 a
@@ -1469,7 +1473,10 @@ barrier
 *
 reinterpret_cast
 <
-GCPtrValue
+GCPtr
+<
+Value
+>
 *
 >
 (

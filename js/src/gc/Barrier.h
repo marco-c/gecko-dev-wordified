@@ -9445,14 +9445,6 @@ JitCode
 namespace
 jit
 using
-GCPtrValue
-=
-GCPtr
-<
-Value
->
-;
-using
 ImmutablePropertyNamePtr
 =
 ImmutableTenuredPtr

@@ -359,7 +359,13 @@ obj
 )
 )
 ;
-GCPtrValue
+GCPtr
+<
+JS
+:
+:
+Value
+>
 heapValue
 (
 JS

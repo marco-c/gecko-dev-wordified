@@ -903,7 +903,10 @@ arrayProtoShape_
 uint32_t
 arrayProtoIteratorSlot_
 ;
-GCPtrValue
+GCPtr
+<
+Value
+>
 canonicalIteratorFunc_
 ;
 /
@@ -937,7 +940,10 @@ arrayIteratorProtoShape_
 uint32_t
 arrayIteratorProtoNextSlot_
 ;
-GCPtrValue
+GCPtr
+<
+Value
+>
 canonicalNextFunc_
 ;
 /
