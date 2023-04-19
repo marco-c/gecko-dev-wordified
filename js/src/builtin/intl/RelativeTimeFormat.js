@@ -380,9 +380,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 internalProps
 =
 resolveRelativeTimeFormatInternals
@@ -702,6 +704,7 @@ options
 =
 undefined
 )
+{
 options
 =
 std_Object_create
@@ -709,7 +712,9 @@ std_Object_create
 null
 )
 ;
+}
 else
+{
 options
 =
 ToObject
@@ -717,6 +722,7 @@ ToObject
 options
 )
 ;
+}
 /
 /
 Step
