@@ -178,7 +178,7 @@ include
 "
 libavutil
 /
-common
+macros
 .
 h
 "

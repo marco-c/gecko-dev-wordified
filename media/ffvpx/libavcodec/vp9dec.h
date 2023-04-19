@@ -637,6 +637,9 @@ atomic_int
 *
 entries
 ;
+unsigned
+pthread_init_cnt
+;
 #
 endif
 uint8_t

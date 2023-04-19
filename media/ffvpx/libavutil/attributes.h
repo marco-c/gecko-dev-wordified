@@ -624,6 +624,12 @@ AV_GCC_VERSION_AT_LEAST
 4
 6
 )
+|
+|
+defined
+(
+__clang__
+)
 #
 define
 AV_NOWARN_DEPRECATED

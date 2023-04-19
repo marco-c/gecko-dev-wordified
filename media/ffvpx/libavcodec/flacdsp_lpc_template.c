@@ -165,7 +165,7 @@ include
 "
 libavutil
 /
-avutil
+common
 .
 h
 "
