@@ -2954,10 +2954,6 @@ aBlobImpls
 [
 i
 ]
-mParent
--
->
-mContentParent
 ipcBlobs
 [
 i

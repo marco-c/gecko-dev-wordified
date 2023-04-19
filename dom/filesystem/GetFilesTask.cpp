@@ -1152,12 +1152,6 @@ mTargetBlobImplArray
 [
 i
 ]
-mRequestParent
--
->
-Manager
-(
-)
 ipcBlob
 )
 ;

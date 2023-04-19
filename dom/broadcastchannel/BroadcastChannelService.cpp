@@ -1074,12 +1074,6 @@ blobImpls
 [
 i
 ]
-parent
--
->
-Manager
-(
-)
 newBlobImpls
 [
 i
