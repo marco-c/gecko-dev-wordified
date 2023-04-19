@@ -537,14 +537,7 @@ ty_generics
 )
 -
 >
-(
-#
-(
-#
-into_types
-)
-*
-)
+Self
 {
 (
 #

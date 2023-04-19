@@ -259,10 +259,6 @@ extern
 crate
 core
 ;
-extern
-crate
-derive_more
-;
 #
 [
 macro_use
