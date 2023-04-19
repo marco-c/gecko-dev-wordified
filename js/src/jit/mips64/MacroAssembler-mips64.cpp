@@ -6710,6 +6710,15 @@ fakeReturnAddr
 )
 )
 ;
+asMasm
+(
+)
+.
+Push
+(
+FramePointer
+)
+;
 return
 true
 ;
