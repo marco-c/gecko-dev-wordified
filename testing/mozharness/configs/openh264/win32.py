@@ -600,6 +600,17 @@ _VSPATH
 =
 VSPATH
 )
+        
+"
+CFLAGS
+"
+:
+(
+"
+-
+m32
+"
+)
     
 }
 }
