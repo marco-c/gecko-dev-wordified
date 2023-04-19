@@ -1462,6 +1462,8 @@ generateExceptionTailStub
 masm
 &
 profilerExitTail
+&
+bailoutTail
 )
 ;
 Linker

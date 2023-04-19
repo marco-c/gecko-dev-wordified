@@ -2460,6 +2460,8 @@ handleFailureWithHandlerTail
 (
 Label
 *
+Label
+*
 )
 {
 MOZ_CRASH
