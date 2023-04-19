@@ -8787,8 +8787,8 @@ mErrorValue
 ;
 namespace
 dom
-{
-namespace
+:
+:
 quota
 {
 extern
@@ -11220,12 +11220,10 @@ firstInitializationAttempt
 /
 /
 namespace
-quota
-}
-/
-/
-namespace
 dom
+:
+:
+quota
 }
 /
 /

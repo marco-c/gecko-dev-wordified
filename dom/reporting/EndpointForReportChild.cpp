@@ -127,8 +127,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 EndpointForReportChild
@@ -223,9 +223,7 @@ IPC_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

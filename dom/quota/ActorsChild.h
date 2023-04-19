@@ -231,8 +231,8 @@ namespace
 ipc
 namespace
 dom
-{
-namespace
+:
+:
 quota
 {
 class
@@ -697,12 +697,10 @@ override
 /
 /
 namespace
-quota
-}
-/
-/
-namespace
 dom
+:
+:
+quota
 }
 /
 /
