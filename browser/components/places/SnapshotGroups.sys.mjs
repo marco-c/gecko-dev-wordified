@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SnapshotGroups
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -612,6 +603,7 @@ group
 .
 *
 /
+export
 const
 SnapshotGroups
 =

@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-InteractionsParent
-"
-]
-;
 const
 lazy
 =
@@ -118,6 +109,7 @@ object
 .
 *
 /
+export
 class
 InteractionsParent
 extends

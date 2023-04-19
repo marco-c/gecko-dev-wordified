@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BookmarkJSONUtils
-"
-]
-;
 const
 {
 PlacesUtils
@@ -356,6 +347,7 @@ g
 )
 ;
 }
+export
 var
 BookmarkJSONUtils
 =

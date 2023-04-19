@@ -57,15 +57,6 @@ MPL
 *
 /
 const
-EXPORTED_SYMBOLS
-=
-[
-"
-PinnedGroupBuilder
-"
-]
-;
-const
 {
 XPCOMUtils
 }
@@ -150,6 +141,7 @@ snapshots
 .
 *
 /
+export
 const
 PinnedGroupBuilder
 =

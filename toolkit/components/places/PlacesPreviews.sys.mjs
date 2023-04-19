@@ -61,18 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PlacesPreviews
-"
-"
-PlacesPreviewsHelperService
-"
-]
-;
 const
 {
 EventEmitter
@@ -1330,6 +1318,7 @@ folder
 .
 *
 /
+export
 const
 PlacesPreviews
 =
@@ -2953,6 +2942,7 @@ implementation
 .
 *
 /
+export
 function
 PlacesPreviewsHelperService
 (

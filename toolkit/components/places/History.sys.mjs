@@ -564,15 +564,6 @@ see
 PlacesObservers
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-History
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -874,6 +865,7 @@ ex
 }
 }
 }
+export
 var
 History
 =

@@ -57,15 +57,6 @@ MPL
 *
 /
 const
-EXPORTED_SYMBOLS
-=
-[
-"
-DomainGroupBuilder
-"
-]
-;
-const
 {
 XPCOMUtils
 }
@@ -149,6 +140,7 @@ domains
 .
 *
 /
+export
 const
 DomainGroupBuilder
 =

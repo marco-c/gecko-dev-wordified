@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-CommonNames
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -3044,6 +3035,7 @@ stackoverflow
 .
 *
 /
+export
 class
 CommonNames
 {
