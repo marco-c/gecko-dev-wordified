@@ -445,7 +445,7 @@ purged
 .
 Services
 .
-cookies
+cookiemgr
 .
 removeAll
 (
@@ -588,7 +588,7 @@ purged
 .
 Services
 .
-cookies
+cookiemgr
 .
 removeAll
 (
@@ -688,7 +688,7 @@ purged
 .
 Services
 .
-cookies
+cookiemgr
 .
 removeAll
 (
@@ -776,7 +776,7 @@ satisfied
 .
 Services
 .
-cookies
+cookiemgr
 .
 removeAll
 (
@@ -836,7 +836,7 @@ satisfied
 .
 Services
 .
-cookies
+cookiemgr
 .
 removeAll
 (
@@ -936,7 +936,7 @@ cookies
 .
 Services
 .
-cookies
+cookiemgr
 .
 removeAll
 (
@@ -1142,7 +1142,7 @@ tests
 ;
 Services
 .
-cookies
+cookiemgr
 .
 add
 (
@@ -1288,7 +1288,7 @@ cookies
 =
 Services
 .
-cookies
+cookiemgr
 .
 getCookiesFromHost
 (
@@ -1414,7 +1414,7 @@ cookie
 of
 Services
 .
-cookies
+cookiemgr
 .
 cookies
 )

@@ -233,7 +233,7 @@ cookies
 =
 Services
 .
-cookies
+cookiemgr
 .
 cookies
 ;
@@ -326,7 +326,7 @@ equal
 (
 Services
 .
-cookies
+cookiesvc
 .
 getCookieStringFromHttp
 (
@@ -354,7 +354,7 @@ hai
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
@@ -399,7 +399,7 @@ function
 {
 Services
 .
-cookies
+cookiemgr
 .
 removeAll
 (
@@ -419,7 +419,7 @@ function
 {
 Services
 .
-cookies
+cookiemgr
 .
 cookies
 ;
@@ -437,7 +437,7 @@ function
 {
 Services
 .
-cookies
+cookiemgr
 .
 add
 (
@@ -486,7 +486,7 @@ function
 {
 Services
 .
-cookies
+cookiemgr
 .
 remove
 (
@@ -518,7 +518,7 @@ function
 {
 Services
 .
-cookies
+cookiemgr
 .
 cookieExists
 (
@@ -629,7 +629,7 @@ ok
 (
 Services
 .
-cookies
+cookiemgr
 .
 cookieExists
 (
