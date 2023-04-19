@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AboutReaderParent
 :
@@ -315,7 +321,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 fxAccounts
 "
@@ -450,7 +456,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 COLORWAY_IDS
 "
@@ -461,6 +467,8 @@ COLORWAY_IDS
 [
 .
 .
+.
+lazy
 .
 BuiltInThemes
 .
@@ -491,6 +499,8 @@ org
 &
 &
 !
+lazy
+.
 BuiltInThemes
 .
 themeIsExpired
@@ -542,7 +552,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -1284,6 +1294,8 @@ init
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1380,6 +1392,8 @@ onAreaReset
 "
 ]
 ;
+lazy
+.
 CustomizableUI
 .
 addListener
@@ -1568,6 +1582,8 @@ browser
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1594,6 +1610,8 @@ object
 "
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1637,6 +1655,8 @@ string
 action
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1672,6 +1692,8 @@ object
 "
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1724,6 +1746,8 @@ action
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1797,6 +1821,8 @@ target
 node
 )
 {
+lazy
+.
 log
 .
 error
@@ -1860,6 +1886,8 @@ effect
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -1920,6 +1948,8 @@ target
 node
 )
 {
+lazy
+.
 log
 .
 error
@@ -2142,6 +2172,8 @@ length
 MAX_BUTTONS
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2263,6 +2295,8 @@ infoOptions
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -2413,6 +2447,8 @@ string
 "
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2467,6 +2503,8 @@ string
 "
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2531,6 +2569,8 @@ undefined
 "
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2584,6 +2624,8 @@ data
 .
 email
 ?
+lazy
+.
 FxAccounts
 .
 config
@@ -2603,6 +2645,8 @@ uitour
 "
 )
 :
+lazy
+.
 FxAccounts
 .
 config
@@ -2662,6 +2706,8 @@ extraURLParams
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2723,6 +2769,8 @@ showConnectAnotherDevice
 "
 :
 {
+lazy
+.
 FxAccounts
 .
 config
@@ -2779,6 +2827,8 @@ extraURLParams
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2851,6 +2901,8 @@ window
 .
 if
 (
+lazy
+.
 ResetProfile
 .
 resetSupported
@@ -2858,6 +2910,8 @@ resetSupported
 )
 )
 {
+lazy
+.
 ResetProfile
 .
 openConfirmationDialog
@@ -2920,6 +2974,8 @@ callbackID
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -3317,6 +3373,8 @@ forceShowReaderIcon
 "
 :
 {
+lazy
+.
 AboutReaderParent
 .
 forceShowReaderIcon
@@ -3356,6 +3414,8 @@ target
 =
 >
 {
+lazy
+.
 AboutReaderParent
 .
 toggleReaderMode
@@ -3669,6 +3729,8 @@ handleEvent
 aEvent
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3820,6 +3882,8 @@ aTopic
 aData
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4104,6 +4168,8 @@ string
 "
 )
 {
+lazy
+.
 log
 .
 warn
@@ -4153,6 +4219,8 @@ object
 "
 )
 {
+lazy
+.
 log
 .
 warn
@@ -4180,6 +4248,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 warn
@@ -4303,6 +4373,8 @@ FLOW_ID_LENGTH
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -4470,6 +4542,8 @@ name
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -4537,6 +4611,8 @@ aTourPageClosing
 false
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4848,6 +4924,8 @@ teardownTourForWindow
 aWindow
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4963,6 +5041,8 @@ scheme
 )
 )
 {
+lazy
+.
 log
 .
 error
@@ -5062,6 +5142,8 @@ callbackID
 aCallbackID
 }
 ;
+lazy
+.
 log
 .
 debug
@@ -5168,6 +5250,8 @@ aSticky
 false
 )
 {
+lazy
+.
 log
 .
 debug
@@ -5194,6 +5278,8 @@ string
 aTargetName
 )
 {
+lazy
+.
 log
 .
 warn
@@ -5240,6 +5326,8 @@ if
 targetObject
 )
 {
+lazy
+.
 log
 .
 warn
@@ -5341,6 +5429,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 warn
@@ -5428,6 +5518,8 @@ allowAdd
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -5498,6 +5590,8 @@ widgetName
 )
 |
 |
+lazy
+.
 PanelMultiView
 .
 getViewNode
@@ -5610,6 +5704,8 @@ aOptions
 }
 )
 {
+lazy
+.
 log
 .
 debug
@@ -5679,6 +5775,8 @@ aShouldOpen
 panelIsOpen
 )
 {
+lazy
+.
 log
 .
 debug
@@ -5720,6 +5818,8 @@ if
 aShouldOpen
 )
 {
+lazy
+.
 log
 .
 debug
@@ -5827,6 +5927,8 @@ highlight
 /
 info
 annotation
+.
+lazy
 .
 log
 .
@@ -6334,6 +6436,8 @@ mainView
 )
 {
 return
+lazy
+.
 CustomizableUI
 .
 getWidget
@@ -6874,6 +6978,8 @@ open
 "
 )
 {
+lazy
+.
 log
 .
 debug
@@ -7056,6 +7162,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 warn
@@ -7938,6 +8046,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 warn
@@ -8274,6 +8384,8 @@ aOptions
 }
 )
 {
+lazy
+.
 log
 .
 debug
@@ -8627,6 +8739,8 @@ if
 button
 )
 {
+lazy
+.
 log
 .
 error
@@ -8825,6 +8939,8 @@ aWindow
 aMenuName
 )
 {
+lazy
+.
 log
 .
 debug
@@ -9322,6 +9438,8 @@ win
 .
 catch
 (
+lazy
+.
 log
 .
 error
@@ -9563,6 +9681,8 @@ sendPageCallback
 (
 aBrowser
 aCallbackID
+lazy
+.
 COLORWAY_IDS
 )
 ;
@@ -9843,6 +9963,8 @@ sendPageCallback
 (
 aBrowser
 aCallbackID
+lazy
+.
 ResetProfile
 .
 resetSupported
@@ -9854,6 +9976,8 @@ break
 ;
 default
 :
+lazy
+.
 log
 .
 error
@@ -9976,6 +10100,8 @@ colorway
 .
 if
 (
+lazy
+.
 COLORWAY_IDS
 .
 includes
@@ -10011,6 +10137,8 @@ _prevTheme
 =
 (
 await
+lazy
+.
 AddonManager
 .
 getAddonsByTypes
@@ -10037,6 +10165,8 @@ isActive
 toEnable
 =
 await
+lazy
+.
 AddonManager
 .
 getAddonByID
@@ -10056,6 +10186,8 @@ break
 ;
 default
 :
+lazy
+.
 log
 .
 error
@@ -10137,6 +10269,8 @@ setup
 !
 (
 await
+lazy
+.
 fxAccounts
 .
 getSignedInUser
@@ -10328,6 +10462,8 @@ result
 accountStateOK
 =
 await
+lazy
+.
 fxAccounts
 .
 hasLocalSession
@@ -10354,6 +10490,8 @@ err
 =
 >
 {
+lazy
+.
 log
 .
 error
@@ -10443,6 +10581,8 @@ setup
 !
 (
 await
+lazy
+.
 fxAccounts
 .
 getSignedInUser
@@ -10492,6 +10632,8 @@ result
 let
 devices
 =
+lazy
+.
 fxAccounts
 .
 device
@@ -10535,6 +10677,8 @@ devices
 try
 {
 await
+lazy
+.
 fxAccounts
 .
 device
@@ -10549,6 +10693,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 warn
@@ -10566,6 +10712,8 @@ ex
 }
 devices
 =
+lazy
+.
 fxAccounts
 .
 device
@@ -10724,6 +10872,8 @@ let
 attachedClients
 =
 await
+lazy
+.
 fxAccounts
 .
 listAttachedOAuthClients
@@ -10804,6 +10954,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 warn
@@ -10841,6 +10993,8 @@ err
 =
 >
 {
+lazy
+.
 log
 .
 error
@@ -10993,6 +11147,8 @@ appinfo
 .
 defaultUpdateChannel
 =
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel
@@ -11174,6 +11330,8 @@ let
 profileAge
 =
 await
+lazy
+.
 ProfileAge
 (
 )
@@ -11276,6 +11434,8 @@ err
 =
 >
 {
+lazy
+.
 log
 .
 error
@@ -11333,6 +11493,8 @@ if
 data
 )
 {
+lazy
+.
 log
 .
 debug
@@ -11483,6 +11645,8 @@ err
 =
 >
 {
+lazy
+.
 log
 .
 error
@@ -11522,6 +11686,8 @@ aTarget
 node
 )
 {
+lazy
+.
 log
 .
 error
@@ -11553,6 +11719,8 @@ aTarget
 allowAdd
 )
 {
+lazy
+.
 log
 .
 error
@@ -11582,6 +11750,8 @@ aTarget
 widgetName
 )
 {
+lazy
+.
 log
 .
 error
@@ -11607,6 +11777,8 @@ aTarget
 return
 ;
 }
+lazy
+.
 CustomizableUI
 .
 addWidgetToArea
@@ -11614,11 +11786,15 @@ addWidgetToArea
 aTarget
 .
 widgetName
+lazy
+.
 CustomizableUI
 .
 AREA_NAVBAR
 )
 ;
+lazy
+.
 BrowserUsageTelemetry
 .
 recordWidgetChange
@@ -11626,6 +11802,8 @@ recordWidgetChange
 aTarget
 .
 widgetName
+lazy
+.
 CustomizableUI
 .
 AREA_NAVBAR
@@ -12129,6 +12307,8 @@ value
 )
 {
 return
+lazy
+.
 TelemetryController
 .
 submitExternalPing
