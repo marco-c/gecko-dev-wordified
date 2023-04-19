@@ -6317,9 +6317,9 @@ ParserData
 *
 NewEmptyBindingData
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc
@@ -6370,7 +6370,7 @@ bindings
 {
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 }
@@ -6385,9 +6385,9 @@ ParserData
 *
 NewEmptyGlobalScopeData
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc
@@ -6401,7 +6401,7 @@ NewEmptyBindingData
 GlobalScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -6414,9 +6414,9 @@ ParserData
 *
 NewEmptyLexicalScopeData
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc
@@ -6430,7 +6430,7 @@ NewEmptyBindingData
 LexicalScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -6443,9 +6443,9 @@ ParserData
 *
 NewEmptyFunctionScopeData
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc
@@ -6459,7 +6459,7 @@ NewEmptyBindingData
 FunctionScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -6895,6 +6895,9 @@ NewGlobalScopeData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParseContext
 :
 :
@@ -7170,7 +7173,7 @@ NewEmptyBindingData
 GlobalScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -7252,6 +7255,7 @@ return
 NewGlobalScopeData
 (
 cx_
+ec_
 scope
 stencilAlloc
 (
@@ -7273,6 +7277,9 @@ NewModuleScopeData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParseContext
 :
 :
@@ -7572,7 +7579,7 @@ NewEmptyBindingData
 ModuleScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -7660,6 +7667,7 @@ return
 NewModuleScopeData
 (
 cx_
+ec_
 scope
 stencilAlloc
 (
@@ -7681,6 +7689,9 @@ NewEvalScopeData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParseContext
 :
 :
@@ -7878,7 +7889,7 @@ NewEmptyBindingData
 EvalScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -7935,6 +7946,7 @@ return
 NewEvalScopeData
 (
 cx_
+ec_
 scope
 stencilAlloc
 (
@@ -7956,6 +7968,9 @@ NewFunctionScopeData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParseContext
 :
 :
@@ -8539,7 +8554,7 @@ NewEmptyBindingData
 FunctionScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -8776,6 +8791,7 @@ return
 NewFunctionScopeData
 (
 cx_
+ec_
 scope
 hasParameterExprs
 stencilAlloc
@@ -8792,9 +8808,9 @@ ParserData
 *
 NewEmptyVarScopeData
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc
@@ -8808,7 +8824,7 @@ NewEmptyBindingData
 VarScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -8827,6 +8843,9 @@ NewVarScopeData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParseContext
 :
 :
@@ -9009,7 +9028,7 @@ NewEmptyBindingData
 VarScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -9145,6 +9164,7 @@ return
 NewVarScopeData
 (
 cx_
+ec_
 scope
 stencilAlloc
 (
@@ -9166,6 +9186,9 @@ NewLexicalScopeData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParseContext
 :
 :
@@ -9378,7 +9401,7 @@ NewEmptyBindingData
 LexicalScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -9603,6 +9626,7 @@ return
 NewLexicalScopeData
 (
 cx_
+ec_
 scope
 stencilAlloc
 (
@@ -9624,6 +9648,9 @@ NewClassBodyScopeData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParseContext
 :
 :
@@ -9918,7 +9945,7 @@ NewEmptyBindingData
 ClassBodyScope
 >
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -10162,6 +10189,7 @@ return
 NewClassBodyScopeData
 (
 cx_
+ec_
 scope
 stencilAlloc
 (

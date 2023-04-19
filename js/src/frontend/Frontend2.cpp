@@ -1083,6 +1083,9 @@ ConvertScopeStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 SmooshResult
 &
@@ -1210,7 +1213,7 @@ data
 =
 NewEmptyGlobalScopeData
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -1332,7 +1335,7 @@ data
 =
 NewEmptyVarScopeData
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -1478,7 +1481,7 @@ data
 =
 NewEmptyLexicalScopeData
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -1632,7 +1635,7 @@ data
 =
 NewEmptyFunctionScopeData
 (
-cx
+ec
 alloc
 numBindings
 )
@@ -3888,6 +3891,7 @@ if
 ConvertScopeStencil
 (
 cx
+ec
 result
 allAtoms
 compilationState
