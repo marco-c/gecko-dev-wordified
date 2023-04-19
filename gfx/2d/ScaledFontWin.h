@@ -218,6 +218,17 @@ return
 true
 ;
 }
+bool
+UseSubpixelPosition
+(
+)
+const
+override
+{
+return
+false
+;
+}
 protected
 :
 cairo_font_face_t

@@ -378,6 +378,17 @@ return
 mHasColorGlyphs
 ;
 }
+bool
+UseSubpixelPosition
+(
+)
+const
+override
+{
+return
+true
+;
+}
 DeviceColor
 FontSmoothingBackgroundColor
 (

@@ -8075,6 +8075,17 @@ return
 false
 ;
 }
+virtual
+bool
+UseSubpixelPosition
+(
+)
+const
+{
+return
+false
+;
+}
 void
 AddUserData
 (
