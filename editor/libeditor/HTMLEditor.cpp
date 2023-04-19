@@ -22322,14 +22322,14 @@ index
 /
 Therefore
 if
-SetInlinePropertyInternal
+SetInlinePropertyAsSubAction
 (
 )
 changed
 the
+/
+/
 attributes
-/
-/
 this
 may
 fail
@@ -22341,10 +22341,10 @@ attributes
 Perhaps
 we
 need
+/
+/
 to
 cache
-/
-/
 all
 attributes
 first
@@ -22422,7 +22422,7 @@ value
 nsresult
 rv
 =
-SetInlinePropertyInternal
+SetInlinePropertyAsSubAction
 (
 *
 nsGkAtoms
@@ -22447,7 +22447,7 @@ rv
 NS_WARNING
 (
 "
-SetInlinePropertyInternal
+SetInlinePropertyAsSubAction
 (
 nsGkAtoms
 :
@@ -37896,7 +37896,7 @@ This
 is
 different
 from
-SetInlinePropertyInternal
+SetInlinePropertyAsSubAction
 (
 )
 .
@@ -37904,7 +37904,7 @@ It
 uses
 /
 /
-AutoSelectionRangeArray
+AutoRangeArray
 to
 store
 all
