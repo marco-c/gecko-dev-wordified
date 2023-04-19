@@ -81,6 +81,12 @@ strict
 "
 ;
 const
+lazy
+=
+{
+}
+;
+const
 {
 Services
 }
@@ -108,7 +114,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -127,8 +133,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -143,8 +148,7 @@ Immutable
 for
 export
 .
-this
-.
+var
 AppConstants
 =
 Object
@@ -802,6 +806,8 @@ MOZ_UNSIGNED_APP_SCOPE
 result
 |
 =
+lazy
+.
 AddonManager
 .
 SCOPE_APPLICATION
@@ -814,6 +820,8 @@ MOZ_UNSIGNED_SYSTEM_SCOPE
 result
 |
 =
+lazy
+.
 AddonManager
 .
 SCOPE_SYSTEM
