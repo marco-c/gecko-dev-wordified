@@ -504,10 +504,6 @@ ExecutableAllocator
 :
 makeExecutableAndFlushICache
 (
-FlushICacheSpec
-:
-:
-LocalThreadOnly
 addr_
 size_
 )

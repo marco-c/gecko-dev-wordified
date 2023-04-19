@@ -3166,8 +3166,6 @@ void
 code
 size_t
 size
-bool
-codeIsThreadLocal
 )
 {
 #

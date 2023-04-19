@@ -569,10 +569,6 @@ ExecutableAllocator
 :
 makeExecutableAndFlushICache
 (
-FlushICacheSpec
-:
-:
-LocalThreadOnly
 code
 -
 >
