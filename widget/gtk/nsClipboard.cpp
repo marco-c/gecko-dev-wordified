@@ -317,6 +317,13 @@ h
 #
 include
 "
+GRefPtr
+.
+h
+"
+#
+include
+"
 WidgetUtilsGtk
 .
 h
@@ -338,6 +345,12 @@ gtk
 h
 >
 #
+if
+defined
+(
+MOZ_X11
+)
+#
 include
 <
 gtk
@@ -346,6 +359,8 @@ gtkx
 .
 h
 >
+#
+endif
 #
 include
 "
