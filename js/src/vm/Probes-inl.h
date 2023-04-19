@@ -138,6 +138,8 @@ include
 vm
 /
 JSScript
+-
+inl
 .
 h
 "

@@ -167,6 +167,15 @@ TraceKind
 .
 h
 "
+#
+include
+"
+js
+/
+Utility
+.
+h
+"
 class
 JSDependentString
 ;

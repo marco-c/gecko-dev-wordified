@@ -128,6 +128,15 @@ gc_PublicIterators_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -177,6 +186,9 @@ Runtime
 .
 h
 "
+struct
+JSRuntime
+;
 namespace
 JS
 {

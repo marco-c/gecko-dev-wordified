@@ -299,6 +299,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+JSContext
+-
+inl
+.
+h
+"
 using
 namespace
 js

@@ -142,6 +142,15 @@ GlobalObject
 .
 h
 "
+#
+include
+"
+vm
+/
+JSContext
+.
+h
+"
 using
 namespace
 js

@@ -153,7 +153,7 @@ include
 "
 gc
 /
-AllocKind
+Allocator
 .
 h
 "

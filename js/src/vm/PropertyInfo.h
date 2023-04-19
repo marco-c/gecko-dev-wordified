@@ -152,6 +152,15 @@ h
 #
 include
 "
+gc
+/
+Tracer
+.
+h
+"
+#
+include
+"
 js
 /
 GCVector

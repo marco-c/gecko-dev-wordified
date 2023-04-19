@@ -127,15 +127,6 @@ stdint
 .
 h
 >
-#
-include
-"
-js
-/
-TypeDecls
-.
-h
-"
 /
 /
 clang

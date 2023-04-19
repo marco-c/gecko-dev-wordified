@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+ResultVariant
+.
+h
+"
+#
+include
+"
 frontend
 /
 Parser

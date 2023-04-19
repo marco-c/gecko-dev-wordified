@@ -163,6 +163,15 @@ include
 "
 js
 /
+SliceBudget
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
@@ -181,9 +190,6 @@ js
 {
 class
 Nursery
-;
-class
-SliceBudget
 ;
 class
 TenuringTracer

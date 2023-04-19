@@ -133,16 +133,13 @@ include
 "
 vm
 /
-JSObject
+Stack
 .
 h
 "
 namespace
 js
 {
-class
-InterpreterFrame
-;
 namespace
 probes
 {

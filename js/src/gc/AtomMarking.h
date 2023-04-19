@@ -124,9 +124,9 @@ h
 #
 include
 "
-js
+ds
 /
-Vector
+Bitmap
 .
 h
 "
@@ -144,9 +144,6 @@ js
 {
 class
 AutoLockGC
-;
-class
-DenseBitmap
 ;
 namespace
 gc

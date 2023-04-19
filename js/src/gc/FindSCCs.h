@@ -139,6 +139,16 @@ std
 min
 #
 include
+<
+stdint
+.
+h
+>
+/
+/
+uintptr_t
+#
+include
 "
 js
 /

@@ -117,6 +117,15 @@ vm_BooleanObject_h
 #
 include
 "
+builtin
+/
+Boolean
+.
+h
+"
+#
+include
+"
 vm
 /
 NativeObject

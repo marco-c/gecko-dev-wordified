@@ -117,7 +117,7 @@ gc_Allocator_h
 #
 include
 <
-stddef
+stdint
 .
 h
 >
@@ -135,10 +135,13 @@ include
 "
 js
 /
-TypeDecls
+RootingAPI
 .
 h
 "
+class
+JSFatInlineString
+;
 namespace
 js
 {
@@ -147,9 +150,6 @@ gc
 {
 class
 AllocSite
-;
-struct
-Cell
 ;
 }
 /

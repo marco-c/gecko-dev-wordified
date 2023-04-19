@@ -259,15 +259,6 @@ include
 "
 vm
 /
-Compartment
-.
-h
-"
-#
-include
-"
-vm
-/
 Interpreter
 .
 h

@@ -215,6 +215,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 FunctionFlags
 .
 h
@@ -288,7 +297,6 @@ namespace
 JS
 {
 class
-JS_PUBLIC_API
 ReadOnlyCompileOptions
 ;
 struct
@@ -302,9 +310,6 @@ JS
 namespace
 js
 {
-class
-ErrorContext
-;
 namespace
 frontend
 {

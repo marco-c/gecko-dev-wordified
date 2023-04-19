@@ -167,6 +167,15 @@ include
 "
 vm
 /
+JSContext
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 .
 h
@@ -183,9 +192,6 @@ h
 namespace
 js
 {
-class
-InterpreterActivation
-;
 namespace
 frontend
 {

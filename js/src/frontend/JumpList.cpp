@@ -131,6 +131,16 @@ h
 MOZ_ASSERT
 #
 include
+<
+stddef
+.
+h
+>
+/
+/
+ptrdiff_t
+#
+include
 "
 vm
 /
