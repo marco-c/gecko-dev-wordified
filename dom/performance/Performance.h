@@ -901,8 +901,9 @@ const
 nsACString
 &
 aOwner
-uint64_t
-epoch
+const
+double
+aEpoch
 )
 ;
 void

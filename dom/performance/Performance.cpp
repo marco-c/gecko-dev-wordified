@@ -3270,7 +3270,8 @@ const
 nsACString
 &
 aOwner
-uint64_t
+const
+double
 aEpoch
 )
 {
