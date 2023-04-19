@@ -602,6 +602,7 @@ i
 maxPPEM
 )
 >
+=
 ppem
 )
 {
