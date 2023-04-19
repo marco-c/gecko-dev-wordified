@@ -407,7 +407,6 @@ TableSet
 TableSize
 RefFunc
 RefTest
-RttSub
 PreBarrierFiltering
 PostBarrier
 PostBarrierPrecise
@@ -1196,11 +1195,6 @@ extern
 const
 SymbolicAddressSignature
 SASigRefTest
-;
-extern
-const
-SymbolicAddressSignature
-SASigRttSub
 ;
 #
 define
