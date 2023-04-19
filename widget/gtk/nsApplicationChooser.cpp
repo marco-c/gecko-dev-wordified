@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsCExternalHandlerService
 .
 h

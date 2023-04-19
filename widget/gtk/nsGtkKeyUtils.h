@@ -184,6 +184,13 @@ h
 >
 #
 endif
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 class
 nsWindow
 ;
