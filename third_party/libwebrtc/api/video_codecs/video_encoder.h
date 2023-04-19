@@ -2786,7 +2786,6 @@ Release
 /
 Encode
 an
-I420
 image
 (
 as
