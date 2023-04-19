@@ -552,6 +552,7 @@ self
 .
 init_str
 (
+&
 string
 )
 ;
@@ -562,9 +563,10 @@ init_str
 &
 mut
 self
-string
+message
 :
-String
+&
+str
 )
 {
 assert_ne
@@ -580,7 +582,7 @@ let
 length
 =
 if
-string
+message
 .
 len
 (
@@ -607,7 +609,7 @@ capacity
 {
 }
 "
-string
+message
 .
 len
 (
@@ -625,7 +627,7 @@ capacity
 }
 else
 {
-string
+message
 .
 len
 (
@@ -639,7 +641,7 @@ ptr
 :
 copy_nonoverlapping
 (
-string
+message
 .
 as_ptr
 (
@@ -2792,6 +2794,7 @@ error_buf
 .
 init_str
 (
+&
 message
 )
 ;
