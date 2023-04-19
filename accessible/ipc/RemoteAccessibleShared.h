@@ -1031,6 +1031,16 @@ int32_t
 aRow
 )
 ;
+KeyBinding
+AccessKey
+(
+)
+;
+KeyBinding
+KeyboardShortcut
+(
+)
+;
 void
 AtkKeyBinding
 (
