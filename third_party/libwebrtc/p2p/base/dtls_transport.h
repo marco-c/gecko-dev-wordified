@@ -208,17 +208,6 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread_checker
 .
 h
@@ -369,7 +358,6 @@ override
 ;
 private
 :
-RTC_NO_UNIQUE_ADDRESS
 webrtc
 :
 :

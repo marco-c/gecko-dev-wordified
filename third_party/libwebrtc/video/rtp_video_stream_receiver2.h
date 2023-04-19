@@ -427,17 +427,6 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread_annotations
 .
 h
@@ -1491,7 +1480,6 @@ decodability_flag
 ;
 }
 ;
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_task_checker_
 ;
@@ -1806,7 +1794,6 @@ UlpfecReceiver
 >
 ulpfec_receiver_
 ;
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_task_checker_
 ;

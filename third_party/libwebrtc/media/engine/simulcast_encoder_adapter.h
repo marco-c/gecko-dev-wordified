@@ -212,17 +212,6 @@ rtc_base
 /
 system
 /
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-system
-/
 rtc_export
 .
 h
@@ -781,7 +770,6 @@ the
 encoder
 interface
 .
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 encoder_queue_
 ;

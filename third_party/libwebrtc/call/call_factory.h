@@ -128,17 +128,6 @@ sequence_checker
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-system
-/
-no_unique_address
-.
-h
-"
 namespace
 webrtc
 {
@@ -174,7 +163,6 @@ config
 )
 override
 ;
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 call_thread_
 ;

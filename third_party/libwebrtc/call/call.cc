@@ -488,17 +488,6 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 task_utils
 /
 pending_task_safety_flag
@@ -3509,7 +3498,6 @@ kOtherRefsRemained
 }
 private
 :
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
 ;
