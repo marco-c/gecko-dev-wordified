@@ -494,6 +494,7 @@ networkMessageUpdate
 networkMessageActiveTabId
 dispatch
 open
+disabled
 }
 )
 {
@@ -1071,11 +1072,19 @@ opened
 performance
 optimization
 )
+and
+its
+not
+disabled
 .
 const
 attachment
 =
 open
+&
+&
+!
+disabled
 &
 &
 dom
@@ -1190,6 +1199,7 @@ collapsible
 :
 true
 open
+disabled
 onToggle
 attachment
 topLevelClasses
