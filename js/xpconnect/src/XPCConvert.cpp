@@ -834,11 +834,6 @@ d
 .
 setNumber
 (
-static_cast
-<
-double
->
-(
 *
 static_cast
 <
@@ -848,7 +843,6 @@ int64_t
 >
 (
 s
-)
 )
 )
 ;
@@ -940,11 +934,6 @@ d
 .
 setNumber
 (
-static_cast
-<
-double
->
-(
 *
 static_cast
 <
@@ -954,7 +943,6 @@ uint64_t
 >
 (
 s
-)
 )
 )
 ;
@@ -994,7 +982,9 @@ T_DOUBLE
 :
 d
 .
-setNumber
+set
+(
+JS_NumberValue
 (
 *
 static_cast
@@ -1005,6 +995,7 @@ double
 >
 (
 s
+)
 )
 )
 ;

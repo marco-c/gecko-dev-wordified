@@ -1009,9 +1009,12 @@ aCx
 ;
 aValue
 .
-setNumber
+set
+(
+JS_NumberValue
 (
 aArgument
+)
 )
 ;
 return
