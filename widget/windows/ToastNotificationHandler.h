@@ -190,6 +190,10 @@ ToastNotificationHandler
 ToastNotification
 *
 backend
+const
+nsAString
+&
+aumid
 nsIObserver
 *
 aAlertListener
@@ -232,6 +236,10 @@ aActions
 mBackend
 (
 backend
+)
+mAumid
+(
+aumid
 )
 mHasImage
 (
@@ -452,6 +460,9 @@ RefPtr
 ToastNotification
 >
 mBackend
+;
+nsString
+mAumid
 ;
 nsCOMPtr
 <
