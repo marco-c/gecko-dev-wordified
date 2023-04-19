@@ -101,7 +101,6 @@ AddonUninstallParameters
 GeckoContextParameters
 GeckoExtensionCommand
 GeckoExtensionRoute
-CHROME_ELEMENT_KEY
 }
 ;
 use
@@ -2136,16 +2135,6 @@ object
 )
 ;
 let
-chrome_element
-=
-data
-.
-get
-(
-CHROME_ELEMENT_KEY
-)
-;
-let
 element
 =
 data
@@ -2182,11 +2171,6 @@ try_opt
 !
 (
 element
-.
-or
-(
-chrome_element
-)
 .
 or
 (
