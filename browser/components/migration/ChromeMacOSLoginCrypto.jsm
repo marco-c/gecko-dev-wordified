@@ -128,11 +128,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gKeychainUtils
 "
@@ -696,6 +702,8 @@ try
 {
 encKey
 =
+lazy
+.
 gKeychainUtils
 .
 getGenericPassword

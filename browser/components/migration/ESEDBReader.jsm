@@ -171,11 +171,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -242,7 +248,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -1267,6 +1273,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 error
@@ -1312,6 +1320,8 @@ if
 errorLog
 )
 {
+lazy
+.
 log
 .
 error
@@ -1359,6 +1369,8 @@ resultCode
 errorLog
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1822,6 +1834,8 @@ unloadLibraries
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1838,6 +1852,8 @@ gOpenDBs
 size
 )
 {
+lazy
+.
 log
 .
 error
@@ -2016,6 +2032,8 @@ dbPath
 logPath
 )
 {
+lazy
+.
 log
 .
 info
@@ -2646,6 +2664,8 @@ rv
 0
 )
 {
+lazy
+.
 log
 .
 error
@@ -2681,6 +2701,8 @@ rv
 0
 )
 {
+lazy
+.
 log
 .
 error
@@ -4132,6 +4154,8 @@ this
 _opened
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4155,6 +4179,8 @@ _dbId
 0
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -4180,6 +4206,8 @@ this
 _attached
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4216,6 +4244,8 @@ this
 _sessionCreated
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4250,6 +4280,8 @@ this
 _instanceCreated
 )
 {
+lazy
+.
 log
 .
 debug
@@ -4431,6 +4463,8 @@ options
 {
 winShare
 :
+lazy
+.
 OS
 .
 Constants
@@ -4446,6 +4480,8 @@ locked
 true
 ;
 await
+lazy
+.
 OS
 .
 File

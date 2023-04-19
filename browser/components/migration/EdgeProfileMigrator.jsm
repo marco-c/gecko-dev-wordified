@@ -180,11 +180,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -207,7 +213,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUIUtils
 "
@@ -229,7 +235,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ESEDBReader
 "
@@ -321,7 +327,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gEdgeDatabase
 "
@@ -663,6 +669,8 @@ tableName
 columns
 dbFile
 =
+lazy
+.
 gEdgeDatabase
 filterFn
 =
@@ -698,6 +706,8 @@ LogFiles
 ;
 database
 =
+lazy
+.
 ESEDBReader
 .
 openDB
@@ -837,6 +847,8 @@ if
 database
 )
 {
+lazy
+.
 ESEDBReader
 .
 closeDB
@@ -1013,6 +1025,8 @@ visits
 {
 transition
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -1024,6 +1038,8 @@ date
 :
 time
 ?
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -1116,6 +1132,8 @@ db
 )
 {
 return
+lazy
+.
 gEdgeDatabase
 ;
 }
@@ -1181,6 +1199,8 @@ _migrateTypedURLsFromDB
 if
 (
 await
+lazy
+.
 ESEDBReader
 .
 dbLocked
@@ -1514,6 +1534,8 @@ visits
 {
 transition
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -1589,6 +1611,8 @@ this
 dbOverride
 |
 |
+lazy
+.
 gEdgeDatabase
 ;
 }
@@ -1614,6 +1638,8 @@ this
 .
 _migrateReadingList
 (
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1660,6 +1686,8 @@ parentGuid
 if
 (
 await
+lazy
+.
 ESEDBReader
 .
 dbLocked
@@ -1773,6 +1801,8 @@ isDeletedColumn
 dbType
 =
 =
+lazy
+.
 ESEDBReader
 .
 COLUMN_TYPES
@@ -1978,6 +2008,8 @@ folderSpec
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2050,6 +2082,8 @@ this
 dbOverride
 |
 |
+lazy
+.
 gEdgeDatabase
 ;
 }
@@ -2147,6 +2181,8 @@ _migrateBookmarks
 if
 (
 await
+lazy
+.
 ESEDBReader
 .
 dbLocked
@@ -2199,6 +2235,8 @@ length
 let
 parentGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2225,6 +2263,8 @@ length
 let
 parentGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2240,6 +2280,8 @@ toolbarBMs
 parentGuid
 )
 ;
+lazy
+.
 PlacesUIUtils
 .
 maybeToggleBookmarkToolbarVisibilityAfterMigration
@@ -2569,6 +2611,8 @@ bookmark
 Title
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -2895,6 +2939,8 @@ null
 |
 |
 !
+lazy
+.
 gEdgeDatabase
 )
 {
@@ -2920,6 +2966,8 @@ Path
 .
 join
 (
+lazy
+.
 gEdgeDatabase
 .
 parent
@@ -2938,6 +2986,8 @@ log
 let
 dbPath
 =
+lazy
+.
 gEdgeDatabase
 .
 path

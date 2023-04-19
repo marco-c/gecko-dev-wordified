@@ -186,11 +186,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ChromeMigrationUtils
 :
@@ -547,6 +553,8 @@ folderItem
 {
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -625,6 +633,8 @@ Object
 .
 create
 (
+lazy
+.
 MigratorPrototype
 )
 ;
@@ -677,6 +687,8 @@ _chromeUserDataPath
 let
 path
 =
+lazy
+.
 ChromeMigrationUtils
 .
 getDataPath
@@ -690,6 +702,8 @@ let
 exists
 =
 await
+lazy
+.
 OS
 .
 File
@@ -758,6 +772,8 @@ chromeUserDataPath
 let
 profileFolder
 =
+lazy
+.
 OS
 .
 Path
@@ -773,6 +789,8 @@ id
 if
 (
 await
+lazy
+.
 OS
 .
 File
@@ -808,6 +826,8 @@ profileFolder
 ;
 if
 (
+lazy
+.
 ChromeMigrationUtils
 .
 supportsLoginsForPlatform
@@ -920,6 +940,8 @@ profile
 let
 basePath
 =
+lazy
+.
 OS
 .
 Path
@@ -957,6 +979,8 @@ leafName
 let
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -971,6 +995,8 @@ let
 info
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1123,6 +1149,8 @@ try
 localState
 =
 await
+lazy
+.
 ChromeMigrationUtils
 .
 getLocalState
@@ -1432,6 +1460,8 @@ aBrowserKey
 let
 bookmarksPath
 =
+lazy
+.
 OS
 .
 Path
@@ -1468,6 +1498,8 @@ try
 localState
 =
 await
+lazy
+.
 ChromeMigrationUtils
 .
 getLocalState
@@ -1496,6 +1528,8 @@ let
 alternativeBookmarks
 =
 await
+lazy
+.
 Qihoo360seMigrationUtils
 .
 getAlternativeBookmarks
@@ -1531,6 +1565,8 @@ if
 !
 (
 await
+lazy
+.
 OS
 .
 File
@@ -1550,6 +1586,8 @@ return
 {
 type
 :
+lazy
+.
 MigrationUtils
 .
 resourceTypes
@@ -1599,6 +1637,8 @@ let
 bookmarkJSON
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1659,6 +1699,8 @@ Toolbar
 let
 parentGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1679,6 +1721,8 @@ errorGatherer
 )
 ;
 await
+lazy
+.
 MigrationUtils
 .
 insertManyBookmarksWrapper
@@ -1687,6 +1731,8 @@ bookmarks
 parentGuid
 )
 ;
+lazy
+.
 PlacesUIUtils
 .
 maybeToggleBookmarkToolbarVisibilityAfterMigration
@@ -1725,6 +1771,8 @@ menu
 let
 parentGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1745,6 +1793,8 @@ errorGatherer
 )
 ;
 await
+lazy
+.
 MigrationUtils
 .
 insertManyBookmarksWrapper
@@ -1812,6 +1862,8 @@ aProfileFolder
 let
 historyPath
 =
+lazy
+.
 OS
 .
 Path
@@ -1829,6 +1881,8 @@ if
 !
 (
 await
+lazy
+.
 OS
 .
 File
@@ -1848,6 +1902,8 @@ return
 {
 type
 :
+lazy
+.
 MigrationUtils
 .
 resourceTypes
@@ -1933,6 +1989,8 @@ MAX_AGE_IN_DAYS
 let
 maxAge
 =
+lazy
+.
 ChromeMigrationUtils
 .
 dateToChromeTime
@@ -1989,6 +2047,8 @@ let
 rows
 =
 await
+lazy
+.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -2040,6 +2100,8 @@ typed
 let
 transition
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -2064,6 +2126,8 @@ typed_count
 {
 transition
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -2109,6 +2173,8 @@ visits
 transition
 date
 :
+lazy
+.
 ChromeMigrationUtils
 .
 chromeTimeToDate
@@ -2151,6 +2217,8 @@ length
 )
 {
 await
+lazy
+.
 MigrationUtils
 .
 insertVisitsWrapper
@@ -2210,6 +2278,8 @@ aProfileFolder
 let
 cookiesPath
 =
+lazy
+.
 OS
 .
 Path
@@ -2227,6 +2297,8 @@ if
 !
 (
 await
+lazy
+.
 OS
 .
 File
@@ -2246,6 +2318,8 @@ return
 {
 type
 :
+lazy
+.
 MigrationUtils
 .
 resourceTypes
@@ -2273,6 +2347,8 @@ let
 columns
 =
 await
+lazy
+.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -2448,6 +2524,8 @@ let
 rows
 =
 await
+lazy
+.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -2655,6 +2733,8 @@ try
 let
 expiresUtc
 =
+lazy
+.
 ChromeMigrationUtils
 .
 chromeTimeToDate
@@ -2793,6 +2873,8 @@ aProfileFolder
 let
 loginPath
 =
+lazy
+.
 OS
 .
 Path
@@ -2811,6 +2893,8 @@ if
 !
 (
 await
+lazy
+.
 OS
 .
 File
@@ -2842,6 +2926,8 @@ return
 {
 type
 :
+lazy
+.
 MigrationUtils
 .
 resourceTypes
@@ -2857,6 +2943,8 @@ let
 rows
 =
 await
+lazy
+.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -3143,6 +3231,8 @@ try
 let
 origin_url
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -3282,6 +3372,8 @@ password_element
 )
 timeCreated
 :
+lazy
+.
 ChromeMigrationUtils
 .
 chromeTimeToDate
@@ -3386,6 +3478,8 @@ break
 let
 action_uri
 =
+lazy
+.
 NetUtil
 .
 newURI
@@ -3534,6 +3628,8 @@ length
 )
 {
 await
+lazy
+.
 MigrationUtils
 .
 insertLoginsWrapper

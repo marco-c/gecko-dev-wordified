@@ -192,11 +192,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BookmarkHTMLUtils
 "
@@ -219,7 +225,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -242,7 +248,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -265,7 +271,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -288,7 +294,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ResponsivenessMonitor
 "
@@ -311,7 +317,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Sqlite
 "
@@ -334,7 +340,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 WindowsRegistry
 "
@@ -357,7 +363,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setTimeout
 "
@@ -416,7 +422,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gAvailableMigratorKeys
 "
@@ -1999,6 +2005,8 @@ responsivenessHistogramId
 responsivenessMonitor
 =
 new
+lazy
+.
 ResponsivenessMonitor
 (
 )
@@ -2383,6 +2391,8 @@ itemResources
 let
 completeDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -2706,6 +2716,8 @@ we
 succeed
 .
 await
+lazy
+.
 BookmarkHTMLUtils
 .
 importFromURL
@@ -2731,6 +2743,8 @@ replace
 true
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3880,6 +3894,8 @@ try
 db
 =
 await
+lazy
+.
 Sqlite
 .
 openConnection
@@ -3969,6 +3985,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 setTimeout
 (
 resolve
@@ -4960,6 +4978,8 @@ Firefox
 let
 oldDefault
 =
+lazy
+.
 WindowsRegistry
 .
 readRegKey
@@ -4986,6 +5006,8 @@ Remove
 the
 key
 :
+lazy
+.
 WindowsRegistry
 .
 removeRegKey
@@ -6190,6 +6212,8 @@ Promise
 .
 all
 (
+lazy
+.
 gAvailableMigratorKeys
 .
 map
@@ -6437,6 +6461,8 @@ bookmarks
 let
 insertionPromise
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -6549,6 +6575,8 @@ parent
 let
 insertionPromise
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -6771,6 +6799,8 @@ pageInfos
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 history
@@ -6802,6 +6832,8 @@ let
 inserted
 =
 await
+lazy
+.
 LoginHelper
 .
 maybeImportLogins
@@ -6983,6 +7015,8 @@ b
 type
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7046,6 +7080,8 @@ adding
 it
 .
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7529,6 +7565,10 @@ gL10n
 null
 ;
 }
+gAvailableMigratorKeys
+:
+lazy
+.
 gAvailableMigratorKeys
 MIGRATION_ENTRYPOINT_UNKNOWN
 :

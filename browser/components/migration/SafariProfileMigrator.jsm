@@ -133,11 +133,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PropertyListUtils
 "
@@ -160,7 +166,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -183,7 +189,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUIUtils
 "
@@ -205,7 +211,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FormHistory
 "
@@ -281,6 +287,8 @@ Promise
 resolve
 =
 >
+lazy
+.
 PropertyListUtils
 .
 read
@@ -394,6 +402,8 @@ MigrationUtils
 SOURCE_BOOKMARK_ROOTS_BOOKMARKS_TOOLBAR
 )
 {
+lazy
+.
 PlacesUIUtils
 .
 maybeToggleBookmarkToolbarVisibilityAfterMigration
@@ -869,6 +879,8 @@ choice
 .
 folderGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -895,6 +907,8 @@ MENU_COLLECTION
 {
 folderGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -921,6 +935,8 @@ TOOLBAR_COLLECTION
 {
 folderGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1012,6 +1028,8 @@ insertBookmarkWrapper
 {
 parentGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1019,6 +1037,8 @@ bookmarks
 menuGuid
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1196,6 +1216,8 @@ Title
 )
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1501,6 +1523,8 @@ H_migrate
 aCallback
 )
 {
+lazy
+.
 PropertyListUtils
 .
 read
@@ -1686,6 +1710,8 @@ urls
 .
 transition
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -1994,6 +2020,8 @@ if
 alreadyReading
 )
 {
+lazy
+.
 PropertyListUtils
 .
 read
@@ -2193,6 +2221,8 @@ searchString
 )
 )
 ;
+lazy
+.
 FormHistory
 .
 update

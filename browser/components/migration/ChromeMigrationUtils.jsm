@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 LoginHelper
 :
@@ -418,6 +424,8 @@ let
 iterator
 =
 new
+lazy
+.
 OS
 .
 File
@@ -592,6 +600,8 @@ profileId
 ;
 manifestPath
 =
+lazy
+.
 OS
 .
 Path
@@ -651,6 +661,8 @@ null
 }
 manifestPath
 =
+lazy
+.
 OS
 .
 Path
@@ -673,6 +685,8 @@ let
 manifest
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1069,6 +1083,8 @@ profileId
 ;
 localeFilePath
 =
+lazy
+.
 OS
 .
 Path
@@ -1115,6 +1131,8 @@ directory
 .
 localeFilePath
 =
+lazy
+.
 OS
 .
 Path
@@ -1140,6 +1158,8 @@ json
 localeFile
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1381,12 +1401,16 @@ let
 isInstalled
 =
 await
+lazy
+.
 OS
 .
 File
 .
 exists
 (
+lazy
+.
 OS
 .
 Path
@@ -2256,6 +2280,8 @@ let
 iterator
 =
 new
+lazy
+.
 OS
 .
 File
@@ -2791,6 +2817,8 @@ const
 migrator
 =
 await
+lazy
+.
 MigrationUtils
 .
 getMigrator
@@ -2843,6 +2871,8 @@ getSourceProfiles
 const
 path
 =
+lazy
+.
 OS
 .
 Path
@@ -2873,6 +2903,8 @@ if
 !
 (
 await
+lazy
+.
 OS
 .
 File
@@ -2907,6 +2939,8 @@ const
 row
 of
 await
+lazy
+.
 MigrationUtils
 .
 getRowsFromDBWithoutLocks
@@ -2959,6 +2993,8 @@ yet
 const
 origin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin

@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 MigrationUtils
 :
@@ -165,7 +171,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 filenamesRegex
 "
@@ -244,6 +250,8 @@ prototype
 {
 type
 :
+lazy
+.
 MigrationUtils
 .
 resourceTypes
@@ -304,6 +312,8 @@ let
 connection
 =
 await
+lazy
+.
 Sqlite
 .
 openConnection
@@ -507,6 +517,8 @@ children
 title
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -636,6 +648,8 @@ length
 let
 parentGuid
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -643,6 +657,8 @@ bookmarks
 toolbarGuid
 ;
 await
+lazy
+.
 MigrationUtils
 .
 insertManyBookmarksWrapper
@@ -651,6 +667,8 @@ toolbarBMs
 parentGuid
 )
 ;
+lazy
+.
 PlacesUIUtils
 .
 maybeToggleBookmarkToolbarVisibilityAfterMigration
@@ -929,6 +947,8 @@ entry
 let
 matches
 =
+lazy
+.
 filenamesRegex
 .
 exec

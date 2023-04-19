@@ -202,11 +202,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesBackups
 "
@@ -229,7 +235,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SessionMigration
 "
@@ -253,7 +259,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OS
 "
@@ -276,7 +282,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -299,7 +305,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ProfileAge
 "
@@ -1164,6 +1170,8 @@ types
 .
 OTHERDATA
 [
+lazy
+.
 PlacesBackups
 .
 profileRelativeFolderPath
@@ -1379,6 +1387,8 @@ jsonlz4
 let
 migrationPromise
 =
+lazy
+.
 SessionMigration
 .
 migrate
@@ -1634,6 +1644,8 @@ try
 let
 oldPath
 =
+lazy
+.
 OS
 .
 Path
@@ -1654,6 +1666,8 @@ let
 exists
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1672,6 +1686,8 @@ let
 raw
 =
 await
+lazy
+.
 OS
 .
 File
@@ -1734,6 +1750,8 @@ file
 itself
 .
 await
+lazy
+.
 OS
 .
 File
@@ -1741,6 +1759,8 @@ File
 copy
 (
 oldPath
+lazy
+.
 OS
 .
 Path
@@ -1826,6 +1846,8 @@ about
 let
 prefsPath
 =
+lazy
+.
 OS
 .
 Path
@@ -1845,6 +1867,8 @@ js
 if
 (
 await
+lazy
+.
 OS
 .
 File
@@ -1859,6 +1883,8 @@ let
 rawPrefs
 =
 await
+lazy
+.
 OS
 .
 File
@@ -2078,6 +2104,8 @@ let
 profileTimes
 =
 await
+lazy
+.
 ProfileAge
 (
 currentProfileDir
@@ -2181,6 +2209,8 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
+lazy
+.
 FileUtils
 .
 PERMS_DIRECTORY
