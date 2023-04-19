@@ -121,11 +121,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Deferred
 :
@@ -251,7 +257,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -259,10 +265,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -275,7 +285,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 textEncoder
 "
@@ -293,7 +303,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 env
 "
@@ -642,6 +652,8 @@ this
 .
 enabled
 =
+lazy
+.
 env
 .
 exists
@@ -668,6 +680,8 @@ this
 #
 browserStartupFinished
 =
+lazy
+.
 Deferred
 (
 )
@@ -789,6 +803,8 @@ _enabled
 =
 value
 ;
+lazy
+.
 logger
 .
 info
@@ -844,6 +860,8 @@ running
 ;
 default
 :
+lazy
+.
 logger
 .
 warn
@@ -975,6 +993,8 @@ this
 enabled
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -1189,6 +1209,8 @@ domwindowopened
 )
 ;
 }
+lazy
+.
 RecommendedPreferences
 .
 applyPreferences
@@ -1222,6 +1244,8 @@ pref
 value
 ]
 of
+lazy
+.
 EnvironmentPrefs
 .
 from
@@ -1230,6 +1254,8 @@ ENV_PRESERVE_PREFS
 )
 )
 {
+lazy
+.
 Preferences
 .
 set
@@ -1514,6 +1540,8 @@ in
 safe
 -
 mode
+lazy
+.
 logger
 .
 trace
@@ -1580,6 +1608,8 @@ this
 running
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1614,8 +1644,12 @@ this
 server
 =
 new
+lazy
+.
 TCPListener
 (
+lazy
+.
 MarionettePrefs
 .
 port
@@ -1635,6 +1669,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 fatal
@@ -1672,6 +1708,8 @@ eForceQuit
 return
 ;
 }
+lazy
+.
 env
 .
 set
@@ -1693,6 +1731,8 @@ NOTIFY_LISTENING
 true
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -1753,6 +1793,8 @@ write
 this
 .
 _activePortPath
+lazy
+.
 textEncoder
 .
 encode
@@ -1767,6 +1809,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -1820,6 +1864,8 @@ this
 NOTIFY_LISTENING
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -1849,6 +1895,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -1960,6 +2008,8 @@ length
 0
 )
 {
+lazy
+.
 logger
 .
 warn
