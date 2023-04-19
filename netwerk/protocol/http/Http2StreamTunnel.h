@@ -364,6 +364,11 @@ ClearTransactionsBlockedOnTunnel
 (
 )
 ;
+bool
+DispatchRelease
+(
+)
+;
 RefPtr
 <
 OutputStreamTunnel
@@ -509,12 +514,6 @@ nsIOutputStreamCallback
 >
 mCallback
 ;
-nsCOMPtr
-<
-nsIEventTarget
->
-mSocketThread
-;
 nsresult
 mCondition
 {
@@ -594,12 +593,6 @@ nsCOMPtr
 nsIInputStreamCallback
 >
 mCallback
-;
-nsCOMPtr
-<
-nsIEventTarget
->
-mSocketThread
 ;
 nsresult
 mCondition
