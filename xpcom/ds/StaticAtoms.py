@@ -24282,6 +24282,23 @@ theme
 "
 )
     
+Atom
+(
+"
+_moz_box_flexbox_emulation
+"
+"
+-
+moz
+-
+box
+-
+flexbox
+-
+emulation
+"
+)
+    
 #
 application
 commands
