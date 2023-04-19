@@ -371,8 +371,9 @@ tabs
 .
 label
 "
+New
 Private
-Browsing
+Tab
 "
 "
 New
@@ -385,8 +386,9 @@ windows
 should
 have
 '
+New
 Private
-Browsing
+Tab
 '
 as
 the
