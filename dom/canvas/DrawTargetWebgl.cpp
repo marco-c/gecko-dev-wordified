@@ -19584,7 +19584,7 @@ xformBounds
 .
 Inflate
 (
-1
+2
 )
 ;
 IntRect
