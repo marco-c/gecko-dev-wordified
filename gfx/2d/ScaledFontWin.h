@@ -208,6 +208,16 @@ CreateSkTypeface
 )
 override
 ;
+bool
+MayUseBitmaps
+(
+)
+override
+{
+return
+true
+;
+}
 protected
 :
 cairo_font_face_t
