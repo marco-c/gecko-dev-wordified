@@ -1240,11 +1240,6 @@ ProfilerScreenshots
 h
 "
 "
-RemoteTextureMap
-.
-h
-"
-"
 RepaintRequest
 .
 h
@@ -2598,11 +2593,6 @@ cpp
 "
 "
 ProfilerScreenshots
-.
-cpp
-"
-"
-RemoteTextureMap
 .
 cpp
 "

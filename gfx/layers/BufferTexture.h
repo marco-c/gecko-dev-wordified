@@ -488,6 +488,8 @@ GetPictureRect
 )
 const
 ;
+protected
+:
 gfx
 :
 :
@@ -506,8 +508,6 @@ GetFormat
 )
 const
 ;
-protected
-:
 static
 BufferTextureData
 *

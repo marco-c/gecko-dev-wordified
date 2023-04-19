@@ -376,10 +376,6 @@ CompositableHost
 *
 >
 aCompositable
-const
-CompositableHandle
-&
-aHandle
 )
 ;
 void

@@ -249,16 +249,6 @@ CreateCompositable
 =
 0
 ;
-virtual
-void
-EnsurePipeline
-(
-bool
-aIsAsync
-)
-=
-0
-;
 void
 ClearCachedResources
 (
