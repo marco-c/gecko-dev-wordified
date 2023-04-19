@@ -368,7 +368,7 @@ gfxUserFontEntry
 aUserFontEntry
 uint32_t
 aSrcIndex
-FontFaceSet
+FontFaceSetImpl
 *
 aFontFaceSet
 nsIChannel
@@ -1360,7 +1360,7 @@ nsPresContext
 *
 ctx
 =
-FontFaceSet
+FontFaceSetImpl
 :
 :
 GetPresContextFor
@@ -2093,7 +2093,7 @@ nsPresContext
 *
 ctx
 =
-FontFaceSet
+FontFaceSetImpl
 :
 :
 GetPresContextFor
