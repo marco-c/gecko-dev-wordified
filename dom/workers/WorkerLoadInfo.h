@@ -813,13 +813,7 @@ bool
 mEvalAllowed
 ;
 bool
-mReportEvalCSPViolations
-;
-bool
-mWasmEvalAllowed
-;
-bool
-mReportWasmEvalCSPViolations
+mReportCSPViolations
 ;
 bool
 mXHRParamsAllowed
