@@ -9035,7 +9035,7 @@ DisplayItem
 BackdropFilter
 (
 ref
-_info
+info
 )
 =
 >
@@ -9048,8 +9048,6 @@ backdrop
 "
 )
 ;
-/
-*
 let
 (
 layout
@@ -9118,8 +9116,6 @@ filter_datas
 filter_primitives
 )
 ;
-*
-/
 }
 /
 /
