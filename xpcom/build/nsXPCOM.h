@@ -277,17 +277,6 @@ nsStringFwd
 .
 h
 "
-namespace
-mozilla
-{
-struct
-Module
-;
-}
-/
-/
-namespace
-mozilla
 #
 endif
 /
