@@ -1829,11 +1829,7 @@ use
 [
 cfg
 (
-feature
-=
-"
-nightly
-"
+has_const_fn_trait_bound
 )
 ]
 #
@@ -1928,11 +1924,7 @@ cfg
 (
 not
 (
-feature
-=
-"
-nightly
-"
+has_const_fn_trait_bound
 )
 )
 ]
