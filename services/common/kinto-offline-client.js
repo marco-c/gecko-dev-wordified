@@ -19478,6 +19478,12 @@ License
 .
 *
 /
+const
+{
+setTimeout
+clearTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -19495,7 +19501,6 @@ Timer
 .
 jsm
 "
-global
 )
 ;
 const
