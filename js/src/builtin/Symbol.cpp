@@ -497,7 +497,11 @@ Symbol
 .
 iterator
 .
-ImmutablePropertyNamePtr
+ImmutableTenuredPtr
+<
+PropertyName
+*
+>
 *
 names
 =
