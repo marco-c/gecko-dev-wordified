@@ -721,15 +721,6 @@ false
 \
 _
 (
-OffscreenCanvasDomainAllowlist
-nsCString
-nsCString
-(
-)
-)
-\
-_
-(
 AllowWebGPU
 bool
 false
