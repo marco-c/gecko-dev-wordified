@@ -721,7 +721,7 @@ RegistrationInfo
 .
 RefPtr
 <
-FetchServiceResponsePromise
+FetchServicePromises
 >
 SetupNavigationPreload
 (
@@ -763,11 +763,11 @@ nsIInterceptedChannel
 aChannel
 RefPtr
 <
-FetchServiceResponsePromise
+FetchServicePromises
 >
 &
 &
-aPreloadResponseReadyPromise
+aPreloadResponseReadyPromises
 )
 ;
 void
@@ -949,11 +949,11 @@ nsIInterceptedChannel
 aChannel
 RefPtr
 <
-FetchServiceResponsePromise
+FetchServicePromises
 >
 &
 &
-aPreloadResponseReadyPromise
+aPreloadResponseReadyPromises
 )
 ;
 nsresult
@@ -981,7 +981,7 @@ mChannel
 /
 /
 The
-promise
+promises
 from
 FetchService
 .
@@ -1060,9 +1060,9 @@ FetchEventOpChild
 .
 RefPtr
 <
-FetchServiceResponsePromise
+FetchServicePromises
 >
-mPreloadResponseReadyPromise
+mPreloadResponseReadyPromises
 ;
 }
 ;

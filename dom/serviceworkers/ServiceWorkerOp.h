@@ -1102,9 +1102,15 @@ mPreloadResponse
 .
 MozPromiseRequestHolder
 <
-FetchEventPreloadResponsePromise
+FetchEventPreloadResponseAvailablePromise
 >
-mPreloadResponsePromiseRequestHolder
+mPreloadResponseAvailablePromiseRequestHolder
+;
+MozPromiseRequestHolder
+<
+FetchEventPreloadResponseEndPromise
+>
+mPreloadResponseEndPromiseRequestHolder
 ;
 TimeStamp
 mFetchHandlerStart
