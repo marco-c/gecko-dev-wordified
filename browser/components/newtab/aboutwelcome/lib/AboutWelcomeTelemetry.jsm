@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PingCentre
 :
@@ -189,7 +195,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 structuredIngestionEndpointBase
 "
@@ -216,7 +222,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 telemetryClientId
 "
@@ -224,6 +230,8 @@ telemetryClientId
 )
 =
 >
+lazy
+.
 ClientID
 .
 getClientID
@@ -235,7 +243,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 browserSessionId
 "
@@ -243,6 +251,8 @@ browserSessionId
 )
 =
 >
+lazy
+.
 TelemetrySession
 .
 getMetadata
@@ -348,6 +358,8 @@ pingCentre
 value
 :
 new
+lazy
+.
 PingCentre
 (
 {
@@ -447,6 +459,8 @@ docID
 ;
 return
 {
+lazy
+.
 structuredIngestionEndpointBase
 }
 /
@@ -569,6 +583,8 @@ ping
 const
 attribution
 =
+lazy
+.
 AttributionCode
 .
 getCachedAttributionData
@@ -665,9 +681,13 @@ appLocaleAsBCP47
 client_id
 :
 await
+lazy
+.
 telemetryClientId
 browser_session_id
 :
+lazy
+.
 browserSessionId
 }
 ;

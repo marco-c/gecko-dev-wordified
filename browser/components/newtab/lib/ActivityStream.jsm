@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DEFAULT_SITES
 "
@@ -138,7 +144,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Region
 "
@@ -224,7 +230,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AboutPreferences
 "
@@ -249,7 +255,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DefaultPrefs
 "
@@ -274,7 +280,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewTabInit
 "
@@ -299,7 +305,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SectionsFeed
 "
@@ -324,7 +330,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RecommendationProvider
 "
@@ -349,7 +355,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesFeed
 "
@@ -374,7 +380,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrefsFeed
 "
@@ -399,7 +405,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Store
 "
@@ -424,7 +430,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 SystemTickFeed
 "
@@ -449,7 +455,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TelemetryFeed
 "
@@ -474,7 +480,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FaviconFeed
 "
@@ -499,7 +505,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TopSitesFeed
 "
@@ -524,7 +530,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 TopStoriesFeed
 "
@@ -549,7 +555,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 HighlightsFeed
 "
@@ -574,7 +580,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DiscoveryStreamFeed
 "
@@ -839,10 +845,14 @@ geo
 )
 =
 >
+lazy
+.
 DEFAULT_SITES
 .
 get
 (
+lazy
+.
 DEFAULT_SITES
 .
 has
@@ -2494,6 +2504,8 @@ factory
 =
 >
 new
+lazy
+.
 AboutPreferences
 (
 )
@@ -2522,6 +2534,8 @@ factory
 =
 >
 new
+lazy
+.
 NewTabInit
 (
 )
@@ -2559,6 +2573,8 @@ factory
 =
 >
 new
+lazy
+.
 PlacesFeed
 (
 )
@@ -2592,6 +2608,8 @@ factory
 =
 >
 new
+lazy
+.
 PrefsFeed
 (
 PREFS_CONFIG
@@ -2618,6 +2636,8 @@ factory
 =
 >
 new
+lazy
+.
 SectionsFeed
 (
 )
@@ -2646,6 +2666,8 @@ factory
 =
 >
 new
+lazy
+.
 HighlightsFeed
 (
 )
@@ -2678,6 +2700,8 @@ factory
 =
 >
 new
+lazy
+.
 TopStoriesFeed
 (
 PREFS_CONFIG
@@ -3197,6 +3221,8 @@ factory
 =
 >
 new
+lazy
+.
 SystemTickFeed
 (
 )
@@ -3231,6 +3257,8 @@ factory
 =
 >
 new
+lazy
+.
 TelemetryFeed
 (
 )
@@ -3262,6 +3290,8 @@ factory
 =
 >
 new
+lazy
+.
 FaviconFeed
 (
 )
@@ -3295,6 +3325,8 @@ factory
 =
 >
 new
+lazy
+.
 TopSitesFeed
 (
 )
@@ -3328,6 +3360,8 @@ factory
 =
 >
 new
+lazy
+.
 RecommendationProvider
 (
 )
@@ -3360,6 +3394,8 @@ factory
 =
 >
 new
+lazy
+.
 DiscoveryStreamFeed
 (
 )
@@ -3459,6 +3495,8 @@ this
 store
 =
 new
+lazy
+.
 Store
 (
 )
@@ -3474,6 +3512,8 @@ this
 _defaultPrefs
 =
 new
+lazy
+.
 DefaultPrefs
 (
 PREFS_CONFIG
@@ -4179,6 +4219,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -4234,6 +4276,8 @@ have
 it
 if
 (
+lazy
+.
 Region
 .
 home
@@ -4243,6 +4287,8 @@ this
 .
 geo
 =
+lazy
+.
 Region
 .
 home
@@ -4281,6 +4327,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -4586,6 +4634,8 @@ changed
 "
 :
 case
+lazy
+.
 Region
 .
 REGION_TOPIC

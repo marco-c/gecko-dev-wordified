@@ -220,11 +220,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AboutNewTab
 "
@@ -246,7 +252,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PingCentre
 "
@@ -268,7 +274,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UTEventReporting
 "
@@ -293,7 +299,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -316,7 +322,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 HomePage
 "
@@ -338,7 +344,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionSettingsStore
 "
@@ -361,7 +367,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -384,7 +390,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ClientID
 "
@@ -407,7 +413,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExperimentAPI
 :
@@ -758,7 +764,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 browserSessionId
 "
@@ -766,6 +772,8 @@ browserSessionId
 )
 =
 >
+lazy
+.
 TelemetrySession
 .
 getMetadata
@@ -826,7 +834,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 contextId
 "
@@ -1028,6 +1036,8 @@ telemetryClientId
 {
 value
 :
+lazy
+.
 ClientID
 .
 getClientID
@@ -1225,6 +1235,8 @@ request
 .
 context_id
 "
+lazy
+.
 contextId
 )
 ;
@@ -1342,6 +1354,8 @@ ownerGlobal
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1462,6 +1476,8 @@ win
 closed
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1945,6 +1961,8 @@ pingCentre
 value
 :
 new
+lazy
+.
 PingCentre
 (
 {
@@ -1991,6 +2009,8 @@ utEvents
 value
 :
 new
+lazy
+.
 UTEventReporting
 (
 )
@@ -2110,6 +2130,8 @@ isInCFRCohort
 const
 experimentData
 =
+lazy
+.
 ExperimentAPI
 .
 getExperimentMetaData
@@ -3533,6 +3555,8 @@ session
 perf
 profile_creation_date
 :
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -3542,6 +3566,8 @@ profile
 resetDate
 |
 |
+lazy
+.
 TelemetryEnvironment
 .
 currentEnvironment
@@ -3912,6 +3938,8 @@ ping
 {
 if
 (
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel
@@ -4024,6 +4052,8 @@ ping
 .
 browser_session_id
 =
+lazy
+.
 browserSessionId
 ;
 /
@@ -4081,6 +4111,8 @@ ping
 .
 browser_session_id
 =
+lazy
+.
 browserSessionId
 ;
 delete
@@ -4118,6 +4150,8 @@ ping
 .
 browser_session_id
 =
+lazy
+.
 browserSessionId
 ;
 delete
@@ -4200,6 +4234,8 @@ ping
 {
 if
 (
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel
@@ -4368,6 +4404,8 @@ ping
 .
 browser_session_id
 =
+lazy
+.
 browserSessionId
 ;
 /
@@ -4637,6 +4675,8 @@ ping
 .
 browser_session_id
 =
+lazy
+.
 browserSessionId
 ;
 if
@@ -5169,6 +5209,8 @@ payload
 data
 context_id
 :
+lazy
+.
 contextId
 }
 ;
@@ -5402,12 +5444,16 @@ enabled
 )
 &
 &
+lazy
+.
 AboutNewTab
 .
 newTabURLOverridden
 &
 &
 !
+lazy
+.
 AboutNewTab
 .
 newTabURL
@@ -5434,6 +5480,8 @@ this
 .
 _classifySite
 (
+lazy
+.
 AboutNewTab
 .
 newTabURL
@@ -5459,6 +5507,8 @@ an
 extension
 .
 await
+lazy
+.
 ExtensionSettingsStore
 .
 initialize
@@ -5468,6 +5518,8 @@ initialize
 const
 newtabExtensionInfo
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -5506,6 +5558,8 @@ true
 const
 homePageURL
 =
+lazy
+.
 HomePage
 .
 get
@@ -5570,6 +5624,8 @@ true
 const
 homeExtensionInfo
 =
+lazy
+.
 ExtensionSettingsStore
 .
 getSetting
@@ -6839,6 +6895,8 @@ home
 &
 &
 !
+lazy
+.
 HomePage
 .
 overridden
@@ -6864,6 +6922,8 @@ page
 1
 )
 {
+lazy
+.
 AboutNewTab
 .
 maybeRecordTopsitesPainted

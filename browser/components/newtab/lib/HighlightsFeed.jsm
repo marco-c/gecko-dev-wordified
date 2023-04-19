@@ -218,11 +218,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FilterAdult
 "
@@ -247,7 +253,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LinksCache
 "
@@ -272,7 +278,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewTabUtils
 "
@@ -295,7 +301,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Screenshots
 "
@@ -320,7 +326,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PageThumbs
 "
@@ -343,7 +349,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DownloadsManager
 "
@@ -457,8 +463,12 @@ this
 linksCache
 =
 new
+lazy
+.
 LinksCache
 (
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -472,6 +482,8 @@ image
 ]
 )
 ;
+lazy
+.
 PageThumbs
 .
 addExpirationFilter
@@ -484,6 +496,8 @@ this
 downloadsManager
 =
 new
+lazy
+.
 DownloadsManager
 (
 )
@@ -657,6 +671,8 @@ disableSection
 SECTION_ID
 )
 ;
+lazy
+.
 PageThumbs
 .
 removeExpirationFilter
@@ -1471,6 +1487,8 @@ to
 const
 checkedAdult
 =
+lazy
+.
 FilterAdult
 .
 filter
@@ -2003,6 +2021,8 @@ url
 page
 ;
 return
+lazy
+.
 Screenshots
 .
 maybeCacheScreenshot

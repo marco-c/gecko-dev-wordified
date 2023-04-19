@@ -190,11 +190,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -1053,6 +1059,8 @@ storage
 const
 featureConfig
 =
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -1342,6 +1350,8 @@ storedPrefs
 const
 featureConfig
 =
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -1859,6 +1869,8 @@ card
 image
 )
 {
+lazy
+.
 PlacesUtils
 .
 history
@@ -1898,6 +1910,8 @@ bookmarks
 with
 no
 visits
+.
+lazy
 .
 PlacesUtils
 .

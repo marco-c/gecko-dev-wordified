@@ -89,11 +89,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 setInterval
 "
@@ -116,7 +122,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 clearInterval
 "
@@ -164,6 +170,8 @@ this
 .
 intervalId
 =
+lazy
+.
 setInterval
 (
 (
@@ -218,6 +226,8 @@ at
 .
 UNINIT
 :
+lazy
+.
 clearInterval
 (
 this

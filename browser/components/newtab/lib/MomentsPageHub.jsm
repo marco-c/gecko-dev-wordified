@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 setInterval
 :
@@ -372,6 +378,8 @@ update_action
 const
 _intervalId
 =
+lazy
+.
 setInterval
 (
 (
@@ -946,6 +954,8 @@ uninit
 (
 )
 {
+lazy
+.
 clearInterval
 (
 this

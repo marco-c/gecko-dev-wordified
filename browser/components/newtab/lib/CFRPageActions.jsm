@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -125,7 +131,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PrivateBrowsingUtils
 :
@@ -166,7 +172,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 TrackingDBService
 "
@@ -192,7 +198,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 milestones
 "
@@ -799,6 +805,8 @@ reloadL10n
 (
 )
 {
+lazy
+.
 RemoteL10n
 .
 reloadL10n
@@ -2073,6 +2081,8 @@ localeStrings
 ]
 =
 await
+lazy
+.
 RemoteL10n
 .
 l10n
@@ -2697,6 +2707,8 @@ let
 earliestDate
 =
 await
+lazy
+.
 TrackingDBService
 .
 getEarliestRecordedDate
@@ -2753,6 +2765,8 @@ let
 totalSaved
 =
 await
+lazy
+.
 TrackingDBService
 .
 sumAllEvents
@@ -2764,6 +2778,8 @@ for
 let
 milestone
 of
+lazy
+.
 milestones
 )
 {
@@ -2801,6 +2817,8 @@ headerLabel
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -3637,6 +3655,8 @@ author
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -3857,6 +3877,8 @@ footerText
 .
 appendChild
 (
+lazy
+.
 RemoteL10n
 .
 createElement
@@ -5345,6 +5367,8 @@ const
 response
 =
 await
+lazy
+.
 fetch
 (
 {
@@ -5738,6 +5762,8 @@ ownerGlobal
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

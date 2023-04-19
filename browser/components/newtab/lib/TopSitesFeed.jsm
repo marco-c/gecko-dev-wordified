@@ -303,11 +303,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FilterAdult
 "
@@ -332,7 +338,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LinksCache
 "
@@ -357,7 +363,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewTabUtils
 "
@@ -380,7 +386,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Screenshots
 "
@@ -405,7 +411,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PageThumbs
 "
@@ -428,7 +434,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 RemoteSettings
 "
@@ -453,7 +459,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Region
 "
@@ -476,7 +482,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -488,7 +494,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -539,7 +545,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -1043,6 +1049,8 @@ _fetchSites
 if
 (
 !
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -1114,6 +1122,8 @@ const
 response
 =
 await
+lazy
+.
 fetch
 (
 url
@@ -1134,6 +1144,8 @@ response
 ok
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1275,6 +1287,8 @@ length
 MAX_NUM_SPONSORED
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1324,6 +1338,8 @@ catch
 error
 )
 {
+lazy
+.
 log
 .
 warn
@@ -1403,8 +1419,12 @@ this
 frecentCache
 =
 new
+lazy
+.
 LinksCache
 (
+lazy
+.
 NewTabUtils
 .
 activityStreamLinks
@@ -1447,8 +1467,12 @@ this
 pinnedCache
 =
 new
+lazy
+.
 LinksCache
 (
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -1467,6 +1491,8 @@ PINNED_FAVICON_PROPS_TO_MIGRATE
 ]
 )
 ;
+lazy
+.
 PageThumbs
 .
 addExpirationFilter
@@ -1738,6 +1764,8 @@ DEFAULT_SITES_EXPERIMENTS_PREF_BRANCH
 this
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -1754,6 +1782,8 @@ uninit
 (
 )
 {
+lazy
+.
 PageThumbs
 .
 removeExpirationFilter
@@ -1825,6 +1855,8 @@ DEFAULT_SITES_EXPERIMENTS_PREF_BRANCH
 this
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -2217,6 +2249,8 @@ contile
 const
 contileEnabled
 =
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -2802,6 +2836,8 @@ this
 _remoteConfig
 =
 await
+lazy
+.
 RemoteSettings
 (
 "
@@ -3012,6 +3048,8 @@ exclude_regions
 .
 includes
 (
+lazy
+.
 Region
 .
 home
@@ -3039,6 +3077,8 @@ include_regions
 .
 includes
 (
+lazy
+.
 Region
 .
 home
@@ -4322,6 +4362,8 @@ sites
 .
 if
 (
+lazy
+.
 NewTabUtils
 .
 blockedLinks
@@ -4501,6 +4543,8 @@ if
 searchProvider
 &
 &
+lazy
+.
 NewTabUtils
 .
 blockedLinks
@@ -4929,6 +4973,8 @@ favicon
 {
 try
 {
+lazy
+.
 NewTabUtils
 .
 activityStreamProvider
@@ -4936,6 +4982,8 @@ activityStreamProvider
 _faviconBytesToDataURI
 (
 await
+lazy
+.
 NewTabUtils
 .
 activityStreamProvider
@@ -5051,6 +5099,8 @@ to
 const
 checkedAdult
 =
+lazy
+.
 FilterAdult
 .
 filter
@@ -6234,6 +6284,8 @@ return
 ;
 }
 await
+lazy
+.
 Screenshots
 .
 maybeCacheScreenshot
@@ -6340,6 +6392,8 @@ preview
 =
 (
 await
+lazy
+.
 Screenshots
 .
 getScreenshotForURL
@@ -6608,6 +6662,8 @@ searchTopSite
 searchTopSite
 ;
 }
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -6878,6 +6934,8 @@ index
 1
 )
 {
+lazy
+.
 NewTabUtils
 .
 blockedLinks
@@ -6939,6 +6997,8 @@ action
 .
 data
 ;
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -6983,6 +7043,8 @@ for
 let
 pinnedLink
 of
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7000,6 +7062,8 @@ pinnedLink
 searchTopSite
 )
 {
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7030,6 +7094,8 @@ for
 let
 pinnedLink
 of
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7057,6 +7123,8 @@ pinnedLink
 vendor
 )
 {
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7383,6 +7451,8 @@ return
 let
 pinned
 =
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7792,6 +7862,8 @@ url
 =
 >
 {
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7851,6 +7923,8 @@ pinnedLinks
 let
 index
 =
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7873,6 +7947,8 @@ index
 0
 &
 &
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7900,6 +7976,8 @@ available
 .
 index
 =
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -7917,6 +7995,8 @@ index
 0
 )
 {
+lazy
+.
 NewTabUtils
 .
 pinnedLinks
@@ -8202,6 +8282,8 @@ SHOW_SPONSORED_PREF
 :
 if
 (
+lazy
+.
 NimbusFeatures
 .
 newtab

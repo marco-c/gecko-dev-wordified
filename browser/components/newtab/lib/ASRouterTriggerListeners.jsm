@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AboutReaderParent
 :
@@ -212,6 +218,8 @@ win
 closed
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -609,6 +617,8 @@ bind
 this
 )
 ;
+lazy
+.
 AboutReaderParent
 .
 addMessageListener
@@ -769,6 +779,8 @@ this
 _initialized
 )
 {
+lazy
+.
 AboutReaderParent
 .
 removeMessageListener
@@ -1048,6 +1060,8 @@ bind
 this
 )
 ;
+lazy
+.
 EveryWindow
 .
 registerCallback
@@ -1694,6 +1708,8 @@ this
 _initialized
 )
 {
+lazy
+.
 EveryWindow
 .
 unregisterCallback
@@ -1859,6 +1875,8 @@ bind
 this
 )
 ;
+lazy
+.
 EveryWindow
 .
 registerCallback
@@ -2058,6 +2076,8 @@ this
 _initialized
 )
 {
+lazy
+.
 EveryWindow
 .
 unregisterCallback
@@ -2683,6 +2703,8 @@ bind
 this
 )
 ;
+lazy
+.
 EveryWindow
 .
 registerCallback
@@ -2793,6 +2815,8 @@ ContentBlockingMilestone
 "
 )
 ;
+lazy
+.
 EveryWindow
 .
 unregisterCallback
@@ -3113,6 +3137,8 @@ _shouldShowCaptivePortalVPNPromo
 )
 {
 return
+lazy
+.
 BrowserUtils
 .
 shouldShowVPNPromo

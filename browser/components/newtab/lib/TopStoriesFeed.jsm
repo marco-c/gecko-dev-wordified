@@ -133,11 +133,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -284,7 +290,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pktApi
 "
@@ -1021,6 +1027,8 @@ at
 POCKET_LOGGED_IN
 data
 :
+lazy
+.
 pktApi
 .
 isUserLoggedIn
@@ -1394,6 +1402,8 @@ const
 response
 =
 await
+lazy
+.
 fetch
 (
 this
@@ -2071,6 +2081,8 @@ const
 response
 =
 await
+lazy
+.
 fetch
 (
 this

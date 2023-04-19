@@ -239,11 +239,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PersonalityProvider
 :
@@ -512,6 +518,8 @@ this
 provider
 =
 new
+lazy
+.
 PersonalityProvider
 (
 this

@@ -108,11 +108,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 DownloadsCommon
 :
@@ -328,6 +334,8 @@ target
 path
 title
 :
+lazy
+.
 DownloadsViewUI
 .
 getDisplayName
@@ -336,6 +344,8 @@ download
 )
 description
 :
+lazy
+.
 DownloadsViewUI
 .
 getSizeWithUnits
@@ -344,6 +354,8 @@ download
 )
 |
 |
+lazy
+.
 DownloadsCommon
 .
 strings
@@ -373,6 +385,8 @@ this
 .
 _downloadData
 =
+lazy
+.
 DownloadsCommon
 .
 getData
@@ -708,6 +722,8 @@ length
 10000
 &
 &
+lazy
+.
 NewTabUtils
 .
 blockedLinks
@@ -945,6 +961,8 @@ download
 =
 >
 {
+lazy
+.
 DownloadsCommon
 .
 copyDownloadLink
@@ -968,6 +986,8 @@ download
 =
 >
 {
+lazy
+.
 DownloadsCommon
 .
 deleteDownload
@@ -998,11 +1018,15 @@ download
 =
 >
 {
+lazy
+.
 DownloadsCommon
 .
 showDownloadedFile
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -1063,6 +1087,8 @@ download
 =
 >
 {
+lazy
+.
 DownloadsCommon
 .
 openDownload

@@ -190,11 +190,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 NimbusFeatures
 :
@@ -489,6 +495,8 @@ reason
 const
 value
 =
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -555,6 +563,8 @@ reason
 const
 value
 =
+lazy
+.
 NimbusFeatures
 .
 pocketNewtab
@@ -611,6 +621,8 @@ observeBranch
 this
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -622,6 +634,8 @@ this
 onExperimentUpdated
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 pocketNewtab
@@ -724,6 +738,8 @@ values
 .
 isPrivateBrowsingEnabled
 =
+lazy
+.
 PrivateBrowsingUtils
 .
 enabled
@@ -748,6 +764,8 @@ have
 it
 if
 (
+lazy
+.
 Region
 .
 home
@@ -757,6 +775,8 @@ values
 .
 region
 =
+lazy
+.
 Region
 .
 home
@@ -803,6 +823,8 @@ obs
 addObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1173,6 +1195,8 @@ values
 .
 featureConfig
 =
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -1189,6 +1213,8 @@ values
 .
 pocketConfig
 =
+lazy
+.
 NimbusFeatures
 .
 pocketNewtab
@@ -1448,6 +1474,8 @@ ignoreBranch
 this
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 newtab
@@ -1459,6 +1487,8 @@ this
 onExperimentUpdated
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 pocketNewtab
@@ -1489,6 +1519,8 @@ obs
 removeObserver
 (
 this
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1572,6 +1604,8 @@ topic
 )
 {
 case
+lazy
+.
 Region
 .
 REGION_TOPIC
@@ -1602,6 +1636,8 @@ region
 "
 value
 :
+lazy
+.
 Region
 .
 home

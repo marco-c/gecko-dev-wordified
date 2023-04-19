@@ -104,11 +104,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 IDNService
 "
@@ -171,6 +177,8 @@ hostname
 try
 {
 return
+lazy
+.
 IDNService
 .
 convertToDisplayIDN
