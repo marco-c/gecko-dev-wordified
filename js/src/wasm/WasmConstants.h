@@ -1353,6 +1353,9 @@ Call
 CallIndirect
 =
 0x11
+CallRef
+=
+0x14
 /
 /
 Additional
