@@ -1365,7 +1365,7 @@ zeros
 ExpectAlert
 (
 server_
-kTlsAlertIllegalParameter
+kTlsAlertUnexpectedMessage
 )
 ;
 server_
@@ -1521,12 +1521,12 @@ SetPadding
 ConnectExpectAlert
 (
 server_
-kTlsAlertIllegalParameter
+kTlsAlertUnexpectedMessage
 )
 ;
 EXPECT_EQ
 (
-SSL_ERROR_BAD_CLIENT
+SSL_ERROR_RX_UNKNOWN_RECORD_TYPE
 server_
 -
 >
@@ -1723,7 +1723,7 @@ SetPadding
 ConnectExpectAlert
 (
 server_
-kTlsAlertIllegalParameter
+kTlsAlertUnexpectedMessage
 )
 ;
 }
