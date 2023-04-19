@@ -1354,8 +1354,8 @@ defined
 (
 NIGHTLY_BUILD
 )
-|
-|
+&
+&
 defined
 (
 MOZILLA_OFFICIAL
