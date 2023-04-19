@@ -4495,6 +4495,8 @@ isActive
 id
 ;
 return
+!
+!
 (
 themeId
 &
