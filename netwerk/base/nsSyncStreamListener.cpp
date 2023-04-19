@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsIPipe
-.
-h
-"
-#
-include
-"
 nsSyncStreamListener
 .
 h

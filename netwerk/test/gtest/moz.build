@@ -272,6 +272,11 @@ TestPACMan
 cpp
 "
 "
+TestPartiallySeekableInputStream
+.
+cpp
+"
+"
 TestURIMutator
 .
 cpp
