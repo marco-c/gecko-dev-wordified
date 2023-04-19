@@ -19398,7 +19398,7 @@ hitTestInfo
 =
 static_cast
 <
-nsDisplayHitTestInfoBase
+nsDisplayCompositorHitTestInfo
 *
 >
 (
@@ -19406,7 +19406,11 @@ i
 )
 -
 >
-HitTestFlags
+GetHitTestInfo
+(
+)
+.
+Info
 (
 )
 ;
@@ -19433,7 +19437,10 @@ if
 hitTestInfo
 =
 =
-CompositorHitTestVisibleToHit
+CompositorHitTestFlags
+:
+:
+eVisibleToHitTest
 )
 {
 aVisible
