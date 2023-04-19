@@ -26425,8 +26425,8 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 RelativeFontChangeOnNode
 (
-int32_t
-aSizeChange
+FontSize
+aDir
 nsIContent
 *
 aNode
@@ -26436,8 +26436,8 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 RelativeFontChangeHelper
 (
-int32_t
-aSizeChange
+FontSize
+aDir
 nsINode
 *
 aNode
