@@ -3039,7 +3039,7 @@ unload
 Test
 that
 the
-contentScript
+contentScripts
 .
 register
 options
@@ -3746,7 +3746,7 @@ Invalid
 cookieStoreId
 /
 "
-contentScript
+contentScripts
 .
 register
 with
@@ -3813,7 +3813,7 @@ Invalid
 cookieStoreId
 /
 "
-contentScript
+contentScripts
 .
 register
 with
@@ -3937,7 +3937,7 @@ Invalid
 cookieStoreId
 /
 "
-contentScript
+contentScripts
 .
 register
 with
