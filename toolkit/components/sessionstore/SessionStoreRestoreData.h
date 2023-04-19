@@ -160,8 +160,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -333,11 +333,9 @@ NS_SESSIONSTORERESTOREDATA_IID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif

@@ -147,8 +147,8 @@ nsIDivertableChannel
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -239,12 +239,10 @@ mStatus
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
