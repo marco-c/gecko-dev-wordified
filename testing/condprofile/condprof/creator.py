@@ -668,6 +668,12 @@ device
 headless
 )
             
+except
+Exception
+:
+                
+raise
+            
 finally
 :
                 
