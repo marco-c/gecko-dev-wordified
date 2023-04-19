@@ -17725,7 +17725,7 @@ const
 WritingMode
 bodyWM
 (
-computedStyle
+bodyStyle
 )
 ;
 if
