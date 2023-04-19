@@ -80,7 +80,7 @@ gets
 registered
 as
 the
-origin
+frame
 '
 s
 /
@@ -637,6 +637,10 @@ all
 other
 active
 observers
+in
+the
+same
+frame
 '
 )
 ;
