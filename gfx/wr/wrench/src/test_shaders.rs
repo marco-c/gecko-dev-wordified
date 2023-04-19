@@ -178,7 +178,6 @@ self
 declaration
 :
 &
-mut
 SingleDeclaration
 )
 -

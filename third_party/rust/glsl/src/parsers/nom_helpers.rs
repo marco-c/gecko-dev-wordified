@@ -39,8 +39,8 @@ complete
 :
 {
 anychar
+line_ending
 multispace1
-newline
 }
 ;
 use
@@ -163,7 +163,7 @@ T
 -
 >
 impl
-Fn
+FnMut
 (
 &
 '
@@ -366,7 +366,7 @@ value
 (
 (
 )
-newline
+line_ending
 )
 )
 )
@@ -402,9 +402,11 @@ F
 G
 >
 (
+mut
 f
 :
 F
+mut
 g
 :
 G
@@ -412,7 +414,7 @@ G
 -
 >
 impl
-Fn
+FnMut
 (
 &
 '
@@ -431,7 +433,7 @@ a
 where
 F
 :
-Fn
+FnMut
 (
 &
 '
@@ -448,7 +450,7 @@ A
 >
 G
 :
-Fn
+FnMut
 (
 &
 '
@@ -541,6 +543,7 @@ A
 F
 >
 (
+mut
 f
 :
 F
@@ -548,7 +551,7 @@ F
 -
 >
 impl
-Fn
+FnMut
 (
 &
 '
@@ -567,7 +570,7 @@ a
 where
 F
 :
-Fn
+FnMut
 (
 &
 '
@@ -590,6 +593,7 @@ i
 fold_many0
 (
 &
+mut
 f
 (
 )

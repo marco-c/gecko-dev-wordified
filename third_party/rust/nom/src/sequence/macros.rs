@@ -113,6 +113,7 @@ is
 not
 enough
 data
+.
 /
 /
 /
@@ -378,6 +379,7 @@ do
 not
 use
 directly
+.
 #
 [
 doc
@@ -899,6 +901,7 @@ parsers
 of
 both
 succeed
+.
 /
 /
 /
@@ -938,7 +941,10 @@ nom
 error
 :
 :
+{
+Error
 ErrorKind
+}
 ;
 /
 /
@@ -1044,6 +1050,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 123abc
@@ -1078,6 +1088,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 ;
@@ -1362,6 +1376,7 @@ if
 all
 3
 succeed
+.
 /
 /
 /
@@ -1401,7 +1416,10 @@ nom
 error
 :
 :
+{
+Error
 ErrorKind
+}
 ;
 /
 /
@@ -1515,6 +1533,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 123
@@ -1550,6 +1572,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 ;
@@ -1813,6 +1839,7 @@ parser
 if
 both
 succeed
+.
 /
 /
 /
@@ -1852,7 +1879,10 @@ nom
 error
 :
 :
+{
+Error
 ErrorKind
+}
 ;
 /
 /
@@ -1955,6 +1985,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 abc
@@ -1988,6 +2022,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 123
@@ -2248,6 +2286,7 @@ parser
 if
 both
 succeed
+.
 /
 /
 /
@@ -2287,7 +2326,10 @@ nom
 error
 :
 :
+{
+Error
 ErrorKind
+}
 ;
 /
 /
@@ -2390,6 +2432,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 "
@@ -2422,6 +2468,10 @@ Err
 :
 Error
 (
+Error
+:
+:
+new
 (
 "
 123
@@ -2688,6 +2738,7 @@ closing
 )
 returns
 X
+.
 /
 /
 /
@@ -3101,7 +3152,7 @@ sequence
 /
 /
 /
-it
+It
 can
 store
 intermediary
@@ -3116,6 +3167,7 @@ available
 for
 later
 parsers
+.
 /
 /
 /
@@ -3166,6 +3218,7 @@ is
 not
 enough
 data
+.
 /
 /
 /
@@ -3667,9 +3720,9 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
-5
+2
 )
 )
 )
@@ -5193,6 +5246,15 @@ use
 crate
 :
 :
+error
+:
+:
+ErrorKind
+;
+use
+crate
+:
+:
 internal
 :
 :
@@ -5213,15 +5275,6 @@ streaming
 :
 :
 be_u16
-;
-use
-crate
-:
-:
-error
-:
-:
-ErrorKind
 ;
 /
 /
@@ -5456,7 +5509,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 blen
 )
@@ -5547,7 +5600,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 cnt
 )
@@ -5659,11 +5712,10 @@ std
 ]
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 fn
 error_to_string
@@ -6103,11 +6155,10 @@ to_string
 /
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 #
 [
@@ -6477,11 +6528,10 @@ mnop
 }
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 #
 [
@@ -6722,7 +6772,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -6755,7 +6805,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -7046,7 +7096,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -7080,7 +7130,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -7343,7 +7393,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -7376,7 +7426,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -7636,7 +7686,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -7669,7 +7719,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -7943,7 +7993,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -7976,7 +8026,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -8009,7 +8059,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -8316,7 +8366,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 3
 )
@@ -8349,7 +8399,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 2
 )
@@ -8439,7 +8489,6 @@ i
 )
 )
 }
-;
 fn
 ret_int2
 (
@@ -8469,7 +8518,6 @@ i
 )
 )
 }
-;
 /
 /
 trace_macros
@@ -8726,7 +8774,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -8759,7 +8807,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 4
 )
@@ -8770,11 +8818,10 @@ Size
 }
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 #
 [
@@ -8906,7 +8953,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 5
 )

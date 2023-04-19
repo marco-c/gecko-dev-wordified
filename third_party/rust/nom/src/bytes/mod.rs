@@ -1,7 +1,7 @@
 /
 /
 !
-parsers
+Parsers
 recognizing
 bytes
 streams
@@ -14,9 +14,9 @@ macros
 ;
 pub
 mod
-streaming
+complete
 ;
 pub
 mod
-complete
+streaming
 ;

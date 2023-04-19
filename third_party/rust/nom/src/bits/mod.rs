@@ -1,7 +1,7 @@
 /
 /
 !
-bit
+Bit
 level
 parsers
 /
@@ -16,11 +16,11 @@ macros
 ;
 pub
 mod
-streaming
+complete
 ;
 pub
 mod
-complete
+streaming
 ;
 use
 crate
@@ -30,8 +30,8 @@ error
 :
 :
 {
-ParseError
 ErrorKind
+ParseError
 }
 ;
 use
@@ -70,8 +70,8 @@ traits
 :
 :
 {
-Slice
 ErrorConvert
+Slice
 }
 ;
 /
@@ -190,6 +190,18 @@ take
 /
 /
 /
+use
+nom
+:
+:
+error
+:
+:
+Error
+;
+/
+/
+/
 /
 /
 /
@@ -226,10 +238,10 @@ take
 _
 _
 _
-(
+Error
+<
 _
-_
-)
+>
 >
 (
 4usize
@@ -333,6 +345,7 @@ I
 P
 >
 (
+mut
 parser
 :
 P
@@ -340,7 +353,7 @@ P
 -
 >
 impl
-Fn
+FnMut
 (
 I
 )
@@ -364,7 +377,7 @@ usize
 >
 P
 :
-Fn
+FnMut
 (
 (
 I
@@ -475,6 +488,10 @@ map
 u
 |
 u
+.
+get
+(
+)
 /
 8
 +
@@ -599,7 +616,7 @@ usize
 >
 P
 :
-Fn
+FnMut
 (
 (
 I
@@ -931,6 +948,7 @@ usize
 P
 >
 (
+mut
 parser
 :
 P
@@ -938,7 +956,7 @@ P
 -
 >
 impl
-Fn
+FnMut
 (
 (
 I
@@ -970,7 +988,7 @@ usize
 Clone
 P
 :
-Fn
+FnMut
 (
 I
 )
@@ -1043,10 +1061,6 @@ i
 =
 (
 input
-.
-clone
-(
-)
 offset
 )
 ;
@@ -1126,6 +1140,10 @@ Err
 match
 sz
 .
+get
+(
+)
+.
 checked_mul
 (
 8
@@ -1145,7 +1163,7 @@ Incomplete
 Needed
 :
 :
-Size
+new
 (
 v
 )
@@ -1298,7 +1316,7 @@ usize
 Clone
 P
 :
-Fn
+FnMut
 (
 I
 )

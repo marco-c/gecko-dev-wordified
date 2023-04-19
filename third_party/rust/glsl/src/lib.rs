@@ -616,6 +616,8 @@ parser
 :
 :
 Parse
+as
+_
 ;
 /
 /
@@ -1014,6 +1016,8 @@ parser
 :
 :
 Parse
+as
+_
 ;
 /
 /

@@ -1,7 +1,7 @@
 /
 /
 !
-bit
+Bit
 level
 parsers
 /
@@ -46,10 +46,10 @@ ops
 :
 {
 AddAssign
+Div
 RangeFrom
 Shl
 Shr
-Div
 }
 ;
 use
@@ -69,7 +69,7 @@ ToUsize
 /
 /
 /
-generates
+Generates
 a
 parser
 taking
@@ -451,7 +451,7 @@ acc
 /
 /
 /
-generates
+Generates
 a
 parser
 taking
