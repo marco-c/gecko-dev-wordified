@@ -55,6 +55,14 @@ MPL
 .
 import
 copy
+from
+taskgraph
+.
+util
+.
+attributes
+import
+keymatch
 import
 gecko_taskgraph
 from
@@ -72,7 +80,6 @@ util
 .
 attributes
 import
-keymatch
 is_try
 from
 gecko_taskgraph
