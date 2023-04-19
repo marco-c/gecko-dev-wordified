@@ -220,14 +220,14 @@ h
 #
 include
 "
-log
+avutil
 .
 h
 "
 #
 include
 "
-macros
+log
 .
 h
 "

@@ -247,6 +247,13 @@ stdint
 .
 h
 >
+#
+include
+"
+version
+.
+h
+"
 /
 *
 *

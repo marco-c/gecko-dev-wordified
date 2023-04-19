@@ -171,11 +171,13 @@ define
 AVCODEC_XIPH_H
 #
 include
-<
-stdint
+"
+libavutil
+/
+common
 .
 h
->
+"
 /
 *
 *

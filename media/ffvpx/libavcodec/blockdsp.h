@@ -180,6 +180,13 @@ avcodec
 .
 h
 "
+#
+include
+"
+version
+.
+h
+"
 /
 *
 add

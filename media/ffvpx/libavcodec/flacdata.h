@@ -174,11 +174,11 @@ define
 AVCODEC_FLACDATA_H
 #
 include
-<
-stdint
+"
+internal
 .
 h
->
+"
 extern
 const
 int

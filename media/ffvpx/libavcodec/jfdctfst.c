@@ -694,7 +694,14 @@ dct
 #
 include
 <
-stdint
+stdlib
+.
+h
+>
+#
+include
+<
+stdio
 .
 h
 >
@@ -703,7 +710,7 @@ include
 "
 libavutil
 /
-attributes
+common
 .
 h
 "
