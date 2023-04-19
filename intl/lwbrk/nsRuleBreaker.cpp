@@ -101,6 +101,13 @@ nsComplexBreaker
 h
 "
 #
+include
+"
+nsDebug
+.
+h
+"
+#
 define
 TH_UNICODE
 #
