@@ -331,17 +331,6 @@ card
 autofill
 feature
 .
-FormAutofill
-.
-defineLazyLogGetter
-(
-lazy
-EXPORTED_SYMBOLS
-[
-0
-]
-)
-;
 const
 HTML_NS
 =

@@ -8319,17 +8319,6 @@ id
 }
 }
 ;
-FormAutofill
-.
-defineLazyLogGetter
-(
-lazy
-EXPORTED_SYMBOLS
-[
-0
-]
-)
-;
 XPCOMUtils
 .
 defineLazyGetter

@@ -1629,11 +1629,15 @@ validComputedFields
 schemaVersion
 )
 {
+this
+.
+log
+=
 FormAutofill
 .
-defineLazyLogGetter
+defineLogGetter
 (
-this
+lazy
 "
 AutofillRecords
 :
