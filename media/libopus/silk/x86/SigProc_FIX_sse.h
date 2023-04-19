@@ -377,6 +377,9 @@ OPUS_X86_PRESUME_SSE4_1
 )
 #
 define
+OVERRIDE_silk_burg_modified
+#
+define
 silk_burg_modified
 (
 res_nrg
@@ -411,7 +414,11 @@ arch
 )
 )
 #
-else
+elif
+defined
+(
+OPUS_HAVE_RTCD
+)
 extern
 void
 (
@@ -553,6 +560,9 @@ architecture
 ;
 #
 define
+OVERRIDE_silk_burg_modified
+#
+define
 silk_burg_modified
 (
 res_nrg
@@ -616,6 +626,9 @@ OPUS_X86_PRESUME_SSE4_1
 )
 #
 define
+OVERRIDE_silk_inner_prod16
+#
+define
 silk_inner_prod16
 (
 inVec1
@@ -639,7 +652,11 @@ len
 )
 )
 #
-else
+elif
+defined
+(
+OPUS_HAVE_RTCD
+)
 extern
 opus_int64
 (
@@ -666,6 +683,9 @@ opus_int
 len
 )
 ;
+#
+define
+OVERRIDE_silk_inner_prod16
 #
 define
 silk_inner_prod16

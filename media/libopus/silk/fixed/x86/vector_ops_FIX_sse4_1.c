@@ -270,6 +270,17 @@ pitch
 .
 h
 "
+#
+include
+"
+celt
+/
+x86
+/
+x86cpu
+.
+h
+"
 opus_int64
 silk_inner_prod16_sse4_1
 (
@@ -518,7 +529,7 @@ i
 {
 sum
 =
-silk_SMLABB
+silk_SMLALBB
 (
 sum
 inVec1
