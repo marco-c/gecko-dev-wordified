@@ -410,6 +410,7 @@ CallerType
 aCallerType
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 PrefChanged
@@ -423,6 +424,7 @@ void
 aSelf
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PrefChanged
 (
@@ -948,6 +950,7 @@ not
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateCaretForCaretBrowsingMode
 (
@@ -3470,6 +3473,7 @@ not
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateCaret
 (
@@ -3500,7 +3504,7 @@ aContent
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 MoveCaretToFocus
 (
