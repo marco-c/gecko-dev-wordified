@@ -331,15 +331,6 @@ mozilla
 dom
 :
 :
-AnimationEffect
-;
-using
-mozilla
-:
-:
-dom
-:
-:
 AnimationPlayState
 ;
 using
