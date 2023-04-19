@@ -3361,7 +3361,7 @@ objReg
 ;
 regs
 .
-take
+takeUnchecked
 (
 BaselineFrameReg
 )
@@ -9689,7 +9689,7 @@ All
 ;
 regs
 .
-take
+takeUnchecked
 (
 BaselineFrameReg
 )
@@ -22468,7 +22468,7 @@ All
 ;
 regs
 .
-take
+takeUnchecked
 (
 BaselineFrameReg
 )
@@ -31899,7 +31899,7 @@ All
 ;
 regs
 .
-take
+takeUnchecked
 (
 BaselineFrameReg
 )
@@ -34967,7 +34967,7 @@ All
 ;
 regs
 .
-take
+takeUnchecked
 (
 BaselineFrameReg
 )

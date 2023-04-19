@@ -1580,6 +1580,16 @@ Registers
 :
 sp
 )
+|
+(
+1
+<
+<
+Registers
+:
+:
+fp
+)
 ;
 static
 const

@@ -14863,7 +14863,7 @@ All
 ;
 enterRegs
 .
-take
+takeUnchecked
 (
 BaselineFrameReg
 )

@@ -2339,8 +2339,6 @@ const
 JitCallStackArgVector
 &
 stackArgs
-bool
-profilingEnabled
 jit
 :
 :
