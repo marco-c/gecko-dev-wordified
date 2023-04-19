@@ -587,9 +587,6 @@ mPreparingForPrint
 see
 comments
 above
-int32_t
-mNumPrintablePages
-;
 private
 :
 nsPrintData

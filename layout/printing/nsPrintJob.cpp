@@ -7387,9 +7387,6 @@ n
 ;
 CalcNumPrintablePages
 (
-printData
--
->
 mNumPrintablePages
 )
 ;
@@ -7407,9 +7404,6 @@ pages
 \
 n
 "
-printData
--
->
 mNumPrintablePages
 )
 )
@@ -7557,9 +7551,6 @@ startPage
 int32_t
 endPage
 =
-printData
--
->
 mNumPrintablePages
 ;
 nsTArray
@@ -7625,9 +7616,6 @@ std
 :
 min
 (
-printData
--
->
 mNumPrintablePages
 std
 :
