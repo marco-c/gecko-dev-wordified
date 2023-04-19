@@ -226,11 +226,6 @@ ComputedTiming
 h
 "
 "
-ComputedTimingFunction
-.
-h
-"
-"
 EffectCompositor
 .
 h
@@ -307,11 +302,6 @@ cpp
 "
 "
 AnimationUtils
-.
-cpp
-"
-"
-ComputedTimingFunction
 .
 cpp
 "

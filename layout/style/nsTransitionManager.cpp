@@ -3273,7 +3273,7 @@ Backwards
 )
 ;
 const
-nsTimingFunction
+StyleComputedTimingFunction
 &
 tf
 =
@@ -3289,7 +3289,7 @@ if
 !
 tf
 .
-IsLinear
+IsLinearKeyword
 (
 )
 )
@@ -3300,10 +3300,7 @@ SetTimingFunction
 (
 Some
 (
-ComputedTimingFunction
-(
 tf
-)
 )
 )
 ;

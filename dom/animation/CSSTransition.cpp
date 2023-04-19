@@ -2006,7 +2006,7 @@ IsNull
 double
 valuePosition
 =
-ComputedTimingFunction
+StyleComputedTimingFunction
 :
 :
 GetPortion

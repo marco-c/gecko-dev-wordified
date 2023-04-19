@@ -319,7 +319,7 @@ const
 nsACString
 &
 aValue
-nsTimingFunction
+StyleComputedTimingFunction
 &
 aResult
 )

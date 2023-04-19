@@ -850,7 +850,7 @@ mOffset
 ;
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 mTimingFunction
 ;
@@ -8732,7 +8732,7 @@ FallibleTArray
 <
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 >
 easings

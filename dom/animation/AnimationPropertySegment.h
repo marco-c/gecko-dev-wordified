@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-ComputedTimingFunction
+ServoStyleConsts
 .
 h
 "
@@ -210,7 +210,7 @@ mToValue
 ;
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 mTimingFunction
 ;

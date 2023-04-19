@@ -6951,7 +6951,7 @@ aOffset
 const
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 &
 aTimingFunction

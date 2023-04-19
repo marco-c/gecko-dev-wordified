@@ -176,9 +176,6 @@ namespace
 mozilla
 {
 class
-ComputedTimingFunction
-;
-class
 EffectSet
 ;
 namespace

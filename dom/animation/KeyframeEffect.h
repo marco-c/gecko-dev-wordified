@@ -217,15 +217,6 @@ include
 "
 mozilla
 /
-ComputedTimingFunction
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EffectCompositor
 .
 h

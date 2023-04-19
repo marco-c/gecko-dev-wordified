@@ -160,7 +160,7 @@ include
 "
 mozilla
 /
-ComputedTimingFunction
+ServoStyleConsts
 .
 h
 "
@@ -539,7 +539,7 @@ kComputedOffsetNotSet
 ;
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 mTimingFunction
 ;

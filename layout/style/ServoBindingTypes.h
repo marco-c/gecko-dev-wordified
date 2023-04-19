@@ -1229,9 +1229,6 @@ nsPresContext
 struct
 nsFontFaceRuleContainer
 ;
-struct
-nsTimingFunction
-;
 namespace
 mozilla
 {

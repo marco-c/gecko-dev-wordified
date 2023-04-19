@@ -14915,7 +14915,10 @@ SetInitialValues
 {
 mTimingFunction
 =
-nsTimingFunction
+StyleComputedTimingFunction
+:
+:
+Keyword
 (
 StyleTimingKeyword
 :
@@ -15027,7 +15030,10 @@ SetInitialValues
 {
 mTimingFunction
 =
-nsTimingFunction
+StyleComputedTimingFunction
+:
+:
+Keyword
 (
 StyleTimingKeyword
 :
