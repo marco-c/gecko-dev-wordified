@@ -107,12 +107,6 @@ env
 node
 *
 /
-/
-*
-global
-serverPort
-*
-/
 "
 use
 strict

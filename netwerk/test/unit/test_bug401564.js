@@ -66,14 +66,6 @@ content
 "
 ;
 const
-pageValue
-=
-"
-Final
-page
-"
-;
-const
 acceptType
 =
 "

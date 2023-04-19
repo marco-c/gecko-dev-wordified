@@ -79,13 +79,6 @@ js
 "
 )
 ;
-const
-BUGID
-=
-"
-203271
-"
-;
 var
 httpserver
 =

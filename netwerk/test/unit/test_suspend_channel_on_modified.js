@@ -23,13 +23,6 @@ use
 strict
 "
 ;
-var
-CC
-=
-Components
-.
-Constructor
-;
 const
 {
 HttpServer

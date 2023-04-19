@@ -259,12 +259,6 @@ httpbodyGZip
 ]
 ;
 var
-buffer
-=
-"
-"
-;
-var
 dbg
 =
 0

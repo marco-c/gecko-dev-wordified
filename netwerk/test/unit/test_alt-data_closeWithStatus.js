@@ -300,11 +300,6 @@ binary
 "
 ;
 var
-servedNotModified
-=
-false
-;
-var
 shouldPassRevalidation
 =
 true
@@ -427,10 +422,6 @@ Not
 Modified
 "
 )
-;
-servedNotModified
-=
-true
 ;
 }
 else

@@ -1497,9 +1497,13 @@ do_test_finished
 )
 ;
 }
-var
-redirector
-=
+/
+/
+Needed
+for
+side
+-
+effects
 new
 Redirector
 (

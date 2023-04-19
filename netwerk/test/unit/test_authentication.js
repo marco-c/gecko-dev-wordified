@@ -1697,11 +1697,6 @@ TYPE_OTHER
 ;
 }
 var
-current_test
-=
-0
-;
-var
 httpserv
 =
 null

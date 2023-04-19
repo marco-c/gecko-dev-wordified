@@ -129,9 +129,6 @@ var
 channel
 ;
 var
-ios
-;
-var
 dbg
 =
 0

@@ -150,12 +150,6 @@ env
 node
 *
 /
-/
-*
-global
-serverPort
-*
-/
 "
 use
 strict
@@ -186,9 +180,6 @@ service
 getService
 (
 )
-;
-let
-proxy_port
 ;
 let
 filter

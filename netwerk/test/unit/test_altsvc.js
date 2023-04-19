@@ -1340,11 +1340,6 @@ var
 xaltsvc
 ;
 var
-retryCounter
-=
-0
-;
-var
 loadWithoutClearingMappings
 =
 false

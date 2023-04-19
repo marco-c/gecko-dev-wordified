@@ -251,11 +251,6 @@ OK
 )
 ;
 }
-let
-gIsFromCache
-=
-0
-;
 function
 checkContent
 (

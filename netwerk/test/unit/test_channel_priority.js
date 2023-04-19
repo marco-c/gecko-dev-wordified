@@ -567,6 +567,12 @@ for
 e10s
 XPCShell
 test
+/
+*
+exported
+configPort
+*
+/
 function
 configPort
 (

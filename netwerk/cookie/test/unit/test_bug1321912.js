@@ -381,9 +381,6 @@ initialization
 in
 cookie
 thread
-const
-cookies
-=
 Services
 .
 cookies

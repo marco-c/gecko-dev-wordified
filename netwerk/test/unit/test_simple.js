@@ -72,12 +72,6 @@ httpbody
 "
 ;
 var
-buffer
-=
-"
-"
-;
-var
 dbg
 =
 0

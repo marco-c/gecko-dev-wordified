@@ -113,9 +113,6 @@ length
 ;
 }
 var
-requestList1Canceled1
-;
-var
 requestList1Canceled2
 ;
 var
@@ -308,8 +305,6 @@ canceled
 with
 cancelAsyncResolve
 .
-requestList1Canceled1
-=
 dns
 .
 asyncResolve

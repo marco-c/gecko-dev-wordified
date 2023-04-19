@@ -239,11 +239,6 @@ urgentRequests
 0
 ;
 var
-totalRequests
-=
-0
-;
-var
 debug
 =
 false
@@ -605,11 +600,6 @@ id
 id
 ;
 }
-var
-testOrder
-=
-0
-;
 HttpResponseListener
 .
 prototype
@@ -702,12 +692,6 @@ server
 urgentRequests
 =
 2
-;
-totalRequests
-=
-maxConnections
-+
-urgentRequests
 ;
 var
 allCommonHttpRequestReceived
