@@ -129,11 +129,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 JsonSchemaValidator
 :
@@ -209,7 +215,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -364,7 +370,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 DATA_COLLECTORS
 "
@@ -374,8 +380,14 @@ function
 {
 return
 [
+lazy
+.
 SchemaOrgPageData
+lazy
+.
 OpenGraphPageData
+lazy
+.
 TwitterPageData
 ]
 ;
@@ -599,6 +611,8 @@ toLocaleLowerCase
 let
 result
 =
+lazy
+.
 JsonSchemaValidator
 .
 validate
@@ -1348,6 +1362,8 @@ collectPageData
 document
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -1364,6 +1380,8 @@ documentURI
 let
 pending
 =
+lazy
+.
 DATA_COLLECTORS
 .
 map
@@ -1390,6 +1408,8 @@ catch
 e
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -1463,6 +1483,8 @@ catch
 e
 )
 {
+lazy
+.
 logConsole
 .
 error

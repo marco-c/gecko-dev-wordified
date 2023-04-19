@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -205,7 +211,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logConsole
 "
@@ -259,7 +265,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 idleService
 :
@@ -286,7 +292,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 fetchIdleTime
 "
@@ -559,6 +565,8 @@ this
 frame
 =
 new
+lazy
+.
 HiddenFrame
 (
 )
@@ -1632,6 +1640,8 @@ new
 class
 PageDataService
 extends
+lazy
+.
 EventEmitter
 {
 /
@@ -2036,6 +2046,8 @@ pageshow
 }
 )
 ;
+lazy
+.
 logConsole
 .
 debug
@@ -2051,6 +2063,8 @@ for
 let
 win
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -2117,11 +2131,15 @@ CheckLoaded
 }
 }
 }
+lazy
+.
 idleService
 .
 addIdleObserver
 (
 this
+lazy
+.
 fetchIdleTime
 )
 ;
@@ -2161,6 +2179,8 @@ uninit
 (
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -2798,6 +2818,8 @@ catch
 e
 )
 {
+lazy
+.
 logConsole
 .
 error
@@ -2861,6 +2883,8 @@ pageDataDiscovered
 pageData
 )
 {
+lazy
+.
 logConsole
 .
 debug
@@ -3139,6 +3163,8 @@ promise
 resolve
 }
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -3170,6 +3196,8 @@ getSystemPrincipal
 let
 oa
 =
+lazy
+.
 E10SUtils
 .
 predictOriginAttributes
@@ -3188,6 +3216,8 @@ triggeringPrincipal
 principal
 remoteType
 :
+lazy
+.
 E10SUtils
 .
 getRemoteTypeForURI
@@ -3195,6 +3225,8 @@ getRemoteTypeForURI
 url
 true
 false
+lazy
+.
 E10SUtils
 .
 DEFAULT_REMOTE_TYPE
@@ -3312,6 +3344,8 @@ case
 idle
 "
 :
+lazy
+.
 logConsole
 .
 debug
@@ -3344,6 +3378,8 @@ case
 active
 "
 :
+lazy
+.
 logConsole
 .
 debug
@@ -3568,6 +3604,8 @@ catch
 e
 )
 {
+lazy
+.
 logConsole
 .
 error
