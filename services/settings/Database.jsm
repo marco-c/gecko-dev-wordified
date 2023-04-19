@@ -104,11 +104,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -192,7 +198,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -200,6 +206,8 @@ console
 )
 =
 >
+lazy
+.
 Utils
 .
 log
@@ -334,6 +342,8 @@ filters
 case
 if
 (
+lazy
+.
 ObjectUtils
 .
 isEmpty
@@ -457,6 +467,8 @@ cursor
 ;
 if
 (
+lazy
+.
 Utils
 .
 filterObject
@@ -513,6 +525,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -555,6 +569,8 @@ _cid
 return
 order
 ?
+lazy
+.
 Utils
 .
 sortObjects
@@ -1040,6 +1056,8 @@ r
 deleted
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -1072,6 +1090,8 @@ for
 each
 tombstone
 .
+lazy
+.
 IDBHelpers
 .
 bulkOperationHelper
@@ -1091,6 +1111,8 @@ Overwrite
 all
 other
 data
+.
+lazy
 .
 IDBHelpers
 .
@@ -1168,6 +1190,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1247,6 +1271,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1323,6 +1349,8 @@ value
 )
 )
 {
+lazy
+.
 console
 .
 warn
@@ -1413,6 +1441,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1508,6 +1538,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1619,6 +1651,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1667,6 +1701,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1722,6 +1758,8 @@ record
 record
 id
 :
+lazy
+.
 CommonUtils
 .
 generateUUID
@@ -1784,6 +1822,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1864,6 +1904,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -1942,6 +1984,8 @@ e
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -2088,6 +2132,8 @@ needed
 .
 gDBPromise
 =
+lazy
+.
 IDBHelpers
 .
 openIDB
@@ -2287,6 +2333,8 @@ shuttingDown
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 ShutdownError
@@ -2391,6 +2439,8 @@ shuttingDown
 {
 throw
 new
+lazy
+.
 IDBHelpers
 .
 ShutdownError
@@ -2438,6 +2488,8 @@ promise
 transaction
 }
 =
+lazy
+.
 IDBHelpers
 .
 executeIDB
@@ -3061,6 +3113,8 @@ gShutdownBlocker
 =
 true
 ;
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange

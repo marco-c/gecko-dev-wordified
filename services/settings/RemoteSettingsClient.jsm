@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppConstants
 :
@@ -313,7 +319,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 console
 "
@@ -321,6 +327,8 @@ console
 )
 =
 >
+lazy
+.
 Utils
 .
 log
@@ -940,6 +948,8 @@ UnknownCollectionError
 class
 AttachmentDownloader
 extends
+lazy
+.
 Downloader
 {
 constructor
@@ -1126,6 +1136,8 @@ error
 let
 status
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -1134,6 +1146,8 @@ DOWNLOAD_ERROR
 ;
 if
 (
+lazy
+.
 Utils
 .
 isOffline
@@ -1141,6 +1155,8 @@ isOffline
 {
 status
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -1165,6 +1181,8 @@ message
 {
 status
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -1189,6 +1207,8 @@ in
 Telemetry
 .
 await
+lazy
+.
 UptakeTelemetry
 .
 report
@@ -1372,6 +1392,8 @@ collectionName
 {
 bucketName
 =
+lazy
+.
 AppConstants
 .
 REMOTE_SETTINGS_DEFAULT_BUCKET
@@ -1453,6 +1475,8 @@ this
 .
 bucketName
 =
+lazy
+.
 Utils
 .
 actualBucketName
@@ -1524,6 +1548,8 @@ this
 .
 verifySignature
 =
+lazy
+.
 AppConstants
 .
 REMOTE_SETTINGS_VERIFY_SIGNATURE
@@ -1541,6 +1567,8 @@ db
 =
 >
 new
+lazy
+.
 Database
 (
 this
@@ -1608,6 +1636,8 @@ this
 .
 bucketName
 =
+lazy
+.
 Utils
 .
 actualBucketName
@@ -1687,14 +1717,20 @@ const
 api
 =
 new
+lazy
+.
 KintoHttpClient
 (
+lazy
+.
 Utils
 .
 SERVER_URL
 {
 fetchFunc
 :
+lazy
+.
 Utils
 .
 fetch
@@ -1812,6 +1848,8 @@ catch
 err
 )
 {
+lazy
+.
 console
 .
 warn
@@ -2143,6 +2181,8 @@ async
 const
 importedFromDump
 =
+lazy
+.
 Utils
 .
 LOAD_DUMPS
@@ -2214,6 +2254,8 @@ callbacks
 See
 Bug
 1761953
+lazy
+.
 console
 .
 debug
@@ -2291,6 +2333,8 @@ true
 }
 else
 {
+lazy
+.
 console
 .
 debug
@@ -2352,6 +2396,8 @@ let
 lastModifiedDump
 =
 await
+lazy
+.
 Utils
 .
 getLocalDumpLastModified
@@ -2371,6 +2417,8 @@ lastModified
 lastModifiedDump
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2519,6 +2567,8 @@ importedFromDump
 }
 else
 {
+lazy
+.
 console
 .
 debug
@@ -2734,6 +2784,8 @@ data
 }
 =
 await
+lazy
+.
 SharedUtils
 .
 loadJSONDump
@@ -2755,6 +2807,8 @@ data
 null
 )
 {
+lazy
+.
 console
 .
 info
@@ -2774,6 +2828,8 @@ dump
 }
 else
 {
+lazy
+.
 console
 .
 info
@@ -2800,6 +2856,8 @@ data
 if
 (
 !
+lazy
+.
 ObjectUtils
 .
 isEmpty
@@ -2817,6 +2875,8 @@ filter
 r
 =
 >
+lazy
+.
 Utils
 .
 filterObject
@@ -2834,6 +2894,8 @@ order
 {
 data
 =
+lazy
+.
 Utils
 .
 sortObjects
@@ -2888,6 +2950,8 @@ data
 )
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -2913,6 +2977,8 @@ if
 verifySignature
 )
 {
+lazy
+.
 console
 .
 debug
@@ -2934,6 +3000,8 @@ read
 const
 allData
 =
+lazy
+.
 ObjectUtils
 .
 isEmpty
@@ -2999,6 +3067,8 @@ if
 syncIfEmpty
 &
 &
+lazy
+.
 ObjectUtils
 .
 isEmpty
@@ -3130,6 +3200,8 @@ _filterEntries
 data
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -3232,10 +3304,14 @@ changes
 }
 =
 await
+lazy
+.
 Utils
 .
 fetchLatestChanges
 (
+lazy
+.
 Utils
 .
 SERVER_URL
@@ -3518,6 +3594,8 @@ const
 {
 loadDump
 =
+lazy
+.
 Utils
 .
 LOAD_DUMPS
@@ -3569,6 +3647,8 @@ this
 _syncRunning
 )
 {
+lazy
+.
 console
 .
 warn
@@ -3611,6 +3691,8 @@ startup
 shuttingDown
 )
 {
+lazy
+.
 console
 .
 warn
@@ -3675,6 +3757,8 @@ synchronize
 .
 if
 (
+lazy
+.
 Utils
 .
 isOffline
@@ -3852,6 +3936,8 @@ imported
 0
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3970,6 +4056,8 @@ expectedTimestamp
 collectionLastModified
 )
 {
+lazy
+.
 console
 .
 debug
@@ -3991,6 +4079,8 @@ date
 ;
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -4038,6 +4128,8 @@ this
 verifySignature
 &
 &
+lazy
+.
 ObjectUtils
 .
 isEmpty
@@ -4046,6 +4138,8 @@ localMetadata
 )
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4148,6 +4242,8 @@ length
 0
 )
 {
+lazy
+.
 console
 .
 debug
@@ -4526,12 +4622,16 @@ e
 instanceof
 CorruptedDataError
 ?
+lazy
+.
 UptakeTelemetry
 .
 STATUS
 .
 CORRUPTION_ERROR
 :
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -4583,6 +4683,8 @@ collection
 .
 try
 {
+lazy
+.
 console
 .
 warn
@@ -4659,6 +4761,8 @@ error
 .
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -4707,6 +4811,8 @@ e
 {
 default
 :
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -4797,6 +4903,8 @@ e
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -4810,6 +4918,8 @@ e
 }
 else
 {
+lazy
+.
 console
 .
 info
@@ -4877,6 +4987,8 @@ shuttingDown
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -4932,6 +5044,8 @@ e
 {
 default
 :
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -4979,6 +5093,8 @@ null
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5053,6 +5169,8 @@ Nightly
 const
 channel
 =
+lazy
+.
 UptakeTelemetry
 .
 Policy
@@ -5079,11 +5197,15 @@ nightly
 &
 &
 [
+lazy
+.
 UptakeTelemetry
 .
 STATUS
 .
 SYNC_ERROR
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5093,11 +5215,15 @@ CUSTOM_1_ERROR
 /
 IndexedDB
 .
+lazy
+.
 UptakeTelemetry
 .
 STATUS
 .
 UNKNOWN_ERROR
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5166,6 +5292,8 @@ name
 ;
 }
 await
+lazy
+.
 UptakeTelemetry
 .
 report
@@ -5175,6 +5303,8 @@ reportStatus
 reportArgs
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -5248,6 +5378,8 @@ NetworkOfflineError
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5260,6 +5392,8 @@ if
 (
 e
 instanceof
+lazy
+.
 IDBHelpers
 .
 ShutdownError
@@ -5267,6 +5401,8 @@ ShutdownError
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5291,6 +5427,8 @@ message
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5315,6 +5453,8 @@ message
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5339,6 +5479,8 @@ message
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5366,6 +5508,8 @@ message
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5390,6 +5534,8 @@ message
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5412,6 +5558,8 @@ adapter
 .
 e
 instanceof
+lazy
+.
 IDBHelpers
 .
 IndexedDBError
@@ -5442,6 +5590,8 @@ message
 {
 reportStatus
 =
+lazy
+.
 UptakeTelemetry
 .
 STATUS
@@ -5479,6 +5629,8 @@ _importJSONDump
 (
 )
 {
+lazy
+.
 console
 .
 info
@@ -5498,6 +5650,8 @@ const
 result
 =
 await
+lazy
+.
 RemoteSettingsWorker
 .
 importJSONDump
@@ -5517,6 +5671,8 @@ result
 0
 )
 {
+lazy
+.
 console
 .
 debug
@@ -5534,6 +5690,8 @@ available
 }
 else
 {
+lazy
+.
 console
 .
 info
@@ -5731,6 +5889,8 @@ certChain
 await
 (
 await
+lazy
+.
 Utils
 .
 fetch
@@ -5761,6 +5921,8 @@ const
 serialized
 =
 await
+lazy
+.
 RemoteSettingsWorker
 .
 canonicalStringify
@@ -5994,6 +6156,8 @@ changes
 from
 server
 .
+lazy
+.
 console
 .
 debug
@@ -6097,6 +6261,8 @@ but
 not
 the
 data
+.
+lazy
 .
 console
 .
@@ -6228,6 +6394,8 @@ catch
 e
 )
 {
+lazy
+.
 console
 .
 error
@@ -6331,6 +6499,8 @@ localTrustworthy
 =
 false
 ;
+lazy
+.
 console
 .
 debug
@@ -6397,6 +6567,8 @@ throw
 sigerr
 ;
 }
+lazy
+.
 console
 .
 debug
@@ -6444,6 +6616,8 @@ remote
 changes
 )
 .
+lazy
+.
 console
 .
 debug
@@ -6481,6 +6655,8 @@ retry
 from
 empty
 DB
+.
+lazy
 .
 console
 .
@@ -6632,6 +6808,8 @@ e
 }
 else
 {
+lazy
+.
 console
 .
 warn
@@ -6808,6 +6986,8 @@ values
 )
 )
 ;
+lazy
+.
 console
 .
 debug
@@ -7326,6 +7506,8 @@ environment
 =
 cacheProxy
 (
+lazy
+.
 ClientEnvironmentBase
 )
 ;
