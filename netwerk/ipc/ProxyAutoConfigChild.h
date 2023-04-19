@@ -101,11 +101,6 @@ define
 ProxyAutoConfigChild_h__
 #
 include
-<
-functional
->
-#
-include
 "
 mozilla
 /

@@ -75,13 +75,6 @@ MPL
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsNativeCharsetUtils
 .
 h

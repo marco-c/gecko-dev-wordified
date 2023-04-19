@@ -159,13 +159,6 @@ h
 #
 include
 "
-mozStorageBindingParamsArray
-.
-h
-"
-#
-include
-"
 Variant
 .
 h

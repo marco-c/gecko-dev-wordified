@@ -170,14 +170,7 @@ h
 #
 include
 "
-nsCRT
-.
-h
-"
-#
-include
-"
-nsICancelableRunnable
+nsICancelable
 .
 h
 "
