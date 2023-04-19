@@ -370,7 +370,7 @@ this
 suspendOnBeforeConnect
 )
 {
-let
+var
 chan
 =
 subject
@@ -450,7 +450,7 @@ this
 suspendOnModifyRequest
 )
 {
-let
+var
 chan
 =
 subject

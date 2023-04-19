@@ -38,7 +38,7 @@ a
 bit
 later
 var
-url
+URL
 =
 null
 ;
@@ -155,17 +155,17 @@ js
 function
 load_channel
 (
-channelUrl
+url
 )
 {
 ok
 (
-channelUrl
+url
 )
 ;
-url
+URL
 =
-channelUrl
+url
 ;
 /
 /
@@ -183,7 +183,7 @@ chan
 =
 make_channel
 (
-channelUrl
+url
 )
 ;
 var
@@ -232,7 +232,7 @@ null
 function
 make_channel
 (
-channelUrl
+url
 callback
 ctx
 )
@@ -245,7 +245,7 @@ newChannel
 {
 uri
 :
-channelUrl
+url
 loadUsingSystemPrincipal
 :
 true
@@ -433,7 +433,7 @@ chan
 =
 make_channel
 (
-url
+URL
 )
 ;
 var

@@ -203,16 +203,7 @@ info
 )
 {
 throw
-Components
-.
-Exception
-(
-"
-"
-Cr
-.
-NS_ERROR_NOT_IMPLEMENTED
-)
+0x80004001
 ;
 }
 }

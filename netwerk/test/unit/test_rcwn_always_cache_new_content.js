@@ -503,7 +503,7 @@ in
 the
 cache
 .
-let
+var
 channel
 =
 make_channel
@@ -567,6 +567,7 @@ triggering
 the
 network
 .
+var
 channel
 =
 make_channel
@@ -655,6 +656,7 @@ specifying
 VALIDATE_NEVER
 flag
 .
+var
 channel
 =
 make_channel

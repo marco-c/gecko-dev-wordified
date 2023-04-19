@@ -4504,7 +4504,7 @@ test_filterWhitespace
 (
 )
 {
-let
+var
 url
 =
 stringToURL
@@ -4639,6 +4639,7 @@ not
 filter
 them
 .
+var
 url
 =
 stringToURL
@@ -5713,7 +5714,7 @@ t
 continue
 ;
 }
-let
+var
 url
 =
 stringToURL
@@ -5833,7 +5834,7 @@ check
 the
 setters
 .
-let
+var
 url
 =
 stringToURL
@@ -6260,7 +6261,7 @@ map
 stringToURL
 )
 ;
-let
+var
 url
 ;
 for
@@ -6535,6 +6536,7 @@ spec
 )
 ;
 }
+var
 url
 =
 stringToURL

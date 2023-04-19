@@ -299,7 +299,7 @@ prefs
 ;
 for
 (
-let
+var
 pref
 of
 prefData
@@ -472,7 +472,7 @@ finally
 {
 for
 (
-let
+var
 pref
 of
 prefData

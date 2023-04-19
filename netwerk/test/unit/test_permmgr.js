@@ -421,7 +421,7 @@ hosts
 in
 for
 (
-let
+var
 i
 =
 0
@@ -494,7 +494,7 @@ the
 result
 for
 (
-let
+var
 i
 =
 0
@@ -633,7 +633,7 @@ hosts
 .
 for
 (
-let
+var
 j
 =
 0
@@ -677,7 +677,7 @@ equal
 .
 for
 (
-let
+var
 i
 =
 0
@@ -695,7 +695,7 @@ i
 {
 for
 (
-let
+var
 j
 =
 0

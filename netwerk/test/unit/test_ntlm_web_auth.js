@@ -629,12 +629,6 @@ metadata
 response
 )
 {
-let
-authorization
-;
-let
-authPrefix
-;
 switch
 (
 requestsMade
@@ -710,6 +704,7 @@ message
 from
 the
 client
+var
 authorization
 =
 metadata
@@ -721,6 +716,7 @@ Authorization
 "
 )
 ;
+var
 authPrefix
 =
 authorization
@@ -791,6 +787,7 @@ message
 from
 the
 client
+var
 authorization
 =
 metadata
@@ -802,6 +799,7 @@ Authorization
 "
 )
 ;
+var
 authPrefix
 =
 authorization
@@ -855,6 +853,7 @@ further
 requests
 are
 permitted
+var
 authorization
 =
 metadata
@@ -910,12 +909,6 @@ metadata
 response
 )
 {
-let
-authorization
-;
-let
-authPrefix
-;
 switch
 (
 requestsMade
@@ -985,6 +978,7 @@ message
 from
 the
 client
+var
 authorization
 =
 metadata
@@ -996,6 +990,7 @@ Authorization
 "
 )
 ;
+var
 authPrefix
 =
 authorization
@@ -1078,6 +1073,7 @@ the
 auth
 sequence
 .
+var
 authorization
 =
 metadata
@@ -1089,6 +1085,7 @@ Authorization
 "
 )
 ;
+var
 authPrefix
 =
 authorization

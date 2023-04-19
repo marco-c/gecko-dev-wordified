@@ -1146,7 +1146,7 @@ xhr
 ;
 for
 (
-let
+var
 i
 =
 0
@@ -1248,7 +1248,7 @@ i
 }
 for
 (
-let
+var
 i
 =
 0

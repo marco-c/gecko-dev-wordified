@@ -307,7 +307,7 @@ processAsync
 (
 )
 ;
-let
+var
 slice
 =
 responseBody
@@ -339,7 +339,7 @@ finish
 }
 else
 {
-let
+var
 slice
 =
 responseBody

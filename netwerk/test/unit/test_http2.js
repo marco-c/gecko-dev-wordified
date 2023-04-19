@@ -4640,7 +4640,7 @@ n
 "
 )
 ;
-let
+var
 chan
 =
 makeChan
@@ -4767,7 +4767,7 @@ ok
 isHttp2Connection
 )
 ;
-let
+var
 chan
 =
 makeChan
