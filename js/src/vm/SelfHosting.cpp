@@ -18124,6 +18124,12 @@ ec
 cx
 -
 >
+stackLimitForCurrentPrincipal
+(
+)
+cx
+-
+>
 tempLifoAlloc
 (
 )

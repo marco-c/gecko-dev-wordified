@@ -41766,6 +41766,12 @@ ParseModuleToExtensibleStencil
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 input
 .
 get
@@ -41787,6 +41793,12 @@ CompileGlobalScriptToExtensibleStencil
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 input
 .
 get

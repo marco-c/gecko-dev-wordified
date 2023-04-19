@@ -832,6 +832,12 @@ CompileModule
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 options
 srcBuf
 )

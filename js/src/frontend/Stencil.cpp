@@ -29947,6 +29947,12 @@ ec
 cx
 -
 >
+stackLimitForCurrentPrincipal
+(
+)
+cx
+-
+>
 tempLifoAlloc
 (
 )
@@ -30172,6 +30178,12 @@ ParseModuleToStencil
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 input
 .
 get
