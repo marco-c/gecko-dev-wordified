@@ -405,6 +405,23 @@ parameters
 import
 register_parameters
     
+from
+gecko_taskgraph
+import
+(
+#
+noqa
+:
+trigger
+target
+task
+method
+registration
+        
+target_tasks
+    
+)
+    
 register_parameters
 (
 )
