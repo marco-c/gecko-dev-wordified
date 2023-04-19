@@ -905,6 +905,12 @@ tests
 /
 gtest
 "
+"
+/
+xpcom
+/
+components
+"
 ]
 GeneratedFile
 (
