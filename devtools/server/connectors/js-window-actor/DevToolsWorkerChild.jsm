@@ -776,6 +776,7 @@ sessionData
 if
 (
 targets
+?
 .
 includes
 (

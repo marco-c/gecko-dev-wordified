@@ -889,6 +889,7 @@ if
 sessionData
 .
 targets
+?
 .
 includes
 (
