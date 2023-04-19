@@ -1046,13 +1046,6 @@ h
 "
 ipc
 /
-LayerAnimationUtils
-.
-h
-"
-"
-ipc
-/
 LayersMessageUtils
 .
 h
@@ -2468,13 +2461,6 @@ cpp
 ipc
 /
 KnowsCompositor
-.
-cpp
-"
-"
-ipc
-/
-LayerAnimationUtils
 .
 cpp
 "
