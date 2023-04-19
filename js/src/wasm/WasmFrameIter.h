@@ -1538,7 +1538,7 @@ entry
 stub
 to
 obtain
-tls
+instance
 that
 corresponds
 to

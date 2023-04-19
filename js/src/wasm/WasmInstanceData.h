@@ -589,7 +589,7 @@ and
 /
 /
 a
-tls
+instance
 pointer
 (
 and
@@ -598,11 +598,6 @@ anything
 reachable
 through
 the
-tls
-including
-the
-/
-/
 instance
 )
 .

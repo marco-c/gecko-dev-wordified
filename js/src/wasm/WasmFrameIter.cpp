@@ -9248,7 +9248,7 @@ fp
 The
 ra
 and
-TLS
+instance
 might
 also
 be
@@ -9577,7 +9577,7 @@ ret
 /
 Both
 the
-TLS
+instance
 and
 fixedFP
 fields

@@ -1468,7 +1468,7 @@ const
 ;
 GCPtrWasmTagObject
 &
-tagTls
+tagInstanceData
 (
 const
 TagDesc

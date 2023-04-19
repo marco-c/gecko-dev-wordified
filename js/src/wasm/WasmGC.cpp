@@ -1463,7 +1463,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 scratch
 Register
@@ -1495,7 +1495,7 @@ loadPtr
 (
 Address
 (
-tls
+instance
 Instance
 :
 :
@@ -1578,7 +1578,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 scratch
 Register
@@ -1599,7 +1599,7 @@ loadPtr
 (
 Address
 (
-tls
+instance
 Instance
 :
 :

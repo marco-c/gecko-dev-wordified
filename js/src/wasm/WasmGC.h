@@ -3412,7 +3412,7 @@ It
 is
 OK
 for
-tls
+instance
 and
 scratch
 to
@@ -3431,7 +3431,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 scratch
 Register
@@ -3517,7 +3517,7 @@ It
 is
 OK
 for
-tls
+instance
 and
 scratch
 to
@@ -3536,7 +3536,7 @@ MacroAssembler
 &
 masm
 Register
-tls
+instance
 Register
 scratch
 Register

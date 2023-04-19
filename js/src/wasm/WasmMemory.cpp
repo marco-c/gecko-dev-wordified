@@ -495,15 +495,15 @@ value
 loaded
 from
 the
-Tls
+instance
 on
 x86
 -
 is
 a
 native
-pointer
 *
+pointer
 that
 points
 to
@@ -520,8 +520,8 @@ we
 ll
 ignore
 the
-memory
 *
+memory
 base
 in
 the
@@ -538,9 +538,9 @@ or
 i64
 index
 supplied
+*
 by
 the
-*
 program
 as
 a
@@ -554,8 +554,8 @@ instruction
 ;
 it
 is
-usually
 *
+usually
 variable
 but
 can
@@ -571,8 +571,8 @@ a
 constant
 encoded
 in
-the
 *
+the
 access
 instruction
 .
@@ -1260,7 +1260,7 @@ is
 stored
 in
 the
-Tls
+instance
 is
 always
 valid

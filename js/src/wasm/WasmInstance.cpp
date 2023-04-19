@@ -1241,7 +1241,7 @@ GCPtrWasmTagObject
 Instance
 :
 :
-tagTls
+tagInstanceData
 (
 const
 TagDesc
@@ -10341,7 +10341,7 @@ function
 imports
 in
 the
-tls
+instance
 data
 Tier
 callerTier
@@ -10598,7 +10598,7 @@ Initialize
 tables
 in
 the
-tls
+instance
 data
 for
 (
@@ -10667,7 +10667,7 @@ i
 ]
 -
 >
-tlsElements
+instanceElements
 (
 )
 ;
@@ -10678,7 +10678,7 @@ Initialize
 tags
 in
 the
-tls
+instance
 data
 for
 (
@@ -10739,7 +10739,7 @@ i
 nullptr
 )
 ;
-tagTls
+tagInstanceData
 (
 td
 )
@@ -11299,7 +11299,7 @@ Initialize
 globals
 in
 the
-tls
+instance
 data
 .
 /
@@ -12326,7 +12326,7 @@ tables
 they
 share
 the
-tls
+instance
 object
 .
 for
@@ -12505,7 +12505,7 @@ TraceNullableEdge
 (
 trc
 &
-tagTls
+tagInstanceData
 (
 tag
 )
@@ -17304,7 +17304,7 @@ i
 ]
 -
 >
-tlsElements
+instanceElements
 (
 )
 ;
