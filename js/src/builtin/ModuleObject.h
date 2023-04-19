@@ -2139,11 +2139,6 @@ JSObject
 obj
 )
 ;
-/
-/
-For
-intrinsic_InstantiateModuleFunctionDeclarations
-.
 static
 bool
 instantiateFunctionDeclarations
