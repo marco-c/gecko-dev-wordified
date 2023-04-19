@@ -3566,17 +3566,6 @@ expanded
 false
 item
 source
-debuggeeUrl
-:
-"
-http
-:
-/
-/
-mdn
-.
-com
-"
 projectRoot
 :
 "
