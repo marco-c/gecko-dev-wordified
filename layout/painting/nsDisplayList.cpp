@@ -18770,6 +18770,7 @@ const
 nsRect
 &
 aBackgroundRect
+const
 ComputedStyle
 *
 aBackgroundStyle
@@ -19980,6 +19981,7 @@ aSecondaryFrame
 nsRect
 &
 aBgRect
+const
 ComputedStyle
 *
 aBgSC
