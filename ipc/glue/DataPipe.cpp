@@ -252,7 +252,7 @@ in
 order
 .
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 DataPipeAutoLock
 {
 public
@@ -264,7 +264,7 @@ Mutex
 &
 aMutex
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aMutex
 )
@@ -332,7 +332,7 @@ aAction
 DataPipeAutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -582,7 +582,7 @@ void
 Init
 (
 )
-MOZ_EXCLUDES
+EXCLUDES
 (
 *
 mMutex
@@ -644,7 +644,7 @@ OnPortStatusChanged
 (
 )
 final
-MOZ_EXCLUDES
+EXCLUDES
 (
 *
 mMutex
@@ -698,7 +698,7 @@ DataPipeAutoLock
 &
 aLock
 )
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
@@ -729,7 +729,7 @@ aLock
 uint32_t
 aBytes
 )
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
@@ -949,7 +949,7 @@ aSendClosed
 =
 false
 )
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
@@ -1164,7 +1164,7 @@ DataPipeAutoLock
 aLock
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
@@ -1267,7 +1267,7 @@ mMutex
 ;
 ScopedPort
 mPort
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -1290,7 +1290,7 @@ mReceiverSide
 ;
 bool
 mProcessingSegment
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -1300,7 +1300,7 @@ false
 ;
 nsresult
 mPeerStatus
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -1310,7 +1310,7 @@ NS_OK
 ;
 uint32_t
 mOffset
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -1320,7 +1320,7 @@ mMutex
 ;
 uint32_t
 mAvailable
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -1330,7 +1330,7 @@ mMutex
 ;
 bool
 mCallbackClosureOnly
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -1343,7 +1343,7 @@ nsCOMPtr
 nsIRunnable
 >
 mCallback
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -1354,7 +1354,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mCallbackTarget
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex

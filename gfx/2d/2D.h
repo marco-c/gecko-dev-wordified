@@ -7346,7 +7346,7 @@ aOwner
 =
 nullptr
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 mLock
 )
@@ -7377,7 +7377,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mLock
 )

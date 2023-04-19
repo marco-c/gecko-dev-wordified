@@ -598,7 +598,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -611,7 +611,7 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -651,7 +651,7 @@ void
 EnsureSizeInitialized
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -667,7 +667,7 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -714,7 +714,7 @@ are
 contradictory
 int64_t
 mSize
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -803,7 +803,7 @@ nsCOMPtr
 nsISeekableStream
 >
 mSeekable
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -832,7 +832,7 @@ nsCOMPtr
 nsIInputStream
 >
 mInput
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -878,7 +878,7 @@ file
 .
 bool
 mSizeInitialized
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

@@ -285,7 +285,7 @@ StaticRefPtr
 CrashReporterClient
 >
 sClientSingleton
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sLock
 )

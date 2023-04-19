@@ -712,7 +712,7 @@ MessagePumpForNonMainUIThreads
 }
 bool
 mInWait
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mWaitLock
 )

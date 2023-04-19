@@ -1636,7 +1636,7 @@ PROCESS_CONNECTED
 PROCESS_ERROR
 }
 mProcessState
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )
@@ -2067,7 +2067,7 @@ GeckoChildProcessHost
 >
 >
 sGeckoChildProcessHosts
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sMutex
 )

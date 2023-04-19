@@ -1165,7 +1165,7 @@ nsCOMPtr
 nsICancelable
 >
 mCancelable
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1486,7 +1486,7 @@ nsCOMPtr
 nsITimer
 >
 mReconnectDelayTimer
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1868,14 +1868,14 @@ IO
 thread
 uint16_t
 mScriptCloseCode
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
 ;
 nsCString
 mScriptCloseReason
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

@@ -6440,7 +6440,7 @@ nsHttpResponseHead
 aOther
 )
 const
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 nsHttpResponseHead
 &

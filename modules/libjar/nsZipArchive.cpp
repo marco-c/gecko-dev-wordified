@@ -978,7 +978,7 @@ sLock
 ;
 int
 mRefCnt
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sLock
 )
@@ -986,7 +986,7 @@ sLock
 PRFileDesc
 *
 mFd
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sLock
 )
@@ -4834,7 +4834,7 @@ PRFileDesc
 *
 aFd
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /

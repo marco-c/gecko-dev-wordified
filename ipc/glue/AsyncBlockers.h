@@ -532,7 +532,7 @@ void
 MaybeResolve
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -587,14 +587,14 @@ void
 *
 >
 mBlockers
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
 ;
 bool
 mResolved
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

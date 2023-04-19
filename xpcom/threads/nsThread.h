@@ -2392,14 +2392,14 @@ RefPtr
 nsThread
 >
 mJoiningThread
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mJoiningThreadMutex
 )
 ;
 bool
 mThreadLeaked
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mJoiningThreadMutex
 )

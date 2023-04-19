@@ -5641,7 +5641,7 @@ StaticRefPtr
 nsIThread
 >
 gIPCLaunchThread
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 gIPCLaunchThreadMutex
 )

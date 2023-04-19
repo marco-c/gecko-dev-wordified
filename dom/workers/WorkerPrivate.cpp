@@ -3893,7 +3893,7 @@ void
 *
 aClosure
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 auto
 *
@@ -3957,7 +3957,7 @@ void
 *
 aClosure
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 auto
 *
@@ -5189,7 +5189,7 @@ mMutex
 WorkerPrivate
 *
 mWorkerPrivate
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -20921,7 +20921,7 @@ aRtStats
 bool
 aAnonymize
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 /
 /

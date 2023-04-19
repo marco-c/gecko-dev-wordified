@@ -552,7 +552,7 @@ int
 Sanity_Child
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 DisableCrashReporter
 (
@@ -730,7 +730,7 @@ int
 Sanity2_Child
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 DisableCrashReporter
 (
@@ -951,7 +951,7 @@ int
 Sanity3_Child
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 DisableCrashReporter
 (
@@ -1245,7 +1245,7 @@ int
 Sanity4_Child
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 DisableCrashReporter
 (
@@ -1445,7 +1445,7 @@ int
 Sanity5_Child
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 DisableCrashReporter
 (
@@ -1825,7 +1825,7 @@ void
 *
 arg
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 ThreadState
 *
@@ -1937,7 +1937,7 @@ int
 TwoThreads_Child
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 DisableCrashReporter
 (
@@ -2173,7 +2173,7 @@ void
 *
 arg
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 const
 uint32_t
@@ -2326,7 +2326,7 @@ int
 ContentionNoDeadlock_Child
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 const
 size_t

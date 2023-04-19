@@ -3991,7 +3991,7 @@ static
 nsWSAdmissionManager
 *
 sManager
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sLock
 )
@@ -21841,7 +21841,7 @@ AbortSession
 NS_ERROR_NET_TIMEOUT_EXTERNAL
 )
 ;
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+PUSH_IGNORE_THREAD_SAFETY
 /
 /
 mReconnectDelayTimer
@@ -21899,7 +21899,7 @@ timer
 mReconnectDelayTimer
 )
 {
-MOZ_POP_THREAD_SAFETY
+POP_THREAD_SAFETY
 MOZ_ASSERT
 (
 mConnecting

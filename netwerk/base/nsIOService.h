@@ -1534,7 +1534,7 @@ nsTArray
 int32_t
 >
 mRestrictedPortList
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

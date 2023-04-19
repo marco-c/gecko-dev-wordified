@@ -1126,7 +1126,7 @@ DataChannel
 *
 aChannel
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1316,7 +1316,7 @@ bool
 SendDeferredMessages
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1433,7 +1433,7 @@ GetReadyState
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1461,7 +1461,7 @@ const
 uint16_t
 aState
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1518,7 +1518,7 @@ FindChannelByStream
 uint16_t
 stream
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1527,7 +1527,7 @@ uint16_t
 FindFreeStream
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1540,7 +1540,7 @@ aNeeded
 =
 16
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1549,7 +1549,7 @@ uint32_t
 UpdateCurrentStreamIndex
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1558,7 +1558,7 @@ uint32_t
 GetCurrentStreamIndex
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1575,7 +1575,7 @@ len
 uint16_t
 stream
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1586,7 +1586,7 @@ SendOpenAckMessage
 uint16_t
 stream
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1611,7 +1611,7 @@ prPolicy
 uint32_t
 prValue
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1666,7 +1666,7 @@ size_t
 *
 aWritten
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1686,7 +1686,7 @@ len
 uint32_t
 ppid
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1708,7 +1708,7 @@ ppidPartial
 uint32_t
 ppidFinal
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1732,7 +1732,7 @@ DeliverQueuedData
 uint16_t
 stream
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1751,7 +1751,7 @@ DataChannel
 &
 aChannel
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1760,7 +1760,7 @@ void
 ProcessQueuedOpens
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1769,7 +1769,7 @@ void
 ClearResets
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1778,7 +1778,7 @@ void
 SendOutgoingStreamReset
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1789,7 +1789,7 @@ ResetOutgoingStream
 uint16_t
 stream
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1807,7 +1807,7 @@ length
 uint16_t
 stream
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1836,7 +1836,7 @@ length
 uint16_t
 stream
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1875,7 +1875,7 @@ stream
 int
 flags
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1896,7 +1896,7 @@ stream
 int
 flags
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1917,7 +1917,7 @@ stream
 int
 flags
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1931,7 +1931,7 @@ sctp_assoc_change
 *
 sac
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1945,7 +1945,7 @@ sctp_paddr_change
 *
 spc
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1959,7 +1959,7 @@ sctp_remote_error
 *
 sre
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1973,7 +1973,7 @@ sctp_shutdown_event
 *
 sse
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -1987,7 +1987,7 @@ sctp_adaptation_event
 *
 sai
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2001,7 +2001,7 @@ sctp_pdapi_event
 *
 spde
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2015,7 +2015,7 @@ sctp_send_failed_event
 *
 ssfe
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2029,7 +2029,7 @@ sctp_stream_reset_event
 *
 strrst
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2043,7 +2043,7 @@ sctp_stream_change_event
 *
 strchg
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2059,7 +2059,7 @@ notif
 size_t
 n
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2282,7 +2282,7 @@ mMutex
 ;
 ChannelArray
 mChannels
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -2291,7 +2291,7 @@ mMutex
 ;
 bool
 mSendInterleaved
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -2324,7 +2324,7 @@ main
 thread
 uint64_t
 mMaxMessageSize
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -2409,7 +2409,7 @@ and
 main
 size_t
 mNegotiatedIdLimit
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -2418,7 +2418,7 @@ mLock
 ;
 uint8_t
 mPendingType
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -2447,7 +2447,7 @@ QueuedDataMessage
 >
 >
 mQueuedData
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -2466,7 +2466,7 @@ BufferedOutgoingMsg
 >
 >
 mBufferedControl
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -2489,7 +2489,7 @@ uint16_t
 4
 >
 mStreamsResetting
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -2527,7 +2527,7 @@ nullptr
 ;
 uint16_t
 mState
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -3469,7 +3469,7 @@ mBufferedData
 ;
 /
 /
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mConnection
 -
@@ -3492,7 +3492,7 @@ protects
 mTrafficCounters
 TrafficCounters
 mTrafficCounters
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mStatsLock
 )

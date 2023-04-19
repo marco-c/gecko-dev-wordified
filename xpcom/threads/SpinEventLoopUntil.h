@@ -1081,7 +1081,7 @@ static
 AutoNestedEventLoopAnnotation
 *
 sCurrent
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sStackMutex
 )
@@ -1144,14 +1144,14 @@ aStack
 AutoNestedEventLoopAnnotation
 *
 mPrev
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sStackMutex
 )
 ;
 nsCString
 mStack
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sStackMutex
 )

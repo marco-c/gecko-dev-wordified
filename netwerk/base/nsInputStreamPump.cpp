@@ -3396,7 +3396,7 @@ on
 the
 writing
 thread
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+PUSH_IGNORE_THREAD_SAFETY
 AssertOnThread
 (
 )
@@ -3411,7 +3411,7 @@ OnStartRequest
 this
 )
 ;
-MOZ_POP_THREAD_SAFETY
+POP_THREAD_SAFETY
 }
 /
 /
@@ -4038,7 +4038,7 @@ use
 AssertOnThread
 (
 )
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+PUSH_IGNORE_THREAD_SAFETY
 if
 (
 mTargetThread
@@ -4078,7 +4078,7 @@ mStreamOffset
 odaAvail
 )
 ;
-MOZ_POP_THREAD_SAFETY
+POP_THREAD_SAFETY
 }
 /
 /
@@ -4792,7 +4792,7 @@ on
 us
 here
 .
-MOZ_PUSH_IGNORE_THREAD_SAFETY
+PUSH_IGNORE_THREAD_SAFETY
 AssertOnThread
 (
 )
@@ -4806,7 +4806,7 @@ this
 mStatus
 )
 ;
-MOZ_POP_THREAD_SAFETY
+POP_THREAD_SAFETY
 }
 mTargetThread
 =

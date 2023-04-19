@@ -1823,7 +1823,7 @@ void
 ClearLangGroupPrefFontsLocked
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2268,7 +2268,7 @@ aDevToCssSize
 .
 0
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2714,7 +2714,7 @@ nsCString
 &
 aFullname
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2755,7 +2755,7 @@ nsCString
 &
 aPostscriptName
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -2898,7 +2898,7 @@ gfxFontStyle
 *
 aStyle
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -3357,7 +3357,7 @@ gfxSparseBitSet
 *
 aCmap
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -3647,7 +3647,7 @@ Family
 *
 aFamily
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -3659,7 +3659,7 @@ GetFontPrefs
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -3739,7 +3739,7 @@ aGenericType
 eFontPrefLang
 aPrefLang
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -4191,7 +4191,7 @@ void
 InitializeCodepointsWithNoFonts
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -4323,7 +4323,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 mLock
 )
@@ -4339,7 +4339,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mLock
 )
@@ -4882,7 +4882,7 @@ aDevToCssSize
 .
 0
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -4922,7 +4922,7 @@ aDevToCssSize
 .
 0
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5016,7 +5016,7 @@ aDevToCssSize
 .
 0
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5093,7 +5093,7 @@ nsACString
 &
 aFamily
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5172,7 +5172,7 @@ FontFamily
 &
 aMatchedFamily
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5221,7 +5221,7 @@ FontFamily
 &
 aMatchedFamily
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5336,7 +5336,7 @@ aCharLang
 eFontPrefLang
 aPageLang
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5362,7 +5362,7 @@ gfxFontFamily
 *
 aFamily
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5393,7 +5393,7 @@ nsCString
 &
 aKey
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5447,7 +5447,7 @@ nsACString
 &
 aFaceName
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5474,7 +5474,7 @@ nsACString
 &
 aFaceName
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5516,7 +5516,7 @@ nsACString
 &
 aFaceName
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5539,7 +5539,7 @@ aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5582,7 +5582,7 @@ nsCString
 &
 aFontFamilyNames
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5620,7 +5620,7 @@ void
 InitLoader
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5699,7 +5699,7 @@ aForgetLocalFaces
 =
 false
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5721,7 +5721,7 @@ PrefFontList
 *
 aGenericFamilies
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5736,7 +5736,7 @@ PrefFontList
 *
 aGenericFamilies
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5765,7 +5765,7 @@ PrefFontList
 *
 aFontFamilies
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5775,7 +5775,7 @@ nsresult
 InitFontListForPlatform
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5787,7 +5787,7 @@ void
 InitSharedFontListForPlatform
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5887,7 +5887,7 @@ void
 ApplyWhitelist
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -6069,7 +6069,7 @@ aFamily
 bool
 aNeedFullnamePostscriptNames
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -6167,7 +6167,7 @@ aLanguage
 =
 nullptr
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -6194,7 +6194,7 @@ entry
 )
 FontFamilyTable
 mFontFamilies
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6236,7 +6236,7 @@ here
 )
 FontFamilyTable
 mOtherFamilyNames
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6416,7 +6416,7 @@ UniquePtr
 ExtraNames
 >
 mExtraNames
-MOZ_PT_GUARDED_BY
+PT_GUARDED_BY
 (
 mLock
 )
@@ -6445,7 +6445,7 @@ nsCString
 >
 >
 mFaceNamesMissed
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6475,7 +6475,7 @@ nsCString
 >
 >
 mOtherNamesMissed
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6526,7 +6526,7 @@ eFontPrefLang_First
 eFontPrefLang_Count
 >
 mLangGroupPrefFonts
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6539,7 +6539,7 @@ UniquePtr
 PrefFontList
 >
 mEmojiPrefFont
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6590,7 +6590,7 @@ Count
 gfxSparseBitSet
 >
 mCodepointsWithNoFonts
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6633,7 +6633,7 @@ Count
 FontFamily
 >
 mReplacementCharFallbackFamily
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6682,7 +6682,7 @@ nsTHashtable
 CharMapHashKey
 >
 mSharedCmaps
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6692,7 +6692,7 @@ nsTHashtable
 ShmemCharMapHashEntry
 >
 mShmemCharMaps
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6763,7 +6763,7 @@ gfxUserFontSet
 *
 >
 mUserFontSetList
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6779,7 +6779,7 @@ nsTArray
 uint32_t
 >
 mCJKPrefLangs
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6792,7 +6792,7 @@ mozilla
 StyleGenericFontFamily
 >
 mDefaultGenericsLangGroup
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6862,7 +6862,7 @@ Face
 gfxFontEntry
 >
 mFontEntries
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -6881,7 +6881,7 @@ RefPtr
 gfxFontEntry
 >
 mDefaultFontEntry
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

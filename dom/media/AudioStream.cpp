@@ -1630,7 +1630,7 @@ AudioDeviceInfo
 *
 aSinkInfo
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 auto
 startTime
