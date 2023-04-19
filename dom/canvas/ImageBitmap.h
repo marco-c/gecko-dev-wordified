@@ -729,7 +729,7 @@ aIndex
 )
 ;
 static
-bool
+void
 WriteStructuredClone
 (
 JSStructuredCloneWriter
@@ -750,6 +750,9 @@ aClonedSurfaces
 ImageBitmap
 *
 aImageBitmap
+ErrorResult
+&
+aRv
 )
 ;
 friend
