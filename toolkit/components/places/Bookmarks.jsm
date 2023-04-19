@@ -491,11 +491,17 @@ Bookmarks
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -518,7 +524,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -541,7 +547,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesSyncUtils
 "
@@ -673,6 +679,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1182,6 +1190,8 @@ return
 guid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1192,6 +1202,8 @@ virtualMenuGuid
 guid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1202,6 +1214,8 @@ virtualToolbarGuid
 guid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1212,6 +1226,8 @@ virtualUnfiledGuid
 guid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1341,6 +1357,8 @@ info
 if
 (
 !
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1369,6 +1387,8 @@ guid
 )
 {
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1376,6 +1396,8 @@ bookmarks
 toolbarGuid
 :
 return
+lazy
+.
 PlacesUtils
 .
 getString
@@ -1386,6 +1408,8 @@ BookmarksToolbarFolderTitle
 )
 ;
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1393,6 +1417,8 @@ bookmarks
 menuGuid
 :
 return
+lazy
+.
 PlacesUtils
 .
 getString
@@ -1403,6 +1429,8 @@ BookmarksMenuFolderTitle
 )
 ;
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1410,6 +1438,8 @@ bookmarks
 unfiledGuid
 :
 return
+lazy
+.
 PlacesUtils
 .
 getString
@@ -1420,6 +1450,8 @@ OtherBookmarksFolderTitle
 )
 ;
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -1427,6 +1459,8 @@ bookmarks
 mobileGuid
 :
 return
+lazy
+.
 PlacesUtils
 .
 getString
@@ -2000,6 +2034,8 @@ let
 itemId
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseItemId
@@ -2033,6 +2069,8 @@ parent
 _parentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -2045,6 +2083,8 @@ parent
 _id
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -2168,12 +2208,16 @@ isTagging
 const
 tags
 =
+lazy
+.
 PlacesUtils
 .
 tagging
 .
 getTagsForURI
 (
+lazy
+.
 NetUtil
 .
 newURI
@@ -2678,6 +2722,8 @@ insert
 if
 (
 !
+lazy
+.
 PlacesUtils
 .
 isValidGuid
@@ -3253,6 +3299,8 @@ guid
 {
 defaultValue
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -3537,6 +3585,8 @@ b
 .
 guid
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -3977,6 +4027,8 @@ treeParent
 _parentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -4152,6 +4204,8 @@ let
 itemIdMap
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseManyItemIds
@@ -5172,6 +5226,8 @@ dateAdded
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5205,6 +5261,8 @@ parentGuid
 {
 if
 (
+lazy
+.
 PlacesUtils
 .
 isRootItem
@@ -5427,6 +5485,8 @@ index
 {
 if
 (
+lazy
+.
 PlacesUtils
 .
 isRootItem
@@ -5574,6 +5634,8 @@ index
 let
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6079,12 +6141,16 @@ true
 const
 tags
 =
+lazy
+.
 PlacesUtils
 .
 tagging
 .
 getTagsForURI
 (
+lazy
+.
 NetUtil
 .
 newURI
@@ -6162,6 +6228,8 @@ url
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -6678,6 +6746,8 @@ every
 guid
 =
 >
+lazy
+.
 PlacesUtils
 .
 isValidGuid
@@ -6710,6 +6780,8 @@ parentGuid
 &
 &
 !
+lazy
+.
 PlacesUtils
 .
 isValidGuid
@@ -6738,6 +6810,8 @@ if
 parentGuid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -6829,6 +6903,8 @@ updateInfos
 let
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6839,6 +6915,8 @@ source
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -7163,6 +7241,8 @@ newParent
 _grandParentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -8514,6 +8594,8 @@ item
 _grandParentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -8623,12 +8705,16 @@ isUntagging
 const
 tags
 =
+lazy
+.
 PlacesUtils
 .
 tagging
 .
 getTagsForURI
 (
+lazy
+.
 NetUtil
 .
 newURI
@@ -8841,6 +8927,8 @@ DEFAULT
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -8886,6 +8974,8 @@ options
 const
 time
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -8899,6 +8989,8 @@ Date
 const
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -8961,6 +9053,8 @@ syncChangeDelta
 ;
 }
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -8999,6 +9093,8 @@ length
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -11180,6 +11276,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -11575,6 +11673,8 @@ orderedChildrenGuids
 .
 forEach
 (
+lazy
+.
 PlacesUtils
 .
 BOOKMARK_VALIDATORS
@@ -11616,6 +11716,8 @@ source
 in
 options
 ?
+lazy
+.
 PlacesUtils
 .
 BOOKMARK_VALIDATORS
@@ -11643,6 +11745,8 @@ lastModified
 in
 options
 ?
+lazy
+.
 PlacesUtils
 .
 BOOKMARK_VALIDATORS
@@ -12473,6 +12577,8 @@ lastModified
 {
 value
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -12546,6 +12652,8 @@ dateAdded
 {
 value
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -13121,6 +13229,8 @@ item
 _grandParentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -13155,6 +13265,8 @@ tagged
 URL
 .
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -13218,6 +13330,8 @@ URL
 here
 .
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -13241,6 +13355,8 @@ item
 _parentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -13609,6 +13725,8 @@ id
 {
 orphanAnno
 :
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -13718,6 +13836,8 @@ parent
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -13785,6 +13905,8 @@ item
 .
 guid
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -13802,6 +13924,8 @@ parent
 _parentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -13907,6 +14031,8 @@ index
 let
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -13921,6 +14047,8 @@ source
 let
 syncStatus
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -14056,6 +14184,8 @@ item
 title
 date_added
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -14066,6 +14196,8 @@ dateAdded
 )
 last_modified
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -14175,6 +14307,8 @@ tagged
 URL
 .
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -14283,6 +14417,8 @@ lastAddedForParent
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -14321,6 +14457,8 @@ urls
 let
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -14333,6 +14471,8 @@ source
 let
 syncStatus
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -14394,6 +14534,8 @@ item
 title
 date_added
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -14404,6 +14546,8 @@ dateAdded
 )
 last_modified
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -14543,6 +14687,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -14567,6 +14713,8 @@ guid
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -14723,6 +14871,8 @@ keyword
 try
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -14799,12 +14949,16 @@ item
 {
 try
 {
+lazy
+.
 PlacesUtils
 .
 tagging
 .
 tagURI
 (
+lazy
+.
 NetUtil
 .
 newURI
@@ -14949,6 +15103,8 @@ null
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -14968,6 +15124,8 @@ Map
 (
 [
 [
+lazy
+.
 PlacesUtils
 .
 CHARSET_ANNO
@@ -15203,6 +15361,8 @@ BEHAVIOR_BOOKMARK
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -15651,6 +15811,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -15681,6 +15843,8 @@ db
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -15923,6 +16087,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -15937,6 +16103,8 @@ db
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -16245,6 +16413,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -16259,6 +16429,8 @@ db
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -16448,6 +16620,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -16462,6 +16636,8 @@ db
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -16697,6 +16873,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -16711,6 +16889,8 @@ db
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -16888,6 +17068,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -16902,6 +17084,8 @@ db
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -16924,6 +17108,8 @@ numberOfItems
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -17288,6 +17474,8 @@ options
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -17346,6 +17534,8 @@ Map
 let
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -17459,6 +17649,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -17534,6 +17726,8 @@ guid
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -17820,6 +18014,8 @@ item
 _grandParentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -17850,6 +18046,8 @@ tagged
 URL
 .
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -17943,6 +18141,8 @@ item
 _grandParentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -17980,6 +18180,8 @@ length
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -18021,6 +18223,8 @@ options
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -18688,6 +18892,8 @@ parent
 _id
 lastModified
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -18702,6 +18908,8 @@ lastModified
 let
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -19003,6 +19211,8 @@ join
 {
 orphanAnno
 :
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -19466,6 +19676,8 @@ item
 prop
 ]
 =
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -19671,11 +19883,15 @@ behavior
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 validateItemProperties
 (
 name
+lazy
+.
 PlacesUtils
 .
 BOOKMARK_VALIDATORS
@@ -19769,6 +19985,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -19824,6 +20042,8 @@ url_hash
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -20088,6 +20308,8 @@ item_id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -20299,6 +20521,8 @@ Bookmarks
 TYPE_FOLDER
 time
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -20463,6 +20687,8 @@ options
 let
 syncChangeDelta
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -20904,6 +21130,8 @@ item
 _grandParentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -20997,6 +21225,8 @@ isUntagging
 isDescendantRemoval
 :
 !
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -21021,12 +21251,16 @@ isUntagging
 const
 tags
 =
+lazy
+.
 PlacesUtils
 .
 tagging
 .
 getTagsForURI
 (
+lazy
+.
 NetUtil
 .
 newURI
@@ -21261,6 +21495,8 @@ url
 href
 rev_host
 :
+lazy
+.
 PlacesUtils
 .
 getReversedHost
@@ -21434,6 +21670,8 @@ url
 href
 rev_host
 :
+lazy
+.
 PlacesUtils
 .
 getReversedHost
@@ -21458,6 +21696,8 @@ place
 1
 maybeguid
 :
+lazy
+.
 PlacesUtils
 .
 history
@@ -21622,6 +21862,8 @@ resolve
 let
 dateRemoved
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -21740,6 +21982,8 @@ item
 _grandParentId
 =
 =
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -21750,6 +21994,8 @@ isUntagging
 )
 {
 await
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -22106,6 +22352,8 @@ pguid
 guid
 rootGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -22165,6 +22413,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -22179,6 +22429,8 @@ db
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper

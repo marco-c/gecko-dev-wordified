@@ -151,11 +151,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PlacesUtils
 :
@@ -194,7 +200,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 filenamesRegex
 "
@@ -368,6 +374,8 @@ aFilename
 .
 match
 (
+lazy
+.
 filenamesRegex
 )
 ;
@@ -446,6 +454,8 @@ aFilename
 .
 match
 (
+lazy
+.
 filenamesRegex
 )
 ;
@@ -502,6 +512,8 @@ aSourceName
 .
 match
 (
+lazy
+.
 filenamesRegex
 )
 ;
@@ -512,6 +524,8 @@ aTargetName
 .
 match
 (
+lazy
+.
 filenamesRegex
 )
 ;
@@ -671,6 +685,8 @@ filenamesRegex
 )
 {
 return
+lazy
+.
 filenamesRegex
 ;
 }
@@ -946,6 +962,8 @@ continue
 }
 if
 (
+lazy
+.
 filenamesRegex
 .
 test
@@ -1461,6 +1479,8 @@ filename
 .
 match
 (
+lazy
+.
 filenamesRegex
 )
 ;
@@ -1899,6 +1919,8 @@ hash
 }
 =
 await
+lazy
+.
 BookmarkJSONUtils
 .
 exportToFile
@@ -2690,6 +2712,8 @@ hash
 }
 =
 await
+lazy
+.
 BookmarkJSONUtils
 .
 exportToFile
@@ -2967,6 +2991,8 @@ filename
 .
 match
 (
+lazy
+.
 filenamesRegex
 )
 ;
@@ -3225,10 +3251,14 @@ let
 root
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseBookmarksTree
 (
+lazy
+.
 PlacesUtils
 .
 bookmarks

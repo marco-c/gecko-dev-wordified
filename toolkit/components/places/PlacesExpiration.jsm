@@ -245,11 +245,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -3101,6 +3107,8 @@ this
 .
 _dbInitializedPromise
 =
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -3221,6 +3229,8 @@ shutdown
 let
 shutdownClient
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -3805,6 +3815,8 @@ if
 aTopic
 =
 =
+lazy
+.
 PlacesUtils
 .
 TOPIC_INIT_COMPLETE
@@ -3897,6 +3909,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -4613,6 +4627,8 @@ quota
 .
 diskAvailableBytes
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -4729,6 +4745,8 @@ try
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -5275,6 +5293,8 @@ _dbInitializedPromise
 try
 {
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5652,6 +5672,8 @@ obs
 notifyObservers
 (
 null
+lazy
+.
 PlacesUtils
 .
 TOPIC_EXPIRATION_FINISHED

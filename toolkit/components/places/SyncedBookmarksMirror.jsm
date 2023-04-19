@@ -531,11 +531,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Async
 :
@@ -604,7 +610,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 MirrorLog
 "
@@ -612,6 +618,8 @@ MirrorLog
 )
 =
 >
+lazy
+.
 Log
 .
 repository
@@ -733,7 +741,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 yieldState
 "
@@ -741,6 +749,8 @@ yieldState
 )
 =
 >
+lazy
+.
 Async
 .
 yieldState
@@ -797,6 +807,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -817,6 +829,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -837,6 +851,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -857,6 +873,8 @@ if
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -1831,6 +1849,8 @@ recordStepTelemetry
 recordValidationTelemetry
 finalizeAt
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -1897,6 +1917,8 @@ logger
 new
 LogAdapter
 (
+lazy
+.
 MirrorLog
 )
 ;
@@ -2245,6 +2267,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseUnsafeWritableDBConnection
@@ -2341,6 +2365,8 @@ ex
 )
 )
 {
+lazy
+.
 MirrorLog
 .
 warn
@@ -2385,6 +2411,8 @@ path
 }
 else
 {
+lazy
+.
 MirrorLog
 .
 error
@@ -3055,6 +3083,8 @@ existingSyncId
 newSyncId
 )
 {
+lazy
+.
 MirrorLog
 .
 trace
@@ -3078,6 +3108,8 @@ existingSyncId
 return
 ;
 }
+lazy
+.
 MirrorLog
 .
 info
@@ -3413,6 +3445,8 @@ items
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -3429,6 +3463,8 @@ if
 guid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3466,11 +3502,15 @@ root
 }
 if
 (
+lazy
+.
 MirrorLog
 .
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -3478,6 +3518,8 @@ Level
 Trace
 )
 {
+lazy
+.
 MirrorLog
 .
 trace
@@ -3605,6 +3647,8 @@ continue
 ;
 }
 }
+lazy
+.
 MirrorLog
 .
 warn
@@ -4146,6 +4190,8 @@ if
 wasMerged
 )
 {
+lazy
+.
 MirrorLog
 .
 debug
@@ -4329,6 +4375,8 @@ just
 in
 case
 .
+lazy
+.
 PlacesUtils
 .
 invalidateCachedGuids
@@ -4336,6 +4384,8 @@ invalidateCachedGuids
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -4344,6 +4394,8 @@ invalidateCachedKeywords
 (
 )
 ;
+lazy
+.
 MirrorLog
 .
 warn
@@ -5183,6 +5235,8 @@ signal
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -5221,6 +5275,8 @@ url
 let
 parentGuid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -5496,6 +5552,8 @@ needsMerge
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6005,6 +6063,8 @@ VALIDITY_REPLACE
 let
 parentGuid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6147,6 +6207,8 @@ signal
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6161,6 +6223,8 @@ id
 let
 parentGuid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6286,6 +6350,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -6483,6 +6549,8 @@ chunk
 .
 map
 (
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6514,6 +6582,8 @@ needsMerge
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6528,6 +6598,8 @@ id
 let
 parentGuid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6701,6 +6773,8 @@ needsMerge
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6715,6 +6789,8 @@ id
 let
 parentGuid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6804,6 +6880,8 @@ needsMerge
 let
 guid
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -6926,6 +7004,8 @@ url
 href
 revHost
 :
+lazy
+.
 PlacesUtils
 .
 getReversedHost
@@ -7124,6 +7204,8 @@ row
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -7172,6 +7254,8 @@ parentId
 let
 childRecordId
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -7225,6 +7309,8 @@ childRecordId
 ;
 }
 }
+lazy
+.
 yieldState
 )
 ;
@@ -7280,6 +7366,8 @@ row
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -7374,6 +7462,8 @@ tag
 ;
 }
 }
+lazy
+.
 yieldState
 )
 ;
@@ -7455,6 +7545,8 @@ row
 )
 ;
 await
+lazy
+.
 Async
 .
 yieldingForEach
@@ -7515,6 +7607,8 @@ guid
 let
 recordId
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -7588,6 +7682,8 @@ parentGuid
 let
 parentRecordId
 =
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -7615,6 +7711,8 @@ type
 )
 {
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7995,6 +8093,8 @@ return
 ;
 }
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8103,6 +8203,8 @@ return
 ;
 }
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8208,6 +8310,8 @@ item
 ;
 }
 }
+lazy
+.
 yieldState
 )
 ;
@@ -9258,6 +9362,8 @@ SET
 syncStatus
 =
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -9970,6 +10076,8 @@ syncableRoots
 {
 guid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -10000,6 +10108,8 @@ structure
 .
 parentGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -10015,6 +10125,8 @@ false
 }
 .
 .
+.
+lazy
 .
 PlacesUtils
 .
@@ -10036,6 +10148,8 @@ return
 guid
 parentGuid
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -10737,6 +10851,8 @@ b
 type
 =
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -10758,6 +10874,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11026,6 +11144,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11048,6 +11168,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11083,6 +11205,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11092,6 +11216,8 @@ tagsGuid
 '
 )
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11202,6 +11328,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11306,6 +11434,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11345,6 +11475,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11404,6 +11536,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11414,6 +11548,8 @@ tagsGuid
 )
 )
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11513,6 +11649,8 @@ guid
 =
 '
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12147,6 +12285,8 @@ record
 )
 ;
 return
+lazy
+.
 PlacesSyncUtils
 .
 bookmarks
@@ -12337,6 +12477,8 @@ tag
 .
 length
 >
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12458,6 +12600,8 @@ func
 recordTiming
 )
 {
+lazy
+.
 MirrorLog
 .
 debug
@@ -12493,6 +12637,8 @@ now
 -
 startTime
 ;
+lazy
+.
 MirrorLog
 .
 debug
@@ -12662,6 +12808,8 @@ shouldInvalidateKeywords
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -12769,6 +12917,8 @@ noteAllChanges
 (
 )
 {
+lazy
+.
 MirrorLog
 .
 trace
@@ -13049,6 +13199,8 @@ items
 )
 ;
 }
+lazy
+.
 MirrorLog
 .
 trace
@@ -13282,6 +13434,8 @@ GUIDs
 )
 ;
 }
+lazy
+.
 MirrorLog
 .
 trace
@@ -13598,6 +13752,8 @@ items
 )
 ;
 }
+lazy
+.
 MirrorLog
 .
 trace
@@ -13886,6 +14042,8 @@ items
 )
 ;
 }
+lazy
+.
 MirrorLog
 .
 trace
@@ -14364,6 +14522,8 @@ info
 parentGuid
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14391,6 +14551,8 @@ noteGuidChanged
 info
 )
 {
+lazy
+.
 PlacesUtils
 .
 invalidateCachedGuidFor
@@ -14442,6 +14604,8 @@ info
 lastModified
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14457,6 +14621,8 @@ parentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14470,6 +14636,8 @@ grandParentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14522,6 +14690,8 @@ info
 newParentGuid
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14552,6 +14722,8 @@ newParentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14565,6 +14737,8 @@ grandParentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14639,6 +14813,8 @@ info
 lastModified
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14654,6 +14830,8 @@ parentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14667,6 +14845,8 @@ grandParentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14731,6 +14911,8 @@ info
 lastModified
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14746,6 +14928,8 @@ parentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14759,6 +14943,8 @@ grandParentGuid
 =
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14826,6 +15012,8 @@ info
 parentGuid
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -14855,6 +15043,8 @@ notifyBookmarkObservers
 (
 )
 {
+lazy
+.
 MirrorLog
 .
 trace
@@ -14885,6 +15075,8 @@ placesEvents
 )
 ;
 }
+lazy
+.
 MirrorLog
 .
 trace
@@ -15025,6 +15217,8 @@ db
 limit
 )
 {
+lazy
+.
 MirrorLog
 .
 trace

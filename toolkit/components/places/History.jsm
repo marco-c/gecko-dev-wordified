@@ -645,11 +645,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PlacesUtils
 :
@@ -673,7 +679,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 asyncHistory
 "
@@ -1206,6 +1212,8 @@ not
 possible
 guidOrURI
 =
+lazy
+.
 PlacesUtils
 .
 normalizeToURLOrGUID
@@ -1382,6 +1390,8 @@ exists
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1598,6 +1608,8 @@ strings
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1803,6 +1815,8 @@ map
 v
 =
 >
+lazy
+.
 PlacesUtils
 .
 normalizeToURLOrGUID
@@ -1812,6 +1826,8 @@ v
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2131,6 +2147,8 @@ pageInfo
 let
 info
 =
+lazy
+.
 PlacesUtils
 .
 validatePageInfo
@@ -2139,6 +2157,8 @@ pageInfo
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -2630,6 +2650,8 @@ pageInfos
 let
 info
 =
+lazy
+.
 PlacesUtils
 .
 validatePageInfo
@@ -2646,6 +2668,8 @@ info
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -2939,6 +2963,8 @@ normalized
 let
 normalized
 =
+lazy
+.
 PlacesUtils
 .
 normalizeToURLOrGUID
@@ -3159,6 +3185,8 @@ let
 result
 =
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -3790,6 +3818,8 @@ onResult
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -4542,6 +4572,8 @@ onResult
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -4700,6 +4732,8 @@ resolve
 =
 >
 {
+lazy
+.
 asyncHistory
 .
 isURIVisited
@@ -4726,6 +4760,8 @@ aIsVisited
 }
 guidOrURI
 =
+lazy
+.
 PlacesUtils
 .
 normalizeToURLOrGUID
@@ -4772,6 +4808,8 @@ val
 "
 ;
 return
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -4859,6 +4897,8 @@ clear
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5487,6 +5527,8 @@ pageInfo
 let
 info
 =
+lazy
+.
 PlacesUtils
 .
 validatePageInfo
@@ -5558,6 +5600,8 @@ property
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5952,6 +5996,8 @@ pageInfo
 guid
 uri
 :
+lazy
+.
 PlacesUtils
 .
 toURI
@@ -5987,6 +6033,8 @@ visit
 {
 visitDate
 :
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -6006,6 +6054,8 @@ inVisit
 .
 referrer
 ?
+lazy
+.
 PlacesUtils
 .
 toURI
@@ -6109,6 +6159,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -6139,6 +6191,8 @@ id
 in
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -6166,6 +6220,8 @@ id
 in
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -6810,6 +6866,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -6849,6 +6907,8 @@ id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -6900,6 +6960,8 @@ page_url_hash
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -6924,6 +6986,8 @@ place_id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -6948,6 +7012,8 @@ place_id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -7312,6 +7378,8 @@ notifiedCount
 let
 bookmarkObservers
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7406,6 +7474,8 @@ page
 hasVisits
 )
 {
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7428,6 +7498,8 @@ let
 itemId
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseItemId
@@ -7441,6 +7513,8 @@ let
 parentId
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseItemId
@@ -7465,6 +7539,8 @@ false
 "
 "
 0
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7479,6 +7555,8 @@ bookmark
 parentGuid
 "
 "
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8171,6 +8249,8 @@ visits
 let
 date
 =
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -8599,6 +8679,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -8687,6 +8769,8 @@ url_hash
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -8707,6 +8791,8 @@ url
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -8766,6 +8852,8 @@ guid
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -9448,6 +9536,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -9472,6 +9562,8 @@ id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -9500,6 +9592,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -9547,6 +9641,8 @@ id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -9763,6 +9859,8 @@ params
 .
 begin
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -9801,6 +9899,8 @@ params
 .
 end
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -10350,6 +10450,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -10374,6 +10476,8 @@ place_id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -10630,6 +10734,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -10659,6 +10765,8 @@ guid
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -10684,6 +10792,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -10926,6 +11036,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -10950,6 +11062,8 @@ place_id
 IN
 (
 {
+lazy
+.
 PlacesUtils
 .
 sqlBindPlaceholders
@@ -11189,6 +11303,8 @@ return
 {
 date
 :
+lazy
+.
 PlacesUtils
 .
 toDate
@@ -11266,6 +11382,8 @@ reject
 =
 >
 {
+lazy
+.
 asyncHistory
 .
 updatePlaces
@@ -11393,6 +11511,8 @@ reject
 =
 >
 {
+lazy
+.
 asyncHistory
 .
 updatePlaces
@@ -12133,6 +12253,8 @@ ANNOTATION_TYPE_INT64
 let
 date
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime

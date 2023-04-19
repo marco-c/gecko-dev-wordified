@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Log
 "
@@ -145,7 +151,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -267,7 +273,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ROOT_RECORD_ID_TO_GUID
 "
@@ -279,6 +285,8 @@ ROOT_RECORD_ID_TO_GUID
 {
 menu
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -286,6 +294,8 @@ bookmarks
 menuGuid
 places
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -293,6 +303,8 @@ bookmarks
 rootGuid
 tags
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -300,6 +312,8 @@ bookmarks
 tagsGuid
 toolbar
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -307,6 +321,8 @@ bookmarks
 toolbarGuid
 unfiled
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -314,6 +330,8 @@ bookmarks
 unfiledGuid
 mobile
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -327,7 +345,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ROOT_GUID_TO_RECORD_ID
 "
@@ -338,6 +356,8 @@ ROOT_GUID_TO_RECORD_ID
 (
 {
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -349,6 +369,8 @@ menuGuid
 menu
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -360,6 +382,8 @@ rootGuid
 places
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -371,6 +395,8 @@ tagsGuid
 tags
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -382,6 +408,8 @@ toolbarGuid
 toolbar
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -393,6 +421,8 @@ unfiledGuid
 unfiled
 "
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -411,7 +441,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ROOTS
 "
@@ -423,6 +453,8 @@ Object
 .
 keys
 (
+lazy
+.
 ROOT_RECORD_ID_TO_GUID
 )
 )
@@ -482,7 +514,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 IGNORED_TRANSITIONS_AS_SQL_LIST
 "
@@ -621,11 +653,15 @@ so
 .
 [
 0
+lazy
+.
 PlacesUtils
 .
 history
 .
 TRANSITION_FRAMED_LINK
+lazy
+.
 PlacesUtils
 .
 history
@@ -696,6 +732,8 @@ getSyncId
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -778,6 +816,8 @@ resetSyncId
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -795,6 +835,8 @@ db
 let
 newSyncId
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -928,6 +970,8 @@ ID
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -947,6 +991,8 @@ let
 existingSyncId
 =
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -969,6 +1015,8 @@ existingSyncId
 newSyncId
 )
 {
+lazy
+.
 HistorySyncLog
 .
 trace
@@ -991,6 +1039,8 @@ existingSyncId
 return
 ;
 }
+lazy
+.
 HistorySyncLog
 .
 info
@@ -1069,6 +1119,8 @@ let
 lastSync
 =
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -1163,6 +1215,8 @@ timestamp
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -1235,6 +1289,8 @@ wipe
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 history
@@ -1301,6 +1357,8 @@ reset
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -1444,6 +1502,8 @@ url
 let
 canonicalURL
 =
+lazy
+.
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -1457,6 +1517,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1581,6 +1643,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -1598,6 +1662,8 @@ for
 let
 chunk
 of
+lazy
+.
 PlacesUtils
 .
 chunkArray
@@ -1679,6 +1745,8 @@ visit_type
 IN
 (
 {
+lazy
+.
 IGNORED_TRANSITIONS_AS_SQL_LIST
 }
 )
@@ -1744,6 +1812,8 @@ guid
 let
 canonicalURL
 =
+lazy
+.
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -1756,6 +1826,8 @@ uri
 let
 validatedGuid
 =
+lazy
+.
 PlacesUtils
 .
 BOOKMARK_VALIDATORS
@@ -1766,6 +1838,8 @@ guid
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -1879,6 +1953,8 @@ url
 let
 canonicalURL
 =
+lazy
+.
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -1892,6 +1968,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2033,6 +2111,8 @@ url
 let
 canonicalURL
 =
+lazy
+.
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -2046,6 +2126,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2161,6 +2243,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2452,6 +2536,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -2461,6 +2547,8 @@ promiseDBConnection
 let
 sinceInMicroseconds
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -2518,6 +2606,8 @@ NOT
 IN
 (
 {
+lazy
+.
 IGNORED_TRANSITIONS_AS_SQL_LIST
 }
 )
@@ -2693,6 +2783,8 @@ ROOTS
 )
 {
 return
+lazy
+.
 ROOTS
 ;
 }
@@ -2723,6 +2815,8 @@ getSyncId
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -2784,6 +2878,8 @@ let
 shouldWipeRemote
 =
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -2897,6 +2993,8 @@ resetSyncId
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -2914,6 +3012,8 @@ db
 let
 newSyncId
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -2943,6 +3043,8 @@ await
 resetAllSyncStatuses
 (
 db
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3135,6 +3237,8 @@ ID
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -3154,6 +3258,8 @@ let
 existingSyncId
 =
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -3197,6 +3303,8 @@ if
 existingSyncId
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 info
@@ -3252,6 +3360,8 @@ existingSyncId
 newSyncId
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 trace
@@ -3320,6 +3430,8 @@ we
 can
 merge
 .
+lazy
+.
 BookmarkSyncLog
 .
 info
@@ -3361,6 +3473,8 @@ await
 resetAllSyncStatuses
 (
 db
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3413,6 +3527,8 @@ let
 lastSync
 =
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -3507,6 +3623,8 @@ timestamp
 ;
 }
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -3810,6 +3928,8 @@ if
 (
 !
 [
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3817,6 +3937,8 @@ bookmarks
 SOURCES
 .
 RESTORE
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3824,6 +3946,8 @@ bookmarks
 SOURCES
 .
 RESTORE_ON_STARTUP
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3857,6 +3981,8 @@ all
 cases
 .
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -3938,6 +4064,8 @@ the
 server
 .
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -3951,6 +4079,8 @@ WIPE_REMOTE_META_KEY
 source
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3985,6 +4115,8 @@ syncStatus
 source
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -3993,6 +4125,8 @@ SOURCES
 .
 RESTORE_ON_STARTUP
 ?
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -4001,6 +4135,8 @@ SYNC_STATUS
 .
 UNKNOWN
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -4053,6 +4189,8 @@ guid
 )
 {
 return
+lazy
+.
 ROOT_GUID_TO_RECORD_ID
 [
 guid
@@ -4084,6 +4222,8 @@ recordId
 )
 {
 return
+lazy
+.
 ROOT_RECORD_ID_TO_GUID
 [
 recordId
@@ -4138,6 +4278,8 @@ fetchChildRecordIds
 parentRecordId
 )
 {
+lazy
+.
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -4158,6 +4300,8 @@ parentRecordId
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -4272,6 +4416,8 @@ entries
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -4502,6 +4648,8 @@ syncedItems
 {
 syncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -4567,6 +4715,8 @@ recordId
 if
 (
 !
+lazy
+.
 PlacesUtils
 .
 isValidGuid
@@ -4575,6 +4725,8 @@ guid
 )
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 warn
@@ -4598,6 +4750,8 @@ continue
 let
 time
 =
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -4933,6 +5087,8 @@ parentRecordId
 childRecordIds
 )
 {
+lazy
+.
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -4969,6 +5125,8 @@ if
 parentGuid
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5014,6 +5172,8 @@ recordIdToGuid
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5051,6 +5211,8 @@ havePendingChanges
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5270,6 +5432,8 @@ pullChanges
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5351,6 +5515,8 @@ changeRecords
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5445,6 +5611,8 @@ changeRecords
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -5651,6 +5819,8 @@ changeRecord
 counter
 syncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -5836,6 +6006,8 @@ tombstoneGuidsToRemove
 )
 ;
 }
+lazy
+.
 BookmarkSyncLog
 .
 debug
@@ -6073,6 +6245,8 @@ null
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -6106,9 +6280,13 @@ if
 (
 recordId
 in
+lazy
+.
 ROOT_RECORD_ID_TO_GUID
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 warn
@@ -6141,6 +6319,8 @@ let
 bookmarkItem
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -6156,6 +6336,8 @@ if
 bookmarkItem
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 trace
@@ -6221,6 +6403,8 @@ if
 wasRemoved
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 trace
@@ -6253,6 +6437,8 @@ let
 bookmarkItem
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -6268,6 +6454,8 @@ if
 bookmarkItem
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 trace
@@ -6300,6 +6488,8 @@ if
 wasRemoved
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 trace
@@ -6385,6 +6575,8 @@ id
 )
 {
 return
+lazy
+.
 ROOT_RECORD_ID_TO_GUID
 .
 hasOwnProperty
@@ -6448,6 +6640,8 @@ wipe
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -6517,6 +6711,8 @@ reset
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -6897,6 +7093,8 @@ let
 bookmarkItem
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -6917,6 +7115,8 @@ null
 ;
 }
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -7122,6 +7322,8 @@ let
 parent
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7202,6 +7404,8 @@ return
 source
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7245,6 +7449,8 @@ if
 source
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7271,6 +7477,8 @@ the
 server
 .
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7285,6 +7493,8 @@ if
 source
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7344,6 +7554,8 @@ the
 server
 .
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7384,6 +7596,8 @@ first
 sync
 .
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7547,6 +7761,8 @@ url
 syncChangeDelta
 type
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7643,6 +7859,8 @@ parentRecordId
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -7760,6 +7978,8 @@ VALUES
 :
 guid
 {
+lazy
+.
 PlacesUtils
 .
 toPRTime
@@ -7784,6 +8004,8 @@ guid
 else
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7821,6 +8043,8 @@ score
 .
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8054,6 +8278,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -8067,6 +8293,8 @@ await
 fetchChildGuids
 (
 db
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8129,6 +8357,8 @@ let
 db
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -8384,6 +8614,8 @@ info
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -8449,6 +8681,8 @@ let
 bookmarkItem
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8483,7 +8717,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 HistorySyncLog
 "
@@ -8493,6 +8727,8 @@ HistorySyncLog
 >
 {
 return
+lazy
+.
 Log
 .
 repository
@@ -8517,7 +8753,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 BookmarkSyncLog
 "
@@ -8555,6 +8791,8 @@ this
 log
 .
 return
+lazy
+.
 Log
 .
 repository
@@ -8584,11 +8822,15 @@ behavior
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 validateItemProperties
 (
 name
+lazy
+.
 PlacesUtils
 .
 SYNC_BOOKMARK_VALIDATORS
@@ -8624,11 +8866,15 @@ behavior
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 validateItemProperties
 (
 name
+lazy
+.
 PlacesUtils
 .
 SYNC_CHANGE_RECORD_VALIDATORS
@@ -8761,6 +9007,8 @@ guid
 try
 {
 await
+lazy
+.
 PlacesUtils
 .
 promiseItemId
@@ -8944,6 +9192,8 @@ return
 info
 ;
 }
+lazy
+.
 BookmarkSyncLog
 .
 debug
@@ -9158,6 +9408,8 @@ newKeyword
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 withConnectionWrapper
@@ -9177,6 +9429,8 @@ let
 entryForURL
 =
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -9207,6 +9461,8 @@ newKeyword
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -9275,6 +9531,8 @@ let
 entryForNewKeyword
 =
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -9294,6 +9552,8 @@ entryForNewKeyword
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -9388,6 +9648,8 @@ catch
 ex
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 warn
@@ -9425,6 +9687,8 @@ keyword
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -9491,6 +9755,8 @@ type
 )
 {
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -9507,6 +9773,8 @@ FOLDER
 ;
 }
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -9539,6 +9807,8 @@ KINDS
 BOOKMARK
 ;
 case
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -9599,6 +9869,8 @@ KINDS
 QUERY
 :
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -9613,6 +9885,8 @@ KINDS
 FOLDER
 :
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -9627,6 +9901,8 @@ KINDS
 SEPARATOR
 :
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -10065,6 +10341,8 @@ exist
 let
 dummyURI
 =
+lazy
+.
 PlacesUtils
 .
 toURI
@@ -10081,6 +10359,8 @@ BStore_tagURI
 let
 bookmarkURI
 =
+lazy
+.
 PlacesUtils
 .
 toURI
@@ -10102,6 +10382,8 @@ newTags
 length
 )
 {
+lazy
+.
 PlacesUtils
 .
 tagging
@@ -10114,6 +10396,8 @@ SOURCE_SYNC
 )
 ;
 }
+lazy
+.
 PlacesUtils
 .
 tagging
@@ -10135,6 +10419,8 @@ newTags
 length
 )
 {
+lazy
+.
 PlacesUtils
 .
 tagging
@@ -10147,6 +10433,8 @@ SOURCE_SYNC
 )
 ;
 }
+lazy
+.
 PlacesUtils
 .
 tagging
@@ -10589,6 +10877,8 @@ bookmarkInfo
 .
 index
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -10684,12 +10974,16 @@ item
 .
 tags
 =
+lazy
+.
 PlacesUtils
 .
 tagging
 .
 getTagsForURI
 (
+lazy
+.
 PlacesUtils
 .
 toURI
@@ -10704,6 +10998,8 @@ let
 keywordEntry
 =
 await
+lazy
+.
 PlacesUtils
 .
 keywords
@@ -11059,6 +11355,8 @@ tombstones
 .
 .
 .
+lazy
+.
 BookmarkSyncLog
 .
 warn
@@ -11089,6 +11387,8 @@ undeleted
 tombstones
 with
 items
+.
+lazy
 .
 BookmarkSyncLog
 .
@@ -11142,6 +11442,8 @@ modified
 0
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 error
@@ -11518,6 +11820,8 @@ AND
 {
 deletedSyncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11687,11 +11991,15 @@ bookmarkItem
 }
 if
 (
+lazy
+.
 BookmarkSyncLog
 .
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -11699,6 +12007,8 @@ Level
 Trace
 )
 {
+lazy
+.
 BookmarkSyncLog
 .
 trace
@@ -11765,6 +12075,8 @@ childGuids
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11780,6 +12092,8 @@ bookmarkItem
 parentGuid
 index
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11883,6 +12197,8 @@ transaction
 .
 source
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -11906,6 +12222,8 @@ parent
 try
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12050,6 +12368,8 @@ be
 possible
 )
 .
+lazy
+.
 BookmarkSyncLog
 .
 trace
@@ -12104,6 +12424,8 @@ bookmarkItem
 try
 {
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12134,6 +12456,8 @@ ex
 Likely
 already
 removed
+.
+lazy
 .
 BookmarkSyncLog
 .
@@ -12284,6 +12608,8 @@ recordId
 status
 =
 =
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12364,6 +12690,8 @@ join
 {
 syncStatus
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -12604,6 +12932,8 @@ newSyncId
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -12618,6 +12948,8 @@ newSyncId
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -12654,6 +12986,8 @@ newSyncId
 )
 {
 await
+lazy
+.
 PlacesUtils
 .
 metadata
@@ -12668,6 +13002,8 @@ newSyncId
 )
 ;
 await
+lazy
+.
 PlacesUtils
 .
 metadata
