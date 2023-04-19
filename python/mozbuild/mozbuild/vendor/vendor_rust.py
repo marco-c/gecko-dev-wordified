@@ -95,6 +95,10 @@ mozboot
 util
 import
 MINIMUM_RUST_VERSION
+from
+pathlib
+import
+Path
 import
 pytoml
 import
@@ -4155,7 +4159,17 @@ expected
 file
 "
 :
+Path
+(
 __file__
+)
+.
+relative_to
+(
+self
+.
+topsrcdir
+)
                         
 }
                         
@@ -4268,7 +4282,17 @@ expected
 file
 "
 :
+Path
+(
 __file__
+)
+.
+relative_to
+(
+self
+.
+topsrcdir
+)
                         
 }
                         
@@ -4353,7 +4377,17 @@ name
 file
 "
 :
+Path
+(
 __file__
+)
+.
+relative_to
+(
+self
+.
+topsrcdir
+)
                         
 }
                         
@@ -4426,7 +4460,17 @@ name
 file
 "
 :
+Path
+(
 __file__
+)
+.
+relative_to
+(
+self
+.
+topsrcdir
+)
                         
 }
                         
@@ -4497,7 +4541,17 @@ name
 file
 "
 :
+Path
+(
 __file__
+)
+.
+relative_to
+(
+self
+.
+topsrcdir
+)
                         
 }
                         
