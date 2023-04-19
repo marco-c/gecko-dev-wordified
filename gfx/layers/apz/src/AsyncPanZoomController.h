@@ -4026,6 +4026,16 @@ aHonoursRoot
 )
 const
 ;
+bool
+IsZero
+(
+const
+ParentLayerPoint
+&
+aPoint
+)
+const
+;
 protected
 :
 /
