@@ -4882,6 +4882,18 @@ stencilInput_
 return
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
+/
+/
+TODO
+helper
+thread
+ErrorContext
 js
 :
 :
@@ -4902,6 +4914,8 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
+&
+ec
 tempLifoAlloc
 *
 stencilInput_

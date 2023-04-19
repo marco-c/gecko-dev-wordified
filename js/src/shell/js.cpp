@@ -35681,6 +35681,12 @@ ParseGoal
 Script
 )
 {
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 stencil
 =
 frontend
@@ -35689,6 +35695,8 @@ frontend
 CompileGlobalScriptToExtensibleStencil
 (
 cx
+&
+ec
 input
 .
 get

@@ -687,14 +687,9 @@ Unit
 >
 parser
 ;
-js
-:
-:
-UniquePtr
-<
 ErrorContext
->
-ec
+*
+errorContext
 ;
 using
 TokenStreamPosition
@@ -764,6 +759,9 @@ init
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 InheritThis
 inheritThis
 =
@@ -799,6 +797,7 @@ return
 createSourceAndParser
 (
 cx
+ec
 )
 ;
 }
@@ -826,6 +825,9 @@ createSourceAndParser
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 ;
 void
@@ -1392,6 +1394,9 @@ CompileGlobalScriptToStencilAndMaybeInstantiate
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 js
 :
 :
@@ -1795,6 +1800,7 @@ compiler
 init
 (
 cx
+ec
 )
 )
 {
@@ -2239,6 +2245,9 @@ CompileGlobalScriptToStencilImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 js
 :
 :
@@ -2285,6 +2294,7 @@ if
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 cx
+ec
 tempLifoAlloc
 input
 srcBuf
@@ -2324,6 +2334,9 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 js
 :
 :
@@ -2350,6 +2363,7 @@ return
 CompileGlobalScriptToStencilImpl
 (
 cx
+ec
 tempLifoAlloc
 input
 srcBuf
@@ -2369,6 +2383,9 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 js
 :
 :
@@ -2395,6 +2412,7 @@ return
 CompileGlobalScriptToStencilImpl
 (
 cx
+ec
 tempLifoAlloc
 input
 srcBuf
@@ -2417,6 +2435,9 @@ CompileGlobalScriptToExtensibleStencilImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -2457,6 +2478,7 @@ if
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 cx
+ec
 cx
 -
 >
@@ -2503,6 +2525,9 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -2523,6 +2548,7 @@ return
 CompileGlobalScriptToExtensibleStencilImpl
 (
 cx
+ec
 input
 srcBuf
 scopeKind
@@ -2541,6 +2567,9 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -2561,6 +2590,7 @@ return
 CompileGlobalScriptToExtensibleStencilImpl
 (
 cx
+ec
 input
 srcBuf
 scopeKind
@@ -2772,6 +2802,9 @@ CompileGlobalScriptImpl
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -2830,6 +2863,7 @@ if
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 cx
+ec
 cx
 -
 >
@@ -2871,6 +2905,9 @@ CompileGlobalScript
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -2895,6 +2932,7 @@ return
 CompileGlobalScriptImpl
 (
 cx
+ec
 options
 srcBuf
 scopeKind
@@ -2911,6 +2949,9 @@ CompileGlobalScript
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -2935,6 +2976,7 @@ return
 CompileGlobalScriptImpl
 (
 cx
+ec
 options
 srcBuf
 scopeKind
@@ -3041,6 +3083,12 @@ tempLifoAlloc
 )
 )
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 ScriptCompiler
 <
 Unit
@@ -3065,6 +3113,8 @@ compiler
 init
 (
 cx
+&
+ec
 InheritThis
 :
 :
@@ -3546,6 +3596,9 @@ createSourceAndParser
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 {
 const
@@ -3559,15 +3612,9 @@ input
 .
 options
 ;
-ec
+errorContext
 =
-MakeUnique
-<
-GeneralErrorContext
->
-(
-cx
-)
+ec
 ;
 if
 (
@@ -3618,11 +3665,7 @@ syntaxParser
 emplace
 (
 cx
-ec
-.
-get
-(
-)
+errorContext
 options
 sourceBuffer_
 .
@@ -3672,11 +3715,7 @@ parser
 emplace
 (
 cx
-ec
-.
-get
-(
-)
+errorContext
 options
 sourceBuffer_
 .
@@ -5229,6 +5268,12 @@ tempLifoAlloc
 )
 )
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 ModuleCompiler
 <
 Unit
@@ -5249,6 +5294,8 @@ compiler
 init
 (
 cx
+&
+ec
 )
 )
 {
@@ -8532,6 +8579,12 @@ InheritThis
 :
 No
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 StandaloneFunctionCompiler
 <
 char16_t
@@ -8556,6 +8609,8 @@ compiler
 init
 (
 cx
+&
+ec
 inheritThis
 )
 )
