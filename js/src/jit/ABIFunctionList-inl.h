@@ -957,7 +957,7 @@ js
 jit
 :
 :
-AllocateString
+AllocateDependentString
 )
 \
 _

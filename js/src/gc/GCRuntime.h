@@ -3856,13 +3856,11 @@ nDynamicSlots
 ;
 template
 <
-typename
-T
 AllowGC
 allowGC
 >
 static
-T
+TenuredCell
 *
 tryNewTenuredThing
 (
@@ -3880,9 +3878,9 @@ template
 AllowGC
 allowGC
 >
-JSString
+Cell
 *
-tryNewNurseryString
+tryNewNurseryStringCell
 (
 JSContext
 *

@@ -3909,7 +3909,7 @@ result
 ;
 void
 *
-AllocateString
+AllocateDependentString
 (
 JSContext
 *
