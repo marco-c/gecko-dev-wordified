@@ -143,17 +143,6 @@ DebuggerSourceReferent
 #
 include
 "
-gc
-/
-Rooting
-.
-h
-"
-/
-/
-#
-include
-"
 vm
 /
 NativeObject

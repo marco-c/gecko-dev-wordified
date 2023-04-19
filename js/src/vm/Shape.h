@@ -246,7 +246,7 @@ include
 "
 gc
 /
-Rooting
+Policy
 .
 h
 "
@@ -379,6 +379,15 @@ include
 vm
 /
 SymbolType
+.
+h
+"
+#
+include
+"
+vm
+/
+TaggedProto
 .
 h
 "

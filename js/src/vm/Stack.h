@@ -176,15 +176,6 @@ type_traits
 #
 include
 "
-gc
-/
-Rooting
-.
-h
-"
-#
-include
-"
 js
 /
 ErrorReport

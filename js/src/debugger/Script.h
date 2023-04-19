@@ -154,17 +154,6 @@ DebuggerScriptReferent
 #
 include
 "
-gc
-/
-Rooting
-.
-h
-"
-/
-/
-#
-include
-"
 js
 /
 TypeDecls
