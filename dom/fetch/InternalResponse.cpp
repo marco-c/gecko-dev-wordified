@@ -1331,13 +1331,6 @@ mCacheInfoChannel
 =
 mCacheInfoChannel
 ;
-clone
--
->
-mCredentialsMode
-=
-mCredentialsMode
-;
 if
 (
 mWrappedResponse
