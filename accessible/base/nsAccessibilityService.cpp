@@ -11906,6 +11906,13 @@ AsLocal
 )
 {
 return
+localAcc
+-
+>
+HasOwnContent
+(
+)
+?
 GetMarkupMapInfoFor
 (
 localAcc
@@ -11915,6 +11922,8 @@ GetContent
 (
 )
 )
+:
+nullptr
 ;
 }
 /
