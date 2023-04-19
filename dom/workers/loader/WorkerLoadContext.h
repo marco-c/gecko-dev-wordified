@@ -415,12 +415,6 @@ GetCacheCreator
 (
 )
 ;
-Maybe
-<
-nsString
->
-mSourceMapURL
-;
 enum
 CacheStatus
 {
