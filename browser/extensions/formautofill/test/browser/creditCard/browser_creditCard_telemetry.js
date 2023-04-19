@@ -1011,9 +1011,9 @@ browser
 )
 {
 let
-promiseShown
+onPopupShown
 =
-promiseNotificationShown
+waitForPopupShown
 (
 )
 ;
@@ -1109,7 +1109,7 @@ mastercard
 )
 ;
 await
-promiseShown
+onPopupShown
 ;
 await
 clickDoorhangerButton
@@ -1906,9 +1906,9 @@ browser
 )
 {
 let
-promiseShown
+onPopupShown
 =
-promiseNotificationShown
+waitForPopupShown
 (
 )
 ;
@@ -2019,7 +2019,7 @@ year
 )
 ;
 await
-promiseShown
+onPopupShown
 ;
 await
 clickDoorhangerButton
