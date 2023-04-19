@@ -767,7 +767,7 @@ UsingHttpsProxy
 &
 &
 !
-mTLSFilter
+mHasTLSTransportLayer
 &
 &
 mConnInfo
@@ -2473,6 +2473,12 @@ mProxyConnectStream
 ;
 bool
 mRequestDone
+{
+false
+}
+;
+bool
+mHasTLSTransportLayer
 {
 false
 }
