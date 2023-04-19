@@ -526,11 +526,6 @@ TelemetryStopwatch
 webidl
 "
 "
-UniFFI
-.
-webidl
-"
-"
 UserInteraction
 .
 webidl
