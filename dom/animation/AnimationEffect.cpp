@@ -1913,7 +1913,10 @@ result
 .
 mBeforeFlag
 =
-StyleEasingBeforeFlag
+ComputedTimingFunction
+:
+:
+BeforeFlag
 :
 :
 Set
