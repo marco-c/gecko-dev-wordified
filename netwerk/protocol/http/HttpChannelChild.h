@@ -644,14 +644,6 @@ IsSuspended
 (
 )
 ;
-void
-OnCopyComplete
-(
-nsresult
-aStatus
-)
-override
-;
 /
 /
 Callback
