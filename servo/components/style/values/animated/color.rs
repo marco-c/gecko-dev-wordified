@@ -2953,7 +2953,7 @@ PI
 left
 +
 =
-PI
+TAU
 ;
 }
 else
@@ -2961,16 +2961,13 @@ if
 delta
 <
 -
-1
-.
-*
 PI
 {
 *
 right
 +
 =
-PI
+TAU
 ;
 }
 }
