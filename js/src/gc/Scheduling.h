@@ -6283,14 +6283,6 @@ checkEmptyOnDestroy
 (
 )
 ;
-void
-adopt
-(
-MemoryTracker
-&
-other
-)
-;
 /
 /
 Track

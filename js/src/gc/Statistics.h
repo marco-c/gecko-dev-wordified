@@ -1333,14 +1333,6 @@ measureInitialHeapSize
 )
 ;
 void
-adoptHeapSizeDuringIncrementalGC
-(
-Zone
-*
-mergedZone
-)
-;
-void
 nonincremental
 (
 GCAbortReason
