@@ -2559,6 +2559,9 @@ internal
 :
 :
 EnsureCommandlineSafeImpl
+<
+CharT
+>
 (
 argc
 argv

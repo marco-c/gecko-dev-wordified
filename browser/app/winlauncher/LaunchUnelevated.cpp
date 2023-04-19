@@ -183,6 +183,16 @@ h
 #
 include
 "
+.
+.
+/
+BrowserDefines
+.
+h
+"
+#
+include
+"
 nsWindowsHelpers
 .
 h
