@@ -874,7 +874,11 @@ InitCacheInternal
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 scope
 =
 nullptr
@@ -3255,7 +3259,11 @@ chunkSize
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 scope
 =
 nullptr
