@@ -253,11 +253,17 @@ js
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsClient
 "
@@ -280,7 +286,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsConfig
 "
@@ -303,7 +309,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsCommands
 "
@@ -326,7 +332,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsDevice
 "
@@ -349,7 +355,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsKeys
 "
@@ -372,7 +378,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsProfile
 "
@@ -395,7 +401,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FxAccountsTelemetry
 "
@@ -418,7 +424,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Preferences
 :
@@ -442,7 +448,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 FXA_ENABLED
 "
@@ -2642,6 +2648,8 @@ config
 )
 {
 return
+lazy
+.
 FxAccountsConfig
 ;
 }
@@ -3498,6 +3506,8 @@ null
 if
 (
 !
+lazy
+.
 FXA_ENABLED
 )
 {
@@ -4943,6 +4953,8 @@ this
 keys
 =
 new
+lazy
+.
 FxAccountsKeys
 (
 this
@@ -5454,6 +5466,8 @@ this
 _fxAccountsClient
 =
 new
+lazy
+.
 FxAccountsClient
 (
 )
@@ -5521,6 +5535,8 @@ this
 _profile
 =
 new
+lazy
+.
 FxAccountsProfile
 (
 {
@@ -5559,6 +5575,8 @@ this
 _commands
 =
 new
+lazy
+.
 FxAccountsCommands
 (
 this
@@ -5592,6 +5610,8 @@ this
 _device
 =
 new
+lazy
+.
 FxAccountsDevice
 (
 this
@@ -5625,6 +5645,8 @@ this
 _telemetry
 =
 new
+lazy
+.
 FxAccountsTelemetry
 (
 this
@@ -6251,6 +6273,8 @@ credentials
 if
 (
 !
+lazy
+.
 FXA_ENABLED
 )
 {
@@ -6271,6 +6295,8 @@ disabled
 )
 ;
 }
+lazy
+.
 Preferences
 .
 resetBranch
@@ -7108,6 +7134,8 @@ sessionToken
 tokensToRevoke
 )
 ;
+lazy
+.
 FxAccountsConfig
 .
 resetConfigURLs
@@ -7173,6 +7201,8 @@ that
 to
 succeed
 .
+lazy
+.
 FxAccountsConfig
 .
 resetConfigURLs
@@ -7194,6 +7224,8 @@ _signOutLocal
 (
 )
 {
+lazy
+.
 Preferences
 .
 resetBranch
