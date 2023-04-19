@@ -8543,6 +8543,7 @@ TenuringTracer
 mover
 )
 {
+{
 /
 /
 Suppress
@@ -8639,6 +8640,8 @@ etc
 )
 can
 happen
+/
+/
 later
 .
 startProfile
@@ -8783,6 +8786,7 @@ ProfileKey
 MarkRuntime
 )
 ;
+}
 startProfile
 (
 ProfileKey
