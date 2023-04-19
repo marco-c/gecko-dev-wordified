@@ -64,10 +64,6 @@ sys
 import
 hashlib
 import
-re
-import
-os
-import
 functools
 from
 mozbuild
@@ -99,10 +95,8 @@ from
 collections
 import
 OrderedDict
-import
-six
 from
-six
+io
 import
 StringIO
 import
@@ -357,12 +351,7 @@ checksum
 .
 update
 (
-six
-.
-ensure_binary
-(
 buf
-)
 )
             
 content_size
@@ -370,12 +359,7 @@ content_size
 =
 len
 (
-six
-.
-ensure_binary
-(
 buf
-)
 )
         
 m
@@ -469,11 +453,10 @@ in
 sorted
 (
         
-six
-.
-iteritems
-(
 checksums
+.
+items
+(
 )
 key
 =

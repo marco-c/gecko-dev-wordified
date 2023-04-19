@@ -73,8 +73,6 @@ __future__
 import
 unicode_literals
 print_function
-import
-six
 def
 main
 (
@@ -108,15 +106,6 @@ unicode
 aware
 anyway
 .
-    
-locale
-=
-six
-.
-ensure_text
-(
-locale
-)
     
 print
 (
