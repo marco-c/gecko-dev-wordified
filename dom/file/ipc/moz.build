@@ -257,11 +257,6 @@ IPDL_SOURCES
 =
 [
 "
-BlobTypes
-.
-ipdlh
-"
-"
 IPCBlob
 .
 ipdlh

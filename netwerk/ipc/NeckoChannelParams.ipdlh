@@ -119,9 +119,6 @@ protocol
 PHttpChannel
 ;
 include
-BlobTypes
-;
-include
 ClientIPCTypes
 ;
 include
