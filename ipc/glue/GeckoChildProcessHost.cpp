@@ -7250,7 +7250,6 @@ _ns
 +
 new_dyld_lib_path
 ;
-}
 mLaunchOptions
 -
 >
@@ -7267,6 +7266,7 @@ get
 (
 )
 ;
+}
 /
 /
 DYLD_INSERT_LIBRARIES
