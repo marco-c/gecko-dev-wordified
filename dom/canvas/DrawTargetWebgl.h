@@ -1951,6 +1951,14 @@ already_AddRefed
 <
 SourceSurface
 >
+GetDataSnapshot
+(
+)
+;
+already_AddRefed
+<
+SourceSurface
+>
 Snapshot
 (
 )
