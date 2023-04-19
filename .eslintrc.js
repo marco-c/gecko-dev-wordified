@@ -4351,12 +4351,6 @@ dom
 *
 "
 "
-docshell
-/
-*
-*
-"
-"
 editor
 /
 libeditor
