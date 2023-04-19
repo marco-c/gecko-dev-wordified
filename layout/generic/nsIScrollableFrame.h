@@ -2279,13 +2279,6 @@ mozilla
 CSSPoint
 &
 aScrollPosition
-mozilla
-:
-:
-ScrollSnapTargetIds
-&
-&
-aLastSnapTargetIds
 )
 =
 0
