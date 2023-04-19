@@ -704,6 +704,10 @@ i
 }
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
+mFocusEvent
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
 mEvents
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -932,6 +936,10 @@ mNotifications
 Clear
 (
 )
+;
+mFocusEvent
+=
+nullptr
 ;
 mEvents
 .
@@ -7317,6 +7325,10 @@ mNotifications
 IsEmpty
 (
 )
+&
+&
+!
+mFocusEvent
 &
 &
 mEvents
