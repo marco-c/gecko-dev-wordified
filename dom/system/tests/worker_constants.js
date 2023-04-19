@@ -40,6 +40,12 @@ chrome
 worker
 *
 /
+/
+*
+global
+OS
+*
+/
 function
 log
 (
