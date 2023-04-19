@@ -314,13 +314,6 @@ UNIFIED_SOURCES
 "
 fallback
 /
-FallbackProcessPriority
-.
-cpp
-"
-"
-fallback
-/
 FallbackScreenConfiguration
 .
 cpp
@@ -336,6 +329,13 @@ cpp
 fallback
 /
 FallbackVibration
+.
+cpp
+"
+"
+linux
+/
+LinuxProcessPriority
 .
 cpp
 "
