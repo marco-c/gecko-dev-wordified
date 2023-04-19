@@ -2448,6 +2448,17 @@ of
 actions
 )
 {
+/
+/
+This
+logic
+should
+match
+PrefRequiresRefresh
+in
+reftest
+.
+jsm
 requiresRefresh
 =
 requiresRefresh
