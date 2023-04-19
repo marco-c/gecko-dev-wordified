@@ -58,8 +58,6 @@ io
 import
 re
 import
-six
-import
 yaml
 import
 atexit
@@ -810,9 +808,7 @@ LIST_FIELDS_CONTENT
 description
 "
 :
-six
-.
-string_types
+str
         
 }
         

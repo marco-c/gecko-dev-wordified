@@ -58,8 +58,6 @@ io
 import
 re
 import
-six
-import
 yaml
 import
 atexit
@@ -956,25 +954,19 @@ LIST_FIELDS_CONTENT
 description
 "
 :
-six
-.
-string_types
+str
             
 "
 expires
 "
 :
-six
-.
-string_types
+str
             
 "
 kind
 "
 :
-six
-.
-string_types
+str
             
 "
 notification_emails
@@ -1012,9 +1004,7 @@ OPTIONAL_FIELDS
 release_channel_collection
 "
 :
-six
-.
-string_types
+str
             
 "
 keyed
@@ -1070,49 +1060,37 @@ int
 notification_emails
 "
 :
-six
-.
-string_types
+str
             
 "
 record_in_processes
 "
 :
-six
-.
-string_types
+str
             
 "
 products
 "
 :
-six
-.
-string_types
+str
             
 "
 keys
 "
 :
-six
-.
-string_types
+str
             
 "
 operating_systems
 "
 :
-six
-.
-string_types
+str
             
 "
 record_into_store
 "
 :
-six
-.
-string_types
+str
         
 }
         
