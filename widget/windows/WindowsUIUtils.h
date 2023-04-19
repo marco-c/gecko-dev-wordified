@@ -197,6 +197,12 @@ ComputeOverlayScrollbars
 (
 )
 ;
+static
+double
+ComputeTextScaleFactor
+(
+)
+;
 protected
 :
 ~
