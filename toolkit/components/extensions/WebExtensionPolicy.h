@@ -1013,7 +1013,11 @@ aCx
 JS
 :
 :
-MutableHandleObject
+MutableHandle
+<
+JSObject
+*
+>
 aResult
 )
 const
@@ -1240,7 +1244,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aGivenProto
 )
 override
