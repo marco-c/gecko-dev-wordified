@@ -3768,7 +3768,6 @@ BorderBackground
 (
 )
 true
-nullptr
 aFrame
 -
 >

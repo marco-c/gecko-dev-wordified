@@ -24774,11 +24774,6 @@ bool
 aAllowWillPaintBorderOptimization
 =
 true
-ComputedStyle
-*
-aComputedStyle
-=
-nullptr
 const
 nsRect
 &
