@@ -884,12 +884,6 @@ pocket
 .
 svg
 "
-width
-:
-16
-height
-:
-16
 }
 onPrefChange
 (
