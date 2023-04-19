@@ -190,11 +190,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BackgroundTasksUtils
 "
@@ -217,7 +223,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -1568,6 +1574,8 @@ etc
 const
 defaultProfile
 =
+lazy
+.
 BackgroundTasksUtils
 .
 getDefaultProfile
@@ -1949,6 +1957,8 @@ customBinaryPath
 ;
 profilePath
 =
+lazy
+.
 FileUtils
 .
 getDir
