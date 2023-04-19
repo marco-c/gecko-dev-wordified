@@ -132,15 +132,11 @@ py
 ]
         
 "
-python2
-.
-7
+python3
 "
 :
 "
-python2
-.
-7
+python3
 "
     
 }
