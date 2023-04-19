@@ -6964,8 +6964,10 @@ if
 didRemove
 )
 {
+RefPtr
+<
 BrowsingContext
-*
+>
 rootBC
 =
 shistory
