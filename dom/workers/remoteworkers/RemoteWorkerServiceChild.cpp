@@ -130,8 +130,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 RemoteWorkerServiceChild
@@ -140,8 +140,9 @@ RemoteWorkerServiceChild
 RemoteWorkerServiceChild
 (
 )
-{
-}
+=
+default
+;
 RemoteWorkerServiceChild
 :
 :
@@ -156,9 +157,7 @@ default
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -122,8 +122,8 @@ define
 mozilla_dom_workers_WorkerStatus_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -729,12 +729,10 @@ Dead
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

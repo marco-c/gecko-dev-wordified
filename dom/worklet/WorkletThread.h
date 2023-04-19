@@ -186,8 +186,8 @@ nsIRunnable
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -410,12 +410,10 @@ thread
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

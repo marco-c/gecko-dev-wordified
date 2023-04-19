@@ -163,8 +163,8 @@ nsIURI
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -668,12 +668,10 @@ mChannel
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
