@@ -543,7 +543,7 @@ pref_name
 :
 *
 const
-u16
+i16
 )
 -
 >
@@ -706,6 +706,10 @@ slice
 from_raw_parts
 (
 pref_name
+as
+*
+const
+u16
 len
 )
 ;
