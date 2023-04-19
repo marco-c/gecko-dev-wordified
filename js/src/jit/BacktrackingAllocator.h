@@ -2216,7 +2216,7 @@ use
 )
 ;
 void
-distributeUses
+tryToMoveDefAndUsesInto
 (
 LiveRange
 *
@@ -4970,7 +4970,7 @@ nodiscard
 ]
 ]
 bool
-splitAndRequeueBundles
+updateVirtualRegisterListsThenRequeueBundles
 (
 LiveBundle
 *
@@ -5390,7 +5390,7 @@ nodiscard
 ]
 AVOID_INLINE_FOR_DEBUGGING
 bool
-resolveControlFlow
+createMoveGroupsFromLiveRangeTransitions
 (
 )
 ;
@@ -5419,7 +5419,7 @@ nodiscard
 ]
 AVOID_INLINE_FOR_DEBUGGING
 bool
-reifyAllocations
+installAllocationsInLIR
 (
 )
 ;
