@@ -148,14 +148,6 @@ http
 localhost
 "
 ;
-const
-REPORT_SERVER_PATH
-=
-"
-/
-report
-"
-;
 /
 *
 *
