@@ -224,7 +224,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 LONGSTRING
@@ -276,7 +276,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 LONGSTRING

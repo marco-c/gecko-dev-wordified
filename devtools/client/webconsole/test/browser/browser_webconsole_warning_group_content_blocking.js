@@ -614,7 +614,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "
@@ -1522,7 +1522,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 TRACKER_IMG

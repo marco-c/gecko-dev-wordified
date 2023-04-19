@@ -236,7 +236,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -247,8 +247,6 @@ status
 "
 .
 network
-.
-error
 "
 )
 )
@@ -260,7 +258,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -271,8 +269,6 @@ status
 "
 .
 network
-.
-error
 "
 )
 )

@@ -504,7 +504,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 url1

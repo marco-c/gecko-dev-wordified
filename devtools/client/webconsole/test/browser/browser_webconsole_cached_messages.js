@@ -715,7 +715,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -723,8 +723,6 @@ info
 Bazzle
 "
 "
-.
-message
 .
 info
 "
@@ -1149,17 +1147,13 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "
 cssColorBug611032
 "
 "
-.
-message
-.
-warn
 .
 css
 "

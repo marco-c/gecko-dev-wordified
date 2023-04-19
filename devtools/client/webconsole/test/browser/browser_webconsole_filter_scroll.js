@@ -169,7 +169,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -241,7 +241,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -320,7 +320,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -445,7 +445,7 @@ async
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -508,7 +508,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "

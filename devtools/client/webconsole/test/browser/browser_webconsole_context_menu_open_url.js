@@ -232,7 +232,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -392,7 +392,7 @@ waitFor
 )
 =
 >
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -636,7 +636,7 @@ waitFor
 )
 =
 >
-findMessage
+findNetworkMessage
 (
 hud
 "

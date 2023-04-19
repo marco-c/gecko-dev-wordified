@@ -102,7 +102,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -119,10 +119,6 @@ wss
 0
 :
 81
-"
-"
-.
-error
 "
 )
 "
@@ -157,7 +153,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -174,10 +170,6 @@ wss
 0
 :
 82
-"
-"
-.
-error
 "
 )
 "

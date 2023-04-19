@@ -180,7 +180,7 @@ waitFor
 )
 =
 >
-findMessage
+findMessageByType
 (
 hud
 "
@@ -189,6 +189,10 @@ test
 console
 .
 html
+"
+"
+.
+network
 "
 )
 )

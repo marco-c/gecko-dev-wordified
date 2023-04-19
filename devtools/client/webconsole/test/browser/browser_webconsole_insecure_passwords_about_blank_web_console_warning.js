@@ -176,16 +176,10 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 INSECURE_PASSWORD_MSG
-"
-.
-message
-.
-warn
-"
 )
 "
 "

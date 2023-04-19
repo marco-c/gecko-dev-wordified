@@ -150,7 +150,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -159,12 +159,6 @@ exception
 :
 worker
 -
-error
-"
-"
-.
-message
-.
 error
 "
 )
@@ -177,7 +171,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "
@@ -186,12 +180,6 @@ exception
 :
 worklet
 -
-error
-"
-"
-.
-message
-.
 error
 "
 )

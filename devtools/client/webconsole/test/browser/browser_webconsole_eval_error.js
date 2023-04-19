@@ -322,15 +322,11 @@ expanded
 const
 rejectedObjectMessage
 =
-findMessage
+findErrorMessage
 (
 hud
 "
 eggplant
-"
-"
-.
-error
 "
 )
 ;
@@ -594,7 +590,7 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 "

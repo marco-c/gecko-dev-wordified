@@ -416,12 +416,16 @@ waitFor
 )
 =
 >
-findMessage
+findMessageByType
 (
 hud
 "
 Navigated
 to
+"
+"
+.
+navigationMarker
 "
 )
 )
@@ -571,7 +575,7 @@ waitFor
 =
 >
 !
-findMessage
+findWarningMessage
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -646,7 +650,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -710,7 +714,7 @@ group
 "
 )
 ;
-findMessages
+findWarningMessages
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -738,7 +742,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 BLOCKED_URL
@@ -842,7 +846,7 @@ waitFor
 =
 >
 !
-findMessage
+findWarningMessage
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -917,7 +921,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -1024,7 +1028,7 @@ waitFor
 =
 >
 !
-findMessage
+findConsoleAPIMessage
 (
 hud
 "
@@ -1085,7 +1089,7 @@ group
 "
 )
 ;
-findMessages
+findWarningMessages
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -1113,7 +1117,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "
@@ -1227,7 +1231,7 @@ waitFor
 =
 >
 !
-findMessage
+findWarningMessage
 (
 hud
 "
@@ -1308,7 +1312,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 "
@@ -1493,7 +1497,7 @@ waitFor
 =
 >
 !
-findMessage
+findWarningMessage
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL
@@ -1573,7 +1577,7 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 CONTENT_BLOCKING_GROUP_LABEL

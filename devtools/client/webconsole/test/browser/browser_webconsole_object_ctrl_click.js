@@ -147,7 +147,7 @@ TEST_URI
 const
 message
 =
-findMessage
+findConsoleAPIMessage
 (
 hud
 "

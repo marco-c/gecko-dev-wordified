@@ -135,16 +135,10 @@ waitFor
 )
 =
 >
-findMessage
+findErrorMessage
 (
 hud
 MSG
-"
-.
-message
-.
-error
-"
 )
 "
 "

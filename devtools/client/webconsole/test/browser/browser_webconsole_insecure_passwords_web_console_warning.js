@@ -373,16 +373,10 @@ waitFor
 )
 =
 >
-findMessage
+findWarningMessage
 (
 hud
 warningMessage
-"
-.
-message
-.
-warn
-"
 )
 )
 ;
