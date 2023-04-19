@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 LoginHelper
 :
@@ -154,7 +160,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -166,6 +172,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -351,8 +359,12 @@ this
 .
 _sharedCredentialsClient
 =
+lazy
+.
 RemoteSettings
 (
+lazy
+.
 LoginHelper
 .
 relatedRealmsCollection
@@ -391,6 +403,8 @@ get
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -406,6 +420,8 @@ _relatedDomainsList
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -711,6 +727,8 @@ catch
 e
 )
 {
+lazy
+.
 log
 .
 error

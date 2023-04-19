@@ -135,11 +135,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AutoCompleteChild
 "
@@ -162,7 +168,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BrowserUtils
 "
@@ -185,7 +191,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 InsecurePasswordUtils
 "
@@ -208,7 +214,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginFormFactory
 "
@@ -231,7 +237,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -254,7 +260,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginManagerChild
 "
@@ -277,7 +283,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NewPasswordModel
 "
@@ -300,7 +306,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 formFillController
 "
@@ -328,7 +334,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 SHOULD_SHOW_ORIGIN
 "
@@ -343,7 +349,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -353,6 +359,8 @@ log
 >
 {
 return
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -369,7 +377,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 passwordMgrBundle
 "
@@ -407,7 +415,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 dateAndTimeFormatter
 "
@@ -448,6 +456,8 @@ b
 let
 maybeHostPortA
 =
+lazy
+.
 LoginHelper
 .
 maybeGetHostPortForURL
@@ -460,6 +470,8 @@ origin
 let
 maybeHostPortB
 =
+lazy
+.
 LoginHelper
 .
 maybeGetHostPortForURL
@@ -699,6 +711,8 @@ length
 )
 {
 return
+lazy
+.
 passwordMgrBundle
 .
 formatStringFromName
@@ -709,6 +723,8 @@ formatArgs
 ;
 }
 return
+lazy
+.
 passwordMgrBundle
 .
 GetStringFromName
@@ -834,6 +850,8 @@ isOriginMatched
 {
 super
 (
+lazy
+.
 SHOULD_SHOW_ORIGIN
 ?
 "
@@ -948,6 +966,8 @@ noUsername
 let
 time
 =
+lazy
+.
 dateAndTimeFormatter
 .
 format
@@ -1078,6 +1098,8 @@ actor
 let
 vanilla
 =
+lazy
+.
 LoginHelper
 .
 loginToVanillaObject
@@ -1587,12 +1609,16 @@ case
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 showAutoCompleteFooter
 |
 |
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -1648,6 +1674,8 @@ aSearchString
 generatedPassword
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1687,6 +1715,8 @@ generatedPassword
 hasBeenTypePassword
 &
 &
+lazy
+.
 formFillController
 .
 passwordPopupAutomaticallyOpened
@@ -1696,6 +1726,8 @@ hidingFooterOnPWFieldAutoOpened
 =
 true
 ;
+lazy
+.
 log
 .
 debug
@@ -1755,6 +1787,8 @@ if
 isSecure
 &
 &
+lazy
+.
 LoginHelper
 .
 showInsecureFieldWarning
@@ -1782,6 +1816,8 @@ items
 let
 formHostPort
 =
+lazy
+.
 LoginHelper
 .
 maybeGetHostPortForURL
@@ -1831,6 +1867,8 @@ login
 hasBeenTypePassword
 duplicateUsernames
 actor
+lazy
+.
 LoginHelper
 .
 isOriginMatching
@@ -1842,6 +1880,8 @@ formOrigin
 {
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -2913,6 +2953,8 @@ field
 let
 form
 =
+lazy
+.
 LoginFormFactory
 .
 createFromField
@@ -2927,6 +2969,8 @@ isSecure
 isNullPrincipal
 &
 &
+lazy
+.
 InsecurePasswordUtils
 .
 isFormSecure
@@ -2955,6 +2999,8 @@ host
 let
 formOrigin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -2969,6 +3015,8 @@ documentURI
 let
 loginManagerActor
 =
+lazy
+.
 LoginManagerChild
 .
 forWindow
@@ -3071,6 +3119,8 @@ autoCompleteLookupPromise
 autoCompleteLookupPromise
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3276,6 +3326,8 @@ return
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -3317,6 +3369,8 @@ aPreviousResult
 searchString
 logins
 :
+lazy
+.
 LoginHelper
 .
 loginsToVanillaObjects
@@ -3365,12 +3419,16 @@ acLookupPromise
 .
 catch
 (
+lazy
+.
 log
 .
 error
 .
 bind
 (
+lazy
+.
 log
 )
 )
@@ -3404,6 +3462,8 @@ hasBeenTypePassword
 let
 actionOrigin
 =
+lazy
+.
 LoginHelper
 .
 getFormActionOrigin
@@ -3423,6 +3483,8 @@ getAutocompleteInfo
 let
 loginManagerActor
 =
+lazy
+.
 LoginManagerChild
 .
 forWindow
@@ -3515,6 +3577,8 @@ forcePasswordGeneration
 hasBeenTypePassword
 isSecure
 :
+lazy
+.
 InsecurePasswordUtils
 .
 isFormSecure
@@ -3526,6 +3590,8 @@ isProbablyANewPasswordField
 ;
 if
 (
+lazy
+.
 LoginHelper
 .
 showAutoCompleteFooter
@@ -3538,6 +3604,8 @@ init
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -3594,6 +3662,8 @@ result
 importable
 logins
 :
+lazy
+.
 LoginHelper
 .
 vanillaObjectsToLogins
@@ -3618,6 +3688,8 @@ inputElement
 const
 threshold
 =
+lazy
+.
 LoginHelper
 .
 generationConfidenceThreshold
@@ -3671,6 +3743,8 @@ rules
 type
 }
 =
+lazy
+.
 NewPasswordModel
 ;
 const
@@ -3824,6 +3898,8 @@ if
 input
 !
 =
+lazy
+.
 formFillController
 .
 controller
@@ -3878,6 +3954,8 @@ fillRequestId
 const
 child
 =
+lazy
+.
 LoginManagerChild
 .
 forWindow

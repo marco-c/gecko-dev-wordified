@@ -163,11 +163,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 OSKeyStore
 "
@@ -713,6 +719,8 @@ existingLogins
 length
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3232,6 +3240,8 @@ testOnlyUserHasInteractedWithDocument
 false
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -4699,6 +4709,8 @@ case
 above
 .
 )
+lazy
+.
 log
 .
 warn
@@ -7192,6 +7204,8 @@ scheme
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -7550,6 +7564,8 @@ chrome
 /
 FirefoxAccounts
 )
+lazy
+.
 log
 .
 debug
@@ -10386,6 +10402,8 @@ let
 result
 =
 await
+lazy
+.
 OSKeyStore
 .
 ensureLoggedIn
@@ -11252,6 +11270,8 @@ browser
 canGoBack
 )
 {
+lazy
+.
 log
 .
 debug
@@ -11300,7 +11320,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "

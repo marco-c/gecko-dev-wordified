@@ -163,11 +163,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 crypto
@@ -1288,6 +1294,8 @@ Uint8Array
 ;
 do
 {
+lazy
+.
 crypto
 .
 getRandomValues
@@ -1385,6 +1393,8 @@ length
 1
 )
 ;
+lazy
+.
 crypto
 .
 getRandomValues

@@ -158,11 +158,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 gContentSecurityManager
 "
@@ -184,7 +190,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -207,7 +213,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -217,6 +223,8 @@ log
 >
 {
 return
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -663,6 +671,8 @@ if
 res
 )
 {
+lazy
+.
 log
 .
 debug

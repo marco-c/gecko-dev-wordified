@@ -135,11 +135,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 OS
 :
@@ -575,6 +581,8 @@ n
 )
 ;
 await
+lazy
+.
 OS
 .
 File

@@ -104,11 +104,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -1798,6 +1804,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger

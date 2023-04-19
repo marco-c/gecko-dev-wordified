@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -145,7 +151,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginManagerParent
 "
@@ -168,7 +174,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -178,6 +184,8 @@ log
 >
 {
 return
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -814,6 +822,8 @@ origin
 formOrigin
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -822,6 +832,8 @@ schemeUpgrades
 let
 logins
 =
+lazy
+.
 LoginHelper
 .
 searchLoginsWithObject
@@ -843,6 +855,8 @@ timePasswordChanged
 ;
 logins
 =
+lazy
+.
 LoginHelper
 .
 dedupeLogins

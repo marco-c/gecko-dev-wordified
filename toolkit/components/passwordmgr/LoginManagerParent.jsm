@@ -138,11 +138,17 @@ init
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 LoginRelatedRealmsParent
 "
@@ -188,7 +194,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 PasswordRulesManager
 "
@@ -234,7 +240,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ChromeMigrationUtils
 :
@@ -329,7 +335,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 prompterSvc
 "
@@ -355,7 +361,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -367,6 +373,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -393,7 +401,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 debug
 "
@@ -405,6 +413,8 @@ debug
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -862,6 +872,8 @@ merged
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -1007,6 +1019,8 @@ disabled
 const
 state
 =
+lazy
+.
 LoginHelper
 .
 suggestImportCount
@@ -1014,6 +1028,8 @@ suggestImportCount
 0
 &
 &
+lazy
+.
 LoginHelper
 .
 showAutoCompleteImport
@@ -1025,6 +1041,8 @@ state
 browsers
 :
 await
+lazy
+.
 ChromeMigrationUtils
 .
 getImportableLogins
@@ -1358,6 +1376,8 @@ origin
 formOrigin
 schemeUpgrades
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -1410,6 +1430,8 @@ httpRealm
 }
 if
 (
+lazy
+.
 LoginHelper
 .
 relatedRealmsEnabled
@@ -1419,6 +1441,8 @@ matchData
 .
 acceptRelatedRealms
 =
+lazy
+.
 LoginHelper
 .
 relatedRealmsEnabled
@@ -1486,6 +1510,8 @@ Cr
 NS_ERROR_ABORT
 )
 {
+lazy
+.
 log
 (
 "
@@ -1517,6 +1543,8 @@ e
 }
 logins
 =
+lazy
+.
 LoginHelper
 .
 shadowHTTPLogins
@@ -1543,6 +1571,8 @@ timePasswordChanged
 ]
 ;
 return
+lazy
+.
 LoginHelper
 .
 dedupeLogins
@@ -1654,6 +1684,8 @@ bug
 let
 origin
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -1826,6 +1858,8 @@ onPasswordEditedOrGenerated
 "
 :
 {
+lazy
+.
 log
 (
 "
@@ -1841,6 +1875,8 @@ if
 gListenerForTests
 )
 {
+lazy
+.
 log
 (
 "
@@ -1890,6 +1926,8 @@ onIgnorePasswordEdit
 "
 :
 {
+lazy
+.
 log
 (
 "
@@ -1905,6 +1943,8 @@ if
 gListenerForTests
 )
 {
+lazy
+.
 log
 (
 "
@@ -2024,6 +2064,8 @@ removeLogin
 let
 login
 =
+lazy
+.
 LoginHelper
 .
 vanillaObjectToLogin
@@ -2130,6 +2172,8 @@ const
 migrator
 =
 await
+lazy
+.
 MigrationUtils
 .
 getMigrator
@@ -2157,6 +2201,8 @@ length
 1
 &
 &
+lazy
+.
 NimbusFeatures
 [
 "
@@ -2252,6 +2298,8 @@ migrator
 .
 migrate
 (
+lazy
+.
 MigrationUtils
 .
 resourceTypes
@@ -2304,6 +2352,8 @@ the
 appropriate
 browser
 .
+lazy
+.
 MigrationUtils
 .
 showMigrationWizard
@@ -2316,6 +2366,8 @@ getRootBrowser
 .
 ownerGlobal
 [
+lazy
+.
 MigrationUtils
 .
 MIGRATION_ENTRYPOINT_PASSWORDS
@@ -2346,6 +2398,8 @@ getRootBrowser
 .
 ownerGlobal
 ;
+lazy
+.
 LoginHelper
 .
 openPasswordManager
@@ -2600,6 +2654,8 @@ signon
 .
 suggestImportCount
 "
+lazy
+.
 LoginHelper
 .
 suggestImportCount
@@ -2764,6 +2820,8 @@ let
 jsLogins
 =
 [
+lazy
+.
 LoginHelper
 .
 loginToVanillaObject
@@ -2784,6 +2842,8 @@ spec
 let
 originMatches
 =
+lazy
+.
 LoginHelper
 .
 getLoginOrigin
@@ -2971,6 +3031,8 @@ logins
 uiBusy
 )
 {
+lazy
+.
 log
 (
 "
@@ -3032,6 +3094,8 @@ topic
 data
 )
 {
+lazy
+.
 log
 (
 "
@@ -3277,6 +3341,8 @@ relatedRealmsOrigins
 ;
 if
 (
+lazy
+.
 LoginHelper
 .
 relatedRealmsEnabled
@@ -3285,6 +3351,8 @@ relatedRealmsEnabled
 relatedRealmsOrigins
 =
 await
+lazy
+.
 LoginRelatedRealmsParent
 .
 findRelatedRealms
@@ -3310,6 +3378,8 @@ ignoreActionAndRealm
 true
 acceptDifferentSubdomains
 :
+lazy
+.
 LoginHelper
 .
 includeOtherSubdomainsInLookup
@@ -3321,11 +3391,15 @@ relatedRealmsOrigins
 ;
 if
 (
+lazy
+.
 LoginHelper
 .
 relatedRealmsEnabled
 )
 {
+lazy
+.
 debug
 (
 "
@@ -3351,6 +3425,8 @@ origin
 ;
 }
 }
+lazy
+.
 log
 (
 "
@@ -3391,6 +3467,8 @@ cloning
 let
 jsLogins
 =
+lazy
+.
 LoginHelper
 .
 loginsToVanillaObjects
@@ -3483,6 +3561,8 @@ logins
 uiBusy
 )
 {
+lazy
+.
 log
 (
 "
@@ -3551,6 +3631,8 @@ LoginManagerParent
 _repromptTimeout
 )
 {
+lazy
+.
 log
 (
 "
@@ -3645,6 +3727,8 @@ toLowerCase
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -3684,6 +3768,8 @@ string
 .
 logins
 =
+lazy
+.
 LoginHelper
 .
 vanillaObjectsToLogins
@@ -3696,6 +3782,8 @@ logins
 }
 else
 {
+lazy
+.
 log
 (
 "
@@ -3716,6 +3804,8 @@ relatedRealmsOrigins
 ;
 if
 (
+lazy
+.
 LoginHelper
 .
 relatedRealmsEnabled
@@ -3724,6 +3814,8 @@ relatedRealmsEnabled
 relatedRealmsOrigins
 =
 await
+lazy
+.
 LoginRelatedRealmsParent
 .
 findRelatedRealms
@@ -3763,6 +3855,8 @@ ignoreActionAndRealm
 true
 acceptDifferentSubdomains
 :
+lazy
+.
 LoginHelper
 .
 includeOtherSubdomainsInLookup
@@ -4025,6 +4119,8 @@ cloning
 let
 jsLogins
 =
+lazy
+.
 LoginHelper
 .
 loginsToVanillaObjects
@@ -4135,18 +4231,24 @@ getGeneratedPassword
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
 |
 |
 !
+lazy
+.
 LoginHelper
 .
 generationAvailable
 |
 |
 !
+lazy
+.
 LoginHelper
 .
 generationEnabled
@@ -4323,6 +4425,8 @@ null
 ;
 if
 (
+lazy
+.
 LoginHelper
 .
 improvedPasswordRulesEnabled
@@ -4333,6 +4437,8 @@ generatedPW
 value
 =
 await
+lazy
+.
 PasswordRulesManager
 .
 generatePassword
@@ -4351,6 +4457,8 @@ generatedPW
 .
 value
 =
+lazy
+.
 PasswordGenerator
 .
 generatePassword
@@ -4578,6 +4686,8 @@ _getPrompter
 )
 {
 return
+lazy
+.
 prompterSvc
 ;
 }
@@ -4613,6 +4723,8 @@ login
 browser
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isBrowserPrivate
@@ -4649,6 +4761,8 @@ out
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 storageEnabled
@@ -4670,6 +4784,8 @@ formOrigin
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -4715,6 +4831,8 @@ documentPrincipal
 .
 origin
 ;
+lazy
+.
 log
 (
 "
@@ -4865,6 +4983,8 @@ username
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -5062,6 +5182,8 @@ recordLoginUse
 existingLogin
 )
 ;
+lazy
+.
 log
 (
 "
@@ -5299,6 +5421,8 @@ username
 ;
 same
 =
+lazy
+.
 LoginHelper
 .
 doLoginsMatch
@@ -5311,6 +5435,8 @@ ignorePassword
 false
 ignoreSchemes
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -5348,6 +5474,8 @@ username
 ;
 same
 =
+lazy
+.
 LoginHelper
 .
 doLoginsMatch
@@ -5360,6 +5488,8 @@ ignorePassword
 false
 ignoreSchemes
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -5388,6 +5518,8 @@ else
 {
 same
 =
+lazy
+.
 LoginHelper
 .
 doLoginsMatch
@@ -5400,6 +5532,8 @@ ignorePassword
 true
 ignoreSchemes
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -5424,6 +5558,8 @@ break
 let
 promptBrowser
 =
+lazy
+.
 LoginHelper
 .
 getBrowserForPrompt
@@ -5464,6 +5600,8 @@ if
 existingLogin
 )
 {
+lazy
+.
 log
 (
 "
@@ -5497,6 +5635,8 @@ formLogin
 password
 )
 {
+lazy
+.
 log
 (
 "
@@ -5543,6 +5683,8 @@ formLogin
 username
 )
 {
+lazy
+.
 log
 (
 "
@@ -5821,6 +5963,8 @@ false
 }
 )
 {
+lazy
+.
 log
 (
 "
@@ -5844,6 +5988,8 @@ out
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 storageEnabled
@@ -5902,6 +6048,8 @@ then
 edit
 it
 .
+lazy
+.
 log
 (
 "
@@ -5927,6 +6075,8 @@ newPasswordField
 value
 )
 {
+lazy
+.
 log
 (
 "
@@ -5949,6 +6099,8 @@ if
 browser
 )
 {
+lazy
+.
 log
 (
 "
@@ -6022,6 +6174,8 @@ Primary
 Password
 is
 locked
+lazy
+.
 log
 (
 "
@@ -6057,6 +6211,8 @@ documentPrincipal
 .
 origin
 ;
+lazy
+.
 log
 (
 "
@@ -6206,6 +6362,8 @@ username
 )
 )
 {
+lazy
+.
 log
 (
 "
@@ -6312,6 +6470,8 @@ triggeredByFillingGenerated
 generatedPW
 )
 {
+lazy
+.
 log
 (
 "
@@ -6364,6 +6524,8 @@ non
 empty
 value
 .
+lazy
+.
 log
 (
 "
@@ -6411,6 +6573,8 @@ generatedpassword
 "
 )
 ;
+lazy
+.
 log
 (
 "
@@ -6509,6 +6673,8 @@ generatedpassword
 "
 )
 ;
+lazy
+.
 log
 (
 "
@@ -6595,6 +6761,8 @@ if
 autoSavedLogin
 )
 {
+lazy
+.
 log
 (
 "
@@ -6657,6 +6825,8 @@ if
 existingLogin
 )
 {
+lazy
+.
 log
 (
 "
@@ -6778,6 +6948,8 @@ though
 .
 .
 .
+lazy
+.
 log
 (
 "
@@ -6795,6 +6967,8 @@ existingLogin
 matchedLogin
 ;
 }
+lazy
+.
 log
 (
 "
@@ -6923,6 +7097,8 @@ formLogin
 password
 )
 {
+lazy
+.
 log
 (
 "
@@ -7160,6 +7336,8 @@ username
 ;
 same
 =
+lazy
+.
 LoginHelper
 .
 doLoginsMatch
@@ -7172,6 +7350,8 @@ ignorePassword
 false
 ignoreSchemes
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -7209,6 +7389,8 @@ username
 ;
 same
 =
+lazy
+.
 LoginHelper
 .
 doLoginsMatch
@@ -7221,6 +7403,8 @@ ignorePassword
 false
 ignoreSchemes
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -7249,6 +7433,8 @@ else
 {
 same
 =
+lazy
+.
 LoginHelper
 .
 doLoginsMatch
@@ -7261,6 +7447,8 @@ ignorePassword
 true
 ignoreSchemes
 :
+lazy
+.
 LoginHelper
 .
 schemeUpgrades
@@ -7277,6 +7465,8 @@ existingLogin
 =
 login
 ;
+lazy
+.
 log
 (
 "
@@ -7320,6 +7510,8 @@ formLogin
 password
 )
 {
+lazy
+.
 log
 (
 "
@@ -7340,6 +7532,8 @@ logins
 modifyLogin
 (
 existingLogin
+lazy
+.
 LoginHelper
 .
 newPropertyBag
@@ -7400,6 +7594,8 @@ if
 autoSavedLogin
 )
 {
+lazy
+.
 log
 (
 "
@@ -7471,6 +7667,8 @@ true
 }
 else
 {
+lazy
+.
 log
 (
 "
@@ -7499,6 +7697,8 @@ browser
 let
 promptBrowser
 =
+lazy
+.
 LoginHelper
 .
 getBrowserForPrompt
@@ -7608,6 +7808,8 @@ formLogin
 password
 )
 {
+lazy
+.
 log
 (
 "
@@ -7660,6 +7862,8 @@ formLogin
 username
 )
 {
+lazy
+.
 log
 (
 "
@@ -7702,6 +7906,8 @@ possibleValues
 }
 else
 {
+lazy
+.
 log
 (
 "
@@ -7747,6 +7953,8 @@ password
 browser
 )
 ;
+lazy
+.
 log
 (
 "
@@ -7802,6 +8010,8 @@ possibleValues
 return
 ;
 }
+lazy
+.
 log
 (
 "

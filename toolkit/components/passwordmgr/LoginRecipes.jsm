@@ -197,11 +197,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -213,7 +219,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -236,7 +242,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -244,6 +250,8 @@ log
 )
 =
 >
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -258,7 +266,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 RemoteSettings
 :
@@ -654,6 +662,8 @@ recipeErrors
 +
 +
 ;
+lazy
+.
 log
 .
 error
@@ -724,6 +734,8 @@ reset
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -832,6 +844,8 @@ update
 /
 if
 (
+lazy
+.
 LoginHelper
 .
 remoteRecipesEnabled
@@ -849,8 +863,12 @@ this
 .
 _rsClient
 =
+lazy
+.
 RemoteSettings
 (
+lazy
+.
 LoginHelper
 .
 remoteRecipesCollection
@@ -922,6 +940,8 @@ resource
 {
 initPromise
 =
+lazy
+.
 fetch
 (
 this
@@ -956,6 +976,8 @@ data
 }
 else
 {
+lazy
+.
 log
 .
 error
@@ -1076,6 +1098,8 @@ add
 recipe
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1688,6 +1712,8 @@ _clearRecipeCache
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1783,6 +1809,8 @@ win
 recipes
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2005,6 +2033,8 @@ Settings
 are
 updated
 .
+lazy
+.
 log
 .
 warn
@@ -2155,6 +2185,8 @@ Set
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2309,6 +2341,8 @@ aRecipes
 aForm
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2484,6 +2518,8 @@ if
 field
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2548,6 +2584,8 @@ field
 )
 )
 {
+lazy
+.
 log
 .
 warn

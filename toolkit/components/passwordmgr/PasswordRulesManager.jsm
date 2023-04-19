@@ -109,11 +109,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 LoginHelper
 :
@@ -184,7 +190,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -196,6 +202,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -301,8 +309,12 @@ this
 .
 _passwordRulesClient
 =
+lazy
+.
 RemoteSettings
 (
+lazy
+.
 LoginHelper
 .
 improvedPasswordRulesCollection
@@ -733,6 +745,8 @@ isCustomRule
 =
 true
 ;
+lazy
+.
 log
 (
 Password
@@ -760,6 +774,8 @@ rules
 let
 currentRules
 =
+lazy
+.
 PasswordRulesParser
 .
 parsePasswordRules
@@ -799,6 +815,8 @@ isCustomRule
 )
 ;
 return
+lazy
+.
 PasswordGenerator
 .
 generatePassword
@@ -811,6 +829,8 @@ mapOfRules
 )
 ;
 }
+lazy
+.
 log
 (
 No
@@ -841,6 +861,8 @@ isCustomRule
 )
 ;
 return
+lazy
+.
 PasswordGenerator
 .
 generatePassword

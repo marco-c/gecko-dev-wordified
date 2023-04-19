@@ -123,11 +123,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginHelper
 "
@@ -150,7 +156,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 LoginFormFactory
 "
@@ -173,7 +179,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 InsecurePasswordUtils
 "
@@ -196,7 +202,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -208,6 +214,8 @@ log
 let
 logger
 =
+lazy
+.
 LoginHelper
 .
 createLogger
@@ -633,6 +641,8 @@ then
 =
 >
 {
+lazy
+.
 log
 .
 debug
@@ -659,6 +669,8 @@ set
 "
 isPrimaryPasswordSet
 "
+lazy
+.
 LoginHelper
 .
 isPrimaryPasswordSet
@@ -916,6 +928,8 @@ getTime
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1209,6 +1223,8 @@ PWMGR_SAVING_ENABLED
 .
 add
 (
+lazy
+.
 LoginHelper
 .
 enabled
@@ -2001,6 +2017,8 @@ matchingLogin
 )
 {
 throw
+lazy
+.
 LoginHelper
 .
 createLoginAlreadyExistsError
@@ -2011,6 +2029,8 @@ guid
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -2229,6 +2249,8 @@ passwords
 i
 ]
 ;
+lazy
+.
 log
 .
 debug
@@ -2333,6 +2355,8 @@ removeLogin
 login
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2389,6 +2413,8 @@ oldLogin
 newLogin
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2455,6 +2481,8 @@ loginType
 filled
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2575,6 +2603,8 @@ getAllLogins
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2645,6 +2675,8 @@ getAllLoginsAsync
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2697,6 +2729,8 @@ getAllLoginsWithCallbackAsync
 aCallback
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2777,6 +2811,8 @@ removeAllUserFacingLogins
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2870,6 +2906,8 @@ removeAllLogins
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2955,6 +2993,8 @@ getAllDisabledHosts
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3025,6 +3065,8 @@ displayPrePath
 ;
 }
 }
+lazy
+.
 log
 .
 debug
@@ -3073,6 +3115,8 @@ formActionOrigin
 httpRealm
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3117,6 +3161,8 @@ searchLoginsAsync
 matchData
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3183,6 +3229,8 @@ searchLogins
 matchData
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3229,6 +3277,8 @@ origin
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -3286,6 +3336,8 @@ formActionOrigin
 httpRealm
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3427,6 +3479,8 @@ return
 existingSyncID
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -3513,6 +3567,8 @@ getLoginSavingEnabled
 origin
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3535,6 +3591,8 @@ saved
 if
 (
 !
+lazy
+.
 LoginHelper
 .
 enabled
@@ -3656,6 +3714,8 @@ are
 bogus
 values
 .
+lazy
+.
 LoginHelper
 .
 checkOriginValue
@@ -3723,6 +3783,8 @@ DENY_ACTION
 )
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -3741,6 +3803,8 @@ enabled
 enabled
 )
 ;
+lazy
+.
 LoginHelper
 .
 notifyStorageChanged
