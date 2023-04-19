@@ -312,8 +312,6 @@ ScrollSnapInfo
 aSnapInfo
 ScrollUnit
 aUnit
-ScrollSnapFlags
-aSnapFlags
 const
 nsRect
 &
