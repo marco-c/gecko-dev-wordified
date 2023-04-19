@@ -1013,6 +1013,11 @@ platform
 "
 win
 "
+&
+&
+AppConstants
+.
+MOZ_SYSTEM_POLICIES
 )
 {
 platformProvider
@@ -1034,6 +1039,11 @@ platform
 "
 macosx
 "
+&
+&
+AppConstants
+.
+MOZ_SYSTEM_POLICIES
 )
 {
 platformProvider
@@ -3031,6 +3041,11 @@ platform
 "
 linux
 "
+&
+&
+AppConstants
+.
+MOZ_SYSTEM_POLICIES
 )
 {
 let
