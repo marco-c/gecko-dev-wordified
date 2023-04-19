@@ -146,6 +146,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+FontFaceSetImpl
+.
+h
+"
+#
+include
+"
 gfxPlatformFontList
 .
 h
@@ -207,7 +218,7 @@ mTarget
 )
 -
 >
-DoResolve
+MaybeResolve
 (
 )
 ;
@@ -229,7 +240,7 @@ mTarget
 )
 -
 >
-DoReject
+MaybeReject
 (
 mResult
 )
@@ -266,7 +277,7 @@ DispatchFontFaceSetCheckLoadingFinishedAfterDelay
 :
 static_cast
 <
-FontFaceSet
+FontFaceSetImpl
 *
 >
 (
