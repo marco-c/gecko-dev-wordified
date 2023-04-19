@@ -17340,6 +17340,16 @@ aIsPrinting
 ;
 if
 (
+aIsPrinting
+)
+{
+mHasEverPrinted
+=
+true
+;
+}
+if
+(
 mPrt
 &
 &
