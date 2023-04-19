@@ -856,6 +856,9 @@ kind
 script_
 icScript_
 fallback
+"
+TrialInline
+"
 )
 ;
 if

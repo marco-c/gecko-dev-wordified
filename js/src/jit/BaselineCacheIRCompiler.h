@@ -261,6 +261,10 @@ icScript
 ICFallbackStub
 *
 stub
+const
+char
+*
+name
 )
 ;
 /

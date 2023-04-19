@@ -2147,7 +2147,9 @@ release
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerBaselineProfile
+perfSpewer_
+.
+writeProfile
 (
 script
 code
