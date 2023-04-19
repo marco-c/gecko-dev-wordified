@@ -928,6 +928,14 @@ WindowsHandle
 mShareHandle
 /
 *
+gpuProcessTextureId
+*
+/
+Nothing
+(
+)
+/
+*
 arrayIndex
 *
 /

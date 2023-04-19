@@ -159,6 +159,12 @@ RenderDXGITextureHost
 (
 WindowsHandle
 aHandle
+Maybe
+<
+uint64_t
+>
+&
+aGpuProcessTextureId
 uint32_t
 aArrayIndex
 gfx
@@ -568,6 +574,12 @@ mGL
 ;
 WindowsHandle
 mHandle
+;
+Maybe
+<
+uint64_t
+>
+mGpuProcessTextureId
 ;
 RefPtr
 <

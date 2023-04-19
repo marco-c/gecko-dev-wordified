@@ -2725,6 +2725,14 @@ dxgiHandle
 )
 /
 *
+gpuProcessTextureId
+*
+/
+Nothing
+(
+)
+/
+*
 arrayIndex
 *
 /
