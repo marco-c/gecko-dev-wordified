@@ -213,7 +213,7 @@ js
 jit
 :
 :
-EnsureBareExitFrame
+EnsureUnwoundJitExitFrame
 #
 include
 "
@@ -1709,7 +1709,7 @@ ionScript
 decref
 call
 .
-EnsureBareExitFrame
+EnsureUnwoundJitExitFrame
 (
 act_
 prevFrame

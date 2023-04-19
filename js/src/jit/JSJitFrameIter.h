@@ -1213,6 +1213,12 @@ isBareExit
 )
 const
 ;
+bool
+isUnwoundJitExit
+(
+)
+const
+;
 template
 <
 typename
