@@ -169,8 +169,8 @@ ClipPath
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -493,9 +493,7 @@ SVGClipPathElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

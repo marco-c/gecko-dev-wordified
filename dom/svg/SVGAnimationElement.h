@@ -209,8 +209,8 @@ MOZILLA_SVGANIMATIONELEMENT_IID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -804,12 +804,10 @@ MOZILLA_SVGANIMATIONELEMENT_IID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

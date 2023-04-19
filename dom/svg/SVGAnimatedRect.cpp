@@ -163,8 +163,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
@@ -303,9 +303,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
