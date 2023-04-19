@@ -151,8 +151,6 @@ h
 "
 /
 /
-for
-HandleNativeObject
 #
 include
 "
@@ -230,7 +228,11 @@ Handle
 DebuggerSourceReferent
 >
 referent
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 debugger
 )
 ;

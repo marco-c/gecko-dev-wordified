@@ -229,8 +229,6 @@ h
 "
 /
 /
-for
-HandleNativeObject
 #
 include
 "
@@ -1008,7 +1006,11 @@ JSContext
 cx
 HandleObject
 proto
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 debugger
 const
 FrameIter

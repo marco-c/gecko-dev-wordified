@@ -5878,7 +5878,11 @@ HandleValue
 value
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 holder
 (
 cx

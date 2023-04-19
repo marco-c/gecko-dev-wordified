@@ -336,7 +336,11 @@ canonical
 Array
 .
 prototype
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 arrayProto
 (
 cx
@@ -373,7 +377,11 @@ canonical
 ArrayIterator
 .
 prototype
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 arrayIteratorProto
 (
 cx

@@ -2929,7 +2929,11 @@ canonical
 prototype
 object
 .
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 setProto
 (
 cx

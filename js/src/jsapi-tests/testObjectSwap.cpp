@@ -1072,7 +1072,11 @@ GenericObject
 :
 TenuredObject
 ;
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 obj
 (
 cx
@@ -2069,7 +2073,11 @@ config
 isNative
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 nobj
 (
 cx

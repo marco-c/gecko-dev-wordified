@@ -6480,7 +6480,11 @@ FreezeObjectProperty
 JSContext
 *
 cx
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 obj
 uint32_t
 slot
@@ -6621,7 +6625,11 @@ CheckObjectPropertyFrozen
 JSContext
 *
 cx
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 obj
 uint32_t
 slot

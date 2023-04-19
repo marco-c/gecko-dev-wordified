@@ -1008,7 +1008,11 @@ Handle
 DebuggerScriptReferent
 >
 referent
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 debugger
 )
 {

@@ -21322,7 +21322,11 @@ normal
 intrinsics
 holder
 .
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 computedIntrinsicsHolder
 (
 cx

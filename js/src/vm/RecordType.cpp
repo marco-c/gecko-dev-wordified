@@ -1208,7 +1208,11 @@ JSContext
 cx
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 obj
 (
 cx

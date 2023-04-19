@@ -4699,7 +4699,11 @@ is_null
 )
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 namedCaptures
 (
 cx

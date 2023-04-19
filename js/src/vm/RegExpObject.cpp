@@ -4545,7 +4545,11 @@ JSContext
 cx
 HandleRegExpShared
 re
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 namedCaptures
 )
 {

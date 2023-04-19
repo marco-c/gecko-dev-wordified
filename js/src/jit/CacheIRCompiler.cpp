@@ -28367,7 +28367,11 @@ bool
 (
 JSContext
 *
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 HandleValue
 Handle
 <
@@ -47121,7 +47125,11 @@ bool
 (
 JSContext
 *
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 HandleValue
 int32_t
 MutableHandleValue

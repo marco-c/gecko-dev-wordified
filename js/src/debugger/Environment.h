@@ -321,7 +321,11 @@ HandleObject
 proto
 HandleObject
 referent
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 debugger
 )
 ;

@@ -12438,7 +12438,11 @@ NativeObject
 )
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 nobj
 (
 cx

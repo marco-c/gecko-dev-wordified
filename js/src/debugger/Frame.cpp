@@ -1979,7 +1979,11 @@ JSContext
 cx
 HandleObject
 proto
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 debugger
 const
 FrameIter

@@ -466,7 +466,11 @@ HandleObject
 proto
 )
 {
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 nativeCtor
 =
 ctor

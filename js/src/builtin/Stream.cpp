@@ -5155,7 +5155,11 @@ return
 true
 ;
 }
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 unwrappedBYOBRequest
 (
 cx

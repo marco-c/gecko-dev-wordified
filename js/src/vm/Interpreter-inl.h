@@ -1838,7 +1838,11 @@ isUnqualifiedVarObj
 )
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 varobj
 (
 cx

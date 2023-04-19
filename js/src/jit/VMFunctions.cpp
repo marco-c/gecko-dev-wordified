@@ -8780,7 +8780,11 @@ SetDenseElement
 JSContext
 *
 cx
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 obj
 int32_t
 index

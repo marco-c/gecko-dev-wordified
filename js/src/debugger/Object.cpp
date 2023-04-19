@@ -9433,7 +9433,11 @@ HandleObject
 debugCtor
 )
 {
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 objectProto
 (
 cx
@@ -9502,7 +9506,11 @@ HandleObject
 proto
 HandleObject
 referent
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 debugger
 )
 {

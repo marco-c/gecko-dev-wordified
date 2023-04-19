@@ -3436,7 +3436,11 @@ HandleObject
 proto
 )
 {
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 nativeProto
 =
 proto
@@ -8821,7 +8825,11 @@ HandleObject
 proto
 )
 {
-HandleNativeObject
+Handle
+<
+NativeObject
+*
+>
 nativeProto
 =
 proto

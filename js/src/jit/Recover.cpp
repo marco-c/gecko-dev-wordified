@@ -11132,7 +11132,11 @@ val
 cx
 )
 ;
-RootedNativeObject
+Rooted
+<
+NativeObject
+*
+>
 nativeObject
 (
 cx
