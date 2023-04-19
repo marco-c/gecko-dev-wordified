@@ -42,9 +42,9 @@ an
 empty
 directory
 and
-/
-/
 uses
+/
+/
 that
 directory
 .
@@ -61,6 +61,10 @@ exists
 in
 /
 /
+fs
+/
+resources
+/
 sandboxed
 -
 fs
@@ -75,10 +79,10 @@ that
 version
 uses
 the
+/
+/
 sandboxed
 file
-/
-/
 system
 instead
 .

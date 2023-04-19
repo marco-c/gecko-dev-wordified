@@ -16,11 +16,7 @@ scripts
 /
 /
 /
-file
--
-system
--
-access
+fs
 /
 resources
 /

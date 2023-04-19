@@ -16,11 +16,7 @@ scripts
 /
 /
 /
-file
--
-system
--
-access
+fs
 /
 resources
 /
@@ -32,11 +28,7 @@ js
 /
 /
 /
-file
--
-system
--
-access
+fs
 /
 resources
 /
