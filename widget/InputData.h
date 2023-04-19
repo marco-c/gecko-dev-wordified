@@ -1597,8 +1597,9 @@ MultiTouchInput
 const
 MultiTouchInput
 &
-aOther
 )
+=
+default
 ;
 explicit
 MultiTouchInput
