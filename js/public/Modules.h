@@ -1049,7 +1049,7 @@ module
 *
 Perform
 the
-ModuleInstantiate
+ModuleLink
 operation
 on
 the
@@ -1057,7 +1057,6 @@ given
 source
 text
 module
-*
 record
 .
 *
@@ -1090,7 +1089,7 @@ module
 extern
 JS_PUBLIC_API
 bool
-ModuleInstantiate
+ModuleLink
 (
 JSContext
 *
@@ -1185,7 +1184,7 @@ module
 .
 *
 *
-ModuleInstantiate
+ModuleLink
 must
 have
 completed

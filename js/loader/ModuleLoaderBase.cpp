@@ -6254,7 +6254,7 @@ if
 JS
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 jsapi
 .

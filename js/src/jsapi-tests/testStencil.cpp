@@ -784,7 +784,7 @@ CHECK
 JS
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 cx
 moduleObject
@@ -3438,7 +3438,7 @@ CHECK
 JS
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 cx
 moduleObject
@@ -3824,7 +3824,7 @@ CHECK
 JS
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 cx
 moduleObject

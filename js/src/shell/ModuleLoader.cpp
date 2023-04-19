@@ -890,7 +890,7 @@ if
 JS
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 cx
 module
