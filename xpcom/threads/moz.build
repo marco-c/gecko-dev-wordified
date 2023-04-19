@@ -292,6 +292,11 @@ EventQueue
 h
 "
 "
+EventTargetCapability
+.
+h
+"
+"
 IdlePeriodState
 .
 h
