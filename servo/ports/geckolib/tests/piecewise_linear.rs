@@ -1574,7 +1574,7 @@ the
 discontinuity
 take
 the
-left
+right
 hand
 side
 value
@@ -1593,7 +1593,7 @@ at
 approx_eq
 (
 &
-0
+1
 .
 0
 )
@@ -1758,7 +1758,7 @@ at
 approx_eq
 (
 &
-0
+1
 .
 0
 )
@@ -1919,7 +1919,7 @@ approx_eq
 &
 0
 .
-3
+4
 )
 )
 ;
@@ -2050,7 +2050,7 @@ approx_eq
 &
 0
 .
-2
+4
 )
 )
 ;
