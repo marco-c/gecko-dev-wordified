@@ -841,8 +841,11 @@ NimbusFeatures
 .
 abouthomecache
 .
-isEnabled
+getVariable
 (
+"
+enabled
+"
 )
 )
 {
