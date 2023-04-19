@@ -287,6 +287,8 @@ gcstats
 :
 PhaseKind
 phaseKind
+GCUse
+use
 WorkFunc
 func
 WorkItemIterator
@@ -305,6 +307,7 @@ GCParallelTask
 (
 gc
 phaseKind
+use
 )
 func_
 (
@@ -612,6 +615,8 @@ gcstats
 :
 PhaseKind
 phaseKind
+GCUse
+use
 WorkItemIterator
 &
 work
@@ -705,6 +710,7 @@ emplace
 (
 gc
 phaseKind
+use
 func
 work
 budget

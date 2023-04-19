@@ -4428,6 +4428,10 @@ PhaseKind
 :
 :
 COMPACT_UPDATE_CELLS
+GCUse
+:
+:
+Unspecified
 bgArenas
 SliceBudget
 :
