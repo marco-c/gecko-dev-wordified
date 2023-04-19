@@ -537,6 +537,7 @@ options
 const
 {
 targetList
+window
 }
 =
 this
@@ -562,6 +563,7 @@ created
 const
 tab
 =
+await
 TabManager
 .
 addTab
@@ -573,6 +575,7 @@ true
 userContextId
 :
 browserContextId
+window
 }
 )
 ;
@@ -775,6 +778,7 @@ focusWindow
 window
 )
 ;
+await
 TabManager
 .
 selectTab

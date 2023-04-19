@@ -2148,6 +2148,7 @@ focusWindow
 window
 )
 ;
+await
 TabManager
 .
 selectTab

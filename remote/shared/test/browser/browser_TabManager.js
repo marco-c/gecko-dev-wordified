@@ -320,6 +320,7 @@ try
 {
 newTab1
 =
+await
 TabManager
 .
 addTab
@@ -382,6 +383,7 @@ selected
 ;
 newTab2
 =
+await
 TabManager
 .
 addTab
@@ -445,6 +447,7 @@ selected
 ;
 newTab3
 =
+await
 TabManager
 .
 addTab
@@ -591,6 +594,7 @@ win2
 const
 newTab1
 =
+await
 TabManager
 .
 addTab
@@ -624,6 +628,7 @@ window
 const
 newTab2
 =
+await
 TabManager
 .
 addTab
@@ -657,6 +662,7 @@ window
 const
 newTab3
 =
+await
 TabManager
 .
 addTab

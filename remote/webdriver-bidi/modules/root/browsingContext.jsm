@@ -1072,6 +1072,7 @@ name
 let
 tab
 =
+await
 TabManager
 .
 addTab
