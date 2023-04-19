@@ -9445,15 +9445,6 @@ JitCode
 namespace
 jit
 using
-GCPtrFunction
-=
-GCPtr
-<
-JSFunction
-*
->
-;
-using
 GCPtrLinearString
 =
 GCPtr
