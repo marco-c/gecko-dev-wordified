@@ -4441,7 +4441,7 @@ process
 nsIDocumentObserver
 :
 :
-ContentStateChanged
+ElementStateChanged
 instead
 of
 '

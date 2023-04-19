@@ -2842,7 +2842,7 @@ void
 nsIFrame
 :
 :
-ContentStatesChanged
+ElementStateChanged
 (
 mozilla
 :

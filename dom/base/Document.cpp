@@ -49753,11 +49753,11 @@ void
 Document
 :
 :
-ContentStateChanged
+ElementStateChanged
 (
-nsIContent
+Element
 *
-aContent
+aElement
 ElementState
 aStateMask
 )
@@ -49781,10 +49781,10 @@ scriptblocker
 ;
 NS_DOCUMENT_NOTIFY_OBSERVERS
 (
-ContentStateChanged
+ElementStateChanged
 (
 this
-aContent
+aElement
 aStateMask
 )
 )

@@ -3399,7 +3399,7 @@ void
 nsFileControlFrame
 :
 :
-ContentStatesChanged
+ElementStateChanged
 (
 ElementState
 aStates

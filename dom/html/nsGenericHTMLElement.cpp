@@ -15517,7 +15517,7 @@ need
 to
 send
 a
-ContentStateChanged
+ElementStateChanged
 /
 /
 notification
@@ -15701,7 +15701,7 @@ is
 going
 to
 call
-ContentStateChanged
+ElementStateChanged
 for
 /
 /
