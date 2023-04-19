@@ -868,6 +868,13 @@ BreakCycles
 (
 )
 ;
+tmp
+-
+>
+mHandlingUnlink
+=
+false
+;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
