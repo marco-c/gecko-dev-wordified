@@ -1418,12 +1418,6 @@ mLoadedRequests
 ;
 Maybe
 <
-ClientInfo
->
-mClientInfo
-;
-Maybe
-<
 ServiceWorkerDescriptor
 >
 mController
