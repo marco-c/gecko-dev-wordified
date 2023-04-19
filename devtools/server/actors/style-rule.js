@@ -291,7 +291,7 @@ lazyRequireGetter
 (
 this
 "
-inactivePropertyHelper
+isPropertyUsed
 "
 "
 devtools
@@ -3225,8 +3225,6 @@ decl
 .
 isUsed
 =
-inactivePropertyHelper
-.
 isPropertyUsed
 (
 el
@@ -7396,8 +7394,6 @@ Bug
 const
 isUsed
 =
-inactivePropertyHelper
-.
 isPropertyUsed
 (
 el
