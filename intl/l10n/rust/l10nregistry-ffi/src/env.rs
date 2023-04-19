@@ -118,8 +118,8 @@ nsstring
 :
 :
 {
-nsString
 nsCStr
+nsString
 }
 ;
 use
