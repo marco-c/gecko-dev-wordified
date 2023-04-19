@@ -881,6 +881,16 @@ node
 )
 |
 |
+t
+.
+isForXStatement
+(
+parent
+.
+node
+)
+|
+|
 !
 Array
 .
