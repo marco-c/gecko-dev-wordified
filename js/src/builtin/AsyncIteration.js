@@ -2698,12 +2698,14 @@ h
 if
 (
 !
+(
 await
 callContentFunction
 (
 fn
 undefined
 value
+)
 )
 )
 {
