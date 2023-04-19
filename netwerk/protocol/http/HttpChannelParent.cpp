@@ -1110,7 +1110,7 @@ contentTypeHint
 )
 a
 .
-corsMode
+requestMode
 (
 )
 a
@@ -2923,9 +2923,12 @@ nsCString
 &
 aContentTypeHint
 const
-uint32_t
+dom
+:
+:
+RequestMode
 &
-aCorsMode
+aRequestMode
 const
 uint32_t
 &
@@ -3270,9 +3273,9 @@ channel
 httpChannel
 -
 >
-SetCorsMode
+SetRequestMode
 (
-aCorsMode
+aRequestMode
 )
 ;
 httpChannel
