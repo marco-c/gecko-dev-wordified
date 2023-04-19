@@ -6757,7 +6757,13 @@ value
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 rval
 (
 cx
