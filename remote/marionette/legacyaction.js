@@ -106,11 +106,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Preferences
 :
@@ -255,7 +261,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -263,10 +269,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -617,6 +627,8 @@ container
 let
 commandArray
 =
+lazy
+.
 evaluate
 .
 fromJSON
@@ -843,6 +855,8 @@ clickCount
 modifiers
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -913,6 +927,8 @@ undefined
 {
 mods
 =
+lazy
+.
 event
 .
 parseModifiers_
@@ -969,6 +985,8 @@ type
 touch
 )
 {
+lazy
+.
 logger
 .
 info
@@ -1050,6 +1068,8 @@ this
 scrolling
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1238,6 +1258,8 @@ view
 let
 visible
 =
+lazy
+.
 element
 .
 isVisible
@@ -1255,6 +1277,8 @@ visible
 {
 throw
 new
+lazy
+.
 error
 .
 ElementNotInteractableError
@@ -1277,6 +1301,8 @@ manipulated
 let
 a11y
 =
+lazy
+.
 accessibility
 .
 get
@@ -1338,6 +1364,8 @@ true
 let
 c
 =
+lazy
+.
 element
 .
 coordinates
@@ -1721,6 +1749,8 @@ resetValues
 ;
 throw
 new
+lazy
+.
 error
 .
 WebDriverError
@@ -1746,6 +1776,8 @@ case
 keyDown
 "
 :
+lazy
+.
 event
 .
 sendKeyDown
@@ -1780,6 +1812,8 @@ case
 keyUp
 "
 :
+lazy
+.
 event
 .
 sendKeyUp
@@ -1816,6 +1850,8 @@ click
 :
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -1858,6 +1894,8 @@ pack
 ;
 c
 =
+lazy
+.
 element
 .
 coordinates
@@ -1970,6 +2008,8 @@ resetValues
 ;
 throw
 new
+lazy
+.
 error
 .
 WebDriverError
@@ -2042,6 +2082,8 @@ true
 }
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -2068,6 +2110,8 @@ webEl
 ;
 c
 =
+lazy
+.
 element
 .
 coordinates
@@ -2171,6 +2215,8 @@ move
 :
 webEl
 =
+lazy
+.
 WebElement
 .
 fromUUID
@@ -2197,6 +2243,8 @@ webEl
 ;
 c
 =
+lazy
+.
 element
 .
 coordinates
@@ -2324,6 +2372,8 @@ contextmenu
 let
 standard
 =
+lazy
+.
 Preferences
 .
 get
@@ -3345,6 +3395,8 @@ default
 :
 throw
 new
+lazy
+.
 error
 .
 WebDriverError

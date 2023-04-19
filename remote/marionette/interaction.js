@@ -106,11 +106,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 accessibility
 :
@@ -257,7 +263,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -265,10 +271,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -798,6 +808,8 @@ false
 const
 a11y
 =
+lazy
+.
 accessibility
 .
 get
@@ -807,6 +819,8 @@ strict
 ;
 if
 (
+lazy
+.
 element
 .
 isXULElement
@@ -839,6 +853,8 @@ a11y
 }
 else
 {
+lazy
+.
 logger
 .
 trace
@@ -906,6 +922,8 @@ file
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -927,6 +945,8 @@ elements
 let
 containerEl
 =
+lazy
+.
 element
 .
 getContainer
@@ -941,6 +961,8 @@ step
 if
 (
 !
+lazy
+.
 element
 .
 isInView
@@ -949,6 +971,8 @@ containerEl
 )
 )
 {
+lazy
+.
 element
 .
 scrollIntoView
@@ -1008,6 +1032,8 @@ interactable
 if
 (
 !
+lazy
+.
 element
 .
 isInView
@@ -1018,10 +1044,14 @@ containerEl
 {
 throw
 new
+lazy
+.
 error
 .
 ElementNotInteractableError
 (
+lazy
+.
 pprint
 Element
 {
@@ -1052,6 +1082,8 @@ getClientRects
 let
 clickPoint
 =
+lazy
+.
 element
 .
 getInViewCentrePoint
@@ -1065,6 +1097,8 @@ win
 ;
 if
 (
+lazy
+.
 element
 .
 isObscured
@@ -1075,6 +1109,8 @@ containerEl
 {
 throw
 new
+lazy
+.
 error
 .
 ElementClickInterceptedError
@@ -1169,6 +1205,8 @@ a
 pointerMove
 action
 .
+lazy
+.
 event
 .
 synthesizeMouseAtPoint
@@ -1197,6 +1235,8 @@ pointerDown
 +
 pointerUp
 action
+.
+lazy
 .
 event
 .
@@ -1253,6 +1293,8 @@ a11y
 if
 (
 !
+lazy
+.
 atom
 .
 isElementEnabled
@@ -1263,6 +1305,8 @@ el
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidElementStateError
@@ -1379,6 +1423,8 @@ option
 {
 visibilityCheckEl
 =
+lazy
+.
 element
 .
 getContainer
@@ -1390,6 +1436,8 @@ el
 if
 (
 !
+lazy
+.
 element
 .
 isVisible
@@ -1400,6 +1448,8 @@ visibilityCheckEl
 {
 throw
 new
+lazy
+.
 error
 .
 ElementNotInteractableError
@@ -1410,6 +1460,8 @@ ElementNotInteractableError
 if
 (
 !
+lazy
+.
 atom
 .
 isElementEnabled
@@ -1420,6 +1472,8 @@ el
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidElementStateError
@@ -1505,6 +1559,8 @@ getClientRects
 let
 centre
 =
+lazy
+.
 element
 .
 getInViewCentrePoint
@@ -1522,6 +1578,8 @@ opts
 {
 }
 ;
+lazy
+.
 event
 .
 synthesizeMouseAtPoint
@@ -1738,6 +1796,8 @@ el
 {
 if
 (
+lazy
+.
 element
 .
 isXULElement
@@ -1775,6 +1835,8 @@ throw
 new
 TypeError
 (
+lazy
+.
 pprint
 Expected
 <
@@ -1791,6 +1853,8 @@ el
 let
 containerEl
 =
+lazy
+.
 element
 .
 getContainer
@@ -1798,6 +1862,8 @@ getContainer
 el
 )
 ;
+lazy
+.
 event
 .
 mouseover
@@ -1805,6 +1871,8 @@ mouseover
 containerEl
 )
 ;
+lazy
+.
 event
 .
 mousemove
@@ -1812,6 +1880,8 @@ mousemove
 containerEl
 )
 ;
+lazy
+.
 event
 .
 mousedown
@@ -1906,6 +1976,8 @@ selected
 true
 ;
 }
+lazy
+.
 event
 .
 input
@@ -1913,6 +1985,8 @@ input
 containerEl
 )
 ;
+lazy
+.
 event
 .
 change
@@ -1921,6 +1995,8 @@ containerEl
 )
 ;
 }
+lazy
+.
 event
 .
 mouseup
@@ -1928,6 +2004,8 @@ mouseup
 containerEl
 )
 ;
+lazy
+.
 event
 .
 click
@@ -2141,6 +2219,8 @@ el
 {
 if
 (
+lazy
+.
 element
 .
 isDisabled
@@ -2151,10 +2231,14 @@ el
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidElementStateError
 (
+lazy
+.
 pprint
 Element
 is
@@ -2168,6 +2252,8 @@ el
 }
 if
 (
+lazy
+.
 element
 .
 isReadOnly
@@ -2178,10 +2264,14 @@ el
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidElementStateError
 (
+lazy
+.
 pprint
 Element
 is
@@ -2198,6 +2288,8 @@ el
 if
 (
 !
+lazy
+.
 element
 .
 isEditable
@@ -2208,10 +2300,14 @@ el
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidElementStateError
 (
+lazy
+.
 pprint
 Unable
 to
@@ -2231,6 +2327,8 @@ el
 if
 (
 !
+lazy
+.
 element
 .
 isInView
@@ -2239,6 +2337,8 @@ el
 )
 )
 {
+lazy
+.
 element
 .
 scrollIntoView
@@ -2250,6 +2350,8 @@ el
 if
 (
 !
+lazy
+.
 element
 .
 isInView
@@ -2260,10 +2362,14 @@ el
 {
 throw
 new
+lazy
+.
 error
 .
 ElementNotInteractableError
 (
+lazy
+.
 pprint
 Element
 {
@@ -2280,6 +2386,8 @@ view
 }
 if
 (
+lazy
+.
 element
 .
 isEditingHost
@@ -2338,6 +2446,8 @@ innerHTML
 "
 "
 ;
+lazy
+.
 event
 .
 change
@@ -2361,6 +2471,8 @@ el
 if
 (
 !
+lazy
+.
 element
 .
 isMutableFormControl
@@ -2371,10 +2483,14 @@ el
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidElementStateError
 (
+lazy
+.
 pprint
 Not
 an
@@ -2460,6 +2576,8 @@ value
 "
 "
 ;
+lazy
+.
 event
 .
 change
@@ -2612,6 +2730,8 @@ event
 =
 >
 {
+lazy
+.
 logger
 .
 trace
@@ -2723,6 +2843,8 @@ clickEv
 ;
 return
 new
+lazy
+.
 TimedPromise
 (
 spinEventLoop
@@ -2859,6 +2981,8 @@ el
 if
 (
 !
+lazy
+.
 element
 .
 isDOMElement
@@ -3400,10 +3524,14 @@ length
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
 (
+lazy
+.
 pprint
 Element
 {
@@ -3449,6 +3577,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -3610,6 +3740,8 @@ type
 return
 ;
 }
+lazy
+.
 event
 .
 input
@@ -3617,6 +3749,8 @@ input
 el
 )
 ;
+lazy
+.
 event
 .
 change
@@ -3750,6 +3884,8 @@ false
 const
 a11y
 =
+lazy
+.
 accessibility
 .
 get
@@ -3821,6 +3957,8 @@ strictFileInteractability
 let
 containerEl
 =
+lazy
+.
 element
 .
 getContainer
@@ -3853,10 +3991,14 @@ containerEl
 {
 throw
 new
+lazy
+.
 error
 .
 ElementNotInteractableError
 (
+lazy
+.
 pprint
 Element
 {
@@ -3938,6 +4080,8 @@ el
 paths
 )
 ;
+lazy
+.
 event
 .
 input
@@ -3945,6 +4089,8 @@ input
 el
 )
 ;
+lazy
+.
 event
 .
 change
@@ -3987,6 +4133,8 @@ value
 }
 else
 {
+lazy
+.
 event
 .
 sendKeys
@@ -4043,6 +4191,8 @@ value
 ]
 )
 ;
+lazy
+.
 event
 .
 input
@@ -4050,6 +4200,8 @@ input
 el
 )
 ;
+lazy
+.
 event
 .
 change
@@ -4111,6 +4263,8 @@ option
 {
 visibilityCheckEl
 =
+lazy
+.
 element
 .
 getContainer
@@ -4122,6 +4276,8 @@ el
 if
 (
 !
+lazy
+.
 element
 .
 isVisible
@@ -4132,6 +4288,8 @@ visibilityCheckEl
 {
 throw
 new
+lazy
+.
 error
 .
 ElementNotInteractableError
@@ -4178,6 +4336,8 @@ focus
 (
 )
 ;
+lazy
+.
 event
 .
 sendKeys
@@ -4274,6 +4434,8 @@ el
 let
 displayed
 =
+lazy
+.
 atom
 .
 isElementDisplayed
@@ -4285,6 +4447,8 @@ win
 let
 a11y
 =
+lazy
+.
 accessibility
 .
 get
@@ -4392,6 +4556,8 @@ el
 ;
 if
 (
+lazy
+.
 element
 .
 isXULElement
@@ -4495,6 +4661,8 @@ else
 {
 enabled
 =
+lazy
+.
 atom
 .
 isElementEnabled
@@ -4511,6 +4679,8 @@ win
 let
 a11y
 =
+lazy
+.
 accessibility
 .
 get
@@ -4703,6 +4873,8 @@ false
 let
 selected
 =
+lazy
+.
 element
 .
 isSelected
@@ -4713,6 +4885,8 @@ el
 let
 a11y
 =
+lazy
+.
 accessibility
 .
 get

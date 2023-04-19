@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 assert
 :
@@ -435,11 +441,15 @@ newCookie
 {
 }
 ;
+lazy
+.
 assert
 .
 object
 (
 json
+lazy
+.
 pprint
 Expected
 cookie
@@ -454,6 +464,8 @@ newCookie
 .
 name
 =
+lazy
+.
 assert
 .
 string
@@ -474,6 +486,8 @@ newCookie
 .
 value
 =
+lazy
+.
 assert
 .
 string
@@ -507,6 +521,8 @@ newCookie
 .
 path
 =
+lazy
+.
 assert
 .
 string
@@ -541,6 +557,8 @@ newCookie
 .
 domain
 =
+lazy
+.
 assert
 .
 string
@@ -575,6 +593,8 @@ newCookie
 .
 secure
 =
+lazy
+.
 assert
 .
 boolean
@@ -610,6 +630,8 @@ newCookie
 .
 httpOnly
 =
+lazy
+.
 assert
 .
 boolean
@@ -645,6 +667,8 @@ newCookie
 .
 expiry
 =
+lazy
+.
 assert
 .
 positiveInteger
@@ -681,6 +705,8 @@ newCookie
 .
 sameSite
 =
+lazy
+.
 assert
 .
 in
@@ -864,6 +890,8 @@ null
 }
 )
 {
+lazy
+.
 assert
 .
 string
@@ -880,6 +908,8 @@ string
 "
 )
 ;
+lazy
+.
 assert
 .
 string
@@ -947,6 +977,8 @@ domain
 restrictToHost
 ;
 }
+lazy
+.
 assert
 .
 string
@@ -1151,6 +1183,8 @@ default
 :
 throw
 new
+lazy
+.
 error
 .
 InvalidCookieDomainError
@@ -1255,6 +1289,8 @@ domain
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidCookieDomainError
@@ -1435,6 +1471,8 @@ e
 {
 throw
 new
+lazy
+.
 error
 .
 UnableToSetCookieError
@@ -1619,6 +1657,8 @@ currentPath
 "
 )
 {
+lazy
+.
 assert
 .
 string
@@ -1632,6 +1672,8 @@ string
 "
 )
 ;
+lazy
+.
 assert
 .
 string

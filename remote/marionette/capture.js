@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Log
 :
@@ -124,7 +130,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -132,10 +138,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -148,7 +158,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 crypto
@@ -617,6 +627,8 @@ canvasWidth
 MAX_CANVAS_DIMENSION
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -663,6 +675,8 @@ canvasHeight
 MAX_CANVAS_DIMENSION
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -727,6 +741,8 @@ canvasHeight
 MAX_CANVAS_AREA
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -1144,6 +1160,8 @@ u
 )
 ;
 return
+lazy
+.
 crypto
 .
 subtle

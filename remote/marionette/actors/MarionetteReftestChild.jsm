@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Log
 :
@@ -124,7 +130,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -132,10 +138,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -296,6 +306,8 @@ location
 .
 href
 ;
+lazy
+.
 logger
 .
 debug
@@ -323,6 +335,8 @@ actorCreated
 (
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -582,6 +596,8 @@ loadedURL
 url
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -638,6 +654,8 @@ wait
 "
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -719,6 +737,8 @@ dispatchEvent
 event
 )
 ;
+lazy
+.
 logger
 .
 info
@@ -779,6 +799,8 @@ documentElement
 scrollHeight
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -819,6 +841,8 @@ ignoreThrottledAnimations
 }
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -878,6 +902,8 @@ display
 (
 paint
 )
+lazy
+.
 logger
 .
 debug
@@ -905,6 +931,8 @@ windowUtils
 isMozAfterPaintPending
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -953,6 +981,8 @@ case
 of
 leftover
 paints
+lazy
+.
 logger
 .
 debug
@@ -1006,6 +1036,8 @@ reftestWaitRemoved
 (
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1077,6 +1109,8 @@ disconnect
 (
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -1274,6 +1308,8 @@ ignoreThrottledAnimations
 =
 options
 ;
+lazy
+.
 logger
 .
 debug
@@ -1365,6 +1401,8 @@ catch
 e
 )
 {
+lazy
+.
 logger
 .
 error
@@ -1490,6 +1528,8 @@ windowUtils
 isMozAfterPaintPending
 )
 {
+lazy
+.
 logger
 .
 error

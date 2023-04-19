@@ -97,11 +97,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 assert
 :
@@ -284,7 +290,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -292,10 +298,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -308,7 +318,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 ServerSocket
 "
@@ -513,6 +523,8 @@ driverFactory
 {
 return
 new
+lazy
+.
 GeckoDriver
 (
 this
@@ -557,6 +569,8 @@ this
 socket
 =
 new
+lazy
+.
 ServerSocket
 (
 this
@@ -615,6 +629,8 @@ asyncListen
 this
 )
 ;
+lazy
+.
 logger
 .
 info
@@ -670,6 +686,8 @@ socket
 =
 null
 ;
+lazy
+.
 logger
 .
 info
@@ -767,6 +785,8 @@ acceptConnections
 =
 true
 ;
+lazy
+.
 MarionettePrefs
 .
 port
@@ -856,6 +876,8 @@ let
 transport
 =
 new
+lazy
+.
 DebuggerTransport
 (
 input
@@ -905,6 +927,8 @@ if
 hasActiveSession
 )
 {
+lazy
+.
 logger
 .
 warn
@@ -1020,6 +1044,8 @@ add
 conn
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -1064,6 +1090,8 @@ onConnectionClosed
 conn
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -1440,6 +1468,8 @@ data
 )
 )
 ;
+lazy
+.
 error
 .
 report
@@ -1468,6 +1498,8 @@ try
 {
 msg
 =
+lazy
+.
 Message
 .
 fromPacket
@@ -1479,6 +1511,8 @@ msg
 .
 origin
 =
+lazy
+.
 Message
 .
 Origin
@@ -1530,6 +1564,8 @@ if
 (
 msg
 instanceof
+lazy
+.
 Command
 )
 {
@@ -1556,6 +1592,8 @@ msg
 }
 else
 {
+lazy
+.
 logger
 .
 fatal
@@ -1748,6 +1786,8 @@ sendError
 .
 catch
 (
+lazy
+.
 error
 .
 report
@@ -1852,6 +1892,8 @@ undefined
 {
 throw
 new
+lazy
+.
 error
 .
 UnknownCommandError
@@ -1876,6 +1918,8 @@ NewSession
 "
 )
 {
+lazy
+.
 assert
 .
 session
@@ -1916,6 +1960,8 @@ if
 (
 rv
 instanceof
+lazy
+.
 WebElement
 |
 |
@@ -2033,6 +2079,8 @@ msgID
 }
 return
 new
+lazy
+.
 Response
 (
 msgID
@@ -2057,6 +2105,8 @@ let
 resp
 =
 new
+lazy
+.
 Response
 (
 cmdID
@@ -2244,6 +2294,8 @@ msg
 .
 origin
 =
+lazy
+.
 Message
 .
 Origin
@@ -2254,6 +2306,8 @@ if
 (
 msg
 instanceof
+lazy
+.
 Response
 )
 {
@@ -2267,6 +2321,8 @@ msg
 }
 else
 {
+lazy
+.
 logger
 .
 fatal
@@ -2464,6 +2520,8 @@ msg
 origin
 =
 =
+lazy
+.
 Message
 .
 Origin
@@ -2480,6 +2538,8 @@ Client
 -
 "
 ;
+lazy
+.
 logger
 .
 debug

@@ -166,11 +166,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 error
 :
@@ -215,7 +221,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -223,10 +229,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -938,6 +948,8 @@ rejected
 {
 if
 (
+lazy
+.
 error
 .
 isError
@@ -1351,6 +1363,8 @@ timeout
 PROMISE_TIMEOUT
 throws
 =
+lazy
+.
 error
 .
 TimeoutError
@@ -1523,6 +1537,8 @@ err
 }
 else
 {
+lazy
+.
 logger
 .
 warn
@@ -1547,6 +1563,8 @@ resolve
 ;
 trace
 =
+lazy
+.
 error
 .
 stack
@@ -2040,6 +2058,8 @@ subject
 topic
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -2926,6 +2946,8 @@ onMessage
 msg
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -3244,6 +3266,8 @@ topic
 data
 )
 {
+lazy
+.
 logger
 .
 trace

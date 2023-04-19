@@ -130,11 +130,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 keyData
 :
@@ -182,7 +188,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 dblclickTimer
 "
@@ -489,6 +495,8 @@ startTimer
 (
 )
 {
+lazy
+.
 dblclickTimer
 .
 initWithCallback
@@ -511,6 +519,8 @@ cancelTimer
 (
 )
 {
+lazy
+.
 dblclickTimer
 .
 cancel
@@ -591,6 +601,8 @@ rawKey
 )
 {
 return
+lazy
+.
 keyData
 .
 getShiftedKey
@@ -690,6 +702,8 @@ rawKey
 )
 {
 return
+lazy
+.
 keyData
 .
 getData
@@ -1358,6 +1372,8 @@ shiftKey
 {
 keyValue
 =
+lazy
+.
 keyData
 .
 getShiftedKey
@@ -1369,6 +1385,8 @@ keyValue
 const
 data
 =
+lazy
+.
 keyData
 .
 getData

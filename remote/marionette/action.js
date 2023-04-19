@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppInfo
 :
@@ -653,12 +659,16 @@ capitalize
 obj
 )
 ;
+lazy
+.
 assert
 .
 in
 (
 name
 this
+lazy
+.
 pprint
 Unknown
 pointer
@@ -683,6 +693,8 @@ else
 if
 (
 !
+lazy
+.
 element
 .
 isElement
@@ -693,6 +705,8 @@ obj
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -716,6 +730,8 @@ pointer
 "
 '
 +
+lazy
+.
 pprint
 or
 an
@@ -863,12 +879,16 @@ capitalize
 str
 )
 ;
+lazy
+.
 assert
 .
 in
 (
 name
 this
+lazy
+.
 pprint
 Unknown
 pointerType
@@ -1253,12 +1273,16 @@ obj
 .
 type
 ;
+lazy
+.
 assert
 .
 in
 (
 type
 ACTIONS
+lazy
+.
 pprint
 Unknown
 action
@@ -1324,10 +1348,14 @@ pointerType
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
 (
+lazy
+.
 pprint
 Expected
 obj
@@ -1563,6 +1591,8 @@ else
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -1585,6 +1615,8 @@ keys
 MODIFIER_NAME_LOOKUP
 )
 +
+lazy
+.
 pprint
 got
 {
@@ -1911,11 +1943,15 @@ Set
 (
 )
 ;
+lazy
+.
 assert
 .
 defined
 (
 subtype
+lazy
+.
 pprint
 Expected
 subtype
@@ -2009,6 +2045,8 @@ isPressed
 button
 )
 {
+lazy
+.
 assert
 .
 positiveInteger
@@ -2078,6 +2116,8 @@ press
 button
 )
 {
+lazy
+.
 assert
 .
 positiveInteger
@@ -2155,6 +2195,8 @@ release
 button
 )
 {
+lazy
+.
 assert
 .
 positiveInteger
@@ -2327,6 +2369,8 @@ undefined
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -2353,11 +2397,15 @@ subtype
 ]
 )
 {
+lazy
+.
 assert
 .
 string
 (
 attr
+lazy
+.
 pprint
 Expected
 string
@@ -2560,6 +2608,8 @@ subtypes
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -2594,6 +2644,8 @@ subtype
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -2711,6 +2763,8 @@ or
 grapheme
 cluster
 "
+lazy
+.
 assert
 .
 string
@@ -2732,6 +2786,8 @@ code
 point
 "
 +
+lazy
+.
 pprint
 or
 grapheme
@@ -2760,6 +2816,8 @@ action
 .
 PointerUp
 :
+lazy
+.
 assert
 .
 positiveInteger
@@ -2767,6 +2825,8 @@ positiveInteger
 actionItem
 .
 button
+lazy
+.
 pprint
 Expected
 '
@@ -2822,6 +2882,8 @@ undefined
 "
 )
 {
+lazy
+.
 assert
 .
 positiveInteger
@@ -2829,6 +2891,8 @@ positiveInteger
 item
 .
 duration
+lazy
+.
 pprint
 Expected
 '
@@ -2885,6 +2949,8 @@ undefined
 "
 )
 {
+lazy
+.
 assert
 .
 integer
@@ -2892,6 +2958,8 @@ integer
 item
 .
 x
+lazy
+.
 pprint
 Expected
 '
@@ -2932,6 +3000,8 @@ undefined
 "
 )
 {
+lazy
+.
 assert
 .
 integer
@@ -2939,6 +3009,8 @@ integer
 item
 .
 y
+lazy
+.
 pprint
 Expected
 '
@@ -2967,6 +3039,8 @@ PointerCancel
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -3008,6 +3082,8 @@ disable
 next
 -
 line
+lazy
+.
 assert
 .
 positiveInteger
@@ -3015,6 +3091,8 @@ positiveInteger
 item
 .
 duration
+lazy
+.
 pprint
 Expected
 '
@@ -3177,11 +3255,15 @@ fromJSON
 actions
 )
 {
+lazy
+.
 assert
 .
 array
 (
 actions
+lazy
+.
 pprint
 Expected
 '
@@ -3523,6 +3605,8 @@ actionSequence
 .
 id
 ;
+lazy
+.
 assert
 .
 defined
@@ -3539,11 +3623,15 @@ defined
 "
 )
 ;
+lazy
+.
 assert
 .
 string
 (
 id
+lazy
+.
 pprint
 Expected
 '
@@ -3566,6 +3654,8 @@ actionSequence
 .
 actions
 ;
+lazy
+.
 assert
 .
 array
@@ -3584,6 +3674,8 @@ an
 array
 "
 +
+lazy
+.
 pprint
 got
 {
@@ -3638,6 +3730,8 @@ inputSourceState
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -4051,6 +4145,8 @@ type
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -4082,6 +4178,8 @@ id
 .
 type
 +
+lazy
+.
 pprint
 got
 {
@@ -4129,6 +4227,8 @@ pointerType
 {
 throw
 new
+lazy
+.
 error
 .
 InvalidArgumentError
@@ -4160,6 +4260,8 @@ id
 .
 subtype
 +
+lazy
+.
 pprint
 got
 {
@@ -4207,6 +4309,8 @@ location
 printable
 }
 =
+lazy
+.
 event
 .
 getKeyData
@@ -4349,6 +4453,8 @@ type
 =
 type
 ;
+lazy
+.
 assert
 .
 positiveInteger
@@ -5322,6 +5428,8 @@ origin
 represents
 web
 element
+lazy
+.
 assert
 .
 defined
@@ -5329,6 +5437,8 @@ defined
 center
 )
 ;
+lazy
+.
 assert
 .
 in
@@ -5339,6 +5449,8 @@ x
 center
 )
 ;
+lazy
+.
 assert
 .
 in
@@ -5559,6 +5671,8 @@ PointerCancel
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -5700,6 +5814,8 @@ shift
 {
 value
 =
+lazy
+.
 event
 .
 getShiftedKey
@@ -5803,6 +5919,8 @@ update
 inputState
 )
 ;
+lazy
+.
 event
 .
 sendKeyDown
@@ -5928,6 +6046,8 @@ shift
 {
 value
 =
+lazy
+.
 event
 .
 getShiftedKey
@@ -6003,6 +6123,8 @@ update
 inputState
 )
 ;
+lazy
+.
 event
 .
 sendKeyUp
@@ -6229,6 +6351,8 @@ ctrlKey
 {
 if
 (
+lazy
+.
 AppInfo
 .
 isMac
@@ -6240,6 +6364,8 @@ button
 =
 2
 ;
+lazy
+.
 event
 .
 DoubleClickTracker
@@ -6253,6 +6379,8 @@ resetClick
 else
 if
 (
+lazy
+.
 event
 .
 DoubleClickTracker
@@ -6279,6 +6407,8 @@ clickCount
 )
 ;
 }
+lazy
+.
 event
 .
 synthesizeMouseAtPoint
@@ -6295,6 +6425,8 @@ win
 ;
 if
 (
+lazy
+.
 event
 .
 MouseButton
@@ -6313,6 +6445,8 @@ mouseEvent
 ctrlKey
 &
 &
+lazy
+.
 AppInfo
 .
 isMac
@@ -6338,6 +6472,8 @@ contextmenu
 }
 )
 ;
+lazy
+.
 event
 .
 synthesizeMouseAtPoint
@@ -6371,6 +6507,8 @@ Touch
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -6577,6 +6715,8 @@ inputState
 ;
 if
 (
+lazy
+.
 event
 .
 DoubleClickTracker
@@ -6603,6 +6743,8 @@ clickCount
 )
 ;
 }
+lazy
+.
 event
 .
 synthesizeMouseAtPoint
@@ -6635,6 +6777,8 @@ Touch
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -6947,6 +7091,8 @@ win
 {
 throw
 new
+lazy
+.
 error
 .
 MoveTargetOutOfBoundsError
@@ -7364,6 +7510,8 @@ available
 )
 and
 mousemove
+lazy
+.
 event
 .
 synthesizeMouseAtPoint
@@ -7392,6 +7540,8 @@ Touch
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -7537,6 +7687,8 @@ a
 duration
 ;
 return
+lazy
+.
 Sleep
 (
 ms
@@ -7552,6 +7704,8 @@ capitalize
 str
 )
 {
+lazy
+.
 assert
 .
 string
@@ -7587,6 +7741,8 @@ y
 win
 )
 {
+lazy
+.
 assert
 .
 number
@@ -7600,6 +7756,8 @@ finite
 number
 )
 ;
+lazy
+.
 assert
 .
 number
@@ -7658,6 +7816,8 @@ win
 {
 if
 (
+lazy
+.
 element
 .
 isElement
@@ -7674,6 +7834,8 @@ specCompatPointerOrigin
 )
 {
 return
+lazy
+.
 element
 .
 getInViewCentrePoint
@@ -7691,6 +7853,8 @@ win
 ;
 }
 return
+lazy
+.
 element
 .
 coordinates

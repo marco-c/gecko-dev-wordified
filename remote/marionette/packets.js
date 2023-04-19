@@ -103,11 +103,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 StreamUtils
 :
@@ -135,7 +141,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 unicodeConverter
 "
@@ -1027,6 +1033,8 @@ this
 .
 _data
 =
+lazy
+.
 unicodeConverter
 .
 ConvertFromUnicode
@@ -1109,6 +1117,8 @@ try
 {
 json
 =
+lazy
+.
 unicodeConverter
 .
 ConvertToUnicode
@@ -1821,6 +1831,8 @@ output
 let
 copying
 =
+lazy
+.
 StreamUtils
 .
 copyStream
@@ -2096,6 +2108,8 @@ input
 let
 copying
 =
+lazy
+.
 StreamUtils
 .
 copyStream

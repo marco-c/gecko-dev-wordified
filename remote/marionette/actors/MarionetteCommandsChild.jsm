@@ -133,11 +133,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 action
 :
@@ -335,7 +341,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -343,10 +349,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -388,6 +398,8 @@ this
 sandboxes
 =
 new
+lazy
+.
 Sandboxes
 (
 (
@@ -451,6 +463,8 @@ this
 _legacyactions
 =
 new
+lazy
+.
 legacyaction
 .
 Chain
@@ -468,6 +482,8 @@ actorCreated
 (
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -554,6 +570,8 @@ msg
 const
 data
 =
+lazy
+.
 evaluate
 .
 fromJSON
@@ -1156,6 +1174,8 @@ return
 {
 data
 :
+lazy
+.
 evaluate
 .
 toJSON
@@ -1181,6 +1201,8 @@ return
 {
 error
 :
+lazy
+.
 error
 .
 wrap
@@ -1243,6 +1265,8 @@ elem
 =
 options
 ;
+lazy
+.
 interaction
 .
 clearElement
@@ -1279,6 +1303,8 @@ elem
 options
 ;
 return
+lazy
+.
 interaction
 .
 clickElement
@@ -1366,6 +1392,8 @@ else
 {
 sb
 =
+lazy
+.
 sandbox
 .
 createMutable
@@ -1379,6 +1407,8 @@ defaultView
 ;
 }
 return
+lazy
+.
 evaluate
 .
 sandbox
@@ -1492,6 +1522,8 @@ defaultView
 }
 ;
 return
+lazy
+.
 element
 .
 find
@@ -1604,6 +1636,8 @@ defaultView
 }
 ;
 return
+lazy
+.
 element
 .
 find
@@ -1651,6 +1685,8 @@ elem
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchElementError
@@ -1698,6 +1734,8 @@ options
 ;
 if
 (
+lazy
+.
 element
 .
 isBooleanAttribute
@@ -1943,6 +1981,8 @@ elem
 options
 ;
 return
+lazy
+.
 atom
 .
 getElementText
@@ -2255,6 +2295,8 @@ if
 scroll
 )
 {
+lazy
+.
 element
 .
 scrollIntoView
@@ -2365,6 +2407,8 @@ elem
 options
 ;
 return
+lazy
+.
 element
 .
 getShadowRoot
@@ -2407,6 +2451,8 @@ elem
 options
 ;
 return
+lazy
+.
 interaction
 .
 isElementDisplayed
@@ -2453,6 +2499,8 @@ elem
 options
 ;
 return
+lazy
+.
 interaction
 .
 isElementEnabled
@@ -2503,6 +2551,8 @@ elem
 options
 ;
 return
+lazy
+.
 interaction
 .
 isElementSelected
@@ -2600,10 +2650,14 @@ capabilities
 options
 ;
 await
+lazy
+.
 action
 .
 dispatch
 (
+lazy
+.
 action
 .
 Chain
@@ -2630,6 +2684,8 @@ useNonSpecCompliantPointerOrigin
 ;
 inputStateIsDirty
 =
+lazy
+.
 action
 .
 inputsToCancel
@@ -2637,6 +2693,8 @@ inputsToCancel
 length
 |
 |
+lazy
+.
 action
 .
 inputStateMap
@@ -2709,10 +2767,14 @@ releaseActions
 )
 {
 await
+lazy
+.
 action
 .
 dispatchTickActions
 (
+lazy
+.
 action
 .
 inputsToCancel
@@ -2732,6 +2794,8 @@ clearActionInputState
 (
 )
 ;
+lazy
+.
 event
 .
 DoubleClickTracker
@@ -2806,6 +2870,8 @@ webdriverClick
 }
 ;
 return
+lazy
+.
 interaction
 .
 sendKeysToElement
@@ -3013,6 +3079,8 @@ length
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchFrameError
@@ -3071,6 +3139,8 @@ context
 {
 throw
 new
+lazy
+.
 error
 .
 NoSuchFrameError
@@ -3225,6 +3295,8 @@ if
 inputStateIsDirty
 )
 {
+lazy
+.
 action
 .
 inputStateMap
@@ -3233,6 +3305,8 @@ clear
 (
 )
 ;
+lazy
+.
 action
 .
 inputsToCancel

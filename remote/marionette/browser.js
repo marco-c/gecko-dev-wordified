@@ -100,11 +100,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppInfo
 :
@@ -530,6 +536,8 @@ this
 .
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -702,6 +710,8 @@ tab
 )
 {
 return
+lazy
+.
 TabManager
 .
 getBrowserForTab
@@ -1078,6 +1088,8 @@ closeWindow
 )
 {
 return
+lazy
+.
 windowManager
 .
 closeWindow
@@ -1125,6 +1137,8 @@ focusWindow
 )
 {
 return
+lazy
+.
 windowManager
 .
 focusWindow
@@ -1175,6 +1189,8 @@ false
 )
 {
 return
+lazy
+.
 windowManager
 .
 openBrowserWindow
@@ -1324,6 +1340,8 @@ let
 destroyed
 =
 new
+lazy
+.
 MessageManagerDestroyedPromise
 (
 this
@@ -1336,6 +1354,8 @@ tabClosed
 ;
 switch
 (
+lazy
+.
 AppInfo
 .
 name
@@ -1349,6 +1369,8 @@ Firefox
 tabClosed
 =
 new
+lazy
+.
 EventPromise
 (
 this
@@ -1376,6 +1398,8 @@ default
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -1387,6 +1411,8 @@ not
 supported
 in
 {
+lazy
+.
 AppInfo
 .
 name
@@ -1438,6 +1464,8 @@ null
 ;
 switch
 (
+lazy
+.
 AppInfo
 .
 name
@@ -1452,6 +1480,8 @@ const
 opened
 =
 new
+lazy
+.
 EventPromise
 (
 this
@@ -1531,6 +1561,8 @@ default
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -1542,6 +1574,8 @@ not
 supported
 in
 {
+lazy
+.
 AppInfo
 .
 name
@@ -1689,6 +1723,8 @@ this
 .
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -1755,6 +1791,8 @@ focus
 )
 {
 await
+lazy
+.
 TabManager
 .
 selectTab
@@ -1802,6 +1840,8 @@ this
 eventObserver
 =
 new
+lazy
+.
 WebElementEventTarget
 (
 this

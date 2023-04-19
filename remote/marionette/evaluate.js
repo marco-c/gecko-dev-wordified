@@ -125,11 +125,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 element
 :
@@ -208,7 +214,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -216,10 +222,14 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
 (
+lazy
+.
 Log
 .
 TYPES
@@ -381,6 +391,8 @@ msg
 "
 err
 =
+lazy
+.
 error
 .
 JavaScriptError
@@ -950,6 +962,8 @@ setTimeout
 reject
 (
 new
+lazy
+.
 error
 .
 ScriptTimeoutError
@@ -1102,6 +1116,8 @@ cloneInto
 reject
 (
 new
+lazy
+.
 error
 .
 JavaScriptError
@@ -1317,6 +1333,8 @@ if
 (
 err
 instanceof
+lazy
+.
 error
 .
 ScriptTimeoutError
@@ -1328,6 +1346,8 @@ err
 }
 throw
 new
+lazy
+.
 error
 .
 JavaScriptError
@@ -1729,6 +1749,8 @@ JSWindowActor
 else
 if
 (
+lazy
+.
 WebElement
 .
 isReference
@@ -1743,6 +1765,8 @@ if
 (
 seenEls
 instanceof
+lazy
+.
 element
 .
 ReferenceStore
@@ -1785,6 +1809,8 @@ by
 using
 ContentDOMReference
 return
+lazy
+.
 element
 .
 resolveElement
@@ -2214,6 +2240,8 @@ al
 else
 if
 (
+lazy
+.
 element
 .
 isCollection
@@ -2258,6 +2286,8 @@ WebElement
 else
 if
 (
+lazy
+.
 WebElement
 .
 isReference
@@ -2283,6 +2313,8 @@ seenEls
 .
 get
 (
+lazy
+.
 WebElement
 .
 fromJSON
@@ -2298,6 +2330,8 @@ ElementIdentifier
 else
 if
 (
+lazy
+.
 WebElement
 .
 isReference
@@ -2337,6 +2371,8 @@ al
 else
 if
 (
+lazy
+.
 element
 .
 isElement
@@ -2345,6 +2381,8 @@ obj
 )
 |
 |
+lazy
+.
 element
 .
 isShadowRoot
@@ -2360,6 +2398,8 @@ if
 (
 seenEls
 instanceof
+lazy
+.
 element
 .
 ReferenceStore
@@ -2443,6 +2483,8 @@ by
 ContentDOMReference
 .
 return
+lazy
+.
 element
 .
 getElementId
@@ -2560,6 +2602,8 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -2777,6 +2821,8 @@ al
 else
 if
 (
+lazy
+.
 element
 .
 isElement
@@ -2800,6 +2846,8 @@ al
 else
 if
 (
+lazy
+.
 element
 .
 isCollection
