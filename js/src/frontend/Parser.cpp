@@ -24295,6 +24295,14 @@ cx_
 this
 -
 >
+ec_
+this
+-
+>
+stackLimit_
+this
+-
+>
 parserAtoms
 (
 )
