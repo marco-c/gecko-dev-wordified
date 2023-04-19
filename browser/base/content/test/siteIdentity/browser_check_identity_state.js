@@ -2558,7 +2558,9 @@ modules
 /
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 "
 ;
 let
