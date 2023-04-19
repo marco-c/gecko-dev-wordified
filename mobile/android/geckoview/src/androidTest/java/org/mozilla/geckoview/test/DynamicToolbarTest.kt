@@ -3204,7 +3204,11 @@ state
 dynamicViewportHeight
 closeTo
 (
+(
 SCREEN_HEIGHT
+-
+dynamicToolbarMaxHeight
+)
 /
 scale
 /
@@ -3222,8 +3226,8 @@ down
 the
 toolbar
 at
-the
-half
+a
+fourth
 of
 its
 position
@@ -3240,7 +3244,7 @@ setVerticalClipping
 -
 dynamicToolbarMaxHeight
 /
-2
+4
 )
 }
 smallViewportHeight
@@ -3336,8 +3340,10 @@ closeTo
 SCREEN_HEIGHT
 -
 dynamicToolbarMaxHeight
++
+dynamicToolbarMaxHeight
 /
-2
+4
 )
 /
 scale

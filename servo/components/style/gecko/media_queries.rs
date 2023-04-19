@@ -2575,9 +2575,15 @@ size
 .
 height
 +
+(
+pc
+.
+mDynamicToolbarMaxHeight
+-
 pc
 .
 mDynamicToolbarHeight
+)
 as
 i32
 *
