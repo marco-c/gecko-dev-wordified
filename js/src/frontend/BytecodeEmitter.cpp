@@ -1437,9 +1437,6 @@ BytecodeEmitter
 :
 BytecodeEmitter
 (
-BytecodeEmitter
-*
-parent
 const
 EitherParser
 &
@@ -1456,7 +1453,7 @@ emitterMode
 :
 BytecodeEmitter
 (
-parent
+nullptr
 sc
 compilationState
 emitterMode
