@@ -32102,7 +32102,6 @@ pinToTaskbar
 )
 ;
 }
-else
 if
 (
 checkboxState
