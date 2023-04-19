@@ -381,3 +381,17 @@ aStart
 )
 ;
 }
+template
+class
+nsTDependentString
+<
+char
+>
+;
+template
+class
+nsTDependentString
+<
+char16_t
+>
+;
