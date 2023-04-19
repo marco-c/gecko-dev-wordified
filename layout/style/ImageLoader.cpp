@@ -4195,7 +4195,7 @@ uriString
 ;
 }
 }
-AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
+AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 (
 "
 ImageLoader
@@ -4205,6 +4205,10 @@ Notify
 "
 OTHER
 uriString
+.
+get
+(
+)
 )
 ;
 if
