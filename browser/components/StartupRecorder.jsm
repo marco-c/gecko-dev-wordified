@@ -503,7 +503,14 @@ modules
 :
 Cu
 .
-loadedModules
+loadedJSModules
+.
+concat
+(
+Cu
+.
+loadedESModules
+)
 services
 :
 Object
