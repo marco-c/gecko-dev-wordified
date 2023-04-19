@@ -10474,10 +10474,6 @@ FindDisplayData
 const
 nsStyleDisplay
 &
-mozilla
-:
-:
-StyleMozBoxLayout
 const
 Element
 &
