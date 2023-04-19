@@ -341,7 +341,7 @@ release
 "
                     
 "
-esr91
+esr102
 "
 :
 "
@@ -349,7 +349,7 @@ releases
 /
 mozilla
 -
-esr91
+esr102
 "
                 
 }
@@ -522,7 +522,7 @@ beta
 "
 comm
 -
-esr91
+esr102
 "
 :
 "
@@ -530,7 +530,7 @@ releases
 /
 comm
 -
-esr91
+esr102
 "
                 
 }
