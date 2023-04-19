@@ -1836,6 +1836,9 @@ ConvertRegExpData
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 SmooshResult
 &
@@ -1910,12 +1913,6 @@ return
 false
 ;
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 for
 (
 size_t
@@ -2173,7 +2170,6 @@ TokenStreamAnyChars
 ts
 (
 cx
-&
 ec
 compilationState
 .
@@ -3530,6 +3526,9 @@ ReportSmooshCompileError
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ErrorMetadata
 &
 &
@@ -3541,12 +3540,6 @@ errorNumber
 .
 )
 {
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 va_list
 args
 ;
@@ -3558,7 +3551,6 @@ errorNumber
 ;
 ReportCompileErrorUTF8
 (
-&
 ec
 std
 :
@@ -3599,6 +3591,9 @@ tryCompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -3748,6 +3743,7 @@ false
 ReportSmooshCompileError
 (
 cx
+ec
 std
 :
 :
@@ -3874,6 +3870,7 @@ if
 ConvertRegExpData
 (
 cx
+ec
 result
 compilationState
 )

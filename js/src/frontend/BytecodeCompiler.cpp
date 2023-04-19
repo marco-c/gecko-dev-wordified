@@ -1105,6 +1105,9 @@ TrySmoosh
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -1173,6 +1176,7 @@ Smoosh
 tryCompileGlobalScriptToExtensibleStencil
 (
 cx
+ec
 input
 srcBuf
 stencilOut
@@ -1282,6 +1286,9 @@ TrySmoosh
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -1439,6 +1446,7 @@ if
 TrySmoosh
 (
 cx
+ec
 input
 srcBuf
 extensibleStencil
