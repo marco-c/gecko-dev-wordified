@@ -380,7 +380,7 @@ MappingPromise
 =
 MozPromise
 <
-MaybeShmem
+BufferMapResult
 ipc
 :
 :
@@ -497,17 +497,8 @@ UnmapBuffer
 (
 RawId
 aId
-ipc
-:
-:
-Shmem
-&
-&
-aShmem
 bool
 aFlush
-bool
-aKeepShmem
 )
 ;
 already_AddRefed

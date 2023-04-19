@@ -2733,6 +2733,10 @@ dom
 GPUBufferDescriptor
 &
 aDesc
+MaybeShmem
+&
+&
+aShmem
 )
 {
 RawId
@@ -2759,6 +2763,7 @@ SendCreateBuffer
 aSelfId
 bufferId
 aDesc
+aShmem
 )
 )
 {
