@@ -963,16 +963,6 @@ EventKind
 :
 :
 Uid
-Event
-:
-:
-__Nonexhaustive
-=
->
-unreachable
-!
-(
-)
 }
 }
 }
