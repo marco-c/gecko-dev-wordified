@@ -1614,7 +1614,7 @@ time
 *
 /
 size_t
-isNewlyCreated
+isNewlyCreated_
 :
 1
 ;
@@ -2681,6 +2681,16 @@ thingSize
 =
 =
 0
+;
+}
+bool
+isNewlyCreated
+(
+)
+const
+{
+return
+isNewlyCreated_
 ;
 }
 bool

@@ -1058,7 +1058,7 @@ JSObject
 {
 if
 (
-isNewlyCreated
+isNewlyCreated_
 )
 {
 zone
@@ -1076,7 +1076,7 @@ nmarked
 ;
 }
 }
-isNewlyCreated
+isNewlyCreated_
 =
 0
 ;
