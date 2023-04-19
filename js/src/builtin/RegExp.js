@@ -1523,6 +1523,7 @@ data
 properties
 .
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -1543,6 +1544,7 @@ exec
 =
 =
 RegExp_prototype_Exec
+)
 ;
 }
 /
@@ -4802,6 +4804,7 @@ data
 property
 .
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -4822,6 +4825,7 @@ exec
 =
 =
 RegExp_prototype_Exec
+)
 ;
 }
 /
