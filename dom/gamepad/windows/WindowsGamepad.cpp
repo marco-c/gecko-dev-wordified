@@ -6861,8 +6861,8 @@ StopWindowsGamepadServiceRunnable
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -7027,9 +7027,7 @@ aBlue
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

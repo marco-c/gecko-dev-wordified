@@ -641,8 +641,8 @@ above
 /
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -756,12 +756,10 @@ mGeoPosition
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

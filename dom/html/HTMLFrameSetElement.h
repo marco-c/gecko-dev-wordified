@@ -317,8 +317,8 @@ NS_MAX_FRAMESET_SPEC_COUNT
 -
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1012,12 +1012,10 @@ dimensions
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

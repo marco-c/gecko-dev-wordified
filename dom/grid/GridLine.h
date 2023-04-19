@@ -157,8 +157,8 @@ nsAtom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -365,12 +365,10 @@ mNegativeNumber
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

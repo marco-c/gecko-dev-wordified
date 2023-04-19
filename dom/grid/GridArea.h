@@ -143,8 +143,8 @@ nsAtom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -306,12 +306,10 @@ mColumnEnd
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
