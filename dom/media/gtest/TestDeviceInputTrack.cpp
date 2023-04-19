@@ -2988,7 +2988,7 @@ down
 :
 Destroy
 the
-NativeInputTrack
+NonNativeInputTrack
 and
 remove
 it
@@ -3014,7 +3014,7 @@ track
 TEST_F
 (
 TestDeviceInputTrack
-DeviceChangedCallback
+NonNativeDeviceChangedCallback
 )
 {
 MockCubeb
@@ -3435,7 +3435,7 @@ down
 :
 Destroy
 the
-NativeInputTrack
+NonNativeInputTrack
 and
 remove
 it
@@ -3461,7 +3461,7 @@ track
 TEST_F
 (
 TestDeviceInputTrack
-ErrorCallback
+NonNativeErrorCallback
 )
 {
 MockCubeb
@@ -3919,7 +3919,7 @@ down
 :
 Destroy
 the
-NativeInputTrack
+NonNativeInputTrack
 and
 remove
 it
