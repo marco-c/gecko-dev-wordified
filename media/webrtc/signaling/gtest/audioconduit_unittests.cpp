@@ -151,13 +151,6 @@ h
 #
 include
 "
-WebrtcCallWrapper
-.
-h
-"
-#
-include
-"
 MockCall
 .
 h
