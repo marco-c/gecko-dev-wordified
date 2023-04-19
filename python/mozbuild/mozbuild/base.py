@@ -1914,7 +1914,7 @@ staticmethod
 memoize
     
 def
-get_base_mozconfig_info
+get_mozconfig_and_target
 (
 topsrcdir
 path
@@ -2281,6 +2281,11 @@ argv
 "
 mach
 "
+"
+-
+-
+help
+"
 ]
             
 logger
@@ -2354,12 +2359,8 @@ mozconfig_options
 )
             
 return
-{
+(
                 
-"
-mozconfig
-"
-:
 sandbox
 .
 _value_for
@@ -2372,10 +2373,6 @@ mozconfig
 ]
 )
                 
-"
-target
-"
-:
 sandbox
 .
 _value_for
@@ -2387,50 +2384,8 @@ real_target
 "
 ]
 )
-                
-"
-project
-"
-:
-sandbox
-.
-_value_for
-(
-sandbox
-.
-_options
-[
-"
-project
-"
-]
-)
-                
-"
-artifact
--
-builds
-"
-:
-sandbox
-.
-_value_for
-(
-                    
-sandbox
-.
-_options
-[
-"
-artifact
--
-builds
-"
-]
-                
-)
             
-}
+)
         
 except
 SystemExit
@@ -2450,7 +2405,7 @@ raise
 property
     
 def
-base_mozconfig_info
+mozconfig_and_target
 (
 self
 )
@@ -2459,7 +2414,7 @@ self
 return
 self
 .
-get_base_mozconfig_info
+get_mozconfig_and_target
 (
             
 self
@@ -2521,11 +2476,9 @@ read_mozconfig
 return
 self
 .
-base_mozconfig_info
+mozconfig_and_target
 [
-"
-mozconfig
-"
+0
 ]
     
 property
@@ -3941,11 +3894,9 @@ self
 return
 self
 .
-base_mozconfig_info
+mozconfig_and_target
 [
-"
-target
-"
+1
 ]
 .
 alias
