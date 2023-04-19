@@ -97,13 +97,7 @@ js
 src
 \
 /
-(
-?
-:
 builtin
-|
-shell
-)
 \
 /
 .
