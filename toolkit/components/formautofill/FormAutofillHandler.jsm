@@ -182,19 +182,14 @@ jsm
 )
 ;
 const
-lazy
-=
 {
+FormAutofillUtils
 }
-;
+=
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-lazy
-"
-FormAutofillUtils
-"
 "
 resource
 :
@@ -207,6 +202,12 @@ FormAutofillUtils
 jsm
 "
 )
+;
+const
+lazy
+=
+{
+}
 ;
 ChromeUtils
 .
@@ -318,8 +319,6 @@ reauthPasswordPromptMessage
 const
 brandShortName
 =
-lazy
-.
 FormAutofillUtils
 .
 brandBundle
@@ -364,8 +363,6 @@ macos
 )
 ;
 return
-lazy
-.
 FormAutofillUtils
 .
 stringBundle
@@ -425,8 +422,6 @@ const
 FIELD_STATES
 }
 =
-lazy
-.
 FormAutofillUtils
 ;
 class
@@ -1299,8 +1294,6 @@ continue
 let
 option
 =
-lazy
-.
 FormAutofillUtils
 .
 findSelectOption
@@ -2107,8 +2100,6 @@ disabled
 if
 (
 !
-lazy
-.
 FormAutofillUtils
 .
 isFieldAutofillable
@@ -2742,8 +2733,6 @@ disabled
 if
 (
 !
-lazy
-.
 FormAutofillUtils
 .
 isFieldAutofillable
@@ -4021,8 +4010,6 @@ value
 .
 length
 >
-lazy
-.
 FormAutofillUtils
 .
 MAX_FIELD_VALUE_LENGTH
@@ -4169,8 +4156,6 @@ target
 const
 isCreditCardField
 =
-lazy
-.
 FormAutofillUtils
 .
 isCreditCardField
@@ -4662,8 +4647,6 @@ fieldDetails
 length
 >
 =
-lazy
-.
 FormAutofillUtils
 .
 AUTOFILL_FIELDS_THRESHOLD
@@ -4795,8 +4778,6 @@ continue
 }
 if
 (
-lazy
-.
 FormAutofillUtils
 .
 getCategoryFromFieldName
@@ -4828,8 +4809,6 @@ length
 hasName
 >
 =
-lazy
-.
 FormAutofillUtils
 .
 AUTOFILL_FIELDS_THRESHOLD
@@ -4882,8 +4861,6 @@ oneLineStreetAddress
 address
 ]
 =
-lazy
-.
 FormAutofillUtils
 .
 toOneLineAddress
@@ -5097,8 +5074,6 @@ profile
 f
 ]
 =
-lazy
-.
 FormAutofillUtils
 .
 toOneLineAddress
@@ -5713,8 +5688,6 @@ trim
 ;
 value
 =
-lazy
-.
 FormAutofillUtils
 .
 getAbbreviatedSubregionName
@@ -5806,8 +5779,6 @@ autocomplete
 let
 countryCode
 =
-lazy
-.
 FormAutofillUtils
 .
 identifyCountryCode
@@ -5839,8 +5810,6 @@ countryCode
 /
 Normalize
 Tel
-lazy
-.
 FormAutofillUtils
 .
 compressTel
@@ -5876,8 +5845,6 @@ filter
 field
 =
 >
-lazy
-.
 FormAutofillUtils
 .
 getCategoryFromFieldName
@@ -6578,8 +6545,6 @@ number
 ]
 &
 &
-lazy
-.
 FormAutofillUtils
 .
 isCCNumber
@@ -9648,8 +9613,6 @@ if
 type
 =
 =
-lazy
-.
 FormAutofillUtils
 .
 SECTION_TYPES
@@ -9675,8 +9638,6 @@ if
 type
 =
 =
-lazy
-.
 FormAutofillUtils
 .
 SECTION_TYPES
