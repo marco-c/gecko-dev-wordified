@@ -213,9 +213,6 @@ VideoSendStreamPeer
 namespace
 test
 class
-CallStats
-;
-class
 IvfFileWriter
 ;
 class
