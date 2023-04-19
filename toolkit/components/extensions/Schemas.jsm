@@ -107,11 +107,6 @@ strict
 "
 ;
 const
-global
-=
-this
-;
-const
 {
 AppConstants
 }
@@ -15547,7 +15542,8 @@ cloneInto
 parameter
 .
 default
-global
+{
+}
 )
 ;
 }
