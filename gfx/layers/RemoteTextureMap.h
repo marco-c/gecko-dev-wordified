@@ -345,7 +345,7 @@ UnregisterAllTextureOwners
 )
 ;
 void
-PushTexure
+PushTexture
 (
 const
 RemoteTextureId
@@ -905,7 +905,7 @@ is
 destroyed
 .
 void
-PushTexure
+PushTexture
 (
 const
 RemoteTextureId
