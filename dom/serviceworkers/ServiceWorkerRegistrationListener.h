@@ -122,8 +122,8 @@ define
 mozilla_dom_ServiceWorkerRegistrationListener_h
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -211,12 +211,10 @@ aDescriptor
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

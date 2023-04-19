@@ -571,8 +571,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -12258,9 +12258,7 @@ aValue
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

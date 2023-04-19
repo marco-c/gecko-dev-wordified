@@ -459,8 +459,8 @@ _args
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -8140,9 +8140,7 @@ NS_ERROR_UNEXPECTED
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

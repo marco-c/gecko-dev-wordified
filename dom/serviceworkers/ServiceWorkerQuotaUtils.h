@@ -133,8 +133,8 @@ nsIQuotaUsageRequest
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -167,11 +167,9 @@ aCallback
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
