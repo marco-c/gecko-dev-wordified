@@ -9331,11 +9331,10 @@ Json
 String
 logString
 =
-mGatheringLog
--
->
-toStyledString
+ToCompactString
 (
+*
+mGatheringLog
 )
 ;
 mGatheringLog
