@@ -321,6 +321,14 @@ MSG
 >
 mMsgsToRepost
 ;
+private
+:
+wchar_t
+mTimezoneName
+[
+128
+]
+;
 }
 ;
 #
