@@ -4354,6 +4354,9 @@ error
 >
 {
 throw
+new
+Error
+(
 Unxpected
 error
 when
@@ -4378,6 +4381,7 @@ handling
 error
 }
 '
+)
 ;
 }
 )

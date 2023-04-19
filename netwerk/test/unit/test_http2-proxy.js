@@ -2144,7 +2144,10 @@ error
 >
 {
 throw
-Unxpected
+new
+Error
+(
+Unexpected
 error
 when
 conneting
@@ -2168,6 +2171,7 @@ handling
 error
 }
 '
+)
 ;
 }
 )
