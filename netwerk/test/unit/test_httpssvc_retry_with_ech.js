@@ -1939,11 +1939,7 @@ priority
 name
 :
 "
-public
 .
-example
-.
-com
 "
 values
 :
