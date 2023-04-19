@@ -5494,7 +5494,7 @@ urlbar
 .
 dnsResolveSingleWordsAfterSearch
 "
-1
+0
 )
 ;
 /
