@@ -19,7 +19,12 @@ skip
 -
 if
 (
-release_or_beta
+!
+Array
+.
+prototype
+.
+group
 )
 var
 BUGNUMBER
