@@ -367,6 +367,9 @@ auto
 SYNCHRONIZE
 ;
 auto
+TRANSPARENT
+;
+auto
 MAXIMUM_ALLOWED
 ;
 auto
