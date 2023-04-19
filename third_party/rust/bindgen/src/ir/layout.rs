@@ -399,8 +399,6 @@ next_align
 Layout
 {
 size
-:
-size
 align
 :
 next_align

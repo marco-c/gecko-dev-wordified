@@ -275,11 +275,11 @@ items
 )
 {
 let
-is_whitelisted
+is_allowlisted
 =
 ctx
 .
-whitelisted_items
+allowlisted_items
 (
 )
 .
@@ -334,7 +334,7 @@ as_usize
 (
 )
 if
-is_whitelisted
+is_allowlisted
 {
 "
 black
@@ -445,7 +445,7 @@ as_usize
 )
 edge_kind
 if
-is_whitelisted
+is_allowlisted
 {
 "
 black

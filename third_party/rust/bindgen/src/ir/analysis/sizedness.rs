@@ -825,9 +825,6 @@ EdgeKind
 >
 bool
 {
-match
-kind
-{
 /
 /
 These
@@ -850,6 +847,10 @@ sized
 or
 not
 .
+matches
+!
+(
+kind
 EdgeKind
 :
 :
@@ -879,14 +880,7 @@ EdgeKind
 :
 :
 Field
-=
->
-true
-_
-=
->
-false
-}
+)
 }
 /
 /
@@ -1263,7 +1257,7 @@ self
 .
 ctx
 .
-whitelisted_items
+allowlisted_items
 (
 )
 .

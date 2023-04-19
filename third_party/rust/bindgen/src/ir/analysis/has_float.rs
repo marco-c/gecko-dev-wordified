@@ -682,7 +682,7 @@ self
 .
 ctx
 .
-whitelisted_items
+allowlisted_items
 (
 )
 .
