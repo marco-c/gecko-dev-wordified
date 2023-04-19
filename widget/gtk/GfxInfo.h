@@ -639,6 +639,9 @@ mHasMultipleGPUs
 bool
 mGlxTestError
 ;
+bool
+mIsVAAPISupported
+;
 void
 AddCrashReportAnnotations
 (
