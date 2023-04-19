@@ -92,6 +92,12 @@ IncomingEnvelope
 }
 ;
 use
+interrupt_support
+:
+:
+SqlInterruptHandle
+;
+use
 once_cell
 :
 :
@@ -99,12 +105,6 @@ sync
 :
 :
 OnceCell
-;
-use
-interrupt_support
-:
-:
-SqlInterruptHandle
 ;
 use
 webext_storage

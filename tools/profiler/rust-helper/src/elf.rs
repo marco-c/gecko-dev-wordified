@@ -81,8 +81,8 @@ object
 {
 ObjectSection
 ObjectSymbol
-SymbolKind
 SectionKind
+SymbolKind
 }
 ;
 use
@@ -199,6 +199,7 @@ filter_map
 |
 symbol
 |
+{
 symbol
 .
 name
@@ -225,6 +226,7 @@ name
 ok
 (
 )
+}
 )
 .
 collect
