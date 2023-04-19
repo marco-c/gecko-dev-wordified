@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 console
 "
@@ -1031,6 +1037,8 @@ ex
 .
 stack
 ;
+lazy
+.
 console
 .
 error

@@ -217,11 +217,17 @@ import
 these
 files
 }
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PlacesUtils
 "
@@ -244,7 +250,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PageThumbs
 "
@@ -267,7 +273,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 BinarySearch
 "
@@ -290,7 +296,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 pktApi
 "
@@ -313,7 +319,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Pocket
 "
@@ -411,7 +417,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gCryptoHash
 "
@@ -449,7 +455,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gUnicodeConverter
 "
@@ -750,6 +756,8 @@ aValue
 let
 value
 =
+lazy
+.
 gUnicodeConverter
 .
 convertToByteArray
@@ -757,15 +765,21 @@ convertToByteArray
 aValue
 )
 ;
+lazy
+.
 gCryptoHash
 .
 init
 (
+lazy
+.
 gCryptoHash
 .
 MD5
 )
 ;
+lazy
+.
 gCryptoHash
 .
 update
@@ -777,6 +791,8 @@ length
 )
 ;
 return
+lazy
+.
 gCryptoHash
 .
 finish
@@ -801,7 +817,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Storage
 "
@@ -2231,6 +2247,8 @@ this
 .
 _links
 =
+lazy
+.
 Storage
 .
 get
@@ -2493,6 +2511,8 @@ PinnedLinks_save
 (
 )
 {
+lazy
+.
 Storage
 .
 set
@@ -2987,6 +3007,8 @@ this
 .
 _links
 =
+lazy
+.
 Storage
 .
 get
@@ -3182,6 +3204,8 @@ BlockedLinks_save
 (
 )
 {
+lazy
+.
 Storage
 .
 set
@@ -3543,6 +3567,8 @@ aCallback
 let
 options
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -3865,6 +3891,8 @@ outOfOrder
 {
 i
 =
+lazy
+.
 BinarySearch
 .
 insertionIndexOf
@@ -3903,6 +3931,8 @@ query
 let
 query
 =
+lazy
+.
 PlacesUtils
 .
 history
@@ -3911,6 +3941,8 @@ getNewQuery
 (
 )
 ;
+lazy
+.
 PlacesUtils
 .
 history
@@ -4718,6 +4750,8 @@ assign
 {
 bookmarkType
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -4733,6 +4767,8 @@ aOptions
 )
 tagsFolderId
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -5178,6 +5214,8 @@ try
 faviconData
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseFaviconData
@@ -5265,6 +5303,8 @@ try
 faviconData
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseFaviconData
@@ -5816,6 +5856,8 @@ in
 if
 (
 !
+lazy
+.
 pktApi
 .
 isUserLoggedIn
@@ -5854,6 +5896,8 @@ reject
 =
 >
 {
+lazy
+.
 pktApi
 .
 retrieve
@@ -6577,11 +6621,15 @@ params
 {
 tags_folder
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
 type_bookmark
 :
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -7938,6 +7986,8 @@ let
 bookmark
 =
 await
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8242,6 +8292,8 @@ let
 conn
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseDBConnection
@@ -8692,6 +8744,8 @@ aBookmarkGuid
 )
 {
 return
+lazy
+.
 PlacesUtils
 .
 bookmarks
@@ -8770,6 +8824,8 @@ url
 )
 ;
 return
+lazy
+.
 PlacesUtils
 .
 history
@@ -8869,6 +8925,8 @@ error
 )
 =
 >
+lazy
+.
 pktApi
 .
 deleteItem
@@ -8971,6 +9029,8 @@ error
 )
 =
 >
+lazy
+.
 pktApi
 .
 archiveItem
@@ -9112,6 +9172,8 @@ in
 if
 (
 !
+lazy
+.
 pktApi
 .
 isUserLoggedIn
@@ -9119,6 +9181,8 @@ isUserLoggedIn
 )
 )
 {
+lazy
+.
 Pocket
 .
 savePage
@@ -9177,6 +9241,8 @@ error
 =
 >
 {
+lazy
+.
 pktApi
 .
 addLink
@@ -12719,6 +12785,8 @@ aMethod
 )
 {
 return
+lazy
+.
 BinarySearch
 [
 aMethod
@@ -13425,6 +13493,8 @@ ExpirationFilter_init
 (
 )
 {
+lazy
+.
 PageThumbs
 .
 addExpirationFilter
@@ -13947,6 +14017,8 @@ NewTabUtils_restore
 (
 )
 {
+lazy
+.
 Storage
 .
 clear
@@ -14028,6 +14100,8 @@ NewTabUtils_undoAll
 aCallback
 )
 {
+lazy
+.
 Storage
 .
 remove

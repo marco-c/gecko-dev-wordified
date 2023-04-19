@@ -137,11 +137,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Normandy
 :
@@ -428,6 +434,8 @@ promises
 .
 push
 (
+lazy
+.
 Normandy
 .
 init
@@ -479,6 +487,8 @@ promises
 .
 push
 (
+lazy
+.
 TaskScheduler
 .
 deleteAllTasks

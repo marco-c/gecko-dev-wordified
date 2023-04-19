@@ -114,11 +114,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Deprecated
 "
@@ -478,6 +484,8 @@ startup
 shuttingDown
 )
 {
+lazy
+.
 Deprecated
 .
 warning

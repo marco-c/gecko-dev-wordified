@@ -208,11 +208,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 finalizationService
 "
@@ -757,6 +763,8 @@ finalizerRoots
 set
 (
 element
+lazy
+.
 finalizationService
 .
 make

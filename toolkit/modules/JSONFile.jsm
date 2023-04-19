@@ -318,11 +318,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -345,7 +351,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -368,7 +374,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -391,7 +397,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTextDecoder
 "
@@ -905,6 +911,8 @@ this
 _saver
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -2091,6 +2099,8 @@ new
 FileInputStream
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -2099,9 +2109,13 @@ this
 .
 path
 )
+lazy
+.
 FileUtils
 .
 MODE_RDONLY
+lazy
+.
 FileUtils
 .
 PERMS_FILE
@@ -2113,6 +2127,8 @@ try
 let
 bytes
 =
+lazy
+.
 NetUtil
 .
 readInputStream
@@ -2131,6 +2147,8 @@ JSON
 .
 parse
 (
+lazy
+.
 gTextDecoder
 .
 decode
@@ -2339,6 +2357,8 @@ let
 originalFile
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -2376,6 +2396,8 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
+lazy
+.
 FileUtils
 .
 PERMS_FILE
@@ -2480,6 +2502,8 @@ let
 backupFile
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -2594,6 +2618,8 @@ new
 FileInputStream
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -2604,9 +2630,13 @@ _options
 .
 backupFile
 )
+lazy
+.
 FileUtils
 .
 MODE_RDONLY
+lazy
+.
 FileUtils
 .
 PERMS_FILE
@@ -2618,6 +2648,8 @@ try
 let
 bytes
 =
+lazy
+.
 NetUtil
 .
 readInputStream
@@ -2636,6 +2668,8 @@ JSON
 .
 parse
 (
+lazy
+.
 gTextDecoder
 .
 decode

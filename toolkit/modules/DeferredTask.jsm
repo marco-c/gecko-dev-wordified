@@ -116,6 +116,12 @@ DeferredTask
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 /
 *
 *
@@ -781,7 +787,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PromiseUtils
 "
@@ -2246,6 +2252,8 @@ _timerCallback
 let
 runningDeferred
 =
+lazy
+.
 PromiseUtils
 .
 defer

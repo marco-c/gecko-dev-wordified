@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ctypes
 :
@@ -204,7 +210,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 fetch
@@ -875,6 +881,8 @@ try
 data
 =
 await
+lazy
+.
 fetch
 (
 url
@@ -6064,6 +6072,8 @@ ISET
 :
 "
 +
+lazy
+.
 gInstructionSet
 +
 "
@@ -6201,7 +6211,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gInstructionSet
 "
@@ -6304,7 +6314,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gWinCPUArch
 "
@@ -6328,6 +6338,8 @@ unknown
 const
 WORD
 =
+lazy
+.
 ctypes
 .
 uint16_t
@@ -6335,6 +6347,8 @@ uint16_t
 const
 DWORD
 =
+lazy
+.
 ctypes
 .
 uint32_t
@@ -6380,6 +6394,8 @@ const
 SYSTEM_INFO
 =
 new
+lazy
+.
 ctypes
 .
 StructType
@@ -6406,6 +6422,8 @@ DWORD
 {
 lpMinimumApplicationAddress
 :
+lazy
+.
 ctypes
 .
 voidptr_t
@@ -6413,6 +6431,8 @@ voidptr_t
 {
 lpMaximumApplicationAddress
 :
+lazy
+.
 ctypes
 .
 voidptr_t
@@ -6461,6 +6481,8 @@ try
 {
 kernel32
 =
+lazy
+.
 ctypes
 .
 open
@@ -6511,9 +6533,13 @@ declare
 "
 GetNativeSystemInfo
 "
+lazy
+.
 ctypes
 .
 winapi_abi
+lazy
+.
 ctypes
 .
 void_t
@@ -6721,6 +6747,8 @@ abi
 -
 "
 +
+lazy
+.
 gWinCPUArch
 ;
 }
@@ -6853,6 +6881,8 @@ servicePackMinor
 buildNumber
 }
 =
+lazy
+.
 WindowsVersionInfo
 .
 get
@@ -6962,6 +6992,8 @@ CurrentVersion
 let
 ubr
 =
+lazy
+.
 WindowsRegistry
 .
 readRegKey
@@ -7024,6 +7056,8 @@ osVersion
 (
 "
 +
+lazy
+.
 gWinCPUArch
 +
 "

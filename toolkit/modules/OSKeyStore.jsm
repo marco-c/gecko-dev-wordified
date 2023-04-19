@@ -155,11 +155,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -182,7 +188,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 nativeOSKeyStore
 "
@@ -206,7 +212,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 osReauthenticator
 "
@@ -577,6 +583,8 @@ macosx
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -599,6 +607,8 @@ return
 true
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -693,6 +703,8 @@ testing
 environment
 for
 now
+.
+lazy
 .
 log
 .
@@ -1354,6 +1366,8 @@ this
 _pendingUnlockPromise
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1375,6 +1389,8 @@ this
 _pendingUnlockPromise
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -1417,6 +1433,8 @@ local
 builds
 if
 (
+lazy
+.
 UpdateUtils
 .
 getUpdateChannel
@@ -1489,6 +1507,8 @@ it
 .
 unlockPromise
 =
+lazy
+.
 osReauthenticator
 .
 asyncReauthenticateUser
@@ -1627,6 +1647,8 @@ result
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1699,6 +1721,8 @@ if
 !
 (
 await
+lazy
+.
 nativeOSKeyStore
 .
 asyncSecretAvailable
@@ -1710,6 +1734,8 @@ STORE_LABEL
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1732,6 +1758,8 @@ let
 recoveryPhrase
 =
 await
+lazy
+.
 nativeOSKeyStore
 .
 asyncGenerateSecret
@@ -1786,6 +1814,8 @@ in
 the
 console
 )
+lazy
+.
 log
 .
 debug
@@ -1825,6 +1855,8 @@ reauthResult
 =
 >
 {
+lazy
+.
 log
 .
 debug
@@ -1857,6 +1889,8 @@ err
 =
 >
 {
+lazy
+.
 log
 .
 debug
@@ -2114,6 +2148,8 @@ let
 bytes
 =
 await
+lazy
+.
 nativeOSKeyStore
 .
 asyncDecryptBytes
@@ -2287,6 +2323,8 @@ let
 rawEncryptedText
 =
 await
+lazy
+.
 nativeOSKeyStore
 .
 asyncEncryptBytes
@@ -2408,6 +2446,8 @@ cleanup
 )
 {
 return
+lazy
+.
 nativeOSKeyStore
 .
 asyncDeleteSecret
@@ -2424,7 +2464,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "

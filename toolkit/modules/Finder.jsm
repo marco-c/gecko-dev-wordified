@@ -185,11 +185,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FinderIterator
 "
@@ -212,7 +218,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -235,7 +241,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 ClipboardHelper
 "
@@ -452,6 +458,8 @@ this
 _iterator
 =
 new
+lazy
+.
 FinderIterator
 (
 )
@@ -905,6 +913,8 @@ aSearchString
 if
 (
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -4509,6 +4519,8 @@ supportsFindClipboard
 return
 ;
 }
+lazy
+.
 ClipboardHelper
 .
 copyStringToClipboard

@@ -171,11 +171,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Region
 "
@@ -198,7 +204,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 INVALID_SHAREABLE_SCHEMES
 "
@@ -1044,6 +1050,8 @@ another
 device
 return
 !
+lazy
+.
 INVALID_SHAREABLE_SCHEMES
 .
 has
@@ -2458,6 +2466,8 @@ true
 const
 homeRegion
 =
+lazy
+.
 Region
 .
 home
@@ -2469,6 +2479,8 @@ home
 const
 currentRegion
 =
+lazy
+.
 Region
 .
 current
@@ -2654,6 +2666,8 @@ shouldShowRallyPromo
 const
 homeRegion
 =
+lazy
+.
 Region
 .
 home
@@ -2665,6 +2679,8 @@ home
 const
 currentRegion
 =
+lazy
+.
 Region
 .
 current

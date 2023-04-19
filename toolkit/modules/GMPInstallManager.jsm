@@ -218,11 +218,17 @@ GMPAddon
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CertUtils
 "
@@ -245,7 +251,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -268,7 +274,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 UpdateUtils
 "
@@ -291,7 +297,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ServiceRequest
 "
@@ -461,6 +467,8 @@ let
 xmlHttp
 =
 new
+lazy
+.
 ServiceRequest
 (
 {
@@ -656,6 +664,8 @@ OS
 _
 "
 +
+lazy
+.
 UpdateUtils
 .
 ABI
@@ -1050,6 +1060,8 @@ url
 url
 =
 await
+lazy
+.
 UpdateUtils
 .
 formatUpdateURL
@@ -2292,6 +2304,8 @@ true
 {
 certs
 =
+lazy
+.
 CertUtils
 .
 readCertPrefs
@@ -4445,6 +4459,8 @@ let
 zipFile
 =
 new
+lazy
+.
 FileUtils
 .
 File

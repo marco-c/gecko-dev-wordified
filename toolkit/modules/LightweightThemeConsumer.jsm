@@ -137,6 +137,12 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 /
 /
 Get
@@ -162,7 +168,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ThemeContentPropertyList
 "
@@ -184,7 +190,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ThemeVariableMap
 "
@@ -206,7 +212,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -257,7 +263,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 BROWSER_THEME_UNIFIED_COLOR_SCHEME
 "
@@ -1416,6 +1422,8 @@ false
 |
 |
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1426,6 +1434,8 @@ _win
 )
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -2394,6 +2404,8 @@ data
 {
 if
 (
+lazy
+.
 ThemeContentPropertyList
 .
 includes
@@ -2938,6 +2950,8 @@ function
 {
 if
 (
+lazy
+.
 BROWSER_THEME_UNIFIED_COLOR_SCHEME
 )
 {
@@ -3705,6 +3719,8 @@ map
 of
 [
 toolkitVariableMap
+lazy
+.
 ThemeVariableMap
 ]
 )

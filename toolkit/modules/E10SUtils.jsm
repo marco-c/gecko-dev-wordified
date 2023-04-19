@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 useSeparateFileUriProcess
 "
@@ -142,7 +148,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 useSeparatePrivilegedAboutContentProcess
 "
@@ -162,7 +168,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 separatePrivilegedMozillaWebContentProcess
 "
@@ -182,7 +188,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 separatedMozillaDomains
 "
@@ -214,7 +220,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 useCrossOriginOpenerPolicy
 "
@@ -234,7 +240,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 serializationHelper
 "
@@ -260,7 +266,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 extProtService
 "
@@ -771,6 +777,8 @@ domain
 .
 if
 (
+lazy
+.
 separatePrivilegedMozillaWebContentProcess
 &
 &
@@ -789,6 +797,8 @@ https
 "
 &
 &
+lazy
+.
 separatedMozillaDomains
 .
 some
@@ -1116,6 +1126,8 @@ avoid
 let
 handlerInfo
 =
+lazy
+.
 extProtService
 .
 getProtocolHandlerInfo
@@ -1725,6 +1737,8 @@ useCrossOriginOpenerPolicy
 )
 {
 return
+lazy
+.
 useCrossOriginOpenerPolicy
 ;
 }
@@ -1871,6 +1885,8 @@ csp
 {
 serializedCSP
 =
+lazy
+.
 serializationHelper
 .
 serializeToString
@@ -1975,6 +1991,8 @@ try
 let
 csp
 =
+lazy
+.
 serializationHelper
 .
 deserializeObject
@@ -2435,6 +2453,8 @@ file
 "
 :
 return
+lazy
+.
 useSeparateFileUriProcess
 ?
 FILE_REMOTE_TYPE
@@ -2547,6 +2567,8 @@ URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
 &
 &
 (
+lazy
+.
 useSeparatePrivilegedAboutContentProcess
 |
 |
@@ -4379,6 +4401,8 @@ else
 {
 principal
 =
+lazy
+.
 serializationHelper
 .
 deserializeObject
@@ -4516,6 +4540,8 @@ try
 {
 serialized
 =
+lazy
+.
 serializationHelper
 .
 serializeToString
@@ -4609,6 +4635,8 @@ try
 {
 deserialized
 =
+lazy
+.
 serializationHelper
 .
 deserializeObject
@@ -4746,6 +4774,8 @@ try
 {
 serialized
 =
+lazy
+.
 serializationHelper
 .
 serializeToString
@@ -4839,6 +4869,8 @@ try
 {
 deserialized
 =
+lazy
+.
 serializationHelper
 .
 deserializeObject

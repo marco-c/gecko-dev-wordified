@@ -119,11 +119,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NLP
 "
@@ -146,7 +152,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Rect
 "
@@ -2777,6 +2783,8 @@ paramSet2
 useSubFrames
 &
 &
+lazy
+.
 NLP
 .
 levenshtein
@@ -4704,6 +4712,8 @@ if
 frameEl
 |
 |
+lazy
+.
 Rect
 .
 fromRect

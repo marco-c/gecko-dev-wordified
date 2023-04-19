@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Color
 "
@@ -145,7 +151,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 Rect
 "
@@ -168,7 +174,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 kDebug
 "
@@ -5471,6 +5477,8 @@ true
 let
 cssPageRect
 =
+lazy
+.
 Rect
 .
 fromRect
@@ -5648,6 +5656,8 @@ currWin
 let
 parentRect
 =
+lazy
+.
 Rect
 .
 fromRect
@@ -6880,6 +6890,8 @@ shift
 return
 !
 new
+lazy
+.
 Color
 (
 .
@@ -7843,6 +7855,8 @@ rectList
 {
 rect
 =
+lazy
+.
 Rect
 .
 fromRect
@@ -9171,6 +9185,8 @@ px
 ]
 ]
 borderStyles
+lazy
+.
 kDebug
 ?
 kModalStyles
@@ -9382,6 +9398,8 @@ dict
 .
 modalHighlightOutline
 =
+lazy
+.
 kDebug
 ?
 mockAnonymousContentNode
@@ -9656,6 +9674,8 @@ return
 }
 if
 (
+lazy
+.
 kDebug
 )
 {
@@ -10156,6 +10176,8 @@ dict
 .
 modalHighlightAllMask
 =
+lazy
+.
 kDebug
 ?
 mockAnonymousContentNode
@@ -10299,6 +10321,8 @@ maskNodeTransition
 :
 [
 ]
+lazy
+.
 kDebug
 ?
 kModalStyles
@@ -10694,6 +10718,8 @@ fine
 .
 if
 (
+lazy
+.
 kDebug
 )
 {

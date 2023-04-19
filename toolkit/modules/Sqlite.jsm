@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AsyncShutdown
 :
@@ -215,7 +221,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 FinalizationWitnessService
 "
@@ -992,7 +998,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 Barriers
 "
@@ -1059,6 +1065,8 @@ connections
 shutdown
 :
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
@@ -1113,6 +1121,8 @@ true
 connections
 :
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
@@ -1341,6 +1351,8 @@ shutdown
 .
 *
 /
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -1741,6 +1753,8 @@ this
 .
 _log
 =
+lazy
+.
 Log
 .
 repository
@@ -2094,6 +2108,8 @@ this
 .
 _deferredClose
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -2135,6 +2151,8 @@ this
 _barrier
 =
 new
+lazy
+.
 AsyncShutdown
 .
 Barrier
@@ -2150,6 +2168,8 @@ for
 clients
 )
 ;
+lazy
+.
 Barriers
 .
 connections
@@ -3528,6 +3548,8 @@ for
 Barriers
 .
 connections
+.
+lazy
 .
 Barriers
 .
@@ -5644,6 +5666,8 @@ _statementCounter
 let
 deferred
 =
+lazy
+.
 PromiseUtils
 .
 defer
@@ -5699,6 +5723,8 @@ _log
 level
 <
 =
+lazy
+.
 Log
 .
 Level
@@ -6869,6 +6895,8 @@ options
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -6978,6 +7006,8 @@ try
 {
 file
 =
+lazy
+.
 FileUtils
 .
 File
@@ -7061,6 +7091,8 @@ path
 ;
 file
 =
+lazy
+.
 FileUtils
 .
 File
@@ -7725,6 +7757,8 @@ options
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -8216,6 +8250,8 @@ options
 let
 log
 =
+lazy
+.
 Log
 .
 repository
@@ -8982,6 +9018,8 @@ this
 .
 _witness
 =
+lazy
+.
 FinalizationWitnessService
 .
 make
@@ -11556,6 +11594,8 @@ shutdown
 )
 {
 return
+lazy
+.
 Barriers
 .
 shutdown
