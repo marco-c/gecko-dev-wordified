@@ -743,6 +743,17 @@ return
 nullptr
 ;
 }
+virtual
+already_AddRefed
+<
+URLExtraData
+>
+GetURLExtraData
+(
+)
+=
+0
+;
 /
 /
 -

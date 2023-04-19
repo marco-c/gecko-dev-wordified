@@ -205,6 +205,15 @@ return
 mDocument
 ;
 }
+already_AddRefed
+<
+URLExtraData
+>
+GetURLExtraData
+(
+)
+override
+;
 /
 /
 gfxUserFontSet
