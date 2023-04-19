@@ -206,11 +206,6 @@ AndroidSurfaceTexture
 h
 "
 "
-DecomposeIntoNoRepeatTriangles
-.
-h
-"
-"
 ForceDiscreteGPUHelperCGL
 .
 h
@@ -709,11 +704,6 @@ UNIFIED_SOURCES
 [
 "
 AndroidSurfaceTexture
-.
-cpp
-"
-"
-DecomposeIntoNoRepeatTriangles
 .
 cpp
 "
