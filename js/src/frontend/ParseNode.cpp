@@ -2800,6 +2800,9 @@ create
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms
@@ -2823,6 +2826,7 @@ index_
 createRegExpAndEnsureAtom
 (
 cx
+ec
 parserAtoms
 atomCache
 )
