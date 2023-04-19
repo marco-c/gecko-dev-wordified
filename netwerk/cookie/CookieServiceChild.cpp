@@ -945,6 +945,11 @@ aChannel
 )
 ;
 bool
+hadCrossSiteRedirects
+=
+false
+;
+bool
 isSameSiteForeign
 =
 CookieCommons
@@ -954,6 +959,8 @@ IsSameSiteForeign
 (
 aChannel
 uri
+&
+hadCrossSiteRedirects
 )
 ;
 SendPrepareCookieList
@@ -998,6 +1005,7 @@ IsStorageAccessPermissionGranted
 rejectedReason
 isSafeTopLevelNav
 isSameSiteForeign
+hadCrossSiteRedirects
 attrs
 )
 ;
