@@ -1134,7 +1134,6 @@ cleared
 const
 db
 =
-await
 RemoteSettings
 (
 SearchUtils
@@ -1151,7 +1150,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 {
 id
@@ -1435,7 +1438,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 {
 id
@@ -1671,7 +1678,6 @@ cleared
 const
 db
 =
-await
 RemoteSettings
 (
 SearchUtils
@@ -1688,7 +1694,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 [
 {
 id

@@ -296,7 +296,6 @@ data
 let
 db
 =
-await
 RemoteSettings
 (
 COLLECTION_NAME
@@ -311,7 +310,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 records
 )
 ;

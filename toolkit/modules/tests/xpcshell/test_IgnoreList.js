@@ -804,7 +804,6 @@ cleared
 const
 db
 =
-await
 RemoteSettings
 (
 IGNORELIST_KEY
@@ -819,7 +818,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 IGNORELIST_TEST_DATA
 {
 clear
@@ -1007,7 +1010,6 @@ cleared
 const
 db
 =
-await
 RemoteSettings
 (
 IGNORELIST_KEY
@@ -1022,7 +1024,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 IGNORELIST_TEST_DATA
 {
 clear

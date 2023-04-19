@@ -519,7 +519,6 @@ setup_head
 const
 db
 =
-await
 RemoteSettings
 (
 LoginBreaches
@@ -555,7 +554,11 @@ importChanges
 (
 {
 }
-42
+Date
+.
+now
+(
+)
 )
 ;
 if
