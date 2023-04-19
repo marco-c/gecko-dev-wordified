@@ -553,6 +553,15 @@ nsIChannel
 aChannel
 )
 ;
+static
+bool
+CrossOriginEmbedderPolicyAllowsCredentials
+(
+nsIChannel
+*
+aChannel
+)
+;
 virtual
 ~
 nsContentSecurityManager
