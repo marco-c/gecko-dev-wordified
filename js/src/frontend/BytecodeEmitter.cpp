@@ -5547,7 +5547,7 @@ answer
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if
@@ -47828,7 +47828,7 @@ oe
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if
@@ -52057,7 +52057,7 @@ WantValue
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if
@@ -69151,7 +69151,7 @@ EMIT_LINENOTE
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if

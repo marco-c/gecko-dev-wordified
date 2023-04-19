@@ -2624,7 +2624,6 @@ if
 !
 CheckParseTree
 (
-cx_
 this
 -
 >
@@ -11087,7 +11086,6 @@ if
 !
 CheckParseTree
 (
-cx_
 this
 -
 >
@@ -11463,7 +11461,6 @@ if
 !
 CheckParseTree
 (
-cx_
 this
 -
 >
@@ -12366,7 +12363,6 @@ if
 !
 CheckParseTree
 (
-cx_
 this
 -
 >
@@ -14715,7 +14711,6 @@ if
 !
 CheckParseTree
 (
-cx_
 this
 -
 >
@@ -21204,7 +21199,6 @@ if
 !
 CheckParseTree
 (
-cx_
 this
 -
 >
@@ -25228,7 +25222,10 @@ yieldHandling
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -27005,7 +27002,10 @@ LeftCurly
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -27833,7 +27833,10 @@ LeftBracket
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -52031,7 +52034,10 @@ checkOptionsCalled_
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -53472,7 +53478,10 @@ checkOptionsCalled_
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -56796,7 +56805,10 @@ PredictUninvoked
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -59036,7 +59048,10 @@ PredictUninvoked
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -59663,7 +59678,10 @@ PrivateNameProhibited
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -61223,7 +61241,10 @@ lhs
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if
@@ -72352,7 +72373,10 @@ tt
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+this
+-
+>
+ec_
 )
 ;
 if

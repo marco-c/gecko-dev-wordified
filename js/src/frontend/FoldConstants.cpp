@@ -643,7 +643,7 @@ recursion
 (
 info
 .
-cx
+ec
 )
 ;
 if
@@ -9617,6 +9617,10 @@ Base
 =
 RewritingParseNodeVisitor
 ;
+JSContext
+*
+cx
+;
 ParserAtomsTable
 &
 parserAtoms
@@ -9634,7 +9638,7 @@ const
 return
 FoldInfo
 {
-cx_
+cx
 ec_
 stackLimit_
 parserAtoms
@@ -9664,9 +9668,12 @@ handler
 :
 RewritingParseNodeVisitor
 (
-cx
 ec
 stackLimit
+)
+cx
+(
+cx
 )
 parserAtoms
 (

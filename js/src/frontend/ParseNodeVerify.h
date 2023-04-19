@@ -224,9 +224,6 @@ extern
 bool
 CheckParseTree
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -252,9 +249,6 @@ inline
 bool
 CheckParseTree
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -284,9 +278,6 @@ inline
 bool
 CheckParseTree
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
