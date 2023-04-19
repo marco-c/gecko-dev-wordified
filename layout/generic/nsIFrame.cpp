@@ -31631,6 +31631,7 @@ nsIFrame
 :
 GetContentForEvent
 (
+const
 WidgetEvent
 *
 aEvent

@@ -17075,6 +17075,7 @@ nsImageFrame
 :
 GetContentForEvent
 (
+const
 WidgetEvent
 *
 aEvent

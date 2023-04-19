@@ -501,6 +501,7 @@ override
 nsresult
 GetContentForEvent
 (
+const
 mozilla
 :
 :
