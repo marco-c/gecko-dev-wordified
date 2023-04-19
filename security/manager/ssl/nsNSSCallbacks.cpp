@@ -6492,13 +6492,6 @@ telemetry
 nullptr
 /
 /
-SHA
--
-1
-telemetry
-nullptr
-/
-/
 pinning
 telemetry
 &
