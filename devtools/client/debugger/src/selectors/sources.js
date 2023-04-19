@@ -733,8 +733,6 @@ used
 externaly
 by
 tabs
-and
-breakpointSources
 selectors
 export
 function
