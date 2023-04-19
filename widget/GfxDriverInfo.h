@@ -1049,6 +1049,7 @@ IntelMobileHDGraphics
 NvidiaBlockD3D9Layers
 RadeonX1000
 RadeonCaicos
+RadeonBlockNoVideoCopy
 Geforce7300GT
 Nvidia310M
 Nvidia8800GTS
