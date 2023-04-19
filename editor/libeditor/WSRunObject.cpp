@@ -2005,7 +2005,7 @@ EditorDOMPoint
 (
 &
 aLeftBlockElement
-0
+0u
 )
 HTMLEditor
 :
@@ -2020,7 +2020,7 @@ if
 (
 moveNodeResult
 .
-Failed
+isErr
 (
 )
 )
@@ -2049,21 +2049,12 @@ EditActionResult
 (
 moveNodeResult
 .
-Rv
+unwrapErr
 (
 )
 )
 ;
 }
-if
-(
-moveNodeResult
-.
-Succeeded
-(
-)
-)
-{
 #
 ifdef
 DEBUG
@@ -2140,7 +2131,6 @@ ret
 =
 moveNodeResult
 ;
-}
 /
 /
 Now
@@ -3085,7 +3075,7 @@ NS_WARNING_ASSERTION
 (
 moveNodeResult
 .
-Succeeded
+isOk
 (
 )
 "
@@ -3105,7 +3095,7 @@ if
 (
 moveNodeResult
 .
-Succeeded
+isOk
 (
 )
 )
@@ -3789,7 +3779,7 @@ EditorDOMPoint
 (
 &
 aRightBlockElement
-0
+0u
 )
 atPreviousContent
 )
@@ -3798,7 +3788,7 @@ if
 (
 moveNodeResult
 .
-Failed
+isErr
 (
 )
 )
@@ -3821,7 +3811,7 @@ EditActionResult
 (
 moveNodeResult
 .
-Rv
+unwrapErr
 (
 )
 )
@@ -4449,13 +4439,13 @@ EditorDOMPoint
 (
 &
 aRightBlockElement
-0
+0u
 )
 EditorDOMPoint
 (
 &
 aLeftBlockElement
-0
+0u
 )
 HTMLEditor
 :
@@ -4470,7 +4460,7 @@ if
 (
 moveNodeResult
 .
-Failed
+isErr
 (
 )
 )
@@ -4499,7 +4489,7 @@ EditActionResult
 (
 moveNodeResult
 .
-Rv
+unwrapErr
 (
 )
 )

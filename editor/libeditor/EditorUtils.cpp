@@ -526,7 +526,7 @@ mRv
 =
 aMoveNodeResult
 .
-Rv
+inspectErr
 (
 )
 )
@@ -606,12 +606,9 @@ if
 (
 aMoveNodeResult
 .
-Rv
+NotInitialized
 (
 )
-=
-=
-NS_ERROR_NOT_INITIALIZED
 )
 {
 return
@@ -640,7 +637,7 @@ Failed
 |
 aMoveNodeResult
 .
-Failed
+isErr
 (
 )
 )
