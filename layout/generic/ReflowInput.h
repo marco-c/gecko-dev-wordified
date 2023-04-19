@@ -803,6 +803,7 @@ reflowed
 .
 nsIFrame
 *
+const
 mFrame
 ;
 /
