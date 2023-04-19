@@ -66,9 +66,7 @@ module
 exports
 =
 {
-"
 plugins
-"
 :
 [
 "
@@ -77,15 +75,11 @@ spidermonkey
 js
 "
 ]
-"
 overrides
-"
 :
 [
 {
-"
 files
-"
 :
 [
 "
@@ -94,9 +88,7 @@ files
 js
 "
 ]
-"
 processor
-"
 :
 "
 spidermonkey
@@ -107,9 +99,7 @@ processor
 "
 }
 ]
-"
 rules
-"
 :
 {
 /
