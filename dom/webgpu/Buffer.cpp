@@ -203,8 +203,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_JS_WRAP
@@ -1245,9 +1245,7 @@ examples
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu

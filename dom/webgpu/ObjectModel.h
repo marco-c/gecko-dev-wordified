@@ -118,8 +118,8 @@ nsIGlobalObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 class
@@ -371,12 +371,10 @@ aLabel
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu
 #
 define
 GPU_DECL_JS_WRAP

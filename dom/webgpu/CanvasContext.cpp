@@ -220,8 +220,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 NS_IMPL_CYCLE_COLLECTING_ADDREF
@@ -1202,9 +1202,7 @@ false
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu

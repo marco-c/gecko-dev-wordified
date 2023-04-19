@@ -156,8 +156,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
@@ -1089,9 +1089,7 @@ failure
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu

@@ -120,8 +120,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
@@ -147,9 +147,7 @@ default
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu

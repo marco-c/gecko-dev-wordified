@@ -102,8 +102,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
@@ -119,9 +119,7 @@ DeviceLostInfo
 /
 /
 namespace
-webgpu
-}
-/
-/
-namespace
 mozilla
+:
+:
+webgpu
