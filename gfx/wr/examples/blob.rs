@@ -2084,7 +2084,7 @@ opts
 webrender
 :
 :
-RendererOptions
+WebRenderOptions
 {
 workers
 :

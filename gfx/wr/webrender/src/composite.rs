@@ -1532,7 +1532,7 @@ Public
 interface
 specified
 in
-RendererOptions
+WebRenderOptions
 that
 configures
 /
