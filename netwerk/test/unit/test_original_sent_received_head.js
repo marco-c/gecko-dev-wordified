@@ -620,9 +620,11 @@ in
 )
 ;
 }
+let
+etag
+;
 try
 {
-var
 etag
 =
 metadata
@@ -644,7 +646,6 @@ catch
 ex
 )
 {
-var
 etag
 =
 "

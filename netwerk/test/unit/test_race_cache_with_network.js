@@ -181,9 +181,11 @@ etag1
 "
 )
 ;
+let
+etag
+;
 try
 {
-var
 etag
 =
 metadata
@@ -205,7 +207,6 @@ catch
 ex
 )
 {
-var
 etag
 =
 "
@@ -708,7 +709,7 @@ in
 the
 cache
 .
-var
+let
 channel
 =
 make_channel
@@ -792,7 +793,6 @@ a
 304
 response
 .
-var
 channel
 =
 make_channel
@@ -873,7 +873,6 @@ the
 cache
 works
 .
-var
 channel
 =
 make_channel
@@ -1005,7 +1004,6 @@ set
 very
 high
 .
-var
 channel
 =
 make_channel
@@ -1127,7 +1125,6 @@ the
 network
 activity
 .
-var
 channel
 =
 make_channel
@@ -1279,7 +1276,6 @@ request
 is
 sent
 .
-var
 channel
 =
 make_channel
@@ -1418,7 +1414,6 @@ before
 triggering
 network
 .
-var
 channel
 =
 make_channel
@@ -1552,7 +1547,6 @@ t
 need
 to
 revalidate
-var
 channel
 =
 make_channel
@@ -1634,7 +1628,6 @@ cache
 not
 the
 network
-var
 channel
 =
 make_channel
@@ -1717,7 +1710,6 @@ gIsFromCache
 =
 0
 ;
-var
 channel
 =
 make_channel
@@ -1846,7 +1838,6 @@ network
 is
 triggered
 .
-var
 channel
 =
 make_channel
@@ -2047,7 +2038,6 @@ i
 +
 )
 {
-var
 channel
 =
 make_channel

@@ -3133,7 +3133,7 @@ trigger
 range
 -
 request
-var
+let
 chan
 =
 make_channel
@@ -3181,7 +3181,6 @@ trigger
 range
 -
 request
-var
 chan
 =
 make_channel
@@ -3230,7 +3229,6 @@ trigger
 range
 -
 request
-var
 chan
 =
 make_channel
@@ -3275,7 +3273,6 @@ header
 set
 by
 client
-var
 chan
 =
 make_channel
@@ -3325,7 +3322,6 @@ Accept
 Ranges
 header
 )
-var
 chan
 =
 make_channel
@@ -3367,7 +3363,6 @@ a
 basic
 positive
 test
-var
 chan
 =
 make_channel
@@ -3414,7 +3409,6 @@ and
 sizes
 throw
 error
-var
 chan
 =
 make_channel
@@ -3463,7 +3457,6 @@ for
 a
 range
 request
-var
 chan
 =
 make_channel

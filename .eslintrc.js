@@ -1880,15 +1880,6 @@ off
 "
 no
 -
-redeclare
-"
-:
-"
-off
-"
-"
-no
--
 shadow
 "
 :

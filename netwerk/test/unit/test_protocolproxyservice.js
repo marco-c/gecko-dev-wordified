@@ -4621,9 +4621,6 @@ var
 uriStrUseProxyList
 ;
 var
-uriStrUseProxyList
-;
-var
 hostFilterList
 ;
 var
