@@ -34422,6 +34422,7 @@ URLQueryStringStripper
 Strip
 (
 mRedirectURI
+mPrivateBrowsing
 strippedURI
 )
 )
