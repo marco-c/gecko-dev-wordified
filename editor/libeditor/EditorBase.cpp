@@ -25580,7 +25580,7 @@ AsHTMLEditor
 )
 -
 >
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -29956,7 +29956,7 @@ AsHTMLEditor
 )
 -
 >
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -30387,7 +30387,7 @@ AsHTMLEditor
 )
 -
 >
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )
@@ -33536,7 +33536,7 @@ AsHTMLEditor
 )
 -
 >
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;

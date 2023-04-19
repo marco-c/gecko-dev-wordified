@@ -2158,7 +2158,7 @@ IgnoreNonEditableNode
 }
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )

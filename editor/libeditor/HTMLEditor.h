@@ -4090,7 +4090,7 @@ Yes
 ;
 Element
 *
-GetActiveEditingHost
+ComputeEditingHost
 (
 LimitInBodyElement
 aLimitInBodyElement

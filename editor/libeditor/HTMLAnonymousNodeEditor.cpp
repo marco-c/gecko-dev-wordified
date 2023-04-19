@@ -2874,7 +2874,7 @@ nsIContent
 *
 hostContent
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;

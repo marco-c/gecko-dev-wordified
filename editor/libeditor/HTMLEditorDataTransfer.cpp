@@ -2730,7 +2730,7 @@ wsRunScannerAtInsertionPoint
 (
 mHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 aPointToInsert
@@ -3129,7 +3129,7 @@ editingHost
 =
 mHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -4595,7 +4595,7 @@ editingHost
 =
 mHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 HTMLEditor
 :

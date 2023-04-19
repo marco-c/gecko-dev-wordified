@@ -6413,7 +6413,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -6790,7 +6790,7 @@ Element
 *
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -7330,7 +7330,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -8916,7 +8916,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -12144,7 +12144,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -17617,7 +17617,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -18684,7 +18684,7 @@ GetRangeContainingInvisibleWhiteSpacesAtRangeBoundaries
 (
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 EditorDOMRange
@@ -24500,7 +24500,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -25181,7 +25181,7 @@ newEditingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -25712,7 +25712,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -26455,7 +26455,7 @@ Element
 >
 editingHost
 =
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -28165,7 +28165,7 @@ GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 EditorDOMPoint
@@ -28352,7 +28352,7 @@ GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 mPointContainingTheOtherBlockElement
@@ -28583,7 +28583,7 @@ GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 EditorDOMPoint
@@ -28918,7 +28918,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
@@ -34254,7 +34254,7 @@ afterEmptyBlock
 }
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )
@@ -34404,7 +34404,7 @@ IgnoreNonEditableNode
 }
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 )
@@ -35106,7 +35106,7 @@ editingHost
 =
 aHTMLEditor
 .
-GetActiveEditingHost
+ComputeEditingHost
 (
 )
 ;
