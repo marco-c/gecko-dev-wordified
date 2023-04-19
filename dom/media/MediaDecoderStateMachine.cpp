@@ -19496,13 +19496,6 @@ audioSinkCreator
 self
 ]
 (
-const
-media
-:
-:
-TimeUnit
-&
-aStartTime
 )
 {
 MOZ_ASSERT
@@ -19530,7 +19523,6 @@ self
 -
 >
 mAudioQueue
-aStartTime
 self
 -
 >
