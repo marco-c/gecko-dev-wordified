@@ -14734,6 +14734,12 @@ to
 do
 so
 .
+AutoHandlingUserInputStatePusher
+userInputStatePusher
+(
+aIsTrustedEvent
+)
+;
 AutoPopupStatePusher
 popupStatePusher
 (
