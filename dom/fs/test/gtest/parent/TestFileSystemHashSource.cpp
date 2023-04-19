@@ -1185,11 +1185,10 @@ Length
 ;
 /
 /
-Reused
-buffer
+Encoded
+versions
 should
-be
-different
+differ
 ASSERT_STRNE
 (
 asWide
