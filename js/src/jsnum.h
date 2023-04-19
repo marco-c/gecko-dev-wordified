@@ -277,12 +277,7 @@ global
 /
 *
 *
-When
-base
-=
-=
-10
-this
+This
 function
 implements
 ToString
@@ -291,7 +286,6 @@ ToString
 as
 specified
 by
-*
 ECMA
 -
 262
@@ -304,6 +298,7 @@ section
 .
 1
 ;
+*
 but
 note
 that
@@ -312,9 +307,9 @@ handles
 integers
 specially
 for
-*
 performance
 .
+*
 See
 also
 js
