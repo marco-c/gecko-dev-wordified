@@ -300,7 +300,7 @@ test_remember_opens
 )
 {
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -401,7 +401,7 @@ test_clickNever
 )
 {
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -569,7 +569,7 @@ effect
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -719,7 +719,7 @@ test_clickRemember
 )
 {
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -989,7 +989,7 @@ login
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -1246,7 +1246,7 @@ false
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -1378,7 +1378,7 @@ true
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -1529,7 +1529,7 @@ username
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_2
@@ -1670,7 +1670,7 @@ password
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_3
@@ -1811,7 +1811,7 @@ form
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_4
@@ -1951,7 +1951,7 @@ present
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_5
@@ -2084,7 +2084,7 @@ login2
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -2467,7 +2467,7 @@ oldTimeMS
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -2780,7 +2780,7 @@ login1
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_6
@@ -2986,7 +2986,7 @@ login1B
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_6
@@ -3217,7 +3217,7 @@ login1
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_8
@@ -3478,7 +3478,7 @@ login1
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_8
@@ -3708,7 +3708,7 @@ login1
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_8
@@ -4046,7 +4046,7 @@ login2
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_9
@@ -4318,7 +4318,7 @@ form
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_10
@@ -4577,7 +4577,7 @@ popup
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -4761,7 +4761,7 @@ popup
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_6
@@ -4963,7 +4963,7 @@ logins
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_2pw_0un
@@ -5134,7 +5134,7 @@ login1B
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_2pw_0un
@@ -5378,7 +5378,7 @@ login2B
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_2pw_0un
@@ -5623,7 +5623,7 @@ login2
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_2pw_0un
@@ -5839,7 +5839,7 @@ login1
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_change_p
@@ -6114,7 +6114,7 @@ use
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_2pw_1un_1text
@@ -6396,7 +6396,7 @@ login
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_2pw_1un_1text
@@ -6639,7 +6639,7 @@ interaction
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -6957,7 +6957,7 @@ dismissed
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1
@@ -7152,7 +7152,7 @@ default
 )
 ;
 await
-testSubmittingLoginForm
+testSubmittingLoginFormHTTP
 (
 "
 subtst_notifications_1

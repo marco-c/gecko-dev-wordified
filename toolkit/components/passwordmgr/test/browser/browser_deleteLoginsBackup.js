@@ -115,7 +115,7 @@ new
 nsLoginInfo
 (
 "
-http
+https
 :
 /
 /
@@ -124,7 +124,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /
@@ -154,7 +154,7 @@ new
 nsLoginInfo
 (
 "
-http
+https
 :
 /
 /
@@ -163,7 +163,7 @@ example
 com
 "
 "
-http
+https
 :
 /
 /

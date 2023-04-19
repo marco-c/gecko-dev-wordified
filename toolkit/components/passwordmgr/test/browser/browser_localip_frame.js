@@ -80,7 +80,7 @@ formLogin
 origin
 :
 "
-http
+https
 :
 /
 /
@@ -91,7 +91,7 @@ org
 formActionOrigin
 :
 "
-http
+https
 :
 /
 /
@@ -218,7 +218,7 @@ http
 iframe
 :
 "
-http
+https
 :
 /
 /
