@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsGtkUtils
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
@@ -929,9 +936,8 @@ mImageData
 MAP_FAILED
 ;
 }
-g_clear_pointer
+MozClearPointer
 (
-&
 mShmPool
 wl_shm_pool_destroy
 )
@@ -1394,9 +1400,8 @@ WaylandBufferSHM
 (
 )
 {
-g_clear_pointer
+MozClearPointer
 (
-&
 mWLBuffer
 wl_buffer_destroy
 )
