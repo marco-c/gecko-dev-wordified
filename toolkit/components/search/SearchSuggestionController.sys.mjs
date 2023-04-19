@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchSuggestionController
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -937,6 +928,7 @@ suggestions
 *
 *
 /
+export
 class
 SearchSuggestionController
 {

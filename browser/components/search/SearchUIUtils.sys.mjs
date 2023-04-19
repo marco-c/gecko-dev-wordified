@@ -144,15 +144,7 @@ ftl
 }
 )
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchUIUtils
-"
-]
-;
+export
 var
 SearchUIUtils
 =

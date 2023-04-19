@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchEngineSelector
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -539,6 +530,7 @@ locale
 .
 *
 /
+export
 class
 SearchEngineSelector
 {

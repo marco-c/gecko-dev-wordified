@@ -500,6 +500,7 @@ engine
 .
 *
 /
+export
 class
 OpenSearchEngine
 extends
@@ -2784,12 +2785,3 @@ xml
 ;
 }
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-OpenSearchEngine
-"
-]
-;

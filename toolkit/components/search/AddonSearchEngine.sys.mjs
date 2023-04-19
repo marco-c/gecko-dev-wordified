@@ -186,6 +186,7 @@ on
 .
 *
 /
+export
 class
 AddonSearchEngine
 extends
@@ -1002,12 +1003,3 @@ configuration
 ;
 }
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-AddonSearchEngine
-"
-]
-;

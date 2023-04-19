@@ -2162,6 +2162,7 @@ parameters
 .
 *
 /
+export
 class
 EngineURL
 {
@@ -3713,6 +3714,7 @@ engines
 .
 *
 /
+export
 class
 SearchEngine
 {
@@ -10420,15 +10422,3 @@ _postData
 ;
 }
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-EngineURL
-"
-"
-SearchEngine
-"
-]
-;

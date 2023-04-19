@@ -78,15 +78,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchUtils
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -695,6 +686,7 @@ statusArg
 {
 }
 }
+export
 var
 SearchUtils
 =

@@ -938,6 +938,7 @@ nsISearchService
 }
 *
 /
+export
 class
 SearchService
 {
@@ -20899,12 +20900,3 @@ result
 ;
 }
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchService
-"
-]
-;

@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchSERPTelemetry
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -5338,6 +5329,7 @@ provider
 }
 }
 }
+export
 var
 SearchSERPTelemetry
 =

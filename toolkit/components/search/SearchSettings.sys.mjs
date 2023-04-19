@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchSettings
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -225,6 +216,7 @@ methods
 .
 *
 /
+export
 class
 SearchSettings
 {

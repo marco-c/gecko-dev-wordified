@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchOneOffs
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -213,6 +204,7 @@ below
 .
 *
 /
+export
 class
 SearchOneOffs
 {

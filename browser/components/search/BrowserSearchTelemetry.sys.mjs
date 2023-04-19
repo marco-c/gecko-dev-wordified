@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BrowserSearchTelemetry
-"
-]
-;
 const
 {
 XPCOMUtils
@@ -1886,6 +1877,7 @@ telemetryId
 ;
 }
 }
+export
 var
 BrowserSearchTelemetry
 =

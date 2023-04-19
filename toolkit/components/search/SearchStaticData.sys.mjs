@@ -141,15 +141,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchStaticData
-"
-]
-;
 /
 /
 To
@@ -1145,6 +1136,7 @@ www
 d
 )
 ;
+export
 var
 SearchStaticData
 =

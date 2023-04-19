@@ -1265,6 +1265,7 @@ searches
 constructor
 *
 /
+export
 class
 SearchSuggestAutoComplete
 extends
@@ -1297,12 +1298,3 @@ serviceURL
 "
 ;
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SearchSuggestAutoComplete
-"
-]
-;
