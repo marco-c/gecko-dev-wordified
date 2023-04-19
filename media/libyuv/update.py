@@ -507,21 +507,6 @@ add_H444ToARGB
 .
 patch
 '
-        
-#
-fix
-the
-x86
-mingw
--
-clang
-build
-        
-'
-bug_1491848
-.
-patch
-'
     
 ]
     
