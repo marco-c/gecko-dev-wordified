@@ -1125,6 +1125,8 @@ mSandboxGlobalObject
 void
 DeleteCache
 (
+nsresult
+aReason
 )
 ;
 private
