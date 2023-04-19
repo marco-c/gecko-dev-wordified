@@ -137,7 +137,7 @@ desc
 BlendMode
 DebugFlags
 RendererError
-RendererOptions
+WebRenderOptions
 TextureSampler
 VertexArrayKind
 ShaderPrecacheFlags
@@ -3624,7 +3624,7 @@ GlType
 options
 :
 &
-RendererOptions
+WebRenderOptions
 )
 -
 >
