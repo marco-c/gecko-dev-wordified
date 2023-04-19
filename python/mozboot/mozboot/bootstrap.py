@@ -579,6 +579,10 @@ devuan
 "
 pureos
 "
+    
+"
+deepin
+"
 )
 ADD_GIT_CINNABAR_PATH
 =
