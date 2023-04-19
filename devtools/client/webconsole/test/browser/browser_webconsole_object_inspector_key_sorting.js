@@ -606,15 +606,11 @@ node
 }
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 command
 "
-"
-"
-.
-result
 "
 )
 ;

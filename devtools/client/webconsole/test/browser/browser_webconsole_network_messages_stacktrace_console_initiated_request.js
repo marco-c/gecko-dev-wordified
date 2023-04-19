@@ -193,7 +193,7 @@ messageNode
 }
 =
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 xhrConsole
@@ -211,6 +211,10 @@ xhrConsole
 )
 ;
 xhrUrl
+"
+.
+network
+"
 )
 ;
 ok

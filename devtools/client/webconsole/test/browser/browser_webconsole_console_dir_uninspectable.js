@@ -138,7 +138,7 @@ working
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 console
@@ -154,9 +154,9 @@ FIRST_LOG_MESSAGE
 FIRST_LOG_MESSAGE
 "
 .
-message
-.
-log
+console
+-
+api
 "
 )
 ;
@@ -174,7 +174,7 @@ object
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 "
@@ -194,6 +194,12 @@ null
 Object
 {
 }
+"
+"
+.
+console
+-
+api
 "
 )
 ;

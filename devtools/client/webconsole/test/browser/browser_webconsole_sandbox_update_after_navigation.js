@@ -160,7 +160,7 @@ TEST_URI1
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -171,10 +171,6 @@ location
 href
 "
 TEST_URI1
-"
-.
-result
-"
 )
 ;
 /
@@ -230,7 +226,7 @@ hud
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -241,10 +237,6 @@ location
 href
 "
 TEST_URI2
-"
-.
-result
-"
 )
 ;
 ok
@@ -394,7 +386,7 @@ location
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -405,10 +397,6 @@ location
 href
 "
 TEST_URI1
-"
-.
-result
-"
 )
 ;
 ok

@@ -181,7 +181,7 @@ command
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 Object

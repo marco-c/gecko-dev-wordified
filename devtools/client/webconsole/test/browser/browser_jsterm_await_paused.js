@@ -377,7 +377,7 @@ the
 debugger
 .
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -385,10 +385,6 @@ smoke
 "
 "
 smoke
-"
-"
-.
-result
 "
 )
 ;

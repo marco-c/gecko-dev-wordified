@@ -152,15 +152,11 @@ expression
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 undefined
 "
-"
-"
-.
-result
 "
 )
 ;

@@ -217,7 +217,7 @@ node
 }
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 expression

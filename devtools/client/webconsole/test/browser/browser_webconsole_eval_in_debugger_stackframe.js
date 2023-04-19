@@ -179,7 +179,7 @@ value
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -187,10 +187,6 @@ foo
 "
 "
 globalFooBug783499
-"
-"
-.
-result
 "
 )
 ;
@@ -219,7 +215,7 @@ value
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -235,10 +231,6 @@ foo2
 "
 "
 newFoo
-"
-"
-.
-result
 "
 )
 ;
@@ -309,7 +301,7 @@ value
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -319,10 +311,6 @@ foo2
 "
 "
 globalFooBug783499newFoo
-"
-"
-.
-result
 "
 )
 ;
@@ -389,7 +377,7 @@ paused
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -399,10 +387,6 @@ foo2
 "
 "
 globalFooBug783499foo2SecondCall
-"
-"
-.
-result
 "
 )
 ;
@@ -476,7 +460,7 @@ frame
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -488,10 +472,6 @@ foo3
 "
 "
 fooFirstCallnewFoofoo3FirstCall
-"
-"
-.
-result
 "
 )
 ;
@@ -512,7 +492,7 @@ firstCall
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -534,10 +514,6 @@ foo3
 "
 "
 abbabug783499
-"
-"
-.
-result
 "
 )
 ;
@@ -710,7 +686,7 @@ openConsole
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -721,10 +697,6 @@ privateProp
 "
 "
 privatePropValue
-"
-"
-.
-result
 "
 )
 ;
@@ -748,7 +720,7 @@ work
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -770,10 +742,6 @@ second
 b
 "
 }
-"
-.
-result
-"
 )
 ;
 ok

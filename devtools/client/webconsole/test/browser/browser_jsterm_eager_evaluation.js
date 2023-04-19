@@ -214,7 +214,7 @@ to
 populate
 _
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -233,10 +233,6 @@ y
 result
 :
 7
-"
-"
-.
-result
 "
 )
 ;

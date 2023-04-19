@@ -136,7 +136,7 @@ property
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 let
@@ -170,10 +170,6 @@ bazA
 local
 -
 bazA
-"
-"
-.
-result
 "
 )
 ;
@@ -205,7 +201,7 @@ property
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 const
@@ -240,10 +236,6 @@ local
 -
 bazB
 "
-"
-.
-result
-"
 )
 ;
 await
@@ -270,7 +262,7 @@ expected
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 let
@@ -401,10 +393,6 @@ bazI
 )
 ;
 "
-"
-"
-.
-result
 "
 )
 ;
@@ -501,7 +489,7 @@ varName
 )
 {
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 window
@@ -510,10 +498,6 @@ window
 varName
 }
 undefined
-"
-.
-result
-"
 )
 ;
 ok
@@ -533,7 +517,7 @@ variable
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 varName
@@ -543,10 +527,6 @@ local
 {
 varName
 }
-"
-"
-.
-result
 "
 )
 ;

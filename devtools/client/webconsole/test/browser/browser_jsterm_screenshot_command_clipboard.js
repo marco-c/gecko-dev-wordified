@@ -669,7 +669,7 @@ command
 )
 {
 return
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 command
@@ -679,6 +679,12 @@ copied
 to
 clipboard
 .
+"
+"
+.
+console
+-
+api
 "
 )
 ;

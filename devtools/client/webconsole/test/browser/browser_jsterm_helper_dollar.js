@@ -105,7 +105,7 @@ let
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -119,10 +119,6 @@ main
 <
 main
 >
-"
-"
-.
-result
 "
 )
 ;
@@ -142,7 +138,7 @@ worked
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -160,10 +156,6 @@ li
 <
 li
 >
-"
-"
-.
-result
 "
 )
 ;
@@ -187,7 +179,7 @@ worked
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -205,10 +197,6 @@ tagName
 "
 "
 LI
-"
-"
-.
-result
 "
 )
 ;
@@ -228,7 +216,7 @@ away
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -240,10 +228,6 @@ div
 "
 "
 null
-"
-"
-.
-result
 "
 )
 ;
@@ -265,7 +249,7 @@ null
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "
@@ -286,10 +270,6 @@ not
 a
 valid
 selector
-"
-"
-.
-error
 "
 )
 ;

@@ -409,7 +409,7 @@ TEST_URI
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "
@@ -505,7 +505,7 @@ command
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForMessageByType
 (
 hud
 command
@@ -515,6 +515,12 @@ was
 copied
 to
 clipboard
+"
+"
+.
+console
+-
+api
 "
 )
 ;

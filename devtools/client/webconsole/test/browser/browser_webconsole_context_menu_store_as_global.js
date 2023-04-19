@@ -853,7 +853,7 @@ set
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 temp
@@ -867,10 +867,6 @@ varIdx
 equalTo
 }
 true
-"
-.
-result
-"
 )
 ;
 ok

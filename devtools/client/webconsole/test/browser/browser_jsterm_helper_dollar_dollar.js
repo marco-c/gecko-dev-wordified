@@ -154,7 +154,7 @@ let
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -169,10 +169,6 @@ Array
 [
 main
 ]
-"
-"
-.
-result
 "
 )
 ;
@@ -192,7 +188,7 @@ worked
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -212,10 +208,6 @@ Array
 li
 li
 ]
-"
-"
-.
-result
 "
 )
 ;
@@ -239,7 +231,7 @@ worked
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -275,10 +267,6 @@ LI
 -
 LI
 "
-"
-.
-result
-"
 )
 ;
 ok
@@ -297,7 +285,7 @@ away
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -311,10 +299,6 @@ div
 Array
 [
 ]
-"
-"
-.
-result
 "
 )
 ;
@@ -337,7 +321,7 @@ array
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "
@@ -358,10 +342,6 @@ not
 a
 valid
 selector
-"
-"
-.
-error
 "
 )
 ;

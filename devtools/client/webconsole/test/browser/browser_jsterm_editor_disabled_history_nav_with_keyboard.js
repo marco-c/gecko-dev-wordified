@@ -223,15 +223,11 @@ the
 command
 .
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 expression
 "
-"
-"
-.
-result
 "
 )
 ;

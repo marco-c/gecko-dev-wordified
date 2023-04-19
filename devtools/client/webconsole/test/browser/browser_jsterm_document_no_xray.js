@@ -84,7 +84,7 @@ node
 }
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -92,10 +92,6 @@ document
 "
 "
 HTMLDocument
-"
-"
-.
-result
 "
 )
 ;

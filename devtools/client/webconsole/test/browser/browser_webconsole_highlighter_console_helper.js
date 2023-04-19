@@ -226,7 +226,7 @@ hud
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -236,10 +236,6 @@ hud
 <
 h1
 >
-"
-"
-.
-result
 "
 )
 ;
@@ -268,7 +264,7 @@ newH1Content
 "
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 0
@@ -286,10 +282,6 @@ newH1Content
 <
 h1
 >
-"
-"
-.
-result
 "
 )
 ;

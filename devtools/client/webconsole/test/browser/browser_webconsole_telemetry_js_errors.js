@@ -206,7 +206,7 @@ sum
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "
@@ -249,7 +249,7 @@ telemetry
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "
@@ -281,7 +281,7 @@ JSMSG_NEGATIVE_REPETITION_COUNT
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 "

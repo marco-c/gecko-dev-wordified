@@ -277,7 +277,7 @@ popup
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 {
@@ -291,10 +291,6 @@ PREFIX
 +
 helper
 }
-"
-"
-.
-result
 "
 )
 ;

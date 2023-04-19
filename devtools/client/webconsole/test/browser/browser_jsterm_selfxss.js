@@ -234,7 +234,7 @@ i
 )
 {
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 i
@@ -243,10 +243,6 @@ toString
 (
 )
 i
-"
-.
-result
-"
 )
 ;
 }

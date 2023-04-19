@@ -93,7 +93,7 @@ TEST_URI
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -112,12 +112,6 @@ aaac
 }
 "
 "
-"
-"
-.
-message
-.
-result
 "
 )
 ;
@@ -195,7 +189,7 @@ bug
 1207868
 .
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -220,12 +214,6 @@ a
 ;
 "
 "
-"
-"
-.
-message
-.
-result
 "
 )
 ;

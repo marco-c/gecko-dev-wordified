@@ -458,15 +458,11 @@ hud
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 command
 "
-"
-"
-.
-result
 "
 )
 ;

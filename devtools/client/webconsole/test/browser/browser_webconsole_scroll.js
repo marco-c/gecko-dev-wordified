@@ -740,7 +740,7 @@ bottom
 )
 ;
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 "
@@ -750,10 +750,6 @@ hud
 "
 "
 42
-"
-"
-.
-result
 "
 )
 ;
@@ -914,7 +910,7 @@ bottom
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 x
@@ -960,10 +956,6 @@ x
 ;
 "
 myErrorObject
-"
-"
-.
-result
 "
 )
 ;
@@ -1069,7 +1061,7 @@ bottom
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 x
@@ -1119,10 +1111,6 @@ Uncaught
 Error
 :
 myEvaluatedThrownErrorObject
-"
-"
-.
-error
 "
 )
 ;
@@ -1224,7 +1212,7 @@ bottom
 message
 =
 await
-executeAndWaitForMessage
+executeAndWaitForErrorMessage
 (
 hud
 setTimeout
@@ -1283,10 +1271,6 @@ Uncaught
 Error
 :
 myThrownErrorObject
-"
-"
-.
-error
 "
 )
 ;
@@ -2016,7 +2000,7 @@ const
 result
 =
 await
-executeAndWaitForMessage
+executeAndWaitForResultMessage
 (
 hud
 Array
@@ -2067,12 +2051,6 @@ acc
 )
 "
 Object
-"
-"
-.
-message
-.
-result
 "
 )
 ;
