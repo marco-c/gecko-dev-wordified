@@ -192,6 +192,11 @@ SearchUtils
 .
 jsm
 "
+"
+UserSearchEngine
+.
+jsm
+"
 ]
 EXTRA_COMPONENTS
 +
