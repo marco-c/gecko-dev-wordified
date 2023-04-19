@@ -2119,7 +2119,6 @@ runtime_
 unsafeAtomsZone
 (
 )
-AtomsZone
 )
 ;
 }
@@ -2136,11 +2135,6 @@ js
 Zone
 *
 zone
-JSContext
-:
-:
-IsAtomsZone
-isAtomsZone
 )
 {
 MOZ_ASSERT
@@ -2521,7 +2515,6 @@ realm
 zone
 (
 )
-NotAtomsZone
 )
 ;
 }
@@ -2530,7 +2523,6 @@ else
 setZone
 (
 nullptr
-NotAtomsZone
 )
 ;
 }

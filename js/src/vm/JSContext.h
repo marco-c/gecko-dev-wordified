@@ -2176,13 +2176,6 @@ Realm
 oldRealm
 )
 ;
-enum
-IsAtomsZone
-{
-AtomsZone
-NotAtomsZone
-}
-;
 inline
 void
 setZone
@@ -2193,8 +2186,6 @@ js
 Zone
 *
 zone
-IsAtomsZone
-isAtomsZone
 )
 ;
 friend
