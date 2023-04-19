@@ -19117,6 +19117,12 @@ VsyncSource
 softwareVsync
 =
 new
+mozilla
+:
+:
+gfx
+:
+:
 SoftwareVsyncSource
 (
 )

@@ -5522,6 +5522,12 @@ XrandrSoftwareVsyncSource
 final
 :
 public
+mozilla
+:
+:
+gfx
+:
+:
 SoftwareVsyncSource
 {
 public
