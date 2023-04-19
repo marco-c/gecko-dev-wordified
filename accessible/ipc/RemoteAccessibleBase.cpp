@@ -3838,7 +3838,8 @@ GetCachedTextLength
 {
 MOZ_ASSERT
 (
-IsText
+!
+HasChildren
 (
 )
 )
