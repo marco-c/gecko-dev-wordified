@@ -310,15 +310,8 @@ process
 .
 *
 /
-var
-Assert
-=
-(
-this
-.
-Assert
-=
 function
+Assert
 (
 reporterFunc
 isDefault
@@ -351,8 +344,6 @@ reporterFunc
 ;
 }
 }
-)
-;
 /
 /
 This
