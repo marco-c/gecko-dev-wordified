@@ -605,6 +605,9 @@ uint64_t
 aChannelId
 ExtContentPolicyType
 aContentPolicyType
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 /
