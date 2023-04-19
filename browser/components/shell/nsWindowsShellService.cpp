@@ -6700,6 +6700,12 @@ FAILED
 (
 hr
 )
+|
+|
+hr
+=
+=
+S_FALSE
 )
 return
 NS_ERROR_FAILURE
