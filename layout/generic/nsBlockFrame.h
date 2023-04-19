@@ -1704,6 +1704,13 @@ NS_BLOCK_HAS_LINE_CURSOR
 )
 ;
 }
+RemoveProperty
+(
+LineIteratorProperty
+(
+)
+)
+;
 }
 void
 ClearLineCursorForDisplay
@@ -6274,6 +6281,12 @@ aLineTop
 -
 -
 -
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
+(
+LineIteratorProperty
+nsLineIterator
+)
+;
 bool
 CanProvideLineIterator
 (
