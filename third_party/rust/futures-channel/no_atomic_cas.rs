@@ -70,6 +70,15 @@ none
 elf
 "
 "
+riscv32im
+-
+unknown
+-
+none
+-
+elf
+"
+"
 riscv32imc
 -
 unknown

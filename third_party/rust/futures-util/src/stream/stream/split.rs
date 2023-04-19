@@ -317,7 +317,7 @@ cx
 [
 allow
 (
-bad_style
+non_snake_case
 )
 ]
 fn

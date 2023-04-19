@@ -181,6 +181,10 @@ Waker
 ]
 reference
 .
+#
+[
+inline
+]
 pub
 fn
 new
@@ -340,6 +344,10 @@ be
 /
 destroyed
 .
+#
+[
+inline
+]
 pub
 fn
 new_unowned
@@ -378,6 +386,10 @@ Target
 =
 Waker
 ;
+#
+[
+inline
+]
 fn
 deref
 (

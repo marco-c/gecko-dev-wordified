@@ -247,7 +247,7 @@ to
 /
 execute
 a
-tasks
+task
 and
 drop
 the
