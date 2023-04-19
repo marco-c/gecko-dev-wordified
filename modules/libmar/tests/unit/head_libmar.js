@@ -623,11 +623,11 @@ Assert
 .
 ok
 (
+!
+!
 files
 .
 length
->
-0
 )
 ;
 /

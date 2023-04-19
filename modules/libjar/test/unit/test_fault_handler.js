@@ -984,6 +984,8 @@ Assert
 .
 ok
 (
+!
+!
 stream
 .
 read
@@ -992,8 +994,6 @@ read
 )
 .
 length
->
-0
 )
 ;
 }

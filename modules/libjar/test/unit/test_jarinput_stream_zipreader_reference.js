@@ -332,6 +332,8 @@ Assert
 .
 ok
 (
+!
+!
 stream
 .
 read
@@ -340,14 +342,14 @@ read
 )
 .
 length
->
-0
 )
 ;
 Assert
 .
 ok
 (
+!
+!
 dirstream
 .
 read
@@ -356,8 +358,6 @@ read
 )
 .
 length
->
-0
 )
 ;
 }
