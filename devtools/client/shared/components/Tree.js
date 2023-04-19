@@ -1636,10 +1636,8 @@ its
 usage
 in
 the
-performance
-and
 memory
-panels
+panel
 in
 mozilla
 -
