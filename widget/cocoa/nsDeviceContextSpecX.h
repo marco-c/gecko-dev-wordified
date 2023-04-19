@@ -152,9 +152,6 @@ nsDeviceContextSpecX
 NS_IMETHOD
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPS

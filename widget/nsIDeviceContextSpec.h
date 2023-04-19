@@ -248,9 +248,6 @@ code
 NS_IMETHOD
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPrintSettings

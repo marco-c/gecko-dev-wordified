@@ -480,9 +480,6 @@ nsDeviceContextSpecX
 :
 Init
 (
-nsIWidget
-*
-aWidget
 nsIPrintSettings
 *
 aPS
