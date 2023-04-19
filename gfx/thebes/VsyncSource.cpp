@@ -660,7 +660,7 @@ GetPlatform
 )
 -
 >
-GetHardwareVsync
+GetGlobalVsync
 (
 )
 ;

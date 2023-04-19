@@ -6214,7 +6214,7 @@ VsyncSource
 gfxPlatformGtk
 :
 :
-CreateHardwareVsyncSource
+CreateGlobalHardwareVsyncSource
 (
 )
 {
@@ -6265,10 +6265,7 @@ ones
 later
 .
 return
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;
@@ -6543,10 +6540,7 @@ vsync
 )
 ;
 return
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;
@@ -6580,10 +6574,7 @@ forget
 #
 else
 return
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;

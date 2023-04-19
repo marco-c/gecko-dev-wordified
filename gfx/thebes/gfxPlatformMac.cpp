@@ -6890,7 +6890,7 @@ VsyncSource
 gfxPlatformMac
 :
 :
-CreateHardwareVsyncSource
+CreateGlobalHardwareVsyncSource
 (
 )
 {
@@ -6943,10 +6943,7 @@ vsync
 )
 ;
 return
-gfxPlatform
-:
-:
-CreateHardwareVsyncSource
+CreateSoftwareVsyncSource
 (
 )
 ;
