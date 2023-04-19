@@ -547,6 +547,14 @@ EncodeHook
 EncodedImage
 &
 encoded_image
+rtc
+:
+:
+scoped_refptr
+<
+EncodedImageBuffer
+>
+buffer
 )
 {
 RTC_DCHECK_RUN_ON
@@ -625,8 +633,9 @@ does
 .
 WriteFakeVp8
 (
-encoded_image
-.
+buffer
+-
+>
 data
 (
 )

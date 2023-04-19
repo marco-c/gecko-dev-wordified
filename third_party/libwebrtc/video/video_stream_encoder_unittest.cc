@@ -5698,6 +5698,14 @@ EncodeHook
 EncodedImage
 &
 encoded_image
+rtc
+:
+:
+scoped_refptr
+<
+EncodedImageBuffer
+>
+buffer
 )
 override
 {

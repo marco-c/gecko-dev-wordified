@@ -963,11 +963,9 @@ to
 avoid
 allocation
 ?
-encoded_image
--
->
-SetEncodedData
-(
+auto
+buffer
+=
 EncodedImageBuffer
 :
 :
@@ -975,6 +973,13 @@ Create
 (
 required_capacity
 )
+;
+encoded_image
+-
+>
+SetEncodedData
+(
+buffer
 )
 ;
 /
@@ -1237,7 +1242,7 @@ codes
 .
 memcpy
 (
-encoded_image
+buffer
 -
 >
 data
