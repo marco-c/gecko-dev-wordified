@@ -2222,9 +2222,6 @@ static
 bool
 appendScopeStencilAndData
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2252,9 +2249,6 @@ static
 bool
 createForFunctionScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2292,9 +2286,6 @@ static
 bool
 createForLexicalScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2328,9 +2319,6 @@ static
 bool
 createForClassBodyScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2364,9 +2352,6 @@ static
 bool
 createForVarScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2402,9 +2387,6 @@ static
 bool
 createForGlobalScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2428,9 +2410,6 @@ static
 bool
 createForEvalScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2462,9 +2441,6 @@ static
 bool
 createForModuleScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2494,9 +2470,6 @@ static
 bool
 createForWithScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
