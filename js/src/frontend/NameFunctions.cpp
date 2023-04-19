@@ -2417,12 +2417,11 @@ have
 var
 x
 =
-5
-/
 "
 foo
 "
 ;
+(
 {
 [
 x
@@ -2434,6 +2433,7 @@ function
 {
 }
 }
+)
 we
 don
 '
