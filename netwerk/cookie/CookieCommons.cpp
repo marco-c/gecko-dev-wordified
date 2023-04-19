@@ -2412,7 +2412,7 @@ storagePrincipal
 aDocument
 -
 >
-EffectiveStoragePrincipal
+EffectiveCookiePrincipal
 (
 )
 ;
