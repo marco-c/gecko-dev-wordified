@@ -526,6 +526,12 @@ updateOnGCStart
 (
 )
 ;
+jitHeapSize
+.
+updateOnGCStart
+(
+)
+;
 }
 void
 js
