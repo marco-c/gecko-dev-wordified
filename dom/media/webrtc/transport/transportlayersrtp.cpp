@@ -157,13 +157,6 @@ Assertions
 .
 h
 "
-#
-include
-"
-srtp
-.
-h
-"
 namespace
 mozilla
 {
