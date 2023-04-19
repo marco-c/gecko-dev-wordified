@@ -443,7 +443,7 @@ argb
 {
 /
 /
-4th
+Fourth
 byte
 is
 not
@@ -500,7 +500,7 @@ argb
 /
 Second
 pixel
-4th
+fourth
 byte
 is
 not

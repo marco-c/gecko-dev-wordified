@@ -228,6 +228,15 @@ include
 "
 libyuv
 /
+scale_uv
+.
+h
+"
+#
+include
+"
+libyuv
+/
 version
 .
 h

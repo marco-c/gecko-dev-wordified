@@ -2174,7 +2174,7 @@ metric
 *
 distorted_frame
 bool
-do_psnr
+compute_psnr
 )
 {
 const
@@ -2241,7 +2241,7 @@ uv_size
 ;
 if
 (
-do_psnr
+compute_psnr
 )
 {
 #

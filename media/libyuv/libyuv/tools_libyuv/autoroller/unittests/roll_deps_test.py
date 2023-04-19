@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 2017
@@ -99,6 +99,18 @@ import
 tempfile
 import
 unittest
+import
+roll_deps
+from
+roll_deps
+import
+CalculateChangedDeps
+GetMatchingDepsEntries
+\
+  
+ParseDepsDict
+ParseLocalDepsFile
+UpdateDepsFile
 SCRIPT_DIR
 =
 os
@@ -137,18 +149,6 @@ append
 (
 PARENT_DIR
 )
-import
-roll_deps
-from
-roll_deps
-import
-CalculateChangedDeps
-GetMatchingDepsEntries
-\
-  
-ParseDepsDict
-ParseLocalDepsFile
-UpdateDepsFile
 TEST_DATA_VARS
 =
 {
@@ -280,7 +280,6 @@ pass
 class
 FakeCmd
 (
-object
 )
 :
   
@@ -701,7 +700,7 @@ local_scope
     
 self
 .
-assertEquals
+assertEqual
 (
 lookup
 (
@@ -753,6 +752,9 @@ open
 self
 .
 _libyuv_depsfile
+'
+r
+'
 )
 as
 deps_file
@@ -806,6 +808,9 @@ open
 self
 .
 _libyuv_depsfile
+'
+r
+'
 )
 as
 deps_file
@@ -844,7 +849,7 @@ variable_name
       
 self
 .
-assertEquals
+assertEqual
 (
 vars_dict
 [
@@ -872,7 +877,7 @@ chromium_revision
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -909,7 +914,7 @@ gtest
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -920,7 +925,7 @@ entries
     
 self
 .
-assertEquals
+assertEqual
 (
 entries
 [
@@ -959,7 +964,7 @@ testing
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -989,7 +994,7 @@ build
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1000,7 +1005,7 @@ entries
     
 self
 .
-assertEquals
+assertEqual
 (
 entries
 [
@@ -1077,7 +1082,7 @@ new_cr_deps
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1088,7 +1093,7 @@ changed_deps
     
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1105,7 +1110,7 @@ build
     
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1118,7 +1123,7 @@ BUILD_OLD_REV
     
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1131,7 +1136,7 @@ BUILD_NEW_REV
     
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1148,7 +1153,7 @@ buildtools
     
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1161,7 +1166,7 @@ BUILDTOOLS_OLD_REV
     
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
