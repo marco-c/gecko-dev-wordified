@@ -97,11 +97,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 EventEmitter
 :
@@ -199,7 +205,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -207,6 +213,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -663,6 +671,8 @@ information
 class
 MessageHandler
 extends
+lazy
+.
 EventEmitter
 {
 /
@@ -725,6 +735,8 @@ this
 _moduleCache
 =
 new
+lazy
+.
 ModuleCache
 (
 this
@@ -760,6 +772,8 @@ this
 _eventsDispatcher
 =
 new
+lazy
+.
 EventsDispatcher
 (
 this
@@ -831,6 +845,8 @@ destroy
 (
 )
 {
+lazy
+.
 logger
 .
 trace
@@ -1481,6 +1497,8 @@ destination
 =
 command
 ;
+lazy
+.
 logger
 .
 trace
@@ -1518,6 +1536,8 @@ destination
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedCommandError

@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 error
 :
@@ -222,6 +228,8 @@ RootMessageHandler
 const
 messageHandler
 =
+lazy
+.
 RootMessageHandlerRegistry
 .
 getExistingMessageHandler
@@ -374,6 +382,8 @@ error
 )
 {
 throw
+lazy
+.
 error
 .
 MessageHandlerError
