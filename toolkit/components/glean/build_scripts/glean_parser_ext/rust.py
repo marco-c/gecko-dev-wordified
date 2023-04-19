@@ -86,6 +86,11 @@ json
 import
 jinja2
 from
+js
+import
+ID_BITS
+ID_SIGNAL_BITS
+from
 util
 import
 generate_metric_ids
@@ -1838,26 +1843,11 @@ events_by_id
 =
 events_by_id
             
-min_submetric_id
+submetric_bit
 =
-2
-*
-*
-27
-+
-1
-#
-One
-more
-than
-2
-*
-*
 ID_BITS
-from
-js
-.
-py
+-
+ID_SIGNAL_BITS
         
 )
     
