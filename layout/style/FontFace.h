@@ -267,7 +267,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 FontFace
 )
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -305,7 +305,7 @@ FontFace
 >
 CreateForRule
 (
-nsISupports
+nsIGlobalObject
 *
 aGlobal
 FontFaceSet
@@ -673,7 +673,7 @@ private
 explicit
 FontFace
 (
-nsISupports
+nsIGlobalObject
 *
 aParent
 )
@@ -747,7 +747,7 @@ EnsurePromise
 ;
 nsCOMPtr
 <
-nsISupports
+nsIGlobalObject
 >
 mParent
 ;
