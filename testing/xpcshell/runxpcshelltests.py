@@ -1428,6 +1428,8 @@ self
 runFailures
 :
             
+self
+.
 retry
 =
 False
@@ -16772,23 +16774,6 @@ SIGINT
                     
 break
                 
-#
-we
-don
-'
-t
-want
-to
-retry
-these
-tests
-                
-test
-.
-retry
-=
-False
-                
 self
 .
 start_test
@@ -16808,6 +16793,34 @@ test_ended
 (
 test
 )
+                
+if
+test
+.
+failCount
+>
+0
+or
+test
+.
+passCount
+<
+=
+0
+:
+                    
+self
+.
+try_again_list
+.
+append
+(
+test
+.
+test_object
+)
+                    
+continue
                 
 self
 .
