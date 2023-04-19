@@ -276,7 +276,7 @@ futures
 However
 we
 cannot
-gaurantee
+guarantee
 proper
 usage
 from

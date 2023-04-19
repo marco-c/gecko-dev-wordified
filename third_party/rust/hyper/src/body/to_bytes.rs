@@ -179,6 +179,11 @@ feature
 "
 client
 "
+feature
+=
+"
+tcp
+"
 any
 (
 feature
