@@ -2952,6 +2952,21 @@ self
 )
 :
         
+source_repo
+=
+buildconfig
+.
+substs
+.
+get
+(
+"
+MOZ_SOURCE_REPO
+"
+"
+"
+)
+        
 version_display
 =
 buildconfig
@@ -2971,6 +2986,12 @@ esr
 "
 in
 version_display
+or
+"
+esr
+"
+in
+source_repo
 :
             
 return
