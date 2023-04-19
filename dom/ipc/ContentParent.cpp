@@ -30108,7 +30108,7 @@ data
 ipc
 :
 :
-UnpackClonedMessageDataForParent
+UnpackClonedMessageData
 (
 aData
 data
@@ -30209,7 +30209,7 @@ data
 ipc
 :
 :
-UnpackClonedMessageDataForParent
+UnpackClonedMessageData
 (
 aData
 data
@@ -31027,7 +31027,7 @@ aStack
 StructuredCloneData
 data
 ;
-UnpackClonedMessageDataForParent
+UnpackClonedMessageData
 (
 *
 aStack
@@ -31313,9 +31313,8 @@ data
 if
 (
 !
-BuildClonedMessageDataForParent
+BuildClonedMessageData
 (
-this
 aHelper
 data
 )
@@ -46563,7 +46562,7 @@ ClonedOrErrorMessageData
 TClonedMessageData
 )
 {
-UnpackClonedMessageDataForParent
+UnpackClonedMessageData
 (
 aMessage
 messageFromChild
@@ -46574,9 +46573,8 @@ clonedMessageData
 ;
 if
 (
-BuildClonedMessageDataForParent
+BuildClonedMessageData
 (
-cp
 messageFromChild
 clonedMessageData
 )
@@ -48992,7 +48990,7 @@ emplace
 data
 -
 >
-BorrowFromClonedMessageDataForParent
+BorrowFromClonedMessageData
 (
 *
 aData
@@ -49019,7 +49017,7 @@ emplace
 stack
 -
 >
-BorrowFromClonedMessageDataForParent
+BorrowFromClonedMessageData
 (
 *
 aStack

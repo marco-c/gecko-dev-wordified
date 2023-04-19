@@ -558,7 +558,7 @@ StructuredCloneData
 (
 )
 .
-CopyFromClonedMessageDataForChild
+CopyFromClonedMessageData
 (
 aMessageData
 )
