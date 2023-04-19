@@ -240,17 +240,11 @@ jsm
 }
 )
 ;
-this
-.
-log
-=
-null
-;
 FormAutofill
 .
 defineLazyLogGetter
 (
-this
+lazy
 EXPORTED_SYMBOLS
 [
 0
@@ -549,6 +543,8 @@ addresses
 checked
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1142,6 +1138,8 @@ disabled
 =
 checked
 ;
+lazy
+.
 log
 .
 debug
@@ -2625,6 +2623,8 @@ ensureLoggedIn
 authenticated
 )
 {
+lazy
+.
 log
 .
 warn
@@ -2962,6 +2962,8 @@ description
 network
 )
 {
+lazy
+.
 log
 .
 debug
@@ -3066,6 +3068,8 @@ topic
 =
 >
 {
+lazy
+.
 log
 .
 debug

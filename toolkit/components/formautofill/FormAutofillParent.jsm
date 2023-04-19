@@ -363,17 +363,11 @@ jsm
 }
 )
 ;
-this
-.
-log
-=
-null
-;
 FormAutofill
 .
 defineLazyLogGetter
 (
-this
+lazy
 EXPORTED_SYMBOLS
 [
 0
@@ -845,6 +839,8 @@ onStatusChanged
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1034,6 +1030,8 @@ updateStatus
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1084,6 +1082,8 @@ updateSavedFieldNames
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1315,6 +1315,8 @@ topic
 data
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1562,6 +1564,8 @@ jsm
 "
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1854,6 +1858,8 @@ FormAutofillUtils
 _reauthEnabledByUser
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1910,6 +1916,8 @@ throw
 e
 ;
 }
+lazy
+.
 log
 .
 warn
@@ -2057,6 +2065,8 @@ ensureLoggedIn
 authenticated
 )
 {
+lazy
+.
 log
 .
 warn

@@ -409,17 +409,11 @@ jsm
 }
 )
 ;
-this
-.
-log
-=
-null
-;
 FormAutofill
 .
 defineLazyLogGetter
 (
-this
+lazy
 EXPORTED_SYMBOLS
 [
 0
@@ -543,6 +537,8 @@ fieldDetails
 [
 ]
 ;
+lazy
+.
 log
 .
 debug
@@ -1994,6 +1990,8 @@ profile
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2941,6 +2939,8 @@ clearPreviewedFormFields
 (
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2979,6 +2979,8 @@ if
 element
 )
 {
+lazy
+.
 log
 .
 warn
@@ -3094,6 +3096,8 @@ if
 element
 )
 {
+lazy
+.
 log
 .
 warn
@@ -3261,6 +3265,8 @@ if
 element
 )
 {
+lazy
+.
 log
 .
 warn
@@ -3292,6 +3298,8 @@ _FIELD_STATE_ENUM
 )
 )
 {
+lazy
+.
 log
 .
 warn
@@ -4726,6 +4734,8 @@ don
 t
 yet
 support
+.
+lazy
 .
 log
 .
@@ -6194,6 +6204,8 @@ toString
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -6284,6 +6296,8 @@ parent
 location
 )
 {
+lazy
+.
 log
 .
 debug
@@ -6352,6 +6366,8 @@ this
 )
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -9233,6 +9249,8 @@ elements
 length
 )
 {
+lazy
+.
 log
 .
 debug
@@ -9277,6 +9295,8 @@ element
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -9985,6 +10005,8 @@ user
 s
 correction
 afterward
+.
+lazy
 .
 log
 .

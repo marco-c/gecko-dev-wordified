@@ -246,17 +246,11 @@ jsm
 }
 )
 ;
-this
-.
-log
-=
-null
-;
 FormAutofill
 .
 defineLazyLogGetter
 (
-this
+lazy
 EXPORTED_SYMBOLS
 [
 0
@@ -2730,6 +2724,8 @@ fieldDetail
 }
 else
 {
+lazy
+.
 log
 .
 debug
