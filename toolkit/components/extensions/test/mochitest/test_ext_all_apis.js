@@ -291,6 +291,11 @@ true
 "
 test
 .
+assertDeepEq
+"
+"
+test
+.
 assertEq
 "
 "
