@@ -6318,6 +6318,11 @@ kEmptySkipChars
 ;
 }
 ;
+CMSMode
+GfxColorManagementMode
+(
+)
+;
 #
 endif
 /
