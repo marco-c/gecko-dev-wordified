@@ -2170,8 +2170,10 @@ std
 move
 (
 aJITFrameInfo
+)
 .
-mUniqueStrings
+MoveUniqueStrings
+(
 )
 )
 mCodeAddressService
@@ -2186,8 +2188,10 @@ std
 move
 (
 aJITFrameInfo
+)
 .
-mRanges
+MoveRanges
+(
 )
 )
 {
