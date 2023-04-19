@@ -189,8 +189,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -1368,9 +1368,7 @@ nullptr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

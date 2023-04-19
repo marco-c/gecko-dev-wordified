@@ -321,8 +321,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SVGElement
@@ -3013,9 +3013,7 @@ sLengthInfo
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

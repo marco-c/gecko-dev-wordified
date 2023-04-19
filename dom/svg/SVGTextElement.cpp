@@ -142,8 +142,8 @@ Text
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -560,9 +560,7 @@ name
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

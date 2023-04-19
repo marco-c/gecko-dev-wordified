@@ -293,8 +293,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -3654,9 +3654,7 @@ NS_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -182,8 +182,8 @@ nsIDOMWindow
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -196,12 +196,10 @@ EventTarget
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 class
 nsDeviceSensors
 :

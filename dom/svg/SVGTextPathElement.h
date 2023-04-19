@@ -189,8 +189,8 @@ aNodeInfo
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -558,12 +558,10 @@ mPath
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

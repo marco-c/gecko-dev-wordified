@@ -276,8 +276,8 @@ aOrigHost
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 constexpr
@@ -3960,9 +3960,7 @@ true
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

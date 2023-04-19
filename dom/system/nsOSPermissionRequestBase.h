@@ -136,8 +136,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -147,12 +147,10 @@ Promise
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 using
 mozilla
 :

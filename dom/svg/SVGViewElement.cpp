@@ -142,8 +142,8 @@ View
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -739,9 +739,7 @@ mPreserveAspectRatio
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

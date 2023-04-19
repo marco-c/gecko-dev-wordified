@@ -256,8 +256,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 already_AddRefed
@@ -2182,9 +2182,7 @@ result
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

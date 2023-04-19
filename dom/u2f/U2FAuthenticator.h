@@ -131,8 +131,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -226,12 +226,10 @@ _ns
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

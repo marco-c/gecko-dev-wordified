@@ -176,8 +176,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -567,12 +567,10 @@ mAnimateMotionTransform
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

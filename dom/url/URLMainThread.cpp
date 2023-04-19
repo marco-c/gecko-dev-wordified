@@ -186,8 +186,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -660,9 +660,7 @@ asciiurl
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

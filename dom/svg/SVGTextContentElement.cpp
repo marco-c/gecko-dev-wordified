@@ -209,8 +209,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1240,9 +1240,7 @@ aPoint
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

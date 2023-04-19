@@ -164,8 +164,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SVGElement
@@ -521,9 +521,7 @@ ROTATE
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

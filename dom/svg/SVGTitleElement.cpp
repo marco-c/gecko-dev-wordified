@@ -153,8 +153,8 @@ Title
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -677,9 +677,7 @@ SVGTitleElement
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
