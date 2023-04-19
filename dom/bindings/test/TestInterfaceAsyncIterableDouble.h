@@ -268,6 +268,9 @@ InitAsyncIterator
 Iterator
 *
 aIterator
+ErrorResult
+&
+aError
 )
 ;
 void
