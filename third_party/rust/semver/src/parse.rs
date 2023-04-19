@@ -1926,9 +1926,8 @@ as_bytes
 if
 bytes
 .
-get
+first
 (
-0
 )
 =
 =
@@ -1959,9 +1958,8 @@ else
 if
 bytes
 .
-get
+first
 (
-0
 )
 =
 =
@@ -2027,9 +2025,8 @@ else
 if
 bytes
 .
-get
+first
 (
-0
 )
 =
 =
@@ -2095,9 +2092,8 @@ else
 if
 bytes
 .
-get
+first
 (
-0
 )
 =
 =
@@ -2128,9 +2124,8 @@ else
 if
 bytes
 .
-get
+first
 (
-0
 )
 =
 =
