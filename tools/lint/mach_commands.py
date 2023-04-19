@@ -190,6 +190,9 @@ GLOBAL_EXCLUDES
 =
 [
 "
+*
+*
+/
 node_modules
 "
 "
