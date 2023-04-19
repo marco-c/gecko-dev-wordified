@@ -3480,6 +3480,12 @@ JSOp
 :
 Not
 :
+case
+JSOp
+:
+:
+CloseIter
+:
 MOZ_TRY
 (
 maybeInlineIC
