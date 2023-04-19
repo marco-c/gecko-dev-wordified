@@ -119,17 +119,6 @@ message
 s
 "
     
-filelock_logger
-=
-logging
-.
-getLogger
-(
-"
-filelock
-"
-)
-    
 if
 level
 <
@@ -180,25 +169,6 @@ format
 (
 msg_format
 locate
-)
-        
-filelock_logger
-.
-setLevel
-(
-level
-)
-    
-else
-:
-        
-filelock_logger
-.
-setLevel
-(
-logging
-.
-WARN
 )
     
 if
