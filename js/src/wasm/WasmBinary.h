@@ -5087,7 +5087,7 @@ if
 !
 features
 .
-v128
+simd
 )
 {
 return

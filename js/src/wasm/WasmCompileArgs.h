@@ -583,6 +583,10 @@ Shareable
 :
 False
 )
+simd
+(
+false
+)
 simdWormhole
 (
 false
@@ -660,6 +664,9 @@ undef
 WASM_FEATURE
 Shareable
 sharedMemory
+;
+bool
+simd
 ;
 bool
 simdWormhole

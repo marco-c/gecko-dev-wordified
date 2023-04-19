@@ -916,14 +916,8 @@ SupportsWasmSimd
 ;
 #
 else
-MOZ_CRASH
-(
-"
-Do
-not
-call
-"
-)
+return
+false
 ;
 #
 endif
