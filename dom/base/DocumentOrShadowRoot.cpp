@@ -2191,7 +2191,7 @@ OwnerDoc
 )
 -
 >
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;

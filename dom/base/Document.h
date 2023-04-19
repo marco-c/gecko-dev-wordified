@@ -21292,7 +21292,7 @@ top
 layer
 Element
 *
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 const
@@ -21306,7 +21306,7 @@ const
 return
 !
 !
-GetUnretargetedFullScreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;
