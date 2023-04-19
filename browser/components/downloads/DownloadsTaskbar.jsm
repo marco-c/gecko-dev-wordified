@@ -182,11 +182,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -224,7 +230,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gWinTaskbar
 "
@@ -296,7 +302,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gMacTaskbarProgress
 "
@@ -351,7 +357,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gGtkTaskbarProgress
 "
@@ -645,6 +651,8 @@ _taskbarProgress
 {
 if
 (
+lazy
+.
 gMacTaskbarProgress
 )
 {
@@ -668,6 +676,8 @@ this
 .
 _taskbarProgress
 =
+lazy
+.
 gMacTaskbarProgress
 ;
 /
@@ -701,6 +711,8 @@ _taskbarProgress
 =
 null
 ;
+lazy
+.
 gMacTaskbarProgress
 =
 null
@@ -719,6 +731,8 @@ granted
 else
 if
 (
+lazy
+.
 gWinTaskbar
 )
 {
@@ -759,6 +773,8 @@ aBrowserWindow
 else
 if
 (
+lazy
+.
 gGtkTaskbarProgress
 )
 {
@@ -766,6 +782,8 @@ this
 .
 _taskbarProgress
 =
+lazy
+.
 gGtkTaskbarProgress
 ;
 this
@@ -814,10 +832,14 @@ this
 _summary
 )
 {
+lazy
+.
 Downloads
 .
 getSummary
 (
+lazy
+.
 Downloads
 .
 ALL
@@ -942,6 +964,8 @@ this
 .
 _taskbarProgress
 =
+lazy
+.
 gWinTaskbar
 .
 getTaskbarProgress
@@ -1027,6 +1051,8 @@ closed
 let
 browserWindow
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -1226,6 +1252,8 @@ closed
 let
 browserWindow
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
