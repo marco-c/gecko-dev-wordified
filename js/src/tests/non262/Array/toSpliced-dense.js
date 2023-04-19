@@ -23,7 +23,12 @@ skip
 -
 if
 (
-release_or_beta
+!
+Array
+.
+prototype
+.
+toSpliced
 )
 const
 startIndices
