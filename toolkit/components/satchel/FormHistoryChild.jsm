@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 CreditCard
 "
@@ -145,7 +151,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -168,7 +174,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gDebug
 "
@@ -185,7 +191,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
+lazy
 "
 gEnabled
 "
@@ -207,6 +213,8 @@ message
 if
 (
 !
+lazy
+.
 gDebug
 )
 {
@@ -307,9 +315,13 @@ target
 if
 (
 !
+lazy
+.
 gEnabled
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
@@ -594,6 +606,8 @@ numbers
 .
 if
 (
+lazy
+.
 CreditCard
 .
 isValidNumber
