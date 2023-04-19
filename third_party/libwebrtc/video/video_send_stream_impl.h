@@ -865,6 +865,14 @@ allocation
 )
 override
 ;
+void
+OnVideoLayersAllocationUpdated
+(
+VideoLayersAllocation
+allocation
+)
+override
+;
 /
 /
 Implements
