@@ -409,12 +409,12 @@ testLocale
 "
 en
 -
-GB
+US
 "
 ;
 /
 /
-British
+US
 English
 setLocale
 (
