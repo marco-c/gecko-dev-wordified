@@ -307,8 +307,6 @@ mutation
 .
 target
 .
-documentElement
-.
 closest
 (
 "
