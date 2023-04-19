@@ -90,6 +90,7 @@ FxiOS
 getVersionRegex
 (
 1
+1
 )
 }
 )
@@ -120,6 +121,7 @@ Opera
 getVersionRegex
 (
 1
+1
 )
 }
 )
@@ -143,6 +145,7 @@ Version
 {
 getVersionRegex
 (
+1
 1
 )
 }
@@ -181,6 +184,7 @@ Edge
 {
 getVersionRegex
 (
+0
 1
 )
 }
@@ -212,6 +216,7 @@ CriOS
 getVersionRegex
 (
 1
+1
 )
 }
 )
@@ -233,6 +238,7 @@ MSIE
 {
 getVersionRegex
 (
+1
 1
 )
 }
@@ -266,6 +272,34 @@ OS
 {
 getVersionRegex
 (
+0
+2
+)
+}
+)
+)
+}
+{
+name
+:
+"
+iPadOS
+"
+minMinorVersionCount
+:
+0
+mustContain
+:
+new
+RegExp
+(
+CPU
+OS
+(
+{
+getVersionRegex
+(
+0
 2
 )
 }
@@ -293,6 +327,7 @@ Phone
 {
 getVersionRegex
 (
+1
 2
 )
 }
@@ -321,6 +356,7 @@ CrOS
 {
 getVersionRegex
 (
+1
 2
 )
 }
@@ -335,7 +371,7 @@ Android
 "
 minMinorVersionCount
 :
-1
+0
 mustContain
 :
 new
@@ -346,6 +382,7 @@ Android
 {
 getVersionRegex
 (
+0
 2
 )
 }
@@ -373,6 +410,7 @@ NT
 {
 getVersionRegex
 (
+1
 2
 )
 }
@@ -402,6 +440,7 @@ X
 {
 getVersionRegex
 (
+1
 2
 )
 }
@@ -429,6 +468,7 @@ Linux
 function
 getVersionRegex
 (
+minMinorVersionCount
 maxMinorVersionCount
 )
 {
@@ -454,7 +494,9 @@ z
 +
 )
 {
-1
+{
+minMinorVersionCount
+}
 {
 maxMinorVersionCount
 }
