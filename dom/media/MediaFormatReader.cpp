@@ -21242,13 +21242,6 @@ uint64_t
 aMediaEngineId
 )
 {
-MOZ_ASSERT
-(
-OnTaskQueue
-(
-)
-)
-;
 LOG
 (
 "

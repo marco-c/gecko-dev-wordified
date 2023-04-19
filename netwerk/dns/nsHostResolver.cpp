@@ -1580,6 +1580,7 @@ nsHostResolver
 Init
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_ASSERT
 (
@@ -7917,6 +7918,12 @@ rec
 >
 af
 )
+)
+;
+mLock
+.
+AssertCurrentThreadOwns
+(
 )
 ;
 if

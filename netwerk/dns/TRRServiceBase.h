@@ -568,6 +568,11 @@ mPrivateURI
 ;
 /
 /
+protected
+by
+mMutex
+/
+/
 Pref
 caches
 should
