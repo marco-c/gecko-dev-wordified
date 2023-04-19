@@ -214,6 +214,12 @@ nsCString
 &
 )
 ;
+static
+bool
+IsSupported
+(
+)
+;
 protected
 :
 /
