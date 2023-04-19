@@ -7445,6 +7445,14 @@ this
 toggleOptions
 )
 ;
+if
+(
+!
+this
+.
+isBrowserToolbox
+)
+{
 /
 /
 Listen
@@ -7552,6 +7560,7 @@ preventDefault
 }
 )
 ;
+}
 /
 /
 Add
