@@ -96,6 +96,11 @@ SOURCES
 =
 [
 "
+TestBigBuffer
+.
+cpp
+"
+"
 TestDataPipe
 .
 cpp
