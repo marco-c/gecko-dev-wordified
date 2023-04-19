@@ -65,11 +65,17 @@ PeerConnectionIdp
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 IdpSandbox
 "
@@ -436,6 +442,8 @@ this
 _idp
 =
 new
+lazy
+.
 IdpSandbox
 (
 provider
