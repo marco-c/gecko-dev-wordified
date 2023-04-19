@@ -1250,6 +1250,7 @@ uri
 "
 ;
 }
+await
 checkLoadedScripts
 (
 {

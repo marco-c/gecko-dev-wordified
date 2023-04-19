@@ -3554,6 +3554,8 @@ to
 be
 parsed
 await
+PerfTestHelpers
+.
 throttledMapPromises
 (
 manifestURIs
@@ -3974,6 +3976,8 @@ actually
 loaded
 :
 await
+PerfTestHelpers
+.
 throttledMapPromises
 (
 allPromises

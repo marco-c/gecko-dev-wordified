@@ -1026,6 +1026,7 @@ uri
 "
 ;
 }
+await
 checkLoadedScripts
 (
 {
