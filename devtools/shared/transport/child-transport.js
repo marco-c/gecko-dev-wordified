@@ -406,6 +406,7 @@ close
 :
 function
 (
+options
 )
 {
 this
@@ -429,6 +430,8 @@ hooks
 .
 onTransportClosed
 (
+null
+options
 )
 ;
 }

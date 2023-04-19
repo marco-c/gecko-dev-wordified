@@ -484,6 +484,7 @@ response
 function
 onDestroy
 (
+options
 )
 {
 mm
@@ -580,6 +581,7 @@ conn
 .
 close
 (
+options
 )
 ;
 /
