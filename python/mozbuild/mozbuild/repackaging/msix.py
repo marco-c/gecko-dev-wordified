@@ -5174,6 +5174,37 @@ MOZ_APP_NAME
 "
 :
 app_name
+        
+#
+Keep
+synchronized
+with
+toolkit
+\
+mozapps
+\
+notificationserver
+\
+NotificationComServer
+.
+cpp
+.
+        
+"
+MOZ_INOTIFICATIONACTIVATION_CLSID
+"
+:
+"
+916f9b5d
+-
+b5b2
+-
+4d36
+-
+b047
+-
+03c7a52f81c8
+"
     
 }
     
