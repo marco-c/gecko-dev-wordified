@@ -25571,10 +25571,6 @@ Result
 <
 BigInt
 *
-JS
-:
-:
-OOM
 >
 js
 :
@@ -25704,11 +25700,8 @@ a
 parse
 error
 or
-out
--
-of
--
-memory
+generic
+error
 .
 if
 (
@@ -25724,7 +25717,7 @@ return
 cx
 -
 >
-alreadyReportedOOM
+alreadyReportedError
 (
 )
 ;
