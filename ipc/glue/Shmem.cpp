@@ -1583,7 +1583,6 @@ Shmem
 :
 Shmem
 (
-PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -1944,7 +1943,6 @@ Shmem
 :
 RevokeRights
 (
-PrivateIPDLCaller
 )
 {
 AssertInvariants
@@ -2046,7 +2044,6 @@ Shmem
 :
 Alloc
 (
-PrivateIPDLCaller
 size_t
 aNBytes
 bool
@@ -2299,7 +2296,6 @@ Shmem
 :
 OpenExisting
 (
-PrivateIPDLCaller
 const
 IPC
 :
@@ -2531,7 +2527,6 @@ Shmem
 :
 Dealloc
 (
-PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -2654,7 +2649,6 @@ Shmem
 :
 Shmem
 (
-PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -2740,7 +2734,6 @@ Shmem
 :
 Alloc
 (
-PrivateIPDLCaller
 size_t
 aNBytes
 bool
@@ -2819,7 +2812,6 @@ Shmem
 :
 OpenExisting
 (
-PrivateIPDLCaller
 const
 IPC
 :
@@ -2922,7 +2914,6 @@ Shmem
 :
 Dealloc
 (
-PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -2955,7 +2946,6 @@ Shmem
 :
 MkCreatedMessage
 (
-PrivateIPDLCaller
 int32_t
 routingId
 )
@@ -3039,7 +3029,6 @@ Shmem
 :
 MkDestroyedMessage
 (
-PrivateIPDLCaller
 int32_t
 routingId
 )
@@ -3096,24 +3085,12 @@ aParam
 .
 RevokeRights
 (
-Shmem
-:
-:
-PrivateIPDLCaller
-(
-)
 )
 ;
 aParam
 .
 forget
 (
-Shmem
-:
-:
-PrivateIPDLCaller
-(
-)
 )
 ;
 }
@@ -3187,12 +3164,6 @@ aResult
 =
 Shmem
 (
-Shmem
-:
-:
-PrivateIPDLCaller
-(
-)
 rawmem
 id
 )
