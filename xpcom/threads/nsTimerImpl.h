@@ -695,7 +695,7 @@ MutexAutoLock
 &
 aProofOfLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -705,7 +705,7 @@ Callback
 GetCallback
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -871,7 +871,7 @@ MutexAutoLock
 &
 aProofOfLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -1166,7 +1166,7 @@ mozilla
 :
 TimeDuration
 mDelay
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1239,7 +1239,7 @@ RefPtr
 nsITimer
 >
 mITimer
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1252,7 +1252,7 @@ mMutex
 ;
 Callback
 mCallback
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1271,7 +1271,7 @@ reentrantly
 unsigned
 int
 mFiring
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1286,7 +1286,7 @@ sDeltaMutex
 static
 double
 sDeltaSum
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sDeltaMutex
 )
@@ -1294,7 +1294,7 @@ sDeltaMutex
 static
 double
 sDeltaSumSquared
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sDeltaMutex
 )
@@ -1302,7 +1302,7 @@ sDeltaMutex
 static
 double
 sDeltaNum
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sDeltaMutex
 )

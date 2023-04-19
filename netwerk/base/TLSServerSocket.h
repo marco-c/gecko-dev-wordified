@@ -389,7 +389,7 @@ nsCOMPtr
 nsITLSServerSecurityObserver
 >
 mSecurityObserver
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )

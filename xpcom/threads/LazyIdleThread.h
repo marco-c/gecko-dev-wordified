@@ -1058,7 +1058,7 @@ up
 /
 uint32_t
 mPendingEventCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1107,7 +1107,7 @@ way
 /
 uint32_t
 mIdleNotificationCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -1221,7 +1221,7 @@ process
 /
 bool
 mThreadIsShuttingDown
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

@@ -297,7 +297,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -358,7 +358,7 @@ Lock
 (
 )
 const
-RETURN_CAPABILITY
+MOZ_RETURN_CAPABILITY
 (
 mMutex
 )
@@ -382,7 +382,7 @@ ReadyToConsume
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -423,7 +423,7 @@ AudioChunk
 Produce
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -468,7 +468,7 @@ AudioChunk
 Consume
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -526,7 +526,7 @@ void
 Clear
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )

@@ -152,7 +152,7 @@ mozilla
 {
 class
 MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
-CAPABILITY
+MOZ_CAPABILITY
 StaticMonitor
 {
 public
@@ -223,7 +223,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -241,7 +241,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -327,7 +327,7 @@ void
 AssertCurrentThreadOwns
 (
 )
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -572,7 +572,7 @@ void
 ;
 class
 MOZ_STACK_CLASS
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 StaticMonitorAutoLock
 {
 public
@@ -584,7 +584,7 @@ StaticMonitor
 &
 aMonitor
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aMonitor
 )
@@ -607,7 +607,7 @@ Lock
 StaticMonitorAutoLock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {

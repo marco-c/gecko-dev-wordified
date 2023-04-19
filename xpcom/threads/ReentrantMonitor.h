@@ -287,7 +287,7 @@ directly
 *
 /
 class
-CAPABILITY
+MOZ_CAPABILITY
 ReentrantMonitor
 :
 BlockingResourceBase
@@ -430,7 +430,7 @@ void
 Enter
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -457,7 +457,7 @@ void
 Exit
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -529,7 +529,7 @@ void
 Enter
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 ;
@@ -537,7 +537,7 @@ void
 Exit
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 ;
@@ -640,7 +640,7 @@ void
 AssertCurrentThreadIn
 (
 )
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -668,7 +668,7 @@ void
 AssertNotCurrentThreadIn
 (
 )
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 !
 this
@@ -686,7 +686,7 @@ void
 AssertCurrentThreadIn
 (
 )
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -696,7 +696,7 @@ void
 AssertNotCurrentThreadIn
 (
 )
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 !
 this
@@ -785,7 +785,7 @@ Exit
 *
 /
 class
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 MOZ_STACK_CLASS
 ReentrantMonitorAutoEnter
 {
@@ -836,7 +836,7 @@ ReentrantMonitor
 &
 aReentrantMonitor
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aReentrantMonitor
 )
@@ -869,7 +869,7 @@ ReentrantMonitorAutoEnter
 (
 void
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -1016,7 +1016,7 @@ Enter
 *
 /
 class
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 MOZ_STACK_CLASS
 ReentrantMonitorAutoExit
 {
@@ -1082,7 +1082,7 @@ ReentrantMonitor
 &
 aReentrantMonitor
 )
-EXCLUSIVE_RELEASE
+MOZ_EXCLUSIVE_RELEASE
 (
 aReentrantMonitor
 )
@@ -1124,7 +1124,7 @@ ReentrantMonitorAutoEnter
 &
 aReentrantMonitorAutoEnter
 )
-EXCLUSIVE_RELEASE
+MOZ_EXCLUSIVE_RELEASE
 (
 aReentrantMonitorAutoEnter
 .
@@ -1167,7 +1167,7 @@ ReentrantMonitorAutoExit
 (
 void
 )
-EXCLUSIVE_RELEASE
+MOZ_EXCLUSIVE_RELEASE
 (
 )
 {

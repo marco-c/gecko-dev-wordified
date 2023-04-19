@@ -1054,7 +1054,7 @@ aFontInfoData
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1394,7 +1394,7 @@ nsresult
 InitFontListForPlatform
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1404,7 +1404,7 @@ void
 InitSharedFontListForPlatform
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1551,7 +1551,7 @@ aDevToCssSize
 .
 0
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1616,7 +1616,7 @@ void
 ClearLangGroupPrefFontsLocked
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1657,7 +1657,7 @@ void
 ClearGenericMappingsLocked
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1829,7 +1829,7 @@ aPolicy
 bool
 aAppFonts
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1868,7 +1868,7 @@ aFontFamily
 bool
 aAppFonts
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1907,7 +1907,7 @@ nsAtom
 *
 aLanguage
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1929,7 +1929,7 @@ bool
 PrefFontListsUseOnlyGenerics
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1962,7 +1962,7 @@ aLanguage
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )

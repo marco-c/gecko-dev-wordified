@@ -1086,7 +1086,7 @@ instead
 .
 uint16_t
 mReadyState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

@@ -378,7 +378,7 @@ void
 IncreaseMediaCount
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTargetCapability
 )
@@ -386,6 +386,8 @@ mTargetCapability
 mMediaCount
 +
 =
+/
+/
 1
 ;
 }
@@ -395,7 +397,7 @@ mMediaCount
 /
 uint32_t
 mMediaCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTargetCapability
 )
@@ -420,7 +422,7 @@ typename
 T
 >
 class
-CAPABILITY
+MOZ_CAPABILITY
 EventTargetCapability
 final
 {
@@ -526,7 +528,7 @@ AssertOnCurrentThread
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )

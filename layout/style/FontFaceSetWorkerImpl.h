@@ -296,7 +296,7 @@ RefPtr
 ThreadSafeWorkerRef
 >
 mWorkerRef
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -306,7 +306,7 @@ RefPtr
 URLExtraData
 >
 mURLExtraData
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

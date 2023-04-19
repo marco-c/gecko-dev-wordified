@@ -1040,7 +1040,7 @@ aFontInfoData
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1653,7 +1653,7 @@ nsresult
 InitFontListForPlatform
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1713,7 +1713,7 @@ aDevToCssSize
 .
 0
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1810,7 +1810,7 @@ aLanguage
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1830,7 +1830,7 @@ nsresult
 GetFontSubstitutes
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )

@@ -802,7 +802,7 @@ WorkerPrivate
 *
 >
 mExecutionQueue
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mExecutionQueueMutex
 )
@@ -827,7 +827,7 @@ mExecutionQueueMutex
 .
 int32_t
 mRunning
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mExecutionQueueMutex
 )
@@ -860,7 +860,7 @@ mExecutionQueueMutex
 .
 int32_t
 mMaxRunning
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mExecutionQueueMutex
 )
@@ -969,7 +969,7 @@ mExecutionQueueMutex
 .
 bool
 mMainThreadAwaitingExecution
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mExecutionQueueMutex
 )

@@ -890,7 +890,7 @@ aDevToCssSize
 .
 0
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1027,7 +1027,7 @@ aLanguage
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1058,7 +1058,7 @@ nsresult
 InitFontListForPlatform
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1068,7 +1068,7 @@ void
 InitSharedFontListForPlatform
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1096,7 +1096,7 @@ void
 PreloadNamesList
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1120,7 +1120,7 @@ void
 InitSingleFaceList
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1129,7 +1129,7 @@ void
 InitAliasesForSingleFaceList
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1143,7 +1143,7 @@ void
 InitSystemFontNames
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1171,7 +1171,7 @@ nsACString
 &
 aFamily
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1247,7 +1247,7 @@ FontFamily
 &
 aMatchedFamily
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1347,7 +1347,7 @@ AddFamily
 CFStringRef
 aFamily
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1362,7 +1362,7 @@ aFamilyName
 FontVisibility
 aVisibility
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1442,7 +1442,7 @@ aFamily
 bool
 aNeedFullnamePostscriptNames
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )

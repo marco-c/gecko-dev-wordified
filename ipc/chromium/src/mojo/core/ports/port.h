@@ -180,7 +180,7 @@ deadlock
 detector
 .
 class
-CAPABILITY
+MOZ_CAPABILITY
 PortMutex
 :
 private
@@ -201,7 +201,7 @@ AssertCurrentThreadOwns
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -254,7 +254,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -289,7 +289,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {

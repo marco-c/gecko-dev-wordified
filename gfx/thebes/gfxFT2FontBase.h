@@ -270,7 +270,7 @@ CmapCacheSlot
 ]
 >
 mCmapCache
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1021,7 +1021,7 @@ GlyphMetrics
 >
 >
 mGlyphMetrics
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
