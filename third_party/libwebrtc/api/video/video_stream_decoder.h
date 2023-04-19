@@ -219,15 +219,6 @@ optional
 <
 int
 >
-decode_time_ms
-;
-absl
-:
-:
-optional
-<
-int
->
 qp
 ;
 VideoContentType
