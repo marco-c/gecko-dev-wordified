@@ -291,6 +291,9 @@ class
 FinalizationQueueObject
 ;
 class
+GlobalObject
+;
+class
 VerifyPreTracer
 ;
 class

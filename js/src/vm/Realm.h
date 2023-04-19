@@ -2171,7 +2171,14 @@ JSContext
 js
 :
 :
-WeakHeapPtrGlobalObject
+WeakHeapPtr
+<
+js
+:
+:
+GlobalObject
+*
+>
 global_
 ;
 /

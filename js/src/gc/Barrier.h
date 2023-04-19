@@ -9431,9 +9431,6 @@ class
 DebugEnvironmentProxy
 ;
 class
-GlobalObject
-;
-class
 PropertyName
 ;
 class
@@ -9611,15 +9608,6 @@ WeakHeapPtrDebugEnvironmentProxy
 WeakHeapPtr
 <
 DebugEnvironmentProxy
-*
->
-;
-using
-WeakHeapPtrGlobalObject
-=
-WeakHeapPtr
-<
-GlobalObject
 *
 >
 ;
