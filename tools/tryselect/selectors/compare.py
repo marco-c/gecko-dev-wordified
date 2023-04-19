@@ -125,6 +125,14 @@ name
 compare
 "
     
+common_groups
+=
+[
+"
+task
+"
+]
+    
 arguments
 =
 [
@@ -223,6 +231,9 @@ try
         
 fuzzy_run
 (
+*
+*
+kwargs
 )
         
 vcs
