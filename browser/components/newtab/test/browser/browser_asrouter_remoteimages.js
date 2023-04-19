@@ -2351,7 +2351,7 @@ wipeCache
 ;
 sandbox
 .
-reset
+restore
 (
 )
 ;
