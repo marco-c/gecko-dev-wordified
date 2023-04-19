@@ -593,7 +593,6 @@ searchParams
 ;
 engineInfo
 =
-await
 Services
 .
 search
@@ -668,7 +667,6 @@ searchParams
 ;
 engineInfo
 =
-await
 Services
 .
 search
@@ -739,7 +737,6 @@ engine
 const
 engineInfo
 =
-await
 Services
 .
 search

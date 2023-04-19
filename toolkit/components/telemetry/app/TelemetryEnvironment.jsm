@@ -8138,7 +8138,6 @@ policy
 .
 *
 /
-async
 _watchPreferences
 (
 aPreferences
@@ -8156,7 +8155,6 @@ _watchedPrefs
 =
 aPreferences
 ;
-await
 this
 .
 _updateSettings
@@ -9555,7 +9553,6 @@ value
 .
 *
 /
-async
 _updateSearchEngine
 (
 )
@@ -9660,7 +9657,6 @@ environment
 const
 defaultEngineInfo
 =
-await
 Services
 .
 search
@@ -9766,7 +9762,6 @@ change
 .
 *
 /
-async
 _onSearchEngineChange
 (
 )
@@ -9805,7 +9800,6 @@ _currentEnvironment
 }
 )
 ;
-await
 this
 .
 _updateSearchEngine
@@ -10548,7 +10542,6 @@ data
 .
 *
 /
-async
 _updateSettings
 (
 )
@@ -10798,7 +10791,6 @@ _updateDefaultBrowser
 (
 )
 ;
-await
 this
 .
 _updateSearchEngine
