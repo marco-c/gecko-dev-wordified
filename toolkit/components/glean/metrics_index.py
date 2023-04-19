@@ -213,6 +213,18 @@ yaml
 "
 browser
 /
+components
+/
+newtab
+/
+metrics
+.
+yaml
+"
+    
+"
+browser
+/
 modules
 /
 metrics
@@ -381,6 +393,18 @@ py
 pings_yamls
 =
 [
+    
+"
+browser
+/
+components
+/
+newtab
+/
+pings
+.
+yaml
+"
     
 "
 toolkit
