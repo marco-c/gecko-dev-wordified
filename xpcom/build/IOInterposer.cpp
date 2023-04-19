@@ -1126,7 +1126,7 @@ mozilla
 :
 IOInterposeObserver
 *
-aObserver
+aStaticObserver
 )
 {
 mozilla
@@ -1218,7 +1218,7 @@ newLists
 -
 >
 mCreateObservers
-aObserver
+aStaticObserver
 )
 )
 {
@@ -1229,7 +1229,7 @@ mCreateObservers
 .
 push_back
 (
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -1253,7 +1253,7 @@ newLists
 -
 >
 mReadObservers
-aObserver
+aStaticObserver
 )
 )
 {
@@ -1264,7 +1264,7 @@ mReadObservers
 .
 push_back
 (
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -1288,7 +1288,7 @@ newLists
 -
 >
 mWriteObservers
-aObserver
+aStaticObserver
 )
 )
 {
@@ -1299,7 +1299,7 @@ mWriteObservers
 .
 push_back
 (
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -1323,7 +1323,7 @@ newLists
 -
 >
 mFSyncObservers
-aObserver
+aStaticObserver
 )
 )
 {
@@ -1334,7 +1334,7 @@ mFSyncObservers
 .
 push_back
 (
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -1358,7 +1358,7 @@ newLists
 -
 >
 mStatObservers
-aObserver
+aStaticObserver
 )
 )
 {
@@ -1369,7 +1369,7 @@ mStatObservers
 .
 push_back
 (
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -1393,7 +1393,7 @@ newLists
 -
 >
 mCloseObservers
-aObserver
+aStaticObserver
 )
 )
 {
@@ -1404,7 +1404,7 @@ mCloseObservers
 .
 push_back
 (
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -1428,7 +1428,7 @@ newLists
 -
 >
 mStageObservers
-aObserver
+aStaticObserver
 )
 )
 {
@@ -1439,7 +1439,7 @@ mStageObservers
 .
 push_back
 (
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -1485,7 +1485,7 @@ mozilla
 :
 IOInterposeObserver
 *
-aObserver
+aStaticObserver
 )
 {
 mozilla
@@ -1550,7 +1550,7 @@ newLists
 -
 >
 mCreateObservers
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -1610,7 +1610,7 @@ newLists
 -
 >
 mReadObservers
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -1670,7 +1670,7 @@ newLists
 -
 >
 mWriteObservers
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -1730,7 +1730,7 @@ newLists
 -
 >
 mFSyncObservers
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -1790,7 +1790,7 @@ newLists
 -
 >
 mStatObservers
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -1850,7 +1850,7 @@ newLists
 -
 >
 mCloseObservers
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -1910,7 +1910,7 @@ newLists
 -
 >
 mStageObservers
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -3150,12 +3150,12 @@ Operation
 aOp
 IOInterposeObserver
 *
-aObserver
+aStaticObserver
 )
 {
 MOZ_ASSERT
 (
-aObserver
+aStaticObserver
 )
 ;
 if
@@ -3165,7 +3165,7 @@ sSourceList
 |
 |
 !
-aObserver
+aStaticObserver
 )
 {
 return
@@ -3177,7 +3177,7 @@ sSourceList
 Register
 (
 aOp
-aObserver
+aStaticObserver
 )
 ;
 }
@@ -3194,7 +3194,7 @@ Operation
 aOp
 IOInterposeObserver
 *
-aObserver
+aStaticObserver
 )
 {
 if
@@ -3212,7 +3212,7 @@ sSourceList
 Unregister
 (
 aOp
-aObserver
+aStaticObserver
 )
 ;
 }
