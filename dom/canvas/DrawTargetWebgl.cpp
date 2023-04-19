@@ -10937,6 +10937,9 @@ false
 if
 (
 mDirtyAA
+|
+|
+aStrokeOptions
 )
 {
 /
@@ -10948,6 +10951,12 @@ supported
 for
 OP_SOURCE
 .
+Native
+lines
+use
+line
+smoothing
+.
 float
 aaData
 =
@@ -10958,6 +10967,9 @@ CompositionOp
 :
 :
 OP_SOURCE
+|
+|
+aStrokeOptions
 ?
 0
 .
@@ -10992,7 +11004,9 @@ aaData
 ;
 mDirtyAA
 =
-false
+!
+!
+aStrokeOptions
 ;
 }
 float
@@ -12423,6 +12437,9 @@ false
 if
 (
 mDirtyAA
+|
+|
+aStrokeOptions
 )
 {
 /
@@ -12434,6 +12451,12 @@ supported
 for
 OP_SOURCE
 .
+Native
+lines
+use
+line
+smoothing
+.
 float
 aaData
 =
@@ -12444,6 +12467,9 @@ CompositionOp
 :
 :
 OP_SOURCE
+|
+|
+aStrokeOptions
 ?
 0
 .
@@ -12478,7 +12504,9 @@ aaData
 ;
 mDirtyAA
 =
-false
+!
+!
+aStrokeOptions
 ;
 }
 DeviceColor
