@@ -13,6 +13,16 @@ if
 wasmFunctionReferencesEnabled
 (
 )
+|
+|
+wasmCompileMode
+(
+)
+=
+=
+"
+ion
+"
 let
 {
 plusOne
