@@ -157,8 +157,8 @@ algorithm
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -353,12 +353,10 @@ kDefaultMax
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

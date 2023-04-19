@@ -152,8 +152,8 @@ nsAttrValue
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -743,12 +743,10 @@ aValue
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

@@ -515,8 +515,8 @@ nsRange
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -12833,12 +12833,10 @@ aObj
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
