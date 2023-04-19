@@ -848,26 +848,6 @@ alias
 =
 alias
         
-task_expires
-=
-"
-2
-days
-"
-if
-attributes
-.
-get
-(
-"
-cached_task
-"
-)
-is
-False
-else
-expires
-        
 task
 =
 {
@@ -901,7 +881,25 @@ expires
 after
 "
 :
-task_expires
+"
+2
+days
+"
+            
+if
+attributes
+.
+get
+(
+"
+cached_task
+"
+)
+is
+False
+            
+else
+expires
             
 "
 label
@@ -1100,14 +1098,6 @@ worker
 /
 artifacts
 "
-                        
-"
-expires
--
-after
-"
-:
-task_expires
                     
 }
                 

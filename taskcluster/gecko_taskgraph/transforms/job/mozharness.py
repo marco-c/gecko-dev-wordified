@@ -144,8 +144,6 @@ setup_secrets
 docker_worker_add_artifacts
     
 generic_worker_add_artifacts
-    
-get_expiration
 )
 from
 gecko_taskgraph
@@ -1236,20 +1234,6 @@ type
 "
 directory
 "
-            
-"
-expires
--
-after
-"
-:
-get_expiration
-(
-config
-"
-medium
-"
-)
         
 }
     
@@ -2179,7 +2163,6 @@ append
 (
         
 {
-            
 "
 name
 "
@@ -2189,7 +2172,6 @@ public
 /
 logs
 "
-            
 "
 path
 "
@@ -2197,7 +2179,6 @@ path
 "
 logs
 "
-            
 "
 type
 "
@@ -2205,21 +2186,6 @@ type
 "
 directory
 "
-            
-"
-expires
--
-after
-"
-:
-get_expiration
-(
-config
-"
-medium
-"
-)
-        
 }
     
 )
