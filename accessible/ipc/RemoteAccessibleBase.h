@@ -2418,6 +2418,15 @@ friend
 class
 CachedTableCellAccessible
 ;
+#
+ifdef
+XP_WIN
+friend
+class
+sdnAccessible
+;
+#
+endif
 nsTArray
 <
 Derived
