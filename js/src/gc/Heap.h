@@ -4344,7 +4344,7 @@ lock
 )
 ;
 static
-TenuredChunk
+void
 *
 allocate
 (
@@ -4353,9 +4353,14 @@ GCRuntime
 gc
 )
 ;
-void
-init
+static
+TenuredChunk
+*
+emplace
 (
+void
+*
+ptr
 GCRuntime
 *
 gc
