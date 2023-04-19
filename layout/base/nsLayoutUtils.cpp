@@ -47912,6 +47912,9 @@ Auto
 :
 if
 (
+aPresContext
+&
+&
 aStyleFont
 -
 >
