@@ -303,6 +303,10 @@ GOBJECT_TRAITS
 (
 GCancellable
 )
+GOBJECT_TRAITS
+(
+GUnixFDList
+)
 #
 ifdef
 MOZ_ENABLE_DBUS
