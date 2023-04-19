@@ -162,6 +162,8 @@ inner
 :
 ReusableBoxFuture
 <
+'
+static
 (
 Result
 <
@@ -197,6 +199,7 @@ derive
 (
 Debug
 PartialEq
+Clone
 )
 ]
 pub
