@@ -5566,8 +5566,6 @@ JSContext
 cx
 uint64_t
 count
-HandleObject
-nonDefaultProto
 MutableHandle
 <
 ArrayBufferObject
@@ -5639,10 +5637,6 @@ space
 ;
 if
 (
-!
-nonDefaultProto
-&
-&
 byteLength
 <
 =
@@ -5680,7 +5674,6 @@ createZeroed
 (
 cx
 byteLength
-nonDefaultProto
 )
 ;
 if
@@ -5765,7 +5758,6 @@ maybeCreateArrayBuffer
 (
 cx
 nelements
-nullptr
 &
 buffer
 )
@@ -7007,7 +6999,6 @@ maybeCreateArrayBuffer
 (
 cx
 count
-nullptr
 buffer
 )
 ;
@@ -8098,7 +8089,6 @@ maybeCreateArrayBuffer
 (
 cx
 len
-nullptr
 &
 buffer
 )
@@ -8624,7 +8614,6 @@ maybeCreateArrayBuffer
 (
 cx
 len
-nullptr
 &
 buffer
 )
