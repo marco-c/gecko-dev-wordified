@@ -1457,7 +1457,10 @@ Promise
 :
 Create
 (
-GetIncumbentGlobal
+aStream
+-
+>
+GetParentObject
 (
 )
 aRv
