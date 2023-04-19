@@ -1827,6 +1827,9 @@ getBreakableLinesForSourceActors
 (
 state
 sourceActorIDs
+source
+.
+isHTML
 )
 ;
 }
