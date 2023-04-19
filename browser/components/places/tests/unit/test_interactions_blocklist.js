@@ -43,9 +43,9 @@ InteractionsBlocklist
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -61,7 +61,9 @@ modules
 /
 InteractionsBlocklist
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

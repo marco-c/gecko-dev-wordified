@@ -58,7 +58,7 @@ PlacesTransactions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +71,9 @@ modules
 /
 PlacesTransactions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
