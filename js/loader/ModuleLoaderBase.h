@@ -386,6 +386,14 @@ loader
 :
 ModuleLoadRequest
 ;
+virtual
+~
+ScriptLoaderInterface
+(
+)
+=
+default
+;
 /
 /
 In

@@ -2626,7 +2626,6 @@ override
 ;
 private
 :
-virtual
 ~
 ScriptLoader
 (
