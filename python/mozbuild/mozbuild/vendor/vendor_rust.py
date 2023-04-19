@@ -5327,7 +5327,7 @@ log
                     
 logging
 .
-WARNING
+ERROR
                     
 "
 cargo_vet_failed
@@ -5349,9 +5349,26 @@ version
 {
 missing_criteria
 }
+.
+"
+                    
+"
+Run
+.
+/
+mach
+cargo
+vet
+for
+more
+information
 "
                 
 )
+                
+failed
+=
+True
         
 if
 failed
