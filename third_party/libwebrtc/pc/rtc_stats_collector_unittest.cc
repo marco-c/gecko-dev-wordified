@@ -20603,12 +20603,6 @@ cricket
 :
 MEDIA_TYPE_DATA
 :
-case
-cricket
-:
-:
-MEDIA_TYPE_UNSUPPORTED
-:
 RTC_NOTREACHED
 (
 )
@@ -21033,12 +21027,6 @@ cricket
 :
 :
 MEDIA_TYPE_DATA
-:
-case
-cricket
-:
-:
-MEDIA_TYPE_UNSUPPORTED
 :
 RTC_NOTREACHED
 (
