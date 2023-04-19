@@ -195,8 +195,8 @@ gMediaControlLog
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 inline
@@ -1184,12 +1184,10 @@ aKey
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

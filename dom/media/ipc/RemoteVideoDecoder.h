@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 class
@@ -154,12 +154,10 @@ BufferRecycleBin
 /
 /
 namespace
-layers
-}
-/
-/
-namespace
 mozilla
+:
+:
+layers
 namespace
 mozilla
 {
