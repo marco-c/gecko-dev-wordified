@@ -132,13 +132,15 @@ waitFor
 >
 toolbox
 .
+commands
+.
+targetCommand
+.
 store
 .
 getState
 (
 )
-.
-targets
 .
 targets
 .
