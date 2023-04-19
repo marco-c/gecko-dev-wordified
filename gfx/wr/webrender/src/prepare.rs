@@ -4619,7 +4619,9 @@ prim_instance
 .
 vis
 .
-combined_local_clip_rect
+clip_chain
+.
+local_clip_rect
 dirty_rect
 plane_split_anchor
 )
@@ -5132,7 +5134,9 @@ tight_clip_rect
 =
 prim_vis
 .
-combined_local_clip_rect
+clip_chain
+.
+local_clip_rect
 .
 intersection
 (
@@ -6976,9 +6980,6 @@ write_brush_segment_description
 prim_local_rect
 :
 LayoutRect
-prim_local_clip_rect
-:
-LayoutRect
 clip_chain
 :
 &
@@ -7047,7 +7048,9 @@ initialize
 (
 prim_local_rect
 None
-prim_local_clip_rect
+clip_chain
+.
+local_clip_rect
 )
 ;
 /
@@ -8020,11 +8023,6 @@ if
 write_brush_segment_description
 (
 prim_local_rect
-instance
-.
-clip_set
-.
-local_clip_rect
 prim_clip_chain
 &
 mut

@@ -93,7 +93,7 @@ clip
 {
 ClipItemKey
 ClipItemKeyKind
-ClipChainId
+ClipNodeId
 }
 ;
 use
@@ -580,9 +580,9 @@ self
 spatial_node_index
 :
 SpatialNodeIndex
-clip_chain_id
+clip_node_id
 :
-ClipChainId
+ClipNodeId
 prim_info
 :
 &
@@ -1000,7 +1000,7 @@ self
 add_primitive
 (
 spatial_node_index
-clip_chain_id
+clip_node_id
 &
 LayoutPrimitiveInfo
 :
@@ -1429,7 +1429,7 @@ self
 add_primitive
 (
 spatial_node_index
-clip_chain_id
+clip_node_id
 &
 prim_info
 extra_clips

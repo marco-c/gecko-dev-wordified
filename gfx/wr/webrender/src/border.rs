@@ -95,7 +95,7 @@ crate
 clip
 :
 :
-ClipChainId
+ClipNodeId
 ;
 use
 crate
@@ -1430,9 +1430,9 @@ LayoutSideOffsets
 spatial_node_index
 :
 SpatialNodeIndex
-clip_chain_id
+clip_node_id
 :
-ClipChainId
+ClipNodeId
 )
 {
 let
@@ -1463,7 +1463,7 @@ self
 add_primitive
 (
 spatial_node_index
-clip_chain_id
+clip_node_id
 info
 Vec
 :
