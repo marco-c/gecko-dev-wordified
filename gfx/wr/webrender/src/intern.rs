@@ -2871,12 +2871,9 @@ TextRun
 filter_data
 :
 FilterDataIntern
-backdrop_capture
+backdrop
 :
-BackdropCapture
-backdrop_render
-:
-BackdropRender
+Backdrop
 polygon
 :
 PolygonIntern
