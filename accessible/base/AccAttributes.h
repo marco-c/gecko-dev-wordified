@@ -914,6 +914,7 @@ nsAtom
 *
 aAttrName
 )
+const
 {
 if
 (
