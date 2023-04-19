@@ -174,12 +174,6 @@ condprof
 platform
 )
 s
--
-%
-(
-scenario
-)
-s
 "
 PUBLIC_DIR
 =
@@ -1424,11 +1418,6 @@ mozilla
 -
 central
 "
-scenario
-=
-"
-settled
-"
 )
 :
     
@@ -1445,11 +1434,6 @@ repo
 "
 :
 repo
-"
-scenario
-"
-:
-scenario
 }
     
 changelog_url
