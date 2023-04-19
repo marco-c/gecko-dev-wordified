@@ -292,6 +292,9 @@ include
 protocol
 PCanvasManager
 ;
+include
+PWebGPUTypes
+;
 namespace
 mozilla
 {
@@ -507,7 +510,7 @@ size
 )
 returns
 (
-Shmem
+MaybeShmem
 sm
 )
 ;
