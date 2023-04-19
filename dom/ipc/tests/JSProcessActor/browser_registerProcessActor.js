@@ -42,9 +42,6 @@ register
 async
 test
 (
-_browser
-_window
-fileExt
 )
 {
 SimpleTest
@@ -63,9 +60,6 @@ registerContentActor
 TestProcessActor
 "
 processActorOptions
-[
-fileExt
-]
 )
 "
 Should
