@@ -6836,8 +6836,6 @@ don
 '
 t
 reflow
-if
-(
 RefPtr
 <
 nsViewManager
@@ -6850,6 +6848,10 @@ presShell
 GetViewManager
 (
 )
+;
+if
+(
+viewManager
 )
 {
 viewManager
@@ -6857,6 +6859,7 @@ viewManager
 >
 FlushDelayedResize
 (
+false
 )
 ;
 }

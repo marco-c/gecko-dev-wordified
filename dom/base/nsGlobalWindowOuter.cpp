@@ -24397,8 +24397,6 @@ of
 the
 presContext
 .
-if
-(
 RefPtr
 <
 nsViewManager
@@ -24411,6 +24409,10 @@ presShell
 GetViewManager
 (
 )
+;
+if
+(
+viewManager
 )
 {
 viewManager
@@ -24418,6 +24420,7 @@ viewManager
 >
 FlushDelayedResize
 (
+false
 )
 ;
 }
