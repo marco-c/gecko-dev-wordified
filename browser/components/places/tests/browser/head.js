@@ -3333,7 +3333,6 @@ tempFolder
 }
 registerCleanupFunction
 (
-async
 (
 )
 =
@@ -3352,15 +3351,6 @@ bookmarks
 .
 defaultLocation
 "
-)
-;
-await
-PlacesTransactions
-.
-clearTransactionsHistory
-(
-true
-true
 )
 ;
 }
