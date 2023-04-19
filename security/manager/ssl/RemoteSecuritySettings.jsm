@@ -1926,12 +1926,10 @@ download
 ;
 if
 (
+!
 waiting
 .
 length
-=
-=
-0
 )
 {
 /
@@ -3851,8 +3849,6 @@ if
 fullFiltersDownloaded
 .
 length
->
-0
 )
 {
 if
@@ -4081,8 +4077,6 @@ if
 concatenatedStashes
 .
 length
->
-0
 )
 {
 lazy

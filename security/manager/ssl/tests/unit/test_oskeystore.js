@@ -1945,11 +1945,11 @@ ok
 recoveryPhrase
 &
 &
+!
+!
 recoveryPhrase
 .
 length
->
-0
 "
 we
 should
@@ -2975,11 +2975,11 @@ ok
 recoveryPhrase
 &
 &
+!
+!
 recoveryPhrase
 .
 length
->
-0
 "
 we
 should

@@ -195,8 +195,6 @@ if
 expectedValues
 .
 length
->
-0
 )
 {
 await
@@ -216,6 +214,8 @@ labels
 value
 |
 |
+!
+!
 labels
 [
 1
@@ -224,8 +224,6 @@ labels
 textContent
 .
 length
->
-0
 "
 At
 least

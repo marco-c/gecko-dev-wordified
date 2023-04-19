@@ -2005,11 +2005,11 @@ list
 ;
 ok
 (
+!
+!
 data
 .
 length
->
-0
 "
 should
 have
@@ -2387,11 +2387,11 @@ list
 ;
 ok
 (
+!
+!
 data
 .
 length
->
-0
 "
 should
 have

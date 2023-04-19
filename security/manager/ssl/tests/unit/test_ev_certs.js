@@ -729,8 +729,6 @@ ocspResponder
 expectedOCSPRequestPaths
 .
 length
->
-0
 ?
 startOCSPResponder
 (

@@ -452,12 +452,10 @@ streams
 .
 if
 (
+!
 value
 .
 length
-=
-=
-0
 )
 {
 return

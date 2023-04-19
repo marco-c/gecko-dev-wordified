@@ -1145,8 +1145,6 @@ keyUsages
 purposes
 .
 length
->
-0
 )
 {
 detailLines
@@ -1183,8 +1181,6 @@ if
 emailAddresses
 .
 length
->
-0
 )
 {
 let
