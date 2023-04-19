@@ -8225,14 +8225,14 @@ true
 *
 The
 "
-clearMessagesCache
+clearMessagesCacheAsync
 "
 request
 handler
 .
 *
 /
-clearMessagesCache
+clearMessagesCacheAsync
 :
 function
 (
