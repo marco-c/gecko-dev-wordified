@@ -157,6 +157,7 @@ store
 next
 =
 >
+async
 action
 =
 >
@@ -212,6 +213,7 @@ if
 recording
 )
 {
+await
 connector
 .
 resume
