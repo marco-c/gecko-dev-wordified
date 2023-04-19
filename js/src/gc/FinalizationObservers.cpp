@@ -1496,7 +1496,11 @@ mutableEraseIf
 &
 ]
 (
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 &
 heapPtr
 )
@@ -2848,7 +2852,11 @@ mutableEraseIf
 &
 ]
 (
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 &
 obj
 )

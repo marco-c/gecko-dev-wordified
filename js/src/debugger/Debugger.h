@@ -4226,7 +4226,11 @@ in
 .
 *
 /
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 uncaughtExceptionHook
 ;
 /

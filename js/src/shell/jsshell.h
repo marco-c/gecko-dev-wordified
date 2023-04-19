@@ -1024,7 +1024,11 @@ NonshrinkingGCObjectVector
 public
 GCVector
 <
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 0
 SystemAllocPolicy
 >
@@ -1041,7 +1045,11 @@ trc
 {
 for
 (
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 &
 obj
 :

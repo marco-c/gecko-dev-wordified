@@ -9428,15 +9428,6 @@ namespace
 js
 {
 using
-HeapPtrObject
-=
-HeapPtr
-<
-JSObject
-*
->
-;
-using
 HeapPtrValue
 =
 HeapPtr

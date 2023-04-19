@@ -1486,7 +1486,11 @@ of
 if
 any
 .
-HeapPtrObject
+HeapPtr
+<
+JSObject
+*
+>
 memberOf
 ;
 /
