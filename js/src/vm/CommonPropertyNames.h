@@ -291,6 +291,15 @@ allowContentIter
 \
 MACRO_
 (
+allowContentIterWith
+allowContentIterWith
+"
+allowContentIterWith
+"
+)
+\
+MACRO_
+(
 ambiguous
 ambiguous
 "
