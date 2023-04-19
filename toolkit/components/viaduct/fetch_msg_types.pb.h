@@ -756,6 +756,9 @@ Request_Method_OPTIONS
 Request_Method_TRACE
 =
 7
+Request_Method_PATCH
+=
+8
 }
 ;
 bool
@@ -775,7 +778,7 @@ constexpr
 Request_Method
 Request_Method_Method_MAX
 =
-Request_Method_TRACE
+Request_Method_PATCH
 ;
 constexpr
 int
@@ -1056,7 +1059,6 @@ Request_HeadersEntry_DoNotUse
 (
 )
 ;
-explicit
 Request_HeadersEntry_DoNotUse
 (
 :
@@ -1928,6 +1930,13 @@ Method
 TRACE
 =
 Request_Method_TRACE
+;
+static
+constexpr
+Method
+PATCH
+=
+Request_Method_PATCH
 ;
 static
 inline
@@ -3315,7 +3324,6 @@ Response_HeadersEntry_DoNotUse
 (
 )
 ;
-explicit
 Response_HeadersEntry_DoNotUse
 (
 :
