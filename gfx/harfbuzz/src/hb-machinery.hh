@@ -1327,6 +1327,10 @@ get
 )
 )
 ;
+init
+(
+)
+;
 }
 void
 free_instance

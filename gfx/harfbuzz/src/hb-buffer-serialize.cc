@@ -216,7 +216,7 @@ static
 const
 char
 *
-serialize_formats
+_hb_buffer_serialize_formats
 [
 ]
 =
@@ -292,7 +292,7 @@ hb_buffer_serialize_list_formats
 )
 {
 return
-serialize_formats
+_hb_buffer_serialize_formats
 ;
 }
 /
@@ -525,7 +525,7 @@ case
 HB_BUFFER_SERIALIZE_FORMAT_TEXT
 :
 return
-serialize_formats
+_hb_buffer_serialize_formats
 [
 0
 ]
@@ -534,7 +534,7 @@ case
 HB_BUFFER_SERIALIZE_FORMAT_JSON
 :
 return
-serialize_formats
+_hb_buffer_serialize_formats
 [
 1
 ]
@@ -2647,7 +2647,7 @@ to
 the
 number
 of
-byes
+bytes
 written
 into
 buf
@@ -2679,7 +2679,7 @@ extents
 If
 %
 NULL
-and
+an
 empty
 font
 will
@@ -3418,7 +3418,7 @@ to
 the
 number
 of
-byes
+bytes
 written
 into
 buf
@@ -4084,7 +4084,7 @@ to
 the
 number
 of
-byes
+bytes
 written
 into
 buf
@@ -4116,7 +4116,7 @@ extents
 If
 %
 NULL
-and
+an
 empty
 font
 will

@@ -269,9 +269,7 @@ hb
 -
 ot
 -
-shape
--
-complex
+shaper
 .
 hh
 "
@@ -527,7 +525,7 @@ endif
 {
 shaper
 =
-hb_ot_shape_complex_categorize
+hb_ot_shaper_categorize
 (
 this
 )
@@ -577,12 +575,12 @@ shaper
 !
 =
 &
-_hb_ot_complex_shaper_default
+_hb_ot_shaper_default
 )
 shaper
 =
 &
-_hb_ot_complex_shaper_dumber
+_hb_ot_shaper_dumber
 ;
 }
 void
@@ -6121,7 +6119,7 @@ glyph_index
 static
 inline
 void
-hb_ot_substitute_complex
+hb_ot_substitute_plan
 (
 const
 hb_ot_shape_context_t
@@ -6205,7 +6203,7 @@ c
 buffer
 )
 ;
-hb_ot_substitute_complex
+hb_ot_substitute_plan
 (
 c
 )
@@ -6843,7 +6841,7 @@ buffer
 static
 inline
 void
-hb_ot_position_complex
+hb_ot_position_plan
 (
 const
 hb_ot_shape_context_t
@@ -7425,7 +7423,7 @@ hb_ot_position_default
 c
 )
 ;
-hb_ot_position_complex
+hb_ot_position_plan
 (
 c
 )
@@ -7610,16 +7608,6 @@ hb_ot_shape_context_t
 c
 )
 {
-c
--
->
-buffer
--
->
-enter
-(
-)
-;
 /
 *
 Save

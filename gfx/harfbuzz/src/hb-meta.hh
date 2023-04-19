@@ -2025,7 +2025,10 @@ T
 value
 #
 if
-__GNUG__
+defined
+(
+__GNUC__
+)
 &
 &
 __GNUC__

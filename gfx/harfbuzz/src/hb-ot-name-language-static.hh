@@ -312,7 +312,7 @@ lang
 static
 const
 hb_ot_language_map_t
-hb_ms_language_map
+_hb_ms_language_map
 [
 ]
 =
@@ -3950,7 +3950,7 @@ fr
 static
 const
 hb_ot_language_map_t
-hb_mac_language_map
+_hb_mac_language_map
 [
 ]
 =
@@ -5386,10 +5386,10 @@ return
 _hb_ot_name_language_for
 (
 code
-hb_ms_language_map
+_hb_ms_language_map
 ARRAY_LENGTH
 (
-hb_ms_language_map
+_hb_ms_language_map
 )
 )
 ;
@@ -5406,10 +5406,10 @@ return
 _hb_ot_name_language_for
 (
 code
-hb_mac_language_map
+_hb_mac_language_map
 ARRAY_LENGTH
 (
-hb_mac_language_map
+_hb_mac_language_map
 )
 )
 ;

@@ -193,7 +193,7 @@ exit
 (
 77
 )
-cxxflit
+cxxfilt
 =
 shutil
 .
@@ -406,14 +406,14 @@ again
 c
 +
 +
-flit
+filt
 also
 if
 is
 available
 		
 if
-cxxflit
+cxxfilt
 :
 			
 EXPORTED_SYMBOLS
@@ -424,7 +424,7 @@ check_output
 (
 				
 [
-cxxflit
+cxxfilt
 ]
 input
 =

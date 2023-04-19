@@ -223,9 +223,7 @@ hb
 -
 ot
 -
-shape
--
-complex
+shaper
 .
 hh
 "
@@ -554,7 +552,6 @@ decomposition
 *
 -
 The
-complex
 shapers
 can
 customize
@@ -975,13 +972,9 @@ return
 1
 ;
 }
-unsigned
-int
-ret
-;
 if
 (
-(
+unsigned
 ret
 =
 decompose
@@ -989,7 +982,6 @@ decompose
 c
 shortest
 a
-)
 )
 )
 {
@@ -1392,7 +1384,6 @@ HB_UNUSED
 {
 /
 *
-TODO
 Currently
 if
 there
@@ -1406,6 +1397,8 @@ we
 give
 -
 up
+on
+normalization
 it
 '
 s
@@ -2618,7 +2611,7 @@ end
 -
 i
 >
-HB_OT_SHAPE_COMPLEX_MAX_COMBINING_MARKS
+HB_OT_SHAPE_MAX_COMBINING_MARKS
 )
 {
 i

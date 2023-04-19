@@ -841,9 +841,6 @@ endif
 *
 hb_unicode_funcs_create
 :
-(
-Xconstructor
-)
 *
 parent
 :

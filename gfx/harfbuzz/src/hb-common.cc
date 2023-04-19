@@ -959,6 +959,7 @@ tag
 hb_direction_t
 *
 /
+static
 const
 char
 direction_strings

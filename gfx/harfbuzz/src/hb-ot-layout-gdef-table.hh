@@ -3495,7 +3495,7 @@ klass
 default
 :
 return
-0
+HB_OT_LAYOUT_GLYPH_CLASS_UNCLASSIFIED
 ;
 case
 BaseGlyph

@@ -180,7 +180,6 @@ OR
 MODIFICATIONS
 .
 *
-*
 /
 #
 include

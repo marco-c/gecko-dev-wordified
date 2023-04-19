@@ -7321,6 +7321,9 @@ Zulu
 /
 }
 ;
+#
+ifndef
+HB_NO_LANGUAGE_LONG
 static
 const
 LangTag
@@ -60128,6 +60131,8 @@ Zhuang
 /
 }
 ;
+#
+endif
 /
 *
 *
@@ -60246,6 +60251,7 @@ retrieved
 *
 /
 static
+inline
 bool
 hb_ot_tags_from_complex_language
 (
@@ -71644,6 +71650,7 @@ ambiguous
 *
 /
 static
+inline
 hb_language_t
 hb_ot_ambiguous_tag_to_language
 (

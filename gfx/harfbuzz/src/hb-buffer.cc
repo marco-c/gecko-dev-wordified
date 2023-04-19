@@ -509,6 +509,7 @@ p
 {
 return
 (
+(
 unsigned
 int
 )
@@ -516,7 +517,9 @@ p
 -
 >
 direction
-^
+*
+31
++
 (
 unsigned
 int
@@ -525,7 +528,10 @@ p
 -
 >
 script
-^
+)
+*
+31
++
 (
 intptr_t
 )
@@ -1671,6 +1677,10 @@ successful
 =
 true
 ;
+shaping_failed
+=
+false
+;
 have_output
 =
 false
@@ -1739,6 +1749,10 @@ deallocate_var_all
 serial
 =
 0
+;
+shaping_failed
+=
+false
 ;
 scratch_flags
 =
@@ -1823,6 +1837,19 @@ serial
 =
 0
 ;
+/
+/
+Intentionally
+not
+reseting
+shaping_failed
+such
+that
+it
+can
+be
+inspected
+.
 }
 void
 hb_buffer_t
@@ -2989,6 +3016,7 @@ cluster
 ;
 if
 (
+(
 idx
 +
 1
@@ -3007,6 +3035,25 @@ idx
 ]
 .
 cluster
+)
+|
+|
+(
+out_len
+&
+&
+cluster
+=
+=
+out_info
+[
+out_len
+-
+1
+]
+.
+cluster
+)
 )
 {
 /
@@ -3394,6 +3441,12 @@ false
 successful
 *
 /
+true
+/
+*
+shaping_failed
+*
+/
 false
 /
 *
@@ -3426,9 +3479,6 @@ else
 *
 hb_buffer_create
 :
-(
-Xconstructor
-)
 *
 *
 Creates
@@ -4416,6 +4466,7 @@ Since
 hb_buffer_content_type_t
 hb_buffer_get_content_type
 (
+const
 hb_buffer_t
 *
 buffer
@@ -4580,6 +4631,7 @@ hb_unicode_funcs_t
 *
 hb_buffer_get_unicode_funcs
 (
+const
 hb_buffer_t
 *
 buffer
@@ -4787,6 +4839,7 @@ Since
 hb_direction_t
 hb_buffer_get_direction
 (
+const
 hb_buffer_t
 *
 buffer
@@ -4996,6 +5049,7 @@ Since
 hb_script_t
 hb_buffer_get_script
 (
+const
 hb_buffer_t
 *
 buffer
@@ -5213,6 +5267,7 @@ Since
 hb_language_t
 hb_buffer_get_language
 (
+const
 hb_buffer_t
 *
 buffer
@@ -5368,6 +5423,7 @@ Since
 void
 hb_buffer_get_segment_properties
 (
+const
 hb_buffer_t
 *
 buffer
@@ -5504,6 +5560,7 @@ Since
 hb_buffer_flags_t
 hb_buffer_get_flags
 (
+const
 hb_buffer_t
 *
 buffer
@@ -5678,6 +5735,7 @@ Since
 hb_buffer_cluster_level_t
 hb_buffer_get_cluster_level
 (
+const
 hb_buffer_t
 *
 buffer
@@ -5838,6 +5896,7 @@ Since
 hb_codepoint_t
 hb_buffer_get_replacement_codepoint
 (
+const
 hb_buffer_t
 *
 buffer
@@ -6000,6 +6059,7 @@ Since
 hb_codepoint_t
 hb_buffer_get_invisible_glyph
 (
+const
 hb_buffer_t
 *
 buffer
@@ -6169,6 +6229,7 @@ Since
 hb_codepoint_t
 hb_buffer_get_not_found_glyph
 (
+const
 hb_buffer_t
 *
 buffer
@@ -6876,6 +6937,7 @@ unsigned
 int
 hb_buffer_get_length
 (
+const
 hb_buffer_t
 *
 buffer
