@@ -52,7 +52,7 @@ HandleFunction
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -96,7 +96,7 @@ HandleId
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -140,7 +140,7 @@ HandleObject
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -184,7 +184,7 @@ HandleScript
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -228,7 +228,7 @@ HandleString
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -272,7 +272,7 @@ HandleSymbol
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -316,7 +316,7 @@ HandleBigInt
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -360,7 +360,7 @@ HandleValue
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -404,7 +404,7 @@ HandleValueVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -448,7 +448,7 @@ HandleObjectVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -492,7 +492,7 @@ HandleIdVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -536,7 +536,7 @@ MutableHandleFunction
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -580,7 +580,7 @@ MutableHandleId
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -624,7 +624,7 @@ MutableHandleObject
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -668,7 +668,7 @@ MutableHandleScript
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -712,7 +712,7 @@ MutableHandleString
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -756,7 +756,7 @@ MutableHandleSymbol
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -800,7 +800,7 @@ MutableHandleBigInt
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -844,7 +844,7 @@ MutableHandleValue
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -888,7 +888,7 @@ MutableHandleValueVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -932,7 +932,7 @@ MutableHandleObjectVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -976,7 +976,7 @@ MutableHandleIdVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1522,7 +1522,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1564,7 +1564,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1606,7 +1606,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1648,7 +1648,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1690,7 +1690,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1732,7 +1732,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1774,7 +1774,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1816,7 +1816,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1858,7 +1858,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1900,7 +1900,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1942,7 +1942,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -1984,7 +1984,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2026,7 +2026,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2068,7 +2068,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2110,7 +2110,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2152,7 +2152,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2194,7 +2194,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2236,7 +2236,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2278,7 +2278,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2320,7 +2320,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2362,7 +2362,7 @@ aCx
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2404,7 +2404,7 @@ RootedFunction
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2446,7 +2446,7 @@ RootedId
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2488,7 +2488,7 @@ RootedObject
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2530,7 +2530,7 @@ RootedScript
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2572,7 +2572,7 @@ RootedString
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2614,7 +2614,7 @@ RootedSymbol
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2656,7 +2656,7 @@ RootedBigInt
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2698,7 +2698,7 @@ RootedValue
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2740,7 +2740,7 @@ RootedValueVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2782,7 +2782,7 @@ RootedObjectVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2824,7 +2824,7 @@ RootedIdVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2867,7 +2867,7 @@ RootedFunction
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2910,7 +2910,7 @@ RootedId
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2953,7 +2953,7 @@ RootedObject
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -2996,7 +2996,7 @@ RootedScript
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -3039,7 +3039,7 @@ RootedString
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -3082,7 +3082,7 @@ RootedSymbol
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -3125,7 +3125,7 @@ RootedBigInt
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -3168,7 +3168,7 @@ RootedValue
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -3211,7 +3211,7 @@ RootedValueVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -3254,7 +3254,7 @@ RootedObjectVector
 /
 expected
 -
-warning
+error
 {
 {
 The
@@ -3297,7 +3297,7 @@ RootedIdVector
 /
 expected
 -
-warning
+error
 {
 {
 The
