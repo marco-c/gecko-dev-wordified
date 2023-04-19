@@ -83,9 +83,6 @@ the
 session
 file
 .
-var
-profd
-=
 do_get_profile
 (
 )

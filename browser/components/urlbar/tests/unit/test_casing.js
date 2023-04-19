@@ -64,13 +64,6 @@ Autofill
 "
 ;
 const
-HEURISTIC_FALLBACK_PROVIDERNAME
-=
-"
-HeuristicFallback
-"
-;
-const
 PLACES_PROVIDERNAME
 =
 "
