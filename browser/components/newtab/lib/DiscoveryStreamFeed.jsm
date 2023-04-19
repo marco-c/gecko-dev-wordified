@@ -11732,9 +11732,11 @@ items
 spocPositions
 =
 [
-2
-4
+1
+5
+7
 11
+18
 20
 ]
 sponsoredCollectionsEnabled
