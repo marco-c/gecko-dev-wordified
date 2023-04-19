@@ -4387,7 +4387,6 @@ class
 OptimizedBackend
 {
 Ion
-Cranelift
 }
 ;
 /

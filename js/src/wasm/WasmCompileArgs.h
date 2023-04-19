@@ -761,9 +761,6 @@ bool
 ionEnabled
 ;
 bool
-craneliftEnabled
-;
-bool
 debugEnabled
 ;
 bool
@@ -919,10 +916,6 @@ baselineEnabled
 false
 )
 ionEnabled
-(
-false
-)
-craneliftEnabled
 (
 false
 )
