@@ -131,6 +131,13 @@ utility
 #
 include
 "
+AutoRangeArray
+.
+h
+"
+#
+include
+"
 EditAction
 .
 h

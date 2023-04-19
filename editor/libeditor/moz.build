@@ -232,6 +232,11 @@ UNIFIED_SOURCES
 =
 [
 "
+AutoRangeArray
+.
+cpp
+"
+"
 ChangeAttributeTransaction
 .
 cpp

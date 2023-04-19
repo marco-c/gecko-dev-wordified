@@ -103,6 +103,17 @@ h
 #
 include
 "
+AutoRangeArray
+.
+h
+"
+/
+/
+for
+AutoRangeArray
+#
+include
+"
 EditorUtils
 .
 h

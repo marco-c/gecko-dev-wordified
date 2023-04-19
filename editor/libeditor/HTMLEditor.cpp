@@ -103,6 +103,13 @@ h
 #
 include
 "
+AutoRangeArray
+.
+h
+"
+#
+include
+"
 EditAction
 .
 h

@@ -139,6 +139,17 @@ strcmp
 #
 include
 "
+AutoRangeArray
+.
+h
+"
+/
+/
+for
+AutoRangeArray
+#
+include
+"
 ChangeAttributeTransaction
 .
 h
