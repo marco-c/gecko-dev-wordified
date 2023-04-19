@@ -8000,6 +8000,8 @@ browser
 .
 privacySegmentation
 .
+windowSeparation
+.
 enabled
 "
 false
