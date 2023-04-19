@@ -7487,7 +7487,7 @@ br
 >
 element
 into
-aInsertToBreak
+aPointToBreak
 .
 *
 This
@@ -7524,7 +7524,7 @@ necessary
 *
 *
 param
-aInsertToBreak
+aPointToBreak
 The
 point
 where
@@ -7577,7 +7577,7 @@ HandleInsertBRElement
 const
 EditorDOMPoint
 &
-aInsertToBreak
+aPointToBreak
 const
 Element
 &
