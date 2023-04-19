@@ -2740,6 +2740,15 @@ off
 NimbusFeatures
 :
 {
+glean
+:
+{
+getVariable
+(
+)
+{
+}
+}
 newtab
 :
 {
