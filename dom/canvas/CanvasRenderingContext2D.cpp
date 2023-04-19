@@ -13455,7 +13455,7 @@ GetAsHTMLVideoElement
 ;
 video
 .
-MarkAsContentSource
+LogVisibility
 (
 mozilla
 :
@@ -30107,7 +30107,7 @@ GetAsHTMLVideoElement
 video
 -
 >
-MarkAsContentSource
+LogVisibility
 (
 mozilla
 :
