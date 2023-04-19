@@ -3045,6 +3045,9 @@ TokenStreamAnyChars
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ReadOnlyCompileOptions
 &
@@ -3060,7 +3063,7 @@ cx
 )
 ec
 (
-cx
+ec
 )
 options_
 (
@@ -3696,7 +3699,6 @@ metadata
 ;
 ReportCompileErrorLatin1
 (
-&
 ec
 cx
 std
@@ -6702,7 +6704,6 @@ break
 }
 ReportCompileErrorLatin1
 (
-&
 anyChars
 .
 ec

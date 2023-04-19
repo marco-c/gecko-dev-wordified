@@ -4390,6 +4390,12 @@ data
 )
 )
 {
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 JS
 :
 :
@@ -4403,6 +4409,8 @@ DummyTokenStream
 dummyTokenStream
 (
 cx
+&
+ec
 options
 )
 ;

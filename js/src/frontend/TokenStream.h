@@ -4281,8 +4281,9 @@ JSContext
 const
 cx
 ;
-mutable
-GeneralErrorContext
+ErrorContext
+*
+const
 ec
 ;
 /
@@ -5556,6 +5557,9 @@ TokenStreamAnyChars
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -6520,7 +6524,6 @@ context
 const
 {
 return
-&
 ec
 ;
 }
@@ -18602,7 +18605,6 @@ const
 override
 {
 return
-&
 anyCharsAccess
 (
 )
@@ -21437,6 +21439,9 @@ TokenStream
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 *
 parserAtoms
@@ -21461,6 +21466,7 @@ smg
 TokenStreamAnyChars
 (
 cx
+ec
 options
 smg
 )
@@ -21495,6 +21501,9 @@ DummyTokenStream
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -21507,6 +21516,7 @@ options
 TokenStream
 (
 cx
+ec
 nullptr
 options
 nullptr
