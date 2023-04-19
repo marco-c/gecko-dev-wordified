@@ -6543,7 +6543,7 @@ CacheEntry
 :
 GetFetchCount
 (
-int32_t
+uint32_t
 *
 aFetchCount
 )
@@ -6560,14 +6560,7 @@ mFile
 >
 GetFetchCount
 (
-reinterpret_cast
-<
-uint32_t
-*
->
-(
 aFetchCount
-)
 )
 ;
 }

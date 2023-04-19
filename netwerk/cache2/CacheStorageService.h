@@ -670,7 +670,7 @@ nsACString
 aIdEnhance
 int64_t
 aDataSize
-int32_t
+uint32_t
 aFetchCount
 uint32_t
 aLastModifiedTime
