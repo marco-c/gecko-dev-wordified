@@ -4112,6 +4112,15 @@ progress
                                 
 continue
                             
+if
+metric
+not
+in
+measure
+:
+                                
+continue
+                            
 val
 =
 cycle
