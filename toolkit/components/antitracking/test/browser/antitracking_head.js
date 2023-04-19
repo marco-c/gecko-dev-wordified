@@ -1890,6 +1890,16 @@ true
 "
 privacy
 .
+partition
+.
+non_cookie_storage
+"
+true
+]
+[
+"
+privacy
+.
 trackingprotection
 .
 enabled
