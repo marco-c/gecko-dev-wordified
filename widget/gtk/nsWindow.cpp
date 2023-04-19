@@ -35649,16 +35649,6 @@ aInitData
 >
 mNoAutoHide
 ;
-mMouseTransparent
-=
-aInitData
-&
-&
-aInitData
--
->
-mMouseTransparent
-;
 /
 /
 Popups
