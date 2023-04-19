@@ -1277,9 +1277,6 @@ object
 is
 set
 as
-mPrt
--
->
 mSelectionRoot
 .
 *
@@ -1371,9 +1368,6 @@ printisfocuseddoc
 )
 )
 {
-mPrt
--
->
 mSelectionRoot
 =
 aParentPO
@@ -1387,9 +1381,6 @@ else
 if
 (
 !
-mPrt
--
->
 mSelectionRoot
 &
 &
@@ -1451,9 +1442,6 @@ nsPrintObjects
 containing
 selections
 .
-mPrt
--
->
 mSelectionRoot
 =
 mPrt
@@ -16449,9 +16437,6 @@ NS_ENSURE_STATE
 mDisallowSelectionPrint
 &
 &
-printData
--
->
 mSelectionRoot
 )
 ;
@@ -16478,9 +16463,6 @@ point
 .
 if
 (
-printData
--
->
 mSelectionRoot
 -
 >
@@ -16491,9 +16473,6 @@ eIFrame
 &
 &
 !
-printData
--
->
 mSelectionRoot
 -
 >
@@ -16502,9 +16481,6 @@ HasSelection
 )
 )
 {
-printData
--
->
 mSelectionRoot
 -
 >
@@ -16527,9 +16503,6 @@ have
 a
 selection
 .
-printData
--
->
 mSelectionRoot
 -
 >
@@ -17159,9 +17132,6 @@ hasSelection
 mDisallowSelectionPrint
 &
 &
-printData
--
->
 mSelectionRoot
 ;
 /
