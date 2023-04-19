@@ -757,6 +757,13 @@ check_uptake
 "
 :
 False
+#
+XXX
+enable
+when
+esr91
+is
+EOL
             
 "
 platforms
@@ -810,7 +817,7 @@ SSL
 check_uptake
 "
 :
-False
+True
             
 "
 platforms
