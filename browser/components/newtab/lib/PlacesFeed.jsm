@@ -3658,12 +3658,6 @@ break
 }
 }
 }
-this
-.
-PlacesFeed
-=
-PlacesFeed
-;
 /
 /
 Exported

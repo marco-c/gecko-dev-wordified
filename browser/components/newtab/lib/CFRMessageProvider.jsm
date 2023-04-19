@@ -4700,12 +4700,6 @@ exclude
 }
 }
 ;
-this
-.
-CFRMessageProvider
-=
-CFRMessageProvider
-;
 const
 EXPORTED_SYMBOLS
 =

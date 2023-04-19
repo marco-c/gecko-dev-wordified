@@ -2216,12 +2216,6 @@ portID
 ;
 }
 }
-this
-.
-DEFAULT_OPTIONS
-=
-DEFAULT_OPTIONS
-;
 const
 EXPORTED_SYMBOLS
 =

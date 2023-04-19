@@ -8436,12 +8436,6 @@ break
 }
 }
 }
-this
-.
-DEFAULT_TOP_SITES
-=
-DEFAULT_TOP_SITES
-;
 const
 EXPORTED_SYMBOLS
 =

@@ -230,12 +230,6 @@ break
 }
 }
 }
-this
-.
-SYSTEM_TICK_INTERVAL
-=
-SYSTEM_TICK_INTERVAL
-;
 const
 EXPORTED_SYMBOLS
 =

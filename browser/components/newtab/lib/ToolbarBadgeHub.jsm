@@ -1866,12 +1866,6 @@ this
 ;
 }
 }
-this
-.
-_ToolbarBadgeHub
-=
-_ToolbarBadgeHub
-;
 /
 *
 *

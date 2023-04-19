@@ -691,12 +691,6 @@ true
 }
 }
 ;
-this
-.
-Spotlight
-=
-Spotlight
-;
 const
 EXPORTED_SYMBOLS
 =

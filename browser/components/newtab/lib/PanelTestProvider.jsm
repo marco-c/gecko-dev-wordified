@@ -3466,12 +3466,6 @@ SHOW_TEST
 }
 }
 ;
-this
-.
-PanelTestProvider
-=
-PanelTestProvider
-;
 const
 EXPORTED_SYMBOLS
 =

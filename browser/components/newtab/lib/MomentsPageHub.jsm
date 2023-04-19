@@ -961,12 +961,6 @@ false
 ;
 }
 }
-this
-.
-_MomentsPageHub
-=
-_MomentsPageHub
-;
 /
 *
 *
