@@ -1594,6 +1594,13 @@ referrerInfo
 nullptr
 storageAccess
 isThirdPartyContextToTopWindow
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+principal
+)
 /
 /
 Origin

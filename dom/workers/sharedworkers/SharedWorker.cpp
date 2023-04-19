@@ -1575,6 +1575,9 @@ IsThirdPartyWindow
 window
 nullptr
 )
+loadInfo
+.
+mShouldResistFingerprinting
 OriginTrials
 :
 :
