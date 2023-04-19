@@ -151,18 +151,6 @@ properties
 )
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-crypto
-"
-]
-)
-;
 /
 /
 getCryptoParamsFromHeaders
@@ -1750,8 +1738,6 @@ this
 .
 keyPromise
 =
-lazy
-.
 crypto
 .
 subtle
@@ -1793,8 +1779,6 @@ then
 k
 =
 >
-lazy
-.
 crypto
 .
 subtle
@@ -2331,8 +2315,6 @@ let
 key
 =
 await
-lazy
-.
 crypto
 .
 subtle
@@ -2542,8 +2524,6 @@ Promise
 all
 (
 [
-lazy
-.
 crypto
 .
 subtle
@@ -2564,8 +2544,6 @@ deriveBits
 "
 ]
 )
-lazy
-.
 crypto
 .
 subtle
@@ -2590,8 +2568,6 @@ deriveBits
 )
 ;
 return
-lazy
-.
 crypto
 .
 subtle
@@ -2805,8 +2781,6 @@ let
 decoded
 =
 await
-lazy
-.
 crypto
 .
 subtle
@@ -4098,8 +4072,6 @@ generateAuthenticationSecret
 )
 {
 return
-lazy
-.
 crypto
 .
 getRandomValues
@@ -4118,8 +4090,6 @@ key
 )
 {
 return
-lazy
-.
 crypto
 .
 subtle
@@ -4153,8 +4123,6 @@ generateKeys
 )
 {
 return
-lazy
-.
 crypto
 .
 subtle
@@ -4180,8 +4148,6 @@ Promise
 all
 (
 [
-lazy
-.
 crypto
 .
 subtle
@@ -4195,8 +4161,6 @@ cryptoKey
 .
 publicKey
 )
-lazy
-.
 crypto
 .
 subtle
@@ -4767,8 +4731,6 @@ senderKeyPair
 |
 (
 await
-lazy
-.
 crypto
 .
 subtle
@@ -4806,8 +4768,6 @@ options
 salt
 |
 |
-lazy
-.
 crypto
 .
 getRandomValues
@@ -4951,8 +4911,6 @@ const
 rawSenderPublicKey
 =
 await
-lazy
-.
 crypto
 .
 subtle
@@ -4988,8 +4946,6 @@ const
 contentEncryptionKey
 =
 await
-lazy
-.
 crypto
 .
 subtle
@@ -5127,8 +5083,6 @@ chunks
 =
 [
 await
-lazy
-.
 crypto
 .
 subtle
@@ -5257,8 +5211,6 @@ padding
 )
 ;
 return
-lazy
-.
 crypto
 .
 subtle
@@ -5430,8 +5382,6 @@ const
 receiverPublicCryptoKey
 =
 await
-lazy
-.
 crypto
 .
 subtle
@@ -5452,8 +5402,6 @@ deriveBits
 )
 ;
 return
-lazy
-.
 crypto
 .
 subtle

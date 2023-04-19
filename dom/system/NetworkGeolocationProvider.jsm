@@ -169,18 +169,6 @@ jsm
 }
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
 /
 /
 GeolocationPositionError
@@ -2886,8 +2874,6 @@ let
 req
 =
 await
-lazy
-.
 fetch
 (
 url

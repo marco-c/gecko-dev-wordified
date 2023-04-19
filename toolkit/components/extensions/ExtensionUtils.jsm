@@ -192,18 +192,6 @@ jsm
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
 /
 /
 xpcshell
@@ -2102,8 +2090,6 @@ try
 response
 =
 await
-lazy
-.
 fetch
 (
 iconUrl

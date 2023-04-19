@@ -265,18 +265,6 @@ lazy
 ;
 XPCOMUtils
 .
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
-XPCOMUtils
-.
 defineLazyGetter
 (
 lazy
@@ -3778,8 +3766,6 @@ buffer
 await
 (
 await
-lazy
-.
 fetch
 (
 localURI

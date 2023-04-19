@@ -215,18 +215,6 @@ jsm
 ;
 XPCOMUtils
 .
-defineLazyGlobalGetters
-(
-lazy
-[
-"
-fetch
-"
-]
-)
-;
-XPCOMUtils
-.
 defineLazyPreferenceGetter
 (
 lazy
@@ -4876,8 +4864,6 @@ Promise
 race
 (
 [
-lazy
-.
 fetch
 (
 url
