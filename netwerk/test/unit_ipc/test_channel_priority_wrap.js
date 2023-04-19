@@ -58,12 +58,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-HttpServer
-*
-/
 const
 {
 HttpServer

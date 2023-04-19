@@ -636,6 +636,12 @@ metadata
 response
 )
 {
+let
+authorization
+;
+let
+authPrefix
+;
 switch
 (
 requestsMade
@@ -706,7 +712,6 @@ message
 from
 the
 client
-var
 authorization
 =
 metadata
@@ -720,7 +725,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -803,7 +807,6 @@ web
 server
 auth
 sequence
-var
 authorization
 =
 metadata
@@ -817,7 +820,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -890,7 +892,6 @@ message
 from
 the
 client
-var
 authorization
 =
 metadata
@@ -902,7 +903,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -973,7 +973,6 @@ message
 from
 the
 client
-var
 authorization
 =
 metadata
@@ -985,7 +984,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -1039,7 +1037,6 @@ further
 requests
 are
 permitted
-var
 authorization
 =
 metadata
@@ -1051,7 +1048,6 @@ Authorization
 "
 )
 ;
-var
 authorization
 =
 metadata
@@ -1128,6 +1124,12 @@ metadata
 response
 )
 {
+let
+authorization
+;
+let
+authPrefix
+;
 switch
 (
 requestsMade
@@ -1196,7 +1198,6 @@ message
 from
 the
 client
-var
 authorization
 =
 metadata
@@ -1210,7 +1211,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -1292,7 +1292,6 @@ invalid
 credentials
 /
 /
-var
 authorization
 =
 metadata
@@ -1306,7 +1305,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -1482,6 +1480,12 @@ metadata
 response
 )
 {
+let
+authorization
+;
+let
+authPrefix
+;
 switch
 (
 requestsMade
@@ -1549,7 +1553,6 @@ message
 from
 the
 client
-var
 authorization
 =
 metadata
@@ -1563,7 +1566,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -1644,7 +1646,6 @@ start
 web
 server
 auth
-var
 authorization
 =
 metadata
@@ -1658,7 +1659,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -1731,7 +1731,6 @@ message
 from
 the
 client
-var
 authorization
 =
 metadata
@@ -1743,7 +1742,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -1826,7 +1824,6 @@ the
 auth
 sequence
 .
-var
 authorization
 =
 metadata
@@ -1838,7 +1835,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
