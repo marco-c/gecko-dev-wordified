@@ -965,7 +965,8 @@ items
         
 if
 value
-is
+=
+=
 '
 '
 :
