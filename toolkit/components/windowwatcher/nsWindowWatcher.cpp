@@ -14706,12 +14706,12 @@ of
 the
 screen
 .
-*
-/
 DesktopIntCoord
 left
 =
 0
+;
+DesktopIntCoord
 top
 =
 0
@@ -14720,6 +14720,8 @@ CSSIntCoord
 width
 =
 0
+;
+CSSIntCoord
 height
 =
 0
@@ -14736,6 +14738,8 @@ CSSIntCoord
 chromeWidth
 =
 0
+;
+CSSIntCoord
 chromeHeight
 =
 0
@@ -14756,6 +14760,8 @@ bool
 sizeChromeWidth
 =
 true
+;
+bool
 sizeChromeHeight
 =
 true
