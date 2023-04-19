@@ -23177,7 +23177,7 @@ RGBA
 {
 color
 .
-to_rgba
+into_rgba
 (
 self
 .

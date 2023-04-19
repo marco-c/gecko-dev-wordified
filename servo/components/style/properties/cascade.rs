@@ -2508,7 +2508,7 @@ to_computed_value
 context
 )
 .
-to_rgba
+into_rgba
 (
 RGBA
 :
