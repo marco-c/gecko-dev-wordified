@@ -20938,7 +20938,7 @@ type
 IPCDataTransferData
 :
 :
-TIPCDataTransferBlob
+TIPCBlob
 )
 {
 hasFiles
@@ -21118,7 +21118,7 @@ type
 IPCDataTransferData
 :
 :
-TIPCDataTransferBlob
+TIPCBlob
 ;
 dataTransfer
 -
