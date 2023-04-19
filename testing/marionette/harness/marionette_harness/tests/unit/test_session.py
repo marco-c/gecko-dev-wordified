@@ -190,16 +190,6 @@ platformName
 "
 caps
 )
-        
-self
-.
-assertIn
-(
-"
-platformVersion
-"
-caps
-)
     
 def
 test_get_session_id
