@@ -139,6 +139,15 @@ on
 AVAudioSession
 .
 RTCDispatcherTypeAudioSession
+/
+/
+Used
+for
+operations
+on
+NWPathMonitor
+.
+RTCDispatcherTypeNetworkMonitor
 }
 ;
 /
