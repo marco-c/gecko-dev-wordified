@@ -11466,6 +11466,8 @@ nsACString
 idEnhance
 int64_t
 dataSize
+int64_t
+altDataSize
 uint32_t
 fetchCount
 uint32_t
