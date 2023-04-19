@@ -414,7 +414,7 @@ safepoints_
 graph
 -
 >
-totalSlotsSize
+localSlotsSize
 (
 )
 (
