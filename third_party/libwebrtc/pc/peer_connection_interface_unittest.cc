@@ -22264,13 +22264,12 @@ that
 the
 RtpTransceivers
 are
-no
-longer
+still
 returned
 .
 EXPECT_EQ
 (
-0u
+2u
 pc_
 -
 >
