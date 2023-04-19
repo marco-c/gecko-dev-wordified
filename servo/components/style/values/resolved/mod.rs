@@ -654,6 +654,15 @@ specified
 AllowedNumericType
 )
 ;
+trivial_to_resolved_value
+!
+(
+computed
+:
+:
+TimingFunction
+)
+;
 impl
 <
 A
