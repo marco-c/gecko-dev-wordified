@@ -3664,15 +3664,7 @@ lower
 .
 Find
 (
-reinterpret_cast
-<
-const
-char16_t
-*
->
-(
 exe
-)
 )
 ;
 if

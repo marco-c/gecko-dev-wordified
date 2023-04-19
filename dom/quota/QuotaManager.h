@@ -596,13 +596,6 @@ kReplaceChars
 ]
 ;
 static
-const
-char16_t
-kReplaceChars16
-[
-]
-;
-static
 Result
 <
 MovingNotNull

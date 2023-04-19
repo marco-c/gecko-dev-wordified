@@ -2737,10 +2737,13 @@ XRE_IsParentProcess
 )
 )
 ;
-nsAutoString
+nsAutoCString
 pattern
+;
+CopyUTF16toUTF8
 (
 aPattern
+pattern
 )
 ;
 /
@@ -3775,7 +3778,6 @@ Value
 .
 Find
 (
-u
 "
 video
 "

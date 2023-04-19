@@ -1050,6 +1050,13 @@ host
 Find
 (
 token
+/
+*
+aIgnoreCase
+=
+*
+/
+false
 offset
 )
 ;

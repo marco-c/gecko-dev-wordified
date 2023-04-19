@@ -315,14 +315,6 @@ typename
 base_string_type
 :
 :
-string_view
-string_view
-;
-typedef
-typename
-base_string_type
-:
-:
 index_type
 index_type
 ;

@@ -7858,7 +7858,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 default
 -
@@ -7881,7 +7880,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 object
 -
@@ -7907,7 +7905,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 '
 unsafe
@@ -7932,7 +7929,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 '
 unsafe
@@ -7957,7 +7953,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 script
 -
@@ -7980,7 +7975,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 worker
 -
@@ -8003,7 +7997,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 http
 :
@@ -8018,7 +8011,6 @@ parsedPolicyStr
 .
 Find
 (
-u
 "
 https
 :

@@ -2144,10 +2144,10 @@ shm
 )
 |
 |
-StringBeginsWith
-(
 leafName
-u
+.
+Find
+(
 "
 caches
 .
@@ -2156,7 +2156,13 @@ sqlite
 mj
 "
 _ns
+false
+0
+0
 )
+=
+=
+0
 |
 |
 leafName

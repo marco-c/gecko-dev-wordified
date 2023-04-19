@@ -2673,7 +2673,6 @@ mDefaultFilePath
 .
 RFind
 (
-u
 "
 \
 \
@@ -2731,7 +2730,6 @@ mDefaultFilePath
 .
 RFind
 (
-u
 "
 .
 "
@@ -2830,11 +2828,7 @@ mDefaultFilePath
 .
 ReplaceChar
 (
-u
-"
-"
 FILE_ILLEGAL_CHARACTERS
-u
 '
 -
 '
@@ -2844,11 +2838,7 @@ mDefaultFilename
 .
 ReplaceChar
 (
-u
-"
-"
 FILE_ILLEGAL_CHARACTERS
-u
 '
 -
 '
@@ -3325,7 +3315,6 @@ mDefaultFilePath
 .
 RFind
 (
-u
 "
 .
 "

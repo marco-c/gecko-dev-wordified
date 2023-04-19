@@ -1353,7 +1353,7 @@ quota
 QuotaManager
 :
 :
-kReplaceChars16
+kReplaceChars
 kSanitizedChar
 )
 ;

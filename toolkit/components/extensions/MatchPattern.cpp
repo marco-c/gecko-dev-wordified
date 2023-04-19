@@ -5042,13 +5042,11 @@ FindCharInSet
 (
 aAllowQuestion
 ?
-u
 "
 *
 ?
 "
 :
-u
 "
 *
 "

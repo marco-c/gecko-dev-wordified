@@ -142,14 +142,6 @@ nscore
 .
 h
 "
-static
-constexpr
-int32_t
-kNotFound
-=
--
-1
-;
 namespace
 mozilla
 {
