@@ -2347,7 +2347,11 @@ MutableHandleObject
 dst
 )
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 nobj
 (
 cx
@@ -4442,7 +4446,11 @@ tv
 cx
 )
 ;
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 node
 (
 cx

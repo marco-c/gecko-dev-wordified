@@ -29892,7 +29892,11 @@ prototype
 %
 )
 .
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 obj
 (
 cx

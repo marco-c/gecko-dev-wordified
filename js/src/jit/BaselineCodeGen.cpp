@@ -18825,7 +18825,11 @@ bool
 (
 JSContext
 *
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 HandleValue
 )
 ;

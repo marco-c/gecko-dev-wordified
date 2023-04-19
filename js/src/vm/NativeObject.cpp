@@ -18754,7 +18754,11 @@ CopyDataPropertiesNative
 JSContext
 *
 cx
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 target
 HandleNativeObject
 from

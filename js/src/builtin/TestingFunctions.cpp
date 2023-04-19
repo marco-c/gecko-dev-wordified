@@ -38500,7 +38500,11 @@ k
 +
 )
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 part
 (
 cx

@@ -4665,7 +4665,11 @@ plain
 template
 object
 .
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 templateObject
 (
 cx

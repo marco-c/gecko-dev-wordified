@@ -6420,7 +6420,11 @@ empty
 )
 ;
 }
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 wrapper
 (
 cx
@@ -7317,7 +7321,11 @@ MutableHandleValue
 vp
 )
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 obj
 (
 cx

@@ -9699,7 +9699,11 @@ assertionArray
 cx
 )
 ;
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 assertionObject
 (
 cx
@@ -15798,7 +15802,11 @@ if
 supported
 )
 {
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 assertionObj
 (
 cx

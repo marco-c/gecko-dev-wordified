@@ -2887,7 +2887,11 @@ return
 false
 ;
 }
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 proto
 (
 cx

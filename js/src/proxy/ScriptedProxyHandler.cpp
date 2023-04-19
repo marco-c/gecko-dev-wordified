@@ -8911,7 +8911,11 @@ REVOKE_SLOT
 proxyVal
 )
 ;
-RootedPlainObject
+Rooted
+<
+PlainObject
+*
+>
 result
 (
 cx

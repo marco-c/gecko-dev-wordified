@@ -27699,7 +27699,11 @@ PlainObject
 (
 JSContext
 *
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 )
 ;
 callvm
