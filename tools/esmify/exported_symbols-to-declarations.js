@@ -69,10 +69,10 @@ declarations
 .
 /
 *
-global
-require
-__dirname
-process
+eslint
+-
+env
+node
 *
 /
 const
@@ -109,12 +109,6 @@ js
 )
 )
 ;
-/
-*
-global
-module
-*
-/
 module
 .
 exports

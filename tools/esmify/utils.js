@@ -64,8 +64,10 @@ functions
 .
 /
 *
-global
-exports
+eslint
+-
+env
+node
 *
 /
 function

@@ -73,9 +73,10 @@ ified
 .
 /
 *
-global
-require
-__dirname
+eslint
+-
+env
+node
 *
 /
 const
@@ -120,12 +121,6 @@ js
 )
 )
 ;
-/
-*
-global
-exports
-*
-/
 const
 uri_map
 =
