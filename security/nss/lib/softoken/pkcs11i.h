@@ -1791,6 +1791,7 @@ elements
 :
 *
 password
+needLogin
 isLoggedIn
 ssoLoggedIn
 and

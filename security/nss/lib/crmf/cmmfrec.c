@@ -1536,10 +1536,16 @@ keyUsage
 =
 keyUsageValue
 .
+len
+?
+keyUsageValue
+.
 data
 [
-3
+0
 ]
+:
+0
 ;
 PORT_Free
 (

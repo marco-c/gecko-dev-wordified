@@ -1002,6 +1002,12 @@ data
 |
 |
 !
+keyUsage
+.
+len
+|
+|
+!
 (
 keyUsage
 .

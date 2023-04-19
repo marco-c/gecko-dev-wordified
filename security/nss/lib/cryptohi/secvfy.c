@@ -1841,6 +1841,12 @@ algorithms
 /
 if
 (
+rv
+!
+=
+SECSuccess
+|
+|
 HASH_GetHashTypeByOidTag
 (
 *
@@ -1856,6 +1862,8 @@ HASH_AlgNULL
 error
 set
 by
+sec_DecodeRSAPSSParams
+or
 HASH_GetHashTypeByOidTag
 *
 /
