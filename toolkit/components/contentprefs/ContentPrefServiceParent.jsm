@@ -115,11 +115,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 _methodsCallableFromChild
 "
@@ -267,6 +273,8 @@ this
 _prefsToObserve
 )
 {
+lazy
+.
 cps2
 .
 removeObserverForName
@@ -401,6 +409,8 @@ add
 prefName
 )
 ;
+lazy
+.
 cps2
 .
 addObserverForName
@@ -452,6 +462,8 @@ size
 0
 )
 {
+lazy
+.
 cps2
 .
 removeObserverForName
@@ -492,6 +504,8 @@ signature
 if
 (
 !
+lazy
+.
 _methodsCallableFromChild
 .
 some
@@ -730,6 +744,8 @@ call
 the
 function
 .
+lazy
+.
 cps2
 [
 data
@@ -826,7 +842,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 cps2
 "
