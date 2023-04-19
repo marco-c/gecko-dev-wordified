@@ -373,6 +373,9 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
+nsITransportSecurityInfo
+:
+:
 OverridableErrorCategory
 aOverridableErrorCategory
 bool
@@ -439,6 +442,9 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
+nsITransportSecurityInfo
+:
+:
 OverridableErrorCategory
 aOverridableErrorCategory
 bool
