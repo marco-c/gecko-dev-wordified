@@ -11668,9 +11668,6 @@ nsSingletonFactory
 :
 CreateInstance
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -11681,11 +11678,6 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
-(
-aOuter
-)
-;
 return
 mSingleton
 -

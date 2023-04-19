@@ -14278,7 +14278,6 @@ nsIContentPolicy
 )
 createInstance
 (
-outer
 iid
 )
 {

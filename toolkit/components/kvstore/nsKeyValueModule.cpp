@@ -93,9 +93,6 @@ Rust
 nsresult
 nsKeyValueServiceConstructor
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void

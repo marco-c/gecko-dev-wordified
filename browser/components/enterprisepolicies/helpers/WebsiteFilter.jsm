@@ -1208,7 +1208,6 @@ nsISupportsWeakReference
 )
 createInstance
 (
-outer
 iid
 )
 {

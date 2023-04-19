@@ -426,9 +426,6 @@ false
 NS_IMETHOD
 CreateInstance
 (
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -625,9 +622,6 @@ Factory
 :
 CreateInstance
 (
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -699,12 +693,6 @@ PR_MillisecondsToInterval
 )
 ;
 }
-NS_ENSURE_FALSE
-(
-aDelegate
-NS_ERROR_NO_AGGREGATION
-)
-;
 NS_ENSURE_ARG_POINTER
 (
 aResult

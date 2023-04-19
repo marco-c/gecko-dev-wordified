@@ -605,7 +605,6 @@ nsIFactory
 implementation
 createInstance
 (
-outer
 iid
 )
 {

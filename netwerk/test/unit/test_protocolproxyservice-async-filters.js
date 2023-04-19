@@ -281,7 +281,6 @@ prototype
 {
 createInstance
 (
-delegate
 iid
 )
 {

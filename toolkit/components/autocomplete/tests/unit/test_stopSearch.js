@@ -349,7 +349,6 @@ nsIAutoCompleteSearch
 )
 createInstance
 (
-outer
 iid
 )
 {
