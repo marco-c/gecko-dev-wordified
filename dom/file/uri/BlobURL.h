@@ -232,8 +232,8 @@ NS_IBLOBURLMUTATOR_IID
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -581,12 +581,10 @@ NS_HOSTOBJECTURIMUTATOR_CID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

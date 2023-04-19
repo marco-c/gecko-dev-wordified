@@ -199,8 +199,8 @@ nsIEventTarget
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -930,12 +930,10 @@ FILEREADER_ID
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

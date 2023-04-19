@@ -151,8 +151,8 @@ fonttable
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -217,12 +217,10 @@ FONTTABLEURI_SCHEME
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
