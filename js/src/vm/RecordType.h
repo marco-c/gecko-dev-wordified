@@ -220,10 +220,9 @@ public
 :
 enum
 {
-INITIALIZED_LENGTH_SLOT
+SORTED_KEYS_SLOT
 =
 0
-SORTED_KEYS_SLOT
 IS_ATOMIZED_SLOT
 SLOT_COUNT
 }
@@ -308,6 +307,11 @@ RecordType
 *
 >
 out
+)
+;
+uint32_t
+length
+(
 )
 ;
 bool
