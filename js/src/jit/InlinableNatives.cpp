@@ -1753,6 +1753,12 @@ case
 InlinableNative
 :
 :
+StringStartsWith
+:
+case
+InlinableNative
+:
+:
 StringToLowerCase
 :
 case

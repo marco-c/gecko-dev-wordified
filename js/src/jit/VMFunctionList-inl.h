@@ -2684,6 +2684,15 @@ StringSplitString
 \
 _
 (
+StringStartsWith
+js
+:
+:
+StringStartsWith
+)
+\
+_
+(
 StringToLowerCase
 js
 :
