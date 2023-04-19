@@ -145,9 +145,9 @@ JSMSG_
 #
 include
 "
-vm
+js
 /
-ProxyObject
+Wrapper
 .
 h
 "
