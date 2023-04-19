@@ -1147,7 +1147,7 @@ contain
 -
 intrinsic
 -
-block
+inline
 -
 size
 /
