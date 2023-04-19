@@ -12594,7 +12594,7 @@ CheckDPIChange
 mPresContext
 -
 >
-UIResolutionChanged
+UIResolutionChangedSync
 (
 )
 ;
