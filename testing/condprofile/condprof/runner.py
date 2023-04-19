@@ -949,12 +949,28 @@ exc_info
 True
 )
         
+#
+TODO
+:
+this
+might
+avoid
+the
+exceptions
+that
+slip
+through
+in
+automation
+        
+#
 if
 self
 .
 strict
 :
-            
+        
+#
 raise
     
 async
