@@ -253,8 +253,5 @@ mod
 size_of
 ;
 mod
-specified_values
-;
-mod
 piecewise_linear
 ;
