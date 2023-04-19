@@ -439,7 +439,7 @@ if
 infinity_symbol_
 =
 =
-NULL
+DOUBLE_CONVERSION_NULLPTR
 )
 return
 false
@@ -488,7 +488,7 @@ if
 nan_symbol_
 =
 =
-NULL
+DOUBLE_CONVERSION_NULLPTR
 )
 return
 false
