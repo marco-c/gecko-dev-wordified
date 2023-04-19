@@ -674,8 +674,6 @@ this
 values
 .
 length
->
-0
 )
 {
 this
