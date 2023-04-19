@@ -385,7 +385,7 @@ stub
 (
 ExperimentAPI
 "
-activateBranch
+getActiveBranch
 "
 )
 .

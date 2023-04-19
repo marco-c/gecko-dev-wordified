@@ -1107,7 +1107,7 @@ null
 }
 *
 /
-activateBranch
+getActiveBranch
 (
 {
 slug
@@ -2284,7 +2284,7 @@ branch
 =
 ExperimentAPI
 .
-activateBranch
+getActiveBranch
 (
 {
 featureId
@@ -2517,7 +2517,7 @@ branch
 =
 ExperimentAPI
 .
-activateBranch
+getActiveBranch
 (
 {
 featureId
@@ -2732,7 +2732,7 @@ branch
 =
 ExperimentAPI
 .
-activateBranch
+getActiveBranch
 (
 {
 featureId
