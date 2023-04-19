@@ -1961,10 +1961,6 @@ NotifyLiveResizeStopped
 (
 )
 ;
-RevokeTransactionIdAllocator
-(
-)
-;
 DestroyCompositor
 (
 )
@@ -2010,6 +2006,10 @@ DestroyCompositor
 (
 )
 {
+RevokeTransactionIdAllocator
+(
+)
+;
 /
 /
 We
@@ -2647,10 +2647,6 @@ FreeLocalesChangedObserver
 )
 ;
 FreeShutdownObserver
-(
-)
-;
-RevokeTransactionIdAllocator
 (
 )
 ;
