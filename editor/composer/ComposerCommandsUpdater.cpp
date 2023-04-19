@@ -352,11 +352,6 @@ DidDoTransaction
 TransactionManager
 &
 aTransactionManager
-nsITransaction
-*
-aTransaction
-nsresult
-aDoTransactionResult
 )
 {
 /
@@ -416,11 +411,6 @@ DidUndoTransaction
 TransactionManager
 &
 aTransactionManager
-nsITransaction
-*
-aTransaction
-nsresult
-aUndoTransactionResult
 )
 {
 if
@@ -465,11 +455,6 @@ DidRedoTransaction
 TransactionManager
 &
 aTransactionManager
-nsITransaction
-*
-aTransaction
-nsresult
-aRedoTransactionResult
 )
 {
 UpdateCommandGroup
