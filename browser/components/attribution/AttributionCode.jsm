@@ -209,11 +209,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 MacAttribution
 "
@@ -235,7 +241,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 log
 "
@@ -284,6 +290,8 @@ debug
 "
 and
 use
+lazy
+.
 log
 .
 debug
@@ -291,9 +299,9 @@ debug
 )
 to
 create
+/
+/
 detailed
-/
-/
 messages
 during
 development
@@ -305,6 +313,8 @@ Console
 .
 jsm
 for
+/
+/
 details
 .
 maxLogLevel
@@ -1237,6 +1247,8 @@ value
 }
 else
 {
+lazy
+.
 log
 .
 debug
@@ -1763,6 +1775,8 @@ gCachedAttrData
 null
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1815,6 +1829,8 @@ t
 support
 attribution
 .
+lazy
+.
 log
 .
 debug
@@ -1860,6 +1876,8 @@ path
 )
 )
 {
+lazy
+.
 log
 .
 debug
@@ -1903,12 +1921,16 @@ let
 referrer
 =
 await
+lazy
+.
 MacAttribution
 .
 getReferrerUrl
 (
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -1969,6 +1991,8 @@ t
 necessarily
 an
 error
+.
+lazy
 .
 log
 .
@@ -2031,6 +2055,8 @@ quarantine_error
 ;
 }
 }
+lazy
+.
 log
 .
 debug
@@ -2082,6 +2108,8 @@ serializeAttributionData
 gCachedAttrData
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2112,6 +2140,8 @@ catch
 ex
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2151,6 +2181,8 @@ return
 gCachedAttrData
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -2172,6 +2204,8 @@ return
 gCachedAttrData
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -2271,6 +2305,8 @@ parsing
 code
 support
 both
+.
+lazy
 .
 log
 .
@@ -2381,6 +2417,8 @@ NotFoundError
 "
 )
 {
+lazy
+.
 log
 .
 debug
@@ -2413,6 +2451,8 @@ return
 gCachedAttrData
 ;
 }
+lazy
+.
 log
 .
 debug
@@ -2437,6 +2477,8 @@ path
 }
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2449,6 +2491,8 @@ is
 "
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2500,6 +2544,8 @@ decode
 bytes
 )
 ;
+lazy
+.
 log
 .
 debug
@@ -2579,6 +2625,8 @@ parseAttributionCode
 code
 )
 ;
+lazy
+.
 log
 .
 debug
