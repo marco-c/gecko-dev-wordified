@@ -619,6 +619,7 @@ feature
 kAVX2
 &
 &
+!
 webrtc
 :
 :
@@ -630,7 +631,7 @@ IsEnabled
 "
 WebRTC
 -
-ActivateAvx2Support
+Avx2SupportKillSwitch
 "
 )
 )
