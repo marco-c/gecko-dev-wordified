@@ -281,7 +281,11 @@ zone
 JS
 :
 :
-PersistentRootedObject
+PersistentRooted
+<
+JSObject
+*
+>
 global
 ;
 DevTools

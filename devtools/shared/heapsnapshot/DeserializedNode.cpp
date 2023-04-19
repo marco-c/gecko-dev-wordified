@@ -883,7 +883,14 @@ constructSavedFrameStack
 JSContext
 *
 cx
-MutableHandleObject
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
 outSavedFrameStack
 )
 const

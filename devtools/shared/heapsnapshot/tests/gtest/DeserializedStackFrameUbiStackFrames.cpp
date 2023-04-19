@@ -434,7 +434,11 @@ isSystem
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 savedFrame
 (
 cx
@@ -535,7 +539,11 @@ frameColumn
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 parent
 (
 cx
