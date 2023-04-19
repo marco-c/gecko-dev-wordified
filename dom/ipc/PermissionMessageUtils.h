@@ -261,8 +261,8 @@ namespace
 IPC
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 template
@@ -471,12 +471,10 @@ mPrincipal
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
 mozilla
+:
+:
+ipc
 #
 endif
 /

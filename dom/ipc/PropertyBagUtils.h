@@ -147,8 +147,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 /
@@ -284,12 +284,10 @@ aResult
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
 mozilla
+:
+:
+ipc
 #
 endif
 /

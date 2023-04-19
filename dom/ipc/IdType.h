@@ -147,8 +147,8 @@ namespace
 IPC
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -279,12 +279,10 @@ ContentParent
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 namespace
 IPC
 {

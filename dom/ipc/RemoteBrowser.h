@@ -179,8 +179,8 @@ nsIContent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -500,12 +500,10 @@ aInfo
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

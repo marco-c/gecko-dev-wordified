@@ -171,8 +171,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -344,12 +344,10 @@ delete
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

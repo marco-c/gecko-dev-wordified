@@ -175,8 +175,8 @@ nsIFile
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -511,12 +511,10 @@ mResult
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

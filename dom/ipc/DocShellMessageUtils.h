@@ -161,8 +161,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 template
@@ -220,12 +220,10 @@ aResult
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
 mozilla
+:
+:
+ipc
 namespace
 IPC
 {
