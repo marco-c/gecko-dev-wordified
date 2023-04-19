@@ -55,6 +55,14 @@ resources
 common
 .
 js
+window
+.
+onload
+=
+function
+(
+)
+{
 promise_test_parallel
 (
 async
@@ -618,3 +626,4 @@ Main
 "
 )
 ;
+}
