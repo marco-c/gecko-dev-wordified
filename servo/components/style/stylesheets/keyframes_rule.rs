@@ -2405,6 +2405,10 @@ value
 [
 0
 ]
+.
+clone
+(
+)
 )
 }
 PropertyDeclaration
