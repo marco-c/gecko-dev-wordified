@@ -1086,7 +1086,6 @@ JitContext
 jc
 (
 cx
-alloc
 )
 ;
 StackMacroAssembler
@@ -1540,7 +1539,6 @@ JitContext
 jc
 (
 cx
-alloc
 )
 ;
 StackMacroAssembler
@@ -2973,7 +2971,6 @@ JitContext
 jc
 (
 cx
-alloc
 )
 ;
 StackMacroAssembler
@@ -4610,7 +4607,6 @@ JitContext
 jc
 (
 cx
-alloc
 )
 ;
 StackMacroAssembler
@@ -6247,7 +6243,6 @@ JitContext
 jc
 (
 cx
-alloc
 )
 ;
 StackMacroAssembler
@@ -6707,7 +6702,6 @@ JitContext
 jc
 (
 cx
-alloc
 )
 ;
 StackMacroAssembler

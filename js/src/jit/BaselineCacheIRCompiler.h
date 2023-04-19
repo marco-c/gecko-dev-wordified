@@ -616,6 +616,9 @@ BaselineCacheIRCompiler
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 const
 CacheIRWriter
 &

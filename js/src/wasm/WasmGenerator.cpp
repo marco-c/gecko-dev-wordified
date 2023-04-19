@@ -3929,9 +3929,6 @@ linkCompiledCode
 ;
 JitContext
 jcx
-(
-masmAlloc_
-)
 ;
 /
 /

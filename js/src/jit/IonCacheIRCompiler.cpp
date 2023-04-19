@@ -335,6 +335,9 @@ IonCacheIRCompiler
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 const
 CacheIRWriter
 &
@@ -352,6 +355,7 @@ stubDataOffset
 CacheIRCompiler
 (
 cx
+alloc
 writer
 stubDataOffset
 Mode
@@ -12257,13 +12261,13 @@ JitContext
 jctx
 (
 cx
-temp
 )
 ;
 IonCacheIRCompiler
 compiler
 (
 cx
+temp
 writer
 this
 ionScript

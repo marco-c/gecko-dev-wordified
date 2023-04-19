@@ -4677,6 +4677,9 @@ CacheIRCompiler
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 const
 CacheIRWriter
 &
@@ -4703,12 +4706,7 @@ writer
 )
 masm
 (
-GetJitContext
-(
-)
--
->
-temp
+alloc
 )
 allocator
 (

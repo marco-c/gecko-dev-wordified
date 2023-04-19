@@ -3437,7 +3437,6 @@ jctx
 emplace
 (
 cx
-temp
 )
 ;
 stack_masm

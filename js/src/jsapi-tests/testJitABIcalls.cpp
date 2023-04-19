@@ -5755,7 +5755,6 @@ JitContext
 jcx
 (
 cx
-temp
 )
 ;
 StackMacroAssembler

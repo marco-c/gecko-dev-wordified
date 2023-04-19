@@ -263,7 +263,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -624,7 +623,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -919,7 +917,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -1275,7 +1272,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -2389,7 +2385,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -2730,7 +2725,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -3112,7 +3106,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -3477,7 +3470,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -3872,7 +3864,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -4349,7 +4340,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler
@@ -4816,7 +4806,6 @@ JitContext
 jcx
 (
 cx
-tempAlloc
 )
 ;
 StackMacroAssembler

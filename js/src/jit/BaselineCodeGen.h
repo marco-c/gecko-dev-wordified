@@ -381,6 +381,9 @@ BaselineCodeGen
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 HandlerArgs
 &
 &
@@ -3192,6 +3195,9 @@ BaselineInterpreterGenerator
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 )
 ;
 [

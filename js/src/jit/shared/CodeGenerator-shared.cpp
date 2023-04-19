@@ -315,6 +315,9 @@ ensureMasm
 MacroAssembler
 *
 masmArg
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -331,12 +334,7 @@ maybeMasm_
 .
 emplace
 (
-GetJitContext
-(
-)
--
->
-temp
+alloc
 )
 ;
 return
@@ -368,6 +366,12 @@ masm
 ensureMasm
 (
 masmArg
+gen
+-
+>
+alloc
+(
+)
 )
 )
 gen

@@ -11901,9 +11901,6 @@ stub
 .
 JitContext
 jitContext
-(
-tempAlloc
-)
 ;
 bool
 oldFlag

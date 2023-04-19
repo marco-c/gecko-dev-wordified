@@ -442,6 +442,9 @@ BaselineCacheIRCompiler
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 const
 CacheIRWriter
 &
@@ -453,6 +456,7 @@ stubDataOffset
 CacheIRCompiler
 (
 cx
+alloc
 writer
 stubDataOffset
 Mode
@@ -13023,13 +13027,13 @@ JitContext
 jctx
 (
 cx
-temp
 )
 ;
 BaselineCacheIRCompiler
 comp
 (
 cx
+temp
 writer
 stubDataOffset
 )
