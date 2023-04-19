@@ -184,7 +184,7 @@ if
 !
 helpers
 .
-getIsGlobalScope
+getIsTopLevelScript
 (
 context
 .
@@ -228,7 +228,7 @@ await
 !
 helpers
 .
-getIsGlobalScope
+getIsTopLevelScript
 (
 context
 .
