@@ -1969,6 +1969,9 @@ operations
 ArrayNew
 =
 0x1b
+ArrayNewFixed
+=
+0x1a
 ArrayNewDefault
 =
 0x1c
