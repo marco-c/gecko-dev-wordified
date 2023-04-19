@@ -3684,7 +3684,7 @@ IsMailEditor
 Get
 the
 focused
-content
+element
 if
 we
 '
@@ -3698,9 +3698,9 @@ otherwise
 *
 /
 virtual
-nsIContent
+Element
 *
-GetFocusedContent
+GetFocusedElement
 (
 )
 const
@@ -12557,7 +12557,7 @@ this
 returns
 true
 but
-GetFocusedContent
+GetFocusedElement
 (
 )
 returns

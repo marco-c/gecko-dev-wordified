@@ -1183,9 +1183,9 @@ aKeyboardEvent
 )
 final
 ;
-nsIContent
+Element
 *
-GetFocusedContent
+GetFocusedElement
 (
 )
 const
