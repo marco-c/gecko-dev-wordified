@@ -223,8 +223,6 @@ AudioSourceInterface
 source
 )
 ;
-private
-:
 /
 /
 MediaStreamTrack
@@ -240,6 +238,8 @@ kind
 const
 override
 ;
+private
+:
 /
 /
 AudioTrackInterface
