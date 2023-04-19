@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncPrefs
 "
@@ -169,7 +175,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NarrateControls
 "
@@ -194,7 +200,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 PluralForm
 "
@@ -217,7 +223,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NimbusFeatures
 "
@@ -1430,6 +1436,8 @@ false
 )
 {
 new
+lazy
+.
 NarrateControls
 (
 win
@@ -3050,6 +3058,8 @@ _resetFontSize
 )
 {
 await
+lazy
+.
 AsyncPrefs
 .
 reset
@@ -3225,6 +3235,8 @@ px
 )
 ;
 return
+lazy
+.
 AsyncPrefs
 .
 set
@@ -3634,6 +3646,8 @@ _scheduleToolbarOverlapHandler
 )
 ;
 return
+lazy
+.
 AsyncPrefs
 .
 set
@@ -4023,6 +4037,8 @@ height
 )
 ;
 return
+lazy
+.
 AsyncPrefs
 .
 set
@@ -4507,6 +4523,8 @@ _setColorScheme
 colorSchemePref
 )
 ;
+lazy
+.
 AsyncPrefs
 .
 set
@@ -4582,6 +4600,8 @@ this
 _fontType
 )
 ;
+lazy
+.
 AsyncPrefs
 .
 set
@@ -5639,6 +5659,8 @@ estimatedReadTimeValue1
 ;
 }
 return
+lazy
+.
 PluralForm
 .
 get
@@ -9017,6 +9039,8 @@ _setupPocketCTA
 let
 ctaVersion
 =
+lazy
+.
 NimbusFeatures
 .
 readerMode
