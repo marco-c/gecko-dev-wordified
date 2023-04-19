@@ -1386,7 +1386,7 @@ JS_ION_PERF
 enabled
 |
 =
-PerfFuncEnabled
+PerfEnabled
 (
 )
 ;
@@ -1517,7 +1517,7 @@ ifdef
 JS_ION_PERF
 if
 (
-PerfFuncEnabled
+PerfEnabled
 (
 )
 )
