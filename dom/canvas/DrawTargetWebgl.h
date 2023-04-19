@@ -2935,6 +2935,10 @@ bool
 aCopyOnWrite
 =
 true
+bool
+aNeedHandle
+=
+false
 )
 ;
 bool

@@ -318,6 +318,8 @@ EnsureData
 void
 DrawTargetWillChange
 (
+bool
+aNeedHandle
 )
 ;
 void
