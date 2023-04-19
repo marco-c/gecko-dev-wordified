@@ -140,11 +140,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -284,7 +290,7 @@ XPCOMUtils
 .
 defineLazyServiceGetters
 (
-this
+lazy
 {
 UpdateManager
 :
@@ -351,7 +357,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gSystemPrincipal
 "
@@ -1662,6 +1668,8 @@ triggeringPrincipal
 .
 equals
 (
+lazy
+.
 gSystemPrincipal
 )
 )
@@ -2043,16 +2051,22 @@ cgi
 id
 =
 1751010
+lazy
+.
 WinTaskbar
 .
 setGroupIdForWindow
 (
 win
+lazy
+.
 WinTaskbar
 .
 defaultPrivateGroupId
 )
 ;
+lazy
+.
 WindowsUIUtils
 .
 setWindowIconFromExe
@@ -2389,6 +2403,8 @@ extraArgs
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 "
 about
@@ -2459,6 +2475,8 @@ win
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 "
 about
@@ -2540,17 +2558,23 @@ BrowserSearch
 loadSearchFromCommandLine
 (
 searchTerm
+lazy
+.
 PrivateBrowsingUtils
 .
 isInTemporaryAutoStartMode
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
 (
 win
 )
+lazy
+.
 gSystemPrincipal
 win
 .
@@ -2864,6 +2888,8 @@ false
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 )
 ;
@@ -3039,6 +3065,8 @@ continue
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 uri
 .
@@ -3106,6 +3134,8 @@ nsIBrowserDOMWindow
 OPEN_NEWTAB
 cmdLine
 false
+lazy
+.
 gSystemPrincipal
 )
 ;
@@ -3542,6 +3572,8 @@ resolvedURI
 if
 (
 !
+lazy
+.
 PrivateBrowsingUtils
 .
 enabled
@@ -3614,6 +3646,8 @@ nsIBrowserDOMWindow
 OPEN_NEWTAB
 cmdLine
 forcePrivate
+lazy
+.
 gSystemPrincipal
 )
 ;
@@ -3677,6 +3711,8 @@ false
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 "
 about
@@ -3684,6 +3720,8 @@ about
 privatebrowsing
 "
 null
+lazy
+.
 PrivateBrowsingUtils
 .
 enabled
@@ -3763,11 +3801,15 @@ false
 )
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 enabled
 )
 {
+lazy
+.
 PrivateBrowsingUtils
 .
 enterTemporaryAutoStartMode
@@ -3840,6 +3882,8 @@ false
 )
 )
 {
+lazy
+.
 ShellService
 .
 setDefaultBrowser
@@ -3864,6 +3908,8 @@ false
 )
 )
 {
+lazy
+.
 FirstStartup
 .
 init
@@ -3914,6 +3960,8 @@ file
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 fileURI
 .
@@ -4372,6 +4420,8 @@ true
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isInTemporaryAutoStartMode
@@ -4590,6 +4640,8 @@ for
 new
 profiles
 .
+lazy
+.
 LaterRun
 .
 enabled
@@ -4674,6 +4726,8 @@ session
 .
 willRestoreSession
 =
+lazy
+.
 SessionStartup
 .
 isAutomaticRestoreEnabled
@@ -4698,6 +4752,8 @@ homepage_override_url
 let
 update
 =
+lazy
+.
 UpdateManager
 .
 readyUpdate
@@ -4744,6 +4800,8 @@ update
 was
 successful
 .
+lazy
+.
 UpdatePing
 .
 handleUpdateSuccess
@@ -4774,6 +4832,8 @@ OVERRIDE_NEW_BUILD_ID
 :
 if
 (
+lazy
+.
 UpdateManager
 .
 readyUpdate
@@ -4792,6 +4852,8 @@ the
 update
 was
 successful
+.
+lazy
 .
 UpdatePing
 .
@@ -5144,6 +5206,8 @@ additionalPage
 {
 additionalPage
 =
+lazy
+.
 LaterRun
 .
 getURL
@@ -5233,6 +5297,8 @@ choice
 {
 startPage
 =
+lazy
+.
 HomePage
 .
 get
@@ -5555,6 +5621,8 @@ builds
 .
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isInTemporaryAutoStartMode
@@ -5907,6 +5975,8 @@ url
 {
 isDefault
 =
+lazy
+.
 ShellService
 .
 isDefaultBrowser
@@ -6032,6 +6102,8 @@ allowPrivate
 forcePrivate
 |
 |
+lazy
+.
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
@@ -6039,6 +6111,8 @@ permanentPrivateBrowsing
 var
 navWin
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -7082,6 +7156,8 @@ true
 1
 )
 {
+lazy
+.
 HeadlessShell
 .
 handleCmdLineArgs
@@ -7320,6 +7396,8 @@ nsIBrowserDOMWindow
 OPEN_DEFAULTWINDOW
 cmdLine
 false
+lazy
+.
 gSystemPrincipal
 )
 ;
@@ -7363,6 +7441,8 @@ length
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 URLlist
 )
@@ -7405,6 +7485,8 @@ nsICommandLine
 STATE_INITIAL_LAUNCH
 &
 &
+lazy
+.
 WindowsUIUtils
 .
 inTabletMode
@@ -7432,6 +7514,8 @@ one
 let
 win
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -7456,6 +7540,8 @@ return
 openBrowserWindow
 (
 cmdLine
+lazy
+.
 gSystemPrincipal
 )
 ;
