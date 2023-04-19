@@ -5044,6 +5044,15 @@ APPEND_DEVICE
 ;
 /
 /
+Yellow
+Carp
+APPEND_DEVICE
+(
+0x1681
+)
+;
+/
+/
 Evergreen
 APPEND_RANGE
 (
