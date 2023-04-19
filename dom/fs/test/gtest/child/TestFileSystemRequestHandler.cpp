@@ -144,6 +144,17 @@ include
 "
 mozilla
 /
+dom
+/
+OriginPrivateFileSystemChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SpinEventLoopUntil
 .
 h
@@ -251,6 +262,7 @@ MakeAndAddRef
 FileSystemActorHolder
 >
 (
+nullptr
 )
 ;
 }
