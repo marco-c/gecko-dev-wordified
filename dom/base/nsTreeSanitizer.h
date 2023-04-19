@@ -1849,6 +1849,16 @@ mIsForSanitizerAPI
 =
 false
 ;
+bool
+mAllowCustomElements
+=
+false
+;
+bool
+mAllowUnknownMarkup
+=
+false
+;
 /
 /
 An
