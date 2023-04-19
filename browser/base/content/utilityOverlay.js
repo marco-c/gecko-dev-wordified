@@ -3150,9 +3150,7 @@ tab
 =
 w
 .
-FirefoxViewHandler
-.
-tab
+gFirefoxViewTab
 )
 {
 where
