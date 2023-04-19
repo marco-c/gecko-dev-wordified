@@ -472,6 +472,20 @@ namespace
 {
 /
 /
+TaggedStringPtr
+:
+:
+Flags
+uses
+the
+lower
+2
+bits
+as
+tags
+.
+/
+/
 Enforce
 that
 allocated
@@ -480,7 +494,7 @@ aligns
 to
 at
 least
-8
+4
 bytes
 and
 that
@@ -608,7 +622,7 @@ kNewAlign
 )
 >
 =
-8
+4
 "
 "
 )
@@ -621,7 +635,7 @@ ExplicitlyConstructedArenaString
 )
 >
 =
-8
+4
 "
 "
 )
