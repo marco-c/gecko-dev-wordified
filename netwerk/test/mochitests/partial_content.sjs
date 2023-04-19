@@ -1064,7 +1064,6 @@ the
 two
 responses
 .
-let
 date
 =
 new
