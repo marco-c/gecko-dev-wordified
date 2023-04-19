@@ -605,7 +605,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -613,7 +612,6 @@ Value
 :
 Array
 (
-ref
 vec
 )
 =
@@ -660,7 +658,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -668,8 +665,6 @@ Value
 :
 Array
 (
-ref
-mut
 vec
 )
 =
@@ -713,7 +708,6 @@ mut
 Value
 {
 match
-*
 v
 {
 Value
@@ -721,8 +715,6 @@ Value
 :
 Array
 (
-ref
-mut
 vec
 )
 =
@@ -831,7 +823,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -839,7 +830,6 @@ Value
 :
 Object
 (
-ref
 map
 )
 =
@@ -885,7 +875,6 @@ Value
 >
 {
 match
-*
 v
 {
 Value
@@ -893,8 +882,6 @@ Value
 :
 Object
 (
-ref
-mut
 map
 )
 =
@@ -943,7 +930,6 @@ Value
 :
 Null
 =
-*
 v
 {
 *
@@ -964,7 +950,6 @@ new
 ;
 }
 match
-*
 v
 {
 Value
@@ -972,8 +957,6 @@ Value
 :
 Object
 (
-ref
-mut
 map
 )
 =

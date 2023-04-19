@@ -1876,7 +1876,6 @@ fmt
 Result
 {
 match
-*
 self
 {
 ErrorCode
@@ -1884,7 +1883,6 @@ ErrorCode
 :
 Message
 (
-ref
 msg
 )
 =
@@ -1900,7 +1898,6 @@ ErrorCode
 :
 Io
 (
-ref
 err
 )
 =
@@ -2309,6 +2306,7 @@ static
 >
 {
 match
+&
 self
 .
 err
@@ -2320,7 +2318,6 @@ ErrorCode
 :
 Io
 (
-ref
 err
 )
 =
@@ -3104,9 +3101,8 @@ as_bytes
 (
 )
 .
-get
+first
 (
-0
 )
 {
 None

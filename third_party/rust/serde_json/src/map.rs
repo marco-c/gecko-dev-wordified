@@ -1589,7 +1589,7 @@ elements
 from
 other
 into
-Self
+self
 leaving
 other
 empty
@@ -2446,7 +2446,6 @@ _
 /
 /
 match
-*
 val
 {
 /
@@ -2457,7 +2456,6 @@ Value
 :
 String
 (
-ref
 s
 )
 =
@@ -2478,7 +2476,6 @@ Value
 :
 Array
 (
-ref
 arr
 )
 =
@@ -2499,7 +2496,6 @@ Value
 :
 Object
 (
-ref
 map
 )
 =
@@ -4053,7 +4049,6 @@ self
 String
 {
 match
-*
 self
 {
 Entry
@@ -4061,7 +4056,6 @@ Entry
 :
 Vacant
 (
-ref
 e
 )
 =
@@ -4076,7 +4070,6 @@ Entry
 :
 Occupied
 (
-ref
 e
 )
 =
