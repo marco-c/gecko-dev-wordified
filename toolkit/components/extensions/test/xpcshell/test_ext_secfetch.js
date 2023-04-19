@@ -1681,11 +1681,6 @@ dest
 "
 empty
 "
-origin
-:
-"
-null
-"
 }
 ]
 }
@@ -2004,11 +1999,6 @@ dest
 :
 "
 empty
-"
-origin
-:
-"
-null
 "
 }
 ]
