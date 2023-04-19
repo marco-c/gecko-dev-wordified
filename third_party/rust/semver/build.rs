@@ -333,7 +333,7 @@ html
 #
 method
 .
-repeat
+strip_prefix
 println
 !
 (
