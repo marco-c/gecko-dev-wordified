@@ -6197,11 +6197,6 @@ RTCStatsReport
 webidl
 "
 "
-TransceiverImpl
-.
-webidl
-"
-"
 WebrtcDeprecated
 .
 webidl
