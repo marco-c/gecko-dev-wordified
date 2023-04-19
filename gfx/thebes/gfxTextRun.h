@@ -6034,7 +6034,16 @@ aRange
 >
 end
 .
-void
+/
+/
+Returns
+whether
+any
+adjustment
+was
+made
+.
+bool
 ShrinkToLigatureBoundaries
 (
 Range
