@@ -5543,16 +5543,12 @@ aState
 )
 ;
 void
-PrintAPZCInfo
+PrintLayerInfo
 (
 const
 ScrollNode
 &
 aLayer
-const
-AsyncPanZoomController
-*
-apzc
 )
 ;
 void
