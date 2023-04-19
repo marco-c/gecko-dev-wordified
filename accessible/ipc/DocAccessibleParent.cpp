@@ -8050,6 +8050,12 @@ CharacterCount
 ;
 if
 (
+startCount
+=
+=
+0
+|
+|
 data
 .
 StartOffset
@@ -8080,6 +8086,12 @@ CharacterCount
 ;
 if
 (
+endCount
+=
+=
+0
+|
+|
 data
 .
 EndOffset
