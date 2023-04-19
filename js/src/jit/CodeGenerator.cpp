@@ -86416,8 +86416,7 @@ done
 ;
 }
 else
-{
-MOZ_ASSERT
+if
 (
 count
 .
@@ -86427,9 +86426,12 @@ int32_t
 >
 (
 )
->
+=
+=
 0
 )
+{
+return
 ;
 }
 auto
