@@ -1429,7 +1429,6 @@ nsFileOutputStream
 :
 Create
 (
-nullptr
 NS_GET_IID
 (
 nsIFileOutputStream
@@ -8269,7 +8268,6 @@ nsBufferedInputStream
 :
 Create
 (
-nullptr
 NS_GET_IID
 (
 nsIBufferedInputStream

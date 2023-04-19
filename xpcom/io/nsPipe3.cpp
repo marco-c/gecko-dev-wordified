@@ -12649,9 +12649,6 @@ NS_ERROR_NOT_INITIALIZED
 nsresult
 nsPipeConstructor
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -12660,15 +12657,6 @@ void
 aResult
 )
 {
-if
-(
-aOuter
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 RefPtr
 <
 nsPipeHolder

@@ -2937,9 +2937,6 @@ aResult
 nsresult
 nsWindowsRegKeyConstructor
 (
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -2950,15 +2947,6 @@ void
 aResult
 )
 {
-if
-(
-aDelegate
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 nsCOMPtr
 <
 nsIWindowsRegKey

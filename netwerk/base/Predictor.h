@@ -267,9 +267,6 @@ static
 nsresult
 Create
 (
-nsISupports
-*
-outer
 const
 nsIID
 &

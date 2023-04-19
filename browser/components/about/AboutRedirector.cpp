@@ -2081,9 +2081,6 @@ AboutRedirector
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void

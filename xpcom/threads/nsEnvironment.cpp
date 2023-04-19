@@ -196,9 +196,6 @@ nsEnvironment
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -215,15 +212,6 @@ aResult
 =
 nullptr
 ;
-if
-(
-aOuter
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 nsEnvironment
 *
 obj

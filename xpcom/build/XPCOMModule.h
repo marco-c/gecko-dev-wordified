@@ -133,9 +133,6 @@ nsISupports
 nsresult
 nsThreadManagerGetSingleton
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -149,9 +146,6 @@ aInstancePtr
 nsresult
 nsLocalFileConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -166,8 +160,6 @@ extern
 nsresult
 nsStringInputStreamConstructor
 (
-nsISupports
-*
 const
 nsID
 &

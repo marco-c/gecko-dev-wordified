@@ -135,9 +135,6 @@ nsISupports
 nsresult
 nsAppShellConstructor
 (
-nsISupports
-*
-outer
 const
 nsIID
 &

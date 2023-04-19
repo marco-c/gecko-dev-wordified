@@ -2454,8 +2454,9 @@ nsPersistentProperties
 nsPersistentProperties
 (
 )
-{
-}
+=
+default
+;
 size_t
 nsPersistentProperties
 :
@@ -3438,9 +3439,6 @@ nsPropertyElement
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -3449,15 +3447,6 @@ void
 aResult
 )
 {
-if
-(
-aOuter
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 RefPtr
 <
 nsPropertyElement

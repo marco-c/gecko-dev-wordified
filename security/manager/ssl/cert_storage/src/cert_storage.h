@@ -154,9 +154,6 @@ C
 nsresult
 cert_storage_constructor
 (
-nsISupports
-*
-outer
 REFNSIID
 iid
 void

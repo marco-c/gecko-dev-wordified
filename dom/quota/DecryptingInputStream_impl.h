@@ -2692,7 +2692,6 @@ nsFileInputStream
 :
 Create
 (
-nullptr
 NS_GET_IID
 (
 nsIFileInputStream

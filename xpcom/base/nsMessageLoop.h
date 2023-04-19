@@ -159,8 +159,9 @@ virtual
 nsMessageLoop
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #
@@ -190,9 +191,6 @@ extern
 nsresult
 nsMessageLoopConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

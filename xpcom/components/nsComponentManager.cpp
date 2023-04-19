@@ -1443,7 +1443,6 @@ nsDirectoryService
 :
 Create
 (
-nullptr
 NS_GET_IID
 (
 nsIProperties
@@ -1737,9 +1736,6 @@ nsComponentManagerImpl
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -1748,15 +1744,6 @@ void
 aResult
 )
 {
-if
-(
-aOuter
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
-;
-}
 if
 (
 !

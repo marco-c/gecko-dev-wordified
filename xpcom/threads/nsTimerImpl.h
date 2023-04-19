@@ -1491,9 +1491,6 @@ static
 nsresult
 XPCOMConstructor
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void

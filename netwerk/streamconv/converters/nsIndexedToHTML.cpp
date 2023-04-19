@@ -381,9 +381,6 @@ nsIndexedToHTML
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -394,13 +391,6 @@ aResult
 {
 nsresult
 rv
-;
-if
-(
-aOuter
-)
-return
-NS_ERROR_NO_AGGREGATION
 ;
 nsIndexedToHTML
 *

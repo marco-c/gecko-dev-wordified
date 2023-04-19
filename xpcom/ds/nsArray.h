@@ -274,9 +274,6 @@ static
 nsresult
 XPCOMConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -292,8 +289,9 @@ protected
 nsArrayBase
 (
 )
-{
-}
+=
+default
+;
 nsArrayBase
 (
 const
@@ -380,8 +378,9 @@ aBaseArray
 nsArray
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -441,8 +440,9 @@ aBaseArray
 nsArrayCC
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

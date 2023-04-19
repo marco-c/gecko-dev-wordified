@@ -10991,9 +10991,6 @@ mozilla
 nsresult
 AppInfoConstructor
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -11002,11 +10999,6 @@ void
 aResult
 )
 {
-NS_ENSURE_NO_AGGREGATION
-(
-aOuter
-)
-;
 return
 const_cast
 <

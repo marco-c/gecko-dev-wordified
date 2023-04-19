@@ -180,9 +180,6 @@ class
 nsresult
 nsPipeConstructor
 (
-nsISupports
-*
-outer
 REFNSIID
 iid
 void

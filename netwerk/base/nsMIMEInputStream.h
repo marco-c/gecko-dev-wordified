@@ -185,9 +185,6 @@ extern
 nsresult
 nsMIMEInputStreamConstructor
 (
-nsISupports
-*
-outer
 REFNSIID
 iid
 void

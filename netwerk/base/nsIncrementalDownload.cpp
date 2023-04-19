@@ -5147,9 +5147,6 @@ extern
 nsresult
 net_NewIncrementalDownload
 (
-nsISupports
-*
-outer
 const
 nsIID
 &
@@ -5160,13 +5157,6 @@ void
 result
 )
 {
-if
-(
-outer
-)
-return
-NS_ERROR_NO_AGGREGATION
-;
 RefPtr
 <
 nsIncrementalDownload

@@ -122,9 +122,6 @@ nsNetShutdown
 nsresult
 CreateNewStreamConvServiceFactory
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -138,9 +135,6 @@ aResult
 nsresult
 CreateNewMultiMixedConvFactory
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -154,9 +148,6 @@ aResult
 nsresult
 CreateNewTXTToHTMLConvFactory
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -170,9 +161,6 @@ aResult
 nsresult
 CreateNewHTTPCompressConvFactory
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -186,9 +174,6 @@ aResult
 nsresult
 CreateNewUnknownDecoderFactory
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -202,9 +187,6 @@ aResult
 nsresult
 CreateNewBinaryDetectorFactory
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -218,9 +200,6 @@ aResult
 nsresult
 nsLoadGroupConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -235,8 +214,6 @@ extern
 nsresult
 net_NewIncrementalDownload
 (
-nsISupports
-*
 const
 nsIID
 &
@@ -254,9 +231,6 @@ net
 nsresult
 WebSocketChannelConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -270,9 +244,6 @@ aResult
 nsresult
 WebSocketSSLChannelConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

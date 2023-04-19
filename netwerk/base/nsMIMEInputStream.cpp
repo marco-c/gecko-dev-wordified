@@ -1441,9 +1441,6 @@ do_CreateInstance
 nsresult
 nsMIMEInputStreamConstructor
 (
-nsISupports
-*
-outer
 REFNSIID
 iid
 void
@@ -1456,13 +1453,6 @@ result
 result
 =
 nullptr
-;
-if
-(
-outer
-)
-return
-NS_ERROR_NO_AGGREGATION
 ;
 RefPtr
 <

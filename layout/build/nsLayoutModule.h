@@ -198,9 +198,6 @@ nsLayoutModuleDtor
 nsresult
 CreateXMLContentSerializer
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -214,9 +211,6 @@ aResult
 nsresult
 CreateHTMLContentSerializer
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -230,9 +224,6 @@ aResult
 nsresult
 CreateXHTMLContentSerializer
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -246,9 +237,6 @@ aResult
 nsresult
 CreatePlainTextSerializer
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -262,9 +250,6 @@ aResult
 nsresult
 CreateContentPolicy
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -278,9 +263,6 @@ aResult
 nsresult
 CreateGlobalMessageManager
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -294,9 +276,6 @@ aResult
 nsresult
 CreateParentMessageManager
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -310,9 +289,6 @@ aResult
 nsresult
 CreateChildMessageManager
 (
-nsISupports
-*
-aOuter
 const
 nsID
 &
@@ -326,9 +302,6 @@ aResult
 nsresult
 Construct_nsIScriptSecurityManager
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -342,9 +315,6 @@ aResult
 nsresult
 LocalStorageManagerConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -358,9 +328,6 @@ aResult
 nsresult
 SessionStorageManagerConstructor
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

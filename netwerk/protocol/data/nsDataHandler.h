@@ -192,9 +192,6 @@ static
 nsresult
 Create
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

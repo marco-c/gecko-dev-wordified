@@ -200,9 +200,6 @@ extern
 nsresult
 nsMultiplexInputStreamConstructor
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void

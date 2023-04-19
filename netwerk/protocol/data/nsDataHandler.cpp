@@ -252,9 +252,6 @@ nsDataHandler
 :
 Create
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &

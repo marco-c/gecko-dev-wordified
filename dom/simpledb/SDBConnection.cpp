@@ -657,9 +657,6 @@ SDBConnection
 :
 Create
 (
-nsISupports
-*
-aOuter
 REFNSIID
 aIID
 void
@@ -691,15 +688,6 @@ false
 {
 return
 NS_ERROR_NOT_AVAILABLE
-;
-}
-if
-(
-aOuter
-)
-{
-return
-NS_ERROR_NO_AGGREGATION
 ;
 }
 RefPtr
