@@ -6424,10 +6424,11 @@ FrameConstructor
 )
 -
 >
-GetContainStyleScopeManager
+CounterManager
 (
 )
-.
+-
+>
 GetSpokenCounterText
 (
 frame

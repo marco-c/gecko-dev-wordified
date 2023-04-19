@@ -431,11 +431,6 @@ ArenaObjectID
 h
 "
 "
-ContainStyleScopeManager
-.
-h
-"
-"
 DisplayPortUtils
 .
 h
@@ -561,11 +556,6 @@ cpp
 "
 "
 AccessibleCaretManager
-.
-cpp
-"
-"
-ContainStyleScopeManager
 .
 cpp
 "
