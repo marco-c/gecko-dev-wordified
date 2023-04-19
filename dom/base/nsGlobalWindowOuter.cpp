@@ -50026,7 +50026,7 @@ NodePrincipal
 )
 -
 >
-EqualsConsideringDomain
+Equals
 (
 aNewDocument
 -
