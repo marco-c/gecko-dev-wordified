@@ -3089,8 +3089,6 @@ showSourceText
 editor
 selectedSource
 selectedSourceTextContent
-.
-value
 symbols
 )
 ;

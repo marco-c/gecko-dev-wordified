@@ -718,7 +718,7 @@ setMode
 (
 editor
 source
-content
+sourceTextContent
 symbols
 )
 {
@@ -736,6 +736,13 @@ million
 characters
 Bug
 1569829
+const
+content
+=
+sourceTextContent
+.
+value
+;
 if
 (
 content
@@ -752,7 +759,7 @@ text
 isMinified
 (
 source
-content
+sourceTextContent
 )
 &
 &
@@ -847,7 +854,7 @@ showSourceText
 (
 editor
 source
-content
+sourceTextContent
 symbols
 )
 {
@@ -888,7 +895,7 @@ setMode
 (
 editor
 source
-content
+sourceTextContent
 symbols
 )
 ;
@@ -914,7 +921,7 @@ setMode
 (
 editor
 source
-content
+sourceTextContent
 symbols
 )
 ;
@@ -952,14 +959,16 @@ editor
 source
 .
 id
-content
+sourceTextContent
+.
+value
 )
 ;
 setMode
 (
 editor
 source
-content
+sourceTextContent
 symbols
 )
 ;
