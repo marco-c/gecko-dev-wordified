@@ -27006,6 +27006,15 @@ StyleEffects
 HasFilters
 (
 )
+&
+&
+!
+aBuilder
+-
+>
+IsForGenerateGlyphMask
+(
+)
 )
 {
 SerializeList
