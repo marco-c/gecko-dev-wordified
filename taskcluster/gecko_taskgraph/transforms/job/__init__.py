@@ -1165,9 +1165,13 @@ os
 =
 worker_type_implementation
 (
+            
 config
 .
 graph_config
+config
+.
+params
 job
 [
 "
@@ -1176,6 +1180,7 @@ worker
 type
 "
 ]
+        
 )
         
 if
@@ -1416,6 +1421,9 @@ worker_type_implementation
 config
 .
 graph_config
+config
+.
+params
 job
 [
 "
