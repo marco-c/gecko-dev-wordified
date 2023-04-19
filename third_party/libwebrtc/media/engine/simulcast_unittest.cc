@@ -96,6 +96,17 @@ h
 #
 include
 "
+api
+/
+transport
+/
+field_trial_based_config
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -636,6 +647,10 @@ GetSimulcastBitrates720p
 )
 ;
 const
+FieldTrialBasedConfig
+trials
+;
+const
 size_t
 kMinLayers
 =
@@ -670,6 +685,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -928,6 +944,9 @@ Enabled
 "
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 const
 std
 :
@@ -977,6 +996,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -1143,6 +1163,9 @@ kMaxLayers
 =
 2
 ;
+FieldTrialBasedConfig
+trials
+;
 std
 :
 :
@@ -1166,6 +1189,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -1245,6 +1269,9 @@ Enabled
 "
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -1280,6 +1307,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -1359,6 +1387,9 @@ Enabled
 "
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -1393,6 +1424,7 @@ kBitratePriority
 kQpMax
 kScreenshare
 true
+trials
 )
 ;
 /
@@ -1446,6 +1478,9 @@ Disabled
 "
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -1481,6 +1516,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -1566,6 +1602,9 @@ SimulcastTest
 GetConfigWithNormalizedResolution
 )
 {
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -1605,6 +1644,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 /
@@ -1702,6 +1742,9 @@ Enabled
 "
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -1737,6 +1780,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 /
@@ -1830,6 +1874,9 @@ Enabled
 "
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -1865,6 +1912,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 /
@@ -1956,6 +2004,9 @@ Enabled
 "
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -1991,6 +2042,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2019,6 +2071,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2047,6 +2100,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2081,6 +2135,9 @@ Enabled
 /
 "
 )
+;
+FieldTrialBasedConfig
+trials
 ;
 const
 size_t
@@ -2127,6 +2184,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2155,6 +2213,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2183,6 +2242,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2202,6 +2262,9 @@ SimulcastTest
 GetConfigForScreenshareSimulcast
 )
 {
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -2236,6 +2299,7 @@ kBitratePriority
 kQpMax
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_GT
@@ -2405,6 +2469,9 @@ SimulcastTest
 GetConfigForScreenshareSimulcastWithLimitedMaxLayers
 )
 {
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -2439,6 +2506,7 @@ kBitratePriority
 kQpMax
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2475,6 +2543,9 @@ int
 kMaxBitrate960_540
 =
 1200000
+;
+FieldTrialBasedConfig
+trials
 ;
 /
 /
@@ -2521,6 +2592,7 @@ kBitratePriority
 kQpMax
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2598,6 +2670,7 @@ kBitratePriority
 kQpMax
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2692,6 +2765,7 @@ kBitratePriority
 kQpMax
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2749,6 +2823,9 @@ SimulcastTest
 AveragesBitratesForNonStandardResolution
 )
 {
+FieldTrialBasedConfig
+trials
+;
 const
 size_t
 kMinLayers
@@ -2784,6 +2861,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
@@ -2907,6 +2985,9 @@ GetSimulcastBitrates720p
 (
 )
 ;
+FieldTrialBasedConfig
+trials
+;
 std
 :
 :
@@ -2930,6 +3011,7 @@ kQpMax
 !
 kScreenshare
 true
+trials
 )
 ;
 EXPECT_EQ
