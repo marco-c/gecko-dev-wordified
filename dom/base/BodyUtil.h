@@ -360,6 +360,10 @@ nsCString
 &
 aMimeType
 const
+nsACString
+&
+aMixedCaseMimeType
+const
 nsCString
 &
 aStr

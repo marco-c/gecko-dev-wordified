@@ -6351,6 +6351,9 @@ nullptr
 nsAutoCString
 mimeType
 ;
+nsAutoCString
+mixedCaseMimeType
+;
 DerivedClass
 (
 )
@@ -6359,6 +6362,7 @@ DerivedClass
 GetMimeType
 (
 mimeType
+mixedCaseMimeType
 )
 ;
 /
@@ -6542,6 +6546,7 @@ get
 )
 signalImpl
 mimeType
+mixedCaseMimeType
 aRv
 )
 ;
@@ -6772,6 +6777,7 @@ BodyLocalPath
 (
 )
 mimeType
+mixedCaseMimeType
 blobStorageType
 aRv
 )
@@ -6895,6 +6901,9 @@ GetMimeType
 nsACString
 &
 aMimeType
+nsACString
+&
+aMixedCaseMimeType
 )
 {
 /
@@ -7024,6 +7033,10 @@ contentTypeValues
 aMimeType
 )
 ;
+aMixedCaseMimeType
+=
+aMimeType
+;
 ToLowerCase
 (
 aMimeType
@@ -7044,6 +7057,9 @@ GetMimeType
 nsACString
 &
 aMimeType
+nsACString
+&
+aMixedCaseMimeType
 )
 ;
 template
@@ -7059,6 +7075,9 @@ GetMimeType
 nsACString
 &
 aMimeType
+nsACString
+&
+aMixedCaseMimeType
 )
 ;
 template
@@ -8282,6 +8301,10 @@ const
 nsACString
 &
 aMimeType
+const
+nsACString
+&
+aMixedCaseMimeType
 already_AddRefed
 <
 nsIInputStream
@@ -8303,6 +8326,10 @@ aAbortSignalImpl
 mMimeType
 (
 aMimeType
+)
+mMixedCaseMimeType
+(
+aMixedCaseMimeType
 )
 mBodyStream
 (
@@ -8382,6 +8409,10 @@ const
 nsACString
 &
 aMimeType
+const
+nsACString
+&
+aMixedCaseMimeType
 ErrorResult
 &
 aRv
@@ -8435,6 +8466,7 @@ aGlobal
 aPrincipalInfo
 aAbortSignalImpl
 aMimeType
+aMixedCaseMimeType
 bodyStream
 .
 forget
