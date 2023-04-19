@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 WebDriverBiDiConnection
 :
@@ -295,6 +301,8 @@ const
 webSocket
 =
 await
+lazy
+.
 WebSocketHandshake
 .
 upgrade
@@ -307,6 +315,8 @@ const
 conn
 =
 new
+lazy
+.
 WebDriverBiDiConnection
 (
 webSocket

@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Module
 :
@@ -125,6 +131,8 @@ jsm
 class
 LogModule
 extends
+lazy
+.
 Module
 {
 destroy

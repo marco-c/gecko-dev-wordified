@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ConsoleAPIListener
 :
@@ -199,6 +205,8 @@ jsm
 class
 LogModule
 extends
+lazy
+.
 Module
 {
 #
@@ -239,6 +247,8 @@ this
 consoleAPIListener
 =
 new
+lazy
+.
 ConsoleAPIListener
 (
 this
@@ -282,6 +292,8 @@ this
 consoleMessageListener
 =
 new
+lazy
+.
 ConsoleListener
 (
 this
@@ -464,6 +476,8 @@ frame
 =
 >
 !
+lazy
+.
 isChromeFrame
 (
 frame
@@ -876,6 +890,8 @@ serializedArgs
 .
 push
 (
+lazy
+.
 serialize
 (
 arg
