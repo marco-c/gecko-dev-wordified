@@ -121,11 +121,6 @@ auth
 js
 "
 "
-cert
-.
-js
-"
-"
 DevToolsSocketStatus
 .
 jsm
