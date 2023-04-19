@@ -86,7 +86,6 @@ equal
 import
 {
 getPathParts
-getFileExtension
 }
 from
 "
@@ -1272,10 +1271,11 @@ IGNORED_EXTENSIONS
 .
 includes
 (
-getFileExtension
-(
 source
-)
+.
+displayURL
+.
+fileExtension
 )
 |
 |

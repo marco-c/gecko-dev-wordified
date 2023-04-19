@@ -196,7 +196,6 @@ import
 {
 isDirectory
 getPathWithoutThread
-getFileExtension
 }
 from
 "
@@ -2066,10 +2065,11 @@ extension
 ?
 sourceTypes
 [
-getFileExtension
-(
 source
-)
+.
+displayURL
+.
+fileExtension
 ]
 |
 |
