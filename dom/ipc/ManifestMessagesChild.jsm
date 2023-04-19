@@ -150,11 +150,17 @@ ManifestMessagesChild
 "
 ]
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ManifestObtainer
 "
@@ -177,7 +183,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ManifestFinder
 "
@@ -200,7 +206,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ManifestIcons
 "
@@ -326,6 +332,8 @@ response
 .
 result
 =
+lazy
+.
 ManifestFinder
 .
 contentHasManifestLink
@@ -411,6 +419,8 @@ response
 result
 =
 await
+lazy
+.
 ManifestObtainer
 .
 contentObtainManifest
@@ -502,6 +512,8 @@ response
 result
 =
 await
+lazy
+.
 ManifestIcons
 .
 contentFetchIcon
