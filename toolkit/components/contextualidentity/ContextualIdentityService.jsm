@@ -155,11 +155,17 @@ userContext
 enabled
 "
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gBrowserBundle
 "
@@ -196,7 +202,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTextDecoder
 "
@@ -217,7 +223,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 gTextEncoder
 "
@@ -238,7 +244,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 AsyncShutdown
 "
@@ -261,7 +267,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -284,7 +290,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -307,7 +313,7 @@ ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -1210,6 +1216,8 @@ this
 _saver
 =
 new
+lazy
+.
 DeferredTask
 (
 (
@@ -1224,6 +1232,8 @@ save
 SAVE_DELAY_MS
 )
 ;
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -1266,6 +1276,8 @@ save
 (
 )
 {
+lazy
+.
 AsyncShutdown
 .
 profileBeforeChange
@@ -1311,6 +1323,8 @@ _identities
 let
 bytes
 =
+lazy
+.
 gTextEncoder
 .
 encode
@@ -1796,6 +1810,8 @@ JSON
 .
 parse
 (
+lazy
+.
 gTextDecoder
 .
 decode
@@ -2036,6 +2052,8 @@ inputStream
 init
 (
 new
+lazy
+.
 FileUtils
 .
 File
@@ -2044,9 +2062,13 @@ this
 .
 _path
 )
+lazy
+.
 FileUtils
 .
 MODE_RDONLY
+lazy
+.
 FileUtils
 .
 PERMS_FILE
@@ -2058,6 +2080,8 @@ try
 let
 bytes
 =
+lazy
+.
 NetUtil
 .
 readInputStream
@@ -2391,6 +2415,8 @@ name
 ;
 }
 return
+lazy
+.
 gBrowserBundle
 .
 GetStringFromName
