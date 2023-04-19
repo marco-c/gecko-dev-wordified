@@ -145,6 +145,12 @@ GPUTextureDescriptor
 struct
 GPUTextureViewDescriptor
 ;
+enum
+class
+GPUTextureFormat
+:
+uint8_t
+;
 }
 /
 /
@@ -225,6 +231,13 @@ mParent
 const
 RawId
 mId
+;
+const
+dom
+:
+:
+GPUTextureFormat
+mFormat
 ;
 const
 Maybe
