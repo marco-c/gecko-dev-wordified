@@ -5854,7 +5854,7 @@ slot
 static
 const
 uint32_t
-WASM_INSTANCE_SLOT
+WASM_INSTANCE_OBJ_SLOT
 =
 0
 ;
@@ -5883,7 +5883,7 @@ instance
 static
 const
 uint32_t
-WASM_TLSDATA_SLOT
+WASM_INSTANCE_SLOT
 =
 1
 ;

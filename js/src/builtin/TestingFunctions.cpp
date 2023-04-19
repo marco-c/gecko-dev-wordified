@@ -11475,7 +11475,7 @@ getExtendedSlot
 FunctionExtended
 :
 :
-WASM_INSTANCE_SLOT
+WASM_INSTANCE_OBJ_SLOT
 )
 ;
 WasmInstanceObject

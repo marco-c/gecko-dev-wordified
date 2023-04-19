@@ -6467,7 +6467,7 @@ callee
 >
 getExtendedSlot
 (
-WASM_TLSDATA_SLOT
+WASM_INSTANCE_SLOT
 )
 -
 >
@@ -6490,7 +6490,7 @@ offsetOfExtendedSlot
 FunctionExtended
 :
 :
-WASM_TLSDATA_SLOT
+WASM_INSTANCE_SLOT
 )
 ;
 masm
