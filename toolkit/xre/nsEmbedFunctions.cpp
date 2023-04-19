@@ -4445,7 +4445,7 @@ mozilla
 FilePreferences
 :
 :
-InitDirectoriesWhitelist
+InitDirectoriesAllowlist
 (
 )
 ;
