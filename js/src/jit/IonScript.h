@@ -595,7 +595,11 @@ the
 actual
 method
 .
-HeapPtrJitCode
+HeapPtr
+<
+JitCode
+*
+>
 method_
 =
 nullptr
