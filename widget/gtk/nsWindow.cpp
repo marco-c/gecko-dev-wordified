@@ -7429,6 +7429,9 @@ mMoveToRectPopupSize
 {
 }
 ;
+#
+ifdef
+MOZ_WAYLAND
 if
 (
 moz_container_wayland_is_waiting_to_show
@@ -7478,6 +7481,8 @@ ClearRenderingQueue
 )
 ;
 }
+#
+endif
 }
 }
 void
@@ -7792,6 +7797,9 @@ WaylandPopupCloseOrphanedPopups
 (
 )
 {
+#
+ifdef
+MOZ_WAYLAND
 LOG
 (
 "
@@ -7899,6 +7907,8 @@ popup
 mWaylandPopupNext
 ;
 }
+#
+endif
 }
 /
 /
