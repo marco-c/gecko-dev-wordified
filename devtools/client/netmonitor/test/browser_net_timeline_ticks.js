@@ -241,6 +241,7 @@ opened
 ;
 ok
 (
+!
 all
 (
 "
@@ -256,9 +257,6 @@ division
 )
 .
 length
-=
-=
-0
 "
 No
 tick

@@ -4911,8 +4911,6 @@ if
 lineMatches
 .
 length
->
-0
 )
 {
 /

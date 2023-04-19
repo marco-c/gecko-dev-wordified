@@ -4752,6 +4752,8 @@ tooltips
 isEditing
 |
 |
+!
+!
 this
 .
 element
@@ -4767,8 +4769,6 @@ propertyeditor
 )
 .
 length
->
-0
 )
 ;
 }
@@ -5015,8 +5015,6 @@ this
 searchValue
 .
 length
->
-0
 ?
 FILTER_CHANGED_TIMEOUT
 :

@@ -686,11 +686,11 @@ it
 somehow
 .
 return
+!
+!
 text
 .
 length
->
-0
 ;
 }
 start

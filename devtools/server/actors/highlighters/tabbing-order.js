@@ -643,11 +643,11 @@ if
 endElm
 &
 &
+!
+!
 focusableElements
 .
 length
->
-0
 &
 &
 isFrameWithChildTarget

@@ -1412,11 +1412,11 @@ node
 .
 moreChildrenAvailable
 =
+!
+!
 childNodeIds
 .
 length
->
-0
 ;
 }
 return

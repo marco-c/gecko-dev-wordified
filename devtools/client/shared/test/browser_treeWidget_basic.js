@@ -1973,6 +1973,8 @@ expandAll
 work
 ok
 (
+!
+!
 doc
 .
 querySelectorAll
@@ -1985,8 +1987,6 @@ expanded
 )
 .
 length
->
-0
 "
 Some
 nodes

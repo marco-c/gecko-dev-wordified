@@ -162,8 +162,6 @@ if
 sources
 .
 length
->
-0
 )
 {
 queuedOriginalSources

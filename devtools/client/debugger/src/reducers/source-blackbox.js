@@ -646,15 +646,13 @@ source
 .
 if
 (
+!
 currentRanges
 [
 url
 ]
 .
 length
-=
-=
-0
 )
 {
 currentSet

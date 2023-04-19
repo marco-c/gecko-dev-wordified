@@ -713,12 +713,10 @@ cursorPosition
 ;
 if
 (
+!
 enclosedItems
 .
 length
-=
-=
-0
 )
 {
 return
@@ -1346,12 +1344,10 @@ klass
 null
 |
 |
+!
 functions
 .
 length
-=
-=
-0
 )
 {
 return

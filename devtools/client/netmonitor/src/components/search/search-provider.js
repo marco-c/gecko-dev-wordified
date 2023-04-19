@@ -198,6 +198,8 @@ object
 )
 {
 return
+!
+!
 this
 .
 getChildren
@@ -206,8 +208,6 @@ object
 )
 .
 length
->
-0
 ;
 }
 getLabel

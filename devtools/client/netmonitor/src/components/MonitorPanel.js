@@ -1386,6 +1386,7 @@ state
 {
 isEmpty
 :
+!
 state
 .
 requests
@@ -1393,9 +1394,6 @@ requests
 requests
 .
 length
-=
-=
-0
 networkDetailsOpen
 :
 state

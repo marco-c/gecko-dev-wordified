@@ -661,12 +661,10 @@ nodes
 ;
 ok
 (
+!
 nodesAfter
 .
 length
-=
-=
-0
 "
 the
 node

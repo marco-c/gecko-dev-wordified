@@ -637,11 +637,11 @@ listWorkers
 ;
 ok
 (
+!
+!
 workers
 .
 length
->
-0
 "
 list
 workers

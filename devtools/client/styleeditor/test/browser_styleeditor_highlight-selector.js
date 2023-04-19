@@ -1146,8 +1146,6 @@ bc
 frameSelectors
 .
 length
->
-0
 ?
 await
 getBrowsingContextInFrames

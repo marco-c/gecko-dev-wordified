@@ -228,6 +228,8 @@ HeaderList
 )
 {
 return
+!
+!
 object
 .
 value
@@ -235,8 +237,6 @@ value
 headers
 .
 length
->
-0
 ;
 }
 else

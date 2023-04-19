@@ -1122,12 +1122,10 @@ them
 .
 if
 (
+!
 columns
 .
 length
-=
-=
-0
 )
 {
 /

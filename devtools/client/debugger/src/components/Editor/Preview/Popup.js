@@ -615,12 +615,10 @@ props
 ;
 if
 (
+!
 properties
 .
 length
-=
-=
-0
 )
 {
 return

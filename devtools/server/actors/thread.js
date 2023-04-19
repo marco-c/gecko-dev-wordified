@@ -511,8 +511,6 @@ if
 reactions
 .
 length
->
-0
 &
 &
 (
@@ -4557,8 +4555,6 @@ this
 _xhrBreakpoints
 .
 length
->
-0
 &
 &
 !

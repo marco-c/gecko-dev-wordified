@@ -377,12 +377,10 @@ props
 const
 isEmpty
 =
+!
 breakpointSources
 .
 length
-=
-=
-0
 ;
 return
 (

@@ -287,6 +287,8 @@ false
 ;
 }
 return
+!
+!
 Object
 .
 keys
@@ -295,8 +297,6 @@ object
 )
 .
 length
->
-0
 ;
 }
 getLabel

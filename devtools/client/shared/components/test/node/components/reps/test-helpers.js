@@ -467,8 +467,6 @@ flatPreviewItems
 previewItems
 .
 length
->
-0
 ?
 getFlattenedGrips
 (

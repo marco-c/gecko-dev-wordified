@@ -627,12 +627,10 @@ authorizedEvaluations
 )
 |
 |
+!
 authorizedEvaluations
 .
 length
-=
-=
-0
 )
 {
 authorizedEvaluations
@@ -654,8 +652,6 @@ getterPath
 getterPath
 .
 length
->
-0
 )
 {
 /
@@ -1086,6 +1082,7 @@ if
 mappedVars
 |
 |
+!
 Object
 .
 keys
@@ -1094,9 +1091,6 @@ mappedVars
 )
 .
 length
-=
-=
-0
 )
 {
 return

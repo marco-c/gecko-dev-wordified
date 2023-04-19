@@ -932,6 +932,7 @@ dbg
 ;
 ok
 (
+!
 findAllElements
 (
 dbg
@@ -941,9 +942,6 @@ columnBreakpoints
 )
 .
 length
-=
-=
-0
 )
 ;
 }

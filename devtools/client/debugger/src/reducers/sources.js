@@ -1320,8 +1320,6 @@ if
 scriptActors
 .
 length
->
-0
 )
 {
 const

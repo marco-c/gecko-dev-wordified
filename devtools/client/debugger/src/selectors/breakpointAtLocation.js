@@ -298,12 +298,10 @@ if
 breakpoints
 |
 |
+!
 breakpoints
 .
 length
-=
-=
-0
 )
 {
 return

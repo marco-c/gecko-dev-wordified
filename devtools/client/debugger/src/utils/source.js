@@ -1401,12 +1401,10 @@ rawSource
 ;
 if
 (
+!
 similarSources
 .
 length
-=
-=
-0
 )
 {
 return

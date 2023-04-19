@@ -875,6 +875,8 @@ hasChildren
 x
 =
 >
+!
+!
 TEST_TREE_VIEW
 .
 children
@@ -885,8 +887,6 @@ label
 ]
 .
 length
->
-0
 getLabel
 :
 x

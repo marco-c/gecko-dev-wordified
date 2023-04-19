@@ -1758,8 +1758,6 @@ if
 queryString
 .
 length
->
-0
 )
 {
 finalURL

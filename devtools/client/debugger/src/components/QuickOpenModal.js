@@ -1112,8 +1112,6 @@ if
 tabUrls
 .
 length
->
-0
 )
 {
 displayedSources
@@ -2449,11 +2447,11 @@ expanded
 items
 &
 &
+!
+!
 items
 .
 length
->
-0
 ;
 return
 (

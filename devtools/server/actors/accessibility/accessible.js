@@ -2441,6 +2441,8 @@ rawAccessible
 name
 &
 &
+!
+!
 rawAccessible
 .
 name
@@ -2450,8 +2452,6 @@ trim
 )
 .
 length
->
-0
 )
 ;
 }
@@ -2895,8 +2895,6 @@ types
 types
 .
 length
->
-0
 )
 {
 auditTypes

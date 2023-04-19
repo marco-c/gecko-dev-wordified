@@ -439,11 +439,11 @@ shouldRender
 validation
 &
 &
+!
+!
 validation
 .
 length
->
-0
 ;
 return
 shouldRender

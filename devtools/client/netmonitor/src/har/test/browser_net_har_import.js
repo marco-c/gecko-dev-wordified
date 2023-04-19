@@ -532,6 +532,8 @@ title
 ;
 ok
 (
+!
+!
 har2
 .
 log
@@ -546,8 +548,6 @@ request
 headers
 .
 length
->
-0
 "
 There
 must
@@ -560,6 +560,8 @@ headers
 ;
 ok
 (
+!
+!
 har2
 .
 log
@@ -574,8 +576,6 @@ response
 headers
 .
 length
->
-0
 "
 There
 must

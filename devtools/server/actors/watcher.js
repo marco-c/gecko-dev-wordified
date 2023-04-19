@@ -3608,12 +3608,10 @@ targetType
 ;
 if
 (
+!
 targetResourceTypes
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -3859,8 +3857,6 @@ if
 frameResourceTypes
 .
 length
->
-0
 )
 {
 const
@@ -4150,12 +4146,10 @@ targetType
 ;
 if
 (
+!
 targetResourceTypes
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -4217,8 +4211,6 @@ if
 frameResourceTypes
 .
 length
->
-0
 )
 {
 const

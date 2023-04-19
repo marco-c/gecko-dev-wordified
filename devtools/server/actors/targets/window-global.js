@@ -6401,8 +6401,6 @@ if
 rootDocShells
 .
 length
->
-0
 )
 {
 const
@@ -6993,12 +6991,10 @@ empty
 .
 if
 (
+!
 windows
 .
 length
-=
-=
-0
 )
 {
 return

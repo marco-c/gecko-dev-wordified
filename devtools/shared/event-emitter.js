@@ -2916,8 +2916,6 @@ if
 args
 .
 length
->
-0
 )
 {
 dump

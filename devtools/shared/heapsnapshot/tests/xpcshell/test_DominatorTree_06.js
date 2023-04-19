@@ -228,8 +228,6 @@ while
 stack
 .
 length
->
-0
 )
 {
 const

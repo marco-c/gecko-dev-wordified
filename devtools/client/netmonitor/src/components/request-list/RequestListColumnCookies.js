@@ -361,8 +361,6 @@ requestCookiesLength
 requestCookies
 .
 length
->
-0
 ?
 requestCookies
 .

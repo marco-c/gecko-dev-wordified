@@ -523,8 +523,6 @@ return
 frames
 .
 length
->
-0
 ?
 frames
 :

@@ -259,6 +259,8 @@ Space
 ;
 ok
 (
+!
+!
 popup
 .
 getItems
@@ -266,8 +268,6 @@ getItems
 )
 .
 length
->
-0
 "
 '
 w

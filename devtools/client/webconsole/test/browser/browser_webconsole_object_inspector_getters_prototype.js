@@ -559,14 +559,14 @@ waitFor
 )
 =
 >
+!
+!
 getObjectInspectorChildrenNodes
 (
 prototypeNode
 )
 .
 length
->
-0
 )
 ;
 const

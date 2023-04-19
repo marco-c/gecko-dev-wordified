@@ -118,11 +118,11 @@ test
 {
 ok
 (
+!
+!
 variableFileContents
 .
 length
->
-0
 "
 raw
 browserRequire

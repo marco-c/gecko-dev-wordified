@@ -4517,14 +4517,12 @@ null
 {
 if
 (
+!
 this
 .
 nullStates
 .
 length
-=
-=
-0
 )
 {
 this

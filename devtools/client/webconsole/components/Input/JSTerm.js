@@ -6510,8 +6510,6 @@ if
 items
 .
 length
->
-0
 )
 {
 const

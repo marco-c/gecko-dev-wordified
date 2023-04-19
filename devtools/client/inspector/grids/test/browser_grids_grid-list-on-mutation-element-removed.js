@@ -418,14 +418,12 @@ store
 state
 =
 >
+!
 state
 .
 grids
 .
 length
-=
-=
-0
 )
 ;
 SpecialPowers

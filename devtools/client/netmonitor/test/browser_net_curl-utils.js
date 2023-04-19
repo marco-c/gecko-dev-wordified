@@ -1557,11 +1557,11 @@ array
 ;
 ok
 (
+!
+!
 headers
 .
 length
->
-0
 "
 There
 should

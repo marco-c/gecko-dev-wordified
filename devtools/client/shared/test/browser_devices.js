@@ -83,11 +83,11 @@ keys
 ;
 ok
 (
+!
+!
 types
 .
 length
->
-0
 Found
 {
 types
@@ -127,11 +127,11 @@ string
 "
 &
 &
+!
+!
 string
 .
 length
->
-0
 &
 &
 string
@@ -160,6 +160,8 @@ string
 ;
 ok
 (
+!
+!
 devices
 .
 get
@@ -168,8 +170,6 @@ type
 )
 .
 length
->
-0
 Found
 {
 devices

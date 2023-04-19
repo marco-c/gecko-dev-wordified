@@ -723,8 +723,6 @@ if
 menuItems
 .
 length
->
-0
 )
 {
 menuItems

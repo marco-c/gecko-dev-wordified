@@ -1827,8 +1827,6 @@ if
 applicableBindings
 .
 length
->
-0
 )
 {
 hadApplicableBindings

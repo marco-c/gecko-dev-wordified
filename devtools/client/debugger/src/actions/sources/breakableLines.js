@@ -143,8 +143,6 @@ line
 ]
 .
 length
->
-0
 )
 {
 lines

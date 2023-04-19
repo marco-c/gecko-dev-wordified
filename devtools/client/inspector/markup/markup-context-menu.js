@@ -2544,8 +2544,6 @@ trim
 )
 .
 length
->
-0
 )
 {
 return
@@ -5476,8 +5474,6 @@ visible
 )
 .
 length
->
-0
 )
 {
 menu

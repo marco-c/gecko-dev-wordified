@@ -1286,8 +1286,6 @@ toolboxWidth
 visibleTabs
 .
 length
->
-0
 )
 {
 const
@@ -1830,8 +1828,6 @@ state
 overflowedTabIds
 .
 length
->
-0
 ?
 this
 .

@@ -9315,12 +9315,10 @@ checked
 {
 if
 (
+!
 arguments
 .
 length
-=
-=
-0
 )
 {
 /

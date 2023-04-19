@@ -2208,11 +2208,11 @@ FILTERED_CLASSNAME
 const
 allFiltered
 =
+!
+!
 summaries
 .
 length
->
-0
 &
 &
 !

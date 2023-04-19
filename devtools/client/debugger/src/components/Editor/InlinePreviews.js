@@ -132,6 +132,8 @@ return
 previews
 &
 &
+!
+!
 Object
 .
 keys
@@ -140,8 +142,6 @@ previews
 )
 .
 length
->
-0
 ;
 }
 class

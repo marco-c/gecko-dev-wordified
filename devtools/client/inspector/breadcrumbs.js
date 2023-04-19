@@ -6058,8 +6058,6 @@ this
 nodeHierarchy
 .
 length
->
-0
 )
 {
 /

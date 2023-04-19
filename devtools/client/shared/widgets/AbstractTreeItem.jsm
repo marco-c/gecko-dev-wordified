@@ -2121,13 +2121,13 @@ this
 .
 _populated
 =
+!
+!
 this
 .
 _childTreeItems
 .
 length
->
-0
 ;
 }
 this

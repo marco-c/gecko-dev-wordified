@@ -199,12 +199,10 @@ body
 ;
 if
 (
+!
 statements
 .
 length
-=
-=
-0
 )
 {
 return

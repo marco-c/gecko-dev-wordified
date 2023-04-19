@@ -300,11 +300,11 @@ filter
 list
 =
 >
+!
+!
 list
 .
 length
->
-0
 )
 ;
 return

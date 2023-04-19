@@ -2976,13 +2976,13 @@ pseudoElement
 "
 &
 &
+!
+!
 rule
 .
 matchedSelectors
 .
 length
->
-0
 ;
 /
 /

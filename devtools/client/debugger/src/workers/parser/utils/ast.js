@@ -978,6 +978,7 @@ if
 ast
 |
 |
+!
 Object
 .
 keys
@@ -986,9 +987,6 @@ ast
 )
 .
 length
-=
-=
-0
 )
 {
 return

@@ -6789,11 +6789,11 @@ if
 selectors
 &
 &
+!
+!
 selectors
 .
 length
->
-0
 &
 &
 selectors
@@ -7512,8 +7512,6 @@ if
 classes
 .
 length
->
-0
 )
 {
 selector
@@ -7562,8 +7560,6 @@ pseudoClasses
 pseudoClasses
 .
 length
->
-0
 )
 {
 selector

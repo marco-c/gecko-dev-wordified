@@ -297,12 +297,10 @@ pseudoClasses
 {
 if
 (
+!
 pseudoClasses
 .
 length
-=
-=
-0
 )
 {
 return

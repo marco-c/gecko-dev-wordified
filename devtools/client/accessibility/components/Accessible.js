@@ -2865,8 +2865,6 @@ item
 children
 .
 length
->
-0
 )
 {
 for

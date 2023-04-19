@@ -5115,8 +5115,6 @@ parents
 parents
 .
 length
->
-0
 )
 {
 /
@@ -5246,8 +5244,6 @@ parentGroups
 parentGroups
 .
 length
->
-0
 )
 {
 groups
@@ -5825,8 +5821,6 @@ if
 frontsToRelease
 .
 length
->
-0
 )
 {
 state

@@ -1013,6 +1013,7 @@ getState
 ;
 if
 (
+!
 Object
 .
 keys
@@ -1021,9 +1022,6 @@ currentRanges
 )
 .
 length
-=
-=
-0
 )
 {
 return
@@ -1347,12 +1345,10 @@ client
 {
 if
 (
+!
 sourceResources
 .
 length
-=
-=
-0
 )
 {
 return

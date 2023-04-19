@@ -595,12 +595,10 @@ input
 ;
 if
 (
+!
 line
 .
 length
-=
-=
-0
 )
 {
 break

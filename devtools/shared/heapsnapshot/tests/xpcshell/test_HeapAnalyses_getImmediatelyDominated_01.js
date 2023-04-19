@@ -189,13 +189,13 @@ breakdown
 ;
 ok
 (
+!
+!
 partialTree
 .
 children
 .
 length
->
-0
 "
 root
 should

@@ -453,13 +453,13 @@ them
 .
 assert
 (
+!
+!
 item
 .
 label
 .
 length
->
-0
 "
 Our
 label

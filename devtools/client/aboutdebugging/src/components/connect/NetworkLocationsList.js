@@ -381,8 +381,6 @@ props
 networkLocations
 .
 length
->
-0
 ?
 this
 .

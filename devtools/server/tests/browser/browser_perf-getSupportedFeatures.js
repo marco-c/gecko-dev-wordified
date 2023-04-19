@@ -124,11 +124,11 @@ array
 ;
 ok
 (
+!
+!
 features
 .
 length
->
-0
 "
 There
 are

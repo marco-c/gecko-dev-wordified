@@ -288,12 +288,10 @@ if
 frames
 |
 |
+!
 frames
 .
 length
-=
-=
-0
 )
 {
 return
@@ -469,11 +467,11 @@ continue
 }
 assert
 (
+!
+!
 originalFrames
 .
 length
->
-0
 "
 Expected
 at

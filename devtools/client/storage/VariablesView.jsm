@@ -17545,6 +17545,7 @@ item
 }
 if
 (
+!
 Object
 .
 keys
@@ -17553,9 +17554,6 @@ descriptor
 )
 .
 length
-=
-=
-0
 )
 {
 target

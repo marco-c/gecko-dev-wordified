@@ -1880,8 +1880,6 @@ while
 parenStack
 .
 length
->
-0
 )
 {
 const
@@ -3977,8 +3975,6 @@ this
 declarations
 .
 length
->
-0
 )
 {
 newIndentation

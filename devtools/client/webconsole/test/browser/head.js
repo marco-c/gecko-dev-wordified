@@ -2704,8 +2704,6 @@ return
 msgs
 .
 length
->
-0
 ?
 msgs
 :

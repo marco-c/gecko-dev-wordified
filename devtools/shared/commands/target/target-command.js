@@ -5422,8 +5422,6 @@ if
 unsupportedKeys
 .
 length
->
-0
 )
 {
 throw
@@ -5995,8 +5993,6 @@ if
 unsupportedKeys
 .
 length
->
-0
 )
 {
 throw

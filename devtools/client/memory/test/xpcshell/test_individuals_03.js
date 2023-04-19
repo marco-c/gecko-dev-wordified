@@ -533,6 +533,8 @@ nodes
 ;
 ok
 (
+!
+!
 getState
 (
 )
@@ -542,8 +544,6 @@ individuals
 nodes
 .
 length
->
-0
 "
 Should
 have

@@ -695,8 +695,6 @@ if
 elms
 .
 length
->
-0
 &
 &
 !

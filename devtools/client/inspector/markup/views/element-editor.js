@@ -6379,8 +6379,6 @@ if
 visibleAttrs
 .
 length
->
-0
 )
 {
 if

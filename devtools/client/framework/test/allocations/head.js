@@ -1006,8 +1006,6 @@ if
 objectNodeIds
 .
 length
->
-0
 )
 {
 tracker
@@ -1168,8 +1166,6 @@ if
 objectNodeIds
 .
 length
->
-0
 )
 {
 const

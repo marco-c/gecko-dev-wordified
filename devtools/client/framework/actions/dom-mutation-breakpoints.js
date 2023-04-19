@@ -222,8 +222,6 @@ if
 mutationItems
 .
 length
->
-0
 )
 {
 store
@@ -523,8 +521,6 @@ if
 removedNodeFronts
 .
 length
->
-0
 )
 {
 dispatch

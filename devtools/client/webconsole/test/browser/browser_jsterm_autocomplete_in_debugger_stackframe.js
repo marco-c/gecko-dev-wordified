@@ -205,11 +205,11 @@ popup
 ;
 ok
 (
+!
+!
 newItemsLabels
 .
 length
->
-0
 "
 '
 document

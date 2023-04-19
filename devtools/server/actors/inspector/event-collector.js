@@ -5339,8 +5339,6 @@ parameterNames
 parameterNames
 .
 length
->
-0
 )
 {
 const

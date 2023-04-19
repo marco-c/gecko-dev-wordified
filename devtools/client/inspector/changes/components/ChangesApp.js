@@ -1387,6 +1387,8 @@ render
 const
 hasChanges
 =
+!
+!
 Object
 .
 keys
@@ -1399,8 +1401,6 @@ changesTree
 )
 .
 length
->
-0
 ;
 return
 dom

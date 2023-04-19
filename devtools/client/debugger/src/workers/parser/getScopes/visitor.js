@@ -258,6 +258,7 @@ if
 ast
 |
 |
+!
 Object
 .
 keys
@@ -266,9 +267,6 @@ ast
 )
 .
 length
-=
-=
-0
 )
 {
 return
@@ -2228,8 +2226,6 @@ node
 decorators
 .
 length
->
-0
 )
 {
 /
@@ -5274,14 +5270,12 @@ node
 )
 &
 &
+!
 parent
 .
 arguments
 .
 length
-=
-=
-0
 )
 {
 return
@@ -5351,6 +5345,8 @@ name
 ]
 &
 &
+!
+!
 rootScope
 .
 bindings
@@ -5361,8 +5357,6 @@ name
 refs
 .
 length
->
-0
 ;
 return
 (

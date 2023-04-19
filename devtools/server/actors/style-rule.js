@@ -7445,13 +7445,13 @@ some
 ruleProp
 =
 >
+!
+!
 ruleProp
 .
 matchedSelectors
 .
 length
->
-0
 )
 ;
 }

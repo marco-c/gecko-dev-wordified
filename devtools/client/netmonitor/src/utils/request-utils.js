@@ -3332,8 +3332,6 @@ h
 value
 .
 length
->
-0
 )
 {
 if

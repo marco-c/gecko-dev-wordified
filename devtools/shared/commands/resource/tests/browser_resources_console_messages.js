@@ -338,11 +338,11 @@ attribute
 const
 isCachedMessage
 =
+!
+!
 expectedExistingCalls
 .
 length
->
-0
 ;
 const
 expected
@@ -384,12 +384,10 @@ value
 ;
 if
 (
+!
 expectedRuntimeCalls
 .
 length
-=
-=
-0
 )
 {
 runtimeDoneResolve
