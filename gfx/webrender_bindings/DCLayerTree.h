@@ -130,7 +130,7 @@ h
 #
 include
 <
-dxgitype
+DXGIType
 .
 h
 >
