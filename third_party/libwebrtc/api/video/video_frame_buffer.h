@@ -1417,6 +1417,7 @@ interleved
 UV
 .
 class
+RTC_EXPORT
 NV12BufferInterface
 :
 public
