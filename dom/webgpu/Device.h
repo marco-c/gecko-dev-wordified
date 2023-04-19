@@ -549,6 +549,15 @@ CleanupUnregisteredInParent
 (
 )
 ;
+void
+GenerateError
+(
+const
+nsCString
+&
+aMessage
+)
+;
 private
 :
 ~
