@@ -2350,6 +2350,39 @@ py
 "
         
 }
+        
+{
+            
+"
+source
+"
+:
+buildconfig
+.
+topsrcdir
+            
+"
+base
+"
+:
+"
+third_party
+/
+python
+/
+packaging
+"
+            
+"
+pattern
+"
+:
+"
+*
+*
+"
+        
+}
     
 ]
     
