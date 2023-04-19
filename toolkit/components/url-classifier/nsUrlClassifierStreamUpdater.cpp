@@ -4826,6 +4826,10 @@ a
 consistent
 state
 .
+mDownloadError
+=
+true
+;
 rv
 =
 mDBService
