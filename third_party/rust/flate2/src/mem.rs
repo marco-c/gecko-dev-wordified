@@ -2655,7 +2655,13 @@ CompressError
 >
 {
 use
-libc
+std
+:
+:
+os
+:
+:
+raw
 :
 :
 c_int
