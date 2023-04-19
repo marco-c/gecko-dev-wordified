@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppInfo
 :
@@ -495,6 +501,8 @@ handle
 const
 tabBrowser
 =
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -535,6 +543,8 @@ i
 let
 contentBrowser
 =
+lazy
+.
 TabManager
 .
 getBrowserForTab
@@ -550,6 +560,8 @@ i
 let
 contentWindowId
 =
+lazy
+.
 TabManager
 .
 getIdForBrowser
@@ -842,6 +854,8 @@ hasTabBrowser
 :
 !
 !
+lazy
+.
 TabManager
 .
 getTabBrowser
@@ -1035,6 +1049,8 @@ win
 const
 destroyed
 =
+lazy
+.
 waitForObserverTopic
 (
 "
@@ -1134,6 +1150,8 @@ let
 activated
 =
 new
+lazy
+.
 EventPromise
 (
 win
@@ -1146,6 +1164,8 @@ let
 focused
 =
 new
+lazy
+.
 EventPromise
 (
 win
@@ -1317,6 +1337,8 @@ options
 ;
 switch
 (
+lazy
+.
 AppInfo
 .
 name
@@ -1368,6 +1390,8 @@ openerWindow
 {
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -1445,6 +1469,8 @@ const
 activated
 =
 new
+lazy
+.
 EventPromise
 (
 win
@@ -1457,6 +1483,8 @@ const
 focused
 =
 new
+lazy
+.
 EventPromise
 (
 win
@@ -1473,6 +1501,8 @@ true
 const
 startup
 =
+lazy
+.
 waitForObserverTopic
 (
 "
@@ -1602,6 +1632,8 @@ default
 :
 throw
 new
+lazy
+.
 error
 .
 UnsupportedOperationError
@@ -1613,6 +1645,8 @@ not
 supported
 in
 {
+lazy
+.
 AppInfo
 .
 name
@@ -1664,6 +1698,8 @@ waitForInitialApplicationWindowLoaded
 {
 return
 new
+lazy
+.
 TimedPromise
 (
 async
@@ -1674,6 +1710,8 @@ resolve
 const
 windowReadyTopic
 =
+lazy
+.
 AppInfo
 .
 isThunderbird
@@ -1728,6 +1766,8 @@ getMostRecentBrowserWindow
 const
 windowLoaded
 =
+lazy
+.
 waitForObserverTopic
 (
 windowReadyTopic

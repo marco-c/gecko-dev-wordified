@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 Log
 :
@@ -165,7 +171,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -173,6 +179,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -264,6 +272,8 @@ this
 transport
 =
 new
+lazy
+.
 WebSocketTransport
 (
 webSocket
@@ -285,6 +295,8 @@ ready
 (
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -651,6 +663,8 @@ onClosed
 status
 )
 {
+lazy
+.
 logger
 .
 debug

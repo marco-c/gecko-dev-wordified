@@ -118,11 +118,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 AppInfo
 :
@@ -719,6 +725,8 @@ Android
 {
 return
 new
+lazy
+.
 MobileTabBrowser
 (
 win
@@ -1780,6 +1788,8 @@ const
 selected
 =
 new
+lazy
+.
 EventPromise
 (
 ownerWindow
@@ -1827,6 +1837,8 @@ Bug
 1506782
 .
 return
+lazy
+.
 AppInfo
 .
 name

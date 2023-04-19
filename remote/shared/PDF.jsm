@@ -94,11 +94,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 assert
 :
@@ -173,7 +179,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -181,6 +187,8 @@ logger
 )
 =
 >
+lazy
+.
 Log
 .
 get
@@ -846,6 +854,8 @@ are
 just
 that
 page
+lazy
+.
 assert
 .
 positiveInteger
@@ -936,6 +946,8 @@ trim
 )
 )
 ;
+lazy
+.
 assert
 .
 that
@@ -1023,6 +1035,8 @@ strings
 const
 assertNumeric
 =
+lazy
+.
 assert
 .
 that
@@ -1140,6 +1154,8 @@ limitStr
 )
 ;
 }
+lazy
+.
 assert
 .
 that
@@ -1330,6 +1346,8 @@ flat
 (
 )
 ;
+lazy
+.
 logger
 .
 debug
@@ -1466,6 +1484,8 @@ lastSize
 const
 timerId
 =
+lazy
+.
 setInterval
 (
 async
@@ -1500,6 +1520,8 @@ size
 lastSize
 )
 {
+lazy
+.
 clearInterval
 (
 timerId
@@ -1523,6 +1545,8 @@ DELAY_CHECK_FILE_COMPLETELY_WRITTEN
 }
 )
 ;
+lazy
+.
 logger
 .
 debug
