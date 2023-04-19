@@ -23922,6 +23922,9 @@ fileName
 .
 ReplaceChar
 (
+u
+"
+"
 KNOWN_PATH_SEPARATORS
 '
 _
@@ -23932,6 +23935,9 @@ fileName
 .
 ReplaceChar
 (
+u
+"
+"
 FILE_ILLEGAL_CHARACTERS
 '
 '
