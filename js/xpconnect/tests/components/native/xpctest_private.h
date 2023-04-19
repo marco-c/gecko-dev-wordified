@@ -172,10 +172,13 @@ ModuleUtils
 .
 h
 "
-nsresult
-xpcTestRegisterComponents
-(
-)
+extern
+const
+mozilla
+:
+:
+Module
+kXPCTestModule
 ;
 class
 xpcTestObjectReadOnly
