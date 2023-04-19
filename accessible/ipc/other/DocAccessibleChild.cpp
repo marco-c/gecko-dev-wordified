@@ -1002,7 +1002,7 @@ target
 =
 rel
 .
-Next
+LocalNext
 (
 )
 )
@@ -1075,7 +1075,7 @@ target
 =
 rel
 .
-Next
+LocalNext
 (
 )
 )

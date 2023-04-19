@@ -842,7 +842,7 @@ relTarget
 =
 rel
 .
-Next
+LocalNext
 (
 )
 )
@@ -900,7 +900,7 @@ relTarget
 =
 rel
 .
-Next
+LocalNext
 (
 )
 )

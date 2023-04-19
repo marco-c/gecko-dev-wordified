@@ -166,7 +166,7 @@ do_CreateInstance
 NS_ARRAY_CONTRACTID
 )
 ;
-LocalAccessible
+Accessible
 *
 targetAcc
 =
