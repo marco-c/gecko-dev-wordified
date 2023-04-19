@@ -14865,7 +14865,7 @@ store
 MStoreElement
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -17913,7 +17913,7 @@ store
 MStoreElement
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -19400,7 +19400,7 @@ store
 MStoreElement
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (

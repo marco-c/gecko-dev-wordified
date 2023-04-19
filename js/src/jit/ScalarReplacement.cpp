@@ -15912,7 +15912,7 @@ store
 MStoreElement
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
