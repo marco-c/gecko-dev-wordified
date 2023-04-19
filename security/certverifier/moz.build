@@ -140,6 +140,11 @@ OCSPCache
 .
 cpp
 "
+"
+OCSPVerificationTrustDomain
+.
+cpp
+"
 ]
 if
 not
