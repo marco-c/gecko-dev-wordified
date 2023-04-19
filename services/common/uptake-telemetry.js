@@ -1385,9 +1385,3 @@ extraStr
 }
 }
 }
-this
-.
-UptakeTelemetry
-=
-UptakeTelemetry
-;
