@@ -2059,15 +2059,6 @@ include
 "
 vm
 /
-ErrorContext
-.
-h
-"
-#
-include
-"
-vm
-/
 ErrorReporting
 .
 h
@@ -2082,6 +2073,9 @@ KeywordInfo
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {
