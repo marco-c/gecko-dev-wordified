@@ -910,8 +910,11 @@ aWindow
 Document
 *
 aCallerDoc
+Maybe
+<
 bool
-aIsCallerChrome
+>
+aShouldResistFingerprinting
 nsAString
 &
 aUserAgent
