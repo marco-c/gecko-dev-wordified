@@ -71,7 +71,7 @@ Interactions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -83,7 +83,9 @@ modules
 /
 Interactions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -94,7 +96,7 @@ Snapshots
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -106,7 +108,9 @@ modules
 /
 Snapshots
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -117,7 +121,7 @@ PlacesUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -130,7 +134,9 @@ modules
 /
 PlacesUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -141,7 +147,7 @@ PlacesDBUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -154,7 +160,9 @@ modules
 /
 PlacesDBUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
