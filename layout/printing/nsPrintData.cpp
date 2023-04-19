@@ -378,10 +378,6 @@ mType
 (
 aType
 )
-mPrintDocList
-(
-0
-)
 mOnStartSent
 (
 false
