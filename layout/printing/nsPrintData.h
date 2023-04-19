@@ -596,12 +596,6 @@ mNumPrintablePages
 float
 mShrinkRatio
 ;
-nsCOMPtr
-<
-nsIPrintSettings
->
-mPrintSettings
-;
 private
 :
 nsPrintData
