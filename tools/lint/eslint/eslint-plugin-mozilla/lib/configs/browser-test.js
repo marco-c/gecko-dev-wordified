@@ -89,6 +89,12 @@ false
 EventUtils
 :
 false
+IOUtils
+:
+false
+PathUtils
+:
+false
 PromiseDebugging
 :
 false
