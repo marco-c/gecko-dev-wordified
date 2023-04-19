@@ -1713,14 +1713,10 @@ JSRuntime
 :
 addTelemetry
 (
-int
+JSMetric
 id
 uint32_t
 sample
-const
-char
-*
-key
 )
 {
 if
@@ -1735,7 +1731,6 @@ telemetryCallback
 (
 id
 sample
-key
 )
 ;
 }
