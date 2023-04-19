@@ -135,8 +135,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 extern
@@ -149,12 +149,10 @@ kPrefSimpleDBEnabled
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

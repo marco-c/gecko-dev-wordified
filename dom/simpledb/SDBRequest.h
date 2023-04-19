@@ -186,8 +186,8 @@ nsIVariant
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -300,12 +300,10 @@ SDBRequest
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
