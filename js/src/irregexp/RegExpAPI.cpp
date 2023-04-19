@@ -2127,15 +2127,6 @@ JS
 StackForSystemCode
 )
 ;
-HandleScope
-handleScope
-(
-cx
--
->
-isolate
-)
-;
 return
 RegExpParser
 :
