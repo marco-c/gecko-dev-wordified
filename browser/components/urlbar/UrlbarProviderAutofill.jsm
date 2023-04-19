@@ -4393,6 +4393,16 @@ h
 .
 id
 WHERE
+LENGTH
+(
+i
+.
+input
+)
+!
+=
+0
+AND
 :
 searchString
 BETWEEN
