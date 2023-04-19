@@ -857,9 +857,9 @@ take
 }
 virtual
 void
-GetSecurityInfo
+GetTLSSocketControl
 (
-nsISupports
+nsISSLSocketControl
 *
 *
 result
@@ -1324,9 +1324,9 @@ override
 ;
 \
 void
-GetSecurityInfo
+GetTLSSocketControl
 (
-nsISupports
+nsISSLSocketControl
 *
 *
 result
