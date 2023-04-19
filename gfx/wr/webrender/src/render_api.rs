@@ -7217,7 +7217,7 @@ be
 used
 only
 when
-WebRenderOptions
+RendererOptions
 :
 :
 namespace_alloc_by_client

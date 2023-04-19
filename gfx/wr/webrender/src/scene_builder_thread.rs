@@ -367,6 +367,7 @@ renderer
 {
 FullFrameStats
 PipelineInfo
+SceneBuilderHooks
 }
 ;
 use
@@ -402,12 +403,6 @@ telemetry
 :
 :
 Telemetry
-;
-use
-crate
-:
-:
-SceneBuilderHooks
 ;
 use
 std

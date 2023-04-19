@@ -1239,7 +1239,7 @@ opts
 webrender
 :
 :
-WebRenderOptions
+RendererOptions
 {
 .
 .

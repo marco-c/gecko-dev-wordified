@@ -184,12 +184,6 @@ Sender
 Receiver
 }
 ;
-use
-crate
-:
-:
-AsyncPropertySampler
-;
 #
 [
 cfg
@@ -518,6 +512,7 @@ renderer
 :
 :
 {
+AsyncPropertySampler
 FullFrameStats
 PipelineInfo
 }
