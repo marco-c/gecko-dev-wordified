@@ -83,7 +83,7 @@ document
 getElementById
 (
 "
-tabs
+tab
 -
 pickup
 -
@@ -91,7 +91,7 @@ container
 "
 )
 "
-tabs
+tab
 -
 pickup
 -
