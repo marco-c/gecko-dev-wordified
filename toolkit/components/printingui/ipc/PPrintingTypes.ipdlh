@@ -281,6 +281,11 @@ compromised
 /
 /
 nsString
+printerName
+;
+/
+/
+nsString
 toFileName
 ;
 /
@@ -304,9 +309,6 @@ outputDestination
 ;
 short
 outputFormat
-;
-nsString
-printerName
 ;
 int32_t
 printPageDelay
