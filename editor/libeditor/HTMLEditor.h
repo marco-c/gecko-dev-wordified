@@ -16573,12 +16573,9 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-nsresult
+CreateElementResult
 EnsureHardLineBeginsWithFirstChildOf
 (
-dom
-:
-:
 Element
 &
 aRemovingContainerElement
@@ -16625,12 +16622,9 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-nsresult
+CreateElementResult
 EnsureHardLineEndsWithLastChildOf
 (
-dom
-:
-:
 Element
 &
 aRemovingContainerElement
