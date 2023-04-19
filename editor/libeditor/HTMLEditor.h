@@ -27661,7 +27661,11 @@ state
 *
 /
 MOZ_CAN_RUN_SCRIPT
+Result
+<
 bool
+nsresult
+>
 IsRemovableParentStyleWithNewSpanElement
 (
 nsIContent
