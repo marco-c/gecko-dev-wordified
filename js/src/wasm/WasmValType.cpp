@@ -294,7 +294,11 @@ return
 false
 ;
 }
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 typeLinearStr
 (
 cx

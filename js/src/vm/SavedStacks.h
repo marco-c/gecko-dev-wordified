@@ -2361,7 +2361,11 @@ SavedFrame
 *
 >
 asyncStack
-HandleAtom
+Handle
+<
+JSAtom
+*
+>
 asyncCause
 const
 mozilla

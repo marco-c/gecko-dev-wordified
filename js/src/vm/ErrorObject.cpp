@@ -4707,7 +4707,11 @@ the
 stack
 string
 .
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 =
 cx

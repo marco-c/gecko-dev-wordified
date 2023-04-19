@@ -5005,7 +5005,11 @@ JSContext
 cx
 HandleObject
 obj
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 HandleValue
 value
@@ -5398,7 +5402,11 @@ GetIntrinsicValue
 JSContext
 *
 cx
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 MutableHandleValue
 rval

@@ -8126,7 +8126,11 @@ return
 nullptr
 ;
 }
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 by
 (
 cx

@@ -188,7 +188,11 @@ GlobalObject
 *
 >
 global
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 HandleValue
 value

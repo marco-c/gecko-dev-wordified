@@ -1514,7 +1514,11 @@ Locale
 tag
 ;
 {
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 locale
 (
 cx

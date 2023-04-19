@@ -226,7 +226,11 @@ zone
 .
 *
 /
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 source
 (
 cx
@@ -300,7 +304,11 @@ expression
 .
 *
 /
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 input
 (
 cx

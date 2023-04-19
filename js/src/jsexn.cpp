@@ -2713,7 +2713,11 @@ HandleObject
 obj
 SniffingBehavior
 behavior
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 MutableHandleValue
 vp

@@ -16671,7 +16671,11 @@ return
 false
 ;
 }
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 atom
 (
 context

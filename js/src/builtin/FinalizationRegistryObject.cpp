@@ -4368,7 +4368,11 @@ return
 nullptr
 ;
 }
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 funName
 =
 cx

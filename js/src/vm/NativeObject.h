@@ -6834,7 +6834,11 @@ NativeObject
 *
 >
 obj
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 PropertyFlags
 flags
@@ -6898,7 +6902,11 @@ NativeObject
 *
 >
 obj
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 uint32_t
 slot

@@ -1531,10 +1531,11 @@ CHECK_THREAD
 cx
 )
 ;
-js
-:
-:
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 specifierAtom
 (
 cx

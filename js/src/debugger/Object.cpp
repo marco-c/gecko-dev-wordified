@@ -15324,7 +15324,11 @@ nargs
 (
 )
 ;
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 name
 (
 cx
@@ -15604,7 +15608,11 @@ if
 fun
 )
 {
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 selfHostedName
 (
 cx

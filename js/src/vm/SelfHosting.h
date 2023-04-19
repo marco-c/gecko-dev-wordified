@@ -447,7 +447,11 @@ CallSelfHostedFunction
 JSContext
 *
 cx
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 HandleValue
 thisv

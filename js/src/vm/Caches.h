@@ -498,7 +498,11 @@ cx
 )
 {
 }
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 str
 ;
 RootedScript

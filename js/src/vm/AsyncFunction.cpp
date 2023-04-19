@@ -297,7 +297,11 @@ return
 nullptr
 ;
 }
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 =
 cx
@@ -1106,7 +1110,11 @@ handled
 in
 generator
 .
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 funName
 =
 kind

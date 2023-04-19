@@ -2969,7 +2969,11 @@ global
 )
 )
 ;
-RootedPropertyName
+Rooted
+<
+PropertyName
+*
+>
 name
 (
 cx_

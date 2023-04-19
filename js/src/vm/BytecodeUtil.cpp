@@ -11836,7 +11836,11 @@ JSOp
 :
 StrictDelProp
 ;
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 prop
 (
 cx
@@ -11946,7 +11950,11 @@ JSOp
 GetPropSuper
 :
 {
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 prop
 (
 cx

@@ -7776,7 +7776,11 @@ CompilationAtomCache
 atomCache
 ScriptIndex
 index
-HandleAtom
+Handle
+<
+JSAtom
+*
+>
 name
 )
 ;

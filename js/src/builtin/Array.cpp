@@ -8558,7 +8558,11 @@ Steps
 -
 4
 .
-RootedLinearString
+Rooted
+<
+JSLinearString
+*
+>
 sepstr
 (
 cx
@@ -9155,7 +9159,11 @@ false
 }
 else
 {
-HandleLinearString
+Handle
+<
+JSLinearString
+*
+>
 sepHandle
 =
 sepstr

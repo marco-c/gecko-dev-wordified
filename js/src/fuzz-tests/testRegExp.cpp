@@ -421,7 +421,11 @@ patternChars
 patternLength
 ;
 }
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 pattern
 (
 gCx
@@ -448,7 +452,11 @@ return
 0
 ;
 }
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 input
 (
 gCx

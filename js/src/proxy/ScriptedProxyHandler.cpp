@@ -1351,7 +1351,11 @@ JSContext
 cx
 HandleObject
 handler
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 name
 MutableHandleValue
 func

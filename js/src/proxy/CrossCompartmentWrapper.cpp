@@ -2308,7 +2308,11 @@ the
 current
 compartment
 .
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 source
 (
 cx

@@ -4222,7 +4222,11 @@ MutableHandleValue
 val
 )
 {
-HandlePropertyName
+Handle
+<
+PropertyName
+*
+>
 shName
 =
 cx
@@ -4234,7 +4238,11 @@ names
 .
 ArrayValues
 ;
-RootedAtom
+Rooted
+<
+JSAtom
+*
+>
 name
 (
 cx
