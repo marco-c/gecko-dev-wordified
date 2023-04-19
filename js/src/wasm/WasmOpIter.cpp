@@ -3023,6 +3023,12 @@ SimdOp
 :
 I16x8RelaxedQ15MulrS
 :
+case
+SimdOp
+:
+:
+I16x8DotI8x16I7x16S
+:
 WASM_SIMD_OP
 (
 OpKind
@@ -3696,6 +3702,12 @@ SimdOp
 :
 :
 I64x2RelaxedLaneSelect
+:
+case
+SimdOp
+:
+:
+I32x4DotI8x16I7x16AddS
 :
 WASM_SIMD_OP
 (

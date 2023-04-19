@@ -14060,6 +14060,16 @@ emitVectorAndNot
 (
 )
 ;
+#
+ifdef
+ENABLE_WASM_RELAXED_SIMD
+void
+emitDotI8x16I7x16AddS
+(
+)
+;
+#
+endif
 void
 loadSplat
 (
