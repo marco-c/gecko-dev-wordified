@@ -17464,13 +17464,10 @@ context
 was
 created
 .
-public
-:
+const
 PlatformThreadId
 mOwningThreadId
 ;
-protected
-:
 GLContextSymbols
 mSymbols
 =
