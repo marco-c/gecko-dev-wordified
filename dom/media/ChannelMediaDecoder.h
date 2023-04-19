@@ -636,7 +636,7 @@ run
 this
 decoder
 .
-MediaDecoderStateMachine
+MediaDecoderStateMachineBase
 *
 CreateStateMachine
 (
