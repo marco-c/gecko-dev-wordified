@@ -3304,14 +3304,6 @@ Rectifier
 /
 frame
 .
-static_assert
-(
-BaselineFrameReg
-=
-=
-FramePointer
-)
-;
 priorOffset
 -
 =

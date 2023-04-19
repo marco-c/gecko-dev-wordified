@@ -182,13 +182,6 @@ pointer
 static
 constexpr
 Register
-BaselineFrameReg
-=
-FramePointer
-;
-static
-constexpr
-Register
 BaselineStackReg
 =
 sp

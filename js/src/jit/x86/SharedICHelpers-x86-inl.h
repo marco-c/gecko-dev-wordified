@@ -186,7 +186,7 @@ masm
 .
 movl
 (
-BaselineFrameReg
+FramePointer
 eax
 )
 ;
@@ -249,7 +249,7 @@ ebx
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -362,7 +362,7 @@ masm
 .
 movl
 (
-BaselineFrameReg
+FramePointer
 reg
 )
 ;
@@ -510,7 +510,7 @@ is
 /
 /
 /
-BaselineFrameReg
+FramePointer
 /
 /
 +
@@ -548,7 +548,7 @@ just
 calculate
 /
 /
-BaselineFrameReg
+FramePointer
 -
 BaselineStackReg
 .
@@ -583,7 +583,7 @@ masm
 .
 movl
 (
-BaselineFrameReg
+FramePointer
 scratch
 )
 ;
@@ -601,7 +601,7 @@ DEBUG
 Address
 frameSizeAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -734,7 +734,7 @@ masm
 .
 Push
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -742,7 +742,7 @@ masm
 mov
 (
 BaselineStackReg
-BaselineFrameReg
+FramePointer
 )
 ;
 }

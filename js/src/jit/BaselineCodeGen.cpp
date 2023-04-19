@@ -2298,7 +2298,7 @@ InterpreterPCReg
 Address
 pcAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -3352,7 +3352,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -4527,7 +4527,7 @@ computeEffectiveAddress
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -4705,7 +4705,7 @@ computeEffectiveAddress
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -5279,7 +5279,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R1
 .
 scratchReg
@@ -5401,7 +5401,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -7371,7 +7371,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -8391,7 +8391,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -8979,7 +8979,7 @@ masm
 .
 PushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -9428,7 +9428,7 @@ masm
 .
 PushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -9698,7 +9698,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -9994,7 +9994,7 @@ masm
 .
 PushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -10221,7 +10221,7 @@ masm
 .
 PushBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -14985,7 +14985,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R1
 .
 scratchReg
@@ -22481,7 +22481,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -24513,7 +24513,7 @@ indexScratch
 return
 BaseValueIndex
 (
-BaselineFrameReg
+FramePointer
 indexScratch
 BaselineFrame
 :
@@ -25497,7 +25497,7 @@ isUnaliased
 BaseValueIndex
 addr
 (
-BaselineFrameReg
+FramePointer
 argReg
 BaselineFrame
 :
@@ -25935,7 +25935,7 @@ scratchReg
 Address
 actualArgs
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -25986,7 +25986,7 @@ argvLen
 BaseValueIndex
 newTarget
 (
-BaselineFrameReg
+FramePointer
 argvLen
 BaselineFrame
 :
@@ -27761,7 +27761,7 @@ script
 Address
 pcAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -28189,7 +28189,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -28280,7 +28280,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -28393,7 +28393,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 scratch1
 )
 ;
@@ -28563,7 +28563,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -28719,7 +28719,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -28881,7 +28881,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -28964,7 +28964,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -29105,7 +29105,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R1
 .
 scratchReg
@@ -29194,7 +29194,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -29328,7 +29328,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -29469,7 +29469,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -31916,7 +31916,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -33240,7 +33240,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -33384,7 +33384,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -33906,7 +33906,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R1
 .
 scratchReg
@@ -34385,7 +34385,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -34742,7 +34742,7 @@ scratch
 Address
 icScriptAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -34873,7 +34873,7 @@ fields
 Address
 flagsAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -34885,7 +34885,7 @@ reverseOffsetOfFlags
 Address
 scriptAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -34988,7 +34988,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -35648,7 +35648,7 @@ computeEffectiveAddress
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -36012,14 +36012,14 @@ masm
 .
 push
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
 .
 moveStackPtrTo
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -36675,7 +36675,7 @@ for
 the
 possibility
 that
-BaselineFrameReg
+FramePointer
 /
 /
 is
@@ -36698,7 +36698,7 @@ the
 frame
 descriptor
 into
-R2
+FramePointer
 .
 masm
 .
@@ -36713,7 +36713,7 @@ getStackPointer
 )
 0
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 /
@@ -36730,13 +36730,12 @@ Imm32
 (
 FRAMESIZE_SHIFT
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 /
 /
 Add
-to
 stack
 pointer
 .
@@ -36744,7 +36743,7 @@ masm
 .
 addStackPtrTo
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 /
@@ -36783,7 +36782,7 @@ void
 *
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -37111,7 +37110,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R2
 .
 scratchReg
@@ -38678,14 +38677,14 @@ masm
 .
 push
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
 .
 moveStackPtrTo
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
@@ -39083,14 +39082,14 @@ masm
 .
 moveToStackPtr
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 masm
 .
 pop
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 emitProfilerExitFrame
@@ -40847,7 +40846,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -40943,7 +40942,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 R0
 .
 scratchReg
@@ -41467,7 +41466,7 @@ regs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -41591,7 +41590,7 @@ hasDebugScript
 Address
 scriptAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -41682,7 +41681,7 @@ it
 Address
 pcAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -41729,7 +41728,7 @@ masm
 .
 loadBaselineFramePtr
 (
-BaselineFrameReg
+FramePointer
 scratch2
 )
 ;
@@ -41887,7 +41886,7 @@ register
 Address
 pcAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :

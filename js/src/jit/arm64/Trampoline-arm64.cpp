@@ -771,7 +771,7 @@ masm
 .
 moveStackPtrTo
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 /
@@ -1630,7 +1630,7 @@ masm
 push
 (
 ScratchReg2
-BaselineFrameReg
+FramePointer
 )
 ;
 /
@@ -1659,7 +1659,7 @@ touchFrameValues
 (
 reg_osrNStack
 ScratchReg2
-BaselineFrameReg
+FramePointer
 )
 ;
 }
@@ -1667,7 +1667,7 @@ masm
 .
 moveStackPtrTo
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 /
@@ -1813,7 +1813,7 @@ masm
 .
 push
 (
-BaselineFrameReg
+FramePointer
 reg_code
 )
 ;
@@ -1857,7 +1857,7 @@ masm
 .
 passABIArg
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 /
@@ -1908,7 +1908,7 @@ masm
 pop
 (
 r19
-BaselineFrameReg
+FramePointer
 )
 ;
 MOZ_ASSERT
@@ -1947,7 +1947,7 @@ Size
 (
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 Label
@@ -2005,7 +2005,7 @@ masm
 GetStackPointer64
 (
 )
-BaselineFrameReg64
+FramePointer64
 Operand
 (
 2

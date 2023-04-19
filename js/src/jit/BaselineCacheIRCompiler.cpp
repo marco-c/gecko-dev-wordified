@@ -3762,7 +3762,7 @@ CalleeToken
 Address
 tokenAddr
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -10486,7 +10486,7 @@ storePtr
 obj
 Address
 (
-BaselineFrameReg
+FramePointer
 scratchOffset
 )
 )
@@ -10537,7 +10537,7 @@ loadPtr
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 0
 )
 obj
@@ -10899,7 +10899,7 @@ storePtr
 obj
 Address
 (
-BaselineFrameReg
+FramePointer
 scratchOffset
 )
 )
@@ -10950,7 +10950,7 @@ loadPtr
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 0
 )
 obj
@@ -14831,7 +14831,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 STUB_FRAME_SIZE
 )
 )
@@ -14968,7 +14968,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 STUB_FRAME_SIZE
 +
 (
@@ -15005,7 +15005,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 STUB_FRAME_SIZE
 +
 (
@@ -15778,7 +15778,7 @@ pushValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 STUB_FRAME_SIZE
 +
 sizeof

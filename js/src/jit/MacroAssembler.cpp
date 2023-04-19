@@ -12924,7 +12924,7 @@ scratch
 Address
 envChain
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -14868,7 +14868,7 @@ enterRegs
 .
 has
 (
-BaselineFrameReg
+FramePointer
 )
 )
 ;
@@ -14888,7 +14888,7 @@ jitcodeReg
 ;
 pop
 (
-BaselineFrameReg
+FramePointer
 )
 ;
 /

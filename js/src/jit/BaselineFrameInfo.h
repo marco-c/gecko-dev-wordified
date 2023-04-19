@@ -1071,7 +1071,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1093,7 +1093,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1113,7 +1113,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1132,7 +1132,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1151,7 +1151,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1170,7 +1170,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1189,7 +1189,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1208,7 +1208,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1227,7 +1227,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1246,7 +1246,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1265,7 +1265,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1284,7 +1284,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1306,7 +1306,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -1926,7 +1926,7 @@ stackDepth
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -2611,7 +2611,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -2630,7 +2630,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -2649,7 +2649,7 @@ const
 return
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :

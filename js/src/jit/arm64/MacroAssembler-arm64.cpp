@@ -2070,7 +2070,7 @@ offsetOfFramePointer
 (
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 loadPtr
@@ -2176,7 +2176,7 @@ Ldr
 (
 ARMRegister
 (
-BaselineFrameReg
+FramePointer
 64
 )
 MemOperand
@@ -2272,7 +2272,7 @@ offsetOfFramePointer
 (
 )
 )
-BaselineFrameReg
+FramePointer
 )
 ;
 loadPtr
@@ -2323,7 +2323,7 @@ loadValue
 (
 Address
 (
-BaselineFrameReg
+FramePointer
 BaselineFrame
 :
 :
@@ -2336,7 +2336,7 @@ JSReturnOperand
 ;
 movePtr
 (
-BaselineFrameReg
+FramePointer
 PseudoStackPointer
 )
 ;
@@ -2354,7 +2354,7 @@ Pop
 (
 ARMRegister
 (
-BaselineFrameReg
+FramePointer
 64
 )
 )
