@@ -438,6 +438,15 @@ none
 elf
 "
 "
+riscv32imac
+-
+unknown
+-
+xous
+-
+elf
+"
+"
 riscv32imc
 -
 unknown
