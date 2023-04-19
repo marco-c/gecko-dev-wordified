@@ -208,14 +208,6 @@ target
 ]
 {
 "
-thumbv4t
--
-none
--
-eabi
-"
-|
-"
 msp430
 -
 none

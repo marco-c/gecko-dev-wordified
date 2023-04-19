@@ -336,7 +336,7 @@ tail
 )
 ;
 let
-hs_probe
+dupe_ack
 =
 client
 .
@@ -358,7 +358,7 @@ dgram
 assert
 !
 (
-hs_probe
+dupe_ack
 .
 is_some
 (

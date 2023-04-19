@@ -298,11 +298,7 @@ quic
 "
 /
 /
-QUICv1
-label
-prefix
-;
-note
+Note
 the
 trailing
 space

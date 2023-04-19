@@ -191,9 +191,6 @@ Connection
 pkt
 :
 Datagram
-response
-:
-bool
 dropped
 :
 usize
@@ -255,7 +252,7 @@ now
 )
 )
 ;
-assert_eq
+assert
 !
 (
 out
@@ -264,10 +261,9 @@ as_dgram_ref
 (
 )
 .
-is_some
+is_none
 (
 )
-response
 )
 ;
 let
@@ -557,7 +553,6 @@ The
 client
 has
 received
-a
 handshake
 packet
 .
@@ -619,20 +614,6 @@ be
 dropped
 "
 .
-/
-/
-The
-client
-will
-generate
-a
-Handshake
-packet
-here
-to
-avoid
-stalling
-.
 check_discarded
 (
 &
@@ -643,7 +624,6 @@ init_pkt_s
 unwrap
 (
 )
-true
 2
 1
 )
@@ -728,7 +708,6 @@ clone
 unwrap
 (
 )
-false
 1
 1
 )
@@ -889,7 +868,6 @@ init_pkt_c
 unwrap
 (
 )
-false
 1
 0
 )
@@ -2032,7 +2010,6 @@ check_discarded
 mut
 client
 dgram
-false
 1
 0
 )
