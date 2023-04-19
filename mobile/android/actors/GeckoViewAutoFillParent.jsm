@@ -142,11 +142,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 gAutofillManager
 :
@@ -238,6 +244,8 @@ autofill
 )
 {
 return
+lazy
+.
 gAutofillManager
 .
 get
@@ -272,6 +280,8 @@ exist
 const
 autofill
 =
+lazy
+.
 gAutofillManager
 .
 ensure
@@ -346,6 +356,8 @@ clear
 (
 )
 {
+lazy
+.
 gAutofillManager
 .
 delete

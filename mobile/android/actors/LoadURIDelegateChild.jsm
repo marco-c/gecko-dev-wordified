@@ -152,11 +152,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 E10SUtils
 :
@@ -273,6 +279,8 @@ WebExtensionPolicy
 useRemoteWebExtensions
 &
 &
+lazy
+.
 E10SUtils
 .
 getRemoteTypeForURIObject
@@ -298,6 +306,8 @@ remoteType
 )
 =
 =
+lazy
+.
 E10SUtils
 .
 EXTENSION_REMOTE_TYPE

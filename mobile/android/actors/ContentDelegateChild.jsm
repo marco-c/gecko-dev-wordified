@@ -128,11 +128,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+lazy
 [
 "
 URL
@@ -144,7 +150,7 @@ XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ManifestObtainer
 :
@@ -548,6 +554,8 @@ isBlob
 &
 &
 !
+lazy
+.
 URL
 .
 isValidURL
@@ -909,6 +917,8 @@ const
 manifest
 =
 await
+lazy
+.
 ManifestObtainer
 .
 contentObtainManifest
