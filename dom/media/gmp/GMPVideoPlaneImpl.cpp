@@ -490,13 +490,6 @@ GMPSharedMem
 :
 kGMPFrameData
 aNewSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 new_mem
 )

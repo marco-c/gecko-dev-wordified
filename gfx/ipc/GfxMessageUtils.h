@@ -8203,10 +8203,6 @@ aParam
 mRecording
 .
 mLen
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 shmem
 )

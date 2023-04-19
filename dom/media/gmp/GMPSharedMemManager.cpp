@@ -245,17 +245,6 @@ ipc
 :
 :
 Shmem
-:
-:
-SharedMemory
-:
-:
-SharedMemoryType
-aType
-ipc
-:
-:
-Shmem
 *
 aMem
 )
@@ -426,7 +415,6 @@ retval
 Alloc
 (
 aSize
-aType
 aMem
 )
 ;

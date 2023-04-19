@@ -2469,13 +2469,6 @@ aSample
 Size
 (
 )
-Shmem
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 shmem
 )
@@ -2751,13 +2744,6 @@ if
 AllocShmem
 (
 aSizeInBytes
-Shmem
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 shmem
 )

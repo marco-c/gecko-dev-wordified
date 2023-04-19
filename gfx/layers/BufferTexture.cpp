@@ -763,9 +763,6 @@ aAllocator
 AllocUnsafeShmem
 (
 aBufferSize
-OptimalShmemType
-(
-)
 &
 shm
 )
@@ -2971,9 +2968,6 @@ aAllocator
 AllocUnsafeShmem
 (
 bufSize
-OptimalShmemType
-(
-)
 &
 shm
 )

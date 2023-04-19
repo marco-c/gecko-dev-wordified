@@ -5246,16 +5246,6 @@ if
 AllocShmem
 (
 len
-ipc
-:
-:
-Shmem
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 shmem
 )

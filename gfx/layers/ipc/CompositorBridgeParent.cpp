@@ -1335,14 +1335,6 @@ aSize
 ipc
 :
 :
-SharedMemory
-:
-:
-SharedMemoryType
-aType
-ipc
-:
-:
 Shmem
 *
 aShmem
@@ -1355,7 +1347,6 @@ PCompositorBridgeParent
 AllocShmem
 (
 aSize
-aType
 aShmem
 )
 ;
@@ -1371,14 +1362,6 @@ aSize
 ipc
 :
 :
-SharedMemory
-:
-:
-SharedMemoryType
-aType
-ipc
-:
-:
 Shmem
 *
 aShmem
@@ -1391,7 +1374,6 @@ PCompositorBridgeParent
 AllocUnsafeShmem
 (
 aSize
-aType
 aShmem
 )
 ;
@@ -12876,10 +12858,6 @@ if
 AllocShmem
 (
 totalLength
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 shmem
 )

@@ -1103,13 +1103,6 @@ return
 AllocShmem
 (
 aSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 aMem
 )
 ;

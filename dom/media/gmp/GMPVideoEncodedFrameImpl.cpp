@@ -673,13 +673,6 @@ GMPSharedMem
 :
 kGMPEncodedData
 aSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 mBuffer
 )
@@ -1050,13 +1043,6 @@ GMPSharedMem
 :
 kGMPEncodedData
 aNewSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 new_mem
 )

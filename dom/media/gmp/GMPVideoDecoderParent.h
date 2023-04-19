@@ -347,14 +347,6 @@ Alloc
 size_t
 aSize
 Shmem
-:
-:
-SharedMemory
-:
-:
-SharedMemoryType
-aType
-Shmem
 *
 aMem
 )
@@ -364,7 +356,6 @@ return
 AllocShmem
 (
 aSize
-aType
 aMem
 )
 ;

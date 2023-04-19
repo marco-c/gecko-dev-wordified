@@ -1000,16 +1000,6 @@ mBridge
 AllocShmem
 (
 size
-ipc
-:
-:
-Shmem
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 shmem
 )

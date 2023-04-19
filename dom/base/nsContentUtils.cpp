@@ -49292,10 +49292,6 @@ allocator
 AllocShmem
 (
 aSize
-SharedMemory
-:
-:
-TYPE_BASIC
 aShmem
 )
 ;
@@ -51258,10 +51254,6 @@ mAllocator
 AllocShmem
 (
 aSize
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 shmem
 )

@@ -1804,13 +1804,6 @@ GMPSharedMem
 :
 kGMPEncodedData
 aEncodedBufferSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 mem
 )

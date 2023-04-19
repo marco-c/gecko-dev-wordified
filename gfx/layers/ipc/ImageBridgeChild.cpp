@@ -3923,14 +3923,6 @@ aSize
 ipc
 :
 :
-SharedMemory
-:
-:
-SharedMemoryType
-aType
-ipc
-:
-:
 Shmem
 *
 aShmem
@@ -3948,7 +3940,6 @@ return
 DispatchAllocShmemInternal
 (
 aSize
-aType
 aShmem
 true
 )
@@ -3978,7 +3969,6 @@ PImageBridgeChild
 AllocUnsafeShmem
 (
 aSize
-aType
 aShmem
 )
 ;
@@ -3991,14 +3981,6 @@ AllocShmem
 (
 size_t
 aSize
-ipc
-:
-:
-SharedMemory
-:
-:
-SharedMemoryType
-aType
 ipc
 :
 :
@@ -4019,7 +4001,6 @@ return
 DispatchAllocShmemInternal
 (
 aSize
-aType
 aShmem
 false
 )
@@ -4049,7 +4030,6 @@ PImageBridgeChild
 AllocShmem
 (
 aSize
-aType
 aShmem
 )
 ;
@@ -4065,11 +4045,6 @@ SynchronousTask
 aTask
 size_t
 aSize
-SharedMemory
-:
-:
-SharedMemoryType
-aType
 ipc
 :
 :
@@ -4115,7 +4090,6 @@ ok
 AllocUnsafeShmem
 (
 aSize
-aType
 aShmem
 )
 ;
@@ -4127,7 +4101,6 @@ ok
 AllocShmem
 (
 aSize
-aType
 aShmem
 )
 ;
@@ -4146,11 +4119,6 @@ DispatchAllocShmemInternal
 (
 size_t
 aSize
-SharedMemory
-:
-:
-SharedMemoryType
-aType
 ipc
 :
 :
@@ -4198,7 +4166,6 @@ ProxyAllocShmemNow
 &
 task
 aSize
-aType
 aShmem
 aUnsafe
 &

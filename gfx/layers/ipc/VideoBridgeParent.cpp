@@ -793,14 +793,6 @@ aSize
 ipc
 :
 :
-SharedMemory
-:
-:
-SharedMemoryType
-aType
-ipc
-:
-:
 Shmem
 *
 aShmem
@@ -822,7 +814,6 @@ PVideoBridgeParent
 AllocShmem
 (
 aSize
-aType
 aShmem
 )
 ;
@@ -835,14 +826,6 @@ AllocUnsafeShmem
 (
 size_t
 aSize
-ipc
-:
-:
-SharedMemory
-:
-:
-SharedMemoryType
-aType
 ipc
 :
 :
@@ -867,7 +850,6 @@ PVideoBridgeParent
 AllocUnsafeShmem
 (
 aSize
-aType
 aShmem
 )
 ;

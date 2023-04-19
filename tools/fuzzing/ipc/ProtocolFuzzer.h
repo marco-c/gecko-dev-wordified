@@ -513,10 +513,6 @@ PrivateIPDLCaller
 (
 )
 shmem_size
-SharedMemory
-:
-:
-TYPE_BASIC
 false
 )
 )
