@@ -7924,7 +7924,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 .
 serialize
