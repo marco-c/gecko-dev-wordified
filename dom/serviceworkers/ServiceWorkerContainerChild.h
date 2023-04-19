@@ -164,7 +164,7 @@ mozilla
 dom
 {
 class
-ServiceWorkerContainer
+RemoteServiceWorkerContainerImpl
 ;
 class
 IPCWorkerRef
@@ -182,7 +182,7 @@ IPCWorkerRef
 >
 mIPCWorkerRef
 ;
-ServiceWorkerContainer
+RemoteServiceWorkerContainerImpl
 *
 mOwner
 ;
@@ -231,7 +231,7 @@ Create
 void
 SetOwner
 (
-ServiceWorkerContainer
+RemoteServiceWorkerContainerImpl
 *
 aOwner
 )
@@ -239,7 +239,7 @@ aOwner
 void
 RevokeOwner
 (
-ServiceWorkerContainer
+RemoteServiceWorkerContainerImpl
 *
 aOwner
 )

@@ -150,7 +150,7 @@ h
 #
 include
 "
-ServiceWorkerContainer
+RemoteServiceWorkerContainerImpl
 .
 h
 "
@@ -342,7 +342,7 @@ ServiceWorkerContainerChild
 :
 SetOwner
 (
-ServiceWorkerContainer
+RemoteServiceWorkerContainerImpl
 *
 aOwner
 )
@@ -369,7 +369,7 @@ ServiceWorkerContainerChild
 :
 RevokeOwner
 (
-ServiceWorkerContainer
+RemoteServiceWorkerContainerImpl
 *
 aOwner
 )
