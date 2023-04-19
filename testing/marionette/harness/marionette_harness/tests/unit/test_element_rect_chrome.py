@@ -122,7 +122,7 @@ content
 /
 marionette
 /
-test2
+test
 .
 xhtml
 "
