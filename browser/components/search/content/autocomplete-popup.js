@@ -753,10 +753,7 @@ engine
 -
 image
 "
->
-<
 /
-image
 >
 <
 label
@@ -784,10 +781,7 @@ role
 "
 presentation
 "
->
-<
 /
-label
 >
 <
 /
@@ -818,15 +812,7 @@ panel
 -
 tree
 "
-flex
-=
-"
-1
-"
->
-<
 /
-richlistbox
 >
 <
 menuseparator

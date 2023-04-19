@@ -808,11 +808,6 @@ autocomplete
 -
 richlistbox
 "
-flex
-=
-"
-1
-"
 /
 >
 ;
