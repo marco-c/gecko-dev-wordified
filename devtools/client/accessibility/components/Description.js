@@ -74,6 +74,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -96,6 +102,10 @@ img
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +119,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -120,6 +132,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -129,6 +145,8 @@ accessibility
 components
 /
 LearnMoreLink
+.
+js
 "
 )
 )
@@ -144,6 +162,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +175,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -164,6 +188,10 @@ A11Y_LEARN_MORE_LINK
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -171,6 +199,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

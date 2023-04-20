@@ -73,11 +73,17 @@ AUDIT_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ SELECT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

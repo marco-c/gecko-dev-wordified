@@ -73,6 +73,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -82,6 +86,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -108,6 +118,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -117,6 +129,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +172,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -165,6 +189,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -174,6 +202,8 @@ accessibility
 components
 /
 MainFrame
+.
+js
 "
 )
 )
@@ -187,6 +217,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -198,6 +232,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -212,6 +248,10 @@ reducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -221,6 +261,8 @@ accessibility
 reducers
 /
 index
+.
+js
 "
 )
 ;
@@ -275,6 +317,10 @@ reset
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -284,6 +330,8 @@ accessibility
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -296,6 +344,10 @@ highlight
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -305,6 +357,8 @@ accessibility
 actions
 /
 accessibles
+.
+js
 "
 )
 ;

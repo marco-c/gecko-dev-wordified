@@ -235,6 +235,10 @@ PREF_KEYS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -242,6 +246,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

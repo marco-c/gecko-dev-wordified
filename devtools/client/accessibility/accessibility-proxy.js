@@ -95,11 +95,17 @@ AUDIT_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -111,6 +117,10 @@ FILTERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +128,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

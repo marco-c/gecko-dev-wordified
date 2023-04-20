@@ -72,6 +72,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ input
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +116,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -115,6 +127,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +170,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -159,6 +183,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -170,6 +198,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -181,6 +211,10 @@ updateDisplayTabbingOrder
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +224,8 @@ accessibility
 actions
 /
 ui
+.
+js
 "
 )
 ;

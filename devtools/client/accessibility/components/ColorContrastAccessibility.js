@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -114,6 +126,10 @@ h3
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -138,6 +156,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ accessibility
 components
 /
 LearnMoreLink
+.
+js
 "
 )
 )
@@ -159,6 +183,10 @@ A11Y_CONTRAST_LEARN_MORE_LINK
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +194,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -177,6 +207,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +220,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;

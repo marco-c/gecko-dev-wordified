@@ -81,6 +81,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +94,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -101,6 +107,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +122,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -127,6 +139,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +154,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -147,6 +165,10 @@ Badges
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +178,8 @@ accessibility
 components
 /
 Badges
+.
+js
 "
 )
 ;
@@ -171,6 +195,10 @@ Rep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +210,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;
@@ -191,6 +221,10 @@ AuditController
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +234,8 @@ accessibility
 components
 /
 AuditController
+.
+js
 "
 )
 ;
@@ -209,6 +245,10 @@ AccessibilityRowValueClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -218,6 +258,8 @@ accessibility
 components
 /
 AccessibilityRowValue
+.
+js
 "
 )
 ;

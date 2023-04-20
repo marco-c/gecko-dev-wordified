@@ -73,6 +73,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +114,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +142,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -137,6 +155,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +172,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -161,6 +185,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -170,6 +198,8 @@ shared
 components
 /
 List
+.
+js
 "
 )
 .
@@ -184,6 +214,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -193,6 +227,8 @@ accessibility
 components
 /
 ColorContrastAccessibility
+.
+js
 "
 )
 .
@@ -207,6 +243,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -216,6 +256,8 @@ accessibility
 components
 /
 TextLabelCheck
+.
+js
 "
 )
 )
@@ -228,6 +270,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +283,8 @@ accessibility
 components
 /
 KeyboardCheck
+.
+js
 "
 )
 )
@@ -249,6 +297,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -258,6 +310,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -273,11 +327,17 @@ AUDIT_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

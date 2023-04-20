@@ -72,6 +72,10 @@ UNHIGHLIGHT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

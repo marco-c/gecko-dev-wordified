@@ -82,6 +82,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +95,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -102,6 +108,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +123,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -127,6 +139,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +154,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -147,6 +165,10 @@ Badge
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +178,8 @@ accessibility
 components
 /
 Badge
+.
+js
 "
 )
 ;
@@ -165,6 +189,10 @@ TextLabelBadgeClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -174,6 +202,8 @@ accessibility
 components
 /
 TextLabelBadge
+.
+js
 "
 )
 ;
@@ -197,11 +227,17 @@ SCORES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

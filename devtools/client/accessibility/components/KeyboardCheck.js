@@ -73,6 +73,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +114,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +142,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -137,6 +155,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ accessibility
 components
 /
 Check
+.
+js
 "
 )
 )
@@ -158,6 +182,10 @@ A11Y_KEYBOARD_LINKS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +193,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -200,11 +230,17 @@ NO_FOCUS_VISIBLE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

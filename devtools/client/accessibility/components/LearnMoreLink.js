@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ a
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +141,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ openDocLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +165,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;

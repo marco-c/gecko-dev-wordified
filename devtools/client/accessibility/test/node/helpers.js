@@ -40,6 +40,10 @@ reducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ accessibility
 reducers
 /
 index
+.
+js
 "
 )
 ;
@@ -58,6 +64,10 @@ CheckClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +77,8 @@ accessibility
 components
 /
 Check
+.
+js
 "
 )
 ;
@@ -76,6 +88,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +103,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -99,6 +117,10 @@ combineReducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -108,6 +130,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;

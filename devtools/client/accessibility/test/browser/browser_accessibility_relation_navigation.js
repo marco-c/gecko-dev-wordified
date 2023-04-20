@@ -41,6 +41,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +54,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;

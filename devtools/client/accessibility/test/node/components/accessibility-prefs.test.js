@@ -81,6 +81,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +94,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -101,6 +107,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +122,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -124,6 +136,10 @@ MenuButton
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +151,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 ;
@@ -144,6 +162,10 @@ ConnectedAccessibilityPrefsClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +175,8 @@ accessibility
 components
 /
 AccessibilityPrefs
+.
+js
 "
 )
 ;
@@ -180,6 +204,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +219,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -202,6 +232,10 @@ PREFS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -209,6 +243,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

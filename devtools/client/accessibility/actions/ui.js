@@ -75,6 +75,10 @@ UPDATE_DISPLAY_TABBING_ORDER
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

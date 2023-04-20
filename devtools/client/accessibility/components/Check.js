@@ -74,6 +74,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -114,6 +126,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -168,6 +192,10 @@ openDocLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -175,6 +203,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;
@@ -196,11 +226,17 @@ WARNING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

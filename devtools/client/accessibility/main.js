@@ -128,6 +128,10 @@ content
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

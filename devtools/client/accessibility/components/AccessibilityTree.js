@@ -81,6 +81,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +94,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +122,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -123,6 +135,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +150,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -145,6 +163,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +178,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 )
@@ -171,6 +195,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +210,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;
@@ -193,6 +223,10 @@ fetchChildren
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -202,6 +236,8 @@ accessibility
 actions
 /
 accessibles
+.
+js
 "
 )
 ;
@@ -213,6 +249,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -222,6 +262,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -233,6 +275,10 @@ isFiltered
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -242,6 +288,8 @@ accessibility
 utils
 /
 audit
+.
+js
 "
 )
 ;
@@ -253,6 +301,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -262,6 +314,8 @@ accessibility
 components
 /
 AccessibilityRow
+.
+js
 "
 )
 )
@@ -274,6 +328,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -283,6 +341,8 @@ accessibility
 components
 /
 AccessibilityRowValue
+.
+js
 "
 )
 )
@@ -295,6 +355,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -302,6 +366,8 @@ client
 accessibility
 /
 provider
+.
+js
 "
 )
 ;
@@ -313,6 +379,10 @@ scrollIntoView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -320,6 +390,8 @@ client
 shared
 /
 scroll
+.
+js
 "
 )
 ;

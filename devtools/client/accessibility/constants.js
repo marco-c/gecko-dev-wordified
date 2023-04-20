@@ -117,11 +117,17 @@ TOOLBAR_NO_NAME
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

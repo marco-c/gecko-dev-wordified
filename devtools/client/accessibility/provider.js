@@ -69,6 +69,10 @@ fetchChildren
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ accessibility
 actions
 /
 accessibles
+.
+js
 "
 )
 ;
