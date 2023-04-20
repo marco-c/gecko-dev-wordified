@@ -1464,6 +1464,11 @@ return
 mCanExecuteScripts
 ;
 }
+void
+TransientSetHasActivePeerConnections
+(
+)
+;
 protected
 :
 WindowContext
