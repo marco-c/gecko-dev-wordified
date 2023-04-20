@@ -958,8 +958,11 @@ bytes
 until
 the
 queue
-is
-full
+has
+reached
+the
+watermark
+limit
 .
 size_t
 remaining_bytes
@@ -968,7 +971,7 @@ remaining_bytes
 const
 {
 return
-max_size_bytes_
+watermark_bytes_
 -
 queued_bytes_
 ;
