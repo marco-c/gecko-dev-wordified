@@ -2641,7 +2641,7 @@ dom
 :
 Response
 (
-loadContext
+mRequestHandle
 -
 >
 GetCacheCreator
@@ -2737,7 +2737,7 @@ Promise
 >
 cachePromise
 =
-loadContext
+mRequestHandle
 -
 >
 GetCacheCreator
