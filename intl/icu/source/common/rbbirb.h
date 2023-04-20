@@ -446,8 +446,6 @@ RBBISymbolTableEntry
 &
 other
 )
-=
-delete
 ;
 /
 /
@@ -466,8 +464,6 @@ RBBISymbolTableEntry
 &
 other
 )
-=
-delete
 ;
 /
 /
@@ -1425,8 +1421,6 @@ RBBIRuleBuilder
 &
 other
 )
-=
-delete
 ;
 /
 /
@@ -1445,8 +1439,6 @@ RBBIRuleBuilder
 &
 other
 )
-=
-delete
 ;
 /
 /

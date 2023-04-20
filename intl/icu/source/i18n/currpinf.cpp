@@ -1274,7 +1274,7 @@ get
 (
 UnicodeString
 (
-true
+TRUE
 gPluralCountOther
 5
 )
@@ -2379,7 +2379,7 @@ findAndReplace
 (
 UnicodeString
 (
-true
+TRUE
 gPart0
 3
 )
@@ -2397,13 +2397,13 @@ findAndReplace
 (
 UnicodeString
 (
-true
+TRUE
 gPart1
 3
 )
 UnicodeString
 (
-true
+TRUE
 gTripleCurrencySign
 3
 )
@@ -2427,7 +2427,7 @@ findAndReplace
 (
 UnicodeString
 (
-true
+TRUE
 gPart0
 3
 )
@@ -2444,13 +2444,13 @@ findAndReplace
 (
 UnicodeString
 (
-true
+TRUE
 gPart1
 3
 )
 UnicodeString
 (
-true
+TRUE
 gTripleCurrencySign
 3
 )
@@ -2731,7 +2731,7 @@ hTable
 new
 Hashtable
 (
-true
+TRUE
 status
 )
 status

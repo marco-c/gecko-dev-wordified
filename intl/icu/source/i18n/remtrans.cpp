@@ -424,7 +424,7 @@ _registerFactory
 (
 UnicodeString
 (
-true
+TRUE
 :
 :
 CURR_ID
@@ -455,7 +455,7 @@ UNICODE_STRING_SIMPLE
 Null
 "
 )
-false
+FALSE
 )
 ;
 }
@@ -470,7 +470,7 @@ Transliterator
 (
 UnicodeString
 (
-true
+TRUE
 :
 :
 CURR_ID

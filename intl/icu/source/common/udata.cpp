@@ -1092,9 +1092,11 @@ mutex
 static
 u_atomic_int32_t
 gHaveTriedToLoadCommonData
-{
+=
+ATOMIC_INT32_T_INITIALIZER
+(
 0
-}
+)
 ;
 /
 /
@@ -1129,8 +1131,8 @@ icu
 :
 UInitOnce
 gCommonDataCacheInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 #
 if
@@ -1303,7 +1305,7 @@ gHaveTriedToLoadCommonData
 0
 ;
 return
-true
+TRUE
 ;
 /
 *
@@ -1331,7 +1333,7 @@ err
 UBool
 found
 =
-false
+FALSE
 ;
 int32_t
 i
@@ -1360,7 +1362,7 @@ pData
 NULL
 )
 return
-false
+FALSE
 ;
 {
 Mutex
@@ -1429,7 +1431,7 @@ array
 /
 found
 =
-true
+TRUE
 ;
 break
 ;
@@ -1527,7 +1529,7 @@ i
 UBool
 didUpdate
 =
-false
+FALSE
 ;
 if
 (
@@ -1539,7 +1541,7 @@ pErr
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -1648,7 +1650,7 @@ newCommonData
 ;
 didUpdate
 =
-true
+TRUE
 ;
 break
 ;
@@ -1792,7 +1794,7 @@ setCommonICUData
 (
 &
 tData
-false
+FALSE
 pErrorCode
 )
 ;
@@ -3296,7 +3298,7 @@ checkLastFour
 /
 *
 if
-true
+TRUE
 then
 allow
 paths
@@ -3920,7 +3922,7 @@ nextPath
 checkLastFour
 ?
 "
-true
+TRUE
 "
 :
 "
@@ -4294,6 +4296,9 @@ data
 if
 (
 checkLastFour
+=
+=
+TRUE
 &
 &
 (
@@ -5652,7 +5657,7 @@ setCommonICUDataPointer
 uprv_getICUData_collation
 (
 )
-false
+FALSE
 pErrorCode
 )
 ;
@@ -5667,7 +5672,7 @@ setCommonICUDataPointer
 uprv_getICUData_conversion
 (
 )
-false
+FALSE
 pErrorCode
 )
 ;
@@ -5701,7 +5706,7 @@ setCommonICUDataPointer
 (
 &
 U_ICUDATA_ENTRY_POINT
-false
+FALSE
 pErrorCode
 )
 ;
@@ -5989,7 +5994,7 @@ path
 .
 dat
 "
-true
+TRUE
 pErrorCode
 )
 ;
@@ -6003,7 +6008,7 @@ tData
 )
 =
 =
-false
+FALSE
 )
 &
 &
@@ -6501,7 +6506,7 @@ copyPData
 UBool
 didUpdate
 =
-false
+FALSE
 ;
 /
 *
@@ -6835,7 +6840,7 @@ data
 .
 *
 /
-false
+FALSE
 /
 *
 No
@@ -7285,7 +7290,7 @@ setCommonICUData
 (
 &
 dataMemory
-true
+TRUE
 pErrorCode
 )
 ;
@@ -8189,7 +8194,7 @@ dataPath
 pkgName
 path
 tocEntryPathSuffix
-false
+FALSE
 pErrorCode
 )
 ;
@@ -8558,7 +8563,7 @@ commonDataIndex
 UBool
 checkedExtendedICUData
 =
-false
+FALSE
 ;
 /
 *
@@ -9000,7 +9005,7 @@ subErrorCode
 {
 checkedExtendedICUData
 =
-true
+TRUE
 ;
 /
 *
@@ -9605,7 +9610,7 @@ treeChar
 UBool
 isICUData
 =
-false
+FALSE
 ;
 FileTracer
 :
@@ -9696,7 +9701,7 @@ U_TREE_SEPARATOR_STRING
 {
 isICUData
 =
-true
+TRUE
 ;
 }
 #

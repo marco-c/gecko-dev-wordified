@@ -609,7 +609,7 @@ const
 *
 *
 Returns
-true
+TRUE
 if
 the
 mapping

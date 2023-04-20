@@ -905,7 +905,7 @@ s2
 n
 )
 NULL
-true
+TRUE
 &
 err
 )
@@ -1242,7 +1242,7 @@ ucs2
 n
 )
 NULL
-true
+TRUE
 &
 err
 )

@@ -1520,6 +1520,7 @@ limit
 ;
 int32_t
 i
+j
 ipat
 ;
 while
@@ -1572,6 +1573,9 @@ true
 .
 for
 (
+j
+=
+0
 ipat
 =
 0
@@ -1584,6 +1588,9 @@ ipat
 =
 END
 ;
++
++
+j
 )
 {
 /
@@ -1673,7 +1680,7 @@ start
 UBool
 match
 =
-true
+TRUE
 ;
 for
 (
@@ -1756,7 +1763,7 @@ exit
 }
 match
 =
-false
+FALSE
 ;
 break
 ;
@@ -1789,7 +1796,7 @@ i
 {
 match
 =
-false
+FALSE
 ;
 break
 ;
@@ -1975,7 +1982,7 @@ exit
 }
 match
 =
-false
+FALSE
 ;
 break
 ;
@@ -2009,7 +2016,7 @@ i
 {
 match
 =
-false
+FALSE
 ;
 break
 ;

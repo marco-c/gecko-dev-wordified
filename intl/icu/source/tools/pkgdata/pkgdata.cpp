@@ -593,7 +593,7 @@ targetDir
 UBool
 specialHandling
 =
-false
+FALSE
 )
 ;
 static
@@ -728,7 +728,7 @@ NULL
 UBool
 specialHandling
 =
-false
+FALSE
 )
 ;
 static
@@ -807,7 +807,7 @@ command
 UBool
 specialHandling
 =
-false
+FALSE
 )
 ;
 #
@@ -1958,7 +1958,7 @@ tail
 UBool
 needsHelp
 =
-false
+FALSE
 ;
 UErrorCode
 status
@@ -2086,7 +2086,7 @@ doesOccur
 {
 needsHelp
 =
-true
+TRUE
 ;
 }
 else
@@ -2986,7 +2986,7 @@ o
 .
 quiet
 =
-true
+TRUE
 ;
 }
 else
@@ -2995,7 +2995,7 @@ o
 .
 quiet
 =
-false
+FALSE
 ;
 }
 if
@@ -3018,7 +3018,7 @@ o
 .
 pdsbuild
 =
-true
+TRUE
 ;
 #
 else
@@ -3026,7 +3026,7 @@ o
 .
 pdsbuild
 =
-false
+FALSE
 ;
 fprintf
 (
@@ -3063,7 +3063,7 @@ o
 .
 pdsbuild
 =
-false
+FALSE
 ;
 }
 o
@@ -3362,7 +3362,7 @@ o
 .
 withoutAssembly
 =
-false
+FALSE
 ;
 if
 (
@@ -3429,7 +3429,7 @@ o
 .
 withoutAssembly
 =
-true
+TRUE
 ;
 #
 endif
@@ -4239,7 +4239,7 @@ mode
 UBool
 noVersion
 =
-false
+FALSE
 ;
 uprv_strcpy
 (
@@ -4636,7 +4636,7 @@ version_major
 UBool
 reverseExt
 =
-false
+FALSE
 ;
 #
 if
@@ -4736,7 +4736,7 @@ else
 {
 noVersion
 =
-true
+TRUE
 ;
 if
 (
@@ -4816,7 +4816,7 @@ so
 *
 reverseExt
 is
-false
+FALSE
 if
 the
 suffix
@@ -4866,7 +4866,7 @@ SO_EXT
 {
 reverseExt
 =
-true
+TRUE
 ;
 }
 #
@@ -4941,7 +4941,7 @@ o
 rebuild
 =
 =
-false
+FALSE
 &
 &
 o
@@ -4950,7 +4950,7 @@ o
 pdsbuild
 =
 =
-false
+FALSE
 )
 {
 /
@@ -5009,7 +5009,7 @@ o
 -
 >
 srcDir
-true
+TRUE
 )
 &
 &
@@ -5631,7 +5631,7 @@ sizeof
 (
 gencFilePath
 )
-true
+TRUE
 )
 ;
 pkg_destroyOptMatchArch
@@ -8472,7 +8472,7 @@ return
 pkg_createSymLinks
 (
 installDir
-true
+TRUE
 )
 ;
 }
@@ -9573,7 +9573,7 @@ NULL
 UBool
 freeCmd
 =
-false
+FALSE
 ;
 int32_t
 length
@@ -9785,7 +9785,7 @@ return
 }
 freeCmd
 =
-true
+TRUE
 ;
 }
 sprintf
@@ -10087,7 +10087,7 @@ return
 }
 freeCmd
 =
-true
+TRUE
 ;
 }
 #
@@ -11560,7 +11560,7 @@ fileListFiles
 >
 str
 0
-true
+TRUE
 o
 -
 >
@@ -13082,7 +13082,7 @@ result
 runCommand
 (
 cmd
-true
+TRUE
 )
 ;
 if
@@ -15106,11 +15106,11 @@ buf
 0
 ;
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 #
@@ -15165,7 +15165,7 @@ buf
 UBool
 pkgconfigIsValid
 =
-true
+TRUE
 ;
 const
 char
@@ -15274,7 +15274,7 @@ return
 }
 pkgconfigIsValid
 =
-false
+FALSE
 ;
 }
 for
@@ -15442,7 +15442,7 @@ option
 >
 doesOccur
 =
-true
+TRUE
 ;
 return
 0

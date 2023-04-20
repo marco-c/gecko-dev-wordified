@@ -614,7 +614,7 @@ errorCode
 return
 write
 (
-true
+TRUE
 NULL
 data
 settings
@@ -658,7 +658,7 @@ errorCode
 return
 write
 (
-false
+FALSE
 t
 .
 version
@@ -920,7 +920,7 @@ reorderCodesLength
 ;
 hasMappings
 =
-true
+TRUE
 ;
 unsafeBackwardSet
 =
@@ -947,7 +947,7 @@ NULL
 {
 hasMappings
 =
-false
+FALSE
 ;
 if
 (
@@ -1006,7 +1006,7 @@ else
 {
 hasMappings
 =
-true
+TRUE
 ;
 /
 /

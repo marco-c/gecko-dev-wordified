@@ -1028,7 +1028,7 @@ shorter
 one
 ;
 return
-true
+TRUE
 if
 that
 exists
@@ -1333,11 +1333,11 @@ current
 )
 ;
 return
-true
+TRUE
 ;
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -9021,7 +9021,7 @@ inString
 .
 setTo
 (
-false
+FALSE
 inText
 -
 >

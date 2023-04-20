@@ -1384,7 +1384,7 @@ makeReorderRanges
 (
 reorder
 length
-false
+FALSE
 ranges
 errorCode
 )
@@ -1956,7 +1956,7 @@ list
 UBool
 hasReorderToEnd
 =
-false
+FALSE
 ;
 for
 (
@@ -2001,7 +2001,7 @@ top
 .
 hasReorderToEnd
 =
-true
+TRUE
 ;
 while
 (
@@ -2333,7 +2333,7 @@ makeReorderRanges
 (
 reorder
 originalLength
-true
+TRUE
 ranges
 errorCode
 )

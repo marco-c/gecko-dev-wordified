@@ -2044,7 +2044,7 @@ toUnicodeStatus
 *
 inDirectMode
 =
-true
+TRUE
 *
 /
 cnv
@@ -2091,7 +2091,7 @@ keep
 version
 inDirectMode
 =
-true
+TRUE
 *
 /
 }
@@ -2645,7 +2645,7 @@ sourceIndex
 ;
 inDirectMode
 =
-false
+FALSE
 ;
 byteIndex
 =
@@ -3042,7 +3042,7 @@ here
 /
 inDirectMode
 =
-true
+TRUE
 ;
 if
 (
@@ -3595,7 +3595,7 @@ sequence
 /
 inDirectMode
 =
-true
+TRUE
 ;
 if
 (
@@ -4423,7 +4423,7 @@ sourceIndex
 }
 inDirectMode
 =
-false
+FALSE
 ;
 base64Counter
 =
@@ -4512,7 +4512,7 @@ directly
 /
 inDirectMode
 =
-true
+TRUE
 ;
 /
 *
@@ -5641,7 +5641,7 @@ keep
 version
 inDirectMode
 =
-true
+TRUE
 *
 /
 }
@@ -5884,8 +5884,8 @@ not
 used
 *
 /
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -7368,7 +7368,7 @@ sourceIndex
 ;
 inDirectMode
 =
-false
+FALSE
 ;
 byteIndex
 =
@@ -7591,7 +7591,7 @@ base64Value
 /
 inDirectMode
 =
-true
+TRUE
 ;
 *
 pErrorCode
@@ -7732,7 +7732,7 @@ illegal
 /
 inDirectMode
 =
-true
+TRUE
 ;
 *
 pErrorCode
@@ -7851,7 +7851,7 @@ illegal
 /
 inDirectMode
 =
-true
+TRUE
 ;
 *
 pErrorCode
@@ -7965,7 +7965,7 @@ illegal
 /
 inDirectMode
 =
-true
+TRUE
 ;
 *
 pErrorCode
@@ -8052,7 +8052,7 @@ sequence
 /
 inDirectMode
 =
-true
+TRUE
 ;
 if
 (
@@ -8295,7 +8295,7 @@ illegal
 /
 inDirectMode
 =
-true
+TRUE
 ;
 *
 pErrorCode
@@ -8495,7 +8495,7 @@ sequence
 /
 inDirectMode
 =
-true
+TRUE
 ;
 /
 *
@@ -9088,7 +9088,7 @@ sourceIndex
 }
 inDirectMode
 =
-false
+FALSE
 ;
 base64Counter
 =
@@ -9171,7 +9171,7 @@ directly
 /
 inDirectMode
 =
-true
+TRUE
 ;
 /
 *
@@ -10422,7 +10422,7 @@ keep
 version
 inDirectMode
 =
-true
+TRUE
 *
 /
 }
@@ -10621,8 +10621,8 @@ not
 used
 *
 /
-false
-false
+FALSE
+FALSE
 0
 0
 {

@@ -488,7 +488,7 @@ start
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -2872,7 +2872,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -2951,7 +2951,7 @@ found
 *
 /
 return
-false
+FALSE
 ;
 }
 const
@@ -3010,7 +3010,7 @@ match
 *
 /
 return
-false
+FALSE
 ;
 }
 /
@@ -3155,7 +3155,7 @@ sa
 ;
 }
 return
-true
+TRUE
 ;
 }
 else
@@ -3189,7 +3189,7 @@ i
 }
 }
 return
-false
+FALSE
 ;
 /
 *
@@ -3385,7 +3385,7 @@ full
 .
 setTo
 (
-false
+FALSE
 p
 length
 )
@@ -7733,7 +7733,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 for
@@ -7804,7 +7804,7 @@ UCASE_NONE
 )
 {
 return
-true
+TRUE
 ;
 /
 *
@@ -7818,7 +7818,7 @@ letter
 else
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -7833,7 +7833,7 @@ ignorable
 }
 }
 return
-false
+FALSE
 ;
 /
 *
@@ -7891,7 +7891,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 for
@@ -7935,7 +7935,7 @@ UCASE_SOFT_DOTTED
 )
 {
 return
-true
+TRUE
 ;
 /
 *
@@ -7955,7 +7955,7 @@ UCASE_OTHER_ACCENT
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -7979,7 +7979,7 @@ cc
 }
 }
 return
-false
+FALSE
 ;
 /
 *
@@ -8389,7 +8389,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 for
@@ -8426,7 +8426,7 @@ c
 )
 {
 return
-true
+TRUE
 ;
 /
 *
@@ -8452,7 +8452,7 @@ UCASE_OTHER_ACCENT
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -8476,7 +8476,7 @@ cc
 }
 }
 return
-false
+FALSE
 ;
 /
 *
@@ -8532,7 +8532,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 for
@@ -8575,7 +8575,7 @@ UCASE_ABOVE
 )
 {
 return
-true
+TRUE
 ;
 /
 *
@@ -8600,7 +8600,7 @@ UCASE_OTHER_ACCENT
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -8619,7 +8619,7 @@ following
 }
 }
 return
-false
+FALSE
 ;
 /
 *
@@ -8683,7 +8683,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 for
@@ -8719,7 +8719,7 @@ c
 )
 {
 return
-true
+TRUE
 ;
 }
 dotType
@@ -8738,7 +8738,7 @@ UCASE_OTHER_ACCENT
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -8757,7 +8757,7 @@ between
 }
 }
 return
-false
+FALSE
 ;
 /
 *
@@ -10716,7 +10716,7 @@ iter
 context
 pString
 caseLocale
-true
+TRUE
 )
 ;
 }
@@ -10750,7 +10750,7 @@ iter
 context
 pString
 caseLocale
-false
+FALSE
 )
 ;
 }
@@ -12834,7 +12834,7 @@ UCASE_LOC_ROOT
 default
 :
 return
-false
+FALSE
 ;
 }
 }

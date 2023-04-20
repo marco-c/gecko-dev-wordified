@@ -407,8 +407,8 @@ icu
 :
 UInitOnce
 gSharedDataInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 UMutex
@@ -775,13 +775,13 @@ dataVersion
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -1156,7 +1156,7 @@ if
 noRefCount
 =
 =
-false
+FALSE
 &
 &
 profile
@@ -1170,6 +1170,9 @@ refCount
 |
 |
 noRefCount
+=
+=
+TRUE
 )
 {
 deletedNum
@@ -1287,7 +1290,7 @@ usprep_flushCache
 return
 usprep_internal_flushCache
 (
-false
+FALSE
 )
 ;
 }
@@ -1311,7 +1314,7 @@ NULL
 {
 usprep_internal_flushCache
 (
-true
+TRUE
 )
 ;
 if
@@ -1559,7 +1562,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 p
@@ -1620,7 +1623,7 @@ dataMemory
 )
 ;
 return
-false
+FALSE
 ;
 }
 /
@@ -1866,7 +1869,7 @@ dataMemory
 )
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -1961,7 +1964,7 @@ dataMemory
 )
 ;
 return
-false
+FALSE
 ;
 }
 profile
@@ -1969,7 +1972,7 @@ profile
 >
 isDataLoaded
 =
-true
+TRUE
 ;
 /
 *
@@ -3032,7 +3035,7 @@ USPREP_TYPE_LIMIT
 ;
 isIndex
 =
-false
+FALSE
 ;
 value
 =
@@ -3061,7 +3064,7 @@ _SPREP_TYPE_THRESHOLD
 ;
 isIndex
 =
-false
+FALSE
 ;
 value
 =
@@ -3102,7 +3105,7 @@ trieWord
 {
 isIndex
 =
-true
+TRUE
 ;
 value
 =
@@ -3126,7 +3129,7 @@ else
 {
 isIndex
 =
-false
+FALSE
 ;
 value
 =
@@ -3164,7 +3167,7 @@ USPREP_DELETE
 ;
 isIndex
 =
-false
+FALSE
 ;
 value
 =
@@ -3355,7 +3358,7 @@ USPREP_UNASSIGNED
 allowUnassigned
 =
 =
-false
+FALSE
 )
 {
 uprv_syntaxError
@@ -4424,10 +4427,10 @@ U_CHAR_DIRECTION_COUNT
 UBool
 leftToRight
 =
-false
+FALSE
 rightToLeft
 =
-false
+FALSE
 ;
 int32_t
 rtlPos
@@ -4592,7 +4595,7 @@ U_LEFT_TO_RIGHT
 {
 leftToRight
 =
-true
+TRUE
 ;
 ltrPos
 =
@@ -4617,7 +4620,7 @@ U_RIGHT_TO_LEFT_ARABIC
 {
 rightToLeft
 =
-true
+TRUE
 ;
 rtlPos
 =
@@ -4634,6 +4637,9 @@ profile
 -
 >
 checkBiDi
+=
+=
+TRUE
 )
 {
 /
@@ -4643,9 +4649,15 @@ satisfy
 if
 (
 leftToRight
+=
+=
+TRUE
 &
 &
 rightToLeft
+=
+=
+TRUE
 )
 {
 *
@@ -4680,6 +4692,9 @@ satisfy
 if
 (
 rightToLeft
+=
+=
+TRUE
 &
 &
 !
@@ -4727,7 +4742,7 @@ parseError
 )
 ;
 return
-false
+FALSE
 ;
 }
 }

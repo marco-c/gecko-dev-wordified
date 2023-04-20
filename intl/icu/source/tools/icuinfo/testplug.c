@@ -360,13 +360,6 @@ it
 #
 include
 <
-stdbool
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -1548,7 +1541,7 @@ n
 uplug_setPlugNoUnload
 (
 data
-true
+TRUE
 )
 ;
 }

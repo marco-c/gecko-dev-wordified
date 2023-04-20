@@ -6549,7 +6549,7 @@ rp
 >
 r_todisstd
 =
-true
+TRUE
 ;
 /
 /
@@ -6559,7 +6559,7 @@ rp
 >
 r_todisgmt
 =
-false
+FALSE
 ;
 /
 /
@@ -6582,7 +6582,7 @@ rp
 >
 r_todisstd
 =
-false
+FALSE
 ;
 /
 /
@@ -6592,7 +6592,7 @@ rp
 >
 r_todisgmt
 =
-false
+FALSE
 ;
 /
 /
@@ -6641,7 +6641,7 @@ rp
 >
 r_todisstd
 =
-true
+TRUE
 ;
 /
 /
@@ -6651,7 +6651,7 @@ rp
 >
 r_todisgmt
 =
-true
+TRUE
 ;
 bool
 isstd

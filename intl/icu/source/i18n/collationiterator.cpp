@@ -391,7 +391,7 @@ capacity
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -403,7 +403,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 do
@@ -466,11 +466,11 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 /
@@ -1602,7 +1602,7 @@ foundNULTerminator
 )
 {
 return
-false
+FALSE
 ;
 }
 UBool
@@ -1615,7 +1615,7 @@ forbidSurrogateCodePoints
 const
 {
 return
-false
+FALSE
 ;
 }
 uint32_t
@@ -1712,7 +1712,7 @@ appendCEsFromCE32
 d
 c
 ce32
-true
+TRUE
 errorCode
 )
 ;
@@ -5188,7 +5188,7 @@ appendCEsFromCE32
 d
 c
 ce32
-true
+TRUE
 errorCode
 )
 ;
@@ -6902,7 +6902,7 @@ appendCEsFromCE32
 d
 c
 ce32
-false
+FALSE
 errorCode
 )
 ;

@@ -398,7 +398,7 @@ variableTop
 UBool
 anyVariable
 =
-false
+FALSE
 ;
 /
 /
@@ -503,7 +503,7 @@ CEs
 .
 anyVariable
 =
-true
+TRUE
 ;
 do
 {
@@ -672,7 +672,7 @@ CEs
 .
 anyVariable
 =
-true
+TRUE
 ;
 do
 {

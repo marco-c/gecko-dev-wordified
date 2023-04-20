@@ -1171,8 +1171,6 @@ RBBIRuleScanner
 &
 other
 )
-=
-delete
 ;
 /
 /
@@ -1191,8 +1189,6 @@ RBBIRuleScanner
 &
 other
 )
-=
-delete
 ;
 /
 /

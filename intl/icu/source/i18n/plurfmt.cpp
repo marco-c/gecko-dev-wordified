@@ -2690,7 +2690,7 @@ keyword
 UnicodeString
 other
 (
-false
+FALSE
 OTHER_STRING
 5
 )
@@ -2744,7 +2744,7 @@ match
 UBool
 haveKeywordMatch
 =
-false
+FALSE
 ;
 /
 /
@@ -3150,7 +3150,7 @@ again
 .
 haveKeywordMatch
 =
-true
+TRUE
 ;
 }
 }
@@ -3226,7 +3226,7 @@ again
 .
 haveKeywordMatch
 =
-true
+TRUE
 ;
 /
 /
@@ -3276,7 +3276,7 @@ again
 .
 haveKeywordMatch
 =
-true
+TRUE
 ;
 }
 }

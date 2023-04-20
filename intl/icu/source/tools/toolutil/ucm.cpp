@@ -1411,7 +1411,7 @@ lTable
 l
 rTable
 r
-false
+FALSE
 )
 ;
 /
@@ -1441,7 +1441,7 @@ lTable
 l
 rTable
 r
-true
+TRUE
 )
 ;
 /
@@ -1558,7 +1558,7 @@ UCMapping
 *
 )
 right
-true
+TRUE
 )
 ;
 }
@@ -1644,7 +1644,7 @@ table
 mappings
 +
 r
-false
+FALSE
 )
 ;
 }
@@ -1706,7 +1706,7 @@ UCMapping
 )
 compareMappingsUnicodeFirst
 t
-false
+FALSE
 &
 errorCode
 )
@@ -1879,7 +1879,7 @@ int32_t
 )
 compareMappingsBytesFirst
 t
-false
+FALSE
 &
 errorCode
 )
@@ -1930,7 +1930,7 @@ t
 >
 isSorted
 =
-true
+TRUE
 ;
 }
 /
@@ -2140,7 +2140,7 @@ base
 >
 isSorted
 =
-false
+FALSE
 ;
 }
 else
@@ -3112,7 +3112,7 @@ base
 mb
 ext
 me
-true
+TRUE
 )
 ;
 if
@@ -3600,7 +3600,7 @@ mappingsLength
 ;
 isOK
 =
-true
+TRUE
 ;
 while
 (
@@ -3641,7 +3641,7 @@ stderr
 ;
 isOK
 =
-false
+FALSE
 ;
 }
 +
@@ -3724,7 +3724,7 @@ n
 )
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -3757,7 +3757,7 @@ n
 )
 ;
 return
-false
+FALSE
 ;
 }
 /
@@ -3830,7 +3830,7 @@ HAS_ERRORS
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -3878,7 +3878,7 @@ moveTarget
 }
 }
 return
-true
+TRUE
 ;
 }
 /
@@ -4035,7 +4035,7 @@ fromUTable
 fromUMapping
 toUTable
 toUMapping
-true
+TRUE
 )
 ;
 if
@@ -4571,7 +4571,7 @@ fromUTable
 >
 isSorted
 =
-false
+FALSE
 ;
 }
 /
@@ -4656,11 +4656,11 @@ mappingsLength
 ;
 needsMove
 =
-false
+FALSE
 ;
 isOK
 =
-true
+TRUE
 ;
 for
 (
@@ -4757,7 +4757,7 @@ UCM_REMOVE_MAPPING
 ;
 needsMove
 =
-true
+TRUE
 ;
 continue
 ;
@@ -4816,7 +4816,7 @@ stderr
 ;
 isOK
 =
-false
+FALSE
 ;
 }
 else
@@ -4837,7 +4837,7 @@ UCM_MOVE_TO_EXT
 ;
 needsMove
 =
-true
+TRUE
 ;
 }
 }
@@ -4848,7 +4848,7 @@ isOK
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -4888,7 +4888,7 @@ ucm
 -
 >
 ext
-false
+FALSE
 )
 ;
 }
@@ -4903,7 +4903,7 @@ base
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -5413,7 +5413,7 @@ line
 )
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -5467,7 +5467,7 @@ line
 )
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -5503,7 +5503,7 @@ line
 )
 ;
 return
-false
+FALSE
 ;
 }
 codePoints
@@ -5555,7 +5555,7 @@ line
 )
 ;
 return
-false
+FALSE
 ;
 }
 else
@@ -5642,7 +5642,7 @@ line
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -5677,7 +5677,7 @@ bLen
 )
 {
 return
-false
+FALSE
 ;
 }
 else
@@ -5712,7 +5712,7 @@ line
 )
 ;
 return
-false
+FALSE
 ;
 }
 else
@@ -5852,7 +5852,7 @@ line
 )
 ;
 return
-false
+FALSE
 ;
 }
 break
@@ -5885,7 +5885,7 @@ f
 f
 ;
 return
-true
+TRUE
 ;
 }
 /
@@ -6137,7 +6137,7 @@ table
 >
 isSorted
 =
-false
+FALSE
 ;
 }
 }
@@ -6851,7 +6851,7 @@ table
 >
 isSorted
 =
-false
+FALSE
 ;
 }
 U_CAPI
@@ -7542,7 +7542,7 @@ stderr
 )
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -7601,7 +7601,7 @@ stderr
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -7700,7 +7700,7 @@ bytes
 ;
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -7810,7 +7810,7 @@ r
 )
 {
 return
-true
+TRUE
 ;
 }
 return
@@ -7884,7 +7884,7 @@ return
 }
 isOK
 =
-true
+TRUE
 ;
 for
 (
@@ -7928,7 +7928,7 @@ n
 ;
 isOK
 =
-false
+FALSE
 ;
 break
 ;

@@ -2439,7 +2439,7 @@ status
 )
 )
 return
-false
+FALSE
 ;
 return
 (
@@ -2461,7 +2461,7 @@ status
 /
 /
 return
-false
+FALSE
 ;
 }
 U_CAPI

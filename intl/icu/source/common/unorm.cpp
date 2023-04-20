@@ -1128,7 +1128,7 @@ NULL
 *
 pNeededToNormalize
 =
-false
+FALSE
 ;
 }
 if
@@ -1588,7 +1588,7 @@ return
 unorm_iterate
 (
 src
-false
+FALSE
 dest
 destCapacity
 mode
@@ -1630,7 +1630,7 @@ return
 unorm_iterate
 (
 src
-true
+TRUE
 dest
 destCapacity
 mode

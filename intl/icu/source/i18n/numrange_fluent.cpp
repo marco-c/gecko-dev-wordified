@@ -2445,9 +2445,6 @@ status
 )
 )
 {
-delete
-temp
-;
 return
 nullptr
 ;

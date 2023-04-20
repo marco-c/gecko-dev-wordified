@@ -804,8 +804,6 @@ private
 CollationDataReader
 (
 )
-=
-delete
 ;
 /
 /

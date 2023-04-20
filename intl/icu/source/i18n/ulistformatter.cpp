@@ -618,7 +618,7 @@ stringIndex
 .
 setTo
 (
-true
+TRUE
 strings
 [
 stringIndex

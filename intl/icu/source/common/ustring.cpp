@@ -624,7 +624,7 @@ pair
 *
 /
 return
-false
+FALSE
 ;
 }
 if
@@ -672,11 +672,11 @@ pair
 *
 /
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -3357,13 +3357,13 @@ is
 polarity
 =
 =
-true
+TRUE
 )
 or
 is
 not
 (
-false
+FALSE
 )
 contained
 in
@@ -3871,7 +3871,7 @@ _matchFromSet
 (
 string
 matchSet
-true
+TRUE
 )
 ;
 if
@@ -3940,7 +3940,7 @@ _matchFromSet
 (
 string
 matchSet
-true
+TRUE
 )
 ;
 if
@@ -4018,7 +4018,7 @@ _matchFromSet
 (
 string
 matchSet
-false
+FALSE
 )
 ;
 if
@@ -6348,7 +6348,7 @@ s1
 length1
 s2
 length2
-false
+FALSE
 codePointOrder
 )
 ;
@@ -6397,8 +6397,8 @@ s1
 s2
 -
 1
-false
-true
+FALSE
+TRUE
 )
 ;
 }
@@ -6517,8 +6517,8 @@ s1
 n
 s2
 n
-true
-true
+TRUE
+TRUE
 )
 ;
 }
@@ -6958,7 +6958,7 @@ number
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -6976,7 +6976,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -7032,7 +7032,7 @@ s
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -7044,7 +7044,7 @@ number
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -7132,7 +7132,7 @@ number
 )
 {
 return
-true
+TRUE
 ;
 }
 /
@@ -7163,7 +7163,7 @@ maxSupplementary
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -7235,7 +7235,7 @@ limit
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -7247,7 +7247,7 @@ number
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -7301,7 +7301,7 @@ points
 *
 /
 return
-false
+FALSE
 ;
 }
 }
@@ -7565,8 +7565,8 @@ s1
 count
 s2
 count
-false
-true
+FALSE
+TRUE
 )
 ;
 }
@@ -8033,7 +8033,7 @@ dig
 UBool
 braces
 =
-false
+FALSE
 ;
 /
 *
@@ -8172,7 +8172,7 @@ offset
 ;
 braces
 =
-true
+TRUE
 ;
 maxDig
 =

@@ -349,7 +349,7 @@ NULL
 UBool
 allocateMoreSpace
 =
-false
+FALSE
 ;
 int32_t
 idx
@@ -453,7 +453,7 @@ allocateMoreSpace
 {
 allocateMoreSpace
 =
-false
+FALSE
 ;
 currentBufferSize
 *
@@ -603,7 +603,7 @@ line
 /
 allocateMoreSpace
 =
-true
+TRUE
 ;
 T_FileStream_rewind
 (
@@ -867,7 +867,7 @@ offset
 UBool
 bufferWritten
 =
-false
+FALSE
 ;
 if
 (
@@ -999,7 +999,7 @@ i
 {
 bufferWritten
 =
-true
+TRUE
 ;
 }
 }

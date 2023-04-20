@@ -1046,7 +1046,7 @@ result
 >
 ownPv
 =
-true
+TRUE
 ;
 }
 /
@@ -1518,7 +1518,7 @@ newSelector
 >
 ownEncodingStrings
 =
-true
+TRUE
 ;
 newSelector
 -

@@ -347,7 +347,7 @@ static
 UBool
 gTimeZoneNamesCacheInitialized
 =
-false
+FALSE
 ;
 /
 /
@@ -496,10 +496,10 @@ NULL
 }
 gTimeZoneNamesCacheInitialized
 =
-false
+FALSE
 ;
 return
-true
+TRUE
 ;
 }
 /
@@ -1126,7 +1126,7 @@ deleteTimeZoneNamesCacheEntry
 ;
 gTimeZoneNamesCacheInitialized
 =
-true
+TRUE
 ;
 ucln_i18n_registerCleanup
 (
@@ -2589,7 +2589,7 @@ this
 >
 isTZID
 =
-true
+TRUE
 ;
 }
 else
@@ -2610,7 +2610,7 @@ this
 >
 isTZID
 =
-false
+FALSE
 ;
 }
 }
@@ -3151,11 +3151,11 @@ id
 )
 ;
 return
-true
+TRUE
 ;
 }
 return
-false
+FALSE
 ;
 }
 UBool
@@ -3222,11 +3222,11 @@ id
 )
 ;
 return
-true
+TRUE
 ;
 }
 return
-false
+FALSE
 ;
 }
 UVector

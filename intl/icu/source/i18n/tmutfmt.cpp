@@ -2637,7 +2637,7 @@ style
 )
 beenHere
 (
-false
+FALSE
 )
 {
 }
@@ -2696,7 +2696,7 @@ else
 {
 beenHere
 =
-true
+TRUE
 ;
 }
 ResourceTable
@@ -4199,7 +4199,7 @@ MessageFormat
 (
 UnicodeString
 (
-true
+TRUE
 pattern
 ptLength
 )
@@ -4736,7 +4736,7 @@ MessageFormat
 (
 UnicodeString
 (
-true
+TRUE
 pattern
 -
 1
@@ -5327,14 +5327,14 @@ in
 comparison
 *
 return
-true
+TRUE
 if
 2
 values
 are
 the
 same
-false
+FALSE
 otherwise
 *
 /
@@ -5458,7 +5458,7 @@ hTable
 new
 Hashtable
 (
-true
+TRUE
 status
 )
 )

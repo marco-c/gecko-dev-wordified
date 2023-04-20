@@ -2045,8 +2045,6 @@ Form
 plural
 bool
 perMilleReplacesPercent
-bool
-dropCurrencySymbols
 UnicodeString
 &
 output

@@ -683,7 +683,7 @@ trie
 >
 isDataAllocated
 =
-false
+FALSE
 ;
 }
 else
@@ -729,7 +729,7 @@ trie
 >
 isDataAllocated
 =
-true
+TRUE
 ;
 }
 /
@@ -949,7 +949,7 @@ trie
 >
 isCompacted
 =
-false
+FALSE
 ;
 return
 trie
@@ -1049,7 +1049,7 @@ dataCapacity
 {
 isDataAllocated
 =
-false
+FALSE
 ;
 }
 else
@@ -1091,7 +1091,7 @@ NULL
 }
 isDataAllocated
 =
-true
+TRUE
 ;
 }
 trie
@@ -1534,7 +1534,7 @@ newBlock
 *
 *
 return
-true
+TRUE
 if
 the
 value
@@ -1594,7 +1594,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 }
 block
@@ -1613,7 +1613,7 @@ block
 )
 {
 return
-false
+FALSE
 ;
 }
 trie
@@ -1633,7 +1633,7 @@ UTRIE_MASK
 value
 ;
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -1698,7 +1698,7 @@ NULL
 *
 pInBlockZero
 =
-true
+TRUE
 ;
 }
 return
@@ -1967,7 +1967,7 @@ limit
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -1979,7 +1979,7 @@ limit
 )
 {
 return
-true
+TRUE
 ;
 /
 *
@@ -2041,7 +2041,7 @@ block
 )
 {
 return
-false
+FALSE
 ;
 }
 nextStart
@@ -2107,7 +2107,7 @@ overwrite
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -2331,7 +2331,7 @@ repeatBlock
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -2377,7 +2377,7 @@ repeatBlock
 UTRIE_DATA_BLOCK_LENGTH
 value
 initialValue
-true
+TRUE
 )
 ;
 }
@@ -2427,7 +2427,7 @@ block
 )
 {
 return
-false
+FALSE
 ;
 }
 utrie_fillBlock
@@ -2447,7 +2447,7 @@ overwrite
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -2885,7 +2885,7 @@ data
 [
 0
 ]
-true
+TRUE
 )
 ;
 block
@@ -3857,7 +3857,7 @@ if
 overlap
 =
 =
-true
+TRUE
 )
 *
 -
@@ -5208,7 +5208,7 @@ folding
 utrie_compact
 (
 trie
-false
+FALSE
 pErrorCode
 )
 ;
@@ -5247,7 +5247,7 @@ length
 utrie_compact
 (
 trie
-true
+TRUE
 pErrorCode
 )
 ;
@@ -5256,7 +5256,7 @@ trie
 >
 isCompacted
 =
-true
+TRUE
 ;
 if
 (
@@ -6511,7 +6511,7 @@ trie
 >
 isLatin1Linear
 =
-true
+TRUE
 ;
 trie
 -

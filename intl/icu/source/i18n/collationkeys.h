@@ -795,8 +795,6 @@ CollationDataReader
 CollationKeys
 (
 )
-=
-delete
 ;
 /
 /

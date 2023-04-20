@@ -459,12 +459,12 @@ ut
 -
 >
 chunkNativeLimit
-true
+TRUE
 )
 )
 {
 return
-false
+FALSE
 ;
 }
 c
@@ -504,7 +504,7 @@ U_SENTINEL
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -558,12 +558,12 @@ ut
 -
 >
 chunkNativeStart
-false
+FALSE
 )
 )
 {
 return
-false
+FALSE
 ;
 }
 c
@@ -605,7 +605,7 @@ U_SENTINEL
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -631,7 +631,7 @@ delta
 ;
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -830,7 +830,7 @@ access
 (
 ut
 index
-true
+TRUE
 )
 ;
 }
@@ -994,7 +994,7 @@ ut
 -
 >
 chunkNativeStart
-false
+FALSE
 )
 ;
 }
@@ -1131,7 +1131,7 @@ c
 )
 =
 =
-false
+FALSE
 )
 {
 if
@@ -1375,11 +1375,11 @@ ut
 -
 >
 chunkNativeLimit
-true
+TRUE
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -1417,7 +1417,7 @@ c
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -1620,7 +1620,7 @@ access
 (
 ut
 nativePosition
-true
+TRUE
 )
 )
 {
@@ -1651,7 +1651,7 @@ access
 (
 ut
 nativePosition
-false
+FALSE
 )
 ;
 /
@@ -1665,6 +1665,9 @@ chunk
 U_ASSERT
 (
 r
+=
+=
+TRUE
 )
 ;
 ut
@@ -1793,7 +1796,7 @@ c
 )
 =
 =
-false
+FALSE
 )
 {
 return
@@ -1927,11 +1930,11 @@ ut
 -
 >
 chunkNativeLimit
-true
+TRUE
 )
 =
 =
-false
+FALSE
 )
 {
 return
@@ -1962,7 +1965,7 @@ c
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -2034,11 +2037,11 @@ ut
 -
 >
 chunkNativeLimit
-true
+TRUE
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -2091,7 +2094,7 @@ trail
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -2222,11 +2225,11 @@ ut
 -
 >
 chunkNativeStart
-false
+FALSE
 )
 =
 =
-false
+FALSE
 )
 {
 return
@@ -2262,7 +2265,7 @@ c
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -2331,11 +2334,11 @@ ut
 -
 >
 chunkNativeStart
-false
+FALSE
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -2390,7 +2393,7 @@ lead
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -2519,7 +2522,7 @@ access
 (
 ut
 index
-true
+TRUE
 )
 )
 {
@@ -2874,7 +2877,7 @@ access
 (
 ut
 index
-false
+FALSE
 )
 )
 {
@@ -2976,7 +2979,7 @@ access
 (
 ut
 index
-false
+FALSE
 )
 )
 {
@@ -3170,7 +3173,7 @@ to
 anything
 .
 return
-false
+FALSE
 ;
 }
 if
@@ -3196,7 +3199,7 @@ text
 providers
 .
 return
-false
+FALSE
 ;
 }
 if
@@ -3222,7 +3225,7 @@ different
 strings
 )
 return
-false
+FALSE
 ;
 }
 if
@@ -3249,11 +3252,11 @@ the
 string
 .
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -7190,7 +7193,7 @@ ut
 chunkLength
 ;
 return
-false
+FALSE
 ;
 }
 else
@@ -7449,7 +7452,7 @@ ut
 chunkLength
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -7606,7 +7609,7 @@ u8b
 bufStartIdx
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -7692,7 +7695,7 @@ chunkOffset
 0
 ;
 return
-false
+FALSE
 ;
 }
 else
@@ -8144,13 +8147,13 @@ not
 zero
 .
 return
-false
+FALSE
 ;
 }
 else
 {
 return
-true
+TRUE
 ;
 }
 swapBuffers
@@ -8402,7 +8405,7 @@ u8b
 bufStartIdx
 ;
 return
-true
+TRUE
 ;
 }
 swapBuffersAndFail
@@ -8673,7 +8676,7 @@ bufNativeStart
 ;
 }
 return
-false
+FALSE
 ;
 makeStubBuffer
 :
@@ -8897,7 +8900,7 @@ b
 UBool
 nulTerminated
 =
-false
+FALSE
 ;
 if
 (
@@ -8912,7 +8915,7 @@ strLen
 ;
 nulTerminated
 =
-true
+TRUE
 ;
 }
 UChar
@@ -8955,7 +8958,7 @@ ix
 UBool
 seenNonAscii
 =
-false
+FALSE
 ;
 UChar32
 c
@@ -9076,12 +9079,12 @@ if
 seenNonAscii
 =
 =
-false
+FALSE
 )
 {
 seenNonAscii
 =
-true
+TRUE
 ;
 u8b_swap
 -
@@ -9300,7 +9303,7 @@ if
 seenNonAscii
 =
 =
-false
+FALSE
 )
 {
 u8b_swap
@@ -9469,7 +9472,7 @@ UTEXT_PROVIDER_LENGTH_IS_EXPENSIVE
 }
 }
 return
-true
+TRUE
 ;
 }
 fillReverse
@@ -10405,7 +10408,7 @@ u8b_swap
 bufNILimit
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -11086,7 +11089,7 @@ utf8TextAccess
 (
 ut
 limit32
-true
+TRUE
 )
 ;
 return
@@ -12765,7 +12768,7 @@ chunkNativeStart
 )
 ;
 return
-true
+TRUE
 ;
 }
 if
@@ -12832,7 +12835,7 @@ ut
 chunkNativeStart
 ;
 return
-false
+FALSE
 ;
 }
 ut
@@ -13023,7 +13026,7 @@ ut
 chunkNativeStart
 ;
 return
-true
+TRUE
 ;
 }
 if
@@ -13073,7 +13076,7 @@ chunkOffset
 0
 ;
 return
-false
+FALSE
 ;
 }
 /
@@ -13570,7 +13573,7 @@ ut
 chunkLength
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -13824,7 +13827,7 @@ repTextAccess
 (
 ut
 limit32
-true
+TRUE
 )
 ;
 return
@@ -14193,7 +14196,7 @@ repTextAccess
 (
 ut
 newIndexPos
-true
+TRUE
 )
 ;
 return
@@ -14535,7 +14538,7 @@ repTextAccess
 (
 ut
 nativeIterIndex
-true
+TRUE
 )
 ;
 }
@@ -16019,7 +16022,7 @@ if
 move
 =
 =
-false
+FALSE
 )
 {
 /
@@ -18021,7 +18024,7 @@ ucstrTextAccess
 (
 ut
 start
-true
+TRUE
 )
 ;
 const
@@ -18427,7 +18430,7 @@ ucstrTextAccess
 (
 ut
 si
-true
+TRUE
 )
 ;
 }
@@ -19287,7 +19290,7 @@ NULL
 UBool
 needChunkSetup
 =
-true
+TRUE
 ;
 int
 i
@@ -19317,7 +19320,7 @@ chunk
 .
 needChunkSetup
 =
-false
+FALSE
 ;
 }
 else
@@ -20126,7 +20129,7 @@ charIterTextAccess
 (
 ut
 copyLimit
-true
+TRUE
 )
 ;
 u_terminateUChars

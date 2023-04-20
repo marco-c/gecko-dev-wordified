@@ -2191,7 +2191,7 @@ bytes
 +
 bytesLength
 NULL
-true
+TRUE
 &
 errorCode
 )
@@ -2569,7 +2569,7 @@ zero
 length
 flush
 =
-false
+FALSE
 ;
 for
 (
@@ -2665,7 +2665,7 @@ bytes
 +
 bytesLength
 NULL
-false
+FALSE
 &
 errorCode
 )
@@ -2803,7 +2803,7 @@ the
 converter
 flush
 =
-true
+TRUE
 ;
 }
 }
@@ -3163,7 +3163,7 @@ status
 )
 =
 =
-false
+FALSE
 )
 {
 error
@@ -3407,7 +3407,7 @@ status
 )
 =
 =
-false
+FALSE
 )
 {
 /

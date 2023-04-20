@@ -4640,8 +4640,6 @@ AlphabeticIndex
 &
 other
 )
-=
-delete
 ;
 /
 *

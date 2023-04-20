@@ -931,7 +931,7 @@ if
 /
 incremental
 is
-true
+TRUE
 (
 because
 it
@@ -1146,7 +1146,7 @@ appendToRule
 (
 result
 keyChar
-false
+FALSE
 escapeUnprintable
 quoteBuf
 )
@@ -1168,7 +1168,7 @@ toPattern
 str
 escapeUnprintable
 )
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1213,7 +1213,7 @@ appendToRule
 result
 -
 1
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1254,7 +1254,7 @@ length
 )
 {
 return
-true
+TRUE
 ;
 }
 UChar32

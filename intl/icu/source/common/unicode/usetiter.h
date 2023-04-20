@@ -1337,6 +1337,9 @@ getString
 (
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -1399,7 +1402,7 @@ return
 *
 this
 *
-stable
+draft
 ICU
 70
 *
@@ -1445,6 +1448,11 @@ return
 this
 ;
 }
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *

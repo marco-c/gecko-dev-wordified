@@ -827,7 +827,7 @@ skipWhitespace
 (
 pattern
 i
-true
+TRUE
 )
 ;
 }
@@ -1364,7 +1364,7 @@ setTo
 (
 UBool
 )
-false
+FALSE
 full
 result
 )

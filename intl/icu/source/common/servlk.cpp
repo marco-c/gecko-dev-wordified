@@ -867,7 +867,7 @@ re
 pointing
 to
 return
-true
+TRUE
 ;
 }
 if
@@ -891,7 +891,7 @@ setToBogus
 )
 ;
 return
-true
+TRUE
 ;
 }
 if
@@ -917,7 +917,7 @@ remove
 completely
 truncate
 return
-true
+TRUE
 ;
 }
 _currentID
@@ -928,7 +928,7 @@ setToBogus
 ;
 }
 return
-false
+FALSE
 ;
 }
 UBool

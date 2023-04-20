@@ -418,7 +418,7 @@ fInputLen
 ;
 fC1Bytes
 =
-false
+FALSE
 ;
 fRawInput
 =
@@ -603,7 +603,7 @@ b
 bool
 inMarkup
 =
-false
+FALSE
 ;
 int32_t
 openTags
@@ -770,7 +770,7 @@ badTags
 }
 inMarkup
 =
-true
+TRUE
 ;
 openTags
 +
@@ -818,7 +818,7 @@ ASCII
 /
 inMarkup
 =
-false
+FALSE
 ;
 }
 }
@@ -1048,7 +1048,7 @@ i
 {
 fC1Bytes
 =
-true
+TRUE
 ;
 break
 ;

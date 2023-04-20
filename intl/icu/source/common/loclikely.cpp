@@ -1458,7 +1458,7 @@ tagLength
 UBool
 regionAppended
 =
-false
+FALSE
 ;
 if
 (
@@ -1480,7 +1480,7 @@ withSeparator
 =
 *
 /
-false
+FALSE
 )
 ;
 }
@@ -1617,7 +1617,7 @@ withSeparator
 =
 *
 /
-false
+FALSE
 )
 ;
 }
@@ -1642,7 +1642,7 @@ withSeparator
 =
 *
 /
-true
+TRUE
 )
 ;
 }
@@ -1729,7 +1729,7 @@ withSeparator
 =
 *
 /
-true
+TRUE
 )
 ;
 }
@@ -1754,12 +1754,12 @@ withSeparator
 =
 *
 /
-true
+TRUE
 )
 ;
 regionAppended
 =
-true
+TRUE
 ;
 }
 else
@@ -1845,12 +1845,12 @@ withSeparator
 =
 *
 /
-true
+TRUE
 )
 ;
 regionAppended
 =
-true
+TRUE
 ;
 }
 }
@@ -3309,7 +3309,7 @@ err
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -3465,7 +3465,7 @@ err
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -3621,7 +3621,7 @@ err
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -3769,12 +3769,12 @@ err
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 error
 :
@@ -3795,7 +3795,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-false
+FALSE
 ;
 }
 #
@@ -4007,7 +4007,7 @@ trailingIndex
 UBool
 success
 =
-false
+FALSE
 ;
 if
 (
@@ -4221,7 +4221,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -4380,7 +4380,7 @@ trailingIndex
 UBool
 successGetMax
 =
-false
+FALSE
 ;
 if
 (
@@ -5423,7 +5423,7 @@ status
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -5838,7 +5838,7 @@ U_STRING_NOT_TERMINATED_WARNING
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -5881,7 +5881,7 @@ case
 '
 :
 return
-false
+FALSE
 ;
 case
 '
@@ -5889,7 +5889,7 @@ case
 '
 :
 return
-true
+TRUE
 ;
 default
 :
@@ -5959,7 +5959,7 @@ U_STRING_NOT_TERMINATED_WARNING
 )
 {
 return
-false
+FALSE
 ;
 }
 scriptLength
@@ -6001,7 +6001,7 @@ scriptLength
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -6283,7 +6283,7 @@ no
 unicode_region_subtag
 but
 inferRegion
-true
+TRUE
 try
 likely
 subtags

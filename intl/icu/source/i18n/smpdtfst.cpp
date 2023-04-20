@@ -400,8 +400,8 @@ NULL
 ;
 UInitOnce
 gSimpleDateFormatStaticSetsInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 SimpleDateFormatStaticSets
 :
@@ -843,7 +843,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_BEGIN

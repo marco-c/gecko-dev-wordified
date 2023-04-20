@@ -461,7 +461,7 @@ theCursorPos
 ;
 hasCursor
 =
-true
+TRUE
 ;
 data
 =
@@ -469,7 +469,7 @@ theData
 ;
 isComplex
 =
-true
+TRUE
 ;
 }
 /
@@ -569,7 +569,7 @@ cursorPos
 ;
 hasCursor
 =
-false
+FALSE
 ;
 data
 =
@@ -577,7 +577,7 @@ theData
 ;
 isComplex
 =
-true
+TRUE
 ;
 }
 /
@@ -928,7 +928,7 @@ output
 '
 isComplex
 =
-false
+FALSE
 ;
 /
 /
@@ -1231,7 +1231,7 @@ else
 {
 isComplex
 =
-true
+TRUE
 ;
 /
 /
@@ -1757,7 +1757,7 @@ UChar
 *
 *
 /
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1820,7 +1820,7 @@ UChar
 |
 *
 /
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1872,7 +1872,7 @@ appendToRule
 (
 rule
 c
-false
+FALSE
 escapeUnprintable
 quoteBuf
 )
@@ -1920,7 +1920,7 @@ appendToRule
 (
 rule
 buf
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -2022,7 +2022,7 @@ UChar
 *
 *
 /
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -2043,7 +2043,7 @@ UChar
 |
 *
 /
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -2064,7 +2064,7 @@ appendToRule
 rule
 -
 1
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )

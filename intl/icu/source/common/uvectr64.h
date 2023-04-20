@@ -1512,8 +1512,6 @@ const
 UVector64
 &
 )
-=
-delete
 ;
 /
 /
@@ -1527,8 +1525,6 @@ const
 UVector64
 &
 )
-=
-delete
 ;
 /
 /

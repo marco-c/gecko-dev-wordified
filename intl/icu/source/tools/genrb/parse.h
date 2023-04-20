@@ -396,8 +396,6 @@ UBool
 makeBinaryCollation
 UBool
 omitCollationRules
-UBool
-icu4xMode
 UErrorCode
 *
 status

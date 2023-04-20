@@ -1097,7 +1097,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 }
 else
@@ -1141,7 +1141,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 }
 else
@@ -1260,7 +1260,7 @@ converterData
 >
 resetToDefaultToUnicode
 =
-false
+FALSE
 ;
 /
 *
@@ -1360,7 +1360,7 @@ converterData
 >
 isFirstBuffer
 =
-true
+TRUE
 ;
 (
 void
@@ -1690,14 +1690,14 @@ data
 >
 isFirstBuffer
 =
-true
+TRUE
 ;
 data
 -
 >
 resetToDefaultToUnicode
 =
-false
+FALSE
 ;
 }
 }
@@ -7892,7 +7892,7 @@ range
 UBool
 deltaChanged
 =
-false
+FALSE
 ;
 if
 (
@@ -8456,14 +8456,14 @@ maskEnum
 ;
 deltaChanged
 =
-true
+TRUE
 ;
 converterData
 -
 >
 isFirstBuffer
 =
-false
+FALSE
 ;
 }
 if
@@ -8730,7 +8730,7 @@ reset
 /
 deltaChanged
 =
-false
+FALSE
 ;
 /
 *
@@ -10941,7 +10941,7 @@ data
 >
 resetToDefaultToUnicode
 =
-true
+TRUE
 ;
 GET_MAPPING
 (
@@ -10966,7 +10966,7 @@ i
 ;
 found
 =
-false
+FALSE
 ;
 for
 (
@@ -11026,7 +11026,7 @@ i
 ;
 found
 =
-true
+TRUE
 ;
 break
 ;
@@ -11478,7 +11478,7 @@ i
 ;
 found
 =
-false
+FALSE
 ;
 for
 (
@@ -11528,7 +11528,7 @@ i
 ;
 found
 =
-true
+TRUE
 ;
 break
 ;
@@ -12242,6 +12242,9 @@ data
 -
 >
 resetToDefaultToUnicode
+=
+=
+TRUE
 )
 {
 data
@@ -12269,7 +12272,7 @@ data
 >
 resetToDefaultToUnicode
 =
-false
+FALSE
 ;
 }
 }
@@ -12690,7 +12693,7 @@ cnv
 .
 isExtraLocal
 =
-true
+TRUE
 ;
 return
 &
@@ -12982,8 +12985,8 @@ UCNV_ISCII
 0
 }
 0x1
-false
-false
+FALSE
+FALSE
 0x0
 0x0
 {

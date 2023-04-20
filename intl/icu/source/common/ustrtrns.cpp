@@ -1099,7 +1099,7 @@ numSubstitutions
 }
 while
 (
-true
+TRUE
 )
 ;
 }

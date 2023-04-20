@@ -520,12 +520,12 @@ length
 )
 {
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -1345,7 +1345,7 @@ readList
 (
 sourcePath
 addList
-true
+TRUE
 NULL
 )
 )

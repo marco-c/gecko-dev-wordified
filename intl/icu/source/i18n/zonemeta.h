@@ -1007,8 +1007,6 @@ private
 ZoneMeta
 (
 )
-=
-delete
 ;
 /
 /

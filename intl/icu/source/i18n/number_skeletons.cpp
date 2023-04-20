@@ -229,8 +229,8 @@ icu
 :
 UInitOnce
 gNumberSkeletonsInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 char16_t
 *
@@ -260,7 +260,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 void

@@ -213,7 +213,7 @@ appended_
 )
 overflowed_
 (
-false
+FALSE
 )
 {
 }
@@ -243,7 +243,7 @@ appended_
 ;
 overflowed_
 =
-false
+FALSE
 ;
 return
 *
@@ -305,7 +305,7 @@ INT32_MAX
 ;
 overflowed_
 =
-true
+TRUE
 ;
 return
 ;
@@ -335,7 +335,7 @@ available
 ;
 overflowed_
 =
-true
+TRUE
 ;
 }
 if

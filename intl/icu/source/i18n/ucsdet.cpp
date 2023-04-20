@@ -895,7 +895,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 return
@@ -946,7 +946,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 CharsetDetector

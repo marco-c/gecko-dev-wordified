@@ -644,7 +644,7 @@ segs
 *
 param
 anchorStart
-true
+TRUE
 if
 the
 the
@@ -662,7 +662,7 @@ start
 *
 param
 anchorEnd
-true
+TRUE
 if
 the
 rule
@@ -1029,7 +1029,7 @@ StringMatcher
 pattern
 0
 anteContextLength
-false
+FALSE
 *
 data
 )
@@ -1078,7 +1078,7 @@ anteContextLength
 anteContextLength
 +
 keyLength
-false
+FALSE
 *
 data
 )
@@ -1144,7 +1144,7 @@ pattern
 length
 (
 )
-false
+FALSE
 *
 data
 )
@@ -1881,7 +1881,7 @@ matchesIndexValue
 v
 )
 :
-true
+TRUE
 ;
 }
 /
@@ -2739,7 +2739,7 @@ indices
 param
 incremental
 if
-true
+TRUE
 test
 for
 partial
@@ -2793,7 +2793,7 @@ If
 *
 incremental
 is
-false
+FALSE
 then
 U_PARTIAL_MATCH
 will
@@ -3208,7 +3208,7 @@ matches
 text
 oText
 anteLimit
-false
+FALSE
 )
 ;
 if
@@ -3958,7 +3958,7 @@ UChar
 {
 *
 /
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -3995,7 +3995,7 @@ UChar
 }
 *
 /
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -4052,11 +4052,11 @@ appendToRule
 rule
 UnicodeString
 (
-true
+TRUE
 FORWARD_OP
 3
 )
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -4086,7 +4086,7 @@ toReplacerPattern
 str
 escapeUnprintable
 )
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -4106,7 +4106,7 @@ UChar
 ;
 *
 /
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )

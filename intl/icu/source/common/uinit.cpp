@@ -322,8 +322,8 @@ U_NAMESPACE_BEGIN
 static
 UInitOnce
 gICUInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 UBool
@@ -339,7 +339,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 static

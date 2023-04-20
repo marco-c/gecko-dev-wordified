@@ -2764,7 +2764,6 @@ data
 *
 /
 struct
-U_HIDDEN
 DateIntervalSink
 ;
 /

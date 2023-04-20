@@ -1104,8 +1104,6 @@ UCharsTrieBuilder
 &
 other
 )
-=
-delete
 ;
 /
 /
@@ -1122,8 +1120,6 @@ UCharsTrieBuilder
 &
 other
 )
-=
-delete
 ;
 /
 /

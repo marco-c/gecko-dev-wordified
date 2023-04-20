@@ -627,7 +627,7 @@ conv
 NULL
 ;
 return
-false
+FALSE
 ;
 }
 /
@@ -691,7 +691,7 @@ start
 *
 signatureLength
 NULL
-false
+FALSE
 error
 )
 ;
@@ -772,7 +772,7 @@ U_INTERNAL_PROGRAM_ERROR
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -802,7 +802,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -822,7 +822,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -842,7 +842,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -862,7 +862,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -882,7 +882,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -902,7 +902,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -922,7 +922,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -940,7 +940,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -960,7 +960,7 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -980,11 +980,11 @@ cp
 )
 {
 return
-true
+TRUE
 ;
 }
 return
-false
+FALSE
 ;
 }
 U_CAPI
@@ -1655,7 +1655,7 @@ buf
 showWarning
 =
 =
-true
+TRUE
 )
 {
 fprintf
@@ -1894,7 +1894,7 @@ buf
 showWarning
 =
 =
-true
+TRUE
 )
 {
 /
@@ -2252,7 +2252,7 @@ error
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -2365,7 +2365,7 @@ error
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -2571,7 +2571,7 @@ error
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -3110,7 +3110,7 @@ error
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+FALSE
 ;
 }
 if
@@ -3405,7 +3405,7 @@ buf
 showWarning
 =
 =
-true
+TRUE
 )
 )
 {
@@ -4072,7 +4072,7 @@ start
 +
 numRead
 NULL
-false
+FALSE
 error
 )
 ;
@@ -4818,12 +4818,12 @@ PS
 *
 /
 return
-true
+TRUE
 ;
 default
 :
 return
-false
+FALSE
 ;
 }
 }

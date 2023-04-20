@@ -732,8 +732,6 @@ GenderInfo
 &
 other
 )
-=
-delete
 ;
 /
 *
@@ -759,8 +757,6 @@ const
 GenderInfo
 &
 )
-=
-delete
 ;
 GenderInfo
 (

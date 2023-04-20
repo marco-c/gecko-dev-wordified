@@ -538,8 +538,8 @@ NULL
 static
 UInitOnce
 gSpecialInversesInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 /
 *
@@ -702,7 +702,7 @@ createBasicInstance
 (
 UnicodeString
 (
-true
+TRUE
 ANY_NULL
 8
 )
@@ -984,7 +984,7 @@ NULL
 UBool
 sawParen
 =
-false
+FALSE
 ;
 /
 /
@@ -1054,7 +1054,7 @@ parseFilterID
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -1089,7 +1089,7 @@ OPEN_REV
 {
 sawParen
 =
-true
+TRUE
 ;
 if
 (
@@ -1111,7 +1111,7 @@ parseFilterID
 (
 id
 pos
-true
+TRUE
 )
 ;
 /
@@ -1601,7 +1601,7 @@ parseFilterID
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -1995,7 +1995,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -2488,7 +2488,7 @@ none
 .
 *
 return
-true
+TRUE
 if
 the
 parse
@@ -2681,7 +2681,7 @@ NULL
 UBool
 sawDelimiter
 =
-true
+TRUE
 ;
 for
 (
@@ -2769,7 +2769,7 @@ ID_DELIM
 {
 sawDelimiter
 =
-false
+FALSE
 ;
 break
 ;
@@ -2986,7 +2986,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -3013,7 +3013,7 @@ save
 )
 ;
 return
-true
+TRUE
 ;
 FAIL
 :
@@ -3038,7 +3038,7 @@ globalFilter
 NULL
 ;
 return
-false
+FALSE
 ;
 }
 /
@@ -3419,7 +3419,7 @@ createBasicInstance
 (
 UnicodeString
 (
-true
+TRUE
 ANY_NULL
 8
 )
@@ -3755,7 +3755,7 @@ length
 }
 isSourcePresent
 =
-false
+FALSE
 ;
 if
 (
@@ -3850,7 +3850,7 @@ source
 ;
 isSourcePresent
 =
-true
+TRUE
 ;
 }
 id
@@ -3914,7 +3914,7 @@ source
 ;
 isSourcePresent
 =
-true
+TRUE
 ;
 }
 id
@@ -4173,7 +4173,7 @@ NFC
 "
 NFD
 "
-true
+TRUE
 )
 causes
 *
@@ -4407,7 +4407,7 @@ inverseTarget
 param
 bidirectional
 if
-true
+TRUE
 register
 the
 reverse
@@ -4482,7 +4482,7 @@ force
 bidirectional
 =
 >
-false
+FALSE
 if
 (
 bidirectional
@@ -4502,7 +4502,7 @@ U_FOLD_CASE_DEFAULT
 {
 bidirectional
 =
-false
+FALSE
 ;
 }
 Mutex
@@ -4843,7 +4843,7 @@ unchanged
 param
 allowFilter2
 if
-true
+TRUE
 a
 UnicodeSet
 pattern
@@ -4902,7 +4902,7 @@ fails
 If
 allowFilter
 is
-true
+TRUE
 then
 the
 parsed
@@ -5045,7 +5045,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -5493,7 +5493,7 @@ ANY
 UBool
 sawSource
 =
-true
+TRUE
 ;
 if
 (
@@ -5517,7 +5517,7 @@ ANY
 ;
 sawSource
 =
-false
+FALSE
 ;
 }
 if
@@ -6087,7 +6087,7 @@ inverseTarget
 UnicodeString
 basicID
 (
-true
+TRUE
 ANY
 3
 )
@@ -6270,7 +6270,7 @@ SPECIAL_INVERSES
 new
 Hashtable
 (
-true
+TRUE
 status
 )
 ;

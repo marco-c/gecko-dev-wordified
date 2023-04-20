@@ -429,7 +429,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -551,7 +551,7 @@ dataFormat
 )
 {
 return
-true
+TRUE
 ;
 }
 }
@@ -693,7 +693,7 @@ size
 )
 {
 return
-false
+FALSE
 ;
 }
 header
@@ -753,7 +753,7 @@ formatVersion
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -783,11 +783,11 @@ inCharset
 )
 {
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 namespace

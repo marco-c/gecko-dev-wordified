@@ -1105,7 +1105,7 @@ const
 override
 {
 return
-true
+TRUE
 ;
 }
 virtual
@@ -6051,7 +6051,7 @@ tempResult
 )
 ;
 return
-true
+TRUE
 ;
 /
 /
@@ -6073,7 +6073,7 @@ setLong
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -6146,7 +6146,7 @@ isModulusSubstitution
 const
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -7911,7 +7911,7 @@ doParse
 (
 text
 parsePosition
-false
+FALSE
 upperBound
 nonNumericalExecutedRuleMask
 result
@@ -7961,7 +7961,7 @@ tempResult
 ;
 }
 return
-true
+TRUE
 ;
 }
 }
@@ -8507,11 +8507,11 @@ status
 )
 byDigits
 (
-false
+FALSE
 )
 useSpaces
 (
-true
+TRUE
 )
 {
 /
@@ -8559,7 +8559,7 @@ getRuleSet
 {
 byDigits
 =
-true
+TRUE
 ;
 if
 (
@@ -8577,7 +8577,7 @@ gGreaterGreaterGreaterThan
 {
 useSpaces
 =
-false
+FALSE
 ;
 }
 }
@@ -9045,7 +9045,7 @@ digit
 UBool
 doZeros
 =
-false
+FALSE
 ;
 /
 /
@@ -9118,7 +9118,7 @@ gSpace
 /
 doZeros
 =
-true
+TRUE
 ;
 /
 /
@@ -9182,7 +9182,7 @@ digits
 UBool
 pad
 =
-false
+FALSE
 ;
 for
 (
@@ -9269,7 +9269,7 @@ else
 {
 pad
 =
-true
+TRUE
 ;
 }
 int64_t
@@ -10153,7 +10153,7 @@ result
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -11163,7 +11163,7 @@ withZeros
 :
 baseValue
 upperBound
-false
+FALSE
 nonNumericalExecutedRuleMask
 result
 )
@@ -11235,6 +11235,11 @@ d
 =
 1
 ;
+int32_t
+pow
+=
+0
+;
 while
 (
 d
@@ -11247,6 +11252,10 @@ d
 *
 =
 10
+;
++
++
+pow
 ;
 }
 /
@@ -11297,7 +11306,7 @@ d
 ;
 }
 return
-true
+TRUE
 ;
 }
 bool

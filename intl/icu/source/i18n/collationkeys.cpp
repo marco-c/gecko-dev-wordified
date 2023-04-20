@@ -619,7 +619,7 @@ len
 )
 ok
 (
-true
+TRUE
 )
 {
 }
@@ -633,7 +633,7 @@ SortKeyLevel
 *
 *
 return
-false
+FALSE
 if
 memory
 allocation
@@ -1375,7 +1375,7 @@ ok
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -1439,11 +1439,11 @@ NULL
 return
 ok
 =
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 }
@@ -1483,7 +1483,7 @@ level
 )
 {
 return
-true
+TRUE
 ;
 }
 /
@@ -4594,7 +4594,7 @@ levels
 UBool
 ok
 =
-true
+TRUE
 ;
 if
 (

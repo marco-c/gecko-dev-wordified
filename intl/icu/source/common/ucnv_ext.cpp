@@ -905,7 +905,7 @@ found
 /
 *
 *
-true
+TRUE
 if
 not
 an
@@ -1203,7 +1203,7 @@ srcLength
 }
 flush
 =
-true
+TRUE
 ;
 }
 /
@@ -2078,7 +2078,7 @@ pErrorCode
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -2246,7 +2246,7 @@ int8_t
 match
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -2262,7 +2262,7 @@ match
 /
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2339,7 +2339,7 @@ NULL
 &
 value
 useFallback
-true
+TRUE
 )
 ;
 if
@@ -2456,7 +2456,7 @@ and
 flush
 =
 =
-true
+TRUE
 )
 *
 /
@@ -3606,7 +3606,7 @@ useFallback
 *
 param
 flush
-true
+TRUE
 if
 the
 end
@@ -3685,7 +3685,7 @@ for
 flush
 =
 =
-true
+TRUE
 )
 *
 (
@@ -5214,7 +5214,7 @@ pErrorCode
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -5354,7 +5354,7 @@ int8_t
 match
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -5384,10 +5384,10 @@ cnv
 >
 useSubChar1
 =
-true
+TRUE
 ;
 return
-false
+FALSE
 ;
 }
 else
@@ -5403,7 +5403,7 @@ match
 /
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -5479,7 +5479,7 @@ NULL
 &
 value
 useFallback
-true
+TRUE
 )
 ;
 if
@@ -5728,7 +5728,7 @@ and
 flush
 =
 =
-true
+TRUE
 )
 *
 /
@@ -6353,7 +6353,7 @@ cnv
 >
 useSubChar1
 =
-true
+TRUE
 ;
 }
 /
@@ -6538,7 +6538,7 @@ UCNV_EXT_FROM_U_ROUNDTRIP_FLAG
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -6573,7 +6573,7 @@ UCNV_EXT_FROM_U_RESERVED_MASK
 )
 {
 return
-false
+FALSE
 ;
 }
 }

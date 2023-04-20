@@ -331,13 +331,6 @@ dependency
 /
 #
 include
-<
-stdbool
-.
-h
->
-#
-include
 "
 read
 .
@@ -680,7 +673,7 @@ c
 getNextChar
 (
 buf
-true
+TRUE
 comment
 status
 )
@@ -940,12 +933,12 @@ len
 UBool
 isFollowingCharEscaped
 =
-false
+FALSE
 ;
 UBool
 isNLUnescaped
 =
-false
+FALSE
 ;
 UChar32
 prevC
@@ -1024,7 +1017,7 @@ setup
 /
 lastStringWasQuoted
 =
-false
+FALSE
 ;
 c
 =
@@ -1101,7 +1094,7 @@ TOK_ERROR
 }
 lastStringWasQuoted
 =
-true
+TRUE
 ;
 for
 (
@@ -1222,7 +1215,7 @@ LF
 {
 isNLUnescaped
 =
-true
+TRUE
 ;
 }
 }
@@ -1240,7 +1233,7 @@ isFollowingCharEscaped
 {
 isFollowingCharEscaped
 =
-true
+TRUE
 ;
 }
 else
@@ -1266,7 +1259,7 @@ status
 ;
 isFollowingCharEscaped
 =
-false
+FALSE
 ;
 len
 =
@@ -1291,7 +1284,7 @@ if
 isNLUnescaped
 =
 =
-false
+FALSE
 &
 &
 prevC
@@ -1307,7 +1300,7 @@ lineCount
 }
 isNLUnescaped
 =
-false
+FALSE
 ;
 }
 }
@@ -1402,7 +1395,7 @@ TOK_ERROR
 }
 lastStringWasQuoted
 =
-false
+FALSE
 ;
 /
 *
@@ -1526,7 +1519,7 @@ c
 getNextChar
 (
 buf
-false
+FALSE
 NULL
 status
 )
@@ -1703,7 +1696,7 @@ c
 getNextChar
 (
 buf
-true
+TRUE
 NULL
 status
 )
@@ -2453,12 +2446,12 @@ case
 0xFEFF
 :
 return
-true
+TRUE
 ;
 default
 :
 return
-false
+FALSE
 ;
 }
 }
@@ -2502,12 +2495,12 @@ case
 0x000D
 :
 return
-true
+TRUE
 ;
 default
 :
 return
-false
+FALSE
 ;
 }
 }

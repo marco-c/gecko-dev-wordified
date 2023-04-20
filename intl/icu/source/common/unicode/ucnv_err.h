@@ -212,8 +212,6 @@ file
 \
 brief
 C
-API
-:
 UConverter
 predefined
 error

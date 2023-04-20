@@ -2050,12 +2050,12 @@ type
 *
 /
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 U_CAPI
@@ -5384,7 +5384,7 @@ mode
 *
 pIsBigEndian
 =
-false
+FALSE
 ;
 /
 /
@@ -6143,7 +6143,7 @@ CPUs
 *
 pIsBigEndian
 =
-false
+FALSE
 ;
 #
 else

@@ -979,12 +979,12 @@ offset
 delta
 ;
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 void

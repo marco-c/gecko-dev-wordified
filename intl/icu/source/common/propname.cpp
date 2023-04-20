@@ -1608,7 +1608,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 UStringTrieResult
@@ -1702,7 +1702,7 @@ result
 )
 {
 return
-false
+FALSE
 ;
 }
 result

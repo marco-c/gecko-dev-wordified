@@ -1054,7 +1054,7 @@ return
 printUsage
 (
 pname
-false
+FALSE
 )
 ;
 }
@@ -1073,7 +1073,7 @@ l
 :
 outIsBigEndian
 =
-false
+FALSE
 ;
 outCharset
 =
@@ -1088,7 +1088,7 @@ b
 :
 outIsBigEndian
 =
-true
+TRUE
 ;
 outCharset
 =
@@ -1103,7 +1103,7 @@ e
 :
 outIsBigEndian
 =
-true
+TRUE
 ;
 outCharset
 =
@@ -1117,7 +1117,7 @@ return
 printUsage
 (
 pname
-false
+FALSE
 )
 ;
 }
@@ -3393,9 +3393,9 @@ ds2
 =
 udata_openSwapper
 (
-true
+TRUE
 U_CHARSET_FAMILY
-true
+TRUE
 ds
 -
 >
@@ -4304,7 +4304,7 @@ ToCEntry
 )
 compareToCEntries
 outBytes
-false
+FALSE
 pErrorCode
 )
 ;

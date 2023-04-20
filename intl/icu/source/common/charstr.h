@@ -1613,8 +1613,6 @@ CharString
 &
 other
 )
-=
-delete
 ;
 /
 /
@@ -1633,8 +1631,6 @@ CharString
 &
 other
 )
-=
-delete
 ;
 /
 /

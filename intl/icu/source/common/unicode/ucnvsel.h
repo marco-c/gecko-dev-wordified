@@ -340,17 +340,6 @@ U_SHOW_CPLUSPLUS_API
 \
 file
 *
-\
-brief
-C
-API
-:
-Encoding
-/
-charset
-encoding
-selector
-*
 *
 A
 converter
