@@ -403,6 +403,8 @@ const
 AvailableCpuFeatures
 &
 cpu_features
+int
+sample_rate_hz
 )
 :
 VoiceActivityDetectorWrapper
@@ -418,6 +420,7 @@ MonoVadImpl
 (
 cpu_features
 )
+sample_rate_hz
 )
 {
 }
@@ -436,6 +439,8 @@ unique_ptr
 MonoVad
 >
 vad
+int
+sample_rate_hz
 )
 :
 vad_reset_period_frames_
@@ -448,14 +453,6 @@ CheckedDivExact
 vad_reset_period_ms
 kFrameDurationMs
 )
-)
-initialized_
-(
-false
-)
-frame_size_
-(
-0
 )
 time_to_vad_reset_
 (
@@ -500,6 +497,11 @@ SampleRateHz
 )
 kNumFramesPerSecond
 )
+)
+;
+Initialize
+(
+sample_rate_hz
 )
 ;
 }
@@ -582,10 +584,6 @@ Reset
 (
 )
 ;
-initialized_
-=
-true
-;
 }
 float
 VoiceActivityDetectorWrapper
@@ -601,11 +599,6 @@ float
 frame
 )
 {
-RTC_DCHECK
-(
-initialized_
-)
-;
 /
 /
 Periodically
