@@ -241,6 +241,17 @@ mozilla
 /
 dom
 /
+PerformanceWorker
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SafeRefPtr
 .
 h
