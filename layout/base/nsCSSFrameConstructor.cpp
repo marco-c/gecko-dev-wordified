@@ -10530,6 +10530,16 @@ StylePage
 mPage
 )
 ;
+aFrame
+-
+>
+SetAutoPageValue
+(
+aState
+.
+mAutoPageNameValue
+)
+;
 /
 /
 Ensure
