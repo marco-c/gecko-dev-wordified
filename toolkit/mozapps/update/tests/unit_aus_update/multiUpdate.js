@@ -831,6 +831,7 @@ update
 -
 available
 prompt
+await
 gAUS
 .
 downloadUpdate
@@ -1173,6 +1174,7 @@ updates
 let
 downloadStarted
 =
+await
 gAUS
 .
 downloadUpdate
