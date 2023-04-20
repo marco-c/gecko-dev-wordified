@@ -115,6 +115,17 @@ packet_socket_factory
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+strings
+/
+string_builder
+.
+h
+"
 namespace
 {
 static
