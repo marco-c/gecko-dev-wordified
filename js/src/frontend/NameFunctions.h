@@ -166,7 +166,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :

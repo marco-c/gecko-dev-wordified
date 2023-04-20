@@ -359,7 +359,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -511,7 +511,7 @@ Throw
 ;
 }
 return
-ec
+fc
 -
 >
 hadErrors

@@ -634,7 +634,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 SmooshResult
 &
@@ -726,7 +726,7 @@ parserAtoms
 .
 internUtf8
 (
-ec
+fc
 s
 len
 )
@@ -1100,7 +1100,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 SmooshResult
 &
@@ -1140,7 +1140,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -1228,7 +1228,7 @@ data
 =
 NewEmptyGlobalScopeData
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -1293,7 +1293,7 @@ ScopeStencil
 :
 createForGlobalScope
 (
-ec
+fc
 compilationState
 ScopeKind
 :
@@ -1350,7 +1350,7 @@ data
 =
 NewEmptyVarScopeData
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -1428,7 +1428,7 @@ ScopeStencil
 :
 createForVarScope
 (
-ec
+fc
 compilationState
 ScopeKind
 :
@@ -1496,7 +1496,7 @@ data
 =
 NewEmptyLexicalScopeData
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -1585,7 +1585,7 @@ ScopeStencil
 :
 createForLexicalScope
 (
-ec
+fc
 compilationState
 ScopeKind
 :
@@ -1650,7 +1650,7 @@ data
 =
 NewEmptyFunctionScopeData
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -1791,7 +1791,7 @@ ScopeStencil
 :
 createForFunctionScope
 (
-ec
+fc
 compilationState
 data
 hasParameterExprs
@@ -1871,7 +1871,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1919,7 +1919,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -1944,7 +1944,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -2208,7 +2208,7 @@ TokenStreamAnyChars
 ts
 (
 cx
-ec
+fc
 compilationState
 .
 input
@@ -2297,7 +2297,7 @@ parserAtoms
 .
 internUtf8
 (
-ec
+fc
 sUtf8
 len
 )
@@ -2490,7 +2490,7 @@ parent
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -2502,7 +2502,7 @@ ImmutableScriptData
 new_
 (
 &
-ec
+fc
 smooshScriptData
 .
 main_offset
@@ -2608,7 +2608,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 SmooshResult
 &
@@ -2677,7 +2677,7 @@ compilationState
 allocateGCThingsUninitialized
 (
 cx
-ec
+fc
 scriptIndex
 ngcthings
 &
@@ -2956,7 +2956,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 SmooshResult
 &
@@ -3213,7 +3213,7 @@ SharedImmutableScriptData
 :
 createWith
 (
-ec
+fc
 std
 :
 :
@@ -3243,7 +3243,7 @@ sharedData
 addAndShare
 (
 cx
-ec
+fc
 scriptIndex
 sharedData
 )
@@ -3432,7 +3432,7 @@ if
 ConvertGCThings
 (
 cx
-ec
+fc
 result
 smooshScript
 compilationState
@@ -3583,7 +3583,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ErrorMetadata
 &
 &
@@ -3606,7 +3606,7 @@ errorNumber
 ;
 ReportCompileErrorUTF8
 (
-ec
+fc
 std
 :
 :
@@ -3648,7 +3648,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -3803,7 +3803,7 @@ false
 ReportSmooshCompileError
 (
 cx
-ec
+fc
 std
 :
 :
@@ -3856,7 +3856,7 @@ input
 initForGlobal
 (
 cx
-ec
+fc
 )
 )
 {
@@ -3882,14 +3882,14 @@ TaggedParserAtomIndex
 >
 allAtoms
 (
-ec
+fc
 )
 ;
 CompilationState
 compilationState
 (
 cx
-ec
+fc
 parserAllocScope
 input
 )
@@ -3900,7 +3900,7 @@ if
 ConvertAtoms
 (
 cx
-ec
+fc
 result
 compilationState
 allAtoms
@@ -3917,7 +3917,7 @@ if
 ConvertScopeStencil
 (
 cx
-ec
+fc
 result
 allAtoms
 compilationState
@@ -3934,7 +3934,7 @@ if
 ConvertRegExpData
 (
 cx
-ec
+fc
 stackLimit
 result
 compilationState
@@ -3997,7 +3997,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -4022,7 +4022,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -4047,7 +4047,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -4177,7 +4177,7 @@ compilationState
 .
 prepareSharedDataStorage
 (
-ec
+fc
 )
 )
 {
@@ -4207,7 +4207,7 @@ if
 ConvertScriptStencil
 (
 cx
-ec
+fc
 result
 result
 .
@@ -4234,7 +4234,7 @@ false
 auto
 stencil
 =
-ec
+fc
 -
 >
 getAllocator

@@ -4767,7 +4767,7 @@ mutedErrors
 }
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -4778,7 +4778,7 @@ if
 ExpandErrorArgumentsVA
 (
 &
-ec
+fc
 GetErrorMessage
 nullptr
 JSMSG_UNCAUGHT_EXCEPTION

@@ -1307,7 +1307,7 @@ cx
 ;
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -1326,7 +1326,7 @@ dummyTokenStream
 (
 cx
 &
-ec
+fc
 dummyOptions
 )
 ;
@@ -7144,7 +7144,7 @@ cx
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -7163,7 +7163,7 @@ dummyTokenStream
 (
 cx
 &
-ec
+fc
 dummyOptions
 )
 ;
@@ -7249,14 +7249,14 @@ valid
 .
 if
 (
-ec
+fc
 .
 hadOutOfMemory
 (
 )
 |
 |
-ec
+fc
 .
 hadOverRecursed
 (
@@ -7267,7 +7267,7 @@ return
 false
 ;
 }
-ec
+fc
 .
 convertToRuntimeErrorAndClear
 (

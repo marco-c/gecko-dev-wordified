@@ -4461,7 +4461,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -4510,7 +4510,7 @@ getOrCreateStringZ
 (
 FrontendContext
 *
-ec
+fc
 UniqueChars
 &
 &
@@ -4522,7 +4522,7 @@ getOrCreateStringZ
 (
 FrontendContext
 *
-ec
+fc
 UniqueTwoByteChars
 &
 &
@@ -4639,7 +4639,7 @@ assignSource
 (
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -6401,7 +6401,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -6418,7 +6418,7 @@ setFilename
 (
 FrontendContext
 *
-ec
+fc
 UniqueChars
 &
 &
@@ -6460,7 +6460,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -6477,7 +6477,7 @@ setIntroducerFilename
 (
 FrontendContext
 *
-ec
+fc
 UniqueChars
 &
 &
@@ -6540,7 +6540,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char16_t
 *
@@ -6560,7 +6560,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 UniqueTwoByteChars
 &
 &
@@ -6612,7 +6612,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char16_t
 *
@@ -6629,7 +6629,7 @@ setSourceMapURL
 (
 FrontendContext
 *
-ec
+fc
 UniqueTwoByteChars
 &
 &

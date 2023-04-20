@@ -1090,7 +1090,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -1122,7 +1122,7 @@ parserAtoms
 internJSAtom
 (
 cx
-ec
+fc
 atomCache
 ptr
 )
@@ -1145,7 +1145,7 @@ parserAtoms
 .
 internExternalParserAtomIndex
 (
-ec
+fc
 ref
 .
 context_
@@ -1169,7 +1169,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -1318,7 +1318,7 @@ parserAtoms
 toJSAtom
 (
 cx
-ec
+fc
 other
 atomCache
 )
@@ -1411,7 +1411,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -1427,7 +1427,7 @@ ref
 EmitterName
 (
 cx
-ec
+fc
 parserAtoms
 atomCache
 index
@@ -1748,7 +1748,7 @@ name
 cx
 name
 .
-ec
+fc
 name
 .
 index
@@ -2047,7 +2047,7 @@ other
 cx
 other
 .
-ec
+fc
 other
 .
 index
@@ -2729,7 +2729,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2971,7 +2971,7 @@ if
 cacheEnclosingScopeBindingForEval
 (
 cx
-ec
+fc
 input
 parserAtoms
 )
@@ -2987,7 +2987,7 @@ if
 cachePrivateFieldsForEval
 (
 cx
-ec
+fc
 input
 enclosingEnv
 effectiveScope
@@ -5366,7 +5366,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -5550,7 +5550,7 @@ if
 addToEnclosingLexicalBindingCache
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -5592,7 +5592,7 @@ if
 addToEnclosingLexicalBindingCache
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -5636,7 +5636,7 @@ if
 addToEnclosingLexicalBindingCache
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -5680,7 +5680,7 @@ if
 addToEnclosingLexicalBindingCache
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -5773,7 +5773,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -5795,7 +5795,7 @@ name
 internInto
 (
 cx
-ec
+fc
 parserAtoms
 atomCache
 )
@@ -5916,7 +5916,7 @@ kind
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -6200,7 +6200,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -6413,7 +6413,7 @@ binding
 internInto
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -6462,7 +6462,7 @@ loc
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -6582,7 +6582,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -6687,7 +6687,7 @@ binding
 isEqualTo
 (
 cx
-ec
+fc
 parserAtoms
 atomCache
 name
@@ -6806,7 +6806,7 @@ binding2
 isEqualTo
 (
 cx
-ec
+fc
 parserAtoms
 atomCache
 name
@@ -6905,7 +6905,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -6968,7 +6968,7 @@ return
 searchInEnclosingScopeNoCache
 (
 cx
-ec
+fc
 input
 parserAtoms
 name
@@ -7002,7 +7002,7 @@ expect
 searchInEnclosingScopeNoCache
 (
 cx
-ec
+fc
 input
 parserAtoms
 name
@@ -7016,7 +7016,7 @@ found
 searchInEnclosingScopeWithCache
 (
 cx
-ec
+fc
 input
 parserAtoms
 name
@@ -7045,7 +7045,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -7100,7 +7100,7 @@ GenericAtom
 genName
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -7154,7 +7154,7 @@ MOZ_ASSERT
 NameIsOnEnvironment
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -7502,7 +7502,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -7617,7 +7617,7 @@ MOZ_ASSERT
 NameIsOnEnvironment
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -7735,7 +7735,7 @@ binding
 isEqualTo
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -8014,7 +8014,7 @@ binding
 isEqualTo
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -8211,7 +8211,7 @@ binding
 isEqualTo
 (
 cx
-ec
+fc
 parserAtoms
 input
 .
@@ -8753,14 +8753,14 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 source
 =
 do_AddRef
 (
-ec
+fc
 -
 >
 getAllocator
@@ -8793,7 +8793,7 @@ source
 initFromOptions
 (
 cx
-ec
+fc
 options
 )
 ;
@@ -8809,7 +8809,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Handle
 <
 Scope
@@ -8849,7 +8849,7 @@ if
 initScriptSource
 (
 cx
-ec
+fc
 )
 )
 {
@@ -9199,7 +9199,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -9221,7 +9221,7 @@ if
 copyFunctionInfo
 (
 cx
-ec
+fc
 parseAtoms
 atomCache
 lazy
@@ -9258,7 +9258,7 @@ if
 copyScriptInfo
 (
 cx
-ec
+fc
 alloc
 parseAtoms
 atomCache
@@ -9276,7 +9276,7 @@ if
 copyClosedOverBindings
 (
 cx
-ec
+fc
 alloc
 parseAtoms
 atomCache
@@ -9328,7 +9328,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parseAtoms
@@ -9367,7 +9367,7 @@ name
 internInto
 (
 cx
-ec
+fc
 parseAtoms
 atomCache
 )
@@ -9439,7 +9439,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -9691,7 +9691,7 @@ scriptExtra
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -9835,7 +9835,7 @@ parseAtoms
 internJSAtom
 (
 cx
-ec
+fc
 atomCache
 fun
 -
@@ -9990,7 +9990,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -10214,7 +10214,7 @@ scriptExtra
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -10337,7 +10337,7 @@ name
 internInto
 (
 cx
-ec
+fc
 parseAtoms
 atomCache
 )
@@ -10419,7 +10419,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -10572,7 +10572,7 @@ closedOverBindings
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -10672,7 +10672,7 @@ parseAtoms
 internJSAtom
 (
 cx
-ec
+fc
 atomCache
 name
 )
@@ -10722,7 +10722,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -10925,7 +10925,7 @@ closedOverBindings
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -11014,7 +11014,7 @@ name
 internInto
 (
 cx
-ec
+fc
 parseAtoms
 atomCache
 )
@@ -11232,7 +11232,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -11255,7 +11255,7 @@ parserAtoms
 toJSAtom
 (
 cx
-ec
+fc
 atom_
 atomCache
 )
@@ -11972,7 +11972,7 @@ prepareSharedDataStorage
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 size_t
@@ -12012,7 +12012,7 @@ sharedData
 .
 prepareStorageFor
 (
-ec
+fc
 nonLazyScriptCount
 allScriptCount
 )
@@ -12780,7 +12780,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache
@@ -12794,7 +12794,7 @@ return
 InstantiateMarkedAtoms
 (
 cx
-ec
+fc
 stencil
 .
 parserAtomData
@@ -12938,7 +12938,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache
@@ -13006,7 +13006,7 @@ moduleMetadata
 initModule
 (
 cx
-ec
+fc
 atomCache
 module
 )
@@ -13029,7 +13029,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache
@@ -13068,7 +13068,7 @@ size
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -15794,7 +15794,7 @@ gcOutput
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -15805,7 +15805,7 @@ if
 prepareForInstantiate
 (
 &
-ec
+fc
 input
 .
 atomCache
@@ -15936,7 +15936,7 @@ JSAtom
 JSStrings
 .
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -15948,7 +15948,7 @@ InstantiateAtoms
 (
 cx
 &
-ec
+fc
 atomCache
 stencil
 )
@@ -16079,7 +16079,7 @@ InstantiateModuleObject
 (
 cx
 &
-ec
+fc
 atomCache
 stencil
 gcOutput
@@ -16098,7 +16098,7 @@ InstantiateFunctions
 (
 cx
 &
-ec
+fc
 atomCache
 stencil
 gcOutput
@@ -16506,7 +16506,7 @@ multiple
 runtimes
 .
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -16516,7 +16516,7 @@ InstantiateMarkedAtomsAsPermanent
 (
 cx
 &
-ec
+fc
 atomSet
 parserAtomData
 atomCache
@@ -17224,7 +17224,7 @@ most
 cases
 .
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -17250,7 +17250,7 @@ get
 ensureReservedWithBaseIndex
 (
 &
-ec
+fc
 range
 .
 start
@@ -17832,7 +17832,7 @@ prepareForInstantiate
 (
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache
@@ -17859,7 +17859,7 @@ gcOutput
 .
 ensureReserved
 (
-ec
+fc
 stencil
 .
 scriptData
@@ -17886,7 +17886,7 @@ atomCache
 .
 allocate
 (
-ec
+fc
 stencil
 .
 parserAtomData
@@ -17933,7 +17933,7 @@ false
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -17943,7 +17943,7 @@ encoder
 (
 cx
 &
-ec
+fc
 buf
 )
 ;
@@ -18040,7 +18040,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -18080,7 +18080,7 @@ XDRStencilDecoder
 decoder
 (
 cx
-ec
+fc
 range
 )
 ;
@@ -18296,7 +18296,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAllocScope
 &
 parserAllocScope
@@ -18321,7 +18321,7 @@ forceStrictMode
 )
 usedNames
 (
-ec
+fc
 )
 parserAllocScope
 (
@@ -18460,7 +18460,7 @@ initVector
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -18489,7 +18489,7 @@ vec
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -18517,7 +18517,7 @@ initMap
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -18546,7 +18546,7 @@ map
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -18574,7 +18574,7 @@ prepareStorageFor
 (
 FrontendContext
 *
-ec
+fc
 size_t
 nonLazyScriptCount
 size_t
@@ -18706,7 +18706,7 @@ if
 !
 initMap
 (
-ec
+fc
 )
 )
 {
@@ -18730,7 +18730,7 @@ nonLazyScriptCount
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -18745,7 +18745,7 @@ if
 !
 initVector
 (
-ec
+fc
 )
 )
 {
@@ -18769,7 +18769,7 @@ allScriptCount
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -18789,7 +18789,7 @@ cloneFrom
 (
 FrontendContext
 *
-ec
+fc
 const
 SharedDataContainer
 &
@@ -18815,7 +18815,7 @@ isBorrow
 return
 cloneFrom
 (
-ec
+fc
 *
 other
 .
@@ -18883,7 +18883,7 @@ if
 !
 initVector
 (
-ec
+fc
 )
 )
 {
@@ -18912,7 +18912,7 @@ asVector
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -18935,7 +18935,7 @@ if
 !
 initMap
 (
-ec
+fc
 )
 )
 {
@@ -18974,7 +18974,7 @@ count
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -19201,7 +19201,7 @@ convertFromSingleToMap
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -19238,7 +19238,7 @@ other
 .
 initMap
 (
-ec
+fc
 )
 )
 {
@@ -19270,7 +19270,7 @@ asSingle
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -19303,7 +19303,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 index
 js
@@ -19358,7 +19358,7 @@ SharedImmutableScriptData
 shareScriptData
 (
 cx
-ec
+fc
 ref
 )
 )
@@ -19419,7 +19419,7 @@ SharedImmutableScriptData
 shareScriptData
 (
 cx
-ec
+fc
 vec
 [
 index
@@ -19482,7 +19482,7 @@ SharedImmutableScriptData
 shareScriptData
 (
 cx
-ec
+fc
 p
 -
 >
@@ -19500,7 +19500,7 @@ addExtraWithoutShare
 (
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 index
 js
@@ -19531,7 +19531,7 @@ if
 !
 convertFromSingleToMap
 (
-ec
+fc
 )
 )
 {
@@ -19619,7 +19619,7 @@ data
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20052,7 +20052,7 @@ CopySpanToVector
 (
 FrontendContext
 *
-ec
+fc
 VectorT
 &
 vec
@@ -20109,7 +20109,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20141,7 +20141,7 @@ CopyToVector
 (
 FrontendContext
 *
-ec
+fc
 mozilla
 :
 :
@@ -20174,7 +20174,7 @@ source
 return
 CopySpanToVector
 (
-ec
+fc
 vec
 span
 )
@@ -20276,7 +20276,7 @@ CopyScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -20340,7 +20340,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20371,7 +20371,7 @@ cloneFromImpl
 (
 FrontendContext
 *
-ec
+fc
 const
 Stencil
 &
@@ -20404,7 +20404,7 @@ if
 !
 CopyToVector
 (
-ec
+fc
 scriptData
 other
 .
@@ -20421,7 +20421,7 @@ if
 !
 CopyToVector
 (
-ec
+fc
 scriptExtra
 other
 .
@@ -20438,7 +20438,7 @@ if
 !
 CopyToVector
 (
-ec
+fc
 gcThingData
 other
 .
@@ -20465,7 +20465,7 @@ if
 !
 CopyToVector
 (
-ec
+fc
 scopeData
 other
 .
@@ -20493,7 +20493,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20532,7 +20532,7 @@ data
 =
 CopyScopeData
 (
-ec
+fc
 alloc
 other
 .
@@ -20586,7 +20586,7 @@ if
 !
 CopyToVector
 (
-ec
+fc
 regExpData
 other
 .
@@ -20635,7 +20635,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20668,7 +20668,7 @@ i
 .
 init
 (
-ec
+fc
 alloc
 other
 .
@@ -20714,7 +20714,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20771,7 +20771,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20866,7 +20866,7 @@ parserAtoms
 .
 addPlaceholder
 (
-ec
+fc
 )
 )
 {
@@ -20884,7 +20884,7 @@ parserAtoms
 .
 internExternalParserAtom
 (
-ec
+fc
 entry
 )
 ;
@@ -20923,7 +20923,7 @@ sharedData
 .
 cloneFrom
 (
-ec
+fc
 other
 .
 sharedData
@@ -21009,7 +21009,7 @@ cloneFrom
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &
@@ -21019,7 +21019,7 @@ other
 return
 cloneFromImpl
 (
-ec
+fc
 other
 )
 ;
@@ -21032,7 +21032,7 @@ cloneFrom
 (
 FrontendContext
 *
-ec
+fc
 const
 ExtensibleCompilationStencil
 &
@@ -21042,7 +21042,7 @@ other
 return
 cloneFromImpl
 (
-ec
+fc
 other
 )
 ;
@@ -21055,7 +21055,7 @@ steal
 (
 FrontendContext
 *
-ec
+fc
 RefPtr
 <
 CompilationStencil
@@ -21356,7 +21356,7 @@ Borrowed
 return
 cloneFrom
 (
-ec
+fc
 *
 other
 )
@@ -21443,7 +21443,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 scriptData
 other
 -
@@ -21461,7 +21461,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 scriptExtra
 other
 -
@@ -21479,7 +21479,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 gcThingData
 other
 -
@@ -21497,7 +21497,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 scopeData
 other
 -
@@ -21515,7 +21515,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 scopeNames
 other
 -
@@ -21533,7 +21533,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 regExpData
 other
 -
@@ -21551,7 +21551,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 bigIntData
 other
 -
@@ -21569,7 +21569,7 @@ if
 !
 CopySpanToVector
 (
-ec
+fc
 objLiteralData
 other
 -
@@ -21630,7 +21630,7 @@ parserAtoms
 .
 addPlaceholder
 (
-ec
+fc
 )
 )
 {
@@ -21648,7 +21648,7 @@ parserAtoms
 .
 internExternalParserAtom
 (
-ec
+fc
 entry
 )
 ;
@@ -21800,7 +21800,7 @@ init
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -21900,7 +21900,7 @@ p
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -29517,7 +29517,7 @@ setAtomAt
 (
 FrontendContext
 *
-ec
+fc
 ParserAtomIndex
 index
 JSString
@@ -29568,7 +29568,7 @@ index
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -29594,7 +29594,7 @@ allocate
 (
 FrontendContext
 *
-ec
+fc
 size_t
 length
 )
@@ -29640,7 +29640,7 @@ length
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -29719,7 +29719,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 scriptIndex
 size_t
@@ -29763,7 +29763,7 @@ INDEX_LIMIT
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -29791,7 +29791,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -29811,7 +29811,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -29862,7 +29862,7 @@ appendScriptStencilAndData
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 if
@@ -29880,7 +29880,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -29931,7 +29931,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -29951,7 +29951,7 @@ appendGCThings
 (
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 scriptIndex
 mozilla
@@ -30002,7 +30002,7 @@ INDEX_LIMIT
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -30046,7 +30046,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -30066,7 +30066,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -30330,7 +30330,7 @@ buildFunctionKeyToIndex
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 if
@@ -30355,7 +30355,7 @@ length
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -30496,7 +30496,7 @@ i
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -30555,7 +30555,7 @@ buildAtomIndexMap
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &
@@ -30589,7 +30589,7 @@ atomCount
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -30618,7 +30618,7 @@ parserAtoms
 .
 internExternalParserAtom
 (
-ec
+fc
 atom
 )
 ;
@@ -30652,7 +30652,7 @@ setInitial
 (
 FrontendContext
 *
-ec
+fc
 UniquePtr
 <
 ExtensibleCompilationStencil
@@ -30681,7 +30681,7 @@ initial
 return
 buildFunctionKeyToIndex
 (
-ec
+fc
 )
 ;
 }
@@ -31181,7 +31181,7 @@ addDelazification
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &
@@ -31559,7 +31559,7 @@ if
 !
 buildAtomIndexMap
 (
-ec
+fc
 delazification
 atomIndexMap
 )
@@ -31959,7 +31959,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -32227,7 +32227,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -32318,7 +32318,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -32360,7 +32360,7 @@ back
 .
 init
 (
-ec
+fc
 initial_
 -
 >
@@ -32422,7 +32422,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -32482,7 +32482,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -32605,7 +32605,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -32639,7 +32639,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -32772,7 +32772,7 @@ destNames
 =
 CopyScopeData
 (
-ec
+fc
 initial_
 -
 >
@@ -32960,7 +32960,7 @@ sharedData
 .
 addExtraWithoutShare
 (
-ec
+fc
 delazifiedFunctionIndex
 delazification
 .
@@ -33272,7 +33272,7 @@ ScopeKind
 Global
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -33312,7 +33312,7 @@ CompileGlobalScriptToStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -33511,7 +33511,7 @@ setModule
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -33551,7 +33551,7 @@ ParseModuleToStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -33994,7 +33994,7 @@ buffer
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -34004,7 +34004,7 @@ encoder
 (
 cx
 &
-ec
+fc
 buffer
 )
 ;
@@ -34079,7 +34079,7 @@ stencilOut
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -34090,7 +34090,7 @@ ScriptSource
 >
 source
 =
-ec
+fc
 .
 getAllocator
 (
@@ -34126,7 +34126,7 @@ Stencil
 >
 stencil
 (
-ec
+fc
 .
 getAllocator
 (
@@ -34160,7 +34160,7 @@ decoder
 (
 cx
 &
-ec
+fc
 range
 )
 ;

@@ -781,7 +781,7 @@ allocate
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -836,7 +836,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -985,7 +985,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -1074,7 +1074,7 @@ atomCache
 .
 setAtomAt
 (
-ec
+fc
 index
 str
 )
@@ -1100,7 +1100,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -1180,7 +1180,7 @@ atomCache
 .
 setAtomAt
 (
-ec
+fc
 index
 atom
 )
@@ -1206,7 +1206,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 AtomSet
 &
 atomSet
@@ -1285,7 +1285,7 @@ atomCache
 .
 setAtomAt
 (
-ec
+fc
 index
 atom
 )
@@ -2099,7 +2099,7 @@ addEntry
 (
 FrontendContext
 *
-ec
+fc
 EntryMap
 :
 :
@@ -2145,7 +2145,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -2173,7 +2173,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -2211,7 +2211,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -2242,7 +2242,7 @@ internChar16Seq
 (
 FrontendContext
 *
-ec
+fc
 EntryMap
 :
 :
@@ -2278,7 +2278,7 @@ allocate
 AtomCharT
 >
 (
-ec
+fc
 *
 alloc_
 seq
@@ -2304,7 +2304,7 @@ null
 return
 addEntry
 (
-ec
+fc
 addPtr
 entry
 )
@@ -2325,7 +2325,7 @@ internAscii
 (
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -2363,7 +2363,7 @@ asciiPtr
 return
 internLatin1
 (
-ec
+fc
 latin1Ptr
 length
 )
@@ -2377,7 +2377,7 @@ internLatin1
 (
 FrontendContext
 *
-ec
+fc
 const
 Latin1Char
 *
@@ -2509,7 +2509,7 @@ internChar16Seq
 Latin1Char
 >
 (
-ec
+fc
 addPtr
 lookup
 .
@@ -2588,7 +2588,7 @@ internExternalParserAtomImpl
 (
 FrontendContext
 *
-ec
+fc
 const
 ParserAtom
 *
@@ -2727,7 +2727,7 @@ internChar16Seq
 AtomCharT
 >
 (
-ec
+fc
 addPtr
 atom
 -
@@ -2821,7 +2821,7 @@ internExternalParserAtom
 (
 FrontendContext
 *
-ec
+fc
 const
 ParserAtom
 *
@@ -2847,7 +2847,7 @@ JS
 Latin1Char
 >
 (
-ec
+fc
 atom
 )
 ;
@@ -2858,7 +2858,7 @@ internExternalParserAtomImpl
 char16_t
 >
 (
-ec
+fc
 atom
 )
 ;
@@ -2871,7 +2871,7 @@ addPlaceholder
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 ParserAtomIndex
@@ -2902,7 +2902,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -2925,7 +2925,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -2944,7 +2944,7 @@ internExternalParserAtomIndex
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &
@@ -3011,7 +3011,7 @@ toParserAtomIndex
 return
 internExternalParserAtom
 (
-ec
+fc
 context
 .
 parserAtomData
@@ -3258,7 +3258,7 @@ allocate
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -3279,7 +3279,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -3312,7 +3312,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -3449,7 +3449,7 @@ internUtf8
 (
 FrontendContext
 *
-ec
+fc
 const
 mozilla
 :
@@ -3613,7 +3613,7 @@ utf8Ptr
 return
 internLatin1
 (
-ec
+fc
 latin1Ptr
 nbyte
 )
@@ -3789,7 +3789,7 @@ internChar16Seq
 char16_t
 >
 (
-ec
+fc
 addPtr
 lookup
 .
@@ -3805,7 +3805,7 @@ internChar16Seq
 Latin1Char
 >
 (
-ec
+fc
 addPtr
 lookup
 .
@@ -3825,7 +3825,7 @@ internChar16
 (
 FrontendContext
 *
-ec
+fc
 const
 char16_t
 *
@@ -3971,7 +3971,7 @@ internChar16Seq
 char16_t
 >
 (
-ec
+fc
 addPtr
 lookup
 .
@@ -3987,7 +3987,7 @@ internChar16Seq
 Latin1Char
 >
 (
-ec
+fc
 addPtr
 lookup
 .
@@ -4010,7 +4010,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache
@@ -4040,7 +4040,7 @@ hasLatin1Chars
 ?
 internLatin1
 (
-ec
+fc
 atom
 -
 >
@@ -4058,7 +4058,7 @@ length
 :
 internChar16
 (
-ec
+fc
 atom
 -
 >
@@ -4126,7 +4126,7 @@ atomCache
 .
 setAtomAt
 (
-ec
+fc
 index
 atom
 )
@@ -4162,7 +4162,7 @@ MOZ_ASSERT
 toJSAtom
 (
 cx
-ec
+fc
 parserAtom
 atomCache
 )
@@ -7030,7 +7030,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 TaggedParserAtomIndex
 index
 CompilationAtomCache
@@ -7157,7 +7157,7 @@ parserAtom
 instantiateAtom
 (
 cx
-ec
+fc
 atomIndex
 atomCache
 )
@@ -7529,7 +7529,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 ParserAtomSpan
 &
@@ -7643,7 +7643,7 @@ entry
 instantiateString
 (
 cx
-ec
+fc
 index
 atomCache
 )
@@ -7665,7 +7665,7 @@ entry
 instantiateAtom
 (
 cx
-ec
+fc
 index
 atomCache
 )
@@ -7689,7 +7689,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 AtomSet
 &
 atomSet
@@ -7811,7 +7811,7 @@ entry
 instantiatePermanentAtom
 (
 cx
-ec
+fc
 atomSet
 index
 atomCache

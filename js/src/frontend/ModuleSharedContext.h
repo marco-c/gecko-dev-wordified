@@ -229,7 +229,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 JS
 :

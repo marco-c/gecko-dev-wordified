@@ -2490,7 +2490,7 @@ tempLifoAlloc
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -2509,7 +2509,7 @@ dummyTokenStream
 (
 cx
 &
-ec
+fc
 options
 )
 ;

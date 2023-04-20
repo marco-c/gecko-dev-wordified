@@ -1162,7 +1162,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScriptSource
 *
 source
@@ -1231,7 +1231,7 @@ source
 setDisplayURL
 (
 cx
-ec
+fc
 std
 :
 :
@@ -1291,7 +1291,7 @@ source
 >
 setSourceMapURL
 (
-ec
+fc
 std
 :
 :

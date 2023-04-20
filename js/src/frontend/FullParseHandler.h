@@ -801,7 +801,7 @@ FullParseHandler
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -809,7 +809,7 @@ compilationState
 :
 allocator
 (
-ec
+fc
 compilationState
 .
 parserAllocScope

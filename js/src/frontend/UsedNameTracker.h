@@ -1309,7 +1309,7 @@ UsedNameInfo
 (
 FrontendContext
 *
-ec
+fc
 NameVisibility
 visibility
 mozilla
@@ -1324,7 +1324,7 @@ position
 :
 uses_
 (
-ec
+fc
 )
 visibility_
 (
@@ -1719,12 +1719,12 @@ UsedNameTracker
 (
 FrontendContext
 *
-ec
+fc
 )
 :
 map_
 (
-ec
+fc
 )
 scriptCounter_
 (
@@ -1821,7 +1821,7 @@ noteUse
 (
 FrontendContext
 *
-ec
+fc
 TaggedParserAtomIndex
 name
 NameVisibility
@@ -1883,7 +1883,7 @@ hasUnboundPrivateNames
 (
 FrontendContext
 *
-ec
+fc
 mozilla
 :
 :

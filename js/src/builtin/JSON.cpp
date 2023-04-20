@@ -6225,7 +6225,7 @@ str
 }
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -6235,7 +6235,7 @@ gap
 (
 cx
 &
-ec
+fc
 )
 ;
 if

@@ -674,7 +674,7 @@ acquire
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 ConcreteCollectionPool
@@ -715,7 +715,7 @@ collection
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 }
@@ -1909,7 +1909,7 @@ acquireMap
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -1927,7 +1927,7 @@ acquire
 Map
 >
 (
-ec
+fc
 )
 ;
 }
@@ -1984,7 +1984,7 @@ acquireVector
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 template
@@ -2053,7 +2053,7 @@ AtomVector
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -2071,7 +2071,7 @@ acquire
 AtomVector
 >
 (
-ec
+fc
 )
 ;
 }
@@ -2137,7 +2137,7 @@ FunctionBoxVector
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -2155,7 +2155,7 @@ acquire
 FunctionBoxVector
 >
 (
-ec
+fc
 )
 ;
 }
@@ -2305,7 +2305,7 @@ acquire
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -2324,7 +2324,7 @@ T
 :
 acquireCollection
 (
-ec
+fc
 pool_
 )
 ;
@@ -2439,7 +2439,7 @@ acquireCollection
 (
 FrontendContext
 *
-ec
+fc
 NameCollectionPool
 &
 pool
@@ -2453,7 +2453,7 @@ acquireMap
 Map
 >
 (
-ec
+fc
 )
 ;
 }
@@ -2534,7 +2534,7 @@ acquireCollection
 (
 FrontendContext
 *
-ec
+fc
 NameCollectionPool
 &
 pool
@@ -2548,7 +2548,7 @@ acquireVector
 Vector
 >
 (
-ec
+fc
 )
 ;
 }

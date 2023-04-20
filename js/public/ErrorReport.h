@@ -1051,7 +1051,7 @@ js
 :
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -1137,7 +1137,7 @@ js
 :
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -1198,7 +1198,7 @@ js
 :
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -1259,7 +1259,7 @@ js
 :
 FrontendContext
 *
-ec
+fc
 const
 char
 *

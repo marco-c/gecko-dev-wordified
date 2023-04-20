@@ -188,7 +188,7 @@ else
 {
 result
 =
-ec
+fc
 (
 )
 -
@@ -279,7 +279,7 @@ else
 {
 ReportAllocationOverflow
 (
-ec
+fc
 (
 )
 )

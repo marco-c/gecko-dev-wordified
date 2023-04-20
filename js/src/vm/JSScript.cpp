@@ -9964,7 +9964,7 @@ assignSource
 (
 FrontendContext
 *
-ec
+fc
 const
 ReadOnlyCompileOptions
 &
@@ -10146,7 +10146,7 @@ deduped
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -10189,7 +10189,7 @@ assignSource
 (
 FrontendContext
 *
-ec
+fc
 const
 ReadOnlyCompileOptions
 &
@@ -10211,7 +10211,7 @@ assignSource
 (
 FrontendContext
 *
-ec
+fc
 const
 ReadOnlyCompileOptions
 &
@@ -11980,7 +11980,7 @@ reset
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -11990,7 +11990,7 @@ encoder
 (
 cx
 &
-ec
+fc
 buffer
 )
 ;
@@ -12045,7 +12045,7 @@ unwrapErr
 )
 )
 {
-ec
+fc
 .
 clearAutoReport
 (
@@ -12515,7 +12515,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 ReadOnlyCompileOptions
 &
@@ -12663,7 +12663,7 @@ if
 !
 setFilename
 (
-ec
+fc
 std
 :
 :
@@ -12695,7 +12695,7 @@ if
 setFilename
 (
 cx
-ec
+fc
 options
 .
 filename
@@ -12724,7 +12724,7 @@ if
 setIntroducerFilename
 (
 cx
-ec
+fc
 options
 .
 introducerFilename
@@ -12777,7 +12777,7 @@ GetOrCreateStringZ
 (
 FrontendContext
 *
-ec
+fc
 UniquePtr
 <
 CharT
@@ -12846,7 +12846,7 @@ res
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 }
@@ -12862,7 +12862,7 @@ getOrCreateStringZ
 (
 FrontendContext
 *
-ec
+fc
 UniqueChars
 &
 &
@@ -12875,7 +12875,7 @@ GetOrCreateStringZ
 SharedImmutableString
 >
 (
-ec
+fc
 std
 :
 :
@@ -12894,7 +12894,7 @@ getOrCreateStringZ
 (
 FrontendContext
 *
-ec
+fc
 UniqueTwoByteChars
 &
 &
@@ -12907,7 +12907,7 @@ GetOrCreateStringZ
 SharedImmutableTwoByteString
 >
 (
-ec
+fc
 std
 :
 :
@@ -12929,7 +12929,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -12958,7 +12958,7 @@ false
 return
 setFilename
 (
-ec
+fc
 std
 :
 :
@@ -12977,7 +12977,7 @@ setFilename
 (
 FrontendContext
 *
-ec
+fc
 UniqueChars
 &
 &
@@ -12994,7 +12994,7 @@ filename_
 =
 getOrCreateStringZ
 (
-ec
+fc
 std
 :
 :
@@ -13022,7 +13022,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -13051,7 +13051,7 @@ false
 return
 setIntroducerFilename
 (
-ec
+fc
 std
 :
 :
@@ -13070,7 +13070,7 @@ setIntroducerFilename
 (
 FrontendContext
 *
-ec
+fc
 UniqueChars
 &
 &
@@ -13087,7 +13087,7 @@ introducerFilename_
 =
 getOrCreateStringZ
 (
-ec
+fc
 std
 :
 :
@@ -13115,7 +13115,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char16_t
 *
@@ -13145,7 +13145,7 @@ return
 setDisplayURL
 (
 cx
-ec
+fc
 std
 :
 :
@@ -13167,7 +13167,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 UniqueTwoByteChars
 &
 &
@@ -13258,7 +13258,7 @@ displayURL_
 =
 getOrCreateStringZ
 (
-ec
+fc
 std
 :
 :
@@ -13286,7 +13286,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 char16_t
 *
@@ -13315,7 +13315,7 @@ false
 return
 setSourceMapURL
 (
-ec
+fc
 std
 :
 :
@@ -13334,7 +13334,7 @@ setSourceMapURL
 (
 FrontendContext
 *
-ec
+fc
 UniqueTwoByteChars
 &
 &
@@ -13368,7 +13368,7 @@ sourceMapURL_
 =
 getOrCreateStringZ
 (
-ec
+fc
 std
 :
 :
@@ -13729,7 +13729,7 @@ new_
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 codeLength
 uint32_t
@@ -13766,7 +13766,7 @@ isValid
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -13784,7 +13784,7 @@ void
 *
 raw
 =
-ec
+fc
 -
 >
 getAllocator
@@ -14179,11 +14179,11 @@ create
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 return
-ec
+fc
 -
 >
 getAllocator
@@ -14213,7 +14213,7 @@ createWith
 (
 FrontendContext
 *
-ec
+fc
 js
 :
 :
@@ -14241,7 +14241,7 @@ sisd
 =
 create
 (
-ec
+fc
 )
 ;
 if
@@ -14606,7 +14606,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 RefPtr
 <
 SharedImmutableScriptData
@@ -14757,7 +14757,7 @@ data
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -19496,7 +19496,7 @@ new_
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 mainOffset
 uint32_t
@@ -19678,7 +19678,7 @@ ImmutableScriptData
 :
 new_
 (
-ec
+fc
 code
 .
 Length

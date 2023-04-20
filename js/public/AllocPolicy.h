@@ -657,7 +657,7 @@ ReportOutOfMemory
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 /
@@ -823,7 +823,7 @@ JsContextTag
 MOZ_ALWAYS_INLINE
 FrontendContext
 *
-ec
+fc
 (
 )
 const
@@ -1015,14 +1015,14 @@ TempAllocPolicy
 (
 FrontendContext
 *
-ec
+fc
 )
 :
 context_bits_
 (
 uintptr_t
 (
-ec
+fc
 )
 )
 {
@@ -1031,7 +1031,7 @@ MOZ_ASSERT
 (
 uintptr_t
 (
-ec
+fc
 )
 &
 JsContextTag
@@ -1397,7 +1397,7 @@ else
 {
 ReportOutOfMemory
 (
-ec
+fc
 (
 )
 )

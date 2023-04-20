@@ -2141,7 +2141,7 @@ pushByte
 (
 FrontendContext
 *
-ec
+fc
 uint8_t
 data
 )
@@ -2162,7 +2162,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -2183,7 +2183,7 @@ prepareBytes
 (
 FrontendContext
 *
-ec
+fc
 size_t
 len
 uint8_t
@@ -2217,7 +2217,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -2252,7 +2252,7 @@ pushRawData
 (
 FrontendContext
 *
-ec
+fc
 T
 data
 )
@@ -2268,7 +2268,7 @@ if
 !
 prepareBytes
 (
-ec
+fc
 sizeof
 (
 T
@@ -2309,7 +2309,7 @@ pushOpAndName
 (
 FrontendContext
 *
-ec
+fc
 ObjLiteralOpcode
 op
 ObjLiteralKey
@@ -2351,14 +2351,14 @@ INDEXED_PROP
 return
 pushByte
 (
-ec
+fc
 opdata
 )
 &
 &
 pushRawData
 (
-ec
+fc
 data
 )
 ;
@@ -2373,7 +2373,7 @@ pushValueArg
 (
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -2418,7 +2418,7 @@ asRawBits
 return
 pushRawData
 (
-ec
+fc
 data
 )
 ;
@@ -2433,7 +2433,7 @@ pushAtomArg
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -2444,7 +2444,7 @@ atomIndex
 return
 pushRawData
 (
-ec
+fc
 atomIndex
 .
 rawData
@@ -2563,7 +2563,7 @@ checkForDuplicatedNames
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 mozilla
@@ -3062,7 +3062,7 @@ propWithConstNumericValue
 (
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -3099,7 +3099,7 @@ isNumber
 return
 pushOpAndName
 (
-ec
+fc
 ObjLiteralOpcode
 :
 :
@@ -3110,7 +3110,7 @@ nextKey_
 &
 pushValueArg
 (
-ec
+fc
 value
 )
 ;
@@ -3125,7 +3125,7 @@ propWithAtomValue
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -3175,7 +3175,7 @@ No
 return
 pushOpAndName
 (
-ec
+fc
 ObjLiteralOpcode
 :
 :
@@ -3186,7 +3186,7 @@ nextKey_
 &
 pushAtomArg
 (
-ec
+fc
 value
 )
 ;
@@ -3201,7 +3201,7 @@ propWithNullValue
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -3222,7 +3222,7 @@ propertyCount_
 return
 pushOpAndName
 (
-ec
+fc
 ObjLiteralOpcode
 :
 :
@@ -3241,7 +3241,7 @@ propWithUndefinedValue
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 propertyCount_
@@ -3251,7 +3251,7 @@ propertyCount_
 return
 pushOpAndName
 (
-ec
+fc
 ObjLiteralOpcode
 :
 :
@@ -3270,7 +3270,7 @@ propWithTrueValue
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -3291,7 +3291,7 @@ propertyCount_
 return
 pushOpAndName
 (
-ec
+fc
 ObjLiteralOpcode
 :
 :
@@ -3310,7 +3310,7 @@ propWithFalseValue
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -3331,7 +3331,7 @@ propertyCount_
 return
 pushOpAndName
 (
-ec
+fc
 ObjLiteralOpcode
 :
 :

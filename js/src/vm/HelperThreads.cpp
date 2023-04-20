@@ -3474,10 +3474,10 @@ AutoSetContextFrontendErrors
 (
 FrontendContext
 *
-ec
+fc
 )
 {
-ec
+fc
 -
 >
 linkWithJSContext
@@ -4274,7 +4274,7 @@ ascr
 runtime
 )
 ;
-ec_
+fc_
 .
 linkWithJSContext
 (
@@ -4285,7 +4285,7 @@ parse
 (
 cx
 &
-ec_
+fc_
 )
 ;
 MOZ_ASSERT
@@ -4543,7 +4543,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 override
 ;
@@ -4601,7 +4601,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 override
 ;
@@ -4650,7 +4650,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 override
 ;
@@ -4698,7 +4698,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 override
 ;
@@ -4780,7 +4780,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -4812,7 +4812,7 @@ Global
 ;
 stencilInput_
 =
-ec
+fc
 -
 >
 getAllocator
@@ -4866,7 +4866,7 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
-ec
+fc
 stackLimit
 tempLifoAlloc
 *
@@ -4902,7 +4902,7 @@ frontend
 PrepareForInstantiate
 (
 cx
-ec
+fc
 *
 stencilInput_
 *
@@ -4995,7 +4995,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -5010,7 +5010,7 @@ isHelperThreadContext
 ;
 stencilInput_
 =
-ec
+fc
 -
 >
 getAllocator
@@ -5052,7 +5052,7 @@ frontend
 ParseModuleToStencil
 (
 cx
-ec
+fc
 stackLimit
 *
 stencilInput_
@@ -5086,7 +5086,7 @@ frontend
 PrepareForInstantiate
 (
 cx
-ec
+fc
 *
 stencilInput_
 *
@@ -5174,7 +5174,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -5189,7 +5189,7 @@ isHelperThreadContext
 ;
 stencilInput_
 =
-ec
+fc
 -
 >
 getAllocator
@@ -5226,7 +5226,7 @@ stencilInput_
 initForGlobal
 (
 cx
-ec
+fc
 )
 )
 {
@@ -5235,7 +5235,7 @@ return
 }
 stencil_
 =
-ec
+fc
 -
 >
 getAllocator
@@ -5280,7 +5280,7 @@ stencil_
 deserializeStencils
 (
 cx
-ec
+fc
 *
 stencilInput_
 range
@@ -5317,7 +5317,7 @@ frontend
 PrepareForInstantiate
 (
 cx
-ec
+fc
 *
 stencilInput_
 *
@@ -5386,7 +5386,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -5417,7 +5417,7 @@ length
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 /
@@ -5458,7 +5458,7 @@ stencilInput
 initForGlobal
 (
 cx
-ec
+fc
 )
 )
 {
@@ -5474,7 +5474,7 @@ CompilationStencil
 >
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -5518,7 +5518,7 @@ stencil
 deserializeStencils
 (
 cx
-ec
+fc
 stencilInput
 source
 .
@@ -5787,7 +5787,7 @@ add
 (
 FrontendContext
 *
-ec
+fc
 const
 frontend
 :
@@ -6036,7 +6036,7 @@ if
 !
 add
 (
-ec
+fc
 stencil
 innerScriptIndex
 )
@@ -6077,7 +6077,7 @@ innerScriptRef
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -6782,7 +6782,7 @@ recordErrors
 task
 -
 >
-ec_
+fc_
 )
 ;
 RefPtr
@@ -6849,7 +6849,7 @@ initial
 task
 -
 >
-ec_
+fc_
 .
 getAllocator
 (
@@ -6886,7 +6886,7 @@ cloneFrom
 task
 -
 >
-ec_
+fc_
 stencil
 )
 )
@@ -7071,7 +7071,7 @@ merger
 setInitial
 (
 &
-ec_
+fc_
 std
 :
 :
@@ -7180,7 +7180,7 @@ functions
 .
 strategy
 =
-ec_
+fc_
 .
 getAllocator
 (
@@ -7224,7 +7224,7 @@ first
 .
 strategy
 =
-ec_
+fc_
 .
 getAllocator
 (
@@ -7329,7 +7329,7 @@ strategy
 add
 (
 &
-ec_
+fc_
 borrow
 topLevel
 )
@@ -7648,7 +7648,7 @@ recordErrors
 this
 -
 >
-ec_
+fc_
 )
 ;
 using
@@ -7844,7 +7844,7 @@ DelazifyCanonicalScriptedFunction
 (
 cx
 &
-ec_
+fc_
 stackLimit
 &
 scopeCache
@@ -7944,7 +7944,7 @@ get
 ReportOutOfMemory
 (
 &
-ec_
+fc_
 )
 ;
 return
@@ -8047,7 +8047,7 @@ addDelazification
 this
 -
 >
-ec_
+fc_
 *
 innerStencil
 )
@@ -8077,7 +8077,7 @@ strategy
 add
 (
 &
-ec_
+fc_
 borrow
 scriptIndex
 )
@@ -14853,7 +14853,7 @@ token
 parseTask
 -
 >
-ec_
+fc_
 .
 convertToRuntimeError
 (

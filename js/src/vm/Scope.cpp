@@ -1280,7 +1280,7 @@ NewEmptyParserScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -1332,7 +1332,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -9620,7 +9620,7 @@ appendScopeStencilAndData
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -9670,7 +9670,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -9707,7 +9707,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -9760,7 +9760,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -9784,7 +9784,7 @@ createForFunctionScope
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -9866,7 +9866,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-ec
+fc
 compilationState
 .
 alloc
@@ -9912,7 +9912,7 @@ envShape
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 data
 index
@@ -9944,7 +9944,7 @@ createForLexicalScope
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -10014,7 +10014,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-ec
+fc
 compilationState
 .
 alloc
@@ -10055,7 +10055,7 @@ envShape
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 data
 index
@@ -10079,7 +10079,7 @@ createForClassBodyScope
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -10149,7 +10149,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-ec
+fc
 compilationState
 .
 alloc
@@ -10190,7 +10190,7 @@ envShape
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 data
 index
@@ -10209,7 +10209,7 @@ createForVarScope
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -10281,7 +10281,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-ec
+fc
 compilationState
 .
 alloc
@@ -10323,7 +10323,7 @@ envShape
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 data
 index
@@ -10347,7 +10347,7 @@ createForGlobalScope
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -10407,7 +10407,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-ec
+fc
 compilationState
 .
 alloc
@@ -10500,7 +10500,7 @@ enclosing
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 data
 index
@@ -10524,7 +10524,7 @@ createForEvalScope
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -10592,7 +10592,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-ec
+fc
 compilationState
 .
 alloc
@@ -10637,7 +10637,7 @@ envShape
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 data
 index
@@ -10661,7 +10661,7 @@ createForModuleScope
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -10735,7 +10735,7 @@ NewEmptyParserScopeData
 ScopeType
 >
 (
-ec
+fc
 compilationState
 .
 alloc
@@ -10822,7 +10822,7 @@ envShape
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 data
 index
@@ -10962,7 +10962,7 @@ createForWithScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -11015,7 +11015,7 @@ envShape
 return
 appendScopeStencilAndData
 (
-ec
+fc
 compilationState
 nullptr
 index

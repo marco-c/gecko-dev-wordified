@@ -267,12 +267,12 @@ FrontendAllocator
 (
 FrontendContext
 *
-ec
+fc
 )
 :
 context_
 (
-ec
+fc
 )
 {
 }

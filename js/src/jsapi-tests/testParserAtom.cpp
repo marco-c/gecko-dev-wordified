@@ -235,7 +235,7 @@ js
 :
 :
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -333,7 +333,7 @@ atomTable
 internAscii
 (
 &
-ec
+fc
 ascii
 0
 )
@@ -349,7 +349,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 0
 )
@@ -365,7 +365,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 0
 )
@@ -381,7 +381,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 0
 )
@@ -460,7 +460,7 @@ js
 :
 :
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -574,7 +574,7 @@ atomTable
 internAscii
 (
 &
-ec
+fc
 ascii
 1
 )
@@ -590,7 +590,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -606,7 +606,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 1
 )
@@ -622,7 +622,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 1
 )
@@ -703,7 +703,7 @@ js
 :
 :
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -819,7 +819,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -835,7 +835,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 2
 )
@@ -851,7 +851,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 1
 )
@@ -957,7 +957,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -973,7 +973,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 2
 )
@@ -989,7 +989,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 1
 )
@@ -1095,7 +1095,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -1111,7 +1111,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 2
 )
@@ -1127,7 +1127,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 1
 )
@@ -1233,7 +1233,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -1249,7 +1249,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 2
 )
@@ -1265,7 +1265,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 1
 )
@@ -1371,7 +1371,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -1387,7 +1387,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 2
 )
@@ -1403,7 +1403,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 1
 )
@@ -1509,7 +1509,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -1525,7 +1525,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 2
 )
@@ -1541,7 +1541,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 1
 )
@@ -1643,7 +1643,7 @@ js
 :
 :
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -1862,7 +1862,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -1953,7 +1953,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -2162,7 +2162,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -2253,7 +2253,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 1
 )
@@ -2626,7 +2626,7 @@ js
 :
 :
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -2750,7 +2750,7 @@ atomTable
 internAscii
 (
 &
-ec
+fc
 ascii
 2
 )
@@ -2766,7 +2766,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 2
 )
@@ -2782,7 +2782,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 2
 )
@@ -2798,7 +2798,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 2
 )
@@ -2926,7 +2926,7 @@ js
 :
 :
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -3069,7 +3069,7 @@ atomTable
 internAscii
 (
 &
-ec
+fc
 ascii
 3
 )
@@ -3085,7 +3085,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 3
 )
@@ -3101,7 +3101,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 3
 )
@@ -3117,7 +3117,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 3
 )
@@ -3250,7 +3250,7 @@ atomTable
 internAscii
 (
 &
-ec
+fc
 ascii
 3
 )
@@ -3266,7 +3266,7 @@ atomTable
 internLatin1
 (
 &
-ec
+fc
 latin1
 3
 )
@@ -3282,7 +3282,7 @@ atomTable
 internUtf8
 (
 &
-ec
+fc
 utf8
 3
 )
@@ -3298,7 +3298,7 @@ atomTable
 internChar16
 (
 &
-ec
+fc
 char16
 3
 )

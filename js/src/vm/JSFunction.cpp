@@ -9777,7 +9777,7 @@ t
 exist
 .
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -9792,7 +9792,7 @@ DelazifyCanonicalScriptedFunction
 (
 cx
 &
-ec
+fc
 cx
 -
 >

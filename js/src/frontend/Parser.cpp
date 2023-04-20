@@ -1213,7 +1213,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1245,7 +1245,7 @@ Parser
 anyChars
 (
 cx
-ec
+fc
 options
 this
 )
@@ -1257,9 +1257,9 @@ foldConstants_
 (
 foldConstants
 )
-ec_
+fc_
 (
-ec
+fc
 )
 stackLimit_
 (
@@ -1345,7 +1345,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1368,7 +1368,7 @@ internalSyntaxParser
 ParserBase
 (
 cx
-ec
+fc
 stackLimit
 options
 foldConstants
@@ -1376,7 +1376,7 @@ compilationState
 )
 handler_
 (
-ec
+fc
 compilationState
 )
 internalSyntaxParser_
@@ -1424,7 +1424,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1453,7 +1453,7 @@ syntaxParser
 Base
 (
 cx
-ec
+fc
 stackLimit
 options
 foldConstants
@@ -1463,7 +1463,7 @@ syntaxParser
 tokenStream
 (
 cx
-ec
+fc
 &
 compilationState
 .
@@ -1754,7 +1754,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec_
+fc_
 )
 ;
 return
@@ -1768,7 +1768,7 @@ compilationState_
 .
 appendScriptStencilAndData
 (
-ec_
+fc_
 )
 )
 {
@@ -1884,7 +1884,7 @@ FunctionBox
 >
 (
 cx_
-ec_
+fc_
 extent
 compilationState_
 inheritedDirectives
@@ -1904,7 +1904,7 @@ funbox
 {
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -1985,7 +1985,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec_
+fc_
 )
 ;
 return
@@ -1999,7 +1999,7 @@ compilationState_
 .
 appendScriptStencilAndData
 (
-ec_
+fc_
 )
 )
 {
@@ -2081,7 +2081,7 @@ FunctionBox
 >
 (
 cx_
-ec_
+fc_
 cachedScriptExtra
 .
 extent
@@ -2128,7 +2128,7 @@ funbox
 {
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -2254,7 +2254,7 @@ ss
 setDisplayURL
 (
 cx_
-ec_
+fc_
 anyChars
 .
 displayURL
@@ -2297,7 +2297,7 @@ ss
 setSourceMapURL
 (
 cx_
-ec_
+fc_
 anyChars
 .
 sourceMapURL
@@ -2412,7 +2412,7 @@ ss
 setSourceMapURL
 (
 cx_
-ec_
+fc_
 options
 (
 )
@@ -2519,7 +2519,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 ScopeKind
 :
 :
@@ -2670,7 +2670,7 @@ CheckParseTree
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -2751,7 +2751,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -3075,7 +3075,7 @@ ReportOutOfMemory
 this
 -
 >
-ec_
+fc_
 )
 ;
 return
@@ -3150,7 +3150,7 @@ addNoteASCII
 this
 -
 >
-ec_
+fc_
 getFilename
 (
 )
@@ -3285,7 +3285,7 @@ ReportOutOfMemory
 this
 -
 >
-ec_
+fc_
 )
 ;
 return
@@ -3360,7 +3360,7 @@ addNoteASCII
 this
 -
 >
-ec_
+fc_
 getFilename
 (
 )
@@ -3742,7 +3742,7 @@ ReportOutOfMemory
 this
 -
 >
-ec_
+fc_
 )
 ;
 return
@@ -3848,7 +3848,7 @@ null
 {
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -5745,7 +5745,7 @@ usedNames_
 .
 noteUse
 (
-ec_
+fc_
 name
 visibility
 pc_
@@ -6095,7 +6095,7 @@ name
 {
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -6193,7 +6193,7 @@ null
 {
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -6338,7 +6338,7 @@ NewEmptyBindingData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6389,7 +6389,7 @@ bindings
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 }
@@ -6406,7 +6406,7 @@ NewEmptyGlobalScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6420,7 +6420,7 @@ NewEmptyBindingData
 GlobalScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -6435,7 +6435,7 @@ NewEmptyLexicalScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6449,7 +6449,7 @@ NewEmptyBindingData
 LexicalScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -6464,7 +6464,7 @@ NewEmptyFunctionScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6478,7 +6478,7 @@ NewEmptyBindingData
 FunctionScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -6913,7 +6913,7 @@ NewGlobalScopeData
 (
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -6931,19 +6931,19 @@ pc
 ParserBindingNameVector
 vars
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 lets
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 consts
 (
-ec
+fc
 )
 ;
 bool
@@ -7189,7 +7189,7 @@ NewEmptyBindingData
 GlobalScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -7270,7 +7270,7 @@ scope
 return
 NewGlobalScopeData
 (
-ec_
+fc_
 scope
 stencilAlloc
 (
@@ -7291,7 +7291,7 @@ NewModuleScopeData
 (
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -7309,25 +7309,25 @@ pc
 ParserBindingNameVector
 imports
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 vars
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 lets
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 consts
 (
-ec
+fc
 )
 ;
 bool
@@ -7591,7 +7591,7 @@ NewEmptyBindingData
 ModuleScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -7678,7 +7678,7 @@ scope
 return
 NewModuleScopeData
 (
-ec_
+fc_
 scope
 stencilAlloc
 (
@@ -7699,7 +7699,7 @@ NewEvalScopeData
 (
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -7717,7 +7717,7 @@ pc
 ParserBindingNameVector
 vars
 (
-ec
+fc
 )
 ;
 /
@@ -7897,7 +7897,7 @@ NewEmptyBindingData
 EvalScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -7953,7 +7953,7 @@ scope
 return
 NewEvalScopeData
 (
-ec_
+fc_
 scope
 stencilAlloc
 (
@@ -7974,7 +7974,7 @@ NewFunctionScopeData
 (
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -7994,19 +7994,19 @@ pc
 ParserBindingNameVector
 positionalFormals
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 formals
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 vars
 (
-ec
+fc
 )
 ;
 bool
@@ -8557,7 +8557,7 @@ NewEmptyBindingData
 FunctionScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -8793,7 +8793,7 @@ hasParameterExprs
 return
 NewFunctionScopeData
 (
-ec_
+fc_
 scope
 hasParameterExprs
 stencilAlloc
@@ -8812,7 +8812,7 @@ NewEmptyVarScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -8826,7 +8826,7 @@ NewEmptyBindingData
 VarScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -8844,7 +8844,7 @@ NewVarScopeData
 (
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -8862,7 +8862,7 @@ pc
 ParserBindingNameVector
 vars
 (
-ec
+fc
 )
 ;
 bool
@@ -9027,7 +9027,7 @@ NewEmptyBindingData
 VarScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -9162,7 +9162,7 @@ scope
 return
 NewVarScopeData
 (
-ec_
+fc_
 scope
 stencilAlloc
 (
@@ -9183,7 +9183,7 @@ NewLexicalScopeData
 (
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -9201,13 +9201,13 @@ pc
 ParserBindingNameVector
 lets
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 consts
 (
-ec
+fc
 )
 ;
 bool
@@ -9396,7 +9396,7 @@ NewEmptyBindingData
 LexicalScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -9620,7 +9620,7 @@ scope
 return
 NewLexicalScopeData
 (
-ec_
+fc_
 scope
 stencilAlloc
 (
@@ -9641,7 +9641,7 @@ NewClassBodyScopeData
 (
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -9659,19 +9659,19 @@ pc
 ParserBindingNameVector
 privateBrand
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 synthetics
 (
-ec
+fc
 )
 ;
 ParserBindingNameVector
 privateMethods
 (
-ec
+fc
 )
 ;
 bool
@@ -9936,7 +9936,7 @@ NewEmptyBindingData
 ClassBodyScope
 >
 (
-ec
+fc
 alloc
 numBindings
 )
@@ -9995,7 +9995,7 @@ ClassBodyScope
 ParserBindingNameVector
 brandAndSynthetics
 (
-ec
+fc
 )
 ;
 if
@@ -10179,7 +10179,7 @@ scope
 return
 NewClassBodyScopeData
 (
-ec_
+fc_
 scope
 stencilAlloc
 (
@@ -10500,7 +10500,7 @@ UnboundPrivateName
 >
 unboundPrivateNames
 (
-ec_
+fc_
 )
 ;
 if
@@ -11120,7 +11120,7 @@ CheckParseTree
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -11197,7 +11197,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -11495,7 +11495,7 @@ CheckParseTree
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -11586,7 +11586,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -12397,7 +12397,7 @@ CheckParseTree
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -12474,7 +12474,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -13688,7 +13688,7 @@ isValid
 {
 ReportAllocationOverflow
 (
-ec_
+fc_
 )
 ;
 return
@@ -13754,7 +13754,7 @@ compilationState_
 allocateGCThingsUninitialized
 (
 cx_
-ec_
+fc_
 funbox
 -
 >
@@ -14742,7 +14742,7 @@ CheckParseTree
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -14819,7 +14819,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -16138,7 +16138,7 @@ StringBuffer
 prefixed
 (
 cx_
-ec_
+fc_
 )
 ;
 if
@@ -16237,7 +16237,7 @@ this
 parserAtoms
 (
 )
-ec_
+fc_
 )
 ;
 }
@@ -20929,7 +20929,7 @@ CheckParseTree
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -21006,7 +21006,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -23998,7 +23998,7 @@ cx_
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -24960,7 +24960,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -24973,7 +24973,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -26740,7 +26740,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -26753,7 +26753,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -27571,7 +27571,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -27584,7 +27584,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -30473,7 +30473,7 @@ ReportOutOfMemory
 this
 -
 >
-ec_
+fc_
 )
 ;
 return
@@ -37549,11 +37549,11 @@ Node
 >
 condList
 (
-ec_
+fc_
 )
 thenList
 (
-ec_
+fc_
 )
 ;
 Vector
@@ -37563,7 +37563,7 @@ uint32_t
 >
 posList
 (
-ec_
+fc_
 )
 ;
 Node
@@ -48909,7 +48909,7 @@ usedNames_
 .
 hasUnboundPrivateNames
 (
-ec_
+fc_
 maybeUnboundName
 )
 )
@@ -52637,7 +52637,7 @@ StringBuffer
 storedMethodName
 (
 cx_
-ec_
+fc_
 )
 ;
 if
@@ -52709,7 +52709,7 @@ this
 parserAtoms
 (
 )
-ec_
+fc_
 )
 ;
 if
@@ -54553,7 +54553,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -54566,7 +54566,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -55997,7 +55997,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -56010,7 +56010,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -59351,7 +59351,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -59364,7 +59364,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -61594,7 +61594,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -61607,7 +61607,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -62224,7 +62224,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -62237,7 +62237,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -63788,7 +63788,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -63801,7 +63801,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -67538,7 +67538,7 @@ parserAtoms
 .
 internChar16
 (
-ec_
+fc_
 chars
 .
 begin
@@ -67619,7 +67619,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec_
+fc_
 )
 ;
 return
@@ -67651,7 +67651,7 @@ ReportOutOfMemory
 this
 -
 >
-ec_
+fc_
 )
 ;
 return
@@ -67977,7 +67977,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-ec_
+fc_
 )
 ;
 return
@@ -68017,7 +68017,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec_
+fc_
 )
 ;
 return
@@ -68049,7 +68049,7 @@ ReportOutOfMemory
 this
 -
 >
-ec_
+fc_
 )
 ;
 return
@@ -68076,7 +68076,7 @@ init
 this
 -
 >
-ec_
+fc_
 this
 -
 >
@@ -69679,7 +69679,7 @@ numAtom
 =
 NumberToParserAtom
 (
-ec_
+fc_
 this
 -
 >
@@ -75143,7 +75143,7 @@ recursion
 this
 -
 >
-ec_
+fc_
 )
 ;
 if
@@ -75156,7 +75156,7 @@ check
 this
 -
 >
-ec_
+fc_
 this
 -
 >

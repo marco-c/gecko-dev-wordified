@@ -421,7 +421,7 @@ ReportCompileWarning
 (
 FrontendContext
 *
-ec
+fc
 ErrorMetadata
 &
 &
@@ -570,7 +570,7 @@ if
 !
 ExpandErrorArgumentsVA
 (
-ec
+fc
 GetErrorMessage
 nullptr
 errorNumber
@@ -587,7 +587,7 @@ false
 ;
 }
 return
-ec
+fc
 -
 >
 reportWarning
@@ -608,7 +608,7 @@ ReportCompileErrorImpl
 (
 FrontendContext
 *
-ec
+fc
 js
 :
 :
@@ -737,7 +737,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-ec
+fc
 js
 :
 :
@@ -755,7 +755,7 @@ args
 return
 ;
 }
-ec
+fc
 -
 >
 reportError
@@ -778,7 +778,7 @@ ReportCompileErrorLatin1
 (
 FrontendContext
 *
-ec
+fc
 ErrorMetadata
 &
 &
@@ -797,7 +797,7 @@ args
 {
 ReportCompileErrorImpl
 (
-ec
+fc
 std
 :
 :
@@ -826,7 +826,7 @@ ReportCompileErrorUTF8
 (
 FrontendContext
 *
-ec
+fc
 ErrorMetadata
 &
 &
@@ -845,7 +845,7 @@ args
 {
 ReportCompileErrorImpl
 (
-ec
+fc
 std
 :
 :
@@ -2046,7 +2046,7 @@ ExpandErrorArgumentsHelper
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -2085,7 +2085,7 @@ GetErrorMessage
 }
 efs
 =
-ec
+fc
 -
 >
 gcSafeCallback
@@ -2262,7 +2262,7 @@ args
 .
 init
 (
-ec
+fc
 -
 >
 getAllocator
@@ -2341,7 +2341,7 @@ utf8
 =
 out
 =
-ec
+fc
 -
 >
 getAllocator
@@ -2639,7 +2639,7 @@ char
 *
 message
 =
-ec
+fc
 -
 >
 getAllocator
@@ -2694,7 +2694,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -2728,7 +2728,7 @@ ArgumentsAreUnicode
 return
 ExpandErrorArgumentsHelper
 (
-ec
+fc
 callback
 userRef
 errorNumber
@@ -2747,7 +2747,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -2781,7 +2781,7 @@ ArgumentsAreUnicode
 return
 ExpandErrorArgumentsHelper
 (
-ec
+fc
 callback
 userRef
 errorNumber
@@ -2800,7 +2800,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -2821,7 +2821,7 @@ ap
 return
 ExpandErrorArgumentsHelper
 (
-ec
+fc
 callback
 userRef
 errorNumber
@@ -2840,7 +2840,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -2869,7 +2869,7 @@ ap
 return
 ExpandErrorArgumentsHelper
 (
-ec
+fc
 callback
 userRef
 errorNumber
@@ -2934,7 +2934,7 @@ report
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -2945,7 +2945,7 @@ if
 ExpandErrorArgumentsVA
 (
 &
-ec
+fc
 callback
 userRef
 errorNumber
@@ -2988,7 +2988,7 @@ ExpandErrorArguments
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -3032,7 +3032,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-ec
+fc
 callback
 userRef
 errorNumber
@@ -3161,7 +3161,7 @@ report
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -3172,7 +3172,7 @@ if
 ExpandErrorArguments
 (
 &
-ec
+fc
 callback
 userRef
 errorNumber

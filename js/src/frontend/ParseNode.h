@@ -10196,7 +10196,7 @@ toAtom
 (
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -12129,7 +12129,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -15346,15 +15346,15 @@ ParseNodeAllocator
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
 )
 :
-ec
+fc
 (
-ec
+fc
 )
 alloc
 (
@@ -15374,7 +15374,7 @@ private
 :
 FrontendContext
 *
-ec
+fc
 ;
 LifoAlloc
 &

@@ -1401,7 +1401,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -1555,7 +1555,7 @@ init
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -2145,7 +2145,7 @@ appendScopeStencilAndData
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2172,7 +2172,7 @@ createForFunctionScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2209,7 +2209,7 @@ createForLexicalScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2242,7 +2242,7 @@ createForClassBodyScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2275,7 +2275,7 @@ createForVarScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2310,7 +2310,7 @@ createForGlobalScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2333,7 +2333,7 @@ createForEvalScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2364,7 +2364,7 @@ createForModuleScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -2393,7 +2393,7 @@ createForWithScope
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -4182,7 +4182,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache

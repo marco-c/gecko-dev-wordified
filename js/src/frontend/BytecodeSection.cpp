@@ -1216,7 +1216,7 @@ BytecodeSection
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 lineNum
 uint32_t
@@ -1225,11 +1225,11 @@ column
 :
 code_
 (
-ec
+fc
 )
 notes_
 (
-ec
+fc
 )
 lastNoteOffset_
 (
@@ -1237,15 +1237,15 @@ lastNoteOffset_
 )
 tryNoteList_
 (
-ec
+fc
 )
 scopeNoteList_
 (
-ec
+fc
 )
 resumeOffsetList_
 (
-ec
+fc
 )
 currentLine_
 (
@@ -1333,7 +1333,7 @@ PerScriptData
 (
 FrontendContext
 *
-ec
+fc
 NameCollectionPool
 &
 ncp
@@ -1347,7 +1347,7 @@ compilationState
 :
 gcThingList_
 (
-ec
+fc
 compilationState
 )
 atomIndices_
@@ -1364,7 +1364,7 @@ init
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 return
@@ -1372,7 +1372,7 @@ atomIndices_
 .
 acquire
 (
-ec
+fc
 )
 ;
 }

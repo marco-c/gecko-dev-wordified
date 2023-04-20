@@ -686,7 +686,7 @@ cx
 ;
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -700,7 +700,7 @@ CompileGlobalScript
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -898,7 +898,7 @@ false
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -912,7 +912,7 @@ initial
 steal
 (
 &
-ec
+fc
 std
 :
 :
@@ -1241,7 +1241,7 @@ frontend
 Parser
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 AutoReportFrontendContext
@@ -1291,7 +1291,7 @@ initForGlobal
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -1328,7 +1328,7 @@ compilationState
 (
 cx
 &
-ec
+fc
 allocScope
 input
 .
@@ -1346,7 +1346,7 @@ init
 (
 cx
 &
-ec
+fc
 &
 scopeCache
 )
@@ -1365,7 +1365,7 @@ parser
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -1516,7 +1516,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 :
 cx_
@@ -1530,7 +1530,7 @@ cx
 funStr_
 (
 cx
-ec
+fc
 )
 {
 AssertHeapIsIdle
@@ -3366,7 +3366,7 @@ true
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -3382,7 +3382,7 @@ CompileGlobalScript
 (
 cx
 &
-ec
+fc
 cx
 -
 >

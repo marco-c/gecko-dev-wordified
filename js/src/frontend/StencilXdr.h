@@ -987,7 +987,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -1000,7 +1000,7 @@ range
 Base
 (
 cx
-ec
+fc
 range
 )
 {
@@ -1102,7 +1102,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1114,7 +1114,7 @@ buffer
 Base
 (
 cx
-ec
+fc
 buffer
 buffer
 .

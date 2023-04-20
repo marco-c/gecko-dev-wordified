@@ -241,7 +241,7 @@ CheckParseTree
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -269,7 +269,7 @@ CheckParseTree
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -301,7 +301,7 @@ CheckParseTree
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :

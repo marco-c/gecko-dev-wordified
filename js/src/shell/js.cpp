@@ -15180,7 +15180,7 @@ false
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -15192,7 +15192,7 @@ SetSourceOptions
 (
 cx
 &
-ec
+fc
 script
 -
 >
@@ -30047,7 +30047,7 @@ false
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -30063,7 +30063,7 @@ CompileModule
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -30829,7 +30829,7 @@ decoding
 *
 /
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -30866,7 +30866,7 @@ initForModule
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -31228,7 +31228,7 @@ decoding
 *
 /
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -31265,7 +31265,7 @@ initForModule
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -31326,7 +31326,7 @@ deserializeStencils
 (
 cx
 &
-ec
+fc
 input
 .
 get
@@ -31348,7 +31348,7 @@ if
 succeeded
 )
 {
-ec
+fc
 .
 clearAutoReport
 (
@@ -31377,7 +31377,7 @@ isModule
 )
 )
 {
-ec
+fc
 .
 clearAutoReport
 (
@@ -32954,7 +32954,7 @@ js
 frontend
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -32968,7 +32968,7 @@ parser
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -33043,7 +33043,7 @@ compilationState
 appendScriptStencilAndData
 (
 &
-ec
+fc
 )
 )
 {
@@ -33091,7 +33091,7 @@ builder
 (
 cx
 &
-ec
+fc
 &
 parser
 )
@@ -33112,7 +33112,7 @@ modulesc
 (
 cx
 &
-ec
+fc
 options
 builder
 extent
@@ -33261,7 +33261,7 @@ false
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -33307,7 +33307,7 @@ CompileGlobalScriptToExtensibleStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -33340,7 +33340,7 @@ ParseModuleToExtensibleStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -34307,7 +34307,7 @@ false
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -34350,7 +34350,7 @@ tryCompileGlobalScriptToExtensibleStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -34377,7 +34377,7 @@ if
 stencil
 )
 {
-ec
+fc
 .
 clearAutoReport
 (
@@ -34610,7 +34610,7 @@ true
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -34661,7 +34661,7 @@ initForGlobal
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -34685,7 +34685,7 @@ initForModule
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -34720,7 +34720,7 @@ compilationState
 (
 cx
 &
-ec
+fc
 allocScope
 input
 .
@@ -34738,7 +34738,7 @@ init
 (
 cx
 &
-ec
+fc
 &
 scopeCache
 )
@@ -35174,7 +35174,7 @@ length
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -35211,7 +35211,7 @@ initForGlobal
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -35245,7 +35245,7 @@ compilationState
 (
 cx
 &
-ec
+fc
 allocScope
 input
 .
@@ -35263,7 +35263,7 @@ init
 (
 cx
 &
-ec
+fc
 &
 scopeCache
 )
@@ -35285,7 +35285,7 @@ parser
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -35337,7 +35337,7 @@ parse
 ;
 if
 (
-ec
+fc
 .
 hadErrors
 (
@@ -35390,7 +35390,7 @@ encountered
 .
 MOZ_ASSERT
 (
-ec
+fc
 .
 hadOutOfMemory
 (

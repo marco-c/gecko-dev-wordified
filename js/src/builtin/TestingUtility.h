@@ -387,7 +387,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScriptSource
 *
 source

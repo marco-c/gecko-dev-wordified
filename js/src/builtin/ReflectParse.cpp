@@ -1431,7 +1431,7 @@ cx
 ;
 FrontendContext
 *
-ec
+fc
 ;
 frontend
 :
@@ -1519,7 +1519,7 @@ JSContext
 c
 FrontendContext
 *
-e
+f
 bool
 l
 char
@@ -1532,9 +1532,9 @@ cx
 (
 c
 )
-ec
+fc
 (
-e
+f
 )
 parser
 (
@@ -4585,7 +4585,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -10220,7 +10220,7 @@ cx
 ;
 FrontendContext
 *
-ec
+fc
 ;
 Parser
 <
@@ -10912,7 +10912,7 @@ JSContext
 c
 FrontendContext
 *
-e
+f
 bool
 l
 char
@@ -10927,9 +10927,9 @@ cx
 (
 c
 )
-ec
+fc
 (
-e
+f
 )
 parser
 (
@@ -10938,7 +10938,7 @@ nullptr
 builder
 (
 c
-e
+f
 l
 src
 )
@@ -22999,7 +22999,7 @@ RegExpLiteral
 create
 (
 cx
-ec
+fc
 parser
 -
 >
@@ -25910,7 +25910,7 @@ parsing
 *
 /
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -25920,7 +25920,7 @@ serialize
 (
 cx
 &
-ec
+fc
 loc
 filename
 .
@@ -26078,7 +26078,7 @@ initForGlobal
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -26102,7 +26102,7 @@ initForModule
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -26137,7 +26137,7 @@ compilationState
 (
 cx
 &
-ec
+fc
 allocScope
 input
 .
@@ -26155,7 +26155,7 @@ init
 (
 cx
 &
-ec
+fc
 &
 scopeCache
 )
@@ -26174,7 +26174,7 @@ parser
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -26276,7 +26276,7 @@ builder
 (
 cx
 &
-ec
+fc
 &
 parser
 )
@@ -26312,7 +26312,7 @@ modulesc
 (
 cx
 &
-ec
+fc
 options
 builder
 extent

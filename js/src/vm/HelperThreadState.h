@@ -2932,7 +2932,7 @@ generating
 bytecode
 .
 FrontendContext
-ec_
+fc_
 ;
 ParseTask
 (
@@ -3008,7 +3008,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 =
 0
@@ -3446,7 +3446,7 @@ add
 (
 FrontendContext
 *
-ec
+fc
 const
 frontend
 :
@@ -4038,7 +4038,7 @@ generating
 bytecode
 .
 FrontendContext
-ec_
+fc_
 ;
 /
 /
