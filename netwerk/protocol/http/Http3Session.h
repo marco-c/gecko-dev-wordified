@@ -1495,6 +1495,16 @@ Http3StreamBase
 aStream
 )
 ;
+void
+ResetWebTransportStream
+(
+Http3WebTransportStream
+*
+aStream
+uint8_t
+aErrorCode
+)
+;
 private
 :
 ~

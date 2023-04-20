@@ -110,6 +110,13 @@ h
 #
 include
 "
+Http3WebTransportStream
+.
+h
+"
+#
+include
+"
 WebTransportSessionProxy
 .
 h
