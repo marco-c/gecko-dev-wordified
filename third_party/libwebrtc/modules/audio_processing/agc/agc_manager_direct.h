@@ -628,7 +628,7 @@ DisableDigitalDisablesDigital
 FRIEND_TEST_ALL_PREFIXES
 (
 AgcManagerDirectStandaloneTest
-AgcMinMicLevelExperiment
+AgcMinMicLevelExperimentDefault
 )
 ;
 FRIEND_TEST_ALL_PREFIXES
