@@ -1016,6 +1016,11 @@ min
 =
 =
 0
+and
+max
+=
+=
+0
 .
 constexpr
 int64_t
@@ -1068,6 +1073,13 @@ timing
 .
 Reset
 (
+)
+;
+timing
+.
+set_max_playout_delay
+(
+0
 )
 ;
 for
