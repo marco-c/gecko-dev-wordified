@@ -3275,7 +3275,7 @@ target
 mTargetId
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 focusedTarget
@@ -3302,8 +3302,6 @@ the
 "
 target
 should
-"
-"
 be
 same
 "
