@@ -34321,6 +34321,17 @@ temp3
 )
 ;
 void
+registerIterator
+(
+Register
+enumeratorsList
+Register
+iter
+Register
+temp
+)
+;
+void
 toHashableNonGCThing
 (
 ValueOperand
