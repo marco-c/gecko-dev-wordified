@@ -549,7 +549,7 @@ LS_INFO
 <
 "
 Skipping
-WgcWindowCaptureTests
+WgcCapturerWinTests
 on
 Windows
 versions
