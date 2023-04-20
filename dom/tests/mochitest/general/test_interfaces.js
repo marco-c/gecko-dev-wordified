@@ -3094,9 +3094,6 @@ CSSFontPaletteValuesRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
