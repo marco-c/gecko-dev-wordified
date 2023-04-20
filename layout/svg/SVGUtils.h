@@ -3548,6 +3548,8 @@ nsStyleSVG
 :
 *
 aFillOrStroke
+nscolor
+aDefaultFallbackColor
 )
 ;
 static
