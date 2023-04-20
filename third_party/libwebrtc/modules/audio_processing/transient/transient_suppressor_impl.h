@@ -172,11 +172,16 @@ TransientSuppressor
 {
 public
 :
-explicit
 TransientSuppressorImpl
 (
 VadMode
 vad_mode
+int
+sample_rate_hz
+int
+detector_rate_hz
+int
+num_channels
 )
 ;
 ~

@@ -135,6 +135,12 @@ TransientSuppressor
 :
 VadMode
 vad_mode
+int
+sample_rate_hz
+int
+detection_rate_hz
+int
+num_channels
 )
 {
 #
@@ -166,6 +172,9 @@ TransientSuppressorImpl
 >
 (
 vad_mode
+sample_rate_hz
+detection_rate_hz
+num_channels
 )
 ;
 #
