@@ -1189,10 +1189,6 @@ sIsIMMEnabled
 ;
 static
 bool
-sAssociateIMCOnlyWhenIMM_IMEActive
-;
-static
-bool
 IsTSFAvailable
 (
 )
