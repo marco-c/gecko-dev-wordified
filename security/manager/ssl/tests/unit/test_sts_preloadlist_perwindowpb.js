@@ -76,31 +76,6 @@ Observer
 (
 )
 ;
-var
-secInfo
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-security
-/
-transportsecurityinfo
-;
-1
-"
-]
-.
-createInstance
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-;
 function
 cleanup
 (
@@ -641,7 +616,6 @@ age
 =
 0
 "
-secInfo
 )
 ;
 ok
@@ -706,7 +680,6 @@ age
 =
 1000
 "
-secInfo
 )
 ;
 ok
@@ -817,7 +790,6 @@ age
 =
 0
 "
-secInfo
 )
 ;
 ok
@@ -893,7 +865,6 @@ age
 =
 0
 "
-secInfo
 )
 ;
 /
@@ -1158,7 +1129,6 @@ age
 =
 1000
 "
-secInfo
 )
 ;
 /
@@ -1471,7 +1441,6 @@ age
 =
 1
 "
-secInfo
 )
 ;
 do_timeout
@@ -1619,7 +1588,6 @@ age
 =
 0
 "
-secInfo
 PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;
@@ -1666,7 +1634,6 @@ age
 =
 1000
 "
-secInfo
 PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;
@@ -1722,7 +1689,6 @@ age
 =
 0
 "
-secInfo
 PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;
@@ -1886,7 +1852,6 @@ age
 =
 1
 "
-secInfo
 PRIVATE_ORIGIN_ATTRIBUTES
 )
 ;

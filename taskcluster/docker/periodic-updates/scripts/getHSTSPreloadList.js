@@ -1097,6 +1097,18 @@ securityInfo
 !
 =
 null
+&
+&
+securityInfo
+.
+overridableErrorCategory
+=
+=
+Ci
+.
+nsITransportSecurityInfo
+.
+ERROR_UNSET
 )
 {
 try
@@ -1128,7 +1140,6 @@ processHeader
 (
 uri
 header
-securityInfo
 {
 }
 maxAge

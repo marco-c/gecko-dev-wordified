@@ -152,9 +152,6 @@ h
 class
 nsIURI
 ;
-class
-nsITransportSecurityInfo
-;
 using
 mozilla
 :
@@ -606,9 +603,6 @@ const
 nsCString
 &
 aHeader
-nsITransportSecurityInfo
-*
-aSecInfo
 const
 OriginAttributes
 &
