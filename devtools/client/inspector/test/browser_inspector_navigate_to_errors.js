@@ -410,7 +410,7 @@ getDisplayedNodeTextContent
 (
 "
 #
-errorShortDescText
+errorShortDesc
 "
 inspector
 )
@@ -493,7 +493,7 @@ getDisplayedNodeTextContent
 (
 "
 #
-errorShortDescText
+errorShortDesc
 "
 inspector
 )

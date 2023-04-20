@@ -842,14 +842,14 @@ content
 )
 ;
 let
-advPanelContainer
+advPanel
 =
 doc
 .
 getElementById
 (
 "
-advancedPanelContainer
+badCertAdvancedPanel
 "
 )
 ;
@@ -859,7 +859,7 @@ ContentTaskUtils
 .
 is_visible
 (
-advPanelContainer
+advPanel
 )
 "
 Advanced

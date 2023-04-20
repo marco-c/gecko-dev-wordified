@@ -1496,7 +1496,7 @@ visitTextElement
 node
 )
 {
-let
+const
 stripped_val
 =
 this
@@ -1505,6 +1505,14 @@ domParser
 .
 parseFromString
 (
+"
+<
+!
+DOCTYPE
+html
+>
+"
++
 node
 .
 value

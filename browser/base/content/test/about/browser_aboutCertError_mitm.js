@@ -396,7 +396,7 @@ querySelector
 (
 "
 #
-errorShortDescText
+errorShortDesc
 "
 )
 ;
