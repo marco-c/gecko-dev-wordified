@@ -699,7 +699,6 @@ true
 ;
 ok
 (
-!
 gBrowser
 .
 getCachedFindBar
@@ -711,6 +710,10 @@ _findStatusDesc
 dataset
 .
 l10nId
+=
+=
+=
+undefined
 "
 Findbar
 status
@@ -911,7 +914,6 @@ true
 ;
 ok
 (
-!
 findbar2
 .
 _findStatusDesc
@@ -919,6 +921,10 @@ _findStatusDesc
 dataset
 .
 l10nId
+=
+=
+=
+undefined
 "
 Findbar
 status
@@ -1182,7 +1188,6 @@ false
 ;
 ok
 (
-!
 findbar
 .
 _findStatusDesc
@@ -1190,6 +1195,10 @@ _findStatusDesc
 dataset
 .
 l10nId
+=
+=
+=
+undefined
 "
 Findbar
 status
@@ -1367,7 +1376,6 @@ false
 ;
 ok
 (
-!
 findbar
 .
 _findStatusDesc
@@ -1375,6 +1383,10 @@ _findStatusDesc
 dataset
 .
 l10nId
+=
+=
+=
+undefined
 "
 Findbar
 status
