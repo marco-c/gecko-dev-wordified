@@ -178,6 +178,17 @@ ErrorResult
 namespace
 dom
 {
+bool
+ServiceWorkerVisible
+(
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
+)
+;
 class
 PushSubscriptionOptions
 final
