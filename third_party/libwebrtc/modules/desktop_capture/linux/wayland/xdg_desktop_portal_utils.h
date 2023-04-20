@@ -436,6 +436,14 @@ RequestResponse
 {
 /
 /
+Unknown
+the
+initialized
+status
+.
+kUnknown
+/
+/
 Success
 the
 request
@@ -776,7 +784,7 @@ message
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -905,7 +913,7 @@ message
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -993,7 +1001,7 @@ UnsubscribeSignalHandlers
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1159,7 +1167,7 @@ subscription
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1305,7 +1313,7 @@ message
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1373,7 +1381,7 @@ UnsubscribeSignalHandlers
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :

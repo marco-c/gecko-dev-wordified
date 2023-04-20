@@ -590,7 +590,7 @@ portal
 request
 .
 void
-PortalFailed
+OnPortalDone
 (
 xdg_portal
 :
