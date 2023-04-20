@@ -108,7 +108,7 @@ kMinFloatS16Value
 -
 32768
 .
-f
+0f
 ;
 constexpr
 float
@@ -116,7 +116,7 @@ kMaxFloatS16Value
 =
 32767
 .
-f
+0f
 ;
 constexpr
 float
@@ -150,7 +150,7 @@ kAttackFilterConstant
 =
 0
 .
-f
+0f
 ;
 /
 /
@@ -167,7 +167,7 @@ kHeadroomDbfs
 =
 1
 .
-f
+0f
 ;
 constexpr
 float
@@ -175,7 +175,7 @@ kMaxGainDb
 =
 30
 .
-f
+0f
 ;
 constexpr
 float
@@ -183,7 +183,7 @@ kInitialAdaptiveDigitalGainDb
 =
 8
 .
-f
+0f
 ;
 /
 /
@@ -280,11 +280,11 @@ kFullBufferLeakFactor
 =
 1
 .
-f
+0f
 -
 1
 .
-f
+0f
 /
 kFullBufferSizeMs
 ;
@@ -295,7 +295,7 @@ kInitialSpeechLevelEstimateDbfs
 -
 30
 .
-f
+0f
 ;
 /
 /
@@ -307,12 +307,18 @@ speech
 decisions
 .
 constexpr
+int
+kDefaultVadRnnResetPeriodMs
+=
+1500
+;
+constexpr
 float
 kDefaultSmoothedVadProbabilityAttack
 =
 1
 .
-f
+0f
 ;
 constexpr
 int
@@ -332,7 +338,7 @@ kDefaultInitialSaturationMarginDb
 =
 20
 .
-f
+0f
 ;
 constexpr
 float
@@ -340,7 +346,7 @@ kDefaultExtraSaturationMarginDb
 =
 2
 .
-f
+0f
 ;
 constexpr
 int

@@ -1715,7 +1715,7 @@ fixed_gain_factor
 =
 1
 .
-f
+0f
 ;
 }
 pre_amplifier
@@ -1807,7 +1807,7 @@ pre_gain_factor
 =
 1
 .
-f
+0f
 ;
 /
 /
@@ -1827,7 +1827,7 @@ post_gain_factor
 =
 1
 .
-f
+0f
 ;
 struct
 AnalogMicGainEmulation
@@ -2829,7 +2829,7 @@ gain_db
 =
 0
 .
-f
+0f
 ;
 }
 fixed_digital
@@ -2841,6 +2841,11 @@ bool
 enabled
 =
 false
+;
+int
+vad_reset_period_ms
+=
+1500
 ;
 float
 vad_probability_attack
@@ -2885,14 +2890,14 @@ initial_saturation_margin_db
 =
 20
 .
-f
+0f
 ;
 float
 extra_saturation_margin_db
 =
 5
 .
-f
+0f
 ;
 int
 gain_applier_adjacent_speech_frames_threshold
@@ -2904,7 +2909,7 @@ max_gain_change_db_per_second
 =
 3
 .
-f
+0f
 ;
 float
 max_output_noise_level_dbfs
@@ -2912,7 +2917,7 @@ max_output_noise_level_dbfs
 -
 55
 .
-f
+0f
 ;
 bool
 sse2_allowed
@@ -3116,7 +3121,7 @@ value_
 (
 0
 .
-f
+0f
 )
 {
 }
@@ -3251,7 +3256,7 @@ RTC_DCHECK_GE
 gain_db
 0
 .
-f
+0f
 )
 ;
 RTC_DCHECK_LE
@@ -3259,7 +3264,7 @@ RTC_DCHECK_LE
 gain_db
 90
 .
-f
+0f
 )
 ;
 return
