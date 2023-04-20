@@ -2277,10 +2277,8 @@ AddReceiveCodec
 (
 uint8_t
 payload_type
-const
-VideoCodec
-&
-video_codec
+VideoCodecType
+codec_type
 const
 std
 :
@@ -2361,9 +2359,7 @@ VideoRtpDepacketizerRaw
 :
 CreateVideoRtpDepacketizer
 (
-video_codec
-.
-codecType
+codec_type
 )
 )
 ;
