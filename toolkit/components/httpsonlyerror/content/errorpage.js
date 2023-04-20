@@ -779,7 +779,9 @@ neterror
 because
 BrowserTestUtils
 .
-jsm
+sys
+.
+mjs
 relies
 on
 that
