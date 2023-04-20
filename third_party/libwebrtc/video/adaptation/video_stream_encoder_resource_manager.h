@@ -1285,6 +1285,13 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
+VideoAdaptationCounters
+current_adaptation_counters_
+RTC_GUARDED_BY
+(
+encoder_queue_
+)
+;
 const
 BalancedDegradationSettings
 balanced_settings_
