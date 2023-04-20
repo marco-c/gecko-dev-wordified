@@ -2163,10 +2163,6 @@ parserAtoms
 .
 toPrintableString
 (
-bce
--
->
-cx
 atom
 )
 ;
@@ -2176,6 +2172,14 @@ if
 bytes
 )
 {
+ReportOutOfMemory
+(
+bce
+-
+>
+cx
+)
+;
 return
 ;
 }

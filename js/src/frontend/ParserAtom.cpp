@@ -6408,9 +6408,6 @@ CharT
 UniqueChars
 ToPrintableStringImpl
 (
-JSContext
-*
-cx
 mozilla
 :
 :
@@ -6428,10 +6425,33 @@ quote
 '
 )
 {
+/
+/
+Pass
+nullptr
+as
+JSContext
+given
+we
+don
+'
+t
+use
+JSString
+.
+/
+/
+OOM
+should
+be
+handled
+by
+caller
+.
 Sprinter
 sprinter
 (
-cx
+nullptr
 )
 ;
 if
@@ -6484,9 +6504,6 @@ ParserAtomsTable
 :
 toPrintableString
 (
-JSContext
-*
-cx
 TaggedParserAtomIndex
 index
 )
@@ -6525,7 +6542,6 @@ hasLatin1Chars
 ?
 ToPrintableStringImpl
 (
-cx
 atom
 -
 >
@@ -6536,7 +6552,6 @@ latin1Range
 :
 ToPrintableStringImpl
 (
-cx
 atom
 -
 >
@@ -6572,7 +6587,6 @@ toWellKnownAtomId
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
@@ -6624,7 +6638,6 @@ content
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
@@ -6668,7 +6681,6 @@ content
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
@@ -6716,7 +6728,6 @@ content
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
@@ -6742,9 +6753,6 @@ ParserAtomsTable
 :
 toQuotedString
 (
-JSContext
-*
-cx
 TaggedParserAtomIndex
 index
 )
@@ -6783,7 +6791,6 @@ hasLatin1Chars
 ?
 ToPrintableStringImpl
 (
-cx
 atom
 -
 >
@@ -6798,7 +6805,6 @@ latin1Range
 :
 ToPrintableStringImpl
 (
-cx
 atom
 -
 >
@@ -6838,7 +6844,6 @@ toWellKnownAtomId
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
@@ -6894,7 +6899,6 @@ content
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
@@ -6942,7 +6946,6 @@ content
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
@@ -6994,7 +6997,6 @@ content
 return
 ToPrintableStringImpl
 (
-cx
 mozilla
 :
 :
