@@ -767,6 +767,13 @@ AllowBackdropFilter
 bool
 true
 )
+\
+_
+(
+WebglOopAsyncPresentForceSync
+bool
+true
+)
 /
 *
 Add
