@@ -1413,6 +1413,9 @@ DoJoinNodes
 (
 keepingContent
 removingContent
+GetJoinNodesDirection
+(
+)
 )
 ;
 }
