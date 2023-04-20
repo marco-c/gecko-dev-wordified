@@ -124,7 +124,7 @@ include
 "
 api
 /
-video_track_source_proxy
+video_track_source_proxy_factory
 .
 h
 "
@@ -297,10 +297,7 @@ VideoTrack
 Create
 (
 receiver_id
-VideoTrackSourceProxy
-:
-:
-Create
+CreateVideoTrackSourceProxy
 (
 rtc
 :
