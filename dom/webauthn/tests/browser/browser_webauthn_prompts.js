@@ -351,12 +351,12 @@ button
 ;
 }
 let
-expectAbortError
+expectNotAllowedError
 =
 expectError
 (
 "
-Abort
+NotAllowed
 "
 )
 ;
@@ -607,7 +607,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectAbortError
+expectNotAllowedError
 )
 .
 then
@@ -739,7 +739,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectAbortError
+expectNotAllowedError
 )
 .
 then
@@ -879,7 +879,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectAbortError
+expectNotAllowedError
 )
 .
 then
@@ -1048,7 +1048,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectAbortError
+expectNotAllowedError
 )
 .
 then
@@ -1375,7 +1375,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectAbortError
+expectNotAllowedError
 )
 .
 then

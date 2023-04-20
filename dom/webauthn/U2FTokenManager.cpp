@@ -5363,7 +5363,7 @@ promise
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
