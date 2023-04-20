@@ -461,7 +461,7 @@ data
 stats
 )
 .
-pitch_info_48kHz_
+pitch_period_48kHz_
 =
 pitch_estimator_
 .
@@ -482,9 +482,7 @@ kFeatureVectorSize
 01f
 *
 (
-pitch_info_48kHz_
-.
-period
+pitch_period_48kHz_
 -
 300
 )
@@ -505,9 +503,7 @@ period
 .
 RTC_DCHECK_LE
 (
-pitch_info_48kHz_
-.
-period
+pitch_period_48kHz_
 /
 2
 kMaxPitch24kHz
@@ -522,9 +518,7 @@ subview
 (
 kMaxPitch24kHz
 -
-pitch_info_48kHz_
-.
-period
+pitch_period_48kHz_
 /
 2
 kFrameSize20ms24kHz

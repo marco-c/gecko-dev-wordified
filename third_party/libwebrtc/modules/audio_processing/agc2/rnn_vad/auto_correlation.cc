@@ -142,7 +142,7 @@ static_assert
 <
 kAutoCorrelationFftOrder
 >
-kNumInvertedLags12kHz
+kNumLags12kHz
 +
 kBufSize12kHz
 -
@@ -374,7 +374,7 @@ rtc
 ArrayView
 <
 float
-kNumInvertedLags12kHz
+kNumLags12kHz
 >
 auto_corr
 )
@@ -444,7 +444,7 @@ static_assert
 (
 kFftFrameSize
 >
-kNumInvertedLags12kHz
+kNumLags12kHz
 +
 kConvolutionLength
 "
@@ -600,7 +600,7 @@ in
 /
 [
 0
-kNumInvertedLags12kHz
+kNumLags12kHz
 )
 .
 The
@@ -619,7 +619,7 @@ as
 pitch_buf
 [
 :
-kNumInvertedLags12kHz
+kNumLags12kHz
 +
 kConvolutionLength
 ]
@@ -642,7 +642,7 @@ begin
 +
 kConvolutionLength
 +
-kNumInvertedLags12kHz
+kNumLags12kHz
 tmp
 .
 begin
@@ -661,7 +661,7 @@ begin
 (
 )
 +
-kNumInvertedLags12kHz
+kNumLags12kHz
 +
 kConvolutionLength
 tmp
@@ -805,7 +805,7 @@ begin
 +
 kConvolutionLength
 +
-kNumInvertedLags12kHz
+kNumLags12kHz
 -
 1
 auto_corr
