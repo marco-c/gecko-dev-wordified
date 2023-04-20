@@ -760,6 +760,15 @@ aRequireHostMatch
 ;
 static
 bool
+CheckHiddenPrefix
+(
+CookieStruct
+&
+aCookieData
+)
+;
+static
+bool
 CheckPath
 (
 CookieStruct
