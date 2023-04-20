@@ -2505,12 +2505,6 @@ aReflowInput
 reflowInput
 )
 ;
-desiredSize
-.
-ClearSize
-(
-)
-;
 /
 /
 Reflow

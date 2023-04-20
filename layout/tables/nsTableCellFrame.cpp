@@ -4819,12 +4819,6 @@ kidSize
 wm
 )
 ;
-kidSize
-.
-ClearSize
-(
-)
-;
 SetPriorAvailISize
 (
 aReflowInput
