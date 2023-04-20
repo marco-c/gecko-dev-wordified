@@ -125,7 +125,7 @@ include
 "
 api
 /
-network_state_predictor
+field_trials_view
 .
 h
 "
@@ -134,9 +134,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+network_state_predictor
 .
 h
 "
@@ -202,7 +200,7 @@ explicit
 TrendlineEstimatorSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -315,7 +313,7 @@ public
 TrendlineEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 NetworkStatePredictor

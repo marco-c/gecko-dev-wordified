@@ -513,7 +513,7 @@ Thread
 *
 network_thread
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

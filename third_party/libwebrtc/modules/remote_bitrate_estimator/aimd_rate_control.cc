@@ -261,7 +261,7 @@ bool
 IsEnabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 absl
@@ -293,7 +293,7 @@ bool
 IsNotDisabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 absl
@@ -326,7 +326,7 @@ double
 ReadBackoffFactor
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 )
@@ -483,7 +483,7 @@ AimdRateControl
 AimdRateControl
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -507,7 +507,7 @@ AimdRateControl
 AimdRateControl
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 bool

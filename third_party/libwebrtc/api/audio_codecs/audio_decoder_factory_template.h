@@ -117,7 +117,7 @@ include
 "
 api
 /
-scoped_refptr
+field_trials_view
 .
 h
 "
@@ -126,7 +126,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+scoped_refptr
 .
 h
 "
@@ -226,7 +226,7 @@ AudioCodecPairId
 >
 codec_pair_id
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -435,7 +435,7 @@ AudioCodecPairId
 >
 codec_pair_id
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -503,7 +503,7 @@ explicit
 AudioDecoderFactoryT
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -622,7 +622,7 @@ field_trials_
 ;
 }
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials_
 ;
@@ -977,7 +977,7 @@ AudioDecoderFactory
 CreateAudioDecoderFactory
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

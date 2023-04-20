@@ -2569,7 +2569,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 allocation_callback_type
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -4071,7 +4071,7 @@ VideoEncoderConfig
 ContentType
 content_type
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -4407,7 +4407,7 @@ TaskQueueDeleter
 >
 encoder_queue
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

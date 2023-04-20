@@ -160,7 +160,7 @@ ReceiveTimeCalculatorConfig
 ReceiveTimeCalculatorConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -275,7 +275,7 @@ ReceiveTimeCalculator
 ReceiveTimeCalculator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -299,7 +299,7 @@ ReceiveTimeCalculator
 CreateFromFieldTrial
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

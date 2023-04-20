@@ -213,7 +213,7 @@ AlrExperimentSettings
 MaxOneFieldTrialEnabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 )
@@ -287,7 +287,7 @@ AlrExperimentSettings
 CreateFromFieldTrial
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 const

@@ -121,7 +121,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -449,7 +449,7 @@ EventWrapper
 >
 event
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

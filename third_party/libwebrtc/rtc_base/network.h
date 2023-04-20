@@ -145,6 +145,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -157,15 +166,6 @@ api
 transport
 /
 field_trial_based_config
-.
-h
-"
-#
-include
-"
-api
-/
-webrtc_key_value_config
 .
 h
 "
@@ -1495,7 +1495,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -1963,7 +1963,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -2010,7 +2010,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -2043,7 +2043,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -2601,7 +2601,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 webrtc
 :
 :
@@ -3963,7 +3963,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -3978,7 +3978,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

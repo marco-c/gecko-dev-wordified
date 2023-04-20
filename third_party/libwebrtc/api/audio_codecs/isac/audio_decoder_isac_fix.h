@@ -150,7 +150,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -274,7 +274,7 @@ absl
 :
 nullopt
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

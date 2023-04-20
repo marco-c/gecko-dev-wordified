@@ -478,7 +478,7 @@ FrameCadenceAdapterInterface
 CreateAdapter
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 Clock

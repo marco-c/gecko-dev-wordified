@@ -221,7 +221,7 @@ bool
 IsTrialSetTo
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 absl

@@ -298,7 +298,7 @@ max_wait_for_keyframe
 TimeDelta
 max_wait_for_frame
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -1090,7 +1090,7 @@ FrameDecodeScheduler
 >
 frame_decode_scheduler
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -2977,7 +2977,7 @@ SequenceChecker
 worker_sequence_checker_
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials_
 ;
@@ -3328,7 +3328,7 @@ FrameBufferArm
 ParseFrameBufferFieldTrial
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -3447,7 +3447,7 @@ DecodeSynchronizer
 *
 decode_sync
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

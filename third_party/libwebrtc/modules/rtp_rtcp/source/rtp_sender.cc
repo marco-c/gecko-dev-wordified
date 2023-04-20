@@ -888,7 +888,7 @@ double
 GetMaxPaddingSizeFactor
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

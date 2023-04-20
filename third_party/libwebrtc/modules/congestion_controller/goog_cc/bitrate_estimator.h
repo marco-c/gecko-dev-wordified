@@ -114,9 +114,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -234,7 +232,7 @@ explicit
 BitrateEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )

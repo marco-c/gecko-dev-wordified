@@ -107,9 +107,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -229,7 +227,7 @@ explicit
 QualityScalerSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config

@@ -3798,7 +3798,7 @@ AndroidNetworkMonitorFactory
 CreateNetworkMonitor
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

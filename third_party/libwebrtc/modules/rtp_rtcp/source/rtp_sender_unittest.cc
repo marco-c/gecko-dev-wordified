@@ -740,7 +740,7 @@ class
 FieldTrialConfig
 :
 public
-WebRtcKeyValueConfig
+FieldTrialsView
 {
 public
 :

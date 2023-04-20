@@ -92,7 +92,7 @@ namespace
 webrtc
 {
 class
-WebRtcKeyValueConfig
+FieldTrialsView
 ;
 }
 /
@@ -187,7 +187,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

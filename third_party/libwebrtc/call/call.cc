@@ -1744,7 +1744,7 @@ const
 override
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 (
@@ -2467,7 +2467,7 @@ trials
 )
 .
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials_
 ;
@@ -8479,7 +8479,7 @@ stats
 ;
 }
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 Call
 :

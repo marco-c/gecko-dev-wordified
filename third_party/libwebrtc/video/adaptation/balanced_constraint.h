@@ -109,7 +109,7 @@ include
 "
 api
 /
-sequence_checker
+field_trials_view
 .
 h
 "
@@ -118,7 +118,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+sequence_checker
 .
 h
 "
@@ -183,7 +183,7 @@ DegradationPreferenceProvider
 *
 degradation_preference_provider
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

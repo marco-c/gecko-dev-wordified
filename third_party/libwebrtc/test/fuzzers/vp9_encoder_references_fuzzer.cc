@@ -139,9 +139,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -1107,7 +1105,7 @@ class
 FieldTrials
 :
 public
-WebRtcKeyValueConfig
+FieldTrialsView
 {
 public
 :

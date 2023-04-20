@@ -93,9 +93,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -143,7 +141,7 @@ StableTargetRateExperiment
 ParseFromKeyValueConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config
@@ -173,7 +171,7 @@ explicit
 StableTargetRateExperiment
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config

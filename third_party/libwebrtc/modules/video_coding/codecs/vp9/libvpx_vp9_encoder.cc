@@ -1667,7 +1667,7 @@ LibvpxInterface
 >
 interface
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -13529,7 +13529,7 @@ LibvpxVp9Encoder
 ParseVariableFramerateConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -13690,7 +13690,7 @@ LibvpxVp9Encoder
 ParseQualityScalerConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -13966,7 +13966,7 @@ LibvpxVp9Encoder
 ParsePerformanceFlagsFromTrials
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )

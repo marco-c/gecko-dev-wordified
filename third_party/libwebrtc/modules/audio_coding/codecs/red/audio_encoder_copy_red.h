@@ -156,9 +156,7 @@ include
 "
 api
 /
-units
-/
-time_delta
+field_trials_view
 .
 h
 "
@@ -167,7 +165,9 @@ include
 "
 api
 /
-webrtc_key_value_config
+units
+/
+time_delta
 .
 h
 "
@@ -305,7 +305,7 @@ Config
 &
 config
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

@@ -476,7 +476,7 @@ bool
 IsEnabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 config
 absl
@@ -509,7 +509,7 @@ bool
 IsNotDisabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 config
 absl

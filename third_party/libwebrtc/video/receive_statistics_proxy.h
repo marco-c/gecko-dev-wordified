@@ -127,7 +127,7 @@ include
 "
 api
 /
-sequence_checker
+field_trials_view
 .
 h
 "
@@ -136,7 +136,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+sequence_checker
 .
 h
 "
@@ -302,7 +302,7 @@ Clock
 *
 clock
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

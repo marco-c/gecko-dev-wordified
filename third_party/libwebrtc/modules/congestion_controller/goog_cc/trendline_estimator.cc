@@ -251,7 +251,7 @@ size_t
 ReadTrendlineFilterWindowSize
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -873,7 +873,7 @@ TrendlineEstimatorSettings
 TrendlineEstimatorSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -1186,7 +1186,7 @@ TrendlineEstimator
 TrendlineEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 NetworkStatePredictor

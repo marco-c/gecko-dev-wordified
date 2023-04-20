@@ -1457,7 +1457,7 @@ VideoStreamEncoderObserver
 *
 encoder_stats_observer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

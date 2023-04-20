@@ -615,7 +615,7 @@ int
 red_payload_type
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

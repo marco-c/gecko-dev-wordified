@@ -124,9 +124,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -285,7 +283,7 @@ LibvpxInterface
 >
 interface
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -1119,7 +1117,7 @@ VariableFramerateExperiment
 ParseVariableFramerateConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -1148,7 +1146,7 @@ QualityScalerExperiment
 ParseQualityScalerConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -1457,7 +1455,7 @@ PerformanceFlags
 ParsePerformanceFlagsFromTrials
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )

@@ -701,7 +701,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -1793,7 +1793,7 @@ packet_sequence_checker_
 )
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials_
 ;

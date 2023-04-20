@@ -407,7 +407,7 @@ TaskQueueFactory
 *
 task_queue_factory
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -828,7 +828,7 @@ explicit
 PacerSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -1341,7 +1341,7 @@ TaskQueue
 task_queue_
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials_
 ;

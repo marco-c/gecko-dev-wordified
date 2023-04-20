@@ -233,7 +233,7 @@ Clock
 *
 clock
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -301,7 +301,7 @@ EventWrapper
 >
 jitter_buffer_event
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

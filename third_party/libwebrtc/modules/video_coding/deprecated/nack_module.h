@@ -129,9 +129,7 @@ include
 "
 api
 /
-units
-/
-time_delta
+field_trials_view
 .
 h
 "
@@ -140,7 +138,9 @@ include
 "
 api
 /
-webrtc_key_value_config
+units
+/
+time_delta
 .
 h
 "
@@ -242,7 +242,7 @@ KeyFrameRequestSender
 *
 keyframe_request_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -432,7 +432,7 @@ BackoffSettings
 ParseFromFieldTrials
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

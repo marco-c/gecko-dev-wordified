@@ -425,7 +425,7 @@ VCMReceiveStatisticsCallback
 *
 stats_callback
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

@@ -566,7 +566,7 @@ bool
 EnableDecodeTimeHistogram
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -613,7 +613,7 @@ Clock
 *
 clock
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

@@ -309,7 +309,7 @@ size_t
 GetMaxRedundancyFromFieldTrial
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -389,7 +389,7 @@ Config
 &
 config
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

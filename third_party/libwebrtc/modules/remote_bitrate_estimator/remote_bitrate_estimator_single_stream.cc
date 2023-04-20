@@ -306,7 +306,7 @@ options
 bool
 enable_burst_grouping
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )

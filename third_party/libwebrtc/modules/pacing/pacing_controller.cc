@@ -337,7 +337,7 @@ bool
 IsDisabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 absl
@@ -369,7 +369,7 @@ bool
 IsEnabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 absl
@@ -401,7 +401,7 @@ TimeDelta
 GetDynamicPaddingTarget
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -685,7 +685,7 @@ PacketSender
 *
 packet_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 ProcessMode

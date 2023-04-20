@@ -188,9 +188,7 @@ include
 "
 api
 /
-task_queue
-/
-queued_task
+field_trials_view
 .
 h
 "
@@ -199,7 +197,9 @@ include
 "
 api
 /
-webrtc_key_value_config
+task_queue
+/
+queued_task
 .
 h
 "
@@ -479,7 +479,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -1006,7 +1006,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -1104,7 +1104,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -4602,7 +4602,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

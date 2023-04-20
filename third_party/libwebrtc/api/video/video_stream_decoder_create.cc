@@ -174,7 +174,7 @@ field
 trials
 .
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

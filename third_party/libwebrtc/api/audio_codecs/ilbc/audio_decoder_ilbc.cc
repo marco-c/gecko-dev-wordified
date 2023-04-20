@@ -269,7 +269,7 @@ codec_pair_id
 *
 /
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

@@ -186,7 +186,7 @@ AlrDetectorConfig
 GetConfigFromTrials
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -402,7 +402,7 @@ AlrDetector
 AlrDetector
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -423,7 +423,7 @@ AlrDetector
 AlrDetector
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 RtcEventLog

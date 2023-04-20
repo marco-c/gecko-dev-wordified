@@ -126,9 +126,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -361,7 +359,7 @@ explicit
 AlrDetector
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -369,7 +367,7 @@ key_value_config
 AlrDetector
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 RtcEventLog

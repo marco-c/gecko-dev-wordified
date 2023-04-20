@@ -116,9 +116,7 @@ include
 "
 api
 /
-transport
-/
-network_control
+field_trials_view
 .
 h
 "
@@ -129,7 +127,7 @@ api
 /
 transport
 /
-webrtc_key_value_config
+network_control
 .
 h
 "
@@ -310,7 +308,7 @@ clock
 TransportFeedbackSender
 feedback_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 NetworkStateEstimator
@@ -509,7 +507,7 @@ explicit
 TransportWideFeedbackConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )

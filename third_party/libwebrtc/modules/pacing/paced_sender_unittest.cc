@@ -306,7 +306,7 @@ class
 ProcessModeTrials
 :
 public
-WebRtcKeyValueConfig
+FieldTrialsView
 {
 public
 :

@@ -934,7 +934,7 @@ RenderResolution
 InitialDecoderResolution
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

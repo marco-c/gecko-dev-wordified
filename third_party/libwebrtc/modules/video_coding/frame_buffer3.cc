@@ -440,7 +440,7 @@ max_size
 int
 max_decode_history
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

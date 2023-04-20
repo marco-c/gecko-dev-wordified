@@ -608,7 +608,7 @@ TransportFeedbackObserver
 *
 feedback_observer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -2963,7 +2963,7 @@ TransportFeedbackObserver
 *
 feedback_observer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -6045,7 +6045,7 @@ TransportFeedbackObserver
 *
 feedback_observer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

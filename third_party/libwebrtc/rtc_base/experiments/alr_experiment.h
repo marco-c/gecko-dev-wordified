@@ -114,9 +114,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -233,7 +231,7 @@ AlrExperimentSettings
 CreateFromFieldTrial
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 const
@@ -253,7 +251,7 @@ bool
 MaxOneFieldTrialEnabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 )

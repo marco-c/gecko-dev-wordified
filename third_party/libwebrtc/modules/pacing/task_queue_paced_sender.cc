@@ -181,7 +181,7 @@ PacketSender
 *
 packet_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 TaskQueueFactory

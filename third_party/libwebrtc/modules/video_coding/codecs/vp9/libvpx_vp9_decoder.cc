@@ -605,7 +605,7 @@ LibvpxVp9Decoder
 LibvpxVp9Decoder
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
