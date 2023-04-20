@@ -3925,7 +3925,7 @@ AllowedMask
 ;
 enum
 class
-FieldExtension
+FieldWideningOp
 {
 None
 Signed

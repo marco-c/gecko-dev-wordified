@@ -1007,7 +1007,7 @@ compiler
 predicate
 *
 /
-BaselineAvailable
+AnyCompilerAvailable
 (
 cx
 )
