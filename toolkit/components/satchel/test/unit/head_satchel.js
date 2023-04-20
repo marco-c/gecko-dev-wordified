@@ -1012,7 +1012,15 @@ copy
 *
 param
 {
-Object
+object
+}
+[
+options
+]
+*
+param
+{
+object
 }
 [
 options

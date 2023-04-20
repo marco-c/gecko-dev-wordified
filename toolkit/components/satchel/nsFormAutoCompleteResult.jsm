@@ -426,6 +426,7 @@ Retrieves
 a
 result
 *
+*
 param
 {
 number
@@ -518,6 +519,7 @@ metadata
 instance
 )
 *
+*
 param
 {
 number
@@ -532,7 +534,7 @@ requested
 *
 returns
 {
-Object
+object
 }
 the
 comment
@@ -579,6 +581,7 @@ a
 particular
 index
 .
+*
 *
 param
 {
@@ -690,6 +693,7 @@ image
 url
 .
 *
+*
 param
 {
 number
@@ -740,6 +744,7 @@ return
 Retrieves
 a
 result
+*
 *
 param
 {
@@ -794,6 +799,7 @@ given
 index
 is
 removable
+*
 *
 param
 {
@@ -853,6 +859,7 @@ result
 from
 the
 resultset
+*
 *
 param
 {

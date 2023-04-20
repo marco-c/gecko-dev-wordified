@@ -233,7 +233,7 @@ client
 *
 param
 {
-Object
+object
 }
 clientInfo
 *
@@ -498,7 +498,7 @@ getAutoCompleteResults
 *
 param
 {
-Object
+object
 }
 params
 *
@@ -517,7 +517,7 @@ getAutoCompleteResults
 *
 param
 {
-function
+Function
 }
 callback
 *

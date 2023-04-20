@@ -88,7 +88,6 @@ for
 Bug
 472396
 *
-*
 /
 add_task
 (
