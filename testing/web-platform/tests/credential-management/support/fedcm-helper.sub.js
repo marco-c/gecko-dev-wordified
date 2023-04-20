@@ -401,6 +401,7 @@ function
 fedcm_test
 (
 test_func
+test_name
 )
 {
 promise_test
@@ -427,6 +428,7 @@ t
 )
 ;
 }
+test_name
 )
 ;
 }
