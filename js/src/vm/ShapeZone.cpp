@@ -956,6 +956,12 @@ proto
 shape
 -
 >
+recGroup
+(
+)
+shape
+-
+>
 objectFlags
 (
 )

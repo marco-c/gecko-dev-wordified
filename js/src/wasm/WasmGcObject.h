@@ -1072,6 +1072,13 @@ create
 JSContext
 *
 cx
+const
+wasm
+:
+:
+TypeDef
+*
+typeDef
 gc
 :
 :

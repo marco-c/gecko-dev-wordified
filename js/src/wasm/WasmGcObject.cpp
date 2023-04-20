@@ -2202,6 +2202,13 @@ create
 JSContext
 *
 cx
+const
+wasm
+:
+:
+TypeDef
+*
+typeDef
 js
 :
 :
@@ -2289,6 +2296,13 @@ realm
 (
 )
 TaggedProto
+(
+)
+&
+typeDef
+-
+>
+recGroup
 (
 )
 ObjectFlags
