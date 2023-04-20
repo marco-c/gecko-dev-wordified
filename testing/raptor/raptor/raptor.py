@@ -137,26 +137,16 @@ build
 =
 None
 from
-mozlog
-import
-commandline
-from
-mozprofile
-.
-cli
-import
-parse_preferences
-parse_key_value
-from
 browsertime
 import
-BrowsertimeDesktop
 BrowsertimeAndroid
+BrowsertimeDesktop
 from
 cmdline
 import
-parse_args
 CHROMIUM_DISTROS
+DESKTOP_APPS
+parse_args
 from
 logger
 .
@@ -167,6 +157,17 @@ from
 manifest
 import
 get_raptor_test_list
+from
+mozlog
+import
+commandline
+from
+mozprofile
+.
+cli
+import
+parse_key_value
+parse_preferences
 from
 signal_handler
 import
@@ -180,11 +181,11 @@ webextension
 import
 (
     
-WebExtensionFirefox
+WebExtensionAndroid
     
 WebExtensionDesktopChrome
     
-WebExtensionAndroid
+WebExtensionFirefox
 )
 LOG
 =
@@ -629,17 +630,8 @@ if
 args
 .
 app
-=
-=
-"
-firefox
-"
-or
-args
-.
-app
 in
-CHROMIUM_DISTROS
+DESKTOP_APPS
 :
                 
 klass

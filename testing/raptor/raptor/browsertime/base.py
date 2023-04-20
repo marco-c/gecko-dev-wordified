@@ -540,6 +540,15 @@ build_browser_profile
 (
 )
         
+if
+self
+.
+profile
+is
+not
+None
+:
+            
 self
 .
 remove_mozprofile_delimiters_from_profile
@@ -2813,11 +2822,20 @@ test
             
 )
         
+if
+self
+.
+profile
+is
+not
+None
+:
+            
 priority1_options
 .
 extend
 (
-            
+                
 [
 "
 -
@@ -2835,7 +2853,7 @@ profile
 profile
 )
 ]
-        
+            
 )
         
 #
