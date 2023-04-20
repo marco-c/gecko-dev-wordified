@@ -219,13 +219,6 @@ h
 #
 include
 "
-nsStackLayout
-.
-h
-"
-#
-include
-"
 nsIAnonymousContentCreator
 .
 h

@@ -3412,11 +3412,8 @@ showTab
 ;
 tabpanels
 .
-setAttribute
+updateSelectedIndex
 (
-"
-selectedIndex
-"
 index
 )
 ;

@@ -151,7 +151,7 @@ ui
 :
 :
 {
-MozForceBrokenImageIcon
+BoolInteger
 UserSelect
 }
 ;
