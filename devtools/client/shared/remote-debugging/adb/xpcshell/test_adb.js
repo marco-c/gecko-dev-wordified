@@ -511,7 +511,7 @@ extension_version
 toString
 (
 )
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -594,7 +594,7 @@ extension_version
 toString
 (
 )
-applications
+browser_specific_settings
 :
 {
 /
@@ -695,7 +695,7 @@ extension_version
 toString
 (
 )
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -792,7 +792,7 @@ extension_version
 toString
 (
 )
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -979,7 +979,7 @@ extension_version
 toString
 (
 )
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1291,7 +1291,7 @@ extension_version
 toString
 (
 )
-applications
+browser_specific_settings
 :
 {
 gecko

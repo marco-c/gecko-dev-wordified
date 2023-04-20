@@ -565,7 +565,7 @@ extension
 .
 html
 "
-applications
+browser_specific_settings
 :
 {
 gecko
