@@ -326,6 +326,11 @@ ProtocolUtilsFwd
 h
 "
 "
+RandomAccessStreamUtils
+.
+h
+"
+"
 ScopedPort
 .
 h
@@ -988,6 +993,11 @@ ProtocolUtils
 cpp
 "
 "
+RandomAccessStreamUtils
+.
+cpp
+"
+"
 ScopedPort
 .
 cpp
@@ -1249,6 +1259,11 @@ ipdl
 "
 "
 ProtocolTypes
+.
+ipdlh
+"
+"
+RandomAccessStreamParams
 .
 ipdlh
 "

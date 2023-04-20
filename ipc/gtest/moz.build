@@ -111,6 +111,11 @@ TestLogging
 cpp
 "
 "
+TestRandomAccessStreamUtils
+.
+cpp
+"
+"
 TestSharedMemory
 .
 cpp
