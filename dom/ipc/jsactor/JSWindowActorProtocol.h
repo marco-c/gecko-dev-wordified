@@ -472,7 +472,7 @@ aName
 extensions
 :
 :
-MatchPatternSet
+MatchPatternSetCore
 *
 GetURIMatcher
 (
@@ -548,7 +548,7 @@ RefPtr
 extensions
 :
 :
-MatchPatternSet
+MatchPatternSetCore
 >
 mURIMatcher
 ;
