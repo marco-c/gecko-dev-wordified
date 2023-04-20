@@ -40,6 +40,16 @@ helper
 destination
 )
 {
+info
+(
+changeRangeTo
+(
+{
+destination
+}
+)
+)
+;
 let
 rangeSelect
 =

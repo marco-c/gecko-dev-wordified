@@ -1765,10 +1765,11 @@ rowName
 '
 )
 ;
-menuDeleteItem
+contextMenu
 .
-click
+activateItem
 (
+menuDeleteItem
 )
 ;
 const

@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsMenuFrame
-.
-h
-"
-#
-include
-"
 nsRangeFrame
 .
 h

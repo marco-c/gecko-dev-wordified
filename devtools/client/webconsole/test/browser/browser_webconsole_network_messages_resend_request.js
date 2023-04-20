@@ -284,10 +284,11 @@ the
 resent
 request
 url
-openResendRequestMenuItem
+menuPopup
 .
-click
+activateItem
 (
+openResendRequestMenuItem
 )
 ;
 await
