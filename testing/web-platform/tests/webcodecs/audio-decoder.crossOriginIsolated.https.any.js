@@ -117,6 +117,17 @@ is
 not
 supported
 .
+assert_equals
+(
+"
+function
+"
+typeof
+AudioDecoder
+.
+isConfigSupported
+)
+;
 let
 supported
 =

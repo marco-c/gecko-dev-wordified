@@ -1009,6 +1009,17 @@ is
 not
 supported
 .
+assert_equals
+(
+"
+function
+"
+typeof
+VideoDecoder
+.
+isConfigSupported
+)
+;
 let
 supported
 =
