@@ -3851,6 +3851,8 @@ areaNode
 getAttribute
 (
 "
+default
+-
 overflowtarget
 "
 )
