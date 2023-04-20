@@ -135,6 +135,16 @@ xpcom
 ds
 "
 ]
+EXPORTS
++
+=
+[
+"
+nsStringBundle
+.
+h
+"
+]
 include
 (
 "
