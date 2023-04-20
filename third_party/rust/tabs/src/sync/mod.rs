@@ -157,7 +157,7 @@ crate
 error
 :
 :
-Result
+ApiResult
 <
 (
 )
@@ -166,7 +166,7 @@ Result
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -186,11 +186,13 @@ crate
 error
 :
 :
-TabsError
+TabsApiError
 :
 :
-SyncAdapterError
-(
+SyncError
+{
+reason
+:
 "
 reset
 "
@@ -198,7 +200,7 @@ reset
 to_string
 (
 )
-)
+}
 )
 }
 pub
@@ -241,7 +243,7 @@ crate
 error
 :
 :
-Result
+ApiResult
 <
 String
 >
@@ -249,7 +251,7 @@ String
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -269,11 +271,13 @@ crate
 error
 :
 :
-TabsError
+TabsApiError
 :
 :
-SyncAdapterError
-(
+SyncError
+{
+reason
+:
 "
 sync
 "
@@ -281,7 +285,7 @@ sync
 to_string
 (
 )
-)
+}
 )
 }
 }
