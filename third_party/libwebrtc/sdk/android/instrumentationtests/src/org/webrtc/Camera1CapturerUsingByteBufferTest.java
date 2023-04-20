@@ -104,9 +104,7 @@ test
 InstrumentationRegistry
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -115,9 +113,7 @@ filters
 LargeTest
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -126,9 +122,7 @@ filters
 MediumTest
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .

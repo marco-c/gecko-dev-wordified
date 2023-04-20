@@ -125,9 +125,7 @@ opengl
 GLES20
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -136,9 +134,7 @@ filters
 MediumTest
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .

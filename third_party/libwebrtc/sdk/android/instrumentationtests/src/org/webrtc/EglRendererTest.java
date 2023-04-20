@@ -185,9 +185,7 @@ test
 InstrumentationRegistry
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .

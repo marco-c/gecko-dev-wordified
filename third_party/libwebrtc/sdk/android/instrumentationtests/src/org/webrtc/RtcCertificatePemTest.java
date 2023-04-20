@@ -102,9 +102,7 @@ Truth
 assertThat
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
