@@ -627,6 +627,10 @@ pureos
 "
 deepin
 "
+    
+"
+tuxedo
+"
 )
 ADD_GIT_CINNABAR_PATH
 =
