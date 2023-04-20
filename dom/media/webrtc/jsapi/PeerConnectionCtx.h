@@ -77,7 +77,7 @@ include
 "
 api
 /
-scoped_refptr
+field_trials_view
 .
 h
 "
@@ -86,9 +86,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+scoped_refptr
 .
 h
 "
@@ -177,7 +175,7 @@ class
 NoTrialsConfig
 :
 public
-WebRtcKeyValueConfig
+FieldTrialsView
 {
 public
 :
@@ -304,7 +302,7 @@ UniquePtr
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 >
 aTrials
 )
@@ -466,7 +464,7 @@ UniquePtr
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 >
 mTrials
 ;
