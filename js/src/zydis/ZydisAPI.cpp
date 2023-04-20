@@ -406,12 +406,12 @@ instruction
 #
 define
 LIMIT
-36
+48
 #
 define
 LIMSTR
 "
-36
+48
 "
 /
 /
