@@ -28165,10 +28165,6 @@ parameters
 .
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )
@@ -29856,10 +29852,6 @@ priority
 .
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )
@@ -32371,10 +32363,6 @@ priority
 .
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )
@@ -33454,10 +33442,6 @@ connection
 .
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )

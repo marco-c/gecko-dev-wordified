@@ -1079,6 +1079,11 @@ IsLegacy
 )
 const
 ;
+[
+[
+deprecated
+]
+]
 void
 SetType
 (

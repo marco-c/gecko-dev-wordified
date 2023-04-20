@@ -11430,11 +11430,14 @@ Section
 .
 1
 .
+RTC_DCHECK_EQ
+(
 message
 -
 >
-SetType
+type
 (
+)
 TURN_CREATE_PERMISSION_REQUEST
 )
 ;
