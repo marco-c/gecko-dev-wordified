@@ -306,7 +306,7 @@ class
 VideoReceiveStream
 :
 public
-MediaReceiveStream
+MediaReceiveStreamInterface
 {
 public
 :

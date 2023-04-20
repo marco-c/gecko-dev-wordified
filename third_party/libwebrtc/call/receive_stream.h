@@ -169,7 +169,7 @@ Common
 base
 interface
 for
-MediaReceiveStream
+MediaReceiveStreamInterface
 based
 classes
 and
@@ -619,7 +619,7 @@ receive
 stream
 .
 class
-MediaReceiveStream
+MediaReceiveStreamInterface
 :
 public
 ReceiveStreamInterface
