@@ -3113,10 +3113,6 @@ FontStyle
 "
                 
 "
-FontStyleAdjust
-"
-                
-"
 FontSynthesis
 "
                 
