@@ -3578,6 +3578,11 @@ use_differentiated_cellular_costs_
 =
 false
 ;
+bool
+add_network_cost_to_vpn_
+=
+false
+;
 NetworkPreference
 network_preference_
 =
