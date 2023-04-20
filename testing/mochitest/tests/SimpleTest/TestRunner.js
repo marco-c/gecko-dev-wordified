@@ -1789,7 +1789,9 @@ callback
 for
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 TestRunner
 .
 _dumpMessage
@@ -2006,7 +2008,9 @@ modules
 /
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 TestRunner
 .
 structuredLogger
