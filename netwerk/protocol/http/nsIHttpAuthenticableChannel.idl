@@ -117,7 +117,6 @@ interface
 nsIInterfaceRequestor
 ;
 [
-builtinclass
 uuid
 (
 701093ac

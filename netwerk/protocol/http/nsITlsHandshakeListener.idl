@@ -99,7 +99,6 @@ nsISupports
 idl
 "
 [
-builtinclass
 uuid
 (
 b4bbe824
