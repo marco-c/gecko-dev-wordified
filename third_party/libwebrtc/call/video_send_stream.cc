@@ -435,6 +435,11 @@ max_delay_ms
 "
 "
 ;
+if
+(
+report_block_data
+)
+{
 ss
 <
 <
@@ -444,7 +449,12 @@ cum_loss
 "
 <
 <
-rtcp_stats
+report_block_data
+-
+>
+report_block
+(
+)
 .
 packets_lost
 <
@@ -461,7 +471,12 @@ max_ext_seq
 "
 <
 <
-rtcp_stats
+report_block_data
+-
+>
+report_block
+(
+)
 .
 extended_highest_sequence_number
 <
@@ -469,6 +484,7 @@ extended_highest_sequence_number
 "
 "
 ;
+}
 ss
 <
 <

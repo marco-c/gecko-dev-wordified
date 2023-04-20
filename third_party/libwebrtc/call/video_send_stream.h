@@ -633,9 +633,6 @@ rtp_stats
 RtcpPacketTypeCounter
 rtcp_packet_type_counts
 ;
-RtcpStatistics
-rtcp_stats
-;
 /
 /
 A
