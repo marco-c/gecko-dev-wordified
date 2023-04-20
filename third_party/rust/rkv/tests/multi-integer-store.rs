@@ -190,7 +190,7 @@ rkv
 backend
 :
 :
-SafeMode
+Lmdb
 PrimitiveInt
 Rkv
 StoreOptions
@@ -264,7 +264,7 @@ new
 :
 :
 <
-SafeMode
+Lmdb
 >
 (
 root

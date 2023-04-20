@@ -354,7 +354,6 @@ _
 )
 =
 >
-{
 write
 !
 (
@@ -367,7 +366,6 @@ mode
 )
 "
 )
-}
 ErrorImpl
 :
 :
@@ -511,7 +509,6 @@ path
 )
 =
 >
-{
 StoreError
 :
 :
@@ -519,7 +516,6 @@ UnsuitableEnvironmentPath
 (
 path
 )
-}
 ErrorImpl
 :
 :

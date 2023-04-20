@@ -595,7 +595,7 @@ new
 backend
 :
 :
-SafeMode
+Lmdb
 >
 (
 root
@@ -895,7 +895,7 @@ new
 backend
 :
 :
-SafeMode
+Lmdb
 >
 (
 root
@@ -1351,7 +1351,7 @@ new
 backend
 :
 :
-SafeMode
+Lmdb
 >
 (
 root
@@ -1783,7 +1783,7 @@ new
 backend
 :
 :
-SafeMode
+Lmdb
 >
 (
 root
@@ -2349,7 +2349,7 @@ new
 backend
 :
 :
-SafeMode
+Lmdb
 >
 (
 root
@@ -2620,7 +2620,7 @@ new
 backend
 :
 :
-SafeMode
+Lmdb
 >
 (
 root
@@ -2850,7 +2850,7 @@ new
 backend
 :
 :
-SafeMode
+Lmdb
 >
 (
 root
