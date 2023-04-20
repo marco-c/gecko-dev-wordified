@@ -2970,7 +2970,7 @@ properties
 }
 additionalProperties
 :
-false
+true
 }
 ;
 for
