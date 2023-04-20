@@ -1947,7 +1947,7 @@ is_good
 (
 )
 {
-cubeb_log
+cubeb_alog
 !
 (
 "
@@ -3562,7 +3562,7 @@ get_buffer_attr
 (
 )
 ;
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -3625,7 +3625,7 @@ get_buffer_attr
 (
 )
 ;
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -4173,7 +4173,7 @@ place
 wait
 to
 finish
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -4215,7 +4215,7 @@ wait
 )
 ;
 }
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -6658,7 +6658,7 @@ mut
 c_void
 )
 {
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -6888,7 +6888,7 @@ frame_size
 0
 )
 ;
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -6930,6 +6930,26 @@ read_offset
 )
 }
 ;
+#
+[
+cfg_attr
+(
+feature
+=
+"
+cargo
+-
+clippy
+"
+allow
+(
+clippy
+:
+:
+unnecessary_cast
+)
+)
+]
 let
 mut
 got
@@ -7377,7 +7397,7 @@ i64
 }
 else
 {
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -7422,7 +7442,7 @@ Relative
 if
 should_drain
 {
-cubeb_alogv
+cubeb_logv
 !
 (
 "
