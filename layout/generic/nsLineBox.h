@@ -1736,8 +1736,7 @@ HasBreakAfter
 const
 {
 return
-!
-IsBlock
+IsInline
 (
 )
 &
@@ -1762,8 +1761,7 @@ aBreakType
 {
 MOZ_ASSERT
 (
-!
-IsBlock
+IsInline
 (
 )
 "
@@ -1790,8 +1788,7 @@ HasFloatBreakAfter
 const
 {
 return
-!
-IsBlock
+IsInline
 (
 )
 &
@@ -1838,8 +1835,7 @@ GetBreakTypeAfter
 const
 {
 return
-!
-IsBlock
+IsInline
 (
 )
 ?
