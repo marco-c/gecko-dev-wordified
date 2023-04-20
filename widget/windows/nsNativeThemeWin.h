@@ -830,6 +830,13 @@ LayoutDeviceIntSize
 aResult
 )
 ;
+SIZE
+GetCachedGutterSize
+(
+HANDLE
+theme
+)
+;
 private
 :
 TimeStamp
@@ -1001,6 +1008,12 @@ eUXNumClasses
 *
 THEME_PART_DISTINCT_VALUE_COUNT
 ]
+;
+bool
+mGutterSizeCacheValid
+;
+SIZE
+mGutterSizeCache
 ;
 }
 ;
