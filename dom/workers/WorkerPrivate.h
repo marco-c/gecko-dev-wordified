@@ -4040,7 +4040,7 @@ EvictFromBFCache
 ;
 nsIContentSecurityPolicy
 *
-GetCSP
+GetCsp
 (
 )
 const
@@ -4056,7 +4056,7 @@ mCSP
 ;
 }
 void
-SetCSP
+SetCsp
 (
 nsIContentSecurityPolicy
 *

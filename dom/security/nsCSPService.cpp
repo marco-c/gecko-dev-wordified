@@ -1269,7 +1269,7 @@ then
 loadinfo
 -
 >
-GetCSP
+GetCsp
 (
 )
 returns

@@ -1261,7 +1261,7 @@ querying
 loadinfo
 -
 >
-GetCSP
+GetCsp
 (
 )
 from

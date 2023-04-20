@@ -23255,7 +23255,7 @@ because
 LoadInfo
 :
 :
-GetCSP
+GetCsp
 (
 )
 queries

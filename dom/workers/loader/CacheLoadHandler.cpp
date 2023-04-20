@@ -3899,12 +3899,12 @@ Private
 )
 -
 >
-SetCSP
+SetCsp
 (
 parent
 -
 >
-GetCSP
+GetCsp
 (
 )
 )

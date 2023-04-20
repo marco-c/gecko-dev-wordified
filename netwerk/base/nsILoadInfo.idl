@@ -8656,7 +8656,7 @@ non
 -
 navigation
 loads
-GetCSP
+GetCsp
 (
 )
 returns
@@ -8704,7 +8704,7 @@ image
 load
 )
 then
-GetCSP
+GetCsp
 (
 )
 or
@@ -8833,7 +8833,7 @@ loads
 (
 navigations
 )
-GetCSP
+GetCsp
 (
 )
 will
@@ -8933,7 +8933,7 @@ loads
 (
 navigations
 )
-GetCSP
+GetCsp
 (
 )
 will

@@ -5509,7 +5509,7 @@ csp
 handler
 -
 >
-GetCSP
+GetCsp
 (
 dragEvent
 getter_AddRefs
