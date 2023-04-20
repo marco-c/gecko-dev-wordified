@@ -34536,9 +34536,10 @@ Top
 :
 nullptr
 ;
-bool
-oldIsPrinting
-=
+if
+(
+NS_WARN_IF
+(
 top
 &
 &
@@ -34548,7 +34549,12 @@ top
 GetIsPrinting
 (
 )
+)
+)
+{
+return
 ;
+}
 if
 (
 top
@@ -34588,7 +34594,7 @@ top
 >
 SetIsPrinting
 (
-oldIsPrinting
+false
 )
 ;
 }
