@@ -239,6 +239,18 @@ h
 /
 *
 *
+*
+\
+addtogroup
+spa_buffer
+*
+\
+{
+*
+/
+/
+*
+*
 information
 about
 the
@@ -1658,9 +1670,9 @@ info
 to
 create
 a
+struct
 \
 ref
-struct
 spa_buffer
 into
 *
@@ -1719,9 +1731,9 @@ memory
 to
 hold
 the
+struct
 \
 ref
-struct
 spa_buffer
 and
 the
@@ -1749,9 +1761,9 @@ memory
 \
 return
 a
+struct
 \
 ref
-struct
 spa_buffer
 in
 \
@@ -1825,7 +1837,7 @@ b
 >
 metas
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 b
 sizeof
@@ -1852,7 +1864,7 @@ b
 >
 datas
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 b
 -
@@ -1874,7 +1886,7 @@ spa_data
 ;
 skel
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 b
 -
@@ -1973,7 +1985,7 @@ dp
 *
 dp
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 *
 dp
@@ -2025,7 +2037,7 @@ skel
 ;
 skel
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 skel
 size
@@ -2046,7 +2058,7 @@ data
 ;
 data
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 data
 size
@@ -2171,7 +2183,7 @@ dp
 *
 dp
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 *
 dp
@@ -2282,7 +2294,7 @@ create
 *
 \
 param
-buffer
+buffers
 a
 array
 with
@@ -2302,9 +2314,9 @@ skel_mem
 memory
 for
 the
+struct
 \
 ref
-struct
 spa_buffer
 *
 \
@@ -2394,7 +2406,7 @@ data_mem
 ;
 skel_mem
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 skel_mem
 info
@@ -2406,7 +2418,7 @@ void
 ;
 data_mem
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 data_mem
 info
@@ -2540,9 +2552,9 @@ a
 n_buffers
 pointers
 to
+struct
 \
 ref
-struct
 spa_buffer
 *
 with
@@ -2668,7 +2680,7 @@ NULL
 ;
 skel
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 buffers
 sizeof
@@ -2707,6 +2719,14 @@ return
 buffers
 ;
 }
+/
+*
+*
+*
+\
+}
+*
+/
 #
 ifdef
 __cplusplus

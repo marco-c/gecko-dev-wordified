@@ -291,7 +291,7 @@ pw_get_headers_version
 .
 3
 .
-13
+52
 "
 )
 /
@@ -431,7 +431,7 @@ since
 #
 define
 PW_MICRO
-13
+52
 /
 *
 *
@@ -534,6 +534,6 @@ endif
 endif
 /
 *
-PIPEWIRE_VERION_H
+PIPEWIRE_VERSION_H
 *
 /
