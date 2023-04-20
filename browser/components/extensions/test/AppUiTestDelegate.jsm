@@ -727,6 +727,8 @@ widget
 .
 node
 .
+firstElementChild
+.
 click
 (
 )

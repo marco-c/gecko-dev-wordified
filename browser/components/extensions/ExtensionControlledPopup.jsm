@@ -2387,6 +2387,8 @@ win
 )
 .
 node
+.
+firstElementChild
 ;
 }
 /

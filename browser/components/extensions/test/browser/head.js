@@ -2060,6 +2060,8 @@ win
 )
 .
 node
+.
+firstElementChild
 ;
 if
 (

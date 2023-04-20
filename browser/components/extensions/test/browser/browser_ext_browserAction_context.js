@@ -977,7 +977,7 @@ action
 ;
 }
 let
-button
+node
 =
 document
 .
@@ -985,6 +985,13 @@ getElementById
 (
 browserActionId
 )
+;
+let
+button
+=
+node
+.
+firstElementChild
 ;
 ok
 (
@@ -1087,7 +1094,7 @@ correct
 ;
 is
 (
-button
+node
 .
 getAttribute
 (
@@ -3461,6 +3468,8 @@ node
 ;
 return
 widget
+.
+firstElementChild
 .
 badgeLabel
 ;

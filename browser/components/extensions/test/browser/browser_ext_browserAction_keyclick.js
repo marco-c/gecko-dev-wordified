@@ -402,6 +402,8 @@ focusButtonAndPressKeyWithDelay
 "
 "
 elem
+.
+firstElementChild
 {
 }
 )

@@ -897,6 +897,8 @@ getElementById
 (
 browserActionId
 )
+.
+firstElementChild
 ;
 let
 image

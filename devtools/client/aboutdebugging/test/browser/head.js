@@ -3546,6 +3546,8 @@ popup
 ;
 browserActionEl
 .
+firstElementChild
+.
 click
 (
 )
