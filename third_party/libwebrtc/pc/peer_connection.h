@@ -2626,7 +2626,8 @@ signaling_thread
 ;
 return
 sdp_handler_
-.
+-
+>
 signaling_state
 (
 )
@@ -5092,7 +5093,17 @@ offers
 and
 answers
 .
+Const
+after
+initialization
+.
+std
+:
+:
+unique_ptr
+<
 SdpOfferAnswerHandler
+>
 sdp_handler_
 RTC_GUARDED_BY
 (
