@@ -1991,6 +1991,16 @@ static
 bool
 ShouldResistFingerprinting
 (
+const
+Document
+*
+aDoc
+)
+;
+static
+bool
+ShouldResistFingerprinting
+(
 nsIChannel
 *
 aChannel
