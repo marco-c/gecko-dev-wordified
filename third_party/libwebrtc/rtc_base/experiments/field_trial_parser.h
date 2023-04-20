@@ -597,7 +597,6 @@ return
 value_
 ;
 }
-explicit
 operator
 T
 (

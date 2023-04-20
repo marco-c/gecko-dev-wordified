@@ -1181,15 +1181,9 @@ DataRate
 :
 BitsPerSec
 (
-static_cast
-<
-double
->
-(
 send_config_
 .
 bandwidth_fraction
-)
 *
 bitrate_bps
 )
