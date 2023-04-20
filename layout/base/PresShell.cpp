@@ -41231,9 +41231,6 @@ if
 listID
 =
 =
-nsIFrame
-:
-:
 kPopupList
 )
 {
@@ -77534,9 +77531,6 @@ rootFrame
 >
 GetChildList
 (
-nsIFrame
-:
-:
 kFixedList
 )
 ;

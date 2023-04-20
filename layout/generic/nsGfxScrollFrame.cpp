@@ -9355,9 +9355,6 @@ if
 listID
 =
 =
-nsIFrame
-:
-:
 kPopupList
 )
 {
@@ -19575,9 +19572,6 @@ if
 listID
 =
 =
-nsIFrame
-:
-:
 kPopupList
 )
 {
@@ -37472,9 +37466,6 @@ aViewportFrame
 >
 GetChildList
 (
-nsIFrame
-:
-:
 kFixedList
 )
 )
@@ -48164,9 +48155,6 @@ parentFrame
 >
 GetChildList
 (
-nsIFrame
-:
-:
 kFixedList
 )
 .

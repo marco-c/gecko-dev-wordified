@@ -683,11 +683,7 @@ aView
 }
 private
 :
-virtual
 mozilla
-:
-:
-layout
 :
 :
 FrameChildListID
