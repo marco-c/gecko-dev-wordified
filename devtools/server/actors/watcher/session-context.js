@@ -1491,6 +1491,15 @@ WEBSOCKET
 ]
 :
 isTabOrWebExtensionToolbox
+[
+Resources
+.
+TYPES
+.
+LAST_PRIVATE_CONTEXT_EXIT
+]
+:
+true
 }
 ;
 }
