@@ -538,12 +538,6 @@ MaxParallelWorkers
 =
 8
 ;
-extern
-size_t
-ParallelWorkerCount
-(
-)
-;
 /
 /
 An
