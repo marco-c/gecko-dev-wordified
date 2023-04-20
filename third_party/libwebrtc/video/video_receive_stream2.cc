@@ -2080,7 +2080,13 @@ if
 (
 decoders_count
 <
+static_cast
+<
+int
+>
+(
 maximum_pre_stream_decoders_
+)
 )
 {
 CreateAndRegisterExternalDecoder
