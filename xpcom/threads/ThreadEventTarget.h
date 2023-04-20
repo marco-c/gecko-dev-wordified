@@ -205,8 +205,6 @@ ThreadTargetSink
 aSink
 bool
 aIsMainThread
-bool
-aBlockDispatch
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -357,16 +355,11 @@ mSink
 #
 ifdef
 DEBUG
-const
 bool
 mIsMainThread
 ;
 #
 endif
-const
-bool
-mBlockDispatch
-;
 }
 ;
 }
