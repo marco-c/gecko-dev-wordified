@@ -93,7 +93,7 @@ define
 API_UNITS_FREQUENCY_H_
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 #
 include
 <
@@ -116,7 +116,7 @@ webrtc
 endif
 /
 /
-UNIT_TEST
+WEBRTC_UNIT_TEST
 #
 include
 <
@@ -612,7 +612,7 @@ value
 }
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 inline
 std
 :
@@ -673,7 +673,7 @@ value
 endif
 /
 /
-UNIT_TEST
+WEBRTC_UNIT_TEST
 }
 /
 /

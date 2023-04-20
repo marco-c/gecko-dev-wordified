@@ -90,7 +90,7 @@ define
 API_RTC_ERROR_H_
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 #
 include
 <
@@ -100,7 +100,7 @@ ostream
 endif
 /
 /
-UNIT_TEST
+WEBRTC_UNIT_TEST
 #
 include
 <
@@ -1049,7 +1049,7 @@ error
 ;
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 inline
 std
 :
@@ -1166,7 +1166,7 @@ error
 endif
 /
 /
-UNIT_TEST
+WEBRTC_UNIT_TEST
 /
 /
 Helper

@@ -95,7 +95,7 @@ string
 >
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 #
 include
 <
@@ -118,7 +118,7 @@ webrtc
 endif
 /
 /
-UNIT_TEST
+WEBRTC_UNIT_TEST
 #
 include
 "
@@ -1016,7 +1016,7 @@ str
 ;
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 inline
 std
 :
@@ -1084,7 +1084,7 @@ port
 endif
 /
 /
-UNIT_TEST
+WEBRTC_UNIT_TEST
 /
 /
 Determines

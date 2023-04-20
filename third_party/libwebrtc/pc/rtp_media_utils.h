@@ -281,7 +281,7 @@ rhs
 ;
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 inline
 std
 :
@@ -342,7 +342,7 @@ direction
 endif
 /
 /
-UNIT_TEST
+WEBRTC_UNIT_TEST
 }
 /
 /
