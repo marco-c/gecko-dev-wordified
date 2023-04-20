@@ -3314,7 +3314,7 @@ arm
 FrameBufferArm
 :
 :
-kFrameBuffer2
+kFrameBuffer3
 {
 {
 "
