@@ -423,13 +423,6 @@ aBoxLayoutState
 override
 ;
 virtual
-int32_t
-GetXULFlex
-(
-)
-override
-;
-virtual
 nscoord
 GetXULBoxAscent
 (
@@ -1124,9 +1117,6 @@ mMinSize
 ;
 nsSize
 mMaxSize
-;
-nscoord
-mFlex
 ;
 nscoord
 mAscent
