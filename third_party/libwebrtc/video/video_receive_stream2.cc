@@ -1855,6 +1855,7 @@ Millis
 (
 max_wait_for_frame_ms_
 )
+nullptr
 )
 ;
 if

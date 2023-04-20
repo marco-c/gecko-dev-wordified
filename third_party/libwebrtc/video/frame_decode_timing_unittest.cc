@@ -497,7 +497,7 @@ FrameDecodeTiming
 FrameSchedule
 :
 :
-max_decode_time
+latest_decode_time
 Eq
 (
 clock_
@@ -648,7 +648,7 @@ FrameDecodeTiming
 FrameSchedule
 :
 :
-max_decode_time
+latest_decode_time
 Eq
 (
 clock_
