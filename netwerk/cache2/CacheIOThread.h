@@ -148,8 +148,6 @@ specific
 information
 needed
 to
-watch
-and
 /
 /
 cancel
@@ -182,7 +180,7 @@ definition
 conflicts
 .
 class
-BlockingIOWatcher
+NativeThreadHandle
 ;
 }
 /
@@ -735,9 +733,9 @@ UniquePtr
 detail
 :
 :
-BlockingIOWatcher
+NativeThreadHandle
 >
-mBlockingIOWatcher
+mNativeThreadHandle
 ;
 Atomic
 <
