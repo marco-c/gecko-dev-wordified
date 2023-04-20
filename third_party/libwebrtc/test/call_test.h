@@ -627,7 +627,7 @@ send_config
 void
 SetReceiveUlpFecConfig
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -704,7 +704,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1160,7 +1160,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1172,7 +1172,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 video_receive_streams_
@@ -1640,7 +1640,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1689,7 +1689,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &

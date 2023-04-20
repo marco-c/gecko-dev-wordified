@@ -108,7 +108,7 @@ h
 namespace
 webrtc
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -138,7 +138,7 @@ payload_type
 )
 {
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -156,7 +156,7 @@ Unset
 )
 {
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -171,7 +171,7 @@ Decoder
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -185,7 +185,7 @@ Decoder
 default
 ;
 bool
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -223,7 +223,7 @@ std
 :
 :
 string
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -375,7 +375,7 @@ str
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -387,7 +387,7 @@ Stats
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -404,7 +404,7 @@ std
 :
 :
 string
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -436,7 +436,7 @@ ss
 <
 <
 "
-VideoReceiveStream
+VideoReceiveStreamInterface
 stats
 :
 "
@@ -826,7 +826,7 @@ str
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -841,7 +841,7 @@ Config
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -856,7 +856,7 @@ Config
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -882,12 +882,12 @@ rtcp_send_transport
 )
 {
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
 &
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -903,7 +903,7 @@ Config
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -923,7 +923,7 @@ std
 :
 :
 string
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1115,7 +1115,7 @@ str
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1130,7 +1130,7 @@ Rtp
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1148,7 +1148,7 @@ Rtp
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1168,7 +1168,7 @@ std
 :
 :
 string
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

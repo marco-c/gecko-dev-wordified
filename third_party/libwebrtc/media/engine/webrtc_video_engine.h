@@ -1623,17 +1623,17 @@ WebRtcVideoReceiveStream
 /
 /
 Finds
-VideoReceiveStream
+VideoReceiveStreamInterface
 corresponding
 to
 ssrc
 .
 Aware
 of
+/
+/
 unsignalled
 ssrc
-/
-/
 handling
 .
 WebRtcVideoReceiveStream
@@ -1958,7 +1958,7 @@ from
 the
 /
 /
-VideoReceiveStream
+VideoReceiveStreamInterface
 when
 the
 FlexFEC
@@ -2027,7 +2027,7 @@ ConfigureReceiverRtp
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2914,7 +2914,7 @@ to
 reconstruct
 the
 underlying
-VideoReceiveStream
+VideoReceiveStreamInterface
 .
 class
 WebRtcVideoReceiveStream
@@ -2951,7 +2951,7 @@ sp
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2988,7 +2988,7 @@ WebRtcVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 (
@@ -3347,7 +3347,7 @@ respectively
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 stream_
 ;
@@ -3358,7 +3358,7 @@ default_stream_
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

@@ -840,7 +840,7 @@ i
 ;
 }
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -857,7 +857,7 @@ string
 payload_name
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -882,7 +882,7 @@ return
 decoder
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder

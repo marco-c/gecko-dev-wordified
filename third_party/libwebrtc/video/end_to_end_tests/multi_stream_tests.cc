@@ -526,7 +526,7 @@ UpdateReceiveConfig
 (
 size_t
 stream_index
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

@@ -812,7 +812,7 @@ StreamConfig
 CreateRtcLogStreamConfig
 (
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1666,14 +1666,14 @@ override
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 CreateVideoReceiveStream
 (
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1687,7 +1687,7 @@ DestroyVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -1840,7 +1840,7 @@ override
 void
 OnLocalSsrcUpdated
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t
@@ -7401,7 +7401,7 @@ send_stream_impl
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 Call
 :
@@ -7411,7 +7411,7 @@ CreateVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -7735,7 +7735,7 @@ DestroyVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -9089,7 +9089,7 @@ Call
 :
 OnLocalSsrcUpdated
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t

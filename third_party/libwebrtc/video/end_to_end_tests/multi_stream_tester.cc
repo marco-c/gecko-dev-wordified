@@ -501,7 +501,7 @@ send_streams
 kNumStreams
 ]
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_streams
 [
@@ -835,7 +835,7 @@ Start
 (
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -877,7 +877,7 @@ decoder_factory
 &
 decoder_factory
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -1149,7 +1149,7 @@ UpdateReceiveConfig
 (
 size_t
 stream_index
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

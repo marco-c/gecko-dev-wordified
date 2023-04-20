@@ -631,7 +631,7 @@ PacketRouter
 *
 packet_router
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1194,7 +1194,7 @@ const
 /
 Called
 by
-VideoReceiveStream
+VideoReceiveStreamInterface
 when
 stats
 are
@@ -1839,13 +1839,15 @@ this
 object
 lies
 with
-VideoReceiveStream
+VideoReceiveStreamInterface
 which
 owns
+/
+/
 this
 .
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

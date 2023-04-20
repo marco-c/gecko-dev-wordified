@@ -1909,7 +1909,7 @@ FakeVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1936,7 +1936,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1995,7 +1995,7 @@ frame
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2107,7 +2107,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -3251,7 +3251,7 @@ it
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 FakeCall
 :
@@ -3261,7 +3261,7 @@ CreateVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -3306,7 +3306,7 @@ DestroyVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -3990,7 +3990,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t

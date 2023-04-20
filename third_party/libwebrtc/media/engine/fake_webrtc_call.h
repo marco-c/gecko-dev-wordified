@@ -135,7 +135,7 @@ VideoSendStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 #
 ifndef
 MEDIA_ENGINE_FAKE_WEBRTC_CALL_H_
@@ -1604,7 +1604,7 @@ public
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 {
 public
 :
@@ -1614,7 +1614,7 @@ FakeVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1625,7 +1625,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1660,7 +1660,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -1791,7 +1791,7 @@ private
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 implementation
 .
 void
@@ -1851,7 +1851,7 @@ override
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -1891,7 +1891,7 @@ base_mininum_playout_delay_ms_
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1903,7 +1903,7 @@ receiving_
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2546,14 +2546,14 @@ override
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 CreateVideoReceiveStream
 (
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2567,7 +2567,7 @@ DestroyVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -2743,7 +2743,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t

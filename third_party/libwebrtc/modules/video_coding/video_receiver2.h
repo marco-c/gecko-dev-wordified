@@ -344,7 +344,7 @@ These
 are
 called
 by
-VideoReceiveStream
+VideoReceiveStreamInterface
 .
 /
 /

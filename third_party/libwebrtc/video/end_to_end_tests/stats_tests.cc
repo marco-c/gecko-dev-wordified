@@ -588,7 +588,7 @@ size
 i
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -1668,7 +1668,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1984,7 +1984,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -2247,7 +2247,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 receive_streams_
@@ -2374,7 +2374,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2469,7 +2469,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -2618,7 +2618,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 receive_streams_
@@ -2695,7 +2695,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -2771,7 +2771,7 @@ this
 (
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2849,7 +2849,7 @@ packets
 "
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream_
 =
@@ -4109,7 +4109,7 @@ receive_stream
 receive_streams_
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -4238,7 +4238,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -4291,7 +4291,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -4387,7 +4387,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 receive_streams_

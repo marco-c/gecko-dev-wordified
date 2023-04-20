@@ -2391,7 +2391,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 receive_streams
@@ -3020,7 +3020,7 @@ from
 the
 flags
 .
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -3210,7 +3210,7 @@ Setup
 the
 receiving
 stream
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder

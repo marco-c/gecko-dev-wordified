@@ -1269,7 +1269,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1316,7 +1316,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -32316,7 +32316,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -32526,7 +32526,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -32711,7 +32711,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -32848,7 +32848,7 @@ FlexFEC
 should
 not
 create
-VideoReceiveStream
+VideoReceiveStreamInterface
 .
 "
 ;
@@ -33116,7 +33116,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -33238,7 +33238,7 @@ FlexFEC
 should
 not
 recreate
-VideoReceiveStream
+VideoReceiveStreamInterface
 .
 "
 ;
@@ -33264,7 +33264,7 @@ FlexFEC
 should
 not
 destroy
-VideoReceiveStream
+VideoReceiveStreamInterface
 .
 "
 ;
@@ -34170,7 +34170,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -38626,7 +38626,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -39234,7 +39234,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -39367,7 +39367,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -39636,7 +39636,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -40096,7 +40096,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -49107,7 +49107,7 @@ AddRecvStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -49252,7 +49252,7 @@ AddRecvStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -49767,7 +49767,7 @@ AddRecvStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -49863,7 +49863,7 @@ AddRecvStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -51567,7 +51567,7 @@ AddRecvStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -70112,7 +70112,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

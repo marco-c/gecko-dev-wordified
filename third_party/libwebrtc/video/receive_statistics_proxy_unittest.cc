@@ -350,7 +350,7 @@ field_trials_
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -358,7 +358,7 @@ GetTestConfig
 (
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -498,7 +498,7 @@ SimulatedClock
 fake_clock_
 ;
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2115,7 +2115,7 @@ kFreezeDurationMs
 =
 1000
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2241,7 +2241,7 @@ ReceiveStatisticsProxyTest
 ReportsPauseMetrics
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2348,7 +2348,7 @@ ReceiveStatisticsProxyTest
 PauseBeforeFirstAndAfterLastFrameIgnored
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2481,7 +2481,7 @@ ReceiveStatisticsProxyTest
 ReportsFramesDuration
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2616,7 +2616,7 @@ ReceiveStatisticsProxyTest
 ReportsSumSquaredFrameDurations
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -3074,7 +3074,7 @@ VideoContentType
 UNSPECIFIED
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -3158,7 +3158,7 @@ dropped_frames
 i
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -3250,7 +3250,7 @@ kMinPlayoutDelayMs
 kRenderDelayMs
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -3366,7 +3366,7 @@ kRemoteSsrc
 counter
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -3530,7 +3530,7 @@ UNSPECIFIED
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -7974,7 +7974,7 @@ ReceiveStatisticsProxyTestWithFreezeDuration
 FreezeDetection
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

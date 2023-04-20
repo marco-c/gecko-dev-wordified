@@ -7961,7 +7961,7 @@ clear
 ;
 for
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 thumbnail_receive_stream
 :
@@ -9186,7 +9186,7 @@ Start
 ;
 for
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 :
@@ -9210,7 +9210,7 @@ StopThumbnails
 {
 for
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 :

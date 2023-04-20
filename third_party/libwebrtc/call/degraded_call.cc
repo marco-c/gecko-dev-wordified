@@ -1516,14 +1516,14 @@ send_stream
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 DegradedCall
 :
 :
 CreateVideoReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1552,7 +1552,7 @@ DegradedCall
 :
 DestroyVideoReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -1847,7 +1847,7 @@ DegradedCall
 :
 OnLocalSsrcUpdated
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t

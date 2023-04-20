@@ -1339,7 +1339,7 @@ TimeDelta
 DetermineMaxWaitForFrame
 (
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1479,7 +1479,7 @@ num_cpu_cores
 PacketRouter
 *
 packet_router
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -3629,7 +3629,7 @@ payload_type
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

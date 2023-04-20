@@ -1285,7 +1285,7 @@ payload_name
 second
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder

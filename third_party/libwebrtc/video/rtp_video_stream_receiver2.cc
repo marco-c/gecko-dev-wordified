@@ -845,7 +845,7 @@ NackPeriodicProcessor
 *
 nack_periodic_processor
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1404,7 +1404,7 @@ PacketRouter
 *
 packet_router
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

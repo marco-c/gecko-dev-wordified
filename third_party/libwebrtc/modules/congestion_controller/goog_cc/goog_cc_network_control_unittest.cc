@@ -5525,7 +5525,7 @@ currently
 on
 )
 .
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

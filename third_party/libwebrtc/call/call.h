@@ -575,11 +575,11 @@ send_stream
 0
 ;
 virtual
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 CreateVideoReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -592,7 +592,7 @@ virtual
 void
 DestroyVideoReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -606,7 +606,7 @@ order
 for
 a
 created
-VideoReceiveStream
+VideoReceiveStreamInterface
 to
 be
 aware
@@ -969,7 +969,7 @@ virtual
 void
 OnLocalSsrcUpdated
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t

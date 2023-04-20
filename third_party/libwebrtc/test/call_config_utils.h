@@ -125,13 +125,13 @@ JSON
 representation
 of
 the
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
+/
+/
 back
-/
-/
 into
 a
 valid
@@ -145,9 +145,11 @@ the
 decoders
 or
 the
+/
+/
 renderer
 .
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -172,7 +174,7 @@ json
 /
 Serialize
 a
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -188,7 +190,7 @@ Value
 GenerateVideoReceiveStreamJsonConfig
 (
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

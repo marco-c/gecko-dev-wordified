@@ -93,10 +93,10 @@ used
 by
 RtpStreamsSynchronizer
 in
-VideoReceiveStream
+VideoReceiveStreamInterface
+/
+/
 and
-/
-/
 implemented
 by
 AudioReceiveStream

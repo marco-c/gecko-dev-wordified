@@ -10346,7 +10346,7 @@ used_ssrc
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -10475,7 +10475,7 @@ ConfigureReceiverRtp
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -20085,7 +20085,7 @@ sp
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -20232,7 +20232,7 @@ flexfec_stream_
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 WebRtcVideoChannel
 :
@@ -20493,7 +20493,7 @@ vector
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -21518,7 +21518,7 @@ optional
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -21549,7 +21549,7 @@ SetAndGetRecordingState
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -21618,7 +21618,7 @@ flexfec_config_
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -21842,7 +21842,7 @@ LS_WARNING
 <
 <
 "
-VideoReceiveStream
+VideoReceiveStreamInterface
 not
 connected
 to
@@ -22062,7 +22062,7 @@ const
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -22136,7 +22136,7 @@ remote_ssrc
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -22706,7 +22706,7 @@ SetAndGetRecordingState
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -22777,7 +22777,7 @@ SetAndGetRecordingState
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState

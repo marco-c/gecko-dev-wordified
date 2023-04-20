@@ -316,7 +316,7 @@ ReceiveStatisticsProxy
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -552,7 +552,7 @@ These
 are
 called
 by
-VideoReceiveStream
+VideoReceiveStreamInterface
 .
 void
 DecoderThreadStarting
@@ -848,7 +848,7 @@ this
 class
 .
 mutable
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

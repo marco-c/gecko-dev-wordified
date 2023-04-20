@@ -118,13 +118,13 @@ JSON
 representation
 of
 the
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
+/
+/
 back
-/
-/
 into
 a
 valid
@@ -138,9 +138,11 @@ the
 decoders
 or
 the
+/
+/
 renderer
 .
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -164,7 +166,7 @@ json
 auto
 receive_config
 =
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -187,7 +189,7 @@ decoders
 ]
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -723,7 +725,7 @@ Value
 GenerateVideoReceiveStreamJsonConfig
 (
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

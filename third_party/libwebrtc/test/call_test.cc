@@ -2209,7 +2209,7 @@ CallTest
 :
 SetReceiveUlpFecConfig
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2401,7 +2401,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2451,7 +2451,7 @@ empty
 )
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2563,7 +2563,7 @@ size
 i
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2648,7 +2648,7 @@ ssrcs
 i
 ]
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -4030,7 +4030,7 @@ Start
 ;
 for
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 video_recv_stream
 :
@@ -4110,7 +4110,7 @@ Stop
 ;
 for
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 video_recv_stream
 :
@@ -4170,7 +4170,7 @@ DestroyVideoSendStreams
 ;
 for
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 video_recv_stream
 :
@@ -5142,7 +5142,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -5200,7 +5200,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &

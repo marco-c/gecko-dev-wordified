@@ -260,7 +260,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -345,7 +345,7 @@ codec_type
 =
 kVideoCodecVP8
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder

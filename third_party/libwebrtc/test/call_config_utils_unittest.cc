@@ -124,7 +124,7 @@ CallConfigUtils
 MarshalUnmarshalProcessSameObject
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -133,7 +133,7 @@ recv_config
 nullptr
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -288,7 +288,7 @@ uri
 true
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

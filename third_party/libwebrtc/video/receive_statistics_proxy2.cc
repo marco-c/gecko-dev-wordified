@@ -4717,7 +4717,7 @@ last_estimated_playout_ntp_timestamp_ms_
 elapsed_ms
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -4738,7 +4738,7 @@ main_thread_
 /
 /
 Like
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 GetStats
@@ -4747,9 +4747,9 @@ on
 the
 worker
 thread
+/
+/
 from
-/
-/
 StatsCollector
 :
 :
