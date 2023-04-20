@@ -90,6 +90,10 @@ the
 source
 tree
 .
+from
+__future__
+import
+absolute_import
 import
 glob
 import
@@ -140,6 +144,54 @@ append
 (
 PARENT_DIR
 )
+#
+Workaround
+for
+the
+presubmit
+plan
+only
+to
+run
+in
+py3
+now
+.
+#
+TODO
+(
+webrtc
+:
+13418
+)
+Remove
+when
+py2
+presubmit
+is
+gone
+.
+if
+sys
+.
+version_info
+>
+=
+(
+3
+3
+)
+:
+    
+from
+unittest
+import
+mock
+else
+:
+    
+import
+mock
 import
 roll_deps
 from
@@ -161,8 +213,6 @@ UpdateDepsFile
 \
   
 ChromiumRevisionUpdate
-import
-mock
 TEST_DATA_VARS
 =
 {
@@ -795,7 +845,7 @@ local_scope
         
 self
 .
-assertEquals
+assertEqual
 (
 lookup
 (
@@ -1232,7 +1282,7 @@ variable_name
             
 self
 .
-assertEquals
+assertEqual
 (
 vars_dict
 [
@@ -1261,7 +1311,7 @@ chromium_revision
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1277,7 +1327,7 @@ deps
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1314,7 +1364,7 @@ gtest
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1325,7 +1375,7 @@ entries
         
 self
 .
-assertEquals
+assertEqual
 (
 entries
 [
@@ -1364,7 +1414,7 @@ testing
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1394,7 +1444,7 @@ build
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1482,7 +1532,7 @@ new_cr_deps
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1493,7 +1543,7 @@ changed_deps
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1510,7 +1560,7 @@ build
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1523,7 +1573,7 @@ BUILD_OLD_REV
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1536,7 +1586,7 @@ BUILD_NEW_REV
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1555,7 +1605,7 @@ linux64
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1576,7 +1626,7 @@ amd64
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1594,7 +1644,7 @@ git_revision
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1614,7 +1664,7 @@ revision
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1633,7 +1683,7 @@ depot_tools
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1646,7 +1696,7 @@ DEPOTTOOLS_OLD_REV
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1669,7 +1719,6 @@ self
 "
 Check
 CalculateChangedDeps
-still
 works
 when
 deps
@@ -1710,7 +1759,7 @@ new_cr_deps
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1721,7 +1770,7 @@ changed_deps
         
 self
 .
-assertEquals
+assertEqual
 (
             
 changed_deps
@@ -1746,7 +1795,7 @@ android_arch_core_common
         
 self
 .
-assertEquals
+assertEqual
 (
             
 changed_deps
@@ -1771,7 +1820,7 @@ android_arch_core_common
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1792,7 +1841,7 @@ version
         
 self
 .
-assertEquals
+assertEqual
 (
 changed_deps
 [
@@ -1850,7 +1899,7 @@ new_cr_deps
         
 self
 .
-assertEquals
+assertEqual
 (
 added_android_paths
 [
@@ -1872,7 +1921,7 @@ android_arch_lifecycle_common
         
 self
 .
-assertEquals
+assertEqual
 (
 other_paths
 [
@@ -1916,7 +1965,7 @@ new_cr_deps
         
 self
 .
-assertEquals
+assertEqual
 (
 removed_android_paths
 [
@@ -1938,7 +1987,7 @@ android_arch_lifecycle_runtime
         
 self
 .
-assertEquals
+assertEqual
 (
 other_paths
 [
@@ -1956,7 +2005,6 @@ self
 "
 "
 Check
-an
 error
 is
 reported
@@ -2038,7 +2086,7 @@ new_cr_deps
         
 self
 .
-assertEquals
+assertEqual
 (
             
 other_paths
@@ -2512,7 +2560,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 ChooseCQMode
 (
@@ -2533,7 +2581,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 ChooseCQMode
 (
@@ -2554,7 +2602,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 ChooseCQMode
 (

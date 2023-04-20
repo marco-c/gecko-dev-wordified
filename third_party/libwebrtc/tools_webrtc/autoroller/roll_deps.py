@@ -107,6 +107,10 @@ file
 "
 "
 "
+from
+__future__
+import
+absolute_import
 import
 argparse
 import
@@ -124,7 +128,29 @@ subprocess
 import
 sys
 import
-urllib2
+six
+.
+moves
+.
+urllib
+.
+request
+import
+six
+.
+moves
+.
+urllib
+.
+error
+import
+six
+.
+moves
+.
+urllib
+.
+parse
 def
 FindSrcDirPath
 (
@@ -1645,7 +1671,13 @@ lines
     
 conn
 =
-urllib2
+six
+.
+moves
+.
+urllib
+.
+request
 .
 urlopen
 (
@@ -1822,7 +1854,7 @@ depsentry
 in
 depsentry_dict
 .
-iteritems
+items
 (
 )
 :
@@ -1939,7 +1971,7 @@ dep
 in
 deps_subdict
 .
-iteritems
+items
 (
 )
 :
@@ -2795,6 +2827,8 @@ webrtc_deps
     
 generated_android_deps
 =
+sorted
+(
 [
         
 path
@@ -2811,6 +2845,7 @@ ANDROID_DEPS_PATH
 )
     
 ]
+)
     
 #
 Webrtc
@@ -2825,6 +2860,8 @@ CalculateChangedDeps
     
 other_deps
 =
+sorted
+(
 [
         
 path
@@ -2845,6 +2882,7 @@ in
 WEBRTC_ONLY_DEPS
     
 ]
+)
     
 return
 generated_android_deps
@@ -3019,7 +3057,7 @@ webrtc_deps_entry
 in
 webrtc_entries
 .
-iteritems
+items
 (
 )
 :
@@ -3923,7 +3961,7 @@ n
 if
 tbr_authors
 :
-      
+        
 commit_msg
 .
 append
@@ -3990,7 +4028,7 @@ open
 (
 deps_filename
 '
-rb
+r
 '
 )
 as
@@ -4187,7 +4225,7 @@ open
 (
 deps_filename
 '
-wb
+w
 '
 )
 as
