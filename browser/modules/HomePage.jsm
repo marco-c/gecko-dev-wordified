@@ -1199,9 +1199,9 @@ value
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Ignoring
 homepage
@@ -1863,9 +1863,9 @@ homepage_override
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

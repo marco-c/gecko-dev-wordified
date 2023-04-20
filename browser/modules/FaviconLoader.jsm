@@ -3328,9 +3328,9 @@ number
 "
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

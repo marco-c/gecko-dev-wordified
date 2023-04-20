@@ -1183,9 +1183,9 @@ nodesOrStrings
 length
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Message
 has

@@ -844,9 +844,9 @@ add
 1
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 Structured
 Ingestion
@@ -914,9 +914,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

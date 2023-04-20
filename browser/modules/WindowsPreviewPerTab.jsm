@@ -1669,15 +1669,9 @@ aFullScale
 .
 catch
 (
-e
-=
->
-Cu
+console
 .
-reportError
-(
-e
-)
+error
 )
 ;
 /

@@ -474,9 +474,9 @@ handleError
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 )
