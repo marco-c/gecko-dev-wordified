@@ -116,6 +116,16 @@ h
 namespace
 webrtc
 {
+constexpr
+int
+RuntimeSettingQueueSize
+(
+)
+{
+return
+100
+;
+}
 static
 inline
 size_t
