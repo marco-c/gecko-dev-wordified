@@ -429,6 +429,7 @@ ostream
 aOut
 const
 FileSystemEntryMetadata
+&
 aMetadata
 )
 {
