@@ -7752,7 +7752,7 @@ central
 /
 rev
 /
-847b64cc28b74b44c379f9bff4f415b97da1c6d7
+c5c002f81f08a73e04868e0c2bf0eb113f200b03
 /
 toolkit
 /
@@ -7760,9 +7760,11 @@ modules
 /
 PopupNotifications
 .
-jsm
+sys
+.
+mjs
 #
-42
+40
 aBrowser
 [
 attr

@@ -19373,7 +19373,9 @@ autoExportHTML
 /
 Sqlite
 .
-jsm
+sys
+.
+mjs
 and
 Places
 shutdown
@@ -31831,7 +31833,9 @@ provided
 by
 Integration
 .
-jsm
+sys
+.
+mjs
 .
 See
 *
