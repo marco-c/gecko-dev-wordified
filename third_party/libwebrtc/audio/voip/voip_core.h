@@ -662,7 +662,7 @@ void
 ReleaseChannel
 (
 ChannelId
-channel
+channel_id
 )
 override
 ;
@@ -670,7 +670,7 @@ bool
 StartSend
 (
 ChannelId
-channel
+channel_id
 )
 override
 ;
@@ -678,7 +678,7 @@ bool
 StopSend
 (
 ChannelId
-channel
+channel_id
 )
 override
 ;
@@ -686,7 +686,7 @@ bool
 StartPlayout
 (
 ChannelId
-channel
+channel_id
 )
 override
 ;
@@ -694,7 +694,7 @@ bool
 StopPlayout
 (
 ChannelId
-channel
+channel_id
 )
 override
 ;
@@ -708,7 +708,7 @@ void
 ReceivedRTPPacket
 (
 ChannelId
-channel
+channel_id
 rtc
 :
 :
@@ -725,7 +725,7 @@ void
 ReceivedRTCPPacket
 (
 ChannelId
-channel
+channel_id
 rtc
 :
 :
@@ -748,7 +748,7 @@ void
 SetSendCodec
 (
 ChannelId
-channel
+channel_id
 int
 payload_type
 const
@@ -762,7 +762,7 @@ void
 SetReceiveCodecs
 (
 ChannelId
-channel
+channel_id
 const
 std
 :
@@ -787,7 +787,7 @@ void
 RegisterTelephoneEventType
 (
 ChannelId
-channel
+channel_id
 int
 rtp_payload_type
 int
@@ -799,7 +799,7 @@ bool
 SendDtmfEvent
 (
 ChannelId
-channel
+channel_id
 DtmfEvent
 dtmf_event
 int
@@ -823,7 +823,7 @@ IngressStatistics
 GetIngressStatistics
 (
 ChannelId
-channel
+channel_id
 )
 override
 ;
@@ -860,7 +860,7 @@ AudioChannel
 GetChannel
 (
 ChannelId
-channel
+channel_id
 )
 ;
 /
