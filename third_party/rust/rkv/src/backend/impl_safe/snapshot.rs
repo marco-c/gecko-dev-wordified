@@ -281,12 +281,8 @@ flags
 :
 flags
 .
-unwrap_or_else
+unwrap_or_default
 (
-DatabaseFlagsImpl
-:
-:
-default
 )
 map
 :
