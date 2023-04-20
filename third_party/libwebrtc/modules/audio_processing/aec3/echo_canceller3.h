@@ -101,6 +101,11 @@ h
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -1237,7 +1242,13 @@ capture
 thread
 .
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std

@@ -4584,8 +4584,13 @@ fInitialized_
 bool
 fDestroyed_
 ;
-volatile
+std
+:
+:
+atomic
+<
 int
+>
 stop_
 ;
 /

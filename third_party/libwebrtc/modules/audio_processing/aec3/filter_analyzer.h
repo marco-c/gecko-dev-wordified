@@ -106,6 +106,11 @@ array
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -657,7 +662,13 @@ consistent_filter_detector
 }
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std

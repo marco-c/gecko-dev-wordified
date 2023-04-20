@@ -106,6 +106,11 @@ array
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -686,7 +691,13 @@ block_counter_
 }
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std

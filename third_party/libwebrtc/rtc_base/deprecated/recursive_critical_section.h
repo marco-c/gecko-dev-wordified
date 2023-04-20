@@ -90,6 +90,11 @@ define
 RTC_BASE_DEPRECATED_RECURSIVE_CRITICAL_SECTION_H_
 #
 include
+<
+atomic
+>
+#
+include
 "
 rtc_base
 /
@@ -493,8 +498,13 @@ same
 lock
 .
 mutable
-volatile
+std
+:
+:
+atomic
+<
 int
+>
 lock_queue_
 ;
 /

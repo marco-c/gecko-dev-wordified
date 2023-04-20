@@ -106,6 +106,11 @@ array
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -1073,7 +1078,13 @@ FilterLengthBlocks
 private
 :
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std
