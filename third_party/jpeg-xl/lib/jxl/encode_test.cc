@@ -1577,14 +1577,14 @@ if
 JXL_HIGH_PRECISION
 1
 .
-8
+84
 )
 ;
 #
 else
 8
 .
-0
+7
 )
 ;
 #
