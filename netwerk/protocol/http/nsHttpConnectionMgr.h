@@ -1098,6 +1098,8 @@ nsHttpConnection
 *
 bool
 usingSpdy
+bool
+disallowHttp3
 )
 ;
 void
@@ -2913,6 +2915,8 @@ conn
 ConnectionEntry
 *
 ent
+bool
+aNoHttp3
 )
 ;
 void

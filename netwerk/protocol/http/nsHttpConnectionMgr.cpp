@@ -5378,6 +5378,8 @@ newConn
 ConnectionEntry
 *
 ent
+bool
+aNoHttp3
 )
 {
 MOZ_ASSERT
@@ -5434,6 +5436,25 @@ HashKey
 =
 =
 ent
+)
+;
+LOG
+(
+(
+"
+UpdateCoalescingForNewConn
+newConn
+=
+%
+p
+aNoHttp3
+=
+%
+d
+"
+newConn
+aNoHttp3
+)
 )
 ;
 HttpConnectionBase
@@ -5603,6 +5624,10 @@ connTCP
 IsForWebSocket
 (
 )
+&
+&
+!
+aNoHttp3
 )
 {
 LOG
@@ -5615,6 +5640,7 @@ UpdateCoalescingForNewConn
 found
 existing
 active
+H3
 conn
 that
 "
@@ -5622,6 +5648,7 @@ that
 could
 have
 served
+H2
 newConn
 graceful
 close
@@ -6083,6 +6110,8 @@ nsHttpConnection
 conn
 bool
 usingSpdy
+bool
+disallowHttp3
 )
 {
 MOZ_ASSERT
@@ -6202,6 +6231,7 @@ UpdateCoalescingForNewConn
 (
 conn
 ent
+disallowHttp3
 )
 ;
 nsresult
@@ -6398,6 +6428,7 @@ UpdateCoalescingForNewConn
 (
 conn
 ent
+false
 )
 ;
 nsresult
