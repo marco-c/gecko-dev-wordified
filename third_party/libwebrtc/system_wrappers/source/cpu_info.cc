@@ -243,6 +243,7 @@ if
 (
 number_of_cores
 <
+=
 0
 )
 {
