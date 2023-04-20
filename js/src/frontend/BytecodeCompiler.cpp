@@ -2964,6 +2964,9 @@ PrepareForInstantiate
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input
@@ -3012,7 +3015,7 @@ CompilationStencil
 :
 prepareForInstantiate
 (
-cx
+ec
 input
 .
 atomCache
