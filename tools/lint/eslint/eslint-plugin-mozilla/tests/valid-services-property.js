@@ -435,7 +435,7 @@ process
 .
 env
 .
-TEST_XPIDLDIR
+MOZ_XPT_ARTIFACTS_DIR
 =
 {
 __dirname
