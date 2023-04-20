@@ -136,6 +136,15 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
 class
 nsIURI
 ;
@@ -307,7 +316,7 @@ NewBufferFromStorageStream
 nsIStorageStream
 *
 storageStream
-UniquePtr
+UniqueFreePtr
 <
 char
 [

@@ -260,6 +260,15 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
 /
 *
 *
@@ -830,7 +839,7 @@ scache
 struct
 StartupCacheEntry
 {
-UniquePtr
+UniqueFreePtr
 <
 char
 [
@@ -899,7 +908,7 @@ false
 }
 StartupCacheEntry
 (
-UniquePtr
+UniqueFreePtr
 <
 char
 [
@@ -1178,7 +1187,7 @@ const
 char
 *
 id
-UniquePtr
+UniqueFreePtr
 <
 char
 [

@@ -495,7 +495,7 @@ unique
 pointer
 buffer
 .
-UniquePtr
+UniqueFreePtr
 <
 char
 [
