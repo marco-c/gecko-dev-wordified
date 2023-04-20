@@ -607,7 +607,7 @@ GlobalObject
 aGlobal
 Sequence
 <
-OwningMatchGlobOrString
+OwningMatchGlobOrUTF8String
 >
 aGlobs
 nsTArray
@@ -670,7 +670,7 @@ Constructor
 aGlobal
 elem
 .
-GetAsString
+GetAsUTF8String
 (
 )
 true
@@ -2785,7 +2785,7 @@ URLInfo
 &
 aURI
 const
-nsAString
+nsACString
 &
 aPath
 )
@@ -5072,7 +5072,7 @@ Matches
 (
 aURL
 .
-Spec
+CSpec
 (
 )
 )
@@ -5102,7 +5102,7 @@ Matches
 (
 aURL
 .
-Spec
+CSpec
 (
 )
 )
