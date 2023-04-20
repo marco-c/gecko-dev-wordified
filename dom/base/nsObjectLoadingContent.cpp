@@ -15998,8 +15998,9 @@ false
 return
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_ASSERT_IF
 (
+mChannelLoaded
 mType
 =
 =
