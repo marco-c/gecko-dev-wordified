@@ -185,6 +185,11 @@ async
 =
 >
 {
+requestLongerTimeout
+(
+2
+)
+;
 await
 setAboutWelcomePref
 (
