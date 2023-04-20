@@ -390,6 +390,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -1366,6 +1369,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {

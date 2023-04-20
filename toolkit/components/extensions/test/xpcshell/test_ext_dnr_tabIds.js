@@ -1493,6 +1493,9 @@ reload
 and
 granted_host_permissions
 .
+allowInsecureRequests
+:
+true
 manifest
 :
 {
