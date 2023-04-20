@@ -152,7 +152,7 @@ serde_derive
 .
 0
 .
-144
+151
 "
 )
 ]
@@ -363,10 +363,6 @@ items_after_statements
 clippy
 :
 :
-let_underscore_drop
-clippy
-:
-:
 manual_assert
 clippy
 :
@@ -530,6 +526,9 @@ pretend
 ;
 mod
 ser
+;
+mod
+this
 ;
 mod
 try

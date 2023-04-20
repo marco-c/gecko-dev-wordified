@@ -1659,6 +1659,9 @@ EnumAccess
 de
 >
 {
+try
+!
+(
 data
 .
 variant
@@ -1669,7 +1672,7 @@ IgnoredAny
 >
 (
 )
-?
+)
 .
 1
 .
