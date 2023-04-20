@@ -544,7 +544,7 @@ bug
 .
 We
 can
-blacklist
+block
 the
 driver
 .
@@ -598,7 +598,7 @@ and
 again
 we
 can
-blacklist
+block
 the
 driver
 .
