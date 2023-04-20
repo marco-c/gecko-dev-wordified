@@ -244,7 +244,13 @@ options
 ;
 options
 .
-heavy_metrics_computation_enabled
+compute_psnr
+=
+false
+;
+options
+.
+compute_ssim
 =
 false
 ;

@@ -1611,15 +1611,6 @@ false
 ;
 /
 /
-DEPRECATED
-.
-bool
-heavy_metrics_computation_enabled
-=
-true
-;
-/
-/
 If
 true
 DefaultVideoQualityAnalyzer
