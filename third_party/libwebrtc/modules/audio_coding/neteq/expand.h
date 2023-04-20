@@ -94,13 +94,6 @@ MODULES_AUDIO_CODING_NETEQ_EXPAND_H_
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 memory
 >
 #

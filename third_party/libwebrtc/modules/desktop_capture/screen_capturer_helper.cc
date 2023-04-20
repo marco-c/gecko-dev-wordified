@@ -96,13 +96,6 @@ screen_capturer_helper
 .
 h
 "
-#
-include
-<
-assert
-.
-h
->
 namespace
 webrtc
 {

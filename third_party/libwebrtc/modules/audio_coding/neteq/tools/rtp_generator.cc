@@ -100,13 +100,6 @@ rtp_generator
 .
 h
 "
-#
-include
-<
-assert
-.
-h
->
 namespace
 webrtc
 {

@@ -111,11 +111,6 @@ algorithm
 #
 include
 <
-cassert
->
-#
-include
-<
 cmath
 >
 #

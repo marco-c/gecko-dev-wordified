@@ -94,13 +94,6 @@ MODULES_AUDIO_CODING_NETEQ_TIME_STRETCH_H_
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 string
 .
 h

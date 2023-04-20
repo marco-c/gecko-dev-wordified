@@ -94,13 +94,6 @@ MODULES_AUDIO_CODING_NETEQ_TOOLS_OUTPUT_AUDIO_FILE_H_
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 stdio
 .
 h
