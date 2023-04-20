@@ -1891,9 +1891,6 @@ max_ipv6_networks
 bool
 disable_link_local_networks
 ;
-bool
-enable_rtp_data_channel
-;
 absl
 :
 :
