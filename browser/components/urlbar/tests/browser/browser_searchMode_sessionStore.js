@@ -66,9 +66,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -86,7 +86,9 @@ sessionstore
 /
 SessionStore
 .
-jsm
+sys
+.
+mjs
 "
 TabStateFlusher
 :
@@ -102,7 +104,9 @@ sessionstore
 /
 TabStateFlusher
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

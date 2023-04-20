@@ -35,7 +35,7 @@ TabStateFlusher
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ sessionstore
 /
 TabStateFlusher
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

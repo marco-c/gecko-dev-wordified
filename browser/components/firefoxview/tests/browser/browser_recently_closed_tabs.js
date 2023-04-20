@@ -125,9 +125,9 @@ run
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 globalThis
 {
@@ -145,7 +145,9 @@ sessionstore
 /
 SessionStore
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

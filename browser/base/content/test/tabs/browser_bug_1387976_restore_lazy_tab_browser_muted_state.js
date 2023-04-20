@@ -40,7 +40,7 @@ TabState
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -54,7 +54,9 @@ sessionstore
 /
 TabState
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
