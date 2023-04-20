@@ -302,6 +302,12 @@ try
 {
         
 "
+enable_always_target
+"
+:
+True
+        
+"
 target_tasks_method
 "
 :
@@ -2245,6 +2251,15 @@ target_tasks_method
 "
     
 ]
+    
+parameters
+[
+"
+enable_always_target
+"
+]
+=
+False
     
 parameters
 [
