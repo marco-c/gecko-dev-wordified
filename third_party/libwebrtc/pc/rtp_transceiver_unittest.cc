@@ -89,9 +89,7 @@ file
 contains
 tests
 for
-|
 RtpTransceiver
-|
 .
 #
 include
@@ -252,9 +250,7 @@ set
 on
 a
 stopped
-|
 RtpTransceiver
-|
 .
 TEST
 (
@@ -469,9 +465,7 @@ unset
 on
 a
 stopped
-|
 RtpTransceiver
-|
 TEST
 (
 RtpTransceiverTest
@@ -623,9 +617,7 @@ Set
 the
 channel
 to
-|
 nullptr
-|
 .
 transceiver
 .

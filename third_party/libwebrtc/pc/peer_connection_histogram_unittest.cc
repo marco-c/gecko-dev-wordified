@@ -4586,9 +4586,7 @@ cannot
 use
 CloneSessionDescription
 on
-|
 cur_offer
-|
 to
 obtain
 an

@@ -998,9 +998,7 @@ SrtpTransport
 is
 owned
 by
-|
 jsep_transport_
-|
 .
 Keep
 a

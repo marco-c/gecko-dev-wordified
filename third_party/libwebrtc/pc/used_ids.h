@@ -185,9 +185,7 @@ through
 all
 Id
 in
-|
 ids
-|
 and
 changes
 its
@@ -285,9 +283,7 @@ unused
 id
 if
 the
-|
 idstruct
-|
 id
 is
 already
@@ -946,9 +942,7 @@ e
 .
 /
 /
-|
 extmap_allow_mixed_
-|
 is
 true
 )

@@ -1105,9 +1105,7 @@ signaling_thread
 /
 Signals
 from
-|
 data_channel_transport_
-|
 .
 These
 are

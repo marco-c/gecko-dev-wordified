@@ -933,9 +933,7 @@ Returns
 empty
 value
 if
-|
 cricket_feedback
-|
 is
 a
 feedback

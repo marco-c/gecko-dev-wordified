@@ -263,9 +263,7 @@ RTCP
 muxing
 /
 /
-|
 rtcp_dtls_transport
-|
 is
 null
 .
@@ -427,9 +425,7 @@ supported
 /
 /
 If
-|
 active_reset_srtp_params_
-|
 is
 set
 to

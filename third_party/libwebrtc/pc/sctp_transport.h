@@ -504,9 +504,7 @@ state
 /
 NOTE
 :
-|
 owner_thread_
-|
 is
 the
 thread

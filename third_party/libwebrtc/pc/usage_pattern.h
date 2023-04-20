@@ -147,9 +147,7 @@ VIDEO_ADDED
 0x10
 /
 /
-|
 SetLocalDescription
-|
 returns
 successfully
 .
@@ -158,9 +156,7 @@ SET_LOCAL_DESCRIPTION_SUCCEEDED
 0x20
 /
 /
-|
 SetRemoteDescription
-|
 returns
 successfully
 .
@@ -199,9 +195,7 @@ is
 successfully
 added
 via
-|
 AddIceCandidate
-|
 .
 ADD_ICE_CANDIDATE_SUCCEEDED
 =

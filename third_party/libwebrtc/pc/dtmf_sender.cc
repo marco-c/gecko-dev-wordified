@@ -1286,9 +1286,7 @@ kDtmfValidTones
 should
 have
 guarantee
-|
 tone
-|
 is
 /
 /
@@ -1469,9 +1467,7 @@ of
 milliseconds
 specified
 by
-|
 duration_
-|
 .
 tone_gap
 +

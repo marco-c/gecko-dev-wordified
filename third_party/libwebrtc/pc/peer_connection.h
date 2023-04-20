@@ -3046,11 +3046,9 @@ thread
 for
 /
 /
-|
 sctp_mid
 (
 )
-|
 if
 set
 .
@@ -3129,9 +3127,7 @@ methods
 If
 /
 /
-|
 fire_callback
-|
 is
 set
 fires
@@ -3843,15 +3839,11 @@ TransportInfo
 of
 the
 given
-|
 content_name
-|
 /
 /
 from
-|
 description
-|
 .
 Returns
 false
@@ -3922,9 +3914,7 @@ media
 /
 content
 called
-|
 content_name
-|
 .
 bool
 GetLocalCandidateMediaIndex
@@ -4227,9 +4217,7 @@ override
 /
 Called
 by
-|
 transport_controller_
-|
 when
 processing
 transport
@@ -4358,9 +4346,7 @@ EventLog
 needs
 to
 outlive
-|
 call_
-|
 (
 and
 any
@@ -4585,9 +4571,7 @@ given
 to
 /
 /
-|
 jsep_transport_controller_
-|
 and
 used
 on
@@ -4808,9 +4792,7 @@ thread
 .
 /
 /
-|
 sctp_mid_
-|
 is
 the
 content

@@ -1771,9 +1771,7 @@ empty
 /
 /
 The
-|
 configuration
-|
 can
 override
 the
@@ -3258,9 +3256,7 @@ this
 constraint
 session
 id
-|
 session_id_
-|
 is
 max
 limited
@@ -8151,13 +8147,9 @@ If
 there
 is
 no
-|
 internal_sender
-|
 then
-|
 selector
-|
 is
 either
 null
@@ -8375,13 +8367,9 @@ If
 there
 is
 no
-|
 internal_receiver
-|
 then
-|
 selector
-|
 is
 either
 null
@@ -15907,9 +15895,7 @@ sctp_mid_n_
 {
 /
 /
-|
 sctp_mid_
-|
 may
 still
 be

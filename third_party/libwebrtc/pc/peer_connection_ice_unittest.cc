@@ -1756,17 +1756,13 @@ appear
 in
 /
 /
-|
 description
-|
 or
 the
 empty
 list
 if
-|
 description
-|
 is
 null
 .
@@ -4667,9 +4663,7 @@ Add
 one
 candidate
 via
-|
 AddIceCandidate
-|
 .
 cricket
 :
@@ -7758,9 +7752,7 @@ A
 is
 pending
 and
-|
 caller
-|
 is
 the
 /
@@ -7913,9 +7905,7 @@ A
 is
 pending
 and
-|
 caller
-|
 is
 the
 /
@@ -8048,9 +8038,7 @@ O
 A
 exchange
 with
-|
 caller
-|
 as
 the
 answerer
@@ -8350,9 +8338,7 @@ A
 is
 pending
 and
-|
 caller
-|
 is
 the
 /
@@ -8568,9 +8554,7 @@ A
 is
 pending
 and
-|
 caller
-|
 is
 the
 /
@@ -8798,9 +8782,7 @@ O
 A
 exchange
 with
-|
 caller
-|
 as
 the
 answerer

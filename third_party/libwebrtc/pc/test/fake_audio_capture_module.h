@@ -1267,9 +1267,7 @@ samples
 in
 send_buffer_
 to
-|
 value
-|
 .
 void
 SetSendBuffer
@@ -1317,9 +1315,7 @@ or
 /
 equal
 to
-|
 value
-|
 .
 bool
 CheckRecBuffer

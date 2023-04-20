@@ -828,9 +828,7 @@ Simulcast
 .
 /
 /
-|
 str
-|
 -
 The
 serialized
@@ -840,9 +838,7 @@ parse
 .
 /
 /
-|
 expected
-|
 -
 The
 expected
@@ -913,9 +909,7 @@ Simulcast
 .
 /
 /
-|
 simulcast
-|
 -
 The
 Simulcast
@@ -924,9 +918,7 @@ serialize
 .
 /
 /
-|
 expected
-|
 -
 The
 expected
@@ -2453,9 +2445,7 @@ Descriptions
 .
 /
 /
-|
 str
-|
 -
 The
 serialized
@@ -2466,9 +2456,7 @@ parse
 .
 /
 /
-|
 expected
-|
 -
 The
 expected
@@ -2539,9 +2527,7 @@ RidDescriptions
 .
 /
 /
-|
 rid_description
-|
 -
 The
 RidDescription
@@ -2550,9 +2536,7 @@ serialize
 .
 /
 /
-|
 expected
-|
 -
 The
 expected

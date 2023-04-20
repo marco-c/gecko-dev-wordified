@@ -797,9 +797,7 @@ rejected
 content
 from
 the
-|
 bundle_group
-|
 .
 /
 /
