@@ -9438,6 +9438,17 @@ tests
 "
 "
     
+skip_list
+=
+[
+"
+cppunittest
+"
+"
+gtest
+"
+]
+    
 for
 task
 in
@@ -9461,6 +9472,18 @@ platform
 ]
 :
             
+if
+task
+[
+"
+suite
+"
+]
+not
+in
+skip_list
+:
+                
 extra_options
 =
 task
@@ -9480,12 +9503,12 @@ options
 [
 ]
 )
-            
+                
 extra_options
 .
 append
 (
-                
+                    
 "
 -
 -
@@ -9501,7 +9524,7 @@ gc_parallel_marking
 =
 true
 "
-            
+                
 )
         
 yield
