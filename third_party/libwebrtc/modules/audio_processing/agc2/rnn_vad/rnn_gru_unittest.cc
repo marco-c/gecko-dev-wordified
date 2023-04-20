@@ -176,9 +176,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 void
 TestGatedRecurrentLayer
@@ -1163,11 +1160,6 @@ ms
 /
 /
 namespace
-}
-/
-/
-namespace
-test
 }
 /
 /

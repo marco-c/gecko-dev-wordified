@@ -220,9 +220,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 /
 /
@@ -416,10 +413,6 @@ return
 weights
 ;
 }
-}
-/
-/
-namespace
 /
 /
 Checks
@@ -1386,7 +1379,6 @@ computed_output
 /
 /
 namespace
-test
 }
 /
 /

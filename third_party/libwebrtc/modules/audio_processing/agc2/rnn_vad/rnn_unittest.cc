@@ -153,9 +153,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 constexpr
 std
@@ -606,11 +603,6 @@ post
 /
 /
 namespace
-}
-/
-/
-namespace
-test
 }
 /
 /

@@ -188,9 +188,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 constexpr
 int
@@ -497,7 +494,7 @@ std
 array
 <
 float
-kNumPitchBufSquareEnergies
+kRefineNumLags24kHz
 >
 computed_output
 ;
@@ -530,7 +527,7 @@ ComputeSlidingFrameSquareEnergies24kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 computed_output
@@ -542,7 +539,7 @@ square_energies_view
 =
 test_data
 .
-GetPitchBufSquareEnergiesView
+SquareEnergies24kHzView
 (
 )
 ;
@@ -615,7 +612,7 @@ Decimate2x
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 pitch_buf_decimated
@@ -649,21 +646,16 @@ fixed
 FloatingPointExceptionObserver
 fpe_observer
 ;
-auto
-auto_corr_view
-=
-test_data
-.
-GetPitchBufAutoCorrCoeffsView
-(
-)
-;
 pitch_candidates
 =
 ComputePitchPeriod12kHz
 (
 pitch_buf_decimated
-auto_corr_view
+test_data
+.
+AutoCorrelation12kHzView
+(
+)
 cpu_features
 )
 ;
@@ -752,7 +744,7 @@ ComputeSlidingFrameSquareEnergies24kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -790,7 +782,7 @@ ComputePitchPeriod48kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -815,7 +807,7 @@ ComputePitchPeriod48kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -953,7 +945,7 @@ ComputeSlidingFrameSquareEnergies24kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -968,7 +960,7 @@ ComputePitchPeriod48kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -983,7 +975,7 @@ ComputePitchPeriod48kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -1219,7 +1211,7 @@ ComputeSlidingFrameSquareEnergies24kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -1261,7 +1253,7 @@ ComputeExtendedPitchPeriod48kHz
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 y_energy_view
@@ -1430,11 +1422,6 @@ ExtendedPitchPeriodSearchParameters
 /
 /
 namespace
-}
-/
-/
-namespace
-test
 }
 /
 /

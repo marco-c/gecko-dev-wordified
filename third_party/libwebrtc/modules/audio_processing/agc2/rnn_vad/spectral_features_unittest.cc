@@ -187,9 +187,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 constexpr
 int
@@ -489,10 +486,6 @@ kInitialFeatureVal
 .
 f
 ;
-}
-/
-/
-namespace
 /
 /
 Checks
@@ -1191,7 +1184,6 @@ kNumLowerBands
 /
 /
 namespace
-test
 }
 /
 /

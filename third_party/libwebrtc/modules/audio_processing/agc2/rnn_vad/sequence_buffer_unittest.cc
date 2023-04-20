@@ -126,9 +126,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 template
 <
@@ -506,10 +503,6 @@ N
 ;
 }
 }
-}
-/
-/
-namespace
 TEST
 (
 RnnVadTest
@@ -876,7 +869,6 @@ ratio
 /
 /
 namespace
-test
 }
 /
 /

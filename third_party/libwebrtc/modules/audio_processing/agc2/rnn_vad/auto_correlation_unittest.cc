@@ -161,7 +161,6 @@ namespace
 rnn_vad
 {
 namespace
-test
 {
 /
 /
@@ -205,7 +204,7 @@ Decimate2x
 (
 test_data
 .
-GetPitchBufView
+PitchBuffer24kHzView
 (
 )
 pitch_buf_decimated
@@ -217,7 +216,7 @@ std
 array
 <
 float
-kNumPitchBufAutoCorrCoeffs
+kNumLags12kHz
 >
 computed_output
 ;
@@ -264,7 +263,7 @@ auto_corr_view
 =
 test_data
 .
-GetPitchBufAutoCorrCoeffsView
+AutoCorrelation12kHzView
 (
 )
 ;
@@ -360,7 +359,7 @@ std
 array
 <
 float
-kNumPitchBufAutoCorrCoeffs
+kNumLags12kHz
 >
 computed_output
 ;
@@ -447,7 +446,7 @@ std
 array
 <
 float
-kNumPitchBufAutoCorrCoeffs
+kNumLags12kHz
 >
 expected_output
 ;
@@ -489,7 +488,6 @@ computed_output
 /
 /
 namespace
-test
 }
 /
 /

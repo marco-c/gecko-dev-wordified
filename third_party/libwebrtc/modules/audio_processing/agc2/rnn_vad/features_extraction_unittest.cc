@@ -126,21 +126,6 @@ h
 #
 include
 "
-modules
-/
-audio_processing
-/
-agc2
-/
-rnn_vad
-/
-test_utils
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 numerics
@@ -205,9 +190,6 @@ webrtc
 {
 namespace
 rnn_vad
-{
-namespace
-test
 {
 namespace
 {
@@ -447,7 +429,7 @@ bool
 FeedTestData
 (
 FeaturesExtractor
-*
+&
 features_extractor
 rtc
 :
@@ -530,8 +512,7 @@ i
 is_silence
 =
 features_extractor
--
->
+.
 CheckSilenceComputeFeatures
 (
 {
@@ -554,10 +535,6 @@ return
 is_silence
 ;
 }
-}
-/
-/
-namespace
 /
 /
 Extracts
@@ -753,7 +730,6 @@ ASSERT_FALSE
 (
 FeedTestData
 (
-&
 features_extractor
 samples
 feature_vector_view
@@ -798,7 +774,6 @@ ASSERT_FALSE
 (
 FeedTestData
 (
-&
 features_extractor
 samples
 feature_vector_view
@@ -828,7 +803,6 @@ high_pitch_period
 /
 /
 namespace
-test
 }
 /
 /

@@ -115,7 +115,12 @@ rnn_vad
 {
 /
 /
+Linear
+predictive
+coding
+(
 LPC
+)
 inverse
 filter
 length

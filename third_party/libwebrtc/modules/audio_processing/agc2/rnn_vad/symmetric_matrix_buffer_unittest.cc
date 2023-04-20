@@ -131,9 +131,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 template
 <
@@ -339,10 +336,6 @@ return
 false
 ;
 }
-}
-/
-/
-namespace
 /
 /
 Test
@@ -957,7 +950,6 @@ t_removed
 /
 /
 namespace
-test
 }
 /
 /

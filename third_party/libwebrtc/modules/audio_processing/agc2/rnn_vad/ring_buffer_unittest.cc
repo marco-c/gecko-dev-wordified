@@ -116,9 +116,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 /
 /
@@ -475,10 +472,6 @@ delay
 ;
 }
 }
-}
-/
-/
-namespace
 /
 /
 Check
@@ -785,7 +778,6 @@ float
 /
 /
 namespace
-test
 }
 /
 /
