@@ -582,6 +582,9 @@ OS_LIBS
 advapi32
 "
 "
+shell32
+"
+"
 uuid
 "
 ]
@@ -606,6 +609,11 @@ dll
 "
 "
 rpcrt4
+.
+dll
+"
+"
+shell32
 .
 dll
 "
