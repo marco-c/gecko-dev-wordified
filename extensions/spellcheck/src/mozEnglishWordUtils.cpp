@@ -144,13 +144,6 @@ Likely
 .
 h
 "
-#
-include
-"
-nsMemory
-.
-h
-"
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
 mozEnglishWordUtils

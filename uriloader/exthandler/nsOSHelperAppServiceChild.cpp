@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsCExternalHandlerService
 .
 h

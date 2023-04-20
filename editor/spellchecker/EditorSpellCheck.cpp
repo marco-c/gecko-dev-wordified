@@ -524,17 +524,6 @@ etc
 #
 include
 "
-nsMemory
-.
-h
-"
-/
-/
-for
-nsMemory
-#
-include
-"
 nsRange
 .
 h

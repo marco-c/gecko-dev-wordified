@@ -216,13 +216,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h

@@ -165,13 +165,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

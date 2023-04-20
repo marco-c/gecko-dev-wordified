@@ -240,13 +240,6 @@ Logging
 .
 h
 "
-#
-include
-"
-nsMemory
-.
-h
-"
 struct
 nsHtml5CharacterName
 {

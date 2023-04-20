@@ -275,13 +275,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

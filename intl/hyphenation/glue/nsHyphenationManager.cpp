@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

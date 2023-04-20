@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nspr
 .
 h

@@ -139,13 +139,6 @@ nsServiceManagerUtils
 h
 "
 #
-include
-"
-nsMemory
-.
-h
-"
-#
 define
 JSDEBUGGER_CONTRACTID
 "
