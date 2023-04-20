@@ -3424,9 +3424,11 @@ the
 result
 .
 The
+|
 srtp_active
 (
 )
+|
 state
 is
 maintained
@@ -4610,7 +4612,9 @@ where
 channel
 1
 send
+|
 stream1
+|
 to
 channel
 2
@@ -4854,7 +4858,9 @@ the
 content
 by
 sending
+|
 stream2
+|
 and
 enable
 SRTP
@@ -5590,7 +5596,9 @@ content2
 /
 /
 Set
+|
 content2
+|
 to
 be
 InActive
@@ -5832,7 +5840,9 @@ InActive
 /
 /
 Update
+|
 content2
+|
 to
 be
 RecvOnly
@@ -5952,7 +5962,9 @@ RecvOnly
 /
 /
 Update
+|
 content2
+|
 to
 be
 SendRecv
@@ -6196,7 +6208,9 @@ before
 calling
 /
 /
+|
 set_num_network_route_changes
+|
 because
 the
 network
@@ -7756,11 +7770,15 @@ bundle
 filter
 for
 both
+|
 channel1_
+|
 /
 /
 and
+|
 channel2_
+|
 .
 int
 pl_type1
@@ -9127,7 +9145,9 @@ call
 to
 /
 /
+|
 SetRtpTransport
+|
 the
 socket
 options
@@ -9989,7 +10009,9 @@ threads
 {
 /
 /
+|
 threads
+|
 and
 current
 thread

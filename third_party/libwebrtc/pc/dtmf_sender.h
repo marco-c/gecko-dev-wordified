@@ -288,12 +288,16 @@ CanInsertDtmf
 /
 Sends
 DTMF
+|
 code
+|
 .
 /
 /
 The
+|
 duration
+|
 indicates
 the
 length

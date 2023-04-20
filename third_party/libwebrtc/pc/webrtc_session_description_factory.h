@@ -499,9 +499,13 @@ Can
 specify
 either
 a
+|
 cert_generator
+|
 or
+|
 certificate
+|
 to
 enable
 DTLS

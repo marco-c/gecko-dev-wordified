@@ -2067,9 +2067,13 @@ then
 /
 /
 either
+|
 list1
+|
 or
+|
 list2
+|
 will
 be
 in
@@ -3043,7 +3047,9 @@ restriction
 }
 /
 /
+|
 parts
+|
 contains
 at
 least
@@ -3061,7 +3067,9 @@ space
 /
 Note
 :
+|
 parts
+|
 and
 other
 values
@@ -3163,7 +3171,9 @@ continue
 /
 /
 Parse
+|
 parts
+|
 as
 a
 key

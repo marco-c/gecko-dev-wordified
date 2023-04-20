@@ -705,7 +705,9 @@ CloneInternal
 }
 /
 /
+|
 protocol
+|
 is
 the
 expected
@@ -3064,7 +3066,9 @@ default
 /
 Alias
 for
+|
 name
+|
 .
 std
 :
@@ -3103,7 +3107,9 @@ mid
 /
 Alias
 for
+|
 description
+|
 .
 MediaContentDescription
 *
@@ -3253,7 +3259,9 @@ populated
 only
 with
 the
+|
 content_name
+|
 of
 the
 /
@@ -4068,7 +4076,9 @@ same
 semantics
 specified
 by
+|
 name
+|
 .
 void
 RemoveGroupByName

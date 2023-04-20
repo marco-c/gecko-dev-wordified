@@ -1132,7 +1132,9 @@ to
 the
 /
 /
+|
 sctp_data_channels_
+|
 so
 that
 they
@@ -1238,7 +1240,9 @@ transport
 is
 used
 for
+|
 sctp_mid_
+|
 (
 eg
 .
@@ -1299,7 +1303,9 @@ to
 the
 /
 /
+|
 sctp_data_channels_
+|
 so
 that
 they

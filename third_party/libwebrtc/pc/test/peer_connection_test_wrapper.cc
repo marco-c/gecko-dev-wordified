@@ -1325,7 +1325,9 @@ take
 the
 ownership
 of
+|
 desc
+|
 .
 std
 :

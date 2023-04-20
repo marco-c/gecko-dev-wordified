@@ -477,13 +477,17 @@ pointer
 ;
 /
 /
+|
 external_hmac
+|
 is
 const
 and
 libsrtp
 expects
+|
 type
+|
 to
 be
 non
@@ -497,7 +501,9 @@ conversion
 is
 required
 .
+|
 external_hmac
+|
 is
 constant
 because
@@ -772,7 +778,9 @@ external_crypto_init
 {
 /
 /
+|
 external_hmac
+|
 is
 const
 .

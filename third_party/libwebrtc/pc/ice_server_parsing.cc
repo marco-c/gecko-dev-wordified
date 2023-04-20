@@ -459,7 +459,9 @@ values
 ;
 /
 /
+|
 in_str
+|
 should
 follow
 of
@@ -872,7 +874,9 @@ address
 port
 /
 /
+|
 hostname
+|
 |
 [
 IPv6
@@ -1211,7 +1215,9 @@ list
 /
 by
 parsing
+|
 url
+|
 and
 using
 the
@@ -1219,7 +1225,9 @@ username
 /
 password
 in
+|
 server
+|
 .
 static
 RTCErrorType

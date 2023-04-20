@@ -4206,7 +4206,9 @@ be
 stored
 internally
 in
+|
 local_streams_
+|
 .
 /
 /
@@ -4219,7 +4221,9 @@ stream
 can
 appear
 in
+|
 streams
+|
 again
 /
 /
@@ -4284,7 +4288,9 @@ to
 /
 assume
 that
+|
 local_streams_
+|
 will
 always
 have

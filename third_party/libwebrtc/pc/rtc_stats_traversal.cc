@@ -165,11 +165,15 @@ visited
 by
 moving
 it
+|
 report
+|
 to
 /
 /
+|
 visited_report
+|
 .
 std
 :

@@ -2654,7 +2654,9 @@ media
 section
 to
 the
+|
 session_options
+|
 .
 static
 void
@@ -4850,7 +4852,9 @@ set
 to
 /
 /
+|
 expected_direction_in_answer
+|
 in
 an
 answer
@@ -4863,7 +4867,9 @@ set
 /
 /
 to
+|
 direction_in_offer
+|
 and
 the
 answer
@@ -21789,7 +21795,9 @@ the
 audio
 codecs
 only
+|
 f2_
+|
 offer
 sorted
 in
@@ -21805,7 +21813,9 @@ TODO
 wu
 )
 :
+|
 updated_offer
+|
 should
 not
 include
@@ -21879,7 +21889,9 @@ the
 video
 codecs
 only
+|
 f2_
+|
 offer
 sorted
 in
@@ -22439,7 +22451,9 @@ answer
 in
 reverse
 (
+|
 f2_
+|
 as
 offerer
 )
@@ -22455,7 +22469,9 @@ answer
 is
 forward
 (
+|
 f1_
+|
 as
 offerer
 )
@@ -22708,7 +22724,9 @@ answer
 in
 reverse
 (
+|
 f2_
+|
 as
 offerer
 )
@@ -22724,7 +22742,9 @@ answer
 is
 forward
 (
+|
 f1_
+|
 as
 offerer
 )
@@ -23012,7 +23032,9 @@ with
 the
 payload
 type
+|
 f1_
+|
 uses
 .
 AddRtxCodec
@@ -23067,7 +23089,9 @@ with
 the
 payload
 type
+|
 f2_
+|
 uses
 .
 AddRtxCodec
@@ -23222,7 +23246,9 @@ the
 order
 )
 if
+|
 f2_
+|
 creates
 /
 /
@@ -23236,11 +23262,15 @@ default
 payload
 types
 between
+|
 f1_
+|
 and
 /
 /
+|
 f2_
+|
 are
 different
 .
@@ -23926,7 +23956,9 @@ with
 the
 payload
 type
+|
 f1_
+|
 uses
 .
 AddRtxCodec
@@ -24046,7 +24078,9 @@ kAudioCodecsAnswer
 Now
 -
 let
+|
 f2_
+|
 add
 video
 with
@@ -24449,7 +24483,9 @@ with
 the
 payload
 type
+|
 f2_
+|
 uses
 .
 AddRtxCodec
@@ -24581,7 +24617,9 @@ is
 created
 correctly
 when
+|
 f2_
+|
 creates
 an
 /
@@ -24601,7 +24639,9 @@ from
 /
 those
 of
+|
 f1_
+|
 .
 std
 :
@@ -24811,7 +24851,9 @@ with
 the
 payload
 type
+|
 f2_
+|
 uses
 .
 AddRtxCodec
@@ -27363,7 +27405,9 @@ extensions
 only
 /
 /
+|
 f2_
+|
 offer
 .
 /
@@ -27374,7 +27418,9 @@ default
 local
 extension
 id
+|
 f2_
+|
 uses
 has
 already
@@ -27383,7 +27429,9 @@ used
 by
 /
 /
+|
 f1_
+|
 for
 another
 extensions
@@ -27428,7 +27476,9 @@ default
 local
 extension
 id
+|
 f2_
+|
 uses
 has
 already
@@ -27437,7 +27487,9 @@ used
 by
 /
 /
+|
 f1_
+|
 for
 another
 extensions

@@ -387,7 +387,9 @@ simulcast_layers
 /
 /
 Use
+|
 num_sim_layers
+|
 to
 indicate
 legacy
@@ -640,7 +642,9 @@ Doesn
 t
 DCHECK
 on
+|
 type
+|
 .
 void
 AddSenderInternal

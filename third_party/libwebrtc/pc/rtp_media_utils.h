@@ -205,7 +205,9 @@ send
 component
 set
 to
+|
 send
+|
 .
 RtpTransceiverDirection
 RtpTransceiverDirectionWithSendSet
@@ -229,7 +231,9 @@ recv
 component
 set
 to
+|
 recv
+|
 .
 RtpTransceiverDirection
 RtpTransceiverDirectionWithRecvSet

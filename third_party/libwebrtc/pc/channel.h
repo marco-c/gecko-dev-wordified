@@ -797,7 +797,9 @@ public
 /
 /
 If
+|
 srtp_required
+|
 is
 true
 the
@@ -1176,7 +1178,9 @@ It
 would
 replace
 the
+|
 SetTransports
+|
 and
 its
 variants
@@ -2202,9 +2206,13 @@ extensions
 /
 /
 Add
+|
 payload_type
+|
 to
+|
 demuxer_criteria_
+|
 if
 payload
 type
@@ -2819,7 +2827,9 @@ media_channel_
 /
 Currently
 the
+|
 enabled_
+|
 flag
 is
 accessed

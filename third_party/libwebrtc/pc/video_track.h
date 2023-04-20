@@ -370,7 +370,9 @@ Implements
 ObserverInterface
 .
 Observes
+|
 video_source_
+|
 state
 .
 void
