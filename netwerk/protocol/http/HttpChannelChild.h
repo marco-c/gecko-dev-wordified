@@ -1607,6 +1607,10 @@ CancelOnMainThread
 (
 nsresult
 aRv
+const
+nsACString
+&
+aReason
 )
 ;
 nsresult
