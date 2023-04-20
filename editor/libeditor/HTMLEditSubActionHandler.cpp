@@ -1139,7 +1139,7 @@ RangeCount
 nsresult
 rv
 =
-CollapseSelectionToEndOfLastLeafNode
+CollapseSelectionToEndOfLastLeafNodeOfDocument
 (
 )
 ;
@@ -1154,12 +1154,14 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
-CollapseSelectionToEndOfLastLeafNode
+CollapseSelectionToEndOfLastLeafNodeOfDocument
 (
 )
+"
+"
 failed
 "
 )
