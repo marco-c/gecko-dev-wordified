@@ -91,6 +91,15 @@ RTC_BASE_SYSTEM_NO_UNIQUE_ADDRESS_H_
 #
 define
 RTC_BASE_SYSTEM_NO_UNIQUE_ADDRESS_H_
+#
+include
+"
+rtc_base
+/
+sanitizer
+.
+h
+"
 /
 /
 RTC_NO_UNIQUE_ADDRESS
@@ -290,10 +299,7 @@ builds
 #
 if
 !
-defined
-(
-__SANITIZE_MEMORY__
-)
+RTC_HAS_MSAN
 &
 &
 \
