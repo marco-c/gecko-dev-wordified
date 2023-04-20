@@ -1931,6 +1931,10 @@ pc_dependencies
 -
 >
 network_manager
+pc_dependencies
+-
+>
+packet_socket_factory
 )
 ;
 /
