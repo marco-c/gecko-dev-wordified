@@ -4691,6 +4691,8 @@ jitter
 local_id
 &
 round_trip_time
+&
+fraction_lost
 )
 /
 /
@@ -4802,6 +4804,12 @@ round_trip_time
 roundTripTime
 "
 )
+fraction_lost
+(
+"
+fractionLost
+"
+)
 {
 }
 RTCRemoteInboundRtpStreamStats
@@ -4866,6 +4874,12 @@ round_trip_time
 other
 .
 round_trip_time
+)
+fraction_lost
+(
+other
+.
+fraction_lost
 )
 {
 }
