@@ -72,6 +72,10 @@ React
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -140,6 +158,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +173,8 @@ content
 components
 /
 MainFrame
+.
+js
 "
 )
 )
@@ -164,6 +188,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -175,6 +203,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -186,6 +216,10 @@ reducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +231,8 @@ content
 reducers
 /
 index
+.
+js
 "
 )
 ;

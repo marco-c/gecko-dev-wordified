@@ -69,6 +69,10 @@ fetchProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ content
 actions
 /
 grips
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ Property
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ content
 reducers
 /
 grips
+.
+js
 "
 )
 ;

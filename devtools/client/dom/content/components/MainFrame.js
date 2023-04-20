@@ -81,6 +81,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +94,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +122,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -121,6 +133,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +150,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -145,6 +163,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +178,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -171,6 +195,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +210,8 @@ content
 components
 /
 DomTree
+.
+js
 "
 )
 )
@@ -194,6 +224,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +239,8 @@ content
 components
 /
 MainToolbar
+.
+js
 "
 )
 )

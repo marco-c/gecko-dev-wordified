@@ -69,6 +69,10 @@ Property
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ content
 reducers
 /
 grips
+.
+js
 "
 )
 ;
