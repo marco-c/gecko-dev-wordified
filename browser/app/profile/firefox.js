@@ -32154,6 +32154,8 @@ privateBrowsing
 1
 )
 ;
+#
+endif
 /
 /
 Enables
@@ -32174,11 +32176,9 @@ desktop
 .
 enabled
 "
-true
+false
 )
 ;
-#
-endif
 /
 /
 We
