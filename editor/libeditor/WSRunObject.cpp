@@ -4848,6 +4848,8 @@ ignored
 )
 ;
 }
+else
+{
 /
 /
 There
@@ -4877,6 +4879,7 @@ IgnoreCaretPointSuggestion
 (
 )
 ;
+}
 }
 ret
 .
