@@ -17895,12 +17895,6 @@ StyleClear
 :
 Both
 :
-case
-StyleClear
-:
-:
-Line
-:
 /
 /
 Do

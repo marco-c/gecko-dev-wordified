@@ -9513,9 +9513,6 @@ gecko_enum_prefix
 "
 StyleClear
 "
-gecko_inexhaustive
-=
-True
 )
 %
 >
