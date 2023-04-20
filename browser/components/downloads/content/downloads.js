@@ -430,7 +430,7 @@ Integration
 .
 downloads
 .
-defineModuleGetter
+defineESModuleGetter
 (
 this
 "
@@ -447,7 +447,9 @@ modules
 /
 DownloadIntegration
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

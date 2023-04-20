@@ -201,7 +201,7 @@ Integration
 downloads
 \
 .
-defineModuleGetter
+defineESModuleGetter
 \
 (
 lazy

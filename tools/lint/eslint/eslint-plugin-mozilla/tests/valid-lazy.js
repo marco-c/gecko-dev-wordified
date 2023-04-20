@@ -586,7 +586,7 @@ Integration
 .
 downloads
 .
-defineModuleGetter
+defineESModuleGetter
 (
 lazy
 "
@@ -595,7 +595,9 @@ foo
 "
 foo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
