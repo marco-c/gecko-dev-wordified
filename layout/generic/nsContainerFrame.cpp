@@ -17092,12 +17092,6 @@ axis
 StretchPreservingRatio
 /
 /
-XXX
-not
-used
-yet
-/
-/
 stretch
 to
 fill
