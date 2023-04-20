@@ -1713,10 +1713,10 @@ gotRequestCount
 {
 hinted
 :
-1
+0
 normal
 :
-0
+1
 }
 )
 ;
@@ -1735,10 +1735,10 @@ gotRequestCount
 {
 hinted
 :
-1
+0
 normal
 :
-0
+1
 }
 "
 test_103_anchor
