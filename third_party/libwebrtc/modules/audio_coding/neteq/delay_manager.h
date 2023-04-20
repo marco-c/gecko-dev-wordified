@@ -666,9 +666,6 @@ delay_ms
 )
 const
 ;
-bool
-first_packet_received_
-;
 /
 /
 TODO
@@ -794,7 +791,13 @@ preferred
 buffer
 level
 .
+absl
+:
+:
+optional
+<
 uint32_t
+>
 last_timestamp_
 ;
 /
@@ -806,11 +809,6 @@ last
 received
 packet
 .
-int
-num_reordered_packets_
-=
-0
-;
 int
 max_delay_in_interval_ms_
 =
