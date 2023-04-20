@@ -7042,7 +7042,6 @@ make_unique
 ExtensibleCompilationStencil
 >
 (
-cx
 input
 )
 ;
