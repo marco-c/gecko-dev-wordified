@@ -3435,15 +3435,14 @@ _ns
 )
 ;
 }
-sanitizedPathAndScheme
-.
-Append
+AppendUTF8toUTF16
 (
 url
 .
 FilePath
 (
 )
+sanitizedPathAndScheme
 )
 ;
 return
