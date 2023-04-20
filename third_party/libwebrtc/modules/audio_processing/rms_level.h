@@ -264,6 +264,9 @@ int
 kMinLevelDb
 =
 127
+kInaudibleButNotMuted
+=
+126
 }
 ;
 RmsLevel
