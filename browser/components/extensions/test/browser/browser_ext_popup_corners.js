@@ -207,6 +207,11 @@ popup
 .
 html
 "
+default_area
+:
+"
+navbar
+"
 browser_style
 :
 false

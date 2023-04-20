@@ -258,6 +258,11 @@ manifest
 browser_action
 :
 {
+default_area
+:
+"
+navbar
+"
 }
 }
 async

@@ -782,6 +782,11 @@ manifest
 browser_action
 :
 {
+default_area
+:
+"
+navbar
+"
 }
 page_action
 :

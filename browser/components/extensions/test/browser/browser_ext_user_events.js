@@ -779,6 +779,11 @@ default_title
 "
 test
 "
+default_area
+:
+"
+navbar
+"
 }
 page_action
 :
