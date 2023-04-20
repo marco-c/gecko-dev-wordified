@@ -7324,6 +7324,7 @@ ScrollOrigin
 Other
 aRange
 aSnapFlags
+aTriggeredByScript
 )
 ;
 }
@@ -10199,6 +10200,7 @@ ScrollOrigin
 Other
 aRange
 aSnapFlags
+aTriggeredByScript
 )
 ;
 }
