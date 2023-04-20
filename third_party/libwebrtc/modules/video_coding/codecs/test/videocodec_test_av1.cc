@@ -744,7 +744,7 @@ quality_thresholds
 36
 31
 .
-7
+6
 0
 .
 93
