@@ -3760,6 +3760,9 @@ cursor
 ;
 if
 (
+cursor
+&
+&
 spa_meta_cursor_is_valid
 (
 cursor
