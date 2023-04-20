@@ -182,6 +182,11 @@ provider
 :
 "
 "
+searchSource
+:
+"
+urlbar
+"
 }
 }
 )
@@ -367,6 +372,11 @@ history
 provider
 :
 "
+"
+searchSource
+:
+"
+urlbar
 "
 }
 }
