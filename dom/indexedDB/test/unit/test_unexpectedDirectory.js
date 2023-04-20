@@ -175,6 +175,12 @@ initialization
 .
 *
 /
+/
+*
+exported
+testSteps
+*
+/
 async
 function
 testSteps

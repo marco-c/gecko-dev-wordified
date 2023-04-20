@@ -113,6 +113,12 @@ loopCount
 =
 100
 ;
+/
+*
+exported
+testGenerator
+*
+/
 var
 testGenerator
 =

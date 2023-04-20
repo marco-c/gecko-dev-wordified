@@ -40,6 +40,12 @@ self
 =
 this
 ;
+/
+*
+exported
+testGenerator
+*
+/
 var
 testGenerator
 =

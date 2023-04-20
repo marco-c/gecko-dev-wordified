@@ -44,6 +44,12 @@ arbitrary
 setTimeout
 *
 /
+/
+*
+exported
+testGenerator
+*
+/
 var
 testGenerator
 =

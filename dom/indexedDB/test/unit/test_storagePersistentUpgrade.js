@@ -30,6 +30,12 @@ zero
 /
 *
 /
+/
+*
+exported
+testGenerator
+*
+/
 var
 testGenerator
 =

@@ -45,6 +45,13 @@ helpers
 js
 *
 /
+/
+*
+exported
+testSteps
+disableWorkerTest
+*
+/
 var
 disableWorkerTest
 =

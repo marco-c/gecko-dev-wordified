@@ -30,6 +30,13 @@ zero
 /
 *
 /
+/
+*
+exported
+testGenerator
+disableWorkerTest
+*
+/
 var
 disableWorkerTest
 =

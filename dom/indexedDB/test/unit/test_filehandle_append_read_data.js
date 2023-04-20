@@ -45,6 +45,13 @@ file
 js
 *
 /
+/
+*
+exported
+testGenerator
+disableWorkerTest
+*
+/
 var
 disableWorkerTest
 =
