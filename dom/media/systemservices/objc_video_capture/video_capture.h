@@ -116,8 +116,8 @@ RTCVideoCaptureIosObjC
 ;
 namespace
 webrtc
-{
-namespace
+:
+:
 videocapturemodule
 {
 class
@@ -209,12 +209,10 @@ capability_
 /
 /
 namespace
-videocapturemodule
-}
-/
-/
-namespace
 webrtc
+:
+:
+videocapturemodule
 #
 endif
 /
