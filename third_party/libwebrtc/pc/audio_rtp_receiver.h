@@ -940,6 +940,16 @@ signaling_thread_checker_
 .
 0
 ;
+bool
+stopped_
+RTC_GUARDED_BY
+(
+&
+signaling_thread_checker_
+)
+=
+true
+;
 RtpReceiverObserverInterface
 *
 observer_
