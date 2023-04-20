@@ -282,7 +282,7 @@ u
 "
 opfs
 -
-storage
+storage2
 "
 _ns
 )
