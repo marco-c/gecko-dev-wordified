@@ -731,7 +731,7 @@ num_channels
 ;
 for
 (
-size_t
+int
 c
 =
 0

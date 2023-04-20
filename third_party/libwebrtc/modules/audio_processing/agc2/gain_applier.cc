@@ -207,7 +207,7 @@ signal
 {
 for
 (
-size_t
+int
 k
 =
 0
@@ -326,7 +326,7 @@ gain_at_end_of_frame_linear
 {
 for
 (
-size_t
+int
 k
 =
 0
@@ -413,7 +413,7 @@ last_gain_linear
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -433,7 +433,7 @@ i
 {
 for
 (
-size_t
+int
 ch
 =
 0
@@ -595,7 +595,7 @@ GainApplier
 :
 Initialize
 (
-size_t
+int
 samples_per_channel
 )
 {

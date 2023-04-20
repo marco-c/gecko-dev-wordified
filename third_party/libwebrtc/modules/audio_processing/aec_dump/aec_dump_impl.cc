@@ -1047,7 +1047,7 @@ mutable_reverse_stream
 ;
 for
 (
-size_t
+int
 i
 =
 0

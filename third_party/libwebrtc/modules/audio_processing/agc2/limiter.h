@@ -162,7 +162,7 @@ public
 :
 Limiter
 (
-size_t
+int
 sample_rate_hz
 ApmDataDumper
 *
@@ -271,7 +271,7 @@ array
 void
 SetSampleRate
 (
-size_t
+int
 sample_rate_hz
 )
 ;
