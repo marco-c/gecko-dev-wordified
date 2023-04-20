@@ -925,7 +925,7 @@ HostAtom
 const
 ;
 const
-nsString
+nsCString
 &
 Path
 (
@@ -933,7 +933,7 @@ Path
 const
 ;
 const
-nsString
+nsCString
 &
 FilePath
 (
@@ -1003,11 +1003,11 @@ nsAtom
 mHostAtom
 ;
 mutable
-nsString
+nsCString
 mPath
 ;
 mutable
-nsString
+nsCString
 mFilePath
 ;
 mutable

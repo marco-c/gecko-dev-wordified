@@ -302,7 +302,7 @@ bool
 IsWebAccessiblePath
 (
 const
-nsAString
+nsACString
 &
 aPath
 )
@@ -325,7 +325,7 @@ URLInfo
 &
 aURI
 const
-nsAString
+nsACString
 &
 aPath
 )
@@ -647,7 +647,7 @@ bool
 IsWebAccessiblePath
 (
 const
-nsAString
+nsACString
 &
 aPath
 )
@@ -691,7 +691,7 @@ URLInfo
 &
 aURI
 const
-nsAString
+nsACString
 &
 aPath
 )
