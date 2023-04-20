@@ -640,7 +640,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -675,7 +675,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

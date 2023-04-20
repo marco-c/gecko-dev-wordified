@@ -130,7 +130,7 @@ name
 Test
 1
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -202,7 +202,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -271,7 +271,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -363,7 +363,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -462,7 +462,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -552,7 +552,7 @@ png
 "
 }
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -632,7 +632,7 @@ png
 "
 }
 }
-applications
+browser_specific_settings
 :
 {
 gecko

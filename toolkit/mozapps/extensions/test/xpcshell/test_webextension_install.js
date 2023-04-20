@@ -434,7 +434,7 @@ name
 "
 invalid
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1668,7 +1668,7 @@ let
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1819,7 +1819,7 @@ max
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1964,7 +1964,7 @@ both
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2112,7 +2112,7 @@ min
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2248,7 +2248,7 @@ max
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2383,7 +2383,7 @@ both
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2507,7 +2507,7 @@ org
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2625,7 +2625,7 @@ org
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2769,7 +2769,7 @@ let
 minStarApps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2900,7 +2900,7 @@ org
 apps
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3691,7 +3691,7 @@ gecko
 id
 :
 "
-unexepected
+unexpected
 tests
 .
 mozilla

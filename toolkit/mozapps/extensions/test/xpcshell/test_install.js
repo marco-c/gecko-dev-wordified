@@ -72,7 +72,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -111,7 +111,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -150,7 +150,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -189,7 +189,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko

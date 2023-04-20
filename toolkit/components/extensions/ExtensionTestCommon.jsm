@@ -1021,7 +1021,7 @@ addonData
 .
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 ;
@@ -3626,7 +3626,7 @@ data
 .
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 .
@@ -3658,7 +3658,7 @@ data
 manifest
 "
 "
-applications
+browser_specific_settings
 "
 "
 gecko

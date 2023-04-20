@@ -1493,7 +1493,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1946,7 +1946,7 @@ app
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2109,7 +2109,7 @@ done
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2920,7 +2920,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3297,7 +3297,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3642,7 +3642,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3928,7 +3928,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4389,7 +4389,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4685,7 +4685,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4993,7 +4993,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -5244,7 +5244,7 @@ dummy
 ]
 }
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -5405,7 +5405,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

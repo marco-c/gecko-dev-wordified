@@ -269,7 +269,7 @@ name
 info
 .
 name
-applications
+browser_specific_settings
 :
 {
 gecko

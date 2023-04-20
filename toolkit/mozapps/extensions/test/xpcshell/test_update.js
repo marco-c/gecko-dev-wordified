@@ -414,7 +414,7 @@ version
 info
 .
 version
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -508,7 +508,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1319,7 +1319,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1600,7 +1600,7 @@ Test
 Addon
 3
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2067,7 +2067,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2448,7 +2448,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2563,7 +2563,7 @@ version
 .
 5b1
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2690,7 +2690,7 @@ version
 3
 +
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2789,7 +2789,7 @@ version
 .
 5ab6
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2905,7 +2905,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3021,7 +3021,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3134,7 +3134,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3824,7 +3824,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4101,7 +4101,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4159,7 +4159,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4676,7 +4676,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko

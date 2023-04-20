@@ -92,7 +92,7 @@ version
 manifest_version
 :
 2
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -658,7 +658,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -770,7 +770,7 @@ will
 reject
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 .
@@ -782,7 +782,7 @@ strict_min_version
 ;
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 .

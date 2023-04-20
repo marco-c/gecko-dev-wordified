@@ -429,7 +429,7 @@ manifest
 version
 :
 addonVersion
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -531,7 +531,7 @@ manifest
 version
 :
 addonVersion
-applications
+browser_specific_settings
 :
 {
 gecko

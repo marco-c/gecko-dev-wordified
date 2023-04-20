@@ -93,7 +93,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -238,7 +238,7 @@ false
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

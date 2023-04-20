@@ -338,7 +338,7 @@ let
 manifest
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -646,7 +646,7 @@ extInfo
 updateUrl
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 .
@@ -867,7 +867,7 @@ let
 manifest
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1144,7 +1144,7 @@ let
 manifest
 =
 {
-applications
+browser_specific_settings
 :
 {
 gecko

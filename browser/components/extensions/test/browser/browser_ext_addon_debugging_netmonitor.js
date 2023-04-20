@@ -784,7 +784,7 @@ test
 /
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko

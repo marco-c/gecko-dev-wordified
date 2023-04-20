@@ -172,7 +172,7 @@ sw
 js
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -690,7 +690,7 @@ permissions
 alarms
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1032,7 +1032,7 @@ permissions
 :
 [
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1407,7 +1407,7 @@ permissions
 :
 [
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1823,7 +1823,7 @@ permissions
 :
 [
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2550,7 +2550,7 @@ permissions
 :
 [
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3079,7 +3079,7 @@ sw
 js
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko

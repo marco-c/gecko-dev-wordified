@@ -912,7 +912,7 @@ name
 Extension
 1
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1025,7 +1025,7 @@ name
 Extension
 2
 "
-applications
+browser_specific_settings
 :
 {
 gecko

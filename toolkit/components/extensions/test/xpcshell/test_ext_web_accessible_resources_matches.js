@@ -1333,7 +1333,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1420,7 +1420,7 @@ manifest
 manifest_version
 :
 3
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1847,7 +1847,7 @@ manifest
 manifest_version
 :
 3
-applications
+browser_specific_settings
 :
 {
 gecko

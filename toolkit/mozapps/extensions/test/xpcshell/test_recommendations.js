@@ -185,7 +185,7 @@ createTempWebExtensionFile
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -814,7 +814,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -933,7 +933,7 @@ installBuiltinExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1044,7 +1044,7 @@ createTempWebExtensionFile
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

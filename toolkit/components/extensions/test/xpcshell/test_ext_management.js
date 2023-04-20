@@ -556,7 +556,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -670,7 +670,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -766,7 +766,7 @@ id
 {
 return
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1437,7 +1437,7 @@ permanent
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

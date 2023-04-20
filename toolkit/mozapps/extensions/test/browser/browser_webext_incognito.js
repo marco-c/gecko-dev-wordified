@@ -1048,7 +1048,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1081,7 +1081,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1121,7 +1121,7 @@ permanent
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1163,7 +1163,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1813,7 +1813,7 @@ with
 inline
 options
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1882,7 +1882,7 @@ a
 new
 tab
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1954,7 +1954,7 @@ incognito
 "
 not_allowed
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2707,7 +2707,7 @@ opt
 -
 in
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2744,7 +2744,7 @@ Extension
 incognito
 not_allowed
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2783,7 +2783,7 @@ name
 Static
 Theme
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2832,7 +2832,7 @@ name
 "
 Dictionary
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2896,7 +2896,7 @@ name
 "
 Langpack
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2968,7 +2968,7 @@ definition
 .
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 ;

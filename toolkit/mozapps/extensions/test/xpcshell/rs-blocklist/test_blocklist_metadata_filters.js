@@ -284,7 +284,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -353,7 +353,7 @@ dangerous
 com
 /
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -454,7 +454,7 @@ dangerous
 com
 /
 "
-applications
+browser_specific_settings
 :
 {
 gecko

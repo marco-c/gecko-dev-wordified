@@ -1115,7 +1115,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2721,7 +2721,7 @@ manifest
 :
 {
 name
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3473,7 +3473,7 @@ author
 Bad
 author
 "
-applications
+browser_specific_settings
 :
 {
 gecko

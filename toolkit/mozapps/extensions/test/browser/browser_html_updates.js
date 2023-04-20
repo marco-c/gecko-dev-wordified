@@ -225,7 +225,7 @@ name
 "
 Test
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1246,7 +1246,7 @@ icon
 png
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -5727,7 +5727,7 @@ name
 "
 TestAddonNoUpdate
 "
-applications
+browser_specific_settings
 :
 {
 gecko

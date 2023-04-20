@@ -276,7 +276,7 @@ manifest
 :
 {
 version
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -364,7 +364,7 @@ manifest
 :
 {
 version
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2122,7 +2122,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2475,7 +2475,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2606,7 +2606,7 @@ version
 .
 5
 "
-applications
+browser_specific_settings
 :
 {
 gecko

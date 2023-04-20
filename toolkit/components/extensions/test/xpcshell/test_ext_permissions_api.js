@@ -1281,7 +1281,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1573,7 +1573,7 @@ upgrade
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

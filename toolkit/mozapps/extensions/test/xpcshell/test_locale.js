@@ -131,7 +131,7 @@ default_locale
 "
 en
 "
-applications
+browser_specific_settings
 :
 {
 gecko

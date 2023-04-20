@@ -387,7 +387,7 @@ theme
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -621,7 +621,7 @@ options
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

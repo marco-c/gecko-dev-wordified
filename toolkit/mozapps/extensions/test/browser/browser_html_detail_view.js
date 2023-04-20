@@ -1560,7 +1560,7 @@ name
 "
 Test
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1604,7 +1604,7 @@ name
 "
 Test
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2287,7 +2287,7 @@ name
 "
 Test
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -6971,7 +6971,7 @@ My
 PB
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -8078,7 +8078,7 @@ name
 Remove
 me
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -8368,7 +8368,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -8662,7 +8662,7 @@ Allowed
 PB
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko

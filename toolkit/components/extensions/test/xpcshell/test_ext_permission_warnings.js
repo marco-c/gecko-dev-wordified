@@ -4231,7 +4231,7 @@ reader
 *
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4378,7 +4378,7 @@ reader
 *
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko

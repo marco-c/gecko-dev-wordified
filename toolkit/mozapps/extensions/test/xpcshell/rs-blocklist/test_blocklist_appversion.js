@@ -1013,7 +1013,7 @@ version
 addon
 .
 version
-applications
+browser_specific_settings
 :
 {
 gecko

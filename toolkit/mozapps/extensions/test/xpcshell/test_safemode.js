@@ -214,7 +214,7 @@ Test
 version
 :
 VERSION
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -239,7 +239,7 @@ installBuiltinExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

@@ -1378,7 +1378,7 @@ devtools_page
 .
 html
 "
-applications
+browser_specific_settings
 :
 {
 gecko

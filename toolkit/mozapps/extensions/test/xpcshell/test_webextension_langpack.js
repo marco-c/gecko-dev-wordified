@@ -528,7 +528,7 @@ version
 manifest_version
 :
 2
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -695,7 +695,7 @@ json
 "
 ]
 .
-applications
+browser_specific_settings
 .
 gecko
 =

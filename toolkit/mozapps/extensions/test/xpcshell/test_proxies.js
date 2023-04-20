@@ -497,7 +497,7 @@ name
 addon
 .
 id
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1184,7 +1184,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

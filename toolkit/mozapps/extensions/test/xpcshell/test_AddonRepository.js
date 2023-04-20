@@ -122,7 +122,7 @@ version
 .
 1
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -166,7 +166,7 @@ theme
 :
 {
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -210,7 +210,7 @@ theme
 :
 {
 }
-applications
+browser_specific_settings
 :
 {
 gecko

@@ -320,7 +320,7 @@ Object
 freeze
 (
 {
-applications
+browser_specific_settings
 :
 Object
 .
@@ -2989,7 +2989,7 @@ addonData
 .
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 ;

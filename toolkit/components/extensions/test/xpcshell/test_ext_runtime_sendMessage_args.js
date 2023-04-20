@@ -158,7 +158,7 @@ frame
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -335,7 +335,7 @@ sender
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

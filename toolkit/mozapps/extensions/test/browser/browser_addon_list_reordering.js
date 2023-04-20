@@ -557,7 +557,7 @@ manifest
 name
 :
 id
-applications
+browser_specific_settings
 :
 {
 gecko

@@ -217,7 +217,7 @@ permissions
 storage
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko

@@ -4314,7 +4314,7 @@ browser_action
 :
 {
 }
-applications
+browser_specific_settings
 :
 {
 gecko
