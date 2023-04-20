@@ -1446,7 +1446,7 @@ aEndTime
 )
 ;
 void
-CompositeIfNeeded
+RetrySkippedComposite
 (
 )
 ;
