@@ -95,7 +95,7 @@ once_cell
 ;
 extern
 crate
-pkcs11
+pkcs11_bindings
 ;
 #
 [
@@ -119,10 +119,7 @@ sync
 OnceCell
 ;
 use
-pkcs11
-:
-:
-types
+pkcs11_bindings
 :
 :
 *
@@ -601,7 +598,7 @@ C_Initialize
 (
 pInitArgs
 :
-CK_C_INITIALIZE_ARGS_PTR
+CK_VOID_PTR
 )
 -
 >
@@ -661,7 +658,11 @@ unsafe
 {
 (
 *
+(
 pInitArgs
+as
+CK_C_INITIALIZE_ARGS_PTR
+)
 )
 .
 pReserved
@@ -2769,7 +2770,7 @@ push
 (
 attr
 .
-attrType
+type_
 )
 ;
 }
@@ -3168,7 +3169,7 @@ push
 (
 attr
 .
-attrType
+type_
 slice
 .
 to_owned

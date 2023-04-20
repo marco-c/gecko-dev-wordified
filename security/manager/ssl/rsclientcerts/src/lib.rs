@@ -83,7 +83,7 @@ byteorder
 ;
 extern
 crate
-pkcs11
+pkcs11_bindings
 ;
 pub
 mod
