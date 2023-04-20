@@ -370,6 +370,12 @@ aAddDataFlavor
 *
 /
 aTransferable
+false
+/
+*
+aFilterUnknownFlavors
+*
+/
 )
 ;
 }
@@ -791,6 +797,12 @@ aAddDataFlavor
 *
 /
 transferable
+false
+/
+*
+aFilterUnknownFlavors
+*
+/
 )
 ;
 if

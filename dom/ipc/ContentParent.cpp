@@ -22361,6 +22361,12 @@ aAddDataFlavor
 *
 /
 trans
+true
+/
+*
+aFilterUnknownFlavors
+*
+/
 )
 ;
 NS_ENSURE_SUCCESS

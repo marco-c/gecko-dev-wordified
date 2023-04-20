@@ -13733,6 +13733,12 @@ aAddDataFlavor
 *
 /
 trans
+false
+/
+*
+aFilterUnknownFlavors
+*
+/
 )
 ;
 NS_ENSURE_SUCCESS
