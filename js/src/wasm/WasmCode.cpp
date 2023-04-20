@@ -4492,9 +4492,11 @@ mallocSizeOf
 const
 {
 return
-SizeOfVectorExcludingThis
-(
 types
+-
+>
+sizeOfExcludingThis
+(
 mallocSizeOf
 )
 +

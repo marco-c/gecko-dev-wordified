@@ -996,15 +996,12 @@ types
 funcIndex
 ]
 =
-TypeDef
-(
 std
 :
 :
 move
 (
 type
-)
 )
 ;
 }

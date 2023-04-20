@@ -2913,7 +2913,7 @@ if
 (
 type
 .
-isTypeIndex
+isTypeRef
 (
 )
 )

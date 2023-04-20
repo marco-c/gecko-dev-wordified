@@ -5678,7 +5678,7 @@ case
 RefType
 :
 :
-TypeIndex
+TypeRef
 :
 /
 /

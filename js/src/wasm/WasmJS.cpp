@@ -7110,6 +7110,7 @@ cx
 ToString
 (
 valType
+nullptr
 )
 .
 get
@@ -7351,6 +7352,7 @@ cx
 ToString
 (
 type
+nullptr
 )
 .
 get
@@ -7945,6 +7947,7 @@ cx
 ToString
 (
 type
+nullptr
 )
 .
 get
@@ -28561,15 +28564,12 @@ types
 0
 ]
 =
-TypeDef
-(
 std
 :
 :
 move
 (
 funcType
-)
 )
 ;
 /
