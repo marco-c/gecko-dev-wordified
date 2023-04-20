@@ -283,9 +283,9 @@ include
 "
 rtc_base
 /
-deprecated
+synchronization
 /
-recursive_critical_section
+mutex
 .
 h
 "
@@ -1133,11 +1133,9 @@ module_proxy_
 this
 }
 ;
-rtc
-:
-:
-RecursiveCriticalSection
-critsect_
+mutable
+Mutex
+mutex_
 ;
 const
 PacingController
@@ -1150,7 +1148,7 @@ PacingController
 pacing_controller_
 RTC_GUARDED_BY
 (
-critsect_
+mutex_
 )
 ;
 Clock
