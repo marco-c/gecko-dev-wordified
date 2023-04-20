@@ -1007,15 +1007,6 @@ mDocument
 }
 protected
 :
-void
-FavorPerformanceHint
-(
-bool
-perfOverStarvation
-uint32_t
-starvationDelay
-)
-;
 inline
 int32_t
 GetNotificationInterval
