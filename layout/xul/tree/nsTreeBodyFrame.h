@@ -492,6 +492,15 @@ forget
 )
 ;
 }
+already_AddRefed
+<
+nsITreeSelection
+>
+GetSelection
+(
+)
+const
+;
 nsresult
 GetView
 (
