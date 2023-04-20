@@ -978,7 +978,6 @@ sensor
 reading
 updates
 .
-async
 setSensorReading
 (
 readingData
@@ -993,9 +992,6 @@ RingBuffer
 (
 readingData
 )
-;
-return
-this
 ;
 }
 /
