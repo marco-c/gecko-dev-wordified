@@ -82,15 +82,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-EncryptedMediaChild
-"
-]
-;
 /
 *
 *
@@ -680,6 +671,7 @@ GlobalCaptureListener
 (
 )
 ;
+export
 class
 EncryptedMediaChild
 extends

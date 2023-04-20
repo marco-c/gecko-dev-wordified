@@ -3485,7 +3485,9 @@ actors
 /
 EncryptedMediaParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
@@ -3503,7 +3505,9 @@ actors
 /
 EncryptedMediaChild
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :
