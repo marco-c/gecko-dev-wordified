@@ -1738,6 +1738,8 @@ UniquePtr
 ClientSource
 >
 aClientSource
+bool
+aShouldResistFingerprinting
 )
 :
 mWorkerPrivate
@@ -1762,6 +1764,10 @@ aWorkerPrivate
 HybridEventTarget
 (
 )
+)
+mShouldResistFingerprinting
+(
+aShouldResistFingerprinting
 )
 {
 MOZ_ASSERT
@@ -1942,12 +1948,7 @@ AssertIsOnWorkerThread
 )
 ;
 return
-mWorkerPrivate
--
->
-ShouldResistFingerprinting
-(
-)
+mShouldResistFingerprinting
 ;
 }
 uint32_t
@@ -4954,6 +4955,8 @@ const
 nsString
 &
 aName
+bool
+aShouldResistFingerprinting
 )
 :
 WorkerGlobalScope
@@ -4972,6 +4975,7 @@ move
 (
 aClientSource
 )
+aShouldResistFingerprinting
 )
 NamedWorkerGlobalScopeMixin
 (
@@ -6037,6 +6041,8 @@ const
 nsString
 &
 aName
+bool
+aShouldResistFingerprinting
 )
 :
 WorkerGlobalScope
@@ -6055,6 +6061,7 @@ move
 (
 aClientSource
 )
+aShouldResistFingerprinting
 )
 NamedWorkerGlobalScopeMixin
 (
@@ -6206,6 +6213,8 @@ const
 ServiceWorkerRegistrationDescriptor
 &
 aRegistrationDescriptor
+bool
+aShouldResistFingerprinting
 )
 :
 WorkerGlobalScope
@@ -6224,6 +6233,7 @@ move
 (
 aClientSource
 )
+aShouldResistFingerprinting
 )
 mScope
 (
