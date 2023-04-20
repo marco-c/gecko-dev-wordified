@@ -767,7 +767,7 @@ cmd
 env
 =
 None
-buffer_output
+capture_output
 =
 True
 stdin
@@ -780,7 +780,7 @@ del
 env
     
 del
-buffer_output
+capture_output
     
 del
 stdin
@@ -1880,7 +1880,7 @@ cmd
 env
 =
 None
-buffer_output
+capture_output
 =
 True
 stdin
@@ -1909,7 +1909,7 @@ del
 env
           
 del
-buffer_output
+capture_output
           
 del
 stdin
