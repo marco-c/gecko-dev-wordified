@@ -676,12 +676,6 @@ true
 ;
 encoder_info_
 .
-has_internal_source
-=
-false
-;
-encoder_info_
-.
 implementation_name
 =
 JavaToStdString

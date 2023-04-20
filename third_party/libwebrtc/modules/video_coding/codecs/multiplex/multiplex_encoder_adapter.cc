@@ -897,12 +897,6 @@ apply_alignment_to_all_simulcast_layers
 true
 ;
 }
-encoder_info_
-.
-has_internal_source
-=
-false
-;
 encoders_
 .
 emplace_back

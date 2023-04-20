@@ -3644,13 +3644,6 @@ info
 is_hardware_accelerated
 )
 ;
-EXPECT_FALSE
-(
-info
-.
-has_internal_source
-)
-;
 EXPECT_TRUE
 (
 info

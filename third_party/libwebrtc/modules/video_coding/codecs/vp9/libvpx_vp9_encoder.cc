@@ -12932,12 +12932,6 @@ is_hardware_accelerated
 =
 false
 ;
-info
-.
-has_internal_source
-=
-false
-;
 if
 (
 inited_
