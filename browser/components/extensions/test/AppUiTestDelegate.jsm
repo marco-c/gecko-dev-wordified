@@ -644,7 +644,7 @@ lazy
 .
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 )
 {
 await

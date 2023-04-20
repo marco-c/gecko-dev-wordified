@@ -2552,8 +2552,6 @@ areatype
 !
 =
 "
-menu
--
 panel
 "
 &
@@ -7177,7 +7175,7 @@ areaType
 =
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 )
 {
 PlacesCommandHook
@@ -8449,7 +8447,7 @@ areatype
 =
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 |
 |
 this
@@ -12025,7 +12023,7 @@ areatype
 =
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 )
 {
 this

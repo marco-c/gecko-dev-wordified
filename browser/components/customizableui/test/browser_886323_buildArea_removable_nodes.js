@@ -215,7 +215,7 @@ type
 :
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 defaultPlacements
 :
 [

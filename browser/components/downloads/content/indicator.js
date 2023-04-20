@@ -2996,7 +2996,7 @@ areaType
 =
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 ;
 /
 /
@@ -3569,7 +3569,7 @@ areaType
 =
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 )
 {
 let
