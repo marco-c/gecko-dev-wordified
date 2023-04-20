@@ -24420,6 +24420,21 @@ emulation
 "
 )
     
+Atom
+(
+"
+_moz_panel_animations
+"
+"
+-
+moz
+-
+panel
+-
+animations
+"
+)
+    
 #
 application
 commands
