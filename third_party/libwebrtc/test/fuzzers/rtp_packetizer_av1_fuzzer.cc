@@ -329,6 +329,13 @@ BytesLeft
 )
 limits
 frame_type
+/
+*
+is_last_frame_in_picture
+=
+*
+/
+true
 )
 ;
 size_t

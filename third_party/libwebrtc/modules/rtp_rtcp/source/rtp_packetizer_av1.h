@@ -169,6 +169,8 @@ PayloadSizeLimits
 limits
 VideoFrameType
 frame_type
+bool
+is_last_frame_in_picture
 )
 ;
 ~
@@ -443,6 +445,10 @@ vector
 Packet
 >
 packets_
+;
+const
+bool
+is_last_frame_in_picture_
 ;
 size_t
 packet_index_
