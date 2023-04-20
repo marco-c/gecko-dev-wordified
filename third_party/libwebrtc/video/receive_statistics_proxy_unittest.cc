@@ -324,8 +324,11 @@ reset
 new
 ReceiveStatisticsProxy
 (
-&
 config_
+.
+rtp
+.
+remote_ssrc
 &
 fake_clock_
 )
