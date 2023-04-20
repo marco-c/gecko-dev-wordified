@@ -2292,6 +2292,13 @@ return
 true
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 /
 /
 An
@@ -3076,6 +3083,8 @@ return
 true
 ;
 }
+#
+endif
 /
 /
 From
@@ -5228,6 +5237,12 @@ return
 true
 ;
 }
+#
+if
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 /
 /
 CSRCAudioLevel
@@ -5676,6 +5691,8 @@ csrcAudioLevels
 numAudioLevels
 ;
 }
+#
+endif
 /
 /
 Video

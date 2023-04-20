@@ -2250,6 +2250,12 @@ audio
 level
 "
 ;
+#
+if
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 /
 /
 Header
@@ -2307,6 +2313,8 @@ audio
 level
 "
 ;
+#
+endif
 /
 /
 Header
@@ -3212,6 +3220,13 @@ tracking
 id
 "
 ;
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 /
 /
 Header
@@ -3269,6 +3284,8 @@ audio
 level
 "
 ;
+#
+endif
 /
 /
 Inclusive

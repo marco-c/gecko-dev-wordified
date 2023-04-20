@@ -346,12 +346,6 @@ VideoFrameTrackingIdExtension
 >
 (
 )
-CreateExtensionInfo
-<
-CsrcAudioLevel
->
-(
-)
 }
 ;
 /
