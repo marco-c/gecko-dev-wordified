@@ -1095,6 +1095,8 @@ SctpPacket
 Builder
 &
 builder
+TimeMs
+now
 bool
 only_one_packet
 =
@@ -1122,6 +1124,8 @@ packets
 void
 SendBufferedPackets
 (
+TimeMs
+now
 )
 {
 SctpPacket
@@ -1137,6 +1141,7 @@ options_
 SendBufferedPackets
 (
 builder
+now
 /
 *
 only_one_packet
