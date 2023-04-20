@@ -696,6 +696,9 @@ num_cpu_cores
 TaskQueueFactory
 *
 task_queue_factory
+TaskQueueBase
+*
+network_queue
 RtcpRttStats
 *
 call_stats
@@ -816,6 +819,7 @@ OveruseFrameDetector
 stats_proxy_
 )
 task_queue_factory
+network_queue
 GetBitrateAllocationCallbackType
 (
 config_

@@ -344,6 +344,9 @@ num_cpu_cores
 TaskQueueFactory
 *
 task_queue_factory
+TaskQueueBase
+*
+network_queue
 RtcpRttStats
 *
 call_stats
