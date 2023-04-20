@@ -579,9 +579,6 @@ str
 ;
 }
 namespace
-internal
-{
-namespace
 {
 std
 :
@@ -725,10 +722,10 @@ rtcp_event_observer
 /
 /
 namespace
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
-AudioReceiveStream
+AudioReceiveStreamImpl
 (
 Clock
 *
@@ -770,7 +767,7 @@ RtcEventLog
 event_log
 )
 :
-AudioReceiveStream
+AudioReceiveStreamImpl
 (
 clock
 packet_router
@@ -792,10 +789,10 @@ event_log
 )
 {
 }
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
-AudioReceiveStream
+AudioReceiveStreamImpl
 (
 Clock
 *
@@ -875,7 +872,7 @@ LS_INFO
 <
 <
 "
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 "
 <
@@ -1061,11 +1058,11 @@ channel_receive_
 already
 .
 }
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 ~
-AudioReceiveStream
+AudioReceiveStreamImpl
 (
 )
 {
@@ -1083,7 +1080,7 @@ LS_INFO
 <
 "
 ~
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 "
 <
@@ -1113,7 +1110,7 @@ ResetReceiverCongestionControlObjects
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 RegisterWithTransport
@@ -1154,7 +1151,7 @@ get
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 UnregisterFromTransport
@@ -1175,7 +1172,7 @@ reset
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 ReconfigureForTesting
@@ -1378,7 +1375,7 @@ config
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 Start
@@ -1422,7 +1419,7 @@ this
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 Stop
@@ -1467,7 +1464,7 @@ this
 ;
 }
 bool
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 transport_cc
@@ -1490,7 +1487,7 @@ transport_cc
 ;
 }
 bool
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 IsRunning
@@ -1509,7 +1506,7 @@ playing_
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetDepacketizerToDecoderFrameTransformer
@@ -1549,7 +1546,7 @@ frame_transformer
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetDecoderMap
@@ -1595,7 +1592,7 @@ decoder_map
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetUseTransportCcAndNackHistory
@@ -1697,7 +1694,7 @@ history_ms
 }
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetNonSenderRttMeasurement
@@ -1728,7 +1725,7 @@ enabled
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetFrameDecryptor
@@ -1797,7 +1794,7 @@ frame_decryptor
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetRtpExtensions
@@ -1871,7 +1868,7 @@ vector
 RtpExtension
 >
 &
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetRtpExtensions
@@ -1894,7 +1891,7 @@ extensions
 ;
 }
 RtpHeaderExtensionMap
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetRtpExtensionMap
@@ -1920,7 +1917,7 @@ AudioReceiveStream
 :
 :
 Stats
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetStats
@@ -2625,7 +2622,7 @@ stats
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetSink
@@ -2651,7 +2648,7 @@ sink
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetGain
@@ -2676,7 +2673,7 @@ gain
 ;
 }
 bool
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetBaseMinimumPlayoutDelayMs
@@ -2702,7 +2699,7 @@ delay_ms
 ;
 }
 int
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetBaseMinimumPlayoutDelayMs
@@ -2732,7 +2729,7 @@ vector
 <
 RtpSource
 >
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetSources
@@ -2755,7 +2752,7 @@ Source
 :
 :
 AudioFrameInfo
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetAudioFrameWithInfo
@@ -2818,7 +2815,7 @@ audio_frame_info
 ;
 }
 int
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 Ssrc
@@ -2833,7 +2830,7 @@ remote_ssrc
 ;
 }
 int
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 PreferredSampleRate
@@ -2851,7 +2848,7 @@ PreferredSampleRate
 ;
 }
 uint32_t
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 id
@@ -2881,7 +2878,7 @@ Syncable
 :
 Info
 >
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetInfo
@@ -2934,7 +2931,7 @@ GetSyncInfo
 ;
 }
 bool
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetPlayoutRtpTimestamp
@@ -2968,7 +2965,7 @@ time_ms
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetEstimatedPlayoutNtpTimestampMs
@@ -2998,7 +2995,7 @@ time_ms
 ;
 }
 bool
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetMinimumPlayoutDelay
@@ -3053,11 +3050,14 @@ delay_ms
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 AssociateSendStream
 (
+internal
+:
+:
 AudioSendStream
 *
 send_stream
@@ -3092,7 +3092,7 @@ send_stream
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 DeliverRtcp
@@ -3171,7 +3171,7 @@ length
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetSyncGroup
@@ -3203,7 +3203,7 @@ sync_group
 ;
 }
 void
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 SetLocalSsrc
@@ -3250,7 +3250,7 @@ local_ssrc
 ;
 }
 uint32_t
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 local_ssrc
@@ -3293,7 +3293,7 @@ std
 :
 string
 &
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 sync_group
@@ -3316,7 +3316,7 @@ sync_group
 const
 AudioSendStream
 *
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 GetAssociatedSendStreamForTesting
@@ -3339,7 +3339,7 @@ internal
 :
 AudioState
 *
-AudioReceiveStream
+AudioReceiveStreamImpl
 :
 :
 audio_state
@@ -3376,11 +3376,6 @@ return
 audio_state
 ;
 }
-}
-/
-/
-namespace
-internal
 }
 /
 /

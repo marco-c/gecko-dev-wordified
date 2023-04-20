@@ -1034,10 +1034,7 @@ std
 :
 unique_ptr
 <
-internal
-:
-:
-AudioReceiveStream
+AudioReceiveStreamImpl
 >
 CreateAudioReceiveStream
 (
@@ -1051,10 +1048,7 @@ std
 :
 make_unique
 <
-internal
-:
-:
-AudioReceiveStream
+AudioReceiveStreamImpl
 >
 (
 Clock
