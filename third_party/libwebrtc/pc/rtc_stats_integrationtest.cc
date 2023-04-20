@@ -5903,7 +5903,7 @@ is_defined
 *
 inbound_stream
 .
-media_type
+kind
 =
 =
 "
@@ -5956,7 +5956,7 @@ is_defined
 *
 inbound_stream
 .
-media_type
+kind
 =
 =
 "
@@ -6033,7 +6033,7 @@ is_defined
 *
 inbound_stream
 .
-media_type
+kind
 =
 =
 "
@@ -6254,7 +6254,7 @@ is_defined
 *
 inbound_stream
 .
-media_type
+kind
 =
 =
 "
@@ -6588,7 +6588,7 @@ is_defined
 *
 inbound_stream
 .
-media_type
+kind
 =
 =
 "
@@ -6903,7 +6903,7 @@ is_defined
 *
 outbound_stream
 .
-media_type
+kind
 =
 =
 "
@@ -7126,7 +7126,7 @@ is_defined
 *
 outbound_stream
 .
-media_type
+kind
 =
 =
 "
