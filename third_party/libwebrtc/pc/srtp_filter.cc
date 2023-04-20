@@ -1384,7 +1384,7 @@ send_salt_len
 {
 RTC_LOG
 (
-LS_WARNING
+LS_ERROR
 )
 <
 <
@@ -1605,7 +1605,7 @@ recv_salt_len
 {
 RTC_LOG
 (
-LS_WARNING
+LS_ERROR
 )
 <
 <
