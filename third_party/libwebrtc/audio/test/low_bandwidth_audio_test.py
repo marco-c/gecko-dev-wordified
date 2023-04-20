@@ -983,6 +983,15 @@ stdout
 write
 (
 line
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
     
 #
