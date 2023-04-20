@@ -745,6 +745,8 @@ backtrace
 backtrace_if_absent
 !
 (
+&
+*
 error
 )
 ;
