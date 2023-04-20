@@ -578,7 +578,7 @@ adaptive_agc_
 adaptive_agc_
 -
 >
-Reset
+HandleInputGainChange
 (
 )
 ;

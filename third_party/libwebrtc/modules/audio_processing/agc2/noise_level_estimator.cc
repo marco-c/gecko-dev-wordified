@@ -1339,7 +1339,7 @@ data_dumper_
 DumpRaw
 (
 "
-agc2_noise_floor_preliminary_level
+agc2_noise_floor_estimator_preliminary_level
 "
 noise_energy_
 )
@@ -1390,7 +1390,7 @@ data_dumper_
 DumpRaw
 (
 "
-agc2_noise_floor_preliminary_level
+agc2_noise_floor_estimator_preliminary_level
 "
 preliminary_noise_energy_
 )

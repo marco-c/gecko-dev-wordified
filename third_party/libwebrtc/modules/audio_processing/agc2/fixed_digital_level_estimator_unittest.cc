@@ -592,7 +592,7 @@ kSubFramesInFrame
 namespace
 TEST
 (
-AutomaticGainController2LevelEstimator
+GainController2FixedDigitalLevelEstimator
 EstimatorShouldNotCrash
 )
 {
@@ -630,7 +630,7 @@ max
 }
 TEST
 (
-AutomaticGainController2LevelEstimator
+GainController2FixedDigitalLevelEstimator
 EstimatorShouldEstimateConstantLevel
 )
 {
@@ -654,7 +654,7 @@ kInputLevel
 }
 TEST
 (
-AutomaticGainController2LevelEstimator
+GainController2FixedDigitalLevelEstimator
 EstimatorShouldEstimateConstantLevelForManyChannels
 )
 {
@@ -684,7 +684,7 @@ kInputLevel
 }
 TEST
 (
-AutomaticGainController2LevelEstimator
+GainController2FixedDigitalLevelEstimator
 TimeToDecreaseForLowLevel
 )
 {
@@ -747,7 +747,7 @@ kExpectedTime
 }
 TEST
 (
-AutomaticGainController2LevelEstimator
+GainController2FixedDigitalLevelEstimator
 TimeToDecreaseForFullScaleLevel
 )
 {
@@ -803,7 +803,7 @@ kExpectedTime
 }
 TEST
 (
-AutomaticGainController2LevelEstimator
+GainController2FixedDigitalLevelEstimator
 TimeToDecreaseForMultipleChannels
 )
 {

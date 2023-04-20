@@ -484,7 +484,7 @@ ComputeInterpolatedGainCurve
 .
 FRIEND_TEST_ALL_PREFIXES
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckApproximationParams
 )
 ;

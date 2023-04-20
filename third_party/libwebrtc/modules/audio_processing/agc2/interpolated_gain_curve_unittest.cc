@@ -262,7 +262,7 @@ limiter
 namespace
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CreateUse
 )
 {
@@ -324,7 +324,7 @@ level
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckValidOutput
 )
 {
@@ -410,7 +410,7 @@ gain
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckMonotonicity
 )
 {
@@ -493,7 +493,7 @@ gain
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckApproximation
 )
 {
@@ -574,7 +574,7 @@ kInterpolatedGainCurveTolerance
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckRegionBoundaries
 )
 {
@@ -685,7 +685,7 @@ look_ups_saturation_region
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckIdentityRegion
 )
 {
@@ -803,7 +803,7 @@ look_ups_saturation_region
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckNoOverApproximationKnee
 )
 {
@@ -950,7 +950,7 @@ look_ups_saturation_region
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckNoOverApproximationBeyondKnee
 )
 {
@@ -1097,7 +1097,7 @@ look_ups_saturation_region
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckNoOverApproximationWithSaturation
 )
 {
@@ -1228,7 +1228,7 @@ look_ups_saturation_region
 }
 TEST
 (
-AutomaticGainController2InterpolatedGainCurve
+GainController2InterpolatedGainCurve
 CheckApproximationParams
 )
 {
