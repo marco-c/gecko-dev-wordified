@@ -476,6 +476,12 @@ GetTotalNumberOfDroppedFrames
 )
 const
 ;
+size_t
+CurrentSize
+(
+)
+const
+;
 private
 :
 struct

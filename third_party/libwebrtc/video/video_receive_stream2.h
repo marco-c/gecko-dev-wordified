@@ -1270,15 +1270,6 @@ decode_queue_
 )
 ;
 void
-StartNextDecode
-(
-)
-RTC_RUN_ON
-(
-decode_queue_
-)
-;
-void
 HandleEncodedFrame
 (
 std
