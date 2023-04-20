@@ -2071,6 +2071,9 @@ code_id
 check
 -
 cfi
+-
+-
+inlines
 "
             
 f
@@ -2127,6 +2130,9 @@ debug_id
 check
 -
 cfi
+-
+-
+inlines
 "
             
 f
