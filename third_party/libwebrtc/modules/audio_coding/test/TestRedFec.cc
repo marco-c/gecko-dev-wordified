@@ -1455,6 +1455,7 @@ move
 (
 config
 )
+field_trials_
 )
 ;
 receive_codecs

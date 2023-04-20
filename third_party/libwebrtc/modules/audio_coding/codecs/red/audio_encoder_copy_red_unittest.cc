@@ -162,6 +162,15 @@ include
 "
 test
 /
+scoped_key_value_config
+.
+h
+"
+#
+include
+"
+test
+/
 testsupport
 /
 rtc_expect_death
@@ -365,6 +374,7 @@ move
 (
 config
 )
+field_trials_
 )
 )
 ;
@@ -488,6 +498,12 @@ num_audio_samples_10ms
 )
 ;
 }
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 MockAudioEncoder
 *
 mock_encoder_
@@ -1456,9 +1472,10 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
+field_trials_
 "
 WebRTC
 -
@@ -1539,6 +1556,7 @@ move
 (
 config
 )
+field_trials
 )
 )
 ;
@@ -1700,9 +1718,10 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
+field_trials_
 "
 WebRTC
 -
@@ -1783,6 +1802,7 @@ move
 (
 config
 )
+field_trials
 )
 )
 ;
@@ -2086,9 +2106,10 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
+field_trials_
 "
 WebRTC
 -
@@ -2169,6 +2190,7 @@ move
 (
 config
 )
+field_trials_
 )
 )
 ;
@@ -3740,9 +3762,10 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
+field_trials_
 "
 WebRTC
 -
@@ -3823,6 +3846,7 @@ move
 (
 config
 )
+field_trials
 )
 )
 ;
@@ -3994,9 +4018,10 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
+field_trials_
 "
 WebRTC
 -
@@ -4077,6 +4102,7 @@ move
 (
 config
 )
+field_trials
 )
 )
 ;
@@ -5134,6 +5160,12 @@ AudioEncoderCopyRedDeathTest
 NullSpeechEncoder
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 AudioEncoderCopyRed
 *
 red
@@ -5166,6 +5198,7 @@ move
 (
 config
 )
+field_trials
 )
 "
 Speech
