@@ -40,7 +40,7 @@ BuiltInThemeConfig
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ modules
 /
 BuiltInThemeConfig
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

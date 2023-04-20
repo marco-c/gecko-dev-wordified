@@ -10492,7 +10492,7 @@ Color
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -10504,7 +10504,9 @@ modules
 /
 Windows8WindowFrameColor
 .
-jsm
+sys
+.
+mjs
 "
 )
 .

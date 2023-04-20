@@ -500,7 +500,9 @@ WARNING
 :
 BuiltInThemes
 .
-jsm
+sys
+.
+mjs
 may
 be
 provided
@@ -539,7 +541,7 @@ want
 things
 to
 completely
-fall
+fail
 if
 that
 module
@@ -571,7 +573,7 @@ BuiltInThemes
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -583,7 +585,9 @@ modules
 /
 BuiltInThemes
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -605,7 +609,9 @@ to
 load
 BuiltInThemes
 .
-jsm
+sys
+.
+mjs
 :
 {
 e

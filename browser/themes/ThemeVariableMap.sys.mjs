@@ -56,18 +56,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ThemeVariableMap
-"
-"
-ThemeContentPropertyList
-"
-]
-;
+export
 const
 ThemeVariableMap
 =
@@ -766,6 +755,7 @@ b
 ]
 ]
 ;
+export
 const
 ThemeContentPropertyList
 =
