@@ -1230,9 +1230,7 @@ a
 minimum
 of
 twice
-|
 kMinProbeDeltaMs
-|
 interval
 to
 allow

@@ -2255,9 +2255,7 @@ now
 ;
 /
 /
-|
 probe_time
-|
 =
 =
 PlusInfinity

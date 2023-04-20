@@ -485,9 +485,7 @@ org
 :
 Make
 the
-|
 process_thread
-|
 argument
 be
 non

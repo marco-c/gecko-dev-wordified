@@ -429,9 +429,7 @@ ExpectedQueueTimeMs
 (
 )
 below
-|
 limit_ms
-|
 on
 average
 .

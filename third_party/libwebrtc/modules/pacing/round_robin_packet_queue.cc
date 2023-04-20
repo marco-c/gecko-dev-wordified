@@ -1055,9 +1055,7 @@ state
 Note
 that
 the
-|
 pause_time_sum_ms_
-|
 was
 /
 /
@@ -1146,9 +1144,7 @@ EnqueueTimeIterator
 /
 /
 Update
-|
 bytes
-|
 of
 this
 stream
@@ -1222,9 +1218,7 @@ large
 budget
 we
 limit
-|
 bytes
-|
 to
 be
 within
@@ -2126,9 +2120,7 @@ scheduled
 add
 it
 to
-|
 stream_priorities_
-|
 .
 RTC_CHECK
 (
@@ -2218,9 +2210,7 @@ priority
 .
 Note
 that
-|
 priority_
-|
 uses
 /
 /

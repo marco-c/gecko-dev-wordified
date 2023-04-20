@@ -272,9 +272,7 @@ specified
 by
 /
 /
-|
 max_probe_delay
-|
 abort
 it
 .
@@ -443,13 +441,9 @@ used
 to
 probe
 for
-|
 bitrate_bps
-|
 with
-|
 num_probes
-|
 number
 /
 /
@@ -521,9 +515,7 @@ org
 )
 :
 Remove
-|
 now
-|
 argument
 when
 old
@@ -633,9 +625,7 @@ packet
 in
 probe
 .
-|
 size
-|
 is
 the
 total

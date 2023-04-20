@@ -751,9 +751,7 @@ stream
 we
 check
 if
-|
 priority_it
-|
 /
 /
 points
@@ -761,9 +759,7 @@ to
 an
 element
 in
-|
 stream_priorities_
-|
 and
 if
 it

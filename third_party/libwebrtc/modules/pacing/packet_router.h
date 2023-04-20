@@ -452,9 +452,7 @@ ssrcs
 /
 /
 Sends
-|
 packets
-|
 in
 one
 or

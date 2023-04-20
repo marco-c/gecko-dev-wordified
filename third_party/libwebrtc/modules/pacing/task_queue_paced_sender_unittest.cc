@@ -3052,9 +3052,7 @@ should
 run
 /
 /
-|
 kMaxTimeBetweenStatsUpdates
-|
 after
 the
 first

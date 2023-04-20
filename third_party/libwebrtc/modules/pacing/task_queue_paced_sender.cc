@@ -189,9 +189,7 @@ stats
 at
 least
 every
-|
 kMaxTimeBetweenStatsUpdates
-|
 as
 long
 as
@@ -228,9 +226,7 @@ UpdateStats
 )
 more
 than
-|
 kMinTimeBetweenStatsUpdates
-|
 apart
 /
 /
@@ -1529,9 +1525,7 @@ scheduled
 /
 /
 (
-|
 next_process_time_
-|
 is
 infinite
 )

@@ -286,9 +286,7 @@ public
 /
 /
 The
-|
 hold_back_window
-|
 parameter
 sets
 a
@@ -968,9 +966,7 @@ If
 the
 value
 of
-|
 next_process_time_
-|
 is
 finite
 it
@@ -1049,9 +1045,7 @@ and
 update
 /
 /
-|
 current_stats_
-|
 which
 can
 in
