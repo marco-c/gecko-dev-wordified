@@ -510,7 +510,7 @@ else
 ContainerType
 :
 :
-NORMAL
+NONE
 }
 ;
 Ok
