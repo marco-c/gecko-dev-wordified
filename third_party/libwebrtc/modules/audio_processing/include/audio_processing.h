@@ -2816,6 +2816,13 @@ kRms
 kPeak
 }
 ;
+enum
+NoiseEstimator
+{
+kStationaryNoise
+kNoiseFloor
+}
+;
 bool
 enabled
 =
@@ -2842,6 +2849,11 @@ enabled
 =
 false
 ;
+NoiseEstimator
+noise_estimator
+=
+kNoiseFloor
+;
 int
 vad_reset_period_ms
 =
@@ -2852,7 +2864,7 @@ vad_probability_attack
 =
 0
 .
-3f
+9f
 ;
 LevelEstimator
 level_estimator
@@ -2862,7 +2874,7 @@ kRms
 int
 level_estimator_adjacent_speech_frames_threshold
 =
-6
+11
 ;
 /
 /
@@ -2902,7 +2914,7 @@ extra_saturation_margin_db
 int
 gain_applier_adjacent_speech_frames_threshold
 =
-6
+11
 ;
 float
 max_gain_change_db_per_second

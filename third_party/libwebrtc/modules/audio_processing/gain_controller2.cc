@@ -700,6 +700,8 @@ AdaptiveAgc
 &
 data_dumper_
 config_
+.
+adaptive_digital
 )
 ;
 }
