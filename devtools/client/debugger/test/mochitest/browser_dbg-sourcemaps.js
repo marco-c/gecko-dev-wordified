@@ -287,6 +287,16 @@ sourceDirectoryLabel
 )
 ;
 await
+clickElement
+(
+dbg
+"
+sourceDirectoryLabel
+"
+4
+)
+;
+await
 waitForSourcesInSourceTree
 (
 dbg
