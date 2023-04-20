@@ -119,6 +119,8 @@ Hour
 Literal
 (
 "
+\
+u202F
 "
 )
 DayPeriod
