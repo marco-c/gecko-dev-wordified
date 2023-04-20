@@ -100,11 +100,11 @@ __future__
 import
 unicode_literals
 import
+difflib
+import
 logging
 import
 os
-import
-difflib
 import
 unittest
 import

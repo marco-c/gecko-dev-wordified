@@ -88,13 +88,13 @@ Windows
 binary
 .
 import
-buildconfig
-import
 json
 import
 subprocess
 import
 sys
+import
+buildconfig
 #
 usage
 if

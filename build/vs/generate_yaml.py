@@ -62,6 +62,10 @@ MPL
 0
 /
 .
+import
+sys
+import
+yaml
 from
 vsdownload
 import
@@ -75,14 +79,10 @@ getPackages
     
 getSelectedPackages
     
-setPackageSelection
-    
 lowercaseIgnores
+    
+setPackageSelection
 )
-import
-sys
-import
-yaml
 if
 __name__
 =

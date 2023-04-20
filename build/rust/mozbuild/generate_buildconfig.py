@@ -54,11 +54,11 @@ MPL
 /
 .
 import
-buildconfig
+string
 import
 textwrap
 import
-string
+buildconfig
 def
 generate_bool
 (
