@@ -1310,7 +1310,6 @@ cricket
 AsyncStunTCPSocket
 (
 accepted_socket
-false
 )
 ;
 tcp_socket

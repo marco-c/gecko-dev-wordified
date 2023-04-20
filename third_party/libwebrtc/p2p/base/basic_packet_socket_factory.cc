@@ -622,7 +622,9 @@ socket
 )
 ;
 }
-if
+RTC_CHECK
+(
+!
 (
 opts
 &
@@ -631,15 +633,6 @@ PacketSocketFactory
 :
 OPT_STUN
 )
-return
-new
-cricket
-:
-:
-AsyncStunTCPSocket
-(
-socket
-true
 )
 ;
 return
@@ -1317,7 +1310,6 @@ cricket
 AsyncStunTCPSocket
 (
 socket
-false
 )
 ;
 }

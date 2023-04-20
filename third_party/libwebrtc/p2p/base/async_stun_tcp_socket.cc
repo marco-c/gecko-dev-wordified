@@ -345,7 +345,6 @@ socket
 bind_address
 remote_address
 )
-false
 )
 ;
 }
@@ -360,8 +359,6 @@ rtc
 Socket
 *
 socket
-bool
-listen
 )
 :
 rtc
@@ -370,7 +367,13 @@ rtc
 AsyncTCPSocketBase
 (
 socket
+/
+*
 listen
+=
+*
+/
+false
 kBufSize
 )
 {
@@ -1056,7 +1059,6 @@ new
 AsyncStunTCPSocket
 (
 socket
-false
 )
 )
 ;
