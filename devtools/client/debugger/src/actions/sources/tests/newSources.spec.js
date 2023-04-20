@@ -123,10 +123,16 @@ generatedToOriginalId
 from
 "
 devtools
--
+/
+client
+/
+shared
+/
 source
 -
 map
+/
+index
 "
 ;
 import
