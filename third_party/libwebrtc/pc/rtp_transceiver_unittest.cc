@@ -1031,16 +1031,7 @@ receiver_
 channel_manager_
 channel_manager_
 .
-media_engine
-(
-)
--
->
-voice
-(
-)
-.
-GetRtpHeaderExtensions
+GetSupportedAudioRtpHeaderExtensions
 (
 )
 /

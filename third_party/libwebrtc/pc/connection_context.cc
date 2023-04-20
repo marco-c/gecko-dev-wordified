@@ -1006,14 +1006,6 @@ BasicPacketSocketFactory
 socket_factory
 )
 ;
-if
-(
-dependencies
--
->
-media_engine
-)
-{
 channel_manager_
 =
 cricket
@@ -1049,7 +1041,6 @@ network_thread
 )
 )
 ;
-}
 /
 /
 Set

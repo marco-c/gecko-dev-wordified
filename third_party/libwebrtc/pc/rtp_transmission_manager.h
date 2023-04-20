@@ -1846,16 +1846,6 @@ OnNegotiationNeeded
 (
 )
 ;
-cricket
-:
-:
-MediaEngineInterface
-*
-media_engine
-(
-)
-const
-;
 TransceiverList
 transceivers_
 ;
