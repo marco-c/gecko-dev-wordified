@@ -4560,8 +4560,8 @@ is_last
 Checks
 that
 the
-remote
 sender
+report
 stats
 are
 not
@@ -4604,8 +4604,8 @@ nullopt
 Checks
 that
 the
-remote
 sender
+report
 stats
 are
 available
@@ -4697,8 +4697,8 @@ nullopt
 Checks
 that
 the
-remote
 sender
+report
 stats
 are
 not
@@ -5076,8 +5076,8 @@ kOctetCount
 Checks
 that
 the
-remote
 sender
+report
 stats
 count
 equals
@@ -5234,8 +5234,8 @@ Eq
 Checks
 that
 the
-remote
 sender
+report
 stats
 include
 a

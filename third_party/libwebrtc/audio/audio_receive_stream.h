@@ -618,14 +618,6 @@ history_ms
 override
 ;
 void
-SetNonSenderRttMeasurement
-(
-bool
-enabled
-)
-override
-;
-void
 SetFrameDecryptor
 (
 rtc
