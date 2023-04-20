@@ -583,6 +583,14 @@ ts
 )
 {
 let
+duration
+=
+33333
+;
+/
+/
+30fps
+let
 text
 =
 ts
@@ -630,6 +638,7 @@ cnv
 timestamp
 :
 ts
+duration
 }
 )
 ;
@@ -655,6 +664,14 @@ ts
 =
 dots
 ;
+let
+duration
+=
+33333
+;
+/
+/
+30fps
 let
 text
 =
@@ -711,6 +728,7 @@ cnv
 timestamp
 :
 ts
+duration
 }
 )
 ;
