@@ -887,9 +887,9 @@ querySelector
 .
 urlbarView
 -
-tip
--
 button
+-
+tip
 "
 )
 ;
@@ -1191,9 +1191,9 @@ querySelector
 .
 urlbarView
 -
-tip
--
 button
+-
+tip
 "
 )
 ;
