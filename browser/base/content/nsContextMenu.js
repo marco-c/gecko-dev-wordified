@@ -10066,9 +10066,9 @@ systemPrincipal
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -12112,9 +12112,9 @@ blob
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
