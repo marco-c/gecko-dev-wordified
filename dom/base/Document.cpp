@@ -77175,6 +77175,8 @@ css
 :
 StylePreloadKind
 aKind
+uint64_t
+aEarlyHintPreloaderId
 )
 {
 MOZ_ASSERT
@@ -77252,6 +77254,7 @@ aKind
 aEncoding
 referrerInfo
 obs
+aEarlyHintPreloaderId
 Element
 :
 :

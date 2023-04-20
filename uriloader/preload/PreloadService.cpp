@@ -1190,6 +1190,7 @@ StylePreloadKind
 :
 :
 FromLinkRelPreloadElement
+aEarlyHintPreloaderId
 )
 ;
 switch
