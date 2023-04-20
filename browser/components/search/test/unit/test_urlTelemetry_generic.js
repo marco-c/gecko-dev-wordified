@@ -315,7 +315,7 @@ expectedAdKey
 "
 example
 :
-sap
+tagged
 "
 adUrls
 :
@@ -410,7 +410,7 @@ expectedAdKey
 "
 example
 :
-sap
+tagged
 -
 follow
 -
@@ -923,7 +923,7 @@ also
 used
 for
 the
-with_ads
+withads
 *
 probe
 .
@@ -931,7 +931,7 @@ However
 we
 test
 the
-ad_clicks
+adclicks
 route
 as
 that
@@ -1158,7 +1158,9 @@ browser
 .
 search
 .
-ad_clicks
+adclicks
+.
+unknown
 "
 in
 scalars
@@ -1187,7 +1189,9 @@ browser
 .
 search
 .
-ad_clicks
+adclicks
+.
+unknown
 "
 expectedAdKey
 1
