@@ -639,7 +639,7 @@ value_info
 other_values
 =
 "
-auto
+none
 "
 )
 ]
