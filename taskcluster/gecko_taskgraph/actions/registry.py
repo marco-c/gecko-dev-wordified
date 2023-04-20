@@ -78,6 +78,12 @@ create
 from
 taskgraph
 .
+config
+import
+load_graph_config
+from
+taskgraph
+.
 parameters
 import
 Parameters
@@ -96,12 +102,6 @@ util
 python_path
 import
 import_sibling_modules
-from
-gecko_taskgraph
-.
-config
-import
-load_graph_config
 from
 gecko_taskgraph
 .

@@ -51,6 +51,7 @@ taskgraph
 config
 import
 GraphConfig
+load_graph_config
 from
 taskgraph
 .
@@ -88,12 +89,6 @@ gecko_taskgraph
 actions
 import
 render_actions_json
-from
-gecko_taskgraph
-.
-config
-import
-load_graph_config
 from
 gecko_taskgraph
 .
