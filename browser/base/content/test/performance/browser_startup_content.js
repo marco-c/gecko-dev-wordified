@@ -590,7 +590,9 @@ sessionstore
 /
 Utils
 .
-jsm
+sys
+.
+mjs
 "
 /
 /
@@ -610,7 +612,9 @@ sessionstore
 /
 SessionHistory
 .
-jsm
+sys
+.
+mjs
 "
 /
 /
