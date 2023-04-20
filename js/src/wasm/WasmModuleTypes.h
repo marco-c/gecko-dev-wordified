@@ -1293,6 +1293,7 @@ definition
 struct
 FuncDesc
 {
+const
 FuncType
 *
 type
@@ -1368,6 +1369,7 @@ default
 ;
 FuncDesc
 (
+const
 FuncType
 *
 type
