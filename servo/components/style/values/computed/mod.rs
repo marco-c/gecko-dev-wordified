@@ -884,7 +884,6 @@ page
 :
 {
 PageName
-PageOrientation
 PageSize
 PageSizeOrientation
 PaperSize

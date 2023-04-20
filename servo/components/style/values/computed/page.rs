@@ -157,16 +157,6 @@ generics
 page
 :
 :
-PageOrientation
-;
-pub
-use
-generics
-:
-:
-page
-:
-:
 PageSizeOrientation
 ;
 pub
