@@ -4180,6 +4180,15 @@ append
 (
 v
 )
+                        
+bt_result
+[
+"
+custom_data
+"
+]
+=
+True
                     
 else
 :

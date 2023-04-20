@@ -1486,6 +1486,8 @@ js
 )
         
 elif
+(
+            
 test
 .
 get
@@ -1501,6 +1503,21 @@ type
 "
 benchmark
 "
+            
+and
+test
+.
+get
+(
+"
+test_script
+"
+None
+)
+is
+None
+        
+)
 :
             
 browsertime_script
