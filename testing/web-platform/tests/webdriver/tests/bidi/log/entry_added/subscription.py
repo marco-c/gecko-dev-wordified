@@ -207,7 +207,6 @@ events
 array
 again
     
-await
 asyncio
 .
 sleep
@@ -408,7 +407,6 @@ the
 events
 array
     
-await
 asyncio
 .
 sleep
@@ -504,7 +502,6 @@ the
 events
 array
     
-await
 asyncio
 .
 sleep
