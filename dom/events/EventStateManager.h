@@ -942,6 +942,17 @@ ElementState
 aState
 )
 ;
+nsIContent
+*
+GetActiveContent
+(
+)
+const
+{
+return
+mActiveContent
+;
+}
 void
 NativeAnonymousContentRemoved
 (
