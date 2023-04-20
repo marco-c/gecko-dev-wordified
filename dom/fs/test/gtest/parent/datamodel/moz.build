@@ -161,4 +161,16 @@ test
 /
 gtest
 "
+"
+/
+dom
+/
+fs
+/
+test
+/
+gtest
+/
+parent
+"
 ]

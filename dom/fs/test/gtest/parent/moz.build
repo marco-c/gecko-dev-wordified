@@ -97,6 +97,11 @@ UNIFIED_SOURCES
 =
 [
 "
+QuotaManagerDependencyFixture
+.
+cpp
+"
+"
 TestFileSystemHashSource
 .
 cpp
