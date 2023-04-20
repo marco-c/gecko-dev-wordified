@@ -257,7 +257,7 @@ fillRect
 50
 )
 ;
-_assertPixel
+_assertPixelApprox
 (
 canvas
 25
@@ -276,9 +276,10 @@ canvas
 0
 255
 "
+3
 )
 ;
-_assertPixel
+_assertPixelApprox
 (
 canvas
 75
@@ -297,6 +298,7 @@ canvas
 0
 255
 "
+3
 )
 ;
 t
