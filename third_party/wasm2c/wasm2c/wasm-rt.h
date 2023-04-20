@@ -136,14 +136,14 @@ WASM_RT_H_
 #
 include
 <
-stdbool
+setjmp
 .
 h
 >
 #
 include
 <
-stdint
+stdbool
 .
 h
 >
@@ -157,7 +157,7 @@ h
 #
 include
 <
-setjmp
+stdint
 .
 h
 >
@@ -294,6 +294,7 @@ WASM_USE_EXPLICIT_BOUNDS_CHECKS
 )
 #
 error
+\
 "
 Cannot
 define
@@ -311,6 +312,7 @@ WASM_USE_GUARD_PAGES
 )
 &
 &
+\
 !
 defined
 (
@@ -338,13 +340,13 @@ want
 the
 runtime
 to
+*
 incrementally
 allocate
 heap
 /
 linear
 memory
-*
 Note
 that
 this
@@ -352,6 +354,7 @@ memory
 may
 be
 moved
+*
 when
 it
 needs
@@ -820,6 +823,7 @@ WASM_USE_GUARD_PAGES
 )
 |
 |
+\
 !
 defined
 (
@@ -1822,6 +1826,8 @@ called
 once
 for
 the
+/
+/
 current
 process
 extern
@@ -1876,6 +1882,8 @@ code
 is
 loaded
 correctly
+/
+/
 when
 using
 dynamic
@@ -2012,6 +2020,8 @@ If
 already
 used
 this
+/
+/
 is
 a
 noop
@@ -2101,6 +2111,8 @@ metadata
 structures
 below
 this
+/
+/
 boundary
 are
 only
