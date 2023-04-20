@@ -3266,27 +3266,12 @@ python
                 
 /
 "
-virtualenv
-"
-                
-/
-"
-virtualenv
-"
-                
-/
-"
-seed
+_venv
 "
                 
 /
 "
 wheels
-"
-                
-/
-"
-embed
 "
                 
 /
@@ -3328,27 +3313,12 @@ python
                 
 /
 "
-virtualenv
-"
-                
-/
-"
-virtualenv
-"
-                
-/
-"
-seed
+_venv
 "
                 
 /
 "
 wheels
-"
-                
-/
-"
-embed
 "
                 
 /
