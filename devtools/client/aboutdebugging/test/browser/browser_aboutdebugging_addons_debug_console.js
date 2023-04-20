@@ -862,7 +862,6 @@ document
 ;
 const
 {
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -1615,10 +1614,9 @@ await
 onEvaluationResultAfterReload
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;
@@ -1896,7 +1894,6 @@ document
 ;
 const
 {
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -2124,10 +2121,9 @@ message
 )
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;
@@ -2327,7 +2323,6 @@ document
 ;
 const
 {
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -2662,10 +2657,9 @@ result
 )
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;
