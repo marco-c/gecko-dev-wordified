@@ -269,8 +269,8 @@ const
 nsAString
 &
 aContentType
-RTPCallerType
-aRTPCallerType
+bool
+aCrossOriginIsolated
 )
 {
 int64_t
@@ -285,7 +285,13 @@ PR_Now
 (
 )
 0
-aRTPCallerType
+/
+*
+aIsSystemPrincipal
+*
+/
+false
+aCrossOriginIsolated
 )
 ;
 return
