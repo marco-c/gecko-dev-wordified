@@ -358,7 +358,9 @@ timeStamp
 :
 message
 .
-timeStamp
+microSecondTimeStamp
+/
+1000
 resourceType
 :
 PLATFORM_MESSAGE
