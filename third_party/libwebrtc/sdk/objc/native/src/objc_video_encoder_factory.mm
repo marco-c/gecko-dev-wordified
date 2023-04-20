@@ -726,12 +726,6 @@ info
 ;
 info
 .
-supports_native_handle
-=
-true
-;
-info
-.
 implementation_name
 =
 implementation_name_
@@ -789,6 +783,14 @@ apply_alignment_to_all_simulcast_layers
 encoder_
 .
 applyAlignmentToAllSimulcastLayers
+;
+info
+.
+supports_native_handle
+=
+encoder_
+.
+supportsNativeHandle
 ;
 info
 .

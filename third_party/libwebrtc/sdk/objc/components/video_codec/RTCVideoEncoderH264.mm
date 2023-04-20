@@ -3592,6 +3592,16 @@ return
 NO
 ;
 }
+-
+(
+BOOL
+)
+supportsNativeHandle
+{
+return
+YES
+;
+}
 #
 pragma
 mark
