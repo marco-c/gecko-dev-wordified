@@ -66,12 +66,6 @@ BytesIO
 from
 taskgraph
 .
-generator
-import
-load_tasks_for_kind
-from
-taskgraph
-.
 parameters
 import
 Parameters
@@ -84,6 +78,12 @@ taskcluster
 import
 get_session
 get_artifact_url
+from
+gecko_taskgraph
+.
+generator
+import
+load_tasks_for_kind
 from
 gecko_taskgraph
 .

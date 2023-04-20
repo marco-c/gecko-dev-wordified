@@ -2053,12 +2053,10 @@ gecko_taskgraph
 .
 actions
     
-from
-taskgraph
+import
+gecko_taskgraph
 .
 generator
-import
-TaskGraphGenerator
     
 from
 taskgraph
@@ -2107,6 +2105,10 @@ parameters
         
 tgg
 =
+gecko_taskgraph
+.
+generator
+.
 TaskGraphGenerator
 (
             

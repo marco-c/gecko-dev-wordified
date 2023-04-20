@@ -68,7 +68,7 @@ toolchain_task_definitions
 :
     
 from
-taskgraph
+gecko_taskgraph
 .
 generator
 import

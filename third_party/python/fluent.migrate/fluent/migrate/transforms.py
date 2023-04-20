@@ -3608,6 +3608,10 @@ FTL
 TextElement
 (
 part
+.
+strip
+(
+)
 )
             
 for
