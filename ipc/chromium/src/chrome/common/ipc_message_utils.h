@@ -559,13 +559,6 @@ void
 data
 uint32_t
 data_len
-uint32_t
-alignment
-=
-sizeof
-(
-uint32_t
-)
 )
 {
 return
@@ -575,7 +568,6 @@ WriteBytes
 (
 data
 data_len
-alignment
 )
 ;
 }
