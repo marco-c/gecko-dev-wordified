@@ -65,7 +65,7 @@ DevToolsSocketStatus
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -80,7 +80,9 @@ security
 /
 DevToolsSocketStatus
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

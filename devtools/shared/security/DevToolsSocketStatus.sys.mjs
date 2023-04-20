@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -137,6 +132,7 @@ Agent
 .
 *
 /
+export
 const
 DevToolsSocketStatus
 =
@@ -356,13 +352,4 @@ socket
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-DevToolsSocketStatus
-"
-]
 ;
