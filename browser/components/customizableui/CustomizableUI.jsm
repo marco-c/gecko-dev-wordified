@@ -20847,13 +20847,6 @@ areaId
 ;
 }
 }
-if
-(
-lazy
-.
-gUnifiedExtensionsEnabled
-)
-{
 /
 /
 restoreStateForArea
@@ -20904,6 +20897,13 @@ AREA_ADDONS
 ]
 )
 ;
+if
+(
+lazy
+.
+gUnifiedExtensionsEnabled
+)
+{
 for
 (
 let
