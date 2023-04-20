@@ -281,7 +281,7 @@ Handle
 js
 :
 :
-Shape
+SharedShape
 *
 >
 shape
@@ -426,10 +426,6 @@ numFixedSlots
 shape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )

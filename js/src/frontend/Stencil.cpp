@@ -12262,7 +12262,7 @@ CompilationAtomCache
 atomCache
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -13109,7 +13109,7 @@ instead
 .
 Rooted
 <
-Shape
+SharedShape
 *
 >
 functionShape
@@ -13143,7 +13143,7 @@ false
 }
 Rooted
 <
-Shape
+SharedShape
 *
 >
 extendedShape
@@ -13287,7 +13287,7 @@ useFastPath
 {
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape

@@ -1246,14 +1246,14 @@ functions
 .
 HeapPtr
 <
-Shape
+SharedShape
 *
 >
 functionShapeWithDefaultProto
 ;
 HeapPtr
 <
-Shape
+SharedShape
 *
 >
 extendedFunctionShapeWithDefaultProto
@@ -6174,7 +6174,7 @@ kind
 )
 ;
 static
-Shape
+SharedShape
 *
 getFunctionShapeWithDefaultProto
 (
@@ -6201,7 +6201,7 @@ data
 (
 )
 ;
-Shape
+SharedShape
 *
 shape
 =
@@ -6236,7 +6236,7 @@ extended
 ;
 }
 static
-Shape
+SharedShape
 *
 createFunctionShapeWithDefaultProto
 (
