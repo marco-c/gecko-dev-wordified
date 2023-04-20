@@ -729,6 +729,15 @@ sequence_numbers
 )
 {
 }
+virtual
+void
+OnPli
+(
+uint32_t
+sender_ssrc
+)
+{
+}
 }
 ;
 struct
