@@ -338,6 +338,9 @@ class
 nsIProxyInfo
 ;
 class
+nsIRandomAccessStream
+;
+class
 nsIRequestObserver
 ;
 class
@@ -3245,7 +3248,7 @@ behaviorFlags
 nsresult
 NS_NewLocalFileStream
 (
-nsIFileStream
+nsIRandomAccessStream
 *
 *
 result
@@ -3275,7 +3278,7 @@ Result
 <
 nsCOMPtr
 <
-nsIFileStream
+nsIRandomAccessStream
 >
 nsresult
 >

@@ -107,6 +107,13 @@ nsIOutputStream
 .
 idl
 "
+#
+include
+"
+nsIRandomAccessStream
+.
+idl
+"
 interface
 nsIEventTarget
 ;
@@ -1022,7 +1029,7 @@ uuid
 interface
 nsIFileStream
 :
-nsISupports
+nsIRandomAccessStream
 {
 /
 *
