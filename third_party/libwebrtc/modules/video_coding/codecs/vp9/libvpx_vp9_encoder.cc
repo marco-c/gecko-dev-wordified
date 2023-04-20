@@ -5473,6 +5473,10 @@ svc_params_
 if
 (
 !
+is_svc_
+|
+|
+!
 performance_flags_
 .
 use_per_layer_speed
