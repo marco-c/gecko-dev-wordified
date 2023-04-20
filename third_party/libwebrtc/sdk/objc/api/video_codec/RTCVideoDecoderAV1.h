@@ -164,10 +164,4 @@ RTCVideoDecoder
 )
 av1Decoder
 ;
-+
-(
-bool
-)
-isSupported
-;
 end
