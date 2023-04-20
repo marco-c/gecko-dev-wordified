@@ -757,6 +757,9 @@ ipc
 RandomAccessStreamParams
 Serialize
 (
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 override
 ;

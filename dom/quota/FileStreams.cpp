@@ -698,6 +698,9 @@ FileRandomAccessStream
 :
 Serialize
 (
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 {
 MOZ_RELEASE_ASSERT
@@ -768,6 +771,7 @@ quotaObject
 >
 Serialize
 (
+aCallbacks
 )
 ;
 mozilla
@@ -784,6 +788,7 @@ nsFileRandomAccessStream
 :
 Serialize
 (
+aCallbacks
 )
 ;
 MOZ_ASSERT

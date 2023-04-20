@@ -1033,6 +1033,7 @@ move
 stream
 )
 )
+nullptr
 )
 ;
 auto

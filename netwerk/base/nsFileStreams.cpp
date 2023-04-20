@@ -5356,6 +5356,9 @@ nsFileRandomAccessStream
 :
 Serialize
 (
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 {
 FileRandomAccessStreamParams

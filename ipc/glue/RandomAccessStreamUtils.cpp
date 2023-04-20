@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsIInterfaceRequestor
+.
+h
+"
+#
+include
+"
 nsIRandomAccessStream
 .
 h
@@ -203,6 +210,9 @@ nsIRandomAccessStream
 >
 >
 aStream
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 {
 NotNull
@@ -230,6 +240,7 @@ stream
 >
 Serialize
 (
+aCallbacks
 )
 ;
 MOZ_ASSERT
@@ -262,6 +273,9 @@ nsCOMPtr
 nsIRandomAccessStream
 >
 aStream
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 {
 if
@@ -291,6 +305,7 @@ move
 aStream
 )
 )
+aCallbacks
 )
 )
 ;
