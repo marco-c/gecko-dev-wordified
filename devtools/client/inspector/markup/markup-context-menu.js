@@ -69,6 +69,10 @@ PSEUDO_CLASSES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 css
 /
 constants
+.
+js
 "
 )
 ;
@@ -87,11 +93,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

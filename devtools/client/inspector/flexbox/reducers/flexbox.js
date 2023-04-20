@@ -72,6 +72,10 @@ UPDATE_FLEXBOX_HIGHLIGHTED
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ flexbox
 actions
 /
 index
+.
+js
 "
 )
 ;

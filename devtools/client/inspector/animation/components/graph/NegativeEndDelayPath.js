@@ -67,6 +67,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ NegativePath
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ components
 graph
 /
 NegativePath
+.
+js
 "
 )
 ;

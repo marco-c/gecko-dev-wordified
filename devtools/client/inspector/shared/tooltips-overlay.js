@@ -97,11 +97,17 @@ flags
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 flags
+.
+js
 "
 )
 ;
@@ -117,6 +123,10 @@ VIEW_NODE_VARIABLE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +138,8 @@ shared
 node
 -
 types
+.
+js
 "
 )
 ;
@@ -871,6 +883,10 @@ SwatchColorPickerTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -882,6 +898,8 @@ widgets
 tooltip
 /
 SwatchColorPickerTooltip
+.
+js
 "
 )
 ;
@@ -914,6 +932,10 @@ SwatchCubicBezierTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -925,6 +947,8 @@ widgets
 tooltip
 /
 SwatchCubicBezierTooltip
+.
+js
 "
 )
 ;
@@ -949,6 +973,10 @@ SwatchFilterTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -960,6 +988,8 @@ widgets
 tooltip
 /
 SwatchFilterTooltip
+.
+js
 "
 )
 ;

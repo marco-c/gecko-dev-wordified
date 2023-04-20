@@ -77,6 +77,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +92,8 @@ compatibility
 components
 /
 UnsupportedBrowserItem
+.
+js
 "
 )
 )

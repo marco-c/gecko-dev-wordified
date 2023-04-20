@@ -40,11 +40,17 @@ COMPATIBILITY_ISSUE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -56,6 +62,10 @@ COMPATIBILITY_UPDATE_NODE_COMPLETE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +77,8 @@ compatibility
 actions
 /
 index
+.
+js
 "
 )
 ;

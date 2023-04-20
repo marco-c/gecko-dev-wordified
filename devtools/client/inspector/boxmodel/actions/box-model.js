@@ -71,6 +71,10 @@ UPDATE_OFFSET_PARENT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ boxmodel
 actions
 /
 index
+.
+js
 "
 )
 ;

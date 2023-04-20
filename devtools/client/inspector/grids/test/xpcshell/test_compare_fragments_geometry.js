@@ -40,6 +40,10 @@ compareFragmentsGeometry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -51,6 +55,8 @@ grids
 utils
 /
 utils
+.
+js
 "
 )
 ;

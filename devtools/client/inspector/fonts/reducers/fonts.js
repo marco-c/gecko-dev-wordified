@@ -69,6 +69,10 @@ UPDATE_FONTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ fonts
 actions
 /
 index
+.
+js
 "
 )
 ;

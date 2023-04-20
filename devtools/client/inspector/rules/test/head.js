@@ -191,6 +191,10 @@ inplaceEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +204,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 )
 ;
@@ -211,6 +217,10 @@ COMPATIBILITY_TOOLTIP_MESSAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -220,6 +230,8 @@ inspector
 rules
 /
 constants
+.
+js
 "
 )
 ;

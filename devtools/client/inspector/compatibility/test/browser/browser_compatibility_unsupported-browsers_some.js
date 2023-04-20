@@ -50,6 +50,10 @@ updateTargetBrowsers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +65,8 @@ compatibility
 actions
 /
 compatibility
+.
+js
 "
 )
 ;

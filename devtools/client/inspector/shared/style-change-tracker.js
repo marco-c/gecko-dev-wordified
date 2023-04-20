@@ -67,6 +67,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +78,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ WalkerEventListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +106,8 @@ walker
 event
 -
 listener
+.
+js
 "
 )
 ;

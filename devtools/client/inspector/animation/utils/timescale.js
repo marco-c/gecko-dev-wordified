@@ -69,6 +69,10 @@ getFormatStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ animation
 utils
 /
 l10n
+.
+js
 "
 )
 ;

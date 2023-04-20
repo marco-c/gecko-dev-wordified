@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -134,6 +152,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +167,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -156,6 +180,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +195,8 @@ changes
 components
 /
 CSSDeclaration
+.
+js
 "
 )
 )
@@ -179,6 +209,10 @@ getChangesTree
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +224,8 @@ changes
 selectors
 /
 changes
+.
+js
 "
 )
 ;
@@ -201,6 +237,10 @@ getSourceForDisplay
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -214,6 +254,8 @@ utils
 changes
 -
 utils
+.
+js
 "
 )
 ;
@@ -225,6 +267,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -236,6 +282,8 @@ changes
 utils
 /
 l10n
+.
+js
 "
 )
 ;

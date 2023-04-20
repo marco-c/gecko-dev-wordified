@@ -72,6 +72,10 @@ EXTENSION_SIDEBAR_REMOVE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ extensions
 actions
 /
 index
+.
+js
 "
 )
 ;

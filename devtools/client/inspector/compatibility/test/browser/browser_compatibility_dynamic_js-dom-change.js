@@ -40,11 +40,17 @@ COMPATIBILITY_ISSUE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -57,6 +63,10 @@ COMPATIBILITY_CLEAR_DESTROYED_NODES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +78,8 @@ compatibility
 actions
 /
 index
+.
+js
 "
 )
 ;

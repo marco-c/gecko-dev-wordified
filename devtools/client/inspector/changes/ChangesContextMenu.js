@@ -67,6 +67,10 @@ Menu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ client
 framework
 /
 menu
+.
+js
 "
 )
 ;
@@ -106,6 +112,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +127,8 @@ changes
 utils
 /
 l10n
+.
+js
 "
 )
 ;

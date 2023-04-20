@@ -75,6 +75,10 @@ UPDATE_WARNING_MESSAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +90,8 @@ fonts
 actions
 /
 index
+.
+js
 "
 )
 ;

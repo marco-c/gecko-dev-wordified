@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -117,6 +133,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -128,6 +146,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +161,8 @@ animation
 components
 /
 App
+.
+js
 "
 )
 )
@@ -149,6 +173,10 @@ CurrentTimeTimer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +190,8 @@ current
 time
 -
 timer
+.
+js
 "
 )
 ;
@@ -171,6 +201,10 @@ animationsReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +216,8 @@ animation
 reducers
 /
 animations
+.
+js
 "
 )
 ;
@@ -199,6 +235,10 @@ updateSidebarSize
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -210,6 +250,8 @@ animation
 actions
 /
 animations
+.
+js
 "
 )
 ;
@@ -222,6 +264,10 @@ hasRunningAnimation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +279,8 @@ animation
 utils
 /
 utils
+.
+js
 "
 )
 ;

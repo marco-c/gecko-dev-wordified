@@ -65,6 +65,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +135,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +150,8 @@ compatibility
 components
 /
 CompatibilityApp
+.
+js
 "
 )
 )

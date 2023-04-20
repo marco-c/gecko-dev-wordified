@@ -63,6 +63,10 @@ PSEUDO_CLASSES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -70,6 +74,8 @@ shared
 css
 /
 constants
+.
+js
 "
 )
 ;

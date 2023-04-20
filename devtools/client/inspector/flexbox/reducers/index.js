@@ -68,6 +68,10 @@ flexbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ flexbox
 reducers
 /
 flexbox
+.
+js
 "
 )
 ;

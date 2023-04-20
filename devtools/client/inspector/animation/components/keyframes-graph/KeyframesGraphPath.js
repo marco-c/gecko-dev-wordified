@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -132,6 +150,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +165,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -154,6 +178,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ keyframes
 graph
 /
 ColorPath
+.
+js
 "
 )
 )
@@ -181,6 +211,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +230,8 @@ keyframes
 graph
 /
 DiscretePath
+.
+js
 "
 )
 )
@@ -208,6 +244,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -223,6 +263,8 @@ keyframes
 graph
 /
 DistancePath
+.
+js
 "
 )
 )
@@ -237,6 +279,10 @@ DEFAULT_KEYFRAMES_GRAPH_DURATION
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -250,6 +296,8 @@ utils
 graph
 -
 helper
+.
+js
 "
 )
 ;

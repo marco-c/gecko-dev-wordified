@@ -69,6 +69,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -92,6 +102,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ AutocompletePopup
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +126,8 @@ shared
 autocomplete
 -
 popup
+.
+js
 "
 )
 ;

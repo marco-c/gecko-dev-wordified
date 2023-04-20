@@ -69,6 +69,10 @@ PropertyView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ inspector
 computed
 /
 computed
+.
+js
 "
 )
 ;

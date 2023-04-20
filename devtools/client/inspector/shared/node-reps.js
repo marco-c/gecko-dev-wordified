@@ -77,6 +77,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +92,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -112,6 +118,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +137,8 @@ reps
 element
 -
 node
+.
+js
 "
 )
 ;
@@ -149,6 +161,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +180,8 @@ reps
 text
 -
 node
+.
+js
 "
 )
 ;

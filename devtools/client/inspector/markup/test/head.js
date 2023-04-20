@@ -197,6 +197,10 @@ inplaceEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -206,6 +210,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 )
 ;
@@ -215,6 +221,10 @@ clipboard
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -222,6 +232,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;

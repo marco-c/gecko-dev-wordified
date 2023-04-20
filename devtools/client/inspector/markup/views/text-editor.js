@@ -69,6 +69,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ markup
 components
 /
 TextNode
+.
+js
 "
 )
 )

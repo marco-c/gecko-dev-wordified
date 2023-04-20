@@ -67,6 +67,10 @@ MarkupContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ views
 markup
 -
 container
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ ElementEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ views
 element
 -
 editor
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ ELEMENT_NODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -122,6 +138,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -133,11 +151,17 @@ extend
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 extend
+.
+js
 "
 )
 ;

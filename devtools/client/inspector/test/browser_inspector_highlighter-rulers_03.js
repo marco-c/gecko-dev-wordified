@@ -147,6 +147,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -154,6 +158,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;
@@ -448,6 +454,10 @@ getWindowDimensions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -455,6 +465,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

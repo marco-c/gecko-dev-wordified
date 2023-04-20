@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -131,6 +149,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +166,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -155,6 +179,10 @@ translateNodeFrontToGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +192,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 )
 ;
@@ -176,6 +206,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +221,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;
@@ -212,6 +248,10 @@ getInspectorStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -223,6 +263,8 @@ animation
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -235,6 +277,10 @@ unhighlightNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -250,6 +296,8 @@ box
 model
 -
 highlighter
+.
+js
 "
 )
 ;

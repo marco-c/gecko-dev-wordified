@@ -75,6 +75,10 @@ UPDATE_SIDEBAR_SIZE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +90,8 @@ animation
 actions
 /
 index
+.
+js
 "
 )
 ;

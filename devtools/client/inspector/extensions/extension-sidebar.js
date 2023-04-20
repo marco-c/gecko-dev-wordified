@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -106,6 +118,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +133,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -126,6 +144,10 @@ extensionsSidebarReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -137,6 +159,8 @@ extensions
 reducers
 /
 sidebar
+.
+js
 "
 )
 ;
@@ -150,6 +174,10 @@ objectInspectorReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -163,6 +191,8 @@ object
 inspector
 /
 reducer
+.
+js
 "
 )
 ;
@@ -174,6 +204,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +219,8 @@ extensions
 components
 /
 ExtensionSidebar
+.
+js
 "
 )
 )
@@ -200,6 +236,10 @@ removeExtensionSidebar
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +251,8 @@ extensions
 actions
 /
 sidebar
+.
+js
 "
 )
 ;

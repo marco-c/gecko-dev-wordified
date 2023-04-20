@@ -426,6 +426,10 @@ getWindowDimensions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -433,6 +437,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

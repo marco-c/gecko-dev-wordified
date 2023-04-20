@@ -87,6 +87,10 @@ getSourceForDisplay
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +104,8 @@ utils
 changes
 -
 utils
+.
+js
 "
 )
 ;

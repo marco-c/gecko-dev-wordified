@@ -57,11 +57,17 @@ ELEMENT_STYLE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

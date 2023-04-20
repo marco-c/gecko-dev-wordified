@@ -75,6 +75,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +121,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +136,8 @@ compatibility
 components
 /
 Footer
+.
+js
 "
 )
 )

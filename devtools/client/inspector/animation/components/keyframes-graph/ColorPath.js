@@ -67,6 +67,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ colorUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -109,6 +119,10 @@ ComputedStylePath
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +138,8 @@ keyframes
 graph
 /
 ComputedStylePath
+.
+js
 "
 )
 ;

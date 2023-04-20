@@ -67,6 +67,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ combineReducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;

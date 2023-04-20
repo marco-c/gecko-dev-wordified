@@ -114,6 +114,10 @@ beautify
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -121,6 +125,8 @@ shared
 jsbeautify
 /
 beautify
+.
+js
 "
 )
 ;

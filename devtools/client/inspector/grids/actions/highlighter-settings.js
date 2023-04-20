@@ -71,6 +71,10 @@ UPDATE_SHOW_INFINITE_LINES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ grids
 actions
 /
 index
+.
+js
 "
 )
 ;

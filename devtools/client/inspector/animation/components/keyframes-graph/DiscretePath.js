@@ -67,6 +67,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ ComputedStylePath
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +142,8 @@ keyframes
 graph
 /
 ComputedStylePath
+.
+js
 "
 )
 ;

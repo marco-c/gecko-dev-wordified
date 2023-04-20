@@ -67,6 +67,10 @@ TextEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ views
 text
 -
 editor
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ truncateString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -98,6 +108,8 @@ shared
 inspector
 /
 utils
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ InplaceEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +135,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 )
 ;
@@ -130,6 +148,10 @@ parseAttribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +163,8 @@ node
 attribute
 -
 parser
+.
+js
 "
 )
 ;
@@ -185,11 +209,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

@@ -93,6 +93,10 @@ COMPATIBILITY_UPDATE_TARGET_BROWSERS_COMPLETE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +108,8 @@ compatibility
 actions
 /
 index
+.
+js
 "
 )
 ;

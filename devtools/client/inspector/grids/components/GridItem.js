@@ -72,6 +72,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +141,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -144,6 +162,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +177,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -181,6 +205,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +220,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -228,6 +258,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +271,8 @@ inspector
 grids
 /
 types
+.
+js
 "
 )
 ;
@@ -249,6 +285,10 @@ unhighlightNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -264,6 +304,8 @@ box
 model
 -
 highlighter
+.
+js
 "
 )
 ;

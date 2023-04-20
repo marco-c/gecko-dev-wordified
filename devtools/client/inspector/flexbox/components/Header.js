@@ -72,6 +72,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +141,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ layout
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -158,6 +182,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ flexbox
 components
 /
 FlexContainer
+.
+js
 "
 )
 )
@@ -181,6 +211,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +226,8 @@ flexbox
 components
 /
 FlexItemSelector
+.
+js
 "
 )
 )
@@ -202,6 +238,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +251,8 @@ inspector
 flexbox
 /
 types
+.
+js
 "
 )
 ;
@@ -222,6 +264,10 @@ toggleFlexboxHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -235,6 +281,8 @@ actions
 flexbox
 -
 highlighter
+.
+js
 "
 )
 ;

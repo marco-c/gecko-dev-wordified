@@ -62,6 +62,10 @@ getChangesStylesheet
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -73,6 +77,8 @@ changes
 selectors
 /
 changes
+.
+js
 "
 )
 ;
