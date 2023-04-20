@@ -1109,11 +1109,6 @@ async
 ClearSessionCache
 (
 )
-returns
-(
-void_t
-ok
-)
 ;
 async
 PTRRService

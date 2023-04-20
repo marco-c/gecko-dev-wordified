@@ -291,9 +291,7 @@ MOZ_TLS_ECH_ALPN_FLAG
 1
 )
 ;
-add_setup
-(
-asyncStartTLSTestServer
+add_tls_server_setup
 (
 "
 EncryptedClientHelloServer
@@ -320,7 +318,6 @@ unit
 /
 test_encrypted_client_hello
 "
-)
 )
 ;
 }

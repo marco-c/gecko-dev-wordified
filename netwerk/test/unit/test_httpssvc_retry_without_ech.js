@@ -108,9 +108,6 @@ Ci
 nsICertOverrideService
 )
 ;
-add_setup
-(
-async
 function
 setup
 (
@@ -199,8 +196,7 @@ non
 ECH
 server
 .
-await
-asyncStartTLSTestServer
+add_tls_server_setup
 (
 "
 DelegatedCredentialsServer
@@ -252,14 +248,15 @@ Ci
 nsINSSComponent
 )
 ;
-await
 nssComponent
 .
-asyncClearSSLExternalAndInternalSessionCache
+clearSSLExternalAndInternalSessionCache
 (
 )
 ;
 }
+setup
+(
 )
 ;
 registerCleanupFunction
