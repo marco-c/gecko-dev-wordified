@@ -1304,9 +1304,9 @@ override
 ;
 MOCK_METHOD
 (
-StatsCollector
+LegacyStatsCollector
 *
-stats
+legacy_stats
 (
 )
 (

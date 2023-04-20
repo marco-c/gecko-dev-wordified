@@ -87,7 +87,7 @@ include
 "
 pc
 /
-stats_collector
+legacy_stats_collector
 .
 h
 "
@@ -4072,22 +4072,22 @@ decoding_codec_plc
 ;
 }
 class
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 :
 public
-StatsCollector
+LegacyStatsCollector
 {
 public
 :
 explicit
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 (
 PeerConnectionInternal
 *
 pc
 )
 :
-StatsCollector
+LegacyStatsCollector
 (
 pc
 )
@@ -4115,7 +4115,7 @@ time_now_
 }
 ;
 class
-StatsCollectorTest
+LegacyStatsCollectorTest
 :
 public
 :
@@ -4155,7 +4155,7 @@ std
 :
 unique_ptr
 <
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 >
 CreateStatsCollector
 (
@@ -4170,7 +4170,7 @@ std
 :
 make_unique
 <
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 >
 (
 pc
@@ -4183,7 +4183,7 @@ VerifyAudioTrackStats
 FakeAudioTrack
 *
 audio_track
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 const
@@ -5340,7 +5340,7 @@ class
 StatsCollectorTrackTest
 :
 public
-StatsCollectorTest
+LegacyStatsCollectorTest
 public
 :
 :
@@ -5400,7 +5400,7 @@ AddOutgoingVideoTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5526,7 +5526,7 @@ AddIncomingVideoTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5687,7 +5687,7 @@ AddOutgoingAudioTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5802,7 +5802,7 @@ AddIncomingAudioTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5958,7 +5958,7 @@ audio_track_
 ;
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 FilterOutNegativeDataChannelId
 )
 {
@@ -6061,7 +6061,7 @@ reports
 .
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 ExtractDataInfo
 )
 {
@@ -7070,7 +7070,7 @@ stats
 .
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 SessionObjectExists
 )
 {
@@ -7155,7 +7155,7 @@ stats
 .
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 OnlyOneSessionObjectExists
 )
 {
@@ -8698,7 +8698,7 @@ candidates
 .
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 IceCandidateReport
 )
 {
@@ -9353,7 +9353,7 @@ correctly
 reported
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 ChainedCertificateReportsCreated
 )
 {
@@ -9533,7 +9533,7 @@ reported
 .
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 ChainlessCertificateReportsCreated
 )
 {
@@ -9661,7 +9661,7 @@ present
 .
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 NoTransport
 )
 {
@@ -9897,7 +9897,7 @@ ignored
 .
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 UnsupportedDigestIgnored
 )
 {

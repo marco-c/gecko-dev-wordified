@@ -160,7 +160,7 @@ include
 "
 pc
 /
-stats_collector_interface
+legacy_stats_collector_interface
 .
 h
 "
@@ -285,7 +285,7 @@ error
 }
 ;
 struct
-GetStatsMsg
+LegacyGetStatsMsg
 :
 public
 rtc
@@ -293,7 +293,7 @@ rtc
 :
 MessageData
 {
-GetStatsMsg
+LegacyGetStatsMsg
 (
 webrtc
 :
@@ -301,7 +301,7 @@ webrtc
 StatsObserver
 *
 observer
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
 stats
 webrtc
@@ -338,7 +338,7 @@ StatsObserver
 >
 observer
 ;
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
 stats
 ;
@@ -730,13 +730,13 @@ case
 MSG_GETSTATS
 :
 {
-GetStatsMsg
+LegacyGetStatsMsg
 *
 param
 =
 static_cast
 <
-GetStatsMsg
+LegacyGetStatsMsg
 *
 >
 (
@@ -1001,9 +1001,9 @@ PostGetStats
 StatsObserver
 *
 observer
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
-stats
+legacy_stats
 MediaStreamTrackInterface
 *
 track
@@ -1020,10 +1020,10 @@ RTC_FROM_HERE
 this
 MSG_GETSTATS
 new
-GetStatsMsg
+LegacyGetStatsMsg
 (
 observer
-stats
+legacy_stats
 track
 )
 )

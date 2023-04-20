@@ -3583,13 +3583,13 @@ a
 reference
 to
 the
-StatsCollector
+LegacyStatsCollector
 it
 will
 update
+/
+/
 when
-/
-/
 stopping
 .
 if
@@ -3630,7 +3630,7 @@ StopInternal
 ;
 }
 }
-stats_
+legacy_stats_
 .
 reset
 (
@@ -4148,14 +4148,14 @@ configuration_
 =
 configuration
 ;
-stats_
+legacy_stats_
 =
 std
 :
 :
 make_unique
 <
-StatsCollector
+LegacyStatsCollector
 >
 (
 this
@@ -4209,7 +4209,7 @@ get
 &
 usage_pattern_
 observer_
-stats_
+legacy_stats_
 .
 get
 (
@@ -5811,7 +5811,7 @@ UpdateNegotiationNeeded
 (
 )
 ;
-stats_
+legacy_stats_
 -
 >
 AddTrack
@@ -7809,7 +7809,7 @@ rtc
 CreateRandomUuid
 (
 )
-stats_
+legacy_stats_
 .
 get
 (
@@ -8289,6 +8289,9 @@ PeerConnection
 :
 :
 GetStats
+(
+legacy
+)
 "
 )
 ;
@@ -8312,6 +8315,7 @@ LS_ERROR
 <
 <
 "
+Legacy
 GetStats
 -
 observer
@@ -8328,7 +8332,7 @@ RTC_LOG_THREAD_BLOCK_COUNT
 (
 )
 ;
-stats_
+legacy_stats_
 -
 >
 UpdateStats
@@ -8344,7 +8348,7 @@ RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
 /
 /
 The
-StatsCollector
+LegacyStatsCollector
 is
 used
 to
@@ -8373,7 +8377,7 @@ track
 &
 &
 !
-stats_
+legacy_stats_
 -
 >
 IsValidTrack
@@ -8394,6 +8398,7 @@ LS_WARNING
 <
 <
 "
+Legacy
 GetStats
 is
 called
@@ -8421,7 +8426,7 @@ message_handler_
 PostGetStats
 (
 observer
-stats_
+legacy_stats_
 .
 get
 (
@@ -12130,7 +12135,7 @@ channels
 are
 closed
 .
-stats_
+legacy_stats_
 -
 >
 UpdateStats

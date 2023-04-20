@@ -143,7 +143,7 @@ include
 "
 pc
 /
-stats_collector_interface
+legacy_stats_collector_interface
 .
 h
 "
@@ -278,9 +278,9 @@ PostGetStats
 StatsObserver
 *
 observer
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
-stats
+legacy_stats
 MediaStreamTrackInterface
 *
 track

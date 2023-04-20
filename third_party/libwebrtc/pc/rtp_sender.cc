@@ -170,7 +170,7 @@ include
 "
 pc
 /
-stats_collector_interface
+legacy_stats_collector_interface
 .
 h
 "
@@ -2892,7 +2892,7 @@ std
 string
 &
 id
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
 stats
 SetStreamsObserver
@@ -2934,9 +2934,9 @@ std
 string
 &
 id
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
-stats
+legacy_stats
 SetStreamsObserver
 *
 set_streams_observer
@@ -2948,9 +2948,9 @@ worker_thread
 id
 set_streams_observer
 )
-stats_
+legacy_stats_
 (
-stats
+legacy_stats
 )
 dtmf_sender_proxy_
 (
@@ -3422,10 +3422,10 @@ can_send_track
 )
 &
 &
-stats_
+legacy_stats_
 )
 {
-stats_
+legacy_stats_
 -
 >
 AddLocalAudioTrack
@@ -3457,10 +3457,10 @@ can_send_track
 )
 &
 &
-stats_
+legacy_stats_
 )
 {
-stats_
+legacy_stats_
 -
 >
 RemoveLocalAudioTrack

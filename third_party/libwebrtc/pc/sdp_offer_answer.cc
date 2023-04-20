@@ -373,6 +373,15 @@ include
 "
 pc
 /
+legacy_stats_collector
+.
+h
+"
+#
+include
+"
+pc
+/
 media_stream
 .
 h
@@ -446,15 +455,6 @@ include
 pc
 /
 simulcast_description
-.
-h
-"
-#
-include
-"
-pc
-/
-stats_collector
 .
 h
 "
@@ -10629,9 +10629,7 @@ desc
 /
 Invalidate
 the
-[
 legacy
-]
 stats
 cache
 to
@@ -10664,7 +10662,7 @@ stats
 pc_
 -
 >
-stats
+legacy_stats
 (
 )
 -
@@ -13188,7 +13186,7 @@ stats
 pc_
 -
 >
-stats
+legacy_stats
 (
 )
 -
@@ -15194,7 +15192,7 @@ now_receiving_transceivers
 pc_
 -
 >
-stats
+legacy_stats
 (
 )
 -
@@ -15723,7 +15721,7 @@ i
 pc_
 -
 >
-stats
+legacy_stats
 (
 )
 -
@@ -20764,7 +20762,7 @@ local_stream
 pc_
 -
 >
-stats
+legacy_stats
 (
 )
 -

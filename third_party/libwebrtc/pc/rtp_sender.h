@@ -295,7 +295,7 @@ include
 "
 pc
 /
-stats_collector_interface
+legacy_stats_collector_interface
 .
 h
 "
@@ -353,9 +353,6 @@ h
 namespace
 webrtc
 {
-class
-StatsCollectorInterface
-;
 bool
 UnimplementedRtpParameterHasValue
 (
@@ -2207,7 +2204,7 @@ std
 string
 &
 id
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
 stats
 SetStreamsObserver
@@ -2329,9 +2326,9 @@ std
 string
 &
 id
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
-stats
+legacy_stats
 SetStreamsObserver
 *
 set_streams_observer
@@ -2456,9 +2453,9 @@ signal0
 >
 SignalDestroyed
 ;
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
-stats_
+legacy_stats_
 =
 nullptr
 ;

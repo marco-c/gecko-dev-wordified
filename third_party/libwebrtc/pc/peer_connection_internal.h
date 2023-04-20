@@ -183,7 +183,7 @@ class
 DataChannelController
 ;
 class
-StatsCollector
+LegacyStatsCollector
 ;
 /
 /
@@ -559,9 +559,9 @@ port_allocator
 0
 ;
 virtual
-StatsCollector
+LegacyStatsCollector
 *
-stats
+legacy_stats
 (
 )
 =
