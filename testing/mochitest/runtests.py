@@ -6431,9 +6431,11 @@ gst
 =
 gst10
     
-subprocess
+process
+=
+mozprocess
 .
-check_call
+ProcessHandler
 (
         
 [
@@ -6487,6 +6489,12 @@ device
     
 )
     
+process
+.
+run
+(
+)
+    
 info
 [
 "
@@ -6494,7 +6502,18 @@ video
 "
 ]
 =
+{
+"
 name
+"
+:
+name
+"
+process
+"
+:
+process
+}
     
 #
 check
@@ -6686,12 +6705,18 @@ audio
 "
 ]
 =
+{
+"
+name
+"
+:
 "
 Monitor
 of
 Null
 Output
 "
+}
     
 return
 info
@@ -7066,6 +7091,12 @@ None
 self
 .
 websocketProcessBridge
+=
+None
+        
+self
+.
+gstForV4l2loopbackProcess
 =
 None
         
@@ -10868,6 +10899,67 @@ websocket
 /
 process
 bridge
+"
+)
+        
+if
+self
+.
+gstForV4l2loopbackProcess
+is
+not
+None
+:
+            
+try
+:
+                
+self
+.
+gstForV4l2loopbackProcess
+.
+kill
+(
+)
+                
+self
+.
+gstForV4l2loopbackProcess
+.
+wait
+(
+)
+                
+self
+.
+log
+.
+info
+(
+"
+Stopping
+gst
+for
+v4l2loopback
+"
+)
+            
+except
+Exception
+:
+                
+self
+.
+log
+.
+critical
+(
+"
+Exception
+stopping
+gst
+for
+v4l2loopback
 "
 )
     
@@ -18397,6 +18489,11 @@ mediaDevices
 audio
 "
 ]
+[
+"
+name
+"
+]
             
 prefs
 [
@@ -18413,6 +18510,11 @@ mediaDevices
 [
 "
 video
+"
+]
+[
+"
+name
 "
 ]
             
@@ -18446,6 +18548,24 @@ volume_scale
 .
 0
 "
+            
+self
+.
+gstForV4l2loopbackProcess
+=
+self
+.
+mediaDevices
+[
+"
+video
+"
+]
+[
+"
+process
+"
+]
         
 self
 .
