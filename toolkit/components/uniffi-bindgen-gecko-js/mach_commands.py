@@ -107,11 +107,19 @@ UDL_FILES
 =
 [
     
-#
-TODO
-:
-Use
-UniFFI
+"
+third_party
+/
+rust
+/
+tabs
+/
+src
+/
+tabs
+.
+udl
+"
 ]
 FIXTURE_UDL_FILES
 =
