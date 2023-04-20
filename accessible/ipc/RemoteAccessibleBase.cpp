@@ -8205,6 +8205,11 @@ FOCUSED
 ;
 }
 }
+ApplyImplicitState
+(
+state
+)
+;
 auto
 *
 cbc
