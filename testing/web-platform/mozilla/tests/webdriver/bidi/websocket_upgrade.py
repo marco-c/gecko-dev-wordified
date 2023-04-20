@@ -549,6 +549,12 @@ use_bidi
 True
 )
     
+server_host
+=
+current_browser
+.
+remote_agent_host
+    
 server_port
 =
 current_browser
@@ -568,15 +574,7 @@ response
 =
 websocket_request
 (
-"
-127
-.
-0
-.
-0
-.
-1
-"
+server_host
 server_port
 host
 =
@@ -1007,6 +1005,12 @@ testhost
     
 )
     
+server_host
+=
+current_browser
+.
+remote_agent_host
+    
 server_port
 =
 current_browser
@@ -1026,15 +1030,7 @@ response
 =
 websocket_request
 (
-"
-127
-.
-0
-.
-0
-.
-1
-"
+server_host
 server_port
 host
 =
@@ -1120,6 +1116,12 @@ use_bidi
 True
 )
     
+server_host
+=
+current_browser
+.
+remote_agent_host
+    
 server_port
 =
 current_browser
@@ -1130,15 +1132,7 @@ response
 =
 websocket_request
 (
-"
-127
-.
-0
-.
-0
-.
-1
-"
+server_host
 server_port
 origin
 =
