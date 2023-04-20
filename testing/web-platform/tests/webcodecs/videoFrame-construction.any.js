@@ -179,6 +179,9 @@ image
 timestamp
 :
 10
+duration
+:
+15
 }
 )
 ;
@@ -203,7 +206,7 @@ assert_equals
 frame
 .
 timestamp
-null
+10
 '
 timestamp
 '
@@ -214,7 +217,7 @@ assert_equals
 frame
 .
 duration
-null
+15
 '
 duration
 '
@@ -333,6 +336,14 @@ colorSpace
 .
 fullRange
 '
+)
+;
+assert_true
+(
+isFrameClosed
+(
+frame
+)
 )
 ;
 assert_throws_dom
