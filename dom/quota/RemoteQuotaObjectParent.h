@@ -146,6 +146,9 @@ class
 CanonicalQuotaObject
 ;
 class
+RemoteQuotaObjectParentTracker
+;
+class
 RemoteQuotaObjectParent
 :
 public
@@ -153,7 +156,6 @@ PRemoteQuotaObjectParent
 {
 public
 :
-explicit
 RemoteQuotaObjectParent
 (
 RefPtr
@@ -161,6 +163,11 @@ RefPtr
 CanonicalQuotaObject
 >
 aCanonicalQuotaObject
+nsCOMPtr
+<
+RemoteQuotaObjectParentTracker
+>
+aTracker
 )
 ;
 NS_INLINE_DECL_REFCOUNTING_ONEVENTTARGET
@@ -207,6 +214,12 @@ RefPtr
 CanonicalQuotaObject
 >
 mCanonicalQuotaObject
+;
+nsCOMPtr
+<
+RemoteQuotaObjectParentTracker
+>
+mTracker
 ;
 }
 ;
