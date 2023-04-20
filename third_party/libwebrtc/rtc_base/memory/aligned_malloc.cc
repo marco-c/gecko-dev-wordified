@@ -211,9 +211,7 @@ should
 be
 aligned
 with
-|
 alignment
-|
 bytes
 .
 The

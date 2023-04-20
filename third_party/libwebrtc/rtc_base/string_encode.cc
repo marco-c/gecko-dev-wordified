@@ -521,17 +521,13 @@ ascii
 with
 /
 /
-|
 delimiter
-|
 between
 bytes
 or
 none
 if
-|
 delimiter
-|
 =
 =
 0

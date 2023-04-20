@@ -1023,9 +1023,7 @@ false
 Moves
 current
 position
-|
 byte_count
-|
 bytes
 forward
 .
@@ -1057,9 +1055,7 @@ byte_count
 Moves
 current
 position
-|
 bit_count
-|
 bits
 forward
 .
@@ -1141,9 +1137,7 @@ The
 total
 size
 of
-|
 bytes_
-|
 .
 size_t
 byte_count_
@@ -1159,9 +1153,7 @@ from
 the
 start
 of
-|
 bytes_
-|
 .
 size_t
 byte_offset_
@@ -1255,9 +1247,7 @@ the
 writable
 buffer
 of
-|
 bytes
-|
 .
 BitBufferWriter
 (
@@ -1425,9 +1415,7 @@ bits
 required
 to
 store
-|
 val
-|
 with
 NonSymmetric
 encoding

@@ -446,9 +446,7 @@ return
 Run
 this
 on
-|
 thread
-|
 to
 reduce
 the
@@ -891,9 +889,7 @@ memory_order_release
 /
 /
 After
-|
 pending_invocations_
-|
 is
 decremented
 we
@@ -903,9 +899,7 @@ to
 signal
 /
 /
-|
 invocation_complete_
-|
 in
 case
 the

@@ -209,9 +209,7 @@ s
 %
 *
 after
-|
 half_time
-|
 time
 units
 .
@@ -224,9 +222,7 @@ public
 :
 /
 /
-|
 half_time
-|
 specifies
 how
 much

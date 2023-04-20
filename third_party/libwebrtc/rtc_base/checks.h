@@ -2617,9 +2617,7 @@ important
 .
 We
 reference
-|
 ignored
-|
 in
 the
 code
@@ -2768,13 +2766,9 @@ the
 same
 types
 as
-|
 a
-|
 and
-|
 b
-|
 can
 '
 t
@@ -2790,13 +2784,9 @@ and
 that
 would
 evaluate
-|
 a
-|
 and
-|
 b
-|
 if
 evaluated
 .
@@ -2883,9 +2873,7 @@ al
 .
 always
 evaluates
-|
 condition
-|
 as
 /
 /

@@ -4461,9 +4461,7 @@ So
 just
 check
 whether
-|
 s_
-|
 has
 been
 closed

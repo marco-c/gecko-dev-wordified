@@ -140,9 +140,7 @@ of
 data
 .
 Use
-|
 Add
-|
 methods
 to
 add
@@ -152,9 +150,7 @@ new
 values
 .
 Use
-|
 GetPercentile
-|
 to
 get
 percentile
@@ -173,9 +169,7 @@ public
 /
 Values
 below
-|
 long_tail_boundary
-|
 are
 stored
 as

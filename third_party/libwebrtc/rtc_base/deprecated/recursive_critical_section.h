@@ -508,9 +508,7 @@ lock_queue_
 ;
 /
 /
-|
 recursion_
-|
 represents
 the
 recursion

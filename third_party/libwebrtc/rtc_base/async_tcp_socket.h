@@ -377,9 +377,7 @@ protected
 Binds
 and
 connects
-|
 socket
-|
 and
 creates
 AsyncTCPSocket
@@ -391,9 +389,7 @@ it
 Takes
 ownership
 of
-|
 socket
-|
 .
 Returns
 null
@@ -409,9 +405,7 @@ connect
 )
 fail
 (
-|
 socket
-|
 is
 destroyed
 in
@@ -447,9 +441,7 @@ FlushOutBuffer
 Add
 data
 to
-|
 outbuf_
-|
 .
 void
 AppendToOutBuffer
@@ -467,9 +459,7 @@ cb
 Helper
 methods
 for
-|
 outpos_
-|
 .
 bool
 IsOutBufferEmpty
@@ -587,9 +577,7 @@ public
 Binds
 and
 connects
-|
 socket
-|
 and
 creates
 AsyncTCPSocket
@@ -601,9 +589,7 @@ it
 Takes
 ownership
 of
-|
 socket
-|
 .
 Returns
 null
@@ -619,9 +605,7 @@ connect
 )
 fail
 (
-|
 socket
-|
 is
 destroyed
 in

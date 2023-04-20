@@ -375,9 +375,7 @@ pair
 .
 /
 /
-|
 delimiter
-|
 =
 =
 0

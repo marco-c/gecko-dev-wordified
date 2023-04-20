@@ -169,9 +169,7 @@ to
 the
 given
 value
-|
 alpha
-|
 .
 void
 Reset
@@ -263,9 +261,7 @@ to
 the
 given
 value
-|
 alpha
-|
 .
 void
 UpdateBase

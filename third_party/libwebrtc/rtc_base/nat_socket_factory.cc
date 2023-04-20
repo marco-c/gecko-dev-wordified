@@ -736,9 +736,7 @@ already
 bound
 (
 meaning
-|
 socket_
-|
 is
 null
 )

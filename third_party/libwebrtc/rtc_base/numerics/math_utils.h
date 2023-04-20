@@ -118,13 +118,9 @@ webrtc_impl
 Given
 two
 numbers
-|
 x
-|
 and
-|
 y
-|
 such
 that
 x

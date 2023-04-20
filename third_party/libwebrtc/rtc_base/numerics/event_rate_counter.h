@@ -164,9 +164,7 @@ on
 it
 '
 s
-|
 event_time
-|
 for
 correct
 updates
@@ -199,9 +197,7 @@ Adds
 the
 events
 from
-|
 other
-|
 .
 Note
 that

@@ -541,9 +541,7 @@ a
 certificate
 .
 If
-|
 common_name
-|
 is
 non
 -
@@ -669,9 +667,7 @@ certificate
 If
 /
 /
-|
 common_name
-|
 is
 non
 -
@@ -709,9 +705,7 @@ parameters
 are
 defined
 in
-|
 key_param
-|
 .
 The
 certificate
@@ -729,9 +723,7 @@ time
 is
 defined
 in
-|
 certificate_lifetime
-|
 ;
 it
 /
@@ -1208,9 +1200,7 @@ data
 at
 /
 /
-|
 s
-|
 is
 not
 0
@@ -1223,9 +1213,7 @@ count
 is
 defined
 by
-|
 length
-|
 .
 int64_t
 ASN1TimeToSec

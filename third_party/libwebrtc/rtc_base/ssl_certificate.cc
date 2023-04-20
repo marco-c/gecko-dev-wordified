@@ -1186,9 +1186,7 @@ element
 of
 /
 /
-|
 certs_
-|
 and
 ending
 with
@@ -1196,9 +1194,7 @@ the
 last
 element
 of
-|
 certs_
-|
 .
 The
 "
@@ -1260,9 +1256,7 @@ reverse
 so
 that
 the
-|
 issuer
-|
 is
 known
 before
@@ -1272,9 +1266,7 @@ the
 certificate
 issued
 by
-|
 issuer
-|
 .
 for
 (

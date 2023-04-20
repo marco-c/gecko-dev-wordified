@@ -800,9 +800,7 @@ file
 until
 /
 /
-|
 max_total_log_size
-|
 /
 2
 bytes
@@ -935,9 +933,7 @@ will
 be
 deleted
 .
-|
 max_total_log_size
-|
 /
 /
 must

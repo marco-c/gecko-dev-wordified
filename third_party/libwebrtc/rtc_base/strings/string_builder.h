@@ -202,11 +202,9 @@ be
 /
 read
 via
-|
 str
 (
 )
-|
 .
 class
 SimpleStringBuilder
@@ -403,11 +401,9 @@ string
 .
 The
 name
-|
 str
 (
 )
-|
 is
 borrowed
 for
@@ -455,11 +451,9 @@ string
 .
 The
 name
-|
 size
 (
 )
-|
 is
 picked
 for

@@ -297,9 +297,7 @@ kListenBacklog
 Binds
 and
 connects
-|
 socket
-|
 AsyncSocket
 *
 AsyncTCPSocketBase
@@ -1796,9 +1794,7 @@ AsyncTCPSocket
 Binds
 and
 connects
-|
 socket
-|
 and
 creates
 AsyncTCPSocket
@@ -1810,9 +1806,7 @@ it
 Takes
 ownership
 of
-|
 socket
-|
 .
 Returns
 null
@@ -1828,9 +1822,7 @@ connect
 )
 fail
 (
-|
 socket
-|
 is
 destroyed
 in

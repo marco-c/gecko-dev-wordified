@@ -1171,9 +1171,7 @@ addresses
 .
 /
 /
-|
 src
-|
 points
 to
 a

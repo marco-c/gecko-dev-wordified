@@ -331,9 +331,7 @@ count
 for
 bucket
 at
-|
 current_time_ms
-|
 .
 void
 AddSamplesAtTime

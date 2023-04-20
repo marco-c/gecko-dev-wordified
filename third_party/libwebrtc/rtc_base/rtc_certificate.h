@@ -379,9 +379,7 @@ public
 Takes
 ownership
 of
-|
 identity
-|
 .
 static
 scoped_refptr
@@ -436,9 +434,7 @@ certificate
 has
 expired
 where
-|
 now
-|
 is
 expressed
 in
@@ -676,9 +672,7 @@ we
 take
 ownership
 of
-|
 identity_
-|
 .
 const
 std

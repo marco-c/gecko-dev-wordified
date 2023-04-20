@@ -1643,9 +1643,7 @@ successful
 .
 /
 /
-|
 error
-|
 is
 optional
 and

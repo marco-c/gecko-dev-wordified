@@ -631,9 +631,7 @@ milliseconds
 .
 /
 /
-|
 task
-|
 needs
 to
 be
@@ -685,9 +683,7 @@ make
 the
 key
 (
-|
 due_time
-|
 )
 non
 -
@@ -705,9 +701,7 @@ key
 /
 /
 (
-|
 task
-|
 )
 mutable
 .
@@ -717,9 +711,7 @@ Because
 of
 this
 the
-|
 task
-|
 variable
 is
 made
@@ -734,11 +726,9 @@ mutated
 by
 calling
 the
-|
 take
 (
 )
-|
 method
 .
 mutable

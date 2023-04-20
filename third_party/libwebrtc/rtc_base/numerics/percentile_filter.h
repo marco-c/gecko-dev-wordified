@@ -169,9 +169,7 @@ public
 Construct
 filter
 .
-|
 percentile
-|
 should
 be
 between
@@ -226,9 +224,7 @@ or
 return
 false
 if
-|
 value
-|
 doesn
 '
 t
@@ -503,9 +499,7 @@ is
 before
 us
 increment
-|
 percentile_index_
-|
 .
 +
 +
@@ -648,9 +642,7 @@ was
 before
 us
 decrement
-|
 percentile_index_
-|
 .
 if
 (

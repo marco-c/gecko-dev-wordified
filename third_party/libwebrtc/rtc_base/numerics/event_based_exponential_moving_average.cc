@@ -150,9 +150,7 @@ rtc
 {
 /
 /
-|
 half_time
-|
 specifies
 how
 much
@@ -181,9 +179,7 @@ s
 /
 /
 after
-|
 half_time
-|
 time
 units
 has

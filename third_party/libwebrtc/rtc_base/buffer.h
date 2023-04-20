@@ -1834,9 +1834,7 @@ buffer
 with
 at
 most
-|
 max_elements
-|
 of
 data
 using
@@ -1844,9 +1842,7 @@ using
 /
 the
 function
-|
 setter
-|
 which
 should
 have
@@ -1871,9 +1867,7 @@ view
 /
 /
 /
-|
 setter
-|
 is
 given
 an
@@ -1885,9 +1879,7 @@ length
 exactly
 /
 /
-|
 max_elements
-|
 that
 describes
 the
@@ -2330,9 +2322,7 @@ item
 Appends
 at
 most
-|
 max_elements
-|
 to
 the
 end
@@ -2344,9 +2334,7 @@ the
 function
 /
 /
-|
 setter
-|
 which
 should
 have
@@ -2371,9 +2359,7 @@ view
 /
 /
 /
-|
 setter
-|
 is
 given
 an
@@ -2385,9 +2371,7 @@ length
 exactly
 /
 /
-|
 max_elements
-|
 that
 describes
 the

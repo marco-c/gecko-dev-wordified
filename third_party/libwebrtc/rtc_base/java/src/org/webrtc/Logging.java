@@ -610,9 +610,7 @@ logging
 for
 messages
 of
-|
 severity
-|
 to
 the
 platform

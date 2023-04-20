@@ -1988,9 +1988,7 @@ else
 {
 /
 /
-|
 false
-|
 means
 the
 task

@@ -185,11 +185,9 @@ can
 be
 added
 with
-|
 Add
 (
 )
-|
 and
 max
 over
@@ -200,13 +198,9 @@ returned
 by
 /
 /
-|
 MovingMax
-|
 .
-|
 current_time_ms
-|
 in
 successive
 calls

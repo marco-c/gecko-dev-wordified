@@ -2034,9 +2034,7 @@ create
 one
 and
 specify
-|
 false
-|
 to
 disable
 session
@@ -2539,9 +2537,7 @@ done
 transfer
 ownership
 of
-|
 bio
-|
 to
 the
 /

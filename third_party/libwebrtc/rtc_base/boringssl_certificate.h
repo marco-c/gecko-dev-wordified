@@ -350,9 +350,7 @@ of
 the
 certificate
 given
-|
 algorithm
-|
 .
 bool
 ComputeDigest

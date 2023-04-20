@@ -828,9 +828,7 @@ tasks
 that
 increment
 the
-|
 count
-|
 .
 auto
 task1

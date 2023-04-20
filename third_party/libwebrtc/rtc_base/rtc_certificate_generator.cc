@@ -315,9 +315,7 @@ large
 for
 the
 unspecified
-|
 time_t
-|
 .
 expires_s
 =
@@ -339,9 +337,7 @@ torbjorng
 :
 Stop
 using
-|
 time_t
-|
 its
 type
 is
@@ -383,9 +379,7 @@ should
 stop
 relying
 on
-|
 time_t
-|
 .
 /
 /
@@ -530,9 +524,7 @@ callback
 Create
 a
 new
-|
 RTCCertificateGenerationTask
-|
 for
 this
 generation
@@ -563,9 +555,7 @@ completed
 (
 independent
 of
-|
 RTCCertificateGenerator
-|
 )
 .
 worker_thread_

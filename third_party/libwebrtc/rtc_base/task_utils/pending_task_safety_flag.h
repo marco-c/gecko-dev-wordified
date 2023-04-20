@@ -267,11 +267,9 @@ the
 work
 check
 the
-|
 alive
 (
 )
-|
 state
 .
 Abort
@@ -282,9 +280,7 @@ alive
 (
 )
 returns
-|
 false
-|
 :
 /
 /

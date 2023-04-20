@@ -655,9 +655,7 @@ race
 .
 If
 the
-|
 locker_
-|
 /
 /
 implementation

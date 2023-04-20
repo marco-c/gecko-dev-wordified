@@ -990,15 +990,11 @@ to
 be
 performed
 between
-|
 source
-|
 and
 /
 /
-|
 target
-|
 while
 checking
 that
@@ -1421,9 +1417,7 @@ and
 pass
 false
 for
-|
 do_init
-|
 so
 that
 DoInit
@@ -2144,9 +2138,7 @@ cmsWait
 ;
 /
 /
-|
 time_sensitive
-|
 is
 deprecated
 and
@@ -2447,9 +2439,7 @@ Start
 /
 /
 If
-|
 obj
-|
 is
 non
 -
@@ -2459,9 +2449,7 @@ value
 is
 appended
 to
-|
 name
-|
 .
 const
 std
@@ -2687,9 +2675,7 @@ must
 /
 provide
 the
-|
 ReturnT
-|
 template
 argument
 which
@@ -2916,9 +2902,7 @@ Allows
 invoke
 to
 specified
-|
 thread
-|
 .
 Thread
 never
@@ -2990,9 +2974,7 @@ DisallowAllInvokes
 Returns
 true
 if
-|
 target
-|
 was
 allowed
 by
@@ -3055,9 +3037,7 @@ invoke
 the
 functor
 on
-|
 this
-|
 thread
 asynchronously
 i
@@ -3078,9 +3058,7 @@ PostTask
 .
 Ownership
 of
-|
 functor
-|
 /
 /
 is
@@ -3093,9 +3071,7 @@ below
 )
 destroyed
 on
-|
 this
-|
 thread
 after
 it
@@ -3157,9 +3133,7 @@ value
 is
 discarded
 on
-|
 this
-|
 thread
 )
 .
@@ -3176,9 +3150,7 @@ can
 be
 invoked
 from
-|
 this
-|
 thread
 /
 /
@@ -3239,9 +3211,7 @@ will
 be
 destroyed
 on
-|
 this
-|
 thread
 .
 However
@@ -4612,9 +4582,7 @@ Windows
 if
 /
 /
-|
 need_synchronize_access
-|
 is
 true
 .
@@ -4836,9 +4804,7 @@ SocketServer
 ownership
 lies
 with
-|
 this
-|
 .
 std
 :

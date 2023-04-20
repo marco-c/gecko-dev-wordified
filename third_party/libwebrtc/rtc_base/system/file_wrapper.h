@@ -276,9 +276,7 @@ failure
 /
 and
 if
-|
 error
-|
 is
 non
 -
@@ -373,9 +371,7 @@ Takes
 over
 ownership
 of
-|
 file
-|
 closing
 it
 on
@@ -386,9 +382,7 @@ with
 /
 /
 null
-|
 file
-|
 is
 allowed
 and

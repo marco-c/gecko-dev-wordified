@@ -306,9 +306,7 @@ default
 /
 /
 Moves
-|
 rhs
-|
 into
 this
 storing
@@ -316,9 +314,7 @@ an
 empty
 state
 in
-|
 rhs
-|
 .
 /
 /
@@ -356,9 +352,7 @@ rhs
 /
 /
 Moves
-|
 rhs
-|
 into
 this
 storing
@@ -366,9 +360,7 @@ an
 empty
 state
 in
-|
 rhs
-|
 .
 /
 /

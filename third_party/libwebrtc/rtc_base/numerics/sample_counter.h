@@ -217,9 +217,7 @@ the
 samples
 from
 the
-|
 other
-|
 SampleCounter
 as
 if
@@ -231,12 +229,10 @@ all
 individually
 added
 using
-|
 Add
 (
 int
 )
-|
 method
 .
 void
@@ -322,9 +318,7 @@ the
 samples
 from
 the
-|
 other
-|
 SampleCounter
 as
 if
@@ -336,12 +330,10 @@ all
 individually
 added
 using
-|
 Add
 (
 int
 )
-|
 method
 .
 void

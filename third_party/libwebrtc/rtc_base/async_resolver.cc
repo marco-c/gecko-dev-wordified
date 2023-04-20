@@ -398,9 +398,7 @@ family
 ;
 /
 /
-|
 family
-|
 here
 will
 almost
@@ -408,9 +406,7 @@ always
 be
 AF_UNSPEC
 because
-|
 family
-|
 comes
 from
 /
@@ -1315,9 +1311,7 @@ the
 sequence
 guarded
 by
-|
 sequence_checker_
-|
 .
 /
 /

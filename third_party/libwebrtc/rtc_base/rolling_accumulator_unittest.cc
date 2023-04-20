@@ -121,9 +121,7 @@ kLearningRate
 /
 /
 Add
-|
 n
-|
 samples
 drawn
 from

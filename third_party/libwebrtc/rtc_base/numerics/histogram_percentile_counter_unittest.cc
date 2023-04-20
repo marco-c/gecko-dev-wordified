@@ -192,9 +192,7 @@ hand
 /
 /
 for
-|
 kTestValues
-|
 .
 const
 std

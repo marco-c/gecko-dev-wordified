@@ -213,13 +213,9 @@ moving
 all
 Buffers
 from
-|
 queue_
-|
 to
-|
 free_list_
-|
 .
 void
 Clear

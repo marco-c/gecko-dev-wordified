@@ -197,9 +197,7 @@ reason
 to
 keep
 the
-|
 operations_chain_
-|
 alive
 through
 reference

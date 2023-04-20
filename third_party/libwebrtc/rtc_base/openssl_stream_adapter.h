@@ -587,9 +587,7 @@ SSLCertChain
 /
 /
 If
-|
 allow
-|
 has
 a
 value
@@ -612,9 +610,7 @@ configuration
 /
 /
 If
-|
 allow
-|
 has
 no
 value
@@ -1290,9 +1286,7 @@ code
 .
 /
 /
-|
 alert
-|
 indicates
 an
 alert

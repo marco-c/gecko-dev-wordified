@@ -664,9 +664,7 @@ buffer
 to
 the
 specified
-|
 size
-|
 .
 void
 Resize
@@ -1037,17 +1035,13 @@ len
 /
 Appends
 next
-|
 len
-|
 bytes
 from
 the
 buffer
 to
-|
 val
-|
 .
 Returns
 false
@@ -1058,9 +1052,7 @@ there
 is
 less
 than
-|
 len
-|
 bytes
 left
 .
@@ -1082,9 +1074,7 @@ len
 Moves
 current
 position
-|
 size
-|
 bytes
 forward
 .
@@ -1097,9 +1087,7 @@ there
 is
 less
 than
-|
 size
-|
 bytes
 left
 in

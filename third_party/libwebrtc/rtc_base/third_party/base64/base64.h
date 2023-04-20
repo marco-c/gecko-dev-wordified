@@ -378,9 +378,7 @@ char
 next
 to
 the
-|
 ch
-|
 from
 the
 Base64Table
@@ -389,9 +387,7 @@ Base64Table
 /
 If
 the
-|
 ch
-|
 is
 the
 last
@@ -414,9 +410,7 @@ table
 /
 Expects
 the
-|
 ch
-|
 be
 a
 base64
@@ -430,9 +424,7 @@ will
 be
 saved
 in
-|
 next_ch
-|
 .
 /
 /

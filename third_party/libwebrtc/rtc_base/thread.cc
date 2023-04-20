@@ -6393,9 +6393,7 @@ that
 permits
 invocation
 to
-|
 target
-|
 thread
 .
 bool

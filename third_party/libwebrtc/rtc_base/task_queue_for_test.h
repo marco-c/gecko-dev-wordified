@@ -449,9 +449,7 @@ Run
 method
 always
 returns
-|
 false
-|
 .
 )
 .

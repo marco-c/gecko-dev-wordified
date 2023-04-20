@@ -170,9 +170,7 @@ public
 Construct
 filter
 .
-|
 window_size
-|
 is
 how
 many
@@ -188,9 +186,7 @@ to
 take
 median
 .
-|
 window_size
-|
 must
 be
 positive

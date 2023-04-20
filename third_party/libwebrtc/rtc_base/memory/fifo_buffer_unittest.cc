@@ -2410,9 +2410,7 @@ sure
 data
 is
 in
-|
 buf
-|
 .
 size_t
 buffered

@@ -214,9 +214,7 @@ alpha_high
 ;
 /
 /
-|
 alpha_
-|
 for
 ExpFilter
 used
@@ -230,9 +228,7 @@ alpha_low
 ;
 /
 /
-|
 alpha_
-|
 for
 ExpFilter
 used
@@ -249,9 +245,7 @@ drop
 >
 0
 sets
-|
 use_all_drop_reasons
-|
 to
 true
 .
@@ -352,9 +346,7 @@ Returns
 QpThresholds
 for
 the
-|
 codec_type
-|
 .
 static
 absl

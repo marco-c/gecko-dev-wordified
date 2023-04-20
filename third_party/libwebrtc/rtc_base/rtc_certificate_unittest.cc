@@ -451,9 +451,7 @@ An
 RTC_CHECK
 ensures
 that
-|
 expires_s
-|
 this
 is
 in

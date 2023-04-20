@@ -329,9 +329,7 @@ fail
 /
 with
 an
-|
 RTC_CHECK
-|
 .
 TIntegral
 GenerateNumber

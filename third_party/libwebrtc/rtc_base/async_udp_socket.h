@@ -186,9 +186,7 @@ public
 /
 /
 Binds
-|
 socket
-|
 and
 creates
 AsyncUDPSocket
@@ -200,9 +198,7 @@ ownership
 /
 /
 of
-|
 socket
-|
 .
 Returns
 null
@@ -212,9 +208,7 @@ bind
 )
 fails
 (
-|
 socket
-|
 is
 destroyed
 /

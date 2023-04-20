@@ -573,9 +573,7 @@ addr
 ;
 /
 /
-|
 timestamp
-|
 is
 in
 units

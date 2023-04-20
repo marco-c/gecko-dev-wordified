@@ -168,9 +168,7 @@ the
 first
 boundry
 of
-|
 alignment
-|
 bytes
 following
 the
@@ -178,9 +176,7 @@ the
 /
 address
 of
-|
 ptr
-|
 .
 /
 /
@@ -200,9 +196,7 @@ available
 .
 /
 /
-|
 ptr
-|
 has
 no
 requirements
@@ -232,16 +226,12 @@ alignment
 Allocates
 memory
 of
-|
 size
-|
 bytes
 aligned
 on
 an
-|
 alignment
-|
 boundry
 .
 /

@@ -247,9 +247,7 @@ down
 average
 of
 last
-|
 window_size
-|
 elements
 or
 all
@@ -421,9 +419,7 @@ window
 Size
 is
 always
-|
 window_size
-|
 std
 :
 :

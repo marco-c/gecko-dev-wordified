@@ -200,9 +200,7 @@ size
 is
 less
 than
-|
 min_pixels_
-|
 .
 void
 SetMaxBitrate
@@ -231,13 +229,9 @@ percentage
 max_bitrate_factor_
 )
 above
-|
 max_bitrate_kbps_
-|
 for
-|
 min_duration_ms_
-|
 .
 bool
 BwHigh

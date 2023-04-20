@@ -2579,13 +2579,9 @@ period
 .
 /
 /
-|
 not_before
-|
 and
-|
 not_after
-|
 are
 offsets
 from

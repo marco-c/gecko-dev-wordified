@@ -265,9 +265,7 @@ ChainOperation
 (
 )
 .
-|
 callback_
-|
 is
 /
 /
@@ -275,9 +273,7 @@ passed
 on
 to
 the
-|
 functor_
-|
 and
 is
 used
@@ -430,9 +426,7 @@ complete
 .
 As
 such
-|
 this
-|
 OperationWithFunctor
 /
 /
@@ -443,9 +437,7 @@ deleted
 here
 including
 destroying
-|
 functor_
-|
 .
 To
 /
@@ -493,9 +485,7 @@ callback_
 ;
 /
 /
-|
 this
-|
 may
 now
 be
@@ -1002,9 +992,7 @@ The
 operation
 starts
 when
-|
 functor
-|
 is
 executed
 by

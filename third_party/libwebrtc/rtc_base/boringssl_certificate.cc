@@ -847,9 +847,7 @@ X
 Common
 Name
 to
-|
 cbb
-|
 .
 bool
 AddCommonName

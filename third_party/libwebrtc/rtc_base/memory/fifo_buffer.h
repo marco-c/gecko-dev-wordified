@@ -259,9 +259,7 @@ length
 /
 Read
 into
-|
 buffer
-|
 with
 an
 offset
@@ -327,9 +325,7 @@ bytes_read
 /
 /
 Write
-|
 buffer
-|
 with
 an
 offset

@@ -753,9 +753,7 @@ very
 first
 timestamp
 (
-|
 frames_seen_
-|
 =
 0
 )
@@ -1022,14 +1020,10 @@ values
 of
 /
 /
-|
 system_time_us
-|
 less
 than
-|
 kMinFrameIntervalUs
-|
 apart
 we
 may
@@ -1068,9 +1062,7 @@ with
 exactly
 the
 same
-|
 system_time_us
-|
 .
 RTC_LOG
 (

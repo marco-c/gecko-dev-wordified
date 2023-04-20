@@ -246,9 +246,7 @@ that
 is
 attached
 to
-|
 address
-|
 so
 that
 all
@@ -258,9 +256,7 @@ packets
 on
 the
 socket
-|
 socket_fd
-|
 will
 be
 sent
@@ -331,9 +327,7 @@ network
 change
 events
 via
-|
 OnNetworksChanged
-|
 and
 signals
 the
@@ -551,9 +545,7 @@ interface_name
 /
 /
 Does
-|
 this
-|
 NetworkMonitorInterface
 implement
 BindSocketToNetwork

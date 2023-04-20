@@ -162,9 +162,7 @@ of
 the
 hostname
 in
-|
 addr
-|
 .
 virtual
 void
@@ -186,9 +184,7 @@ iff
 the
 address
 from
-|
 Start
-|
 was
 successfully
 resolved
@@ -202,9 +198,7 @@ was
 successfully
 resolved
 sets
-|
 addr
-|
 to
 a
 copy
@@ -214,9 +208,7 @@ the
 /
 address
 from
-|
 Start
-|
 with
 the
 IP
@@ -231,13 +223,9 @@ resolved
 /
 address
 of
-|
 family
-|
 (
-|
 addr
-|
 will
 have
 both

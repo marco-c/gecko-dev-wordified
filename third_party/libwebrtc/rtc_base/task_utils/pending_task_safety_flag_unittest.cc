@@ -224,9 +224,7 @@ safety_flag
 Scope
 for
 the
-|
 owner
-|
 instance
 .
 class
@@ -303,9 +301,7 @@ alive
 }
 /
 /
-|
 owner
-|
 now
 out
 of
@@ -370,9 +366,7 @@ alive
 }
 /
 /
-|
 owner
-|
 now
 out
 of
@@ -865,9 +859,7 @@ can
 and
 delete
 the
-|
 owner
-|
 before
 the
 '

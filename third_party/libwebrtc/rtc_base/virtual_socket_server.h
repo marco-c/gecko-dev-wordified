@@ -802,9 +802,7 @@ largest_seen_udp_payload_
 /
 /
 If
-|
 blocked
-|
 is
 true
 subsequent
@@ -839,9 +837,7 @@ is
 later
 called
 with
-|
 blocked
-|
 set
 to
 false

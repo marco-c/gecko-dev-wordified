@@ -558,9 +558,7 @@ clients
 Takes
 ownership
 of
-|
 identity
-|
 .
 virtual
 void
@@ -735,9 +733,7 @@ null
 /
 and
 deletes
-|
 socket
-|
 .
 Otherwise
 the
@@ -748,9 +744,7 @@ ownership
 /
 /
 of
-|
 socket
-|
 .
 static
 SSLAdapter

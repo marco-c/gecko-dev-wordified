@@ -764,9 +764,7 @@ Insert
 two
 sets
 of
-|
 zero_to_nine
-|
 in
 random
 order
@@ -831,9 +829,7 @@ a
 full
 set
 of
-|
 zero_to_nine
-|
 the
 percentile
 should
@@ -860,9 +856,7 @@ and
 erase
 sets
 of
-|
 zero_to_nine
-|
 in
 random
 order

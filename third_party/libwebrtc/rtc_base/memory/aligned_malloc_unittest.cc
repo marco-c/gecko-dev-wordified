@@ -139,13 +139,9 @@ webrtc
 Returns
 true
 if
-|
 size
-|
 and
-|
 alignment
-|
 are
 valid
 combinations

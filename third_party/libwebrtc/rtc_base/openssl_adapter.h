@@ -579,14 +579,10 @@ usage
 /
 with
 SSLMode
-|
 mode
-|
 and
 if
-|
 enable_cache
-|
 is
 true
 with
@@ -781,9 +777,7 @@ as
 for
 Send
 ;
-|
 error
-|
 is
 /
 /
@@ -956,9 +950,7 @@ SSL_CTX
 was
 created
 with
-|
 enable_cache
-|
 set
 to
 true

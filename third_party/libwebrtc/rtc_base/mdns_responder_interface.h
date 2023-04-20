@@ -208,13 +208,9 @@ a
 new
 name
 via
-|
 callback
-|
 for
-|
 addr
-|
 if
 /
 /
@@ -249,9 +245,7 @@ mapped
 to
 /
 /
-|
 addr
-|
 is
 returned
 and
@@ -291,9 +285,7 @@ the
 mapped
 name
 of
-|
 addr
-|
 if
 /
 /
@@ -313,9 +305,7 @@ removes
 the
 association
 between
-|
 addr
-|
 and
 its
 mapped
@@ -326,9 +316,7 @@ returns
 /
 true
 via
-|
 callback
-|
 if
 the
 decremented
@@ -349,9 +337,7 @@ false
 is
 returned
 via
-|
 callback
-|
 /
 /
 asynchronously

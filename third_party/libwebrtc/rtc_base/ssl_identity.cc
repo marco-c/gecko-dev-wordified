@@ -356,9 +356,7 @@ namespace
 /
 /
 Read
-|
 n
-|
 bytes
 from
 ASN1
@@ -366,9 +364,7 @@ number
 string
 at
 *
-|
 pp
-|
 and
 return
 the
@@ -379,14 +375,10 @@ value
 /
 Update
 *
-|
 pp
-|
 and
 *
-|
 np
-|
 to
 reflect
 number
@@ -855,9 +847,7 @@ and
 store
 it
 in
-|
 tm
-|
 in
 documented
 /

@@ -423,9 +423,7 @@ cipher
 suite
 table
 .
-|
 internal_name
-|
 is
 used
 to

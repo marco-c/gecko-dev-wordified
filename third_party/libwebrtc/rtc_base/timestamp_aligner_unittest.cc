@@ -173,9 +173,7 @@ mean
 for
 the
 first
-|
 window_size
-|
 samples
 followed
 /
@@ -187,9 +185,7 @@ with
 weight
 1
 /
-|
 window_size
-|
 for
 each
 new
@@ -1103,9 +1099,7 @@ bias
 to
 /
 /
-|
 kSystemTimeUs
-|
 when
 calling
 ClipTimestamp
