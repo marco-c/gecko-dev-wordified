@@ -1315,12 +1315,6 @@ stun_server
 ;
 config_
 .
-enable_rtp_data_channel
-=
-true
-;
-config_
-.
 enable_dtls_srtp
 =
 false
