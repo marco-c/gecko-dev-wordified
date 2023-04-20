@@ -623,6 +623,17 @@ peer_name
 override
 ;
 void
+UnregisterParticipantInCall
+(
+absl
+:
+:
+string_view
+peer_name
+)
+override
+;
+void
 Stop
 (
 )
