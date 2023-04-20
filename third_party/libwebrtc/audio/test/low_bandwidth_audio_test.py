@@ -1098,6 +1098,15 @@ search
 (
 test_re
 line
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
     
 if
@@ -1483,7 +1492,17 @@ d
 +
 )
 '
+      
 out
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
   
 if
