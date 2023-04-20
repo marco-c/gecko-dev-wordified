@@ -82,15 +82,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BrowserTabChild
-"
-]
-;
 const
 lazy
 =
@@ -120,6 +111,7 @@ jsm
 "
 )
 ;
+export
 class
 BrowserTabChild
 extends

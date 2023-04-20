@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BrowserTabParent
-"
-]
-;
 const
 {
 BrowserWindowTracker
@@ -93,6 +84,7 @@ jsm
 "
 )
 ;
+export
 class
 BrowserTabParent
 extends
