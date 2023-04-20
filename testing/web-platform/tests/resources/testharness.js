@@ -26345,7 +26345,7 @@ new
 Error
 (
 "
-beign_shadow_realm_tests
+begin_shadow_realm_tests
 called
 in
 non
