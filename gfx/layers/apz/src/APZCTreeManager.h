@@ -2490,6 +2490,16 @@ aValues
 )
 override
 ;
+void
+SetBrowserGestureResponse
+(
+uint64_t
+aInputBlockId
+BrowserGestureResponse
+aResponse
+)
+override
+;
 /
 *
 *
