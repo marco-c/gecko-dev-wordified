@@ -3002,7 +3002,7 @@ packet
 /
 if
 the
-rentrasmit
+retransmit
 arrives
 -
 so

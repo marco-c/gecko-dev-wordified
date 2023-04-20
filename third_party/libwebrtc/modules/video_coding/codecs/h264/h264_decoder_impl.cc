@@ -2244,7 +2244,7 @@ reordering
 .
 Decoded
 frame
-tamestamp
+timestamp
 should
 match
 /

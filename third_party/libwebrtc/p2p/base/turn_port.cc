@@ -7647,9 +7647,6 @@ largest
 delay
 and
 then
-sce
-/
-/
 we
 schedule
 a
@@ -7657,6 +7654,8 @@ refresh
 for
 one
 minute
+/
+/
 less
 than
 max
