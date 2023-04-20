@@ -123,6 +123,13 @@ DOM_FS_PARENT_DATAMODEL_SCHEMAVERSION001_H_
 #
 include
 "
+ResultConnection
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -141,13 +148,6 @@ dom
 quota
 /
 ForwardDecls
-.
-h
-"
-#
-include
-"
-ResultConnection
 .
 h
 "
