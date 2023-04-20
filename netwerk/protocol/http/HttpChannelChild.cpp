@@ -13026,7 +13026,7 @@ HttpChannelChild
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

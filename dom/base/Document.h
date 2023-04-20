@@ -769,6 +769,13 @@ h
 #
 include
 "
+nsITransportSecurityInfo
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -13497,7 +13504,7 @@ see
 nsIChannel
 *
 /
-nsISupports
+nsITransportSecurityInfo
 *
 GetSecurityInfo
 (
@@ -30321,7 +30328,7 @@ security
 info
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 mSecurityInfo
 ;

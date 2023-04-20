@@ -327,6 +327,13 @@ h
 #
 include
 "
+nsITransportSecurityInfo
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -2637,7 +2644,7 @@ nodiscard
 nsresult
 OverrideSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 aSecurityInfo
 )
@@ -4027,7 +4034,7 @@ mProxyInfo
 ;
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 mSecurityInfo
 ;

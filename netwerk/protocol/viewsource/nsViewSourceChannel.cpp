@@ -3335,7 +3335,7 @@ nsViewSourceChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

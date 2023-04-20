@@ -3454,7 +3454,7 @@ InterceptedHttpChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
@@ -3462,7 +3462,7 @@ aSecurityInfo
 {
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 ref
 (

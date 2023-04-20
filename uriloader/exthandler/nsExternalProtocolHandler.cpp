@@ -772,7 +772,7 @@ nsExtProtocolChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

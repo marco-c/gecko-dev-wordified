@@ -488,7 +488,7 @@ nsIChannel
 NS_IMETHOD
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

@@ -966,7 +966,7 @@ TRRServiceChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 securityInfo

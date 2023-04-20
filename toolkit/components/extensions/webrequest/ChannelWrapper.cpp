@@ -7907,7 +7907,7 @@ MaybeChannel
 {
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 securityInfo
 ;
@@ -7927,16 +7927,7 @@ securityInfo
 ;
 if
 (
-nsCOMPtr
-<
-nsITransportSecurityInfo
->
-tsi
-=
-do_QueryInterface
-(
 securityInfo
-)
 )
 {
 int32_t
@@ -7944,7 +7935,7 @@ errorCode
 =
 0
 ;
-tsi
+securityInfo
 -
 >
 GetErrorCode

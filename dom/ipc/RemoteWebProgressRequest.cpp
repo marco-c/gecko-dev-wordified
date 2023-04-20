@@ -229,7 +229,7 @@ RemoteWebProgressRequest
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

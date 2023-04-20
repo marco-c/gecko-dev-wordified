@@ -1563,7 +1563,7 @@ ExternalHelperAppParent
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

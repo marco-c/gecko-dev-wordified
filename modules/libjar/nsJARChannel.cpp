@@ -4501,7 +4501,7 @@ nsJARChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
@@ -4517,13 +4517,10 @@ param
 "
 )
 ;
-NS_IF_ADDREF
-(
 *
 aSecurityInfo
 =
-mSecurityInfo
-)
+nullptr
 ;
 return
 NS_OK
