@@ -125,6 +125,13 @@ DAV1DDecoder_h_
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -379,6 +386,12 @@ layers
 KnowsCompositor
 >
 mImageAllocator
+;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder
 ;
 /
 /
