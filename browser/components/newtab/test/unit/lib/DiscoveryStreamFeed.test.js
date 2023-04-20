@@ -14599,7 +14599,7 @@ set
 ExperimentAPI
 "
 {
-getExperiment
+getExperimentMetaData
 :
 (
 )
@@ -14621,6 +14621,16 @@ slug
 branchId
 "
 }
+}
+)
+getRolloutMetaData
+:
+(
+)
+=
+>
+(
+{
 }
 )
 }
