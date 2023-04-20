@@ -206,6 +206,8 @@ log
 .
 h
 "
+/
+*
 #
 include
 "
@@ -213,6 +215,8 @@ random_seed
 .
 h
 "
+*
+/
 #
 include
 "
@@ -230,7 +234,7 @@ h
 #
 include
 "
-time
+fftime
 .
 h
 "
@@ -2991,10 +2995,16 @@ bikeshed
 int
 rgba
 =
+0xffffffff
+;
+/
+*
 av_get_random_seed
 (
 )
 ;
+*
+/
 rgba_color
 [
 0
