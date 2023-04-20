@@ -33,6 +33,7 @@ String
 derive
 (
 Debug
+Clone
 )
 ]
 /
@@ -67,7 +68,6 @@ cfg_attr
 test
 derive
 (
-Clone
 PartialEq
 Eq
 )
@@ -791,6 +791,7 @@ track
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -826,7 +827,6 @@ cfg_attr
 test
 derive
 (
-Clone
 PartialEq
 Eq
 )

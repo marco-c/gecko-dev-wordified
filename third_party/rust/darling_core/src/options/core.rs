@@ -51,15 +51,6 @@ use
 crate
 :
 :
-util
-:
-:
-Flag
-;
-use
-crate
-:
-:
 {
 Error
 FromMeta
@@ -91,8 +82,6 @@ derive
 (
 Debug
 Clone
-PartialEq
-Eq
 )
 ]
 pub
@@ -371,7 +360,10 @@ time
 pub
 allow_unknown_fields
 :
-Flag
+Option
+<
+bool
+>
 }
 impl
 Core
@@ -1395,7 +1387,7 @@ v
 .
 allow_unknown_fields
 .
-into
+unwrap_or_default
 (
 )
 }

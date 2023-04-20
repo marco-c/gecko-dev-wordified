@@ -1055,8 +1055,6 @@ the
 |
 fields
 |
-Option
-<
 darling
 :
 :
@@ -1065,9 +1063,12 @@ ast
 :
 Fields
 <
-__
+T
 >
->
+where
+T
+:
+FromField
 |
 The
 fields

@@ -224,10 +224,9 @@ darling
 default
 )
 ]
-and
+or
 we
 could
-additionally
 /
 /
 /
@@ -339,13 +338,6 @@ Table
 name
 :
 String
-#
-[
-darling
-(
-default
-)
-]
 value
 :
 Option
