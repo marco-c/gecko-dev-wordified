@@ -4843,7 +4843,7 @@ off
 WEBRTC_RTCSTATS_IMPL
 (
 RTCRemoteInboundRtpStreamStats
-RTCStats
+RTCReceivedRtpStreamStats
 "
 remote
 -
