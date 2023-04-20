@@ -244,14 +244,9 @@ duration
 {
 now_
 =
-TimeMs
-(
-*
 now_
 +
-*
 duration
-)
 ;
 for
 (
