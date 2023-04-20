@@ -672,6 +672,21 @@ add_help
 False
 )
     
+if
+not
+argv
+:
+        
+parser
+.
+print_help
+(
+)
+        
+return
+None
+None
+    
 args
 extra
 =
@@ -1418,6 +1433,13 @@ parse_args
 argv
 commands
 )
+    
+if
+not
+main_args
+:
+        
+return
     
 command
 =
