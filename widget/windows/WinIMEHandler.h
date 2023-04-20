@@ -992,12 +992,12 @@ string
 /
 static
 void
-AppendInputScopeFromInputmode
+AppendInputScopeFromInputMode
 (
 const
 nsAString
 &
-aInputmode
+aHTMLInputMode
 nsTArray
 <
 InputScope
@@ -1146,7 +1146,7 @@ aHTMLInputType
 const
 nsAString
 &
-aHTMLInputInputmode
+aHTMLInputMode
 bool
 aInPrivateBrowsing
 )

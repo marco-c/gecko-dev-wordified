@@ -1746,7 +1746,7 @@ mHTMLInputType
 "
 \
 "
-mHTMLInputInputmode
+mHTMLInputMode
 =
 \
 "
@@ -1755,7 +1755,7 @@ mHTMLInputInputmode
 <
 aContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 <
 <
 "
