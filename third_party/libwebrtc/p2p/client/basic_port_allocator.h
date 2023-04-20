@@ -1492,8 +1492,6 @@ port
 AllocationSequence
 *
 seq
-bool
-prepare_address
 )
 ;
 void
