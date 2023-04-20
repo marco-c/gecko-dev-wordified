@@ -78,15 +78,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-runBackgroundTask
-"
-]
-;
+export
 async
 function
 runBackgroundTask
@@ -125,7 +117,7 @@ taskModule
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -140,7 +132,9 @@ backgroundtasks
 /
 BackgroundTask_shouldprocessupdates
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

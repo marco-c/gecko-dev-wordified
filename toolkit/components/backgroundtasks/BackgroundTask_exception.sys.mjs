@@ -78,15 +78,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-runBackgroundTask
-"
-]
-;
+export
 async
 function
 runBackgroundTask

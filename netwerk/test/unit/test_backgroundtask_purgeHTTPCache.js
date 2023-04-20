@@ -187,8 +187,6 @@ BackgroundTasksManager
 jsm
 "
 )
-.
-BackgroundTasksManager
 ;
 const
 LEAF_NAME

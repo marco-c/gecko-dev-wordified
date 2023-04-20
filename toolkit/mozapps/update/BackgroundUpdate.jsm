@@ -121,7 +121,7 @@ jsm
 ;
 const
 {
-BackgroundTasksManager
+EXIT_CODE
 }
 =
 ChromeUtils
@@ -4805,8 +4805,6 @@ EXIT_CODE
 {
 .
 .
-.
-BackgroundTasksManager
 .
 EXIT_CODE
 /

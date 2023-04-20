@@ -810,7 +810,9 @@ pings
 /
 BackgroundTask_pingsender
 .
-jsm
+sys
+.
+mjs
 "
 ]
 if
