@@ -8697,7 +8697,7 @@ SetRecvParameters
 "
 )
 ;
-RTC_DLOG
+RTC_LOG
 (
 LS_INFO
 )
