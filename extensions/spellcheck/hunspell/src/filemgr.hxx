@@ -38,7 +38,7 @@ C
 )
 2002
 -
-2017
+2022
 N
 meth
 L
@@ -751,7 +751,7 @@ FILEMGR_HXX_
 #
 include
 "
-mozHunspellFileMgrSandbox
+mozHunspellRLBoxSandbox
 .
 h
 "

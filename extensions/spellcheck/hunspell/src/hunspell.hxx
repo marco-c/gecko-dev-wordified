@@ -38,7 +38,7 @@ C
 )
 2002
 -
-2017
+2022
 N
 meth
 L
@@ -769,9 +769,14 @@ xml
 >
 "
 #
+ifndef
+MAXSUGGESTION
+#
 define
 MAXSUGGESTION
 15
+#
+endif
 #
 define
 MAXSHARPS
