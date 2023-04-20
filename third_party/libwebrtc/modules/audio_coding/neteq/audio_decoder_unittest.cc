@@ -4144,7 +4144,7 @@ const
 int
 kEncodedBytes
 =
-684
+673
 ;
 #
 elif
