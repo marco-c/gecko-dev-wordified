@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_JoinSplitNodeDirection_h
+JoinSplitNodeDirection_h
 #
 define
-mozilla_JoinSplitNodeDirection_h
+JoinSplitNodeDirection_h
 #
 include
 <
@@ -337,4 +337,4 @@ mozilla
 endif
 /
 /
-mozilla_JoinSplitNodeDirection_h
+JoinSplitNodeDirection_h

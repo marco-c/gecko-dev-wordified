@@ -136,6 +136,13 @@ HTMLEditor
 #
 include
 "
+HTMLEditorInlines
+.
+h
+"
+#
+include
+"
 HTMLEditUtils
 .
 h
