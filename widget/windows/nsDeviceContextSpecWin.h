@@ -450,13 +450,6 @@ nsIFile
 >
 mTempFile
 ;
-private
-:
-nsresult
-DoEndDocument
-(
-)
-;
 }
 ;
 /
