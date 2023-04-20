@@ -103,7 +103,9 @@ and
 informs
 the
 registered
-StackTraceCollector
+"
+collectors
+"
 about
 the
 old
@@ -314,9 +316,13 @@ console
 error
 (
 "
-StackTraceCollector
-.
+ChannelEventSink
+collector
+'
+s
+'
 onChannelRedirect
+'
 threw
 an
 exception
