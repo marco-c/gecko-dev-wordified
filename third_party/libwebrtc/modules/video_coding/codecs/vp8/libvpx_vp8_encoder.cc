@@ -6238,9 +6238,9 @@ spatial_idx
 )
 const
 {
-bool
-enable_frame_dropping
-=
+if
+(
+!
 codec_
 .
 VP8
@@ -6248,7 +6248,12 @@ VP8
 )
 .
 frameDroppingOn
+)
+{
+return
+0
 ;
+}
 /
 /
 If
@@ -6310,8 +6315,7 @@ StreamCount
 )
 )
 ;
-enable_frame_dropping
-=
+return
 frame_buffer_controller_
 -
 >
@@ -6319,9 +6323,6 @@ SupportsEncoderFrameDropping
 (
 spatial_idx
 )
-;
-return
-enable_frame_dropping
 ?
 30
 :
