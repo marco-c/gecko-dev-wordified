@@ -110,7 +110,8 @@ that
 provides
 the
 *
-nsIModule
+XPCOM
+module
 implementation
 for
 a
