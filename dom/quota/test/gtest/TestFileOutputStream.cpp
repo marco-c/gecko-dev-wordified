@@ -896,7 +896,7 @@ sBackgroundTarget
 TEST_F
 (
 TestFileOutputStream
-DISABLED_extendFileStreamWithSetEOF
+extendFileStreamWithSetEOF
 )
 {
 auto
