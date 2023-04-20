@@ -121,6 +121,14 @@ num_capture_channels
 reverb_frequency_responses_
 (
 num_capture_channels
+ReverbFrequencyResponse
+(
+config
+.
+ep_strength
+.
+use_conservative_tail_frequency_response
+)
 )
 {
 for
