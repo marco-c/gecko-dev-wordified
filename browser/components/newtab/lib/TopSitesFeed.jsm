@@ -2862,9 +2862,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -2882,9 +2882,9 @@ result
 length
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Received
@@ -5672,9 +5672,9 @@ storedPrefs
 {
 }
 ;
-Cu
+console
 .
-reportError
+error
 (
 "
 Problem

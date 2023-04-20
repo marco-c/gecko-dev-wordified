@@ -5473,9 +5473,9 @@ message
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 error
 )

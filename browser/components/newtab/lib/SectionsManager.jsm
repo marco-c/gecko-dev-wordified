@@ -1476,9 +1476,9 @@ options
 {
 }
 ;
-Cu
+console
 .
-reportError
+error
 (
 Problem
 parsing
@@ -1522,9 +1522,9 @@ storedPrefs
 {
 }
 ;
-Cu
+console
 .
-reportError
+error
 (
 Problem
 getting
@@ -2299,9 +2299,9 @@ type
 ]
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 No
 context

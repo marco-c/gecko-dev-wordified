@@ -510,9 +510,9 @@ NotFoundError
 "
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Failed
 to

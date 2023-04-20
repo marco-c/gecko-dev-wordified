@@ -981,9 +981,9 @@ download
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

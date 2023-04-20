@@ -2732,9 +2732,9 @@ assert
 .
 calledWith
 (
-Cu
+console
 .
-reportError
+error
 "
 Problem
 initializing
@@ -2860,9 +2860,9 @@ assert
 .
 called
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -4335,9 +4335,9 @@ assert
 .
 called
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -5239,9 +5239,9 @@ assert
 .
 called
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

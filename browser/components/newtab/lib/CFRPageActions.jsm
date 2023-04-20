@@ -2034,9 +2034,9 @@ subAttribute
 ]
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 String
 {
@@ -5561,9 +5561,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
