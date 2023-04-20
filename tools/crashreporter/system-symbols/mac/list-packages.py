@@ -344,15 +344,6 @@ args
 .
 append
 (
-"
--
--
-product
--
-id
-=
-"
-+
 product_id
 )
     
@@ -396,6 +387,8 @@ args
 print
 (
 "
+\
+n
 "
 .
 join
