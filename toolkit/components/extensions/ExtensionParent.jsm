@@ -5273,6 +5273,8 @@ this
 .
 devToolsToolbox
 .
+commands
+.
 descriptorFront
 .
 localTab
