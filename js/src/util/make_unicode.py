@@ -10050,7 +10050,7 @@ unicode
 {
 }
 (
-uint32_t
+char32_t
 codePoint
 )
 "

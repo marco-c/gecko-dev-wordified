@@ -18063,7 +18063,7 @@ unicode
 :
 IsIdentifierStartNonBMP
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -26182,7 +26182,7 @@ unicode
 :
 IsIdentifierPartNonBMP
 (
-uint32_t
+char32_t
 codePoint
 )
 {

@@ -4302,7 +4302,7 @@ chars
 i
 ]
 ;
-uint32_t
+char32_t
 codePoint
 =
 c
@@ -4477,7 +4477,7 @@ i
 +
 ]
 ;
-uint32_t
+char32_t
 codePoint
 =
 c
@@ -23774,7 +23774,7 @@ JSContext
 cx
 HandleValue
 code
-uint32_t
+char32_t
 *
 codePoint
 )
@@ -23848,7 +23848,7 @@ NonBMPMax
 *
 codePoint
 =
-uint32_t
+char32_t
 (
 nextCP
 )
@@ -23952,7 +23952,7 @@ false
 *
 codePoint
 =
-uint32_t
+char32_t
 (
 nextCP
 )
@@ -23995,7 +23995,7 @@ a
 -
 d
 .
-uint32_t
+char32_t
 codePoint
 ;
 if
@@ -24198,7 +24198,7 @@ a
 -
 d
 .
-uint32_t
+char32_t
 codePoint
 ;
 if
@@ -24612,7 +24612,7 @@ a
 -
 d
 .
-uint32_t
+char32_t
 codePoint
 ;
 if
@@ -26283,7 +26283,7 @@ return
 Encode_BadUri
 ;
 }
-uint32_t
+char32_t
 v
 ;
 if
@@ -27093,7 +27093,7 @@ return
 Decode_Failure
 ;
 }
-uint32_t
+char32_t
 v
 =
 JS

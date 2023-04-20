@@ -11422,7 +11422,7 @@ AppendCodePointToCharBuffer
 CharBuffer
 &
 charBuffer
-uint32_t
+char32_t
 codePoint
 )
 ;
@@ -14053,7 +14053,7 @@ token
 uint32_t
 matchUnicodeEscape
 (
-uint32_t
+char32_t
 *
 codePoint
 )
@@ -14061,7 +14061,7 @@ codePoint
 uint32_t
 matchExtendedUnicodeEscape
 (
-uint32_t
+char32_t
 *
 codePoint
 )
@@ -15102,7 +15102,7 @@ offset
 uint32_t
 matchUnicodeEscapeIdStart
 (
-uint32_t
+char32_t
 *
 codePoint
 )
@@ -15110,7 +15110,7 @@ codePoint
 bool
 matchUnicodeEscapeIdent
 (
-uint32_t
+char32_t
 *
 codePoint
 )
@@ -16013,7 +16013,7 @@ getNonAsciiCodePoint
 (
 int32_t
 lead
-int32_t
+char32_t
 *
 codePoint
 )
@@ -16717,7 +16717,7 @@ MOZ_COLD
 void
 badStructurallyValidCodePoint
 (
-uint32_t
+char32_t
 codePoint
 uint8_t
 codePointLength
@@ -16760,7 +16760,7 @@ MOZ_COLD
 void
 badCodePoint
 (
-uint32_t
+char32_t
 codePoint
 uint8_t
 codePointLength
@@ -16850,7 +16850,7 @@ MOZ_COLD
 void
 notShortestForm
 (
-uint32_t
+char32_t
 codePoint
 uint8_t
 codePointLength
@@ -17095,7 +17095,7 @@ getNonAsciiCodePoint
 (
 int32_t
 lead
-int32_t
+char32_t
 *
 codePoint
 )
