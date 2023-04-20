@@ -182,6 +182,7 @@ VideoRtpDepacketizerVp8
 operator
 =
 (
+const
 VideoRtpDepacketizerVp8
 &
 )
