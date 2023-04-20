@@ -480,9 +480,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -697,9 +697,9 @@ resolve
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
