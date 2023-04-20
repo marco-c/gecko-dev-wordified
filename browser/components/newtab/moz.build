@@ -329,6 +329,13 @@ json
 "
 test
 /
+InflightAssetsMessageProvider
+.
+jsm
+"
+"
+test
+/
 RemoteImagesTestUtils
 .
 jsm
