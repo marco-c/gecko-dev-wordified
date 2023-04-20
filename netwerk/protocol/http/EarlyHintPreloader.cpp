@@ -1066,6 +1066,12 @@ ASDestination
 :
 :
 DESTINATION_FONT
+&
+&
+aCorsMode
+!
+=
+CORS_NONE
 )
 {
 return
@@ -1196,6 +1202,12 @@ ASDestination
 :
 :
 DESTINATION_FETCH
+&
+&
+aCorsMode
+!
+=
+CORS_NONE
 )
 {
 return
