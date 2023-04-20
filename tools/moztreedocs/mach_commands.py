@@ -1142,6 +1142,9 @@ status
         
 )
     
+else
+:
+        
 print
 (
 "
@@ -1866,37 +1869,6 @@ generate
 the
 doc
 faster
-    
-#
-pylint
-:
-disable
-=
-abstract
--
-class
--
-instantiated
-    
-#
-See
-https
-:
-/
-/
-github
-.
-com
-/
-getsentry
-/
-sentry
--
-python
-/
-issues
-/
-1081
     
 sentry_sdk
 .

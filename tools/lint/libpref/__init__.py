@@ -859,7 +859,7 @@ bools
 value
 ]
     
-if
+elif
 value
 .
 isdigit

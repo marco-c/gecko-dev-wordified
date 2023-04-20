@@ -121,6 +121,8 @@ mozpack
 path
 as
 mozpath
+import
+six
 from
 mozlint
 import
@@ -426,7 +428,14 @@ cmd
 .
 join
 (
+six
+.
+moves
+.
+shlex_quote
+(
 arg
+)
 for
 arg
 in

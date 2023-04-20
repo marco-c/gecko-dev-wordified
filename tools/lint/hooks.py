@@ -311,7 +311,7 @@ staged
 return
 False
     
-if
+elif
 "
 push
 "

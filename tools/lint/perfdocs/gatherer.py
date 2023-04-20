@@ -336,12 +336,15 @@ self
 .
 _perfdocs_tree
         
+else
+:
+            
 self
 .
 fetch_perfdocs_tree
 (
 )
-        
+            
 return
 self
 .
