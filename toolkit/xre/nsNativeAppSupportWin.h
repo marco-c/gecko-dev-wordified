@@ -215,7 +215,9 @@ PRIVATE_BROWSING_ICON_INDEX
 in
 BrowserContentHandler
 .
-jsm
+sys
+.
+mjs
 must
 also
 be

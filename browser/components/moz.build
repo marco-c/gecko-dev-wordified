@@ -439,7 +439,9 @@ EXTRA_JS_MODULES
 "
 BrowserContentHandler
 .
-jsm
+sys
+.
+mjs
 "
 "
 BrowserGlue
