@@ -593,7 +593,7 @@ absl
 :
 :
 string_view
-s
+encoded_bytes
 bool
 batched
 std
@@ -615,7 +615,7 @@ definition_
 .
 ParseBatch
 (
-s
+encoded_bytes
 batched
 output
 )
