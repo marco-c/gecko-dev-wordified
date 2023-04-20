@@ -295,7 +295,7 @@ h
 #
 include
 "
-AudioThreadRegistry
+CallbackThreadRegistry
 .
 h
 "
@@ -4002,10 +4002,10 @@ CheckThreadIdChanged
 mSandboxed
 )
 {
-CubebUtils
+CallbackThreadRegistry
 :
 :
-GetAudioThreadRegistry
+Get
 (
 )
 -
@@ -4013,6 +4013,9 @@ GetAudioThreadRegistry
 Register
 (
 mAudioThreadId
+"
+NativeAudioCallback
+"
 )
 ;
 }
@@ -4384,10 +4387,10 @@ Available
 0
 )
 {
-CubebUtils
+CallbackThreadRegistry
 :
 :
-GetAudioThreadRegistry
+Get
 (
 )
 -
