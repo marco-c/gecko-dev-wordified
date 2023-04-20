@@ -150,7 +150,7 @@ NDEBUG
 |
 defined
 (
-RTC_DCHECK_ALWAYS_ON
+DCHECK_ALWAYS_ON
 )
 #
 define

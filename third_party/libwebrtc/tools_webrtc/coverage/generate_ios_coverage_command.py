@@ -685,7 +685,7 @@ false
             
 [
 '
-rtc_dcheck_always_on
+dcheck_always_on
 =
 true
 '
@@ -866,7 +866,7 @@ code
 coverage
 using
 iOS
-sim
+simulator
 just
 run
 following
