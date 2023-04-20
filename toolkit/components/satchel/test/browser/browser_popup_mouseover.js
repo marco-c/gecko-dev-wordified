@@ -214,12 +214,6 @@ value4
 ]
 ;
 await
-new
-Promise
-(
-resolve
-=
->
 FormHistory
 .
 update
@@ -237,12 +231,6 @@ remove
 .
 mockHistory
 ]
-{
-handleCompletion
-:
-resolve
-}
-)
 )
 ;
 await
