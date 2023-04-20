@@ -1530,17 +1530,7 @@ test
 :
 GetFileSize
 (
-std
-:
-:
-string
-(
 temp_filename
-.
-c_str
-(
-)
-)
 )
 0u
 )
@@ -1572,11 +1562,6 @@ test
 :
 GetFileSize
 (
-absl
-:
-:
-string_view
-(
 "
 non
 -
@@ -1586,7 +1571,6 @@ file
 .
 tmp
 "
-)
 )
 )
 ;
