@@ -139,6 +139,14 @@ windows
 ]
 [
 "
+nsIAboutWindowsMessages
+"
+"
+windows
+"
+]
+[
+"
 nsIJumpListItem
 "
 "
