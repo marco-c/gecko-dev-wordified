@@ -2701,6 +2701,15 @@ funcType
 const
 ;
 inline
+const
+TypeIdDesc
+&
+funcTypeId
+(
+)
+const
+;
+inline
 bool
 usesMemory
 (
