@@ -19824,7 +19824,10 @@ AsyncWait
 self
 0
 0
-nullptr
+self
+-
+>
+mIOThread
 )
 ;
 if
@@ -26657,7 +26660,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mIOThread
 -
@@ -26920,7 +26923,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mIOThread
 -
