@@ -57,8 +57,8 @@ from
 __future__
 import
 absolute_import
-unicode_literals
 print_function
+unicode_literals
 import
 os
 import
@@ -70,27 +70,25 @@ argparse
 import
 Namespace
 from
-mozbuild
-.
-base
-import
-(
-    
-MachCommandConditions
-as
-conditions
-    
-MozbuildObject
-)
-from
 mach
 .
 decorators
 import
-(
-    
 Command
-)
+from
+mozbuild
+.
+base
+import
+MachCommandConditions
+as
+conditions
+from
+mozbuild
+.
+base
+import
+MozbuildObject
 parser
 =
 None
@@ -2080,9 +2078,9 @@ android_device
 import
 (
             
-verify_android_device
-            
 InstallIntent
+            
+verify_android_device
         
 )
         
