@@ -185,10 +185,11 @@ code
 testInternal
 .
 serviceResultCode
-subAppIds
+subApps
 :
-[
-]
+testInternal
+.
+listCallReturnValue
 }
 }
 )
@@ -231,6 +232,10 @@ addCallReturnValue
 :
 [
 ]
+listCallReturnValue
+:
+[
+]
 }
 class
 SubAppsServiceTestChromium
@@ -257,6 +262,7 @@ initialize
 (
 service_result_code
 add_call_return_value
+list_call_return_value
 )
 {
 if
@@ -285,6 +291,9 @@ service_result_code
 addCallReturnValue
 :
 add_call_return_value
+listCallReturnValue
+:
+list_call_return_value
 }
 ;
 }
@@ -323,6 +332,10 @@ serviceResultCode
 :
 0
 addCallReturnValue
+:
+[
+]
+listCallReturnValue
 :
 [
 ]
