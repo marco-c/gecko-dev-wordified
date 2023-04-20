@@ -88,7 +88,7 @@ headers
 endif
 #
 if
-3021004
+3021006
 <
 PROTOBUF_MIN_PROTOC_VERSION
 #

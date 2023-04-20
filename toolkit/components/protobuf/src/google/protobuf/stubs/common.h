@@ -632,7 +632,7 @@ micro
 #
 define
 GOOGLE_PROTOBUF_VERSION
-3021004
+3021006
 /
 /
 A
