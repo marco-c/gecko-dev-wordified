@@ -169,6 +169,7 @@ ScreenshotsComponentParent
 extends
 JSWindowActorParent
 {
+async
 receiveMessage
 (
 message
@@ -199,6 +200,7 @@ Screenshots
 CancelScreenshot
 "
 :
+await
 ScreenshotsUtils
 .
 closePanel
@@ -215,6 +217,7 @@ Screenshots
 CopyScreenshot
 "
 :
+await
 ScreenshotsUtils
 .
 closePanel
@@ -247,6 +250,7 @@ Screenshots
 DownloadScreenshot
 "
 :
+await
 ScreenshotsUtils
 .
 closePanel
@@ -1002,6 +1006,7 @@ didDestroy
 .
 *
 /
+async
 closePanel
 (
 browser
@@ -1063,6 +1068,7 @@ getActor
 browser
 )
 ;
+await
 actor
 .
 sendQuery
