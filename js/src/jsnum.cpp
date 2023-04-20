@@ -4049,6 +4049,7 @@ path
 when
 string
 >
+=
 *
 1e21
 or
@@ -4121,6 +4122,7 @@ if
 (
 DOUBLE_DECIMAL_IN_SHORTEST_LOW
 <
+=
 d
 &
 &
@@ -4157,6 +4159,7 @@ d
 &
 d
 <
+=
 -
 DOUBLE_DECIMAL_IN_SHORTEST_LOW
 )
