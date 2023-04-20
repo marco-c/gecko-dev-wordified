@@ -3081,9 +3081,6 @@ distribution
 "
 extensions
 "
-"
-searchplugins
-"
 ]
 :
                 
