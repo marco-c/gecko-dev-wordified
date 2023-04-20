@@ -546,9 +546,7 @@ std
 :
 unique_ptr
 <
-uint8_t
-[
-]
+BasicDesktopFrame
 >
 current_frame_
 ;
