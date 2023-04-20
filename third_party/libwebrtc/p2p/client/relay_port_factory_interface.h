@@ -180,10 +180,6 @@ Create
 struct
 CreateRelayPortArgs
 {
-CreateRelayPortArgs
-(
-)
-;
 rtc
 :
 :
@@ -233,6 +229,8 @@ webrtc
 TurnCustomizer
 *
 turn_customizer
+=
+nullptr
 ;
 const
 webrtc
@@ -246,15 +244,6 @@ nullptr
 ;
 }
 ;
-inline
-CreateRelayPortArgs
-:
-:
-CreateRelayPortArgs
-(
-)
-{
-}
 /
 /
 A
