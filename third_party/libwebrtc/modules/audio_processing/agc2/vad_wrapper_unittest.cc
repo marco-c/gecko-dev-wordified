@@ -94,7 +94,7 @@ audio_processing
 /
 agc2
 /
-vad_with_level
+vad_wrapper
 .
 h
 "
@@ -107,6 +107,16 @@ limits
 include
 <
 memory
+>
+#
+include
+<
+tuple
+>
+#
+include
+<
+utility
 >
 #
 include
@@ -416,6 +426,7 @@ samples
 with
 value
 .
+explicit
 FrameWithView
 (
 float
