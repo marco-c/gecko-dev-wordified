@@ -657,3 +657,9 @@ load
 #
 endif
 }
+#
+undef
+SAMPLE_FREQUENCY
+#
+undef
+STREAM_FORMAT

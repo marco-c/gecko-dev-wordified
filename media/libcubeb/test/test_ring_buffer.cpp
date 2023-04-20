@@ -1405,3 +1405,6 @@ test_reset_api
 )
 ;
 }
+#
+undef
+NOMINMAX
