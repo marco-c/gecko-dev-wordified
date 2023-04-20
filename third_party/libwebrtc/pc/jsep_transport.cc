@@ -1345,7 +1345,6 @@ SetIceParameters
 ice_parameters
 )
 ;
-{
 if
 (
 rtcp_dtls_transport_
@@ -1379,7 +1378,6 @@ SetIceParameters
 ice_parameters
 )
 ;
-}
 }
 /
 /
