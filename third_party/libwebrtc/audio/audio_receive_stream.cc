@@ -1499,7 +1499,7 @@ transport_cc
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+packet_sequence_checker_
 )
 ;
 config_
