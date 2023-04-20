@@ -118,17 +118,6 @@ h
 #
 include
 "
-api
-/
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
 modules
 /
 rtp_rtcp
@@ -635,8 +624,6 @@ network_thread_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 delegate
 =
@@ -676,7 +663,6 @@ frame
 )
 ;
 }
-)
 )
 ;
 }

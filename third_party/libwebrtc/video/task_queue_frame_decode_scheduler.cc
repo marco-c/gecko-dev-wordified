@@ -116,17 +116,6 @@ h
 #
 include
 "
-api
-/
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 checks
@@ -312,7 +301,7 @@ bookkeeping_queue_
 >
 PostDelayedTask
 (
-ToQueuedTask
+SafeTask
 (
 task_safety_
 .
@@ -388,10 +377,6 @@ render_time
 }
 )
 wait
-.
-ms
-(
-)
 )
 ;
 }

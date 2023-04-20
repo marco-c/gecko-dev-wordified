@@ -103,9 +103,9 @@ include
 "
 api
 /
-task_queue
+test
 /
-to_queued_task
+simulated_network
 .
 h
 "
@@ -114,9 +114,9 @@ include
 "
 api
 /
-test
+units
 /
-simulated_network
+time_delta
 .
 h
 "
@@ -933,8 +933,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -1028,7 +1026,6 @@ Set
 }
 }
 }
-)
 )
 ;
 return
@@ -1646,8 +1643,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -1659,7 +1654,6 @@ PollStats
 )
 ;
 }
-)
 )
 ;
 }
@@ -1828,8 +1822,6 @@ task_queue_
 >
 PostDelayedTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -1839,8 +1831,13 @@ PollStats
 )
 ;
 }
+TimeDelta
+:
+:
+Seconds
+(
+1
 )
-1000
 )
 ;
 }

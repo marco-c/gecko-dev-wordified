@@ -558,7 +558,7 @@ decode_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 decode_safety_
 [
@@ -1580,9 +1580,13 @@ worker_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 worker_safety_
+.
+flag
+(
+)
 [
 this
 keyframe_required
@@ -2096,7 +2100,7 @@ decode_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 decode_safety_
 [
