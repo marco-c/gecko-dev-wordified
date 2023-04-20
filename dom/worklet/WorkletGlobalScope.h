@@ -435,6 +435,13 @@ WorkletGlobalScope
 (
 )
 ;
+bool
+IsSystemPrincipal
+(
+)
+const
+override
+;
 const
 RefPtr
 <
