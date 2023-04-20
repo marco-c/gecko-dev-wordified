@@ -287,7 +287,7 @@ Services
 .
 appinfo
 .
-os
+OS
 =
 =
 =
