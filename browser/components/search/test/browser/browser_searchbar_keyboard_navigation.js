@@ -364,8 +364,6 @@ history
 "
 )
 ;
-searchbar
-.
 FormHistory
 .
 update
@@ -452,8 +450,6 @@ value
 }
 )
 ;
-searchbar
-.
 FormHistory
 .
 update
@@ -4681,8 +4677,6 @@ value
 }
 )
 ;
-searchbar
-.
 FormHistory
 .
 update
