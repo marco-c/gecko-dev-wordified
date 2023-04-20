@@ -1065,7 +1065,15 @@ open
 file
 for
 writing
+:
+%
+s
 "
+pathname
+.
+c_str
+(
+)
 )
 ;
 size_t

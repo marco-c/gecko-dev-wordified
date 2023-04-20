@@ -620,7 +620,7 @@ header
 )
 )
 :
-kDefaultIntensityTarget
+0
 ;
 auto
 image_size

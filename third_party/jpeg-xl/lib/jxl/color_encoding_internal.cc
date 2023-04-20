@@ -4510,6 +4510,17 @@ primaries
 CustomTransferFunction
 tf
 ;
+tf
+.
+nonserialized_color_space
+=
+internal
+-
+>
+GetColorSpace
+(
+)
+;
 if
 (
 external
