@@ -225,7 +225,7 @@ add_task
 (
 async
 function
-test_ExperimentFeature_getPreferenceName
+test_ExperimentFeature_getFallbackPrefName
 (
 )
 {
@@ -243,7 +243,7 @@ equal
 (
 instance
 .
-getPreferenceName
+getFallbackPrefName
 (
 "
 enabled
