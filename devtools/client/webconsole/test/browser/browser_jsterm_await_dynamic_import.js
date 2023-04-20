@@ -173,7 +173,7 @@ dynamic
 -
 import
 .
-js
+mjs
 "
 )
 ;
@@ -262,7 +262,7 @@ dynamic
 -
 import
 .
-js
+mjs
 "
 )
 ;
