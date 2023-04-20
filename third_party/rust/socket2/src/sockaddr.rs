@@ -112,6 +112,13 @@ SocketAddrV6
 ]
 types
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 SockAddr
