@@ -498,6 +498,16 @@ return
 mSharedMemoryAllowed
 ;
 }
+bool
+ShouldResistFingerprinting
+(
+)
+const
+{
+return
+mShouldResistFingerprinting
+;
+}
 virtual
 void
 OnAddModuleStarted
@@ -646,6 +656,9 @@ mAgentClusterId
 ;
 bool
 mSharedMemoryAllowed
+;
+bool
+mShouldResistFingerprinting
 ;
 const
 OriginTrials
