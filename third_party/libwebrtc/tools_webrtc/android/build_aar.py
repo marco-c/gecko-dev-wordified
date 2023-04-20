@@ -546,6 +546,45 @@ add_argument
 '
 -
 -
+use
+-
+unstripped
+-
+libs
+'
+                      
+action
+=
+'
+store_true
+'
+                      
+default
+=
+False
+                      
+help
+=
+'
+Use
+unstripped
+.
+so
+files
+within
+libwebrtc
+.
+aar
+'
+)
+  
+parser
+.
+add_argument
+(
+'
+-
+-
 verbose
 '
                       
@@ -1535,6 +1574,7 @@ Collect
 aar_file
 build_dir
 arch
+unstripped
 )
 :
   
@@ -1597,6 +1637,27 @@ in
 NEEDED_SO_FILES
 :
     
+source_so_file
+=
+os
+.
+path
+.
+join
+(
+"
+lib
+.
+unstripped
+"
+                                  
+so_file
+)
+if
+unstripped
+else
+so_file
+    
 aar_file
 .
 write
@@ -1608,7 +1669,7 @@ path
 join
 (
 output_directory
-so_file
+source_so_file
 )
                    
 os
@@ -1681,6 +1742,10 @@ None
 extra_ninja_switches
 =
 None
+             
+unstripped
+=
+False
 )
 :
   
@@ -1783,6 +1848,7 @@ Collect
 aar_file
 build_dir
 arch
+unstripped
 )
   
 license_dir
@@ -1877,6 +1943,10 @@ extra_gn_switches
 args
 .
 extra_ninja_switches
+           
+args
+.
+use_unstripped_libs
 )
 if
 __name__
