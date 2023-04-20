@@ -331,9 +331,7 @@ Invoked
 on
 success
 .
-|
 isFrontCamera
-|
 is
 true
 if

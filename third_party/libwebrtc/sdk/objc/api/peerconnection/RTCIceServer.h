@@ -236,9 +236,7 @@ If
 the
 URIs
 in
-|
 urls
-|
 only
 contain
 IP
@@ -266,9 +264,7 @@ extension
 )
 .
 If
-|
 urls
-|
 itself
 contains
 the

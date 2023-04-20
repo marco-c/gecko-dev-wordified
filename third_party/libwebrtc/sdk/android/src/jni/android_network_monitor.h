@@ -411,9 +411,7 @@ override
 /
 /
 Does
-|
 this
-|
 NetworkMonitorInterface
 implement
 BindSocketToNetwork

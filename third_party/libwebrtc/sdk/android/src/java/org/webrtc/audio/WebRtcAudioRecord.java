@@ -1591,9 +1591,7 @@ been
 set
 properly
 .
-|
 isAudioConfigVerified
-|
 is
 /
 /
@@ -3482,9 +3480,7 @@ samples
 to
 zero
 if
-|
 mute
-|
 is
 true
 i

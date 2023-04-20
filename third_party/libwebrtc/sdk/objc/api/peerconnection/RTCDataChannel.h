@@ -140,9 +140,7 @@ data
 *
 Indicates
 whether
-|
 data
-|
 contains
 UTF
 -
@@ -178,14 +176,10 @@ RTCDataBuffer
 from
 NSData
 .
-|
 isBinary
-|
 indicates
 whether
-|
 data
-|
 *
 contains
 UTF
@@ -305,9 +299,7 @@ data
 channel
 '
 s
-|
 bufferedAmount
-|
 changed
 .
 *
@@ -751,9 +743,7 @@ close
 Attempt
 to
 send
-|
 data
-|
 on
 this
 data

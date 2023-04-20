@@ -273,9 +273,7 @@ Should
 be
 set
 before
-|
 start
-|
 .
 Buffering
 /

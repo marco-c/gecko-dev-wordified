@@ -711,9 +711,7 @@ type
 here
 must
 match
-|
 nalu_header_size
-|
 we
 expect
 4

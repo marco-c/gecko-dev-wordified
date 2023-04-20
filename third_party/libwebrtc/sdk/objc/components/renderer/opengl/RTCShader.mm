@@ -254,15 +254,11 @@ shader
 of
 the
 given
-|
 type
-|
 with
 GLSL
 source
-|
 source
-|
 and
 returns
 /

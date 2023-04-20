@@ -126,9 +126,7 @@ java
 PeerConnectionFactory
 with
 specified
-|
 pcf
-|
 .
 jobject
 NativeToJavaPeerConnectionFactory

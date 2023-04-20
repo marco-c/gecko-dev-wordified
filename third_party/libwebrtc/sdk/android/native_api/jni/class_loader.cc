@@ -165,9 +165,7 @@ Abort
 the
 process
 if
-|
 jni
-|
 has
 a
 Java

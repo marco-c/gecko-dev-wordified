@@ -959,16 +959,10 @@ closest
 supported
 format
 for
-|
 width
-|
 x
-|
 height
-|
-|
 framerate
-|
 .
 final
 List

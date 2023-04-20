@@ -168,9 +168,7 @@ of
 the
 of
 the
-|
 j_transceiver
-|
 and
 stores
 it

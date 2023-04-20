@@ -849,9 +849,7 @@ timer
 that
 will
 fire
-|
 presentationDifferenceRound
-|
 ns
 from
 now

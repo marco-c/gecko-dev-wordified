@@ -2443,9 +2443,7 @@ buffer
 /
 /
 in
-|
 record_audio_buffer_
-|
 .
 Recorded
 audio
@@ -2556,9 +2554,7 @@ the
 input
 bus
 the
-|
 io_data
-|
 parameter
 is
 a
@@ -3189,9 +3185,7 @@ in
 the
 /
 /
-|
 io_data
-|
 destination
 .
 fine_audio_buffer_

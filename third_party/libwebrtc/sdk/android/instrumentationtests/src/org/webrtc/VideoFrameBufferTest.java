@@ -1420,9 +1420,7 @@ texture
 buffer
 available
 in
-|
 eglContext
-|
 with
 the
 same
@@ -1708,9 +1706,7 @@ texture
 buffer
 available
 in
-|
 eglContext
-|
 with
 the
 same

@@ -156,9 +156,7 @@ thread
 .
 Attaches
 to
-|
 g_jvm
-|
 if
 necessary
 .

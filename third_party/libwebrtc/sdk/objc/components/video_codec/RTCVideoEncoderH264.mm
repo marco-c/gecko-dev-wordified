@@ -1850,9 +1850,7 @@ by
 given
 encoder
 with
-|
 profile_level_id
-|
 .
 /
 /
@@ -4714,9 +4712,7 @@ bitrateBps
 /
 With
 zero
-|
 _maxAllowedFrameRate
-|
 we
 fall
 back

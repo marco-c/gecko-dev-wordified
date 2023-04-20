@@ -170,9 +170,7 @@ RTCNSGLVideoView
 )
 /
 /
-|
 videoFrame
-|
 is
 set
 when

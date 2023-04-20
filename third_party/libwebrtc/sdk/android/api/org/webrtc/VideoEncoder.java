@@ -1273,9 +1273,7 @@ byte
 buffer
 held
 by
-|
 frame
-|
 is
 not
 accessed

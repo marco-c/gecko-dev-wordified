@@ -1309,13 +1309,9 @@ data
 starts
 at
 offset
-|
 height
-|
 *
-|
 stride
-|
 from
 the
 Y
@@ -1408,9 +1404,7 @@ RGBA
 buffer
 of
 width
-|
 stride
-|
 /
 4
 .
@@ -1468,9 +1462,7 @@ is
 not
 sufficient
 that
-|
 stride
-|
 is
 even
 it

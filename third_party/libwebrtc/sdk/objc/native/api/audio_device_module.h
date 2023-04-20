@@ -112,9 +112,7 @@ webrtc
 /
 /
 If
-|
 bypass_voice_processing
-|
 is
 true
 WebRTC
@@ -135,9 +133,7 @@ iOS
 Warning
 :
 Setting
-|
 bypass_voice_processing
-|
 will
 have
 unpredictable

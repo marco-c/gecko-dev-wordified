@@ -444,9 +444,7 @@ W3C
 calls
 it
 *
-|
 iceTransportPolicy
-|
 while
 in
 C
@@ -455,9 +453,7 @@ C
 it
 is
 called
-|
 type
-|
 .
 *
 /
@@ -902,9 +898,7 @@ is
 only
 effective
 when
-|
 continualGatheringPolicy
-|
 is
 *
 RTCContinualGatheringPolicyGatherContinually

@@ -3178,9 +3178,7 @@ the
 signaling
 thread
 but
-|
 jni
-|
 may
 only
 be
@@ -3350,9 +3348,7 @@ the
 signaling
 thread
 but
-|
 jni
-|
 may
 only
 be

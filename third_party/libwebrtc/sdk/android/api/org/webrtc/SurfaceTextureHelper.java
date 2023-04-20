@@ -432,9 +432,7 @@ sharing
 OpenGL
 resources
 with
-|
 sharedContext
-|
 .
 A
 dedicated
@@ -670,9 +668,7 @@ is
 constructed
 on
 the
-|
 handler
-|
 thread
 .
 return
@@ -1086,9 +1082,7 @@ only
 accessed
 from
 the
-|
 handler
-|
 thread
 .
 Nullable
@@ -1132,9 +1126,7 @@ textureHeight
 ;
 /
 /
-|
 pendingListener
-|
 is
 set
 in
@@ -1623,9 +1615,7 @@ textures
 to
 the
 given
-|
 listener
-|
 .
 If
 you
@@ -2284,9 +2274,7 @@ correct
 thread
 to
 convert
-|
 textureBuffer
-|
 to
 I420
 .

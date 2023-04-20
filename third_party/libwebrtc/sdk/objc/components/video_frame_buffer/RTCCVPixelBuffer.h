@@ -286,9 +286,7 @@ minimum
 size
 of
 the
-|
 tmpBuffer
-|
 must
 be
 the
@@ -312,9 +310,7 @@ size
 is
 0
 the
-|
 tmpBuffer
-|
 may
 be
 nil

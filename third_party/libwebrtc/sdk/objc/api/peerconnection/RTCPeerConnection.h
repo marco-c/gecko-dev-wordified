@@ -1098,9 +1098,7 @@ RTCSdpSemanticsUnifiedPlan
 Please
 use
 *
-|
 senders
-|
 instead
 .
 *
@@ -1385,9 +1383,7 @@ s
 global
 configuration
 to
-|
 configuration
-|
 .
 *
 Any
@@ -1724,9 +1720,7 @@ streams
 specified
 in
 the
-|
 streamIds
-|
 list
 .
 *
@@ -1905,9 +1899,7 @@ The
 initial
 value
 of
-|
 mid
-|
 in
 the
 returned
@@ -2406,9 +2398,7 @@ unchanged
 .
 Setting
 *
-|
 currentBitrateBps
-|
 will
 force
 the
@@ -2658,9 +2648,7 @@ given
 RTCMediaStreamTrack
 .
 If
-|
 mediaStreamTrack
-|
 is
 nil
 *

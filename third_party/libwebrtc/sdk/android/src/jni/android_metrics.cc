@@ -259,9 +259,7 @@ and
 add
 samples
 to
-|
 HistogramInfo
-|
 .
 ScopedJavaLocalRef
 <
@@ -329,13 +327,9 @@ second
 /
 /
 Add
-|
 HistogramInfo
-|
 to
-|
 Metrics
-|
 .
 ScopedJavaLocalRef
 <

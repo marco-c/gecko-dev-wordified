@@ -791,9 +791,7 @@ This
 method
 defines
 the
-|
 engine_
-|
 member
 variable
 .
@@ -961,9 +959,7 @@ It
 uses
 /
 /
-|
 simple_buffer_queue_
-|
 but
 no
 lock

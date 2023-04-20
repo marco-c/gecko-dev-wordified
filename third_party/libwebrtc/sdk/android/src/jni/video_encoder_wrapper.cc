@@ -1619,9 +1619,7 @@ bit
 subtle
 .
 The
-|
 frame
-|
 variable
 from
 the

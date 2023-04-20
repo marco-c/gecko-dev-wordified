@@ -339,9 +339,7 @@ data
 *
 Indicates
 whether
-|
 data
-|
 contains
 UTF
 -
@@ -602,9 +600,7 @@ nativeDataChannel
 *
 *
 Register
-|
 observer
-|
 replacing
 any
 previously
@@ -813,9 +809,7 @@ nativeClose
 *
 *
 Send
-|
 data
-|
 to
 the
 remote

@@ -2448,15 +2448,11 @@ socket_fd
 /
 /
 If
-|
 network
-|
 has
 since
 disconnected
-|
 rv
-|
 will
 be
 ENONET

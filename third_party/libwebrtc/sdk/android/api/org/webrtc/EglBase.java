@@ -1046,15 +1046,11 @@ attributes
 sharing
 data
 with
-|
 sharedContext
-|
 .
 *
 If
-|
 sharedContext
-|
 is
 null
 a
@@ -1259,9 +1255,7 @@ context
 sharing
 data
 with
-|
 sharedContext
-|
 .
 This
 function

@@ -1287,9 +1287,7 @@ for
 camera
 with
 name
-|
 deviceName
-|
 or
 throws
 IllegalArgumentException

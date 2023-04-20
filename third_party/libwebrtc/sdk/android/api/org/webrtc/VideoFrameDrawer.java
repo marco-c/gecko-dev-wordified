@@ -492,9 +492,7 @@ yuvTextures
 *
 *
 Upload
-|
 planes
-|
 into
 OpenGL
 textures
@@ -1213,9 +1211,7 @@ the
 frame
 size
 after
-|
 renderMatrix
-|
 is
 applied
 .
@@ -1227,13 +1223,9 @@ member
 variables
 /
 /
-|
 renderWidth
-|
 and
-|
 renderHeight
-|
 to
 avoid
 allocations
@@ -1297,9 +1289,7 @@ range
 )
 according
 to
-|
 renderMatrix
-|
 .
 renderMatrix
 .

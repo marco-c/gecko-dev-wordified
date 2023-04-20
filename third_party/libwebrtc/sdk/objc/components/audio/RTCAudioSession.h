@@ -1610,9 +1610,7 @@ unlockForConfiguration
 *
 *
 If
-|
 active
-|
 activates
 the
 audio
@@ -1646,9 +1644,7 @@ required
 .
 If
 not
-|
 active
-|
 deactivates
 the
 audio
@@ -1715,9 +1711,7 @@ on
 /
 AVAudioSession
 .
-|
 lockForConfiguration
-|
 must
 be
 called
@@ -1995,9 +1989,7 @@ be
 returned
 .
 *
-|
 lockForConfiguration
-|
 must
 be
 called
@@ -2041,9 +2033,7 @@ and
 setActive
 .
 *
-|
 lockForConfiguration
-|
 must
 be
 called

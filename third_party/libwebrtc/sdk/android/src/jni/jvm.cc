@@ -189,9 +189,7 @@ in
 threads
 attached
 to
-|
 g_jvm
-|
 by
 /
 /
@@ -380,9 +378,7 @@ runs
 on
 threads
 where
-|
 g_jni_ptr
-|
 is
 non
 -
@@ -855,9 +851,7 @@ thread
 .
 Attaches
 to
-|
 g_jvm
-|
 if
 necessary
 .

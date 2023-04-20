@@ -934,9 +934,7 @@ at
 least
 /
 /
-|
 BALANCED_VISIBLE_FRACTION
-|
 of
 the
 frame
@@ -968,9 +966,7 @@ will
 be
 shown
 for
-|
 SCALE_ASPECT_BALANCED
-|
 .
 /
 /
@@ -1627,9 +1623,7 @@ maxDisplayHeight
 *
 *
 Move
-|
 matrix
-|
 transformation
 origin
 to

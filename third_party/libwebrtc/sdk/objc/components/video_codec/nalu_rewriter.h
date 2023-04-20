@@ -201,9 +201,7 @@ is
 written
 directly
 to
-|
 annexb_buffer
-|
 .
 bool
 H264CMSampleBufferToAnnexBBuffer
@@ -262,15 +260,11 @@ format
 /
 /
 If
-|
 is_keyframe
-|
 is
 true
 then
-|
 video_format
-|
 is
 ignored
 since
@@ -286,9 +280,7 @@ the
 buffer
 .
 Otherwise
-|
 video_format
-|
 must
 be
 provided

@@ -151,9 +151,7 @@ ownership
 of
 the
 passed
-|
 j_receiver
-|
 and
 stores
 it

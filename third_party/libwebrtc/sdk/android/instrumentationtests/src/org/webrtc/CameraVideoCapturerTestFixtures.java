@@ -2835,9 +2835,7 @@ can
 '
 t
 change
-|
 capturer
-|
 at
 this
 point

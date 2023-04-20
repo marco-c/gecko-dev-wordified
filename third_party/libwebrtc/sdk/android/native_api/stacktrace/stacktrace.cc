@@ -750,9 +750,7 @@ in
 the
 array
 from
-|
 unwind_output_state
-|
 .
 _Unwind_Reason_Code
 UnwindBacktrace
@@ -997,9 +995,7 @@ has
 been
 stored
 in
-|
 params
-|
 .
 The
 return
@@ -1512,9 +1508,7 @@ will
 be
 recorded
 to
-|
 params
-|
 through
 the
 use
@@ -1524,9 +1518,7 @@ global
 pointer
 /
 /
-|
 g_signal_handler_param
-|
 .
 SignalHandlerOutputState
 params

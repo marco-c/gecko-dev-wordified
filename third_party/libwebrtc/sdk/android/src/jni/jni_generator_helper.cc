@@ -127,9 +127,7 @@ webrtc
 /
 /
 If
-|
 atomic_class_id
-|
 set
 it
 '
@@ -278,13 +276,9 @@ obj
 We
 sucessfully
 stored
-|
 clazz
-|
 in
-|
 atomic_class_id
-|
 so
 we
 are
@@ -329,9 +323,7 @@ pointer
 in
 /
 /
-|
 atomic_class_id
-|
 .
 Relase
 our
@@ -356,9 +348,7 @@ cas_result
 /
 /
 If
-|
 atomic_method_id
-|
 set
 it
 '

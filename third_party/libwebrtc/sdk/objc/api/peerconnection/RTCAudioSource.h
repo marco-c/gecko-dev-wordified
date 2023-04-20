@@ -133,9 +133,7 @@ for
 the
 RTCMediaSource
 .
-|
 volume
-|
 is
 a
 gain

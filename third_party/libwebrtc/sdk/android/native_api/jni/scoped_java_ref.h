@@ -547,9 +547,7 @@ public
 /
 Assumes
 that
-|
 obj
-|
 is
 a
 parameter
@@ -917,9 +915,7 @@ RETAIN
 /
 Assumes
 that
-|
 obj
-|
 is
 a
 reference

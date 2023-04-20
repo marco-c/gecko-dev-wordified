@@ -136,9 +136,7 @@ NS_UNAVAILABLE
 /
 *
 *
-|
 observer
-|
 is
 a
 raw

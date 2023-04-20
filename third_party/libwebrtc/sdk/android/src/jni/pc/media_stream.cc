@@ -354,9 +354,7 @@ OnVideoTrackAddedToStream
 ;
 /
 /
-|
 j_media_stream
-|
 holds
 one
 reference

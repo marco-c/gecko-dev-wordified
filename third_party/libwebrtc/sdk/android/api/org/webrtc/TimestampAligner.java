@@ -287,9 +287,7 @@ TimeNanos
 )
 .
 *
-|
 cameraTimeNs
-|
 is
 assumed
 to

@@ -152,9 +152,7 @@ queue
 /
 /
 /
-|
 adapter_type_by_name
-|
 is
 a
 map

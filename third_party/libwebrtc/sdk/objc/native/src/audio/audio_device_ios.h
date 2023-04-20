@@ -1187,9 +1187,7 @@ relevant
 AudioSessionObserver
 methods
 on
-|
 thread_
-|
 .
 void
 HandleInterruptionBegin
@@ -1234,13 +1232,9 @@ HandleOutputVolumeChange
 /
 Uses
 current
-|
 playout_parameters_
-|
 and
-|
 record_parameters_
-|
 to
 inform
 the
@@ -1323,13 +1317,9 @@ also
 /
 /
 defines
-|
 playout_parameters_
-|
 and
-|
 record_parameters_
-|
 .
 void
 SetupAudioBuffersForActiveAudioSession

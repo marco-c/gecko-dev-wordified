@@ -358,9 +358,7 @@ This
 function
 will
 initialize
-|
 atomic_class_id
-|
 to
 contain
 a
@@ -391,9 +389,7 @@ to
 zero
 -
 initialize
-|
 atomic_class_id
-|
 .
 It
 '
@@ -413,9 +409,7 @@ the
 same
 /
 /
-|
 atomic_method_id
-|
 .
 jclass
 LazyGetClass
@@ -471,9 +465,7 @@ This
 function
 will
 initialize
-|
 atomic_method_id
-|
 to
 contain
 a
@@ -503,9 +495,7 @@ to
 zero
 -
 initialize
-|
 atomic_method_id
-|
 .
 It
 '
@@ -525,9 +515,7 @@ the
 same
 /
 /
-|
 atomic_method_id
-|
 .
 template
 <
@@ -1036,9 +1024,7 @@ atomic_method_id
 /
 /
 Reset
-|
 pc
-|
 to
 correct
 caller

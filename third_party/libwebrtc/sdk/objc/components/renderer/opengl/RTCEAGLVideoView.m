@@ -298,9 +298,7 @@ maintains
 /
 its
 own
-|
 isDirty
-|
 flag
 .
 interface
@@ -315,9 +313,7 @@ GLKViewDelegate
 >
 /
 /
-|
 videoFrame
-|
 is
 set
 when
@@ -1187,9 +1183,7 @@ the
 one
 used
 by
-|
 view
-|
 .
 RTC_OBJC_TYPE
 (

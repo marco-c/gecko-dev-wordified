@@ -680,9 +680,7 @@ vertex
 array
 for
 attribute
-|
 label
-|
 .
 The
 vertex
@@ -691,13 +689,9 @@ is
 specified
 in
 *
-|
 buffer
-|
 with
-|
 dimension
-|
 number
 of
 components
@@ -744,9 +738,7 @@ vertex
 array
 for
 attribute
-|
 label
-|
 .
 The
 vertex
@@ -755,13 +747,9 @@ is
 specified
 in
 *
-|
 buffer
-|
 with
-|
 dimension
-|
 number
 of
 components
@@ -769,9 +757,7 @@ per
 vertex
 and
 specified
-|
 stride
-|
 .
 *
 /

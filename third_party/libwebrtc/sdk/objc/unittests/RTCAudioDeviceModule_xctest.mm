@@ -557,9 +557,7 @@ seconds
 Note
 that
 first
-|
 kNumIgnoreFirstCallbacks
-|
 are
 ignored
 .

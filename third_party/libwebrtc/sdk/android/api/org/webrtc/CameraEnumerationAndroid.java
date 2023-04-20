@@ -1104,9 +1104,7 @@ upper
 bound
 close
 to
-|
 framerate
-|
 .
 Also
 prefer
@@ -1178,9 +1176,7 @@ is
 further
 away
 than
-|
 MAX_FPS_DIFF_THRESHOLD
-|
 /
 /
 from
@@ -1221,9 +1217,7 @@ bound
 is
 bigger
 than
-|
 MIN_FPS_THRESHOLD
-|
 .
 private
 static
@@ -1256,14 +1250,10 @@ one
 weight
 for
 small
-|
 value
-|
 less
 than
-|
 threshold
-|
 and
 another
 weight

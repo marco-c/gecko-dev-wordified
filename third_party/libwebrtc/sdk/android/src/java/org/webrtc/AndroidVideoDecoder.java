@@ -3472,9 +3472,7 @@ the
 case
 with
 odd
-|
 sliceHeight
-|
 is
 handled
 in

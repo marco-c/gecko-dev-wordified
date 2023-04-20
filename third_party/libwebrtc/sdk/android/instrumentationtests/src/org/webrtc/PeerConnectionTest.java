@@ -1165,9 +1165,7 @@ each
 place
 that
 uses
-|
 constraints
-|
 for
 specifying
 non

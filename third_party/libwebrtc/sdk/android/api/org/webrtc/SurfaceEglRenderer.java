@@ -297,15 +297,11 @@ class
 sharing
 resources
 with
-|
 sharedContext
-|
 .
 The
 custom
-|
 drawer
-|
 will
 be
 used
@@ -328,9 +324,7 @@ release
 )
 on
 *
-|
 drawer
-|
 .
 It
 is
@@ -729,9 +723,7 @@ report
 any
 changes
 to
-|
 rendererEvents
-|
 .
 private
 void

@@ -141,9 +141,7 @@ The
 number
 of
 times
-|
 beginWebRTCSession
-|
 was
 called
 without
@@ -152,9 +150,7 @@ balanced
 call
 *
 to
-|
 endWebRTCSession
-|
 .
 *
 /
@@ -442,9 +438,7 @@ session
 configuration
 .
 *
-|
 lockForConfiguration
-|
 must
 be
 called
@@ -462,9 +456,7 @@ by
 calls
 to
 *
-|
 unconfigureWebRTCSession
-|
 .
 *
 /
@@ -504,17 +496,13 @@ the
 settings
 used
 before
-|
 configureWebRTCSession
-|
 was
 *
 called
 .
 *
-|
 lockForConfiguration
-|
 must
 be
 called

@@ -207,9 +207,7 @@ device
 if
 the
 corresponding
-|
 shouldEnableXXX
-|
 member
 is
 set
@@ -580,9 +578,7 @@ It
 modifies
 /
 /
-|
 shouldEnableAec
-|
 which
 is
 used
@@ -735,9 +731,7 @@ It
 modifies
 /
 /
-|
 shouldEnableNs
-|
 which
 is
 used
@@ -1483,9 +1477,7 @@ for
 effect
 types
 in
-|
 type
-|
 that
 are
 of
@@ -1822,9 +1814,7 @@ equivalent
 to
 (
 NoiseSuppressor
-|
 AutomaticGainControl
-|
 .
 .
 .
