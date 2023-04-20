@@ -1200,6 +1200,10 @@ const
 bool
 has_packet_feedback_
 ;
+const
+bool
+simulate_vp9_structure_
+;
 /
 /
 TODO
