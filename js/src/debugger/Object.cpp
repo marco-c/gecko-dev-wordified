@@ -9681,6 +9681,13 @@ referent
 )
 -
 >
+as
+<
+JSFunction
+>
+(
+)
+.
 isBoundFunction
 (
 )
