@@ -37268,17 +37268,6 @@ GetIsRDMTouchSimulationActive
 ;
 mScrollMetadata
 .
-SetPrefersReducedMotion
-(
-aScrollMetadata
-.
-PrefersReducedMotion
-(
-)
-)
-;
-mScrollMetadata
-.
 SetForceMousewheelAutodir
 (
 aScrollMetadata
