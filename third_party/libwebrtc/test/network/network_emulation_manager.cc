@@ -451,6 +451,8 @@ CreateEmulatedNode
 (
 BuiltInNetworkBehaviorConfig
 config
+uint64_t
+random_seed
 )
 {
 return
@@ -465,6 +467,7 @@ SimulatedNetwork
 >
 (
 config
+random_seed
 )
 )
 ;

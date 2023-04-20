@@ -336,6 +336,10 @@ CreateEmulatedNode
 (
 BuiltInNetworkBehaviorConfig
 config
+uint64_t
+random_seed
+=
+1
 )
 override
 ;
