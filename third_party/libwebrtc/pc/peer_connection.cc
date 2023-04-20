@@ -8495,6 +8495,11 @@ callback
 )
 )
 ;
+RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
+(
+2
+)
+;
 }
 void
 PeerConnection
@@ -8548,6 +8553,10 @@ callback
 RTC_DCHECK
 (
 stats_collector_
+)
+;
+RTC_LOG_THREAD_BLOCK_COUNT
+(
 )
 ;
 rtc
@@ -8715,6 +8724,11 @@ internal_sender
 callback
 )
 ;
+RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
+(
+2
+)
+;
 }
 void
 PeerConnection
@@ -8768,6 +8782,10 @@ callback
 RTC_DCHECK
 (
 stats_collector_
+)
+;
+RTC_LOG_THREAD_BLOCK_COUNT
+(
 )
 ;
 rtc
@@ -8933,6 +8951,11 @@ GetStatsReport
 (
 internal_receiver
 callback
+)
+;
+RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
+(
+2
 )
 ;
 }
