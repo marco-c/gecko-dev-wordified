@@ -3515,7 +3515,7 @@ EncryptedMedia
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3527,13 +3527,15 @@ actors
 /
 EncryptedMediaParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3545,7 +3547,9 @@ actors
 /
 EncryptedMediaChild
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :
