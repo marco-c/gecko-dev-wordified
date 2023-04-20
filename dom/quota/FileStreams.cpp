@@ -737,12 +737,12 @@ NotNull
 <
 RefPtr
 <
-FileStream
+FileRandomAccessStream
 >
 >
 nsresult
 >
-CreateFileStream
+CreateFileRandomAccessStream
 (
 PersistenceType
 aPersistenceType
@@ -774,7 +774,7 @@ MakeNotNull
 <
 RefPtr
 <
-FileStream
+FileRandomAccessStream
 >
 >
 (

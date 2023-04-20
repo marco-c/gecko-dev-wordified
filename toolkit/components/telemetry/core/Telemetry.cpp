@@ -12026,15 +12026,15 @@ nsCOMPtr
 <
 nsIRandomAccessStream
 >
-fileStream
+fileRandomAccessStream
 ;
 rv
 =
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 getter_AddRefs
 (
-fileStream
+fileRandomAccessStream
 )
 file
 PR_RDWR
@@ -12077,7 +12077,7 @@ inStream
 =
 do_QueryInterface
 (
-fileStream
+fileRandomAccessStream
 )
 ;
 NS_ENSURE_TRUE_VOID
@@ -12149,7 +12149,7 @@ fileSize
 {
 rv
 =
-fileStream
+fileRandomAccessStream
 -
 >
 Seek
@@ -12175,7 +12175,7 @@ outStream
 =
 do_QueryInterface
 (
-fileStream
+fileRandomAccessStream
 )
 ;
 uint32_t
@@ -12247,7 +12247,7 @@ bytesLeft
 0
 )
 ;
-fileStream
+fileRandomAccessStream
 -
 >
 SetEOF

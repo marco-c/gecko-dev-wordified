@@ -311,7 +311,7 @@ class
 nsIFileProtocolHandler
 ;
 class
-nsIFileStream
+nsIFileRandomAccessStream
 ;
 class
 nsIHttpChannel
@@ -3246,7 +3246,7 @@ behaviorFlags
 )
 ;
 nsresult
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 nsIRandomAccessStream
 *
@@ -3282,7 +3282,7 @@ nsIRandomAccessStream
 >
 nsresult
 >
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 nsIFile
 *

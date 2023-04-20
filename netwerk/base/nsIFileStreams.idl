@@ -1027,7 +1027,7 @@ uuid
 )
 ]
 interface
-nsIFileStream
+nsIFileRandomAccessStream
 :
 nsIRandomAccessStream
 {

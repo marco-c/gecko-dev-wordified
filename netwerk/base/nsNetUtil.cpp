@@ -8002,7 +8002,7 @@ rv
 ;
 }
 nsresult
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 nsIRandomAccessStream
 *
@@ -8041,12 +8041,12 @@ behaviorFlags
 {
 nsCOMPtr
 <
-nsIFileStream
+nsIFileRandomAccessStream
 >
 stream
 =
 new
-nsFileStream
+nsFileRandomAccessStream
 (
 )
 ;
@@ -8095,7 +8095,7 @@ nsIRandomAccessStream
 >
 nsresult
 >
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 nsIFile
 *
@@ -8138,7 +8138,7 @@ const
 nsresult
 rv
 =
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 getter_AddRefs
 (

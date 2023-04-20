@@ -13597,7 +13597,7 @@ const
 auto
 &
 stream
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 &
 aFile
