@@ -585,7 +585,7 @@ max_size
 )
 override
 ;
-void
+bool
 Discard
 (
 IsUnordered
@@ -753,7 +753,7 @@ SendQueue
 :
 Discard
 .
-void
+bool
 Discard
 (
 IsUnordered
