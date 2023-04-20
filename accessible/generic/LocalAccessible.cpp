@@ -6269,7 +6269,7 @@ strEventType
 PROFILER_MARKER_UNTYPED
 (
 strMarker
-OTHER
+A11Y
 )
 ;
 }
