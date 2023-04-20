@@ -1951,8 +1951,8 @@ eBasicEventClass
 )
 WINDOW_ONLY_EVENT
 (
-absolutedeviceorientation
-eAbsoluteDeviceOrientation
+deviceorientationabsolute
+eDeviceOrientationAbsolute
 EventNameType_None
 eBasicEventClass
 )

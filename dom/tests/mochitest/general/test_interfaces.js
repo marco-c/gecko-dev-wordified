@@ -18412,7 +18412,7 @@ peer
 name
 :
 "
-onabsolutedeviceorientation
+ondeviceorientationabsolute
 "
 insecureContext
 :
