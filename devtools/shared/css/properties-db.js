@@ -152,6 +152,10 @@ db
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -163,6 +167,8 @@ generated
 properties
 -
 db
+.
+js
 "
 )
 ;

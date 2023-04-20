@@ -54,6 +54,10 @@ NetworkThrottleManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -61,6 +65,8 @@ shared
 webconsole
 /
 throttle
+.
+js
 "
 )
 ;

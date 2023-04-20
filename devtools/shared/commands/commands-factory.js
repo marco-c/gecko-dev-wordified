@@ -69,6 +69,10 @@ createCommandsDictionary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 commands
 /
 index
+.
+js
 "
 )
 ;

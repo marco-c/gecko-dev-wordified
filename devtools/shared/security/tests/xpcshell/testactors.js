@@ -40,6 +40,10 @@ RootActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -47,6 +51,8 @@ server
 actors
 /
 root
+.
+js
 "
 )
 ;
@@ -58,6 +64,10 @@ ActorRegistry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -69,6 +79,8 @@ utils
 actor
 -
 registry
+.
+js
 "
 )
 ;

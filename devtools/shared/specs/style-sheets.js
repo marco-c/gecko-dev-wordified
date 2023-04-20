@@ -71,11 +71,17 @@ generateActorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ file
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -104,6 +114,8 @@ specs
 style
 -
 sheet
+.
+js
 "
 )
 ;

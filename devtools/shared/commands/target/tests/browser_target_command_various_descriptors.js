@@ -105,6 +105,10 @@ DESCRIPTOR_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +120,8 @@ descriptors
 descriptor
 -
 types
+.
+js
 "
 )
 ;

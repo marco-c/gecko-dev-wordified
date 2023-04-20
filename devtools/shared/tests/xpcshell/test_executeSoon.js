@@ -92,11 +92,17 @@ executeSoon
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

@@ -67,6 +67,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +78,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -146,6 +152,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +167,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -166,6 +178,10 @@ reducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -177,6 +193,8 @@ target
 reducers
 /
 targets
+.
+js
 "
 )
 ;

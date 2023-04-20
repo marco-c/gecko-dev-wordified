@@ -67,6 +67,10 @@ nodeFilterConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -78,6 +82,8 @@ node
 filter
 -
 constants
+.
+js
 "
 )
 ;

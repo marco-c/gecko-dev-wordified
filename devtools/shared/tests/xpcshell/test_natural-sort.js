@@ -77,6 +77,10 @@ naturalSortCaseInsensitive
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -84,6 +88,8 @@ shared
 natural
 -
 sort
+.
+js
 "
 )
 ;

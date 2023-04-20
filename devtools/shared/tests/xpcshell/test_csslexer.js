@@ -67,6 +67,10 @@ jsLexer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +78,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 )
 ;

@@ -67,6 +67,10 @@ StackFrameCache
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ actors
 utils
 /
 stack
+.
+js
 "
 )
 ;

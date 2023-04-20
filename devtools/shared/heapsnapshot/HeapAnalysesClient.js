@@ -67,11 +67,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ DevToolsWorker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -90,6 +100,8 @@ shared
 worker
 /
 worker
+.
+js
 "
 )
 ;

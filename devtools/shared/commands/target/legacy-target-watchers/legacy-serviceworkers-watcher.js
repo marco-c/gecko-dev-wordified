@@ -61,6 +61,9 @@ use
 strict
 "
 ;
+const
+{
+WorkersListener
 /
 /
 eslint
@@ -77,14 +80,15 @@ reject
 some
 -
 requires
-const
-{
-WorkersListener
 }
 =
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +98,8 @@ shared
 workers
 -
 listener
+.
+js
 "
 )
 ;
@@ -103,6 +109,10 @@ LegacyWorkersWatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -122,6 +132,8 @@ legacy
 workers
 -
 watcher
+.
+js
 "
 )
 ;

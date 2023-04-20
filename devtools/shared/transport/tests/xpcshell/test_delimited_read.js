@@ -38,6 +38,10 @@ StreamUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -47,6 +51,8 @@ transport
 stream
 -
 utils
+.
+js
 "
 )
 ;

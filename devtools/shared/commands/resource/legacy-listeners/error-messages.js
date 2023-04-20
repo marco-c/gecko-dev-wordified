@@ -67,6 +67,10 @@ ResourceCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -78,6 +82,8 @@ resource
 resource
 -
 command
+.
+js
 "
 )
 ;
@@ -89,11 +95,17 @@ MESSAGE_CATEGORY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

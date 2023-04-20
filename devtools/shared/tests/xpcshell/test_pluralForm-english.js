@@ -107,6 +107,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -114,6 +118,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;

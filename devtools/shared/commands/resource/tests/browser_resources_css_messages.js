@@ -69,11 +69,17 @@ MESSAGE_CATEGORY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

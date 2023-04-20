@@ -69,6 +69,10 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 protocol
 /
 Actor
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ lazyLoadFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ shared
 specs
 /
 index
+.
+js
 "
 )
 ;

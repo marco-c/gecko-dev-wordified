@@ -69,6 +69,10 @@ getCSSLexer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ cssColors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -96,6 +106,8 @@ css
 color
 -
 db
+.
+js
 "
 )
 ;

@@ -48,6 +48,10 @@ TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -59,6 +63,8 @@ resource
 resource
 -
 command
+.
+js
 "
 )
 ;

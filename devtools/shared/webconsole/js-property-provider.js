@@ -67,11 +67,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ evalWithDebugger
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -96,6 +106,8 @@ eval
 with
 -
 debugger
+.
+js
 "
 )
 ;

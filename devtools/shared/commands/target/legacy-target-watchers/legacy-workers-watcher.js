@@ -67,6 +67,10 @@ LegacyProcessesWatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -86,6 +90,8 @@ legacy
 processes
 -
 watcher
+.
+js
 "
 )
 ;

@@ -76,6 +76,10 @@ QR
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -83,6 +87,8 @@ shared
 qrcode
 /
 index
+.
+js
 "
 )
 ;

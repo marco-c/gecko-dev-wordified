@@ -64,11 +64,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -93,6 +103,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -104,6 +116,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -111,6 +127,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;
@@ -126,6 +144,10 @@ this
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +155,8 @@ client
 fronts
 /
 string
+.
+js
 "
 )
 ;

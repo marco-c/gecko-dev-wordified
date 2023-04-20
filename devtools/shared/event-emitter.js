@@ -2226,6 +2226,10 @@ getNthPathExcluding
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -2233,6 +2237,8 @@ shared
 platform
 /
 stack
+.
+js
 "
 )
 ;

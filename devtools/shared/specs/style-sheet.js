@@ -72,11 +72,17 @@ types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -96,6 +102,10 @@ file
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -105,6 +115,8 @@ specs
 media
 -
 rule
+.
+js
 "
 )
 ;

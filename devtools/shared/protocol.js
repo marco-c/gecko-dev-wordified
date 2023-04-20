@@ -70,6 +70,10 @@ ActorClassWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -77,6 +81,8 @@ shared
 protocol
 /
 Actor
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ Pool
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ shared
 protocol
 /
 Pool
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ createRootFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -116,6 +132,8 @@ shared
 protocol
 /
 types
+.
+js
 "
 )
 ;
@@ -127,6 +145,10 @@ Front
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -134,6 +156,8 @@ shared
 protocol
 /
 Front
+.
+js
 "
 )
 ;
@@ -145,6 +169,10 @@ FrontClassWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -154,6 +182,8 @@ protocol
 Front
 /
 FrontClassWithSpec
+.
+js
 "
 )
 ;
@@ -166,6 +196,10 @@ Option
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -173,6 +207,8 @@ shared
 protocol
 /
 Request
+.
+js
 "
 )
 ;
@@ -184,6 +220,10 @@ RetVal
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -191,6 +231,8 @@ shared
 protocol
 /
 Response
+.
+js
 "
 )
 ;
@@ -202,6 +244,10 @@ generateActorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -211,6 +257,8 @@ protocol
 Actor
 /
 generateActorSpec
+.
+js
 "
 )
 ;

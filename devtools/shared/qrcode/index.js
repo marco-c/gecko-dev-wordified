@@ -92,6 +92,10 @@ get
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -101,6 +105,8 @@ qrcode
 encoder
 /
 index
+.
+js
 "
 )
 .
@@ -126,6 +132,10 @@ get
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -135,6 +145,8 @@ qrcode
 encoder
 /
 index
+.
+js
 "
 )
 .
@@ -160,6 +172,10 @@ get
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -169,6 +185,8 @@ qrcode
 encoder
 /
 index
+.
+js
 "
 )
 .
@@ -212,6 +230,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -221,6 +243,8 @@ qrcode
 decoder
 /
 index
+.
+js
 "
 )
 ;

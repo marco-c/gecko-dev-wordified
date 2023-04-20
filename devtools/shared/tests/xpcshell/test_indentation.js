@@ -46,11 +46,17 @@ getIndentationFromString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 indentation
+.
+js
 "
 )
 ;

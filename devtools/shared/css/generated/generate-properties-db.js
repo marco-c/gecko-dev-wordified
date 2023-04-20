@@ -141,6 +141,10 @@ generateCssProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -150,6 +154,8 @@ actors
 css
 -
 properties
+.
+js
 "
 )
 ;

@@ -40,6 +40,10 @@ analyzeInputString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -51,6 +55,8 @@ analyze
 input
 -
 string
+.
+js
 "
 )
 ;

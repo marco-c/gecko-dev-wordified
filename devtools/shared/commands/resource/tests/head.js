@@ -158,6 +158,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +169,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;
@@ -176,6 +182,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -183,6 +193,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
