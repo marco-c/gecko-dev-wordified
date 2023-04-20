@@ -219,6 +219,15 @@ uint32_t
 aResponseStatus
 )
 ;
+void
+CollectLinkTypeTelemetry
+(
+const
+nsAString
+&
+aRel
+)
+;
 Maybe
 <
 TimeStamp
