@@ -28191,9 +28191,10 @@ failed
 "
 )
 ;
+return
 removeBlockContainerElementsResult
 .
-unwrapErr
+propagateErr
 (
 )
 ;
