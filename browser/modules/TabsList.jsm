@@ -2641,12 +2641,6 @@ direction
 {
 this
 .
-_clearDropTarget
-(
-)
-;
-this
-.
 dropTargetRow
 =
 row
