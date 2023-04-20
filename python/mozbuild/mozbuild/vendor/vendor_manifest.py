@@ -61,25 +61,23 @@ absolute_import
 print_function
 unicode_literals
 import
+functools
+import
+glob
+import
+logging
+import
 os
 import
 re
 import
-sys
-import
-glob
-import
 shutil
 import
-logging
+sys
 import
 tarfile
 import
 tempfile
-import
-requests
-import
-functools
 import
 mozfile
 import
@@ -88,6 +86,8 @@ mozpack
 path
 as
 mozpath
+import
+requests
 from
 mozbuild
 .
@@ -103,11 +103,11 @@ rewrite_mozbuild
 import
 (
     
+MozBuildRewriteException
+    
 add_file_to_moz_build_file
     
 remove_file_from_moz_build_file
-    
-MozBuildRewriteException
 )
 DEFAULT_EXCLUDE_FILES
 =
