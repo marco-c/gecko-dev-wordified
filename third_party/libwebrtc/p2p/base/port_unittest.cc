@@ -582,6 +582,12 @@ using
 rtc
 :
 :
+AsyncListenSocket
+;
+using
+rtc
+:
+:
 AsyncPacketSocket
 ;
 using
@@ -7574,7 +7580,7 @@ return
 result
 ;
 }
-AsyncPacketSocket
+AsyncListenSocket
 *
 CreateServerTcpSocket
 (
@@ -7599,7 +7605,7 @@ next_server_tcp_socket_
 NULL
 )
 ;
-AsyncPacketSocket
+AsyncListenSocket
 *
 result
 =
@@ -7689,7 +7695,7 @@ next_udp_socket
 void
 set_next_server_tcp_socket
 (
-AsyncPacketSocket
+AsyncListenSocket
 *
 next_server_tcp_socket
 )
@@ -7737,7 +7743,7 @@ AsyncPacketSocket
 *
 next_udp_socket_
 ;
-AsyncPacketSocket
+AsyncListenSocket
 *
 next_server_tcp_socket_
 ;
