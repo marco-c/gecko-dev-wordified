@@ -755,7 +755,7 @@ SdpOfferAnswerHandler
 >
 Create
 (
-PeerConnection
+PeerConnectionSdpMethods
 *
 pc
 const
@@ -1434,7 +1434,7 @@ function
 explicit
 SdpOfferAnswerHandler
 (
-PeerConnection
+PeerConnectionSdpMethods
 *
 pc
 )
@@ -4401,7 +4401,7 @@ return
 video_options_
 ;
 }
-PeerConnection
+PeerConnectionSdpMethods
 *
 const
 pc_
