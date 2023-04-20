@@ -111,15 +111,6 @@ vector
 #
 include
 "
-rtc_base
-/
-memory_stream
-.
-h
-"
-#
-include
-"
 test
 /
 logging
