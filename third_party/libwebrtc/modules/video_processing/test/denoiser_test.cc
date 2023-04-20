@@ -543,9 +543,7 @@ dst_sse_neon
 Test
 case
 :
-|
 diff
-|
 <
 =
 |
@@ -685,9 +683,7 @@ dst_sse_neon
 Test
 case
 :
-|
 diff
-|
 >
 =
 |
@@ -827,9 +823,7 @@ dst_sse_neon
 Test
 case
 :
-|
 diff
-|
 >
 =
 8
@@ -965,9 +959,7 @@ dst_sse_neon
 Test
 case
 :
-|
 diff
-|
 >
 15
 for

@@ -440,9 +440,7 @@ diff
 /
 /
 When
-|
 diff
-|
 <
 =
 |
