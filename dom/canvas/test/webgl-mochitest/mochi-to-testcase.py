@@ -8,11 +8,11 @@ bin
 env
 python3
 import
-sys
-import
 pathlib
 import
 re
+import
+sys
 assert
 len
 (

@@ -1,11 +1,11 @@
-from
-mod_pywebsocket
-import
-msgutil
 import
 time
 import
 six
+from
+mod_pywebsocket
+import
+msgutil
 #
 see
 the
