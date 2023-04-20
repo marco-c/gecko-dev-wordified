@@ -60,13 +60,13 @@ noqa
 :
 F821
 import
-gdb
-import
 re
 import
 sys
 import
 traceback
+import
+gdb
 #
 testlibdir
 is

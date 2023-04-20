@@ -132,8 +132,8 @@ from
 .
 progressbar
 import
-ProgressBar
 NullProgressBar
+ProgressBar
 from
 .
 results
@@ -6060,16 +6060,16 @@ tests
 .
     
 from
-.
-tasks_adb_remote
-import
-get_remote_results
-    
-from
 mozdevice
 import
 ADBError
 ADBTimeoutError
+    
+from
+.
+tasks_adb_remote
+import
+get_remote_results
     
 #
 Run

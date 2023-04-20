@@ -58,9 +58,9 @@ MPL
 from
 __future__
 import
+division
 print_function
 unicode_literals
-division
 import
 subprocess
 import
@@ -81,8 +81,13 @@ moves
 .
 queue
 import
-Queue
 Empty
+Queue
+from
+.
+adaptor
+import
+xdr_annotate
 from
 .
 progressbar
@@ -95,11 +100,6 @@ import
 NullTestOutput
 TestOutput
 escape_cmdline
-from
-.
-adaptor
-import
-xdr_annotate
 class
 EndMarker
 :

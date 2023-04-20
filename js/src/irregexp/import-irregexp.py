@@ -288,9 +288,9 @@ os
 import
 re
 import
-sys
-import
 subprocess
+import
+sys
 from
 pathlib
 import

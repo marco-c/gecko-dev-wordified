@@ -67,13 +67,13 @@ JS
 Value
 .
 import
+struct
+import
 gdb
 import
 gdb
 .
 types
-import
-struct
 import
 mozilla
 .

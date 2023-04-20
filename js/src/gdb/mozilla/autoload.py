@@ -112,7 +112,7 @@ printing
 import
 mozilla
 .
-prettyprinters
+ExecutableAllocator
 #
 Import
 the
@@ -144,10 +144,6 @@ GCCellPtr
 import
 mozilla
 .
-ExecutableAllocator
-import
-mozilla
-.
 Interpreter
 import
 mozilla
@@ -160,6 +156,10 @@ JSObject
 import
 mozilla
 .
+jsop
+import
+mozilla
+.
 JSString
 import
 mozilla
@@ -168,7 +168,11 @@ JSSymbol
 import
 mozilla
 .
-Root
+jsval
+import
+mozilla
+.
+prettyprinters
 import
 mozilla
 .
@@ -176,11 +180,7 @@ PropertyKey
 import
 mozilla
 .
-jsop
-import
-mozilla
-.
-jsval
+Root
 import
 mozilla
 .

@@ -75,9 +75,9 @@ pretty
 printers
 .
 import
-gdb
-import
 re
+import
+gdb
 #
 Decorators
 for

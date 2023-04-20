@@ -29,14 +29,14 @@ posixpath
 import
 re
 import
-six
-import
 sys
 from
 subprocess
 import
-Popen
 PIPE
+Popen
+import
+six
 from
 .
 remote

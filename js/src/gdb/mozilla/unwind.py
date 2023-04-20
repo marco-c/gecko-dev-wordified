@@ -69,6 +69,8 @@ filter
 for
 SpiderMonkey
 import
+platform
+import
 gdb
 import
 gdb
@@ -93,8 +95,6 @@ mozilla
 prettyprinters
 import
 TypeCache
-import
-platform
 #
 For
 ease

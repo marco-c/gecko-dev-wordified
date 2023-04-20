@@ -7,11 +7,6 @@ bin
 /
 env
 python
-from
-__future__
-import
-absolute_import
-print_function
 #
 This
 Source
@@ -67,6 +62,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 io
 import

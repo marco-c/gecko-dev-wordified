@@ -70,8 +70,8 @@ time
 from
 subprocess
 import
-Popen
 PIPE
+Popen
 class
 TaskPool
 (

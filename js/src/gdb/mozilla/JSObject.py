@@ -74,6 +74,12 @@ prettyprinters
 from
 mozilla
 .
+CellHeader
+import
+get_header_ptr
+from
+mozilla
+.
 jsval
 import
 JSValue
@@ -84,12 +90,6 @@ prettyprinters
 import
 ptr_pretty_printer
 ref_pretty_printer
-from
-mozilla
-.
-CellHeader
-import
-get_header_ptr
 prettyprinters
 .
 clear_module_printers

@@ -103,8 +103,6 @@ init
 file
 .
 import
-gdb
-import
 os
 import
 re
@@ -115,6 +113,8 @@ path
 import
 abspath
 dirname
+import
+gdb
 devel_objdir
 =
 abspath
