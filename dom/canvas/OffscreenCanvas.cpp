@@ -603,14 +603,6 @@ worker
 return
 ;
 }
-if
-(
-mWidth
-!
-=
-aWidth
-)
-{
 mWidth
 =
 aWidth
@@ -619,7 +611,6 @@ CanvasAttrChanged
 (
 )
 ;
-}
 }
 void
 OffscreenCanvas
@@ -660,14 +651,6 @@ worker
 return
 ;
 }
-if
-(
-mHeight
-!
-=
-aHeight
-)
-{
 mHeight
 =
 aHeight
@@ -676,7 +659,6 @@ CanvasAttrChanged
 (
 )
 ;
-}
 }
 void
 OffscreenCanvas
