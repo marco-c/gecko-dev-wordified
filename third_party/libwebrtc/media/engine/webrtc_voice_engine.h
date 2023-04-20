@@ -959,7 +959,6 @@ false
 If
 this
 field
-trial
 is
 enabled
 we
@@ -978,7 +977,7 @@ audio
 .
 const
 bool
-audio_red_for_opus_trial_enabled_
+audio_red_for_opus_enabled_
 ;
 const
 bool
@@ -2351,7 +2350,7 @@ unsignaled_frame_decryptor_
 ;
 const
 bool
-audio_red_for_opus_trial_enabled_
+audio_red_for_opus_enabled_
 ;
 }
 ;
