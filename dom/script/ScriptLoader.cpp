@@ -15229,7 +15229,7 @@ rv
 =
 aExec
 .
-JoinDecode
+JoinOffThread
 (
 &
 aRequest
@@ -15414,7 +15414,7 @@ rv
 =
 aExec
 .
-JoinCompile
+JoinOffThread
 (
 &
 aRequest
