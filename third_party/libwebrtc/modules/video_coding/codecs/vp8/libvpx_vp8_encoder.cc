@@ -1248,7 +1248,7 @@ LibvpxVp8Encoder
 LibvpxInterface
 :
 :
-CreateEncoder
+Create
 (
 )
 VP8Encoder
@@ -1291,7 +1291,7 @@ LibvpxVp8Encoder
 LibvpxInterface
 :
 :
-CreateEncoder
+Create
 (
 )
 std
@@ -1356,7 +1356,7 @@ LibvpxVp8Encoder
 LibvpxInterface
 :
 :
-CreateEncoder
+Create
 (
 )
 std
