@@ -191,7 +191,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -710,10 +712,7 @@ tasks_
 and
 stop_
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 rtc

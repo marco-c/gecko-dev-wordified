@@ -462,15 +462,6 @@ h
 #
 include
 "
-rtc_base
-/
-thread_checker
-.
-h
-"
-#
-include
-"
 video
 /
 buffered_frame_decryptor
@@ -2420,10 +2411,7 @@ correct
 /
 thread
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 network_tc_
 ;
 /

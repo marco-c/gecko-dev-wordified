@@ -177,9 +177,9 @@ include
 "
 rtc_base
 /
-system
+synchronization
 /
-rtc_export
+sequence_checker
 .
 h
 "
@@ -188,7 +188,9 @@ include
 "
 rtc_base
 /
-thread_checker
+system
+/
+rtc_export
 .
 h
 "
@@ -408,10 +410,7 @@ source
 ;
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 worker_thread_checker_
 ;
 SourceState

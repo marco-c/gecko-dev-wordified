@@ -143,7 +143,9 @@ include
 "
 rtc_base
 /
-thread
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -152,7 +154,7 @@ include
 "
 rtc_base
 /
-thread_checker
+thread
 .
 h
 "
@@ -650,10 +652,7 @@ is
 created
 on
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 /
@@ -690,10 +689,7 @@ this
 /
 object
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_aaudio_
 ;
 /

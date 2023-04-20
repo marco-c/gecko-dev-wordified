@@ -127,7 +127,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -876,10 +878,10 @@ srtp_event_data_t
 ev
 )
 ;
-rtc
+webrtc
 :
 :
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 srtp_ctx_t_

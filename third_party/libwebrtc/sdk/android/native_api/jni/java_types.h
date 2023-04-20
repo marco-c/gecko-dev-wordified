@@ -236,7 +236,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -747,10 +749,7 @@ jobject
 >
 value_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 RTC_DISALLOW_COPY_AND_ASSIGN

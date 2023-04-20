@@ -125,7 +125,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -177,10 +179,7 @@ override
 ;
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 AudioTransport

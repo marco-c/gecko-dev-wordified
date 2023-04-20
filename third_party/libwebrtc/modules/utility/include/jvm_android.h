@@ -126,7 +126,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -231,10 +233,7 @@ JvmThreadConnector
 ;
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 bool
@@ -752,10 +751,7 @@ j_string
 ;
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 JNIEnv
@@ -1441,10 +1437,7 @@ jvm_
 )
 ;
 }
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 JavaVM

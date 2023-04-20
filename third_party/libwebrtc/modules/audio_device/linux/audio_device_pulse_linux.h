@@ -204,7 +204,9 @@ include
 "
 rtc_base
 /
-thread_annotations
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -213,7 +215,7 @@ include
 "
 rtc_base
 /
-thread_checker
+thread_annotations
 .
 h
 "
@@ -1923,11 +1925,10 @@ We
 can
 then
 use
-ThreadChecker
-:
-:
-IsCurrent
+RTC_DCHECK_RUN_ON
 (
+&
+worker_thread_checker_
 )
 to
 ensure
@@ -1957,10 +1958,7 @@ IsCurrent
 )
 )
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 bool

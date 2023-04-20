@@ -152,7 +152,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -488,10 +490,7 @@ std
 string
 implementation_name_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 decoder_thread_checker_
 ;
 /

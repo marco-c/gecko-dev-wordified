@@ -262,10 +262,7 @@ get
 private
 :
 const
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 {
 }

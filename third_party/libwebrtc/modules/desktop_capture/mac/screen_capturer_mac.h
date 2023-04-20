@@ -242,7 +242,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -656,10 +658,7 @@ the
 same
 thread
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 /

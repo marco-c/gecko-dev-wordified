@@ -204,7 +204,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -1120,11 +1122,10 @@ We
 can
 then
 use
-ThreadChecker
-:
-:
-IsCurrent
+RTC_DCHECK_RUN_ON
 (
+&
+thread_checker_
 )
 to
 ensure
@@ -1140,10 +1141,7 @@ the
 same
 thread
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 /

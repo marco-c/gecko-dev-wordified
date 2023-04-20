@@ -257,10 +257,7 @@ report_ptr
 }
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 rtc

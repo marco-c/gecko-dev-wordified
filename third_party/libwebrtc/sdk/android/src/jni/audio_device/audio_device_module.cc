@@ -177,7 +177,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -3741,10 +3743,7 @@ return
 }
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 const

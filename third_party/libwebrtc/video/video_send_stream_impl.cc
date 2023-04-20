@@ -296,15 +296,6 @@ include
 "
 rtc_base
 /
-thread_checker
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 trace_event
 .
 h

@@ -132,7 +132,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -721,10 +723,7 @@ ID
 in
 constructor
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 /
@@ -756,10 +755,7 @@ of
 this
 object
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_java_
 ;
 /

@@ -359,15 +359,6 @@ h
 #
 include
 "
-rtc_base
-/
-thread_checker
-.
-h
-"
-#
-include
-"
 test
 /
 testsupport

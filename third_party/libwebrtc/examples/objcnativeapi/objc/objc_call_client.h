@@ -145,7 +145,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -332,10 +334,10 @@ RTC_RUN_ON
 thread_checker_
 )
 ;
-rtc
+webrtc
 :
 :
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 bool

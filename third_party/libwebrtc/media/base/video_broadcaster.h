@@ -149,7 +149,9 @@ include
 "
 rtc_base
 /
-thread_annotations
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -158,7 +160,7 @@ include
 "
 rtc_base
 /
-thread_checker
+thread_annotations
 .
 h
 "

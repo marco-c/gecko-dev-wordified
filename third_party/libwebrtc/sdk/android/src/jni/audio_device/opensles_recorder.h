@@ -172,7 +172,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -1084,10 +1086,7 @@ is
 created
 on
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 /
@@ -1128,10 +1127,7 @@ of
 this
 object
 .
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_opensles_
 ;
 const

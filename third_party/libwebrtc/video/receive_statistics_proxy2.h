@@ -273,15 +273,6 @@ h
 #
 include
 "
-rtc_base
-/
-thread_checker
-.
-h
-"
-#
-include
-"
 video
 /
 quality_threshold
@@ -1316,10 +1307,7 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 decode_queue_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 main_thread_
 ;
 RTC_NO_UNIQUE_ADDRESS

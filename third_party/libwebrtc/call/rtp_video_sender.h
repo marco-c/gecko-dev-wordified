@@ -354,7 +354,9 @@ include
 "
 rtc_base
 /
-thread_annotations
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -363,7 +365,7 @@ include
 "
 rtc_base
 /
-thread_checker
+thread_annotations
 .
 h
 "
@@ -1235,10 +1237,7 @@ ProcessThread
 *
 module_process_thread_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 module_process_thread_checker_
 ;
 std

@@ -125,7 +125,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -312,10 +314,7 @@ AudioSourceInterface
 >
 audio_source_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 }

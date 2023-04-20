@@ -202,7 +202,9 @@ include
 "
 rtc_base
 /
-thread_annotations
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -211,7 +213,7 @@ include
 "
 rtc_base
 /
-thread_checker
+thread_annotations
 .
 h
 "
@@ -2087,10 +2089,10 @@ rtc
 Event
 shutdown_event_
 ;
-rtc
+webrtc
 :
 :
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 FILE

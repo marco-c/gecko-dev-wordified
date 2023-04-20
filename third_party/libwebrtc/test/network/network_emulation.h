@@ -269,15 +269,6 @@ h
 #
 include
 "
-rtc_base
-/
-thread_checker
-.
-h
-"
-#
-include
-"
 system_wrappers
 /
 include
@@ -2770,10 +2761,7 @@ rtc
 RecursiveCriticalSection
 receiver_lock_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 enabled_state_checker_
 ;
 const
