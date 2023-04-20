@@ -1548,9 +1548,7 @@ computed
 TextEmphasisPosition
 :
 :
-over_right
-(
-)
+DEFAULT
 "
 engines
 =
@@ -1566,9 +1564,7 @@ specified
 TextEmphasisPosition
 :
 :
-over_right
-(
-)
+DEFAULT
 "
 animation_value_type
 =
