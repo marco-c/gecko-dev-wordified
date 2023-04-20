@@ -281,6 +281,11 @@ next_ordered_mid
 =
 0
 ;
+uint16_t
+priority
+=
+0
+;
 }
 ;
 struct
