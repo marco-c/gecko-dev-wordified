@@ -677,6 +677,14 @@ OffThreadErrorContext
 default
 ;
 void
+convertToRuntimeError
+(
+JSContext
+*
+cx
+)
+;
+void
 linkWithJSContext
 (
 JSContext
