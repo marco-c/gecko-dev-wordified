@@ -107,7 +107,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -227,7 +227,7 @@ _type
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 nativeReport
 .
@@ -240,7 +240,7 @@ _reportId
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 nativeReport
 .
@@ -298,7 +298,7 @@ key
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 valuePair
 .
@@ -316,7 +316,7 @@ value
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 valuePair
 .

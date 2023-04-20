@@ -98,7 +98,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -338,7 +338,7 @@ kString
 return
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 *
 member
@@ -939,7 +939,7 @@ addObject
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 item
 ]
@@ -1032,7 +1032,7 @@ dictionary
 [
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 item
 .
@@ -1133,7 +1133,7 @@ dictionary
 [
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 item
 .
@@ -1227,7 +1227,7 @@ _id
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 statistics
 .

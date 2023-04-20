@@ -107,7 +107,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -166,7 +166,7 @@ type
 return
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 string
 ]
@@ -456,7 +456,7 @@ sdp
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 sdp
 ]

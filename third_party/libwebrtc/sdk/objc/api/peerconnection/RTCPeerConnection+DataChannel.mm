@@ -116,7 +116,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -163,7 +163,7 @@ labelString
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 label
 ]

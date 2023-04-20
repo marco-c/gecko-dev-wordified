@@ -98,7 +98,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -225,7 +225,7 @@ _rid
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 nativeParameters
 .
@@ -419,7 +419,7 @@ rid
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 _rid
 ]

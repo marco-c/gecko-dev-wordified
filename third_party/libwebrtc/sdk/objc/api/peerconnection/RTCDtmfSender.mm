@@ -107,7 +107,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -227,7 +227,7 @@ InsertDtmf
 (
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 tones
 ]
@@ -247,7 +247,7 @@ remainingTones
 return
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 _nativeDtmfSender
 -

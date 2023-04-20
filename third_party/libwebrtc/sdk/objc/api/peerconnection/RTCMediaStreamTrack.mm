@@ -116,7 +116,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -189,7 +189,7 @@ kind
 return
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 _nativeTrack
 -
@@ -210,7 +210,7 @@ trackId
 return
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 _nativeTrack
 -

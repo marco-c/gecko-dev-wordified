@@ -125,7 +125,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -205,7 +205,7 @@ nativeId
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 trackId
 ]

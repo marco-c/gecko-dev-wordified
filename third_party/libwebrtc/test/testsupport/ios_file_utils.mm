@@ -115,7 +115,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -218,7 +218,7 @@ path
 =
 [
 NSString
-rtc_stringForAbslStringView
+stringForAbslStringView
 :
 name
 ]
@@ -237,7 +237,7 @@ fileType
 =
 [
 NSString
-rtc_stringForAbslStringView
+stringForAbslStringView
 :
 extension
 ]
@@ -277,7 +277,7 @@ fileType
 return
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 pathString
 ]
@@ -306,7 +306,7 @@ mainBundle
 return
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 mainBundle
 .
@@ -397,7 +397,7 @@ tmp
 return
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 tempDir
 ]

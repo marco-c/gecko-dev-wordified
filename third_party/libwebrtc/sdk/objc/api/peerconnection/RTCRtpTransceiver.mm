@@ -143,7 +143,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -354,7 +354,7 @@ mid
 return
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 *
 _nativeRtpTransceiver

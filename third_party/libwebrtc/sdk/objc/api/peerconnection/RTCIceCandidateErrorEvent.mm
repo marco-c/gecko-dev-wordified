@@ -101,7 +101,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -214,7 +214,7 @@ _address
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 address
 ]
@@ -227,7 +227,7 @@ _url
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 url
 ]
@@ -240,7 +240,7 @@ _errorText
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 errorText
 ]
