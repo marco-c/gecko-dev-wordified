@@ -665,7 +665,6 @@ self
 .
 exec
 (
-&
 [
 "
 log
@@ -704,7 +703,6 @@ self
 .
 exec
 (
-&
 [
 "
 log
@@ -857,7 +855,6 @@ self
 .
 exec
 (
-&
 [
 "
 cinnabar
@@ -893,7 +890,6 @@ self
 .
 exec
 (
-&
 [
 "
 rev
@@ -954,7 +950,6 @@ self
 .
 exec
 (
-&
 [
 "
 log

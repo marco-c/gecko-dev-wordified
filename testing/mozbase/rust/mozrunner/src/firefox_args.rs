@@ -975,8 +975,6 @@ str
 Arg
 {
 match
-&
-*
 name
 {
 "

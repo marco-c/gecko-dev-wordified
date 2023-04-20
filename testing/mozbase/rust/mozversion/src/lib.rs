@@ -654,8 +654,6 @@ Version
 :
 from_str
 (
-&
-*
 x
 )
 .
@@ -2012,7 +2010,6 @@ binary
 .
 args
 (
-&
 [
 "
 -
@@ -2070,7 +2067,6 @@ str
 from_utf8
 (
 &
-*
 x
 .
 stdout

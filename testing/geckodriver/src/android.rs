@@ -2071,6 +2071,7 @@ derive
 Serialize
 Deserialize
 PartialEq
+Eq
 Debug
 )
 ]
