@@ -2631,7 +2631,7 @@ marker
 (
 "
 Contentful
-paint
+composite
 after
 %
 dms
