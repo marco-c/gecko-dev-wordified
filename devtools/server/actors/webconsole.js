@@ -7889,6 +7889,7 @@ JSPropertyProvider
 {
 dbgObject
 environment
+frameActorId
 inputValue
 :
 text
