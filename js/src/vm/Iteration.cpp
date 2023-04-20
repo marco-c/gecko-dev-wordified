@@ -7149,9 +7149,11 @@ props
 )
 ;
 }
-static
 JSObject
 *
+js
+:
+:
 GetIterator
 (
 JSContext
