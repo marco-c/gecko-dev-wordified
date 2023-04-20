@@ -564,7 +564,7 @@ RtpEncodingParameters
 all_layers
 )
 {
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 parameters
 .
