@@ -2544,7 +2544,7 @@ isAllowed
 (
 {
 mediaSource
-id
+rawId
 }
 permissionID
 )
@@ -2559,7 +2559,7 @@ windowID
 +
 mediaSource
 +
-id
+rawId
 )
 |
 |
@@ -2598,7 +2598,7 @@ getForPrincipal
 aPrincipal
 [
 mediaSource
-id
+rawId
 ]
 .
 join
@@ -2931,7 +2931,7 @@ camera
 mediaSource
 camera
 .
-id
+rawId
 )
 ;
 }
@@ -2959,7 +2959,7 @@ microphone
 mediaSource
 microphone
 .
-id
+rawId
 )
 ;
 }
@@ -5322,7 +5322,7 @@ PIPEWIRE_PORTAL_NAME
 &
 device
 .
-id
+rawId
 =
 =
 PIPEWIRE_ID
@@ -5364,7 +5364,7 @@ deviceId
 =
 device
 .
-id
+rawId
 ;
 item
 .
@@ -5510,7 +5510,7 @@ deviceId
 =
 device
 .
-id
+rawId
 ;
 item
 .
@@ -6972,7 +6972,7 @@ EXPIRE_SESSION
 let
 {
 mediaSource
-id
+rawId
 }
 =
 videoInputDevices
@@ -7000,7 +7000,7 @@ aRequest
 .
 windowID
 mediaSource
-id
+rawId
 )
 ;
 if
@@ -7083,7 +7083,7 @@ audioDeviceIndex
 let
 {
 mediaSource
-id
+rawId
 }
 =
 audioInputDevices
@@ -7111,7 +7111,7 @@ aRequest
 .
 windowID
 mediaSource
-id
+rawId
 )
 ;
 if
