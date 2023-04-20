@@ -7964,7 +7964,7 @@ document
 getElementById
 (
 "
-windowPopup
+menu_ToolsPopup
 "
 )
 ;
@@ -7975,11 +7975,7 @@ document
 getElementById
 (
 "
-sep
--
-window
--
-list
+devToolsSeparator
 "
 )
 ;
