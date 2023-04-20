@@ -1660,9 +1660,7 @@ browser
 /
 content
 /
-FeatureCallout
-.
-sys
+featureCallout
 .
 mjs
 "
