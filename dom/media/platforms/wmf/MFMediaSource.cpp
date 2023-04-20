@@ -2504,10 +2504,6 @@ LPVOID
 aResult
 )
 {
-AssertOnMFThreadPool
-(
-)
-;
 if
 (
 !
