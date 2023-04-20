@@ -408,7 +408,7 @@ mWebAccessiblePaths
 ;
 RefPtr
 <
-MatchPatternSet
+MatchPatternSetCore
 >
 mMatches
 ;
