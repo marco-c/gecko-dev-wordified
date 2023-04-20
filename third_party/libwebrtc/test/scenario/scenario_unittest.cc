@@ -1183,14 +1183,6 @@ WebRTC
 -
 Audio
 -
-SendSideBwe
-/
-Enabled
-/
-WebRTC
--
-Audio
--
 ABWENoTWCC
 /
 Disabled

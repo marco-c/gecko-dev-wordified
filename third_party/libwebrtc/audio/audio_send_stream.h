@@ -972,10 +972,6 @@ worker_queue_
 ;
 const
 bool
-audio_send_side_bwe_
-;
-const
-bool
 allocate_audio_without_feedback_
 ;
 const
