@@ -6570,8 +6570,10 @@ CreatePromiseObjectWithoutResolutionFunctions
 .
 *
 /
-static
 bool
+js
+:
+:
 IsPromiseWithDefaultResolvingFunction
 (
 PromiseObject
@@ -6718,8 +6720,10 @@ CreatePromiseObjectWithoutResolutionFunctions
 .
 *
 /
-static
 void
+js
+:
+:
 SetAlreadyResolvedPromiseWithDefaultResolvingFunction
 (
 PromiseObject
