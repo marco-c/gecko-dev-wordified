@@ -4319,6 +4319,11 @@ target_files
 [
         
 "
+.
+eslintignore
+"
+        
+"
 moz
 .
 build
