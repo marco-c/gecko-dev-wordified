@@ -883,10 +883,6 @@ ss_info_needed_
 bool
 force_all_active_layers_
 ;
-const
-bool
-use_svc_controller_
-;
 uint8_t
 num_cores_
 ;
