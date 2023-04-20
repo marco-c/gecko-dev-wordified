@@ -126,7 +126,7 @@ sdk
 /
 android
 /
-generated_libaom_av1_jni
+generated_libaom_av1_jni_if_supported
 /
 LibaomAv1Decoder_jni
 .
@@ -139,9 +139,9 @@ sdk
 /
 android
 /
-generated_libaom_av1_jni
+generated_libaom_av1_jni_if_supported
 /
-LibaomAv1Encoder_jni
+LibaomAv1EncoderIfSupported_jni
 .
 h
 "
@@ -168,7 +168,7 @@ jni
 {
 static
 jlong
-JNI_LibaomAv1Encoder_CreateEncoder
+JNI_LibaomAv1EncoderIfSupported_CreateEncoder
 (
 JNIEnv
 *
@@ -193,7 +193,7 @@ release
 }
 static
 jboolean
-JNI_LibaomAv1Encoder_IsSupported
+JNI_LibaomAv1EncoderIfSupported_IsSupported
 (
 JNIEnv
 *

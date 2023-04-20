@@ -92,7 +92,7 @@ webrtc
 ;
 public
 class
-LibaomAv1Encoder
+LibaomAv1EncoderIfSupported
 extends
 WrappedNativeVideoEncoder
 {
