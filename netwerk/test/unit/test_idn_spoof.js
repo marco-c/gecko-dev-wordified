@@ -3382,9 +3382,6 @@ u30fc
 com
 "
 kUnsafe
-"
-DISABLED
-"
 ]
 /
 /
@@ -3419,9 +3416,6 @@ u7403
 jp
 "
 kUnsafe
-"
-DISABLED
-"
 ]
 /
 /
@@ -3451,9 +3445,6 @@ u672c
 jp
 "
 kUnsafe
-"
-DISABLED
-"
 ]
 /
 /
@@ -3483,9 +3474,6 @@ u30fcdef
 jp
 "
 kUnsafe
-"
-DISABLED
-"
 ]
 /
 /
