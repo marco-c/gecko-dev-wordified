@@ -790,12 +790,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 PRUint16
 mode
 ;

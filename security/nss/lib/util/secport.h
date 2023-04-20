@@ -95,7 +95,6 @@ h
 *
 define
 XP_WIN
-XP_BEOS
 or
 XP_UNIX
 in
@@ -141,19 +140,6 @@ define
 XP_WIN32
 #
 endif
-#
-endif
-#
-endif
-#
-ifdef
-__BEOS__
-#
-ifndef
-XP_BEOS
-#
-define
-XP_BEOS
 #
 endif
 #
