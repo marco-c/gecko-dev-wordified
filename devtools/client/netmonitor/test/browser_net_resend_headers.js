@@ -120,7 +120,6 @@ index
 const
 {
 requestData
-sendHTTPRequest
 }
 =
 connector
@@ -275,6 +274,10 @@ monitor
 1
 )
 ;
+connector
+.
+networkCommand
+.
 sendHTTPRequest
 (
 {

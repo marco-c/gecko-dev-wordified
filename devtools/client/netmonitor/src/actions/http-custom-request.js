@@ -401,7 +401,6 @@ form
 function
 sendHTTPCustomRequest
 (
-connector
 request
 )
 {
@@ -411,6 +410,8 @@ async
 {
 dispatch
 getState
+connector
+commands
 }
 )
 =
@@ -598,7 +599,9 @@ channelId
 }
 =
 await
-connector
+commands
+.
+networkCommand
 .
 sendHTTPRequest
 (

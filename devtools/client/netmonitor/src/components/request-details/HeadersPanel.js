@@ -4274,9 +4274,6 @@ Actions
 .
 sendCustomRequest
 (
-props
-.
-connector
 )
 )
 }

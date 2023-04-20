@@ -157,13 +157,6 @@ monitor
 .
 panelWin
 ;
-const
-{
-sendHTTPRequest
-}
-=
-connector
-;
 /
 /
 Action
@@ -404,6 +397,10 @@ monitor
 1
 )
 ;
+connector
+.
+networkCommand
+.
 sendHTTPRequest
 (
 request

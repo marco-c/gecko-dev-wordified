@@ -2806,9 +2806,6 @@ Actions
 .
 sendHTTPCustomRequest
 (
-props
-.
-connector
 request
 )
 )
