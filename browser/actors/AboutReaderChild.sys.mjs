@@ -82,15 +82,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-AboutReaderChild
-"
-]
-;
 const
 lazy
 =
@@ -182,6 +173,7 @@ Map
 (
 )
 ;
+export
 class
 AboutReaderChild
 extends

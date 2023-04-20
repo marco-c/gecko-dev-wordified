@@ -2568,7 +2568,7 @@ AboutReader
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2580,13 +2580,15 @@ actors
 /
 AboutReaderParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2598,7 +2600,9 @@ actors
 /
 AboutReaderChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
