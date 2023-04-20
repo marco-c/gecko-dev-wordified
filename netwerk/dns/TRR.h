@@ -196,7 +196,7 @@ h
 #
 include
 "
-TRRSkippedReason
+nsITRRSkipReason
 .
 h
 "
