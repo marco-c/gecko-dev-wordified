@@ -1547,7 +1547,7 @@ layers
 CompositableHandleOwner
 :
 :
-InProcessManager
+ImageBridge
 >
 {
 }

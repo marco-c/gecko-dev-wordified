@@ -2061,9 +2061,8 @@ const
 layers
 :
 :
-CompositableHandle
-&
-aHandle
+RemoteTextureOwnerId
+aOwnerId
 gfx
 :
 :
@@ -2295,7 +2294,7 @@ DeviceCreateSwapChain
 mId
 rgbDesc
 maxBufferCount
-aHandle
+aOwnerId
 )
 ;
 dom

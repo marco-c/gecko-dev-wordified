@@ -286,9 +286,6 @@ class
 CanvasRenderer
 ;
 class
-CompositableHandle
-;
-class
 Layer
 ;
 class

@@ -251,9 +251,12 @@ int32_t
 &
 aProtocolId
 const
-CompositableHandle
+Maybe
+<
+RemoteTextureOwnerId
+>
 &
-aHandle
+aOwnerId
 webgl
 :
 :
