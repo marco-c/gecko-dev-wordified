@@ -662,7 +662,6 @@ notify
 ;
 }
 }
-;
 RemoteConnection
 mConnection
 =
