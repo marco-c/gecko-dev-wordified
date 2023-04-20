@@ -99,6 +99,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 vector
 >
 #
@@ -407,13 +412,6 @@ generic_decoder_
 (
 &
 decoder_
-/
-*
-isExternal
-=
-*
-/
-true
 )
 {
 }
