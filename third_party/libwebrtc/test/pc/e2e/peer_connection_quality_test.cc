@@ -2251,7 +2251,7 @@ string
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -2263,7 +2263,7 @@ value
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -2319,7 +2319,7 @@ if
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -2343,7 +2343,7 @@ RtcEventLogOutputFile
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -2386,7 +2386,7 @@ if
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -2410,7 +2410,7 @@ RtcEventLogOutputFile
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -2530,7 +2530,7 @@ Now
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -2548,7 +2548,7 @@ to
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -2621,7 +2621,7 @@ observers
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -2637,7 +2637,7 @@ get
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -3602,7 +3602,7 @@ if
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -3701,7 +3701,7 @@ video_config
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -3735,7 +3735,7 @@ enabled
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -3752,7 +3752,7 @@ if
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -4028,7 +4028,7 @@ i
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -4202,7 +4202,7 @@ FilterVideoCodecCapabilities
 peer
 -
 >
-params2
+params
 (
 )
 .
@@ -4211,7 +4211,7 @@ true
 peer
 -
 >
-params2
+params
 (
 )
 .
@@ -4219,7 +4219,7 @@ use_ulp_fec
 peer
 -
 >
-params2
+params
 (
 )
 .
@@ -4260,7 +4260,7 @@ FilterVideoCodecCapabilities
 peer
 -
 >
-params2
+params
 (
 )
 .
@@ -4269,7 +4269,7 @@ false
 peer
 -
 >
-params2
+params
 (
 )
 .
@@ -4277,7 +4277,7 @@ use_ulp_fec
 peer
 -
 >
-params2
+params
 (
 )
 .
@@ -4506,7 +4506,7 @@ video_config
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -4817,7 +4817,7 @@ offer
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -4991,7 +4991,7 @@ answer
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -5199,7 +5199,7 @@ LS_INFO
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -5319,7 +5319,7 @@ LS_INFO
 bob_
 -
 >
-params2
+params
 (
 )
 .
@@ -5524,7 +5524,7 @@ PrintResult
 alice_
 -
 >
-params2
+params
 (
 )
 .
@@ -5565,7 +5565,7 @@ PrintResult
 bob_
 -
 >
-params2
+params
 (
 )
 .
