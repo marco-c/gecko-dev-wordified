@@ -4247,12 +4247,8 @@ nack_
 >
 UpdateLastReceivedPacket
 (
-rtp_header
-.
-sequenceNumber
-rtp_header
-.
-timestamp
+main_sequence_number
+main_timestamp
 )
 ;
 }
