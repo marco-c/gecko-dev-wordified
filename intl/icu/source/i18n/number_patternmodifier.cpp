@@ -1878,6 +1878,10 @@ fSignum
 fApproximately
 fPlural
 fPerMilleReplacesPercent
+false
+/
+/
+dropCurrencySymbols
 currentAffix
 )
 ;

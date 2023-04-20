@@ -3240,6 +3240,8 @@ private
 IslamicCalendar
 (
 )
+=
+delete
 ;
 /
 /

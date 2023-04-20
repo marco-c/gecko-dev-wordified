@@ -1585,6 +1585,8 @@ RBBIStateDescriptor
 &
 other
 )
+=
+delete
 ;
 /
 /
@@ -1603,6 +1605,8 @@ RBBIStateDescriptor
 &
 other
 )
+=
+delete
 ;
 /
 /

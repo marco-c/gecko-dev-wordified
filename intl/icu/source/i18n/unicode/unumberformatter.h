@@ -96,11 +96,9 @@ file
 \
 brief
 C
--
-compatible
 API
-for
-localized
+:
+Localized
 number
 formatting
 ;

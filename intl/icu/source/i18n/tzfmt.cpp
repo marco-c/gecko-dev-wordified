@@ -1235,8 +1235,8 @@ icu
 :
 UInitOnce
 gZoneIdTrieInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 TextTrieMap
@@ -1251,8 +1251,8 @@ icu
 :
 UInitOnce
 gShortZoneIdTrieInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 UMutex
@@ -1321,7 +1321,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -2527,7 +2527,7 @@ fGMTZeroFormat
 .
 setTo
 (
-TRUE
+true
 resStr
 len
 )
@@ -2585,7 +2585,7 @@ initGMTPattern
 (
 UnicodeString
 (
-TRUE
+true
 gmtPattern
 -
 1
@@ -2596,7 +2596,7 @@ status
 UBool
 useDefaultOffsetPatterns
 =
-TRUE
+true
 ;
 if
 (
@@ -2643,7 +2643,7 @@ UTZFMT_PAT_POSITIVE_HM
 .
 setTo
 (
-FALSE
+false
 hourFormats
 (
 int32_t
@@ -2662,7 +2662,7 @@ UTZFMT_PAT_NEGATIVE_HM
 .
 setTo
 (
-TRUE
+true
 sep
 +
 1
@@ -2732,7 +2732,7 @@ tmpStatus
 {
 useDefaultOffsetPatterns
 =
-FALSE
+false
 ;
 }
 }
@@ -2749,7 +2749,7 @@ UTZFMT_PAT_POSITIVE_H
 .
 setTo
 (
-TRUE
+true
 DEFAULT_GMT_POSITIVE_H
 -
 1
@@ -2762,7 +2762,7 @@ UTZFMT_PAT_POSITIVE_HM
 .
 setTo
 (
-TRUE
+true
 DEFAULT_GMT_POSITIVE_HM
 -
 1
@@ -2775,7 +2775,7 @@ UTZFMT_PAT_POSITIVE_HMS
 .
 setTo
 (
-TRUE
+true
 DEFAULT_GMT_POSITIVE_HMS
 -
 1
@@ -2788,7 +2788,7 @@ UTZFMT_PAT_NEGATIVE_H
 .
 setTo
 (
-TRUE
+true
 DEFAULT_GMT_NEGATIVE_H
 -
 1
@@ -2801,7 +2801,7 @@ UTZFMT_PAT_NEGATIVE_HM
 .
 setTo
 (
-TRUE
+true
 DEFAULT_GMT_NEGATIVE_HM
 -
 1
@@ -2814,7 +2814,7 @@ UTZFMT_PAT_NEGATIVE_HMS
 .
 setTo
 (
-TRUE
+true
 DEFAULT_GMT_NEGATIVE_HMS
 -
 1
@@ -2842,7 +2842,7 @@ status
 UBool
 useDefDigits
 =
-TRUE
+true
 ;
 if
 (
@@ -4154,7 +4154,7 @@ UTZFMT_TIME_TYPE_UNKNOWN
 UBool
 noOffsetFormatFallback
 =
-FALSE
+false
 ;
 switch
 (
@@ -4242,7 +4242,7 @@ name
 ;
 noOffsetFormatFallback
 =
-TRUE
+true
 ;
 break
 ;
@@ -4288,7 +4288,7 @@ shortID
 }
 noOffsetFormatFallback
 =
-TRUE
+true
 ;
 break
 ;
@@ -4303,7 +4303,7 @@ name
 ;
 noOffsetFormatFallback
 =
-TRUE
+true
 ;
 break
 ;
@@ -4345,7 +4345,7 @@ tz
 getOffset
 (
 date
-FALSE
+false
 rawOffset
 dstOffset
 status
@@ -4416,9 +4416,9 @@ UTZFMT_STYLE_ISO_BASIC_SHORT
 formatOffsetISO8601Basic
 (
 offset
-TRUE
-TRUE
-TRUE
+true
+true
+true
 name
 status
 )
@@ -4431,9 +4431,9 @@ UTZFMT_STYLE_ISO_BASIC_LOCAL_SHORT
 formatOffsetISO8601Basic
 (
 offset
-FALSE
-TRUE
-TRUE
+false
+true
+true
 name
 status
 )
@@ -4446,9 +4446,9 @@ UTZFMT_STYLE_ISO_BASIC_FIXED
 formatOffsetISO8601Basic
 (
 offset
-TRUE
-FALSE
-TRUE
+true
+false
+true
 name
 status
 )
@@ -4461,9 +4461,9 @@ UTZFMT_STYLE_ISO_BASIC_LOCAL_FIXED
 formatOffsetISO8601Basic
 (
 offset
-FALSE
-FALSE
-TRUE
+false
+false
+true
 name
 status
 )
@@ -4476,9 +4476,9 @@ UTZFMT_STYLE_ISO_EXTENDED_FIXED
 formatOffsetISO8601Extended
 (
 offset
-TRUE
-FALSE
-TRUE
+true
+false
+true
 name
 status
 )
@@ -4491,9 +4491,9 @@ UTZFMT_STYLE_ISO_EXTENDED_LOCAL_FIXED
 formatOffsetISO8601Extended
 (
 offset
-FALSE
-FALSE
-TRUE
+false
+false
+true
 name
 status
 )
@@ -4506,9 +4506,9 @@ UTZFMT_STYLE_ISO_BASIC_FULL
 formatOffsetISO8601Basic
 (
 offset
-TRUE
-FALSE
-FALSE
+true
+false
+false
 name
 status
 )
@@ -4521,9 +4521,9 @@ UTZFMT_STYLE_ISO_BASIC_LOCAL_FULL
 formatOffsetISO8601Basic
 (
 offset
-FALSE
-FALSE
-FALSE
+false
+false
+false
 name
 status
 )
@@ -4536,9 +4536,9 @@ UTZFMT_STYLE_ISO_EXTENDED_FULL
 formatOffsetISO8601Extended
 (
 offset
-TRUE
-FALSE
-FALSE
+true
+false
+false
 name
 status
 )
@@ -4551,9 +4551,9 @@ UTZFMT_STYLE_ISO_EXTENDED_LOCAL_FULL
 formatOffsetISO8601Extended
 (
 offset
-FALSE
-FALSE
-FALSE
+false
+false
+false
 name
 status
 )
@@ -4753,7 +4753,7 @@ tz
 getOffset
 (
 date
-FALSE
+false
 rawOffset
 dstOffset
 status
@@ -5057,7 +5057,7 @@ fallbackShortLocalizedGMT
 UBool
 hasDigitOffset
 =
-FALSE
+false
 ;
 offset
 =
@@ -5600,7 +5600,7 @@ here
 UBool
 hasDigitOffset
 =
-FALSE
+false
 ;
 offset
 =
@@ -5608,7 +5608,7 @@ parseOffsetISO8601
 (
 text
 tmpPos
-FALSE
+false
 &
 hasDigitOffset
 )
@@ -6734,7 +6734,7 @@ setErrorIndex
 UBool
 hasDigitOffset
 =
-FALSE
+false
 ;
 offset
 =
@@ -6742,7 +6742,7 @@ parseOffsetISO8601
 (
 text
 tmpPos
-FALSE
+false
 &
 hasDigitOffset
 )
@@ -6942,7 +6942,7 @@ setErrorIndex
 UBool
 hasDigitOffset
 =
-FALSE
+false
 ;
 offset
 =
@@ -6950,7 +6950,7 @@ parseOffsetLocalizedGMT
 (
 text
 tmpPos
-FALSE
+false
 &
 hasDigitOffset
 )
@@ -7089,7 +7089,7 @@ setErrorIndex
 UBool
 hasDigitOffset
 =
-FALSE
+false
 ;
 offset
 =
@@ -7097,7 +7097,7 @@ parseOffsetLocalizedGMT
 (
 text
 tmpPos
-TRUE
+true
 &
 hasDigitOffset
 )
@@ -8315,7 +8315,7 @@ getGenericLocationName
 (
 UnicodeString
 (
-TRUE
+true
 canonicalID
 -
 1
@@ -8449,7 +8449,7 @@ getDisplayName
 (
 UnicodeString
 (
-TRUE
+true
 canonicalID
 -
 1
@@ -8469,7 +8469,7 @@ getDisplayName
 (
 UnicodeString
 (
-TRUE
+true
 canonicalID
 -
 1
@@ -8741,7 +8741,7 @@ getExemplarLocationName
 (
 UnicodeString
 (
-TRUE
+true
 canonicalID
 -
 1
@@ -8785,7 +8785,7 @@ getExemplarLocationName
 (
 UnicodeString
 (
-TRUE
+true
 UNKNOWN_ZONE_ID
 -
 1
@@ -8936,7 +8936,7 @@ return
 formatOffsetISO8601
 (
 offset
-TRUE
+true
 useUtcIndicator
 isShort
 ignoreSeconds
@@ -8973,7 +8973,7 @@ return
 formatOffsetISO8601
 (
 offset
-FALSE
+false
 useUtcIndicator
 isShort
 ignoreSeconds
@@ -9004,7 +9004,7 @@ return
 formatOffsetLocalizedGMT
 (
 offset
-FALSE
+false
 result
 status
 )
@@ -9032,7 +9032,7 @@ return
 formatOffsetLocalizedGMT
 (
 offset
-TRUE
+true
 result
 status
 )
@@ -9059,7 +9059,7 @@ parseOffsetISO8601
 (
 text
 pos
-FALSE
+false
 )
 ;
 }
@@ -9084,7 +9084,7 @@ parseOffsetLocalizedGMT
 (
 text
 pos
-FALSE
+false
 NULL
 )
 ;
@@ -9110,7 +9110,7 @@ parseOffsetLocalizedGMT
 (
 text
 pos
-TRUE
+true
 NULL
 )
 ;
@@ -9728,7 +9728,7 @@ result
 UBool
 positive
 =
-TRUE
+true
 ;
 if
 (
@@ -9744,7 +9744,7 @@ offset
 ;
 positive
 =
-FALSE
+false
 ;
 }
 int32_t
@@ -10109,7 +10109,7 @@ hasDigitOffset
 *
 hasDigitOffset
 =
-FALSE
+false
 ;
 }
 int32_t
@@ -10394,7 +10394,7 @@ text
 posBasic
 FIELDS_H
 FIELDS_HMS
-FALSE
+false
 )
 ;
 if
@@ -10483,7 +10483,7 @@ hasDigitOffset
 *
 hasDigitOffset
 =
-TRUE
+true
 ;
 }
 return
@@ -10540,7 +10540,7 @@ hasDigitOffset
 *
 hasDigitOffset
 =
-FALSE
+false
 ;
 }
 offset
@@ -10642,7 +10642,7 @@ hasDigitOffset
 *
 hasDigitOffset
 =
-TRUE
+true
 ;
 }
 pos
@@ -10688,7 +10688,7 @@ hasDigitOffset
 *
 hasDigitOffset
 =
-TRUE
+true
 ;
 }
 pos
@@ -10885,7 +10885,7 @@ offset
 UBool
 parsed
 =
-FALSE
+false
 ;
 do
 {
@@ -10946,7 +10946,7 @@ parseOffsetFields
 (
 text
 idx
-FALSE
+false
 len
 )
 ;
@@ -11016,12 +11016,12 @@ len
 ;
 parsed
 =
-TRUE
+true
 ;
 }
 while
 (
-FALSE
+false
 )
 ;
 parsedLen
@@ -11146,7 +11146,7 @@ parseOffsetFieldsWithPattern
 text
 start
 items
-FALSE
+false
 offsetH
 offsetM
 offsetS
@@ -11334,7 +11334,7 @@ parseOffsetFieldsWithPattern
 text
 start
 items
-TRUE
+true
 tmpH
 tmpM
 tmpS
@@ -11487,7 +11487,7 @@ const
 UBool
 failed
 =
-FALSE
+false
 ;
 int32_t
 offsetH
@@ -11756,7 +11756,7 @@ patStr
 {
 failed
 =
-TRUE
+true
 ;
 break
 ;
@@ -11865,7 +11865,7 @@ len
 {
 failed
 =
-TRUE
+true
 ;
 break
 ;
@@ -12897,7 +12897,7 @@ len
 }
 while
 (
-FALSE
+false
 )
 ;
 if
@@ -13765,7 +13765,7 @@ sec
 UBool
 bParsed
 =
-FALSE
+false
 ;
 while
 (
@@ -14892,12 +14892,12 @@ remove
 UBool
 isPrevQuote
 =
-FALSE
+false
 ;
 UBool
 inQuote
 =
-FALSE
+false
 ;
 for
 (
@@ -14951,14 +14951,14 @@ c
 ;
 isPrevQuote
 =
-FALSE
+false
 ;
 }
 else
 {
 isPrevQuote
 =
-TRUE
+true
 ;
 }
 inQuote
@@ -14971,7 +14971,7 @@ else
 {
 isPrevQuote
 =
-FALSE
+false
 ;
 result
 .
@@ -15052,12 +15052,12 @@ checkBits
 UBool
 isPrevQuote
 =
-FALSE
+false
 ;
 UBool
 inQuote
 =
-FALSE
+false
 ;
 UChar
 textBuf
@@ -15144,14 +15144,14 @@ SINGLEQUOTE
 ;
 isPrevQuote
 =
-FALSE
+false
 ;
 }
 else
 {
 isPrevQuote
 =
-TRUE
+true
 ;
 if
 (
@@ -15245,7 +15245,7 @@ else
 {
 isPrevQuote
 =
-FALSE
+false
 ;
 if
 (
@@ -16275,7 +16275,7 @@ checkAbuttingHoursAndMinutes
 {
 fAbuttingOffsetHoursAndMinutes
 =
-FALSE
+false
 ;
 for
 (
@@ -16296,7 +16296,7 @@ type
 UBool
 afterH
 =
-FALSE
+false
 ;
 UVector
 *
@@ -16376,7 +16376,7 @@ afterH
 {
 fAbuttingOffsetHoursAndMinutes
 =
-TRUE
+true
 ;
 break
 ;
@@ -16395,7 +16395,7 @@ HOUR
 {
 afterH
 =
-TRUE
+true
 ;
 }
 }
@@ -16454,7 +16454,7 @@ size
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -16500,7 +16500,7 @@ start
 ;
 }
 return
-TRUE
+true
 ;
 }
 TimeZone
@@ -16545,7 +16545,7 @@ createTimeZone
 (
 UnicodeString
 (
-TRUE
+true
 TZID_GMT
 -
 1
@@ -16792,7 +16792,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -16850,7 +16850,7 @@ matchLength
 }
 }
 return
-TRUE
+true
 ;
 }
 const
@@ -16908,7 +16908,7 @@ gZoneIdTrie
 new
 TextTrieMap
 (
-TRUE
+true
 NULL
 )
 ;
@@ -17226,7 +17226,7 @@ gShortZoneIdTrie
 new
 TextTrieMap
 (
-TRUE
+true
 NULL
 )
 ;

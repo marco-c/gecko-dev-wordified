@@ -1434,7 +1434,7 @@ pointers
 NULL
 all
 flags
-FALSE
+false
 all
 sizes
 0
@@ -1499,7 +1499,7 @@ pBiDi
 >
 mayAllocateText
 =
-TRUE
+true
 ;
 }
 if
@@ -1561,7 +1561,7 @@ pBiDi
 >
 mayAllocateRuns
 =
-TRUE
+true
 ;
 }
 if
@@ -1608,7 +1608,7 @@ or
 mayAllocate
 =
 =
-TRUE
+true
 for
 each
 array
@@ -1771,13 +1771,13 @@ pSize
 sizeNeeded
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1802,7 +1802,7 @@ memory
 *
 /
 return
-TRUE
+true
 ;
 }
 else
@@ -1825,7 +1825,7 @@ allocate
 *
 /
 return
-FALSE
+false
 ;
 }
 else
@@ -1907,7 +1907,7 @@ pSize
 sizeNeeded
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -1921,7 +1921,7 @@ grow
 *
 /
 return
-FALSE
+false
 ;
 }
 }
@@ -2234,7 +2234,7 @@ isInverse
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -2974,7 +2974,7 @@ count
 SIMPLE_PARAS_COUNT
 )
 return
-TRUE
+true
 ;
 if
 (
@@ -2988,7 +2988,7 @@ SIMPLE_PARAS_COUNT
 )
 )
 return
-FALSE
+false
 ;
 pBiDi
 -
@@ -3019,7 +3019,7 @@ Para
 )
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -3034,7 +3034,7 @@ count
 )
 )
 return
-FALSE
+false
 ;
 pBiDi
 -
@@ -3047,7 +3047,7 @@ pBiDi
 parasMemory
 ;
 return
-TRUE
+true
 ;
 }
 /
@@ -4416,7 +4416,7 @@ pBiDi
 )
 =
 =
-FALSE
+false
 )
 /
 *
@@ -4431,7 +4431,7 @@ entry
 *
 /
 return
-FALSE
+false
 ;
 if
 (
@@ -4861,7 +4861,7 @@ lastArabicPos
 lastArabicPos
 ;
 return
-TRUE
+true
 ;
 }
 /
@@ -5793,7 +5793,7 @@ UBool
 /
 *
 return
-TRUE
+true
 if
 success
 *
@@ -5875,7 +5875,7 @@ limit
 )
 )
 return
-FALSE
+false
 ;
 if
 (
@@ -6004,7 +6004,7 @@ limit
 +
 ;
 return
-TRUE
+true
 ;
 }
 /
@@ -6329,7 +6329,7 @@ level
 ;
 stable
 =
-TRUE
+true
 ;
 /
 *
@@ -6997,7 +6997,7 @@ UBool
 /
 *
 return
-TRUE
+true
 if
 success
 *
@@ -7369,7 +7369,7 @@ position
 UBIDI_LEVEL_OVERRIDE
 ;
 return
-TRUE
+true
 ;
 }
 /
@@ -7514,7 +7514,7 @@ position
 )
 )
 return
-FALSE
+false
 ;
 }
 else
@@ -7544,7 +7544,7 @@ position
 )
 )
 return
-FALSE
+false
 ;
 }
 if
@@ -7558,7 +7558,7 @@ position
 )
 )
 return
-FALSE
+false
 ;
 }
 }
@@ -8044,7 +8044,7 @@ flag
 ;
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -22239,7 +22239,7 @@ will
 force
 mayAllocateText
 to
-FALSE
+false
 before
 the
 second
@@ -22269,7 +22269,7 @@ pBiDi
 >
 mayAllocateText
 =
-FALSE
+false
 ;
 ubidi_setPara
 (
@@ -25267,7 +25267,7 @@ orderParagraphsLTR
 else
 {
 return
-FALSE
+false
 ;
 }
 }

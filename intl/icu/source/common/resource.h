@@ -1932,6 +1932,8 @@ const
 ResourceSink
 &
 )
+=
+delete
 ;
 /
 /
@@ -1947,6 +1949,8 @@ const
 ResourceSink
 &
 )
+=
+delete
 ;
 /
 /

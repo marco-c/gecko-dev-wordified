@@ -460,6 +460,8 @@ private
 MessageImpl
 (
 )
+=
+delete
 ;
 /
 /

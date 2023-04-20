@@ -453,8 +453,8 @@ icu
 :
 UInitOnce
 gGenderInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 enum
 GenderStyle
@@ -504,7 +504,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -1221,12 +1221,12 @@ genders
 UBool
 has_female
 =
-FALSE
+false
 ;
 UBool
 has_male
 =
-FALSE
+false
 ;
 switch
 (
@@ -1288,7 +1288,7 @@ UGENDER_OTHER
 }
 has_female
 =
-TRUE
+true
 ;
 break
 ;
@@ -1306,7 +1306,7 @@ UGENDER_OTHER
 }
 has_male
 =
-TRUE
+true
 ;
 break
 ;

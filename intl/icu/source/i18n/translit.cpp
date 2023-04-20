@@ -974,7 +974,7 @@ Transliterator
 *
 *
 Return
-TRUE
+true
 if
 the
 given
@@ -1091,7 +1091,7 @@ returns
 <
 tt
 >
-FALSE
+false
 <
 /
 tt
@@ -1623,8 +1623,8 @@ filteredTransliterate
 (
 text
 offsets
-FALSE
-TRUE
+false
+true
 )
 ;
 return
@@ -2850,8 +2850,8 @@ filteredTransliterate
 (
 text
 index
-FALSE
-TRUE
+false
+true
 )
 ;
 }
@@ -3097,8 +3097,8 @@ filteredTransliterate
 (
 text
 index
-TRUE
-TRUE
+true
+true
 )
 ;
 #
@@ -3626,7 +3626,7 @@ ch
 )
 =
 =
-TRUE
+true
 )
 .
 /
@@ -4255,7 +4255,7 @@ an
 incremental
 value
 of
-FALSE
+false
 to
 force
 the
@@ -4280,7 +4280,7 @@ limit
 <
 globalLimit
 ?
-FALSE
+false
 :
 incremental
 )
@@ -4959,7 +4959,7 @@ handleTransliterate
 (
 text
 index
-TRUE
+true
 )
 ;
 delta
@@ -5600,7 +5600,7 @@ filteredTransliterate
 text
 index
 incremental
-FALSE
+false
 )
 ;
 }
@@ -8263,7 +8263,7 @@ orphanElementAt
 (
 0
 )
-TRUE
+true
 )
 ;
 }
@@ -8354,7 +8354,7 @@ compoundFilter
 toPattern
 (
 filterPattern
-FALSE
+false
 )
 ;
 t
@@ -8714,7 +8714,7 @@ passNumber
 +
 )
 data
-TRUE
+true
 )
 ;
 /
@@ -9243,7 +9243,7 @@ filter
 UBool
 deleteFilterSet
 =
-FALSE
+false
 ;
 /
 /
@@ -9300,7 +9300,7 @@ result
 }
 deleteFilterSet
 =
-TRUE
+true
 ;
 filter
 -
@@ -9488,7 +9488,7 @@ put
 id
 factory
 context
-TRUE
+true
 ec
 )
 ;
@@ -9753,7 +9753,7 @@ registry
 put
 (
 adoptedPrototype
-TRUE
+true
 ec
 )
 ;
@@ -9831,8 +9831,8 @@ put
 (
 aliasID
 realID
-FALSE
-TRUE
+false
+true
 ec
 )
 ;
@@ -10789,7 +10789,7 @@ registry
 is
 initialized
 return
-TRUE
+true
 .
 If
 not
@@ -10798,7 +10798,7 @@ it
 *
 and
 return
-TRUE
+true
 .
 If
 the
@@ -10808,7 +10808,7 @@ be
 initialized
 return
 *
-FALSE
+false
 (
 rare
 )
@@ -10884,7 +10884,7 @@ registry
 )
 {
 return
-TRUE
+true
 ;
 }
 registry
@@ -10917,7 +10917,7 @@ registry
 0
 ;
 return
-FALSE
+false
 ;
 /
 /
@@ -11280,7 +11280,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -11532,12 +11532,12 @@ put
 id
 UnicodeString
 (
-TRUE
+true
 resString
 len
 )
 dir
-TRUE
+true
 visible
 lstatus
 )
@@ -11585,12 +11585,12 @@ put
 id
 UnicodeString
 (
-TRUE
+true
 resString
 len
 )
-TRUE
-TRUE
+true
+true
 lstatus
 )
 ;
@@ -11862,7 +11862,7 @@ registry
 put
 (
 tempNullTranslit
-TRUE
+true
 status
 )
 ;
@@ -11872,7 +11872,7 @@ registry
 put
 (
 tempLowercaseTranslit
-TRUE
+true
 status
 )
 ;
@@ -11882,7 +11882,7 @@ registry
 put
 (
 tempUppercaseTranslit
-TRUE
+true
 status
 )
 ;
@@ -11892,7 +11892,7 @@ registry
 put
 (
 tempTitlecaseTranslit
-TRUE
+true
 status
 )
 ;
@@ -11902,7 +11902,7 @@ registry
 put
 (
 tempUnicodeTranslit
-TRUE
+true
 status
 )
 ;
@@ -11912,7 +11912,7 @@ registry
 put
 (
 tempNameUnicodeTranslit
-TRUE
+true
 status
 )
 ;
@@ -11926,13 +11926,13 @@ registry
 put
 (
 tempBreakTranslit
-FALSE
+false
 status
 )
 ;
 /
 /
-FALSE
+false
 means
 invisible
 .
@@ -11993,7 +11993,7 @@ UNICODE_STRING_SIMPLE
 Null
 "
 )
-FALSE
+false
 )
 ;
 _registerSpecialInverse
@@ -12010,7 +12010,7 @@ UNICODE_STRING_SIMPLE
 Lower
 "
 )
-TRUE
+true
 )
 ;
 _registerSpecialInverse
@@ -12027,7 +12027,7 @@ UNICODE_STRING_SIMPLE
 Lower
 "
 )
-FALSE
+false
 )
 ;
 ucln_i18n_registerCleanup
@@ -12037,7 +12037,7 @@ utrans_transliterator_cleanup
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_NAMESPACE_END
@@ -12116,7 +12116,7 @@ NULL
 ;
 }
 return
-TRUE
+true
 ;
 }
 #

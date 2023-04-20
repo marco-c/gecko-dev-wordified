@@ -1528,7 +1528,7 @@ if
 condition
 is
 always
-FALSE
+false
 .
 *
 *
@@ -9051,8 +9051,8 @@ a
 subchar
 *
 /
-FALSE
-FALSE
+false
+false
 0
 0
 {

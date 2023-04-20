@@ -389,7 +389,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -426,7 +426,7 @@ s
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -439,7 +439,7 @@ limit
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -457,7 +457,7 @@ appendCapacity
 )
 {
 return
-TRUE
+true
 ;
 }
 UChar

@@ -675,19 +675,19 @@ static
 UBool
 gIncludeCopyright
 =
-FALSE
+false
 ;
 static
 UBool
 gUsePoolBundle
 =
-FALSE
+false
 ;
 static
 UBool
 gIsDefaultFormatVersion
 =
-TRUE
+true
 ;
 static
 int32_t
@@ -1052,7 +1052,7 @@ formatVersion
 {
 gIsDefaultFormatVersion
 =
-FALSE
+false
 ;
 gFormatVersion
 =
@@ -1121,7 +1121,7 @@ URES_NONE
 )
 fWritten
 (
-FALSE
+false
 )
 fRes
 (
@@ -1187,7 +1187,7 @@ type
 )
 fWritten
 (
-FALSE
+false
 )
 fRes
 (
@@ -1905,7 +1905,7 @@ type
 ;
 fWritten
 =
-TRUE
+true
 ;
 return
 ;
@@ -2016,7 +2016,7 @@ type
 ;
 fWritten
 =
-TRUE
+true
 ;
 return
 ;
@@ -2103,7 +2103,7 @@ errorCode
 )
 fString
 (
-TRUE
+true
 value
 len
 )
@@ -2299,7 +2299,7 @@ RES_MAX_OFFSET
 ;
 fWritten
 =
-TRUE
+true
 ;
 }
 IntResource
@@ -2649,7 +2649,7 @@ URES_BINARY
 ;
 fWritten
 =
-TRUE
+true
 ;
 }
 }
@@ -3563,7 +3563,7 @@ fRes16
 }
 fWritten
 =
-TRUE
+true
 ;
 }
 void
@@ -3599,7 +3599,7 @@ URES_ARRAY
 ;
 fWritten
 =
-TRUE
+true
 ;
 return
 ;
@@ -3734,7 +3734,7 @@ URES_TABLE
 ;
 fWritten
 =
-TRUE
+true
 ;
 return
 ;
@@ -4010,7 +4010,7 @@ URES_TABLE
 ;
 fWritten
 =
-TRUE
+true
 ;
 }
 void
@@ -4434,7 +4434,7 @@ URES_INT_VECTOR
 ;
 fWritten
 =
-TRUE
+true
 ;
 }
 else
@@ -4833,7 +4833,7 @@ byteOffset
 {
 assert
 (
-FALSE
+false
 )
 ;
 }
@@ -4936,7 +4936,7 @@ U_SIZEOF_UCHAR
 ;
 fWritten
 =
-TRUE
+true
 ;
 }
 void
@@ -5520,7 +5520,7 @@ paddingSize
 }
 fWritten
 =
-TRUE
+true
 ;
 }
 void
@@ -5547,7 +5547,7 @@ byteOffset
 {
 assert
 (
-FALSE
+false
 )
 ;
 }
@@ -6436,7 +6436,7 @@ dataInfo
 gIncludeCopyright
 =
 =
-TRUE
+true
 )
 ?
 U_COPYRIGHT_STRING
@@ -7715,7 +7715,7 @@ fMaxTableLength
 )
 fNoFallback
 (
-FALSE
+false
 )
 fStringsForm
 (
@@ -9539,7 +9539,7 @@ KeyMapEntry
 )
 compareKeySuffixes
 this
-FALSE
+false
 &
 errorCode
 )
@@ -10013,7 +10013,7 @@ KeyMapEntry
 )
 compareKeyNewpos
 NULL
-FALSE
+false
 &
 errorCode
 )
@@ -10236,7 +10236,7 @@ KeyMapEntry
 )
 compareKeyOldpos
 NULL
-FALSE
+false
 &
 errorCode
 )
@@ -10708,7 +10708,7 @@ length
 ;
 fWritten
 =
-TRUE
+true
 ;
 switch
 (
@@ -11015,7 +11015,7 @@ SResource
 )
 compareStringSuffixes
 NULL
-FALSE
+false
 &
 errorCode
 )
@@ -11395,7 +11395,7 @@ suffixRes
 >
 fWritten
 =
-TRUE
+true
 ;
 }
 res
@@ -11516,7 +11516,7 @@ SResource
 )
 compareStringLengths
 NULL
-FALSE
+false
 &
 errorCode
 )
@@ -11693,7 +11693,7 @@ res
 >
 fWritten
 =
-TRUE
+true
 ;
 }
 }
@@ -12240,7 +12240,7 @@ res
 >
 fWritten
 =
-TRUE
+true
 ;
 }
 }

@@ -384,8 +384,8 @@ icu
 :
 UInitOnce
 gCacheInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 const
@@ -459,12 +459,11 @@ nullptr
 #
 endif
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
 U_NAMESPACE_BEGIN
-U_CAPI
 int32_t
 U_EXPORT2
 ucache_hashKeys
@@ -497,7 +496,6 @@ hashCode
 )
 ;
 }
-U_CAPI
 UBool
 U_EXPORT2
 ucache_compareKeys
@@ -547,7 +545,6 @@ p1
 p2
 ;
 }
-U_CAPI
 void
 U_EXPORT2
 ucache_deleteKey
@@ -1114,7 +1111,7 @@ while
 (
 _flush
 (
-FALSE
+false
 )
 )
 ;
@@ -1580,7 +1577,7 @@ gCacheMutex
 endif
 _flush
 (
-TRUE
+true
 )
 ;
 }
@@ -1663,7 +1660,7 @@ const
 UBool
 result
 =
-FALSE
+false
 ;
 int32_t
 origSize
@@ -1772,7 +1769,7 @@ zero
 .
 result
 =
-TRUE
+true
 ;
 }
 }
@@ -2444,7 +2441,7 @@ status
 )
 ;
 return
-TRUE
+true
 ;
 }
 /
@@ -2491,7 +2488,7 @@ status
 )
 ;
 return
-FALSE
+false
 ;
 }
 void
@@ -3121,7 +3118,7 @@ fCreationStatus
 )
 {
 return
-FALSE
+false
 ;
 }
 /

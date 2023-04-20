@@ -769,7 +769,7 @@ pos
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -855,7 +855,7 @@ pos
 ;
 }
 return
-TRUE
+true
 ;
 }
 U_NAMESPACE_END

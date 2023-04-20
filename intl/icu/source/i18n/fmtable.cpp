@@ -767,7 +767,7 @@ alan
 /
 /
 Return
-TRUE
+true
 if
 *
 a
@@ -878,7 +878,7 @@ clone
 /
 /
 Return
-TRUE
+true
 if
 *
 a
@@ -2976,12 +2976,12 @@ case
 kInt64
 :
 return
-TRUE
+true
 ;
 default
 :
 return
-FALSE
+false
 ;
 }
 }

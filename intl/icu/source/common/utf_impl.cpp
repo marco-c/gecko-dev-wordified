@@ -568,11 +568,7 @@ MSB
 )
 *
 /
-extern
-"
-C
-"
-U_EXPORT
+U_CAPI
 const
 uint8_t
 utf8_countTrailBytes
@@ -1126,7 +1122,7 @@ UTF8_NEXT_CHAR_SAFE
 .
 .
 .
-FALSE
+false
 )
 :
 *
@@ -1175,7 +1171,7 @@ UTF8_NEXT_CHAR_SAFE
 .
 .
 .
-TRUE
+true
 )
 :
 *
@@ -2201,7 +2197,7 @@ NULL
 *
 pIsError
 =
-TRUE
+true
 ;
 }
 else

@@ -384,7 +384,7 @@ IcuTestErrorCode
 /
 /
 Returns
-TRUE
+true
 if
 isFailure
 (

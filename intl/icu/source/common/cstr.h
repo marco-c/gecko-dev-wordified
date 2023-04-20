@@ -492,6 +492,8 @@ CStr
 &
 other
 )
+=
+delete
 ;
 /
 /
@@ -511,6 +513,8 @@ CStr
 &
 other
 )
+=
+delete
 ;
 /
 /

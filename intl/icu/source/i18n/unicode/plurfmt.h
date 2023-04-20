@@ -4815,6 +4815,8 @@ pluralRulesWrapper
 PluralFormat
 (
 )
+=
+delete
 ;
 /
 /

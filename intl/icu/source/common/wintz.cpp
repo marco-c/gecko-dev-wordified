@@ -2793,7 +2793,7 @@ appendInvariantChars
 (
 UnicodeString
 (
-TRUE
+true
 windowsTimeZoneName
 -
 1

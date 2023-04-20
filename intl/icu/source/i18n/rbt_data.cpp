@@ -365,7 +365,7 @@ variables
 )
 variablesAreOwned
 (
-TRUE
+true
 )
 {
 if
@@ -418,7 +418,7 @@ ruleSet
 )
 variablesAreOwned
 (
-TRUE
+true
 )
 variablesBase
 (

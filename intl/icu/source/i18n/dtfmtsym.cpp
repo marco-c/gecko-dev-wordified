@@ -2244,7 +2244,7 @@ getDefault
 )
 NULL
 status
-TRUE
+true
 )
 ;
 }
@@ -2306,7 +2306,7 @@ getDefault
 )
 type
 status
-TRUE
+true
 )
 ;
 }
@@ -2631,7 +2631,7 @@ col
 UBool
 failed
 =
-FALSE
+false
 ;
 fZoneStrings
 =
@@ -2697,7 +2697,7 @@ NULL
 {
 failed
 =
-TRUE
+true
 ;
 break
 ;
@@ -3835,7 +3835,7 @@ array1
 array2
 )
 return
-TRUE
+true
 ;
 while
 (
@@ -3862,11 +3862,11 @@ count
 ]
 )
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 bool
@@ -7753,7 +7753,7 @@ i
 }
 while
 (
-FALSE
+false
 )
 ;
 if
@@ -8416,7 +8416,7 @@ UDAT_FIELD_COUNT
 )
 {
 return
-FALSE
+false
 ;
 }
 uint64_t
@@ -9097,17 +9097,17 @@ status
 :
 arrays
 (
-FALSE
+false
 status
 )
 arraySizes
 (
-FALSE
+false
 status
 )
 maps
 (
-FALSE
+false
 status
 )
 mapRefs
@@ -10464,7 +10464,7 @@ mapRefs
 .
 create
 (
-FALSE
+false
 errorCode
 )
 ;
@@ -10556,7 +10556,7 @@ valueUString
 new
 UnicodeString
 (
-TRUE
+true
 valueString
 valueStringSize
 )
@@ -10675,7 +10675,7 @@ kCyclicNameSetsTagUChar
 UBool
 skip
 =
-TRUE
+true
 ;
 int32_t
 startIndex
@@ -10871,7 +10871,7 @@ kAbbrTagUChar
 {
 skip
 =
-FALSE
+false
 ;
 }
 }
@@ -11812,7 +11812,7 @@ i
 >
 setTo
 (
-TRUE
+true
 data
 +
 (
@@ -12184,7 +12184,7 @@ NULL
 UnicodeString
 leapLabel
 (
-FALSE
+false
 kLeapTagUChar
 UPRV_LENGTHOF
 (
@@ -13563,7 +13563,7 @@ calendarType
 .
 setTo
 (
-FALSE
+false
 kGregorianTagUChar
 UPRV_LENGTHOF
 (
@@ -13679,7 +13679,7 @@ calendarType
 .
 setTo
 (
-FALSE
+false
 kGregorianTagUChar
 UPRV_LENGTHOF
 (
@@ -15485,7 +15485,7 @@ fLocalPatternChars
 .
 setTo
 (
-TRUE
+true
 resStr
 len
 )
@@ -15534,7 +15534,7 @@ append
 (
 UnicodeString
 (
-TRUE
+true
 &
 gPatternChars
 [
@@ -15553,7 +15553,7 @@ fLocalPatternChars
 .
 setTo
 (
-TRUE
+true
 gPatternChars
 PATTERN_CHARS_LEN
 )
@@ -16555,7 +16555,7 @@ fLocalPatternChars
 .
 setTo
 (
-TRUE
+true
 gPatternChars
 PATTERN_CHARS_LEN
 )

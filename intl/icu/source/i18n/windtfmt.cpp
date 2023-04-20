@@ -818,7 +818,7 @@ result
 new
 UnicodeString
 (
-TRUE
+true
 resStr
 resStrLen
 )
@@ -956,7 +956,7 @@ UPRV_LENGTHOF
 (
 asciiBCP47Tag
 )
-FALSE
+false
 &
 status
 )
@@ -2672,7 +2672,7 @@ length
 UBool
 found
 =
-FALSE
+false
 ;
 int32_t
 ec

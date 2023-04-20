@@ -7348,6 +7348,8 @@ formatAliasesCapacity
 MessageFormat
 (
 )
+=
+delete
 ;
 /
 /
@@ -8144,14 +8146,6 @@ cacheExplicitFormats
 UErrorCode
 &
 status
-)
-;
-int32_t
-skipLeadingSpaces
-(
-UnicodeString
-&
-style
 )
 ;
 Format

@@ -2100,7 +2100,7 @@ NULL
 ;
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -2226,7 +2226,7 @@ NULL
 ;
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -2986,7 +2986,7 @@ anchorStart
 =
 anchorEnd
 =
-FALSE
+false
 ;
 nextSegmentNumber
 =
@@ -3083,12 +3083,12 @@ limit
 text
 UnicodeString
 (
-TRUE
+true
 ILLEGAL_TOP
 -
 1
 )
-FALSE
+false
 status
 )
 ;
@@ -3378,7 +3378,7 @@ scratch
 UBool
 done
 =
-FALSE
+false
 ;
 int32_t
 quoteStart
@@ -4236,7 +4236,7 @@ anchorStart
 {
 anchorStart
 =
-TRUE
+true
 ;
 }
 else
@@ -4340,12 +4340,12 @@ limit
 buf
 UnicodeString
 (
-TRUE
+true
 ILLEGAL_SEG
 -
 1
 )
-TRUE
+true
 status
 )
 ;
@@ -4613,12 +4613,12 @@ limit
 buf
 UnicodeString
 (
-TRUE
+true
 ILLEGAL_FUNC
 -
 1
 )
-TRUE
+true
 status
 )
 ;
@@ -4826,7 +4826,7 @@ perl
 .
 anchorEnd
 =
-TRUE
+true
 ;
 break
 ;
@@ -5018,7 +5018,7 @@ error
 .
 anchorEnd
 =
-TRUE
+true
 ;
 break
 ;
@@ -5615,7 +5615,7 @@ segment
 .
 done
 =
-TRUE
+true
 ;
 break
 ;
@@ -6342,7 +6342,7 @@ anchorStart
 =
 anchorEnd
 =
-FALSE
+false
 ;
 }
 /
@@ -6436,12 +6436,12 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -6535,12 +6535,12 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -7165,7 +7165,7 @@ offset
 UBool
 parsingIDs
 =
-TRUE
+true
 ;
 int32_t
 ruleCount
@@ -7753,7 +7753,7 @@ NULL
 }
 parsingIDs
 =
-TRUE
+true
 ;
 }
 TransliteratorIDParser
@@ -8095,7 +8095,7 @@ remove
 ;
 parsingIDs
 =
-FALSE
+false
 ;
 curData
 =
@@ -8989,7 +8989,7 @@ If
 it
 is
 return
-FALSE
+false
 .
 This
 is
@@ -9373,7 +9373,7 @@ pos
 limit
 UnicodeString
 (
-TRUE
+true
 PRAGMA_USE
 4
 )
@@ -9567,7 +9567,7 @@ pos
 limit
 UnicodeString
 (
-TRUE
+true
 PRAGMA_VARIABLE_RANGE
 -
 1
@@ -9612,7 +9612,7 @@ pos
 limit
 UnicodeString
 (
-TRUE
+true
 PRAGMA_MAXIMUM_BACKUP
 -
 1
@@ -9652,7 +9652,7 @@ pos
 limit
 UnicodeString
 (
-TRUE
+true
 PRAGMA_NFD_RULES
 -
 1
@@ -9689,7 +9689,7 @@ pos
 limit
 UnicodeString
 (
-TRUE
+true
 PRAGMA_NFC_RULES
 -
 1
@@ -12239,7 +12239,7 @@ UnicodeSet
 (
 UnicodeString
 (
-TRUE
+true
 DOT_SET
 -
 1
@@ -12594,7 +12594,7 @@ c
 UBool
 quoted
 =
-FALSE
+false
 ;
 int32_t
 index
@@ -13044,7 +13044,7 @@ uXXXX
 /
 quoted
 =
-FALSE
+false
 ;
 while
 (

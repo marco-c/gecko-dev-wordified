@@ -1331,7 +1331,7 @@ newTrie
 >
 isCompacted
 =
-FALSE
+false
 ;
 /
 *
@@ -2500,7 +2500,7 @@ trie
 >
 isMemoryOwned
 =
-TRUE
+true
 ;
 uprv_memcpy
 (
@@ -2830,7 +2830,7 @@ trie
 start
 end
 value
-TRUE
+true
 &
 nt
 -
@@ -2852,7 +2852,7 @@ errorCode
 else
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -3343,7 +3343,7 @@ context
 .
 exclusiveLimit
 =
-FALSE
+false
 ;
 context
 .
@@ -3573,7 +3573,7 @@ context
 .
 exclusiveLimit
 =
-TRUE
+true
 ;
 context
 .
@@ -4721,7 +4721,7 @@ newBlock
 *
 *
 return
-TRUE
+true
 if
 the
 value
@@ -4884,7 +4884,7 @@ trie
 >
 newTrie
 c
-TRUE
+true
 value
 pErrorCode
 )
@@ -4943,7 +4943,7 @@ trie
 >
 newTrie
 c
-FALSE
+false
 value
 pErrorCode
 )
@@ -4994,7 +4994,7 @@ ignored
 if
 overwrite
 =
-TRUE
+true
 *
 internal
 *
@@ -5312,7 +5312,7 @@ getDataBlock
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -5487,7 +5487,7 @@ i2
 UBool
 setRepeatBlock
 =
-FALSE
+false
 ;
 if
 (
@@ -5504,7 +5504,7 @@ isInNullBlock
 (
 newTrie
 start
-TRUE
+true
 )
 )
 {
@@ -5536,7 +5536,7 @@ getIndex2Block
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -5641,7 +5641,7 @@ repeatBlock
 /
 setRepeatBlock
 =
-TRUE
+true
 ;
 }
 else
@@ -5876,7 +5876,7 @@ above
 /
 setRepeatBlock
 =
-TRUE
+true
 ;
 }
 if
@@ -5919,7 +5919,7 @@ getDataBlock
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -5985,7 +5985,7 @@ getDataBlock
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -6823,7 +6823,7 @@ if
 overlap
 =
 =
-TRUE
+true
 )
 *
 -
@@ -8638,7 +8638,7 @@ trie
 -
 >
 initialValue
-TRUE
+true
 pErrorCode
 )
 ;
@@ -8823,7 +8823,7 @@ newTrie
 >
 isCompacted
 =
-TRUE
+true
 ;
 }
 /
@@ -9437,7 +9437,7 @@ trie
 >
 isMemoryOwned
 =
-TRUE
+true
 ;
 trie
 -

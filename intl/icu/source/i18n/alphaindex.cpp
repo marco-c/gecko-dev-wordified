@@ -2135,7 +2135,7 @@ itemLength
 {
 checkDistinct
 =
-FALSE
+false
 ;
 }
 else
@@ -2244,14 +2244,14 @@ return
 }
 checkDistinct
 =
-FALSE
+false
 ;
 }
 else
 {
 checkDistinct
 =
-TRUE
+true
 ;
 }
 if
@@ -2779,13 +2779,13 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 UBool
 seenPrimary
 =
-FALSE
+false
 ;
 for
 (
@@ -2848,17 +2848,17 @@ seenPrimary
 )
 {
 return
-TRUE
+true
 ;
 }
 seenPrimary
 =
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 }
@@ -2967,7 +2967,7 @@ variableTop
 UBool
 hasInvisibleBuckets
 =
-FALSE
+false
 ;
 /
 /
@@ -3053,7 +3053,7 @@ NULL
 UBool
 hasPinyin
 =
-FALSE
+false
 ;
 LocalPointer
 <
@@ -3254,7 +3254,7 @@ scriptUpperBoundary
 UBool
 skippedScript
 =
-FALSE
+false
 ;
 for
 (
@@ -3294,7 +3294,7 @@ break
 }
 skippedScript
 =
-TRUE
+true
 ;
 }
 if
@@ -3567,7 +3567,7 @@ lastElement
 ;
 hasPinyin
 =
-TRUE
+true
 ;
 }
 /
@@ -3873,7 +3873,7 @@ nullptr
 }
 hasInvisibleBuckets
 =
-TRUE
+true
 ;
 break
 ;
@@ -4092,7 +4092,7 @@ asciiBucket
 ;
 hasInvisibleBuckets
 =
-TRUE
+true
 ;
 }
 }
@@ -5529,7 +5529,7 @@ isEmpty
 )
 {
 return
-FALSE
+false
 ;
 }
 initialLabels_
@@ -5646,7 +5646,7 @@ break
 }
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -7193,7 +7193,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -7696,7 +7696,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -7718,7 +7718,7 @@ status
 U_ENUM_OUT_OF_SYNC_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 initBuckets
@@ -7735,7 +7735,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 +
@@ -7765,7 +7765,7 @@ getBucketCount
 )
 ;
 return
-FALSE
+false
 ;
 }
 currentBucket_
@@ -7785,7 +7785,7 @@ resetRecordIterator
 )
 ;
 return
-TRUE
+true
 ;
 }
 const
@@ -7951,7 +7951,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -7994,7 +7994,7 @@ status
 U_INVALID_STATE_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -8010,7 +8010,7 @@ status
 U_ENUM_OUT_OF_SYNC_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -8025,7 +8025,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 +
@@ -8061,11 +8061,11 @@ size
 )
 ;
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 const

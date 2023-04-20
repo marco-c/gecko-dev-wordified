@@ -1122,6 +1122,8 @@ RBBISetBuilder
 &
 other
 )
+=
+delete
 ;
 /
 /
@@ -1140,6 +1142,8 @@ RBBISetBuilder
 &
 other
 )
+=
+delete
 ;
 /
 /

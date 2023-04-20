@@ -162,7 +162,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 char
@@ -334,7 +334,7 @@ errorCode
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 sink
@@ -370,7 +370,7 @@ s8Length
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -413,7 +413,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -432,7 +432,7 @@ errorCode
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 return
@@ -761,7 +761,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -780,7 +780,7 @@ errorCode
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -813,7 +813,7 @@ edits
 ;
 }
 return
-TRUE
+true
 ;
 }
 CharStringByteSink

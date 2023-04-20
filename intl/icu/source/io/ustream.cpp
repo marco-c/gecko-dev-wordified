@@ -536,7 +536,7 @@ sLimit
 us
 uLimit
 0
-FALSE
+false
 &
 errorCode
 )
@@ -734,12 +734,12 @@ ch32
 UBool
 initialWhitespace
 =
-TRUE
+true
 ;
 UBool
 continueReading
 =
-TRUE
+true
 ;
 /
 *
@@ -818,7 +818,7 @@ eofbit
 }
 continueReading
 =
-FALSE
+false
 ;
 }
 sLimit
@@ -1085,7 +1085,7 @@ initialWhitespace
 When
 initialWhitespace
 is
-TRUE
+true
 we
 haven
 '
@@ -1130,7 +1130,7 @@ truncate
 ;
 initialWhitespace
 =
-FALSE
+false
 ;
 }
 str

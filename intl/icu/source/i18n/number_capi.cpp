@@ -1065,7 +1065,7 @@ ec
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1082,7 +1082,7 @@ ec
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 FieldPosition
@@ -1172,9 +1172,9 @@ UBool
 return
 retval
 ?
-TRUE
+true
 :
-FALSE
+false
 ;
 }
 U_CAPI

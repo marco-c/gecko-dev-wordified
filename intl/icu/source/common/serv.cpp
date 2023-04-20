@@ -471,7 +471,7 @@ fallback
 )
 {
 return
-FALSE
+false
 ;
 }
 UBool
@@ -1494,7 +1494,7 @@ this
 *
 *
 Return
-TRUE
+true
 if
 there
 is
@@ -2627,7 +2627,7 @@ cacheDescriptorList
 UBool
 putInCache
 =
-FALSE
+false
 ;
 int32_t
 startIndex
@@ -2647,7 +2647,7 @@ size
 UBool
 cacheResult
 =
-TRUE
+true
 ;
 if
 (
@@ -2743,7 +2743,7 @@ NULL
 }
 cacheResult
 =
-FALSE
+false
 ;
 }
 do
@@ -2828,7 +2828,7 @@ all
 .
 putInCache
 =
-TRUE
+true
 ;
 int32_t
 index
@@ -4644,7 +4644,7 @@ registerInstance
 (
 objToAdopt
 id
-TRUE
+true
 status
 )
 ;
@@ -4988,7 +4988,7 @@ rkey
 UBool
 result
 =
-FALSE
+false
 ;
 if
 (
@@ -5028,7 +5028,7 @@ clearCaches
 ;
 result
 =
-TRUE
+true
 ;
 }
 else

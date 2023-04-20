@@ -3796,7 +3796,7 @@ if
 infinity_symbol_
 !
 =
-NULL
+DOUBLE_CONVERSION_NULLPTR
 )
 {
 if
@@ -3906,7 +3906,7 @@ if
 nan_symbol_
 !
 =
-NULL
+DOUBLE_CONVERSION_NULLPTR
 )
 {
 if

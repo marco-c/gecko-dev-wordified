@@ -3127,6 +3127,8 @@ MessageFormat
 SelectFormat
 (
 )
+=
+delete
 ;
 /
 /

@@ -1044,12 +1044,12 @@ nullptr
 UBool
 hasName
 =
-TRUE
+true
 ;
 UBool
 hasEnd
 =
-TRUE
+true
 ;
 int32_t
 len
@@ -1256,7 +1256,7 @@ VAL_FALSE_LEN
 {
 hasName
 =
-FALSE
+false
 ;
 }
 }
@@ -1277,7 +1277,7 @@ end
 {
 hasEnd
 =
-TRUE
+true
 ;
 }
 }
@@ -1921,7 +1921,7 @@ zone
 getOffset
 (
 localMillis
-FALSE
+false
 rawOffset
 dstOffset
 ec

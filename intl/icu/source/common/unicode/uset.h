@@ -6546,9 +6546,6 @@ USet
 set
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -6574,7 +6571,7 @@ empty
 string
 .
 *
-draft
+stable
 ICU
 70
 *
@@ -6590,11 +6587,6 @@ USet
 set
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -7194,9 +7186,6 @@ USet
 set
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -7216,7 +7205,7 @@ this
 set
 .
 *
-draft
+stable
 ICU
 70
 *
@@ -7241,11 +7230,6 @@ USet
 set
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

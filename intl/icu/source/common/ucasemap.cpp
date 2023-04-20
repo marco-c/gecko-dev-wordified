@@ -1202,7 +1202,7 @@ edits
 }
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -3767,7 +3767,7 @@ prev
 UBool
 isFirstIndex
 =
-TRUE
+true
 ;
 /
 *
@@ -3802,7 +3802,7 @@ isFirstIndex
 {
 isFirstIndex
 =
-FALSE
+false
 ;
 index
 =
@@ -4491,7 +4491,7 @@ UCASE_NONE
 )
 {
 return
-TRUE
+true
 ;
 /
 /
@@ -4504,7 +4504,7 @@ letter
 else
 {
 return
-FALSE
+false
 ;
 /
 /
@@ -4518,7 +4518,7 @@ ignorable
 }
 }
 return
-FALSE
+false
 ;
 /
 /
@@ -4966,7 +4966,7 @@ rules
 UBool
 addTonos
 =
-FALSE
+false
 ;
 if
 (
@@ -5066,7 +5066,7 @@ else
 {
 addTonos
 =
-TRUE
+true
 ;
 }
 }
@@ -5160,7 +5160,7 @@ U_OMIT_UNCHANGED_TEXT
 {
 change
 =
-TRUE
+true
 ;
 /
 /

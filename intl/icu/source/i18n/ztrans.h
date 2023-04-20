@@ -259,9 +259,6 @@ uobject
 .
 h
 "
-#
-ifndef
-UCNV_H
 /
 *
 *
@@ -297,8 +294,6 @@ struct
 ZTrans
 ZTrans
 ;
-#
-endif
 /
 *
 *

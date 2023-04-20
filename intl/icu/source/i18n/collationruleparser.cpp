@@ -945,7 +945,7 @@ errorCode
 UBool
 isFirstRelation
 =
-TRUE
+true
 ;
 for
 (
@@ -1197,7 +1197,7 @@ return
 }
 isFirstRelation
 =
-FALSE
+false
 ;
 }
 }

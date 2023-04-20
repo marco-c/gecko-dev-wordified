@@ -986,6 +986,8 @@ const
 FullCaseFoldingIterator
 &
 )
+=
+delete
 ;
 /
 /
@@ -1000,6 +1002,8 @@ const
 FullCaseFoldingIterator
 &
 )
+=
+delete
 ;
 /
 /

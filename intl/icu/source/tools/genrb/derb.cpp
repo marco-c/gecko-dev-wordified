@@ -406,7 +406,7 @@ static
 UBool
 opt_truncate
 =
-FALSE
+false
 ;
 static
 const
@@ -644,13 +644,13 @@ static
 UBool
 verbose
 =
-FALSE
+false
 ;
 static
 UBool
 suppressAliases
 =
-FALSE
+false
 ;
 static
 UFILE
@@ -1186,7 +1186,7 @@ doesOccur
 {
 opt_truncate
 =
-TRUE
+true
 ;
 if
 (
@@ -1245,7 +1245,7 @@ else
 {
 opt_truncate
 =
-FALSE
+false
 ;
 }
 if
@@ -1260,7 +1260,7 @@ doesOccur
 {
 verbose
 =
-TRUE
+true
 ;
 }
 if
@@ -1361,7 +1361,7 @@ doesOccur
 {
 suppressAliases
 =
-TRUE
+true
 ;
 }
 fflush
@@ -4223,7 +4223,7 @@ if
 suppressAliases
 =
 =
-FALSE
+false
 )
 {
 while
