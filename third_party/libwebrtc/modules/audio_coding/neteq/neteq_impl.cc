@@ -10230,6 +10230,15 @@ kDecodedTooMuch
 ;
 }
 }
+stats_
+-
+>
+GeneratedNoiseSamples
+(
+*
+decoded_length
+)
+;
 return
 0
 ;
