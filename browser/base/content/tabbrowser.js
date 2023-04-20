@@ -3453,8 +3453,6 @@ this
 .
 selectedBrowser
 .
-parentNode
-.
 insertAdjacentElement
 (
 "
