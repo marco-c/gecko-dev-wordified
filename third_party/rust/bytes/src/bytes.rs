@@ -1127,7 +1127,7 @@ new
 )
 -
 >
-Bytes
+Self
 {
 /
 /
@@ -1189,7 +1189,7 @@ new
 )
 -
 >
-Bytes
+Self
 {
 const
 EMPTY
@@ -1348,7 +1348,7 @@ u8
 )
 -
 >
-Bytes
+Self
 {
 Bytes
 {
@@ -1412,7 +1412,7 @@ u8
 )
 -
 >
-Bytes
+Self
 {
 Bytes
 {
@@ -1876,7 +1876,7 @@ usize
 )
 -
 >
-Bytes
+Self
 {
 use
 core
@@ -2377,7 +2377,7 @@ u8
 )
 -
 >
-Bytes
+Self
 {
 /
 /
@@ -2805,7 +2805,7 @@ usize
 )
 -
 >
-Bytes
+Self
 {
 assert
 !
@@ -3141,7 +3141,7 @@ usize
 )
 -
 >
-Bytes
+Self
 {
 assert
 !
