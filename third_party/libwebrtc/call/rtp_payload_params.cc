@@ -1183,6 +1183,7 @@ frame_type
 image
 .
 _frameType
+;
 rtp_video_header
 .
 rotation
