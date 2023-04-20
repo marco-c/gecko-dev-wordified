@@ -103,11 +103,11 @@ remote
 /
 content
 /
-remote
+marionette
 /
-AppInfo
+appinfo
 .
-jsm
+js
 "
 )
 ;

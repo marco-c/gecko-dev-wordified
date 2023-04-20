@@ -145,15 +145,8 @@ that
 are
 *
 used
-by
-different
-protocols
-as
-handled
-by
-the
-Remote
-Agent
+across
+Marionette
 .
 *
 *
@@ -161,7 +154,7 @@ typedef
 {
 object
 }
-RemoteAgent
+Marionette
 .
 AppInfo
 *
