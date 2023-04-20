@@ -708,9 +708,7 @@ path
 created
 by
 prepending
-|
 dir
-|
 to
 the
 file

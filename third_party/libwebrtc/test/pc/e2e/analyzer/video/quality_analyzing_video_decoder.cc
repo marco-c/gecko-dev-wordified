@@ -717,9 +717,7 @@ We
 can
 safely
 dereference
-|
 origin_image
-|
 because
 it
 can
@@ -732,9 +730,7 @@ the
 map
 only
 after
-|
 delegate_
-|
 Decode
 method
 will
@@ -1099,9 +1095,7 @@ exactly
 is
 implemented
 in
-|
 delegate_callback_
-|
 so
 we
 need
@@ -1113,16 +1107,12 @@ same
 /
 method
 on
-|
 delegate_callback_
-|
 as
 was
 called
 on
-|
 this
-|
 callback
 .
 int32_t

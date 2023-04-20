@@ -321,9 +321,7 @@ factory
 .
 /
 /
-|
 signaling_thread
-|
 will
 be
 used
@@ -343,9 +341,7 @@ factory
 .
 /
 /
-|
 time_controller
-|
 will
 be
 used
@@ -364,9 +360,7 @@ factory
 .
 /
 /
-|
 video_analyzer_helper
-|
 will
 be
 used
@@ -383,9 +377,7 @@ peers
 .
 /
 /
-|
 task_queue
-|
 will
 be
 used

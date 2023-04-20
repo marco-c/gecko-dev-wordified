@@ -777,9 +777,7 @@ CurrentTime
 /
 /
 Clearing
-|
 ready_runners_
-|
 in
 case
 this
@@ -951,9 +949,7 @@ Unregister
 which
 will
 grab
-|
 lock_
-|
 again
 to
 remove
@@ -961,9 +957,7 @@ items
 from
 /
 /
-|
 ready_runners_
-|
 .
 runner
 -
@@ -1561,9 +1555,7 @@ been
 simulated
 up
 until
-|
 target_time
-|
 we
 also
 need
@@ -1577,9 +1569,7 @@ to
 be
 executed
 at
-|
 target_time
-|
 .
 impl_
 .

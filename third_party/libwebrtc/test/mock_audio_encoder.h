@@ -430,9 +430,7 @@ functor
 that
 will
 return
-|
 info
-|
 and
 adjust
 the
@@ -550,9 +548,7 @@ functor
 that
 will
 return
-|
 info
-|
 and
 append
 the

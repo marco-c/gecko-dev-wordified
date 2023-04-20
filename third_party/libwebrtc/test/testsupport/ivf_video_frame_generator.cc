@@ -509,9 +509,7 @@ from
 async
 access
 to
-|
 this
-|
 .
 video_decoder_
 .

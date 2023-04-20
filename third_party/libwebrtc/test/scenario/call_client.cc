@@ -1659,9 +1659,7 @@ on
 the
 thread
 that
-|
 call_
-|
 was
 constructed
 on

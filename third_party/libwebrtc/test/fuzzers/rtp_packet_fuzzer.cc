@@ -193,9 +193,7 @@ from
 the
 beginning
 of
-|
 data
-|
 and
 interpreting
 it

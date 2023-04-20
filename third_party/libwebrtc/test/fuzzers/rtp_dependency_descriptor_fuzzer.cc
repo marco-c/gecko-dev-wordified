@@ -384,9 +384,7 @@ descriptor1
 /
 /
 Check
-|
 writer
-|
 use
 minimal
 number

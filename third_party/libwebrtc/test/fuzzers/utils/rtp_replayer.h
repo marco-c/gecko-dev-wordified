@@ -279,9 +279,7 @@ packets
 )
 .
 The
-|
 rtp_dump
-|
 is
 /
 /

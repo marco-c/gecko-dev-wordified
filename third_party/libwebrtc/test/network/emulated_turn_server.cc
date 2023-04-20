@@ -598,9 +598,7 @@ a
 socket
 on
 the
-|
 peer_
-|
 endpoint
 .
 rtc

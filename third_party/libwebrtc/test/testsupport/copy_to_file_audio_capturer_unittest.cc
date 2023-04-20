@@ -327,9 +327,7 @@ resulted
 file
 content
 with
-|
 wav_file_capture
-|
 and
 compare
 with

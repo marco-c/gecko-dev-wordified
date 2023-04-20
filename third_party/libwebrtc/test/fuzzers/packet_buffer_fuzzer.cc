@@ -332,9 +332,7 @@ POD
 members
 of
 the
-|
 packet
-|
 .
 IgnoreResult
 (

@@ -675,9 +675,7 @@ the
 map
 key
 as
-|
 index
-|
 in
 /
 /
@@ -970,9 +968,7 @@ handlers_
 /
 /
 The
-|
 munge_offer
-|
 function
 can
 be

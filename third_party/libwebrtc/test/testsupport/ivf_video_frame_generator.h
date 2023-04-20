@@ -516,9 +516,7 @@ can
 '
 t
 reuse
-|
 lock_
-|
 because
 then
 generator

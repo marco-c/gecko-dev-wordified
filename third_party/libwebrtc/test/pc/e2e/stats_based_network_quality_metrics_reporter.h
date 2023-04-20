@@ -244,9 +244,7 @@ public
 :
 /
 /
-|
 networks
-|
 map
 peer
 name

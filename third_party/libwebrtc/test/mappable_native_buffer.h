@@ -269,9 +269,7 @@ public
 /
 /
 If
-|
 allow_i420_conversion
-|
 is
 false
 calling

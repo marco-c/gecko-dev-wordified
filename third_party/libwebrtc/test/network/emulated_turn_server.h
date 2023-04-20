@@ -282,9 +282,7 @@ EmulatedTURNServer
 .
 /
 /
-|
 thread
-|
 is
 a
 thread

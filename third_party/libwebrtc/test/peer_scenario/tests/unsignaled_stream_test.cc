@@ -1808,9 +1808,7 @@ modify
 it
 here
 then
-|
 second_ssrc
-|
 would
 end
 up

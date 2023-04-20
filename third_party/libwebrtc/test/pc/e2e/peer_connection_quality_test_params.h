@@ -806,9 +806,7 @@ name
 /
 /
 If
-|
 video_configs
-|
 is
 empty
 -
@@ -837,9 +835,7 @@ video_configs
 /
 /
 If
-|
 audio_config
-|
 is
 set
 audio
@@ -862,9 +858,7 @@ audio_config
 /
 /
 If
-|
 rtc_event_log_path
-|
 is
 set
 an
@@ -901,9 +895,7 @@ rtc_event_log_path
 /
 /
 If
-|
 aec_dump_path
-|
 is
 set
 an

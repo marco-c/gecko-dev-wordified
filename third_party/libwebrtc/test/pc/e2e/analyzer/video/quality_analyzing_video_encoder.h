@@ -1173,12 +1173,10 @@ contains
 /
 1
 .
-|
 absl
 :
 :
 nullopt
-|
 means
 "
 Foo
@@ -1194,9 +1192,7 @@ stream
 /
 2
 .
-|
 kAnalyzeAnySpatialStream
-|
 means
 all
 simulcast

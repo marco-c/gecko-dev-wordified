@@ -351,9 +351,7 @@ be
 fully
 copied
 so
-|
 source
-|
 image
 buffer
 will

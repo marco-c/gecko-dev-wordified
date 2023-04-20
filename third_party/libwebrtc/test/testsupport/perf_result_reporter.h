@@ -532,9 +532,7 @@ useful
 .
 /
 /
-|
 mean_and_error
-|
 should
 be
 a

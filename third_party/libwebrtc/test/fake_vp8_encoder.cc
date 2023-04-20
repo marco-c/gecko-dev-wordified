@@ -222,9 +222,7 @@ does
 It
 requires
 that
-|
 payload
-|
 has
 a
 size

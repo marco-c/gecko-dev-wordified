@@ -322,9 +322,7 @@ brandtr
 )
 :
 Set
-|
 qpMax
-|
 here
 when
 the

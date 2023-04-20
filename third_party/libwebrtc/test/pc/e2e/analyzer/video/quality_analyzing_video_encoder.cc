@@ -1674,9 +1674,7 @@ should
 point
 to
 current
-|
 encoded_image
-|
 /
 /
 frame

@@ -162,9 +162,7 @@ Will
 be
 different
 from
-|
 length
-|
 when
 /
 /

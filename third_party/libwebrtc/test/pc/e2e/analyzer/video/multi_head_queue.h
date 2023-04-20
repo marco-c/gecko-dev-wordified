@@ -201,9 +201,7 @@ Creates
 queue
 with
 exactly
-|
 readers_count
-|
 readers
 .
 explicit

@@ -252,9 +252,7 @@ of
 deleted
 items
 in
-|
 num_deleted_entries
-|
 .
 void
 CleanDir

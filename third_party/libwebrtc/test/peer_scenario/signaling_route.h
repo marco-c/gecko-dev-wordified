@@ -178,9 +178,7 @@ StartIceSignaling
 /
 /
 The
-|
 modify_offer
-|
 callback
 is
 used
@@ -210,9 +208,7 @@ behavior
 /
 /
 The
-|
 munge_offer
-|
 callback
 is
 used
@@ -256,9 +252,7 @@ cases
 /
 /
 The
-|
 exchange_finished
-|
 callback
 is
 called

@@ -491,15 +491,11 @@ message
 of
 the
 given
-|
 size
-|
 over
 the
 route
-|
 on_received
-|
 is
 /
 /

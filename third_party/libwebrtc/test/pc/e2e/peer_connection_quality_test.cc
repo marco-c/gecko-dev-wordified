@@ -565,9 +565,7 @@ public
 :
 /
 /
-|
 on_track_callback
-|
 will
 be
 called
@@ -586,9 +584,7 @@ connection
 .
 /
 /
-|
 on_connected_callback
-|
 will
 be
 called
@@ -1530,9 +1526,7 @@ GetClock
 /
 Create
 a
-|
 task_queue_
-|
 .
 task_queue_
 =
@@ -2800,9 +2794,7 @@ peers
 because
 dump
 uses
-|
 task_queue_
-|
 /
 /
 inside
@@ -2922,9 +2914,7 @@ StopAndReportResults
 /
 /
 Reset
-|
 task_queue_
-|
 after
 test
 to

@@ -313,9 +313,7 @@ from
 the
 beginning
 of
-|
 data
-|
 interprets
 them
 /
@@ -376,9 +374,7 @@ value
 of
 /
 /
-|
 decode_type
-|
 .
 void
 FuzzAudioDecoder

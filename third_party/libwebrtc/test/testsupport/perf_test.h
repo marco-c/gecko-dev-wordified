@@ -252,13 +252,9 @@ bwe_15s
 /
 /
 The
-|
 measurement
-|
 +
-|
 modifier
-|
 is
 what
 we
@@ -266,9 +262,7 @@ we
 re
 measuring
 .
-|
 user_story
-|
 is
 the
 /
@@ -464,9 +458,7 @@ of
 results
 .
 The
-|
 values
-|
 /
 /
 will
@@ -708,9 +700,7 @@ processing
 .
 /
 /
-|
 desired_graphs
-|
 -
 list
 of
@@ -735,9 +725,7 @@ plotted
 If
 some
 of
-|
 desired_graphs
-|
 are
 missing
 /

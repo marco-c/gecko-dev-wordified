@@ -212,9 +212,7 @@ dummy
 packets
 with
 size
-|
 packet_size
-|
 bytes
 .
 void
@@ -237,9 +235,7 @@ the
 nodes
 and
 runs
-|
 action
-|
 when
 it
 has

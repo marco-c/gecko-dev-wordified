@@ -791,9 +791,7 @@ and
 put
 it
 into
-|
 context_
-|
 .
 void
 SignalingInterceptor
@@ -1767,9 +1765,7 @@ mid
 /
 /
 Clear
-|
 simulcast_content
-|
 because
 now
 it
@@ -3276,9 +3272,7 @@ Clone
 /
 /
 Set
-|
 simulcast_content
-|
 to
 nullptr
 because
@@ -3337,9 +3331,7 @@ rid
 /
 /
 Patch
-|
 media_desc
-|
 to
 make
 it

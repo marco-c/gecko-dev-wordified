@@ -1429,9 +1429,7 @@ buffer
 changes
 only
 every
-|
 kRepeatCount
-|
 frames
 .
 for

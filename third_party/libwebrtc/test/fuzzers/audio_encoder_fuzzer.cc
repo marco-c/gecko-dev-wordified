@@ -140,9 +140,7 @@ function
 reads
 bytes
 from
-|
 data_view
-|
 interprets
 them
 as

@@ -148,13 +148,9 @@ encoded
 image
 with
 specified
-|
 id
-|
 and
-|
 discard
-|
 flag
 injected
 into
@@ -163,9 +159,7 @@ into
 its
 payload
 .
-|
 discard
-|
 flag
 mean
 does
@@ -289,9 +283,7 @@ extractor
 .
 /
 /
-|
 expected_receivers_count
-|
 is
 the
 expected

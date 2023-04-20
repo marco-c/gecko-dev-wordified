@@ -202,15 +202,11 @@ override
 /
 /
 Forwards
-|
 video_frame
-|
 to
 the
 registered
-|
 sink_
-|
 .
 virtual
 void
