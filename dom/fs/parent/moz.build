@@ -167,11 +167,6 @@ FileSystemWritableFileStreamParent
 cpp
 "
 "
-GetDirectoryForOrigin
-.
-cpp
-"
-"
 ResultStatement
 .
 cpp
