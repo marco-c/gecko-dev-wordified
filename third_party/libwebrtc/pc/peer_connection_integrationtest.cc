@@ -2138,6 +2138,12 @@ kEnumCounterKeyProtocolSdes
 )
 ;
 }
+#
+if
+defined
+(
+WEBRTC_FUCHSIA
+)
 /
 /
 Uses
@@ -2307,6 +2313,8 @@ kEnumCounterKeyProtocolDtls
 )
 ;
 }
+#
+endif
 /
 /
 Basic
