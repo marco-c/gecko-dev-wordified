@@ -1973,6 +1973,11 @@ RemoteSettingsExperimentLoader
 .
 init
 (
+{
+forceSync
+:
+true
+}
 )
 ;
 }
