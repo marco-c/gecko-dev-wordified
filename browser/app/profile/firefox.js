@@ -3280,7 +3280,7 @@ shell
 .
 setDefaultPDFHandler
 "
-false
+true
 )
 ;
 /
