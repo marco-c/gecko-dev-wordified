@@ -3893,6 +3893,8 @@ inbound
 rtp
 "
 &
+track_identifier
+&
 remote_id
 &
 packets_received
@@ -4032,6 +4034,12 @@ move
 id
 )
 timestamp_us
+)
+track_identifier
+(
+"
+trackIdentifier
+"
 )
 remote_id
 (
@@ -4283,6 +4291,12 @@ other
 RTCReceivedRtpStreamStats
 (
 other
+)
+track_identifier
+(
+other
+.
+track_identifier
 )
 remote_id
 (
