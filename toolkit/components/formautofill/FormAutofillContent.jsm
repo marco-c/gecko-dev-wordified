@@ -4811,18 +4811,6 @@ activeFieldDetail
 .
 fieldName
 ;
-if
-(
-lazy
-.
-FormAutofillUtils
-.
-isCreditCardField
-(
-fieldName
-)
-)
-{
 lazy
 .
 AutofillTelemetry
@@ -4840,7 +4828,6 @@ fieldName
 }
 )
 ;
-}
 }
 _markAsAutofillField
 (

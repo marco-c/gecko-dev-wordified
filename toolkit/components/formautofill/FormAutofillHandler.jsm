@@ -4329,11 +4329,6 @@ FIELD_STATES
 NORMAL
 )
 ;
-if
-(
-isCreditCardField
-)
-{
 lazy
 .
 AutofillTelemetry
@@ -4353,7 +4348,6 @@ fieldName
 }
 )
 ;
-}
 let
 isAutofilled
 =
