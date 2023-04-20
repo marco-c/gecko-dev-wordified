@@ -634,13 +634,30 @@ check_call
 (
             
 [
+                
 "
 git
 "
+                
 "
 clone
 "
+                
+"
+-
+c
+"
+                
+"
+http
+.
+postBuffer
+=
+2147483648
+"
+                
 benchmark_repository
+                
 str
 (
 dest
@@ -649,6 +666,7 @@ resolve
 (
 )
 )
+            
 ]
         
 )
