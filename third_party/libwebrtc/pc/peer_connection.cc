@@ -195,17 +195,6 @@ include
 "
 api
 /
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
-api
-/
 uma_metrics
 .
 h
@@ -4732,7 +4721,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -4795,7 +4784,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -4858,7 +4847,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -4921,7 +4910,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -4999,7 +4988,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -5070,7 +5059,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -5143,7 +5132,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -5210,7 +5199,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -16471,7 +16460,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -17590,7 +17579,7 @@ network_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 network_thread_safety_
 [
@@ -17654,7 +17643,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -19196,7 +19185,7 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 signaling_thread_safety_
 .
@@ -19314,7 +19303,7 @@ network_thread
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 network_thread_safety_
 [
