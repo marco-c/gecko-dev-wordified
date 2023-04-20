@@ -1302,10 +1302,6 @@ search
 "
 migration_name
 )
-.
-group
-(
-)
     
 #
 Just
@@ -1326,6 +1322,14 @@ pattern
     
 if
 bug
+is
+None
+or
+bug
+.
+group
+(
+)
 not
 in
 messages
