@@ -1788,9 +1788,9 @@ render_delay_ms
 )
 )
 ;
-frame_buffer_
+buffer_
 =
-FrameBufferProxy
+VideoStreamBufferController
 :
 :
 CreateFromFieldTrial
@@ -2293,7 +2293,7 @@ rtp_history_ms
 protected_by_fec
 )
 {
-frame_buffer_
+buffer_
 -
 >
 SetProtectionMode
@@ -2646,7 +2646,7 @@ false
 }
 )
 ;
-frame_buffer_
+buffer_
 -
 >
 StartNextDecode
@@ -2784,7 +2784,7 @@ GetUniqueFramesSeen
 )
 )
 ;
-frame_buffer_
+buffer_
 -
 >
 StopOnWorker
@@ -3548,7 +3548,7 @@ ulpfec_payload_type
 -
 1
 ;
-frame_buffer_
+buffer_
 -
 >
 SetProtectionMode
@@ -3623,7 +3623,7 @@ max_wait_for_frame
 }
 )
 ;
-frame_buffer_
+buffer_
 -
 >
 SetMaxWaits
@@ -5024,7 +5024,7 @@ UpdatePlayoutDelays
 auto
 last_continuous_pid
 =
-frame_buffer_
+buffer_
 -
 >
 InsertFrame
@@ -5119,7 +5119,7 @@ Replace
 with
 TimeDelta
 .
-frame_buffer_
+buffer_
 -
 >
 UpdateRtt
@@ -5372,7 +5372,7 @@ frame
 )
 )
 ;
-frame_buffer_
+buffer_
 -
 >
 StartNextDecode
@@ -5479,7 +5479,7 @@ RTC_DCHECK_RUN_ON
 decode_queue_
 )
 ;
-frame_buffer_
+buffer_
 -
 >
 StartNextDecode
@@ -7071,7 +7071,7 @@ max
 (
 max_composition_delay_in_frames
 -
-frame_buffer_
+buffer_
 -
 >
 Size
