@@ -283,11 +283,9 @@ modules
 /
 video_coding
 /
-codecs
+include
 /
-vp9
-/
-svc_rate_allocator
+video_codec_initializer
 .
 h
 "
@@ -298,9 +296,9 @@ modules
 /
 video_coding
 /
-include
+svc
 /
-video_codec_initializer
+svc_rate_allocator
 .
 h
 "
