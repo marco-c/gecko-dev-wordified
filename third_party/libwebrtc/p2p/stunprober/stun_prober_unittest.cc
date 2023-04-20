@@ -456,7 +456,7 @@ uint16_t
 pings_per_ip
 )
 {
-prober
+prober_
 =
 std
 :
@@ -485,7 +485,7 @@ networks
 )
 )
 ;
-prober
+prober_
 -
 >
 Start
@@ -511,9 +511,6 @@ int
 result
 )
 {
-this
--
->
 StopCallback
 (
 prober
@@ -778,7 +775,7 @@ stats
 ;
 EXPECT_TRUE
 (
-prober
+prober_
 -
 >
 GetStats
@@ -893,7 +890,7 @@ unique_ptr
 <
 StunProber
 >
-prober
+prober_
 ;
 int
 result_
