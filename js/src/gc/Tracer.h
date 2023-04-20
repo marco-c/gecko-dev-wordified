@@ -2886,6 +2886,11 @@ trc
 type
 *
 thing
+\
+const
+char
+*
+name
 )
 {
 \
@@ -2902,6 +2907,7 @@ name
 Edge
 (
 thing
+name
 )
 ;
 \

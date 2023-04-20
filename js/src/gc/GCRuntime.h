@@ -1424,6 +1424,10 @@ onEdge
 T
 *
 thing
+const
+char
+*
+name
 )
 ;
 friend
@@ -1481,6 +1485,10 @@ onEdge
 T
 *
 thingp
+const
+char
+*
+name
 )
 ;
 friend
