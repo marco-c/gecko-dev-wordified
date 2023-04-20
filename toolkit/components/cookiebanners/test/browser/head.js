@@ -1230,6 +1230,7 @@ div
 #
 banner
 "
+false
 null
 "
 button
@@ -1317,6 +1318,7 @@ div
 #
 banner
 "
+false
 null
 null
 "
@@ -1407,6 +1409,7 @@ div
 #
 nonExistingBanner
 "
+false
 null
 null
 "
@@ -1497,6 +1500,7 @@ div
 #
 nonExistingBanner2
 "
+false
 null
 "
 button

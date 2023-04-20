@@ -1509,6 +1509,7 @@ div
 #
 presence
 "
+false
 "
 div
 #
@@ -1727,6 +1728,7 @@ div
 #
 presence
 "
+false
 null
 null
 "
@@ -3703,6 +3705,7 @@ addClickRule
 #
 cookieBannerExample
 "
+false
 "
 #
 btnOptOut
@@ -3829,6 +3832,7 @@ addClickRule
 #
 globalCookieBanner
 "
+false
 "
 #
 btnOptOut
@@ -3910,6 +3914,7 @@ addClickRule
 #
 globalCookieBannerB
 "
+false
 "
 #
 btnOptOutB

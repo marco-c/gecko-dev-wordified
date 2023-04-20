@@ -1711,6 +1711,9 @@ click
 presence
 click
 .
+skipPresenceVisibilityCheck
+click
+.
 hide
 click
 .

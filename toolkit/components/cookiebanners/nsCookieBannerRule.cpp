@@ -539,6 +539,9 @@ nsACString
 &
 aPresence
 const
+bool
+aSkipPresenceVisibilityCheck
+const
 nsACString
 &
 aHide
@@ -560,6 +563,7 @@ nsClickRule
 >
 (
 aPresence
+aSkipPresenceVisibilityCheck
 aHide
 aOptOut
 aOptIn

@@ -1825,6 +1825,7 @@ rule
 let
 {
 presence
+skipPresenceVisibilityCheck
 }
 =
 rule
@@ -1870,6 +1871,15 @@ banner
 {
 return
 false
+;
+}
+if
+(
+skipPresenceVisibilityCheck
+)
+{
+return
+true
 ;
 }
 return
