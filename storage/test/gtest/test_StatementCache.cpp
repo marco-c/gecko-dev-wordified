@@ -511,7 +511,7 @@ StringWrapper
 >
 TwoStringTypes
 ;
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 storage_StatementCache
 TwoStringTypes
@@ -656,7 +656,7 @@ get
 )
 ;
 }
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 storage_StatementCache
 TwoStringTypes
@@ -792,7 +792,7 @@ Close
 )
 ;
 }
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 storage_StatementCache
 TwoStringTypes
@@ -937,7 +937,7 @@ get
 )
 ;
 }
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 storage_StatementCache
 TwoStringTypes
