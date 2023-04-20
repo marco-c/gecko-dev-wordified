@@ -2135,13 +2135,6 @@ nsString
 aLinks
 )
 ;
-async
-Event
-(
-RemoteDOMEvent
-aEvent
-)
-;
 sync
 SyncMessage
 (

@@ -682,11 +682,6 @@ TabContext
 cpp
 "
 "
-TabMessageUtils
-.
-cpp
-"
-"
 URLClassifierParent
 .
 cpp
