@@ -22464,6 +22464,14 @@ total_decode_time_ms
 ;
 info
 .
+total_processing_delay
+=
+stats
+.
+total_processing_delay
+;
+info
+.
 last_packet_received_timestamp_ms
 =
 stats
