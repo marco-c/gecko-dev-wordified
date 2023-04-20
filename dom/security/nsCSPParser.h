@@ -469,6 +469,8 @@ nsCSPContext
 aCSPContext
 bool
 aDeliveredViaMetaTag
+bool
+aSuppressLogMessages
 )
 ;
 private
@@ -486,6 +488,8 @@ nsCSPContext
 aCSPContext
 bool
 aDeliveredViaMetaTag
+bool
+aSuppressLogMessages
 )
 ;
 ~
@@ -1549,6 +1553,9 @@ console
 logging
 bool
 mDeliveredViaMetaTag
+;
+bool
+mSuppressLogMessages
 ;
 }
 ;
