@@ -6226,11 +6226,6 @@ IsCurrent
 {
 PostTask
 (
-webrtc
-:
-:
-ToQueuedTask
-(
 [
 thread
 this
@@ -6244,7 +6239,6 @@ thread
 )
 ;
 }
-)
 )
 ;
 return
@@ -6299,11 +6293,6 @@ IsCurrent
 {
 PostTask
 (
-webrtc
-:
-:
-ToQueuedTask
-(
 [
 this
 ]
@@ -6315,7 +6304,6 @@ DisallowAllInvokes
 )
 ;
 }
-)
 )
 ;
 return
