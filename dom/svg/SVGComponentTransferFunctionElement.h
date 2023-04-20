@@ -254,7 +254,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_SVG_FE_COMPONENT_TRANSFER_FUNCTION_ELEMENT_CID
 )
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 bool
 AttributeAffectsRendering
 (
@@ -288,7 +287,6 @@ aAttributes
 /
 /
 WebIDL
-virtual
 JSObject
 *
 WrapNode
@@ -368,21 +366,18 @@ Offset
 ;
 protected
 :
-virtual
 NumberAttributesInfo
 GetNumberInfo
 (
 )
 override
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
 override
 ;
-virtual
 NumberListAttributesInfo
 GetNumberListInfo
 (
@@ -563,7 +558,6 @@ aNodeInfo
 }
 public
 :
-virtual
 int32_t
 GetChannel
 (
@@ -574,7 +568,6 @@ return
 0
 ;
 }
-virtual
 nsresult
 Clone
 (
@@ -591,7 +584,6 @@ aResult
 const
 override
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -716,7 +708,6 @@ aNodeInfo
 }
 public
 :
-virtual
 int32_t
 GetChannel
 (
@@ -727,7 +718,6 @@ return
 1
 ;
 }
-virtual
 nsresult
 Clone
 (
@@ -744,7 +734,6 @@ aResult
 const
 override
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -869,7 +858,6 @@ aNodeInfo
 }
 public
 :
-virtual
 int32_t
 GetChannel
 (
@@ -880,7 +868,6 @@ return
 2
 ;
 }
-virtual
 nsresult
 Clone
 (
@@ -897,7 +884,6 @@ aResult
 const
 override
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -1022,7 +1008,6 @@ aNodeInfo
 }
 public
 :
-virtual
 int32_t
 GetChannel
 (
@@ -1033,7 +1018,6 @@ return
 3
 ;
 }
-virtual
 nsresult
 Clone
 (
@@ -1050,7 +1034,6 @@ aResult
 const
 override
 ;
-virtual
 JSObject
 *
 WrapNode

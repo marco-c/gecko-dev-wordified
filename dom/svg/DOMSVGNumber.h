@@ -845,7 +845,6 @@ return
 mParent
 ;
 }
-virtual
 JSObject
 *
 WrapObject

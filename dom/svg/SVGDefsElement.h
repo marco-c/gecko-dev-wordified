@@ -209,7 +209,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -278,7 +277,6 @@ aWithMouse
 )
 ;
 }
-virtual
 nsresult
 Clone
 (

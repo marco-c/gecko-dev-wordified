@@ -229,7 +229,6 @@ aNodeInfo
 )
 {
 }
-virtual
 JSObject
 *
 WrapNode
@@ -251,7 +250,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -268,7 +266,6 @@ aResult
 const
 override
 ;
-virtual
 bool
 AttributeAffectsRendering
 (
@@ -309,7 +306,6 @@ In1
 ;
 protected
 :
-virtual
 StringAttributesInfo
 GetStringInfo
 (

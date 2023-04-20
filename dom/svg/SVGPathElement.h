@@ -241,7 +241,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -279,7 +278,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 void
 GetAsSimplePath
 (
@@ -315,7 +313,6 @@ override
 SVGSVGElement
 methods
 :
-virtual
 bool
 HasValidDimensions
 (
@@ -328,7 +325,6 @@ override
 SVGGeometryElement
 methods
 :
-virtual
 bool
 AttributeDefinesGeometry
 (
@@ -339,14 +335,12 @@ aName
 )
 override
 ;
-virtual
 bool
 IsMarkable
 (
 )
 override
 ;
-virtual
 void
 GetMarkPoints
 (
@@ -422,7 +416,6 @@ this
 .
 *
 /
-virtual
 already_AddRefed
 <
 Path
@@ -536,7 +529,6 @@ this
 .
 *
 /
-virtual
 already_AddRefed
 <
 Path
@@ -562,7 +554,6 @@ override
 /
 nsIContent
 interface
-virtual
 nsresult
 Clone
 (
@@ -579,7 +570,6 @@ aResult
 const
 override
 ;
-virtual
 SVGAnimatedPathSegList
 *
 GetAnimPathSegList
@@ -592,7 +582,6 @@ return
 mD
 ;
 }
-virtual
 nsStaticAtom
 *
 GetPathDataAttrName

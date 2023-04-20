@@ -204,7 +204,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -272,7 +271,6 @@ override
 SVGSVGElement
 methods
 :
-virtual
 bool
 HasValidDimensions
 (
@@ -285,7 +283,6 @@ override
 SVGGeometryElement
 methods
 :
-virtual
 bool
 GetGeometryBounds
 (
@@ -309,7 +306,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 GetAsSimplePath
 (
@@ -319,7 +315,6 @@ aSimplePath
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -334,7 +329,6 @@ nullptr
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -426,7 +420,6 @@ Ry
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (

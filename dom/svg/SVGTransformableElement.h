@@ -242,7 +242,6 @@ SVGTransformableElement
 =
 default
 ;
-virtual
 nsresult
 Clone
 (
@@ -347,7 +346,6 @@ override
 /
 SVGElement
 overrides
-virtual
 bool
 IsEventAttributeNameInternal
 (
@@ -357,7 +355,6 @@ aName
 )
 override
 ;
-virtual
 gfxMatrix
 PrependLocalTransformsTo
 (
@@ -373,7 +370,6 @@ eAllTransforms
 const
 override
 ;
-virtual
 const
 gfx
 :
@@ -386,7 +382,6 @@ GetAnimateMotionTransform
 const
 override
 ;
-virtual
 void
 SetAnimateMotionTransform
 (
@@ -400,7 +395,6 @@ aMatrix
 )
 override
 ;
-virtual
 SVGAnimatedTransformList
 *
 GetAnimatedTransformList
@@ -412,7 +406,6 @@ aFlags
 )
 override
 ;
-virtual
 nsStaticAtom
 *
 GetTransformListAttrName
@@ -428,7 +421,6 @@ nsGkAtoms
 transform
 ;
 }
-virtual
 bool
 IsTransformable
 (

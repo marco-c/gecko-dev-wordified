@@ -277,7 +277,6 @@ aNodeInfo
 )
 {
 }
-virtual
 JSObject
 *
 WrapNode
@@ -299,7 +298,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -316,7 +314,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -328,7 +325,6 @@ aParent
 )
 override
 ;
-virtual
 FilterPrimitiveDescription
 GetPrimitiveDescription
 (
@@ -358,7 +354,6 @@ aInputImages
 )
 override
 ;
-virtual
 bool
 AttributeAffectsRendering
 (

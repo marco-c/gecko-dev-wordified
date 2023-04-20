@@ -701,7 +701,6 @@ return
 mElement
 ;
 }
-virtual
 JSObject
 *
 WrapObject

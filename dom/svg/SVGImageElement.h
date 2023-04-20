@@ -251,7 +251,6 @@ SVGImageElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -308,7 +307,6 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 /
 EventTarget
-virtual
 void
 AsyncEventRunning
 (
@@ -343,7 +341,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -408,7 +405,6 @@ eUSE_TARGET
 )
 ;
 }
-virtual
 nsresult
 BindToTree
 (
@@ -420,7 +416,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -429,7 +424,6 @@ aNullParent
 )
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -437,7 +431,6 @@ IntrinsicState
 const
 override
 ;
-virtual
 void
 DestroyContent
 (
@@ -463,7 +456,6 @@ override
 SVGGeometryElement
 methods
 :
-virtual
 bool
 GetGeometryBounds
 (
@@ -487,7 +479,6 @@ nullptr
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -505,7 +496,6 @@ override
 SVGSVGElement
 methods
 :
-virtual
 bool
 HasValidDimensions
 (
@@ -513,7 +503,6 @@ HasValidDimensions
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -653,14 +642,12 @@ ShouldLoadImage
 )
 const
 ;
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 SVGAnimatedPreserveAspectRatio
 *
 GetAnimatedPreserveAspectRatio
@@ -668,7 +655,6 @@ GetAnimatedPreserveAspectRatio
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

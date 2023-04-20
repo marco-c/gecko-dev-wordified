@@ -194,7 +194,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -323,7 +322,6 @@ override
 SVGGeometryElement
 methods
 :
-virtual
 bool
 IsMarkable
 (
@@ -334,7 +332,6 @@ return
 true
 ;
 }
-virtual
 void
 GetMarkPoints
 (
@@ -347,7 +344,6 @@ aMarks
 )
 override
 ;
-virtual
 void
 GetAsSimplePath
 (
@@ -357,7 +353,6 @@ aSimplePath
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -370,7 +365,6 @@ aBuilder
 )
 override
 ;
-virtual
 bool
 GetGeometryBounds
 (
@@ -394,7 +388,6 @@ nullptr
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -448,7 +441,6 @@ Y2
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (

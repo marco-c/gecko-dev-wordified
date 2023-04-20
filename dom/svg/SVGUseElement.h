@@ -341,7 +341,6 @@ SVGUseElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -420,7 +419,6 @@ NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
 SVGElement
 specializations
 :
-virtual
 gfxMatrix
 PrependLocalTransformsTo
 (
@@ -436,7 +434,6 @@ eAllTransforms
 const
 override
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -448,7 +445,6 @@ override
 /
 nsIContent
 interface
-virtual
 nsresult
 Clone
 (
@@ -907,14 +903,12 @@ GetFrame
 )
 const
 ;
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

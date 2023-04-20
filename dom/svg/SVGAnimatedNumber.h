@@ -534,7 +534,6 @@ it
 belongs
 to
 content
-virtual
 float
 BaseVal
 (
@@ -550,7 +549,6 @@ GetBaseValue
 )
 ;
 }
-virtual
 void
 SetBaseVal
 (
@@ -604,7 +602,6 @@ reflect
 these
 modifications
 .
-virtual
 float
 AnimVal
 (
@@ -729,7 +726,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -737,14 +733,12 @@ GetBaseValue
 const
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (

@@ -300,7 +300,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -345,7 +344,6 @@ override
 SVGSVGElement
 methods
 :
-virtual
 bool
 HasValidDimensions
 (
@@ -384,7 +382,6 @@ GetViewBoxTransform
 (
 )
 ;
-virtual
 nsresult
 Clone
 (
@@ -502,21 +499,18 @@ SVGViewportElement
 aContext
 )
 ;
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
 override
 ;
-virtual
 SVGAnimatedOrient
 *
 GetAnimatedOrient
@@ -532,7 +526,6 @@ GetAnimatedPreserveAspectRatio
 )
 override
 ;
-virtual
 SVGAnimatedViewBox
 *
 GetAnimatedViewBox

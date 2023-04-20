@@ -221,7 +221,6 @@ SVGSymbolElement
 =
 default
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -248,7 +247,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 nsresult
 Clone
 (

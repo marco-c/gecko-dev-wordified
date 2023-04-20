@@ -254,7 +254,6 @@ aSVGElement
 /
 SMILAttr
 methods
-virtual
 nsresult
 ValueFromString
 (
@@ -279,7 +278,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -287,7 +285,6 @@ GetBaseValue
 const
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (
@@ -298,14 +295,12 @@ aValue
 )
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 const
 nsIContent
 *

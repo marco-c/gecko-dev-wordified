@@ -366,7 +366,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -1688,7 +1687,6 @@ protected
 /
 SVGElement
 method
-virtual
 NumberAttributesInfo
 GetNumberInfo
 (

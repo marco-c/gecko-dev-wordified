@@ -235,7 +235,6 @@ SVGSwitchElement
 =
 default
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -304,7 +303,6 @@ aRv
 )
 override
 ;
-virtual
 void
 RemoveChildNode
 (
@@ -333,7 +331,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (

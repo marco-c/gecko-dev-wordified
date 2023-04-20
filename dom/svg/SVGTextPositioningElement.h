@@ -248,14 +248,12 @@ aNodeInfo
 )
 {
 }
-virtual
 LengthListAttributesInfo
 GetLengthListInfo
 (
 )
 override
 ;
-virtual
 NumberListAttributesInfo
 GetNumberListInfo
 (

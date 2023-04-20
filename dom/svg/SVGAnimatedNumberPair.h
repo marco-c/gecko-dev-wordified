@@ -620,7 +620,6 @@ first
 or
 second
 number
-virtual
 float
 BaseVal
 (
@@ -637,7 +636,6 @@ mIndex
 )
 ;
 }
-virtual
 void
 SetBaseVal
 (
@@ -692,7 +690,6 @@ reflect
 these
 modifications
 .
-virtual
 float
 AnimVal
 (
@@ -793,7 +790,6 @@ mSVGElement
 /
 SMILAttr
 methods
-virtual
 nsresult
 ValueFromString
 (
@@ -818,7 +814,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -826,14 +821,12 @@ GetBaseValue
 const
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (

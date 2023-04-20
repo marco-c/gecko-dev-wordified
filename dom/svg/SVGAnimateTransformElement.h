@@ -234,7 +234,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -260,7 +259,6 @@ public
 /
 nsINode
 specializations
-virtual
 nsresult
 Clone
 (
@@ -306,7 +304,6 @@ override
 /
 /
 SVGAnimationElement
-virtual
 SMILAnimationFunction
 &
 AnimationFunction

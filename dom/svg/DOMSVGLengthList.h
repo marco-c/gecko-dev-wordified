@@ -782,7 +782,6 @@ Length
 Sync
 mItems
 }
-virtual
 JSObject
 *
 WrapObject

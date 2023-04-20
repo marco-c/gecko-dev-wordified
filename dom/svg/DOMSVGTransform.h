@@ -799,7 +799,6 @@ return
 mList
 ;
 }
-virtual
 JSObject
 *
 WrapObject

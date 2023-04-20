@@ -232,7 +232,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -258,7 +257,6 @@ public
 /
 nsINode
 specializations
-virtual
 nsresult
 Clone
 (
@@ -278,7 +276,6 @@ override
 /
 /
 SVGAnimationElement
-virtual
 SMILAnimationFunction
 &
 AnimationFunction
@@ -304,7 +301,6 @@ override
 /
 /
 SVGElement
-virtual
 nsStaticAtom
 *
 GetPathDataAttrName

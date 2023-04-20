@@ -498,7 +498,6 @@ SVGElement
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -656,7 +655,6 @@ cspNonce
 nsIContent
 interface
 methods
-virtual
 nsresult
 BindToTree
 (
@@ -668,7 +666,6 @@ aParent
 )
 override
 ;
-virtual
 nsChangeHint
 GetAttributeChangeHint
 (
@@ -682,7 +679,6 @@ aModType
 const
 override
 ;
-virtual
 bool
 IsNodeOfType
 (
@@ -726,7 +722,6 @@ documents
 .
 *
 /
-virtual
 void
 NodeInfoChanged
 (
@@ -2284,7 +2279,6 @@ const
 ;
 protected
 :
-virtual
 JSObject
 *
 WrapNode
@@ -2384,7 +2378,6 @@ aNotify
 )
 final
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -2409,7 +2402,6 @@ aNotify
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (

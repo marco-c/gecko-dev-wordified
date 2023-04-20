@@ -240,7 +240,6 @@ aNodeInfo
 )
 {
 }
-virtual
 JSObject
 *
 WrapNode
@@ -262,7 +261,6 @@ override
 ;
 public
 :
-virtual
 mozilla
 :
 :
@@ -284,7 +282,6 @@ aFloatAttributes
 )
 override
 ;
-virtual
 bool
 AttributeAffectsRendering
 (
@@ -297,7 +294,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -383,7 +379,6 @@ LimitingConeAngle
 ;
 protected
 :
-virtual
 NumberAttributesInfo
 GetNumberInfo
 (

@@ -187,7 +187,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -239,7 +238,6 @@ aNodeInfo
 SVGGeometryElement
 methods
 :
-virtual
 already_AddRefed
 <
 Path
@@ -258,7 +256,6 @@ public
 /
 nsIContent
 interface
-virtual
 nsresult
 Clone
 (

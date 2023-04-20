@@ -243,7 +243,6 @@ SVGFEImageElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -265,7 +264,6 @@ override
 ;
 public
 :
-virtual
 bool
 SubregionIsUnionOfRegions
 (
@@ -284,7 +282,6 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 /
 EventTarget
-virtual
 void
 AsyncEventRunning
 (
@@ -294,7 +291,6 @@ aEvent
 )
 override
 ;
-virtual
 FilterPrimitiveDescription
 GetPrimitiveDescription
 (
@@ -324,7 +320,6 @@ aInputImages
 )
 override
 ;
-virtual
 bool
 AttributeAffectsRendering
 (
@@ -337,7 +332,6 @@ aAttribute
 const
 override
 ;
-virtual
 SVGAnimatedString
 &
 GetResultImageName
@@ -352,7 +346,6 @@ RESULT
 ]
 ;
 }
-virtual
 bool
 OutputIsTainted
 (
@@ -386,7 +379,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -403,7 +395,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -428,7 +419,6 @@ aNotify
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -440,7 +430,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -449,7 +438,6 @@ aNullParent
 )
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -457,7 +445,6 @@ IntrinsicState
 const
 override
 ;
-virtual
 void
 DestroyContent
 (
@@ -526,7 +513,6 @@ const
 ;
 protected
 :
-virtual
 bool
 ProducesSRGB
 (
@@ -537,7 +523,6 @@ return
 true
 ;
 }
-virtual
 SVGAnimatedPreserveAspectRatio
 *
 GetAnimatedPreserveAspectRatio
@@ -545,7 +530,6 @@ GetAnimatedPreserveAspectRatio
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

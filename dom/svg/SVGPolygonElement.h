@@ -196,7 +196,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -250,7 +249,6 @@ public
 SVGGeometryElement
 methods
 :
-virtual
 void
 GetMarkPoints
 (
@@ -263,7 +261,6 @@ aMarks
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -276,7 +273,6 @@ aBuilder
 )
 override
 ;
-virtual
 nsresult
 Clone
 (

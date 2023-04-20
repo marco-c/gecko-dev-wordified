@@ -280,7 +280,6 @@ Methods
 -
 -
 -
-virtual
 void
 Init
 (
@@ -291,7 +290,6 @@ aValue
 const
 override
 ;
-virtual
 void
 Destroy
 (
@@ -302,7 +300,6 @@ aValue
 const
 override
 ;
-virtual
 nsresult
 Assign
 (
@@ -317,7 +314,6 @@ aSrc
 const
 override
 ;
-virtual
 bool
 IsEqual
 (
@@ -333,7 +329,6 @@ aRight
 const
 override
 ;
-virtual
 nsresult
 Add
 (
@@ -350,7 +345,6 @@ aCount
 const
 override
 ;
-virtual
 nsresult
 ComputeDistance
 (
@@ -369,7 +363,6 @@ aDistance
 const
 override
 ;
-virtual
 nsresult
 Interpolate
 (

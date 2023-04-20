@@ -264,7 +264,6 @@ FromParser
 aFromParser
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -294,7 +293,6 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsIScriptElement
-virtual
 bool
 GetScriptType
 (
@@ -304,7 +302,6 @@ type
 )
 override
 ;
-virtual
 void
 GetScriptText
 (
@@ -315,7 +312,6 @@ text
 const
 override
 ;
-virtual
 void
 GetScriptCharset
 (
@@ -325,7 +321,6 @@ charset
 )
 override
 ;
-virtual
 void
 FreezeExecutionAttrs
 (
@@ -335,7 +330,6 @@ aOwnerDoc
 )
 override
 ;
-virtual
 CORSMode
 GetCORSMode
 (
@@ -346,7 +340,6 @@ override
 /
 /
 ScriptElement
-virtual
 bool
 HasScriptContent
 (
@@ -358,7 +351,6 @@ override
 nsIContent
 specializations
 :
-virtual
 nsresult
 BindToTree
 (
@@ -370,7 +362,6 @@ aParent
 )
 override
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -395,7 +386,6 @@ aNotify
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -417,7 +407,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -494,7 +483,6 @@ SVGScriptElement
 =
 default
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (
@@ -527,7 +515,6 @@ always
 return
 false
 .
-virtual
 bool
 GetAsyncState
 (

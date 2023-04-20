@@ -493,7 +493,6 @@ it
 belongs
 to
 content
-virtual
 int32_t
 BaseVal
 (
@@ -509,7 +508,6 @@ GetBaseValue
 )
 ;
 }
-virtual
 void
 SetBaseVal
 (
@@ -555,7 +553,6 @@ reflect
 these
 modifications
 .
-virtual
 int32_t
 AnimVal
 (
@@ -655,7 +652,6 @@ mSVGElement
 /
 SMILAttr
 methods
-virtual
 nsresult
 ValueFromString
 (
@@ -680,7 +676,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -688,14 +683,12 @@ GetBaseValue
 const
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (

@@ -261,7 +261,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -286,7 +285,6 @@ public
 /
 /
 nsIContent
-virtual
 nsresult
 Clone
 (
@@ -322,7 +320,6 @@ override
 SVGSVGElement
 methods
 :
-virtual
 bool
 HasValidDimensions
 (
@@ -391,21 +388,18 @@ Href
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

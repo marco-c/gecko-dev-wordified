@@ -184,7 +184,6 @@ mType
 eSVG
 ;
 }
-virtual
 nsresult
 Clone
 (

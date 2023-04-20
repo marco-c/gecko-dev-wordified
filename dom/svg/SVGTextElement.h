@@ -191,7 +191,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -267,7 +266,6 @@ aFlags
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -286,14 +284,12 @@ override
 ;
 protected
 :
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
 override
 ;
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
@@ -306,7 +302,6 @@ mEnumAttributes
 1
 ]
 ;
-virtual
 SVGAnimatedEnumeration
 *
 EnumAttributes
@@ -324,7 +319,6 @@ mLengthAttributes
 1
 ]
 ;
-virtual
 SVGAnimatedLength
 *
 LengthAttributes

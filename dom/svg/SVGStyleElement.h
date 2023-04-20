@@ -252,7 +252,6 @@ SVGStyleElement
 =
 default
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -283,7 +282,6 @@ SVGStyleElementBase
 /
 /
 nsIContent
-virtual
 nsresult
 BindToTree
 (
@@ -295,7 +293,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -353,7 +350,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 Clone
 (

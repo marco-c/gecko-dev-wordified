@@ -661,7 +661,6 @@ SMILParserUtils
 :
 GenericValueParser
 interface
-virtual
 bool
 Parse
 (

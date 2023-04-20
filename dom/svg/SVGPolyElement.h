@@ -219,7 +219,6 @@ name
 const
 override
 ;
-virtual
 SVGAnimatedPointList
 *
 GetAnimatedPointList
@@ -232,7 +231,6 @@ return
 mPoints
 ;
 }
-virtual
 nsStaticAtom
 *
 GetPointListAttrName
@@ -253,7 +251,6 @@ points
 SVGElement
 methods
 :
-virtual
 bool
 HasValidDimensions
 (
@@ -266,7 +263,6 @@ override
 SVGGeometryElement
 methods
 :
-virtual
 bool
 AttributeDefinesGeometry
 (
@@ -277,7 +273,6 @@ aName
 )
 override
 ;
-virtual
 bool
 IsMarkable
 (
@@ -288,7 +283,6 @@ return
 true
 ;
 }
-virtual
 void
 GetMarkPoints
 (
@@ -301,7 +295,6 @@ aMarks
 )
 override
 ;
-virtual
 bool
 GetGeometryBounds
 (
