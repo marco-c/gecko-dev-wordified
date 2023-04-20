@@ -55766,14 +55766,6 @@ position
 wrapper
 "
 }
-!
-this
-.
-props
-.
-flightId
-&
-&
 /
 *
 #
@@ -59361,6 +59353,12 @@ is_collection
 saveToPocketCard
 :
 saveToPocketCard
+&
+&
+!
+rec
+.
+flight_id
 }
 )
 )
