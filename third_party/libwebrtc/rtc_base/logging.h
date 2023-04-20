@@ -938,8 +938,6 @@ LS_INFO
 ]
 =
 LS_INFO
-/
-/
 WARNING
 [
 [
@@ -952,9 +950,6 @@ LS_WARNING
 )
 ]
 ]
-=
-LS_WARNING
-WARNING
 =
 LS_WARNING
 LERROR

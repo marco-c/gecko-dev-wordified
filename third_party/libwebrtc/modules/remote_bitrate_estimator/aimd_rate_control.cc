@@ -387,7 +387,7 @@ backoff_factor
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -418,7 +418,7 @@ backoff_factor
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

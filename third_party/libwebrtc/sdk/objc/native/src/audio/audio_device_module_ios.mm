@@ -1751,7 +1751,7 @@ enable
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1996,7 +1996,7 @@ enable
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

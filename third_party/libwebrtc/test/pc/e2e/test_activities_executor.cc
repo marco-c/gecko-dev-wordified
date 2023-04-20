@@ -509,7 +509,7 @@ Zero
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

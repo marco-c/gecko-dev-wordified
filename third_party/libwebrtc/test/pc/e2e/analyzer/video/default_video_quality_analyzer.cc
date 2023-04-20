@@ -2385,7 +2385,7 @@ end
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -3563,7 +3563,7 @@ kSkipRenderedFrameReasonDropped
 }
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

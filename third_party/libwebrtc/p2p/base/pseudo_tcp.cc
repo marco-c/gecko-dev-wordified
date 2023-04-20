@@ -3468,7 +3468,7 @@ MAX_PACKET
 {
 RTC_LOG_F
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -9516,7 +9516,7 @@ len
 {
 RTC_LOG_F
 (
-WARNING
+LS_WARNING
 )
 <
 <

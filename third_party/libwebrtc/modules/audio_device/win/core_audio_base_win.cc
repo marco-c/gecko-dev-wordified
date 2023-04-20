@@ -3606,7 +3606,7 @@ frames_per_buffer
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

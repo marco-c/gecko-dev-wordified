@@ -475,7 +475,7 @@ user_data
 ;
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
