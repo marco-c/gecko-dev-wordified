@@ -3780,14 +3780,6 @@ item
 IsNoAutoHide
 (
 )
-&
-&
-frame
--
->
-GetAutoPosition
-(
-)
 )
 {
 nsIContent
