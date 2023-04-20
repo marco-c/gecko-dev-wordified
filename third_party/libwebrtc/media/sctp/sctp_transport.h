@@ -758,7 +758,7 @@ debug_name_
 debug_name
 ;
 }
-int
+void
 InjectDataOrNotificationFromSctpForTesting
 (
 const
@@ -1329,7 +1329,7 @@ buffer
 Called
 on
 the
-SCTP
+network
 thread
 .
 /
@@ -1345,7 +1345,7 @@ RFC
 6458
 )
 .
-int
+void
 OnDataOrNotificationFromSctp
 (
 const
