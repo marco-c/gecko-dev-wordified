@@ -1579,6 +1579,7 @@ Get
 )
 const
 ;
+explicit
 operator
 bool
 (
