@@ -397,6 +397,12 @@ IsWrappingBufferTextureHost
 )
 override
 ;
+bool
+IsWrappingSurfaceTextureHost
+(
+)
+override
+;
 TextureHostType
 GetTextureHostType
 (

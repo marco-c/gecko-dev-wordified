@@ -3832,6 +3832,16 @@ return
 false
 ;
 }
+virtual
+bool
+IsWrappingSurfaceTextureHost
+(
+)
+{
+return
+false
+;
+}
 /
 /
 Create
@@ -4479,8 +4489,7 @@ void
 PrepareForUse
 (
 )
-{
-}
+;
 /
 *
 *

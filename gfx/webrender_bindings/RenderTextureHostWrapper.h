@@ -330,6 +330,13 @@ AsRenderDcompSurfaceTextureHost
 )
 override
 ;
+RenderAndroidSurfaceTextureHost
+*
+AsRenderAndroidSurfaceTextureHost
+(
+)
+override
+;
 RenderTextureHostSWGL
 *
 AsRenderTextureHostSWGL

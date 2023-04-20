@@ -466,6 +466,12 @@ GetTextureHostType
 override
 ;
 bool
+IsWrappingSurfaceTextureHost
+(
+)
+override
+;
+bool
 CheckIsReadyForRendering
 (
 )
