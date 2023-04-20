@@ -143,6 +143,17 @@ include
 "
 rtc_base
 /
+system
+/
+rtc_export
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 untyped_function
 .
 h
@@ -154,6 +165,7 @@ namespace
 callback_list_impl
 {
 class
+RTC_EXPORT
 CallbackListReceivers
 {
 public
