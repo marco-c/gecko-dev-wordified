@@ -611,6 +611,13 @@ use
 static_assertions
 ;
 }
+pub
+use
+uniffi_macros
+:
+:
+export
+;
 mod
 panichook
 ;
@@ -2615,9 +2622,6 @@ num_bytes
 bail
 !
 (
-format
-!
-(
 "
 not
 enough
@@ -2630,6 +2634,7 @@ buffer
 }
 <
 {
+num_bytes
 }
 )
 "
@@ -2637,8 +2642,6 @@ buf
 .
 remaining
 (
-)
-num_bytes
 )
 )
 ;
@@ -6582,14 +6585,14 @@ convert
 arg
 '
 {
+arg_name
 }
 '
 :
 {
+ohno
 }
 "
-arg_name
-ohno
 )
 }
 }

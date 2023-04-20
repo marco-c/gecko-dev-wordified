@@ -582,12 +582,8 @@ collections
 :
 HashMap
 <
-r
-#
 {
 }
-r
-#
 {
 }
 >
@@ -1250,8 +1246,6 @@ option
 :
 Option
 <
-r
-#
 {
 }
 >
@@ -1284,8 +1278,6 @@ vec
 :
 Vec
 <
-r
-#
 {
 }
 >
@@ -1318,12 +1310,8 @@ collections
 :
 HashMap
 <
-r
-#
 {
 }
-r
-#
 {
 }
 >

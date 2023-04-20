@@ -143,6 +143,7 @@ upload
 PingUploadManager
 PingUploadTask
 UploadResult
+UploadTaskAction
 }
 ;
 use
@@ -4221,6 +4222,9 @@ status
 :
 UploadResult
 )
+-
+>
+UploadTaskAction
 {
 self
 .
@@ -4232,7 +4236,6 @@ self
 uuid
 status
 )
-;
 }
 /
 /

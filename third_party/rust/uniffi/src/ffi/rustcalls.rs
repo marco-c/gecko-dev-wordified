@@ -1685,9 +1685,9 @@ Unexpected
 value
 :
 {
+x
 }
 "
-x
 )
 }
 }
@@ -1987,9 +1987,9 @@ Unexpected
 value
 :
 {
+x
 }
 "
-x
 )
 }
 }

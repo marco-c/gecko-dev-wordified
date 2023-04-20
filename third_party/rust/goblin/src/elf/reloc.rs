@@ -2529,17 +2529,6 @@ Ctx
 Container
 }
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-endian_fd
-"
-)
-]
 use
 alloc
 :
