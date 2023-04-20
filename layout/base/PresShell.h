@@ -20240,16 +20240,6 @@ mHasTriedFastUnsuppress
 :
 1
 ;
-bool
-mProcessingReflowCommands
-:
-1
-;
-bool
-mPendingDidDoReflow
-:
-1
-;
 struct
 CapturingContentInfo
 final
