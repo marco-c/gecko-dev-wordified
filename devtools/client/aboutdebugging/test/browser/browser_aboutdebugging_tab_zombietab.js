@@ -44,7 +44,7 @@ E10SUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,7 +57,9 @@ modules
 /
 E10SUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

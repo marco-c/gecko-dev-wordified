@@ -77,7 +77,7 @@ setTimeout
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -90,7 +90,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -172,7 +174,7 @@ AppConstants
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -185,7 +187,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

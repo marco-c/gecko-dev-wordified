@@ -167,7 +167,7 @@ setTimeout
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -180,7 +180,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -243,7 +245,7 @@ ConsoleAPI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -256,7 +258,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

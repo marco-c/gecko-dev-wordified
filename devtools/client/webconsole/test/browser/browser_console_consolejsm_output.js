@@ -98,7 +98,7 @@ console
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -111,7 +111,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -441,7 +443,7 @@ ConsoleAPI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -454,7 +456,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -648,7 +652,7 @@ console
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -661,7 +665,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

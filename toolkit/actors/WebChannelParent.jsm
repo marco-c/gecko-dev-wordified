@@ -97,7 +97,7 @@ WebChannelBroker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -110,7 +110,9 @@ modules
 /
 WebChannel
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

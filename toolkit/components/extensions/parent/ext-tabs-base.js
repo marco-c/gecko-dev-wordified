@@ -112,9 +112,9 @@ globals
 EventEmitter
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -131,7 +131,9 @@ modules
 /
 PrivateBrowsingUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

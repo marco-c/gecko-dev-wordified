@@ -89,7 +89,7 @@ clearTimeout
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -102,7 +102,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -139,7 +141,7 @@ AppConstants
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -152,7 +154,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -163,7 +167,7 @@ E10SUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -176,7 +180,9 @@ modules
 /
 E10SUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

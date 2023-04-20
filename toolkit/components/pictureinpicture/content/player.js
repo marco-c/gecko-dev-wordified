@@ -115,7 +115,7 @@ DeferredTask
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -128,7 +128,9 @@ modules
 /
 DeferredTask
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -139,7 +141,7 @@ AppConstants
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -152,7 +154,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

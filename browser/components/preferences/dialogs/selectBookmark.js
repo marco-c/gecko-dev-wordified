@@ -180,15 +180,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 PrivateBrowsingUtils
 :
 "
@@ -202,7 +193,9 @@ modules
 /
 PrivateBrowsingUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

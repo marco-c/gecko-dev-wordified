@@ -173,7 +173,7 @@ clearTimeout
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -186,7 +186,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -23478,7 +23480,7 @@ EventEmitter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23491,7 +23493,9 @@ modules
 /
 EventEmitter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

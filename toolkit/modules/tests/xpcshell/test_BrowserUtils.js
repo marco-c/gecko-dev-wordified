@@ -34,7 +34,7 @@ AppConstants
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -160,7 +162,7 @@ Preferences
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -173,7 +175,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

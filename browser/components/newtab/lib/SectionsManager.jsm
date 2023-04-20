@@ -68,7 +68,7 @@ EventEmitter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -81,7 +81,9 @@ modules
 /
 EventEmitter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

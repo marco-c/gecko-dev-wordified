@@ -63,7 +63,7 @@ DeferredTask
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +76,9 @@ modules
 /
 DeferredTask
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -87,7 +89,7 @@ Preferences
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +102,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

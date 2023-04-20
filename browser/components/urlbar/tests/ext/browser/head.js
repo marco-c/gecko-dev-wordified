@@ -276,9 +276,9 @@ js
 this
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -295,7 +295,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
