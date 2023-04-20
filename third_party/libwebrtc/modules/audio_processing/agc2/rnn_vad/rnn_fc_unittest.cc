@@ -509,7 +509,7 @@ f
 }
 ;
 class
-RnnParametrization
+RnnFcParametrization
 :
 public
 :
@@ -547,7 +547,7 @@ data
 .
 TEST_P
 (
-RnnParametrization
+RnnFcParametrization
 CheckFullyConnectedLayerOutput
 )
 {
@@ -601,7 +601,7 @@ fc
 }
 TEST_P
 (
-RnnParametrization
+RnnFcParametrization
 DISABLED_BenchmarkFullyConnectedLayer
 )
 {
@@ -825,8 +825,9 @@ available
 sse2
 )
 {
-AvailableCpuFeatures
-features
+v
+.
+push_back
 (
 {
 /
@@ -853,13 +854,6 @@ false
 }
 )
 ;
-v
-.
-push_back
-(
-features
-)
-;
 }
 return
 v
@@ -868,7 +862,7 @@ v
 INSTANTIATE_TEST_SUITE_P
 (
 RnnVadTest
-RnnParametrization
+RnnFcParametrization
 :
 :
 testing

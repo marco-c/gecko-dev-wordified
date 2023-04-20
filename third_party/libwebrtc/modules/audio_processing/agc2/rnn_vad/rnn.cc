@@ -301,6 +301,7 @@ kHiddenLayerOutputSize
 kHiddenGruBias
 kHiddenGruWeights
 kHiddenGruRecurrentWeights
+cpu_features
 /
 *
 layer_name
