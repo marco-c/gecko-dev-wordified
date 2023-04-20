@@ -152,6 +152,13 @@ MediaResource
 .
 h
 "
+#
+include
+"
+MediaResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -488,7 +495,7 @@ error
 was
 encountered
 .
-bool
+MediaResult
 Append
 (
 const
