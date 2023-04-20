@@ -20408,7 +20408,7 @@ LS_INFO
 <
 <
 "
-RecreateWebRtcStream
+RecreateWebRtcVideoStream
 (
 recv
 )
@@ -20654,12 +20654,14 @@ LS_INFO
 <
 <
 "
-RecreateWebRtcStream
+RecreateWebRtcVideoStream
 (
 recv
 )
 because
 of
+"
+"
 SetFeedbackParameters
 ;
 nack
