@@ -8687,11 +8687,6 @@ UpdateParentTarget
 )
 override
 ;
-void
-InitializeShowFocusRings
-(
-)
-;
 /
 /
 Clear

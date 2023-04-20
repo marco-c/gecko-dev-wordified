@@ -2227,13 +2227,6 @@ widget
 ThemeChangeKind
 )
 ;
-void
-NotifyUIStateChanged
-(
-UIStateChangeType
-aShowFocusRings
-)
-;
 #
 ifdef
 ACCESSIBILITY

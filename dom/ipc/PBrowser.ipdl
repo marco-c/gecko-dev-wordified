@@ -4421,13 +4421,6 @@ ScreenIntCoord
 height
 )
 ;
-async
-SetKeyboardIndicators
-(
-UIStateChangeType
-showFocusRings
-)
-;
 /
 *
 *

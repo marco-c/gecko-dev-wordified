@@ -385,15 +385,6 @@ mWindow
 =
 aWindow
 ;
-mShowFocusRings
-=
-StaticPrefs
-:
-:
-browser_display_show_focus_rings
-(
-)
-;
 }
 nsWindowRoot
 :
