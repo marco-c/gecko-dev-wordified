@@ -13,6 +13,16 @@ Context
 Result
 }
 ;
+/
+/
+/
+Initialize
+a
+new
+cubeb
+[
+Context
+]
 pub
 fn
 init

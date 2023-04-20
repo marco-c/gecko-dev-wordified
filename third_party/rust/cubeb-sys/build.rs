@@ -265,7 +265,6 @@ git
 .
 args
 (
-&
 [
 "
 submodule
