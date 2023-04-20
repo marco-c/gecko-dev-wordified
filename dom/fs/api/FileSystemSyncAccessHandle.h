@@ -247,6 +247,16 @@ ClearActor
 (
 )
 ;
+bool
+IsClosed
+(
+)
+const
+{
+return
+mClosed
+;
+}
 void
 CloseInternal
 (
