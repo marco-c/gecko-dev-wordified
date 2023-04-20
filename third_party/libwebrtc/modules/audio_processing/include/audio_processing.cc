@@ -817,8 +817,8 @@ pre_gain_factor
 &
 &
 post_gain_factor
-&
-&
+=
+=
 rhs
 .
 post_gain_factor
