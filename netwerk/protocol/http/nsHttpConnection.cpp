@@ -16360,13 +16360,6 @@ true
 true
 )
 ;
-Unused
-<
-<
-ResumeSend
-(
-)
-;
 }
 void
 nsHttpConnection
