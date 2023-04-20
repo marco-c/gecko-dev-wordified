@@ -270,6 +270,12 @@ sha256
 "
 "
 "
+import
+binascii
+import
+os
+import
+sys
 from
 pyasn1
 .
@@ -278,12 +284,6 @@ codec
 der
 import
 encoder
-import
-binascii
-import
-os
-import
-sys
 sys
 .
 path

@@ -168,10 +168,6 @@ from
 __future__
 import
 print_function
-from
-string
-import
-Template
 import
 argparse
 import
@@ -188,10 +184,14 @@ import
 sys
 import
 textwrap
+from
+string
 import
-urllib2
+Template
 import
 six
+import
+urllib2
 def
 decodebytes
 (

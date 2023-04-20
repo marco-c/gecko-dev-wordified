@@ -91,13 +91,13 @@ __future__
 import
 print_function
 import
-CoreText
-import
-Cocoa
-import
 argparse
 import
 sys
+import
+Cocoa
+import
+CoreText
 def
 main
 (
