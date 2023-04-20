@@ -279,6 +279,12 @@ Number
 Percentage
 Cap
 Ch
+Cqb
+Cqh
+Cqi
+Cqmax
+Cqmin
+Cqw
 Deg
 Dvb
 Dvh
