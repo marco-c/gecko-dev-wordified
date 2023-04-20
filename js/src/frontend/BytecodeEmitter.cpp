@@ -54064,6 +54064,8 @@ emitShortCircuit
 ListNode
 *
 node
+ValueUsage
+valueUsage
 )
 {
 MOZ_ASSERT
@@ -54379,6 +54381,7 @@ node
 last
 (
 )
+valueUsage
 )
 )
 {
@@ -70696,6 +70699,7 @@ ListNode
 >
 (
 )
+valueUsage
 )
 )
 {
