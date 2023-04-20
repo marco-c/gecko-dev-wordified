@@ -13245,7 +13245,9 @@ getApplicationContext
 )
 0
 intent
-0
+PendingIntent
+.
+FLAG_IMMUTABLE
 )
 ;
 NotificationCompat
