@@ -691,13 +691,6 @@ hasattr
 metric
 arg_name
 )
-and
-arg_name
-!
-=
-"
-allowed_extra_keys
-"
 :
                         
 args
