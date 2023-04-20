@@ -994,6 +994,17 @@ AddArgument
 '
 -
 -
+dump_json_test_results
+'
+)
+    
+gtest_group
+.
+AddArgument
+(
+'
+-
+-
 retry_failed
 '
 )
@@ -1102,9 +1113,9 @@ it
 doesn
 '
 t
-know
     
 #
+know
 what
 will
 be
