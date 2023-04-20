@@ -1,13 +1,4 @@
 var
-EXPORTED_SYMBOLS
-=
-[
-"
-ForceRefreshParent
-"
-]
-;
-var
 maxCacheLoadCount
 =
 3
@@ -27,6 +18,7 @@ done
 =
 false
 ;
+export
 class
 ForceRefreshParent
 extends

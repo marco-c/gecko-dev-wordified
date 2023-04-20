@@ -296,7 +296,7 @@ ForceRefreshParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 getRootDirectory
 (
@@ -306,7 +306,9 @@ gTestPath
 "
 ForceRefreshParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -354,7 +356,7 @@ windowActorOptions
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 getRootDirectory
 (
@@ -364,13 +366,15 @@ gTestPath
 "
 ForceRefreshParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 getRootDirectory
 (
@@ -380,7 +384,9 @@ gTestPath
 "
 ForceRefreshChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
