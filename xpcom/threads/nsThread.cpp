@@ -9702,7 +9702,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormat
+AddKeyLabelFormatSearchable
 (
 "
 category
@@ -9717,6 +9717,13 @@ Format
 :
 :
 String
+MS
+:
+:
+Searchable
+:
+:
+Searchable
 )
 ;
 return
