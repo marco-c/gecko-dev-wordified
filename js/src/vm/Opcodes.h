@@ -24524,6 +24524,8 @@ environments
 *
 Operands
 :
+uint32_t
+lexicalScopeIndex
 *
 Stack
 :
@@ -24537,10 +24539,10 @@ MACRO
 RecreateLexicalEnv
 recreate_lexical_env
 NULL
-1
+5
 0
 0
-JOF_BYTE
+JOF_SCOPE
 )
 \
 /
@@ -24612,6 +24614,8 @@ environments
 *
 Operands
 :
+uint32_t
+lexicalScopeIndex
 *
 Stack
 :
@@ -24625,10 +24629,10 @@ MACRO
 FreshenLexicalEnv
 freshen_lexical_env
 NULL
-1
+5
 0
 0
-JOF_BYTE
+JOF_SCOPE
 )
 \
 /

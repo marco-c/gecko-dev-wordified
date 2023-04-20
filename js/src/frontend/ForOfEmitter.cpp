@@ -654,8 +654,14 @@ if
 bce_
 -
 >
-emit1
+emitInternedScopeOp
 (
+headLexicalEmitterScope_
+-
+>
+index
+(
+)
 JSOp
 :
 :
