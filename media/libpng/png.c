@@ -18,7 +18,7 @@ c
 )
 2018
 -
-2019
+2022
 Cosmin
 Truta
 *
@@ -121,8 +121,8 @@ path
 *
 /
 typedef
-png_libpng_version_1_6_37
-Your_png_h_is_not_version_1_6_37
+png_libpng_version_1_6_39
+Your_png_h_is_not_version_1_6_39
 ;
 #
 ifdef
@@ -4392,7 +4392,7 @@ an
 unsigned
 value
 *
-correspnding
+corresponding
 to
 the
 2
@@ -5029,7 +5029,7 @@ version
 .
 6
 .
-37
+39
 "
 PNG_STRING_NEWLINE
 \
@@ -5040,7 +5040,7 @@ c
 )
 2018
 -
-2019
+2022
 Cosmin
 Truta
 "
@@ -19566,7 +19566,8 @@ size
 int
 *
 statep
-png_size_tp
+size_t
+*
 whereami
 )
 {

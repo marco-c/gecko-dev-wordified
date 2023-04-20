@@ -17,6 +17,8 @@ Copyright
 c
 )
 2018
+-
+2022
 Cosmin
 Truta
 *
@@ -10567,7 +10569,8 @@ size_t
 units_len
 total_len
 ;
-png_size_tp
+size_t
+*
 params_len
 ;
 png_byte
@@ -10719,7 +10722,8 @@ units_len
 params_len
 =
 (
-png_size_tp
+size_t
+*
 )
 png_malloc
 (
