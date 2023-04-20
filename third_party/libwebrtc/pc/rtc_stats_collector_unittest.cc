@@ -3910,6 +3910,13 @@ SetMediaChannel
 _
 )
 )
+.
+WillRepeatedly
+(
+Return
+(
+)
+)
 ;
 pc_
 -
@@ -4181,6 +4188,13 @@ rtp_sender
 SetMediaChannel
 (
 _
+)
+)
+.
+WillRepeatedly
+(
+Return
+(
 )
 )
 ;
