@@ -3399,6 +3399,14 @@ isResolvedByTRR
 )
 )
 ;
+mEffectiveTRRMode
+=
+aArgs
+.
+effectiveTRRMode
+(
+)
+;
 SetApplyConversion
 (
 aArgs
