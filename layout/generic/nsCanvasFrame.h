@@ -163,14 +163,7 @@ h
 #
 include
 "
-nsDisplayList
-.
-h
-"
-#
-include
-"
-nsIAnonymousContentCreator
+nsIScrollPositionListener
 .
 h
 "
@@ -184,7 +177,14 @@ h
 #
 include
 "
-nsIScrollPositionListener
+nsDisplayList
+.
+h
+"
+#
+include
+"
+nsIAnonymousContentCreator
 .
 h
 "
@@ -193,6 +193,9 @@ nsPresContext
 ;
 class
 gfxContext
+;
+class
+nsPopupSetFrame
 ;
 /
 *
@@ -307,6 +310,10 @@ mAddedScrollPositionListener
 (
 false
 )
+mPopupSetFrame
+(
+nullptr
+)
 {
 }
 NS_DECL_QUERYFRAME
@@ -314,6 +321,22 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsCanvasFrame
 )
+nsPopupSetFrame
+*
+GetPopupSetFrame
+(
+)
+override
+;
+void
+SetPopupSetFrame
+(
+nsPopupSetFrame
+*
+aPopupSet
+)
+override
+;
 Element
 *
 GetDefaultTooltip
@@ -330,6 +353,7 @@ aTooltip
 )
 override
 ;
+virtual
 void
 DestroyFrom
 (
@@ -391,6 +415,7 @@ override
 #
 ifdef
 DEBUG
+virtual
 void
 RemoveFrame
 (
@@ -404,6 +429,7 @@ override
 ;
 #
 endif
+virtual
 nscoord
 GetMinISize
 (
@@ -413,6 +439,7 @@ aRenderingContext
 )
 override
 ;
+virtual
 nscoord
 GetPrefISize
 (
@@ -422,6 +449,7 @@ aRenderingContext
 )
 override
 ;
+virtual
 void
 Reflow
 (
@@ -441,6 +469,7 @@ aStatus
 )
 override
 ;
+virtual
 bool
 IsFrameOfType
 (
@@ -471,6 +500,7 @@ eCanContainOverflowContainers
 /
 /
 nsIAnonymousContentCreator
+virtual
 nsresult
 CreateAnonymousContent
 (
@@ -483,6 +513,7 @@ aElements
 )
 override
 ;
+virtual
 void
 AppendAnonymousContentTo
 (
@@ -600,6 +631,7 @@ bool
 aHasFocus
 )
 ;
+virtual
 void
 BuildDisplayList
 (
@@ -632,6 +664,7 @@ aPt
 /
 /
 nsIScrollPositionListener
+virtual
 void
 ScrollPositionWillChange
 (
@@ -642,6 +675,7 @@ aY
 )
 override
 ;
+virtual
 void
 ScrollPositionDidChange
 (
@@ -656,6 +690,7 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
+virtual
 nsresult
 GetFrameName
 (
@@ -668,6 +703,7 @@ override
 ;
 #
 endif
+virtual
 nsresult
 GetContentForEvent
 (
@@ -708,6 +744,18 @@ nsCOMPtr
 Element
 >
 mCustomContentContainer
+;
+private
+:
+nsPopupSetFrame
+*
+mPopupSetFrame
+;
+nsCOMPtr
+<
+Element
+>
+mPopupgroupContent
 ;
 nsCOMPtr
 <
@@ -793,6 +841,7 @@ NS_RGBA
 )
 {
 }
+virtual
 nsRect
 GetBounds
 (
@@ -837,6 +886,7 @@ ToReferenceFrame
 )
 ;
 }
+virtual
 void
 HitTest
 (
@@ -885,6 +935,7 @@ mFrame
 )
 ;
 }
+virtual
 bool
 CreateWebRenderCommands
 (
@@ -925,6 +976,7 @@ aDisplayListBuilder
 )
 override
 ;
+virtual
 void
 Paint
 (
@@ -956,6 +1008,7 @@ CanvasBackgroundColor
 "
 TYPE_CANVAS_BACKGROUND_COLOR
 )
+virtual
 void
 WriteDebugInfo
 (
@@ -1001,6 +1054,7 @@ aInitData
 )
 {
 }
+virtual
 void
 Paint
 (
@@ -1042,6 +1096,7 @@ support
 this
 yet
 .
+virtual
 bool
 SupportsOptimizingToImage
 (
@@ -1124,6 +1179,7 @@ aBuilder
 )
 ;
 }
+virtual
 void
 Paint
 (
