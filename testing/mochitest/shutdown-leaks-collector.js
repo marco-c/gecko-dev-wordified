@@ -93,7 +93,7 @@ alive
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -106,7 +106,9 @@ content
 /
 ShutdownLeaksCollector
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

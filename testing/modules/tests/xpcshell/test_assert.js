@@ -86,7 +86,7 @@ Assert
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -99,7 +99,9 @@ common
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

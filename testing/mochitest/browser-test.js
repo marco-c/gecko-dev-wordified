@@ -964,7 +964,7 @@ process
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -977,7 +977,9 @@ content
 /
 ShutdownLeaksCollector
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1395,7 +1397,7 @@ ContentTask
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1408,7 +1410,9 @@ common
 /
 ContentTask
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -1420,7 +1424,7 @@ BrowserTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1433,7 +1437,9 @@ common
 /
 BrowserTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -1445,7 +1451,7 @@ TestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1458,7 +1464,9 @@ common
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -1497,7 +1505,7 @@ Assert
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1510,7 +1518,9 @@ common
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -2027,7 +2037,7 @@ CoverageCollector
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2040,7 +2050,9 @@ common
 /
 CoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -7324,7 +7336,9 @@ currentScope
 Allow
 Assert
 .
-jsm
+sys
+.
+mjs
 methods
 to
 be

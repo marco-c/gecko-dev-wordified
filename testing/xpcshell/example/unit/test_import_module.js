@@ -119,7 +119,7 @@ through
 *
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource

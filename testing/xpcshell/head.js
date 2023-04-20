@@ -483,7 +483,9 @@ assertion
 library
 Assert
 .
-jsm
+sys
+.
+mjs
 .
 var
 {
@@ -494,7 +496,7 @@ AssertCls
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -507,7 +509,9 @@ common
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -582,7 +586,9 @@ tests
 use
 ContentTask
 .
-jsm
+sys
+.
+mjs
 which
 /
 /
@@ -3981,7 +3987,7 @@ _CoverageCollector
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -3994,7 +4000,9 @@ common
 /
 CoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -4059,7 +4067,9 @@ _TEST_FILE
 Tack
 Assert
 .
-jsm
+sys
+.
+mjs
 methods
 to
 the
