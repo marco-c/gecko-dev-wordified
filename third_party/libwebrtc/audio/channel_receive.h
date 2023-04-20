@@ -375,6 +375,11 @@ header_and_padding_bytes_rcvd
 int
 packetsReceived
 ;
+uint32_t
+nacks_sent
+=
+0
+;
 /
 /
 The

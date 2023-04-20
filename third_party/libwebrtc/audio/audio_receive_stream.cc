@@ -1957,6 +1957,14 @@ cumulativeLost
 ;
 stats
 .
+nacks_sent
+=
+call_stats
+.
+nacks_sent
+;
+stats
+.
 capture_start_ntp_time_ms
 =
 call_stats
