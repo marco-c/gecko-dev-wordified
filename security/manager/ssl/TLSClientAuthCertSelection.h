@@ -100,13 +100,6 @@ SECURITY_MANAGER_SSL_TLSCLIENTAUTHCERTSELECTION_H_
 #
 include
 "
-NSSSocketControl
-.
-h
-"
-#
-include
-"
 nsIX509Cert
 .
 h
@@ -114,14 +107,14 @@ h
 #
 include
 "
-nsNSSIOLayer
+ssl
 .
 h
 "
 #
 include
 "
-ssl
+nsNSSIOLayer
 .
 h
 "
@@ -301,7 +294,7 @@ note
 about
 mClientCertChain
 in
-NSSSocketControl
+nsNSSSocketInfo
 )
 .
 nsTArray
@@ -326,7 +319,7 @@ public
 explicit
 ClientAuthCertificateSelected
 (
-NSSSocketControl
+nsNSSSocketInfo
 *
 socketInfo
 )
@@ -347,7 +340,7 @@ private
 :
 RefPtr
 <
-NSSSocketControl
+nsNSSSocketInfo
 >
 mSocketInfo
 ;

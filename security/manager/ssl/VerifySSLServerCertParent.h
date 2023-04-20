@@ -151,6 +151,9 @@ SharedCertVerifier
 .
 h
 "
+class
+nsNSSSocketInfo
+;
 namespace
 mozilla
 {

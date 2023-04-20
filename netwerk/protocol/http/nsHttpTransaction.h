@@ -224,7 +224,7 @@ h
 #
 include
 "
-nsITLSSocketControl
+nsISSLSocketControl
 .
 h
 "
@@ -2098,9 +2098,9 @@ mConsumerTarget
 ;
 nsCOMPtr
 <
-nsITransportSecurityInfo
+nsISSLSocketControl
 >
-mSecurityInfo
+mTLSSocketControl
 ;
 nsCOMPtr
 <

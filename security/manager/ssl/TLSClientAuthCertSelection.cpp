@@ -4891,13 +4891,13 @@ nullptr
 ;
 RefPtr
 <
-NSSSocketControl
+nsNSSSocketInfo
 >
 info
 (
 static_cast
 <
-NSSSocketControl
+nsNSSSocketInfo
 *
 >
 (
@@ -5157,7 +5157,7 @@ appropriate
 information
 to
 the
-NSSSocketControl
+nsNSSSocketInfo
 which
 then
 calls

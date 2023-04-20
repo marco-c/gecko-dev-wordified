@@ -2787,7 +2787,7 @@ mEventSink
 ;
 nsCOMPtr
 <
-nsITLSSocketControl
+nsISSLSocketControl
 >
 mTLSSocketControl
 ;

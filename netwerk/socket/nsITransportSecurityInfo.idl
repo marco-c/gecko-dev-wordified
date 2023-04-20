@@ -676,7 +676,6 @@ root
 .
 *
 /
-readonly
 attribute
 boolean
 isBuiltCertChainRootBuiltInRoot
