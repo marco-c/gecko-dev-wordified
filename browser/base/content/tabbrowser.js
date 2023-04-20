@@ -9230,6 +9230,9 @@ aSkipLoad
 var
 aGlobalHistoryOptions
 ;
+var
+aTriggeringRemoteType
+;
 if
 (
 arguments
@@ -9419,6 +9422,12 @@ params
 .
 globalHistoryOptions
 ;
+aTriggeringRemoteType
+=
+params
+.
+triggeringRemoteType
+;
 }
 /
 /
@@ -9571,6 +9580,9 @@ aSkipLoad
 globalHistoryOptions
 :
 aGlobalHistoryOptions
+triggeringRemoteType
+:
+aTriggeringRemoteType
 }
 )
 ;
@@ -14253,6 +14265,7 @@ csp
 skipLoad
 batchInsertingTabs
 globalHistoryOptions
+triggeringRemoteType
 }
 =
 {
@@ -16108,6 +16121,7 @@ charset
 postData
 csp
 globalHistoryOptions
+triggeringRemoteType
 }
 )
 ;
