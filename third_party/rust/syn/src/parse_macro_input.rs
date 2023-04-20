@@ -58,13 +58,11 @@ parse
 module
 ]
 :
+mod
 crate
 :
 :
-rustdoc_workaround
-:
-:
-parse_module
+parse
 /
 /
 /
@@ -440,10 +438,7 @@ trait
 crate
 :
 :
-rustdoc_workaround
-:
-:
-parse_module
+parse
 :
 :
 Parser

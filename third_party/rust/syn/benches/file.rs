@@ -6,6 +6,7 @@ bench
 -
 features
 full
+test
 -
 -
 bench

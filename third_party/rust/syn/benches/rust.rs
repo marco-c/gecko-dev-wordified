@@ -6,6 +6,7 @@ bench
 -
 features
 full
+test
 -
 -
 bench
@@ -39,6 +40,7 @@ release
 -
 features
 full
+test
 -
 -
 bench
@@ -332,6 +334,10 @@ emitter
 :
 :
 Emitter
+translation
+:
+:
+Translate
 Diagnostic
 Handler
 }
@@ -428,6 +434,12 @@ SourceMap
 {
 None
 }
+}
+impl
+Translate
+for
+SilentEmitter
+{
 fn
 fluent_bundle
 (
@@ -635,7 +647,6 @@ Result
 )
 >
 {
-let
 _
 =
 content
