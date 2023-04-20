@@ -586,6 +586,7 @@ return
 false
 ;
 }
+return
 ec
 -
 >
@@ -594,9 +595,6 @@ reportWarning
 &
 err
 )
-;
-return
-true
 ;
 }
 static

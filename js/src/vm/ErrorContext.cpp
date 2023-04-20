@@ -524,7 +524,7 @@ return
 ;
 }
 }
-void
+bool
 OffThreadErrorContext
 :
 :
@@ -565,6 +565,7 @@ errorPtr
 )
 {
 return
+false
 ;
 }
 if
@@ -591,8 +592,12 @@ ReportOutOfMemory
 )
 ;
 return
+false
 ;
 }
+return
+true
+;
 }
 void
 OffThreadErrorContext
