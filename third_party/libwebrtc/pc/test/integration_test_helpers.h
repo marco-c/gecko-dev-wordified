@@ -5389,6 +5389,12 @@ PeerConnectionInterface
 RTCConfiguration
 modified_config
 ;
+modified_config
+.
+sdp_semantics
+=
+sdp_semantics_
+;
 /
 /
 If
