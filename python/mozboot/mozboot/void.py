@@ -85,26 +85,6 @@ BaseBootstrapper
 )
 :
     
-PACKAGES
-=
-[
-"
-clang
-"
-"
-make
-"
-"
-mercurial
-"
-"
-watchman
-"
-"
-unzip
-"
-]
-    
 BROWSER_PACKAGES
 =
 [
@@ -202,14 +182,6 @@ self
 dist_id
 =
 dist_id
-        
-self
-.
-packages
-=
-self
-.
-PACKAGES
         
 self
 .
@@ -405,9 +377,10 @@ command
 )
     
 def
-install_system_packages
+install_packages
 (
 self
+packages
 )
 :
         
@@ -416,8 +389,6 @@ self
 xbps_install
 (
 *
-self
-.
 packages
 )
     
