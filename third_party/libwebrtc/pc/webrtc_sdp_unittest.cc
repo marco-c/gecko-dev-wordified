@@ -441,12 +441,6 @@ using
 cricket
 :
 :
-DataCodec
-;
-using
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTCP
 ;
 using

@@ -8813,11 +8813,6 @@ the
 onRenegotiationNeeded
 event
 for
-every
-new
-RTP
-DataChannel
-or
 /
 /
 the

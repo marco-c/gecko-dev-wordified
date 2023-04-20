@@ -3303,11 +3303,6 @@ audio
 /
 video
 channels
-and
-the
-/
-/
-RtpDataChannel
 .
 void
 EnableSending

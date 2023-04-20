@@ -341,16 +341,6 @@ std
 :
 vector
 <
-RtpDataCodec
->
-RtpDataCodecs
-;
-typedef
-std
-:
-:
-vector
-<
 CryptoParams
 >
 CryptoParamsVec

@@ -571,14 +571,6 @@ reassignments
 )
 {
 {
-kGoogleRtpDataCodecName
-0
-0
-}
-kGoogleRtpDataCodecPlType
-}
-{
-{
 kIlbcCodecName
 8000
 1
