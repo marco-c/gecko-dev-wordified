@@ -2341,6 +2341,12 @@ getter_AddRefs
 mThread
 )
 this
+{
+.
+blockDispatch
+=
+true
+}
 )
 ;
 if

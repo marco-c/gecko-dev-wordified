@@ -1565,7 +1565,12 @@ nsThread
 :
 :
 NOT_MAIN_THREAD
+{
+.
+stackSize
+=
 kWorkletStackSize
+}
 )
 mWorkletImpl
 (

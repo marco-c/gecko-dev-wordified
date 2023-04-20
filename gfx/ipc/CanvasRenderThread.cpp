@@ -543,7 +543,12 @@ PRIORITY_HIGH
 ;
 }
 )
+{
+.
 stackSize
+=
+stackSize
+}
 )
 ;
 if
