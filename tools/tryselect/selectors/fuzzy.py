@@ -58,6 +58,10 @@ os
 import
 sys
 from
+pathlib
+import
+PurePath
+from
 gecko_taskgraph
 .
 target_tasks
@@ -1168,9 +1172,15 @@ f
 format
 (
                     
+str
+(
+PurePath
+(
 sys
 .
 executable
+)
+)
 PREVIEW_SCRIPT
 dep_cache
 cache_dir
@@ -1216,10 +1226,18 @@ f
 .
 format
 (
+                    
+str
+(
+PurePath
+(
 sys
 .
 executable
+)
+)
 PREVIEW_SCRIPT
+                
 )
             
 ]
