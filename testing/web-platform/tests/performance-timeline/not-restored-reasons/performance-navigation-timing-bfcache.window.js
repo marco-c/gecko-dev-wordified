@@ -172,6 +172,7 @@ noopener
 }
 )
 ;
+await
 prepareForBFCache
 (
 rc1
@@ -204,6 +205,7 @@ historyBack
 (
 )
 ;
+await
 assert_implements_bfcache
 (
 rc1
