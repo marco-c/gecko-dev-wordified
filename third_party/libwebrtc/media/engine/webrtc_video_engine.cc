@@ -9159,13 +9159,6 @@ Release
 )
 ;
 }
-/
-/
-RTC_RUN_ON
-(
-&
-thread_checker_
-)
 void
 WebRtcVideoChannel
 :
@@ -9176,6 +9169,12 @@ uint32_t
 ssrc
 )
 {
+RTC_DCHECK_RUN_ON
+(
+&
+thread_checker_
+)
+;
 if
 (
 ssrc

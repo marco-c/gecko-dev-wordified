@@ -6275,12 +6275,6 @@ return
 info
 ;
 }
-/
-/
-RTC_RUN_ON
-(
-worker_thread_checker_
-)
 void
 ChannelReceive
 :
@@ -6293,6 +6287,12 @@ int64_t
 now_ms
 )
 {
+RTC_DCHECK_RUN_ON
+(
+&
+worker_thread_checker_
+)
+;
 /
 /
 TODO

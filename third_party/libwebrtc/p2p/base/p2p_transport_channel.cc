@@ -13926,12 +13926,6 @@ StopGettingPorts
 }
 }
 }
-/
-/
-RTC_RUN_ON
-(
-network_thread_
-)
 void
 P2PTransportChannel
 :
@@ -13940,6 +13934,11 @@ OnSelectedConnectionDestroyed
 (
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 RTC_LOG
 (
 LS_INFO
