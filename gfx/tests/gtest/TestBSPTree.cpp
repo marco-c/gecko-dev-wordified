@@ -207,7 +207,7 @@ std
 :
 list
 <
-LayerPolygon
+TestPolygon
 >
 layers
 ;
@@ -224,7 +224,7 @@ layers
 .
 push_back
 (
-LayerPolygon
+TestPolygon
 (
 nullptr
 std
@@ -248,7 +248,7 @@ layers
 const
 nsTArray
 <
-LayerPolygon
+TestPolygon
 >
 order
 =
