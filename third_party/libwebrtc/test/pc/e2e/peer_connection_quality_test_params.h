@@ -1158,6 +1158,12 @@ PeerConnectionInterface
 RTCConfiguration
 rtc_configuration
 ;
+PeerConnectionInterface
+:
+:
+RTCOfferAnswerOptions
+rtc_offer_answer_options
+;
 BitrateSettings
 bitrate_settings
 ;
