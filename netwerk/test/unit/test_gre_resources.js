@@ -122,6 +122,8 @@ Assert
 .
 ok
 (
+!
+!
 instr
 .
 read
@@ -130,8 +132,6 @@ read
 )
 .
 length
->
-0
 )
 ;
 }

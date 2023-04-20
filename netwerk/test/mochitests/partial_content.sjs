@@ -737,8 +737,6 @@ range
 range
 .
 length
->
-0
 )
 {
 ERR
@@ -781,8 +779,6 @@ ifRange
 ifRange
 .
 length
->
-0
 )
 {
 ERR

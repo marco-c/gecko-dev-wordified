@@ -932,12 +932,10 @@ waitTime
 }
 if
 (
+!
 vals
 .
 length
-=
-=
-0
 )
 {
 throw

@@ -273,12 +273,10 @@ maybeFinishWaitForParentChannels
 {
 if
 (
+!
 expectedParentChannels
 .
 length
-=
-=
-0
 )
 {
 dump
