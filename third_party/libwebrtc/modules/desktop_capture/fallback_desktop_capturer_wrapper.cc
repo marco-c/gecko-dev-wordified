@@ -111,9 +111,9 @@ utility
 #
 include
 "
-rtc_base
+api
 /
-checks
+sequence_checker
 .
 h
 "
@@ -122,9 +122,7 @@ include
 "
 rtc_base
 /
-synchronization
-/
-sequence_checker
+checks
 .
 h
 "
