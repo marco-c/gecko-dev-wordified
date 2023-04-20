@@ -8183,11 +8183,9 @@ SSRC
 stream_
 -
 >
-rtp_config
+remote_ssrc
 (
 )
-.
-remote_ssrc
 <
 <
 "
@@ -8297,9 +8295,12 @@ encodings
 .
 ssrc
 =
-config
-.
+stream_
+-
+>
 remote_ssrc
+(
+)
 ;
 rtp_parameters
 .
