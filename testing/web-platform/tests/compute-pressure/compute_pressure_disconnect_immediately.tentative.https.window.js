@@ -197,6 +197,9 @@ observer2_updates
 [
 0
 ]
+[
+0
+]
 .
 state
 [
