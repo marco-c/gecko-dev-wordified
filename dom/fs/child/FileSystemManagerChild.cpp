@@ -249,11 +249,10 @@ MutableAccessHandlePtr
 ;
 if
 (
-!
 handle
 -
 >
-IsClosed
+IsOpen
 (
 )
 )
