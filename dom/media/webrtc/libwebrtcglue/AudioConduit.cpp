@@ -2999,10 +2999,7 @@ static_cast
 webrtc
 :
 :
-internal
-:
-:
-AudioReceiveStream
+AudioReceiveStreamImpl
 *
 >
 (
