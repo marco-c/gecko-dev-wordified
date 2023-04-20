@@ -418,6 +418,13 @@ DataRate
 bitrate
 )
 ;
+void
+SetTransportOverhead
+(
+DataSize
+overhead_per_packet
+)
+;
 /
 /
 Implements
