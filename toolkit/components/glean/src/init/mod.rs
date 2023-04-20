@@ -880,6 +880,13 @@ pings
 :
 register_pings
 (
+Some
+(
+&
+conf
+.
+application_id
+)
 )
 ;
 glean
@@ -1192,7 +1199,7 @@ None
 use_core_mps
 trim_data_to_registered_pings
 :
-false
+true
 }
 ;
 Ok
