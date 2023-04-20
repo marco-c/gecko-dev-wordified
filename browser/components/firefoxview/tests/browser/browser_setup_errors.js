@@ -529,7 +529,7 @@ spy
 (
 TabsSetupFlowManager
 "
-forceSyncTabs
+tryToClearError
 "
 )
 ;
@@ -730,7 +730,7 @@ waitForCondition
 return
 TabsSetupFlowManager
 .
-forceSyncTabs
+tryToClearError
 .
 calledOnce
 ;
@@ -741,13 +741,13 @@ ok
 (
 TabsSetupFlowManager
 .
-forceSyncTabs
+tryToClearError
 .
 calledOnce
 "
 TabsSetupFlowManager
 .
-forceSyncTabs
+tryToClearError
 (
 )
 was
