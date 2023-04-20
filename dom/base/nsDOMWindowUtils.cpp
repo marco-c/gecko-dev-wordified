@@ -25994,6 +25994,9 @@ bool
 aHiDPI
 )
 {
+#
+ifdef
+DEBUG
 nsCOMPtr
 <
 nsIWidget
@@ -26021,6 +26024,13 @@ SetHiDPIMode
 aHiDPI
 )
 ;
+#
+else
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+endif
 }
 NS_IMETHODIMP
 nsDOMWindowUtils
@@ -26030,6 +26040,9 @@ RestoreHiDPIMode
 (
 )
 {
+#
+ifdef
+DEBUG
 nsCOMPtr
 <
 nsIWidget
@@ -26056,4 +26069,11 @@ RestoreHiDPIMode
 (
 )
 ;
+#
+else
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+endif
 }
