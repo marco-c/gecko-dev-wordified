@@ -413,7 +413,6 @@ VideoLayerFrameId
 continuous_id
 (
 continuous_pid
-0
 )
 ;
 if

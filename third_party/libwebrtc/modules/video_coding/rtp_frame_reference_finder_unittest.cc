@@ -439,12 +439,13 @@ picture_id
 uint16_t
 sidx
 =
+*
 frame
 -
 >
-id
-.
-spatial_layer
+SpatialIndex
+(
+)
 ;
 auto
 frame_it
