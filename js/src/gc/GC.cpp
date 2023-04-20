@@ -3182,10 +3182,6 @@ marker
 (
 rt
 )
-barrierTracer
-(
-rt
-)
 sweepingTracer
 (
 rt
