@@ -7120,6 +7120,15 @@ extend
 =
 =
 CAIRO_EXTEND_NONE
+|
+|
+source
+-
+>
+extend
+=
+=
+CAIRO_EXTEND_PAD
 )
 {
 int
