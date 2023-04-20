@@ -641,7 +641,7 @@ FecController
 fec_controller
 )
 :
-worker_queue_
+rtp_transport_queue_
 (
 transport
 -
@@ -767,7 +767,7 @@ references
 local
 variables
 .
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -804,7 +804,7 @@ VideoSendStreamImpl
 clock
 &
 stats_proxy_
-worker_queue_
+rtp_transport_queue_
 call_stats
 transport
 bitrate_allocator
@@ -1083,7 +1083,7 @@ get
 (
 )
 ;
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -1162,7 +1162,7 @@ get
 (
 )
 ;
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -1274,7 +1274,7 @@ get
 (
 )
 ;
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
@@ -1574,7 +1574,7 @@ DeRegisterProcessThread
 (
 )
 ;
-worker_queue_
+rtp_transport_queue_
 -
 >
 PostTask
