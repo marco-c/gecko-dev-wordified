@@ -342,6 +342,12 @@ scaling_factor_den
 =
 2
 ;
+result
+.
+uses_reference_scaling
+=
+true
+;
 return
 result
 ;

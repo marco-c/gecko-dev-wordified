@@ -365,6 +365,14 @@ sid
 ]
 ;
 }
+result
+.
+uses_reference_scaling
+=
+num_spatial_layers_
+>
+1
+;
 return
 result
 ;
