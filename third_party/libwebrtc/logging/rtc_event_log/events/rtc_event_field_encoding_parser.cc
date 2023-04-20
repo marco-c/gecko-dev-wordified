@@ -743,6 +743,17 @@ return
 0
 ;
 }
+RTC_NOTREACHED
+(
+)
+;
+SetError
+(
+)
+;
+return
+0
+;
 }
 void
 EventParser
