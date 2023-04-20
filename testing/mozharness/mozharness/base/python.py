@@ -114,17 +114,17 @@ json
 import
 os
 import
-socket
-import
-sys
-import
 shutil
 import
 site
 import
-traceback
+socket
 import
 subprocess
+import
+sys
+import
+traceback
 from
 pathlib
 import
@@ -144,10 +144,6 @@ urllib
 parse
 as
 urlparse
-from
-six
-import
-string_types
 import
 mozharness
 from
@@ -184,6 +180,10 @@ PreScriptAction
     
 ScriptMixin
 )
+from
+six
+import
+string_types
 external_tools_path
 =
 os
@@ -265,6 +265,9 @@ Choosing_SSL_Version_In_Requests
 /
     
 import
+ssl
+    
+import
 requests
     
 from
@@ -277,9 +280,6 @@ urllib3
 poolmanager
 import
 PoolManager
-    
-import
-ssl
     
 class
 TLSV1Adapter
@@ -1693,9 +1693,7 @@ http
 client
         
 import
-urllib
-.
-request
+time
         
 import
 urllib
@@ -1703,7 +1701,9 @@ urllib
 error
         
 import
-time
+urllib
+.
+request
         
 c
 =
@@ -5666,9 +5666,9 @@ psutil
 =
 5
 .
-6
+9
 .
-3
+0
 "
 method
 =
