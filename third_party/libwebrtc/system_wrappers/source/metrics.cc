@@ -1842,14 +1842,10 @@ Fast
 path
 .
 Adds
-|
 sample
-|
 to
 cached
-|
 histogram_pointer
-|
 .
 void
 HistogramAdd

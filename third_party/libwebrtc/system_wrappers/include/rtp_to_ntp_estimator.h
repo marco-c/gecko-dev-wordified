@@ -275,9 +275,7 @@ NTP
 timestamp
 pairs
 in
-|
 measurements_
-|
 .
 struct
 Parameters
@@ -344,9 +342,7 @@ report
 .
 /
 /
-|
 new_rtcp_sr
-|
 is
 set
 to

@@ -539,9 +539,7 @@ method
 does
 not
 check
-|
 use_system_independent_ntp_time_
-|
 because
 /
 /
@@ -553,9 +551,7 @@ the
 old
 behavior
 of
-|
 CurrentNtpTime
-|
 .
 return
 TimeMicrosToNtp

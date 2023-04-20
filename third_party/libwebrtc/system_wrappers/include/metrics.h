@@ -1148,9 +1148,7 @@ buckets
 .
 /
 /
-|
 boundary
-|
 should
 be
 above
@@ -1275,9 +1273,7 @@ buckets
 .
 /
 /
-|
 boundary
-|
 should
 be
 above
@@ -1608,9 +1604,7 @@ pointer
 is
 cached
 .
-|
 index
-|
 should
 be
 different
@@ -1619,9 +1613,7 @@ different
 names
 .
 Allowed
-|
 index
-|
 /
 /
 values
@@ -2743,9 +2735,7 @@ enumerators
 .
 /
 /
-|
 boundary
-|
 should
 be
 above
@@ -2779,9 +2769,7 @@ enumerators
 .
 /
 /
-|
 boundary
-|
 should
 be
 above
@@ -2811,9 +2799,7 @@ Function
 for
 adding
 a
-|
 sample
-|
 to
 a
 histogram
@@ -2979,9 +2965,7 @@ number
 of
 times
 the
-|
 sample
-|
 has
 been
 added

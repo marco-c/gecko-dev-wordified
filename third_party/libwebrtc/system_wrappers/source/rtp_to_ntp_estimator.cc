@@ -639,9 +639,7 @@ in
 /
 /
 RtpToNtpMs
-|
 rtp_timestamp_ms
-|
 is
 estimated
 by

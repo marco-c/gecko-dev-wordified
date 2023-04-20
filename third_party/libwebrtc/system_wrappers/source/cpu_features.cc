@@ -226,9 +226,7 @@ defined
 by
 Intel
 so
-|
 xcr
-|
 should
 always
 be

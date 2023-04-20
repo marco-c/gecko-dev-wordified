@@ -442,9 +442,7 @@ n2
 /
 /
 Converts
-|
 int64_t
-|
 milliseconds
 to
 Q32
@@ -679,9 +677,7 @@ result
 /
 /
 Converts
-|
 int64_t
-|
 milliseconds
 to
 UQ32
@@ -926,9 +922,7 @@ fixed
 point
 seconds
 to
-|
 int64_t
-|
 milliseconds
 .
 inline
@@ -982,9 +976,7 @@ fixed
 point
 seconds
 to
-|
 int64_t
-|
 milliseconds
 .
 inline
