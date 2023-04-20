@@ -172,6 +172,10 @@ vkCreateWin32SurfaceKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -279,6 +283,10 @@ vkGetPhysicalDeviceWin32PresentationSupportKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -319,6 +327,10 @@ b
 >
 0
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -342,6 +354,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -362,6 +378,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

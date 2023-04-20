@@ -329,11 +329,27 @@ buffer_vec
 }
 ;
 let
+name
+=
+unsafe
+{
+CStr
+:
+:
+from_bytes_with_nul_unchecked
+(
+name_bytes
+)
+}
+;
+let
 _result
 =
+unsafe
+{
 extension
 .
-debug_utils_set_object_name
+set_debug_utils_object_name
 (
 self
 .
@@ -369,15 +385,10 @@ as_raw
 .
 object_name
 (
-CStr
-:
-:
-from_bytes_with_nul_unchecked
-(
-name_bytes
+name
 )
 )
-)
+}
 ;
 }
 pub
@@ -2024,6 +2035,8 @@ values
 (
 )
 {
+unsafe
+{
 self
 .
 raw
@@ -2033,6 +2046,7 @@ destroy_render_pass
 raw
 None
 )
+}
 ;
 }
 for
@@ -2051,6 +2065,8 @@ values
 (
 )
 {
+unsafe
+{
 self
 .
 raw
@@ -2060,12 +2076,15 @@ destroy_framebuffer
 raw
 None
 )
+}
 ;
 }
 if
 self
 .
 handle_is_owned
+{
+unsafe
 {
 self
 .
@@ -2075,6 +2094,7 @@ destroy_device
 (
 None
 )
+}
 ;
 }
 }
@@ -2207,6 +2227,8 @@ info_flags
 ;
 }
 match
+unsafe
+{
 self
 .
 raw
@@ -2217,6 +2239,7 @@ allocate_memory
 info
 None
 )
+}
 {
 Ok
 (
@@ -2332,6 +2355,8 @@ vk
 DeviceMemory
 )
 {
+unsafe
+{
 self
 .
 raw
@@ -2341,6 +2366,7 @@ free_memory
 memory
 None
 )
+}
 ;
 }
 unsafe
@@ -2382,6 +2408,8 @@ DeviceMapError
 >
 {
 match
+unsafe
+{
 self
 .
 raw
@@ -2402,6 +2430,7 @@ empty
 (
 )
 )
+}
 {
 Ok
 (
@@ -2547,6 +2576,8 @@ vk
 DeviceMemory
 )
 {
+unsafe
+{
 self
 .
 raw
@@ -2556,6 +2587,7 @@ unmap_memory
 *
 memory
 )
+}
 ;
 }
 unsafe
@@ -2979,6 +3011,8 @@ build
 )
 ;
 match
+unsafe
+{
 self
 .
 raw
@@ -2989,6 +3023,7 @@ create_descriptor_pool
 vk_info
 None
 )
+}
 {
 Ok
 (
@@ -3123,6 +3158,8 @@ vk
 DescriptorPool
 )
 {
+unsafe
+{
 self
 .
 raw
@@ -3132,6 +3169,7 @@ destroy_descriptor_pool
 pool
 None
 )
+}
 }
 unsafe
 fn
@@ -3194,6 +3232,8 @@ DeviceAllocationError
 let
 result
 =
+unsafe
+{
 self
 .
 raw
@@ -3252,6 +3292,7 @@ build
 (
 )
 )
+}
 ;
 match
 result
@@ -3431,6 +3472,8 @@ DescriptorSet
 let
 result
 =
+unsafe
+{
 self
 .
 raw
@@ -3463,6 +3506,7 @@ from_iter
 sets
 )
 )
+}
 ;
 match
 result
@@ -3880,6 +3924,8 @@ vkCreateSwapchainKHR
 "
 )
 ;
+unsafe
+{
 functor
 .
 create_swapchain
@@ -3888,6 +3934,7 @@ create_swapchain
 info
 None
 )
+}
 }
 ;
 /
@@ -3913,6 +3960,8 @@ null
 (
 )
 {
+unsafe
+{
 functor
 .
 destroy_swapchain
@@ -3920,6 +3969,7 @@ destroy_swapchain
 old_swapchain
 None
 )
+}
 }
 let
 raw
@@ -4015,12 +4065,15 @@ into
 let
 images
 =
+unsafe
+{
 functor
 .
 get_swapchain_images
 (
 raw
 )
+}
 .
 map_err
 (
@@ -4054,6 +4107,8 @@ build
 let
 fence
 =
+unsafe
+{
 self
 .
 shared
@@ -4066,6 +4121,7 @@ create_fence
 vk_info
 None
 )
+}
 .
 map_err
 (
@@ -4183,7 +4239,7 @@ drop_guard
 :
 Option
 <
-super
+crate
 :
 :
 DropGuard
@@ -4249,7 +4305,10 @@ empty
 )
 copy_size
 :
-conv
+crate
+:
+:
+CopyExtent
 :
 :
 map_extent_to_copy_size
@@ -5045,6 +5104,8 @@ super
 Queue
 )
 {
+unsafe
+{
 self
 .
 mem_allocator
@@ -5061,7 +5122,10 @@ self
 .
 shared
 )
+}
 ;
+unsafe
+{
 self
 .
 desc_allocator
@@ -5078,6 +5142,7 @@ self
 .
 shared
 )
+}
 ;
 for
 &
@@ -5091,6 +5156,8 @@ iter
 (
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -5102,8 +5169,11 @@ destroy_semaphore
 sem
 None
 )
+}
 ;
 }
+unsafe
+{
 self
 .
 shared
@@ -5111,6 +5181,7 @@ shared
 free_resources
 (
 )
+}
 ;
 }
 unsafe
@@ -5188,6 +5259,8 @@ EXCLUSIVE
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -5201,10 +5274,13 @@ vk_info
 None
 )
 ?
+}
 ;
 let
 req
 =
+unsafe
+{
 self
 .
 shared
@@ -5215,6 +5291,7 @@ get_buffer_memory_requirements
 (
 raw
 )
+}
 ;
 let
 mut
@@ -5369,6 +5446,8 @@ TRANSIENT
 let
 block
 =
+unsafe
+{
 self
 .
 mem_allocator
@@ -5416,7 +5495,10 @@ valid_ash_memory_types
 }
 )
 ?
+}
 ;
+unsafe
+{
 self
 .
 shared
@@ -5439,6 +5521,7 @@ offset
 )
 )
 ?
+}
 ;
 if
 let
@@ -5450,6 +5533,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -5467,6 +5552,7 @@ BUFFER
 raw
 label
 )
+}
 ;
 }
 Ok
@@ -5503,6 +5589,8 @@ super
 Buffer
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -5516,7 +5604,10 @@ buffer
 raw
 None
 )
+}
 ;
+unsafe
+{
 self
 .
 mem_allocator
@@ -5540,6 +5631,7 @@ into_inner
 (
 )
 )
+}
 ;
 }
 unsafe
@@ -5602,6 +5694,8 @@ lock
 let
 ptr
 =
+unsafe
+{
 block
 .
 map
@@ -5619,6 +5713,7 @@ as
 usize
 )
 ?
+}
 ;
 let
 is_coherent
@@ -5678,6 +5773,8 @@ crate
 DeviceError
 >
 {
+unsafe
+{
 buffer
 .
 block
@@ -5694,6 +5791,7 @@ self
 .
 shared
 )
+}
 ;
 Ok
 (
@@ -5747,6 +5845,8 @@ buffer
 ranges
 )
 ;
+unsafe
+{
 self
 .
 shared
@@ -5779,6 +5879,7 @@ from_iter
 vk_ranges
 )
 )
+}
 .
 unwrap
 (
@@ -5831,6 +5932,8 @@ buffer
 ranges
 )
 ;
+unsafe
+{
 self
 .
 shared
@@ -5863,6 +5966,7 @@ from_iter
 vk_ranges
 )
 )
+}
 .
 unwrap
 (
@@ -6165,6 +6269,8 @@ UNDEFINED
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -6178,10 +6284,13 @@ vk_info
 None
 )
 ?
+}
 ;
 let
 req
 =
+unsafe
+{
 self
 .
 shared
@@ -6192,10 +6301,13 @@ get_image_memory_requirements
 (
 raw
 )
+}
 ;
 let
 block
 =
+unsafe
+{
 self
 .
 mem_allocator
@@ -6249,7 +6361,10 @@ valid_ash_memory_types
 }
 )
 ?
+}
 ;
+unsafe
+{
 self
 .
 shared
@@ -6272,6 +6387,7 @@ offset
 )
 )
 ?
+}
 ;
 if
 let
@@ -6283,6 +6399,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -6300,6 +6418,7 @@ IMAGE
 raw
 label
 )
+}
 ;
 }
 Ok
@@ -6375,6 +6494,8 @@ is_none
 (
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -6388,6 +6509,7 @@ texture
 raw
 None
 )
+}
 ;
 }
 if
@@ -6400,6 +6522,8 @@ block
 texture
 .
 block
+{
+unsafe
 {
 self
 .
@@ -6418,6 +6542,7 @@ self
 shared
 block
 )
+}
 ;
 }
 }
@@ -6644,6 +6769,8 @@ usage
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -6656,6 +6783,7 @@ create_image_view
 vk_info
 None
 )
+}
 ?
 ;
 if
@@ -6668,6 +6796,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -6685,6 +6815,7 @@ IMAGE_VIEW
 raw
 label
 )
+}
 ;
 }
 let
@@ -6821,6 +6952,8 @@ view
 raw
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -6832,6 +6965,7 @@ destroy_framebuffer
 raw_fbuf
 None
 )
+}
 ;
 }
 }
@@ -6869,6 +7003,8 @@ raw
 )
 ;
 }
+unsafe
+{
 self
 .
 shared
@@ -6882,6 +7018,7 @@ view
 raw
 None
 )
+}
 ;
 }
 unsafe
@@ -7176,6 +7313,8 @@ color
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -7189,6 +7328,7 @@ vk_info
 None
 )
 ?
+}
 ;
 if
 let
@@ -7200,6 +7340,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -7217,6 +7359,7 @@ SAMPLER
 raw
 label
 )
+}
 ;
 }
 Ok
@@ -7244,6 +7387,8 @@ super
 Sampler
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -7257,6 +7402,7 @@ sampler
 raw
 None
 )
+}
 ;
 }
 unsafe
@@ -7333,6 +7479,8 @@ build
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -7346,6 +7494,7 @@ vk_info
 None
 )
 ?
+}
 ;
 Ok
 (
@@ -7436,6 +7585,8 @@ super
 CommandEncoder
 )
 {
+unsafe
+{
 if
 !
 cmd_encoder
@@ -7462,7 +7613,6 @@ cmd_encoder
 .
 free
 )
-;
 }
 if
 !
@@ -7490,7 +7640,6 @@ cmd_encoder
 .
 discarded
 )
-;
 }
 self
 .
@@ -7506,6 +7655,7 @@ raw
 None
 )
 ;
+}
 }
 unsafe
 fn
@@ -8342,6 +8492,8 @@ dsl_create_flags
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -8355,6 +8507,7 @@ vk_info
 None
 )
 ?
+}
 ;
 if
 let
@@ -8366,6 +8519,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -8383,6 +8538,7 @@ DESCRIPTOR_SET_LAYOUT
 raw
 label
 )
+}
 ;
 }
 Ok
@@ -8420,6 +8576,8 @@ super
 BindGroupLayout
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -8433,6 +8591,7 @@ bg_layout
 raw
 None
 )
+}
 ;
 }
 unsafe
@@ -8639,6 +8798,8 @@ vkCreatePipelineLayout
 "
 )
 ;
+unsafe
+{
 self
 .
 shared
@@ -8653,6 +8814,7 @@ None
 )
 ?
 }
+}
 ;
 if
 let
@@ -8664,6 +8826,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -8681,6 +8845,7 @@ PIPELINE_LAYOUT
 raw
 label
 )
+}
 ;
 }
 let
@@ -8793,6 +8958,8 @@ super
 PipelineLayout
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -8806,6 +8973,7 @@ pipeline_layout
 raw
 None
 )
+}
 ;
 }
 unsafe
@@ -8846,6 +9014,8 @@ let
 mut
 vk_sets
 =
+unsafe
+{
 self
 .
 desc_allocator
@@ -8903,6 +9073,7 @@ desc_count
 1
 )
 ?
+}
 ;
 let
 set
@@ -8928,6 +9099,8 @@ desc
 .
 label
 {
+unsafe
+{
 self
 .
 shared
@@ -8949,6 +9122,7 @@ raw
 )
 label
 )
+}
 ;
 }
 let
@@ -9514,6 +9688,8 @@ build
 )
 ;
 }
+unsafe
+{
 self
 .
 shared
@@ -9528,6 +9704,7 @@ writes
 [
 ]
 )
+}
 ;
 Ok
 (
@@ -9554,6 +9731,8 @@ super
 BindGroup
 )
 {
+unsafe
+{
 self
 .
 desc_allocator
@@ -9576,6 +9755,7 @@ group
 set
 )
 )
+}
 ;
 }
 unsafe
@@ -9836,7 +10016,6 @@ self
 create_shader_module_impl
 (
 &
-*
 spv
 )
 ?
@@ -9851,6 +10030,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -9868,6 +10049,7 @@ SHADER_MODULE
 raw
 label
 )
+}
 ;
 }
 Ok
@@ -9914,6 +10096,8 @@ raw
 =
 >
 {
+unsafe
+{
 self
 .
 shared
@@ -9925,6 +10109,7 @@ destroy_shader_module
 raw
 None
 )
+}
 ;
 }
 super
@@ -11375,6 +11560,8 @@ vkCreateGraphicsPipelines
 "
 )
 ;
+unsafe
+{
 self
 .
 shared
@@ -11416,6 +11603,7 @@ from
 e
 )
 )
+}
 ?
 }
 ;
@@ -11443,6 +11631,8 @@ desc
 .
 label
 {
+unsafe
+{
 self
 .
 shared
@@ -11459,6 +11649,7 @@ PIPELINE
 raw
 label
 )
+}
 ;
 }
 if
@@ -11472,6 +11663,8 @@ compiled_vs
 .
 temp_raw_module
 {
+unsafe
+{
 self
 .
 shared
@@ -11483,6 +11676,7 @@ destroy_shader_module
 raw_module
 None
 )
+}
 ;
 }
 if
@@ -11504,6 +11698,8 @@ raw_module
 =
 compiled_fs
 {
+unsafe
+{
 self
 .
 shared
@@ -11515,6 +11711,7 @@ destroy_shader_module
 raw_module
 None
 )
+}
 ;
 }
 Ok
@@ -11542,6 +11739,8 @@ super
 RenderPipeline
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -11555,6 +11754,7 @@ pipeline
 raw
 None
 )
+}
 ;
 }
 unsafe
@@ -11671,6 +11871,8 @@ vkCreateComputePipelines
 "
 )
 ;
+unsafe
+{
 self
 .
 shared
@@ -11712,6 +11914,7 @@ from
 e
 )
 )
+}
 ?
 }
 ;
@@ -11739,6 +11942,8 @@ desc
 .
 label
 {
+unsafe
+{
 self
 .
 shared
@@ -11755,6 +11960,7 @@ PIPELINE
 raw
 label
 )
+}
 ;
 }
 if
@@ -11768,6 +11974,8 @@ compiled
 .
 temp_raw_module
 {
+unsafe
+{
 self
 .
 shared
@@ -11779,6 +11987,7 @@ destroy_shader_module
 raw_module
 None
 )
+}
 ;
 }
 Ok
@@ -11806,6 +12015,8 @@ super
 ComputePipeline
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -11819,6 +12030,7 @@ pipeline
 raw
 None
 )
+}
 ;
 }
 unsafe
@@ -11987,6 +12199,8 @@ build
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -11999,6 +12213,7 @@ create_query_pool
 vk_info
 None
 )
+}
 ?
 ;
 if
@@ -12011,6 +12226,8 @@ label
 desc
 .
 label
+{
+unsafe
 {
 self
 .
@@ -12028,6 +12245,7 @@ QUERY_POOL
 raw
 label
 )
+}
 ;
 }
 Ok
@@ -12055,6 +12273,8 @@ super
 QuerySet
 )
 {
+unsafe
+{
 self
 .
 shared
@@ -12068,6 +12288,7 @@ set
 raw
 None
 )
+}
 ;
 }
 unsafe
@@ -12150,6 +12371,8 @@ sem_type_info
 let
 raw
 =
+unsafe
+{
 self
 .
 shared
@@ -12162,6 +12385,7 @@ create_semaphore
 vk_info
 None
 )
+}
 ?
 ;
 super
@@ -12238,6 +12462,8 @@ raw
 =
 >
 {
+unsafe
+{
 self
 .
 shared
@@ -12249,6 +12475,7 @@ destroy_semaphore
 raw
 None
 )
+}
 ;
 }
 super
@@ -12276,23 +12503,7 @@ raw
 in
 active
 {
-self
-.
-shared
-.
-raw
-.
-destroy_fence
-(
-raw
-None
-)
-;
-}
-for
-raw
-in
-free
+unsafe
 {
 self
 .
@@ -12305,6 +12516,28 @@ destroy_fence
 raw
 None
 )
+}
+;
+}
+for
+raw
+in
+free
+{
+unsafe
+{
+self
+.
+shared
+.
+raw
+.
+destroy_fence
+(
+raw
+None
+)
+}
 ;
 }
 }
@@ -12491,6 +12724,7 @@ ext
 )
 =
 >
+unsafe
 {
 ext
 .
@@ -12513,6 +12747,7 @@ Promoted
 )
 =
 >
+unsafe
 {
 self
 .
@@ -12648,6 +12883,8 @@ raw
 >
 {
 match
+unsafe
+{
 self
 .
 shared
@@ -12663,6 +12900,7 @@ raw
 true
 timeout_ns
 )
+}
 {
 Ok
 (
@@ -12818,9 +13056,14 @@ _
 let
 raw_vk_instance_dispatch_table
 =
+unsafe
+{
 *
 raw_vk_instance
+}
 ;
+unsafe
+{
 self
 .
 render_doc
@@ -12835,6 +13078,7 @@ null_mut
 (
 )
 )
+}
 }
 #
 [
@@ -12923,9 +13167,14 @@ _
 let
 raw_vk_instance_dispatch_table
 =
+unsafe
+{
 *
 raw_vk_instance
+}
 ;
+unsafe
+{
 self
 .
 render_doc
@@ -12940,6 +13189,7 @@ null_mut
 (
 )
 )
+}
 }
 }
 }

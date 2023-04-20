@@ -212,11 +212,14 @@ enable_layer
 (
 )
 ;
+unsafe
+{
 debug_controller
 .
 Release
 (
 )
+}
 ;
 }
 Err
@@ -364,6 +367,8 @@ FALSE
 let
 hr
 =
+unsafe
+{
 factory5
 .
 CheckFeatureSupport
@@ -400,6 +405,7 @@ BOOL
 as
 _
 )
+}
 ;
 match
 hr

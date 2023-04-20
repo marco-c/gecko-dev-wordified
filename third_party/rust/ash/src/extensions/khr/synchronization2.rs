@@ -154,6 +154,10 @@ vkCmdPipelineBarrier2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -222,6 +226,10 @@ vkCmdResetEvent2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -296,6 +304,10 @@ vkCmdSetEvent2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -371,6 +383,10 @@ vkCmdWaitEvents2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -481,6 +497,10 @@ vkCmdWriteTimestamp2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -559,6 +579,10 @@ vkQueueSubmit2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -624,6 +648,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -647,6 +675,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

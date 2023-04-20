@@ -166,6 +166,10 @@ vkImportFenceFdKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -241,6 +245,10 @@ vkGetFenceFdKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -292,6 +300,10 @@ result_with_success
 fd
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -315,6 +327,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -335,6 +351,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

@@ -166,6 +166,10 @@ vkDebugMarkerSetObjectNameEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -241,6 +245,10 @@ vkCmdDebugMarkerBeginEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -310,6 +318,10 @@ vkCmdDebugMarkerEndEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -371,6 +383,10 @@ vkCmdDebugMarkerInsertEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -406,6 +422,10 @@ marker_info
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -429,6 +449,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -449,6 +473,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

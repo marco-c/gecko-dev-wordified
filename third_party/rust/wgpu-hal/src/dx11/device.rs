@@ -1198,6 +1198,8 @@ D3D11_FEATURE
 >
 T
 {
+unsafe
+{
 let
 mut
 value
@@ -1264,5 +1266,6 @@ Ok
 )
 ;
 value
+}
 }
 }

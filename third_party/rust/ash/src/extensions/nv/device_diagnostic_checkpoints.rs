@@ -191,6 +191,10 @@ vkCmdSetCheckpointNV
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -247,6 +251,10 @@ Self
 get_queue_checkpoint_data
 (
 )
+]
+#
+[
+inline
 ]
 pub
 unsafe
@@ -389,6 +397,10 @@ their
 p_next
 pointer
 .
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -459,6 +471,10 @@ len
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -482,6 +498,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

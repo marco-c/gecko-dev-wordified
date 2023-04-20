@@ -2755,7 +2755,7 @@ handle
 map_err
 (
 |
-error
+source
 |
 {
 FunctionError
@@ -2764,7 +2764,7 @@ FunctionError
 Expression
 {
 handle
-error
+source
 }
 .
 with_span_handle
@@ -2834,7 +2834,7 @@ handle
 map_err
 (
 |
-error
+source
 |
 {
 FunctionError
@@ -2843,7 +2843,7 @@ FunctionError
 Expression
 {
 handle
-error
+source
 }
 .
 with_span_handle
@@ -6543,7 +6543,7 @@ if
 let
 Err
 (
-error
+source
 )
 =
 info
@@ -6574,7 +6574,7 @@ FunctionError
 Expression
 {
 handle
-error
+source
 }
 .
 with_span_handle

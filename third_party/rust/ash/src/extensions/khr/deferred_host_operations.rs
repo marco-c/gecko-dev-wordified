@@ -172,6 +172,10 @@ vkCreateDeferredOperationKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -271,6 +275,10 @@ vkDeferredOperationJoinKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -345,6 +353,10 @@ vkDestroyDeferredOperationKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -424,6 +436,10 @@ vkGetDeferredOperationMaxConcurrencyKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -490,6 +506,10 @@ vkGetDeferredOperationResultKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -530,6 +550,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -553,6 +577,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -573,6 +601,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

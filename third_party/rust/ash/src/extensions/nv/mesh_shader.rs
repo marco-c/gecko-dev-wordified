@@ -145,6 +145,10 @@ vkCmdDrawMeshTasksNV
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -214,6 +218,10 @@ vkCmdDrawMeshTasksIndirectNV
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -297,6 +305,10 @@ vkCmdDrawMeshTasksIndirectCountNV
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -360,6 +372,10 @@ stride
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -383,6 +399,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

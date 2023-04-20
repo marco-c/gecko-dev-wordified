@@ -157,6 +157,10 @@ vkGetBufferDeviceAddressKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -227,6 +231,10 @@ vkGetBufferOpaqueCaptureAddressKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -294,6 +302,10 @@ vkGetDeviceMemoryOpaqueCaptureAddressKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -327,6 +339,10 @@ handle
 info
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -350,6 +366,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -370,6 +390,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

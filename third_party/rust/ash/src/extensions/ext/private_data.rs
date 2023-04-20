@@ -206,6 +206,10 @@ vkCreatePrivateDataSlotEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -313,6 +317,10 @@ vkDestroyPrivateDataSlotEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -391,6 +399,10 @@ vkSetPrivateDataEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -489,6 +501,10 @@ vkGetPrivateDataEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -557,6 +573,10 @@ data
 ;
 data
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -580,6 +600,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -600,6 +624,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

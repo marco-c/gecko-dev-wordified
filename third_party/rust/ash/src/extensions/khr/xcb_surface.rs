@@ -172,6 +172,10 @@ vkCreateXcbSurfaceKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -279,6 +283,10 @@ vkGetPhysicalDeviceXcbPresentationSupportKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -335,6 +343,10 @@ b
 >
 0
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -358,6 +370,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -378,6 +394,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

@@ -172,6 +172,10 @@ vkGetPhysicalDeviceSurfaceSupportKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -265,6 +269,10 @@ vkGetPhysicalDeviceSurfacePresentModesKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -355,6 +363,10 @@ vkGetPhysicalDeviceSurfaceCapabilitiesKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -450,6 +462,10 @@ vkGetPhysicalDeviceSurfaceFormatsKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -540,6 +556,10 @@ vkDestroySurfaceKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -585,6 +605,10 @@ as_raw_ptr
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -608,6 +632,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -628,6 +656,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

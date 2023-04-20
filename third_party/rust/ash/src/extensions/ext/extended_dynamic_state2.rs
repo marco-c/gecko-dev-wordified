@@ -179,6 +179,10 @@ vkCmdSetPatchControlPointsEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -243,6 +247,10 @@ vkCmdSetRasterizerDiscardEnableEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -311,6 +319,10 @@ vkCmdSetDepthBiasEnableEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -379,6 +391,10 @@ vkCmdSetLogicOpEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -446,6 +462,10 @@ vkCmdSetPrimitiveRestartEnableEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -480,6 +500,10 @@ into
 )
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -503,6 +527,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

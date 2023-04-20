@@ -181,11 +181,7 @@ Argument
 index
 :
 usize
-#
-[
 source
-]
-error
 :
 ExpressionError
 }
@@ -651,11 +647,7 @@ crate
 :
 Expression
 >
-#
-[
 source
-]
-error
 :
 ExpressionError
 }
@@ -731,11 +723,7 @@ LocalVariable
 name
 :
 String
-#
-[
 source
-]
-error
 :
 LocalVariableError
 }
@@ -1920,7 +1908,7 @@ valid_expressions
 map_err_inner
 (
 |
-error
+source
 |
 FunctionError
 :
@@ -1928,7 +1916,7 @@ FunctionError
 Expression
 {
 handle
-error
+source
 }
 .
 with_span
@@ -1987,7 +1975,7 @@ FunctionError
 Expression
 {
 handle
-error
+source
 :
 ExpressionError
 :
@@ -2215,7 +2203,7 @@ valid_expression_set
 map_err_inner
 (
 |
-error
+source
 |
 {
 CallError
@@ -2224,7 +2212,7 @@ CallError
 Argument
 {
 index
-error
+source
 }
 .
 with_span_handle
@@ -6062,7 +6050,7 @@ constants
 map_err
 (
 |
-error
+source
 |
 {
 FunctionError
@@ -6086,7 +6074,7 @@ clone
 unwrap_or_default
 (
 )
-error
+source
 }
 .
 with_span_handle
@@ -6613,7 +6601,7 @@ available_stages
 stages
 Err
 (
-error
+source
 )
 =
 >
@@ -6627,7 +6615,7 @@ FunctionError
 Expression
 {
 handle
-error
+source
 }
 .
 with_span_handle

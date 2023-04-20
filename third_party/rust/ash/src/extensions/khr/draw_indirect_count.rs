@@ -145,6 +145,10 @@ vkCmdDrawIndexedIndirectCountKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -242,6 +246,10 @@ vkCmdDrawIndirectCountKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -305,6 +313,10 @@ stride
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -328,6 +340,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

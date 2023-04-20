@@ -157,6 +157,10 @@ vkGetBufferDeviceAddressEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -193,6 +197,10 @@ handle
 info
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -216,6 +224,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -236,6 +248,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

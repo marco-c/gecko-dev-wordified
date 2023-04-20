@@ -166,6 +166,10 @@ vkGetSemaphoreCounterValue
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -249,6 +253,10 @@ vkWaitSemaphores
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -328,6 +336,10 @@ vkSignalSemaphore
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -369,6 +381,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -392,6 +408,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -412,6 +432,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

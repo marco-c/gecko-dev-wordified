@@ -166,6 +166,10 @@ vkGetPipelineExecutableInternalRepresentationsKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -253,6 +257,10 @@ vkGetPipelineExecutablePropertiesKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -340,6 +348,10 @@ vkGetPipelineExecutableStatisticsKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -393,6 +405,10 @@ data
 }
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -416,6 +432,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -436,6 +456,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

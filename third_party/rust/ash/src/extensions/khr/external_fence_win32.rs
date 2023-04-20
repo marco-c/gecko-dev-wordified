@@ -206,6 +206,10 @@ vkImportFenceWin32HandleKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -281,6 +285,10 @@ vkGetFenceWin32HandleKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -339,6 +347,10 @@ result_with_success
 handle
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -362,6 +374,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -382,6 +398,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

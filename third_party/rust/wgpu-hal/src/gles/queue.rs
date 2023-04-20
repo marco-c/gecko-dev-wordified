@@ -257,6 +257,8 @@ f32
 ]
 )
 {
+unsafe
+{
 gl
 .
 use_program
@@ -268,7 +270,10 @@ self
 shader_clear_program
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 uniform_4_f32
@@ -297,7 +302,10 @@ color
 3
 ]
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -307,7 +315,10 @@ glow
 :
 DEPTH_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -317,7 +328,10 @@ glow
 :
 STENCIL_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -327,7 +341,10 @@ glow
 :
 SCISSOR_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -337,7 +354,10 @@ glow
 :
 BLEND
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -347,7 +367,10 @@ glow
 :
 CULL_FACE
 )
+}
 ;
+unsafe
+{
 gl
 .
 draw_buffers
@@ -362,7 +385,10 @@ COLOR_ATTACHMENT0
 draw_buffer
 ]
 )
+}
 ;
+unsafe
+{
 gl
 .
 draw_arrays
@@ -374,6 +400,7 @@ TRIANGLES
 0
 3
 )
+}
 ;
 if
 self
@@ -441,6 +468,8 @@ MAX_COLOR_ATTACHMENTS
 (
 )
 ;
+unsafe
+{
 gl
 .
 draw_buffers
@@ -448,6 +477,7 @@ draw_buffers
 &
 indices
 )
+}
 ;
 }
 #
@@ -476,6 +506,8 @@ draw_buffer_count
 as
 u32
 {
+unsafe
+{
 gl
 .
 disable_draw_buffer
@@ -486,6 +518,7 @@ glow
 BLEND
 draw_buffer
 )
+}
 ;
 }
 }
@@ -505,13 +538,18 @@ glow
 Context
 )
 {
+unsafe
+{
 gl
 .
 use_program
 (
 None
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -522,7 +560,10 @@ glow
 FRAMEBUFFER
 None
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -532,7 +573,10 @@ glow
 :
 DEPTH_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -542,7 +586,10 @@ glow
 :
 STENCIL_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -552,7 +599,10 @@ glow
 :
 SCISSOR_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -562,7 +612,10 @@ glow
 :
 BLEND
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -572,7 +625,10 @@ glow
 :
 CULL_FACE
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -582,6 +638,7 @@ glow
 :
 POLYGON_OFFSET_FILL
 )
+}
 ;
 if
 self
@@ -599,6 +656,8 @@ Features
 DEPTH_CLIP_CONTROL
 )
 {
+unsafe
+{
 gl
 .
 disable
@@ -608,8 +667,11 @@ glow
 :
 DEPTH_CLAMP
 )
+}
 ;
 }
+unsafe
+{
 gl
 .
 bind_buffer
@@ -620,6 +682,7 @@ glow
 ELEMENT_ARRAY_BUFFER
 None
 )
+}
 ;
 self
 .
@@ -674,6 +737,8 @@ raw
 =
 >
 {
+unsafe
+{
 gl
 .
 framebuffer_renderbuffer
@@ -689,6 +754,7 @@ Some
 raw
 )
 )
+}
 ;
 }
 super
@@ -723,11 +789,86 @@ target
 =
 >
 {
+let
+num_layers
+=
+view
+.
+array_layers
+.
+end
+-
+view
+.
+array_layers
+.
+start
+;
+if
+num_layers
+>
+1
+{
+#
+[
+cfg
+(
+all
+(
+target_arch
+=
+"
+wasm32
+"
+target_os
+=
+"
+unknown
+"
+)
+)
+]
+unsafe
+{
+gl
+.
+framebuffer_texture_multiview_ovr
+(
+fbo_target
+attachment
+Some
+(
+raw
+)
+view
+.
+mip_levels
+.
+start
+as
+i32
+view
+.
+array_layers
+.
+start
+as
+i32
+num_layers
+as
+i32
+)
+}
+;
+}
+else
 if
 is_layered_target
 (
 target
 )
+{
+unsafe
 {
 gl
 .
@@ -754,6 +895,7 @@ start
 as
 i32
 )
+}
 ;
 }
 else
@@ -765,6 +907,8 @@ glow
 :
 :
 TEXTURE_CUBE_MAP
+{
+unsafe
 {
 gl
 .
@@ -794,9 +938,12 @@ start
 as
 i32
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -817,6 +964,7 @@ start
 as
 i32
 )
+}
 ;
 }
 }
@@ -895,6 +1043,8 @@ instance_count
 =
 1
 {
+unsafe
+{
 gl
 .
 draw_arrays
@@ -907,9 +1057,12 @@ vertex_count
 as
 i32
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -926,6 +1079,7 @@ instance_count
 as
 i32
 )
+}
 ;
 }
 }
@@ -955,6 +1109,8 @@ instance_count
 )
 =
 >
+unsafe
+{
 gl
 .
 draw_elements
@@ -968,12 +1124,15 @@ index_offset
 as
 i32
 )
+}
 (
 0
 _
 )
 =
 >
+unsafe
+{
 gl
 .
 draw_elements_instanced
@@ -990,12 +1149,15 @@ instance_count
 as
 i32
 )
+}
 (
 _
 1
 )
 =
 >
+unsafe
+{
 gl
 .
 draw_elements_base_vertex
@@ -1010,12 +1172,15 @@ as
 i32
 base_vertex
 )
+}
 (
 _
 _
 )
 =
 >
+unsafe
+{
 gl
 .
 draw_elements_instanced_base_vertex
@@ -1034,6 +1199,7 @@ i32
 base_vertex
 )
 }
+}
 C
 :
 :
@@ -1045,6 +1211,8 @@ indirect_offset
 }
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -1059,7 +1227,10 @@ Some
 indirect_buf
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 draw_arrays_indirect_offset
@@ -1069,6 +1240,7 @@ indirect_offset
 as
 i32
 )
+}
 ;
 }
 C
@@ -1084,6 +1256,8 @@ indirect_offset
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1097,7 +1271,10 @@ Some
 indirect_buf
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 draw_elements_indirect_offset
@@ -1108,6 +1285,7 @@ indirect_offset
 as
 i32
 )
+}
 ;
 }
 C
@@ -1119,6 +1297,8 @@ group_counts
 )
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -1137,6 +1317,7 @@ group_counts
 2
 ]
 )
+}
 ;
 }
 C
@@ -1149,6 +1330,8 @@ indirect_offset
 }
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -1163,7 +1346,10 @@ Some
 indirect_buf
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 dispatch_compute_indirect
@@ -1172,6 +1358,7 @@ indirect_offset
 as
 i32
 )
+}
 ;
 }
 C
@@ -1303,6 +1490,8 @@ ELEMENT_ARRAY_BUFFER
 if
 can_use_zero_buffer
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1318,7 +1507,10 @@ self
 zero_buffer
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1329,6 +1521,7 @@ Some
 buffer
 )
 )
+}
 ;
 let
 mut
@@ -1366,6 +1559,8 @@ as
 u64
 )
 ;
+unsafe
+{
 gl
 .
 copy_buffer_sub_data
@@ -1383,6 +1578,7 @@ size
 as
 i32
 )
+}
 ;
 dst_offset
 +
@@ -1392,6 +1588,8 @@ size
 }
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -1403,6 +1601,7 @@ Some
 buffer
 )
 )
+}
 ;
 let
 zeroes
@@ -1425,6 +1624,8 @@ as
 usize
 ]
 ;
+unsafe
+{
 gl
 .
 buffer_sub_data_u8_slice
@@ -1438,6 +1639,7 @@ i32
 &
 zeroes
 )
+}
 ;
 }
 }
@@ -1634,6 +1836,8 @@ dst
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1645,7 +1849,10 @@ Some
 src
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1657,7 +1864,10 @@ Some
 dst
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 copy_buffer_sub_data
@@ -1684,6 +1894,7 @@ get
 as
 _
 )
+}
 ;
 }
 (
@@ -1747,6 +1958,8 @@ usize
 size
 ]
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1757,7 +1970,10 @@ Some
 src
 )
 )
+}
 ;
+unsafe
+{
 self
 .
 shared
@@ -1773,6 +1989,7 @@ as
 i32
 dst_data
 )
+}
 ;
 }
 (
@@ -1834,6 +2051,8 @@ usize
 size
 ]
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1844,7 +2063,10 @@ Some
 dst
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 buffer_sub_data_u8_slice
@@ -1857,6 +2079,7 @@ as
 i32
 src_data
 )
+}
 ;
 }
 (
@@ -1872,6 +2095,8 @@ todo
 )
 }
 }
+unsafe
+{
 gl
 .
 bind_buffer
@@ -1879,9 +2104,12 @@ bind_buffer
 copy_src_target
 None
 )
+}
 ;
 if
 is_index_buffer_only_element_dst
+{
+unsafe
 {
 gl
 .
@@ -1895,9 +2123,12 @@ self
 .
 current_index_buffer
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -1906,6 +2137,7 @@ bind_buffer
 copy_dst_target
 None
 )
+}
 ;
 }
 }
@@ -1932,6 +2164,8 @@ TODO
 handle
 3D
 copies
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -1947,6 +2181,7 @@ self
 copy_fbo
 )
 )
+}
 ;
 if
 is_layered_target
@@ -1962,6 +2197,8 @@ handle
 GLES
 without
 framebuffer_texture_3d
+unsafe
+{
 gl
 .
 framebuffer_texture_layer
@@ -1993,9 +2230,12 @@ array_layer
 as
 i32
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -2022,8 +2262,11 @@ mip_level
 as
 i32
 )
+}
 ;
 }
+unsafe
+{
 gl
 .
 bind_texture
@@ -2034,9 +2277,12 @@ Some
 dst
 )
 )
+}
 ;
 if
 dst_is_cubemap
+{
+unsafe
 {
 gl
 .
@@ -2110,6 +2356,7 @@ height
 as
 i32
 )
+}
 ;
 }
 else
@@ -2118,6 +2365,8 @@ is_layered_target
 (
 dst_target
 )
+{
+unsafe
 {
 gl
 .
@@ -2191,9 +2440,12 @@ height
 as
 i32
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -2258,6 +2510,7 @@ height
 as
 i32
 )
+}
 ;
 }
 }
@@ -2369,6 +2622,8 @@ get
 )
 )
 ;
+unsafe
+{
 gl
 .
 bind_texture
@@ -2379,7 +2634,10 @@ Some
 dst
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 pixel_store_i32
@@ -2392,7 +2650,10 @@ row_texels
 as
 i32
 )
+}
 ;
+unsafe
+{
 gl
 .
 pixel_store_i32
@@ -2405,6 +2666,7 @@ column_texels
 as
 i32
 )
+}
 ;
 let
 mut
@@ -2438,6 +2700,8 @@ buffer
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -2451,6 +2715,7 @@ Some
 buffer
 )
 )
+}
 ;
 unbind_unpack_buffer
 =
@@ -2543,6 +2808,8 @@ TEXTURE_3D
 =
 >
 {
+unsafe
+{
 gl
 .
 tex_sub_image_3d
@@ -2611,6 +2878,7 @@ format_desc
 data_type
 unpack_data
 )
+}
 ;
 }
 glow
@@ -2619,6 +2887,8 @@ glow
 TEXTURE_2D_ARRAY
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -2686,6 +2956,7 @@ format_desc
 data_type
 unpack_data
 )
+}
 ;
 }
 glow
@@ -2694,6 +2965,8 @@ glow
 TEXTURE_2D
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -2747,6 +3020,7 @@ format_desc
 data_type
 unpack_data
 )
+}
 ;
 }
 glow
@@ -2755,6 +3029,8 @@ glow
 TEXTURE_CUBE_MAP
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -2817,6 +3093,7 @@ format_desc
 data_type
 unpack_data
 )
+}
 ;
 }
 glow
@@ -2837,6 +3114,8 @@ this
 is
 correct
 !
+unsafe
+{
 gl
 .
 tex_sub_image_3d
@@ -2905,6 +3184,7 @@ format_desc
 data_type
 unpack_data
 )
+}
 ;
 }
 _
@@ -3070,6 +3350,8 @@ buffer
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -3083,6 +3365,7 @@ Some
 buffer
 )
 )
+}
 ;
 unbind_unpack_buffer
 =
@@ -3189,6 +3472,8 @@ TEXTURE_2D_ARRAY
 =
 >
 {
+unsafe
+{
 gl
 .
 compressed_tex_sub_image_3d
@@ -3254,6 +3539,7 @@ format_desc
 internal
 unpack_data
 )
+}
 ;
 }
 glow
@@ -3262,6 +3548,8 @@ glow
 TEXTURE_2D
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -3312,6 +3600,7 @@ format_desc
 internal
 unpack_data
 )
+}
 ;
 }
 glow
@@ -3320,6 +3609,8 @@ glow
 TEXTURE_CUBE_MAP
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -3379,6 +3670,7 @@ format_desc
 internal
 unpack_data
 )
+}
 ;
 }
 _
@@ -3393,6 +3685,8 @@ unreachable
 if
 unbind_unpack_buffer
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -3403,6 +3697,7 @@ glow
 PIXEL_UNPACK_BUFFER
 None
 )
+}
 ;
 }
 }
@@ -3549,6 +3844,8 @@ u32
 }
 )
 ;
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -3564,6 +3861,7 @@ self
 copy_fbo
 )
 )
+}
 ;
 /
 /
@@ -3586,6 +3884,8 @@ handle
 GLES
 without
 framebuffer_texture_3d
+unsafe
+{
 gl
 .
 framebuffer_texture_layer
@@ -3617,9 +3917,12 @@ array_layer
 as
 i32
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -3646,6 +3949,7 @@ mip_level
 as
 i32
 )
+}
 ;
 }
 let
@@ -3667,6 +3971,8 @@ buffer
 =
 >
 {
+unsafe
+{
 gl
 .
 pixel_store_i32
@@ -3679,7 +3985,10 @@ row_texels
 as
 i32
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -3693,6 +4002,7 @@ Some
 buffer
 )
 )
+}
 ;
 glow
 :
@@ -3772,6 +4082,8 @@ dst_data
 }
 }
 ;
+unsafe
+{
 gl
 .
 read_pixels
@@ -3816,6 +4128,7 @@ format_desc
 data_type
 unpack_data
 )
+}
 ;
 }
 C
@@ -3827,6 +4140,8 @@ buffer
 )
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -3841,6 +4156,7 @@ Some
 buffer
 )
 )
+}
 ;
 self
 .
@@ -3863,6 +4179,8 @@ target
 =
 >
 {
+unsafe
+{
 gl
 .
 begin_query
@@ -3870,6 +4188,7 @@ begin_query
 target
 query
 )
+}
 ;
 }
 C
@@ -3882,12 +4201,15 @@ target
 =
 >
 {
+unsafe
+{
 gl
 .
 end_query
 (
 target
 )
+}
 ;
 }
 C
@@ -3940,6 +4262,8 @@ iter
 let
 result
 =
+unsafe
+{
 gl
 .
 get_query_parameter_u32
@@ -3950,6 +4274,7 @@ glow
 :
 QUERY_RESULT
 )
+}
 ;
 self
 .
@@ -3966,6 +4291,8 @@ u64
 let
 query_data
 =
+unsafe
+{
 slice
 :
 :
@@ -4002,6 +4329,7 @@ u64
 (
 )
 )
+}
 ;
 match
 dst
@@ -4015,6 +4343,8 @@ buffer
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -4025,7 +4355,10 @@ Some
 buffer
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 buffer_sub_data_u8_slice
@@ -4036,6 +4369,7 @@ as
 i32
 query_data
 )
+}
 ;
 }
 None
@@ -4119,6 +4453,8 @@ is_default
 if
 is_default
 {
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -4129,9 +4465,12 @@ glow
 DRAW_FRAMEBUFFER
 None
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -4148,7 +4487,10 @@ self
 draw_fbo
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 framebuffer_texture_2d
@@ -4168,6 +4510,7 @@ TEXTURE_2D
 None
 0
 )
+}
 ;
 for
 i
@@ -4192,6 +4535,8 @@ i
 as
 u32
 ;
+unsafe
+{
 gl
 .
 framebuffer_texture_2d
@@ -4208,9 +4553,12 @@ TEXTURE_2D
 None
 0
 )
+}
 ;
 }
 }
+unsafe
+{
 gl
 .
 color_mask
@@ -4220,14 +4568,20 @@ true
 true
 true
 )
+}
 ;
+unsafe
+{
 gl
 .
 depth_mask
 (
 true
 )
+}
 ;
+unsafe
+{
 gl
 .
 stencil_mask
@@ -4235,7 +4589,10 @@ stencil_mask
 !
 0
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -4245,7 +4602,10 @@ glow
 :
 DEPTH_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -4255,7 +4615,10 @@ glow
 :
 STENCIL_TEST
 )
+}
 ;
+unsafe
+{
 gl
 .
 disable
@@ -4265,6 +4628,7 @@ glow
 :
 SCISSOR_TEST
 )
+}
 ;
 }
 C
@@ -4279,6 +4643,8 @@ view
 =
 >
 {
+unsafe
+{
 self
 .
 set_attachment
@@ -4291,6 +4657,7 @@ DRAW_FRAMEBUFFER
 attachment
 view
 )
+}
 ;
 }
 C
@@ -4307,6 +4674,8 @@ size
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -4322,14 +4691,20 @@ self
 draw_fbo
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 read_buffer
 (
 attachment
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -4345,7 +4720,10 @@ self
 copy_fbo
 )
 )
+}
 ;
+unsafe
+{
 self
 .
 set_attachment
@@ -4361,7 +4739,10 @@ glow
 COLOR_ATTACHMENT0
 dst
 )
+}
 ;
+unsafe
+{
 gl
 .
 blit_framebuffer
@@ -4399,7 +4780,10 @@ glow
 :
 NEAREST
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -4410,7 +4794,10 @@ glow
 READ_FRAMEBUFFER
 None
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_framebuffer
@@ -4426,6 +4813,7 @@ self
 draw_fbo
 )
 )
+}
 ;
 }
 C
@@ -4439,6 +4827,8 @@ list
 =
 >
 {
+unsafe
+{
 gl
 .
 invalidate_framebuffer
@@ -4449,6 +4839,7 @@ glow
 DRAW_FRAMEBUFFER
 list
 )
+}
 ;
 }
 C
@@ -4510,6 +4901,8 @@ MAX_COLOR_ATTACHMENTS
 (
 )
 ;
+unsafe
+{
 gl
 .
 draw_buffers
@@ -4517,6 +4910,7 @@ draw_buffers
 &
 indices
 )
+}
 ;
 if
 self
@@ -4546,6 +4940,8 @@ count
 as
 u32
 {
+unsafe
+{
 gl
 .
 disable_draw_buffer
@@ -4556,6 +4952,7 @@ glow
 BLEND
 draw_buffer
 )
+}
 ;
 }
 }
@@ -4594,6 +4991,8 @@ MESA_I915_SRGB_SHADER_CLEAR
 &
 is_srgb
 {
+unsafe
+{
 self
 .
 perform_shader_clear
@@ -4603,9 +5002,12 @@ draw_buffer
 *
 color
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -4618,6 +5020,7 @@ COLOR
 draw_buffer
 color
 )
+}
 ;
 }
 }
@@ -4633,6 +5036,8 @@ color
 =
 >
 {
+unsafe
+{
 gl
 .
 clear_buffer_u32_slice
@@ -4644,6 +5049,7 @@ COLOR
 draw_buffer
 color
 )
+}
 ;
 }
 C
@@ -4658,6 +5064,8 @@ color
 =
 >
 {
+unsafe
+{
 gl
 .
 clear_buffer_i32_slice
@@ -4669,6 +5077,7 @@ COLOR
 draw_buffer
 color
 )
+}
 ;
 }
 C
@@ -4680,6 +5089,8 @@ depth
 )
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -4695,6 +5106,7 @@ DEPTH
 depth
 ]
 )
+}
 ;
 }
 C
@@ -4706,6 +5118,8 @@ value
 )
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -4723,6 +5137,7 @@ as
 i32
 ]
 )
+}
 ;
 }
 C
@@ -4735,6 +5150,8 @@ stencil_value
 )
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -4750,6 +5167,7 @@ stencil_value
 as
 i32
 )
+}
 ;
 }
 C
@@ -4791,6 +5209,8 @@ glow
 :
 VERTEX_ATTRIB_ARRAY_BARRIER_BIT
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -4804,7 +5224,10 @@ Some
 raw
 )
 )
+}
 ;
+unsafe
+{
 gl
 .
 vertex_attrib_pointer_f32
@@ -4819,6 +5242,7 @@ true
 0
 0
 )
+}
 ;
 }
 if
@@ -4843,6 +5267,8 @@ glow
 :
 ELEMENT_ARRAY_BARRIER_BIT
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -4856,6 +5282,7 @@ Some
 raw
 )
 )
+}
 ;
 }
 if
@@ -4903,6 +5330,8 @@ glow
 :
 COMMAND_BARRIER_BIT
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -4916,6 +5345,7 @@ Some
 raw
 )
 )
+}
 ;
 }
 if
@@ -4940,6 +5370,8 @@ glow
 :
 PIXEL_BUFFER_BARRIER_BIT
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -4953,6 +5385,7 @@ Some
 raw
 )
 )
+}
 ;
 }
 if
@@ -4977,6 +5410,8 @@ glow
 :
 PIXEL_BUFFER_BARRIER_BIT
 ;
+unsafe
+{
 gl
 .
 bind_buffer
@@ -4990,6 +5425,7 @@ Some
 raw
 )
 )
+}
 ;
 }
 if
@@ -5054,12 +5490,15 @@ glow
 SHADER_STORAGE_BARRIER_BIT
 ;
 }
+unsafe
+{
 gl
 .
 memory_barrier
 (
 flags
 )
+}
 ;
 }
 C
@@ -5194,12 +5633,15 @@ glow
 FRAMEBUFFER_BARRIER_BIT
 ;
 }
+unsafe
+{
 gl
 .
 memory_barrier
 (
 flags
 )
+}
 ;
 }
 C
@@ -5214,6 +5656,8 @@ depth
 }
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -5232,7 +5676,10 @@ rect
 .
 h
 )
+}
 ;
+unsafe
+{
 gl
 .
 depth_range_f32
@@ -5244,6 +5691,7 @@ depth
 .
 end
 )
+}
 ;
 }
 C
@@ -5256,6 +5704,8 @@ rect
 )
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -5274,7 +5724,10 @@ rect
 .
 h
 )
+}
 ;
+unsafe
+{
 gl
 .
 enable
@@ -5284,6 +5737,7 @@ glow
 :
 SCISSOR_TEST
 )
+}
 ;
 }
 C
@@ -5299,6 +5753,8 @@ read_mask
 =
 >
 {
+unsafe
+{
 gl
 .
 stencil_func_separate
@@ -5310,6 +5766,7 @@ as
 i32
 read_mask
 )
+}
 ;
 }
 C
@@ -5325,6 +5782,8 @@ ops
 =
 >
 {
+unsafe
+{
 gl
 .
 stencil_mask_separate
@@ -5332,7 +5791,10 @@ stencil_mask_separate
 face
 write_mask
 )
+}
 ;
+unsafe
+{
 gl
 .
 stencil_op_separate
@@ -5348,6 +5810,7 @@ ops
 .
 pass
 )
+}
 ;
 }
 C
@@ -5366,6 +5829,8 @@ vat
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_buffer
@@ -5376,7 +5841,10 @@ glow
 ARRAY_BUFFER
 buffer
 )
+}
 ;
+unsafe
+{
 gl
 .
 enable_vertex_attrib_array
@@ -5385,6 +5853,7 @@ vat
 .
 location
 )
+}
 ;
 if
 buffer
@@ -5409,6 +5878,8 @@ VertexAttribKind
 Float
 =
 >
+unsafe
+{
 gl
 .
 vertex_attrib_format_f32
@@ -5435,6 +5906,7 @@ vat
 .
 offset
 )
+}
 super
 :
 :
@@ -5444,6 +5916,8 @@ VertexAttribKind
 Integer
 =
 >
+unsafe
+{
 gl
 .
 vertex_attrib_format_i32
@@ -5465,6 +5939,7 @@ vat
 .
 offset
 )
+}
 }
 /
 /
@@ -5492,6 +5967,8 @@ array
 is
 disabled
 .
+unsafe
+{
 gl
 .
 vertex_attrib_binding
@@ -5503,6 +5980,7 @@ vat
 .
 buffer_index
 )
+}
 ;
 }
 else
@@ -5523,6 +6001,8 @@ VertexAttribKind
 Float
 =
 >
+unsafe
+{
 gl
 .
 vertex_attrib_pointer_f32
@@ -5556,6 +6036,7 @@ offset
 as
 i32
 )
+}
 super
 :
 :
@@ -5565,6 +6046,8 @@ VertexAttribKind
 Integer
 =
 >
+unsafe
+{
 gl
 .
 vertex_attrib_pointer_i32
@@ -5594,6 +6077,9 @@ as
 i32
 )
 }
+}
+unsafe
+{
 gl
 .
 vertex_attrib_divisor
@@ -5607,6 +6093,7 @@ step
 as
 u32
 )
+}
 ;
 }
 }
@@ -5620,12 +6107,15 @@ location
 =
 >
 {
+unsafe
+{
 gl
 .
 disable_vertex_attrib_array
 (
 location
 )
+}
 ;
 }
 C
@@ -5642,6 +6132,8 @@ buffer_desc
 =
 >
 {
+unsafe
+{
 gl
 .
 vertex_binding_divisor
@@ -5653,7 +6145,10 @@ step
 as
 u32
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_vertex_buffer
@@ -5676,6 +6171,7 @@ stride
 as
 i32
 )
+}
 ;
 }
 C
@@ -5689,6 +6185,8 @@ depth
 =
 >
 {
+unsafe
+{
 gl
 .
 depth_func
@@ -5697,7 +6195,10 @@ depth
 .
 function
 )
+}
 ;
+unsafe
+{
 gl
 .
 depth_mask
@@ -5706,6 +6207,7 @@ depth
 .
 mask
 )
+}
 ;
 }
 C
@@ -5725,6 +6227,8 @@ is_enabled
 (
 )
 {
+unsafe
+{
 gl
 .
 enable
@@ -5734,7 +6238,10 @@ glow
 :
 POLYGON_OFFSET_FILL
 )
+}
 ;
+unsafe
+{
 gl
 .
 polygon_offset
@@ -5748,9 +6255,12 @@ bias
 .
 slope_scale
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -5761,6 +6271,7 @@ glow
 :
 POLYGON_OFFSET_FILL
 )
+}
 ;
 }
 }
@@ -5788,6 +6299,8 @@ FormatAspects
 DEPTH
 )
 {
+unsafe
+{
 gl
 .
 enable
@@ -5797,9 +6310,12 @@ glow
 :
 DEPTH_TEST
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -5810,6 +6326,7 @@ glow
 :
 DEPTH_TEST
 )
+}
 ;
 }
 if
@@ -5826,6 +6343,8 @@ FormatAspects
 STENCIL
 )
 {
+unsafe
+{
 gl
 .
 enable
@@ -5835,9 +6354,12 @@ glow
 :
 STENCIL_TEST
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -5848,6 +6370,51 @@ glow
 :
 STENCIL_TEST
 )
+}
+;
+}
+}
+C
+:
+:
+SetAlphaToCoverage
+(
+enabled
+)
+=
+>
+{
+if
+enabled
+{
+unsafe
+{
+gl
+.
+enable
+(
+glow
+:
+:
+SAMPLE_ALPHA_TO_COVERAGE
+)
+}
+;
+}
+else
+{
+unsafe
+{
+gl
+.
+disable
+(
+glow
+:
+:
+SAMPLE_ALPHA_TO_COVERAGE
+)
+}
 ;
 }
 }
@@ -5861,6 +6428,8 @@ program
 =
 >
 {
+unsafe
+{
 gl
 .
 use_program
@@ -5870,6 +6439,7 @@ Some
 program
 )
 )
+}
 ;
 }
 C
@@ -5883,6 +6453,8 @@ state
 =
 >
 {
+unsafe
+{
 gl
 .
 front_face
@@ -5891,6 +6463,7 @@ state
 .
 front_face
 )
+}
 ;
 if
 state
@@ -5899,6 +6472,8 @@ cull_face
 !
 =
 0
+{
+unsafe
 {
 gl
 .
@@ -5909,7 +6484,10 @@ glow
 :
 CULL_FACE
 )
+}
 ;
+unsafe
+{
 gl
 .
 cull_face
@@ -5918,9 +6496,12 @@ state
 .
 cull_face
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -5931,6 +6512,7 @@ glow
 :
 CULL_FACE
 )
+}
 ;
 }
 if
@@ -5973,6 +6555,8 @@ state
 .
 unclipped_depth
 {
+unsafe
+{
 gl
 .
 enable
@@ -5982,9 +6566,12 @@ glow
 :
 DEPTH_CLAMP
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -5995,6 +6582,7 @@ glow
 :
 DEPTH_CLAMP
 )
+}
 ;
 }
 }
@@ -6008,6 +6596,8 @@ c
 )
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -6030,6 +6620,7 @@ c
 3
 ]
 )
+}
 ;
 }
 C
@@ -6069,6 +6660,8 @@ index
 )
 =
 draw_buffer_index
+{
+unsafe
 {
 gl
 .
@@ -6112,6 +6705,7 @@ Cw
 ALPHA
 )
 )
+}
 ;
 if
 let
@@ -6124,6 +6718,8 @@ blend
 *
 blend
 {
+unsafe
+{
 gl
 .
 enable_draw_buffer
@@ -6134,6 +6730,7 @@ glow
 :
 BLEND
 )
+}
 ;
 if
 blend
@@ -6144,6 +6741,8 @@ color
 blend
 .
 alpha
+{
+unsafe
 {
 gl
 .
@@ -6161,7 +6760,10 @@ alpha
 .
 equation
 )
+}
 ;
+unsafe
+{
 gl
 .
 blend_func_separate_draw_buffer
@@ -6188,9 +6790,12 @@ alpha
 .
 dst
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -6203,7 +6808,10 @@ color
 .
 equation
 )
+}
 ;
+unsafe
+{
 gl
 .
 blend_func_draw_buffer
@@ -6220,6 +6828,7 @@ color
 .
 dst
 )
+}
 ;
 }
 }
@@ -6242,6 +6851,8 @@ PrivateCapabilities
 CAN_DISABLE_DRAW_BUFFER
 )
 {
+unsafe
+{
 gl
 .
 disable_draw_buffer
@@ -6252,10 +6863,13 @@ glow
 :
 BLEND
 )
+}
 ;
 }
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -6298,6 +6912,7 @@ Cw
 ALPHA
 )
 )
+}
 ;
 if
 let
@@ -6310,6 +6925,8 @@ blend
 *
 blend
 {
+unsafe
+{
 gl
 .
 enable
@@ -6319,6 +6936,7 @@ glow
 :
 BLEND
 )
+}
 ;
 if
 blend
@@ -6329,6 +6947,8 @@ color
 blend
 .
 alpha
+{
+unsafe
 {
 gl
 .
@@ -6345,7 +6965,10 @@ alpha
 .
 equation
 )
+}
 ;
+unsafe
+{
 gl
 .
 blend_func_separate
@@ -6371,9 +6994,12 @@ alpha
 .
 dst
 )
+}
 ;
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -6385,7 +7011,10 @@ color
 .
 equation
 )
+}
 ;
+unsafe
+{
 gl
 .
 blend_func
@@ -6401,10 +7030,13 @@ color
 .
 dst
 )
+}
 ;
 }
 }
 else
+{
+unsafe
 {
 gl
 .
@@ -6415,6 +7047,7 @@ glow
 :
 BLEND
 )
+}
 ;
 }
 }
@@ -6433,6 +7066,8 @@ size
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_buffer_range
@@ -6446,6 +7081,7 @@ buffer
 offset
 size
 )
+}
 ;
 }
 C
@@ -6459,6 +7095,8 @@ sampler
 =
 >
 {
+unsafe
+{
 gl
 .
 bind_sampler
@@ -6466,6 +7104,7 @@ bind_sampler
 texture_index
 sampler
 )
+}
 ;
 }
 C
@@ -6480,6 +7119,8 @@ target
 =
 >
 {
+unsafe
+{
 gl
 .
 active_texture
@@ -6491,7 +7132,10 @@ TEXTURE0
 +
 slot
 )
+}
 ;
+unsafe
+{
 gl
 .
 bind_texture
@@ -6502,6 +7146,7 @@ Some
 texture
 )
 )
+}
 ;
 }
 C
@@ -6515,6 +7160,8 @@ binding
 }
 =
 >
+{
+unsafe
 {
 gl
 .
@@ -6552,6 +7199,7 @@ binding
 .
 format
 )
+}
 ;
 }
 #
@@ -6588,6 +7236,8 @@ data_bytes
 range
 )
 ;
+unsafe
+{
 gl
 .
 debug_message_insert
@@ -6607,6 +7257,7 @@ glow
 DEBUG_SEVERITY_NOTIFICATION
 marker
 )
+}
 ;
 }
 #
@@ -6694,6 +7345,8 @@ wasm32
 )
 )
 ]
+unsafe
+{
 gl
 .
 push_debug_group
@@ -6705,6 +7358,7 @@ DEBUG_SOURCE_APPLICATION
 DEBUG_ID
 marker
 )
+}
 ;
 }
 C
@@ -6728,11 +7382,14 @@ wasm32
 )
 )
 ]
+unsafe
+{
 gl
 .
 pop_debug_group
 (
 )
+}
 ;
 }
 C
@@ -6861,6 +7518,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_1_f32
@@ -6868,6 +7527,7 @@ uniform_1_f32
 location
 data
 )
+}
 ;
 }
 glow
@@ -6898,6 +7558,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_2_f32_slice
@@ -6906,6 +7568,7 @@ location
 &
 data
 )
+}
 ;
 }
 glow
@@ -6936,6 +7599,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_3_f32_slice
@@ -6944,6 +7609,7 @@ location
 &
 data
 )
+}
 ;
 }
 glow
@@ -6974,6 +7640,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_4_f32_slice
@@ -6982,6 +7650,7 @@ location
 &
 data
 )
+}
 ;
 }
 glow
@@ -7008,6 +7677,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_1_i32
@@ -7015,6 +7686,7 @@ uniform_1_i32
 location
 data
 )
+}
 ;
 }
 glow
@@ -7045,6 +7717,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_2_i32_slice
@@ -7053,6 +7727,7 @@ location
 &
 data
 )
+}
 ;
 }
 glow
@@ -7083,6 +7758,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_3_i32_slice
@@ -7091,6 +7768,7 @@ location
 &
 data
 )
+}
 ;
 }
 glow
@@ -7121,6 +7799,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_4_i32_slice
@@ -7129,6 +7809,7 @@ location
 &
 data
 )
+}
 ;
 }
 glow
@@ -7159,6 +7840,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_matrix_2_f32_slice
@@ -7168,6 +7851,7 @@ false
 &
 data
 )
+}
 ;
 }
 glow
@@ -7198,6 +7882,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_matrix_3_f32_slice
@@ -7207,6 +7893,7 @@ false
 &
 data
 )
+}
 ;
 }
 glow
@@ -7237,6 +7924,8 @@ offset
 0
 ]
 ;
+unsafe
+{
 gl
 .
 uniform_matrix_4_f32_slice
@@ -7246,6 +7935,7 @@ false
 &
 data
 )
+}
 ;
 }
 _
@@ -7356,12 +8046,15 @@ lock
 (
 )
 ;
+unsafe
+{
 self
 .
 reset_state
 (
 gl
 )
+}
 ;
 for
 cmd_buf
@@ -7398,6 +8091,8 @@ cmd_buf
 .
 label
 {
+unsafe
+{
 gl
 .
 push_debug_group
@@ -7409,6 +8104,7 @@ DEBUG_SOURCE_APPLICATION
 DEBUG_ID
 label
 )
+}
 ;
 }
 for
@@ -7421,6 +8117,8 @@ commands
 iter
 (
 )
+{
+unsafe
 {
 self
 .
@@ -7437,6 +8135,7 @@ cmd_buf
 .
 queries
 )
+}
 ;
 }
 #
@@ -7462,11 +8161,14 @@ is_some
 (
 )
 {
+unsafe
+{
 gl
 .
 pop_debug_group
 (
 )
+}
 ;
 }
 }
@@ -7492,6 +8194,8 @@ gl
 let
 sync
 =
+unsafe
+{
 gl
 .
 fence_sync
@@ -7502,6 +8206,7 @@ glow
 SYNC_GPU_COMMANDS_COMPLETE
 0
 )
+}
 .
 map_err
 (
@@ -7596,6 +8301,8 @@ emscripten
 let
 gl
 =
+unsafe
+{
 &
 self
 .
@@ -7606,6 +8313,7 @@ context
 get_without_egl_lock
 (
 )
+}
 ;
 #
 [
@@ -7641,6 +8349,8 @@ context
 .
 glow_context
 ;
+unsafe
+{
 surface
 .
 present
@@ -7648,6 +8358,7 @@ present
 texture
 gl
 )
+}
 }
 unsafe
 fn

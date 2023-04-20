@@ -172,6 +172,10 @@ vkCreateMacOSSurfaceMVK
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -245,6 +249,10 @@ result_with_success
 surface
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -268,6 +276,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -288,6 +300,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

@@ -445,7 +445,8 @@ Event
 LoopDestroyed
 =
 >
-return
+(
+)
 Event
 :
 :

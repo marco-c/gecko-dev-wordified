@@ -154,6 +154,10 @@ vkGetPhysicalDeviceSurfaceCapabilities2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -239,6 +243,10 @@ Self
 get_physical_device_surface_formats2
 (
 )
+]
+#
+[
+inline
 ]
 pub
 unsafe
@@ -400,6 +408,10 @@ their
 p_next
 pointer
 .
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -493,6 +505,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -516,6 +532,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

@@ -179,6 +179,10 @@ vkCmdCopyBuffer2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -247,6 +251,10 @@ vkCmdCopyImage2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -315,6 +323,10 @@ vkCmdCopyBufferToImage2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -383,6 +395,10 @@ vkCmdCopyImageToBuffer2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -451,6 +467,10 @@ vkCmdBlitImage2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -519,6 +539,10 @@ vkCmdResolveImage2KHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -553,6 +577,10 @@ command_buffer
 resolve_image_info
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -576,6 +604,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

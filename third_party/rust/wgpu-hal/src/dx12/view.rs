@@ -263,12 +263,15 @@ Shader4ComponentMapping
 D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 match
@@ -295,6 +298,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURE1D
 ;
+unsafe
+{
 *
 desc
 .
@@ -324,6 +329,7 @@ ResourceMinLODClamp
 0
 .
 0
+}
 }
 }
 /
@@ -421,6 +427,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURE2DMS
 ;
+unsafe
+{
 *
 desc
 .
@@ -438,6 +446,7 @@ D3D12_TEX2DMS_SRV
 UnusedField_NothingToDefine
 :
 0
+}
 }
 }
 wgt
@@ -466,6 +475,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURE2D
 ;
+unsafe
+{
 *
 desc
 .
@@ -500,6 +511,7 @@ ResourceMinLODClamp
 0
 }
 }
+}
 wgt
 :
 :
@@ -531,6 +543,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURE2DMSARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -555,6 +569,7 @@ ArraySize
 self
 .
 array_layer_count
+}
 }
 }
 wgt
@@ -584,6 +599,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURE2DARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -628,6 +645,7 @@ ResourceMinLODClamp
 0
 }
 }
+}
 wgt
 :
 :
@@ -647,6 +665,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURE3D
 ;
+unsafe
+{
 *
 desc
 .
@@ -678,6 +698,7 @@ ResourceMinLODClamp
 0
 }
 }
+}
 wgt
 :
 :
@@ -704,6 +725,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURECUBE
 ;
+unsafe
+{
 *
 desc
 .
@@ -735,6 +758,7 @@ ResourceMinLODClamp
 0
 }
 }
+}
 wgt
 :
 :
@@ -762,6 +786,8 @@ d3d12
 :
 D3D12_SRV_DIMENSION_TEXTURECUBEARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -821,6 +847,7 @@ ResourceMinLODClamp
 }
 }
 }
+}
 desc
 }
 pub
@@ -860,12 +887,15 @@ ViewDimension
 0
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 match
@@ -892,6 +922,8 @@ d3d12
 :
 D3D12_UAV_DIMENSION_TEXTURE1D
 ;
+unsafe
+{
 *
 desc
 .
@@ -911,6 +943,7 @@ MipSlice
 self
 .
 mip_level_base
+}
 }
 }
 /
@@ -989,6 +1022,8 @@ d3d12
 :
 D3D12_UAV_DIMENSION_TEXTURE2D
 ;
+unsafe
+{
 *
 desc
 .
@@ -1011,6 +1046,7 @@ mip_level_base
 PlaneSlice
 :
 0
+}
 }
 }
 wgt
@@ -1040,6 +1076,8 @@ d3d12
 :
 D3D12_UAV_DIMENSION_TEXTURE2DARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -1074,6 +1112,7 @@ PlaneSlice
 0
 }
 }
+}
 wgt
 :
 :
@@ -1093,6 +1132,8 @@ d3d12
 :
 D3D12_UAV_DIMENSION_TEXTURE3D
 ;
+unsafe
+{
 *
 desc
 .
@@ -1122,6 +1163,7 @@ WSize
 self
 .
 array_layer_count
+}
 }
 }
 wgt
@@ -1196,12 +1238,15 @@ ViewDimension
 0
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 match
@@ -1228,6 +1273,8 @@ d3d12
 :
 D3D12_RTV_DIMENSION_TEXTURE1D
 ;
+unsafe
+{
 *
 desc
 .
@@ -1247,6 +1294,7 @@ MipSlice
 self
 .
 mip_level_base
+}
 }
 }
 /
@@ -1330,6 +1378,8 @@ d3d12
 :
 D3D12_RTV_DIMENSION_TEXTURE2DMS
 ;
+unsafe
+{
 *
 desc
 .
@@ -1347,6 +1397,7 @@ D3D12_TEX2DMS_RTV
 UnusedField_NothingToDefine
 :
 0
+}
 }
 }
 wgt
@@ -1375,6 +1426,8 @@ d3d12
 :
 D3D12_RTV_DIMENSION_TEXTURE2D
 ;
+unsafe
+{
 *
 desc
 .
@@ -1397,6 +1450,7 @@ mip_level_base
 PlaneSlice
 :
 0
+}
 }
 }
 wgt
@@ -1430,6 +1484,8 @@ d3d12
 :
 D3D12_RTV_DIMENSION_TEXTURE2DMSARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -1454,6 +1510,7 @@ ArraySize
 self
 .
 array_layer_count
+}
 }
 }
 wgt
@@ -1483,6 +1540,8 @@ d3d12
 :
 D3D12_RTV_DIMENSION_TEXTURE2DARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -1517,6 +1576,7 @@ PlaneSlice
 0
 }
 }
+}
 wgt
 :
 :
@@ -1536,6 +1596,8 @@ d3d12
 :
 D3D12_RTV_DIMENSION_TEXTURE3D
 ;
+unsafe
+{
 *
 desc
 .
@@ -1565,6 +1627,7 @@ WSize
 self
 .
 array_layer_count
+}
 }
 }
 wgt
@@ -1705,12 +1768,15 @@ flags
 }
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 match
@@ -1737,6 +1803,8 @@ d3d12
 :
 D3D12_DSV_DIMENSION_TEXTURE1D
 ;
+unsafe
+{
 *
 desc
 .
@@ -1756,6 +1824,7 @@ MipSlice
 self
 .
 mip_level_base
+}
 }
 }
 /
@@ -1839,6 +1908,8 @@ d3d12
 :
 D3D12_DSV_DIMENSION_TEXTURE2DMS
 ;
+unsafe
+{
 *
 desc
 .
@@ -1856,6 +1927,7 @@ D3D12_TEX2DMS_DSV
 UnusedField_NothingToDefine
 :
 0
+}
 }
 }
 wgt
@@ -1884,6 +1956,8 @@ d3d12
 :
 D3D12_DSV_DIMENSION_TEXTURE2D
 ;
+unsafe
+{
 *
 desc
 .
@@ -1903,6 +1977,7 @@ MipSlice
 self
 .
 mip_level_base
+}
 }
 }
 wgt
@@ -1936,6 +2011,8 @@ d3d12
 :
 D3D12_DSV_DIMENSION_TEXTURE2DMSARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -1960,6 +2037,7 @@ ArraySize
 self
 .
 array_layer_count
+}
 }
 }
 wgt
@@ -1989,6 +2067,8 @@ d3d12
 :
 D3D12_DSV_DIMENSION_TEXTURE2DARRAY
 ;
+unsafe
+{
 *
 desc
 .
@@ -2018,6 +2098,7 @@ ArraySize
 self
 .
 array_layer_count
+}
 }
 }
 wgt

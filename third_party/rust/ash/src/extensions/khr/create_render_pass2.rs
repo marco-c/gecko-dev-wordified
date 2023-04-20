@@ -172,6 +172,10 @@ vkCreateRenderPass2
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -279,6 +283,10 @@ vkCmdBeginRenderPass2
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -356,6 +364,10 @@ vkCmdNextSubpass2
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -433,6 +445,10 @@ vkCmdEndRenderPass2
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -468,6 +484,10 @@ subpass_end_info
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -491,6 +511,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -511,6 +535,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

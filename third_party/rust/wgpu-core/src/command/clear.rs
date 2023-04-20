@@ -1969,6 +1969,8 @@ the
 texture
 is
 already
+/
+/
 tracked
 since
 whatever
@@ -1976,12 +1978,12 @@ caused
 the
 init
 requirement
-/
-/
 will
 have
 caused
 the
+/
+/
 usage
 tracker
 to
@@ -1997,6 +1999,8 @@ it
 is
 safe
 to
+/
+/
 call
 call
 change_replace_tracked
@@ -2006,13 +2010,13 @@ life_guard
 is
 already
 gone
-/
-/
 (
 i
 .
 e
 .
+/
+/
 the
 user
 no
@@ -2026,6 +2030,8 @@ texture
 .
 /
 /
+/
+/
 On
 the
 other
@@ -2035,6 +2041,8 @@ coming
 via
 command_encoder_clear_texture
 the
+/
+/
 life_guard
 is
 still
@@ -2049,6 +2057,8 @@ a
 texture
 object
 is
+/
+/
 needed
 .
 /
@@ -2066,6 +2076,8 @@ scenarios
 in
 the
 internal
+/
+/
 clear_texture
 api
 in
@@ -2078,6 +2090,8 @@ and
 call
 the
 cheaper
+/
+/
 change_replace_tracked
 whenever
 possible
@@ -2089,7 +2103,7 @@ texture_tracker
 .
 set_single
 (
-storage
+dst_texture
 dst_texture_id
 .
 0
@@ -2100,8 +2114,6 @@ clear_usage
 unwrap
 (
 )
-.
-1
 .
 map
 (
@@ -2501,6 +2513,7 @@ fill
 a
 single
 row
+\
 of
 a
 texture
@@ -2605,6 +2618,8 @@ subresource
 !
 However
 we
+/
+/
 assume
 that
 we
@@ -2946,6 +2961,8 @@ do
 clear
 operations
 on
+/
+/
 volume
 texture
 slices

@@ -172,6 +172,10 @@ vkDestroyDebugReportCallbackEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -251,6 +255,10 @@ vkCreateDebugReportCallbackEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -324,6 +332,10 @@ result_with_success
 debug_cb
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -347,6 +359,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -367,6 +383,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

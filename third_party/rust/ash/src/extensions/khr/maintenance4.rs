@@ -157,6 +157,10 @@ vkGetDeviceBufferMemoryRequirementsKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -230,6 +234,10 @@ vkGetDeviceImageMemoryRequirementsKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -292,6 +300,10 @@ Self
 get_device_image_sparse_memory_requirements
 (
 )
+]
+#
+[
+inline
 ]
 pub
 unsafe
@@ -438,6 +450,10 @@ their
 p_next
 pointer
 .
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -512,6 +528,10 @@ len
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -535,6 +555,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -555,6 +579,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

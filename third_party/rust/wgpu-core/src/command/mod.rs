@@ -3253,6 +3253,8 @@ well
 over
 the
 limit
+/
+/
 so
 let
 the
@@ -3388,6 +3390,8 @@ dynamic_offsets
 .
 extend_from_slice
 (
+unsafe
+{
 slice
 :
 :
@@ -3396,6 +3400,7 @@ from_raw_parts
 offsets
 offset_length
 )
+}
 )
 ;
 }

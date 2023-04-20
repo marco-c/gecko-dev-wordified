@@ -154,6 +154,10 @@ vkCmdPushDescriptorSetKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -254,6 +258,10 @@ vkCmdPushDescriptorSetWithTemplateKHR
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -305,6 +313,10 @@ p_data
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -328,6 +340,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

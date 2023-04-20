@@ -463,6 +463,8 @@ prepare_marker
 label
 )
 ;
+unsafe
+{
 list
 .
 BeginEvent
@@ -479,6 +481,7 @@ const
 _
 size
 )
+}
 ;
 self
 .
@@ -565,11 +568,14 @@ pass
 .
 has_label
 {
+unsafe
+{
 list
 .
 EndEvent
 (
 )
+}
 ;
 }
 self
@@ -642,6 +648,8 @@ dirty_vertex_buffers
 <
 index
 ;
+unsafe
+{
 list
 .
 IASetVertexBuffers
@@ -666,6 +674,7 @@ isize
 )
 )
 ;
+}
 }
 if
 let
@@ -1723,6 +1732,8 @@ map_label
 label
 )
 ;
+unsafe
+{
 list
 .
 SetName
@@ -1733,6 +1744,7 @@ as_ptr
 (
 )
 )
+}
 ;
 }
 self
@@ -2098,6 +2110,8 @@ d3d12
 D3D12_RESOURCE_BARRIER_FLAG_NONE
 u
 :
+unsafe
+{
 mem
 :
 :
@@ -2105,7 +2119,10 @@ zeroed
 (
 )
 }
+}
 ;
+unsafe
+{
 *
 raw
 .
@@ -2143,6 +2160,7 @@ s0
 StateAfter
 :
 s1
+}
 }
 ;
 self
@@ -2197,6 +2215,8 @@ d3d12
 D3D12_RESOURCE_BARRIER_FLAG_NONE
 u
 :
+unsafe
+{
 mem
 :
 :
@@ -2204,7 +2224,10 @@ zeroed
 (
 )
 }
+}
 ;
+unsafe
+{
 *
 raw
 .
@@ -2231,6 +2254,7 @@ as_mut_ptr
 (
 )
 }
+}
 ;
 self
 .
@@ -2256,6 +2280,8 @@ barriers
 is_empty
 (
 )
+{
+unsafe
 {
 self
 .
@@ -2288,6 +2314,7 @@ as_ptr
 (
 )
 )
+}
 ;
 }
 }
@@ -2485,6 +2512,8 @@ d3d12
 D3D12_RESOURCE_BARRIER_FLAG_NONE
 u
 :
+unsafe
+{
 mem
 :
 :
@@ -2492,7 +2521,10 @@ zeroed
 (
 )
 }
+}
 ;
+unsafe
+{
 *
 raw
 .
@@ -2530,6 +2562,7 @@ s0
 StateAfter
 :
 s1
+}
 }
 ;
 let
@@ -2829,6 +2862,8 @@ clone
 (
 )
 {
+unsafe
+{
 raw
 .
 u
@@ -2861,6 +2896,8 @@ base_array_layer
 rel_array_layer
 plane
 )
+;
+}
 ;
 self
 .
@@ -2918,6 +2955,8 @@ d3d12
 D3D12_RESOURCE_BARRIER_FLAG_NONE
 u
 :
+unsafe
+{
 mem
 :
 :
@@ -2925,7 +2964,10 @@ zeroed
 (
 )
 }
+}
 ;
+unsafe
+{
 *
 raw
 .
@@ -2952,6 +2994,7 @@ as_mut_ptr
 (
 )
 }
+}
 ;
 self
 .
@@ -2977,6 +3020,8 @@ barriers
 is_empty
 (
 )
+{
+unsafe
 {
 self
 .
@@ -3009,6 +3054,7 @@ as_ptr
 (
 )
 )
+}
 ;
 }
 }
@@ -3077,6 +3123,8 @@ end
 offset
 )
 ;
+unsafe
+{
 list
 .
 CopyBufferRegion
@@ -3101,6 +3149,7 @@ as_mut_ptr
 0
 size
 )
+}
 ;
 offset
 +
@@ -3166,6 +3215,8 @@ r
 in
 regions
 {
+unsafe
+{
 list
 .
 CopyBufferRegion
@@ -3198,6 +3249,7 @@ get
 (
 )
 )
+}
 ;
 }
 }
@@ -3285,12 +3337,15 @@ d3d12
 D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 let
@@ -3319,12 +3374,15 @@ d3d12
 D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 for
@@ -3349,6 +3407,8 @@ r
 size
 )
 ;
+unsafe
+{
 *
 src_location
 .
@@ -3367,7 +3427,10 @@ r
 .
 src_base
 )
+}
 ;
+unsafe
+{
 *
 dst_location
 .
@@ -3386,7 +3449,10 @@ r
 .
 dst_base
 )
+}
 ;
+unsafe
+{
 list
 .
 CopyTextureRegion
@@ -3419,6 +3485,7 @@ src_location
 &
 src_box
 )
+}
 ;
 }
 }
@@ -3500,12 +3567,15 @@ d3d12
 D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 let
@@ -3534,12 +3604,15 @@ d3d12
 D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 for
@@ -3566,6 +3639,8 @@ r
 size
 )
 ;
+unsafe
+{
 *
 src_location
 .
@@ -3583,7 +3658,10 @@ dst
 .
 format
 )
+}
 ;
+unsafe
+{
 *
 dst_location
 .
@@ -3602,7 +3680,10 @@ r
 .
 texture_base
 )
+}
 ;
+unsafe
+{
 list
 .
 CopyTextureRegion
@@ -3635,6 +3716,7 @@ src_location
 &
 src_box
 )
+}
 ;
 }
 }
@@ -3722,12 +3804,15 @@ d3d12
 D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 let
@@ -3756,12 +3841,15 @@ d3d12
 D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 for
@@ -3786,6 +3874,8 @@ r
 size
 )
 ;
+unsafe
+{
 *
 src_location
 .
@@ -3804,7 +3894,10 @@ r
 .
 texture_base
 )
+}
 ;
+unsafe
+{
 *
 dst_location
 .
@@ -3822,7 +3915,10 @@ src
 .
 format
 )
+}
 ;
+unsafe
+{
 list
 .
 CopyTextureRegion
@@ -3837,6 +3933,7 @@ src_location
 &
 src_box
 )
+}
 ;
 }
 }
@@ -3858,6 +3955,8 @@ index
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -3881,6 +3980,7 @@ set
 raw_ty
 index
 )
+}
 ;
 }
 unsafe
@@ -3901,6 +4001,8 @@ index
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -3924,6 +4026,7 @@ set
 raw_ty
 index
 )
+}
 ;
 }
 unsafe
@@ -3944,6 +4047,8 @@ index
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -3968,6 +4073,7 @@ d3d12
 D3D12_QUERY_TYPE_TIMESTAMP
 index
 )
+}
 ;
 }
 unsafe
@@ -4040,6 +4146,8 @@ wgt
 BufferSize
 )
 {
+unsafe
+{
 self
 .
 list
@@ -4079,6 +4187,7 @@ as_mut_ptr
 )
 offset
 )
+}
 ;
 }
 /
@@ -4106,6 +4215,8 @@ Api
 >
 )
 {
+unsafe
+{
 self
 .
 begin_pass
@@ -4121,6 +4232,7 @@ desc
 .
 label
 )
+}
 ;
 let
 mut
@@ -4305,6 +4417,8 @@ unwrap
 (
 )
 ;
+unsafe
+{
 list
 .
 OMSetRenderTargets
@@ -4326,6 +4440,7 @@ as_ptr
 0
 ds_view
 )
+}
 ;
 self
 .
@@ -4634,8 +4749,11 @@ list
 .
 clear_depth_stencil_view
 (
+unsafe
+{
 *
 ds_view
+}
 flags
 ds
 .
@@ -4738,6 +4856,8 @@ as
 i32
 }
 ;
+unsafe
+{
 list
 .
 RSSetViewports
@@ -4746,7 +4866,10 @@ RSSetViewports
 &
 raw_vp
 )
+}
 ;
+unsafe
+{
 list
 .
 RSSetScissorRects
@@ -4755,6 +4878,7 @@ RSSetScissorRects
 &
 raw_rect
 )
+}
 ;
 }
 unsafe
@@ -4861,12 +4985,15 @@ d3d12
 D3D12_RESOURCE_BARRIER_FLAG_NONE
 u
 :
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 }
 ;
 /
@@ -4894,6 +5021,8 @@ TextureUses
 in
 PassResove
 .
+unsafe
+{
 *
 barrier
 .
@@ -4939,6 +5068,7 @@ d3d12
 :
 D3D12_RESOURCE_STATE_RESOLVE_SOURCE
 }
+}
 ;
 self
 .
@@ -4951,6 +5081,8 @@ push
 barrier
 )
 ;
+unsafe
+{
 *
 barrier
 .
@@ -4996,6 +5128,7 @@ d3d12
 :
 D3D12_RESOURCE_STATE_RESOLVE_DEST
 }
+}
 ;
 self
 .
@@ -5035,6 +5168,8 @@ ResourceBarrier
 "
 )
 ;
+unsafe
+{
 list
 .
 ResourceBarrier
@@ -5060,6 +5195,7 @@ as_ptr
 (
 )
 )
+}
 ;
 }
 for
@@ -5089,6 +5225,8 @@ ResolveSubresource
 "
 )
 ;
+unsafe
+{
 list
 .
 ResolveSubresource
@@ -5125,6 +5263,7 @@ resolve
 .
 format
 )
+}
 ;
 }
 /
@@ -5155,6 +5294,8 @@ iter_mut
 let
 transition
 =
+unsafe
+{
 barrier
 .
 u
@@ -5162,6 +5303,7 @@ u
 Transition_mut
 (
 )
+}
 ;
 mem
 :
@@ -5207,6 +5349,8 @@ ResourceBarrier
 "
 )
 ;
+unsafe
+{
 list
 .
 ResourceBarrier
@@ -5232,14 +5376,18 @@ as_ptr
 (
 )
 )
+}
 ;
 }
 }
+unsafe
+{
 self
 .
 end_pass
 (
 )
+}
 ;
 }
 unsafe
@@ -5818,6 +5966,8 @@ prepare_marker
 label
 )
 ;
+unsafe
+{
 self
 .
 list
@@ -5840,6 +5990,7 @@ const
 _
 size
 )
+}
 ;
 }
 unsafe
@@ -5870,6 +6021,8 @@ prepare_marker
 group_label
 )
 ;
+unsafe
+{
 self
 .
 list
@@ -5892,6 +6045,7 @@ const
 _
 size
 )
+}
 ;
 }
 unsafe
@@ -5902,6 +6056,8 @@ end_debug_marker
 mut
 self
 )
+{
+unsafe
 {
 self
 .
@@ -5914,6 +6070,7 @@ unwrap
 EndEvent
 (
 )
+}
 }
 unsafe
 fn
@@ -5999,6 +6156,8 @@ pipeline
 raw
 )
 ;
+unsafe
+{
 list
 .
 IASetPrimitiveTopology
@@ -6007,6 +6166,7 @@ pipeline
 .
 topology
 )
+}
 ;
 for
 (
@@ -6307,6 +6467,8 @@ depth_range
 end
 }
 ;
+unsafe
+{
 self
 .
 list
@@ -6321,6 +6483,7 @@ RSSetViewports
 &
 raw_vp
 )
+}
 ;
 }
 unsafe
@@ -6392,6 +6555,8 @@ as
 i32
 }
 ;
+unsafe
+{
 self
 .
 list
@@ -6406,6 +6571,7 @@ RSSetScissorRects
 &
 raw_rect
 )
+}
 ;
 }
 unsafe
@@ -6487,6 +6653,8 @@ instance_count
 u32
 )
 {
+unsafe
+{
 self
 .
 prepare_draw
@@ -6496,6 +6664,7 @@ as
 i32
 start_instance
 )
+}
 ;
 self
 .
@@ -6538,6 +6707,8 @@ instance_count
 u32
 )
 {
+unsafe
+{
 self
 .
 prepare_draw
@@ -6545,6 +6716,7 @@ prepare_draw
 base_vertex
 start_instance
 )
+}
 ;
 self
 .
@@ -6589,6 +6761,8 @@ draw_count
 u32
 )
 {
+unsafe
+{
 self
 .
 prepare_draw
@@ -6596,7 +6770,10 @@ prepare_draw
 0
 0
 )
+}
 ;
+unsafe
+{
 self
 .
 list
@@ -6635,6 +6812,7 @@ null_mut
 )
 0
 )
+}
 ;
 }
 unsafe
@@ -6662,6 +6840,8 @@ draw_count
 u32
 )
 {
+unsafe
+{
 self
 .
 prepare_draw
@@ -6669,7 +6849,10 @@ prepare_draw
 0
 0
 )
+}
 ;
+unsafe
+{
 self
 .
 list
@@ -6708,6 +6891,7 @@ null_mut
 )
 0
 )
+}
 ;
 }
 unsafe
@@ -6748,6 +6932,8 @@ max_count
 u32
 )
 {
+unsafe
+{
 self
 .
 prepare_draw
@@ -6755,7 +6941,10 @@ prepare_draw
 0
 0
 )
+}
 ;
+unsafe
+{
 self
 .
 list
@@ -6795,6 +6984,7 @@ as_mut_ptr
 )
 count_offset
 )
+}
 ;
 }
 unsafe
@@ -6835,6 +7025,8 @@ max_count
 u32
 )
 {
+unsafe
+{
 self
 .
 prepare_draw
@@ -6842,7 +7034,10 @@ prepare_draw
 0
 0
 )
+}
 ;
+unsafe
+{
 self
 .
 list
@@ -6882,6 +7077,7 @@ as_mut_ptr
 )
 count_offset
 )
+}
 ;
 }
 /
@@ -6903,6 +7099,8 @@ crate
 ComputePassDescriptor
 )
 {
+unsafe
+{
 self
 .
 begin_pass
@@ -6918,6 +7116,7 @@ desc
 .
 label
 )
+}
 ;
 }
 unsafe
@@ -6929,11 +7128,14 @@ mut
 self
 )
 {
+unsafe
+{
 self
 .
 end_pass
 (
 )
+}
 ;
 }
 unsafe
@@ -7099,6 +7301,8 @@ update
 special
 constants
 indirectly
+unsafe
+{
 self
 .
 list
@@ -7137,6 +7341,7 @@ null_mut
 )
 0
 )
+}
 ;
 }
 }

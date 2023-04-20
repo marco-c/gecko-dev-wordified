@@ -1704,6 +1704,8 @@ buffer
 that
 is
 also
+/
+/
 part
 of
 the
@@ -2581,6 +2583,8 @@ discards
 .
 Need
 to
+/
+/
 be
 inserted
 before
@@ -2751,6 +2755,7 @@ bind_group
 .
 validate_dynamic_bindings
 (
+index
 &
 temp_offsets
 &
@@ -4301,6 +4306,8 @@ pending_discard_init_fixups
 if
 a
 bind
+/
+/
 group
 was
 set
@@ -4318,6 +4325,8 @@ occurred
 )
 /
 /
+/
+/
 However
 we
 already
@@ -4329,6 +4338,8 @@ init_action
 state
 on
 this
+/
+/
 cmd_buf
 so
 we
@@ -4483,6 +4494,8 @@ usize
 let
 redundant
 =
+unsafe
+{
 pass
 .
 current_bind_groups
@@ -4501,6 +4514,7 @@ dynamic_offsets
 offsets
 offset_length
 )
+}
 ;
 if
 redundant
@@ -4727,6 +4741,8 @@ bytes
 let
 data_slice
 =
+unsafe
+{
 slice
 :
 :
@@ -4737,6 +4753,7 @@ size_bytes
 as
 usize
 )
+}
 ;
 let
 value_offset
@@ -5014,6 +5031,8 @@ u32
 let
 bytes
 =
+unsafe
+{
 ffi
 :
 :
@@ -5024,6 +5043,7 @@ from_ptr
 (
 label
 )
+}
 .
 to_bytes
 (
@@ -5163,6 +5183,8 @@ u32
 let
 bytes
 =
+unsafe
+{
 ffi
 :
 :
@@ -5173,6 +5195,7 @@ from_ptr
 (
 label
 )
+}
 .
 to_bytes
 (

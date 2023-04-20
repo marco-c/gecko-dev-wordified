@@ -166,6 +166,10 @@ vkAcquireFullScreenExclusiveModeEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -240,6 +244,10 @@ vkGetPhysicalDeviceSurfacePresentModes2EXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -331,6 +339,10 @@ vkReleaseFullScreenExclusiveModeEXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -405,6 +417,10 @@ vkGetDeviceGroupSurfacePresentModes2EXT
 .
 html
 >
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -463,6 +479,10 @@ result_with_success
 present_modes
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -486,6 +506,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -506,6 +530,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

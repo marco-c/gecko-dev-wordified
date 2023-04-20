@@ -340,6 +340,8 @@ a
 let
 record
 =
+unsafe
+{
 &
 *
 (
@@ -348,6 +350,7 @@ exception_info
 )
 .
 ExceptionRecord
+}
 ;
 if
 record
@@ -383,6 +386,8 @@ String
 :
 from_utf8_lossy
 (
+unsafe
+{
 slice
 :
 :
@@ -405,6 +410,7 @@ ExceptionInformation
 0
 ]
 )
+}
 )
 winnt
 :
@@ -412,7 +418,6 @@ winnt
 DBG_PRINTEXCEPTION_WIDE_C
 =
 >
-{
 Cow
 :
 :
@@ -423,6 +428,8 @@ String
 :
 from_utf16_lossy
 (
+unsafe
+{
 slice
 :
 :
@@ -445,9 +452,9 @@ ExceptionInformation
 0
 ]
 )
-)
-)
 }
+)
+)
 _
 =
 >
