@@ -5090,6 +5090,33 @@ else
                 
 )
                 
+#
+We
+also
+add
+a
+signal
+to
+scripts
+that
+they
+are
+running
+under
+mach
+vendor
+                
+extra_env
+[
+"
+MACH_VENDOR
+"
+]
+=
+"
+1
+"
+                
 self
 .
 run_process
