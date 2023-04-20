@@ -2015,6 +2015,12 @@ case
 GcOp
 :
 :
+ArrayLenWithTypeIndex
+:
+case
+GcOp
+:
+:
 ArrayLen
 :
 WASM_GC_OP

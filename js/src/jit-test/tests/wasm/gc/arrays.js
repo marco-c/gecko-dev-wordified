@@ -314,7 +314,6 @@ a
 array
 .
 len
-a
 )
 )
 )
@@ -1218,7 +1217,6 @@ a
 array
 .
 len
-a
 drop
 )
 (
