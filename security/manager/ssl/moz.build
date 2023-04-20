@@ -728,6 +728,11 @@ nsSSLSocketProvider
 cpp
 "
 "
+NSSSocketControl
+.
+cpp
+"
+"
 nsTLSSocketProvider
 .
 cpp
