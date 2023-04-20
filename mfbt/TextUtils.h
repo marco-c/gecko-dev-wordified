@@ -301,6 +301,7 @@ range
 .
 *
 /
+inline
 constexpr
 bool
 IsAscii
@@ -341,6 +342,7 @@ range
 .
 *
 /
+inline
 constexpr
 bool
 IsAscii
@@ -389,6 +391,7 @@ range
 .
 *
 /
+inline
 constexpr
 bool
 IsAscii
@@ -436,6 +439,7 @@ range
 .
 *
 /
+inline
 constexpr
 bool
 IsAscii
@@ -475,6 +479,7 @@ range
 .
 *
 /
+inline
 constexpr
 bool
 IsAscii
