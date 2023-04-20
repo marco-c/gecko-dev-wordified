@@ -58,6 +58,10 @@ pathlib
 import
 Path
 from
+marionette_driver
+import
+Wait
+from
 marionette_harness
 import
 MarionetteTestCase
@@ -287,11 +291,20 @@ in_app
 False
 )
         
+Wait
+(
 self
 .
-assertFalse
+marionette
+)
+.
+until
 (
             
+lambda
+_
+:
+not
 self
 .
 moved_origin_directory
@@ -300,6 +313,8 @@ exists
 (
 )
             
+message
+=
 "
 to
 -
