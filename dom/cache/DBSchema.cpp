@@ -3234,6 +3234,15 @@ TYPE_UA_FONT
 =
 =
 55
+&
+&
+nsIContentPolicy
+:
+:
+TYPE_WEB_IDENTITY
+=
+=
+57
 "
 nsContentPolicyType
 values
