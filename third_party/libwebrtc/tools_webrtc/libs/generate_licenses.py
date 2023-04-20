@@ -560,6 +560,26 @@ LICENSE
 ]
     
 '
+libunwind
+'
+:
+[
+'
+buildtools
+/
+third_party
+/
+libunwind
+/
+trunk
+/
+LICENSE
+.
+TXT
+'
+]
+    
+'
 libvpx
 '
 :
