@@ -276,7 +276,7 @@ install_requires
 [
         
 "
-blessed
+blessings
 "
         
 "
