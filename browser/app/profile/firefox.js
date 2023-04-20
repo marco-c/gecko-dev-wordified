@@ -5416,6 +5416,8 @@ browser
 urlbar
 .
 showSearchTerms
+.
+shouldShow
 "
 false
 )

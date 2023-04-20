@@ -138,6 +138,8 @@ browser
 urlbar
 .
 showSearchTerms
+.
+shouldShow
 "
 true
 ]
