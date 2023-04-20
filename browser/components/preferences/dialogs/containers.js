@@ -145,7 +145,7 @@ window
 -
 update
 -
-settings
+settings2
 "
 {
 name
@@ -173,7 +173,7 @@ containers
 -
 window
 -
-new
+new2
 "
 )
 ;

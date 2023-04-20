@@ -96,7 +96,7 @@ exceptions
 -
 etp
 -
-window
+window2
 "
 description
 :
@@ -122,7 +122,7 @@ exceptions
 -
 cookie
 -
-window
+window2
 "
 description
 :
@@ -148,7 +148,7 @@ exceptions
 -
 popup
 -
-window
+window2
 "
 description
 :
@@ -180,7 +180,7 @@ saved
 -
 logins
 -
-window
+window2
 "
 description
 :
@@ -218,7 +218,7 @@ https
 -
 only
 -
-window
+window2
 "
 description
 :
@@ -246,7 +246,7 @@ exceptions
 -
 addons
 -
-window
+window2
 "
 description
 :
