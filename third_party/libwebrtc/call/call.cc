@@ -698,11 +698,9 @@ if
 stream
 -
 >
-rtp_config
+transport_cc
 (
 )
-.
-transport_cc
 )
 return
 false

@@ -919,10 +919,8 @@ GetRtpExtensions
 const
 override
 ;
-const
-RtpConfig
-&
-rtp_config
+bool
+transport_cc
 (
 )
 const
@@ -932,6 +930,8 @@ return
 rtp
 (
 )
+.
+transport_cc
 ;
 }
 webrtc
