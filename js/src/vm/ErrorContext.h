@@ -148,9 +148,9 @@ class
 ErrorContext
 ;
 struct
-OffThreadFrontendErrors
+FrontendErrors
 {
-OffThreadFrontendErrors
+FrontendErrors
 (
 )
 =
@@ -536,7 +536,7 @@ private
 js
 :
 :
-OffThreadFrontendErrors
+FrontendErrors
 errors_
 ;
 protected

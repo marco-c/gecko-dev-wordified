@@ -515,7 +515,7 @@ struct
 AutoResolving
 ;
 struct
-OffThreadFrontendErrors
+FrontendErrors
 ;
 /
 /
@@ -1098,7 +1098,7 @@ currentThread_
 js
 :
 :
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors_
 ;
@@ -2239,12 +2239,12 @@ oldRealm
 )
 ;
 void
-setOffThreadFrontendErrors
+setFrontendErrors
 (
 js
 :
 :
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors
 )
@@ -2257,9 +2257,9 @@ errors
 js
 :
 :
-OffThreadFrontendErrors
+FrontendErrors
 *
-offThreadFrontendErrors
+frontendErrors
 (
 )
 const

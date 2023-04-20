@@ -4537,11 +4537,11 @@ addPendingOutOfMemory
 .
 if
 (
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors
 =
-offThreadFrontendErrors
+frontendErrors
 (
 )
 )
@@ -6005,11 +6005,11 @@ addPendingOutOfMemory
 .
 if
 (
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors
 =
-offThreadFrontendErrors
+frontendErrors
 (
 )
 )
