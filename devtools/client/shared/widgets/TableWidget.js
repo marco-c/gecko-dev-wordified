@@ -97,6 +97,10 @@ setNamedTimeout
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -108,6 +112,8 @@ widgets
 view
 -
 helpers
+.
+js
 "
 true
 )
@@ -121,6 +127,10 @@ this
 naturalSortCaseInsensitive
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -128,6 +138,8 @@ shared
 natural
 -
 sort
+.
+js
 "
 true
 )

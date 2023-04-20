@@ -107,6 +107,10 @@ this
 cssColors
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -116,6 +120,8 @@ css
 color
 -
 db
+.
+js
 "
 true
 )

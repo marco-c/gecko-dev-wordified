@@ -288,6 +288,10 @@ this
 CollapseButton
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -299,6 +303,8 @@ components
 Output
 /
 CollapseButton
+.
+js
 "
 )
 ;
@@ -311,6 +317,10 @@ this
 MessageRepeat
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -322,6 +332,8 @@ components
 Output
 /
 MessageRepeat
+.
+js
 "
 )
 ;
@@ -334,6 +346,10 @@ this
 PropTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -347,6 +363,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -359,6 +377,10 @@ this
 SmartTrace
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -368,6 +390,8 @@ shared
 components
 /
 SmartTrace
+.
+js
 "
 )
 ;

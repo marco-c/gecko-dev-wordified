@@ -70,6 +70,10 @@ this
 adb
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ debugging
 adb
 /
 adb
+.
+js
 "
 true
 )

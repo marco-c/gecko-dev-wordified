@@ -102,6 +102,10 @@ this
 Menu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +113,8 @@ client
 framework
 /
 menu
+.
+js
 "
 )
 ;
@@ -121,6 +127,10 @@ this
 MenuItem
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +140,8 @@ framework
 menu
 -
 item
+.
+js
 "
 )
 ;
@@ -142,6 +154,10 @@ this
 getRuleFromNode
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +169,8 @@ rules
 utils
 /
 utils
+.
+js
 "
 true
 )
@@ -166,6 +184,10 @@ this
 clipboardHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -173,6 +195,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;

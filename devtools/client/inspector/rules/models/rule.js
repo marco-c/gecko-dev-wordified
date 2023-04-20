@@ -148,6 +148,10 @@ this
 getTargetBrowsers
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -161,6 +165,8 @@ compatibility
 user
 -
 settings
+.
+js
 "
 true
 )
@@ -174,6 +180,10 @@ this
 promiseWarn
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +193,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 true
 )
@@ -196,6 +208,10 @@ this
 parseNamedDeclarations
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -205,6 +221,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 true
 )

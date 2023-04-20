@@ -117,6 +117,10 @@ this
 WindowGlobalTargetFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +132,8 @@ targets
 window
 -
 global
+.
+js
 "
 true
 )
@@ -141,6 +147,10 @@ this
 ContentProcessTargetFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -152,6 +162,8 @@ targets
 content
 -
 process
+.
+js
 "
 true
 )
@@ -165,6 +177,10 @@ this
 WorkerTargetFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -174,6 +190,8 @@ fronts
 targets
 /
 worker
+.
+js
 "
 true
 )

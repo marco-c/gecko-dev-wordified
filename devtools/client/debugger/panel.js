@@ -112,6 +112,10 @@ this
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +123,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -132,6 +138,10 @@ this
 features
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +153,8 @@ src
 utils
 /
 prefs
+.
+js
 "
 true
 )
@@ -156,6 +168,10 @@ this
 registerStoreObserver
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +181,8 @@ shared
 redux
 /
 subscriber
+.
+js
 "
 true
 )

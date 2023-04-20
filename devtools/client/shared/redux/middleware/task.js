@@ -78,11 +78,17 @@ reportException
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 true
 )

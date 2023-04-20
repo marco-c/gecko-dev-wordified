@@ -150,6 +150,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -161,6 +165,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -174,6 +180,10 @@ this
 findGridParentContainerForNode
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -183,6 +193,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 true
 )
@@ -196,6 +208,10 @@ this
 getCSSStyleRules
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -205,6 +221,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -218,6 +236,10 @@ this
 isCssPropertyKnown
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -227,6 +249,8 @@ actors
 css
 -
 properties
+.
+js
 "
 true
 )
@@ -240,6 +264,10 @@ this
 parseDeclarations
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -249,6 +277,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 true
 )
@@ -262,6 +292,10 @@ this
 nodeConstants
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -271,6 +305,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;

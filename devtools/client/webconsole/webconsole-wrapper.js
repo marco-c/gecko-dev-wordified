@@ -388,6 +388,10 @@ this
 Constants
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -395,6 +399,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -492,6 +498,10 @@ this
 FluentL10n
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -505,6 +515,8 @@ l10n
 fluent
 -
 l10n
+.
+js
 "
 true
 )
@@ -518,6 +530,10 @@ this
 LocalizationProvider
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -529,6 +545,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 true
 )

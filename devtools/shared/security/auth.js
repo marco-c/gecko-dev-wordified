@@ -70,6 +70,10 @@ this
 prompt
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -77,6 +81,8 @@ shared
 security
 /
 prompt
+.
+js
 "
 )
 ;

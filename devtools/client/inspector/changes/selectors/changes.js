@@ -70,11 +70,17 @@ this
 getTabPrefs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 indentation
+.
+js
 "
 true
 )

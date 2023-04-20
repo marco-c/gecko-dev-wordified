@@ -189,6 +189,10 @@ this
 openDocLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +200,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -295,6 +301,10 @@ this
 toSnakeCase
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -306,6 +316,8 @@ compatibility
 utils
 /
 cases
+.
+js
 "
 true
 )

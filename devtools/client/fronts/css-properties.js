@@ -119,6 +119,10 @@ this
 cssColors
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -128,6 +132,8 @@ css
 color
 -
 db
+.
+js
 "
 true
 )
@@ -141,6 +147,10 @@ this
 CSS_PROPERTIES_DB
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -150,6 +160,8 @@ css
 properties
 -
 db
+.
+js
 "
 true
 )
@@ -163,6 +175,10 @@ this
 CSS_TYPES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -170,6 +186,8 @@ shared
 css
 /
 constants
+.
+js
 "
 true
 )

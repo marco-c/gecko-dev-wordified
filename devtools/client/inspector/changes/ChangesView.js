@@ -125,6 +125,10 @@ this
 ChangesContextMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +138,8 @@ inspector
 changes
 /
 ChangesContextMenu
+.
+js
 "
 )
 ;
@@ -146,6 +152,10 @@ this
 clipboardHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -153,6 +163,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;

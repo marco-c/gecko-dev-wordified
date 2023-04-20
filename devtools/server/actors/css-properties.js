@@ -160,6 +160,10 @@ this
 CSS_TYPES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -167,6 +171,8 @@ shared
 css
 /
 constants
+.
+js
 "
 true
 )

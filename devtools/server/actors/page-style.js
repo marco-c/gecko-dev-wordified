@@ -256,6 +256,10 @@ this
 StyleRuleActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -265,6 +269,8 @@ actors
 style
 -
 rule
+.
+js
 "
 true
 )
@@ -278,6 +284,10 @@ this
 getFontPreviewData
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -289,6 +299,8 @@ utils
 style
 -
 utils
+.
+js
 "
 true
 )
@@ -302,6 +314,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -313,6 +329,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -326,6 +344,10 @@ this
 SharedCssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -335,6 +357,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;
@@ -347,6 +371,10 @@ this
 getDefinedGeometryProperties
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -358,6 +386,8 @@ highlighters
 geometry
 -
 editor
+.
+js
 "
 true
 )
@@ -371,6 +401,10 @@ this
 UPDATE_GENERAL
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -380,6 +414,8 @@ actors
 style
 -
 sheet
+.
+js
 "
 true
 )

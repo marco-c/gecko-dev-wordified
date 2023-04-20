@@ -170,6 +170,10 @@ getRect
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -177,6 +181,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )

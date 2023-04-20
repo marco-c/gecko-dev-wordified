@@ -152,6 +152,10 @@ this
 clipboardHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -159,6 +163,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;

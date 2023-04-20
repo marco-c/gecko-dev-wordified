@@ -114,6 +114,10 @@ this
 AccessibilityProxy
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +127,8 @@ accessibility
 accessibility
 -
 proxy
+.
+js
 "
 true
 )
@@ -136,6 +142,10 @@ this
 Picker
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +153,8 @@ client
 accessibility
 /
 picker
+.
+js
 "
 true
 )

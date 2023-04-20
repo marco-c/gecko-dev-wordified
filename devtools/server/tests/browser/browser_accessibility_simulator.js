@@ -70,6 +70,10 @@ this
 isWebRenderEnabled
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -79,6 +83,8 @@ actors
 utils
 /
 accessibility
+.
+js
 "
 true
 )

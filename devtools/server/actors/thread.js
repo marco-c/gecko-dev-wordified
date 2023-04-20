@@ -332,6 +332,10 @@ this
 EnvironmentActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -339,6 +343,8 @@ server
 actors
 /
 environment
+.
+js
 "
 true
 )
@@ -352,6 +358,10 @@ this
 BreakpointActorMap
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -365,6 +375,8 @@ breakpoint
 actor
 -
 map
+.
+js
 "
 true
 )
@@ -378,6 +390,10 @@ this
 PauseScopedObjectActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -387,6 +403,8 @@ actors
 pause
 -
 scoped
+.
+js
 "
 true
 )
@@ -400,6 +418,10 @@ this
 EventLoop
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -411,6 +433,8 @@ utils
 event
 -
 loop
+.
+js
 "
 true
 )
@@ -432,6 +456,10 @@ isValidSavedFrame
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -439,6 +467,8 @@ server
 actors
 /
 frame
+.
+js
 "
 true
 )
@@ -452,6 +482,10 @@ this
 HighlighterEnvironment
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -459,6 +493,8 @@ server
 actors
 /
 highlighters
+.
+js
 "
 true
 )
@@ -472,6 +508,10 @@ this
 PausedDebuggerOverlay
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -483,6 +523,8 @@ highlighters
 paused
 -
 debugger
+.
+js
 "
 true
 )

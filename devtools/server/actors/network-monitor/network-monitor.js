@@ -119,6 +119,10 @@ this
 NetworkObserver
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -132,6 +136,8 @@ monitor
 network
 -
 observer
+.
+js
 "
 true
 )
@@ -145,6 +151,10 @@ this
 NetworkEventActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -158,6 +168,8 @@ monitor
 network
 -
 event
+.
+js
 "
 true
 )

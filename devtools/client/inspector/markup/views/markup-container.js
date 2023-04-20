@@ -121,6 +121,10 @@ this
 wrapMoveFocus
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +132,8 @@ client
 shared
 /
 focus
+.
+js
 "
 true
 )

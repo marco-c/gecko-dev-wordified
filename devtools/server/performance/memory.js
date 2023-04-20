@@ -116,6 +116,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -123,6 +127,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -164,6 +170,10 @@ this
 StackFrameCache
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -173,6 +183,8 @@ actors
 utils
 /
 stack
+.
+js
 "
 true
 )
@@ -186,6 +198,10 @@ this
 ParentProcessTargetActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -197,6 +213,8 @@ targets
 parent
 -
 process
+.
+js
 "
 true
 )
@@ -210,6 +228,10 @@ this
 ContentProcessTargetActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -221,6 +243,8 @@ targets
 content
 -
 process
+.
+js
 "
 true
 )

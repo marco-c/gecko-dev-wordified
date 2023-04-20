@@ -233,6 +233,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -244,6 +248,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -257,6 +263,10 @@ this
 SharedCssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -266,6 +276,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;
@@ -286,6 +298,10 @@ prettifyCSS
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -295,6 +311,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -308,6 +326,10 @@ this
 isCssPropertyKnown
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -317,6 +339,8 @@ actors
 css
 -
 properties
+.
+js
 "
 true
 )
@@ -330,6 +354,10 @@ this
 isPropertyUsed
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -343,6 +371,8 @@ inactive
 property
 -
 helper
+.
+js
 "
 true
 )
@@ -356,6 +386,10 @@ this
 parseNamedDeclarations
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -365,6 +399,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 true
 )
@@ -383,6 +419,10 @@ UPDATE_GENERAL
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -392,6 +432,8 @@ actors
 style
 -
 sheet
+.
+js
 "
 true
 )

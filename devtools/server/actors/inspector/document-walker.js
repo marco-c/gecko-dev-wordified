@@ -70,6 +70,10 @@ this
 isShadowRoot
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -77,6 +81,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -90,6 +96,10 @@ this
 nodeFilterConstants
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -101,6 +111,8 @@ node
 filter
 -
 constants
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ this
 standardTreeWalkerFilter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -122,6 +138,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 true
 )

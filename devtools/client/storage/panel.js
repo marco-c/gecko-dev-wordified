@@ -92,6 +92,10 @@ this
 StorageUI
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +103,8 @@ client
 storage
 /
 ui
+.
+js
 "
 true
 )

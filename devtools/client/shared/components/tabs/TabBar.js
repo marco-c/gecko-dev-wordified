@@ -188,6 +188,10 @@ this
 Menu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -195,6 +199,8 @@ client
 framework
 /
 menu
+.
+js
 "
 )
 ;
@@ -207,6 +213,10 @@ this
 MenuItem
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -216,6 +226,8 @@ framework
 menu
 -
 item
+.
+js
 "
 )
 ;

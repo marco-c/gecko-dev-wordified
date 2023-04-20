@@ -150,6 +150,10 @@ this
 promiseWarn
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +163,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 true
 )
@@ -180,6 +186,10 @@ parseSingleValue
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -189,6 +199,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 true
 )
@@ -202,6 +214,10 @@ this
 isCssVariable
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +227,8 @@ fronts
 css
 -
 properties
+.
+js
 "
 true
 )

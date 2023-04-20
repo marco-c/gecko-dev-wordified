@@ -100,6 +100,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -109,6 +113,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;

@@ -187,6 +187,10 @@ Infobar
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -198,6 +202,8 @@ highlighters
 utils
 /
 accessibility
+.
+js
 "
 true
 )

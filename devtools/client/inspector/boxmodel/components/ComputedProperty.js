@@ -174,6 +174,10 @@ this
 getNodeRep
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +189,8 @@ shared
 node
 -
 reps
+.
+js
 "
 )
 ;

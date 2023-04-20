@@ -243,6 +243,10 @@ this
 ADB_ADDON_STATES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -258,6 +262,8 @@ adb
 adb
 -
 addon
+.
+js
 "
 true
 )

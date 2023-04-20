@@ -75,6 +75,10 @@ getCurrentZoom
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -82,6 +86,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -95,6 +101,10 @@ this
 AutoRefreshHighlighter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -106,6 +116,8 @@ highlighters
 auto
 -
 refresh
+.
+js
 "
 true
 )
@@ -121,6 +133,10 @@ CanvasFrameAnonymousContentHelper
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -132,6 +148,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 true
 )

@@ -96,6 +96,10 @@ this
 ServiceWorkerRegistrationActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -109,6 +113,8 @@ service
 worker
 -
 registration
+.
+js
 "
 true
 )

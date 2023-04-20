@@ -130,6 +130,10 @@ this
 getGripPreviewItems
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +145,8 @@ components
 reps
 /
 index
+.
+js
 "
 true
 )
@@ -154,6 +160,10 @@ this
 getUnicodeUrlPath
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -163,6 +173,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 true
 )
@@ -176,6 +188,10 @@ this
 getSourceNames
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +201,8 @@ shared
 source
 -
 utils
+.
+js
 "
 true
 )
@@ -218,6 +236,10 @@ getNaturalOrder
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -227,6 +249,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 true
 )

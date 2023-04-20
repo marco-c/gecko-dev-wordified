@@ -90,6 +90,10 @@ this
 MainThreadWorkerDebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -99,6 +103,8 @@ transport
 worker
 -
 transport
+.
+js
 "
 true
 )

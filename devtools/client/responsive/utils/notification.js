@@ -70,6 +70,10 @@ this
 gDevTools
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -77,6 +81,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 true
 )

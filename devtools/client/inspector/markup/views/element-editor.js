@@ -188,6 +188,10 @@ parseAttributeValues
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +201,8 @@ inspector
 markup
 /
 utils
+.
+js
 "
 true
 )

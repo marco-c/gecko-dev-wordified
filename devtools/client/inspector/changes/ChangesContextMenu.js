@@ -92,6 +92,10 @@ this
 MenuItem
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +105,8 @@ framework
 menu
 -
 item
+.
+js
 "
 )
 ;

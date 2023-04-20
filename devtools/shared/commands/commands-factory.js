@@ -114,6 +114,10 @@ this
 DevToolsServer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -121,6 +125,8 @@ server
 devtools
 -
 server
+.
+js
 "
 true
 )
@@ -150,6 +156,10 @@ this
 DevToolsClient
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +167,8 @@ client
 devtools
 -
 client
+.
+js
 "
 true
 )

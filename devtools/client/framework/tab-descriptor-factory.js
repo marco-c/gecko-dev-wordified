@@ -70,6 +70,10 @@ this
 CommandsFactory
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -79,6 +83,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 true
 )

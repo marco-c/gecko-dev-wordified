@@ -70,6 +70,10 @@ this
 HTMLTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 true
 )

@@ -144,6 +144,10 @@ this
 KeyCodes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +155,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 true
 )

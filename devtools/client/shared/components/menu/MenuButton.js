@@ -213,6 +213,10 @@ this
 HTMLTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -224,6 +228,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 true
 )
@@ -237,6 +243,10 @@ this
 focusableSelector
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -244,6 +254,8 @@ client
 shared
 /
 focus
+.
+js
 "
 true
 )
@@ -257,6 +269,10 @@ this
 createPortal
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -268,6 +284,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 true
 )

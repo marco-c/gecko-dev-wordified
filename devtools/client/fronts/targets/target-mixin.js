@@ -70,11 +70,17 @@ this
 getFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 true
 )
@@ -88,6 +94,10 @@ this
 getThreadOptions
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +107,8 @@ shared
 thread
 -
 utils
+.
+js
 "
 true
 )

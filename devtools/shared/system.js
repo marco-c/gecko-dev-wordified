@@ -70,6 +70,10 @@ this
 DevToolsServer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -77,6 +81,8 @@ server
 devtools
 -
 server
+.
+js
 "
 true
 )

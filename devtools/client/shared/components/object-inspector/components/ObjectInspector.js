@@ -129,6 +129,10 @@ this
 createStore
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +144,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;

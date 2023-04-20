@@ -199,6 +199,10 @@ this
 ArrayBufferActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -208,6 +212,8 @@ actors
 array
 -
 buffer
+.
+js
 "
 true
 )
@@ -221,6 +227,10 @@ this
 LongStringActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -228,6 +238,8 @@ server
 actors
 /
 string
+.
+js
 "
 true
 )
@@ -241,11 +253,17 @@ this
 DevToolsUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

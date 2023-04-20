@@ -454,6 +454,10 @@ this
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -461,6 +465,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )

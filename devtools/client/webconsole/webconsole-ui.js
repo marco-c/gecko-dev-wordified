@@ -277,6 +277,10 @@ this
 constants
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -284,6 +288,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -296,6 +302,10 @@ this
 START_IGNORE_ACTION
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -307,6 +317,8 @@ redux
 middleware
 /
 ignore
+.
+js
 "
 true
 )

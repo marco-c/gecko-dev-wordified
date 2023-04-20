@@ -101,6 +101,10 @@ this
 PropTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +118,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -126,6 +132,10 @@ this
 isWarningGroup
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +145,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 true
 )

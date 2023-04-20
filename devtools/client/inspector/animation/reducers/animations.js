@@ -104,6 +104,10 @@ this
 TimeScale
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +119,8 @@ animation
 utils
 /
 timescale
+.
+js
 "
 )
 ;

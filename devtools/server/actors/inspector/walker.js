@@ -212,6 +212,10 @@ loadSheet
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -219,6 +223,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -232,11 +238,17 @@ this
 throttle
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 throttle
+.
+js
 "
 true
 )
@@ -267,6 +279,10 @@ standardTreeWalkerFilter
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -276,6 +292,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 true
 )
@@ -289,6 +307,10 @@ this
 CustomElementWatcher
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -302,6 +324,8 @@ custom
 element
 -
 watcher
+.
+js
 "
 true
 )
@@ -320,6 +344,10 @@ SKIP_TO_SIBLING
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -331,6 +359,8 @@ inspector
 document
 -
 walker
+.
+js
 "
 true
 )
@@ -349,6 +379,10 @@ NodeListActor
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -358,6 +392,8 @@ actors
 inspector
 /
 node
+.
+js
 "
 true
 )
@@ -371,6 +407,10 @@ this
 NodePicker
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -382,6 +422,8 @@ inspector
 node
 -
 picker
+.
+js
 "
 true
 )
@@ -395,6 +437,10 @@ this
 LayoutActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -402,6 +448,8 @@ server
 actors
 /
 layout
+.
+js
 "
 true
 )
@@ -420,6 +468,10 @@ releaseLayoutChangesObserver
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -427,6 +479,8 @@ server
 actors
 /
 reflow
+.
+js
 "
 true
 )
@@ -440,6 +494,10 @@ this
 WalkerSearch
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -451,6 +509,8 @@ utils
 walker
 -
 search
+.
+js
 "
 true
 )
@@ -464,6 +524,10 @@ this
 hasStyleSheetWatcherSupportForTarget
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -475,6 +539,8 @@ utils
 stylesheets
 -
 manager
+.
+js
 "
 true
 )

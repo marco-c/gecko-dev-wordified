@@ -117,6 +117,10 @@ this
 AccessibleWalkerActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -126,6 +130,8 @@ actors
 accessibility
 /
 walker
+.
+js
 "
 true
 )
@@ -139,6 +145,10 @@ this
 SimulatorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -148,6 +158,8 @@ actors
 accessibility
 /
 simulator
+.
+js
 "
 true
 )
@@ -161,6 +173,10 @@ this
 isWebRenderEnabled
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -170,6 +186,8 @@ actors
 utils
 /
 accessibility
+.
+js
 "
 true
 )

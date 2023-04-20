@@ -173,6 +173,10 @@ this
 parseURL
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +186,8 @@ shared
 source
 -
 utils
+.
+js
 "
 true
 )
@@ -195,6 +201,10 @@ this
 asyncStorage
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -202,6 +212,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;
@@ -214,6 +226,10 @@ this
 gridsReducer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -225,6 +241,8 @@ grids
 reducers
 /
 grids
+.
+js
 "
 )
 ;
@@ -237,6 +255,10 @@ this
 highlighterSettingsReducer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -250,6 +272,8 @@ reducers
 highlighter
 -
 settings
+.
+js
 "
 )
 ;
@@ -262,6 +286,10 @@ this
 flexboxReducer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -273,6 +301,8 @@ flexbox
 reducers
 /
 flexbox
+.
+js
 "
 )
 ;
@@ -285,11 +315,17 @@ this
 deepEqual
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 true
 )

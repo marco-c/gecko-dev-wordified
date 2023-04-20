@@ -396,6 +396,10 @@ this
 adb
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -409,6 +413,8 @@ debugging
 adb
 /
 adb
+.
+js
 "
 true
 )
@@ -422,6 +428,10 @@ this
 adbAddon
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -437,6 +447,8 @@ adb
 adb
 -
 addon
+.
+js
 "
 true
 )
@@ -450,6 +462,10 @@ this
 adbProcess
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -465,6 +481,8 @@ adb
 adb
 -
 process
+.
+js
 "
 true
 )

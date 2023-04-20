@@ -154,6 +154,10 @@ this
 getCSSLexer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -161,6 +165,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 true
 )
@@ -174,11 +180,17 @@ this
 getTabPrefs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 indentation
+.
+js
 "
 true
 )

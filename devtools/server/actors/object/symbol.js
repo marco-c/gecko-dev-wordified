@@ -114,6 +114,10 @@ this
 createValueGrip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -123,6 +127,8 @@ actors
 object
 /
 utils
+.
+js
 "
 true
 )

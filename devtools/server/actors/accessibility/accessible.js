@@ -143,6 +143,10 @@ this
 getContrastRatioFor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -154,6 +158,8 @@ accessibility
 audit
 /
 contrast
+.
+js
 "
 true
 )
@@ -167,6 +173,10 @@ this
 auditKeyboard
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -178,6 +188,8 @@ accessibility
 audit
 /
 keyboard
+.
+js
 "
 true
 )
@@ -191,6 +203,10 @@ this
 auditTextLabel
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -204,6 +220,8 @@ audit
 text
 -
 label
+.
+js
 "
 true
 )
@@ -217,6 +235,10 @@ this
 isDefunct
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -226,6 +248,8 @@ actors
 utils
 /
 accessibility
+.
+js
 "
 true
 )
@@ -239,6 +263,10 @@ this
 findCssSelector
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -248,6 +276,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -261,6 +291,10 @@ this
 events
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -268,6 +302,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -280,6 +316,10 @@ this
 getBounds
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -291,6 +331,8 @@ highlighters
 utils
 /
 accessibility
+.
+js
 "
 true
 )
@@ -304,6 +346,10 @@ this
 isFrameWithChildTarget
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -311,6 +357,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )

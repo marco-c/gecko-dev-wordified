@@ -179,6 +179,10 @@ this
 getNodeRep
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +194,8 @@ shared
 node
 -
 reps
+.
+js
 "
 )
 ;
@@ -226,6 +232,10 @@ this
 showMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +247,8 @@ components
 menu
 /
 utils
+.
+js
 "
 true
 )

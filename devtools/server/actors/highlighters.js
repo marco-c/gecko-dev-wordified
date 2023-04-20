@@ -118,6 +118,10 @@ this
 isXUL
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -129,6 +133,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 true
 )

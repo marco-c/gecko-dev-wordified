@@ -608,6 +608,10 @@ this
 InspectorActorUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -617,6 +621,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 )
 ;
@@ -629,6 +635,10 @@ this
 WalkerActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -638,6 +648,8 @@ actors
 inspector
 /
 walker
+.
+js
 "
 true
 )
@@ -651,6 +663,10 @@ this
 EyeDropper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -662,6 +678,8 @@ highlighters
 eye
 -
 dropper
+.
+js
 "
 true
 )
@@ -675,6 +693,10 @@ this
 PageStyleActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -684,6 +706,8 @@ actors
 page
 -
 style
+.
+js
 "
 true
 )
@@ -705,6 +729,10 @@ HighlighterEnvironment
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -712,6 +740,8 @@ server
 actors
 /
 highlighters
+.
+js
 "
 true
 )
@@ -725,6 +755,10 @@ this
 CompatibilityActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -734,6 +768,8 @@ actors
 compatibility
 /
 compatibility
+.
+js
 "
 true
 )

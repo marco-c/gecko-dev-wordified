@@ -158,6 +158,10 @@ this
 gDevTools
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +169,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 true
 )
@@ -178,6 +184,10 @@ this
 gDevToolsBrowser
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +197,8 @@ framework
 devtools
 -
 browser
+.
+js
 "
 true
 )
@@ -200,6 +212,10 @@ this
 Telemetry
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +223,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;

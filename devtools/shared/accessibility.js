@@ -70,6 +70,10 @@ this
 colorUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -77,6 +81,8 @@ shared
 css
 /
 color
+.
+js
 "
 true
 )

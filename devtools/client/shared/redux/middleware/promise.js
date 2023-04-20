@@ -70,6 +70,10 @@ this
 generateUUID
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -77,6 +81,8 @@ shared
 generate
 -
 uuid
+.
+js
 "
 true
 )
@@ -98,11 +104,17 @@ toObject
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 true
 )

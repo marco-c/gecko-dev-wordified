@@ -139,6 +139,10 @@ this
 captureScreenshot
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +150,8 @@ client
 shared
 /
 screenshot
+.
+js
 "
 true
 )

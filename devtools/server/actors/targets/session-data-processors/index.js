@@ -109,6 +109,10 @@ SUPPORTED_DATA
 .
 BLACKBOXING
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -124,6 +128,8 @@ data
 processors
 /
 blackboxing
+.
+js
 "
 )
 ;
@@ -136,6 +142,10 @@ SUPPORTED_DATA
 .
 BREAKPOINTS
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -151,6 +161,8 @@ data
 processors
 /
 breakpoints
+.
+js
 "
 )
 ;
@@ -163,6 +175,10 @@ SUPPORTED_DATA
 .
 EVENT_BREAKPOINTS
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -180,6 +196,8 @@ processors
 event
 -
 breakpoints
+.
+js
 "
 )
 ;
@@ -192,6 +210,10 @@ SUPPORTED_DATA
 .
 RESOURCES
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -207,6 +229,8 @@ data
 processors
 /
 resources
+.
+js
 "
 )
 ;
@@ -219,6 +243,10 @@ SUPPORTED_DATA
 .
 TARGET_CONFIGURATION
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -236,6 +264,8 @@ processors
 target
 -
 configuration
+.
+js
 "
 )
 ;
@@ -248,6 +278,10 @@ SUPPORTED_DATA
 .
 THREAD_CONFIGURATION
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -265,6 +299,8 @@ processors
 thread
 -
 configuration
+.
+js
 "
 )
 ;
@@ -277,6 +313,10 @@ SUPPORTED_DATA
 .
 XHR_BREAKPOINTS
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -294,6 +334,8 @@ processors
 xhr
 -
 breakpoints
+.
+js
 "
 )
 ;

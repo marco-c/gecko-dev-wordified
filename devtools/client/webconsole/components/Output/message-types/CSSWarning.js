@@ -232,6 +232,10 @@ this
 GripMessageBody
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -243,6 +247,8 @@ components
 Output
 /
 GripMessageBody
+.
+js
 "
 )
 ;

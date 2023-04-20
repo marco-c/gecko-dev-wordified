@@ -210,6 +210,10 @@ this
 Toolbox
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +221,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 true
 )
@@ -230,6 +236,10 @@ this
 Hosts
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -239,6 +249,8 @@ framework
 toolbox
 -
 hosts
+.
+js
 "
 true
 )

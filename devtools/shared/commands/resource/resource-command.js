@@ -8525,6 +8525,10 @@ TYPES
 .
 CONSOLE_MESSAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8540,6 +8544,8 @@ listeners
 console
 -
 messages
+.
+js
 "
 )
 ;
@@ -8554,6 +8560,10 @@ TYPES
 .
 CSS_CHANGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8569,6 +8579,8 @@ listeners
 css
 -
 changes
+.
+js
 "
 )
 ;
@@ -8583,6 +8595,10 @@ TYPES
 .
 CSS_MESSAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8598,6 +8614,8 @@ listeners
 css
 -
 messages
+.
+js
 "
 )
 ;
@@ -8612,6 +8630,10 @@ TYPES
 .
 ERROR_MESSAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8627,6 +8649,8 @@ listeners
 error
 -
 messages
+.
+js
 "
 )
 ;
@@ -8641,6 +8665,10 @@ TYPES
 .
 PLATFORM_MESSAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8656,6 +8684,8 @@ listeners
 platform
 -
 messages
+.
+js
 "
 )
 ;
@@ -8670,6 +8700,10 @@ TYPES
 .
 CLONED_CONTENT_PROCESS_MESSAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8689,6 +8723,8 @@ content
 process
 -
 messages
+.
+js
 "
 )
 ;
@@ -8703,6 +8739,10 @@ TYPES
 .
 ROOT_NODE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8718,6 +8758,8 @@ listeners
 root
 -
 node
+.
+js
 "
 )
 ;
@@ -8732,6 +8774,10 @@ TYPES
 .
 STYLESHEET
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8745,6 +8791,8 @@ legacy
 listeners
 /
 stylesheet
+.
+js
 "
 )
 ;
@@ -8759,6 +8807,10 @@ TYPES
 .
 NETWORK_EVENT
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8774,6 +8826,8 @@ listeners
 network
 -
 events
+.
+js
 "
 )
 ;
@@ -8788,6 +8842,10 @@ TYPES
 .
 WEBSOCKET
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8801,6 +8859,8 @@ legacy
 listeners
 /
 websocket
+.
+js
 "
 )
 ;
@@ -8815,6 +8875,10 @@ TYPES
 .
 COOKIE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8828,6 +8892,8 @@ legacy
 listeners
 /
 cookie
+.
+js
 "
 )
 ;
@@ -8842,6 +8908,10 @@ TYPES
 .
 CACHE_STORAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8857,6 +8927,8 @@ listeners
 cache
 -
 storage
+.
+js
 "
 )
 ;
@@ -8871,6 +8943,10 @@ TYPES
 .
 LOCAL_STORAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8886,6 +8962,8 @@ listeners
 local
 -
 storage
+.
+js
 "
 )
 ;
@@ -8900,6 +8978,10 @@ TYPES
 .
 SESSION_STORAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8915,6 +8997,8 @@ listeners
 session
 -
 storage
+.
+js
 "
 )
 ;
@@ -8929,6 +9013,10 @@ TYPES
 .
 EXTENSION_STORAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8944,6 +9032,8 @@ listeners
 extension
 -
 storage
+.
+js
 "
 )
 ;
@@ -8958,6 +9048,10 @@ TYPES
 .
 INDEXED_DB
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -8973,6 +9067,8 @@ listeners
 indexed
 -
 db
+.
+js
 "
 )
 ;
@@ -8987,6 +9083,10 @@ TYPES
 .
 NETWORK_EVENT_STACKTRACE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9004,6 +9104,8 @@ network
 event
 -
 stacktraces
+.
+js
 "
 )
 ;
@@ -9018,6 +9120,10 @@ TYPES
 .
 SOURCE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9031,6 +9137,8 @@ legacy
 listeners
 /
 source
+.
+js
 "
 )
 ;
@@ -9045,6 +9153,10 @@ TYPES
 .
 THREAD_STATE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9060,6 +9172,8 @@ listeners
 thread
 -
 states
+.
+js
 "
 )
 ;
@@ -9074,6 +9188,10 @@ TYPES
 .
 SERVER_SENT_EVENT
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9091,6 +9209,8 @@ server
 sent
 -
 events
+.
+js
 "
 )
 ;
@@ -9105,6 +9225,10 @@ TYPES
 .
 REFLOW
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9118,6 +9242,8 @@ legacy
 listeners
 /
 reflow
+.
+js
 "
 )
 ;
@@ -9196,6 +9322,10 @@ TYPES
 .
 CONSOLE_MESSAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9209,6 +9339,8 @@ transformers
 console
 -
 messages
+.
+js
 "
 )
 ;
@@ -9223,6 +9355,10 @@ TYPES
 .
 ERROR_MESSAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9236,6 +9372,8 @@ transformers
 error
 -
 messages
+.
+js
 "
 )
 ;
@@ -9250,6 +9388,10 @@ TYPES
 .
 CACHE_STORAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9279,6 +9421,10 @@ TYPES
 .
 COOKIE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9308,6 +9454,10 @@ TYPES
 .
 INDEXED_DB
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9339,6 +9489,10 @@ TYPES
 .
 LOCAL_STORAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9370,6 +9524,10 @@ TYPES
 .
 SESSION_STORAGE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9401,6 +9559,10 @@ TYPES
 .
 NETWORK_EVENT
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9414,6 +9576,8 @@ transformers
 network
 -
 events
+.
+js
 "
 )
 ;
@@ -9428,6 +9592,10 @@ TYPES
 .
 THREAD_STATE
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -9441,6 +9609,8 @@ transformers
 thread
 -
 states
+.
+js
 "
 )
 ;

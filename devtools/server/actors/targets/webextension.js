@@ -292,6 +292,10 @@ this
 unwrapDebuggerObjectGlobal
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -299,6 +303,8 @@ server
 actors
 /
 thread
+.
+js
 "
 true
 )

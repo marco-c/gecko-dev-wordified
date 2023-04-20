@@ -139,6 +139,10 @@ this
 ObjectFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +150,8 @@ client
 fronts
 /
 object
+.
+js
 "
 true
 )
@@ -159,6 +165,10 @@ this
 FrameFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +176,8 @@ client
 fronts
 /
 frame
+.
+js
 "
 )
 ;
@@ -178,6 +190,10 @@ this
 SourceFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +201,8 @@ client
 fronts
 /
 source
+.
+js
 "
 true
 )

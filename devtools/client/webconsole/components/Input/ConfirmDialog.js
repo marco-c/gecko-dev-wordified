@@ -70,6 +70,10 @@ this
 PropTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ this
 HTMLTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +116,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 true
 )
@@ -119,6 +131,10 @@ this
 createPortal
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +146,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 true
 )

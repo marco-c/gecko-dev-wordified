@@ -142,6 +142,10 @@ this
 CSS_ANGLEUNIT
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -149,6 +153,8 @@ shared
 css
 /
 constants
+.
+js
 "
 true
 )

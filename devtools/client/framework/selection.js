@@ -92,6 +92,10 @@ this
 nodeConstants
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -101,6 +105,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;

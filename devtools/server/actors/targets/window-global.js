@@ -556,6 +556,10 @@ unwrapDebuggerObjectGlobal
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -563,6 +567,8 @@ server
 actors
 /
 thread
+.
+js
 "
 true
 )
@@ -576,6 +582,10 @@ this
 WorkerDescriptorActorList
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -591,6 +601,8 @@ descriptor
 actor
 -
 list
+.
+js
 "
 true
 )
@@ -626,6 +638,10 @@ getSheetText
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -635,6 +651,8 @@ actors
 style
 -
 sheet
+.
+js
 "
 true
 )
@@ -648,6 +666,10 @@ this
 TouchSimulator
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -659,6 +681,8 @@ emulation
 touch
 -
 simulator
+.
+js
 "
 true
 )

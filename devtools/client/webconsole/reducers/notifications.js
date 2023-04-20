@@ -100,6 +100,10 @@ removeNotificationWithValue
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +113,8 @@ shared
 components
 /
 NotificationBox
+.
+js
 "
 true
 )

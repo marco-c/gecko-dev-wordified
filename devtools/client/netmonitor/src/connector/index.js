@@ -188,6 +188,10 @@ this
 throttlingProfiles
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -199,6 +203,8 @@ components
 throttling
 /
 profiles
+.
+js
 "
 )
 ;

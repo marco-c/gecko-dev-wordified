@@ -129,6 +129,10 @@ this
 formatCommand
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -138,6 +142,8 @@ actors
 webconsole
 /
 commands
+.
+js
 "
 true
 )
@@ -151,6 +157,10 @@ this
 isCommand
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -160,6 +170,8 @@ actors
 webconsole
 /
 commands
+.
+js
 "
 true
 )
@@ -173,6 +185,10 @@ this
 WebConsoleCommands
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -182,6 +198,8 @@ actors
 webconsole
 /
 utils
+.
+js
 "
 true
 )
@@ -195,6 +213,10 @@ this
 LongStringActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -202,6 +224,8 @@ server
 actors
 /
 string
+.
+js
 "
 true
 )
@@ -215,6 +239,10 @@ this
 eagerEcmaAllowlist
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -228,6 +256,8 @@ eager
 ecma
 -
 allowlist
+.
+js
 "
 )
 ;
@@ -240,6 +270,10 @@ this
 eagerFunctionAllowlist
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -253,6 +287,8 @@ eager
 function
 -
 allowlist
+.
+js
 "
 )
 ;

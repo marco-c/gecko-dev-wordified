@@ -75,6 +75,10 @@ getWarningGroupType
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 true
 )

@@ -313,6 +313,10 @@ this
 TreeWidget
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -322,6 +326,8 @@ shared
 widgets
 /
 TreeWidget
+.
+js
 "
 true
 )
@@ -335,6 +341,10 @@ this
 TableWidget
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -344,6 +354,8 @@ shared
 widgets
 /
 TableWidget
+.
+js
 "
 true
 )
@@ -357,11 +369,17 @@ this
 debounce
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 debounce
+.
+js
 "
 true
 )

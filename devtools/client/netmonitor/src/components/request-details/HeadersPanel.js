@@ -732,6 +732,10 @@ this
 showMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -743,6 +747,8 @@ components
 menu
 /
 utils
+.
+js
 "
 true
 )
@@ -756,6 +762,10 @@ this
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -763,6 +773,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )

@@ -141,6 +141,10 @@ this
 PropertyIteratorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -152,6 +156,8 @@ object
 property
 -
 iterator
+.
+js
 "
 true
 )
@@ -165,6 +171,10 @@ this
 SymbolIteratorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -176,6 +186,8 @@ object
 symbol
 -
 iterator
+.
+js
 "
 true
 )
@@ -189,6 +201,10 @@ this
 PrivatePropertiesIteratorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -202,6 +218,8 @@ private
 properties
 -
 iterator
+.
+js
 "
 true
 )
@@ -215,6 +233,10 @@ this
 previewers
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -224,6 +246,8 @@ actors
 object
 /
 previewers
+.
+js
 "
 )
 ;
@@ -236,6 +260,10 @@ this
 makeSideeffectFreeDebugger
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -249,6 +277,8 @@ eval
 with
 -
 debugger
+.
+js
 "
 true
 )

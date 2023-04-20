@@ -181,6 +181,10 @@ lazy
 validateBreakpointLocation
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -203,6 +207,10 @@ lazy
 validateEventBreakpoint
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -214,6 +222,8 @@ utils
 event
 -
 breakpoints
+.
+js
 "
 true
 )

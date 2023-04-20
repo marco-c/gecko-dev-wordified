@@ -120,6 +120,10 @@ this
 asyncStorage
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -127,6 +131,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;

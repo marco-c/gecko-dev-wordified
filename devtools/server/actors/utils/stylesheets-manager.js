@@ -185,6 +185,10 @@ removePseudoClassLock
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -196,6 +200,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 true
 )
@@ -209,6 +215,10 @@ this
 loadSheet
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -216,6 +226,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -237,6 +249,10 @@ UPDATE_PRESERVING_RULES
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -246,6 +262,8 @@ actors
 style
 -
 sheet
+.
+js
 "
 true
 )

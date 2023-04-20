@@ -420,6 +420,10 @@ this
 WorkerDescriptorActorList
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -435,6 +439,8 @@ descriptor
 actor
 -
 list
+.
+js
 "
 true
 )
@@ -448,6 +454,10 @@ this
 MemoryActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -455,6 +465,8 @@ server
 actors
 /
 memory
+.
+js
 "
 true
 )

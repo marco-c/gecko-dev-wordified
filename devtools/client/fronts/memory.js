@@ -146,6 +146,10 @@ this
 HeapSnapshotFileUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -153,6 +157,8 @@ shared
 heapsnapshot
 /
 HeapSnapshotFileUtils
+.
+js
 "
 )
 ;

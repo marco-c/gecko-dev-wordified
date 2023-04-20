@@ -157,6 +157,10 @@ findCssSelector
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -166,6 +170,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -211,6 +217,10 @@ isShadowRoot
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -218,6 +228,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -245,6 +257,10 @@ isNodeDead
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -254,6 +270,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 true
 )
@@ -267,6 +285,10 @@ this
 LongStringActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -274,6 +296,8 @@ server
 actors
 /
 string
+.
+js
 "
 true
 )
@@ -287,6 +311,10 @@ this
 getFontPreviewData
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -298,6 +326,8 @@ utils
 style
 -
 utils
+.
+js
 "
 true
 )
@@ -311,6 +341,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -322,6 +356,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -335,6 +371,10 @@ this
 EventCollector
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -346,6 +386,8 @@ inspector
 event
 -
 collector
+.
+js
 "
 true
 )
@@ -359,6 +401,10 @@ this
 DOMHelpers
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -366,6 +412,8 @@ shared
 dom
 -
 helpers
+.
+js
 "
 true
 )

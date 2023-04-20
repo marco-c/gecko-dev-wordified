@@ -152,6 +152,10 @@ this
 getColor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +163,8 @@ client
 shared
 /
 theme
+.
+js
 "
 true
 )
@@ -172,6 +178,10 @@ this
 HTMLTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +193,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 true
 )
@@ -204,6 +216,10 @@ setBrokenImageTooltip
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -215,6 +231,8 @@ widgets
 tooltip
 /
 ImageTooltipHelper
+.
+js
 "
 true
 )
@@ -228,6 +246,10 @@ this
 setVariableTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -239,6 +261,8 @@ widgets
 tooltip
 /
 VariableTooltipHelper
+.
+js
 "
 true
 )
@@ -252,6 +276,10 @@ this
 InactiveCssTooltipHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -269,6 +297,8 @@ css
 tooltip
 -
 helper
+.
+js
 "
 false
 )
@@ -282,6 +312,10 @@ this
 CssCompatibilityTooltipHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -299,6 +333,8 @@ compatibility
 tooltip
 -
 helper
+.
+js
 "
 false
 )
@@ -312,6 +348,10 @@ this
 Telemetry
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -319,6 +359,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 false
 )

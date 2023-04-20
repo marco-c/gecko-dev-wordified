@@ -142,6 +142,10 @@ this
 RootActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -149,6 +153,8 @@ server
 actors
 /
 root
+.
+js
 "
 true
 )
@@ -162,6 +168,10 @@ this
 TabDescriptorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -171,6 +181,8 @@ actors
 descriptors
 /
 tab
+.
+js
 "
 true
 )
@@ -184,6 +196,10 @@ this
 WebExtensionDescriptorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -193,6 +209,8 @@ actors
 descriptors
 /
 webextension
+.
+js
 "
 true
 )
@@ -206,6 +224,10 @@ this
 WorkerDescriptorActorList
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -221,6 +243,8 @@ descriptor
 actor
 -
 list
+.
+js
 "
 true
 )
@@ -234,6 +258,10 @@ this
 ServiceWorkerRegistrationActorList
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -249,6 +277,8 @@ worker
 registration
 -
 list
+.
+js
 "
 true
 )
@@ -262,6 +292,10 @@ this
 ProcessActorList
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -269,6 +303,8 @@ server
 actors
 /
 process
+.
+js
 "
 true
 )

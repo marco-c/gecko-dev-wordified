@@ -268,6 +268,10 @@ TYPES
 .
 FRAME
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -283,6 +287,8 @@ helpers
 frame
 -
 helper
+.
+js
 "
 )
 ;
@@ -297,6 +303,10 @@ TYPES
 .
 PROCESS
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -312,6 +322,8 @@ helpers
 process
 -
 helper
+.
+js
 "
 )
 ;
@@ -326,6 +338,10 @@ TYPES
 .
 WORKER
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -341,6 +357,8 @@ helpers
 worker
 -
 helper
+.
+js
 "
 )
 ;
@@ -353,6 +371,10 @@ this
 NetworkParentActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -366,6 +388,8 @@ monitor
 network
 -
 parent
+.
+js
 "
 true
 )
@@ -379,6 +403,10 @@ this
 BlackboxingActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -386,6 +414,8 @@ server
 actors
 /
 blackboxing
+.
+js
 "
 true
 )
@@ -399,6 +429,10 @@ this
 BreakpointListActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -408,6 +442,8 @@ actors
 breakpoint
 -
 list
+.
+js
 "
 true
 )
@@ -421,6 +457,10 @@ this
 TargetConfigurationActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -430,6 +470,8 @@ actors
 target
 -
 configuration
+.
+js
 "
 true
 )
@@ -443,6 +485,10 @@ this
 ThreadConfigurationActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -452,6 +498,8 @@ actors
 thread
 -
 configuration
+.
+js
 "
 true
 )

@@ -162,6 +162,10 @@ this
 StackFrameCache
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -171,6 +175,8 @@ actors
 utils
 /
 stack
+.
+js
 "
 true
 )
