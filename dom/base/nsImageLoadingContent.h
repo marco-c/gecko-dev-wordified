@@ -2322,12 +2322,6 @@ load
 param
 aEventType
 "
-loadstart
-"
-"
-loadend
-"
-"
 load
 "
 or
@@ -2336,7 +2330,6 @@ error
 "
 depending
 on
-*
 how
 things
 went
