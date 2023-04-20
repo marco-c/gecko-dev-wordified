@@ -1663,12 +1663,6 @@ bindToolboxHandlers
 (
 )
 ;
-gToolbox
-.
-raise
-(
-)
-;
 /
 /
 Enable
@@ -1728,6 +1722,13 @@ installTestingServer
 )
 ;
 }
+await
+gToolbox
+.
+raise
+(
+)
+;
 /
 /
 Warn

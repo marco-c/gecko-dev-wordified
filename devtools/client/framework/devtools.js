@@ -3340,6 +3340,7 @@ if
 raise
 )
 {
+await
 toolbox
 .
 raise
