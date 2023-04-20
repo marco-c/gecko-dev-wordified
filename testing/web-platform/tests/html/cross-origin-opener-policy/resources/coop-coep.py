@@ -323,6 +323,14 @@ b
 "
 channel
 "
+b
+"
+responseToken
+"
+b
+"
+iframeToken
+"
 )
 :
         
@@ -352,22 +360,6 @@ value
 decode
 (
 )
-    
-#
-This
-uses
-an
-<
-iframe
->
-as
-BroadcastChannel
-is
-same
--
-origin
-bound
-.
     
 response
 .
@@ -724,6 +716,22 @@ params
 channel
 ;
     
+const
+responseToken
+=
+params
+.
+responseToken
+;
+    
+const
+iframeToken
+=
+params
+.
+iframeToken
+;
+    
 iframe
 .
 src
@@ -751,6 +759,8 @@ resources
 postback
 .
 html
++
+                 
 ?
 channel
 =
@@ -759,6 +769,22 @@ encodeURIComponent
 (
 channelName
 )
+}
++
+                 
+&
+responseToken
+=
+{
+responseToken
+}
++
+                 
+&
+iframeToken
+=
+{
+iframeToken
 }
 ;
     
