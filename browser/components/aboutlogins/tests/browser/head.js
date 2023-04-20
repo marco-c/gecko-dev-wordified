@@ -124,7 +124,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 LoginTestUtils
 }
@@ -1105,6 +1105,9 @@ function
 waitForMPDialog
 (
 action
+aWindow
+=
+window
 )
 {
 const
@@ -1275,7 +1278,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-window
+aWindow
 "
 DOMModalDialogClosed
 "
@@ -1365,6 +1368,9 @@ function
 forceAuthTimeoutAndWaitForMPDialog
 (
 action
+aWindow
+=
+window
 )
 {
 const
@@ -1400,6 +1406,7 @@ return
 waitForMPDialog
 (
 action
+aWindow
 )
 ;
 }
