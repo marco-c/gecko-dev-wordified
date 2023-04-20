@@ -152,14 +152,11 @@ enabled
 .
 if
 (
-mode
-!
-=
-Ci
+Services
 .
-nsICookieBannerService
+cookieBanners
 .
-MODE_DISABLED
+isEnabled
 )
 {
 insertTestClickRules
