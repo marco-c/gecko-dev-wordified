@@ -130,10 +130,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGTransform
 .
 h
