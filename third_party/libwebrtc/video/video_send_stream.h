@@ -450,6 +450,12 @@ Stop
 )
 override
 ;
+bool
+started
+(
+)
+override
+;
 void
 AddAdaptationResource
 (
@@ -537,9 +543,6 @@ test
 :
 VideoSendStreamPeer
 ;
-class
-ConstructionTask
-;
 absl
 :
 :
@@ -624,8 +627,6 @@ RtpVideoSenderInterface
 *
 const
 rtp_video_sender_
-=
-nullptr
 ;
 VideoSendStreamImpl
 send_stream_
