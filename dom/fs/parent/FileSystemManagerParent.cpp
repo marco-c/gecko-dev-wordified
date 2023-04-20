@@ -166,6 +166,17 @@ mozilla
 /
 dom
 /
+FileSystemDataManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemTypes
 .
 h
