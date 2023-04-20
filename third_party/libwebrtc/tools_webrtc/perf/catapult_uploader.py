@@ -742,15 +742,6 @@ headers
 headers
 )
         
-resp_json
-=
-json
-.
-loads
-(
-content
-)
-        
 print
 '
 Upload
@@ -760,11 +751,20 @@ polled
 Response
 :
 %
-s
+r
 .
 '
 %
 content
+        
+resp_json
+=
+json
+.
+loads
+(
+content
+)
         
 if
 (
