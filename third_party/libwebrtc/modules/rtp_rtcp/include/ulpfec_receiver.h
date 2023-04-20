@@ -345,7 +345,7 @@ the
 callback
 .
 virtual
-int32_t
+void
 ProcessReceivedFec
 (
 )
