@@ -234,6 +234,11 @@ VideoFrame
 >
 *
 )
+PROXY_SECONDARY_METHOD0
+(
+void
+RequestRefreshFrame
+)
 PROXY_METHOD1
 (
 void
