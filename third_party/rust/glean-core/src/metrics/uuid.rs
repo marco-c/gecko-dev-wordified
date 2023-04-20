@@ -420,7 +420,7 @@ Uuid
 (
 uuid
 .
-to_hyphenated
+as_hyphenated
 (
 )
 .
