@@ -618,7 +618,7 @@ public
 rtc
 :
 :
-MessageHandlerAutoCleanup
+MessageHandler
 {
 public
 :
@@ -2161,7 +2161,7 @@ public
 rtc
 :
 :
-MessageHandlerAutoCleanup
+MessageHandler
 public
 sigslot
 :
