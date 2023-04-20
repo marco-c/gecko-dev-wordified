@@ -94,6 +94,15 @@ include
 "
 mozilla
 /
+GfxMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
