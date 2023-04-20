@@ -523,6 +523,11 @@ fission
 =
 True
         
+extra_summary_methods
+=
+[
+]
+        
 *
 *
 kwargs
@@ -802,6 +807,12 @@ verbose
 "
 :
 verbose
+            
+"
+extra_summary_methods
+"
+:
+extra_summary_methods
         
 }
         

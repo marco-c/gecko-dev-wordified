@@ -237,6 +237,11 @@ test_bytecode_cache
 =
 False
         
+extra_summary_methods
+=
+[
+]
+        
 *
 *
 kwargs
@@ -360,6 +365,12 @@ self
 existing_results
 =
 None
+        
+self
+.
+extra_summary_methods
+=
+extra_summary_methods
     
 abstractmethod
     
@@ -6565,6 +6576,10 @@ subtest_alert_on
 self
 .
 app
+            
+self
+.
+extra_summary_methods
         
 )
         

@@ -888,6 +888,12 @@ fission
 args
 .
 fission
+            
+extra_summary_methods
+=
+args
+.
+extra_summary_methods
         
 )
     
