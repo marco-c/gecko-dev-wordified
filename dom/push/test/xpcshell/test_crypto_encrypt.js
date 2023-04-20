@@ -29,7 +29,7 @@ PushCrypto
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -42,9 +42,7 @@ modules
 /
 PushCrypto
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

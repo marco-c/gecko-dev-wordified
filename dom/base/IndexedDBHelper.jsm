@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 var
 DEBUG
 =
@@ -109,6 +114,15 @@ s
 }
 ;
 }
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+IndexedDBHelper
+"
+]
+;
 function
 getErrorName
 (
@@ -131,7 +145,6 @@ UnknownError
 "
 ;
 }
-export
 function
 IndexedDBHelper
 (
