@@ -9655,11 +9655,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
-Result
-<
 CreateElementResult
-nsresult
->
 InsertBRElement
 (
 HTMLEditor
