@@ -1703,7 +1703,7 @@ version
 0
 *
 /
-HBFixed
+F16DOT16
 italicAngle
 ;
 /

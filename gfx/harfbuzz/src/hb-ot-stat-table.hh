@@ -887,7 +887,7 @@ value
 .
 *
 /
-HBFixed
+F16DOT16
 value
 ;
 /
@@ -1241,7 +1241,7 @@ value
 .
 *
 /
-HBFixed
+F16DOT16
 nominalValue
 ;
 /
@@ -1256,7 +1256,7 @@ value
 .
 *
 /
-HBFixed
+F16DOT16
 rangeMinValue
 ;
 /
@@ -1277,7 +1277,7 @@ ID
 .
 *
 /
-HBFixed
+F16DOT16
 rangeMaxValue
 ;
 /
@@ -1637,7 +1637,7 @@ value
 .
 *
 /
-HBFixed
+F16DOT16
 value
 ;
 /
@@ -1652,7 +1652,7 @@ value
 .
 *
 /
-HBFixed
+F16DOT16
 linkedValue
 ;
 /
@@ -1771,7 +1771,7 @@ designAxisCount
 .
 *
 /
-HBFixed
+F16DOT16
 value
 ;
 /

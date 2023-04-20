@@ -415,7 +415,7 @@ this
 ActionSubrecordHeader
 header
 ;
-HBFixed
+F16DOT16
 lowerLimit
 ;
 /
@@ -438,7 +438,7 @@ decomposed
 .
 *
 /
-HBFixed
+F16DOT16
 upperLimit
 ;
 /
@@ -654,7 +654,7 @@ protected
 ActionSubrecordHeader
 header
 ;
-HBFixed
+F16DOT16
 substThreshold
 ;
 /
@@ -836,7 +836,7 @@ contains
 .
 *
 /
-HBFixed
+F16DOT16
 minimumLimit
 ;
 /
@@ -867,7 +867,7 @@ be
 .
 *
 /
-HBFixed
+F16DOT16
 noStretchValue
 ;
 /
@@ -897,7 +897,7 @@ be
 .
 *
 /
-HBFixed
+F16DOT16
 maximumLimit
 ;
 /
@@ -1608,7 +1608,7 @@ priority
 ;
 protected
 :
-HBFixed
+F16DOT16
 beforeGrowLimit
 ;
 /
@@ -1637,7 +1637,7 @@ side
 .
 *
 /
-HBFixed
+F16DOT16
 beforeShrinkLimit
 ;
 /
@@ -1666,7 +1666,7 @@ side
 .
 *
 /
-HBFixed
+F16DOT16
 afterGrowLimit
 ;
 /
@@ -1695,7 +1695,7 @@ side
 .
 *
 /
-HBFixed
+F16DOT16
 afterShrinkLimit
 ;
 /
