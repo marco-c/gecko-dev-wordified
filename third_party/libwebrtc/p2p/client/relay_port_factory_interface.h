@@ -144,6 +144,9 @@ webrtc
 class
 TurnCustomizer
 ;
+class
+WebRtcKeyValueConfig
+;
 }
 /
 /
@@ -230,6 +233,16 @@ webrtc
 TurnCustomizer
 *
 turn_customizer
+;
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
+=
+nullptr
 ;
 }
 ;

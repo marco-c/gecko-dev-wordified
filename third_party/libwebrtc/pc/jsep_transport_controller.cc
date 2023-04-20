@@ -2454,6 +2454,15 @@ config_
 event_log
 )
 ;
+init
+.
+set_field_trials
+(
+config_
+.
+field_trials
+)
+;
 return
 config_
 .

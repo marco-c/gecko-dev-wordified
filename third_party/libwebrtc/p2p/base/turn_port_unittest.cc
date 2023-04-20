@@ -371,7 +371,7 @@ include
 "
 test
 /
-field_trial
+gtest
 .
 h
 "
@@ -380,7 +380,7 @@ include
 "
 test
 /
-gtest
+scoped_key_value_config
 .
 h
 "
@@ -2212,6 +2212,9 @@ turn_customizer_
 get
 (
 )
+nullptr
+&
+field_trials_
 )
 ;
 if
@@ -2432,6 +2435,8 @@ server_address
 credentials
 0
 nullptr
+&
+field_trials_
 )
 ;
 /
@@ -5579,6 +5584,15 @@ size
 }
 protected
 :
+webrtc
+:
+:
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 rtc
 :
 :
@@ -13593,9 +13607,10 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 override_field_trials
 (
+field_trials_
 "
 WebRTC
 -
