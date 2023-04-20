@@ -1274,10 +1274,10 @@ network_http_http2_enabled
 isHttp3
 &
 &
-StaticPrefs
+nsHttpHandler
 :
 :
-network_http_http3_enable
+IsHttp3Enabled
 (
 )
 &
@@ -6595,10 +6595,10 @@ IsHttp3
 &
 (
 !
-StaticPrefs
+nsHttpHandler
 :
 :
-network_http_http3_enable
+IsHttp3Enabled
 (
 )
 |

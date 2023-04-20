@@ -2773,6 +2773,12 @@ return
 mDefaultHpackBuffer
 ;
 }
+static
+bool
+IsHttp3Enabled
+(
+)
+;
 bool
 IsHttp3VersionSupported
 (

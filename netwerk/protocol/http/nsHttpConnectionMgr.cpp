@@ -9357,10 +9357,10 @@ NS_HTTP_DISALLOW_SPDY
 )
 (
 !
-StaticPrefs
+nsHttpHandler
 :
 :
-network_http_http3_enable
+IsHttp3Enabled
 (
 )
 |
