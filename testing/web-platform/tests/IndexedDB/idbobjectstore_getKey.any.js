@@ -206,6 +206,16 @@ transaction
 '
 basic
 '
+'
+readonly
+'
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 const

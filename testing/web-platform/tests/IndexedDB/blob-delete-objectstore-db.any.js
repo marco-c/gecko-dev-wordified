@@ -191,6 +191,13 @@ store1
 '
 readwrite
 '
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 const
