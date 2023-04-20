@@ -742,6 +742,9 @@ case
 kRtpExtensionAudioLevel
 :
 case
+kRtpExtensionCsrcAudioLevel
+:
+case
 kRtpExtensionAbsoluteSendTime
 :
 case

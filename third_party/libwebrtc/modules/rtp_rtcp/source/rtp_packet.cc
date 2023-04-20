@@ -1799,6 +1799,12 @@ case
 RTPExtensionType
 :
 :
+kRtpExtensionCsrcAudioLevel
+:
+case
+RTPExtensionType
+:
+:
 kRtpExtensionAbsoluteCaptureTime
 :
 case

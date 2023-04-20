@@ -240,6 +240,12 @@ AudioLevel
 )
 CreateExtensionInfo
 <
+CsrcAudioLevel
+>
+(
+)
+CreateExtensionInfo
+<
 AbsoluteSendTime
 >
 (

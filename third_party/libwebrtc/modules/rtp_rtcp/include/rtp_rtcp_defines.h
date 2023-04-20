@@ -377,6 +377,7 @@ int
 kRtpExtensionNone
 kRtpExtensionTransmissionTimeOffset
 kRtpExtensionAudioLevel
+kRtpExtensionCsrcAudioLevel
 kRtpExtensionInbandComfortNoise
 kRtpExtensionAbsoluteSendTime
 kRtpExtensionAbsoluteCaptureTime
