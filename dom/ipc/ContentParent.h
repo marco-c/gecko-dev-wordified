@@ -10081,6 +10081,11 @@ TimeStamp
 sLastContentProcessLaunch
 ;
 bool
+mIsSignaledImpendingShutdown
+=
+false
+;
+bool
 mIsNotifiedShutdownSuccess
 =
 false
