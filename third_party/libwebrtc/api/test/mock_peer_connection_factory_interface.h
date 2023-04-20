@@ -137,6 +137,7 @@ PeerConnectionFactoryInterface
 {
 public
 :
+static
 rtc
 :
 :
