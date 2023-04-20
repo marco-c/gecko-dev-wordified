@@ -214,9 +214,9 @@ include
 "
 rtc_base
 /
-deprecated
+synchronization
 /
-recursive_critical_section
+mutex
 .
 h
 "
@@ -1138,7 +1138,7 @@ Deinitialize
 )
 with
 |
-lock_
+mutex_
 |
 .
 void
@@ -1184,7 +1184,7 @@ be
 called
 in
 |
-lock_
+mutex_
 |
 locked
 scope
@@ -1245,7 +1245,7 @@ Initialize
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1274,7 +1274,7 @@ DoInitialize
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1309,7 +1309,7 @@ Deinitialize
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1338,7 +1338,7 @@ context
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1357,7 +1357,7 @@ context
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 bool
@@ -1374,7 +1374,7 @@ target
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1395,7 +1395,7 @@ target
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1418,7 +1418,7 @@ target
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1441,7 +1441,7 @@ GetNumFramesCaptured
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1463,7 +1463,7 @@ desktop_size
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1527,7 +1527,7 @@ id
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 int
@@ -1537,7 +1537,7 @@ ScreenCountUnlocked
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 void
@@ -1559,7 +1559,7 @@ output
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1600,7 +1600,7 @@ monitor_id
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1681,7 +1681,7 @@ target
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1745,7 +1745,7 @@ TranslateRect
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1782,11 +1782,8 @@ the
 following
 objects
 .
-rtc
-:
-:
-RecursiveCriticalSection
-lock_
+Mutex
+mutex_
 ;
 /
 /
@@ -1820,7 +1817,7 @@ int
 identity_
 RTC_GUARDED_BY
 (
-lock_
+mutex_
 )
 =
 0
@@ -1829,14 +1826,14 @@ DesktopRect
 desktop_rect_
 RTC_GUARDED_BY
 (
-lock_
+mutex_
 )
 ;
 DesktopVector
 dpi_
 RTC_GUARDED_BY
 (
-lock_
+mutex_
 )
 ;
 std
@@ -1849,21 +1846,21 @@ DxgiAdapterDuplicator
 duplicators_
 RTC_GUARDED_BY
 (
-lock_
+mutex_
 )
 ;
 D3dInfo
 d3d_info_
 RTC_GUARDED_BY
 (
-lock_
+mutex_
 )
 ;
 DisplayConfigurationMonitor
 display_configuration_monitor_
 RTC_GUARDED_BY
 (
-lock_
+mutex_
 )
 ;
 /
@@ -1884,7 +1881,7 @@ uint32_t
 succeeded_duplications_
 RTC_GUARDED_BY
 (
-lock_
+mutex_
 )
 =
 0
