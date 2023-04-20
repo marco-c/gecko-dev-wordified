@@ -124,7 +124,7 @@ h
 #
 include
 "
-ServiceWorker
+RemoteServiceWorkerImpl
 .
 h
 "
@@ -332,7 +332,7 @@ ServiceWorkerChild
 :
 SetOwner
 (
-ServiceWorker
+RemoteServiceWorkerImpl
 *
 aOwner
 )
@@ -359,7 +359,7 @@ ServiceWorkerChild
 :
 RevokeOwner
 (
-ServiceWorker
+RemoteServiceWorkerImpl
 *
 aOwner
 )

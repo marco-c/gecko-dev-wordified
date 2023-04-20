@@ -150,7 +150,7 @@ h
 #
 include
 "
-ServiceWorkerPrivate
+ServiceWorkerPrivateImpl
 .
 h
 "
@@ -482,7 +482,7 @@ mObserver
 {
 static_cast
 <
-ServiceWorkerPrivate
+ServiceWorkerPrivateImpl
 *
 >
 (
