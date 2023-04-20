@@ -829,6 +829,8 @@ any
 "
 )
 ;
+Assert
+.
 ok
 (
 !

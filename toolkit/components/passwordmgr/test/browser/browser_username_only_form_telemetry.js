@@ -399,7 +399,9 @@ expected
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 histogram
 .

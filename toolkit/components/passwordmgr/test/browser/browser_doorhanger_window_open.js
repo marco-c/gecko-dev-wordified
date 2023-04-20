@@ -225,6 +225,8 @@ function
 browser
 )
 {
+Assert
+.
 ok
 (
 true
@@ -402,6 +404,8 @@ save
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -444,7 +448,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -487,7 +493,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -517,7 +525,9 @@ Ci
 nsILoginMetaInfo
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -533,7 +543,9 @@ entry
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -553,7 +565,9 @@ entry
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -658,6 +672,8 @@ change
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -724,7 +740,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -754,7 +772,9 @@ Ci
 nsILoginMetaInfo
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -769,7 +789,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -784,7 +806,9 @@ changed
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -800,6 +824,8 @@ change
 "
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -815,6 +841,8 @@ bumped
 "
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -942,6 +970,8 @@ save
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -999,7 +1029,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -1030,7 +1062,9 @@ Ci
 nsILoginMetaInfo
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1050,7 +1084,9 @@ entry
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1070,7 +1106,9 @@ entry
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1152,6 +1190,8 @@ change
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -1227,7 +1267,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -1256,7 +1298,9 @@ Ci
 nsILoginMetaInfo
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1271,7 +1315,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1286,7 +1332,9 @@ changed
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1302,6 +1350,8 @@ change
 "
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -1317,6 +1367,8 @@ bumped
 "
 )
 ;
+Assert
+.
 ok
 (
 login

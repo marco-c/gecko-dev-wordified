@@ -451,7 +451,9 @@ event
 =
 >
 {
-is
+Assert
+.
+equal
 (
 expectedKeypresses
 [
@@ -586,7 +588,9 @@ querySelector
 USERNAME_INPUT_SELECTOR
 )
 ;
-is
+Assert
+.
+equal
 (
 field
 .

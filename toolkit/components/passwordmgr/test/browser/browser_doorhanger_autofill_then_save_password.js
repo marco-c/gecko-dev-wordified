@@ -696,7 +696,9 @@ fields
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 expectedUsername
 content
@@ -724,7 +726,9 @@ updated
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 expectedPassword
 content

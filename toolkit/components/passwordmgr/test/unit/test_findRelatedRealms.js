@@ -162,6 +162,8 @@ flat
 (
 )
 ;
+Assert
+.
 ok
 (
 relatedRealms
@@ -488,6 +490,8 @@ flat
 (
 )
 ;
+Assert
+.
 ok
 (
 originalRelatedRealms
@@ -785,6 +789,8 @@ LoginRelatedRealmsParent
 (
 )
 ;
+Assert
+.
 ok
 (
 LRR

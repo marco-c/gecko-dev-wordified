@@ -405,7 +405,9 @@ tab1
 linkedBrowser
 )
 ;
-is
+Assert
+.
+equal
 (
 tab1Visibility
 "
@@ -522,7 +524,9 @@ tab1
 linkedBrowser
 )
 ;
-is
+Assert
+.
+equal
 (
 tab1Visibility
 "
@@ -676,6 +680,8 @@ formIsPending
 }
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -739,7 +745,9 @@ tab1
 linkedBrowser
 )
 ;
-is
+Assert
+.
+equal
 (
 tab1Visibility
 "
@@ -755,6 +763,8 @@ foreground
 "
 )
 ;
+Assert
+.
 ok
 (
 result
@@ -848,7 +858,9 @@ value
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 fieldValues
 .
@@ -887,7 +899,9 @@ testUrl
 )
 )
 {
-is
+Assert
+.
+equal
 (
 fieldValues
 .
@@ -1056,7 +1070,9 @@ shown
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 await
 getDocumentVisibilityState
@@ -1089,7 +1105,9 @@ tab1
 linkedBrowser
 )
 ;
-is
+Assert
+.
+equal
 (
 tab1Visibility
 "
@@ -1175,6 +1193,8 @@ dialogObserved
 ]
 )
 ;
+Assert
+.
 ok
 (
 formProcessedPromise
@@ -1194,6 +1214,8 @@ document
 "
 )
 ;
+Assert
+.
 ok
 (
 dialogObserved

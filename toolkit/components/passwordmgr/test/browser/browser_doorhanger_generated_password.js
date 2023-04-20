@@ -206,7 +206,9 @@ task_setup
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 Services
 .
@@ -251,6 +253,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -294,6 +298,8 @@ panel
 =
 PopupNotifications
 ;
+Assert
+.
 ok
 (
 PopupNotifications
@@ -485,7 +491,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -717,7 +725,9 @@ expectedValue
 )
 )
 {
-is
+Assert
+.
+equal
 (
 field
 .
@@ -768,7 +778,9 @@ expectedValue
 )
 )
 {
-is
+Assert
+.
+equal
 (
 field
 .
@@ -1018,6 +1030,8 @@ getCaptureDoorhanger
 type
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -1029,7 +1043,9 @@ was
 created
 )
 ;
-is
+Assert
+.
+equal
 (
 notif
 .
@@ -1045,7 +1061,9 @@ property
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 notif
 .
@@ -1182,7 +1200,9 @@ expected
 passwordLength
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordValue
 .
@@ -1210,7 +1230,9 @@ value
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 usernameValue
 expected
@@ -1555,7 +1577,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -1749,7 +1773,9 @@ auto
 -
 saved
 login
-is
+Assert
+.
+equal
 (
 username
 "
@@ -1764,7 +1790,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 .
@@ -1857,6 +1885,8 @@ opening
 dismissing
 the
 doorhanger
+Assert
+.
 ok
 (
 !
@@ -2198,7 +2228,9 @@ auto
 -
 saved
 login
-is
+Assert
+.
+equal
 (
 username
 "
@@ -2213,7 +2245,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 .
@@ -2306,6 +2340,8 @@ opening
 dismissing
 the
 doorhanger
+Assert
+.
 ok
 (
 !
@@ -3078,6 +3114,8 @@ opening
 dismissing
 the
 doorhanger
+Assert
+.
 ok
 (
 !
@@ -4674,7 +4712,9 @@ usernameSelector
 ]
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -5559,6 +5599,8 @@ change
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -6016,6 +6058,8 @@ com
 "
 )
 ;
+Assert
+.
 ok
 (
 passwordCacheEntry
@@ -6037,7 +6081,9 @@ com
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordCacheEntry
 .
@@ -6058,7 +6104,9 @@ password
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordCacheEntry
 .
@@ -6122,6 +6170,8 @@ password
 }
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -6438,6 +6488,8 @@ notifications
 at
 this
 point
+Assert
+.
 ok
 (
 !
@@ -6452,6 +6504,8 @@ open
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -6488,7 +6542,9 @@ auto
 -
 saved
 login
-is
+Assert
+.
+equal
 (
 autoSavedLogin
 .
@@ -6978,6 +7034,8 @@ com
 "
 )
 ;
+Assert
+.
 ok
 (
 passwordCacheEntry
@@ -6999,7 +7057,9 @@ com
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordCacheEntry
 .
@@ -7020,7 +7080,9 @@ password
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordCacheEntry
 .
@@ -7131,7 +7193,9 @@ user1
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 submitResults
 .
@@ -7148,7 +7212,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 submitResults
 .
@@ -7500,6 +7566,8 @@ notifications
 at
 this
 point
+Assert
+.
 ok
 (
 !
@@ -7514,6 +7582,8 @@ open
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -7550,7 +7620,9 @@ auto
 -
 saved
 login
-is
+Assert
+.
+equal
 (
 autoSavedLogin
 .
@@ -8007,6 +8079,8 @@ com
 "
 )
 ;
+Assert
+.
 ok
 (
 passwordCacheEntry
@@ -8028,7 +8102,9 @@ com
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordCacheEntry
 .
@@ -8049,7 +8125,9 @@ password
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordCacheEntry
 .
@@ -8375,6 +8453,8 @@ ex
 }
 finally
 {
+Assert
+.
 ok
 (
 !
@@ -8587,6 +8667,8 @@ notifications
 at
 this
 point
+Assert
+.
 ok
 (
 !
@@ -8601,6 +8683,8 @@ open
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -8637,7 +8721,9 @@ auto
 -
 saved
 login
-is
+Assert
+.
+equal
 (
 autoSavedLogin
 .
@@ -9439,7 +9525,9 @@ hintDidShow
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 hintDidShow
 expectedConfirmation

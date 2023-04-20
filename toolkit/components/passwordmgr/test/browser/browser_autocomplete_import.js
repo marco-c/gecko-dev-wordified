@@ -233,6 +233,8 @@ host
 }
 )
 ;
+Assert
+.
 ok
 (
 message
@@ -256,6 +258,8 @@ included
 line1
 )
 ;
+Assert
+.
 ok
 (
 message
@@ -279,6 +283,8 @@ included
 line2
 )
 ;
+Assert
+.
 ok
 (
 message
@@ -558,6 +564,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -598,6 +606,8 @@ importableLogins
 ]
 )
 ;
+Assert
+.
 ok
 (
 importableItem
@@ -730,6 +740,8 @@ wizard
 await
 wizardPromise
 ;
+Assert
+.
 ok
 (
 wizard
@@ -739,7 +751,9 @@ opened
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 gTestMigrator
 .
@@ -871,6 +885,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -911,6 +927,8 @@ importableLearnMore
 ]
 )
 ;
+Assert
+.
 ok
 (
 learnMoreItem
@@ -1002,6 +1020,8 @@ supportTab
 await
 supportTabPromise
 ;
+Assert
+.
 ok
 (
 supportTab
@@ -1107,6 +1127,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -1147,6 +1169,8 @@ importableLogins
 ]
 )
 ;
+Assert
+.
 ok
 (
 importableItem
@@ -1251,7 +1275,9 @@ callCount
 await
 migratePromise
 ;
-is
+Assert
+.
+equal
 (
 callCount
 1
@@ -1339,7 +1365,9 @@ username
 value
 )
 ;
-is
+Assert
+.
+equal
 (
 username
 "
@@ -1419,6 +1447,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -1501,6 +1531,8 @@ loginsFooter
 ]
 )
 ;
+Assert
+.
 ok
 (
 footer
@@ -1541,6 +1573,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 !

@@ -303,6 +303,8 @@ save
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -313,6 +315,8 @@ popup
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -617,6 +621,8 @@ save
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -627,6 +633,8 @@ popup
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -875,6 +883,8 @@ save
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -885,6 +895,8 @@ popup
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1194,6 +1206,8 @@ change
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -1204,6 +1218,8 @@ popup
 "
 )
 ;
+Assert
+.
 ok
 (
 notif

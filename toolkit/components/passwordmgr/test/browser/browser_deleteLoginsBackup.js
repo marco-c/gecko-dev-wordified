@@ -461,6 +461,8 @@ addLogin
 login1
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -484,6 +486,8 @@ addLogin
 fxaKey
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -498,6 +502,8 @@ loginBackupExists
 (
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -585,6 +591,8 @@ waitForBackupUpdate
 (
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -797,6 +805,8 @@ loginStoreExists
 (
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -1116,6 +1126,8 @@ addLogin
 login1
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -1130,6 +1142,8 @@ loginStoreExists
 (
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -1151,6 +1165,8 @@ addLogin
 login2
 )
 ;
+Assert
+.
 ok
 (
 true

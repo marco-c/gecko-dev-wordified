@@ -444,6 +444,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -465,6 +467,8 @@ children
 0
 ]
 ;
+Assert
+.
 ok
 (
 ifr
@@ -509,6 +513,8 @@ test
 expected
 )
 ;
+Assert
+.
 ok
 (
 item

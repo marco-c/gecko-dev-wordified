@@ -231,6 +231,8 @@ promptToChangePassword
 (
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -245,6 +247,8 @@ stub
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToSavePassword
@@ -257,6 +261,8 @@ stub
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -329,6 +335,8 @@ stubGeneratedPasswordForBrowsingContextId
 id
 )
 {
+Assert
+.
 ok
 (
 LoginManagerParent
@@ -341,6 +349,8 @@ exists
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -566,6 +576,8 @@ this
 }
 )
 ;
+Assert
+.
 ok
 (
 LoginManagerParent
@@ -870,6 +882,8 @@ useBrowsingContext
 contextId
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -1322,6 +1336,8 @@ login
 generatedPassword
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -1337,6 +1353,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -1352,6 +1370,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -1365,6 +1385,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -1390,6 +1412,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -1543,6 +1567,8 @@ userContextId
 "
 )
 ;
+Assert
+.
 ok
 (
 generatedPW
@@ -1606,6 +1632,8 @@ password
 =
 newPassword
 ;
+Assert
+.
 ok
 (
 login
@@ -1785,6 +1813,8 @@ userContextId
 "
 )
 ;
+Assert
+.
 ok
 (
 generatedPW
@@ -1840,6 +1870,8 @@ password
 =
 newerPassword
 ;
+Assert
+.
 ok
 (
 login
@@ -2144,6 +2176,8 @@ login
 generatedPassword
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -2159,6 +2193,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -2174,6 +2210,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -2187,6 +2225,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -2212,6 +2252,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -2339,6 +2381,8 @@ userContextId
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -2697,6 +2741,8 @@ login
 generatedPassword
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -2712,6 +2758,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -2727,6 +2775,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -2740,6 +2790,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -2765,6 +2817,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -2800,6 +2854,8 @@ stub
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -3002,6 +3058,8 @@ userContextId
 "
 )
 ;
+Assert
+.
 ok
 (
 generatedPW
@@ -3085,6 +3143,8 @@ login
 loginWithUsername
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -3123,6 +3183,8 @@ still
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePopupNotifications
@@ -3137,6 +3199,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -3152,6 +3216,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -3165,6 +3231,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -3203,6 +3271,8 @@ notifySaved
 to
 be
 true
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -3384,6 +3454,8 @@ userContextId
 "
 )
 ;
+Assert
+.
 ok
 (
 generatedPW
@@ -3445,6 +3517,8 @@ login
 loginWithUsername
 )
 ;
+Assert
+.
 ok
 (
 login
@@ -3494,6 +3568,8 @@ save
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -3532,6 +3608,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -3909,6 +3987,8 @@ newUsername
 newPassword
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -3934,6 +4014,8 @@ stub
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -3950,6 +4032,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToSavePassword
@@ -3963,6 +4047,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToSavePassword
@@ -3988,6 +4074,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -4126,6 +4214,8 @@ login0Props
 password
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -4151,6 +4241,8 @@ stub
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePopupNotifications
@@ -4165,6 +4257,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -4178,6 +4272,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -4203,6 +4299,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -4447,6 +4545,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -4735,6 +4835,8 @@ getAllLogins
 login0Props
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -4750,6 +4852,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -4763,6 +4867,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -4788,6 +4894,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -4915,6 +5023,8 @@ userContextId
 "
 )
 ;
+Assert
+.
 ok
 (
 generatedPW
@@ -4974,6 +5084,8 @@ getAllLogins
 login0Props
 )
 ;
+Assert
+.
 ok
 (
 Services
@@ -5323,6 +5435,8 @@ getAllLogins
 login0Props
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -5338,6 +5452,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -5353,6 +5469,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToSavePassword
@@ -5366,6 +5484,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToSavePassword
@@ -5391,6 +5511,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -5494,6 +5616,8 @@ true
 }
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -5509,6 +5633,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToSavePassword
@@ -5523,6 +5649,8 @@ again
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToSavePassword
@@ -5548,6 +5676,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -5602,6 +5732,8 @@ userContextId
 "
 )
 ;
+Assert
+.
 ok
 (
 generatedPW
@@ -5661,6 +5793,8 @@ getAllLogins
 login0Props
 )
 ;
+Assert
+.
 ok
 (
 Services
@@ -5971,6 +6105,8 @@ password1
 )
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -5986,6 +6122,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -5999,6 +6137,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -6024,6 +6164,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -6278,6 +6420,8 @@ password1
 )
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -6293,6 +6437,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -6306,6 +6452,8 @@ called
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword
@@ -6331,6 +6479,8 @@ argument
 "
 )
 ;
+Assert
+.
 ok
 (
 fakePromptToChangePassword

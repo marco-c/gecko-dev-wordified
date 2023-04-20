@@ -243,6 +243,8 @@ case
 is
 ended
 .
+Assert
+.
 ok
 (
 warningPatternHandler
@@ -688,6 +690,8 @@ warning
 originMessage
 )
 {
+Assert
+.
 ok
 (
 warning
@@ -730,7 +734,9 @@ source
 }
 ]
 ;
-is
+Assert
+.
+equal
 (
 originMessage
 fullMessage

@@ -478,6 +478,8 @@ auth
 await
 loadPromise
 ;
+Assert
+.
 ok
 (
 true
@@ -589,7 +591,9 @@ result
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 loginResult
 =
@@ -607,7 +611,9 @@ state
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 user
 expectAuthed
@@ -625,7 +631,9 @@ user
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 pass
 expectAuthed
@@ -848,7 +856,9 @@ promptPromise
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 prompts
 .
@@ -906,7 +916,9 @@ titleText
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 titleEl
 .

@@ -224,6 +224,8 @@ doorhanger
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -326,7 +328,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -357,7 +361,9 @@ Ci
 nsILoginMetaInfo
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -377,7 +383,9 @@ entry
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -397,7 +405,9 @@ entry
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .

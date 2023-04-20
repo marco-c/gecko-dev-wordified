@@ -1061,6 +1061,8 @@ tc
 expectedEvents
 )
 {
+Assert
+.
 ok
 (
 !
@@ -1097,6 +1099,8 @@ time
 "
 )
 ;
+Assert
+.
 ok
 (
 !

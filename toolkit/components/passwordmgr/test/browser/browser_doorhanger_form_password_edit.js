@@ -1909,6 +1909,8 @@ ex
 )
 {
 }
+Assert
+.
 ok
 (
 !
@@ -1945,6 +1947,8 @@ doorhanger
 .
 type
 ;
+Assert
+.
 ok
 (
 /
@@ -2012,6 +2016,8 @@ expected
 doorhanger
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -2220,7 +2226,9 @@ querySelector
 sel
 )
 ;
-is
+Assert
+.
+equal
 (
 field
 .
@@ -2270,6 +2278,8 @@ getCaptureDoorhanger
 type
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -2281,7 +2291,9 @@ was
 created
 )
 ;
-is
+Assert
+.
+equal
 (
 notif
 .
@@ -2297,7 +2309,9 @@ property
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 notif
 .
@@ -2342,7 +2356,9 @@ to
 check
 panel
 contents
-is
+Assert
+.
+equal
 (
 panel
 .
@@ -2469,6 +2485,8 @@ Bug
 1692284
 /
 /
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -2500,6 +2518,8 @@ hidden
 "
 )
 {
+Assert
+.
 ok
 (
 BrowserTestUtils

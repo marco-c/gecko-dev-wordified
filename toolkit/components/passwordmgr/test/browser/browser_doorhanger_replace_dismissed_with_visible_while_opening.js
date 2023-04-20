@@ -158,6 +158,8 @@ save
 "
 )
 ;
+Assert
+.
 ok
 (
 doorhanger

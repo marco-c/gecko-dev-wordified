@@ -157,7 +157,9 @@ getGeneratedPassword
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 LoginManagerParent
 .
@@ -302,6 +304,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -335,6 +339,8 @@ generatedPassword
 ]
 )
 ;
+Assert
+.
 ok
 (
 item
@@ -464,7 +470,9 @@ win
 await
 lastPBContextExitedPromise
 ;
-is
+Assert
+.
+equal
 (
 LoginManagerParent
 .
@@ -575,7 +583,9 @@ password
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 generatedPasswordItem
 .

@@ -198,6 +198,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -347,7 +349,9 @@ contentPassword
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 username
 "
@@ -364,7 +368,9 @@ value
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 "
@@ -425,6 +431,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -584,7 +592,9 @@ contentPassword
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 username
 "
@@ -601,7 +611,9 @@ value
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 "

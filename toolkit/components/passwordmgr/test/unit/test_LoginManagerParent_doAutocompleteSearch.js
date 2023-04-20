@@ -264,6 +264,8 @@ useBrowsingContext
 123
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -309,6 +311,8 @@ logins
 "
 )
 ;
+Assert
+.
 ok
 (
 result1
@@ -337,6 +341,8 @@ length
 "
 )
 ;
+Assert
+.
 ok
 (
 result1
@@ -419,6 +425,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 result1
@@ -713,6 +721,8 @@ useBrowsingContext
 123
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -758,6 +768,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 result1
@@ -786,6 +798,8 @@ length
 "
 )
 ;
+Assert
+.
 ok
 (
 !

@@ -1008,6 +1008,8 @@ cbWinPrompt
 .
 promise
 ;
+Assert
+.
 ok
 (
 authInfo1
@@ -1031,6 +1033,8 @@ cbNoPrompt
 .
 promise
 ;
+Assert
+.
 ok
 (
 authInfo2
@@ -1054,6 +1058,8 @@ cbNoPrompt2
 .
 promise
 ;
+Assert
+.
 ok
 (
 authInfo3

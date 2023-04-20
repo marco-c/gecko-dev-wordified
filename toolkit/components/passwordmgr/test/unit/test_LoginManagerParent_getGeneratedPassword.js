@@ -182,6 +182,8 @@ useBrowsingContext
 99
 )
 ;
+Assert
+.
 ok
 (
 LMP
@@ -230,6 +232,8 @@ BrowsingContext
 "
 )
 ;
+Assert
+.
 ok
 (
 LoginManagerParent
@@ -242,6 +246,8 @@ exists
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -356,6 +362,8 @@ com
 }
 )
 ;
+Assert
+.
 ok
 (
 LoginManagerParent
