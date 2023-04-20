@@ -640,6 +640,7 @@ id
 }
 ;
 }
+async
 closeTarget
 (
 options
@@ -700,6 +701,7 @@ targetId
 )
 ;
 }
+await
 lazy
 .
 TabManager

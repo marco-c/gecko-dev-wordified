@@ -1587,6 +1587,7 @@ remove
 .
 *
 /
+async
 removeTab
 (
 tab
@@ -1612,6 +1613,7 @@ getTabBrowser
 ownerWindow
 )
 ;
+await
 tabBrowser
 .
 removeTab
