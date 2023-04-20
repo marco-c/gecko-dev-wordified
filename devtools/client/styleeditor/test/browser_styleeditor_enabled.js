@@ -106,7 +106,7 @@ editor
 summary
 ;
 const
-enabledToggle
+stylesheetToggle
 =
 summary
 .
@@ -116,15 +116,15 @@ querySelector
 .
 stylesheet
 -
-enabled
+toggle
 "
 )
 ;
 ok
 (
-enabledToggle
+stylesheetToggle
 "
-enabled
+stylesheet
 toggle
 button
 exists
@@ -191,7 +191,7 @@ await
 toggleEnabled
 (
 editor
-enabledToggle
+stylesheetToggle
 panel
 .
 panelWindow
@@ -256,7 +256,7 @@ await
 toggleEnabled
 (
 editor
-enabledToggle
+stylesheetToggle
 panel
 .
 panelWindow
@@ -389,7 +389,7 @@ querySelector
 .
 stylesheet
 -
-enabled
+toggle
 "
 )
 ;
@@ -492,7 +492,7 @@ querySelector
 .
 stylesheet
 -
-enabled
+toggle
 "
 )
 ;
@@ -550,7 +550,7 @@ function
 toggleEnabled
 (
 editor
-enabledToggle
+stylesheetToggle
 panelWindow
 )
 {
@@ -601,7 +601,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-enabledToggle
+stylesheetToggle
 {
 }
 panelWindow
