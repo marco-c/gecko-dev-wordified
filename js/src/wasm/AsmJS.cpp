@@ -11316,15 +11316,6 @@ rooting
 its
 locals
 .
-gc
-:
-:
-AutoSuppressGC
-suppress
-(
-cx_
-)
-;
 if
 (
 UniqueChars
@@ -11354,7 +11345,7 @@ else
 {
 ReportOutOfMemory
 (
-cx_
+fc_
 )
 ;
 }
@@ -11870,7 +11861,7 @@ errorOverRecursed_
 {
 ReportOverRecursed
 (
-cx_
+fc_
 )
 ;
 }
@@ -44770,9 +44761,6 @@ static
 bool
 EstablishPreconditions
 (
-JSContext
-*
-cx
 frontend
 :
 :
@@ -45100,7 +45088,6 @@ if
 !
 EstablishPreconditions
 (
-cx
 parser
 )
 )
