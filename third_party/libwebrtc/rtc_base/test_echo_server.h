@@ -294,7 +294,6 @@ new
 AsyncTCPSocket
 (
 raw_socket
-false
 )
 ;
 packet_socket
