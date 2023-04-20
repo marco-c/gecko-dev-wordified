@@ -527,6 +527,8 @@ kPcmuFrame
 demuxer_criteria
 .
 payload_types
+(
+)
 =
 {
 0x00
