@@ -91,6 +91,11 @@ ifdef
 ANGLE_TRANSLATOR_ESSL_ONLY
 #
 include
+<
+cmath
+>
+#
+include
 "
 compiler
 /
@@ -34878,7 +34883,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -34917,7 +34922,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -34995,7 +35000,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -35034,7 +35039,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -35073,7 +35078,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -35151,7 +35156,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -35190,7 +35195,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -35229,7 +35234,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -35307,7 +35312,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -35346,7 +35351,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -35385,7 +35390,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -35463,7 +35468,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -35502,7 +35507,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -35541,7 +35546,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -35619,7 +35624,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -35658,7 +35663,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -35697,7 +35702,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -35775,7 +35780,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -35814,7 +35819,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -35853,7 +35858,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -35931,7 +35936,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -35970,7 +35975,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -36009,7 +36014,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -36048,7 +36053,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -36087,7 +36092,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -36126,7 +36131,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -36165,7 +36170,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -36243,7 +36248,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -36282,7 +36287,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -36321,7 +36326,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -36399,7 +36404,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -36438,7 +36443,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -36477,7 +36482,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -36555,7 +36560,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -36594,7 +36599,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -36633,7 +36638,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -36711,7 +36716,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -36750,7 +36755,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -36789,7 +36794,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -36867,7 +36872,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -36906,7 +36911,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -36945,7 +36950,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -37023,7 +37028,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -37062,7 +37067,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -37101,7 +37106,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -37179,7 +37184,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -37218,7 +37223,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -37257,7 +37262,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -37296,7 +37301,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -37335,7 +37340,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -37374,7 +37379,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -37413,7 +37418,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -37491,7 +37496,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -37530,7 +37535,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -37569,7 +37574,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -37647,7 +37652,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -37686,7 +37691,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -37725,7 +37730,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -37803,7 +37808,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -37842,7 +37847,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -37881,7 +37886,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -37959,7 +37964,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -37998,7 +38003,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -38037,7 +38042,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -38115,7 +38120,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -38154,7 +38159,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -38193,7 +38198,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -38271,7 +38276,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -38310,7 +38315,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -38349,7 +38354,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -38427,7 +38432,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -38466,7 +38471,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 1
 StaticType
 :
@@ -38505,7 +38510,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 1
 StaticType
 :
@@ -38583,7 +38588,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 1
 StaticType
 :
@@ -38622,7 +38627,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -38661,7 +38666,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -38739,7 +38744,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -38778,7 +38783,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 1
 StaticType
 :
@@ -38817,7 +38822,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 1
 StaticType
 :
@@ -38895,7 +38900,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 1
 StaticType
 :
@@ -38934,7 +38939,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -38973,7 +38978,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -39051,7 +39056,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -39090,7 +39095,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -39129,7 +39134,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -39207,7 +39212,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -39246,7 +39251,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -39285,7 +39290,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -39363,7 +39368,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -39402,7 +39407,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -39441,7 +39446,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -39519,7 +39524,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -39558,7 +39563,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -39597,7 +39602,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -39675,7 +39680,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -39714,7 +39719,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -39753,7 +39758,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -39831,7 +39836,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -39870,7 +39875,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -40026,7 +40031,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -40065,7 +40070,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -40104,7 +40109,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -40143,7 +40148,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -40299,7 +40304,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -40338,7 +40343,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -40377,7 +40382,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -40416,7 +40421,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 2
 StaticType
 :
@@ -40455,7 +40460,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -40494,7 +40499,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -40533,7 +40538,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -40767,7 +40772,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -40806,7 +40811,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -40962,7 +40967,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -41118,7 +41123,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -41157,7 +41162,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -41196,7 +41201,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -41235,7 +41240,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 2
 StaticType
 :
@@ -41274,7 +41279,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -41313,7 +41318,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -41352,7 +41357,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -41586,7 +41591,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -41625,7 +41630,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -43497,7 +43502,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -43536,7 +43541,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -43575,7 +43580,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -43614,7 +43619,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -44199,7 +44204,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -44238,7 +44243,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -44316,7 +44321,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -44355,7 +44360,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -44394,7 +44399,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -44472,7 +44477,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -44511,7 +44516,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -44550,7 +44555,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -44628,7 +44633,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -44667,7 +44672,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -44706,7 +44711,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -44784,7 +44789,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -44823,7 +44828,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 1
 StaticType
 :
@@ -44862,7 +44867,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 1
 StaticType
 :
@@ -44940,7 +44945,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 1
 StaticType
 :
@@ -45057,7 +45062,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E00E00E
+p20E20E00D00D
 1
 StaticType
 :
@@ -45096,7 +45101,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 1
 StaticType
 :
@@ -45759,7 +45764,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -45798,7 +45803,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -45915,7 +45920,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -45993,7 +45998,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -46032,7 +46037,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -46149,7 +46154,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -46188,7 +46193,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -46266,7 +46271,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -46305,7 +46310,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -46344,7 +46349,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -46383,7 +46388,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -46422,7 +46427,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -46461,7 +46466,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -46500,7 +46505,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -46539,7 +46544,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -46578,7 +46583,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -46617,7 +46622,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -46656,7 +46661,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -46695,7 +46700,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -46773,7 +46778,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -46968,7 +46973,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B00B10B
 2
 StaticType
 :
@@ -47007,7 +47012,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -47046,7 +47051,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -47085,7 +47090,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -47631,7 +47636,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -47670,7 +47675,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -47709,7 +47714,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -48567,7 +48572,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -48606,7 +48611,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -48645,7 +48650,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -48684,7 +48689,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -48723,7 +48728,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -48762,7 +48767,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -48840,7 +48845,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -48879,7 +48884,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -48918,7 +48923,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -48957,7 +48962,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -48996,7 +49001,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -49035,7 +49040,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -49074,7 +49079,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -49113,7 +49118,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -49191,7 +49196,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -49230,7 +49235,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -49269,7 +49274,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -49308,7 +49313,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -49347,7 +49352,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -49386,7 +49391,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -49425,7 +49430,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -49464,7 +49469,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -49542,7 +49547,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -49581,7 +49586,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -49620,7 +49625,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -49659,7 +49664,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -49698,7 +49703,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -49737,7 +49742,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -49776,7 +49781,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -49815,7 +49820,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -49893,7 +49898,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -49932,7 +49937,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -49971,7 +49976,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -50010,7 +50015,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -50049,7 +50054,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -50088,7 +50093,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -50127,7 +50132,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -50166,7 +50171,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -50244,7 +50249,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -50283,7 +50288,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -50439,7 +50444,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -50478,7 +50483,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20B20B20B
+p20B20B00B
 2
 StaticType
 :
@@ -50517,7 +50522,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30B00B
+p30B30B30F
 2
 StaticType
 :
@@ -50556,7 +50561,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 2
 StaticType
 :
@@ -50595,7 +50600,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20D20D20D
+p20D20D00D00D
 2
 StaticType
 :
@@ -50634,7 +50639,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 2
 StaticType
 :
@@ -50712,7 +50717,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E20E20F
+p20E20E00D00D
 2
 StaticType
 :
@@ -50751,7 +50756,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 2
 StaticType
 :
@@ -51882,7 +51887,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 1
 StaticType
 :
@@ -51921,7 +51926,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 1
 StaticType
 :
@@ -51999,7 +52004,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 1
 StaticType
 :
@@ -52116,7 +52121,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E00E00E
+p20E20E00D00D
 1
 StaticType
 :
@@ -52155,7 +52160,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 1
 StaticType
 :
@@ -52194,7 +52199,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 1
 StaticType
 :
@@ -52233,7 +52238,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 1
 StaticType
 :
@@ -52311,7 +52316,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 1
 StaticType
 :
@@ -52428,7 +52433,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E00E00E
+p20E20E00D00D
 1
 StaticType
 :
@@ -52467,7 +52472,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 1
 StaticType
 :
@@ -52506,7 +52511,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 1
 StaticType
 :
@@ -52545,7 +52550,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 1
 StaticType
 :
@@ -52623,7 +52628,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 1
 StaticType
 :
@@ -52740,7 +52745,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E00E00E
+p20E20E00D00D
 1
 StaticType
 :
@@ -52779,7 +52784,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 1
 StaticType
 :
@@ -52818,7 +52823,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00D00D00D00D
+p00D00D_o_00D_o_00D
 1
 StaticType
 :
@@ -52857,7 +52862,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10D10D10D
+p10D10D10F
 1
 StaticType
 :
@@ -52935,7 +52940,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30D30D00D00D
+p30D30D30F
 1
 StaticType
 :
@@ -53052,7 +53057,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p20E00E00E
+p20E20E00D00D
 1
 StaticType
 :
@@ -53091,7 +53096,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30E30E00D00D
+p30E30E30E
 1
 StaticType
 :
@@ -53754,7 +53759,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00I10B10D00D
+p00I10B10B10B10D
 2
 StaticType
 :
@@ -53793,7 +53798,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00I20B00B10D
+p00I20B10B10B10D
 2
 StaticType
 :
@@ -53832,7 +53837,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00I30B00B10D
+p00I30B10B10B10D
 2
 StaticType
 :
@@ -53871,7 +53876,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00K20B00B
+p00K20B00D
 2
 StaticType
 :
@@ -54573,7 +54578,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -54612,7 +54617,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -54690,7 +54695,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -54729,7 +54734,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -54768,7 +54773,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -54846,7 +54851,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -54885,7 +54890,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -54924,7 +54929,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -55002,7 +55007,7 @@ OES_standard_derivatives
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -55197,7 +55202,7 @@ EXT_shadow_samplers
 BuiltInParameters
 :
 :
-p00d20B10D00B
+p00d20B00B10D
 2
 StaticType
 :
@@ -55275,7 +55280,7 @@ OES_texture_3D
 BuiltInParameters
 :
 :
-p00J20B00B20D
+p00J20B20B20B20D
 2
 StaticType
 :
@@ -55314,7 +55319,7 @@ OES_texture_3D
 BuiltInParameters
 :
 :
-p00J30B00B20D
+p00J30B20B20B20D
 2
 StaticType
 :
@@ -55665,7 +55670,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00I10B10D00D
+p00I10B10B10B10D
 2
 StaticType
 :
@@ -55704,7 +55709,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00R10B10Dx400D
+p00R10B10D00B
 2
 StaticType
 :
@@ -55743,7 +55748,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00X10B10B10B10D
+p00X10B10Dx400D
 2
 StaticType
 :
@@ -55782,7 +55787,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00J20B00B20D
+p00J20B20B20B20D
 2
 StaticType
 :
@@ -55821,7 +55826,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00S20B00B20D
+p00S20B20B20B20D
 2
 StaticType
 :
@@ -55860,7 +55865,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00Y20B20D00B
+p00Y20B20B20B20D
 2
 StaticType
 :
@@ -55899,7 +55904,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00K20B00B
+p00K20B00D
 2
 StaticType
 :
@@ -55977,7 +55982,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00Z20B20B20B
+p00Z20B00B
 2
 StaticType
 :
@@ -56016,7 +56021,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00L20B00B10D
+p00L20B10D00B
 2
 StaticType
 :
@@ -56055,7 +56060,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00U20B00B10D
+p00U20B10D00D
 2
 StaticType
 :
@@ -56094,7 +56099,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00a20B00D
+p00a20B00B10D
 2
 StaticType
 :
@@ -56133,7 +56138,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00d20B10D00B
+p00d20B00B10D
 2
 StaticType
 :
@@ -56250,7 +56255,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00I20B00B10D
+p00I20B10B10B10D
 2
 StaticType
 :
@@ -56289,7 +56294,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00R20B10D00B
+p00R20B00B10D
 2
 StaticType
 :
@@ -56367,7 +56372,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00I30B00B10D
+p00I30B10B10B10D
 2
 StaticType
 :
@@ -56406,7 +56411,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00R30B10D00B
+p00R30B10B10B10D
 2
 StaticType
 :
@@ -56445,7 +56450,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00X30B10B10B10D
+p00X30B10D00B
 2
 StaticType
 :
@@ -56484,7 +56489,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00J30B00B20D
+p00J30B20B20B20D
 2
 StaticType
 :
@@ -56562,7 +56567,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00Y30B00B20D
+p00Y30B20B20B20D
 2
 StaticType
 :
@@ -60033,7 +60038,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00x30B00B
+p00x30B20B20B
 2
 StaticType
 :
@@ -60540,7 +60545,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00x30B00B
+p00x30B20B20B
 2
 StaticType
 :
@@ -62529,7 +62534,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00R10B10D00D
+p00R10B10D00B
 3
 StaticType
 :
@@ -62568,7 +62573,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00X10B10D00B
+p00X10B10Dx400D
 3
 StaticType
 :
@@ -62763,7 +62768,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00L20B10D00B
+p00L20B10D00D
 3
 StaticType
 :
@@ -62802,7 +62807,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00U20B10D00D
+p00U20B10Dx400D
 3
 StaticType
 :
@@ -66468,7 +66473,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00I10B10D00D
+p00I10B10B10B10D
 2
 StaticType
 :
@@ -66507,7 +66512,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00R10B10Dx400D
+p00R10B10D00B
 2
 StaticType
 :
@@ -66546,7 +66551,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00X10B10B10B10D
+p00X10B10Dx400D
 2
 StaticType
 :
@@ -66702,7 +66707,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00L20B00B10D
+p00L20B10D00B
 2
 StaticType
 :
@@ -66741,7 +66746,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00U20B00B10D
+p00U20B10D00D
 2
 StaticType
 :
@@ -66780,7 +66785,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00a20B00D
+p00a20B00B10D
 2
 StaticType
 :
@@ -66936,7 +66941,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00K20B00B
+p00K20B00D
 2
 StaticType
 :
@@ -67014,7 +67019,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00Z20B20B20B
+p00Z20B00B
 2
 StaticType
 :
@@ -67443,7 +67448,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00R10B10D00D
+p00R10B10D00B
 3
 StaticType
 :
@@ -67482,7 +67487,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00X10B10D00B
+p00X10B10Dx400D
 3
 StaticType
 :
@@ -67521,7 +67526,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00L20B10D00B
+p00L20B10D00D
 3
 StaticType
 :
@@ -67560,7 +67565,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00U20B10D00D
+p00U20B10Dx400D
 3
 StaticType
 :
@@ -69042,7 +69047,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -69081,7 +69086,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -69159,7 +69164,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -69198,7 +69203,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -69237,7 +69242,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -69315,7 +69320,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -69354,7 +69359,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -69393,7 +69398,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -69471,7 +69476,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -69510,7 +69515,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -69549,7 +69554,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -69627,7 +69632,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -69861,7 +69866,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -69978,7 +69983,7 @@ OES_shader_multisample_interpolation
 BuiltInParameters
 :
 :
-p00B00B20B
+p00B_o_00D
 1
 StaticType
 :
@@ -70017,7 +70022,7 @@ OES_shader_multisample_interpolation
 BuiltInParameters
 :
 :
-p10B00B00B
+p10B_o_10B
 1
 StaticType
 :
@@ -70095,7 +70100,7 @@ OES_shader_multisample_interpolation
 BuiltInParameters
 :
 :
-p30B30D
+p30B30B30F
 1
 StaticType
 :
@@ -70329,7 +70334,7 @@ OES_shader_multisample_interpolation
 BuiltInParameters
 :
 :
-p10B10B10B
+p10B10B10F
 2
 StaticType
 :
@@ -71187,7 +71192,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00z10D00B
+p00z10D00E00E
 1
 StaticType
 :
@@ -71226,7 +71231,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01A10D00E00E
+p01A10D00B
 1
 StaticType
 :
@@ -71343,7 +71348,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01D20D00E00E
+p01D20D00D00D
 1
 StaticType
 :
@@ -71382,7 +71387,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01E20D30E
+p01E20D00D00D
 1
 StaticType
 :
@@ -71421,7 +71426,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01F20D00E00E
+p01F20D00B
 1
 StaticType
 :
@@ -71460,7 +71465,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01G20D00B
+p01G20D00E00E
 1
 StaticType
 :
@@ -71499,7 +71504,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01H20D30E
+p01H20D00B
 1
 StaticType
 :
@@ -71538,7 +71543,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01I20D00D00D
+p01I20D30B
 1
 StaticType
 :
@@ -71655,7 +71660,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01X20D00D00D
+p01X20D30B
 1
 StaticType
 :
@@ -71694,7 +71699,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01Y20D00E00E
+p01Y20D30D
 1
 StaticType
 :
@@ -71733,7 +71738,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01Z20D30E
+p01Z20D00E00E
 1
 StaticType
 :
@@ -71772,7 +71777,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01d00D30B
+p01d00D00E00E
 1
 StaticType
 :
@@ -71811,7 +71816,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01e00D30D
+p01e00D00D00D
 1
 StaticType
 :
@@ -71850,7 +71855,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01f00D00E00E
+p01f00D00D00D
 1
 StaticType
 :
@@ -72591,7 +72596,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p00z10D00B
+p00z10D00E00E
 2
 StaticType
 :
@@ -72630,7 +72635,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01A10D00E00E
+p01A10D00B
 2
 StaticType
 :
@@ -72747,7 +72752,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01D20D00E00E
+p01D20D00D00D
 2
 StaticType
 :
@@ -72786,7 +72791,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01E20D30E
+p01E20D00D00D
 2
 StaticType
 :
@@ -72825,7 +72830,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01F20D00E00E
+p01F20D00B
 2
 StaticType
 :
@@ -72864,7 +72869,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01G20D00B
+p01G20D00E00E
 2
 StaticType
 :
@@ -72903,7 +72908,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01H20D30E
+p01H20D00B
 2
 StaticType
 :
@@ -72942,7 +72947,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01I20D00D00D
+p01I20D30B
 2
 StaticType
 :
@@ -73059,7 +73064,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01X20D00D00D
+p01X20D30B
 2
 StaticType
 :
@@ -73098,7 +73103,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01Y20D00E00E
+p01Y20D30D
 2
 StaticType
 :
@@ -73137,7 +73142,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01Z20D30E
+p01Z20D00E00E
 2
 StaticType
 :
@@ -73176,7 +73181,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01d00D30B
+p01d00D00E00E
 2
 StaticType
 :
@@ -73215,7 +73220,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01e00D30D
+p01e00D00D00D
 2
 StaticType
 :
@@ -73254,7 +73259,7 @@ UNDEFINED
 BuiltInParameters
 :
 :
-p01f00D00E00E
+p01f00D00D00D
 2
 StaticType
 :
