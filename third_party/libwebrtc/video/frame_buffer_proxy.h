@@ -167,15 +167,6 @@ h
 #
 include
 "
-rtc_base
-/
-task_queue
-.
-h
-"
-#
-include
-"
 system_wrappers
 /
 include
@@ -317,10 +308,7 @@ timing
 VCMReceiveStatisticsCallback
 *
 stats_proxy
-rtc
-:
-:
-TaskQueue
+TaskQueueBase
 *
 decode_queue
 FrameSchedulingReceiver

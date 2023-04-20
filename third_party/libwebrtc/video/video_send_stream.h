@@ -205,15 +205,6 @@ h
 #
 include
 "
-rtc_base
-/
-task_queue
-.
-h
-"
-#
-include
-"
 video
 /
 encoder_rtcp_feedback
@@ -574,10 +565,7 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 thread_checker_
 ;
-rtc
-:
-:
-TaskQueue
+TaskQueueBase
 *
 const
 rtp_transport_queue_

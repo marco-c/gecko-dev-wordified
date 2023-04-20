@@ -861,8 +861,11 @@ task_queue
 timing_
 &
 stats_callback_
-&
 decode_queue_
+.
+Get
+(
+)
 this
 kMaxWaitForKeyframe
 kMaxWaitForFrame

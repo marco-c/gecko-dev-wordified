@@ -854,8 +854,11 @@ NextFrame
 (
 max_wait_time
 keyframe_required_
-&
 bookkeeping_queue_
+.
+Get
+(
+)
 [
 this
 ]
