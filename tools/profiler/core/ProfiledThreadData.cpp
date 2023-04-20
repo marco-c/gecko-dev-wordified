@@ -826,6 +826,7 @@ UniqueStacks
 >
 >
 (
+aFailureLatch
 std
 :
 :
