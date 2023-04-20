@@ -384,6 +384,7 @@ VsyncSource
 {
 public
 :
+explicit
 WaylandVsyncSource
 (
 nsWindow
@@ -441,6 +442,11 @@ FrameCallback
 (
 uint32_t
 aTime
+)
+;
+void
+IdleCallback
+(
 )
 ;
 TimeDuration
@@ -554,6 +560,9 @@ mVsyncRate
 ;
 TimeStamp
 mLastVsyncTimeStamp
+;
+guint
+mIdleTimeoutID
 ;
 }
 ;
