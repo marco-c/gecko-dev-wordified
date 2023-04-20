@@ -502,7 +502,7 @@ nsIChannel
 *
 )
 ;
-nsresult
+void
 GetStreams
 (
 nsIAsyncInputStream
