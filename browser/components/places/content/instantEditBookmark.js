@@ -7319,11 +7319,6 @@ new
 PlacesInsertionPoint
 (
 {
-parentId
-:
-PlacesUtils
-.
-bookmarksMenuFolderId
 parentGuid
 :
 PlacesUtils
