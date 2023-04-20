@@ -31430,6 +31430,8 @@ stencil
 deserializeStencils
 (
 cx
+&
+ec
 input
 .
 get

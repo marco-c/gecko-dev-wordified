@@ -3257,9 +3257,9 @@ ParserAtomSpanBuilder
 :
 allocate
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc
@@ -3280,7 +3280,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -3313,7 +3313,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return

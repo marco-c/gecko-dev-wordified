@@ -16987,6 +16987,12 @@ decodeOk
 =
 false
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 xdrCache
@@ -17140,6 +17146,8 @@ stencil
 deserializeStencils
 (
 cx
+&
+ec
 *
 input
 xdrCache
@@ -17381,12 +17389,6 @@ return
 false
 ;
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 frontend
 :
 :
