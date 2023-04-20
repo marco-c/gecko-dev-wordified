@@ -696,7 +696,7 @@ input
 const
 ReflowInput
 &
-reflowInput
+mReflowInput
 ;
 /
 /
@@ -715,7 +715,7 @@ writing
 mode
 )
 LogicalSize
-availSize
+mAvailSize
 ;
 /
 /
@@ -724,7 +724,7 @@ inline
 -
 offset
 nscoord
-iCoord
+mICoord
 ;
 /
 /
@@ -733,7 +733,7 @@ block
 -
 offset
 nscoord
-bCoord
+mBCoord
 ;
 TableReflowInput
 (
@@ -747,18 +747,18 @@ LogicalSize
 aAvailSize
 )
 :
-reflowInput
+mReflowInput
 (
 aReflowInput
 )
-availSize
+mAvailSize
 (
 aAvailSize
 )
 {
 MOZ_ASSERT
 (
-reflowInput
+mReflowInput
 .
 mFrame
 -
@@ -787,7 +787,7 @@ nsTableFrame
 *
 >
 (
-reflowInput
+mReflowInput
 .
 mFrame
 -
@@ -816,10 +816,10 @@ GetChildAreaOffset
 (
 wm
 &
-reflowInput
+mReflowInput
 )
 ;
-iCoord
+mICoord
 =
 borderPadding
 .
@@ -837,7 +837,7 @@ GetColSpacing
 1
 )
 ;
-bCoord
+mBCoord
 =
 borderPadding
 .
@@ -873,7 +873,7 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-availSize
+mAvailSize
 .
 ISize
 (
@@ -891,7 +891,7 @@ GetColCount
 (
 )
 ;
-availSize
+mAvailSize
 .
 ISize
 (
@@ -923,7 +923,7 @@ GetColSpacing
 colCount
 )
 ;
-availSize
+mAvailSize
 .
 ISize
 (
@@ -936,7 +936,7 @@ std
 max
 (
 0
-availSize
+mAvailSize
 .
 ISize
 (
@@ -950,7 +950,7 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-availSize
+mAvailSize
 .
 BSize
 (
@@ -958,7 +958,7 @@ wm
 )
 )
 {
-availSize
+mAvailSize
 .
 BSize
 (
@@ -995,7 +995,7 @@ GetRowCount
 )
 )
 ;
-availSize
+mAvailSize
 .
 BSize
 (
@@ -1008,7 +1008,7 @@ std
 max
 (
 0
-availSize
+mAvailSize
 .
 BSize
 (
@@ -1029,7 +1029,7 @@ aAmount
 {
 if
 (
-availSize
+mAvailSize
 .
 BSize
 (
@@ -1043,7 +1043,7 @@ NS_UNCONSTRAINEDSIZE
 return
 ;
 }
-availSize
+mAvailSize
 .
 BSize
 (
@@ -1053,7 +1053,7 @@ aWM
 =
 aAmount
 ;
-availSize
+mAvailSize
 .
 BSize
 (
@@ -1066,7 +1066,7 @@ std
 max
 (
 0
-availSize
+mAvailSize
 .
 BSize
 (
@@ -19131,7 +19131,7 @@ wm
 =
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 GetWritingMode
 (
@@ -19191,7 +19191,7 @@ block
 offset
 aReflowInput
 .
-bCoord
+mBCoord
 +
 =
 aKidDesiredSize
@@ -19643,7 +19643,7 @@ availSize
 =
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 AvailableSize
 (
@@ -19686,7 +19686,7 @@ kidReflowInput
 presContext
 aReflowInput
 .
-reflowInput
+mReflowInput
 aFrame
 availSize
 Nothing
@@ -19719,7 +19719,7 @@ desiredSize
 (
 aReflowInput
 .
-reflowInput
+mReflowInput
 )
 ;
 desiredSize
@@ -19743,10 +19743,10 @@ LogicalPoint
 wm
 aReflowInput
 .
-iCoord
+mICoord
 aReflowInput
 .
-bCoord
+mBCoord
 )
 containerSize
 ReflowChildFlags
@@ -19838,7 +19838,7 @@ kidAvailSize
 =
 aReflowInput
 .
-availSize
+mAvailSize
 ;
 nsSize
 containerSize
@@ -19876,7 +19876,7 @@ footerReflowInput
 presContext
 aReflowInput
 .
-reflowInput
+mReflowInput
 aTfoot
 kidAvailSize
 Nothing
@@ -19898,7 +19898,7 @@ footerReflowInput
 ;
 aReflowInput
 .
-bCoord
+mBCoord
 +
 =
 GetRowSpacing
@@ -19936,7 +19936,7 @@ desiredSize
 (
 aReflowInput
 .
-reflowInput
+mReflowInput
 )
 ;
 desiredSize
@@ -19951,10 +19951,10 @@ kidPosition
 wm
 aReflowInput
 .
-iCoord
+mICoord
 aReflowInput
 .
-bCoord
+mBCoord
 )
 ;
 ReflowChild
@@ -20042,7 +20042,7 @@ wm
 =
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 GetWritingMode
 (
@@ -20062,7 +20062,7 @@ NS_UNCONSTRAINEDSIZE
 =
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 ComputedWidth
 (
@@ -20085,7 +20085,7 @@ containerSize
 =
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 ComputedSizeAsContainerIfConstrained
 (
@@ -20184,7 +20184,7 @@ NS_UNCONSTRAINEDSIZE
 =
 aReflowInput
 .
-availSize
+mAvailSize
 .
 BSize
 (
@@ -20194,7 +20194,7 @@ wm
 &
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 mFlags
 .
@@ -20356,7 +20356,7 @@ reflowAllKids
 =
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 ShouldReflowAllKids
 (
@@ -20719,7 +20719,7 @@ IsSubtreeDirty
 (
 aReflowInput
 .
-reflowInput
+mReflowInput
 .
 mFlags
 .
@@ -20808,7 +20808,7 @@ kidAvailSize
 (
 aReflowInput
 .
-availSize
+mAvailSize
 )
 ;
 allowRepeatedFooter
@@ -20964,7 +20964,7 @@ desiredSize
 (
 aReflowInput
 .
-reflowInput
+mReflowInput
 )
 ;
 desiredSize
@@ -20988,7 +20988,7 @@ kidReflowInput
 presContext
 aReflowInput
 .
-reflowInput
+mReflowInput
 kidFrame
 kidAvailSize
 Nothing
@@ -21123,7 +21123,7 @@ false
 }
 aReflowInput
 .
-bCoord
+mBCoord
 +
 =
 cellSpacingB
@@ -21178,10 +21178,10 @@ kidPosition
 wm
 aReflowInput
 .
-iCoord
+mICoord
 aReflowInput
 .
-bCoord
+mBCoord
 )
 ;
 aStatus
@@ -21288,7 +21288,7 @@ ShouldAvoidBreakInside
 (
 aReflowInput
 .
-reflowInput
+mReflowInput
 )
 )
 {
@@ -21376,7 +21376,7 @@ ShouldAvoidBreakInside
 (
 aReflowInput
 .
-reflowInput
+mReflowInput
 )
 )
 {
@@ -22134,7 +22134,7 @@ being
 reflowed
 aReflowInput
 .
-bCoord
+mBCoord
 +
 =
 cellSpacingB
@@ -22164,7 +22164,7 @@ wm
 =
 aReflowInput
 .
-bCoord
+mBCoord
 )
 {
 /
@@ -22199,7 +22199,7 @@ wm
 0
 aReflowInput
 .
-bCoord
+mBCoord
 -
 kidRect
 .
@@ -22231,7 +22231,7 @@ InvalidateFrameSubtree
 }
 aReflowInput
 .
-bCoord
+mBCoord
 +
 =
 kidRect
