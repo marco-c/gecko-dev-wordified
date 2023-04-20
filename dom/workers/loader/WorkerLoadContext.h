@@ -218,7 +218,7 @@ CacheCreator
 /
 *
 *
-WorkerScriptLoadContext
+WorkerLoadContext
 (
 for
 all
@@ -423,7 +423,7 @@ JS
 loader
 :
 :
-LoadContextBase
+LoadContextNoCCBase
 {
 public
 :
@@ -657,13 +657,6 @@ ClientInfo
 &
 aClientInfo
 )
-;
-~
-WorkerLoadContext
-(
-)
-=
-default
 ;
 /
 /
