@@ -1572,11 +1572,6 @@ kSpeechDurationMs
 =
 2000
 ;
-int
-packets_inserted
-=
-0
-;
 uint16_t
 last_seq_no
 ;
@@ -1705,10 +1700,6 @@ rtp_info
 payload
 )
 )
-;
-+
-+
-packets_inserted
 ;
 }
 NetEqNetworkStatistics
