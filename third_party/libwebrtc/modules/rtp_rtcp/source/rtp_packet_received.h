@@ -152,15 +152,6 @@ rtp_packet
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-deprecation
-.
-h
-"
 namespace
 webrtc
 {

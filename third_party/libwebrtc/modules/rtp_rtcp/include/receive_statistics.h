@@ -167,15 +167,6 @@ report_block
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-deprecation
-.
-h
-"
 namespace
 webrtc
 {
