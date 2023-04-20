@@ -198,8 +198,8 @@ aFormat
 gfx
 :
 :
-ColorSpace2
-aColorSpace
+YUVColorSpace
+aYUVColorSpace
 gfx
 :
 :
@@ -240,9 +240,9 @@ mFormat
 (
 aFormat
 )
-mColorSpace
+mYUVColorSpace
 (
-aColorSpace
+aYUVColorSpace
 )
 mColorRange
 (
