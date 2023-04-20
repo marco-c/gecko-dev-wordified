@@ -845,7 +845,7 @@ TEST_CONFIG
 {
   
 '
-masters
+builder_groups
 '
 :
 {
@@ -858,7 +858,7 @@ chromium
 }
     
 '
-fake_master
+fake_group
 '
 :
 {
@@ -892,7 +892,7 @@ args
 /
 bots
 /
-fake_master
+fake_group
 /
 fake_args_bot
 .
@@ -1271,7 +1271,7 @@ args
 /
 bots
 /
-fake_master
+fake_group
 /
 fake_args_bot
 .
@@ -2019,7 +2019,7 @@ gen
 m
 '
 '
-fake_master
+fake_group
 '
 '
 -
@@ -2081,7 +2081,7 @@ args
 /
 bots
 /
-fake_master
+fake_group
 /
 fake_args_bot
 .
@@ -7535,7 +7535,7 @@ lookup
 m
 '
 '
-fake_master
+fake_group
 '
 '
 -
@@ -7601,7 +7601,7 @@ lookup
 m
 '
 '
-fake_master
+fake_group
 '
 '
 -
@@ -7676,7 +7676,7 @@ lookup
 m
 '
 '
-fake_master
+fake_group
 '
 '
 -
@@ -7750,7 +7750,7 @@ lookup
 m
 '
 '
-fake_master
+fake_group
 '
 '
 -
@@ -7803,7 +7803,7 @@ lookup
 m
 '
 '
-fake_master
+fake_group
 '
 '
 -
