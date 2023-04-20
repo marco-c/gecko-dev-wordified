@@ -19819,7 +19819,7 @@ PresContext
 )
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )
