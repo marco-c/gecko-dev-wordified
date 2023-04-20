@@ -4134,16 +4134,10 @@ std
 :
 vector
 <
-std
-:
-:
-unique_ptr
-<
 rtc
 :
 :
 PlatformThread
->
 >
 thread_pool_
 ;
