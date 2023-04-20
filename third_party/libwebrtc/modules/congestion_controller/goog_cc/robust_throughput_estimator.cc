@@ -669,9 +669,8 @@ largest_recv_gap
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -681,9 +680,8 @@ second_largest_recv_gap
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;

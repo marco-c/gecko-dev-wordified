@@ -337,9 +337,8 @@ AdvanceTime
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -577,9 +576,8 @@ AdvanceTime
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -812,9 +810,8 @@ AdvanceTime
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;

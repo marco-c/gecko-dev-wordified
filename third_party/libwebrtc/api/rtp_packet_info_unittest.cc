@@ -234,9 +234,8 @@ value
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -380,9 +379,8 @@ value
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -516,9 +514,8 @@ value
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -658,9 +655,8 @@ value
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -804,9 +800,8 @@ value
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -973,9 +968,8 @@ AbsoluteCaptureTime
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;

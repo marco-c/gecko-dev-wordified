@@ -5160,9 +5160,8 @@ webrtc
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 /
@@ -5199,9 +5198,8 @@ webrtc
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 webrtc
@@ -5216,9 +5214,8 @@ webrtc
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 uint32_t

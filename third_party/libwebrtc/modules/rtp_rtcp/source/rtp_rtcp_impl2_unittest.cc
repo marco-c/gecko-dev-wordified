@@ -3318,9 +3318,8 @@ SimulateNetworkDelay
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -3333,9 +3332,8 @@ SimulateNetworkDelay
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -4221,9 +4219,8 @@ SimulateNetworkDelay
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -4469,9 +4466,8 @@ SimulateNetworkDelay
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;

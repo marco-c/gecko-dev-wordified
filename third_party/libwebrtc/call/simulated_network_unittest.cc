@@ -280,9 +280,8 @@ start_time
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 Timestamp
@@ -659,9 +658,8 @@ start_time
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 Timestamp
