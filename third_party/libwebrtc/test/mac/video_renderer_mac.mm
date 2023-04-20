@@ -383,7 +383,7 @@ initWithContentRect
 windowFrame
 styleMask
 :
-NSTitledWindowMask
+NSWindowStyleMaskTitled
 backing
 :
 NSBackingStoreBuffered
