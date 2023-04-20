@@ -1742,7 +1742,9 @@ toolbox
 /
 Launcher
 .
-jsm
+sys
+.
+mjs
 *
 /
 invisibleToDebugger
