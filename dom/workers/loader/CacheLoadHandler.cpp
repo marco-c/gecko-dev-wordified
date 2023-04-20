@@ -2672,9 +2672,7 @@ DeleteCache
 mLoader
 -
 >
-mCancelMainThread
-.
-ref
+GetCancelResult
 (
 )
 )
@@ -3052,9 +3050,7 @@ DeleteCache
 mLoader
 -
 >
-mCancelMainThread
-.
-ref
+GetCancelResult
 (
 )
 )
