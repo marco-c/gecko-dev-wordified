@@ -3117,7 +3117,7 @@ available
 and
 WebRTC
 -
-PreferGlobalIPv6ToLinkLocal
+IPv6NetworkResolutionFixes
 enabled
 /
 /
