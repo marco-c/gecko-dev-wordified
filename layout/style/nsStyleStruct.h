@@ -5719,13 +5719,12 @@ mozilla
 StyleGridAutoFlow
 mGridAutoFlow
 ;
-uint8_t
+mozilla
+:
+:
+StyleMasonryAutoFlow
 mMasonryAutoFlow
 ;
-/
-/
-NS_STYLE_MASONRY_
-*
 mozilla
 :
 :
