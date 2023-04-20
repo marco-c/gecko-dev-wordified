@@ -280,6 +280,13 @@ AddParticipantInCall
 override
 {
 }
+void
+RemoveParticipantInCall
+(
+)
+override
+{
+}
 }
 ;
 }

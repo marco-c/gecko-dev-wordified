@@ -418,6 +418,12 @@ AddParticipantInCall
 )
 override
 ;
+void
+RemoveParticipantInCall
+(
+)
+override
+;
 EncodedImageExtractionResult
 ExtractData
 (
