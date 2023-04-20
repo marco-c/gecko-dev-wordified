@@ -370,6 +370,13 @@ source
 ;
 out
 .
+SetVideoFrameTrackingId
+(
+id
+)
+;
+out
+.
 SetEncodedData
 (
 buffer
