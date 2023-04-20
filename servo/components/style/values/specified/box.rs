@@ -11973,9 +11973,7 @@ csswg
 .
 org
 /
-css
--
-box
+css2
 /
 #
 propdef
