@@ -1535,6 +1535,7 @@ static
 bool
 IsLink
 (
+const
 nsINode
 *
 aNode
