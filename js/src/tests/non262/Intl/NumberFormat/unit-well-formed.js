@@ -501,11 +501,6 @@ nanosecond
 "
 duration
 -
-quarter
-"
-"
-duration
--
 second
 "
 "
@@ -885,6 +880,13 @@ kilogram
 "
 mass
 -
+metric
+-
+ton
+"
+"
+mass
+-
 microgram
 "
 "
@@ -925,11 +927,6 @@ stone
 mass
 -
 ton
-"
-"
-mass
--
-tonne
 "
 "
 power
