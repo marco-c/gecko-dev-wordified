@@ -239,8 +239,6 @@ RoundRobinPacketQueue
 void
 Push
 (
-int
-priority
 Timestamp
 enqueue_time
 uint64_t
