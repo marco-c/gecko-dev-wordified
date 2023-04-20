@@ -7541,7 +7541,7 @@ nodiscard
 bool
 emitFunctionFormalParameters
 (
-ListNode
+ParamsBodyNode
 *
 paramsBody
 )
