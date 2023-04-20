@@ -351,6 +351,13 @@ mSqrChar
 nsRect
 mBarRect
 ;
+private
+:
+bool
+ShouldUseRowFallback
+(
+)
+;
 }
 ;
 #
