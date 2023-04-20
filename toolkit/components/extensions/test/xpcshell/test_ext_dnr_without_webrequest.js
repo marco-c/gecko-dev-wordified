@@ -964,6 +964,9 @@ ExtensionTestUtils
 loadExtension
 (
 {
+allowInsecureRequests
+:
+true
 background
 manifest
 :
@@ -1306,6 +1309,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -1889,6 +1895,9 @@ Needed
 for
 granted_host_permissions
 .
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -2732,6 +2741,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -3290,6 +3302,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -4393,6 +4408,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -4747,6 +4765,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -5428,6 +5449,9 @@ true
 Needed
 for
 granted_host_permissions
+allowInsecureRequests
+:
+true
 manifest
 :
 {
