@@ -1299,7 +1299,7 @@ name
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 name
@@ -1314,13 +1314,6 @@ Format
 :
 :
 String
-MS
-:
-:
-Searchable
-:
-:
-Searchable
 )
 ;
 return
@@ -1449,7 +1442,7 @@ TimelineOverview
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 category
@@ -1464,13 +1457,6 @@ Format
 :
 :
 String
-MS
-:
-:
-Searchable
-:
-:
-Searchable
 )
 ;
 return
