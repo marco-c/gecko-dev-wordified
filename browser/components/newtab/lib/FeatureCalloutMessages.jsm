@@ -2354,9 +2354,7 @@ parent_selector
 #
 colorways
 -
-collection
--
-description
+button
 "
 content
 :
