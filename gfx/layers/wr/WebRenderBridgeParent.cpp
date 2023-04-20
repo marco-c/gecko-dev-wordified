@@ -14459,9 +14459,6 @@ return
 }
 if
 (
-mSkippedComposite
-|
-|
 wr
 :
 :
