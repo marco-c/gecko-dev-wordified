@@ -243,6 +243,11 @@ DoPrompt
 (
 )
 ;
+void
+CancelWithRandomizedDelay
+(
+)
+;
 /
 /
 If
