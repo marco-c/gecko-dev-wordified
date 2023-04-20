@@ -1886,7 +1886,9 @@ caching
 of
 the
 stale
-state
+and
+busy
+states
 .
 *
 /
@@ -2067,7 +2069,7 @@ firstChild
 testStates
 (
 iframeDoc
-0
+STATE_BUSY
 EXT_STATE_STALE
 0
 0
@@ -2131,7 +2133,7 @@ testStates
 iframeDoc
 0
 0
-0
+STATE_BUSY
 EXT_STATE_STALE
 )
 ;
