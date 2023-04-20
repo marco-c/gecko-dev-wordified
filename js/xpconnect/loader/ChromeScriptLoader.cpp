@@ -581,7 +581,16 @@ OffThreadToken
 *
 mToken
 ;
-UniqueTwoByteChars
+UniquePtr
+<
+Utf8Unit
+[
+]
+JS
+:
+:
+FreePolicy
+>
 mScriptText
 ;
 size_t
@@ -880,7 +889,7 @@ JS
 :
 SourceText
 <
-char16_t
+Utf8Unit
 >
 srcBuf
 ;
@@ -1384,7 +1393,7 @@ rv
 ScriptLoader
 :
 :
-ConvertToUTF16
+ConvertToUTF8
 (
 nullptr
 aBuf
