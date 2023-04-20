@@ -162,12 +162,8 @@ sys
 from
 collections
 import
-(
-    
 defaultdict
-    
 deque
-)
 class
 IdMapping
 (
