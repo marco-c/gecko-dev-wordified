@@ -101,6 +101,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NotNull
 .
 h
@@ -873,6 +882,7 @@ character
 *
 /
 class
+MOZ_STACK_CLASS
 gfxSkipCharsIterator
 {
 public
