@@ -11700,9 +11700,6 @@ nodiscard
 bool
 copyCharBufferTo
 (
-JSContext
-*
-cx
 UniquePtr
 <
 char16_t
