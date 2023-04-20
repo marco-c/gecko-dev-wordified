@@ -674,9 +674,6 @@ static
 mozilla
 :
 :
-detail
-:
-:
 StaticRWLock
 sFileMgrMapLock
 ;
