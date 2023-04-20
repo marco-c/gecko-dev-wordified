@@ -664,6 +664,14 @@ take
 )
 .
 '
+        
+print
+'
+Switching
+rtc_executable
+to
+rtc_test
+'
 def
 main
 (
