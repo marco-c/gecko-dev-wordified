@@ -13805,7 +13805,7 @@ AsQueryContentEvent
 )
 )
 {
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 true
 ;
@@ -15799,7 +15799,7 @@ true
 }
 if
 (
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 )
 {
 MOZ_LOG
@@ -27327,7 +27327,7 @@ pacp
 =
 %
 p
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 %
 s
@@ -27368,7 +27368,7 @@ get
 pacp
 GetBoolName
 (
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 )
 GetBoolName
 (
@@ -28522,16 +28522,18 @@ mComposition
 =
 %
 s
-mDeferNotifyingTSF
+"
+"
+mDeferNotifyingTSFUntilNextUpdate
 =
 %
 s
-"
-"
 mWaitingQueryLayout
 =
 %
 s
+"
+"
 IMEHandler
 :
 :
@@ -28589,7 +28591,7 @@ c_str
 )
 GetBoolName
 (
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 )
 GetBoolName
 (
@@ -40522,7 +40524,7 @@ return
 NS_OK
 ;
 }
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 false
 ;
@@ -41152,7 +41154,7 @@ return
 NS_OK
 ;
 }
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 false
 ;
@@ -41585,7 +41587,7 @@ mSink
 NS_ERROR_FAILURE
 )
 ;
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 false
 ;
@@ -42776,7 +42778,7 @@ mDestroyed
 =
 %
 s
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 %
 s
@@ -42788,7 +42790,7 @@ mDestroyed
 )
 GetBoolName
 (
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 )
 )
 )
@@ -42907,7 +42909,7 @@ mDeferClearingContentForTSF
 false
 ;
 }
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 false
 ;
