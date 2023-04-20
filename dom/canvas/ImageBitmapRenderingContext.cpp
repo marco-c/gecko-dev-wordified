@@ -468,7 +468,7 @@ ImageBitmap
 aImageBitmap
 )
 {
-Reset
+ResetBitmap
 (
 )
 ;
@@ -1251,11 +1251,11 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+void
 ImageBitmapRenderingContext
 :
 :
-Reset
+ResetBitmap
 (
 )
 {
@@ -1282,9 +1282,6 @@ FrameCaptureState
 :
 :
 CLEAN
-;
-return
-NS_OK
 ;
 }
 bool
