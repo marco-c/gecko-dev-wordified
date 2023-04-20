@@ -357,7 +357,7 @@ override
 ;
 /
 /
-ReceiveStream
+ReceiveStreamInterface
 impl
 .
 void

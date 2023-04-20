@@ -164,7 +164,7 @@ FlexfecReceiveStream
 public
 RtpPacketSinkInterface
 public
-ReceiveStream
+ReceiveStreamInterface
 {
 public
 :

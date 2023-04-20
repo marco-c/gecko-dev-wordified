@@ -724,7 +724,7 @@ bool
 UseSendSideBwe
 (
 const
-ReceiveStream
+ReceiveStreamInterface
 *
 stream
 )
@@ -2340,7 +2340,7 @@ RegisterReceiveStream
 (
 uint32_t
 ssrc
-ReceiveStream
+ReceiveStreamInterface
 *
 stream
 )
@@ -2707,7 +2707,7 @@ std
 map
 <
 uint32_t
-ReceiveStream
+ReceiveStreamInterface
 *
 >
 receive_rtp_config_
@@ -11413,7 +11413,7 @@ RegisterReceiveStream
 (
 uint32_t
 ssrc
-ReceiveStream
+ReceiveStreamInterface
 *
 stream
 )
