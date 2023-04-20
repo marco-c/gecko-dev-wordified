@@ -726,6 +726,7 @@ status
 .
 h
 '
+#
 '
 src
 /
@@ -739,6 +740,9 @@ statusor
 .
 h
 '
+#
+Unused
+file
 '
 src
 /
@@ -1237,6 +1241,7 @@ cc
 #
 port_def
 conflicts
+#
 '
 src
 /
@@ -1250,6 +1255,10 @@ statusor
 .
 cc
 '
+#
+Unused
+file
+.
 #
 port_def
 conflicts
