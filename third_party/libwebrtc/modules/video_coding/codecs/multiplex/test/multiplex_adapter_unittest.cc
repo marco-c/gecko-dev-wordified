@@ -1556,9 +1556,7 @@ that
 goes
 beyond
 constructing
-|
 decoder_
-|
 .
 Simplify
 these

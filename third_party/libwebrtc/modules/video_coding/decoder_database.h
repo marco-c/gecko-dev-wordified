@@ -257,9 +257,7 @@ decoder
 is
 set
 to
-|
 decoded_frame_callback
-|
 .
 If
 no

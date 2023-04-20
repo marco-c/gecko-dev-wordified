@@ -427,9 +427,7 @@ in
 the
 list
 is
-|
 capacity_
-|
 -
 1
 .

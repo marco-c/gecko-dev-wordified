@@ -4475,17 +4475,13 @@ Encode
 /
 /
 With
-|
 sl_idx
-|
 spatial
 layer
 disabled
 there
 are
-|
 sl_idx
-|
 spatial
 layers
 /

@@ -231,17 +231,13 @@ history_
 ;
 /
 /
-|
 filter_
-|
 contains
 the
 same
 values
 as
-|
 history_
-|
 but
 in
 a

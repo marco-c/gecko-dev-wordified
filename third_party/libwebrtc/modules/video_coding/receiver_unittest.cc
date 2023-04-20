@@ -1755,9 +1755,7 @@ SimulatedClockWithFrames
 /
 /
 If
-|
 stop_on_frame
-|
 is
 true
 and
@@ -1771,9 +1769,7 @@ and
 /
 now
 +
-|
 milliseconds
-|
 the
 clock
 will
@@ -1798,9 +1794,7 @@ will
 be
 advanced
 by
-|
 milliseconds
-|
 .
 /
 /
@@ -1851,9 +1845,7 @@ now
 and
 now
 +
-|
 milliseconds
-|
 .
 bool
 AdvanceTimeMilliseconds
@@ -2027,9 +2019,7 @@ Milliseconds
 /
 /
 And
-|
 arrive_timestamps
-|
 must
 be
 positive
@@ -2040,9 +2030,7 @@ order
 .
 /
 /
-|
 arrive_timestamps
-|
 determine
 when
 we
@@ -2060,9 +2048,7 @@ buffer
 .
 /
 /
-|
 render_timestamps
-|
 are
 the
 timestamps
@@ -2290,9 +2276,7 @@ these
 1
 .
 If
-|
 stop_on_frame
-|
 is
 true
 the
@@ -2332,9 +2316,7 @@ turned
 to
 now
 +
-|
 max_time
-|
 if
 no
 frame
@@ -2350,9 +2332,7 @@ window
 2
 .
 If
-|
 stop_on_frame
-|
 is
 false
 the
@@ -2363,9 +2343,7 @@ turn
 to
 now
 +
-|
 max_time
-|
 /
 /
 and
@@ -2378,9 +2356,7 @@ now
 and
 now
 +
-|
 max_time
-|
 will
 be
 /
@@ -2612,9 +2588,7 @@ handles
 parameter
 /
 /
-|
 max_wait_time_ms
-|
 correctly
 :
 /
@@ -2629,9 +2603,7 @@ never
 take
 more
 than
-|
 max_wait_time_ms
-|
 .
 /
 /
@@ -2644,9 +2616,7 @@ exit
 before
 now
 +
-|
 max_wait_time_ms
-|
 a
 frame
 must
@@ -3035,13 +3005,9 @@ handles
 parameter
 /
 /
-|
 prefer_late_decoding
-|
 and
-|
 max_wait_time_ms
-|
 correctly
 :
 /
@@ -3056,9 +3022,7 @@ never
 take
 more
 than
-|
 max_wait_time_ms
-|
 .
 /
 /
@@ -3071,9 +3035,7 @@ exit
 before
 now
 +
-|
 max_wait_time_ms
-|
 a
 frame
 must

@@ -211,9 +211,7 @@ network
 .
 /
 /
-|
 frame
-|
 is
 non
 -
@@ -345,9 +343,7 @@ notification
 /
 1
 .
-|
 last_received_seq_num
-|
 is
 the
 last
@@ -359,9 +355,7 @@ number
 /
 2
 .
-|
 decodability_flag
-|
 refers
 to
 the
@@ -378,9 +372,7 @@ It
 is
 set
 to
-|
 true
-|
 if
 and
 only
@@ -666,9 +658,7 @@ parse
 /
 /
 than
-|
 first_seq_num_of_last_decodable_non_discardable_
-|
 .
 struct
 FrameInfo

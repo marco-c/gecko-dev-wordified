@@ -324,11 +324,9 @@ VideoReceiveStream
 /
 /
 See
-|
 IsDecoderThreadRunning
 (
 )
-|
 for
 more
 details
@@ -439,9 +437,7 @@ been
 started
 usage
 of
-|
 _codecDataBase
-|
 moves
 /
 /

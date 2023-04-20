@@ -1095,9 +1095,7 @@ target_bitrate_kbps
 We
 divide
 by
-|
 target_bitrate_kbps
-|
 .
 for
 (

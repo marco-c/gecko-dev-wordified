@@ -203,9 +203,7 @@ sent
 every
 /
 /
-|
 kDefaultTimingFramesDelayMs
-|
 or
 if
 the
@@ -215,9 +213,7 @@ at
 least
 /
 /
-|
 kDefaultOutliserFrameSizePercent
-|
 in
 size
 of

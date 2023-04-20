@@ -325,9 +325,7 @@ timing
 /
 /
 /
-|
 max_time_ms
-|
 is
 the
 maximum

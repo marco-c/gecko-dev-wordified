@@ -206,9 +206,7 @@ provided
 if
 /
 /
-|
 rtc_use_h264
-|
 build
 flag
 is

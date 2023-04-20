@@ -471,9 +471,7 @@ leaks
 .
 /
 /
-|
 large_frame_accumulation_spread_
-|
 represents
 the
 number
@@ -494,9 +492,7 @@ large_frame_accumulation_spread_
 ;
 /
 /
-|
 large_frame_accumulation_count_
-|
 represents
 the
 number
@@ -517,9 +513,7 @@ large_frame_accumulation_count_
 ;
 /
 /
-|
 large_frame_accumulation_chunk_size_
-|
 represents
 the
 size

@@ -1222,9 +1222,7 @@ return
 /
 Since
 the
-|
 newest_seq_num_
-|
 is
 a
 packet

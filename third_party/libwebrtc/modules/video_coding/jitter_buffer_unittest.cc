@@ -10967,9 +10967,7 @@ one
 frame
 and
 insert
-|
 kNackHistoryLength
-|
 to
 trigger
 NACKing
@@ -11346,9 +11344,7 @@ DecodeCompleteFrame
 Generate
 and
 drop
-|
 kNackHistoryLength
-|
 packets
 to
 fill

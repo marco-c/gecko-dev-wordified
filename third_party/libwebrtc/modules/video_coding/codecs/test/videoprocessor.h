@@ -1412,9 +1412,7 @@ read
 one
 frame
 from
-|
 input_frame_reader_
-|
 .
 FrameReader
 *

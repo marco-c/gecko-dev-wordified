@@ -246,9 +246,7 @@ that
 is
 bigger
 than
-|
 kLargeDeltaFactor
-|
 times
 the
 average

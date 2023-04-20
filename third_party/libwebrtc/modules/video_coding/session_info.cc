@@ -2105,9 +2105,7 @@ packet
 pointed
 to
 by
-|
 packet_it
-|
 /
 /
 belongs
@@ -3790,9 +3788,7 @@ operation
 invalidates
 the
 iterator
-|
 rit
-|
 .
 PacketIterator
 packet_list_it

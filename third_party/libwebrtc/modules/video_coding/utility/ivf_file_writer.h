@@ -201,9 +201,7 @@ above
 the
 /
 /
-|
 byte_limit
-|
 the
 file
 will
@@ -223,9 +221,7 @@ will
 fail
 .
 A
-|
 byte_limit
-|
 of
 0
 is

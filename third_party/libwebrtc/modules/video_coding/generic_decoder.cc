@@ -1487,9 +1487,7 @@ new
 size
 should
 be
-|
 initial_size
-|
 +
 1
 dropped_frames

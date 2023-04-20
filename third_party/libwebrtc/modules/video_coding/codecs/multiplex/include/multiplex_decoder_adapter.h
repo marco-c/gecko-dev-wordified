@@ -169,9 +169,7 @@ public
 :
 /
 /
-|
 factory
-|
 is
 not
 owned

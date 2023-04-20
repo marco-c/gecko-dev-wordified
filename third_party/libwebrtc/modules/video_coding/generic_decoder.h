@@ -313,9 +313,7 @@ construction_thread_
 /
 /
 Protect
-|
 _timestampMap
-|
 .
 Clock
 *
@@ -456,9 +454,7 @@ LowLatencyRenderer
 .
 The
 parameter
-|
 enabled
-|
 /
 /
 determines
@@ -510,9 +506,7 @@ The
 parameter
 /
 /
-|
 include_predecode_buffer
-|
 determines
 if
 the

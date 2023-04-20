@@ -189,9 +189,7 @@ data
 /
 For
 example
-|
 frame_count
-|
 =
 2
 for
@@ -231,9 +229,7 @@ they
 have
 the
 same
-|
 picture_index
-|
 .
 uint16_t
 image_index
@@ -770,9 +766,7 @@ share
 the
 memory
 with
-|
 combined_image
-|
 .
 static
 MultiplexImage

@@ -268,9 +268,7 @@ Parses
 VP9
 Profile
 from
-|
 codec
-|
 and
 returns
 the

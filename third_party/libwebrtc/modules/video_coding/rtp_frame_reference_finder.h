@@ -211,9 +211,7 @@ frames
 (
 determined
 by
-|
 kMaxStashedFrames
-|
 )
 /
 /
@@ -308,9 +306,7 @@ include
 packets
 older
 than
-|
 seq_num
-|
 .
 void
 ClearTo
@@ -366,9 +362,7 @@ number
 /
 older
 than
-|
 cleared_to_seq_num_
-|
 .
 int
 cleared_to_seq_num_

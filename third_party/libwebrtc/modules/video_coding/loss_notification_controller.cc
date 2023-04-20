@@ -157,9 +157,7 @@ size
 no
 higher
 than
-|
 max_allowed_size
-|
 by
 paring
 its
@@ -168,17 +166,13 @@ size
 /
 down
 to
-|
 target_size
-|
 whenever
 it
 has
 more
 than
-|
 max_allowed_size
-|
 elements
 .
 template
@@ -422,9 +416,7 @@ rtp_seq_num
 ;
 /
 /
-|
 frame
-|
 is
 not
 nullptr

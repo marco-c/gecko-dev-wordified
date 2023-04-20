@@ -507,9 +507,7 @@ expected_val
 in
 which
 case
-|
 error_msg
-|
 is
 /
 /
@@ -594,9 +592,7 @@ true
 /
 /
 Reads
-|
 bits
-|
 bits
 from
 the
@@ -772,9 +768,7 @@ Helper
 method
 that
 reads
-|
 num_bits
-|
 from
 the
 bitstream
@@ -795,9 +789,7 @@ read
 *
 true
 if
-|
 expected_val
-|
 matches
 the
 read
@@ -807,9 +799,7 @@ bits
 *
 false
 if
-|
 expected_val
-|
 does
 not
 match
@@ -820,9 +810,7 @@ and
 logs
 /
 /
-|
 error_msg
-|
 as
 a
 warning
@@ -918,9 +906,7 @@ integers
 /
 /
 Here
-|
 bits
-|
 indicates
 the
 size
@@ -1079,9 +1065,7 @@ sign_val
 /
 /
 Reads
-|
 bits
-|
 from
 the
 bitstream

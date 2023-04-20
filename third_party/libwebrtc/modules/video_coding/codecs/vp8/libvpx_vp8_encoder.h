@@ -528,9 +528,7 @@ stream
 state
 for
 stream
-|
 stream_idx
-|
 .
 void
 SetStreamState
@@ -582,17 +580,13 @@ fmt
 /
 /
 Prepares
-|
 raw_image_
-|
 to
 reference
 image
 data
 of
-|
 buffer
-|
 or
 of
 mapped
@@ -602,9 +596,7 @@ or
 scaled
 versions
 of
-|
 buffer
-|
 .
 Returns
 a

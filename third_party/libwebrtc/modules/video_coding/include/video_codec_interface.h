@@ -301,13 +301,9 @@ frames
 .
 /
 /
-|
 referencedBuffers
-|
 and
-|
 updatedBuffers
-|
 contain
 buffer
 IDs
@@ -392,9 +388,7 @@ org
 )
 :
 Remove
-|
 useExplicitDependencies
-|
 once
 all
 /

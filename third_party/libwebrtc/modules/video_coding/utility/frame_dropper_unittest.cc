@@ -246,9 +246,7 @@ is
 computed
 to
 meet
-|
 kTargetBitRateKbps
-|
 .
 int
 small_frame_size_bytes

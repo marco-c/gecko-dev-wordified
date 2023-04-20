@@ -2708,9 +2708,7 @@ SizeIs
 /
 /
 If
-|
 sps_pps_idr_is_keyframe
-|
 is
 true
 we
@@ -2746,9 +2744,7 @@ PPS
 IDR
 .
 If
-|
 sps_pps_idr_is_keyframe
-|
 is
 false
 we

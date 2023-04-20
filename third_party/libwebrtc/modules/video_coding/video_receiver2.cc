@@ -398,9 +398,7 @@ on
 the
 decoder
 sequence
-|
 externalDecoder
-|
 cannot
 /
 /

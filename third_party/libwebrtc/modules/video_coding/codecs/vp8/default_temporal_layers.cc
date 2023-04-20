@@ -2696,9 +2696,7 @@ num_layers_
 ;
 /
 /
-|
 bitrates_bps
-|
 uses
 individual
 rate
@@ -3484,9 +3482,7 @@ be
 in
 sync
 with
-|
 pattern_idx_
-|
 /
 /
 so
@@ -3536,9 +3532,7 @@ iteration
 /
 /
 the
-|
 pedning_frames_
-|
 map
 is
 reset
@@ -3676,9 +3670,7 @@ the
 buffer
 specified
 by
-|
 ref
-|
 is
 actually
 referenced
@@ -4419,9 +4411,7 @@ state
 of
 /
 /
-|
 pending_frames_
-|
 .
 ResetNumFramesSinceBufferRefresh
 (

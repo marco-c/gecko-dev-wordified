@@ -1449,13 +1449,9 @@ Move
 the
 setting
 of
-|
 width
-|
 and
-|
 height
-|
 to
 the
 tests

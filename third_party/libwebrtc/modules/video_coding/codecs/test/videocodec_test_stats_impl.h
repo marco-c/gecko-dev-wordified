@@ -202,13 +202,9 @@ the
 FrameStatistics
 corresponding
 to
-|
 frame_number
-|
 or
-|
 timestamp
-|
 .
 FrameStatistics
 *

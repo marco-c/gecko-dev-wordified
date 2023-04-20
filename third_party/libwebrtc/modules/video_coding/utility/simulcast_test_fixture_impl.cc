@@ -1162,9 +1162,7 @@ in
 an
 I420Buffer
 from
-|
 plane_colors
-|
 .
 void
 CreateImage
@@ -3396,9 +3394,7 @@ maxed
 out
 (
 at
-|
 maxBitrate
-|
 )
 and
 padding
@@ -3652,14 +3648,10 @@ rate
 maxed
 out
 at
-|
 targetBitrate
-|
 second
 at
-|
 maxBitrate
-|
 .
 SetRates
 (
@@ -5071,9 +5063,7 @@ kVideoFrameKey
 /
 /
 Resize
-|
 input_frame_
-|
 to
 the
 new

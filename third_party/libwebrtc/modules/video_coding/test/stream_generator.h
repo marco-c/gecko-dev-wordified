@@ -198,9 +198,7 @@ current_time
 ;
 /
 /
-|
 time_ms
-|
 denotes
 the
 timestamp
@@ -222,9 +220,7 @@ millisecond
 GenerateFrame
 will
 translate
-|
 time_ms
-|
 into
 a
 90kHz

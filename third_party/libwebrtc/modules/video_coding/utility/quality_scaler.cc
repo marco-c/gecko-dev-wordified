@@ -771,9 +771,7 @@ false
 After
 this
 line
-|
 this
-|
 may
 be
 deleted
@@ -915,9 +913,7 @@ this
 line
 /
 /
-|
 this
-|
 has
 been
 deleted

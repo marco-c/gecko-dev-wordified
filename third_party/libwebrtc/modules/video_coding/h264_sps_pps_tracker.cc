@@ -851,9 +851,7 @@ the
 actual
 bitstream
 in
-|
 data
-|
 .
 if
 (

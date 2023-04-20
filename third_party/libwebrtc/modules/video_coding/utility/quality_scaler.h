@@ -281,13 +281,9 @@ a
 QualityScaler
 with
 given
-|
 thresholds
-|
 and
-|
 handler
-|
 .
 /
 /

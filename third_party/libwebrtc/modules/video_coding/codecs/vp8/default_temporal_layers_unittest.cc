@@ -4350,9 +4350,7 @@ frame
 Let
 the
 first
-|
 i
-|
 -
 1
 /
@@ -4363,9 +4361,7 @@ delta
 frames
 and
 the
-|
 i
-|
 th
 one
 key
@@ -5228,9 +5224,7 @@ always
 /
 /
 updates
-|
 last
-|
 .
 std
 :

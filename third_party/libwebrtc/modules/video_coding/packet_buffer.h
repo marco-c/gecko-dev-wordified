@@ -466,13 +466,9 @@ false
 /
 /
 Both
-|
 start_buffer_size
-|
 and
-|
 max_buffer_size
-|
 must
 be
 a
@@ -701,9 +697,7 @@ buffer
 is
 cleared
 to
-|
 first_seq_num_
-|
 .
 bool
 is_cleared_to_first_seq_num_

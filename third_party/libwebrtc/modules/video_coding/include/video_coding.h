@@ -926,9 +926,7 @@ sequence
 number
 older
 than
-|
 max_packet_age_to_nack
-|
 is
 missing
 /
@@ -967,9 +965,7 @@ is
 above
 /
 /
-|
 max_incomplete_time_ms
-|
 .
 virtual
 void

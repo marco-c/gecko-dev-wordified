@@ -673,15 +673,11 @@ frame
 with
 picture
 id
-|
 pid
-|
 and
 spatial
 index
-|
 sidx
-|
 has
 been
 /
@@ -703,9 +699,7 @@ references
 /
 specified
 by
-|
 refs
-|
 .
 template
 <

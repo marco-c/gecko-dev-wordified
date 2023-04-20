@@ -4274,9 +4274,7 @@ more
 than
 /
 /
-|
 kMaxBufferedInputFrames
-|
 frames
 to
 protect

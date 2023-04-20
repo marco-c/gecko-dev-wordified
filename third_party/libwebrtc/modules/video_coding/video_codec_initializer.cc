@@ -551,9 +551,7 @@ be
 fully
 copied
 to
-|
 streams
-|
 for
 SVC
 yet
@@ -562,9 +560,7 @@ yet
 /
 Therefore
 the
-|
 config
-|
 is
 checked
 here

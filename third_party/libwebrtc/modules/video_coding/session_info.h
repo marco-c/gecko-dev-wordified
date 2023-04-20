@@ -528,9 +528,7 @@ end
 .
 /
 /
-|
 it
-|
 is
 expected
 to
@@ -554,9 +552,7 @@ of
 the
 frame
 .
-|
 packets_skipped
-|
 is
 incremented
 /
@@ -601,9 +597,7 @@ to
 /
 /
 by
-|
 it
-|
 .
 PacketIterator
 FindPartitionEnd
@@ -679,13 +673,9 @@ of
 all
 packets
 between
-|
 start
-|
 and
-|
 end
-|
 inclusively
 .
 /

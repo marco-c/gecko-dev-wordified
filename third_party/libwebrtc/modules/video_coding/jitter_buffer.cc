@@ -1292,9 +1292,7 @@ Returns
 immediately
 or
 a
-|
 max_wait_time_ms
-|
 ms
 event
 hang
@@ -1305,9 +1303,7 @@ a
 /
 complete
 frame
-|
 max_wait_time_ms
-|
 decided
 by
 caller
@@ -5016,9 +5012,7 @@ under
 the
 critical
 section
-|
 mutex_
-|
 .
 void
 VCMJitterBuffer
@@ -5076,9 +5070,7 @@ be
 called
 from
 within
-|
 mutex_
-|
 .
 bool
 VCMJitterBuffer
@@ -5120,9 +5112,7 @@ under
 the
 critical
 section
-|
 mutex_
-|
 .
 Should
 never
@@ -5298,9 +5288,7 @@ under
 the
 critical
 section
-|
 mutex_
-|
 .
 Should
 never

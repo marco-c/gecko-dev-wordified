@@ -1066,9 +1066,7 @@ rtt
 ;
 /
 /
-|
 kUpperLimitFramesFec
-|
 is
 the
 upper
@@ -1191,16 +1189,10 @@ factors
 /
 such
 as
-|
 _numLayers
-|
-|
 _maxFramesFec
-|
 and
-|
 _rtt
-|
 .
 int
 estimate_bytes_per_frame

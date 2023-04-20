@@ -525,9 +525,7 @@ Always
 wrap
 forward
 if
-|
 frame
-|
 is
 /
 /
@@ -1627,12 +1625,8 @@ in
 the
 interval
 (
-|
 ref_pid
-|
-|
 picture_id
-|
 )
 in
 any

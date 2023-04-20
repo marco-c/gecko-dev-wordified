@@ -182,9 +182,7 @@ Returns
 number
 of
 different
-|
 timestamp
-|
 passed
 to
 the

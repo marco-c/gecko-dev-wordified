@@ -340,9 +340,7 @@ is
 below
 start
 lowering
-|
 max_level
-|
 .
 int
 min_qp

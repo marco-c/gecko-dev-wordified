@@ -203,9 +203,7 @@ distinguish
 returned
 results
 from
-|
 encoders_
-|
 /
 /
 instances
@@ -983,9 +981,7 @@ buffer
 and
 /
 /
-|
 supports_augmented_data_
-|
 is
 true
 in
@@ -1361,17 +1357,13 @@ for
 this
 /
 /
-|
 picture_index_
-|
 .
 The
 receiver
 will
 receive
-|
 frame_count
-|
 as
 1
 which
@@ -1658,9 +1650,7 @@ TODO
 emircan
 )
 :
-|
 framerate
-|
 is
 used
 to

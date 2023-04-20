@@ -577,9 +577,7 @@ with
 timestamp
 /
 /
-|
 frame_timestamp
-|
 should
 be
 rendered
@@ -592,9 +590,7 @@ time
 /
 currently
 is
-|
 now_ms
-|
 .
 virtual
 int64_t
@@ -908,15 +904,11 @@ keep
 the
 delay
 between
-|
 min_playout_delay_ms_
-|
 /
 /
 and
-|
 max_playout_delay_ms_
-|
 taking
 the
 network

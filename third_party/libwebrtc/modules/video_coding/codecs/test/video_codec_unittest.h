@@ -490,9 +490,7 @@ be
 waited
 for
 via
-|
 num_frames
-|
 before
 calling
 /

@@ -126,9 +126,7 @@ kIgnoredSampleCount
 /
 Return
 the
-|
 kPercentile
-|
 value
 in
 RequiredDecodeTimeMs
@@ -206,9 +204,7 @@ now_ms
 Ignore
 the
 first
-|
 kIgnoredSampleCount
-|
 samples
 .
 if

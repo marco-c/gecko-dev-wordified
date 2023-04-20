@@ -433,9 +433,7 @@ in
 the
 /
 /
-|
 scalability_structures_
-|
 array
 .
 uint8_t

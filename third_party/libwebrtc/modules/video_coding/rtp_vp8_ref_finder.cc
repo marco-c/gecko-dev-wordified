@@ -439,9 +439,7 @@ of
 those
 frames
 in
-|
 not_yet_received_frames_
-|
 .
 if
 (

@@ -849,9 +849,7 @@ currently
 requires
 the
 same
-|
 max_fec_frames
-|
 for
 both
 /
@@ -903,9 +901,7 @@ packet
 mask
 type
 .
-|
 kFecMaskBursty
-|
 is
 more
 effective
@@ -951,9 +947,7 @@ keep
 default
 setting
 to
-|
 kFecMaskRandom
-|
 for
 now
 .

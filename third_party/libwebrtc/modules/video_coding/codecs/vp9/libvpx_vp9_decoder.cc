@@ -1556,9 +1556,7 @@ buffers
 from
 /
 /
-|
 libvpx_buffer_pool_
-|
 .
 In
 practice
@@ -1760,9 +1758,7 @@ buffer
 contains
 all
 of
-|
 img
-|
 '
 s
 image
@@ -2124,9 +2120,7 @@ we
 /
 should
 release
-|
 img_buffer
-|
 .
 [
 img_buffer
@@ -2233,9 +2227,7 @@ we
 /
 should
 release
-|
 img_buffer
-|
 .
 [
 img_buffer
@@ -2551,9 +2543,7 @@ buffers
 of
 /
 /
-|
 libvpx_buffer_pool_
-|
 it
 is
 currently

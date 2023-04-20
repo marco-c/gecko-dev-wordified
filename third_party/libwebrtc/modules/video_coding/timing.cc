@@ -1143,15 +1143,11 @@ in
 the
 range
 of
-|
 min_playout_delay_ms_
-|
 /
 /
 and
-|
 max_playout_delay_ms_
-|
 .
 int
 actual_delay
@@ -1252,9 +1248,7 @@ us
 {
 /
 /
-|
 render_time_ms
-|
 =
 =
 0
@@ -1299,9 +1293,7 @@ delay
 to
 /
 /
-|
 zero_playout_delay_min_pacing_
-|
 .
 int64_t
 earliest_next_decode_start_time

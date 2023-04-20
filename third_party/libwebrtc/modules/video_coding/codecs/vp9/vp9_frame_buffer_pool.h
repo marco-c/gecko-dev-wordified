@@ -681,9 +681,7 @@ buffer
 of
 at
 least
-|
 min_size
-|
 recycling
 an
 available
@@ -847,9 +845,7 @@ Parameters
 :
 /
 /
-|
 user_priv
-|
 Private
 data
 passed
@@ -871,9 +867,7 @@ pool
 .
 /
 /
-|
 min_size
-|
 Minimum
 size
 needed
@@ -888,9 +882,7 @@ frame
 .
 /
 /
-|
 fb
-|
 Pointer
 to
 the
@@ -967,9 +959,7 @@ Parameters
 :
 /
 /
-|
 user_priv
-|
 Private
 data
 passed
@@ -991,9 +981,7 @@ pool
 .
 /
 /
-|
 fb
-|
 Pointer
 to
 the
@@ -1002,9 +990,7 @@ frame
 buffer
 object
 its
-|
 priv
-|
 will
 be
 /
@@ -1037,9 +1023,7 @@ private
 /
 /
 Protects
-|
 allocated_buffers_
-|
 .
 mutable
 Mutex

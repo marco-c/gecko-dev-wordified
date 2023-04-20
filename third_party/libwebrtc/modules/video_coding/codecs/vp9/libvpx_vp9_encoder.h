@@ -626,17 +626,13 @@ fmt
 /
 /
 Prepares
-|
 raw_
-|
 to
 reference
 image
 data
 of
-|
 buffer
-|
 or
 of
 mapped
@@ -646,9 +642,7 @@ scaled
 /
 versions
 of
-|
 buffer
-|
 .
 Returns
 the
@@ -1168,9 +1162,7 @@ will
 be
 made
 in
-|
 settings_by_resolution
-|
 base
 on
 the
@@ -1191,9 +1183,7 @@ to
 /
 to
 the
-|
 base_layer_speed
-|
 matching
 that
 entry
@@ -1387,9 +1377,7 @@ Performance
 flags
 ordered
 by
-|
 min_pixel_count
-|
 .
 const
 PerformanceFlags
@@ -1400,9 +1388,7 @@ performance_flags_
 Caching
 of
 of
-|
 speed_configs_
-|
 where
 index
 i

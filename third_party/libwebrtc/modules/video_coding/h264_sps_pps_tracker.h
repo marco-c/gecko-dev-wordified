@@ -196,9 +196,7 @@ fixed
 bitstream
 and
 modifies
-|
 video_header
-|
 .
 FixedBitstream
 CopyAndFixBitstream

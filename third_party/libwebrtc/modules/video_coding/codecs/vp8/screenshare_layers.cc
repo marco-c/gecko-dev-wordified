@@ -1622,9 +1622,7 @@ size
 ;
 /
 /
-|
 bitrates_bps
-|
 uses
 individual
 rates
@@ -2217,16 +2215,12 @@ updatedBuffersCount
 /
 Note
 that
-|
 frame_config
-|
 is
 not
 derefernced
 if
-|
 is_keyframe
-|
 /
 /
 meaning

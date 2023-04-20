@@ -755,9 +755,7 @@ minimum
 bitrate
 needed
 for
-|
 num_active_layers
-|
 spatial
 layers
 to
@@ -770,9 +768,7 @@ the
 configuration
 specified
 by
-|
 codec
-|
 .
 DataRate
 FindLayerTogglingThreshold
@@ -952,9 +948,7 @@ bitrate
 for
 /
 /
-|
 num_active_layers
-|
 -
 1
 layers
@@ -962,9 +956,7 @@ and
 lowest
 bitrate
 for
-|
 num_active_layers
-|
 /
 /
 layers

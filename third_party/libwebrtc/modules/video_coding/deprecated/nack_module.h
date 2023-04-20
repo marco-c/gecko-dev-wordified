@@ -561,9 +561,7 @@ packet
 /
 with
 probability
-|
 probabilty
-|
 or
 higher
 .
@@ -624,9 +622,7 @@ e
 g
 .
 see
-|
 initialized_
-|
 )
 .
 Those

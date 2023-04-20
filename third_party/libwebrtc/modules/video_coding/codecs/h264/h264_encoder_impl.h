@@ -373,9 +373,7 @@ The
 following
 members
 of
-|
 codec_settings
-|
 are
 used
 .
