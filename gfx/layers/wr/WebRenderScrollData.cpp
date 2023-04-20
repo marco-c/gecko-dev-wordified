@@ -209,6 +209,13 @@ mDescendantCount
 -
 1
 )
+mAncestorTransformId
+(
+ScrollableLayerGuid
+:
+:
+NULL_SCROLL_ID
+)
 mTransformIsPerspective
 (
 false
