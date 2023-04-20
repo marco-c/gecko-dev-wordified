@@ -1847,7 +1847,7 @@ platform
 :
         
 return
-True
+False
     
 if
 "
@@ -5828,37 +5828,8 @@ if
 cpu_n_memory_task
 :
                     
-if
-"
--
-speedometer
--
-"
-in
-try_name
-:
-                        
 return
-True
-                    
-if
-"
--
-scn
-"
-in
-try_name
-and
-"
--
-idle
-"
-in
-try_name
-:
-                        
-return
-True
+False
                 
 if
 power_task
