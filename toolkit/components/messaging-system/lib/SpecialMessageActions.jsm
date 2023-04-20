@@ -1598,7 +1598,9 @@ MigrationUtils
 showMigrationWizard
 (
 window
-[
+{
+entrypoint
+:
 lazy
 .
 MigrationUtils
@@ -1606,13 +1608,15 @@ MigrationUtils
 MIGRATION_ENTRYPOINTS
 .
 NEWTAB
+migratorKey
+:
 action
 .
 data
 ?
 .
 source
-]
+}
 )
 )
 ;
