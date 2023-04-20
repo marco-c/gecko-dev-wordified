@@ -9686,7 +9686,7 @@ EmulatesUndefined
 ;
 masm
 .
-storeCallBoolResult
+storeCallPointerResult
 (
 scratch
 )
@@ -98516,7 +98516,7 @@ growSlotsPure
 ;
 masm
 .
-storeCallBoolResult
+storeCallPointerResult
 (
 temp0
 )
