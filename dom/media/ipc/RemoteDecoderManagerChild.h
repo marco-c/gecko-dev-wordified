@@ -664,15 +664,6 @@ return
 mLocation
 ;
 }
-layers
-:
-:
-VideoBridgeSource
-GetSource
-(
-)
-const
-;
 /
 /
 A
