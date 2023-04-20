@@ -163,12 +163,17 @@ appropriate
 code
 paths
 .
-current
+defaultEngineId
 :
 "
 engine2
+search
+.
+mozilla
+.
+orgdefault
 "
-hash
+defaultEngineIdHash
 :
 "
 TBD
@@ -369,7 +374,7 @@ enginesSettings
 .
 metaData
 .
-hash
+defaultEngineIdHash
 =
 SearchUtils
 .
@@ -379,7 +384,7 @@ enginesSettings
 .
 metaData
 .
-current
+defaultEngineId
 )
 ;
 enginesSettings
