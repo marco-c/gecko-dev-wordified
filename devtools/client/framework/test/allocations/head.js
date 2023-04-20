@@ -378,7 +378,7 @@ TrackedObjects
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -397,7 +397,9 @@ tracked
 -
 objects
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1133,7 +1135,7 @@ TrackedObjects
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1152,7 +1154,9 @@ tracked
 -
 objects
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

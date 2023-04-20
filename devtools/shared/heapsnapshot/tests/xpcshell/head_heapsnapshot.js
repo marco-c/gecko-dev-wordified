@@ -96,7 +96,7 @@ Match
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -107,7 +107,9 @@ test
 /
 Match
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -118,7 +120,7 @@ Census
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -129,7 +131,9 @@ test
 /
 Census
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

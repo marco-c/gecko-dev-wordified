@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Test
@@ -133,21 +128,6 @@ are
 still
 allocated
 .
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-track
-"
-"
-getAllNodeIds
-"
-"
-clear
-"
-]
-;
 const
 objects
 =
@@ -183,6 +163,7 @@ getAllNodeIds
 .
 *
 /
+export
 function
 track
 (
@@ -262,6 +243,7 @@ snapshots
 .
 *
 /
+export
 function
 getAllNodeIds
 (
@@ -361,6 +343,7 @@ tracked
 objects
 *
 /
+export
 function
 clear
 (
