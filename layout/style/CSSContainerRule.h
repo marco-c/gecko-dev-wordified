@@ -299,6 +299,16 @@ aGivenProto
 )
 override
 ;
+Element
+*
+QueryContainerFor
+(
+const
+Element
+&
+)
+const
+;
 private
 :
 virtual
