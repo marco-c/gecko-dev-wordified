@@ -61673,7 +61673,11 @@ combine
 list
 items
 )
+Result
+<
 JoinNodesResult
+nsresult
+>
 joinNodesResult
 =
 JoinNodesWithTransaction
@@ -61688,7 +61692,7 @@ MOZ_UNLIKELY
 (
 joinNodesResult
 .
-Failed
+isErr
 (
 )
 )
@@ -61708,7 +61712,7 @@ failed
 return
 joinNodesResult
 .
-Rv
+unwrapErr
 (
 )
 ;
@@ -61718,6 +61722,10 @@ aNewFirstChildOfRightNode
 =
 joinNodesResult
 .
+inspect
+(
+)
+.
 AtJoinedPoint
 <
 EditorDOMPoint
@@ -61726,11 +61734,7 @@ EditorDOMPoint
 )
 ;
 return
-joinNodesResult
-.
-Rv
-(
-)
+NS_OK
 ;
 }
 /
@@ -61823,7 +61827,11 @@ etc
 .
 merge
 smart
+Result
+<
 JoinNodesResult
+nsresult
+>
 joinNodesResult
 =
 JoinNodesWithTransaction
@@ -61838,7 +61846,7 @@ MOZ_UNLIKELY
 (
 joinNodesResult
 .
-Failed
+isErr
 (
 )
 )
@@ -61860,7 +61868,7 @@ failed
 return
 joinNodesResult
 .
-Rv
+unwrapErr
 (
 )
 ;
@@ -61938,6 +61946,10 @@ rv
 aNewFirstChildOfRightNode
 =
 joinNodesResult
+.
+inspect
+(
+)
 .
 AtJoinedPoint
 <
