@@ -170,12 +170,7 @@ events
 captureToTexture
 applicationContext
 surfaceTextureHelper
-Camera1Enumerator
-.
-getCameraIndex
-(
 cameraName
-)
 width
 height
 framerate
