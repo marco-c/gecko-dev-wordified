@@ -1108,7 +1108,7 @@ outer
 Promise
 rejecting
 with
-NS_ERROR_FAILURE
+InvalidStateError
 .
 *
 /
@@ -1181,12 +1181,12 @@ ex
 >
 ex
 .
-result
+name
 =
 =
-Cr
-.
-NS_ERROR_FAILURE
+'
+InvalidStateError
+'
 )
 ;
 }
