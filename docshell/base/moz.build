@@ -705,7 +705,9 @@ EXTRA_JS_MODULES
 "
 URIFixup
 .
-jsm
+sys
+.
+mjs
 "
 ]
 include
