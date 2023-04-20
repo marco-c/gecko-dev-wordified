@@ -5346,7 +5346,11 @@ unsigned
 int
 frame_size
 bool
+/
+*
 incomplete_frame
+*
+/
 )
 {
 if
@@ -5429,7 +5433,6 @@ Bytes
 (
 frame_size
 )
-incomplete_frame
 )
 ;
 }
