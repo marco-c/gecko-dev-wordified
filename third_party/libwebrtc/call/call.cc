@@ -7540,8 +7540,13 @@ get
 (
 )
 clock_
-new
+std
+:
+:
+make_unique
+<
 VCMTiming
+>
 (
 clock_
 )
