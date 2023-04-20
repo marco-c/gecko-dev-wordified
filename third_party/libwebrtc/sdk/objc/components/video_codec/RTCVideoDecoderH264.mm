@@ -1378,7 +1378,12 @@ WEBRTC_IOS
 )
 &
 &
+(
 TARGET_OS_MACCATALYST
+|
+|
+TARGET_OS_SIMULATOR
+)
 kCVPixelBufferMetalCompatibilityKey
 #
 elif
