@@ -8859,6 +8859,9 @@ bytes_read
 self
 _failWithError
 :
+self
+-
+>
 _inputStream
 .
 streamError
