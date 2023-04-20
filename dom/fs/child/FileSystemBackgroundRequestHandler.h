@@ -225,9 +225,13 @@ Shutdown
 (
 )
 ;
+const
+RefPtr
+<
 FileSystemManagerChild
-*
-GetFileSystemManagerChild
+>
+&
+FileSystemManagerChildStrongRef
 (
 )
 const
