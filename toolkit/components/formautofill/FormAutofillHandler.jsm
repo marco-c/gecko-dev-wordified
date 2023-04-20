@@ -762,7 +762,7 @@ transformers
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -809,7 +809,7 @@ values
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -855,7 +855,7 @@ values
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -1891,7 +1891,7 @@ backend
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -2628,7 +2628,7 @@ profile
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -3181,7 +3181,7 @@ presentations
 *
 param
 {
-Object
+object
 }
 fieldDetail
 *
@@ -3772,7 +3772,7 @@ included
 *
 returns
 {
-Object
+object
 |
 null
 }
@@ -5095,9 +5095,10 @@ s
 restriction
 .
 *
+*
 param
 {
-Object
+object
 }
 profile
 *
@@ -6061,7 +6062,7 @@ Constructor
 *
 param
 {
-Object
+object
 }
 fieldDetails
 *
@@ -6077,7 +6078,7 @@ section
 *
 param
 {
-Object
+object
 }
 winUtils
 *
@@ -6094,7 +6095,7 @@ in
 *
 param
 {
-Object
+object
 }
 handler
 *
@@ -8692,7 +8693,7 @@ profile
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -8862,7 +8863,7 @@ profile
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -9243,6 +9244,7 @@ form
 operations
 .
 *
+*
 param
 {
 FormLike
@@ -9258,7 +9260,7 @@ filled
 *
 param
 {
-function
+Function
 }
 onFormSubmitted
 Function
@@ -9578,6 +9580,7 @@ the
 form
 .
 *
+*
 param
 {
 HTMLElement
@@ -9877,6 +9880,7 @@ the
 data
 consistency
 .
+*
 *
 param
 {
@@ -10349,7 +10353,7 @@ backend
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -10694,7 +10698,7 @@ records
 *
 returns
 {
-Object
+object
 }
 records
 *

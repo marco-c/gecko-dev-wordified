@@ -840,6 +840,7 @@ enable
 it
 .
 *
+*
 returns
 {
 boolean
@@ -909,6 +910,7 @@ enable
 it
 .
 *
+*
 returns
 {
 boolean
@@ -957,6 +959,7 @@ card
 autofill
 .
 *
+*
 returns
 {
 boolean
@@ -1003,6 +1006,7 @@ by
 policy
 .
 *
+*
 returns
 {
 boolean
@@ -1048,6 +1052,7 @@ address
 autofill
 .
 *
+*
 returns
 {
 boolean
@@ -1091,6 +1096,7 @@ locked
 by
 policy
 .
+*
 *
 returns
 {

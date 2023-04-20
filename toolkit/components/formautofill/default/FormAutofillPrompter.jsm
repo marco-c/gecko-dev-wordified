@@ -1359,7 +1359,7 @@ private
 *
 param
 {
-Object
+object
 }
 mainActionParams
 *
@@ -1373,7 +1373,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 secondaryActionParams
@@ -1404,7 +1404,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 Return
@@ -1585,6 +1585,7 @@ the
 popupnotificationcontent
 .
 *
+*
 param
 {
 XULElement
@@ -1724,6 +1725,7 @@ to
 the
 popupnotificationcontent
 .
+*
 *
 param
 {
@@ -1983,6 +1985,7 @@ already
 exist
 .
 *
+*
 param
 {
 XULElement
@@ -1999,7 +2002,7 @@ doorhanger
 *
 param
 {
-Object
+object
 }
 anchor
 *
@@ -2811,6 +2814,7 @@ by
 leveraging
 PopupNotifications
 .
+*
 *
 param
 {

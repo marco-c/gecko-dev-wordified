@@ -318,7 +318,7 @@ merge
 *
 param
 {
-Object
+object
 }
 address
 *
@@ -1203,7 +1203,7 @@ merge
 *
 param
 {
-Object
+object
 }
 creditCard
 *
@@ -1661,6 +1661,7 @@ file
 to
 memory
 .
+*
 *
 returns
 {

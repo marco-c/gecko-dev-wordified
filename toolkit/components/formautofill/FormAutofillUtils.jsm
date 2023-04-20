@@ -627,6 +627,7 @@ different
 paths
 .
 *
+*
 param
 {
 string
@@ -849,6 +850,7 @@ data
 is
 parsed
 .
+*
 *
 param
 {
@@ -1116,6 +1118,7 @@ metadata
 *
 }
 *
+*
 param
 {
 string
@@ -1324,6 +1327,7 @@ if
 exists
 )
 .
+*
 *
 param
 {
@@ -2429,6 +2433,7 @@ blank
 parts
 .
 *
+*
 param
 {
 string
@@ -2562,6 +2567,7 @@ by
 the
 delimiter
 *
+*
 param
 {
 string
@@ -2642,6 +2648,7 @@ removing
 internal
 whitespace
 *
+*
 param
 {
 string
@@ -2666,7 +2673,7 @@ compare
 *
 param
 {
-array
+Array
 }
 collators
 Search
@@ -2836,6 +2843,7 @@ delete
 unnecessary
 fields
 .
+*
 *
 param
 {
@@ -3183,6 +3191,7 @@ follow
 up
 .
 *
+*
 param
 {
 HTMLElement
@@ -3450,6 +3459,7 @@ addressData
 structure
 .
 *
+*
 param
 {
 string
@@ -3713,6 +3723,7 @@ default
 locale
 .
 *
+*
 param
 {
 string
@@ -3817,6 +3828,7 @@ all
 locales
 .
 *
+*
 param
 {
 string
@@ -3831,7 +3843,7 @@ level1
 *
 returns
 {
-array
+Array
 <
 object
 >
@@ -3935,6 +3947,7 @@ specified
 country
 .
 *
+*
 param
 {
 string
@@ -3947,7 +3960,7 @@ country
 *
 returns
 {
-array
+Array
 }
 An
 array
@@ -4290,7 +4303,7 @@ string
 *
 returns
 {
-array
+Array
 <
 object
 >
@@ -4847,7 +4860,7 @@ string
 *
 returns
 {
-array
+Array
 <
 string
 >
@@ -4926,6 +4939,7 @@ specified
 country
 name
 .
+*
 *
 param
 {
@@ -5312,6 +5326,7 @@ sub
 region
 name
 *
+*
 param
 {
 string
@@ -5662,6 +5677,7 @@ for
 a
 match
 .
+*
 *
 param
 {
@@ -6728,9 +6744,10 @@ the
 key
 .
 *
+*
 param
 {
-array
+Array
 <
 string
 >
@@ -6739,7 +6756,7 @@ keys
 *
 param
 {
-array
+Array
 <
 string
 >
@@ -6754,7 +6771,7 @@ value
 *
 param
 {
-array
+Array
 }
 collators
 *
@@ -6855,6 +6872,7 @@ the
 same
 .
 *
+*
 param
 {
 string
@@ -6869,7 +6887,7 @@ b
 *
 param
 {
-array
+Array
 }
 collators
 *
@@ -6932,6 +6950,7 @@ regular
 expression
 .
 *
+*
 param
 {
 string
@@ -6993,6 +7012,7 @@ of
 a
 given
 country
+*
 *
 param
 {
@@ -7431,6 +7451,7 @@ field
 type
 .
 *
+*
 param
 {
 string
@@ -7759,7 +7780,7 @@ element
 *
 param
 {
-Object
+object
 }
 element
 *

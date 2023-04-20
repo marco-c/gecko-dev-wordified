@@ -652,6 +652,7 @@ same
 form
 .
 *
+*
 param
 {
 string
@@ -669,7 +670,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 allFieldNames
@@ -868,6 +869,7 @@ metadata
 instance
 )
 *
+*
 param
 {
 number
@@ -932,6 +934,7 @@ a
 particular
 index
 .
+*
 *
 param
 {
@@ -1026,6 +1029,7 @@ image
 url
 .
 *
+*
 param
 {
 number
@@ -1076,6 +1080,7 @@ return
 Retrieves
 a
 result
+*
 *
 param
 {
@@ -1131,6 +1136,7 @@ index
 is
 removable
 *
+*
 param
 {
 number
@@ -1175,6 +1181,7 @@ result
 from
 the
 resultset
+*
 *
 param
 {

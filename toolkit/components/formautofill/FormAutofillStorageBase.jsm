@@ -1794,7 +1794,7 @@ collection
 *
 returns
 {
-array
+Array
 }
 *
 The
@@ -1940,6 +1940,7 @@ migration
 completes
 .
 *
+*
 returns
 {
 Promise
@@ -1969,7 +1970,7 @@ record
 *
 param
 {
-Object
+object
 }
 record
 *
@@ -1979,6 +1980,12 @@ record
 for
 saving
 .
+*
+param
+{
+object
+}
+options
 *
 param
 {
@@ -2568,7 +2575,7 @@ update
 *
 param
 {
-Object
+object
 }
 record
 *
@@ -3219,6 +3226,12 @@ remove
 *
 param
 {
+object
+}
+options
+*
+param
+{
 boolean
 }
 [
@@ -3537,6 +3550,12 @@ retrieve
 *
 param
 {
+object
+}
+options
+*
+param
+{
 boolean
 }
 [
@@ -3569,7 +3588,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -3691,6 +3710,12 @@ records
 *
 param
 {
+object
+}
+options
+*
+param
+{
 boolean
 }
 [
@@ -3738,7 +3763,7 @@ Promise
 Array
 .
 <
-Object
+object
 >
 >
 }
@@ -4248,7 +4273,7 @@ sync
 *
 param
 {
-Object
+object
 }
 record
 *
@@ -4434,7 +4459,7 @@ _maybeStoreLastSyncedField
 *
 param
 {
-Object
+object
 }
 strippedLocalRecord
 *
@@ -4455,7 +4480,7 @@ stripped
 *
 param
 {
-Object
+object
 }
 remoteRecord
 *
@@ -4466,7 +4491,7 @@ record
 *
 returns
 {
-Object
+object
 |
 null
 }
@@ -4969,9 +4994,15 @@ index
 *
 param
 {
-Object
+object
 }
 remoteRecord
+*
+param
+{
+object
+}
+options
 *
 param
 {
@@ -5368,7 +5399,7 @@ storage
 *
 param
 {
-Object
+object
 }
 strippedLocalRecord
 *
@@ -5540,7 +5571,7 @@ merge
 *
 param
 {
-Object
+object
 }
 remoteRecord
 *
@@ -5593,7 +5624,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -7146,7 +7177,7 @@ information
 *
 param
 {
-Object
+object
 }
 remoteRecord
 *
@@ -8197,9 +8228,10 @@ mergeable
 records
 .
 *
+*
 param
 {
-Object
+object
 }
 targetRecord
 *
@@ -8448,9 +8480,10 @@ record
 version
 .
 *
+*
 param
 {
-Object
+object
 }
 record
 The
@@ -8460,7 +8493,7 @@ migrate
 *
 returns
 {
-Object
+object
 }
 Migrated
 record
@@ -10230,7 +10263,7 @@ merge
 *
 param
 {
-Object
+object
 }
 address
 *
@@ -11807,9 +11840,10 @@ same
 record
 .
 *
+*
 param
 {
-Object
+object
 }
 targetCreditCard
 *
@@ -12009,7 +12043,7 @@ merge
 *
 param
 {
-Object
+object
 }
 creditCard
 *
@@ -12243,8 +12277,6 @@ returns
 {
 Promise
 }
-*
-resolves
 When
 the
 operation
@@ -12252,7 +12284,7 @@ finished
 successfully
 .
 *
-rejects
+throws
 JavaScript
 exception
 .

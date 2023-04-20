@@ -771,7 +771,7 @@ retrieve
 *
 returns
 {
-Object
+object
 }
 *
 The
@@ -1014,7 +1014,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 fieldDetails
@@ -1054,10 +1054,14 @@ created
 *
 returns
 {
-[
+Array
+<
+(
 number
+|
 boolean
-]
+)
+>
 }
 mergeNextNFields
 and
@@ -1597,7 +1601,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 *
@@ -2376,7 +2380,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 creditCardFieldDetails
@@ -2597,7 +2601,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 fieldDetails
@@ -2613,7 +2617,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 *
@@ -6555,7 +6559,7 @@ Array
 <
 Array
 <
-Object
+object
 >
 >
 }
@@ -7397,7 +7401,7 @@ type
 object
 }
 *
-yield
+yields
 {
 string
 }
@@ -7407,7 +7411,7 @@ element
 id
 .
 *
-yield
+yields
 {
 string
 }
@@ -7417,7 +7421,7 @@ element
 name
 .
 *
-yield
+yields
 {
 Array
 <

@@ -561,6 +561,12 @@ retrieve
 *
 param
 {
+object
+}
+options
+*
+param
+{
 boolean
 }
 [
@@ -593,7 +599,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -652,6 +658,12 @@ records
 *
 param
 {
+object
+}
+options
+*
+param
+{
 boolean
 }
 [
@@ -699,7 +711,7 @@ Promise
 Array
 .
 <
-Object
+object
 >
 >
 }
@@ -987,6 +999,12 @@ retrieve
 *
 param
 {
+object
+}
+options
+*
+param
+{
 boolean
 }
 [
@@ -1019,7 +1037,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -1078,6 +1096,12 @@ records
 *
 param
 {
+object
+}
+options
+*
+param
+{
 boolean
 }
 [
@@ -1125,7 +1149,7 @@ Promise
 Array
 .
 <
-Object
+object
 >
 >
 }
@@ -1248,9 +1272,10 @@ same
 record
 .
 *
+*
 param
 {
-Object
+object
 }
 targetCreditCard
 *
@@ -1558,6 +1583,7 @@ async
 store
 API
 .
+*
 *
 returns
 {

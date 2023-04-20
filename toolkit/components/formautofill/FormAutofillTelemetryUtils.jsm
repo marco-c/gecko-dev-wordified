@@ -225,7 +225,7 @@ value
 *
 returns
 {
-Object
+object
 }
 The
 extra
@@ -294,7 +294,7 @@ object
 *
 param
 {
-Object
+object
 }
 extra
 The
@@ -384,7 +384,7 @@ id
 *
 param
 {
-Object
+object
 }
 ccFormExtra
 The
@@ -397,7 +397,7 @@ telemetry
 *
 param
 {
-Object
+object
 }
 ccFormV2Extra
 The
@@ -483,7 +483,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 fieldDetails
@@ -862,7 +862,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 fieldDetails
@@ -874,7 +874,7 @@ details
 *
 param
 {
-Object
+object
 }
 profile
 The

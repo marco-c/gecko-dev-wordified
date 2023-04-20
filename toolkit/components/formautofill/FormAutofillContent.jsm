@@ -683,7 +683,7 @@ null
 *
 *
 *
-constructor
+class
 *
 *
 implements
@@ -822,7 +822,7 @@ searchParam
 *
 param
 {
-Object
+object
 }
 previousResult
 a
@@ -836,7 +836,7 @@ searchinig
 *
 param
 {
-Object
+object
 }
 listener
 the
@@ -1685,7 +1685,7 @@ private
 *
 param
 {
-Object
+object
 }
 input
 *
@@ -1697,7 +1697,7 @@ autocomplete
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -2522,7 +2522,7 @@ savedFieldNames
 *
 type
 {
-Object
+object
 }
 The
 object
@@ -2785,7 +2785,7 @@ updating
 *
 param
 {
-Object
+object
 }
 profile
 Submitted
@@ -2802,7 +2802,7 @@ record
 *
 param
 {
-Object
+object
 }
 domWin
 Current
@@ -2937,7 +2937,7 @@ FormAutofillSection
 *
 param
 {
-Object
+object
 }
 handler
 FormAutofillHander
@@ -3290,7 +3290,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 |
 null
@@ -3389,7 +3389,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 |
 null
@@ -3974,7 +3974,7 @@ identified
 *
 returns
 {
-Object
+object
 |
 null
 }
