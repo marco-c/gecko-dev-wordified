@@ -376,7 +376,7 @@ cpp
 .
 static
 nsresult
-FindLaunchURLForWindowsTag
+FindLaunchURLAndPrivilegedNameForWindowsTag
 (
 const
 nsAString
@@ -386,9 +386,15 @@ const
 nsAString
 &
 aAumid
+bool
+&
+aFoundTag
 nsAString
 &
 aLaunchUrl
+nsAString
+&
+aPrivilegedName
 )
 ;
 protected
