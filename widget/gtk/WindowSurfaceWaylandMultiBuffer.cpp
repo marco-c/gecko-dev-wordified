@@ -1796,6 +1796,16 @@ mMozContainerSize
 ;
 if
 (
+!
+mInProgressBuffer
+)
+{
+return
+nullptr
+;
+}
+if
+(
 mFrontBuffer
 )
 {
@@ -2631,6 +2641,11 @@ Create
 aSize
 )
 ;
+if
+(
+buffer
+)
+{
 mInUseBuffers
 .
 AppendElement
@@ -2638,6 +2653,7 @@ AppendElement
 buffer
 )
 ;
+}
 return
 buffer
 ;
