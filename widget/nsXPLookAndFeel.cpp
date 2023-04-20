@@ -3099,15 +3099,6 @@ default
 ifdef
 XP_WIN
 return
-GetInt
-(
-IntID
-:
-:
-WindowsDefaultTheme
-)
-&
-&
 IsWin10OrLater
 (
 )
