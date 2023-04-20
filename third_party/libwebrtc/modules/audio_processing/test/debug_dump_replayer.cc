@@ -544,13 +544,9 @@ receive
 UNKNOWN
 event
 .
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
-;
-return
-false
 ;
 }
 LoadNextMessage

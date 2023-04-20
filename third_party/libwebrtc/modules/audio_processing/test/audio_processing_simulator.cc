@@ -352,9 +352,8 @@ std
 :
 endl
 ;
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -427,9 +426,8 @@ std
 :
 endl
 ;
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

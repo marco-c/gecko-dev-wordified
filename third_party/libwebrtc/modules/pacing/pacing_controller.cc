@@ -661,9 +661,8 @@ kFirstPriority
 4
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

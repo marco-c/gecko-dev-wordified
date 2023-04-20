@@ -223,7 +223,7 @@ return
 ;
 default
 :
-FATAL
+RTC_CHECK_NOTREACHED
 (
 )
 ;
@@ -776,7 +776,7 @@ return
 ;
 default
 :
-FATAL
+RTC_CHECK_NOTREACHED
 (
 )
 ;

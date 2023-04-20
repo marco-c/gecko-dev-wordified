@@ -997,9 +997,8 @@ get
 )
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -2014,9 +2013,8 @@ frame_types
 )
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

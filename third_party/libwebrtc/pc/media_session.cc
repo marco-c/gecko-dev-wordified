@@ -11630,9 +11630,8 @@ return
 audio_recv_codecs_
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -11740,9 +11739,8 @@ return
 audio_recv_codecs_
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -11819,9 +11817,8 @@ return
 video_recv_codecs_
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -11929,9 +11926,8 @@ return
 video_recv_codecs_
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

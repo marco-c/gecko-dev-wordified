@@ -276,9 +276,8 @@ peak_dbfs
 break
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

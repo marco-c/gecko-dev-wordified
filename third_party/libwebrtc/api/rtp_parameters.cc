@@ -195,9 +195,8 @@ balanced
 "
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

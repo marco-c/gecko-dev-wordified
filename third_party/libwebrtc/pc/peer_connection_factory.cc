@@ -980,9 +980,8 @@ RtpCapabilities
 )
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -1113,9 +1112,8 @@ RtpCapabilities
 )
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
