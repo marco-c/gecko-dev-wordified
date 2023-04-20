@@ -188,27 +188,6 @@ context
 )
 )
     
-#
-Note
-:
-https
-:
-/
-/
-github
-.
-com
-/
-w3c
-/
-webdriver
--
-bidi
-/
-issues
-/
-251
-    
 recursive_compare
 (
 {
