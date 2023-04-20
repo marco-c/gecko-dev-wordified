@@ -199,6 +199,15 @@ object
 options
 ]
 *
+The
+options
+object
+properties
+containing
+the
+following
+:
+*
 param
 {
 number

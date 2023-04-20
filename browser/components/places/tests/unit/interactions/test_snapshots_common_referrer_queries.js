@@ -160,6 +160,14 @@ object
 options
 ]
 *
+The
+options
+property
+containing
+the
+following
+:
+*
 param
 {
 string

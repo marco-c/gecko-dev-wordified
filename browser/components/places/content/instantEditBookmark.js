@@ -1467,6 +1467,11 @@ object
 }
 aInfo
 *
+The
+initialization
+info
+.
+*
 param
 {
 object

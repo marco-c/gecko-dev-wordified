@@ -3830,6 +3830,12 @@ Element
 }
 elt
 *
+The
+element
+to
+check
+.
+*
 returns
 {
 boolean
