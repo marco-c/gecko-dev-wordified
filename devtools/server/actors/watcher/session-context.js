@@ -1472,7 +1472,7 @@ TYPES
 THREAD_STATE
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
