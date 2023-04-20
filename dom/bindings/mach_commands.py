@@ -68,12 +68,8 @@ mach
 .
 decorators
 import
-(
-    
-CommandArgument
-    
 Command
-)
+CommandArgument
 from
 mozbuild
 .

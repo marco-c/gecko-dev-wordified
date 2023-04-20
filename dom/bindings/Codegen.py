@@ -17753,23 +17753,6 @@ d
 }
 "
         
-prefCacheTemplate
-=
-"
-&
-%
-s
-[
-%
-d
-]
-.
-disablers
--
->
-enabled
-"
-        
 def
 switchToCondition
 (
@@ -20944,8 +20927,6 @@ s
                             
 %
 (
-self
-.
 descriptor
 .
 name
@@ -71490,12 +71471,6 @@ Cached
 )
 :
                 
-args
-=
-"
-self
-"
-                
 clearSlot
 =
 "
@@ -77946,6 +77921,8 @@ the
 value
 "
                     
+self
+.
 attr
 .
 identifier
@@ -100122,19 +100099,6 @@ getBody
 self
 )
 :
-        
-indexedGetter
-=
-self
-.
-descriptor
-.
-operations
-[
-"
-IndexedGetter
-"
-]
         
 indexedSetter
 =
@@ -137068,45 +137032,6 @@ parentClass
             
 )
             
-constructorBody
-=
-dedent
-(
-                
-"
-"
-"
-                
-/
-/
-Make
-sure
-we
-'
-re
-an
-nsWrapperCache
-already
-                
-MOZ_ASSERT
-(
-static_cast
-<
-nsWrapperCache
-*
->
-(
-this
-)
-)
-;
-                
-"
-"
-"
-            
-)
-            
 extradefinitions
 =
 fill
@@ -162802,14 +162727,15 @@ self
 )
 :
         
-hasJS
-=
-False
-        
-if
-any
-(
+for
+m
+in
+self
+.
+membersNeedingTrace
+:
             
+if
 not
 (
                 
@@ -162838,17 +162764,8 @@ isSpiderMonkeyInterface
 )
             
 )
-            
-for
-m
-in
-self
-.
-membersNeedingTrace
-        
-)
 :
-            
+                
 raise
 TypeError
 (

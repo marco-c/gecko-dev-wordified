@@ -54,13 +54,13 @@ MPL
 /
 .
 import
-sys
-import
-string
-import
 argparse
 import
 runpy
+import
+string
+import
+sys
 #
 Generates
 a

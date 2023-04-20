@@ -44,8 +44,6 @@ constructor
         
 )
         
-results
-=
 parser
 .
 finish
@@ -53,6 +51,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -164,8 +163,6 @@ constructor
         
 )
         
-results
-=
 parser
 .
 finish
@@ -173,6 +170,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

@@ -92,6 +92,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

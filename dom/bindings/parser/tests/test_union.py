@@ -1,8 +1,4 @@
 import
-WebIDL
-import
-itertools
-import
 string
 #
 We
@@ -1310,6 +1306,7 @@ finish
 )
         
 except
+Exception
 :
             
 threw
