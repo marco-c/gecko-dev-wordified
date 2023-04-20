@@ -568,16 +568,6 @@ clipped_level_min
 &
 analog_lhs
 .
-enable_agc2_level_estimator
-=
-=
-analog_rhs
-.
-enable_agc2_level_estimator
-&
-&
-analog_lhs
-.
 enable_digital_adaptive
 =
 =
