@@ -4858,13 +4858,6 @@ f
 >
 IsHiddenByContentVisibilityOnAnyAncestor
 (
-nsIFrame
-:
-:
-IncludeContentVisibility
-:
-:
-Hidden
 )
 )
 {

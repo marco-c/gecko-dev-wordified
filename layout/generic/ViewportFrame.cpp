@@ -1255,13 +1255,6 @@ frame
 >
 IsHiddenByContentVisibilityOnAnyAncestor
 (
-nsIFrame
-:
-:
-IncludeContentVisibility
-:
-:
-Hidden
 )
 )
 {
