@@ -213,7 +213,9 @@ if
 aShouldValueExist
 )
 {
-is
+Assert
+.
+equal
 (
 count
 1
@@ -234,7 +236,9 @@ entry
 }
 else
 {
-is
+Assert
+.
+equal
 (
 count
 0
