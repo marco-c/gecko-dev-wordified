@@ -6,7 +6,6 @@ strict
 var
 {
 MigrationUtils
-MigratorPrototype
 }
 =
 ChromeUtils
@@ -341,7 +340,7 @@ complete
 *
 param
 {
-MigratorPrototype
+MigratorBase
 }
 migrator
 *
