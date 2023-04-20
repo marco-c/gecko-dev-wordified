@@ -37736,13 +37736,6 @@ frame_context
 .
 fb_config
 .
-dual_source_blending_is_enabled
-&
-&
-frame_context
-.
-fb_config
-.
 dual_source_blending_is_supported
 )
 .

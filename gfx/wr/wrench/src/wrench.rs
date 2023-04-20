@@ -1390,9 +1390,6 @@ bool
 precache_shaders
 :
 bool
-disable_dual_source_blending
-:
-bool
 dump_shader_source
 :
 Option
@@ -1564,10 +1561,6 @@ rawtest
 :
 test_resize_image
 .
-allow_dual_source_blending
-:
-!
-disable_dual_source_blending
 allow_advanced_blend_equation
 :
 window
