@@ -2448,7 +2448,7 @@ const
 *
 *
 *
-GetUnsnappedScrolledRectInternal
+GetScrolledRectInternal
 is
 designed
 to
@@ -2528,7 +2528,7 @@ directionality
 *
 /
 nsRect
-GetUnsnappedScrolledRectInternal
+GetScrolledRectInternal
 (
 const
 nsRect
