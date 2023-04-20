@@ -270,14 +270,12 @@ WebRtcVoiceEngine
 dependencies
 .
 task_queue_factory
-std
-:
-:
-move
-(
 dependencies
 .
 adm
+.
+get
+(
 )
 std
 :
