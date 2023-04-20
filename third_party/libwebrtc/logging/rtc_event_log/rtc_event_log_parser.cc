@@ -11983,7 +11983,7 @@ UnconfiguredHeaderExtensions
 kAttemptWebrtcDefaultConfig
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_WARNING
 )
@@ -12021,7 +12021,7 @@ return
 default_extension_map_
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 LS_WARNING
 )

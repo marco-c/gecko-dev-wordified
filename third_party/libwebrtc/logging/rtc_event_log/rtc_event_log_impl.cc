@@ -313,7 +313,7 @@ EncodingType
 :
 Legacy
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -350,7 +350,7 @@ EncodingType
 :
 NewFormat
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -718,8 +718,6 @@ Timestamp
 UTC
 )
 =
-"
-"
 (
 "
 <
@@ -854,7 +852,7 @@ StopLogging
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -945,7 +943,7 @@ Event
 kForever
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
