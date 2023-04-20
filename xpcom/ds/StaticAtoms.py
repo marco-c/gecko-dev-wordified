@@ -4684,16 +4684,6 @@ enterkeyhint
 Atom
 (
 "
-equalsize
-"
-"
-equalsize
-"
-)
-    
-Atom
-(
-"
 error
 "
 "
