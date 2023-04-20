@@ -513,7 +513,9 @@ modules
 /
 nsAsyncShutdown
 .
-jsm
+sys
+.
+mjs
 "
 /
 /

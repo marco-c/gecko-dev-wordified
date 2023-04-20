@@ -621,7 +621,9 @@ modules
 /
 nsAsyncShutdown
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

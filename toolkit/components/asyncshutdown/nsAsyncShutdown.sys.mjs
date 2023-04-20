@@ -72,11 +72,6 @@ AsyncShutdown
 jsm
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -1362,6 +1357,7 @@ nsIAsyncShutdownBarrier
 )
 }
 ;
+export
 function
 nsAsyncShutdownService
 (
@@ -1554,13 +1550,4 @@ nsIAsyncShutdownService
 ]
 )
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-nsAsyncShutdownService
-"
-]
 ;
