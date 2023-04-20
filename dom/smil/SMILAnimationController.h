@@ -467,7 +467,6 @@ Disconnect
 /
 /
 SMILContainer
-virtual
 void
 Pause
 (
@@ -476,7 +475,6 @@ aType
 )
 override
 ;
-virtual
 void
 Resume
 (
@@ -485,7 +483,6 @@ aType
 )
 override
 ;
-virtual
 SMILTime
 GetParentTime
 (
@@ -514,7 +511,6 @@ Release
 )
 override
 ;
-virtual
 void
 WillRefresh
 (
@@ -927,7 +923,6 @@ callbacks
 and
 implementation
 helpers
-virtual
 void
 DoSample
 (
@@ -1017,7 +1012,6 @@ adding
 removing
 time
 containers
-virtual
 nsresult
 AddChild
 (
@@ -1027,7 +1021,6 @@ aChild
 )
 override
 ;
-virtual
 void
 RemoveChild
 (

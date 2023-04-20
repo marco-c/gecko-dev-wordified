@@ -193,7 +193,6 @@ Methods
 -
 -
 -
-virtual
 void
 Init
 (
@@ -205,7 +204,6 @@ const
 override
 {
 }
-virtual
 void
 Destroy
 (
@@ -217,7 +215,6 @@ const
 override
 {
 }
-virtual
 nsresult
 Assign
 (
@@ -259,7 +256,6 @@ to
 be
 inline
 .
-virtual
 bool
 IsEqual
 (
@@ -275,7 +271,6 @@ aRight
 const
 override
 ;
-virtual
 nsresult
 Add
 (
@@ -292,7 +287,6 @@ aCount
 const
 override
 ;
-virtual
 nsresult
 ComputeDistance
 (
@@ -311,7 +305,6 @@ aDistance
 const
 override
 ;
-virtual
 nsresult
 Interpolate
 (

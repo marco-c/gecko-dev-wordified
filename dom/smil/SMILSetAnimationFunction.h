@@ -350,7 +350,6 @@ otherwise
 .
 *
 /
-virtual
 bool
 SetAttr
 (
@@ -400,7 +399,6 @@ otherwise
 .
 *
 /
-virtual
 bool
 UnsetAttr
 (
@@ -463,7 +461,6 @@ will
 be
 attempted
 .
-virtual
 bool
 IsToAnimation
 (
@@ -490,7 +487,6 @@ the
 simple
 duration
 .
-virtual
 bool
 IsValueFixedForSimpleDuration
 (
@@ -502,7 +498,6 @@ return
 true
 ;
 }
-virtual
 bool
 HasAttr
 (
@@ -513,7 +508,6 @@ aAttName
 const
 override
 ;
-virtual
 const
 nsAttrValue
 *
@@ -526,7 +520,6 @@ aAttName
 const
 override
 ;
-virtual
 bool
 GetAttr
 (
@@ -540,7 +533,6 @@ aResult
 const
 override
 ;
-virtual
 bool
 WillReplace
 (

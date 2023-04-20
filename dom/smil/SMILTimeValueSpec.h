@@ -849,7 +849,6 @@ aTo
 }
 protected
 :
-virtual
 void
 ElementChanged
 (
@@ -881,7 +880,6 @@ aTo
 )
 ;
 }
-virtual
 bool
 IsPersistent
 (
