@@ -3681,6 +3681,11 @@ getAvailableEventBreakpoints
 return
 getAvailableEventBreakpoints
 (
+this
+.
+_parent
+.
+window
 )
 ;
 }
