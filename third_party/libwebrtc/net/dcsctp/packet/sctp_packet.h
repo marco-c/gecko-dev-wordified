@@ -533,11 +533,6 @@ Build
 ;
 private
 :
-void
-WritePacketHeader
-(
-)
-;
 VerificationTag
 verification_tag_
 ;
