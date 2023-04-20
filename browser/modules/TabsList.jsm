@@ -2361,7 +2361,7 @@ tab
 {
 this
 .
-_cleanupDragDetails
+_clearDropTarget
 (
 )
 ;
@@ -2459,7 +2459,7 @@ pos
 ;
 this
 .
-_cleanupDragDetails
+_clearDropTarget
 (
 )
 ;
@@ -2546,7 +2546,7 @@ return
 }
 this
 .
-_cleanupDragDetails
+_clearDropTarget
 (
 )
 ;
@@ -2889,6 +2889,13 @@ dropTargetRow
 null
 ;
 }
+if
+(
+this
+.
+dropIndicator
+)
+{
 this
 .
 dropIndicator
@@ -2908,15 +2915,5 @@ collapsed
 true
 ;
 }
-_cleanupDragDetails
-(
-)
-{
-this
-.
-_clearDropTarget
-(
-)
-;
 }
 }
