@@ -377,6 +377,7 @@ hold
 this
 alive
 .
+const
 CheckedUnsafePtr
 <
 IDBTransaction
