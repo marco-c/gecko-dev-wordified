@@ -321,11 +321,6 @@ mTitle
 ;
 private
 :
-nsresult
-DoEndDocument
-(
-)
-;
 void
 EnumeratePrinters
 (
