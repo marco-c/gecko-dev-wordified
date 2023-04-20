@@ -1135,6 +1135,9 @@ RedirectHistoryEntryInfo
 ]
 redirectChain
 ;
+bool
+hasInjectedCookieForCookieBannerHandling
+;
 /
 *
 *

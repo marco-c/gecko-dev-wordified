@@ -277,6 +277,9 @@ aRules
 OriginAttributes
 &
 aOriginAttributes
+bool
+&
+hasInjectedCookie
 )
 ;
 }
