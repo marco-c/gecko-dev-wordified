@@ -277,14 +277,10 @@ WebExtensionContentScript
 class
 WebAccessibleResource
 final
-:
-public
-nsISupports
 {
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 WebAccessibleResource
 )
@@ -391,9 +387,8 @@ URLInfo
 aURI
 )
 ;
-protected
+private
 :
-virtual
 ~
 WebAccessibleResource
 (
@@ -401,8 +396,6 @@ WebAccessibleResource
 =
 default
 ;
-private
-:
 MatchGlobSet
 mWebAccessiblePaths
 ;
