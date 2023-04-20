@@ -1105,9 +1105,7 @@ OnNonDecodableState
 /
 /
 The
-|
 frame_buffer_
-|
 requires
 the
 frame

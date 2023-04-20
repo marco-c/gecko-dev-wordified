@@ -6022,9 +6022,7 @@ should
 not
 be
 above
-|
 fallback_max_pixels_
-|
 .
 If
 above
@@ -6095,9 +6093,7 @@ update
 is
 greater
 than
-|
 max_frame_diff_ms
-|
 /
 /
 video
@@ -8326,9 +8322,7 @@ resolution
 or
 not
 .
-|
 is_scaled
-|
 is
 a
 flag

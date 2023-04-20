@@ -1716,9 +1716,7 @@ change
 current
 min_playout_delay
 on
-|
 timing_
-|
 but
 /
 /
@@ -1751,9 +1749,7 @@ default
 value
 from
 the
-|
 timing_
-|
 .
 /
 /
@@ -2037,9 +2033,7 @@ LowLatencyRenderer
 .
 The
 parameter
-|
 enabled
-|
 /
 /
 determines
@@ -2091,9 +2085,7 @@ The
 parameter
 /
 /
-|
 include_predecode_buffer
-|
 determines
 if
 the
@@ -2137,9 +2129,7 @@ PreStreamDecoders
 .
 The
 parameter
-|
 max
-|
 /
 /
 determines

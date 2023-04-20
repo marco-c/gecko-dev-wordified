@@ -839,9 +839,7 @@ override
 /
 Called
 by
-|
 send_stream_
-|
 when
 |
 send_stream_

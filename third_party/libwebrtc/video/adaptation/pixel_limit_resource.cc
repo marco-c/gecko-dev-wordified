@@ -488,9 +488,7 @@ resolutions
 between
 /
 /
-|
 target_pixel_upper_bounds
-|
 and
 video_stream_adapter
 .
@@ -517,9 +515,7 @@ down
 /
 /
 from
-|
 target_pixel_upper_bounds
-|
 .
 int
 target_pixels_lower_bounds

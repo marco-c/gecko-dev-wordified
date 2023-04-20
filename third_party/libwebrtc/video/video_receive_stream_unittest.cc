@@ -1395,9 +1395,7 @@ default
 maximum
 value
 from
-|
 timing_
-|
 .
 EXPECT_EQ
 (
@@ -1520,9 +1518,7 @@ default
 minimum
 value
 from
-|
 timing_
-|
 .
 EXPECT_NE
 (
@@ -2514,11 +2510,9 @@ packet
 information
 also
 updates
-|
 GetSources
 (
 )
-|
 .
 std
 :

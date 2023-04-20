@@ -216,9 +216,7 @@ transformed
 frames
 on
 the
-|
 network_thread_
-|
 .
 class
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -308,9 +306,7 @@ be
 managed
 on
 the
-|
 network_thread_
-|
 .
 void
 OnTransformedFrame
@@ -340,9 +336,7 @@ on
 the
 /
 /
-|
 network_thread_
-|
 .
 void
 ManageFrame

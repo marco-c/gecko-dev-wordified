@@ -777,9 +777,7 @@ is
 guaranteed
 to
 outlive
-|
 this
-|
 .
 /
 /

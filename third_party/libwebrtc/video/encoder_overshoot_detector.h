@@ -159,9 +159,7 @@ encoded
 or
 dropped
 .
-|
 bytes
-|
 =
 =
 0
@@ -211,9 +209,7 @@ network
 at
 /
 /
-|
 target_bitrate
-|
 without
 building
 growing
@@ -272,9 +268,7 @@ time
 is
 close
 to
-|
 target_bitrate
-|
 .
 absl
 :

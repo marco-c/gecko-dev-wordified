@@ -540,15 +540,11 @@ scope
 no
 calls
 to
-|
 TimeUntilNextProcess
-|
 or
-|
 Process
 (
 )
-|
 will
 occur
 and
@@ -808,9 +804,7 @@ now
 ;
 /
 /
-|
 avg_rtt_ms_
-|
 is
 allowed
 to
@@ -996,9 +990,7 @@ clear
 the
 /
 /
-|
 process_thread_checker_
-|
 so
 that
 it

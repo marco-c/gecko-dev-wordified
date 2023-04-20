@@ -235,13 +235,9 @@ sync
 .
 /
 /
-|
 audio_delay_ms
-|
 and
-|
 video_delay_ms
-|
 are
 the
 number
@@ -259,9 +255,7 @@ received
 .
 /
 /
-|
 current_audio_delay_ms
-|
 is
 the
 number

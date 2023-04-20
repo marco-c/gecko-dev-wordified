@@ -2395,9 +2395,7 @@ prepared
 the
 /
 /
-|
 video_stream_decoder_
-|
 .
 call_stats_
 -

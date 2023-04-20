@@ -608,9 +608,7 @@ CPU
 limited
 (
 no
-|
 restrictions_
-|
 )
 but
 /
@@ -624,9 +622,7 @@ at
 fps
 (
 =
-|
 frame_rate_upper_limit_
-|
 )
 .
 absl

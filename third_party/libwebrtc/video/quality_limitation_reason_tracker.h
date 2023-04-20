@@ -295,9 +295,7 @@ responsible
 for
 making
 sure
-|
 clock
-|
 outlives
 the
 tracker
@@ -376,9 +374,7 @@ at
 time
 /
 /
-|
 current_reason_updated_timestamp_ms_
-|
 .
 To
 get
@@ -396,9 +392,7 @@ the
 time
 spent
 in
-|
 current_reason_
-|
 elapsed
 since
 the
@@ -406,9 +400,7 @@ the
 /
 last
 time
-|
 current_reason_
-|
 was
 updated
 see

@@ -1266,9 +1266,7 @@ Advance
 number
 of
 complete
-|
 process_intervals_ms_
-|
 that
 have
 passed
@@ -1847,9 +1845,7 @@ process_intervals_ms
 false
 /
 /
-|
 include_empty_intervals
-|
 observer
 )
 {
@@ -1948,9 +1944,7 @@ kDefaultProcessIntervalMs
 false
 /
 /
-|
 include_empty_intervals
-|
 observer
 )
 {
@@ -2071,9 +2065,7 @@ kDefaultProcessIntervalMs
 false
 /
 /
-|
 include_empty_intervals
-|
 observer
 )
 {

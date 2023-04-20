@@ -483,9 +483,7 @@ Expect
 smaller
 gap
 for
-|
 tl0_pic_idx
-|
 (
 running
 index
@@ -1095,16 +1093,12 @@ return
 New
 frame
 with
-|
 temporal_idx
-|
 0
 .
 /
 /
-|
 tl0_pic_idx
-|
 should
 be
 increasing

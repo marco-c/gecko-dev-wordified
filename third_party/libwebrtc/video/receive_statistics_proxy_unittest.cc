@@ -8689,9 +8689,7 @@ kInterFrameDelayMs
 }
 /
 /
-|
 kMinRequiredSamples
-|
 samples
 and
 thereby

@@ -172,9 +172,7 @@ total_video_delay_target_ms
 /
 On
 success
-|
 relative_delay_ms
-|
 contains
 the
 number
@@ -199,9 +197,7 @@ than
 video
 /
 /
-|
 relative_delay_ms
-|
 will
 be
 negative
@@ -241,9 +237,7 @@ at
 least
 /
 /
-|
 target_delay_ms
-|
 .
 void
 SetTargetBufferingDelay

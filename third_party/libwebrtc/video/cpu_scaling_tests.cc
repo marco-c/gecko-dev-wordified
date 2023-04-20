@@ -581,9 +581,7 @@ max
 {
 /
 /
-|
 adapt_counters_
-|
 map
 in
 VideoStreamEncoder

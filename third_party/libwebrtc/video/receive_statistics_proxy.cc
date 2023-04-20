@@ -207,9 +207,7 @@ for
 processing
 samples
 for
-|
 freq_offset_counter_
-|
 .
 const
 int64_t
@@ -825,9 +823,7 @@ therefore
 safe
 to
 access
-|
 qp_counters_
-|
 which
 were
 updated

@@ -536,9 +536,7 @@ Spend
 100
 ms
 in
-|
 different_reason_
-|
 .
 tracker_
 .
@@ -573,9 +571,7 @@ Spend
 50
 ms
 in
-|
 reason_
-|
 .
 tracker_
 .
@@ -613,9 +609,7 @@ another
 1000
 ms
 in
-|
 different_reason_
-|
 .
 tracker_
 .
@@ -653,9 +647,7 @@ another
 100
 ms
 in
-|
 reason_
-|
 .
 tracker_
 .

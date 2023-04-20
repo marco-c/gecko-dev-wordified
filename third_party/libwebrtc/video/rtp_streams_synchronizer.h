@@ -231,9 +231,7 @@ frame
 with
 /
 /
-|
 rtp_timestamp
-|
 and
 the
 sync
@@ -262,9 +260,7 @@ otherwise
 /
 /
 The
-|
 estimated_freq_khz
-|
 is
 the
 frequency

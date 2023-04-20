@@ -2702,9 +2702,7 @@ seq_no
 after
 /
 /
-|
 ulpfec_sequence_number_
-|
 state_
 =
 kVerifyUlpfecPacketNotInNackList

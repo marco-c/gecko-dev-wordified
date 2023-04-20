@@ -385,13 +385,9 @@ kNotTriggered
 /
 /
 Emulates
-|
 num_frames
-|
 on
-|
 num_streams
-|
 frames
 with
 capture
@@ -412,13 +408,9 @@ is
 between
 /
 /
-|
 min_frame_size
-|
 and
-|
 max_frame_size
-|
 outliers
 are
 counted

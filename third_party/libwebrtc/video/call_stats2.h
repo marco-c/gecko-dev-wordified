@@ -392,11 +392,9 @@ observer
 /
 /
 Expose
-|
 LastProcessedRtt
 (
 )
-|
 from
 RtcpRttStats
 to

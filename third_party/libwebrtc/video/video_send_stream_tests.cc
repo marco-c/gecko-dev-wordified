@@ -8053,9 +8053,7 @@ No
 packets
 seen
 for
-|
 kNoPacketsThresholdMs
-|
 restart
 camera
 .
@@ -8833,9 +8831,7 @@ Make
 sure
 we
 free
-|
 rtp_rtcp_
-|
 in
 the
 same
@@ -9411,9 +9407,7 @@ when
 such
 task
 accesses
-|
 this
-|
 .
 SendTask
 (
@@ -10249,9 +10243,7 @@ when
 such
 task
 accesses
-|
 this
-|
 .
 SendTask
 (
@@ -11181,9 +11173,7 @@ when
 such
 task
 accesses
-|
 this
-|
 .
 SendTask
 (
@@ -11447,9 +11437,7 @@ called
 already
 /
 /
-|
 call_
-|
 is
 null
 and
@@ -11646,9 +11634,7 @@ SEND_PACKET
 /
 Called
 on
-|
 task_queue_
-|
 void
 OnStreamsStopped
 (
@@ -22985,9 +22971,7 @@ use
 pacing
 factor
 from
-|
 kAlrProbingExperiment
-|
 above
 .
 PacingFactorObserver

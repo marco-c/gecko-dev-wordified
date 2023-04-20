@@ -887,9 +887,7 @@ call
 OnEncodeStarted
 /
 /
-|
 timing_frames_info_
-|
 may
 be
 not
@@ -1143,9 +1141,7 @@ finished
 /
 timestamps
 in
-|
 timing_
-|
 field
 but
 they

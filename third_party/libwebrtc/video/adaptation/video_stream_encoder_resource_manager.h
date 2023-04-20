@@ -1067,9 +1067,7 @@ implementation
 /
 /
 Updates
-|
 video_source_restrictions_
-|
 .
 void
 OnVideoSourceRestrictionsUpdated
@@ -1198,9 +1196,7 @@ informs
 the
 /
 /
-|
 encode_usage_resource_
-|
 of
 the
 new

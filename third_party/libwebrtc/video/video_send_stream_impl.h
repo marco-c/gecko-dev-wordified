@@ -724,9 +724,7 @@ frames
 /
 to
 the
-|
 payload_router_
-|
 and
 |
 config

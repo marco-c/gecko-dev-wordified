@@ -871,9 +871,7 @@ in
 the
 /
 /
-|
 target_bitrate_bps
-|
 field
 .
 /

@@ -124,9 +124,7 @@ Samples
 ;
 /
 /
-|
 StatsCounterObserver
-|
 is
 called
 periodically
@@ -237,9 +235,7 @@ metric
 During
 a
 period
-|
 kProcessIntervalMs
-|
 different
 metrics
 can
@@ -252,9 +248,7 @@ g
 /
 /
 -
-|
 AvgCounter
-|
 :
 average
 of
@@ -262,9 +256,7 @@ samples
 /
 /
 -
-|
 PercentCounter
-|
 :
 percentage
 of
@@ -272,9 +264,7 @@ samples
 /
 /
 -
-|
 PermilleCounter
-|
 :
 permille
 of
@@ -296,9 +286,7 @@ either
 reported
 to
 an
-|
 observer
-|
 each
 period
 /
@@ -549,9 +537,7 @@ StatsCounter
 takes
 ownership
 of
-|
 observer
-|
 .
 class
 StatsCounter
@@ -983,9 +969,7 @@ GetMetric
 /
 /
 /
-|
 include_empty_intervals
-|
 :
 If
 set
@@ -1562,9 +1546,7 @@ GetMetric
 /
 /
 /
-|
 include_empty_intervals
-|
 :
 If
 set
@@ -1759,9 +1741,7 @@ GetMetric
 /
 /
 /
-|
 include_empty_intervals
-|
 :
 If
 set

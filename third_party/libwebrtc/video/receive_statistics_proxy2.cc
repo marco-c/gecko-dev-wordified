@@ -248,9 +248,7 @@ for
 processing
 samples
 for
-|
 freq_offset_counter_
-|
 .
 const
 int64_t
@@ -4977,9 +4975,7 @@ changing
 the
 state
 of
-|
 interframe_delay_max_moving_
-|
 .
 stats_
 .
@@ -5674,9 +5670,7 @@ value
 copy
 of
 the
-|
 task_safety_
-|
 to
 handle
 the
@@ -5690,9 +5684,7 @@ task
 runs
 after
 the
-|
 ReceiveStatisticsProxy
-|
 has
 been
 deleted

@@ -2622,9 +2622,7 @@ encoder_queue_
 /
 /
 Inform
-|
 encode_usage_resource_
-|
 of
 the
 encode

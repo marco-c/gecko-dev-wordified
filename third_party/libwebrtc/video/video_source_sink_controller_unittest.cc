@@ -495,9 +495,7 @@ max_pixels_per_frame
 )
 maps
 to
-|
 max_pixel_count
-|
 .
 restrictions
 .
@@ -513,9 +511,7 @@ target_pixels_per_frame
 )
 maps
 to
-|
 target_pixel_count
-|
 .
 restrictions
 .
@@ -531,9 +527,7 @@ max_frame_rate
 )
 maps
 to
-|
 max_framerate_fps
-|
 .
 restrictions
 .
@@ -623,9 +617,7 @@ pixels_per_frame_upper_limit
 (
 )
 caps
-|
 max_pixel_count
-|
 .
 controller
 .
@@ -640,9 +632,7 @@ frame_rate_upper_limit
 (
 )
 caps
-|
 max_framerate_fps
-|
 .
 controller
 .

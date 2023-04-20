@@ -2480,9 +2480,7 @@ prepared
 the
 /
 /
-|
 video_stream_decoder_
-|
 .
 call_stats_
 -
@@ -4727,9 +4725,7 @@ frame
 /
 Running
 on
-|
 decode_queue_
-|
 .
 int64_t
 now_ms
@@ -5149,9 +5145,7 @@ decode_queue_
 /
 /
 If
-|
 buffered_encoded_frames_
-|
 grows
 out
 of
@@ -5426,9 +5420,7 @@ pending_resolution
 /
 Fish
 out
-|
 pending_resolution_
-|
 to
 avoid
 taking

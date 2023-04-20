@@ -152,9 +152,7 @@ is
 a
 multiple
 of
-|
 requested_alignment
-|
 .
 Each
 resolution
@@ -162,16 +160,12 @@ divisible
 by
 /
 /
-|
 alignment
-|
 will
 be
 divisible
 by
-|
 requested_alignment
-|
 after
 the
 scale
@@ -444,9 +438,7 @@ i
 are
 written
 in
-|
 config
-|
 such
 that
 :
@@ -731,9 +723,7 @@ layers
 /
 /
 Adjust
-|
 scale_resolution_down_by
-|
 to
 a
 common

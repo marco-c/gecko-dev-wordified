@@ -367,9 +367,7 @@ is
 needed
 to
 estimate
-|
 ntp_time_ms
-|
 which
 is
 used
@@ -392,9 +390,7 @@ frames
 once
 /
 /
-|
 ntp_time_ms
-|
 is
 valid
 .

@@ -258,9 +258,7 @@ acquire
 the
 lock
 of
-|
 video_receiver_
-|
 in
 this
 function

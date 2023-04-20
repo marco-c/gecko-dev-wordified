@@ -5626,9 +5626,7 @@ Possibly
 adjusts
 scale_resolution_down_by
 in
-|
 encoder_config_
-|
 to
 limit
 the
@@ -9859,9 +9857,7 @@ return
 }
 /
 /
-|
 bitrate_allocation
-|
 is
 0
 it
@@ -10564,9 +10560,7 @@ input
 and
 /
 /
-|
 last_encoder_rate_setings_
-|
 triggering
 the
 call
@@ -12980,13 +12974,9 @@ Post
 a
 task
 because
-|
 send_codec_
-|
 requires
-|
 encoder_queue_
-|
 lock
 .
 unsigned

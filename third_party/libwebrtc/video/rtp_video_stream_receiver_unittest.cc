@@ -5167,9 +5167,7 @@ is
 not
 in
 the
-|
 started
-|
 state
 /
 /
@@ -5179,13 +5177,9 @@ whether
 streams
 start
 out
-|
 started
-|
 or
-|
 stopped
-|
 .
 rtp_video_stream_receiver_
 -
@@ -5423,9 +5417,7 @@ the
 first
 byte
 of
-|
 data
-|
 .
 mock_on_complete_frame_callback_
 .
@@ -5729,9 +5721,7 @@ the
 first
 byte
 of
-|
 data
-|
 .
 mock_on_complete_frame_callback_
 .
@@ -5878,9 +5868,7 @@ the
 first
 byte
 of
-|
 data
-|
 .
 mock_on_complete_frame_callback_
 .

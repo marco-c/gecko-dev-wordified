@@ -773,9 +773,7 @@ testing
 For
 example
 the
-|
 ScalingObserverInterface
-|
 methods
 must
 /
@@ -783,9 +781,7 @@ must
 be
 called
 on
-|
 encoder_queue_
-|
 .
 rtc
 :
@@ -1013,9 +1009,7 @@ e
 /
 /
 the
-|
 target_bitrate
-|
 argument
 of
 the
@@ -1248,14 +1242,10 @@ Returns
 a
 copy
 of
-|
 rate_settings
-|
 with
 the
-|
 bitrate
-|
 field
 updated
 using
@@ -1345,9 +1335,7 @@ After
 calling
 this
 function
-|
 resource_adaptation_processor_
-|
 will
 be
 null
@@ -2085,9 +2073,7 @@ on
 worker
 thread
 whenever
-|
 frame_dropper_
-|
 determines
 that
 a
@@ -2220,9 +2206,7 @@ into
 a
 simple
 bool
-|
 pending_keyframe_request_
-|
 .
 std
 :
@@ -2542,9 +2526,7 @@ primarily
 operates
 on
 the
-|
 encoder_queue_
-|
 but
 its
 lifetime

@@ -1261,9 +1261,7 @@ change
 current
 min_playout_delay
 on
-|
 timing_
-|
 but
 /
 /
@@ -1296,9 +1294,7 @@ default
 value
 from
 the
-|
 timing_
-|
 .
 /
 /

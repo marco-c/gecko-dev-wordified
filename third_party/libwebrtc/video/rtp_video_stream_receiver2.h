@@ -1780,9 +1780,7 @@ with
 VideoReceiveStream
 which
 owns
-|
 this
-|
 .
 const
 VideoReceiveStream

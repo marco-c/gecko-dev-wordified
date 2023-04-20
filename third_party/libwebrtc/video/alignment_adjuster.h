@@ -192,9 +192,7 @@ is
 /
 divisible
 by
-|
 requested_resolution_alignment
-|
 .
 The
 configured
@@ -202,9 +200,7 @@ scale
 factors
 /
 /
-|
 scale_resolution_down_by
-|
 may
 be
 adjusted
@@ -241,9 +237,7 @@ original
 /
 Note
 :
-|
 max_layers
-|
 currently
 only
 taken

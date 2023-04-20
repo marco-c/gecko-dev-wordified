@@ -3118,9 +3118,7 @@ increment
 by
 a
 full
-|
 kTargetBytesPerSecond
-|
 .
 EXPECT_EQ
 (
@@ -3166,9 +3164,7 @@ SendStatisticsProxy
 uses
 /
 /
-|
 fake_clock_
-|
 for
 testing
 but
@@ -3373,9 +3369,7 @@ arrived
 /
 during
 a
-|
 kInterframeDelayMs
-|
 interval
 .
 The
