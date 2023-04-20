@@ -864,31 +864,6 @@ strip
 (
 )
     
-tbr_authors
-=
-git_author
-+
-'
-'
-+
-'
-mbonadei
-webrtc
-.
-org
-'
-    
-tbr
-=
-'
-TBR
-=
-%
-s
-'
-%
-tbr_authors
-    
 commit_msg
 =
 (
@@ -922,11 +897,6 @@ version
 \
 n
 \
-nTBR
-=
-%
-s
-\
 nBug
 :
 None
@@ -957,7 +927,6 @@ minute
 d
 .
 second
-tbr_authors
 )
     
 subprocess
