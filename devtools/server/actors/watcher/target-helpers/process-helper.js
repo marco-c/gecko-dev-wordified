@@ -66,9 +66,15 @@ const
 WatcherRegistry
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -79,7 +85,9 @@ watcher
 /
 WatcherRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

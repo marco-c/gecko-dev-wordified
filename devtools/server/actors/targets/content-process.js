@@ -330,7 +330,9 @@ const
 TargetActorRegistry
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -351,7 +353,9 @@ actor
 -
 registry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
