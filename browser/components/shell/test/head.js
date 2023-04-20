@@ -643,7 +643,7 @@ Image
 ;
 screenshot
 .
-onloadend
+onload
 =
 function
 (
@@ -864,7 +864,7 @@ Image
 ;
 screenshot
 .
-onloadend
+onload
 =
 function
 (
