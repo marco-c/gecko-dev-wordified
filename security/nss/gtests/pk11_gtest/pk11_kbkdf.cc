@@ -962,3 +962,7 @@ Close
 the
 namespace
 }
+/
+/
+namespace
+nss_test

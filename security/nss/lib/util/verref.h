@@ -220,6 +220,12 @@ defined
 (
 __GNUC__
 )
+|
+|
+defined
+(
+__clang__
+)
 __attribute__
 (
 (

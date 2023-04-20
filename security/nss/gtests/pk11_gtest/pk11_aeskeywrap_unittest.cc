@@ -900,7 +900,6 @@ kWycheproofAesKWVectors
 ;
 }
 /
-*
-nss_test
-*
 /
+namespace
+nss_test

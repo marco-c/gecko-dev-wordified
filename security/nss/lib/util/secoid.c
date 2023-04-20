@@ -12855,6 +12855,9 @@ oidmechhash
 void
 *
 )
+(
+uintptr_t
+)
 oid
 -
 >
@@ -12945,6 +12948,9 @@ oidmechhash
 (
 void
 *
+)
+(
+uintptr_t
 )
 mechanism
 )

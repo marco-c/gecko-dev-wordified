@@ -403,3 +403,7 @@ PORT_GetError
 ;
 }
 }
+/
+/
+namespace
+nss_test

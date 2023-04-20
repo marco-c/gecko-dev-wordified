@@ -1401,3 +1401,7 @@ nss_DestroyErrorStack
 ;
 }
 }
+/
+/
+namespace
+nss_test

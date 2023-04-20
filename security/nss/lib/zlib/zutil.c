@@ -487,6 +487,8 @@ flags
 ;
 #
 endif
+/
+*
 #
 if
 defined
@@ -509,6 +511,8 @@ flags
 ;
 #
 endif
+*
+/
 #
 ifdef
 ZLIB_WINAPI

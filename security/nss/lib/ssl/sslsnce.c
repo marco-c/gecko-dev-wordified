@@ -1556,6 +1556,12 @@ unsigned
 nl
 )
 ;
+#
+if
+defined
+(
+XP_UNIX
+)
 static
 SECStatus
 LaunchLockPoller
@@ -1574,6 +1580,8 @@ cacheDesc
 cache
 )
 ;
+#
+endif
 struct
 inheritanceStr
 {

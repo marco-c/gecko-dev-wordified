@@ -2752,8 +2752,9 @@ do
 /
 PR_ASSERT
 (
-!
-(
+PR_FALSE
+&
+&
 "
 WaitForSingleObject
 returned
@@ -2761,7 +2762,6 @@ invalid
 value
 .
 "
-)
 )
 ;
 PORT_SetError
@@ -3266,8 +3266,9 @@ pMutex
 }
 PORT_Assert
 (
-!
-(
+PR_FALSE
+&
+&
 "
 sslMutex_Init
 not
@@ -3279,7 +3280,6 @@ process
 applications
 !
 "
-)
 )
 ;
 PORT_SetError
@@ -3326,8 +3326,9 @@ pMutex
 }
 PORT_Assert
 (
-!
-(
+PR_FALSE
+&
+&
 "
 sslMutex_Destroy
 not
@@ -3339,7 +3340,6 @@ process
 applications
 !
 "
-)
 )
 ;
 PORT_SetError
@@ -3384,8 +3384,9 @@ pMutex
 }
 PORT_Assert
 (
-!
-(
+PR_FALSE
+&
+&
 "
 sslMutex_Unlock
 not
@@ -3397,7 +3398,6 @@ process
 applications
 !
 "
-)
 )
 ;
 PORT_SetError
@@ -3442,8 +3442,9 @@ pMutex
 }
 PORT_Assert
 (
-!
-(
+PR_FALSE
+&
+&
 "
 sslMutex_Lock
 not
@@ -3455,7 +3456,6 @@ process
 applications
 !
 "
-)
 )
 ;
 PORT_SetError

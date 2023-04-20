@@ -1018,3 +1018,7 @@ result
 ;
 }
 }
+/
+/
+namespace
+nss_test

@@ -5757,7 +5757,7 @@ numPresent
 }
 }
 }
-PORT_Assert
+PORT_AssertArg
 (
 numPresent
 >

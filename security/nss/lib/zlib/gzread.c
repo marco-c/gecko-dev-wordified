@@ -1386,14 +1386,6 @@ state
 >
 out
 ;
-if
-(
-strm
--
->
-avail_in
-)
-{
 memcpy
 (
 state
@@ -1431,7 +1423,6 @@ avail_in
 =
 0
 ;
-}
 state
 -
 >

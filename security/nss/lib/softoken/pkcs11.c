@@ -17293,6 +17293,9 @@ index
 void
 *
 )
+(
+uintptr_t
+)
 slotID
 )
 ;
@@ -17697,6 +17700,9 @@ index
 (
 void
 *
+)
+(
+uintptr_t
 )
 slot
 -
@@ -21017,6 +21023,9 @@ tmpSlotHashTable
 void
 *
 )
+(
+uintptr_t
+)
 slotID
 )
 ;
@@ -21043,6 +21052,9 @@ tmpSlotHashTable
 (
 void
 *
+)
+(
+uintptr_t
 )
 slotID
 )
@@ -21112,6 +21124,9 @@ tmpSlotHashTable
 (
 void
 *
+)
+(
+uintptr_t
 )
 slotID
 )

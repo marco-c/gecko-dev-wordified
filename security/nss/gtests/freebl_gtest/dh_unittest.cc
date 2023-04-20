@@ -190,4 +190,5 @@ TestGenParamSuccess
 }
 /
 /
+namespace
 nss_test

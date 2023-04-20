@@ -857,4 +857,5 @@ SECSuccess
 }
 /
 /
+namespace
 nss_test

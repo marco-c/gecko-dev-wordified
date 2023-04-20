@@ -406,7 +406,7 @@ found
 in
 the
 zlib
-distribtution
+distribution
 .
 The
 arguments

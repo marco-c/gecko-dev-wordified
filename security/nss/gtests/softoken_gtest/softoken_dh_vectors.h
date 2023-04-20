@@ -36667,3 +36667,7 @@ endif
 ;
 }
 ;
+/
+/
+namespace
+nss_test
