@@ -26314,14 +26314,6 @@ parser
 nsAutoScriptBlockerSuppressNodeRemoved
 scriptBlocker
 ;
-nsAutoMutationBatch
-mb
-(
-destination
-true
-false
-)
-;
 switch
 (
 position
