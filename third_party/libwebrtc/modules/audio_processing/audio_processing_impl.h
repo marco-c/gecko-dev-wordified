@@ -2763,6 +2763,8 @@ bool
 multi_channel_capture_support
 bool
 enforce_split_band_hpf
+bool
+minimize_processing_for_unused_output
 )
 :
 multi_channel_render_support
@@ -2777,6 +2779,10 @@ enforce_split_band_hpf
 (
 enforce_split_band_hpf
 )
+minimize_processing_for_unused_output
+(
+minimize_processing_for_unused_output
+)
 {
 }
 bool
@@ -2787,6 +2793,9 @@ multi_channel_capture_support
 ;
 bool
 enforce_split_band_hpf
+;
+bool
+minimize_processing_for_unused_output
 ;
 }
 constants_
