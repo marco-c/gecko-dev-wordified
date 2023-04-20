@@ -67,7 +67,7 @@ this
 const
 FETCH_SW_JS
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
@@ -86,7 +86,7 @@ js
 const
 FETCH_SW_HTML
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
@@ -105,7 +105,7 @@ html
 const
 EMPTY_SW_JS
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
@@ -124,7 +124,7 @@ js
 const
 EMPTY_SW_HTML
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
