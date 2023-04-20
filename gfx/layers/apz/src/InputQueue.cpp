@@ -3519,12 +3519,7 @@ mTargetConfirmed
 &
 event
 .
-mOverscrollBehaviorAllowsSwipe
-&
-&
-event
-.
-MayTriggerSwipe
+AllowsSwipe
 (
 )
 &
