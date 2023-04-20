@@ -310,8 +310,7 @@ monitor
 1
 )
 ;
-await
-selectContextMenuItem
+getContextMenuItem
 (
 monitor
 "
@@ -325,6 +324,10 @@ resend
 -
 only
 "
+)
+.
+click
+(
 )
 ;
 await

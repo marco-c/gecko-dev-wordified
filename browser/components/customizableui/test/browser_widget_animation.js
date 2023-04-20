@@ -395,10 +395,6 @@ shownPromise
 ;
 contextMenu
 .
-activateItem
-(
-contextMenu
-.
 querySelector
 (
 "
@@ -410,6 +406,16 @@ context
 moveToPanel
 "
 )
+.
+click
+(
+)
+;
+await
+contextMenu
+.
+hidePopup
+(
 )
 ;
 await

@@ -205,14 +205,12 @@ item
 await
 waitForClipboardPromise
 (
-async
 function
 setup
 (
 )
 {
-await
-selectContextMenuItem
+getContextMenuItem
 (
 monitor
 "
@@ -232,6 +230,10 @@ data
 -
 uri
 "
+)
+.
+click
+(
 )
 ;
 }

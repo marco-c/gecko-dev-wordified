@@ -384,8 +384,7 @@ button
 )
 )
 ;
-await
-selectContextMenuItem
+getContextMenuItem
 (
 monitor
 "
@@ -405,6 +404,10 @@ fit
 -
 content
 "
+)
+.
+click
+(
 )
 ;
 columnsData

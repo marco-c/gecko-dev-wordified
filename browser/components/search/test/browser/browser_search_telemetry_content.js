@@ -532,11 +532,10 @@ searchselect
 0
 ]
 ;
-contextMenu
-.
-activateItem
-(
 searchItem
+.
+click
+(
 )
 ;
 info

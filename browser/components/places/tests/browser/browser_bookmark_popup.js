@@ -1985,10 +1985,6 @@ browser
 await
 awaitPopupShown
 ;
-contextMenu
-.
-activateItem
-(
 document
 .
 getElementById
@@ -1999,6 +1995,15 @@ context
 bookmarkpage
 "
 )
+.
+click
+(
+)
+;
+contextMenu
+.
+hidePopup
+(
 )
 ;
 await

@@ -243,9 +243,6 @@ will
 be
 rendered
 .
-const
-item
-=
 toolbox
 .
 topWindow
@@ -265,14 +262,9 @@ GPRS
 ]
 "
 )
-;
-item
 .
-parentNode
-.
-activateItem
+click
 (
-item
 )
 ;
 await

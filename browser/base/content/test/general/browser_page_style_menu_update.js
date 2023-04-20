@@ -222,7 +222,7 @@ label
 ;
 target
 .
-doCommand
+click
 (
 )
 ;

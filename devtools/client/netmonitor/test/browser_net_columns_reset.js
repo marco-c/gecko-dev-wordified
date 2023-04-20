@@ -230,8 +230,7 @@ button
 )
 )
 ;
-await
-selectContextMenuItem
+getContextMenuItem
 (
 monitor
 "
@@ -245,6 +244,10 @@ reset
 -
 columns
 "
+)
+.
+click
+(
 )
 ;
 ok

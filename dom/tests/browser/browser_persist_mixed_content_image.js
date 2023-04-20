@@ -696,10 +696,6 @@ popuphidden
 ;
 popup
 .
-activateItem
-(
-popup
-.
 querySelector
 (
 "
@@ -709,6 +705,15 @@ context
 saveimage
 "
 )
+.
+click
+(
+)
+;
+popup
+.
+hidePopup
+(
 )
 ;
 await
