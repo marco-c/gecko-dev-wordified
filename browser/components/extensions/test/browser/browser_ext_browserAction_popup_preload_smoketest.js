@@ -163,11 +163,6 @@ popup
 .
 html
 "
-default_area
-:
-"
-navbar
-"
 }
 }
 files

@@ -57,11 +57,6 @@ manifest
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 permissions
 :
@@ -1152,11 +1147,6 @@ default_popup
 test
 .
 html
-"
-default_area
-:
-"
-navbar
 "
 browser_style
 :

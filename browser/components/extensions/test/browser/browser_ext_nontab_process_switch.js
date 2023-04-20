@@ -114,11 +114,6 @@ html
 ?
 popup
 "
-default_area
-:
-"
-navbar
-"
 }
 web_accessible_resources
 :
@@ -710,11 +705,6 @@ popup
 1
 .
 html
-"
-default_area
-:
-"
-navbar
 "
 }
 }

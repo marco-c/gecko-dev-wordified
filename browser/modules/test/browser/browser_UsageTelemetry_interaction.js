@@ -1790,11 +1790,6 @@ default_title
 "
 Hello
 "
-default_area
-:
-"
-navbar
-"
 }
 page_action
 :
@@ -2204,11 +2199,6 @@ default_title
 :
 "
 Hello
-"
-default_area
-:
-"
-navbar
 "
 }
 page_action

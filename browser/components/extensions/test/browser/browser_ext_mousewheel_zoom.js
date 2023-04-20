@@ -524,11 +524,6 @@ panel
 .
 html
 "
-default_area
-:
-"
-navbar
-"
 }
 }
 ;

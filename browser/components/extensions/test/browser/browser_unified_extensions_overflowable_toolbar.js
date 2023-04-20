@@ -819,11 +819,6 @@ ext
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 /
 /
@@ -962,11 +957,6 @@ ext
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 permissions
 :
@@ -1120,11 +1110,6 @@ i
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 }
 )
