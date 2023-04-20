@@ -755,6 +755,9 @@ LSRequestChild
 *
 StartRequest
 (
+nsIEventTarget
+*
+aMainEventTarget
 const
 LSRequestParams
 &
