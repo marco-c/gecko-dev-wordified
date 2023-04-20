@@ -174,11 +174,7 @@ pos
 Create
 a
 new
-*
-*
 PadUsing
-*
-*
 iterator
 .
 pub

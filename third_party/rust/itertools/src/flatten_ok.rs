@@ -289,8 +289,6 @@ item
 )
 ;
 }
-else
-{
 /
 /
 This
@@ -307,7 +305,7 @@ FusedIterator
 with
 only
 the
-orginal
+original
 iterator
 being
 fused
@@ -318,7 +316,6 @@ inner_front
 =
 None
 ;
-}
 }
 match
 self
@@ -415,8 +412,6 @@ item
 )
 ;
 }
-else
-{
 /
 /
 This
@@ -433,7 +428,7 @@ FusedIterator
 with
 only
 the
-orginal
+original
 iterator
 being
 fused
@@ -444,7 +439,6 @@ inner_back
 =
 None
 ;
-}
 }
 else
 {
@@ -713,8 +707,6 @@ item
 )
 ;
 }
-else
-{
 /
 /
 This
@@ -731,7 +723,7 @@ FusedIterator
 with
 only
 the
-orginal
+original
 iterator
 being
 fused
@@ -742,7 +734,6 @@ inner_back
 =
 None
 ;
-}
 }
 match
 self
@@ -839,8 +830,6 @@ item
 )
 ;
 }
-else
-{
 /
 /
 This
@@ -857,7 +846,7 @@ FusedIterator
 with
 only
 the
-orginal
+original
 iterator
 being
 fused
@@ -868,7 +857,6 @@ inner_front
 =
 None
 ;
-}
 }
 else
 {
@@ -920,10 +908,6 @@ IntoIter
 :
 Clone
 {
-#
-[
-inline
-]
 clone_fields
 !
 (

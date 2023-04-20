@@ -37,7 +37,7 @@ a
 version
 with
 three
-pointes
+pointers
 (
 tptr
 tend

@@ -534,10 +534,6 @@ RcIter
 I
 >
 {
-#
-[
-inline
-]
 clone_fields
 !
 (
