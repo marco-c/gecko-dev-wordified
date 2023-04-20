@@ -577,6 +577,12 @@ if
 info
 .
 fixupCreatedAlternateURI
+&
+&
+!
+info
+.
+fixupChangedProtocol
 )
 {
 return

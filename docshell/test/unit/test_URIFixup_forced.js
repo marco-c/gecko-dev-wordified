@@ -129,6 +129,9 @@ example
 com
 /
 "
+noAlternateURI
+:
+true
 }
 {
 /
@@ -165,6 +168,9 @@ com
 /
 "
 noProtocolFixup
+:
+true
+noAlternateURI
 :
 true
 }
@@ -217,6 +223,9 @@ abc
 def
 /
 "
+noAlternateURI
+:
+true
 }
 {
 /
@@ -250,6 +259,9 @@ www
 example
 /
 "
+noAlternateURI
+:
+true
 }
 {
 /
