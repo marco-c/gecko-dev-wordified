@@ -338,7 +338,7 @@ NS_NewRunnableFunction
 CanvasRender
 :
 :
-BackgroundHanSetup
+BackgroundHangSetup
 "
 [
 ]
@@ -354,7 +354,7 @@ mozilla
 BackgroundHangMonitor
 (
 "
-CanvasRenderer
+CanvasRendererBHM
 "
 /
 *
@@ -541,7 +541,7 @@ SynchronousTask
 task
 (
 "
-CanvasRenderThread
+CanvasRenderThreadShutdown
 "
 )
 ;
