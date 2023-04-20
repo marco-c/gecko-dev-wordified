@@ -509,9 +509,6 @@ class
 FrameObjectFake
 :
 public
-video_coding
-:
-:
 EncodedFrame
 {
 public
@@ -3377,9 +3374,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 frame

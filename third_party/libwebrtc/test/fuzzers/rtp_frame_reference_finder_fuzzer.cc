@@ -383,9 +383,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 frame
@@ -874,9 +871,6 @@ std
 :
 make_unique
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 (

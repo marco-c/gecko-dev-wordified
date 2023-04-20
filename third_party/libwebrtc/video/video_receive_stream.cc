@@ -494,12 +494,6 @@ internal
 namespace
 {
 using
-video_coding
-:
-:
-EncodedFrame
-;
-using
 ReturnReason
 =
 video_coding
@@ -540,9 +534,6 @@ content
 /
 /
 from
-video_coding
-:
-:
 EncodedFrame
 .
 class
@@ -3459,9 +3450,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 frame

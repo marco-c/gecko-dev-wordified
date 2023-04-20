@@ -269,9 +269,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 CreateRtpFrameObject
@@ -288,9 +285,6 @@ std
 :
 make_unique
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 (
@@ -337,9 +331,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 CreateRtpFrameObject
@@ -386,9 +377,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame

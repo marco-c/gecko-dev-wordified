@@ -142,9 +142,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 RtpFrameObject
 :
 :
@@ -623,11 +620,6 @@ return
 rtp_video_header_
 ;
 }
-}
-/
-/
-namespace
-video_coding
 }
 /
 /
