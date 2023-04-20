@@ -120,6 +120,18 @@ DISAMBIGUATE
 {
             
 "
+gzip
+"
+:
+"
+app
+-
+arch
+/
+gzip
+"
+            
+"
 tar
 "
 :
