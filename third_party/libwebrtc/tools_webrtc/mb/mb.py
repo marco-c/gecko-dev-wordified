@@ -7656,7 +7656,7 @@ extra_files
 .
 /
 .
-vpython
+vpython3
 '
         
 '
@@ -7678,7 +7678,7 @@ py
 vpython_exe
 =
 '
-vpython
+vpython3
 '
     
 must_retry
