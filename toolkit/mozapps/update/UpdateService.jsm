@@ -32863,7 +32863,7 @@ Services
 .
 prefs
 .
-setStringPref
+setBoolPref
 (
 "
 security
