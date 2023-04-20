@@ -2694,6 +2694,15 @@ bool
 mayWait
 )
 {
+if
+(
+mSuspendNativeCount
+)
+{
+return
+false
+;
+}
 bool
 didProcessEvent
 =
