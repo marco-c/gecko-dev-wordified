@@ -219,7 +219,6 @@ TaskQueuePacedSender
 (
 clock
 packet_sender
-event_log
 *
 field_trials
 task_queue_factory
@@ -242,9 +241,6 @@ PacingController
 PacketSender
 *
 packet_sender
-RtcEventLog
-*
-event_log
 const
 WebRtcKeyValueConfig
 &
@@ -294,7 +290,6 @@ pacing_controller_
 (
 clock
 packet_sender
-event_log
 field_trials
 PacingController
 :

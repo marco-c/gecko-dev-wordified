@@ -305,9 +305,6 @@ class
 Clock
 ;
 class
-RtcEventLog
-;
-class
 PacedSender
 :
 public
@@ -481,9 +478,6 @@ clock
 PacketRouter
 *
 packet_router
-RtcEventLog
-*
-event_log
 const
 WebRtcKeyValueConfig
 &

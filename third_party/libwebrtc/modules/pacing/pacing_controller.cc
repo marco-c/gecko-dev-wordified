@@ -718,9 +718,6 @@ clock
 PacketSender
 *
 packet_sender
-RtcEventLog
-*
-event_log
 const
 WebRtcKeyValueConfig
 &
