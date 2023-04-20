@@ -2130,10 +2130,7 @@ vetoHook
 >
 OnRedirectResult
 (
-NS_SUCCEEDED
-(
 aRv
-)
 )
 ;
 /

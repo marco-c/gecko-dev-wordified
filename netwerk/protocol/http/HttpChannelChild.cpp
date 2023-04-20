@@ -10417,7 +10417,7 @@ vetoHook
 >
 OnRedirectResult
 (
-true
+NS_OK
 )
 ;
 }
