@@ -810,6 +810,11 @@ searchString
 "
 test
 "
+searchSource
+:
+"
+urlbar
+"
 }
 ;
 if

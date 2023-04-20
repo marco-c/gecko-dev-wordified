@@ -142,7 +142,7 @@ doClick
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -190,7 +190,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -235,7 +235,7 @@ com
 "
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -282,7 +282,7 @@ com
 "
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -497,7 +497,7 @@ window
 )
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -589,7 +589,7 @@ window
 )
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -739,7 +739,7 @@ removeTab
 tab
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
