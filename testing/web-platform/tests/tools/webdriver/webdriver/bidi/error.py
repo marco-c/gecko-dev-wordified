@@ -91,9 +91,6 @@ def
 __init__
 (
 self
-error
-:
-str
 message
 :
 str
@@ -103,18 +100,14 @@ Optional
 [
 str
 ]
+=
+None
 )
 :
         
 super
 (
 )
-        
-self
-.
-error
-=
-error
         
 self
 .
@@ -208,7 +201,7 @@ f
 {
 self
 .
-error
+error_code
 }
 (
 {
@@ -223,6 +216,9 @@ if
 self
 .
 stacktrace
+is
+not
+None
 :
             
 message
@@ -362,7 +358,6 @@ error
 return
 cls
 (
-error
 message
 stacktrace
 )
