@@ -1652,8 +1652,16 @@ padding
 timestamp
 generation
 .
+mutable
+Mutex
+sequencer_mutex
+;
 PacketSequencer
 sequencer_
+RTC_GUARDED_BY
+(
+sequencer_mutex
+)
 ;
 /
 /
