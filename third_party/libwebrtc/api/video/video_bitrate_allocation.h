@@ -360,9 +360,7 @@ from
 layer
 0
 to
-|
 temporal_index
-|
 /
 /
 inclusive
@@ -370,9 +368,7 @@ of
 specified
 spatial
 layer
-|
 spatial_index
-|
 .
 Bitrates
 of

@@ -280,15 +280,11 @@ PlusInfinity
 ;
 /
 /
-|
 bwe_period
-|
 is
 deprecated
 use
-|
 stable_target_bitrate
-|
 allocation
 instead
 .

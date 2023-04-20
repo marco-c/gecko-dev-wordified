@@ -277,9 +277,7 @@ JsepSessionDescription
 Takes
 ownership
 of
-|
 description
-|
 .
 bool
 Initialize

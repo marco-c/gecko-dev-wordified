@@ -376,9 +376,7 @@ Thread
 instance
 .
 If
-|
 socket_server
-|
 is
 nullptr
 a
@@ -492,9 +490,7 @@ execute
 for
 the
 given
-|
 duration
-|
 .
 virtual
 void
@@ -540,9 +536,7 @@ evaluated
 to
 true
 before
-|
 max_duration
-|
 /
 /
 elapsed
@@ -649,9 +643,7 @@ alarm
 to
 fire
 at
-|
 deadline
-|
 .
 /
 /
@@ -665,9 +657,7 @@ deadline
 .
 Calls
 to
-|
 ScheduleAlarmAt
-|
 with
 /
 /
@@ -686,9 +676,7 @@ Calls
 to
 /
 /
-|
 ScheduleAlarmAt
-|
 with
 a
 later
@@ -753,9 +741,7 @@ callback
 /
 Waits
 for
-|
 duration
-|
 to
 pass
 according

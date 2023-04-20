@@ -107,9 +107,7 @@ a
 proxy
 source
 for
-|
 source
-|
 which
 makes
 sure
@@ -131,13 +129,9 @@ and
 marshals
 calls
 to
-|
 worker_thread
-|
 and
-|
 signaling_thread
-|
 .
 rtc
 :

@@ -245,9 +245,7 @@ provided
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -335,9 +333,7 @@ provided
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .

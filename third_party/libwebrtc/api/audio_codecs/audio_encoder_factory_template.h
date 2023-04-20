@@ -701,9 +701,7 @@ functions
 /
 /
 Converts
-|
 audio_format
-|
 to
 a
 ConfigType
@@ -718,9 +716,7 @@ empty
 /
 optional
 if
-|
 audio_format
-|
 doesn
 '
 t

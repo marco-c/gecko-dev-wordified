@@ -1190,9 +1190,7 @@ and
 log
 it
 .
-|
 message
-|
 should
 be
 a

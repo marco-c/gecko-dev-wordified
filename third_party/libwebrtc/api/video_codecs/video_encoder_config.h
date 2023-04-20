@@ -165,9 +165,7 @@ webrtc
 /
 /
 The
-|
 VideoStream
-|
 struct
 describes
 a
@@ -265,13 +263,9 @@ size
 .
 /
 /
-|
 width
-|
 and
-|
 height
-|
 values
 are
 already
@@ -1049,9 +1043,7 @@ encoding
 .
 /
 /
-|
 simulcast_layers
-|
 is
 also
 used

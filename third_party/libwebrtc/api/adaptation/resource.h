@@ -371,9 +371,7 @@ const
 /
 /
 The
-|
 listener
-|
 may
 be
 informed

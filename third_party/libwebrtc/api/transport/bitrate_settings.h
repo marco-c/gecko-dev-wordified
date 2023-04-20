@@ -129,9 +129,7 @@ send
 bitrate
 .
 The
-|
 start_bitrate_bps
-|
 value
 is
 /

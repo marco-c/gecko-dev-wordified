@@ -1438,9 +1438,7 @@ used
 In
 this
 method
-|
 absolute_capture_timestamp_ms
-|
 when
 available
 is
@@ -1696,9 +1694,7 @@ of
 the
 source
 .
-|
 volume
-|
 is
 in
 the
@@ -1921,9 +1917,7 @@ processor
 statistics
 .
 The
-|
 has_remote_tracks
-|
 argument
 should
 be

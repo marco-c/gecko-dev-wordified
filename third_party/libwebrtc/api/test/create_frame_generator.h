@@ -170,9 +170,7 @@ corner
 .
 /
 /
-|
 type
-|
 has
 the
 default
@@ -187,9 +185,7 @@ I420
 .
 /
 /
-|
 num_squares
-|
 has
 the
 default
@@ -508,9 +504,7 @@ squares
 .
 /
 /
-|
 frame_repeat_count
-|
 determines
 how
 many

@@ -519,9 +519,7 @@ ts_number_layers
 Arrays
 of
 length
-|
 ts_number_layers
-|
 indicating
 (
 cumulative
@@ -606,9 +604,7 @@ ts_periodicity
 Array
 of
 length
-|
 ts_periodicity
-|
 indicating
 the
 sequence
@@ -812,9 +808,7 @@ of
 streamed
 controlled
 by
-|
 this
-|
 .
 virtual
 size_t
@@ -979,9 +973,7 @@ entry
 in
 /
 /
-|
 bitrates_bps
-|
 is
 for
 another
@@ -1071,9 +1063,7 @@ reset_previous_configuration_overrides
 is
 set
 to
-|
 true
-|
 all
 previous
 overrides
@@ -1189,9 +1179,7 @@ step
 is
 done
 .
-|
 rtp_timestamp
-|
 must
 match
 the
@@ -1208,9 +1196,7 @@ call
 .
 /
 /
-|
 is_keyframe
-|
 must
 be
 true
@@ -1231,9 +1217,7 @@ keyframe
 /
 /
 If
-|
 info
-|
 is
 not
 null
@@ -1241,9 +1225,7 @@ the
 encoder
 may
 update
-|
 info
-|
 with
 codec
 specific
@@ -1255,9 +1237,7 @@ as
 temporal
 id
 .
-|
 qp
-|
 should
 indicate
 the
@@ -1281,9 +1261,7 @@ not
 support
 extracting
 this
-|
 qp
-|
 /
 /
 should
@@ -1352,9 +1330,7 @@ changes
 .
 /
 /
-|
 packet_loss_rate
-|
 runs
 between
 0

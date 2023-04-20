@@ -290,9 +290,7 @@ of
 valid
 values
 for
-|
 scalability_mode
-|
 .
 /
 /

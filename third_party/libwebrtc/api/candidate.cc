@@ -745,9 +745,7 @@ ID
 )
 /
 /
-|
 local_preference
-|
 length
 is
 2

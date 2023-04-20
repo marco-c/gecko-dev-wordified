@@ -246,9 +246,7 @@ after
 the
 first
 time
-|
 false
-|
 is
 returned
 .

@@ -948,17 +948,13 @@ callback_
 ;
 /
 /
-|
 fake_encoder_
-|
 is
 owned
 and
 released
 by
-|
 fallback_wrapper_
-|
 .
 CountingFakeEncoder
 *

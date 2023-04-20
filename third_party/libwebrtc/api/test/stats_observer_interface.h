@@ -161,9 +161,7 @@ PeerConnection
 /
 identified
 by
-|
 pc_label
-|
 .
 virtual
 void

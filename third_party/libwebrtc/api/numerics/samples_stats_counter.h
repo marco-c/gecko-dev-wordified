@@ -610,9 +610,7 @@ samples
 /
 /
 /
-|
 percentile
-|
 has
 to
 be
@@ -812,9 +810,7 @@ all
 sample
 values
 on
-|
 value
-|
 and
 return
 new
@@ -870,9 +866,7 @@ all
 sample
 values
 on
-|
 value
-|
 and
 return
 new

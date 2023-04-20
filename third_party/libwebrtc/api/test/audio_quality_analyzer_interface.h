@@ -169,9 +169,7 @@ test
 .
 /
 /
-|
 test_case_name
-|
 is
 name
 of
@@ -191,9 +189,7 @@ metrics
 .
 /
 /
-|
 analyzer_helper
-|
 is
 a
 pointer

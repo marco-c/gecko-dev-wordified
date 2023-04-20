@@ -226,13 +226,9 @@ scrolling
 params
 then
 its
-|
 source_width
-|
 and
-|
 source_heigh
-|
 /
 /
 will

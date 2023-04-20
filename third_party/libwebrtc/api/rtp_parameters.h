@@ -906,13 +906,9 @@ subtype
 "
 string
 from
-|
 name
-|
 and
-|
 kind
-|
 .
 std
 :
@@ -4701,13 +4697,9 @@ subtype
 "
 string
 from
-|
 name
-|
 and
-|
 kind
-|
 .
 std
 :
@@ -4929,9 +4921,7 @@ RtpSender
 /
 /
 If
-|
 ptime
-|
 is
 also
 set
@@ -5340,9 +5330,7 @@ appear
 in
 /
 /
-|
 codecs
-|
 .
 std
 :

@@ -170,9 +170,7 @@ The
 task
 should
 return
-|
 true
-|
 to
 indicate
 that
@@ -183,9 +181,7 @@ deleted
 or
 /
 /
-|
 false
-|
 to
 indicate
 that
@@ -204,9 +200,7 @@ been
 transferred
 .
 Returning
-|
 false
-|
 can
 be
 useful

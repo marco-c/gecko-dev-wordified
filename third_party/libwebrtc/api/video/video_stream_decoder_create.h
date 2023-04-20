@@ -145,9 +145,7 @@ webrtc
 /
 /
 The
-|
 decoder_settings
-|
 parameter
 is
 a

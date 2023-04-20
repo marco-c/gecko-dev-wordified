@@ -204,9 +204,7 @@ const
 /
 /
 Copies
-|
 data
-|
 into
 the
 owned
@@ -544,9 +542,7 @@ public
 /
 /
 Transforms
-|
 frame
-|
 using
 the
 implementing

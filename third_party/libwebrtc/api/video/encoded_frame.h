@@ -335,9 +335,7 @@ too
 /
 /
 many
-|
 references
-|
 .
 size_t
 num_references

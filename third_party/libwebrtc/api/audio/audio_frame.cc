@@ -423,9 +423,7 @@ a
 valid
 value
 for
-|
 timestamp_
-|
 .
 We
 should

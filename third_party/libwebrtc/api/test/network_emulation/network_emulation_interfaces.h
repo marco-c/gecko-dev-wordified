@@ -1606,9 +1606,7 @@ network
 .
 /
 /
-|
 from
-|
 will
 be
 used
@@ -1627,9 +1625,7 @@ socket
 .
 /
 /
-|
 to
-|
 will
 be
 used
@@ -1694,9 +1690,7 @@ data
 .
 /
 /
-|
 desired_port
-|
 is
 a
 port
@@ -1724,9 +1718,7 @@ starting
 from
 /
 /
-|
 kFirstEphemeralPort
-|
 .
 /
 /
@@ -1749,9 +1741,7 @@ desired
 if
 /
 /
-|
 desired_port
-|
 !
 =
 0
@@ -2099,15 +2089,11 @@ message
 of
 the
 given
-|
 size
-|
 over
 the
 route
-|
 on_received
-|
 is
 /
 /

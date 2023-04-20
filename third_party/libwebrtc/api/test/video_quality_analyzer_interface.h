@@ -562,9 +562,7 @@ test
 .
 /
 /
-|
 test_case_name
-|
 is
 name
 of
@@ -584,9 +582,7 @@ metrics
 .
 /
 /
-|
 threads_count
-|
 is
 number
 of
@@ -675,9 +671,7 @@ stream
 .
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -741,9 +735,7 @@ encoder
 .
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -807,9 +799,7 @@ VideoFrame
 .
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -858,9 +848,7 @@ encoder
 .
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -903,9 +891,7 @@ decoder
 .
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -948,9 +934,7 @@ frame
 .
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -999,9 +983,7 @@ stack
 .
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -1062,9 +1044,7 @@ video_error_codes
 h
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -1126,9 +1106,7 @@ video_error_codes
 h
 /
 /
-|
 peer_name
-|
 is
 name
 of
@@ -1176,9 +1154,7 @@ Peer
 Connection
 identified
 by
-|
 pc_label
-|
 .
 void
 OnStatsReports

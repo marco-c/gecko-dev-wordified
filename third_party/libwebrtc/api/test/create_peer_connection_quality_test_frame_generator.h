@@ -163,9 +163,7 @@ lower
 right
 corner
 .
-|
 type
-|
 has
 the
 default

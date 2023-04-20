@@ -250,9 +250,7 @@ format
 is
 compatible
 with
-|
 o
-|
 .
 In
 SDP

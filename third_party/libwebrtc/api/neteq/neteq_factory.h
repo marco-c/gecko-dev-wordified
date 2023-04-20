@@ -170,14 +170,10 @@ with
 parameters
 set
 in
-|
 config
-|
 .
 The
-|
 config
-|
 /
 /
 object

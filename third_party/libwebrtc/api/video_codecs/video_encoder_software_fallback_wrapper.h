@@ -245,9 +245,7 @@ updated
 with
 /
 /
-|
 prefer_temporal_support
-|
 .
 /
 /

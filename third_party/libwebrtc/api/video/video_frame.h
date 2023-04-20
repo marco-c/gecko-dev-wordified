@@ -1959,9 +1959,7 @@ needed
 /
 /
 by
-|
 SourceTracker
-|
 when
 the
 frame

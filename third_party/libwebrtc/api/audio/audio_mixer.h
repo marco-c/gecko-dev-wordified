@@ -249,9 +249,7 @@ used
 /
 /
 Overwrites
-|
 audio_frame
-|
 .
 The
 data_
@@ -277,16 +275,12 @@ channels
 at
 /
 /
-|
 sample_rate_hz
-|
 .
 All
 fields
 in
-|
 audio_frame
-|
 must
 be
 updated
@@ -536,9 +530,7 @@ fields
 in
 /
 /
-|
 audio_frame_for_mixing
-|
 must
 be
 updated

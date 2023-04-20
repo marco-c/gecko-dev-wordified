@@ -1538,9 +1538,7 @@ TODO
 hbos
 )
 :
-|
 RTCStatsCollector
-|
 only
 collects
 candidates
@@ -1741,9 +1739,7 @@ hbos
 Not
 collected
 by
-|
 RTCStatsCollector
-|
 .
 crbug
 .
@@ -1818,16 +1814,12 @@ them
 as
 subclasses
 of
-|
 RTCIceCandidateStats
-|
 because
 the
 /
 /
-|
 kType
-|
 need
 to
 be
@@ -2266,9 +2258,7 @@ TODO
 hbos
 )
 :
-|
 RTCStatsCollector
-|
 does
 not
 return
@@ -2293,9 +2283,7 @@ detached
 /
 /
 See
-|
 RTCMediaStreamTrackKind
-|
 for
 valid
 values
@@ -2349,9 +2337,7 @@ hbos
 Not
 collected
 by
-|
 RTCStatsCollector
-|
 .
 crbug
 .
@@ -2404,9 +2390,7 @@ hbos
 Not
 collected
 by
-|
 RTCStatsCollector
-|
 .
 crbug
 .
@@ -2429,9 +2413,7 @@ hbos
 Not
 collected
 by
-|
 RTCStatsCollector
-|
 .
 crbug
 .
@@ -2454,9 +2436,7 @@ hbos
 Not
 collected
 by
-|
 RTCStatsCollector
-|
 .
 crbug
 .

@@ -202,9 +202,7 @@ processed
 frames
 by
 calling
-|
 sink_callback
-|
 if
 it
 was
@@ -217,9 +215,7 @@ SetSink
 /
 call
 .
-|
 sink_callback
-|
 can
 be
 called
@@ -272,9 +268,7 @@ or
 if
 the
 provided
-|
 sink_callback
-|
 is
 nullptr
 /

@@ -311,9 +311,7 @@ equal
 /
 /
 to
-|
 max_pixels_
-|
 .
 The
 resolution
@@ -326,9 +324,7 @@ down
 to
 /
 /
-|
 min_pixels_
-|
 .
 /
 /
@@ -1611,9 +1607,7 @@ with
 the
 /
 /
-|
 fec_controller_override
-|
 at
 a
 given
@@ -1626,9 +1620,7 @@ responsibility
 /
 /
 of
-|
 this
-|
 to
 maintain
 .

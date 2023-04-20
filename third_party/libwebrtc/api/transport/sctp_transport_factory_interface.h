@@ -208,9 +208,7 @@ an
 SCTP
 transport
 using
-|
 channel
-|
 for
 the
 underlying

@@ -189,9 +189,7 @@ processed
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -249,9 +247,7 @@ processed
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .

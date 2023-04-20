@@ -186,9 +186,7 @@ should
 return
 false
 if
-|
 data
-|
 should
 be
 sent

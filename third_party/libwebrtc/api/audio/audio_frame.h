@@ -1014,9 +1014,7 @@ needed
 /
 /
 by
-|
 SourceTracker
-|
 when
 the
 frame
@@ -1142,9 +1140,7 @@ frames
 /
 /
 /
-|
 RtpPacketInfos
-|
 may
 also
 be
@@ -1294,9 +1290,7 @@ frame
 is
 found
 in
-|
 packet_infos_
-|
 .
 /
 /

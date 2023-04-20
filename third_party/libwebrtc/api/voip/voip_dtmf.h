@@ -247,9 +247,7 @@ provided
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -299,9 +297,7 @@ section
 2
 /
 /
-|
 duration_ms
-|
 specifies
 the
 duration
@@ -361,9 +357,7 @@ scheduled
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .

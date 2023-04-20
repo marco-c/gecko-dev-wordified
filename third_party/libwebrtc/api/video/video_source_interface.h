@@ -434,9 +434,7 @@ to
 be
 divisible
 by
-|
 resolution_alignment
-|
 .
 /
 /
@@ -626,9 +624,7 @@ g
 applying
 /
 /
-|
 max_pixel_count
-|
 constraints
 )
 create
@@ -702,9 +698,7 @@ possible
 Note
 that
 the
-|
 resolutions
-|
 can
 change
 while

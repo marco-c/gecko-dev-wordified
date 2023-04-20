@@ -306,9 +306,7 @@ to
 file
 and
 calls
-|
 callback
-|
 when
 the
 file

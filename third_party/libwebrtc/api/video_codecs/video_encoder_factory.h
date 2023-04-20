@@ -194,9 +194,7 @@ CodecInfo
 {
 /
 /
-|
 has_internal_source
-|
 is
 true
 if
@@ -684,9 +682,7 @@ of
 valid
 values
 for
-|
 scalability_mode
-|
 .
 /
 /

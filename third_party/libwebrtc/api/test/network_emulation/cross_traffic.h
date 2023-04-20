@@ -227,9 +227,7 @@ dummy
 packets
 with
 size
-|
 packet_size
-|
 bytes
 .
 virtual
@@ -292,9 +290,7 @@ the
 nodes
 and
 runs
-|
 action
-|
 when
 it
 has

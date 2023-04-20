@@ -689,9 +689,7 @@ be
 used
 instead
 of
-|
 streams
-|
 .
 bool
 infer_streams

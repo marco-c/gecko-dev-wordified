@@ -112,9 +112,7 @@ webrtc_pc_e2e
 /
 Instances
 of
-|
 TrackIdStreamInfoMap
-|
 provide
 bookkeeping
 capabilities
@@ -186,9 +184,7 @@ TrackIdStreamInfoMap
 /
 Precondition
 :
-|
 track_id
-|
 must
 be
 already
@@ -233,9 +229,7 @@ TrackIdStreamInfoMap
 /
 Precondition
 :
-|
 track_id
-|
 must
 be
 already

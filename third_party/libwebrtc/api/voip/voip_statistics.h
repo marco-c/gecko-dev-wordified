@@ -593,9 +593,7 @@ audio
 ingress
 statistics
 by
-|
 ingress_stats
-|
 reference
 .
 /
@@ -618,9 +616,7 @@ reference
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -644,9 +640,7 @@ the
 channel
 statistics
 by
-|
 channel_stats
-|
 reference
 .
 /
@@ -669,9 +663,7 @@ reference
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .

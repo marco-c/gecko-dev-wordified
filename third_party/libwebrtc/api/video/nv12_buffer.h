@@ -437,16 +437,12 @@ the
 cropped
 area
 of
-|
 src
-|
 to
 the
 size
 of
-|
 this
-|
 buffer
 and
 /
@@ -455,9 +451,7 @@ write
 the
 result
 into
-|
 this
-|
 .
 void
 CropAndScaleFrom

@@ -713,9 +713,7 @@ spatial
 index
 /
 /
-|
 spatial_index
-|
 on
 encoded
 frames
@@ -1342,9 +1340,7 @@ needed
 /
 /
 by
-|
 SourceTracker
-|
 when
 the
 frame

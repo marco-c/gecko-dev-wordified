@@ -455,17 +455,13 @@ override_field_trials_
 ;
 /
 /
-|
 fake_decoder_
-|
 is
 owned
 and
 released
 by
-|
 fallback_wrapper_
-|
 .
 CountingFakeDecoder
 *

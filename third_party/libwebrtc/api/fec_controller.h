@@ -271,9 +271,7 @@ an
 /
 implementation
 of
-|
 VCMProtectionCallback
-|
 to
 set
 new

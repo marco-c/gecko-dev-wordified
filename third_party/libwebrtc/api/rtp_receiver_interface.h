@@ -426,9 +426,7 @@ list
 of
 streams
 that
-|
 track
-|
 is
 associated
 with
@@ -795,9 +793,7 @@ the
 congestion
 control
 .
-|
 delay_seconds
-|
 is
 a
 /
@@ -812,9 +808,7 @@ measured
 in
 seconds
 .
-|
 nullopt
-|
 means
 default
 /

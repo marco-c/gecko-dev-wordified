@@ -126,9 +126,7 @@ time
 coltroller
 that
 wraps
-|
 alarm
-|
 .
 std
 :

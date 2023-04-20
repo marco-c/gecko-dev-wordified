@@ -309,9 +309,7 @@ running
 a
 task
 so
-|
 queue
-|
 shouldn
 '
 t
@@ -1512,9 +1510,7 @@ Waits
 until
 DecrementCount
 called
-|
 count
-|
 times
 .
 Thread

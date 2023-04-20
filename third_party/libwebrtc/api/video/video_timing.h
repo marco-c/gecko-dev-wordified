@@ -427,9 +427,7 @@ longer
 to
 process
 than
-|
 other
-|
 frame
 .
 /

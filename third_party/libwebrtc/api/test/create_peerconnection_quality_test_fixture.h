@@ -198,9 +198,7 @@ call
 .
 /
 /
-|
 test_case_name
-|
 is
 a
 name
@@ -220,9 +218,7 @@ reporting
 .
 /
 /
-|
 time_controller
-|
 is
 used
 to
@@ -242,9 +238,7 @@ instances
 .
 Instance
 of
-|
 time_controller
-|
 have
 to
 outlive

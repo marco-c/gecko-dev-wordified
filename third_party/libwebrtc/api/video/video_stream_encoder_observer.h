@@ -588,9 +588,7 @@ resolution
 or
 not
 .
-|
 is_scaled
-|
 is
 a
 flag

@@ -187,9 +187,7 @@ simulation
 .
 The
 optional
-|
 audio_processing
-|
 object
 provides
 the
@@ -257,13 +255,9 @@ command
 line
 flags
 as
-|
 argc
-|
 and
-|
 argv
-|
 so
 these
 can
@@ -371,9 +365,7 @@ file
 /
 /
 The
-|
 ap_builder
-|
 object
 will
 be
@@ -393,9 +385,7 @@ the
 simulation
 .
 The
-|
 ap_builder
-|
 supports
 setting
 of
@@ -426,13 +416,9 @@ command
 line
 flags
 as
-|
 argc
-|
 and
-|
 argv
-|
 /
 /
 so
@@ -596,9 +582,7 @@ above
 .
 Pass
 the
-|
 input_aecdump
-|
 to
 provide
 the
@@ -621,9 +605,7 @@ is
 completed
 /
 /
-|
 processed_capture_samples
-|
 will
 contain
 the

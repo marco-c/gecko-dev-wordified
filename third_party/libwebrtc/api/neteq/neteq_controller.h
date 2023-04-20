@@ -668,13 +668,9 @@ returns
 the
 operation
 .
-|
 target_timestamp
-|
 and
-|
 expand_mutefactor
-|
 /
 /
 are
@@ -682,9 +678,7 @@ provided
 for
 reference
 .
-|
 last_packet_samples
-|
 is
 the
 number
@@ -712,9 +706,7 @@ should
 be
 supplied
 in
-|
 packet
-|
 .
 The
 mode
@@ -733,9 +725,7 @@ GetAudio
 is
 supplied
 in
-|
 last_mode
-|
 .
 If
 there
@@ -747,9 +737,7 @@ to
 /
 /
 play
-|
 play_dtmf
-|
 should
 be
 set
@@ -761,9 +749,7 @@ output
 variable
 /
 /
-|
 reset_decoder
-|
 will
 be
 set
@@ -985,9 +971,7 @@ These
 methods
 test
 the
-|
 cng_state_
-|
 for
 different
 conditions
@@ -1014,9 +998,7 @@ const
 /
 Resets
 the
-|
 cng_state_
-|
 to
 kCngOff
 .
@@ -1096,13 +1078,9 @@ operation
 /
 /
 Adds
-|
 value
-|
 to
-|
 sample_memory_
-|
 .
 virtual
 void

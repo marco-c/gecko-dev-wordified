@@ -577,9 +577,7 @@ parsed
 .
 /
 /
-|
 error
-|
 may
 be
 null
@@ -700,9 +698,7 @@ true
 if
 an
 equivalent
-|
 candidate
-|
 exist
 in
 the
@@ -1255,9 +1251,7 @@ this
 in
 favor
 of
-|
 GetType
-|
 that
 returns
 SdpType
@@ -1500,9 +1494,7 @@ unsupported
 .
 /
 /
-|
 error
-|
 may
 be
 null
@@ -1599,9 +1591,7 @@ using
 the
 signature
 with
-|
 error_out
-|
 details
 of
 the
@@ -1613,9 +1603,7 @@ be
 /
 written
 to
-|
 error_out
-|
 if
 it
 is
@@ -1755,9 +1743,7 @@ the
 ownership
 of
 the
-|
 desc
-|
 .
 /
 /

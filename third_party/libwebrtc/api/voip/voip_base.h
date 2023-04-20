@@ -422,9 +422,7 @@ peer
 Caller
 must
 set
-|
 transport
-|
 webrtc
 :
 :
@@ -478,9 +476,7 @@ via
 VoipNetwork
 interface
 .
-|
 local_ssrc
-|
 is
 optional
 and
@@ -539,9 +535,7 @@ local_ssrc
 /
 /
 Releases
-|
 channel_id
-|
 that
 no
 longer
@@ -559,9 +553,7 @@ VoipResult
 /
 kOk
 -
-|
 channel_id
-|
 is
 released
 .
@@ -569,9 +561,7 @@ released
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -601,9 +591,7 @@ channel_id
 Starts
 sending
 on
-|
 channel_id
-|
 .
 This
 starts
@@ -633,9 +621,7 @@ send
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -677,9 +663,7 @@ channel_id
 Stops
 sending
 on
-|
 channel_id
-|
 .
 If
 this
@@ -721,9 +705,7 @@ send
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -757,9 +739,7 @@ on
 speaker
 device
 for
-|
 channel_id
-|
 .
 /
 /
@@ -795,9 +775,7 @@ out
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
@@ -843,9 +821,7 @@ on
 speaker
 device
 for
-|
 channel_id
-|
 .
 /
 /
@@ -868,9 +844,7 @@ out
 /
 kInvalidArgument
 -
-|
 channel_id
-|
 is
 invalid
 .
