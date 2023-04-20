@@ -3832,8 +3832,8 @@ static
 nt
 :
 :
-WinLauncherFunctions
-gWinLauncherFunctions
+WinLauncherServices
+gWinLauncher
 ;
 MFBT_API
 void
@@ -3870,7 +3870,7 @@ StaticInit
 &
 gMozglueLoaderObserver
 &
-gWinLauncherFunctions
+gWinLauncher
 )
 ;
 #
@@ -5013,9 +5013,9 @@ GetAuthenticode
 aSvc
 -
 >
-SetWinLauncherFunctions
+SetWinLauncherServices
 (
-gWinLauncherFunctions
+gWinLauncher
 )
 ;
 gMozglueLoaderObserver
