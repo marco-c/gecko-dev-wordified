@@ -322,6 +322,9 @@ nsIAlertAction
 >
 mActions
 ;
+nsString
+mLaunchURL
+;
 }
 ;
 }
