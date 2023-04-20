@@ -2155,13 +2155,6 @@ CancelPromise
 ;
 }
 ;
-void
-ErrorCallback
-(
-)
-override
-{
-}
 protected
 :
 ~
