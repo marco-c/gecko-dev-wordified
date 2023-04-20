@@ -15640,7 +15640,6 @@ uint8_t
 {
 Proxy
 Native
-Unknown
 }
 ;
 class
@@ -15854,7 +15853,13 @@ bool
 ignoresReturnValue
 bool
 isDOMCall
+mozilla
+:
+:
+Maybe
+<
 DOMObjectKind
+>
 objectKind
 )
 ;
@@ -16508,7 +16513,13 @@ bool
 ignoresReturnValue
 bool
 isDOMCall
+mozilla
+:
+:
+Maybe
+<
 DOMObjectKind
+>
 objectKind
 )
 ;
