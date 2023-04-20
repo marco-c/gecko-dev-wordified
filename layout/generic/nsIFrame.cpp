@@ -15066,7 +15066,9 @@ IsAbsoluteContainer
 )
 )
 {
+const
 nsFrameList
+&
 absoluteList
 =
 GetAbsoluteContainingBlock
