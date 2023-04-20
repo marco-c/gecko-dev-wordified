@@ -7369,7 +7369,7 @@ exceptions
 .
 masm
 .
-branchDoubleNotInInt64Range
+branchFloat32NotInInt64Range
 (
 Address
 (
