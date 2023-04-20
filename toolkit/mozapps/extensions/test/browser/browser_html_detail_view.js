@@ -2524,11 +2524,7 @@ panel
 querySelector
 (
 "
-panel
--
-item
--
-separator
+hr
 :
 last
 -
