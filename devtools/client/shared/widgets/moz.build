@@ -96,11 +96,6 @@ tooltip
 DevToolsModules
 (
 "
-AbstractTreeItem
-.
-jsm
-"
-"
 Chart
 .
 js
