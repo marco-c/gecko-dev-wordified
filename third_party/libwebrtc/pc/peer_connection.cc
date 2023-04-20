@@ -14434,7 +14434,7 @@ the
 remote
 offer
 is
-PASSIVE
+ACTIVE
 .
 In
 that
@@ -14482,7 +14482,18 @@ role
 guesser
 is
 active
+is_caller
+is
 "
+<
+<
+*
+sdp_handler_
+-
+>
+is_caller
+(
+)
 ;
 dtls_role
 =
