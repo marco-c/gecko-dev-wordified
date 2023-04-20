@@ -9036,6 +9036,9 @@ ContentParent
 nsCString
 mRemoteType
 ;
+nsCString
+mProfile
+;
 nsCOMPtr
 <
 nsIPrincipal
