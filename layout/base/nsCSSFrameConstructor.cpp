@@ -10906,10 +10906,6 @@ mCountersDirty
 (
 false
 )
-mIsDestroyingFrameTree
-(
-false
-)
 mAlwaysCreateFramesForIgnorableWhitespace
 (
 false
@@ -54435,10 +54431,6 @@ DumpCounters
 ;
 #
 endif
-mIsDestroyingFrameTree
-=
-true
-;
 /
 /
 Prevent
