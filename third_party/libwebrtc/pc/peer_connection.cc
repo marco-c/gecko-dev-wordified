@@ -12172,6 +12172,13 @@ bool
 have_local_description
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread
+(
+)
+)
+;
 port_allocator_
 -
 >
