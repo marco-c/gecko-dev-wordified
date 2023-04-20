@@ -1367,7 +1367,9 @@ webextStorageLocal
 in
 ContextualIdentityService
 .
-jsm
+sys
+.
+mjs
 )
 .
 const

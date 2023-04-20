@@ -275,9 +275,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -294,7 +294,9 @@ modules
 /
 ContextualIdentityService
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
