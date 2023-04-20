@@ -2512,6 +2512,7 @@ dealing
 with
 a
 table
+/
 cell
 only
 check
@@ -2553,10 +2554,9 @@ IsTable
 const
 {
 return
-HasGenericType
-(
+mGenericTypes
+&
 eTable
-)
 ;
 }
 bool

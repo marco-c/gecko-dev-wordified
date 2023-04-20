@@ -25469,11 +25469,6 @@ Table
 {
 if
 (
-IsTable
-(
-)
-)
-{
 TableAccessible
 *
 table
@@ -25481,7 +25476,8 @@ table
 AsTable
 (
 )
-;
+)
+{
 if
 (
 table
