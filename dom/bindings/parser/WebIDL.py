@@ -2816,7 +2816,6 @@ identifier
 )
         
 except
-Exception
 :
             
 raise
@@ -6331,7 +6330,6 @@ identifier
 )
         
 except
-Exception
 :
             
 return
@@ -12156,8 +12154,8 @@ any
             
 (
 (
-a
 not
+a
 in
 exclusions
 )
@@ -12450,17 +12448,12 @@ raise
 WebIDLError
 (
                         
-(
-                            
 "
 LegacyFactoryFunction
 must
 either
 take
 an
-"
-                            
-"
 identifier
 or
 take
@@ -12469,8 +12462,6 @@ named
 argument
 list
 "
-                        
-)
                         
 [
 attr
@@ -12496,6 +12487,16 @@ hasArgs
 else
 [
 ]
+                
+retType
+=
+IDLWrapperType
+(
+self
+.
+location
+self
+)
                 
 method
 =
@@ -17049,7 +17050,6 @@ name
 )
         
 except
-Exception
 :
             
 raise
@@ -17184,6 +17184,18 @@ self
 .
 location
 obj
+)
+        
+name
+=
+self
+.
+name
+.
+resolve
+(
+scope
+None
 )
         
 return
@@ -20240,21 +20252,6 @@ i
 =
 0
         
-nullableType
-=
-None
-#
-assigned
-in
-loop
-if
-nullable
-type
-in
-self
-.
-flatMemberTypes
-        
 while
 i
 <
@@ -20760,8 +20757,6 @@ in
 different
 globals
 .
-        
-#
 Just
 make
 sure
@@ -24076,9 +24071,9 @@ legacyNullToEmptyString
 /
 allowShared
 arguments
-        
 are
 used
+        
 to
 create
 instances
@@ -24092,11 +24087,11 @@ attributes
 attached
 .
 Use
-        
 .
 clamped
 (
 )
+        
 .
 rangeEnforced
 (
@@ -28901,7 +28896,6 @@ location
 )
                 
 except
-Exception
 :
                     
 pass
@@ -29087,7 +29081,6 @@ location
 )
                 
 except
-Exception
 :
                     
 pass
@@ -30020,7 +30013,7 @@ on
 attribute
 "
 %
-affects
+dependsOn
 [
 self
 .
@@ -33473,7 +33466,6 @@ location
 )
                 
 except
-Exception
 :
                     
 pass
@@ -37933,8 +37925,8 @@ key
 )
             
 elif
-key
 not
+key
 in
 attributeOnlyExtAttrs
 :
@@ -41215,8 +41207,6 @@ raise
 WebIDLError
 (
                 
-(
-                    
 "
 Overloaded
 identifier
@@ -41225,9 +41215,6 @@ s
 appears
 with
 different
-"
-                    
-"
 values
 of
 the
@@ -41236,12 +41223,11 @@ legacycaller
 '
 attribute
 "
+                
 %
 method
 .
 identifier
-                
-)
                 
 [
 method
@@ -45439,8 +45425,6 @@ t
 )
 :
         
-(
-            
 r
 "
 (
@@ -45486,10 +45470,6 @@ Ee
 +
 -
 ]
-"
-            
-r
-"
 ?
 [
 0
@@ -45527,8 +45507,6 @@ Infinity
 |
 NaN
 "
-        
-)
         
 t
 .
@@ -45629,7 +45607,6 @@ value
 )
         
 except
-Exception
 :
             
 raise
@@ -49273,7 +49250,6 @@ PartialInterfaceMembers
 :
 ExtendedAttributeList
 PartialInterfaceMember
-                                    
 PartialInterfaceMembers
         
 "
@@ -50592,10 +50568,9 @@ CallbackConstructorRest
 CONSTRUCTOR
 IDENTIFIER
 EQUALS
-ReturnType
+Type
 LPAREN
 ArgumentList
-                                    
 RPAREN
 SEMICOLON
         
@@ -51307,7 +51282,6 @@ TypeWithExtendedAttributes
 COMMA
 TypeWithExtendedAttributes
 GT
-                    
 SEMICOLON
         
 "
@@ -51421,7 +51395,6 @@ ITERABLE
 LT
 TypeWithExtendedAttributes
 COMMA
-                        
 TypeWithExtendedAttributes
 GT
 SEMICOLON
@@ -51434,7 +51407,6 @@ TypeWithExtendedAttributes
 GT
 LPAREN
 ArgumentList
-                        
 RPAREN
 SEMICOLON
                       
@@ -51444,7 +51416,6 @@ ITERABLE
 LT
 TypeWithExtendedAttributes
 COMMA
-                        
 TypeWithExtendedAttributes
 GT
 LPAREN
@@ -51721,7 +51692,6 @@ LT
 TypeWithExtendedAttributes
 COMMA
 TypeWithExtendedAttributes
-                    
 GT
 SEMICOLON
         
@@ -56085,7 +56055,6 @@ p
 return
         
 except
-Exception
 :
             
 pass
@@ -57600,8 +57569,6 @@ raise
 WebIDLError
 (
                 
-(
-                    
 "
 Syntax
 Error
@@ -57613,9 +57580,6 @@ file
 Possibly
 due
 to
-"
-                    
-"
 missing
 semicolon
 (
@@ -57628,8 +57592,6 @@ braces
 or
 both
 "
-                
-)
                 
 [
 self
@@ -57929,8 +57891,11 @@ builtin
 .
 name
             
+typedef
+=
 IDLTypedef
 (
+                
 BuiltinLocation
 (
 "
@@ -57943,6 +57908,7 @@ type
 scope
 builtin
 name
+            
 )
     
 staticmethod

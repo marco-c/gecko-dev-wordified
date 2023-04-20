@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 WebIDLTest
 (
@@ -41,6 +43,8 @@ b
     
 )
     
+results
+=
 parser
 .
 finish
@@ -104,6 +108,8 @@ b
     
 )
     
+results
+=
 parser
 .
 finish
@@ -231,6 +237,8 @@ b
         
 )
         
+results
+=
 parser
 .
 finish
@@ -238,7 +246,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -475,6 +482,8 @@ foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -482,7 +491,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -720,6 +728,8 @@ foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -727,7 +737,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

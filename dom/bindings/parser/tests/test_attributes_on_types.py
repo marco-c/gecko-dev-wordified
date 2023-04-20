@@ -1,3 +1,18 @@
+#
+Import
+the
+WebIDL
+module
+so
+we
+can
+do
+isinstance
+checks
+and
+whatnot
+import
+WebIDL
 def
 WebIDLTest
 (
@@ -317,7 +332,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1548,7 +1562,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2597,7 +2610,6 @@ finish
 )
         
 except
-Exception
 :
             
 threw
@@ -2666,7 +2678,6 @@ finish
 )
             
 except
-Exception
 :
                 
 threw
@@ -2741,7 +2752,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2814,7 +2824,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2894,7 +2903,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2976,7 +2984,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3088,7 +3095,6 @@ finish
 )
         
 except
-Exception
 :
             
 threw
@@ -3164,7 +3170,6 @@ finish
 )
         
 except
-Exception
 :
             
 threw
@@ -3236,7 +3241,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3305,7 +3309,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3375,7 +3378,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3449,7 +3451,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3523,7 +3524,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3608,7 +3608,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3745,7 +3744,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3817,9 +3815,6 @@ should
 correctly
 resolve
 with
-"
-        
-"
 attributes
 "
     

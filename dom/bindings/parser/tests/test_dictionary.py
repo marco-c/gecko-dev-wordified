@@ -490,6 +490,8 @@ prop
         
 )
         
+results
+=
 parser
 .
 finish
@@ -497,7 +499,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -588,6 +589,8 @@ prop
         
 )
         
+results
+=
 parser
 .
 finish
@@ -595,7 +598,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -699,6 +701,8 @@ prop
         
 )
         
+results
+=
 parser
 .
 finish
@@ -706,7 +710,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -790,6 +793,8 @@ prop
         
 )
         
+results
+=
 parser
 .
 finish
@@ -797,7 +802,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -873,6 +877,8 @@ A
         
 )
         
+results
+=
 parser
 .
 finish
@@ -880,7 +886,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -948,6 +953,8 @@ foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -955,7 +962,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1034,6 +1040,8 @@ arg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1041,7 +1049,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1116,6 +1123,8 @@ arg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1123,7 +1132,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1203,6 +1211,8 @@ arg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1210,7 +1220,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1292,6 +1301,8 @@ arg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1299,7 +1310,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1383,6 +1393,8 @@ arg2
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1390,7 +1402,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1471,6 +1482,8 @@ arg2
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1478,7 +1491,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1561,6 +1573,8 @@ arg3
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1568,7 +1582,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1662,6 +1675,8 @@ arg2
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1669,7 +1684,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1761,6 +1775,8 @@ arg2
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1768,7 +1784,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1850,6 +1865,8 @@ arg2
     
 )
     
+results
+=
 parser
 .
 finish
@@ -1931,6 +1948,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2050,6 +2069,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2174,6 +2195,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2305,6 +2328,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2430,6 +2455,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2437,7 +2464,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2521,6 +2547,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2528,7 +2556,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2613,6 +2640,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2620,7 +2649,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2692,6 +2720,8 @@ doFoo
     
 )
     
+results
+=
 parser
 .
 finish
@@ -2762,6 +2792,8 @@ arg
     
 )
     
+results
+=
 parser
 .
 finish
@@ -2835,6 +2867,8 @@ arg
     
 )
     
+results
+=
 parser
 .
 finish
@@ -2912,6 +2946,8 @@ abc
     
 )
     
+results
+=
 parser
 .
 finish
@@ -2982,6 +3018,8 @@ foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -2989,7 +3027,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3093,6 +3130,8 @@ b
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3100,7 +3139,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3182,6 +3220,8 @@ b
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3189,7 +3229,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3271,6 +3310,8 @@ b
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3278,7 +3319,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3367,6 +3407,8 @@ c
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3374,7 +3416,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3458,6 +3499,8 @@ d
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3465,7 +3508,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3580,6 +3622,8 @@ a
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3587,7 +3631,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3683,6 +3726,8 @@ d
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3690,7 +3735,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3856,6 +3900,8 @@ NaN
     
 )
     
+results
+=
 parser
 .
 finish
@@ -3922,6 +3968,8 @@ Infinity
         
 )
         
+results
+=
 parser
 .
 finish
@@ -3929,7 +3977,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -3997,6 +4044,8 @@ Infinity
         
 )
         
+results
+=
 parser
 .
 finish
@@ -4004,7 +4053,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -4072,6 +4120,8 @@ NaN
         
 )
         
+results
+=
 parser
 .
 finish
@@ -4079,7 +4129,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -4146,6 +4195,8 @@ Infinity
         
 )
         
+results
+=
 parser
 .
 finish
@@ -4153,7 +4204,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -4221,6 +4271,8 @@ Infinity
         
 )
         
+results
+=
 parser
 .
 finish
@@ -4228,7 +4280,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -4296,6 +4347,8 @@ NaN
         
 )
         
+results
+=
 parser
 .
 finish
@@ -4303,7 +4356,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -4368,6 +4420,8 @@ module
         
 )
         
+results
+=
 parser
 .
 finish
@@ -4375,7 +4429,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
