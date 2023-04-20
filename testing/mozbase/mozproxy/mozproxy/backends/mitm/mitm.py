@@ -98,15 +98,15 @@ utils
 import
 (
     
+LOG
+    
 download_file_from_url
-    
-transform_platform
-    
-tooltool_download
     
 get_available_port
     
-LOG
+tooltool_download
+    
+transform_platform
 )
 here
 =
@@ -2972,12 +2972,6 @@ env
 =
 env
             
-processStderrLine
-=
-LOG
-.
-error
-            
 storeOutput
 =
 False
@@ -3378,14 +3372,14 @@ mozprocess
 winprocess
 import
 (
+#
+noqa
                     
 ERROR_CONTROL_C_EXIT
                     
 ERROR_CONTROL_C_EXIT_DECIMAL
                 
 )
-#
-noqa
                 
 if
 exit_code
