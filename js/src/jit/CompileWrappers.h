@@ -419,6 +419,13 @@ addressOfMegamorphicCache
 (
 )
 ;
+const
+void
+*
+addressOfStringToAtomCache
+(
+)
+;
 #
 ifdef
 DEBUG
