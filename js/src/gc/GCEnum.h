@@ -726,11 +726,6 @@ WasmTagType
 \
 _
 (
-WasmRttValueChildren
-)
-\
-_
-(
 FileObjectFile
 )
 \
