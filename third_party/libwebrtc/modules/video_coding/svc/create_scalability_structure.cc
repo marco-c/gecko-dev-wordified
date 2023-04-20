@@ -369,7 +369,7 @@ ScalableVideoController
 :
 :
 StreamLayersConfig
-kConfigNone
+kConfigL1T1
 =
 {
 /
@@ -784,13 +784,13 @@ kFactories
 {
 {
 "
-NONE
+L1T1
 "
 Create
 <
 ScalableVideoControllerNoLayering
 >
-kConfigNone
+kConfigL1T1
 }
 {
 "

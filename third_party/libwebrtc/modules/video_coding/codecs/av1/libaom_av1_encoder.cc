@@ -1127,7 +1127,7 @@ not
 set
 using
 '
-NONE
+L1T1
 '
 .
 "
@@ -1135,7 +1135,7 @@ NONE
 scalability_mode
 =
 "
-NONE
+L1T1
 "
 ;
 }

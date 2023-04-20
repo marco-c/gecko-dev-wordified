@@ -2491,7 +2491,7 @@ Values
 SvcTestParam
 {
 "
-NONE
+L1T1
 "
 /
 *
