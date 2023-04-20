@@ -151,7 +151,9 @@ dataCollection
 enabled
 "
 :
-false
+QuickSuggestTestUtils
+.
+DATA_COLLECTION_OFFLINE
 "
 quicksuggest
 .

@@ -596,6 +596,8 @@ scenario
 data
 collection
 disabled
+by
+user
 add_suggestions_task
 (
 async
@@ -665,6 +667,8 @@ scenario
 data
 collection
 enabled
+by
+user
 add_suggestions_task
 (
 async
@@ -734,6 +738,8 @@ scenario
 data
 collection
 disabled
+by
+user
 add_suggestions_task
 (
 async
@@ -831,6 +837,8 @@ scenario
 data
 collection
 enabled
+by
+user
 add_suggestions_task
 (
 async
@@ -950,7 +958,9 @@ doImpressionTest
 suggestion
 improve_suggest_experience_checked
 :
-false
+QuickSuggestTestUtils
+.
+DATA_COLLECTION_OFFLINE
 isBestMatch
 :
 true
@@ -1670,6 +1680,8 @@ scenario
 data
 collection
 disabled
+by
+user
 add_suggestions_task
 (
 async
@@ -1744,6 +1756,8 @@ scenario
 data
 collection
 enabled
+by
+user
 add_suggestions_task
 (
 async
@@ -1818,6 +1832,8 @@ scenario
 data
 collection
 disabled
+by
+user
 add_suggestions_task
 (
 async
@@ -1920,6 +1936,8 @@ scenario
 data
 collection
 enabled
+by
+user
 add_suggestions_task
 (
 async
@@ -2022,6 +2040,8 @@ scenario
 data
 collection
 disabled
+by
+user
 add_suggestions_task
 (
 async
@@ -2096,6 +2116,8 @@ scenario
 data
 collection
 enabled
+by
+user
 add_suggestions_task
 (
 async
@@ -2170,6 +2192,8 @@ scenario
 data
 collection
 disabled
+by
+user
 add_suggestions_task
 (
 async
@@ -2272,6 +2296,8 @@ scenario
 data
 collection
 enabled
+by
+user
 add_suggestions_task
 (
 async
@@ -2396,7 +2422,9 @@ doClickTest
 suggestion
 improve_suggest_experience_checked
 :
-false
+QuickSuggestTestUtils
+.
+DATA_COLLECTION_OFFLINE
 useKeyboard
 :
 true
@@ -2466,7 +2494,9 @@ doClickTest
 suggestion
 improve_suggest_experience_checked
 :
-false
+QuickSuggestTestUtils
+.
+DATA_COLLECTION_OFFLINE
 isBestMatch
 :
 true
@@ -8005,7 +8035,9 @@ payload
 {
 improve_suggest_experience_checked
 :
-false
+QuickSuggestTestUtils
+.
+DATA_COLLECTION_OFFLINE
 block_id
 :
 firstSuggestion
