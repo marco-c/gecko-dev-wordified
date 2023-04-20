@@ -213,7 +213,6 @@ FieldTrialsView
 field_trials
 )
 ;
-virtual
 ~
 JitterEstimator
 (
@@ -363,7 +362,6 @@ value
 Jitter
 estimate
 .
-virtual
 TimeDelta
 GetJitterEstimate
 (
