@@ -7184,6 +7184,16 @@ platform
 "
 win
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+macosx
+"
 )
 {
 insertBasicInfo
