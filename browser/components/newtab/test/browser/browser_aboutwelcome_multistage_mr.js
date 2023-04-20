@@ -1250,14 +1250,6 @@ main
 .
 AW_ONLY_DEFAULT
 "
-"
-.
-action
--
-buttons
-.
-secondary
-"
 ]
 )
 ;
