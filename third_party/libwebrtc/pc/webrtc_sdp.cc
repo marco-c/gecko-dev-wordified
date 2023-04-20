@@ -25395,7 +25395,7 @@ protocol
 .
 RTC_LOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
@@ -25427,7 +25427,7 @@ of
 .
 RTC_LOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
