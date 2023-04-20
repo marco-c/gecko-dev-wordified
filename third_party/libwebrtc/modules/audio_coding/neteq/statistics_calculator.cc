@@ -1274,9 +1274,9 @@ size_t
 num_packets
 )
 {
-operations_and_state_
+lifetime_stats_
 .
-discarded_primary_packets
+packets_discarded
 +
 =
 num_packets
