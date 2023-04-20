@@ -852,17 +852,6 @@ LEAF
 Frame
 (
 "
-nsRootBoxFrame
-"
-"
-XULRoot
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsRubyBaseContainerFrame
 "
 "

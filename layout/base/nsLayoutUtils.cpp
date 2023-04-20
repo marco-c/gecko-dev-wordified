@@ -47343,9 +47343,11 @@ StyleAppearance
 :
 MozWinGlass
 )
+{
 return
 eTransparencyGlass
 ;
+}
 if
 (
 appearance
@@ -47356,9 +47358,11 @@ StyleAppearance
 :
 MozWinBorderlessGlass
 )
+{
 return
 eTransparencyBorderlessGlass
 ;
+}
 nsITheme
 :
 :
@@ -47376,6 +47380,7 @@ IsThemed
 transparency
 )
 )
+{
 return
 transparency
 =
@@ -47389,6 +47394,7 @@ eTransparencyTransparent
 :
 eTransparencyOpaque
 ;
+}
 /
 /
 We
@@ -47402,9 +47408,9 @@ treated
 as
 opaque
 because
-/
-/
 doing
+/
+/
 otherwise
 breaks
 window
@@ -47413,9 +47419,9 @@ effects
 on
 some
 platforms
-/
-/
 specifically
+/
+/
 Vista
 .
 (
@@ -47449,6 +47455,7 @@ return
 eTransparencyOpaque
 ;
 }
+const
 ComputedStyle
 *
 bgSC
