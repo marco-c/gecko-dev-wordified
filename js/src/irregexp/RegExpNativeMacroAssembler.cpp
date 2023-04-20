@@ -7679,10 +7679,7 @@ nullptr
 )
 ;
 }
-#
-ifdef
-JS_ION_PERF
-writePerfSpewerJitCodeProfile
+CollectPerfSpewerJitCodeProfile
 (
 code
 "
@@ -7690,8 +7687,6 @@ RegExp
 "
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_VTUNE
