@@ -364,6 +364,11 @@ bool
 aOnLine
 )
 ;
+void
+Invalidate
+(
+)
+;
 virtual
 JSObject
 *
