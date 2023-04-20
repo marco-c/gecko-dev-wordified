@@ -482,7 +482,7 @@ byte
 so
 size
 of
-feeded
+fed
 data
 /
 /

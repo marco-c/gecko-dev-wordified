@@ -34,7 +34,7 @@ tests
 .
 /
 /
-choosen
+chosen
 by
 fair
 dice

@@ -61,7 +61,7 @@ HashMarker
 /
 /
 /
-Convinience
+Convenience
 wrapper
 trait
 covering
