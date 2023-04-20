@@ -9629,7 +9629,7 @@ memcpy
 arrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 &
@@ -10265,7 +10265,7 @@ void
 arrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 ;
@@ -10728,7 +10728,7 @@ will
 be
 incorrect
 .
-STATIC_ASSERT_NUMELEMENTS_IS_U32
+STATIC_ASSERT_WASMARRAYELEMENTS_NUMELEMENTS_IS_U32
 ;
 /
 /
@@ -10945,7 +10945,7 @@ srcBase
 srcArrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 ;
@@ -10956,7 +10956,7 @@ dstBase
 dstArrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 ;
