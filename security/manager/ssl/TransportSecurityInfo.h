@@ -650,7 +650,7 @@ eligible
 for
 joining
 in
-nsNSSSocketInfo
+NSSSocketControl
 :
 :
 JoinConnection
