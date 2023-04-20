@@ -48465,6 +48465,6 @@ StyleDisplay
 )
 -
 >
-mLineClamp
+mWebkitLineClamp
 ;
 }

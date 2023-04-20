@@ -2891,6 +2891,12 @@ trivial_to_animated_value
 f32
 )
 ;
+trivial_to_animated_value
+!
+(
+i32
+)
+;
 /
 /
 Note
