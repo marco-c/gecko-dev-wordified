@@ -2073,6 +2073,12 @@ GcOp
 :
 BrOnCast
 :
+case
+GcOp
+:
+:
+BrOnCastFail
+:
 WASM_GC_OP
 (
 OpKind

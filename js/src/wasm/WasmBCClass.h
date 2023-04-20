@@ -14159,8 +14159,10 @@ nodiscard
 ]
 ]
 bool
-emitBrOnCast
+emitBrOnCastCommon
 (
+bool
+onSuccess
 )
 ;
 void
