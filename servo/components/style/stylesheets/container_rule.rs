@@ -1357,7 +1357,7 @@ size
 =
 potential_container
 .
-primary_box_size
+primary_content_box_size
 (
 )
 ;
@@ -2977,7 +2977,7 @@ size
 =
 e
 .
-primary_box_size
+primary_content_box_size
 (
 )
 ;
