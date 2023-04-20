@@ -231,6 +231,8 @@ nsIAlertAction
 >
 &
 aActions
+bool
+aIsSystemPrincipal
 )
 :
 mBackend
@@ -284,6 +286,10 @@ aActions
 Clone
 (
 )
+)
+mIsSystemPrincipal
+(
+aIsSystemPrincipal
 )
 mSentFinished
 (
@@ -539,6 +545,9 @@ nsIAlertAction
 >
 >
 mActions
+;
+bool
+mIsSystemPrincipal
 ;
 bool
 mSentFinished
