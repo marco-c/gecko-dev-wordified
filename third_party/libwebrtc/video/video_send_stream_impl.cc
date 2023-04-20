@@ -1271,15 +1271,9 @@ GetPacingFactor
 .
 value_or
 (
-static_cast
-<
-double
->
-(
 default_pacing_config
 .
 pacing_factor
-)
 )
 ;
 }
