@@ -25,13 +25,6 @@ sub
 js
 /
 /
-META
-:
-timeout
-=
-long
-/
-/
 /
 /
 Spec
@@ -150,7 +143,7 @@ isSecureContext
 }
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -196,7 +189,7 @@ required
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -242,7 +235,7 @@ required
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -288,7 +281,7 @@ required
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -332,7 +325,7 @@ failure
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -378,7 +371,7 @@ required
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -424,7 +417,7 @@ required
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -468,7 +461,7 @@ failure
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -512,7 +505,7 @@ failure
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -558,7 +551,7 @@ required
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -611,7 +604,7 @@ failure
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
@@ -664,7 +657,7 @@ failure
 "
 )
 ;
-promise_test
+promise_test_parallel
 (
 t
 =
