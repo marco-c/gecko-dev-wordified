@@ -3363,6 +3363,7 @@ endValue
 )
 &
 aNewStyle
+timeline
 )
 ;
 if

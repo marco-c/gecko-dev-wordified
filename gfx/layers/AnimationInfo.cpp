@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsStyleTransformMatrix
 .
 h
