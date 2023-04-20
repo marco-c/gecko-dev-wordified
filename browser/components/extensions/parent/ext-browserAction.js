@@ -1058,6 +1058,9 @@ type
 "
 view
 "
+webExtension
+:
+true
 removable
 :
 true
