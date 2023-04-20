@@ -494,9 +494,6 @@ watcherActor
 .
 sessionContext
 }
-{
-onNetworkEvent
-:
 this
 .
 onNetworkEvent
@@ -505,8 +502,6 @@ bind
 (
 this
 )
-shouldIgnoreChannel
-:
 this
 .
 shouldIgnoreChannel
@@ -515,7 +510,6 @@ bind
 (
 this
 )
-}
 )
 ;
 this
