@@ -8903,9 +8903,7 @@ global
 const
 service
 =
-this
-.
-browserRequire
+require
 (
 "
 devtools
