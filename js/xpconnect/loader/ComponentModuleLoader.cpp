@@ -892,9 +892,6 @@ LoadSingleModuleScript
 (
 cx
 aRequest
--
->
-mURI
 &
 script
 )
