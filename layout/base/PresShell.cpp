@@ -36781,6 +36781,7 @@ transparent
 except
 if
 their
+used
 embedder
 color
 -
@@ -36857,9 +36858,11 @@ switch
 bc
 -
 >
-GetEmbedderColorScheme
+GetEmbedderColorSchemes
 (
 )
+.
+mUsed
 )
 {
 case
