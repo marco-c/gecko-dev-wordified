@@ -1190,6 +1190,8 @@ IsEditableRoot
 )
 |
 |
+(
+(
 Type
 (
 )
@@ -1204,6 +1206,17 @@ Type
 =
 =
 eType_FakePlugin
+)
+&
+&
+nsContentUtils
+:
+:
+IsSubDocumentTabbable
+(
+this
+)
+)
 )
 {
 if

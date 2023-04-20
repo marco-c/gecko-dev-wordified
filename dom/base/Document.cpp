@@ -39097,8 +39097,6 @@ Document
 :
 GetUnretargetedFocusedContent
 (
-IncludeChromeOnly
-aIncludeChromeOnly
 )
 const
 {
@@ -39196,15 +39194,6 @@ focusedContent
 ChromeOnlyAccess
 (
 )
-&
-&
-aIncludeChromeOnly
-=
-=
-IncludeChromeOnly
-:
-:
-No
 )
 {
 return
