@@ -1840,6 +1840,23 @@ False
     
 if
 "
+p5
+"
+in
+platform
+and
+"
+aarch64
+"
+in
+platform
+:
+        
+return
+False
+    
+if
+"
 g5
 "
 in
@@ -5490,6 +5507,8 @@ Bug
 a51
 and
 p2
+/
+p5
 are
 failing
 to
@@ -5506,6 +5525,7 @@ in
 try_name
 and
 (
+                
 "
 -
 a51
@@ -5519,6 +5539,14 @@ p2
 "
 in
 platform
+or
+"
+-
+p5
+"
+in
+platform
+            
 )
 :
                 
