@@ -1958,6 +1958,13 @@ GetTickCount
 (
 )
 ;
+AccessibleWrap
+:
+:
+SuppressHandlerA11yForClipboardCopy
+(
+)
+;
 }
 }
 /
@@ -1977,7 +1984,7 @@ constexpr
 DWORD
 kSuppressTimeout
 =
-1000
+1500
 ;
 /
 /
