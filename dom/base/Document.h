@@ -23735,7 +23735,9 @@ l10n
 /
 docs
 /
-fluent_tutorial
+fluent
+/
+tutorial
 .
 rst
 *
