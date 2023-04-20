@@ -3759,13 +3759,7 @@ been
 destroyed
 yet
 ?
-mozilla
-:
-:
-Atomic
-<
 bool
->
 mIsDestroyed
 ;
 /
