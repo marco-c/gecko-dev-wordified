@@ -12,7 +12,7 @@ Plural
 Rules
 ]
 (
-http
+https
 :
 /
 /
@@ -46,7 +46,7 @@ operands
 description
 ]
 (
-http
+https
 :
 /
 /
@@ -451,7 +451,7 @@ Plural
 Rules
 ]
 (
-http
+https
 :
 /
 /
