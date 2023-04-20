@@ -3586,13 +3586,6 @@ Now
 )
 )
 {
-marker
-.
-setIncrementalGCEnabled
-(
-incrementalGCEnabled
-)
-;
 }
 using
 CharRange
@@ -8339,13 +8332,6 @@ enabled
 incrementalGCEnabled
 =
 enabled
-;
-marker
-.
-setIncrementalGCEnabled
-(
-enabled
-)
 ;
 }
 void
