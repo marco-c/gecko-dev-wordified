@@ -119,4 +119,9 @@ test_syncAccessHandle_worker
 .
 js
 "
+"
+test_writableFileStream_worker
+.
+js
+"
 ]

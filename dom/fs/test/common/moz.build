@@ -132,4 +132,9 @@ test_syncAccessHandle
 .
 js
 "
+"
+test_writableFileStream
+.
+js
+"
 ]
