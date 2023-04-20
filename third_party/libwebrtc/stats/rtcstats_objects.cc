@@ -816,6 +816,8 @@ RTCStats
 codec
 "
 &
+transport_id
+&
 payload_type
 &
 mime_type
@@ -888,6 +890,12 @@ id
 )
 timestamp_us
 )
+transport_id
+(
+"
+transportId
+"
+)
 payload_type
 (
 "
@@ -943,6 +951,12 @@ other
 timestamp_us
 (
 )
+)
+transport_id
+(
+other
+.
+transport_id
 )
 payload_type
 (
