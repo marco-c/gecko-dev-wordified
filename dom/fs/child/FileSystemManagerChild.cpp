@@ -244,7 +244,7 @@ MutableAccessHandlePtr
 )
 -
 >
-Close
+CloseInternal
 (
 )
 ;

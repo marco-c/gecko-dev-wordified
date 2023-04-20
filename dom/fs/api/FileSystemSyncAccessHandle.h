@@ -247,6 +247,11 @@ ClearActor
 (
 )
 ;
+void
+CloseInternal
+(
+)
+;
 /
 /
 WebIDL
