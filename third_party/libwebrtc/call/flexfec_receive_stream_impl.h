@@ -348,13 +348,6 @@ packet
 )
 override
 ;
-Stats
-GetStats
-(
-)
-const
-override
-;
 /
 /
 ReceiveStreamInterface
