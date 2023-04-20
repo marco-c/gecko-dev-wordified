@@ -18795,6 +18795,8 @@ css
 :
 :
 StylePreloadKind
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 /
