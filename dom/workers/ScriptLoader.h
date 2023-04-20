@@ -1919,6 +1919,14 @@ aRequest
 )
 ;
 bool
+HasLoadErrors
+(
+WorkerLoadContext
+*
+aLoadContext
+)
+;
+bool
 EvaluateScript
 (
 JSContext
