@@ -380,6 +380,11 @@ aStatusCode
 )
 override
 ;
+bool
+mTriedDownloadODoHConfigs
+=
+false
+;
 }
 ;
 }
