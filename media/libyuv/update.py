@@ -549,7 +549,7 @@ patch
 "
 "
 -
-p3
+p1
 "
 ]
 stdin
@@ -557,7 +557,17 @@ stdin
 f
 cwd
 =
+os
+.
+path
+.
+join
+(
 base
+'
+libyuv
+'
+)
 )
 .
 wait
