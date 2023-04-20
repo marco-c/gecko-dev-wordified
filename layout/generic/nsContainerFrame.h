@@ -2920,7 +2920,13 @@ aDest
 AppendFrames
 (
 nullptr
+std
+:
+:
+move
+(
 aSrc
+)
 )
 ;
 }

@@ -16312,7 +16312,13 @@ colGroupList
 AppendFrames
 (
 nullptr
+std
+:
+:
+move
+(
 head
+)
 )
 ;
 }
@@ -16323,7 +16329,13 @@ principalList
 AppendFrames
 (
 nullptr
+std
+:
+:
+move
+(
 head
+)
 )
 ;
 }
