@@ -454,6 +454,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -482,6 +485,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -510,6 +516,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -536,6 +545,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -570,6 +582,9 @@ FileSystemEntryMetadataArray
 >
 &
 aSink
+ErrorResult
+&
+aError
 )
 (
 override
@@ -598,6 +613,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -631,6 +649,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -664,6 +685,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -690,6 +714,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 (
 override
@@ -852,7 +879,7 @@ Value
 aValue
 ErrorResult
 &
-aRv
+aError
 )
 override
 {
@@ -910,7 +937,7 @@ Value
 aValue
 ErrorResult
 &
-aRv
+aError
 )
 override
 {

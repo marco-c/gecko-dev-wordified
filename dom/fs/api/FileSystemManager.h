@@ -354,7 +354,7 @@ GetDirectory
 (
 ErrorResult
 &
-aRv
+aError
 )
 ;
 private

@@ -2207,8 +2207,6 @@ RefPtr
 Promise
 >
 aPromise
-)
-{
 /
 /
 NOLINT
@@ -2221,6 +2219,11 @@ value
 -
 param
 )
+ErrorResult
+&
+aError
+)
+{
 MOZ_ASSERT
 (
 aManager
@@ -2339,8 +2342,6 @@ RefPtr
 Promise
 >
 aPromise
-)
-{
 /
 /
 NOLINT
@@ -2353,6 +2354,11 @@ value
 -
 param
 )
+ErrorResult
+&
+aError
+)
+{
 MOZ_ASSERT
 (
 aManager
@@ -2535,8 +2541,6 @@ RefPtr
 Promise
 >
 aPromise
-)
-{
 /
 /
 NOLINT
@@ -2549,6 +2553,11 @@ value
 -
 param
 )
+ErrorResult
+&
+aError
+)
+{
 MOZ_ASSERT
 (
 aManager
@@ -2730,6 +2739,9 @@ Promise
 >
 &
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -2864,8 +2876,6 @@ RefPtr
 Promise
 >
 aPromise
-)
-{
 /
 /
 NOLINT
@@ -2878,6 +2888,11 @@ value
 -
 param
 )
+ErrorResult
+&
+aError
+)
+{
 MOZ_ASSERT
 (
 aManager
@@ -3044,6 +3059,9 @@ FileSystemEntryMetadataArray
 >
 &
 aSink
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -3179,8 +3197,6 @@ RefPtr
 Promise
 >
 aPromise
-)
-{
 /
 /
 NOLINT
@@ -3193,6 +3209,11 @@ value
 -
 param
 )
+ErrorResult
+&
+aError
+)
+{
 MOZ_ASSERT
 (
 aManager
@@ -3370,8 +3391,6 @@ RefPtr
 Promise
 >
 aPromise
-)
-{
 /
 /
 NOLINT
@@ -3384,6 +3403,11 @@ value
 -
 param
 )
+ErrorResult
+&
+aError
+)
+{
 MOZ_ASSERT
 (
 aPromise
@@ -3555,8 +3579,6 @@ RefPtr
 Promise
 >
 aPromise
-)
-{
 /
 /
 NOLINT
@@ -3569,6 +3591,11 @@ value
 -
 param
 )
+ErrorResult
+&
+aError
+)
+{
 MOZ_ASSERT
 (
 !
@@ -3755,6 +3782,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
