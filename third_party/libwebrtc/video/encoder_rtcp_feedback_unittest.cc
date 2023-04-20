@@ -175,6 +175,7 @@ kSsrc
 )
 &
 encoder_
+nullptr
 )
 {
 }
