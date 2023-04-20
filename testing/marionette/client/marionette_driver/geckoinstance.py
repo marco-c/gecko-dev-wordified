@@ -643,6 +643,23 @@ enabled
 False
         
 #
+Screen
+Orientation
+API
+        
+"
+dom
+.
+screenorientation
+.
+allow
+-
+lock
+"
+:
+True
+        
+#
 Disable
 dialog
 abuse
