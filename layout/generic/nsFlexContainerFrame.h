@@ -2312,6 +2312,11 @@ nsIFrame
 >
 mPlaceholders
 ;
+bool
+mHasCollapsedItems
+=
+false
+;
 /
 /
 The
@@ -3172,6 +3177,9 @@ FlexLine
 >
 &
 aLines
+bool
+&
+aHasCollapsedItems
 )
 ;
 /
