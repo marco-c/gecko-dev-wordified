@@ -4873,7 +4873,7 @@ aLists
 ;
 if
 (
-HidesContent
+IsContentHidden
 (
 )
 )
