@@ -3059,9 +3059,6 @@ nsRange
 >
 &
 aReturn
-mozilla
-:
-:
 ErrorResult
 &
 aRv
@@ -3075,13 +3072,10 @@ int16_t
 aRegion
 bool
 aIsSynchronous
-WhereToScroll
+int16_t
 aVPercent
-WhereToScroll
+int16_t
 aHPercent
-mozilla
-:
-:
 ErrorResult
 &
 aRv
@@ -3106,9 +3100,6 @@ const
 nsAString
 &
 aAltBackColor
-mozilla
-:
-:
 ErrorResult
 &
 aRv
@@ -3117,9 +3108,6 @@ aRv
 void
 ResetColors
 (
-mozilla
-:
-:
 ErrorResult
 &
 aRv

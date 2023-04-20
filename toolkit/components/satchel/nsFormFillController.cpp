@@ -2511,7 +2511,10 @@ ScrollContentIntoView
 content
 ScrollAxis
 (
-kScrollMinimum
+WhereToScroll
+:
+:
+Nearest
 WhenToScroll
 :
 :
@@ -2519,7 +2522,10 @@ IfNotVisible
 )
 ScrollAxis
 (
-kScrollMinimum
+WhereToScroll
+:
+:
+Nearest
 WhenToScroll
 :
 :
