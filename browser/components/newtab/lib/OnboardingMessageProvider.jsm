@@ -2082,6 +2082,9 @@ checkbox
 label
 "
 }
+defaultValue
+:
+true
 action
 :
 {
