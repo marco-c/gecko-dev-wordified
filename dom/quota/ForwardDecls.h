@@ -206,6 +206,16 @@ nsresult
 false
 >
 ;
+using
+Int64Promise
+=
+MozPromise
+<
+int64_t
+nsresult
+false
+>
+;
 }
 /
 /
