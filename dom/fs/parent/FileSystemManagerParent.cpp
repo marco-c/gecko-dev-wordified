@@ -1120,7 +1120,13 @@ aResolver
 (
 FileSystemAccessHandleProperties
 (
+std
+:
+:
+move
+(
 streamParams
+)
 accessHandleParent
 nullptr
 )

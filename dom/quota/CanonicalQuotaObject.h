@@ -355,6 +355,15 @@ int64_t
 aSize
 )
 :
+QuotaObject
+(
+/
+*
+aIsRemote
+*
+/
+false
+)
 mOriginInfo
 (
 aOriginInfo
