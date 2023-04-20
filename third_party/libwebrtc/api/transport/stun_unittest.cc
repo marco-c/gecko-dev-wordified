@@ -8610,7 +8610,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8634,7 +8634,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8660,7 +8660,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8684,7 +8684,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8710,7 +8710,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8734,7 +8734,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8792,7 +8792,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8816,7 +8816,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8849,7 +8849,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8873,7 +8873,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8897,7 +8897,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8936,7 +8936,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -8969,7 +8969,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -9002,7 +9002,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -9051,7 +9051,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -9178,7 +9178,7 @@ buf
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 buf
 sizeof
@@ -9348,7 +9348,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -9481,7 +9481,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -9540,7 +9540,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9564,7 +9564,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9597,7 +9597,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9621,7 +9621,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9645,7 +9645,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9684,7 +9684,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9717,7 +9717,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9750,7 +9750,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9799,7 +9799,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -9926,7 +9926,7 @@ buf
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 buf
 sizeof
@@ -10068,7 +10068,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -10201,7 +10201,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -10355,7 +10355,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -10386,7 +10386,7 @@ EXPECT_TRUE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <
@@ -10417,7 +10417,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity32
+ValidateMessageIntegrity32ForTesting
 (
 reinterpret_cast
 <
@@ -10448,7 +10448,7 @@ EXPECT_FALSE
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 reinterpret_cast
 <

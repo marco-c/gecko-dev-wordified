@@ -1844,7 +1844,6 @@ CheckAuthorization
 TurnServerConnection
 *
 conn
-const
 StunMessage
 *
 msg
