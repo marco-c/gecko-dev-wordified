@@ -64,9 +64,11 @@ devtools
 /
 shared
 /
-webconsole
+network
+-
+observer
 /
-Throttle
+NetworkThrottleManager
 .
 sys
 .

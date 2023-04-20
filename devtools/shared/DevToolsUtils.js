@@ -186,7 +186,9 @@ devtools
 /
 shared
 /
-webconsole
+network
+-
+observer
 /
 NetworkHelper
 .

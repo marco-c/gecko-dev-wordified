@@ -131,6 +131,11 @@ loader
 locales
 "
 "
+network
+-
+observer
+"
+"
 node
 -
 properties
