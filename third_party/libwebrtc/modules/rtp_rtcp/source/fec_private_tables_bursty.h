@@ -241,14 +241,10 @@ between
 these
 masks
 (
-|
 kFecMaskBursty
-|
 )
 and
-|
 kFecMaskRandom
-|
 type
 defined
 /

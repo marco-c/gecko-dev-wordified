@@ -390,9 +390,7 @@ Account
 for
 this
 unless
-|
 duration
-|
 is
 exactly
 representable
@@ -3311,15 +3309,9 @@ tommi
 :
 Check
 if
-|
 avg_rtt_ms
-|
-|
 min_rtt_ms
-|
-|
 max_rtt_ms
-|
 params
 are
 /
@@ -3349,9 +3341,7 @@ could
 be
 that
 only
-|
 rtt
-|
 is
 needed
 and
@@ -3485,9 +3475,7 @@ No
 rtt
 available
 (
-|
 kRttUpdateInterval
-|
 not
 yet
 passed
@@ -4315,9 +4303,7 @@ list
 once
 within
 every
-|
 wait_time
-|
 .
 return
 now
@@ -5331,9 +5317,7 @@ in
 ScheduleRtcpSendEvaluation
 about
 why
-|
 worker_queue_
-|
 can
 be
 /

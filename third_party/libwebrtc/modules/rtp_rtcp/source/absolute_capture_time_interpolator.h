@@ -174,9 +174,7 @@ class
 for
 interpolating
 the
-|
 AbsoluteCaptureTime
-|
 header
 extension
 .

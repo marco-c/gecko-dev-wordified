@@ -214,9 +214,7 @@ larger
 tracking
 window
 than
-|
 kMaxMediaPackets
-|
 /
 /
 to

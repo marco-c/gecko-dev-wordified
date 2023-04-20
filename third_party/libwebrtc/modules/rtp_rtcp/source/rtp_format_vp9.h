@@ -269,9 +269,7 @@ public
 /
 /
 The
-|
 payload
-|
 must
 be
 one
@@ -333,9 +331,7 @@ marker
 bit
 of
 the
-|
 packet
-|
 .
 /
 /
@@ -367,13 +363,9 @@ header
 .
 /
 /
-|
 layer_begin
-|
 and
-|
 layer_end
-|
 indicates
 the
 postision

@@ -379,9 +379,7 @@ packet_infos
 /
 Returns
 an
-|
 RtpSource
-|
 for
 each
 unique
@@ -395,9 +393,7 @@ in
 /
 the
 last
-|
 kTimeoutMs
-|
 milliseconds
 .
 Entries
@@ -462,9 +458,7 @@ source
 /
 Type
 of
-|
 source
-|
 .
 RtpSourceType
 source_type
@@ -617,9 +611,7 @@ outer
 class
 '
 s
-|
 clock_
-|
 .
 int64_t
 timestamp_ms
@@ -654,9 +646,7 @@ associated
 with
 /
 /
-|
 timestamp_ms
-|
 .
 May
 be
@@ -764,9 +754,7 @@ frame
 /
 associated
 with
-|
 timestamp_ms
-|
 .
 uint32_t
 rtp_timestamp

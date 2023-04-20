@@ -155,14 +155,10 @@ contain
 /
 /
 all
-|
 extensions
-|
 with
 provided
-|
 value_size
-|
 .
 /
 /
@@ -171,9 +167,7 @@ only
 extensions
 present
 among
-|
 registered_extensions
-|
 .
 int
 RtpHeaderExtensionSize

@@ -155,9 +155,7 @@ were
 always
 set
 to
-|
 true
-|
 .
 constexpr
 uint8_t

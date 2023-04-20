@@ -979,9 +979,7 @@ RTT
 for
 at
 least
-|
 kRtpRtcpRttProcessTimeMs
-|
 milliseconds
 .
 /
@@ -998,9 +996,7 @@ so
 check
 /
 /
-|
 process_rtt
-|
 first
 .
 if
@@ -3479,9 +3475,7 @@ No
 rtt
 available
 (
-|
 kRtpRtcpRttProcessTimeMs
-|
 not
 yet
 passed
@@ -4309,9 +4303,7 @@ list
 once
 within
 every
-|
 wait_time
-|
 .
 return
 now

@@ -297,9 +297,7 @@ marker
 bit
 of
 the
-|
 packet
-|
 .
 /
 /
@@ -332,9 +330,7 @@ integers
 with
 respect
 to
-|
 limits
-|
 .
 /
 /

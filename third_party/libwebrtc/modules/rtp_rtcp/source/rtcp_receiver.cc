@@ -616,9 +616,7 @@ Returns
 true
 if
 the
-|
 timestamp
-|
 has
 exceeded
 the
@@ -979,15 +977,11 @@ hbos
 )
 :
 Remove
-|
 report_blocks
-|
 in
 favor
 of
-|
 report_block_datas
-|
 .
 ReportBlockList
 report_blocks
@@ -4196,9 +4190,7 @@ the
 RTT
 only
 when
-|
 receiver_only_
-|
 /
 /
 is
@@ -6387,9 +6379,7 @@ packet_overhead
 FindOrCreateTmmbrInfo
 always
 sets
-|
 last_time_received_ms
-|
 to
 /
 /

@@ -355,15 +355,11 @@ kMediaSsrc
 /
 /
 Generates
-|
 num_fec_packets
-|
 FEC
 packets
 given
-|
 media_packets
-|
 .
 void
 EncodeFec
@@ -395,9 +391,7 @@ fec_packets
 /
 /
 Generates
-|
 num_media_packets
-|
 corresponding
 to
 a
@@ -436,9 +430,7 @@ a
 media
 packet
 using
-|
 packet_generator_
-|
 and
 add
 it
@@ -467,9 +459,7 @@ a
 FEC
 packet
 using
-|
 packet_generator_
-|
 and
 add
 it
@@ -491,9 +481,7 @@ packet
 /
 Ensure
 that
-|
 recovered_packet_receiver_
-|
 will
 be
 called
@@ -887,9 +875,7 @@ the
 /
 content
 of
-|
 packet
-|
 and
 that
 the
@@ -897,9 +883,7 @@ same
 content
 is
 received
-|
 times
-|
 number
 /
 /

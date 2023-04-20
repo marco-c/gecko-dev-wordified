@@ -1179,9 +1179,7 @@ flexfec_ssrc_
 Sends
 packet
 to
-|
 transport_
-|
 or
 to
 the
@@ -1419,13 +1417,9 @@ to
 =
 /
 /
-|
 max_padding_size_factor_
-|
 *
-|
 target_size_bytes
-|
 const
 double
 max_padding_size_factor_

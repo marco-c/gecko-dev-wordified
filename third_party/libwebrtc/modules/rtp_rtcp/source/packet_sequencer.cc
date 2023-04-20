@@ -589,9 +589,7 @@ with
 sequence
 number
 following
-|
 packet
-|
 .
 last_packet_marker_bit_
 =

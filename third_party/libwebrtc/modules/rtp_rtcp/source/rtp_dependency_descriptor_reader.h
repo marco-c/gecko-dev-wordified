@@ -227,9 +227,7 @@ private
 Reads
 bits
 from
-|
 buffer_
-|
 .
 If
 it

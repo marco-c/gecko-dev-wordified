@@ -3180,9 +3180,7 @@ frame
 with
 payload
 size
-|
 frame_payload_size
-|
 without
 fragmentation
 /

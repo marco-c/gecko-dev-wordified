@@ -517,9 +517,7 @@ with
 the
 exception
 of
-|
 field_trials
-|
 are
 /
 /
@@ -697,9 +695,7 @@ serialized
 .
 /
 /
-|
 estimated_capture_clock_offset_ms
-|
 is
 an
 estimated
@@ -1428,9 +1424,7 @@ if
 we
 should
 send
-|
 allocation_
-|
 .
 SendVideoLayersAllocation
 send_allocation_
@@ -1462,9 +1456,7 @@ we
 need
 to
 send
-|
 current_playout_delay_
-|
 in
 order
 /

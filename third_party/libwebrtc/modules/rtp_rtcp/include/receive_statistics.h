@@ -204,9 +204,7 @@ blocks
 Returns
 at
 most
-|
 max_blocks
-|
 report
 blocks
 .

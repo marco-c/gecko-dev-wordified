@@ -291,9 +291,7 @@ brandtr
 )
 :
 Set
-|
 ulpfec_payload_type
-|
 during
 constructor
 call

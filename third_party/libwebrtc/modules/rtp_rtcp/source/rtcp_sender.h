@@ -457,9 +457,7 @@ SSRC
 is
 fetched
 from
-|
 flexfec_sender
-|
 .
 uint32_t
 local_media_ssrc
@@ -1466,9 +1464,7 @@ mutex_rtcp_sender_
 ;
 /
 /
-|
 duration
-|
 being
 TimeDelta
 :

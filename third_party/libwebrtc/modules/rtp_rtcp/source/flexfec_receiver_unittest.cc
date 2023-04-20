@@ -381,9 +381,7 @@ kFlexfecSsrc
 /
 /
 Generates
-|
 num_media_packets
-|
 corresponding
 to
 a
@@ -405,15 +403,11 @@ media_packets
 /
 /
 Generates
-|
 num_fec_packets
-|
 FEC
 packets
 given
-|
 media_packets
-|
 .
 std
 :
@@ -3251,9 +3245,7 @@ recovered
 packets
 back
 into
-|
 receiver
-|
 .
 FlexfecReceiver
 receiver
@@ -4063,9 +4055,7 @@ recovered
 packets
 back
 into
-|
 receiver
-|
 .
 FlexfecReceiver
 receiver
@@ -4605,9 +4595,7 @@ media_packets
 Receive
 first
 (
-|
 kFirstFrameNumMediaPackets
-|
 +
 192
 )

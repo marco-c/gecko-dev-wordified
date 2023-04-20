@@ -183,9 +183,7 @@ code
 paring
 down
 to
-|
 max_entries_
-|
 .
 RTC_DCHECK_LE
 (
@@ -315,9 +313,7 @@ range
 currently
 held
 by
-|
 associations_
-|
 -
 we
 should
@@ -449,9 +445,7 @@ It
 is
 guaranteed
 that
-|
 associations_
-|
 can
 be
 split

@@ -525,11 +525,9 @@ return
 /
 value
 of
-|
 emplace
 (
 )
-|
 for
 performance
 reasons

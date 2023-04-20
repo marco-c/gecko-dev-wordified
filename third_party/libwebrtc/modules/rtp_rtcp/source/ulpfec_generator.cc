@@ -321,9 +321,7 @@ at
 /
 /
 least
-|
 kMinMediaPackets
-|
 packets
 for
 the
@@ -335,9 +333,7 @@ this
 /
 /
 threshold
-|
 kMinMediaPackets
-|
 is
 set
 to
@@ -392,9 +388,7 @@ used
 to
 adapt
 the
-|
 kMinMediaPackets
-|
 threshold
 based
 /
@@ -431,9 +425,7 @@ at
 least
 /
 /
-|
 kMinMediaPackets
-|
 +
 1
 packets
@@ -926,9 +918,7 @@ only
 protect
 up
 to
-|
 kUlpfecMaxMediaPackets
-|
 packets
 .
 auto
@@ -1073,9 +1063,7 @@ is
 /
 less
 than
-|
 kMaxExcessOverhead
-|
 and
 /
 /
@@ -1084,9 +1072,7 @@ and
 )
 at
 least
-|
 min_num_media_packets_
-|
 media
 packets
 is
@@ -1443,9 +1429,7 @@ the
 FEC
 packets
 in
-|
 generated_fec_packets_
-|
 don
 '
 t

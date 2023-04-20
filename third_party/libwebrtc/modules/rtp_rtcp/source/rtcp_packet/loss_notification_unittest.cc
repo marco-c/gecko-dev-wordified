@@ -588,9 +588,7 @@ packet
 /
 Change
 the
-|
 length
-|
 field
 of
 the

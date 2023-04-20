@@ -575,9 +575,7 @@ each
 sequence
 number
 in
-|
 sequence_number
-|
 recall
 the
 last
@@ -824,9 +822,7 @@ Sends
 packet
 on
 to
-|
 transport_
-|
 leaving
 the
 RTP

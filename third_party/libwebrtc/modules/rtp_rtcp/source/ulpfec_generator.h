@@ -535,9 +535,7 @@ below
 /
 the
 amount
-|
 kMaxExcessOverhead
-|
 .
 This
 effects
@@ -608,9 +606,7 @@ at
 least
 /
 /
-|
 min_num_media_packets_
-|
 .
 This
 condition

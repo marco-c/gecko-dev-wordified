@@ -1744,13 +1744,9 @@ packets
 /
 /
 from
-|
 packet_generator_
-|
 to
-|
 packet_sender_
-|
 .
 RtpSenderEgress
 :
@@ -1875,9 +1871,7 @@ worker_queue_
 /
 Called
 when
-|
 rtcp_sender_
-|
 informs
 of
 the
@@ -1967,9 +1961,7 @@ to
 MaybeSendRtcpAtOrAfterTimestamp
 delayed
 by
-|
 duration
-|
 .
 void
 ScheduleMaybeSendRtcpAtOrAfterTimestamp

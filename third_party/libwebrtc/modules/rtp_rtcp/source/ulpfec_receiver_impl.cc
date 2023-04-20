@@ -1338,9 +1338,7 @@ If
 we
 iterate
 over
-|
 received_packets_
-|
 and
 it
 contains
@@ -1383,9 +1381,7 @@ we
 swap
 /
 /
-|
 received_packets_
-|
 with
 an
 empty

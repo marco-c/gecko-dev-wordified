@@ -224,9 +224,7 @@ media
 packets
 up
 to
-|
 num_media_packets
-|
 packets
 .
 ForwardErrorCorrection
@@ -378,9 +376,7 @@ protected
 /
 /
 Given
-|
 header
-|
 writes
 the
 appropriate
@@ -388,9 +384,7 @@ RTP
 header
 fields
 in
-|
 data
-|
 .
 static
 void

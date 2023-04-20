@@ -1624,9 +1624,7 @@ kMaxTwoBitCapacity
 /
 /
 Remove
-|
 kMaxTwoBitCapacity
-|
 encoded
 delta
 sizes
@@ -1772,9 +1770,7 @@ of
 the
 Lastchunk
 to
-|
 deltas
-|
 .
 void
 TransportFeedback
@@ -3911,9 +3907,7 @@ is
 stored
 in
 the
-|
 last_chunk_
-|
 .
 encoded_chunks_
 .

@@ -837,9 +837,7 @@ BlockLength
 /
 Note
 :
-|
 index
-|
 updated
 by
 the

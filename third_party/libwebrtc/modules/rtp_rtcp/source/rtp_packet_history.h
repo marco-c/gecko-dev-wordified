@@ -192,9 +192,7 @@ kStoreAndCull
 Store
 up
 to
-|
 number_to_store
-|
 packets
 but
 try
@@ -523,9 +521,7 @@ rtt_ms
 /
 /
 If
-|
 send_time
-|
 is
 set
 packet
@@ -1563,9 +1559,7 @@ instances
 of
 StoredPacket
 with
-|
 packet_
-|
 set
 to
 nullptr
@@ -1619,9 +1613,7 @@ lock_
 /
 Objects
 from
-|
 packet_history_
-|
 ordered
 by
 "

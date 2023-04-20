@@ -431,9 +431,7 @@ remove
 it
 before
 updating
-|
 times_retransmitted_
-|
 since
 that
 is

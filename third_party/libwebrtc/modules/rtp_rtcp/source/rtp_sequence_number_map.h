@@ -160,9 +160,7 @@ of
 entries
 .
 Whenever
-|
 max_entries
-|
 is
 about
 to

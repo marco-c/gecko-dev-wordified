@@ -928,9 +928,7 @@ kInvalidType
 {
 /
 /
-|
 id
-|
 used
 by
 another

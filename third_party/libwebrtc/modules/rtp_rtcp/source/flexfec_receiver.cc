@@ -378,9 +378,7 @@ issues
 with
 /
 /
-|
 recovered_packets_
-|
 we
 therefore
 break

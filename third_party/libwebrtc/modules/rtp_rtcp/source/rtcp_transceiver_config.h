@@ -609,9 +609,7 @@ parameters
 Initial
 state
 if
-|
 outgoing_transport
-|
 ready
 to
 accept

@@ -2020,9 +2020,7 @@ send_success
 {
 /
 /
-|
 media_has_been_sent_
-|
 is
 used
 by

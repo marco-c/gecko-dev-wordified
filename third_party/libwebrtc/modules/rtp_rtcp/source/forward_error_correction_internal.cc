@@ -1709,9 +1709,7 @@ mask_length
 /
 /
 If
-|
 num_media_packets
-|
 is
 larger
 than
@@ -1719,9 +1717,7 @@ the
 maximum
 allowed
 by
-|
 fec_mask_type
-|
 /
 /
 for
@@ -2955,15 +2951,11 @@ up
 data
 in
 the
-|
 kPacketMaskRandomTbl
-|
 and
 /
 /
-|
 kPacketMaskBurstyTbl
-|
 tables
 .
 These

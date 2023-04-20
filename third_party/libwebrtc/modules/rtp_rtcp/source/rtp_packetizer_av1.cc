@@ -450,9 +450,7 @@ size
 /
 /
 Given
-|
 remaining_bytes
-|
 free
 bytes
 left
@@ -1416,9 +1414,7 @@ obu_index
 /
 /
 Putting
-|
 obu
-|
 into
 the
 last
@@ -1769,9 +1765,7 @@ since
 checks
 above
 verified
-|
 obu
-|
 should
 not
 be
@@ -1781,9 +1775,7 @@ put
 completely
 into
 the
-|
 packet
-|
 leave
 at
 least
@@ -1838,14 +1830,10 @@ packet
 uninsert
 '
 the
-|
 obu
-|
 from
 the
-|
 packet
-|
 .
 packet
 .

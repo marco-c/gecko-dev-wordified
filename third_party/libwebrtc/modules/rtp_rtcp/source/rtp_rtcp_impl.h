@@ -1691,13 +1691,9 @@ packets
 /
 /
 from
-|
 packet_generator_
-|
 to
-|
 packet_sender_
-|
 .
 DEPRECATED_RtpSenderEgress
 :

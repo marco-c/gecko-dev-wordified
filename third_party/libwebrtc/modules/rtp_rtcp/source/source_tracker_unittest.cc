@@ -261,9 +261,7 @@ re
 -
 implementation
 of
-|
 SourceTracker
-|
 for
 /
 /

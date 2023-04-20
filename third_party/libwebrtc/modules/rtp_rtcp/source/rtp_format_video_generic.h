@@ -237,9 +237,7 @@ frame
 Packets
 returned
 by
-|
 NextPacket
-|
 will
 contain
 the
@@ -291,9 +289,7 @@ frame
 Packets
 returned
 by
-|
 NextPacket
-|
 will
 contain
 raw
@@ -351,9 +347,7 @@ marker
 bit
 of
 the
-|
 packet
-|
 .
 /
 /

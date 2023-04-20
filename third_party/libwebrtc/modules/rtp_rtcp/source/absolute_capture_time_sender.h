@@ -174,9 +174,7 @@ class
 for
 sending
 the
-|
 AbsoluteCaptureTime
-|
 header
 extension
 .

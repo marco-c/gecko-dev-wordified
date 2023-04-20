@@ -2482,9 +2482,7 @@ overshoot
 generate
 <
 =
-|
 max_padding_size_factor_
-|
 *
 /
 /
@@ -3588,9 +3586,7 @@ by
 setting
 /
 /
-|
 always_send_mid_and_rid_
-|
 appropriately
 .
 /

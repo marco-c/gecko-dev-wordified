@@ -4068,9 +4068,7 @@ cont
 /
 The
 bit
-|
 T
-|
 determines
 whether
 the
@@ -4084,9 +4082,7 @@ information
 or
 not
 and
-|
 seq_count
-|
 determines
 how
 many
@@ -4104,9 +4100,7 @@ current
 packet
 .
 If
-|
 seq_count
-|
 is
 zero
 no
@@ -4288,9 +4282,7 @@ kIncludeTimestampsBit
 /
 /
 If
-|
 sequence_count
-|
 is
 zero
 no
@@ -5994,9 +5986,7 @@ the
 network
 modification
 .
-|
 flags
-|
 is
 a
 bitmask
@@ -9541,9 +9531,7 @@ the
 middle
 of
 the
-|
 data
-|
 treat
 it
 as

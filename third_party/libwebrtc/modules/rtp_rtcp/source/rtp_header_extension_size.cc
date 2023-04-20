@@ -206,9 +206,7 @@ header
 Check
 if
 the
-|
 extension
-|
 /
 /
 forces

@@ -176,9 +176,7 @@ RtpHeaderExtensionMap
 ;
 /
 /
-|
 extensions
-|
 required
 for
 SetExtension
@@ -207,9 +205,7 @@ extensions
 will
 fail
 until
-|
 extensions
-|
 is
 /
 /
@@ -734,9 +730,7 @@ Removes
 extension
 of
 given
-|
 type
-|
 returns
 false
 is
@@ -1015,17 +1009,13 @@ or
 allocate
 an
 extension
-|
 type
-|
 .
 Returns
 view
 of
 size
-|
 length
-|
 /
 /
 to
@@ -1060,9 +1050,7 @@ length
 Find
 an
 extension
-|
 type
-|
 .
 /
 /

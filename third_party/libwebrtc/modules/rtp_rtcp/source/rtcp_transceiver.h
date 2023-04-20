@@ -357,9 +357,7 @@ queue
 /
 /
 until
-|
 on_destroyed
-|
 runs
 .
 void
@@ -431,9 +429,7 @@ deregistered
 /
 /
 Runs
-|
 on_removed
-|
 when
 observer
 is

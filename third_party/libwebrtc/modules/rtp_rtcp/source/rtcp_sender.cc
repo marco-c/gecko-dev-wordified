@@ -5260,9 +5260,7 @@ Support
 sending
 more
 than
-|
 RTCP_MAX_REPORT_BLOCKS
-|
 per
 /
 /

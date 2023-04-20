@@ -282,9 +282,7 @@ be
 sent
 on
 the
-|
 encoder_queue_
-|
 .
 void
 OnTransformedFrame
@@ -312,9 +310,7 @@ RTPSendVideo
 SendVideo
 on
 the
-|
 encoder_queue_
-|
 .
 void
 SendVideo
@@ -343,9 +339,7 @@ SetVideoStructureAfterTransformation
 /
 /
 under
-|
 sender_lock_
-|
 .
 void
 SetVideoStructureUnderLock
@@ -371,9 +365,7 @@ SetVideoLayersAllocationAfterTransformation
 under
 /
 /
-|
 sender_lock_
-|
 .
 void
 SetVideoLayersAllocationUnderLock
@@ -388,17 +380,13 @@ Unregisters
 and
 releases
 the
-|
 frame_transformer_
-|
 reference
 and
 resets
 /
 /
-|
 sender_
-|
 under
 lock
 .
@@ -411,9 +399,7 @@ prevent
 the
 /
 /
-|
 sender_
-|
 to
 dangle
 .

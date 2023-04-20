@@ -391,9 +391,7 @@ marker
 bit
 of
 the
-|
 packet
-|
 .
 /
 /

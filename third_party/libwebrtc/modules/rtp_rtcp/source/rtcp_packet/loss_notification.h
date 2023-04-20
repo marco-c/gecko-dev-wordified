@@ -267,15 +267,11 @@ happens
 /
 /
 when
-|
 last_recieved
-|
 is
 ahead
 of
-|
 last_decoded
-|
 by
 more
 than
@@ -286,9 +282,7 @@ than
 This
 is
 because
-|
 last_recieved
-|
 is
 represented
 on
