@@ -6497,7 +6497,7 @@ if
 ins
 -
 >
-receiverObject
+getReceiverObject
 (
 )
 !
