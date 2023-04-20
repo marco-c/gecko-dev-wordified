@@ -347,15 +347,14 @@ reftest
         
 if
 (
-            
 run_info_data
 [
 "
 debug
 "
 ]
-            
 or
+            
 run_info_data
 .
 get
@@ -364,8 +363,8 @@ get
 asan
 "
 )
-            
 or
+            
 run_info_data
 .
 get
@@ -374,7 +373,6 @@ get
 tsan
 "
 )
-        
 )
 :
             
@@ -393,7 +391,6 @@ multiplier
     
 elif
 (
-        
 run_info_data
 [
 "
@@ -401,6 +398,7 @@ debug
 "
 ]
 or
+          
 run_info_data
 .
 get
@@ -410,6 +408,7 @@ asan
 "
 )
 or
+          
 run_info_data
 .
 get
@@ -418,7 +417,6 @@ get
 tsan
 "
 )
-    
 )
 :
         
