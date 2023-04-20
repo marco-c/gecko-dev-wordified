@@ -572,8 +572,6 @@ SuggestCaret
 ;
 /
 /
-mozilla
-/
 EditorUtils
 .
 h
@@ -1190,8 +1188,6 @@ AutoSelectionRangeArray
 ;
 /
 /
-mozilla
-/
 EditorUtils
 .
 h
@@ -1199,8 +1195,6 @@ class
 CaretPoint
 ;
 /
-/
-mozilla
 /
 EditorUtils
 .
@@ -1229,8 +1223,6 @@ class
 EditActionResult
 ;
 /
-/
-mozilla
 /
 EditorUtils
 .
@@ -1915,8 +1907,6 @@ CreateNodeResultBase
 ;
 /
 /
-mozilla
-/
 EditorUtils
 .
 h
@@ -1929,8 +1919,6 @@ class
 ReplaceRangeDataBase
 ;
 /
-/
-mozilla
 /
 EditorUtils
 .

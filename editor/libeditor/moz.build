@@ -177,11 +177,6 @@ EditorForwards
 h
 "
 "
-EditorUtils
-.
-h
-"
-"
 EditTransactionBase
 .
 h
