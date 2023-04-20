@@ -66239,13 +66239,14 @@ nsIFrame
 *
 lastFrame
 ;
+const
 bool
 lineIsRTL
 =
 aLineIterator
 -
 >
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 ;

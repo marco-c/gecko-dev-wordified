@@ -9100,7 +9100,7 @@ mNumLines
 ;
 }
 bool
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 final

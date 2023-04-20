@@ -47776,7 +47776,7 @@ bool
 nsFlexContainerFrame
 :
 :
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 {
@@ -48252,7 +48252,7 @@ GetSize
 GetWritingMode
 (
 )
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 )
