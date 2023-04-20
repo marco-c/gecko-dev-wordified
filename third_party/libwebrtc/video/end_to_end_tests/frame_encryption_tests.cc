@@ -404,8 +404,13 @@ recv_config
 .
 frame_decryptor
 =
-new
+rtc
+:
+:
+make_ref_counted
+<
 FakeFrameDecryptor
+>
 (
 )
 ;

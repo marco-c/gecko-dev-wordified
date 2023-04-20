@@ -198,16 +198,9 @@ expected
 .
 class
 FakeFrameDecryptor
-final
 :
 public
-rtc
-:
-:
-RefCountedObject
-<
 FrameDecryptorInterface
->
 {
 public
 :
