@@ -1787,6 +1787,12 @@ render_size_position
 .
 emplace
 (
+Vp9UncompressedHeader
+:
+:
+BitstreamPosition
+(
+)
 )
 ;
 br
