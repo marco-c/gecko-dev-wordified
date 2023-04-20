@@ -392,7 +392,7 @@ uint64_t
 mInnerWindowID
 ;
 int64_t
-mTimeStamp
+mMicroSecondTimeStamp
 ;
 /
 /

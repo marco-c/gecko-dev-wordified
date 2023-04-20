@@ -177,7 +177,7 @@ nsConsoleMessage
 default
 ;
 int64_t
-mTimeStamp
+mMicroSecondTimeStamp
 ;
 nsString
 mMessage
