@@ -780,7 +780,7 @@ absl
 :
 optional
 <
-bool
+int
 >
 use_ts
 ;
