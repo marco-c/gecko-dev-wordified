@@ -669,6 +669,16 @@ Stop
 override
 {
 }
+bool
+started
+(
+)
+override
+{
+return
+false
+;
+}
 void
 SetSource
 (
