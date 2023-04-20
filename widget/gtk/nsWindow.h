@@ -5154,6 +5154,9 @@ WaylandPopupCheckAndGetAnchor
 GdkRectangle
 *
 aPopupAnchor
+GdkPoint
+*
+aOffset
 )
 ;
 bool
@@ -5162,6 +5165,9 @@ WaylandPopupAnchorAdjustForParentPopup
 GdkRectangle
 *
 aPopupAnchor
+GdkPoint
+*
+aOffset
 )
 ;
 nsWindow
