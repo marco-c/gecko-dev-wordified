@@ -3494,7 +3494,12 @@ use_message_interleaving
 *
 /
 false
-&
+)
+;
+reasm2
+.
+RestoreFromState
+(
 state
 )
 ;
@@ -3640,7 +3645,12 @@ use_message_interleaving
 *
 /
 false
-&
+)
+;
+reasm2
+.
+RestoreFromState
+(
 state
 )
 ;
