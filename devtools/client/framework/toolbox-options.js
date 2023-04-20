@@ -69,6 +69,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -87,11 +93,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -501,6 +513,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -508,6 +524,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

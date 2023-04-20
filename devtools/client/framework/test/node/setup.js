@@ -71,6 +71,10 @@ setMocksInGlobal
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +90,8 @@ shared
 node
 -
 helpers
+.
+js
 "
 )
 ;

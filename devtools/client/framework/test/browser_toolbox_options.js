@@ -79,11 +79,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -114,6 +120,10 @@ PrefObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +131,8 @@ client
 shared
 /
 prefs
+.
+js
 "
 )
 ;

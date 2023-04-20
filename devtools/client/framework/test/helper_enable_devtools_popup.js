@@ -65,6 +65,10 @@ listenOnce
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -72,6 +76,8 @@ shared
 async
 -
 utils
+.
+js
 "
 )
 ;

@@ -71,11 +71,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ getDOMMutationBreakpoints
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ dom
 mutation
 -
 breakpoints
+.
+js
 "
 )
 ;

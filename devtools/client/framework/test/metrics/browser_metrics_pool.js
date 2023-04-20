@@ -41,6 +41,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -48,6 +52,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -59,11 +65,17 @@ Pool
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

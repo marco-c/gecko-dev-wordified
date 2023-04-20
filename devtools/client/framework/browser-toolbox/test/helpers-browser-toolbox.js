@@ -88,6 +88,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +99,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;

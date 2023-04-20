@@ -71,6 +71,10 @@ domMutationBreakpoints
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ dom
 mutation
 -
 breakpoints
+.
+js
 "
 )
 .

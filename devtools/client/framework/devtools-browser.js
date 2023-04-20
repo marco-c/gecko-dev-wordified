@@ -171,6 +171,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +182,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -191,6 +197,10 @@ removeThemeObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -198,6 +208,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;
@@ -370,11 +382,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -2062,6 +2080,10 @@ BrowserConsoleManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2073,6 +2095,8 @@ browser
 console
 -
 manager
+.
+js
 "
 )
 ;

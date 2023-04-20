@@ -170,6 +170,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -177,6 +181,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;

@@ -95,6 +95,10 @@ createCommandsDictionary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -102,6 +106,8 @@ shared
 commands
 /
 index
+.
+js
 "
 )
 ;
@@ -113,6 +119,10 @@ descriptorFromURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +134,8 @@ descriptor
 from
 -
 url
+.
+js
 "
 )
 ;

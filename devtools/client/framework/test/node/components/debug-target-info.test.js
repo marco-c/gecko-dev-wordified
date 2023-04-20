@@ -65,6 +65,10 @@ React
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +106,8 @@ framework
 components
 /
 DebugTargetInfo
+.
+js
 "
 )
 )
@@ -108,6 +120,10 @@ CONNECTION_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +135,8 @@ remote
 debugging
 /
 constants
+.
+js
 "
 )
 ;
@@ -128,6 +146,10 @@ DESCRIPTOR_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +161,8 @@ descriptors
 descriptor
 -
 types
+.
+js
 "
 )
 ;
