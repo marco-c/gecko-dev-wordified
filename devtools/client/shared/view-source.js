@@ -974,7 +974,7 @@ originalLocation
 await
 toolbox
 .
-sourceMapService
+sourceMapLoader
 .
 getOriginalLocation
 (

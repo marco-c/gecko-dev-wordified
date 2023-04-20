@@ -940,7 +940,7 @@ ID
 .
 this
 .
-unsubscribeSourceMapService
+unsubscribeSourceMapURLService
 =
 this
 .
@@ -966,12 +966,12 @@ if
 (
 this
 .
-unsubscribeSourceMapService
+unsubscribeSourceMapURLService
 )
 {
 this
 .
-unsubscribeSourceMapService
+unsubscribeSourceMapURLService
 (
 )
 ;
