@@ -5091,6 +5091,13 @@ big
 "
 )
 ;
+cx
+-
+>
+reportResourceExhaustion
+(
+)
+;
 return
 false
 ;
@@ -5589,6 +5596,13 @@ regexp
 too
 big
 "
+)
+;
+cx
+-
+>
+reportResourceExhaustion
+(
 )
 ;
 return
