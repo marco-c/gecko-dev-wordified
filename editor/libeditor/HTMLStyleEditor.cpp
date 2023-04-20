@@ -6955,7 +6955,11 @@ return
 pointToPutCaret
 ;
 }
+Result
+<
 SplitRangeOffResult
+nsresult
+>
 HTMLEditor
 :
 :
@@ -6994,7 +6998,7 @@ IsPositioned
 )
 {
 return
-SplitRangeOffResult
+Err
 (
 NS_ERROR_FAILURE
 )
@@ -7190,7 +7194,7 @@ isErr
 )
 {
 return
-SplitRangeOffResult
+Err
 (
 resultAtStart
 .
@@ -7389,7 +7393,7 @@ IgnoreCaretPointSuggestion
 )
 ;
 return
-SplitRangeOffResult
+Err
 (
 resultAtEnd
 .
@@ -16875,7 +16879,11 @@ splitting
 them
 as
 appropriate
+Result
+<
 SplitRangeOffResult
+nsresult
+>
 splitRangeOffResult
 =
 SplitAncestorStyledInlineElementsAtRangeEdges
@@ -16894,10 +16902,13 @@ mAttribute
 ;
 if
 (
+MOZ_UNLIKELY
+(
 splitRangeOffResult
 .
 isErr
 (
+)
 )
 )
 {
@@ -16943,6 +16954,10 @@ selection
 here
 .
 splitRangeOffResult
+.
+inspect
+(
+)
 .
 IgnoreCaretPointSuggestion
 (
@@ -17003,6 +17018,10 @@ EditorDOMRange
 splitRange
 =
 splitRangeOffResult
+.
+inspect
+(
+)
 .
 RangeRef
 (

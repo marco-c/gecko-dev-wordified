@@ -6094,7 +6094,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
 SplitRangeOffResult
+nsresult
+>
 SplitAncestorStyledInlineElementsAtRangeEdges
 (
 const
