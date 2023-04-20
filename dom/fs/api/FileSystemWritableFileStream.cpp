@@ -1223,6 +1223,11 @@ mFileDesc
 =
 nullptr
 ;
+if
+(
+mActor
+)
+{
 mActor
 -
 >
@@ -1230,6 +1235,7 @@ SendClose
 (
 )
 ;
+}
 }
 /
 /
