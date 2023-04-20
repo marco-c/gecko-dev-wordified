@@ -1040,7 +1040,6 @@ uint16_t
 :
 WriteBigEndian
 (
-&
 fec_packets
 .
 front
@@ -1049,9 +1048,12 @@ front
 -
 >
 data
-[
+.
+MutableData
+(
+)
++
 fec_garbage_offset
-]
 0x4711
 )
 ;

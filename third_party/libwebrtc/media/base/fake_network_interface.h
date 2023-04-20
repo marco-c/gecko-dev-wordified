@@ -911,7 +911,7 @@ SetRtpSsrc
 packet
 -
 >
-data
+MutableData
 (
 )
 packet

@@ -4515,10 +4515,7 @@ memset
 (
 buf
 .
-data
-<
-uint8_t
->
+MutableData
 (
 )
 0

@@ -661,7 +661,7 @@ pkt
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -2216,7 +2216,7 @@ fec_packet
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -2356,14 +2356,7 @@ uint8_t
 const
 written_packet_mask
 =
-fec_packet
--
->
 data
-.
-data
-(
-)
 +
 kPacketMaskOffset
 ;

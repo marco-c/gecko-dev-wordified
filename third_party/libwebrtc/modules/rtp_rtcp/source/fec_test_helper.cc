@@ -360,7 +360,7 @@ media_packet
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -699,6 +699,10 @@ media_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 1
 ]
@@ -870,7 +874,7 @@ packet
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -977,14 +981,7 @@ packet
 -
 >
 header
-packet
--
->
 data
-.
-data
-(
-)
 )
 ;
 +
@@ -1241,7 +1238,7 @@ packet_with_rtp_header
 >
 data
 .
-data
+MutableData
 (
 )
 )
@@ -1253,7 +1250,7 @@ packet_with_rtp_header
 >
 data
 .
-data
+MutableData
 (
 )
 +

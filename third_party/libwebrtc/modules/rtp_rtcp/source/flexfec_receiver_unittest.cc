@@ -1018,6 +1018,10 @@ media_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 8
 ]
@@ -1028,6 +1032,10 @@ media_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 9
 ]
@@ -1038,6 +1046,10 @@ media_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 10
 ]
@@ -1048,6 +1060,10 @@ media_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 11
 ]
@@ -1150,6 +1166,10 @@ fec_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 8
 ]
@@ -1160,6 +1180,10 @@ fec_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 9
 ]
@@ -1170,6 +1194,10 @@ fec_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 10
 ]
@@ -1180,6 +1208,10 @@ fec_packet
 -
 >
 data
+.
+MutableData
+(
+)
 [
 11
 ]

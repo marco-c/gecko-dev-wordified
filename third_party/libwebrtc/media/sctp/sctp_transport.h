@@ -761,6 +761,7 @@ debug_name
 int
 InjectDataOrNotificationFromSctpForTesting
 (
+const
 void
 *
 data
@@ -1347,6 +1348,7 @@ RFC
 int
 OnDataOrNotificationFromSctp
 (
+const
 void
 *
 data

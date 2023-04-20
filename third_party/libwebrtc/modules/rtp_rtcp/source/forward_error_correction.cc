@@ -1148,7 +1148,7 @@ i
 .
 data
 .
-data
+MutableData
 (
 )
 0
@@ -1783,7 +1783,7 @@ fec_packet
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -4277,7 +4277,7 @@ pkt
 >
 data
 .
-data
+MutableData
 (
 )
 fec_packet
@@ -4319,7 +4319,7 @@ pkt
 >
 data
 .
-data
+MutableData
 (
 )
 +
@@ -4375,7 +4375,7 @@ pkt
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -4594,7 +4594,7 @@ dst
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -4873,7 +4873,7 @@ dst
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -5550,6 +5550,7 @@ ForwardErrorCorrection
 :
 ParseSequenceNumber
 (
+const
 uint8_t
 *
 packet
@@ -5578,6 +5579,7 @@ ForwardErrorCorrection
 :
 ParseSsrc
 (
+const
 uint8_t
 *
 packet
