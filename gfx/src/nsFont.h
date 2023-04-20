@@ -545,7 +545,7 @@ occurs
 mozilla
 :
 :
-StyleVariantAlternatesList
+StyleFontVariantAlternates
 variantAlternates
 ;
 /

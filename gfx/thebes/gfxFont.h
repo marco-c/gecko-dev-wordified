@@ -731,7 +731,7 @@ features
 mozilla
 :
 :
-StyleVariantAlternatesList
+StyleFontVariantAlternates
 variantAlternates
 ;
 /
