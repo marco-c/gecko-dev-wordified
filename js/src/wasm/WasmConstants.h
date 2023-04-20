@@ -1978,6 +1978,9 @@ ArrayNewDefault
 ArrayNewData
 =
 0x1d
+ArrayNewElem
+=
+0x10
 ArrayGet
 =
 0x13

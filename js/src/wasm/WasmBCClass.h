@@ -14142,6 +14142,16 @@ nodiscard
 ]
 ]
 bool
+emitArrayNewElem
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitArrayGet
 (
 FieldExtension
