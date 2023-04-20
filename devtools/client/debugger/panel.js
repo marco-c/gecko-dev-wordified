@@ -447,13 +447,13 @@ this
 toolbox
 .
 sourceMapLoader
-evaluationsParser
+parserWorker
 :
 this
 .
 toolbox
 .
-parserService
+parserWorker
 }
 panel
 :

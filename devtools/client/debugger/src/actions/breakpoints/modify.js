@@ -1711,7 +1711,7 @@ async
 function
 updateExpression
 (
-evaluationsParser
+parserWorker
 mappings
 originalExpression
 )
@@ -1720,7 +1720,7 @@ const
 mapped
 =
 await
-evaluationsParser
+parserWorker
 .
 mapExpression
 (
@@ -1793,7 +1793,7 @@ async
 {
 getState
 dispatch
-evaluationsParser
+parserWorker
 }
 )
 =
@@ -1856,7 +1856,7 @@ condition
 await
 updateExpression
 (
-evaluationsParser
+parserWorker
 mappings
 options
 .
@@ -1878,7 +1878,7 @@ logValue
 await
 updateExpression
 (
-evaluationsParser
+parserWorker
 mappings
 options
 .
