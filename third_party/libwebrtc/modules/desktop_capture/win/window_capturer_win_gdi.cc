@@ -1098,6 +1098,13 @@ capture_owned_windows
 true
 )
 ;
+if
+(
+results
+.
+frame
+)
+{
 int
 capture_time_ms
 =
@@ -1154,6 +1161,7 @@ DesktopCapturerId
 kWindowCapturerWinGdi
 )
 ;
+}
 callback_
 -
 >
