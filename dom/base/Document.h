@@ -27903,6 +27903,11 @@ PermissionDelegateHandler
 mPermissionDelegateHandler
 ;
 bool
+mCachedStateObjectValid
+:
+1
+;
+bool
 mBlockAllMixedContent
 :
 1
@@ -31207,8 +31212,6 @@ nsIStructuredCloneContainer
 >
 mStateObjectContainer
 ;
-Maybe
-<
 JS
 :
 :
@@ -31219,8 +31222,7 @@ JS
 :
 Value
 >
->
-mStateObjectCached
+mCachedStateObject
 ;
 uint32_t
 mInSyncOperationCount
