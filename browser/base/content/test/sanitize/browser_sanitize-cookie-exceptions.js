@@ -35,7 +35,7 @@ Sanitizer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ modules
 /
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +60,7 @@ SiteDataTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +73,9 @@ common
 /
 SiteDataTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
