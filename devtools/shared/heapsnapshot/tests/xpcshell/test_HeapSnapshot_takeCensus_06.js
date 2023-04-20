@@ -411,15 +411,6 @@ Pattern
 .
 NATURAL
 }
-Script
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 Memory
 :
 {
