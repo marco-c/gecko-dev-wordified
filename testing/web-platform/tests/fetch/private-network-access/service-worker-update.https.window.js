@@ -728,7 +728,7 @@ preflight
 :
 PreflightBehavior
 .
-serviceWorkerSuccess
+success
 (
 token
 (
@@ -815,7 +815,7 @@ preflight
 :
 PreflightBehavior
 .
-serviceWorkerSuccess
+success
 (
 token
 (
