@@ -172,7 +172,10 @@ nsGIOProtocolHandler
 >
 sSingleton
 ;
+nsTArray
+<
 nsCString
+>
 mSupportedProtocols
 ;
 }
