@@ -159,6 +159,14 @@ GetScalabilityMode
 )
 const
 ;
+void
+SetNumberOfTemporalLayers
+(
+unsigned
+char
+n
+)
+;
 int
 width
 =
