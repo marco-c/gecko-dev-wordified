@@ -47,7 +47,7 @@ components
 -
 utils
 /
-Geometry
+RustGeometry
 .
 jsm
 "

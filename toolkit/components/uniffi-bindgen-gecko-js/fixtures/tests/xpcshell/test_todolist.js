@@ -52,7 +52,7 @@ components
 -
 utils
 /
-Todolist
+RustTodolist
 .
 jsm
 "

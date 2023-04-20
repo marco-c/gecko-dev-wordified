@@ -47,7 +47,7 @@ components
 -
 utils
 /
-Customtypes
+RustCustomtypes
 .
 jsm
 "

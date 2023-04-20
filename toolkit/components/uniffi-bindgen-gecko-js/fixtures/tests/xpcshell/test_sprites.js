@@ -47,7 +47,7 @@ components
 -
 utils
 /
-Sprites
+RustSprites
 .
 jsm
 "
