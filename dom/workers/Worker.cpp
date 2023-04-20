@@ -918,7 +918,7 @@ win
 nsContentUtils
 :
 :
-CallerInnerWindow
+IncumbentInnerWindow
 (
 )
 ;

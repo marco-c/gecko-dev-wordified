@@ -38708,7 +38708,7 @@ callerInnerWin
 nsContentUtils
 :
 :
-CallerInnerWindow
+IncumbentInnerWindow
 (
 )
 ;
