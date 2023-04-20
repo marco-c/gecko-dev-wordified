@@ -295,20 +295,6 @@ LICENSE
 ]
     
 '
-bazel
-'
-:
-[
-'
-third_party
-/
-bazel
-/
-LICENSE
-'
-]
-    
-'
 boringssl
 '
 :

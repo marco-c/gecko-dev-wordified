@@ -345,14 +345,6 @@ src
 /
 third_party
 /
-bazel
-'
-    
-'
-src
-/
-third_party
-/
 findbugs
 '
     
