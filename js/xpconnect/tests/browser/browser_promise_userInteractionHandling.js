@@ -130,7 +130,7 @@ EventUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -141,7 +141,9 @@ specialpowers
 /
 SpecialPowersEventUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
