@@ -753,16 +753,6 @@ private
 static
 final
 String
-VIDEO_CODEC_AV1_SDP_CODEC_NAME
-=
-"
-AV1X
-"
-;
-private
-static
-final
-String
 AUDIO_CODEC_OPUS
 =
 "
@@ -5995,7 +5985,7 @@ case
 VIDEO_CODEC_AV1
 :
 return
-VIDEO_CODEC_AV1_SDP_CODEC_NAME
+VIDEO_CODEC_AV1
 ;
 case
 VIDEO_CODEC_H264_HIGH
