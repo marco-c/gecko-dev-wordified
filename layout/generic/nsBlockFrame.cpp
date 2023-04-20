@@ -43117,8 +43117,8 @@ nsBlockFrame
 :
 SetOverflowOutOfFlows
 (
-const
 nsFrameList
+&
 &
 aList
 nsFrameList
@@ -43262,7 +43262,13 @@ PresShell
 )
 nsFrameList
 (
+std
+:
+:
+move
+(
 aList
+)
 )
 )
 ;
