@@ -135,7 +135,7 @@ kDataCodecClockrate
 extern
 const
 int
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 ;
 /
 /

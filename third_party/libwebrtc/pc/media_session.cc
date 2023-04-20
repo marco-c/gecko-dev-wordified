@@ -15148,7 +15148,7 @@ data
 >
 set_bandwidth
 (
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 )
 ;
 SetMediaProtocol
@@ -17648,6 +17648,14 @@ if
 (
 !
 rejected
+&
+&
+session_options
+.
+data_channel_type
+=
+=
+DCT_RTP
 )
 {
 data_answer
@@ -17655,7 +17663,7 @@ data_answer
 >
 set_bandwidth
 (
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 )
 ;
 }
