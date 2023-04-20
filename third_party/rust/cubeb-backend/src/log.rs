@@ -32,6 +32,18 @@ LICENSE
 for
 details
 .
+use
+std
+:
+:
+os
+:
+:
+raw
+:
+:
+c_char
+;
 /
 /
 /
@@ -435,7 +447,7 @@ fn
 (
 *
 const
-i8
+c_char
 .
 .
 .
