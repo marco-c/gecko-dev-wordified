@@ -4849,9 +4849,6 @@ static
 bool
 isSpecialName
 (
-JSContext
-*
-cx
 frontend
 :
 :

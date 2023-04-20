@@ -2576,12 +2576,6 @@ FunctionScope
 :
 isSpecialName
 (
-sc
-(
-)
--
->
-cx_
 name
 )
 )
