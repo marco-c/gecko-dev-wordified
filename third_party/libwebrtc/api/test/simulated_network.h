@@ -281,11 +281,6 @@ provided
 struct
 BuiltInNetworkBehaviorConfig
 {
-BuiltInNetworkBehaviorConfig
-(
-)
-{
-}
 /
 /
 Queue
