@@ -2326,6 +2326,9 @@ forceMainDocumentChannel
 TimeStamp
 navigationStartTimeStamp
 ;
+uint64_t
+earlyHintPreloaderId
+;
 }
 ;
 struct

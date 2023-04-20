@@ -305,6 +305,11 @@ EarlyHintPreloader
 h
 "
 "
+EarlyHintRegistrar
+.
+h
+"
+"
 EarlyHintsService
 .
 h
@@ -544,6 +549,11 @@ cpp
 "
 "
 EarlyHintPreloader
+.
+cpp
+"
+"
+EarlyHintRegistrar
 .
 cpp
 "
