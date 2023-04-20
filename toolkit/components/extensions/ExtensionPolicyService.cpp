@@ -474,12 +474,6 @@ src
 self
 '
 ;
-upgrade
--
-insecure
--
-requests
-;
 "
 #
 define
