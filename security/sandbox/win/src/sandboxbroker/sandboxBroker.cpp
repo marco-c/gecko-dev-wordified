@@ -3116,10 +3116,7 @@ spawn
 CIG
 only
 in
-early
-Beta
-or
-earlier
+Nightly
 for
 now
 /
@@ -3141,7 +3138,7 @@ and
 if
 defined
 (
-EARLY_BETA_OR_EARLIER
+NIGHTLY
 )
 /
 /
