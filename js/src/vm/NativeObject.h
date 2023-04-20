@@ -4519,7 +4519,7 @@ setShapeAndAddNewSlots
 JSContext
 *
 cx
-Shape
+SharedShape
 *
 newShape
 uint32_t
@@ -4559,7 +4559,7 @@ setShapeAndAddNewSlot
 JSContext
 *
 cx
-Shape
+SharedShape
 *
 newShape
 uint32_t

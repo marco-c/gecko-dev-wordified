@@ -6400,14 +6400,14 @@ calls
 "
 )
 ;
-Shape
+SharedShape
 *
 newShape
 =
 fromPlain
 -
 >
-shape
+sharedShape
 (
 )
 ;
