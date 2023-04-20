@@ -436,6 +436,11 @@ ContainStyleScopeManager
 h
 "
 "
+DepthOrderedFrameList
+.
+h
+"
+"
 DisplayPortUtils
 .
 h
@@ -566,6 +571,11 @@ cpp
 "
 "
 ContainStyleScopeManager
+.
+cpp
+"
+"
+DepthOrderedFrameList
 .
 cpp
 "
