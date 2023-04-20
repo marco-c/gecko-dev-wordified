@@ -85,6 +85,16 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+"
+source
+-
+map
+"
+]
 DevToolsModules
 (
 '

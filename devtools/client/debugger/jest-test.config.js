@@ -180,13 +180,6 @@ package
 .
 json
 "
-"
-<
-rootDir
->
-/
-packages
-"
 ]
 modulePathIgnorePatterns
 :

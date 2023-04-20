@@ -78,6 +78,11 @@ inline
 comments
 *
 /
+"
+use
+strict
+"
+;
 class
 Value
 {

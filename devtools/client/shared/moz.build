@@ -159,6 +159,8 @@ debugging
 source
 -
 map
+-
+loader
 "
 "
 sourceeditor
