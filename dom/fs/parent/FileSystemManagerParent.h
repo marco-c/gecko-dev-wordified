@@ -241,6 +241,17 @@ FileSystemManagerParent
 TaskQueue
 *
 aTaskQueue
+RefPtr
+<
+fs
+:
+:
+data
+:
+:
+FileSystemDataManager
+>
+aDataManager
 const
 EntryId
 &
