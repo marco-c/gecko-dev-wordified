@@ -145,7 +145,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -1096,7 +1096,7 @@ net
 "
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 iceServer
 .
@@ -1113,7 +1113,7 @@ username
 "
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 iceServer
 .
@@ -1128,7 +1128,7 @@ password
 "
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 iceServer
 .
@@ -1143,7 +1143,7 @@ hostname
 "
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 iceServer
 .

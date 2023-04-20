@@ -139,7 +139,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -219,7 +219,7 @@ nativeId
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 streamId
 ]
@@ -310,7 +310,7 @@ streamId
 return
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 _nativeMediaStream
 -

@@ -98,7 +98,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -170,7 +170,7 @@ _name
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 info
 .

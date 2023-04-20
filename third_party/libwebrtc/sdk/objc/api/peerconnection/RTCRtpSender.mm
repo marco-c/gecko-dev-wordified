@@ -143,7 +143,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -197,7 +197,7 @@ senderId
 return
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 _nativeRtpSender
 -
@@ -468,7 +468,7 @@ addObject
 :
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 s
 ]

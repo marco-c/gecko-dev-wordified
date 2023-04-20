@@ -98,7 +98,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "

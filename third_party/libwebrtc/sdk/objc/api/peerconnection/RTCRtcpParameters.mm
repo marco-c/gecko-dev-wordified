@@ -98,7 +98,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -168,7 +168,7 @@ _cname
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 nativeParameters
 .
@@ -207,7 +207,7 @@ cname
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 _cname
 ]
