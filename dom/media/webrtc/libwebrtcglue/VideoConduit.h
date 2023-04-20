@@ -1178,7 +1178,7 @@ Maybe
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -2499,7 +2499,7 @@ thread
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 mRecvStream
 =
@@ -3010,7 +3010,7 @@ only
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

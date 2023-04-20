@@ -1094,7 +1094,7 @@ Maybe
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -1408,7 +1408,7 @@ thread
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1439,7 +1439,7 @@ thread
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 mRecvStream
 ;
