@@ -676,7 +676,13 @@ sIOService
 =
 nullptr
 ;
+std
+:
+:
+atomic
+<
 bool
+>
 nsScriptSecurityManager
 :
 :
