@@ -757,13 +757,6 @@ move
 (
 dtls_srtp_transport
 )
-/
-*
-datagram_rtp_transport
-=
-*
-/
-nullptr
 std
 :
 :

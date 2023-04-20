@@ -493,17 +493,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
-RtpTransportInternal
->
-datagram_rtp_transport
-std
-:
-:
-unique_ptr
-<
 DtlsTransportInternal
 >
 rtp_dtls_transport
