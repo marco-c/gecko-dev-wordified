@@ -3682,6 +3682,9 @@ ValidateMIMEType
 OpaqueResponseAllowed
 EnsureOpaqueResponseIsAllowed
 (
+bool
+&
+aCompressedMediaAndImageDetectorStarted
 )
 ;
 Result

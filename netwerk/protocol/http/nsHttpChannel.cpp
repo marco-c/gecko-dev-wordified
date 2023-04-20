@@ -10283,10 +10283,16 @@ through
 side
 channels
 .
+bool
+compressedMediaAndImageDetectorStarted
+=
+false
+;
 if
 (
 EnsureOpaqueResponseIsAllowed
 (
+compressedMediaAndImageDetectorStarted
 )
 =
 =
@@ -10687,6 +10693,10 @@ if
 (
 !
 unknownDecoderStarted
+&
+&
+!
+compressedMediaAndImageDetectorStarted
 )
 {
 auto
