@@ -775,6 +775,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateDocumentURI
 (
@@ -837,6 +840,9 @@ to
 each
 other
 .
+[
+LazySend
+]
 async
 UpdateDocumentPrincipal
 (
@@ -858,6 +864,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateDocumentHasLoaded
 (
@@ -879,6 +888,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateDocumentHasUserInteracted
 (
@@ -898,6 +910,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateSandboxFlags
 (
@@ -917,6 +932,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateDocumentCspSettings
 (
@@ -938,6 +956,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateCookieJarSettings
 (
@@ -957,6 +978,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateDocumentTitle
 (
@@ -964,6 +988,9 @@ nsString
 aTitle
 )
 ;
+[
+LazySend
+]
 async
 UpdateDocumentSecurityInfo
 (
@@ -987,6 +1014,9 @@ in
 this
 WindowGlobal
 .
+[
+LazySend
+]
 async
 UpdateHttpsOnlyStatus
 (
@@ -1006,6 +1036,9 @@ to
 the
 parent
 .
+[
+LazySend
+]
 async
 SetIsInitialDocument
 (
@@ -1071,6 +1104,9 @@ level
 document
 load
 .
+[
+LazySend
+]
 async
 SetClientInfo
 (
