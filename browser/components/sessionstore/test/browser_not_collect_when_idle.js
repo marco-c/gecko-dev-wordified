@@ -317,7 +317,7 @@ sessionstore
 .
 idleDelay
 "
-86400000
+86400
 )
 ;
 /
@@ -425,7 +425,7 @@ sessionstore
 .
 idleDelay
 "
-5000000
+5000
 )
 ;
 /
