@@ -1884,11 +1884,10 @@ textContent
 includes
 (
 "
-Turn
-on
-syncing
+Sign
+in
 to
-continue
+reconnect
 "
 )
 )
@@ -1911,9 +1910,9 @@ id
 includes
 (
 "
-sync
+signed
 -
-disconnected
+out
 "
 )
 "
