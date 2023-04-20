@@ -85,15 +85,6 @@ include
 "
 mozilla
 /
-DataMutex
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ReentrantMonitor
 .
 h
@@ -2986,8 +2977,6 @@ on
 any
 thread
 .
-DataMutex
-<
 RefPtr
 <
 rtc
@@ -2996,7 +2985,6 @@ rtc
 RefCountedObject
 <
 VideoStreamFactory
->
 >
 >
 mVideoStreamFactory
