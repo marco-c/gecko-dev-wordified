@@ -1264,6 +1264,11 @@ FuzzyLayer
 cpp
 "
 "
+FuzzySecurityInfo
+.
+cpp
+"
+"
 FuzzySocketControl
 .
 cpp
