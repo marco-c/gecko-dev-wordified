@@ -8320,7 +8320,7 @@ verifier
 .
 TestMemberIsNonNegative
 <
-uint32_t
+double
 >
 (
 video_source

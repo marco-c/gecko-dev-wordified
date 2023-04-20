@@ -4429,7 +4429,7 @@ frames
 =
 0
 ;
-int
+double
 framerate_input
 =
 0

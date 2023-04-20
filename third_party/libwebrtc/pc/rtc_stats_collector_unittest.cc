@@ -21529,6 +21529,8 @@ senders
 framerate_input
 =
 29
+.
+0
 ;
 video_media_info
 .
@@ -21575,6 +21577,8 @@ aggregated_senders
 framerate_input
 =
 29
+.
+0
 ;
 video_media_info
 .
@@ -21736,6 +21740,8 @@ expected_video
 frames_per_second
 =
 29
+.
+0
 ;
 expected_video
 .
@@ -21954,6 +21960,8 @@ senders
 framerate_input
 =
 29
+.
+0
 ;
 auto
 *
@@ -22233,6 +22241,8 @@ senders
 framerate_input
 =
 29
+.
+0
 ;
 auto
 *
@@ -24806,6 +24816,8 @@ senders
 framerate_input
 =
 29
+.
+0
 ;
 auto
 *

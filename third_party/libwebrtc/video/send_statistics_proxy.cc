@@ -5103,8 +5103,6 @@ stats_
 .
 input_frame_rate
 =
-round
-(
 uma_container_
 -
 >
@@ -5112,7 +5110,6 @@ input_frame_rate_tracker_
 .
 ComputeRate
 (
-)
 )
 ;
 stats_
