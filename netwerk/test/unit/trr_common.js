@@ -136,33 +136,6 @@ mjs
 )
 ;
 const
-dns
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-network
-/
-dns
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIDNSService
-)
-;
-const
 {
 HttpServer
 }
@@ -303,6 +276,8 @@ service
 parentalControlsService
 )
 ;
+Services
+.
 dns
 .
 reloadParentalControlEnabled
@@ -529,6 +504,8 @@ record
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -595,6 +572,8 @@ bootstrapping
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -807,6 +786,8 @@ request
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -890,6 +871,8 @@ request
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1011,6 +994,8 @@ record
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1060,6 +1045,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1109,6 +1096,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1178,6 +1167,8 @@ default
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1327,6 +1318,8 @@ so
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1479,6 +1472,8 @@ disabled
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1592,6 +1587,8 @@ enabled
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1720,6 +1717,8 @@ server
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1824,6 +1823,8 @@ Now
 for
 mode
 2
+Services
+.
 dns
 .
 clearCache
@@ -1906,6 +1907,8 @@ test_trr_retry
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -2186,6 +2189,8 @@ Failed
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2244,6 +2249,8 @@ test_strict_native_fallback
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -2410,6 +2417,8 @@ error
 code
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2432,6 +2441,8 @@ undefined
 false
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2507,6 +2518,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2627,6 +2640,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2731,6 +2746,8 @@ fallback
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2843,6 +2860,8 @@ CONFIRM_TRYING_FAILED
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2851,6 +2870,8 @@ currentTrrConfirmationState
 3
 |
 |
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2866,6 +2887,8 @@ failure
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2912,6 +2935,8 @@ case
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3033,6 +3058,8 @@ CONFIRM_DISABLED
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -3048,6 +3075,8 @@ disabled
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -3092,6 +3121,8 @@ case
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3211,6 +3242,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3315,6 +3348,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3456,6 +3491,8 @@ DoH
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3531,6 +3568,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3600,6 +3639,8 @@ sends
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3671,6 +3712,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3773,6 +3816,8 @@ of
 ]
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -3802,6 +3847,8 @@ Assert
 .
 equal
 (
+Services
+.
 dns
 .
 currentTrrMode
@@ -3837,6 +3884,8 @@ correctly
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3966,6 +4015,8 @@ loop
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4067,6 +4118,8 @@ Now
 mode
 2
 .
+Services
+.
 dns
 .
 clearCache
@@ -4158,6 +4211,8 @@ record
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4270,6 +4325,8 @@ rejected
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4381,6 +4438,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4494,6 +4553,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4602,6 +4663,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4677,6 +4740,8 @@ com
 /
 Do53
 result
+Services
+.
 dns
 .
 clearCache
@@ -4728,6 +4793,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4786,6 +4853,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5001,6 +5070,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5372,6 +5443,8 @@ enabled
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5457,6 +5530,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5596,6 +5671,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5688,6 +5765,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5741,6 +5820,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5851,6 +5932,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5935,6 +6018,8 @@ excluded
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5985,6 +6070,8 @@ excluded
 Test
 .
 local
+Services
+.
 dns
 .
 clearCache
@@ -6038,6 +6125,8 @@ local
 Test
 .
 other
+Services
+.
 dns
 .
 clearCache
@@ -6112,6 +6201,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6486,6 +6577,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6572,6 +6665,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6661,6 +6756,8 @@ excluded
 Test
 .
 local
+Services
+.
 dns
 .
 clearCache
@@ -6716,6 +6813,8 @@ local
 Test
 .
 other
+Services
+.
 dns
 .
 clearCache
@@ -6855,6 +6954,8 @@ closed
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7087,6 +7188,8 @@ bootstrapAddr
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7230,6 +7333,8 @@ No
 local
 domains
 either
+Services
+.
 dns
 .
 clearCache
@@ -7424,6 +7529,8 @@ the
 TRR
 address
 .
+Services
+.
 dns
 .
 clearCache
@@ -7572,6 +7679,8 @@ error
 code
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7652,6 +7761,8 @@ t
 fallback
 to
 DNS
+Services
+.
 dns
 .
 clearCache
@@ -7812,6 +7923,8 @@ timing
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7887,6 +8000,8 @@ timing
 should
 be
 0
+.
+Services
 .
 dns
 .
@@ -8015,6 +8130,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -8116,6 +8233,8 @@ the
 native
 resolver
 .
+Services
+.
 dns
 .
 clearCache
@@ -8191,6 +8310,8 @@ properly
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -8242,6 +8363,8 @@ org
 /
 /
 GET
+Services
+.
 dns
 .
 clearCache
@@ -8320,6 +8443,8 @@ ipv6
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -8471,6 +8596,8 @@ we
 do
 fall
 back
+Services
+.
 dns
 .
 clearCache
@@ -8529,6 +8656,8 @@ fail
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -8624,6 +8753,8 @@ ipv4
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -8774,6 +8905,8 @@ we
 do
 fall
 back
+Services
+.
 dns
 .
 clearCache
@@ -8822,6 +8955,8 @@ fallback
 with
 strict
 mode
+.
+Services
 .
 dns
 .
@@ -9264,6 +9399,8 @@ test_connection_reuse_and_cycling
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -9386,6 +9523,8 @@ CONFIRM_OK
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -9401,6 +9540,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -9490,6 +9631,8 @@ CONFIRM_OK
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -9505,6 +9648,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -9654,6 +9799,8 @@ CONFIRM_OK
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -9669,6 +9816,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -9819,6 +9968,8 @@ CONFIRM_OK
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -9834,6 +9985,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState

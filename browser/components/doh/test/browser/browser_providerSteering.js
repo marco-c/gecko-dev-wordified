@@ -312,7 +312,9 @@ our
 uri
 .
 return
-gDNSService
+Services
+.
+dns
 .
 currentTrrURI
 =
@@ -331,7 +333,9 @@ trrURIChanged
 ;
 is
 (
-gDNSService
+Services
+.
+dns
 .
 currentTrrURI
 expectedURI
