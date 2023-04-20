@@ -131,15 +131,6 @@ h
 #
 include
 "
-js
-/
-Stream
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ConsoleReportCollector
