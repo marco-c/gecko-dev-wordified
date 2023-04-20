@@ -1051,7 +1051,7 @@ const
 data
 \
 const
-int
+size_t
 pw
 const
 uint8_t
@@ -1264,7 +1264,7 @@ subsampled
 \
 for
 (
-int
+unsigned
 bx
 =
 0

@@ -264,7 +264,7 @@ dav1d_init_wedge_masks
 void
 )
 ;
-extern
+EXTERN
 const
 uint8_t
 *
@@ -307,7 +307,7 @@ dav1d_init_interintra_masks
 void
 )
 ;
-extern
+EXTERN
 const
 uint8_t
 *

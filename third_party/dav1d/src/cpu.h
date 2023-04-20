@@ -334,11 +334,11 @@ h
 "
 #
 endif
-extern
+EXTERN
 unsigned
 dav1d_cpu_flags
 ;
-extern
+EXTERN
 unsigned
 dav1d_cpu_flags_mask
 ;

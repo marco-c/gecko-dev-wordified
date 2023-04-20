@@ -478,7 +478,7 @@ const
 Dav1dFilmGrainData
 *
 data
-int
+size_t
 pw
 \
 const

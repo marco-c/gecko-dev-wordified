@@ -258,7 +258,7 @@ levels
 .
 h
 "
-extern
+EXTERN
 const
 uint8_t
 *

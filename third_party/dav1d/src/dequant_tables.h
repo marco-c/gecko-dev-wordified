@@ -267,7 +267,7 @@ levels
 .
 h
 "
-extern
+EXTERN
 const
 uint16_t
 dav1d_dq_tbl
