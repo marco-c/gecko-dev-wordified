@@ -1163,8 +1163,11 @@ SynchronizedEventQueue
 aQueue
 MainThreadFlag
 aMainThread
-uint32_t
-aStackSize
+nsIThreadManager
+:
+:
+ThreadCreationOptions
+aOptions
 )
 ;
 private

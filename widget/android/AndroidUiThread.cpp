@@ -506,7 +506,12 @@ nsThread
 :
 :
 NOT_MAIN_THREAD
+{
+.
+stackSize
+=
 0
+}
 )
 {
 }

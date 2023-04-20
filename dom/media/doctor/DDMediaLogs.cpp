@@ -187,10 +187,15 @@ getter_AddRefs
 mThread
 )
 nullptr
+{
+.
+stackSize
+=
 nsIThreadManager
 :
 :
 kThreadPoolStackSize
+}
 )
 ;
 if

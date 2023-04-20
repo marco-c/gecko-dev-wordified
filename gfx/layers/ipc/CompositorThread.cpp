@@ -610,7 +610,12 @@ true
 ;
 }
 )
+{
+.
 stackSize
+=
+stackSize
+}
 )
 ;
 if
