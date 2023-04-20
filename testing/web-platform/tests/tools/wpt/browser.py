@@ -7683,7 +7683,7 @@ arm64
             
 return
 "
-mac64_m1
+mac_arm64
 "
         
 return
