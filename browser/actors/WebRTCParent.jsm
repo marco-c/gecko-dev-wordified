@@ -535,9 +535,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 in
@@ -6418,9 +6418,9 @@ you
 return
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 error
 in

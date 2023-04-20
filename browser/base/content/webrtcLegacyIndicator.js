@@ -516,9 +516,9 @@ if
 ssi
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Unknown
 showScreenSharingIndicator

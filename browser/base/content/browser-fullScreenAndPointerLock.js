@@ -2595,9 +2595,9 @@ number
 "
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Tried

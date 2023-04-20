@@ -418,9 +418,9 @@ ex
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -586,9 +586,9 @@ e
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1091,9 +1091,9 @@ err
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -3450,9 +3450,9 @@ this
 _initialized
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 browser
@@ -3464,7 +3464,6 @@ after
 unload
 :
 "
-+
 topic
 )
 ;

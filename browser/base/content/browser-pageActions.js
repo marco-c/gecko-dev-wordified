@@ -2120,9 +2120,9 @@ event
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -5644,9 +5644,9 @@ event
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

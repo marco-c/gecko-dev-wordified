@@ -264,9 +264,9 @@ TEST_URL
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 const
