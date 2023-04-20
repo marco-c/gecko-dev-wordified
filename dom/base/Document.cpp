@@ -43521,6 +43521,13 @@ MarkFontFeatureValuesDirty
 pc
 -
 >
+MarkFontPaletteValuesDirty
+(
+)
+;
+pc
+-
+>
 RestyleManager
 (
 )
