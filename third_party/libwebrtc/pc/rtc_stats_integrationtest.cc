@@ -8637,6 +8637,15 @@ transport
 ice_local_username_fragment
 )
 ;
+verifier
+.
+TestMemberIsDefined
+(
+transport
+.
+ice_state
+)
+;
 return
 verifier
 .
