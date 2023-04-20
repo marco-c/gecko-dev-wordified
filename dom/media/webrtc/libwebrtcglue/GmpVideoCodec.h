@@ -93,6 +93,13 @@ WebrtcVideoEncoder
 *
 CreateEncoder
 (
+const
+webrtc
+:
+:
+SdpVideoFormat
+&
+aFormat
 std
 :
 :
