@@ -205,6 +205,12 @@ kMessageIntegrityAttributeLength
 =
 20
 ;
+const
+int
+kTheoreticalMaximumAttributeLength
+=
+65535
+;
 uint32_t
 ReduceTransactionId
 (
@@ -547,7 +553,7 @@ return
 length
 <
 =
-65535
+kTheoreticalMaximumAttributeLength
 ;
 default
 :
@@ -566,7 +572,7 @@ return
 length
 <
 =
-kDefaultMaxAttributeLength
+kTheoreticalMaximumAttributeLength
 ;
 }
 RTC_NOTREACHED
