@@ -340,7 +340,7 @@ DecodedFrame
 rtc
 :
 :
-RefCountedObject
+FinalRefCountedObject
 <
 DecodedFrameBase
 >
