@@ -2867,6 +2867,9 @@ isSystem_
 =
 false
 ;
+bool
+allocatedDuringIncrementalGC_
+;
 js
 :
 :
@@ -4177,6 +4180,16 @@ marked
 )
 const
 ;
+void
+clearAllocatedDuringGC
+(
+)
+{
+allocatedDuringIncrementalGC_
+=
+false
+;
+}
 /
 *
 *
