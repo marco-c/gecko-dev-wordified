@@ -336,10 +336,6 @@ xpcom
 :
 :
 {
-interfaces
-:
-:
-nsrefcnt
 AtomicRefcnt
 RefCounted
 RefPtr
@@ -1411,9 +1407,6 @@ conn
 &
 NeqoHttp3Conn
 )
--
->
-nsrefcnt
 {
 conn
 .
@@ -1422,6 +1415,7 @@ refcnt
 inc
 (
 )
+;
 }
 #
 [
@@ -1441,9 +1435,6 @@ conn
 &
 NeqoHttp3Conn
 )
--
->
-nsrefcnt
 {
 let
 rc
@@ -1488,7 +1479,6 @@ NeqoHttp3Conn
 )
 ;
 }
-rc
 }
 /
 /
