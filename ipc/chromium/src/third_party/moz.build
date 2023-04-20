@@ -311,6 +311,7 @@ c
 conflicting
 types
 errors
+#
 '
 libevent
 /
@@ -318,6 +319,10 @@ evrpc
 .
 c
 '
+#
+Unused
+file
+.
 #
 conflicting
 TAILQ_ENTRY
