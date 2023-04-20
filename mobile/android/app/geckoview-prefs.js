@@ -769,6 +769,9 @@ Warn
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 PDF
@@ -828,3 +831,5 @@ disabled
 true
 )
 ;
+#
+endif

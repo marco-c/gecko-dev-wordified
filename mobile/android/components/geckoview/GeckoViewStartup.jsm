@@ -1671,6 +1671,8 @@ privileged
 api
 access
 .
+try
+{
 lazy
 .
 PdfJs
@@ -1682,6 +1684,10 @@ this
 _isNewProfile
 )
 ;
+}
+catch
+{
+}
 break
 ;
 }
