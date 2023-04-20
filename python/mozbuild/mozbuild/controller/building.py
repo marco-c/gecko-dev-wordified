@@ -5102,7 +5102,7 @@ parts
             
 (
 "
-dim
+bright_black
 "
 "
 Processing
@@ -5121,7 +5121,7 @@ processed
             
 (
 "
-dim
+bright_black
 "
 "
 of
@@ -5140,7 +5140,7 @@ total
             
 (
 "
-dim
+bright_black
 "
 "
 files
