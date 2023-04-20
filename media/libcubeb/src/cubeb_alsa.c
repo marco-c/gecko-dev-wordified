@@ -5570,6 +5570,9 @@ cubeb_alsa_mutex
 )
 ;
 }
+#
+ifndef
+DISABLE_LIBASOUND_DLOPEN
 if
 (
 ctx
@@ -5587,6 +5590,8 @@ libasound
 )
 ;
 }
+#
+endif
 free
 (
 ctx

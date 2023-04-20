@@ -49,6 +49,13 @@ h
 "
 #
 include
+"
+cubeb_tracing
+.
+h
+"
+#
+include
 <
 cstdarg
 >
@@ -391,6 +398,13 @@ this
 (
 )
 {
+CUBEB_REGISTER_THREAD
+(
+"
+cubeb_log
+"
+)
+;
 while
 (
 true
@@ -411,8 +425,9 @@ msg
 )
 )
 {
-LOGV
+LOG_INTERNAL_NO_FORMAT
 (
+CUBEB_LOG_NORMAL
 "
 %
 s
@@ -488,6 +503,10 @@ tv_nsec
 #
 endif
 }
+CUBEB_UNREGISTER_THREAD
+(
+)
+;
 }
 )
 .
@@ -719,6 +738,7 @@ args
 void
 cubeb_async_log_reset_threads
 (
+void
 )
 {
 if
