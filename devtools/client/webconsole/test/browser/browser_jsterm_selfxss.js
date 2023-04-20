@@ -97,6 +97,10 @@ WebConsoleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +108,8 @@ client
 webconsole
 /
 utils
+.
+js
 "
 )
 .

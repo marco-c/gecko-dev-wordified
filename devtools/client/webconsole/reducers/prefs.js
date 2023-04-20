@@ -71,6 +71,10 @@ AUTOCOMPLETE_TOGGLE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

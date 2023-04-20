@@ -115,6 +115,10 @@ prepareMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +128,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -136,6 +142,10 @@ NetworkEventMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +153,8 @@ client
 webconsole
 /
 types
+.
+js
 "
 )
 ;

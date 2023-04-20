@@ -67,6 +67,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;

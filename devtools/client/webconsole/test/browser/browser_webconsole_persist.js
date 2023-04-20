@@ -136,6 +136,10 @@ MESSAGE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +147,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -154,6 +160,10 @@ WILL_NAVIGATE_TIME_SHIFT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -167,6 +177,8 @@ listeners
 document
 -
 events
+.
+js
 "
 )
 ;

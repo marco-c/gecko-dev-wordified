@@ -69,6 +69,10 @@ createContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ utils
 context
 -
 menu
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ createEditContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ toolbox
 context
 -
 menu
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ getLongStringFullText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ shared
 string
 -
 utils
+.
+js
 "
 )
 ;

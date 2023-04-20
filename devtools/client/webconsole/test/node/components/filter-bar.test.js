@@ -74,6 +74,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -131,6 +143,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +156,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -149,6 +167,10 @@ FilterButton
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -160,6 +182,8 @@ components
 FilterBar
 /
 FilterButton
+.
+js
 "
 )
 ;
@@ -171,6 +195,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +210,8 @@ components
 FilterBar
 /
 FilterBar
+.
+js
 "
 )
 )
@@ -194,6 +224,10 @@ FILTERBAR_DISPLAY_MODES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -201,6 +235,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -213,6 +249,10 @@ FILTERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -220,6 +260,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -232,6 +274,10 @@ clearPrefs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -243,6 +289,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -252,6 +300,10 @@ serviceContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -265,6 +317,8 @@ node
 fixtures
 /
 serviceContainer
+.
+js
 "
 )
 ;

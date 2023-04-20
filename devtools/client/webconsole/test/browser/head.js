@@ -310,6 +310,10 @@ BrowserConsoleManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -321,6 +325,8 @@ browser
 console
 -
 manager
+.
+js
 "
 )
 ;
@@ -330,6 +336,10 @@ WCUL10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -339,6 +349,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -410,6 +422,10 @@ wcActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -419,6 +435,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;

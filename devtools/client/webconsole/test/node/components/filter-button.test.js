@@ -62,6 +62,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -71,6 +75,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -82,6 +88,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -93,6 +103,8 @@ components
 FilterBar
 /
 FilterButton
+.
+js
 "
 )
 )
@@ -105,6 +117,10 @@ MESSAGE_LEVEL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +128,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

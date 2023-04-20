@@ -67,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -120,6 +136,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -131,6 +149,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +162,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;

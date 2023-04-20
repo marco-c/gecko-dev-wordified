@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +109,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ createProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -131,6 +149,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +162,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -151,6 +175,10 @@ configureStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +186,8 @@ client
 webconsole
 /
 store
+.
+js
 "
 )
 ;
@@ -169,6 +199,10 @@ isPacketPrivate
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +212,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -191,6 +227,10 @@ getAllNetworkMessagesUpdateById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +240,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -209,6 +251,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -216,6 +262,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -225,6 +273,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -232,6 +284,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -243,6 +297,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -252,6 +310,8 @@ webconsole
 components
 /
 App
+.
+js
 "
 )
 )
@@ -273,6 +333,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -282,6 +346,8 @@ shared
 components
 /
 AppErrorBoundary
+.
+js
 "
 )
 )
@@ -295,6 +361,10 @@ setupServiceContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -304,6 +374,8 @@ webconsole
 service
 -
 container
+.
+js
 "
 )
 ;
@@ -366,11 +438,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

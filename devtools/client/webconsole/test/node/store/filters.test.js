@@ -49,6 +49,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +62,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -69,6 +75,10 @@ messagesAdd
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +88,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -89,6 +101,10 @@ ConsoleCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +112,8 @@ client
 webconsole
 /
 types
+.
+js
 "
 )
 ;
@@ -107,6 +125,10 @@ getVisibleMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +138,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -127,6 +151,10 @@ getAllFilters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +164,8 @@ webconsole
 selectors
 /
 filters
+.
+js
 "
 )
 ;
@@ -148,6 +178,10 @@ getFiltersPrefs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +193,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -171,6 +207,10 @@ PREFS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +218,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -189,6 +231,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -204,6 +250,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -215,6 +263,10 @@ stubPreparedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -230,6 +282,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;

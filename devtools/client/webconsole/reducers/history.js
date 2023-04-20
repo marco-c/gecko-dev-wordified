@@ -81,6 +81,10 @@ SET_TERMINAL_EAGER_RESULT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +92,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

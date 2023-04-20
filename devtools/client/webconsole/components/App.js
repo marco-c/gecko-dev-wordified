@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -113,6 +119,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +136,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -137,6 +149,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +166,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -159,6 +177,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +190,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -179,6 +203,10 @@ FILTERBAR_DISPLAY_MODES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +214,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -213,6 +243,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -224,6 +258,8 @@ components
 Output
 /
 ConsoleOutput
+.
+js
 "
 )
 )
@@ -236,6 +272,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -247,6 +287,8 @@ components
 FilterBar
 /
 FilterBar
+.
+js
 "
 )
 )
@@ -259,6 +301,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -270,6 +316,8 @@ components
 Input
 /
 ReverseSearchInput
+.
+js
 "
 )
 )
@@ -282,6 +330,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -293,6 +345,8 @@ components
 Input
 /
 JSTerm
+.
+js
 "
 )
 )
@@ -305,6 +359,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -316,6 +374,8 @@ components
 Input
 /
 ConfirmDialog
+.
+js
 "
 )
 )
@@ -328,6 +388,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -339,6 +403,8 @@ components
 Input
 /
 EagerEvaluation
+.
+js
 "
 )
 )
@@ -373,6 +439,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -382,6 +452,8 @@ webconsole
 components
 /
 SideBar
+.
+js
 "
 )
 )
@@ -404,6 +476,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -415,6 +491,8 @@ components
 Input
 /
 EditorToolbar
+.
+js
 "
 )
 )
@@ -437,6 +515,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -446,6 +528,8 @@ shared
 components
 /
 NotificationBox
+.
+js
 "
 )
 .
@@ -497,6 +581,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -508,6 +596,8 @@ components
 splitter
 /
 GridElementWidthResizer
+.
+js
 "
 )
 )
@@ -530,6 +620,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -539,6 +633,8 @@ framework
 components
 /
 ChromeDebugToolbar
+.
+js
 "
 )
 )
@@ -550,6 +646,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -559,6 +659,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -572,6 +674,10 @@ WebConsoleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -579,6 +685,8 @@ client
 webconsole
 /
 utils
+.
+js
 "
 )
 ;
@@ -621,6 +729,10 @@ getAllNotifications
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -630,6 +742,8 @@ webconsole
 selectors
 /
 notifications
+.
+js
 "
 )
 ;

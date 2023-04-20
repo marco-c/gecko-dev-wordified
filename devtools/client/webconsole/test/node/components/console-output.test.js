@@ -40,6 +40,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -104,6 +110,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +125,8 @@ components
 Output
 /
 ConsoleOutput
+.
+js
 "
 )
 )
@@ -125,6 +137,10 @@ serviceContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +154,8 @@ node
 fixtures
 /
 serviceContainer
+.
+js
 "
 )
 ;
@@ -149,6 +167,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -160,6 +182,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -274,6 +298,10 @@ Services
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -289,6 +317,8 @@ jest
 fixtures
 /
 Services
+.
+js
 "
 )
 ;

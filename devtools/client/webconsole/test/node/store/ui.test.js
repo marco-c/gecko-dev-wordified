@@ -49,6 +49,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +62,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -71,6 +77,10 @@ getLastMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +92,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -94,6 +106,10 @@ stubPreparedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +125,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;

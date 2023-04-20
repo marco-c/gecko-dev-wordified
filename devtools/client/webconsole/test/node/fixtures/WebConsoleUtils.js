@@ -38,6 +38,10 @@ L10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -51,6 +55,8 @@ node
 fixtures
 /
 L10n
+.
+js
 "
 )
 ;

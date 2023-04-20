@@ -69,6 +69,10 @@ getAllPrefs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ webconsole
 selectors
 /
 prefs
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ getAllUi
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ webconsole
 selectors
 /
 ui
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ getMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +134,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -146,6 +164,10 @@ ENABLE_NETWORK_MONITORING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +175,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

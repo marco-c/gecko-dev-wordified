@@ -74,6 +74,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -116,6 +128,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ components
 Output
 /
 Message
+.
+js
 "
 )
 )
@@ -137,6 +155,10 @@ GripMessageBody
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +170,8 @@ components
 Output
 /
 GripMessageBody
+.
+js
 "
 )
 ;
@@ -167,6 +191,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +206,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -202,6 +232,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +247,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .

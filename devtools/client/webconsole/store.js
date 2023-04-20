@@ -72,6 +72,10 @@ FilterState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ webconsole
 reducers
 /
 filters
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ PrefState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ webconsole
 reducers
 /
 prefs
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ UiState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +137,8 @@ webconsole
 reducers
 /
 ui
+.
+js
 "
 )
 ;
@@ -137,6 +155,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -160,6 +184,10 @@ PREFS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +195,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -178,6 +208,10 @@ getPrefsService
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +221,8 @@ webconsole
 utils
 /
 prefs
+.
+js
 "
 )
 ;
@@ -201,6 +237,10 @@ reducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -210,6 +250,8 @@ webconsole
 reducers
 /
 index
+.
+js
 "
 )
 ;
@@ -224,6 +266,10 @@ ignore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -235,6 +281,8 @@ redux
 middleware
 /
 ignore
+.
+js
 "
 )
 ;
@@ -244,6 +292,10 @@ eventTelemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -255,6 +307,8 @@ middleware
 event
 -
 telemetry
+.
+js
 "
 )
 ;
@@ -264,6 +318,10 @@ historyPersistence
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -275,6 +333,8 @@ middleware
 history
 -
 persistence
+.
+js
 "
 )
 ;
@@ -284,6 +344,10 @@ performanceMarker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -295,6 +359,8 @@ middleware
 performance
 -
 marker
+.
+js
 "
 )
 ;
@@ -306,6 +372,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -317,6 +387,8 @@ redux
 middleware
 /
 thunk
+.
+js
 "
 )
 ;
@@ -329,6 +401,10 @@ enableBatching
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -338,6 +414,8 @@ webconsole
 enhancers
 /
 batching
+.
+js
 "
 )
 ;
@@ -347,6 +425,10 @@ enableActorReleaser
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -358,6 +440,8 @@ enhancers
 actor
 -
 releaser
+.
+js
 "
 )
 ;
@@ -367,6 +451,10 @@ ensureCSSErrorReportingEnabled
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -380,6 +468,8 @@ css
 error
 -
 reporting
+.
+js
 "
 )
 ;
@@ -389,6 +479,10 @@ enableMessagesCacheClearing
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -402,6 +496,8 @@ message
 cache
 -
 clearing
+.
+js
 "
 )
 ;

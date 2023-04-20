@@ -74,6 +74,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -142,6 +148,10 @@ MESSAGE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +159,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -158,6 +170,10 @@ ConsoleApiCall
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +189,8 @@ message
 types
 /
 ConsoleApiCall
+.
+js
 "
 )
 ;
@@ -182,6 +200,10 @@ ConsoleCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +219,8 @@ message
 types
 /
 ConsoleCommand
+.
+js
 "
 )
 ;
@@ -206,6 +230,10 @@ CSSWarning
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -221,6 +249,8 @@ message
 types
 /
 CSSWarning
+.
+js
 "
 )
 ;
@@ -230,6 +260,10 @@ DefaultRenderer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -245,6 +279,8 @@ message
 types
 /
 DefaultRenderer
+.
+js
 "
 )
 ;
@@ -254,6 +290,10 @@ EvaluationResult
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -269,6 +309,8 @@ message
 types
 /
 EvaluationResult
+.
+js
 "
 )
 ;
@@ -278,6 +320,10 @@ NavigationMarker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -293,6 +339,8 @@ message
 types
 /
 NavigationMarker
+.
+js
 "
 )
 ;
@@ -302,6 +350,10 @@ NetworkEventMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -317,6 +369,8 @@ message
 types
 /
 NetworkEventMessage
+.
+js
 "
 )
 ;
@@ -326,6 +380,10 @@ PageError
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -341,6 +399,8 @@ message
 types
 /
 PageError
+.
+js
 "
 )
 ;
@@ -350,6 +410,10 @@ SimpleTable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -365,6 +429,8 @@ message
 types
 /
 SimpleTable
+.
+js
 "
 )
 ;
@@ -374,6 +440,10 @@ WarningGroup
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -389,6 +459,8 @@ message
 types
 /
 WarningGroup
+.
+js
 "
 )
 ;

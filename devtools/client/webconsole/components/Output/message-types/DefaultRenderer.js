@@ -67,6 +67,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;

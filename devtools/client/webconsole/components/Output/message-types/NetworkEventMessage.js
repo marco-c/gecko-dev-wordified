@@ -75,6 +75,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +116,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -115,6 +127,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +172,8 @@ components
 Output
 /
 Message
+.
+js
 "
 )
 )
@@ -160,6 +184,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -181,6 +211,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +224,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -224,6 +260,10 @@ getHTTPStatusCodeURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +277,8 @@ utils
 doc
 -
 utils
+.
+js
 "
 )
 ;
@@ -248,6 +290,10 @@ getUnicodeUrl
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -257,6 +303,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;

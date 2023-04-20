@@ -49,6 +49,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +62,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -69,6 +75,10 @@ getVisibleMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +88,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -89,6 +101,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +116,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;

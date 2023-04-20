@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ getTerminalEagerResult
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -142,6 +164,8 @@ webconsole
 selectors
 /
 history
+.
+js
 "
 )
 ;
@@ -151,6 +175,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -160,6 +188,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -179,6 +209,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +224,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -214,6 +250,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -225,6 +265,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .

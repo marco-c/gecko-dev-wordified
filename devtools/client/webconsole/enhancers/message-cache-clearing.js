@@ -69,6 +69,10 @@ MESSAGES_CLEAR
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

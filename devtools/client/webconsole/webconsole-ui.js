@@ -67,6 +67,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +78,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ KeyShortcuts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +102,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -103,6 +115,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +128,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -151,6 +169,10 @@ getAdHocFrontOrPrimitiveGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +180,8 @@ client
 fronts
 /
 object
+.
+js
 "
 )
 ;
@@ -169,6 +193,10 @@ PREFS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -176,6 +204,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -185,6 +215,10 @@ FirefoxDataProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +234,8 @@ firefox
 data
 -
 provider
+.
+js
 "
 )
 ;
@@ -281,6 +317,10 @@ ZoomKeys
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -290,6 +330,8 @@ shared
 zoom
 -
 keys
+.
+js
 "
 )
 ;

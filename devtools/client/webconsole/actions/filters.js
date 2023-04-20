@@ -69,6 +69,10 @@ getAllFilters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ webconsole
 selectors
 /
 filters
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ FILTERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

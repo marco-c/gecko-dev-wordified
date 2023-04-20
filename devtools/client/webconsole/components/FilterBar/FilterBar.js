@@ -75,6 +75,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +116,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -115,6 +127,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -140,6 +158,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +171,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -163,6 +187,10 @@ getAllFilters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -172,6 +200,8 @@ webconsole
 selectors
 /
 filters
+.
+js
 "
 )
 ;
@@ -183,6 +213,10 @@ getFilteredMessagesCount
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +226,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -203,6 +239,10 @@ getAllPrefs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -212,6 +252,8 @@ webconsole
 selectors
 /
 prefs
+.
+js
 "
 )
 ;
@@ -223,6 +265,10 @@ getAllUi
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -232,6 +278,8 @@ webconsole
 selectors
 /
 ui
+.
+js
 "
 )
 ;
@@ -246,6 +294,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -255,6 +307,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -266,6 +320,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -273,6 +331,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -288,6 +348,10 @@ FILTERBAR_DISPLAY_MODES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -295,6 +359,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -308,6 +374,10 @@ FilterButton
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -319,6 +389,8 @@ components
 FilterBar
 /
 FilterButton
+.
+js
 "
 )
 ;
@@ -330,6 +402,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -341,6 +417,8 @@ components
 FilterBar
 /
 ConsoleSettings
+.
+js
 "
 )
 )
@@ -353,6 +431,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -362,6 +444,8 @@ shared
 components
 /
 SearchBox
+.
+js
 "
 )
 )

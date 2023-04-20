@@ -76,6 +76,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +89,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -94,6 +100,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +117,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -118,6 +130,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +167,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -158,6 +182,10 @@ MESSAGE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +193,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -176,6 +206,10 @@ MessageIndent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +221,8 @@ components
 Output
 /
 MessageIndent
+.
+js
 "
 )
 ;
@@ -196,6 +232,10 @@ MessageIcon
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +247,8 @@ components
 Output
 /
 MessageIcon
+.
+js
 "
 )
 ;
@@ -218,6 +260,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -227,6 +273,8 @@ shared
 components
 /
 Frame
+.
+js
 "
 )
 )

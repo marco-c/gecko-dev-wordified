@@ -49,6 +49,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +62,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -69,6 +75,10 @@ getFilteredMessagesCount
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +88,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -89,6 +101,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +116,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -111,6 +129,10 @@ FILTERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +140,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -129,6 +153,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +172,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;

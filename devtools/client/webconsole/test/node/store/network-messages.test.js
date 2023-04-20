@@ -40,6 +40,10 @@ getAllNetworkMessagesUpdateById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -62,6 +68,10 @@ clonePacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -73,6 +83,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -84,6 +96,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +115,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;

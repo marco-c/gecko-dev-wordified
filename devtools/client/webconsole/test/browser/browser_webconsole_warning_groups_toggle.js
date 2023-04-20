@@ -63,6 +63,10 @@ PrefObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -70,6 +74,8 @@ client
 shared
 /
 prefs
+.
+js
 "
 )
 ;

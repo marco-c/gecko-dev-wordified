@@ -84,6 +84,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +103,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -113,6 +119,10 @@ getWebConsoleUiMock
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +134,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -133,6 +145,10 @@ WebConsoleWrapper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -142,6 +158,8 @@ webconsole
 webconsole
 -
 wrapper
+.
+js
 "
 )
 ;
@@ -153,6 +171,10 @@ messagesAdd
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +184,8 @@ webconsole
 actions
 /
 messages
+.
+js
 "
 )
 ;

@@ -71,6 +71,10 @@ WebConsoleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ client
 webconsole
 /
 utils
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ EDITOR_PRETTY_PRINT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +109,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ getAllPrefs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +135,8 @@ webconsole
 selectors
 /
 prefs
+.
+js
 "
 )
 ;
@@ -128,6 +146,10 @@ ResourceCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -139,6 +161,8 @@ resource
 resource
 -
 command
+.
+js
 "
 )
 ;
@@ -148,6 +172,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +185,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;

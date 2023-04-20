@@ -71,6 +71,10 @@ EVALUATE_EXPRESSION
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ historyActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +106,8 @@ webconsole
 actions
 /
 history
+.
+js
 "
 )
 ;

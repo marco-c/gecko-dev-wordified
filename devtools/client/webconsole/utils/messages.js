@@ -67,6 +67,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ ResourceCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -96,6 +106,8 @@ resource
 resource
 -
 command
+.
+js
 "
 )
 ;
@@ -107,6 +119,10 @@ isSupportedByConsoleTable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -114,6 +130,8 @@ shared
 webconsole
 /
 messages
+.
+js
 "
 )
 ;
@@ -929,6 +947,10 @@ MESSAGE_LEVEL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -936,6 +958,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -948,6 +972,10 @@ NetworkEventMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -955,6 +983,8 @@ client
 webconsole
 /
 types
+.
+js
 "
 )
 ;

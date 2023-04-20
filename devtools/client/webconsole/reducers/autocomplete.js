@@ -78,6 +78,10 @@ WILL_NAVIGATE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +89,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

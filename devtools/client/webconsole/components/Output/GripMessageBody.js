@@ -70,6 +70,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ JSTERM_COMMANDS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ cleanupStyle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ getObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +172,8 @@ utils
 object
 -
 inspector
+.
+js
 "
 )
 ;
@@ -159,6 +183,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +196,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -187,6 +217,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -198,6 +232,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -222,6 +258,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +273,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .

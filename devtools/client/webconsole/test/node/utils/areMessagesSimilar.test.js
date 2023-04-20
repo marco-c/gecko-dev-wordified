@@ -40,6 +40,10 @@ areMessagesSimilar
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -60,6 +66,10 @@ stubPreparedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -75,6 +85,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;

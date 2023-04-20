@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ getArrayTypeNames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -119,6 +135,8 @@ shared
 webconsole
 /
 messages
+.
+js
 "
 )
 ;
@@ -131,6 +149,10 @@ getDescriptorValue
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +162,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -159,6 +183,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -170,6 +198,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -186,6 +216,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +231,8 @@ components
 Output
 /
 GripMessageBody
+.
+js
 "
 )
 )

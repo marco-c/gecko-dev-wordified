@@ -321,6 +321,10 @@ TEST_EVENTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -330,6 +334,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
