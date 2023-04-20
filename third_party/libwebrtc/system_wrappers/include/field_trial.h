@@ -769,9 +769,6 @@ GetFieldTrialString
 (
 )
 ;
-#
-ifndef
-WEBRTC_EXCLUDE_FIELD_TRIAL_DEFAULT
 /
 /
 Validates
@@ -854,11 +851,6 @@ char
 second
 )
 ;
-#
-endif
-/
-/
-WEBRTC_EXCLUDE_FIELD_TRIAL_DEFAULT
 }
 /
 /
