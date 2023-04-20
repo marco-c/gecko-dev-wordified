@@ -416,10 +416,11 @@ kIsLibaomAv1DecoderSupported
 kDav1dIsIncluded
 &
 &
+!
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 kDav1dFieldTrial
 )
@@ -718,10 +719,11 @@ kAv1CodecName
 kDav1dIsIncluded
 &
 &
+!
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 kDav1dFieldTrial
 )
