@@ -174,13 +174,11 @@ created
 AecDump
 instance
 .
-|
 max_log_size_bytes
 =
 =
 -
 1
-|
 means
 the
 log
