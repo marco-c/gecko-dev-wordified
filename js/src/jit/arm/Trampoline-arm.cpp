@@ -176,9 +176,6 @@ JitSpewer
 h
 "
 #
-ifdef
-JS_ION_PERF
-#
 include
 "
 jit
@@ -187,8 +184,6 @@ PerfSpewer
 .
 h
 "
-#
-endif
 #
 include
 "

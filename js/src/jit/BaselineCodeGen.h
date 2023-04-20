@@ -2432,17 +2432,9 @@ debugTrapEntries_
 CodeOffset
 profilerPushToggleOffset_
 ;
-#
-if
-defined
-(
-JS_ION_PERF
-)
 BaselinePerfSpewer
 perfSpewer_
 ;
-#
-endif
 public
 :
 BaselineCompiler

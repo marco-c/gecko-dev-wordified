@@ -17892,9 +17892,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -17906,8 +17903,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -20103,9 +20098,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -20117,8 +20109,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -21110,9 +21100,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -21124,8 +21111,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -23147,9 +23132,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -23161,8 +23143,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -23568,9 +23548,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -23582,8 +23559,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -25191,9 +25166,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -25205,8 +25177,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -32804,9 +32774,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -32818,8 +32785,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -32939,9 +32904,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -32953,8 +32915,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -33842,9 +33802,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -33856,8 +33813,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -35339,9 +35294,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -35353,8 +35305,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -65775,9 +65725,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -65789,8 +65736,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -69647,9 +69592,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -69661,8 +69603,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -69769,9 +69709,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -69783,8 +69720,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -70557,9 +70492,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -70571,8 +70503,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -70712,9 +70642,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -70726,8 +70653,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -72633,9 +72558,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -72647,8 +72569,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -73156,9 +73076,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -73170,8 +73087,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -76242,9 +76157,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -76256,8 +76168,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
@@ -76750,9 +76660,6 @@ char
 name
 )
 {
-#
-ifdef
-JS_ION_PERF
 stubName_
 =
 JS_smprintf
@@ -76764,8 +76671,6 @@ s
 name
 )
 ;
-#
-endif
 #
 ifdef
 JS_CACHEIR_SPEW
