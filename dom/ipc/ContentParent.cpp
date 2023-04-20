@@ -11160,10 +11160,7 @@ process
 .
 if
 (
-PresShell
-:
-:
-IsAccessibilityActive
+GetAccService
 (
 )
 )

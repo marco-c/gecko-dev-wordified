@@ -66677,10 +66677,7 @@ nsAccessibilityService
 *
 accService
 =
-PresShell
-:
-:
-GetAccessibilityService
+GetAccService
 (
 )
 )
