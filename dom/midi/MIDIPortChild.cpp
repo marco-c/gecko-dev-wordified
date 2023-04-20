@@ -214,9 +214,11 @@ UnsetIPCPort
 (
 )
 ;
+MOZ_ASSERT
+(
+!
 mDOMPort
-=
-nullptr
+)
 ;
 }
 MIDIPortInterface
