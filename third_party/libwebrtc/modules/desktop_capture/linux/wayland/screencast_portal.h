@@ -550,7 +550,7 @@ ScreenCastPortal
 CursorMode
 :
 :
-kEmbedded
+kMetadata
 ;
 GDBusConnection
 *
