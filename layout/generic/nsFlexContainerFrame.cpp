@@ -37668,17 +37668,7 @@ aStatus
 {
 if
 (
-GetInFlowParent
-(
-)
-&
-&
-GetInFlowParent
-(
-)
--
->
-IsContentHiddenForLayout
+IsHiddenByContentVisibilityOfInFlowParentForLayout
 (
 )
 )
@@ -43566,7 +43556,7 @@ aFlr
 {
 if
 (
-IsContentHiddenForLayout
+HidesContentForLayout
 (
 )
 )
@@ -45252,7 +45242,7 @@ deal
 .
 NS_WARNING_ASSERTION
 (
-IsContentHidden
+HidesContentForLayout
 (
 )
 |
