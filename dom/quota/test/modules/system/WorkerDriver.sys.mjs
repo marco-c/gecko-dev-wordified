@@ -30,6 +30,7 @@ zero
 /
 *
 /
+export
 async
 function
 runTestInWorker
@@ -288,12 +289,3 @@ href
 )
 ;
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-runTestInWorker
-"
-]
-;

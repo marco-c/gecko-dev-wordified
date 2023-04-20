@@ -81,6 +81,7 @@ resultName
 ;
 }
 }
+export
 function
 setStoragePrefs
 (
@@ -192,6 +193,7 @@ pref
 ;
 }
 }
+export
 function
 clearStoragePrefs
 (
@@ -289,6 +291,7 @@ pref
 ;
 }
 }
+export
 async
 function
 clearStoragesForOrigin
@@ -365,18 +368,3 @@ request
 result
 ;
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-setStoragePrefs
-"
-"
-clearStoragePrefs
-"
-"
-clearStoragesForOrigin
-"
-]
-;

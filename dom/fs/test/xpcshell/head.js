@@ -52,7 +52,7 @@ ModuleLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +73,9 @@ modules
 /
 ModuleLoader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -175,7 +177,7 @@ runTestInWorker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -196,7 +198,9 @@ modules
 /
 WorkerDriver
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -294,7 +298,7 @@ clearStoragesForOrigin
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -315,7 +319,9 @@ modules
 /
 StorageUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

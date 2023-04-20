@@ -30,6 +30,7 @@ zero
 /
 *
 /
+export
 function
 ModuleLoader
 (
@@ -280,12 +281,3 @@ returnObj
 )
 ;
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-ModuleLoader
-"
-]
-;
