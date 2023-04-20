@@ -19946,7 +19946,10 @@ NONE
 )
 mTextDecorationStyle
 (
-NS_STYLE_TEXT_DECORATION_STYLE_SOLID
+StyleTextDecorationStyle
+:
+:
+Solid
 )
 mUnicodeBidi
 (

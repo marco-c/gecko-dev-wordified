@@ -6246,13 +6246,12 @@ mozilla
 StyleTextDecorationLine
 mTextDecorationLine
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextDecorationStyle
 mTextDecorationStyle
 ;
-/
-/
-NS_STYLE_TEXT_DECORATION_STYLE_
-*
 mozilla
 :
 :

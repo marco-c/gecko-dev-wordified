@@ -5556,7 +5556,10 @@ mTextDecorationThickness
 nscolor
 mColor
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextDecorationStyle
 mStyle
 ;
 /
@@ -5620,7 +5623,10 @@ const
 nscolor
 aColor
 const
-uint8_t
+mozilla
+:
+:
+StyleTextDecorationStyle
 aStyle
 )
 :

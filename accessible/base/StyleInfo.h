@@ -265,7 +265,7 @@ nsAtom
 >
 TextDecorationStyleToAtom
 (
-uint8_t
+StyleTextDecorationStyle
 aValue
 )
 ;

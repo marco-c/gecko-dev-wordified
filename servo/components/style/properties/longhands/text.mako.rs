@@ -369,6 +369,11 @@ servo
 -
 2020
 "
+gecko_enum_prefix
+=
+"
+StyleTextDecorationStyle
+"
 animation_value_type
 =
 "
