@@ -429,9 +429,7 @@ size_t
 aLength
 )
 {
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -440,7 +438,6 @@ Append
 (
 aData
 aLength
-)
 )
 )
 ;
@@ -1479,9 +1476,7 @@ to
 the
 buffer
 .
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -1491,7 +1486,6 @@ ExpectLength
 sizeof
 (
 mData
-)
 )
 )
 )
@@ -1692,9 +1686,7 @@ our
 problems
 .
 )
-EXPECT_TRUE
-(
-NS_FAILED
+EXPECT_NS_FAILED
 (
 mSourceBuffer
 -
@@ -1703,7 +1695,6 @@ Append
 (
 mData
 hugeSize
-)
 )
 )
 ;
@@ -1804,9 +1795,7 @@ have
 uint64_t
 length
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 inputStream
 -
@@ -1815,7 +1804,6 @@ Available
 (
 &
 length
-)
 )
 )
 ;
@@ -1900,9 +1888,7 @@ to
 the
 buffer
 .
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -1912,7 +1898,6 @@ ExpectLength
 sizeof
 (
 mData
-)
 )
 )
 )
@@ -1987,9 +1972,7 @@ the
 completed
 buffer
 .
-EXPECT_TRUE
-(
-NS_FAILED
+EXPECT_NS_FAILED
 (
 mSourceBuffer
 -
@@ -2000,7 +1983,6 @@ mData
 sizeof
 (
 mData
-)
 )
 )
 )
@@ -2310,9 +2292,7 @@ least
 MIN_CHUNK_CAPACITY
 bytes
 .
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -2320,7 +2300,6 @@ mSourceBuffer
 ExpectLength
 (
 1
-)
 )
 )
 ;
@@ -2485,9 +2464,7 @@ SourceBuffer
 :
 MIN_CHUNK_CAPACITY
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -2495,7 +2472,6 @@ mSourceBuffer
 ExpectLength
 (
 length
-)
 )
 )
 ;
@@ -2730,9 +2706,7 @@ our
 problems
 .
 )
-EXPECT_TRUE
-(
-NS_FAILED
+EXPECT_NS_FAILED
 (
 mSourceBuffer
 -
@@ -2740,7 +2714,6 @@ mSourceBuffer
 ExpectLength
 (
 hugeSize
-)
 )
 )
 ;

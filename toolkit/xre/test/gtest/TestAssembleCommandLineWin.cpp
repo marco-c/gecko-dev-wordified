@@ -125,6 +125,17 @@ include
 "
 mozilla
 /
+gtest
+/
+MozAssertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtrExtensions
 .
 h
@@ -1767,9 +1778,7 @@ CopyData
 )
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 receiver
 .
@@ -1782,7 +1791,6 @@ GetLength
 (
 &
 len
-)
 )
 )
 ;
@@ -1883,9 +1891,7 @@ CopyData
 )
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 receiver
 .
@@ -1898,7 +1904,6 @@ GetLength
 (
 &
 len
-)
 )
 )
 ;
@@ -1990,9 +1995,7 @@ workingDir
 )
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 workingDir
 -
@@ -2000,7 +2003,6 @@ workingDir
 GetPath
 (
 arg
-)
 )
 )
 ;
@@ -2025,9 +2027,7 @@ CopyData
 )
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 receiver
 .
@@ -2040,7 +2040,6 @@ GetLength
 (
 &
 len
-)
 )
 )
 ;
@@ -2132,9 +2131,7 @@ workingDir
 )
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 workingDir
 -
@@ -2142,7 +2139,6 @@ workingDir
 GetPath
 (
 arg
-)
 )
 )
 ;
@@ -2343,9 +2339,7 @@ WinRemoteMessageVersion
 CommandLineOnly
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 receiver
 .
@@ -2353,7 +2347,6 @@ Parse
 (
 &
 copyData
-)
 )
 )
 ;
@@ -2391,9 +2384,7 @@ WinRemoteMessageVersion
 CommandLineAndWorkingDir
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 receiver
 .
@@ -2401,7 +2392,6 @@ Parse
 (
 &
 copyData
-)
 )
 )
 ;
@@ -2439,9 +2429,7 @@ WinRemoteMessageVersion
 CommandLineAndWorkingDirInUtf16
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 receiver
 .
@@ -2449,7 +2437,6 @@ Parse
 (
 &
 copyData
-)
 )
 )
 ;

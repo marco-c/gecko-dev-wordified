@@ -461,12 +461,9 @@ Available
 length
 )
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 rv
-)
 )
 ;
 /
@@ -514,12 +511,9 @@ inputStream
 length
 )
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 rv
-)
 )
 ;
 sourceBuffer

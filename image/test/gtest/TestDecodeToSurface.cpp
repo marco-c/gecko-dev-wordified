@@ -536,12 +536,9 @@ thread
 nullptr
 )
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 rv
-)
 )
 ;
 /
@@ -929,12 +926,9 @@ mMimeType
 metadata
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 rv
-)
 )
 ;
 ASSERT_TRUE

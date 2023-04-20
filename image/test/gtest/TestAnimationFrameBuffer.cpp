@@ -240,12 +240,9 @@ animParams
 aCanRecycle
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 rv
-)
 )
 ;
 RawAccessFrameRef

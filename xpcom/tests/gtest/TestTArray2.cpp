@@ -207,6 +207,17 @@ gtest
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gtest
+/
+MozAssertions
+.
+h
+"
 using
 namespace
 mozilla
@@ -5016,9 +5027,7 @@ ASSERT_TRUE
 f
 )
 ;
-ASSERT_FALSE
-(
-NS_FAILED
+ASSERT_NS_SUCCEEDED
 (
 f
 -
@@ -5031,7 +5040,6 @@ kNames
 [
 i
 ]
-)
 )
 )
 )

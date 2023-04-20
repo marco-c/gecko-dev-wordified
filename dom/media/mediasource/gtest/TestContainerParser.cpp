@@ -125,6 +125,17 @@ ArrayUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gtest
+/
+MozAssertions
+.
+h
+"
 using
 namespace
 mozilla
@@ -366,9 +377,7 @@ make_adts_header
 (
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 parser
 -
@@ -378,7 +387,6 @@ IsInitSegmentPresent
 MediaSpan
 (
 header
-)
 )
 )
 )
@@ -972,9 +980,7 @@ make_adts_header
 (
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 parser
 -
@@ -984,7 +990,6 @@ IsInitSegmentPresent
 MediaSpan
 (
 header
-)
 )
 )
 )
