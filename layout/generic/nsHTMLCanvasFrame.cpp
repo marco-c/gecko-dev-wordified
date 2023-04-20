@@ -3084,11 +3084,6 @@ const
 auto
 containAxes
 =
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )
@@ -3142,11 +3137,6 @@ const
 {
 if
 (
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )

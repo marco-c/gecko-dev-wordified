@@ -1671,11 +1671,6 @@ rowBSize
 ;
 if
 (
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )

@@ -848,11 +848,6 @@ return
 aFrame
 -
 >
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )

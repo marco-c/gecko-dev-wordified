@@ -2214,11 +2214,6 @@ of
 .
 if
 (
-aReflowInput
-.
-mStyleDisplay
--
->
 GetContainSizeAxes
 (
 )
@@ -2917,11 +2912,6 @@ ratio
 .
 if
 (
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )
@@ -3205,11 +3195,6 @@ const
 auto
 containAxes
 =
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )

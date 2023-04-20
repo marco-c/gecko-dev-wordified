@@ -4206,13 +4206,6 @@ here
 nsSize
 kidSize
 =
-aState
-.
-mReflowInput
-.
-mStyleDisplay
--
->
 GetContainSizeAxes
 (
 )
@@ -7606,13 +7599,6 @@ Always
 nsSize
 kidSize
 =
-aState
-.
-mReflowInput
-.
-mStyleDisplay
--
->
 GetContainSizeAxes
 (
 )

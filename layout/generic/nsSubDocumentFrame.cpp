@@ -4180,11 +4180,6 @@ const
 auto
 containAxes
 =
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )
