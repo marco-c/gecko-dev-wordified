@@ -1195,11 +1195,6 @@ VideoBridgeUtils
 h
 "
 "
-LayerAttributes
-.
-h
-"
-"
 LayersTypes
 .
 h
@@ -1293,6 +1288,11 @@ h
 "
 "
 ScrollableLayerGuid
+.
+h
+"
+"
+ScrollbarData
 .
 h
 "

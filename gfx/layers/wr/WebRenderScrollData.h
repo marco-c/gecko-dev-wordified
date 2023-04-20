@@ -189,7 +189,7 @@ mozilla
 /
 layers
 /
-LayerAttributes
+FocusTarget
 .
 h
 "
@@ -200,7 +200,7 @@ mozilla
 /
 layers
 /
-FocusTarget
+ScrollbarData
 .
 h
 "
