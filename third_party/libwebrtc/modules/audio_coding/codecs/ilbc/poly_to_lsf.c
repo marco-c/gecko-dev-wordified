@@ -241,7 +241,7 @@ codecs
 /
 ilbc
 /
-defines
+poly_to_lsf
 .
 h
 "
@@ -271,7 +271,7 @@ codecs
 /
 ilbc
 /
-poly_to_lsp
+lsp_to_lsf
 .
 h
 "
@@ -286,7 +286,7 @@ codecs
 /
 ilbc
 /
-lsp_to_lsf
+poly_to_lsp
 .
 h
 "

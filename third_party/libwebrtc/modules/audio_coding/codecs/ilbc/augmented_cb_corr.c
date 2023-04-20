@@ -241,7 +241,7 @@ codecs
 /
 ilbc
 /
-defines
+augmented_cb_corr
 .
 h
 "
@@ -271,7 +271,7 @@ codecs
 /
 ilbc
 /
-augmented_cb_corr
+defines
 .
 h
 "

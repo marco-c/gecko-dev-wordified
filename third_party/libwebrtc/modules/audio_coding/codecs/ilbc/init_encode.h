@@ -238,6 +238,13 @@ define
 MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_INIT_ENCODE_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 modules
 /

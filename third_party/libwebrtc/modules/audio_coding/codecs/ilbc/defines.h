@@ -239,6 +239,13 @@ MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_DEFINES_H_
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 .
 h

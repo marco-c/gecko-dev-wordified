@@ -398,6 +398,7 @@ data_length
 |
 /
 /
+static
 void
 WebRtcSpl_AllPassQMF
 (
