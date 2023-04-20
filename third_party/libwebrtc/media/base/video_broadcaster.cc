@@ -694,6 +694,16 @@ OnDiscardedFrame
 (
 )
 {
+webrtc
+:
+:
+MutexLock
+lock
+(
+&
+sinks_and_wants_lock_
+)
+;
 for
 (
 auto
