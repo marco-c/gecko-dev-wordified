@@ -945,6 +945,12 @@ endif
 if
 defined
 (
+_BEOS_
+)
+|
+|
+defined
+(
 RISCOS
 )
 #

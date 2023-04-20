@@ -20973,6 +20973,12 @@ defined
 (
 XP_WIN32
 )
+|
+|
+defined
+(
+XP_BEOS
+)
 #
 define
 NSS_HAVE_GETENV

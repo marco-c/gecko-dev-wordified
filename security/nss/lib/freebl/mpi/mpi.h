@@ -361,6 +361,7 @@ ULONGLONG_MAX
 )
 /
 *
+IRIX
 AIX
 *
 /

@@ -402,6 +402,13 @@ if
 !
 defined
 (
+XP_BEOS
+)
+&
+&
+!
+defined
+(
 XP_OS2
 )
 &
@@ -512,6 +519,12 @@ if
 defined
 (
 __linux
+)
+|
+|
+defined
+(
+__BEOS__
 )
 #
 include
