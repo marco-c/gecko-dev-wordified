@@ -388,6 +388,8 @@ chrome
 -
 fis
 |
+msix
+|
 raptor
 |
 talos
