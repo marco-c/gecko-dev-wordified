@@ -3126,6 +3126,11 @@ animation_value_type
 "
 none
 "
+enabled_in
+=
+"
+ua
+"
 gecko_pref
 =
 "
@@ -3198,6 +3203,11 @@ animation_value_type
 =
 "
 none
+"
+enabled_in
+=
+"
+ua
 "
 gecko_pref
 =
