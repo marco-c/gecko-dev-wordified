@@ -391,11 +391,10 @@ height
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 I444Buffer
 >
@@ -433,11 +432,10 @@ stride_v
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 I444Buffer
 >

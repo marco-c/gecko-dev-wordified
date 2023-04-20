@@ -2635,7 +2635,7 @@ scoped_refptr
 AudioProcessing
 >
 audio_processor
-=
+(
 reinterpret_cast
 <
 AudioProcessing
@@ -2644,6 +2644,7 @@ AudioProcessing
 (
 native_audio_processor
 )
+)
 ;
 return
 CreatePeerConnectionFactoryForJava
@@ -2651,6 +2652,14 @@ CreatePeerConnectionFactoryForJava
 jni
 jcontext
 joptions
+rtc
+:
+:
+scoped_refptr
+<
+AudioDeviceModule
+>
+(
 reinterpret_cast
 <
 AudioDeviceModule
@@ -2658,6 +2667,7 @@ AudioDeviceModule
 >
 (
 native_audio_device_module
+)
 )
 TakeOwnershipOfRefPtr
 <

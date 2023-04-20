@@ -452,11 +452,10 @@ VideoFrameBuffer
 >
 buffer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ObjCFrameBuffer
 >

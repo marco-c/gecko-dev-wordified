@@ -199,12 +199,11 @@ webrtc
 ObjCVideoTrackSource
 >
 objc_video_track_source
-(
-new
+=
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :
@@ -213,7 +212,6 @@ ObjCVideoTrackSource
 >
 (
 adapter
-)
 )
 ;
 rtc

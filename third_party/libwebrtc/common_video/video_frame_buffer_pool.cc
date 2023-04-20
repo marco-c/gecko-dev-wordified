@@ -987,11 +987,10 @@ I444Buffer
 >
 buffer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 I444Buffer
 >

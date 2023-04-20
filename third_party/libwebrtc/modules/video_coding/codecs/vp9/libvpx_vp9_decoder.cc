@@ -1783,7 +1783,7 @@ Vp9FrameBufferPool
 Vp9FrameBuffer
 >
 img_buffer
-=
+(
 static_cast
 <
 Vp9FrameBufferPool
@@ -1797,6 +1797,7 @@ img
 -
 >
 fb_priv
+)
 )
 ;
 /

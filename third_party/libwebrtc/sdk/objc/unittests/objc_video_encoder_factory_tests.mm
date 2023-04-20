@@ -717,11 +717,10 @@ VideoFrameBuffer
 >
 buffer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :
@@ -859,11 +858,10 @@ VideoFrameBuffer
 >
 buffer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :

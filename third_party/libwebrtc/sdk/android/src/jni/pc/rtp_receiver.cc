@@ -666,6 +666,14 @@ j_rtp_sender_pointer
 >
 SetFrameDecryptor
 (
+rtc
+:
+:
+scoped_refptr
+<
+FrameDecryptorInterface
+>
+(
 reinterpret_cast
 <
 FrameDecryptorInterface
@@ -673,6 +681,7 @@ FrameDecryptorInterface
 >
 (
 j_frame_decryptor_pointer
+)
 )
 )
 ;

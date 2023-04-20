@@ -410,7 +410,7 @@ webrtc
 VideoTrackSourceInterface
 >
 source
-=
+(
 self
 .
 nativeVideoTrack
@@ -418,6 +418,7 @@ nativeVideoTrack
 >
 GetSource
 (
+)
 )
 ;
 if
@@ -443,10 +444,6 @@ factory
 nativeVideoSource
 :
 source
-.
-get
-(
-)
 ]
 ;
 }
@@ -702,6 +699,17 @@ VideoTrackInterface
 nativeVideoTrack
 {
 return
+rtc
+:
+:
+scoped_refptr
+<
+webrtc
+:
+:
+VideoTrackInterface
+>
+(
 static_cast
 <
 webrtc
@@ -717,6 +725,7 @@ nativeTrack
 .
 get
 (
+)
 )
 )
 ;

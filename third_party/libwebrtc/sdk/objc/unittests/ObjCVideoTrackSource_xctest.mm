@@ -328,11 +328,10 @@ setUp
 {
 _video_source
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :

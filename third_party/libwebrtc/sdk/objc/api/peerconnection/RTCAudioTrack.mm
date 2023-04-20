@@ -358,7 +358,7 @@ webrtc
 AudioSourceInterface
 >
 source
-=
+(
 self
 .
 nativeAudioTrack
@@ -366,6 +366,7 @@ nativeAudioTrack
 >
 GetSource
 (
+)
 )
 ;
 if
@@ -391,10 +392,6 @@ factory
 nativeAudioSource
 :
 source
-.
-get
-(
-)
 ]
 ;
 }
@@ -424,6 +421,17 @@ AudioTrackInterface
 nativeAudioTrack
 {
 return
+rtc
+:
+:
+scoped_refptr
+<
+webrtc
+:
+:
+AudioTrackInterface
+>
+(
 static_cast
 <
 webrtc
@@ -439,6 +447,7 @@ nativeTrack
 .
 get
 (
+)
 )
 )
 ;
