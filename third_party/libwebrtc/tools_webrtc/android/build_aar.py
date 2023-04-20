@@ -406,6 +406,14 @@ build
 dir
 '
         
+type
+=
+os
+.
+path
+.
+abspath
+        
 help
 =
 '
@@ -441,6 +449,14 @@ libwebrtc
 .
 aar
 '
+                        
+type
+=
+os
+.
+path
+.
+abspath
                         
 help
 =
