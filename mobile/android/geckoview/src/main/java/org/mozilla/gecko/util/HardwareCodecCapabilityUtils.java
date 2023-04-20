@@ -268,6 +268,11 @@ Exynos
 .
 "
 "
+c2
+.
+exynos
+"
+"
 OMX
 .
 Intel
@@ -322,6 +327,11 @@ OMX
 .
 Exynos
 .
+"
+"
+c2
+.
+exynos
 "
 }
 ;
@@ -380,6 +390,11 @@ OMX
 .
 Exynos
 .
+"
+"
+c2
+.
+exynos
 "
 "
 OMX
