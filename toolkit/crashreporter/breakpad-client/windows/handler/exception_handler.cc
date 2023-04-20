@@ -2406,6 +2406,11 @@ dll
 ;
 if
 (
+handle
+)
+{
+if
+(
 FARPROC
 address
 =
@@ -2445,6 +2450,7 @@ ExceptionHandler
 "
 )
 ;
+}
 }
 ExceptionHandler
 *
