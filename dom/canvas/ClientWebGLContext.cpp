@@ -1889,6 +1889,10 @@ LostForever
 return
 ;
 }
+mResetLayer
+=
+true
+;
 (
 void
 )

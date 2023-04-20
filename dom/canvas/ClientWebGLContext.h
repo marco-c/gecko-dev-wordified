@@ -14572,6 +14572,7 @@ GetOwnerDoc
 )
 const
 ;
+mutable
 bool
 mResetLayer
 =
