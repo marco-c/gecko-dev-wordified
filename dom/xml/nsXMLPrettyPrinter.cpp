@@ -1260,7 +1260,6 @@ nsXMLPrettyPrinter
 :
 NodeWillBeDestroyed
 (
-const
 nsINode
 *
 aNode
