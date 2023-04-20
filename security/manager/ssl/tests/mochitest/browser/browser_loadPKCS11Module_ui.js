@@ -755,7 +755,7 @@ window
 *
 param
 {
-Boolean
+boolean
 }
 cancel
 *

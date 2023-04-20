@@ -136,6 +136,7 @@ given
 DER
 .
 *
+*
 param
 {
 DER
@@ -150,9 +151,9 @@ a
 NULL
 from
 *
-return
+returns
 {
-NULL
+null
 }
 an
 object
@@ -231,7 +232,7 @@ NULL
 *
 param
 {
-Number
+number
 [
 ]
 }
@@ -290,6 +291,7 @@ given
 DER
 .
 *
+*
 param
 {
 DER
@@ -304,7 +306,7 @@ OBJECT
 IDENTIFIER
 from
 *
-return
+returns
 {
 OID
 }
@@ -359,7 +361,7 @@ OID
 *
 param
 {
-Number
+number
 [
 ]
 }
@@ -700,7 +702,8 @@ been
 encountered
 .
 *
-return
+*
+returns
 {
 Error
 }
@@ -847,9 +850,10 @@ above
 )
 .
 *
+*
 param
 {
-Number
+number
 [
 ]
 }
@@ -929,6 +933,7 @@ resulting
 bytes
 .
 *
+*
 param
 {
 DER
@@ -939,7 +944,7 @@ underlying
 DER
 object
 *
-return
+returns
 {
 DER
 }
@@ -1004,6 +1009,7 @@ resulting
 bytes
 .
 *
+*
 param
 {
 DER
@@ -1016,7 +1022,7 @@ object
 *
 param
 {
-Number
+number
 }
 tag
 the
@@ -1027,7 +1033,7 @@ in
 the
 DER
 *
-return
+returns
 {
 DER
 }
@@ -3556,9 +3562,10 @@ to
 9
 .
 *
+*
 param
 {
-Number
+number
 }
 d
 the
@@ -3581,9 +3588,9 @@ range
 ]
 )
 *
-return
+returns
 {
-Number
+number
 }
 the
 numerical

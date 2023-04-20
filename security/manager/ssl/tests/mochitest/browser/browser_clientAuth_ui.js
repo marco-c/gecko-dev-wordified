@@ -154,8 +154,11 @@ client
 )
 .
 *
+*
 type
+{
 nsIX509Cert
+}
 *
 /
 var
@@ -403,7 +406,7 @@ window
 *
 param
 {
-String
+string
 }
 notBefore
 *
@@ -419,7 +422,7 @@ client
 *
 param
 {
-String
+string
 }
 notAfter
 *

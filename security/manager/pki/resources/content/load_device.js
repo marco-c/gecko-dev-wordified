@@ -288,9 +288,10 @@ ondialogaccept
 handler
 .
 *
+*
 param
 {
-Object
+object
 }
 event
 *

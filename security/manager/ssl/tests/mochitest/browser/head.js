@@ -93,10 +93,13 @@ file
 finishes
 .
 *
+*
 type
+{
 nsIX509Cert
 [
 ]
+}
 *
 /
 var
@@ -277,7 +280,7 @@ finishes
 *
 param
 {
-String
+string
 }
 filename
 *
@@ -299,7 +302,7 @@ directory
 *
 param
 {
-String
+string
 }
 trustString
 *
@@ -324,7 +327,7 @@ help
 )
 .
 *
-return
+returns
 {
 Promise
 }
@@ -452,7 +455,7 @@ manager
 .
 *
 *
-return
+returns
 {
 Window
 }

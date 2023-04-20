@@ -397,7 +397,7 @@ test
 *
 param
 {
-String
+string
 }
 initialPW
 *

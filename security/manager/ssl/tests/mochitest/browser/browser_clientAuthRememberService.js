@@ -78,8 +78,11 @@ client
 )
 .
 *
+*
 type
+{
 nsIX509Cert
+}
 *
 /
 var

@@ -223,7 +223,7 @@ to
 *
 param
 {
-String
+string
 }
 rootCertFileName
 *
@@ -275,7 +275,7 @@ certificates
 *
 param
 {
-String
+string
 }
 endEntityCertFileName
 *
@@ -291,7 +291,7 @@ cert
 *
 param
 {
-Boolean
+boolean
 }
 expectedResult
 *

@@ -1003,7 +1003,7 @@ below
 *
 param
 {
-String
+string
 }
 prefValue
 *
@@ -1022,7 +1022,7 @@ to
 *
 param
 {
-String
+string
 }
 expectedURL
 *
@@ -1062,7 +1062,7 @@ undefined
 *
 param
 {
-Boolean
+boolean
 }
 expectCallingChooseCertificate
 *
@@ -1078,7 +1078,7 @@ called
 *
 param
 {
-Object
+object
 }
 options
 *

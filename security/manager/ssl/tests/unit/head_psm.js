@@ -2981,7 +2981,7 @@ case
 *
 param
 {
-String
+string
 }
 aHost
 *
@@ -6559,7 +6559,7 @@ verified
 *
 param
 {
-Number
+number
 [
 ]
 }
@@ -6584,7 +6584,7 @@ verify
 successfully
 .
 *
-return
+returns
 {
 Promise
 }
@@ -6788,7 +6788,7 @@ load
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -6801,7 +6801,7 @@ module
 *
 param
 {
-Boolean
+boolean
 }
 expectModuleUnloadToFail
 *
@@ -6971,13 +6971,13 @@ path
 *
 param
 {
-String
+string
 }
 data
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -7098,7 +7098,7 @@ join
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -7179,7 +7179,7 @@ close
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -7197,7 +7197,7 @@ loaded
 *
 param
 {
-String
+string
 }
 libraryName
 *
@@ -7384,7 +7384,7 @@ correctness
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -7401,7 +7401,7 @@ present
 *
 param
 {
-String
+string
 }
 libraryName
 *

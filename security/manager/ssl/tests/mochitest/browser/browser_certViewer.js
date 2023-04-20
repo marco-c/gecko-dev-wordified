@@ -606,9 +606,10 @@ a
 url
 .
 *
+*
 param
 {
-Object
+object
 }
 cert
 *
@@ -618,7 +619,7 @@ object
 *
 returns
 {
-String
+string
 }
 an
 URL
@@ -748,7 +749,7 @@ result
 *
 param
 {
-String
+string
 }
 url
 *
@@ -761,7 +762,7 @@ info
 *
 param
 {
-String
+string
 }
 expectedTabName
 *

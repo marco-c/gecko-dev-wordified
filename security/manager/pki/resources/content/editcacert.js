@@ -110,8 +110,11 @@ trust
 of
 .
 *
+*
 type
+{
 nsIX509Cert
+}
 *
 /
 var

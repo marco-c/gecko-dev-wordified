@@ -851,7 +851,7 @@ records
 *
 param
 {
-Boolean
+boolean
 }
 clear
 Whether
