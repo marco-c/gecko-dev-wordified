@@ -3465,6 +3465,50 @@ variant
 "
 -
 -
+single
+-
+run
+"
+]
+            
+{
+                
+"
+action
+"
+:
+"
+store_true
+"
+                
+"
+default
+"
+:
+False
+                
+"
+help
+"
+:
+"
+Run
+tasks
+without
+a
+comparison
+"
+            
+}
+        
+]
+        
+[
+            
+[
+"
+-
+-
 variants
 "
 ]
@@ -7876,6 +7920,7 @@ selected_categories
 queries
 try_config
 dry_run
+single_run
     
 )
 :
@@ -8165,7 +8210,11 @@ revision
             
 if
 not
+(
 dry_run
+or
+single_run
+)
 :
                 
 vcs
@@ -8338,6 +8387,10 @@ dry_run
 =
 False
         
+single_run
+=
+False
+        
 *
 *
 kwargs
@@ -8507,10 +8560,16 @@ perf_push_to_try
 (
             
 selected_tasks
+            
 selected_categories
+            
 queries
+            
 try_config
+            
 dry_run
+            
+single_run
         
 )
     
@@ -8874,15 +8933,28 @@ for
 comparisons
 now
     
+if
+not
+kwargs
+.
+get
+(
+"
+single_run
+"
+False
+)
+:
+        
 perfcompare_url
 =
 PERFHERDER_BASE_URL
 %
 revisions
-    
+        
 print
 (
-        
+            
 "
 \
 n
@@ -8907,7 +8979,7 @@ performance
 comparison
 here
 "
-        
+            
 "
 once
 the
@@ -8921,7 +8993,7 @@ select
 the
 right
 "
-        
+            
 "
 framework
 )
@@ -8933,7 +9005,7 @@ n
 "
 %
 perfcompare_url
-    
+        
 )
     
 print
