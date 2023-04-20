@@ -213,11 +213,7 @@ static
 bool
 IsScalabilityModeSupported
 (
-const
-absl
-:
-:
-string_view
+ScalabilityMode
 scalability_mode
 )
 {

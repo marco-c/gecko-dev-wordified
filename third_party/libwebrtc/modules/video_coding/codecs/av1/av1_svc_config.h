@@ -104,6 +104,13 @@ h
 namespace
 webrtc
 {
+bool
+LibaomAv1EncoderSupportsScalabilityMode
+(
+ScalabilityMode
+scalability_mode
+)
+;
 /
 /
 Fills

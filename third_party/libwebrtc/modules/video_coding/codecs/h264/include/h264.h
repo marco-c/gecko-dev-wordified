@@ -110,11 +110,11 @@ vector
 #
 include
 "
-absl
+api
 /
-strings
+video_codecs
 /
-string_view
+h264_profile_level_id
 .
 h
 "
@@ -125,7 +125,7 @@ api
 /
 video_codecs
 /
-h264_profile_level_id
+scalability_mode
 .
 h
 "
@@ -393,10 +393,7 @@ static
 bool
 SupportsScalabilityMode
 (
-absl
-:
-:
-string_view
+ScalabilityMode
 scalability_mode
 )
 ;
