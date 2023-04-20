@@ -1336,21 +1336,31 @@ gyp
         
 #
 We
-keep
-some
-wheels
-vendored
-in
+manage
+installing
 "
-_venv
+virtualenv
 "
-for
-use
-in
-Mozharness
+package
+manually
+and
+we
+have
+a
+custom
+        
+#
+"
+virtualenv
+.
+py
+"
+entry
+module
+.
         
 "
-_venv
+virtualenv
 "
         
 #
