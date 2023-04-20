@@ -634,15 +634,6 @@ webconsole
 .
 groupWarningMessages
 "
-BROWSER_TOOLBOX_FISSION
-:
-"
-devtools
-.
-browsertoolbox
-.
-fission
-"
 }
 }
 }

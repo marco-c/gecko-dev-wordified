@@ -201,8 +201,7 @@ mainProcessItem
 findDebugTargetByText
 (
 "
-Main
-Process
+Multiprocess
 "
 document
 )
@@ -234,6 +233,9 @@ includes
 "
 Main
 Process
+and
+Content
+Processes
 for
 the
 target

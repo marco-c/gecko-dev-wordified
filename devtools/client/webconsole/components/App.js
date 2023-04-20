@@ -1805,12 +1805,6 @@ if
 webConsoleUI
 .
 isBrowserConsole
-|
-|
-!
-webConsoleUI
-.
-fissionSupport
 )
 {
 return
