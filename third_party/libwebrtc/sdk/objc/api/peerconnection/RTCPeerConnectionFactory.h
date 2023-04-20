@@ -484,6 +484,7 @@ delegate
 /
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCPeerConnection

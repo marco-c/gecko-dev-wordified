@@ -451,6 +451,7 @@ delegate
 /
 -
 (
+nullable
 instancetype
 )
 initWithFactory
@@ -516,6 +517,7 @@ PeerConnectionDependencies
 /
 -
 (
+nullable
 instancetype
 )
 initWithDependencies

@@ -1679,6 +1679,7 @@ closed
 /
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpSender
@@ -1965,6 +1966,7 @@ track
 /
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -1984,6 +1986,7 @@ track
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -2034,6 +2037,7 @@ RTCRtpMediaTypeVideo
 /
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -2049,6 +2053,7 @@ mediaType
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver

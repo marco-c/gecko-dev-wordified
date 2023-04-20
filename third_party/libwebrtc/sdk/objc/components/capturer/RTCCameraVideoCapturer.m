@@ -930,6 +930,8 @@ void
 (
 NSError
 *
+_Nullable
+error
 )
 )
 completionHandler
