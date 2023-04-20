@@ -2450,6 +2450,14 @@ aProcessType
 =
 GeckoProcessType_Utility
 ;
+bool
+isSocketProcess
+=
+aProcessType
+=
+=
+GeckoProcessType_Socket
+;
 RefPtr
 <
 DllServices
@@ -2478,6 +2486,7 @@ targetInfo
 hProcess
 aCachedNtdllThunk
 isUtilityProcess
+isSocketProcess
 )
 ;
 if

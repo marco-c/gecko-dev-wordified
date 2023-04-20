@@ -296,6 +296,9 @@ IMAGE_THUNK_DATA
 const
 bool
 aIsUtilityProcess
+const
+bool
+aIsSocketProcess
 )
 {
 return
@@ -350,6 +353,9 @@ aCachedNtdllThunk
 const
 bool
 aIsUtilityProcess
+const
+bool
+aIsSocketProcess
 )
 {
 CrossProcessDllInterceptor
@@ -1063,6 +1069,17 @@ newFlags
 eDllBlocklistInitFlagIsUtilityProcess
 ;
 }
+if
+(
+aIsSocketProcess
+)
+{
+newFlags
+|
+=
+eDllBlocklistInitFlagIsSocketProcess
+;
+}
 LauncherVoidResult
 writeResult
 =
@@ -1119,6 +1136,9 @@ aCachedNtdllThunk
 const
 bool
 aIsUtilityProcess
+const
+bool
+aIsSocketProcess
 )
 {
 nt
@@ -1285,6 +1305,7 @@ aFullImagePath
 transferMgr
 aCachedNtdllThunk
 aIsUtilityProcess
+aIsSocketProcess
 )
 ;
 }
@@ -1491,6 +1512,7 @@ InitializeDllBlocklistOOPInternal
 aFullImagePath
 transferMgr
 nullptr
+false
 false
 )
 ;

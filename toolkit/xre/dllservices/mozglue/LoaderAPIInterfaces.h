@@ -616,6 +616,8 @@ IMAGE_THUNK_DATA
 *
 const
 bool
+const
+bool
 )
 ;
 using

@@ -184,6 +184,9 @@ eDllBlocklistInitFlagWasBootstrapped
 eDllBlocklistInitFlagIsUtilityProcess
 =
 4
+eDllBlocklistInitFlagIsSocketProcess
+=
+8
 }
 ;
 /
