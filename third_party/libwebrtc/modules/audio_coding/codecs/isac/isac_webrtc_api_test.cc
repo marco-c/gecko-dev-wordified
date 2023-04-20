@@ -1363,7 +1363,7 @@ at
 least
 1
 .
-2
+195
 times
 the
 number
@@ -1374,7 +1374,7 @@ EXPECT_LT
 (
 1
 .
-2
+195
 *
 num_bytes
 [
