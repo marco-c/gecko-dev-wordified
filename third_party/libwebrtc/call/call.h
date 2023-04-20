@@ -354,6 +354,9 @@ Call
 Config
 &
 config
+Clock
+*
+clock
 rtc
 :
 :
@@ -362,6 +365,14 @@ scoped_refptr
 SharedModuleThread
 >
 call_thread
+std
+:
+:
+unique_ptr
+<
+ProcessThread
+>
+pacer_thread
 )
 ;
 static
@@ -392,9 +403,9 @@ std
 :
 unique_ptr
 <
-ProcessThread
+RtpTransportControllerSendInterface
 >
-pacer_thread
+transportControllerSend
 )
 ;
 virtual
