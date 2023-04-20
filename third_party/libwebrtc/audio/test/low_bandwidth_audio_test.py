@@ -250,10 +250,10 @@ licensing
 so
 in
 order
+to
 '
     
 '
-to
 use
 them
 you
@@ -268,11 +268,11 @@ and
 manually
 put
 them
+in
+the
 '
     
 '
-in
-the
 right
 location
 .
@@ -554,33 +554,6 @@ in
 histogram
 proto
 format
-.
-'
-)
-    
-parser
-.
-add_argument
-(
-'
--
--
-dump_json_test_results
-'
-                        
-default
-=
-None
-                        
-help
-=
-'
-Path
-to
-store
-json
-test
-results
 .
 '
 )
@@ -1887,9 +1860,9 @@ add
 these
 from
 the
+out
     
 #
-out
 dir
 like
 for
@@ -1937,9 +1910,9 @@ build
 the
 protobuf
 stub
+for
     
 #
-for
 python
 so
 put
@@ -1954,9 +1927,9 @@ before
 we
 attempt
 to
+import
     
 #
-import
 it
 .
     
@@ -2295,35 +2268,6 @@ path
 .
 join
 (
-'
-.
-.
-'
-'
-.
-.
-'
-'
-tools_webrtc
-'
-                         
-'
-gtest
--
-parallel
--
-wrapper
-.
-py
-'
-)
-            
-os
-.
-path
-.
-join
-(
 args
 .
 build_dir
@@ -2331,19 +2275,6 @@ build_dir
 low_bandwidth_audio_test
 '
 )
-            
-'
--
--
-dump_json_test_results
-=
-%
-s
-'
-%
-args
-.
-dump_json_test_results
         
 ]
     
