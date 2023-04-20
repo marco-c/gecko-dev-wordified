@@ -526,6 +526,9 @@ test_root
 )
 )
                         
+try
+:
+                            
 os
 .
 symlink
@@ -533,6 +536,24 @@ symlink
 files_dir
 test_root
 )
+                        
+except
+FileExistsError
+:
+                            
+#
+another
+pytest
+job
+set
+up
+the
+symlink
+-
+no
+problem
+                            
+pass
                     
 else
 :
