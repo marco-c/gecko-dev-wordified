@@ -258,6 +258,7 @@ Data
 derive
 (
 PartialEq
+Eq
 Debug
 )
 ]
@@ -883,8 +884,11 @@ enc
 .
 encode
 (
-&
 update_frame
+.
+as_ref
+(
+)
 )
 ;
 }

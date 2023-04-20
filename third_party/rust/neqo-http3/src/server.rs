@@ -478,14 +478,21 @@ HttpZeroRttChecker
 new
 (
 http3_parameters
+.
+clone
+(
+)
 )
 )
 )
 cid_manager
-*
 http3_parameters
 .
 get_connection_parameters
+(
+)
+.
+clone
 (
 )
 )
@@ -1045,6 +1052,7 @@ false
 let
 http3_parameters
 =
+&
 self
 .
 http3_parameters
@@ -1087,6 +1095,10 @@ Http3ServerHandler
 new
 (
 http3_parameters
+.
+clone
+(
+)
 )
 )
 )
@@ -2115,7 +2127,6 @@ closed
 |
 e
 |
-{
 matches
 !
 (
@@ -2134,17 +2145,7 @@ Closing
 (
 e
 )
-.
-.
-}
 |
-Http3ServerEvent
-:
-:
-StateChange
-{
-state
-:
 Http3State
 :
 :
@@ -2161,7 +2162,6 @@ e
 =
 err
 )
-}
 ;
 assert
 !
@@ -4095,8 +4095,11 @@ peer_conn
 .
 control_send
 (
-&
 e
+.
+as_ref
+(
+)
 )
 ;
 let
@@ -8012,7 +8015,6 @@ conn_params
 Http3Parameters
 zero_rtt
 :
-&
 ZeroRttState
 )
 {
@@ -8167,7 +8169,6 @@ http3params
 (
 DEFAULT_SETTINGS
 )
-&
 ZeroRttState
 :
 :
@@ -8221,7 +8222,6 @@ max_table_size_decoder
 DEFAULT_SETTINGS
 }
 )
-&
 ZeroRttState
 :
 :
@@ -8270,7 +8270,6 @@ max_table_size_decoder
 DEFAULT_SETTINGS
 }
 )
-&
 ZeroRttState
 :
 :
@@ -8318,7 +8317,6 @@ max_blocked_streams
 DEFAULT_SETTINGS
 }
 )
-&
 ZeroRttState
 :
 :
@@ -8368,7 +8366,6 @@ max_blocked_streams
 DEFAULT_SETTINGS
 }
 )
-&
 ZeroRttState
 :
 :
@@ -8424,7 +8421,6 @@ max_table_size_encoder
 DEFAULT_SETTINGS
 }
 )
-&
 ZeroRttState
 :
 :
@@ -8960,7 +8956,6 @@ client
 zero_rtt_state
 (
 )
-&
 ZeroRttState
 :
 :

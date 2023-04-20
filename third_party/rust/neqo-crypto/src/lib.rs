@@ -513,7 +513,7 @@ str
 "
 3
 .
-66
+74
 "
 ;
 #
@@ -535,6 +535,17 @@ clippy
 :
 :
 upper_case_acronyms
+)
+]
+#
+[
+allow
+(
+unknown_lints
+clippy
+:
+:
+borrow_as_ptr
 )
 ]
 mod
