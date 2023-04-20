@@ -304,6 +304,11 @@ ShellHeaderOnlyUtils
 h
 "
 "
+ToastNotificationHeaderOnlyUtils
+.
+h
+"
+"
 UrlmonHeaderOnlyUtils
 .
 h
