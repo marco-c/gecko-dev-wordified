@@ -331,6 +331,7 @@ SessionDescriptionInterface
 Clone
 (
 )
+const
 ;
 virtual
 cricket

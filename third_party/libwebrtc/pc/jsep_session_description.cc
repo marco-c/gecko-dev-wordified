@@ -1616,6 +1616,7 @@ JsepSessionDescription
 Clone
 (
 )
+const
 {
 auto
 new_description
