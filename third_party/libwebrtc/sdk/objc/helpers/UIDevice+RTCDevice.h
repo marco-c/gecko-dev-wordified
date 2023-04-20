@@ -131,6 +131,11 @@ RTCDeviceTypeIPhone12Mini
 RTCDeviceTypeIPhone12
 RTCDeviceTypeIPhone12Pro
 RTCDeviceTypeIPhone12ProMax
+RTCDeviceTypeIPhoneSE2Gen
+RTCDeviceTypeIPhone13
+RTCDeviceTypeIPhone13Mini
+RTCDeviceTypeIPhone13Pro
+RTCDeviceTypeIPhone13ProMax
 RTCDeviceTypeIPodTouch1G
 RTCDeviceTypeIPodTouch2G
 RTCDeviceTypeIPodTouch3G
@@ -175,7 +180,11 @@ RTCDeviceTypeIPadPro4Gen12Inch
 RTCDeviceTypeIPadMini5Gen
 RTCDeviceTypeIPadAir3Gen
 RTCDeviceTypeIPad8
+RTCDeviceTypeIPad9
+RTCDeviceTypeIPadMini6
 RTCDeviceTypeIPadAir4Gen
+RTCDeviceTypeIPadPro5Gen11Inch
+RTCDeviceTypeIPadPro5Gen12Inch
 RTCDeviceTypeSimulatori386
 RTCDeviceTypeSimulatorx86_64
 }
