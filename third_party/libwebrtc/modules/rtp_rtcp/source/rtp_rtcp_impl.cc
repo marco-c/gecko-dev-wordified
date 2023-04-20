@@ -368,13 +368,6 @@ paced_sender
 :
 &
 non_paced_sender
-/
-*
-packet_sequencer
-=
-*
-/
-nullptr
 )
 {
 }
