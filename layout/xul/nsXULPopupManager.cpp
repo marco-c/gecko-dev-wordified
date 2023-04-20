@@ -10532,7 +10532,7 @@ IntrinsicDirty
 :
 :
 TreeChange
-NS_FRAME_HAS_DIRTY_CHILDREN
+NS_FRAME_IS_DIRTY
 )
 ;
 nsPopupType
