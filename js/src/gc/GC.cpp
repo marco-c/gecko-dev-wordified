@@ -6775,6 +6775,17 @@ needsIncrementalBarrier
 )
 )
 ;
+AutoAssertEmptyNursery
+nurseryIsEmpty
+(
+rt
+-
+>
+mainContextFromOwnThread
+(
+)
+)
+;
 atomsZone
 (
 )
@@ -6812,6 +6823,7 @@ TenuredCell
 >
 (
 kind
+nurseryIsEmpty
 )
 ;
 !
