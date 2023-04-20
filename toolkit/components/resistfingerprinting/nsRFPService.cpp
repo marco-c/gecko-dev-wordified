@@ -3597,7 +3597,10 @@ clampedAndJittered
 .
 0
 /
+double
+(
 aTimeScale
+)
 )
 ;
 MOZ_LOG
