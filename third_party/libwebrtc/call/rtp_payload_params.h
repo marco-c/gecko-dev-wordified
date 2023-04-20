@@ -319,8 +319,6 @@ GenericFrameInfo
 frame_info
 int64_t
 frame_id
-VideoFrameType
-frame_type
 )
 ;
 void

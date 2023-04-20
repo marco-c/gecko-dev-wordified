@@ -99,17 +99,6 @@ h
 #
 include
 "
-api
-/
-video
-/
-video_frame_type
-.
-h
-"
-#
-include
-"
 common_video
 /
 generic_frame_descriptor
@@ -164,24 +153,6 @@ testing
 :
 :
 UnorderedElementsAre
-;
-constexpr
-VideoFrameType
-kVideoFrameKey
-=
-VideoFrameType
-:
-:
-kVideoFrameKey
-;
-constexpr
-VideoFrameType
-kVideoFrameDelta
-=
-VideoFrameType
-:
-:
-kVideoFrameDelta
 ;
 constexpr
 CodecBufferUsage
@@ -297,7 +268,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 /
 *
 frame_id
@@ -318,7 +288,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -340,7 +309,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -479,7 +447,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 /
 *
 frame_id
@@ -500,7 +467,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -522,7 +488,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -544,7 +509,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -567,7 +531,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -589,7 +552,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -611,7 +573,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -633,7 +594,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -793,7 +753,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 /
 *
 frame_id
@@ -814,7 +773,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -836,7 +794,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -893,7 +850,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -916,7 +872,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -938,7 +893,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -1030,7 +984,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 /
 *
 frame_id
@@ -1051,7 +1004,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 /
 *
 frame_id
@@ -1072,7 +1024,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -1094,7 +1045,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -1116,7 +1066,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
@@ -1138,7 +1087,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 /
 *
 frame_id
