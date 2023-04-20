@@ -515,17 +515,6 @@ PickerClosed
 "
 :
 {
-if
-(
-!
-this
-.
-_inputElement
-)
-{
-return
-;
-}
 this
 .
 close
