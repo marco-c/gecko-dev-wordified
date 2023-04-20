@@ -65,12 +65,6 @@ setup_crash
 (
 )
 {
-/
-*
-global
-AsyncShutdown
-*
-/
 const
 {
 AsyncShutdown

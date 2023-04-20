@@ -94,17 +94,6 @@ next
 ;
 }
 function
-continue_test
-(
-)
-{
-do_run_generator
-(
-test_generator
-)
-;
-}
-function
 *
 do_run_test
 (
