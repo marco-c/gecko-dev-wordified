@@ -695,9 +695,7 @@ N
 .
 B
 .
-|
 iterable
-|
 is
 not
 owned
@@ -880,9 +878,7 @@ Comparison
 function
 to
 make
-|
 event_lists_
-|
 into
 a
 min

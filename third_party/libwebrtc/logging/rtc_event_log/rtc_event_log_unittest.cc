@@ -994,9 +994,7 @@ the
 config
 events
 and
-|
 num_events_before_log_start
-|
 /
 /
 randomized

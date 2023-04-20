@@ -3536,9 +3536,7 @@ the
 RTCP
 event
 at
-|
 index
-|
 /
 /
 and

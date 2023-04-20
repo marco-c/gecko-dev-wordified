@@ -1307,9 +1307,7 @@ true
 /
 /
 Simulate
-|
 event_count_
-|
 RTP
 packets
 with

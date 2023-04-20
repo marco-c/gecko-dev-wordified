@@ -482,9 +482,7 @@ to
 the
 output
 variable
-|
 ssrc
-|
 and
 true
 is
@@ -1959,9 +1957,7 @@ handle_rtp
 /
 Note
 that
-|
 packet_ssrc
-|
 is
 the
 sender

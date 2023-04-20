@@ -985,9 +985,7 @@ NewLossNotification
 ;
 /
 /
-|
 all_configured_exts
-|
 determines
 whether
 the
@@ -1027,9 +1025,7 @@ all_configured_exts
 ;
 /
 /
-|
 all_configured_exts
-|
 determines
 whether
 the
@@ -1070,9 +1066,7 @@ true
 ;
 /
 /
-|
 all_configured_exts
-|
 determines
 whether
 the
@@ -1113,9 +1107,7 @@ true
 ;
 /
 /
-|
 configure_all
-|
 determines
 whether
 all

@@ -15431,9 +15431,7 @@ an
 offset
 to
 avoid
-|
 capture_ticks
-|
 to
 become
 negative
@@ -22701,9 +22699,7 @@ N
 only
 done
 for
-|
 num_channels_deltas
-|
 .
 runtime_config
 .

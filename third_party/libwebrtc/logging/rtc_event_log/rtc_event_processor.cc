@@ -125,9 +125,7 @@ ProcessEventsInOrder
 {
 /
 /
-|
 event_lists_
-|
 is
 a
 min

@@ -603,9 +603,7 @@ posting
 tasks
 bound
 to
-|
 this
-|
 it
 is
 critical
@@ -619,15 +617,11 @@ and
 its
 members
 outlive
-|
 task_queue_
-|
 .
 Keep
 the
-|
 task_queue_
-|
 /
 /
 last

@@ -132,9 +132,7 @@ webrtc
 /
 /
 Encode
-|
 values
-|
 as
 a
 sequence
@@ -142,9 +140,7 @@ of
 deltas
 following
 on
-|
 base
-|
 and
 return
 it
@@ -182,9 +178,7 @@ case
 .
 /
 /
-|
 base
-|
 is
 not
 guaranteed
@@ -192,9 +186,7 @@ to
 be
 written
 into
-|
 output
-|
 and
 must
 therefore
@@ -306,9 +298,7 @@ EncodeDeltas
 .
 /
 /
-|
 num_of_deltas
-|
 must
 be
 greater
@@ -325,15 +315,11 @@ encoding
 /
 /
 of
-|
 num_of_deltas
-|
 elements
 based
 on
-|
 base
-|
 the
 function
 returns

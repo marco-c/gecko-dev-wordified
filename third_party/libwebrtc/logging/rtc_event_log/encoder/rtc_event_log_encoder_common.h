@@ -487,9 +487,7 @@ ToUnsigned
 y
 )
 return
-|
 y
-|
 .
 /
 /
@@ -718,9 +716,7 @@ false
 ;
 /
 /
-|
 x
-|
 cannot
 be
 represented

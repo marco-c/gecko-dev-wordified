@@ -382,14 +382,10 @@ random_before_mask
 /
 /
 Encodes
-|
 values
-|
 based
 on
-|
 base
-|
 then
 decodes
 the
@@ -411,9 +407,7 @@ input
 /
 /
 If
-|
 encoded_string
-|
 is
 non
 -
@@ -660,9 +654,7 @@ result
 /
 /
 If
-|
 sequence_length
-|
 is
 greater
 than
@@ -910,9 +902,7 @@ smallest_header_size_bytes
 /
 /
 If
-|
 sequence_length
-|
 is
 greater
 than
@@ -3626,9 +3616,7 @@ bases
 /
 Avoid
 empty
-|
 deltas
-|
 due
 to
 first

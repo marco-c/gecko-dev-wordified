@@ -476,9 +476,7 @@ eladalon
 )
 :
 Delete
-|
 probe_cluster_id_
-|
 along
 with
 legacy
