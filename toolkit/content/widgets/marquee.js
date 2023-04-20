@@ -269,7 +269,7 @@ return
 }
 this
 .
-destructor
+teardown
 (
 )
 ;
@@ -300,7 +300,7 @@ onsetup
 ;
 }
 }
-destructor
+teardown
 (
 )
 {
@@ -319,7 +319,7 @@ this
 .
 impl
 .
-destructor
+teardown
 (
 )
 ;
@@ -625,7 +625,7 @@ this
 )
 ;
 }
-destructor
+teardown
 (
 )
 {

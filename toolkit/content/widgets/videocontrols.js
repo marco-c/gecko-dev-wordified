@@ -506,7 +506,7 @@ this
 .
 impl
 .
-destructor
+teardown
 (
 )
 ;
@@ -604,7 +604,7 @@ undefined
 ;
 }
 }
-destructor
+teardown
 (
 )
 {
@@ -623,7 +623,7 @@ this
 .
 impl
 .
-destructor
+teardown
 (
 )
 ;
@@ -19074,7 +19074,7 @@ isShowingPictureInPictureMessage
 elementInPiP
 ;
 }
-destructor
+teardown
 (
 )
 {
@@ -19919,7 +19919,7 @@ return
 true
 ;
 }
-destructor
+teardown
 (
 )
 {
@@ -20242,7 +20242,7 @@ return
 true
 ;
 }
-destructor
+teardown
 (
 )
 {
@@ -21352,7 +21352,7 @@ return
 true
 ;
 }
-destructor
+teardown
 (
 )
 {

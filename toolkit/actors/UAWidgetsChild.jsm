@@ -1048,7 +1048,7 @@ if
 typeof
 widget
 .
-destructor
+teardown
 =
 =
 "
@@ -1060,7 +1060,7 @@ try
 {
 widget
 .
-destructor
+teardown
 (
 )
 ;

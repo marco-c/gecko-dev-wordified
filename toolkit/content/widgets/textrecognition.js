@@ -1201,7 +1201,7 @@ stroke
 ;
 }
 }
-destructor
+teardown
 (
 )
 {
