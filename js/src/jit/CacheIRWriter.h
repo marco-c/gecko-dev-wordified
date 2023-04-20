@@ -663,7 +663,7 @@ quadatic
 lookup
 behaviour
 in
-readStubFieldForIon
+readStubField
 .
 mutable
 uint32_t
@@ -2529,7 +2529,7 @@ stub
 values
 .
 StubField
-readStubFieldForIon
+readStubField
 (
 uint32_t
 offset
