@@ -163,7 +163,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 char
 *
 *
@@ -239,7 +239,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 char
 *
 *

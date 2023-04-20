@@ -155,14 +155,12 @@ nsDBusRemoteClient
 (
 )
 ;
-virtual
 nsresult
 Init
 (
 )
 override
 ;
-virtual
 nsresult
 SendCommandLine
 (
@@ -183,7 +181,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 char
 *
 *

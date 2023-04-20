@@ -545,7 +545,7 @@ StartClient
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 )
 {
 if
@@ -686,7 +686,7 @@ get
 )
 gArgc
 gArgv
-aDesktopStartupID
+aStartupToken
 getter_Copies
 (
 response

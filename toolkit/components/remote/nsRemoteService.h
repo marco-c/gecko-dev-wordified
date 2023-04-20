@@ -227,7 +227,7 @@ StartClient
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 )
 ;
 void

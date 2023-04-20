@@ -178,7 +178,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 char
 *
 *
