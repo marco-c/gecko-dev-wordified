@@ -483,9 +483,6 @@ error_exit
 &
 ErrorHandler
 ;
-#
-ifndef
-DEBUG_MJPEG
 error_mgr_
 -
 >
@@ -496,8 +493,6 @@ output_message
 &
 OutputHandler
 ;
-#
-endif
 #
 endif
 decompress_struct_
@@ -3035,9 +3030,6 @@ setjmp_buffer
 )
 ;
 }
-#
-ifndef
-DEBUG_MJPEG
 /
 /
 Suppress
@@ -3057,8 +3049,6 @@ void
 cinfo
 ;
 }
-#
-endif
 #
 endif
 /

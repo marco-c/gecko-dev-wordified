@@ -108,15 +108,6 @@ include
 <
 sys
 /
-resource
-.
-h
->
-#
-include
-<
-sys
-/
 time
 .
 h

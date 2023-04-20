@@ -850,6 +850,12 @@ _M_IX86
 )
 &
 &
+defined
+(
+_MSC_VER
+)
+&
+&
 (
 _MSC_VER
 <
@@ -931,6 +937,7 @@ of
 ymm
 registers
 .
+static
 int
 GetXCR0
 (
@@ -1083,6 +1090,12 @@ if
 defined
 (
 _M_IX86
+)
+&
+&
+defined
+(
+_MSC_VER
 )
 &
 &

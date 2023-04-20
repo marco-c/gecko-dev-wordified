@@ -87,7 +87,7 @@ include
 "
 libyuv
 /
-rotate
+rotate_argb
 .
 h
 "
@@ -115,6 +115,15 @@ include
 libyuv
 /
 planar_functions
+.
+h
+"
+#
+include
+"
+libyuv
+/
+rotate
 .
 h
 "

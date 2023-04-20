@@ -326,6 +326,7 @@ name
 1920x800_24Hz_P420
 .
 yuv
+static
 bool
 ExtractResolutionFromFilename
 (
@@ -476,6 +477,7 @@ return
 false
 ;
 }
+static
 void
 PrintHelp
 (
@@ -797,6 +799,7 @@ exit
 )
 ;
 }
+static
 void
 ParseOptions
 (
