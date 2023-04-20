@@ -164,4 +164,10 @@ RTCVideoEncoder
 )
 vp9Encoder
 ;
++
+(
+bool
+)
+isSupported
+;
 end
