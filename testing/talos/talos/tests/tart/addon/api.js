@@ -542,9 +542,9 @@ break
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 Unknown
 TART

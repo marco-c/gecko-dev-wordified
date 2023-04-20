@@ -70,9 +70,9 @@ target
 .
 currentURI
 ;
-Cu
+console
 .
-reportError
+error
 (
 "
 remote
