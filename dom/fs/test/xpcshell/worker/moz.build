@@ -114,4 +114,9 @@ test_fileSystemDirectoryHandle_worker
 .
 js
 "
+"
+test_syncAccessHandle_worker
+.
+js
+"
 ]
