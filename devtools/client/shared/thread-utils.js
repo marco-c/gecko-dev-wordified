@@ -89,6 +89,10 @@ validateBreakpointLocation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared

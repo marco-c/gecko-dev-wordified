@@ -69,6 +69,10 @@ SessionDataHelpers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server

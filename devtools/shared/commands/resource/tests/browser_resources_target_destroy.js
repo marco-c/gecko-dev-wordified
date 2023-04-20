@@ -238,6 +238,10 @@ TargetActorRegistry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
