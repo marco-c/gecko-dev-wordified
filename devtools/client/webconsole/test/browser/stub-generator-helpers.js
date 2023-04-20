@@ -1586,12 +1586,6 @@ file
 *
 param
 {
-Object
-}
-env
-*
-param
-{
 String
 }
 fileName
@@ -1636,7 +1630,6 @@ async
 function
 writeStubsToFile
 (
-env
 fileName
 packets
 isNetworkMessage
@@ -1645,6 +1638,8 @@ isNetworkMessage
 const
 mozRepo
 =
+Services
+.
 env
 .
 get
@@ -1828,6 +1823,8 @@ stub
 generator
 -
 helpers
+.
+js
 "
 )
 ;
@@ -1839,6 +1836,10 @@ prepareMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1848,6 +1849,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -1860,6 +1863,10 @@ NetworkEventMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1867,6 +1874,8 @@ client
 webconsole
 /
 types
+.
+js
 "
 )
 ;

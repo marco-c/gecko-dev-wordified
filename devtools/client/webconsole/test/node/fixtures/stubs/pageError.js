@@ -104,6 +104,8 @@ stub
 generator
 -
 helpers
+.
+js
 "
 )
 ;
@@ -115,6 +117,10 @@ prepareMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +130,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;

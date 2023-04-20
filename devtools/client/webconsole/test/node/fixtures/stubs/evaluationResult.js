@@ -104,6 +104,8 @@ stub
 generator
 -
 helpers
+.
+js
 "
 )
 ;
