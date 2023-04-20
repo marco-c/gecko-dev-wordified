@@ -99,11 +99,7 @@ tree
 #
 include
 "
-net
-/
-dcsctp
-/
-public
+rtc_base
 /
 strong_alias
 .
@@ -241,7 +237,7 @@ pass
 lint
 .
 namespace
-dcsctp
+webrtc
 {
 namespace
 {
@@ -2743,4 +2739,4 @@ sad
 /
 /
 namespace
-dcsctp
+webrtc

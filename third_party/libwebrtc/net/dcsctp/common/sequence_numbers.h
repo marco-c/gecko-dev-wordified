@@ -210,6 +210,9 @@ WrappedType
 must
 be
 a
+webrtc
+:
+:
 StrongAlias
 type
 .
