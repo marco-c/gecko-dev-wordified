@@ -923,9 +923,7 @@ nullopt
 /
 Since
 the
-|
 send_interval
-|
 does
 not
 include
@@ -996,9 +994,7 @@ send_interval
 /
 Since
 the
-|
 receive_interval
-|
 does
 not
 include

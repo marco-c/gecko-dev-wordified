@@ -242,9 +242,7 @@ larger
 than
 /
 /
-|
 bitrate
-|
 using
 RTCP
 REMB

@@ -301,9 +301,7 @@ completed
 .
 /
 /
-|
 send_time
-|
 is
 the
 send
@@ -311,9 +309,7 @@ time
 .
 /
 /
-|
 arrival_time
-|
 is
 the
 time
@@ -325,9 +321,7 @@ arrived
 .
 /
 /
-|
 packet_size
-|
 is
 the
 size
@@ -337,9 +331,7 @@ packet
 .
 /
 /
-|
 timestamp_delta
-|
 (
 output
 )
@@ -352,9 +344,7 @@ delta
 .
 /
 /
-|
 arrival_time_delta_ms
-|
 (
 output
 )
@@ -368,9 +358,7 @@ delta
 .
 /
 /
-|
 packet_size_delta
-|
 (
 output
 )
@@ -517,9 +505,7 @@ the
 /
 packet
 with
-|
 send_time
-|
 is
 the
 first

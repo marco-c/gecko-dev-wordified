@@ -251,9 +251,7 @@ delay
 spike
 .
 If
-|
 reduce_bias
-|
 is
 true
 we
@@ -297,9 +295,7 @@ true
 /
 /
 If
-|
 assume_shared_link
-|
 is
 false
 we
@@ -347,9 +343,7 @@ window
 keeps
 at
 least
-|
 min_packets
-|
 packets
 and
 up
@@ -361,9 +355,7 @@ received
 during
 the
 last
-|
 window_duration
-|
 .
 unsigned
 min_packets
@@ -389,9 +381,7 @@ window
 requires
 at
 least
-|
 initial_packets
-|
 packets
 received
 /
@@ -399,9 +389,7 @@ received
 over
 at
 least
-|
 initial_duration
-|
 .
 unsigned
 initial_packets

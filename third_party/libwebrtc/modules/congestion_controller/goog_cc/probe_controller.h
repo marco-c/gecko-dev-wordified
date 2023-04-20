@@ -619,9 +619,7 @@ just
 created
 EXCEPT
 for
-|
 enable_periodic_alr_probing_
-|
 .
 void
 Reset

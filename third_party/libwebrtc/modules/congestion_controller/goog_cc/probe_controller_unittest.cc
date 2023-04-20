@@ -2089,9 +2089,7 @@ Make
 sure
 we
 use
-|
 kStartBitrateBps
-|
 as
 the
 estimated

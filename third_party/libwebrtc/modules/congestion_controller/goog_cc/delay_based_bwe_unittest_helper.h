@@ -483,9 +483,7 @@ capacity_bps
 /
 /
 Divides
-|
 bitrate_bps
-|
 among
 all
 streams
@@ -524,9 +522,7 @@ the
 stream
 identified
 by
-|
 ssrc
-|
 .
 void
 set_rtp_timestamp_offset
@@ -836,9 +832,7 @@ with
 a
 stream
 of
-|
 number_of_frames
-|
 frames
 or
 /
@@ -846,9 +840,7 @@ or
 until
 it
 reaches
-|
 target_bitrate
-|
 .
 /
 /

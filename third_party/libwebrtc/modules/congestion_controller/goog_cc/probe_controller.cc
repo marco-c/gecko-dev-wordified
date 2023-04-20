@@ -280,9 +280,7 @@ kMaxWaitingTimeForProbingResultMs
 /
 Value
 of
-|
 min_bitrate_to_probe_further_bps_
-|
 that
 indicates
 /
@@ -334,9 +332,7 @@ drops
 to
 a
 factor
-|
 kBitrateDropThreshold
-|
 or
 lower
 /
@@ -345,9 +341,7 @@ and
 we
 recover
 within
-|
 kBitrateDropTimeoutMs
-|
 then
 we
 '
@@ -360,9 +354,7 @@ probe
 at
 a
 fraction
-|
 kProbeFractionAfterDrop
-|
 of
 the
 original
@@ -431,9 +423,7 @@ if
 we
 recover
 within
-|
 kLeftAlrTimeoutMs
-|
 ms
 .
 constexpr
@@ -1067,9 +1057,7 @@ we
 use
 the
 variable
-|
 old_max_bitrate_pbs
-|
 is
 because
 we
@@ -1078,9 +1066,7 @@ we
 need
 to
 set
-|
 max_bitrate_bps_
-|
 before
 we
 call

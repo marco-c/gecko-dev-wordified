@@ -633,9 +633,7 @@ capacity_bps
 /
 /
 Divides
-|
 bitrate_bps
-|
 among
 all
 streams
@@ -1765,9 +1763,7 @@ with
 a
 stream
 of
-|
 number_of_frames
-|
 frames
 or
 /
@@ -1775,9 +1771,7 @@ or
 until
 it
 reaches
-|
 target_bitrate
-|
 .
 /
 /
@@ -1836,9 +1830,7 @@ false
 /
 /
 Produce
-|
 number_of_frames
-|
 frames
 and
 give
@@ -3433,9 +3425,7 @@ j
 /
 /
 Insert
-|
 kTimestampGroupLength
-|
 frames
 with
 just

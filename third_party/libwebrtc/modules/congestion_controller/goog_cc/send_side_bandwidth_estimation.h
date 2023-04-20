@@ -778,9 +778,7 @@ Prints
 a
 warning
 if
-|
 bitrate
-|
 if
 sufficiently
 long
@@ -843,9 +841,7 @@ at_time
 /
 /
 Cap
-|
 bitrate
-|
 to
 [
 min_bitrate_configured_
@@ -855,9 +851,7 @@ and
 /
 /
 set
-|
 current_bitrate_
-|
 to
 the
 capped

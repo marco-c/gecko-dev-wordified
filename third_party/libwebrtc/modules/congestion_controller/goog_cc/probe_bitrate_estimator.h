@@ -304,9 +304,7 @@ that
 was
 seen
 before
-|
 timestamp
-|
 .
 void
 EraseOldClusters
