@@ -2674,7 +2674,7 @@ LS_INFO
 <
 <
 "
-VideoSendStream
+VideoSendStreamImpl
 :
 :
 Stop
