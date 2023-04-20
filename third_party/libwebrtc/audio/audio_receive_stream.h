@@ -659,9 +659,6 @@ const
 SequenceChecker
 worker_thread_checker_
 ;
-SequenceChecker
-module_process_thread_checker_
-;
 webrtc
 :
 :
