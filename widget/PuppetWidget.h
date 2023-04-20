@@ -2261,7 +2261,9 @@ widget
 float
 mDPI
 =
-96
+GetFallbackDPI
+(
+)
 ;
 int32_t
 mRounding
@@ -2271,9 +2273,11 @@ mRounding
 double
 mDefaultScale
 =
-1
+GetFallbackDefaultScale
+(
+)
 .
-0f
+scale
 ;
 ScreenIntMargin
 mSafeAreaInsets
