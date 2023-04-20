@@ -605,6 +605,7 @@ arrival_time_ms
 |
 arrival_time_ms
 >
+=
 kMaxTimeMs
 )
 {
@@ -1878,8 +1879,11 @@ seq
 if
 (
 arrival_time
-.
-IsInfinite
+<
+Timestamp
+:
+:
+Zero
 (
 )
 )
