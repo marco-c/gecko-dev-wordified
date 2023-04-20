@@ -660,12 +660,13 @@ menuItems
 removeWatchpointItem
 ]
 ;
-return
 showMenu
 (
 event
 menuItems
 )
+;
+return
 ;
 }
 const

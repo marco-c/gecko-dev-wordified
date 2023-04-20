@@ -719,7 +719,6 @@ enclosedItems
 length
 )
 {
-return
 this
 .
 setState
@@ -730,6 +729,8 @@ focusedItem
 null
 }
 )
+;
+return
 ;
 }
 /

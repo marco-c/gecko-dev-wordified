@@ -237,6 +237,9 @@ collapseBreakpoints
 )
 ;
 }
+return
+null
+;
 }
 render
 (

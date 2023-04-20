@@ -1687,6 +1687,7 @@ selectedSource
 )
 {
 return
+null
 ;
 }
 const
@@ -1852,13 +1853,8 @@ if
 (
 !
 selectedSource
-)
-{
-return
-;
-}
-if
-(
+|
+|
 typeof
 line
 !
@@ -1870,6 +1866,7 @@ number
 )
 {
 return
+null
 ;
 }
 return
@@ -2380,7 +2377,6 @@ trim
 (
 )
 ;
-return
 showMenu
 (
 event
@@ -2427,6 +2423,8 @@ line
 )
 ]
 )
+;
+return
 ;
 }
 if
@@ -2580,10 +2578,11 @@ if
 conditionalPanelLocation
 )
 {
-return
 closeConditionalPanel
 (
 )
+;
+return
 ;
 }
 if
@@ -2660,7 +2659,6 @@ ev
 )
 )
 {
-return
 continueToHere
 (
 cx
@@ -2679,8 +2677,9 @@ id
 }
 )
 ;
-}
 return
+;
+}
 addBreakpointAtLine
 (
 cx
@@ -2701,7 +2700,6 @@ event
 =
 >
 {
-return
 this
 .
 openMenu
@@ -3000,12 +2998,13 @@ if
 selectedSource
 )
 {
-return
 this
 .
 clearEditor
 (
 )
+;
+return
 ;
 }
 if
@@ -3017,11 +3016,12 @@ selectedSourceTextContent
 value
 )
 {
-return
 showLoading
 (
 editor
 )
+;
+return
 ;
 }
 if
@@ -3065,7 +3065,6 @@ error
 "
 ;
 }
-return
 this
 .
 showErrorMessage
@@ -3073,8 +3072,9 @@ showErrorMessage
 value
 )
 ;
-}
 return
+;
+}
 showSourceText
 (
 editor

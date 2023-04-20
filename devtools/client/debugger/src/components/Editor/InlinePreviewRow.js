@@ -298,7 +298,6 @@ if
 props
 )
 {
-return
 assert
 (
 !
@@ -317,6 +316,8 @@ present
 .
 "
 )
+;
+return
 ;
 }
 const

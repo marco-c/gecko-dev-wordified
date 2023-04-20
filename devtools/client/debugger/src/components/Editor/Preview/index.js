@@ -454,7 +454,6 @@ if
 isTargetException
 )
 {
-return
 setExceptionPreview
 (
 cx
@@ -464,6 +463,8 @@ editor
 .
 codeMirror
 )
+;
+return
 ;
 }
 if
@@ -534,9 +535,6 @@ false
 }
 )
 ;
-return
-true
-;
 }
 }
 ;
@@ -566,9 +564,6 @@ selecting
 true
 }
 )
-;
-return
-true
 ;
 }
 }

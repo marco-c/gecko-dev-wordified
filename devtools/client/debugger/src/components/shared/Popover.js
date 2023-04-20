@@ -446,7 +446,6 @@ onTimeout
 return
 ;
 }
-return
 this
 .
 props
@@ -454,6 +453,8 @@ props
 mouseout
 (
 )
+;
+return
 ;
 }
 /

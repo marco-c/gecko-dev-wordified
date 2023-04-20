@@ -1251,6 +1251,7 @@ updating
 )
 {
 return
+null
 ;
 }
 let

@@ -645,7 +645,6 @@ columnBreakpoint
 .
 breakpoint
 ;
-return
 breakpointActions
 .
 toggleDisabledBreakpoint
@@ -653,6 +652,8 @@ toggleDisabledBreakpoint
 cx
 breakpoint
 )
+;
+return
 ;
 }
 if

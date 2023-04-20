@@ -210,10 +210,17 @@ generatedLocation
 {
 if
 (
-!
 disabled
 )
 {
+return
+Promise
+.
+resolve
+(
+)
+;
+}
 /
 /
 Set
@@ -250,7 +257,6 @@ generatedLocation
 options
 )
 ;
-}
 }
 )
 )
