@@ -273,16 +273,6 @@ testbase
 import
 TestingMixin
 testing_config_options
-PY2
-=
-sys
-.
-version_info
-.
-major
-=
-=
-2
 SUITE_CATEGORIES
 =
 [
@@ -3338,29 +3328,6 @@ that
 needs
 this
             
-if
-PY2
-:
-                
-wspb_requirements
-=
-"
-websocketprocessbridge_requirements
-.
-txt
-"
-            
-else
-:
-                
-wspb_requirements
-=
-"
-websocketprocessbridge_requirements_3
-.
-txt
-"
-            
 requirements_files
 .
 append
@@ -3384,7 +3351,11 @@ abs_mochitest_dir
 websocketprocessbridge
 "
                     
-wspb_requirements
+"
+websocketprocessbridge_requirements_3
+.
+txt
+"
                 
 )
             
