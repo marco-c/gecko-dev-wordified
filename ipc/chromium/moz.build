@@ -311,6 +311,17 @@ cc
 "
 src
 /
+chrome
+/
+common
+/
+ipc_message_utils
+.
+cc
+"
+"
+src
+/
 mojo
 /
 core
