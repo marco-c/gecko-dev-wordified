@@ -2239,6 +2239,12 @@ MakeUnique
 SpliceableChunkedJSONWriter
 >
 (
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
 )
 ;
 if
@@ -3331,6 +3337,14 @@ profiler_code_address_service_for_presymbolication
 ;
 SpliceableChunkedJSONWriter
 writer
+{
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
+}
 ;
 writer
 .
