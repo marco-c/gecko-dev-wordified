@@ -18932,7 +18932,7 @@ only_when
 (
 compile_environment
 &
-target_is_linux
+target_has_linux_kernel
 )
 :
 #
@@ -24061,7 +24061,7 @@ Android
 with
 only_when
 (
-target_is_linux
+target_has_linux_kernel
 &
 compile_environment
 )
@@ -24238,7 +24238,7 @@ speed
 with
 only_when
 (
-target_is_linux
+target_has_linux_kernel
 &
 compile_environment
 )
@@ -24399,7 +24399,7 @@ headers
 )
 when
 =
-target_is_linux
+target_has_linux_kernel
 &
 compile_environment
 )

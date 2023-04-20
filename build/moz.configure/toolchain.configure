@@ -20409,7 +20409,7 @@ paths
 clang_search_path
 when
 =
-target_is_linux
+target_has_linux_kernel
 )
 option
 (
