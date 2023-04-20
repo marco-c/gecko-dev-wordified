@@ -790,15 +790,6 @@ IsHidden
 )
 const
 ;
-bool
-IsViewportCacheDirty
-(
-)
-{
-return
-mViewportCacheDirty
-;
-}
 void
 SetViewportCacheDirty
 (
