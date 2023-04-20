@@ -899,7 +899,6 @@ queue
 /
 if
 (
-!
 (
 c
 -
@@ -908,6 +907,9 @@ c_flags
 &
 SCTP_CALLOUT_PENDING
 )
+=
+=
+0
 )
 {
 c

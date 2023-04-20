@@ -107,7 +107,7 @@ the
 distribution
 .
 *
-4
+3
 .
 Neither
 the
