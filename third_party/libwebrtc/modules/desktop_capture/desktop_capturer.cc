@@ -183,12 +183,6 @@ windows_version
 .
 h
 "
-const
-bool
-kUseWinWgcCapturer
-=
-false
-;
 #
 endif
 /
@@ -399,9 +393,6 @@ implemented
 .
 if
 (
-kUseWinWgcCapturer
-&
-&
 rtc
 :
 :
@@ -596,9 +587,6 @@ implemented
 .
 if
 (
-kUseWinWgcCapturer
-&
-&
 rtc
 :
 :
