@@ -128,10 +128,6 @@ PacketSocketFactory
 {
 public
 :
-BasicPacketSocketFactory
-(
-)
-;
 explicit
 BasicPacketSocketFactory
 (
