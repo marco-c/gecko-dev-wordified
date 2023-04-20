@@ -3825,10 +3825,6 @@ GetPrincipal
 )
 const
 {
-AssertIsOnMainThread
-(
-)
-;
 return
 mLoadInfo
 .
@@ -3842,10 +3838,6 @@ GetLoadingPrincipal
 )
 const
 {
-AssertIsOnMainThread
-(
-)
-;
 return
 mLoadInfo
 .
@@ -3859,10 +3851,6 @@ GetPartitionedPrincipal
 )
 const
 {
-AssertIsOnMainThread
-(
-)
-;
 return
 mLoadInfo
 .
