@@ -1548,6 +1548,29 @@ telemetry
 dummy
 /
 "
+        
+#
+Disable
+window
+occlusion
+on
+Windows
+see
+Bug
+1802473
+.
+        
+"
+widget
+.
+windows
+.
+window_occlusion_tracking
+.
+enabled
+"
+:
+False
     
 }
     
