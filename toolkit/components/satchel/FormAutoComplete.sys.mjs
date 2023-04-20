@@ -77,11 +77,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 function
 isAutocompleteDisabled
 (
@@ -940,6 +935,7 @@ nextRequestID
 =
 1
 ;
+export
 function
 FormAutoComplete
 (
@@ -3026,7 +3022,7 @@ FormAutoCompleteResult
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -3039,7 +3035,9 @@ modules
 /
 nsFormAutoCompleteResult
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -3813,13 +3811,4 @@ guid
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FormAutoComplete
-"
-]
 ;

@@ -28,9 +28,9 @@ zero
 /
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -47,7 +47,9 @@ modules
 /
 FormHistory
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
