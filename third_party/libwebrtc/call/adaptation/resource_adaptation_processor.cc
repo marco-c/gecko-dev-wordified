@@ -286,8 +286,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this_ref
 =
@@ -315,7 +313,6 @@ usage_state
 )
 ;
 }
-)
 )
 ;
 return
@@ -941,8 +938,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 resource
@@ -956,7 +951,6 @@ resource
 )
 ;
 }
-)
 )
 ;
 return
