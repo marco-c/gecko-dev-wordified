@@ -2048,6 +2048,19 @@ build
 platform
 "
 ]
+or
+"
+tsan
+"
+in
+task
+[
+"
+build
+-
+platform
+"
+]
 :
             
 if
