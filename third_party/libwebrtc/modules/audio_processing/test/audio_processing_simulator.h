@@ -820,7 +820,7 @@ optional
 <
 bool
 >
-analog_agc_disable_digital_adaptive
+analog_agc_use_digital_adaptive_controller
 ;
 absl
 :
