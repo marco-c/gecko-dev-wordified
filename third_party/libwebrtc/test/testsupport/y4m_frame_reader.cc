@@ -252,13 +252,13 @@ Init
 {
 if
 (
-width_
+input_width_
 <
 =
 0
 |
 |
-height_
+input_height_
 <
 =
 0
@@ -285,8 +285,8 @@ d
 \
 n
 "
-width_
-height_
+input_width_
+input_height_
 )
 ;
 return
