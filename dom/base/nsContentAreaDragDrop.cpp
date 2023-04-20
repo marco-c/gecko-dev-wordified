@@ -2367,16 +2367,12 @@ nsCOMPtr
 nsIURI
 >
 imgUri
-;
+=
 aRequest
 -
 >
 GetURI
 (
-getter_AddRefs
-(
-imgUri
-)
 )
 ;
 nsCOMPtr

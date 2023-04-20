@@ -521,6 +521,9 @@ load
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 nsIURI
