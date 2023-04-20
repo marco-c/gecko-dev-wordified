@@ -1594,6 +1594,12 @@ if
 state_
 =
 =
+kClosing
+|
+|
+state_
+=
+=
 kClosed
 )
 return
