@@ -136,7 +136,7 @@ include
 "
 rtc_base
 /
-keep_ref_until_done
+logging
 .
 h
 "
@@ -145,7 +145,7 @@ include
 "
 rtc_base
 /
-logging
+ref_counted_object
 .
 h
 "
