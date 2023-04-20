@@ -670,11 +670,10 @@ rowName
 '
 )
 ;
-contextMenu
-.
-activateItem
-(
 menuDeleteAllItem
+.
+click
+(
 )
 ;
 }

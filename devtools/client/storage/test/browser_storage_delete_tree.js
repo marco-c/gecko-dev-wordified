@@ -696,11 +696,10 @@ storeName
 }
 )
 ;
-contextMenu
-.
-activateItem
-(
 menuDeleteAllItem
+.
+click
+(
 )
 ;
 }

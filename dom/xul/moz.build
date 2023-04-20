@@ -203,11 +203,6 @@ XULMenuElement
 h
 "
 "
-XULMenuParentElement
-.
-h
-"
-"
 XULPersist
 .
 h
@@ -299,11 +294,6 @@ cpp
 "
 "
 XULMenuElement
-.
-cpp
-"
-"
-XULMenuParentElement
 .
 cpp
 "

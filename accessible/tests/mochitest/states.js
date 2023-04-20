@@ -1004,7 +1004,7 @@ STATE_FOCUSABLE
 STATE_FOCUSABLE
 false
 "
-Focused
+Focussed
 "
 +
 id

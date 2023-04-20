@@ -1237,6 +1237,13 @@ h
 #
 include
 "
+nsMenuFrame
+.
+h
+"
+#
+include
+"
 nsTreeBodyFrame
 .
 h
@@ -58875,8 +58882,6 @@ the
 /
 menu
 .
-if
-(
 nsXULPopupManager
 *
 pm
@@ -58887,6 +58892,10 @@ nsXULPopupManager
 GetInstance
 (
 )
+;
+if
+(
+pm
 )
 {
 nsIFrame
@@ -58922,7 +58931,7 @@ popupFrame
 )
 -
 >
-GetCurrentMenuItemFrame
+GetCurrentMenuItem
 (
 )
 ;
