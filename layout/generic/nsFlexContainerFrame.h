@@ -1284,6 +1284,17 @@ return
 true
 ;
 }
+void
+UnionChildOverflow
+(
+mozilla
+:
+:
+OverflowAreas
+&
+)
+final
+;
 /
 /
 nsContainerFrame
