@@ -88,10 +88,6 @@ absolute_import
 division
 print_function
 import
-six
-import
-filters
-import
 copy
 import
 json
@@ -102,6 +98,10 @@ abc
 import
 ABCMeta
 abstractmethod
+import
+filters
+import
+six
 from
 logger
 .
@@ -14454,6 +14454,8 @@ replicates
 )
             
 elif
+(
+                
 subtest
 [
 "
@@ -14462,6 +14464,7 @@ name
 ]
 in
 VISUAL_METRICS
+                
 or
 subtest
 [
@@ -14472,9 +14475,22 @@ name
 .
 startswith
 (
-                
 "
 perfstat
+"
+)
+                
+or
+subtest
+[
+"
+name
+"
+]
+=
+=
+"
+cpuTime
 "
             
 )
