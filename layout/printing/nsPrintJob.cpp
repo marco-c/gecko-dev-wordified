@@ -10335,7 +10335,7 @@ if
 const
 Maybe
 <
-StylePageOrientation
+StylePageSizeOrientation
 >
 maybeOrientation
 =
@@ -10355,7 +10355,7 @@ StyleSet
 )
 -
 >
-GetDefaultPageOrientation
+GetDefaultPageSizeOrientation
 (
 )
 )
@@ -10369,7 +10369,7 @@ value
 )
 =
 =
-StylePageOrientation
+StylePageSizeOrientation
 :
 :
 Landscape
@@ -10420,7 +10420,7 @@ value
 )
 =
 =
-StylePageOrientation
+StylePageSizeOrientation
 :
 :
 Portrait
@@ -16637,7 +16637,7 @@ StyleSet
 )
 -
 >
-GetDefaultPageOrientation
+GetDefaultPageSizeOrientation
 (
 )
 .
@@ -16646,7 +16646,7 @@ map
 [
 ]
 (
-StylePageOrientation
+StylePageSizeOrientation
 o
 )
 -
@@ -16657,7 +16657,7 @@ return
 o
 =
 =
-StylePageOrientation
+StylePageSizeOrientation
 :
 :
 Landscape

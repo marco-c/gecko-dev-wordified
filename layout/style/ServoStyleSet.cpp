@@ -3959,12 +3959,12 @@ aIndex
 }
 Maybe
 <
-StylePageOrientation
+StylePageSizeOrientation
 >
 ServoStyleSet
 :
 :
-GetDefaultPageOrientation
+GetDefaultPageSizeOrientation
 (
 )
 {
@@ -4069,7 +4069,7 @@ h
 return
 Some
 (
-StylePageOrientation
+StylePageSizeOrientation
 :
 :
 Landscape
@@ -4086,7 +4086,7 @@ h
 return
 Some
 (
-StylePageOrientation
+StylePageSizeOrientation
 :
 :
 Portrait
