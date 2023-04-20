@@ -349,7 +349,14 @@ path
 .
 join
 (
-_SCRIPT_DIR
+_SRC_DIR
+'
+infra
+'
+'
+specs
+'
+                                            
 '
 gn_isolate_map
 .
