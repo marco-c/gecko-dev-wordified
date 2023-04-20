@@ -2291,6 +2291,15 @@ type
 boolean
 "
 }
+testSetString
+:
+{
+type
+:
+"
+string
+"
+}
 }
 additionalProperties
 :
@@ -2562,7 +2571,7 @@ generated
 a
 schema
 with
-two
+three
 fields
 "
 )
