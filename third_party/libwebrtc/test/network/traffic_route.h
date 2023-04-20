@@ -193,7 +193,7 @@ clock
 EmulatedNetworkReceiverInterface
 *
 receiver
-EmulatedEndpoint
+EmulatedEndpointImpl
 *
 endpoint
 )
@@ -293,7 +293,7 @@ EmulatedNetworkReceiverInterface
 const
 receiver_
 ;
-EmulatedEndpoint
+EmulatedEndpointImpl
 *
 const
 endpoint_
