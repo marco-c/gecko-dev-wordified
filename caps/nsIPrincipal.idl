@@ -2680,11 +2680,6 @@ attribute
 WebExtensionPolicy
 addonPolicy
 ;
-readonly
-attribute
-WebExtensionPolicy
-contentScriptAddonPolicy
-;
 /
 *
 *
