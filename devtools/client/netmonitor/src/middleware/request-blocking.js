@@ -136,8 +136,7 @@ backed
 It
 utilizes
 the
-connector
-object
+NetworkCommand
 and
 setBlockedUrls
 function
@@ -163,7 +162,7 @@ modified
 function
 requestBlockingMiddleware
 (
-connector
+commands
 )
 {
 return
@@ -256,7 +255,9 @@ arr
 ]
 ;
 await
-connector
+commands
+.
+networkCommand
 .
 setBlockedUrls
 (

@@ -655,7 +655,7 @@ applyMiddleware
 (
 requestBlocking
 (
-connector
+commands
 )
 thunk
 (
