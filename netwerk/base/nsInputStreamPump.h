@@ -487,8 +487,11 @@ AssertOnThread
 (
 )
 const
+MOZ_REQUIRES
+(
+mMutex
+)
 {
-MOZ_PUSH_IGNORE_THREAD_SAFETY
 if
 (
 mOffMainThread
@@ -515,7 +518,6 @@ NS_IsMainThread
 )
 ;
 }
-MOZ_POP_THREAD_SAFETY
 }
 uint32_t
 mState
