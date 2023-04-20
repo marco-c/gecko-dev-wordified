@@ -1069,6 +1069,8 @@ const
 DisplayItemClipChain
 *
 aChain
+int32_t
+aAppUnitsPerDevPixel
 bool
 aSeparateLeaf
 )
@@ -1096,6 +1098,9 @@ const
 DisplayItemClipChain
 *
 mChain
+;
+int32_t
+mAppUnitsPerDevPixel
 ;
 bool
 mSeparateLeaf
