@@ -1645,7 +1645,7 @@ stream
 .
 /
 /
-FillBitWindow
+VP8LFillBitWindow
 (
 br
 )
@@ -2698,7 +2698,7 @@ present
 is
 always
 8
-bit
+bits
 long
 .
 if
@@ -10642,7 +10642,7 @@ i
 /
 Equivalent
 to
-AddPixelEq
+VP8LAddPixels
 (
 )
 on

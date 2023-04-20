@@ -1519,7 +1519,7 @@ related
 functions
 .
 typedef
-double
+float
 (
 *
 VP8LCostFunc
@@ -1534,7 +1534,7 @@ length
 )
 ;
 typedef
-double
+float
 (
 *
 VP8LCostCombinedFunc
@@ -1658,7 +1658,7 @@ hold
 bit
 entropy
 results
-double
+float
 entropy
 ;
 /

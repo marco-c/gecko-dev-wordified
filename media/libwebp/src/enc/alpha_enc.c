@@ -991,7 +991,6 @@ later
 .
 ok
 =
-(
 VP8LEncodeStream
 (
 &
@@ -999,16 +998,13 @@ config
 &
 picture
 bw
-0
 /
 *
 use_cache
+=
 *
 /
-)
-=
-=
-VP8_ENC_OK
+0
 )
 ;
 WebPPictureFree

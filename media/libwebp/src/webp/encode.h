@@ -4579,10 +4579,6 @@ false
 in
 case
 of
-memory
-allocation
-error
-or
 invalid
 parameters
 .
@@ -4715,7 +4711,7 @@ WebPPictureRescale
 (
 WebPPicture
 *
-pic
+picture
 int
 width
 int
@@ -5438,7 +5434,7 @@ WebPBlendAlpha
 (
 WebPPicture
 *
-pic
+picture
 uint32_t
 background_rgb
 )

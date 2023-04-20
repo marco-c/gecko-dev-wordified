@@ -1026,7 +1026,7 @@ dst_stride
 uint32_t
 alpha_mask
 =
-0xffffffffu
+0xffu
 ;
 uint8x8_t
 mask8
@@ -1269,6 +1269,11 @@ uint8_t
 tmp
 mask8
 )
+;
+alpha_mask
+*
+=
+0x01010101
 ;
 alpha_mask
 &
@@ -1499,7 +1504,7 @@ alpha_stride
 uint32_t
 alpha_mask
 =
-0xffffffffu
+0xffu
 ;
 uint8x8_t
 mask8
@@ -1729,6 +1734,11 @@ uint8_t
 tmp
 mask8
 )
+;
+alpha_mask
+*
+=
+0x01010101
 ;
 alpha_mask
 &
