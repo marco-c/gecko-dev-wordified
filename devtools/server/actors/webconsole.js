@@ -1296,7 +1296,9 @@ instance
 see
 jsdebugger
 .
-jsm
+sys
+.
+mjs
 *
 /
 dbg
