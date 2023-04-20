@@ -94,13 +94,6 @@ API_VIDEO_VIDEO_CODEC_TYPE_H_
 namespace
 webrtc
 {
-/
-/
-GENERATED_JAVA_ENUM_PACKAGE
-:
-org
-.
-webrtc
 enum
 VideoCodecType
 {
