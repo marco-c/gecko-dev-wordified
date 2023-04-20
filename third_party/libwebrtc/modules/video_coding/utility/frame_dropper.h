@@ -329,7 +329,7 @@ the
 encoder
 returned
 a
-key
+delta
 frame
 .
 void
