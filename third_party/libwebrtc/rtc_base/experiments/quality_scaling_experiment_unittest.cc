@@ -295,7 +295,7 @@ namespace
 TEST
 (
 QualityScalingExperimentTest
-DefaultEnabledWithoutFieldTrial
+DisabledWithoutFieldTrial
 )
 {
 webrtc
@@ -311,7 +311,7 @@ field_trials
 "
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 QualityScalingExperiment
 :
@@ -455,7 +455,7 @@ settings
 TEST
 (
 QualityScalingExperimentTest
-ParseSettingsUsesDefaultsWithoutFieldTrial
+ParseSettingsFailsWithoutFieldTrial
 )
 {
 webrtc
@@ -471,16 +471,7 @@ field_trials
 "
 )
 ;
-/
-/
-Uses
-some
-default
-hard
-coded
-values
-.
-EXPECT_TRUE
+EXPECT_FALSE
 (
 QualityScalingExperiment
 :
