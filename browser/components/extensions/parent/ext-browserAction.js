@@ -5205,7 +5205,7 @@ tabData
 enabled
 )
 {
-node
+button
 .
 removeAttribute
 (
@@ -5217,7 +5217,7 @@ disabled
 }
 else
 {
-node
+button
 .
 setAttribute
 (
