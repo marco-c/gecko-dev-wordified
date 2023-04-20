@@ -13,11 +13,9 @@ Each
 target
 must
 be
-an
-object
-string
-or
-symbol
+a
+GC
+thing
 shortestPaths
 (
 [
