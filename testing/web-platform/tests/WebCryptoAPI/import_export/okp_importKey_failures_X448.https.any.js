@@ -660,9 +660,6 @@ invalidJWKKeyData
 =
 [
 {
-data
-:
-{
 crv
 :
 "
@@ -691,7 +688,6 @@ qc9LCLF2bvINmRyQdlT1AxbEtqIEg1TF3
 +
 A5TLEH6A
 "
-}
 }
 ]
 ;
