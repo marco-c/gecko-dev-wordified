@@ -1111,6 +1111,14 @@ env
 universal_newlines
 =
 True
+                    
+encoding
+=
+"
+utf
+-
+8
+"
                 
 )
             
