@@ -2907,8 +2907,6 @@ tryAttachIsSuspendedGenerator
 AttachDecision
 tryAttachToObject
 (
-InlinableNative
-native
 )
 ;
 AttachDecision
