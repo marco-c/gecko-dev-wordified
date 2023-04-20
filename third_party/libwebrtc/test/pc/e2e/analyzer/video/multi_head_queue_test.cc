@@ -126,9 +126,6 @@ namespace
 webrtc
 {
 namespace
-webrtc_pc_e2e
-{
-namespace
 {
 TEST
 (
@@ -1070,11 +1067,6 @@ i
 /
 /
 namespace
-}
-/
-/
-namespace
-webrtc_pc_e2e
 }
 /
 /

@@ -2064,9 +2064,6 @@ insert
 (
 {
 stats_key
-webrtc_pc_e2e
-:
-:
 StreamStats
 (
 captured_time
@@ -2282,9 +2279,6 @@ insert
 pair
 .
 first
-webrtc_pc_e2e
-:
-:
 StreamStats
 (
 pair
@@ -3203,9 +3197,6 @@ ToString
 (
 )
 ;
-webrtc_pc_e2e
-:
-:
 StreamStats
 *
 stats
@@ -3332,9 +3323,6 @@ FrameComparisonType
 kDroppedFrame
 )
 {
-webrtc_pc_e2e
-:
-:
 FrameDropPhase
 dropped_phase
 ;
@@ -3351,9 +3339,6 @@ IsFinite
 {
 dropped_phase
 =
-webrtc_pc_e2e
-:
-:
 FrameDropPhase
 :
 :
@@ -3374,9 +3359,6 @@ IsFinite
 {
 dropped_phase
 =
-webrtc_pc_e2e
-:
-:
 FrameDropPhase
 :
 :
@@ -3397,9 +3379,6 @@ IsFinite
 {
 dropped_phase
 =
-webrtc_pc_e2e
-:
-:
 FrameDropPhase
 :
 :
@@ -3410,9 +3389,6 @@ else
 {
 dropped_phase
 =
-webrtc_pc_e2e
-:
-:
 FrameDropPhase
 :
 :

@@ -167,9 +167,6 @@ h
 namespace
 webrtc
 {
-namespace
-webrtc_pc_e2e
-{
 /
 /
 This
@@ -697,11 +694,6 @@ lock_
 ;
 }
 ;
-}
-/
-/
-namespace
-webrtc_pc_e2e
 }
 /
 /

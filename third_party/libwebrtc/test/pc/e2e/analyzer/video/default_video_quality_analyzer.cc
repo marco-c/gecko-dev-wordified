@@ -276,9 +276,6 @@ namespace
 webrtc
 {
 namespace
-webrtc_pc_e2e
-{
-namespace
 {
 constexpr
 int
@@ -8214,11 +8211,6 @@ return
 out
 ;
 }
-}
-/
-/
-namespace
-webrtc_pc_e2e
 }
 /
 /

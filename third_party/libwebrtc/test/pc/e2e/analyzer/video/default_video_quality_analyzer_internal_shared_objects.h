@@ -435,9 +435,6 @@ absl
 :
 optional
 <
-webrtc_pc_e2e
-:
-:
 StreamCodecInfo
 >
 used_encoder
@@ -466,9 +463,6 @@ absl
 :
 optional
 <
-webrtc_pc_e2e
-:
-:
 StreamCodecInfo
 >
 used_decoder

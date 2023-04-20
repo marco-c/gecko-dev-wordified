@@ -137,9 +137,6 @@ namespace
 webrtc
 {
 namespace
-webrtc_pc_e2e
-{
-namespace
 {
 constexpr
 int
@@ -152,7 +149,7 @@ kMicrosPerSecond
 /
 namespace
 void
-RateCounter
+SamplesRateCounter
 :
 :
 AddEvent
@@ -185,7 +182,7 @@ events_count_
 ;
 }
 double
-RateCounter
+SamplesRateCounter
 :
 :
 GetEventsPerSecond
@@ -492,11 +489,6 @@ b
 receiver
 ;
 }
-}
-/
-/
-namespace
-webrtc_pc_e2e
 }
 /
 /

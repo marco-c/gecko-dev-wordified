@@ -129,9 +129,6 @@ h
 namespace
 webrtc
 {
-namespace
-webrtc_pc_e2e
-{
 /
 /
 A
@@ -693,11 +690,6 @@ queues_
 ;
 }
 ;
-}
-/
-/
-namespace
-webrtc_pc_e2e
 }
 /
 /
