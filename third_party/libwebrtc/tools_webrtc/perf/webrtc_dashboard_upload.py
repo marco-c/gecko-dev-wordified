@@ -567,6 +567,9 @@ argparse
 .
 FileType
 (
+'
+rb
+'
 )
                       
 required
