@@ -1504,8 +1504,9 @@ i
 volatile
 {
 mInt
-+
 =
+mInt
++
 i
 ;
 }
