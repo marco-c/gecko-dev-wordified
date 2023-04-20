@@ -1731,7 +1731,7 @@ true
 )
 ;
 bool
-FillGlyphsAccel
+DrawGlyphsAccel
 (
 ScaledFont
 *
@@ -1748,6 +1748,10 @@ const
 DrawOptions
 &
 aOptions
+const
+StrokeOptions
+*
+aStrokeOptions
 bool
 aUseSubpixelAA
 )
