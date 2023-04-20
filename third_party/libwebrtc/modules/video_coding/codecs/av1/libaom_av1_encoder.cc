@@ -3352,12 +3352,6 @@ data
 EncodedImage
 encoded_image
 ;
-encoded_image
-.
-_completeFrame
-=
-true
-;
 aom_codec_iter_t
 iter
 =

@@ -2222,15 +2222,6 @@ encoded_images_
 i
 ]
 .
-_completeFrame
-=
-true
-;
-encoded_images_
-[
-i
-]
-.
 _encodedWidth
 =
 codec_

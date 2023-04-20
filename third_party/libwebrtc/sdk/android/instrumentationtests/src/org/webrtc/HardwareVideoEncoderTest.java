@@ -804,13 +804,6 @@ frame
 rotation
 )
 .
-setCompleteFrame
-(
-frame
-.
-completeFrame
-)
-.
 setQp
 (
 frame

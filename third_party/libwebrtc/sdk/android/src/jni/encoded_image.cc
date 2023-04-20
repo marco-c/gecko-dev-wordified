@@ -530,9 +530,6 @@ image
 .
 rotation_
 )
-image
-.
-_completeFrame
 qp
 )
 ;
@@ -692,16 +689,6 @@ rotation_
 VideoRotation
 )
 Java_EncodedImage_getRotation
-(
-env
-j_encoded_image
-)
-;
-frame
-.
-_completeFrame
-=
-Java_EncodedImage_getCompleteFrame
 (
 env
 j_encoded_image

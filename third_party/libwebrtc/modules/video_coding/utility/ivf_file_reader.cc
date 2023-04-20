@@ -1288,12 +1288,6 @@ VideoFrameType
 kVideoFrameKey
 ;
 }
-image
-.
-_completeFrame
-=
-true
-;
 return
 image
 ;

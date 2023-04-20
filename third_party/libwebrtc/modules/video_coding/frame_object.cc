@@ -266,10 +266,6 @@ CopyCodecSpecific
 rtp_video_header_
 )
 ;
-_completeFrame
-=
-true
-;
 _payloadType
 =
 payload_type

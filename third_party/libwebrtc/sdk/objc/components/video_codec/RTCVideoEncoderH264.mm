@@ -5217,12 +5217,6 @@ height
 ;
 frame
 .
-completeFrame
-=
-YES
-;
-frame
-.
 frameType
 =
 isKeyframe
