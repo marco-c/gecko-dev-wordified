@@ -19619,6 +19619,12 @@ position
 marker
 .
 markAndTraverse
+<
+MarkingOptions
+:
+:
+None
+>
 (
 obj
 )
@@ -19715,6 +19721,12 @@ unlimited
 marker
 .
 processMarkStackTop
+<
+MarkingOptions
+:
+:
+None
+>
 (
 unlimited
 )
