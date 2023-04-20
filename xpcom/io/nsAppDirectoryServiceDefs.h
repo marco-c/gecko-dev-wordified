@@ -675,12 +675,6 @@ NS_APP_CHROME_DIR_LIST
 "
 AChromDL
 "
-#
-define
-NS_APP_PLUGINS_DIR_LIST
-"
-APluginsDL
-"
 /
 /
 -
