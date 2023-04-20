@@ -9505,6 +9505,10 @@ GtkStateFlags
 aState
 =
 GTK_STATE_FLAG_NORMAL
+nscolor
+aOverBackgroundColor
+=
+NS_TRANSPARENT
 )
 {
 GdkRGBA
@@ -9534,9 +9538,18 @@ color
 )
 )
 {
+if
+(
+color
+!
+=
+aOverBackgroundColor
+)
+{
 return
 color
 ;
+}
 }
 /
 /
@@ -11170,6 +11183,7 @@ GetBackgroundColor
 style
 mMenuHoverText
 GTK_STATE_FLAG_PRELIGHT
+mMenuBackground
 )
 )
 ;
