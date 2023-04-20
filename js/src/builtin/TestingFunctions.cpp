@@ -8096,7 +8096,7 @@ BitwiseCast
 uint32_t
 >
 (
-aVal
+bVal
 .
 f32
 (
@@ -8142,7 +8142,7 @@ BitwiseCast
 uint64_t
 >
 (
-aVal
+bVal
 .
 f64
 (
