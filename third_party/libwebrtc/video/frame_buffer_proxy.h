@@ -245,12 +245,12 @@ replacement
 of
 frame_buffer2
 with
-frame_buffer3
+frame_buffer
 .
 /
 /
 Once
-frame_buffer3
+frame_buffer
 has
 shown
 to
