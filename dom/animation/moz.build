@@ -266,6 +266,11 @@ PseudoElementHashEntry
 h
 "
 "
+ScrollTimelineAnimationTracker
+.
+h
+"
+"
 TimingParams
 .
 h
@@ -352,6 +357,11 @@ cpp
 "
 "
 ScrollTimeline
+.
+cpp
+"
+"
+ScrollTimelineAnimationTracker
 .
 cpp
 "
