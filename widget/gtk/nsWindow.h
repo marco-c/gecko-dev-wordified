@@ -2737,6 +2737,11 @@ ClearRenderingQueue
 (
 )
 ;
+bool
+ApplyEnterLeaveMutterWorkaround
+(
+)
+;
 protected
 :
 virtual
