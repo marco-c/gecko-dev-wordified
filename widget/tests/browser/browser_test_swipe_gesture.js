@@ -654,7 +654,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
@@ -1423,7 +1423,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
@@ -2415,7 +2415,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
@@ -3233,7 +3233,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
@@ -4008,7 +4008,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
@@ -4388,7 +4388,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
@@ -5035,7 +5035,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
@@ -5448,7 +5448,7 @@ gesture
 .
 swipe
 .
-eight
+right
 "
 "
 Browser
