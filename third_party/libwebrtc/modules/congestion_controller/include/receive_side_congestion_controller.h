@@ -556,13 +556,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-int
-min_bitrate_bps_
-RTC_GUARDED_BY
-(
-mutex_
-)
-;
 }
 ;
 }
