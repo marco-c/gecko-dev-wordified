@@ -1003,10 +1003,6 @@ uint64_t
 >
 fps_counter_
 ;
-const
-bool
-enable_reduced_delay_
-;
 Clock
 *
 clock_
