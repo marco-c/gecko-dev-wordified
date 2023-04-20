@@ -2469,6 +2469,12 @@ option
 selected
 )
 {
+option
+.
+selected
+=
+true
+;
 element
 .
 focus
