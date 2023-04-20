@@ -3643,7 +3643,11 @@ TEST_ENGINE_DOMAIN
 maps
 /
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 await

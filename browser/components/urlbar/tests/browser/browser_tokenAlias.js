@@ -4038,7 +4038,11 @@ keyword
 :
 alias
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 await
@@ -4260,7 +4264,11 @@ ALIAS
 }
 foo
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 await

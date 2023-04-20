@@ -1521,7 +1521,11 @@ search_url
 :
 engineURL
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 let

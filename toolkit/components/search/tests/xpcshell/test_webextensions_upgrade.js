@@ -128,7 +128,11 @@ keyword
 foo
 "
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 let
@@ -517,7 +521,11 @@ version
 0
 "
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 let
@@ -982,7 +990,11 @@ version
 0
 "
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 let
