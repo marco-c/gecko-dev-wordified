@@ -592,6 +592,11 @@ Clear
 (
 )
 ;
+int
+Size
+(
+)
+;
 private
 :
 struct
