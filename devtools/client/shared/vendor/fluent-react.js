@@ -203,7 +203,11 @@ react
 =
 require
 (
-'
+"
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,7 +217,9 @@ shared
 vendor
 /
 react
-'
+.
+js
+"
 )
 ;
 const
@@ -223,7 +229,11 @@ _interopDefault
 (
 require
 (
-'
+"
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,7 +247,9 @@ react
 prop
 -
 types
-'
+.
+js
+"
 )
 )
 ;
