@@ -527,6 +527,12 @@ GfxInfo
 =
 delete
 ;
+OperatingSystem
+GetOperatingSystem
+(
+)
+override
+;
 nsresult
 GetFeatureStatusImpl
 (
