@@ -1647,7 +1647,7 @@ PromiseUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
     
 "
@@ -1661,7 +1661,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
   
 )
