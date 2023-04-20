@@ -112,9 +112,6 @@ h
 "
 namespace
 webrtc
-:
-:
-test
 {
 void
 PrintTo
@@ -240,6 +237,9 @@ os
 "
 ;
 }
+namespace
+test
+{
 int64_t
 FakeEncodedFrame
 :
@@ -784,7 +784,9 @@ this
 /
 /
 namespace
-webrtc
-:
-:
 test
+}
+/
+/
+namespace
+webrtc
