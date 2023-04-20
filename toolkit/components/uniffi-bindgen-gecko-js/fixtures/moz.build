@@ -97,7 +97,10 @@ components
 Arithmetic
 "
 "
-Customtypes
+CustomTypes
+"
+"
+ExternalTypes
 "
 "
 Geometry
@@ -113,13 +116,7 @@ Todolist
 "
 ]
 EXTRA_JS_MODULES
-[
-"
-components
--
-utils
-"
-]
++
 =
 [
 "

@@ -43,10 +43,6 @@ gre
 /
 modules
 /
-components
--
-utils
-/
 RustArithmetic
 .
 jsm
@@ -68,10 +64,6 @@ resource
 gre
 /
 modules
-/
-components
--
-utils
 /
 RustGeometry
 .
@@ -97,10 +89,6 @@ gre
 /
 modules
 /
-components
--
-utils
-/
 RustTodolist
 .
 jsm
@@ -124,10 +112,6 @@ resource
 gre
 /
 modules
-/
-components
--
-utils
 /
 RustRondpoint
 .

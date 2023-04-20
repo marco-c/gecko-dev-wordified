@@ -43,10 +43,6 @@ gre
 /
 modules
 /
-components
--
-utils
-/
 RustSprites
 .
 jsm

@@ -588,6 +588,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+uniffi_fixture_external_types
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 uniffi_geometry
 :
 :
