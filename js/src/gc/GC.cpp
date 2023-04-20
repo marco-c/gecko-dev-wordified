@@ -15445,6 +15445,10 @@ rootsRemoved
 =
 false
 ;
+sweepGroupIndex
+=
+0
+;
 lastGCStartTime_
 =
 TimeStamp
