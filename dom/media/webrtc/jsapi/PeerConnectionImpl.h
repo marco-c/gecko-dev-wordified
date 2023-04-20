@@ -4614,6 +4614,17 @@ BreakCycles
 (
 )
 ;
+bool
+HasPendingSetParameters
+(
+)
+const
+;
+void
+InvalidateLastReturnedParameters
+(
+)
+;
 RefPtr
 <
 WebrtcCallWrapper
