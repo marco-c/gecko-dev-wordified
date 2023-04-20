@@ -338,7 +338,7 @@ the
 receiver
 track
 which
-belonging
+belongs
 to
 the
 remote
@@ -353,10 +353,7 @@ nsPtrHashKey
 <
 void
 >
-UniquePtr
-<
 CrossGraphPort
->
 >
 mCrossGraphs
 ;
