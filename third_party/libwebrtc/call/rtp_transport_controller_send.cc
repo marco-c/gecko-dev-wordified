@@ -3463,13 +3463,6 @@ RtpPacketSendInfo
 packet_info
 )
 {
-feedback_demuxer_
-.
-AddPacket
-(
-packet_info
-)
-;
 Timestamp
 creation_time
 =
@@ -3502,6 +3495,13 @@ RTC_DCHECK_RUN_ON
 (
 &
 task_queue_
+)
+;
+feedback_demuxer_
+.
+AddPacket
+(
+packet_info
 )
 ;
 transport_feedback_adapter_
