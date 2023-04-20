@@ -231,7 +231,7 @@ protected
 /
 Slot
 for
-AsyncSocket
+Socket
 .
 PacketRead
 :

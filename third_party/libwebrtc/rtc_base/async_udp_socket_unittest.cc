@@ -183,7 +183,7 @@ socket_
 vss_
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 SOCK_DGRAM
 )
@@ -253,7 +253,7 @@ VirtualSocketServer
 >
 vss_
 ;
-AsyncSocket
+Socket
 *
 socket_
 ;

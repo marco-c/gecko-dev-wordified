@@ -112,15 +112,6 @@ include
 "
 rtc_base
 /
-async_socket
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 async_tcp_socket
 .
 h
@@ -149,6 +140,15 @@ include
 rtc_base
 /
 net_helpers
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+socket
 .
 h
 "
@@ -279,7 +279,7 @@ Current
 (
 )
 ;
-AsyncSocket
+Socket
 *
 socket
 =
@@ -291,7 +291,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 loopback
 .
@@ -407,7 +407,7 @@ main
 loopback
 )
 ;
-AsyncSocket
+Socket
 *
 socket
 =
@@ -419,7 +419,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 loopback
 .

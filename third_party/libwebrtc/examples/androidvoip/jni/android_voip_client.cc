@@ -551,7 +551,7 @@ unique_ptr
 rtc
 :
 :
-AsyncSocket
+Socket
 >
 socket
 (
@@ -563,7 +563,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 family
 SOCK_DGRAM

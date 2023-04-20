@@ -908,17 +908,6 @@ type
 )
 override
 ;
-AsyncSocket
-*
-CreateAsyncSocket
-(
-int
-family
-int
-type
-)
-override
-;
 /
 /
 SocketServer
@@ -2387,7 +2376,7 @@ class
 VirtualSocket
 :
 public
-AsyncSocket
+Socket
 public
 MessageHandler
 public

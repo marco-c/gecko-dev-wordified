@@ -122,7 +122,7 @@ include
 "
 rtc_base
 /
-async_socket
+gunit
 .
 h
 "
@@ -131,7 +131,7 @@ include
 "
 rtc_base
 /
-gunit
+socket
 .
 h
 "
@@ -153,7 +153,7 @@ class
 MockAsyncSocket
 :
 public
-AsyncSocket
+Socket
 {
 public
 :
@@ -167,7 +167,7 @@ default
 ;
 MOCK_METHOD
 (
-AsyncSocket
+Socket
 *
 Accept
 (
@@ -674,7 +674,7 @@ OpenSSLAdapterTest
 TestBeginSSLBeforeConnection
 )
 {
-AsyncSocket
+Socket
 *
 async_socket
 =
@@ -726,7 +726,7 @@ CreateSingleOpenSSLAdapter
 OpenSSLAdapterFactory
 adapter_factory
 ;
-AsyncSocket
+Socket
 *
 async_socket
 =
@@ -840,7 +840,7 @@ get
 )
 )
 ;
-AsyncSocket
+Socket
 *
 async_socket
 =

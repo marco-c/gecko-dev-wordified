@@ -234,7 +234,7 @@ static
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 CreateSocket
 (
@@ -266,7 +266,7 @@ INADDR_ANY
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -286,7 +286,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 address
 .
@@ -460,7 +460,7 @@ ssl_mode
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -682,7 +682,7 @@ GetLocalAddress
 rtc
 :
 :
-AsyncSocket
+Socket
 :
 :
 ConnState
@@ -896,7 +896,7 @@ OnSSLAdapterReadEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -996,7 +996,7 @@ OnSSLAdapterCloseEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 int
@@ -1055,7 +1055,7 @@ GetState
 rtc
 :
 :
-AsyncSocket
+Socket
 :
 :
 CS_CLOSED
@@ -1511,7 +1511,7 @@ object
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -1541,7 +1541,7 @@ OnServerSocketReadEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1714,7 +1714,7 @@ DoHandshake
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1926,7 +1926,7 @@ unique_ptr
 rtc
 :
 :
-AsyncSocket
+Socket
 >
 server_socket_
 ;
@@ -2245,7 +2245,7 @@ ASSERT_EQ
 rtc
 :
 :
-AsyncSocket
+Socket
 :
 :
 CS_CLOSED
@@ -2297,7 +2297,7 @@ ASSERT_EQ
 rtc
 :
 :
-AsyncSocket
+Socket
 :
 :
 CS_CONNECTING
@@ -2378,7 +2378,7 @@ EXPECT_EQ_WAIT
 rtc
 :
 :
-AsyncSocket
+Socket
 :
 :
 CS_CONNECTED
@@ -2432,7 +2432,7 @@ EXPECT_EQ_WAIT
 rtc
 :
 :
-AsyncSocket
+Socket
 :
 :
 CS_CLOSED

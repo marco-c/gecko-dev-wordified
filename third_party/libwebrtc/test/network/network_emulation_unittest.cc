@@ -264,7 +264,7 @@ SocketReader
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 rtc
@@ -332,7 +332,7 @@ OnReadEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -404,7 +404,7 @@ private
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 const
 socket_
@@ -1471,7 +1471,7 @@ j
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 s1
 =
@@ -1480,7 +1480,7 @@ nullptr
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 s2
 =
@@ -1509,7 +1509,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 AF_INET
 SOCK_DGRAM
@@ -1541,7 +1541,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 AF_INET
 SOCK_DGRAM
@@ -3058,7 +3058,7 @@ j
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 s1
 =
@@ -3067,7 +3067,7 @@ nullptr
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 s2
 =
@@ -3096,7 +3096,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 AF_INET
 SOCK_DGRAM
@@ -3128,7 +3128,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 AF_INET
 SOCK_DGRAM
@@ -3980,7 +3980,7 @@ kUdpPayloadSize
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 s1
 =
@@ -3989,7 +3989,7 @@ nullptr
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 s2
 =
@@ -4018,7 +4018,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 AF_INET
 SOCK_DGRAM
@@ -4050,7 +4050,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 AF_INET
 SOCK_DGRAM

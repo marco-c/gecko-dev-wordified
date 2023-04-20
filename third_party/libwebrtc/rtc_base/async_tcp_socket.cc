@@ -298,7 +298,7 @@ Binds
 and
 connects
 socket
-AsyncSocket
+Socket
 *
 AsyncTCPSocketBase
 :
@@ -308,7 +308,7 @@ ConnectSocket
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 const
@@ -335,7 +335,7 @@ unique_ptr
 rtc
 :
 :
-AsyncSocket
+Socket
 >
 owned_socket
 (
@@ -435,7 +435,7 @@ AsyncTCPSocketBase
 :
 AsyncTCPSocketBase
 (
-AsyncSocket
+Socket
 *
 socket
 bool
@@ -1287,7 +1287,7 @@ AsyncTCPSocketBase
 :
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1304,7 +1304,7 @@ AsyncTCPSocketBase
 :
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1335,7 +1335,7 @@ address
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 new_socket
 =
@@ -1714,7 +1714,7 @@ AsyncTCPSocketBase
 :
 OnWriteEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1772,7 +1772,7 @@ AsyncTCPSocketBase
 :
 OnCloseEvent
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -1837,7 +1837,7 @@ AsyncTCPSocket
 :
 Create
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -1872,7 +1872,7 @@ AsyncTCPSocket
 :
 AsyncTCPSocket
 (
-AsyncSocket
+Socket
 *
 socket
 bool
@@ -2185,7 +2185,7 @@ AsyncTCPSocket
 :
 HandleIncomingConnection
 (
-AsyncSocket
+Socket
 *
 socket
 )

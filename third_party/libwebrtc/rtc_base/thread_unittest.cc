@@ -405,7 +405,7 @@ public
 :
 SocketClient
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -1363,7 +1363,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 addr
 .
@@ -1405,7 +1405,7 @@ CreateWithSocketServer
 (
 )
 ;
-AsyncSocket
+Socket
 *
 asocket
 =
@@ -1417,7 +1417,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 addr
 .

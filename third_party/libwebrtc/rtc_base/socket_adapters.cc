@@ -201,7 +201,7 @@ BufferedReadAdapter
 :
 BufferedReadAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 size_t
@@ -527,7 +527,7 @@ BufferedReadAdapter
 :
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1131,7 +1131,7 @@ AsyncSSLSocket
 :
 AsyncSSLSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1202,7 +1202,7 @@ AsyncSSLSocket
 :
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1475,7 +1475,7 @@ AsyncHttpsProxySocket
 :
 AsyncHttpsProxySocket
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -1738,7 +1738,7 @@ AsyncHttpsProxySocket
 :
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1790,7 +1790,7 @@ AsyncHttpsProxySocket
 :
 OnCloseEvent
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -3058,7 +3058,7 @@ AsyncSocksProxySocket
 :
 AsyncSocksProxySocket
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -3253,7 +3253,7 @@ AsyncSocksProxySocket
 :
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )

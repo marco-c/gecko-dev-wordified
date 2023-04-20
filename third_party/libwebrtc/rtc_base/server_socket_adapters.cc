@@ -113,7 +113,7 @@ AsyncProxyServerSocket
 :
 AsyncProxyServerSocket
 (
-AsyncSocket
+Socket
 *
 socket
 size_t
@@ -142,7 +142,7 @@ AsyncSSLServerSocket
 :
 AsyncSSLServerSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -342,7 +342,7 @@ AsyncSocksProxyServerSocket
 :
 AsyncSocksProxyServerSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )

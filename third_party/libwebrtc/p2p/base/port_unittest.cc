@@ -352,15 +352,6 @@ include
 "
 rtc_base
 /
-async_socket
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 buffer
 .
 h
@@ -8714,7 +8705,7 @@ unique_ptr
 rtc
 :
 :
-AsyncSocket
+Socket
 >
 server
 (
@@ -8723,7 +8714,7 @@ vss
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 kLocalAddr2
 .

@@ -173,7 +173,7 @@ AsyncUDPSocket
 :
 Create
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -187,7 +187,7 @@ std
 :
 unique_ptr
 <
-AsyncSocket
+Socket
 >
 owned_socket
 (
@@ -262,14 +262,14 @@ SocketAddress
 bind_address
 )
 {
-AsyncSocket
+Socket
 *
 socket
 =
 factory
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 bind_address
 .
@@ -300,7 +300,7 @@ AsyncUDPSocket
 :
 AsyncUDPSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -700,7 +700,7 @@ AsyncUDPSocket
 :
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -913,7 +913,7 @@ AsyncUDPSocket
 :
 OnWriteEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )

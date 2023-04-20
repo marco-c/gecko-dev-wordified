@@ -361,7 +361,7 @@ TestSocks5Connect
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -370,7 +370,7 @@ ss
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 kSocksProxyIntAddr
 .

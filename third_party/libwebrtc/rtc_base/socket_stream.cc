@@ -117,7 +117,7 @@ SocketStream
 :
 SocketStream
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -151,7 +151,7 @@ SocketStream
 :
 Attach
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -234,7 +234,7 @@ OnCloseEvent
 ;
 }
 }
-AsyncSocket
+Socket
 *
 SocketStream
 :
@@ -243,7 +243,7 @@ Detach
 (
 )
 {
-AsyncSocket
+Socket
 *
 socket
 =
@@ -592,7 +592,7 @@ SocketStream
 :
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -623,7 +623,7 @@ SocketStream
 :
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -650,7 +650,7 @@ SocketStream
 :
 OnWriteEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -677,7 +677,7 @@ SocketStream
 :
 OnCloseEvent
 (
-AsyncSocket
+Socket
 *
 socket
 int

@@ -161,7 +161,7 @@ socket_
 vss_
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 SOCK_STREAM
 )
@@ -223,7 +223,7 @@ VirtualSocketServer
 >
 vss_
 ;
-AsyncSocket
+Socket
 *
 socket_
 ;

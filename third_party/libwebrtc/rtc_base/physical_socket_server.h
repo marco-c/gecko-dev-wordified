@@ -391,17 +391,6 @@ type
 )
 override
 ;
-AsyncSocket
-*
-CreateAsyncSocket
-(
-int
-family
-int
-type
-)
-override
-;
 /
 /
 Internal
@@ -420,7 +409,7 @@ tests
 )
 .
 virtual
-AsyncSocket
+Socket
 *
 WrapSocket
 (
@@ -897,7 +886,7 @@ class
 PhysicalSocket
 :
 public
-AsyncSocket
+Socket
 public
 sigslot
 :
@@ -1096,7 +1085,7 @@ backlog
 )
 override
 ;
-AsyncSocket
+Socket
 *
 Accept
 (

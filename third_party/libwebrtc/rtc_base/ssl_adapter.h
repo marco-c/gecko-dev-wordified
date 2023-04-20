@@ -293,7 +293,7 @@ SSLAdapter
 *
 CreateAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -388,7 +388,7 @@ public
 explicit
 SSLAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -751,7 +751,7 @@ SSLAdapter
 *
 Create
 (
-AsyncSocket
+Socket
 *
 socket
 )
