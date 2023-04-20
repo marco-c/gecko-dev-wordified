@@ -957,6 +957,13 @@ bytes
 )
 override
 ;
+Metrics
+GetMetrics
+(
+)
+const
+override
+;
 /
 /
 Returns
@@ -2134,6 +2141,9 @@ unique_ptr
 PacketObserver
 >
 packet_observer_
+;
+Metrics
+metrics_
 ;
 DcSctpOptions
 options_
