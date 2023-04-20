@@ -1929,6 +1929,19 @@ network_thread
 (
 )
 ;
+rtc
+:
+:
+SocketFactory
+*
+factory
+=
+firewall_socket_server_
+.
+get
+(
+)
+;
 std
 :
 :
@@ -1961,6 +1974,7 @@ TestTurnServer
 RTC_FROM_HERE
 [
 thread
+factory
 type
 common_name
 ]
@@ -2002,6 +2016,7 @@ TestTurnServer
 >
 (
 thread
+factory
 turn_server_internal_address
 turn_server_external_address
 type

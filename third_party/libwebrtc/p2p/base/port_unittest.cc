@@ -2945,6 +2945,11 @@ turn_server_
 (
 &
 main_
+ss_
+.
+get
+(
+)
 kTurnUdpIntAddr
 kTurnUdpExtAddr
 )
@@ -21713,6 +21718,9 @@ Thread
 Current
 (
 )
+vss
+(
+)
 kTurnUdpIntAddr2
 kTurnUdpExtAddr2
 )
@@ -21819,6 +21827,9 @@ Thread
 :
 :
 Current
+(
+)
+vss
 (
 )
 kTurnTcpIntAddr
