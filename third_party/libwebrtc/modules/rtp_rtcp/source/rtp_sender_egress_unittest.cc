@@ -5407,12 +5407,12 @@ AbsoluteSendTime
 AbsoluteSendTime
 :
 :
-MsTo24Bits
+To24Bits
 (
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 )
