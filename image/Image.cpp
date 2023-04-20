@@ -110,17 +110,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-/
-/
-for
-LayerManager
-#
-include
-"
 WebRenderImageProvider
 .
 h
