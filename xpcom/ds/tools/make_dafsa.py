@@ -1439,9 +1439,9 @@ return
 "
 "
 import
-sys
-import
 struct
+import
+sys
 from
 incremental_dafsa
 import

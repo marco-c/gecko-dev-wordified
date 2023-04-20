@@ -88,9 +88,6 @@ from
 xpidl
 import
 rust
-from
-xpidl
-import
 xpidl
 derive_method_tmpl
 =

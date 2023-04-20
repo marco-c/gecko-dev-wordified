@@ -80,15 +80,15 @@ MPL
 import
 json
 from
-perfecthash
-import
-PerfectHash
-from
 collections
 import
 OrderedDict
 import
 buildconfig
+from
+perfecthash
+import
+PerfectHash
 #
 Pick
 a
@@ -5527,13 +5527,13 @@ main
 )
 :
     
+import
+sys
+    
 from
 argparse
 import
 ArgumentParser
-    
-import
-sys
     
 parser
 =
