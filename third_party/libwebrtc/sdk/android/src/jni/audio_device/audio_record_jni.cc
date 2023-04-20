@@ -1566,6 +1566,8 @@ jobject
 j_caller
 int
 length
+int64_t
+capture_timestamp_ns
 )
 {
 RTC_DCHECK
@@ -1607,6 +1609,7 @@ SetRecordedBuffer
 (
 direct_buffer_address_
 frames_per_buffer_
+capture_timestamp_ns
 )
 ;
 /
