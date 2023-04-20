@@ -77,10 +77,7 @@ std
 borrow
 :
 :
-{
 Borrow
-Cow
-}
 iter
 mem
 num
@@ -880,7 +877,7 @@ PresentMode
 Fifo
 composite_alpha_mode
 :
-wgt
+hal
 :
 :
 CompositeAlphaMode
@@ -1099,14 +1096,6 @@ hal
 NagaShader
 {
 module
-:
-Cow
-:
-:
-Owned
-(
-module
-)
 info
 }
 }

@@ -2563,7 +2563,6 @@ fun
 module
 &
 mod_info
-false
 )
 {
 Ok
