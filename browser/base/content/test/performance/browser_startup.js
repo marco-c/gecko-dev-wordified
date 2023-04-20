@@ -258,7 +258,9 @@ eg
 from
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 '
 _onFirstWindowLoaded
 method
@@ -290,7 +292,9 @@ modules
 /
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

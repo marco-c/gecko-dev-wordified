@@ -1389,7 +1389,9 @@ called
 from
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 soon
 after
 startup

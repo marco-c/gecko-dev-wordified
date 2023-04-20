@@ -1413,7 +1413,9 @@ opened
 by
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 during
 *
 early

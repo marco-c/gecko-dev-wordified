@@ -746,7 +746,9 @@ observed
 by
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 )
 .
 let

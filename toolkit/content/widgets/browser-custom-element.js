@@ -350,7 +350,9 @@ loads
 via
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 )
 .
 const

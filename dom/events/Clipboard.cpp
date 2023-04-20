@@ -596,7 +596,9 @@ in
 <
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 >
 .
 return

@@ -39,7 +39,7 @@ AboutHomeStartupCache
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +51,9 @@ modules
 /
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

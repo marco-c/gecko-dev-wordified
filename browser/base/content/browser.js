@@ -14840,7 +14840,9 @@ _scheduleStartupIdleTasks
 in
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 )
 .
 *
