@@ -171,9 +171,7 @@ the
 last
 /
 /
-|
 window_size
-|
 samples
 .
 static
@@ -304,9 +302,7 @@ associated
 with
 the
 given
-|
 rms
-|
 .
 int
 GetBinIndex
@@ -386,9 +382,7 @@ components
 of
 /
 /
-|
 bin_count_q10_
-|
 .
 int64_t
 audio_content_q10_
@@ -402,9 +396,7 @@ RMS
 in
 Q10
 with
-|
 kHistSize_
-|
 bins
 .
 In

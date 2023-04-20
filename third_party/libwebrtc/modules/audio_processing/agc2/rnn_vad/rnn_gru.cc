@@ -197,9 +197,7 @@ scale
 .
 /
 /
-|
 n
-|
 is
 the
 size
@@ -213,9 +211,7 @@ the
 -
 dim
 tensor
-|
 weights
-|
 .
 const
 int

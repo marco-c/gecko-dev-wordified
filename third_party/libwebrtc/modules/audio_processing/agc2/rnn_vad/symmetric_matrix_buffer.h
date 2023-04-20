@@ -382,9 +382,7 @@ The
 first
 element
 in
-|
 values
-|
 must
 /
 /
@@ -414,9 +412,7 @@ the
 last
 element
 in
-|
 values
-|
 /
 /
 must
@@ -629,13 +625,9 @@ ring
 buffer
 having
 delay
-|
 delay1
-|
 and
-|
 delay2
-|
 .
 The
 two

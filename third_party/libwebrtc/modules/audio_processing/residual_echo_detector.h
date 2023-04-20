@@ -346,9 +346,7 @@ Keep
 track
 if
 the
-|
 Process
-|
 function
 has
 been
@@ -403,9 +401,7 @@ that
 the
 size
 of
-|
 render_buffer_
-|
 was
 zero
 .

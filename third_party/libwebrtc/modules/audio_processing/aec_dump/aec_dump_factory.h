@@ -159,9 +159,7 @@ public
 /
 /
 The
-|
 worker_queue
-|
 may
 not
 be
@@ -193,9 +191,7 @@ will
 be
 unlimited
 .
-|
 handle
-|
 may
 not
 be
@@ -208,9 +204,7 @@ takes
 /
 responsibility
 for
-|
 handle
-|
 and
 closes
 it

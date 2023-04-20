@@ -433,9 +433,7 @@ return
 ;
 /
 /
-|
 next_auto_correlation
-|
 is
 the
 largest
@@ -473,9 +471,7 @@ return
 ;
 /
 /
-|
 prev_auto_correlation
-|
 is
 the
 largest
@@ -497,9 +493,7 @@ Refines
 a
 pitch
 period
-|
 lag
-|
 encoded
 as
 lag
@@ -519,9 +513,7 @@ twice
 as
 that
 of
-|
 lag
-|
 .
 int
 PitchPseudoInterpolationLagPitchBuf
@@ -1770,9 +1762,7 @@ When
 retraining
 check
 if
-|
 offset
-|
 below
 should
 /
@@ -1780,9 +1770,7 @@ should
 be
 subtracted
 since
-|
 inverted_lag
-|
 is
 an
 inverted
@@ -2965,9 +2953,7 @@ candidate
 /
 /
 Update
-|
 squared_energy_y
-|
 for
 the
 next
@@ -3680,9 +3666,7 @@ sub
 -
 harmonics
 .
-|
 kSubHarmonicMultipliers
-|
 is
 used
 to
@@ -3693,9 +3677,7 @@ look
 .
 /
 /
-|
 period_divisor
-|
 =
 =
 2
@@ -3704,9 +3686,7 @@ a
 special
 case
 since
-|
 dual_alternative_period
-|
 /
 /
 might
@@ -3820,9 +3800,7 @@ sub
 harmonic
 /
 /
-|
 dual_alternative_period
-|
 .
 const
 float

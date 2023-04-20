@@ -218,9 +218,7 @@ function
 .
 /
 /
-|
 approx_params_x_
-|
 are
 the
 boundaries
@@ -230,13 +228,9 @@ linear
 pieces
 /
 /
-|
 approx_params_m_
-|
 and
-|
 approx_params_q_
-|
 are
 the
 slope

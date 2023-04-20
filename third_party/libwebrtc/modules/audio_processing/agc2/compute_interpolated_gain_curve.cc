@@ -803,9 +803,7 @@ pop
 /
 /
 Split
-|
 interval
-|
 and
 enqueue
 .
@@ -1035,9 +1033,7 @@ kInterpolatedGainCurveKneePoints
 /
 /
 Get
-|
 kInterpolatedGainCurveKneePoints
-|
 -
 1
 equally

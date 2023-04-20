@@ -7796,9 +7796,7 @@ sub
 module
 that
 analyzes
-|
 capture_buffer
-|
 .
 if
 (

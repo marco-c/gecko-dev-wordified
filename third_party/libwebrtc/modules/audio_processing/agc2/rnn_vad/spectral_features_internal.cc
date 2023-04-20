@@ -172,9 +172,7 @@ specified
 in
 /
 /
-|
 kOpusScaleNumBins24kHz20ms
-|
 .
 constexpr
 std

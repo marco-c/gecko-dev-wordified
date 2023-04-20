@@ -665,9 +665,7 @@ sample
 in
 /
 /
-|
 dst
-|
 is
 zero
 (

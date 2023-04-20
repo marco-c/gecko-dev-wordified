@@ -302,9 +302,7 @@ If
 the
 values
 exceed
-|
 val_threshold
-|
 for
 a
 period
@@ -315,9 +313,7 @@ then
 or
 equal
 to
-|
 width_threshold
-|
 then
 that
 period
@@ -406,13 +402,9 @@ a
 given
 position
 to
-|
 value
-|
 .
-|
 index
-|
 is
 interpreted
 as

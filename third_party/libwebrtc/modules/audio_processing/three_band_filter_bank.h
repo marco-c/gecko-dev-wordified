@@ -417,9 +417,7 @@ ThreeBandFilterBank
 /
 /
 Splits
-|
 in
-|
 of
 size
 kFullBandSize
@@ -431,9 +429,7 @@ bands
 in
 /
 /
-|
 out
-|
 each
 of
 size
@@ -479,9 +475,7 @@ downsampled
 frequency
 bands
 in
-|
 in
-|
 each
 of
 size
@@ -489,9 +483,7 @@ size
 into
 /
 /
-|
 out
-|
 which
 is
 of

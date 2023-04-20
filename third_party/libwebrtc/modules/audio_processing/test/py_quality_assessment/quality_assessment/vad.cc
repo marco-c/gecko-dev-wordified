@@ -534,9 +534,7 @@ bit
 to
 write
 in
-|
 buff
-|
 .
 while
 (

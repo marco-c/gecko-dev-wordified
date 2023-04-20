@@ -421,14 +421,10 @@ the
 pitch
 interval
 [
-|
 kInitialMinPitch12kHz
-|
 /
 /
-|
 kMaxPitch12kHz
-|
 ]
 are
 in
@@ -436,9 +432,7 @@ the
 range
 [
 0
-|
 kNumLags12kHz
-|
 ]
 .
 constexpr

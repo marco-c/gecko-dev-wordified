@@ -351,9 +351,7 @@ samples
 with
 the
 given
-|
 length
-|
 have
 a
 magnitude
@@ -485,13 +483,9 @@ private
 /
 /
 Compares
-|
 block_size
-|
 with
-|
 block_size_
-|
 .
 If
 they

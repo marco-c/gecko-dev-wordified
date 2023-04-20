@@ -627,9 +627,7 @@ GetGainLinear
 (
 )
 in
-|
 x
-|
 .
 double
 LimiterDbGainCurve

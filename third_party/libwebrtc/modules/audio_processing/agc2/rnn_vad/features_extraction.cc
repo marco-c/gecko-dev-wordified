@@ -379,9 +379,7 @@ pre
 processed
 version
 of
-|
 samples
-|
 .
 pitch_buf_24kHz_
 .
@@ -398,9 +396,7 @@ else
 Feed
 buffer
 with
-|
 samples
-|
 .
 pitch_buf_24kHz_
 .

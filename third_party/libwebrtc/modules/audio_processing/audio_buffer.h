@@ -437,9 +437,7 @@ Where
 =
 channel
 <
-|
 buffer_num_channels_
-|
 /
 /
 0
@@ -447,9 +445,7 @@ buffer_num_channels_
 =
 sample
 <
-|
 buffer_num_frames_
-|
 float
 *
 const
@@ -527,9 +523,7 @@ Where
 =
 channel
 <
-|
 buffer_num_channels_
-|
 /
 /
 0
@@ -537,9 +531,7 @@ buffer_num_channels_
 =
 band
 <
-|
 num_bands_
-|
 /
 /
 0
@@ -547,9 +539,7 @@ num_bands_
 =
 sample
 <
-|
 num_split_frames_
-|
 const
 float
 *
@@ -662,9 +652,7 @@ Where
 =
 band
 <
-|
 num_bands_
-|
 /
 /
 0
@@ -672,9 +660,7 @@ num_bands_
 =
 channel
 <
-|
 buffer_num_channels_
-|
 /
 /
 0
@@ -682,9 +668,7 @@ buffer_num_channels_
 =
 sample
 <
-|
 num_split_frames_
-|
 const
 float
 *

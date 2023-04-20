@@ -132,9 +132,7 @@ Agc
 ;
 /
 /
-|
 audio
-|
 must
 be
 mono
@@ -206,9 +204,7 @@ otherwise
 in
 which
 case
-|
 error
-|
 should
 be
 ignored

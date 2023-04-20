@@ -264,9 +264,7 @@ in
 the
 buffer
 with
-|
 new_values
-|
 .
 void
 Push
@@ -356,9 +354,7 @@ array
 is
 returned
 when
-|
 delay
-|
 is
 0
 and

@@ -1958,9 +1958,7 @@ level
 /
 Scale
 the
-|
 kSurplusCompressionGain
-|
 linearly
 across
 the
@@ -2126,9 +2124,7 @@ Independent
 of
 interpretation
 of
-|
 level
-|
 =
 =
 0

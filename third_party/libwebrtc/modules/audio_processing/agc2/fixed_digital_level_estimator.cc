@@ -191,9 +191,7 @@ kDecayMs
 .
 /
 /
-|
 subframe_duration
-|
 is
 |
 kFrameDurationMs

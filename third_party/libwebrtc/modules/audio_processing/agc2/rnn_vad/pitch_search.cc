@@ -327,9 +327,7 @@ the
 inverted
 lags
 in
-|
 pitch_candidates_inv_lags
-|
 from
 12
 /

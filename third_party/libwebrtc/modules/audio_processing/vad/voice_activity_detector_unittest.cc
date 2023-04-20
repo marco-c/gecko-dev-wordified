@@ -836,9 +836,7 @@ which
 would
 ruin
 the
-|
 max_probability
-|
 value
 .
 if
@@ -980,9 +978,7 @@ which
 would
 ruin
 the
-|
 max_probability
-|
 value
 .
 if

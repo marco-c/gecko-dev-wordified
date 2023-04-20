@@ -230,9 +230,7 @@ for
 the
 array
 named
-|
 kOpusBandWeights24kHz20ms
-|
 in
 the
 /
@@ -576,9 +574,7 @@ ComputeTriangularFiltersWeights
 is
 changed
 and
-|
 kOpusBandWeights24kHz20ms
-|
 /
 /
 is

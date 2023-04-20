@@ -128,17 +128,13 @@ an
 /
 input
 signal
-|
 x
-|
 to
 produce
 an
 output
 signal
-|
 y
-|
 .
 void
 BiQuadFilter

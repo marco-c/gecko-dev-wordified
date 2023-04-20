@@ -636,9 +636,7 @@ score_name
 Exactly
 one
 of
-|
 params_to_plot
-|
 must
 match
 :

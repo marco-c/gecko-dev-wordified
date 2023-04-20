@@ -451,9 +451,7 @@ BinaryDelayEstimatorFarend
 /
 :
 Created
-|
 handle
-|
 .
 If
 the
@@ -952,9 +950,7 @@ max_lookahead
 Re
 -
 allocates
-|
 history_size
-|
 dependent
 buffers
 .
@@ -1501,9 +1497,7 @@ self
 /
 Updates
 the
-|
 mean_value
-|
 recursively
 with
 a
@@ -1513,9 +1507,7 @@ of
 2
 ^
 -
-|
 factor
-|
 .
 This
 /

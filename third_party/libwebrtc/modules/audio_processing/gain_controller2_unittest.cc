@@ -213,13 +213,9 @@ all
 the
 samples
 in
-|
 ab
-|
 to
-|
 value
-|
 .
 for
 (

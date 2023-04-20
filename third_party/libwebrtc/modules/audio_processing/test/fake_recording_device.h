@@ -332,9 +332,7 @@ gain
 /
 /
 If
-|
 real_device_level
-|
 is
 a
 valid
@@ -355,9 +353,7 @@ the
 latter
 step
 set
-|
 real_device_level
-|
 to
 /
 /
@@ -388,9 +384,7 @@ gain
 /
 /
 If
-|
 real_device_level
-|
 is
 a
 valid
@@ -411,9 +405,7 @@ the
 latter
 step
 set
-|
 real_device_level
-|
 to
 /
 /

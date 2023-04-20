@@ -1171,9 +1171,7 @@ functionality
 for
 /
 /
-|
 runtime_settings_
-|
 .
 class
 RuntimeSettingEnqueuer
@@ -2059,9 +2057,7 @@ attached
 .
 If
 not
-|
 forced
-|
 only
 writes
 the
@@ -2080,9 +2076,7 @@ saved
 one
 ;
 if
-|
 forced
-|
 /
 /
 writes

@@ -698,9 +698,7 @@ absolute
 error
 instead
 .
-|
 safe_den
-|
 is
 used
 /

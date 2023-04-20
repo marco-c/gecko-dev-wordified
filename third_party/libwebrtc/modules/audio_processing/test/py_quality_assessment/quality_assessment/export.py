@@ -3502,9 +3502,7 @@ echo_simulator
 "
 "
 Slices
-|
 scores
-|
 to
 extract
 the
@@ -3624,9 +3622,7 @@ fields
 "
 "
 Slices
-|
 data_frame
-|
 to
 a
 list

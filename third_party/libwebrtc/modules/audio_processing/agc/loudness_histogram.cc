@@ -918,9 +918,7 @@ longer
 than
 /
 /
-|
 kTransientWidthThreshold
-|
 or
 there
 has

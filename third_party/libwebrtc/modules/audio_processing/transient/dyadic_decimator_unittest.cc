@@ -287,9 +287,7 @@ out_samples
 Less
 than
 required
-|
 out_length
-|
 .
 out_samples
 =

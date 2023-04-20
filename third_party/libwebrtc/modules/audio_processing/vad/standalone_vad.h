@@ -174,9 +174,7 @@ number
 of
 elements
 of
-|
 p
-|
 .
 /
 /
@@ -216,9 +214,7 @@ error
 the
 content
 of
-|
 activity
-|
 is
 unchanged
 .

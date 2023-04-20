@@ -232,9 +232,7 @@ for
 the
 audio
 routing
-|
 mode
-|
 on
 the
 device

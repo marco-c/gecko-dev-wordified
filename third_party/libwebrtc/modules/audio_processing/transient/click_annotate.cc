@@ -227,9 +227,7 @@ Returns
 on
 error
 or
-|
 lost_packets
-|
 otherwise
 .
 int

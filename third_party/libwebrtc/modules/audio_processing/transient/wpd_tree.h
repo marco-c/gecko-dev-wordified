@@ -604,9 +604,7 @@ the
 new
 data
 .
-|
 data_length
-|
 must
 be
 /

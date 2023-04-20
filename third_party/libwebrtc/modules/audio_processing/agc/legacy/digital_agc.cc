@@ -1838,9 +1838,7 @@ ratio
 /
 /
 Shift
-|
 numFIX
-|
 as
 much
 as
@@ -1855,9 +1853,7 @@ wrap
 -
 around
 in
-|
 den
-|
 as
 well
 .
@@ -1886,9 +1882,7 @@ den
 {
 /
 /
-|
 den
-|
 is
 Q8
 .

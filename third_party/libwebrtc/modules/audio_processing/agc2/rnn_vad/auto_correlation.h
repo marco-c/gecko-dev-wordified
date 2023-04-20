@@ -210,9 +210,7 @@ interval
 .
 /
 /
-|
 auto_corr
-|
 indexes
 are
 inverted

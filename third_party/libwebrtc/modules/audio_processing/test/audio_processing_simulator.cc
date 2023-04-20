@@ -1491,9 +1491,7 @@ the
 undo
 level
 to
-|
 aec_dump_mic_level_
-|
 to
 virtually
 restore
@@ -1836,9 +1834,7 @@ as
 /
 /
 input
-|
 analog_mic_level_
-|
 will
 not
 be

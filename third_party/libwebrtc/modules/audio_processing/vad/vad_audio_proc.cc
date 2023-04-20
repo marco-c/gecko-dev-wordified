@@ -945,9 +945,7 @@ kLpcOrder
 /
 /
 Compute
-|
 kNum10msSubframes
-|
 sets
 of
 LPC
@@ -1283,9 +1281,7 @@ z
 is
 defined
 by
-|
 lpc
-|
 is
 a
 model

@@ -2446,9 +2446,7 @@ Check
 the
 range
 of
-|
 thd_plus_noise
-|
 and
 update
 the

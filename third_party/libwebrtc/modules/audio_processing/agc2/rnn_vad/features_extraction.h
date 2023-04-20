@@ -269,9 +269,7 @@ is
 detected
 /
 /
-|
 feature_vector
-|
 is
 partially
 written

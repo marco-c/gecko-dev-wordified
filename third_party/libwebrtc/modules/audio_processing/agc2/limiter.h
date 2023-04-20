@@ -213,9 +213,7 @@ hard
 -
 clipping
 to
-|
 signal
-|
 .
 void
 Process

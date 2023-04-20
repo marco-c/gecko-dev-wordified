@@ -196,13 +196,9 @@ it
 updates
 /
 /
-|
 chunkwise_voice_probabilities_
-|
 and
-|
 chunkwise_rms_
-|
 when
 there
 is
@@ -307,9 +303,7 @@ to
 be
 passed
 into
-|
 standalone_vad_
-|
 because
 internally
 it

@@ -1245,14 +1245,10 @@ using_reference
 ;
 /
 /
-|
 detector_smoothed_
-|
 follows
 the
-|
 detector_result
-|
 when
 this
 last
@@ -1481,9 +1477,7 @@ called
 .
 At
 return
-|
 out_buffer_
-|
 will
 be
 filled
@@ -2127,9 +2121,7 @@ called
 after
 /
 /
-|
 detection_enabled_
-|
 is
 updated
 by
@@ -2366,9 +2358,7 @@ every
 peak
 in
 the
-|
 fft_buffer_
-|
 that
 exceeds
 /
@@ -2381,9 +2371,7 @@ The
 attenuation
 depends
 on
-|
 detector_smoothed_
-|
 .
 /
 /
@@ -2393,9 +2381,7 @@ restoration
 takes
 place
 the
-|
 magnitudes_
-|
 are
 updated
 to
@@ -2671,9 +2657,7 @@ every
 peak
 in
 the
-|
 fft_buffer_
-|
 that
 exceeds
 /
@@ -2701,9 +2685,7 @@ The
 attenuation
 depends
 on
-|
 detector_smoothed_
-|
 .
 /
 /
@@ -2713,9 +2695,7 @@ restoration
 takes
 place
 the
-|
 magnitudes_
-|
 are
 updated
 to

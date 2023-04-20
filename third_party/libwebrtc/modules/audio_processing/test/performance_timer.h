@@ -180,9 +180,7 @@ the
 first
 /
 /
-|
 number_of_warmup_samples
-|
 measurements
 .
 double

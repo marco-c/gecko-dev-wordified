@@ -150,9 +150,7 @@ mean_far_spectrum
 ;
 /
 /
-|
 mean_far_spectrum
-|
 initialization
 indicator
 .
@@ -200,9 +198,7 @@ mean_near_spectrum
 ;
 /
 /
-|
 mean_near_spectrum
-|
 initialization
 indicator
 .

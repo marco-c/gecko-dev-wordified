@@ -427,9 +427,7 @@ next
 Push
 (
 )
-|
 last
-|
 will
 be
 moved

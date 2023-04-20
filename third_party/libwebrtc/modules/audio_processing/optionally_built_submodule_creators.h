@@ -156,9 +156,7 @@ corresponding
 /
 /
 flag
-|
 transient_suppression
-|
 is
 enabled
 then
@@ -226,9 +224,7 @@ The
 corresponding
 override
 in
-|
 overrides
-|
 is
 enabled
 .

@@ -519,9 +519,7 @@ the
 ring
 buffer
 is
-|
 t
-|
 .
 ASSERT_EQ
 (
@@ -543,9 +541,7 @@ Create
 the
 comparisons
 between
-|
 t
-|
 and
 the
 older
@@ -591,9 +587,7 @@ i
 /
 Start
 comparing
-|
 t
-|
 to
 the
 second
@@ -647,13 +641,9 @@ Compare
 the
 last
 element
-|
 t
-|
 with
-|
 t_prev
-|
 .
 new_comparions
 [

@@ -232,9 +232,7 @@ having
 size
 /
 /
-|
 kBufSize24kHz
-|
 .
 constexpr
 int
@@ -384,13 +382,9 @@ kSampleRate24kHz
 /
 /
 Feeds
-|
 features_extractor
-|
 with
-|
 samples
-|
 splitting
 it
 in
@@ -408,9 +402,7 @@ output
 is
 written
 into
-|
 feature_vector
-|
 .
 Returns
 true

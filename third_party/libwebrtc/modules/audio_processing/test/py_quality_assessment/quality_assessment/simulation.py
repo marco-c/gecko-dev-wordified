@@ -1627,9 +1627,7 @@ generated
 and
 written
 in
-|
 input_signal_filepath
-|
 .
     
 Args

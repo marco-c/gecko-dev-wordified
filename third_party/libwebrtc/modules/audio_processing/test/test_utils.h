@@ -467,9 +467,7 @@ file
 according
 to
 the
-|
 buffer
-|
 format
 .
 Returns
@@ -687,9 +685,7 @@ an
 interleaved
 copy
 of
-|
 buffer
-|
 converts
 the
 samples

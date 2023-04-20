@@ -242,9 +242,7 @@ kLength10Ms
 /
 /
 Pretend
-|
 p
-|
 is
 shorter
 that

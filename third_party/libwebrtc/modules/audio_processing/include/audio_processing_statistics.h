@@ -446,11 +446,9 @@ first
 /
 call
 to
-|
 GetStatistics
 (
 )
-|
 and
 afterwards
 aggregated
@@ -473,11 +471,9 @@ metrics
 from
 /
 /
-|
 GetStatistics
 (
 )
-|
 during
 a
 session
@@ -589,11 +585,9 @@ the
 /
 call
 to
-|
 GetStatistics
 (
 )
-|
 .
 absl
 :

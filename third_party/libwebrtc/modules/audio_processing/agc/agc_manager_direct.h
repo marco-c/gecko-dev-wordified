@@ -694,9 +694,7 @@ Don
 '
 t
 delete
-|
 agc
-|
 as
 the
 memory
@@ -1131,9 +1129,7 @@ at
 least
 /
 /
-|
 kClippedLevelMin
-|
 .
 void
 SetMaxLevel

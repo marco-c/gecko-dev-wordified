@@ -246,9 +246,7 @@ result
 are
 returned
 in
-|
 p
-|
 .
 int
 VoicingProbability

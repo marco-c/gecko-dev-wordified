@@ -286,9 +286,7 @@ ProcessStream
 )
 with
 an
-|
 _energy
-|
 of
 zero
 are

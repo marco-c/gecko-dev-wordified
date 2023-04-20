@@ -326,9 +326,7 @@ the
 first
 value
 in
-|
 auto_corr
-|
 has
 an
 /

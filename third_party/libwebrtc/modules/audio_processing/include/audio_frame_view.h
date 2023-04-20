@@ -134,13 +134,9 @@ public
 :
 /
 /
-|
 num_channels
-|
 and
-|
 channel_size
-|
 describe
 the
 T
@@ -148,13 +144,9 @@ T
 *
 /
 /
-|
 audio_samples
-|
 .
-|
 audio_samples
-|
 is
 assumed
 to

@@ -796,9 +796,7 @@ the
 region
 in
 which
-|
 input_level
-|
 /
 /
 falls
@@ -841,9 +839,7 @@ O
 +
 log2
 (
-|
 LightkInterpolatedGainCurveTotalPoints
-|
 )
 plus
 O

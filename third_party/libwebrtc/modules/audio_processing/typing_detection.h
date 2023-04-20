@@ -162,9 +162,7 @@ SetParameters
 )
 .
 See
-|
 report_detection_update_period_
-|
 description
 below
 .
@@ -270,9 +268,7 @@ updated
 .
 See
 also
-|
 report_detection_update_period_
-|
 .
 int
 counter_since_last_detection_update_
@@ -289,9 +285,7 @@ Updated
 every
 /
 /
-|
 report_detection_update_period_
-|
 call
 to
 Process
@@ -304,9 +298,7 @@ detection_to_report_
 /
 /
 What
-|
 detection_to_report_
-|
 should
 be
 set
@@ -361,9 +353,7 @@ cost_per_typing_
 /
 Threshold
 for
-|
 penalty_counter_
-|
 .
 int
 reporting_threshold_
@@ -374,9 +364,7 @@ How
 much
 we
 reduce
-|
 penalty_counter_
-|
 every
 10
 ms

@@ -116,13 +116,9 @@ with
 /
 usage
 of
-|
 sampling_rate_hz
-|
 vs
-|
 kSamplingFreqHz
-|
 .
 void
 GetSubframesPitchParameters

@@ -296,9 +296,7 @@ bjornv
 )
 :
 Replace
-|
 far_history
-|
 with
 ring_buffer
 .
@@ -2102,9 +2100,7 @@ next
 entry
 and
 inserts
-|
 far_spectrum
-|
 and
 /
 /

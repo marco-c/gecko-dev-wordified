@@ -1181,16 +1181,12 @@ maxAnalog
 {
 /
 *
-|
 maxLevel
-|
 is
 strictly
 >
 =
-|
 micVol
-|
 so
 this
 condition

@@ -821,9 +821,7 @@ key
 #
 Test
 the
-|
 copy_with_identity
-|
 flag
 .
         
@@ -891,9 +889,7 @@ IdentityTestDataGenerator
             
 #
 Check
-|
 copy_with_identity
-|
 is
 set
 correctly
@@ -971,9 +967,7 @@ if
 and
 only
 if
-|
 copy_with_identity
-|
 is
 True
 .

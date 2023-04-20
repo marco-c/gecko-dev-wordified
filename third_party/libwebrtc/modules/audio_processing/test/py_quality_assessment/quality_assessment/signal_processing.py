@@ -1067,9 +1067,7 @@ row
 (
 according
 to
-|
 threshold
-|
 )
 .
     
@@ -1797,13 +1795,9 @@ NO_PADDING
 "
 "
 Mixes
-|
 signal
-|
 and
-|
 noise
-|
 with
 a
 target
@@ -1811,22 +1805,16 @@ SNR
 .
     
 Mix
-|
 signal
-|
 and
-|
 noise
-|
 with
 a
 desired
 SNR
 by
 scaling
-|
 noise
-|
 .
     
 If
@@ -1849,15 +1837,11 @@ returned
 .
     
 If
-|
 signal
-|
 is
 shorter
 than
-|
 noise
-|
 the
 length
 of
@@ -1867,9 +1851,7 @@ equals
 that
 of
     
-|
 signal
-|
 .
 Otherwise
 the
@@ -1890,9 +1872,7 @@ not
 applied
 that
 is
-|
 pad_noise
-|
 is
 set
 to
@@ -1907,25 +1887,19 @@ length
 equals
 that
 of
-|
 noise
-|
 -
 i
 .
 e
 .
-|
 signal
-|
 is
     
 truncated
 .
 Otherwise
-|
 noise
-|
 is
 extended
 and
@@ -1938,9 +1912,7 @@ same
     
 length
 of
-|
 signal
-|
 .
     
 Args
@@ -2235,20 +2207,14 @@ noise_duration
             
 #
 Ignore
-|
 pad_noise
-|
-|
 noise
-|
 is
 truncated
 if
 longer
 that
-|
 signal
-|
 the
             
 #
@@ -2259,9 +2225,7 @@ the
 same
 length
 of
-|
 signal
-|
 .
             
 return
@@ -2289,31 +2253,23 @@ NO_PADDING
 :
             
 #
-|
 signal
-|
 is
 longer
 than
-|
 noise
-|
 but
 no
 padding
 is
 applied
 to
-|
 noise
-|
 .
             
 #
 Truncate
-|
 signal
-|
 .
             
 return
@@ -2377,19 +2333,13 @@ LOOP
 :
             
 #
-|
 signal
-|
 is
 longer
 than
-|
 noise
-|
 extend
-|
 noise
-|
 by
 looping
 .
