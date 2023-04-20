@@ -2471,6 +2471,12 @@ JSObject
 obj
 )
 ;
+bool
+hasCyclicModuleFields
+(
+)
+const
+;
 CyclicModuleFields
 *
 cyclicModuleFields
