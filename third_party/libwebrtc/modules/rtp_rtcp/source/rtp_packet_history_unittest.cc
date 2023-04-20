@@ -2364,7 +2364,7 @@ kMaxNumPackets
 RtpPacketHistory
 :
 :
-kMaxPaddingtHistory
+kMaxPaddingHistory
 ;
 hist_
 .
