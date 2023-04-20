@@ -259,9 +259,7 @@ public
 :
 /
 /
-|
 init_time_ms
-|
 is
 initialization
 time
@@ -340,9 +338,7 @@ will
 be
 set
 to
-|
 init_time_ms
-|
 first
 and
 can
@@ -351,9 +347,7 @@ changed
 through
 /
 /
-|
 SetTimeConstantMs
-|
 .
 explicit
 SmoothingFilterImpl

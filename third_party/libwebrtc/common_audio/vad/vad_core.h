@@ -232,9 +232,7 @@ bjornv
 :
 Change
 to
-|
 frame_count
-|
 .
 int32_t
 frame_counter
@@ -258,9 +256,7 @@ bjornv
 :
 Change
 to
-|
 age_vector
-|
 .
 int16_t
 index_vector
@@ -287,9 +283,7 @@ bjornv
 :
 Change
 to
-|
 median
-|
 .
 int16_t
 mean_value
@@ -362,9 +356,7 @@ is
 /
 controlled
 by
-|
 kDefaultMode
-|
 in
 vad_core
 .

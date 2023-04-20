@@ -3479,9 +3479,7 @@ the
 input
 data
 has
-|
 kFilterOrder
-|
 states
 before
 the
@@ -3531,9 +3529,7 @@ the
 output
 data
 has
-|
 kFilterOrder
-|
 states
 before
 the
@@ -4630,14 +4626,10 @@ kBlockSize
 All
 values
 in
-|
 out_vector
-|
 should
 be
-|
 kRefValue32kHz
-|
 .
 const
 int32_t
@@ -4659,9 +4651,7 @@ bit
 shift
 with
 saturation
-|
 out_vector_w16
-|
 is
 saturated
 .

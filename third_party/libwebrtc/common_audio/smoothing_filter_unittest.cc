@@ -209,9 +209,7 @@ Advance
 the
 clock
 by
-|
 advance_time_ms
-|
 /
 /
 3
@@ -1037,9 +1035,7 @@ AddSample
 /
 During
 initialization
-|
 SetTimeConstantMs
-|
 does
 not
 take
@@ -1153,9 +1149,7 @@ be
 come
 /
 /
-|
 kInitTimeConstantMs
-|
 .
 EXPECT_FLOAT_EQ
 (
@@ -1184,9 +1178,7 @@ alpha
 /
 After
 initialization
-|
 SetTimeConstantMs
-|
 takes
 effect
 .

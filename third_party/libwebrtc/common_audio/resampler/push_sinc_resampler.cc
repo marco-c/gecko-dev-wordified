@@ -452,9 +452,7 @@ to
 introduce
 an
 entire
-|
 source_frames
-|
 of
 delay
 rather
@@ -505,9 +503,7 @@ request
 for
 /
 /
-|
 source_frames
-|
 .
 if
 (

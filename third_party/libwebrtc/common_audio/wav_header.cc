@@ -929,9 +929,7 @@ ID
 If
 found
 then
-|
 readable
-|
 points
 to
 the

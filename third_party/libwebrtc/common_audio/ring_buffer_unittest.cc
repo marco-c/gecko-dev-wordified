@@ -896,9 +896,7 @@ was
 not
 necessary
 so
-|
 read_data
-|
 has
 not
 been
@@ -957,9 +955,7 @@ forces
 a
 memcpy
 so
-|
 read_data
-|
 is
 now
 updated

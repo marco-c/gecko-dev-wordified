@@ -970,9 +970,7 @@ works
 with
 /
 /
-|
 virtual_source_idx_
-|
 etc
 .
 /
@@ -1085,9 +1083,7 @@ io_ratio
 {
 /
 /
-|
 sinc_scale_factor
-|
 is
 basically
 the
@@ -2105,9 +2101,7 @@ independent
 of
 /
 /
-|
 sinc_scale_factor
-|
 .
 Provides
 a
@@ -2346,9 +2340,7 @@ remaining_frames
 {
 /
 /
-|
 i
-|
 may
 be
 negative
@@ -2367,9 +2359,7 @@ iteration
 /
 that
 put
-|
 virtual_source_idx_
-|
 over
 the
 limit
@@ -2450,9 +2440,7 @@ block_size_
 ;
 /
 /
-|
 virtual_source_idx_
-|
 lies
 in
 between
@@ -2525,9 +2513,7 @@ which
 straddle
 /
 /
-|
 virtual_source_idx_
-|
 .
 const
 float
@@ -2554,12 +2540,8 @@ kKernelSize
 /
 /
 Ensure
-|
 k1
-|
-|
 k2
-|
 are
 32
 -
@@ -2621,9 +2603,7 @@ pointer
 based
 on
 quantized
-|
 virtual_source_idx_
-|
 .
 const
 float

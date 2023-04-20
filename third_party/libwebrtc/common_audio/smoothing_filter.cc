@@ -172,9 +172,7 @@ n
 /
 /
 where
-|
 init_factor_
-|
 is
 chosen
 such
@@ -219,9 +217,7 @@ init_time_ms_
 )
 /
 /
-|
 init_const_
-|
 is
 to
 a
@@ -384,9 +380,7 @@ init_end_time_ms_
 {
 /
 /
-|
 init_end_time_ms_
-|
 undefined
 since
 we
@@ -545,9 +539,7 @@ state
 as
 if
 the
-|
 alpha
-|
 has
 been
 increased
@@ -636,9 +628,7 @@ init_time_ms_
 /
 This
 means
-|
 init_factor_
-|
 =
 0
 .
@@ -662,9 +652,7 @@ init_time_ms_
 /
 This
 means
-|
 init_factor_
-|
 =
 1
 .

@@ -191,9 +191,7 @@ filters
 The
 /
 /
-|
 filter_state
-|
 is
 updated
 after
@@ -221,9 +219,7 @@ signal
 (
 of
 length
-|
 in_length
-|
 /
 2
 )

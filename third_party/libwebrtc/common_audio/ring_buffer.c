@@ -172,9 +172,7 @@ the
 region
 is
 contiguous
-|
 data_ptr_bytes_2
-|
 will
 be
 zero
@@ -185,9 +183,7 @@ If
 non
 -
 contiguous
-|
 data_ptr_bytes_2
-|
 will
 be
 the
@@ -208,9 +204,7 @@ to
 be
 read
 or
-|
 element_count
-|
 whichever
 is
 /
@@ -719,9 +713,7 @@ data
 to
 /
 /
-|
 data
-|
 and
 point
 to
@@ -786,14 +778,10 @@ data_ptr
 {
 /
 /
-|
 buf_ptr_1
-|
 =
 =
-|
 data
-|
 in
 the
 case

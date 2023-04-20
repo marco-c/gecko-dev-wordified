@@ -184,9 +184,7 @@ _mm_setzero_ps
 /
 Based
 on
-|
 input_ptr
-|
 alignment
 we
 need

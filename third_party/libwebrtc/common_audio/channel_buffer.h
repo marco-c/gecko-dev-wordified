@@ -212,9 +212,7 @@ case
 /
 /
 /
-|
 data_
-|
 :
 /
 /
@@ -275,9 +273,7 @@ follows
 /
 /
 /
-|
 channels_
-|
 :
 /
 /
@@ -303,9 +299,7 @@ b2ch2
 /
 /
 /
-|
 bands_
-|
 :
 /
 /
@@ -703,9 +697,7 @@ Where
 =
 band
 <
-|
 num_bands_
-|
 /
 /
 0
@@ -713,9 +705,7 @@ num_bands_
 =
 channel
 <
-|
 num_allocated_channels_
-|
 /
 /
 0
@@ -723,9 +713,7 @@ num_allocated_channels_
 =
 sample
 <
-|
 num_frames_per_band_
-|
 /
 /
 If
@@ -775,9 +763,7 @@ Where
 =
 channel
 <
-|
 num_allocated_channels_
-|
 /
 /
 0
@@ -785,9 +771,7 @@ num_allocated_channels_
 =
 sample
 <
-|
 num_frames_
-|
 const
 T
 *
@@ -960,9 +944,7 @@ Where
 =
 channel
 <
-|
 num_channels_
-|
 /
 /
 0
@@ -970,9 +952,7 @@ num_channels_
 =
 band
 <
-|
 num_bands_
-|
 /
 /
 0
@@ -980,9 +960,7 @@ num_bands_
 =
 sample
 <
-|
 num_frames_per_band_
-|
 const
 T
 *
@@ -1115,15 +1093,11 @@ channel
 /
 Sets
 the
-|
 slice
-|
 pointers
 to
 the
-|
 start_frame
-|
 position
 for
 each
@@ -1132,9 +1106,7 @@ channel
 /
 /
 Returns
-|
 slice
-|
 for
 convenience
 .

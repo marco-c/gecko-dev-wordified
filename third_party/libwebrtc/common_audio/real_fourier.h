@@ -388,9 +388,7 @@ large
 enough
 to
 hold
-|
 count
-|
 /
 /
 floats

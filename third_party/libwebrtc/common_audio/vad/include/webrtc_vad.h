@@ -409,9 +409,7 @@ VAD
 decision
 for
 the
-|
 audio_frame
-|
 .
 For
 valid
@@ -558,13 +556,9 @@ for
 valid
 combinations
 of
-|
 rate
-|
 and
-|
 frame_length
-|
 .
 We
 support

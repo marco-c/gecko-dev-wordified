@@ -170,9 +170,7 @@ _mm256_setzero_ps
 /
 Based
 on
-|
 input_ptr
-|
 alignment
 we
 need

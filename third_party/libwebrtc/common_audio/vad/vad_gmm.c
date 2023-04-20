@@ -144,9 +144,7 @@ distribution
 the
 probability
 of
-|
 input
-|
 is
 calculated
 and
@@ -211,9 +209,7 @@ domains
 /
 m
 =
-|
 mean
-|
 (
 Q7
 )
@@ -221,9 +217,7 @@ Q7
 /
 s
 =
-|
 std
-|
 (
 Q7
 )
@@ -231,9 +225,7 @@ Q7
 /
 x
 =
-|
 input
-|
 (
 Q4
 )
@@ -246,9 +238,7 @@ the
 probability
 we
 output
-|
 delta
-|
 (
 in
 Q11
@@ -292,9 +282,7 @@ tmp32
 /
 /
 Calculate
-|
 inv_std
-|
 =
 1
 /
@@ -311,9 +299,7 @@ in
 Q17
 and
 (
-|
 std
-|
 >
 >
 1
@@ -368,9 +354,7 @@ std
 /
 /
 Calculate
-|
 inv_std2
-|
 =
 1
 /
@@ -507,9 +491,7 @@ model
 .
 /
 /
-|
 delta
-|
 =
 (
 x
@@ -562,9 +544,7 @@ tmp16
 Calculate
 the
 exponent
-|
 tmp32
-|
 =
 (
 x
@@ -642,9 +622,7 @@ we
 calculate
 /
 /
-|
 exp_value
-|
 ~
 =
 exp
@@ -681,9 +659,7 @@ exp
 )
 )
 *
-|
 tmp32
-|
 )
 .
 if
@@ -696,9 +672,7 @@ kCompVar
 /
 /
 Calculate
-|
 tmp16
-|
 =
 log2
 (
@@ -708,9 +682,7 @@ exp
 )
 )
 *
-|
 tmp32
-|
 in
 Q10
 .
@@ -783,16 +755,12 @@ tmp16
 /
 /
 Get
-|
 exp_value
-|
 =
 exp
 (
 -
-|
 tmp32
-|
 )
 in
 Q10

@@ -195,9 +195,7 @@ public
 :
 /
 /
-|
 delay_samples
-|
 can
 be
 used

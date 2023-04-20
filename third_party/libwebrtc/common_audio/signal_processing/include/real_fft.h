@@ -823,9 +823,7 @@ the
 elements
 in
 the
-|
 real_data_out
-|
 /
 /
 should

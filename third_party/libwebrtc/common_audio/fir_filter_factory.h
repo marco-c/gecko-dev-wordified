@@ -142,9 +142,7 @@ greater
 than
 /
 /
-|
 max_input_length
-|
 .
 This
 is

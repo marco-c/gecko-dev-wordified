@@ -122,14 +122,10 @@ h
 /
 /
 Takes
-|
 data_length
-|
 samples
 of
-|
 data_in
-|
 and
 calculates
 the
@@ -143,9 +139,7 @@ of
 each
 of
 the
-|
 kNumChannels
-|
 =
 6
 frequency
@@ -210,9 +204,7 @@ Q4
 and
 written
 to
-|
 features
-|
 .
 Further
 an
@@ -248,9 +240,7 @@ above
 /
 the
 threshold
-|
 kMinEnergy
-|
 .
 /
 /

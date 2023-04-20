@@ -231,9 +231,7 @@ be
 as
 long
 as
-|
 frame_counter
-|
 is
 zero
 /

@@ -114,9 +114,7 @@ of
 the
 input
 value
-|
 value
-|
 .
 The
 precision
@@ -146,9 +144,7 @@ answer
 /
 /
 If
-|
 value
-|
 is
 a
 negative

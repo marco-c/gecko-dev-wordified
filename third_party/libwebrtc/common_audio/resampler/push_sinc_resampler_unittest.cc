@@ -2550,9 +2550,7 @@ cases
 because
 they
 violate
-|
 kHighFrequencyMaxError
-|
 which
 is
 not

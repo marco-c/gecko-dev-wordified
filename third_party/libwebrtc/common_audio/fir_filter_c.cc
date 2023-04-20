@@ -247,16 +247,12 @@ Convolves
 the
 input
 signal
-|
 in
-|
 with
 the
 filter
 kernel
-|
 coefficients_
-|
 /
 /
 taking

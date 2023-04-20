@@ -129,17 +129,13 @@ FIRFilter
 /
 Filters
 the
-|
 in
-|
 data
 supplied
 .
 /
 /
-|
 out
-|
 must
 be
 previously
@@ -151,9 +147,7 @@ be
 at
 least
 of
-|
 length
-|
 .
 virtual
 void
