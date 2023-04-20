@@ -177,10 +177,6 @@ rust
 "
 watchman
 "
-            
-"
-zip
-"
         
 ]
         

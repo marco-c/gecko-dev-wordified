@@ -103,9 +103,6 @@ watchman
 "
 unzip
 "
-"
-zip
-"
 ]
     
 BROWSER_PACKAGES

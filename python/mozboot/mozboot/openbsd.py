@@ -110,9 +110,6 @@ rust
 "
 unzip
 "
-"
-zip
-"
 ]
         
 self

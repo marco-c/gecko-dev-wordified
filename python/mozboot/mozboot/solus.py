@@ -153,9 +153,6 @@ SYSTEM_PACKAGES
 "
 unzip
 "
-"
-zip
-"
 ]
     
 SYSTEM_COMPONENTS
