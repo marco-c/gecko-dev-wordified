@@ -2287,11 +2287,7 @@ codes
 in
 sync
 with
-fitzgen
-/
-source
--
-map
+wasm
 -
 mappings
 .
@@ -3256,9 +3252,11 @@ withMappingCallback
 m
 =
 >
+(
 mapping
 =
 m
+)
 (
 )
 =
@@ -3470,6 +3468,7 @@ false
 ;
 }
 return
+(
 this
 .
 sourcesContent
@@ -3505,6 +3504,7 @@ sc
 null
 ;
 }
+)
 )
 ;
 }
@@ -4051,9 +4051,11 @@ withMappingCallback
 m
 =
 >
+(
 mapping
 =
 m
+)
 (
 )
 =

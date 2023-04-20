@@ -133,11 +133,13 @@ mappingB
 generatedColumn
 ;
 return
+(
 lineB
 >
 lineA
 |
 |
+(
 lineB
 =
 =
@@ -148,6 +150,7 @@ columnB
 >
 =
 columnA
+)
 |
 |
 util
@@ -160,6 +163,7 @@ mappingB
 <
 =
 0
+)
 ;
 }
 /

@@ -464,7 +464,6 @@ if
 sourceRoot
 !
 =
-=
 null
 )
 {
@@ -813,9 +812,6 @@ column
 originalLine
 :
 original
-!
-=
-null
 &
 &
 original
@@ -824,9 +820,6 @@ line
 originalColumn
 :
 original
-!
-=
-null
 &
 &
 original
