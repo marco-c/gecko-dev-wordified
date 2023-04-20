@@ -1349,6 +1349,11 @@ return
 uint32_t
 tsn_diff
 =
+UnwrappedTSN
+:
+:
+Difference
+(
 chunks
 .
 rbegin
@@ -1357,9 +1362,6 @@ rbegin
 -
 >
 first
-.
-Difference
-(
 chunks
 .
 begin
