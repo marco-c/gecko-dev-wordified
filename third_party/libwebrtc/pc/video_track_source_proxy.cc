@@ -164,7 +164,16 @@ Create
 (
 signaling_thread
 worker_thread
+rtc
+:
+:
+scoped_refptr
+<
+VideoTrackSourceInterface
+>
+(
 source
+)
 )
 ;
 }
