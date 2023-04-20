@@ -1639,6 +1639,14 @@ Element
 &
 )
 ;
+static
+double
+DateNow
+(
+GlobalObject
+&
+)
+;
 }
 ;
 }
