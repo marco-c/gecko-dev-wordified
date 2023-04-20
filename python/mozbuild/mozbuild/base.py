@@ -1334,11 +1334,13 @@ topobjdir
 self
 .
 mozconfig
-[
+.
+get
+(
 "
 topobjdir
 "
-]
+)
 or
 default
         
