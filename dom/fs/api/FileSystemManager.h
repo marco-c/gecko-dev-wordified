@@ -479,16 +479,6 @@ ErrorResult
 aError
 )
 ;
-static
-FileSystemManager
-*
-GetManagerForGlobal
-(
-nsIGlobalObject
-*
-aGlobal
-)
-;
 private
 :
 virtual
