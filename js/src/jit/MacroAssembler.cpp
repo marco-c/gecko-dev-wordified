@@ -27331,8 +27331,8 @@ const
 wasm
 :
 :
-TypeIdDesc
-funcTypeId
+CallIndirectId
+callIndirectId
 =
 callee
 .
@@ -27342,7 +27342,7 @@ wasmTableSigId
 ;
 switch
 (
-funcTypeId
+callIndirectId
 .
 kind
 (
@@ -27353,14 +27353,14 @@ case
 wasm
 :
 :
-TypeIdDescKind
+CallIndirectIdKind
 :
 :
 Global
 :
 loadWasmGlobalPtr
 (
-funcTypeId
+callIndirectId
 .
 globalDataOffset
 (
@@ -27374,7 +27374,7 @@ case
 wasm
 :
 :
-TypeIdDescKind
+CallIndirectIdKind
 :
 :
 Immediate
@@ -27383,7 +27383,7 @@ move32
 (
 Imm32
 (
-funcTypeId
+callIndirectId
 .
 immediate
 (
@@ -27398,7 +27398,7 @@ case
 wasm
 :
 :
-TypeIdDescKind
+CallIndirectIdKind
 :
 :
 None

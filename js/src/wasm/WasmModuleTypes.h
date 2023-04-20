@@ -354,9 +354,6 @@ Span
 class
 FuncType
 ;
-class
-TypeIdDesc
-;
 /
 /
 A
@@ -1300,10 +1297,6 @@ FuncType
 *
 type
 ;
-TypeIdDesc
-*
-typeId
-;
 /
 /
 Bit
@@ -1378,9 +1371,6 @@ FuncDesc
 FuncType
 *
 type
-TypeIdDesc
-*
-typeId
 uint32_t
 typeIndex
 )
@@ -1388,10 +1378,6 @@ typeIndex
 type
 (
 type
-)
-typeId
-(
-typeId
 )
 typeIndex
 (

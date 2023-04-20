@@ -735,15 +735,6 @@ TypeCode
 :
 Ref
 ;
-enum
-class
-TypeIdDescKind
-{
-None
-Immediate
-Global
-}
-;
 /
 /
 A

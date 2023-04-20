@@ -4498,13 +4498,6 @@ types
 mallocSizeOf
 )
 +
-typeIds
-.
-sizeOfExcludingThis
-(
-mallocSizeOf
-)
-+
 globals
 .
 sizeOfExcludingThis
