@@ -753,6 +753,11 @@ i
 ]
 )
 ;
+unsigned
+parent_index
+=
+this_index
+;
 if
 (
 is_ext
@@ -762,6 +767,10 @@ unsigned
 ext_subtable_index
 =
 subtable_index
+;
+parent_index
+=
+ext_subtable_index
 ;
 ExtensionFormat1
 <
@@ -920,6 +929,7 @@ PairPos
 >
 (
 c
+parent_index
 subtable_index
 )
 ;
@@ -936,6 +946,7 @@ MarkBasePos
 >
 (
 c
+parent_index
 subtable_index
 )
 ;
@@ -1035,6 +1046,8 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
+parent_idx
+unsigned
 objidx
 )
 {
@@ -1094,6 +1107,7 @@ sub_table
 split_subtables
 (
 c
+parent_idx
 objidx
 )
 ;

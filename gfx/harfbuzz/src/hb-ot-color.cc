@@ -1744,8 +1744,8 @@ sized
 PNG
 blob
 the
-UPEM
-value
+PPEM
+values
 must
 be
 set
@@ -1756,7 +1756,7 @@ font
 object
 .
 If
-UPEM
+PPEM
 is
 unset
 the

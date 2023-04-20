@@ -528,6 +528,7 @@ operator
 bool
 (
 )
+const
 {
 return
 p
@@ -543,6 +544,7 @@ shared_ptr
 &
 o
 )
+const
 {
 return
 p
@@ -563,6 +565,7 @@ shared_ptr
 &
 o
 )
+const
 {
 return
 p
