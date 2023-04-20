@@ -54,7 +54,13 @@ MPL
 /
 .
 import
+argparse
+import
 atexit
+import
+json
+import
+logging
 import
 os
 import
@@ -69,12 +75,6 @@ import
 tempfile
 import
 traceback
-import
-argparse
-import
-logging
-import
-json
 from
 collections
 import
@@ -246,6 +246,9 @@ n
 join
 (
         
+sorted
+(
+            
 taskgraph
 .
 tasks
@@ -263,6 +266,8 @@ graph
 .
 visit_postorder
 (
+)
+        
 )
     
 )
@@ -3615,8 +3620,8 @@ gecko_taskgraph
 .
 docker
 import
-build_image
 build_context
+build_image
     
 if
 args
@@ -5055,14 +5060,14 @@ options
 :
     
 import
-taskgraph
-.
-parameters
-    
-import
 gecko_taskgraph
 .
 actions
+    
+import
+taskgraph
+.
+parameters
     
 from
 taskgraph
