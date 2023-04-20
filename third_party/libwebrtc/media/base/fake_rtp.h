@@ -1040,6 +1040,7 @@ char
 packet2
 size_t
 packet2_size
+const
 std
 :
 :
@@ -1047,6 +1048,7 @@ vector
 <
 int
 >
+&
 encrypted_headers
 bool
 expect_equal

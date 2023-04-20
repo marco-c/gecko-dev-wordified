@@ -363,6 +363,7 @@ std
 :
 :
 string
+&
 sender_id
 uint32_t
 ssrc
@@ -1395,10 +1396,12 @@ std
 string
 &
 stream_id
+const
 std
 :
 :
 string
+&
 sender_id
 )
 const
