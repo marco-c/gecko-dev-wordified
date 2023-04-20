@@ -31,6 +31,18 @@ META
 script
 =
 /
+common
+/
+gc
+.
+js
+/
+/
+META
+:
+script
+=
+/
 bluetooth
 /
 resources
@@ -139,7 +151,7 @@ all
 (
 [
 connectPromise
-runGarbageCollection
+garbageCollect
 (
 )
 ]

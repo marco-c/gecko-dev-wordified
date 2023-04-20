@@ -31,6 +31,18 @@ META
 script
 =
 /
+common
+/
+gc
+.
+js
+/
+/
+META
+:
+script
+=
+/
 bluetooth
 /
 resources
@@ -248,7 +260,7 @@ Connected
 '
 )
 ;
-runGarbageCollection
+garbageCollect
 (
 )
 .

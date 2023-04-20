@@ -31,6 +31,18 @@ META
 script
 =
 /
+common
+/
+gc
+.
+js
+/
+/
+META
+:
+script
+=
+/
 bluetooth
 /
 resources
@@ -135,7 +147,7 @@ fake_peripheral
 undefined
 ;
 await
-runGarbageCollection
+garbageCollect
 (
 )
 ;

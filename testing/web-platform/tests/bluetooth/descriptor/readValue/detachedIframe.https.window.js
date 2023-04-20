@@ -31,6 +31,18 @@ META
 script
 =
 /
+common
+/
+gc
+.
+js
+/
+/
+META
+:
+script
+=
+/
 bluetooth
 /
 resources
@@ -177,7 +189,7 @@ iframe
 null
 ;
 await
-runGarbageCollection
+garbageCollect
 (
 )
 ;
