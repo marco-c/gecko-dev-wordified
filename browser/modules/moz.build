@@ -659,11 +659,11 @@ BUG_COMPONENT
 =
 (
 "
-Firefox
+Toolkit
 "
 "
-Settings
-UI
+Data
+Sanitization
 "
 )
 with
