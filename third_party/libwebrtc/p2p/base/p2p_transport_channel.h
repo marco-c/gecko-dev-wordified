@@ -1851,6 +1851,7 @@ connection
 bool
 ReadyToSend
 (
+const
 Connection
 *
 connection
@@ -1923,6 +1924,18 @@ SortConnections
 void
 SortConnectionsIfNeeded
 (
+)
+;
+rtc
+:
+:
+NetworkRoute
+ConfigureNetworkRoute
+(
+const
+Connection
+*
+conn
 )
 ;
 void
