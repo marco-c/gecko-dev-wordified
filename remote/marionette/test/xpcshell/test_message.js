@@ -63,7 +63,7 @@ error
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -80,7 +80,9 @@ webdriver
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

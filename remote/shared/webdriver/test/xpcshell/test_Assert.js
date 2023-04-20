@@ -85,7 +85,7 @@ assert
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -102,7 +102,9 @@ webdriver
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -113,7 +115,7 @@ error
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -130,7 +132,9 @@ webdriver
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

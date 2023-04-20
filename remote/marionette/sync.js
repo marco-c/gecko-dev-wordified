@@ -150,9 +150,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -173,7 +173,9 @@ webdriver
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 "
 Log
 :
@@ -190,7 +192,9 @@ shared
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

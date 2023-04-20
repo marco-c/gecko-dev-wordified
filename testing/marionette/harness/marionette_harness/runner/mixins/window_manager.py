@@ -693,7 +693,7 @@ windowManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
                     
 "
@@ -709,7 +709,9 @@ shared
 /
 WindowManager
 .
-jsm
+sys
+.
+mjs
 "
                   
 )

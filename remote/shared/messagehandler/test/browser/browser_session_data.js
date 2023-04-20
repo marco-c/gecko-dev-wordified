@@ -40,7 +40,7 @@ MessageHandlerRegistry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -57,7 +57,9 @@ messagehandler
 /
 MessageHandlerRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -68,7 +70,7 @@ RootMessageHandler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -85,7 +87,9 @@ messagehandler
 /
 RootMessageHandler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -96,7 +100,7 @@ SessionData
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -115,7 +119,9 @@ sessiondata
 /
 SessionData
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1311,7 +1317,7 @@ readSessionData
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -1330,7 +1336,9 @@ sessiondata
 /
 SessionDataReader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -88,7 +88,7 @@ waitForInitialNavigationCompleted
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -103,7 +103,9 @@ shared
 /
 Navigate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

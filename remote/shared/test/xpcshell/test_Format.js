@@ -41,7 +41,7 @@ pprint
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -56,7 +56,9 @@ shared
 /
 Format
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

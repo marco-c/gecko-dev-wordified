@@ -40,7 +40,7 @@ WebDriverSession
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -57,7 +57,9 @@ webdriver
 /
 Session
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -68,7 +70,7 @@ error
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -85,7 +87,9 @@ webdriver
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

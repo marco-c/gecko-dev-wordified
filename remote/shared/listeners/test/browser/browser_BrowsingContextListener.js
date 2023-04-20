@@ -63,7 +63,7 @@ BrowsingContextListener
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -80,7 +80,9 @@ listeners
 /
 BrowsingContextListener
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -40,7 +40,7 @@ WindowGlobalMessageHandler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -57,7 +57,9 @@ messagehandler
 /
 WindowGlobalMessageHandler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -114,7 +114,7 @@ PollPromise
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -129,7 +129,9 @@ shared
 /
 Sync
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

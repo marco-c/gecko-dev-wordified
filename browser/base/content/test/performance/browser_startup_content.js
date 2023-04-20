@@ -701,7 +701,9 @@ shared
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

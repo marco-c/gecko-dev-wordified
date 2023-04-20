@@ -784,7 +784,7 @@ ConsoleListener
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -801,7 +801,9 @@ listeners
 /
 ConsoleListener
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -102,9 +102,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -123,7 +123,9 @@ shared
 /
 AppInfo
 .
-jsm
+sys
+.
+mjs
 "
 Log
 :
@@ -140,7 +142,9 @@ shared
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
