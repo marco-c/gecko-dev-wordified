@@ -19,7 +19,9 @@ script
 /
 resources
 /
-testharnessreport
+testdriver
+-
+vendor
 .
 js
 '
