@@ -176,7 +176,9 @@ from
 /
 BrowserTestUtils
 .
-jsm
+sys
+.
+mjs
 .
 Moreover
 we
