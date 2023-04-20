@@ -2616,6 +2616,10 @@ renderConfiguration
 (
 configuration
 )
+renderRTPStats
+(
+report
+)
 renderICEStats
 (
 report
@@ -2629,10 +2633,6 @@ renderBandwidthStats
 report
 )
 renderFrameRateStats
-(
-report
-)
-renderRTPStats
 (
 report
 )
