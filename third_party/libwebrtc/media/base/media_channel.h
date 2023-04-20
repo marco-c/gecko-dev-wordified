@@ -2206,9 +2206,7 @@ at
 any
 time
 via
-|
 SetPreferredDscp
-|
 .
 rtc
 :
@@ -5134,9 +5132,7 @@ from
 payload
 type
 to
-|
 RtpCodecParameters
-|
 .
 typedef
 std
@@ -5994,9 +5990,7 @@ incoming
 stream
 identified
 by
-|
 ssrc
-|
 .
 virtual
 webrtc
@@ -6186,9 +6180,7 @@ CanInsertDtmf
 Send
 a
 DTMF
-|
 event
-|
 .
 The
 DTMF
@@ -6205,9 +6197,7 @@ used
 /
 /
 The
-|
 ssrc
-|
 should
 be
 either
@@ -6226,9 +6216,7 @@ valid
 value
 for
 the
-|
 event
-|
 are
 0
 to
@@ -6632,9 +6620,7 @@ incoming
 stream
 identified
 by
-|
 ssrc
-|
 .
 virtual
 webrtc
@@ -6751,9 +6737,7 @@ source
 /
 /
 The
-|
 ssrc
-|
 must
 correspond
 to
@@ -7008,9 +6992,7 @@ encoded
 frame
 callback
 for
-|
 ssrc
-|
 virtual
 void
 SetRecordableEncodedFrameCallback
@@ -7045,9 +7027,7 @@ encoded
 frame
 callback
 for
-|
 ssrc
-|
 virtual
 void
 ClearRecordableEncodedFrameCallback
@@ -7066,9 +7046,7 @@ of
 a
 keyframe
 for
-|
 ssrc
-|
 virtual
 void
 GenerateKeyFrame

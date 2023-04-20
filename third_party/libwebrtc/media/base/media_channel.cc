@@ -704,9 +704,7 @@ at
 any
 time
 via
-|
 SetPreferredDscp
-|
 .
 rtc
 :

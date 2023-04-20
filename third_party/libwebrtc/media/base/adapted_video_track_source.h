@@ -300,9 +300,7 @@ derived
 classes
 to
 initialize
-|
 video_adapter_
-|
 with
 a
 custom

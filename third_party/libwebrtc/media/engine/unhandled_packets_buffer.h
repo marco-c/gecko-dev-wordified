@@ -184,13 +184,9 @@ Feed
 all
 packets
 with
-|
 ssrcs
-|
 into
-|
 consumer
-|
 .
 void
 BackfillPackets

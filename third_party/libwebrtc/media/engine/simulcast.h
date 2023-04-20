@@ -148,9 +148,7 @@ maximum
 bitrate
 for
 the
-|
 streams
-|
 .
 webrtc
 :
@@ -179,9 +177,7 @@ Adds
 any
 bitrate
 of
-|
 max_bitrate
-|
 that
 is
 above
@@ -193,9 +189,7 @@ for
 /
 /
 the
-|
 layers
-|
 to
 the
 highest

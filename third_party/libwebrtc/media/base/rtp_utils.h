@@ -333,9 +333,7 @@ payload_type
 /
 True
 if
-|
 size
-|
 is
 appropriate
 for
@@ -368,9 +366,7 @@ Unknown
 "
 according
 to
-|
 packet_type
-|
 .
 absl
 :
@@ -441,9 +437,7 @@ time_us
 /
 Applies
 specified
-|
 options
-|
 to
 the
 packet

@@ -681,9 +681,7 @@ send_time
 /
 /
 Assumes
-|
 length
-|
 is
 actual
 packet
@@ -3499,13 +3497,9 @@ there
 is
 no
 valid
-|
 rtp_sendtime_extension_id
-|
 and
-|
 srtp_auth_key
-|
 in
 /
 /

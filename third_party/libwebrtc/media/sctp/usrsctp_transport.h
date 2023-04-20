@@ -536,9 +536,7 @@ public
 :
 /
 /
-|
 network_thread
-|
 is
 where
 packets
@@ -572,9 +570,7 @@ called
 .
 /
 /
-|
 transport
-|
 is
 not
 required
@@ -1217,9 +1213,7 @@ Tries
 to
 send
 the
-|
 payload
-|
 on
 the
 usrsctp
@@ -1324,9 +1318,7 @@ port
 /
 Called
 using
-|
 invoker_
-|
 to
 send
 packet
@@ -1387,9 +1379,7 @@ flags
 /
 Called
 using
-|
 invoker_
-|
 to
 decide
 what
@@ -1419,9 +1409,7 @@ buffer
 /
 Called
 using
-|
 invoker_
-|
 to
 decide
 what
@@ -1706,9 +1694,7 @@ control
 ?
 Different
 than
-|
 transport_
-|
 '
 s
 "
@@ -2050,9 +2036,7 @@ from
 this
 map
 if
-|
 reset_complete
-|
 is
 /
 /

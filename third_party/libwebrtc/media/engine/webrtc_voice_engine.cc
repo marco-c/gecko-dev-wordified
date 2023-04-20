@@ -1243,9 +1243,7 @@ b
 }
 /
 /
-|
 max_send_bitrate_bps
-|
 is
 the
 bitrate
@@ -1259,9 +1257,7 @@ SDP
 .
 /
 /
-|
 rtp_max_bitrate_bps
-|
 is
 the
 bitrate
@@ -1370,9 +1366,7 @@ multi
 -
 rate
 and
-|
 bps
-|
 is
 less
 than
@@ -1392,9 +1386,7 @@ multi
 -
 rate
 and
-|
 bps
-|
 exceeds
 or
 equal
@@ -6643,9 +6635,7 @@ dcheck
 that
 /
 /
-|
 absolute_capture_timestamp_ms
-|
 always
 receives
 a
@@ -6686,9 +6676,7 @@ audio_frame
 Callback
 from
 the
-|
 source_
-|
 when
 it
 is
@@ -6729,9 +6717,7 @@ worker_thread_checker_
 /
 /
 Set
-|
 source_
-|
 to
 nullptr
 to
@@ -9878,9 +9864,7 @@ only
 calls
 /
 /
-|
 SetSendCodec
-|
 while
 |
 WebRtcAudioSendStream
@@ -9893,9 +9877,7 @@ SetRtpParameters
 calls
 /
 /
-|
 SetSendCodecs
-|
 .
 The
 outcome
@@ -13479,9 +13461,7 @@ since
 RemoveRecvStream
 will
 modify
-|
 unsignaled_recv_ssrcs_
-|
 .
 std
 :

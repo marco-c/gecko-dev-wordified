@@ -236,17 +236,13 @@ kMaxStashedPackets
 /
 /
 Backfill
-|
 consumer
-|
 with
 all
 stored
 packet
 related
-|
 ssrcs
-|
 .
 void
 UnhandledPacketsBuffer

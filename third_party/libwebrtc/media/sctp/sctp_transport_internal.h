@@ -696,13 +696,9 @@ changed
 /
 /
 /
-|
 local_sctp_port
-|
 and
-|
 remote_sctp_port
-|
 are
 passed
 along
@@ -750,9 +746,7 @@ kSctpDefaultPort
 .
 /
 /
-|
 max_message_size_
-|
 sets
 the
 max
@@ -891,9 +885,7 @@ removed
 Informs
 SctpTransport
 that
-|
 sid
-|
 will
 start
 being
@@ -909,9 +901,7 @@ is
 impossible
 to
 use
-|
 sid
-|
 or
 if
 it
@@ -932,9 +922,7 @@ t
 send
 data
 using
-|
 sid
-|
 .
 /
 /
@@ -950,9 +938,7 @@ the
 returns
 false
 if
-|
 sid
-|
 can
 '
 t

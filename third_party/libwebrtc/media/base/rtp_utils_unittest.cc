@@ -518,9 +518,7 @@ in
 message
 /
 /
-|
 kRtpMsgWithOneByteAbsSendTimeExtension
-|
 .
 static
 const
@@ -534,9 +532,7 @@ kAstIndexInOneByteRtpMsg
 and
 in
 message
-|
 kRtpMsgWithTwoByteAbsSendTimeExtension
-|
 .
 static
 const

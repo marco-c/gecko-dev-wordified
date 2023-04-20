@@ -2969,9 +2969,7 @@ correctly
 .
 /
 /
-|
 codec
-|
 is
 the
 codec
@@ -2980,9 +2978,7 @@ test
 .
 /
 /
-|
 max_bitrate
-|
 is
 a
 parameter
@@ -2995,9 +2991,7 @@ SetMaxSendBandwidth
 .
 /
 /
-|
 expected_result
-|
 is
 the
 expected
@@ -3009,9 +3003,7 @@ SetMaxSendBandwidth
 .
 /
 /
-|
 expected_bitrate
-|
 is
 the
 expected
@@ -11385,9 +11377,7 @@ kPcmuFrame
 /
 /
 The
-|
 ssrc
-|
 member
 should
 still
@@ -28183,9 +28173,7 @@ an
 recv
 stream
 with
-|
 kSsrcX
-|
 .
 SetupRecvStream
 (
@@ -28215,9 +28203,7 @@ channel_
 Call
 GetSources
 with
-|
 kSsrcY
-|
 which
 doesn
 '

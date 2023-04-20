@@ -388,9 +388,7 @@ not
 have
 a
 value
-|
 kParamValueEmpty
-|
 should
 be
 used

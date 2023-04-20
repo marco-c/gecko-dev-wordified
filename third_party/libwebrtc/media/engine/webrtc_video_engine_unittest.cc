@@ -1091,9 +1091,7 @@ if
 any
 codec
 in
-|
 codecs
-|
 is
 an
 RTX
@@ -1104,9 +1102,7 @@ payload
 /
 /
 type
-|
 payload_type
-|
 .
 bool
 HasRtxCodec
@@ -8193,9 +8189,7 @@ an
 recv
 stream
 with
-|
 kSsrc
-|
 .
 AddSupportedVideoCodecType
 (
@@ -8403,9 +8397,7 @@ EmptyFactories
 {
 /
 /
-|
 engine
-|
 take
 ownership
 of
@@ -8633,9 +8625,7 @@ Vp8
 {
 /
 /
-|
 engine
-|
 take
 ownership
 of
@@ -9116,9 +9106,7 @@ Mock
 encoder
 creation
 .
-|
 engine
-|
 take
 ownership
 of
@@ -9219,9 +9207,7 @@ Mock
 decoder
 creation
 .
-|
 engine
-|
 take
 ownership
 of
@@ -9716,9 +9702,7 @@ NullDecoder
 {
 /
 /
-|
 engine
-|
 take
 ownership
 of
@@ -10589,9 +10573,7 @@ change
 /
 a
 non
-|
 is_screencast
-|
 option
 just
 to
@@ -28581,9 +28563,7 @@ num_encoder_reconfigurations
 /
 /
 Change
-|
 options
-|
 and
 expect
 2
@@ -34626,9 +34606,7 @@ EXPECT
 when
 we
 set
-|
 transport_cc
-|
 in
 a
 /
@@ -60720,9 +60698,7 @@ true
 /
 /
 Set
-|
 scale_resolution_down_by
-|
 '
 s
 .
@@ -62134,9 +62110,7 @@ true
 /
 /
 Set
-|
 scale_resolution_down_by
-|
 '
 s
 .
@@ -64230,9 +64204,7 @@ case
 /
 The
 maximum
-|
 max_framerate
-|
 is
 used
 kDefaultVideoMaxFramerate
@@ -71301,9 +71273,7 @@ packet_time_us
 /
 /
 The
-|
 ssrc
-|
 member
 should
 still

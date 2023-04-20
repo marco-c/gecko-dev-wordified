@@ -345,9 +345,7 @@ format
 ;
 /
 /
-|
 primary_factory
-|
 produces
 the
 first
@@ -359,9 +357,7 @@ use
 .
 /
 /
-|
 fallback_factory
-|
 if
 non
 -
@@ -976,9 +972,7 @@ encoders
 from
 /
 /
-|
 cached_encoder_contexts_
-|
 .
 It
 '
@@ -1167,9 +1161,7 @@ destructor
 /
 Marked
 as
-|
 mutable
-|
 becuase
 we
 may

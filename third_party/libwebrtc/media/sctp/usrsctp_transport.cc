@@ -2258,9 +2258,7 @@ id
 /
 /
 Posts
-|
 action
-|
 to
 the
 network
@@ -2270,9 +2268,7 @@ the
 transport
 identified
 by
-|
 id
-|
 /
 /
 and

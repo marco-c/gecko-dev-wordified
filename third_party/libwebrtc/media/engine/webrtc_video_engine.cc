@@ -3318,9 +3318,7 @@ media_ssrc
 We
 only
 merge
-|
 rtp_stats
-|
 .
 All
 other
@@ -10905,9 +10903,7 @@ spec
 compliant
 and
 set
-|
 transport_cc
-|
 here
 /
 /
@@ -11124,9 +11120,7 @@ in
 the
 case
 that
-|
 this
-|
 has
 created
 a
@@ -15382,9 +15376,7 @@ text
 .
 /
 /
-|
 this
-|
 acts
 like
 a
@@ -15987,9 +15979,7 @@ thread_checker_
 ;
 /
 /
-|
 recreate_stream
-|
 means
 construction
 -
@@ -18170,9 +18160,7 @@ webrtc
 :
 :
 VideoSendStream
-|
 stream_
-|
 has
 not
 yet
@@ -18676,9 +18664,7 @@ the
 remaining
 metrics
 from
-|
 stats
-|
 .
 /
 /
@@ -18688,9 +18674,7 @@ values
 are
 obtained
 from
-|
 sub_stream
-|
 below
 .
 if
@@ -21313,9 +21297,7 @@ spec
 compliant
 and
 set
-|
 transport_cc
-|
 here
 /
 /
@@ -23245,9 +23227,7 @@ payload_codec_type
 ;
 /
 /
-|
 rtx_mapping
-|
 maps
 video
 payload

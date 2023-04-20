@@ -1777,9 +1777,7 @@ put
 it
 on
 the
-|
 cached_encoder_contexts_
-|
 /
 /
 where
@@ -2587,9 +2585,7 @@ stream
 index
 .
 Set
-|
 parent
-|
 to
 nullptr
 for
@@ -4482,9 +4478,7 @@ prefer_temporal_support_on_base_layer_
 /
 Toggling
 of
-|
 prefer_temporal_support
-|
 requires
 encoder
 recreation
@@ -4497,9 +4491,7 @@ reuse
 encoder
 with
 desired
-|
 prefer_temporal_support
-|
 .
 Otherwise
 if
@@ -4954,9 +4946,7 @@ CIF
 set
 the
 codec
-|
 complexity
-|
 parameter
 to
 /

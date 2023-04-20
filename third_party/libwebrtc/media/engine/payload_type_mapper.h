@@ -171,9 +171,7 @@ current
 payload
 type
 for
-|
 format
-|
 or
 assigns
 a
@@ -243,9 +241,7 @@ current
 payload
 type
 for
-|
 format
-|
 if
 any
 .

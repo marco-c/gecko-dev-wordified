@@ -2404,13 +2404,9 @@ integer
 that
 divides
 both
-|
 a
-|
 and
-|
 b
-|
 .
 int
 GreatestCommonDivisor
@@ -2433,13 +2429,9 @@ is
 divisible
 by
 both
-|
 a
-|
 and
-|
 b
-|
 .
 int
 LeastCommonMultiple

@@ -509,9 +509,7 @@ for
 /
 resolutions
 at
-|
 widthxheight
-|
 for
 legacy
 applications
@@ -528,9 +526,7 @@ for
 encoding
 stream
 at
-|
 widthxheight
-|
 when
 we
 are
@@ -559,9 +555,7 @@ for
 encoding
 stream
 at
-|
 widthxheight
-|
 when
 this
 layer
@@ -605,9 +599,7 @@ for
 encoding
 stream
 at
-|
 widthxheight
-|
 .
 webrtc
 :
@@ -1595,9 +1587,7 @@ Use
 upper
 resolution
 if
-|
 rate
-|
 is
 below
 the
@@ -2101,9 +2091,7 @@ less
 /
 than
 configured
-|
 max_ratio
-|
 .
 pixels_down
 is
@@ -2491,9 +2479,7 @@ from
 highest
 resolution
 (
-|
 s
-|
 =
 num_simulcast_layers
 /
@@ -2505,9 +2491,7 @@ to
 lowest
 resolution
 at
-|
 s
-|
 =
 0
 .

@@ -235,9 +235,7 @@ sink
 {
 /
 /
-|
 Sink
-|
 is
 a
 new

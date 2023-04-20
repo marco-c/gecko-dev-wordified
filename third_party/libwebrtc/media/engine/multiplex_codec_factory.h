@@ -417,9 +417,7 @@ public
 :
 /
 /
-|
 supports_augmenting_data
-|
 defines
 if
 the
@@ -520,9 +518,7 @@ public
 :
 /
 /
-|
 supports_augmenting_data
-|
 defines
 if
 the
