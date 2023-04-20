@@ -8028,6 +8028,11 @@ UpdateStats
 level
 )
 ;
+RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
+(
+4
+)
+;
 /
 /
 The

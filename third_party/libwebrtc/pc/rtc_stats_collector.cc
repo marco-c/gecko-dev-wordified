@@ -6635,7 +6635,7 @@ sender_info
 }
 else
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -6892,7 +6892,7 @@ sender_info
 }
 else
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
