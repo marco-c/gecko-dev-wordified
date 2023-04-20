@@ -386,7 +386,8 @@ form
 and
 resend
 .
-getContextMenuItem
+await
+selectContextMenuItem
 (
 monitor
 "
@@ -396,12 +397,10 @@ list
 -
 context
 -
+edit
+-
 resend
 "
-)
-.
-click
-(
 )
 ;
 await
