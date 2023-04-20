@@ -846,7 +846,7 @@ swap_chain_size
 :
 DESIRED_FRAMES
 .
-max
+clamp
 (
 *
 surface_caps
@@ -856,10 +856,6 @@ swap_chain_sizes
 start
 (
 )
-)
-.
-min
-(
 *
 surface_caps
 .

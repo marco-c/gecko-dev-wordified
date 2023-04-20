@@ -882,8 +882,6 @@ glow
 :
 FLOAT
 )
-/
-/
 Tf
 :
 :
@@ -894,7 +892,7 @@ Stencil8
 glow
 :
 :
-R8UI
+STENCIL_INDEX8
 glow
 :
 :
