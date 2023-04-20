@@ -1318,7 +1318,7 @@ true
 id
 :
 "
-AdvertisingDotCom
+AdvertisingCom
 "
 platform
 :
@@ -1508,7 +1508,7 @@ firefox
 .
 etp
 /
-adsafeprotected_pixel
+advertisingdotcom_pixel
 "
 ]
 target
