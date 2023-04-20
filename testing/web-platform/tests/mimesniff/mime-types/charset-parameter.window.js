@@ -1,3 +1,10 @@
+/
+/
+META
+:
+timeout
+=
+long
 promise_test
 (
 (
