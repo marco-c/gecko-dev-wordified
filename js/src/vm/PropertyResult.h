@@ -486,7 +486,7 @@ prop
 ;
 }
 void
-setTypedObjectProperty
+setWasmGcProperty
 (
 )
 {

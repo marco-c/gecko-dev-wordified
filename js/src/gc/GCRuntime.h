@@ -5729,17 +5729,6 @@ sliceBudget
 )
 ;
 void
-updateRttValueObjects
-(
-MovingTracer
-*
-trc
-Zone
-*
-zone
-)
-;
-void
 updateCellPointers
 (
 Zone
