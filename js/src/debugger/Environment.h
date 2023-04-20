@@ -512,6 +512,12 @@ HandleValue
 value
 )
 ;
+bool
+isInstance
+(
+)
+const
+;
 Debugger
 *
 owner

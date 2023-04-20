@@ -1829,6 +1829,12 @@ hasAnyHooks
 )
 const
 ;
+bool
+isInstance
+(
+)
+const
+;
 Debugger
 *
 owner
