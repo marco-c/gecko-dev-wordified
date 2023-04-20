@@ -10331,6 +10331,9 @@ UserData
 if
 (
 acc
+&
+&
+acc
 -
 >
 IsInDocument
