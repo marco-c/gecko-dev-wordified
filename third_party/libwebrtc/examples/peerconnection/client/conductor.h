@@ -262,8 +262,6 @@ ReinitializePeerConnectionForLoopback
 bool
 CreatePeerConnection
 (
-bool
-dtls
 )
 ;
 void
