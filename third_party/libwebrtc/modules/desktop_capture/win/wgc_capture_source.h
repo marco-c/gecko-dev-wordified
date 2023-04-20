@@ -217,6 +217,12 @@ IsCapturable
 (
 )
 ;
+virtual
+bool
+FocusOnSource
+(
+)
+;
 HRESULT
 GetCaptureItem
 (
@@ -537,6 +543,12 @@ override
 ;
 bool
 IsCapturable
+(
+)
+override
+;
+bool
+FocusOnSource
 (
 )
 override
