@@ -479,6 +479,7 @@ OpaqueResponse
 {
 Block
 Alllow
+SniffCompressed
 Sniff
 }
 ;
@@ -3728,9 +3729,6 @@ const
 OpaqueResponse
 PerformOpaqueResponseSafelistCheckBeforeSniff
 (
-bool
-&
-aCompressedMediaAndImageDetectorStarted
 )
 ;
 OpaqueResponse
