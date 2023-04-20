@@ -160,8 +160,29 @@ import
 tempfile
 import
 traceback
-import
+try
+:
+  
+from
 urllib2
+import
+urlopen
+#
+for
+Python2
+except
+ImportError
+:
+  
+from
+urllib
+.
+request
+import
+urlopen
+#
+for
+Python3
 from
 collections
 import
@@ -2907,9 +2928,6 @@ target
 cmd
 )
         
-else
-:
-            
 return
 self
 .
@@ -10298,8 +10316,6 @@ testing
         
 f
 =
-urllib2
-.
 urlopen
 (
 url
@@ -10342,6 +10358,7 @@ path
         
 except
 OSError
+as
 e
 :
             
