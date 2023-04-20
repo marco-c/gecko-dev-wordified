@@ -126,15 +126,6 @@ include
 "
 rtc_base
 /
-signal_thread
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 third_party
 /
 sigslot
