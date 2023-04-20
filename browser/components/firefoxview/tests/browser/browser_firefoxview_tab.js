@@ -373,7 +373,7 @@ role
 "
 )
 "
-tab
+button
 "
 "
 Firefox
@@ -383,7 +383,7 @@ should
 have
 the
 '
-tab
+button
 '
 ARIA
 role
@@ -486,7 +486,7 @@ getAttribute
 "
 aria
 -
-selected
+pressed
 "
 )
 "
@@ -500,7 +500,7 @@ should
 have
 aria
 -
-selected
+pressed
 =
 "
 true
@@ -530,7 +530,7 @@ getAttribute
 "
 aria
 -
-selected
+pressed
 "
 )
 "
@@ -544,7 +544,7 @@ should
 have
 aria
 -
-selected
+pressed
 =
 "
 false
