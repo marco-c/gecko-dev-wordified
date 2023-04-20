@@ -28373,9 +28373,6 @@ denoisingOn
 /
 /
 Resizing
-and
-frame
-dropping
 always
 off
 for
@@ -28389,7 +28386,7 @@ vp8_settings
 automaticResizeOn
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 vp8_settings
 .
@@ -28441,7 +28438,7 @@ vp8_settings
 automaticResizeOn
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 vp8_settings
 .
