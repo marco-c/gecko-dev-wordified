@@ -615,6 +615,20 @@ plot
 (
 x_values
 y_values
+marker
+=
+'
+x
+'
+markersize
+=
+3
+                 
+markeredgecolor
+=
+'
+red
+'
 )
     
 plt
