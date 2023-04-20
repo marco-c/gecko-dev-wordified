@@ -194,7 +194,7 @@ webrtc
 :
 :
 FieldTrialFlag
-use_dcsctp_
+use_usrsctp_
 ;
 }
 ;
