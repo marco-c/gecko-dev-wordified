@@ -108,6 +108,9 @@ Ci
 nsICertOverrideService
 )
 ;
+add_setup
+(
+async
 function
 setup
 (
@@ -196,8 +199,7 @@ non
 ECH
 server
 .
-add_setup
-(
+await
 asyncStartTLSTestServer
 (
 "
@@ -226,7 +228,6 @@ unit
 test_delegated_credentials
 "
 )
-)
 ;
 let
 nssComponent
@@ -251,15 +252,14 @@ Ci
 nsINSSComponent
 )
 ;
+await
 nssComponent
 .
-clearSSLExternalAndInternalSessionCache
+asyncClearSSLExternalAndInternalSessionCache
 (
 )
 ;
 }
-setup
-(
 )
 ;
 registerCleanupFunction
