@@ -342,7 +342,6 @@ view
 .
 querySelector
 (
-toolbaritem
 [
 data
 -
