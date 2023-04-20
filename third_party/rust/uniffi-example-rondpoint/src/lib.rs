@@ -844,10 +844,10 @@ format
 "
 uniffi
 {
+value
 }
 !
 "
-value
 )
 }
 }

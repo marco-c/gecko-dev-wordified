@@ -411,7 +411,6 @@ current_position
 translate
 (
 &
-*
 current_position
 direction
 )
