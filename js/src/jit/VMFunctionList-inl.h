@@ -961,7 +961,7 @@ BindVarOperation
 \
 _
 (
-BlockLexicalEnvironmentObjectCreate
+BlockLexicalEnvironmentObjectCreateTemplateObject
 \
 js
 :
@@ -969,7 +969,7 @@ js
 BlockLexicalEnvironmentObject
 :
 :
-create
+createTemplateObject
 )
 \
 _
@@ -1115,7 +1115,7 @@ CheckPrivateFieldOperation
 \
 _
 (
-ClassBodyLexicalEnvironmentObjectCreate
+ClassBodyLexicalEnvironmentObjectCreateTemplateObject
 \
 js
 :
@@ -1123,7 +1123,7 @@ js
 ClassBodyLexicalEnvironmentObject
 :
 :
-create
+createTemplateObject
 )
 \
 _
@@ -2956,14 +2956,15 @@ ValueToIterator
 \
 _
 (
-VarEnvironmentObjectCreate
+VarEnvironmentObjectCreateTemplateObject
+\
 js
 :
 :
 VarEnvironmentObject
 :
 :
-create
+createTemplateObject
 )
 /
 /
