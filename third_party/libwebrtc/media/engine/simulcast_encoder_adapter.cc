@@ -762,14 +762,14 @@ const
 webrtc
 :
 :
-SpatialLayer
+SimulcastStream
 &
 a
 const
 webrtc
 :
 :
-SpatialLayer
+SimulcastStream
 &
 b
 )
@@ -825,7 +825,7 @@ ArrayView
 webrtc
 :
 :
-SpatialLayer
+SimulcastStream
 >
 streams
 int
@@ -1985,7 +1985,7 @@ rtc
 :
 ArrayView
 <
-SpatialLayer
+SimulcastStream
 >
 (
 codec_
@@ -4880,7 +4880,7 @@ codec_params
 codec
 ;
 const
-SpatialLayer
+SimulcastStream
 &
 stream_params
 =

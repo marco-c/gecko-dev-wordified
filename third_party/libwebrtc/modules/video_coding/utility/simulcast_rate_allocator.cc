@@ -1090,7 +1090,7 @@ active_layer
 )
 {
 const
-SpatialLayer
+SimulcastStream
 &
 stream
 =
@@ -1429,7 +1429,7 @@ Zero
 )
 {
 const
-SpatialLayer
+SimulcastStream
 &
 stream
 =

@@ -595,7 +595,7 @@ size
 i
 )
 {
-SpatialLayer
+SimulcastStream
 *
 ss
 =
@@ -2423,7 +2423,7 @@ i
 "
 ;
 const
-SpatialLayer
+SimulcastStream
 &
 simulcast_stream
 =

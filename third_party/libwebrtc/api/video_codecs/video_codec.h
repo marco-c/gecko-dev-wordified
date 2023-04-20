@@ -161,6 +161,17 @@ api
 /
 video_codecs
 /
+simulcast_stream
+.
+h
+"
+#
+include
+"
+api
+/
+video_codecs
+/
 spatial_layer
 .
 h
@@ -753,7 +764,7 @@ unsigned
 char
 numberOfSimulcastStreams
 ;
-SpatialLayer
+SimulcastStream
 simulcastStream
 [
 kMaxSimulcastStreams
