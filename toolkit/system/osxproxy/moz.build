@@ -126,7 +126,7 @@ mm
 "
 ProxyUtils
 .
-mm
+cpp
 "
 ]
 XPCOM_MANIFESTS
