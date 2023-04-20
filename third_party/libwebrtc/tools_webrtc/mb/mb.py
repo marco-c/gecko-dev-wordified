@@ -7670,6 +7670,12 @@ py
         
 ]
         
+vpython_exe
+=
+'
+vpython
+'
+        
 must_retry
 =
 False
@@ -7721,6 +7727,8 @@ cmdline
 +
 =
 [
+vpython_exe
+                        
 '
 .
 .
@@ -7806,9 +7814,11 @@ raw
 :
                 
 cmdline
-.
-append
-(
++
+=
+[
+vpython_exe
+                            
 '
 .
 .
@@ -7822,7 +7832,7 @@ flags_compatibility
 .
 py
 '
-)
+]
                 
 extra_files
 .
@@ -7859,10 +7869,11 @@ False
 :
                 
 cmdline
-.
-append
-(
-                    
++
+=
+[
+vpython_exe
+                            
 '
 .
 .
@@ -7876,7 +7887,7 @@ ensure_webcam_is_running
 .
 py
 '
-)
+]
                 
 extra_files
 .
@@ -7928,9 +7939,10 @@ xvfb
 :
                 
 cmdline
-.
-append
-(
++
+=
+[
+vpython_exe
 '
 .
 .
@@ -7944,7 +7956,7 @@ xvfb
 .
 py
 '
-)
+]
                 
 extra_files
 .
@@ -7969,9 +7981,10 @@ else
 :
                 
 cmdline
-.
-append
-(
++
+=
+[
+vpython_exe
 '
 .
 .
@@ -7985,7 +7998,7 @@ test_env
 .
 py
 '
-)
+]
             
 if
 test_type
