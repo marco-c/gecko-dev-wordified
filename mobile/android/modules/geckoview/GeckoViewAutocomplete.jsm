@@ -163,15 +163,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 GeckoViewPrompter
 :
 "
@@ -185,7 +176,9 @@ modules
 /
 GeckoViewPrompter
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
