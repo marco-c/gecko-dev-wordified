@@ -291,7 +291,7 @@ uint8_t
 0
 )
 %
-7
+6
 ;
 switch
 (
@@ -330,7 +330,7 @@ case
 {
 buffer
 .
-NextDecodableTemporalUnitRtpTimestamp
+DecodableTemporalUnitsInfo
 (
 )
 ;
@@ -343,7 +343,7 @@ case
 {
 buffer
 .
-LastDecodableTemporalUnitRtpTimestamp
+ExtractNextDecodableTemporalUnit
 (
 )
 ;
@@ -356,19 +356,6 @@ case
 {
 buffer
 .
-ExtractNextDecodableTemporalUnit
-(
-)
-;
-break
-;
-}
-case
-5
-:
-{
-buffer
-.
 DropNextDecodableTemporalUnit
 (
 )
@@ -377,7 +364,7 @@ break
 ;
 }
 case
-6
+5
 :
 {
 auto
