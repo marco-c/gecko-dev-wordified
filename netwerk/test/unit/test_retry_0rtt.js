@@ -148,10 +148,13 @@ path
 0
 ;
 }
-function
-setup
+add_setup
+(
+async
 (
 )
+=
+>
 {
 httpServer
 =
@@ -228,7 +231,8 @@ MOZ_TLS_SERVER_0RTT
 "
 )
 ;
-add_tls_server_setup
+await
+asyncStartTLSTestServer
 (
 "
 FaultyServer
@@ -287,8 +291,6 @@ clearSSLExternalAndInternalSessionCache
 )
 ;
 }
-setup
-(
 )
 ;
 async

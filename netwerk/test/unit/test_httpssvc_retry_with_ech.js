@@ -220,6 +220,9 @@ Status
 )
 ;
 }
+add_setup
+(
+async
 function
 setup
 (
@@ -378,7 +381,8 @@ nsIDNSService
 MODE_TRRONLY
 )
 ;
-add_tls_server_setup
+await
+asyncStartTLSTestServer
 (
 "
 EncryptedClientHelloServer
@@ -468,8 +472,6 @@ h3EchConfig
 )
 ;
 }
-setup
-(
 )
 ;
 registerCleanupFunction
