@@ -6498,7 +6498,7 @@ cx
 shape
 -
 >
-sharedPropMap
+propMap
 (
 )
 )

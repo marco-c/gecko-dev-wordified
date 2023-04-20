@@ -205,18 +205,10 @@ SharedPropMap
 *
 map
 =
-MaybeForwarded
-(
 shape
 -
 >
-propMap
-(
-)
-)
--
->
-asShared
+propMapMaybeForwarded
 (
 )
 ;
@@ -673,7 +665,7 @@ popFront
 )
 )
 {
-Shape
+SharedShape
 *
 shape
 =
@@ -718,7 +710,7 @@ numFixedSlots
 shape
 -
 >
-sharedPropMap
+propMap
 (
 )
 shape

@@ -6100,12 +6100,12 @@ if
 src
 -
 >
-shape
+sharedShape
 (
 )
 -
 >
-sharedPropMap
+propMap
 (
 )
 )
@@ -6235,7 +6235,7 @@ cx
 srcShape
 -
 >
-sharedPropMap
+propMap
 (
 )
 )
