@@ -1272,7 +1272,7 @@ embedder
 js
 :
 :
-ZoneData
+MainThreadData
 <
 void
 *
@@ -1282,7 +1282,7 @@ data
 js
 :
 :
-ZoneData
+MainThreadData
 <
 uint32_t
 >
@@ -1291,7 +1291,7 @@ tenuredBigInts
 js
 :
 :
-ZoneOrIonCompileData
+MainThreadOrIonCompileData
 <
 uint64_t
 >
@@ -1303,10 +1303,10 @@ Number
 of
 marked
 /
-finalzied
-JSString
+finalized
+JSStrings
 /
-JSFatInlineString
+JSFatInlineStrings
 during
 major
 GC
@@ -1314,7 +1314,7 @@ GC
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 size_t
 >
@@ -1323,7 +1323,7 @@ markedStrings
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 size_t
 >
@@ -1332,7 +1332,7 @@ finalizedStrings
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -1341,7 +1341,7 @@ allocNurseryStrings
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -1424,7 +1424,7 @@ on
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -1558,7 +1558,7 @@ endif
 js
 :
 :
-ZoneData
+MainThreadData
 <
 js
 :
@@ -1570,7 +1570,7 @@ previousGCStringStats
 js
 :
 :
-ZoneData
+MainThreadData
 <
 js
 :
@@ -1621,7 +1621,7 @@ address
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -1664,7 +1664,7 @@ zone
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 mozilla
 :
@@ -1761,7 +1761,7 @@ beginSweepingSweepGroup
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 mozilla
 :
@@ -1816,7 +1816,7 @@ keys
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -1831,7 +1831,7 @@ gcEphemeronEdges_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -1967,7 +1967,7 @@ SystemAllocPolicy
 js
 :
 :
-ZoneData
+MainThreadData
 <
 JS
 :
@@ -2010,7 +2010,7 @@ zone
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -2037,7 +2037,7 @@ GC
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -2061,7 +2061,7 @@ GC
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -2087,7 +2087,7 @@ GC
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -2107,7 +2107,7 @@ BaseShapes
 js
 :
 :
-ZoneData
+MainThreadData
 <
 js
 :
@@ -2129,7 +2129,7 @@ demand
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -2150,7 +2150,7 @@ finalizationObservers_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -2235,7 +2235,7 @@ gcPreserveCode_
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -2332,7 +2332,7 @@ WeakRefObject
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 KeptAliveSet
 >
