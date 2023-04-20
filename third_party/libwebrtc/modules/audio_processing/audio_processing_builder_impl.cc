@@ -194,6 +194,7 @@ make_ref_counted
 AudioProcessingImpl
 >
 (
+config_
 std
 :
 :
