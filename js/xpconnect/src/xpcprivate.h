@@ -16948,9 +16948,10 @@ JS
 RealmOptions
 &
 aOptions
-nsIPrincipal
-*
-aPrincipal
+bool
+aIsSystemPrincipal
+bool
+aShouldResistFingerprinting
 )
 ;
 /
