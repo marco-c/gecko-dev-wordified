@@ -251,10 +251,7 @@ OriginAttributes
 &
 originAttributes
 const
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 &
 flags
 const

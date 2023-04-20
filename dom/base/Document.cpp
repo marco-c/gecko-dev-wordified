@@ -13499,7 +13499,7 @@ GetSingleton
 dnsServiceChild
 -
 >
-GetTRRDomainKey
+GetTRRDomain
 (
 dnsKey
 )
