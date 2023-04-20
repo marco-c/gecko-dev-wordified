@@ -3834,9 +3834,9 @@ min
 (
 f
 MaxHeapGrowth
-)
 *
 W
+)
 ;
 M
 =
