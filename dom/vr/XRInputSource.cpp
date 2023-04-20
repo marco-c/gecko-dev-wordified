@@ -200,16 +200,6 @@ mTargetRaySpace
 mGripSpace
 mGamepad
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-XRInputSource
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-XRInputSource
-Release
-)
 /
 /
 Follow

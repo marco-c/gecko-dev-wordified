@@ -1034,16 +1034,6 @@ mClearingListeners
 false
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-EventListenerManager
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-EventListenerManager
-Release
-)
 inline
 void
 ImplCycleCollectionTraverse

@@ -193,16 +193,6 @@ mInverse
 mMatrixArray
 )
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-XRRigidTransform
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-XRRigidTransform
-Release
-)
 XRRigidTransform
 :
 :

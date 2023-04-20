@@ -2115,13 +2115,3 @@ SessionStoreParent
 mBrowsingContext
 mSessionStore
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-SessionStoreParent
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-SessionStoreParent
-Release
-)
