@@ -506,8 +506,6 @@ virtual
 bool
 HasStepMismatch
 (
-bool
-aUseZeroIfValueNaN
 )
 const
 ;

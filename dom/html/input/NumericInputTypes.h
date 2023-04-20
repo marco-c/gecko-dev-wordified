@@ -170,8 +170,6 @@ override
 bool
 HasStepMismatch
 (
-bool
-aUseZeroIfValueNaN
 )
 const
 override

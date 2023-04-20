@@ -1089,8 +1089,6 @@ InputType
 :
 HasStepMismatch
 (
-bool
-aUseZeroIfValueNaN
 )
 const
 {
