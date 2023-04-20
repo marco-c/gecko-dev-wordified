@@ -316,7 +316,7 @@ override
 NS_IMETHOD
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

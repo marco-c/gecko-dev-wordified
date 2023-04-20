@@ -257,10 +257,9 @@ ipc
 IPCResult
 RecvOnTransportAvailable
 (
-const
-nsCString
-&
-aSecurityInfoSerialization
+nsITransportSecurityInfo
+*
+aSecurityInfo
 )
 ;
 mozilla
@@ -388,7 +387,7 @@ override
 nsresult
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
@@ -423,7 +422,7 @@ mBackgroundThread
 ;
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 mSecurityInfo
 ;

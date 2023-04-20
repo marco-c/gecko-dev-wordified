@@ -477,6 +477,9 @@ WebSocketChannel
 :
 :
 OnWebSocketConnectionAvailable
+class
+nsITransportSecurityInfo
+;
 namespace
 mozilla
 {
@@ -565,7 +568,7 @@ virtual
 nsresult
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
