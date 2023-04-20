@@ -32333,7 +32333,7 @@ config
 Default
 behavior
 is
-false
+true
 .
 CreatePeerConnection
 (
@@ -32359,7 +32359,7 @@ nullptr
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 offer
 -
@@ -32380,13 +32380,13 @@ Possible
 to
 set
 to
-true
+false
 .
 config
 .
 offer_extmap_allow_mixed
 =
-true
+false
 ;
 CreatePeerConnection
 (
@@ -32409,7 +32409,7 @@ nullptr
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 offer
 -

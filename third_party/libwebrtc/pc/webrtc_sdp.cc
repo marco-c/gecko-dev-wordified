@@ -20190,6 +20190,17 @@ C
 (
 )
 ;
+media_desc
+-
+>
+set_extmap_allow_mixed_enum
+(
+MediaContentDescription
+:
+:
+kNo
+)
+;
 if
 (
 !
