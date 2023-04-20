@@ -795,7 +795,7 @@ aWindowsTag
 const
 nsAString
 &
-nsAumid
+aAumid
 )
 ;
 }
