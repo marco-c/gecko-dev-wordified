@@ -173,7 +173,7 @@ MockDocument
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -186,7 +186,9 @@ common
 /
 MockDocument
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2139,7 +2141,7 @@ OSKeyStoreTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2152,7 +2154,9 @@ common
 /
 OSKeyStoreTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 )

@@ -39,7 +39,7 @@ PromiseTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ common
 /
 PromiseTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
