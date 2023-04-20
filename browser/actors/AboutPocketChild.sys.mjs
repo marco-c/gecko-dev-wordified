@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-AboutPocketChild
-"
-]
-;
 const
 {
 RemotePageChild
@@ -114,6 +105,7 @@ jsm
 "
 )
 ;
+export
 class
 AboutPocketChild
 extends
