@@ -2538,7 +2538,6 @@ PingDirectoryManager
 :
 new
 (
-&
 dir
 .
 path
@@ -2799,7 +2798,6 @@ PingDirectoryManager
 :
 new
 (
-&
 dir
 .
 path
