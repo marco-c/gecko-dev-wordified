@@ -141,6 +141,8 @@ is
 (
 highlight
 .
+style
+.
 height
 "
 "
@@ -159,6 +161,8 @@ set
 is
 (
 highlight
+.
+style
 .
 width
 "
@@ -287,6 +291,8 @@ is
 (
 tooltip
 .
+style
+.
 height
 "
 "
@@ -305,6 +311,8 @@ set
 is
 (
 tooltip
+.
+style
 .
 width
 "
