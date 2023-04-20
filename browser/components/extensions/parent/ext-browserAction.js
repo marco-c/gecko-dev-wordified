@@ -4909,7 +4909,7 @@ button
 )
 ;
 let
-title
+extensionTitle
 =
 tabData
 .
@@ -4983,16 +4983,6 @@ callback
 =
 >
 {
-button
-.
-setAttribute
-(
-"
-label
-"
-title
-)
-;
 /
 /
 This
@@ -5056,8 +5046,6 @@ button
 "
 {
 extensionTitle
-:
-title
 }
 )
 ;
