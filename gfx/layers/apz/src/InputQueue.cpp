@@ -3519,6 +3519,11 @@ mTargetConfirmed
 &
 event
 .
+mOverscrollBehaviorAllowsSwipe
+&
+&
+event
+.
 mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 &
 &
