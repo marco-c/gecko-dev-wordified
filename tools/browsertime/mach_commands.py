@@ -1404,8 +1404,6 @@ ffmpeg
 1
 -
 full_build
--
-win
 "
         
 }
