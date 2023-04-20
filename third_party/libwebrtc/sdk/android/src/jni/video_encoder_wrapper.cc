@@ -2240,16 +2240,6 @@ codecSpecific
 .
 VP9
 .
-end_of_picture
-=
-true
-;
-info
-.
-codecSpecific
-.
-VP9
-.
 spatial_layer_resolution_present
 =
 false

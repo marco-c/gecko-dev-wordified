@@ -19732,10 +19732,6 @@ resolution
 .
 codec_info
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 =
 false
@@ -19827,10 +19823,6 @@ kEncodedHeight
 2
 ;
 codec_info
-.
-codecSpecific
-.
-VP9
 .
 end_of_picture
 =
@@ -19925,10 +19917,6 @@ _encodedHeight
 kEncodedHeight
 ;
 codec_info
-.
-codecSpecific
-.
-VP9
 .
 end_of_picture
 =

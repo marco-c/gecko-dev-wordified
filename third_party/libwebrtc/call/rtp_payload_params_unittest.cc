@@ -740,10 +740,6 @@ temporal_idx
 ;
 codec_info
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 =
 false
@@ -878,10 +874,6 @@ vp9_header
 end_of_picture
 codec_info
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 )
 ;
@@ -902,10 +894,6 @@ first_frame_in_picture
 false
 ;
 codec_info
-.
-codecSpecific
-.
-VP9
 .
 end_of_picture
 =
@@ -1075,10 +1063,6 @@ vp9_header
 .
 end_of_picture
 codec_info
-.
-codecSpecific
-.
-VP9
 .
 end_of_picture
 )

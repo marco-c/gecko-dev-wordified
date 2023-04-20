@@ -12626,10 +12626,6 @@ rc_dropframe_thresh
 }
 codec_specific_
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 =
 end_of_picture

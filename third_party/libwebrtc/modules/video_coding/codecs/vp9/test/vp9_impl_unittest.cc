@@ -7627,10 +7627,6 @@ codec_specific
 0
 ]
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 )
 ;
@@ -7640,10 +7636,6 @@ codec_specific
 [
 1
 ]
-.
-codecSpecific
-.
-VP9
 .
 end_of_picture
 )
@@ -7761,10 +7753,6 @@ codec_specific
 [
 0
 ]
-.
-codecSpecific
-.
-VP9
 .
 end_of_picture
 )
