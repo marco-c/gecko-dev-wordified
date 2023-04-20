@@ -120,6 +120,15 @@ Private
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+string_utils
+.
+h
+"
 namespace
 {
 rtc
@@ -484,6 +493,10 @@ rtc
 :
 :
 AdapterType
+rtc
+:
+:
+AbslStringViewCmp
 >
 *
 map
@@ -502,6 +515,10 @@ rtc
 :
 :
 AdapterType
+rtc
+:
+:
+AbslStringViewCmp
 >
 (
 )
