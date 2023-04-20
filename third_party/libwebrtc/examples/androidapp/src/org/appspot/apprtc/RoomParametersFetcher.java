@@ -1183,6 +1183,12 @@ the
 main
 thread
 !
+SuppressWarnings
+(
+"
+UseNetworkAnnotations
+"
+)
 private
 List
 <
