@@ -4899,6 +4899,11 @@ mFinishNotificationTask
 nsString
 mId
 ;
+bool
+mResetCurrentTimeOnResume
+=
+false
+;
 private
 :
 /
