@@ -13940,7 +13940,7 @@ f
 .
 mFamily
 .
-mIsShared
+mShared
 )
 {
 AddFamilyToFontList
@@ -14085,8 +14085,10 @@ during
 font
 matching
 .
+RefPtr
+<
 gfxFontFamily
-*
+>
 family
 =
 mUserFontSet
@@ -14106,7 +14108,13 @@ aFamilyList
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 family
+)
 )
 ;
 return
@@ -15212,7 +15220,7 @@ if
 (
 family
 .
-mIsShared
+mShared
 )
 {
 fontlist
@@ -27460,7 +27468,7 @@ if
 (
 family
 .
-mIsShared
+mShared
 )
 {
 fontlist
@@ -27669,7 +27677,7 @@ prefFont
 =
 family
 .
-mIsShared
+mShared
 ?
 FindFallbackFaceForChar
 (
