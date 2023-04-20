@@ -76625,6 +76625,13 @@ NS_FRAME_HAS_MULTI_COLUMN_ANCESTOR
 )
 ;
 }
+AutoFrameConstructionPageName
+pageNameTracker
+(
+aState
+columnSetWrapper
+)
+;
 RefPtr
 <
 ComputedStyle
