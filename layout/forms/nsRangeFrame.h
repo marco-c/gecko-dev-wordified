@@ -936,7 +936,10 @@ UpdateForValueChange
 ;
 nsTArray
 <
-double
+mozilla
+:
+:
+Decimal
 >
 TickMarks
 (
