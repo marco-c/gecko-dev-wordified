@@ -14496,7 +14496,7 @@ kind
 CallIndirectIdKind
 :
 :
-None
+AsmJS
 )
 ;
 const
@@ -14599,7 +14599,7 @@ kind
 CallIndirectIdKind
 :
 :
-None
+AsmJS
 )
 ;
 const
