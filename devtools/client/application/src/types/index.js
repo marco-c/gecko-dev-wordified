@@ -67,6 +67,10 @@ manifestTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ src
 types
 /
 manifest
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ routingTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ src
 types
 /
 routing
+.
+js
 "
 )
 ;
@@ -107,6 +119,10 @@ workersTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +136,8 @@ types
 service
 -
 workers
+.
+js
 "
 )
 ;

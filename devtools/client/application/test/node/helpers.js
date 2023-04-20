@@ -40,6 +40,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

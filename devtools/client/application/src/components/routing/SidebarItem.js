@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -114,6 +126,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -158,6 +182,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -178,6 +208,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +223,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -210,6 +246,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -219,6 +259,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -228,6 +270,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -239,6 +285,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;

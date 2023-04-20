@@ -70,6 +70,10 @@ UPDATE_SELECTED_PAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

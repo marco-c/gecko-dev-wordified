@@ -40,6 +40,10 @@ updateSelectedPage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +69,10 @@ UiState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

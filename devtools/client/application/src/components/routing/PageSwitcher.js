@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +137,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -130,6 +148,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +163,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -152,6 +176,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +193,8 @@ components
 manifest
 /
 ManifestPage
+.
+js
 "
 )
 )
@@ -177,6 +207,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +226,8 @@ service
 workers
 /
 WorkersPage
+.
+js
 "
 )
 )

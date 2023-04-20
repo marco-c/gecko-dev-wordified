@@ -69,6 +69,10 @@ FluentL10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ l10n
 fluent
 -
 l10n
+.
+js
 "
 )
 ;

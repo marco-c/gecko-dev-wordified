@@ -72,6 +72,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -108,6 +114,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +129,8 @@ src
 components
 /
 App
+.
+js
 "
 )
 )

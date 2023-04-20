@@ -70,6 +70,10 @@ openTrustedLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -77,6 +81,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -115,6 +127,10 @@ p
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -137,6 +155,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +170,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -169,6 +193,10 @@ services
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +210,8 @@ modules
 application
 -
 services
+.
+js
 "
 )
 ;

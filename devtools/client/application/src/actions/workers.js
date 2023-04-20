@@ -72,6 +72,10 @@ UPDATE_WORKERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

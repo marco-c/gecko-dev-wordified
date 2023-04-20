@@ -69,6 +69,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ ManifestDevToolsError
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ modules
 application
 -
 services
+.
+js
 "
 )
 ;
@@ -119,6 +131,10 @@ RESET_MANIFEST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

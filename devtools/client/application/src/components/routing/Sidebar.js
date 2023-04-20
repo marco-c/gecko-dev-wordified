@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ ul
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +114,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -115,6 +127,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +142,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -137,6 +155,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +172,8 @@ components
 routing
 /
 SidebarItem
+.
+js
 "
 )
 )
@@ -160,6 +184,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -171,6 +199,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -182,6 +212,10 @@ PAGE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +225,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

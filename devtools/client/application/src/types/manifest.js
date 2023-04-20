@@ -67,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ MANIFEST_ISSUE_LEVELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ MANIFEST_MEMBER_VALUE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +136,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;

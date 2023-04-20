@@ -69,6 +69,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ button
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +140,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;

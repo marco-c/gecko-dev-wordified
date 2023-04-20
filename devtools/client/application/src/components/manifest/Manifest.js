@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ tbody
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +116,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -115,6 +127,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +142,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -147,6 +165,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +180,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;
@@ -169,6 +193,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +210,8 @@ components
 manifest
 /
 ManifestColorItem
+.
+js
 "
 )
 )
@@ -194,6 +224,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +241,8 @@ components
 manifest
 /
 ManifestIconItem
+.
+js
 "
 )
 )
@@ -219,6 +255,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -232,6 +272,8 @@ components
 manifest
 /
 ManifestUrlItem
+.
+js
 "
 )
 )
@@ -244,6 +286,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -257,6 +303,8 @@ components
 manifest
 /
 ManifestItem
+.
+js
 "
 )
 )
@@ -269,6 +317,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -282,6 +334,8 @@ components
 manifest
 /
 ManifestIssueList
+.
+js
 "
 )
 )
@@ -294,6 +348,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -307,6 +365,8 @@ components
 manifest
 /
 ManifestSection
+.
+js
 "
 )
 )
@@ -319,6 +379,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -332,6 +396,8 @@ components
 manifest
 /
 ManifestJsonLink
+.
+js
 "
 )
 )
@@ -344,6 +410,10 @@ MANIFEST_MEMBER_VALUE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -353,6 +423,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -362,6 +434,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -373,6 +449,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;

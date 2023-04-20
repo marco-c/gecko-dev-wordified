@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -114,6 +126,10 @@ p
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -168,6 +192,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +207,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -190,6 +220,10 @@ fetchManifest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -201,6 +235,8 @@ src
 actions
 /
 manifest
+.
+js
 "
 )
 ;

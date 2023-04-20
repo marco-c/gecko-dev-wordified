@@ -44,6 +44,10 @@ MANIFEST_MEMBER_VALUE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -77,6 +81,10 @@ ManifestState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

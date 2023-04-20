@@ -68,6 +68,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ components
 manifest
 /
 Manifest
+.
+js
 "
 )
 )
@@ -99,6 +105,10 @@ MANIFEST_WITH_ISSUES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +124,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;

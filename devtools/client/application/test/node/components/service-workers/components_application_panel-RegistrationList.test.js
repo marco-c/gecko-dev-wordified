@@ -73,6 +73,10 @@ MULTIPLE_WORKER_LIST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +92,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +124,8 @@ service
 workers
 /
 RegistrationList
+.
+js
 "
 )
 )

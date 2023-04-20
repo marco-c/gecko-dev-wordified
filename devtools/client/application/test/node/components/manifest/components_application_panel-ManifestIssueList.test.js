@@ -68,6 +68,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ components
 manifest
 /
 ManifestIssueList
+.
+js
 "
 )
 )

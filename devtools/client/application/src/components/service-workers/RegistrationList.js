@@ -69,6 +69,10 @@ openTrustedLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +135,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -135,6 +153,10 @@ ul
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +170,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -157,6 +181,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +196,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -187,6 +217,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -198,6 +232,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -209,6 +245,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -224,6 +264,8 @@ service
 workers
 /
 Registration
+.
+js
 "
 )
 )

@@ -73,6 +73,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ MANIFEST_NO_ISSUES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +124,8 @@ fixtures
 data
 /
 constants
+.
+js
 "
 )
 ;
@@ -123,6 +135,10 @@ manifestActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +150,8 @@ src
 actions
 /
 manifest
+.
+js
 "
 )
 ;
@@ -187,6 +205,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +222,8 @@ components
 manifest
 /
 ManifestLoader
+.
+js
 "
 )
 )

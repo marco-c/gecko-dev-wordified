@@ -67,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ section
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +141,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;

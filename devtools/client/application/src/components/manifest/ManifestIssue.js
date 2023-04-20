@@ -67,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -114,6 +126,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -168,6 +192,10 @@ MANIFEST_ISSUE_LEVELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -177,6 +205,8 @@ application
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -186,6 +216,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +231,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
