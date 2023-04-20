@@ -8067,6 +8067,8 @@ validity
 return
 ;
 }
+if
+(
 tcb_
 -
 >
@@ -8079,7 +8081,8 @@ Observe
 tsn
 immediate_ack
 )
-;
+)
+{
 tcb_
 -
 >
@@ -8124,6 +8127,7 @@ DeliverReassembledMessages
 (
 )
 ;
+}
 }
 void
 DcSctpSocket

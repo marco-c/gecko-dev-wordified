@@ -1003,7 +1003,7 @@ return
 true
 ;
 }
-void
+bool
 DataTracker
 :
 :
@@ -1018,6 +1018,11 @@ ImmediateAckFlag
 immediate_ack
 )
 {
+bool
+is_duplicate
+=
+false
+;
 UnwrappedTSN
 unwrapped_tsn
 =
@@ -1193,6 +1198,10 @@ duplicate
 data
 "
 )
+;
+is_duplicate
+=
+true
 ;
 }
 else
@@ -1428,6 +1437,10 @@ packet
 loss
 below
 .
+is_duplicate
+=
+true
+;
 }
 }
 }
@@ -1842,6 +1855,10 @@ delayed
 )
 ;
 }
+return
+!
+is_duplicate
+;
 }
 void
 DataTracker
