@@ -480,6 +480,8 @@ rv
 {
 NS_WARNING
 (
+nsPrintfCString
+(
 "
 failed
 to
@@ -487,9 +489,18 @@ post
 proxy
 release
 event
+for
+%
+s
 leaking
 !
 "
+aName
+)
+.
+get
+(
+)
 )
 ;
 /
