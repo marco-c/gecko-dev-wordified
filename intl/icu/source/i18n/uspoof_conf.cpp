@@ -3275,9 +3275,6 @@ fSpoofData
 -
 >
 fDataOwned
-=
-=
-TRUE
 )
 ;
 /

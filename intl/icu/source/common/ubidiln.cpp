@@ -1095,7 +1095,7 @@ when
 orderParagraphsLTR
 =
 =
-TRUE
+true
 .
 *
 /
@@ -4318,7 +4318,7 @@ ubidi_getRuns
 (
 )
 returns
-TRUE
+true
 runCount
 is
 guaranteed
@@ -4454,7 +4454,7 @@ runCount
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4924,7 +4924,7 @@ runsMemory
 else
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -5629,7 +5629,7 @@ insertRemove
 }
 }
 return
-TRUE
+true
 ;
 }
 static
@@ -5676,7 +5676,7 @@ length
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -5728,7 +5728,7 @@ UBIDI_MAX_EXPLICIT_LEVEL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -5799,7 +5799,7 @@ start
 ;
 }
 return
-TRUE
+true
 ;
 }
 /

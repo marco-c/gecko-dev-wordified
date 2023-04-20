@@ -2248,6 +2248,8 @@ NFSubstitution
 &
 other
 )
+=
+delete
 ;
 /
 /
@@ -2266,6 +2268,8 @@ NFSubstitution
 &
 other
 )
+=
+delete
 ;
 /
 /

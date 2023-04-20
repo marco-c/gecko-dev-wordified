@@ -2435,6 +2435,8 @@ IDNAInfo
 &
 other
 )
+=
+delete
 ;
 /
 /
@@ -2450,6 +2452,8 @@ IDNAInfo
 &
 other
 )
+=
+delete
 ;
 /
 /

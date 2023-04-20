@@ -68,7 +68,11 @@ U_CDECL_BEGIN
 \
 file
 *
-*
+\
+brief
+C
+API
+:
 This
 file
 defines

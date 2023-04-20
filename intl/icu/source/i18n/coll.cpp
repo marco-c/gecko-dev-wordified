@@ -662,8 +662,8 @@ icu
 :
 UInitOnce
 gServiceInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 #
 endif
@@ -673,8 +673,8 @@ icu
 :
 UInitOnce
 gAvailableLocaleListInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 /
 *
@@ -750,7 +750,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -920,7 +920,7 @@ void
 const
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -2729,9 +2729,11 @@ codes
 [
 USCRIPT_CODE_LIMIT
 +
+(
 UCOL_REORDER_CODE_LIMIT
 -
 UCOL_REORDER_CODE_FIRST
+)
 ]
 ;
 int32_t
@@ -5091,7 +5093,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-FALSE
+false
 ;
 }
 #

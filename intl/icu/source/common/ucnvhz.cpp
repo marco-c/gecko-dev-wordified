@@ -829,7 +829,7 @@ extraInfo
 >
 isStateDBCS
 =
-FALSE
+false
 ;
 (
 (
@@ -845,7 +845,7 @@ extraInfo
 >
 isEmptySegment
 =
-FALSE
+false
 ;
 }
 }
@@ -896,7 +896,7 @@ extraInfo
 >
 isEscapeAppended
 =
-FALSE
+false
 ;
 (
 (
@@ -944,7 +944,7 @@ extraInfo
 >
 isTargetUCharDBCS
 =
-FALSE
+false
 ;
 }
 }
@@ -1602,7 +1602,7 @@ myData
 >
 isEmptySegment
 =
-FALSE
+false
 ;
 continue
 ;
@@ -1637,7 +1637,7 @@ myData
 >
 isEmptySegment
 =
-FALSE
+false
 ;
 /
 *
@@ -1732,7 +1732,7 @@ myData
 >
 isEmptySegment
 =
-TRUE
+true
 ;
 continue
 ;
@@ -1827,7 +1827,7 @@ myData
 >
 isEmptySegment
 =
-FALSE
+false
 ;
 /
 *
@@ -2075,7 +2075,7 @@ myData
 >
 isEmptySegment
 =
-FALSE
+false
 ;
 /
 *
@@ -2481,7 +2481,7 @@ myData
 >
 isEmptySegment
 =
-FALSE
+false
 ;
 /
 *
@@ -2504,7 +2504,7 @@ myData
 >
 isEmptySegment
 =
-FALSE
+false
 ;
 /
 *
@@ -3246,7 +3246,7 @@ myConverterData
 >
 isEscapeAppended
 =
-TRUE
+true
 ;
 }
 else
@@ -3288,7 +3288,7 @@ myConverterData
 >
 isEscapeAppended
 =
-TRUE
+true
 ;
 }
 }
@@ -3938,7 +3938,7 @@ convData
 >
 isTargetUCharDBCS
 =
-FALSE
+false
 ;
 }
 *
@@ -4149,7 +4149,7 @@ cnv
 .
 isExtraLocal
 =
-TRUE
+true
 ;
 /
 *
@@ -4356,8 +4356,8 @@ UCNV_HZ
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {

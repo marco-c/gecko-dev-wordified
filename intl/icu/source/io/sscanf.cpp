@@ -718,7 +718,7 @@ inStr
 .
 fOwnFile
 =
-FALSE
+false
 ;
 #
 if

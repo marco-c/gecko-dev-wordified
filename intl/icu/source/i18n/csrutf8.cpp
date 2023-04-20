@@ -274,7 +274,7 @@ const
 bool
 hasBOM
 =
-FALSE
+false
 ;
 int32_t
 numValid
@@ -347,7 +347,7 @@ inputBytes
 {
 hasBOM
 =
-TRUE
+true
 ;
 }
 /

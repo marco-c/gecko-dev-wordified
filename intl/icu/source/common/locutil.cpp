@@ -310,8 +310,8 @@ icu
 :
 UInitOnce
 LocaleUtilityInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 icu
@@ -458,7 +458,7 @@ NULL
 ;
 }
 return
-TRUE
+true
 ;
 }
 static

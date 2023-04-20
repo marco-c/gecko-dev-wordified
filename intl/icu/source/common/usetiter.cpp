@@ -464,7 +464,7 @@ string
 NULL
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -494,7 +494,7 @@ string
 NULL
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -505,7 +505,7 @@ nextString
 stringCount
 )
 return
-FALSE
+false
 ;
 codepoint
 =
@@ -544,7 +544,7 @@ nextString
 )
 ;
 return
-TRUE
+true
 ;
 }
 /
@@ -733,7 +733,7 @@ endElement
 1
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -765,7 +765,7 @@ endElement
 1
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -776,7 +776,7 @@ nextString
 stringCount
 )
 return
-FALSE
+false
 ;
 codepoint
 =
@@ -815,7 +815,7 @@ nextString
 )
 ;
 return
-TRUE
+true
 ;
 }
 /

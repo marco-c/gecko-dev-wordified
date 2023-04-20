@@ -2749,6 +2749,8 @@ BytesTrie
 &
 other
 )
+=
+delete
 ;
 inline
 void

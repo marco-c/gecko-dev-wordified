@@ -2208,7 +2208,7 @@ INVALID
 UBool
 matchFound
 =
-FALSE
+false
 ;
 int32_t
 i
@@ -2234,7 +2234,7 @@ i
 {
 matchFound
 =
-TRUE
+true
 ;
 for
 (
@@ -2284,7 +2284,7 @@ n
 {
 matchFound
 =
-FALSE
+false
 ;
 break
 ;
@@ -2314,7 +2314,7 @@ U_TRUNCATED_CHAR_FOUND
 ;
 matchFound
 =
-FALSE
+false
 ;
 break
 ;
@@ -2345,7 +2345,7 @@ n
 {
 matchFound
 =
-FALSE
+false
 ;
 break
 ;
@@ -4874,8 +4874,8 @@ UCNV_COMPOUND_TEXT
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {

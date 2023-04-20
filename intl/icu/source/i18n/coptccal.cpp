@@ -940,8 +940,8 @@ icu
 :
 UInitOnce
 gSystemDefaultCenturyInit
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 void

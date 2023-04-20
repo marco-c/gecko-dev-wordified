@@ -582,7 +582,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -606,7 +606,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 uint32_t
@@ -1391,12 +1391,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 UnicodeString
@@ -1415,7 +1415,7 @@ const
 UBool
 firstTime
 =
-TRUE
+true
 ;
 for
 (
@@ -1461,7 +1461,7 @@ UChar
 }
 firstTime
 =
-FALSE
+false
 ;
 const
 char
@@ -1763,7 +1763,7 @@ script_count
 ;
 while
 (
-TRUE
+true
 )
 {
 script_count

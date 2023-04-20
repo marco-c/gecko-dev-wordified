@@ -2711,6 +2711,8 @@ const
 ChineseCalendar
 (
 )
+=
+delete
 ;
 /
 /

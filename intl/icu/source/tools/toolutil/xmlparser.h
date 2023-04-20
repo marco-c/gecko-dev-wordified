@@ -480,7 +480,7 @@ nodes
 param
 recurse
 If
-TRUE
+true
 also
 recursively
 appends

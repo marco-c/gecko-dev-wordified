@@ -525,7 +525,7 @@ UnicodeString
 const
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -904,7 +904,7 @@ const
 U_OVERRIDE
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -1008,7 +1008,7 @@ const
 U_OVERRIDE
 {
 return
-TRUE
+true
 ;
 }
 virtual
@@ -1021,7 +1021,7 @@ const
 U_OVERRIDE
 {
 return
-TRUE
+true
 ;
 }
 virtual
@@ -1034,7 +1034,7 @@ const
 U_OVERRIDE
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -1169,8 +1169,8 @@ icu
 :
 UInitOnce
 noopInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 void
@@ -1441,8 +1441,8 @@ icu
 :
 UInitOnce
 nfcInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 void
@@ -1757,7 +1757,7 @@ reset
 #
 endif
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -2691,7 +2691,7 @@ firstLength
 firstCapacity
 second
 secondLength
-TRUE
+true
 pErrorCode
 )
 ;
@@ -2732,7 +2732,7 @@ firstLength
 firstCapacity
 second
 secondLength
-FALSE
+false
 pErrorCode
 )
 ;

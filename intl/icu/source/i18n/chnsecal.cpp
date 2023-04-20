@@ -594,8 +594,8 @@ icu
 :
 UInitOnce
 gChineseCalendarZoneAstroCalcInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 /
 *
@@ -839,7 +839,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -1054,7 +1054,7 @@ success
 )
 isLeapYear
 (
-FALSE
+false
 )
 fEpochYear
 (
@@ -1124,7 +1124,7 @@ success
 )
 isLeapYear
 (
-FALSE
+false
 )
 fEpochYear
 (
@@ -2495,7 +2495,7 @@ handleComputeMonthStart
 (
 extendedYear
 month
-TRUE
+true
 )
 -
 kEpochStartAsJulianDay
@@ -2518,7 +2518,7 @@ newMoonNear
 thisStart
 +
 SYNODIC_GAP
-TRUE
+true
 )
 ;
 return
@@ -2672,7 +2672,7 @@ getGregorianYear
 getGregorianMonth
 (
 )
-TRUE
+true
 )
 ;
 /
@@ -3022,6 +3022,7 @@ m
 12
 .
 0
+&
 m
 )
 ;
@@ -3064,7 +3065,7 @@ theNewYear
 month
 *
 29
-TRUE
+true
 )
 ;
 int32_t
@@ -3164,7 +3165,7 @@ getGregorianYear
 getGregorianMonth
 (
 )
-FALSE
+false
 )
 ;
 if
@@ -3194,7 +3195,7 @@ newMoonNear
 newMoon
 +
 SYNODIC_GAP
-TRUE
+true
 )
 ;
 julianDay
@@ -3759,7 +3760,7 @@ moon1
 newMoonNear
 (
 moon1
-TRUE
+true
 )
 ;
 if
@@ -4216,7 +4217,7 @@ fZoneAstroCalc
 getOffset
 (
 millis
-FALSE
+false
 rawOffset
 dstOffset
 status
@@ -4328,7 +4329,7 @@ fZoneAstroCalc
 getOffset
 (
 millis
-FALSE
+false
 rawOffset
 dstOffset
 status
@@ -4761,7 +4762,7 @@ CalendarAstronomer
 WINTER_SOLSTICE
 (
 )
-TRUE
+true
 )
 ;
 umtx_unlock
@@ -5367,7 +5368,7 @@ newMoonNear
 newMoon
 +
 SYNODIC_GAP
-TRUE
+true
 )
 )
 ;
@@ -5672,7 +5673,7 @@ newMoonNear
 newMoon2
 -
 SYNODIC_GAP
-FALSE
+false
 )
 )
 |
@@ -5993,7 +5994,7 @@ newMoonNear
 solsticeBefore
 +
 1
-TRUE
+true
 )
 ;
 int32_t
@@ -6004,7 +6005,7 @@ newMoonNear
 solsticeAfter
 +
 1
-FALSE
+false
 )
 ;
 int32_t
@@ -6015,7 +6016,7 @@ newMoonNear
 days
 +
 1
-FALSE
+false
 )
 ;
 /
@@ -6104,7 +6105,7 @@ newMoonNear
 thisMoon
 -
 SYNODIC_GAP
-FALSE
+false
 )
 )
 ;
@@ -6245,6 +6246,7 @@ cycle_year
 -
 1
 60
+&
 yearOfCycle
 )
 ;
@@ -6617,7 +6619,7 @@ newMoonNear
 solsticeBefore
 +
 1
-TRUE
+true
 )
 ;
 int32_t
@@ -6628,7 +6630,7 @@ newMoonNear
 newMoon1
 +
 SYNODIC_GAP
-TRUE
+true
 )
 ;
 int32_t
@@ -6639,7 +6641,7 @@ newMoonNear
 solsticeAfter
 +
 1
-FALSE
+false
 )
 ;
 if
@@ -6675,7 +6677,7 @@ newMoonNear
 newMoon2
 +
 SYNODIC_GAP
-TRUE
+true
 )
 ;
 }
@@ -6916,7 +6918,7 @@ newMoon
 newMoonNear
 (
 newMoon
-TRUE
+true
 )
 ;
 /
@@ -7114,7 +7116,7 @@ useDaylightTime
 )
 )
 return
-FALSE
+false
 ;
 /
 /
@@ -7167,7 +7169,7 @@ UCAL_DST_OFFSET
 0
 )
 :
-FALSE
+false
 )
 ;
 }
@@ -7194,8 +7196,8 @@ icu
 :
 UInitOnce
 gSystemDefaultCenturyInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 UBool
 ChineseCalendar
@@ -7207,7 +7209,7 @@ haveDefaultCentury
 const
 {
 return
-TRUE
+true
 ;
 }
 UDate

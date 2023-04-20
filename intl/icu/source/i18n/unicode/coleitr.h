@@ -2640,6 +2640,8 @@ other
 CollationElementIterator
 (
 )
+=
+delete
 ;
 /
 /

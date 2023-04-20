@@ -981,7 +981,7 @@ MBCSOkForBaseFromUnicode
 )
 to
 return
-FALSE
+false
 for
 the
 *
@@ -1002,7 +1002,7 @@ gDummy
 .
 utf8Friendly
 =
-TRUE
+true
 ;
 if
 (
@@ -1019,7 +1019,7 @@ gDummy
 .
 omitFromU
 =
-TRUE
+true
 ;
 }
 else
@@ -1391,7 +1391,7 @@ sum
 )
 ;
 return
-FALSE
+false
 ;
 }
 for
@@ -1556,7 +1556,7 @@ sum
 )
 ;
 return
-FALSE
+false
 ;
 }
 uprv_memset
@@ -2193,13 +2193,13 @@ maxCharLength
 *
 /
 return
-TRUE
+true
 ;
 }
 /
 *
 return
-TRUE
+true
 for
 success
 *
@@ -2270,7 +2270,7 @@ codePoint
 c
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -2332,7 +2332,7 @@ c
 )
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -2371,7 +2371,7 @@ i
 1
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -2552,7 +2552,7 @@ boolean
 *
 1
 (
-TRUE
+true
 )
 this
 is
@@ -2562,7 +2562,7 @@ mapping
 *
 0
 (
-FALSE
+false
 )
 this
 is
@@ -2658,7 +2658,7 @@ n
 )
 ;
 return
-FALSE
+false
 ;
 }
 /
@@ -2835,7 +2835,7 @@ c
 )
 ;
 return
-FALSE
+false
 ;
 }
 state
@@ -2919,7 +2919,7 @@ c
 )
 ;
 return
-FALSE
+false
 ;
 }
 switch
@@ -2972,7 +2972,7 @@ length
 )
 ;
 return
-FALSE
+false
 ;
 case
 MBCS_STATE_CHANGE_ONLY
@@ -3019,7 +3019,7 @@ length
 )
 ;
 return
-FALSE
+false
 ;
 case
 MBCS_STATE_UNASSIGNED
@@ -3063,7 +3063,7 @@ length
 )
 ;
 return
-FALSE
+false
 ;
 case
 MBCS_STATE_FALLBACK_DIRECT_16
@@ -3213,7 +3213,7 @@ old
 )
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -3553,7 +3553,7 @@ old
 )
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -3660,7 +3660,7 @@ length
 )
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -3931,7 +3931,7 @@ real
 )
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -4336,11 +4336,11 @@ c
 )
 ;
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 }
@@ -4481,7 +4481,7 @@ flag
 )
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -4746,7 +4746,7 @@ b
 )
 ;
 return
-FALSE
+false
 ;
 }
 /
@@ -4996,7 +4996,7 @@ b
 )
 ;
 return
-FALSE
+false
 ;
 }
 /
@@ -5217,7 +5217,7 @@ old
 )
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -5282,7 +5282,7 @@ unspecified
 /
 }
 return
-TRUE
+true
 ;
 }
 static
@@ -5434,7 +5434,7 @@ length
 )
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -5492,7 +5492,7 @@ bytes
 )
 ;
 return
-FALSE
+false
 ;
 }
 /
@@ -5757,7 +5757,7 @@ length
 )
 ;
 return
-FALSE
+false
 ;
 }
 /
@@ -6130,7 +6130,7 @@ length
 )
 ;
 return
-FALSE
+false
 ;
 }
 /
@@ -6868,7 +6868,7 @@ old
 )
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -6987,7 +6987,7 @@ c
 ;
 }
 return
-TRUE
+true
 ;
 }
 U_CFUNC
@@ -7178,7 +7178,7 @@ bytes
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -7279,7 +7279,7 @@ flag
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -7334,7 +7334,7 @@ flag
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -7352,7 +7352,7 @@ table
 *
 /
 return
-TRUE
+true
 ;
 }
 U_CDECL_BEGIN
@@ -7457,7 +7457,7 @@ n
 )
 ;
 return
-FALSE
+false
 ;
 }
 staticData
@@ -7567,7 +7567,7 @@ mbcsData
 >
 omitFromU
 =
-TRUE
+true
 ;
 }
 }
@@ -7628,7 +7628,7 @@ mbcsData
 )
 {
 return
-FALSE
+false
 ;
 }
 staticData
@@ -7636,18 +7636,18 @@ staticData
 >
 hasFromUnicodeFallback
 =
-FALSE
+false
 ;
 staticData
 -
 >
 hasToUnicodeFallback
 =
-FALSE
+false
 ;
 isOK
 =
-TRUE
+true
 ;
 m
 =
@@ -8035,7 +8035,7 @@ staticData
 >
 hasFromUnicodeFallback
 =
-TRUE
+true
 ;
 isOK
 &
@@ -8084,7 +8084,7 @@ staticData
 >
 hasFromUnicodeFallback
 =
-TRUE
+true
 ;
 isOK
 &
@@ -8205,7 +8205,7 @@ staticData
 >
 hasToUnicodeFallback
 =
-TRUE
+true
 ;
 isOK
 &
@@ -8298,7 +8298,7 @@ f
 )
 ;
 return
-FALSE
+false
 ;
 }
 }
@@ -8355,7 +8355,7 @@ oldLength
 )
 {
 return
-FALSE
+false
 ;
 }
 old3Top
@@ -8489,7 +8489,7 @@ done
 *
 /
 return
-FALSE
+false
 ;
 }
 }
@@ -9076,7 +9076,7 @@ value
 }
 }
 return
-TRUE
+true
 ;
 }
 /

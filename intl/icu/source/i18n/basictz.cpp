@@ -359,7 +359,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -371,7 +371,7 @@ tz
 )
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -392,7 +392,7 @@ dst2
 getOffset
 (
 start
-FALSE
+false
 raw1
 dst1
 status
@@ -407,7 +407,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 tz
@@ -415,7 +415,7 @@ tz
 getOffset
 (
 start
-FALSE
+false
 raw2
 dst2
 status
@@ -430,7 +430,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -481,7 +481,7 @@ dst2
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -502,7 +502,7 @@ dst2
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -524,7 +524,7 @@ tr2
 ;
 while
 (
-TRUE
+true
 )
 {
 UBool
@@ -533,7 +533,7 @@ avail1
 getNextTransition
 (
 time
-FALSE
+false
 tr1
 )
 ;
@@ -545,7 +545,7 @@ tz
 getNextTransition
 (
 time
-FALSE
+false
 tr2
 )
 ;
@@ -569,7 +569,7 @@ DST
 savings
 while
 (
-TRUE
+true
 )
 {
 if
@@ -674,7 +674,7 @@ tr1
 getTime
 (
 )
-FALSE
+false
 tr1
 )
 ;
@@ -687,7 +687,7 @@ break
 }
 while
 (
-TRUE
+true
 )
 {
 if
@@ -794,7 +794,7 @@ tr2
 getTime
 (
 )
-FALSE
+false
 tr2
 )
 ;
@@ -872,7 +872,7 @@ inRange2
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -892,7 +892,7 @@ getTime
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1013,7 +1013,7 @@ getDSTSavings
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1070,7 +1070,7 @@ getDSTSavings
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1084,7 +1084,7 @@ getTime
 ;
 }
 return
-TRUE
+true
 ;
 }
 void
@@ -1175,7 +1175,7 @@ avail
 getNextTransition
 (
 date
-FALSE
+false
 tr
 )
 ;
@@ -1550,7 +1550,7 @@ avail
 getNextTransition
 (
 nextTransitionTime
-FALSE
+false
 tr
 )
 ;
@@ -1841,7 +1841,7 @@ getFrom
 getDSTSavings
 (
 )
-TRUE
+true
 d
 )
 ;
@@ -1927,7 +1927,7 @@ avail
 getPreviousTransition
 (
 date
-TRUE
+true
 tr
 )
 ;
@@ -2203,7 +2203,7 @@ getFrom
 getDSTSavings
 (
 )
-FALSE
+false
 d
 )
 ;
@@ -2324,7 +2324,7 @@ avail
 getPreviousTransition
 (
 date
-TRUE
+true
 tr
 )
 ;
@@ -2390,7 +2390,7 @@ offsets
 getOffset
 (
 date
-FALSE
+false
 initialRaw
 initialDst
 status
@@ -2747,7 +2747,7 @@ avail
 getPreviousTransition
 (
 start
-TRUE
+true
 tzt
 )
 ;
@@ -2996,7 +2996,7 @@ res_initial
 getDSTSavings
 (
 )
-FALSE
+false
 time
 )
 ;
@@ -3028,7 +3028,7 @@ avail
 getNextTransition
 (
 time
-FALSE
+false
 tzt
 )
 ;
@@ -3243,7 +3243,7 @@ start
 ;
 while
 (
-TRUE
+true
 )
 {
 avail
@@ -3251,7 +3251,7 @@ avail
 getNextTransition
 (
 t
-FALSE
+false
 tzt0
 )
 ;
@@ -3966,14 +3966,14 @@ getDSTSavings
 {
 bFinalStd
 =
-TRUE
+true
 ;
 }
 else
 {
 bFinalDst
 =
-TRUE
+true
 ;
 }
 }

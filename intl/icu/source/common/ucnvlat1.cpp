@@ -3140,8 +3140,8 @@ UCNV_LATIN_1
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -4887,8 +4887,8 @@ UCNV_US_ASCII
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {

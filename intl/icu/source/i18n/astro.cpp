@@ -590,7 +590,7 @@ void
 )
 {
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -2191,7 +2191,7 @@ moonPosition
 )
 moonPositionSet
 (
-FALSE
+false
 )
 {
 clearCache
@@ -2283,7 +2283,7 @@ moonPosition
 )
 moonPositionSet
 (
-FALSE
+false
 )
 {
 clearCache
@@ -2439,7 +2439,7 @@ moonPosition
 )
 moonPositionSet
 (
-FALSE
+false
 )
 {
 fLongitude
@@ -10472,7 +10472,7 @@ if
 moonPositionSet
 =
 =
-FALSE
+false
 )
 {
 /
@@ -11102,7 +11102,7 @@ moonEclipLat
 ;
 moonPositionSet
 =
-TRUE
+true
 ;
 }
 return
@@ -13617,7 +13617,7 @@ INVALID
 ;
 moonPositionSet
 =
-FALSE
+false
 ;
 }
 /
@@ -13772,7 +13772,7 @@ tz
 getOffset
 (
 localMillis
-TRUE
+true
 rawOffset
 dstOffset
 status

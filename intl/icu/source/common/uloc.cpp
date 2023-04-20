@@ -1208,6 +1208,9 @@ bfq
 bg
 "
 "
+bgc
+"
+"
 bgn
 "
 "
@@ -3279,6 +3282,9 @@ bfq
 "
 "
 bul
+"
+"
+bgc
 "
 "
 bgn
@@ -8514,7 +8520,7 @@ i
 UBool
 reset
 =
-TRUE
+true
 ;
 for
 (
@@ -8566,7 +8572,7 @@ tmpLength
 ;
 reset
 =
-FALSE
+false
 ;
 }
 tmpLength
@@ -8596,7 +8602,7 @@ tmpLength
 }
 reset
 =
-TRUE
+true
 ;
 }
 }
@@ -9302,7 +9308,7 @@ do
 UBool
 duplicate
 =
-FALSE
+false
 ;
 /
 *
@@ -9823,7 +9829,7 @@ keyword
 {
 duplicate
 =
-TRUE
+true
 ;
 break
 ;
@@ -9876,7 +9882,7 @@ KeywordStruct
 )
 compareKeywordStructs
 NULL
-FALSE
+false
 status
 )
 ;
@@ -10875,7 +10881,7 @@ updatedKeysAndValues
 UBool
 handledInputKeyAndValue
 =
-FALSE
+false
 ;
 char
 keyValuePrefix
@@ -11847,7 +11853,7 @@ anything
 /
 handledInputKeyAndValue
 =
-TRUE
+true
 ;
 }
 else
@@ -11952,7 +11958,7 @@ status
 ;
 handledInputKeyAndValue
 =
-TRUE
+true
 ;
 }
 /
@@ -12115,7 +12121,7 @@ status
 ;
 handledInputKeyAndValue
 =
-TRUE
+true
 ;
 }
 keywordStart
@@ -12556,7 +12562,7 @@ I
 /
 *
 returns
-TRUE
+true
 if
 one
 of
@@ -13728,7 +13734,7 @@ needSeparator
 UBool
 hasVariant
 =
-FALSE
+false
 ;
 /
 *
@@ -13799,7 +13805,7 @@ _
 ;
 needSeparator
 =
-FALSE
+false
 ;
 }
 char
@@ -13840,7 +13846,7 @@ c
 ;
 hasVariant
 =
-TRUE
+true
 ;
 localeID
 +
@@ -13956,7 +13962,7 @@ _
 ;
 needSeparator
 =
-FALSE
+false
 ;
 }
 char
@@ -14798,7 +14804,7 @@ tmpLocaleID
 '
 '
 sink
-FALSE
+false
 status
 )
 ;
@@ -15640,7 +15646,7 @@ tmpLocaleID
 *
 tmpLocaleID
 s
-FALSE
+false
 )
 ;
 }
@@ -15720,7 +15726,7 @@ tmpLocaleID
 UBool
 done
 =
-FALSE
+false
 ;
 do
 {
@@ -15744,7 +15750,7 @@ case
 :
 done
 =
-TRUE
+true
 ;
 break
 ;
@@ -16253,7 +16259,7 @@ tmpLocaleID
 '
 '
 sink
-TRUE
+true
 err
 )
 ;
@@ -17211,7 +17217,7 @@ tmpLocaleID
 *
 tmpLocaleID
 sink
-FALSE
+false
 )
 ;
 i
@@ -18636,7 +18642,7 @@ p
 )
 {
 return
-FALSE
+false
 ;
 }
 p
@@ -18645,7 +18651,7 @@ p
 ;
 }
 return
-TRUE
+true
 ;
 }
 static
@@ -18714,7 +18720,7 @@ alphaNumLen
 )
 {
 return
-FALSE
+false
 ;
 }
 alphaNumLen
@@ -18740,7 +18746,7 @@ alphaNumLen
 else
 {
 return
-FALSE
+false
 ;
 }
 p

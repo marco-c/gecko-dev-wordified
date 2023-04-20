@@ -10631,9 +10631,6 @@ ICU
 *
 /
 UDAT_ZODIAC_NAMES_NARROW
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -10646,7 +10643,7 @@ for
 example
 1
 *
-draft
+stable
 ICU
 70
 *
@@ -10665,17 +10662,12 @@ for
 example
 1
 *
-draft
+stable
 ICU
 70
 *
 /
 UDAT_STANDALONE_NARROW_QUARTERS
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 }
 UDateFormatSymbolType
 ;

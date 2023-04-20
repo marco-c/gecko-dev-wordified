@@ -333,7 +333,7 @@ fLength
 ;
 fDidReorder
 =
-TRUE
+true
 ;
 }
 void
@@ -1014,13 +1014,13 @@ highCC
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 }
 return
-FALSE
+false
 ;
 }
 void
@@ -1386,7 +1386,7 @@ trail
 >
 combinesBack
 =
-TRUE
+true
 ;
 /
 /
@@ -2360,7 +2360,7 @@ delta
 didDecompose
 |
 =
-TRUE
+true
 ;
 }
 }

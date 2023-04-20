@@ -1540,7 +1540,7 @@ NULL
 .
 *
 return
-TRUE
+true
 if
 known
 issue
@@ -1548,7 +1548,7 @@ test
 should
 be
 skipped
-FALSE
+false
 if
 it
 should

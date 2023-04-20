@@ -864,15 +864,15 @@ fractionRules
 )
 fIsFractionRuleSet
 (
-FALSE
+false
 )
 fIsPublic
 (
-FALSE
+false
 )
 fIsParseable
 (
-TRUE
+true
 )
 {
 for
@@ -1192,7 +1192,7 @@ gNoparse
 {
 fIsParseable
 =
-FALSE
+false
 ;
 name
 .
@@ -1843,7 +1843,7 @@ setBestFractionRule
 (
 IMPROPER_FRACTION_RULE_INDEX
 rule
-TRUE
+true
 )
 ;
 }
@@ -1863,7 +1863,7 @@ setBestFractionRule
 (
 PROPER_FRACTION_RULE_INDEX
 rule
-TRUE
+true
 )
 ;
 }
@@ -1883,7 +1883,7 @@ setBestFractionRule
 (
 DEFAULT_RULE_INDEX
 rule
-TRUE
+true
 )
 ;
 }
@@ -2226,11 +2226,11 @@ rule2
 )
 {
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 bool
@@ -2539,7 +2539,7 @@ setBestFractionRule
 (
 nonNumericalIdx
 fractionRule
-FALSE
+false
 )
 ;
 }

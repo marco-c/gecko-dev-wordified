@@ -824,7 +824,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -839,7 +839,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -851,7 +851,7 @@ minimumCapacity
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -871,7 +871,7 @@ status
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -897,7 +897,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -977,7 +977,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 int64_t
@@ -1026,7 +1026,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 elements
@@ -1038,7 +1038,7 @@ capacity
 newCap
 ;
 return
-TRUE
+true
 ;
 }
 void

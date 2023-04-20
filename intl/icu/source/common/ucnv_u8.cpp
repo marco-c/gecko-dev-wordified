@@ -598,7 +598,7 @@ cnv
 if
 UCONFIG_ONLY_HTML_CONVERSION
 return
-FALSE
+false
 ;
 #
 else
@@ -5858,8 +5858,8 @@ _pair_
 0
 }
 3
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -6025,8 +6025,8 @@ UCNV_CESU8
 0
 }
 3
-FALSE
-FALSE
+false
+false
 0
 0
 {

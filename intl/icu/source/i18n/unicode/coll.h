@@ -9912,6 +9912,8 @@ Collator
 &
 other
 )
+=
+delete
 ;
 friend
 class

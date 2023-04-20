@@ -525,7 +525,7 @@ EscapeTransliterator
 ID
 UnicodeString
 (
-TRUE
+true
 UNIPRE
 2
 )
@@ -534,7 +534,7 @@ UnicodeString
 )
 16
 4
-TRUE
+true
 NULL
 )
 ;
@@ -582,7 +582,7 @@ EscapeTransliterator
 ID
 UnicodeString
 (
-TRUE
+true
 BS_u
 2
 )
@@ -591,7 +591,7 @@ UnicodeString
 )
 16
 4
-FALSE
+false
 NULL
 )
 ;
@@ -650,7 +650,7 @@ EscapeTransliterator
 ID
 UnicodeString
 (
-TRUE
+true
 BS_u
 2
 )
@@ -659,7 +659,7 @@ UnicodeString
 )
 16
 4
-TRUE
+true
 new
 EscapeTransliterator
 (
@@ -668,7 +668,7 @@ UnicodeString
 )
 UnicodeString
 (
-TRUE
+true
 BS_U
 2
 )
@@ -677,7 +677,7 @@ UnicodeString
 )
 16
 8
-TRUE
+true
 NULL
 )
 )
@@ -727,7 +727,7 @@ EscapeTransliterator
 ID
 UnicodeString
 (
-TRUE
+true
 XMLPRE
 3
 )
@@ -740,7 +740,7 @@ SEMI
 )
 16
 1
-TRUE
+true
 NULL
 )
 ;
@@ -797,7 +797,7 @@ EscapeTransliterator
 ID
 UnicodeString
 (
-TRUE
+true
 XML10PRE
 2
 )
@@ -810,7 +810,7 @@ SEMI
 )
 10
 1
-TRUE
+true
 NULL
 )
 ;
@@ -861,7 +861,7 @@ EscapeTransliterator
 ID
 UnicodeString
 (
-TRUE
+true
 PERLPRE
 3
 )
@@ -874,7 +874,7 @@ RBRACE
 )
 16
 1
-TRUE
+true
 NULL
 )
 ;
@@ -1347,7 +1347,7 @@ length
 UBool
 redoPrefix
 =
-FALSE
+false
 ;
 while
 (
@@ -1451,7 +1451,7 @@ suffix
 ;
 redoPrefix
 =
-TRUE
+true
 ;
 }
 else
@@ -1477,7 +1477,7 @@ prefix
 ;
 redoPrefix
 =
-FALSE
+false
 ;
 }
 else

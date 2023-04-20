@@ -2696,6 +2696,8 @@ UErrorCode
 status
 )
 const
+=
+delete
 ;
 public
 :
@@ -5591,6 +5593,8 @@ UErrorCode
 &
 status
 )
+=
+delete
 ;
 public
 :
@@ -8874,6 +8878,8 @@ char16_t
 *
 input
 )
+=
+delete
 ;
 public
 :
@@ -13438,6 +13444,8 @@ etc
 RegexMatcher
 (
 )
+=
+delete
 ;
 /
 /
@@ -13460,6 +13468,8 @@ RegexMatcher
 &
 other
 )
+=
+delete
 ;
 RegexMatcher
 &
@@ -13471,6 +13481,8 @@ RegexMatcher
 &
 rhs
 )
+=
+delete
 ;
 void
 init

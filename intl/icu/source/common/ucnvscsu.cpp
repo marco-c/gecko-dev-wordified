@@ -1316,7 +1316,7 @@ scsu
 >
 toUIsSingleByteMode
 =
-TRUE
+true
 ;
 scsu
 -
@@ -1381,7 +1381,7 @@ scsu
 >
 fromUIsSingleByteMode
 =
-TRUE
+true
 ;
 scsu
 -
@@ -2778,7 +2778,7 @@ nextSourceIndex
 ;
 isSingleByteMode
 =
-FALSE
+false
 ;
 goto
 fastUnicode
@@ -3735,7 +3735,7 @@ nextSourceIndex
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 goto
 fastSingle
@@ -3773,7 +3773,7 @@ UD0
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -3811,7 +3811,7 @@ UDX
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -5072,7 +5072,7 @@ SCU
 {
 isSingleByteMode
 =
-FALSE
+false
 ;
 goto
 fastUnicode
@@ -5893,7 +5893,7 @@ UC0
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 goto
 fastSingle
@@ -5931,7 +5931,7 @@ UD0
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -5969,7 +5969,7 @@ UDX
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -8433,7 +8433,7 @@ pair
 /
 isSingleByteMode
 =
-FALSE
+false
 ;
 *
 target
@@ -9009,7 +9009,7 @@ immediately
 /
 isSingleByteMode
 =
-FALSE
+false
 ;
 c
 |
@@ -9377,7 +9377,7 @@ letter
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 c
 |
@@ -9444,7 +9444,7 @@ it
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -9529,7 +9529,7 @@ character
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -9882,7 +9882,7 @@ window
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -10004,7 +10004,7 @@ one
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 code
 -
@@ -11942,7 +11942,7 @@ pair
 /
 isSingleByteMode
 =
-FALSE
+false
 ;
 *
 target
@@ -12502,7 +12502,7 @@ immediately
 /
 isSingleByteMode
 =
-FALSE
+false
 ;
 c
 |
@@ -12839,7 +12839,7 @@ letter
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 c
 |
@@ -12906,7 +12906,7 @@ it
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -12991,7 +12991,7 @@ character
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -13340,7 +13340,7 @@ window
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -13462,7 +13462,7 @@ one
 /
 isSingleByteMode
 =
-TRUE
+true
 ;
 code
 -
@@ -14502,7 +14502,7 @@ cnv
 .
 isExtraLocal
 =
-TRUE
+true
 ;
 return
 &
@@ -14612,8 +14612,8 @@ string
 0
 }
 3
-FALSE
-FALSE
+false
+false
 0
 0
 {

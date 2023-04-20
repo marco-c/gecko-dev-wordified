@@ -697,7 +697,7 @@ start
 UBool
 found
 =
-FALSE
+false
 ;
 /
 *
@@ -847,7 +847,7 @@ found
 will
 never
 become
-TRUE
+true
 in
 the
 insertion
@@ -863,7 +863,7 @@ duplicates
 /
 found
 =
-TRUE
+true
 ;
 start
 =
@@ -938,7 +938,7 @@ diff
 {
 found
 =
-TRUE
+true
 ;
 }
 else

@@ -261,6 +261,13 @@ Viswanadha
 #
 include
 <
+stdbool
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -1649,7 +1656,7 @@ NULL
 MAX_DATA_LENGTH
 0
 0
-FALSE
+false
 )
 )
 {
@@ -3765,7 +3772,7 @@ end
 +
 1
 trieWord
-FALSE
+false
 )
 )
 {
@@ -4001,7 +4008,7 @@ sizeof
 sprepTrieBlock
 )
 getFoldedValue
-TRUE
+true
 &
 errorCode
 )
