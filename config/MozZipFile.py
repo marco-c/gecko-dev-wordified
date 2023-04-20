@@ -62,11 +62,11 @@ unicode_literals
 import
 os
 import
-six
-import
 time
 import
 zipfile
+import
+six
 from
 mozbuild
 .

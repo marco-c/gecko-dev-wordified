@@ -53,15 +53,6 @@ MPL
 0
 /
 .
-from
-argparse
-import
-(
-    
-Action
-    
-ArgumentParser
-)
 import
 os
 import
@@ -70,6 +61,11 @@ import
 sys
 import
 tempfile
+from
+argparse
+import
+Action
+ArgumentParser
 import
 buildconfig
 class

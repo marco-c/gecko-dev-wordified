@@ -60,9 +60,9 @@ absolute_import
 print_function
 unicode_literals
 import
-os
-import
 errno
+import
+os
 def
 mtime
 (
