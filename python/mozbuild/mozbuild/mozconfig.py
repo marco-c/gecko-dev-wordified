@@ -981,7 +981,12 @@ command
 =
 [
             
+mozpath
+.
+normsep
+(
 shell
+)
             
 mozpath
 .
@@ -1001,11 +1006,21 @@ self
 topsrcdir
 )
             
+mozpath
+.
+normsep
+(
 path
+)
             
+mozpath
+.
+normsep
+(
 sys
 .
 executable
+)
             
 mozpath
 .
