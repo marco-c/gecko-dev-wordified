@@ -817,6 +817,13 @@ it
 -
 >
 adapter_type
+/
+*
+field_trials
+=
+*
+/
+nullptr
 )
 ;
 if
