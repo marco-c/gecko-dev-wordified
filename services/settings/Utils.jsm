@@ -255,7 +255,9 @@ LOG_LEVELS
 in
 Console
 .
-jsm
+sys
+.
+mjs
 .
 Common
 examples
@@ -269,6 +271,8 @@ debug
 "
 info
 "
+/
+/
 "
 warn
 "
