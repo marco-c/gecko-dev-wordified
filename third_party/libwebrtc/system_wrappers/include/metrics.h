@@ -2641,12 +2641,11 @@ once
 per
 call
 .
-enum
-{
+constexpr
+int
 kMinRunTimeInSeconds
 =
 10
-}
 ;
 class
 Histogram

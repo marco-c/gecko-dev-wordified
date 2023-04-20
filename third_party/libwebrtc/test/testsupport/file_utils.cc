@@ -374,6 +374,7 @@ defined
 (
 WEBRTC_WIN
 )
+ABSL_CONST_INIT
 const
 absl
 :
@@ -388,6 +389,7 @@ kPathDelimiter
 ;
 #
 else
+ABSL_CONST_INIT
 const
 absl
 :

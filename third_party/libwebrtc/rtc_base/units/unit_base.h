@@ -387,7 +387,10 @@ operator
 =
 (
 const
+UnitBase
+<
 Unit_T
+>
 &
 other
 )
@@ -409,7 +412,10 @@ operator
 =
 (
 const
+UnitBase
+<
 Unit_T
+>
 &
 other
 )
@@ -431,7 +437,10 @@ operator
 =
 (
 const
+UnitBase
+<
 Unit_T
+>
 &
 other
 )
@@ -453,7 +462,10 @@ operator
 =
 (
 const
+UnitBase
+<
 Unit_T
+>
 &
 other
 )
@@ -474,7 +486,10 @@ operator
 >
 (
 const
+UnitBase
+<
 Unit_T
+>
 &
 other
 )
@@ -494,7 +509,10 @@ operator
 <
 (
 const
+UnitBase
+<
 Unit_T
+>
 &
 other
 )

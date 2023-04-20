@@ -441,7 +441,7 @@ typename
 std
 :
 :
-result_of
+invoke_result
 <
 decltype
 (
@@ -453,9 +453,7 @@ operator
 (
 )
 )
-(
 Closure
-)
 >
 :
 :
