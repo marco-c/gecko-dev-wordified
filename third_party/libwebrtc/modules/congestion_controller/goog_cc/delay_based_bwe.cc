@@ -1767,6 +1767,12 @@ prev_state_
 detector_state
 ;
 }
+result
+.
+delay_detector_state
+=
+detector_state
+;
 return
 result
 ;

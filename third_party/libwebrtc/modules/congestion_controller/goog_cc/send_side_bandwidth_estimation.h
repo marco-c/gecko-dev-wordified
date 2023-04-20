@@ -140,6 +140,15 @@ include
 "
 api
 /
+network_state_predictor
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 network_types
@@ -562,6 +571,8 @@ Timestamp
 at_time
 DataRate
 bitrate
+BandwidthUsage
+delay_detector_state
 )
 ;
 /
@@ -669,7 +680,7 @@ at_time
 )
 ;
 void
-IncomingPacketFeedbackVector
+UpdateLossBasedEstimatorFromFeedbackVector
 (
 const
 TransportPacketsFeedback
@@ -1130,6 +1141,9 @@ loss_based_bandwidth_estimator_v2_
 ;
 FieldTrialFlag
 disable_receiver_limit_caps_only_
+;
+BandwidthUsage
+delay_detector_state_
 ;
 }
 ;
