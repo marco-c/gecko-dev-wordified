@@ -1105,6 +1105,10 @@ const
 bool
 simulate_vp9_structure_
 ;
+const
+bool
+simulate_generic_structure_
+;
 /
 /
 TODO
