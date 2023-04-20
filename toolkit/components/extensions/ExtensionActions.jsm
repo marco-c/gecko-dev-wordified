@@ -1719,6 +1719,13 @@ clickInfo
 )
 ;
 }
+this
+.
+updateOnChange
+(
+tab
+)
+;
 return
 popupUrl
 ;
