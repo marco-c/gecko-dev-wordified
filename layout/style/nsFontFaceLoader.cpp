@@ -1387,8 +1387,10 @@ updateUserFontSet
 {
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 fontSets
 ;
@@ -2115,8 +2117,10 @@ to
 reflow
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 fontSets
 ;

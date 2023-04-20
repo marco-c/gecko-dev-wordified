@@ -4836,8 +4836,10 @@ GetUserFontSets
 (
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 &
 aResult

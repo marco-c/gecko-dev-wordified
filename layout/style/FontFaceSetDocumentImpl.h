@@ -196,6 +196,17 @@ IsOnOwningThread
 )
 override
 ;
+#
+ifdef
+DEBUG
+void
+AssertIsOnOwningThread
+(
+)
+override
+;
+#
+endif
 void
 DispatchToOwningThread
 (
