@@ -6133,11 +6133,17 @@ content_name
 )
 ]
 =
+std
+:
+:
+string
+(
 channel
 -
 >
 transport_name
 (
+)
 )
 ;
 }

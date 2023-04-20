@@ -187,12 +187,10 @@ override
 ;
 MOCK_METHOD
 (
-const
-std
+absl
 :
 :
-string
-&
+string_view
 transport_name
 (
 )
