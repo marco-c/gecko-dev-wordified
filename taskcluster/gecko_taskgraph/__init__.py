@@ -373,6 +373,11 @@ object
 "
     
 from
+taskgraph
+import
+generator
+    
+from
 gecko_taskgraph
 .
 parameters
@@ -395,11 +400,6 @@ registration
 target_tasks
     
 )
-    
-from
-gecko_taskgraph
-import
-generator
     
 from
 gecko_taskgraph
