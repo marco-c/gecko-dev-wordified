@@ -443,9 +443,6 @@ rtcp_rtt_stats
 RtcpIntraFrameObserver
 *
 intra_frame_callback
-RtcpStatisticsCallback
-*
-rtcp_stats
 ReportBlockDataObserver
 *
 report_block_data_observer
@@ -489,12 +486,6 @@ observers
 rtcp_loss_notification_observer
 =
 nullptr
-;
-observers
-.
-rtcp_stats
-=
-rtcp_stats
 ;
 observers
 .
@@ -892,8 +883,6 @@ CreateObservers
 nullptr
 &
 encoder_feedback_
-&
-stats_proxy_
 &
 stats_proxy_
 &
