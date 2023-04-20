@@ -9935,7 +9935,7 @@ gCallbackSecurityPrefs
 this
 )
 ;
-NSSShutdownForSocketProcess
+PrepareForShutdownInSocketProcess
 (
 )
 ;
