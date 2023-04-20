@@ -49728,6 +49728,17 @@ eAutoMinSizing
 )
 &
 &
+!
+(
+state
+&
+TrackSize
+:
+:
+eFlexMaxSizing
+)
+&
+&
 gridItem
 .
 ShouldApplyAutoMinSize
