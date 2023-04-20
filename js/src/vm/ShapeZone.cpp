@@ -184,7 +184,7 @@ popFront
 )
 )
 {
-Shape
+SharedShape
 *
 shape
 =

@@ -657,7 +657,7 @@ init
 *
 /
 static
-Shape
+SharedShape
 *
 assignInitialShape
 (

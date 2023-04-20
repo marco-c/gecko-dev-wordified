@@ -8124,7 +8124,7 @@ DEBUG
 static
 *
 /
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -8293,7 +8293,7 @@ isShapeWithProto
 )
 )
 {
-Shape
+SharedShape
 *
 shape
 =
@@ -8705,7 +8705,7 @@ nullptr
 }
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -8772,7 +8772,7 @@ shape
 static
 *
 /
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -8823,7 +8823,7 @@ objectFlags
 static
 *
 /
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -9019,7 +9019,7 @@ base
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -9097,7 +9097,7 @@ shape
 static
 *
 /
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -9222,7 +9222,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -9325,7 +9325,7 @@ initial
 /
 shape
 .
-Shape
+SharedShape
 *
 initialShape
 =

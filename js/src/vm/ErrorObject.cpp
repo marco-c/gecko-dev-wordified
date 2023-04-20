@@ -2645,7 +2645,7 @@ ctor
 static
 *
 /
-Shape
+SharedShape
 *
 js
 :
@@ -2776,7 +2776,7 @@ return
 obj
 -
 >
-shape
+sharedShape
 (
 )
 ;

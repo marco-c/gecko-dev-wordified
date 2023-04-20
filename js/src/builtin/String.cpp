@@ -25197,7 +25197,7 @@ JS_FS_END
 static
 *
 /
-Shape
+SharedShape
 *
 StringObject
 :
@@ -25257,7 +25257,7 @@ return
 obj
 -
 >
-shape
+sharedShape
 (
 )
 ;

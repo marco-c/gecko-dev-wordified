@@ -6395,7 +6395,7 @@ true
 ;
 }
 static
-Shape
+SharedShape
 *
 AddLengthProperty
 (
@@ -6404,7 +6404,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -30834,7 +30834,7 @@ inline
 .
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

@@ -733,7 +733,7 @@ match
 const
 WeakHeapPtr
 <
-Shape
+SharedShape
 *
 >
 &
@@ -838,7 +838,7 @@ GCHashSet
 <
 WeakHeapPtr
 <
-Shape
+SharedShape
 *
 >
 InitialShapeHasher
@@ -975,7 +975,7 @@ match
 const
 WeakHeapPtr
 <
-Shape
+SharedShape
 *
 >
 &
@@ -1069,7 +1069,7 @@ rekey
 (
 WeakHeapPtr
 <
-Shape
+SharedShape
 *
 >
 &
@@ -1077,7 +1077,7 @@ k
 const
 WeakHeapPtr
 <
-Shape
+SharedShape
 *
 >
 &
@@ -1106,7 +1106,7 @@ GCHashSet
 <
 WeakHeapPtr
 <
-Shape
+SharedShape
 *
 >
 PropMapShapeHasher

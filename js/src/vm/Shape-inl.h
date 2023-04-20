@@ -305,7 +305,7 @@ so
 .
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

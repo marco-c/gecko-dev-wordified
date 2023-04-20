@@ -268,7 +268,7 @@ it
 *
 /
 static
-Shape
+SharedShape
 *
 assignInitialShape
 (
