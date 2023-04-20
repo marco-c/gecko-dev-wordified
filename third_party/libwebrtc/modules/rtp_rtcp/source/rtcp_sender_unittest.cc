@@ -521,7 +521,7 @@ config
 clock
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 /
@@ -6158,7 +6158,7 @@ SetLastRtpTime
 kRtpTimestamp
 clock_
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 /
