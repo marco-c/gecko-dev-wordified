@@ -92,7 +92,9 @@ EXTRA_JS_MODULES
 "
 Subprocess
 .
-jsm
+sys
+.
+mjs
 "
 ]
 EXTRA_JS_MODULES
@@ -104,7 +106,9 @@ subprocess
 "
 subprocess_common
 .
-jsm
+sys
+.
+mjs
 "
 "
 subprocess_shared
@@ -144,7 +148,9 @@ js
 "
 subprocess_win
 .
-jsm
+sys
+.
+mjs
 "
 "
 subprocess_worker_win
@@ -168,7 +174,9 @@ js
 "
 subprocess_unix
 .
-jsm
+sys
+.
+mjs
 "
 "
 subprocess_worker_unix
