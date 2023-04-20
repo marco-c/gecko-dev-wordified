@@ -433,8 +433,6 @@ incoming_render_queue_
 .
 PostDelayedHighPrecisionTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -446,7 +444,6 @@ Dequeue
 )
 ;
 }
-)
 wait_time
 )
 ;
