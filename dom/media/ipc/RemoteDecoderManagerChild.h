@@ -202,6 +202,7 @@ GpuProcess
 UtilityProcess_Generic
 UtilityProcess_AppleMedia
 UtilityProcess_WMF
+UtilityProcess_MFMediaEngineCDM
 SENTINEL
 }
 ;
