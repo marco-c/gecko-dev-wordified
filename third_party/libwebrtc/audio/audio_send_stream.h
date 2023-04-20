@@ -1013,7 +1013,7 @@ rtc
 :
 TaskQueue
 *
-worker_queue_
+rtp_transport_queue_
 ;
 const
 bool
@@ -1171,7 +1171,7 @@ const
 bitrate_allocator_
 RTC_GUARDED_BY
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 /
@@ -1183,7 +1183,7 @@ be
 accessed
 from
 |
-worker_queue_
+rtp_transport_queue_
 |
 .
 absl
@@ -1199,7 +1199,7 @@ TargetAudioBitrateConstraints
 cached_constraints_
 RTC_GUARDED_BY
 (
-worker_queue_
+rtp_transport_queue_
 )
 =
 absl
