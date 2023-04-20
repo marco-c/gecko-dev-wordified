@@ -2144,13 +2144,6 @@ retVal
 )
 ;
 void
-buildCopyLexicalEnvOp
-(
-bool
-copySlots
-)
-;
-void
 buildCheckLexicalOp
 (
 BytecodeLocation
