@@ -3521,17 +3521,6 @@ suppressGC
 ;
 #
 ifdef
-FUZZING_JS_FUZZILLI
-uint32_t
-executionHash
-;
-uint32_t
-executionHashInputs
-;
-#
-endif
-#
-ifdef
 DEBUG
 js
 :
