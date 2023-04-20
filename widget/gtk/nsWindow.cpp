@@ -55672,6 +55672,16 @@ PlatformCompositorWidgetDelegate
 "
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mCompositorWidgetDelegate
+-
+>
+AsGtkCompositorWidget
+(
+)
+)
+;
 if
 (
 mIsMapped
