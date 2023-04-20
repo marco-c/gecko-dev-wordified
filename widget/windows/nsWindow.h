@@ -2712,7 +2712,7 @@ be
 nsSizeMode_Fullscreen
 .
 nsSizeMode
-mOldSizeMode
+mPreFullscreenSizeMode
 =
 nsSizeMode_Normal
 ;
