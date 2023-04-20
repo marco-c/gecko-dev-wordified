@@ -1476,6 +1476,14 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
+const
+bool
+pixel_limit_resource_experiment_enabled_
+RTC_GUARDED_BY
+(
+encoder_queue_
+)
+;
 absl
 :
 :
