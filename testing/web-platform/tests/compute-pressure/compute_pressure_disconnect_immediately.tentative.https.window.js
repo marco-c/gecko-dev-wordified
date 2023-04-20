@@ -158,11 +158,6 @@ observe
 cpu
 '
 )
-.
-catch
-(
-reject
-)
 ;
 }
 )
