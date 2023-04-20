@@ -251,11 +251,10 @@ track_id
 ;
 video_track_source_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 FakeVideoTrackSource
 >

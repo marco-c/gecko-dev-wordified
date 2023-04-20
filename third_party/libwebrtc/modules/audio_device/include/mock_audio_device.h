@@ -154,11 +154,10 @@ CreateNice
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 :
 :
@@ -187,11 +186,10 @@ CreateStrict
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 :
 :

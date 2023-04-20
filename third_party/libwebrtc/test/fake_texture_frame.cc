@@ -148,11 +148,10 @@ Builder
 .
 set_video_frame_buffer
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 FakeNativeBuffer
 >

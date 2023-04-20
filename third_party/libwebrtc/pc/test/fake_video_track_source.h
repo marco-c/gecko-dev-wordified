@@ -161,11 +161,10 @@ is_screencast
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 FakeVideoTrackSource
 >

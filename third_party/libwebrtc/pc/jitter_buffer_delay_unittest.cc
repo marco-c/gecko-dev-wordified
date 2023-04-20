@@ -207,11 +207,10 @@ JitterBufferDelayTest
 :
 delay_
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 JitterBufferDelay
 >

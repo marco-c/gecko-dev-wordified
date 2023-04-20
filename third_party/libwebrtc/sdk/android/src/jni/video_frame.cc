@@ -507,11 +507,10 @@ j_video_frame_buffer
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 AndroidVideoI420Buffer
 >
@@ -760,11 +759,10 @@ j_video_frame_buffer
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 AndroidVideoBuffer
 >

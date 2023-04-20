@@ -3023,11 +3023,10 @@ INFO
 __FUNCTION__
 ;
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 WindowsAudioDeviceModule
 >
