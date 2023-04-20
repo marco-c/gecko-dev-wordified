@@ -10723,7 +10723,7 @@ bool
 callVM
 <
 Fn
-SetObjectElementWithReceiver
+SetElementMegamorphic
 >
 (
 masm
