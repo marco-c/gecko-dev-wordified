@@ -711,17 +711,6 @@ SystemAllocPolicy
 >
 SourceCompressionTaskVector
 ;
-using
-GCParallelTaskList
-=
-mozilla
-:
-:
-LinkedList
-<
-GCParallelTask
->
-;
 typedef
 Vector
 <
@@ -1239,6 +1228,7 @@ JS
 GlobalStats
 *
 stats
+const
 AutoLockHelperThreadState
 &
 lock
@@ -1817,9 +1807,6 @@ GCParallelTaskList
 &
 gcParallelWorklist
 (
-const
-AutoLockHelperThreadState
-&
 )
 {
 return
@@ -4147,6 +4134,11 @@ JS
 ContextOptions
 &
 options
+)
+;
+~
+DelazifyTask
+(
 )
 ;
 [
