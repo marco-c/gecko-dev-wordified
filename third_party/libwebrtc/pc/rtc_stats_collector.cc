@@ -3534,7 +3534,7 @@ if
 (
 video_receiver_info
 .
-framerate_rcvd
+framerate_decoded
 >
 0
 )
@@ -3546,7 +3546,7 @@ frames_per_second
 =
 video_receiver_info
 .
-framerate_rcvd
+framerate_decoded
 ;
 }
 if
