@@ -537,7 +537,7 @@ non_sender_rtt_measurement
 &
 &
 !
-rtt_observer
+network_link_observer
 )
 RTC_LOG
 (
