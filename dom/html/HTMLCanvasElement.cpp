@@ -7642,7 +7642,7 @@ mCurrentContext
 mCurrentContext
 -
 >
-Reset
+ResetBitmap
 (
 )
 ;
