@@ -1265,7 +1265,7 @@ TabStateFlusher
 =
 ChromeUtils
 .
-import
+importESModule
 (
             
 "
