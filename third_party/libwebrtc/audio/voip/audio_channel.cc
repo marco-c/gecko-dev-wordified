@@ -977,7 +977,7 @@ total_duration
 ingress_
 -
 >
-GetTotalDuration
+GetOutputTotalDuration
 (
 )
 ;
