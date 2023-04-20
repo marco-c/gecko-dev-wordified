@@ -259,6 +259,14 @@ CurrentThreadCanAccessZone
 (
 this
 )
+|
+|
+js
+:
+:
+CurrentThreadIsPerformingGC
+(
+)
 )
 ;
 /
@@ -280,7 +288,7 @@ uniqueIds
 (
 )
 .
-lookup
+readonlyThreadsafeLookup
 (
 cell
 )
