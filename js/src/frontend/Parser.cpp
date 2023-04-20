@@ -16138,6 +16138,7 @@ StringBuffer
 prefixed
 (
 cx_
+ec_
 )
 ;
 if
@@ -45919,6 +45920,7 @@ StringBuffer
 privateStateDesc
 (
 cx_
+ec_
 )
 ;
 if
@@ -52635,6 +52637,7 @@ StringBuffer
 storedMethodName
 (
 cx_
+ec_
 )
 ;
 if
