@@ -184,7 +184,7 @@ mozilla
 dom
 :
 :
-ContentParent
+ThreadsafeContentParentHandle
 *
 aContent
 bool
@@ -254,6 +254,7 @@ const
 bool
 mCrossProcess
 ;
+const
 RefPtr
 <
 mozilla
@@ -262,7 +263,7 @@ mozilla
 dom
 :
 :
-ContentParent
+ThreadsafeContentParentHandle
 >
 mContent
 ;
