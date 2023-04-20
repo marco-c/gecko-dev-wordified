@@ -21282,12 +21282,6 @@ ToLayoutRect
 imageRect
 )
 ;
-imageMask
-.
-repeat
-=
-false
-;
 return
 Some
 (
