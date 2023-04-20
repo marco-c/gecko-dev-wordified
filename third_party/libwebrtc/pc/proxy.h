@@ -638,6 +638,11 @@ ScopedTrace
 ;
 private
 :
+[
+[
+maybe_unused
+]
+]
 const
 char
 *
