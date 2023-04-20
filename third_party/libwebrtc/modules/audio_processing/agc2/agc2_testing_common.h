@@ -173,9 +173,9 @@ constexpr
 float
 kDecayMs
 =
-500
+20
 .
-f
+0f
 ;
 /
 /
