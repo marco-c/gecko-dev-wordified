@@ -653,6 +653,17 @@ AssertIsOnBackgroundThread
 (
 )
 ;
+data
+:
+:
+FileSystemDataManager
+:
+:
+AbortOperationsForLocks
+(
+aDirectoryLockIds
+)
+;
 }
 void
 QuotaClient
