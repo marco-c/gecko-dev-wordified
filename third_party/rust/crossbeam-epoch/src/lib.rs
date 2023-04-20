@@ -1070,6 +1070,7 @@ pub
 (
 crate
 )
+const
 fn
 new
 (
