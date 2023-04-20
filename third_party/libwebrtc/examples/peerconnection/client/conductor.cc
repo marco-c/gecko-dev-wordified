@@ -493,8 +493,13 @@ SetSessionDescriptionObserver
 public
 :
 static
+rtc
+:
+:
+scoped_refptr
+<
 DummySetSessionDescriptionObserver
-*
+>
 Create
 (
 )
