@@ -581,7 +581,7 @@ packet_info
 ;
 packet_info
 .
-media_ssrc
+ssrc
 =
 packet
 .
