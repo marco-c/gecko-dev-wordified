@@ -1370,11 +1370,13 @@ dll
 "
 /
 /
-Unclear
-dependency
+For
+_bstr_t
+use
+in
+libwebrtc
 see
-bugs
-1785030
+bug
 1788592
 u
 "
