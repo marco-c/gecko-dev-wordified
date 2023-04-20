@@ -1100,6 +1100,9 @@ ParserSharedBase
 JSContext
 *
 cx
+FrontendContext
+*
+fc
 CompilationState
 &
 compilationState
@@ -1110,6 +1113,10 @@ kind
 cx_
 (
 cx
+)
+fc_
+(
+fc
 )
 alloc_
 (
@@ -1136,10 +1143,10 @@ compilationState
 usedNames
 )
 {
-cx
+fc_
 -
 >
-frontendCollectionPool
+nameCollectionPool
 (
 )
 .
@@ -1156,10 +1163,10 @@ ParserSharedBase
 (
 )
 {
-cx_
+fc_
 -
 >
-frontendCollectionPool
+nameCollectionPool
 (
 )
 .
@@ -1233,6 +1240,7 @@ compilationState
 ParserSharedBase
 (
 cx
+fc
 compilationState
 ParserSharedBase
 :
@@ -1256,10 +1264,6 @@ nullptr
 foldConstants_
 (
 foldConstants
-)
-fc_
-(
-fc
 )
 stackLimit_
 (

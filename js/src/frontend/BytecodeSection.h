@@ -2399,15 +2399,11 @@ PerScriptData
 {
 public
 :
-explicit
 PerScriptData
 (
 FrontendContext
 *
 fc
-NameCollectionPool
-&
-ncp
 frontend
 :
 :

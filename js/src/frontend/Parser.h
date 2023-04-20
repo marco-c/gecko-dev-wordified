@@ -1739,7 +1739,7 @@ ParseContext
 prs
 -
 >
-cx_
+fc_
 prs
 -
 >
@@ -1850,6 +1850,9 @@ ParserSharedBase
 JSContext
 *
 cx
+FrontendContext
+*
+fc
 CompilationState
 &
 compilationState
@@ -1868,6 +1871,10 @@ JSContext
 *
 const
 cx_
+;
+FrontendContext
+*
+fc_
 ;
 LifoAlloc
 &
@@ -2027,10 +2034,6 @@ foldConstants_
 ;
 protected
 :
-FrontendContext
-*
-fc_
-;
 JS
 :
 :

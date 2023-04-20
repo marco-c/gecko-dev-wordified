@@ -956,9 +956,9 @@ explicit
 inline
 Scope
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 ParseContext
 *
 pc
@@ -2078,9 +2078,9 @@ explicit
 inline
 VarScope
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 ParseContext
 *
 pc
@@ -2612,9 +2612,9 @@ public
 :
 ParseContext
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 ParseContext
 *
 &
