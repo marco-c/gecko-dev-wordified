@@ -85,11 +85,17 @@ DevToolsUtils
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 Reflect
 "
@@ -106,7 +112,6 @@ reflect
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -1698,6 +1703,8 @@ try
 {
 ast
 =
+lazy
+.
 Reflect
 .
 parse

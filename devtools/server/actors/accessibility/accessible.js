@@ -297,11 +297,17 @@ utils
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 ContentDOMReference
 "
@@ -318,7 +324,6 @@ ContentDOMReference
 .
 jsm
 "
-true
 )
 ;
 const
@@ -992,6 +997,8 @@ snapshot
 .
 contentDOMReference
 =
+lazy
+.
 ContentDOMReference
 .
 get

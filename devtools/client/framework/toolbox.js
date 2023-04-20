@@ -654,11 +654,17 @@ targets
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -675,7 +681,6 @@ AppConstants
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -8079,6 +8084,8 @@ closeToolbox
 ;
 if
 (
+lazy
+.
 AppConstants
 .
 platform

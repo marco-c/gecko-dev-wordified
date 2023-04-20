@@ -98,11 +98,17 @@ DevToolsUtils
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -119,7 +125,6 @@ NetUtil
 .
 jsm
 "
-true
 )
 ;
 const
@@ -5681,6 +5686,8 @@ try
 {
 uri
 =
+lazy
+.
 NetUtil
 .
 newURI

@@ -81,11 +81,17 @@ server
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -102,7 +108,6 @@ AppConstants
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -1033,6 +1038,8 @@ Update
 channel
 channel
 :
+lazy
+.
 AppConstants
 .
 MOZ_UPDATE_CHANNEL

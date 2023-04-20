@@ -96,11 +96,17 @@ protocol
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -117,7 +123,6 @@ FileUtils
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -521,6 +526,8 @@ const
 outFile
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -531,6 +538,8 @@ outFilePath
 const
 outFileStream
 =
+lazy
+.
 FileUtils
 .
 openSafeFileOutputStream
@@ -609,6 +618,8 @@ copyTo
 outFileStream
 )
 ;
+lazy
+.
 FileUtils
 .
 closeSafeFileOutputStream

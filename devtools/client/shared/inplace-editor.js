@@ -200,11 +200,17 @@ picker
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -221,7 +227,6 @@ AppConstants
 .
 jsm
 "
-true
 )
 ;
 const
@@ -9495,6 +9500,8 @@ evt
 {
 if
 (
+lazy
+.
 AppConstants
 .
 platform

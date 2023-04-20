@@ -436,11 +436,17 @@ manager
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -457,7 +463,6 @@ AppConstants
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -2933,6 +2938,8 @@ isToolSupported
 =
 >
 !
+lazy
+.
 AppConstants
 .
 MOZILLA_OFFICIAL

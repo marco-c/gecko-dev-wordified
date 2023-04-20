@@ -128,11 +128,17 @@ true
 )
 ;
 }
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 Reflect
 "
@@ -149,7 +155,6 @@ reflect
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -3569,6 +3574,8 @@ an
 element
 access
 instead
+.
+lazy
 .
 Reflect
 .

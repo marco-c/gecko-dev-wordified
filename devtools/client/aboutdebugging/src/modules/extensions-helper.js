@@ -90,11 +90,11 @@ jsm
 "
 )
 ;
-loader
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -111,7 +111,6 @@ FileUtils
 .
 jsm
 "
-true
 )
 ;
 const
@@ -624,6 +623,8 @@ const
 lastDir
 =
 new
+lazy
+.
 FileUtils
 .
 File

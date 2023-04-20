@@ -203,11 +203,17 @@ provider
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -224,7 +230,6 @@ AppConstants
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -3843,6 +3848,8 @@ clearShortcut
 ;
 if
 (
+lazy
+.
 AppConstants
 .
 platform

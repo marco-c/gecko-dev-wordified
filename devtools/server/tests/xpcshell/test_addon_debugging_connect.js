@@ -56,11 +56,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -602,6 +608,8 @@ paused
 ;
 equal
 (
+lazy
+.
 ExtensionParent
 .
 DebugUtils
@@ -726,6 +734,8 @@ promiseBgPageFrameUpdate
 ;
 equal
 (
+lazy
+.
 ExtensionParent
 .
 DebugUtils
@@ -876,6 +886,8 @@ browser
 .
 equal
 (
+lazy
+.
 ExtensionParent
 .
 DebugUtils

@@ -99,11 +99,17 @@ mjs
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineModuleGetter
 (
-this
+lazy
 "
 E10SUtils
 "
@@ -712,6 +718,8 @@ remoteType
 =
 =
 =
+lazy
+.
 E10SUtils
 .
 EXTENSION_REMOTE_TYPE

@@ -233,11 +233,17 @@ auth
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 DevToolsSocketStatus
 "
@@ -256,7 +262,6 @@ DevToolsSocketStatus
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -2532,6 +2537,8 @@ then
 =
 >
 {
+lazy
+.
 DevToolsSocketStatus
 .
 notifySocketOpened
@@ -2749,6 +2756,8 @@ _socket
 =
 null
 ;
+lazy
+.
 DevToolsSocketStatus
 .
 notifySocketClosed
