@@ -1388,7 +1388,7 @@ NewPlainObjectWithPropsCache
 :
 add
 (
-Shape
+SharedShape
 *
 shape
 )
@@ -1403,10 +1403,6 @@ MOZ_ASSERT
 shape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )
@@ -1462,7 +1458,7 @@ IdValuePair
 properties
 size_t
 nproperties
-Shape
+SharedShape
 *
 shape
 )
@@ -1472,10 +1468,6 @@ if
 shape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )
@@ -1581,7 +1573,7 @@ return
 true
 ;
 }
-Shape
+SharedShape
 *
 js
 :
@@ -1615,7 +1607,7 @@ i
 +
 )
 {
-Shape
+SharedShape
 *
 shape
 =
@@ -2172,7 +2164,7 @@ add
 obj
 -
 >
-shape
+sharedShape
 (
 )
 )
