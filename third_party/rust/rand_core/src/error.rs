@@ -898,7 +898,7 @@ be
 formatted
 via
 the
-Diplay
+Display
 implementation
 .
 #
