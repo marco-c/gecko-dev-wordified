@@ -1237,7 +1237,9 @@ size
 Last
 fragment
 so
-StrapA
+STAP
+-
+A
 might
 be
 the
