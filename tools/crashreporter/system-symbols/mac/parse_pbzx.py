@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python3
+python
 #
 This
 code
@@ -433,15 +433,12 @@ if
 magic
 !
 =
-b
 "
 pbzx
 "
 :
         
 raise
-Exception
-(
 "
 Error
 :
@@ -450,7 +447,6 @@ a
 pbzx
 file
 "
-)
     
 #
 Read
@@ -599,7 +595,6 @@ if
 xzmagic
 !
 =
-b
 "
 \
 xfd7zXZ
@@ -847,7 +842,6 @@ if
 tail
 !
 =
-b
 "
 YZ
 "
@@ -860,8 +854,6 @@ close
 )
                 
 raise
-Exception
-(
 "
 Error
 :
@@ -872,7 +864,6 @@ xar
 file
 footer
 "
-)
     
 try
 :
