@@ -28177,6 +28177,13 @@ the
 directionality
 if
 (
+!
+HasDirAuto
+(
+)
+&
+&
+(
 oldType
 =
 =
@@ -28193,6 +28200,7 @@ FormControlType
 :
 :
 InputTel
+)
 )
 {
 RecomputeDirectionality
