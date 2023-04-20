@@ -1131,6 +1131,9 @@ GamepadServiceTest
 *
 RequestGamepadServiceTest
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -1183,6 +1186,9 @@ VRServiceTest
 *
 RequestVRServiceTest
 (
+ErrorResult
+&
+aRv
 )
 ;
 bool
