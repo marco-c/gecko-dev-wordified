@@ -642,8 +642,6 @@ pending
 void
 FlushDelayedResize
 (
-bool
-aDoReflow
 )
 ;
 /
@@ -2422,8 +2420,6 @@ nscoord
 aWidth
 nscoord
 aHeight
-bool
-aDoReflow
 )
 ;
 bool
