@@ -1723,7 +1723,6 @@ oracle
 .
 find
 (
-&
 self
 .
 type_
@@ -1760,7 +1759,6 @@ oracle
 .
 find
 (
-&
 self
 .
 type_

@@ -372,6 +372,15 @@ sum
 )
 as
 i64
+count
+:
+hist
+.
+count
+(
+)
+as
+i64
 }
 }
 impl

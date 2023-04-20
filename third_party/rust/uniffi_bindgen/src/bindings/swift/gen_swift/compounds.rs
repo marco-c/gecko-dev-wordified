@@ -530,7 +530,7 @@ self
 key
 )
 .
-type_label
+canonical_name
 (
 oracle
 )
@@ -544,7 +544,7 @@ self
 value
 )
 .
-type_label
+canonical_name
 (
 oracle
 )
