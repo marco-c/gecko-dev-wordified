@@ -845,11 +845,6 @@ jitter_buffer_min_delay_ms
 =
 0
 ;
-bool
-jitter_buffer_enable_rtx_handling
-=
-false
-;
 /
 /
 Identifier

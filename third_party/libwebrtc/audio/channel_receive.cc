@@ -656,8 +656,6 @@ jitter_buffer_fast_playout
 int
 jitter_buffer_min_delay_ms
 bool
-jitter_buffer_enable_rtx_handling
-bool
 enable_non_sender_rtt
 rtc
 :
@@ -3359,8 +3357,6 @@ bool
 jitter_buffer_fast_playout
 int
 jitter_buffer_min_delay_ms
-bool
-jitter_buffer_enable_rtx_handling
 bool
 enable_non_sender_rtt
 rtc
@@ -6826,8 +6822,6 @@ jitter_buffer_fast_playout
 int
 jitter_buffer_min_delay_ms
 bool
-jitter_buffer_enable_rtx_handling
-bool
 enable_non_sender_rtt
 rtc
 :
@@ -6892,7 +6886,6 @@ remote_ssrc
 jitter_buffer_max_packets
 jitter_buffer_fast_playout
 jitter_buffer_min_delay_ms
-jitter_buffer_enable_rtx_handling
 enable_non_sender_rtt
 decoder_factory
 codec_pair_id
