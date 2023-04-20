@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-vpython
+python3
 #
 Copyright
 2018
@@ -487,6 +487,11 @@ AtomicOutput
 options
 .
 output
+mode
+=
+'
+w
+'
 )
 as
 f

@@ -73,6 +73,10 @@ code_review_system
 '
     
 '
+continuous_integration_system
+'
+    
+'
 git_revision
 '
     
@@ -90,6 +94,10 @@ buildbucket_id
     
 '
 bypass_skia_gold_functionality
+'
+    
+'
+skia_gold_local_png_write_directory
 '
 ]
 )
@@ -108,6 +116,10 @@ code_review_system
 =
 None
                        
+continuous_integration_system
+=
+None
+                       
 git_revision
 =
 None
@@ -125,6 +137,10 @@ buildbucket_id
 None
                        
 bypass_skia_gold_functionality
+=
+None
+                       
+skia_gold_local_png_write_directory
 =
 None
 )
@@ -137,10 +153,14 @@ local_pixel_tests
 no_luci_auth
 code_review_system
                        
+continuous_integration_system
 git_revision
+                       
 gerrit_issue
 gerrit_patchset
-                       
 buildbucket_id
+                       
 bypass_skia_gold_functionality
+                       
+skia_gold_local_png_write_directory
 )

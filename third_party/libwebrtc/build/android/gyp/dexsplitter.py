@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -640,7 +640,7 @@ options
 .
 features
 .
-itervalues
+values
 (
 )
 :

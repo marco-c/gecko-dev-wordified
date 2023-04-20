@@ -492,20 +492,7 @@ SkiaGoldSessionManager
 staticmethod
   
 def
-_GetDefaultInstance
-(
-)
-:
-    
-return
-'
-chrome
-'
-  
-staticmethod
-  
-def
-_GetSessionClass
+GetSessionClass
 (
 )
 :

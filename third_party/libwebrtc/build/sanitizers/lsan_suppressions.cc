@@ -440,6 +440,17 @@ h
 \
 n
 "
+"
+leak
+:
+gin
+/
+function_template
+.
+h
+\
+n
+"
 /
 /
 Leaks

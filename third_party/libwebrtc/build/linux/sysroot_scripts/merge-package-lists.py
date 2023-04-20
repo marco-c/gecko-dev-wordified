@@ -154,7 +154,7 @@ exit
 for
 i
 in
-xrange
+range
 (
 0
 len
@@ -233,7 +233,7 @@ sha256
 in
 packages
 .
-iteritems
+items
 (
 )
 :

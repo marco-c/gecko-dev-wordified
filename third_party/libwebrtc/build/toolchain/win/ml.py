@@ -356,7 +356,7 @@ v
 in
 kwargs
 .
-iteritems
+items
 (
 )
 }
@@ -574,7 +574,7 @@ array
 array
 (
 '
-c
+b
 '
 objdata
 )
@@ -821,6 +821,7 @@ section_header
 .
 startswith
 (
+b
 '
 /
 '
@@ -845,6 +846,7 @@ section_header
 Name
 =
 =
+b
 '
 .
 debug
@@ -911,6 +913,7 @@ debug_section_index
 Name
 =
 =
+b
 '
 .
 debug
@@ -1562,6 +1565,7 @@ sym
 Name
 =
 =
+b
 '
 .
 debug
@@ -2402,10 +2406,31 @@ All
 done
 !
   
+if
+sys
+.
+version_info
+.
+major
+=
+=
+2
+:
+    
 return
 objdata
 .
 tostring
+(
+)
+  
+else
+:
+    
+return
+objdata
+.
+tobytes
 (
 )
 def

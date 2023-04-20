@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 2016
@@ -673,7 +673,7 @@ classes
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -852,7 +852,7 @@ Object
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -981,7 +981,7 @@ Object
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual

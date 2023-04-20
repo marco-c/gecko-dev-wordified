@@ -500,7 +500,7 @@ force_color
 False
 )
 :
-     
+    
 "
 "
 "
@@ -570,7 +570,7 @@ colorize
 "
 "
 "
-     
+    
 #
 If
 the
@@ -583,7 +583,7 @@ removed
 messages
 are
 duplicated
-     
+    
 logging
 .
 getLogger
@@ -594,7 +594,7 @@ handlers
 =
 [
 ]
-     
+    
 logging
 .
 getLogger
@@ -730,7 +730,7 @@ prev_color
 in
 prev_colors
 .
-iteritems
+items
 (
 )
 :

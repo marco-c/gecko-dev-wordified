@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2018
@@ -48,6 +48,8 @@ import
 os
 import
 unittest
+import
+six
 import
 pylib
 .
@@ -386,10 +388,11 @@ for
 cpu_arch
 binprefix
 in
-_EXPECTED_NDK_TOOL_SUBDIR_MAP
+six
 .
 iteritems
 (
+_EXPECTED_NDK_TOOL_SUBDIR_MAP
 )
 :
       

@@ -1216,7 +1216,7 @@ pool
 imap
 (
 wrapped_func
-xrange
+range
 (
 len
 (

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -1045,8 +1045,6 @@ jar_excluded_globs
 options
 .
 jar_included_globs
-[
-]
 )
         
 with

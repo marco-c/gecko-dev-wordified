@@ -933,6 +933,27 @@ timeout_secs
 interrupt_process
 )
     
+#
+Ensure
+that
+keyboard
+interrupts
+are
+handled
+properly
+(
+crbug
+/
+1198113
+)
+.
+    
+timeout_timer
+.
+daemon
+=
+True
+    
 timeout_timer
 .
 start

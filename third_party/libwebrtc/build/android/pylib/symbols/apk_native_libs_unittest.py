@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+vpython3
+#
 Copyright
 2018
 The
@@ -971,7 +980,7 @@ props
 in
 _ENTRIES
 .
-iteritems
+items
 (
 )
 :
@@ -1023,7 +1032,7 @@ props
 in
 _ENTRIES
 .
-iteritems
+items
 (
 )
 :

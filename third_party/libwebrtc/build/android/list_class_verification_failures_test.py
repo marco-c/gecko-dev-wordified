@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+vpython3
+#
 Copyright
 2018
 The

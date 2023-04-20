@@ -617,19 +617,10 @@ level
 0
 :
         
-raise
-GNError
-(
+yield
 '
-Attempting
-to
-recursively
-print
-a
-dictionary
-.
+{
 '
-)
       
 for
 key
@@ -726,7 +717,7 @@ tok
 in
 GenerateTokens
 (
-value
+v
 [
 key
 ]
@@ -738,6 +729,17 @@ level
           
 yield
 tok
+      
+if
+level
+>
+0
+:
+        
+yield
+'
+}
+'
     
 else
 :
@@ -777,6 +779,7 @@ tok
 not
 in
 '
+}
 ]
 =
 '
@@ -792,6 +795,7 @@ tok
 not
 in
 '
+{
 [
 =
 '
@@ -1016,10 +1020,10 @@ line
       
 if
 tok
-=
-=
+in
 '
 ]
+}
 '
 :
         
@@ -1027,6 +1031,20 @@ level
 -
 =
 1
+      
+#
+Exclude
+'
+[
+]
+'
+and
+'
+{
+}
+'
+cases
+.
       
 if
 int
@@ -1051,15 +1069,32 @@ tok
 =
 =
 1
+or
+\
+         
+int
+(
+prev_tok
+=
+=
+'
+{
+'
+)
++
+int
+(
+tok
+=
+=
+'
+}
+'
+)
+=
+=
+1
 :
-#
-Exclude
-'
-[
-]
-'
-case
-.
         
 yield
 '
@@ -1077,10 +1112,10 @@ tok
       
 if
 tok
-=
-=
+in
 '
 [
+{
 '
 :
         
@@ -2236,7 +2271,7 @@ ReplaceImports
 )
   
 def
-ConsumeWhitespace
+_ConsumeWhitespace
 (
 self
 )
@@ -2275,35 +2310,17 @@ cur
 1
   
 def
-ConsumeComment
+ConsumeCommentAndWhitespace
 (
 self
 )
 :
     
-if
 self
 .
-IsDone
+_ConsumeWhitespace
 (
 )
-or
-self
-.
-input
-[
-self
-.
-cur
-]
-!
-=
-'
-#
-'
-:
-      
-return
     
 #
 Consume
@@ -2415,6 +2432,12 @@ cur
 +
 =
 1
+      
+self
+.
+_ConsumeWhitespace
+(
+)
   
 def
 Parse
@@ -2597,7 +2620,7 @@ _ParseAllowTrailing
     
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -2699,13 +2722,7 @@ ReplaceImports
     
 self
 .
-ConsumeWhitespace
-(
-)
-    
-self
-.
-ConsumeComment
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -2728,7 +2745,7 @@ _ParseIdent
       
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
       
@@ -2777,7 +2794,7 @@ cur
       
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
       
@@ -2791,19 +2808,7 @@ _ParseAllowTrailing
       
 self
 .
-ConsumeWhitespace
-(
-)
-      
-self
-.
-ConsumeComment
-(
-)
-      
-self
-.
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
       
@@ -2848,7 +2853,7 @@ stuff
     
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -2896,6 +2901,22 @@ return
 self
 .
 ParseList
+(
+)
+    
+elif
+next_char
+=
+=
+'
+{
+'
+:
+      
+return
+self
+.
+ParseScope
 (
 )
     
@@ -3120,7 +3141,7 @@ self
     
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -3274,7 +3295,7 @@ self
     
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -3518,7 +3539,7 @@ self
     
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -3603,7 +3624,7 @@ cur
     
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -3714,7 +3735,7 @@ _ParseAllowTrailing
       
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
       
@@ -3770,7 +3791,7 @@ cur
         
 self
 .
-ConsumeWhitespace
+ConsumeCommentAndWhitespace
 (
 )
     
@@ -3780,6 +3801,268 @@ GNError
 '
 Unterminated
 list
+:
+\
+n
+'
++
+self
+.
+input
+)
+  
+def
+ParseScope
+(
+self
+)
+:
+    
+self
+.
+ConsumeCommentAndWhitespace
+(
+)
+    
+if
+self
+.
+IsDone
+(
+)
+:
+      
+raise
+GNError
+(
+'
+Expected
+scope
+but
+got
+nothing
+.
+'
+)
+    
+#
+Skip
+over
+opening
+'
+{
+'
+.
+    
+if
+self
+.
+input
+[
+self
+.
+cur
+]
+!
+=
+'
+{
+'
+:
+      
+raise
+GNError
+(
+'
+Expected
+{
+for
+scope
+but
+got
+:
+\
+n
+'
++
+self
+.
+input
+[
+self
+.
+cur
+:
+]
+)
+    
+self
+.
+cur
++
+=
+1
+    
+self
+.
+ConsumeCommentAndWhitespace
+(
+)
+    
+if
+self
+.
+IsDone
+(
+)
+:
+      
+raise
+GNError
+(
+'
+Unterminated
+scope
+:
+\
+n
+'
++
+self
+.
+input
+)
+    
+scope_result
+=
+{
+}
+    
+while
+not
+self
+.
+IsDone
+(
+)
+:
+      
+if
+self
+.
+input
+[
+self
+.
+cur
+]
+=
+=
+'
+}
+'
+:
+        
+self
+.
+cur
++
+=
+1
+        
+return
+scope_result
+      
+ident
+=
+self
+.
+_ParseIdent
+(
+)
+      
+self
+.
+ConsumeCommentAndWhitespace
+(
+)
+      
+if
+self
+.
+input
+[
+self
+.
+cur
+]
+!
+=
+'
+=
+'
+:
+        
+raise
+GNError
+(
+"
+Unexpected
+token
+:
+"
++
+self
+.
+input
+[
+self
+.
+cur
+:
+]
+)
+      
+self
+.
+cur
++
+=
+1
+      
+self
+.
+ConsumeCommentAndWhitespace
+(
+)
+      
+val
+=
+self
+.
+_ParseAllowTrailing
+(
+)
+      
+self
+.
+ConsumeCommentAndWhitespace
+(
+)
+      
+scope_result
+[
+ident
+]
+=
+val
+    
+raise
+GNError
+(
+'
+Unterminated
+scope
 :
 \
 n

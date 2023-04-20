@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 2014
@@ -553,7 +553,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -564,7 +564,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -583,7 +583,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -598,7 +598,7 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
@@ -663,7 +663,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -674,7 +674,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -693,7 +693,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -708,7 +708,7 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
@@ -773,7 +773,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -784,7 +784,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -803,7 +803,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -818,7 +818,7 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
@@ -884,7 +884,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -895,7 +895,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -914,9 +914,8 @@ GetName
     
 self
 .
-assertEquals
+assertIsNone
 (
-0
 actual
 [
 0
@@ -929,7 +928,127 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
+(
+base_test_result
+.
+ResultType
+.
+CRASH
+actual
+[
+0
+]
+.
+GetType
+(
+)
+)
+  
+def
+testParseGTestOutput_fatalDcheck
+(
+self
+)
+:
+    
+raw_output
+=
+[
+        
+'
+[
+RUN
+]
+FooTest
+.
+Bar
+'
+        
+'
+[
+0324
+/
+183029
+.
+116334
+:
+FATAL
+:
+test_timeouts
+.
+cc
+(
+103
+)
+]
+Check
+failed
+:
+!
+init
+'
+    
+]
+    
+actual
+=
+gtest_test_instance
+.
+ParseGTestOutput
+(
+raw_output
+None
+None
+)
+    
+self
+.
+assertEqual
+(
+1
+len
+(
+actual
+)
+)
+    
+self
+.
+assertEqual
+(
+'
+FooTest
+.
+Bar
+'
+actual
+[
+0
+]
+.
+GetName
+(
+)
+)
+    
+self
+.
+assertIsNone
+(
+actual
+[
+0
+]
+.
+GetDuration
+(
+)
+)
+    
+self
+.
+assertEqual
 (
 base_test_result
 .
@@ -981,7 +1100,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -992,7 +1111,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -1011,7 +1130,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 0
 actual
@@ -1026,13 +1145,13 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
 ResultType
 .
-UNKNOWN
+CRASH
 actual
 [
 0
@@ -1100,7 +1219,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 2
 len
@@ -1111,7 +1230,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -1130,7 +1249,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 0
 actual
@@ -1145,13 +1264,13 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
 ResultType
 .
-UNKNOWN
+CRASH
 actual
 [
 0
@@ -1164,7 +1283,7 @@ GetType
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -1183,7 +1302,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -1198,7 +1317,7 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
@@ -1269,7 +1388,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -1280,7 +1399,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 FooTest
@@ -1299,7 +1418,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -1314,7 +1433,7 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
@@ -1390,7 +1509,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -1401,7 +1520,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 Baz
@@ -1424,7 +1543,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -1439,7 +1558,7 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
@@ -1533,7 +1652,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -1544,7 +1663,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 Baz
@@ -1567,7 +1686,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -1582,7 +1701,7 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
@@ -1667,7 +1786,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -1678,7 +1797,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 Baz
@@ -1701,7 +1820,7 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 actual
@@ -1716,13 +1835,123 @@ GetDuration
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
 ResultType
 .
 FAIL
+actual
+[
+0
+]
+.
+GetType
+(
+)
+)
+  
+def
+testParseGTestOutput_skippedTest
+(
+self
+)
+:
+    
+raw_output
+=
+[
+        
+'
+[
+RUN
+]
+FooTest
+.
+Bar
+'
+        
+'
+[
+SKIPPED
+]
+FooTest
+.
+Bar
+(
+1
+ms
+)
+'
+    
+]
+    
+actual
+=
+gtest_test_instance
+.
+ParseGTestOutput
+(
+raw_output
+None
+None
+)
+    
+self
+.
+assertEqual
+(
+1
+len
+(
+actual
+)
+)
+    
+self
+.
+assertEqual
+(
+'
+FooTest
+.
+Bar
+'
+actual
+[
+0
+]
+.
+GetName
+(
+)
+)
+    
+self
+.
+assertEqual
+(
+1
+actual
+[
+0
+]
+.
+GetDuration
+(
+)
+)
+    
+self
+.
+assertEqual
+(
+base_test_result
+.
+ResultType
+.
+SKIP
 actual
 [
 0
@@ -1751,7 +1980,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 [
 ]
@@ -1776,7 +2005,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 [
 ]
@@ -1966,7 +2195,7 @@ raw_json
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -1977,7 +2206,7 @@ actual
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 mojom_tests
@@ -1990,7 +2219,7 @@ ASTTest
 .
 testNodeBase
 '
-                      
+                     
 actual
 [
 0
@@ -2003,13 +2232,204 @@ GetName
     
 self
 .
-assertEquals
+assertEqual
 (
 base_test_result
 .
 ResultType
 .
 PASS
+actual
+[
+0
+]
+.
+GetType
+(
+)
+)
+  
+def
+testParseGTestJSON_skippedTest_example
+(
+self
+)
+:
+    
+raw_json
+=
+"
+"
+"
+      
+{
+        
+"
+tests
+"
+:
+{
+          
+"
+mojom_tests
+"
+:
+{
+            
+"
+parse
+"
+:
+{
+              
+"
+ast_unittest
+"
+:
+{
+                
+"
+ASTTest
+"
+:
+{
+                  
+"
+testNodeBase
+"
+:
+{
+                    
+"
+expected
+"
+:
+"
+SKIP
+"
+                    
+"
+actual
+"
+:
+"
+SKIP
+"
+                  
+}
+                
+}
+              
+}
+            
+}
+          
+}
+        
+}
+        
+"
+interrupted
+"
+:
+false
+        
+"
+path_delimiter
+"
+:
+"
+.
+"
+        
+"
+version
+"
+:
+3
+        
+"
+seconds_since_epoch
+"
+:
+1406662283
+.
+764424
+        
+"
+num_failures_by_type
+"
+:
+{
+          
+"
+SKIP
+"
+:
+1
+        
+}
+      
+}
+"
+"
+"
+    
+actual
+=
+gtest_test_instance
+.
+ParseGTestJSON
+(
+raw_json
+)
+    
+self
+.
+assertEqual
+(
+1
+len
+(
+actual
+)
+)
+    
+self
+.
+assertEqual
+(
+'
+mojom_tests
+.
+parse
+.
+ast_unittest
+.
+ASTTest
+.
+testNodeBase
+'
+                     
+actual
+[
+0
+]
+.
+GetName
+(
+)
+)
+    
+self
+.
+assertEqual
+(
+base_test_result
+.
+ResultType
+.
+SKIP
 actual
 [
 0
@@ -2078,7 +2498,7 @@ B
       
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -2142,7 +2562,7 @@ B
       
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -2184,7 +2604,7 @@ B
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual

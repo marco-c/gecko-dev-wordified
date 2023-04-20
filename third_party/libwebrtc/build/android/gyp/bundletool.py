@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2018
@@ -153,7 +153,7 @@ BUNDLETOOL_VERSION
 '
 1
 .
-2
+8
 .
 0
 '
@@ -188,6 +188,9 @@ warnings_as_errors
 =
 (
 )
+print_stdout
+=
+False
 )
 :
   
@@ -307,6 +310,10 @@ CheckOutput
       
 cmd
       
+print_stdout
+=
+print_stdout
+      
 print_stderr
 =
 True
@@ -339,4 +346,7 @@ argv
 1
 :
 ]
+print_stdout
+=
+True
 )

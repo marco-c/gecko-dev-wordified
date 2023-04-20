@@ -495,7 +495,7 @@ os
 chmod
 (
 dest_dir
-0755
+0o755
 )
   
 print
@@ -749,7 +749,7 @@ join
 base
 dir
 )
-0755
+0o755
 )
     
 for
@@ -771,7 +771,7 @@ join
 base
 file
 )
-0644
+0o644
 )
   
 print

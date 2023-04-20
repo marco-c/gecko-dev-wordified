@@ -42,10 +42,6 @@ pylint
 disable
 =
 R0201
-from
-__future__
-import
-print_function
 import
 logging
 import

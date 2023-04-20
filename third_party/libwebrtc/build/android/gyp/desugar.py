@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -181,6 +181,13 @@ add_argument
 -
 classpath
 '
+                      
+action
+=
+'
+append
+'
+                      
 required
 =
 True

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-vpython
+vpython3
 #
 Copyright
 2018
@@ -128,7 +128,7 @@ positive3
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -179,7 +179,7 @@ positive2
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -232,7 +232,7 @@ negative2
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -299,7 +299,7 @@ negative2
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -386,7 +386,7 @@ args
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -465,7 +465,7 @@ args
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -549,7 +549,7 @@ args
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -582,6 +582,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
+'
 )
 as
 tmp_file
@@ -677,7 +682,7 @@ args
       
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -710,6 +715,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
+'
 )
 as
 tmp_file
@@ -805,7 +815,7 @@ args
       
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -838,6 +848,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
+'
 )
 as
 tmp_file
@@ -944,6 +959,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
+'
 )
 as
 tmp_file
@@ -1035,7 +1055,7 @@ args
       
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1077,7 +1097,7 @@ AppendPatternsToFilter
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1113,7 +1133,7 @@ positive
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1153,7 +1173,7 @@ negative
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1196,7 +1216,7 @@ negative
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1243,7 +1263,7 @@ negative
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1291,7 +1311,7 @@ negative2
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1335,7 +1355,7 @@ positive2
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1381,7 +1401,7 @@ negative2
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1437,7 +1457,7 @@ negative2
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1499,7 +1519,7 @@ negative3
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1575,7 +1595,7 @@ negative3
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1643,7 +1663,7 @@ test2
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1680,7 +1700,7 @@ HasPositivePatterns
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1710,7 +1730,7 @@ positive
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1741,7 +1761,7 @@ negative
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -1773,7 +1793,7 @@ negative
     
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected

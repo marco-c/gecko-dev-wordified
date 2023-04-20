@@ -527,6 +527,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
+'
 )
 as
 f

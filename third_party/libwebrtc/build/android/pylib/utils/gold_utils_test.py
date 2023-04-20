@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-vpython
+vpython3
 #
 Copyright
 2020
@@ -184,6 +184,21 @@ tempfile
 mkdtemp
 (
 )
+    
+self
+.
+_json_keys
+=
+tempfile
+.
+NamedTemporaryFile
+(
+delete
+=
+False
+)
+.
+name
   
 mock
 .
@@ -251,7 +266,9 @@ _working_dir
                                                 
 sgp
                                                 
-None
+self
+.
+_json_keys
                                                 
 '
 corpus
@@ -659,6 +676,21 @@ tempfile
 mkdtemp
 (
 )
+    
+self
+.
+_json_keys
+=
+tempfile
+.
+NamedTemporaryFile
+(
+delete
+=
+False
+)
+.
+name
   
 def
 test_outputManagerUsed
@@ -700,8 +732,10 @@ self
 .
 _working_dir
 sgp
-None
                                                 
+self
+.
+_json_keys
 None
 None
 )

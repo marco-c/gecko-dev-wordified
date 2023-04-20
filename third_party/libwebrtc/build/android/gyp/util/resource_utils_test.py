@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 coding
 :
@@ -1305,7 +1305,7 @@ in
         
 _TEST_CHROMIUM_TO_ANDROID_LOCALE_MAP
 .
-iteritems
+items
 (
 )
 :
@@ -1714,7 +1714,7 @@ in
         
 _TEST_ANDROID_TO_CHROMIUM_LOCALE_MAP
 .
-iteritems
+items
 (
 )
 :
@@ -1923,6 +1923,13 @@ self
 assertEqual
 (
 result
+.
+decode
+(
+'
+utf8
+'
+)
 _TEST_XML_OUTPUT_EMPTY
 )
     
@@ -1942,6 +1949,13 @@ self
 assertEqual
 (
 result
+.
+decode
+(
+'
+utf8
+'
+)
 _TEST_XML_INPUT_1
 )
   
@@ -2002,7 +2016,7 @@ open
 (
 file_path
 '
-w
+wb
 '
 )
 as

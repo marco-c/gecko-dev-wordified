@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2017
@@ -143,6 +143,13 @@ options
 [
 so_path
 ]
+)
+.
+decode
+(
+'
+utf8
+'
 )
 def
 _ParseLibBuildId
@@ -297,6 +304,14 @@ t
 '
 tool_prefix
 ]
+      
+encoding
+=
+'
+utf
+-
+8
+'
 )
   
 summary
@@ -1609,7 +1624,7 @@ src
 /
 +
 /
-master
+main
 /
 docs
 /

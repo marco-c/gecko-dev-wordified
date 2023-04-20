@@ -394,6 +394,10 @@ SetupTestServer
 target
 test_concurrency
 for_package
+for_realms
+=
+[
+]
 )
 :
   
@@ -624,6 +628,7 @@ PutFile
 config_file
 .
 name
+                 
 '
 /
 tmp
@@ -640,6 +645,10 @@ config
 for_package
 =
 for_package
+                 
+for_realms
+=
+for_realms
 )
   
 return

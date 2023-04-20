@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2013
@@ -819,6 +819,7 @@ input_file1
 .
 write
 (
+b
 '
 some
 more

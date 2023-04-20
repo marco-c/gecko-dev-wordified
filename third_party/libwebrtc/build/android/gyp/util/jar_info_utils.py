@@ -420,7 +420,7 @@ sorted
 (
 info_data
 .
-iteritems
+items
 (
 )
 )
@@ -479,6 +479,7 @@ output_obj
 .
 write
 (
+(
 '
 {
 }
@@ -491,6 +492,15 @@ n
 format
 (
 fully_qualified_name
+                                       
 path
+)
+)
+.
+encode
+(
+'
+utf8
+'
 )
 )

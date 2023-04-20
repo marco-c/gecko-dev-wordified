@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -2905,6 +2905,8 @@ Included
 via
 .
 build_config
+.
+json
 so
 need
 to
@@ -2946,6 +2948,8 @@ Included
 via
 .
 build_config
+.
+json
 so
 need
 to
@@ -2981,6 +2985,15 @@ for
 x
 in
 uncompressed_assets
+)
+  
+depfile_deps
+.
+append
+(
+options
+.
+resource_apk
 )
   
 #
@@ -3723,6 +3736,9 @@ open
 options
 .
 dex_file
+'
+rb
+'
 )
 as
 dex_file_obj
@@ -3865,6 +3881,9 @@ open
 options
 .
 jdk_libs_dex_file
+'
+rb
+'
 )
 as
 dex_file_obj

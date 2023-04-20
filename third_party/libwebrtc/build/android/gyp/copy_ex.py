@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -610,9 +610,7 @@ for
 src
 dest
 in
-itertools
-.
-izip
+zip
 (
 src_files
 dest_files

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2020
@@ -475,22 +475,6 @@ version
 <
 manifest
     
-package
-=
-"
-test
-.
-pkg
-"
-    
-tools
-:
-ignore
-=
-"
-MissingVersion
-"
-    
 xmlns
 :
 android
@@ -529,6 +513,22 @@ android
 com
 /
 tools
+"
+    
+package
+=
+"
+test
+.
+pkg
+"
+    
+tools
+:
+ignore
+=
+"
+MissingVersion
 "
 >
   
@@ -610,6 +610,16 @@ ANCHOR
 activity_diff_anchor
 }
         
+android
+:
+name
+=
+"
+to
+be
+hashed
+"
+        
 {
 extra_activity_attr
 }
@@ -631,16 +641,6 @@ label
 label
 with
 spaces
-"
-        
-android
-:
-name
-=
-"
-to
-be
-hashed
 "
         
 android
@@ -763,15 +763,7 @@ DIFF
 -
 ANCHOR
 :
-355000d2
-        
-android
-:
-exported
-=
-"
-false
-"
+ddab3320
         
 android
 :
@@ -792,6 +784,14 @@ announcement
 AnnouncementNotificationManager
 Rcvr
 "
+        
+android
+:
+exported
+=
+"
+false
+"
 >
     
 <
@@ -803,7 +803,7 @@ DIFF
 -
 ANCHOR
 :
-355000d2
+ddab3320
   
 <
 /

@@ -763,11 +763,9 @@ blob
 /
 master
 /
-googletest
-/
 docs
 /
-AdvancedGuide
+advanced
 .
 md
   
@@ -934,11 +932,9 @@ blob
 /
 master
 /
-googletest
-/
 docs
 /
-AdvancedGuide
+advanced
 .
 md
   

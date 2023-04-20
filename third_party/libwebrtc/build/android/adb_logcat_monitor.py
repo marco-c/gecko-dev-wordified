@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -1069,7 +1069,7 @@ _
 in
 devices
 .
-itervalues
+values
 (
 )
 :

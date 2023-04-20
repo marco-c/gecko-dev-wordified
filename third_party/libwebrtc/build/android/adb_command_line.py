@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 2015

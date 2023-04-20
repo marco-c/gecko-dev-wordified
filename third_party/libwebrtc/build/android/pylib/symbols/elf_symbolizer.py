@@ -45,7 +45,22 @@ import
 os
 import
 posixpath
+try
+:
+  
+from
+queue
 import
+Empty
+Queue
+except
+ImportError
+:
+  
+from
+Queue
+import
+Empty
 Queue
 import
 re
@@ -2277,8 +2292,6 @@ _out_queue
 None
 #
 Queue
-.
-Queue
 instance
 (
 for
@@ -2648,8 +2661,6 @@ timeout
 )
           
 except
-Queue
-.
 Empty
 :
             
@@ -2808,8 +2819,6 @@ get_nowait
 )
         
 except
-Queue
-.
 Empty
 :
           
@@ -3529,8 +3538,6 @@ self
 _out_queue
 =
 Queue
-.
-Queue
 (
 )
       
@@ -3607,25 +3614,33 @@ subprocess
 Popen
 (
 cmd
+                                    
 bufsize
 =
 1
+                                    
+universal_newlines
+=
+True
+                                    
 stdout
 =
 subprocess
 .
 PIPE
-          
+                                    
 stdin
 =
 subprocess
 .
 PIPE
+                                    
 stderr
 =
 sys
 .
 stderr
+                                    
 close_fds
 =
 True
@@ -3778,7 +3793,7 @@ def
 StdoutReaderThread
 (
 process_pipe
-queue
+my_queue
 inlines
 )
 :
@@ -3904,6 +3919,13 @@ n
 '
 )
           
+if
+not
+line1
+:
+            
+break
+          
 line2
 =
 process_pipe
@@ -3923,9 +3945,6 @@ n
 )
           
 if
-not
-line1
-or
 not
 line2
 :
@@ -3990,7 +4009,7 @@ inline_has_more_lines
             
 continue
           
-queue
+my_queue
 .
 put
 (

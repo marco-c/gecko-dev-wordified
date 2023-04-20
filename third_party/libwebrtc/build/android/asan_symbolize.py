@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -745,7 +745,7 @@ items
 in
 libraries
 .
-iteritems
+items
 (
 )
 :
@@ -1119,7 +1119,7 @@ logcat
     
 asan_input
 =
-file
+open
 (
 options
 .

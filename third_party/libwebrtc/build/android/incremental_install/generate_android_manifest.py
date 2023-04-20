@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -821,6 +821,7 @@ ret
 .
 replace
 (
+b
 '
 extractNativeLibs
 =
@@ -828,6 +829,7 @@ extractNativeLibs
 false
 "
 '
+b
 '
 extractNativeLibs
 =
@@ -847,6 +849,7 @@ ret
 .
 replace
 (
+b
 '
 isolatedProcess
 =
@@ -854,6 +857,7 @@ isolatedProcess
 true
 "
 '
+b
 '
 isolatedProcess
 =
@@ -894,6 +898,23 @@ options
 .
 in_apk
 )
+  
+assert
+arsc_package
+is
+not
+None
+'
+The
+apk
+does
+not
+have
+a
+valid
+package
+.
+'
   
 #
 Extract

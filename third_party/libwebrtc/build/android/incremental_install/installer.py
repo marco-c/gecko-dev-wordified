@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 #
 Copyright
@@ -752,6 +752,7 @@ _CreateDexFiles
 (
 shards
 dex_staging_dir
+min_api
 use_concurrency
 )
 :
@@ -787,7 +788,7 @@ src_paths
 in
 shards
 .
-iteritems
+items
 (
 )
 :
@@ -828,6 +829,7 @@ _R8_PATH
                             
 src_paths
 dest_path
+min_api
 )
 )
   
@@ -1186,7 +1188,7 @@ if
 isinstance
 (
 install_json
-basestring
+str
 )
 :
     
@@ -1214,28 +1216,6 @@ else
 install_dict
 =
 install_json
-  
-if
-install_dict
-.
-get
-(
-'
-dont_even_try
-'
-)
-:
-    
-raise
-Exception
-(
-install_dict
-[
-'
-dont_even_try
-'
-]
-)
   
 main_timer
 =
@@ -1742,6 +1722,12 @@ _CreateDexFiles
 (
 shards
 dex_staging_dir
+apk
+.
+GetMinSdkVersion
+(
+)
+                      
 use_concurrency
 )
       
@@ -1824,7 +1810,7 @@ Beta
 Q
 builds
 apply
-whitelist
+allowlist
 to
 targetSdk
 =

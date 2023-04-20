@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2017
@@ -334,7 +334,7 @@ charts
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -345,7 +345,7 @@ trace
 in
 graph
 .
-iteritems
+items
 (
 )
 :
@@ -487,7 +487,7 @@ charts
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -498,7 +498,7 @@ trace
 in
 graph
 .
-iteritems
+items
 (
 )
 :
@@ -580,7 +580,7 @@ charts
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -591,7 +591,7 @@ trace
 in
 graph
 .
-iteritems
+items
 (
 )
 :

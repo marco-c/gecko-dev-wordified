@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2017
@@ -276,7 +276,7 @@ gson
 .
 8
 .
-5
+6
 '
                  
 '
@@ -286,7 +286,7 @@ gson
 .
 8
 .
-5
+6
 .
 jar
 '
@@ -986,6 +986,16 @@ PACKAGE
 '
 +
 package
+          
+'
+-
+-
+remove
+-
+tools
+-
+declarations
+'
       
 ]
       

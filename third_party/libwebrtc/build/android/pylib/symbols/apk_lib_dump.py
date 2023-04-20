@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2018
@@ -204,10 +204,6 @@ path
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import

@@ -193,6 +193,7 @@ else
         
 raise
 RuntimeError
+(
 "
 Corrupt
 extra
@@ -203,6 +204,7 @@ s
 %
 (
 ln
+)
 )
       
 idx
@@ -228,8 +230,8 @@ self
 file_size
 in
 (
-0xffffffffffffffffL
-0xffffffffL
+0xffffffffffffffff
+0xffffffff
 )
 :
         
@@ -253,7 +255,7 @@ self
 compress_size
 =
 =
-0xFFFFFFFFL
+0xffffffff
 :
         
 self
@@ -276,7 +278,7 @@ self
 header_offset
 =
 =
-0xffffffffL
+0xffffffff
 :
         
 self
@@ -521,32 +523,52 @@ alignment
 alignment
   
 #
-Extra
-field
-used
+Python
+writes
+|
+extra
+|
 to
-4
--
-byte
-align
-classes
-.
-dex
-.
-Alignment
-speeds
-up
+both
+the
+local
+file
+header
+and
+the
+central
   
 #
-execution
-when
-dex
-files
-are
-used
-via
-incremental
-install
+directory
+'
+s
+file
+header
+.
+Android
+'
+s
+zipalign
+tool
+writes
+only
+to
+the
+  
+#
+local
+file
+header
+so
+there
+is
+more
+overhead
+in
+using
+python
+to
+align
 .
   
 zip_info

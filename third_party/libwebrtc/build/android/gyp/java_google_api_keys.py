@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -270,7 +270,7 @@ constant_value
 in
 constant_definitions
 .
-iteritems
+items
 (
 )
 :

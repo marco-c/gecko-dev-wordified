@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -156,7 +156,7 @@ disable
 =
 W0702
 import
-cStringIO
+io
 import
 logging
 import
@@ -769,7 +769,7 @@ device_files
 in
 log_filenames
 .
-iteritems
+items
 (
 )
 :
@@ -1249,7 +1249,7 @@ args
   
 log_stringio
 =
-cStringIO
+io
 .
 StringIO
 (

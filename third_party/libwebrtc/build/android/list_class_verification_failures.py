@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 2018
@@ -84,14 +84,8 @@ paths
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
-import
-exceptions
 import
 logging
 import
@@ -1416,8 +1410,6 @@ d
 :
       
 raise
-exceptions
-.
 RuntimeError
 (
 '

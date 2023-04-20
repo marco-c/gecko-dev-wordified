@@ -131,6 +131,14 @@ runner_filter
     
 self
 .
+_shards
+=
+args
+.
+shards
+    
+self
+.
 _test_filter
 =
 test_filter
@@ -298,6 +306,20 @@ return
 self
 .
 _test_filter
+  
+property
+  
+def
+shards
+(
+self
+)
+:
+    
+return
+self
+.
+_shards
   
 property
   

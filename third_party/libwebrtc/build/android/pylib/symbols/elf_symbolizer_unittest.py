@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2014
@@ -382,7 +382,7 @@ max_concurrent_jobs
 for
 addr
 in
-xrange
+range
 (
 1000
 )
@@ -944,7 +944,7 @@ addr2line_timeout
 for
 addr
 in
-xrange
+range
 (
 num_symbols
 )
@@ -1015,7 +1015,7 @@ received
 for
 addr
 in
-xrange
+range
 (
 num_symbols
 )

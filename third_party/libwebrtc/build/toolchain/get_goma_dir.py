@@ -111,6 +111,19 @@ pathsep
 )
 :
     
+#
+normpath
+(
+)
+required
+to
+strip
+trailing
+slash
+when
+present
+.
+    
 if
 os
 .
@@ -118,7 +131,14 @@ path
 .
 basename
 (
+os
+.
 path
+.
+normpath
+(
+path
+)
 )
 =
 =

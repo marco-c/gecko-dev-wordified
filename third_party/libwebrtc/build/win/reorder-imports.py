@@ -60,7 +60,9 @@ path
 .
 insert
 (
+    
 0
+    
 os
 .
 path
@@ -83,12 +85,12 @@ __file__
 .
 .
 '
-                                
 '
 third_party
 '
+                 
 '
-pefile
+pefile_py3
 '
 )
 )
@@ -434,6 +436,7 @@ lower
 )
 =
 =
+b
 '
 chrome_elf
 .

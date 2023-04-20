@@ -170,11 +170,18 @@ def
 GetSkiaGoldSession
 (
 self
+                         
 keys_input
+                         
 corpus
 =
 None
+                         
 instance
+=
+None
+                         
+bucket
 =
 None
 )
@@ -288,7 +295,7 @@ to
 interact
 with
 .
-It
+If
 None
           
 will
@@ -299,6 +306,20 @@ the
 subclass
 sets
 .
+      
+bucket
+:
+Overrides
+the
+formulaic
+Google
+Storage
+bucket
+name
+generated
+by
+          
+goldctl
     
 "
 "
@@ -434,7 +455,7 @@ session
 =
 self
 .
-_GetSessionClass
+GetSessionClass
 (
 )
 (
@@ -442,10 +463,11 @@ working_dir
 self
 .
 _gold_properties
-                                        
+                                       
 keys_file
 corpus
 instance
+bucket
 )
       
 self
@@ -500,13 +522,15 @@ instance
 "
 "
     
-raise
-NotImplementedError
+return
+'
+chrome
+'
   
 staticmethod
   
 def
-_GetSessionClass
+GetSessionClass
 (
 )
 :

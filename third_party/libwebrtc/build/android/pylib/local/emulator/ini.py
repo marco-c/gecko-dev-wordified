@@ -175,7 +175,7 @@ sorted
 (
 obj
 .
-iteritems
+items
 (
 )
 )

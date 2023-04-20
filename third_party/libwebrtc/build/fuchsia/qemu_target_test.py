@@ -5,7 +5,7 @@ usr
 /
 bin
 /
-python
+python2
 #
 Copyright
 2018
@@ -387,7 +387,7 @@ __name__
 __main__
 '
 :
-      
+    
 unittest
 .
 main

@@ -46,8 +46,11 @@ util
 "
 "
 "
+USE_PYTHON3
+=
+True
 def
-_GetBlacklist
+_GetFilesToSkip
 (
 input_api
 )
@@ -224,7 +227,7 @@ unchanged
   
 files_to_skip
 =
-_GetBlacklist
+_GetFilesToSkip
 (
 input_api
 )
@@ -264,6 +267,18 @@ py
 files_to_skip
 =
 files_to_skip
+      
+run_on_python2
+=
+False
+      
+run_on_python3
+=
+True
+      
+skip_shebang_check
+=
+True
 )
 def
 CommonChecks

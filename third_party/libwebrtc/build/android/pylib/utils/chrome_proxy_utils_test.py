@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-vpython
+vpython3
 #
 Copyright
 2020
@@ -711,7 +711,7 @@ wpr_replay_mode
     
 self
 .
-assertEquals
+assertEqual
 (
 chrome_proxy
 .
@@ -840,7 +840,7 @@ abc
     
 self
 .
-assertEquals
+assertEqual
 (
 chrome_proxy
 .
@@ -909,7 +909,7 @@ localhost
     
 self
 .
-assertEquals
+assertEqual
 (
 chrome_proxy
 .
@@ -989,7 +989,7 @@ localhost
     
 self
 .
-assertEquals
+assertEqual
 (
 chrome_proxy
 .

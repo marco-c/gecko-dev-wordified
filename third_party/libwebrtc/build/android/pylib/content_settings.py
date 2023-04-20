@@ -156,7 +156,7 @@ if
 isinstance
 (
 value
-long
+int
 )
 :
       

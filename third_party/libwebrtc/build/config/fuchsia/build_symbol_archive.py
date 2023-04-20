@@ -393,6 +393,9 @@ S
 '
 symbol_source_path
 ]
+universal_newlines
+=
+True
 )
     
 if

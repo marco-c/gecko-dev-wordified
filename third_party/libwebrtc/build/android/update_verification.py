@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 #
 Copyright
@@ -225,6 +225,27 @@ import
 logging
 import
 sys
+#
+import
+raw_input
+when
+converted
+to
+python3
+from
+six
+.
+moves
+import
+input
+#
+pylint
+:
+disable
+=
+redefined
+-
+builtin
 import
 devil_chromium
 from
@@ -274,7 +295,7 @@ Install
 old_apk
 )
   
-raw_input
+input
 (
 '
 Set
@@ -288,7 +309,7 @@ press
 enter
 and
 '
-            
+        
 '
 select
 "
@@ -365,7 +386,7 @@ is
 not
 synchronous
   
-raw_input
+input
 (
 '
 Select
@@ -383,7 +404,7 @@ press
 enter
 to
 '
-            
+        
 '
 continue
 .
@@ -538,31 +559,6 @@ log
 information
 .
 '
-)
-  
-parser
-.
-add_argument
-(
-'
--
--
-blacklist
--
-file
-'
-                      
-dest
-=
-'
-denylist_file
-'
-                      
-help
-=
-argparse
-.
-SUPPRESS
 )
   
 parser

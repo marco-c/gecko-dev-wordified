@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 Copyright
@@ -308,7 +308,6 @@ if
 state
 =
 =
-u
 '
 BOT_DIED
 '
@@ -341,7 +340,6 @@ elif
 state
 =
 =
-u
 '
 EXPIRED
 '
@@ -373,7 +371,6 @@ elif
 state
 =
 =
-u
 '
 TIMED_OUT
 '
@@ -438,7 +435,6 @@ elif
 state
 !
 =
-u
 '
 COMPLETED
 '
@@ -1286,7 +1282,7 @@ output
 for
 i
 in
-xrange
+range
 (
 max
 (
