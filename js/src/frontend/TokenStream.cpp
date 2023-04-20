@@ -2067,9 +2067,9 @@ SourceCoords
 :
 SourceCoords
 (
-ErrorContext
+JSContext
 *
-ec
+cx
 uint32_t
 initialLineNumber
 uint32_t
@@ -2078,7 +2078,7 @@ initialOffset
 :
 lineStartOffsets_
 (
-ec
+cx
 )
 initialLineNum_
 (
@@ -3095,11 +3095,11 @@ filename
 )
 longLineColumnInfo_
 (
-ec
+cx
 )
 srcCoords
 (
-ec
+cx
 options
 .
 lineno
@@ -5301,7 +5301,7 @@ Vector
 ChunkInfo
 >
 (
-ec
+cx
 )
 )
 )
@@ -10955,7 +10955,7 @@ true
 CharBuffer
 lineOfContext
 (
-ec
+cx
 )
 ;
 const
@@ -12903,12 +12903,7 @@ length
 *
 destination
 =
-ec
--
->
-getAllocator
-(
-)
+cx
 -
 >
 make_pod_array

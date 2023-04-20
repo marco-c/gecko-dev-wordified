@@ -3518,9 +3518,9 @@ public
 :
 SourceCoords
 (
-ErrorContext
+JSContext
 *
-ec
+cx
 uint32_t
 initialLineNumber
 uint32_t
@@ -11684,7 +11684,7 @@ ec
 )
 charBuffer
 (
-ec
+cx
 )
 parserAtoms
 (

@@ -1368,7 +1368,7 @@ parent
 )
 bytecodeSection_
 (
-ec
+cx
 sc
 -
 >
@@ -1388,13 +1388,7 @@ column
 )
 perScriptData_
 (
-ec
 cx
--
->
-frontendCollectionPool
-(
-)
 compilationState
 )
 errorReporter_
@@ -16290,6 +16284,9 @@ BytecodeEmitter
 :
 createImmutableScriptData
 (
+JSContext
+*
+cx
 )
 {
 uint32_t
@@ -45977,6 +45974,7 @@ kind
 =
 ParserAtomToResumeKind
 (
+cx
 kindNode
 -
 >
@@ -58516,6 +58514,7 @@ writer
 .
 setPropName
 (
+cx
 parserAtoms
 (
 )
@@ -59039,6 +59038,7 @@ writer
 .
 setPropName
 (
+cx
 parserAtoms
 (
 )
@@ -61104,7 +61104,6 @@ StringBuffer
 storedMethodName
 (
 cx
-ec
 )
 ;
 if
@@ -67547,6 +67546,9 @@ ParseNode
 *
 FindConstructor
 (
+JSContext
+*
+cx
 ListNode
 *
 classMethods
@@ -68220,6 +68222,7 @@ constructor
 =
 FindConstructor
 (
+cx
 classMembers
 )
 ;
@@ -73428,6 +73431,7 @@ immutableScriptData
 =
 createImmutableScriptData
 (
+cx
 )
 ;
 if
@@ -73482,6 +73486,7 @@ compilationState
 .
 appendGCThings
 (
+cx
 ec
 scriptIndex
 things

@@ -26136,8 +26136,6 @@ CompilationState
 compilationState
 (
 cx
-&
-ec
 allocScope
 input
 .
@@ -26275,8 +26273,6 @@ ModuleBuilder
 builder
 (
 cx
-&
-ec
 &
 parser
 )

@@ -490,9 +490,9 @@ UsedNameTracker
 :
 noteUse
 (
-ErrorContext
+JSContext
 *
-ec
+cx
 TaggedParserAtomIndex
 name
 NameVisibility
@@ -626,7 +626,7 @@ true
 UsedNameInfo
 info
 (
-ec
+cx
 visibility
 tokenPosition
 )
@@ -899,9 +899,9 @@ UsedNameTracker
 :
 hasUnboundPrivateNames
 (
-ErrorContext
+JSContext
 *
-ec
+cx
 mozilla
 :
 :
@@ -943,7 +943,7 @@ UnboundPrivateName
 >
 unboundPrivateNames
 (
-ec
+cx
 )
 ;
 if
@@ -2065,10 +2065,7 @@ frontendCollectionPool
 )
 innerFunctionIndexesForLazy
 (
-sc
--
->
-ec_
+cx
 )
 newDirectives
 (
@@ -2579,6 +2576,12 @@ FunctionScope
 :
 isSpecialName
 (
+sc
+(
+)
+-
+>
+cx_
 name
 )
 )
