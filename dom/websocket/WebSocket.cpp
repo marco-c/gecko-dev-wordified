@@ -7687,7 +7687,15 @@ UpdateWebSocketCount
 bool
 isSecure
 =
-true
+principal
+-
+>
+SchemeIs
+(
+"
+https
+"
+)
 ;
 aRv
 =
@@ -16734,7 +16742,7 @@ principal
 )
 {
 return
-NS_ERROR_DOM_SECURITY_ERR
+NS_OK
 ;
 }
 *
