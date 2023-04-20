@@ -432,6 +432,11 @@ score
 entry
 .
 value
+hadRecentInput
+:
+entry
+.
+hadRecentInput
 }
 )
 ;
