@@ -457,7 +457,6 @@ manner
 float
 FastApproxLog2f
 (
-const
 float
 in
 )
@@ -477,7 +476,6 @@ log2
 float
 Log2TodB
 (
-const
 float
 in_log2
 )

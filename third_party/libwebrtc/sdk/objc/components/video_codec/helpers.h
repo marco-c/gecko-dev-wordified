@@ -172,7 +172,6 @@ std
 string
 CFStringToString
 (
-const
 CFStringRef
 cf_string
 )

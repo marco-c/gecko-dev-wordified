@@ -1823,7 +1823,6 @@ int16_t
 *
 const
 farend
-const
 int
 farLen
 )
@@ -1983,10 +1982,8 @@ int16_t
 *
 const
 farend
-const
 int
 farLen
-const
 int
 knownDelay
 )
@@ -3166,7 +3163,6 @@ const
 uint16_t
 *
 far_spectrum
-const
 int16_t
 far_q
 const
@@ -3174,7 +3170,6 @@ uint16_t
 *
 const
 dfa
-const
 int16_t
 mu
 int32_t

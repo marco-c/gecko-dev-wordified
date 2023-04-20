@@ -394,7 +394,6 @@ fps
 void
 RunActiveStreamsTest
 (
-const
 std
 :
 :
@@ -408,7 +407,6 @@ active_streams
 void
 UpdateActiveStreams
 (
-const
 std
 :
 :
@@ -424,7 +422,6 @@ ExpectStreams
 (
 VideoFrameType
 frame_type
-const
 std
 :
 :

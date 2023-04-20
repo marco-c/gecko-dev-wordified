@@ -614,19 +614,14 @@ WebRtcIsac_UpdateBandwidthEstimator
 BwEstimatorstr
 *
 bwest_str
-const
 uint16_t
 rtp_number
-const
 int32_t
 frame_length
-const
 uint32_t
 send_ts
-const
 uint32_t
 arr_ts
-const
 size_t
 pksize
 )
@@ -837,7 +832,6 @@ in
 bitstream
 *
 /
-const
 int
 FrameLen
 /
@@ -847,7 +841,6 @@ per
 frame
 *
 /
-const
 double
 BottleNeck
 /
@@ -863,7 +856,6 @@ bps
 )
 *
 /
-const
 double
 DelayBuildUp
 /
@@ -921,7 +913,6 @@ in
 bitstream
 *
 /
-const
 int
 FrameSamples
 /
@@ -931,7 +922,6 @@ per
 frame
 *
 /
-const
 double
 BottleNeck
 )

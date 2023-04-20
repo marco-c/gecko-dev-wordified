@@ -1840,7 +1840,6 @@ const
 uint8_t
 *
 incoming_payload
-const
 size_t
 payload_len_bytes
 const

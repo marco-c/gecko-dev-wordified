@@ -309,7 +309,6 @@ const
 void
 SetMicLevel
 (
-const
 int
 level
 )
@@ -317,7 +316,6 @@ level
 void
 SetUndoMicLevel
 (
-const
 int
 level
 )

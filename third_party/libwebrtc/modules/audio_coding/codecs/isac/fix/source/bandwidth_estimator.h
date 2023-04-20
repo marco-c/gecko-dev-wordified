@@ -502,22 +502,16 @@ WebRtcIsacfix_UpdateUplinkBwImpl
 BwEstimatorstr
 *
 bwest_str
-const
 uint16_t
 rtp_number
-const
 int16_t
 frameSize
-const
 uint32_t
 send_ts
-const
 uint32_t
 arr_ts
-const
 size_t
 pksize
-const
 uint16_t
 Index
 )
@@ -549,7 +543,6 @@ WebRtcIsacfix_UpdateUplinkBwRec
 BwEstimatorstr
 *
 bwest_str
-const
 int16_t
 Index
 )
@@ -831,7 +824,6 @@ in
 bitstream
 *
 /
-const
 int16_t
 FrameLen
 /
@@ -841,7 +833,6 @@ per
 frame
 *
 /
-const
 int16_t
 BottleNeck
 /
@@ -857,7 +848,6 @@ bps
 )
 *
 /
-const
 int16_t
 DelayBuildUp
 )
@@ -907,7 +897,6 @@ in
 bitstream
 *
 /
-const
 int16_t
 FrameSamples
 /
@@ -917,7 +906,6 @@ per
 frame
 *
 /
-const
 int16_t
 BottleNeck
 )

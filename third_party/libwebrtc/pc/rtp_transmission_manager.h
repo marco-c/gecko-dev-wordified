@@ -1395,7 +1395,6 @@ std
 string
 &
 stream_id
-const
 std
 :
 :

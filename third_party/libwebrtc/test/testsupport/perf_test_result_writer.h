@@ -182,7 +182,6 @@ absl
 :
 string_view
 trace_name
-const
 double
 value
 absl
@@ -190,7 +189,6 @@ absl
 :
 string_view
 units
-const
 bool
 important
 webrtc
@@ -219,10 +217,8 @@ absl
 :
 string_view
 trace_name
-const
 double
 mean
-const
 double
 error
 absl
@@ -230,7 +226,6 @@ absl
 :
 string_view
 units
-const
 bool
 important
 webrtc
@@ -259,7 +254,6 @@ absl
 :
 string_view
 trace_name
-const
 rtc
 :
 :
@@ -274,7 +268,6 @@ absl
 :
 string_view
 units
-const
 bool
 important
 webrtc

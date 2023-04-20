@@ -468,7 +468,6 @@ const
 char
 *
 deviceUniqueIdUTF8
-const
 uint32_t
 deviceCapabilityNumber
 VideoCaptureCapability

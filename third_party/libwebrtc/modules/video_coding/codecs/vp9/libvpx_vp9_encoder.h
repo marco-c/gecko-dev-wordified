@@ -459,10 +459,8 @@ const
 vpx_codec_cx_pkt
 &
 pkt
-const
 size_t
 pic_num
-const
 bool
 inter_layer_predicted
 CodecSpecificInfoVP9
@@ -477,7 +475,6 @@ const
 vpx_codec_cx_pkt
 &
 pkt
-const
 size_t
 pic_num
 )
@@ -653,7 +650,6 @@ tid
 void
 MaybeRewrapRawWithFormat
 (
-const
 vpx_img_fmt
 fmt
 )

@@ -1040,7 +1040,6 @@ static
 void
 logCAMsg
 (
-const
 rtc
 :
 :
@@ -1059,14 +1058,12 @@ err
 int32_t
 GetNumberDevices
 (
-const
 AudioObjectPropertyScope
 scope
 AudioDeviceID
 scopedDeviceIds
 [
 ]
-const
 uint32_t
 deviceListLength
 )
@@ -1074,10 +1071,8 @@ deviceListLength
 int32_t
 GetDeviceName
 (
-const
 AudioObjectPropertyScope
 scope
-const
 uint16_t
 index
 char

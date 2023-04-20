@@ -192,13 +192,10 @@ const
 void
 *
 audio_samples
-const
 size_t
 num_samples
-const
 size_t
 bytes_per_sample
-const
 size_t
 num_channels
 const
@@ -216,16 +213,12 @@ const
 void
 *
 audio_samples
-const
 size_t
 num_samples
-const
 size_t
 bytes_per_sample
-const
 size_t
 num_channels
-const
 uint32_t
 samples_per_sec
 )
@@ -355,7 +348,6 @@ AudioDeviceModule
 >
 CreateAudioDeviceWithDataObserver
 (
-const
 AudioDeviceModule
 :
 :
@@ -398,7 +390,6 @@ AudioDeviceModule
 >
 CreateAudioDeviceWithDataObserver
 (
-const
 AudioDeviceModule
 :
 :

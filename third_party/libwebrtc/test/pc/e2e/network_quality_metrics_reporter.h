@@ -396,7 +396,6 @@ std
 string
 &
 network_label
-const
 double
 value
 const

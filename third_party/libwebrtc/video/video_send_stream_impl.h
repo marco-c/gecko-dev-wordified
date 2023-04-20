@@ -570,7 +570,6 @@ length
 void
 UpdateActiveSimulcastLayers
 (
-const
 std
 :
 :
