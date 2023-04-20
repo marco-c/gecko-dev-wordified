@@ -14275,9 +14275,8 @@ EqualStringsHelperPure
 (
 )
 ;
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch
 )
 ;
@@ -14489,9 +14488,8 @@ GetInt32FromStringPure
 (
 )
 ;
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch
 )
 ;
