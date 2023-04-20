@@ -4549,32 +4549,6 @@ parameters
 :
           
 let
-env
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-process
-/
-environment
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIEnvironment
-)
-;
-          
-let
 prefsToKeep
 =
 Array
@@ -4628,6 +4602,9 @@ JSON
 .
 parse
 (
+              
+Services
+.
 env
 .
 get
@@ -4673,6 +4650,8 @@ pref
           
 }
           
+Services
+.
 env
 .
 set
@@ -4689,6 +4668,8 @@ prefObj
 )
 ;
           
+Services
+.
 env
 .
 set
@@ -4702,6 +4683,8 @@ MOZ_RESET_PROFILE_RESTART
 )
 ;
           
+Services
+.
 env
 .
 set
