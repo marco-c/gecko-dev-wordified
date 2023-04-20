@@ -147,7 +147,7 @@ limit_
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
