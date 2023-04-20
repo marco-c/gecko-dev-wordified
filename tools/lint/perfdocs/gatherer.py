@@ -451,10 +451,21 @@ exclude_dir
 =
 [
             
+str
+(
+pathlib
+.
+Path
+(
+self
+.
+workspace_dir
 "
 .
 hg
 "
+)
+)
             
 str
 (
