@@ -2285,11 +2285,6 @@ voice_receiver_info
 .
 last_packet_received_timestamp_ms
 )
-/
-rtc
-:
-:
-kNumMillisecsPerSec
 ;
 }
 if
