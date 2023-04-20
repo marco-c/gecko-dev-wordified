@@ -300,14 +300,17 @@ a
 UTF
 -
 8
+&
+ndash
+;
 encoded
 character
 always
 produces
-other
 /
 /
 !
+other
 valid
 byte
 sequences
@@ -2654,6 +2657,7 @@ unwrap
 [
 derive
 (
+Clone
 Debug
 Eq
 PartialEq
