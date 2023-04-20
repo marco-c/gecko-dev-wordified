@@ -372,6 +372,17 @@ OnResponseEnd
 (
 EndReason
 aReason
+JS
+:
+:
+Handle
+<
+JS
+:
+:
+Value
+>
+aReasonDetails
 )
 {
 }
