@@ -1511,6 +1511,9 @@ migratorKey
 if
 (
 migrator
+?
+.
+enabled
 )
 {
 /
