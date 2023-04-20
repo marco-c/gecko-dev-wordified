@@ -1272,6 +1272,11 @@ has_value
 )
 ;
 }
+void
+MaybeSendFastRetransmit
+(
+)
+;
 /
 /
 Fills
