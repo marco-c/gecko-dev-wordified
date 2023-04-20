@@ -161,6 +161,11 @@ HTMLSelectEventListener
 cpp
 "
 "
+ListMutationObserver
+.
+cpp
+"
+"
 nsButtonFrameRenderer
 .
 cpp
