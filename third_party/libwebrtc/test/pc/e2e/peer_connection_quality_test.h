@@ -682,10 +682,6 @@ SetPeerCodecPreferences
 TestPeer
 *
 peer
-const
-RunParams
-&
-run_params
 )
 ;
 std
