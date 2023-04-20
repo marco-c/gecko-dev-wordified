@@ -1152,14 +1152,6 @@ build
 /
 mozglue
 /
-interposers
-/
-*
-*
-+
-/
-mozglue
-/
 misc
 /
 *
