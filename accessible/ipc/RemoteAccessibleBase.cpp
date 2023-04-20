@@ -5636,6 +5636,11 @@ tag
 IsTextLeaf
 (
 )
+|
+|
+IsDoc
+(
+)
 "
 Could
 not
