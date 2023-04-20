@@ -3763,17 +3763,6 @@ isCanceled
 )
 )
 ;
-/
-/
-Enable
-when
-bug
-1806363
-is
-fixed
-#
-if
-0
 ASSERT_NO_FATAL_FAILURE
 (
 CheckUsageEqualTo
@@ -3783,8 +3772,6 @@ testFileDbUsage
 )
 )
 ;
-#
-endif
 }
 ;
 RefPtr
