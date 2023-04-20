@@ -99,6 +99,15 @@ GFX_SKIP_CHARS_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -864,6 +873,7 @@ character
 *
 /
 class
+MOZ_STACK_CLASS
 gfxSkipCharsIterator
 {
 public
