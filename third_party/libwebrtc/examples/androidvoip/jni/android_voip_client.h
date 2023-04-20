@@ -1120,7 +1120,7 @@ j_voip_client
 )
 {
 }
-bool
+void
 Init
 (
 JNIEnv

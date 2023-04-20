@@ -102,6 +102,17 @@ optional
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+unused
+.
+h
+"
 namespace
 webrtc
 {
@@ -264,6 +275,7 @@ int
 ;
 enum
 class
+RTC_WARN_UNUSED_RESULT
 VoipResult
 {
 /
