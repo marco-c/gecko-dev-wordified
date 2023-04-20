@@ -67,8 +67,6 @@ import
 os
 import
 re
-import
-six
 from
 collections
 import
@@ -82,22 +80,14 @@ from
 operator
 import
 itemgetter
-from
-six
-import
-StringIO
-from
-mozpack
-.
-manifests
-import
-InstallManifest
 import
 mozpack
 .
 path
 as
 mozpath
+import
+six
 from
 mozbuild
 import
@@ -113,24 +103,32 @@ import
     
 AbsolutePath
     
+ObjDirPath
+    
 Path
     
 RenamedSourcePath
     
 SourcePath
-    
-ObjDirPath
 )
 from
+mozbuild
 .
-common
+shellutil
 import
-CommonBackend
+quote
+as
+shell_quote
 from
+mozpack
 .
-make
+manifests
 import
-MakeBackend
+InstallManifest
+from
+six
+import
+StringIO
 from
 .
 .
@@ -174,6 +172,8 @@ HostProgram
     
 HostRustProgram
     
+HostSharedLibrary
+    
 HostSimpleProgram
     
 HostSources
@@ -197,8 +197,6 @@ ObjdirPreprocessedFiles
 PerSourceFlag
     
 Program
-    
-HostSharedLibrary
     
 RustProgram
     
@@ -225,26 +223,28 @@ XPIDLModule
 from
 .
 .
-util
-import
-ensureParentDir
-FileAvoidWrite
-OrderedDefaultDict
-pairwise
-from
-.
-.
 makeutil
 import
 Makefile
 from
-mozbuild
 .
-shellutil
+.
+util
 import
-quote
-as
-shell_quote
+FileAvoidWrite
+OrderedDefaultDict
+ensureParentDir
+pairwise
+from
+.
+common
+import
+CommonBackend
+from
+.
+make
+import
+MakeBackend
 #
 To
 protect
@@ -2340,14 +2340,6 @@ set
         
 self
 .
-_rust_lib_targets
-=
-set
-(
-)
-        
-self
-.
 _gkrust_target
 =
 None
@@ -4293,15 +4285,6 @@ add
 build_target
 )
             
-self
-.
-_rust_lib_targets
-.
-add
-(
-build_target
-)
-            
 if
 obj
 .
@@ -5572,23 +5555,6 @@ self
 _rust_targets
 )
             
-rust_libs
-=
-sorted
-(
-r
-for
-r
-in
-roots
-if
-r
-in
-self
-.
-_rust_lib_targets
-)
-            
 if
 category
 =
@@ -5701,7 +5667,7 @@ t
 for
 t
 in
-rust_libs
+rust_roots
 ]
 key
 =
