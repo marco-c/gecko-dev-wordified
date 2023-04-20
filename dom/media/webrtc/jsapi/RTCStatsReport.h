@@ -271,6 +271,13 @@ nsPIDOMWindowInner
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -548,8 +555,8 @@ TimeStamp
 mStartRealtime
 ;
 const
-bool
-mCrossOriginIsolated
+RTPCallerType
+mRTPCallerType
 ;
 const
 DOMHighResTimeStamp
