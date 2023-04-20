@@ -2112,6 +2112,12 @@ int
 >
 stable_writable_connection_ping_interval_ms
 ;
+webrtc
+:
+:
+VpnPreference
+vpn_preference
+;
 }
 ;
 static_assert
@@ -2530,6 +2536,14 @@ stable_writable_connection_ping_interval_ms
 o
 .
 stable_writable_connection_ping_interval_ms
+&
+&
+vpn_preference
+=
+=
+o
+.
+vpn_preference
 ;
 }
 bool
