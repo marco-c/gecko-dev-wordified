@@ -44,7 +44,7 @@ Downloads
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,7 +57,9 @@ modules
 /
 Downloads
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -68,7 +70,7 @@ DownloadIntegration
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -81,7 +83,9 @@ modules
 /
 DownloadIntegration
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

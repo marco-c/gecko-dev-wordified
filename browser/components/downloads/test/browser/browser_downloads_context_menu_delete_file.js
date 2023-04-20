@@ -39,7 +39,7 @@ DownloadHistory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ modules
 /
 DownloadHistory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -153,7 +153,7 @@ PREF_BRANCH_PREVIOUS_ASK
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -165,7 +165,9 @@ modules
 /
 DownloadsViewableInternally
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
