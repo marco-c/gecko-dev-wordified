@@ -180,9 +180,6 @@ SimulationEnded
 (
 int64_t
 simulation_time_ms
-NetEq
-*
-neteq
 )
 override
 ;
