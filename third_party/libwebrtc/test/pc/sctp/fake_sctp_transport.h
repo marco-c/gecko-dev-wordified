@@ -327,6 +327,11 @@ local_port
 )
 const
 {
+RTC_DCHECK
+(
+local_port_
+)
+;
 return
 *
 local_port_
@@ -338,6 +343,11 @@ remote_port
 )
 const
 {
+RTC_DCHECK
+(
+remote_port_
+)
+;
 return
 *
 remote_port_
