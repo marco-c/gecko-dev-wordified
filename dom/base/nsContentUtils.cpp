@@ -21618,13 +21618,6 @@ JSObject
 aObj
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 #
 ifdef
 DEBUG
