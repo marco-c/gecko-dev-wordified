@@ -66,8 +66,8 @@ quote
 from
 marionette_driver
 import
-errors
 Wait
+errors
 from
 marionette_driver
 .
@@ -1861,25 +1861,25 @@ ctypes
 from
 ctypes
 import
-Structure
 POINTER
 WINFUNCTYPE
-windll
-pointer
+Structure
 WinError
+pointer
+windll
         
 from
 ctypes
 .
 wintypes
 import
-HANDLE
-DWORD
 BOOL
-WCHAR
+DWORD
+HANDLE
+LPCWSTR
 UINT
 ULONG
-LPCWSTR
+WCHAR
         
 #
 set
