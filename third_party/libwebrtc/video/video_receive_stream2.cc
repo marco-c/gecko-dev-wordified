@@ -2411,6 +2411,8 @@ decoder
 .
 payload_type
 codec
+.
+codecType
 decoder
 .
 video_format

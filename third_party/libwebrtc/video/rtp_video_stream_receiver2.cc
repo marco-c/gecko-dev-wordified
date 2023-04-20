@@ -166,6 +166,17 @@ h
 #
 include
 "
+api
+/
+video
+/
+video_codec_type
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -2118,9 +2129,7 @@ AddReceiveCodec
 (
 uint8_t
 payload_type
-const
-VideoCodec
-&
+VideoCodecType
 video_codec
 const
 std
@@ -2202,8 +2211,6 @@ VideoRtpDepacketizerRaw
 CreateVideoRtpDepacketizer
 (
 video_codec
-.
-codecType
 )
 )
 ;
