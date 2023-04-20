@@ -1241,12 +1241,6 @@ SandboxingKind
 :
 GENERIC_UTILITY
 :
-case
-SandboxingKind
-:
-:
-UTILITY_AUDIO_DECODING_GENERIC
-:
 policy
 =
 SandboxBrokerPolicyFactory
