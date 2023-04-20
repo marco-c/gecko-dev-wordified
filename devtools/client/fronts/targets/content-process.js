@@ -69,6 +69,10 @@ contentProcessTargetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -80,6 +84,8 @@ targets
 content
 -
 process
+.
+js
 "
 )
 ;
@@ -92,11 +98,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -108,6 +120,10 @@ TargetMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +135,8 @@ targets
 target
 -
 mixin
+.
+js
 "
 )
 ;

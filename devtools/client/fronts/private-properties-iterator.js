@@ -70,11 +70,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ privatePropertiesIteratorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -97,6 +107,8 @@ private
 properties
 -
 iterator
+.
+js
 "
 )
 ;
@@ -108,6 +120,10 @@ getAdHocFrontOrPrimitiveGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +131,8 @@ client
 fronts
 /
 object
+.
+js
 "
 )
 ;

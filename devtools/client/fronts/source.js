@@ -69,6 +69,10 @@ sourceSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 specs
 /
 source
+.
+js
 "
 )
 ;
@@ -88,11 +94,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -104,6 +116,10 @@ ArrayBufferFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +129,8 @@ fronts
 array
 -
 buffer
+.
+js
 "
 )
 ;

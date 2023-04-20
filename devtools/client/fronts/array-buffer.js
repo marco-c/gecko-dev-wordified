@@ -69,6 +69,10 @@ arrayBufferSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -78,6 +82,8 @@ specs
 array
 -
 buffer
+.
+js
 "
 )
 ;
@@ -90,11 +96,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

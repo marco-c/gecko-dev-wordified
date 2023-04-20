@@ -70,6 +70,10 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -92,6 +96,10 @@ simulatorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -99,6 +107,8 @@ shared
 specs
 /
 accessibility
+.
+js
 "
 )
 ;
@@ -108,6 +118,10 @@ events
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -115,6 +129,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

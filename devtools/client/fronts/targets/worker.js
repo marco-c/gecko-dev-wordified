@@ -69,6 +69,10 @@ workerTargetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -78,6 +82,8 @@ specs
 targets
 /
 worker
+.
+js
 "
 )
 ;
@@ -90,11 +96,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -106,6 +118,10 @@ TargetMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +133,8 @@ targets
 target
 -
 mixin
+.
+js
 "
 )
 ;

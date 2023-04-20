@@ -69,6 +69,10 @@ safeAsyncMethod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 async
 -
 utils
+.
+js
 "
 )
 ;
@@ -88,11 +94,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -107,6 +119,10 @@ layoutSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -114,6 +130,8 @@ shared
 specs
 /
 layout
+.
+js
 "
 )
 ;

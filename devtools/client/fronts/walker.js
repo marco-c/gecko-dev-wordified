@@ -71,6 +71,10 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -89,6 +93,10 @@ walkerSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -96,6 +104,8 @@ shared
 specs
 /
 walker
+.
+js
 "
 )
 ;
@@ -107,6 +117,10 @@ safeAsyncMethod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -114,6 +128,8 @@ shared
 async
 -
 utils
+.
+js
 "
 )
 ;

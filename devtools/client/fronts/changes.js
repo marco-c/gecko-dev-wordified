@@ -70,11 +70,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ changesSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -93,6 +103,8 @@ shared
 specs
 /
 changes
+.
+js
 "
 )
 ;

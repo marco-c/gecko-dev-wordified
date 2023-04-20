@@ -69,6 +69,10 @@ screenshotContentSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -78,6 +82,8 @@ specs
 screenshot
 -
 content
+.
+js
 "
 )
 ;
@@ -90,11 +96,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

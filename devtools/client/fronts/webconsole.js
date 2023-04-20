@@ -70,11 +70,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ webconsoleSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -93,6 +103,8 @@ shared
 specs
 /
 webconsole
+.
+js
 "
 )
 ;
@@ -104,6 +116,10 @@ getAdHocFrontOrPrimitiveGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +127,8 @@ client
 fronts
 /
 object
+.
+js
 "
 )
 ;

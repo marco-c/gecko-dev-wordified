@@ -70,11 +70,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ networkParentSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ specs
 network
 -
 parent
+.
+js
 "
 )
 ;

@@ -69,6 +69,10 @@ objectSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 specs
 /
 object
+.
+js
 "
 )
 ;
@@ -88,11 +94,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -104,6 +116,10 @@ LongStringFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +127,8 @@ client
 fronts
 /
 string
+.
+js
 "
 )
 ;

@@ -69,6 +69,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ SimpleStringFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ shared
 specs
 /
 string
+.
+js
 "
 )
 ;
@@ -107,11 +119,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

@@ -69,6 +69,10 @@ addonsSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -78,6 +82,8 @@ specs
 addon
 /
 addons
+.
+js
 "
 )
 ;
@@ -90,11 +96,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

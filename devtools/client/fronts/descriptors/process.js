@@ -69,6 +69,10 @@ processDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -78,6 +82,8 @@ specs
 descriptors
 /
 process
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ WindowGlobalTargetFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ ContentProcessTargetFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ targets
 content
 -
 process
+.
+js
 "
 )
 ;
@@ -134,11 +152,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -150,6 +174,10 @@ DescriptorMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -161,6 +189,8 @@ descriptors
 descriptor
 -
 mixin
+.
+js
 "
 )
 ;
@@ -170,6 +200,10 @@ DESCRIPTOR_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +215,8 @@ descriptors
 descriptor
 -
 types
+.
+js
 "
 )
 ;

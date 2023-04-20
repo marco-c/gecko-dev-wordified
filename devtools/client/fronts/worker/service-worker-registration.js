@@ -69,6 +69,10 @@ serviceWorkerRegistrationSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -82,6 +86,8 @@ service
 worker
 -
 registration
+.
+js
 "
 )
 ;
@@ -95,11 +101,17 @@ types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
