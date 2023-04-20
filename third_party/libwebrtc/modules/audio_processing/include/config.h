@@ -167,6 +167,9 @@ kDelayAgnostic
 /
 Deprecated
 kExperimentalAgc
+/
+/
+Deprecated
 kExperimentalNs
 kBeamforming
 /
