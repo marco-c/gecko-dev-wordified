@@ -449,7 +449,12 @@ lock_
 ;
 if
 (
-initialized_
+audio_device_module_
+-
+>
+Initialized
+(
+)
 )
 {
 return
@@ -879,10 +884,6 @@ callback
 "
 ;
 }
-initialized_
-=
-true
-;
 return
 true
 ;
