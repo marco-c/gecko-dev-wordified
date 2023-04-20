@@ -444,7 +444,7 @@ constexpr
 uint32_t
 kMaxAcceptedOutstandingFragments
 =
-256
+100000
 ;
 explicit
 DataTracker
