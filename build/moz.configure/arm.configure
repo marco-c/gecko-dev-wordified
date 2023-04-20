@@ -1619,6 +1619,9 @@ set_config
 "
 BUILD_ARM_NEON
 "
+True
+when
+=
 build_arm_neon
 )
 set_define
@@ -1626,6 +1629,9 @@ set_define
 "
 BUILD_ARM_NEON
 "
+True
+when
+=
 build_arm_neon
 )
 set_config
