@@ -319,9 +319,6 @@ if
 bce_
 -
 >
-parser
--
->
 errorReporter
 (
 )
@@ -333,9 +330,6 @@ whilePos
 =
 =
 bce_
--
->
-parser
 -
 >
 errorReporter

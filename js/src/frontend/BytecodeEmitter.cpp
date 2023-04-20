@@ -3823,9 +3823,6 @@ ErrorReporter
 er
 =
 &
-parser
--
->
 errorReporter
 (
 )
@@ -4199,9 +4196,6 @@ true
 uint32_t
 columnIndex
 =
-parser
--
->
 errorReporter
 (
 )
@@ -9913,9 +9907,6 @@ args
 errorNumber
 )
 ;
-parser
--
->
 errorReporter
 (
 )
@@ -9962,9 +9953,6 @@ args
 errorNumber
 )
 ;
-parser
--
->
 errorReporter
 (
 )
