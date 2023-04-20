@@ -215,7 +215,6 @@ SVGInnerSVGFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -236,7 +235,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

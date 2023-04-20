@@ -437,7 +437,6 @@ nsIFrame
 aMaskedFrame
 )
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -454,7 +453,6 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -472,7 +470,6 @@ override
 ;
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -490,7 +487,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -574,7 +570,6 @@ mInUse
 SVGContainerFrame
 methods
 :
-virtual
 gfxMatrix
 GetCanvasTM
 (

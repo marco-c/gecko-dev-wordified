@@ -280,7 +280,6 @@ aPresContext
 SVGPaintServerFrame
 methods
 :
-virtual
 already_AddRefed
 <
 gfxPattern
@@ -323,7 +322,6 @@ public
 SVGContainerFrame
 methods
 :
-virtual
 gfxMatrix
 GetCanvasTM
 (
@@ -335,7 +333,6 @@ override
 nsIFrame
 interface
 :
-virtual
 nsresult
 AttributeChanged
 (
@@ -352,7 +349,6 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -373,7 +369,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

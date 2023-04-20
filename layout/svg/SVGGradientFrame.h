@@ -293,7 +293,6 @@ SVGGradientFrame
 SVGPaintServerFrame
 methods
 :
-virtual
 already_AddRefed
 <
 gfxPattern
@@ -334,7 +333,6 @@ override
 nsIFrame
 interface
 :
-virtual
 nsresult
 AttributeChanged
 (
@@ -351,7 +349,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -928,7 +925,6 @@ interface
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -946,7 +942,6 @@ override
 ;
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (
@@ -963,7 +958,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -1000,7 +994,6 @@ uint32_t
 aIndex
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1025,14 +1018,12 @@ aDefault
 )
 override
 ;
-virtual
 bool
 GradientVectorLengthIsZero
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfxPattern
@@ -1259,7 +1250,6 @@ interface
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -1277,7 +1267,6 @@ override
 ;
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (
@@ -1294,7 +1283,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -1356,7 +1344,6 @@ SVGRadialGradientElement
 aElement
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1381,14 +1368,12 @@ aDefault
 )
 override
 ;
-virtual
 bool
 GradientVectorLengthIsZero
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfxPattern

@@ -273,7 +273,6 @@ SVGClipPathFrame
 nsIFrame
 methods
 :
-virtual
 void
 BuildDisplayList
 (
@@ -288,7 +287,6 @@ aLists
 override
 {
 }
-virtual
 bool
 IsSVGTransformed
 (
@@ -761,7 +759,6 @@ IsValid
 nsIFrame
 interface
 :
-virtual
 nsresult
 AttributeChanged
 (
@@ -775,7 +772,6 @@ aModType
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -794,7 +790,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -897,7 +892,6 @@ private
 SVGContainerFrame
 methods
 :
-virtual
 gfxMatrix
 GetCanvasTM
 (

@@ -1240,7 +1240,6 @@ SVGTextFrame
 /
 nsIFrame
 :
-virtual
 void
 Init
 (
@@ -1256,7 +1255,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -1270,7 +1268,6 @@ aModType
 )
 override
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -1293,7 +1290,6 @@ GetContentInsertionFrame
 )
 ;
 }
-virtual
 void
 BuildDisplayList
 (
@@ -1310,7 +1306,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -1354,7 +1349,6 @@ point
 .
 *
 /
-virtual
 void
 FindCloserFrameForSelection
 (
@@ -1373,7 +1367,6 @@ override
 ISVGDisplayableFrame
 interface
 :
-virtual
 void
 NotifySVGChanged
 (
@@ -1382,7 +1375,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 PaintSVG
 (
@@ -1405,7 +1397,6 @@ nullptr
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetFrameForPoint
@@ -1417,14 +1408,12 @@ aPoint
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (

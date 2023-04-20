@@ -276,7 +276,6 @@ SVGFilterFrame
 nsIFrame
 methods
 :
-virtual
 void
 BuildDisplayList
 (
@@ -291,7 +290,6 @@ aLists
 override
 {
 }
-virtual
 nsresult
 AttributeChanged
 (
@@ -308,7 +306,6 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (

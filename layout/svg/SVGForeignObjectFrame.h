@@ -245,7 +245,6 @@ SVGForeignObjectFrame
 /
 nsIFrame
 :
-virtual
 void
 Init
 (
@@ -261,7 +260,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -274,7 +272,6 @@ aPostDestroyData
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -288,7 +285,6 @@ aModType
 )
 override
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -311,7 +307,6 @@ GetContentInsertionFrame
 )
 ;
 }
-virtual
 void
 Reflow
 (
@@ -331,7 +326,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -345,7 +339,6 @@ aLists
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -382,7 +375,6 @@ eSVG
 )
 ;
 }
-virtual
 bool
 IsSVGTransformed
 (
@@ -399,7 +391,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -429,7 +420,6 @@ endif
 ISVGDisplayableFrame
 interface
 :
-virtual
 void
 PaintSVG
 (
@@ -452,7 +442,6 @@ nullptr
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetFrameForPoint
@@ -464,14 +453,12 @@ aPoint
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
 )
 override
 ;
-virtual
 void
 NotifySVGChanged
 (
@@ -480,7 +467,6 @@ aFlags
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (
@@ -493,7 +479,6 @@ aFlags
 )
 override
 ;
-virtual
 bool
 IsDisplayContainer
 (
@@ -543,7 +528,6 @@ aResult
 )
 override
 ;
-virtual
 void
 DidSetComputedStyle
 (

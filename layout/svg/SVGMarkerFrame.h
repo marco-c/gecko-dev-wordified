@@ -332,7 +332,6 @@ interface
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -350,7 +349,6 @@ override
 ;
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -365,7 +363,6 @@ aLists
 override
 {
 }
-virtual
 nsresult
 AttributeChanged
 (
@@ -382,7 +379,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -407,7 +403,6 @@ aResult
 }
 #
 endif
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -567,7 +562,6 @@ mMarkerTM
 SVGContainerFrame
 methods
 :
-virtual
 gfxMatrix
 GetCanvasTM
 (
@@ -847,7 +841,6 @@ SVGMarkerAnonChildFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -868,7 +861,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -898,7 +890,6 @@ endif
 SVGContainerFrame
 methods
 :
-virtual
 gfxMatrix
 GetCanvasTM
 (

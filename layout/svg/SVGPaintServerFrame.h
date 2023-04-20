@@ -449,7 +449,6 @@ nullptr
 nsIFrame
 methods
 :
-virtual
 void
 BuildDisplayList
 (

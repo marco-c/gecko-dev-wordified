@@ -207,7 +207,6 @@ NS_DECL_ABSTRACT_FRAME
 (
 SVGViewportFrame
 )
-virtual
 nsresult
 AttributeChanged
 (
@@ -226,7 +225,6 @@ override
 ISVGDisplayableFrame
 interface
 :
-virtual
 void
 PaintSVG
 (
@@ -249,14 +247,12 @@ nullptr
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
 )
 override
 ;
-virtual
 void
 NotifySVGChanged
 (
@@ -277,7 +273,6 @@ aFlags
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetFrameForPoint
@@ -294,7 +289,6 @@ override
 SVGContainerFrame
 methods
 :
-virtual
 bool
 HasChildrenOnlyTransform
 (
@@ -310,7 +304,6 @@ override
 ISVGSVGFrame
 interface
 :
-virtual
 void
 NotifyViewportOrTransformChanged
 (

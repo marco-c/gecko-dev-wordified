@@ -339,7 +339,6 @@ SVGGeometryFrame
 nsIFrame
 interface
 :
-virtual
 void
 Init
 (
@@ -355,7 +354,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -392,7 +390,6 @@ eSVG
 )
 ;
 }
-virtual
 nsresult
 AttributeChanged
 (
@@ -406,7 +403,6 @@ aModType
 )
 override
 ;
-virtual
 void
 DidSetComputedStyle
 (
@@ -416,7 +412,6 @@ aOldComputedStyle
 )
 override
 ;
-virtual
 bool
 IsSVGTransformed
 (
@@ -437,7 +432,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -462,7 +456,6 @@ aResult
 }
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -498,7 +491,6 @@ protected
 ISVGDisplayableFrame
 interface
 :
-virtual
 void
 PaintSVG
 (
@@ -521,7 +513,6 @@ nullptr
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetFrameForPoint
@@ -533,14 +524,12 @@ aPoint
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
 )
 override
 ;
-virtual
 void
 NotifySVGChanged
 (
@@ -549,7 +538,6 @@ aFlags
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (
@@ -562,7 +550,6 @@ aFlags
 )
 override
 ;
-virtual
 bool
 IsDisplayContainer
 (
@@ -925,7 +912,6 @@ DisplaySVGGeometry
 "
 TYPE_SVG_GEOMETRY
 )
-virtual
 void
 HitTest
 (
@@ -949,7 +935,6 @@ aOutFrames
 )
 override
 ;
-virtual
 void
 Paint
 (
