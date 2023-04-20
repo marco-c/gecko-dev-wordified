@@ -2621,14 +2621,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-const
-bool
-enable_rtx_handling_
-RTC_GUARDED_BY
-(
-mutex_
-)
-;
 /
 /
 Data

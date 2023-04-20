@@ -1012,14 +1012,6 @@ min_delay_ms
 ;
 controller_config
 .
-enable_rtx_handling
-=
-config_
-.
-enable_rtx_handling
-;
-controller_config
-.
 allow_time_stretching
 =
 true
@@ -12046,7 +12038,7 @@ rtp_header
 TEST_F
 (
 NetEqImplTest
-EnableRtxHandling
+NotifyControllerOfReorderedPacket
 )
 {
 using
@@ -12070,12 +12062,6 @@ UseNoMocks
 )
 ;
 use_mock_neteq_controller_
-=
-true
-;
-config_
-.
-enable_rtx_handling
 =
 true
 ;
@@ -12287,7 +12273,7 @@ fs_hz
 should_update_stats
 *
 /
-_
+true
 /
 *
 info
