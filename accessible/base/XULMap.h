@@ -198,6 +198,11 @@ XULColumnItemAccessible
 )
 XULMAP_TYPE
 (
+treecolpicker
+XULButtonAccessible
+)
+XULMAP_TYPE
+(
 treecols
 XULTreeColumAccessible
 )
