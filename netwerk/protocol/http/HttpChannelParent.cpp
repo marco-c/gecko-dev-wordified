@@ -3834,15 +3834,6 @@ GetBrowsingContext
 )
 :
 nullptr
-mLoadContext
-&
-&
-mLoadContext
--
->
-UsePrivateBrowsing
-(
-)
 )
 ;
 httpChannel

@@ -213,15 +213,6 @@ h
 #
 include
 "
-mozilla
-/
-Unused
-.
-h
-"
-#
-include
-"
 nsIHttpHeaderVisitor
 .
 h
@@ -322,12 +313,6 @@ using
 mozilla
 :
 :
-Unused
-;
-using
-mozilla
-:
-:
 dom
 :
 :
@@ -353,8 +338,6 @@ dom
 CanonicalBrowsingContext
 *
 aBrowsingContext
-bool
-aUsePrivateBrowsing
 )
 :
 mNextListener
