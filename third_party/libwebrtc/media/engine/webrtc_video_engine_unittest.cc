@@ -24524,9 +24524,13 @@ Setting
 different
 extensions
 should
-recreate
+not
+require
 the
 stream
+to
+be
+recreated
 .
 recv_parameters_
 .
@@ -24550,7 +24554,7 @@ recv_parameters_
 ;
 EXPECT_EQ
 (
-2
+1
 fake_call_
 -
 >
