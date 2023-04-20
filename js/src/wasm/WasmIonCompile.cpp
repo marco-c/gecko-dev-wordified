@@ -20221,7 +20221,7 @@ auto
 *
 data
 =
-MWasmLoadObjectField
+MWasmLoadField
 :
 :
 New
@@ -20314,7 +20314,7 @@ auto
 *
 load
 =
-MWasmLoadObjectDataField
+MWasmLoadFieldKA
 :
 :
 New
@@ -20946,7 +20946,7 @@ auto
 *
 data
 =
-MWasmLoadObjectField
+MWasmLoadField
 :
 :
 New
@@ -21065,7 +21065,7 @@ auto
 *
 store
 =
-MWasmStoreObjectDataField
+MWasmStoreFieldKA
 :
 :
 New
@@ -21155,7 +21155,7 @@ auto
 *
 prevValue
 =
-MWasmLoadObjectDataField
+MWasmLoadFieldKA
 :
 :
 New
@@ -21201,7 +21201,7 @@ auto
 *
 store
 =
-MWasmStoreObjectDataRefField
+MWasmStoreFieldRefKA
 :
 :
 New
