@@ -1417,7 +1417,7 @@ AVAudioSession
 "
 code
 :
-AVAudioSessionErrorInsufficientPriority
+AVAudioSessionErrorCodeCannotInterruptOthers
 userInfo
 :
 nil
