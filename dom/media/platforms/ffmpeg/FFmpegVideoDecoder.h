@@ -1009,11 +1009,6 @@ const
 bool
 mLowLatency
 ;
-AVDiscard
-mFrameDrop
-=
-AVDISCARD_DEFAULT
-;
 const
 Maybe
 <
