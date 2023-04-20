@@ -258,6 +258,13 @@ addon
 -
 essentials
 "
+"
+storybook
+/
+addon
+-
+a11y
+"
 ]
 framework
 :
