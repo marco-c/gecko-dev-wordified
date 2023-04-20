@@ -6254,7 +6254,10 @@ video
 {
 verifier
 .
-TestMemberIsUndefined
+TestMemberIsNonNegative
+<
+double
+>
 (
 inbound_stream
 .
