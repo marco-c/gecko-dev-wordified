@@ -15310,16 +15310,11 @@ firstMenuItem
 int32_t
 menuAccessKey
 =
--
-1
-;
 nsMenuBarListener
 :
 :
 GetMenuAccessKey
 (
-&
-menuAccessKey
 )
 ;
 /
