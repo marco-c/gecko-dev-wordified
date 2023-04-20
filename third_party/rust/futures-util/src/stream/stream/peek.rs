@@ -1957,7 +1957,11 @@ usize
 let
 peek_len
 =
-if
+usize
+:
+:
+from
+(
 self
 .
 peeked
@@ -1965,13 +1969,7 @@ peeked
 is_some
 (
 )
-{
-1
-}
-else
-{
-0
-}
+)
 ;
 let
 (
