@@ -93,6 +93,15 @@ resource
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 namespace
 webrtc
 {
@@ -133,6 +142,11 @@ kUnderuse
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 ResourceListener
 :

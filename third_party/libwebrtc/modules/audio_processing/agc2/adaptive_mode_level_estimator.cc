@@ -276,6 +276,11 @@ peak_dbfs
 break
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 /

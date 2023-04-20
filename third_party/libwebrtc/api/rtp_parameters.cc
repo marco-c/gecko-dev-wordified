@@ -195,6 +195,11 @@ balanced
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 const
 double

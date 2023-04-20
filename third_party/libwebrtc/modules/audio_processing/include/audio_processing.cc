@@ -254,6 +254,11 @@ VeryHigh
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 std
 :
@@ -318,6 +323,11 @@ FixedDigital
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 std
 :
@@ -368,6 +378,11 @@ Peak
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 int
 GetDefaultMaxInternalRate

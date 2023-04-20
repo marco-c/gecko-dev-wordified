@@ -997,6 +997,11 @@ get
 )
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 /
 /
@@ -2009,6 +2014,11 @@ frame_types
 )
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 int32_t
 VideoEncoderSoftwareFallbackWrapper

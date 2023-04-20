@@ -198,6 +198,11 @@ flexfec
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 /

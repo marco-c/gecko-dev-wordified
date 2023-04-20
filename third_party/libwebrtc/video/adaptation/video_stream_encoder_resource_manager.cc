@@ -377,6 +377,11 @@ cpu
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 /

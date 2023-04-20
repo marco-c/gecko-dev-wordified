@@ -186,6 +186,11 @@ DtlsTransportState
 kFailed
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 /

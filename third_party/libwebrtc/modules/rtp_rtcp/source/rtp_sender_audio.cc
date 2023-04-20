@@ -355,6 +355,11 @@ audio_cn
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 #
 endif
