@@ -3482,6 +3482,9 @@ unique_ptr
 Call
 >
 call
+PeerConnectionDependencies
+&
+dependencies
 )
 ;
 ~
@@ -4612,6 +4615,7 @@ chromium
 supplies
 it
 .
+const
 std
 :
 :
@@ -4662,6 +4666,7 @@ and
 network
 thread
 .
+const
 std
 :
 :
@@ -4718,6 +4723,7 @@ the
 network
 thread
 .
+const
 std
 :
 :
