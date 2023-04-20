@@ -5337,7 +5337,7 @@ caches
 .
 stringToAtomCache
 .
-lookup
+lookupInMap
 (
 linear
 )
