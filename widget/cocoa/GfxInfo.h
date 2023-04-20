@@ -476,12 +476,6 @@ GfxInfo
 )
 {
 }
-OperatingSystem
-GetOperatingSystem
-(
-)
-override
-;
 virtual
 nsresult
 GetFeatureStatusImpl
