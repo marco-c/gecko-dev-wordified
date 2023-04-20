@@ -604,7 +604,6 @@ retval
 *
 Returns
 the
-serialized
 security
 info
 associated
@@ -620,9 +619,8 @@ GetSecurityInfo
 )
 returns
 (
-nsCString
-?
-serializedSecInfo
+nsITransportSecurityInfo
+securityInfo
 )
 ;
 async
