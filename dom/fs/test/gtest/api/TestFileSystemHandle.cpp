@@ -267,6 +267,12 @@ u
 Directory
 "
 _ns
+/
+*
+directory
+*
+/
+true
 )
 ;
 mFileMetadata
@@ -282,6 +288,12 @@ u
 File
 "
 _ns
+/
+*
+directory
+*
+/
+false
 )
 ;
 mManager

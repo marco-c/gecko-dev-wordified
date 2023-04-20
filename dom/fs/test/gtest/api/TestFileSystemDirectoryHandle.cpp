@@ -284,6 +284,12 @@ u
 Directory
 "
 _ns
+/
+*
+directory
+*
+/
+true
 )
 ;
 mName

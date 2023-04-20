@@ -1137,6 +1137,8 @@ EntryId
 aParent
 PageNumber
 aPage
+bool
+aDirectory
 FileSystemEntries
 &
 aEntries
@@ -1347,6 +1349,7 @@ metadata
 (
 entryId
 entryName
+aDirectory
 )
 ;
 aEntries
@@ -2589,6 +2592,12 @@ mConnection
 directoriesQuery
 aParent
 aPage
+/
+*
+aDirectory
+*
+/
+true
 entries
 .
 directories
@@ -2608,6 +2617,12 @@ mConnection
 filesQuery
 aParent
 aPage
+/
+*
+aDirectory
+*
+/
+false
 entries
 .
 files

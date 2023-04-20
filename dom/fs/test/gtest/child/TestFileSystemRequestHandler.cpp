@@ -341,6 +341,12 @@ u
 EntryName
 "
 _ns
+/
+*
+directory
+*
+/
+false
 )
 ;
 mName

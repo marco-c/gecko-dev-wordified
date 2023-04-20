@@ -285,6 +285,12 @@ u
 File
 "
 _ns
+/
+*
+directory
+*
+/
+false
 )
 ;
 mManager
