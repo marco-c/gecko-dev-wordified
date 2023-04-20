@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsITokenDialogs
-.
-h
-"
-#
-include
-"
 nsITokenPasswordDialogs
 .
 h
@@ -170,8 +163,6 @@ nsICertificateDialogs
 public
 nsIClientAuthDialogs
 public
-nsITokenDialogs
-public
 nsITokenPasswordDialogs
 {
 public
@@ -180,7 +171,6 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITOKENPASSWORDDIALOGS
 NS_DECL_NSICERTIFICATEDIALOGS
 NS_DECL_NSICLIENTAUTHDIALOGS
-NS_DECL_NSITOKENDIALOGS
 nsNSSDialogs
 (
 )

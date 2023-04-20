@@ -278,11 +278,6 @@ nsIPKCS11Slot
 idl
 "
 "
-nsIProtectedAuthThread
-.
-idl
-"
-"
 nsIPublicKeyPinningService
 .
 idl
@@ -304,11 +299,6 @@ idl
 "
 "
 nsITLSSocketControl
-.
-idl
-"
-"
-nsITokenDialogs
 .
 idl
 "
@@ -694,11 +684,6 @@ cpp
 "
 "
 nsPKCS12Blob
-.
-cpp
-"
-"
-nsProtectedAuthThread
 .
 cpp
 "
