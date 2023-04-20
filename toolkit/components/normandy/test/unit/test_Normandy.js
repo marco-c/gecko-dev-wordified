@@ -349,6 +349,11 @@ Normandy
 .
 init
 (
+{
+runAsync
+:
+false
+}
 )
 ;
 /
