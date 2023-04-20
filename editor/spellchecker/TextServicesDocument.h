@@ -104,15 +104,6 @@ include
 "
 mozilla
 /
-EditorDOMPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h

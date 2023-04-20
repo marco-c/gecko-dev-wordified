@@ -502,8 +502,6 @@ CollectChildrenOption
 ;
 /
 /
-mozilla
-/
 HTMLEditUtils
 .
 h
