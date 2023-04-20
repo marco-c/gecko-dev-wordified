@@ -1286,6 +1286,13 @@ eNameFromTooltip
 }
 }
 }
+if
+(
+nameFlag
+!
+=
+eNoNameOnPurpose
+)
 aName
 .
 SetIsVoid

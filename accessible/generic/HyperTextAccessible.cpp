@@ -15003,6 +15003,11 @@ invalid
 img
 elements
 .
+bool
+hasImgAlt
+=
+false
+;
 if
 (
 mContent
@@ -15017,6 +15022,8 @@ img
 )
 )
 {
+hasImgAlt
+=
 mContent
 -
 >
@@ -15147,6 +15154,10 @@ CompressWhitespace
 ;
 }
 return
+hasImgAlt
+?
+eNoNameOnPurpose
+:
 eNameOK
 ;
 }
