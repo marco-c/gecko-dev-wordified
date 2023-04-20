@@ -180,14 +180,14 @@ h
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "
 #
 include
 "
-nsStringFwd
+nsString
 .
 h
 "

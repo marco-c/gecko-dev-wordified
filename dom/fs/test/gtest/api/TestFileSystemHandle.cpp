@@ -117,6 +117,15 @@ MPL
 #
 include
 "
+gtest
+/
+gtest
+.
+h
+"
+#
+include
+"
 FileSystemMocks
 .
 h
@@ -133,9 +142,11 @@ h
 #
 include
 "
-gtest
+mozilla
 /
-gtest
+dom
+/
+FileSystemHandle
 .
 h
 "
@@ -664,7 +675,7 @@ Promise
 PromiseState
 :
 :
-Resolved
+Rejected
 promise
 -
 >
@@ -690,7 +701,7 @@ ASSERT_STREQ
 (
 u
 "
-false
+NS_ERROR_NOT_IMPLEMENTED
 "
 _ns
 result
@@ -759,7 +770,7 @@ Promise
 PromiseState
 :
 :
-Resolved
+Rejected
 promise
 -
 >
@@ -785,7 +796,7 @@ ASSERT_STREQ
 (
 u
 "
-true
+NS_ERROR_NOT_IMPLEMENTED
 "
 _ns
 result
