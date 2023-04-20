@@ -1083,7 +1083,7 @@ pc_
 pcf_
 -
 >
-CreatePeerConnection
+CreatePeerConnectionOrError
 (
 config
 std
@@ -1093,6 +1093,10 @@ move
 (
 pc_dependencies
 )
+)
+.
+MoveValue
+(
 )
 ;
 RTC_LOG
