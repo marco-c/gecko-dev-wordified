@@ -4737,7 +4737,7 @@ friend
 class
 StoredPattern
 ;
-UserData
+ThreadSafeUserData
 mUserData
 ;
 }
@@ -8236,7 +8236,7 @@ mSyntheticObliqueAngle
 )
 {
 }
-UserData
+ThreadSafeUserData
 mUserData
 ;
 RefPtr
