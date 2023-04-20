@@ -120,6 +120,17 @@ vector
 #
 include
 "
+absl
+/
+strings
+/
+string_view
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 byte_order
