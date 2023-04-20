@@ -123,9 +123,6 @@ frontend
 class
 ErrorReporter
 ;
-class
-FullParseHandler
-;
 struct
 BCEParserHandle
 {
@@ -146,15 +143,6 @@ errorReporter
 (
 )
 const
-=
-0
-;
-virtual
-FullParseHandler
-&
-astGenerator
-(
-)
 =
 0
 ;
