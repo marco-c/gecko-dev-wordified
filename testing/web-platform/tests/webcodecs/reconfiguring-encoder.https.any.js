@@ -587,6 +587,12 @@ frame
 }
 )
 ;
+frame
+.
+close
+(
+)
+;
 }
 params
 .
@@ -665,6 +671,12 @@ encode
 frame
 {
 }
+)
+;
+frame
+.
+close
+(
 )
 ;
 }
