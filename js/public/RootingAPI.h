@@ -7454,7 +7454,7 @@ constexpr
 uint32_t
 wasiRecursionDepthLimit
 =
-100u
+350u
 ;
 #
 endif
