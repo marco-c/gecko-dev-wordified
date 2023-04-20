@@ -215,6 +215,11 @@ unordered_map
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 absl
 /
@@ -306,7 +311,7 @@ media
 /
 sctp
 /
-sctp_transport
+usrsctp_transport
 .
 h
 "
@@ -767,7 +772,7 @@ ABSL_CONST_INIT
 cricket
 :
 :
-SctpTransportMap
+UsrsctpTransportMap
 *
 g_transport_map_
 =
@@ -1745,14 +1750,14 @@ SCTP
 transport
 ID
 to
-SctpTransport
+UsrsctpTransport
 object
 necessary
 in
 send
+/
+/
 threshold
-/
-/
 callback
 and
 outgoing
@@ -1764,30 +1769,32 @@ also
 provides
 a
 facility
+/
+/
 to
-/
-/
 safely
 post
 a
 task
 to
 an
-SctpTransport
+UsrsctpTransport
 '
 s
 network
 thread
 from
 another
+/
+/
 thread
 .
 class
-SctpTransportMap
+UsrsctpTransportMap
 {
 public
 :
-SctpTransportMap
+UsrsctpTransportMap
 (
 )
 =
@@ -1811,7 +1818,7 @@ Register
 cricket
 :
 :
-SctpTransport
+UsrsctpTransport
 *
 transport
 )
@@ -1917,7 +1924,6 @@ next_id_
 ;
 }
 }
-;
 map_
 [
 next_id_
@@ -2042,7 +2048,7 @@ lock
 lock_
 )
 ;
-SctpTransport
+UsrsctpTransport
 *
 transport
 =
@@ -2106,7 +2112,7 @@ true
 }
 private
 :
-SctpTransport
+UsrsctpTransport
 *
 RetrieveWhileHoldingLock
 (
@@ -2174,7 +2180,7 @@ std
 unordered_map
 <
 uintptr_t
-SctpTransport
+UsrsctpTransport
 *
 >
 map_
@@ -2200,11 +2206,11 @@ callbacks
 to
 /
 /
-SctpTransport
+UsrsctpTransport
 calls
 .
 class
-SctpTransport
+UsrsctpTransport
 :
 :
 UsrSctpWrapper
@@ -2715,7 +2721,7 @@ kMaxSctpStreams
 g_transport_map_
 =
 new
-SctpTransportMap
+UsrsctpTransportMap
 (
 )
 ;
@@ -3139,7 +3145,7 @@ addr
 buf
 ]
 (
-SctpTransport
+UsrsctpTransport
 *
 transport
 )
@@ -3422,7 +3428,7 @@ rcv
 flags
 ]
 (
-SctpTransport
+UsrsctpTransport
 *
 transport
 )
@@ -3574,7 +3580,7 @@ which
 /
 contains
 the
-SctpTransport
+UsrsctpTransport
 id
 as
 sconn_addr
@@ -3723,7 +3729,7 @@ I
 O
 thread
 .
-SctpTransport
+UsrsctpTransport
 :
 :
 OnPacketReceived
@@ -3830,7 +3836,7 @@ id
 [
 ]
 (
-SctpTransport
+UsrsctpTransport
 *
 transport
 )
@@ -3913,7 +3919,7 @@ I
 O
 thread
 .
-SctpTransport
+UsrsctpTransport
 :
 :
 OnPacketReceived
@@ -4020,7 +4026,7 @@ id
 [
 ]
 (
-SctpTransport
+UsrsctpTransport
 *
 transport
 )
@@ -4080,10 +4086,10 @@ return
 }
 }
 ;
-SctpTransport
+UsrsctpTransport
 :
 :
-SctpTransport
+UsrsctpTransport
 (
 rtc
 :
@@ -4136,11 +4142,11 @@ ConnectTransportSignals
 )
 ;
 }
-SctpTransport
+UsrsctpTransport
 :
 :
 ~
-SctpTransport
+UsrsctpTransport
 (
 )
 {
@@ -4211,7 +4217,7 @@ OnSctpOutboundPacket
 callback
 for
 destructed
-SctpTransport
+UsrsctpTransport
 /
 /
 which
@@ -4240,7 +4246,7 @@ understand
 /
 /
 that
-SctpTransport
+UsrsctpTransport
 was
 destructed
 and
@@ -4314,7 +4320,7 @@ nullptr
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 SetDtlsTransport
@@ -4405,7 +4411,7 @@ Connect
 }
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 Start
@@ -4658,7 +4664,7 @@ true
 ;
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 OpenStream
@@ -4877,7 +4883,7 @@ false
 }
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 ResetStream
@@ -5041,7 +5047,7 @@ true
 ;
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 SendData
@@ -5395,7 +5401,7 @@ true
 ;
 }
 SendDataResult
-SctpTransport
+UsrsctpTransport
 :
 :
 SendMessageInternal
@@ -5853,7 +5859,7 @@ SDR_SUCCESS
 ;
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 ReadyToSendData
@@ -5870,7 +5876,7 @@ ready_to_send_data_
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 ConnectTransportSignals
@@ -5900,7 +5906,7 @@ connect
 (
 this
 &
-SctpTransport
+UsrsctpTransport
 :
 :
 OnWritableState
@@ -5915,7 +5921,7 @@ connect
 (
 this
 &
-SctpTransport
+UsrsctpTransport
 :
 :
 OnPacketRead
@@ -5930,7 +5936,7 @@ connect
 (
 this
 &
-SctpTransport
+UsrsctpTransport
 :
 :
 OnClosed
@@ -5938,7 +5944,7 @@ OnClosed
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 DisconnectTransportSignals
@@ -5991,7 +5997,7 @@ this
 ;
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 Connect
@@ -6489,7 +6495,7 @@ true
 ;
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 OpenSctpSocket
@@ -6804,7 +6810,7 @@ true
 ;
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 ConfigureSctpSocket
@@ -7334,7 +7340,7 @@ true
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 CloseSctpSocket
@@ -7435,7 +7441,7 @@ false
 }
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 SendQueuedStreamResets
@@ -7971,7 +7977,7 @@ true
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 SetReadyToSendData
@@ -8000,7 +8006,7 @@ SignalReadyToSendData
 }
 }
 bool
-SctpTransport
+UsrsctpTransport
 :
 :
 SendBufferedMessage
@@ -8161,7 +8167,7 @@ true
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnWritableState
@@ -8229,7 +8235,7 @@ been
 received
 .
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnPacketRead
@@ -8275,7 +8281,7 @@ TRACE_EVENT0
 webrtc
 "
 "
-SctpTransport
+UsrsctpTransport
 :
 :
 OnPacketRead
@@ -8488,7 +8494,7 @@ reliability
 }
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnClosed
@@ -8507,7 +8513,7 @@ SignalClosedAbruptly
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnSendThresholdCallback
@@ -8556,7 +8562,7 @@ SetReadyToSendData
 ;
 }
 sockaddr_conn
-SctpTransport
+UsrsctpTransport
 :
 :
 GetSctpSockAddr
@@ -8634,7 +8640,7 @@ sconn
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnPacketFromSctpToNetwork
@@ -8730,7 +8736,7 @@ TRACE_EVENT0
 webrtc
 "
 "
-SctpTransport
+UsrsctpTransport
 :
 :
 OnPacketFromSctpToNetwork
@@ -8814,7 +8820,7 @@ PF_NORMAL
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 InjectDataOrNotificationFromSctpForTesting
@@ -8842,7 +8848,7 @@ flags
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnDataOrNotificationFromSctp
@@ -9616,7 +9622,7 @@ Clear
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnDataFromSctpToTransport
@@ -9711,7 +9717,7 @@ buffer
 ;
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnNotificationFromSctp
@@ -10419,7 +10425,7 @@ break
 }
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnNotificationAssocChange
@@ -10611,7 +10617,7 @@ break
 }
 }
 void
-SctpTransport
+UsrsctpTransport
 :
 :
 OnStreamResetEvent

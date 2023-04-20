@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MEDIA_SCTP_SCTP_TRANSPORT_H_
+MEDIA_SCTP_USRSCTP_TRANSPORT_H_
 #
 define
-MEDIA_SCTP_SCTP_TRANSPORT_H_
+MEDIA_SCTP_USRSCTP_TRANSPORT_H_
 #
 include
 <
@@ -531,7 +531,7 @@ recieved
 data
 ]
 class
-SctpTransport
+UsrsctpTransport
 :
 public
 SctpTransportInternal
@@ -595,7 +595,7 @@ be
 null
 )
 .
-SctpTransport
+UsrsctpTransport
 (
 rtc
 :
@@ -612,7 +612,7 @@ transport
 )
 ;
 ~
-SctpTransport
+UsrsctpTransport
 (
 )
 override
@@ -2064,7 +2064,7 @@ char
 debug_name_
 =
 "
-SctpTransport
+UsrsctpTransport
 "
 ;
 /
@@ -2136,17 +2136,17 @@ id_
 ;
 friend
 class
-SctpTransportMap
+UsrsctpTransportMap
 ;
 RTC_DISALLOW_COPY_AND_ASSIGN
 (
-SctpTransport
+UsrsctpTransport
 )
 ;
 }
 ;
 class
-SctpTransportMap
+UsrsctpTransportMap
 ;
 }
 /
@@ -2157,4 +2157,4 @@ cricket
 endif
 /
 /
-MEDIA_SCTP_SCTP_TRANSPORT_H_
+MEDIA_SCTP_USRSCTP_TRANSPORT_H_
