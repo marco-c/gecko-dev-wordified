@@ -750,6 +750,10 @@ _
 files_changed
 (
 revish
+ignore_rules
+=
+[
+]
 )
     
 all_changed
