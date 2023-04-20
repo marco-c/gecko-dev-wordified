@@ -197,7 +197,7 @@ wait
 /
 /
 for
-load
+loadend
 event
 .
 For
@@ -246,7 +246,7 @@ waitForEvent
 (
 preview
 "
-load
+loadend
 "
 )
 ;

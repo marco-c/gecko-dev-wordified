@@ -367,7 +367,7 @@ waitForEvent
 (
 pageInfoImg
 "
-load
+loadend
 "
 )
 ;
