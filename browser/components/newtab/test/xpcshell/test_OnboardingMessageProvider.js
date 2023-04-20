@@ -93,16 +93,6 @@ screen
 =
 >
 {
-console
-.
-log
-(
-screen
-?
-.
-id
-)
-;
 return
 screen
 ?
