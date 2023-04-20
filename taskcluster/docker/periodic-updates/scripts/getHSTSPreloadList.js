@@ -1832,7 +1832,9 @@ migration
 /
 MigrationUtils
 .
-jsm
+sys
+.
+mjs
 function
 spinResolve
 (
