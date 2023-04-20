@@ -167,7 +167,7 @@ below
 #
 define
 DATABASE_SCHEMA_VERSION
-69
+70
 /
 /
 Fired
@@ -1324,6 +1324,11 @@ return
 mMobileRootId
 ;
 }
+nsresult
+RecalculateOriginFrecencyStatsInternal
+(
+)
+;
 protected
 :
 /
@@ -1869,6 +1874,11 @@ MigrateV68Up
 ;
 nsresult
 MigrateV69Up
+(
+)
+;
+nsresult
+MigrateV70Up
 (
 )
 ;
