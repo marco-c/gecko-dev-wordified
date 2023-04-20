@@ -175,6 +175,11 @@ TestSnappingOnMomentum
 cpp
 "
 "
+TestTransformNotifications
+.
+cpp
+"
+"
 TestTreeManager
 .
 cpp
