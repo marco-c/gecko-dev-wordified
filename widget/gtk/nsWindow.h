@@ -1293,9 +1293,6 @@ override
 void
 CaptureRollupEvents
 (
-nsIRollupListener
-*
-aListener
 bool
 aDoCapture
 )

@@ -876,9 +876,6 @@ override
 void
 CaptureRollupEvents
 (
-nsIRollupListener
-*
-aListener
 bool
 aDoCapture
 )
@@ -4330,11 +4327,6 @@ event
 .
 bool
 mCurrentPanGestureBelongsToSwipe
-;
-static
-nsIRollupListener
-*
-gRollupListener
 ;
 struct
 InitialZoomConstraints
