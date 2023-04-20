@@ -565,7 +565,7 @@ build
 .
 DEPS_LEN
 =
-17
+16
 def
 main
 (
@@ -1333,7 +1333,7 @@ output_fd
 options
 )
 def
-jog_file
+jog_yaml
 (
 output_fd
 *
@@ -1359,7 +1359,7 @@ args
     
 jog
 .
-output_file
+output_yaml
 (
 all_objs
 output_fd
