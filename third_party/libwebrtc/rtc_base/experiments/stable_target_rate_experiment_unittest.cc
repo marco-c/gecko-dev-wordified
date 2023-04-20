@@ -148,7 +148,7 @@ GetVideoHysteresisFactor
 )
 1
 .
-0
+2
 )
 ;
 EXPECT_EQ
@@ -219,7 +219,7 @@ GetVideoHysteresisFactor
 )
 1
 .
-0
+2
 )
 ;
 EXPECT_EQ

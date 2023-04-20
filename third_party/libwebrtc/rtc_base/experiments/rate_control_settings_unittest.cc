@@ -628,7 +628,7 @@ ParseFromFieldTrials
 (
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 settings_before
 .
@@ -637,7 +637,7 @@ LibvpxVp8TrustedRateController
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 settings_before
 .
@@ -659,10 +659,10 @@ VideoRateControl
 /
 trust_vp8
 :
-1
+0
 trust_vp9
 :
-1
+0
 /
 "
 )
@@ -678,7 +678,7 @@ ParseFromFieldTrials
 (
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 settings_after
 .
@@ -687,7 +687,7 @@ LibvpxVp8TrustedRateController
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 settings_after
 .
@@ -928,7 +928,7 @@ kRealtimeVideo
 )
 1
 .
-0
+2
 )
 ;
 EXPECT_DOUBLE_EQ
@@ -947,7 +947,7 @@ kRealtimeVideo
 )
 1
 .
-0
+2
 )
 ;
 EXPECT_DOUBLE_EQ
@@ -1002,7 +1002,7 @@ video_hysteresis
 :
 1
 .
-2
+0
 screenshare_hysteresis
 :
 1
@@ -1036,7 +1036,7 @@ kRealtimeVideo
 )
 1
 .
-2
+0
 )
 ;
 EXPECT_DOUBLE_EQ
@@ -1055,7 +1055,7 @@ kRealtimeVideo
 )
 1
 .
-2
+0
 )
 ;
 EXPECT_DOUBLE_EQ
@@ -1157,11 +1157,11 @@ UseEncoderBitrateAdjuster
 /
 Should
 be
-off
+on
 by
 default
 .
-EXPECT_FALSE
+EXPECT_TRUE
 (
 RateControlSettings
 :
@@ -1181,7 +1181,7 @@ UseEncoderBitrateAdjuster
 Can
 be
 turned
-on
+off
 via
 field
 trial
@@ -1199,12 +1199,12 @@ VideoRateControl
 /
 bitrate_adjuster
 :
-true
+false
 /
 "
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 RateControlSettings
 :
