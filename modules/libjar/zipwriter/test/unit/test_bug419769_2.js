@@ -76,15 +76,6 @@ CRC
 =
 0x00000000
 ;
-const
-time
-=
-Date
-.
-now
-(
-)
-;
 function
 testpass
 (
