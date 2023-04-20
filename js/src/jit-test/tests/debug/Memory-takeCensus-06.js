@@ -380,15 +380,6 @@ Pattern
 .
 NATURAL
 }
-Frame
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 }
 )
 .
