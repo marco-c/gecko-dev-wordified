@@ -66,6 +66,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -75,6 +79,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -84,6 +90,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +107,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -123,6 +135,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +152,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -145,6 +163,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -160,6 +182,8 @@ inspector
 utils
 /
 index
+.
+js
 "
 )
 ;

@@ -43,6 +43,10 @@ WeakMapMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +54,8 @@ client
 shared
 /
 WeakMapMap
+.
+js
 "
 )
 ;

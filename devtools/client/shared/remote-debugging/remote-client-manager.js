@@ -69,6 +69,10 @@ CONNECTION_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ remote
 debugging
 /
 constants
+.
+js
 "
 )
 ;

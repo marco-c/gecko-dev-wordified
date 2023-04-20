@@ -69,11 +69,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -102,6 +108,10 @@ Editor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +121,8 @@ shared
 sourceeditor
 /
 editor
+.
+js
 "
 )
 ;
@@ -120,6 +132,10 @@ beautify
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -127,6 +143,8 @@ shared
 jsbeautify
 /
 beautify
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -143,6 +165,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

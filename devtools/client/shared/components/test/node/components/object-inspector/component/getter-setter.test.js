@@ -66,6 +66,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ mountObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +123,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -124,6 +136,10 @@ makeNodesForProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +155,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;
@@ -148,6 +166,10 @@ accessorStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +187,8 @@ stubs
 reps
 /
 accessor
+.
+js
 "
 )
 ;
@@ -174,6 +198,10 @@ ObjectFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +219,8 @@ __mocks__
 object
 -
 front
+.
+js
 "
 )
 ;

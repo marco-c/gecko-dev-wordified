@@ -70,6 +70,10 @@ applyMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ ERROR_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ redux
 middleware
 /
 task
+.
+js
 "
 )
 ;

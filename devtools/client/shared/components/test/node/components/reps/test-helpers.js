@@ -83,6 +83,10 @@ lengthBubble
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +104,8 @@ grip
 length
 -
 bubble
+.
+js
 "
 )
 ;
@@ -116,6 +122,10 @@ getArrayLikeLength
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +141,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -147,6 +159,10 @@ getMapLength
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +178,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -173,6 +191,10 @@ getGripPreviewItems
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +210,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -197,6 +221,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -214,6 +242,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;

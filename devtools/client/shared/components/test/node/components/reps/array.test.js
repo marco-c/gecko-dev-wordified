@@ -84,6 +84,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +101,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -108,6 +114,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +131,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;

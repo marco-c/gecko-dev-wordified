@@ -60,6 +60,10 @@ mod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +73,8 @@ shared
 lib
 /
 codemirror
+.
+js
 "
 )
 )

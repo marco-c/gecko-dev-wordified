@@ -74,6 +74,10 @@ cloneElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -118,6 +130,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +147,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -142,6 +160,10 @@ scrollIntoView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +171,8 @@ client
 shared
 /
 scroll
+.
+js
 "
 )
 ;
@@ -160,6 +184,10 @@ preventDefaultAndStopPropagation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +195,8 @@ client
 shared
 /
 events
+.
+js
 "
 )
 ;

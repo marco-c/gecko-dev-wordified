@@ -60,6 +60,10 @@ mod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -73,11 +77,17 @@ codemirror
 lib
 /
 codemirror
+.
+js
 "
 )
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +105,8 @@ fold
 xml
 -
 fold
+.
+js
 "
 )
 )

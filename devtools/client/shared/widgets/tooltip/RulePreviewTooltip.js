@@ -69,11 +69,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ HTMLTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +106,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 )
 ;

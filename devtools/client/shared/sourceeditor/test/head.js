@@ -126,6 +126,10 @@ Editor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +139,8 @@ shared
 sourceeditor
 /
 editor
+.
+js
 "
 )
 ;
@@ -146,6 +152,10 @@ getClientCssProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +165,8 @@ fronts
 css
 -
 properties
+.
+js
 "
 )
 ;

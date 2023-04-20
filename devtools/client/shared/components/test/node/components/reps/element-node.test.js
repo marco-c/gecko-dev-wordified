@@ -104,6 +104,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +121,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -128,6 +134,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +151,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -152,6 +164,10 @@ MAX_ATTRIBUTE_LENGTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +183,8 @@ reps
 element
 -
 node
+.
+js
 "
 )
 ;
@@ -186,6 +204,10 @@ getSelectableInInspectorGrips
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +227,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;
@@ -216,6 +240,10 @@ ELLIPSIS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -231,6 +259,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -240,6 +270,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -259,6 +293,8 @@ reps
 element
 -
 node
+.
+js
 "
 )
 ;

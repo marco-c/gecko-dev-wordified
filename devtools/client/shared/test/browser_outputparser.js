@@ -40,6 +40,10 @@ getClientCssProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ fronts
 css
 -
 properties
+.
+js
 "
 )
 ;
@@ -167,6 +173,10 @@ OutputParser
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -176,6 +186,8 @@ shared
 output
 -
 parser
+.
+js
 "
 )
 ;

@@ -69,11 +69,17 @@ dumpn
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -90,6 +100,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ getFileForBinary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +132,8 @@ adb
 adb
 -
 binary
+.
+js
 "
 )
 ;

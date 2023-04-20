@@ -71,6 +71,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ maxLengthMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +120,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;

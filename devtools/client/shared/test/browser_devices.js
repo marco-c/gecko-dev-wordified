@@ -42,6 +42,10 @@ addDevice
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ client
 shared
 /
 devices
+.
+js
 "
 )
 ;

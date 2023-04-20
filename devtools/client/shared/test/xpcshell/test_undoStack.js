@@ -40,6 +40,10 @@ UndoStack
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -47,6 +51,8 @@ client
 shared
 /
 undo
+.
+js
 "
 )
 ;

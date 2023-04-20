@@ -67,6 +67,10 @@ Menu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ client
 framework
 /
 menu
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ MenuItem
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +102,8 @@ framework
 menu
 -
 item
+.
+js
 "
 )
 ;

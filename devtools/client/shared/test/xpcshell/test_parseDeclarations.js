@@ -42,6 +42,10 @@ parseNamedDeclarations
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -51,6 +55,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 )
 ;
@@ -62,6 +68,10 @@ isCssPropertyKnown
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -71,6 +81,8 @@ actors
 css
 -
 properties
+.
+js
 "
 )
 ;

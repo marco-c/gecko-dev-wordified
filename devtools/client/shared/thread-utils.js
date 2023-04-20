@@ -67,6 +67,10 @@ asyncStoreHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ async
 store
 -
 helper
+.
+js
 "
 )
 ;

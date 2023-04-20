@@ -103,6 +103,10 @@ AdbSocket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +122,8 @@ adb
 adb
 -
 socket
+.
+js
 "
 )
 ;
@@ -129,11 +135,17 @@ dumpn
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

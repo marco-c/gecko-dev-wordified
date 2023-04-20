@@ -53,6 +53,10 @@ advanceValidate
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +66,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 )
 ;
@@ -73,6 +79,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +90,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;

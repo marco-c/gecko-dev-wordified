@@ -154,6 +154,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -161,6 +165,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;
@@ -170,6 +176,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -177,6 +187,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -188,6 +200,10 @@ findMostRelevantCssPropertyIndex
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +213,8 @@ shared
 suggestion
 -
 picker
+.
+js
 "
 )
 ;

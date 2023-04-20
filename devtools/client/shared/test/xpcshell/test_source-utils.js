@@ -54,6 +54,10 @@ sourceUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +67,8 @@ shared
 source
 -
 utils
+.
+js
 "
 )
 ;

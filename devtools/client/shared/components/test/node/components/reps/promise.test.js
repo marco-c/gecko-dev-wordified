@@ -90,6 +90,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +107,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -121,6 +127,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +144,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -143,6 +155,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -160,6 +176,8 @@ stubs
 reps
 /
 promise
+.
+js
 "
 )
 ;
@@ -173,6 +191,10 @@ getGripLengthBubbleText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +214,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;

@@ -38,6 +38,10 @@ CSSCompleter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ sourceeditor
 css
 -
 autocompleter
+.
+js
 "
 )
 ;

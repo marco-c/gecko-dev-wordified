@@ -72,6 +72,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +89,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -108,6 +114,10 @@ expectActorAttribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +137,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;
@@ -136,6 +148,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +173,8 @@ object
 with
 -
 text
+.
+js
 "
 )
 ;

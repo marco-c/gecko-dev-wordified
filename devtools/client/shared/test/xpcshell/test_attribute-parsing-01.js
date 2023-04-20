@@ -52,6 +52,10 @@ splitBy
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +67,8 @@ node
 attribute
 -
 parser
+.
+js
 "
 )
 ;

@@ -19,6 +19,10 @@ COMPATIBILITY_STATUS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ debugging
 version
 -
 checker
+.
+js
 "
 )
 ;

@@ -66,6 +66,10 @@ createNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ mountObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +124,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -123,6 +135,10 @@ gripWindowStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +156,8 @@ stubs
 reps
 /
 window
+.
+js
 "
 )
 ;
@@ -149,6 +167,10 @@ ObjectFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +188,8 @@ __mocks__
 object
 -
 front
+.
+js
 "
 )
 ;

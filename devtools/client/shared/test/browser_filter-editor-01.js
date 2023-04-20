@@ -55,6 +55,10 @@ CSSFilterEditorWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +68,8 @@ shared
 widgets
 /
 FilterWidget
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ getCSSLexer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -97,6 +107,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 )
 ;

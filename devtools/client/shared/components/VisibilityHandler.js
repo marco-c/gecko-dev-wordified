@@ -122,6 +122,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +135,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -140,6 +146,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +163,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;

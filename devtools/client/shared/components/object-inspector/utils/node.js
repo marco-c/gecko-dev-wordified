@@ -66,6 +66,10 @@ maybeEscapePropertyName
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ ArrayRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ reps
 reps
 /
 array
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ GripArrayRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ GripMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +173,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -160,6 +184,10 @@ GripEntryRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -175,6 +203,8 @@ reps
 grip
 -
 entry
+.
+js
 "
 )
 ;
@@ -184,6 +214,10 @@ ErrorRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +231,8 @@ reps
 reps
 /
 error
+.
+js
 "
 )
 ;
@@ -206,6 +242,10 @@ BigIntRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -221,6 +261,8 @@ reps
 big
 -
 int
+.
+js
 "
 )
 ;
@@ -232,6 +274,10 @@ isLongString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -245,6 +291,8 @@ reps
 reps
 /
 string
+.
+js
 "
 )
 ;

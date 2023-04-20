@@ -84,6 +84,10 @@ hasCSSVariable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +99,8 @@ rules
 utils
 /
 utils
+.
+js
 "
 )
 ;

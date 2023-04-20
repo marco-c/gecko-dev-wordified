@@ -356,6 +356,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -365,6 +369,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -374,6 +380,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -385,6 +395,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -396,6 +408,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -407,6 +423,8 @@ compatibility
 components
 /
 UnsupportedBrowserList
+.
+js
 "
 )
 )

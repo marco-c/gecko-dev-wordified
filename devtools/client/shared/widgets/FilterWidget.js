@@ -89,6 +89,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -96,6 +100,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -126,11 +132,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -166,6 +178,10 @@ cssTokenizer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -175,6 +191,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 )
 ;
@@ -184,6 +202,10 @@ asyncStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -191,6 +213,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;

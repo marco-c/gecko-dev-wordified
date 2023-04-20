@@ -134,6 +134,10 @@ TreeWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +147,8 @@ shared
 widgets
 /
 TreeWidget
+.
+js
 "
 )
 ;

@@ -69,6 +69,10 @@ shell
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ adb
 commands
 /
 index
+.
+js
 "
 )
 ;

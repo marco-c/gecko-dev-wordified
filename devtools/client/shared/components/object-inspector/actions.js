@@ -66,6 +66,10 @@ loadItemProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +87,8 @@ utils
 load
 -
 properties
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ getFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +124,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;
@@ -126,6 +138,10 @@ getWatchpoints
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +155,8 @@ object
 inspector
 /
 reducer
+.
+js
 "
 )
 ;

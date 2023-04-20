@@ -85,11 +85,17 @@ flags
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 flags
+.
+js
 "
 )
 ;
@@ -102,6 +108,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +121,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -120,6 +132,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +149,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -142,6 +160,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +177,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;

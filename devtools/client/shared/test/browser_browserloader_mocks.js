@@ -71,6 +71,10 @@ removeMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -82,6 +86,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;

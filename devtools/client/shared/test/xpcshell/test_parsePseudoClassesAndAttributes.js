@@ -43,6 +43,10 @@ SELECTOR_PSEUDO_CLASS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -52,6 +56,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 )
 ;

@@ -521,6 +521,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -528,6 +532,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -539,6 +545,10 @@ TabDescriptorFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -550,6 +560,8 @@ tab
 descriptor
 -
 factory
+.
+js
 "
 )
 ;
@@ -561,6 +573,10 @@ CommandsFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -570,6 +586,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 )
 ;
@@ -579,11 +597,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -593,6 +617,10 @@ KeyShortcuts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -602,6 +630,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -1151,6 +1181,10 @@ installed
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1160,6 +1194,8 @@ framework
 devtools
 -
 browser
+.
+js
 "
 )
 ;
@@ -1679,6 +1715,10 @@ BrowserConsoleManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1690,6 +1730,8 @@ browser
 console
 -
 manager
+.
+js
 "
 )
 ;
@@ -1862,6 +1904,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -1869,6 +1915,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -9254,6 +9302,10 @@ ActorRegistry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -9265,6 +9317,8 @@ utils
 actor
 -
 registry
+.
+js
 "
 )
 ;

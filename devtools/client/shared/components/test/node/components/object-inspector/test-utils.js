@@ -78,6 +78,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -98,6 +104,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +119,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -122,6 +134,10 @@ applyMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +147,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -142,6 +160,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +175,8 @@ redux
 middleware
 /
 thunk
+.
+js
 "
 )
 ;
@@ -164,6 +188,10 @@ waitUntilService
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -177,6 +205,8 @@ middleware
 wait
 -
 service
+.
+js
 "
 )
 ;
@@ -202,6 +232,10 @@ objectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -215,6 +249,8 @@ object
 inspector
 /
 index
+.
+js
 "
 )
 ;
@@ -229,6 +265,10 @@ getExpandedPathKeys
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -242,6 +282,8 @@ object
 inspector
 /
 reducer
+.
+js
 "
 )
 ;
@@ -265,6 +307,10 @@ WAIT_UNTIL_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -278,6 +324,8 @@ middleware
 wait
 -
 service
+.
+js
 "
 )
 ;

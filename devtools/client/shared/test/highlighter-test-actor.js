@@ -83,6 +83,10 @@ getAdjustedQuads
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -90,6 +94,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -241,11 +247,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

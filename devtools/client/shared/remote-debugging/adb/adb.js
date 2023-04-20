@@ -92,6 +92,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -99,6 +103,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -110,6 +116,10 @@ adbProcess
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +135,8 @@ adb
 adb
 -
 process
+.
+js
 "
 )
 ;
@@ -136,6 +148,10 @@ adbAddon
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +167,8 @@ adb
 adb
 -
 addon
+.
+js
 "
 )
 ;
@@ -160,6 +178,10 @@ AdbDevice
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -175,6 +197,8 @@ adb
 adb
 -
 device
+.
+js
 "
 )
 ;
@@ -186,6 +210,10 @@ AdbRuntime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -201,6 +229,8 @@ adb
 adb
 -
 runtime
+.
+js
 "
 )
 ;
@@ -212,6 +242,10 @@ TrackDevicesCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -229,6 +263,8 @@ commands
 track
 -
 devices
+.
+js
 "
 )
 ;

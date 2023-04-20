@@ -249,6 +249,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -256,6 +260,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -269,6 +275,10 @@ DEFAULT_PRESET_CATEGORY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -278,6 +288,8 @@ shared
 widgets
 /
 CubicBezierPresets
+.
+js
 "
 )
 ;
@@ -289,6 +301,10 @@ getCSSLexer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -296,6 +312,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 )
 ;

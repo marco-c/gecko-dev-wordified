@@ -72,6 +72,10 @@ mountObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -93,6 +97,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -104,6 +110,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +127,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -126,6 +138,10 @@ gripStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +159,8 @@ stubs
 reps
 /
 grip
+.
+js
 "
 )
 ;
@@ -178,6 +196,10 @@ formatObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -199,6 +221,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -208,6 +232,10 @@ ObjectFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -225,6 +253,8 @@ __mocks__
 object
 -
 front
+.
+js
 "
 )
 ;

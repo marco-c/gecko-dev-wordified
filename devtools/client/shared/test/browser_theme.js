@@ -49,6 +49,10 @@ setTheme
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +60,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;
@@ -67,6 +73,10 @@ PrefObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +84,8 @@ client
 shared
 /
 prefs
+.
+js
 "
 )
 ;

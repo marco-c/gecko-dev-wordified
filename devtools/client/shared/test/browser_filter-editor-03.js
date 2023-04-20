@@ -52,6 +52,10 @@ CSSFilterEditorWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +65,8 @@ shared
 widgets
 /
 FilterWidget
+.
+js
 "
 )
 ;

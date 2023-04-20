@@ -45,6 +45,10 @@ angleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -54,6 +58,8 @@ shared
 css
 -
 angle
+.
+js
 "
 )
 ;

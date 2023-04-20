@@ -72,6 +72,10 @@ mountObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -93,6 +97,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -104,6 +110,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +127,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -130,6 +142,10 @@ waitForLoadedProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +167,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -160,6 +178,10 @@ gripMapRepStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +201,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -188,6 +212,10 @@ mapStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +235,8 @@ object
 inspector
 /
 map
+.
+js
 "
 )
 ;
@@ -216,6 +246,10 @@ ObjectFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +267,8 @@ __mocks__
 object
 -
 front
+.
+js
 "
 )
 ;

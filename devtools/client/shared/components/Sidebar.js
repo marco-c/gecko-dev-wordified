@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +137,8 @@ shared
 components
 /
 SidebarToggle
+.
+js
 "
 )
 )
@@ -133,6 +151,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +166,8 @@ components
 tabs
 /
 Tabs
+.
+js
 "
 )
 .

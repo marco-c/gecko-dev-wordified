@@ -90,6 +90,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +107,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -114,6 +120,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +137,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -143,6 +155,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +178,8 @@ reps
 text
 -
 node
+.
+js
 "
 )
 ;
@@ -173,6 +191,10 @@ expectActorAttribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +214,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;
@@ -203,6 +227,10 @@ ELLIPSIS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -218,6 +246,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;

@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -112,11 +124,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -166,6 +184,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +203,8 @@ SecondaryPanes
 Frames
 /
 index
+.
+js
 "
 )
 .
@@ -195,6 +219,10 @@ annotateFrames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -210,6 +238,8 @@ pause
 frames
 /
 annotateFrames
+.
+js
 "
 )
 ;
@@ -221,6 +251,10 @@ getDisplayURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -236,6 +270,8 @@ sources
 tree
 /
 getURL
+.
+js
 "
 )
 ;

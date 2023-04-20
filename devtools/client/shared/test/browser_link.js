@@ -69,6 +69,10 @@ openTrustedLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;

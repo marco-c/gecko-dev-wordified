@@ -49,6 +49,10 @@ scrollIntoViewIfNeeded
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +60,8 @@ client
 shared
 /
 scroll
+.
+js
 "
 )
 ;

@@ -67,6 +67,10 @@ NODE_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;

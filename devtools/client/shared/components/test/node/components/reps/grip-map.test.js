@@ -89,6 +89,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +106,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -111,6 +117,10 @@ GripMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +136,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -137,6 +149,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +166,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -159,6 +177,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +200,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -191,6 +215,10 @@ getMapLengthBubbleText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -210,6 +238,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;

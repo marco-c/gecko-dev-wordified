@@ -64,6 +64,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ inspector
 utils
 /
 index
+.
+js
 "
 )
 ;
@@ -113,6 +119,10 @@ createGripMapEntry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -132,6 +142,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;
@@ -141,6 +153,10 @@ accessorStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +174,8 @@ stubs
 reps
 /
 accessor
+.
+js
 "
 )
 ;
@@ -167,6 +185,10 @@ gripMapStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +208,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -195,6 +219,10 @@ gripArrayStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -214,6 +242,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -223,6 +253,10 @@ gripStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -240,6 +274,8 @@ stubs
 reps
 /
 grip
+.
+js
 "
 )
 ;
@@ -249,6 +285,10 @@ windowStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -266,6 +306,8 @@ stubs
 reps
 /
 window
+.
+js
 "
 )
 ;

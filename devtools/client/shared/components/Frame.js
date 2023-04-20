@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -135,6 +153,10 @@ getUnicodeHostname
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +166,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;
@@ -157,6 +181,10 @@ getSourceMappedFile
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +194,8 @@ shared
 source
 -
 utils
+.
+js
 "
 )
 ;
@@ -177,11 +207,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -193,6 +229,10 @@ MESSAGE_SOURCE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +240,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

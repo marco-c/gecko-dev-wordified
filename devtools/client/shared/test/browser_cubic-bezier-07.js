@@ -63,6 +63,10 @@ CubicBezierWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +76,8 @@ shared
 widgets
 /
 CubicBezierWidget
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ PREDEFINED
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +102,8 @@ shared
 widgets
 /
 CubicBezierPresets
+.
+js
 "
 )
 ;

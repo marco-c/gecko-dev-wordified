@@ -99,6 +99,10 @@ HTMLTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +114,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 )
 ;

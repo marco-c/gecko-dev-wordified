@@ -69,6 +69,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;

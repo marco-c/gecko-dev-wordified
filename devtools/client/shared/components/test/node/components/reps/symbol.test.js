@@ -83,6 +83,10 @@ REPS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +100,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -112,6 +118,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -129,6 +139,8 @@ stubs
 reps
 /
 symbol
+.
+js
 "
 )
 ;
@@ -140,6 +152,10 @@ expectActorAttribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +175,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;

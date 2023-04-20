@@ -67,6 +67,10 @@ nodeHasFullText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;

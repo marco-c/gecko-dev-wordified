@@ -69,6 +69,10 @@ LongStringFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 fronts
 /
 string
+.
+js
 "
 )
 ;

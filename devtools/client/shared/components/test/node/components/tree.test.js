@@ -121,6 +121,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +134,8 @@ shared
 components
 /
 Tree
+.
+js
 "
 )
 )

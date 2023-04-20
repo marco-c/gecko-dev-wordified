@@ -115,6 +115,10 @@ editableField
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +128,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 )
 ;
@@ -135,6 +141,10 @@ colorUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -142,6 +152,8 @@ shared
 css
 /
 color
+.
+js
 "
 )
 ;

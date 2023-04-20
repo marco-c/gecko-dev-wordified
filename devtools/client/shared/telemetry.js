@@ -109,6 +109,10 @@ getNthPathExcluding
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -116,6 +120,8 @@ shared
 platform
 /
 stack
+.
+js
 "
 )
 ;
@@ -149,6 +155,10 @@ WeakMapMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +166,8 @@ client
 shared
 /
 WeakMapMap
+.
+js
 "
 )
 ;

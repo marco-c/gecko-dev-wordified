@@ -81,6 +81,10 @@ colorUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -88,6 +92,8 @@ shared
 css
 /
 color
+.
+js
 "
 )
 ;

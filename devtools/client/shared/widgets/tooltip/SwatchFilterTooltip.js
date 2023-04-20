@@ -69,6 +69,10 @@ CSSFilterEditorWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 widgets
 /
 FilterWidget
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ SwatchBasedEditorTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ widgets
 tooltip
 /
 SwatchBasedEditorTooltip
+.
+js
 "
 )
 ;

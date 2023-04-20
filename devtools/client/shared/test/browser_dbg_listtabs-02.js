@@ -62,6 +62,10 @@ BrowserTabList
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -69,6 +73,8 @@ server
 actors
 /
 webbrowser
+.
+js
 "
 )
 ;
@@ -80,6 +86,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -87,6 +97,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
