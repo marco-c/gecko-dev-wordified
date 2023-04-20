@@ -72,6 +72,7 @@ before
 observer2
 starts
 .
+await
 observer1
 .
 observe
@@ -97,7 +98,10 @@ await
 new
 Promise
 (
+(
 resolve
+reject
+)
 =
 >
 {
@@ -155,6 +159,12 @@ observe
 cpu
 '
 )
+.
+catch
+(
+reject
+)
+;
 }
 )
 ;

@@ -95,7 +95,10 @@ await
 new
 Promise
 (
+(
 resolve
+reject
+)
 =
 >
 {
@@ -150,6 +153,11 @@ observe
 '
 cpu
 '
+)
+.
+catch
+(
+reject
 )
 ;
 }

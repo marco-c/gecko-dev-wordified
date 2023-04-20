@@ -158,6 +158,11 @@ observe
 cpu
 '
 )
+.
+catch
+(
+reject
+)
 ;
 }
 )
