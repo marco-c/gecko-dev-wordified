@@ -814,6 +814,15 @@ t
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+IsForwarded
+(
+t
+)
+)
+;
 return
 t
 ;
