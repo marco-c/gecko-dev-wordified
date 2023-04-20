@@ -66,11 +66,14 @@ getWasmXScopes
 require
 (
 "
-devtools
--
+.
+.
+/
 wasm
 -
 dwarf
+/
+wasmXScopes
 "
 )
 ;

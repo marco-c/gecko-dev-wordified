@@ -204,11 +204,13 @@ clearWasmXScopes
 require
 (
 "
-devtools
--
+.
+/
 wasm
 -
 dwarf
+/
+wasmXScopes
 "
 )
 ;

@@ -77,6 +77,9 @@ require
 .
 .
 /
+.
+.
+/
 assets
 "
 )
