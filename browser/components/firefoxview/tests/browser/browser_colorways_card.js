@@ -483,7 +483,7 @@ name
 Monochromatic
 Theme
 "
-applications
+browser_specific_settings
 :
 {
 gecko
