@@ -37617,7 +37617,6 @@ them
 PrintEvent
 printEvent
 (
-mWnd
 msg
 wParam
 lParam

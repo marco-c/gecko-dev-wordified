@@ -353,11 +353,6 @@ InProcessWinCompositorWidget
 h
 "
 "
-nsWindowLoggedMessages
-.
-h
-"
-"
 WinCompositorWidget
 .
 h
@@ -534,11 +529,6 @@ cpp
 "
 "
 nsWindowGfx
-.
-cpp
-"
-"
-nsWindowLoggedMessages
 .
 cpp
 "
