@@ -684,6 +684,9 @@ peer_initial_tsn
 options
 .
 max_receiver_window_buffer_size
+capabilities
+.
+message_interleaving
 handover_state
 )
 retransmission_queue_
