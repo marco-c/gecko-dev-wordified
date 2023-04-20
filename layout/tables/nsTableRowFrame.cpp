@@ -1628,7 +1628,13 @@ InsertFrames
 (
 nullptr
 aPrevFrame
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 nsTableCellFrame

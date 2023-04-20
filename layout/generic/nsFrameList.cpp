@@ -763,6 +763,7 @@ nsIFrame
 aPrevSibling
 nsFrameList
 &
+&
 aFrameList
 )
 {
