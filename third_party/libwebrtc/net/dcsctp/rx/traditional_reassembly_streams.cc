@@ -1969,7 +1969,7 @@ bytes_removed
 The
 skipped_streams
 only
-over
+cover
 ordered
 messages
 -
