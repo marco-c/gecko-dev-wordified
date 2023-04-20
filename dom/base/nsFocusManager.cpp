@@ -2934,14 +2934,13 @@ NS_ERROR_INVALID_ARG
 *
 aIsFocusable
 =
+!
+!
 FlushAndCheckIfFocusable
 (
 aElement
 aFlags
 )
-!
-=
-nullptr
 ;
 return
 NS_OK
@@ -14110,7 +14109,11 @@ anchor
 /
 then
 return
-null
+the
+already
+-
+focused
+element
 .
 if
 (
@@ -14157,7 +14160,7 @@ aElement
 )
 {
 return
-nullptr
+focusedElement
 ;
 }
 }
@@ -16685,6 +16688,9 @@ anything
 else
 if
 (
+RefPtr
+elementToFocus
+=
 FlushAndCheckIfFocusable
 (
 aElement
@@ -16697,7 +16703,7 @@ aWindow
 >
 SetFocusedElement
 (
-aElement
+elementToFocus
 focusMethod
 )
 ;
@@ -16709,7 +16715,7 @@ aFocusChanged
 ScrollIntoView
 (
 presShell
-aElement
+elementToFocus
 aFlags
 )
 ;
@@ -17267,13 +17273,18 @@ the
 events
 above
 .
-if
-(
+RefPtr
+elementToFocus
+=
 FlushAndCheckIfFocusable
 (
 aElement
 aFlags
 )
+;
+if
+(
+elementToFocus
 &
 &
 GetFocusedBrowsingContext
@@ -17297,7 +17308,7 @@ nullptr
 {
 mFocusedElement
 =
-aElement
+elementToFocus
 ;
 nsIContent
 *
@@ -17314,10 +17325,7 @@ const
 bool
 sendFocusEvent
 =
-aElement
-&
-&
-aElement
+elementToFocus
 -
 >
 IsInComposedDoc
@@ -17328,7 +17336,7 @@ IsInComposedDoc
 !
 IsNonFocusableRoot
 (
-aElement
+elementToFocus
 )
 ;
 const
@@ -17341,7 +17349,7 @@ focusedNode
 focusedNode
 =
 =
-aElement
+elementToFocus
 ;
 const
 bool
@@ -17354,7 +17362,7 @@ ShouldMatchFocusVisible
 (
 aWindow
 *
-aElement
+elementToFocus
 aFlags
 )
 ;
@@ -17363,7 +17371,7 @@ aWindow
 >
 SetFocusedElement
 (
-aElement
+elementToFocus
 focusMethod
 false
 )
@@ -17389,7 +17397,7 @@ sendFocusEvent
 {
 NotifyFocusStateChange
 (
-aElement
+elementToFocus
 nullptr
 aFlags
 /
@@ -17453,7 +17461,7 @@ GetDocument
 )
 =
 =
-aElement
+elementToFocus
 -
 >
 GetComposedDoc
@@ -17464,7 +17472,7 @@ GetComposedDoc
 ActivateRemoteFrameIfNeeded
 (
 *
-aElement
+elementToFocus
 aActionId
 )
 ;
@@ -17475,7 +17483,7 @@ IMEStateManager
 OnChangeFocus
 (
 presContext
-aElement
+elementToFocus
 GetFocusMoveActionCause
 (
 aFlags
@@ -17554,7 +17562,7 @@ aFocusChanged
 ScrollIntoView
 (
 presShell
-aElement
+elementToFocus
 aFlags
 )
 ;
@@ -17571,7 +17579,7 @@ Document
 >
 composedDocument
 =
-aElement
+elementToFocus
 -
 >
 GetComposedDoc
@@ -17602,7 +17610,7 @@ SendFocusOrBlurEvent
 eFocus
 presShell
 composedDocument
-aElement
+elementToFocus
 aWindowRaised
 isRefocus
 relatedTargetElement
@@ -17649,9 +17657,6 @@ nullptr
 if
 (
 aFocusChanged
-&
-&
-aElement
 )
 {
 /
@@ -17668,7 +17673,7 @@ view
 ScrollIntoView
 (
 presShell
-aElement
+elementToFocus
 aFlags
 )
 ;
@@ -17855,7 +17860,7 @@ if
 mFocusedElement
 =
 =
-aElement
+elementToFocus
 )
 {
 RefPtr
