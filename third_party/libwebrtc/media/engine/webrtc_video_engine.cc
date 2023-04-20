@@ -8379,7 +8379,7 @@ LS_ERROR
 <
 <
 "
-SetRecvParameters
+GetChangedRecvParameters
 called
 without
 any
@@ -8467,7 +8467,7 @@ LS_ERROR
 <
 <
 "
-SetRecvParameters
+GetChangedRecvParameters
 called
 with
 unsupported
