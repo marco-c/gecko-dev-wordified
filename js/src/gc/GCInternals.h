@@ -1827,6 +1827,9 @@ extern
 void
 DelayCrossCompartmentGrayMarking
 (
+GCMarker
+*
+maybeMarker
 JSObject
 *
 src
