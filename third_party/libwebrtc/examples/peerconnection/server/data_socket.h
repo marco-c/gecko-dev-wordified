@@ -557,9 +557,7 @@ HTTP
 response
 .
 The
-|
 status
-|
 should
 start
 with
@@ -587,9 +585,7 @@ OK
 /
 /
 If
-|
 connection_close
-|
 is
 set
 to
@@ -609,9 +605,7 @@ will
 be
 included
 .
-|
 content_type
-|
 is
 the
 mime
@@ -632,9 +626,7 @@ string
 .
 /
 /
-|
 extra_headers
-|
 should
 be
 either
@@ -660,9 +652,7 @@ n
 .
 /
 /
-|
 data
-|
 is
 the
 body

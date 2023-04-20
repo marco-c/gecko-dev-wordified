@@ -315,9 +315,7 @@ thread
 .
 We
 use
-|
 nonThreadSafe
-|
 to
 ensure
 that
@@ -331,9 +329,7 @@ case
 Only
 active
 when
-|
 DEBUG
-|
 is
 set
 to

@@ -452,9 +452,7 @@ s
 associated
 with
 the
-|
 ds
-|
 socket
 .
 ChannelMember

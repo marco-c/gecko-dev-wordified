@@ -548,9 +548,7 @@ the
 UI
 thread
 of
-|
 activity
-|
 .
 *
 /

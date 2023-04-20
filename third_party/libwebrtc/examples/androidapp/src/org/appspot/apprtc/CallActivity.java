@@ -4481,9 +4481,7 @@ show
 /
 /
 Log
-|
 msg
-|
 and
 Toast
 about

@@ -424,9 +424,7 @@ NSObject
 /
 /
 If
-|
 shouldGetStats
-|
 is
 true
 stats
@@ -533,9 +531,7 @@ id
 .
 /
 /
-|
 settings
-|
 is
 an
 object
@@ -552,9 +548,7 @@ call
 /
 /
 If
-|
 isLoopback
-|
 is
 true
 the

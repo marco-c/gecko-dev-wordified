@@ -2857,9 +2857,7 @@ to
 *
 HEADSET_AVAILABLE
 and
-|
 bluetoothDevice
-|
 will
 be
 mapped

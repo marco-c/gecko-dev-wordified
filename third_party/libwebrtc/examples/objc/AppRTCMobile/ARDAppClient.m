@@ -631,9 +631,7 @@ When
 using
 the
 proxy
-|
 invalidate
-|
 must
 be
 called

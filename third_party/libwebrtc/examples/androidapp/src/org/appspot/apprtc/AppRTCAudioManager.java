@@ -493,9 +493,7 @@ scheme
 /
 /
 See
-|
 userSelectedAudioDevice
-|
 for
 details
 .
@@ -1622,9 +1620,7 @@ changed
 /
 /
 The
-|
 focusChange
-|
 value
 indicates
 whether
@@ -4093,9 +4089,7 @@ phone
 .
 /
 /
-|
 defaultAudioDevice
-|
 contains
 either
 AudioDevice

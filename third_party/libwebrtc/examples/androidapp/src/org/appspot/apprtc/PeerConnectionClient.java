@@ -1974,9 +1974,7 @@ takes
 *
 ownership
 of
-|
 eglBase
-|
 .
 *
 /
@@ -3859,9 +3857,7 @@ this
 _must_
 happen
 while
-|
 factory
-|
 is
 alive
 !
@@ -7128,9 +7124,7 @@ Reconstruct
 the
 line
 with
-|
 preferredPayloadTypes
-|
 moved
 to
 the
@@ -7276,9 +7270,7 @@ payload
 types
 with
 name
-|
 codec
-|
 .
 The
 payload

@@ -399,9 +399,7 @@ is
 pressed
 to
 trigger
-|
 textFieldDidEndEditing
-|
 .
 [
 textField
