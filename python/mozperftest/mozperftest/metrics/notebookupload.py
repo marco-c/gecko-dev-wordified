@@ -68,8 +68,8 @@ metrics
 .
 common
 import
-filtered_metrics
 COMMON_ARGS
+filtered_metrics
 from
 mozperftest
 .

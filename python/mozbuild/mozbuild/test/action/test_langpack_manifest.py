@@ -51,6 +51,8 @@ tempfile
 import
 unittest
 import
+mozunit
+import
 mozbuild
 .
 action
@@ -58,8 +60,6 @@ action
 langpack_manifest
 as
 langpack_manifest
-import
-mozunit
 class
 TestGenerateManifest
 (

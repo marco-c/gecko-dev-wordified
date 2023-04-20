@@ -59,9 +59,9 @@ import
 absolute_import
 print_function
 import
-sys
-import
 subprocess
+import
+sys
 import
 buildconfig
 def

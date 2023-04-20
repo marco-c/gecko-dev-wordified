@@ -113,9 +113,9 @@ unicode_literals
 import
 ctypes
 import
-posixpath
-import
 os
+import
+posixpath
 import
 re
 import

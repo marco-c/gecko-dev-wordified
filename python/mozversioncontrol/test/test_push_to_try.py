@@ -67,12 +67,8 @@ pytest
 from
 mozversioncontrol
 import
-(
-    
-get_repository_object
-    
 MissingVCSExtension
-)
+get_repository_object
 def
 test_push_to_try
 (

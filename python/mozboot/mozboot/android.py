@@ -78,6 +78,10 @@ Optional
 Union
 import
 requests
+from
+tqdm
+import
+tqdm
 #
 We
 need
@@ -118,10 +122,6 @@ mozboot
 bootstrap
 import
 MOZCONFIG_SUGGESTION_TEMPLATE
-from
-tqdm
-import
-tqdm
 NDK_VERSION
 =
 "

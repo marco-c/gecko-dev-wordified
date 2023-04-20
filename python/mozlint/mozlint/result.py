@@ -53,6 +53,8 @@ MPL
 0
 /
 .
+import
+os
 from
 collections
 import
@@ -66,15 +68,13 @@ json
 import
 JSONEncoder
 import
-os
+attr
 import
 mozpack
 .
 path
 as
 mozpath
-import
-attr
 class
 ResultSummary
 (

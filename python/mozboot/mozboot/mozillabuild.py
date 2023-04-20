@@ -68,12 +68,6 @@ pathlib
 import
 Path
 from
-mozboot
-.
-base
-import
-BaseBootstrapper
-from
 mozbuild
 .
 util
@@ -85,6 +79,12 @@ packaging
 version
 import
 Version
+from
+mozboot
+.
+base
+import
+BaseBootstrapper
 def
 is_aarch64_host
 (

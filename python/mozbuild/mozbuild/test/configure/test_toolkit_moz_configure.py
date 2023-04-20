@@ -70,6 +70,12 @@ common
 import
 BaseConfigureTest
 from
+mozpack
+import
+path
+as
+mozpath
+from
 mozunit
 import
 MockedOpen
@@ -82,12 +88,6 @@ configure
 options
 import
 InvalidOptionError
-from
-mozpack
-import
-path
-as
-mozpath
 class
 TestToolkitMozConfigure
 (

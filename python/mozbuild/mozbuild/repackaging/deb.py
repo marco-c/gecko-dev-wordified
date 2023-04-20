@@ -91,6 +91,12 @@ path
 as
 mozpath
 from
+mozpack
+.
+files
+import
+FileFinder
+from
 mozbuild
 .
 repackaging
@@ -98,12 +104,6 @@ repackaging
 application_ini
 import
 get_application_ini_values
-from
-mozpack
-.
-files
-import
-FileFinder
 class
 NoPackageFound
 (

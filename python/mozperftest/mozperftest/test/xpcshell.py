@@ -56,10 +56,6 @@ MPL
 import
 os
 from
-pathlib
-import
-Path
-from
 collections
 import
 defaultdict
@@ -69,6 +65,10 @@ distutils
 dir_util
 import
 copy_tree
+from
+pathlib
+import
+Path
 from
 mozperftest
 .

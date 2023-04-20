@@ -63,14 +63,14 @@ import
 os
 import
 re
-import
-six
 from
 collections
 .
 abc
 import
 Iterable
+import
+six
 class
 Makefile
 (

@@ -58,12 +58,6 @@ argparse
 from
 mozpack
 .
-files
-import
-FileFinder
-from
-mozpack
-.
 copier
 import
 FileCopier
@@ -73,6 +67,12 @@ mozpack
 errors
 import
 errors
+from
+mozpack
+.
+files
+import
+FileFinder
 from
 mozpack
 .

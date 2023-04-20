@@ -86,12 +86,8 @@ mozbuild
 .
 mozconfig
 import
-(
-    
-MozconfigLoadException
-    
 MozconfigLoader
-)
+MozconfigLoadException
 class
 TestMozconfigLoader
 (

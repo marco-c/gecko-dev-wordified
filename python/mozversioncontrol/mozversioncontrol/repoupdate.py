@@ -58,6 +58,8 @@ __future__
 import
 absolute_import
 unicode_literals
+import
+subprocess
 from
 pathlib
 import
@@ -66,8 +68,6 @@ from
 typing
 import
 Union
-import
-subprocess
 #
 The
 logic

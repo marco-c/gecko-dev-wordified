@@ -64,6 +64,8 @@ dependencies
 "
 "
 import
+contextlib
+import
 os
 import
 subprocess
@@ -71,8 +73,6 @@ import
 sys
 import
 time
-import
-contextlib
 from
 distutils
 .

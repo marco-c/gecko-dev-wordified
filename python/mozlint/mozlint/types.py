@@ -67,8 +67,8 @@ abstractmethod
 from
 mozlog
 import
-get_default_logger
 commandline
+get_default_logger
 structuredlog
 from
 mozlog

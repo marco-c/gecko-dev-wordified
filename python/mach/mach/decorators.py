@@ -71,6 +71,12 @@ typing
 import
 Optional
 from
+mozbuild
+.
+base
+import
+MachCommandBase
+from
 .
 base
 import
@@ -80,12 +86,6 @@ from
 registrar
 import
 Registrar
-from
-mozbuild
-.
-base
-import
-MachCommandBase
 class
 _MachCommand
 (

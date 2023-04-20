@@ -64,6 +64,10 @@ unittest
 import
 mozfile
 from
+mozunit
+import
+main
+from
 mozbuild
 .
 vendor
@@ -72,10 +76,6 @@ moz_yaml
 import
 MozYamlVerifyError
 load_moz_yaml
-from
-mozunit
-import
-main
 class
 TestManifest
 (

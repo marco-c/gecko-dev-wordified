@@ -59,6 +59,12 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+os
+import
+unittest
+import
+mozunit
 from
 mozpack
 .
@@ -66,34 +72,28 @@ path
 import
 (
     
-relpath
+basedir
     
-join
-    
-normpath
-    
-dirname
+basename
     
 commonprefix
     
-basename
+dirname
+    
+join
+    
+match
+    
+normpath
+    
+rebase
+    
+relpath
     
 split
     
 splitext
-    
-basedir
-    
-match
-    
-rebase
 )
-import
-unittest
-import
-mozunit
-import
-os
 class
 TestPath
 (

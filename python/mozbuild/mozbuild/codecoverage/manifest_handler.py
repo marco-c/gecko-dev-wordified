@@ -77,6 +77,12 @@ urllib
 parse
 as
 urlparse
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozpack
 .
@@ -96,12 +102,6 @@ ManifestResource
     
 parse_manifest
 )
-import
-mozpack
-.
-path
-as
-mozpath
 class
 ChromeManifestHandler
 (

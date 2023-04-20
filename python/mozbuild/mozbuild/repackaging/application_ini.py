@@ -59,6 +59,12 @@ import
 absolute_import
 print_function
 from
+mozpack
+.
+files
+import
+FileFinder
+from
 six
 import
 string_types
@@ -68,12 +74,6 @@ six
 moves
 import
 configparser
-from
-mozpack
-.
-files
-import
-FileFinder
 def
 get_application_ini_value
 (

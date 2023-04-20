@@ -113,15 +113,15 @@ abc
 import
 Iterable
 from
-typing
-import
-Union
-Dict
-List
-from
 pathlib
 import
 Path
+from
+typing
+import
+Dict
+List
+Union
 from
 .
 base
@@ -129,6 +129,8 @@ import
 (
     
 CommandContext
+    
+FailedCommandError
     
 MachError
     
@@ -139,8 +141,6 @@ NoCommandError
 UnknownCommandError
     
 UnrecognizedArgumentError
-    
-FailedCommandError
 )
 from
 .
@@ -166,20 +166,20 @@ from
 .
 sentry
 import
-register_sentry
 NoopErrorReporter
+register_sentry
 from
 .
 telemetry
 import
-report_invocation_metrics
 create_telemetry_from_environment
+report_invocation_metrics
 from
 .
 util
 import
-setenv
 UserError
+setenv
 SUGGEST_MACH_BUSTED_TEMPLATE
 =
 r

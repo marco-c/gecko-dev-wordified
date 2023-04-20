@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+json
+import
 os
 import
 sys
@@ -61,8 +63,6 @@ from
 functools
 import
 partial
-import
-json
 from
 mach
 .
@@ -322,6 +322,15 @@ pathlib
 import
 Path
     
+from
+mozperftest
+.
+script
+import
+ParseError
+ScriptInfo
+ScriptType
+    
 #
 user
 selection
@@ -335,15 +344,6 @@ mozperftest
 utils
 import
 ON_TRY
-    
-from
-mozperftest
-.
-script
-import
-ScriptInfo
-ScriptType
-ParseError
     
 if
 not
@@ -1365,15 +1365,9 @@ mozperftest
 .
 utils
 import
-(
-        
 ON_TRY
-        
-checkout_script
-        
 checkout_python_script
-    
-)
+checkout_script
     
 venv
 =

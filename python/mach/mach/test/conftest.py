@@ -62,8 +62,6 @@ import
 sys
 import
 unittest
-import
-pytest
 from
 collections
 .
@@ -71,19 +69,21 @@ abc
 import
 Iterable
 from
+pathlib
+import
+Path
+from
 typing
 import
+List
 Optional
 Union
-List
+import
+pytest
 from
 buildconfig
 import
 topsrcdir
-from
-pathlib
-import
-Path
 try
 :
     

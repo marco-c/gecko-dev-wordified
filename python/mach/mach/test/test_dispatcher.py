@@ -57,9 +57,6 @@ from
 __future__
 import
 absolute_import
-from
-__future__
-import
 unicode_literals
 import
 unittest
@@ -67,6 +64,10 @@ from
 io
 import
 StringIO
+from
+pathlib
+import
+Path
 import
 pytest
 from
@@ -77,10 +78,6 @@ from
 six
 import
 string_types
-from
-pathlib
-import
-Path
 from
 mach
 .

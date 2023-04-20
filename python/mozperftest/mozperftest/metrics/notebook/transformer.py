@@ -54,13 +54,13 @@ MPL
 /
 .
 import
-json
-import
 importlib
 .
 util
 import
 inspect
+import
+json
 import
 pathlib
 from
@@ -76,11 +76,11 @@ exceptions
 import
 (
     
-NotebookInvalidTransformError
+NotebookDuplicateTransformsError
     
 NotebookInvalidPathError
     
-NotebookDuplicateTransformsError
+NotebookInvalidTransformError
 )
 from
 mozperftest

@@ -61,6 +61,12 @@ print_function
 unicode_literals
 import
 os
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozpack
 .
@@ -95,12 +101,6 @@ backend
 common
 import
 BackendTester
-import
-mozpack
-.
-path
-as
-mozpath
 class
 TestFasterMakeBackend
 (

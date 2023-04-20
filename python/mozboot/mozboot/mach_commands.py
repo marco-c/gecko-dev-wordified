@@ -449,13 +449,6 @@ date
 "
     
 import
-mozboot
-.
-bootstrap
-as
-bootstrap
-    
-import
 mozversioncontrol
     
 from
@@ -469,6 +462,13 @@ from
 mozfile
 import
 which
+    
+import
+mozboot
+.
+bootstrap
+as
+bootstrap
     
 repo
 =

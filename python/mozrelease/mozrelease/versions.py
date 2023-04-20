@@ -57,6 +57,8 @@ from
 __future__
 import
 absolute_import
+import
+re
 from
 distutils
 .
@@ -67,8 +69,6 @@ from
 looseversion
 import
 LooseVersion
-import
-re
 class
 MozillaVersionCompareMixin
 :

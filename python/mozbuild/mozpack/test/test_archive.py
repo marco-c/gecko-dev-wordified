@@ -67,6 +67,8 @@ shutil
 import
 stat
 import
+sys
+import
 tarfile
 import
 tempfile
@@ -74,8 +76,6 @@ import
 unittest
 import
 pytest
-import
-sys
 from
 mozpack
 .
@@ -85,11 +85,11 @@ import
     
 DEFAULT_MTIME
     
+create_tar_bz2_from_files
+    
 create_tar_from_files
     
 create_tar_gz_from_files
-    
-create_tar_bz2_from_files
 )
 from
 mozpack

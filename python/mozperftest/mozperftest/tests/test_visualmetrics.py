@@ -8,17 +8,23 @@ bin
 env
 python
 import
-mozunit
+json
+import
+os
 from
 unittest
 import
 mock
 import
-os
-import
-json
+mozunit
 import
 pytest
+from
+mozperftest
+.
+environment
+import
+METRICS
 from
 mozperftest
 .
@@ -28,20 +34,14 @@ support
 import
 (
     
-get_running_env
+BT_DATA_VIDEO
     
 EXAMPLE_TEST
     
-temp_file
+get_running_env
     
-BT_DATA_VIDEO
+temp_file
 )
-from
-mozperftest
-.
-environment
-import
-METRICS
 VM_RES
 =
 {

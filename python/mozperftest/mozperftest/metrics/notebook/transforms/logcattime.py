@@ -53,13 +53,13 @@ MPL
 0
 /
 .
+import
+re
 from
 datetime
 import
 datetime
 timedelta
-import
-re
 from
 mozperftest
 .
@@ -69,9 +69,9 @@ exceptions
 import
 (
     
-NotebookTransformOptionsError
-    
 NotebookTransformError
+    
+NotebookTransformOptionsError
 )
 TIME_MATCHER
 =

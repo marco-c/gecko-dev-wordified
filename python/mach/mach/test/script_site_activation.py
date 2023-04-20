@@ -194,8 +194,8 @@ mach
 .
 site
 import
-MachSiteManager
 CommandSiteManager
+MachSiteManager
 def
 main
 (

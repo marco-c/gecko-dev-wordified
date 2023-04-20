@@ -60,27 +60,12 @@ absolute_import
 print_function
 unicode_literals
 from
-mozbuild
-.
-util
-import
-(
-    
-ensureParentDir
-    
-ensure_bytes
-)
-from
 mozpack
 .
 errors
 import
-(
-    
 ErrorMessage
-    
 errors
-)
 from
 mozpack
 .
@@ -100,9 +85,9 @@ ExistingFile
     
 ExtractedTarFile
     
-FileFinder
-    
 File
+    
+FileFinder
     
 GeneratedFile
     
@@ -110,20 +95,27 @@ HardlinkFile
     
 JarFinder
     
-TarFinder
-    
 ManifestFile
     
 MercurialFile
     
 MercurialRevisionFinder
     
-MinifiedJavaScript
-    
 MinifiedCommentStripped
     
+MinifiedJavaScript
+    
 PreprocessedFile
+    
+TarFinder
 )
+from
+mozbuild
+.
+util
+import
+ensure_bytes
+ensureParentDir
 #
 We
 don
@@ -146,17 +138,38 @@ ImportError
 hglib
 =
 None
+import
+os
+import
+platform
+import
+random
+import
+sys
+import
+tarfile
+import
+unittest
 from
+io
+import
+BytesIO
+from
+tempfile
+import
+mkdtemp
+import
+mozfile
+import
 mozpack
 .
-mozjar
+path
+as
+mozpath
 import
-(
-    
-JarReader
-    
-JarWriter
-)
+mozunit
+import
+six
 from
 mozpack
 .
@@ -168,44 +181,19 @@ import
     
 ManifestContent
     
-ManifestResource
-    
 ManifestLocale
     
 ManifestOverride
+    
+ManifestResource
 )
-import
-unittest
-import
-mozfile
-import
-mozunit
-import
-os
-import
-platform
-import
-random
-import
-six
-import
-sys
-import
-tarfile
-import
+from
 mozpack
 .
-path
-as
-mozpath
-from
-tempfile
+mozjar
 import
-mkdtemp
-from
-io
-import
-BytesIO
+JarReader
+JarWriter
 class
 TestWithTmpDir
 (

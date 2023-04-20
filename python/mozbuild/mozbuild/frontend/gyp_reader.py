@@ -80,6 +80,12 @@ mozpath
 import
 six
 from
+mozpack
+.
+files
+import
+FileFinder
+from
 mozbuild
 import
 shellutil
@@ -89,12 +95,6 @@ mozbuild
 util
 import
 expand_variables
-from
-mozpack
-.
-files
-import
-FileFinder
 from
 .
 context

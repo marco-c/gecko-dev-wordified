@@ -59,10 +59,6 @@ import
 absolute_import
 print_function
 unicode_literals
-from
-collections
-import
-defaultdict
 import
 json
 import
@@ -70,19 +66,23 @@ os
 import
 sys
 from
-mach
-.
-decorators
+collections
 import
-CommandArgument
-Command
-SubCommand
+defaultdict
 import
 mozpack
 .
 path
 as
 mozpath
+from
+mach
+.
+decorators
+import
+Command
+CommandArgument
+SubCommand
 TOPSRCDIR
 =
 os
@@ -257,6 +257,15 @@ False
 )
 :
     
+import
+mozbuild
+.
+frontend
+.
+context
+as
+m
+    
 from
 mozbuild
 .
@@ -273,15 +282,6 @@ special_reference
 variable_reference
     
 )
-    
-import
-mozbuild
-.
-frontend
-.
-context
-as
-m
     
 if
 name_only
@@ -2403,8 +2403,8 @@ frontend
 .
 reader
 import
-EmptyConfig
 BuildReader
+EmptyConfig
     
 config
 =

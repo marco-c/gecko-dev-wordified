@@ -59,11 +59,11 @@ flake8
 noqa
 from
 .
-roller
-import
-LintRoller
-from
-.
 result
 import
 Issue
+from
+.
+roller
+import
+LintRoller

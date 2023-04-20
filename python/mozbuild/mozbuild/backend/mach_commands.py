@@ -83,13 +83,13 @@ import
 Command
 CommandArgument
 from
-mozbuild
-import
-build_commands
-from
 mozfile
 import
 which
+from
+mozbuild
+import
+build_commands
 Command
 (
     

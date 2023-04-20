@@ -58,12 +58,12 @@ __future__
 import
 absolute_import
 print_function
+import
+unittest
 from
 mozunit
 import
 main
-import
-unittest
 from
 mozbuild
 .

@@ -62,7 +62,7 @@ from
 .
 terminal
 import
-Terminal
 NullTerminal
+Terminal
 #
 noqa

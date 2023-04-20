@@ -74,8 +74,16 @@ mach
 .
 decorators
 import
-CommandArgument
 Command
+CommandArgument
+from
+mozbuild
+.
+shellutil
+import
+quote
+as
+shell_quote
 from
 mozbuild
 .
@@ -84,9 +92,6 @@ import
 split
 as
 shell_split
-quote
-as
-shell_quote
 #
 Instropection
 commands
@@ -150,16 +155,16 @@ what
 from
 mozbuild
 .
-util
+compilation
 import
-resolve_target_to_make
+util
     
 from
 mozbuild
 .
-compilation
-import
 util
+import
+resolve_target_to_make
     
 if
 not

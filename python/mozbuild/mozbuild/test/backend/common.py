@@ -75,6 +75,12 @@ from
 tempfile
 import
 mkdtemp
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mach
 .
@@ -105,12 +111,6 @@ frontend
 reader
 import
 BuildReader
-import
-mozpack
-.
-path
-as
-mozpath
 log_manager
 =
 LoggingManager

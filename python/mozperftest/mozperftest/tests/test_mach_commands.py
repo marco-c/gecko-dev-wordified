@@ -63,19 +63,13 @@ MPL
 /
 .
 import
-mozunit
-import
 os
 import
-sys
-from
-unittest
+shutil
 import
-mock
+sys
 import
 tempfile
-import
-shutil
 from
 contextlib
 import
@@ -84,6 +78,12 @@ from
 pathlib
 import
 Path
+from
+unittest
+import
+mock
+import
+mozunit
 import
 pytest
 from
@@ -156,8 +156,8 @@ mozperftest
 .
 utils
 import
-temporary_env
 silence
+temporary_env
 #
 noqa
 ITERATION_HOOKS
@@ -307,11 +307,7 @@ mozperftest
 .
 argparser
 import
-(
-        
 PerftestArgumentParser
-    
-)
     
 config
 =

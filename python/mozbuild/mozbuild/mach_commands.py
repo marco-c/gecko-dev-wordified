@@ -93,17 +93,6 @@ pathlib
 import
 Path
 import
-mozbuild
-.
-settings
-#
-noqa
-need
-SettingsProvider
-hook
-to
-execute
-import
 mozpack
 .
 path
@@ -126,6 +115,17 @@ SettingsProvider
     
 SubCommand
 )
+import
+mozbuild
+.
+settings
+#
+noqa
+need
+SettingsProvider
+hook
+to
+execute
 from
 mozbuild
 .

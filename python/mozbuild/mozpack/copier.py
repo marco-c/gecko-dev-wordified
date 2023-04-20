@@ -80,13 +80,13 @@ Counter
 OrderedDict
 defaultdict
 import
-six
-import
 mozpack
 .
 path
 as
 mozpath
+import
+six
 from
 mozpack
 .
@@ -4324,8 +4324,8 @@ mozpack
 .
 mozjar
 import
-JarWriter
 JarReader
+JarWriter
         
 try
 :

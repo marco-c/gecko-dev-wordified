@@ -61,11 +61,6 @@ mozlint
 result
 import
 Issue
-from
-mozlint
-.
-result
-import
 ResultSummary
 def
 test_issue_defaults

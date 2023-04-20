@@ -59,6 +59,10 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+os
+import
+unittest
 from
 xml
 .
@@ -67,10 +71,10 @@ dom
 minidom
 import
 parse
+from
+mozunit
 import
-os
-import
-unittest
+main
 from
 mozbuild
 .
@@ -89,10 +93,6 @@ backend
 common
 import
 BackendTester
-from
-mozunit
-import
-main
 class
 TestVisualStudioBackend
 (

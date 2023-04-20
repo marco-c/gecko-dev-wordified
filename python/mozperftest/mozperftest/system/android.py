@@ -54,9 +54,9 @@ MPL
 /
 .
 import
-tempfile
-import
 sys
+import
+tempfile
 from
 pathlib
 import

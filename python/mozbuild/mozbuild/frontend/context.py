@@ -293,6 +293,8 @@ absolute_import
 print_function
 unicode_literals
 import
+itertools
+import
 operator
 import
 os
@@ -301,6 +303,18 @@ collections
 import
 Counter
 OrderedDict
+from
+types
+import
+FunctionType
+import
+mozpack
+.
+path
+as
+mozpath
+import
+six
 from
 mozbuild
 .
@@ -316,10 +330,6 @@ KeyedDefaultDict
     
 List
     
-memoize
-    
-memoized_property
-    
 ReadOnlyKeyedDefaultDict
     
 StrictOrderingOnAppendList
@@ -331,6 +341,10 @@ StrictOrderingOnAppendListWithFlagsFactory
 TypedList
     
 TypedNamedTuple
+    
+memoize
+    
+memoized_property
 )
 from
 .
@@ -344,20 +358,6 @@ testing
 import
 read_manifestparser_manifest
 read_reftest_manifest
-import
-mozpack
-.
-path
-as
-mozpath
-from
-types
-import
-FunctionType
-import
-itertools
-import
-six
 class
 ContextDerivedValue
 (

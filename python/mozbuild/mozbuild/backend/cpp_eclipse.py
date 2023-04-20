@@ -77,10 +77,11 @@ saxutils
 import
 quoteattr
 from
+mozbuild
 .
-common
+base
 import
-CommonBackend
+ExecutionSummary
 from
 .
 .
@@ -90,11 +91,10 @@ data
 import
 ComputedFlags
 from
-mozbuild
 .
-base
+common
 import
-ExecutionSummary
+CommonBackend
 #
 TODO
 Have
