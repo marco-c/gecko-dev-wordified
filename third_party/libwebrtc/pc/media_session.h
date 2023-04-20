@@ -1087,12 +1087,6 @@ const
 TransportDescriptionFactory
 *
 factory
-rtc
-:
-:
-UniqueRandomIdGenerator
-*
-ssrc_generator
 )
 ;
 const

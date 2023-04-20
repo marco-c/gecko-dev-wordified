@@ -2464,6 +2464,12 @@ the
 same
 thread
 .
+RTC_DCHECK
+(
+!
+low_priority_worker_queue_
+)
+;
 low_priority_worker_queue_
 .
 reset

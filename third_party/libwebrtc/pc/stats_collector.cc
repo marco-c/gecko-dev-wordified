@@ -6128,7 +6128,7 @@ transport_names_by_mid
 channel
 -
 >
-content_name
+mid
 (
 )
 ]
@@ -7968,7 +7968,7 @@ mid
 channel
 -
 >
-content_name
+mid
 (
 )
 ;
@@ -8203,7 +8203,7 @@ mid
 channel
 -
 >
-content_name
+mid
 (
 )
 )

@@ -208,7 +208,7 @@ std
 :
 string
 &
-content_name
+mid
 (
 )
 (

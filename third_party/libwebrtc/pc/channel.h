@@ -870,7 +870,7 @@ std
 :
 string
 &
-content_name
+mid
 bool
 srtp_required
 webrtc
@@ -926,7 +926,7 @@ std
 :
 string
 &
-content_name
+mid
 (
 )
 const
@@ -2891,7 +2891,7 @@ std
 :
 string
 &
-content_name
+mid
 bool
 srtp_required
 webrtc
@@ -3134,7 +3134,7 @@ std
 :
 string
 &
-content_name
+mid
 bool
 srtp_required
 webrtc
