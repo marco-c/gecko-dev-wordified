@@ -41,7 +41,7 @@ tab
 =
 gBrowser
 .
-loadOneTab
+addTab
 (
 "
 about

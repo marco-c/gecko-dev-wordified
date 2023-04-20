@@ -3763,7 +3763,7 @@ w
 .
 gBrowser
 .
-loadOneTab
+addTab
 (
 url
 {

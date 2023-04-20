@@ -1852,7 +1852,7 @@ this
 .
 browser
 .
-loadOneTab
+addTab
 (
 "
 about

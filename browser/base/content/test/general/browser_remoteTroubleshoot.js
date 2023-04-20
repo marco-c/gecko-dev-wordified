@@ -334,7 +334,7 @@ tab
 =
 gBrowser
 .
-loadOneTab
+addTab
 (
 uri
 .

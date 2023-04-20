@@ -19745,7 +19745,7 @@ tab
 =
 tabBrowser
 .
-loadOneTab
+addTab
 (
 "
 about
@@ -37339,7 +37339,7 @@ win
 .
 gBrowser
 .
-loadOneTab
+addTab
 (
 aURI
 ?
