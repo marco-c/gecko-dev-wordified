@@ -444,7 +444,7 @@ data_
 data
 )
 {
-RTC_DCHECK
+RTC_CHECK
 (
 data
 .
@@ -648,7 +648,7 @@ size_t
 variable_offset
 )
 {
-RTC_DCHECK
+RTC_CHECK
 (
 FixedSize
 +
