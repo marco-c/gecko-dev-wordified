@@ -193,6 +193,13 @@ StartScreenCastStream
 (
 uint32_t
 stream_node_id
+)
+;
+bool
+StartScreenCastStream
+(
+uint32_t
+stream_node_id
 int
 fd
 )
