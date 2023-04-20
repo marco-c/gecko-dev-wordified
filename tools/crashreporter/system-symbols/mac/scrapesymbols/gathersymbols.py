@@ -54,11 +54,11 @@ subprocess
 import
 sys
 import
+traceback
+import
 urllib
 import
 zipfile
-import
-traceback
 import
 requests
 if
