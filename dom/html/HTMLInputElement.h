@@ -3279,7 +3279,7 @@ bool
 aValue
 )
 ;
-nsGenericHTMLElement
+HTMLDataListElement
 *
 GetList
 (
