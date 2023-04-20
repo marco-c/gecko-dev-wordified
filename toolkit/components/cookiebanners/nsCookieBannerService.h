@@ -363,6 +363,11 @@ nsICookieBannerRule
 aRule
 )
 ;
+void
+DailyReportTelemetry
+(
+)
+;
 }
 ;
 }
