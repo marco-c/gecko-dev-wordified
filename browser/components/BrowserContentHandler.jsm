@@ -2081,6 +2081,16 @@ true
 ;
 if
 (
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
+&
+&
 lazy
 .
 NimbusFeatures
