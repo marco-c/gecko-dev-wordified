@@ -1138,14 +1138,6 @@ GetUnstrippedURI
 )
 const
 ;
-void
-SetUnstrippedURI
-(
-nsIURI
-*
-aUnstrippedURI
-)
-;
 /
 /
 Give
@@ -1636,6 +1628,11 @@ dom
 BrowsingContext
 *
 aContext
+nsIURI
+*
+aCurrentUnstrippedURI
+=
+nullptr
 )
 ;
 protected
