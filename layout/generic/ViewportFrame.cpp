@@ -1514,7 +1514,10 @@ frame
 >
 GetChildList
 (
-kBackdropList
+FrameChildListID
+:
+:
+Backdrop
 )
 .
 FirstChild
@@ -1882,7 +1885,10 @@ NS_ASSERTION
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 "
 unexpected
 child
@@ -1956,7 +1962,10 @@ NS_ASSERTION
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 "
 unexpected
 child
@@ -2021,7 +2030,10 @@ NS_ASSERTION
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 "
 unexpected
 child

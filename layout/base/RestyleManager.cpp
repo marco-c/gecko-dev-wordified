@@ -8706,7 +8706,10 @@ if
 listID
 =
 =
-kPopupList
+FrameChildListID
+:
+:
+Popup
 )
 {
 DoApplyRenderingChangeToTree
@@ -18452,7 +18455,10 @@ aFrame
 >
 GetChildList
 (
-kBackdropList
+FrameChildListID
+:
+:
+Backdrop
 )
 .
 FirstChild

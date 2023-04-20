@@ -1094,7 +1094,10 @@ MOZ_ASSERT
 mChildListID
 =
 =
-kFixedList
+FrameChildListID
+:
+:
+Fixed
 )
 ;
 aOverflowAreas
@@ -5777,7 +5780,10 @@ when
 mChildListID
 =
 =
-kFixedList
+FrameChildListID
+:
+:
+Fixed
 the
 height
 is

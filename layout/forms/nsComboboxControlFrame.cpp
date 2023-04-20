@@ -6502,7 +6502,10 @@ mDisplayFrame
 >
 SetInitialChildList
 (
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 nsFrameList
 (
 textFrame

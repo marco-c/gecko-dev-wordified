@@ -13390,7 +13390,10 @@ GetChildList
 mozilla
 :
 :
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 )
 ;
 }
@@ -32515,7 +32518,10 @@ return
 mozilla
 :
 :
-kAbsoluteList
+FrameChildListID
+:
+:
+Absolute
 ;
 }
 /

@@ -694,7 +694,10 @@ const
 override
 {
 return
-kFixedList
+FrameChildListID
+:
+:
+Fixed
 ;
 }
 nsView
