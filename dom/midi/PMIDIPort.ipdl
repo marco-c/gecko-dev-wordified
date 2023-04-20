@@ -112,10 +112,6 @@ MPL
 *
 /
 include
-protocol
-PBackground
-;
-include
 MIDITypes
 ;
 namespace
@@ -128,9 +124,6 @@ async
 protocol
 PMIDIPort
 {
-manager
-PBackground
-;
 parent
 :
 async
@@ -192,11 +185,6 @@ uint32_t
 deviceState
 uint32_t
 connectionState
-)
-;
-async
-__delete__
-(
 )
 ;
 }
