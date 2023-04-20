@@ -54,12 +54,6 @@ output
 .
 h
 >
-using
-std
-:
-:
-string
-;
 namespace
 woff2
 {
@@ -68,6 +62,9 @@ WOFF2StringOut
 :
 WOFF2StringOut
 (
+std
+:
+:
 string
 *
 buf

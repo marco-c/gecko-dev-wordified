@@ -89,12 +89,6 @@ char
 argv
 )
 {
-using
-std
-:
-:
-string
-;
 if
 (
 argc
@@ -125,6 +119,9 @@ return
 1
 ;
 }
+std
+:
+:
 string
 filename
 (
@@ -134,6 +131,9 @@ argv
 ]
 )
 ;
+std
+:
+:
 string
 outfilename
 =
@@ -170,6 +170,9 @@ this
 pattern
 changes
 .
+std
+:
+:
 string
 input
 =
@@ -200,6 +203,9 @@ data
 )
 )
 ;
+std
+:
+:
 string
 output
 (
