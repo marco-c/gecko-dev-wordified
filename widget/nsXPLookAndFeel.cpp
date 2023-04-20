@@ -3200,6 +3200,16 @@ enabled
 "
 _ns
 }
+{
+"
+mathml
+.
+legacy_maction_and_semantics_implementations
+.
+disabled
+"
+_ns
+}
 }
 ;
 /
