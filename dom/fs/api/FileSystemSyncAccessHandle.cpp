@@ -1007,6 +1007,11 @@ mStream
 =
 nullptr
 ;
+if
+(
+mActor
+)
+{
 mActor
 -
 >
@@ -1014,6 +1019,7 @@ SendClose
 (
 )
 ;
+}
 }
 /
 /
