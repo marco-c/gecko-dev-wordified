@@ -154,6 +154,13 @@ scalability_mode
 )
 ;
 int
+ScalabilityModeToNumSpatialLayers
+(
+ScalabilityMode
+scalability_mode
+)
+;
+int
 ScalabilityModeToNumTemporalLayers
 (
 ScalabilityMode
