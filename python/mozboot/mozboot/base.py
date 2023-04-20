@@ -2666,6 +2666,9 @@ run_as_root
 (
 self
 command
+may_use_sudo
+=
+True
 )
 :
         
@@ -2681,6 +2684,8 @@ geteuid
 :
             
 if
+may_use_sudo
+and
 which
 (
 "
