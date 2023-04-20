@@ -374,7 +374,7 @@ Nursery
 nursery
 )
 :
-GenericTracer
+JSTracer
 (
 rt
 JS
