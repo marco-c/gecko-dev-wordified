@@ -8913,6 +8913,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mIntlUtils
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mVisualViewport
+)
 tmp
 -
 >
@@ -9458,6 +9462,10 @@ mInstallTrigger
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mIntlUtils
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mVisualViewport
 )
 tmp
 -
