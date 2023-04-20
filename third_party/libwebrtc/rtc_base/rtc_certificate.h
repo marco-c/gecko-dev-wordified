@@ -682,6 +682,7 @@ of
 identity_
 |
 .
+const
 std
 :
 :
