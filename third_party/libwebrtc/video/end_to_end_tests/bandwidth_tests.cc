@@ -1637,13 +1637,10 @@ local_ssrc
 ;
 rtp_rtcp_
 =
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+Create
 (
 config
 )
