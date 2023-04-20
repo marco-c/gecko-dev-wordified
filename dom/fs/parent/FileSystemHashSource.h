@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-FileSystemTypes
+Result
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-Result
+dom
+/
+FileSystemTypes
 .
 h
 "
