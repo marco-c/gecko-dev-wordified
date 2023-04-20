@@ -1100,8 +1100,13 @@ StartCapture
 .
 private
 :
+void
+LazyInitCaptureThread
+(
+)
+;
 int32_t
-Init
+LazyInitDesktopCapturer
 (
 )
 ;
