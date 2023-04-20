@@ -356,6 +356,7 @@ WasDecoded
 int64_t
 frame_id
 )
+const
 {
 if
 (
@@ -507,6 +508,7 @@ DecodedFramesHistory
 GetLastDecodedFrameId
 (
 )
+const
 {
 return
 last_decoded_frame_
@@ -525,6 +527,7 @@ DecodedFramesHistory
 GetLastDecodedFrameTimestamp
 (
 )
+const
 {
 return
 last_decoded_frame_timestamp_

@@ -234,6 +234,7 @@ WasDecoded
 int64_t
 frame_id
 )
+const
 ;
 void
 Clear
@@ -250,6 +251,7 @@ int64_t
 GetLastDecodedFrameId
 (
 )
+const
 ;
 absl
 :
@@ -261,6 +263,7 @@ uint32_t
 GetLastDecodedFrameTimestamp
 (
 )
+const
 ;
 private
 :
