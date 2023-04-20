@@ -26768,6 +26768,8 @@ Int32OperandId
 argcId
 CallFlags
 flags
+uint32_t
+argcFixed
 bool
 ignoresReturnValue
 )
@@ -26817,6 +26819,8 @@ ObjOperandId
 thisObjId
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 return
@@ -26853,6 +26857,8 @@ Int32OperandId
 argcId
 CallFlags
 flags
+uint32_t
+argcFixed
 uint32_t
 targetOffset
 )
@@ -26891,6 +26897,8 @@ thisObjId
 CallFlags
 flags
 uint32_t
+argcFixed
+uint32_t
 targetOffset
 )
 {
@@ -26928,6 +26936,8 @@ Int32OperandId
 argcId
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 return
@@ -26963,6 +26973,8 @@ uint32_t
 icScriptOffset
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 if
@@ -27293,6 +27305,8 @@ Int32OperandId
 argcId
 CallFlags
 flags
+uint32_t
+argcFixed
 uint32_t
 funcExportOffset
 uint32_t

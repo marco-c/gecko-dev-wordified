@@ -395,6 +395,8 @@ Register
 scratch2
 CallFlags
 flags
+uint32_t
+argcFixed
 bool
 isJitCall
 )
@@ -408,6 +410,8 @@ Register
 scratch
 Register
 scratch2
+uint32_t
+argcFixed
 bool
 isJitCall
 bool
@@ -440,6 +444,8 @@ Register
 scratch
 Register
 scratch2
+uint32_t
+argcFixed
 bool
 isJitCall
 )
@@ -514,6 +520,8 @@ Int32OperandId
 argcId
 CallFlags
 flags
+uint32_t
+argcFixed
 mozilla
 :
 :

@@ -3149,6 +3149,8 @@ Int32OperandId
 argc
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 callScriptedFunction_
@@ -3156,6 +3158,7 @@ callScriptedFunction_
 callee
 argc
 flags
+argcFixed
 )
 ;
 trialInliningState_
@@ -3178,6 +3181,8 @@ ICScript
 icScript
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 callInlinedFunction_
@@ -3186,6 +3191,7 @@ callee
 argc
 icScript
 flags
+argcFixed
 )
 ;
 trialInliningState_
@@ -3210,6 +3216,8 @@ JSFunction
 calleeFunc
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 /
@@ -3398,6 +3406,7 @@ callNativeFunction_
 calleeId
 argc
 flags
+argcFixed
 redirected
 )
 ;
@@ -3434,6 +3443,7 @@ callNativeFunction_
 calleeId
 argc
 flags
+argcFixed
 ignoresReturnValue
 )
 ;
@@ -3454,6 +3464,8 @@ JSFunction
 calleeFunc
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 #
@@ -3494,6 +3506,7 @@ calleeId
 argc
 thisObjId
 flags
+argcFixed
 redirected
 )
 ;
@@ -3505,6 +3518,7 @@ calleeId
 argc
 thisObjId
 flags
+argcFixed
 )
 ;
 #
@@ -3519,6 +3533,8 @@ Int32OperandId
 argc
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 MOZ_ASSERT
@@ -3630,6 +3646,7 @@ callNativeFunction_
 calleeId
 argc
 flags
+argcFixed
 redirected
 )
 ;
@@ -3640,6 +3657,7 @@ callNativeFunction_
 calleeId
 argc
 flags
+argcFixed
 /
 *
 ignoresReturnValue
@@ -3663,6 +3681,8 @@ JSNative
 hook
 CallFlags
 flags
+uint32_t
+argcFixed
 )
 {
 MOZ_ASSERT
@@ -3747,6 +3767,7 @@ callClassHook_
 calleeId
 argc
 flags
+argcFixed
 target
 )
 ;

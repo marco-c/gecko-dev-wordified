@@ -19185,6 +19185,8 @@ alignJitStackBasedOnNArgs
 (
 uint32_t
 argc
+bool
+countIncludesThis
 )
 {
 /
@@ -19258,7 +19260,8 @@ nArgs
 =
 argc
 +
-1
+!
+countIncludesThis
 ;
 if
 (
