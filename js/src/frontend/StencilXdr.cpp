@@ -9612,6 +9612,9 @@ validateResultCode
 cx
 (
 )
+ec
+(
+)
 resultCode
 (
 )
@@ -9894,6 +9897,9 @@ MOZ_ASSERT
 validateResultCode
 (
 cx
+(
+)
+ec
 (
 )
 resultCode
