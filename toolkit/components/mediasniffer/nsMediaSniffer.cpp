@@ -900,8 +900,6 @@ xFF
 xFF
 \
 xFF
-\
-xFF
 "
 "
 M4V
@@ -917,8 +915,6 @@ ftyp_M4V
 PATTERN_ENTRY
 (
 "
-\
-xFF
 \
 xFF
 \
@@ -946,8 +942,6 @@ xFF
 xFF
 \
 xFF
-\
-xFF
 "
 "
 M4P
@@ -967,10 +961,6 @@ PATTERN_ENTRY
 xFF
 \
 xFF
-\
-xFF
-\
-xFF
 "
 "
 qt
@@ -986,8 +976,6 @@ ftyp_qt
 PATTERN_ENTRY
 (
 "
-\
-xFF
 \
 xFF
 \
