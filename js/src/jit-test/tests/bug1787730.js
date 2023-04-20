@@ -31,6 +31,11 @@ oomTest
 in
 this
 )
+|
+|
+isLcovEnabled
+(
+)
 oomTest
 (
 (
