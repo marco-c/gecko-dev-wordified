@@ -1909,7 +1909,10 @@ manually
 by
 ODoHService
 .
-uint32_t
+nsIDNSService
+:
+:
+DNSFlags
 flags
 =
 nsIDNSService
