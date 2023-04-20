@@ -1205,6 +1205,9 @@ bool
 any_filter_converged
 ;
 bool
+any_coarse_filter_converged
+;
+bool
 all_filters_diverged
 ;
 subtractor_output_analyzer_
@@ -1214,6 +1217,8 @@ Update
 subtractor_output
 &
 any_filter_converged
+&
+any_coarse_filter_converged
 &
 all_filters_diverged
 )
@@ -1657,6 +1662,7 @@ MinDirectPathFilterDelay
 )
 any_filter_consistent
 any_filter_converged
+any_coarse_filter_converged
 all_filters_diverged
 active_render
 SaturatedCapture
@@ -1914,6 +1920,17 @@ DumpRaw
 aec3_any_filter_converged
 "
 any_filter_converged
+)
+;
+data_dumper_
+-
+>
+DumpRaw
+(
+"
+aec3_any_coarse_filter_converged
+"
+any_coarse_filter_converged
 )
 ;
 data_dumper_
