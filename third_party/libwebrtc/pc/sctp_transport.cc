@@ -101,6 +101,15 @@ include
 <
 utility
 >
+#
+include
+"
+rtc_base
+/
+bind
+.
+h
+"
 namespace
 webrtc
 {
