@@ -19839,7 +19839,11 @@ EarlyHint
 const
 nsACString
 &
-linkHeader
+aLinkHeader
+const
+nsACString
+&
+aReferrerPolicy
 )
 {
 LOG
@@ -19861,11 +19865,12 @@ mEarlyHintsService
 .
 EarlyHint
 (
-linkHeader
+aLinkHeader
 GetChannelCreationURI
 (
 )
 mChannel
+aReferrerPolicy
 )
 ;
 return

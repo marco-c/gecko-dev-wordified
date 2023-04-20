@@ -440,6 +440,10 @@ aPrincipal
 nsICookieJarSettings
 *
 aCookieJarSettings
+const
+nsACString
+&
+aReferrerPolicy
 )
 ;
 /

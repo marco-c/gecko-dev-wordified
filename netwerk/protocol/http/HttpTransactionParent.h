@@ -510,6 +510,10 @@ const
 nsCString
 &
 aValue
+const
+nsACString
+&
+aReferrerPolicy
 )
 ;
 virtual

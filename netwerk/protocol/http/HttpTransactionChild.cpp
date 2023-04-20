@@ -4522,6 +4522,10 @@ const
 nsACString
 &
 value
+const
+nsACString
+&
+referrerPolicy
 )
 {
 LOG
@@ -4548,10 +4552,8 @@ Unused
 <
 SendEarlyHint
 (
-PromiseFlatCString
-(
 value
-)
+referrerPolicy
 )
 ;
 }

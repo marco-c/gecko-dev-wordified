@@ -385,7 +385,9 @@ async
 EarlyHint
 (
 nsCString
-value
+linkHeader
+nsCString
+referrerPolicy
 )
 ;
 child

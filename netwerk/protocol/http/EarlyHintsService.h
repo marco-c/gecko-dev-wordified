@@ -203,6 +203,10 @@ aBaseURI
 nsIChannel
 *
 aChannel
+const
+nsACString
+&
+aReferrerPolicy
 )
 ;
 void
