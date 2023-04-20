@@ -597,6 +597,10 @@ BrowserConsoleManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -608,6 +612,8 @@ browser
 console
 -
 manager
+.
+js
 "
 )
 ;

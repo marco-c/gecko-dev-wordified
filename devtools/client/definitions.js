@@ -88,6 +88,10 @@ OptionsPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +101,8 @@ framework
 toolbox
 -
 options
+.
+js
 "
 )
 .
@@ -118,6 +124,10 @@ InspectorPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +135,8 @@ client
 inspector
 /
 panel
+.
+js
 "
 )
 .
@@ -146,6 +158,10 @@ WebConsolePanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +169,8 @@ client
 webconsole
 /
 panel
+.
+js
 "
 )
 .
@@ -174,6 +192,10 @@ DebuggerPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +203,8 @@ client
 debugger
 /
 panel
+.
+js
 "
 )
 .
@@ -202,6 +226,10 @@ StyleEditorPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -209,6 +237,8 @@ client
 styleeditor
 /
 panel
+.
+js
 "
 )
 .
@@ -230,6 +260,10 @@ MemoryPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +271,8 @@ client
 memory
 /
 panel
+.
+js
 "
 )
 .
@@ -258,6 +294,10 @@ NewPerformancePanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -267,6 +307,8 @@ performance
 new
 /
 panel
+.
+js
 "
 )
 .
@@ -288,6 +330,10 @@ NetMonitorPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -295,6 +341,8 @@ client
 netmonitor
 /
 panel
+.
+js
 "
 )
 .
@@ -316,6 +364,10 @@ StoragePanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -323,6 +375,8 @@ client
 storage
 /
 panel
+.
+js
 "
 )
 .
@@ -344,6 +398,10 @@ DomPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -351,6 +409,8 @@ client
 dom
 /
 panel
+.
+js
 "
 )
 .
@@ -372,6 +432,10 @@ AccessibilityPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -379,6 +443,8 @@ client
 accessibility
 /
 panel
+.
+js
 "
 )
 .
@@ -400,6 +466,10 @@ ApplicationPanel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -407,6 +477,8 @@ client
 application
 /
 panel
+.
+js
 "
 )
 .
@@ -514,11 +586,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

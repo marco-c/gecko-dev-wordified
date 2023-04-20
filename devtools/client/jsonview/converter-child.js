@@ -138,6 +138,10 @@ removeThemeObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +149,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;

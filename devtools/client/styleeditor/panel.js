@@ -93,6 +93,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -100,6 +104,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

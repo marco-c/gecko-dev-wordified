@@ -429,6 +429,10 @@ TableWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -438,6 +442,8 @@ shared
 widgets
 /
 TableWidget
+.
+js
 "
 )
 ;
