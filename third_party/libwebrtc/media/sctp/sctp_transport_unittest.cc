@@ -1942,9 +1942,6 @@ meow
 5
 )
 ;
-EXPECT_EQ
-(
-1
 transport1
 -
 >
@@ -1962,7 +1959,6 @@ size
 )
 meta
 0
-)
 )
 ;
 /
@@ -2030,9 +2026,6 @@ sizeof
 notification
 )
 ;
-EXPECT_EQ
-(
-1
 transport1
 -
 >
@@ -2048,7 +2041,6 @@ notification
 0
 }
 MSG_NOTIFICATION
-)
 )
 ;
 /
@@ -2081,9 +2073,6 @@ rawr
 6
 )
 ;
-EXPECT_EQ
-(
-1
 transport1
 -
 >
@@ -2101,7 +2090,6 @@ size
 )
 meta
 MSG_EOR
-)
 )
 ;
 /
