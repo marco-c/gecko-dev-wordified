@@ -236,7 +236,7 @@ std
 :
 make_unique
 <
-VCMCodecTimer
+CodecTimer
 >
 (
 )
@@ -361,7 +361,7 @@ std
 :
 make_unique
 <
-VCMCodecTimer
+CodecTimer
 >
 (
 )

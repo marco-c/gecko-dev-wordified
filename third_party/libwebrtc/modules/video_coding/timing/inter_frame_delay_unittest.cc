@@ -92,6 +92,8 @@ modules
 /
 video_coding
 /
+timing
+/
 inter_frame_delay
 .
 h
@@ -278,7 +280,7 @@ InterFrameDelayTest
 OldRtpTimestamp
 )
 {
-VCMInterFrameDelay
+InterFrameDelay
 inter_frame_delay
 ;
 EXPECT_THAT
@@ -326,7 +328,7 @@ InterFrameDelayTest
 NegativeWrapAroundIsSameAsOldRtpTimestamp
 )
 {
-VCMInterFrameDelay
+InterFrameDelay
 inter_frame_delay
 ;
 uint32_t
@@ -392,7 +394,7 @@ InterFrameDelayTest
 CorrectDelayForFrames
 )
 {
-VCMInterFrameDelay
+InterFrameDelay
 inter_frame_delay
 ;
 /
@@ -755,7 +757,7 @@ InterFrameDelayTest
 PositiveWrapAround
 )
 {
-VCMInterFrameDelay
+InterFrameDelay
 inter_frame_delay
 ;
 /
@@ -957,7 +959,7 @@ kHalfRtp
 /
 k90Khz
 ;
-VCMInterFrameDelay
+InterFrameDelay
 inter_frame_delay
 ;
 /
@@ -1340,7 +1342,7 @@ InterFrameDelayTest
 NegativeWrapAroundAfterPositiveWrapAround
 )
 {
-VCMInterFrameDelay
+InterFrameDelay
 inter_frame_delay
 ;
 /

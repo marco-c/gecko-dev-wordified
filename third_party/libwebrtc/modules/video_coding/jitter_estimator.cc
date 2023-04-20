@@ -191,6 +191,8 @@ modules
 /
 video_coding
 /
+timing
+/
 rtt_filter
 .
 h

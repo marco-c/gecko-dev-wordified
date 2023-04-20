@@ -145,6 +145,8 @@ modules
 /
 video_coding
 /
+timing
+/
 codec_timer
 .
 h
@@ -913,7 +915,7 @@ std
 :
 unique_ptr
 <
-VCMCodecTimer
+CodecTimer
 >
 codec_timer_
 RTC_GUARDED_BY

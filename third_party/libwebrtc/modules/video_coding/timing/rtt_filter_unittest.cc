@@ -92,6 +92,8 @@ modules
 /
 video_coding
 /
+timing
+/
 rtt_filter
 .
 h
@@ -134,7 +136,7 @@ RttFilterTest
 RttIsCapped
 )
 {
-VCMRttFilter
+RttFilter
 rtt_filter
 ;
 rtt_filter
@@ -221,7 +223,7 @@ RttFilterTest
 PositiveJumpDetection
 )
 {
-VCMRttFilter
+RttFilter
 rtt_filter
 ;
 rtt_filter
@@ -373,7 +375,7 @@ RttFilterTest
 NegativeJumpDetection
 )
 {
-VCMRttFilter
+RttFilter
 rtt_filter
 ;
 for
@@ -536,7 +538,7 @@ RttFilterTest
 JumpsResetByDirectionShift
 )
 {
-VCMRttFilter
+RttFilter
 rtt_filter
 ;
 for
@@ -743,7 +745,7 @@ RttFilterTest
 DriftDetection
 )
 {
-VCMRttFilter
+RttFilter
 rtt_filter
 ;
 /

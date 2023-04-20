@@ -162,6 +162,8 @@ modules
 /
 video_coding
 /
+timing
+/
 rtt_filter
 .
 h
@@ -1035,7 +1037,7 @@ kNackLimit
 uint32_t
 nack_count_
 ;
-VCMRttFilter
+RttFilter
 rtt_filter_
 ;
 /
