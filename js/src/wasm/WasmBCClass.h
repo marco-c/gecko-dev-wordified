@@ -14450,6 +14450,11 @@ emitDotI8x16I7x16AddS
 (
 )
 ;
+void
+emitDotBF16x8AddF32x4
+(
+)
+;
 #
 endif
 void

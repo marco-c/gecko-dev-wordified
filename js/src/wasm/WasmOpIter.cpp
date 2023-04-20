@@ -3766,6 +3766,12 @@ SimdOp
 :
 I32x4DotI8x16I7x16AddS
 :
+case
+SimdOp
+:
+:
+F32x4RelaxedDotBF16x8AddF32x4
+:
 WASM_SIMD_OP
 (
 OpKind

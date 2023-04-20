@@ -2948,11 +2948,7 @@ I16x8DotI8x16I7x16S
 I32x4DotI8x16I7x16AddS
 =
 0x113
-/
-/
-bfloat16
-dot
-product
+F32x4RelaxedDotBF16x8AddF32x4
 =
 0x114
 /
