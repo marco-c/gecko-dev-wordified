@@ -318,13 +318,9 @@ frames
 to
 /
 /
-|
 frame_processor
-|
 on
-|
 task_queue_
-|
 and
 reply
 with
@@ -334,9 +330,7 @@ passed
 /
 /
 into
-|
 on_frame_processed_callback
-|
 which
 is
 posted
@@ -344,13 +338,9 @@ back
 onto
 /
 /
-|
 task_queue_
-|
 .
-|
 task_queue_
-|
 is
 created
 using
@@ -358,9 +348,7 @@ the
 provided
 /
 /
-|
 task_queue_factory
-|
 .
 AsyncAudioProcessing
 (
@@ -380,9 +368,7 @@ on_frame_processed_callback
 /
 /
 Accepts
-|
 frame
-|
 for
 asynchronous
 processing
