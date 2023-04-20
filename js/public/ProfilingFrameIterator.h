@@ -1075,6 +1075,7 @@ Frame
 >
 getPhysicalFrameAndEntry
 (
+const
 js
 :
 :
@@ -1082,6 +1083,7 @@ jit
 :
 :
 JitcodeGlobalEntry
+*
 *
 entry
 )
