@@ -5422,12 +5422,6 @@ dtls_state_
 =
 state
 ;
-SignalDtlsState
-(
-this
-state
-)
-;
 SendDtlsState
 (
 this

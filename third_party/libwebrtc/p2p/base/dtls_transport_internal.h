@@ -777,17 +777,6 @@ ice_transport
 =
 0
 ;
-sigslot
-:
-:
-signal2
-<
-DtlsTransportInternal
-*
-DtlsTransportState
->
-SignalDtlsState
-;
 /
 /
 F
