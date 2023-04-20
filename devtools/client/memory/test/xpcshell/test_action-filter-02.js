@@ -54,6 +54,10 @@ censusState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +65,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -72,6 +78,10 @@ setFilterStringAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +91,8 @@ memory
 actions
 /
 filter
+.
+js
 "
 )
 ;
@@ -93,6 +105,10 @@ selectSnapshotAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +118,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -113,6 +131,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +144,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;

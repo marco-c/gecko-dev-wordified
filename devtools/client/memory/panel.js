@@ -67,6 +67,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +78,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ HeapAnalysesClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -90,6 +100,8 @@ shared
 heapsnapshot
 /
 HeapAnalysesClient
+.
+js
 "
 )
 ;

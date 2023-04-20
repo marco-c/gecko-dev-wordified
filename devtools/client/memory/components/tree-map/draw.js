@@ -186,6 +186,10 @@ colorCoarseType
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -203,6 +207,8 @@ color
 coarse
 -
 type
+.
+js
 "
 )
 ;
@@ -216,6 +222,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -223,6 +233,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;

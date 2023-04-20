@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -133,11 +151,17 @@ isSavedFrame
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -149,6 +173,10 @@ getSourceNames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +186,8 @@ shared
 source
 -
 utils
+.
+js
 "
 )
 ;
@@ -169,6 +199,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -176,6 +210,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;

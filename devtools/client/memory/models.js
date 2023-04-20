@@ -101,11 +101,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -117,6 +123,10 @@ MemoryFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +134,8 @@ client
 fronts
 /
 memory
+.
+js
 "
 )
 ;
@@ -133,6 +145,10 @@ HeapAnalysesClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -140,6 +156,8 @@ shared
 heapsnapshot
 /
 HeapAnalysesClient
+.
+js
 "
 )
 ;
@@ -149,6 +167,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +184,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -179,6 +203,10 @@ individualsState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +214,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

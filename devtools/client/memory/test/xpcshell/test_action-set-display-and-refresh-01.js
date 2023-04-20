@@ -83,6 +83,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +94,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -101,6 +107,10 @@ setCensusDisplayAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +122,8 @@ actions
 census
 -
 display
+.
+js
 "
 )
 ;
@@ -124,6 +136,10 @@ selectSnapshotAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +149,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -144,6 +162,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +175,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;

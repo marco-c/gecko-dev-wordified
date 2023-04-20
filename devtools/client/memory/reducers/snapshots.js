@@ -67,6 +67,10 @@ Immutable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ shared
 vendor
 /
 immutable
+.
+js
 "
 )
 ;
@@ -88,11 +94,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +134,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -127,6 +145,10 @@ DominatorTreeNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -134,6 +156,8 @@ shared
 heapsnapshot
 /
 DominatorTreeNode
+.
+js
 "
 )
 ;

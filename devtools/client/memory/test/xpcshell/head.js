@@ -165,6 +165,10 @@ expectState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -172,6 +176,8 @@ server
 actors
 /
 common
+.
+js
 "
 )
 ;
@@ -181,6 +187,10 @@ HeapSnapshotFileUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -188,6 +198,8 @@ shared
 heapsnapshot
 /
 HeapSnapshotFileUtils
+.
+js
 "
 )
 ;
@@ -197,6 +209,10 @@ HeapAnalysesClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -204,6 +220,8 @@ shared
 heapsnapshot
 /
 HeapAnalysesClient
+.
+js
 "
 )
 ;
@@ -237,6 +255,10 @@ Store
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -244,6 +266,8 @@ client
 memory
 /
 store
+.
+js
 "
 )
 ;
@@ -255,6 +279,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -262,6 +290,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;

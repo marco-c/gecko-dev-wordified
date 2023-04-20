@@ -179,11 +179,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -200,6 +206,10 @@ constants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +217,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -231,6 +243,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -238,6 +254,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -247,6 +265,10 @@ models
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -254,6 +276,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;
@@ -263,6 +287,10 @@ Immutable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -272,6 +300,8 @@ shared
 vendor
 /
 immutable
+.
+js
 "
 )
 ;
@@ -281,6 +311,10 @@ React
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -290,6 +324,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -299,6 +335,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -312,6 +352,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -321,6 +363,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -332,6 +378,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -350,6 +398,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -359,6 +411,8 @@ memory
 components
 /
 Heap
+.
+js
 "
 )
 )
@@ -371,6 +425,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -380,6 +438,8 @@ memory
 components
 /
 CensusTreeItem
+.
+js
 "
 )
 )
@@ -392,6 +452,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -401,6 +465,8 @@ memory
 components
 /
 DominatorTree
+.
+js
 "
 )
 )
@@ -413,6 +479,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -422,6 +492,8 @@ memory
 components
 /
 DominatorTreeItem
+.
+js
 "
 )
 )
@@ -434,6 +506,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -443,6 +519,8 @@ memory
 components
 /
 ShortestPaths
+.
+js
 "
 )
 )
@@ -455,6 +533,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -464,6 +546,8 @@ memory
 components
 /
 TreeMap
+.
+js
 "
 )
 )
@@ -476,6 +560,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -485,6 +573,8 @@ memory
 components
 /
 SnapshotListItem
+.
+js
 "
 )
 )
@@ -497,6 +587,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -506,6 +600,8 @@ memory
 components
 /
 List
+.
+js
 "
 )
 )
@@ -518,6 +614,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -527,6 +627,8 @@ memory
 components
 /
 Toolbar
+.
+js
 "
 )
 )

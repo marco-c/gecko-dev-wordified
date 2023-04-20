@@ -116,6 +116,10 @@ states
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +127,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -134,6 +140,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +151,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -981,6 +993,10 @@ dispatch
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -992,6 +1008,8 @@ actions
 census
 -
 display
+.
+js
 "
 )
 .

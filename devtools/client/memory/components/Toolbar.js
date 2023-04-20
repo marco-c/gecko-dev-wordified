@@ -69,11 +69,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +104,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -103,6 +115,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +132,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -125,6 +143,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +160,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -149,6 +173,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +184,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -165,6 +195,10 @@ models
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -172,6 +206,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;
@@ -183,6 +219,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +230,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

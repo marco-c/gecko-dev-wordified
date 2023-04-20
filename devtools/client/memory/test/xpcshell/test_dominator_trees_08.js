@@ -71,6 +71,10 @@ treeMapState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ setLabelDisplayAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ actions
 label
 -
 display
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +136,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;
@@ -131,6 +149,10 @@ takeSnapshotAndCensus
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +162,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;

@@ -95,11 +95,17 @@ isSet
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -114,6 +120,10 @@ dominatorTreeIsComputed
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +131,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -140,6 +152,10 @@ individualsState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +163,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -156,6 +174,10 @@ view
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +187,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;
@@ -174,6 +198,10 @@ refresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +211,8 @@ memory
 actions
 /
 refresh
+.
+js
 "
 )
 ;
@@ -192,6 +222,10 @@ diffing
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -201,6 +235,8 @@ memory
 actions
 /
 diffing
+.
+js
 "
 )
 ;
@@ -210,6 +246,10 @@ TaskCache
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -221,6 +261,8 @@ actions
 task
 -
 cache
+.
+js
 "
 )
 ;

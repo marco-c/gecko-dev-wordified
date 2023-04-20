@@ -78,6 +78,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -96,6 +102,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +117,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -118,6 +130,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -129,6 +145,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -140,6 +158,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ client
 memory
 /
 app
+.
+js
 "
 )
 )
@@ -157,6 +181,10 @@ Store
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +192,8 @@ client
 memory
 /
 store
+.
+js
 "
 )
 ;
@@ -175,11 +205,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -191,6 +227,10 @@ updateMemoryFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +240,8 @@ memory
 actions
 /
 front
+.
+js
 "
 )
 ;

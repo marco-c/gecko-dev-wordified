@@ -69,11 +69,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +102,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

@@ -183,11 +183,17 @@ debounce
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 debounce
+.
+js
 "
 )
 ;
@@ -197,6 +203,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -204,6 +214,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

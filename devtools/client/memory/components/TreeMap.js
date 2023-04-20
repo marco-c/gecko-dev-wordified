@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ treeMapModel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +134,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;
@@ -127,6 +145,10 @@ startVisualization
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +162,8 @@ tree
 map
 /
 start
+.
+js
 "
 )
 ;

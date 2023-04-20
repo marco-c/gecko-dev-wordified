@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +134,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -127,6 +145,10 @@ models
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +156,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;

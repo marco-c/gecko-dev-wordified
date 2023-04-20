@@ -1450,6 +1450,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1457,6 +1461,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -1509,6 +1515,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1516,6 +1526,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -1569,6 +1581,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1576,6 +1592,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -1701,6 +1719,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1708,6 +1730,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -1757,6 +1781,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1764,6 +1792,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -1841,6 +1871,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1848,6 +1882,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;

@@ -40,6 +40,10 @@ drawBox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +57,8 @@ tree
 map
 /
 draw
+.
+js
 "
 )
 ;

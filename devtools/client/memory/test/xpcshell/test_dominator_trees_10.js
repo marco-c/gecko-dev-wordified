@@ -64,6 +64,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -71,6 +75,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ focusDominatorTreeNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +102,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -103,6 +115,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +128,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;
@@ -123,6 +141,10 @@ setLabelDisplayAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +156,8 @@ actions
 label
 -
 display
+.
+js
 "
 )
 ;

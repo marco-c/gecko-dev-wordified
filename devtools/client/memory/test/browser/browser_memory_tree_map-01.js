@@ -76,6 +76,10 @@ CanvasUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +95,8 @@ map
 canvas
 -
 utils
+.
+js
 "
 )
 ;

@@ -71,11 +71,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +107,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ createSnapshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +133,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -130,6 +148,10 @@ readSnapshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +161,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;

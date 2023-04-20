@@ -54,6 +54,10 @@ toggleRecordingAllocationStacks
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +67,8 @@ memory
 actions
 /
 allocations
+.
+js
 "
 )
 ;

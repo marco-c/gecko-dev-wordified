@@ -66,6 +66,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -73,6 +77,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ fetchImmediatelyDominated
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +104,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -103,6 +115,10 @@ DominatorTreeLazyChildren
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +132,8 @@ tree
 lazy
 -
 children
+.
+js
 "
 )
 ;
@@ -127,6 +145,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +158,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;

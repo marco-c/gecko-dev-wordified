@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -135,11 +153,17 @@ safeErrorString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -151,6 +175,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -160,6 +188,8 @@ memory
 components
 /
 Census
+.
+js
 "
 )
 )
@@ -172,6 +202,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +215,8 @@ memory
 components
 /
 CensusHeader
+.
+js
 "
 )
 )
@@ -193,6 +229,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -202,6 +242,8 @@ memory
 components
 /
 DominatorTree
+.
+js
 "
 )
 )
@@ -214,6 +256,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -223,6 +269,8 @@ memory
 components
 /
 DominatorTreeHeader
+.
+js
 "
 )
 )
@@ -235,6 +283,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -244,6 +296,8 @@ memory
 components
 /
 TreeMap
+.
+js
 "
 )
 )
@@ -256,6 +310,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -265,6 +323,8 @@ shared
 components
 /
 HSplitBox
+.
+js
 "
 )
 )
@@ -277,6 +337,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -286,6 +350,8 @@ memory
 components
 /
 Individuals
+.
+js
 "
 )
 )
@@ -298,6 +364,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -307,6 +377,8 @@ memory
 components
 /
 IndividualsHeader
+.
+js
 "
 )
 )
@@ -319,6 +391,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -328,6 +404,8 @@ memory
 components
 /
 ShortestPaths
+.
+js
 "
 )
 )
@@ -341,6 +419,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -348,6 +430,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -367,6 +451,10 @@ individualsState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -374,6 +462,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -383,6 +473,10 @@ models
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -390,6 +484,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;

@@ -69,11 +69,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +102,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -103,6 +115,10 @@ refreshDiffing
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +128,8 @@ memory
 actions
 /
 diffing
+.
+js
 "
 )
 ;
@@ -121,6 +139,10 @@ snapshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +152,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;

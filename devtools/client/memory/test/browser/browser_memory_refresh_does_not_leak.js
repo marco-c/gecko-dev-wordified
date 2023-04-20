@@ -102,6 +102,10 @@ getLabelAndShallowSize
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -109,6 +113,8 @@ shared
 heapsnapshot
 /
 DominatorTreeNode
+.
+js
 "
 )
 ;
