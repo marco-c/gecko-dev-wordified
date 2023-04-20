@@ -748,6 +748,8 @@ congruent_to
     
 alias_set
     
+might_alias
+    
 possibly_calls
     
 compute_range
@@ -1626,6 +1628,31 @@ n
 )
     
 if
+might_alias
+:
+        
+code
++
+=
+"
+AliasType
+mightAlias
+(
+const
+MDefinition
+*
+store
+)
+const
+override
+;
+\
+\
+\
+n
+"
+    
+if
 folds_to
 :
         
@@ -2445,6 +2472,30 @@ alias_set
 str
 )
             
+might_alias
+=
+op
+.
+get
+(
+"
+might_alias
+"
+None
+)
+            
+assert
+might_alias
+is
+None
+or
+might_alias
+=
+=
+"
+custom
+"
+            
 possibly_calls
 =
 op
@@ -2564,6 +2615,8 @@ folds_to
 congruent_to
                 
 alias_set
+                
+might_alias
                 
 possibly_calls
                 
