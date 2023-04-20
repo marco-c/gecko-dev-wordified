@@ -336,7 +336,6 @@ thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 callee
 msg

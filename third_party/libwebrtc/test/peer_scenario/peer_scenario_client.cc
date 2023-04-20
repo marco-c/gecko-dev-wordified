@@ -2441,7 +2441,6 @@ signaling_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 =
 ]
@@ -2645,7 +2644,6 @@ signaling_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 =
 ]

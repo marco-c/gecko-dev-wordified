@@ -344,7 +344,6 @@ thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 sample

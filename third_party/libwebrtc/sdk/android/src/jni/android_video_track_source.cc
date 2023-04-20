@@ -450,7 +450,6 @@ signaling_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 ]

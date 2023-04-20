@@ -605,7 +605,6 @@ background_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 current_thread
@@ -632,7 +631,6 @@ current_thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 operation_complete_event
@@ -788,7 +786,6 @@ operations_chain_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 event_ptr
@@ -860,7 +857,6 @@ operations_chain_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 &
@@ -930,7 +926,6 @@ operations_chain_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 &
@@ -1008,7 +1003,6 @@ operations_chain_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 event_ptr
@@ -1089,7 +1083,6 @@ operations_chain_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 operation_complete_event_ptr
@@ -1190,7 +1183,6 @@ operations_chain_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 unblock_operation_event

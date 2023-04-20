@@ -8666,7 +8666,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 collector
 sctp_transport_name
@@ -9186,7 +9185,6 @@ signaling_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 collector
 ]
