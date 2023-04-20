@@ -2666,8 +2666,6 @@ kPassOneMediaPacket
 return
 DROP_PACKET
 ;
-break
-;
 case
 kPassOneMediaPacket
 :

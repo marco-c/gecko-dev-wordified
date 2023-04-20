@@ -477,8 +477,6 @@ ContentType
 :
 kRealtimeVideo
 ;
-break
-;
 case
 VideoStreamConfig
 :
