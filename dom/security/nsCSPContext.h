@@ -685,6 +685,8 @@ const
 nsAString
 &
 aSourceFile
+bool
+aReportSample
 const
 nsAString
 &
@@ -888,10 +890,12 @@ const
 nsAString
 &
 aNonce
+bool
+aReportSample
 const
 nsAString
 &
-aContent
+aSample
 const
 nsAString
 &
