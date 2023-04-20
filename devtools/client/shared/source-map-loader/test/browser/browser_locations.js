@@ -76,6 +76,8 @@ const
 originalLocation
 =
 await
+gSourceMapLoader
+.
 getOriginalLocation
 (
 generatedLocation
@@ -129,6 +131,8 @@ const
 originalLocation2
 =
 await
+gSourceMapLoader
+.
 getOriginalLocation
 (
 originalLocation
@@ -149,6 +153,8 @@ itself
 "
 )
 ;
+gSourceMapLoader
+.
 clearSourceMaps
 (
 )
@@ -157,6 +163,8 @@ const
 originalLocation3
 =
 await
+gSourceMapLoader
+.
 getOriginalLocation
 (
 generatedLocation
@@ -259,6 +267,8 @@ const
 generatedLocation
 =
 await
+gSourceMapLoader
+.
 getGeneratedLocation
 (
 originalLocation
@@ -294,6 +304,8 @@ location
 )
 ;
 {
+gSourceMapLoader
+.
 clearSourceMaps
 (
 )
@@ -302,6 +314,8 @@ const
 secondGeneratedLocation
 =
 await
+gSourceMapLoader
+.
 getGeneratedLocation
 (
 originalLocation
@@ -456,6 +470,8 @@ const
 oLoc
 =
 await
+gSourceMapLoader
+.
 getOriginalLocation
 (
 genLoc1
@@ -465,6 +481,8 @@ const
 genLoc2
 =
 await
+gSourceMapLoader
+.
 getGeneratedLocation
 (
 oLoc
@@ -592,6 +610,8 @@ const
 oLoc
 =
 await
+gSourceMapLoader
+.
 getOriginalLocation
 (
 genLoc1
@@ -601,6 +621,8 @@ const
 genLoc2
 =
 await
+gSourceMapLoader
+.
 getGeneratedLocation
 (
 oLoc
