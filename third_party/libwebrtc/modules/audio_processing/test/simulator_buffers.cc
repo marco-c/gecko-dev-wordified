@@ -299,7 +299,6 @@ StreamConfig
 (
 sample_rate_hz
 num_channels
-false
 )
 ;
 buffer

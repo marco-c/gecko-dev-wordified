@@ -1774,13 +1774,6 @@ stream_config
 (
 kSampleRateHz
 kStereo
-/
-*
-has_keyboard
-=
-*
-/
-false
 )
 ;
 /

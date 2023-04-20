@@ -289,7 +289,6 @@ capture_config
 (
 sample_rate_hz
 num_channels
-false
 )
 ;
 AudioBuffer

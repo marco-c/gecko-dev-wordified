@@ -570,7 +570,6 @@ stream_config
 (
 16000
 num_channels
-false
 )
 ;
 HighPassFilter
@@ -973,7 +972,6 @@ stream_config_stereo
 (
 16000
 2
-false
 )
 ;
 const
@@ -982,7 +980,6 @@ stream_config_mono
 (
 16000
 1
-false
 )
 ;
 std
@@ -1102,7 +1099,6 @@ stream_config_stereo
 (
 16000
 2
-false
 )
 ;
 const
@@ -1111,7 +1107,6 @@ stream_config_mono
 (
 16000
 1
-false
 )
 ;
 std

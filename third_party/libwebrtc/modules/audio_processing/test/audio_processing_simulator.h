@@ -278,13 +278,6 @@ StreamConfig
 (
 sample_rate_hz
 num_channels
-/
-*
-has_keyboard
-=
-*
-/
-false
 )
 ;
 data

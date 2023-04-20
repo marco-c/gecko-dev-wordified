@@ -440,13 +440,6 @@ stream_config
 (
 kNumSampleRateHz
 kNumChannels
-/
-*
-has_keyboard
-=
-*
-/
-false
 )
 ;
 EXPECT_CALL
@@ -576,13 +569,6 @@ stream_config
 (
 kNumSampleRateHz
 kNumChannels
-/
-*
-has_keyboard
-=
-*
-/
-false
 )
 ;
 EXPECT_CALL
