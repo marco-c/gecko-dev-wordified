@@ -5820,6 +5820,11 @@ VideoColorSpace
 webidl
 "
 "
+VideoFrame
+.
+webidl
+"
+"
 VideoPlaybackQuality
 .
 webidl
