@@ -724,6 +724,11 @@ resetRules
 )
 {
 }
+resetDomainTelemetryRecord
+(
+)
+{
+}
 }
 ;
 /
