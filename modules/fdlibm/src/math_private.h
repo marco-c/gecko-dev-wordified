@@ -268,10 +268,6 @@ typedef
 float
 __float_t
 ;
-typedef
-__float_t
-float_t
-;
 /
 *
 *
