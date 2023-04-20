@@ -398,6 +398,17 @@ override
 )
 )
 ;
+MOCK_METHOD
+(
+RtpHeaderExtensions
+GetNegotiatedRtpHeaderExtensions
+(
+)
+(
+const
+)
+)
+;
 }
 ;
 }
