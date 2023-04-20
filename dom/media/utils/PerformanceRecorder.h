@@ -241,8 +241,12 @@ Unimplemented
 AudioDestinationNode
 Camera
 Canvas
+ChannelDecoder
+HLSDecoder
+MediaCapabilities
 MediaElementDecoder
 MediaElementStream
+MSEDecoder
 RTCRtpReceiver
 Screen
 Tab
