@@ -3058,6 +3058,13 @@ FindFirstScrollable
 horizontalComponent
 &
 allowedScrollDirections
+OverscrollHandoffChain
+:
+:
+IncludeOverscroll
+:
+:
+No
 )
 ;
 return

@@ -1021,6 +1021,8 @@ aInput
 ScrollDirections
 *
 aOutAllowedScrollDirections
+IncludeOverscroll
+aIncludeOverscroll
 )
 const
 {
@@ -1186,6 +1188,12 @@ StaticPrefs
 :
 apz_overscroll_enabled
 (
+)
+&
+&
+bool
+(
+aIncludeOverscroll
 )
 &
 &
