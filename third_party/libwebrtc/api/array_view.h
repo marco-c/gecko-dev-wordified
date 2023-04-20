@@ -826,7 +826,7 @@ const
 reference
 .
 namespace
-impl
+array_view_internal
 {
 /
 /
@@ -1079,7 +1079,7 @@ class
 ArrayViewBase
 <
 T
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -1175,7 +1175,7 @@ size_
 /
 /
 namespace
-impl
+array_view_internal
 template
 <
 typename
@@ -1186,7 +1186,7 @@ std
 ptrdiff_t
 Size
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -1196,7 +1196,7 @@ ArrayView
 final
 :
 public
-impl
+array_view_internal
 :
 :
 ArrayViewBase
@@ -1245,7 +1245,7 @@ size_t
 size
 )
 :
-impl
+array_view_internal
 :
 :
 ArrayViewBase
@@ -1406,7 +1406,7 @@ Size
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -1472,7 +1472,7 @@ N
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -1864,7 +1864,7 @@ enable_if
 Size
 !
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -1943,7 +1943,7 @@ enable_if
 Size
 !
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -2199,7 +2199,7 @@ enable_if
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -2259,7 +2259,7 @@ enable_if
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
