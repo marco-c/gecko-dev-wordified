@@ -319,6 +319,13 @@ GetTemporaryFolderCFURLRef
 (
 )
 ;
+CFURLRef
+GetProductDirectoryCFURLRef
+(
+bool
+aLocal
+)
+;
 }
 /
 /
