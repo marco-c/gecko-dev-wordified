@@ -7280,6 +7280,10 @@ a
 rules
 :
 StrongRuleNode
+original_computed_values
+:
+&
+ComputedValues
 )
 -
 >
@@ -7338,6 +7342,15 @@ rules
 visited_rules
 :
 None
+flags
+:
+original_computed_values
+.
+flags
+.
+for_cascade_inputs
+(
+)
 }
 ;
 /
@@ -7794,6 +7807,8 @@ resolve_rules_for_element_with_context
 element
 context
 without_animations_rules
+&
+computed_values
 )
 .
 into
@@ -8082,6 +8097,8 @@ resolve_rules_for_element_with_context
 element
 context
 with_animations_rules
+&
+computed_values
 )
 .
 into

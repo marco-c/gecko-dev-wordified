@@ -1845,6 +1845,15 @@ visited_rules
 cloned
 (
 )
+flags
+:
+base_style
+.
+flags
+.
+for_cascade_inputs
+(
+)
 }
 ;
 resolver
