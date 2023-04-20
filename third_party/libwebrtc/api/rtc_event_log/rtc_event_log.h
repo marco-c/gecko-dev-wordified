@@ -202,6 +202,7 @@ EncodingType
 {
 Legacy
 NewFormat
+ProtoFree
 }
 ;
 virtual
