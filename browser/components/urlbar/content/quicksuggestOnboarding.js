@@ -78,7 +78,7 @@ resource
 /
 modules
 /
-UrlbarQuickSuggest
+QuickSuggest
 .
 sys
 .
