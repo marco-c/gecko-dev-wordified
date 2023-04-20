@@ -1914,6 +1914,3 @@ stream
 )
 ;
 }
-#
-undef
-CALL_THREAD_KILLER
