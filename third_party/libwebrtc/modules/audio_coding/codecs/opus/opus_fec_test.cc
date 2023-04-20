@@ -108,15 +108,6 @@ h
 #
 include
 "
-rtc_base
-/
-format_macros
-.
-h
-"
-#
-include
-"
 test
 /
 gtest
@@ -367,9 +358,7 @@ printf
 "
 Coding
 %
-"
-RTC_PRIuS
-"
+zu
 channel
 signal
 at

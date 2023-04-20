@@ -133,15 +133,6 @@ h
 #
 include
 "
-rtc_base
-/
-format_macros
-.
-h
-"
-#
-include
-"
 test
 /
 gtest
@@ -1042,9 +1033,7 @@ at
 delay
 =
 %
-"
-RTC_PRIuS
-"
+zu
 \
 n
 "

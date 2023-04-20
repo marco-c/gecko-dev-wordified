@@ -143,15 +143,6 @@ include
 "
 rtc_base
 /
-format_macros
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 logging
 .
 h
@@ -1706,9 +1697,7 @@ RTCP
 packets
 :
 %
-"
-RTC_PRIuS
-"
+zu
 \
 n
 "
@@ -1789,9 +1778,7 @@ SSRC
 %
 08x
 %
-"
-RTC_PRIuS
-"
+zu
 packets
 pt
 =

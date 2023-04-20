@@ -112,15 +112,6 @@ h
 #
 include
 "
-rtc_base
-/
-format_macros
-.
-h
-"
-#
-include
-"
 test
 /
 gtest
@@ -702,9 +693,7 @@ kHz
 -
 sampled
 %
-"
-RTC_PRIuS
-"
+zu
 -
 channel
 audio
