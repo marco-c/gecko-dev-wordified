@@ -95,10 +95,6 @@ py
 NOQA
 :
 E501
-from
-__future__
-import
-unicode_literals
 import
 difflib
 import

@@ -85,10 +85,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-print_function
 import
 os
 from

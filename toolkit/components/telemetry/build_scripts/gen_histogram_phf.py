@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-print_function
-from
 mozparsers
 .
 shared_telemetry_utils

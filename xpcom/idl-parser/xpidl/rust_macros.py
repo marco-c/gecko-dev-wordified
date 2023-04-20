@@ -81,10 +81,6 @@ specified
 "
 "
 from
-__future__
-import
-absolute_import
-from
 xpidl
 import
 rust

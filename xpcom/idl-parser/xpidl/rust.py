@@ -420,10 +420,6 @@ methods
 here
 currently
 .
-from
-__future__
-import
-absolute_import
 import
 os
 .

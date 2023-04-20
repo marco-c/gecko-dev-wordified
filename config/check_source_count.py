@@ -121,11 +121,6 @@ check_source_count
 .
 py
 .
-from
-__future__
-import
-absolute_import
-print_function
 import
 re
 import
