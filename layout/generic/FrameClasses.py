@@ -808,6 +808,17 @@ LEAF
 Frame
 (
 "
+nsPopupSetFrame
+"
+"
+PopupSet
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 nsProgressFrame
 "
 "
