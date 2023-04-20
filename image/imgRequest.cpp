@@ -2340,9 +2340,16 @@ FLAG_LAST_PART_COMPLETE
 mRequest
 -
 >
-Cancel
+CancelWithReason
 (
 aStatus
+"
+imgRequest
+:
+:
+ContinueCancel
+"
+_ns
 )
 ;
 }

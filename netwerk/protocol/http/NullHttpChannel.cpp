@@ -1977,10 +1977,7 @@ aReason
 )
 {
 return
-SetCanceledReasonImpl
-(
-aReason
-)
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
@@ -1995,10 +1992,7 @@ aReason
 )
 {
 return
-GetCanceledReasonImpl
-(
-aReason
-)
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
@@ -2016,11 +2010,7 @@ aReason
 )
 {
 return
-CancelWithReasonImpl
-(
-aStatus
-aReason
-)
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
