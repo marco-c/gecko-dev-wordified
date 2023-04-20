@@ -2875,14 +2875,12 @@ APZ
 to
 communicate
 to
-the
-macOS
 widget
 code
 whether
-/
-/
 the
+/
+/
 overscroll
 -
 behavior
