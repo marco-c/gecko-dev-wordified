@@ -12381,12 +12381,12 @@ NativeObject
 const
 {
 return
-getClass
+shape
 (
 )
 -
 >
-isNativeObject
+isNative
 (
 )
 ;
