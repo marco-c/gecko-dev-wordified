@@ -246,16 +246,6 @@ interfaces
 /
 /
 XPCOM
-service
-getters
-.
-pub
-mod
-services
-;
-/
-/
-XPCOM
 component
 getters
 .

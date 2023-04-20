@@ -112,6 +112,13 @@ functional
 #
 include
 "
+mozIThirdPartyUtil
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
