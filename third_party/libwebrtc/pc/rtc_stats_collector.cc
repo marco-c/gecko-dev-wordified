@@ -1852,7 +1852,8 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-nullptr
+{
+}
 ;
 }
 const
