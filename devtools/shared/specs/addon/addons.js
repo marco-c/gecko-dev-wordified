@@ -108,6 +108,15 @@ Arg
 string
 "
 )
+openDevTools
+:
+Arg
+(
+1
+"
+boolean
+"
+)
 }
 response
 :
