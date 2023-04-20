@@ -336,6 +336,7 @@ kTestFrameRate
 1000
 1000
 56
+true
 }
 ;
 codec_settings
@@ -363,6 +364,7 @@ kTestFrameRate
 1000
 1000
 56
+true
 }
 ;
 codec_settings
@@ -390,6 +392,7 @@ kTestFrameRate
 1000
 1000
 56
+true
 }
 ;
 codec_settings
