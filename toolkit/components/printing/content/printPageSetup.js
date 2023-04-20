@@ -3680,7 +3680,7 @@ platforms
 ?
 gPrintService
 .
-savePrintSettingsToPrefs
+maybeSavePrintSettingsToPrefs
 (
 gPrintSettings
 flags

@@ -552,11 +552,11 @@ call
 nsPrintSettingsService
 :
 :
-SavePrintSettingsToPrefs
+MaybeSavePrintSettingsToPrefs
 here
+/
+/
 since
-/
-/
 it
 '
 s
@@ -573,9 +573,9 @@ we
 should
 move
 that
+/
+/
 call
-/
-/
 here
 for
 consistency
