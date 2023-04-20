@@ -115,10 +115,10 @@ class
 nsIAsyncOutputStream
 ;
 class
-nsISocketTransport
+nsISSLSocketControl
 ;
 class
-nsITLSSocketControl
+nsISocketTransport
 ;
 namespace
 mozilla
@@ -1040,7 +1040,7 @@ virtual
 void
 GetTLSSocketControl
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 *
 )
@@ -1731,7 +1731,7 @@ result
 void
 GetTLSSocketControl
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 *
 result
