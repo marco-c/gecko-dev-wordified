@@ -920,7 +920,7 @@ contentType
 mGlobal
 -
 >
-CrossOriginIsolated
+GetRTPCallerType
 (
 )
 aRv
@@ -1452,7 +1452,7 @@ Native
 global
 -
 >
-CrossOriginIsolated
+GetRTPCallerType
 (
 )
 aRv
@@ -1469,7 +1469,7 @@ InitializeBlob
 global
 -
 >
-CrossOriginIsolated
+GetRTPCallerType
 (
 )
 aRv
