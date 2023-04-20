@@ -3019,9 +3019,6 @@ join
 )
 ;
 }
-#
-ifndef
-DISABLE_LIBAAUDIO_DLOPEN
 if
 (
 ctx
@@ -3039,8 +3036,6 @@ libaaudio
 )
 ;
 }
-#
-endif
 delete
 ctx
 ;

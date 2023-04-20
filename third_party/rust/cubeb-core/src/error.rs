@@ -130,7 +130,6 @@ Clone
 Copy
 Debug
 PartialEq
-Eq
 )
 ]
 pub

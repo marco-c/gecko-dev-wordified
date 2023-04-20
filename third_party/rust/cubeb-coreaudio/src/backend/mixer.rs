@@ -1203,7 +1203,7 @@ cubeb_log
 !
 (
 "
-Creating
+Create
 a
 mixer
 with
@@ -1271,7 +1271,7 @@ channels
 and
 layout
 .
-Applying
+Apply
 default
 layout
 instead

@@ -698,7 +698,10 @@ position
 ;
 unsafe
 {
-call
+let
+_
+=
+try_call
 !
 (
 ffi
@@ -716,7 +719,6 @@ mut
 position
 )
 )
-?
 ;
 }
 Ok
@@ -788,7 +790,10 @@ latency
 ;
 unsafe
 {
-call
+let
+_
+=
+try_call
 !
 (
 ffi
@@ -806,7 +811,6 @@ mut
 latency
 )
 )
-?
 ;
 }
 Ok
@@ -890,7 +894,10 @@ latency
 ;
 unsafe
 {
-call
+let
+_
+=
+try_call
 !
 (
 ffi
@@ -908,7 +915,6 @@ mut
 latency
 )
 )
-?
 ;
 }
 Ok
@@ -1063,7 +1069,10 @@ null_mut
 ;
 unsafe
 {
-call
+let
+_
+=
+try_call
 !
 (
 ffi
@@ -1081,7 +1090,6 @@ mut
 device
 )
 )
-?
 ;
 Ok
 (

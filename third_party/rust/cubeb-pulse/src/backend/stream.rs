@@ -2092,7 +2092,7 @@ return
 }
 readable_size
 }
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -2427,7 +2427,7 @@ mut
 c_void
 )
 {
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -2606,7 +2606,7 @@ as
 usize
 )
 ;
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -3562,7 +3562,7 @@ get_buffer_attr
 (
 )
 ;
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -3625,7 +3625,7 @@ get_buffer_attr
 (
 )
 ;
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -4173,7 +4173,7 @@ place
 wait
 to
 finish
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -4215,7 +4215,7 @@ wait
 )
 ;
 }
-cubeb_alog
+cubeb_log
 !
 (
 "
@@ -6606,10 +6606,7 @@ clippy
 "
 allow
 (
-clippy
-:
-:
-cognitive_complexity
+cyclomatic_complexity
 )
 )
 ]
@@ -6658,7 +6655,7 @@ mut
 c_void
 )
 {
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -6888,7 +6885,7 @@ frame_size
 0
 )
 ;
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -7377,7 +7374,7 @@ i64
 }
 else
 {
-cubeb_alogv
+cubeb_logv
 !
 (
 "
@@ -7422,7 +7419,7 @@ Relative
 if
 should_drain
 {
-cubeb_alogv
+cubeb_logv
 !
 (
 "

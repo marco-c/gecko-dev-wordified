@@ -52,7 +52,7 @@ mod
 ffi_types
 ;
 mod
-call
+try_call
 ;
 mod
 builders
