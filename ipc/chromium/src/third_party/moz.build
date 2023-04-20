@@ -288,6 +288,7 @@ signal
 .
 c
 '
+#
 '
 libevent
 /
@@ -295,6 +296,10 @@ strlcpy
 .
 c
 '
+#
+Unused
+file
+.
 ]
 SOURCES
 +
