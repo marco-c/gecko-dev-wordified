@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+MozPromise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ThreadSafety
 .
 h
