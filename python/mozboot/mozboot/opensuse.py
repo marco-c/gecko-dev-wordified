@@ -188,12 +188,6 @@ devel
 "
         
 "
-libuuid
--
-devel
-"
-        
-"
 clang
 -
 devel
