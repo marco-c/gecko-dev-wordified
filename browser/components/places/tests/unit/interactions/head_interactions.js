@@ -701,7 +701,7 @@ expected
 *
 param
 {
-function
+Function
 }
 task
 *
@@ -911,7 +911,7 @@ topic
 *
 param
 {
-function
+Function
 }
 task
 *
@@ -2789,6 +2789,7 @@ on
 enabled
 features
 .
+*
 *
 param
 {

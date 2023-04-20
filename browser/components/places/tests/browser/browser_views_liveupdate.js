@@ -1706,7 +1706,7 @@ sidebar
 *
 param
 {
-function
+Function
 }
 validator
 *
@@ -1723,7 +1723,7 @@ element
 *
 returns
 {
-array
+Array
 }
 *
 [
@@ -1837,7 +1837,7 @@ search
 *
 param
 {
-function
+Function
 }
 validator
 *
@@ -1854,7 +1854,7 @@ element
 *
 returns
 {
-array
+Array
 }
 *
 [
@@ -2121,7 +2121,7 @@ search
 *
 param
 {
-function
+Function
 }
 validator
 *
@@ -2138,7 +2138,7 @@ element
 *
 returns
 {
-array
+Array
 }
 *
 [
@@ -2407,7 +2407,7 @@ search
 *
 param
 {
-function
+Function
 }
 validator
 *
@@ -2424,7 +2424,7 @@ element
 *
 returns
 {
-array
+Array
 }
 *
 [
@@ -2864,7 +2864,6 @@ param
 string
 }
 folderGuid
-:
 *
 item
 guid
@@ -2878,7 +2877,20 @@ changed
 *
 returns
 {
-array
+Array
+<
+"
+toolbar
+"
+|
+"
+menu
+"
+|
+"
+sidebar
+"
+>
 }
 *
 subset

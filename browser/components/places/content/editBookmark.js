@@ -1659,6 +1659,8 @@ string
 ]
 }
 [
+aInfo
+.
 hiddenRows
 ]
 *

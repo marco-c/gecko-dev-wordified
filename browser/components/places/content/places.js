@@ -721,7 +721,7 @@ deprecated
 *
 param
 {
-array
+Array
 |
 string
 |
@@ -2032,6 +2032,7 @@ left
 pane
 .
 *
+*
 param
 resetSearchBox
 *
@@ -2426,6 +2427,7 @@ s
 properties
 .
 *
+*
 param
 {
 object
@@ -2568,6 +2570,7 @@ related
 to
 selection
 .
+*
 *
 param
 {
@@ -2798,6 +2801,7 @@ Handle
 openFlatContainer
 events
 .
+*
 *
 param
 {
@@ -5181,6 +5185,7 @@ active
 collection
 .
 *
+*
 param
 {
 string
@@ -5609,6 +5614,7 @@ current
 collection
 .
 *
+*
 param
 {
 string
@@ -5970,6 +5976,7 @@ content
 tree
 .
 *
+*
 param
 {
 string
@@ -6176,6 +6183,7 @@ from
 a
 menupopup
 .
+*
 *
 param
 {
@@ -6569,6 +6577,7 @@ a
 list
 of
 columns
+*
 *
 param
 {
@@ -7436,6 +7445,7 @@ tree
 column
 .
 *
+*
 param
 {
 object
@@ -7542,6 +7552,7 @@ that
 was
 sorted
 .
+*
 *
 returns
 {
@@ -7670,6 +7681,7 @@ the
 specified
 column
 .
+*
 *
 param
 {
@@ -8414,6 +8426,7 @@ the
 left
 pane
 .
+*
 *
 param
 {

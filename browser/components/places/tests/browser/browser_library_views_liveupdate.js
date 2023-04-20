@@ -1146,7 +1146,7 @@ in
 *
 returns
 {
-array
+Array
 }
 *
 [

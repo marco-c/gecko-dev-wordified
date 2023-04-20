@@ -986,6 +986,7 @@ true
 *
 overriding
 *
+*
 param
 {
 object
@@ -4132,7 +4133,7 @@ items
 *
 param
 {
-array
+Array
 }
 aGuids
 *

@@ -503,7 +503,7 @@ times
 *
 param
 {
-function
+Function
 }
 promiseFn
 *
@@ -568,8 +568,6 @@ returns
 {
 Promise
 }
-*
-resolves
 to
 the
 asynchronous
@@ -578,7 +576,7 @@ being
 polled
 .
 *
-rejects
+throws
 if
 the
 asynchronous

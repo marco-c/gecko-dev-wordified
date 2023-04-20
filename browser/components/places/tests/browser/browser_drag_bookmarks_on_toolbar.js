@@ -179,7 +179,7 @@ drag
 *
 param
 {
-array
+Array
 }
 aExpectedDragData
 *

@@ -203,7 +203,7 @@ default
 .
 *
 *
-typedef
+type
 {
 number
 }
@@ -243,7 +243,8 @@ unused
 rows
 .
 *
-typedef
+*
+type
 {
 number
 }
@@ -351,7 +352,7 @@ overflow
 .
 *
 *
-typedef
+type
 {
 Map
 <
@@ -378,7 +379,8 @@ if
 any
 .
 *
-typedef
+*
+type
 {
 number
 }
@@ -1598,7 +1600,7 @@ connection
 .
 *
 *
-typedef
+type
 {
 mozIStorageConnection
 }

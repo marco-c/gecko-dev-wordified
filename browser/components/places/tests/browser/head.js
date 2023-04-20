@@ -545,7 +545,7 @@ waitForClipboard
 *
 param
 {
-function
+Function
 }
 aPopulateClipboardFn
 *
@@ -903,8 +903,6 @@ returns
 {
 Promise
 }
-*
-resolves
 Any
 animation
 associated
@@ -914,14 +912,10 @@ the
 toolbar
 '
 s
+*
 visibility
 has
-*
 finished
-.
-*
-rejects
-Never
 .
 *
 /
@@ -1163,7 +1157,7 @@ task
 *
 param
 {
-function
+Function
 }
 openFn
 *
@@ -1177,7 +1171,7 @@ open
 *
 param
 {
-function
+Function
 }
 taskFn
 *
@@ -1193,7 +1187,7 @@ open
 *
 param
 {
-function
+Function
 }
 closeFn
 *
@@ -2344,7 +2338,7 @@ history
 *
 param
 {
-function
+Function
 }
 taskFn
 *
@@ -2592,7 +2586,7 @@ open
 *
 param
 {
-function
+Function
 }
 taskFn
 *
