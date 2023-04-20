@@ -100,6 +100,13 @@ pageInfo
 .
 docShell
 .
+QueryInterface
+(
+Ci
+.
+nsILoadContext
+)
+.
 usePrivateBrowsing
 false
 "
@@ -195,6 +202,13 @@ strictEqual
 privatePageInfo
 .
 docShell
+.
+QueryInterface
+(
+Ci
+.
+nsILoadContext
+)
 .
 usePrivateBrowsing
 true
