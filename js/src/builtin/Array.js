@@ -5799,6 +5799,8 @@ false
 }
 ;
 }
+else
+{
 /
 /
 Step
@@ -5826,15 +5828,6 @@ Else
 (
 Reordered
 )
-if
-(
-iteratorRecord
-=
-=
-=
-undefined
-)
-{
 /
 /
 Step
