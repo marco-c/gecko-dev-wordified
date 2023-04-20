@@ -3639,7 +3639,7 @@ getpocket
 .
 com
 /
-ff_signup
+signup
 ?
 utm_source
 =
