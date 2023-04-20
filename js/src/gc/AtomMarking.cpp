@@ -1769,7 +1769,7 @@ markedAtoms
 (
 )
 .
-getBit
+readonlyThreadsafeGetBit
 (
 bit
 )
