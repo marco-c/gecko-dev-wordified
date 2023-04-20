@@ -394,9 +394,7 @@ test
 if
 (
 startNode
-&
-&
-startNode
+?
 .
 length
 )

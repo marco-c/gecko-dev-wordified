@@ -278,11 +278,7 @@ if
 browserWindowEnv
 .
 browserjsScripts
-&
-&
-browserWindowEnv
-.
-browserjsScripts
+?
 .
 includes
 (
