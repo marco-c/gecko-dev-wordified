@@ -10990,7 +10990,7 @@ initialPrincipal
 NullPrincipal
 :
 :
-CreateWithInheritedAttributes
+Create
 (
 target
 -
@@ -10998,12 +10998,6 @@ target
 OriginAttributesRef
 (
 )
-/
-*
-isFirstParty
-*
-/
-false
 )
 ;
 WindowGlobalInit
