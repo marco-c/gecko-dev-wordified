@@ -77,11 +77,17 @@ DevToolsUtils
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyImporter
+defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -452,6 +458,8 @@ file
 const
 policy
 =
+lazy
+.
 ExtensionParent
 .
 WebExtensionPolicy
@@ -687,6 +695,8 @@ extractFiles
 const
 policy
 =
+lazy
+.
 ExtensionParent
 .
 WebExtensionPolicy
@@ -1031,6 +1041,8 @@ getManifestFromExtension
 const
 policy
 =
+lazy
+.
 ExtensionParent
 .
 WebExtensionPolicy

@@ -205,11 +205,17 @@ context
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyImporter
+defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -228,11 +234,11 @@ jsm
 "
 )
 ;
-loader
+ChromeUtils
 .
-lazyImporter
+defineModuleGetter
 (
-this
+lazy
 "
 ExtensionParent
 "
@@ -550,6 +556,8 @@ bind
 this
 )
 ;
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -572,6 +580,8 @@ this
 const
 policy
 =
+lazy
+.
 ExtensionParent
 .
 WebExtensionPolicy
@@ -584,6 +594,8 @@ addonId
 const
 persistentBackgroundScript
 =
+lazy
+.
 ExtensionParent
 .
 DebugUtils
@@ -795,6 +807,8 @@ spec
 undefined
 warnings
 :
+lazy
+.
 ExtensionParent
 .
 DebugUtils
@@ -1044,6 +1058,8 @@ this
 _browser
 =
 await
+lazy
+.
 ExtensionParent
 .
 DebugUtils
@@ -1056,6 +1072,8 @@ this
 const
 policy
 =
+lazy
+.
 ExtensionParent
 .
 WebExtensionPolicy
@@ -1370,6 +1388,8 @@ terminateBackgroundScript
 )
 {
 await
+lazy
+.
 ExtensionParent
 .
 DebugUtils
@@ -1660,6 +1680,8 @@ _getBackgroundScriptStatus
 const
 isRunning
 =
+lazy
+.
 ExtensionParent
 .
 DebugUtils
@@ -1894,6 +1916,8 @@ destroy
 (
 )
 {
+lazy
+.
 AddonManager
 .
 removeAddonListener
@@ -1950,6 +1974,8 @@ _childActorID
 }
 )
 ;
+lazy
+.
 ExtensionParent
 .
 DebugUtils

@@ -1381,16 +1381,6 @@ lazyGetter
 ;
 this
 .
-lazyImporter
-=
-globals
-.
-loader
-.
-lazyImporter
-;
-this
-.
 lazyServiceGetter
 =
 globals
