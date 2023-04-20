@@ -10343,6 +10343,15 @@ stack
 empty
 (
 )
+&
+&
+!
+module
+-
+>
+hadEvaluationError
+(
+)
 )
 {
 module
