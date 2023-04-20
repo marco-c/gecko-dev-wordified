@@ -18073,7 +18073,7 @@ AppWindow
 SizeModeChanged
 (
 nsSizeMode
-sizeMode
+aSizeMode
 )
 {
 /
@@ -18132,13 +18132,13 @@ restored
 .
 if
 (
-sizeMode
+aSizeMode
 =
 =
 nsSizeMode_Maximized
 |
 |
-sizeMode
+aSizeMode
 =
 =
 nsSizeMode_Fullscreen
@@ -18162,6 +18162,7 @@ nsIAppWindow
 :
 normalZ
 )
+{
 SetZLevel
 (
 nsIAppWindow
@@ -18171,14 +18172,7 @@ normalZ
 )
 ;
 }
-mWindow
--
->
-SetSizeMode
-(
-sizeMode
-)
-;
+}
 RecomputeBrowsingContextVisibility
 (
 )
@@ -18268,7 +18262,7 @@ object
 .
 if
 (
-sizeMode
+aSizeMode
 =
 =
 nsSizeMode_Fullscreen
@@ -18286,7 +18280,7 @@ true
 else
 if
 (
-sizeMode
+aSizeMode
 !
 =
 nsSizeMode_Minimized
@@ -18437,7 +18431,7 @@ GetPresContext
 >
 SizeModeChanged
 (
-sizeMode
+aSizeMode
 )
 ;
 }
