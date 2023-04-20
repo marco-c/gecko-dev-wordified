@@ -3497,9 +3497,6 @@ js
 :
 ParserAtomToResumeKind
 (
-JSContext
-*
-cx
 frontend
 :
 :
