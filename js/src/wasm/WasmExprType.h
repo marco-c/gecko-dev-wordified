@@ -244,7 +244,7 @@ PointerKind2
 using
 PackedRepr
 =
-uintptr_t
+uint64_t
 ;
 static_assert
 (
@@ -257,7 +257,7 @@ PackedTypeCode
 :
 :
 PackedRepr
-uint32_t
+uint64_t
 >
 (
 )
@@ -849,7 +849,10 @@ ResultType
 (
 Kind
 kind
-uintptr_t
+Tagged
+:
+:
+PackedRepr
 imm
 )
 :
@@ -994,7 +997,10 @@ return
 ResultType
 (
 EmptyKind
-uintptr_t
+Tagged
+:
+:
+PackedRepr
 (
 0
 )
@@ -1560,7 +1566,10 @@ BlockType
 (
 Kind
 kind
-uintptr_t
+Tagged
+:
+:
+PackedRepr
 imm
 )
 :
@@ -1706,7 +1715,10 @@ return
 BlockType
 (
 VoidToVoidKind
-uintptr_t
+Tagged
+:
+:
+PackedRepr
 (
 0
 )

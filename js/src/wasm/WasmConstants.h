@@ -705,7 +705,7 @@ represent
 ref
 null
 ?
-typeindex
+T
 )
 whether
 or
@@ -728,7 +728,7 @@ NullableRef
 static
 constexpr
 TypeCode
-AbstractReferenceTypeIndexCode
+AbstractTypeRefCode
 =
 TypeCode
 :
