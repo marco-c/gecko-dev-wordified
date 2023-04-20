@@ -20370,7 +20370,7 @@ delete
 "
 clear
 "
-1
+0
 ]
 )
 ;
@@ -20625,11 +20625,6 @@ length
 size
 getter
 length
-should
-have
-the
-right
-length
 )
 ;
 assert_equals
@@ -20645,9 +20640,6 @@ size
 "
 size
 getter
-have
-the
-right
 name
 )
 ;
@@ -20784,7 +20776,7 @@ delete
 "
 clear
 "
-1
+0
 ]
 )
 ;
@@ -21039,11 +21031,6 @@ length
 size
 getter
 length
-should
-have
-the
-right
-length
 )
 ;
 assert_equals
@@ -21054,13 +21041,11 @@ get
 .
 name
 "
+get
 size
 "
 size
 getter
-have
-the
-right
 name
 )
 ;
