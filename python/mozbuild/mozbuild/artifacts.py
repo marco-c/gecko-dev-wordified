@@ -10197,6 +10197,9 @@ processed_filename
             
 )
             
+try
+:
+                
 self
 .
 _artifact_job
@@ -10206,6 +10209,41 @@ process_artifact
 filename
 processed_filename
 )
+            
+except
+Exception
+as
+e
+:
+                
+#
+Delete
+the
+partial
+output
+of
+failed
+processing
+.
+                
+try
+:
+                    
+os
+.
+remove
+(
+processed_filename
+)
+                
+except
+FileNotFoundError
+:
+                    
+pass
+                
+raise
+e
         
 self
 .
