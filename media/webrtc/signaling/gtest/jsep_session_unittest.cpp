@@ -58813,7 +58813,7 @@ HasAddTrackMagic
 )
 )
 ;
-ASSERT_FALSE
+ASSERT_TRUE
 (
 IsNull
 (
