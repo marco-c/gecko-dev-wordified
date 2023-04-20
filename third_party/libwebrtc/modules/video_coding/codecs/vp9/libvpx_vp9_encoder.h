@@ -1323,7 +1323,7 @@ deblock_mode
 0
 ;
 bool
-denoiser_on
+allow_denoising
 =
 true
 ;
