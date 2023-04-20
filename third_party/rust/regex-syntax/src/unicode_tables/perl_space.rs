@@ -22,10 +22,13 @@ generate
 property
 -
 bool
-/
-tmp
-/
 ucd
+-
+15
+.
+0
+.
+0
 -
 -
 chars
@@ -40,7 +43,7 @@ whitespace
 Unicode
 version
 :
-14
+15
 .
 0
 .
@@ -57,7 +60,7 @@ generate
 .
 2
 .
-11
+14
 is
 available
 on

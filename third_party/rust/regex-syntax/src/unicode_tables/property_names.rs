@@ -22,10 +22,13 @@ generate
 property
 -
 names
-/
-tmp
-/
 ucd
+-
+15
+.
+0
+.
+0
 /
 /
 /
@@ -33,7 +36,7 @@ ucd
 Unicode
 version
 :
-14
+15
 .
 0
 .
@@ -50,7 +53,7 @@ generate
 .
 2
 .
-11
+14
 is
 available
 on
