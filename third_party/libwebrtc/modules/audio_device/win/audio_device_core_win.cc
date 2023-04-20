@@ -33305,6 +33305,11 @@ return
 1
 ;
 }
+SAFE_RELEASE
+(
+pCollection
+)
+;
 return
 0
 ;
