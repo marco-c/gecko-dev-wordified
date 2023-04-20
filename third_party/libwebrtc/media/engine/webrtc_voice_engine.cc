@@ -15395,8 +15395,7 @@ network_route
 {
 RTC_DCHECK_RUN_ON
 (
-&
-network_thread_checker_
+worker_thread_
 )
 ;
 call_
@@ -15720,8 +15719,7 @@ ready
 {
 RTC_DCHECK_RUN_ON
 (
-&
-network_thread_checker_
+worker_thread_
 )
 ;
 RTC_LOG
