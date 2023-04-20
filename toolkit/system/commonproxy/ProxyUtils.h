@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_toolkit_system_osxproxy_ProxyUtils_h
+mozilla_toolkit_system_commonproxy_ProxyUtils_h
 #
 define
-mozilla_toolkit_system_osxproxy_ProxyUtils_h
+mozilla_toolkit_system_commonproxy_ProxyUtils_h
 #
 include
 "
@@ -147,4 +147,4 @@ mozilla
 endif
 /
 /
-mozilla_toolkit_system_osxproxy_ProxyUtils_h
+mozilla_toolkit_system_commonproxy_ProxyUtils_h

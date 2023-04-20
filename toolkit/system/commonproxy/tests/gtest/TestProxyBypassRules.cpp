@@ -142,7 +142,7 @@ system
 ;
 TEST
 (
-OSXProxy
+CommonProxy
 TestProxyBypassRules
 )
 {
@@ -298,7 +298,7 @@ _ns
 }
 TEST
 (
-OSXProxy
+CommonProxy
 TestProxyBypassRulesIPv4
 )
 {
@@ -494,7 +494,7 @@ _ns
 }
 TEST
 (
-OSXProxy
+CommonProxy
 TestProxyBypassRulesIPv6
 )
 {

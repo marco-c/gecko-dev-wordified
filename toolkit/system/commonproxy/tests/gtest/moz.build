@@ -100,12 +100,11 @@ LOCAL_INCLUDES
 =
 [
 "
+.
+.
 /
-toolkit
-/
-system
-/
-windowsproxy
+.
+.
 "
 ]
 FINAL_LIBRARY
