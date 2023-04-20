@@ -351,6 +351,9 @@ cpuCores
 nsCString
 cpuVendor
 ;
+nsCString
+cpuName
+;
 int32_t
 cpuFamily
 =
