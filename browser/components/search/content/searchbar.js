@@ -390,6 +390,11 @@ go
 -
 container
 "
+align
+=
+"
+center
+"
 >
 <
 image
