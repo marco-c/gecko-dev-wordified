@@ -333,7 +333,7 @@ e
 .
 g
 .
-PacedSender
+RtpPacketPacer
 )
 .
 Furthermore
@@ -358,7 +358,7 @@ handled
 externally
 via
 the
-PacedSendingController
+PacingController
 :
 :
 PacketSender
