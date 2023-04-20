@@ -20045,10 +20045,7 @@ marker
 .
 markAndTraverse
 <
-MarkingOptions
-:
-:
-None
+NormalMarkingOptions
 >
 (
 obj
@@ -20151,10 +20148,7 @@ marker
 .
 processMarkStackTop
 <
-MarkingOptions
-:
-:
-None
+NormalMarkingOptions
 >
 (
 unlimited
