@@ -144,6 +144,13 @@ defined
 (
 WEBRTC_USE_PIPEWIRE
 )
+&
+&
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 #
 include
 "
@@ -292,6 +299,13 @@ if
 defined
 (
 WEBRTC_USE_PIPEWIRE
+)
+&
+&
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
 )
 if
 (
