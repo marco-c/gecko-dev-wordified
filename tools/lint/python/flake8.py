@@ -853,19 +853,19 @@ lintargs
     
 from
 flake8
+import
+__version__
+as
+flake8_version
+    
+from
+flake8
 .
 main
 .
 application
 import
 Application
-    
-from
-flake8
-import
-__version__
-as
-flake8_version
     
 log
 =

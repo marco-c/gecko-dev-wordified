@@ -143,9 +143,9 @@ logging
 import
 os
 import
-requests
-import
 sys
+import
+requests
 import
 urlparse
 log

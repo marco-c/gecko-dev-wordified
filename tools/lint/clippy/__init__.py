@@ -64,12 +64,6 @@ signal
 import
 six
 from
-packaging
-.
-version
-import
-Version
-from
 mozboot
 .
 util
@@ -93,6 +87,12 @@ from
 mozprocess
 import
 ProcessHandler
+from
+packaging
+.
+version
+import
+Version
 CLIPPY_WRONG_VERSION
 =
 "

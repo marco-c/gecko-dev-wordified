@@ -69,13 +69,13 @@ import
 absolute_import
 print_function
 import
-subprocess
+logging
 import
 os
 import
-time
+subprocess
 import
-logging
+time
 import
 six
 log

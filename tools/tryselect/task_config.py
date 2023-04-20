@@ -92,8 +92,6 @@ json
 import
 os
 import
-six
-import
 subprocess
 import
 sys
@@ -106,8 +104,8 @@ abstractproperty
 from
 argparse
 import
-Action
 SUPPRESS
+Action
 from
 textwrap
 import
@@ -118,6 +116,8 @@ mozpack
 path
 as
 mozpath
+import
+six
 from
 mozbuild
 .

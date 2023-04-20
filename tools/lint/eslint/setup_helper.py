@@ -106,12 +106,6 @@ subprocess
 import
 sys
 from
-packaging
-.
-version
-import
-Version
-from
 filecmp
 import
 dircmp
@@ -122,13 +116,13 @@ nodeutil
 import
 (
     
-find_node_executable
-    
-find_npm_executable
+NODE_MIN_VERSION
     
 NPM_MIN_VERSION
     
-NODE_MIN_VERSION
+find_node_executable
+    
+find_npm_executable
 )
 from
 mozfile
@@ -138,6 +132,12 @@ import
 remove
 as
 mozfileremove
+from
+packaging
+.
+version
+import
+Version
 NODE_MACHING_VERSION_NOT_FOUND_MESSAGE
 =
 "

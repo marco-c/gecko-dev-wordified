@@ -37,8 +37,8 @@ zero
 from
 __future__
 import
-print_function
 absolute_import
+print_function
 import
 argparse
 import
@@ -50,8 +50,6 @@ datetime
 import
 os
 import
-requests
-import
 subprocess
 import
 sys
@@ -59,6 +57,8 @@ import
 urllib
 import
 zipfile
+import
+requests
 if
 sys
 .

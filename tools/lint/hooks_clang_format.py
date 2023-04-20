@@ -66,13 +66,13 @@ import
 os
 import
 subprocess
+import
+sys
 from
 subprocess
 import
-check_output
 CalledProcessError
-import
-sys
+check_output
 here
 =
 os
@@ -178,8 +178,8 @@ EXTRA_PATHS
 from
 mozversioncontrol
 import
-get_repository_object
 InvalidRepoPath
+get_repository_object
 def
 run_clang_format
 (

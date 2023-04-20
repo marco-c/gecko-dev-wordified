@@ -68,8 +68,8 @@ from
 .
 push
 import
-push_to_try
 history_path
+push_to_try
 class
 AgainParser
 (

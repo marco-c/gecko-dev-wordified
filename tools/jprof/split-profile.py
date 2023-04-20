@@ -550,13 +550,13 @@ import
 absolute_import
 print_function
 import
-sys
-import
-subprocess
-import
 os
 .
 path
+import
+subprocess
+import
+sys
 if
 len
 (

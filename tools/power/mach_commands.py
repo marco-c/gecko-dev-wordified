@@ -56,8 +56,8 @@ MPL
 from
 __future__
 import
-print_function
 absolute_import
+print_function
 from
 distutils
 .
@@ -69,12 +69,8 @@ mach
 .
 decorators
 import
-(
-    
 Command
-    
 CommandArgument
-)
 def
 is_osx_10_10_or_greater
 (

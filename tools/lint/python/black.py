@@ -70,6 +70,12 @@ import
 subprocess
 import
 sys
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozfile
 import
@@ -84,12 +90,6 @@ mozlint
 pathutils
 import
 expand_exclusions
-import
-mozpack
-.
-path
-as
-mozpath
 from
 mozprocess
 import
