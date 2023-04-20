@@ -11318,7 +11318,7 @@ mem
 .
 gc_heap_growth_factor
 "
-40
+50
 )
 ;
 /

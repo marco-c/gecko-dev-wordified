@@ -3627,7 +3627,7 @@ const
 double
 HeapGrowthFactor
 =
-40
+50
 .
 0
 ;
