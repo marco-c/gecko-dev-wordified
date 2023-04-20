@@ -5903,7 +5903,7 @@ mScriptUnconstrainedSize
 =
 new_size
 .
-size
+computed_size
 {
 return
 ;

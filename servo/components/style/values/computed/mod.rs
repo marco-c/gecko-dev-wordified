@@ -2502,6 +2502,10 @@ resolve
 (
 self
 )
+.
+used_size
+(
+)
 ;
 let
 style
