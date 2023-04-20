@@ -105,15 +105,12 @@ file
 \
 brief
 C
--
-compatible
 API
-for
-localized
+:
+Localized
 number
 range
 formatting
-.
 *
 *
 This

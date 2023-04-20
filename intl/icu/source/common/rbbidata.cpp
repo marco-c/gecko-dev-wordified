@@ -507,7 +507,7 @@ status
 ;
 fDontFreeData
 =
-TRUE
+true
 ;
 }
 RBBIDataWrapper
@@ -963,7 +963,7 @@ fRefCount
 ;
 fDontFreeData
 =
-TRUE
+true
 ;
 }
 void
@@ -1069,7 +1069,7 @@ bytes
 .
 fDontFreeData
 =
-FALSE
+false
 ;
 if
 (

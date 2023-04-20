@@ -801,7 +801,7 @@ point
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -5669,7 +5669,7 @@ UCASE_NONE
 )
 {
 return
-TRUE
+true
 ;
 /
 /
@@ -5682,7 +5682,7 @@ letter
 else
 {
 return
-FALSE
+false
 ;
 /
 /
@@ -5696,7 +5696,7 @@ ignorable
 }
 }
 return
-FALSE
+false
 ;
 /
 /
@@ -6168,7 +6168,7 @@ rules
 UBool
 addTonos
 =
-FALSE
+false
 ;
 if
 (
@@ -6268,7 +6268,7 @@ else
 {
 addTonos
 =
-TRUE
+true
 ;
 }
 }
@@ -6362,7 +6362,7 @@ U_OMIT_UNCHANGED_TEXT
 {
 change
 =
-TRUE
+true
 ;
 /
 /

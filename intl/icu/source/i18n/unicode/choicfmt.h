@@ -4061,6 +4061,8 @@ string
 ChoiceFormat
 (
 )
+=
+delete
 ;
 /
 /

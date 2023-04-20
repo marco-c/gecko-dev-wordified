@@ -2481,7 +2481,7 @@ pv
 >
 isCompacted
 =
-TRUE
+true
 ;
 rows
 =
@@ -2552,7 +2552,7 @@ columns
 4
 upvec_compareRows
 pv
-FALSE
+false
 pErrorCode
 )
 ;
@@ -3450,7 +3450,7 @@ end
 uint32_t
 )
 rowIndex
-TRUE
+true
 pErrorCode
 )
 ;

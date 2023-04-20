@@ -613,7 +613,7 @@ unitIndex
 UBool
 hasValue
 =
-FALSE
+false
 ;
 int32_t
 value
@@ -663,7 +663,7 @@ return
 writeValueAndFinal
 (
 value
-TRUE
+true
 )
 ;
 /
@@ -675,7 +675,7 @@ node
 }
 hasValue
 =
-TRUE
+true
 ;
 }
 /
@@ -1603,7 +1603,7 @@ NULL
 UBool
 hasValue
 =
-FALSE
+false
 ;
 int32_t
 value
@@ -1656,7 +1656,7 @@ errorCode
 }
 hasValue
 =
-TRUE
+true
 ;
 }
 Node
@@ -3005,7 +3005,7 @@ builder
 writeValueAndFinal
 (
 value
-TRUE
+true
 )
 ;
 }
@@ -3230,7 +3230,7 @@ builder
 writeValueAndFinal
 (
 value
-FALSE
+false
 )
 ;
 }
@@ -3776,7 +3776,7 @@ values
 [
 unitNumber
 ]
-TRUE
+true
 )
 ;
 }
@@ -3869,7 +3869,7 @@ unitNumber
 ;
 isFinal
 =
-TRUE
+true
 ;
 }
 else
@@ -3920,7 +3920,7 @@ getOffset
 ;
 isFinal
 =
-FALSE
+false
 ;
 }
 builder

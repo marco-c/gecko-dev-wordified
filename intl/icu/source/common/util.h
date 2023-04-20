@@ -2406,6 +2406,8 @@ instantiate
 ICU_Utility
 (
 )
+=
+delete
 ;
 }
 ;

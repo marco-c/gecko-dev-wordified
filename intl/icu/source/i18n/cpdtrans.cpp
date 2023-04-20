@@ -741,7 +741,7 @@ init
 (
 id
 direction
-TRUE
+true
 status
 )
 ;
@@ -818,7 +818,7 @@ init
 (
 id
 UTRANS_FORWARD
-TRUE
+true
 status
 )
 ;
@@ -882,7 +882,7 @@ init
 (
 list
 UTRANS_FORWARD
-FALSE
+false
 status
 )
 ;
@@ -980,7 +980,7 @@ init
 (
 list
 UTRANS_FORWARD
-FALSE
+false
 status
 )
 ;
@@ -1034,7 +1034,7 @@ init
 (
 list
 UTRANS_FORWARD
-FALSE
+false
 status
 )
 ;
@@ -1148,7 +1148,7 @@ entry
 param
 fixReverseID
 if
-TRUE
+true
 then
 reconstruct
 the
@@ -1397,7 +1397,7 @@ REVERSE
 param
 fixReverseID
 if
-TRUE
+true
 then
 reconstruct
 the
@@ -2017,7 +2017,7 @@ i
 UBool
 failed
 =
-FALSE
+false
 ;
 if
 (
@@ -2160,7 +2160,7 @@ NULL
 {
 failed
 =
-TRUE
+true
 ;
 break
 ;
@@ -2424,7 +2424,7 @@ i
 UBool
 failed
 =
-FALSE
+false
 ;
 for
 (
@@ -2469,7 +2469,7 @@ NULL
 {
 failed
 =
-TRUE
+true
 ;
 break
 ;

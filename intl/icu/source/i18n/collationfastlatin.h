@@ -2127,6 +2127,8 @@ private
 CollationFastLatin
 (
 )
+=
+delete
 ;
 /
 /

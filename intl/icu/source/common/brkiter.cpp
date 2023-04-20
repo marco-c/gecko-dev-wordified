@@ -2525,8 +2525,8 @@ icu
 :
 UInitOnce
 gInitOnceBrkiter
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 icu
@@ -2587,7 +2587,7 @@ reset
 #
 endif
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -2879,7 +2879,7 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 }
 return
-FALSE
+false
 ;
 }
 /

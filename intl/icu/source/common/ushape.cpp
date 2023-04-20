@@ -4137,7 +4137,7 @@ R
 /
 lastStrongWasAL
 =
-FALSE
+false
 ;
 break
 ;
@@ -4151,7 +4151,7 @@ AL
 /
 lastStrongWasAL
 =
-TRUE
+true
 ;
 break
 ;
@@ -4279,7 +4279,7 @@ R
 /
 lastStrongWasAL
 =
-FALSE
+false
 ;
 break
 ;
@@ -4293,7 +4293,7 @@ AL
 /
 lastStrongWasAL
 =
-TRUE
+true
 ;
 break
 ;
@@ -12799,7 +12799,7 @@ U_SHAPE_TEXT_DIRECTION_MASK
 =
 U_SHAPE_TEXT_DIRECTION_LOGICAL
 )
-FALSE
+false
 )
 ;
 break
@@ -12825,7 +12825,7 @@ U_SHAPE_TEXT_DIRECTION_MASK
 =
 U_SHAPE_TEXT_DIRECTION_LOGICAL
 )
-TRUE
+true
 )
 ;
 break

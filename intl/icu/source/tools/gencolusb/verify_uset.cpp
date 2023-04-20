@@ -158,7 +158,7 @@ const
 UnicodeString
 unsafeBackwardPattern
 (
-FALSE
+false
 collunsafe_pattern
 collunsafe_len
 )

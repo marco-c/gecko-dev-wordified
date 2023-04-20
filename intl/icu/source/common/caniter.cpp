@@ -1095,7 +1095,7 @@ reset
 {
 done
 =
-FALSE
+false
 ;
 for
 (
@@ -1271,7 +1271,7 @@ i
 {
 done
 =
-TRUE
+true
 ;
 break
 ;
@@ -1409,7 +1409,7 @@ return
 }
 done
 =
-FALSE
+false
 ;
 cleanPieces
 (
@@ -3963,7 +3963,7 @@ segmentPos
 UBool
 ok
 =
-FALSE
+false
 ;
 UChar32
 cp
@@ -4079,7 +4079,7 @@ i
 ;
 ok
 =
-TRUE
+true
 ;
 break
 ;

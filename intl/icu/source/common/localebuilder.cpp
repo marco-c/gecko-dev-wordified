@@ -134,6 +134,7 @@ UPRV_ISDIGIT
 c
 )
 )
+constexpr
 const
 char
 *
@@ -3044,7 +3045,7 @@ older
 error
 code
 return
-TRUE
+true
 ;
 }
 outErrorCode

@@ -1583,7 +1583,7 @@ i
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -2068,7 +2068,7 @@ cloneArrayIfNeeded
 (
 length
 length
-FALSE
+false
 )
 )
 {
@@ -2267,7 +2267,7 @@ U_NOEXCEPT
 copyFieldsFrom
 (
 src
-TRUE
+true
 )
 ;
 }
@@ -2708,7 +2708,7 @@ fLengthAndFlags
 kShortString
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -2879,7 +2879,7 @@ fLengthAndFlags
 kLongString
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -2908,7 +2908,7 @@ fCapacity
 0
 ;
 return
-FALSE
+false
 ;
 }
 /
@@ -3549,7 +3549,7 @@ break
 }
 while
 (
-TRUE
+true
 )
 ;
 return
@@ -3681,7 +3681,7 @@ return
 copyFrom
 (
 src
-TRUE
+true
 )
 ;
 }
@@ -4272,7 +4272,7 @@ releaseArray
 copyFieldsFrom
 (
 src
-TRUE
+true
 )
 ;
 return
@@ -4560,7 +4560,7 @@ copyFieldsFrom
 (
 *
 this
-FALSE
+false
 )
 ;
 this
@@ -4569,7 +4569,7 @@ this
 copyFieldsFrom
 (
 other
-FALSE
+false
 )
 ;
 other
@@ -4577,7 +4577,7 @@ other
 copyFieldsFrom
 (
 temp
-FALSE
+false
 )
 ;
 /
@@ -5595,8 +5595,8 @@ srcStart
 :
 NULL
 srcLength
-FALSE
-TRUE
+false
+true
 )
 ;
 /
@@ -6449,7 +6449,7 @@ string
 return
 UnicodeString
 (
-FALSE
+false
 array
 +
 start
@@ -6755,7 +6755,7 @@ stackBuffer
 UBool
 utf8IsOwned
 =
-FALSE
+false
 ;
 char
 *
@@ -6853,7 +6853,7 @@ NULL
 {
 utf8IsOwned
 =
-TRUE
+true
 ;
 errorCode
 =
@@ -8099,7 +8099,7 @@ if
 constructed
 with
 (
-TRUE
+true
 s
 length
 )
@@ -9044,7 +9044,7 @@ count
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -9147,7 +9147,7 @@ _length
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -9719,7 +9719,7 @@ cloneArrayIfNeeded
 (
 doCopyArray
 =
-FALSE
+false
 )
 may
 change
@@ -9827,7 +9827,7 @@ getGrowCapacity
 (
 newLength
 )
-FALSE
+false
 &
 bufferToDelete
 )
@@ -10641,7 +10641,7 @@ hasMetaData
 const
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -10662,7 +10662,7 @@ hasMetaData
 const
 {
 return
-FALSE
+false
 ;
 }
 UnicodeString
@@ -10773,7 +10773,7 @@ swap
 UBool
 hasSupplementary
 =
-FALSE
+false
 ;
 /
 /
@@ -11036,7 +11036,7 @@ targetLength
 )
 {
 return
-FALSE
+false
 ;
 }
 else
@@ -11103,7 +11103,7 @@ targetLength
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -11142,7 +11142,7 @@ targetLength
 )
 {
 return
-FALSE
+false
 ;
 }
 else
@@ -11190,7 +11190,7 @@ targetLength
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -11788,7 +11788,7 @@ the
 string
 by
 returning
-FALSE
+false
 here
 /
 /
@@ -11815,7 +11815,7 @@ isWritable
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -11861,7 +11861,7 @@ small
 .
 *
 Return
-FALSE
+false
 if
 memory
 could
@@ -12417,12 +12417,12 @@ setToBogus
 )
 ;
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 /
@@ -12539,7 +12539,7 @@ cLength
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -12858,7 +12858,7 @@ str2
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -12876,7 +12876,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 return

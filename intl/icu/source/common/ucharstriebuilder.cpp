@@ -1140,7 +1140,7 @@ result
 .
 setTo
 (
-FALSE
+false
 uchars
 +
 (
@@ -1254,7 +1254,7 @@ UCharsTrieElement
 compareElementStrings
 &
 strings
-FALSE
+false
 /
 /
 need
@@ -2061,7 +2061,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 /
 /
@@ -2145,7 +2145,7 @@ ucharsCapacity
 0
 ;
 return
-FALSE
+false
 ;
 }
 u_memcpy
@@ -2182,7 +2182,7 @@ newCapacity
 ;
 }
 return
-TRUE
+true
 ;
 }
 int32_t

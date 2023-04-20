@@ -246,9 +246,11 @@ NUM_INCLUSIONS
 =
 UPROPS_SRC_COUNT
 +
+(
 UCHAR_INT_LIMIT
 -
 UCHAR_INT_START
+)
 ;
 struct
 Inclusion
@@ -261,8 +263,8 @@ nullptr
 ;
 UInitOnce
 fInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 }
 ;
@@ -669,7 +671,7 @@ nullptr
 ;
 }
 return
-TRUE
+true
 ;
 }
 void
@@ -1339,9 +1341,11 @@ inclIndex
 =
 UPROPS_SRC_COUNT
 +
+(
 prop
 -
 UCHAR_INT_START
+)
 ;
 U_ASSERT
 (
@@ -1628,9 +1632,11 @@ inclIndex
 =
 UPROPS_SRC_COUNT
 +
+(
 prop
 -
 UCHAR_INT_START
+)
 ;
 Inclusion
 &

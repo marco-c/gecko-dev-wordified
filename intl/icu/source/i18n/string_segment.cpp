@@ -350,7 +350,7 @@ efficiency
 return
 UnicodeString
 (
-FALSE
+false
 fStr
 .
 getBuffer
@@ -768,7 +768,7 @@ cp1
 u_foldCase
 (
 cp1
-TRUE
+true
 )
 ;
 cp2
@@ -776,7 +776,7 @@ cp2
 u_foldCase
 (
 cp2
-TRUE
+true
 )
 ;
 return

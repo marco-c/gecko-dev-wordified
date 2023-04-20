@@ -719,7 +719,7 @@ limit
 UnicodeString
 str
 (
-FALSE
+false
 OPEN_DELIM
 OPEN_DELIM_LEN
 )

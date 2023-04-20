@@ -4044,7 +4044,7 @@ pErrorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -4141,7 +4141,7 @@ normalized
 .
 setTo
 (
-FALSE
+false
 str
 .
 getBuffer
@@ -4171,12 +4171,12 @@ pErrorCode
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 U_CAPI

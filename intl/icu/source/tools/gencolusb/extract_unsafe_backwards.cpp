@@ -532,7 +532,7 @@ set
 toPattern
 (
 pattern
-FALSE
+false
 )
 ;
 if
@@ -692,7 +692,7 @@ const
 UnicodeString
 unsafeBackwardPattern
 (
-FALSE
+false
 buf
 needed
 )

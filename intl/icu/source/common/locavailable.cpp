@@ -464,8 +464,8 @@ icu
 :
 UInitOnce
 gInitOnceLocale
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 U_NAMESPACE_END
 U_CDECL_BEGIN
@@ -504,7 +504,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -848,8 +848,8 @@ icu
 :
 UInitOnce
 ginstalledLocalesInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 class
 AvailableLocalesSink
@@ -1453,7 +1453,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 /

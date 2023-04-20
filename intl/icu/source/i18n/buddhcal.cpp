@@ -851,8 +851,8 @@ icu
 :
 UInitOnce
 gBCInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 UBool
 BuddhistCalendar
@@ -864,7 +864,7 @@ haveDefaultCentury
 const
 {
 return
-TRUE
+true
 ;
 }
 static

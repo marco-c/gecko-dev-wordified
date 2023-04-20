@@ -872,6 +872,8 @@ Hashtable
 &
 other
 )
+=
+delete
 ;
 /
 /
@@ -890,6 +892,8 @@ Hashtable
 &
 other
 )
+=
+delete
 ;
 /
 /

@@ -2477,7 +2477,7 @@ set
 /
 /
 return
-FALSE
+false
 ;
 /
 /
@@ -2525,7 +2525,7 @@ rangeIndex
 /
 /
 return
-TRUE
+true
 ;
 /
 /
@@ -2782,7 +2782,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -2812,7 +2812,7 @@ bmpLength
 0
 ;
 return
-FALSE
+false
 ;
 }
 length
@@ -2866,7 +2866,7 @@ bmpLength
 0
 ;
 return
-FALSE
+false
 ;
 }
 fillSet
@@ -2913,7 +2913,7 @@ bmpLength
 0
 ;
 return
-FALSE
+false
 ;
 }
 fillSet
@@ -2939,7 +2939,7 @@ length
 length
 ;
 return
-TRUE
+true
 ;
 }
 U_CAPI
@@ -3255,7 +3255,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 array
@@ -3788,7 +3788,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 array
@@ -3908,7 +3908,7 @@ pEnd
 ;
 }
 return
-TRUE
+true
 ;
 }
 else
@@ -4026,13 +4026,13 @@ pEnd
 ;
 }
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -4318,7 +4318,7 @@ c
 /
 /
 return
-FALSE
+false
 ;
 /
 /
@@ -4376,7 +4376,7 @@ set
 /
 /
 return
-TRUE
+true
 ;
 /
 /
@@ -4558,7 +4558,7 @@ i
 /
 /
 return
-TRUE
+true
 ;
 /
 /
@@ -4766,7 +4766,7 @@ i
 /
 /
 return
-TRUE
+true
 ;
 /
 /
@@ -4915,7 +4915,7 @@ NULL
 /
 /
 return
-FALSE
+false
 ;
 /
 /
@@ -5083,7 +5083,7 @@ more
 /
 /
 return
-TRUE
+true
 ;
 /
 /

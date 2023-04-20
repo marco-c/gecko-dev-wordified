@@ -1414,6 +1414,8 @@ constructor
 CanonicalIterator
 (
 )
+=
+delete
 ;
 /
 *
@@ -1440,6 +1442,8 @@ CanonicalIterator
 &
 other
 )
+=
+delete
 ;
 /
 *
@@ -1469,6 +1473,8 @@ CanonicalIterator
 &
 other
 )
+=
+delete
 ;
 /
 /

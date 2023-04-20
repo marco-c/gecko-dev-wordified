@@ -611,7 +611,7 @@ This
 >
 heapAllocated
 =
-TRUE
+true
 ;
 }
 return

@@ -502,7 +502,7 @@ STDOUT
 param
 buffered
 If
-TRUE
+true
 performs
 a
 buffered
@@ -513,7 +513,7 @@ input
 file
 .
 If
-FALSE
+false
 reads
 *
 the

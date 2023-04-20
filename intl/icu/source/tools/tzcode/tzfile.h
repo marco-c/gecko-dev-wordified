@@ -494,7 +494,7 @@ by
 type
 ;
 if
-TRUE
+true
 transition
 *
 *
@@ -503,7 +503,7 @@ is
 standard
 time
 if
-FALSE
+false
 *
 *
 transition
@@ -539,7 +539,7 @@ by
 type
 ;
 if
-TRUE
+true
 transition
 *
 *
@@ -547,7 +547,7 @@ time
 is
 UT
 if
-FALSE
+false
 *
 *
 transition

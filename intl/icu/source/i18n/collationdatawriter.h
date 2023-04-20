@@ -350,6 +350,8 @@ private
 CollationDataWriter
 (
 )
+=
+delete
 ;
 /
 /

@@ -391,6 +391,15 @@ C
 API
 :
 Locale
+ID
+functionality
+similar
+to
+C
++
++
+class
+Locale
 *
 *
 <

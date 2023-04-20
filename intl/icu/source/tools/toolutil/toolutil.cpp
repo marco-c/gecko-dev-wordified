@@ -1385,13 +1385,13 @@ stat_buf
 )
 {
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -2221,7 +2221,7 @@ newCapacity
 ;
 }
 return
-TRUE
+true
 ;
 }
 U_CAPI

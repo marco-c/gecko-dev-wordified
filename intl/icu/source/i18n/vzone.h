@@ -287,9 +287,6 @@ ztrans
 .
 h
 "
-#
-ifndef
-UCNV_H
 struct
 VZone
 ;
@@ -325,8 +322,6 @@ struct
 VZone
 VZone
 ;
-#
-endif
 /
 *
 *

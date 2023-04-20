@@ -1092,6 +1092,8 @@ BytesTrieBuilder
 &
 other
 )
+=
+delete
 ;
 /
 /
@@ -1108,6 +1110,8 @@ BytesTrieBuilder
 &
 other
 )
+=
+delete
 ;
 /
 /

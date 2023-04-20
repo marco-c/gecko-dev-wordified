@@ -396,7 +396,7 @@ src
 .
 desiredIsOwned
 =
-FALSE
+false
 ;
 }
 }
@@ -505,7 +505,7 @@ src
 .
 desiredIsOwned
 =
-FALSE
+false
 ;
 }
 return
@@ -1871,7 +1871,7 @@ outErrorCode
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1883,7 +1883,7 @@ errorCode_
 )
 {
 return
-FALSE
+false
 ;
 }
 outErrorCode
@@ -1891,7 +1891,7 @@ outErrorCode
 errorCode_
 ;
 return
-TRUE
+true
 ;
 }
 LocaleMatcher
@@ -4213,7 +4213,7 @@ defaultLocale
 1
 -
 1
-FALSE
+false
 )
 ;
 }
@@ -4254,7 +4254,7 @@ defaultLocale
 1
 -
 1
-FALSE
+false
 )
 ;
 }
@@ -4271,7 +4271,7 @@ suppIndex
 ]
 0
 suppIndex
-FALSE
+false
 )
 ;
 }
@@ -4322,7 +4322,7 @@ defaultLocale
 1
 -
 1
-FALSE
+false
 )
 ;
 }
@@ -4372,7 +4372,7 @@ defaultLocale
 1
 -
 1
-FALSE
+false
 )
 ;
 }
@@ -4396,7 +4396,7 @@ getBestDesiredIndex
 (
 )
 suppIndex
-TRUE
+true
 )
 ;
 }

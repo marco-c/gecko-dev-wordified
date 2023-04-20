@@ -982,8 +982,8 @@ fPattern
 other
 .
 fPattern
-FALSE
-TRUE
+false
+true
 &
 fDeferredStatus
 )
@@ -1726,7 +1726,7 @@ NULL
 ;
 fNeedsAltInput
 =
-FALSE
+false
 ;
 fNamedCaptureMap
 =
@@ -4479,7 +4479,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 UBool
@@ -4580,13 +4580,13 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 UBool
 retVal
 =
-FALSE
+false
 ;
 RegexPattern
 *
@@ -6370,7 +6370,7 @@ set
 toPattern
 (
 s
-TRUE
+true
 )
 ;
 printf
@@ -6441,7 +6441,7 @@ set
 toPattern
 (
 s
-TRUE
+true
 )
 ;
 printf
@@ -6657,7 +6657,7 @@ fInitialChars
 toPattern
 (
 s
-TRUE
+true
 )
 ;
 printf

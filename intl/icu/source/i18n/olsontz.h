@@ -2833,8 +2833,8 @@ finalZoneWithStartYear
 hack
 UInitOnce
 transitionRulesInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 }
 ;

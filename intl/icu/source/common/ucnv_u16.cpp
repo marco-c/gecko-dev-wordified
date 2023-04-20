@@ -4171,8 +4171,8 @@ UCNV_UTF16_BigEndian
 0
 }
 2
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -8011,8 +8011,8 @@ UCNV_UTF16_LittleEndian
 0
 }
 2
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -9813,8 +9813,8 @@ else
 2
 #
 endif
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -9940,8 +9940,8 @@ UCNV_UTF16
 0
 }
 2
-FALSE
-FALSE
+false
+false
 0
 0
 {

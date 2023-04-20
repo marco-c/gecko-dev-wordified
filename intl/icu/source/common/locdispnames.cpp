@@ -3384,7 +3384,7 @@ formatReplaceCloseParen
 UBool
 haveLang
 =
-TRUE
+true
 ;
 /
 *
@@ -3411,7 +3411,7 @@ locale
 UBool
 haveRest
 =
-TRUE
+true
 ;
 /
 *
@@ -3438,7 +3438,7 @@ locale
 UBool
 retry
 =
-FALSE
+false
 ;
 /
 *
@@ -4355,7 +4355,7 @@ and
 UBool
 subdone
 =
-FALSE
+false
 ;
 /
 *
@@ -4473,7 +4473,7 @@ langLen
 }
 subdone
 =
-TRUE
+true
 ;
 }
 else
@@ -4493,7 +4493,7 @@ haveRest
 {
 subdone
 =
-TRUE
+true
 ;
 }
 else
@@ -4638,7 +4638,7 @@ component
 /
 subdone
 =
-TRUE
+true
 ;
 }
 else
@@ -5355,7 +5355,7 @@ again
 /
 retry
 =
-TRUE
+true
 ;
 }
 }

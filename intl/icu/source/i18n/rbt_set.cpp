@@ -1170,7 +1170,7 @@ rule
 toRule
 (
 r
-TRUE
+true
 )
 ;
 buf
@@ -1492,7 +1492,7 @@ rule1
 toRule
 (
 r
-FALSE
+false
 )
 ;
 len
@@ -1547,7 +1547,7 @@ rule2
 toRule
 (
 r
-FALSE
+false
 )
 ;
 len
@@ -3319,7 +3319,7 @@ UTransPosition
 indices
 .
 Return
-TRUE
+true
 if
 the
 transliteration
@@ -3327,7 +3327,7 @@ should
 continue
 *
 or
-FALSE
+false
 if
 it
 should
@@ -3343,7 +3343,7 @@ match
 *
 Note
 that
-FALSE
+false
 is
 only
 ever
@@ -3351,7 +3351,7 @@ returned
 if
 isIncremental
 is
-TRUE
+true
 .
 *
 param
@@ -3375,7 +3375,7 @@ updated
 param
 incremental
 if
-TRUE
+true
 assume
 new
 text
@@ -3389,7 +3389,7 @@ index
 limit
 and
 return
-FALSE
+false
 if
 there
 is
@@ -3399,7 +3399,7 @@ match
 .
 *
 return
-TRUE
+true
 unless
 a
 U_PARTIAL_MATCH
@@ -3517,7 +3517,7 @@ pos
 )
 ;
 return
-TRUE
+true
 ;
 case
 U_PARTIAL_MATCH
@@ -3537,7 +3537,7 @@ pos
 )
 ;
 return
-FALSE
+false
 ;
 default
 :
@@ -3596,7 +3596,7 @@ pos
 )
 ;
 return
-TRUE
+true
 ;
 }
 /

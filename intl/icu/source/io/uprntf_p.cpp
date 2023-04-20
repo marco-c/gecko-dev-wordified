@@ -2813,7 +2813,7 @@ result
 len
 num
 8
-FALSE
+false
 /
 *
 doesn
@@ -3271,7 +3271,7 @@ args
 ]
 .
 ptrValue
-TRUE
+true
 /
 *
 info
@@ -4992,7 +4992,7 @@ unum_setAttribute
 (
 format
 UNUM_SIGNIFICANT_DIGITS_USED
-TRUE
+true
 )
 ;
 unum_setAttribute
@@ -5033,7 +5033,7 @@ unum_setAttribute
 (
 format
 UNUM_SIGNIFICANT_DIGITS_USED
-FALSE
+false
 )
 ;
 }
@@ -6660,7 +6660,7 @@ islonglong
 pos
 ]
 =
-FALSE
+false
 ;
 if
 (
@@ -6689,7 +6689,7 @@ islonglong
 pos
 ]
 =
-TRUE
+true
 ;
 }
 }
@@ -7508,7 +7508,7 @@ info
 >
 fLeft
 =
-TRUE
+true
 ;
 break
 ;
@@ -7527,7 +7527,7 @@ info
 >
 fShowSign
 =
-TRUE
+true
 ;
 break
 ;
@@ -7549,14 +7549,14 @@ info
 >
 fShowSign
 =
-TRUE
+true
 ;
 info
 -
 >
 fSpace
 =
-TRUE
+true
 ;
 break
 ;
@@ -7575,7 +7575,7 @@ info
 >
 fAlt
 =
-TRUE
+true
 ;
 break
 ;
@@ -7595,7 +7595,7 @@ info
 >
 fZero
 =
-TRUE
+true
 ;
 info
 -
@@ -8312,7 +8312,7 @@ info
 >
 fIsShort
 =
-TRUE
+true
 ;
 break
 ;
@@ -8341,7 +8341,7 @@ info
 >
 fIsLongLong
 =
-TRUE
+true
 ;
 /
 *
@@ -8365,7 +8365,7 @@ info
 >
 fIsLong
 =
-TRUE
+true
 ;
 break
 ;
@@ -8383,7 +8383,7 @@ info
 >
 fIsLongDouble
 =
-TRUE
+true
 ;
 break
 ;
@@ -8544,7 +8544,7 @@ info
 >
 fLeft
 =
-TRUE
+true
 ;
 }
 }

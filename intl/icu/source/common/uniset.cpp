@@ -896,7 +896,7 @@ set
 toPattern
 (
 str
-TRUE
+true
 )
 ;
 char
@@ -961,7 +961,7 @@ set
 toPattern
 (
 str
-TRUE
+true
 )
 ;
 char
@@ -1873,7 +1873,7 @@ return
 copyFrom
 (
 o
-FALSE
+false
 )
 ;
 }
@@ -2270,7 +2270,7 @@ UnicodeSet
 (
 *
 this
-TRUE
+true
 )
 ;
 }
@@ -3050,7 +3050,7 @@ check
 LOW
 bound
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -3848,7 +3848,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -4236,7 +4236,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -4615,7 +4615,7 @@ high
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -4643,7 +4643,7 @@ high
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -4734,13 +4734,13 @@ v
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 }
 return
-FALSE
+false
 ;
 }
 /
@@ -12118,7 +12118,7 @@ strings
 vector
 and
 return
-TRUE
+true
 if
 successful
 .
@@ -12144,7 +12144,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 strings
@@ -12179,7 +12179,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -12198,11 +12198,11 @@ strings
 NULL
 ;
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 int32_t

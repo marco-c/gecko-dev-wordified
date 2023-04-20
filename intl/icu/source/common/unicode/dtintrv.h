@@ -916,6 +916,8 @@ implemented
 DateInterval
 (
 )
+=
+delete
 ;
 UDate
 fromDate

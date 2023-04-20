@@ -487,7 +487,7 @@ ACE_PREFIX_LENGTH
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -524,12 +524,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 inline
@@ -818,12 +818,12 @@ case
 0xFF61
 :
 return
-TRUE
+true
 ;
 default
 :
 return
-FALSE
+false
 ;
 }
 }
@@ -927,7 +927,7 @@ null
 *
 done
 =
-TRUE
+true
 ;
 return
 i
@@ -1047,7 +1047,7 @@ srcLength
 *
 done
 =
-TRUE
+true
 ;
 return
 i
@@ -1076,7 +1076,7 @@ ch
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -1160,11 +1160,11 @@ ch
 )
 {
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 static
@@ -1297,7 +1297,7 @@ codepoints
 UBool
 srcIsASCII
 =
-TRUE
+true
 ;
 /
 /
@@ -1311,7 +1311,7 @@ codepoints
 UBool
 srcIsLDH
 =
-TRUE
+true
 ;
 int32_t
 j
@@ -1436,7 +1436,7 @@ j
 {
 srcIsASCII
 =
-FALSE
+false
 ;
 }
 b1
@@ -1470,7 +1470,7 @@ if
 srcIsASCII
 =
 =
-FALSE
+false
 )
 {
 /
@@ -1631,7 +1631,7 @@ step
 4
 srcIsASCII
 =
-TRUE
+true
 ;
 for
 (
@@ -1670,7 +1670,7 @@ j
 {
 srcIsASCII
 =
-FALSE
+false
 ;
 }
 else
@@ -1685,7 +1685,7 @@ j
 )
 =
 =
-FALSE
+false
 )
 {
 /
@@ -1706,7 +1706,7 @@ LDH
 character
 srcIsLDH
 =
-FALSE
+false
 ;
 failPos
 =
@@ -1717,9 +1717,6 @@ j
 if
 (
 useSTD3ASCIIRules
-=
-=
-TRUE
 )
 {
 /
@@ -1817,7 +1814,7 @@ if
 srcIsLDH
 =
 =
-FALSE
+false
 /
 *
 source
@@ -1871,7 +1868,7 @@ if
 srcIsLDH
 =
 =
-FALSE
+false
 )
 {
 /
@@ -2091,7 +2088,7 @@ UBool
 uprv_memset
 (
 caseFlags
-TRUE
+true
 b1Len
 )
 ;
@@ -2552,14 +2549,14 @@ NULL
 UBool
 srcIsASCII
 =
-TRUE
+true
 ;
 /
 *
 UBool
 srcIsLDH
 =
-TRUE
+true
 ;
 int32_t
 failPos
@@ -2621,7 +2618,7 @@ srcLength
 {
 srcIsASCII
 =
-FALSE
+false
 ;
 }
 /
@@ -2638,7 +2635,7 @@ srcLength
 )
 =
 =
-FALSE
+false
 )
 {
 /
@@ -2668,7 +2665,7 @@ range
 only
 srcIsLDH
 =
-FALSE
+false
 ;
 failPos
 =
@@ -2719,7 +2716,7 @@ j
 {
 srcIsASCII
 =
-FALSE
+false
 ;
 break
 ;
@@ -2738,7 +2735,7 @@ j
 )
 =
 =
-FALSE
+false
 )
 {
 /
@@ -2768,7 +2765,7 @@ range
 only
 srcIsLDH
 =
-FALSE
+false
 ;
 failPos
 =
@@ -2790,7 +2787,7 @@ if
 srcIsASCII
 =
 =
-FALSE
+false
 )
 {
 /
@@ -3343,7 +3340,7 @@ if
 useSTD3ASCIIRules
 =
 =
-TRUE
+true
 )
 {
 if
@@ -3351,7 +3348,7 @@ if
 srcIsLDH
 =
 =
-FALSE
+false
 /
 /
 source
@@ -3399,7 +3396,7 @@ if
 srcIsLDH
 =
 =
-FALSE
+false
 )
 {
 /
@@ -4145,7 +4142,7 @@ labelReqLength
 UBool
 done
 =
-FALSE
+false
 ;
 for
 (
@@ -4290,9 +4287,6 @@ remainingDestCapacity
 if
 (
 done
-=
-=
-TRUE
 )
 {
 break
@@ -4556,7 +4550,7 @@ labelReqLength
 UBool
 done
 =
-FALSE
+false
 ;
 for
 (
@@ -4637,7 +4631,7 @@ labelLen
 done
 =
 =
-FALSE
+false
 )
 {
 *
@@ -4744,9 +4738,6 @@ remainingDestCapacity
 if
 (
 done
-=
-=
-TRUE
 )
 {
 break

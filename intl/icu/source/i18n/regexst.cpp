@@ -629,8 +629,8 @@ nullptr
 ;
 UInitOnce
 gStaticSetsInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 RegexStaticSets
 :
@@ -724,7 +724,7 @@ applyPattern
 (
 UnicodeString
 (
-TRUE
+true
 gGC_ExtendPattern
 -
 1
@@ -746,7 +746,7 @@ applyPattern
 (
 UnicodeString
 (
-TRUE
+true
 gGC_ControlPattern
 -
 1
@@ -768,7 +768,7 @@ applyPattern
 (
 UnicodeString
 (
-TRUE
+true
 gGC_LPattern
 -
 1
@@ -790,7 +790,7 @@ applyPattern
 (
 UnicodeString
 (
-TRUE
+true
 gGC_VPattern
 -
 1
@@ -812,7 +812,7 @@ applyPattern
 (
 UnicodeString
 (
-TRUE
+true
 gGC_TPattern
 -
 1
@@ -834,7 +834,7 @@ applyPattern
 (
 UnicodeString
 (
-TRUE
+true
 gGC_LVPattern
 -
 1
@@ -856,7 +856,7 @@ applyPattern
 (
 UnicodeString
 (
-TRUE
+true
 gGC_LVTPattern
 -
 1
@@ -1493,7 +1493,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 static

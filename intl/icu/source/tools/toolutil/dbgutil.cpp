@@ -394,7 +394,7 @@ udbg_cleanup
 )
 ;
 return
-TRUE
+true
 ;
 }
 static
