@@ -509,7 +509,7 @@ comAddon
 .
 name
 Site
-Permissions
+permissions
 for
 example
 .
