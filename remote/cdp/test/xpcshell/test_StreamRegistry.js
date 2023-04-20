@@ -64,7 +64,7 @@ StreamRegistry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -79,7 +79,9 @@ cdp
 /
 StreamRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

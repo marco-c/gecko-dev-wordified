@@ -40,7 +40,7 @@ splitMethod
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -55,7 +55,9 @@ cdp
 /
 CDPConnection
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

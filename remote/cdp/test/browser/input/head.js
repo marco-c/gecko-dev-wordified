@@ -89,7 +89,7 @@ I
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -108,7 +108,9 @@ parent
 /
 Input
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

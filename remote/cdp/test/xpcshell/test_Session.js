@@ -40,7 +40,7 @@ Session
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -57,7 +57,9 @@ sessions
 /
 Session
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

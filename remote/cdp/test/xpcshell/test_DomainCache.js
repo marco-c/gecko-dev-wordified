@@ -40,7 +40,7 @@ Domain
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -57,7 +57,9 @@ domains
 /
 Domain
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -68,7 +70,7 @@ DomainCache
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -85,7 +87,9 @@ domains
 /
 DomainCache
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
