@@ -54,7 +54,7 @@ MPL
 /
 .
 import
-mozunit
+sys
 from
 os
 import
@@ -64,7 +64,7 @@ pathlib
 import
 Path
 import
-sys
+mozunit
 #
 Shenanigans
 to

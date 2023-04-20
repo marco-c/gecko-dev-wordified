@@ -54,13 +54,13 @@ MPL
 /
 .
 import
-mozunit
+sys
 from
 os
 import
 path
 import
-sys
+mozunit
 #
 Shenanigans
 to

@@ -56,13 +56,13 @@ MPL
 import
 sys
 from
-glean_parser
-import
-lint
-from
 pathlib
 import
 Path
+from
+glean_parser
+import
+lint
 def
 main
 (

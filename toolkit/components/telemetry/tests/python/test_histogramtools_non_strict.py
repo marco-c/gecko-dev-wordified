@@ -56,8 +56,6 @@ MPL
 import
 json
 import
-mozunit
-import
 sys
 import
 unittest
@@ -65,6 +63,8 @@ from
 os
 import
 path
+import
+mozunit
 TELEMETRY_ROOT_PATH
 =
 path

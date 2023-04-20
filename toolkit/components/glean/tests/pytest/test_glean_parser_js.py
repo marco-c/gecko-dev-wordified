@@ -56,7 +56,7 @@ MPL
 import
 io
 import
-mozunit
+sys
 from
 os
 import
@@ -66,7 +66,7 @@ pathlib
 import
 Path
 import
-sys
+mozunit
 from
 expect_helper
 import
@@ -124,9 +124,9 @@ glean_parser_ext
 )
 )
 import
-js
-import
 run_glean_parser
+import
+js
 def
 test_all_metric_types
 (

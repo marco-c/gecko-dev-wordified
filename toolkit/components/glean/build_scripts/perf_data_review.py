@@ -91,6 +91,8 @@ sync
 "
 "
 "
+import
+re
 from
 pathlib
 import
@@ -99,15 +101,10 @@ from
 typing
 import
 Sequence
-import
-re
 from
 glean_parser
 import
 parser
-from
-glean_parser
-import
 util
 def
 generate

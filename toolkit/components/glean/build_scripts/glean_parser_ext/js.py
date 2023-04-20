@@ -134,6 +134,10 @@ name
 import
 jinja2
 from
+glean_parser
+import
+util
+from
 perfecthash
 import
 PerfectHash
@@ -147,10 +151,6 @@ import
 generate_metric_ids
 generate_ping_ids
 get_metrics
-from
-glean_parser
-import
-util
 "
 "
 "

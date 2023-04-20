@@ -83,6 +83,10 @@ from
 __future__
 import
 print_function
+import
+collections
+import
+sys
 from
 mozparsers
 .
@@ -90,10 +94,6 @@ shared_telemetry_utils
 import
 ParserError
 load_yaml_file
-import
-sys
-import
-collections
 #
 The
 banner

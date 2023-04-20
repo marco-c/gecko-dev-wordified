@@ -66,6 +66,8 @@ from
 __future__
 import
 absolute_import
+import
+sys
 from
 fluent
 .
@@ -80,8 +82,6 @@ syntax
 ast
 import
 Message
-import
-sys
 def
 find_error_ids
 (

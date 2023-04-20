@@ -54,9 +54,9 @@ MPL
 /
 .
 import
-os
-import
 inspect
+import
+os
 def
 expect
 (

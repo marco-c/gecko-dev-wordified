@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+import
+os
+import
+sys
 from
 marionette_driver
 import
@@ -63,10 +67,6 @@ marionette_driver
 addons
 import
 Addons
-import
-os
-import
-sys
 #
 Add
 this
@@ -96,13 +96,13 @@ service_worker_testutils
 import
 (
     
-MarionetteServiceWorkerTestCase
+EXT_DIR_PATH
     
 EXT_ID
     
-EXT_DIR_PATH
-    
 PREF_BG_SW_ENABLED
+    
+MarionetteServiceWorkerTestCase
 )
 class
 TemporarilyInstalledAddonServiceWorkerNotPersisted

@@ -78,14 +78,15 @@ mozbuild
 .
 base
 import
-(
-    
+BinaryNotFoundException
+from
+mozbuild
+.
+base
+import
 MachCommandConditions
 as
 conditions
-    
-BinaryNotFoundException
-)
 def
 create_parser_tests
 (
@@ -138,6 +139,13 @@ kwargs
 :
     
 from
+marionette_harness
+.
+runtests
+import
+MarionetteHarness
+    
+from
 mozlog
 .
 structured
@@ -150,13 +158,6 @@ telemetry_harness
 runtests
 import
 TelemetryTestRunner
-    
-from
-marionette_harness
-.
-runtests
-import
-MarionetteHarness
     
 parser
 =

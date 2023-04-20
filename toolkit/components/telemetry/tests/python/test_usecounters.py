@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-mozunit
-import
 sys
 import
 unittest
@@ -63,6 +61,8 @@ from
 os
 import
 path
+import
+mozunit
 from
 test_histogramtools_non_strict
 import
@@ -149,14 +149,14 @@ build_scripts
 )
 from
 mozparsers
+import
+parse_histograms
+from
+mozparsers
 .
 shared_telemetry_utils
 import
 ParserError
-from
-mozparsers
-import
-parse_histograms
 class
 TestParser
 (

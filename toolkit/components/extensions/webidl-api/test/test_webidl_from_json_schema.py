@@ -55,6 +55,10 @@ MPL
 .
 import
 sys
+from
+textwrap
+import
+dedent
 import
 mozpack
 .
@@ -63,10 +67,6 @@ as
 mozpath
 import
 mozunit
-from
-textwrap
-import
-dedent
 #
 Import
 test
@@ -106,13 +106,13 @@ GenerateWebIDLBindings
 import
 (
     
+WEBEXT_STUBS_MAPPING
+    
 APIFunction
     
 Schemas
     
 WebIDLHelpers
-    
-WEBEXT_STUBS_MAPPING
 )
 original_stub_mapping_config
 =
