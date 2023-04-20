@@ -244,10 +244,6 @@ const
 bool
 &
 aIsBuiltCertChainRootBuiltInRoot
-const
-bool
-&
-aMadeOCSPRequests
 )
 {
 MOZ_LOG
@@ -346,7 +342,6 @@ OverridableErrorCategory
 ERROR_UNSET
 aIsBuiltCertChainRootBuiltInRoot
 mProviderFlags
-aMadeOCSPRequests
 )
 ;
 return
@@ -372,10 +367,6 @@ const
 uint32_t
 &
 aOverridableErrorCategory
-const
-bool
-&
-aMadeOCSPRequests
 )
 {
 mResultTask
@@ -421,7 +412,6 @@ aOverridableErrorCategory
 )
 false
 mProviderFlags
-aMadeOCSPRequests
 )
 ;
 return
