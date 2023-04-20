@@ -91,12 +91,10 @@ config
 /
 FIXME
 :
-AV1
-and
 H
 .
 264
-have
+has
 embedded
 color
 space
@@ -120,6 +118,9 @@ av01
 .
 08
 '
+hasEmbeddedColorSpace
+:
+true
 }
 '
 ?
