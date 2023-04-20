@@ -1141,6 +1141,16 @@ VideoCodec
 codec
 )
 ;
+static
+bool
+IsSimulcast
+(
+const
+VideoEncoderConfig
+&
+encoder_config
+)
+;
 private
 :
 class
