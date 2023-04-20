@@ -185,6 +185,9 @@ nsIRequest
 .
 h
 "
+class
+nsITransportSecurityInfo
+;
 namespace
 mozilla
 :
@@ -299,10 +302,9 @@ nsHttpResponseHead
 >
 &
 aResponseHead
-const
-nsCString
-&
-aSecurityInfoSerialization
+nsITransportSecurityInfo
+*
+aSecurityInfo
 const
 bool
 &
@@ -578,10 +580,9 @@ nsHttpResponseHead
 >
 &
 aResponseHead
-const
-nsCString
-&
-aSecurityInfoSerialization
+nsITransportSecurityInfo
+*
+aSecurityInfo
 const
 bool
 &
