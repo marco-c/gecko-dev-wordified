@@ -60,11 +60,11 @@ absolute_import
 import
 copy
 import
-mozinfo
-import
 os
 import
 sys
+import
+mozinfo
 from
 .
 .

@@ -58,10 +58,6 @@ __future__
 import
 absolute_import
 print_function
-from
-optparse
-import
-OptionParser
 import
 os
 import
@@ -80,6 +76,14 @@ import
 time
 import
 zipfile
+from
+optparse
+import
+OptionParser
+import
+mozfile
+import
+mozinfo
 import
 requests
 from
@@ -87,10 +91,6 @@ six
 import
 PY3
 reraise
-import
-mozfile
-import
-mozinfo
 try
 :
     
