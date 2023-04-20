@@ -334,7 +334,7 @@ Parameters
     
 #
 a
-list
+dict
 of
 all
 the
@@ -357,6 +357,9 @@ attr
 .
 ib
 (
+type
+=
+dict
 )
     
 #

@@ -2303,7 +2303,7 @@ repo
 =
 None
     
-cur_ref
+cur_rev
 =
 None
     
@@ -2433,7 +2433,7 @@ specific
 revision
 .
         
-cur_ref
+cur_rev
 =
 repo
 .
@@ -2441,7 +2441,7 @@ branch
 or
 repo
 .
-head_ref
+head_rev
 [
 :
 12
@@ -2502,7 +2502,7 @@ graph_attr
 }
 _
 {
-cur_ref
+cur_rev
 }
 "
         
@@ -2522,7 +2522,7 @@ graph_attr
 ]
 }
 {
-cur_ref
+cur_rev
 }
 "
 file
@@ -2912,16 +2912,16 @@ default
 "
 :
             
-base_ref
+base_rev
 =
 repo
 .
-base_ref
+base_rev
         
 else
 :
             
-base_ref
+base_rev
 =
 options
 [
@@ -2937,14 +2937,14 @@ repo
 .
 update
 (
-base_ref
+base_rev
 )
             
-base_ref
+base_rev
 =
 repo
 .
-head_ref
+head_rev
 [
 :
 12
@@ -2977,7 +2977,7 @@ graph_attr
 }
 _
 {
-base_ref
+base_rev
 }
 "
             
@@ -2997,7 +2997,7 @@ graph_attr
 ]
 }
 {
-base_ref
+base_rev
 }
 "
 file
@@ -3021,7 +3021,7 @@ repo
 .
 update
 (
-cur_ref
+cur_rev
 )
         
 #
@@ -3069,7 +3069,7 @@ graph_attr
 ]
 }
 {
-base_ref
+base_rev
 }
 "
             
@@ -3088,7 +3088,7 @@ graph_attr
 ]
 }
 {
-cur_ref
+cur_rev
 }
 "
         
@@ -3121,7 +3121,7 @@ graph_attr
 }
 _
 {
-base_ref
+base_rev
 }
 "
 )
@@ -3147,7 +3147,7 @@ graph_attr
 }
 _
 {
-cur_ref
+cur_rev
 }
 "
 )
@@ -4288,6 +4288,89 @@ repository
 to
 clone
 '
+)
+argument
+(
+    
+"
+-
+-
+base
+-
+ref
+"
+default
+=
+"
+"
+help
+=
+'
+Reference
+of
+the
+revision
+in
+the
+"
+base
+"
+repository
+'
+)
+argument
+(
+    
+"
+-
+-
+base
+-
+rev
+"
+    
+default
+=
+"
+"
+    
+help
+=
+"
+Taskgraph
+decides
+what
+to
+do
+based
+on
+the
+revision
+range
+between
+"
+    
+"
+-
+-
+base
+-
+rev
+and
+-
+-
+head
+-
+rev
+.
+Value
+is
+determined
+automatically
+if
+not
+provided
+"
 )
 argument
 (
