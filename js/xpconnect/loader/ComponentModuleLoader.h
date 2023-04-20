@@ -567,7 +567,7 @@ JS
 loader
 :
 :
-LoadContextCCBase
+LoadContextBase
 {
 public
 :
@@ -575,7 +575,7 @@ ComponentLoadContext
 (
 )
 :
-LoadContextCCBase
+LoadContextBase
 (
 JS
 :
