@@ -2110,6 +2110,9 @@ await
 withFirefoxView
 (
 {
+win
+:
+window
 }
 async
 browser
