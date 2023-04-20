@@ -20754,6 +20754,9 @@ return
 RTC_DCHECK
 (
 _hRecThread
+=
+=
+NULL
 )
 ;
 _hRecThread
@@ -22132,6 +22135,9 @@ rendering
 RTC_DCHECK
 (
 _hPlayThread
+=
+=
+NULL
 )
 ;
 _hPlayThread
