@@ -2447,8 +2447,9 @@ rtp_sender_
 deferred_sequencing_
 )
 {
-RTC_DCHECK
+if
 (
+!
 rtp_sender_
 -
 >
@@ -2458,7 +2459,11 @@ SendingMedia
 (
 )
 )
+{
+return
+false
 ;
+}
 if
 (
 packet
