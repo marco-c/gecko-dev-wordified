@@ -3421,7 +3421,7 @@ DOMFullscreen
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3433,13 +3433,15 @@ actors
 /
 DOMFullscreenParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3451,7 +3453,9 @@ actors
 /
 DOMFullscreenChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
