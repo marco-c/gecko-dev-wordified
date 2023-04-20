@@ -5691,7 +5691,7 @@ average_bitrate_without_loss_based
 *
 1
 .
-1
+05
 )
 ;
 }
