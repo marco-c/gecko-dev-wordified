@@ -166,7 +166,7 @@ DEPRECATED_AsyncInvoker
 Helper
 class
 for
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 .
 Runs
 a
