@@ -936,6 +936,7 @@ mozJSModuleLoader
 :
 LoadSingleModuleScript
 (
+this
 cx
 aRequest
 &

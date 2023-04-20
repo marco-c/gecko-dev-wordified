@@ -1252,6 +1252,10 @@ const
 nsAString
 &
 aResourceURI
+const
+ImportESModuleOptionsDictionary
+&
+aOptions
 JS
 :
 :

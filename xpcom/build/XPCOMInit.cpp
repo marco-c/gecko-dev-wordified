@@ -4068,7 +4068,7 @@ details
 mozJSModuleLoader
 :
 :
-Unload
+UnloadLoaders
 (
 )
 ;

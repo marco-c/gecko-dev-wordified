@@ -1278,7 +1278,7 @@ cnt
 mozJSModuleLoader
 :
 :
-Shutdown
+ShutdownLoaders
 (
 )
 ;
