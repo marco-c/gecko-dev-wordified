@@ -18,9 +18,6 @@ more
 details
 see
 use
-libc
-;
-use
 std
 :
 :
@@ -45,12 +42,18 @@ io
 AsRawFd
 ;
 use
+crate
+:
+:
 errno
 :
 :
 Errno
 ;
 use
+crate
+:
+:
 Result
 ;
 /
@@ -396,7 +399,7 @@ init_module
 )
 ]
 (
-http
+https
 :
 /
 /
@@ -677,7 +680,7 @@ init_module
 )
 ]
 (
-http
+https
 :
 /
 /
@@ -803,7 +806,7 @@ delete_module
 )
 ]
 (
-http
+https
 :
 /
 /
@@ -957,7 +960,7 @@ delete_module
 )
 ]
 (
-http
+https
 :
 /
 /

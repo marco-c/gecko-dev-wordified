@@ -1785,8 +1785,6 @@ etype
 :
 t
 count
-:
-count
 }
 )
 }
@@ -3693,7 +3691,6 @@ snd_ctl_elem_id_get_name
 (
 elem_id_ptr
 (
-&
 self
 )
 )
@@ -3720,7 +3717,6 @@ snd_ctl_elem_id_get_device
 (
 elem_id_ptr
 (
-&
 self
 )
 )
@@ -3748,7 +3744,6 @@ snd_ctl_elem_id_get_subdevice
 (
 elem_id_ptr
 (
-&
 self
 )
 )
@@ -3776,7 +3771,6 @@ snd_ctl_elem_id_get_numid
 (
 elem_id_ptr
 (
-&
 self
 )
 )
@@ -3804,7 +3798,6 @@ snd_ctl_elem_id_get_index
 (
 elem_id_ptr
 (
-&
 self
 )
 )
@@ -3837,7 +3830,6 @@ snd_ctl_elem_id_get_interface
 (
 elem_id_ptr
 (
-&
 self
 )
 )
@@ -3874,7 +3866,6 @@ snd_ctl_elem_id_set_device
 (
 elem_id_ptr
 (
-&
 self
 )
 v
@@ -3902,7 +3893,6 @@ snd_ctl_elem_id_set_subdevice
 (
 elem_id_ptr
 (
-&
 self
 )
 v
@@ -3930,7 +3920,6 @@ snd_ctl_elem_id_set_numid
 (
 elem_id_ptr
 (
-&
 self
 )
 v
@@ -3958,7 +3947,6 @@ snd_ctl_elem_id_set_index
 (
 elem_id_ptr
 (
-&
 self
 )
 v
@@ -3986,7 +3974,6 @@ snd_ctl_elem_id_set_interface
 (
 elem_id_ptr
 (
-&
 self
 )
 v
@@ -4017,7 +4004,6 @@ snd_ctl_elem_id_set_name
 (
 elem_id_ptr
 (
-&
 self
 )
 v

@@ -6,10 +6,6 @@ extern
 crate
 alsa
 ;
-extern
-crate
-nix
-;
 use
 std
 :
@@ -5183,9 +5179,7 @@ errno
 )
 =
 =
-Some
-(
-self
+alsa
 :
 :
 nix
@@ -5198,7 +5192,6 @@ Errno
 :
 :
 ENOSPC
-)
 =
 >
 {
@@ -5244,9 +5237,7 @@ errno
 )
 =
 =
-Some
-(
-self
+alsa
 :
 :
 nix
@@ -5259,7 +5250,6 @@ Errno
 :
 :
 EAGAIN
-)
 =
 >
 {
