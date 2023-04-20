@@ -2778,6 +2778,8 @@ bool
 enforce_split_band_hpf
 bool
 minimize_processing_for_unused_output
+bool
+transient_suppressor_forced_off
 )
 :
 multi_channel_render_support
@@ -2796,6 +2798,10 @@ minimize_processing_for_unused_output
 (
 minimize_processing_for_unused_output
 )
+transient_suppressor_forced_off
+(
+transient_suppressor_forced_off
+)
 {
 }
 bool
@@ -2809,6 +2815,9 @@ enforce_split_band_hpf
 ;
 bool
 minimize_processing_for_unused_output
+;
+bool
+transient_suppressor_forced_off
 ;
 }
 constants_
