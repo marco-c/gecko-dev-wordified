@@ -267,11 +267,6 @@ std
 :
 string
 output_str
-=
-std
-:
-:
-string
 (
 output
 )

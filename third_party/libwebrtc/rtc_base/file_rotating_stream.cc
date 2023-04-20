@@ -949,11 +949,6 @@ std
 :
 string
 directory_str
-=
-std
-:
-:
-string
 (
 directory
 )

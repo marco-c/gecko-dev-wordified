@@ -204,11 +204,6 @@ std
 :
 string
 file_name
-=
-std
-:
-:
-string
 (
 file_name_utf8
 )

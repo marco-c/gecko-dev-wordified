@@ -280,11 +280,6 @@ std
 :
 string
 src_str
-=
-std
-:
-:
-string
 (
 src
 )

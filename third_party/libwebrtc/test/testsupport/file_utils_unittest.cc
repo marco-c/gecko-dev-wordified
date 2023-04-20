@@ -210,11 +210,6 @@ std
 :
 string
 result
-=
-std
-:
-:
-string
 (
 path
 )

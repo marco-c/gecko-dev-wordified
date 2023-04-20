@@ -1705,11 +1705,6 @@ std
 :
 string
 k_str
-=
-std
-:
-:
-string
 (
 k
 )
