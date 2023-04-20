@@ -17014,14 +17014,6 @@ secure
 bool
 rejected
 =
-session_options
-.
-data_channel_type
-=
-=
-DCT_NONE
-|
-|
 media_description_options
 .
 stopped

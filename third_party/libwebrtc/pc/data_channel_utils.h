@@ -304,16 +304,6 @@ bytes_received
 ;
 }
 ;
-bool
-IsSctpLike
-(
-cricket
-:
-:
-DataChannelType
-type
-)
-;
 }
 /
 /

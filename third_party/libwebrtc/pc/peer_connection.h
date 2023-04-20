@@ -2727,15 +2727,6 @@ return
 options_
 ;
 }
-cricket
-:
-:
-DataChannelType
-data_channel_type
-(
-)
-const
-;
 void
 SetIceConnectionState
 (
