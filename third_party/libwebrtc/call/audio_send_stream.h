@@ -565,6 +565,11 @@ ReportBlockData
 >
 report_block_datas
 ;
+uint32_t
+nacks_rcvd
+=
+0
+;
 }
 ;
 struct

@@ -14697,7 +14697,7 @@ plis_rcvd
 ;
 EXPECT_EQ
 (
-0
+0u
 info
 .
 senders
@@ -44497,7 +44497,7 @@ EXPECT_EQ
 sender
 .
 nacks_rcvd
-0
+0u
 )
 ;
 EXPECT_EQ
@@ -45394,11 +45394,6 @@ EXPECT_EQ
 sender
 .
 nacks_rcvd
-static_cast
-<
-int
->
-(
 2
 *
 substream
@@ -45406,7 +45401,6 @@ substream
 rtcp_packet_type_counts
 .
 nack_packets
-)
 )
 ;
 EXPECT_EQ
@@ -46293,17 +46287,11 @@ EXPECT_EQ
 sender
 .
 nacks_rcvd
-static_cast
-<
-int
->
-(
 substream
 .
 rtcp_packet_type_counts
 .
 nack_packets
-)
 )
 ;
 EXPECT_EQ
@@ -49431,7 +49419,7 @@ firs_rcvd
 ;
 EXPECT_EQ
 (
-3
+3u
 info
 .
 senders
@@ -49470,7 +49458,7 @@ firs_rcvd
 ;
 EXPECT_EQ
 (
-7
+7u
 info
 .
 senders
@@ -49509,7 +49497,7 @@ firs_rcvd
 ;
 EXPECT_EQ
 (
-10
+10u
 info
 .
 aggregated_senders

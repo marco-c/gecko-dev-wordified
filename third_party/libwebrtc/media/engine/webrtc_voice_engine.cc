@@ -15844,6 +15844,14 @@ fraction_lost
 ;
 sinfo
 .
+nacks_rcvd
+=
+stats
+.
+nacks_rcvd
+;
+sinfo
+.
 codec_name
 =
 stats
