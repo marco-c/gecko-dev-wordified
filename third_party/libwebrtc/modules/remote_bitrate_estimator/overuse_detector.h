@@ -178,9 +178,7 @@ delta
 /
 offset
 .
-|
 timestamp_delta
-|
 is
 the
 delta
@@ -220,9 +218,7 @@ updates
 .
 /
 /
-|
 num_of_deltas
-|
 is
 the
 number

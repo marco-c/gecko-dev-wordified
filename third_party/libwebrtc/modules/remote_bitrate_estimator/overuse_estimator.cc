@@ -1189,9 +1189,7 @@ of
 the
 network
 .
-|
 alpha
-|
 is
 tuned
 for
@@ -1206,9 +1204,7 @@ scaled
 /
 according
 to
-|
 ts_delta
-|
 .
 double
 alpha
@@ -1249,9 +1245,7 @@ over
 -
 using
 .
-|
 beta
-|
 is
 a
 /

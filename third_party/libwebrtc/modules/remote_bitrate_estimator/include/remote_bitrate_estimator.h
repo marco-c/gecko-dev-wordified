@@ -321,9 +321,7 @@ updated
 .
 Note
 that
-|
 payload_size
-|
 is
 the
 /
@@ -337,9 +335,7 @@ headers
 /
 Note
 that
-|
 arrival_time_ms
-|
 can
 be
 of
@@ -370,9 +366,7 @@ Removes
 all
 data
 for
-|
 ssrc
-|
 .
 virtual
 void
@@ -395,9 +389,7 @@ estimate
 exists
 and
 sets
-|
 bitrate_bps
-|
 to
 the
 /
@@ -410,9 +402,7 @@ bits
 per
 second
 .
-|
 ssrcs
-|
 is
 the
 list

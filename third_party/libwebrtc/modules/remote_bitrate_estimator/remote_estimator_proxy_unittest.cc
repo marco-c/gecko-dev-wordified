@@ -3003,9 +3003,7 @@ should
 be
 limited
 by
-|
 kMaxSendIntervalMs
-|
 when
 /
 /

@@ -1151,9 +1151,7 @@ SendPeriodicFeedbacks
 {
 /
 /
-|
 periodic_window_start_seq_
-|
 is
 the
 first

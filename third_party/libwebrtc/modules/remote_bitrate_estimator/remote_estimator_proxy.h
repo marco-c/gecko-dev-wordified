@@ -745,9 +745,7 @@ lock_
 ;
 /
 /
-|
 network_state_estimator_
-|
 may
 be
 null

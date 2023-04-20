@@ -499,9 +499,7 @@ contexts
 .
 /
 /
-|
 name
-|
 is
 a
 char
@@ -535,9 +533,7 @@ logging
 .
 /
 /
-|
 enable
-|
 is
 expected
 to
@@ -563,9 +559,7 @@ context
 .
 /
 /
-|
 name
-|
 is
 a
 char
@@ -623,9 +617,7 @@ place
 .
 /
 /
-|
 enable
-|
 is
 expected
 to
@@ -667,9 +659,7 @@ precedence
 .
 /
 /
-|
 time
-|
 is
 an
 int64_t
@@ -712,9 +702,7 @@ formated
 string
 /
 /
-|
 name
-|
 is
 a
 char
@@ -733,9 +721,7 @@ line
 .
 /
 /
-|
 format
-|
 is
 a
 printf
@@ -832,9 +818,7 @@ time
 value
 /
 /
-|
 figure
-|
 is
 a
 figure
@@ -850,9 +834,7 @@ windows
 .
 /
 /
-|
 name
-|
 is
 a
 char
@@ -871,9 +853,7 @@ value
 .
 /
 /
-|
 time
-|
 is
 an
 int64_t
@@ -892,9 +872,7 @@ context
 .
 /
 /
-|
 value
-|
 is
 a
 double
@@ -906,9 +884,7 @@ plotted
 .
 /
 /
-|
 ssrc
-|
 identifies
 the
 source
@@ -917,9 +893,7 @@ a
 stream
 /
 /
-|
 alg_name
-|
 is
 an
 optional
@@ -995,9 +969,7 @@ width
 value
 /
 /
-|
 figure
-|
 is
 a
 figure
@@ -1013,9 +985,7 @@ windows
 .
 /
 /
-|
 name
-|
 is
 a
 char
@@ -1034,9 +1004,7 @@ value
 .
 /
 /
-|
 value
-|
 is
 a
 double
@@ -1048,13 +1016,9 @@ plotted
 .
 /
 /
-|
 ylow
-|
 and
-|
 yhigh
-|
 are
 double
 precision
@@ -1066,9 +1030,7 @@ line
 .
 /
 /
-|
 title
-|
 is
 a
 string
@@ -1081,9 +1043,7 @@ label
 .
 /
 /
-|
 ymax
-|
 is
 a
 double
@@ -1097,9 +1057,7 @@ line
 .
 /
 /
-|
 limit_title
-|
 is
 a
 string
@@ -1158,9 +1116,7 @@ flow_id
 )
 /
 /
-|
 num_flows
-|
 is
 an
 integer
@@ -1180,13 +1136,9 @@ scenario
 /
 /
 Define
-|
 x_label
-|
 and
-|
 y_label
-|
 for
 plots
 .
@@ -2354,9 +2306,7 @@ __GNUC__
 Note
 :
 Implicit
-|
 this
-|
 argument
 counts
 as

@@ -318,9 +318,7 @@ class
 .
 /
 /
-|
 current_hypothesis
-|
 should
 be
 the

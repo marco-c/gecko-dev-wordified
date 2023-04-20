@@ -373,9 +373,7 @@ mutex_
 /
 /
 Returns
-|
 remote_rate_
-|
 if
 the
 pointed

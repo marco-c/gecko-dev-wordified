@@ -735,9 +735,7 @@ timestamp_diff
 /
 Assumes
 that
-|
 timestamp
-|
 is
 not
 reordered
@@ -745,9 +743,7 @@ compared
 to
 /
 /
-|
 current_timestamp_group_
-|
 .
 bool
 InterArrival

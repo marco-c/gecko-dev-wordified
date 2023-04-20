@@ -1229,9 +1229,7 @@ t
 received
 packets
 for
-|
 kStreamTimeOutMs
-|
 /
 /
 milliseconds
