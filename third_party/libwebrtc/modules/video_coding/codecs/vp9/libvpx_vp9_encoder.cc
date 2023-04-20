@@ -3524,11 +3524,11 @@ std
 :
 vector
 <
-FramerateController
+FramerateControllerDeprecated
 >
 (
 num_spatial_layers_
-FramerateController
+FramerateControllerDeprecated
 (
 codec_
 .

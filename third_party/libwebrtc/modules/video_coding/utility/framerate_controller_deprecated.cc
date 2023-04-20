@@ -94,7 +94,7 @@ video_coding
 /
 utility
 /
-framerate_controller
+framerate_controller_deprecated
 .
 h
 "
@@ -113,10 +113,10 @@ cstdint
 namespace
 webrtc
 {
-FramerateController
+FramerateControllerDeprecated
 :
 :
-FramerateController
+FramerateControllerDeprecated
 (
 float
 target_framerate_fps
@@ -143,7 +143,7 @@ target_framerate_fps
 ;
 }
 void
-FramerateController
+FramerateControllerDeprecated
 :
 :
 SetTargetRate
@@ -204,7 +204,7 @@ target_frame_interval_ms
 }
 }
 float
-FramerateController
+FramerateControllerDeprecated
 :
 :
 GetTargetRate
@@ -217,7 +217,7 @@ target_framerate_fps_
 ;
 }
 void
-FramerateController
+FramerateControllerDeprecated
 :
 :
 Reset
@@ -238,7 +238,7 @@ reset
 ;
 }
 bool
-FramerateController
+FramerateControllerDeprecated
 :
 :
 DropFrame
@@ -349,7 +349,7 @@ false
 ;
 }
 void
-FramerateController
+FramerateControllerDeprecated
 :
 :
 AddFrame
@@ -396,7 +396,7 @@ optional
 <
 float
 >
-FramerateController
+FramerateControllerDeprecated
 :
 :
 Rate

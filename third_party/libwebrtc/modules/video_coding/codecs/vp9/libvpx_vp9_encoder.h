@@ -232,7 +232,7 @@ video_coding
 /
 utility
 /
-framerate_controller
+framerate_controller_deprecated
 .
 h
 "
@@ -867,7 +867,7 @@ std
 :
 vector
 <
-FramerateController
+FramerateControllerDeprecated
 >
 framerate_controller_
 ;
@@ -1097,7 +1097,7 @@ WebRtcKeyValueConfig
 trials
 )
 ;
-FramerateController
+FramerateControllerDeprecated
 variable_framerate_controller_
 ;
 const
