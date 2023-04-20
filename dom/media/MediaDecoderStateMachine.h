@@ -3558,15 +3558,6 @@ TimeUnit
 >
 mAudioDecodedDuration
 ;
-Maybe
-<
-media
-:
-:
-TimeUnit
->
-mVideoDecodedDuration
-;
 /
 /
 Current
