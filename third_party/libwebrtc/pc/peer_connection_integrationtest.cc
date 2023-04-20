@@ -14737,12 +14737,6 @@ defined
 (
 WEBRTC_WIN
 )
-|
-|
-defined
-(
-WEBRTC_LINUX
-)
 #
 define
 MAYBE_IceStatesReachCompletionWithRemoteHostname
@@ -15147,6 +15141,10 @@ webrtc
 :
 kIceCandidatePairHostNameHostName
 )
+)
+;
+DestroyPeerConnections
+(
 )
 ;
 }
