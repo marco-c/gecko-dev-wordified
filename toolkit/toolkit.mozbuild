@@ -922,12 +922,6 @@ DIRS
 [
 '
 /
-tools
-/
-quitter
-'
-'
-/
 media
 /
 gmp
