@@ -1078,6 +1078,16 @@ value
 ;
 }
 ;
+searchBarPref
+.
+on
+(
+"
+change
+"
+updateCheckboxEnabled
+)
+;
 /
 /
 Fire
