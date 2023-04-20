@@ -1569,11 +1569,13 @@ We
 should
 not
 call
-SignalNetworksChanged
+/
+/
+InvokeNetworksChangedCallback
+(
+)
 when
 the
-/
-/
 monitor
 is
 stopped
@@ -2710,7 +2712,7 @@ network_info
 handle
 ;
 }
-SignalNetworksChanged
+InvokeNetworksChangedCallback
 (
 )
 ;
@@ -3181,7 +3183,7 @@ adapter_type
 =
 preference
 ;
-SignalNetworksChanged
+InvokeNetworksChangedCallback
 (
 )
 ;
@@ -3856,7 +3858,7 @@ change
 .
 "
 ;
-SignalNetworksChanged
+InvokeNetworksChangedCallback
 (
 )
 ;

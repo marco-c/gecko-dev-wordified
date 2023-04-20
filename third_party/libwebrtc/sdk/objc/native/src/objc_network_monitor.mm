@@ -541,7 +541,7 @@ adapter_type_by_name_
 =
 adapter_type_by_name
 ;
-SignalNetworksChanged
+InvokeNetworksChangedCallback
 (
 )
 ;

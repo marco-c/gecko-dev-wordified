@@ -633,6 +633,16 @@ adapters_
 adapters
 ;
 }
+void
+InovkeNetworksChangedCallbackForTesting
+(
+)
+{
+InvokeNetworksChangedCallback
+(
+)
+;
+}
 private
 :
 bool
@@ -8574,7 +8584,7 @@ event
 network_monitor
 -
 >
-SignalNetworksChanged
+InovkeNetworksChangedCallbackForTesting
 (
 )
 ;
