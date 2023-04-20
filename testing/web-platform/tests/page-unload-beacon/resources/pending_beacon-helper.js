@@ -681,7 +681,11 @@ url
 host
 }
 /
-pending_beacon
+page
+-
+unload
+-
+beacon
 /
 resources
 /
@@ -1013,7 +1017,11 @@ await
 fetch
 (
 /
-pending_beacon
+page
+-
+unload
+-
+beacon
 /
 resources
 /
