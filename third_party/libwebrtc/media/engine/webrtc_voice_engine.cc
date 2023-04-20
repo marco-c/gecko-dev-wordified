@@ -2386,11 +2386,10 @@ config
 .
 async_audio_processing_factory
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :

@@ -737,11 +737,10 @@ I420Buffer
 >
 buffer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 I420Buffer
 >
@@ -949,11 +948,10 @@ NV12Buffer
 >
 buffer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 NV12Buffer
 >

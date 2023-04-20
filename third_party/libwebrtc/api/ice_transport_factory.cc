@@ -369,11 +369,10 @@ Backwards
 compatibility
 mode
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 IceTransportWithTransportChannel
 >
@@ -417,11 +416,10 @@ event_log
 else
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 IceTransportWithTransportChannel
 >

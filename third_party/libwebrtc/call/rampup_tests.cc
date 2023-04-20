@@ -947,11 +947,10 @@ encoder_config
 >
 video_stream_factory
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 RampUpTester
 :

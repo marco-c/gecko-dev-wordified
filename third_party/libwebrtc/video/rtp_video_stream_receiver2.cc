@@ -2056,11 +2056,10 @@ frame_transformer
 {
 frame_transformer_delegate_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
 >
@@ -5894,11 +5893,10 @@ worker_task_checker_
 ;
 frame_transformer_delegate_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
 >

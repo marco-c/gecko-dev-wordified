@@ -1891,11 +1891,10 @@ c
 {
 \
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 c
 #
@@ -1968,11 +1967,10 @@ c
 {
 \
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 c
 #
@@ -1980,8 +1978,8 @@ c
 ProxyWithInternal
 >
 (
-\
 primary_thread
+\
 secondary_thread
 c
 )

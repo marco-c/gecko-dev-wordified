@@ -150,11 +150,10 @@ overuse_detector
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 EncodeUsageResource
 >

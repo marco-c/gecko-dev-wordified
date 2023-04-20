@@ -307,11 +307,10 @@ AudioProcessing
 >
 audio_processing
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 NiceMock
 <

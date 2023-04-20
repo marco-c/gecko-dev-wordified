@@ -335,11 +335,10 @@ height
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 NV12Buffer
 >
@@ -375,11 +374,10 @@ stride_uv
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 NV12Buffer
 >

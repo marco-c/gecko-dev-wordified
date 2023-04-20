@@ -203,11 +203,10 @@ encoder_config
 >
 encoder_specific_settings
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 VideoEncoderConfig
 :
@@ -751,11 +750,10 @@ encoder_config
 >
 video_stream_factory
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 cricket
 :
