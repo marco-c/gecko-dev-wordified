@@ -866,6 +866,8 @@ size
 )
 )
 ;
+parent_
+.
 total_buffered_amount_
 .
 Increase
@@ -1050,6 +1052,8 @@ item
 remaining_size
 )
 ;
+parent_
+.
 total_buffered_amount_
 .
 Decrease
@@ -1361,6 +1365,8 @@ size
 )
 )
 ;
+parent_
+.
 total_buffered_amount_
 .
 Decrease
@@ -1747,6 +1753,8 @@ item
 remaining_size
 )
 ;
+parent_
+.
 total_buffered_amount_
 .
 Decrease
@@ -2142,6 +2150,8 @@ it
 remaining_size
 )
 ;
+parent_
+.
 total_buffered_amount_
 .
 Decrease
@@ -2457,6 +2467,8 @@ item
 remaining_size
 )
 ;
+parent_
+.
 total_buffered_amount_
 .
 Increase
@@ -3434,6 +3446,7 @@ std
 :
 forward_as_tuple
 (
+this
 &
 scheduler_
 stream_id
@@ -3451,7 +3464,6 @@ stream_id
 )
 ;
 }
-total_buffered_amount_
 )
 )
 .
@@ -3703,6 +3715,7 @@ std
 :
 forward_as_tuple
 (
+this
 &
 scheduler_
 stream_id
@@ -3725,7 +3738,6 @@ stream_id
 )
 ;
 }
-total_buffered_amount_
 &
 state_stream
 )
