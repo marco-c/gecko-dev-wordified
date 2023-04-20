@@ -1326,6 +1326,9 @@ const
 bool
 allowedToStart
 =
+media
+:
+:
 AutoplayPolicy
 :
 :
@@ -1520,6 +1523,9 @@ const
 bool
 isAllowedToPlay
 =
+media
+:
+:
 AutoplayPolicy
 :
 :
@@ -6809,6 +6815,9 @@ const
 bool
 isAllowedToPlay
 =
+media
+:
+:
 AutoplayPolicy
 :
 :
@@ -7126,6 +7135,9 @@ UpdateAutoplayAssumptionStatus
 {
 if
 (
+media
+:
+:
 AutoplayPolicyTelemetryUtils
 :
 :
@@ -7191,6 +7203,9 @@ return
 }
 if
 (
+media
+:
+:
 AutoplayPolicyTelemetryUtils
 :
 :

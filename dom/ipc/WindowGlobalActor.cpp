@@ -844,6 +844,9 @@ fields
 .
 mAutoplayPermission
 =
+media
+:
+:
 AutoplayPolicy
 :
 :

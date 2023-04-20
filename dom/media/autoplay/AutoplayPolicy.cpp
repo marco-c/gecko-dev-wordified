@@ -325,11 +325,18 @@ msg
 __VA_ARGS__
 )
 )
+using
 namespace
 mozilla
 :
 :
 dom
+;
+namespace
+mozilla
+:
+:
+media
 {
 static
 const
@@ -2253,4 +2260,4 @@ namespace
 mozilla
 :
 :
-dom
+media
