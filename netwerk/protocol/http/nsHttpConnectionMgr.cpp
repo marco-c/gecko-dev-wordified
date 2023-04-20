@@ -9584,6 +9584,13 @@ caps
 =
 NS_HTTP_DISALLOW_SPDY
 ;
+trans
+-
+>
+MakeSticky
+(
+)
+;
 }
 else
 if
