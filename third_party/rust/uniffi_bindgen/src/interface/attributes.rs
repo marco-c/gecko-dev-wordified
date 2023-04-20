@@ -202,12 +202,6 @@ bail
 Result
 }
 ;
-use
-uniffi_meta
-:
-:
-Checksum
-;
 /
 /
 /
@@ -286,7 +280,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 )
 ]
 pub
@@ -1102,7 +1096,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 Default
 )
 ]
@@ -1396,7 +1390,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 Default
 )
 ]
@@ -1744,7 +1738,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 Default
 )
 ]
@@ -2017,7 +2011,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 Default
 )
 ]
@@ -2450,7 +2444,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 Default
 )
 ]
@@ -2800,7 +2794,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 Default
 )
 ]
@@ -3235,7 +3229,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 )
 ]
 pub
@@ -3446,7 +3440,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 Default
 )
 ]
