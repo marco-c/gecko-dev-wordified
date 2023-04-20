@@ -555,12 +555,6 @@ Even
 ones
 const
 uint8_t
-JS_NEW_NATIVE_ITERATOR_PATTERN
-=
-0xCC
-;
-const
-uint8_t
 JS_SCOPE_DATA_TRAILING_NAMES_PATTERN
 =
 0xCC

@@ -429,6 +429,9 @@ class
 GenericPrinter
 ;
 class
+NativeIteratorListHead
+;
+class
 StringObject
 ;
 enum

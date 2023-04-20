@@ -1190,9 +1190,9 @@ offset
 )
 ;
 }
-NativeIterator
+NativeIteratorListHead
 *
-nativeIteratorStubField
+nativeIteratorListHeadStubField
 (
 uint32_t
 offset
@@ -1201,7 +1201,7 @@ offset
 return
 reinterpret_cast
 <
-NativeIterator
+NativeIteratorListHead
 *
 >
 (
@@ -4376,11 +4376,11 @@ getOperand
 objId
 )
 ;
-NativeIterator
+NativeIteratorListHead
 *
 enumeratorsAddr
 =
-nativeIteratorStubField
+nativeIteratorListHeadStubField
 (
 enumeratorsAddrOffset
 )
