@@ -188,7 +188,7 @@ reportAllocationOverflow
 (
 )
 {
-context_
+fc_
 -
 >
 onAllocationOverflow
@@ -215,7 +215,7 @@ reallocPtr
 )
 {
 return
-context_
+fc_
 -
 >
 onOutOfMemory
