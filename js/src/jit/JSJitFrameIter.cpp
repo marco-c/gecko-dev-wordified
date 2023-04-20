@@ -4331,7 +4331,7 @@ if
 entry
 -
 >
-ionEntry
+asIon
 (
 )
 .
@@ -4401,7 +4401,7 @@ forLastCallSite
 entry
 -
 >
-baselineEntry
+asBaseline
 (
 )
 .

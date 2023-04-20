@@ -2846,7 +2846,7 @@ Kind
 Ion
 :
 return
-ionEntry
+asIon
 (
 )
 .
@@ -2864,7 +2864,7 @@ Kind
 Baseline
 :
 return
-baselineEntry
+asBaseline
 (
 )
 .
@@ -2882,7 +2882,7 @@ Kind
 BaselineInterpreter
 :
 return
-baselineInterpreterEntry
+asBaselineInterpreter
 (
 )
 .
@@ -2900,7 +2900,7 @@ Kind
 Dummy
 :
 return
-dummyEntry
+asDummy
 (
 )
 .
@@ -2958,7 +2958,7 @@ Kind
 Ion
 :
 return
-ionEntry
+asIon
 (
 )
 .
@@ -2976,7 +2976,7 @@ Kind
 Baseline
 :
 return
-baselineEntry
+asBaseline
 (
 )
 .
@@ -2994,7 +2994,7 @@ Kind
 BaselineInterpreter
 :
 return
-baselineInterpreterEntry
+asBaselineInterpreter
 (
 )
 .
@@ -3012,7 +3012,7 @@ Kind
 Dummy
 :
 return
-dummyEntry
+asDummy
 (
 )
 .
@@ -3063,7 +3063,7 @@ Kind
 Ion
 :
 return
-ionEntry
+asIon
 (
 )
 .
@@ -3079,7 +3079,7 @@ Kind
 Baseline
 :
 return
-baselineEntry
+asBaseline
 (
 )
 .
@@ -3094,7 +3094,7 @@ Kind
 Dummy
 :
 return
-dummyEntry
+asDummy
 (
 )
 .
@@ -3155,7 +3155,7 @@ Ion
 tracedAny
 |
 =
-ionEntry
+asIon
 (
 )
 .
@@ -3175,7 +3175,7 @@ Baseline
 tracedAny
 |
 =
-baselineEntry
+asBaseline
 (
 )
 .
@@ -3229,7 +3229,7 @@ Kind
 :
 Ion
 :
-ionEntry
+asIon
 (
 )
 .
@@ -3246,7 +3246,7 @@ Kind
 :
 Baseline
 :
-baselineEntry
+asBaseline
 (
 )
 .
@@ -3303,7 +3303,7 @@ Kind
 Ion
 :
 return
-ionEntry
+asIon
 (
 )
 .
@@ -3319,7 +3319,7 @@ Kind
 Baseline
 :
 return
-baselineEntry
+asBaseline
 (
 )
 .
@@ -3335,7 +3335,7 @@ Kind
 Dummy
 :
 return
-dummyEntry
+asDummy
 (
 )
 .
@@ -3407,7 +3407,7 @@ js_delete
 entry
 -
 >
-ionEntry
+asIon
 (
 )
 )
@@ -3429,7 +3429,7 @@ js_delete
 entry
 -
 >
-baselineEntry
+asBaseline
 (
 )
 )
@@ -3451,7 +3451,7 @@ js_delete
 entry
 -
 >
-baselineInterpreterEntry
+asBaselineInterpreter
 (
 )
 )
@@ -3473,7 +3473,7 @@ js_delete
 entry
 -
 >
-dummyEntry
+asDummy
 (
 )
 )
