@@ -18705,6 +18705,8 @@ bool
 aIsImgSet
 bool
 aLinkPreload
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 /

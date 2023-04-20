@@ -6804,6 +6804,10 @@ bool
 aLinkPreload
 =
 false
+uint64_t
+aEarlyHintPreloaderId
+=
+0
 )
 ;
 /
