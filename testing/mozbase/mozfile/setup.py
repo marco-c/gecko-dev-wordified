@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-from
 setuptools
 import
 setup
@@ -69,9 +65,9 @@ mozfile
 PACKAGE_VERSION
 =
 "
-2
+3
 .
-1
+0
 .
 0
 "
@@ -137,7 +133,7 @@ Language
 Python
 :
 :
-2
+3
 "
         
 "
@@ -148,7 +144,20 @@ Language
 Python
 :
 :
-2
+3
+.
+6
+"
+        
+"
+Programming
+Language
+:
+:
+Python
+:
+:
+3
 .
 7
 "
@@ -162,6 +171,8 @@ Python
 :
 :
 3
+.
+8
 "
         
 "
@@ -174,7 +185,20 @@ Python
 :
 3
 .
-5
+9
+"
+        
+"
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+10
 "
         
 "
