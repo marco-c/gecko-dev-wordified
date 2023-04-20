@@ -5450,6 +5450,10 @@ OpaqueResponseAllowed
 No
 )
 {
+mChannelBlockedByOpaqueResponse
+=
+true
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -5510,6 +5514,10 @@ OpaqueResponseAllowed
 No
 )
 {
+mChannelBlockedByOpaqueResponse
+=
+true
+;
 return
 NS_ERROR_FAILURE
 ;

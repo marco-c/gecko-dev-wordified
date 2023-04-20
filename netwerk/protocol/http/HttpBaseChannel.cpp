@@ -1468,6 +1468,10 @@ mCheckIsOpaqueResponseAllowedAfterSniff
 (
 false
 )
+mChannelBlockedByOpaqueResponse
+(
+false
+)
 mDummyChannelForImageCache
 (
 false

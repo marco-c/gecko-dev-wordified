@@ -2319,6 +2319,13 @@ aReason
 aChannel
 -
 >
+SetChannelBlockedByOpaqueResponse
+(
+)
+;
+aChannel
+-
+>
 CancelWithReason
 (
 mStatus
