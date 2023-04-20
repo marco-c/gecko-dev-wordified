@@ -384,6 +384,9 @@ ssrc
 )
 :
 nullptr
+encoding
+.
+adaptive_ptime
 )
 ;
 }
@@ -716,6 +719,16 @@ JavaToNativeOptionalDouble
 (
 jni
 j_scale_resolution_down_by
+)
+;
+encoding
+.
+adaptive_ptime
+=
+Java_Encoding_getAdaptivePTime
+(
+jni
+j_encoding_parameters
 )
 ;
 ScopedJavaLocalRef
