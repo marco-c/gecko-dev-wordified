@@ -9163,10 +9163,6 @@ MIDIAccess
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
@@ -9193,10 +9189,6 @@ MIDIConnectionEvent
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
@@ -9223,10 +9215,6 @@ MIDIInputMap
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
@@ -9253,10 +9241,6 @@ MIDIInput
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
@@ -9283,10 +9267,6 @@ MIDIMessageEvent
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
@@ -9313,10 +9293,6 @@ MIDIOutputMap
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
@@ -9343,10 +9319,6 @@ MIDIOutput
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
@@ -9373,10 +9345,6 @@ MIDIPort
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 /
 /
