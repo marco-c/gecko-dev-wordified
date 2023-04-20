@@ -2202,6 +2202,8 @@ frame
 void
 OnTimeout
 (
+TimeDelta
+delay
 )
 {
 RTC_DCHECK_RUN_ON
@@ -2242,9 +2244,7 @@ receiver_
 >
 OnDecodableFrameTimeout
 (
-MaxWait
-(
-)
+delay
 )
 ;
 /
