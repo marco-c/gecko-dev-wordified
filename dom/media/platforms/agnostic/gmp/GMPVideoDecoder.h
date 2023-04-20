@@ -221,6 +221,13 @@ KnowsCompositor
 *
 mKnowsCompositor
 ;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
+;
 }
 ;
 DDLoggedTypeDeclNameAndBase
@@ -581,6 +588,13 @@ PerformanceRecorderMulti
 DecodeStage
 >
 mPerformanceRecorder
+;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
 ;
 MozPromiseHolder
 <

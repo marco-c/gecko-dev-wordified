@@ -2437,6 +2437,9 @@ aParams
 .
 mOptions
 sDXVAEnabled
+aParams
+.
+mTrackingId
 )
 )
 ;

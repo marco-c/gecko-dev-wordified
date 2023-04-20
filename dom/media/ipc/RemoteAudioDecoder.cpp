@@ -449,6 +449,9 @@ Nothing
 (
 )
 aMediaEngineId
+Nothing
+(
+)
 )
 ;
 return
@@ -494,6 +497,9 @@ aOptions
 aManagerThread
 aDecodeTaskQueue
 aMediaEngineId
+Nothing
+(
+)
 )
 mAudioInfo
 (
@@ -528,6 +534,7 @@ NoWrapper
 true
 )
 mMediaEngineId
+mTrackingId
 }
 ;
 mParent

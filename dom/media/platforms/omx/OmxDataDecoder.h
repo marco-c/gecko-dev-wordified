@@ -464,6 +464,11 @@ layers
 ImageContainer
 *
 aImageContainer
+Maybe
+<
+TrackingId
+>
+aTrackingId
 )
 ;
 RefPtr
@@ -1157,6 +1162,13 @@ RefPtr
 MediaDataHelper
 >
 mMediaDataHelper
+;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
 ;
 /
 /

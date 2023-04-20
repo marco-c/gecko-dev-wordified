@@ -1960,6 +1960,13 @@ const
 VideoInfo
 mInfo
 ;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
+;
 PerformanceRecorderMulti
 <
 DecodeStage

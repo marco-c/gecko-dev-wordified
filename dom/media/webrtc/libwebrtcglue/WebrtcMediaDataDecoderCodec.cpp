@@ -124,6 +124,8 @@ WebrtcMediaDataDecoder
 nsACString
 &
 aCodecMimeType
+TrackingId
+aTrackingId
 )
 :
 mThreadPool
@@ -191,6 +193,16 @@ kUndefinedTrack
 mCodecType
 (
 aCodecMimeType
+)
+mTrackingId
+(
+std
+:
+:
+move
+(
+aTrackingId
+)
 )
 {
 }
@@ -990,6 +1002,10 @@ Default
 mTrackType
 mImageContainer
 knowsCompositor
+Some
+(
+mTrackingId
+)
 }
 )
 -

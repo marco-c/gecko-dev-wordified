@@ -62,6 +62,18 @@ GMPVIDEOCODEC_H_
 #
 define
 GMPVIDEOCODEC_H_
+#
+include
+<
+string
+>
+#
+include
+"
+PerformanceRecorder
+.
+h
+"
 namespace
 mozilla
 {
@@ -98,6 +110,8 @@ std
 :
 string
 aPCHandle
+TrackingId
+aTrackingId
 )
 ;
 }

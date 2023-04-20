@@ -236,6 +236,11 @@ OptionSet
 aOptions
 bool
 aDXVAEnabled
+Maybe
+<
+TrackingId
+>
+aTrackingId
 )
 ;
 ~
@@ -748,6 +753,13 @@ PerformanceRecorderMulti
 DecodeStage
 >
 mPerformanceRecorder
+;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
 ;
 }
 ;

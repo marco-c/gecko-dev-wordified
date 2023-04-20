@@ -354,6 +354,13 @@ const
 VideoInfo
 mInfo
 ;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
+;
 }
 ;
 }

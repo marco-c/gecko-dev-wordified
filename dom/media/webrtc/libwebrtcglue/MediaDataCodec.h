@@ -155,6 +155,8 @@ webrtc
 :
 VideoCodecType
 aCodecType
+TrackingId
+aTrackingId
 )
 ;
 }

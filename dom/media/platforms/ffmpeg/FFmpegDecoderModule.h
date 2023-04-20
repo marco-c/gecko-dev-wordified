@@ -329,6 +329,9 @@ Option
 :
 HardwareDecoderNotAllowed
 )
+aParams
+.
+mTrackingId
 )
 ;
 return

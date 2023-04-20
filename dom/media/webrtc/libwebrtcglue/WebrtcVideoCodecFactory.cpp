@@ -282,6 +282,7 @@ MediaDataCodec
 CreateDecoder
 (
 type
+mTrackingId
 )
 )
 ;
@@ -326,6 +327,7 @@ GmpVideoCodec
 CreateDecoder
 (
 mPCHandle
+mTrackingId
 )
 )
 ;
