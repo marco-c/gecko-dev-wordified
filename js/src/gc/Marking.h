@@ -620,9 +620,9 @@ cell
 bool
 UnmarkGrayGCThingUnchecked
 (
-JSRuntime
+GCMarker
 *
-rt
+marker
 JS
 :
 :

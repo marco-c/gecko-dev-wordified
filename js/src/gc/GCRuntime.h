@@ -6257,17 +6257,6 @@ endif
 SweepingTracer
 sweepingTracer
 ;
-Vector
-<
-JS
-:
-:
-GCCellPtr
-0
-SystemAllocPolicy
->
-unmarkGrayStack
-;
 /
 *
 Track
