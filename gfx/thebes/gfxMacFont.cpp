@@ -4569,6 +4569,8 @@ UseNativeColrFontSupport
 )
 const
 {
+/
+*
 if
 (
 nsCocoaFeatures
@@ -4614,6 +4616,8 @@ true
 ;
 }
 }
+*
+/
 return
 false
 ;
