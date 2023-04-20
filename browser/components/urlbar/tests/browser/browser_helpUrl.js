@@ -185,7 +185,7 @@ clear
 /
 /
 Sets
-helpL10n
+helpL10nId
 on
 the
 result
@@ -210,16 +210,13 @@ add_task
 (
 async
 function
-title_helpL10n
+title_helpL10nId
 (
 )
 {
 let
-helpL10n
+helpL10nId
 =
-{
-id
-:
 "
 urlbar
 -
@@ -229,7 +226,6 @@ help
 -
 icon
 "
-}
 ;
 let
 provider
@@ -238,7 +234,7 @@ registerTestProvider
 (
 1
 {
-helpL10n
+helpL10nId
 }
 )
 ;
@@ -329,9 +325,7 @@ l10nAttrs
 {
 id
 :
-helpL10n
-.
-id
+helpL10nId
 args
 :
 null

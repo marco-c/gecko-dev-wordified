@@ -1434,12 +1434,12 @@ element
 .
 row
 .
-_buttons
+_elements
 .
 get
 (
 "
-0
+tipButton
 "
 )
 ;
