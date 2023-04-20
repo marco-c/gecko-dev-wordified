@@ -96,6 +96,11 @@ h
 #
 include
 <
+atomic
+>
+#
+include
+<
 cstdint
 >
 #
@@ -947,7 +952,13 @@ network_thread_
 )
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count
 =
 0
