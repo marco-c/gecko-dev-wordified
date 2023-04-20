@@ -191,13 +191,6 @@ SubstitutingProtocolHandler
 "
 resource
 "
-URI_STD
-|
-URI_IS_UI_RESOURCE
-|
-URI_IS_LOCAL_RESOURCE
-|
-URI_IS_POTENTIALLY_TRUSTWORTHY
 /
 *
 aEnforceFileOrJar
