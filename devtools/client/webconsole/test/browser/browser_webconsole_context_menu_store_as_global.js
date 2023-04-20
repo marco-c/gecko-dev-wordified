@@ -789,10 +789,11 @@ value
 "
 )
 ;
-storeMenuItem
+menuPopup
 .
-click
+activateItem
 (
+storeMenuItem
 )
 ;
 info
