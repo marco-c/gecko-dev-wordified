@@ -331,6 +331,12 @@ capture
 to
 render
 .
+TimeDelta
+min_playout_delay
+(
+)
+const
+;
 void
 set_min_playout_delay
 (
