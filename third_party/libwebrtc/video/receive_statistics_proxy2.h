@@ -385,8 +385,11 @@ optional
 uint8_t
 >
 qp
-int32_t
-decode_time_ms
+webrtc
+:
+:
+TimeDelta
+decode_time
 VideoContentType
 content_type
 )
@@ -442,8 +445,11 @@ optional
 uint8_t
 >
 qp
-int32_t
-decode_time_ms
+webrtc
+:
+:
+TimeDelta
+decode_time
 webrtc
 :
 :

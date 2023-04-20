@@ -49563,9 +49563,18 @@ qp_sum
 ;
 stats
 .
-total_decode_time_ms
+total_decode_time
 =
+webrtc
+:
+:
+TimeDelta
+:
+:
+Millis
+(
 16
+)
 ;
 stats
 .
@@ -49903,7 +49912,7 @@ EXPECT_EQ
 (
 stats
 .
-total_decode_time_ms
+total_decode_time
 info
 .
 receivers
@@ -49911,7 +49920,7 @@ receivers
 0
 ]
 .
-total_decode_time_ms
+total_decode_time
 )
 ;
 EXPECT_EQ

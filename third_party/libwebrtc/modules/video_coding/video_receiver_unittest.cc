@@ -266,7 +266,7 @@ optional
 <
 uint8_t
 >
-int32_t
+TimeDelta
 VideoContentType
 )
 (

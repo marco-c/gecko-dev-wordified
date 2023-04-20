@@ -330,8 +330,8 @@ optional
 uint8_t
 >
 qp
-int32_t
-decode_time_ms
+TimeDelta
+decode_time
 VideoContentType
 content_type
 )
@@ -343,7 +343,7 @@ OnDecodedFrame
 (
 video_frame
 qp
-decode_time_ms
+decode_time
 content_type
 )
 ;

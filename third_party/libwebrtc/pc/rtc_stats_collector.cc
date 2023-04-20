@@ -3577,7 +3577,11 @@ double
 (
 video_receiver_info
 .
-total_decode_time_ms
+total_decode_time
+.
+ms
+(
+)
 )
 /
 rtc
