@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -48,7 +53,7 @@ function
 checkService
 (
 service
-interface
+interfaceObj
 )
 {
 info
@@ -67,7 +72,7 @@ is
 an
 "
 +
-interface
+interfaceObj
 )
 ;
 Assert
@@ -88,7 +93,7 @@ Services
 service
 ]
 instanceof
-interface
+interfaceObj
 )
 ;
 }

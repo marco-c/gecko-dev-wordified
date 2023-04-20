@@ -13,6 +13,11 @@ error
 ]
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 AddonTestUtils
@@ -6713,7 +6718,7 @@ Private
 browsing
 .
 let
-private
+privateRow
 =
 rows
 .
@@ -6723,7 +6728,7 @@ shift
 ;
 checkLabel
 (
-private
+privateRow
 "
 private
 -

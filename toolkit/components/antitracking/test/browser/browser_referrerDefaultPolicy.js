@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 8
@@ -86,7 +91,7 @@ async
 function
 openAWindow
 (
-private
+usePrivate
 )
 {
 info
@@ -98,7 +103,7 @@ new
 "
 +
 (
-private
+usePrivate
 ?
 "
 private
@@ -121,6 +126,8 @@ OpenBrowserWindow
 (
 {
 private
+:
+usePrivate
 }
 )
 ;
@@ -908,7 +915,7 @@ trackers
 function
 recordScenario
 (
-private
+isPrivate
 expectedReferrer
 rp
 )
@@ -938,6 +945,8 @@ push
 (
 {
 private
+:
+isPrivate
 expectedReferrer
 rp
 pbPref
@@ -968,7 +977,7 @@ async
 function
 testOnWindow
 (
-private
+isPrivate
 expectedReferrer
 rp
 )
@@ -980,7 +989,7 @@ gRecording
 {
 recordScenario
 (
-private
+isPrivate
 expectedReferrer
 rp
 )
@@ -1189,7 +1198,7 @@ gTests
 )
 {
 let
-private
+isPrivate
 =
 tt
 =
@@ -1211,7 +1220,7 @@ tt
 {
 if
 (
-private
+isPrivate
 =
 =
 s
@@ -1476,11 +1485,11 @@ function
 pn
 (
 name
-private
+isPrivate
 )
 {
 return
-private
+isPrivate
 ?
 name
 +
@@ -1496,7 +1505,7 @@ async
 function
 testOnNoReferrer
 (
-private
+isPrivate
 )
 {
 /
@@ -1534,7 +1543,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -1545,7 +1554,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1596,7 +1605,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -1607,7 +1616,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1652,7 +1661,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -1663,7 +1672,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1708,7 +1717,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -1719,7 +1728,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1734,7 +1743,7 @@ async
 function
 testOnSameOrigin
 (
-private
+isPrivate
 )
 {
 /
@@ -1772,7 +1781,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -1783,7 +1792,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1834,7 +1843,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -1845,7 +1854,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1890,7 +1899,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -1901,7 +1910,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1946,7 +1955,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -1957,7 +1966,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -1972,7 +1981,7 @@ async
 function
 testOnNoReferrerWhenDowngrade
 (
-private
+isPrivate
 )
 {
 /
@@ -2079,7 +2088,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -2090,7 +2099,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 no
@@ -2148,7 +2157,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -2158,13 +2167,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 no
@@ -2183,7 +2192,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 no
@@ -2236,7 +2245,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -2246,13 +2255,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -2272,7 +2281,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 no
@@ -2325,7 +2334,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -2335,13 +2344,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -2361,7 +2370,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 no
@@ -2380,7 +2389,7 @@ async
 function
 testOnOrigin
 (
-private
+isPrivate
 )
 {
 /
@@ -2414,7 +2423,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -2425,7 +2434,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -2465,7 +2474,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -2476,7 +2485,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -2516,7 +2525,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -2527,7 +2536,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -2567,7 +2576,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -2578,7 +2587,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -2590,7 +2599,7 @@ async
 function
 testOnStrictOrigin
 (
-private
+isPrivate
 )
 {
 /
@@ -2628,7 +2637,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -2639,7 +2648,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -2683,7 +2692,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -2694,7 +2703,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -2738,7 +2747,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -2749,7 +2758,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -2793,7 +2802,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -2804,7 +2813,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -2818,7 +2827,7 @@ async
 function
 testOnOriginWhenCrossOrigin
 (
-private
+isPrivate
 )
 {
 /
@@ -2907,7 +2916,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -2917,13 +2926,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 origin
@@ -2942,7 +2951,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -3001,7 +3010,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -3012,7 +3021,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -3064,7 +3073,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -3074,13 +3083,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -3100,7 +3109,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -3153,7 +3162,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -3163,13 +3172,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -3189,7 +3198,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 origin
@@ -3208,7 +3217,7 @@ async
 function
 testOnStrictOriginWhenCrossOrigin
 (
-private
+isPrivate
 )
 {
 /
@@ -3256,7 +3265,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -3267,7 +3276,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -3329,7 +3338,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -3340,7 +3349,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -3396,7 +3405,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -3407,7 +3416,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -3463,7 +3472,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -3474,7 +3483,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 strict
@@ -3494,7 +3503,7 @@ async
 function
 testOnUnsafeUrl
 (
-private
+isPrivate
 )
 {
 /
@@ -3573,7 +3582,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 3
 ]
@@ -3584,7 +3593,7 @@ private
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 unsafe
@@ -3634,7 +3643,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 2
 ]
@@ -3644,13 +3653,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_DOMAIN
 "
 unsafe
@@ -3665,7 +3674,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 unsafe
@@ -3710,7 +3719,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 1
 ]
@@ -3720,13 +3729,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -3742,7 +3751,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 unsafe
@@ -3787,7 +3796,7 @@ defaultPolicy
 .
 trackers
 "
-private
+isPrivate
 )
 0
 ]
@@ -3797,13 +3806,13 @@ private
 ;
 if
 (
-private
+isPrivate
 )
 {
 await
 testOnWindow
 (
-private
+isPrivate
 "
 "
 "
@@ -3819,7 +3828,7 @@ else
 await
 testOnWindow
 (
-private
+isPrivate
 TEST_TOP_PAGE
 "
 unsafe
