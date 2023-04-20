@@ -500,7 +500,6 @@ getState
 )
 )
 {
-return
 dispatch
 (
 {
@@ -514,6 +513,8 @@ mapScopes
 false
 }
 )
+;
+return
 ;
 }
 dispatch

@@ -189,6 +189,7 @@ source
 )
 {
 return
+null
 ;
 }
 const
@@ -834,6 +835,7 @@ currentSelection
 )
 {
 return
+null
 ;
 }
 return

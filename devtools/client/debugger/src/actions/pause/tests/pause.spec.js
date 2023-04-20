@@ -476,6 +476,11 @@ rust
 )
 ;
 }
+return
+resolve
+(
+)
+;
 }
 )
 ;

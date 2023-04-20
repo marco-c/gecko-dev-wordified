@@ -524,6 +524,7 @@ type
 )
 {
 return
+null
 ;
 }
 /
@@ -641,6 +642,7 @@ getState
 {
 if
 (
+!
 getIsCurrentThreadPaused
 (
 getState
@@ -649,6 +651,10 @@ getState
 )
 )
 {
+return
+null
+;
+}
 return
 dispatch
 (
@@ -661,7 +667,6 @@ stepIn
 )
 ;
 }
-}
 ;
 }
 /
@@ -705,6 +710,7 @@ getState
 {
 if
 (
+!
 getIsCurrentThreadPaused
 (
 getState
@@ -713,6 +719,10 @@ getState
 )
 )
 {
+return
+null
+;
+}
 return
 dispatch
 (
@@ -724,7 +734,6 @@ stepOver
 )
 )
 ;
-}
 }
 ;
 }
@@ -769,6 +778,7 @@ getState
 {
 if
 (
+!
 getIsCurrentThreadPaused
 (
 getState
@@ -777,6 +787,10 @@ getState
 )
 )
 {
+return
+null
+;
+}
 return
 dispatch
 (
@@ -788,7 +802,6 @@ stepOut
 )
 )
 ;
-}
 }
 ;
 }
@@ -833,6 +846,7 @@ getState
 {
 if
 (
+!
 getIsCurrentThreadPaused
 (
 getState
@@ -841,6 +855,10 @@ getState
 )
 )
 {
+return
+null
+;
+}
 recordEvent
 (
 "
@@ -859,7 +877,6 @@ resume
 )
 )
 ;
-}
 }
 ;
 }
@@ -900,6 +917,7 @@ client
 {
 if
 (
+!
 getIsCurrentThreadPaused
 (
 getState
@@ -908,6 +926,10 @@ getState
 )
 )
 {
+return
+null
+;
+}
 return
 dispatch
 (
@@ -945,7 +967,6 @@ id
 }
 )
 ;
-}
 }
 ;
 }

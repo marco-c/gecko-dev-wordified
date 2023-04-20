@@ -284,6 +284,11 @@ actor
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 const
@@ -300,9 +305,18 @@ actor
 ;
 if
 (
+!
 objFront
 )
 {
+return
+Promise
+.
+resolve
+(
+)
+;
+}
 return
 objFront
 .
@@ -320,7 +334,6 @@ catch
 }
 )
 ;
-}
 }
 function
 lookupTarget
@@ -774,7 +787,7 @@ to
 all
 threads
 .
-return
+await
 forEachThread
 (
 thread
@@ -788,6 +801,8 @@ path
 method
 )
 )
+;
+return
 ;
 }
 const
@@ -850,7 +865,7 @@ to
 all
 threads
 .
-return
+await
 forEachThread
 (
 thread
@@ -864,6 +879,8 @@ path
 method
 )
 )
+;
+return
 ;
 }
 const
@@ -912,6 +929,7 @@ enabled
 )
 ;
 }
+async
 function
 addWatchpoint
 (
@@ -923,6 +941,7 @@ watchpointType
 {
 if
 (
+!
 currentTarget
 (
 )
@@ -935,6 +954,9 @@ watchpoints
 )
 )
 {
+return
+;
+}
 const
 objectFront
 =
@@ -943,7 +965,7 @@ createObjectFront
 object
 )
 ;
-return
+await
 objectFront
 .
 addWatchpoint
@@ -953,7 +975,6 @@ label
 watchpointType
 )
 ;
-}
 }
 async
 function
@@ -965,6 +986,7 @@ property
 {
 if
 (
+!
 currentTarget
 (
 )
@@ -977,6 +999,9 @@ watchpoints
 )
 )
 {
+return
+;
+}
 const
 objectFront
 =
@@ -993,7 +1018,6 @@ removeWatchpoint
 property
 )
 ;
-}
 }
 function
 hasBreakpoint
@@ -1070,6 +1094,7 @@ options
 )
 {
 return
+null
 ;
 }
 breakpoints
@@ -1288,6 +1313,13 @@ serverOptions
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 )
 ;
@@ -1426,6 +1458,13 @@ location
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 )
 ;
@@ -2025,7 +2064,7 @@ if
 hasWatcherSupport
 )
 {
-return
+await
 forEachThread
 (
 thread
@@ -2038,6 +2077,8 @@ setActiveEventBreakpoints
 ids
 )
 )
+;
+return
 ;
 }
 const
