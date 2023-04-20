@@ -196,11 +196,6 @@ writer_
 >
 Write
 (
-absl
-:
-:
-string_view
-(
 "
 capture_time
 render_time
@@ -214,7 +209,6 @@ psnr
 \
 n
 "
-)
 )
 ;
 }
