@@ -291,7 +291,7 @@ load
 *
 param
 {
-function
+Function
 }
 task
 *
