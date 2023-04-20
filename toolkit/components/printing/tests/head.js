@@ -1468,7 +1468,7 @@ PrintEventHandler
 _showPrintDialog
 =
 (
-dialogSvc
+window
 haveSelection
 settings
 )
