@@ -1383,9 +1383,7 @@ AtEnd
 )
 )
 ;
-const
 nsFrameList
-&
 list
 =
 mContainer
@@ -1638,6 +1636,16 @@ reset
 (
 )
 ;
+mozWritePoison
+(
+&
+mChildren
+sizeof
+(
+mChildren
+)
+)
+;
 }
 bool
 ItemsAreAlreadyInOrder
@@ -1714,9 +1722,7 @@ const
 b
 )
 ;
-const
 nsFrameList
-&
 mChildren
 ;
 /

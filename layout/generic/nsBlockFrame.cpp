@@ -43117,8 +43117,8 @@ nsBlockFrame
 :
 SetOverflowOutOfFlows
 (
+const
 nsFrameList
-&
 &
 aList
 nsFrameList
@@ -43244,13 +43244,7 @@ mismatch
 *
 aPropValue
 =
-std
-:
-:
-move
-(
 aList
-)
 ;
 }
 else
@@ -43268,13 +43262,7 @@ PresShell
 )
 nsFrameList
 (
-std
-:
-:
-move
-(
 aList
-)
 )
 )
 ;

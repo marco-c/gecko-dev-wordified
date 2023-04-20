@@ -733,9 +733,7 @@ nsTableFrame
 aTableFrame
 )
 {
-const
 nsFrameList
-&
 colGroups
 =
 aTableFrame
