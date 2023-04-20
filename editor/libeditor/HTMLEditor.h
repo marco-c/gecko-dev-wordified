@@ -26755,9 +26755,7 @@ removes
 elements
 which
 represent
-aProperty
-/
-aAttribute
+aStyleToRemove
 *
 and
 removes
@@ -26842,12 +26840,10 @@ RemoveStyleInside
 Element
 &
 aElement
-nsAtom
-*
-aProperty
-nsAtom
-*
-aAttribute
+const
+EditorInlineStyle
+&
+aStyleToRemove
 SpecifiedStyle
 aSpecifiedStyle
 )
