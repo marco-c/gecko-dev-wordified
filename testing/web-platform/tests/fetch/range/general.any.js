@@ -2,6 +2,13 @@
 /
 META
 :
+timeout
+=
+long
+/
+/
+META
+:
 global
 =
 window
