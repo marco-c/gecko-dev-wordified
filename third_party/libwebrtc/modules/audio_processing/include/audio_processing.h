@@ -1434,7 +1434,7 @@ stream_has_voice
 /
 /
 /
-Repeate
+Repeat
 render
 and
 capture
