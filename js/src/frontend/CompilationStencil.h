@@ -7930,9 +7930,9 @@ static
 bool
 prepareForInstantiate
 (
-ErrorContext
+JSContext
 *
-ec
+cx
 CompilationAtomCache
 &
 atomCache
@@ -9553,9 +9553,6 @@ CompilationState
 JSContext
 *
 cx
-ErrorContext
-*
-ec
 LifoAllocScope
 &
 parserAllocScope
@@ -9891,6 +9888,9 @@ ec
 bool
 appendGCThings
 (
+JSContext
+*
+cx
 ErrorContext
 *
 ec

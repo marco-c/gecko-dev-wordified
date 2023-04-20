@@ -9167,9 +9167,6 @@ emplace
 info
 .
 cx
-info
-.
-ec
 )
 ;
 if

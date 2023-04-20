@@ -8098,6 +8098,9 @@ ImmutableScriptData
 >
 createImmutableScriptData
 (
+JSContext
+*
+cx
 )
 ;
 private

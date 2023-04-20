@@ -1612,6 +1612,9 @@ env
 GeneratorResumeKind
 ParserAtomToResumeKind
 (
+JSContext
+*
+cx
 frontend
 :
 :
