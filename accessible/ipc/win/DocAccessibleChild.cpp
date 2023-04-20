@@ -1468,6 +1468,8 @@ a11y
 role
 &
 aRole
+uint8_t
+aRoleMapEntryIndex
 )
 {
 if
@@ -1484,6 +1486,7 @@ PDocAccessibleChild
 SendRoleChangedEvent
 (
 aRole
+aRoleMapEntryIndex
 )
 ;
 }
@@ -1496,6 +1499,7 @@ SerializedRoleChanged
 (
 this
 aRole
+aRoleMapEntryIndex
 )
 )
 ;

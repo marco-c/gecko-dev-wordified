@@ -12594,6 +12594,7 @@ SendRoleChangedEvent
 Role
 (
 )
+mRoleMapEntryIndex
 )
 ;
 }
@@ -12914,6 +12915,7 @@ SendRoleChangedEvent
 Role
 (
 )
+mRoleMapEntryIndex
 )
 ;
 }

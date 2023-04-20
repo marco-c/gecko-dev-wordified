@@ -4751,6 +4751,10 @@ a11y
 role
 &
 aRole
+const
+uint8_t
+&
+aRoleMapEntryIndex
 )
 {
 ACQUIRE_ANDROID_LOCK
@@ -4769,6 +4773,10 @@ mRole
 =
 aRole
 ;
+mRoleMapEntryIndex
+=
+aRoleMapEntryIndex
+;
 #
 ifdef
 MOZ_WIDGET_COCOA
@@ -4776,6 +4784,7 @@ ProxyRoleChangedEvent
 (
 this
 aRole
+aRoleMapEntryIndex
 )
 ;
 #
