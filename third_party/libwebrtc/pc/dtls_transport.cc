@@ -716,7 +716,7 @@ role
 DtlsTransportTlsRole
 :
 :
-kServer
+kClient
 ;
 break
 ;
@@ -731,7 +731,7 @@ role
 DtlsTransportTlsRole
 :
 :
-kClient
+kServer
 ;
 break
 ;
