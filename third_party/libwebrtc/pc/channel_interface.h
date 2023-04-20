@@ -245,15 +245,6 @@ const
 =
 0
 ;
-virtual
-bool
-enabled
-(
-)
-const
-=
-0
-;
 /
 /
 Enables
@@ -262,7 +253,7 @@ disables
 this
 channel
 virtual
-bool
+void
 Enable
 (
 bool

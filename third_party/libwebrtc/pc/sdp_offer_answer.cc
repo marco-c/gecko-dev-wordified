@@ -31003,15 +31003,6 @@ channel
 if
 (
 channel
-&
-&
-!
-channel
--
->
-enabled
-(
-)
 )
 {
 channel
