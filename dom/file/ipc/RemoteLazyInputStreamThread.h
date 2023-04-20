@@ -192,7 +192,7 @@ Initialize
 (
 )
 ;
-void
+bool
 InitializeOnMainThread
 (
 )
