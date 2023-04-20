@@ -2164,12 +2164,6 @@ funbox_
 -
 >
 hasParameterExprs
-|
-|
-funbox_
--
->
-hasDestructuringArgs
 )
 {
 if
@@ -2178,7 +2172,7 @@ if
 asyncEmitter_
 -
 >
-prepareForParamsWithExpressionOrDestructuring
+prepareForParamsWithExpression
 (
 )
 )
@@ -2196,7 +2190,7 @@ if
 asyncEmitter_
 -
 >
-prepareForParamsWithoutExpressionOrDestructuring
+prepareForParamsWithoutExpression
 (
 )
 )
