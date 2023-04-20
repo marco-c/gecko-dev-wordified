@@ -45407,6 +45407,10 @@ ifdef
 ENABLE_DECORATORS
 ListNodeType
 decorators
+=
+null
+(
+)
 ;
 if
 (
