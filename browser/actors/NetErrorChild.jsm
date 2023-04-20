@@ -696,6 +696,8 @@ setAttributes
 (
 span
 "
+neterror
+-
 dns
 -
 not
