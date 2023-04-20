@@ -1032,6 +1032,11 @@ NoteTerminating
 (
 )
 ;
+void
+NoteShuttingDown
+(
+)
+;
 /
 /
 nsIGlobalObject

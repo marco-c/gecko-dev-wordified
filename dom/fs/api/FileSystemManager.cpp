@@ -312,9 +312,13 @@ FileSystemManager
 FileSystemManager
 (
 )
-=
-default
+{
+MOZ_ASSERT
+(
+mShutdown
+)
 ;
+}
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 FileSystemManager
