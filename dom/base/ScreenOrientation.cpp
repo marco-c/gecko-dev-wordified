@@ -1916,6 +1916,13 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+&
+&
+!
+defined
+(
+XP_WIN
+)
 /
 /
 User
