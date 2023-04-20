@@ -1125,6 +1125,17 @@ z_off_t
 )
 )
 ;
+ZEXTERN
+uLong
+ZEXPORT
+crc32_combine_gen64
+OF
+(
+(
+z_off_t
+)
+)
+;
 #
 endif
 /
