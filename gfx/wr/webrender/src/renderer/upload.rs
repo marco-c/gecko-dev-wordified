@@ -273,7 +273,6 @@ api
 {
 ExternalImageSource
 ImageBufferKind
-ImageRendering
 ImageFormat
 }
 ;
@@ -765,10 +764,6 @@ lock
 (
 id
 channel_index
-ImageRendering
-:
-:
-Auto
 )
 .
 source

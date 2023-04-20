@@ -24585,9 +24585,6 @@ id
 ext_image
 .
 channel_index
-deferred_resolve
-.
-rendering
 )
 ;
 let
@@ -24695,6 +24692,9 @@ texture_target
 image
 .
 uv
+deferred_resolve
+.
+rendering
 )
 }
 ExternalImageSource
@@ -24764,6 +24764,9 @@ texture_target
 image
 .
 uv
+deferred_resolve
+.
+rendering
 )
 }
 ExternalImageSource
@@ -32608,9 +32611,6 @@ ExternalImageId
 channel_index
 :
 u8
-_rendering
-:
-ImageRendering
 )
 -
 >
@@ -33555,10 +33555,6 @@ lock
 (
 id
 channel_index
-ImageRendering
-:
-:
-Auto
 )
 ;
 let

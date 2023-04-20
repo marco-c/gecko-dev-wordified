@@ -181,11 +181,6 @@ gl
 GLContext
 *
 aGL
-wr
-:
-:
-ImageRendering
-aRendering
 )
 override
 ;
@@ -212,11 +207,6 @@ RenderAndroidHardwareBufferTextureHost
 bool
 EnsureLockable
 (
-wr
-:
-:
-ImageRendering
-aRendering
 )
 ;
 void

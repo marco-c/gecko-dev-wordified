@@ -241,11 +241,6 @@ gl
 GLContext
 *
 aGL
-wr
-:
-:
-ImageRendering
-aRendering
 )
 override
 ;

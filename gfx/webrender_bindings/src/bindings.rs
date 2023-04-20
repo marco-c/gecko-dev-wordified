@@ -2348,9 +2348,6 @@ ExternalImageId
 channel_index
 :
 u8
-rendering
-:
-ImageRendering
 )
 -
 >
@@ -2416,9 +2413,6 @@ ExternalImageId
 channel_index
 :
 u8
-rendering
-:
-ImageRendering
 )
 -
 >
@@ -2436,7 +2430,6 @@ self
 external_image_obj
 id
 channel_index
-rendering
 )
 }
 ;

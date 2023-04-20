@@ -167,11 +167,6 @@ aContext
 RenderCompositor
 *
 aCompositor
-wr
-:
-:
-ImageRendering
-aRendering
 )
 override
 ;
@@ -471,11 +466,6 @@ UpdatePlanes
 RenderCompositor
 *
 aCompositor
-wr
-:
-:
-ImageRendering
-aRendering
 )
 ;
 void
