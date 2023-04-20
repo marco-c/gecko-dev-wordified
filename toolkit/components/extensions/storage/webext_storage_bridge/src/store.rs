@@ -88,7 +88,7 @@ golden_gate
 ApplyResults
 BridgedEngine
 Guid
-IncomingEnvelope
+IncomingBso
 }
 ;
 use
@@ -1487,10 +1487,10 @@ store_incoming
 self
 envelopes
 :
-&
-[
-IncomingEnvelope
-]
+Vec
+<
+IncomingBso
+>
 )
 -
 >
