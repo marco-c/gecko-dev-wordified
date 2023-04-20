@@ -119,12 +119,6 @@ RTC_EXTERN
 NSString
 *
 const
-kRTCFieldTrialAudioSendSideBweKey
-;
-RTC_EXTERN
-NSString
-*
-const
 kRTCFieldTrialAudioForceNoTWCCKey
 ;
 RTC_EXTERN
