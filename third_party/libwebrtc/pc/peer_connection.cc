@@ -7711,6 +7711,10 @@ return
 false
 ;
 }
+RTC_LOG_THREAD_BLOCK_COUNT
+(
+)
+;
 stats_
 -
 >
@@ -7850,6 +7854,10 @@ stats_collector_
 RTC_DCHECK
 (
 callback
+)
+;
+RTC_LOG_THREAD_BLOCK_COUNT
+(
 )
 ;
 stats_collector_
@@ -11293,6 +11301,10 @@ PeerConnection
 :
 Close
 "
+)
+;
+RTC_LOG_THREAD_BLOCK_COUNT
+(
 )
 ;
 if
