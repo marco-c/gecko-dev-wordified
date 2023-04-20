@@ -179,7 +179,7 @@ event_last_time_
 =
 event_time
 ;
-event_count_
+events_count_
 +
 +
 ;
@@ -251,7 +251,7 @@ static_cast
 double
 >
 (
-event_count_
+events_count_
 )
 /
 (
