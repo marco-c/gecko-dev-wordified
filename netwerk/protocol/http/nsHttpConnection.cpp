@@ -6732,10 +6732,6 @@ SetProxyConnectFailed
 (
 )
 ;
-mDontReuse
-=
-true
-;
 }
 }
 void
