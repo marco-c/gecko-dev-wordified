@@ -102,11 +102,6 @@ dom
 =
 [
 "
-FileSystemAccessHandleParent
-.
-h
-"
-"
 FileSystemManagerParent
 .
 h
@@ -126,11 +121,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-FileSystemAccessHandleParent
-.
-cpp
-"
 "
 FileSystemHashSource
 .
