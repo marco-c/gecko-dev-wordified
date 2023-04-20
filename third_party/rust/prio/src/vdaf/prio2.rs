@@ -656,13 +656,6 @@ Vdaf
 for
 Prio2
 {
-const
-ID
-:
-u32
-=
-0xFFFF0000
-;
 type
 Measurement
 =
@@ -681,12 +674,6 @@ u32
 ;
 type
 AggregationParam
-=
-(
-)
-;
-type
-PublicShare
 =
 (
 )
@@ -765,9 +752,6 @@ u32
 >
 Result
 <
-(
-(
-)
 Vec
 <
 Share
@@ -776,7 +760,6 @@ FieldPrio2
 32
 >
 >
-)
 VdafError
 >
 {
@@ -969,9 +952,6 @@ d
 }
 Ok
 (
-(
-(
-)
 vec
 !
 [
@@ -990,7 +970,6 @@ Helper
 helper_seed
 )
 ]
-)
 )
 }
 }
@@ -1404,13 +1383,6 @@ nonce
 [
 u8
 ]
-_public_share
-:
-&
-Self
-:
-:
-PublicShare
 input_share
 :
 &
@@ -2658,8 +2630,6 @@ verify_key
 )
 &
 nonce
-(
-)
 input_shares
 )
 .
@@ -2764,10 +2734,7 @@ unwrap
 )
 ;
 let
-(
-_public_share
 input_shares
-)
 =
 prio2
 .
@@ -3018,10 +2985,7 @@ unwrap
 )
 ;
 let
-(
-public_share
 input_shares
-)
 =
 prio2
 .
@@ -3070,8 +3034,6 @@ agg_id
 &
 [
 ]
-&
-public_share
 input_share
 )
 .
