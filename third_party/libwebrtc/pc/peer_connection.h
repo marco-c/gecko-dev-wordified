@@ -3281,12 +3281,6 @@ SrtpRequired
 (
 )
 const
-RTC_RUN_ON
-(
-signaling_thread
-(
-)
-)
 ;
 void
 OnSentPacket_w

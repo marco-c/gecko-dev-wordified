@@ -17218,6 +17218,13 @@ SrtpRequired
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+signaling_thread
+(
+)
+)
+;
 return
 (
 dtls_enabled_
