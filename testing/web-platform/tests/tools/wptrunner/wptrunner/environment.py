@@ -2144,18 +2144,7 @@ timeout
 )
 :
                             
-#
-TODO
-(
-bashi
-)
-:
-Consider
-supporting
-retry
-.
-                            
-failed
+pending
 .
 append
 (
