@@ -509,6 +509,12 @@ display
 :
 flex
 ;
+align
+-
+items
+:
+center
+;
 }
 .
 scopes
