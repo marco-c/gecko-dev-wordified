@@ -153,9 +153,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -172,7 +172,9 @@ modules
 /
 Subprocess
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

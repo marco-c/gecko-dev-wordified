@@ -2920,7 +2920,7 @@ win32
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2935,7 +2935,9 @@ subprocess
 /
 subprocess_win
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -4808,7 +4810,7 @@ libc
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -4823,7 +4825,9 @@ subprocess
 /
 subprocess_unix
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -5192,7 +5196,7 @@ getSubprocessImplForTest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -5205,7 +5209,9 @@ modules
 /
 Subprocess
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -64,7 +64,7 @@ Subprocess
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -77,7 +77,9 @@ modules
 /
 Subprocess
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
