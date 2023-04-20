@@ -11298,6 +11298,13 @@ gain_controller1
 analog_gain_controller
 .
 clipped_wait_frames
+config_
+.
+gain_controller1
+.
+analog_gain_controller
+.
+clipping_predictor
 )
 )
 ;
