@@ -430,12 +430,6 @@ mImageClient
 UpdateImage
 (
 mImageContainer
-/
-*
-unused
-*
-/
-0
 )
 ;
 }

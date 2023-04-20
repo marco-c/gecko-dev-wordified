@@ -462,8 +462,6 @@ UpdateImage
 ImageContainer
 *
 aContainer
-uint32_t
-aContentFlags
 )
 =
 0
@@ -613,8 +611,6 @@ UpdateImage
 ImageContainer
 *
 aContainer
-uint32_t
-aContentFlag
 )
 override
 ;

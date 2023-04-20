@@ -881,12 +881,6 @@ imageClient
 UpdateImage
 (
 aContainer
-/
-*
-unused
-*
-/
-0
 )
 ;
 RefPtr
