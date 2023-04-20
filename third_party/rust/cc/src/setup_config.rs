@@ -24,7 +24,7 @@ LICENSE
 -
 APACHE
 or
-https
+http
 :
 /
 /
@@ -53,7 +53,7 @@ LICENSE
 -
 MIT
 or
-https
+http
 :
 /
 /
