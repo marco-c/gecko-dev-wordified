@@ -181,11 +181,16 @@ DtlsSrtpTransport
 (
 bool
 rtcp_mux_enabled
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 SrtpTransport
 (
 rtcp_mux_enabled
+field_trials
 )
 {
 }

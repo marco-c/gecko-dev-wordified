@@ -420,6 +420,13 @@ config_
 on_dtls_handshake_error_
 )
 ;
+RTC_DCHECK
+(
+config_
+.
+field_trials
+)
+;
 }
 JsepTransportController
 :
@@ -3008,6 +3015,10 @@ rtcp_dtls_transport
 =
 =
 nullptr
+*
+config_
+.
+field_trials
 )
 ;
 RTC_DCHECK
@@ -3115,6 +3126,10 @@ rtcp_dtls_transport
 =
 =
 nullptr
+*
+config_
+.
+field_trials
 )
 ;
 if

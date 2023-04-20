@@ -310,6 +310,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 namespace
 cricket
 {
@@ -645,6 +654,7 @@ rtcp_packet_transport
 =
 =
 nullptr
+field_trials_
 )
 ;
 srtp_transport
@@ -717,6 +727,7 @@ rtcp_dtls_transport
 =
 =
 nullptr
+field_trials_
 )
 ;
 dtls_srtp_transport
@@ -1299,6 +1310,15 @@ SrtpTransport
 sdes_transport_
 =
 nullptr
+;
+webrtc
+:
+:
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
 ;
 }
 ;
