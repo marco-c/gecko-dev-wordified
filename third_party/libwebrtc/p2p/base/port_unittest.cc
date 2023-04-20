@@ -3874,6 +3874,12 @@ addr
 0
 username_
 password_
+std
+:
+:
+string
+(
+)
 true
 absl
 :
@@ -3994,6 +4000,12 @@ addr
 username_
 password_
 stun_servers
+std
+:
+:
+string
+(
+)
 absl
 :
 :
@@ -4129,6 +4141,8 @@ int_proto
 )
 kRelayCredentials
 0
+"
+"
 {
 }
 {
