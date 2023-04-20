@@ -334,6 +334,8 @@ std
 string
 >
 stream_ids
+bool
+is_unified_plan
 )
 ;
 /
@@ -393,6 +395,8 @@ MediaStreamInterface
 >
 &
 streams
+bool
+is_unified_plan
 )
 ;
 virtual

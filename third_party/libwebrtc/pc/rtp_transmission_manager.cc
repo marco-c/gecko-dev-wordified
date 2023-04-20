@@ -1796,6 +1796,9 @@ string
 {
 }
 )
+IsUnifiedPlan
+(
+)
 )
 )
 ;
@@ -3464,6 +3467,9 @@ remote_sender_info
 .
 sender_id
 streams
+IsUnifiedPlan
+(
+)
 )
 ;
 audio_receiver
