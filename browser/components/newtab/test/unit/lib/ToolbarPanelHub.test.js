@@ -2002,8 +2002,6 @@ assert
 .
 notCalled
 (
-global
-.
 PanelMultiView
 .
 getViewNode
