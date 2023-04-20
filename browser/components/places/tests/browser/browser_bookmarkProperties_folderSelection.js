@@ -338,7 +338,7 @@ equal
 (
 folderTreeRow
 .
-collapsed
+hidden
 true
 "
 Should
@@ -346,7 +346,7 @@ have
 the
 folder
 tree
-collapsed
+hidden
 "
 )
 ;
@@ -416,7 +416,7 @@ waitForCondition
 !
 folderTreeRow
 .
-collapsed
+hidden
 "
 Should
 show
@@ -607,7 +607,7 @@ waitForCondition
 >
 folderTreeRow
 .
-collapsed
+hidden
 "
 Should
 hide
@@ -676,7 +676,7 @@ waitForCondition
 !
 folderTreeRow
 .
-collapsed
+hidden
 "
 Should
 re

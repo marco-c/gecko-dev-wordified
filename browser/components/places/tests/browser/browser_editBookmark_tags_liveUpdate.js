@@ -324,7 +324,7 @@ editBMPanel_tagsSelectorRow
 "
 )
 .
-collapsed
+hidden
 =
 false
 ;
