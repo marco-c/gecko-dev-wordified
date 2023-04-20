@@ -197,11 +197,6 @@ source
 VideoFrameTrackingId
 (
 )
-.
-value_or
-(
-0
-)
 source
 /
 *
