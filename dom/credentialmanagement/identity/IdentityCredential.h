@@ -1250,6 +1250,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+IdentityProvider
+&
+aProvider
+const
 IdentityInternalManifest
 &
 aManifest
