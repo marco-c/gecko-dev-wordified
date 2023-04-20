@@ -3003,15 +3003,6 @@ return
 "
 off
 "
-"
-no
--
-with
-"
-:
-"
-off
-"
 }
 }
 {
