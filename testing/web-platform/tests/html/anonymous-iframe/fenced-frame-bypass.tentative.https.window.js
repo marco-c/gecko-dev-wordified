@@ -127,7 +127,7 @@ document
 /
 D
 (
-anonymous
+credentialless
 -
 iframe
 )
@@ -145,7 +145,7 @@ frame
 /
 C
 (
-anonymous
+credentialless
 -
 iframe
 )
@@ -160,7 +160,7 @@ test
 whether
 the
 two
-anonymous
+credentialless
 iframe
 can
 communicate
@@ -210,9 +210,9 @@ the
 actors
 .
 const
-anonymous_iframe_1
+iframe_credentialless_1
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 cross_origin
 )
@@ -314,9 +314,9 @@ frame
 "
 ;
 const
-anonymous_iframe_2
+iframe_credentialless_2
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 "
 {
@@ -333,13 +333,13 @@ send
 msg_queue
 }
 "
-anonymous_iframe_2
+iframe_credentialless_2
 )
 ;
 )
 ;
 const
-anonymous_iframe_2
+iframe_credentialless_2
 =
 await
 receive
@@ -357,10 +357,10 @@ BroadCastChannel
 in
 between
 the
-two
+credentialless
 /
 /
-AnonymousIframe
+iframes
 .
 const
 bc_key
@@ -371,7 +371,7 @@ token
 ;
 send
 (
-anonymous_iframe_1
+iframe_credentialless_1
 const
 bc
 =
@@ -435,7 +435,7 @@ registered
 await
 send
 (
-anonymous_iframe_2
+iframe_credentialless_2
 const
 bc
 =

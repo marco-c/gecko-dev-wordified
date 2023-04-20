@@ -326,8 +326,8 @@ token
 2
 actors
 :
-An
-anonymous
+A
+credentialless
 iframe
 and
 a
@@ -335,9 +335,9 @@ normal
 one
 .
 const
-iframe_anonymous
+iframe_credentialless
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -382,7 +382,7 @@ keys
 .
 send
 (
-iframe_anonymous
+iframe_credentialless
 store_script
 (
 key_1
@@ -452,7 +452,7 @@ success
 .
 send
 (
-iframe_anonymous
+iframe_credentialless
 load_script
 (
 key_2
@@ -516,7 +516,7 @@ success
 :
 send
 (
-iframe_anonymous
+iframe_credentialless
 load_script
 (
 key_1

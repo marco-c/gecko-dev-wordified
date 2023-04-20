@@ -1,8 +1,8 @@
 /
 /
 Create
-an
-anonymous
+a
+credentialless
 iframe
 .
 The
@@ -12,9 +12,9 @@ will
 execute
 any
 scripts
+/
+/
 sent
-/
-/
 toward
 the
 token
@@ -22,7 +22,7 @@ it
 returns
 .
 const
-newAnonymousIframe
+newIframeCredentialless
 =
 (
 child_origin
@@ -76,7 +76,7 @@ sub_document_token
 ;
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -162,7 +162,7 @@ sub_document_token
 ;
 iframe
 .
-anonymous
+credentialless
 =
 false
 document

@@ -343,8 +343,8 @@ token
 2
 actors
 :
-An
-anonymous
+A
+credentialless
 iframe
 and
 a
@@ -352,9 +352,9 @@ normal
 one
 .
 const
-iframe_anonymous
+iframe_credentialless
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -395,7 +395,7 @@ sides
 .
 send
 (
-iframe_anonymous
+iframe_credentialless
 acquire_script
 (
 key_1
@@ -440,7 +440,7 @@ locked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 key_1
 ]
@@ -487,7 +487,7 @@ partitioned
 .
 send
 (
-iframe_anonymous
+iframe_credentialless
 acquire_script
 (
 key_2
@@ -532,7 +532,7 @@ locked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 key_1
 key_2
@@ -568,7 +568,7 @@ sides
 .
 send
 (
-iframe_anonymous
+iframe_credentialless
 release_script
 (
 response_queue_1
@@ -602,7 +602,7 @@ unlocked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 ]
 )
@@ -653,7 +653,7 @@ unlocked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 ]
 )

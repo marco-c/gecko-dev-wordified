@@ -476,7 +476,7 @@ test
 actors
 :
 2
-anonymous
+credentialless
 iframe
 and
 2
@@ -496,11 +496,11 @@ const
 iframes
 =
 [
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -717,7 +717,7 @@ state
 Verify
 the
 two
-anonymous
+credentialless
 iframe
 share
 the
@@ -726,9 +726,9 @@ state
 and
 the
 normal
+/
+/
 iframe
-/
-/
 share
 a
 second

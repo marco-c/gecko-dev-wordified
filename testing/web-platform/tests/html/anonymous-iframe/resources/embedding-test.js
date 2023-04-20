@@ -121,8 +121,8 @@ block
 /
 /
 Load
-an
-anonymous
+a
+credentialless
 iframe
 .
 Control
@@ -301,7 +301,7 @@ iframe
 ;
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -534,9 +534,9 @@ expectation
 =
 EXPECT_BLOCK
 ?
-2000
+1500
 :
-6000
+3500
 )
 ;
 assert_equals

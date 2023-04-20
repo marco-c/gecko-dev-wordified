@@ -180,8 +180,8 @@ false
 /
 /
 Create
-an
-anonymous
+a
+credentialless
 child
 iframe
 .
@@ -199,7 +199,7 @@ iframe
 ;
 child
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -270,7 +270,7 @@ child
 )
 "
 The
-anonymous
+credentialless
 iframe
 should
 be
@@ -286,7 +286,7 @@ a
 child
 of
 the
-anonymous
+credentialless
 iframe
 .
 Even
@@ -300,7 +300,7 @@ not
 have
 the
 '
-anonymous
+credentialless
 '
 attribute
 set
@@ -309,7 +309,7 @@ inherits
 the
 /
 /
-anonymous
+credentialless
 property
 from
 the
@@ -386,7 +386,7 @@ The
 child
 of
 the
-anonymous
+credentialless
 iframe
 should
 be
@@ -398,8 +398,8 @@ allowed
 }
 '
 Loading
-an
-anonymous
+a
+credentialless
 iframe
 with
 COEP

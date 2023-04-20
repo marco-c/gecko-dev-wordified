@@ -106,7 +106,7 @@ status
 ;
 iframe
 .
-anonymous
+credentialless
 =
 false
 ;
@@ -121,7 +121,7 @@ iframe
 ;
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -174,7 +174,7 @@ assert_true
 (
 iframe
 .
-anonymous
+credentialless
 )
 ;
 assert_true
@@ -183,7 +183,7 @@ iframe
 .
 contentWindow
 .
-anonymouslyFramed
+credentialless
 )
 ;
 assert_equals
@@ -198,7 +198,7 @@ modified
 ;
 }
 "
-Anonymous
+Credentialless
 (
 false
 =
@@ -257,7 +257,7 @@ status
 ;
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -272,7 +272,7 @@ iframe
 ;
 iframe
 .
-anonymous
+credentialless
 =
 false
 ;
@@ -325,7 +325,7 @@ assert_false
 (
 iframe
 .
-anonymous
+credentialless
 )
 ;
 assert_false
@@ -334,7 +334,7 @@ iframe
 .
 contentWindow
 .
-anonymouslyFramed
+credentialless
 )
 ;
 assert_equals
@@ -349,7 +349,7 @@ modified
 ;
 }
 "
-Anonymous
+Credentialless
 (
 true
 =
@@ -386,7 +386,7 @@ iframe
 ;
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -423,7 +423,7 @@ iframe
 ;
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -476,7 +476,7 @@ assert_true
 (
 iframe
 .
-anonymous
+credentialless
 )
 ;
 assert_true
@@ -485,7 +485,7 @@ iframe
 .
 contentWindow
 .
-anonymouslyFramed
+credentialless
 )
 ;
 assert_true
@@ -499,7 +499,7 @@ modified
 ;
 }
 "
-Anonymous
+Credentialless
 (
 true
 =

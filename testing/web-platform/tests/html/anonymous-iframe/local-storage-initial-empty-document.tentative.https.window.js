@@ -95,7 +95,7 @@ nested
 inside
 /
 /
-anonymous
+credentialless
 iframes
 .
 /
@@ -119,7 +119,7 @@ A
 /
 B
 (
-anonymous
+credentialless
 )
 /
 /
@@ -167,7 +167,7 @@ test
 const
 iframe_B
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -545,7 +545,7 @@ value_E
 /
 Verify
 the
-anonymous
+credentialless
 iframe
 and
 the
@@ -625,7 +625,7 @@ partitioned
 with
 regards
 to
-anonymous
+credentialless
 iframe
 "
 +
