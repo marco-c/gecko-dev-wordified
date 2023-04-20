@@ -691,6 +691,16 @@ button
 =
 selected
 .
+closest
+(
+"
+.
+urlbarView
+-
+row
+"
+)
+.
 querySelector
 (
 selector
