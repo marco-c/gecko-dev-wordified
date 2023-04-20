@@ -1313,6 +1313,13 @@ AsRenderAndroidSurfaceTextureHost
 (
 )
 ;
+host
+-
+>
+UpdateTexImageIfNecessary
+(
+)
+;
 /
 /
 We
