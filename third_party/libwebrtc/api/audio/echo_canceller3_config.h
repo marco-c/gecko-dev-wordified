@@ -1092,6 +1092,11 @@ floor_first_increase
 .
 00001f
 ;
+bool
+conservative_hf_suppression
+=
+false
+;
 }
 suppressor
 ;
