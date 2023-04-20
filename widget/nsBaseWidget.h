@@ -865,6 +865,15 @@ NS_DECL_THREADSAFE_ISUPPORTS
 nsIWidget
 interface
 void
+CaptureMouse
+(
+bool
+aCapture
+)
+override
+{
+}
+void
 CaptureRollupEvents
 (
 bool
