@@ -167,6 +167,13 @@ nsIAccessibleEvent
 EVENT_SCROLLING
 ;
 const
+EVENT_SCROLLING_START
+=
+nsIAccessibleEvent
+.
+EVENT_SCROLLING_START
+;
+const
 EVENT_SCROLLING_END
 =
 nsIAccessibleEvent
