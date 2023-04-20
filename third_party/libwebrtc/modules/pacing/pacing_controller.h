@@ -842,6 +842,16 @@ DataRate
 padding_rate
 )
 ;
+DataRate
+pacing_rate
+(
+)
+const
+{
+return
+pacing_bitrate_
+;
+}
 /
 /
 Currently
