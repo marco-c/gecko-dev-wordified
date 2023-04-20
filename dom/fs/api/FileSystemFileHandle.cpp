@@ -168,7 +168,7 @@ mozilla
 /
 dom
 /
-POriginPrivateFileSystem
+PFileSystemManager
 .
 h
 "

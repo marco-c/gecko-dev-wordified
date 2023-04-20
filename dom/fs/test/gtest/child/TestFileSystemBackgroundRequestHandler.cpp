@@ -162,7 +162,7 @@ mozilla
 /
 dom
 /
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 .
 h
 "
@@ -173,7 +173,7 @@ mozilla
 /
 dom
 /
-POriginPrivateFileSystem
+PFileSystemManager
 .
 h
 "
@@ -208,11 +208,11 @@ SetUp
 )
 override
 {
-mOPFSChild
+mFileSystemManagerChild
 =
 MakeAndAddRef
 <
-TestOriginPrivateFileSystemChild
+TestFileSystemManagerChild
 >
 (
 )
@@ -235,7 +235,7 @@ FileSystemBackgroundRequestHandler
 new
 TestFileSystemChildFactory
 (
-mOPFSChild
+mFileSystemManagerChild
 )
 )
 ;
@@ -255,9 +255,9 @@ GetPrincipalInfo
 ;
 RefPtr
 <
-TestOriginPrivateFileSystemChild
+TestFileSystemManagerChild
 >
-mOPFSChild
+mFileSystemManagerChild
 ;
 }
 ;
@@ -270,7 +270,7 @@ isCreateFileSystemManagerChildSuccessful
 EXPECT_CALL
 (
 *
-mOPFSChild
+mFileSystemManagerChild
 Shutdown
 (
 )
@@ -284,10 +284,10 @@ this
 (
 )
 {
-mOPFSChild
+mFileSystemManagerChild
 -
 >
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 :
 :
 Shutdown
@@ -332,7 +332,7 @@ done
 const
 RefPtr
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 &
 child

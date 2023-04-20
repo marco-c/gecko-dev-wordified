@@ -678,7 +678,7 @@ mozilla
 dom
 :
 :
-POriginPrivateFileSystemParent
+PFileSystemManagerParent
 >
 &
 &

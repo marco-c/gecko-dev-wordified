@@ -203,7 +203,7 @@ mozilla
 /
 dom
 /
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 .
 h
 "

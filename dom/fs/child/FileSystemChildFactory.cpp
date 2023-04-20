@@ -139,7 +139,7 @@ mozilla
 /
 dom
 /
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 .
 h
 "
@@ -154,7 +154,7 @@ fs
 {
 already_AddRefed
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 FileSystemChildFactory
 :
@@ -167,7 +167,7 @@ const
 return
 MakeAndAddRef
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 (
 )

@@ -157,7 +157,7 @@ mozilla
 /
 dom
 /
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 .
 h
 "
@@ -404,7 +404,7 @@ forget
 )
 ;
 }
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 *
 FileSystemHandle
 :

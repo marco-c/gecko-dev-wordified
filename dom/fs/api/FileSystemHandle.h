@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-POriginPrivateFileSystem
+PFileSystemManager
 .
 h
 "
@@ -241,7 +241,7 @@ FileSystemHandleKind
 uint8_t
 ;
 class
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 ;
 class
 Promise
@@ -364,7 +364,7 @@ aError
 )
 const
 ;
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 *
 Actor
 (

@@ -214,7 +214,7 @@ mozilla
 /
 dom
 /
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 .
 h
 "
@@ -1095,10 +1095,10 @@ mOnError
 }
 ;
 class
-TestOriginPrivateFileSystemChild
+TestFileSystemManagerChild
 :
 public
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 {
 public
 :
@@ -1379,7 +1379,7 @@ protected
 :
 virtual
 ~
-TestOriginPrivateFileSystemChild
+TestFileSystemManagerChild
 (
 )
 =
@@ -1399,7 +1399,7 @@ public
 explicit
 TestFileSystemChildFactory
 (
-TestOriginPrivateFileSystemChild
+TestFileSystemManagerChild
 *
 aChild
 )
@@ -1412,7 +1412,7 @@ aChild
 }
 already_AddRefed
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 Create
 (
@@ -1423,7 +1423,7 @@ override
 return
 RefPtr
 <
-TestOriginPrivateFileSystemChild
+TestFileSystemManagerChild
 >
 (
 mChild
@@ -1443,7 +1443,7 @@ default
 ;
 private
 :
-TestOriginPrivateFileSystemChild
+TestFileSystemManagerChild
 *
 mChild
 ;

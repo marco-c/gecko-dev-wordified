@@ -139,7 +139,7 @@ namespace
 dom
 {
 class
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 ;
 }
 /
@@ -168,7 +168,7 @@ public
 virtual
 already_AddRefed
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 Create
 (

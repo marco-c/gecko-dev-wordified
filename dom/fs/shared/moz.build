@@ -114,7 +114,7 @@ IPDL_SOURCES
 =
 [
 "
-POriginPrivateFileSystem
+PFileSystemManager
 .
 ipdl
 "
