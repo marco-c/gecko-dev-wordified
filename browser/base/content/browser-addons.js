@@ -8974,6 +8974,12 @@ newArea
 newPosition
 )
 ;
+this
+.
+updateAttention
+(
+)
+;
 }
 }
 ;
