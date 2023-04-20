@@ -12,9 +12,6 @@ use
 digest
 :
 :
-generic_array
-:
-:
 typenum
 :
 :
@@ -268,13 +265,6 @@ the
 same
 memory
 layout
-#
-[
-allow
-(
-unsafe_code
-)
-]
 let
 blocks
 :

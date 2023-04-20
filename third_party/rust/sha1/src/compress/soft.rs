@@ -1611,6 +1611,16 @@ block
 ]
 ]
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+needless_late_init
+)
+]
 let
 mut
 w4
