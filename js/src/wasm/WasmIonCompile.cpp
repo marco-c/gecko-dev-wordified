@@ -44487,7 +44487,7 @@ uint32_t
 SimdOp
 :
 :
-F32x4RelaxedFms
+F32x4RelaxedFnma
 )
 :
 case
@@ -44505,7 +44505,7 @@ uint32_t
 SimdOp
 :
 :
-F64x2RelaxedFms
+F64x2RelaxedFnma
 )
 :
 case

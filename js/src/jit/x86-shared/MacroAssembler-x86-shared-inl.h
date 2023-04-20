@@ -18694,7 +18694,7 @@ void
 MacroAssembler
 :
 :
-fmsFloat32x4
+fnmaFloat32x4
 (
 FloatRegister
 src1
@@ -18782,7 +18782,7 @@ void
 MacroAssembler
 :
 :
-fmsFloat64x2
+fnmaFloat64x2
 (
 FloatRegister
 src1

@@ -7966,7 +7966,7 @@ wasm
 SimdOp
 :
 :
-F32x4RelaxedFms
+F32x4RelaxedFnma
 :
 case
 wasm
@@ -7984,7 +7984,7 @@ wasm
 SimdOp
 :
 :
-F64x2RelaxedFms
+F64x2RelaxedFnma
 :
 {
 auto
@@ -8005,7 +8005,7 @@ ins
 simdOp
 (
 )
-useRegisterAtStart
+useRegister
 (
 ins
 -
@@ -8023,7 +8023,7 @@ v1
 (
 )
 )
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -8041,7 +8041,7 @@ ins
 LWasmTernarySimd128
 :
 :
-V0
+V2
 )
 ;
 break

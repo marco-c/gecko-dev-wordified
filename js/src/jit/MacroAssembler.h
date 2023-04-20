@@ -24557,7 +24557,7 @@ arm64
 ;
 inline
 void
-fmsFloat32x4
+fnmaFloat32x4
 (
 FloatRegister
 src1
@@ -24591,7 +24591,7 @@ arm64
 ;
 inline
 void
-fmsFloat64x2
+fnmaFloat64x2
 (
 FloatRegister
 src1
