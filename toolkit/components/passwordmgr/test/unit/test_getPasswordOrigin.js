@@ -54,13 +54,7 @@ chrome
 /
 MyAccount
 "
-"
-chrome
-:
-/
-/
-myaccount
-"
+null
 ]
 [
 "
