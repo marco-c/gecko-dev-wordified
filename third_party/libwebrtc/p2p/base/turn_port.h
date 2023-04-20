@@ -2483,14 +2483,6 @@ int64_t
 timestamp
 )
 ;
-void
-ScheduleEntryDestruction
-(
-TurnEntry
-*
-entry
-)
-;
 /
 /
 Marks

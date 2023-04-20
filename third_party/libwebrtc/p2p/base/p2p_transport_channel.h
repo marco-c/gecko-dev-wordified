@@ -1977,6 +1977,15 @@ MaybeStopPortAllocatorSessions
 (
 )
 ;
+void
+OnSelectedConnectionDestroyed
+(
+)
+RTC_RUN_ON
+(
+network_thread_
+)
+;
 /
 /
 ComputeIceTransportState
