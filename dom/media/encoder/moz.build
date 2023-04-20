@@ -177,14 +177,6 @@ VP8TrackEncoder
 cpp
 "
 ]
-DEFINES
-[
-"
-TRACING
-"
-]
-=
-True
 FINAL_LIBRARY
 =
 "

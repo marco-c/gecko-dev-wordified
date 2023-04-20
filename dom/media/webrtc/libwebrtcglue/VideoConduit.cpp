@@ -9007,6 +9007,9 @@ rect
 "
 )
 ;
+#
+ifdef
+MOZ_REAL_TIME_TRACING
 if
 (
 profiler_is_active
@@ -9152,6 +9155,8 @@ get
 )
 ;
 }
+#
+endif
 mVideoBroadcaster
 .
 OnFrame
@@ -11298,6 +11303,9 @@ timestamp
 ;
 }
 }
+#
+ifdef
+MOZ_REAL_TIME_TRACING
 if
 (
 profiler_is_active
@@ -11392,6 +11400,8 @@ localRecvSsrc
 )
 ;
 }
+#
+endif
 mRenderer
 -
 >
