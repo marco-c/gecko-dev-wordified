@@ -175,7 +175,7 @@ gUpdateCount
 ;
 requestLongerTimeout
 (
-2
+5
 )
 ;
 function
