@@ -351,7 +351,6 @@ e
 ;
 events
 =
-(
 events
 .
 parent
@@ -359,7 +358,6 @@ parent
 |
 [
 ]
-)
 ;
 let
 event
