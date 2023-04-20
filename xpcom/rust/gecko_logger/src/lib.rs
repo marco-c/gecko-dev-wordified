@@ -983,7 +983,6 @@ true
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C

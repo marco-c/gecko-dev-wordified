@@ -1676,7 +1676,6 @@ data
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -2858,7 +2857,6 @@ NS_ERROR_UNEXPECTED
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -6133,7 +6131,6 @@ buf
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C

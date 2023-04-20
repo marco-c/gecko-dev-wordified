@@ -1529,7 +1529,6 @@ cpp
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
