@@ -96,7 +96,7 @@ MPL
 #
 include
 <
-WinUser
+winuser
 .
 h
 >
