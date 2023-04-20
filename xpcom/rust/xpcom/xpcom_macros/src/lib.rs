@@ -673,7 +673,7 @@ self
 )
 -
 >
-nsrefcnt
+MozExternalRefCountType
 ;
 /
 /
@@ -687,7 +687,7 @@ self
 )
 -
 >
-nsrefcnt
+MozExternalRefCountType
 ;
 /
 /
@@ -3661,7 +3661,7 @@ QueryInterface
 in
 terms
 of
-coersions
+coercions
 .
 self
 .
@@ -5771,10 +5771,7 @@ self
 xpcom
 :
 :
-interfaces
-:
-:
-nsrefcnt
+MozExternalRefCountType
 {
 let
 new
@@ -5855,10 +5852,7 @@ self
 xpcom
 :
 :
-interfaces
-:
-:
-nsrefcnt
+MozExternalRefCountType
 {
 let
 new
