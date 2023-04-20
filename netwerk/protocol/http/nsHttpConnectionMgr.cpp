@@ -11941,7 +11941,14 @@ ent
 GetOrCreateConnectionEntry
 (
 ci
-false
+trans
+-
+>
+Caps
+(
+)
+&
+NS_HTTP_DISALLOW_HTTP2_PROXY
 trans
 -
 >
