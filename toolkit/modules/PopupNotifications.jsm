@@ -8608,7 +8608,7 @@ openPopup
 (
 anchorElement
 "
-bottomleft
+bottomcenter
 topleft
 "
 0

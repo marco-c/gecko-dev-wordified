@@ -3499,7 +3499,7 @@ setAttribute
 position
 "
 "
-bottomright
+bottomcenter
 topright
 "
 )

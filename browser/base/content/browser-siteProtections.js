@@ -12867,7 +12867,7 @@ _trackingProtectionIconContainer
 position
 :
 "
-bottomleft
+bottomcenter
 topleft
 "
 triggerEvent

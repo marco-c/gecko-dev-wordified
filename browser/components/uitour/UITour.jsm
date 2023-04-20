@@ -7893,7 +7893,7 @@ let
 alignment
 =
 "
-bottomright
+bottomcenter
 topright
 "
 ;
