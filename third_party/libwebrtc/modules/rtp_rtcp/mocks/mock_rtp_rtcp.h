@@ -897,6 +897,17 @@ override
 ;
 MOCK_METHOD
 (
+void
+OnPacketSendingThreadSwitched
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
 RtcpMode
 RTCP
 (

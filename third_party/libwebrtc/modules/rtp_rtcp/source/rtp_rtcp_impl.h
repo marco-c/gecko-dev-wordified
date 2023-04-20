@@ -959,6 +959,12 @@ ExpectedPerPacketOverhead
 const
 override
 ;
+void
+OnPacketSendingThreadSwitched
+(
+)
+override
+;
 /
 /
 RTCP

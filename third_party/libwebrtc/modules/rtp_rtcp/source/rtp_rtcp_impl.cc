@@ -3363,6 +3363,15 @@ ExpectedPerPacketOverhead
 )
 ;
 }
+void
+ModuleRtpRtcpImpl
+:
+:
+OnPacketSendingThreadSwitched
+(
+)
+{
+}
 size_t
 ModuleRtpRtcpImpl
 :
