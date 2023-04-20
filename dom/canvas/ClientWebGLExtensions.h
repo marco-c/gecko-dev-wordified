@@ -1170,10 +1170,6 @@ count
 type
 offset
 primcount
-FuncScopeId
-:
-:
-drawElementsInstanced
 )
 ;
 }

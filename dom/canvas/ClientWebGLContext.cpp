@@ -30027,7 +30027,6 @@ GLsizei
 count
 GLsizei
 primcount
-FuncScopeId
 )
 {
 Run
@@ -30065,7 +30064,6 @@ WebGLintptr
 offset
 GLsizei
 primcount
-FuncScopeId
 )
 {
 Run
