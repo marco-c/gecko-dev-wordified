@@ -209,7 +209,7 @@ disable
 invalid
 -
 name
-  
+    
 "
 "
 "
@@ -225,7 +225,7 @@ HERE
 "
 "
 "
-  
+    
 #
 DO
 NOT
@@ -244,7 +244,7 @@ a
 last
 -
 effort
-  
+    
 #
 bandaid
 fix
@@ -262,7 +262,7 @@ bug
 and
 all
 bots
-  
+    
 #
 need
 to
@@ -281,7 +281,7 @@ CL
 that
 causes
 build
-  
+    
 #
 dependency
 problems
@@ -293,11 +293,11 @@ instead
 of
 adding
 a
-  
+    
 #
 landmine
 .
-  
+    
 #
 See
 the
@@ -315,7 +315,7 @@ for
 usage
 examples
 .
-  
+    
 print
 '
 Clobber
@@ -337,7 +337,7 @@ webrtc
 5070
 )
 '
-  
+    
 if
 host_os
 (
@@ -348,7 +348,7 @@ host_os
 win
 '
 :
-    
+        
 print
 '
 Clobber
@@ -365,7 +365,7 @@ on
 bots
 .
 '
-    
+        
 print
 '
 Clobber
@@ -381,7 +381,7 @@ after
 14623
 )
 '
-    
+        
 print
 '
 Clobber
@@ -402,7 +402,7 @@ com
 668961
 )
 '
-    
+        
 print
 (
 '
@@ -416,7 +416,7 @@ linking
 errors
 in
 '
-           
+              
 '
 https
 :
@@ -431,7 +431,7 @@ org
 2786603002
 '
 )
-    
+        
 print
 (
 '
@@ -444,7 +444,7 @@ linking
 errors
 in
 '
-           
+              
 '
 https
 :
@@ -460,7 +460,7 @@ org
 /
 '
 )
-    
+        
 print
 '
 Clobber
@@ -475,7 +475,7 @@ files
 )
 .
 '
-  
+    
 if
 host_os
 (
@@ -486,7 +486,7 @@ host_os
 mac
 '
 :
-    
+        
 print
 '
 Clobber
@@ -503,7 +503,7 @@ com
 694721
 )
 '
-    
+        
 print
 '
 Clobber
@@ -521,7 +521,7 @@ org
 /
 2709573003
 '
-    
+        
 print
 (
 '
@@ -541,12 +541,12 @@ org
 2709573003
 after
 '
-           
+              
 '
 landing
 '
 )
-    
+        
 print
 (
 '
@@ -566,7 +566,7 @@ org
 2767383005
 before
 '
-           
+              
 '
 landing
 (
@@ -580,7 +580,7 @@ iOS
 )
 '
 )
-    
+        
 print
 (
 '
@@ -600,7 +600,7 @@ org
 2767383005
 before
 '
-           
+              
 '
 landing
 (
@@ -614,7 +614,7 @@ iOS
 )
 '
 )
-    
+        
 print
 '
 Another
@@ -627,7 +627,7 @@ webrtc
 7430
 )
 '
-    
+        
 print
 '
 Clobber
@@ -638,7 +638,7 @@ type
 to
 executable
 '
-    
+        
 print
 '
 Clobber
@@ -649,7 +649,7 @@ xctest
 files
 .
 '
-    
+        
 print
 '
 Clobber
@@ -669,11 +669,11 @@ main
 (
 )
 :
-  
+    
 print_landmines
 (
 )
-  
+    
 return
 0
 if
@@ -684,7 +684,7 @@ __name__
 __main__
 '
 :
-  
+    
 sys
 .
 exit

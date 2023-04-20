@@ -100,7 +100,7 @@ main
 (
 )
 :
-  
+    
 parser
 =
 argparse
@@ -108,7 +108,7 @@ argparse
 ArgumentParser
 (
 )
-  
+    
 parser
 .
 add_argument
@@ -121,7 +121,7 @@ required
 =
 True
 )
-  
+    
 parser
 .
 add_argument
@@ -134,7 +134,7 @@ required
 =
 True
 )
-  
+    
 args
 =
 parser
@@ -142,7 +142,7 @@ parser
 parse_args
 (
 )
-  
+    
 array
 =
 np
@@ -156,7 +156,7 @@ np
 .
 float32
 )
-  
+    
 array
 .
 tofile
@@ -179,7 +179,7 @@ __name__
 __main__
 '
 :
-  
+    
 main
 (
 )

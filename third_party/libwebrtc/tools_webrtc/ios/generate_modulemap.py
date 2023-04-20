@@ -90,7 +90,7 @@ GenerateModulemap
 (
 )
 :
-  
+    
 parser
 =
 argparse
@@ -104,7 +104,7 @@ Generate
 modulemap
 '
 )
-  
+    
 parser
 .
 add_argument
@@ -129,7 +129,7 @@ file
 .
 "
 )
-  
+    
 parser
 .
 add_argument
@@ -155,7 +155,7 @@ binary
 .
 "
 )
-  
+    
 args
 =
 parser
@@ -163,7 +163,7 @@ parser
 parse_args
 (
 )
-  
+    
 with
 open
 (
@@ -177,7 +177,7 @@ w
 as
 outfile
 :
-    
+        
 module_template
 =
 '
@@ -190,7 +190,7 @@ s
 n
 '
 \
-                      
+                          
 '
 umbrella
 header
@@ -204,13 +204,13 @@ h
 n
 '
 \
-                      
+                          
 '
 \
 n
 '
 \
-                      
+                          
 '
 export
 *
@@ -218,7 +218,7 @@ export
 n
 '
 \
-                      
+                          
 '
 module
 *
@@ -230,7 +230,7 @@ export
 n
 '
 \
-                      
+                          
 '
 }
 \
@@ -245,14 +245,14 @@ args
 .
 name
 )
-    
+        
 outfile
 .
 write
 (
 module_template
 )
-  
+    
 return
 0
 if
@@ -263,7 +263,7 @@ __name__
 __main__
 '
 :
-  
+    
 sys
 .
 exit

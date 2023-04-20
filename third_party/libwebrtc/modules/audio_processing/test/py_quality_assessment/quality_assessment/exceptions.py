@@ -96,7 +96,7 @@ FileNotFoundError
 Exception
 )
 :
-  
+    
 "
 "
 "
@@ -109,7 +109,7 @@ exception
 "
 "
 "
-  
+    
 pass
 class
 SignalProcessingException
@@ -117,7 +117,7 @@ SignalProcessingException
 Exception
 )
 :
-  
+    
 "
 "
 "
@@ -129,7 +129,7 @@ exception
 "
 "
 "
-  
+    
 pass
 class
 InputMixerException
@@ -137,7 +137,7 @@ InputMixerException
 Exception
 )
 :
-  
+    
 "
 "
 "
@@ -149,7 +149,7 @@ exception
 "
 "
 "
-  
+    
 pass
 class
 InputSignalCreatorException
@@ -157,7 +157,7 @@ InputSignalCreatorException
 Exception
 )
 :
-  
+    
 "
 "
 "
@@ -170,7 +170,7 @@ exception
 "
 "
 "
-  
+    
 pass
 class
 EvaluationScoreException
@@ -178,7 +178,7 @@ EvaluationScoreException
 Exception
 )
 :
-  
+    
 "
 "
 "
@@ -190,7 +190,7 @@ exception
 "
 "
 "
-  
+    
 pass
 class
 InitializationException
@@ -198,7 +198,7 @@ InitializationException
 Exception
 )
 :
-  
+    
 "
 "
 "
@@ -209,5 +209,5 @@ exception
 "
 "
 "
-  
+    
 pass
