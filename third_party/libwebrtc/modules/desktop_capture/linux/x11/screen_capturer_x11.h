@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_LINUX_SCREEN_CAPTURER_X11_H_
+MODULES_DESKTOP_CAPTURE_LINUX_X11_SCREEN_CAPTURER_X11_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_LINUX_SCREEN_CAPTURER_X11_H_
+MODULES_DESKTOP_CAPTURE_LINUX_X11_SCREEN_CAPTURER_X11_H_
 #
 include
 <
@@ -197,6 +197,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 shared_x_display
 .
 h
@@ -210,6 +212,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 x_atom_cache
 .
 h
@@ -222,6 +226,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 x_server_pixel_buffer
 .
@@ -974,4 +980,4 @@ webrtc
 endif
 /
 /
-MODULES_DESKTOP_CAPTURE_LINUX_SCREEN_CAPTURER_X11_H_
+MODULES_DESKTOP_CAPTURE_LINUX_X11_SCREEN_CAPTURER_X11_H_

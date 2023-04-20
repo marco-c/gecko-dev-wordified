@@ -94,6 +94,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 mouse_cursor_monitor_x11
 .
 h
@@ -205,6 +207,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 x_error_trap
 .
@@ -1434,6 +1438,14 @@ img
 >
 pixels
 ;
+/
+/
+NOLINT
+(
+runtime
+/
+int
+)
 uint32_t
 *
 dst

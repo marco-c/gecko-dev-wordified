@@ -124,6 +124,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 mouse_cursor_monitor_x11
 .
 h

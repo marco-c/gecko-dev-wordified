@@ -94,6 +94,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 window_list_utils
 .
 h
@@ -137,6 +139,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 x_error_trap
 .
 h
@@ -149,6 +153,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 x_window_property
 .

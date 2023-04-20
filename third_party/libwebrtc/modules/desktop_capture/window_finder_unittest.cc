@@ -172,6 +172,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 shared_x_display
 .
 h
@@ -184,6 +186,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 x_atom_cache
 .

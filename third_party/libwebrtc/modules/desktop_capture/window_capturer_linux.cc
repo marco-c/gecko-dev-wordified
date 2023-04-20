@@ -124,6 +124,8 @@ desktop_capture
 /
 linux
 /
+wayland
+/
 base_capturer_pipewire
 .
 h
@@ -150,6 +152,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 window_capturer_x11
 .
