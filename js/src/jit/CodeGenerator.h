@@ -612,8 +612,8 @@ generateWasm
 wasm
 :
 :
-TypeIdDesc
-funcTypeId
+CallIndirectId
+callIndirectId
 wasm
 :
 :

@@ -2146,8 +2146,8 @@ MetadataCacheablePod
 TypeDefVector
 types
 ;
-TypeIdDescVector
-typeIds
+uint32_t
+typeIdsOffsetStart
 ;
 GlobalDescVector
 globals

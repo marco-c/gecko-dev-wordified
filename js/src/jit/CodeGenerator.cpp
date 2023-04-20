@@ -94224,8 +94224,8 @@ generateWasm
 wasm
 :
 :
-TypeIdDesc
-funcTypeId
+CallIndirectId
+callIndirectId
 wasm
 :
 :
@@ -94301,7 +94301,7 @@ wasm
 GenerateFunctionPrologue
 (
 masm
-funcTypeId
+callIndirectId
 mozilla
 :
 :

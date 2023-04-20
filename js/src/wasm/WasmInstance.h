@@ -1473,9 +1473,8 @@ void
 addressOfTypeId
 (
 const
-TypeIdDesc
-&
-typeId
+uint32_t
+typeIndex
 )
 const
 ;
