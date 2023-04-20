@@ -1527,7 +1527,7 @@ const
 worker_queue_
 ;
 const
-uint32_t
+int
 number_of_cores_
 ;
 EncoderSink
@@ -2832,6 +2832,16 @@ failures
 .
 bool
 switch_encoder_on_init_failures_
+;
+const
+absl
+:
+:
+optional
+<
+int
+>
+vp9_low_tier_core_threshold_
 ;
 /
 /
