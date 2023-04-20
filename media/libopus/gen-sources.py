@@ -128,6 +128,14 @@ opus_projection_encoder
 .
 c
 '
+    
+'
+silk
+/
+debug
+.
+c
+'
 ]
 def
 should_ignore
