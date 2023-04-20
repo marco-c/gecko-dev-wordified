@@ -1537,12 +1537,6 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_WORKER
 :
-case
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_WORKER_STATIC_MODULE
-:
 return
 RequestDestination
 :
@@ -1998,12 +1992,6 @@ nsIContentPolicy
 :
 :
 TYPE_INVALID
-:
-case
-nsIContentPolicy
-:
-:
-TYPE_END
 :
 break
 ;
