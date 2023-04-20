@@ -3885,6 +3885,15 @@ return
 nullptr
 ;
 }
+RefPtr
+<
+FTUserFontData
+>
+data
+;
+#
+ifdef
+ANDROID
 /
 /
 If
@@ -3928,12 +3937,6 @@ instantiate
 the
 face
 .
-RefPtr
-<
-FTUserFontData
->
-data
-;
 if
 (
 face
@@ -3953,6 +3956,8 @@ aFilename
 )
 ;
 }
+#
+endif
 return
 MakeAndAddRef
 <
