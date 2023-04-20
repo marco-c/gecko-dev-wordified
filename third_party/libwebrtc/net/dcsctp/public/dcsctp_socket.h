@@ -1380,8 +1380,7 @@ that
 the
 DcSctpSocket
 will
-be
-done
+call
 synchronously
 to
 the
@@ -2548,6 +2547,15 @@ implements
 the
 following
 interface
+.
+/
+/
+This
+class
+is
+thread
+-
+compatible
 .
 class
 DcSctpSocketInterface
