@@ -734,7 +734,6 @@ following
 operation
 applies
 :
-text
 UsageScope
 <
 -
@@ -966,12 +965,6 @@ TextureSelector
 TextureTracker
 TextureUsageScope
 }
-;
-use
-wgt
-:
-:
-strict_assert_ne
 ;
 /
 /

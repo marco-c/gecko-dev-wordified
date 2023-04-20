@@ -247,6 +247,13 @@ clippy
 pattern_type_mismatch
 )
 ]
+#
+[
+macro_use
+]
+mod
+assertions
+;
 pub
 mod
 binding_model

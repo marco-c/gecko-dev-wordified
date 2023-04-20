@@ -241,15 +241,6 @@ naga
 FastHashMap
 ;
 use
-wgt
-:
-:
-{
-strict_assert
-strict_assert_eq
-}
-;
-use
 std
 :
 :
