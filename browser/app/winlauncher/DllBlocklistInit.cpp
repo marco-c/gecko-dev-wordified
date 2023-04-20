@@ -1388,11 +1388,6 @@ gSharedSection
 .
 Init
 (
-transferMgr
-.
-LocalPEHeaders
-(
-)
 )
 ;
 if
