@@ -854,16 +854,6 @@ get
 (
 )
 CKG_GENERATE_COUNTER
-/
-*
-TODO
-use
-this
-for
-the
-discriminator
-*
-/
 0
 iv
 .
