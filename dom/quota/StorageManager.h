@@ -285,6 +285,12 @@ ErrorResult
 aRv
 )
 ;
+FileSystemManager
+*
+GetFileSystemManager
+(
+)
+;
 void
 Shutdown
 (
