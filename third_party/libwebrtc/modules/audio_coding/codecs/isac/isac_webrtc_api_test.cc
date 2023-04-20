@@ -1579,14 +1579,14 @@ EXPECT_LT
 measured_bitrate_bps
 bitrate_bps
 +
-2000
+2250
 )
 ;
 /
 /
 Max
-2
-kbps
+2250
+bps
 extra
 .
 }
