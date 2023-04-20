@@ -139,7 +139,7 @@ template
 <
 typename
 T
-size_t
+int
 S
 >
 void
@@ -157,7 +157,7 @@ sym_matrix_buf
 {
 for
 (
-size_t
+int
 row
 =
 0
@@ -174,7 +174,7 @@ row
 )
 for
 (
-size_t
+int
 col
 =
 row
@@ -246,7 +246,7 @@ one
 .
 template
 <
-size_t
+int
 S
 >
 bool
@@ -267,7 +267,7 @@ value
 {
 for
 (
-size_t
+int
 row
 =
 0
@@ -285,7 +285,7 @@ row
 {
 for
 (
-size_t
+int
 col
 =
 row
@@ -414,13 +414,7 @@ RingBuffer
 <
 int
 1
-static_cast
-<
-size_t
->
-(
 kRingBufSize
-)
 >
 ring_buf
 ;
@@ -751,7 +745,7 @@ position
 .
 for
 (
-size_t
+int
 delay1
 =
 0
@@ -769,7 +763,7 @@ delay1
 {
 for
 (
-size_t
+int
 delay2
 =
 delay1
@@ -875,7 +869,7 @@ buffer
 .
 for
 (
-size_t
+int
 delay
 =
 1

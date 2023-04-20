@@ -482,15 +482,9 @@ kFeatureVectorSize
 01f
 *
 (
-static_cast
-<
-int
->
-(
 pitch_info_48kHz_
 .
 period
-)
 -
 300
 )

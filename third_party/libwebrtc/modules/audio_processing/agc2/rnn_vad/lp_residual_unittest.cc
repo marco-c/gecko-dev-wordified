@@ -424,7 +424,7 @@ Test
 length
 .
 const
-size_t
+int
 num_frames
 =
 std
@@ -435,13 +435,7 @@ min
 pitch_buf_24kHz_reader
 .
 second
-static_cast
-<
-size_t
->
-(
 300
-)
 )
 ;
 /
@@ -486,7 +480,7 @@ fpe_observer
 ;
 for
 (
-size_t
+int
 i
 =
 0

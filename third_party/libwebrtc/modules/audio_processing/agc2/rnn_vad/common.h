@@ -113,13 +113,13 @@ kPi
 14159265358979323846
 ;
 constexpr
-size_t
+int
 kSampleRate24kHz
 =
 24000
 ;
 constexpr
-size_t
+int
 kFrameSize10ms24kHz
 =
 kSampleRate24kHz
@@ -127,7 +127,7 @@ kSampleRate24kHz
 100
 ;
 constexpr
-size_t
+int
 kFrameSize20ms24kHz
 =
 kFrameSize10ms24kHz
@@ -140,7 +140,7 @@ Pitch
 buffer
 .
 constexpr
-size_t
+int
 kMinPitch24kHz
 =
 kSampleRate24kHz
@@ -155,7 +155,7 @@ kSampleRate24kHz
 s
 .
 constexpr
-size_t
+int
 kMaxPitch24kHz
 =
 kSampleRate24kHz
@@ -172,7 +172,7 @@ kSampleRate24kHz
 s
 .
 constexpr
-size_t
+int
 kBufSize24kHz
 =
 kMaxPitch24kHz
@@ -242,7 +242,7 @@ is
 responsible
 .
 constexpr
-size_t
+int
 kInitialMinPitch24kHz
 =
 3
@@ -277,7 +277,7 @@ kInitialMinPitch24kHz
 )
 ;
 constexpr
-size_t
+int
 kNumInvertedLags24kHz
 =
 kMaxPitch24kHz
@@ -291,13 +291,13 @@ kHz
 analysis
 .
 constexpr
-size_t
+int
 kSampleRate12kHz
 =
 12000
 ;
 constexpr
-size_t
+int
 kFrameSize10ms12kHz
 =
 kSampleRate12kHz
@@ -305,7 +305,7 @@ kSampleRate12kHz
 100
 ;
 constexpr
-size_t
+int
 kFrameSize20ms12kHz
 =
 kFrameSize10ms12kHz
@@ -313,7 +313,7 @@ kFrameSize10ms12kHz
 2
 ;
 constexpr
-size_t
+int
 kBufSize12kHz
 =
 kBufSize24kHz
@@ -321,7 +321,7 @@ kBufSize24kHz
 2
 ;
 constexpr
-size_t
+int
 kInitialMinPitch12kHz
 =
 kInitialMinPitch24kHz
@@ -329,7 +329,7 @@ kInitialMinPitch24kHz
 2
 ;
 constexpr
-size_t
+int
 kMaxPitch12kHz
 =
 kMaxPitch24kHz
@@ -376,7 +376,7 @@ kNumInvertedLags12kHz
 ]
 .
 constexpr
-size_t
+int
 kNumInvertedLags12kHz
 =
 kMaxPitch12kHz
@@ -390,7 +390,7 @@ kHz
 constants
 .
 constexpr
-size_t
+int
 kMinPitch48kHz
 =
 kMinPitch24kHz
@@ -398,7 +398,7 @@ kMinPitch24kHz
 2
 ;
 constexpr
-size_t
+int
 kMaxPitch48kHz
 =
 kMaxPitch24kHz
@@ -411,13 +411,13 @@ Spectral
 features
 .
 constexpr
-size_t
+int
 kNumBands
 =
 22
 ;
 constexpr
-size_t
+int
 kNumLowerBands
 =
 6
@@ -441,7 +441,7 @@ kNumBands
 )
 ;
 constexpr
-size_t
+int
 kCepstralCoeffsHistorySize
 =
 8
@@ -473,7 +473,7 @@ derivatives
 )
 ;
 constexpr
-size_t
+int
 kFeatureVectorSize
 =
 42

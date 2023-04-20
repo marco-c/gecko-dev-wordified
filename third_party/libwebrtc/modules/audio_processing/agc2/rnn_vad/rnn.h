@@ -228,7 +228,7 @@ connected
 layer
 .
 constexpr
-size_t
+int
 kFullyConnectedLayersMaxUnits
 =
 24
@@ -288,7 +288,7 @@ recurrent
 layer
 .
 constexpr
-size_t
+int
 kRecurrentLayersMaxUnits
 =
 24
@@ -307,9 +307,9 @@ public
 :
 FullyConnectedLayer
 (
-size_t
+int
 input_size
-size_t
+int
 output_size
 rtc
 :
@@ -370,7 +370,7 @@ FullyConnectedLayer
 (
 )
 ;
-size_t
+int
 input_size
 (
 )
@@ -380,7 +380,7 @@ return
 input_size_
 ;
 }
-size_t
+int
 output_size
 (
 )
@@ -440,11 +440,11 @@ input
 private
 :
 const
-size_t
+int
 input_size_
 ;
 const
-size_t
+int
 output_size_
 ;
 const
@@ -560,9 +560,9 @@ public
 :
 GatedRecurrentLayer
 (
-size_t
+int
 input_size
-size_t
+int
 output_size
 rtc
 :
@@ -621,7 +621,7 @@ GatedRecurrentLayer
 (
 )
 ;
-size_t
+int
 input_size
 (
 )
@@ -631,7 +631,7 @@ return
 input_size_
 ;
 }
-size_t
+int
 output_size
 (
 )
@@ -698,11 +698,11 @@ input
 private
 :
 const
-size_t
+int
 input_size_
 ;
 const
-size_t
+int
 output_size_
 ;
 const

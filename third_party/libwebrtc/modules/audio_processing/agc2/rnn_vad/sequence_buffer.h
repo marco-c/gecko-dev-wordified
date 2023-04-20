@@ -250,11 +250,11 @@ template
 <
 typename
 T
-size_t
+int
 S
-size_t
+int
 N
-size_t
+int
 M
 =
 N
@@ -363,7 +363,7 @@ SequenceBuffer
 =
 default
 ;
-size_t
+int
 size
 (
 )
@@ -373,7 +373,7 @@ return
 S
 ;
 }
-size_t
+int
 chunks_size
 (
 )

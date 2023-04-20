@@ -219,7 +219,7 @@ auto_corr
 )
 {
 constexpr
-size_t
+int
 max_lag
 =
 auto_corr
@@ -240,7 +240,7 @@ size
 ;
 for
 (
-size_t
+int
 lag
 =
 0
@@ -505,7 +505,7 @@ auto_corr
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -530,7 +530,7 @@ f
 ;
 for
 (
-size_t
+int
 j
 =
 0
@@ -637,13 +637,14 @@ reflection_coeff
 ;
 for
 (
-size_t
+int
 j
 =
 0
 ;
 j
 <
+(
 (
 i
 +
@@ -652,6 +653,7 @@ i
 >
 >
 1
+)
 ;
 +
 +

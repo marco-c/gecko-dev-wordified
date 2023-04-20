@@ -246,7 +246,7 @@ CreateLpResidualAndPitchPeriodGainReader
 )
 ;
 const
-size_t
+int
 num_frames
 =
 std
@@ -257,13 +257,7 @@ min
 lp_residual_reader
 .
 second
-static_cast
-<
-size_t
->
-(
 300
-)
 )
 ;
 /
@@ -319,7 +313,7 @@ fpe_observer
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -389,13 +383,7 @@ kBufSize24kHz
 ;
 EXPECT_EQ
 (
-static_cast
-<
-int
->
-(
 expected_pitch_period
-)
 pitch_info
 .
 period
