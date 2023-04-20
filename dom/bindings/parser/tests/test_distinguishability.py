@@ -1,3 +1,5 @@
+import
+traceback
 def
 firstArgType
 (
@@ -1192,6 +1194,15 @@ boolean
 "
         
 "
+undefined
+"
+        
+"
+undefined
+?
+"
+        
+"
 DOMString
 "
         
@@ -1488,6 +1499,18 @@ boolean
 "
 ]
     
+undefineds
+=
+[
+"
+undefined
+"
+"
+undefined
+?
+"
+]
+    
 primitives
 =
 numerics
@@ -1556,6 +1579,8 @@ strings
     
 nonObjects
 =
+undefineds
++
 primitives
 +
 strings
@@ -1626,6 +1651,11 @@ short
         
 "
 boolean
+?
+"
+        
+"
+undefined
 ?
 "
         
@@ -1787,6 +1817,55 @@ supported
 in
 records
     
+dictionaryLike
+=
+(
+        
+[
+            
+"
+Dict
+"
+            
+"
+Dict2
+"
+            
+"
+CallbackInterface
+"
+            
+"
+CallbackInterface
+?
+"
+            
+"
+CallbackInterface2
+"
+        
+]
+        
++
+records
+        
++
+allBut
+(
+unions
+[
+"
+(
+long
+or
+Callback
+)
+"
+]
+)
+    
+)
+    
 #
 Build
 a
@@ -1922,6 +2001,39 @@ nullables
 setDistinguishable
 (
 "
+undefined
+"
+allBut
+(
+argTypes
+undefineds
++
+dictionaryLike
+)
+)
+    
+setDistinguishable
+(
+        
+"
+undefined
+?
+"
+allBut
+(
+argTypes
+undefineds
++
+dictionaryLike
++
+nullables
+)
+    
+)
+    
+setDistinguishable
+(
+"
 DOMString
 "
 nonStrings
@@ -2030,11 +2142,16 @@ setDistinguishable
 "
 CallbackInterface
 "
+allBut
+(
 nonUserObjects
+undefineds
+)
 )
     
 setDistinguishable
 (
+        
 "
 CallbackInterface
 ?
@@ -2043,7 +2160,10 @@ allBut
 (
 nonUserObjects
 nullables
++
+undefineds
 )
+    
 )
     
 setDistinguishable
@@ -2051,7 +2171,11 @@ setDistinguishable
 "
 CallbackInterface2
 "
+allBut
+(
 nonUserObjects
+undefineds
+)
 )
     
 setDistinguishable
@@ -2087,6 +2211,8 @@ allBut
 (
 nonUserObjects
 nullables
++
+undefineds
 )
 )
     
@@ -2099,6 +2225,8 @@ allBut
 (
 nonUserObjects
 nullables
++
+undefineds
 )
 )
     
@@ -2153,7 +2281,11 @@ DOMString
 object
 >
 "
+allBut
+(
 nonUserObjects
+undefineds
+)
 )
     
 setDistinguishable
@@ -2165,7 +2297,11 @@ USVString
 Dict
 >
 "
+allBut
+(
 nonUserObjects
+undefineds
+)
 )
     
 #
@@ -2184,7 +2320,11 @@ ByteString
 long
 >
 "
+allBut
+(
 nonUserObjects
+undefineds
+)
 )
     
 setDistinguishable
@@ -2196,7 +2336,11 @@ UTF8String
 long
 >
 "
+allBut
+(
 nonUserObjects
+undefineds
+)
 )
     
 setDistinguishable
@@ -2346,6 +2490,7 @@ numerics
     
 setDistinguishable
 (
+        
 "
 (
 long
@@ -2359,7 +2504,10 @@ nonUserObjects
 numerics
 +
 nullables
++
+undefineds
 )
+    
 )
     
 def
@@ -2531,12 +2679,54 @@ s
 "
 "
         
+if
+type1
+in
+undefineds
+or
+type2
+in
+undefineds
+:
+            
+methods
+=
+"
+"
+"
+                
+(
+%
+s
+or
+%
+s
+)
+myMethod
+(
+)
+;
+"
+"
+"
+%
+(
+                
+type1
+                
+type2
+            
+)
+        
+else
+:
+            
 methodTemplate
 =
 "
 "
 "
-            
+                
 undefined
 myMethod
 (
@@ -2548,7 +2738,7 @@ arg
 "
 "
 "
-        
+            
 methods
 =
 (
