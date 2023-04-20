@@ -1070,6 +1070,10 @@ void
 ReleaseD3D11
 (
 )
+MOZ_REQUIRES
+(
+mDeviceLock
+)
 ;
 /
 /
