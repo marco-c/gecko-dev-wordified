@@ -437,6 +437,11 @@ webrtc
 CryptoOptions
 &
 crypto_options
+rtc
+:
+:
+SSLProtocolVersion
+max_version
 )
 override
 {
