@@ -60,7 +60,7 @@ const
 kPage
 =
 "
-http
+https
 :
 /
 /
@@ -75,9 +75,11 @@ browser
 "
 dom
 /
-html
+base
 /
 test
+/
+fullscreen
 /
 file_fullscreen
 -
