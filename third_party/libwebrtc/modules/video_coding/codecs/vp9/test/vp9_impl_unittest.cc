@@ -18076,7 +18076,7 @@ Per
 -
 temporal
 and
-satial
+spatial
 layer
 speed
 settings
