@@ -2162,14 +2162,6 @@ vp
 ;
 #
 endif
-void
-selfHosting_ErrorReporter
-(
-JSErrorReport
-*
-report
-)
-;
 }
 /
 *
