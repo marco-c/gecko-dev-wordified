@@ -995,13 +995,6 @@ SystemIsBeingShutDown
 (
 )
 ;
-mRuntime
--
->
-SystemIsBeingShutDown
-(
-)
-;
 /
 /
 The
