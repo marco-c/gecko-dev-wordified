@@ -1465,6 +1465,15 @@ aId
 )
 override
 ;
+NS_IMETHOD
+GetIsProxyUsed
+(
+bool
+*
+aIsProxyUsed
+)
+override
+;
 using
 nsIClassifiedChannel
 :
@@ -5047,6 +5056,11 @@ LOAD_BYPASS_LOCAL_CACHE
 (
 uint32_t
 PreferCacheLoadOverBypass
+1
+)
+(
+uint32_t
+IsProxyUsed
 1
 )
 )

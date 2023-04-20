@@ -3443,6 +3443,15 @@ cacheKey
 (
 )
 ;
+StoreIsProxyUsed
+(
+aArgs
+.
+isProxyUsed
+(
+)
+)
+;
 /
 /
 replace
