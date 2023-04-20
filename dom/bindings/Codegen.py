@@ -65968,6 +65968,12 @@ idlNode
 identifier
 .
 name
+                        
+self
+.
+getArgumentNames
+(
+)
                     
 )
                 
@@ -66428,7 +66434,7 @@ cgThings
 )
     
 def
-getArguments
+getArgumentNames
 (
 self
 )
@@ -66436,8 +66442,6 @@ self
         
 return
 [
-(
-a
 "
 arg
 "
@@ -66446,18 +66450,42 @@ str
 (
 i
 )
-)
 for
 i
-a
 in
-enumerate
+range
+(
+len
 (
 self
 .
 arguments
 )
+)
 ]
+    
+def
+getArguments
+(
+self
+)
+:
+        
+return
+list
+(
+zip
+(
+self
+.
+arguments
+self
+.
+getArgumentNames
+(
+)
+)
+)
     
 def
 processWebExtensionStubAttribute
@@ -150644,6 +150672,7 @@ self
 descriptor
 iterable
 methodName
+args
 )
 :
         
@@ -150655,6 +150684,15 @@ methodName
 forEach
 "
 :
+            
+assert
+len
+(
+args
+)
+=
+=
+2
             
 CGGeneric
 .
@@ -150907,6 +150945,15 @@ isIterable
 )
 :
             
+assert
+len
+(
+args
+)
+=
+=
+0
+            
 binding
 =
 descriptor
@@ -150977,6 +151024,9 @@ result
 get
 (
 )
+{
+args
+}
 initError
 )
 ;
@@ -151014,6 +151064,23 @@ false
 "
 "
 "
+                
+args
+=
+"
+"
+.
+join
+(
+a
++
+"
+"
+for
+a
+in
+args
+)
                 
 ifaceName
 =
