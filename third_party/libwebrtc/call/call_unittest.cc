@@ -365,6 +365,14 @@ using
 testing
 :
 :
+NiceMock
+;
+using
+:
+:
+testing
+:
+:
 StrictMock
 ;
 struct
@@ -430,6 +438,8 @@ rtc
 :
 RefCountedObject
 <
+NiceMock
+<
 webrtc
 :
 :
@@ -437,6 +447,7 @@ test
 :
 :
 MockAudioProcessing
+>
 >
 (
 )

@@ -313,10 +313,13 @@ rtc
 :
 RefCountedObject
 <
+NiceMock
+<
 test
 :
 :
 MockAudioProcessing
+>
 >
 (
 )

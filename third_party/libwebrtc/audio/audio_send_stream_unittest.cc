@@ -405,6 +405,14 @@ using
 testing
 :
 :
+NiceMock
+;
+using
+:
+:
+testing
+:
+:
 Return
 ;
 using
@@ -1207,7 +1215,10 @@ rtc
 :
 RefCountedObject
 <
+NiceMock
+<
 MockAudioProcessing
+>
 >
 (
 )

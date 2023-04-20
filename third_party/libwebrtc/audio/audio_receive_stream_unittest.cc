@@ -292,6 +292,14 @@ using
 testing
 :
 :
+NiceMock
+;
+using
+:
+:
+testing
+:
+:
 Return
 ;
 AudioDecodingCallStats
@@ -751,7 +759,10 @@ rtc
 :
 RefCountedObject
 <
+NiceMock
+<
 MockAudioProcessing
+>
 >
 (
 )

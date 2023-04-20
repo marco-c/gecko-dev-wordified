@@ -410,15 +410,7 @@ class
 MockAudioProcessing
 :
 public
-:
-:
-testing
-:
-:
-NiceMock
-<
 AudioProcessing
->
 {
 public
 :
