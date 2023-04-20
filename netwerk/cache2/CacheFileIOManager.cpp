@@ -23709,7 +23709,7 @@ get
 backgroundtask
 "
 "
-purgeHTTPCache
+removeDirectory
 "
 path
 .
