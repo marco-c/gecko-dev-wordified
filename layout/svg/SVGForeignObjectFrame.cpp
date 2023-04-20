@@ -3246,7 +3246,7 @@ RequestReflow
 IntrinsicDirty
 :
 :
-Resize
+None
 )
 ;
 }

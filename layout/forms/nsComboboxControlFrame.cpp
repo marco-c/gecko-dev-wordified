@@ -4476,7 +4476,10 @@ This
 should
 perhaps
 be
-eResize
+IntrinsicDirty
+:
+:
+None
 .
 Check
 .
@@ -4491,7 +4494,7 @@ mDisplayFrame
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;

@@ -12628,7 +12628,7 @@ rootFrame
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -13460,7 +13460,7 @@ rootFrame
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -17362,22 +17362,19 @@ bug
 478135
 NS_ASSERTION
 (
-!
-(
 aIntrinsicDirty
-=
+!
 =
 IntrinsicDirty
 :
 :
-StyleChange
-&
-&
+FrameAncestorsAndDescendants
+|
+|
 aBitToAdd
-=
+!
 =
 NS_FRAME_HAS_DIRTY_CHILDREN
-)
 "
 bits
 don
@@ -17841,7 +17838,7 @@ aIntrinsicDirty
 IntrinsicDirty
 :
 :
-Resize
+None
 )
 {
 /
@@ -17960,7 +17957,7 @@ break
 }
 const
 bool
-styleChange
+frameAncestorAndDescendantISizesDirty
 =
 (
 aIntrinsicDirty
@@ -17969,7 +17966,7 @@ aIntrinsicDirty
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 )
 ;
 const
@@ -17985,7 +17982,7 @@ NS_FRAME_IS_DIRTY
 ;
 if
 (
-styleChange
+frameAncestorAndDescendantISizesDirty
 |
 |
 dirty
@@ -18063,7 +18060,7 @@ PopLastElement
 ;
 if
 (
-styleChange
+frameAncestorAndDescendantISizesDirty
 &
 &
 f
@@ -18182,7 +18179,7 @@ mList
 {
 if
 (
-styleChange
+frameAncestorAndDescendantISizesDirty
 )
 {
 kid
@@ -77996,7 +77993,7 @@ rootFrame
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -78149,7 +78146,7 @@ MarkFixedFramesForReflow
 IntrinsicDirty
 :
 :
-Resize
+None
 )
 ;
 }
@@ -82129,7 +82126,7 @@ topmostFrameWithContentHidden
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_IS_DIRTY
 )
 ;

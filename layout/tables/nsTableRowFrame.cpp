@@ -1444,7 +1444,7 @@ this
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -1795,7 +1795,7 @@ this
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -1915,7 +1915,7 @@ this
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;

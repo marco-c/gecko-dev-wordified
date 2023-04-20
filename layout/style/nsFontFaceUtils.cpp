@@ -1100,7 +1100,7 @@ f
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;

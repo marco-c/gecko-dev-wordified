@@ -10531,7 +10531,7 @@ popupFrame
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -10994,7 +10994,7 @@ popupFrame
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;

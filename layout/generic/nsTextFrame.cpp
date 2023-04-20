@@ -4955,7 +4955,7 @@ ScheduleReflowSVGNonDisplayText
 IntrinsicDirty
 :
 :
-Resize
+None
 )
 ;
 }
@@ -5036,7 +5036,7 @@ f
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -35201,7 +35201,7 @@ textFrame
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -54795,7 +54795,7 @@ f
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;

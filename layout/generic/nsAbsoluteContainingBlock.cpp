@@ -506,7 +506,7 @@ aDelegatingFrame
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -630,7 +630,7 @@ aDelegatingFrame
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;

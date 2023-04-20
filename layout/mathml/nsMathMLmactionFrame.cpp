@@ -1337,7 +1337,7 @@ this
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -2030,7 +2030,7 @@ mSelectedFrame
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;

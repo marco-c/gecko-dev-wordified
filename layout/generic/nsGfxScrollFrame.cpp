@@ -19677,7 +19677,7 @@ mVScrollbarBox
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -19696,7 +19696,7 @@ mHScrollbarBox
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -48251,7 +48251,7 @@ fixedChild
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -49170,7 +49170,7 @@ mOuter
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;

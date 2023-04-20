@@ -1535,7 +1535,7 @@ outerSVGFrame
 IntrinsicDirty
 :
 :
-Resize
+None
 dirtyBit
 )
 ;

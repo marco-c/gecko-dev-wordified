@@ -18416,7 +18416,7 @@ ScheduleReflowSVGNonDisplayText
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 )
 ;
 }
@@ -34356,7 +34356,7 @@ ScheduleReflowSVGNonDisplayText
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 )
 ;
 }
