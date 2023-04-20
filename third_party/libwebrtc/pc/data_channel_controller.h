@@ -595,15 +595,6 @@ SSLRole
 role
 )
 ;
-SctpDataChannel
-*
-FindDataChannelBySid
-(
-int
-sid
-)
-const
-;
 /
 /
 Checks
