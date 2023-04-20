@@ -1370,6 +1370,11 @@ AdEvent
 .
 Type
 .
+CONTENT_RESUME_REQUESTED
+AdEvent
+.
+Type
+.
 AD_BUFFERING
 AdEvent
 .
