@@ -208,10 +208,11 @@ popupshown
 true
 )
 ;
-contextPocket
+contextMenu
 .
-click
+activateItem
 (
+contextPocket
 )
 ;
 await

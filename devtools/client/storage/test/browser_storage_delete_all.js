@@ -670,10 +670,11 @@ rowName
 '
 )
 ;
-menuDeleteAllItem
+contextMenu
 .
-click
+activateItem
 (
+menuDeleteAllItem
 )
 ;
 }
