@@ -3188,7 +3188,7 @@ size
 *
 throws
 {
-Error
+NoWindowError
 }
 The
 element
@@ -3202,9 +3202,9 @@ ancestors
 )
 is
 not
+*
 in
 a
-*
 window
 so
 we
@@ -3220,8 +3220,8 @@ routine
 to
 call
 .
-That
 *
+That
 routine
 is
 the
@@ -3235,8 +3235,8 @@ we
 use
 so
 you
-should
 *
+should
 pick
 a
 different
