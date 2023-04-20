@@ -681,8 +681,6 @@ url
 host
 }
 /
-page
--
 unload
 -
 beacon
@@ -1017,8 +1015,6 @@ await
 fetch
 (
 /
-page
--
 unload
 -
 beacon
