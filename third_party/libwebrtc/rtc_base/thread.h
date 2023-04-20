@@ -2951,10 +2951,12 @@ NDEBUG
 is
 defined
 and
-DCHECK_ALWAYS_ON
+RTC_DCHECK_ALWAYS_ON
 is
 undefined
 do
+/
+/
 nothing
 .
 void
@@ -2972,7 +2974,7 @@ NDEBUG
 is
 defined
 and
-DCHECK_ALWAYS_ON
+RTC_DCHECK_ALWAYS_ON
 is
 undefined
 do
@@ -3023,11 +3025,13 @@ NDEBUG
 is
 defined
 and
-DCHECK_ALWAYS_ON
+RTC_DCHECK_ALWAYS_ON
 is
 undefined
 always
 returns
+/
+/
 true
 .
 bool
