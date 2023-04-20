@@ -2504,7 +2504,7 @@ received
 "
 ;
 return
-true
+false
 ;
 }
 else
@@ -2523,7 +2523,7 @@ ScreenConfigurationChanged
 )
 ;
 return
-true
+false
 ;
 }
 return
