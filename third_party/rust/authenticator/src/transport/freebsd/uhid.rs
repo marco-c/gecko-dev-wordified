@@ -91,6 +91,9 @@ use
 crate
 :
 :
+transport
+:
+:
 hidproto
 :
 :

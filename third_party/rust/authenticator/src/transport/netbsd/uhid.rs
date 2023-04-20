@@ -100,6 +100,9 @@ use
 crate
 :
 :
+transport
+:
+:
 hidproto
 :
 :
@@ -107,6 +110,9 @@ has_fido_usage
 ;
 use
 crate
+:
+:
+transport
 :
 :
 hidproto

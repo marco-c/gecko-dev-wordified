@@ -858,6 +858,7 @@ as_raw_fd
 )
 ;
 let
+mut
 res
 =
 Self
@@ -985,6 +986,7 @@ fn
 is_u2f
 (
 &
+mut
 self
 )
 -
