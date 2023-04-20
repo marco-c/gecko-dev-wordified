@@ -6294,6 +6294,15 @@ Encoding
 aConduitEncoding
 )
 {
+aConduitEncoding
+-
+>
+active
+=
+aJsEncoding
+.
+mActive
+;
 if
 (
 aJsEncoding
