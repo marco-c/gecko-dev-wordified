@@ -3447,8 +3447,6 @@ int32_t
 index
 HandleValue
 value
-bool
-strict
 )
 ;
 void
