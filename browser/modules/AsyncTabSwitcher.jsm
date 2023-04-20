@@ -148,9 +148,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -167,7 +167,9 @@ modules
 /
 PictureInPicture
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

@@ -177,7 +177,9 @@ Files
 "
 PictureInPictureChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -407,7 +409,9 @@ jsm
 "
 PictureInPictureChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 PopupBlockingChild

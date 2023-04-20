@@ -86,21 +86,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-KEYBOARD_CONTROLS
-"
-"
-TOGGLE_POLICIES
-"
-"
-TOGGLE_POLICY_STRINGS
-"
-]
-;
 /
 /
 These
@@ -116,6 +101,7 @@ qualified
 video
 element
 .
+export
 const
 KEYBOARD_CONTROLS
 =
@@ -175,6 +161,7 @@ qualified
 video
 element
 .
+export
 const
 TOGGLE_POLICIES
 =
@@ -230,6 +217,7 @@ of
 the
 toggle
 .
+export
 const
 TOGGLE_POLICY_STRINGS
 =

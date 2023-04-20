@@ -692,7 +692,9 @@ SEEK_TIME_SECS
 in
 PictureInPictureChild
 .
-jsm
+sys
+.
+mjs
 static
 SEEK_TIME_SECS
 =

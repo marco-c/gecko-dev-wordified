@@ -76,7 +76,9 @@ AVAILABLE_PIP_OVERRIDES
 See
 PictureInPictureControls
 .
-jsm
+sys
+.
+mjs
 for
 these
 values
