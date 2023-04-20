@@ -4648,6 +4648,10 @@ lifetime
 targeting
 :
 "
+!
+inMr2022Holdback
+&
+&
 doesAppNeedPrivatePin
 "
 }
