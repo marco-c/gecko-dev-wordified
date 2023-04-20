@@ -1731,13 +1731,13 @@ CSSPixel
 :
 FromPoints
 (
-NS_MATHML_DEFAULT_SCRIPT_MIN_SIZE_PT
+kMathMLDefaultScriptMinSizePt
 )
 )
 )
 mScriptSizeMultiplier
 (
-NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
+kMathMLDefaultScriptSizeMultiplier
 )
 mLanguage
 (
@@ -7718,7 +7718,7 @@ Content
 )
 mOrder
 (
-NS_STYLE_ORDER_INITIAL
+0
 )
 mFlexGrow
 (
@@ -20468,7 +20468,9 @@ StyleNonNegativeLengthOrNumber
 :
 Number
 (
-NS_STYLE_TABSIZE_INITIAL
+8
+.
+f
 )
 )
 mWordSpacing
