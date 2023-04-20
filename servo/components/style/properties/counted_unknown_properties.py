@@ -191,15 +191,6 @@ drag
 "
     
 "
--
-webkit
--
-clip
--
-path
-"
-    
-"
 orphans
 "
     

@@ -557,6 +557,11 @@ engines
 "
 gecko
 "
+extra_prefixes
+=
+"
+webkit
+"
 animation_value_type
 =
 "
