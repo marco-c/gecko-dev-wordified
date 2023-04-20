@@ -1299,7 +1299,7 @@ StyleDisplay
 )
 -
 >
-mBreakType
+mClear
 !
 =
 StyleClear

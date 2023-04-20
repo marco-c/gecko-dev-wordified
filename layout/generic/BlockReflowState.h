@@ -1207,7 +1207,7 @@ the
 floats
 indicated
 by
-aBreakType
+aClearType
 and
 has
 enough
@@ -1251,7 +1251,7 @@ ClearFloats
 nscoord
 aBCoord
 StyleClear
-aBreakType
+aClearType
 nsIFrame
 *
 aFloatAvoidingBlock

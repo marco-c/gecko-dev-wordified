@@ -1207,7 +1207,7 @@ aReflowInput
 mStyleDisplay
 -
 >
-mBreakType
+mClear
 )
 ;
 ll

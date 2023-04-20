@@ -592,11 +592,6 @@ animation_value_type
 "
 discrete
 "
-gecko_ffi_name
-=
-"
-mBreakType
-"
 spec
 =
 "

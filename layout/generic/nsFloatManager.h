@@ -2410,7 +2410,7 @@ the
 lowest
 float
 matching
-aBreakType
+aClearType
 in
 *
 this
@@ -2452,7 +2452,7 @@ mozilla
 :
 :
 StyleClear
-aBreakType
+aClearType
 )
 const
 ;
@@ -2499,7 +2499,7 @@ mozilla
 :
 :
 StyleClear
-aBreakType
+aClearType
 )
 const
 ;

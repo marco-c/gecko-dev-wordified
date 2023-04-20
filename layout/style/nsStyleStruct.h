@@ -8603,7 +8603,7 @@ mozilla
 :
 :
 StyleClear
-mBreakType
+mClear
 ;
 mozilla
 :

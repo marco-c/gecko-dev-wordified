@@ -6034,7 +6034,7 @@ None
 floatDisplay
 -
 >
-mBreakType
+mClear
 )
 {
 /
@@ -6059,7 +6059,7 @@ mBCoord
 floatDisplay
 -
 >
-mBreakType
+mClear
 )
 ;
 if
@@ -8752,7 +8752,7 @@ ClearFloats
 nscoord
 aBCoord
 StyleClear
-aBreakType
+aClearType
 nsIFrame
 *
 aFloatAvoidingBlock
@@ -8832,7 +8832,7 @@ aBCoord
 ;
 if
 (
-aBreakType
+aClearType
 !
 =
 StyleClear
@@ -8851,7 +8851,7 @@ FloatManager
 ClearFloats
 (
 newBCoord
-aBreakType
+aClearType
 )
 ;
 if
@@ -8863,7 +8863,7 @@ FloatManager
 >
 ClearContinues
 (
-aBreakType
+aClearType
 )
 )
 {

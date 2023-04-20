@@ -15364,7 +15364,7 @@ StyleFloat
 :
 None
 )
-mBreakType
+mClear
 (
 StyleClear
 :
@@ -15758,11 +15758,11 @@ aSource
 .
 mFloat
 )
-mBreakType
+mClear
 (
 aSource
 .
-mBreakType
+mClear
 )
 mBreakInside
 (
@@ -17758,12 +17758,12 @@ reframe
 ?
 if
 (
-mBreakType
+mClear
 !
 =
 aNewData
 .
-mBreakType
+mClear
 |
 |
 mBreakInside
