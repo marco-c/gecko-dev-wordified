@@ -4993,12 +4993,6 @@ disp
 -
 >
 mContainerType
-!
-=
-StyleContainerType
-:
-:
-Normal
 )
 {
 PresContext
@@ -5713,12 +5707,6 @@ disp
 -
 >
 mContainerType
-!
-=
-StyleContainerType
-:
-:
-Normal
 )
 {
 PresContext
