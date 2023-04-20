@@ -2678,7 +2678,7 @@ emitNativeCalleeGuard
 )
 ;
 ObjOperandId
-emitNativeCalleeGuardAndLoadArgsArray
+emitLoadArgsArray
 (
 )
 ;
