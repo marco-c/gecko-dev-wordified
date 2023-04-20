@@ -5759,6 +5759,11 @@ will
 trigger
 OnStopRequest
 .
+if
+(
+mChannel
+)
+{
 mozilla
 :
 :
@@ -5777,6 +5782,7 @@ mChannel
 =
 nullptr
 ;
+}
 mTelemetryClockStart
 =
 0
