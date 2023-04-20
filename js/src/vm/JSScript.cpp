@@ -627,6 +627,10 @@ ErrorContext
 .
 h
 "
+/
+/
+AutoReportFrontendContext
+MainThreadErrorContext
 #
 include
 "

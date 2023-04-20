@@ -414,7 +414,7 @@ h
 "
 /
 /
-MainThreadErrorContext
+AutoReportFrontendContext
 #
 include
 "
@@ -4410,7 +4410,7 @@ CompilationTarget
 :
 SelfHosting
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

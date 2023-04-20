@@ -1040,6 +1040,10 @@ ErrorContext
 .
 h
 "
+/
+/
+AutoReportFrontendContext
+MainThreadErrorContext
 #
 include
 "
@@ -40860,7 +40864,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -41686,7 +41690,7 @@ stencil
 .
 *
 /
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

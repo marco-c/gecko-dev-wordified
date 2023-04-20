@@ -403,6 +403,9 @@ ErrorContext
 .
 h
 "
+/
+/
+AutoReportFrontendContext
 #
 include
 "
@@ -5015,7 +5018,7 @@ data
 )
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

@@ -686,6 +686,9 @@ ErrorContext
 .
 h
 "
+/
+/
+AutoReportFrontendContext
 #
 include
 "
@@ -22280,7 +22283,7 @@ ap
 reportp
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -23605,7 +23608,7 @@ errorNumber
 .
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -23746,7 +23749,7 @@ errorNumber
 .
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -23887,7 +23890,7 @@ errorNumber
 .
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

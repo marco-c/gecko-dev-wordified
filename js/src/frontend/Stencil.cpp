@@ -15926,7 +15926,7 @@ JSAtom
 /
 JSStrings
 .
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -16080,12 +16080,6 @@ false
 ;
 }
 }
-MainThreadErrorContext
-ec
-(
-cx
-)
-;
 if
 (
 !
@@ -16500,7 +16494,7 @@ across
 multiple
 runtimes
 .
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -17218,7 +17212,7 @@ in
 most
 cases
 .
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -17847,7 +17841,7 @@ the
 gcOutput
 vectors
 .
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -17935,7 +17929,7 @@ succeededOut
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -33302,7 +33296,7 @@ ScopeKind
 :
 Global
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -33541,7 +33535,7 @@ setModule
 (
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -34024,7 +34018,7 @@ TranscodeBuffer
 buffer
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -34172,7 +34166,7 @@ TranscodeResult
 Throw
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

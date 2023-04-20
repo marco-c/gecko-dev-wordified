@@ -9787,7 +9787,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -9838,7 +9838,7 @@ CompilationStencil
 delazification
 )
 {
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

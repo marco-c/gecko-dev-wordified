@@ -399,7 +399,7 @@ h
 "
 /
 /
-MainThreadErrorContext
+AutoReportFrontendContext
 #
 include
 "
@@ -9598,7 +9598,7 @@ doesn
 t
 exist
 .
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

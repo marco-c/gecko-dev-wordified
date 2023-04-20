@@ -429,6 +429,9 @@ ErrorContext
 .
 h
 "
+/
+/
+AutoReportFrontendContext
 #
 include
 "
@@ -4729,7 +4732,7 @@ mutedErrors
 ;
 }
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

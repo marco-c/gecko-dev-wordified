@@ -242,6 +242,9 @@ ErrorContext
 .
 h
 "
+/
+/
+AutoReportFrontendContext
 #
 include
 "
@@ -2486,7 +2489,7 @@ tempLifoAlloc
 )
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

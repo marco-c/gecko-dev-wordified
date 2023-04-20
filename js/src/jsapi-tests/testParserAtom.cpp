@@ -174,6 +174,9 @@ h
 "
 /
 /
+AutoReportFrontendContext
+/
+/
 Test
 empty
 strings
@@ -224,7 +227,7 @@ TaggedParserAtomIndex
 js
 :
 :
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -446,7 +449,7 @@ ParserAtomVector
 js
 :
 :
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -690,7 +693,7 @@ ParserAtomVector
 js
 :
 :
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -1651,7 +1654,7 @@ ParserAtomsTable
 js
 :
 :
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -2683,7 +2686,7 @@ ParserAtomVector
 js
 :
 :
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -2988,7 +2991,7 @@ ParserAtomVector
 js
 :
 :
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

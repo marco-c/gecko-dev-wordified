@@ -700,7 +700,7 @@ h
 /
 /
 for
-MainThreadErrorContext
+AutoReportFrontendContext
 #
 include
 "
@@ -7166,7 +7166,7 @@ ScopeKind
 NonSyntactic
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

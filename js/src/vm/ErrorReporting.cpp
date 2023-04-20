@@ -200,8 +200,7 @@ h
 "
 /
 /
-MainThreadErrorContext
-OffThreadErrorContext
+AutoReportFrontendContext
 #
 include
 "
@@ -2926,7 +2925,7 @@ cx
 report
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -3153,7 +3152,7 @@ cx
 report
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

@@ -255,6 +255,9 @@ ErrorContext
 .
 h
 "
+/
+/
+AutoReportFrontendContext
 #
 include
 "
@@ -25906,7 +25909,7 @@ parsing
 .
 *
 /
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx

@@ -357,7 +357,7 @@ h
 /
 /
 for
-MainThreadErrorContext
+AutoReportFrontendContext
 #
 include
 "
@@ -3372,7 +3372,7 @@ return
 false
 ;
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
