@@ -85,8 +85,6 @@ navbar
 getAttribute
 (
 "
-default
--
 overflowtarget
 "
 )
