@@ -244,6 +244,10 @@ ImageRendering
 :
 Auto
 )
+mIsFromDRMSource
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
