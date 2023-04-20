@@ -24726,6 +24726,18 @@ condprof
 options
 .
 conditionedProfile
+                
+"
+msix
+"
+:
+"
+WindowsApps
+"
+in
+options
+.
+app
             
 }
         
