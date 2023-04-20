@@ -242,13 +242,13 @@ std
 :
 vector
 <
-std
+absl
 :
 :
-string
+string_view
 >
 parsed_version
-;
+=
 rtc
 :
 :
@@ -258,8 +258,6 @@ version
 '
 .
 '
-&
-parsed_version
 )
 ;
 if
