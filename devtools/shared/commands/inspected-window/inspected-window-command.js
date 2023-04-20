@@ -922,9 +922,9 @@ _reloadPending
 =
 false
 ;
-Cu
+console
 .
-reportError
+error
 (
 e
 )

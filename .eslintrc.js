@@ -1660,12 +1660,6 @@ detection
 *
 "
 "
-devtools
-/
-*
-*
-"
-"
 dom
 /
 push
