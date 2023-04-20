@@ -459,8 +459,6 @@ aWindow
 CrossGraphPort
 (
 )
-=
-default
 ;
 void
 AddAudioOutput
@@ -486,11 +484,6 @@ void
 aKey
 float
 aVolume
-)
-;
-void
-Destroy
-(
 )
 ;
 RefPtr
