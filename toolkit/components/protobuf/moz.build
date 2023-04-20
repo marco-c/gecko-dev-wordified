@@ -1282,6 +1282,7 @@ file
 #
 port_def
 conflicts
+#
 '
 src
 /
@@ -1296,8 +1297,12 @@ stringprintf
 cc
 '
 #
+Unused
+file
+#
 port_def
 conflicts
+#
 '
 src
 /
@@ -1311,6 +1316,9 @@ time
 .
 cc
 '
+#
+Unused
+file
 #
 GetCurrentTime
 conflict
