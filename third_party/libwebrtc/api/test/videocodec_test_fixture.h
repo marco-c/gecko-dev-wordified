@@ -298,9 +298,6 @@ virtual
 void
 CheckEncodedFrame
 (
-webrtc
-:
-:
 VideoCodecType
 codec
 const
@@ -673,9 +670,6 @@ settings
 to
 use
 .
-webrtc
-:
-:
 VideoCodec
 codec_settings
 ;
@@ -705,13 +699,10 @@ settings
 struct
 H264CodecSettings
 {
-H264
-:
-:
-Profile
+H264Profile
 profile
 =
-H264
+H264Profile
 :
 :
 kProfileConstrainedBaseline
@@ -719,9 +710,6 @@ kProfileConstrainedBaseline
 H264PacketizationMode
 packetization_mode
 =
-webrtc
-:
-:
 H264PacketizationMode
 :
 :

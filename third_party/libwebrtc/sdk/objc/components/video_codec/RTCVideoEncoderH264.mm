@@ -219,11 +219,11 @@ h
 #
 include
 "
-common_video
+api
 /
-h264
+video_codecs
 /
-h264_bitstream_parser
+h264_profile_level_id
 .
 h
 "
@@ -234,7 +234,7 @@ common_video
 /
 h264
 /
-profile_level_id
+h264_bitstream_parser
 .
 h
 "
@@ -1193,10 +1193,7 @@ const
 webrtc
 :
 :
-H264
-:
-:
-ProfileLevelId
+H264ProfileLevelId
 &
 profile_level_id
 )
@@ -1212,7 +1209,7 @@ case
 webrtc
 :
 :
-H264
+H264Profile
 :
 :
 kProfileConstrainedBaseline
@@ -1221,7 +1218,7 @@ case
 webrtc
 :
 :
-H264
+H264Profile
 :
 :
 kProfileBaseline
@@ -1237,7 +1234,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3
@@ -1249,7 +1246,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_1
@@ -1261,7 +1258,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_2
@@ -1273,7 +1270,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4
@@ -1285,7 +1282,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_1
@@ -1297,7 +1294,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_2
@@ -1309,7 +1306,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5
@@ -1321,7 +1318,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_1
@@ -1333,7 +1330,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_2
@@ -1345,7 +1342,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1
@@ -1354,7 +1351,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_b
@@ -1363,7 +1360,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_1
@@ -1372,7 +1369,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_2
@@ -1381,7 +1378,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_3
@@ -1390,7 +1387,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2
@@ -1399,7 +1396,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_1
@@ -1408,7 +1405,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_2
@@ -1421,7 +1418,7 @@ case
 webrtc
 :
 :
-H264
+H264Profile
 :
 :
 kProfileMain
@@ -1437,7 +1434,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3
@@ -1449,7 +1446,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_1
@@ -1461,7 +1458,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_2
@@ -1473,7 +1470,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4
@@ -1485,7 +1482,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_1
@@ -1497,7 +1494,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_2
@@ -1509,7 +1506,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5
@@ -1521,7 +1518,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_1
@@ -1533,7 +1530,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_2
@@ -1545,7 +1542,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1
@@ -1554,7 +1551,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_b
@@ -1563,7 +1560,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_1
@@ -1572,7 +1569,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_2
@@ -1581,7 +1578,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_3
@@ -1590,7 +1587,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2
@@ -1599,7 +1596,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_1
@@ -1608,7 +1605,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_2
@@ -1621,7 +1618,7 @@ case
 webrtc
 :
 :
-H264
+H264Profile
 :
 :
 kProfileConstrainedHigh
@@ -1630,7 +1627,7 @@ case
 webrtc
 :
 :
-H264
+H264Profile
 :
 :
 kProfileHigh
@@ -1646,7 +1643,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3
@@ -1658,7 +1655,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_1
@@ -1670,7 +1667,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_2
@@ -1682,7 +1679,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4
@@ -1694,7 +1691,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_1
@@ -1706,7 +1703,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_2
@@ -1718,7 +1715,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5
@@ -1730,7 +1727,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_1
@@ -1742,7 +1739,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_2
@@ -1754,7 +1751,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1
@@ -1763,7 +1760,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_b
@@ -1772,7 +1769,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_1
@@ -1781,7 +1778,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_2
@@ -1790,7 +1787,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_3
@@ -1799,7 +1796,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2
@@ -1808,7 +1805,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_1
@@ -1817,7 +1814,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_2
@@ -1914,10 +1911,7 @@ const
 webrtc
 :
 :
-H264
-:
-:
-ProfileLevelId
+H264ProfileLevelId
 &
 profile_level_id
 )
@@ -1933,7 +1927,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3
@@ -1945,7 +1939,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_1
@@ -1957,7 +1951,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel3_2
@@ -1969,7 +1963,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4
@@ -1978,7 +1972,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_1
@@ -1990,7 +1984,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel4_2
@@ -2002,7 +1996,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5
@@ -2014,7 +2008,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_1
@@ -2026,7 +2020,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel5_2
@@ -2038,7 +2032,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1
@@ -2047,7 +2041,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_b
@@ -2056,7 +2050,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_1
@@ -2065,7 +2059,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_2
@@ -2074,7 +2068,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel1_3
@@ -2083,7 +2077,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2
@@ -2092,7 +2086,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_1
@@ -2101,7 +2095,7 @@ case
 webrtc
 :
 :
-H264
+H264Level
 :
 :
 kLevel2_2
@@ -2171,10 +2165,7 @@ optional
 webrtc
 :
 :
-H264
-:
-:
-ProfileLevelId
+H264ProfileLevelId
 >
 _profile_level_id
 ;
@@ -2367,10 +2358,7 @@ _profile_level_id
 webrtc
 :
 :
-H264
-:
-:
-ParseSdpProfileLevelId
+ParseSdpForH264ProfileLevelId
 (
 [
 codecInfo
