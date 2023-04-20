@@ -2134,6 +2134,10 @@ id_
 =
 0
 ;
+friend
+class
+SctpTransportMap
+;
 RTC_DISALLOW_COPY_AND_ASSIGN
 (
 SctpTransport
@@ -2215,6 +2219,9 @@ Thread
 network_thread_
 ;
 }
+;
+class
+SctpTransportMap
 ;
 }
 /
