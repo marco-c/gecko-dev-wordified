@@ -13914,6 +13914,8 @@ context
 .
 extra_data
 .
+invalidation_data
+.
 document_state
 .
 intersects
