@@ -1546,6 +1546,9 @@ null
 NonAssertingLabel
 debugTrapStub_
 ;
+uint32_t
+previousBreakablePoint_
+;
 /
 /
 BaselineCompileFunctions
