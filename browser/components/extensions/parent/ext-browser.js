@@ -331,6 +331,9 @@ extension
 .
 uninstallURL
 {
+disallowInheritPrincipal
+:
+true
 relatedToCurrent
 :
 true
