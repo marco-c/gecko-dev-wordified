@@ -654,8 +654,6 @@ SaturationProtectorImpl
 (
 float
 initial_headroom_db
-float
-extra_headroom_db
 int
 adjacent_speech_frames_threshold
 ApmDataDumper
@@ -670,10 +668,6 @@ apm_data_dumper
 initial_headroom_db_
 (
 initial_headroom_db
-)
-extra_headroom_db_
-(
-extra_headroom_db
 )
 adjacent_speech_frames_threshold_
 (
@@ -925,8 +919,6 @@ headroom_db_
 preliminary_state_
 .
 headroom_db
-+
-extra_headroom_db_
 ;
 }
 }
@@ -948,8 +940,6 @@ num_adjacent_speech_frames_
 headroom_db_
 =
 initial_headroom_db_
-+
-extra_headroom_db_
 ;
 ResetSaturationProtectorState
 (
@@ -1008,10 +998,6 @@ float
 initial_headroom_db_
 ;
 const
-float
-extra_headroom_db_
-;
-const
 int
 adjacent_speech_frames_threshold_
 ;
@@ -1044,8 +1030,6 @@ CreateSaturationProtector
 (
 float
 initial_headroom_db
-float
-extra_headroom_db
 int
 adjacent_speech_frames_threshold
 ApmDataDumper
@@ -1063,7 +1047,6 @@ SaturationProtectorImpl
 >
 (
 initial_headroom_db
-extra_headroom_db
 adjacent_speech_frames_threshold
 apm_data_dumper
 )

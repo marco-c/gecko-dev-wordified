@@ -171,7 +171,7 @@ constexpr
 float
 kHeadroomDbfs
 =
-1
+6
 .
 0f
 ;
@@ -211,7 +211,9 @@ float
 kLimiterThresholdForAgcGainDbfs
 =
 -
-kHeadroomDbfs
+1
+.
+0f
 ;
 /
 /
@@ -333,14 +335,6 @@ kSaturationProtectorInitialHeadroomDb
 0f
 ;
 constexpr
-float
-kSaturationProtectorExtraHeadroomDb
-=
-5
-.
-0f
-;
-constexpr
 int
 kSaturationProtectorBufferSize
 =
@@ -372,8 +366,6 @@ constexpr
 float
 kInitialSpeechLevelEstimateDbfs
 =
--
-kSaturationProtectorExtraHeadroomDb
 -
 kSaturationProtectorInitialHeadroomDb
 -
