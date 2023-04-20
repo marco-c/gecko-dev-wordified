@@ -3462,7 +3462,7 @@ args
 ]
 .
 message_id
-DEFAULT_ABOUTWELCOME_PROTON_
+MR_WELCOME_DEFAULT_
 {
 startScreen
 }

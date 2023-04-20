@@ -19386,7 +19386,7 @@ aboutwelcome
 .
 templateMR
 "
-false
+true
 )
 ;
 /
