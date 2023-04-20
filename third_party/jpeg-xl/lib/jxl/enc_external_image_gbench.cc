@@ -225,13 +225,6 @@ SRGB
 )
 /
 *
-alpha_is_premultiplied
-=
-*
-/
-false
-/
-*
 bits_per_sample
 =
 *

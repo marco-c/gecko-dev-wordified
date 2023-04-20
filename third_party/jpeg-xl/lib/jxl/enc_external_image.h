@@ -235,8 +235,6 @@ const
 ColorEncoding
 &
 c_current
-bool
-alpha_is_premultiplied
 size_t
 bits_per_sample
 JxlPixelFormat

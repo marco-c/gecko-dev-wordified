@@ -247,7 +247,7 @@ D
 class
 V
 =
-Vec
+VFromD
 <
 D
 >

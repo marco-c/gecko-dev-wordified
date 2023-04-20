@@ -541,15 +541,6 @@ metadata
 m
 .
 color_encoding
-/
-*
-alpha_is_premultiplied
-=
-*
-/
-info
-.
-alpha_premultiplied
 frame_bits_per_sample
 frame
 .

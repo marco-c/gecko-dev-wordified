@@ -137,6 +137,8 @@ jxl
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 /
 /
 These
@@ -1290,6 +1292,10 @@ encoding
 ;
 }
 }
+}
+/
+/
+namespace
 /
 /
 NOLINTNEXTLINE

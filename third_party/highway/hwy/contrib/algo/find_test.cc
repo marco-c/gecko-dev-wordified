@@ -152,6 +152,12 @@ include
 <
 algorithm
 >
+/
+/
+std
+:
+:
+find_if
 #
 include
 <

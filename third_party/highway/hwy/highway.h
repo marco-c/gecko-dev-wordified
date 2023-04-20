@@ -262,7 +262,7 @@ HWY_MINOR
 #
 define
 HWY_PATCH
-1
+2
 /
 /
 -

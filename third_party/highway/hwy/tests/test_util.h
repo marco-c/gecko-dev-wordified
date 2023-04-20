@@ -192,6 +192,17 @@ h
 #
 include
 <
+cmath
+>
+/
+/
+std
+:
+:
+isnan
+#
+include
+<
 string
 >
 #

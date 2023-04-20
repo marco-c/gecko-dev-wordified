@@ -349,7 +349,7 @@ be
 used
 with
 the
-alligned
+aligned
 /
 /
 allocator

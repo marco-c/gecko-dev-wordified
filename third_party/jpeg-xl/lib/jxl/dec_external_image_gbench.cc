@@ -201,13 +201,6 @@ move
 (
 alpha
 )
-/
-*
-alpha_is_premultiplied
-=
-*
-/
-false
 )
 ;
 const

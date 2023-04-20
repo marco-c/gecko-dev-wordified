@@ -167,6 +167,9 @@ algorithm
 >
 /
 /
+std
+:
+:
 swap
 #
 include

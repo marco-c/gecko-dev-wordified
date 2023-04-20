@@ -137,6 +137,8 @@ jxl
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 /
 /
 These
@@ -451,6 +453,7 @@ b
 }
 )
 {
+HWY_ALIGN
 float
 vals
 [
@@ -1377,6 +1380,10 @@ OpInvalid
 ;
 }
 }
+}
+/
+/
+namespace
 /
 /
 NOLINTNEXTLINE

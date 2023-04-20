@@ -219,6 +219,17 @@ stdint
 h
 >
 #
+include
+<
+algorithm
+>
+/
+/
+std
+:
+:
+fill
+#
 undef
 HWY_TARGET_INCLUDE
 #

@@ -1951,7 +1951,7 @@ header
 .
 bits_per_sample
 >
-12
+16
 )
 {
 return
@@ -1967,7 +1967,7 @@ can
 do
 at
 most
-12
+16
 -
 bit
 )

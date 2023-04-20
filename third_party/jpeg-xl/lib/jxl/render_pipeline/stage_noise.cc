@@ -566,6 +566,8 @@ D
 (
 )
 kScale
++
+1
 )
 )
 Set
@@ -574,8 +576,6 @@ D
 (
 )
 kScale
--
-1
 )
 floor_x
 )
@@ -593,6 +593,8 @@ D
 (
 )
 kScale
++
+1
 )
 )
 Set

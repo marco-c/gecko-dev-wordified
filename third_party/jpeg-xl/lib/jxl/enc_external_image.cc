@@ -1451,8 +1451,6 @@ const
 ColorEncoding
 &
 c_current
-bool
-alpha_is_premultiplied
 size_t
 bits_per_sample
 JxlPixelFormat
@@ -1710,7 +1708,6 @@ move
 (
 alpha
 )
-alpha_is_premultiplied
 )
 ;
 }
@@ -1777,7 +1774,6 @@ move
 (
 alpha
 )
-alpha_is_premultiplied
 )
 ;
 }
@@ -1932,13 +1928,6 @@ size
 xsize
 ysize
 c_current
-/
-*
-alpha_is_premultiplied
-=
-*
-/
-false
 bitdepth
 pixel_format
 pool

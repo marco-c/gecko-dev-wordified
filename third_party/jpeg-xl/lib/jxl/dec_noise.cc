@@ -569,7 +569,6 @@ x
 +
 kFloatsPerBatch
 <
-=
 xsize
 ;
 x

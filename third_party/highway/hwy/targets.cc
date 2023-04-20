@@ -307,15 +307,6 @@ HWY_OS_LINUX
 #
 include
 <
-asm
-/
-hwcap
-.
-h
->
-#
-include
-<
 sys
 /
 auxv
@@ -694,7 +685,7 @@ if
 HWY_ARCH_X86
 /
 /
-Arbritrary
+Arbitrary
 bit
 indices
 indicating

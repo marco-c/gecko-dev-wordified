@@ -2121,7 +2121,7 @@ JxlEncoderFrameSettingsSetOption
 (
 frame_settings
 JXL_ENC_FRAME_SETTING_EFFORT
-10
+11
 )
 )
 ;
@@ -2252,7 +2252,7 @@ get
 (
 )
 frame_settings
-3000
+3030
 false
 )
 ;
@@ -2563,7 +2563,7 @@ get
 (
 )
 frame_settings
-2750
+2803
 /
 *
 lossy_use_original_profile
@@ -3181,7 +3181,7 @@ get
 (
 )
 frame_settings
-4100
+5181
 true
 )
 ;
@@ -3240,7 +3240,7 @@ get
 (
 )
 frame_settings
-4500
+5580
 true
 )
 ;
@@ -3299,7 +3299,7 @@ get
 (
 )
 frame_settings
-3720
+4647
 true
 )
 ;
