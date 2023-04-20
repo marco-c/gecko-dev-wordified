@@ -1890,7 +1890,7 @@ NOLINT
 RTC_DCHECK
 (
 !
-error
+error_
 .
 ok
 (
