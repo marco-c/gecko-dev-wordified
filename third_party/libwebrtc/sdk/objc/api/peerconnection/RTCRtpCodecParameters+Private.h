@@ -158,6 +158,7 @@ RtpCodecParameters
 &
 )
 nativeParameters
+NS_DESIGNATED_INITIALIZER
 ;
 end
 NS_ASSUME_NONNULL_END
