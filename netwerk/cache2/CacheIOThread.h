@@ -656,6 +656,10 @@ LoopOneLevel
 uint32_t
 aLevel
 )
+MOZ_REQUIRES
+(
+mMonitor
+)
 ;
 bool
 EventsPending
@@ -693,7 +697,6 @@ mozilla
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 {
 "
 CacheIOThread
@@ -765,6 +768,13 @@ mCurrentlyExecutingLevel
 ;
 /
 /
+only
+accessed
+on
+CacheIO
+Thread
+/
+/
 Keeps
 the
 length
@@ -799,6 +809,10 @@ mEventQueue
 [
 LAST_LEVEL
 ]
+MOZ_GUARDED_BY
+(
+mMonitor
+)
 ;
 /
 /
@@ -863,6 +877,10 @@ by
 mMonitor
 bool
 mShutdown
+MOZ_GUARDED_BY
+(
+mMonitor
+)
 {
 false
 }
@@ -950,6 +968,10 @@ ifdef
 DEBUG
 bool
 mInsideLoop
+MOZ_GUARDED_BY
+(
+mMonitor
+)
 {
 true
 }
