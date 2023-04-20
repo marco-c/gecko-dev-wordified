@@ -222,7 +222,9 @@ list
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -326,7 +328,9 @@ _loginGuidsSortedOrder
 length
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -405,7 +409,9 @@ breached
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 breachedLoginListItems
 [
@@ -583,7 +589,9 @@ _loginGuidsSortedOrder
 length
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -660,6 +668,8 @@ vulnerable
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -706,6 +716,8 @@ guid
 )
 )
 ;
+Assert
+.
 ok
 (
 !

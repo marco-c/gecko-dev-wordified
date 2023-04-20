@@ -442,6 +442,8 @@ newTab
 await
 promiseNewTab
 ;
+Assert
+.
 ok
 (
 true

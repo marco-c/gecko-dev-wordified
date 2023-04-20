@@ -221,6 +221,8 @@ button
 "
 )
 ;
+Assert
+.
 ok
 (
 fxAccountsButton
@@ -267,7 +269,9 @@ false
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 fxAccountsButton
 .
@@ -427,6 +431,8 @@ button
 "
 )
 ;
+Assert
+.
 ok
 (
 fxAccountsButton
@@ -473,7 +479,9 @@ expectedEmail
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 fxAccountsButton
 .
@@ -488,7 +496,9 @@ in
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 fxAccountsButton
 .
@@ -503,7 +513,9 @@ set
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 fxAccountsButton
 .

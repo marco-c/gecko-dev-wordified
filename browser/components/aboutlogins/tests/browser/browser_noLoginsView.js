@@ -121,6 +121,8 @@ list
 "
 )
 ;
+Assert
+.
 ok
 (
 content
@@ -150,6 +152,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 loginList
@@ -243,6 +247,8 @@ ol
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -266,6 +272,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -290,6 +298,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -312,6 +322,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -336,7 +348,9 @@ view
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -391,6 +405,8 @@ message
 "
 )
 ;
+Assert
+.
 ok
 (
 loginIntro
@@ -453,7 +469,9 @@ content
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -553,7 +571,9 @@ file
 import
 "
 ;
-is
+Assert
+.
+equal
 (
 ContentTaskUtils
 .
@@ -745,6 +765,8 @@ MigrationWizard
 "
 )
 ;
+Assert
+.
 ok
 (
 migratorWindow
@@ -838,6 +860,8 @@ intro
 "
 )
 ;
+Assert
+.
 ok
 (
 loginList
@@ -871,6 +895,8 @@ results
 "
 )
 ;
+Assert
+.
 ok
 (
 loginList
@@ -904,6 +930,8 @@ logins
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -938,6 +966,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -967,6 +997,8 @@ logins
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -985,6 +1017,8 @@ hidden
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1123,6 +1157,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1156,6 +1192,8 @@ exists
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1189,6 +1227,8 @@ exists
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1223,7 +1263,9 @@ mode
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -1265,6 +1307,8 @@ selected
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1296,7 +1340,9 @@ logins
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 Cu
 .
@@ -1324,6 +1370,8 @@ selected
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1343,6 +1391,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils

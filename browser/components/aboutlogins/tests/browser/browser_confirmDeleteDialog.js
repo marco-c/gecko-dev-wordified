@@ -255,7 +255,9 @@ confirmDeleteButton
 ]
 )
 ;
-is
+Assert
+.
+equal
 (
 title
 .
@@ -280,7 +282,9 @@ element
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 message
 .
@@ -307,7 +311,9 @@ element
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 cancelButton
 .
@@ -330,7 +336,9 @@ element
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 confirmDeleteButton
 .
@@ -364,6 +372,8 @@ try
 await
 showPromise
 ;
+Assert
+.
 ok
 (
 false
@@ -390,6 +400,8 @@ catch
 ex
 )
 {
+Assert
+.
 ok
 (
 true
@@ -433,6 +445,8 @@ hidden
 "
 )
 ;
+Assert
+.
 ok
 (
 dialog
@@ -472,6 +486,8 @@ try
 await
 showPromise
 ;
+Assert
+.
 ok
 (
 false
@@ -498,6 +514,8 @@ catch
 ex
 )
 {
+Assert
+.
 ok
 (
 true
@@ -541,6 +559,8 @@ hidden
 "
 )
 ;
+Assert
+.
 ok
 (
 dialog
@@ -580,6 +600,8 @@ try
 await
 showPromise
 ;
+Assert
+.
 ok
 (
 true
@@ -605,6 +627,8 @@ catch
 ex
 )
 {
+Assert
+.
 ok
 (
 false
@@ -649,6 +673,8 @@ hidden
 "
 )
 ;
+Assert
+.
 ok
 (
 dialog

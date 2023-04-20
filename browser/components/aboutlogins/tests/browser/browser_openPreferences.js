@@ -299,6 +299,8 @@ privacy
 "
 )
 {
+Assert
+.
 ok
 (
 seenFirstURL
@@ -492,6 +494,8 @@ newTab
 await
 promiseNewTab
 ;
+Assert
+.
 ok
 (
 true

@@ -209,6 +209,8 @@ displayed
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -240,6 +242,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -270,6 +274,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 loginFound
@@ -507,6 +513,8 @@ populated
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItemPopulated
@@ -894,6 +902,8 @@ populated
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItemPopulated
@@ -1044,6 +1054,8 @@ list
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1080,6 +1092,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1133,6 +1147,8 @@ dialog
 )
 )
 ;
+Assert
+.
 ok
 (
 confirmDiscardDialog
@@ -1219,6 +1235,8 @@ list
 "
 )
 ;
+Assert
+.
 ok
 (
 content
@@ -1252,6 +1270,8 @@ deleted
 "
 )
 ;
+Assert
+.
 ok
 (
 loginList

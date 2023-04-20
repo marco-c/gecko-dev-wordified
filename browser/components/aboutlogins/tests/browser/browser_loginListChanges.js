@@ -230,6 +230,8 @@ added
 "
 )
 ;
+Assert
+.
 ok
 (
 loginFound
@@ -433,6 +435,8 @@ updated
 "
 )
 ;
+Assert
+.
 ok
 (
 loginFound
@@ -596,6 +600,8 @@ removed
 "
 )
 ;
+Assert
+.
 ok
 (
 loginRemoved
@@ -833,6 +839,8 @@ added
 "
 )
 ;
+Assert
+.
 ok
 (
 loginFound
@@ -849,6 +857,8 @@ page
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -882,6 +892,8 @@ logins
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -992,6 +1004,8 @@ cleared
 "
 )
 ;
+Assert
+.
 ok
 (
 loginFound
@@ -1003,6 +1017,8 @@ cleared
 "
 )
 ;
+Assert
+.
 ok
 (
 content
@@ -1033,6 +1049,8 @@ clearing
 "
 )
 ;
+Assert
+.
 ok
 (
 loginList

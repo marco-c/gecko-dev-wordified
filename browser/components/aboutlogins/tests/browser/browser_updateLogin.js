@@ -189,6 +189,8 @@ displayed
 "
 )
 ;
+Assert
+.
 ok
 (
 loginFound
@@ -374,6 +376,8 @@ dialog
 "
 )
 ;
+Assert
+.
 ok
 (
 dialog
@@ -417,6 +421,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -491,6 +497,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 dialog
@@ -568,7 +576,9 @@ login
 username
 )
 ;
-is
+Assert
+.
+equal
 (
 usernameInput
 .
@@ -585,7 +595,9 @@ reverted
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -609,7 +621,9 @@ loginItem
 .
 _passwordDisplayInput
 ;
-is
+Assert
+.
+equal
 (
 passwordDisplayInput
 .
@@ -636,6 +650,8 @@ display
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -659,7 +675,9 @@ value
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -687,7 +705,9 @@ changed
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordDisplayInput
 .
@@ -882,6 +902,8 @@ populated
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItemPopulated
@@ -1261,6 +1283,8 @@ loginItem
 .
 _passwordDisplayInput
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -1280,7 +1304,9 @@ mode
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -1327,6 +1353,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 revealCheckbox
@@ -1344,7 +1372,9 @@ clicking
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -1435,6 +1465,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1454,6 +1486,8 @@ changes
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1477,7 +1511,9 @@ saving
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -1497,7 +1533,9 @@ mode
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 usernameInput
 .
@@ -1514,7 +1552,9 @@ reverted
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -1531,7 +1571,9 @@ reverted
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordDisplayInput
 .
@@ -1558,6 +1600,8 @@ display
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1581,7 +1625,9 @@ value
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -1609,7 +1655,9 @@ changed
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordDisplayInput
 .
@@ -1820,6 +1868,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 revealCheckbox
@@ -1892,6 +1942,8 @@ value
 saveme
 "
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -2028,6 +2080,8 @@ update
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -2047,6 +2101,8 @@ changes
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -2070,7 +2126,9 @@ saving
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordInput
 .
@@ -2097,7 +2155,9 @@ updated
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordDisplayInput
 .
@@ -2283,6 +2343,8 @@ resolve
 (
 )
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -2469,6 +2531,8 @@ list
 "
 )
 ;
+Assert
+.
 ok
 (
 !

@@ -165,6 +165,8 @@ TEST_LOGIN3
 ]
 )
 ;
+Assert
+.
 ok
 (
 breaches
@@ -356,6 +358,8 @@ list
 )
 )
 ;
+Assert
+.
 ok
 (
 loginList
@@ -513,6 +517,8 @@ sort
 "
 )
 ;
+Assert
+.
 ok
 (
 loginSort
@@ -785,6 +791,8 @@ vulnerableLoginGuid
 ]
 )
 ;
+Assert
+.
 ok
 (
 vulnerableListItem
@@ -810,6 +818,8 @@ such
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -841,6 +851,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -981,7 +993,9 @@ alerts
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginSort
 .
@@ -1061,6 +1075,8 @@ breached
 )
 )
 {
+Assert
+.
 ok
 (
 loginListItems
@@ -1226,6 +1242,8 @@ list
 "
 )
 ;
+Assert
+.
 ok
 (
 vulnerableListItem
@@ -1251,6 +1269,8 @@ such
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1463,6 +1483,8 @@ breached
 )
 )
 {
+Assert
+.
 ok
 (
 loginListItems
