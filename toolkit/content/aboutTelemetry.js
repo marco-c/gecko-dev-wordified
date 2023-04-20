@@ -94,7 +94,7 @@ TelemetryTimestamps
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -107,7 +107,9 @@ modules
 /
 TelemetryTimestamps
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -118,7 +120,7 @@ TelemetryController
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -131,7 +133,9 @@ modules
 /
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -142,7 +146,7 @@ TelemetryArchive
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -155,7 +159,9 @@ modules
 /
 TelemetryArchive
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -166,7 +172,7 @@ TelemetrySend
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -179,7 +185,9 @@ modules
 /
 TelemetrySend
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -1687,7 +1687,9 @@ ping
 see
 TelemetrySend
 .
-jsm
+sys
+.
+mjs
 string
 GenerateSubmissionUrl
 (

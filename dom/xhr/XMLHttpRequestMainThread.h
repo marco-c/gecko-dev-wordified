@@ -1295,7 +1295,9 @@ enum
 of
 TelemetrySend
 .
-jsm
+sys
+.
+mjs
 .
 enum
 class

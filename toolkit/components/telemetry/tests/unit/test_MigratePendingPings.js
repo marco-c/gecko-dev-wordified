@@ -39,7 +39,7 @@ TelemetryStorage
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ modules
 /
 TelemetryStorage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -63,7 +65,7 @@ TelemetryUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +78,9 @@ modules
 /
 TelemetryUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -65,9 +65,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -84,7 +84,9 @@ modules
 /
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

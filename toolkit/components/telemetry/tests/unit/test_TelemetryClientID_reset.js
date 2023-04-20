@@ -34,7 +34,7 @@ ClientID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ modules
 /
 ClientID
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +60,7 @@ TelemetryController
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +73,9 @@ modules
 /
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -82,7 +86,7 @@ TelemetryStorage
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -95,7 +99,9 @@ modules
 /
 TelemetryStorage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -106,7 +112,7 @@ TelemetryUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -119,7 +125,9 @@ modules
 /
 TelemetryUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -51,7 +51,7 @@ ClientID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -64,7 +64,9 @@ modules
 /
 ClientID
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -75,7 +77,7 @@ TelemetryArchive
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -88,7 +90,9 @@ modules
 /
 TelemetryArchive
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -166,7 +170,7 @@ Policy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -179,7 +183,9 @@ modules
 /
 TelemetryStorage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

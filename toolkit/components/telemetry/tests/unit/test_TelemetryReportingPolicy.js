@@ -59,7 +59,7 @@ TelemetryReportingPolicy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -72,7 +72,9 @@ modules
 /
 TelemetryReportingPolicy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -140,7 +142,7 @@ Policy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -153,7 +155,9 @@ modules
 /
 TelemetryReportingPolicy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -54,9 +54,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -73,7 +73,9 @@ common
 /
 TelemetryTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

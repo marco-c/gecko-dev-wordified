@@ -25,7 +25,7 @@ ClientID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -38,7 +38,9 @@ modules
 /
 ClientID
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -721,7 +723,9 @@ false
 When
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 detects
 this
 it

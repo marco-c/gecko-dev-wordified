@@ -104,7 +104,7 @@ TelemetryController
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -117,7 +117,9 @@ modules
 /
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
