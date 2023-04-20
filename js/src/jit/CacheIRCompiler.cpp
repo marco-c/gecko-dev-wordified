@@ -35463,7 +35463,15 @@ masm
 FailurePath
 *
 failure
+=
+nullptr
 ;
+if
+(
+!
+handleOOB
+)
+{
 if
 (
 !
@@ -35477,6 +35485,7 @@ failure
 return
 false
 ;
+}
 }
 /
 /
