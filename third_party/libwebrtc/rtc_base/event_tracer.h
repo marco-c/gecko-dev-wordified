@@ -213,6 +213,17 @@ stdio
 .
 h
 >
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -429,11 +440,13 @@ internal
 event
 tracer
 .
+RTC_EXPORT
 void
 SetupInternalTracer
 (
 )
 ;
+RTC_EXPORT
 bool
 StartInternalCapture
 (
@@ -443,6 +456,7 @@ char
 filename
 )
 ;
+RTC_EXPORT
 void
 StartInternalCaptureToFile
 (
@@ -451,6 +465,7 @@ FILE
 file
 )
 ;
+RTC_EXPORT
 void
 StopInternalCapture
 (
@@ -471,6 +486,7 @@ the
 internal
 tracing
 .
+RTC_EXPORT
 void
 ShutdownInternalTracer
 (
