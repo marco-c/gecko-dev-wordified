@@ -741,11 +741,6 @@ byteLength
 GB
 .
 *
-See
-also
-SetLargeArrayBuffersEnabled
-.
-*
 *
 |
 obj
