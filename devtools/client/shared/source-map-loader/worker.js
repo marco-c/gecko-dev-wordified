@@ -97,7 +97,6 @@ hasOriginalURL
 getOriginalRanges
 getGeneratedRanges
 getGeneratedLocation
-getAllGeneratedLocations
 getOriginalLocation
 getOriginalLocations
 getOriginalSourceText
@@ -223,7 +222,6 @@ hasOriginalURL
 getOriginalRanges
 getGeneratedRanges
 getGeneratedLocation
-getAllGeneratedLocations
 getOriginalLocation
 getOriginalLocations
 getOriginalSourceText
