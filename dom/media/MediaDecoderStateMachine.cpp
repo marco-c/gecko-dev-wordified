@@ -9940,6 +9940,9 @@ Type
 :
 AUDIO_DATA
 )
+|
+|
+mIsReachingAudioEOS
 ;
 }
 bool
@@ -10019,6 +10022,9 @@ Type
 :
 VIDEO_DATA
 )
+|
+|
+mIsReachingVideoEOS
 ;
 }
 bool
