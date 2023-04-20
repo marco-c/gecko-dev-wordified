@@ -680,7 +680,9 @@ quality_thresholds
 {
 {
 36
-32
+31
+.
+9
 0
 .
 93
