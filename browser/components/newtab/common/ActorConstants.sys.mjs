@@ -82,6 +82,7 @@ use
 strict
 "
 ;
+export
 const
 MESSAGE_TYPE_LIST
 =
@@ -194,6 +195,7 @@ RESET_GROUPS_STATE
 "
 ]
 ;
+export
 const
 MESSAGE_TYPE_HASH
 =
@@ -222,16 +224,4 @@ hash
 {
 }
 )
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-MESSAGE_TYPE_LIST
-"
-"
-MESSAGE_TYPE_HASH
-"
-]
 ;

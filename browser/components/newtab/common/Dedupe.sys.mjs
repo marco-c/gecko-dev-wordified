@@ -56,6 +56,7 @@ MPL
 .
 *
 /
+export
 class
 Dedupe
 {
@@ -267,12 +268,3 @@ values
 ;
 }
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-Dedupe
-"
-]
-;

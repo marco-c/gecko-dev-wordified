@@ -101,7 +101,7 @@ msg
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -116,7 +116,9 @@ common
 /
 ActorConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

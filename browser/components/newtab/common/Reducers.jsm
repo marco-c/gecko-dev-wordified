@@ -70,7 +70,7 @@ at
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -85,7 +85,9 @@ common
 /
 Actions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -96,7 +98,7 @@ Dedupe
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -111,7 +113,9 @@ common
 /
 Dedupe
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

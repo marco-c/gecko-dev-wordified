@@ -22,7 +22,9 @@ common
 /
 Actions
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
@@ -94,7 +96,9 @@ common
 /
 ActorConstants
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const
