@@ -98,7 +98,7 @@ include
 "
 rtc_base
 /
-async_resolver
+net_helpers
 .
 h
 "
