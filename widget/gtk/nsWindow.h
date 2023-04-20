@@ -2880,6 +2880,13 @@ domButton
 GdkEventButton
 *
 aEvent
+const
+mozilla
+:
+:
+LayoutDeviceIntPoint
+&
+aRefPoint
 )
 ;
 void
@@ -2969,6 +2976,13 @@ aEvent
 GdkEventButton
 *
 aGdkEvent
+const
+mozilla
+:
+:
+LayoutDeviceIntPoint
+&
+aRefPoint
 )
 ;
 bool
