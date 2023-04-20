@@ -1238,6 +1238,13 @@ true
 ;
 treecolpicker
 .
+querySelector
+(
+"
+button
+"
+)
+.
 click
 (
 )
