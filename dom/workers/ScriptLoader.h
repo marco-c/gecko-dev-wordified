@@ -1949,11 +1949,7 @@ JSScript
 aIntroductionScript
 )
 override
-{
-return
-NS_OK
 ;
-}
 void
 ReportErrorToConsole
 (
