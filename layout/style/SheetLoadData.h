@@ -1944,6 +1944,17 @@ IsLinkRelPreload
 ;
 }
 bool
+IsSyncLoad
+(
+)
+const
+override
+{
+return
+mSyncLoad
+;
+}
+bool
 IsLoading
 (
 )
