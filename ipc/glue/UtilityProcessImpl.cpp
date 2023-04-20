@@ -395,9 +395,7 @@ will
 prevent
 loading
 .
-:
-:
-LoadLibraryW
+LoadLibraryOrCrash
 (
 L
 "
