@@ -684,7 +684,6 @@ threadsafe_metric_clone
 add_sync
 (
 &
-*
 glean_clone
 .
 lock
@@ -708,7 +707,6 @@ threadsafe_metric_clone
 add_sync
 (
 &
-*
 glean_clone
 .
 lock
@@ -729,7 +727,6 @@ threadsafe_metric
 add_sync
 (
 &
-*
 glean
 .
 lock
@@ -753,7 +750,6 @@ threadsafe_metric
 add_sync
 (
 &
-*
 glean
 .
 lock

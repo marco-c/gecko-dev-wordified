@@ -148,9 +148,9 @@ Error
 as
 TransportError
 Output
-Version
 RandomConnectionIdGenerator
 StreamId
+Version
 }
 ;
 use

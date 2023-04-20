@@ -3354,6 +3354,7 @@ in
 /
 future
 .
+pub
 fn
 guess_crate_root
 (
@@ -3687,7 +3688,6 @@ fs
 :
 create_dir_all
 (
-&
 s
 )
 ?
@@ -4482,10 +4482,17 @@ macro
 metadata
 from
 a
+native
+lib
+(
 cdylib
+or
+staticlib
+)
 for
 this
 crate
+.
 #
 [
 clap
@@ -4493,7 +4500,7 @@ clap
 long
 )
 ]
-cdylib
+lib_file
 :
 Option
 <
@@ -4819,7 +4826,7 @@ language
 out_dir
 no_format
 config
-cdylib
+lib_file
 udl_file
 }
 =
@@ -4857,7 +4864,7 @@ out_dir
 as_deref
 (
 )
-cdylib
+lib_file
 .
 as_deref
 (
