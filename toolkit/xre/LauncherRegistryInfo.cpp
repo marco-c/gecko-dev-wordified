@@ -3573,7 +3573,7 @@ see
 bug
 1363398
 .
-constexpr
+const
 DWORD
 flags
 =
