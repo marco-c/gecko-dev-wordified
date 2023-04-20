@@ -713,9 +713,9 @@ exception
 ex
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -1797,9 +1797,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
