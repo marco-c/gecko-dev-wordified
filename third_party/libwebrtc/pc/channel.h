@@ -3090,14 +3090,6 @@ cricket
 MEDIA_TYPE_VIDEO
 ;
 }
-void
-FillBitrateInfo
-(
-BandwidthEstimationInfo
-*
-bwe_info
-)
-;
 private
 :
 /
