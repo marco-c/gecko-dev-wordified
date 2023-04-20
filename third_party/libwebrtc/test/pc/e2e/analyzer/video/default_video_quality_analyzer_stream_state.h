@@ -131,7 +131,7 @@ analyzer
 /
 video
 /
-multi_head_queue
+multi_reader_queue
 .
 h
 "
@@ -360,7 +360,7 @@ AddPeer
 {
 frame_ids_
 .
-AddHead
+AddReader
 (
 GetAliveFramesQueueIndex
 (
@@ -665,7 +665,7 @@ with
 id
 frame_id3
 .
-MultiHeadQueue
+MultiReaderQueue
 <
 uint16_t
 >
