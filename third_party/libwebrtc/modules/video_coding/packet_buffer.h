@@ -238,8 +238,6 @@ const
 RTPVideoHeader
 &
 video_header
-Timestamp
-receive_time
 )
 ;
 Packet
@@ -415,9 +413,6 @@ video_payload
 ;
 RTPVideoHeader
 video_header
-;
-RtpPacketInfo
-packet_info
 ;
 }
 ;
