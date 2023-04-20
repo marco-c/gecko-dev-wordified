@@ -486,10 +486,8 @@ RtcEventLog
 event_log
 const
 WebRtcKeyValueConfig
-*
+&
 field_trials
-=
-nullptr
 ProcessThread
 *
 process_thread

@@ -408,7 +408,7 @@ TaskQueueFactory
 task_queue_factory
 const
 WebRtcKeyValueConfig
-*
+&
 trials
 )
 ;
@@ -829,7 +829,7 @@ PacerSettings
 (
 const
 WebRtcKeyValueConfig
-*
+&
 trials
 )
 ;
