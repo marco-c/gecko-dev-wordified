@@ -364,13 +364,5 @@ IDBMutableFileOpen
 )
 DEPRECATED_OPERATION
 (
-MozCurrentTransform
-)
-DEPRECATED_OPERATION
-(
-MozCurrentTransformInverse
-)
-DEPRECATED_OPERATION
-(
 MozPreservesPitchDeprecatedPrefix
 )
