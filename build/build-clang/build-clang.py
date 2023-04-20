@@ -115,6 +115,26 @@ which
 import
 zstandard
 def
+is_llvm_toolchain
+(
+cc
+cxx
+)
+:
+    
+return
+"
+clang
+"
+in
+cc
+and
+"
+clang
+"
+in
+cxx
+def
 check_run
 (
 args
@@ -1192,13 +1212,13 @@ cxx
     
 asm
     
-ld
-    
 ar
     
 ranlib
     
 libtool
+    
+ldflags
     
 src_dir
     
@@ -1302,10 +1322,10 @@ cmake_base_args
 cc
 cxx
 asm
-ld
 ar
 ranlib
 libtool
+ldflags
 inst_dir
 )
 :
@@ -1374,22 +1394,6 @@ s
 slashify_path
 (
 asm
-[
-0
-]
-)
-            
-"
--
-DCMAKE_LINKER
-=
-%
-s
-"
-%
-slashify_path
-(
-ld
 [
 0
 ]
@@ -1481,11 +1485,7 @@ s
 .
 join
 (
-ld
-[
-1
-:
-]
+ldflags
 )
             
 "
@@ -1501,11 +1501,7 @@ s
 .
 join
 (
-ld
-[
-1
-:
-]
+ldflags
 )
             
 "
@@ -1589,6 +1585,32 @@ OFF
 ]
         
 if
+is_llvm_toolchain
+(
+cc
+[
+0
+]
+cxx
+[
+0
+]
+)
+:
+            
+cmake_args
++
+=
+[
+"
+-
+DLLVM_ENABLE_LLD
+=
+ON
+"
+]
+        
+if
 "
 TASK_ID
 "
@@ -1630,6 +1652,9 @@ projects
 "
 clang
 "
+"
+lld
+"
 ]
         
 if
@@ -1638,8 +1663,7 @@ is_final_stage
             
 projects
 .
-extend
-(
+append
 (
 "
 clang
@@ -1648,10 +1672,6 @@ tools
 -
 extra
 "
-"
-lld
-"
-)
 )
         
 else
@@ -2436,10 +2456,10 @@ cmake_base_args
 cc
 cxx
 asm
-ld
 ar
 ranlib
 libtool
+ldflags
 inst_dir
 )
     
@@ -4926,23 +4946,39 @@ as
 "
 )
     
-ld
-=
-get_tool
-(
-config
-"
-link
-"
-if
-is_windows
-(
-)
-else
-"
-ld
-"
-)
+#
+Not
+using
+lld
+here
+as
+default
+here
+because
+it
+'
+s
+not
+in
+PATH
+.
+But
+clang
+    
+#
+knows
+how
+to
+find
+it
+when
+they
+are
+installed
+alongside
+each
+others
+.
     
 ar
 =
@@ -5321,6 +5357,50 @@ here
 too
 .
         
+#
+It
+'
+s
+unfortunately
+required
+to
+specify
+the
+linker
+used
+here
+because
+        
+#
+the
+linker
+flags
+are
+used
+in
+LLVM
+'
+s
+configure
+step
+before
+        
+#
+-
+DLLVM_ENABLE_LLD
+is
+actually
+processed
+.
+        
+if
+is_llvm_toolchain
+(
+cc
+cxx
+)
+:
+            
 extra_ldflags
 +
 =
@@ -5331,16 +5411,7 @@ fuse
 -
 ld
 =
-gold
-"
-"
--
-Wl
--
--
-gc
--
-sections
+lld
 "
 "
 -
@@ -5350,6 +5421,21 @@ Wl
 icf
 =
 safe
+"
+]
+        
+extra_ldflags
++
+=
+[
+"
+-
+Wl
+-
+-
+gc
+-
+sections
 "
 ]
     
@@ -5834,17 +5920,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             
@@ -5989,17 +6071,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             
@@ -6154,17 +6232,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             
@@ -6460,17 +6534,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             
