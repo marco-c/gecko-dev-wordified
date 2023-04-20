@@ -498,7 +498,7 @@ twoByte
 (
 StringBufferAllocPolicy
 {
-cx_
+ec_
 arenaId_
 }
 )
