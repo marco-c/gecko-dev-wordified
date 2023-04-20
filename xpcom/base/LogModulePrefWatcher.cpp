@@ -285,7 +285,7 @@ sync
 static
 const
 char
-kLoggingPrefMarkers
+kLoggingPrefStacks
 [
 ]
 =
@@ -294,7 +294,7 @@ logging
 .
 config
 .
-profilermarkers
+profilerstacks
 "
 ;
 namespace
@@ -700,12 +700,12 @@ prefName
 .
 EqualsLiteral
 (
-kLoggingPrefMarkers
+kLoggingPrefStacks
 )
 )
 {
 bool
-enableMarkers
+captureStacks
 =
 Preferences
 :
@@ -719,9 +719,9 @@ false
 LogModule
 :
 :
-SetRecordMarkers
+SetCaptureStacks
 (
-enableMarkers
+captureStacks
 )
 ;
 }

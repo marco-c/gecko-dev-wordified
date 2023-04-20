@@ -2893,7 +2893,7 @@ logging
 .
 config
 .
-profilermarkers
+profilerstacks
 "
 )
 )
@@ -2903,7 +2903,7 @@ activeLogModules
 push
 (
 "
-profilermarkers
+profilerstacks
 "
 )
 ;
@@ -3425,7 +3425,7 @@ module
 =
 =
 "
-profilermarkers
+profilerstacks
 "
 )
 {
@@ -3440,7 +3440,7 @@ logging
 .
 config
 .
-profilermarkers
+profilerstacks
 "
 true
 )
