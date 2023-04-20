@@ -2067,6 +2067,7 @@ virtual
 void
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode
@@ -2388,6 +2389,7 @@ virtual
 void
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode
@@ -2444,6 +2446,7 @@ _class
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode

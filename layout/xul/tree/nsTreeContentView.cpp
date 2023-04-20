@@ -5818,6 +5818,7 @@ nsTreeContentView
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode

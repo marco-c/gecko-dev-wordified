@@ -2409,6 +2409,7 @@ nsMutationReceiver
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode

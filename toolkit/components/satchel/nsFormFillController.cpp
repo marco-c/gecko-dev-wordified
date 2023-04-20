@@ -1354,6 +1354,7 @@ nsFormFillController
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode
@@ -1387,11 +1388,6 @@ aNode
 mAutofillInputs
 .
 Remove
-(
-aNode
-)
-;
-MaybeRemoveMutationObserver
 (
 aNode
 )

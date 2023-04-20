@@ -5371,6 +5371,7 @@ txMozillaXSLTProcessor
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode
