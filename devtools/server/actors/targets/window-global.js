@@ -209,16 +209,6 @@ chrome
 "
 )
 ;
-var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 const
 ChromeUtils
 =

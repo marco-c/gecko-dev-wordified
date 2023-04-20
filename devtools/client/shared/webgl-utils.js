@@ -75,16 +75,6 @@ chrome
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 WEBGL_CONTEXT_NAME
 =
 "

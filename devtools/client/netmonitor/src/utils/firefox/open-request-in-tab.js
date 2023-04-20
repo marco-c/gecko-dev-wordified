@@ -201,16 +201,6 @@ chrome
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 gDevTools
 }

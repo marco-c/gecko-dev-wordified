@@ -85,16 +85,6 @@ DevToolsUtils
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyRequireGetter

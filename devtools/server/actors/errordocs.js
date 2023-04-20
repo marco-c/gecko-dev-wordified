@@ -118,16 +118,6 @@ support
 URL
 redirection
 .
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyGetter

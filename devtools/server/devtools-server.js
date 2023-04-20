@@ -74,16 +74,6 @@ chrome
 )
 ;
 var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-var
 {
 ActorRegistry
 }

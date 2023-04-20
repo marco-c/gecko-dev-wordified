@@ -162,16 +162,6 @@ connect
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 L10N
 }

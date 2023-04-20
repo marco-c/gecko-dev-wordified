@@ -40,16 +40,6 @@ jsm
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 CommandsFactory
 }

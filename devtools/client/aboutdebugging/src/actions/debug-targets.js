@@ -110,16 +110,6 @@ manager
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 l10n
 }

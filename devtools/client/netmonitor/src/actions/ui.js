@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 ACTIVITY_TYPE
 OPEN_NETWORK_DETAILS

@@ -206,17 +206,6 @@ CommandBar
 css
 "
 ;
-import
-{
-appinfo
-}
-from
-"
-devtools
--
-services
-"
-;
 const
 MenuButton
 =
@@ -280,6 +269,8 @@ MenuList
 const
 isMacOS
 =
+Services
+.
 appinfo
 .
 OS
@@ -449,6 +440,8 @@ action
 return
 getKeyForOS
 (
+Services
+.
 appinfo
 .
 OS

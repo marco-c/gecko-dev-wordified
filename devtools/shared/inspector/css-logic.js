@@ -145,16 +145,6 @@ CSS
 constructor
 *
 /
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyRequireGetter

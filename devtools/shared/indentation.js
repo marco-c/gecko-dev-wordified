@@ -63,16 +63,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 EXPAND_TAB
 =
 "

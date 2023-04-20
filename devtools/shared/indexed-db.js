@@ -94,16 +94,6 @@ DevTools
 *
 /
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 PSEUDOURI
 =
 "

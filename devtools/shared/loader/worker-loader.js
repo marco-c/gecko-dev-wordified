@@ -3396,12 +3396,6 @@ atob
 this
 .
 atob
-}
-loadSubScript
-modules
-:
-{
-Debugger
 Services
 :
 Object
@@ -3410,6 +3404,12 @@ create
 (
 null
 )
+}
+loadSubScript
+modules
+:
+{
+Debugger
 chrome
 xpcInspector
 ChromeUtils

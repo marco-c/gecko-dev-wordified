@@ -104,16 +104,6 @@ chrome
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyRequireGetter

@@ -92,16 +92,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 TelemetryStopwatch
 =
 require

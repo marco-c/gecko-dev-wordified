@@ -44,16 +44,6 @@ detects
 static
 hpkp
 pins
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 Object
 .
 defineProperty

@@ -262,15 +262,6 @@ prop
 types
 "
 "
-devtools
--
-services
-"
-:
-"
-Services
-"
-"
 wasmparser
 /
 dist

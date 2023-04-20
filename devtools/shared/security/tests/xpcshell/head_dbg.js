@@ -67,16 +67,6 @@ jsm
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 xpcInspector
 =
 require

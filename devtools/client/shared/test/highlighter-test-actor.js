@@ -88,16 +88,6 @@ chrome
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 getRect
 getAdjustedQuads

@@ -61,6 +61,7 @@ MPL
 globals
 require
 exports
+Services
 *
 /
 "
@@ -137,16 +138,6 @@ server
 actors
 /
 process
-"
-)
-;
-const
-Services
-=
-require
-(
-"
-Services
 "
 )
 ;

@@ -63,16 +63,6 @@ modules
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 Services
 .
 prefs

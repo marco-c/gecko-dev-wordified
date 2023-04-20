@@ -88,16 +88,6 @@ ChromeUtils
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyRequireGetter

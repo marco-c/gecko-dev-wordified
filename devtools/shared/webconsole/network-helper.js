@@ -523,16 +523,6 @@ DevToolsUtils
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyGetter

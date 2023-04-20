@@ -70,16 +70,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 createFactory
 PureComponent

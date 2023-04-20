@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 SOURCE_MAP_PREF
 =
 "

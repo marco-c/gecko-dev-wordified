@@ -101,16 +101,6 @@ factories
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 isMacOS
 =
 Services

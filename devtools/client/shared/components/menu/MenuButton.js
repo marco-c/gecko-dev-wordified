@@ -80,16 +80,6 @@ doorhanger
 menu
 .
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 flags
 =
 require

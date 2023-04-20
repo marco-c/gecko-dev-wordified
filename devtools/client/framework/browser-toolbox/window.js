@@ -152,16 +152,6 @@ toolbox
 )
 ;
 var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-var
 {
 DevToolsClient
 }

@@ -119,16 +119,6 @@ emitter
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 BROWSER_TOOLBOX_FISSION_ENABLED
 =
 Services

@@ -130,16 +130,6 @@ isAndroid
 =
 >
 {
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 return
 Services
 .

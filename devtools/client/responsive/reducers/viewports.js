@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 ADD_VIEWPORT
 CHANGE_DEVICE

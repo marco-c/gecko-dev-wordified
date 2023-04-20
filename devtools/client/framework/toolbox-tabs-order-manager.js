@@ -102,16 +102,6 @@ devtools
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 Telemetry
 =
 require

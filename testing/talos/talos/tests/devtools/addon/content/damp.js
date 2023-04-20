@@ -101,16 +101,6 @@ ChromeUtils
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 AddonManager
 }

@@ -655,16 +655,6 @@ chrome
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 /
 *
 *

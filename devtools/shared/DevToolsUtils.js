@@ -94,16 +94,6 @@ chrome
 )
 ;
 var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-var
 flags
 =
 require
