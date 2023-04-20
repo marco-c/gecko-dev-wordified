@@ -341,6 +341,8 @@ SourceId
 sourceId
 TitlePredicate
 title_predicate
+bool
+ignore_original_window
 )
 :
 FullScreenApplicationHandler
@@ -357,6 +359,10 @@ GetWindowOwnerPid
 (
 sourceId
 )
+)
+ignore_original_window_
+(
+ignore_original_window
 )
 {
 }
@@ -716,6 +722,10 @@ const
 override
 {
 return
+!
+ignore_original_window_
+&
+&
 IsWindowOnScreen
 (
 GetSourceId
@@ -741,6 +751,10 @@ title_predicate_
 const
 int
 owner_pid_
+;
+const
+bool
+ignore_original_window_
 ;
 mutable
 int64_t
@@ -873,6 +887,7 @@ FullScreenMacApplicationHandler
 (
 sourceId
 nullptr
+false
 )
 {
 }
@@ -1258,6 +1273,11 @@ predicate
 =
 nullptr
 ;
+bool
+ignore_original_window
+=
+false
+;
 if
 (
 name
@@ -1302,6 +1322,10 @@ PowerPoint
 predicate
 =
 slide_show_title_predicate
+;
+ignore_original_window
+=
+true
 ;
 }
 else
@@ -1358,6 +1382,7 @@ FullScreenMacApplicationHandler
 (
 sourceId
 predicate
+ignore_original_window
 )
 )
 ;
