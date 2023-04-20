@@ -753,6 +753,11 @@ CSSFontFeatureValuesRule
 h
 "
 "
+CSSFontPaletteValuesRule
+.
+h
+"
+"
 CSSImportRule
 .
 h
@@ -978,6 +983,11 @@ cpp
 "
 "
 CSSFontFeatureValuesRule
+.
+cpp
+"
+"
+CSSFontPaletteValuesRule
 .
 cpp
 "
