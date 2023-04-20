@@ -181,15 +181,6 @@ include
 "
 frontend
 /
-BCEParserHandle
-.
-h
-"
-#
-include
-"
-frontend
-/
 Parser
 .
 h
@@ -646,9 +637,7 @@ frontend
 {
 class
 EitherParser
-:
-public
-BCEParserHandle
+final
 {
 /
 /
@@ -768,7 +757,6 @@ ErrorReporter
 errorReporter
 (
 )
-final
 {
 return
 parser
@@ -791,7 +779,6 @@ errorReporter
 (
 )
 const
-final
 {
 return
 parser
