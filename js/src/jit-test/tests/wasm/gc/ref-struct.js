@@ -1247,6 +1247,9 @@ node
 )
 )
 (
+sub
+node
+(
 type
 nix
 (
@@ -1265,6 +1268,7 @@ node
 (
 field
 i32
+)
 )
 )
 )
@@ -1468,6 +1472,9 @@ i32
 )
 )
 (
+sub
+node
+(
 type
 node2
 (
@@ -1479,6 +1486,7 @@ i32
 (
 field
 f32
+)
 )
 )
 )
@@ -1622,6 +1630,9 @@ i32
 )
 )
 (
+sub
+node
+(
 type
 node2
 (
@@ -1636,6 +1647,7 @@ i32
 (
 field
 f32
+)
 )
 )
 )
