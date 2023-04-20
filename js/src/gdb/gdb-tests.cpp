@@ -197,8 +197,8 @@ ptr
 )
 {
 dontOptimizeMeAway
-+
-+
+=
+1
 ;
 }
 template
