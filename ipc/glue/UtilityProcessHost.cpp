@@ -1510,8 +1510,12 @@ unexpectedly
 .
 if
 (
-!
-mChannelClosed
+mUtilityProcessParent
+-
+>
+CanSend
+(
+)
 )
 {
 mUtilityProcessParent
@@ -1638,10 +1642,6 @@ NS_IsMainThread
 (
 )
 )
-;
-mChannelClosed
-=
-true
 ;
 RejectPromise
 (
