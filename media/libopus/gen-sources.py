@@ -110,6 +110,16 @@ regularize_correlations_FLP
 .
 c
 '
+    
+'
+silk
+/
+float
+/
+LPC_inv_pred_gain_FLP
+.
+c
+'
 ]
 def
 should_ignore
