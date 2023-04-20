@@ -3361,7 +3361,7 @@ tid
 =
 current_bitrate_allocation_
 .
-GetBitrate
+GetTemporalLayerSum
 (
 sid
 tid
