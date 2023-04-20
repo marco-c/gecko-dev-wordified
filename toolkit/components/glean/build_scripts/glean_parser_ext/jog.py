@@ -85,7 +85,6 @@ from
 js
 import
 ID_BITS
-PING_INDEX_BITS
 from
 util
 import
@@ -473,12 +472,6 @@ metric_types
 runtime_metric_bit
 =
 ID_BITS
--
-1
-            
-runtime_ping_bit
-=
-PING_INDEX_BITS
 -
 1
             

@@ -1344,8 +1344,6 @@ registered
 metrics
 #
 and
-pings
-_and_
 the
 YAML
 file
@@ -1354,11 +1352,7 @@ at
 runtime
 to
 register
-those
 metrics
-and
-#
-pings
 for
 Artefact
 Builds
@@ -1417,8 +1411,6 @@ MOZ_APP_VERSION
 inputs
 =
 deps
-+
-pings_yamls
 +
 metrics_yamls
 +
