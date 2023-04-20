@@ -87,6 +87,13 @@ h
 #
 include
 "
+HTMLEditHelpers
+.
+h
+"
+#
+include
+"
 HTMLEditorEventListener
 .
 h

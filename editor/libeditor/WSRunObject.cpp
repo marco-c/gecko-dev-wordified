@@ -6291,9 +6291,6 @@ aHTMLEditor
 .
 InsertBRElement
 (
-HTMLEditor
-:
-:
 WithTransaction
 :
 :
@@ -21631,9 +21628,6 @@ aHTMLEditor
 .
 InsertBRElement
 (
-HTMLEditor
-:
-:
 WithTransaction
 :
 :
