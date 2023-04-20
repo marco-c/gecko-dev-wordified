@@ -35329,10 +35329,10 @@ const
 AllocSiteInput
 &
 allocSite
+bool
+initContents
 =
-AllocSiteInput
-(
-)
+true
 )
 ;
 void

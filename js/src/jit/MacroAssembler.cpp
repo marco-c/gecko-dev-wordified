@@ -3168,6 +3168,14 @@ const
 AllocSiteInput
 &
 allocSite
+bool
+initContents
+/
+*
+=
+true
+*
+/
 )
 {
 MOZ_ASSERT
@@ -3318,6 +3326,11 @@ Initialize
 fixed
 slots
 .
+if
+(
+initContents
+)
+{
 fillSlotsWithUndefined
 (
 Address
@@ -3336,6 +3349,7 @@ temp
 numFixedSlots
 )
 ;
+}
 /
 /
 Initialize
