@@ -98,12 +98,10 @@ BUG_COMPONENT
 =
 (
 "
-Core
+GeckoView
 "
 "
-Widget
-:
-Android
+General
 "
 )
 SCHEDULES
