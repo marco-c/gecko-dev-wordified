@@ -527,7 +527,6 @@ here
 )
 ;
 }
-virtual
 void
 AddBox
 (

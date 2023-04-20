@@ -359,7 +359,6 @@ override
 ;
 #
 endif
-virtual
 bool
 IsFrameOfType
 (
@@ -401,7 +400,6 @@ eSVG
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -440,7 +438,6 @@ aModType
 )
 override
 ;
-virtual
 bool
 ComputeCustomOverflow
 (

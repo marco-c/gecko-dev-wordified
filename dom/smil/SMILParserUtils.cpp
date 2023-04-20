@@ -3139,7 +3139,6 @@ aPreventCachingOfSandwich
 )
 {
 }
-virtual
 bool
 Parse
 (

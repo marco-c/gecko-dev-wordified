@@ -17695,7 +17695,6 @@ aOutFrames
 )
 override
 ;
-virtual
 void
 Paint
 (
