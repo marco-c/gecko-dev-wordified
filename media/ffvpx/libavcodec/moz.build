@@ -558,11 +558,6 @@ videodsp
 c
 '
 '
-vp56rac
-.
-c
-'
-'
 vp8
 .
 c
@@ -639,6 +634,11 @@ c
 '
 '
 vp9recon
+.
+c
+'
+'
+vpx_rac
 .
 c
 '

@@ -1615,7 +1615,7 @@ types
 *
 *
 param
-type
+prev
 AV_HWDEVICE_TYPE_NONE
 initially
 then
@@ -4187,6 +4187,16 @@ newly
 created
 *
 AVHWFramesContext
+.
+*
+param
+format
+The
+AVPixelFormat
+for
+the
+derived
+context
 .
 *
 param

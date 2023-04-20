@@ -345,17 +345,6 @@ free
 /
 uint8_t
 *
-best_mb
-;
-uint8_t
-*
-temp_mb
-[
-2
-]
-;
-uint8_t
-*
 temp
 ;
 int
@@ -499,6 +488,7 @@ pred_x
 int
 pred_y
 ;
+const
 uint8_t
 *
 src
@@ -509,6 +499,7 @@ src
 4
 ]
 ;
+const
 uint8_t
 *
 ref

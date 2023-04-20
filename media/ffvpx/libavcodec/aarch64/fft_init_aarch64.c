@@ -304,6 +304,16 @@ cpu_flags
 )
 )
 {
+if
+(
+s
+-
+>
+nbits
+<
+17
+)
+{
 s
 -
 >
@@ -318,6 +328,7 @@ fft_calc
 =
 ff_fft_calc_neon
 ;
+}
 #
 if
 CONFIG_MDCT

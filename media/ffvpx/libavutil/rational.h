@@ -1077,8 +1077,14 @@ against
 *
 param
 q1
+Rational
+to
+be
+tested
+*
+param
 q2
-Rationals
+Rational
 to
 be
 tested

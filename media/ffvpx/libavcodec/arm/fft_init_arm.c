@@ -354,6 +354,16 @@ cpu_flags
 #
 if
 CONFIG_FFT
+if
+(
+s
+-
+>
+nbits
+<
+17
+)
+{
 s
 -
 >
@@ -368,6 +378,7 @@ fft_calc
 =
 ff_fft_calc_neon
 ;
+}
 #
 endif
 #

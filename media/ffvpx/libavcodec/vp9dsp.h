@@ -219,6 +219,15 @@ vp9
 .
 h
 "
+#
+include
+"
+libavutil
+/
+attributes_internal
+.
+h
+"
 typedef
 void
 (
@@ -1106,6 +1115,7 @@ VP9DSPContext
 extern
 const
 int16_t
+attribute_visibility_hidden
 ff_vp9_subpel_filters
 [
 3

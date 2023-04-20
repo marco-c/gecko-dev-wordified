@@ -683,8 +683,11 @@ operands
 *
 param
 a
+Operand
+*
+param
 b
-Operands
+Operand
 *
 return
 GCD
@@ -1224,8 +1227,11 @@ endcode
 *
 param
 a
+Operand
+*
+param
 b
-Operands
+Operand
 *
 param
 mod

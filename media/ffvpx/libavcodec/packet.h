@@ -965,7 +965,7 @@ channels
 (
 0
 =
-mail
+main
 /
 left
 1

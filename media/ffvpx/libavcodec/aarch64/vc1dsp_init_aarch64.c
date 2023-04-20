@@ -391,6 +391,7 @@ ff_put_vc1_chroma_mc8_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -410,6 +411,7 @@ ff_avg_vc1_chroma_mc8_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -429,6 +431,7 @@ ff_put_vc1_chroma_mc4_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -448,6 +451,7 @@ ff_avg_vc1_chroma_mc4_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src

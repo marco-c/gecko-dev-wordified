@@ -235,6 +235,7 @@ ff_put_h264_chroma_mc8_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -254,6 +255,7 @@ ff_put_h264_chroma_mc4_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -273,6 +275,7 @@ ff_put_h264_chroma_mc2_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -292,6 +295,7 @@ ff_avg_h264_chroma_mc8_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -311,6 +315,7 @@ ff_avg_h264_chroma_mc4_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -330,6 +335,7 @@ ff_avg_h264_chroma_mc2_neon
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src

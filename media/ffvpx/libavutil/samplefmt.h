@@ -1479,6 +1479,12 @@ per
 channel
 *
 param
+sample_fmt
+the
+sample
+format
+*
+param
 align
 buffer
 size

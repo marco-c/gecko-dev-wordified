@@ -732,7 +732,7 @@ s
 )
 ;
 int
-ff_alloc_entries
+ff_slice_thread_allocz_entries
 (
 AVCodecContext
 *
@@ -741,8 +741,8 @@ int
 count
 )
 ;
-void
-ff_reset_entries
+int
+ff_slice_thread_init_progress
 (
 AVCodecContext
 *

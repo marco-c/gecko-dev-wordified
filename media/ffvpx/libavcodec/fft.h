@@ -214,6 +214,15 @@ include
 "
 libavutil
 /
+attributes_internal
+.
+h
+"
+#
+include
+"
+libavutil
+/
 mem_internal
 .
 h
@@ -631,6 +640,7 @@ size
 )
 \
 COSTABLE_CONST
+attribute_visibility_hidden
 DECLARE_ALIGNED
 (
 32

@@ -4770,8 +4770,16 @@ param
 in
 ]
 a
+Operand
+of
+multiplication
+*
+param
+[
+in
+]
 b
-Operands
+Operand
 of
 multiplication
 *

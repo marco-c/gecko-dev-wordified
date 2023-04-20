@@ -1004,6 +1004,15 @@ beginning
 *
 *
 param
+s
+the
+string
+whose
+length
+to
+count
+*
+param
 len
 maximum
 number

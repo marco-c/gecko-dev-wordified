@@ -222,6 +222,8 @@ h
 addtogroup
 lavc_core
 *
+{
+*
 /
 enum
 AVFieldOrder
@@ -231,6 +233,7 @@ AV_FIELD_PROGRESSIVE
 AV_FIELD_TT
 /
 /
+/
 <
 Top
 coded_first
@@ -238,6 +241,7 @@ top
 displayed
 first
 AV_FIELD_BB
+/
 /
 /
 <
@@ -250,6 +254,7 @@ first
 AV_FIELD_TB
 /
 /
+/
 <
 Top
 coded
@@ -258,6 +263,7 @@ bottom
 displayed
 first
 AV_FIELD_BT
+/
 /
 /
 <

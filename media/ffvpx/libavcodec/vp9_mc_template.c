@@ -199,7 +199,7 @@ b
 )
 \
 (
-VP56mv
+VP9mv
 )
 {
 .
@@ -242,7 +242,7 @@ d
 )
 \
 (
-VP56mv
+VP9mv
 )
 {
 .
@@ -347,6 +347,7 @@ N_BS_SIZES
 }
 }
 ;
+const
 VP9Context
 *
 s
@@ -379,6 +380,7 @@ td
 >
 col
 ;
+const
 ThreadFrame
 *
 tref1
@@ -412,6 +414,7 @@ ref
 *
 tref2
 ;
+const
 AVFrame
 *
 ref1
@@ -532,7 +535,7 @@ bs
 BS_8x8
 )
 {
-VP56mv
+VP9mv
 uvmv
 ;
 #

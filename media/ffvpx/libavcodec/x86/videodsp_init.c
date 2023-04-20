@@ -1188,6 +1188,7 @@ HAVE_X86ASM
 void
 ff_prefetch_mmxext
 (
+const
 uint8_t
 *
 buf

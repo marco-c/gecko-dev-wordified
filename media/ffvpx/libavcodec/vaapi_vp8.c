@@ -257,7 +257,7 @@ s
 >
 framep
 [
-VP56_FRAME_CURRENT
+VP8_FRAME_CURRENT
 ]
 -
 >
@@ -290,7 +290,7 @@ s
 >
 framep
 [
-VP56_FRAME_CURRENT
+VP8_FRAME_CURRENT
 ]
 )
 ;
@@ -324,7 +324,7 @@ s
 >
 framep
 [
-VP56_FRAME_PREVIOUS
+VP8_FRAME_PREVIOUS
 ]
 )
 .
@@ -337,7 +337,7 @@ s
 >
 framep
 [
-VP56_FRAME_GOLDEN
+VP8_FRAME_GOLDEN
 ]
 )
 .
@@ -350,7 +350,7 @@ s
 >
 framep
 [
-VP56_FRAME_GOLDEN2
+VP8_FRAME_ALTREF
 ]
 )
 .
@@ -449,7 +449,7 @@ s
 >
 sign_bias
 [
-VP56_FRAME_GOLDEN
+VP8_FRAME_GOLDEN
 ]
 .
 sign_bias_alternate
@@ -459,7 +459,7 @@ s
 >
 sign_bias
 [
-VP56_FRAME_GOLDEN2
+VP8_FRAME_ALTREF
 ]
 .
 mb_no_coeff_skip
@@ -1328,7 +1328,7 @@ s
 >
 framep
 [
-VP56_FRAME_CURRENT
+VP8_FRAME_CURRENT
 ]
 -
 >
@@ -1376,7 +1376,7 @@ s
 >
 framep
 [
-VP56_FRAME_CURRENT
+VP8_FRAME_CURRENT
 ]
 -
 >

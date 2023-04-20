@@ -200,14 +200,7 @@ h
 #
 include
 "
-vp56
-.
-h
-"
-#
-include
-"
-vp9
+vp89_rac
 .
 h
 "
@@ -225,16 +218,23 @@ vp9dec
 .
 h
 "
+#
+include
+"
+vpx_rac
+.
+h
+"
 static
 av_always_inline
 void
 clamp_mv
 (
-VP56mv
+VP9mv
 *
 dst
 const
-VP56mv
+VP9mv
 *
 src
 VP9TileData
@@ -300,7 +300,7 @@ find_ref_mvs
 VP9TileData
 *
 td
-VP56mv
+VP9mv
 *
 pmv
 int
@@ -961,6 +961,7 @@ BS_4x4
 }
 }
 ;
+const
 VP9Context
 *
 s
@@ -1220,7 +1221,7 @@ sb
 )
 {
 \
-VP56mv
+VP9mv
 tmp
 ;
 \
@@ -2027,7 +2028,7 @@ scale
 )
 {
 \
-VP56mv
+VP9mv
 mv_temp
 =
 {
@@ -2649,6 +2650,7 @@ int
 hp
 )
 {
+const
 VP9Context
 *
 s
@@ -2662,7 +2664,7 @@ int
 bit
 sign
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -2687,7 +2689,7 @@ int
 n
 c
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2771,7 +2773,7 @@ m
 {
 bit
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -2832,7 +2834,7 @@ n
 ;
 bit
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2886,7 +2888,7 @@ hp
 {
 bit
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -2990,7 +2992,7 @@ else
 {
 n
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -3030,7 +3032,7 @@ n
 ;
 bit
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -3098,7 +3100,7 @@ hp
 {
 bit
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -3213,7 +3215,7 @@ ff_vp9_fill_mv
 VP9TileData
 *
 td
-VP56mv
+VP9mv
 *
 mv
 int
@@ -3222,6 +3224,7 @@ int
 sb
 )
 {
+const
 VP9Context
 *
 s
@@ -3469,7 +3472,7 @@ enum
 MVJoint
 j
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -3749,7 +3752,7 @@ enum
 MVJoint
 j
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -

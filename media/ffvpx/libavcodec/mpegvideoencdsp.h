@@ -199,16 +199,19 @@ int
 try_8x8basis
 )
 (
+const
 int16_t
 rem
 [
 64
 ]
+const
 int16_t
 weight
 [
 64
 ]
+const
 int16_t
 basis
 [
@@ -229,6 +232,7 @@ rem
 [
 64
 ]
+const
 int16_t
 basis
 [
@@ -244,6 +248,7 @@ int
 pix_sum
 )
 (
+const
 uint8_t
 *
 pix
@@ -257,6 +262,7 @@ int
 pix_norm1
 )
 (
+const
 uint8_t
 *
 pix

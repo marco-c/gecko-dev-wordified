@@ -478,6 +478,7 @@ void
 prefetch
 )
 (
+const
 uint8_t
 *
 buf

@@ -1335,6 +1335,14 @@ strict
 )
 ;
 void
+ff_float_dsp_init_riscv
+(
+AVFloatDSPContext
+*
+fdsp
+)
+;
+void
 ff_float_dsp_init_x86
 (
 AVFloatDSPContext

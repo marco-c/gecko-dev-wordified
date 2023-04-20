@@ -169,6 +169,15 @@ h
 #
 include
 "
+libavutil
+/
+attributes_internal
+.
+h
+"
+#
+include
+"
 avcodec
 .
 h
@@ -176,6 +185,7 @@ h
 extern
 const
 uint32_t
+attribute_visibility_hidden
 ff_square_tab
 [
 512
@@ -366,6 +376,7 @@ struct
 MpegEncContext
 *
 c
+const
 uint8_t
 *
 blk1
@@ -380,6 +391,7 @@ or
 )
 *
 /
+const
 uint8_t
 *
 blk2
@@ -405,6 +417,7 @@ int
 sum_abs_dctelem
 )
 (
+const
 int16_t
 *
 block
@@ -579,6 +592,17 @@ MECmpContext
 ;
 void
 ff_me_cmp_init
+(
+MECmpContext
+*
+c
+AVCodecContext
+*
+avctx
+)
+;
+void
+ff_me_cmp_init_aarch64
 (
 MECmpContext
 *

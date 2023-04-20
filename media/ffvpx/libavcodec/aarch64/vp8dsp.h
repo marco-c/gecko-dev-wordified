@@ -382,6 +382,7 @@ dst
 ptrdiff_t
 dststride
 \
+const
 uint8_t
 *
 src

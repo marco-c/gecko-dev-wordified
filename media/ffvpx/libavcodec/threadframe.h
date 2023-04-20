@@ -448,6 +448,7 @@ field
 void
 ff_thread_await_progress
 (
+const
 ThreadFrame
 *
 f
@@ -625,6 +626,14 @@ const
 ThreadFrame
 *
 src
+)
+;
+int
+ff_thread_can_start_frame
+(
+AVCodecContext
+*
+avctx
 )
 ;
 #

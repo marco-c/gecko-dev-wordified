@@ -4337,6 +4337,7 @@ dst
 ptrdiff_t
 dststride
 \
+const
 uint8_t
 *
 src
@@ -4611,6 +4612,7 @@ dst
 ptrdiff_t
 dststride
 \
+const
 uint8_t
 *
 src
@@ -4752,6 +4754,7 @@ dst
 ptrdiff_t
 dststride
 \
+const
 uint8_t
 *
 src
@@ -4901,6 +4904,7 @@ dst
 ptrdiff_t
 dststride
 \
+const
 uint8_t
 *
 src
@@ -5306,6 +5310,7 @@ dst
 ptrdiff_t
 dstride
 \
+const
 uint8_t
 *
 src
@@ -5431,6 +5436,7 @@ dst
 ptrdiff_t
 dstride
 \
+const
 uint8_t
 *
 src
@@ -5557,6 +5563,7 @@ dst
 ptrdiff_t
 dstride
 \
+const
 uint8_t
 *
 src

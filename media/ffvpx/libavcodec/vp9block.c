@@ -209,7 +209,7 @@ h
 #
 include
 "
-vp56
+vp89_rac
 .
 h
 "
@@ -231,6 +231,13 @@ h
 include
 "
 vp9dec
+.
+h
+"
+#
+include
+"
+vpx_rac
 .
 h
 "
@@ -513,6 +520,7 @@ TX_4X4
 TX_4X4
 }
 ;
+const
 VP9Context
 *
 s
@@ -706,7 +714,7 @@ update_map
 ?
 0
 :
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -755,7 +763,7 @@ segmentation
 temporal
 &
 &
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 td
 -
@@ -998,7 +1006,7 @@ b
 >
 seg_id
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -1204,7 +1212,7 @@ b
 >
 skip
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -1409,7 +1417,7 @@ row7
 }
 bit
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -1623,7 +1631,7 @@ b
 >
 tx
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -1659,7 +1667,7 @@ b
 tx
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -1697,7 +1705,7 @@ b
 tx
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -1748,7 +1756,7 @@ b
 >
 tx
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -1783,7 +1791,7 @@ b
 tx
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -1833,7 +1841,7 @@ b
 >
 tx
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -2022,7 +2030,7 @@ a
 0
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2063,7 +2071,7 @@ mode
 1
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2160,7 +2168,7 @@ a
 0
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2201,7 +2209,7 @@ mode
 3
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2331,7 +2339,7 @@ mode
 0
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2445,7 +2453,7 @@ b
 >
 uvmode
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2499,7 +2507,7 @@ mode
 0
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2559,7 +2567,7 @@ mode
 1
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2639,7 +2647,7 @@ mode
 2
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2699,7 +2707,7 @@ mode
 3
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2839,7 +2847,7 @@ mode
 0
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -2918,7 +2926,7 @@ b
 >
 uvmode
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -3671,7 +3679,7 @@ b
 >
 comp
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -4476,7 +4484,7 @@ c
 }
 bit
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -4925,7 +4933,7 @@ c
 }
 bit
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -5850,7 +5858,7 @@ c
 }
 bit
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 td
 -
@@ -6080,7 +6088,7 @@ mode
 0
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -6291,7 +6299,7 @@ c
 }
 filter_id
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -6395,7 +6403,7 @@ mode
 0
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -6477,7 +6485,7 @@ mode
 1
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -6631,7 +6639,7 @@ mode
 2
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -6713,7 +6721,7 @@ mode
 3
 ]
 =
-vp8_rac_get_tree
+vp89_rac_get_tree
 (
 td
 -
@@ -8627,7 +8635,7 @@ av_always_inline
 int
 decode_coeffs_b_generic
 (
-VP56RangeCoder
+VPXRangeCoder
 *
 c
 int16_t
@@ -8663,6 +8671,7 @@ eob
 [
 2
 ]
+const
 uint8_t
 (
 *
@@ -8693,6 +8702,7 @@ const
 int16_t
 *
 band_counts
+const
 int16_t
 *
 qmul
@@ -8739,7 +8749,7 @@ rc
 ;
 val
 =
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -8776,7 +8786,7 @@ skip_eob
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -8904,7 +8914,7 @@ i
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -8960,7 +8970,7 @@ nnz
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -8978,7 +8988,7 @@ tp
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -9004,7 +9014,7 @@ val
 =
 3
 +
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 tp
@@ -9026,7 +9036,7 @@ else
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -9051,7 +9061,7 @@ rc
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -9063,7 +9073,7 @@ tp
 {
 val
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 159
@@ -9077,7 +9087,7 @@ else
 val
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 165
@@ -9092,7 +9102,7 @@ c
 val
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 145
@@ -9118,7 +9128,7 @@ rc
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -9131,7 +9141,7 @@ tp
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -9146,7 +9156,7 @@ val
 11
 +
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 173
@@ -9160,7 +9170,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 148
@@ -9173,7 +9183,7 @@ c
 val
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 140
@@ -9187,7 +9197,7 @@ val
 19
 +
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 176
@@ -9201,7 +9211,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 155
@@ -9215,7 +9225,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 140
@@ -9228,7 +9238,7 @@ c
 val
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 135
@@ -9240,7 +9250,7 @@ else
 if
 (
 !
-vp56_rac_get_prob_branchy
+vpx_rac_get_prob_branchy
 (
 c
 tp
@@ -9253,7 +9263,7 @@ tp
 val
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 180
@@ -9269,7 +9279,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 157
@@ -9283,7 +9293,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 141
@@ -9297,7 +9307,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 134
@@ -9310,7 +9320,7 @@ c
 val
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 130
@@ -9340,7 +9350,7 @@ bpp
 val
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 255
@@ -9352,7 +9362,7 @@ c
 val
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 255
@@ -9366,7 +9376,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 255
@@ -9380,7 +9390,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 255
@@ -9395,7 +9405,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 254
@@ -9409,7 +9419,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 254
@@ -9423,7 +9433,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 254
@@ -9437,7 +9447,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 252
@@ -9451,7 +9461,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 249
@@ -9465,7 +9475,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 243
@@ -9479,7 +9489,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 230
@@ -9493,7 +9503,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 196
@@ -9507,7 +9517,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 177
@@ -9521,7 +9531,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 153
@@ -9535,7 +9545,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 140
@@ -9549,7 +9559,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 133
@@ -9563,7 +9573,7 @@ val
 +
 =
 (
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 130
@@ -9576,7 +9586,7 @@ c
 val
 +
 =
-vp56_rac_get_prob
+vpx_rac_get_prob
 (
 c
 129
@@ -9663,7 +9673,7 @@ int
 )
 (
 (
-vp8_rac_get
+vp89_rac_get
 (
 c
 )
@@ -9694,7 +9704,7 @@ STORE_COEF
 coef
 rc
 (
-vp8_rac_get
+vp89_rac_get
 (
 c
 )
@@ -9805,6 +9815,7 @@ eob
 [
 2
 ]
+const
 uint8_t
 (
 *
@@ -9835,6 +9846,7 @@ const
 int16_t
 *
 band_counts
+const
 int16_t
 *
 qmul
@@ -9897,6 +9909,7 @@ eob
 [
 2
 ]
+const
 uint8_t
 (
 *
@@ -9927,6 +9940,7 @@ const
 int16_t
 *
 band_counts
+const
 int16_t
 *
 qmul
@@ -9989,6 +10003,7 @@ eob
 [
 2
 ]
+const
 uint8_t
 (
 *
@@ -10019,6 +10034,7 @@ const
 int16_t
 *
 band_counts
+const
 int16_t
 *
 qmul
@@ -10091,6 +10107,7 @@ eob
 [
 2
 ]
+const
 uint8_t
 (
 *
@@ -10121,6 +10138,7 @@ const
 int16_t
 *
 band_counts
+const
 int16_t
 *
 qmul
@@ -10171,6 +10189,7 @@ int
 is8bitsperpixel
 )
 {
+const
 VP9Context
 *
 s
@@ -10203,6 +10222,7 @@ td
 >
 col
 ;
+const
 uint8_t
 (
 *
@@ -10404,6 +10424,7 @@ x
 y
 ret
 ;
+const
 int16_t
 (
 *
@@ -13096,6 +13117,7 @@ BlockPartition
 bp
 )
 {
+const
 VP9Context
 *
 s
