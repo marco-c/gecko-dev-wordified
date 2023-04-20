@@ -19378,6 +19378,8 @@ ignored
 )
 ;
 }
+else
+{
 /
 /
 There
@@ -19406,6 +19408,7 @@ IgnoreCaretPointSuggestion
 (
 )
 ;
+}
 continue
 ;
 }
