@@ -1108,9 +1108,6 @@ PacerThread
 )
 send_degradation_configs
 receive_degradation_configs
-config
-.
-task_queue_factory
 )
 ;
 *
