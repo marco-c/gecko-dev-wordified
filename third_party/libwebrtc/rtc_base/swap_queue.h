@@ -116,11 +116,9 @@ vector
 #
 include
 "
-absl
+rtc_base
 /
-base
-/
-attributes
+checks
 .
 h
 "
@@ -129,7 +127,9 @@ include
 "
 rtc_base
 /
-checks
+system
+/
+unused
 .
 h
 "
@@ -1104,7 +1104,6 @@ ItemVerifier
 )
 test
 .
-ABSL_MUST_USE_RESULT
 bool
 Insert
 (
@@ -1112,6 +1111,7 @@ T
 *
 input
 )
+RTC_WARN_UNUSED_RESULT
 {
 RTC_DCHECK
 (
@@ -1437,7 +1437,6 @@ ItemVerifier
 )
 test
 .
-ABSL_MUST_USE_RESULT
 bool
 Remove
 (
@@ -1445,6 +1444,7 @@ T
 *
 output
 )
+RTC_WARN_UNUSED_RESULT
 {
 RTC_DCHECK
 (

@@ -113,17 +113,6 @@ include
 "
 absl
 /
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
 types
 /
 optional
@@ -191,6 +180,17 @@ rtc_base
 experiments
 /
 field_trial_parser
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+system
+/
+unused
 .
 h
 "
@@ -445,7 +445,7 @@ ProbeController
 (
 )
 ;
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
@@ -490,7 +490,7 @@ all
 active
 streams
 .
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
@@ -506,7 +506,7 @@ int64_t
 at_time_ms
 )
 ;
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
@@ -520,7 +520,7 @@ NetworkAvailability
 msg
 )
 ;
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
@@ -563,7 +563,7 @@ int64_t
 alr_end_time
 )
 ;
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
@@ -630,7 +630,7 @@ int64_t
 at_time_ms
 )
 ;
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
@@ -684,7 +684,7 @@ complete
 kProbingComplete
 }
 ;
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
@@ -698,7 +698,7 @@ int64_t
 at_time_ms
 )
 ;
-ABSL_MUST_USE_RESULT
+RTC_WARN_UNUSED_RESULT
 std
 :
 :
