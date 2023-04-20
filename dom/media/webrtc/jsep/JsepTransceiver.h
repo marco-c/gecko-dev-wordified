@@ -410,7 +410,7 @@ JsepTransceiver
 &
 oldTransceiver
 bool
-rollbackLevel
+aRemote
 )
 {
 MOZ_ASSERT
@@ -471,7 +471,7 @@ mTransport
 ;
 if
 (
-rollbackLevel
+aRemote
 )
 {
 mLevel
