@@ -532,6 +532,16 @@ key_value_map_
 s
 )
 ;
+if
+(
+!
+s
+.
+empty
+(
+)
+)
+{
 /
 /
 Also
@@ -563,6 +573,7 @@ ScopedFieldTrials
 s
 )
 ;
+}
 if
 (
 parent

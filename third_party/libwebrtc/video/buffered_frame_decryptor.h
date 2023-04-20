@@ -126,6 +126,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
@@ -472,6 +481,10 @@ decrypted_frame_callback
 OnDecryptionStatusChangeCallback
 *
 decryption_status_change_callback
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

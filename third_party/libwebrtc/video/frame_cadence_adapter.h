@@ -154,6 +154,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 synchronization
@@ -633,6 +642,10 @@ clock
 TaskQueueBase
 *
 queue
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 /

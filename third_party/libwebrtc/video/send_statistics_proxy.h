@@ -152,6 +152,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 video_send_stream
@@ -359,6 +368,10 @@ VideoEncoderConfig
 :
 ContentType
 content_type
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

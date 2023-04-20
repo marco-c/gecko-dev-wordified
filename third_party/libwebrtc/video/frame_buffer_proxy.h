@@ -132,6 +132,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
@@ -322,6 +331,10 @@ max_wait_for_frame
 DecodeSynchronizer
 *
 decode_sync
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 virtual
