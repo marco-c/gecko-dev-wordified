@@ -4107,6 +4107,10 @@ allocator
 allocator
 =
 allocator_
+.
+get
+(
+)
 ;
 allocator_
 -

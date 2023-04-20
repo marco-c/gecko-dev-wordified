@@ -10096,6 +10096,10 @@ raw_images_
 0
 ]
 mapped_buffer
+.
+get
+(
+)
 )
 ;
 prepared_buffers
@@ -10490,6 +10494,10 @@ raw_images_
 i
 ]
 scaled_buffer
+.
+get
+(
+)
 )
 ;
 prepared_buffers

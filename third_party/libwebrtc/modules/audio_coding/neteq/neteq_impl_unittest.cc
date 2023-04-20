@@ -2400,6 +2400,10 @@ absl
 :
 nullopt
 mock_decoder_factory
+.
+get
+(
+)
 )
 ;
 /
@@ -12140,6 +12144,10 @@ absl
 :
 nullopt
 mock_decoder_factory
+.
+get
+(
+)
 )
 ;
 /

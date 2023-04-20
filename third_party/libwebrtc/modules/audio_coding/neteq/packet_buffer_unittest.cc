@@ -2269,6 +2269,10 @@ absl
 :
 nullopt
 factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL
@@ -2661,6 +2665,10 @@ absl
 :
 nullopt
 factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL
@@ -2701,6 +2709,10 @@ absl
 :
 nullopt
 factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL
@@ -4199,6 +4211,10 @@ absl
 :
 nullopt
 factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL
@@ -4553,6 +4569,10 @@ absl
 :
 nullopt
 factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL
@@ -4593,6 +4613,10 @@ absl
 :
 nullopt
 factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL
@@ -5588,6 +5612,10 @@ absl
 :
 nullopt
 factory
+.
+get
+(
+)
 )
 ;
 EXPECT_CALL

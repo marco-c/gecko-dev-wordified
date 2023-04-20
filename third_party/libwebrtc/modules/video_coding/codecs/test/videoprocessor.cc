@@ -3692,6 +3692,10 @@ decoded_frame
 scaled_frame
 =
 scaled_buffer
+.
+get
+(
+)
 ;
 }
 /

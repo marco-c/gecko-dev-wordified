@@ -5183,6 +5183,10 @@ config
 frame_encryptor
 =
 encryptor
+.
+get
+(
+)
 ;
 RTPSenderVideo
 rtp_sender_video
