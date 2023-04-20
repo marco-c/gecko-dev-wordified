@@ -178,7 +178,9 @@ TESTING_JS_MODULES
 "
 TestInterfaceJS
 .
-jsm
+sys
+.
+mjs
 "
 ]
 PREPROCESSED_TEST_WEBIDL_FILES
