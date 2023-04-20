@@ -96,15 +96,6 @@ viewSource
 properties
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ViewSourcePageParent
-"
-]
-;
 /
 *
 *
@@ -124,6 +115,7 @@ side
 .
 *
 /
+export
 class
 ViewSourcePageParent
 extends
