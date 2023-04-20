@@ -7,8 +7,8 @@ rules
 as
 defined
 in
-an
-RFC
+a
+standard
 .
 /
 /
@@ -16,7 +16,9 @@ RFC
 /
 /
 !
-These
+When
+applicable
+these
 rules
 have
 been
@@ -28,6 +30,9 @@ ABNF
 syntax
 as
 specified
+/
+/
+!
 in
 [
 RFC
@@ -60,6 +65,13 @@ doc
 html
 /
 rfc2234
+pub
+(
+crate
+)
+mod
+iso8601
+;
 pub
 (
 crate
