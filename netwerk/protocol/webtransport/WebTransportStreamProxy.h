@@ -396,16 +396,6 @@ WebTransportStreamProxy
 (
 )
 ;
-void
-EnsureWriter
-(
-)
-;
-void
-EnsureReader
-(
-)
-;
 static
 nsresult
 WriteFromSegments
