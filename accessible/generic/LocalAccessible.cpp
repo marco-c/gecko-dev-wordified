@@ -23630,14 +23630,6 @@ SelectedOption
 (
 )
 ;
-MOZ_ASSERT
-(
-list
-&
-&
-currItem
-)
-;
 /
 /
 Preserve
@@ -23660,6 +23652,9 @@ itself
 .
 if
 (
+currItem
+&
+&
 inViewAccs
 .
 EnsureInserted
@@ -23683,6 +23678,9 @@ ID
 }
 if
 (
+list
+&
+&
 inViewAccs
 .
 EnsureInserted
