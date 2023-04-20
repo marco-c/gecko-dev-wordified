@@ -566,7 +566,7 @@ aCookieData
 ;
 static
 bool
-CheckHttpValue
+CheckValue
 (
 const
 CookieStruct
