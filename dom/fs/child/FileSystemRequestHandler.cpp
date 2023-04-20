@@ -2351,6 +2351,7 @@ _1
 struct
 BeginRequestFailureCallback
 {
+explicit
 BeginRequestFailureCallback
 (
 RefPtr
