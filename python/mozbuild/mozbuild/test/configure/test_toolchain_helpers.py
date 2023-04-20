@@ -1613,6 +1613,9 @@ startswith
 #
 Ignore
 -
+isysroot
+/
+-
 -
 sysroot
 and
@@ -1625,13 +1628,18 @@ it
                 
 if
 arg
-=
-=
+in
+(
+"
+-
+isysroot
+"
 "
 -
 -
 sysroot
 "
+)
 :
                     
 next
