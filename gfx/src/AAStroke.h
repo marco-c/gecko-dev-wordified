@@ -207,6 +207,15 @@ const
 StrokeStyle
 *
 style
+OutputVertex
+*
+output_ptr
+=
+nullptr
+size_t
+output_capacity
+=
+0
 )
 ;
 void
