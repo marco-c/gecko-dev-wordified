@@ -189,6 +189,13 @@ if
 CONFIG
 [
 "
+MOZ_MEMORY
+"
+]
+and
+CONFIG
+[
+"
 OS_TARGET
 "
 ]
