@@ -197,6 +197,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
 private
 /
 pprio
