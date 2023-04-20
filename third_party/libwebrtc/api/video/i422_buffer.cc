@@ -1618,6 +1618,9 @@ rotated_height
 RTC_CHECK_EQ
 (
 0
+webrtc
+:
+:
 I422Rotate
 (
 src
@@ -2224,6 +2227,9 @@ uv_offset_x
 int
 res
 =
+webrtc
+:
+:
 I422Scale
 (
 y_plane
