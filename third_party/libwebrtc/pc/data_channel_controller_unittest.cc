@@ -223,6 +223,12 @@ Current
 rtc
 :
 :
+AutoThread
+main_thread_
+;
+rtc
+:
+:
 scoped_refptr
 <
 NiceMock

@@ -10340,6 +10340,12 @@ media_channel
 )
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 /
 /
 TODO

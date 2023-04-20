@@ -274,6 +274,11 @@ Current
 )
 )
 {
+RTC_DCHECK
+(
+network_thread_
+)
+;
 }
 /
 /

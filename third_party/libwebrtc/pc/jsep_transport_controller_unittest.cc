@@ -2441,6 +2441,12 @@ return
 true
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 /
 /
 Information

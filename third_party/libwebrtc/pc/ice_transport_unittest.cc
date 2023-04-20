@@ -173,6 +173,14 @@ testing
 :
 Test
 {
+private
+:
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 }
 ;
 TEST_F

@@ -608,6 +608,12 @@ get
 )
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 webrtc
 :
 :

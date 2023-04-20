@@ -891,6 +891,12 @@ internal
 rtc
 :
 :
+AutoThread
+main_thread_
+;
+rtc
+:
+:
 scoped_refptr
 <
 SctpTransport
@@ -917,6 +923,12 @@ SctpTransportSimpleTest
 CreateClearDelete
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread
+;
 std
 :
 :

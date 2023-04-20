@@ -7293,6 +7293,12 @@ fake_clock_
 rtc
 :
 :
+AutoThread
+main_thread_
+;
+rtc
+:
+:
 scoped_refptr
 <
 FakePeerConnectionForStats
@@ -27919,6 +27925,12 @@ RTCStatsCollectorTestWithFakeCollector
 ThreadUsageAndResultsMerging
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 auto
 pc
 =

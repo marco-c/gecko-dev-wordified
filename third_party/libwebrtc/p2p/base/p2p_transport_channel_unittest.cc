@@ -41485,6 +41485,12 @@ HostnameCandidateIsResolved
 ResolverFactoryFixture
 resolver_fixture
 ;
+rtc
+:
+:
+AutoThread
+main_thread
+;
 FakePortAllocator
 allocator
 (
@@ -49433,6 +49439,12 @@ P2PTransportChannel
 InjectIceController
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 MockIceControllerFactory
 factory
 ;

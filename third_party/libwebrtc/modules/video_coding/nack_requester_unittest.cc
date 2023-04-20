@@ -528,6 +528,12 @@ kDefaultRttMs
 =
 20
 ;
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 test
 :
 :
@@ -2785,6 +2791,12 @@ test
 :
 ScopedKeyValueConfig
 nack_delay_field_trial_
+;
+rtc
+:
+:
+AutoThread
+main_thread_
 ;
 std
 :

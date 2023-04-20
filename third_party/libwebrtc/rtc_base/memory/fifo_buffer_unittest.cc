@@ -118,6 +118,12 @@ FifoBufferTest
 TestAll
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread
+;
 const
 size_t
 kSize
@@ -2121,6 +2127,12 @@ FifoBufferTest
 FullBufferCheck
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread
+;
 FifoBuffer
 buff
 (

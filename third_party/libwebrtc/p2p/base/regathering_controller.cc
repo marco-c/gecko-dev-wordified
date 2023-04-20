@@ -143,6 +143,11 @@ thread_
 thread
 )
 {
+RTC_DCHECK
+(
+thread_
+)
+;
 RTC_DCHECK_RUN_ON
 (
 thread_

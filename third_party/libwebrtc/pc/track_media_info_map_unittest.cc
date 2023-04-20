@@ -1383,6 +1383,12 @@ rtp_receivers_
 }
 protected
 :
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 cricket
 :
 :

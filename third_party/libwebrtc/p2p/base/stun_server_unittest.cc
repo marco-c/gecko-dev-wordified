@@ -507,6 +507,12 @@ msg
 }
 private
 :
+rtc
+:
+:
+AutoThread
+main_thread
+;
 std
 :
 :

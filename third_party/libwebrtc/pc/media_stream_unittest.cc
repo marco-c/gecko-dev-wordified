@@ -518,6 +518,12 @@ enabled
 )
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 scoped_refptr
 <
 MediaStreamInterface

@@ -1509,6 +1509,12 @@ message
 pdata
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 PseudoTcpForTest
 local_
 ;
