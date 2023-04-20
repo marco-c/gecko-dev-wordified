@@ -325,7 +325,7 @@ public
 webrtc
 :
 :
-VideoReceiveStream
+DEPRECATED_VideoReceiveStream
 public
 rtc
 :
