@@ -5673,6 +5673,9 @@ constexpr
 SideBits
 SideToSideBit
 (
+mozilla
+:
+:
 Side
 aSide
 )
