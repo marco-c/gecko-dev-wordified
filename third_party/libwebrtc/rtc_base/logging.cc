@@ -1198,6 +1198,13 @@ if
 log_timestamp_
 )
 {
+int64_t
+log_start_time
+=
+LogStartTime
+(
+)
+;
 /
 /
 Use
@@ -1231,9 +1238,7 @@ TimeDiff
 SystemTimeMillis
 (
 )
-LogStartTime
-(
-)
+log_start_time
 )
 ;
 /
