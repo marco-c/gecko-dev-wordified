@@ -515,6 +515,12 @@ aSkipPresenceVisibilityCheck
 optional
 ]
 in
+nsIClickRule_RunContext
+aRunContext
+[
+optional
+]
+in
 ACString
 aHide
 [
