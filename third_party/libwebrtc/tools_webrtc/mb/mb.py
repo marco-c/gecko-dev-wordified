@@ -184,7 +184,7 @@ mb
 import
 mb
 def
-_get_executable
+_GetExecutable
 (
 target
 platform
@@ -272,8 +272,6 @@ self
     
 super
 (
-WebRTCMetaBuildWrapper
-self
 )
 .
 __init__
@@ -825,7 +823,7 @@ cmdline
 .
 append
 (
-_get_executable
+_GetExecutable
 (
 target
 self
@@ -1346,7 +1344,7 @@ cmdline
 .
 append
 (
-_get_executable
+_GetExecutable
 (
 target
 self
