@@ -8184,6 +8184,7 @@ xpi
 )
 )
 ;
+await
 BrowserTestUtils
 .
 openNewForegroundTab
