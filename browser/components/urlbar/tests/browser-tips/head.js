@@ -649,9 +649,7 @@ string
 let
 tempPath
 =
-Services
-.
-env
+gEnv
 .
 get
 (
@@ -1012,9 +1010,7 @@ initUpdate
 params
 )
 {
-Services
-.
-env
+gEnv
 .
 set
 (

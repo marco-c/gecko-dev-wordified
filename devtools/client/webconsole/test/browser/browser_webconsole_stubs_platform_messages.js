@@ -74,8 +74,6 @@ function
 const
 isStubsUpdate
 =
-Services
-.
 env
 .
 get
@@ -122,6 +120,7 @@ isStubsUpdate
 await
 writeStubsToFile
 (
+env
 STUB_FILE
 generatedStubs
 )

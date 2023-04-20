@@ -960,8 +960,6 @@ function
 const
 isStubsUpdate
 =
-Services
-.
 env
 .
 get
@@ -1077,6 +1075,7 @@ isStubsUpdate
 await
 writeStubsToFile
 (
+env
 stubFile
 generatedStubs
 )
@@ -1728,6 +1727,12 @@ file
 *
 param
 {
+Object
+}
+env
+*
+param
+{
 String
 }
 fileName
@@ -1759,6 +1764,7 @@ async
 function
 writeStubsToFile
 (
+env
 fileName
 packets
 )
@@ -1766,8 +1772,6 @@ packets
 const
 mozRepo
 =
-Services
-.
 env
 .
 get
