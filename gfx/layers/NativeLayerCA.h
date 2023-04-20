@@ -2741,6 +2741,8 @@ CFTypeRefPtr
 CGColorRef
 >
 aColor
+bool
+aIsDRM
 )
 ;
 /
@@ -2937,6 +2939,11 @@ mMutatedSamplingFilter
 ;
 bool
 mMutatedSpecializeVideo
+:
+1
+;
+bool
+mMutatedIsDRM
 :
 1
 ;
@@ -3599,6 +3606,11 @@ false
 ;
 bool
 mHasExtent
+=
+false
+;
+bool
+mIsDRM
 =
 false
 ;
