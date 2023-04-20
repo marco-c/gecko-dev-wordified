@@ -580,7 +580,7 @@ Assert
 equal
 (
 typeof
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 "
@@ -688,7 +688,7 @@ suggestions
 .
 score
 =
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 /
@@ -1054,7 +1054,7 @@ score
 =
 2
 *
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 ;
@@ -1209,7 +1209,7 @@ suggestions
 .
 score
 =
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 /
@@ -1364,7 +1364,7 @@ suggestions
 .
 score
 =
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 ;
