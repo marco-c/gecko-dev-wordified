@@ -572,6 +572,8 @@ as
 being
 OK
 .
+Assert
+.
 ok
 (
 Math
@@ -3031,6 +3033,8 @@ focus
 }
 )
 ;
+Assert
+.
 ok
 (
 isFocused
@@ -3542,6 +3546,8 @@ changed
 "
 )
 ;
+Assert
+.
 ok
 (
 invalid
