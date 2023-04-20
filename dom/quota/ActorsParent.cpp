@@ -6532,7 +6532,7 @@ protected
 explicit
 OriginOperationBase
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aOwningThread
 const
@@ -6786,7 +6786,7 @@ public
 :
 FinalizeOriginEvictionOp
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aBackgroundThread
 nsTArray
@@ -6987,7 +6987,7 @@ aExclusive
 :
 OriginOperationBase
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 aRunnableName
@@ -10899,7 +10899,7 @@ BackgroundThreadObject
 :
 mOwningThread
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -10914,7 +10914,7 @@ BackgroundThreadObject
 :
 BackgroundThreadObject
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aOwningThread
 )
@@ -10975,7 +10975,7 @@ endif
 /
 /
 DEBUG
-nsIEventTarget
+nsISerialEventTarget
 *
 BackgroundThreadObject
 :
