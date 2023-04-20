@@ -6111,7 +6111,7 @@ videoStreams
 ]
 .
 width
-480U
+640U
 )
 ;
 EXPECT_EQ
@@ -6122,7 +6122,7 @@ videoStreams
 ]
 .
 height
-270U
+360U
 )
 ;
 }
@@ -6274,7 +6274,7 @@ videoStreams
 ]
 .
 width
-360U
+320U
 )
 ;
 EXPECT_EQ
@@ -6285,7 +6285,7 @@ videoStreams
 ]
 .
 height
-201U
+180U
 )
 ;
 }
@@ -6437,7 +6437,7 @@ videoStreams
 ]
 .
 width
-480U
+640U
 )
 ;
 EXPECT_EQ
@@ -6448,7 +6448,7 @@ videoStreams
 ]
 .
 height
-270U
+360U
 )
 ;
 }
@@ -6602,7 +6602,7 @@ videoStreams
 ]
 .
 width
-240U
+320U
 )
 ;
 EXPECT_EQ
@@ -6613,7 +6613,7 @@ videoStreams
 ]
 .
 height
-135U
+180U
 )
 ;
 }
@@ -7058,7 +7058,7 @@ videoStreams
 ]
 .
 width
-360U
+320U
 )
 ;
 EXPECT_EQ
@@ -7069,7 +7069,7 @@ videoStreams
 ]
 .
 height
-201U
+180U
 )
 ;
 }
