@@ -16,7 +16,7 @@ Version
 :
 CLDR
 -
-41
+42
 /
 /
 URL
@@ -33,7 +33,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -857,7 +857,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -873,7 +873,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -1058,7 +1058,7 @@ const
 char
 languages
 [
-404
+408
 ]
 [
 4
@@ -1085,6 +1085,9 @@ agp
 "
 "
 ais
+"
+"
+ajt
 "
 "
 aju
@@ -1678,6 +1681,9 @@ kzj
 kzt
 "
 "
+lak
+"
+"
 lao
 "
 "
@@ -2011,6 +2017,9 @@ slo
 slv
 "
 "
+smd
+"
+"
 sme
 "
 "
@@ -2018,6 +2027,9 @@ smo
 "
 "
 sna
+"
+"
+snb
 "
 "
 snd
@@ -2285,7 +2297,7 @@ char
 *
 aliases
 [
-404
+408
 ]
 =
 {
@@ -2309,6 +2321,9 @@ apf
 "
 "
 ami
+"
+"
+aeb
 "
 "
 jrb
@@ -2902,6 +2917,9 @@ dtp
 dtp
 "
 "
+ksp
+"
+"
 lo
 "
 "
@@ -3235,6 +3253,9 @@ sk
 sl
 "
 "
+kmb
+"
+"
 se
 "
 "
@@ -3242,6 +3263,9 @@ sm
 "
 "
 sn
+"
+"
+iba
 "
 "
 sd
@@ -3559,7 +3583,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -3575,7 +3599,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -3719,7 +3743,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -3735,7 +3759,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -3836,7 +3860,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -3852,7 +3876,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -5984,7 +6008,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -6000,7 +6024,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -6167,7 +6191,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -6183,7 +6207,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -6450,7 +6474,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -6466,7 +6490,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -8649,7 +8673,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -8665,7 +8689,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -9158,7 +9182,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -9174,7 +9198,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
@@ -10382,7 +10406,7 @@ CLDR
 Supplemental
 Data
 version
-41
+42
 .
 /
 /
@@ -10398,7 +10422,7 @@ Public
 /
 cldr
 /
-41
+42
 /
 core
 .
