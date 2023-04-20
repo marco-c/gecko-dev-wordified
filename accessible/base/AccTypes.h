@@ -216,7 +216,6 @@ eHTMLLinkType
 eHTMLOptGroupType
 eImageMapType
 eMenuPopupType
-eProxyType
 eProgressType
 eRootType
 eXULLabelType
