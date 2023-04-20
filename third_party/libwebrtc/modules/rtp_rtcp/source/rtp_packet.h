@@ -385,9 +385,7 @@ types
 void
 IdentifyExtensions
 (
-const
 ExtensionManager
-&
 extensions
 )
 ;
