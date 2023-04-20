@@ -324,11 +324,6 @@ TimeDelta
 min_playout_delay
 )
 ;
-TimeDelta
-min_playout_delay
-(
-)
-;
 /
 /
 Set
@@ -350,11 +345,6 @@ set_max_playout_delay
 (
 TimeDelta
 max_playout_delay
-)
-;
-TimeDelta
-max_playout_delay
-(
 )
 ;
 /
@@ -762,6 +752,9 @@ jitter_buffer_delay
 ;
 TimeDelta
 min_playout_delay
+;
+TimeDelta
+max_playout_delay
 ;
 TimeDelta
 render_delay
