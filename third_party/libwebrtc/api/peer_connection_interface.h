@@ -1131,13 +1131,6 @@ the
 PeerConnection
 api
 .
-This
-will
-let
-us
-remove
-nogncheck
-.
 #
 include
 "
@@ -1149,9 +1142,6 @@ port_allocator
 .
 h
 "
-/
-/
-nogncheck
 #
 include
 "
