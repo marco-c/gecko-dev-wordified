@@ -3363,7 +3363,7 @@ RefPtr
 .
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
@@ -6204,7 +6204,7 @@ RefPtr
 .
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result

@@ -38946,7 +38946,7 @@ method
 .
 Result
 <
-int32_t
+size_t
 nsresult
 >
 count
@@ -40204,7 +40204,7 @@ continue
 }
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
@@ -40384,7 +40384,7 @@ continue
 }
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
@@ -40626,7 +40626,7 @@ continue
 }
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
@@ -41098,7 +41098,7 @@ RefPtr
 .
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
@@ -41306,7 +41306,7 @@ RefPtr
 .
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
@@ -41529,7 +41529,7 @@ blockStyledElement
 {
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
