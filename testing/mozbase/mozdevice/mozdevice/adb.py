@@ -33607,7 +33607,6 @@ am
 ]
 +
 [
-            
 "
 startservice
 "
@@ -33617,22 +33616,36 @@ else
 "
 start
 "
+]
+        
+if
+wait
+:
             
+acmd
+.
+extend
+(
+[
 "
 -
 W
 "
-if
-wait
-else
-"
-"
+]
+)
+        
+acmd
+.
+extend
+(
             
+[
+                
 "
 -
 n
 "
-            
+                
 "
 %
 s
@@ -33645,8 +33658,10 @@ s
 app_name
 activity_name
 )
-        
+            
 ]
+        
+)
         
 if
 intent
@@ -33886,8 +33901,9 @@ line
 raise
 ADBError
 (
+                
 "
-launch_activity
+launch_application
 %
 s
 /
@@ -33900,6 +33916,7 @@ failed
 app_name
 activity_name
 )
+            
 )
     
 def
