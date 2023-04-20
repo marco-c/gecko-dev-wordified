@@ -107,14 +107,6 @@ Web
 Authentication
 "
 )
-DIRS
-+
-=
-[
-"
-identity
-"
-]
 EXPORTS
 .
 mozilla
