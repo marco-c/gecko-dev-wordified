@@ -2500,7 +2500,7 @@ name
 "
 browser
 .
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "
@@ -2557,7 +2557,7 @@ name
 "
 browser
 .
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "

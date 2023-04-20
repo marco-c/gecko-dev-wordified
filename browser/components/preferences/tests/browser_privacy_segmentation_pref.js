@@ -76,18 +76,7 @@ PREF
 "
 browser
 .
-privacySegmentation
-.
-enabled
-"
-;
-const
-SCALAR_KEY
-=
-"
-browser
-.
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "
@@ -612,7 +601,7 @@ querySelector
 (
 "
 #
-privacySegmentationRadioGroup
+privacyDataFeatureRecommendationRadioGroup
 "
 )
 ;
@@ -625,7 +614,7 @@ querySelector
 (
 "
 #
-privacySegmentationEnabled
+privacyDataFeatureRecommendationEnabled
 "
 )
 ;
@@ -638,7 +627,7 @@ querySelector
 (
 "
 #
-privacySegmentationDisabled
+privacyDataFeatureRecommendationDisabled
 "
 )
 ;

@@ -13469,7 +13469,7 @@ PREF_ENABLED
 "
 browser
 .
-privacySegmentation
+dataFeatureRecommendations
 .
 enabled
 "
