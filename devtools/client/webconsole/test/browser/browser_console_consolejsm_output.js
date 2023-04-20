@@ -34,7 +34,9 @@ Test
 that
 Console
 .
-jsm
+sys
+.
+mjs
 outputs
 messages
 to
@@ -283,7 +285,9 @@ for
 the
 Console
 .
-jsm
+sys
+.
+mjs
 messages
 "
 )

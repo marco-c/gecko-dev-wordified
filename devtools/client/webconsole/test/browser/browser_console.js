@@ -412,7 +412,9 @@ with
 a
 Console
 .
-jsm
+sys
+.
+mjs
 instance
 (
 https
@@ -429,7 +431,7 @@ central
 /
 rev
 /
-618f9970972adc5a21194d39d690ec0865f26024
+c5c002f81f08a73e04868e0c2bf0eb113f200b03
 /
 testing
 /
@@ -441,7 +443,7 @@ js
 #
 75
 -
-80
+78
 )
 /
 /
@@ -1353,7 +1355,9 @@ content
 with
 Log
 .
-jsm
+sys
+.
+mjs
 await
 SpecialPowers
 .
@@ -1450,7 +1454,9 @@ info
 "
 Log
 .
-jsm
+sys
+.
+mjs
 content
 process
 messsage
@@ -1751,7 +1757,9 @@ hud
 "
 Log
 .
-jsm
+sys
+.
+mjs
 content
 process
 messsage
