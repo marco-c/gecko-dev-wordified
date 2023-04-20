@@ -4199,7 +4199,6 @@ Elm
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

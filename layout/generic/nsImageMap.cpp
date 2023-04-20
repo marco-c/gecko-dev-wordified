@@ -4774,7 +4774,7 @@ aArea
 )
 {
 static
-Element
+AttrArray
 :
 :
 AttrValuesArray
@@ -4838,13 +4838,13 @@ eIgnoreCase
 )
 {
 case
-Element
+AttrArray
 :
 :
 ATTR_VALUE_NO_MATCH
 :
 case
-Element
+AttrArray
 :
 :
 ATTR_MISSING

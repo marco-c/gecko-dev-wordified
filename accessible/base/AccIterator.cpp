@@ -89,6 +89,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 a11y
@@ -2416,7 +2423,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 aIDRefsAttr
 mIDs
 )

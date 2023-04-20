@@ -30591,7 +30591,7 @@ aName
 )
 {
 static
-Element
+AttrArray
 :
 :
 AttrValuesArray
@@ -30633,7 +30633,7 @@ eCaseMatters
 )
 =
 =
-Element
+AttrArray
 :
 :
 ATTR_VALUE_NO_MATCH

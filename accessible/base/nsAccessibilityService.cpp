@@ -11059,7 +11059,6 @@ el
 >
 GetAttr
 (
-kNameSpaceID_None
 info
 -
 >
