@@ -1523,6 +1523,14 @@ null
 /
 )
 ;
+if
+(
+!
+wasmFunctionReferencesEnabled
+(
+)
+)
+{
 /
 /
 Ref
@@ -1635,6 +1643,7 @@ type
 /
 )
 ;
+}
 /
 /
 No
