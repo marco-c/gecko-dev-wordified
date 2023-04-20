@@ -120,11 +120,9 @@ timestamp_us_
 rtc
 :
 :
-TimeMillis
+TimeMicros
 (
 )
-*
-1000
 )
 {
 }
