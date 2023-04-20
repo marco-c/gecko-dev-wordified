@@ -3320,6 +3320,11 @@ browsingContext
 .
 contextCreated
 "
+"
+browsingContext
+.
+load
+"
 ]
 ;
 }
