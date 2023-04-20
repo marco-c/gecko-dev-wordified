@@ -12013,12 +12013,7 @@ aWebRenderEnabled
 *
 aWebRenderEnabled
 =
-gfxVars
-:
-:
-UseWebRender
-(
-)
+true
 ;
 return
 NS_OK
