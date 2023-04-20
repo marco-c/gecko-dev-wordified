@@ -2945,9 +2945,15 @@ append
 chaos_mode_flags
 "
 :
+int
+(
 "
 0xfb
 "
+base
+=
+16
+)
 }
 )
     
