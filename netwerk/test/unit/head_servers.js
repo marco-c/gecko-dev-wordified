@@ -5087,15 +5087,6 @@ aContext
 aMsg
 )
 {
-info
-(
-received
-binary
-{
-aMsg
-}
-)
-;
 this
 .
 _messages

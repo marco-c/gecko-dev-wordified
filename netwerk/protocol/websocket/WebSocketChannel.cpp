@@ -27053,6 +27053,10 @@ WebSocketChannel
 :
 :
 OnOutputStreamReady
+[
+%
+p
+]
 :
 "
 "
@@ -27066,6 +27070,7 @@ data
 \
 n
 "
+this
 toSend
 )
 )
@@ -27108,6 +27113,10 @@ WebSocketChannel
 :
 :
 OnOutputStreamReady
+[
+%
+p
+]
 :
 write
 %
@@ -27120,6 +27129,7 @@ PRIx32
 \
 n
 "
+this
 amtSent
 static_cast
 <
