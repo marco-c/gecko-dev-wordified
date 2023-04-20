@@ -3185,11 +3185,6 @@ dry_run
 =
 false
 ;
-NoiseEstimator
-noise_estimator
-=
-kNoiseFloor
-;
 int
 vad_reset_period_ms
 =
@@ -3248,6 +3243,11 @@ deprecated
 settings
 below
 .
+NoiseEstimator
+noise_estimator
+=
+kNoiseFloor
+;
 float
 vad_probability_attack
 =
