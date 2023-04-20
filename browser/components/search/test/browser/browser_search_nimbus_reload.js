@@ -246,7 +246,7 @@ equal
 getVariableSpy
 .
 callCount
-2
+4
 "
 Called
 by
