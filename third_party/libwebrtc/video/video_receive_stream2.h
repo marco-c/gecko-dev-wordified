@@ -94,6 +94,11 @@ VIDEO_VIDEO_RECEIVE_STREAM2_H_
 #
 include
 <
+map
+>
+#
+include
+<
 memory
 >
 #
@@ -1010,6 +1015,14 @@ SetNackHistory
 (
 TimeDelta
 history
+)
+override
+;
+void
+SetUlpfecPayloadType
+(
+int
+payload_type
 )
 override
 ;

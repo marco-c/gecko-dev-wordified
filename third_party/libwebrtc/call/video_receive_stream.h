@@ -2265,6 +2265,16 @@ history
 =
 0
 ;
+virtual
+void
+SetUlpfecPayloadType
+(
+int
+ulpfec_payload_type
+)
+=
+0
+;
 protected
 :
 virtual
