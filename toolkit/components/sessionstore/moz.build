@@ -211,7 +211,9 @@ EXTRA_JS_MODULES
 "
 SessionStoreFunctions
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPIDL_MODULE
