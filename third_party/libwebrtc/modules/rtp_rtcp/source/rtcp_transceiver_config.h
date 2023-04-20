@@ -731,6 +731,15 @@ sequence_numbers
 }
 virtual
 void
+OnFir
+(
+uint32_t
+sender_ssrc
+)
+{
+}
+virtual
+void
 OnPli
 (
 uint32_t
