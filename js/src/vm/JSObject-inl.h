@@ -592,6 +592,10 @@ numFixedSlots
 shape
 -
 >
+asShared
+(
+)
+.
 slotSpan
 (
 )

@@ -531,7 +531,7 @@ asNativeObject
 (
 )
 .
-shape
+sharedShape
 (
 )
 -

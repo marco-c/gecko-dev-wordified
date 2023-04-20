@@ -6116,7 +6116,7 @@ true
 }
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -6147,7 +6147,7 @@ shape
 src
 -
 >
-shape
+sharedShape
 (
 )
 ;
@@ -6197,14 +6197,14 @@ flags
 are
 empty
 .
-Shape
+SharedShape
 *
 srcShape
 =
 src
 -
 >
-shape
+sharedShape
 (
 )
 ;
@@ -6297,7 +6297,7 @@ oldSpan
 dst
 -
 >
-shape
+sharedShape
 (
 )
 -

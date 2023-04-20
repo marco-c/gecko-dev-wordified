@@ -30704,6 +30704,10 @@ MOZ_ASSERT
 shape
 -
 >
+asShared
+(
+)
+.
 slotSpan
 (
 )
@@ -32318,7 +32322,7 @@ allocKind
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -32327,7 +32331,7 @@ cx
 templateObject
 -
 >
-shape
+sharedShape
 (
 )
 )
