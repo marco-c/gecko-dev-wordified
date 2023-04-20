@@ -176,6 +176,9 @@ ole32
 shell32
 "
 "
+uuid
+"
+"
 userenv
 "
 "
