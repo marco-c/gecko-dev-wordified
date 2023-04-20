@@ -268,6 +268,14 @@ uint8_t
 payloadType
 )
 ;
+bool
+IsExternalDecoderRegistered
+(
+uint8_t
+payloadType
+)
+const
+;
 int32_t
 RegisterReceiveCallback
 (
@@ -392,10 +400,10 @@ IsDecoderThreadRunning
 )
 ;
 SequenceChecker
-construction_thread_checker_
+construction_sequence_checker_
 ;
 SequenceChecker
-decoder_thread_checker_
+decoder_sequence_checker_
 ;
 Clock
 *
