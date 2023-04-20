@@ -6570,6 +6570,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 override
@@ -9254,6 +9255,7 @@ SetInitialChildList
 ChildListID
 aListID
 nsFrameList
+&
 &
 aChildList
 )

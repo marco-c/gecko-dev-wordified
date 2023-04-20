@@ -324,6 +324,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 final

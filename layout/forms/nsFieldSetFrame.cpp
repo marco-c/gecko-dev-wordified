@@ -6079,6 +6079,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -6088,7 +6089,13 @@ nsContainerFrame
 SetInitialChildList
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 if

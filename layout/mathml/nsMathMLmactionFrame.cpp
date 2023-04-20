@@ -1058,6 +1058,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -1067,7 +1068,13 @@ nsMathMLSelectedFrame
 SetInitialChildList
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 if

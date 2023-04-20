@@ -555,13 +555,13 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 SetInitialChildList
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aChildList
 )

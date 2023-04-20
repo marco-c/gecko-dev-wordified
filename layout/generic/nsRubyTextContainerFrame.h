@@ -259,13 +259,13 @@ endif
 /
 nsContainerFrame
 overrides
-virtual
 void
 SetInitialChildList
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aChildList
 )

@@ -1112,6 +1112,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 override

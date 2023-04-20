@@ -690,6 +690,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 ;

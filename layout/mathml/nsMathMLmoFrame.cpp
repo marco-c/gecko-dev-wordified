@@ -7070,6 +7070,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -7089,7 +7090,13 @@ nsMathMLTokenFrame
 SetInitialChildList
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 ProcessTextData

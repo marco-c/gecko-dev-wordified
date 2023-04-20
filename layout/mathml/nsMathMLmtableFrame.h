@@ -457,13 +457,13 @@ aStyle
 Overloaded
 nsTableFrame
 methods
-virtual
 void
 SetInitialChildList
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aChildList
 )

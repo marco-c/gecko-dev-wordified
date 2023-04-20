@@ -635,6 +635,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -654,7 +655,13 @@ nsMathMLContainerFrame
 SetInitialChildList
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 MarkTextFramesAsTokenMathML

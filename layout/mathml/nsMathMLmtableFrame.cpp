@@ -6196,6 +6196,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -6205,7 +6206,13 @@ nsTableFrame
 SetInitialChildList
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 MapAllAttributesIntoCSS
