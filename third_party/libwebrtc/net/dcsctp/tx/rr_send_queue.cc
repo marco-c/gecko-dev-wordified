@@ -2313,6 +2313,13 @@ end
 it
 )
 {
+next_stream_id_
+=
+it
+-
+>
+first
+;
 absl
 :
 :
@@ -2364,6 +2371,13 @@ start_it
 it
 )
 {
+next_stream_id_
+=
+it
+-
+>
+first
+;
 absl
 :
 :
