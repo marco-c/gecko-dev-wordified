@@ -319,9 +319,6 @@ the
 default
 summary
 element
-generated
-by
-DetailsFrame
 .
 bool
 IsMainSummary

@@ -93,17 +93,6 @@ LEAF
 Frame
 (
 "
-DetailsFrame
-"
-"
-Details
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsBCTableCellFrame
 "
 "
