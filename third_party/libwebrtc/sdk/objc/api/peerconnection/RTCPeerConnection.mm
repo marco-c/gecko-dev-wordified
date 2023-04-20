@@ -3971,11 +3971,6 @@ SetLocalDescription
 sdp
 .
 nativeDescription
--
->
-Clone
-(
-)
 observer
 )
 ;
@@ -4099,11 +4094,6 @@ SetRemoteDescription
 sdp
 .
 nativeDescription
--
->
-Clone
-(
-)
 observer
 )
 ;
