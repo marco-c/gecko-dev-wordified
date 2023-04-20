@@ -12065,6 +12065,12 @@ popup
 >
 WaylandPopupFitsToplevelWindow
 (
+/
+*
+aMove
+*
+/
+true
 )
 )
 {
@@ -13911,6 +13917,8 @@ nsWindow
 :
 WaylandPopupFitsToplevelWindow
 (
+bool
+aMove
 )
 {
 LOG
@@ -13922,7 +13930,11 @@ nsWindow
 WaylandPopupFitsToplevelWindow
 (
 )
+move
+%
+d
 "
+aMove
 )
 ;
 GtkWindow
@@ -14030,6 +14042,10 @@ parentHeight
 GdkPoint
 topLeft
 =
+aMove
+?
+mPopupPosition
+:
 DevicePixelsToGdkPointRoundDown
 (
 mBounds
@@ -14508,6 +14524,7 @@ aMove
 &
 WaylandPopupFitsToplevelWindow
 (
+aMove
 )
 )
 {
