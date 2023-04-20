@@ -124,7 +124,7 @@ AssertCls
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -137,7 +137,9 @@ common
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -153,7 +155,7 @@ TestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -166,7 +168,9 @@ common
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -203,7 +207,7 @@ FileTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -216,7 +220,9 @@ common
 /
 FileTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

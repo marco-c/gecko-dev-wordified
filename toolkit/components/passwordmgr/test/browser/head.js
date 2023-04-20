@@ -96,7 +96,7 @@ ContentTaskUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -109,7 +109,9 @@ common
 /
 ContentTaskUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -899,7 +901,7 @@ WrapPrivileged
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -910,7 +912,9 @@ specialpowers
 /
 WrapPrivileged
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
