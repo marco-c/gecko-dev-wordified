@@ -7618,12 +7618,9 @@ data
 .
 payload
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 /

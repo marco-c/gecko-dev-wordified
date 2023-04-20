@@ -303,10 +303,10 @@ fsn_
 opts
 .
 ppid
-rtc
+std
 :
 :
-CopyOnWriteBuffer
+move
 (
 payload
 )
@@ -465,10 +465,10 @@ SSN
 message_id
 fsn_
 kPpid
-rtc
+std
 :
 :
-CopyOnWriteBuffer
+move
 (
 payload
 )
