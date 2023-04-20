@@ -29754,6 +29754,9 @@ ArrayFrom
 3
 0
 )
+#
+ifdef
+NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -29765,6 +29768,8 @@ ArrayFromAsync
 3
 0
 )
+#
+endif
 JS_FN
 (
 "
