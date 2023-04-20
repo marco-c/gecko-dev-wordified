@@ -288,6 +288,10 @@ DrawWindowCanvasRenderingContext2D
 )
 DEPRECATED_OPERATION
 (
+MozTextStyle
+)
+DEPRECATED_OPERATION
+(
 MozRequestFullScreenDeprecatedPrefix
 )
 DEPRECATED_OPERATION
