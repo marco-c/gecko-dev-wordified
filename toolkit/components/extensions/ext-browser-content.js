@@ -1619,6 +1619,13 @@ maxWidth
 this
 .
 maxHeight
+/
+*
+prefWidth
+=
+*
+/
+0
 w
 h
 )
