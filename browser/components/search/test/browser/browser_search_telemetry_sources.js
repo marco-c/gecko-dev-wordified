@@ -742,6 +742,11 @@ search
 setDefault
 (
 engine1
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await
@@ -817,6 +822,11 @@ getEngineByName
 (
 currentEngineName
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }

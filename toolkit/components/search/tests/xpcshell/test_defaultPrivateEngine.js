@@ -639,6 +639,11 @@ search
 setDefaultPrivate
 (
 engine2
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 Assert
@@ -920,6 +925,11 @@ search
 setDefaultPrivate
 (
 engine1
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 Assert

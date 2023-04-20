@@ -240,6 +240,11 @@ search
 setDefault
 (
 gEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 registerCleanupFunction
@@ -257,6 +262,11 @@ search
 setDefault
 (
 oldDefaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await

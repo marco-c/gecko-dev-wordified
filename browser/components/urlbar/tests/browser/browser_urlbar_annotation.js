@@ -1485,6 +1485,11 @@ search
 setDefault
 (
 originalDefaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }

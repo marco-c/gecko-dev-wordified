@@ -537,6 +537,11 @@ search
 setDefault
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 return
@@ -732,6 +737,11 @@ search
 setDefault
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 const

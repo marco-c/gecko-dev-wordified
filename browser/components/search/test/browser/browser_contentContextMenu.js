@@ -712,6 +712,11 @@ search
 setDefaultPrivate
 (
 otherPrivateDefault
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }
@@ -1068,6 +1073,11 @@ search
 setDefaultPrivate
 (
 originalPrivateDefault
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }

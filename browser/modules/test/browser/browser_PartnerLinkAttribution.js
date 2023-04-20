@@ -829,6 +829,11 @@ Simple
 Engine
 "
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 let
@@ -971,6 +976,11 @@ getEngineByName
 basic
 "
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }
@@ -2351,6 +2361,11 @@ Simple
 Engine
 "
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 let
@@ -2655,6 +2670,11 @@ getEngineByName
 basic
 "
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 gRequests

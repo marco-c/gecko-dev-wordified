@@ -299,6 +299,11 @@ search
 setDefault
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 return
@@ -508,6 +513,11 @@ search
 setDefault
 (
 currEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 try

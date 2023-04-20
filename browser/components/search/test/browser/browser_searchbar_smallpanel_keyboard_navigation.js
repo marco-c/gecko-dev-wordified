@@ -200,6 +200,11 @@ search
 setDefault
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 /
@@ -362,6 +367,11 @@ search
 setDefault
 (
 defaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 gCUITestUtils

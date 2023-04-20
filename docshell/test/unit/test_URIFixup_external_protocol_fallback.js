@@ -371,6 +371,11 @@ getEngineByName
 (
 kSearchEngineID
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 registerCleanupFunction

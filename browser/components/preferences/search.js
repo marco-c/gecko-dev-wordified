@@ -3544,6 +3544,11 @@ defaultEngine
 selectedItem
 .
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_USER
 )
 ;
 if
@@ -3598,6 +3603,11 @@ defaultPrivateEngine
 selectedItem
 .
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_USER
 )
 ;
 }

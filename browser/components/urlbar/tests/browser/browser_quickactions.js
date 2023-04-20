@@ -1668,6 +1668,11 @@ search
 setDefault
 (
 defaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await
@@ -1767,6 +1772,11 @@ search
 setDefault
 (
 oldDefaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }

@@ -277,6 +277,11 @@ search
 setDefault
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 gPrivateEngine
@@ -306,6 +311,11 @@ search
 setDefaultPrivate
 (
 gPrivateEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 /
@@ -409,6 +419,11 @@ search
 setDefault
 (
 oldDefaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await
@@ -419,6 +434,11 @@ search
 setDefaultPrivate
 (
 oldDefaultPrivateEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await

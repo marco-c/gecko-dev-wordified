@@ -437,6 +437,11 @@ search
 setDefault
 (
 testEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 const
@@ -483,6 +488,11 @@ search
 setDefault
 (
 originalEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await

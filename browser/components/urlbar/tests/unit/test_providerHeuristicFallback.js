@@ -2748,6 +2748,11 @@ search
 setDefault
 (
 engine2
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 query
@@ -2802,6 +2807,11 @@ search
 setDefault
 (
 originalTestEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 info

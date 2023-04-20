@@ -218,6 +218,11 @@ search
 setDefault
 (
 defaultTestEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 registerCleanupFunction
@@ -235,6 +240,11 @@ search
 setDefault
 (
 originalEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await
