@@ -726,11 +726,6 @@ uint32_t
 ;
 /
 /
-TODO
-(
-nisse
-)
-:
 This
 makes
 the

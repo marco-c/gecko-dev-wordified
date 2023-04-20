@@ -874,17 +874,6 @@ within
 LibYuv
 )
 .
-/
-/
-TODO
-(
-nisse
-)
-:
-Use
-a
-pool
-?
 rtc
 :
 :
