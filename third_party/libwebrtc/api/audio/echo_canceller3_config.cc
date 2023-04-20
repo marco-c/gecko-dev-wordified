@@ -1462,7 +1462,7 @@ filter
 .
 coarse_reset_hangover_blocks
 0
-2500
+250000
 )
 ;
 res
