@@ -452,11 +452,9 @@ of
 tests
 "
 ;
-EXPECT_TRUE
+EXPECT_EQ
 (
 nTestsPassed
-=
-=
 nTests
 )
 <
