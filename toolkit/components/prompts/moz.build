@@ -85,11 +85,6 @@ MPL
 0
 /
 .
-#
-possibly
-Notifications
-and
-Alerts
 with
 Files
 (
@@ -106,7 +101,9 @@ BUG_COMPONENT
 Toolkit
 "
 "
-General
+Notifications
+and
+Alerts
 "
 )
 DIRS
