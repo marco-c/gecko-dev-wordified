@@ -130,11 +130,6 @@ nsIException
 idl
 "
 "
-nsIGZFileWriter
-.
-idl
-"
-"
 nsIInterfaceRequestor
 .
 idl
