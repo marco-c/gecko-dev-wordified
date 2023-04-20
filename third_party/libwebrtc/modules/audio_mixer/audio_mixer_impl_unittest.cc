@@ -732,13 +732,9 @@ rate_
 Creates
 participants
 from
-|
 frames
-|
 and
-|
 frame_info
-|
 and
 adds
 them
@@ -752,9 +748,7 @@ Compares
 mixed
 status
 with
-|
 expected_status
-|
 void
 MixAndCompare
 (
@@ -2248,9 +2242,7 @@ the
 index
 /
 /
-|
 i
-|
 .
 participants
 [

@@ -166,17 +166,13 @@ AudioProcessing
 NativeRate
 .
 If
-|
 preferred_sample_rates
-|
 is
 /
 /
 empty
 returns
-|
 kDefaultFrequency
-|
 .
 int
 CalculateOutputRateFromRange
