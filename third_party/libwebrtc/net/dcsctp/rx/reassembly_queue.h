@@ -1125,6 +1125,11 @@ DcSctpMessage
 message
 )
 ;
+void
+MaybeMoveLastAssembledWatermarkFurther
+(
+)
+;
 struct
 DeferredResetStreams
 {
