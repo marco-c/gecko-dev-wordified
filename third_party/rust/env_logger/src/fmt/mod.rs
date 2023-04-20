@@ -2675,16 +2675,10 @@ record
 }
 fn
 write_target
-<
-'
-a
->
 (
 target
 :
 &
-'
-a
 str
 fmt
 :
