@@ -311,9 +311,7 @@ script
 with
 file
 name
-|
 script_name
-|
 .
 When
 executed

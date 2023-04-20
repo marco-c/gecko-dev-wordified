@@ -152,9 +152,7 @@ opening
 a
 file
 named
-|
 file_name
-|
 for
 writing
 .

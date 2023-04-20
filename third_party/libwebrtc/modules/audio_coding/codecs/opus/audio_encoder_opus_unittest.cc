@@ -1636,14 +1636,10 @@ sample_rate_hz_
 Before
 calling
 to
-|
 SetReceiverFrameLengthRange
-|
 /
 /
-|
 supported_frame_lengths_ms
-|
 should
 contain
 only
@@ -2479,9 +2475,7 @@ kPacketLossFraction_2
 ;
 /
 /
-|
 kSecondSampleTimeMs
-|
 is
 chosen
 to
@@ -2717,9 +2711,7 @@ nullopt
 /
 /
 Since
-|
 OnReceivedOverhead
-|
 has
 not
 been

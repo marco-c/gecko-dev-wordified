@@ -959,9 +959,7 @@ block
 header
 starting
 at
-|
 rtp_data
-|
 according
 to
 RFC
@@ -987,9 +985,7 @@ or
 /
 Format
 if
-|
 last_payoad
-|
 is
 false
 :
@@ -1187,9 +1183,7 @@ length
 /
 Format
 if
-|
 last_payoad
-|
 is
 true
 :
@@ -1572,13 +1566,9 @@ Hand
 over
 ownership
 of
-|
 packet_memory
-|
 to
-|
 packet
-|
 .
 Packet
 packet

@@ -154,13 +154,9 @@ AudioSink
 /
 /
 Writes
-|
 num_samples
-|
 from
-|
 audio
-|
 to
 the
 AudioSink
@@ -191,9 +187,7 @@ num_samples
 /
 /
 Writes
-|
 audio_frame
-|
 to
 the
 AudioSink

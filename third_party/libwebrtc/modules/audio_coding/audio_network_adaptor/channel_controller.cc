@@ -186,9 +186,7 @@ intial_channels_to_encode
 Currently
 we
 require
-|
 intial_channels_to_encode
-|
 to
 be
 <
@@ -264,9 +262,7 @@ config
 /
 Decision
 on
-|
 num_channels
-|
 should
 not
 have

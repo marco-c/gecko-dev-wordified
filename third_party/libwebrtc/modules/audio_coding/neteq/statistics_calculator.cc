@@ -1826,13 +1826,9 @@ two
 values
 /
 /
-|
 middle_left
-|
 and
-|
 middle_right
-|
 will
 both
 be

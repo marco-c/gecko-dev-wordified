@@ -1059,9 +1059,7 @@ loss_rate
 }
 /
 /
-|
 stats_ref
-|
 /
 /
 expects
@@ -1092,9 +1090,7 @@ equal
 x
 '
 in
-|
 stats_ref
-|
 /
 /
 expects
@@ -1114,9 +1110,7 @@ should
 x
 '
 in
-|
 stats_ref
-|
 /
 /
 expects
@@ -1136,9 +1130,7 @@ should
 x
 '
 in
-|
 stats_ref
-|
 void
 CheckNetworkStatistics
 (
@@ -1307,9 +1299,7 @@ next_send_time
 /
 /
 Initiate
-|
 last_lost_time_
-|
 .
 time_now
 =

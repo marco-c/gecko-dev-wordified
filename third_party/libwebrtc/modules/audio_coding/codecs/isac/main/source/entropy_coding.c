@@ -10114,9 +10114,7 @@ elements
 of
 /
 /
-|
 WebRtcIsac_kQArBoundaryLevels
-|
 are
 such
 that

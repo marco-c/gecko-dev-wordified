@@ -612,9 +612,7 @@ sequence
 numbers
 older
 than
-|
 upper_bound_missing
-|
 are
 /
 /

@@ -1397,9 +1397,7 @@ block_duration_ms_
 ;
 /
 /
-|
 data_pointer_
-|
 is
 incremented
 and
@@ -1407,9 +1405,7 @@ wrapped
 across
 /
 /
-|
 loop_length_samples_
-|
 .
 data_pointer_
 =

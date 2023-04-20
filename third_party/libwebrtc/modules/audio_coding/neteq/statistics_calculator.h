@@ -189,9 +189,7 @@ ResetMcu
 /
 Reports
 that
-|
 num_samples
-|
 samples
 were
 produced
@@ -223,9 +221,7 @@ is_new_concealment_event
 /
 Reports
 that
-|
 num_samples
-|
 samples
 were
 produced
@@ -270,9 +266,7 @@ noise
 expansion
 by
 adding
-|
 num_samples
-|
 (
 negative
 or
@@ -351,9 +345,7 @@ fs_hz
 /
 Reports
 that
-|
 num_samples
-|
 samples
 were
 produced
@@ -374,9 +366,7 @@ num_samples
 /
 Reports
 that
-|
 num_samples
-|
 samples
 were
 removed
@@ -394,9 +384,7 @@ num_samples
 /
 Reports
 that
-|
 num_packets
-|
 packets
 were
 discarded
@@ -413,9 +401,7 @@ num_packets
 /
 Reports
 that
-|
 num_packets
-|
 secondary
 (
 FEC
@@ -436,9 +422,7 @@ num_packets
 /
 Reports
 that
-|
 num_packets
-|
 secondary
 (
 FEC
@@ -463,9 +447,7 @@ report
 interval
 counter
 with
-|
 num_samples
-|
 at
 a
 sample
@@ -473,9 +455,7 @@ rate
 /
 /
 of
-|
 fs_hz
-|
 .
 This
 is
@@ -543,9 +523,7 @@ waiting_time_ms
 /
 Reports
 that
-|
 num_samples
-|
 samples
 were
 decoded
@@ -601,9 +579,7 @@ packet
 was
 delayed
 by
-|
 delay_ms
-|
 milliseconds
 .
 virtual
@@ -623,9 +599,7 @@ packet
 outage
 event
 of
-|
 num_samples
-|
 expanded
 at
 a
@@ -634,9 +608,7 @@ sample
 /
 rate
 of
-|
 fs_hz
-|
 .
 A
 delayed
@@ -682,9 +654,7 @@ current
 network
 statistics
 in
-|
 stats
-|
 .
 The
 number
@@ -695,9 +665,7 @@ samples
 per
 packet
 is
-|
 samples_per_packet
-|
 .
 The
 method
@@ -706,16 +674,10 @@ not
 populate
 /
 /
-|
 preferred_buffer_size_ms
-|
-|
 jitter_peaks_found
-|
 or
-|
 clockdrift_ppm
-|
 ;
 use
 /

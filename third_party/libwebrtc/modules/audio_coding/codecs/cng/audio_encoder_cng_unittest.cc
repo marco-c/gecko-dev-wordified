@@ -628,9 +628,7 @@ num_audio_samples_10ms_
 /
 /
 Expect
-|
 num_calls
-|
 calls
 to
 the
@@ -647,9 +645,7 @@ claims
 to
 have
 encoded
-|
 kMockReturnEncodedBytes
-|
 bytes
 and
 all
@@ -763,9 +759,7 @@ has
 collected
 /
 /
-|
 blocks_per_frame
-|
 blocks
 of
 audio
@@ -1190,9 +1184,7 @@ to
 Encode
 (
 )
-|
 mock_vad_
-|
 should
 be
 called
@@ -1438,9 +1430,7 @@ Ownership
 is
 transferred
 to
-|
 cng_
-|
 .
 uint32_t
 timestamp_
@@ -1988,9 +1978,7 @@ once
 every
 /
 /
-|
 kBlocksPerFrame
-|
 calls
 .
 if
@@ -2282,9 +2270,7 @@ Expect
 no
 calls
 to
-|
 mock_encoder_
-|
 .
 EXPECT_FALSE
 (
@@ -3043,9 +3029,7 @@ to
 the
 destructor
 of
-|
 mock_vad_
-|
 .
 In
 this

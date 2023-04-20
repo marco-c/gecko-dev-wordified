@@ -2319,9 +2319,7 @@ to
 the
 distances
 of
-|
 scoring_point
-|
 to
 the
 /
@@ -2391,9 +2389,7 @@ relative
 order
 will
 follow
-|
 default_sorted_controllers_
-|
 .
 std
 :
@@ -2646,9 +2642,7 @@ uplink_packet_loss_fraction
 {
 /
 /
-|
 uplink_packet_loss_fraction
-|
 is
 seldom
 larger

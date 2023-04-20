@@ -1571,9 +1571,7 @@ signal
 and
 write
 to
-|
 output
-|
 .
 int
 DtmfToneGenerator

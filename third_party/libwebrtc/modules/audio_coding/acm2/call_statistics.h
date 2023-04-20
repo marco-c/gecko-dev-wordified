@@ -282,9 +282,7 @@ engaged
 in
 decoding
 .
-|
 speech_type
-|
 /
 /
 is
@@ -296,9 +294,7 @@ according
 to
 NetEq
 and
-|
 muted
-|
 indicates
 if
 the

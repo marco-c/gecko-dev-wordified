@@ -1716,9 +1716,7 @@ packet
 loss
 by
 setting
-|
 packet_loss_
-|
 to
 "
 true
@@ -1726,9 +1724,7 @@ true
 in
 /
 /
-|
 percent_loss
-|
 percent
 of
 the

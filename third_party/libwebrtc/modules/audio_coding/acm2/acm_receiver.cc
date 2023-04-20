@@ -891,9 +891,7 @@ clockrate_hz
 }
 /
 /
-|
 mutex_
-|
 is
 released
 .
@@ -1338,9 +1336,7 @@ Store
 current
 audio
 in
-|
 last_audio_buffer_
-|
 for
 next
 time

@@ -1029,9 +1029,7 @@ first
 }
 /
 /
-|
 info
-|
 will
 be
 implicitly

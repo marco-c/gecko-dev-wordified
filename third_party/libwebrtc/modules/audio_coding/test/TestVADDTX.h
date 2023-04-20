@@ -189,9 +189,7 @@ to
 the
 /
 /
-|
 next_
-|
 AudioPacketizationCallback
 .
 class
@@ -433,9 +431,7 @@ no
 packets
 of
 type
-|
 x
-|
 /
 /
 1
@@ -446,15 +442,11 @@ been
 packets
 of
 type
-|
 x
-|
 /
 /
 with
-|
 x
-|
 indicates
 the
 following

@@ -122,9 +122,7 @@ follows
 :
 /
 /
-|
 runtime_ms
-|
 :
 the
 simulation
@@ -142,17 +140,13 @@ data
 .
 /
 /
-|
 lossrate
-|
 :
 drop
 one
 out
 of
-|
 lossrate
-|
 packets
 e
 .
@@ -165,9 +159,7 @@ of
 .
 /
 /
-|
 drift_factor
-|
 :
 clock
 drift

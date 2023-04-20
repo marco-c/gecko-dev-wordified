@@ -511,9 +511,7 @@ Sender
 /
 /
 /
-|
 modifier
-|
 is
 called
 exactly
@@ -554,9 +552,7 @@ duration
 of
 the
 call
-|
 modifier
-|
 has
 exclusive
 /

@@ -189,9 +189,7 @@ Die
 /
 Called
 when
-|
 db
-|
 goes
 out
 of

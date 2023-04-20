@@ -741,13 +741,9 @@ vec_copy
 /
 Copy
 from
-|
 vec
-|
 to
-|
 vec_copy
-|
 .
 ASSERT_EQ
 (
@@ -880,9 +876,7 @@ i
 /
 /
 Clear
-|
 vec
-|
 and
 verify
 that
@@ -1722,9 +1716,7 @@ Size
 /
 /
 Let
-|
 ptr
-|
 point
 to
 the
@@ -1894,9 +1886,7 @@ Size
 /
 /
 Let
-|
 ptr
-|
 point
 to
 the

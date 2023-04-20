@@ -1236,9 +1236,7 @@ of
 [
 N
 -
-|
 max_nack_list_size
-|
 N
 )
 .
@@ -1246,9 +1244,7 @@ N
 /
 /
 /
-|
 max_nack_list_size
-|
 should
 be
 positive
@@ -1322,9 +1318,7 @@ to
 be
 retransmitted
 .
-|
 round_trip_time_ms
-|
 is
 an
 /
@@ -1387,9 +1381,7 @@ list
 /
 /
 Negative
-|
 round_trip_time_ms
-|
 results
 is
 an

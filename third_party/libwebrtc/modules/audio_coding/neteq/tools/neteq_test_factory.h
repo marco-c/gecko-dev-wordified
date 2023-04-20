@@ -1173,17 +1173,13 @@ false
 If
 specified
 and
-|
 textlog
-|
 is
 true
 the
 output
 of
-|
 textlog
-|
 is
 written
 to

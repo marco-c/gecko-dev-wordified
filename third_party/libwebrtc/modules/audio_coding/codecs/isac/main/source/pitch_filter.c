@@ -253,9 +253,7 @@ lag
 *
 Note
 that
-|
 lag
-|
 is
 a
 floating
@@ -270,9 +268,7 @@ to
 obtain
 the
 correct
-|
 lag
-|
 .
 *
 *
@@ -797,9 +793,7 @@ is
 defined
 by
 *
-|
 kDampFilter
-|
 .
 *
 interpol_coeff
@@ -3151,9 +3145,7 @@ frame
 So
 *
 set
-|
 pf_param
-|
 to
 last
 sub

@@ -292,9 +292,7 @@ config
 /
 Decision
 on
-|
 bitrate_bps
-|
 should
 not
 have

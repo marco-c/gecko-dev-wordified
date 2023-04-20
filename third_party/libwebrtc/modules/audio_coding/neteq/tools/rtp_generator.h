@@ -193,9 +193,7 @@ next
 RTP
 header
 to
-|
 rtp_header
-|
 which
 will
 be
@@ -203,9 +201,7 @@ of
 type
 /
 /
-|
 payload_type
-|
 .
 Returns
 the
@@ -224,9 +220,7 @@ value
 of
 /
 /
-|
 payload_length_samples
-|
 determines
 the
 send

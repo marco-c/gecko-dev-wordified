@@ -1238,9 +1238,7 @@ packet
 with
 payload
 type
-|
 i
-|
 .
 The
 last

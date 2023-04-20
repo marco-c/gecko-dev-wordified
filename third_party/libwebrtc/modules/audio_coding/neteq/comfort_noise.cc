@@ -955,17 +955,13 @@ unmuting_window_increment
 /
 /
 Remove
-|
 overlap_length_
-|
 samples
 from
 the
 front
 of
-|
 output
-|
 since
 they
 /
@@ -973,9 +969,7 @@ they
 were
 mixed
 into
-|
 sync_buffer_
-|
 above
 .
 output

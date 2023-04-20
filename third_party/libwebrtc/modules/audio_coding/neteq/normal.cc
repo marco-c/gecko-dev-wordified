@@ -353,9 +353,7 @@ down
 /
 Note
 that
-|
 fs_shift
-|
 is
 not
 "
@@ -728,9 +726,7 @@ scaling
 ;
 /
 /
-|
 scaling
-|
 should
 always
 be

@@ -581,13 +581,9 @@ from
 the
 end
 of
-|
 source
-|
 and
-|
 destination
-|
 and
 work
 towards
@@ -615,13 +611,9 @@ e
 .
 /
 /
-|
 source
-|
 and
-|
 destination
-|
 are
 the
 same

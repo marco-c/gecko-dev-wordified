@@ -182,9 +182,7 @@ AudioLoop
 by
 reading
 from
-|
 file_name
-|
 .
 The
 loop
@@ -195,9 +193,7 @@ no
 /
 longer
 than
-|
 max_loop_length_samples
-|
 if
 the
 length
@@ -231,9 +227,7 @@ delivered
 in
 blocks
 of
-|
 block_length_samples
-|
 .
 /
 /
@@ -285,9 +279,7 @@ is
 equal
 to
 the
-|
 block_length_samples
-|
 Init
 (
 )

@@ -185,9 +185,7 @@ Config
 {
 /
 /
-|
 fec_enabling_threshold
-|
 defines
 a
 curve
@@ -200,9 +198,7 @@ be
 /
 enabled
 .
-|
 fec_disabling_threshold
-|
 defines
 a
 curve

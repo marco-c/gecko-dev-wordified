@@ -381,13 +381,9 @@ of
 non
 -
 empty
-|
 a
-|
 and
-|
 b
-|
 or
 empty
 if

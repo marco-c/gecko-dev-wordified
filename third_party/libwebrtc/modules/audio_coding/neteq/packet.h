@@ -631,9 +631,7 @@ i
 .
 e
 .
-|
 frame
-|
 must
 be
 unset
@@ -647,9 +645,7 @@ however
 be
 copied
 .
-|
 waiting_time
-|
 will
 also
 not

@@ -2243,9 +2243,7 @@ This
 test
 depends
 on
-|
 input_frame_
-|
 containing
 /
 /
@@ -3809,16 +3807,12 @@ loop_counter
 /
 /
 Set
-|
 last_packet_number_
-|
 to
 one
 less
 that
-|
 num_calls
-|
 so
 that
 the
@@ -4011,9 +4005,7 @@ to
 the
 data
 in
-|
 packet_cb_
-|
 we
 avoid
 locking
@@ -7410,9 +7402,7 @@ source_rate
 /
 Note
 that
-|
 audio_source_
-|
 will
 loop
 forever
@@ -7426,9 +7416,7 @@ set
 /
 explicitly
 by
-|
 kTestDurationMs
-|
 .
 audio_source_
 .
@@ -8168,9 +8156,7 @@ becomes
 the
 owner
 of
-|
 packet
-|
 .
 return
 packet
@@ -10493,9 +10479,7 @@ pcm
 /
 Note
 that
-|
 audio_source_
-|
 will
 loop
 forever
@@ -10509,9 +10493,7 @@ set
 /
 explicitly
 by
-|
 kTestDurationMs
-|
 .
 audio_source_
 .
@@ -12026,9 +12008,7 @@ a
 constant
 value
 of
-|
 kSampleValue
-|
 .
 The
 test

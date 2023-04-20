@@ -1693,9 +1693,7 @@ new
 event
 when
 supplying
-|
 timestamp_now
-|
 .
 EXPECT_TRUE
 (
@@ -1743,9 +1741,7 @@ Length
 /
 /
 Move
-|
 timestamp_now
-|
 to
 more
 than

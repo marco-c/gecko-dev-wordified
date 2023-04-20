@@ -333,13 +333,9 @@ returns
 the
 operation
 .
-|
 target_timestamp
-|
 and
-|
 expand_mutefactor
-|
 /
 /
 are
@@ -347,9 +343,7 @@ provided
 for
 reference
 .
-|
 last_packet_samples
-|
 is
 the
 number
@@ -377,9 +371,7 @@ should
 be
 supplied
 in
-|
 packet
-|
 ;
 otherwise
 it
@@ -406,9 +398,7 @@ supplied
 in
 /
 /
-|
 last_mode
-|
 .
 If
 there
@@ -418,9 +408,7 @@ DTMF
 event
 to
 play
-|
 play_dtmf
-|
 should
 be
 set
@@ -432,9 +420,7 @@ true
 The
 output
 variable
-|
 reset_decoder
-|
 will
 be
 set
@@ -498,9 +484,7 @@ These
 methods
 test
 the
-|
 cng_state_
-|
 for
 different
 conditions
@@ -537,9 +521,7 @@ kCngOff
 /
 Resets
 the
-|
 cng_state_
-|
 to
 kCngOff
 .
@@ -620,13 +602,9 @@ override
 /
 /
 Adds
-|
 value
-|
 to
-|
 sample_memory_
-|
 .
 void
 AddSampleMemory
@@ -895,9 +873,7 @@ kCngInternalOn
 /
 Updates
 the
-|
 buffer_level_filter_
-|
 with
 the
 current
@@ -905,9 +881,7 @@ buffer
 level
 /
 /
-|
 buffer_size_samples
-|
 .
 void
 FilterBufferLevel
@@ -986,9 +960,7 @@ event
 flagged
 by
 setting
-|
 play_dtmf
-|
 true
 )
 .
@@ -1165,9 +1137,7 @@ const
 /
 Checks
 if
-|
 timestamp_leap
-|
 is
 so
 long
@@ -1229,9 +1199,7 @@ beeing
 /
 conveyed
 in
-|
 timestamp_leap
-|
 .
 bool
 PacketTooEarly

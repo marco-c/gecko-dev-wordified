@@ -247,9 +247,7 @@ is
 decoded
 by
 NetEq
-|
 kUndefined
-|
 is
 not
 an

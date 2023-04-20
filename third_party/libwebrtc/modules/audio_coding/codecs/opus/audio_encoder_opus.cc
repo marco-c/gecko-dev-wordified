@@ -3660,17 +3660,13 @@ max_frame_length_ms
 /
 Ensure
 that
-|
 SetReceiverFrameLengthRange
-|
 is
 called
 before
 /
 /
-|
 EnableAudioNetworkAdaptor
-|
 otherwise
 we
 need
@@ -3678,9 +3674,7 @@ to
 recreate
 /
 /
-|
 audio_network_adaptor_
-|
 which
 is
 not

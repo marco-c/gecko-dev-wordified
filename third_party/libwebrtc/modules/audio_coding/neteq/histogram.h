@@ -135,13 +135,9 @@ Creates
 histogram
 with
 capacity
-|
 num_buckets
-|
 and
-|
 forget_factor
-|
 in
 Q15
 .
@@ -195,9 +191,7 @@ Add
 entry
 in
 bucket
-|
 index
-|
 .
 virtual
 void
@@ -213,9 +207,7 @@ Calculates
 the
 quantile
 at
-|
 probability
-|
 (
 in
 Q30

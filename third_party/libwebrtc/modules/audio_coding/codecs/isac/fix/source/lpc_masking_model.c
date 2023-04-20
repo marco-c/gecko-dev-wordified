@@ -5987,9 +5987,7 @@ corrlo
 /
 /
 /
-|
 corrlo2QQ
-|
 in
 Q
 (
@@ -6683,9 +6681,7 @@ possible
 /
 /
 Shift
-|
 alpha
-|
 the
 number
 of
@@ -6693,9 +6689,7 @@ times
 required
 to
 get
-|
 tmp
-|
 in
 QdomLO
 .
@@ -6743,9 +6737,7 @@ possible
 /
 /
 Shift
-|
 alpha
-|
 as
 much
 as
@@ -6761,9 +6753,7 @@ times
 required
 to
 get
-|
 tmp
-|
 in
 QdomLO
 .
@@ -7188,9 +7178,7 @@ possible
 /
 /
 Shift
-|
 alpha
-|
 the
 number
 of
@@ -7198,9 +7186,7 @@ times
 required
 to
 get
-|
 tmp
-|
 in
 QdomHI
 .
@@ -7281,9 +7267,7 @@ possible
 /
 /
 Shift
-|
 alpha
-|
 as
 much
 as
@@ -7299,9 +7283,7 @@ times
 required
 to
 get
-|
 tmp
-|
 in
 QdomHI
 .
@@ -8204,9 +8186,7 @@ sh_hi
 ;
 /
 /
-|
 sqrt_nrg
-|
 is
 in
 Qssh

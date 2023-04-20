@@ -470,9 +470,7 @@ We
 are
 moving
 the
-|
 next_index_
-|
 sample
 .
 set_next_index
@@ -509,9 +507,7 @@ We
 are
 moving
 the
-|
 dtmf_index_
-|
 sample
 .
 set_dtmf_index
@@ -562,9 +558,7 @@ Size
 /
 /
 Cap
-|
 position
-|
 in
 the
 valid
@@ -770,9 +764,7 @@ value
 /
 Cannot
 set
-|
 next_index_
-|
 larger
 than
 the
@@ -809,9 +801,7 @@ value
 /
 Cannot
 set
-|
 dtmf_index_
-|
 larger
 than
 the

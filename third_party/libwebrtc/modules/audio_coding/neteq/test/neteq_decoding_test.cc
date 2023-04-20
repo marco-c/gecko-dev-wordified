@@ -2436,9 +2436,7 @@ keep
 pulling
 audio
 for
-|
 network_freeze_ms
-|
 without
 inserting
 /
@@ -2451,9 +2449,7 @@ CNG
 data
 corresponding
 to
-|
 network_freeze_ms
-|
 /
 /
 without
@@ -2533,9 +2529,7 @@ pull_audio_during_freeze
 /
 /
 If
-|
 pull_once
-|
 is
 true
 GetAudio

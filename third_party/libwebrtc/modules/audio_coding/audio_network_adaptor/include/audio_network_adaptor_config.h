@@ -255,9 +255,7 @@ of
 the
 bandwidth
 .
-|
 num_channels
-|
 sets
 the
 number

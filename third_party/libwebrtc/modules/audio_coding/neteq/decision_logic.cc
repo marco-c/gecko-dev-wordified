@@ -2124,15 +2124,11 @@ samples_per_ms
 ;
 /
 /
-|
 higher_limit
-|
 is
 equal
 to
-|
 target_level
-|
 but
 should
 at
@@ -2144,9 +2140,7 @@ be
 ms
 higher
 than
-|
 lower_limit
-|
 .
 const
 int

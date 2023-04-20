@@ -358,9 +358,7 @@ the
 output
 frequency
 every
-|
 toggle_period_ms
-|
 .
 The
 test
@@ -368,9 +366,7 @@ test
 /
 starts
 with
-|
 output_freq_hz_1
-|
 .
 Except
 for

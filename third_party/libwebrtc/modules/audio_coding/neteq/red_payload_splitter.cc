@@ -229,9 +229,7 @@ held
 in
 the
 list
-|
 new_packets
-|
 .
 /
 /
@@ -240,9 +238,7 @@ the
 first
 packet
 in
-|
 packet_list
-|
 has
 been
 processed
@@ -258,14 +254,10 @@ the
 new
 ones
 in
-|
 new_packets
-|
 so
 that
-|
 packet_list
-|
 /
 /
 becomes
@@ -1067,9 +1059,7 @@ data
 .
 /
 /
-|
 payload_ptr
-|
 now
 points
 at
@@ -1386,9 +1376,7 @@ by
 /
 /
 iterator
-|
 it
-|
 .
 packet_list
 -
@@ -1437,9 +1425,7 @@ false
 /
 /
 Remove
-|
 it
-|
 from
 the
 packet
@@ -1453,9 +1439,7 @@ the
 /
 /
 iterator
-|
 it
-|
 to
 the
 next
@@ -1650,9 +1634,7 @@ type
 /
 /
 Remove
-|
 it
-|
 from
 the
 packet
@@ -1666,9 +1648,7 @@ effectively
 moves
 the
 iterator
-|
 it
-|
 to
 the
 next

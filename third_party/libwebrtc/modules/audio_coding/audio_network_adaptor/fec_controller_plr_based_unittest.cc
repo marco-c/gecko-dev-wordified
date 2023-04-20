@@ -625,9 +625,7 @@ the
 FEC
 decision
 and
-|
 uplink_packet_loss_fraction
-|
 given
 by
 /
@@ -642,15 +640,11 @@ controller
 MakeDecision
 |
 matches
-|
 expected_enable_fec
-|
 and
 /
 /
-|
 expected_uplink_packet_loss_fraction
-|
 respectively
 .
 void
@@ -1362,9 +1356,7 @@ false
 /
 /
 Below
-|
 kEnablingBandwidthLow
-|
 no
 packet
 loss
@@ -1650,9 +1642,7 @@ true
 /
 /
 Below
-|
 kEnablingBandwidthLow
-|
 any
 packet
 loss

@@ -424,9 +424,7 @@ will
 be
 inserted
 into
-|
 headers
-|
 .
 The
 /
@@ -474,16 +472,12 @@ all
 RTPHeader
 objects
 in
-|
 headers
-|
 but
 does
 not
 delete
-|
 headers
-|
 /
 /
 itself

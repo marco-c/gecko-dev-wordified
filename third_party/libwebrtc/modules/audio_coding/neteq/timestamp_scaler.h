@@ -221,9 +221,7 @@ Scale
 the
 timestamp
 in
-|
 packet
-|
 from
 external
 to
@@ -247,9 +245,7 @@ for
 all
 packets
 in
-|
 packet_list
-|
 from
 external
 to
@@ -273,9 +269,7 @@ the
 internal
 equivalent
 of
-|
 external_timestamp
-|
 given
 the
 /
@@ -283,9 +277,7 @@ the
 RTP
 payload
 type
-|
 rtp_payload_type
-|
 .
 virtual
 uint32_t

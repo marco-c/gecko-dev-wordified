@@ -2218,9 +2218,7 @@ this
 test
 by
 setting
-|
 packet_size_samples_
-|
 to
 -
 1

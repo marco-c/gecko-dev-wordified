@@ -837,9 +837,7 @@ starting
 at
 the
 same
-|
 factor
-|
 each
 time
 .
@@ -1004,13 +1002,9 @@ that
 the
 length
 of
-|
 data
-|
 is
-|
 data_length
-|
 .
 data_length
 +

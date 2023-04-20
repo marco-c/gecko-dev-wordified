@@ -213,9 +213,7 @@ config
 /
 Decision
 on
-|
 enable_dtx
-|
 should
 not
 have

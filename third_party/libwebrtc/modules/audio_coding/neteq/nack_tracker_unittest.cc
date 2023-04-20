@@ -1469,9 +1469,7 @@ number
 wrap
 around
 if
-|
 k
-|
 is
 2
 or
@@ -1496,9 +1494,7 @@ Timestamp
 wrap
 around
 if
-|
 k
-|
 is
 1
 or
@@ -2015,9 +2011,7 @@ m
 Wrap
 around
 if
-|
 m
-|
 is
 1
 .
@@ -2608,9 +2602,7 @@ m
 Wrap
 around
 if
-|
 m
-|
 is
 1
 .
@@ -2793,9 +2785,7 @@ m
 Wrap
 around
 if
-|
 m
-|
 is
 1
 .

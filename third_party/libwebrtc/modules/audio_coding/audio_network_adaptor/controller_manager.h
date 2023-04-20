@@ -600,9 +600,7 @@ sorted_controllers_
 ;
 /
 /
-|
 scoring_points_
-|
 saves
 the
 scoring

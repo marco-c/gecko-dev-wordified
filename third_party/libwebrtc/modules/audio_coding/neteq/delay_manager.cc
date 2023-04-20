@@ -1192,9 +1192,7 @@ index
 /
 Calculate
 new
-|
 target_level_ms_
-|
 based
 on
 updated
@@ -1761,9 +1759,7 @@ delay_ms
 /
 /
 If
-|
 delay_ms
-|
 is
 zero
 then
@@ -1896,9 +1892,7 @@ UpdateEffectiveMinimumDelay
 /
 /
 Clamp
-|
 base_minimum_delay_ms_
-|
 into
 the
 range

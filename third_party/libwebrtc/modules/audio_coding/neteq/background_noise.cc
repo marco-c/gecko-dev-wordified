@@ -775,17 +775,11 @@ parameters
 .
 /
 /
-|
 temp_signal
-|
 +
-|
 kVecLen
-|
 -
-|
 kMaxLpcOrder
-|
 points
 at
 the
@@ -794,9 +788,7 @@ of
 the
 /
 /
-|
 kMaxLpcOrder
-|
 samples
 in
 the
@@ -850,9 +842,7 @@ VAD
 is
 disabled
 and
-|
 sample_energy
-|
 is
 /
 /
@@ -1734,9 +1724,7 @@ sample_energy
 /
 /
 Set
-|
 energy_update_threshold
-|
 to
 no
 less
@@ -1747,9 +1735,7 @@ lower
 than
 /
 /
-|
 max_energy_
-|
 .
 Adding
 524288
@@ -1988,9 +1974,7 @@ Add
 13
 to
 the
-|
 scale_shift_
-|
 since
 the
 random
@@ -2017,9 +2001,7 @@ the
 to
 where
 the
-|
 scale_shift_
-|
 is
 used
 ?

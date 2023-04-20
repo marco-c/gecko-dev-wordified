@@ -2069,9 +2069,7 @@ payload
 Set
 all
 of
-|
 out_data_
-|
 to
 1
 and
@@ -2268,9 +2266,7 @@ GetAudioBeforeInsertPacket
 Set
 all
 of
-|
 out_data_
-|
 to
 1
 and
@@ -2627,9 +2623,7 @@ regardless
 of
 /
 /
-|
 sampling_rate_hz
-|
 .
 The
 output
@@ -3878,9 +3872,7 @@ until
 we
 have
 played
-|
 kCngPeriodMs
-|
 of
 CNG
 .

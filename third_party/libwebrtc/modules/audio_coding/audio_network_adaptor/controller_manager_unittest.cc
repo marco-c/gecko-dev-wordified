@@ -300,13 +300,9 @@ kFactor
 ;
 /
 /
-|
 kMinUplinkBandwidthBps
-|
 and
-|
 kMaxUplinkBandwidthBps
-|
 are
 copied
 from
@@ -576,9 +572,7 @@ states
 }
 /
 /
-|
 expected_order
-|
 contains
 the
 expected
@@ -849,9 +843,7 @@ Verify
 that
 controllers
 in
-|
 check
-|
 are
 one
 -
@@ -864,9 +856,7 @@ those
 in
 /
 /
-|
 mock_controllers_
-|
 .
 EXPECT_EQ
 (
@@ -940,9 +930,7 @@ CreateControllerManager
 ;
 /
 /
-|
 network_metrics
-|
 are
 empty
 and
@@ -2115,9 +2103,7 @@ check
 the
 order
 of
-|
 controllers
-|
 by
 judging
 their

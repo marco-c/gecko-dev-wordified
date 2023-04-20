@@ -1564,11 +1564,9 @@ are
 immediately
 consumed
 by
-|
 InsertPacket
 (
 )
-|
 and
 won
 '
@@ -1578,11 +1576,9 @@ be
 /
 returned
 by
-|
 GetAudio
 (
 )
-|
 .
 EXPECT_THAT
 (
@@ -3368,9 +3364,7 @@ as
 input
 bytes
 (
-|
 encoded_len
-|
 )
 .
 int
@@ -4229,9 +4223,7 @@ decoder
 write
 /
 /
-|
 kPayloadLengthSamples
-|
 zeros
 to
 the
@@ -9834,9 +9826,7 @@ decoder
 write
 /
 /
-|
 kPayloadLengthSamples
-|
 -
 5
 zeros

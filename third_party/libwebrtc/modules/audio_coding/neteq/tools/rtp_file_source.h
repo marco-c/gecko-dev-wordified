@@ -193,9 +193,7 @@ an
 RtpFileSource
 reading
 from
-|
 file_name
-|
 .
 If
 the
@@ -303,9 +301,7 @@ and
 binds
 it
 to
-|
 id
-|
 .
 virtual
 bool

@@ -828,9 +828,7 @@ by
 bad
 values
 in
-|
 index
-|
 (
 which
 come

@@ -1097,9 +1097,7 @@ to
 the
 output
 variable
-|
 ssrc
-|
 and
 true
 is
@@ -2017,12 +2015,8 @@ false
 /
 /
 Without
-|
 output_audio_filename
-|
-|
 output_files_base_name
-|
 is
 required
 when

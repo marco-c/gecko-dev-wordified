@@ -317,13 +317,9 @@ protected
 Sets
 the
 parameters
-|
 best_correlation
-|
 and
-|
 peak_index
-|
 to
 suitable
 /
@@ -548,9 +544,7 @@ to
 the
 size
 of
-|
 auto_correlation_
-|
 because
 of
 how
@@ -584,9 +578,7 @@ auto
 -
 correlation
 of
-|
 downsampled_input_
-|
 and
 writes
 the
@@ -594,9 +586,7 @@ the
 /
 result
 to
-|
 auto_correlation_
-|
 .
 void
 AutoCorrelation

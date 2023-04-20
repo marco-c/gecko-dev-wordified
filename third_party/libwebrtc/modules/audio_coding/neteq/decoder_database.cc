@@ -1155,9 +1155,7 @@ a
 decoder
 with
 type
-|
 rtp_payload_type
-|
 .
 return
 kDecoderExists
@@ -1196,9 +1194,7 @@ No
 decoder
 with
 that
-|
 rtp_payload_type
-|
 .
 return
 kDecoderNotFound
@@ -1363,9 +1359,7 @@ new_decoder
 /
 Check
 that
-|
 rtp_payload_type
-|
 exists
 in
 the
@@ -1548,9 +1542,7 @@ rtp_payload_type
 /
 Check
 that
-|
 rtp_payload_type
-|
 exists
 in
 the

@@ -203,9 +203,7 @@ Splits
 each
 packet
 in
-|
 packet_list
-|
 into
 its
 separate
@@ -229,9 +227,7 @@ elements
 in
 /
 /
-|
 packet_list
-|
 are
 properly
 deleted
@@ -249,9 +245,7 @@ that
 all
 packets
 in
-|
 packet_list
-|
 must
 be
 RED
@@ -300,9 +294,7 @@ Checks
 all
 packets
 in
-|
 packet_list
-|
 .
 Packets
 that

@@ -5776,9 +5776,7 @@ speechType
 /
 *
 If
-|
 inst
-|
 is
 a
 decoder

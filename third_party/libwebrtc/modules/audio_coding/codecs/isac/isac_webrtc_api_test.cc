@@ -1541,9 +1541,7 @@ of
 the
 duration
 of
-|
 kNumFrames
-|
 10
 ms
 frames

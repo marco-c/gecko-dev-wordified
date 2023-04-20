@@ -1141,9 +1141,7 @@ if
 /
 1
 .
-|
 uplink_bandwidth_bps
-|
 is
 known
 to
@@ -1157,9 +1155,7 @@ AND
 /
 2
 .
-|
 uplink_packet_loss_fraction
-|
 is
 known
 to
@@ -1278,9 +1274,7 @@ if
 /
 1
 .
-|
 uplink_bandwidth_bps
-|
 is
 at
 medium
@@ -1289,9 +1283,7 @@ level
 /
 2
 .
-|
 uplink_packet_loss_fraction
-|
 is
 at
 medium
@@ -1358,9 +1350,7 @@ if
 /
 1
 .
-|
 uplink_bandwidth_bps
-|
 is
 known
 to
@@ -1374,9 +1364,7 @@ AND
 /
 2
 .
-|
 uplink_packet_loss_fraction
-|
 is
 known
 to
@@ -2284,9 +2272,7 @@ if
 /
 1
 .
-|
 uplink_bandwidth_bps
-|
 is
 known
 to
@@ -2300,9 +2286,7 @@ AND
 /
 2
 .
-|
 uplink_packet_loss_fraction
-|
 is
 known
 to

@@ -305,9 +305,7 @@ just
 moved
 across
 the
-|
 jump_from_timestamp_
-|
 timestamp
 .
 Do

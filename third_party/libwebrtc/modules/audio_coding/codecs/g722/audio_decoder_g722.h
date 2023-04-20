@@ -327,9 +327,7 @@ stereo
 interleaved
 payload
 in
-|
 encoded
-|
 into
 separate
 payloads
@@ -349,17 +347,13 @@ written
 to
 /
 /
-|
 encoded_deinterleaved
-|
 which
 must
 hold
 at
 least
-|
 encoded_len
-|
 samples
 .
 /
@@ -384,9 +378,7 @@ encoded_len
 /
 2
 into
-|
 encoded_deinterleaved
-|
 .
 void
 SplitStereoPacket

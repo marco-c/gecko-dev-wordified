@@ -478,9 +478,7 @@ half
 as
 long
 as
-|
 split_size_bytes
-|
 is
 at
 least

@@ -149,15 +149,11 @@ Current
 buffer
 size
 is
-|
 buffer_size_samples
-|
 .
 /
 /
-|
 time_stretched_samples
-|
 is
 subtracted
 from

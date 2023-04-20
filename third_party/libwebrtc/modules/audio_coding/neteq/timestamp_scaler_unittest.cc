@@ -457,9 +457,7 @@ start_timestamp
 ;
 /
 /
-|
 external_timestamp
-|
 will
 be
 a
@@ -831,9 +829,7 @@ external_timestamp
 ;
 /
 /
-|
 external_timestamp
-|
 will
 be
 a
@@ -2128,9 +2124,7 @@ external_timestamp
 ;
 /
 /
-|
 external_timestamp
-|
 will
 be
 a

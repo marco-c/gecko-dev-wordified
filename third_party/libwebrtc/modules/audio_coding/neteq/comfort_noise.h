@@ -226,9 +226,7 @@ with
 the
 parameters
 in
-|
 packet
-|
 .
 int
 UpdateParameters
@@ -242,9 +240,7 @@ packet
 /
 /
 Generates
-|
 requested_length
-|
 samples
 of
 comfort
@@ -254,9 +250,7 @@ writes
 to
 /
 /
-|
 output
-|
 .
 If
 this

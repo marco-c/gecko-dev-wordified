@@ -798,9 +798,7 @@ SetParametersForNormalAfterExpand
 /
 /
 Convert
-|
 sum_output_len_samples
-|
 to
 milliseconds
 .
@@ -1127,9 +1125,7 @@ SetParametersForNormalAfterExpand
 /
 /
 Convert
-|
 sum_output_len_samples
-|
 to
 milliseconds
 .

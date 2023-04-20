@@ -552,13 +552,9 @@ method
 /
 /
 Switch
-|
 denominator_
-|
 and
-|
 numerator_
-|
 to
 convert
 the

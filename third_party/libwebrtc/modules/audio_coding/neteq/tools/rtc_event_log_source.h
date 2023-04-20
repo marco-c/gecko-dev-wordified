@@ -192,9 +192,7 @@ an
 RtcEventLogSource
 reading
 from
-|
 file_name
-|
 .
 If
 the

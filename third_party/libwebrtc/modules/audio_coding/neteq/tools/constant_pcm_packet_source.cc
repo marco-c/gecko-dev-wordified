@@ -318,15 +318,11 @@ packet_memory
 ;
 /
 /
-|
 packet
-|
 assumes
 ownership
 of
-|
 packet_memory
-|
 .
 auto
 packet

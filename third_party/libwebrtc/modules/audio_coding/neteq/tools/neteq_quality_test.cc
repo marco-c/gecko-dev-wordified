@@ -807,9 +807,7 @@ target
 packet
 loss
 rate
-|
 loss_rate
-|
 when
 a
 packet
@@ -821,9 +819,7 @@ lost
 only
 if
 all
-|
 units
-|
 drawings
 within
 the
@@ -2290,9 +2286,7 @@ kUniformLoss
 {
 /
 /
-|
 unit_loss_rate
-|
 is
 the
 packet
@@ -2341,9 +2335,7 @@ drawn
 with
 a
 loss
-|
 unit_loss_rate
-|
 fulfills
 /
 /
@@ -2416,9 +2408,7 @@ kGilbertElliotLoss
 {
 /
 /
-|
 FLAGS_burst_length
-|
 should
 be
 integer

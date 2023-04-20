@@ -694,9 +694,7 @@ block_length_ms
 /
 /
 Prepare
-|
 speech_data_
-|
 for
 encoding
 read
@@ -727,9 +725,7 @@ a
 /
 block
 of
-|
 block_length_ms
-|
 milliseconds
 .
 The
@@ -739,9 +735,7 @@ looped
 every
 /
 /
-|
 loop_length_ms
-|
 milliseconds
 .
 void
@@ -2020,9 +2014,7 @@ frames
 .
 /
 /
-|
 max_dtx_frames
-|
 is
 the
 maximum
@@ -2076,9 +2068,7 @@ block_length_ms
 /
 We
 run
-|
 kRunTimeMs
-|
 milliseconds
 of
 pure
@@ -2097,9 +2087,7 @@ check
 that
 after
 a
-|
 kCheckTimeMs
-|
 milliseconds
 (
 given
@@ -2127,9 +2115,7 @@ are
 /
 bounded
 by
-|
 kOutputValueBound
-|
 .
 const
 int
@@ -2193,13 +2179,9 @@ values
 between
 /
 /
-|
 kCheckTimeMs
-|
 and
-|
 kRunTimeMs
-|
 )
 .
 const
@@ -2238,9 +2220,7 @@ is
 maintained
 for
 maximum
-|
 max_dtx_frames
-|
 frames
 .
 int
