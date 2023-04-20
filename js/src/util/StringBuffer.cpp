@@ -846,6 +846,11 @@ finishString
 (
 )
 {
+MOZ_ASSERT
+(
+maybeCx_
+)
+;
 size_t
 len
 =
@@ -862,7 +867,7 @@ len
 )
 {
 return
-cx_
+maybeCx_
 -
 >
 names
@@ -882,7 +887,7 @@ JSString
 :
 validateLength
 (
-cx_
+maybeCx_
 len
 )
 )
@@ -928,7 +933,7 @@ finishStringInternal
 Latin1Char
 >
 (
-cx_
+maybeCx_
 )
 :
 finishStringInternal
@@ -936,7 +941,7 @@ finishStringInternal
 char16_t
 >
 (
-cx_
+maybeCx_
 )
 ;
 }
@@ -949,6 +954,11 @@ finishAtom
 (
 )
 {
+MOZ_ASSERT
+(
+maybeCx_
+)
+;
 size_t
 len
 =
@@ -965,7 +975,7 @@ len
 )
 {
 return
-cx_
+maybeCx_
 -
 >
 names
@@ -988,7 +998,7 @@ atom
 =
 AtomizeChars
 (
-cx_
+maybeCx_
 latin1Chars
 (
 )
@@ -1017,7 +1027,7 @@ atom
 =
 AtomizeChars
 (
-cx_
+maybeCx_
 twoByteChars
 (
 )

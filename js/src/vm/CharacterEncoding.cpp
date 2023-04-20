@@ -3989,6 +3989,11 @@ size_t
 len
 )
 {
+MOZ_ASSERT
+(
+maybeCx_
+)
+;
 if
 (
 isLatin1
@@ -4230,7 +4235,7 @@ OnUTF8Error
 Throw
 >
 (
-cx_
+maybeCx_
 remainingUtf8
 countInflated
 )
@@ -4341,7 +4346,7 @@ OnUTF8Error
 Throw
 >
 (
-cx_
+maybeCx_
 remainingUtf8
 appendUtf16
 )
