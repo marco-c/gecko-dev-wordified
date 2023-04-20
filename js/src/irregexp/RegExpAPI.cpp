@@ -4220,7 +4220,7 @@ jit
 :
 JitOptions
 .
-traceRegExpAssembler
+trace_regexp_assembler
 )
 {
 tracer_masm
