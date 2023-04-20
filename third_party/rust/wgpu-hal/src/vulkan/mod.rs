@@ -866,6 +866,9 @@ bool
 texture_d24_s8
 :
 bool
+texture_s8
+:
+bool
 /
 /
 /
