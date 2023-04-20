@@ -298,8 +298,6 @@ RTPVideoHeader
 &
 video_header
 int64_t
-ntp_time_ms
-int64_t
 receive_time_ms
 )
 :
@@ -334,10 +332,6 @@ rtp_packet
 Timestamp
 (
 )
-)
-ntp_time_ms
-(
-ntp_time_ms
 )
 times_nacked
 (

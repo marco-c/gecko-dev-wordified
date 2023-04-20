@@ -304,17 +304,6 @@ CopyTo
 packet
 -
 >
-ntp_time_ms
-)
-;
-helper
-.
-CopyTo
-(
-&
-packet
--
->
 times_nacked
 )
 ;
