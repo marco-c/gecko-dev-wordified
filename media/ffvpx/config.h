@@ -393,6 +393,15 @@ endif
 /
 else
 MOZ_FFVPX_AUDIOONLY
+/
+/
+#
+include
+"
+config_override
+.
+h
+"
 #
 endif
 /
