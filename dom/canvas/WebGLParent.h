@@ -251,7 +251,7 @@ mozilla
 ipc
 :
 :
-Shmem
+BigBuffer
 &
 &
 uint64_t
