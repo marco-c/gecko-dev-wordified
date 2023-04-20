@@ -1403,9 +1403,6 @@ FieldType
 actual
 FieldType
 expected
-TypeCache
-*
-cache
 )
 ;
 /
