@@ -39,7 +39,7 @@ EnterprisePolicyTesting
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ common
 /
 EnterprisePolicyTesting
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
