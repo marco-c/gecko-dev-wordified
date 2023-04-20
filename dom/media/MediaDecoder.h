@@ -4963,6 +4963,12 @@ MediaMemoryPromise
 >
 GetMediaMemorySizes
 (
+dom
+:
+:
+Document
+*
+aDoc
 )
 ;
 }
