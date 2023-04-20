@@ -308,6 +308,13 @@ AsRenderDcompSurfaceTextureHost
 )
 override
 ;
+RenderTextureHostSWGL
+*
+AsRenderTextureHostSWGL
+(
+)
+override
+;
 /
 /
 RenderTextureHostSWGL
