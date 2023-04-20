@@ -921,6 +921,14 @@ return
 options_
 ;
 }
+void
+SetMaxMessageSize
+(
+size_t
+max_message_size
+)
+override
+;
 /
 /
 Returns
@@ -2111,7 +2119,6 @@ PacketObserver
 >
 packet_observer_
 ;
-const
 DcSctpOptions
 options_
 ;
