@@ -8028,7 +8028,6 @@ return
 true
 ;
 }
-}
 /
 /
 We
@@ -8111,9 +8110,9 @@ point
 on
 the
 Request
+/
+/
 Handle
-/
-/
 is
 empty
 .
@@ -8138,6 +8137,7 @@ MaybeMoveToLoadedList
 request
 )
 ;
+}
 }
 return
 mScriptLoader
