@@ -4148,7 +4148,7 @@ Reset
 ;
 clipping_predictor_evaluator_
 .
-Reset
+RemoveExpectations
 (
 )
 ;
