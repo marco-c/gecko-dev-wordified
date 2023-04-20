@@ -1358,6 +1358,10 @@ path
 }
 terminateBackground
 (
+.
+.
+.
+args
 )
 {
 return
@@ -1376,6 +1380,10 @@ extension
 .
 terminateBackground
 (
+.
+.
+.
+args
 )
 ;
 }

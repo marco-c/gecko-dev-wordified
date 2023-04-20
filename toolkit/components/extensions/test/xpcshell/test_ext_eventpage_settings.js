@@ -591,6 +591,11 @@ extension
 .
 terminateBackground
 (
+{
+disableResetIdleForTest
+:
+true
+}
 )
 ;
 assertPersistentListeners
@@ -656,6 +661,11 @@ extension
 .
 terminateBackground
 (
+{
+disableResetIdleForTest
+:
+true
+}
 )
 ;
 assertPersistentListeners
@@ -754,6 +764,11 @@ extension
 .
 terminateBackground
 (
+{
+disableResetIdleForTest
+:
+true
+}
 )
 ;
 assertPersistentListeners
@@ -821,6 +836,11 @@ extension
 .
 terminateBackground
 (
+{
+disableResetIdleForTest
+:
+true
+}
 )
 ;
 assertPersistentListeners
