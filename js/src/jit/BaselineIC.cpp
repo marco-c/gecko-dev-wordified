@@ -3704,6 +3704,10 @@ next
 )
 ;
 }
+clearHasFoldedStub
+(
+)
+;
 }
 static
 void
