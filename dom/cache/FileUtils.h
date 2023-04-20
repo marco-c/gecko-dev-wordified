@@ -352,7 +352,7 @@ aId
 ;
 Result
 <
-NotNull
+MovingNotNull
 <
 nsCOMPtr
 <
