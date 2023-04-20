@@ -799,7 +799,7 @@ PointerEventsConsumableFlags
 aConsumableFlags
 const
 AsyncPanZoomController
-&
+*
 aTarget
 )
 ;

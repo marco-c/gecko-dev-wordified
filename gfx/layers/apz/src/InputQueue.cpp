@@ -1506,7 +1506,6 @@ SetStatusForTouchEvent
 block
 aFlags
 consumableFlags
-*
 target
 )
 ;
@@ -1572,7 +1571,6 @@ SetStatusForTouchEvent
 block
 aFlags
 consumableFlags
-*
 target
 )
 ;

@@ -597,7 +597,7 @@ PointerEventsConsumableFlags
 aConsumableFlags
 const
 AsyncPanZoomController
-&
+*
 aTarget
 )
 {
@@ -687,9 +687,13 @@ Unhandled
 }
 if
 (
+aTarget
+&
+&
 !
 aTarget
-.
+-
+>
 IsRootContent
 (
 )
@@ -710,7 +714,6 @@ GetOverscrollHandoffChain
 >
 ScrollingDownWillMoveDynamicToolbar
 (
-&
 aTarget
 )
 ;
