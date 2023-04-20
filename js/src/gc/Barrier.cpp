@@ -870,11 +870,6 @@ zoneFromAnyThread
 (
 )
 )
-|
-|
-CurrentThreadIsPerformingGC
-(
-)
 )
 ;
 Zone

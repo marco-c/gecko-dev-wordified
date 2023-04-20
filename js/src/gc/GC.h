@@ -469,15 +469,6 @@ true
 _
 (
 "
-parallelMarkingEnabled
-"
-JSGC_PARALLEL_MARKING_ENABLED
-true
-)
-\
-_
-(
-"
 minLastDitchGCPeriod
 "
 JSGC_MIN_LAST_DITCH_GC_PERIOD

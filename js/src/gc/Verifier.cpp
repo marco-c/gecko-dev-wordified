@@ -1783,8 +1783,6 @@ State
 Mark
 ;
 marker
-(
-)
 .
 start
 (
@@ -2715,16 +2713,12 @@ node
 }
 }
 marker
-(
-)
 .
 reset
 (
 )
 ;
 marker
-(
-)
 .
 stop
 (
@@ -3248,8 +3242,6 @@ gc
 -
 >
 marker
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -4090,8 +4082,6 @@ gc
 -
 >
 marker
-(
-)
 .
 isDrained
 (
@@ -4501,8 +4491,6 @@ gc
 -
 >
 marker
-(
-)
 .
 isWeakMarking
 (

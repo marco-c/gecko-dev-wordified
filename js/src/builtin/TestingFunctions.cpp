@@ -4686,7 +4686,6 @@ gc
 .
 setParameter
 (
-cx
 param
 value
 )
