@@ -129,9 +129,9 @@ content
 processes
 using
 *
-OS
+nsIFile
+etc
 .
-File
 methods
 to
 validate
