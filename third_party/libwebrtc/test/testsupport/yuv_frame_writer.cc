@@ -321,6 +321,7 @@ YuvFrameWriterImpl
 :
 WriteFrame
 (
+const
 uint8_t
 *
 frame_buffer

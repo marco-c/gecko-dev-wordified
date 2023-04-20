@@ -257,6 +257,7 @@ Y4mFrameWriterImpl
 :
 WriteFrame
 (
+const
 uint8_t
 *
 frame_buffer

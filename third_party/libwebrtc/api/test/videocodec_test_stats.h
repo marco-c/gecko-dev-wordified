@@ -325,6 +325,11 @@ qp
 /
 Quality
 .
+bool
+quality_analysis_successful
+=
+false
+;
 float
 psnr_y
 =
