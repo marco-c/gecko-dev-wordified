@@ -168,6 +168,10 @@ d
 t
 du
 Pacifique
+nord
+-
+am
+ricain
 )
 "
 )
