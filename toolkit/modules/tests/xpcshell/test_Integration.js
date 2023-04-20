@@ -35,7 +35,9 @@ Tests
 the
 Integration
 .
-jsm
+sys
+.
+mjs
 module
 .
 *

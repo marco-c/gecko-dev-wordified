@@ -4803,7 +4803,9 @@ resolves
 An
 Sqlite
 .
-jsm
+sys
+.
+mjs
 connection
 to
 the
@@ -4846,7 +4848,9 @@ with
 the
 Sqlite
 .
-jsm
+sys
+.
+mjs
 error
 .
 *
@@ -5036,7 +5040,9 @@ resolves
 An
 Sqlite
 .
-jsm
+sys
+.
+mjs
 connection
 to
 the
@@ -5053,7 +5059,7 @@ with
 the
 Sqlite
 .
-jsm
+mjs
 *
 error
 .

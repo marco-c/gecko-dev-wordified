@@ -3019,7 +3019,9 @@ ERRNO_UNKNOWN_ERROR
 /
 WebChannel
 .
-jsm
+sys
+.
+mjs
 doesn
 '
 t
@@ -3296,7 +3298,9 @@ ERRNO_NO_SUCH_CHANNEL
 /
 WebChannel
 .
-jsm
+sys
+.
+mjs
 doesn
 '
 t
