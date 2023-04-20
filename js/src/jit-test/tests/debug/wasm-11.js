@@ -185,6 +185,9 @@ assertEq
 g
 .
 calledOnStep
-2
+>
+=
+5
+true
 )
 ;

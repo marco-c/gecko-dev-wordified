@@ -248,7 +248,7 @@ There
 shall
 be
 total
-5
+8
 lines
 with
 single
@@ -281,7 +281,7 @@ assertEq
 offsets1
 .
 length
-5
+8
 )
 ;
 offsets1
@@ -349,7 +349,7 @@ usedOffsets
 )
 .
 length
-5
+8
 )
 ;
 assertEq
@@ -362,6 +362,6 @@ usedLines
 )
 .
 length
-5
+8
 )
 ;
