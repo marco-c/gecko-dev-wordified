@@ -7277,6 +7277,16 @@ EditorInlineStyle
 )
 ;
 }
+PendingStyleCache
+ToPendingStyleCache
+(
+nsAString
+&
+&
+aValue
+)
+const
+;
 bool
 operator
 =
