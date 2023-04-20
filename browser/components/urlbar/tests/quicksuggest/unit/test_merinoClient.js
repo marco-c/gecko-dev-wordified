@@ -3120,7 +3120,7 @@ endpointURL
 )
 ;
 await
-QuickSuggestTestUtils
+UrlbarTestUtils
 .
 initNimbusFeature
 (

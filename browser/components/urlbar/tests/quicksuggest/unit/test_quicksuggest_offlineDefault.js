@@ -280,7 +280,7 @@ init
 )
 {
 await
-QuickSuggestTestUtils
+UrlbarTestUtils
 .
 initNimbusFeature
 (
