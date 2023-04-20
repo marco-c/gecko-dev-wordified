@@ -411,6 +411,11 @@ match
 )
 ;
 }
+await
+removeAllRecords
+(
+)
+;
 }
 )
 ;
@@ -754,6 +759,11 @@ match
 )
 ;
 }
+await
+removeAllRecords
+(
+)
+;
 }
 )
 ;
