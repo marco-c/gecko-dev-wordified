@@ -13308,9 +13308,6 @@ rv
 }
 else
 {
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 /
 /
 We
@@ -13342,8 +13339,6 @@ mIntentionallyDropped
 =
 true
 ;
-#
-endif
 }
 /
 /
@@ -14235,9 +14230,6 @@ style
 changes
 automatically
 .
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 data
 -
 >
@@ -14245,8 +14237,6 @@ mIntentionallyDropped
 =
 true
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -14856,9 +14846,6 @@ drop
 it
 intentionally
 .
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 data
 -
 >
@@ -14866,8 +14853,6 @@ mIntentionallyDropped
 =
 true
 ;
-#
-endif
 }
 return
 sheet

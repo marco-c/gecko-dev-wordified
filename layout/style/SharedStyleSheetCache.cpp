@@ -874,7 +874,7 @@ aData
 ;
 do
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 data
@@ -883,9 +883,6 @@ data
 mSheetCompleteCalled
 )
 ;
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 data
 -
 >
@@ -893,8 +890,6 @@ mSheetCompleteCalled
 =
 true
 ;
-#
-endif
 if
 (
 !

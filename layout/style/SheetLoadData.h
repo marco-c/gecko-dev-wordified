@@ -1748,9 +1748,6 @@ const
 nsCompatibility
 mCompatMode
 ;
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 /
 /
 Whether
@@ -1787,8 +1784,6 @@ mIntentionallyDropped
 =
 false
 ;
-#
-endif
 bool
 ShouldDefer
 (
