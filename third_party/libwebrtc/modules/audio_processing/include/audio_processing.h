@@ -2128,6 +2128,7 @@ client
 side
 .
 struct
+RTC_EXPORT
 GainController1
 {
 bool
@@ -2772,6 +2773,7 @@ false
 |
 .
 struct
+RTC_EXPORT
 GainController2
 {
 bool
@@ -2858,6 +2860,7 @@ gain_db
 fixed_digital
 ;
 struct
+RTC_EXPORT
 AdaptiveDigital
 {
 bool
