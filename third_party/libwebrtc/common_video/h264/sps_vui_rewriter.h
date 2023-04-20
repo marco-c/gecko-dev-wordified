@@ -404,9 +404,7 @@ Parses
 NAL
 units
 from
-|
 buffer
-|
 strips
 AUD
 blocks

@@ -377,9 +377,7 @@ so
 it
 ends
 at
-|
 now
-|
 and
 return
 the

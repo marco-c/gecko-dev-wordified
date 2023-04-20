@@ -1073,9 +1073,7 @@ ref_pic_list_modification
 :
 /
 /
-|
 slice_type
-|
 checks
 here
 don

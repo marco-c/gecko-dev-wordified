@@ -341,9 +341,7 @@ there
 are
 less
 than
-|
 max_number_of_buffers
-|
 pending
 a
 buffer
