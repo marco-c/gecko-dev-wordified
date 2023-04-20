@@ -113,14 +113,14 @@ ini
 "
 useragent
 /
-nonsnap
+browser_nonsnap
 .
 ini
 "
 "
 useragent
 /
-snap
+browser_snap
 .
 ini
 "
