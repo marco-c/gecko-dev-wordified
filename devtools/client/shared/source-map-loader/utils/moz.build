@@ -93,11 +93,6 @@ assert
 js
 "
 "
-assetRoot
-.
-js
-"
-"
 createConsumer
 .
 js
