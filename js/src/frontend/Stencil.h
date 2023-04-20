@@ -2758,7 +2758,7 @@ BaseScopeData
 scopeData
 MutableHandle
 <
-Shape
+SharedShape
 *
 >
 shape

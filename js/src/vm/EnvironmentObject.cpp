@@ -804,7 +804,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -959,7 +959,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -1009,7 +1009,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -1119,7 +1119,7 @@ FunctionScope
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -1855,7 +1855,7 @@ FunctionScope
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -2173,7 +2173,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -2309,7 +2309,7 @@ VarScope
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -2614,7 +2614,7 @@ hasEnvironment
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -3172,7 +3172,7 @@ script
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -4624,7 +4624,7 @@ scope
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -4833,7 +4833,7 @@ scope
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -5008,7 +5008,7 @@ scope
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -6268,7 +6268,7 @@ cx
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -6793,7 +6793,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -6971,7 +6971,7 @@ hasEnvironment
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -7195,7 +7195,7 @@ hasEnvironment
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -8157,7 +8157,7 @@ hasEnvironment
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -8539,7 +8539,7 @@ global
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -8678,7 +8678,7 @@ enclosing
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -8773,7 +8773,7 @@ errorNumber
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

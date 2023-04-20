@@ -21295,7 +21295,7 @@ JSContext
 *
 Handle
 <
-Shape
+SharedShape
 *
 >
 gc

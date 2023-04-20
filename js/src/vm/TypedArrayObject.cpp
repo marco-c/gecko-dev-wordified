@@ -2390,7 +2390,7 @@ FIXED_DATA_START
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

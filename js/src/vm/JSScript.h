@@ -13974,7 +13974,7 @@ pc
 js
 :
 :
-Shape
+SharedShape
 *
 getShape
 (
@@ -14004,12 +14004,16 @@ Shape
 >
 (
 )
+.
+asShared
+(
+)
 ;
 }
 js
 :
 :
-Shape
+SharedShape
 *
 getShape
 (

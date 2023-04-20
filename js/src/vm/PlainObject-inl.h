@@ -360,7 +360,7 @@ JS
 :
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -497,7 +497,7 @@ JS
 :
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -572,7 +572,7 @@ JS
 :
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -581,7 +581,7 @@ cx
 templateObject
 -
 >
-shape
+sharedShape
 (
 )
 )
@@ -742,7 +742,7 @@ JS_IS_CONSTRUCTING
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

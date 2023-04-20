@@ -283,7 +283,7 @@ JS
 :
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -313,7 +313,7 @@ JS
 :
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -510,7 +510,7 @@ function
 callee
 .
 extern
-Shape
+SharedShape
 *
 ThisShapeForFunction
 (

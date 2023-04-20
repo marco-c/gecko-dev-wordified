@@ -1619,6 +1619,10 @@ do
 {
 if
 (
+Shape
+*
+shape
+=
 scope
 -
 >
@@ -1633,12 +1637,7 @@ opts
 >
 (
 scope
-scope
--
->
-environmentShape
-(
-)
+shape
 )
 ;
 }

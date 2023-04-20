@@ -8552,7 +8552,7 @@ MAX_FIXED_SLOTS
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

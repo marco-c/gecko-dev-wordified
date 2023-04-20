@@ -4905,7 +4905,7 @@ class_
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
