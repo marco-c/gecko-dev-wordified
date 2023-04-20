@@ -11063,6 +11063,13 @@ permissionType
 "
 trackingprotection
 "
+disableETPVisible
+:
+true
+prefilledHost
+:
+"
+"
 hideStatusColumn
 :
 true
