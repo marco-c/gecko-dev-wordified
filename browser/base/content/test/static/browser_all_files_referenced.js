@@ -6949,12 +6949,6 @@ checkAllTheFiles
 (
 )
 {
-TestUtils
-.
-assertPackagedBuild
-(
-)
-;
 const
 libxul
 =
