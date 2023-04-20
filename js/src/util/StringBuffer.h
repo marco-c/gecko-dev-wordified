@@ -172,7 +172,12 @@ namespace
 js
 {
 class
+FrontendContext
+;
+using
 ErrorContext
+=
+FrontendContext
 ;
 namespace
 frontend
@@ -2740,7 +2745,7 @@ JSStringBuilder
 public
 StringBuffer
 {
-OffThreadErrorContext
+FrontendContext
 ec_
 ;
 #

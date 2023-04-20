@@ -1684,7 +1684,12 @@ namespace
 js
 {
 class
+FrontendContext
+;
+using
 ErrorContext
+=
+FrontendContext
 ;
 struct
 ErrorMetadata

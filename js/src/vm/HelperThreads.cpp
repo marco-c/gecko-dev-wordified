@@ -3472,7 +3472,7 @@ AutoSetContextFrontendErrors
 explicit
 AutoSetContextFrontendErrors
 (
-OffThreadErrorContext
+FrontendContext
 *
 ec
 )

@@ -597,7 +597,12 @@ class
 EnterDebuggeeNoExecute
 ;
 class
+FrontendContext
+;
+using
 ErrorContext
+=
+FrontendContext
 ;
 class
 StaticStrings

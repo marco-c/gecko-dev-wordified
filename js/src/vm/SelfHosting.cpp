@@ -16227,7 +16227,7 @@ MOZ_STACK_CLASS
 AutoPrintSelfHostingFrontendContext
 :
 public
-OffThreadErrorContext
+FrontendContext
 {
 JSContext
 *
@@ -16243,7 +16243,7 @@ JSContext
 cx
 )
 :
-OffThreadErrorContext
+FrontendContext
 (
 )
 cx_

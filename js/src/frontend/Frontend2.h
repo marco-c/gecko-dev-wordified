@@ -249,7 +249,12 @@ class
 ScriptSourceObject
 ;
 class
+FrontendContext
+;
+using
 ErrorContext
+=
+FrontendContext
 ;
 namespace
 frontend

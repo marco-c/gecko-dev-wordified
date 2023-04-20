@@ -2931,7 +2931,7 @@ or
 generating
 bytecode
 .
-OffThreadErrorContext
+FrontendContext
 ec_
 ;
 ParseTask
@@ -4037,7 +4037,7 @@ or
 generating
 bytecode
 .
-OffThreadErrorContext
+FrontendContext
 ec_
 ;
 /
