@@ -80,11 +80,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 content
 /
-certerror
+neterror
 /
 supportpages
 /

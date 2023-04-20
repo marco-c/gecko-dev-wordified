@@ -140,11 +140,6 @@ shistory
 "
 build
 "
-"
-resources
-/
-content
-"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +

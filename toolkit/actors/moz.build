@@ -407,6 +407,16 @@ KeyPressEventModelCheckerChild
 jsm
 "
 "
+NetErrorChild
+.
+jsm
+"
+"
+NetErrorParent
+.
+jsm
+"
+"
 PictureInPictureChild
 .
 sys

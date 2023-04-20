@@ -671,11 +671,8 @@ in
 nsIFaviconService
 .
 idl
-aboutCertError
-.
-xhtml
 and
-netError
+aboutNetError
 .
 xhtml
 .

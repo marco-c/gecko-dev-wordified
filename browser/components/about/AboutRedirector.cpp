@@ -370,11 +370,9 @@ chrome
 :
 /
 /
-browser
+global
 /
 content
-/
-certerror
 /
 aboutNetError
 .

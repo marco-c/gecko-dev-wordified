@@ -3194,7 +3194,7 @@ document
 /
 aboutNetError
 .
-js
+mjs
 is
 using
 async
@@ -3202,9 +3202,9 @@ localization
 to
 format
 several
+/
+/
 messages
-/
-/
 and
 in
 result
