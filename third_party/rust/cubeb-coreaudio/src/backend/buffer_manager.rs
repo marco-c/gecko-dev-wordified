@@ -898,8 +898,6 @@ buffer_element_count
 output_channel_count
 *
 buffer_size_frames
-as
-usize
 *
 8
 ;
