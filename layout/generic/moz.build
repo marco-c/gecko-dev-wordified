@@ -1196,6 +1196,11 @@ nsIFrame
 cpp
 "
 "
+nsILineIterator
+.
+cpp
+"
+"
 nsImageFrame
 .
 cpp
