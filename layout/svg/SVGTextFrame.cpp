@@ -8258,6 +8258,7 @@ over
 /
 nsIContent
 *
+const
 mRoot
 ;
 /
@@ -8276,6 +8277,7 @@ track
 /
 nsIContent
 *
+const
 mSubtree
 ;
 /
@@ -10893,6 +10895,7 @@ through
 /
 SVGTextFrame
 *
+const
 mRootFrame
 ;
 /
@@ -10916,6 +10919,7 @@ tracking
 const
 nsIFrame
 *
+const
 mSubtree
 ;
 /
@@ -14395,6 +14399,7 @@ with
 /
 nsIContent
 *
+const
 mSubtree
 ;
 #
@@ -16249,6 +16254,7 @@ StrokeGeometry
 ;
 SVGTextFrame
 *
+const
 mSVGTextFrame
 ;
 gfxContext
@@ -16257,6 +16263,7 @@ mContext
 ;
 nsTextFrame
 *
+const
 mFrame
 ;
 const
