@@ -6251,6 +6251,10 @@ SelfHostedIter
 :
 :
 Deny
+bool
+isIteratorMethodOnStack
+=
+false
 )
 ;
 /
