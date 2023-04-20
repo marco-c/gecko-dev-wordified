@@ -334,7 +334,7 @@ bool
 IsFocusWithin
 (
 const
-LocalAccessible
+Accessible
 *
 aContainer
 )
