@@ -1041,12 +1041,12 @@ RTPSender
 fec_packet_to_send
 -
 >
-set_capture_time
+set_capture_time_ms
 (
 clock_
 -
 >
-CurrentTime
+TimeInMilliseconds
 (
 )
 )
