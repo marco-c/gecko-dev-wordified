@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIEmbeddingSiteWindow
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h
@@ -941,7 +934,7 @@ chrome
 {
 nsCOMPtr
 <
-nsIEmbeddingSiteWindow
+nsIBaseWindow
 >
 site
 (
@@ -962,7 +955,7 @@ w
 site
 -
 >
-GetSiteWindow
+GetParentNativeWindow
 (
 reinterpret_cast
 <

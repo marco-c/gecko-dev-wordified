@@ -114,6 +114,15 @@ nsNativeTheme
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_widget
+.
+h
+"
 using
 namespace
 mozilla

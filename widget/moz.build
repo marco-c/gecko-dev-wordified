@@ -1025,6 +1025,11 @@ ContentEvents
 h
 "
 "
+DimensionRequest
+.
+h
+"
+"
 EventClassList
 .
 h
@@ -1220,6 +1225,11 @@ cpp
 "
 "
 ContentData
+.
+cpp
+"
+"
+DimensionRequest
 .
 cpp
 "
