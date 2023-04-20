@@ -9004,6 +9004,15 @@ IsNaN
 (
 v
 )
+|
+|
+mozilla
+:
+:
+IsNegativeZero
+(
+v
+)
 )
 {
 v
