@@ -171,17 +171,6 @@ include
 "
 api
 /
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
-api
-/
 transport
 /
 stun
@@ -3926,11 +3915,6 @@ thread_
 >
 PostTask
 (
-webrtc
-:
-:
-ToQueuedTask
-(
 [
 socket_to_delete
 =
@@ -3944,7 +3928,6 @@ socket_to_delete
 ]
 {
 }
-)
 )
 ;
 }
