@@ -171,7 +171,11 @@ XP_WIN
 #
 include
 "
-TestUtils
+mozilla
+/
+gtest
+/
+MozHelpers
 .
 h
 "
@@ -815,6 +819,12 @@ LoadLibraryCrash_Test
 (
 )
 {
+mozilla
+:
+:
+gtest
+:
+:
 DisableCrashReporter
 (
 )
