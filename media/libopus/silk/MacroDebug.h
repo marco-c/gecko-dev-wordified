@@ -7167,7 +7167,7 @@ shift
 /
 *
 the
-marco
+macro
 definition
 can
 '
@@ -7314,7 +7314,7 @@ ret
 /
 *
 the
-marco
+macro
 definition
 can
 '
