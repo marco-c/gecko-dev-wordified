@@ -324,9 +324,7 @@ length
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 return
@@ -477,9 +475,7 @@ length
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 size_t
@@ -668,9 +664,7 @@ length
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 size_t
@@ -1045,9 +1039,7 @@ byteLength
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 /
@@ -1818,9 +1810,7 @@ byteLength
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 {
 JS_ReportErrorNumberASCII
@@ -3224,9 +3214,7 @@ nbytes
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 {
 JS_ReportErrorNumberASCII

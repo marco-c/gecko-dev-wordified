@@ -1171,9 +1171,7 @@ nbytes
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 )
 {
@@ -6859,9 +6857,10 @@ MOZ_ASSERT
 length
 <
 =
-maxBufferByteLength
-(
-)
+ArrayBufferObject
+:
+:
+MaxByteLength
 )
 ;
 setFixedSlot
@@ -7596,9 +7595,7 @@ byteLength
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 /
@@ -7998,9 +7995,7 @@ byteLength
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 /
@@ -9258,9 +9253,7 @@ nbytes
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 "
 caller
 must

@@ -13337,9 +13337,7 @@ setBoolean
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 >
 ArrayBufferObject
 :
