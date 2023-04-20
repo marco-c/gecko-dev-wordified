@@ -11365,7 +11365,7 @@ mem
 .
 gc_balanced_heap_limits
 "
-true
+false
 )
 ;
 /
