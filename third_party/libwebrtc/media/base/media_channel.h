@@ -3246,6 +3246,15 @@ ReportBlockData
 >
 report_block_datas
 ;
+absl
+:
+:
+optional
+<
+bool
+>
+active
+;
 }
 ;
 struct

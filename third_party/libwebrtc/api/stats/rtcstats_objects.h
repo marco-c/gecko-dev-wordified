@@ -3967,6 +3967,12 @@ uint64_t
 >
 qp_sum
 ;
+RTCStatsMember
+<
+bool
+>
+active
+;
 }
 ;
 /

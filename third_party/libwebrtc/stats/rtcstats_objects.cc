@@ -4644,6 +4644,8 @@ pli_count
 nack_count
 &
 qp_sum
+&
+active
 )
 /
 /
@@ -4881,6 +4883,12 @@ qp_sum
 qpSum
 "
 )
+active
+(
+"
+active
+"
+)
 {
 }
 RTCOutboundRTPStreamStats
@@ -5071,6 +5079,12 @@ qp_sum
 other
 .
 qp_sum
+)
+active
+(
+other
+.
+active
 )
 {
 }
