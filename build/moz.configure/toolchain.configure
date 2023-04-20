@@ -11917,7 +11917,10 @@ append
 android_platform
 )
 if
+(
 developer_options
+and
+linker
 and
 linker
 .
@@ -11936,6 +11939,7 @@ kernel
 "
 WINNT
 "
+)
 :
 flags
 .
