@@ -2139,6 +2139,9 @@ Config
 call_config
 (
 event_log
+network_thread
+(
+)
 )
 ;
 if
