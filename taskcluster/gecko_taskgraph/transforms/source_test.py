@@ -109,8 +109,8 @@ util
 schema
 import
 Schema
-resolve_keyed_by
 optionally_keyed_by
+resolve_keyed_by
 from
 taskgraph
 .
@@ -123,16 +123,10 @@ split_symbol
 from
 voluptuous
 import
-(
-    
 Any
-    
 Extra
-    
 Optional
-    
 Required
-)
 from
 gecko_taskgraph
 .

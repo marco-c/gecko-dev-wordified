@@ -84,8 +84,8 @@ optimize
 .
 base
 import
-register_strategy
 OptimizationStrategy
+register_strategy
 from
 taskgraph
 .

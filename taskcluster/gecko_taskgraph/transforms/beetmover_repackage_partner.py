@@ -104,8 +104,8 @@ from
 voluptuous
 import
 Any
-Required
 Optional
+Required
 from
 gecko_taskgraph
 .
@@ -122,6 +122,14 @@ transforms
 beetmover
 import
 craft_release_properties
+from
+gecko_taskgraph
+.
+transforms
+.
+task
+import
+task_description_schema
 from
 gecko_taskgraph
 .
@@ -142,12 +150,8 @@ util
 .
 partners
 import
-(
-    
 get_ftp_platform
-    
 get_partner_config_by_kind
-)
 from
 gecko_taskgraph
 .
@@ -161,14 +165,6 @@ add_scope_prefix
     
 get_beetmover_bucket_scope
 )
-from
-gecko_taskgraph
-.
-transforms
-.
-task
-import
-task_description_schema
 logger
 =
 logging

@@ -71,6 +71,8 @@ description
 "
 import
 copy
+import
+logging
 from
 taskgraph
 .
@@ -103,8 +105,6 @@ util
 scriptworker
 import
 get_release_config
-import
-logging
 logger
 =
 logging

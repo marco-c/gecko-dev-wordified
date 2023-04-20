@@ -60,6 +60,10 @@ os
 import
 unittest
 from
+mozunit
+import
+main
+from
 gecko_taskgraph
 import
 files_changed
@@ -69,10 +73,6 @@ gecko_taskgraph
 util
 import
 hg
-from
-mozunit
-import
-main
 PARAMS
 =
 {

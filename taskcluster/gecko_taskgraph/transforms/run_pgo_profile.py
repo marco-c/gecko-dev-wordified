@@ -70,6 +70,8 @@ jobs
 "
 "
 "
+import
+logging
 from
 taskgraph
 .
@@ -78,8 +80,6 @@ transforms
 base
 import
 TransformSequence
-import
-logging
 logger
 =
 logging

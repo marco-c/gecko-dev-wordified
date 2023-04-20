@@ -97,10 +97,7 @@ Schema
 from
 voluptuous
 import
-(
-    
 Optional
-)
 from
 gecko_taskgraph
 .

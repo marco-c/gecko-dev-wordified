@@ -5096,11 +5096,6 @@ options
 :
     
 import
-gecko_taskgraph
-.
-actions
-    
-import
 taskgraph
 .
 parameters
@@ -5118,6 +5113,11 @@ taskgraph
 util
 import
 yaml
+    
+import
+gecko_taskgraph
+.
+actions
     
 def
 load_data

@@ -90,13 +90,13 @@ backstop
 import
 (
     
-is_backstop
-    
 BACKSTOP_INDEX
     
 BACKSTOP_PUSH_INTERVAL
     
 BACKSTOP_TIME_INTERVAL
+    
+is_backstop
 )
 LAST_BACKSTOP_ID
 =

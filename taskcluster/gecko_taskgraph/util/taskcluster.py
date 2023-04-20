@@ -54,17 +54,13 @@ MPL
 /
 .
 import
-os
-import
 logging
+import
+os
 import
 taskcluster_urls
 as
 liburls
-from
-taskcluster
-import
-Hooks
 from
 taskgraph
 .
@@ -92,6 +88,10 @@ get_task_definition
     
 get_task_url
 )
+from
+taskcluster
+import
+Hooks
 logger
 =
 logging

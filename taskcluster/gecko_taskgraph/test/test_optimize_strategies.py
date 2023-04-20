@@ -66,15 +66,6 @@ gecko_taskgraph
 .
 optimize
 .
-strategies
-import
-IndexSearch
-SkipUnlessSchedules
-from
-gecko_taskgraph
-.
-optimize
-.
 backstop
 import
 SkipUnlessBackstop
@@ -88,14 +79,23 @@ bugbug
 import
 (
     
+FALLBACK
+    
 BugBugPushSchedules
     
 DisperseGroups
     
-FALLBACK
-    
 SkipUnlessDebug
 )
+from
+gecko_taskgraph
+.
+optimize
+.
+strategies
+import
+IndexSearch
+SkipUnlessSchedules
 from
 gecko_taskgraph
 .

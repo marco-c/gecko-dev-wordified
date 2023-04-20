@@ -99,14 +99,9 @@ moztest
 .
 resolve
 import
-(
-    
 TEST_SUITES
-    
-TestResolver
-    
 TestManifestLoader
-)
+TestResolver
 from
 gecko_taskgraph
 import
@@ -118,8 +113,8 @@ util
 .
 bugbug
 import
-BugbugTimeoutException
 CT_LOW
+BugbugTimeoutException
 push_schedules
 logger
 =

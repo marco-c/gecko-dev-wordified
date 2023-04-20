@@ -72,10 +72,15 @@ taskgraph
 .
 util
 import
+schema
+from
+taskgraph
+.
+util
+import
 taskcluster
 as
 tc_util
-schema
 from
 gecko_taskgraph
 .
@@ -379,10 +384,14 @@ generator
     
 from
 gecko_taskgraph
-.
-parameters
 import
-register_parameters
+morph
+#
+noqa
+:
+trigger
+morph
+registration
     
 from
 gecko_taskgraph
@@ -403,14 +412,10 @@ target_tasks
     
 from
 gecko_taskgraph
+.
+parameters
 import
-morph
-#
-noqa
-:
-trigger
-morph
-registration
+register_parameters
     
 from
 gecko_taskgraph

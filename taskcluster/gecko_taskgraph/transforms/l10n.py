@@ -117,14 +117,9 @@ add_suffix
 from
 voluptuous
 import
-(
-    
 Any
-    
 Optional
-    
 Required
-)
 from
 gecko_taskgraph
 .

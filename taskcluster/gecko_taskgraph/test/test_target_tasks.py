@@ -87,9 +87,6 @@ from
 gecko_taskgraph
 import
 target_tasks
-from
-gecko_taskgraph
-import
 try_option_syntax
 class
 FakeTryOptionSyntax

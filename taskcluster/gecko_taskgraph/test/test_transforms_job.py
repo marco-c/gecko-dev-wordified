@@ -77,6 +77,10 @@ deepcopy
 import
 pytest
 from
+conftest
+import
+FakeParameters
+from
 mozunit
 import
 main
@@ -143,10 +147,6 @@ transforms
 task
 import
 payload_builders
-from
-conftest
-import
-FakeParameters
 here
 =
 os

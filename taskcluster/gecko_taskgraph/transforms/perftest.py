@@ -98,14 +98,9 @@ split_symbol
 from
 voluptuous
 import
-(
-    
 Any
-    
-Optional
-    
 Extra
-)
+Optional
 transforms
 =
 TransformSequence

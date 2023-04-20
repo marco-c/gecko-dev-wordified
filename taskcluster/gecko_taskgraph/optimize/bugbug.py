@@ -54,13 +54,13 @@ MPL
 /
 .
 from
-fnmatch
-import
-fnmatch
-from
 collections
 import
 defaultdict
+from
+fnmatch
+import
+fnmatch
 from
 urllib
 .
@@ -74,9 +74,9 @@ optimize
 .
 base
 import
+OptimizationStrategy
 register_strategy
 registry
-OptimizationStrategy
 from
 gecko_taskgraph
 .
@@ -86,15 +86,15 @@ bugbug
 import
 (
     
-BugbugTimeoutException
-    
-push_schedules
-    
 CT_HIGH
+    
+CT_LOW
     
 CT_MEDIUM
     
-CT_LOW
+BugbugTimeoutException
+    
+push_schedules
 )
 from
 gecko_taskgraph

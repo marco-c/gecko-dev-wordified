@@ -85,13 +85,6 @@ taskgraph
 create
 import
 create_tasks
-from
-taskgraph
-.
-decision
-import
-(
-    
 #
 TODO
 :
@@ -101,11 +94,15 @@ taskgraph
 generate
 parameters
 instead
-    
-#
 of
 calling
 internals
+from
+taskgraph
+.
+decision
+import
+(
     
 _determine_more_accurate_base_ref
     
