@@ -720,6 +720,13 @@ aObserver
 )
 ;
 }
+aObserver
+-
+>
+Dispose
+(
+)
+;
 impl
 -
 >
