@@ -339,9 +339,6 @@ class
 AutoSetTemporaryAncestorLimiter
 ;
 class
-CSSEditUtils
-;
-class
 EmptyEditableFunctor
 ;
 class

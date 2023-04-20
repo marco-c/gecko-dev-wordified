@@ -1204,8 +1204,6 @@ ChangeStyleTransaction
 ;
 /
 /
-mozilla
-/
 ChangeStyleTransaction
 .
 h
@@ -1213,8 +1211,6 @@ class
 CSSEditUtils
 ;
 /
-/
-mozilla
 /
 CSSEditUtils
 .

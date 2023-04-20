@@ -95,15 +95,13 @@ MPL
 /
 #
 ifndef
-mozilla_CSSEditUtils_h
+CSSEditUtils_h
 #
 define
-mozilla_CSSEditUtils_h
+CSSEditUtils_h
 #
 include
 "
-mozilla
-/
 ChangeStyleTransaction
 .
 h
@@ -115,8 +113,6 @@ ChangeStyleTransaction
 #
 include
 "
-mozilla
-/
 EditorForwards
 .
 h
@@ -2949,4 +2945,4 @@ endif
 /
 #
 ifndef
-mozilla_CSSEditUtils_h
+CSSEditUtils_h
