@@ -275,6 +275,11 @@ Size
 )
 const
 ;
+void
+Clear
+(
+)
+;
 private
 :
 struct
