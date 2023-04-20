@@ -1355,7 +1355,7 @@ TYPES
 DOCUMENT_EVENT
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
