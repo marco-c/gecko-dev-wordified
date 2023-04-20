@@ -430,6 +430,17 @@ friend
 class
 gfxFcPlatformFontList
 ;
+using
+FTUserFontData
+=
+mozilla
+:
+:
+gfx
+:
+:
+FTUserFontData
+;
 public
 :
 /
