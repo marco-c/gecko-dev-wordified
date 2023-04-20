@@ -215,7 +215,7 @@ LocalAccessible
 FocusManager
 :
 :
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 const
@@ -399,7 +399,7 @@ based
 on
 /
 /
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 method
@@ -500,7 +500,7 @@ LocalAccessible
 *
 child
 =
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 ;
@@ -553,7 +553,7 @@ LocalAccessible
 *
 focus
 =
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 ;
@@ -1329,7 +1329,7 @@ LocalAccessible
 *
 target
 =
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 ;
