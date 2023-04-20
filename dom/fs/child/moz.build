@@ -94,6 +94,11 @@ dom
 =
 [
 "
+FileSystemAccessHandleChild
+.
+h
+"
+"
 FileSystemManagerChild
 .
 h
@@ -103,6 +108,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+FileSystemAccessHandleChild
+.
+cpp
+"
 "
 FileSystemBackgroundRequestHandler
 .
@@ -115,6 +125,11 @@ cpp
 "
 "
 FileSystemDirectoryIteratorFactory
+.
+cpp
+"
+"
+FileSystemManagerChild
 .
 cpp
 "
