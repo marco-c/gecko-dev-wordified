@@ -1803,7 +1803,6 @@ Video
 stream
 width
 .
-const
 size_t
 width
 ;
@@ -1813,11 +1812,9 @@ Video
 stream
 height
 .
-const
 size_t
 height
 ;
-const
 int32_t
 fps
 ;
