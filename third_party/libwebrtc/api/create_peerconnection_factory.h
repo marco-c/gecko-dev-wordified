@@ -374,6 +374,16 @@ AudioFrameProcessor
 audio_frame_processor
 =
 nullptr
+std
+:
+:
+unique_ptr
+<
+FieldTrialsView
+>
+field_trials
+=
+nullptr
 )
 ;
 }

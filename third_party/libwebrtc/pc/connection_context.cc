@@ -1012,7 +1012,7 @@ get
 )
 socket_factory
 &
-trials
+field_trials
 (
 )
 )
