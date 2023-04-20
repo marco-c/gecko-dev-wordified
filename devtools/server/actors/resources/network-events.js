@@ -681,7 +681,9 @@ this
 .
 listener
 .
-throttleData
+getThrottleData
+(
+)
 ;
 }
 /
@@ -711,9 +713,10 @@ this
 .
 listener
 .
-throttleData
-=
+setThrottleData
+(
 data
+)
 ;
 }
 /
@@ -746,9 +749,10 @@ this
 .
 listener
 .
-saveRequestAndResponseBodies
-=
+setSaveRequestAndResponseBodies
+(
 save
+)
 ;
 }
 /
