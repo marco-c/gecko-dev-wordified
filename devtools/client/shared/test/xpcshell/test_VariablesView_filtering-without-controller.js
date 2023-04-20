@@ -61,7 +61,7 @@ VariablesView
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +76,9 @@ storage
 /
 VariablesView
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
