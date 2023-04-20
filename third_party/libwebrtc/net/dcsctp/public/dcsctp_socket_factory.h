@@ -154,6 +154,13 @@ DcSctpSocketFactory
 {
 public
 :
+virtual
+~
+DcSctpSocketFactory
+(
+)
+;
+virtual
 std
 :
 :
