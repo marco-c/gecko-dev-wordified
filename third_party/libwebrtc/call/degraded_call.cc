@@ -1567,7 +1567,6 @@ FlexfecReceiveStream
 :
 :
 Config
-&
 config
 )
 {
@@ -1577,7 +1576,13 @@ call_
 >
 CreateFlexfecReceiveStream
 (
+std
+:
+:
+move
+(
 config
+)
 )
 ;
 }

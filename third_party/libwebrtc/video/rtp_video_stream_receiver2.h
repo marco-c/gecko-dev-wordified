@@ -1182,6 +1182,14 @@ RtpExtension
 extensions
 )
 ;
+const
+RtpHeaderExtensionMap
+&
+GetRtpExtensions
+(
+)
+const
+;
 /
 /
 Called
