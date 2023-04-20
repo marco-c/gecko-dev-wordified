@@ -1529,7 +1529,9 @@ return
 send_stream_
 -
 >
-configured_pacing_factor_
+configured_pacing_factor
+(
+)
 ;
 }
 void
