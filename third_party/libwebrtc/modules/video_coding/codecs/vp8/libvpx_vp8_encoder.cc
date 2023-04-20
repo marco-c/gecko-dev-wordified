@@ -4188,11 +4188,9 @@ switch
 inst
 -
 >
-VP8
+GetVideoEncoderComplexity
 (
 )
-.
-complexity
 )
 {
 case

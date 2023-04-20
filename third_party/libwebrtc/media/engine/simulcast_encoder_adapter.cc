@@ -5095,13 +5095,8 @@ pixels_per_frame
 {
 codec_params
 .
-VP8
+SetVideoEncoderComplexity
 (
-)
--
->
-complexity
-=
 webrtc
 :
 :
@@ -5109,6 +5104,7 @@ VideoCodecComplexity
 :
 :
 kComplexityHigher
+)
 ;
 }
 /
