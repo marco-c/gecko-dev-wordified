@@ -1678,6 +1678,8 @@ ShouldResistFingerprinting
 (
 )
 const
+=
+0
 ;
 /
 *
