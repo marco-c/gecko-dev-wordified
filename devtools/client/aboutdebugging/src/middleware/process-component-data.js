@@ -212,13 +212,6 @@ DEBUG_TARGETS
 PROCESS
 ;
 const
-id
-=
-process
-.
-id
-;
-const
 icon
 =
 "
@@ -319,7 +312,6 @@ return
 {
 name
 icon
-id
 type
 details
 :
