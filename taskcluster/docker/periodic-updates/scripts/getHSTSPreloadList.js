@@ -1821,9 +1821,7 @@ migration
 /
 MigrationUtils
 .
-sys
-.
-mjs
+jsm
 function
 spinResolve
 (

@@ -108,7 +108,7 @@ MigrationUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -120,9 +120,7 @@ modules
 /
 MigrationUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
