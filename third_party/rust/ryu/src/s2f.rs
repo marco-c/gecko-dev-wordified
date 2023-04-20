@@ -2077,8 +2077,6 @@ FLOAT_EXPONENT_BITS
 )
 |
 ieee_e2
-as
-u32
 )
 <
 <

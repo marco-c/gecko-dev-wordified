@@ -1692,7 +1692,6 @@ let
 ieee_exponent
 =
 (
-(
 bits
 >
 >
@@ -1709,9 +1708,6 @@ FLOAT_EXPONENT_BITS
 -
 1
 )
-)
-as
-u32
 ;
 let
 mut

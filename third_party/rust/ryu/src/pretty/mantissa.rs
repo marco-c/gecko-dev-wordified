@@ -322,7 +322,6 @@ output
 let
 c
 =
-(
 output
 -
 10_000
@@ -332,9 +331,6 @@ output
 /
 10_000
 )
-)
-as
-u32
 ;
 output
 /
@@ -440,7 +436,6 @@ let
 c
 =
 (
-(
 output
 %
 100
@@ -448,9 +443,6 @@ output
 <
 <
 1
-)
-as
-u32
 ;
 output
 /
@@ -504,14 +496,10 @@ output
 let
 c
 =
-(
 output
 <
 <
 1
-)
-as
-u32
 ;
 ptr
 :
