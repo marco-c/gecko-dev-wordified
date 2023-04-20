@@ -8101,7 +8101,7 @@ rtp_history_ms
 ;
 }
 void
-SetRtpExtensionsAndRecreateStream
+SetRtpExtensions
 (
 const
 std
@@ -8132,8 +8132,12 @@ extensions
 =
 extensions
 ;
-RecreateAudioReceiveStream
+stream_
+-
+>
+SetRtpExtensions
 (
+extensions
 )
 ;
 }
@@ -9566,7 +9570,7 @@ it
 second
 -
 >
-SetRtpExtensionsAndRecreateStream
+SetRtpExtensions
 (
 recv_rtp_extensions_
 )
