@@ -625,6 +625,9 @@ VP8
 case
 VP9
 :
+case
+AV1
+:
 return
 new
 HashMap
