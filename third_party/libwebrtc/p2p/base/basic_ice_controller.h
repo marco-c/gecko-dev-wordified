@@ -293,7 +293,7 @@ override
 SwitchResult
 ShouldSwitchConnection
 (
-IceControllerEvent
+IceSwitchReason
 reason
 const
 Connection
@@ -305,7 +305,7 @@ override
 SwitchResult
 SortAndSwitchConnection
 (
-IceControllerEvent
+IceSwitchReason
 reason
 )
 override
@@ -944,7 +944,7 @@ const
 SwitchResult
 HandleInitialSelectDampening
 (
-IceControllerEvent
+IceSwitchReason
 reason
 const
 Connection
