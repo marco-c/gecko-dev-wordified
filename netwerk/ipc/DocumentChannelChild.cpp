@@ -134,6 +134,17 @@ include
 "
 mozilla
 /
+dom
+/
+RemoteType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 extensions
 /
 StreamFilterParent
@@ -837,11 +848,6 @@ loadState
 )
 =
 mLoadState
--
->
-Serialize
-(
-)
 ;
 args
 .
@@ -1770,6 +1776,7 @@ aArgs
 loadInfo
 (
 )
+NOT_REMOTE_TYPE
 cspToInheritLoadingDocument
 getter_AddRefs
 (

@@ -282,14 +282,10 @@ nsDocShellLoadState
 >
 loadState
 =
-new
-nsDocShellLoadState
-(
 aArgs
 .
 loadState
 (
-)
 )
 ;
 LOG

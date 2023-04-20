@@ -23315,6 +23315,7 @@ aArgs
 loadInfo
 (
 )
+NOT_REMOTE_TYPE
 getter_AddRefs
 (
 loadInfo
@@ -28621,6 +28622,7 @@ ipc
 LoadInfoArgsToLoadInfo
 (
 loadInfoArgs
+NOT_REMOTE_TYPE
 getter_AddRefs
 (
 loadInfo
