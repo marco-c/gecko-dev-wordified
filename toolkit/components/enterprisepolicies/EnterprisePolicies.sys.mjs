@@ -56,15 +56,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-EnterprisePolicies
-"
-]
-;
+export
 function
 EnterprisePolicies
 (
@@ -130,7 +122,7 @@ EnterprisePoliciesManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -143,7 +135,9 @@ modules
 /
 EnterprisePoliciesParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -161,7 +155,7 @@ EnterprisePoliciesManagerContent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -174,7 +168,9 @@ modules
 /
 EnterprisePoliciesContent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

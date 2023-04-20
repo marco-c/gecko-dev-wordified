@@ -40,7 +40,7 @@ macOSPoliciesParser
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -55,7 +55,9 @@ policies
 /
 macOSPoliciesParser
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

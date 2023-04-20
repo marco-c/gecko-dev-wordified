@@ -334,7 +334,9 @@ modules
 /
 EnterprisePolicies
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -347,7 +349,9 @@ modules
 /
 EnterprisePoliciesParent
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
