@@ -2218,7 +2218,7 @@ aScriptLoader
 WorkerPrivate
 *
 aWorkerPrivate
-nsIEventTarget
+nsISerialEventTarget
 *
 aSyncLoopTarget
 WorkerLoadContext
@@ -2294,7 +2294,7 @@ AbruptCancellationRunnable
 WorkerScriptLoader
 *
 aScriptLoader
-nsIEventTarget
+nsISerialEventTarget
 *
 aSyncLoopTarget
 )
@@ -2433,7 +2433,7 @@ UniquePtr
 SerializedStackHolder
 >
 aOriginStack
-nsIEventTarget
+nsISerialEventTarget
 *
 aSyncLoopTarget
 WorkerScriptType
@@ -7655,7 +7655,7 @@ AbruptCancellationRunnable
 WorkerScriptLoader
 *
 aScriptLoader
-nsIEventTarget
+nsISerialEventTarget
 *
 aSyncLoopTarget
 )
@@ -7760,7 +7760,7 @@ aScriptLoader
 WorkerPrivate
 *
 aWorkerPrivate
-nsIEventTarget
+nsISerialEventTarget
 *
 aSyncLoopTarget
 WorkerLoadContext
