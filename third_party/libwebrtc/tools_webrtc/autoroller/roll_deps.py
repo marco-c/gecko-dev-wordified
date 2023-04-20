@@ -896,6 +896,15 @@ f
 read
 (
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
   
 return
 ParseDepsDict
@@ -1498,6 +1507,15 @@ base64_content
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
 def
 ReadRemoteCrFile
@@ -3951,7 +3969,7 @@ open
 (
 deps_filename
 '
-r
+rb
 '
 )
 as
@@ -3964,6 +3982,15 @@ deps_file
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
   
 #
@@ -4147,7 +4174,7 @@ open
 (
 deps_filename
 '
-w
+wb
 '
 )
 as
@@ -4159,6 +4186,15 @@ deps_file
 write
 (
 deps_content
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 )
   
 #

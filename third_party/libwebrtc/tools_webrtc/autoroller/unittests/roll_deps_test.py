@@ -829,6 +829,9 @@ open
 self
 .
 _new_cr_depsfile_android
+'
+rb
+'
 )
 as
 deps_file
@@ -840,6 +843,15 @@ deps_file
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
     
 UpdateDepsFile
@@ -865,6 +877,9 @@ open
 self
 .
 _webrtc_depsfile
+'
+rb
+'
 )
 as
 deps_file
@@ -876,6 +891,15 @@ deps_file
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
       
 self
@@ -918,6 +942,9 @@ open
 self
 .
 _webrtc_depsfile_android
+'
+rb
+'
 )
 as
 deps_file
@@ -930,6 +957,15 @@ deps_file
 read
 (
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
     
 with
 open
@@ -937,6 +973,9 @@ open
 self
 .
 _new_cr_depsfile_android
+'
+rb
+'
 )
 as
 deps_file
@@ -948,6 +987,15 @@ deps_file
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
     
 webrtc_deps
@@ -1005,6 +1053,9 @@ open
 self
 .
 _webrtc_depsfile_android
+'
+rb
+'
 )
 as
 deps_file
@@ -1016,6 +1067,15 @@ deps_file
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
     
 return
@@ -1185,6 +1245,9 @@ open
 self
 .
 _webrtc_depsfile
+'
+rb
+'
 )
 as
 deps_file
@@ -1196,6 +1259,15 @@ deps_file
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
     
 local_scope
