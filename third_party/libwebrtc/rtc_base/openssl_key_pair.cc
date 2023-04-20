@@ -1046,7 +1046,7 @@ memory
 bio
 "
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1089,7 +1089,7 @@ BIO_free
 temp_memory_bio
 )
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1175,7 +1175,7 @@ memory
 bio
 "
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1213,7 +1213,7 @@ BIO_free
 temp_memory_bio
 )
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

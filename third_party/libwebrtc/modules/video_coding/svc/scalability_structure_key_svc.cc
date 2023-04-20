@@ -1326,7 +1326,7 @@ return
 kDeltaT0
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1436,7 +1436,7 @@ kNone
 break
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

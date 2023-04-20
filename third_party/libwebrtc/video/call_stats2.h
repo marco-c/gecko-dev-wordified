@@ -720,7 +720,7 @@ event
 notifications
 only
 .
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

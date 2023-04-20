@@ -10767,7 +10767,7 @@ break
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -11910,7 +11910,7 @@ break
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -17987,7 +17987,7 @@ offer_uses_sctpmap
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

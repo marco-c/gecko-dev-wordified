@@ -782,7 +782,7 @@ video_delta
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

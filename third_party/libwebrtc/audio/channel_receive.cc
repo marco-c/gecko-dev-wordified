@@ -5580,7 +5580,7 @@ frame_transformer
 frame_transformer_delegate_
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

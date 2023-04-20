@@ -282,7 +282,7 @@ kSendOnly
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -401,7 +401,7 @@ kStopped
 "
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

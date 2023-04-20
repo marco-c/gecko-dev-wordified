@@ -1248,7 +1248,7 @@ RtcpMode
 kReducedSize
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1323,7 +1323,7 @@ BandwidthUsage
 kBwOverusing
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1413,7 +1413,7 @@ IceCandidatePairConfigType
 kSelected
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1518,7 +1518,7 @@ IceCandidateType
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1623,7 +1623,7 @@ IceCandidatePairProtocol
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1698,7 +1698,7 @@ IceCandidatePairAddressFamily
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1818,7 +1818,7 @@ IceCandidateNetworkType
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1908,7 +1908,7 @@ IceCandidatePairEventType
 kCheckResponseReceived
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -2048,7 +2048,7 @@ VideoCodecType
 kVideoCodecMultiplex
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -5802,7 +5802,7 @@ BWE_UNKNOWN_STATE
 break
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -5888,7 +5888,7 @@ UNKNOWN
 break
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6001,7 +6001,7 @@ DtlsTransportStateEvent
 :
 UNKNOWN_DTLS_TRANSPORT_STATE
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6012,7 +6012,7 @@ DtlsTransportState
 kNumValues
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6113,7 +6113,7 @@ UNKNOWN_CONFIG_TYPE
 break
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6218,7 +6218,7 @@ IceCandidateType
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6323,7 +6323,7 @@ IceCandidatePairProtocol
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6398,7 +6398,7 @@ IceCandidatePairAddressFamily
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6518,7 +6518,7 @@ IceCandidateNetworkType
 kUnknown
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6619,7 +6619,7 @@ UNKNOWN_CHECK_TYPE
 break
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -13900,7 +13900,7 @@ kTimeout
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -17641,7 +17641,7 @@ frame_decoded_events
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

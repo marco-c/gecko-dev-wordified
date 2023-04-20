@@ -420,7 +420,7 @@ default
 break
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

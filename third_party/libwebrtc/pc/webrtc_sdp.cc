@@ -6510,7 +6510,7 @@ kPreferenceRelayed
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -11184,7 +11184,7 @@ kDefaultSctpmapProtocol
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -11234,7 +11234,7 @@ media_type
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -12817,7 +12817,7 @@ break
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -15803,7 +15803,7 @@ removed
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

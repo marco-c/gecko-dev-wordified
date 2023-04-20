@@ -690,7 +690,7 @@ VP9
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -725,7 +725,7 @@ h264_settings
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -745,7 +745,7 @@ vp8_settings
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -765,7 +765,7 @@ vp9_settings
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

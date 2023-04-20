@@ -596,7 +596,7 @@ return
 kDeltaT0
 ;
 }
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1152,7 +1152,7 @@ break
 case
 kNone
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

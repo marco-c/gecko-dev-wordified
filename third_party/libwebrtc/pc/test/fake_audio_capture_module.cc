@@ -452,7 +452,7 @@ audio_layer
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -556,7 +556,7 @@ Initialized
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -572,7 +572,7 @@ PlayoutDevices
 (
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -588,7 +588,7 @@ RecordingDevices
 (
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -634,7 +634,7 @@ kAdmMaxGuidSize
 ]
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -680,7 +680,7 @@ kAdmMaxGuidSize
 ]
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -820,7 +820,7 @@ available
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -872,7 +872,7 @@ available
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1174,7 +1174,7 @@ SpeakerIsInitialized
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1215,7 +1215,7 @@ MicrophoneIsInitialized
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1238,7 +1238,7 @@ available
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1260,7 +1260,7 @@ volume
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1284,7 +1284,7 @@ volume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1308,7 +1308,7 @@ max_volume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1332,7 +1332,7 @@ min_volume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1355,7 +1355,7 @@ available
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1459,7 +1459,7 @@ min_volume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1482,7 +1482,7 @@ available
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1504,7 +1504,7 @@ enable
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1528,7 +1528,7 @@ enabled
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1551,7 +1551,7 @@ available
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1573,7 +1573,7 @@ enable
 /
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1597,7 +1597,7 @@ enabled
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1702,7 +1702,7 @@ enabled
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1782,7 +1782,7 @@ enabled
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1880,7 +1880,7 @@ never
 /
 happen
 .
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -2442,7 +2442,7 @@ ntp_time_ms
 0
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -2609,7 +2609,7 @@ current_mic_level
 0
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

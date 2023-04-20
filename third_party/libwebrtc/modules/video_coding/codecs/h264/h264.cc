@@ -690,7 +690,7 @@ codec
 ;
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -814,7 +814,7 @@ H264DecoderImpl
 ;
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

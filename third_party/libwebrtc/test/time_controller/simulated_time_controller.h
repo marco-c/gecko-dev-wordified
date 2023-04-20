@@ -866,7 +866,7 @@ Delete
 )
 override
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -889,7 +889,7 @@ task
 )
 override
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -918,7 +918,7 @@ milliseconds
 )
 override
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

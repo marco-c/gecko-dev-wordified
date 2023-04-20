@@ -1324,7 +1324,7 @@ break
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -2874,7 +2874,7 @@ template_structure
 }
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

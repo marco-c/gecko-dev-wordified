@@ -412,7 +412,7 @@ root_attributes
 )
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -586,7 +586,7 @@ child
 )
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

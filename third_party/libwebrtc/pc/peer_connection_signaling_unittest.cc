@@ -526,7 +526,7 @@ error
 )
 override
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -1817,7 +1817,7 @@ SignalingState
 kClosed
 :
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

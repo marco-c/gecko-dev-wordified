@@ -4069,7 +4069,7 @@ and
 I440
 buffers
 .
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -5981,7 +5981,7 @@ break
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -7967,7 +7967,7 @@ VP9Profile
 kProfile1
 :
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -15048,7 +15048,7 @@ break
 }
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

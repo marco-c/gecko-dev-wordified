@@ -332,7 +332,7 @@ frame
 )
 override
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -352,7 +352,7 @@ decode_time_ms
 )
 override
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

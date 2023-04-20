@@ -615,7 +615,7 @@ FieldTrialBasedConfig
 ;
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -672,7 +672,7 @@ FieldTrialBasedConfig
 ;
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -752,7 +752,7 @@ LibvpxVp9Decoder
 ;
 #
 else
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

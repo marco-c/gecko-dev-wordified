@@ -687,7 +687,7 @@ ToUtf8
 filename
 )
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -784,7 +784,7 @@ fd
 1
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

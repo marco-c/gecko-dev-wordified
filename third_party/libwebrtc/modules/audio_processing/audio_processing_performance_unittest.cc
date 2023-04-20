@@ -2189,7 +2189,7 @@ successfully
 on
 Android
 .
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

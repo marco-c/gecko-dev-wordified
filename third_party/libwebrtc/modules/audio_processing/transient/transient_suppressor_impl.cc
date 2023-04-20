@@ -587,7 +587,7 @@ data_length_
 analysis_length_
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

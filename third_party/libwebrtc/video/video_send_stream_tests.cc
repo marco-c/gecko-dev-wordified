@@ -19611,7 +19611,7 @@ break
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -24248,7 +24248,7 @@ StreamState
 :
 kAfterSwitchBack
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -25072,7 +25072,7 @@ temporalIdx
 }
 else
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

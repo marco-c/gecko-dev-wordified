@@ -1482,7 +1482,7 @@ export
 failed
 "
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

@@ -253,7 +253,7 @@ not
 an
 option
 .
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

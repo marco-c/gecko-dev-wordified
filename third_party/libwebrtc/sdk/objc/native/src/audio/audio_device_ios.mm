@@ -5554,7 +5554,7 @@ InitRequired
 "
 )
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6897,7 +6897,7 @@ uint32_t
 volume
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -6924,7 +6924,7 @@ volume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -6951,7 +6951,7 @@ maxVolume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -6978,7 +6978,7 @@ minVolume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7022,7 +7022,7 @@ bool
 enable
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7049,7 +7049,7 @@ enabled
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7101,7 +7101,7 @@ AudioDeviceModule
 WindowsDeviceType
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7170,7 +7170,7 @@ bool
 enable
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7197,7 +7197,7 @@ enabled
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7371,7 +7371,7 @@ uint32_t
 volume
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7398,7 +7398,7 @@ volume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7425,7 +7425,7 @@ maxVolume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7452,7 +7452,7 @@ minVolume
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7487,7 +7487,7 @@ kAdmMaxGuidSize
 ]
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7522,7 +7522,7 @@ kAdmMaxGuidSize
 ]
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -7574,7 +7574,7 @@ AudioDeviceModule
 WindowsDeviceType
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

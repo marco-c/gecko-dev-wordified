@@ -970,7 +970,7 @@ underlying
 network
 type
 .
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3673,7 +3673,7 @@ networks
 )
 const
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -6211,7 +6211,7 @@ break
 }
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

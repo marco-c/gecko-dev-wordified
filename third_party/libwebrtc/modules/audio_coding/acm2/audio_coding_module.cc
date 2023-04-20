@@ -2287,7 +2287,7 @@ samples_per_channel_
 0
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -2323,7 +2323,7 @@ sample_rate_hz_
 kMaxInputSampleRateHz
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

@@ -179,7 +179,7 @@ time_constant_ms
 )
 override
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

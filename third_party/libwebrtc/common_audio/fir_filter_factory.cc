@@ -217,7 +217,7 @@ max_input_length
 0
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

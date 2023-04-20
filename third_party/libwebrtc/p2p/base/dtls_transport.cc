@@ -2932,7 +2932,7 @@ return
 ;
 default
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -3585,7 +3585,7 @@ DtlsTransportState
 :
 kNumValues
 :
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -4989,7 +4989,7 @@ are
 our
 fault
 .
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

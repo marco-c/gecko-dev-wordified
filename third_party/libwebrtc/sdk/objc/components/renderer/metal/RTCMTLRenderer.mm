@@ -1021,7 +1021,7 @@ NSString
 )
 shaderSource
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -1054,7 +1054,7 @@ MTLRenderCommandEncoder
 )
 renderEncoder
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <
@@ -1128,7 +1128,7 @@ RTCVideoFrame
 )
 frame
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

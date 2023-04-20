@@ -616,7 +616,7 @@ CreateLibaomAv1Decoder
 (
 )
 ;
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

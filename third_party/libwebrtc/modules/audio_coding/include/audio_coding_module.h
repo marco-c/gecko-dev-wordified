@@ -317,7 +317,7 @@ size_t
 payload_len_bytes
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 <

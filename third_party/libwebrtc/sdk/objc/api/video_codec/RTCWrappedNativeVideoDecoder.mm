@@ -229,7 +229,7 @@ RTCVideoDecoderCallback
 )
 callback
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -245,7 +245,7 @@ int
 )
 numberOfCores
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -259,7 +259,7 @@ NSInteger
 )
 releaseDecoder
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -307,7 +307,7 @@ int64_t
 )
 renderTimeMs
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
@@ -322,7 +322,7 @@ NSString
 )
 implementationName
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;

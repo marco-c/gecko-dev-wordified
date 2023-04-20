@@ -224,7 +224,7 @@ string
 str_value
 )
 {
-RTC_NOTREACHED
+RTC_DCHECK_NOTREACHED
 (
 )
 ;
