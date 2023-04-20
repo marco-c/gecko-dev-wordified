@@ -126,6 +126,8 @@ const
 nsACString
 &
 aQlogDir
+uint32_t
+aDatagramSize
 NeqoHttp3Conn
 *
 *
@@ -151,6 +153,7 @@ aVersionNegotiation
 aWebTransport
 &
 aQlogDir
+aDatagramSize
 (
 const
 mozilla
@@ -704,6 +707,8 @@ uint8_t
 >
 &
 aData
+uint64_t
+aTrackingId
 )
 {
 return
@@ -713,6 +718,7 @@ this
 aSessionId
 &
 aData
+aTrackingId
 )
 ;
 }
