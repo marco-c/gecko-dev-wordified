@@ -685,7 +685,7 @@ false
             
 [
 '
-rtc_dcheck_always_on
+dcheck_always_on
 =
 true
 '

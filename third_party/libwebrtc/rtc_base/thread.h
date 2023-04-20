@@ -186,6 +186,15 @@ include
 "
 rtc_base
 /
+checks
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 constructor_magic
 .
 h
@@ -2935,7 +2944,7 @@ NDEBUG
 is
 defined
 and
-RTC_DCHECK_ALWAYS_ON
+RTC_DCHECK_IS_ON
 is
 undefined
 do
@@ -2958,7 +2967,7 @@ NDEBUG
 is
 defined
 and
-RTC_DCHECK_ALWAYS_ON
+RTC_DCHECK_IS_ON
 is
 undefined
 do
@@ -3007,7 +3016,7 @@ NDEBUG
 is
 defined
 and
-RTC_DCHECK_ALWAYS_ON
+RTC_DCHECK_IS_ON
 is
 undefined
 always
