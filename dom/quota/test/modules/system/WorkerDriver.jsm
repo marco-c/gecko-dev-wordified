@@ -30,7 +30,6 @@ zero
 /
 *
 /
-export
 async
 function
 runTestInWorker
@@ -56,8 +55,13 @@ new
 URL
 (
 "
+resource
+:
 /
-tests
+/
+testing
+-
+common
 /
 dom
 /
@@ -73,7 +77,6 @@ head
 .
 js
 "
-base
 )
 ;
 const
@@ -285,3 +288,12 @@ href
 )
 ;
 }
+const
+EXPORTED_SYMBOLS
+=
+[
+"
+runTestInWorker
+"
+]
+;

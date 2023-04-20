@@ -85,6 +85,14 @@ MPL
 0
 /
 .
+TEST_DIRS
++
+=
+[
+"
+worker
+"
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
