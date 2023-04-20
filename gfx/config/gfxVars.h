@@ -774,6 +774,13 @@ WebglOopAsyncPresentForceSync
 bool
 true
 )
+\
+_
+(
+UseAcceleratedCanvas2D
+bool
+false
+)
 /
 *
 Add

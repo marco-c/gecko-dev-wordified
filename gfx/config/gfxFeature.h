@@ -475,6 +475,16 @@ renderer
 thread
 "
 )
+\
+_
+(
+ACCELERATED_CANVAS2D
+Feature
+"
+Accelerated
+Canvas2D
+"
+)
 /
 *
 Add
