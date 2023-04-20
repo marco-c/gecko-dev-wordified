@@ -1237,11 +1237,6 @@ move
 contents
     
 -
-update
--
-actions
-    
--
 hg
 -
 add
