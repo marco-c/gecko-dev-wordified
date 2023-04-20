@@ -1008,6 +1008,9 @@ score
 RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
+is_top_pick
+:
+false
 source
 :
 "
