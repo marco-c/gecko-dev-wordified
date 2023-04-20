@@ -257,6 +257,17 @@ constructor_magic
 .
 h
 "
+#
+include
+"
+system_wrappers
+/
+include
+/
+ntp_time
+.
+h
+"
 namespace
 webrtc
 {
