@@ -448,6 +448,15 @@ ScalabilityStructureL2T2KeyShift
 }
 {
 "
+L2T3_KEY
+"
+Create
+<
+ScalabilityStructureL2T3Key
+>
+}
+{
+"
 L3T1
 "
 Create
