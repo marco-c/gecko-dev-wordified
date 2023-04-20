@@ -446,6 +446,13 @@ private
 NetworkChangeDetector
 detector
 ;
+private
+String
+fieldTrialsString
+=
+"
+"
+;
 /
 *
 *
@@ -583,6 +590,9 @@ fieldTrialsString
 {
 super
 (
+(
+ConnectivityManager
+)
 null
 availableNetworks
 fieldTrialsString
@@ -932,6 +942,8 @@ Observer
 observer
 Context
 context
+String
+fieldTrialsString
 )
 {
 detector
@@ -941,6 +953,7 @@ NetworkMonitorAutoDetect
 (
 observer
 context
+fieldTrialsString
 )
 ;
 return
@@ -957,6 +970,7 @@ NetworkMonitor
 createAndSetAutoDetectForTest
 (
 context
+fieldTrialsString
 )
 ;
 assertNotNull
@@ -1115,6 +1129,7 @@ NetworkMonitorAutoDetect
 (
 observer
 context
+fieldTrialsString
 )
 ;
 assertTrue
@@ -1570,6 +1585,7 @@ HashSet
 >
 (
 )
+fieldTrialsString
 )
 ;
 delegate
@@ -1989,13 +2005,16 @@ NetworkRequest
 getNetworkRequestForFieldTrials
 (
 String
-fieldTrials
+fieldTrialsString
 )
 {
 return
 new
 ConnectivityManagerDelegate
 (
+(
+ConnectivityManager
+)
 null
 new
 HashSet
@@ -2003,7 +2022,7 @@ HashSet
 >
 (
 )
-fieldTrials
+fieldTrialsString
 )
 .
 createNetworkRequest
@@ -2089,6 +2108,7 @@ InstrumentationRegistry
 getTargetContext
 (
 )
+fieldTrialsString
 )
 ;
 ncn
@@ -2148,6 +2168,7 @@ networkMonitor
 startMonitoring
 (
 context
+fieldTrialsString
 )
 ;
 assertEquals

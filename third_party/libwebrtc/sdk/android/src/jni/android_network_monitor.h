@@ -389,6 +389,10 @@ jobject
 >
 &
 j_application_context
+const
+FieldTrialsView
+&
+field_trials
 )
 ;
 ~
@@ -1021,6 +1025,11 @@ network_thread_
 )
 =
 nullptr
+;
+const
+FieldTrialsView
+&
+field_trials_
 ;
 }
 ;
