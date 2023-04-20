@@ -93,7 +93,6 @@ batch
 BatchBuilder
 AlphaBatchBuilder
 AlphaBatchContainer
-CommandBufferList
 }
 ;
 use
@@ -107,6 +106,15 @@ clip
 ClipStore
 ClipTree
 }
+;
+use
+crate
+:
+:
+command_buffer
+:
+:
+CommandBufferList
 ;
 use
 crate

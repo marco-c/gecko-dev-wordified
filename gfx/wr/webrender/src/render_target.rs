@@ -99,8 +99,16 @@ batch
 {
 ClipBatcher
 BatchBuilder
-CommandBufferList
 }
+;
+use
+crate
+:
+:
+command_buffer
+:
+:
+CommandBufferList
 ;
 use
 crate
