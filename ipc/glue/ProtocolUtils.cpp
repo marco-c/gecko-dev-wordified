@@ -3502,6 +3502,13 @@ this
 ;
 #
 endif
+int32_t
+id
+=
+Id
+(
+)
+;
 /
 /
 If
@@ -3524,9 +3531,7 @@ Manager
 {
 Unregister
 (
-Id
-(
-)
+id
 )
 ;
 }
@@ -3700,7 +3705,7 @@ GetIPCChannel
 >
 RejectPendingResponsesForActor
 (
-this
+id
 )
 ;
 ActorDestroy
