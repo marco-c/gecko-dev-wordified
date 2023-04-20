@@ -866,7 +866,7 @@ not
 set
 .
 Not
-guarantee
+guaranteed
 to
 be
 transferred
@@ -881,7 +881,8 @@ receiver
 but
 preserved
 on
-single
+the
+sender
 side
 .
 The
@@ -925,10 +926,12 @@ a
 few
 minutes
 for
+the
 peer
 connection
 to
 which
+the
 /
 /
 corresponding
