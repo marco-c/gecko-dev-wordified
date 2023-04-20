@@ -259,6 +259,13 @@ WritableStream
 (
 )
 ;
+virtual
+void
+LastRelease
+(
+)
+{
+}
 public
 :
 explicit
