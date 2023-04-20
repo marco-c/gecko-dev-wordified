@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2022f
+2022g
 const
 tzMapper
 =
@@ -704,6 +704,17 @@ Nipigon
 America
 /
 Nipigon
+"
+"
+America
+/
+Pangnirtung
+"
+:
+"
+America
+/
+Pangnirtung
 "
 "
 America

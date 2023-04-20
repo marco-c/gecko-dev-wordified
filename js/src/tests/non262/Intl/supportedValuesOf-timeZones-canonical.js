@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2022f
+2022g
 /
 /
 This
@@ -540,6 +540,11 @@ Chicago
 America
 /
 Chihuahua
+"
+"
+America
+/
+Ciudad_Juarez
 "
 "
 America
