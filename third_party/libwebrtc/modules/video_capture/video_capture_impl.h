@@ -396,9 +396,7 @@ override
 ;
 /
 /
-|
 capture_time
-|
 must
 be
 specified

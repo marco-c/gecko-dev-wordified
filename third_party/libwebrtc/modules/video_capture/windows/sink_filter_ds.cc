@@ -1003,9 +1003,7 @@ For
 supported
 types
 the
-|
 capability
-|
 will
 be
 populated
