@@ -7046,7 +7046,7 @@ retrieves
 the
 style
 of
-aNode
+aElement
 and
 modifies
 each
@@ -7080,9 +7080,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlineStyles
 (
-nsIContent
+Element
 &
-aContent
+aElement
 AutoPendingStyleCacheArray
 &
 aPendingStyleCacheArray
@@ -7098,7 +7098,7 @@ CacheInlineStyles
 caches
 style
 of
-aContent
+aElement
 into
 mCachedPendingStyles
 of
@@ -7130,9 +7130,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 CacheInlineStyles
 (
-nsIContent
+Element
 &
-aContent
+aElement
 )
 ;
 /
