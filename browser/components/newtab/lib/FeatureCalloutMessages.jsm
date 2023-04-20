@@ -2093,10 +2093,6 @@ parent_selector
 "
 #
 colorways
-.
-content
--
-container
 "
 content
 :
