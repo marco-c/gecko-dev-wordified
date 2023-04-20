@@ -177,7 +177,9 @@ ExtensionProcessScript
 >
 {
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -213,7 +215,9 @@ ExtensionStorageIDB
 >
 {
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource

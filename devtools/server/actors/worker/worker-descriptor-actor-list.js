@@ -66,7 +66,9 @@ const
 XPCOMUtils
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource

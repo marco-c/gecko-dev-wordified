@@ -67,7 +67,9 @@ clearInterval
 setInterval
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

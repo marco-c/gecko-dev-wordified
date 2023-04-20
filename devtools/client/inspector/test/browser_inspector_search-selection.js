@@ -46,7 +46,9 @@ const
 AppConstants
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

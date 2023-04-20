@@ -156,7 +156,9 @@ them
 const
 jsmScope
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -1319,7 +1321,9 @@ clearTimeout
 >
 {
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -1352,7 +1356,9 @@ setTimeout
 >
 {
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -1385,7 +1391,9 @@ clearInterval
 >
 {
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -1418,7 +1426,9 @@ setInterval
 >
 {
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource

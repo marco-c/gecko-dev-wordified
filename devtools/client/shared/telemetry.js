@@ -124,7 +124,9 @@ const
 TelemetryEnvironment
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

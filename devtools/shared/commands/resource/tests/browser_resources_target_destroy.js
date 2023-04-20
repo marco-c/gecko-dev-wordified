@@ -235,7 +235,9 @@ const
 TargetActorRegistry
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

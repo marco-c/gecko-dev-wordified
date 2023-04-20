@@ -66,7 +66,9 @@ const
 Preferences
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

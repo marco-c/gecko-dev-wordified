@@ -218,7 +218,9 @@ const
 NetUtil
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

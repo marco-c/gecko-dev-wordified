@@ -66,7 +66,9 @@ const
 ComponentUtils
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

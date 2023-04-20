@@ -121,7 +121,9 @@ var
 Assert
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
