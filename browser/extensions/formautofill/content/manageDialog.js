@@ -488,7 +488,7 @@ element
 *
 returns
 {
-array
+Array
 <
 DOMElement
 >
@@ -528,6 +528,7 @@ has
 been
 initialized
 .
+*
 *
 returns
 {
@@ -862,7 +863,7 @@ exist
 *
 param
 {
-array
+Array
 <
 object
 >
@@ -1040,7 +1041,7 @@ options
 *
 param
 {
-array
+Array
 <
 DOMElement
 >

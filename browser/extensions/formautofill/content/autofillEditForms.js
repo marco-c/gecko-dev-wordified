@@ -162,6 +162,7 @@ record
 object
 .
 *
+*
 param
 {
 object
@@ -401,6 +402,7 @@ update
 in
 storage
 .
+*
 *
 returns
 {
@@ -1483,6 +1485,7 @@ the
 given
 country
 .
+*
 *
 param
 {

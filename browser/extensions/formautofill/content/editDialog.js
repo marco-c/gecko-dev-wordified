@@ -256,6 +256,7 @@ been
 initialized
 .
 *
+*
 returns
 {
 object
@@ -294,6 +295,7 @@ update
 an
 record
 .
+*
 *
 param
 {

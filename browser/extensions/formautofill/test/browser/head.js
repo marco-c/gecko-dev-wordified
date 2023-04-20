@@ -1631,7 +1631,7 @@ value
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -1961,7 +1961,7 @@ message
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -1977,7 +1977,7 @@ task
 *
 param
 {
-Object
+object
 }
 args
 *
@@ -2050,7 +2050,7 @@ element
 *
 param
 {
-Object
+object
 }
 args
 .
@@ -2959,7 +2959,7 @@ opened
 *
 param
 {
-Object
+object
 }
 browser
 A
@@ -4965,7 +4965,7 @@ param
 .
 .
 .
-Object
+object
 }
 items
 Can

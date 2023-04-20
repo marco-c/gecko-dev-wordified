@@ -1337,7 +1337,7 @@ private
 *
 param
 {
-Object
+object
 }
 data
 *

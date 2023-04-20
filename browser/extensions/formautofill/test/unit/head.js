@@ -1681,7 +1681,7 @@ fields
 *
 param
 {
-Object
+object
 }
 object
 *
@@ -1710,7 +1710,7 @@ ignored
 *
 param
 {
-Object
+object
 }
 fields
 *
