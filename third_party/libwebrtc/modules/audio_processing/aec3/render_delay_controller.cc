@@ -113,6 +113,11 @@ algorithm
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
