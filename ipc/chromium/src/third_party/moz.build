@@ -213,6 +213,7 @@ evthread
 .
 c
 '
+#
 '
 libevent
 /
@@ -220,6 +221,10 @@ evthread_pthread
 .
 c
 '
+#
+Unused
+file
+.
 '
 libevent
 /
