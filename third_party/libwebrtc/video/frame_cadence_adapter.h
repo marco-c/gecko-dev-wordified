@@ -400,7 +400,7 @@ in
 this
 configuration
 .
-int
+size_t
 num_simulcast_layers
 =
 0
@@ -868,7 +868,7 @@ virtual
 void
 UpdateLayerQualityConvergence
 (
-int
+size_t
 spatial_index
 bool
 converged
@@ -888,7 +888,7 @@ virtual
 void
 UpdateLayerStatus
 (
-int
+size_t
 spatial_index
 bool
 enabled
