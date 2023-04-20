@@ -1975,6 +1975,9 @@ ArrayNewFixed
 ArrayNewDefault
 =
 0x1c
+ArrayNewData
+=
+0x1d
 ArrayGet
 =
 0x13
