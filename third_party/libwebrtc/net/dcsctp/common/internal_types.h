@@ -94,6 +94,11 @@ NET_DCSCTP_COMMON_INTERNAL_TYPES_H_
 #
 include
 <
+functional
+>
+#
+include
+<
 utility
 >
 #
