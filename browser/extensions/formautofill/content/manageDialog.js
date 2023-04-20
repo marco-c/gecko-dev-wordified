@@ -2349,9 +2349,9 @@ number
 "
 "
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
