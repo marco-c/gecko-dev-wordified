@@ -93,6 +93,17 @@ include
 "
 absl
 /
+base
+/
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
 synchronization
 /
 mutex
@@ -160,7 +171,7 @@ Lock
 )
 ;
 }
-RTC_WARN_UNUSED_RESULT
+ABSL_MUST_USE_RESULT
 bool
 TryLock
 (

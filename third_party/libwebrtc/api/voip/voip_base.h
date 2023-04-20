@@ -96,6 +96,17 @@ include
 "
 absl
 /
+base
+/
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
 types
 /
 optional
@@ -275,7 +286,7 @@ int
 ;
 enum
 class
-RTC_WARN_UNUSED_RESULT
+ABSL_MUST_USE_RESULT
 VoipResult
 {
 /

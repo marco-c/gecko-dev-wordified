@@ -94,6 +94,17 @@ MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_LOSS_NOTIFICATION_H_
 #
 include
 "
+absl
+/
+base
+/
+attributes
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp
@@ -118,17 +129,6 @@ source
 rtcp_packet
 /
 psfb
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-system
-/
-unused
 .
 h
 "
@@ -181,6 +181,7 @@ BlockLength
 const
 override
 ;
+ABSL_MUST_USE_RESULT
 bool
 Create
 (
@@ -197,7 +198,6 @@ callback
 )
 const
 override
-RTC_WARN_UNUSED_RESULT
 ;
 /
 /
@@ -210,6 +210,7 @@ parsed
 and
 validated
 .
+ABSL_MUST_USE_RESULT
 bool
 Parse
 (
@@ -218,7 +219,6 @@ CommonHeader
 &
 packet
 )
-RTC_WARN_UNUSED_RESULT
 ;
 /
 /
@@ -309,6 +309,7 @@ for
 that
 delta
 .
+ABSL_MUST_USE_RESULT
 bool
 Set
 (
@@ -319,7 +320,6 @@ last_received
 bool
 decodability_flag
 )
-RTC_WARN_UNUSED_RESULT
 ;
 /
 /
