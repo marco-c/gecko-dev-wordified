@@ -6459,7 +6459,6 @@ inputConfig
 (
 aRate
 channelCountFarend
-false
 )
 ;
 StreamConfig
@@ -7370,18 +7369,6 @@ GraphRate
 (
 )
 channelCountInput
-false
-/
-*
-we
-don
-'
-t
-use
-typing
-detection
-*
-/
 )
 ;
 StreamConfig
