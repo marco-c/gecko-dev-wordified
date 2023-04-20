@@ -1826,7 +1826,7 @@ shader
 .
 currentShaderType
 =
-shaderType
+null
 ;
 if
 (
@@ -1842,6 +1842,10 @@ release
 (
 )
 ;
+currentShader
+=
+null
+;
 }
 shader
 =
@@ -1849,6 +1853,10 @@ createShader
 (
 shaderType
 )
+;
+currentShaderType
+=
+shaderType
 ;
 currentShader
 =
