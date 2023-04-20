@@ -284,7 +284,7 @@ namespace
 webrtc
 {
 class
-PeerConnection
+PeerConnectionInternal
 ;
 class
 DataChannelController
@@ -299,7 +299,7 @@ public
 explicit
 DataChannelController
 (
-PeerConnection
+PeerConnectionInternal
 *
 pc
 )
@@ -1237,7 +1237,7 @@ signaling_thread
 Owning
 PeerConnection
 .
-PeerConnection
+PeerConnectionInternal
 *
 const
 pc_
