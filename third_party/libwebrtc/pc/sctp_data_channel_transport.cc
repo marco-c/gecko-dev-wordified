@@ -578,6 +578,8 @@ SctpDataChannelTransport
 :
 OnClosedAbruptly
 (
+RTCError
+error
 )
 {
 if
@@ -590,6 +592,7 @@ sink_
 >
 OnTransportClosed
 (
+error
 )
 ;
 }

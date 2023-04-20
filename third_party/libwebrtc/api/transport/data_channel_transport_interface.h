@@ -695,6 +695,8 @@ virtual
 void
 OnTransportClosed
 (
+RTCError
+error
 )
 {
 }

@@ -282,6 +282,8 @@ channel_id
 void
 OnClosedAbruptly
 (
+RTCError
+error
 )
 ;
 cricket

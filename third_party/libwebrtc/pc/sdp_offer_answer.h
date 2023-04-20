@@ -3837,6 +3837,8 @@ it
 void
 DestroyDataChannelTransport
 (
+RTCError
+error
 )
 ;
 /

@@ -1046,6 +1046,8 @@ DataChannelController
 :
 OnTransportClosed
 (
+RTCError
+error
 )
 {
 RTC_DCHECK_RUN_ON
@@ -1072,6 +1074,7 @@ weak_factory_
 GetWeakPtr
 (
 )
+error
 ]
 {
 if
@@ -1094,6 +1097,7 @@ self
 >
 OnTransportChannelClosed
 (
+error
 )
 ;
 }
@@ -2326,6 +2330,8 @@ DataChannelController
 :
 OnTransportChannelClosed
 (
+RTCError
+error
 )
 {
 RTC_DCHECK_RUN_ON
@@ -2399,6 +2405,7 @@ channel
 >
 OnTransportChannelClosed
 (
+error
 )
 ;
 }

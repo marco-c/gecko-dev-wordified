@@ -480,6 +480,8 @@ override
 void
 OnTransportClosed
 (
+RTCError
+error
 )
 override
 ;
@@ -740,6 +742,8 @@ destroyed
 void
 OnTransportChannelClosed
 (
+RTCError
+error
 )
 ;
 void
