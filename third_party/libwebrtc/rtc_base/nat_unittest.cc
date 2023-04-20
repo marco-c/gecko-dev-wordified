@@ -1587,8 +1587,16 @@ SocketAddress
 int_addr
 )
 {
+PhysicalSocketServer
+socket_server
+;
 BasicNetworkManager
 network_manager
+(
+nullptr
+&
+socket_server
+)
 ;
 network_manager
 .
