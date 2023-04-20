@@ -863,7 +863,9 @@ rtt_max
 =
 DurationMs
 (
-8000
+60
+'
+000
 )
 ;
 /
@@ -891,7 +893,9 @@ rto_max
 =
 DurationMs
 (
-800
+60
+'
+000
 )
 ;
 /
@@ -919,7 +923,7 @@ rto_min
 =
 DurationMs
 (
-220
+400
 )
 ;
 /
