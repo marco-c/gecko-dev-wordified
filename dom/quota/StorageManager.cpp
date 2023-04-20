@@ -4178,6 +4178,15 @@ StorageManager
 =
 default
 ;
+void
+StorageManager
+:
+:
+Shutdown
+(
+)
+{
+}
 already_AddRefed
 <
 Promise

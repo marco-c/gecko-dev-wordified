@@ -238,6 +238,11 @@ return
 mOwner
 ;
 }
+void
+Shutdown
+(
+)
+;
 /
 /
 WebIDL
