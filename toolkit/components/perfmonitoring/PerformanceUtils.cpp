@@ -1053,9 +1053,9 @@ jsMemUsed
 js
 :
 :
-GetMemoryUsageForObjectZone
+GetMemoryUsageForZone
 (
-object
+zone
 )
 ;
 if
