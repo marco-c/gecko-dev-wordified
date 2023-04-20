@@ -915,7 +915,12 @@ colorSpaceForMatrix
 ;
 }
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 Draw
 (
 const
