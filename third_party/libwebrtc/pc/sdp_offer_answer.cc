@@ -35474,11 +35474,6 @@ DestroyChannelInterface
 channel
 )
 ;
-RTC_DCHECK_BLOCK_COUNT_NO_MORE_THAN
-(
-3
-)
-;
 }
 }
 void
