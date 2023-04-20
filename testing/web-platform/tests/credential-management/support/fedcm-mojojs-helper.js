@@ -58,7 +58,7 @@ js
 ;
 export
 function
-fedcm_test
+fedcm_mojo_mock_test
 (
 test_func
 name
