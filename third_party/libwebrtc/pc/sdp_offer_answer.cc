@@ -32057,7 +32057,6 @@ entry
 .
 second
 type
-&
 error
 )
 :
@@ -32072,7 +32071,6 @@ entry
 .
 second
 type
-&
 error
 )
 ;

@@ -268,7 +268,7 @@ std
 :
 :
 string
-*
+&
 )
 (
 override
@@ -294,7 +294,7 @@ std
 :
 :
 string
-*
+&
 )
 (
 override

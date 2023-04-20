@@ -363,7 +363,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 =
@@ -386,7 +386,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 =

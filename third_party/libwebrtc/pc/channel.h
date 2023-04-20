@@ -1226,7 +1226,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 override
@@ -1247,7 +1247,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 override
@@ -2064,7 +2064,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
@@ -2096,7 +2096,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
@@ -2123,7 +2123,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
@@ -2152,7 +2152,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
@@ -3167,7 +3167,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
@@ -3194,7 +3194,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
@@ -3418,7 +3418,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
@@ -3445,7 +3445,7 @@ std
 :
 :
 string
-*
+&
 error_desc
 )
 RTC_RUN_ON
