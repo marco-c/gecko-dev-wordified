@@ -433,6 +433,15 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+CacheIndex
+:
+:
+sLock
+.
+AssertCurrentThreadOwns
+(
+)
+;
 DebugOnly
 <
 bool
