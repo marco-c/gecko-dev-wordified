@@ -292,6 +292,10 @@ bool
 (
 global_
 )
+&
+&
+!
+initializingGlobal_
 ;
 }
 inline
