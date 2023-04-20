@@ -68,7 +68,7 @@ DevToolsLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -83,7 +83,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

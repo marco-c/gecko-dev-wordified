@@ -158,7 +158,7 @@ jsmScope
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -173,7 +173,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1171,7 +1173,9 @@ Defined
 by
 Loader
 .
-jsm
+sys
+.
+mjs
 id
 :
 null

@@ -131,7 +131,9 @@ ensure
 loading
 Loader
 .
-jsm
+sys
+.
+mjs
 within
 /
 /
@@ -159,7 +161,7 @@ DevToolsLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -174,7 +176,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -706,7 +710,7 @@ DevToolsLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -721,7 +725,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1056,7 +1062,7 @@ DevToolsLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1071,7 +1077,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1183,7 +1191,7 @@ DevToolsLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1198,7 +1206,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

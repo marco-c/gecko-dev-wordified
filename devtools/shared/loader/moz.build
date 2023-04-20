@@ -162,7 +162,9 @@ mjs
 "
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 "
 worker

@@ -302,7 +302,7 @@ DevToolsLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -317,7 +317,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -436,7 +438,7 @@ require
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -451,7 +453,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2481,7 +2485,7 @@ _require
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2496,7 +2500,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -9277,7 +9283,7 @@ require
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -9292,7 +9298,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

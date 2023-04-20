@@ -96,7 +96,9 @@ loader
 from
 Loader
 .
-jsm
+sys
+.
+mjs
 /
 /
 we
@@ -131,7 +133,7 @@ require
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -146,7 +148,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -221,7 +225,9 @@ test
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 will
 map
 require
