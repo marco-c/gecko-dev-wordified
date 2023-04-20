@@ -7984,6 +7984,9 @@ _contentPartitionedPrincipal
 "
 _isSyntheticDocument
 "
+"
+_originalURI
+"
 ]
 )
 ;
