@@ -215,13 +215,13 @@ kMaxVp9NumberOfSpatialLayers
 ;
 const
 size_t
-kMinVp9SpatialLayerWidth
+kMinVp9SpatialLayerLongSideLength
 =
 240
 ;
 const
 size_t
-kMinVp9SpatialLayerHeight
+kMinVp9SpatialLayerShortSideLength
 =
 135
 ;
