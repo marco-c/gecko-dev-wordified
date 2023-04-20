@@ -4490,7 +4490,7 @@ quickactions
 .
 showInZeroPrefix
 "
-false
+true
 )
 ;
 #
