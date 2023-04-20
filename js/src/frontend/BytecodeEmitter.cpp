@@ -33427,7 +33427,7 @@ emitCheckIsObj
 CheckIsObjectKind
 :
 :
-GetIterator
+GetAsyncIterator
 )
 )
 {
