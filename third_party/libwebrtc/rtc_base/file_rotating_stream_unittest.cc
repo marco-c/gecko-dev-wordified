@@ -363,6 +363,11 @@ dir_path_
 .
 append
 (
+std
+:
+:
+string
+(
 webrtc
 :
 :
@@ -370,6 +375,7 @@ test
 :
 :
 kPathDelimiter
+)
 )
 ;
 }
@@ -1526,6 +1532,11 @@ size
 )
 dir_path_
 +
+std
+:
+:
+string
+(
 webrtc
 :
 :
@@ -1533,6 +1544,7 @@ test
 :
 :
 kPathDelimiter
+)
 kFilePrefix
 )
 ;
@@ -2127,6 +2139,11 @@ dir_path_
 .
 append
 (
+std
+:
+:
+string
+(
 webrtc
 :
 :
@@ -2134,6 +2151,7 @@ test
 :
 :
 kPathDelimiter
+)
 )
 ;
 ASSERT_TRUE
