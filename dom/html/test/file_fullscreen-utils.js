@@ -430,10 +430,9 @@ topWin
 )
 ;
 }
+else
+{
 throw
-new
-Error
-(
 "
 '
 type
@@ -450,8 +449,8 @@ exit
 '
 .
 "
-)
 ;
+}
 }
 function
 invokeCallback
