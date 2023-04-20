@@ -2417,7 +2417,7 @@ nullopt
 queue_
 -
 >
-PostDelayedTask
+PostDelayedHighPrecisionTask
 (
 ToQueuedTask
 (
@@ -3285,7 +3285,7 @@ idle_repeat
 queue_
 -
 >
-PostDelayedTask
+PostDelayedHighPrecisionTask
 (
 ToQueuedTask
 (

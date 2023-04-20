@@ -1117,7 +1117,7 @@ delay_ms
 signaling_thread_
 -
 >
-PostDelayedTask
+PostDelayedHighPrecisionTask
 (
 ToQueuedTask
 (

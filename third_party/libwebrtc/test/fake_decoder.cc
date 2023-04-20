@@ -415,7 +415,7 @@ else
 task_queue_
 -
 >
-PostDelayedTask
+PostDelayedHighPrecisionTask
 (
 [
 frame
