@@ -3721,9 +3721,7 @@ name
 "
 browser
 .
-privacySegmentation
-.
-windowSeparation
+privateWindowSeparation
 .
 enabled
 "

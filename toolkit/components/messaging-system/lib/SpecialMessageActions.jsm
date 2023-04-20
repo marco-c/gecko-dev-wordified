@@ -1246,9 +1246,7 @@ homepage
 "
 browser
 .
-privacySegmentation
-.
-windowSeparation
+privateWindowSeparation
 .
 enabled
 "
