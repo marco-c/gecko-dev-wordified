@@ -15,7 +15,7 @@ EDIT
 tzdata
 version
 =
-2022e
+2022f
 #
 ifndef
 builtin_intl_TimeZoneDataGenerated_h
@@ -739,7 +739,7 @@ America
 /
 Kralendijk
 [
-northamerica
+backward
 ]
 {
 "
@@ -781,7 +781,7 @@ America
 /
 Lower_Princes
 [
-northamerica
+backward
 ]
 {
 "
@@ -801,7 +801,7 @@ America
 /
 Marigot
 [
-northamerica
+backward
 ]
 {
 "
@@ -863,7 +863,7 @@ America
 /
 St_Barthelemy
 [
-northamerica
+backward
 ]
 {
 "
@@ -903,7 +903,7 @@ Arctic
 /
 Longyearbyen
 [
-europe
+backward
 ]
 {
 "
@@ -1043,7 +1043,7 @@ Europe
 /
 Bratislava
 [
-europe
+backward
 ]
 {
 "
@@ -1063,7 +1063,7 @@ Europe
 /
 Busingen
 [
-europe
+backward
 ]
 {
 "
@@ -1103,7 +1103,7 @@ Europe
 /
 Mariehamn
 [
-europe
+backward
 ]
 {
 "
@@ -1123,7 +1123,7 @@ Europe
 /
 Podgorica
 [
-europe
+backward
 ]
 {
 "
@@ -1143,7 +1143,7 @@ Europe
 /
 San_Marino
 [
-europe
+backward
 ]
 {
 "
@@ -1163,7 +1163,7 @@ Europe
 /
 Vatican
 [
-europe
+backward
 ]
 {
 "
