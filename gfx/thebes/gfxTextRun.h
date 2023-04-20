@@ -7451,12 +7451,12 @@ font
 s
 metrics
 .
-enum
-{
+static
+constexpr
+gfxFloat
 UNDERLINE_OFFSET_NOT_SET
 =
 INT16_MAX
-}
 ;
 gfxFloat
 GetUnderlineOffset

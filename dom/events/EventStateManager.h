@@ -2226,12 +2226,14 @@ height
 .
 *
 /
-enum
-{
+static
+constexpr
+double
 MIN_MULTIPLIER_VALUE_ALLOWING_OVER_ONE_PAGE_SCROLL
 =
 1000
-}
+.
+0
 ;
 /
 *
