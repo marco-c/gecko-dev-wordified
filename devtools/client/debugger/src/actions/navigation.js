@@ -157,7 +157,7 @@ dispatch
 getState
 client
 sourceMaps
-parser
+parserWorker
 }
 )
 {
@@ -181,7 +181,7 @@ clearDocuments
 (
 )
 ;
-parser
+parserWorker
 .
 clear
 (

@@ -392,7 +392,7 @@ async
 {
 dispatch
 getState
-parser
+parserWorker
 }
 )
 =
@@ -411,7 +411,7 @@ const
 expressionError
 =
 await
-parser
+parserWorker
 .
 hasSyntaxError
 (
