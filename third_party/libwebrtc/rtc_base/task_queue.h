@@ -152,11 +152,11 @@ h
 #
 include
 "
-rtc_base
+api
 /
-system
+task_queue
 /
-rtc_export
+to_queued_task
 .
 h
 "
@@ -165,9 +165,9 @@ include
 "
 rtc_base
 /
-task_utils
+system
 /
-to_queued_task
+rtc_export
 .
 h
 "
