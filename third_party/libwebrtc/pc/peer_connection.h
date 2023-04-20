@@ -5085,6 +5085,15 @@ RtpTransmissionManager
 >
 rtp_manager_
 ;
+rtc
+:
+:
+WeakPtrFactory
+<
+PeerConnection
+>
+weak_factory_
+;
 }
 ;
 }
