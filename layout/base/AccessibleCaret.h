@@ -169,7 +169,7 @@ only
 #
 include
 "
-nsISupportsBase
+nsISupports
 .
 h
 "

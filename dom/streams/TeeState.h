@@ -167,13 +167,6 @@ Promise
 .
 h
 "
-#
-include
-"
-nsISupportsBase
-.
-h
-"
 namespace
 mozilla
 :

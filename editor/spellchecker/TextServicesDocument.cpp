@@ -451,7 +451,7 @@ etc
 #
 include
 "
-nsISupportsBase
+nsISupports
 .
 h
 "
