@@ -54156,7 +54156,7 @@ closest
 (
 "
 .
-browserContainer
+browserStack
 .
 webextension
 -

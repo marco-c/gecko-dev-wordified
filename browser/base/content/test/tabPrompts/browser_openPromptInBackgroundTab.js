@@ -386,8 +386,6 @@ linkedBrowser
 .
 parentNode
 .
-parentNode
-.
 querySelectorAll
 (
 "
@@ -1171,8 +1169,6 @@ promptElements
 openedTab
 .
 linkedBrowser
-.
-parentNode
 .
 parentNode
 .
