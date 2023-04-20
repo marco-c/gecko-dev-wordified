@@ -8566,13 +8566,21 @@ location
         
 )
     
-if
-not
+ifaceAttributes
+=
 methodOrAttribute
 .
 iface
 .
 attributes
+    
+if
+ifaceAttributes
+.
+scriptable
+and
+not
+ifaceAttributes
 .
 builtinclass
 :
@@ -8595,6 +8603,12 @@ on
 "
             
 "
+non
+-
+[
+scriptable
+]
+or
 [
 builtinclass
 ]
