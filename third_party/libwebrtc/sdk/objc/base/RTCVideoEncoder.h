@@ -115,13 +115,6 @@ h
 #
 import
 "
-RTCRtpFragmentationHeader
-.
-h
-"
-#
-import
-"
 RTCVideoEncoderQpThresholds
 .
 h
@@ -172,12 +165,6 @@ RTCCodecSpecificInfo
 )
 >
 info
-RTC_OBJC_TYPE
-(
-RTCRtpFragmentationHeader
-)
-*
-header
 )
 ;
 /

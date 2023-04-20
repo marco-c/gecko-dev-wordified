@@ -452,13 +452,6 @@ RTCCodecSpecificInfo
 >
 _Nonnull
 info
-RTC_OBJC_TYPE
-(
-RTCRtpFragmentationHeader
-)
-*
-_Nonnull
-header
 )
 {
 EncodedImage
