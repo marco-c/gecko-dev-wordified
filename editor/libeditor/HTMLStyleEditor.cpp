@@ -103,6 +103,13 @@ h
 #
 include
 "
+HTMLEditorInlines
+.
+h
+"
+#
+include
+"
 AutoRangeArray
 .
 h

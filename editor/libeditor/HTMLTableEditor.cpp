@@ -110,6 +110,13 @@ h
 #
 include
 "
+HTMLEditorInlines
+.
+h
+"
+#
+include
+"
 EditAction
 .
 h
