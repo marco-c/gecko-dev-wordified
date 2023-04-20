@@ -8023,16 +8023,6 @@ true
 ;
 }
 }
-if
-(
-StaticPrefs
-:
-:
-dom_streams_transferable_enabled
-(
-)
-)
-{
 {
 RefPtr
 <
@@ -8325,7 +8315,6 @@ release
 return
 true
 ;
-}
 }
 }
 }
