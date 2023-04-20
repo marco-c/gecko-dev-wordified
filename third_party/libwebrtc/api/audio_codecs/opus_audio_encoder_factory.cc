@@ -279,6 +279,12 @@ absl
 :
 :
 nullopt
+const
+WebRtcKeyValueConfig
+*
+field_trials
+=
+nullptr
 )
 {
 return
@@ -290,6 +296,7 @@ MakeAudioEncoder
 config
 payload_type
 codec_pair_id
+field_trials
 )
 ;
 }

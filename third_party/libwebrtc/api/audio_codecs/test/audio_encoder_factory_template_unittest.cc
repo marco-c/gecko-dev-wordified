@@ -219,6 +219,15 @@ mock_audio_encoder
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 namespace
 webrtc
 {
@@ -529,6 +538,12 @@ AudioEncoderFactoryTemplateTest
 NoEncoderTypes
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 rtc
 :
 :
@@ -551,6 +566,8 @@ AudioEncoderFactoryT
 >
 >
 (
+&
+field_trials
 )
 )
 ;

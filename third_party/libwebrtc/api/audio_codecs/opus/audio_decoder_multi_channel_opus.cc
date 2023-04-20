@@ -474,6 +474,10 @@ AudioCodecPairId
 codec_pair_id
 *
 /
+const
+WebRtcKeyValueConfig
+*
+field_trials
 )
 {
 return
