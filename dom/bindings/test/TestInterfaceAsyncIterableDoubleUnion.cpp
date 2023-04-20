@@ -393,7 +393,7 @@ Promise
 TestInterfaceAsyncIterableDoubleUnion
 :
 :
-GetNextPromise
+GetNextIterationResult
 (
 Iterator
 *
@@ -457,7 +457,7 @@ Promise
 TestInterfaceAsyncIterableDoubleUnion
 :
 :
-GetNextPromise
+GetNextIterationResult
 "
 this
 &
