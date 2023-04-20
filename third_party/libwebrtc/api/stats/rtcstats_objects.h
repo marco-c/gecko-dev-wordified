@@ -5022,17 +5022,6 @@ uint32_t
 >
 height
 ;
-/
-/
-TODO
-(
-hbos
-)
-:
-Implement
-this
-metric
-.
 RTCStatsMember
 <
 uint32_t

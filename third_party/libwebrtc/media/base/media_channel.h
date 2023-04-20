@@ -4278,6 +4278,11 @@ send_frame_height
 0
 ;
 int
+frames
+=
+0
+;
+int
 framerate_input
 =
 0

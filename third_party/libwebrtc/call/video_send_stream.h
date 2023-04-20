@@ -821,6 +821,11 @@ total_encoded_bytes_target
 0
 ;
 uint32_t
+frames
+=
+0
+;
+uint32_t
 frames_dropped_by_capturer
 =
 0

@@ -905,6 +905,16 @@ EXPECT_EQ
 (
 one
 .
+frames
+other
+.
+frames
+)
+;
+EXPECT_EQ
+(
+one
+.
 input_frame_rate
 other
 .
