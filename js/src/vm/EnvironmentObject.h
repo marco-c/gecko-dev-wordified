@@ -2487,7 +2487,7 @@ usable
 static
 CallObject
 *
-create
+createWithShape
 (
 JSContext
 *

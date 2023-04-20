@@ -11515,7 +11515,10 @@ JSObject
 *
 resultObject
 =
-NewCallObject
+CallObject
+:
+:
+createWithShape
 (
 cx
 shape
