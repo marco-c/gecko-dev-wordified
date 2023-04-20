@@ -164,6 +164,17 @@ include
 "
 rtc_base
 /
+system
+/
+unused
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 trace_event
 .
 h
@@ -740,9 +751,6 @@ RtpPacketToSend
 packets
 )
 {
-#
-if
-RTC_TRACE_EVENTS_ENABLED
 TRACE_EVENT0
 (
 TRACE_DISABLED_BY_DEFAULT
@@ -768,6 +776,11 @@ packet
 packets
 )
 {
+RTC_UNUSED
+(
+packet
+)
+;
 TRACE_EVENT2
 (
 TRACE_DISABLED_BY_DEFAULT
@@ -806,8 +819,6 @@ Timestamp
 )
 ;
 }
-#
-endif
 task_queue_
 .
 PostTask
@@ -1300,9 +1311,6 @@ RTC_DCHECK_RUN_ON
 task_queue_
 )
 ;
-#
-if
-RTC_TRACE_EVENTS_ENABLED
 TRACE_EVENT0
 (
 TRACE_DISABLED_BY_DEFAULT
@@ -1319,8 +1327,6 @@ MaybeProcessPackets
 "
 )
 ;
-#
-endif
 if
 (
 is_shutdown_

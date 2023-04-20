@@ -304,9 +304,11 @@ webrtc
 {
 namespace
 {
-#
-if
-RTC_TRACE_EVENTS_ENABLED
+[
+[
+maybe_unused
+]
+]
 const
 char
 *
@@ -360,8 +362,6 @@ RTC_CHECK_NOTREACHED
 )
 ;
 }
-#
-endif
 constexpr
 char
 kIncludeCaptureClockOffset
@@ -940,9 +940,6 @@ int64_t
 absolute_capture_timestamp_ms
 )
 {
-#
-if
-RTC_TRACE_EVENTS_ENABLED
 TRACE_EVENT_ASYNC_STEP1
 (
 "
@@ -964,8 +961,6 @@ frame_type
 )
 )
 ;
-#
-endif
 /
 /
 From
