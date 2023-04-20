@@ -251,7 +251,7 @@ xul
 "
 result
 :
-true
+false
 }
 {
 uri
@@ -277,7 +277,7 @@ xul
 "
 result
 :
-true
+false
 }
 {
 uri
@@ -304,7 +304,7 @@ xul
 "
 result
 :
-true
+false
 }
 {
 uri
