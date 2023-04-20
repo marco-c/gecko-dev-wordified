@@ -245,9 +245,10 @@ Cell
 >
 (
 header_
-&
-~
-RESERVED_MASK
+.
+getForwardingAddress
+(
+)
 )
 ;
 }
