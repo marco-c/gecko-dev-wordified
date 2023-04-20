@@ -15354,6 +15354,13 @@ StyleContain
 :
 NONE
 )
+mEffectiveContainment
+(
+StyleContain
+:
+:
+NONE
+)
 mContentVisibility
 (
 StyleContentVisibility
@@ -15753,6 +15760,12 @@ mContain
 aSource
 .
 mContain
+)
+mEffectiveContainment
+(
+aSource
+.
+mEffectiveContainment
 )
 mContentVisibility
 (
