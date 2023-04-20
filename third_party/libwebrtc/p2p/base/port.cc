@@ -2344,12 +2344,6 @@ Port
 OnConnectionDestroyed
 )
 ;
-SignalConnectionCreated
-(
-this
-conn
-)
-;
 }
 void
 Port
