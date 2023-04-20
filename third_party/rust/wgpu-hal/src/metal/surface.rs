@@ -1409,7 +1409,7 @@ config
 .
 composite_alpha_mode
 {
-crate
+wgt
 :
 :
 CompositeAlphaMode
@@ -1424,7 +1424,7 @@ set_opaque
 (
 true
 )
-crate
+wgt
 :
 :
 CompositeAlphaMode
@@ -1439,13 +1439,7 @@ set_opaque
 (
 false
 )
-crate
-:
-:
-CompositeAlphaMode
-:
-:
-PreMultiplied
+_
 =
 >
 (

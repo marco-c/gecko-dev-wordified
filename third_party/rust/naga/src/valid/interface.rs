@@ -3141,6 +3141,7 @@ ep
 function
 module
 mod_info
+true
 )
 .
 map_err
