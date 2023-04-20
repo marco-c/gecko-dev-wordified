@@ -2658,7 +2658,7 @@ AboutTabCrashed
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2670,13 +2670,15 @@ actors
 /
 AboutTabCrashedParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2688,7 +2690,9 @@ actors
 /
 AboutTabCrashedChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-AboutTabCrashedChild
-"
-]
-;
 const
 {
 RemotePageChild
@@ -114,6 +105,7 @@ jsm
 "
 )
 ;
+export
 class
 AboutTabCrashedChild
 extends
