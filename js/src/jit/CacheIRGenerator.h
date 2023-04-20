@@ -3243,6 +3243,11 @@ tryAttachObjectCreate
 )
 ;
 AttachDecision
+tryAttachObjectConstructor
+(
+)
+;
+AttachDecision
 tryAttachArrayConstructor
 (
 )
