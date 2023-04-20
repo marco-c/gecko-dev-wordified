@@ -153,14 +153,12 @@ status
 else
 if
 (
+!
 req
 .
 responseText
 .
 length
-=
-=
-0
 )
 {
 result

@@ -1357,12 +1357,10 @@ runNextTest
 {
 if
 (
+!
 indexes
 .
 length
-=
-=
-0
 )
 {
 return

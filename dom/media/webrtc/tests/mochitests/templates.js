@@ -787,8 +787,6 @@ pc
 _local_ice_candidates
 .
 length
->
-0
 )
 {
 resolve
@@ -879,8 +877,6 @@ pc
 _local_ice_candidates
 .
 length
->
-0
 pc
 +
 "

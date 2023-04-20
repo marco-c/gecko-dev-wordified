@@ -427,9 +427,6 @@ if
 shippingOptions
 .
 length
-!
-=
-0
 )
 {
 emitTestFail

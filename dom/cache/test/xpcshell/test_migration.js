@@ -131,8 +131,6 @@ ok
 requestList
 .
 length
->
-0
 "
 should
 have
@@ -322,8 +320,6 @@ ok
 responseList
 .
 length
->
-0
 "
 should
 have

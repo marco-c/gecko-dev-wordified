@@ -6933,9 +6933,6 @@ aPageRecord
 appServerKey
 .
 length
-!
-=
-0
 )
 {
 let

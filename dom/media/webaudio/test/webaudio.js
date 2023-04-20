@@ -1481,12 +1481,10 @@ expectedBuffer
 ;
 if
 (
+!
 expectedBuffers
 .
 length
-=
-=
-0
 )
 {
 sp

@@ -257,12 +257,10 @@ aTargetTag
 )
 ;
 return
+!
 elemList
 .
 length
-=
-=
-0
 ?
 null
 :

@@ -179,8 +179,6 @@ ok
 notifications
 .
 length
->
-0
 "
 at
 least

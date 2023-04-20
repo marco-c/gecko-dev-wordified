@@ -1101,8 +1101,6 @@ ok
 msectionsWithOwnTransports
 .
 length
->
-0
 "
 SDP
 should

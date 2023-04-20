@@ -113,12 +113,10 @@ c
 {
 if
 (
+!
 c
 .
 length
-=
-=
-0
 )
 {
 dump

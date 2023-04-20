@@ -583,9 +583,6 @@ while
 testHTTPWhitespace
 .
 length
-!
-=
-0
 )
 {
 headers

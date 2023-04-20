@@ -3364,8 +3364,6 @@ ok
 validValues
 .
 length
->
-0
 "
 We
 better

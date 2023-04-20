@@ -716,6 +716,7 @@ createToc
 {
 if
 (
+!
 document
 .
 getElementsByTagName
@@ -726,9 +727,6 @@ toc
 )
 .
 length
-=
-=
-0
 )
 {
 var
