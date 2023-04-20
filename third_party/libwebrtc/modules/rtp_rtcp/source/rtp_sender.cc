@@ -792,6 +792,9 @@ kRtpExtensionRepairedRtpStreamId
 case
 kRtpExtensionColorSpace
 :
+case
+kRtpExtensionVideoFrameTrackingId
+:
 return
 false
 ;

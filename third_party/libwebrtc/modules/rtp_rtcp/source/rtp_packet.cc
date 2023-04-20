@@ -1873,6 +1873,12 @@ RTPExtensionType
 :
 kRtpExtensionInbandComfortNoise
 :
+case
+RTPExtensionType
+:
+:
+kRtpExtensionVideoFrameTrackingId
+:
 {
 /
 /
