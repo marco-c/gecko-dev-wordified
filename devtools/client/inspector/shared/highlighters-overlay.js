@@ -1991,13 +1991,6 @@ toolOpened
 (
 toolID
 this
-.
-inspector
-.
-toolbox
-.
-sessionId
-this
 )
 ;
 }
@@ -2749,13 +2742,6 @@ telemetry
 toolClosed
 (
 toolID
-this
-.
-inspector
-.
-toolbox
-.
-sessionId
 this
 )
 ;
