@@ -124,7 +124,7 @@ desktop_capture
 /
 linux
 /
-window_capturer_pipewire
+base_capturer_pipewire
 .
 h
 "
@@ -214,7 +214,7 @@ return
 BaseCapturerPipeWire
 :
 :
-CreateRawWindowCapturer
+CreateRawCapturer
 (
 options
 )
