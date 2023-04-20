@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-Logging
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 PFileSystemManager
@@ -167,10 +158,6 @@ nsIGlobalObject
 namespace
 mozilla
 {
-extern
-LazyLogModule
-gOPFSLog
-;
 class
 ErrorResult
 ;

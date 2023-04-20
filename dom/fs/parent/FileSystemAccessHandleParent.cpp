@@ -135,6 +135,17 @@ mozilla
 /
 dom
 /
+FileSystemLog
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemManagerParent
 .
 h

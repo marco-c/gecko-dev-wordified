@@ -99,6 +99,11 @@ FileSystemHelpers
 h
 "
 "
+FileSystemLog
+.
+h
+"
+"
 FileSystemTypes
 .
 h
@@ -110,6 +115,11 @@ UNIFIED_SOURCES
 [
 "
 FileSystemHelpers
+.
+cpp
+"
+"
+FileSystemLog
 .
 cpp
 "

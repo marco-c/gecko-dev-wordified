@@ -180,6 +180,17 @@ mozilla
 /
 dom
 /
+FileSystemLog
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemManager
 .
 h

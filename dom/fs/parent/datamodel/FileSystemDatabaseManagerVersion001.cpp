@@ -171,6 +171,17 @@ mozilla
 /
 dom
 /
+FileSystemLog
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemTypes
 .
 h
