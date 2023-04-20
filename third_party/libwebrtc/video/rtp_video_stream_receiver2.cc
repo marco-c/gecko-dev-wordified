@@ -852,6 +852,9 @@ MaybeConstructNackModule
 TaskQueueBase
 *
 current_queue
+NackPeriodicProcessor
+*
+nack_periodic_processor
 const
 VideoReceiveStream
 :
@@ -916,6 +919,7 @@ NackModule2
 >
 (
 current_queue
+nack_periodic_processor
 clock
 nack_sender
 keyframe_request_sender
@@ -1421,6 +1425,9 @@ rtcp_packet_type_counter_observer
 RtcpCnameCallback
 *
 rtcp_cname_callback
+NackPeriodicProcessor
+*
+nack_periodic_processor
 VCMReceiveStatisticsCallback
 *
 vcm_receive_statistics
@@ -1613,6 +1620,7 @@ nack_module_
 MaybeConstructNackModule
 (
 current_queue
+nack_periodic_processor
 config_
 clock_
 &

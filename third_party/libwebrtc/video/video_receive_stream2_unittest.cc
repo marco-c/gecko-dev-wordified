@@ -895,6 +895,8 @@ Copy
 call_stats_
 clock_
 timing_
+&
+nack_periodic_processor_
 )
 ;
 video_receive_stream_
@@ -930,6 +932,9 @@ test
 :
 VideoDecoderProxyFactory
 h264_decoder_factory_
+;
+NackPeriodicProcessor
+nack_periodic_processor_
 ;
 VideoReceiveStream
 :
@@ -2239,6 +2244,8 @@ Copy
 call_stats_
 clock_
 timing_
+&
+nack_periodic_processor_
 )
 )
 ;
@@ -2290,6 +2297,9 @@ unique_ptr
 TaskQueueFactory
 >
 task_queue_factory_
+;
+NackPeriodicProcessor
+nack_periodic_processor_
 ;
 VideoReceiveStream
 :
@@ -3988,6 +3998,8 @@ GetClock
 (
 )
 )
+&
+nack_periodic_processor_
 )
 {
 video_receive_stream_
@@ -4135,6 +4147,9 @@ cricket
 :
 FakeCall
 fake_call_
+;
+NackPeriodicProcessor
+nack_periodic_processor_
 ;
 VideoReceiveStream
 :
@@ -5061,6 +5076,8 @@ Copy
 call_stats_
 clock_
 timing_
+&
+nack_periodic_processor_
 )
 ;
 video_receive_stream_
@@ -5093,6 +5110,9 @@ task_queue_factory_
 ;
 MockVideoDecoderFactory
 mock_h264_decoder_factory_
+;
+NackPeriodicProcessor
+nack_periodic_processor_
 ;
 VideoReceiveStream
 :

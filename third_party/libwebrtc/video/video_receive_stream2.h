@@ -223,6 +223,17 @@ modules
 /
 video_coding
 /
+nack_module2
+.
+h
+"
+#
+include
+"
+modules
+/
+video_coding
+/
 video_receiver2
 .
 h
@@ -617,6 +628,9 @@ clock
 VCMTiming
 *
 timing
+NackPeriodicProcessor
+*
+nack_periodic_processor
 )
 ;
 /

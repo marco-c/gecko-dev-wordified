@@ -1213,6 +1213,8 @@ get
 nullptr
 nullptr
 &
+nack_periodic_processor_
+&
 mock_nack_sender_
 &
 mock_key_frame_request_sender_
@@ -1674,6 +1676,9 @@ VideoReceiveStream
 :
 Config
 config_
+;
+NackPeriodicProcessor
+nack_periodic_processor_
 ;
 MockNackSender
 mock_nack_sender_
@@ -7493,6 +7498,8 @@ get
 )
 nullptr
 nullptr
+&
+nack_periodic_processor_
 &
 mock_nack_sender_
 nullptr

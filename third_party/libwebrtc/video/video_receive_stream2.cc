@@ -1453,6 +1453,9 @@ clock
 VCMTiming
 *
 timing
+NackPeriodicProcessor
+*
+nack_periodic_processor
 )
 :
 task_queue_factory_
@@ -1559,6 +1562,7 @@ get
 stats_proxy_
 &
 stats_proxy_
+nack_periodic_processor
 &
 stats_proxy_
 this
