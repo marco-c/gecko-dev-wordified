@@ -1151,6 +1151,13 @@ h
 "
 public
 /
+MicroGeckoProfiler
+.
+h
+"
+"
+public
+/
 ProfilerBindings
 .
 h
