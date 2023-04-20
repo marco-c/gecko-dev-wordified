@@ -337,6 +337,16 @@ OnScreenCastSessionClosed
 )
 override
 ;
+void
+UpdateResolution
+(
+uint32_t
+width
+uint32_t
+height
+)
+override
+;
 xdg_portal
 :
 :

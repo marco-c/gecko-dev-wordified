@@ -213,6 +213,15 @@ height
 )
 ;
 void
+UpdateScreenCastStreamResolution
+(
+uint32_t
+width
+uint32_t
+height
+)
+;
+void
 StopScreenCastStream
 (
 )
