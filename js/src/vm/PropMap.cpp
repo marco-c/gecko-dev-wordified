@@ -5163,12 +5163,11 @@ readIndexCursor
 writeMapCursor
 -
 >
-keys_
-[
+setKey
+(
 writeIndexCursor
-]
-=
 key
+)
 ;
 writeMapCursor
 -
