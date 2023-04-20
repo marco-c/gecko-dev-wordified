@@ -898,9 +898,7 @@ size
 of
 the
 internal
-|
 record_buffer_
-|
 .
 const
 size_t

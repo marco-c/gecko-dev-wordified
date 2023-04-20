@@ -470,9 +470,7 @@ this
 function
 should
 read
-|
 num_frames
-|
 of
 recorded
 /
@@ -488,9 +486,7 @@ data
 format
 from
 the
-|
 audio_data
-|
 buffer
 .
 /

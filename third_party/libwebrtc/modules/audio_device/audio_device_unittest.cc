@@ -1401,9 +1401,7 @@ Recorded
 input
 signal
 in
-|
 buffer
-|
 is
 in
 mono
@@ -1497,9 +1495,7 @@ Recorded
 input
 signal
 in
-|
 buffer
-|
 is
 in
 stereo
@@ -1801,9 +1797,7 @@ first
 two
 samples
 of
-|
 destination
-|
 .
 void
 Read
@@ -1948,9 +1942,7 @@ Detect
 received
 impulses
 in
-|
 source
-|
 derive
 time
 between
@@ -2032,9 +2024,7 @@ been
 transmitted
 (
 sets
-|
 pulse_time_
-|
 to
 value
 larger
@@ -2250,9 +2240,7 @@ N
 .
 The
 term
-|
 extra_delay
-|
 accounts
 for
 N
@@ -4414,9 +4402,7 @@ kWindowsCoreAudio2
 The
 value
 of
-|
 audio_layer_
-|
 is
 set
 at

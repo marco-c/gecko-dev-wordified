@@ -2928,13 +2928,9 @@ by
 /
 /
 both
-|
 input_
-|
 and
-|
 output_
-|
 but
 they
 use

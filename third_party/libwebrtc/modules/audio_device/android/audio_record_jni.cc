@@ -1901,9 +1901,7 @@ use
 the
 /
 /
-|
 playDelayMs
-|
 parameter
 only
 .
@@ -1918,13 +1916,9 @@ sum
 /
 /
 of
-|
 playDelayMs
-|
 and
-|
 recDelayMs
-|
 hence
 the
 distributions

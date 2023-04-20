@@ -554,9 +554,7 @@ replaced
 by
 zeros
 if
-|
 speakerMute
-|
 is
 set
 to
@@ -1778,9 +1776,7 @@ the
 total
 buffer
 size
-|
 minBufferSizeInBytes
-|
 .
 But
 we
@@ -1807,9 +1803,7 @@ it
 can
 happen
 that
-|
 minBufferSizeInBytes
-|
 contains
 an
 invalid
@@ -3497,9 +3491,7 @@ out
 to
 zero
 if
-|
 mute
-|
 is
 true
 i

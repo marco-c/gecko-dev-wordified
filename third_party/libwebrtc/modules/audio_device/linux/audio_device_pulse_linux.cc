@@ -5795,13 +5795,9 @@ true
 /
 /
 Both
-|
 _startPlay
-|
 and
-|
 _playing
-|
 needs
 protction
 since

@@ -582,9 +582,7 @@ should
 render
 and
 write
-|
 num_frames
-|
 /
 /
 of
@@ -597,9 +595,7 @@ data
 format
 to
 the
-|
 audio_data
-|
 buffer
 .
 /

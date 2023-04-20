@@ -765,9 +765,7 @@ active
 /
 If
 the
-|
 silence
-|
 flag
 is
 set
@@ -869,9 +867,7 @@ This
 method
 defines
 the
-|
 engine_
-|
 member
 variable
 .

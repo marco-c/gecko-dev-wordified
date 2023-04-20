@@ -646,16 +646,10 @@ pointer
 in
 /
 /
-|
 audio_client3_
-|
-|
 audio_client2_
-|
 or
-|
 audio_client_
-|
 depending
 on
 /
@@ -691,9 +685,7 @@ be
 /
 stored
 in
-|
 format_
-|
 and
 can
 be
@@ -741,9 +733,7 @@ audio
 device
 buffer
 using
-|
 format_
-|
 /
 /
 after
@@ -2191,9 +2181,7 @@ buffer
 in
 /
 /
-|
 audio_data
-|
 .
 The
 playout
@@ -2375,9 +2363,7 @@ position
 through
 output
 parameter
-|
 position
-|
 .
 This
 is

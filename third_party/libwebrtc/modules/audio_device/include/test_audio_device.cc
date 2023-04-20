@@ -378,15 +378,11 @@ processed
 every
 10ms
 /
-|
 speed
-|
 .
 /
 /
-|
 capturer
-|
 is
 an
 object
@@ -411,9 +407,7 @@ recording
 .
 /
 /
-|
 renderer
-|
 is
 an
 object
@@ -900,9 +894,7 @@ data
 Returns
 false
 if
-|
 timeout_ms
-|
 passes
 before
 that
@@ -948,9 +940,7 @@ data
 Returns
 false
 if
-|
 timeout_ms
-|
 passes
 before
 that

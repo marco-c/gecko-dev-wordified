@@ -567,9 +567,7 @@ static
 getter
 method
 with
-|
 name
-|
 and
 returns
 /

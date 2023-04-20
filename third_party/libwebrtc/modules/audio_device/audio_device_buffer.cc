@@ -1092,9 +1092,7 @@ histogram
 .
 /
 /
-|
 only_silence_recorded_
-|
 can
 only
 be
@@ -1141,9 +1139,7 @@ Also
 the
 fact
 that
-|
 only_silence_recorded_
-|
 can
 be
 affected
@@ -1680,9 +1676,7 @@ rec_stat_count_
 /
 /
 Set
-|
 only_silence_recorded_
-|
 to
 false
 as

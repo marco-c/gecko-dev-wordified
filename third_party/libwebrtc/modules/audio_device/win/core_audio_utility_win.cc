@@ -275,9 +275,7 @@ flag
 bits
 in
 the
-|
 channel_mask
-|
 .
 The
 relative
@@ -313,9 +311,7 @@ below
 For
 example
 if
-|
 channel_mask
-|
 contains
 /
 /
@@ -1763,9 +1759,7 @@ audio
 device
 specified
 by
-|
 device_id
-|
 or
 a
 default
@@ -1781,9 +1775,7 @@ direction
 and
 role
 if
-|
 device_id
-|
 is
 default
 .
@@ -3330,9 +3322,7 @@ to
 the
 /
 /
-|
 device_names
-|
 queue
 .
 For
@@ -4451,9 +4441,7 @@ default
 sample
 rate
 if
-|
 fixed_sample_rate
-|
 is
 set
 and
@@ -6484,9 +6472,7 @@ but
 hard
 -
 code
-|
 bIsOffload
-|
 to
 FALSE
 for
@@ -7171,9 +7157,7 @@ released
 /
 /
 when
-|
 mix_format
-|
 goes
 out
 of
@@ -7429,9 +7413,7 @@ the
 rare
 case
 where
-|
 mix_format
-|
 only
 contains
 a
@@ -7969,9 +7951,7 @@ client
 /
 /
 The
-|
 default_period
-|
 parameter
 specifies
 the
@@ -7988,9 +7968,7 @@ mode
 stream
 .
 The
-|
 minimum_period
-|
 parameter
 specifies
 the
@@ -8960,9 +8938,7 @@ for
 minimal
 delay
 if
-|
 buffer_duration
-|
 /
 /
 is
@@ -8977,9 +8953,7 @@ more
 robust
 )
 if
-|
 buffer_duration
-|
 is
 /
 /
@@ -9739,9 +9713,7 @@ it
 is
 given
 by
-|
 period_in_frames
-|
 .
 _com_error
 error

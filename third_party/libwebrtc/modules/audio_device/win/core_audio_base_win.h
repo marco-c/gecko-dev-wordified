@@ -492,9 +492,7 @@ stream
 is
 disconnected
 (
-|
 error
-|
 is
 then
 set
@@ -779,9 +777,7 @@ devices
 given
 the
 specified
-|
 direction_
-|
 set
 /
 /
@@ -836,9 +832,7 @@ communications
 The
 value
 in
-|
 direction_
-|
 determines
 if
 capture

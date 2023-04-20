@@ -329,9 +329,7 @@ Replaces
 the
 contents
 of
-|
 buffer
-|
 with
 10ms
 of
@@ -568,15 +566,11 @@ processed
 every
 10ms
 /
-|
 speed
-|
 .
 /
 /
-|
 capturer
-|
 is
 an
 object
@@ -601,9 +595,7 @@ recording
 .
 /
 /
-|
 renderer
-|
 is
 an
 object
@@ -694,9 +686,7 @@ generates
 a
 signal
 of
-|
 num_channels
-|
 /
 /
 channels
@@ -720,9 +710,7 @@ noise
 with
 max
 amplitude
-|
 max_amplitude
-|
 .
 static
 std
@@ -866,9 +854,7 @@ channels
 .
 /
 /
-|
 repeat
-|
 -
 if
 true
@@ -1102,9 +1088,7 @@ data
 Returns
 false
 if
-|
 timeout_ms
-|
 passes
 before
 that
@@ -1143,9 +1127,7 @@ data
 Returns
 false
 if
-|
 timeout_ms
-|
 passes
 before
 that

@@ -1267,9 +1267,7 @@ write
 that
 data
 into
-|
 audio_data
-|
 to
 be
 played

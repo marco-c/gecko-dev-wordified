@@ -650,16 +650,10 @@ pointer
 in
 /
 /
-|
 audio_client3_
-|
-|
 audio_client2_
-|
 or
-|
 audio_client_
-|
 depending
 on
 /
@@ -695,9 +689,7 @@ be
 /
 stored
 in
-|
 format_
-|
 and
 can
 be
@@ -745,9 +737,7 @@ audio
 device
 buffer
 using
-|
 format_
-|
 /
 /
 after
@@ -2294,9 +2284,7 @@ Copy
 recorded
 audio
 in
-|
 audio_data
-|
 to
 the
 WebRTC
@@ -2555,9 +2543,7 @@ nullopt
 /
 Input
 parameter
-|
 capture_time_100ns
-|
 contains
 the
 performance
@@ -2629,9 +2615,7 @@ and
 /
 -
 subtracting
-|
 capture_time_100ns
-|
 from
 now_time_100ns
 .

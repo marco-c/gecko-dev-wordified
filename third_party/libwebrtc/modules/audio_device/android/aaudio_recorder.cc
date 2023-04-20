@@ -983,16 +983,12 @@ kMessageInputStreamDisconnected
 Read
 and
 process
-|
 num_frames
-|
 of
 data
 from
 the
-|
 audio_data
-|
 buffer
 .
 /
@@ -1339,9 +1335,7 @@ Copy
 recorded
 audio
 in
-|
 audio_data
-|
 to
 the
 WebRTC

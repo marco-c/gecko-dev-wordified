@@ -161,9 +161,7 @@ returned
 /
 By
 default
-|
 automatic_restart
-|
 is
 set
 to

@@ -616,13 +616,9 @@ Java
 manged
 /
 /
-|
 byte_buffer
-|
 in
-|
 direct_buffer_address_
-|
 .
 The
 size
@@ -635,9 +631,7 @@ is
 also
 stored
 in
-|
 direct_buffer_capacity_in_bytes_
-|
 .
 /
 /
@@ -716,9 +710,7 @@ indicates
 that
 there
 are
-|
 length
-|
 new
 /
 /
@@ -728,9 +720,7 @@ in
 the
 memory
 area
-|
 direct_buffer_address_
-|
 and
 it
 is
@@ -1037,9 +1027,7 @@ audio
 buffer
 owned
 by
-|
 j_audio_record_
-|
 .
 void
 *
@@ -1057,9 +1045,7 @@ audio
 buffer
 owned
 by
-|
 j_audio_record_
-|
 .
 size_t
 direct_buffer_capacity_in_bytes_

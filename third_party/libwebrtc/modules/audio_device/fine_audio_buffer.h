@@ -256,9 +256,7 @@ public
 :
 /
 /
-|
 device_buffer
-|
 is
 a
 buffer
@@ -340,9 +338,7 @@ Copies
 audio
 samples
 into
-|
 audio_buffer
-|
 where
 number
 of
@@ -391,9 +387,7 @@ provided
 delay
 estimate
 in
-|
 playout_delay_ms
-|
 should
 /
 /
@@ -446,9 +440,7 @@ the
 audio
 data
 in
-|
 audio_buffer
-|
 and
 sends
 it
@@ -473,15 +465,11 @@ estimate
 in
 /
 /
-|
 record_delay_ms
-|
 and
 the
 latest
-|
 playout_delay_ms
-|
 in
 GetPlayoutData
 (
@@ -715,9 +703,7 @@ based
 on
 parameters
 in
-|
 audio_device_buffer
-|
 .
 const
 size_t
@@ -744,9 +730,7 @@ parameters
 in
 /
 /
-|
 audio_device_buffer
-|
 .
 const
 size_t

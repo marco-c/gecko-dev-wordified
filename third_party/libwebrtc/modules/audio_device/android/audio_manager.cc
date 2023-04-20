@@ -707,9 +707,7 @@ use
 /
 the
 selected
-|
 audio_layer
-|
 here
 to
 set

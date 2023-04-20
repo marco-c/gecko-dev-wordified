@@ -303,9 +303,7 @@ happen
 .
 /
 /
-|
 buffer
-|
 is
 the
 audio
@@ -449,9 +447,7 @@ verifies
 .
 /
 /
-|
 iteration
-|
 is
 the
 number
@@ -467,9 +463,7 @@ call
 .
 /
 /
-|
 samples_per_10_ms
-|
 is
 the
 number
@@ -485,9 +479,7 @@ the
 /
 buffer
 (
-|
 arg0
-|
 )
 .
 ACTION_P2
@@ -575,9 +567,7 @@ pattern
 to
 the
 supplied
-|
 buffer
-|
 .
 See
 UpdateBuffer
@@ -660,9 +650,7 @@ data
 /
 (
 in
-|
 arg0
-|
 )
 contains
 the

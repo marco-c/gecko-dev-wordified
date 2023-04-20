@@ -7406,9 +7406,7 @@ intended
 (
 by
 checking
-|
 _recording
-|
 )
 before
 accessing
@@ -8036,9 +8034,7 @@ intended
 (
 by
 checking
-|
 _playing
-|
 )
 before
 accessing

@@ -290,9 +290,7 @@ is
 100
 nanoseconds
 hence
-|
 kReftimesPerSec
-|
 /
 /
 corresponds
@@ -1341,9 +1339,7 @@ const
 Returns
 true
 if
-|
 device_id
-|
 corresponds
 to
 the
@@ -1378,9 +1374,7 @@ a
 default
 device
 )
-|
 device_id
-|
 will
 also
 math
@@ -1452,9 +1446,7 @@ const
 Returns
 true
 if
-|
 device_id
-|
 corresponds
 to
 the
@@ -1490,9 +1482,7 @@ a
 communication
 device
 )
-|
 device_id
-|
 will
 /
 /
@@ -2185,13 +2175,9 @@ an
 existing
 combination
 of
-|
 device_index_
-|
 and
-|
 device_id_
-|
 to
 set
 /
@@ -2217,13 +2203,9 @@ parent
 class
 to
 set
-|
 device_index_
-|
 and
-|
 device_id_
-|
 .
 std
 :
@@ -2665,9 +2647,7 @@ output
 WAVEFORMATEXTENSIBLE
 format
 in
-|
 format_
-|
 .
 WAVEFORMATEX
 *
@@ -3404,9 +3384,7 @@ henrika
 :
 possibly
 increase
-|
 requested_buffer_size
-|
 to
 add
 /
@@ -6580,9 +6558,7 @@ WAIT_OBJECT_0
 :
 /
 /
-|
 stop_event_
-|
 has
 been
 set
@@ -6600,9 +6576,7 @@ WAIT_OBJECT_0
 :
 /
 /
-|
 restart_event_
-|
 has
 been
 set
@@ -6623,9 +6597,7 @@ WAIT_OBJECT_0
 :
 /
 /
-|
 audio_samples_event_
-|
 has
 been
 set

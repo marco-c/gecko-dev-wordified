@@ -26279,9 +26279,7 @@ copy
 available
 data
 to
-|
 dmoBuffer
-|
 and
 should
 only
@@ -26295,9 +26293,7 @@ frames
 The
 value
 of
-|
 dwStatus
-|
 should
 be
 ignored

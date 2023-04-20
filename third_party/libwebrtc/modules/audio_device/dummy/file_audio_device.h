@@ -204,9 +204,7 @@ file
 audio
 device
 with
-|
 id
-|
 .
 It
 will
@@ -215,17 +213,13 @@ audio
 from
 /
 /
-|
 inputFilename
-|
 and
 record
 output
 audio
 to
-|
 outputFilename
-|
 .
 /
 /
