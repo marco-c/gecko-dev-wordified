@@ -808,6 +808,13 @@ nsILocalFileMac
 h
 "
 #
+include
+"
+nsIMacUtils
+.
+h
+"
+#
 endif
 /
 /
