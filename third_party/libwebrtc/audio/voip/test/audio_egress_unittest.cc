@@ -298,10 +298,13 @@ remote_ssrc
 auto
 rtp_rtcp
 =
+std
+:
+:
+make_unique
+<
 ModuleRtpRtcpImpl2
-:
-:
-Create
+>
 (
 rtp_config
 )
