@@ -968,15 +968,7 @@ _timing
 StopDecodeTimer
 (
 decode_time
-.
-ms
-(
-)
 now
-.
-ms
-(
-)
 )
 ;
 decodedImage

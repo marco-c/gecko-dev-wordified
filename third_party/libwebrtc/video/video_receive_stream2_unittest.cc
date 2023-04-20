@@ -1151,6 +1151,10 @@ timing_
 min_playout_delay
 (
 )
+.
+ms
+(
+)
 )
 ;
 EXPECT_EQ
@@ -1162,6 +1166,10 @@ timing_
 -
 >
 max_playout_delay
+(
+)
+.
+ms
 (
 )
 )
@@ -1192,6 +1200,10 @@ timing_
 -
 >
 min_playout_delay
+(
+)
+.
+ms
 (
 )
 )
@@ -1247,6 +1259,10 @@ timing_
 min_playout_delay
 (
 )
+.
+ms
+(
+)
 )
 ;
 /
@@ -1283,6 +1299,10 @@ timing_
 min_playout_delay
 (
 )
+.
+ms
+(
+)
 )
 ;
 video_receive_stream_
@@ -1302,6 +1322,10 @@ timing_
 min_playout_delay
 (
 )
+.
+ms
+(
+)
 )
 ;
 }
@@ -1312,7 +1336,7 @@ PlayoutDelayPreservesDefaultMaxValue
 )
 {
 const
-int
+TimeDelta
 default_max_playout_latency
 =
 timing_
@@ -1401,6 +1425,10 @@ timing_
 min_playout_delay
 (
 )
+.
+ms
+(
+)
 )
 ;
 EXPECT_NE
@@ -1412,6 +1440,10 @@ timing_
 -
 >
 max_playout_delay
+(
+)
+.
+ms
 (
 )
 )
@@ -1435,7 +1467,7 @@ PlayoutDelayPreservesDefaultMinValue
 )
 {
 const
-int
+TimeDelta
 default_min_playout_latency
 =
 timing_
@@ -1524,6 +1556,10 @@ timing_
 min_playout_delay
 (
 )
+.
+ms
+(
+)
 )
 ;
 EXPECT_EQ
@@ -1535,6 +1571,10 @@ timing_
 -
 >
 max_playout_delay
+(
+)
+.
+ms
 (
 )
 )

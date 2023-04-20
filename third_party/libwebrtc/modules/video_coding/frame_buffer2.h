@@ -798,8 +798,8 @@ const
 int64_t
 FindNextFrame
 (
-int64_t
-now_ms
+Timestamp
+now
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
