@@ -274,8 +274,7 @@ _1
 _2
 )
 \
-type
-*
+void
 on
 #
 #
@@ -286,7 +285,8 @@ Edge
 (
 type
 *
-thing
+*
+thingp
 const
 char
 *
