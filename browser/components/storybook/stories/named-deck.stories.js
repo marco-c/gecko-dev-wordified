@@ -252,6 +252,9 @@ tabs
 -
 deck
 "
+is
+-
+tabbed
 >
 <
 p
@@ -606,6 +609,9 @@ list
 -
 deck
 "
+is
+-
+tabbed
 >
 <
 section
