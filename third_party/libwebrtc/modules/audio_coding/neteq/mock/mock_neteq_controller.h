@@ -370,6 +370,17 @@ override
 ;
 MOCK_METHOD
 (
+void
+NotifyMutedState
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
 bool
 PeakFound
 (

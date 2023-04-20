@@ -2460,6 +2460,7 @@ EXPECT_CALL
 mock_packet_buffer_
 Flush
 (
+_
 )
 )
 .
@@ -2474,6 +2475,9 @@ EXPECT_CALL
 mock_packet_buffer_
 InsertPacketList
 (
+_
+_
+_
 _
 _
 _
