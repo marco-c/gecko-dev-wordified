@@ -1606,7 +1606,7 @@ stats_ref
 .
 speech_expand_rate
 =
-1065
+898
 ;
 RunTest
 (
