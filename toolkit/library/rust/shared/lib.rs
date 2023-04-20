@@ -731,6 +731,7 @@ purposes
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -752,8 +753,6 @@ panic
 {
 }
 "
-unsafe
-{
 CStr
 :
 :
@@ -761,7 +760,6 @@ from_ptr
 (
 message
 )
-}
 .
 to_string_lossy
 (
@@ -788,6 +786,7 @@ purposes
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -806,8 +805,6 @@ message
 const
 c_char
 )
-{
-unsafe
 {
 /
 /
@@ -870,5 +867,4 @@ unwrap
 )
 )
 ;
-}
 }

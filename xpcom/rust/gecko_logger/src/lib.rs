@@ -983,6 +983,7 @@ true
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1085,8 +1086,6 @@ let
 mut
 mod_name
 =
-unsafe
-{
 CStr
 :
 :
@@ -1094,7 +1093,6 @@ from_ptr
 (
 module
 )
-}
 .
 to_string_lossy
 (

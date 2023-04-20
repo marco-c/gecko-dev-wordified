@@ -314,6 +314,7 @@ None
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -344,8 +345,6 @@ bool
 let
 debug_path
 =
-unsafe
-{
 CStr
 :
 :
@@ -357,7 +356,6 @@ debug_path
 to_string_lossy
 (
 )
-}
 ;
 let
 breakpad_id
@@ -374,8 +372,6 @@ None
 else
 {
 match
-unsafe
-{
 CStr
 :
 :
@@ -387,7 +383,6 @@ breakpad_id
 to_str
 (
 )
-}
 {
 Ok
 (
@@ -465,6 +460,7 @@ false
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -529,8 +525,6 @@ buffer
 mut
 u8
 =
-unsafe
-{
 mem
 :
 :
@@ -538,14 +532,11 @@ transmute
 (
 buffer
 )
-}
 ;
 let
 mangled
 =
 match
-unsafe
-{
 CStr
 :
 :
@@ -557,7 +548,6 @@ mangled
 to_str
 (
 )
-}
 {
 Ok
 (
@@ -635,8 +625,6 @@ as_bytes
 (
 )
 ;
-unsafe
-{
 ptr
 :
 :
@@ -675,7 +663,6 @@ isize
 0
 )
 ;
-}
 true
 }
 Err

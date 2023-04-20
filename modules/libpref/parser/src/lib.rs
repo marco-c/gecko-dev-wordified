@@ -1529,6 +1529,7 @@ cpp
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1566,8 +1567,6 @@ bool
 let
 path
 =
-unsafe
-{
 std
 :
 :
@@ -1589,7 +1588,6 @@ to_string_lossy
 into_owned
 (
 )
-}
 ;
 /
 /
@@ -1619,8 +1617,6 @@ EOF
 let
 buf
 =
-unsafe
-{
 std
 :
 :
@@ -1638,7 +1634,6 @@ len
 +
 1
 )
-}
 ;
 assert
 !
