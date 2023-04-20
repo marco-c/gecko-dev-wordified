@@ -6947,6 +6947,7 @@ mRequestedAttrs
 [
 NUM_OF_SUPPORTED_ATTRS
 ]
+=
 {
 false
 }
@@ -7122,6 +7123,8 @@ unlocked
 .
 bool
 mPendingDestroy
+=
+false
 ;
 /
 /
