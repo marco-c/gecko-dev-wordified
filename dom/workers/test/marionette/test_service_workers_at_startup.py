@@ -106,6 +106,9 @@ marionette
 .
 restart
 (
+in_app
+=
+False
 clean
 =
 True
@@ -283,12 +286,6 @@ marionette
 .
 restart
 (
-clean
-=
-False
-in_app
-=
-True
 )
 seems
 to
@@ -340,12 +337,6 @@ marionette
 .
 quit
 (
-clean
-=
-False
-in_app
-=
-True
 )
         
 self

@@ -247,9 +247,6 @@ marionette
 .
 quit
 (
-in_app
-=
-True
 )
         
 self
