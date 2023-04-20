@@ -1041,6 +1041,17 @@ GetDelegate
 key
 )
 ;
+JSTracer
+*
+trc
+=
+marker
+-
+>
+tracer
+(
+)
+;
 if
 (
 delegate
@@ -1115,7 +1126,7 @@ proxyPreserveColor
 {
 TraceWeakMapKeyEdge
 (
-marker
+trc
 zone
 (
 )
@@ -1232,7 +1243,7 @@ targetColor
 {
 TraceEdge
 (
-marker
+trc
 &
 value
 "
@@ -1310,7 +1321,7 @@ mapColor
 {
 MOZ_ASSERT
 (
-marker
+trc
 -
 >
 weakMapAction

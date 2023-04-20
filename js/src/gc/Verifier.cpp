@@ -3859,6 +3859,11 @@ gc
 traceRuntimeForMajorGC
 (
 gcmarker
+-
+>
+tracer
+(
+)
 session
 )
 ;
