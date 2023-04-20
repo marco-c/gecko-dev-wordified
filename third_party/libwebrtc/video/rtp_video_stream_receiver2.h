@@ -387,7 +387,7 @@ modules
 /
 video_coding
 /
-nack_module2
+nack_requester
 .
 h
 "
@@ -497,7 +497,7 @@ namespace
 webrtc
 {
 class
-NackModule2
+NackRequester
 ;
 class
 PacketRouter
@@ -2007,7 +2007,7 @@ std
 :
 unique_ptr
 <
-NackModule2
+NackRequester
 >
 nack_module_
 ;

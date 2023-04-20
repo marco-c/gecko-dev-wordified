@@ -407,7 +407,7 @@ modules
 /
 video_coding
 /
-nack_module2
+nack_requester
 .
 h
 "
@@ -845,7 +845,7 @@ std
 :
 unique_ptr
 <
-NackModule2
+NackRequester
 >
 MaybeConstructNackModule
 (
@@ -915,7 +915,7 @@ std
 :
 make_unique
 <
-NackModule2
+NackRequester
 >
 (
 current_queue
