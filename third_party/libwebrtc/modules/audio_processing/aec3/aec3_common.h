@@ -179,7 +179,7 @@ constexpr
 int
 kMetricsComputationBlocks
 =
-7
+3
 ;
 constexpr
 int
