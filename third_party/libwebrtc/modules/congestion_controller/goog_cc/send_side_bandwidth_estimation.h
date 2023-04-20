@@ -567,9 +567,9 @@ ReceiveBlock
 void
 UpdatePacketsLost
 (
-int
+int64_t
 packets_lost
-int
+int64_t
 number_of_packets
 Timestamp
 at_time
