@@ -25766,7 +25766,7 @@ auth
 .
 enabled
 "
-false
+true
 )
 ;
 /
