@@ -759,10 +759,6 @@ JSON
 stringify
 (
 {
-message
-:
-"
-"
 screen
 :
 "
