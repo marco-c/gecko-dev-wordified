@@ -164,7 +164,7 @@ level
 =
 =
 "
-warning
+error
 "
     
 lint
