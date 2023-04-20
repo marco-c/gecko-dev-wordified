@@ -4655,6 +4655,7 @@ ErrorOffset
 &
 offset
 )
+const
 override
 ;
 using

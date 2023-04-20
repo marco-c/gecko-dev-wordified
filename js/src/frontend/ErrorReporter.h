@@ -487,6 +487,7 @@ ErrorOffset
 &
 offset
 )
+const
 =
 0
 ;
@@ -660,6 +661,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -707,6 +709,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -757,6 +760,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -804,6 +808,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -850,6 +855,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -897,6 +903,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -954,6 +961,7 @@ va_list
 *
 args
 )
+const
 {
 ErrorMetadata
 metadata
@@ -1090,6 +1098,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1145,6 +1154,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1196,6 +1206,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1258,6 +1269,7 @@ va_list
 *
 args
 )
+const
 {
 ErrorMetadata
 metadata
@@ -1401,6 +1413,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1459,6 +1472,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1520,6 +1534,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1578,6 +1593,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1635,6 +1651,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1693,6 +1710,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -1761,6 +1779,7 @@ va_list
 *
 args
 )
+const
 {
 if
 (
@@ -1859,6 +1878,7 @@ va_list
 *
 args
 )
+const
 {
 return
 ReportCompileWarning
