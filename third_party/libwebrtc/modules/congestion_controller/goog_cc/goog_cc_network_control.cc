@@ -688,6 +688,7 @@ make_unique
 SendSideBandwidthEstimation
 >
 (
+key_value_config_
 event_log_
 )
 )
