@@ -819,14 +819,6 @@ get
 )
 )
 ;
-mActor
--
->
-SetAccessHandle
-(
-this
-)
-;
 }
 FileSystemSyncAccessHandle
 :
