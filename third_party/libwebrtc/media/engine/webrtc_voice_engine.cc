@@ -8915,6 +8915,12 @@ call
 VoiceMediaChannel
 (
 config
+call
+-
+>
+network_thread
+(
+)
 )
 worker_thread_
 (

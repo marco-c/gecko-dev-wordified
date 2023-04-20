@@ -5067,6 +5067,12 @@ bitrate_allocator_factory
 VideoMediaChannel
 (
 config
+call
+-
+>
+network_thread
+(
+)
 )
 worker_thread_
 (
@@ -13168,7 +13174,7 @@ iface
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+network_thread_checker_
 )
 ;
 MediaChannel
