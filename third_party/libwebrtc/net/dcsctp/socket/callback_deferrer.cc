@@ -443,6 +443,14 @@ CallbackDeferrer
 :
 CreateTimeout
 (
+webrtc
+:
+:
+TaskQueueBase
+:
+:
+DelayPrecision
+precision
 )
 {
 /
@@ -460,6 +468,7 @@ underlying_
 .
 CreateTimeout
 (
+precision
 )
 ;
 }
