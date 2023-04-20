@@ -3979,7 +3979,7 @@ nsWindow
 sCurrentWindow
 ;
 static
-BOOL
+bool
 sIsOleInitialized
 ;
 static
