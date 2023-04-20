@@ -2217,7 +2217,7 @@ androidVideoWaitTime
 "
             
 "
-10000
+20000
 "
             
 #
