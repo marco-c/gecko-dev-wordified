@@ -1141,6 +1141,11 @@ var
 gTestserver
 ;
 var
+gUpdateCheckCount
+=
+0
+;
+var
 gIncrementalDownloadErrorType
 ;
 var
@@ -26329,6 +26334,11 @@ aMetadata
 aResponse
 )
 {
+gUpdateCheckCount
++
+=
+1
+;
 aResponse
 .
 setHeader
