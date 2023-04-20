@@ -134,7 +134,7 @@ return
 SandboxingKind
 :
 :
-UTILITY_AUDIO_DECODING_GENERIC
+GENERIC_UTILITY
 ;
 #
 ifdef
@@ -223,7 +223,7 @@ case
 SandboxingKind
 :
 :
-UTILITY_AUDIO_DECODING_GENERIC
+GENERIC_UTILITY
 :
 return
 RemoteDecodeIn

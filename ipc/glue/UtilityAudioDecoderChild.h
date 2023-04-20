@@ -309,7 +309,7 @@ mSandbox
 )
 {
 case
-UTILITY_AUDIO_DECODING_GENERIC
+GENERIC_UTILITY
 :
 return
 UtilityActorName
