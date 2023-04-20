@@ -646,6 +646,25 @@ mParent
 )
 )
 {
+data
+-
+>
+mPromise
+-
+>
+MaybeRejectWithInvalidStateError
+(
+"
+Couldn
+'
+t
+get
+the
+global
+.
+"
+)
+;
 return
 ;
 }
@@ -658,9 +677,6 @@ jsapi
 cx
 (
 )
-;
-ErrorResult
-rv
 ;
 /
 /
@@ -721,7 +737,6 @@ data
 -
 >
 mPromise
-rv
 )
 ;
 }
@@ -803,7 +818,6 @@ data
 >
 mPromise
 key
-rv
 )
 ;
 break
@@ -844,7 +858,6 @@ data
 >
 mPromise
 value
-rv
 )
 ;
 break
@@ -902,7 +915,6 @@ data
 mPromise
 key
 value
-rv
 )
 ;
 break
