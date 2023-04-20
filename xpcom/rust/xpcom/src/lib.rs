@@ -255,6 +255,16 @@ services
 ;
 /
 /
+XPCOM
+component
+getters
+.
+pub
+mod
+components
+;
+/
+/
 Implementation
 details
 of
