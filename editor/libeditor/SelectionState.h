@@ -1477,7 +1477,7 @@ content
 .
 *
 param
-aOffsetOfJoinedContent
+aExOffsetOfRightContent
 The
 offset
 which
@@ -1505,7 +1505,7 @@ nsIContent
 &
 aRemovedContent
 uint32_t
-aOffsetOfJoinedContent
+aExOffsetOfRightContent
 JoinNodesDirection
 aJoinNodesDirection
 )
