@@ -255,6 +255,16 @@ ms
 ;
 }
 Timestamp
+log_time
+(
+)
+const
+{
+return
+timestamp
+;
+}
+Timestamp
 utc_time
 (
 )
