@@ -410,7 +410,7 @@ if
 (
 field_trials
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
@@ -428,7 +428,7 @@ std
 :
 make_unique
 <
-PrioritizedPacketQueue
+RoundRobinPacketQueue
 >
 (
 creation_time
@@ -441,7 +441,7 @@ std
 :
 make_unique
 <
-RoundRobinPacketQueue
+PrioritizedPacketQueue
 >
 (
 creation_time
