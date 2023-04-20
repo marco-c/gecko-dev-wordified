@@ -66,6 +66,7 @@ const
 buildConcat
 =
 (
+operationName
 builder
 resources
 )
@@ -135,6 +136,14 @@ shape
 )
 ;
 }
+/
+/
+invoke
+builder
+.
+concat
+(
+)
 namedOutputOperand
 [
 resources
@@ -145,8 +154,9 @@ name
 ]
 =
 builder
-.
-concat
+[
+operationName
+]
 (
 inputOperands
 resources
