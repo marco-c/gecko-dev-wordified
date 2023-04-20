@@ -941,6 +941,12 @@ return
 mAuthorStyleDisabled
 ;
 }
+bool
+UsesFontMetrics
+(
+)
+const
+;
 void
 SetAuthorStyleDisabled
 (

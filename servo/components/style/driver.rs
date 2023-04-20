@@ -794,11 +794,6 @@ ThreadLocalStyleContext
 :
 new
 (
-traversal
-.
-shared_context
-(
-)
 )
 ;
 let
