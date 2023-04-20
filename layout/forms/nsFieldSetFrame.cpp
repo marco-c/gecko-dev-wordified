@@ -6161,10 +6161,7 @@ MOZ_ASSERT
 aListID
 !
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 |
 |
 GetInner
@@ -6214,10 +6211,7 @@ MOZ_ASSERT
 aListID
 =
 =
-FrameChildListID
-:
-:
-NoReflowPrincipal
+kNoReflowPrincipalList
 &
 &
 HasAnyStateBits
@@ -6303,10 +6297,7 @@ MOZ_ASSERT
 aListID
 =
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 &
 &
 !
@@ -6995,10 +6986,7 @@ nsContainerFrame
 :
 RemoveFrame
 (
-FrameChildListID
-:
-:
-NoReflowPrincipal
+kNoReflowPrincipalList
 nif
 )
 ;

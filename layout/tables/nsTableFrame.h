@@ -799,15 +799,11 @@ an
 additional
 child
 list
-FrameChildListID
-:
-:
-ColGroup
+kColGroupList
 which
 contains
 the
 col
-*
 group
 frames
 .

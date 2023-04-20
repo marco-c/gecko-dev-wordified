@@ -5038,12 +5038,7 @@ actually
 need
 to
 exclude
-FrameChildListID
-:
-:
-OverflowOutOfFlow
-/
-/
+kOverflowOutOfFlowList
 too
 ?
 if
@@ -5054,7 +5049,7 @@ listID
 FrameChildListID
 :
 :
-Absolute
+kAbsoluteList
 |
 |
 listID
@@ -5063,7 +5058,7 @@ listID
 FrameChildListID
 :
 :
-Fixed
+kFixedList
 |
 |
 listID
@@ -5072,7 +5067,7 @@ listID
 FrameChildListID
 :
 :
-Float
+kFloatList
 |
 |
 listID
@@ -5081,7 +5076,7 @@ listID
 FrameChildListID
 :
 :
-OverflowOutOfFlow
+kOverflowOutOfFlowList
 )
 {
 continue
@@ -5222,7 +5217,7 @@ GetChildList
 FrameChildListID
 :
 :
-Absolute
+kAbsoluteList
 )
 ;
 if

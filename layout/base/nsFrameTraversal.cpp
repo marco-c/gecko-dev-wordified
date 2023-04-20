@@ -175,6 +175,13 @@ nsIFrameEnumerator
 {
 public
 :
+typedef
+nsIFrame
+:
+:
+ChildListID
+ChildListID
+;
 NS_DECL_ISUPPORTS
 virtual
 void

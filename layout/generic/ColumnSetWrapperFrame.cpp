@@ -617,14 +617,8 @@ listIDs
 ]
 =
 {
-FrameChildListID
-:
-:
-Principal
-FrameChildListID
-:
-:
-Overflow
+kPrincipalList
+kOverflowList
 }
 ;
 for

@@ -682,12 +682,9 @@ an
 additional
 child
 list
-FrameChildListID
-:
-:
-Absolute
-*
+kAbsoluteList
 which
+*
 contains
 the
 absolutely

@@ -7576,10 +7576,7 @@ if
 aListID
 !
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 )
 {
 return

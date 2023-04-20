@@ -5191,10 +5191,7 @@ if
 aListID
 =
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 )
 {
 /
