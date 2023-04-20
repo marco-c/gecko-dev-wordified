@@ -1198,6 +1198,16 @@ EditorUtils
 .
 h
 class
+CaretPoint
+;
+/
+/
+mozilla
+/
+EditorUtils
+.
+h
+class
 ChangeStyleTransaction
 ;
 /
