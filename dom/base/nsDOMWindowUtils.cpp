@@ -15874,8 +15874,10 @@ if
 presContext
 )
 {
+RefPtr
+<
 nsRefreshDriver
-*
+>
 driver
 =
 presContext
