@@ -408,7 +408,9 @@ if
 data
 -
 >
-mIsCancelled
+IsCancelled
+(
+)
 )
 {
 /
@@ -562,7 +564,9 @@ status
 data
 -
 >
-mIsCancelled
+IsCancelled
+(
+)
 ?
 cancelledStatus
 :
