@@ -219,6 +219,10 @@ aResponseStatus
 void
 Cancel
 (
+const
+nsACString
+&
+aReason
 )
 ;
 void

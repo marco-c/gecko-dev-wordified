@@ -240,6 +240,10 @@ aPreloader
 void
 CancelAllOngoingPreloads
 (
+const
+nsACString
+&
+aReason
 )
 ;
 /
@@ -498,6 +502,10 @@ CancelChannel
 (
 nsresult
 aStatus
+const
+nsACString
+&
+aReason
 )
 ;
 void
