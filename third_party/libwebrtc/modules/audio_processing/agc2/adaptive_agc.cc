@@ -516,6 +516,13 @@ sample_rate_hz
 num_channels
 )
 ;
+vad_
+.
+Initialize
+(
+sample_rate_hz
+)
+;
 }
 void
 AdaptiveAgc
