@@ -21463,14 +21463,6 @@ packet_sink_
 =
 flexfec_stream_
 ;
-config
-.
-stream_id
-=
-stream_params_
-.
-id
-;
 stream_
 =
 call_

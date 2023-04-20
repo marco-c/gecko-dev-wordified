@@ -1971,14 +1971,11 @@ config_
 decoder_factory
 -
 >
-LegacyCreateVideoDecoder
+CreateVideoDecoder
 (
 decoder
 .
 video_format
-config_
-.
-stream_id
 )
 ;
 /
