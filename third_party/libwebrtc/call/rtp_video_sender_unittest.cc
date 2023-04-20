@@ -6817,7 +6817,6 @@ test
 kSsrc1
 }
 {
-kRtxSsrc1
 }
 kPayloadType
 {
