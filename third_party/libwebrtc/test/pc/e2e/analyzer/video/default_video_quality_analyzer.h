@@ -3643,6 +3643,11 @@ StatsKey
 &
 key
 )
+const
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+lock_
+)
 ;
 void
 StartMeasuringCpuProcessTime
@@ -3708,6 +3713,10 @@ std
 string
 test_label_
 ;
+mutable
+Mutex
+lock_
+;
 std
 :
 :
@@ -3716,10 +3725,10 @@ unique_ptr
 NamesCollection
 >
 peers_
-;
-mutable
-Mutex
+RTC_GUARDED_BY
+(
 lock_
+)
 ;
 State
 state_
