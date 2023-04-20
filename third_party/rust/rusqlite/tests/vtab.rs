@@ -264,6 +264,7 @@ open
 &
 '
 vtab
+mut
 self
 )
 -
@@ -529,7 +530,7 @@ version_number
 if
 version
 <
-3_008_012
+3_009_000
 {
 return
 Ok

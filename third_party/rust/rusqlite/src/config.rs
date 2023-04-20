@@ -328,6 +328,13 @@ SQLITE_DBCONFIG_RESET_DATABASE
 1009
 /
 /
+3
+.
+24
+.
+0
+/
+/
 /
 Activates
 or

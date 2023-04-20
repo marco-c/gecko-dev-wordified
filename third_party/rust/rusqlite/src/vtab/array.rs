@@ -977,6 +977,7 @@ fn
 open
 (
 &
+mut
 self
 )
 -

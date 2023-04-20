@@ -77,6 +77,7 @@ derive
 Clone
 Copy
 Debug
+Eq
 PartialEq
 )
 ]
@@ -221,7 +222,7 @@ UNKNOWN
 /
 The
 context
-recieved
+received
 by
 an
 authorizer
@@ -260,6 +261,7 @@ derive
 Clone
 Copy
 Debug
+Eq
 PartialEq
 )
 ]
@@ -400,6 +402,7 @@ derive
 Clone
 Copy
 Debug
+Eq
 PartialEq
 )
 ]
@@ -1695,6 +1698,13 @@ modern_sqlite
 "
 )
 ]
+/
+/
+3
+.
+8
+.
+3
 (
 ffi
 :
@@ -1775,6 +1785,7 @@ derive
 Clone
 Copy
 Debug
+Eq
 PartialEq
 )
 ]
@@ -1874,6 +1885,7 @@ derive
 Clone
 Copy
 Debug
+Eq
 PartialEq
 )
 ]

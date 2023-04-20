@@ -1246,17 +1246,6 @@ errmsg
 as
 *
 mut
-:
-:
-std
-:
-:
-os
-:
-:
-raw
-:
-:
 c_void
 )
 ;
