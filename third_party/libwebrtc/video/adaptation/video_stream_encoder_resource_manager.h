@@ -717,7 +717,7 @@ degradation_preference
 const
 ;
 void
-EnsureEncodeUsageResourceStarted
+ConfigureEncodeUsageResource
 (
 )
 ;

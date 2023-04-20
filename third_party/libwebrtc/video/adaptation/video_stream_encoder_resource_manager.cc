@@ -1744,7 +1744,7 @@ void
 VideoStreamEncoderResourceManager
 :
 :
-EnsureEncodeUsageResourceStarted
+ConfigureEncodeUsageResource
 (
 )
 {
