@@ -2214,7 +2214,7 @@ size
 bytes
 .
 size_t
-RemoveNonWhitelistedRtcpBlocks
+RemoveNonAllowlistedRtcpBlocks
 (
 const
 rtc
@@ -2462,7 +2462,7 @@ in
 the
 packet
 are
-whitelisted
+allowlisted
 types
 .
 memcpy
@@ -2625,7 +2625,7 @@ size
 size_t
 buffer_length
 =
-RemoveNonWhitelistedRtcpBlocks
+RemoveNonAllowlistedRtcpBlocks
 (
 base_event
 -
@@ -2904,7 +2904,7 @@ const
 size_t
 buffer_length
 =
-RemoveNonWhitelistedRtcpBlocks
+RemoveNonAllowlistedRtcpBlocks
 (
 event
 -
