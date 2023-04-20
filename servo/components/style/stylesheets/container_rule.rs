@@ -1359,6 +1359,12 @@ potential_container
 .
 query_container_size
 (
+&
+box_style
+.
+clone_display
+(
+)
 )
 ;
 let
@@ -2988,6 +2994,12 @@ e
 .
 query_container_size
 (
+&
+box_style
+.
+clone_display
+(
+)
 )
 ;
 match
