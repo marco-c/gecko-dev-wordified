@@ -646,9 +646,7 @@ Java
 class
 specified
 by
-|
 name
-|
 .
 /
 /
@@ -668,9 +666,7 @@ the
 static
 /
 /
-|
 loaded_classes
-|
 array
 defined
 in
@@ -1010,13 +1006,9 @@ method
 can
 now
 use
-|
 reg
-|
 and
-|
 obj
-|
 and
 call
 Java
@@ -1328,9 +1320,7 @@ JavaClass
 object
 given
 class
-|
 name
-|
 .
 /
 /
@@ -1350,9 +1340,7 @@ the
 static
 /
 /
-|
 loaded_classes
-|
 array
 defined
 in

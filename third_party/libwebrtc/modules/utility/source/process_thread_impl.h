@@ -482,9 +482,7 @@ run_at_ms
 DelayedTask
 owns
 the
-|
 task
-|
 but
 some
 delayed
@@ -549,9 +547,7 @@ Thus
 lifetime
 of
 the
-|
 task
-|
 is
 managed
 manually
