@@ -536,9 +536,6 @@ while
 emitting
 bytecode
 .
-frontend
-:
-:
 FunctionDeclarationVector
 functionDecls_
 ;

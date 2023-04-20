@@ -5138,9 +5138,6 @@ and
 VM
 .
 static
-frontend
-:
-:
 FunctionDeclarationVector
 *
 GetFunctionDeclarations
@@ -5180,9 +5177,6 @@ nullptr
 return
 static_cast
 <
-frontend
-:
-:
 FunctionDeclarationVector
 *
 >
@@ -5202,9 +5196,6 @@ InitFunctionDeclarations
 ModuleObject
 *
 module
-frontend
-:
-:
 FunctionDeclarationVector
 &
 &
@@ -5306,9 +5297,6 @@ MemoryUse
 ModuleBindingMap
 )
 ;
-frontend
-:
-:
 FunctionDeclarationVector
 *
 funDecls
@@ -5318,9 +5306,6 @@ cx
 >
 new_
 <
-frontend
-:
-:
 FunctionDeclarationVector
 >
 (
@@ -5421,9 +5406,6 @@ ModuleBindingMap
 }
 if
 (
-frontend
-:
-:
 FunctionDeclarationVector
 *
 funDecls
@@ -7849,9 +7831,6 @@ manages
 this
 vector
 .
-frontend
-:
-:
 FunctionDeclarationVector
 *
 funDecls
