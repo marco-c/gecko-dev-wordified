@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-MockPermissionPrompt
-"
-]
-;
 const
 Cm
 =
@@ -151,6 +142,7 @@ nsIFactory
 )
 }
 ;
+export
 var
 MockPermissionPrompt
 =

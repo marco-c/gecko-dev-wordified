@@ -113,15 +113,6 @@ caller
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SpecialPowersSandbox
-"
-]
-;
 const
 lazy
 =
@@ -262,6 +253,7 @@ false
 ;
 }
 }
+export
 class
 SpecialPowersSandbox
 {

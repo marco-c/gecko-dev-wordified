@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-MockColorPicker
-"
-]
-;
 const
 lazy
 =
@@ -191,6 +182,7 @@ nsIFactory
 ;
 }
 ;
+export
 var
 MockColorPicker
 =

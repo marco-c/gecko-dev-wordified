@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -157,15 +152,6 @@ Cu
 crashIfNotInAutomation
 (
 )
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-WrapPrivileged
-"
-]
 ;
 let
 wrappedObjects
@@ -2595,6 +2581,7 @@ x
 )
 ;
 }
+export
 var
 WrapPrivileged
 =

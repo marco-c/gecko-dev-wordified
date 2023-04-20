@@ -7089,7 +7089,7 @@ ContentTask
 =
 _EU_ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -7102,7 +7102,9 @@ common
 /
 ContentTask
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -8218,7 +8220,7 @@ ContentTask
 =
 _EU_ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -8231,7 +8233,9 @@ common
 /
 ContentTask
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

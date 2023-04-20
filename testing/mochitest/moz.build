@@ -203,7 +203,9 @@ js
 "
 ShutdownLeaksCollector
 .
-jsm
+sys
+.
+mjs
 "
 ]
 FINAL_TARGET_FILES

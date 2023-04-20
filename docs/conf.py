@@ -482,7 +482,9 @@ modules
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
     
 "
@@ -495,7 +497,9 @@ modules
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
     
 "
