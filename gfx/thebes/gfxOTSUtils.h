@@ -295,6 +295,16 @@ mPtr
 )
 ;
 }
+size_t
+size
+(
+)
+override
+{
+return
+mLimit
+;
+}
 /
 /
 Return
