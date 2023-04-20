@@ -284,11 +284,6 @@ FetchTypes
 .
 ipdlh
 "
-"
-IPCChannelInfo
-.
-ipdlh
-"
 ]
 LOCAL_INCLUDES
 +

@@ -1404,7 +1404,7 @@ Guard
 ;
 aOut
 .
-channelInfo
+securityInfo
 (
 )
 =
@@ -1414,7 +1414,7 @@ GetChannelInfo
 (
 )
 .
-AsIPCChannelInfo
+SecurityInfo
 (
 )
 ;
@@ -2008,7 +2008,7 @@ InitChannelInfo
 (
 aIn
 .
-channelInfo
+securityInfo
 (
 )
 )
