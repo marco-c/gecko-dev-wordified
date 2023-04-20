@@ -9233,6 +9233,13 @@ of
 the
 packet
 .
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 RTC_DCHECK_EQ
 (
 media_type
@@ -9242,6 +9249,8 @@ MediaType
 ANY
 )
 ;
+#
+endif
 /
 /
 TODO
