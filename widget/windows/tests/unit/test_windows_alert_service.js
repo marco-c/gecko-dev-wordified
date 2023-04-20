@@ -711,7 +711,7 @@ binding
 template
 =
 "
-ToastText03
+ToastGeneric
 "
 >
 <
@@ -830,7 +830,7 @@ binding
 template
 =
 "
-ToastImageAndText03
+ToastGeneric
 "
 >
 <
@@ -978,7 +978,7 @@ binding
 template
 =
 "
-ToastImageAndText03
+ToastGeneric
 "
 >
 <
@@ -1119,7 +1119,7 @@ binding
 template
 =
 "
-ToastImageAndText03
+ToastGeneric
 "
 >
 <
@@ -1624,7 +1624,7 @@ binding
 template
 =
 "
-ToastImageAndText03
+ToastGeneric
 "
 >
 <
