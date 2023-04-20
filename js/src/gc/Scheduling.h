@@ -3497,7 +3497,7 @@ SmallHeapIncrementalLimit
 =
 1
 .
-40
+50
 ;
 /
 *
