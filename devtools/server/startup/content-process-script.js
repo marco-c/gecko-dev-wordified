@@ -1398,7 +1398,7 @@ initContentProcessTarget
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1415,7 +1415,9 @@ content
 -
 process
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

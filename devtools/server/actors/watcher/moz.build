@@ -104,7 +104,9 @@ context
 -
 helpers
 .
-jsm
+sys
+.
+mjs
 "
 "
 session
@@ -121,6 +123,8 @@ jsm
 "
 WatcherRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
