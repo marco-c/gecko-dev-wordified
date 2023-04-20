@@ -1548,6 +1548,8 @@ override
 {
 return
 socket_
+?
+socket_
 -
 >
 GetOption
@@ -1555,6 +1557,9 @@ GetOption
 opt
 value
 )
+:
+-
+1
 ;
 }
 int
@@ -1569,6 +1574,8 @@ override
 {
 return
 socket_
+?
+socket_
 -
 >
 SetOption
@@ -1576,6 +1583,9 @@ SetOption
 opt
 value
 )
+:
+-
+1
 ;
 }
 void
