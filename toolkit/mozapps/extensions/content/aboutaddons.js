@@ -540,6 +540,9 @@ COLORWAY_CLOSET_ENABLED
 >
 {
 return
+!
+!
+(
 NimbusFeatures
 .
 majorRelease2022
@@ -549,6 +552,14 @@ getVariable
 "
 colorwayCloset
 "
+)
+&
+&
+BuiltInThemes
+.
+findActiveColorwayCollection
+(
+)
 )
 ;
 }
