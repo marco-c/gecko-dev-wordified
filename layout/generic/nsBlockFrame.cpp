@@ -4923,7 +4923,7 @@ aOutFrames
 =
 aFromFrames
 .
-ExtractHead
+TakeFramesBefore
 (
 firstFrameInNextLine
 )

@@ -78462,7 +78462,7 @@ firstInlineKids
 =
 childList
 .
-ExtractHead
+TakeFramesBefore
 (
 firstBlock
 )
