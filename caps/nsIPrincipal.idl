@@ -2264,6 +2264,14 @@ attribute
 boolean
 isOriginPotentiallyTrustworthy
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isLoopbackHost
+;
 /
 *
 *

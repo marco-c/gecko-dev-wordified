@@ -1074,6 +1074,15 @@ aResult
 override
 ;
 NS_IMETHOD
+GetIsLoopbackHost
+(
+bool
+*
+aResult
+)
+override
+;
+NS_IMETHOD
 IsSameOrigin
 (
 nsIURI
@@ -1974,11 +1983,6 @@ aSite
 )
 =
 0
-;
-bool
-IsLoopbackHost
-(
-)
 ;
 protected
 :

@@ -923,16 +923,10 @@ kPermName
 &
 &
 !
-BasePrincipal
-:
-:
-Cast
-(
 mPrincipal
-)
 -
 >
-IsLoopbackHost
+GetIsLoopbackHost
 (
 )
 )
