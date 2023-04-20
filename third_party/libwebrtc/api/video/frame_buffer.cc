@@ -454,7 +454,7 @@ max_decode_history
 )
 {
 }
-void
+bool
 FrameBuffer
 :
 :
@@ -509,6 +509,7 @@ frame
 "
 ;
 return
+false
 ;
 }
 if
@@ -606,6 +607,7 @@ this
 frame
 .
 return
+false
 ;
 }
 }
@@ -676,6 +678,7 @@ this
 frame
 .
 return
+false
 ;
 }
 }
@@ -727,6 +730,7 @@ been
 inserted
 .
 return
+false
 ;
 }
 if
@@ -775,6 +779,9 @@ first
 FindNextAndLastDecodableTemporalUnit
 (
 )
+;
+return
+true
 ;
 }
 absl

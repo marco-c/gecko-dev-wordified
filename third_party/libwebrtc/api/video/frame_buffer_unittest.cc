@@ -126,15 +126,6 @@ include
 "
 test
 /
-field_trial
-.
-h
-"
-#
-include
-"
-test
-/
 gmock
 .
 h
@@ -265,6 +256,8 @@ of
 this
 frame
 .
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -301,6 +294,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -326,6 +320,8 @@ are
 also
 invalid
 .
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -355,7 +351,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -391,6 +390,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -472,6 +472,8 @@ nullopt
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -495,6 +497,7 @@ Id
 .
 Build
 (
+)
 )
 )
 ;
@@ -527,6 +530,8 @@ nullopt
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -561,6 +566,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -623,6 +629,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -652,7 +660,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -689,6 +700,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -703,6 +715,8 @@ Eq
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -737,6 +751,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -786,6 +801,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -811,6 +828,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -828,6 +846,8 @@ nullopt
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -862,6 +882,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -911,6 +932,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -936,7 +959,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -969,7 +995,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1007,6 +1036,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -1024,6 +1054,8 @@ nullopt
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1058,6 +1090,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -1123,6 +1156,8 @@ nullopt
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1150,6 +1185,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -1202,6 +1238,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1231,7 +1269,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1261,7 +1302,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1296,6 +1340,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -1428,6 +1473,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1457,7 +1504,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1494,7 +1544,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1529,6 +1582,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -1613,6 +1667,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1642,6 +1698,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -1659,6 +1716,8 @@ Eq
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1686,6 +1745,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -1738,6 +1798,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1767,7 +1829,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1804,7 +1869,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1841,7 +1909,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1878,7 +1949,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -1915,6 +1989,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -1935,6 +2010,8 @@ Frame
 buffer
 is
 full
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -1971,6 +2048,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -1985,6 +2063,8 @@ Eq
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2012,6 +2092,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -2061,6 +2142,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2090,7 +2173,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2127,7 +2213,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2162,6 +2251,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -2226,6 +2316,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2255,7 +2347,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2292,11 +2387,6 @@ Build
 (
 )
 )
-;
-buffer
-.
-ExtractNextDecodableTemporalUnit
-(
 )
 ;
 buffer
@@ -2305,6 +2395,14 @@ ExtractNextDecodableTemporalUnit
 (
 )
 ;
+buffer
+.
+ExtractNextDecodableTemporalUnit
+(
+)
+;
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -2334,7 +2432,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -2371,7 +2472,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2406,6 +2510,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -2458,6 +2563,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2483,7 +2590,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2516,7 +2626,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2553,6 +2666,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -2578,6 +2692,8 @@ FrameWithId
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2612,6 +2728,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -2664,6 +2781,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2693,7 +2812,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2730,7 +2852,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2767,7 +2892,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2804,7 +2932,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2839,6 +2970,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -2922,6 +3054,8 @@ FrameWithId
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -2958,6 +3092,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -2975,6 +3110,8 @@ FrameWithId
 )
 )
 ;
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -3011,6 +3148,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -3024,6 +3162,8 @@ IsEmpty
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3058,6 +3198,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -3121,6 +3262,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3150,6 +3293,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -3167,6 +3311,8 @@ FrameWithId
 )
 )
 ;
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -3194,6 +3340,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -3247,6 +3394,8 @@ max_decode_history
 field_trials
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3276,6 +3425,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -3293,6 +3443,8 @@ FrameWithId
 )
 )
 ;
+EXPECT_FALSE
+(
 buffer
 .
 InsertFrame
@@ -3329,6 +3481,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -3342,6 +3495,8 @@ IsEmpty
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3369,6 +3524,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -3435,6 +3591,8 @@ Eq
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3464,6 +3622,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -3478,6 +3637,8 @@ Eq
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3510,6 +3671,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -3524,6 +3686,8 @@ Eq
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3556,7 +3720,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3594,6 +3761,7 @@ Build
 (
 )
 )
+)
 ;
 EXPECT_THAT
 (
@@ -3611,6 +3779,8 @@ Eq
 /
 /
 Reordered
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3645,6 +3815,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
@@ -3707,6 +3878,8 @@ Eq
 )
 )
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3736,7 +3909,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3769,7 +3945,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3806,7 +3985,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3839,7 +4021,10 @@ Build
 (
 )
 )
+)
 ;
+EXPECT_TRUE
+(
 buffer
 .
 InsertFrame
@@ -3874,6 +4059,7 @@ AsLast
 .
 Build
 (
+)
 )
 )
 ;
