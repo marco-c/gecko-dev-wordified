@@ -9962,9 +9962,6 @@ ScriptSource
 :
 assignSource
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -10190,9 +10187,6 @@ ScriptSource
 :
 assignSource
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -10215,9 +10209,6 @@ ScriptSource
 :
 assignSource
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -12657,7 +12648,6 @@ if
 !
 setFilename
 (
-cx
 ec
 std
 :
@@ -12770,9 +12760,6 @@ static
 SharedT
 GetOrCreateStringZ
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -12858,9 +12845,6 @@ ScriptSource
 :
 getOrCreateStringZ
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -12876,7 +12860,6 @@ GetOrCreateStringZ
 SharedImmutableString
 >
 (
-cx
 ec
 std
 :
@@ -12894,9 +12877,6 @@ ScriptSource
 :
 getOrCreateStringZ
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -12912,7 +12892,6 @@ GetOrCreateStringZ
 SharedImmutableTwoByteString
 >
 (
-cx
 ec
 std
 :
@@ -12964,7 +12943,6 @@ false
 return
 setFilename
 (
-cx
 ec
 std
 :
@@ -12982,9 +12960,6 @@ ScriptSource
 :
 setFilename
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -13004,7 +12979,6 @@ filename_
 =
 getOrCreateStringZ
 (
-cx
 ec
 std
 :
@@ -13062,7 +13036,6 @@ false
 return
 setIntroducerFilename
 (
-cx
 ec
 std
 :
@@ -13080,9 +13053,6 @@ ScriptSource
 :
 setIntroducerFilename
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -13102,7 +13072,6 @@ introducerFilename_
 =
 getOrCreateStringZ
 (
-cx
 ec
 std
 :
@@ -13274,7 +13243,6 @@ displayURL_
 =
 getOrCreateStringZ
 (
-cx
 ec
 std
 :
@@ -13332,7 +13300,6 @@ false
 return
 setSourceMapURL
 (
-cx
 ec
 std
 :
@@ -13350,9 +13317,6 @@ ScriptSource
 :
 setSourceMapURL
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -13389,7 +13353,6 @@ sourceMapURL_
 =
 getOrCreateStringZ
 (
-cx
 ec
 std
 :
