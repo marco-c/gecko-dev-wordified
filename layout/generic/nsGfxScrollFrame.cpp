@@ -1916,6 +1916,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -14110,6 +14111,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -14119,7 +14121,13 @@ nsBoxFrame
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 mHelper

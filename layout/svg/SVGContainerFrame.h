@@ -524,13 +524,13 @@ false
 /
 nsIFrame
 :
-virtual
 void
 AppendFrames
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aFrameList
 )

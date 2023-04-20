@@ -1870,6 +1870,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -1967,7 +1968,13 @@ nsContainerFrame
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 }
@@ -2027,7 +2034,13 @@ frame
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 }

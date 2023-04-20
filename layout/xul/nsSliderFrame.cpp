@@ -894,6 +894,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -932,7 +933,13 @@ nsBoxFrame
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 if

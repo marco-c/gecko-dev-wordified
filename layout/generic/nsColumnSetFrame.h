@@ -256,6 +256,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 override

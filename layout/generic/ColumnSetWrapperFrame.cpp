@@ -805,6 +805,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -836,7 +837,13 @@ nsBlockFrame
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 #

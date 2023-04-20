@@ -1262,13 +1262,13 @@ aChildList
 )
 override
 ;
-virtual
 void
 AppendFrames
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aFrameList
 )

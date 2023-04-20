@@ -590,7 +590,13 @@ aParentFrame
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 }

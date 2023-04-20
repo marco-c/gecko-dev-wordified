@@ -522,13 +522,13 @@ never
 be
 called
 :
-virtual
 void
 AppendFrames
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aFrameList
 )

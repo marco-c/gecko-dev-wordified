@@ -6582,6 +6582,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 final
@@ -9267,6 +9268,7 @@ AppendFrames
 ChildListID
 aListID
 nsFrameList
+&
 &
 aFrameList
 )
