@@ -841,6 +841,12 @@ mozilla
 StyleFontSizeKeyword
 mFontSizeKeyword
 ;
+mozilla
+:
+:
+StyleFontPalette
+mFontPalette
+;
 /
 /
 math
