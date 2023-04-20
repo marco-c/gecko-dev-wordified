@@ -38646,9 +38646,8 @@ EmulatesUndefined
 ;
 masm
 .
-convertBoolToInt32
+storeCallBoolResult
 (
-ReturnReg
 scratch
 )
 ;
