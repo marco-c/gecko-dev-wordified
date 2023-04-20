@@ -99,11 +99,6 @@ memory
 #
 include
 <
-string
->
-#
-include
-<
 utility
 >
 #
@@ -112,6 +107,15 @@ include
 api
 /
 jsep_session_description
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

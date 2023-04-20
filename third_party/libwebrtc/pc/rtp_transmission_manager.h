@@ -298,6 +298,15 @@ thread_annotations
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+weak_ptr
+.
+h
+"
 namespace
 rtc
 {

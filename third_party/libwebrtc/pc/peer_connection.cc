@@ -416,6 +416,15 @@ include
 "
 rtc_base
 /
+callback_list
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 helpers
 .
 h
@@ -470,7 +479,7 @@ include
 "
 rtc_base
 /
-callback_list
+ref_counted_object
 .
 h
 "
