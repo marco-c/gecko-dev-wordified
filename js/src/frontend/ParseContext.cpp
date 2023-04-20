@@ -490,9 +490,9 @@ UsedNameTracker
 :
 noteUse
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 TaggedParserAtomIndex
 name
 NameVisibility
@@ -626,7 +626,7 @@ true
 UsedNameInfo
 info
 (
-cx
+ec
 visibility
 tokenPosition
 )
@@ -899,9 +899,9 @@ UsedNameTracker
 :
 hasUnboundPrivateNames
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 mozilla
 :
 :
@@ -943,7 +943,7 @@ UnboundPrivateName
 >
 unboundPrivateNames
 (
-cx
+ec
 )
 ;
 if
