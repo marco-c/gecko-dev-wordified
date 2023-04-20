@@ -124,10 +124,7 @@ equal
 (
 aArgs
 .
-updates
-[
-0
-]
+update
 .
 errorCode
 1500
@@ -1237,10 +1234,7 @@ equal
 (
 aArgs
 .
-updates
-[
-0
-]
+update
 .
 errorCode
 1200
