@@ -246,6 +246,8 @@ const
 nsAString
 &
 aLaunchUrl
+bool
+aInPrivateBrowsing
 )
 :
 mBackend
@@ -292,6 +294,10 @@ mRequireInteraction
 (
 aRequireInteraction
 )
+mInPrivateBrowsing
+(
+aInPrivateBrowsing
+)
 mActions
 (
 aActions
@@ -328,6 +334,11 @@ OnWriteBitmapFinished
 (
 nsresult
 rv
+)
+;
+void
+HideIfPrivate
+(
 )
 ;
 void
@@ -616,6 +627,9 @@ mClickable
 bool
 mRequireInteraction
 ;
+bool
+mInPrivateBrowsing
+;
 nsTArray
 <
 RefPtr
@@ -641,6 +655,11 @@ TryShowAlert
 ;
 bool
 ShowAlert
+(
+)
+;
+void
+HideAlert
 (
 )
 ;
