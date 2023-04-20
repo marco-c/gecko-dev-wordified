@@ -246,9 +246,9 @@ this
 prefName
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Unexpected
 event
