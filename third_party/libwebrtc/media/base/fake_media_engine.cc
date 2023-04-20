@@ -3281,6 +3281,8 @@ FakeVideoEngine
 :
 send_codecs
 (
+bool
+use_rtx
 )
 const
 {
@@ -3300,6 +3302,8 @@ FakeVideoEngine
 :
 recv_codecs
 (
+bool
+use_rtx
 )
 const
 {

@@ -1319,6 +1319,8 @@ T
 factory
 bool
 is_decoder_factory
+bool
+include_rtx
 const
 webrtc
 :
@@ -1888,6 +1890,11 @@ codecs
 .
 if
 (
+include_rtx
+)
+{
+if
+(
 !
 isFecCodec
 )
@@ -2036,6 +2043,7 @@ id
 )
 )
 ;
+}
 }
 }
 }
@@ -4826,6 +4834,8 @@ WebRtcVideoEngine
 :
 send_codecs
 (
+bool
+include_rtx
 )
 const
 {
@@ -4844,6 +4854,7 @@ is_decoder_factory
 *
 /
 false
+include_rtx
 trials_
 )
 ;
@@ -4860,6 +4871,8 @@ WebRtcVideoEngine
 :
 recv_codecs
 (
+bool
+include_rtx
 )
 const
 {
@@ -4878,6 +4891,7 @@ is_decoder_factory
 *
 /
 true
+include_rtx
 trials_
 )
 ;
@@ -5374,6 +5388,13 @@ decoder_factory_
 /
 *
 is_decoder_factory
+=
+*
+/
+true
+/
+*
+include_rtx
 =
 *
 /
@@ -8534,6 +8555,13 @@ decoder_factory_
 /
 *
 is_decoder_factory
+=
+*
+/
+true
+/
+*
+include_rtx
 =
 *
 /
