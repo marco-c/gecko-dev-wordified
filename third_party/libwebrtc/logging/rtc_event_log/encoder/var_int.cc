@@ -472,7 +472,6 @@ input
 >
 ReadUInt8
 (
-&
 byte
 )
 )

@@ -336,9 +336,8 @@ parser
 >
 ReadBits
 (
-&
-m_bit
 1
+m_bit
 )
 )
 ;
@@ -354,9 +353,8 @@ parser
 >
 ReadBits
 (
-&
-picture_id
 15
+picture_id
 )
 )
 ;
@@ -377,9 +375,8 @@ parser
 >
 ReadBits
 (
-&
-picture_id
 7
+picture_id
 )
 )
 ;
@@ -493,9 +490,8 @@ parser
 >
 ReadBits
 (
-&
+3
 t
-3
 )
 )
 ;
@@ -506,9 +502,8 @@ parser
 >
 ReadBits
 (
-&
+1
 u_bit
-1
 )
 )
 ;
@@ -519,9 +514,8 @@ parser
 >
 ReadBits
 (
-&
-s
 3
+s
 )
 )
 ;
@@ -532,9 +526,8 @@ parser
 >
 ReadBits
 (
-&
-d_bit
 1
+d_bit
 )
 )
 ;
@@ -702,7 +695,6 @@ parser
 >
 ReadUInt8
 (
-&
 tl0picidx
 )
 )
@@ -915,9 +907,8 @@ parser
 >
 ReadBits
 (
-&
-p_diff
 7
+p_diff
 )
 )
 ;
@@ -928,9 +919,8 @@ parser
 >
 ReadBits
 (
-&
-n_bit
 1
+n_bit
 )
 )
 ;
@@ -1313,9 +1303,8 @@ parser
 >
 ReadBits
 (
-&
-n_s
 3
+n_s
 )
 )
 ;
@@ -1326,9 +1315,8 @@ parser
 >
 ReadBits
 (
-&
+1
 y_bit
-1
 )
 )
 ;
@@ -1339,9 +1327,8 @@ parser
 >
 ReadBits
 (
-&
-g_bit
 1
+g_bit
 )
 )
 ;
@@ -1416,7 +1403,6 @@ parser
 >
 ReadUInt16
 (
-&
 vp9
 -
 >
@@ -1434,7 +1420,6 @@ parser
 >
 ReadUInt16
 (
-&
 vp9
 -
 >
@@ -1462,7 +1447,6 @@ parser
 >
 ReadUInt8
 (
-&
 n_g
 )
 )
@@ -1510,9 +1494,8 @@ parser
 >
 ReadBits
 (
-&
-t
 3
+t
 )
 )
 ;
@@ -1523,9 +1506,8 @@ parser
 >
 ReadBits
 (
-&
-u_bit
 1
+u_bit
 )
 )
 ;
@@ -1536,9 +1518,8 @@ parser
 >
 ReadBits
 (
-&
-r
 2
+r
 )
 )
 ;
@@ -1627,7 +1608,6 @@ parser
 >
 ReadUInt8
 (
-&
 p_diff
 )
 )
@@ -1838,7 +1818,6 @@ parser
 .
 ReadUInt8
 (
-&
 first_byte
 )
 )

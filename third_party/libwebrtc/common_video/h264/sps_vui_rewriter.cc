@@ -289,6 +289,9 @@ RETURN_FALSE_ON_FAIL
 x
 )
 \
+do
+{
+\
 if
 (
 !
@@ -328,6 +331,12 @@ false
 ;
 \
 }
+\
+}
+while
+(
+0
+)
 #
 define
 COPY_UINT8
@@ -349,7 +358,6 @@ src
 >
 ReadUInt8
 (
-&
 tmp
 )
 )
@@ -400,7 +408,6 @@ src
 >
 ReadExponentialGolomb
 (
-&
 tmp
 )
 )
@@ -452,9 +459,8 @@ src
 >
 ReadBits
 (
-&
-tmp
 bits
+tmp
 )
 )
 ;
@@ -2594,9 +2600,8 @@ source
 >
 ReadBits
 (
-&
-bitstream_restriction_flag
 1
+bitstream_restriction_flag
 )
 )
 ;
@@ -2832,7 +2837,6 @@ source
 >
 ReadExponentialGolomb
 (
-&
 max_num_reorder_frames
 )
 )
@@ -2844,7 +2848,6 @@ source
 >
 ReadExponentialGolomb
 (
-&
 max_dec_frame_buffering
 )
 )
@@ -3742,9 +3745,8 @@ source
 >
 ReadBits
 (
-&
-video_signal_type_present_flag
 1
+video_signal_type_present_flag
 )
 )
 ;
@@ -3760,9 +3762,8 @@ source
 >
 ReadBits
 (
-&
-video_format
 3
+video_format
 )
 )
 ;
@@ -3773,9 +3774,8 @@ source
 >
 ReadBits
 (
-&
+1
 video_full_range_flag
-1
 )
 )
 ;
@@ -3786,9 +3786,8 @@ source
 >
 ReadBits
 (
-&
-colour_description_present_flag
 1
+colour_description_present_flag
 )
 )
 ;
@@ -3804,7 +3803,6 @@ source
 >
 ReadUInt8
 (
-&
 colour_primaries
 )
 )
@@ -3816,7 +3814,6 @@ source
 >
 ReadUInt8
 (
-&
 transfer_characteristics
 )
 )
@@ -3828,7 +3825,6 @@ source
 >
 ReadUInt8
 (
-&
 matrix_coefficients
 )
 )

@@ -177,6 +177,9 @@ x
 res
 )
 \
+do
+{
+\
 if
 (
 !
@@ -205,6 +208,12 @@ res
 ;
 \
 }
+\
+}
+while
+(
+0
+)
 #
 define
 RETURN_INV_ON_FAIL
@@ -412,7 +421,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -434,7 +442,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 slice_type
 )
 )
@@ -509,7 +516,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -534,9 +540,8 @@ slice_reader
 .
 ReadBits
 (
-&
-bits_tmp
 2
+bits_tmp
 )
 )
 ;
@@ -562,12 +567,11 @@ slice_reader
 .
 ReadBits
 (
-&
-bits_tmp
 sps_
 -
 >
 log2_max_frame_num
+bits_tmp
 )
 )
 ;
@@ -601,9 +605,8 @@ slice_reader
 .
 ReadBits
 (
-&
-field_pic_flag
 1
+field_pic_flag
 )
 )
 ;
@@ -629,9 +632,8 @@ slice_reader
 .
 ReadBits
 (
-&
-bits_tmp
 1
+bits_tmp
 )
 )
 ;
@@ -656,7 +658,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -696,12 +697,11 @@ slice_reader
 .
 ReadBits
 (
-&
-bits_tmp
 sps_
 -
 >
 log2_max_pic_order_cnt_lsb
+bits_tmp
 )
 )
 ;
@@ -733,7 +733,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -775,7 +774,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -809,7 +807,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -838,7 +835,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -872,9 +868,8 @@ slice_reader
 .
 ReadBits
 (
-&
-bits_tmp
 1
+bits_tmp
 )
 )
 ;
@@ -928,9 +923,8 @@ slice_reader
 .
 ReadBits
 (
-&
-num_ref_idx_active_override_flag
 1
+num_ref_idx_active_override_flag
 )
 )
 ;
@@ -956,7 +950,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -989,7 +982,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1159,9 +1151,8 @@ slice_reader
 .
 ReadBits
 (
-&
-ref_pic_list_modification_flag_l0
 1
+ref_pic_list_modification_flag_l0
 )
 )
 ;
@@ -1189,7 +1180,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 modification_of_pic_nums_idc
 )
 )
@@ -1222,7 +1212,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1251,7 +1240,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1295,9 +1283,8 @@ slice_reader
 .
 ReadBits
 (
-&
-ref_pic_list_modification_flag_l1
 1
+ref_pic_list_modification_flag_l1
 )
 )
 ;
@@ -1325,7 +1312,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 modification_of_pic_nums_idc
 )
 )
@@ -1358,7 +1344,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1387,7 +1372,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1586,9 +1570,8 @@ slice_reader
 .
 ReadBits
 (
-&
-bits_tmp
 2
+bits_tmp
 )
 )
 ;
@@ -1612,9 +1595,8 @@ slice_reader
 .
 ReadBits
 (
-&
-adaptive_ref_pic_marking_mode_flag
 1
+adaptive_ref_pic_marking_mode_flag
 )
 )
 ;
@@ -1642,7 +1624,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 memory_management_control_operation
 )
 )
@@ -1675,7 +1656,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1703,7 +1683,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1737,7 +1716,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1765,7 +1743,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1829,7 +1806,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -1844,7 +1820,6 @@ slice_reader
 .
 ReadSignedExponentialGolomb
 (
-&
 last_slice_qp_delta
 )
 )

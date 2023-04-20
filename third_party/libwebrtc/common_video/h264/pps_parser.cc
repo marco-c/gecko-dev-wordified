@@ -142,6 +142,9 @@ RETURN_EMPTY_ON_FAIL
 x
 )
 \
+do
+{
+\
 if
 (
 !
@@ -159,6 +162,12 @@ nullopt
 ;
 \
 }
+\
+}
+while
+(
+0
+)
 namespace
 {
 const
@@ -546,7 +555,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -571,7 +579,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 golomb_tmp
 )
 )
@@ -599,7 +606,6 @@ slice_reader
 .
 ReadExponentialGolomb
 (
-&
 slice_pps_id
 )
 )
@@ -679,9 +685,8 @@ bit_buffer
 >
 ReadBits
 (
-&
-entropy_coding_mode_flag
 1
+entropy_coding_mode_flag
 )
 )
 ;
@@ -712,9 +717,8 @@ bit_buffer
 >
 ReadBits
 (
-&
-bottom_field_pic_order_in_frame_present_flag
 1
+bottom_field_pic_order_in_frame_present_flag
 )
 )
 ;
@@ -745,7 +749,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 num_slice_groups_minus1
 )
 )
@@ -775,7 +778,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 slice_group_map_type
 )
 )
@@ -823,7 +825,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -918,7 +919,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -941,7 +941,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -984,9 +983,8 @@ bit_buffer
 >
 ReadBits
 (
-&
-bits_tmp
 1
+bits_tmp
 )
 )
 ;
@@ -1005,7 +1003,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -1038,7 +1035,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 pic_size_in_map_units_minus1
 )
 )
@@ -1172,9 +1168,8 @@ bit_buffer
 >
 ReadBits
 (
-&
-bits_tmp
 slice_group_id_bits
+bits_tmp
 )
 )
 ;
@@ -1196,7 +1191,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -1216,7 +1210,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -1239,9 +1232,8 @@ bit_buffer
 >
 ReadBits
 (
-&
-weighted_pred_flag
 1
+weighted_pred_flag
 )
 )
 ;
@@ -1269,11 +1261,10 @@ bit_buffer
 >
 ReadBits
 (
-&
+2
 pps
 .
 weighted_bipred_idc
-2
 )
 )
 ;
@@ -1292,7 +1283,6 @@ bit_buffer
 >
 ReadSignedExponentialGolomb
 (
-&
 pps
 .
 pic_init_qp_minus26
@@ -1343,7 +1333,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -1363,7 +1352,6 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -1391,9 +1379,8 @@ bit_buffer
 >
 ReadBits
 (
-&
-bits_tmp
 2
+bits_tmp
 )
 )
 ;
@@ -1412,11 +1399,10 @@ bit_buffer
 >
 ReadBits
 (
-&
+1
 pps
 .
 redundant_pic_cnt_present_flag
-1
 )
 )
 ;
@@ -1444,6 +1430,16 @@ uint32_t
 sps_id
 )
 {
+if
+(
+pps_id
+=
+=
+nullptr
+)
+return
+false
+;
 /
 /
 pic_parameter_set_id
@@ -1460,8 +1456,19 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
+*
 pps_id
 )
+)
+return
+false
+;
+if
+(
+sps_id
+=
+=
+nullptr
 )
 return
 false
@@ -1482,6 +1489,7 @@ bit_buffer
 >
 ReadExponentialGolomb
 (
+*
 sps_id
 )
 )

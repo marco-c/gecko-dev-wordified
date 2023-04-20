@@ -293,9 +293,8 @@ buffer_
 .
 ReadBits
 (
-&
-value
 bit_count
+value
 )
 )
 parsing_failed_
@@ -328,9 +327,8 @@ buffer_
 .
 ReadNonSymmetric
 (
-&
-value
 num_values
+value
 )
 )
 parsing_failed_

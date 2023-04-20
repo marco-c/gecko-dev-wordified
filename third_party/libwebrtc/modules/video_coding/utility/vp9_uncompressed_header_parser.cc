@@ -394,9 +394,8 @@ buffer_
 >
 ReadBits
 (
-&
-val
 1
+val
 )
 )
 {
@@ -446,9 +445,8 @@ buffer_
 >
 ReadBits
 (
-&
-val
 1
+val
 )
 )
 {
@@ -544,9 +542,8 @@ buffer_
 >
 ReadBits
 (
-&
-val
 1
+val
 )
 )
 {
@@ -747,9 +744,8 @@ buffer_
 >
 ReadBits
 (
-&
-val
 bits
+val
 )
 )
 {
@@ -860,9 +856,8 @@ buffer_
 >
 ReadBits
 (
-&
-val
 num_bits
+val
 )
 )
 {
@@ -1019,9 +1014,8 @@ buffer_
 >
 ReadBits
 (
-&
-sign
 1
+sign
 )
 )
 {
@@ -1041,9 +1035,8 @@ buffer_
 >
 ReadBits
 (
-&
-val
 bits
+val
 )
 )
 {
