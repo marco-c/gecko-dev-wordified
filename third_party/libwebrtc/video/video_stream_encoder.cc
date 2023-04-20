@@ -2973,6 +2973,10 @@ ReleaseEncoder
 (
 )
 ;
+encoder_
+=
+nullptr
+;
 shutdown_event
 .
 Set
