@@ -10685,6 +10685,8 @@ Notification
 :
 CloseInternal
 (
+bool
+aContextClosed
 )
 {
 AssertIsOnMainThread
@@ -10797,6 +10799,7 @@ alertService
 CloseAlert
 (
 alertName
+aContextClosed
 )
 ;
 }
@@ -13282,6 +13285,7 @@ DOM_WINDOW_FROZEN_TOPIC
 }
 CloseInternal
 (
+true
 )
 ;
 }

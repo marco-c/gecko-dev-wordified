@@ -1757,6 +1757,10 @@ ShowInternal
 void
 CloseInternal
 (
+bool
+aContextClosed
+=
+false
 )
 ;
 static

@@ -2305,6 +2305,8 @@ const
 nsAString
 &
 aAlertName
+bool
+aContextClosed
 )
 {
 NS_OBJC_BEGIN_TRY_BLOCK_RETURN

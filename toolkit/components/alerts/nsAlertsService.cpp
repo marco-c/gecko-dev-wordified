@@ -1318,6 +1318,8 @@ const
 nsAString
 &
 aAlertName
+bool
+aContextClosed
 )
 {
 if
@@ -1347,6 +1349,7 @@ nsAutoString
 (
 aAlertName
 )
+aContextClosed
 )
 ;
 return
@@ -1379,6 +1382,7 @@ mBackend
 CloseAlert
 (
 aAlertName
+aContextClosed
 )
 ;
 if
@@ -1449,6 +1453,7 @@ xulBackend
 CloseAlert
 (
 aAlertName
+aContextClosed
 )
 ;
 }
