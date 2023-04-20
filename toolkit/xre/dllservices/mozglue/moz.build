@@ -243,6 +243,11 @@ WindowsDllBlocklistCommon
 .
 h
 "
+"
+WindowsDllBlocklistInfo
+.
+h
+"
 ]
 EXPORTS
 .
