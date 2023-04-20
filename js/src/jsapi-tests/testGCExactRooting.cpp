@@ -2766,7 +2766,7 @@ ShapeVec
 =
 GCVector
 <
-Shape
+NativeShape
 *
 >
 ;
@@ -2890,6 +2890,13 @@ append
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 shape
 (
 )
@@ -3061,7 +3068,7 @@ Rooted
 <
 GCVector
 <
-Shape
+NativeShape
 *
 >
 >
@@ -3107,7 +3114,7 @@ Handle
 <
 GCVector
 <
-Shape
+NativeShape
 *
 >
 >
@@ -3152,7 +3159,7 @@ MutableHandle
 <
 GCVector
 <
-Shape
+NativeShape
 *
 >
 >
@@ -3201,7 +3208,7 @@ ShapeFifo
 =
 TraceableFifo
 <
-Shape
+NativeShape
 *
 >
 ;
@@ -3332,6 +3339,13 @@ pushBack
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 shape
 (
 )
@@ -3472,7 +3486,7 @@ ShapeVec
 =
 GCVector
 <
-Shape
+NativeShape
 *
 >
 ;
@@ -3598,6 +3612,13 @@ append
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 shape
 (
 )

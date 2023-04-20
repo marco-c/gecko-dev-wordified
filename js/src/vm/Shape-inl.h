@@ -388,7 +388,7 @@ true
 MOZ_ALWAYS_INLINE
 PropMap
 *
-Shape
+NativeShape
 :
 :
 lookup
@@ -415,7 +415,7 @@ len
 >
 0
 ?
-propMap_
+nativePropMap_
 -
 >
 lookup
@@ -432,7 +432,7 @@ nullptr
 MOZ_ALWAYS_INLINE
 PropMap
 *
-Shape
+NativeShape
 :
 :
 lookupPure
@@ -456,7 +456,7 @@ len
 >
 0
 ?
-propMap_
+nativePropMap_
 -
 >
 lookupPure
@@ -572,7 +572,7 @@ PropMap
 *
 propMap
 =
-propMap_
+nativePropMap_
 ;
 return
 propMap

@@ -3664,7 +3664,7 @@ return
 false
 ;
 }
-Shape
+NativeShape
 *
 shape
 =
