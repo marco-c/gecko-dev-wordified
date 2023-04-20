@@ -6439,6 +6439,14 @@ templateObj
 isCallObject
 (
 )
+&
+&
+!
+templateObj
+.
+isBlockLexicalEnvironmentObject
+(
+)
 startOfUninitialized
 =
 =
