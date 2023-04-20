@@ -331,7 +331,6 @@ if
 a
 dummy
 hardware
-VP9
 decoder
 could
 be
@@ -339,8 +338,13 @@ created
 .
 static
 bool
-CanCreateVP9Decoder
+CanCreateHWDecoder
 (
+media
+:
+:
+MediaCodec
+aCodec
 )
 ;
 }
