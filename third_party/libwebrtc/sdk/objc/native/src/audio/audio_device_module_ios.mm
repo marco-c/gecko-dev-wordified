@@ -245,8 +245,14 @@ AudioDeviceModuleIOS
 :
 AudioDeviceModuleIOS
 (
+bool
+bypass_voice_processing
 )
 :
+bypass_voice_processing_
+(
+bypass_voice_processing
+)
 task_queue_factory_
 (
 CreateDefaultTaskQueueFactory
@@ -436,6 +442,7 @@ ios_adm
 :
 AudioDeviceIOS
 (
+bypass_voice_processing_
 )
 )
 ;

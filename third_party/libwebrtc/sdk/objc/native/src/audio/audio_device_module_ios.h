@@ -169,8 +169,11 @@ AttachAudioBuffer
 (
 )
 ;
+explicit
 AudioDeviceModuleIOS
 (
+bool
+bypass_voice_processing
 )
 ;
 ~
@@ -780,6 +783,10 @@ endif
 WEBRTC_IOS
 private
 :
+const
+bool
+bypass_voice_processing_
+;
 bool
 initialized_
 =

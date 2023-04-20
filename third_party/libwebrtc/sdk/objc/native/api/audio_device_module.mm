@@ -136,6 +136,8 @@ AudioDeviceModule
 >
 CreateAudioDeviceModule
 (
+bool
+bypass_voice_processing
 )
 {
 RTC_LOG
@@ -165,6 +167,7 @@ ios_adm
 AudioDeviceModuleIOS
 >
 (
+bypass_voice_processing
 )
 ;
 #

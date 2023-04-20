@@ -236,6 +236,13 @@ ios_adm
 :
 AudioDeviceIOS
 (
+/
+*
+bypass_voice_processing
+=
+*
+/
+false
 )
 )
 ;
