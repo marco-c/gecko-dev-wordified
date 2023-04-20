@@ -7192,8 +7192,10 @@ observers
 >
 AppendElement
 (
-new
+MakeUnique
+<
 GlyphObserver
+>
 (
 font
 aTextRun
