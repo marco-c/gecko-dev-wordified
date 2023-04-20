@@ -208,7 +208,13 @@ JSMutableHandleIdVector
 JS
 :
 :
-MutableHandleIdVector
+MutableHandleVector
+<
+JS
+:
+:
+PropertyKey
+>
 )
 ;
 %
