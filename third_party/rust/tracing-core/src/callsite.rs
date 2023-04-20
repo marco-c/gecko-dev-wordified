@@ -4295,6 +4295,17 @@ register_dispatch
 dispatch
 )
 ;
+dispatch
+.
+subscriber
+(
+)
+.
+on_register_dispatch
+(
+dispatch
+)
+;
 CALLSITES
 .
 rebuild_interest

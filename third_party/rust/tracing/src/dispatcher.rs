@@ -1593,6 +1593,7 @@ get_default
 set_global_default
 Dispatch
 SetGlobalDefaultError
+WeakDispatch
 }
 ;
 /
