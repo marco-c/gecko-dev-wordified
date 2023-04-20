@@ -3557,12 +3557,6 @@ needed_caps
 )
 ;
 }
-let
-_
-=
-(
-)
-;
 Uniformity
 {
 non_uniform_result

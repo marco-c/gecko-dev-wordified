@@ -467,9 +467,6 @@ catch
 cbuffer
 "
 "
-centroid
-"
-"
 char
 "
 "
@@ -573,9 +570,6 @@ finally
 "
 "
 fixed
-"
-"
-flat
 "
 "
 friend
@@ -800,9 +794,6 @@ line
 lineadj
 "
 "
-linear
-"
-"
 lowp
 "
 "
@@ -945,9 +936,6 @@ row_major
 "
 "
 samper
-"
-"
-sample
 "
 "
 sampler1D

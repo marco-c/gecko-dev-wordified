@@ -611,7 +611,7 @@ new
 }
 }
 fn
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 &
 self
@@ -620,7 +620,7 @@ index
 usize
 )
 {
-debug_assert
+strict_assert
 !
 (
 index
@@ -638,7 +638,7 @@ self
 .
 metadata
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -1201,14 +1201,14 @@ owned
 {
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
 scope
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -1443,7 +1443,7 @@ index
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -1615,7 +1615,7 @@ new
 }
 }
 fn
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 &
 self
@@ -1624,7 +1624,7 @@ index
 usize
 )
 {
-debug_assert
+strict_assert
 !
 (
 index
@@ -1638,7 +1638,7 @@ len
 )
 )
 ;
-debug_assert
+strict_assert
 !
 (
 index
@@ -1656,7 +1656,7 @@ self
 .
 metadata
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -2001,7 +2001,7 @@ index
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -2272,7 +2272,7 @@ index
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -2331,7 +2331,7 @@ temp
 )
 }
 ;
-debug_assert
+strict_assert
 !
 (
 self
@@ -2517,14 +2517,14 @@ owned
 {
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
 tracker
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -2764,14 +2764,14 @@ owned
 {
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
 scope
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -3135,7 +3135,7 @@ usize
 ;
 scope
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -3353,7 +3353,7 @@ false
 }
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -3610,7 +3610,7 @@ state
 =
 >
 {
-debug_assert
+strict_assert
 !
 (
 index
@@ -4302,7 +4302,7 @@ have
 any
 conflicts
 .
-debug_assert_eq
+strict_assert_eq
 !
 (
 invalid_resource_state
@@ -4312,7 +4312,7 @@ new_start_state
 false
 )
 ;
-debug_assert_eq
+strict_assert_eq
 !
 (
 invalid_resource_state

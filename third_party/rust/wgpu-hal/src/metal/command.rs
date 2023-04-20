@@ -4840,7 +4840,7 @@ shared
 .
 private_caps
 .
-max_buffers_per_stage
+max_vertex_buffers
 as
 u64
 -

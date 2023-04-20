@@ -618,6 +618,10 @@ Target
 =
 parent_ref
 ;
+#
+[
+inline
+]
 fn
 deref
 (
@@ -1610,6 +1614,10 @@ ArrayRef
 T
 >
 ;
+#
+[
+inline
+]
 fn
 deref
 (

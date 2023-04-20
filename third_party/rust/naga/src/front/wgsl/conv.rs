@@ -1408,6 +1408,15 @@ Mf
 :
 :
 Clamp
+"
+saturate
+"
+=
+>
+Mf
+:
+:
+Saturate
 /
 /
 trigonometry

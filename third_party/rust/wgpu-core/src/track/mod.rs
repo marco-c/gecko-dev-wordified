@@ -1327,7 +1327,7 @@ is
 always
 a
 bug
-debug_assert_ne
+strict_assert_ne
 !
 (
 self
@@ -1344,7 +1344,7 @@ TextureUses
 UNKNOWN
 )
 ;
-debug_assert_ne
+strict_assert_ne
 !
 (
 self
@@ -1380,7 +1380,7 @@ mips
 .
 start
 ;
-debug_assert_ne
+strict_assert_ne
 !
 (
 mip_count
@@ -1406,7 +1406,7 @@ layers
 .
 start
 ;
-debug_assert_ne
+strict_assert_ne
 !
 (
 layer_count
@@ -2148,6 +2148,7 @@ derive
 Clone
 Debug
 Error
+Eq
 PartialEq
 )
 ]
@@ -2447,6 +2448,7 @@ derive
 (
 Clone
 Debug
+Eq
 PartialEq
 )
 ]
@@ -2857,8 +2859,26 @@ and
 is
 removed
 .
+#
+[
+cfg_attr
+(
+not
+(
+feature
+=
+"
+strict_asserts
+"
+)
+allow
+(
+unused_variables
+)
+)
+]
 fn
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 &
 self
@@ -2867,7 +2887,7 @@ index
 usize
 )
 {
-debug_assert
+strict_assert
 !
 (
 index
@@ -2881,7 +2901,7 @@ len
 )
 )
 ;
-debug_assert
+strict_assert
 !
 (
 index
@@ -2895,7 +2915,7 @@ len
 )
 )
 ;
-debug_assert
+strict_assert
 !
 (
 index
@@ -2909,7 +2929,7 @@ len
 )
 )
 ;
-debug_assert
+strict_assert
 !
 (
 if
@@ -3043,7 +3063,7 @@ is_empty
 {
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 self
 .
@@ -3437,7 +3457,7 @@ metadata
 {
 metadata
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -3480,7 +3500,7 @@ epoch
 =
 >
 {
-debug_assert
+strict_assert
 !
 (
 life_guard
@@ -3603,7 +3623,7 @@ metadata
 {
 metadata
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )

@@ -678,7 +678,7 @@ TextureUses
 >
 Self
 {
-debug_assert_eq
+strict_assert_eq
 !
 (
 full_range
@@ -689,7 +689,7 @@ start
 0
 )
 ;
-debug_assert_eq
+strict_assert_eq
 !
 (
 full_range
@@ -737,7 +737,7 @@ desired_state
 in
 state_iter
 {
-debug_assert
+strict_assert
 !
 (
 selector
@@ -754,7 +754,7 @@ layers
 end
 )
 ;
-debug_assert
+strict_assert
 !
 (
 selector
@@ -801,7 +801,7 @@ have
 any
 conflicts
 .
-debug_assert_eq
+strict_assert_eq
 !
 (
 invalid_resource_state
@@ -1538,7 +1538,7 @@ new
 }
 }
 fn
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 &
 self
@@ -1551,12 +1551,12 @@ self
 .
 metadata
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
-debug_assert
+strict_assert
 !
 (
 index
@@ -1572,7 +1572,7 @@ len
 )
 )
 ;
-debug_assert
+strict_assert
 !
 (
 if
@@ -1969,14 +1969,14 @@ u32
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
 scope
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -2438,7 +2438,7 @@ usize
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -2616,7 +2616,7 @@ PhantomData
 }
 }
 fn
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 &
 self
@@ -2629,12 +2629,12 @@ self
 .
 metadata
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
-debug_assert
+strict_assert
 !
 (
 index
@@ -2650,7 +2650,7 @@ len
 )
 )
 ;
-debug_assert
+strict_assert
 !
 (
 index
@@ -2666,7 +2666,7 @@ len
 )
 )
 ;
-debug_assert
+strict_assert
 !
 (
 if
@@ -2723,7 +2723,7 @@ true
 }
 )
 ;
-debug_assert
+strict_assert
 !
 (
 if
@@ -3096,7 +3096,7 @@ usize
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -3234,7 +3234,7 @@ index
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -3506,7 +3506,7 @@ index
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -3763,14 +3763,14 @@ u32
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
 tracker
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -4038,14 +4038,14 @@ u32
 ;
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
 ;
 scope
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -4434,7 +4434,7 @@ usize
 ;
 scope
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -4639,7 +4639,7 @@ false
 }
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -4849,7 +4849,7 @@ false
 }
 self
 .
-debug_assert_in_bounds
+tracker_assert_in_bounds
 (
 index
 )
@@ -6396,7 +6396,7 @@ have
 any
 conflicts
 .
-debug_assert_eq
+strict_assert_eq
 !
 (
 invalid_resource_state
@@ -6703,7 +6703,7 @@ have
 any
 conflicts
 .
-debug_assert_eq
+strict_assert_eq
 !
 (
 invalid_resource_state
@@ -7697,7 +7697,7 @@ selector
 .
 mips
 {
-debug_assert
+strict_assert
 !
 (
 (
@@ -8424,7 +8424,7 @@ selector
 .
 mips
 {
-debug_assert
+strict_assert
 !
 (
 (
@@ -9127,7 +9127,7 @@ start_complex
 =
 start_complex
 {
-debug_assert
+strict_assert
 !
 (
 mip_id
@@ -9174,7 +9174,7 @@ TextureUses
 UNKNOWN
 )
 {
-debug_assert_eq
+strict_assert_eq
 !
 (
 *
@@ -9287,7 +9287,7 @@ mip_id
 as
 usize
 ;
-debug_assert
+strict_assert
 !
 (
 mip_id
@@ -9406,7 +9406,7 @@ about
 this
 state
 .
-debug_assert
+strict_assert
 !
 (
 start_complex
@@ -9429,7 +9429,7 @@ unwrap_unchecked
 (
 )
 ;
-debug_assert
+strict_assert
 !
 (
 mip_id
@@ -9476,7 +9476,7 @@ TextureUses
 UNKNOWN
 )
 {
-debug_assert_eq
+strict_assert_eq
 !
 (
 *

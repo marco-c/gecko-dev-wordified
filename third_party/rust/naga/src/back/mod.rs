@@ -510,10 +510,6 @@ crate
 NamedExpressions
 }
 impl
-<
-'
-a
->
 FunctionCtx
 <
 '

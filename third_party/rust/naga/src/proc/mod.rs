@@ -1759,6 +1759,13 @@ Clamp
 =
 >
 3
+Self
+:
+:
+Saturate
+=
+>
+1
 /
 /
 trigonometry

@@ -760,6 +760,7 @@ derive
 Clone
 Debug
 Error
+Eq
 PartialEq
 )
 ]
@@ -2070,10 +2071,10 @@ scope
 !
 (
 "
-run_compute_pass
-"
-"
 CommandEncoder
+:
+:
+run_compute_pass
 "
 )
 ;

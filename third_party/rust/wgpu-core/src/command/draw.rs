@@ -85,6 +85,7 @@ derive
 Clone
 Debug
 Error
+Eq
 PartialEq
 )
 ]
