@@ -13,7 +13,7 @@ skip
 -
 if
 :
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 setJitCompilerOption

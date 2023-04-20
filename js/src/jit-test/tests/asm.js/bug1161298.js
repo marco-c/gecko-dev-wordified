@@ -15,7 +15,7 @@ this
 SharedArrayBuffer
 |
 |
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 /

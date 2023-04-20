@@ -278,7 +278,7 @@ MaxBytesIn32BitMemory
 ;
 if
 (
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 )

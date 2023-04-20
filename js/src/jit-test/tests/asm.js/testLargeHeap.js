@@ -10,7 +10,7 @@ skip
 if
 :
 !
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 load

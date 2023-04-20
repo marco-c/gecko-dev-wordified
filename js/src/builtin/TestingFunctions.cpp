@@ -13305,7 +13305,7 @@ true
 }
 static
 bool
-LargeArrayBufferEnabled
+LargeArrayBufferSupported
 (
 JSContext
 *
@@ -57281,13 +57281,13 @@ intrinsic
 JS_FN_HELP
 (
 "
-largeArrayBufferEnabled
+largeArrayBufferSupported
 "
-LargeArrayBufferEnabled
+LargeArrayBufferSupported
 0
 0
 "
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 "

@@ -98,7 +98,7 @@ elementSize
 {
 if
 (
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 )
