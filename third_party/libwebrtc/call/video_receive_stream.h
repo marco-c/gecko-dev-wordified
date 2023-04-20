@@ -1548,7 +1548,7 @@ to
 support
 additional
 packet
-handlsers
+handlers
 such
 as
 /
