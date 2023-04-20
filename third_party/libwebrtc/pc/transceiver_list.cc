@@ -178,7 +178,7 @@ void
 TransceiverStableState
 :
 :
-SetRemoteStreamIdsIfUnset
+SetRemoteStreamIds
 (
 const
 std
