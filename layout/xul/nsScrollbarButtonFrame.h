@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsButtonBoxFrame
+nsBoxFrame
 .
 h
 "
@@ -178,7 +178,7 @@ nsScrollbarButtonFrame
 final
 :
 public
-nsButtonBoxFrame
+nsBoxFrame
 {
 public
 :
@@ -197,7 +197,7 @@ nsPresContext
 aPresContext
 )
 :
-nsButtonBoxFrame
+nsBoxFrame
 (
 aStyle
 aPresContext
@@ -241,7 +241,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 nsresult
 HandleEvent
 (

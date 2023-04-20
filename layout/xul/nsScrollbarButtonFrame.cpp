@@ -497,7 +497,7 @@ break
 ;
 }
 return
-nsButtonBoxFrame
+nsBoxFrame
 :
 :
 HandleEvent
@@ -846,6 +846,8 @@ return
 false
 ;
 }
+if
+(
 nsScrollbarFrame
 *
 sb
@@ -854,10 +856,6 @@ do_QueryFrame
 (
 scrollbar
 )
-;
-if
-(
-sb
 )
 {
 nsIScrollbarMediator
@@ -1558,7 +1556,7 @@ StopRepeat
 (
 )
 ;
-nsButtonBoxFrame
+nsBoxFrame
 :
 :
 DestroyFrom
