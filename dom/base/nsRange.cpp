@@ -5571,11 +5571,11 @@ to
 ThrowWrongDocumentError
 but
 IsPointInRange
+/
+/
 relies
 on
 the
-/
-/
 error
 code
 right
@@ -7196,7 +7196,7 @@ newCommonAncestor
 }
 else
 {
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mIsPositioned
