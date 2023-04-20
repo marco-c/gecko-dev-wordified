@@ -129,7 +129,7 @@ GeckoViewActorParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -142,7 +142,9 @@ modules
 /
 GeckoViewActorParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
