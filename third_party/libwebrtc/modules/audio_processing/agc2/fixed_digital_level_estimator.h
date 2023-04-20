@@ -229,7 +229,7 @@ by
 .
 FixedDigitalLevelEstimator
 (
-size_t
+int
 sample_rate_hz
 ApmDataDumper
 *
@@ -340,7 +340,7 @@ safe
 void
 SetSampleRate
 (
-size_t
+int
 sample_rate_hz
 )
 ;
@@ -385,10 +385,10 @@ nullptr
 float
 filter_state_level_
 ;
-size_t
+int
 samples_in_frame_
 ;
-size_t
+int
 samples_in_sub_frame_
 ;
 RTC_DISALLOW_COPY_AND_ASSIGN
