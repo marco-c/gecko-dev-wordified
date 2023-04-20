@@ -114,7 +114,7 @@ int
 targetBitrateBps
 ;
 protected
-int
+double
 targetFramerateFps
 ;
 Override
@@ -124,7 +124,7 @@ setTargets
 (
 int
 targetBitrateBps
-int
+double
 targetFramerateFps
 )
 {
@@ -169,7 +169,7 @@ targetBitrateBps
 }
 Override
 public
-int
+double
 getAdjustedFramerateFps
 (
 )

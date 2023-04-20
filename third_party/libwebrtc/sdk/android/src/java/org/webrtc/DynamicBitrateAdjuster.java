@@ -248,7 +248,7 @@ setTargets
 (
 int
 targetBitrateBps
-int
+double
 targetFramerateFps
 )
 {

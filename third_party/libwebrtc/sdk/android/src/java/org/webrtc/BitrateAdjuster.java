@@ -131,7 +131,7 @@ setTargets
 (
 int
 targetBitrateBps
-int
+double
 targetFramerateFps
 )
 ;
@@ -202,7 +202,7 @@ framerate
 .
 *
 /
-int
+double
 getAdjustedFramerateFps
 (
 )

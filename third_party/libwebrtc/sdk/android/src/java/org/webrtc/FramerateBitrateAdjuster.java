@@ -138,7 +138,7 @@ setTargets
 (
 int
 targetBitrateBps
-int
+double
 targetFramerateFps
 )
 {
@@ -163,11 +163,16 @@ this
 .
 targetBitrateBps
 =
+(
+int
+)
+(
 targetBitrateBps
 *
 DEFAULT_FRAMERATE_FPS
 /
 targetFramerateFps
+)
 ;
 }
 }
