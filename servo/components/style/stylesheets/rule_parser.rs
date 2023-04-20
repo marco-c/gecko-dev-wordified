@@ -5484,6 +5484,9 @@ self
 context
 .
 url_data
+for_supports_rule
+:
+false
 }
 ;
 let

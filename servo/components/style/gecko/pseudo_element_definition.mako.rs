@@ -1377,6 +1377,9 @@ name
 :
 &
 str
+allow_unkown_webkit
+:
+bool
 )
 -
 >
@@ -1583,6 +1586,9 @@ webkit
 "
 ;
 if
+allow_unkown_webkit
+&
+&
 starts_with_ignore_ascii_case
 (
 name
