@@ -9814,9 +9814,11 @@ bufferedInputStream
 nsresult
 rv
 =
-NS_MaybeOpenChannelUsingOpen
-(
 aChannel
+-
+>
+Open
+(
 getter_AddRefs
 (
 fileInputStream
@@ -9918,9 +9920,11 @@ channel
 nsresult
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen
-(
 aChannel
+-
+>
+AsyncOpen
+(
 this
 )
 ;

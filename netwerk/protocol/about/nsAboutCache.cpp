@@ -852,9 +852,11 @@ rv
 ;
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen
-(
 mChannel
+-
+>
+AsyncOpen
+(
 aListener
 )
 ;

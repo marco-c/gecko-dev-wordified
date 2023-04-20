@@ -2892,9 +2892,11 @@ rv
 }
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen
-(
 httpChannel
+-
+>
+AsyncOpen
+(
 this
 )
 ;

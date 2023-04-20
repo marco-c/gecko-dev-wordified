@@ -4848,13 +4848,15 @@ scriptStream
 ;
 MOZ_TRY
 (
-NS_MaybeOpenChannelUsingOpen
-(
 aInfo
 .
 ScriptChannel
 (
 )
+-
+>
+Open
+(
 getter_AddRefs
 (
 scriptStream
