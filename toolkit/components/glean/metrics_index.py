@@ -615,7 +615,7 @@ toolkit
 /
 components
 /
-telemetry
+glean
 /
 pings
 .
@@ -671,7 +671,7 @@ toolkit
 /
 components
 /
-glean
+telemetry
 /
 pings
 .
