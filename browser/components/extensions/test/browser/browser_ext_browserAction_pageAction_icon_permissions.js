@@ -93,6 +93,11 @@ manifest
 browser_action
 :
 {
+default_area
+:
+"
+navbar
+"
 }
 page_action
 :
@@ -717,6 +722,11 @@ browser_action
 default_icon
 :
 icon
+default_area
+:
+"
+navbar
+"
 }
 page_action
 :
@@ -1045,6 +1055,11 @@ manifest
 browser_action
 :
 {
+default_area
+:
+"
+navbar
+"
 }
 page_action
 :
@@ -1431,6 +1446,11 @@ api
 default_icon
 :
 url
+default_area
+:
+"
+navbar
+"
 }
 }
 }
