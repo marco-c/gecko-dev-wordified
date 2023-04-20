@@ -339,8 +339,6 @@ sourceName
 \
 b
 (
-xul
-|
 minimal
 -
 xul
