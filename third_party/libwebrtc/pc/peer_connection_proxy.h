@@ -935,6 +935,7 @@ signaling_thread
 )
 END_PROXY_MAP
 (
+PeerConnection
 )
 }
 /

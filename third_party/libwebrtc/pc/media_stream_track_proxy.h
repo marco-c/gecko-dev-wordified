@@ -261,6 +261,7 @@ ObserverInterface
 )
 END_PROXY_MAP
 (
+AudioTrack
 )
 BEGIN_PROXY_MAP
 (
@@ -366,6 +367,7 @@ ObserverInterface
 )
 END_PROXY_MAP
 (
+VideoTrack
 )
 }
 /

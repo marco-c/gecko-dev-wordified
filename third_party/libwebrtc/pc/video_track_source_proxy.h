@@ -286,6 +286,7 @@ RecordableEncodedFrame
 )
 END_PROXY_MAP
 (
+VideoTrackSource
 )
 }
 /

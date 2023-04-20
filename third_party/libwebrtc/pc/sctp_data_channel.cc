@@ -429,6 +429,7 @@ DataBuffer
 )
 END_PROXY_MAP
 (
+DataChannel
 )
 }
 /

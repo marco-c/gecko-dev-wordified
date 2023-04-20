@@ -2432,6 +2432,7 @@ RtpHeaderExtensionCapability
 )
 END_PROXY_MAP
 (
+RtpTransceiver
 )
 }
 /

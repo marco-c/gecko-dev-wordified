@@ -313,6 +313,7 @@ FrameTransformerInterface
 )
 END_PROXY_MAP
 (
+RtpSender
 )
 }
 /

@@ -298,6 +298,7 @@ StopAecDump
 )
 END_PROXY_MAP
 (
+PeerConnectionFactory
 )
 }
 /
