@@ -4533,7 +4533,8 @@ the
 call
 .
 virtual
-void
+PeerHandle
+*
 AddPeer
 (
 rtc
@@ -4562,6 +4563,9 @@ PeerConfigurer
 configurer
 )
 {
+return
+nullptr
+;
 }
 virtual
 PeerHandle
