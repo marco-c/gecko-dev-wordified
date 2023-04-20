@@ -175,9 +175,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -196,7 +196,9 @@ sessionstore
 /
 PrivacyFilter
 .
-jsm
+sys
+.
+mjs
 "
 SessionHistory
 :
@@ -213,7 +215,9 @@ sessionstore
 /
 SessionHistory
 .
-jsm
+sys
+.
+mjs
 "
 Utils
 :
@@ -230,7 +234,9 @@ sessionstore
 /
 Utils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
