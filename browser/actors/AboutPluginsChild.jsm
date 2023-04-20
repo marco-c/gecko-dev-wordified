@@ -81,6 +81,15 @@ MPL
 .
 *
 /
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+AboutPluginsChild
+"
+]
+;
 const
 {
 RemotePageChild
@@ -105,7 +114,6 @@ jsm
 "
 )
 ;
-export
 class
 AboutPluginsChild
 extends

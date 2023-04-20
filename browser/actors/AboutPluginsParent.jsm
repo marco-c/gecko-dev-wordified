@@ -61,6 +61,15 @@ use
 strict
 "
 ;
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+AboutPluginsParent
+"
+]
+;
 const
 lazy
 =
@@ -128,7 +137,6 @@ description
 "
 ]
 ;
-export
 class
 AboutPluginsParent
 extends
