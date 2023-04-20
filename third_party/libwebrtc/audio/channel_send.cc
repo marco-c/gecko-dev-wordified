@@ -550,6 +550,12 @@ friend
 /
 declaration
 .
+Or
+delete
+indirection
+via
+VoERtcpObserver
+.
 friend
 class
 VoERtcpObserver
