@@ -2622,6 +2622,14 @@ EqualsLiteral
 (
 UNKNOWN_CONTENT_TYPE
 )
+&
+&
+!
+contentType
+.
+IsEmpty
+(
+)
 )
 {
 contentType

@@ -2420,12 +2420,6 @@ nsIChannel
 >
 mRedirectChannel
 ;
-nsCString
-mContentType
-;
-nsCString
-mContentCharset
-;
 uint32_t
 mLoadFlags
 {
@@ -2470,6 +2464,12 @@ mRedirectFlags
 ;
 protected
 :
+nsCString
+mContentType
+;
+nsCString
+mContentCharset
+;
 nsCOMPtr
 <
 nsIURI

@@ -10626,6 +10626,13 @@ if
 (
 type
 .
+IsEmpty
+(
+)
+|
+|
+type
+.
 EqualsLiteral
 (
 UNKNOWN_CONTENT_TYPE
