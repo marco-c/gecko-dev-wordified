@@ -3804,6 +3804,7 @@ kURLMime
 kURLDataMime
 kUnicodeMime
 kPNGImageMime
+kPDFJSMime
 }
 ;
 /
@@ -5416,6 +5417,7 @@ kMozTextInternal
 kHTMLContext
 kHTMLInfo
 kImageRequestMime
+kPDFJSMime
 }
 ;
 /
