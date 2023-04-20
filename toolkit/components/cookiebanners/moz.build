@@ -210,6 +210,11 @@ UNIFIED_SOURCES
 =
 [
 "
+CookieBannerDomainPrefService
+.
+cpp
+"
+"
 nsClickRule
 .
 cpp
