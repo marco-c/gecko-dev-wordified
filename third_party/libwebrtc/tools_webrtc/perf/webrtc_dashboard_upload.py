@@ -568,11 +568,15 @@ help
 =
 '
 A
-JSON
+HistogramSet
+proto
 file
 with
 output
 from
+'
+                        
+'
 WebRTC
 tests
 .
