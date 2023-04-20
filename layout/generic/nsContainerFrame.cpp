@@ -677,8 +677,11 @@ SetInitialChildList
 )
 ;
 mFrames
-.
-SetFrames
+=
+std
+:
+:
+move
 (
 aChildList
 )

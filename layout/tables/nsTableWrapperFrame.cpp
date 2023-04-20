@@ -608,8 +608,11 @@ CaptionList
 )
 ;
 mCaptionFrames
-.
-SetFrames
+=
+std
+:
+:
+move
 (
 aChildList
 )

@@ -581,8 +581,11 @@ cached
 textruns
 }
 mFrames
-.
-SetFrames
+=
+std
+:
+:
+move
 (
 aChildList
 )

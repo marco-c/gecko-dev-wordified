@@ -2318,8 +2318,11 @@ bug
 5588
 )
 mFrames
-.
-SetFrames
+=
+std
+:
+:
+move
 (
 *
 prevOverflowFrames
