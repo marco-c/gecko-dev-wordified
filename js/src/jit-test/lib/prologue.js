@@ -149,6 +149,9 @@ verifypostbarriers
 "
 gcPreserveCode
 "
+"
+setMarkStackLimit
+"
 ]
 )
 {
