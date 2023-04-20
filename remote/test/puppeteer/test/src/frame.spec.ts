@@ -183,7 +183,7 @@ puppeteer
 /
 common
 /
-FrameManager
+Frame
 .
 js
 '
@@ -379,6 +379,9 @@ expect
 (
 context1
 .
+_world
+?
+.
 frame
 (
 )
@@ -392,6 +395,9 @@ frame1
 expect
 (
 context2
+.
+_world
+?
 .
 frame
 (

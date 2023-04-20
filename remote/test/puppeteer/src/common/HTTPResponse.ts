@@ -171,7 +171,7 @@ from
 '
 .
 /
-FrameManager
+Frame
 .
 js
 '

@@ -149,6 +149,9 @@ assert
 from
 '
 .
+.
+/
+util
 /
 assert
 .
@@ -517,11 +520,6 @@ __JSHandleSymbol
 T
 ;
 #
-client
-:
-CDPSession
-;
-#
 disposed
 =
 false
@@ -558,7 +556,9 @@ return
 this
 .
 #
-client
+context
+.
+_client
 ;
 }
 /
@@ -594,9 +594,6 @@ constructor
 context
 :
 ExecutionContext
-client
-:
-CDPSession
 remoteObject
 :
 Protocol
@@ -616,13 +613,6 @@ context
 this
 .
 #
-client
-=
-client
-;
-this
-.
-#
 remoteObject
 =
 remoteObject
@@ -632,15 +622,7 @@ remoteObject
 *
 *
 *
-returns
-The
-execution
-context
-the
-handle
-belongs
-to
-.
+internal
 *
 /
 executionContext
@@ -1211,7 +1193,6 @@ response
 await
 this
 .
-#
 client
 .
 send
@@ -1520,7 +1501,6 @@ releaseObject
 (
 this
 .
-#
 client
 this
 .
@@ -1702,7 +1682,7 @@ the
 top
 -
 left
-corder
+corner
 of
 the
 border
@@ -1731,7 +1711,7 @@ the
 top
 -
 left
-corder
+corner
 of
 the
 border
@@ -1823,7 +1803,7 @@ the
 top
 -
 left
-corder
+corner
 of
 the
 border
