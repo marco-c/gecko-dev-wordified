@@ -3342,13 +3342,6 @@ R
 reader
 )
 {
-uint32_t
-lineOrBytecode
-=
-readCallSiteLineOrBytecode
-(
-)
-;
 if
 (
 !
@@ -3373,7 +3366,6 @@ true
 return
 emitInstanceCall
 (
-lineOrBytecode
 fn
 )
 ;
@@ -3399,13 +3391,6 @@ R
 reader
 )
 {
-uint32_t
-lineOrBytecode
-=
-readCallSiteLineOrBytecode
-(
-)
-;
 A1
 arg
 =
@@ -3442,7 +3427,6 @@ arg
 return
 emitInstanceCall
 (
-lineOrBytecode
 fn
 )
 ;
@@ -3470,13 +3454,6 @@ R
 reader
 )
 {
-uint32_t
-lineOrBytecode
-=
-readCallSiteLineOrBytecode
-(
-)
-;
 A1
 arg1
 =
@@ -3540,7 +3517,6 @@ arg2
 return
 emitInstanceCall
 (
-lineOrBytecode
 fn
 )
 ;
