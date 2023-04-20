@@ -141,14 +141,6 @@ jni
 {
 class
 JavaMediaStream
-:
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :
@@ -172,7 +164,6 @@ media_stream
 JavaMediaStream
 (
 )
-override
 ;
 const
 ScopedJavaGlobalRef
