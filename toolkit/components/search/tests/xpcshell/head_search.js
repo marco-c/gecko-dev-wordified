@@ -1096,6 +1096,7 @@ be
 saved
 .
 *
+*
 returns
 {
 Promise
@@ -1427,7 +1428,7 @@ actualObj
 *
 param
 {
-function
+Function
 }
 skipProp
 *
@@ -2029,6 +2030,7 @@ fetch
 requests
 .
 *
+*
 param
 {
 string
@@ -2236,7 +2238,8 @@ string
 [
 verified
 ]
-.
+*
+/
 /
 *
 *

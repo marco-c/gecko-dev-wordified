@@ -1485,7 +1485,7 @@ null
 *
 returns
 {
-array
+Array
 }
 the
 list
@@ -1786,7 +1786,7 @@ locales
 *
 param
 {
-array
+Array
 }
 [
 locales
@@ -1805,7 +1805,7 @@ exactly
 *
 param
 {
-array
+Array
 }
 [
 locales
@@ -2733,7 +2733,7 @@ code
 *
 param
 {
-array
+Array
 }
 engines
 *
@@ -2827,7 +2827,7 @@ code
 *
 param
 {
-array
+Array
 }
 engines
 *
