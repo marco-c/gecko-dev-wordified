@@ -1436,6 +1436,8 @@ Object
 assign
 (
 migrator
+.
+wrappedJSObject
 {
 _keychainServiceName
 :

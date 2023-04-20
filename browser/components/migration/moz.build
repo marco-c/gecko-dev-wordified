@@ -152,6 +152,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIBrowserProfileMigrator
+.
+idl
+"
+"
 nsIEdgeMigrationUtils
 .
 idl
