@@ -152,6 +152,18 @@ BackgroundUtils
 h
 "
 ;
+using
+nsIDNSService
+:
+:
+DNSFlags
+from
+"
+nsIDNSService
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -220,7 +232,7 @@ uint16_t
 type
 OriginAttributes
 originAttributes
-uint32_t
+DNSFlags
 flags
 nsresult
 reason

@@ -282,7 +282,10 @@ const
 OriginAttributes
 &
 aOriginAttributes
-uint32_t
+nsIDNSService
+:
+:
+DNSFlags
 aFlags
 uintptr_t
 aListenerAddr
@@ -300,7 +303,10 @@ nsACString
 hostname
 uint16_t
 type
-uint32_t
+nsIDNSService
+:
+:
+DNSFlags
 flags
 nsIDNSAdditionalInfo
 *
@@ -330,7 +336,10 @@ nsACString
 aHostname
 uint16_t
 aType
-uint32_t
+nsIDNSService
+:
+:
+DNSFlags
 aFlags
 nsIDNSAdditionalInfo
 *

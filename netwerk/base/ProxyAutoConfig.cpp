@@ -1526,7 +1526,10 @@ have
 a
 deadlock
 .
-uint32_t
+nsIDNSService
+:
+:
+DNSFlags
 flags
 =
 nsIDNSService

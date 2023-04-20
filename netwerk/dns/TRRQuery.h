@@ -303,7 +303,10 @@ nsACString
 aTrrServer
 uint16_t
 type
-uint16_t
+nsIDNSService
+:
+:
+DNSFlags
 flags
 uint16_t
 af
