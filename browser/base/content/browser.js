@@ -6066,9 +6066,7 @@ gURLBar
 .
 editor
 .
-transactionManager
-.
-clear
+clearUndoRedo
 (
 )
 ;

@@ -4973,9 +4973,7 @@ textbox
 .
 editor
 .
-transactionManager
-.
-clearUndoStack
+clearUndoRedo
 (
 )
 ;
