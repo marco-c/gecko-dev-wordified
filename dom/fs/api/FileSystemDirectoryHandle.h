@@ -307,9 +307,6 @@ Promise
 >
 GetNextPromise
 (
-JSContext
-*
-aCx
 iterator_t
 *
 aIterator

@@ -287,9 +287,6 @@ Promise
 >
 GetNextPromise
 (
-JSContext
-*
-aCx
 Iterator
 *
 aIterator
@@ -365,6 +362,9 @@ ResolvePromise
 Iterator
 *
 aIterator
+Promise
+*
+aPromise
 )
 ;
 nsCOMPtr

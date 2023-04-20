@@ -505,13 +505,6 @@ FileSystemDirectoryHandle
 :
 GetNextPromise
 (
-JSContext
-*
-/
-*
-aCx
-*
-/
 FileSystemDirectoryHandle
 :
 :
