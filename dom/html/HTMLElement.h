@@ -200,6 +200,14 @@ aResult
 const
 override
 ;
+nsINode
+*
+GetScopeChainParent
+(
+)
+const
+override
+;
 /
 /
 nsIContent
