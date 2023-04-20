@@ -4858,7 +4858,7 @@ if
 f
 -
 >
-AncestorHidesContent
+IsHiddenByContentVisibilityOnAnyAncestor
 (
 )
 )
