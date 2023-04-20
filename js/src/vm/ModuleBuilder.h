@@ -409,9 +409,9 @@ list
 bool
 noteFunctionDeclaration
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 uint32_t
 funIndex
 )
@@ -504,6 +504,10 @@ TaggedParserAtomIndexHasher
 JSContext
 *
 cx_
+;
+ErrorContext
+*
+ec_
 ;
 frontend
 :

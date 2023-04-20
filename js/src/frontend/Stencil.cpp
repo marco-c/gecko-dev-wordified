@@ -12936,6 +12936,9 @@ InstantiateModuleObject
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationAtomCache
 &
 atomCache
@@ -13003,6 +13006,7 @@ moduleMetadata
 initModule
 (
 cx
+ec
 atomCache
 module
 )
@@ -16074,6 +16078,8 @@ if
 InstantiateModuleObject
 (
 cx
+&
+ec
 atomCache
 stencil
 gcOutput
