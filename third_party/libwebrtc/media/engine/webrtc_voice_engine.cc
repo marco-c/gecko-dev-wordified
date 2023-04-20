@@ -16209,6 +16209,14 @@ nacks_rcvd
 ;
 sinfo
 .
+target_bitrate
+=
+stats
+.
+target_bitrate_bps
+;
+sinfo
+.
 codec_name
 =
 stats

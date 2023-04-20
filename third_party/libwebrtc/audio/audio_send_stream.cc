@@ -2924,7 +2924,7 @@ target_bitrate_bps
 channel_send_
 -
 >
-GetBitrate
+GetTargetBitrate
 (
 )
 ;

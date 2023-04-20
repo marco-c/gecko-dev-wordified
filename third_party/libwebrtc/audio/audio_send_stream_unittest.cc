@@ -2206,7 +2206,7 @@ EXPECT_CALL
 (
 *
 channel_send_
-GetBitrate
+GetTargetBitrate
 (
 )
 )

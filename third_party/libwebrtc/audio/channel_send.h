@@ -649,7 +649,7 @@ update
 ;
 virtual
 int
-GetBitrate
+GetTargetBitrate
 (
 )
 const

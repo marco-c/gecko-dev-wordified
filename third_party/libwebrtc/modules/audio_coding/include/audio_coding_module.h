@@ -2341,6 +2341,15 @@ const
 =
 0
 ;
+virtual
+int
+GetTargetBitrate
+(
+)
+const
+=
+0
+;
 }
 ;
 }
