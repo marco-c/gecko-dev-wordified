@@ -36784,6 +36784,14 @@ bgcolor
 if
 (
 addedScrollingBackgroundColor
+&
+&
+mPresContext
+-
+>
+IsRootContentDocumentCrossProcess
+(
+)
 )
 {
 item
