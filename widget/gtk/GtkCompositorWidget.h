@@ -740,6 +740,9 @@ Atomic
 bool
 >
 mIsRenderingSuspended
+{
+true
+}
 ;
 }
 ;
