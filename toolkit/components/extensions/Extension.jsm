@@ -13235,10 +13235,6 @@ sitePermissions
 ]
 }
 [
-"
-<
->
-"
 host
 ]
 )
@@ -13249,14 +13245,11 @@ text
 =
 bundle
 .
-formatStringFromName
+GetStringFromName
 (
 webextSitePerms
 .
 descriptionGatedPerms
-[
-host
-]
 )
 ;
 return
