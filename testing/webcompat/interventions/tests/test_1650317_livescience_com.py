@@ -1,18 +1,5 @@
 import
 pytest
-from
-helpers
-import
-Css
-await_element
-from
-selenium
-.
-common
-.
-exceptions
-import
-TimeoutException
 URL
 =
 "
@@ -33,10 +20,11 @@ TEXT_TO_TEST
 .
 trending__link
 "
+async
 def
 is_text_visible
 (
-session
+client
 )
 :
     
@@ -67,52 +55,46 @@ in
 to
 appear
     
-session
+await
+client
 .
-set_page_load_timeout
+navigate
 (
+URL
+timeout
+=
 1
 )
     
-try
-:
-        
-session
+link
+=
+client
 .
-get
-(
-URL
-)
-    
-except
-TimeoutException
-:
-        
-pass
-    
-assert
-await_element
-(
-session
-Css
+await_css
 (
 TEXT_TO_TEST
 )
+    
+assert
+client
+.
+is_displayed
+(
+link
 )
     
 return
-session
+client
 .
 execute_async_script
 (
         
-f
 "
 "
 "
         
 const
-cb
+link
 =
 arguments
 [
@@ -121,18 +103,12 @@ arguments
 ;
         
 const
-link
+cb
 =
-document
-.
-querySelector
-(
-"
-{
-TEXT_TO_TEST
-}
-"
-)
+arguments
+[
+1
+]
 ;
         
 const
@@ -173,7 +149,6 @@ requestAnimationFrame
 =
 >
 {
-{
             
 const
 bottomPaddingHeight
@@ -197,13 +172,14 @@ bottomPaddingHeight
 ;
         
 }
-}
 )
 ;
     
 "
 "
 "
+        
+link
     
 )
 pytest
@@ -216,22 +192,29 @@ skip_platforms
 mac
 "
 )
+pytest
+.
+mark
+.
+asyncio
 pytest
 .
 mark
 .
 with_interventions
+async
 def
 test_enabled
 (
-session
+client
 )
 :
     
 assert
+await
 is_text_visible
 (
-session
+client
 )
 pytest
 .
@@ -247,17 +230,24 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 without_interventions
+async
 def
 test_disabled
 (
-session
+client
 )
 :
     
 assert
 not
+await
 is_text_visible
 (
-session
+client
 )

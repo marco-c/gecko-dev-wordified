@@ -1,15 +1,7 @@
 import
 pytest
-from
-helpers
-import
-Css
-Text
-find_element
 ADDRESS_CSS
 =
-Css
-(
 "
 input
 [
@@ -18,11 +10,8 @@ name
 MailAddress
 ]
 "
-)
 PASSWORD_CSS
 =
-Css
-(
 "
 input
 [
@@ -31,11 +20,8 @@ name
 Password
 ]
 "
-)
 CLOSE_BUTTON_CSS
 =
-Css
-(
 "
 input
 [
@@ -44,31 +30,26 @@ name
 winclosebutton
 ]
 "
-)
 UNAVAILABLE_TEXT
 =
-Text
-(
 "
 "
-)
 UNSUPPORTED_TEXT
 =
-Text
-(
 "
 "
-)
+async
 def
 load_site
 (
-session
+client
 )
 :
     
-session
+await
+client
 .
-get
+navigate
 (
 "
 https
@@ -86,46 +67,38 @@ com
     
 address
 =
-find_element
+client
+.
+find_css
 (
-session
 ADDRESS_CSS
-default
-=
-None
 )
     
 password
 =
-find_element
+client
+.
+find_css
 (
-session
 PASSWORD_CSS
-default
-=
-None
 )
     
 error1
 =
-find_element
+client
+.
+find_css
 (
-session
 CLOSE_BUTTON_CSS
-default
-=
-None
 )
     
 error2
 =
-find_element
+client
+.
+find_text
 (
-session
 UNSUPPORTED_TEXT
-default
-=
-None
 )
     
 #
@@ -191,13 +164,11 @@ again
     
 site_is_down
 =
-find_element
+client
+.
+find_text
 (
-session
 UNAVAILABLE_TEXT
-default
-=
-None
 )
     
 if
@@ -230,11 +201,17 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 with_interventions
+async
 def
 test_enabled
 (
-session
+client
 )
 :
     
@@ -243,9 +220,10 @@ password
 error
 site_is_down
 =
+await
 load_site
 (
-session
+client
 )
     
 if
@@ -255,17 +233,19 @@ site_is_down
 return
     
 assert
-address
+client
 .
 is_displayed
 (
+address
 )
     
 assert
-password
+client
 .
 is_displayed
 (
+password
 )
     
 assert
@@ -276,11 +256,17 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 without_interventions
+async
 def
 test_disabled
 (
-session
+client
 )
 :
     
@@ -289,9 +275,10 @@ password
 error
 site_is_down
 =
+await
 load_site
 (
-session
+client
 )
     
 if
@@ -311,8 +298,9 @@ is
 None
     
 assert
-error
+client
 .
 is_displayed
 (
+error
 )
