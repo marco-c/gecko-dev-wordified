@@ -63,7 +63,9 @@ WINDOW_ATTRIBUTES
 IN
 SessionStore
 .
-jsm
+sys
+.
+mjs
 const
 WINDOW_ATTRIBUTES
 =
@@ -369,7 +371,9 @@ _prepDataForDeferredRestore
 in
 SessionStore
 .
-jsm
+sys
+.
+mjs
 .
 /
 /

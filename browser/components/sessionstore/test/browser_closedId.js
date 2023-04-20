@@ -429,7 +429,9 @@ _resetClosedIds
 in
 SessionStore
 .
-jsm
+sys
+.
+mjs
 temporarily
 and
 then
