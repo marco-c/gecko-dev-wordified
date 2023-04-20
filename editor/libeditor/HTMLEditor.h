@@ -2232,12 +2232,6 @@ IsCSSEnabled
 const
 {
 return
-!
-IsMailEditor
-(
-)
-&
-&
 mIsCSSPrefChecked
 ;
 }
