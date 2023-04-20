@@ -968,7 +968,9 @@ Displays
 the
 PopupNotifications
 .
-jsm
+sys
+.
+mjs
 doorhanger
 for
 password

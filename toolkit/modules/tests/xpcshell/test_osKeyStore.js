@@ -6,7 +6,9 @@ Tests
 of
 OSKeyStore
 .
-jsm
+sys
+.
+mjs
 *
 /
 "
