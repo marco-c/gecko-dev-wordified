@@ -9230,7 +9230,10 @@ success
 ;
 rv
 =
-NS_HasRootDomain
+net
+:
+:
+HasRootDomain
 (
 originHostname
 aBaseDomain
