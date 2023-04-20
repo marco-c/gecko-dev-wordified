@@ -706,7 +706,7 @@ id
 )
 ;
 const
-columnWrapper
+column
 =
 table
 .
@@ -718,18 +718,6 @@ querySelector
 {
 id
 }
-)
-.
-closest
-(
-"
-.
-table
--
-widget
--
-wrapper
-"
 )
 ;
 info
@@ -746,7 +734,7 @@ BrowserTestUtils
 .
 is_hidden
 (
-columnWrapper
+column
 )
 "
 Column
@@ -797,7 +785,7 @@ BrowserTestUtils
 .
 is_visible
 (
-columnWrapper
+column
 )
 "
 Column
@@ -868,7 +856,7 @@ id
 )
 ;
 const
-columnWrapper
+column
 =
 table
 .
@@ -880,18 +868,6 @@ querySelector
 {
 id
 }
-)
-.
-closest
-(
-"
-.
-table
--
-widget
--
-wrapper
-"
 )
 ;
 info
@@ -911,7 +887,7 @@ BrowserTestUtils
 .
 is_visible
 (
-columnWrapper
+column
 )
 Column
 #
@@ -965,7 +941,7 @@ BrowserTestUtils
 .
 is_hidden
 (
-columnWrapper
+column
 )
 Column
 #
@@ -1187,8 +1163,6 @@ tbody
 .
 firstChild
 .
-firstChild
-.
 children
 [
 2
@@ -1368,8 +1342,6 @@ tbody
 .
 firstChild
 .
-firstChild
-.
 children
 [
 3
@@ -1513,8 +1485,6 @@ children
 [
 6
 ]
-.
-firstChild
 .
 children
 [
@@ -1745,8 +1715,6 @@ tbody
 firstChild
 .
 firstChild
-.
-firstChild
 ;
 let
 onPopupShown
@@ -1894,8 +1862,6 @@ tbody
 firstChild
 .
 firstChild
-.
-firstChild
 ;
 onPopupShown
 =
@@ -1989,8 +1955,6 @@ node
 table
 .
 tbody
-.
-firstChild
 .
 firstChild
 .
@@ -2198,8 +2162,6 @@ node
 table
 .
 tbody
-.
-firstChild
 .
 firstChild
 .

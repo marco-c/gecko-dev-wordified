@@ -632,8 +632,6 @@ children
 0
 ]
 .
-firstChild
-.
 children
 .
 length
@@ -659,8 +657,6 @@ children
 [
 0
 ]
-.
-firstChild
 .
 firstChild
 .
@@ -706,8 +702,6 @@ i
 2
 ]
 .
-firstChild
-.
 children
 .
 length
@@ -735,8 +729,6 @@ i
 *
 2
 ]
-.
-firstChild
 .
 firstChild
 .
@@ -781,8 +773,6 @@ children
 2
 ]
 .
-firstChild
-.
 children
 [
 i
@@ -812,6 +802,14 @@ and
 reset
 the
 table
+info
+(
+"
+resetting
+table
+"
+)
+;
 table
 .
 clear
@@ -904,8 +902,6 @@ i
 2
 ]
 .
-firstChild
-.
 children
 .
 length
@@ -933,8 +929,6 @@ i
 *
 2
 ]
-.
-firstChild
 .
 firstChild
 .
@@ -975,8 +969,6 @@ is
 table
 .
 tbody
-.
-firstChild
 .
 firstChild
 .
@@ -2018,8 +2010,6 @@ i
 2
 ]
 .
-firstChild
-.
 children
 .
 length
@@ -2049,8 +2039,6 @@ i
 *
 2
 ]
-.
-firstChild
 .
 firstChild
 .
@@ -2134,8 +2122,6 @@ children
 .
 firstChild
 .
-firstChild
-.
 getAttribute
 (
 "
@@ -2166,8 +2152,6 @@ children
 [
 2
 ]
-.
-firstChild
 .
 firstChild
 .
@@ -2412,8 +2396,6 @@ tbody
 .
 firstChild
 .
-firstChild
-.
 children
 [
 i
@@ -2522,8 +2504,6 @@ children
 2
 ]
 .
-firstChild
-.
 lastChild
 .
 previousSibling
@@ -2620,8 +2600,6 @@ children
 6
 ]
 .
-firstChild
-.
 children
 [
 1
@@ -2679,8 +2657,6 @@ children
 [
 6
 ]
-.
-firstChild
 .
 children
 [
