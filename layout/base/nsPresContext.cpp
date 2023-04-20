@@ -2039,10 +2039,6 @@ mIsVisual
 (
 false
 )
-mHasWarnedAboutPositionedTableParts
-(
-false
-)
 mHasWarnedAboutTooLargeDashedOrDottedRadius
 (
 false
