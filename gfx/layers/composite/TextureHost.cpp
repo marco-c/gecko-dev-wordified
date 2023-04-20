@@ -1528,6 +1528,8 @@ SurfaceDescriptor
 realDesc
 =
 aDeallocator
+?
+aDeallocator
 -
 >
 AsCompositorBridgeParentBase
@@ -1543,6 +1545,8 @@ textureId
 (
 )
 )
+:
+nullptr
 ;
 if
 (
