@@ -1556,7 +1556,7 @@ be
 called
 multiple
 times
-bool
+void
 VideoReceiver
 :
 :
@@ -1579,7 +1579,6 @@ RTC_DCHECK_RUN_ON
 construction_thread_checker_
 )
 ;
-return
 _codecDataBase
 .
 RegisterReceiveCodec

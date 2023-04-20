@@ -585,6 +585,12 @@ use
 in
 parallel
 .
+/
+/
+Must
+be
+positive
+.
 int
 number_of_cores
 (
@@ -601,12 +607,7 @@ set_number_of_cores
 int
 value
 )
-{
-number_of_cores_
-=
-value
 ;
-}
 /
 /
 Codec

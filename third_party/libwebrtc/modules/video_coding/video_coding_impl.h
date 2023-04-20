@@ -352,7 +352,7 @@ VideoReceiver
 )
 override
 ;
-bool
+void
 RegisterReceiveCodec
 (
 uint8_t

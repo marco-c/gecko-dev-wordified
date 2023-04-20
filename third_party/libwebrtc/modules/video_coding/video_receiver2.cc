@@ -716,7 +716,7 @@ be
 called
 multiple
 times
-bool
+void
 VideoReceiver2
 :
 :
@@ -747,7 +747,6 @@ IsDecoderThreadRunning
 )
 )
 ;
-return
 codecDataBase_
 .
 RegisterReceiveCodec

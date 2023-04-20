@@ -2172,8 +2172,6 @@ parameters
 raw_payload
 )
 ;
-RTC_CHECK
-(
 video_receiver_
 .
 RegisterReceiveCodec
@@ -2182,7 +2180,6 @@ decoder
 .
 payload_type
 settings
-)
 )
 ;
 }

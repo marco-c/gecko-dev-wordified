@@ -332,7 +332,7 @@ Process
 )
 ;
 }
-bool
+void
 RegisterReceiveCodec
 (
 uint8_t
@@ -347,7 +347,6 @@ decoder_settings
 )
 override
 {
-return
 receiver_
 .
 RegisterReceiveCodec
@@ -429,7 +428,6 @@ set_number_of_cores
 number_of_cores
 )
 ;
-return
 receiver_
 .
 RegisterReceiveCodec
@@ -437,11 +435,9 @@ RegisterReceiveCodec
 payload_type
 decoder_settings
 )
-?
+;
+return
 0
-:
--
-1
 ;
 }
 void
