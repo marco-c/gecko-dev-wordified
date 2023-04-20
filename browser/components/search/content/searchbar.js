@@ -988,9 +988,9 @@ catch
 status
 =
 >
-Cu
+console
 .
-reportError
+error
 (
 "
 Cannot
@@ -2517,9 +2517,9 @@ catch
 error
 =
 >
-Cu
+console
 .
-reportError
+error
 (
 "
 Saving

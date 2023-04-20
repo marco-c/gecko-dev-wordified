@@ -266,10 +266,11 @@ Engine
 ;
 Assert
 .
-notEqual
+ok
 (
+!
+!
 engine
-null
 "
 Should
 have
