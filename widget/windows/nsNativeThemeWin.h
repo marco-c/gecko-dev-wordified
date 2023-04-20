@@ -439,7 +439,7 @@ aOverflowRect
 )
 override
 ;
-NS_IMETHOD
+LayoutDeviceIntSize
 GetMinimumWidgetSize
 (
 nsPresContext
@@ -450,12 +450,6 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceIntSize
-*
-aResult
-bool
-*
-aIsOverridable
 )
 override
 ;
@@ -686,7 +680,7 @@ LayoutDeviceIntMargin
 aResult
 )
 ;
-nsresult
+LayoutDeviceIntSize
 ClassicGetMinimumWidgetSize
 (
 nsIFrame
@@ -694,12 +688,6 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceIntSize
-*
-aResult
-bool
-*
-aIsOverridable
 )
 ;
 bool

@@ -11528,12 +11528,7 @@ useTheme
 {
 LayoutDeviceIntSize
 minTwistySizePx
-;
-bool
-canOverride
 =
-true
-;
 theme
 -
 >
@@ -11542,10 +11537,6 @@ GetMinimumWidgetSize
 aPresContext
 this
 appearance
-&
-minTwistySizePx
-&
-canOverride
 )
 ;
 /
@@ -11606,11 +11597,8 @@ width
 minTwistySize
 .
 width
-|
-|
-!
-canOverride
 )
+{
 aTwistyRect
 .
 width
@@ -11619,6 +11607,7 @@ minTwistySize
 .
 width
 ;
+}
 }
 return
 useTheme

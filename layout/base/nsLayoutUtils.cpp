@@ -31697,14 +31697,6 @@ disp
 )
 )
 {
-LayoutDeviceIntSize
-devSize
-;
-bool
-canOverride
-=
-true
-;
 nsPresContext
 *
 pc
@@ -31716,6 +31708,9 @@ PresContext
 (
 )
 ;
+LayoutDeviceIntSize
+devSize
+=
 pc
 -
 >
@@ -31734,10 +31729,6 @@ disp
 EffectiveAppearance
 (
 )
-&
-devSize
-&
-canOverride
 )
 ;
 nscoord
@@ -31786,10 +31777,6 @@ if
 themeSize
 >
 result
-|
-|
-!
-canOverride
 )
 {
 result
