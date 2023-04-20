@@ -3635,6 +3635,12 @@ trc
 )
 {
 }
+~
+AutoClearTracingSource
+(
+)
+{
+}
 #
 else
 GCMarker
