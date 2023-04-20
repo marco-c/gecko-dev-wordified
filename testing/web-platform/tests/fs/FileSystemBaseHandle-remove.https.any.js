@@ -17,11 +17,6 @@ META
 :
 script
 =
-.
-.
-/
-fs
-/
 resources
 /
 sandboxed
