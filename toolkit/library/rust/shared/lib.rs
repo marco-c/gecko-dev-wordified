@@ -536,6 +536,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+uniffi_custom_types
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 uniffi_geometry
 :
 :
