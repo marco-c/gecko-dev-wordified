@@ -346,6 +346,7 @@ TimeDurationToDouble
 GetCurrentTimeAsDuration
 (
 )
+mRTPCallerType
 )
 ;
 }
