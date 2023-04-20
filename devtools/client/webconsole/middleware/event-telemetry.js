@@ -115,7 +115,6 @@ function
 eventTelemetryMiddleware
 (
 telemetry
-sessionId
 store
 )
 {
@@ -144,16 +143,6 @@ next
 action
 )
 ;
-if
-(
-!
-sessionId
-)
-{
-return
-res
-;
-}
 const
 state
 =
@@ -191,7 +180,6 @@ action
 state
 oldState
 telemetry
-sessionId
 }
 )
 ;
@@ -247,11 +235,6 @@ ui
 .
 persistLogs
 )
-{
-session_id
-:
-sessionId
-}
 )
 ;
 }
@@ -334,9 +317,6 @@ multiline
 "
 inline
 "
-session_id
-:
-sessionId
 }
 )
 ;
@@ -373,9 +353,6 @@ functionality
 evaluate
 expression
 "
-session_id
-:
-sessionId
 }
 )
 ;
@@ -419,9 +396,6 @@ functionality
 "
 open
 "
-session_id
-:
-sessionId
 }
 )
 ;
@@ -458,9 +432,6 @@ functionality
 navigate
 next
 "
-session_id
-:
-sessionId
 }
 )
 ;
@@ -497,9 +468,6 @@ functionality
 navigate
 previous
 "
-session_id
-:
-sessionId
 }
 )
 ;
@@ -518,7 +486,6 @@ action
 state
 oldState
 telemetry
-sessionId
 }
 )
 {
@@ -703,9 +670,6 @@ join
 "
 "
 )
-session_id
-:
-sessionId
 }
 )
 ;

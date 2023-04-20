@@ -224,13 +224,6 @@ getState
 )
 ;
 const
-{
-sessionId
-}
-=
-toolbox
-;
-const
 filterChangeActions
 =
 [
@@ -267,7 +260,6 @@ action
 state
 oldState
 telemetry
-sessionId
 }
 )
 ;
@@ -299,7 +291,6 @@ sidePanelChange
 state
 oldState
 telemetry
-sessionId
 }
 )
 ;
@@ -329,7 +320,6 @@ sendCustomRequest
 (
 {
 telemetry
-sessionId
 }
 )
 ;
@@ -359,7 +349,6 @@ throttlingChange
 {
 action
 telemetry
-sessionId
 }
 )
 ;
@@ -389,7 +378,6 @@ persistenceChange
 {
 telemetry
 state
-sessionId
 }
 )
 ;
@@ -418,7 +406,6 @@ selectMessage
 (
 {
 telemetry
-sessionId
 }
 )
 ;
@@ -468,7 +455,6 @@ action
 state
 oldState
 telemetry
-sessionId
 }
 )
 {
@@ -645,9 +631,6 @@ join
 "
 "
 )
-session_id
-:
-sessionId
 }
 )
 ;
@@ -690,7 +673,6 @@ sidePanelChange
 state
 oldState
 telemetry
-sessionId
 }
 )
 {
@@ -720,9 +702,6 @@ state
 ui
 .
 detailsPanelSelectedTab
-session_id
-:
-sessionId
 }
 )
 ;
@@ -762,7 +741,6 @@ sendCustomRequest
 (
 {
 telemetry
-sessionId
 }
 )
 {
@@ -776,12 +754,6 @@ edit_resend
 "
 netmonitor
 "
-null
-{
-session_id
-:
-sessionId
-}
 )
 ;
 }
@@ -821,7 +793,6 @@ throttlingChange
 {
 action
 telemetry
-sessionId
 }
 )
 {
@@ -842,9 +813,6 @@ mode
 action
 .
 profile
-session_id
-:
-sessionId
 }
 )
 ;
@@ -885,7 +853,6 @@ persistenceChange
 {
 telemetry
 state
-sessionId
 }
 )
 {
@@ -907,11 +874,6 @@ ui
 .
 persistentLogsEnabled
 )
-{
-session_id
-:
-sessionId
-}
 )
 ;
 }
@@ -951,7 +913,6 @@ selectMessage
 (
 {
 telemetry
-sessionId
 }
 )
 {
@@ -965,12 +926,6 @@ select_ws_frame
 "
 netmonitor
 "
-null
-{
-session_id
-:
-sessionId
-}
 )
 ;
 }
