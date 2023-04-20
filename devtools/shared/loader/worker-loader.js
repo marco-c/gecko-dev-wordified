@@ -3289,6 +3289,7 @@ create
 null
 )
 ChromeUtils
+DebuggerNotificationObserver
 /
 /
 The
@@ -3355,7 +3356,6 @@ modules
 {
 Debugger
 xpcInspector
-DebuggerNotificationObserver
 }
 paths
 :

@@ -92,16 +92,6 @@ literal
 *
 /
 const
-DebuggerNotificationObserver
-=
-require
-(
-"
-DebuggerNotificationObserver
-"
-)
-;
-const
 {
 Pool
 }
