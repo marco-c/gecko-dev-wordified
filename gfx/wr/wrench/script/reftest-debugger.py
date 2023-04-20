@@ -121,8 +121,6 @@ except
 subprocess
 .
 CalledProcessError
-as
-ex
 :
         
 subprocess

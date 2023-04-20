@@ -111,6 +111,7 @@ FILE
 )
         
 except
+Exception
 :
             
 pass
