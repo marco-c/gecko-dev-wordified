@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -121,6 +121,14 @@ landmines
 "
 "
 "
+from
+__future__
+import
+absolute_import
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -261,9 +269,9 @@ dependency
 bug
 and
 all
-bots
     
 #
+bots
 need
 to
 be
@@ -317,6 +325,7 @@ examples
 .
     
 print
+(
 '
 Clobber
 to
@@ -337,6 +346,7 @@ webrtc
 5070
 )
 '
+)
     
 if
 host_os
@@ -350,6 +360,7 @@ win
 :
         
 print
+(
 '
 Clobber
 to
@@ -365,8 +376,10 @@ on
 bots
 .
 '
+)
         
 print
+(
 '
 Clobber
 due
@@ -381,8 +394,11 @@ after
 14623
 )
 '
+)
         
 print
+(
+            
 '
 Clobber
 due
@@ -402,6 +418,7 @@ com
 668961
 )
 '
+)
         
 print
 (
@@ -462,6 +479,7 @@ org
 )
         
 print
+(
 '
 Clobber
 win
@@ -475,6 +493,7 @@ files
 )
 .
 '
+)
     
 if
 host_os
@@ -488,6 +507,7 @@ mac
 :
         
 print
+(
 '
 Clobber
 due
@@ -503,8 +523,10 @@ com
 694721
 )
 '
+)
         
 print
+(
 '
 Clobber
 to
@@ -521,6 +543,7 @@ org
 /
 2709573003
 '
+)
         
 print
 (
@@ -616,6 +639,7 @@ iOS
 )
         
 print
+(
 '
 Another
 landmine
@@ -627,8 +651,10 @@ webrtc
 7430
 )
 '
+)
         
 print
+(
 '
 Clobber
 to
@@ -638,8 +664,10 @@ type
 to
 executable
 '
+)
         
 print
+(
 '
 Clobber
 to
@@ -649,8 +677,10 @@ xctest
 files
 .
 '
+)
         
 print
+(
 '
 Clobber
 to
@@ -664,14 +694,17 @@ take
 )
 .
 '
+)
         
 print
+(
 '
 Switching
 rtc_executable
 to
 rtc_test
 '
+)
 def
 main
 (
