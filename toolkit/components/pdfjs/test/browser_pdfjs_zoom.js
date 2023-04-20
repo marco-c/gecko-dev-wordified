@@ -561,6 +561,10 @@ parseInt
 (
 content
 .
+getComputedStyle
+(
+content
+.
 document
 .
 querySelector
@@ -582,8 +586,7 @@ number
 ]
 "
 )
-.
-style
+)
 .
 width
 )
@@ -844,9 +847,12 @@ actualWidth
 =
 parseInt
 (
-pageContainer
+content
 .
-style
+getComputedStyle
+(
+pageContainer
+)
 .
 width
 )
@@ -1164,6 +1170,10 @@ parseInt
 (
 content
 .
+getComputedStyle
+(
+content
+.
 document
 .
 querySelector
@@ -1185,8 +1195,7 @@ number
 ]
 "
 )
-.
-style
+)
 .
 width
 )
