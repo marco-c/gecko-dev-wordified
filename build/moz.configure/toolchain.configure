@@ -10669,6 +10669,7 @@ lld
 lld
 -
 *
+mold
 }
 {
 |
@@ -10830,6 +10831,9 @@ gold
 "
 "
 lld
+"
+"
+mold
 "
 )
 if
@@ -11158,6 +11162,18 @@ retcode
 :
 return
 None
+elif
+"
+mold
+"
+in
+stdout
+:
+kind
+=
+"
+mold
+"
 elif
 "
 GNU
@@ -11881,6 +11897,9 @@ gold
 "
 "
 lld
+"
+"
+mold
 "
 )
 if
