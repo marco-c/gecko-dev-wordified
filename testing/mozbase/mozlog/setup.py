@@ -60,8 +60,8 @@ absolute_import
 from
 setuptools
 import
-setup
 find_packages
+setup
 PACKAGE_NAME
 =
 "
@@ -74,19 +74,21 @@ PACKAGE_VERSION
 .
 1
 .
-0
+1
 "
 DEPS
 =
 [
     
 "
-blessings
+blessed
 >
 =
 1
 .
-3
+19
+.
+1
 "
     
 "

@@ -57,24 +57,24 @@ from
 __future__
 import
 absolute_import
+import
+collections
+import
+os
+import
+platform
+import
+subprocess
+import
+sys
+import
+six
 from
 mozlog
 .
 formatters
 import
 base
-import
-collections
-import
-os
-import
-sys
-import
-subprocess
-import
-platform
-import
-six
 DEFAULT_MOVE_UP_CODE
 =
 u
@@ -566,7 +566,7 @@ try
 :
             
 import
-blessings
+blessed
         
 except
 ImportError
@@ -583,7 +583,7 @@ self
 .
 terminal
 =
-blessings
+blessed
 .
 Terminal
 (
