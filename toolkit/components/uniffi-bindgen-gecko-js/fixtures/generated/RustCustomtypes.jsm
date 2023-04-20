@@ -2037,12 +2037,12 @@ UniFFIScaffolding
 .
 callAsync
 (
-87
+107
 /
 /
 customtypes
 :
-customtypes_6e0d_get_custom_types_demo
+customtypes_fb46_get_custom_types_demo
 FfiConverterOptionalTypeCustomTypesDemo
 .
 lower
