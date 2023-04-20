@@ -6598,7 +6598,7 @@ ISize
 aWM
 )
 =
-ShrinkWidthToFit
+ShrinkISizeToFit
 (
 aRenderingContext
 availBased

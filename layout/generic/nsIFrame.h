@@ -20440,7 +20440,7 @@ GetPrefISize
 *
 /
 nscoord
-ShrinkWidthToFit
+ShrinkISizeToFit
 (
 gfxContext
 *

@@ -10574,7 +10574,7 @@ from
 nsIFrame
 :
 :
-ShrinkWidthToFit
+ShrinkISizeToFit
 by
 only
 the

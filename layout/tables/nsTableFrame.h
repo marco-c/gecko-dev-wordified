@@ -2094,7 +2094,7 @@ of
 nsIFrame
 :
 :
-ShrinkWidthToFit
+ShrinkISizeToFit
 that
 calls
 a
