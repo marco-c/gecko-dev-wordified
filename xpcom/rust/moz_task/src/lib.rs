@@ -2502,6 +2502,11 @@ deallocate
 the
 holder
 .
+mem
+:
+:
+drop
+(
 Box
 :
 :
@@ -2516,6 +2521,7 @@ as
 *
 mut
 Self
+)
 )
 ;
 }

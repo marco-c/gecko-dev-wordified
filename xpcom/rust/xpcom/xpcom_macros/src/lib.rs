@@ -5920,6 +5920,16 @@ dealloc
 std
 :
 :
+mem
+:
+:
+drop
+(
+:
+:
+std
+:
+:
 boxed
 :
 :
@@ -5937,6 +5947,7 @@ as
 *
 mut
 Self
+)
 )
 ;
 }
