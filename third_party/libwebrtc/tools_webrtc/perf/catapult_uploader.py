@@ -1841,11 +1841,13 @@ time
 :
 %
 d
+seconds
 .
 '
+          
 options
 .
-wait_timeout
+wait_timeout_sec
 )
     
 return
