@@ -1018,7 +1018,11 @@ const
 override
 {
 return
-content_name_
+demuxer_criteria_
+.
+mid
+(
+)
 ;
 }
 /
@@ -2319,13 +2323,6 @@ webrtc
 PendingTaskSafetyFlag
 >
 alive_
-;
-const
-std
-:
-:
-string
-content_name_
 ;
 std
 :
