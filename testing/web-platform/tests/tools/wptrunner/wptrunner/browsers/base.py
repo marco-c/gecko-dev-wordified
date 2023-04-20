@@ -2475,6 +2475,12 @@ host
 self
 .
 port
+                             
+timeout
+=
+self
+.
+init_timeout
 )
         
 except
