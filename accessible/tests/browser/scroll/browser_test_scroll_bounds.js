@@ -390,7 +390,7 @@ present
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 docAcc
 "
@@ -400,7 +400,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 docAcc
 "
@@ -445,7 +445,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 docAcc
 "
@@ -455,7 +455,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 docAcc
 "
@@ -569,7 +569,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 docAcc
 "
@@ -579,7 +579,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 docAcc
 "

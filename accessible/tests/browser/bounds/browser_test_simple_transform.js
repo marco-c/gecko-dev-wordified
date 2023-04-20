@@ -103,7 +103,7 @@ present
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 iframeDocAcc
 "
@@ -162,7 +162,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 iframeDocAcc
 "
@@ -227,7 +227,7 @@ present
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 iframeDocAcc
 "
@@ -286,7 +286,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 iframeDocAcc
 "
@@ -351,7 +351,7 @@ present
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 iframeDocAcc
 "
@@ -409,7 +409,7 @@ browser
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 iframeDocAcc
 "
