@@ -107,6 +107,8 @@ example
 .
 com
 /
+data
+/
 file_sample
 .
 html
@@ -262,6 +264,8 @@ example
 .
 com
 /
+data
+/
 file_download
 .
 txt
@@ -330,6 +334,8 @@ example
 .
 com
 /
+data
+/
 file_download
 .
 txt
@@ -367,6 +373,8 @@ a
 example
 .
 com
+/
+data
 /
 file_sample
 .
@@ -490,7 +498,7 @@ equal
 b
 .
 size
-428
+46
 "
 encodedBodySize
 available
