@@ -360,6 +360,12 @@ return
 mSpecifiedStyle
 ;
 }
+EditorInlineStyle
+ToInlineStyle
+(
+)
+const
+;
 private
 :
 MOZ_KNOWN_LIVE
