@@ -102,26 +102,6 @@ classes
 .
 /
 /
-TODO
-(
-deadbeef
-)
-:
-Move
-this
-to
-pc
-/
-;
-this
-is
-part
-of
-the
-implementation
-.
-/
-/
 The
 proxied
 objects
@@ -510,15 +490,6 @@ include
 "
 rtc_base
 /
-location
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 message_handler
 .
 h
@@ -571,13 +542,6 @@ define
 RTC_DISABLE_PROXY_TRACE_EVENTS
 #
 endif
-namespace
-rtc
-{
-class
-Location
-;
-}
 namespace
 webrtc
 {
@@ -879,13 +843,6 @@ args
 R
 Marshal
 (
-const
-rtc
-:
-:
-Location
-&
-posted_from
 rtc
 :
 :
@@ -1153,13 +1110,6 @@ args
 R
 Marshal
 (
-const
-rtc
-:
-:
-Location
-&
-posted_from
 rtc
 :
 :
@@ -1760,7 +1710,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 destructor_thread
 (
 )
@@ -1947,7 +1896,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 destructor_thread
 (
 )
@@ -2371,7 +2319,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2422,7 +2369,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2483,7 +2429,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2545,7 +2490,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2618,7 +2562,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2702,7 +2645,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2798,7 +2740,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2905,7 +2846,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 primary_thread_
 )
 ;
@@ -2968,7 +2908,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
@@ -3019,7 +2958,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
@@ -3080,7 +3018,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
@@ -3142,7 +3079,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
@@ -3215,7 +3151,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
@@ -3289,7 +3224,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
@@ -3373,7 +3307,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
@@ -3457,7 +3390,6 @@ call
 .
 Marshal
 (
-RTC_FROM_HERE
 secondary_thread_
 )
 ;
