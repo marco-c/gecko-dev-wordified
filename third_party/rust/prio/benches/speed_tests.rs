@@ -949,6 +949,7 @@ format
 "
 prio2
 prove
+input
 size
 =
 {
@@ -1041,6 +1042,7 @@ format
 "
 prio2
 query
+input
 size
 =
 {
@@ -1198,6 +1200,7 @@ format
 prio3
 countvec
 prove
+input
 size
 =
 {
@@ -1266,6 +1269,7 @@ format
 prio3
 countvec
 query
+input
 size
 =
 {
@@ -1375,6 +1379,7 @@ prio3
 countvec
 multithreaded
 prove
+input
 size
 =
 {
@@ -1444,6 +1449,7 @@ prio3
 countvec
 multithreaded
 query
+input
 size
 =
 {
@@ -1556,6 +1562,7 @@ println
 "
 prio3
 count
+share
 size
 =
 {
@@ -1575,6 +1582,8 @@ measurement
 unwrap
 (
 )
+.
+1
 )
 )
 ;
@@ -1666,6 +1675,7 @@ histogram
 }
 buckets
 )
+share
 size
 =
 {
@@ -1692,6 +1702,8 @@ measurement
 unwrap
 (
 )
+.
+1
 )
 )
 ;
@@ -1785,6 +1797,7 @@ sum
 }
 bits
 )
+share
 size
 =
 {
@@ -1805,6 +1818,8 @@ measurement
 unwrap
 (
 )
+.
+1
 )
 )
 ;
@@ -1898,6 +1913,7 @@ countvec
 }
 len
 )
+share
 size
 =
 {
@@ -1918,6 +1934,8 @@ measurement
 unwrap
 (
 )
+.
+1
 )
 )
 ;
@@ -2019,6 +2037,7 @@ multithreaded
 }
 len
 )
+share
 size
 =
 {
@@ -2039,6 +2058,8 @@ measurement
 unwrap
 (
 )
+.
+1
 )
 )
 ;
