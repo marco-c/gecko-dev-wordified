@@ -1030,7 +1030,7 @@ if
 frame
 -
 >
-HidesContent
+IsContentHidden
 (
 )
 |
@@ -1038,7 +1038,7 @@ HidesContent
 frame
 -
 >
-IsHiddenByContentVisibilityOnAnyAncestor
+AncestorHidesContent
 (
 )
 )

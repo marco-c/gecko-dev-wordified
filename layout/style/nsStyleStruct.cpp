@@ -24675,7 +24675,7 @@ lastSize
 &
 aFrame
 .
-HidesContent
+IsContentHidden
 (
 )
 )
