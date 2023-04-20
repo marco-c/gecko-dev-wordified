@@ -137,9 +137,11 @@ testing
 of
 PushResampler
 is
-handled
-through
-output_mixer_unittest
+done
+in
+audio
+/
+remix_resample_unittest
 .
 cc
 .
