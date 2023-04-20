@@ -1456,6 +1456,10 @@ input_state_provider
 VideoStreamEncoderObserver
 *
 encoder_stats_observer
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 input_state_provider_
@@ -1465,6 +1469,10 @@ input_state_provider
 encoder_stats_observer_
 (
 encoder_stats_observer
+)
+balanced_settings_
+(
+field_trials
 )
 adaptation_validation_id_
 (

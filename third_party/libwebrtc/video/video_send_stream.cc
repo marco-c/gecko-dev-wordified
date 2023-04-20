@@ -725,6 +725,10 @@ VideoStreamEncoder
 :
 BitrateAllocationCallbackType
 bitrate_allocation_callback_type
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 {
 std
@@ -803,6 +807,7 @@ move
 encoder_queue
 )
 bitrate_allocation_callback_type
+field_trials
 )
 ;
 }
@@ -881,6 +886,10 @@ unique_ptr
 FecController
 >
 fec_controller
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 rtp_transport_queue_
@@ -936,6 +945,7 @@ GetBitrateAllocationCallbackType
 (
 config_
 )
+field_trials
 )
 )
 encoder_feedback_

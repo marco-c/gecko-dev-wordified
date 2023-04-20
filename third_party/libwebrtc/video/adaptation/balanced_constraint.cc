@@ -134,6 +134,10 @@ BalancedConstraint
 DegradationPreferenceProvider
 *
 degradation_preference_provider
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 encoder_target_bitrate_bps_
@@ -142,6 +146,10 @@ absl
 :
 :
 nullopt
+)
+balanced_settings_
+(
+field_trials
 )
 degradation_preference_provider_
 (

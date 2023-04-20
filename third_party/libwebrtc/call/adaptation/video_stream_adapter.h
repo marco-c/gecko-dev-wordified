@@ -170,6 +170,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 adaptation
@@ -840,6 +849,10 @@ input_state_provider
 VideoStreamEncoderObserver
 *
 encoder_stats_observer
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

@@ -112,7 +112,7 @@ include
 "
 test
 /
-field_trial
+gmock
 .
 h
 "
@@ -121,7 +121,7 @@ include
 "
 test
 /
-gmock
+scoped_key_value_config
 .
 h
 "
@@ -325,7 +325,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -334,6 +334,9 @@ field_trials
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -467,7 +470,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -506,6 +509,9 @@ other
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_THAT
 (
@@ -684,7 +690,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -716,6 +722,9 @@ fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -739,7 +748,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -771,6 +780,9 @@ fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -794,7 +806,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -826,6 +838,9 @@ fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -849,7 +864,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -918,6 +933,9 @@ generic_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_THAT
 (
@@ -1096,7 +1114,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1135,6 +1153,9 @@ vp8_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -1158,7 +1179,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1197,6 +1218,9 @@ vp8_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -1220,7 +1244,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1259,6 +1283,9 @@ vp8_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -1282,7 +1309,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1314,6 +1341,9 @@ fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -1423,7 +1453,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1462,6 +1492,9 @@ vp8_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -1571,7 +1604,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1603,6 +1636,9 @@ fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -1688,7 +1724,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1727,6 +1763,9 @@ vp8_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -1812,7 +1851,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1851,6 +1890,9 @@ vp9_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -1889,7 +1931,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -1928,6 +1970,9 @@ h264_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -1966,7 +2011,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -2005,6 +2050,9 @@ generic_fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -2054,7 +2102,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -2110,6 +2158,9 @@ max
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -2172,7 +2223,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -2298,6 +2349,9 @@ generic_kbps_res
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_THAT
 (
@@ -2476,7 +2530,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -2515,6 +2569,9 @@ kbps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -2538,7 +2595,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -2577,6 +2634,9 @@ kbps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -2605,7 +2665,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -2661,6 +2721,9 @@ vp9_kbps
 ;
 BalancedDegradationSettings
 s
+(
+field_trials
+)
 ;
 EXPECT_TRUE
 (
@@ -2776,7 +2839,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -2861,6 +2924,9 @@ generic_kbps
 ;
 BalancedDegradationSettings
 s
+(
+field_trials
+)
 ;
 EXPECT_FALSE
 (
@@ -3017,7 +3083,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -3073,6 +3139,9 @@ vp9_kbps_res
 ;
 BalancedDegradationSettings
 s
+(
+field_trials
+)
 ;
 EXPECT_TRUE
 (
@@ -3188,7 +3257,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -3273,6 +3342,9 @@ generic_kbps_res
 ;
 BalancedDegradationSettings
 s
+(
+field_trials
+)
 ;
 EXPECT_FALSE
 (
@@ -3424,7 +3496,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -3464,6 +3536,9 @@ fps_diff
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -3556,7 +3631,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -3608,6 +3683,9 @@ setting
 .
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_FALSE
 (
@@ -3654,7 +3732,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -3686,6 +3764,9 @@ fps
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_FALSE
 (
@@ -3755,7 +3836,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -3863,6 +3944,9 @@ generic_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_THAT
 (
@@ -4041,7 +4125,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4080,6 +4164,9 @@ vp8_qp_low
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -4103,7 +4190,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4142,6 +4229,9 @@ vp8_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -4165,7 +4255,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4213,6 +4303,9 @@ vp8_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -4236,7 +4329,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4284,6 +4377,9 @@ vp8_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -4307,7 +4403,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4355,6 +4451,9 @@ vp8_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 VerifyIsDefault
 (
@@ -4378,7 +4477,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4426,6 +4525,9 @@ vp8_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 EXPECT_EQ
 (
@@ -4560,7 +4662,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4608,6 +4710,9 @@ vp9_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 const
 auto
@@ -4657,7 +4762,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4705,6 +4810,9 @@ h264_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 const
 auto
@@ -4754,7 +4862,7 @@ webrtc
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
 "
@@ -4802,6 +4910,9 @@ generic_qp_high
 ;
 BalancedDegradationSettings
 settings
+(
+field_trials
+)
 ;
 const
 auto

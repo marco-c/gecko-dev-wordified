@@ -185,9 +185,9 @@ include
 "
 api
 /
-transport
+video_codecs
 /
-field_trial_based_config
+video_encoder
 .
 h
 "
@@ -196,9 +196,7 @@ include
 "
 api
 /
-video_codecs
-/
-video_encoder
+webrtc_key_value_config
 .
 h
 "
@@ -605,6 +603,10 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~
@@ -1109,7 +1111,8 @@ framerate
 const
 ;
 const
-FieldTrialBasedConfig
+WebRtcKeyValueConfig
+&
 field_trials_
 ;
 const
