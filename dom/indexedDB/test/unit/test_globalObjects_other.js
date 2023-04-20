@@ -94,7 +94,7 @@ GlobalObjectsModule
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -105,7 +105,9 @@ test
 /
 GlobalObjectsModule
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

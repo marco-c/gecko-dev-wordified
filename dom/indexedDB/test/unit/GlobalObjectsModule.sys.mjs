@@ -30,15 +30,7 @@ zero
 /
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-GlobalObjectsModule
-"
-]
-;
+export
 function
 GlobalObjectsModule
 (
