@@ -1868,7 +1868,7 @@ For
 the
 scroll
 -
-linked
+driven
 animations
 it
 '

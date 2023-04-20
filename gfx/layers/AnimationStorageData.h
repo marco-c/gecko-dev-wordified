@@ -408,7 +408,7 @@ information
 for
 scroll
 -
-linked
+driven
 animations
 .
 Maybe

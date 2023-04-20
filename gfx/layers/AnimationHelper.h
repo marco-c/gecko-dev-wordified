@@ -604,7 +604,7 @@ is
 the
 scroll
 -
-linked
+driven
 animation
 .
 When

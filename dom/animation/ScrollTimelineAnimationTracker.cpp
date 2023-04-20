@@ -314,7 +314,7 @@ TriggerOnNextTick
 for
 scroll
 -
-linked
+driven
 animations
 may
 have

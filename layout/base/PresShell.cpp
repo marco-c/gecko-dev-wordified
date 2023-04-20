@@ -28900,7 +28900,7 @@ trigger
 pending
 scroll
 -
-linked
+driven
 animations
 after
 we
@@ -28951,7 +28951,7 @@ to
 trigger
 scroll
 -
-linked
+driven
 /
 /
 animations

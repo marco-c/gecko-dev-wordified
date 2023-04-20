@@ -460,7 +460,7 @@ schedule
 the
 scroll
 -
-linked
+driven
 animations
 if
 there
@@ -620,7 +620,6 @@ animations
 -
 1
 /
-rewrite
 #
 typedef
 -
