@@ -80,14 +80,14 @@ zipfile
 import
 mozfile
 from
-mozlog
-import
-get_proxy_logger
-from
 mozgeckoprofiler
 import
 ProfileSymbolicator
 save_gecko_profile
+from
+mozlog
+import
+get_proxy_logger
 LOG
 =
 get_proxy_logger
@@ -243,7 +243,6 @@ gecko_profile_features
 "
 "
 js
-leaf
 stackwalk
 cpu
 "
