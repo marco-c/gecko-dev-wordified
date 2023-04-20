@@ -464,11 +464,6 @@ int
 aArg
 )
 ;
-void
-ProcessClusterHit
-(
-)
-;
 private
 :
 ~
