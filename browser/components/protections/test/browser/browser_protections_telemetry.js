@@ -66,7 +66,7 @@ AboutProtectionsParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -78,7 +78,9 @@ actors
 /
 AboutProtectionsParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

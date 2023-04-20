@@ -2517,7 +2517,7 @@ AboutProtections
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2529,13 +2529,15 @@ actors
 /
 AboutProtectionsParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2547,7 +2549,9 @@ actors
 /
 AboutProtectionsChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

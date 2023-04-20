@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-AboutProtectionsChild
-"
-]
-;
 const
 {
 RemotePageChild
@@ -114,6 +105,7 @@ jsm
 "
 )
 ;
+export
 class
 AboutProtectionsChild
 extends
