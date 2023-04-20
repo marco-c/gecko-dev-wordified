@@ -25680,6 +25680,11 @@ layer
 .
 target_bitrate_bps
 =
+std
+:
+:
+min
+(
 encoder_config
 .
 simulcast_layers
@@ -25688,6 +25693,8 @@ simulcast_layers
 ]
 .
 target_bitrate_bps
+max_bitrate_bps
+)
 ;
 }
 layer
