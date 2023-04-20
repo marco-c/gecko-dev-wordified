@@ -486,11 +486,6 @@ resetInternalState
 }
 )
 ;
-await
-promiseSyncReady
-(
-)
-;
 /
 /
 gSync

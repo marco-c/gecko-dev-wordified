@@ -599,9 +599,7 @@ with
 .
 configureEngine
 (
-{
-guid_desktop
-:
+[
 {
 id
 :
@@ -629,7 +627,7 @@ com
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -726,9 +724,7 @@ record
 .
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -771,7 +767,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -895,9 +891,7 @@ false
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -940,7 +934,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1080,9 +1074,7 @@ false
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1125,7 +1117,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1215,9 +1207,7 @@ false
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1260,7 +1250,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1347,9 +1337,7 @@ title
 .
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1383,7 +1371,7 @@ Example
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1521,9 +1509,7 @@ tab
 .
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1557,7 +1543,7 @@ Example
 }
 ]
 }
-}
+]
 )
 ;
 /
@@ -1766,9 +1752,7 @@ tab
 .
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1793,7 +1777,7 @@ Example
 }
 ]
 }
-}
+]
 )
 ;
 /
@@ -2027,9 +2011,7 @@ tab
 .
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -2038,7 +2020,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 /
@@ -2571,9 +2553,7 @@ tab
 .
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -2582,7 +2562,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 let
@@ -3173,9 +3153,7 @@ now
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -3186,8 +3164,6 @@ tabs
 :
 mobileTabs
 }
-guid_desktop
-:
 {
 id
 :
@@ -3198,7 +3174,7 @@ tabs
 :
 desktopTabs
 }
-}
+]
 )
 ;
 /
@@ -3583,9 +3559,7 @@ i
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -3594,7 +3568,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 /
@@ -4024,9 +3998,7 @@ now
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -4035,7 +4007,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 /

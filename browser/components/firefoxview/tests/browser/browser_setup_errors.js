@@ -201,11 +201,6 @@ function
 (
 )
 {
-await
-promiseSyncReady
-(
-)
-;
 /
 /
 gSync
