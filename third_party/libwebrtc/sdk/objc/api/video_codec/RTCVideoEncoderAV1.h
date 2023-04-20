@@ -164,4 +164,10 @@ RTCVideoEncoder
 )
 av1Encoder
 ;
++
+(
+bool
+)
+isSupported
+;
 end
