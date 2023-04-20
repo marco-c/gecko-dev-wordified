@@ -6907,7 +6907,10 @@ if
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 )
 {
 AddListener

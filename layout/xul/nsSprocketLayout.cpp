@@ -267,7 +267,10 @@ ret
 emplace
 (
 aBoxFrame
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 CSSOrderAwareFrameIterator
 :
 :

@@ -583,7 +583,10 @@ if
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 )
 {
 UpdateSpanFlag
