@@ -148,7 +148,9 @@ LOG_LEVELS
 in
 Console
 .
-jsm
+sys
+.
+mjs
 .
 Common
 examples
@@ -163,6 +165,8 @@ Info
 Warn
 "
 &
+/
+/
 "
 Error
 "

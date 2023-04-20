@@ -749,7 +749,9 @@ semantics
 of
 Preferences
 .
-jsm
+sys
+.
+mjs
 .
 *
 Extends
@@ -844,7 +846,9 @@ modules
 /
 EventEmitter
 .
-jsm
+sys
+.
+mjs
 *
 /
 export

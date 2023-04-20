@@ -101,7 +101,9 @@ checks
 that
 PopupNotifications
 .
-jsm
+sys
+.
+mjs
 makes
 before
 it

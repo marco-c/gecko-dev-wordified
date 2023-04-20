@@ -1742,7 +1742,9 @@ getAppUpdateAutoEnabled
 from
 UpdateUtils
 .
-jsm
+sys
+.
+mjs
 should
 be
 used
@@ -19619,7 +19621,9 @@ Manager
 See
 Console
 .
-jsm
+sys
+.
+mjs
 LOG_LEVELS
 for
 all
@@ -22792,7 +22796,9 @@ used
 by
 Region
 .
-jsm
+sys
+.
+mjs
 only
 exposes
 the

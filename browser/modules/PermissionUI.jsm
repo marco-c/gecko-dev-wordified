@@ -208,7 +208,7 @@ Integration
 =
 ChromeUtils
 .
-import
+importESModule
 (
 *
 "
@@ -222,7 +222,9 @@ modules
 /
 Integration
 .
-jsm
+sys
+.
+mjs
 "
 *
 )
@@ -1163,7 +1165,9 @@ in
 *
 PopupNotifications
 .
-jsm
+sys
+.
+mjs
 for
 details
 .
@@ -1406,7 +1410,9 @@ here
 See
 PopupNotifications
 .
-jsm
+sys
+.
+mjs
 for
 more
 details
@@ -1528,7 +1534,9 @@ PopupNotifications_show
 in
 PopupNotifications
 .
-jsm
+sys
+.
+mjs
 .
 *
 *

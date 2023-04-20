@@ -17554,12 +17554,14 @@ setInterval
 from
 Timer
 .
-jsm
+sys
+.
+mjs
 )
 .
+/
+/
 After
-/
-/
 ~
 33
 ticks
