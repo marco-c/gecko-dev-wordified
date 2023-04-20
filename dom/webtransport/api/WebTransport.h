@@ -247,6 +247,16 @@ nsresult
 aRv
 )
 ;
+bool
+ParseURL
+(
+const
+nsAString
+&
+aURL
+)
+const
+;
 /
 /
 WebIDL
