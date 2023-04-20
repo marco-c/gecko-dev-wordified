@@ -236,6 +236,11 @@ ruleManager
 getSessionRules
 (
 )
+{
+isSessionRuleset
+:
+true
+}
 )
 ;
 if
