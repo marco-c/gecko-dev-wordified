@@ -2676,6 +2676,10 @@ hasLiveRuntimes
 return
 ;
 }
+PurgeCanonicalTypes
+(
+)
+;
 /
 /
 After
