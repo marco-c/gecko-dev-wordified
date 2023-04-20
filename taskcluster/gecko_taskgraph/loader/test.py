@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+copy
+import
 logging
 from
 taskgraph
@@ -63,14 +65,6 @@ util
 yaml
 import
 load_yaml
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 .
 transform
@@ -285,7 +279,9 @@ names
             
 test
 =
-copy_task
+copy
+.
+deepcopy
 (
 test_descriptions
 [

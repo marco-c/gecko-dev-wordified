@@ -892,7 +892,6 @@ False
             
 partner_path_key
 =
-f
 "
 partner
 -
@@ -902,6 +901,15 @@ destination
 -
 path
 "
+.
+format
+(
+                
+destination
+=
+destination
+            
+)
             
 partner_path
 =

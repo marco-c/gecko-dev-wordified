@@ -66,6 +66,8 @@ kind
 "
 "
 import
+copy
+import
 json
 from
 mozbuild
@@ -155,14 +157,6 @@ copy_attributes_from_dependent_job
     
 task_name
 )
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 def
 _by_platform
 (
@@ -1894,7 +1888,9 @@ jobs
         
 job
 =
-copy_task
+copy
+.
+deepcopy
 (
 job
 )
@@ -2326,7 +2322,9 @@ chunks
                 
 chunked
 =
-copy_task
+copy
+.
+deepcopy
 (
 job
 )

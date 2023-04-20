@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+copy
+import
 json
 import
 logging
@@ -79,14 +81,6 @@ import
 get_artifact
 get_task_definition
 list_artifacts
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 .
 registry
@@ -1119,7 +1113,9 @@ task_definition
     
 task_definition
 =
-copy_task
+copy
+.
+deepcopy
 (
 task_definition
 )
@@ -1336,7 +1332,9 @@ loop
     
 command
 =
-copy_task
+copy
+.
+deepcopy
 (
 task_definition
 [
