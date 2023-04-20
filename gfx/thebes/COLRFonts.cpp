@@ -5693,13 +5693,9 @@ FuzzyEqualsMultiplicative
 p2
 .
 y
-.
-value
 p0
 .
 y
-.
-value
 )
 )
 {
@@ -5730,13 +5726,9 @@ FuzzyEqualsMultiplicative
 p2
 .
 x
-.
-value
 p0
 .
 x
-.
-value
 )
 )
 {
