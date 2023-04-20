@@ -2352,6 +2352,15 @@ NormalSuspend
 \
 _
 (
+NumberParseInt
+js
+:
+:
+NumberParseInt
+)
+\
+_
+(
 NumberToString
 js
 :
