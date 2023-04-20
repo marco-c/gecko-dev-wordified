@@ -947,12 +947,6 @@ buffering_allowed
 )
 override
 ;
-bool
-IsUlpfecEnabled
-(
-)
-const
-;
 /
 /
 Returns
