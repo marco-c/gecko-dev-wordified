@@ -578,6 +578,7 @@ end
 NSInteger
 ARDGetCpuUsagePercentage
 (
+void
 )
 {
 /
