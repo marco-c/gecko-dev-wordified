@@ -4420,7 +4420,7 @@ promise
 if
 (
 !
-onFulfilled
+onRejected
 )
 {
 return
