@@ -13629,9 +13629,6 @@ outline
 offset
 "
 "
-size
-"
-"
 page
 "
 "
