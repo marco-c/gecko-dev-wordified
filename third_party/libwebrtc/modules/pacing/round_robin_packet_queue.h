@@ -216,17 +216,6 @@ rtp_packet_to_send
 .
 h
 "
-#
-include
-"
-system_wrappers
-/
-include
-/
-clock
-.
-h
-"
 namespace
 webrtc
 {
@@ -281,7 +270,7 @@ Pop
 )
 override
 ;
-size_t
+int
 SizeInPackets
 (
 )
@@ -806,7 +795,7 @@ enqueue_count_
 bool
 paused_
 ;
-size_t
+int
 size_packets_
 ;
 DataSize
