@@ -526,6 +526,16 @@ satisfied
 ]
 )
 ;
+await
+BrowserTestUtils
+.
+removeTab
+(
+gBrowser
+.
+selectedTab
+)
+;
 defaultPrefs
 .
 setBoolPref
