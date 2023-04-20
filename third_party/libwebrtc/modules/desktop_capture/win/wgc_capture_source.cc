@@ -993,8 +993,11 @@ if
 !
 IsMonitorValid
 (
-*
 hmonitor_
+.
+value
+(
+)
 )
 )
 return
