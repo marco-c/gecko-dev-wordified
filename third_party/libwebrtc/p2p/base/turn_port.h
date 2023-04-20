@@ -2552,8 +2552,6 @@ std
 string
 ReconstructedServerUrl
 (
-bool
-use_hostname
 )
 ;
 void
