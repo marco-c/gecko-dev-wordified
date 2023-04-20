@@ -825,9 +825,9 @@ assert
 .
 notCalled
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }
@@ -907,9 +907,9 @@ assert
 .
 calledOnce
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }
@@ -1009,9 +1009,9 @@ assert
 .
 calledOnce
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }
@@ -2601,9 +2601,9 @@ assert
 .
 calledOnce
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 assert

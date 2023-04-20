@@ -4673,9 +4673,9 @@ page
 }
 else
 {
-console
+Cu
 .
-error
+reportError
 (
 Invalid
 '
@@ -5399,9 +5399,9 @@ advertiser
 }
 else
 {
-console
+Cu
 .
-error
+reportError
 (
 "
 Unknown
@@ -5793,9 +5793,9 @@ if
 pingType
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 "
 Unknown
