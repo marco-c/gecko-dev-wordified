@@ -6842,6 +6842,10 @@ aPtr
 uintptr_t
 aIndex
 )
+MOZ_REQUIRES
+(
+sMutex
+)
 {
 const
 AllocPageInfo
@@ -6998,14 +7002,12 @@ in
 the
 caller
 .
-MOZ_PUSH_IGNORE_THREAD_SAFETY
 sMutex
 .
 Unlock
 (
 )
 ;
-MOZ_POP_THREAD_SAFETY
 *
 static_cast
 <
