@@ -196,6 +196,13 @@ start
 (
 )
 ;
+await
+QuickSuggestTestUtils
+.
+ensureQuickSuggestInit
+(
+)
+;
 }
 )
 ;

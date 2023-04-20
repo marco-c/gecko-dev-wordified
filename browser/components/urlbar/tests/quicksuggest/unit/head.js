@@ -70,7 +70,7 @@ sys
 .
 mjs
 "
-UrlbarProviderQuickSuggest
+QuickSuggestRemoteSettingsClient
 :
 "
 resource
@@ -80,13 +80,13 @@ resource
 /
 modules
 /
-UrlbarProviderQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 sys
 .
 mjs
 "
-UrlbarQuickSuggest
+UrlbarProviderQuickSuggest
 :
 "
 resource
@@ -96,7 +96,7 @@ resource
 /
 modules
 /
-UrlbarQuickSuggest
+UrlbarProviderQuickSuggest
 .
 sys
 .
