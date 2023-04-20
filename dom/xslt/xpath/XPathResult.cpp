@@ -549,7 +549,6 @@ XPathResult
 :
 NodeWillBeDestroyed
 (
-const
 nsINode
 *
 aNode

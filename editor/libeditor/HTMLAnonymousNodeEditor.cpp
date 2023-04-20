@@ -894,7 +894,6 @@ ElementDeletionObserver
 :
 NodeWillBeDestroyed
 (
-const
 nsINode
 *
 aNode
