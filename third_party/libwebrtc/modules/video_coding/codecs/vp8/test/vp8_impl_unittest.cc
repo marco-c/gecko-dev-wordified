@@ -1105,6 +1105,13 @@ TestVp8Impl
 SetRates
 )
 {
+codec_settings_
+.
+SetFrameDropEnabled
+(
+true
+)
+;
 auto
 *
 const
@@ -2865,6 +2872,13 @@ TestVp8Impl
 ScalingEnabledIfAutomaticResizeOn
 )
 {
+codec_settings_
+.
+SetFrameDropEnabled
+(
+true
+)
+;
 codec_settings_
 .
 VP8

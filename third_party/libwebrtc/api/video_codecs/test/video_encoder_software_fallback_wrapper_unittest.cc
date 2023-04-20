@@ -2999,14 +2999,10 @@ true
 ;
 codec_
 .
-VP8
+SetFrameDropEnabled
 (
-)
--
->
-frameDroppingOn
-=
 true
+)
 ;
 rate_allocator_
 .
