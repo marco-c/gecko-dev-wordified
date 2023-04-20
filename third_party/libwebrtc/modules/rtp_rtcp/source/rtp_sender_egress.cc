@@ -608,6 +608,7 @@ populate_network2_timestamp
 )
 send_side_bwe_with_overhead_
 (
+!
 IsTrialSetTo
 (
 config
@@ -621,7 +622,7 @@ SendSideBwe
 WithOverhead
 "
 "
-Enabled
+Disabled
 "
 )
 )
