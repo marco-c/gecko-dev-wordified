@@ -63,7 +63,7 @@ cookie
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -78,7 +78,9 @@ marionette
 /
 cookie
 .
-js
+sys
+.
+mjs
 "
 )
 ;

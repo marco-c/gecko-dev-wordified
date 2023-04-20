@@ -120,7 +120,7 @@ MarionettePrefs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -135,7 +135,9 @@ marionette
 /
 prefs
 .
-js
+sys
+.
+mjs
 "
 )
 ;

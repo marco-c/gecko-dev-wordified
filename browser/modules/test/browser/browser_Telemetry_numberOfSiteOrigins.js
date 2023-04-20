@@ -123,7 +123,7 @@ TimedPromise
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -138,7 +138,9 @@ marionette
 /
 sync
 .
-js
+sys
+.
+mjs
 "
 )
 ;

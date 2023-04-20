@@ -69,7 +69,7 @@ waitForObserverTopic
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -84,7 +84,9 @@ marionette
 /
 sync
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -328,7 +330,7 @@ sync
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -343,7 +345,9 @@ marionette
 /
 sync
 .
-js
+sys
+.
+mjs
 "
 )
 ;
