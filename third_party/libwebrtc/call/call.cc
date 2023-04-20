@@ -4487,6 +4487,13 @@ is_started_
 =
 true
 ;
+call_stats_
+-
+>
+EnsureStarted
+(
+)
+;
 /
 /
 This
