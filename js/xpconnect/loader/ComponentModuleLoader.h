@@ -142,6 +142,13 @@ ModuleLoaderBase
 .
 h
 "
+#
+include
+"
+SkipCheckForBrokenURLOrZeroSized
+.
+h
+"
 class
 mozJSModuleLoader
 ;
@@ -612,6 +619,9 @@ loader
 .
 nsresult
 mRv
+;
+SkipCheckForBrokenURLOrZeroSized
+mSkipCheck
 ;
 /
 /
