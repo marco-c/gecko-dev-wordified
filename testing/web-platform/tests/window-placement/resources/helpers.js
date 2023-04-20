@@ -91,7 +91,7 @@ Common
 setup
 for
 window
-placement
+management
 tests
 .
 Performs
@@ -133,7 +133,7 @@ setUpTest
 /
 /
 await
-setUpWindowPlacement
+setUpWindowManagement
 (
 setUpTest
 setUpButton
@@ -151,7 +151,7 @@ setUpButton
 ;
 async
 function
-setUpWindowPlacement
+setUpWindowManagement
 (
 setUpTest
 setUpButton
