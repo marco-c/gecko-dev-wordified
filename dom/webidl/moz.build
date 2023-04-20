@@ -3345,6 +3345,11 @@ CSSFontFeatureValuesRule
 webidl
 "
 "
+CSSFontPaletteValuesRule
+.
+webidl
+"
+"
 CSSGroupingRule
 .
 webidl
