@@ -2138,10 +2138,6 @@ use_candidate_attr_
 (
 false
 )
-remote_ice_mode_
-(
-ICEMODE_FULL
-)
 requests_
 (
 port
