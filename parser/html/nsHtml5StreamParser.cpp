@@ -11022,10 +11022,13 @@ NS_FAILED
 (
 DispatchToMain
 (
+CreateRenderBlockingRunnable
+(
 runnable
 .
 forget
 (
+)
 )
 )
 )
