@@ -60508,10 +60508,9 @@ args
 MIRType
 mirType
 =
-valType
-.
-toMIRType
+ToMIRType
 (
+valType
 )
 ;
 ABIArg

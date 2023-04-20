@@ -2764,10 +2764,7 @@ TimeDuration
 :
 FromMicroseconds
 (
-double
-(
 timeout_ns
-)
 /
 1000
 )
@@ -11905,9 +11902,7 @@ WasmInstanceObject
 *
 >
 object
-const
 SharedCode
-&
 code
 Handle
 <
@@ -12068,9 +12063,7 @@ WasmInstanceObject
 *
 >
 object
-const
 SharedCode
-&
 code
 uint32_t
 globalDataLength
@@ -19601,7 +19594,6 @@ byte
 hash
 )
 {
-unsigned
 char
 digit1
 =
@@ -20212,5 +20204,7 @@ ErrorObject
 setFromWasmTrap
 (
 )
+;
+return
 ;
 }

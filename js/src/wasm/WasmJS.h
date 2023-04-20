@@ -2533,7 +2533,6 @@ create
 JSContext
 *
 cx
-const
 RefPtr
 <
 const
@@ -2542,7 +2541,6 @@ wasm
 :
 Code
 >
-&
 code
 const
 wasm

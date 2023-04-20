@@ -876,13 +876,12 @@ ASSERT_ANYREF_IS_JSOBJECT
 ;
 mirType_
 =
+ToMIRType
+(
 locals_
 [
 index_
 ]
-.
-toMIRType
-(
 )
 ;
 frameOffset_

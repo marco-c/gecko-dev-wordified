@@ -757,9 +757,7 @@ either
 OK
 or
 OOM
-using
-CoderResult
-=
+typedef
 mozilla
 :
 :
@@ -771,6 +769,7 @@ mozilla
 Ok
 OutOfMemory
 >
+CoderResult
 ;
 /
 /
