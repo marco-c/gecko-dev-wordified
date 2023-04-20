@@ -2580,7 +2580,7 @@ t
 -
 linux
 -
-kvm
+metal
 "
         
 elif
