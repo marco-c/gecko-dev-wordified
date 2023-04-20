@@ -275,12 +275,6 @@ namespace
 cricket
 {
 class
-AudioDeviceModule
-;
-class
-AudioMixer
-;
-class
 AudioSource
 ;
 class

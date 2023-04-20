@@ -320,9 +320,6 @@ VideoDecoderFactory
 class
 VideoEncoderFactory
 ;
-struct
-MediaConfig
-;
 }
 /
 /

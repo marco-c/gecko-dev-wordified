@@ -115,9 +115,6 @@ h
 namespace
 cricket
 {
-struct
-PacketOptions
-;
 /
 /
 Finds
