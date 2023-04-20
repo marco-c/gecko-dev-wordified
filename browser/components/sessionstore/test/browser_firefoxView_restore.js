@@ -127,7 +127,7 @@ windows
 ]
 .
 selected
-1
+3
 "
 The
 selected
@@ -139,7 +139,7 @@ tab
 which
 is
 the
-first
+third
 tab
 "
 )
@@ -207,14 +207,14 @@ windows
 ]
 .
 selected
-2
+1
 "
 The
 selected
 tab
 is
 the
-second
+first
 tab
 "
 )
