@@ -3458,6 +3458,12 @@ GetCanvasRenderer
 if
 (
 !
+IsContextLost
+(
+)
+&
+&
+!
 mResetLayer
 &
 &
