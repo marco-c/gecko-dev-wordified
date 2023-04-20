@@ -11162,9 +11162,8 @@ nsIFrame
 *
 child
 =
-GetChildList
+PrincipalChildList
 (
-kPrincipalList
 )
 .
 FirstChild
@@ -13464,9 +13463,8 @@ nifChild
 nif
 -
 >
-GetChildList
+PrincipalChildList
 (
-kPrincipalList
 )
 .
 FirstChild
@@ -22198,9 +22196,8 @@ child
 pif
 -
 >
-GetChildList
+PrincipalChildList
 (
-kPrincipalList
 )
 )
 {

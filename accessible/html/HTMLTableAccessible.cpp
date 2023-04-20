@@ -6852,12 +6852,8 @@ tableFrame
 tableFrame
 -
 >
-GetChildList
+PrincipalChildList
 (
-nsIFrame
-:
-:
-kPrincipalList
 )
 .
 FirstChild
