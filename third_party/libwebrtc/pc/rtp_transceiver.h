@@ -672,9 +672,7 @@ set
 .
 /
 /
-|
 media_type
-|
 specifies
 the
 type
@@ -766,9 +764,7 @@ type
 .
 /
 /
-|
 HeaderExtensionsToOffer
-|
 is
 used
 for
@@ -2203,9 +2199,7 @@ header_extensions_to_offer_
 ;
 /
 /
-|
 negotiated_header_extensions_
-|
 is
 read
 and

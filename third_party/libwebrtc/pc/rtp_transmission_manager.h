@@ -1173,9 +1173,7 @@ remote
 sender
 with
 id
-|
 sender_id
-|
 from
 a
 remote
@@ -1257,9 +1255,7 @@ in
 a
 MediaStream
 in
-|
 local_streams_
-|
 void
 OnLocalSenderAdded
 (
@@ -1327,9 +1323,7 @@ in
 a
 MediaStream
 in
-|
 local_streams_
-|
 .
 void
 OnLocalSenderRemoved

@@ -410,9 +410,7 @@ FakeVideoTrackRenderer
 register
 itself
 to
-|
 video_track_
-|
 std
 :
 :
@@ -462,9 +460,7 @@ FakeVideoTrackRenderer
 register
 itself
 to
-|
 video_track_
-|
 std
 :
 :

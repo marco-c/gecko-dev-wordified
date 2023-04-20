@@ -1597,9 +1597,7 @@ tones_
 /
 /
 Assumes
-|
 sender
-|
 already
 has
 an
@@ -2266,9 +2264,7 @@ end
 test
 specifying
 the
-|
 enable_encrypted_rtp_header_extensions
-|
 /
 /
 option

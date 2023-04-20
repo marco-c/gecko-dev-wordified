@@ -870,13 +870,9 @@ dc
 /
 Tests
 that
-|
 dc1
-|
 and
-|
 dc2
-|
 can
 send
 to

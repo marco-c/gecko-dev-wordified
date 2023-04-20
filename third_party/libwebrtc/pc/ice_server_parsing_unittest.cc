@@ -171,13 +171,9 @@ stored
 in
 /
 /
-|
 stun_servers_
-|
 and
-|
 turn_servers_
-|
 .
 bool
 ParseUrl

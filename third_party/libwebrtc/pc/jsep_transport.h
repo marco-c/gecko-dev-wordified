@@ -661,9 +661,7 @@ public
 :
 /
 /
-|
 mid
-|
 is
 just
 used
@@ -681,9 +679,7 @@ Transport
 /
 Note
 that
-|
 local_certificate
-|
 is
 allowed
 to
@@ -1052,11 +1048,9 @@ occurs
 /
 This
 and
-|
 needs_ice_restart
 (
 )
-|
 must
 be
 called

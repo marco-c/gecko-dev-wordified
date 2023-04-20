@@ -160,9 +160,7 @@ identified
 by
 /
 /
-|
 ids
-|
 returning
 them
 as
@@ -254,9 +252,7 @@ of
 any
 members
 in
-|
 stats
-|
 that
 are
 used
@@ -287,9 +283,7 @@ for
 the
 lifetime
 of
-|
 stats
-|
 assumings
 its
 members

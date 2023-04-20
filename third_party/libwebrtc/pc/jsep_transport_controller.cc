@@ -383,9 +383,7 @@ bundle_policy
 /
 /
 The
-|
 transport_observer
-|
 is
 assumed
 to
@@ -4069,9 +4067,7 @@ GROUP_TYPE_BUNDLE
 /
 /
 Verify
-|
 new_bundle_groups
-|
 .
 std
 :
@@ -5352,9 +5348,7 @@ exist
 /
 If
 the
-|
 bundled_content
-|
 is
 rejected
 other
@@ -5738,9 +5732,7 @@ rejected
 content
 from
 the
-|
 bundle_group
-|
 .
 bundles_
 .

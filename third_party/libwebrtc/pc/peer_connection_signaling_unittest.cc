@@ -1380,11 +1380,9 @@ then
 calling
 /
 /
-|
 Close
 (
 )
-|
 .
 This
 is

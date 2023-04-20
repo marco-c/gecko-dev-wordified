@@ -3680,9 +3680,7 @@ be
 used
 as
 a
-|
 selector
-|
 in
 a
 call

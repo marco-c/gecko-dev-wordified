@@ -1019,9 +1019,7 @@ worker_thread_
 ;
 /
 /
-|
 source_
-|
 is
 held
 here
@@ -1281,9 +1279,7 @@ cases
 /
 /
 if
-|
 SetJitterBufferMinimumDelay
-|
 is
 called
 before
@@ -1306,9 +1302,7 @@ generate
 a
 keyframe
 when
-|
 media_channel_
-|
 gets
 set
 up

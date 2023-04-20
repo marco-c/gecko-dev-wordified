@@ -4190,15 +4190,11 @@ SetVideoSend
 to
 fail
 since
-|
 enable
-|
 is
 false
 and
-|
 source
-|
 is
 null
 .

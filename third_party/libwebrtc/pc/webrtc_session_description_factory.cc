@@ -936,9 +936,7 @@ version
 from
 /
 /
-|
 kInitSessionVersion
-|
 .
 session_version_
 (
@@ -1039,9 +1037,7 @@ certificate
 /
 /
 Use
-|
 certificate
-|
 .
 certificate_request_state_
 =
@@ -1077,9 +1073,7 @@ we
 wait
 to
 do
-|
 SetIdentity
-|
 ;
 if
 we
@@ -1103,9 +1097,7 @@ connect
 to
 /
 /
-|
 SignalCertificateReady
-|
 .
 signaling_thread_
 -
@@ -1254,9 +1246,7 @@ chance
 to
 connect
 to
-|
 SignalCertificateReady
-|
 .
 cert_generator_
 -
@@ -2340,9 +2330,7 @@ not
 /
 /
 The
-|
 session_version_
-|
 is
 a
 uint64_t
@@ -2812,16 +2800,12 @@ number
 by
 increasing
 the
-|
 session_version_answer_
-|
 .
 /
 /
 The
-|
 session_version_
-|
 is
 a
 uint64_t

@@ -284,9 +284,7 @@ parameters
 /
 /
 If
-|
 active_reset_srtp_params_
-|
 is
 true
 intentionally

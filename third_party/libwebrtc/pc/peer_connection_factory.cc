@@ -1737,9 +1737,7 @@ a
 member
 variable
 named
-|
 worker_thread_
-|
 /
 /
 which
