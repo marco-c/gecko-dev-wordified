@@ -1047,7 +1047,7 @@ PropTypes
 object
 .
 isRequired
-targetType
+descriptorType
 :
 PropTypes
 .
