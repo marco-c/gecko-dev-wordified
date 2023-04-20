@@ -712,7 +712,6 @@ jsep_controller_
 new
 JsepTransportController
 (
-signaling_thread_
 network_thread_
 port_allocator_
 .
