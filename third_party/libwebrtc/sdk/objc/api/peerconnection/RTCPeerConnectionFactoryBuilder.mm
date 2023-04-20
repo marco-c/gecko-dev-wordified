@@ -316,6 +316,10 @@ _videoDecoderFactory
 audioDeviceModule
 :
 _audioDeviceModule
+.
+get
+(
+)
 audioProcessingModule
 :
 _audioProcessingModule

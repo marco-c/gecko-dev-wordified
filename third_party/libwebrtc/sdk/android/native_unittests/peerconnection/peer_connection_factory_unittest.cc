@@ -630,6 +630,10 @@ created
 <
 <
 factory
+.
+get
+(
+)
 ;
 RTC_CHECK
 (

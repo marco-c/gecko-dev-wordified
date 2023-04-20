@@ -738,6 +738,10 @@ audioDeviceModule
 self
 audioDeviceModule
 ]
+.
+get
+(
+)
 audioProcessingModule
 :
 nullptr
@@ -887,6 +891,10 @@ audioDeviceModule
 self
 audioDeviceModule
 ]
+.
+get
+(
+)
 audioProcessingModule
 :
 nullptr

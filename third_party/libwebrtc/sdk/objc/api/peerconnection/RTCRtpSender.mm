@@ -376,6 +376,10 @@ SetTrack
 track
 .
 nativeTrack
+.
+get
+(
+)
 )
 )
 {
