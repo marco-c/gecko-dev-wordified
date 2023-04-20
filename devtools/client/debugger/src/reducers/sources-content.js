@@ -453,6 +453,13 @@ content
 fulfilled
 (
 {
+actorId
+:
+action
+.
+value
+.
+actorId
 type
 :
 "
@@ -483,6 +490,13 @@ content
 fulfilled
 (
 {
+actorId
+:
+action
+.
+value
+.
+actorId
 type
 :
 "
