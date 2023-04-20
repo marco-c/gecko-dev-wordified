@@ -7237,6 +7237,10 @@ Image3F
 *
 JXL_RESTRICT
 in
+size_t
+block_dim
+=
+kBlockDim
 )
 ;
 /

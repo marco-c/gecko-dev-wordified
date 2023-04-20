@@ -524,6 +524,9 @@ TestAllFloorLog2
 (
 )
 {
+hn
+:
+:
 ForPartialVectors
 <
 TestFloorLog2
@@ -797,8 +800,14 @@ TestAllSumMulAdd
 (
 )
 {
+hn
+:
+:
 ForFloatTypes
 (
+hn
+:
+:
 ForPartialVectors
 <
 TestSumMulAdd

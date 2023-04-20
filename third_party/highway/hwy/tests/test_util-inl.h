@@ -165,13 +165,6 @@ cc
 #
 include
 <
-inttypes
-.
-h
->
-#
-include
-<
 stdint
 .
 h
@@ -907,9 +900,7 @@ Mismatch
 in
 byte
 %
-"
-PRIu64
-"
+d
 :
 %
 d
@@ -922,7 +913,7 @@ n
 "
 static_cast
 <
-uint64_t
+int
 >
 (
 i
@@ -1073,9 +1064,7 @@ in
 last
 byte
 %
-"
-PRIu64
-"
+d
 :
 %
 d
@@ -1088,7 +1077,7 @@ n
 "
 static_cast
 <
-uint64_t
+int
 >
 (
 i

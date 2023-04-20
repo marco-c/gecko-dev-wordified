@@ -150,13 +150,6 @@ License
 #
 include
 <
-inttypes
-.
-h
->
-#
-include
-<
 stddef
 .
 h

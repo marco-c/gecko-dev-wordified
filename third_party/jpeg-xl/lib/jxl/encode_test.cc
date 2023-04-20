@@ -1608,7 +1608,7 @@ VerifyFrameEncoding
 129
 enc
 frame_settings
-2600
+2700
 /
 *
 lossy_use_original_profile
@@ -3299,7 +3299,7 @@ get
 (
 )
 frame_settings
-3700
+3720
 true
 )
 ;

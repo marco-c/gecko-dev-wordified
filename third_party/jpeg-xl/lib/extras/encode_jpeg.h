@@ -97,6 +97,8 @@ const
 ImageBundle
 &
 input
+size_t
+target_size
 float
 distance
 ThreadPool

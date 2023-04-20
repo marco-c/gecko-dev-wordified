@@ -162,6 +162,16 @@ stdint
 h
 >
 #
+include
+<
+string
+.
+h
+>
+/
+/
+memcpy
+#
 undef
 HWY_TARGET_INCLUDE
 #
