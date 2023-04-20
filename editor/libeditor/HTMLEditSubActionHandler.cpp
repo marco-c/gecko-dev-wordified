@@ -72497,7 +72497,7 @@ div
 HTMLEditUtils
 :
 :
-ElementHasAttributesExceptMozDirty
+ElementHasAttribute
 (
 aElement
 )

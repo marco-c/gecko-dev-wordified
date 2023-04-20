@@ -3567,7 +3567,7 @@ span
 HTMLEditUtils
 :
 :
-ElementHasAttributesExceptMozDirty
+ElementHasAttribute
 (
 aStyledElement
 )
