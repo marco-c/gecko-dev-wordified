@@ -250,15 +250,6 @@ rdbx
 c
 '
 '
-crypto
-/
-replay
-/
-ut_sim
-.
-c
-'
-'
 srtp
 /
 srtp
