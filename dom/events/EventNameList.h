@@ -2827,6 +2827,17 @@ eAudioComplete
 EventNameType_None
 eBasicEventClass
 )
+NON_IDL_EVENT
+(
+scrollend
+eScrollend
+(
+EventNameType_HTMLXUL
+|
+EventNameType_SVGSVG
+)
+eBasicEventClass
+)
 #
 ifdef
 DEFINED_FORWARDED_EVENT
