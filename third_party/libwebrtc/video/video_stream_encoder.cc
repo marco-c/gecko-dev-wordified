@@ -2701,7 +2701,7 @@ size
 VideoStreamEncoderResourceManager
 :
 :
-IsSimulcast
+IsSimulcastOrMultipleSpatialLayers
 (
 encoder_config
 )
