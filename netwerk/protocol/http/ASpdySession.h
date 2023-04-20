@@ -604,15 +604,10 @@ bool
 *
 )
 (
-nsISupports
+nsISSLSocketControl
 *
 )
 ;
-/
-/
-nsISSLSocketControl
-is
-typical
 /
 /
 this

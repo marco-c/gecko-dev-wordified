@@ -1806,9 +1806,9 @@ static
 bool
 ALPNCallback
 (
-nsISupports
+nsISSLSocketControl
 *
-securityInfo
+tlsSocketControl
 )
 ;
 uint64_t
