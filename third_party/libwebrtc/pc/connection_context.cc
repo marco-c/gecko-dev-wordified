@@ -543,7 +543,6 @@ SctpTransportFactory
 >
 (
 network_thread
-field_trials
 )
 ;
 #
