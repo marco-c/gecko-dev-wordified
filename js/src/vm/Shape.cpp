@@ -2046,7 +2046,7 @@ return
 obj
 -
 >
-setShapeAndUpdateSlotsForNewSlot
+setShapeAndAddNewSlot
 (
 cx
 shape
@@ -2406,7 +2406,7 @@ if
 obj
 -
 >
-setShapeAndUpdateSlotsForNewSlot
+setShapeAndAddNewSlot
 (
 cx
 newShape
