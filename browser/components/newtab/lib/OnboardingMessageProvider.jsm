@@ -1445,7 +1445,7 @@ colorway
 -
 tooltip
 -
-playmaker
+playmaker2
 "
 }
 description
@@ -1503,7 +1503,7 @@ colorway
 -
 tooltip
 -
-expressionist
+expressionist2
 "
 }
 description
@@ -1561,7 +1561,7 @@ colorway
 -
 tooltip
 -
-visionary
+visionary2
 "
 }
 description
@@ -1619,7 +1619,7 @@ colorway
 -
 tooltip
 -
-activist
+activist2
 "
 }
 description
@@ -1677,7 +1677,7 @@ colorway
 -
 tooltip
 -
-dreamer
+dreamer2
 "
 }
 description
@@ -1735,7 +1735,7 @@ colorway
 -
 tooltip
 -
-innovator
+innovator2
 "
 }
 description
