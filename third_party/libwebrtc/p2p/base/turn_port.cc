@@ -1461,6 +1461,7 @@ factory
 network
 username
 password
+field_trials
 )
 server_address_
 (
@@ -1650,6 +1651,7 @@ min_port
 max_port
 username
 password
+field_trials
 )
 server_address_
 (

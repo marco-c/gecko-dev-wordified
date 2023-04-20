@@ -155,6 +155,10 @@ ObjCNetworkMonitorFactory
 :
 CreateNetworkMonitor
 (
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 {
 return

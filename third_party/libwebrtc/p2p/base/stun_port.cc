@@ -1214,6 +1214,13 @@ string
 password
 bool
 emit_local_for_anyaddress
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 :
 Port
@@ -1224,6 +1231,7 @@ factory
 network
 username
 password
+field_trials
 )
 requests_
 (
@@ -1302,6 +1310,13 @@ string
 password
 bool
 emit_local_for_anyaddress
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 :
 Port
@@ -1314,6 +1329,7 @@ min_port
 max_port
 username
 password
+field_trials
 )
 requests_
 (
@@ -4237,6 +4253,13 @@ optional
 int
 >
 stun_keepalive_interval
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 {
 /
@@ -4270,6 +4293,7 @@ max_port
 username
 password
 servers
+field_trials
 )
 )
 ;
@@ -4346,6 +4370,13 @@ const
 ServerAddresses
 &
 servers
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 :
 UDPPort
@@ -4358,6 +4389,7 @@ max_port
 username
 password
 false
+field_trials
 )
 {
 /

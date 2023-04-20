@@ -116,6 +116,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 network_monitor
@@ -236,6 +245,10 @@ NetworkMonitorInterface
 *
 CreateNetworkMonitor
 (
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 override
 ;

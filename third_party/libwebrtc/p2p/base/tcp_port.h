@@ -302,6 +302,15 @@ string
 password
 bool
 allow_listen
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
+=
+nullptr
 )
 {
 /
@@ -333,6 +342,7 @@ max_port
 username
 password
 allow_listen
+field_trials
 )
 )
 ;
@@ -496,6 +506,13 @@ string
 password
 bool
 allow_listen
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 ;
 /

@@ -1108,6 +1108,13 @@ string
 password
 bool
 allow_listen
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 :
 Port
@@ -1120,6 +1127,7 @@ min_port
 max_port
 username
 password
+field_trials
 )
 allow_listen_
 (
