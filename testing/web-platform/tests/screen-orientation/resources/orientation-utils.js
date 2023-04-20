@@ -271,6 +271,8 @@ async
 =
 >
 {
+try
+{
 await
 document
 .
@@ -278,6 +280,10 @@ exitFullscreen
 (
 )
 ;
+}
+catch
+{
+}
 }
 )
 ;
