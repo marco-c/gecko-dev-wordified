@@ -5910,6 +5910,7 @@ value_or
 true
 )
 &
+&
 encoder_impl_info
 .
 is_qp_trusted
