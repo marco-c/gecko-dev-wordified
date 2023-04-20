@@ -286,8 +286,6 @@ speech_level_estimator_
 (
 apm_data_dumper
 config
-.
-adjacent_speech_frames_threshold
 )
 vad_
 (
@@ -303,17 +301,6 @@ gain_controller_
 (
 apm_data_dumper
 config
-.
-adjacent_speech_frames_threshold
-config
-.
-max_gain_change_db_per_second
-config
-.
-max_output_noise_level_dbfs
-config
-.
-dry_run
 )
 apm_data_dumper_
 (
