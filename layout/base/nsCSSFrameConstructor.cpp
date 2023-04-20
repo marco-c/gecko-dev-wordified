@@ -73223,6 +73223,8 @@ all
 :
 :
 markers
+and
+placeholders
 .
 if
 (
@@ -73243,6 +73245,14 @@ PseudoStyleType
 :
 :
 marker
+|
+|
+frame
+-
+>
+IsPlaceholderFrame
+(
+)
 )
 {
 prevFrame
