@@ -799,7 +799,35 @@ symbolication
 "
 )
             
+#
+Do
+not
 raise
+an
+exception
+and
+return
+the
+profile
+so
+we
+won
+'
+t
+block
+            
+#
+the
+profile
+capturing
+pipeline
+if
+symbolication
+fails
+.
+            
+return
+profile
     
 def
 collect_profiles
