@@ -15824,6 +15824,16 @@ MessageChannel
 1
 ;
 bool
+MIDIInputMap
+:
+1
+;
+bool
+MIDIOutputMap
+:
+1
+;
+bool
 Node
 :
 1
