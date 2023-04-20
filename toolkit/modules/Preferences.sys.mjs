@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Preferences
-"
-]
-;
 /
 /
 The
@@ -142,6 +133,7 @@ MIN_INT
 -
 0x80000000
 ;
+export
 function
 Preferences
 (

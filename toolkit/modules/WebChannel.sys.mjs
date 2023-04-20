@@ -89,18 +89,6 @@ code
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-WebChannel
-"
-"
-WebChannelBroker
-"
-]
-;
 const
 ERRNO_UNKNOWN_ERROR
 =
@@ -142,6 +130,7 @@ multiplexing
 .
 *
 /
+export
 var
 WebChannelBroker
 =
@@ -523,6 +512,7 @@ manager
 constructor
 *
 /
+export
 var
 WebChannel
 =

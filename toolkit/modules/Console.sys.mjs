@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -220,18 +215,6 @@ defined
 )
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-console
-"
-"
-ConsoleAPI
-"
-]
-;
 var
 gTimerRegistry
 =
@@ -4106,6 +4089,7 @@ instance
 object
 *
 /
+export
 function
 ConsoleAPI
 (
@@ -4989,6 +4973,7 @@ maxLogLevel
 }
 }
 ;
+export
 var
 console
 =

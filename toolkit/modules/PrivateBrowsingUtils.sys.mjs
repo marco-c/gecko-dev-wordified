@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PrivateBrowsingUtils
-"
-]
-;
 const
 kAutoStartPref
 =
@@ -106,6 +97,7 @@ gTemporaryAutoStartMode
 =
 false
 ;
+export
 var
 PrivateBrowsingUtils
 =

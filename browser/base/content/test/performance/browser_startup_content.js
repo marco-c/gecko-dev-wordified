@@ -195,7 +195,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -208,7 +210,9 @@ modules
 /
 DeferredTask
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -221,7 +225,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

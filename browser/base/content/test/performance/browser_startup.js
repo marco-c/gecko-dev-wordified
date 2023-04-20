@@ -315,7 +315,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -328,7 +330,9 @@ modules
 /
 ActorManagerParent
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -618,7 +622,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
