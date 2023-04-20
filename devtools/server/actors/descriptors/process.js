@@ -622,9 +622,6 @@ isBackgroundTaskMode
 }
 _parentProcessConnect
 (
-{
-isBrowserToolboxFission
-}
 )
 {
 let
@@ -841,9 +838,6 @@ sessionContext
 :
 createBrowserSessionContext
 (
-{
-isBrowserToolboxFission
-}
 )
 }
 )
@@ -1118,9 +1112,6 @@ actor
 async
 getTarget
 (
-{
-isBrowserToolboxFission
-}
 )
 {
 if
@@ -1165,9 +1156,6 @@ this
 .
 _parentProcessConnect
 (
-{
-isBrowserToolboxFission
-}
 )
 ;
 }
@@ -1227,9 +1215,6 @@ destroyed
 /
 getWatcher
 (
-{
-isBrowserToolboxFission
-}
 )
 {
 if
@@ -1252,9 +1237,6 @@ this
 conn
 createBrowserSessionContext
 (
-{
-isBrowserToolboxFission
-}
 )
 )
 ;

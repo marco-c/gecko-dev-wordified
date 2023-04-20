@@ -1726,6 +1726,9 @@ targets
 it
 means
 that
+the
+multiprocess
+or
 fission
 mode
 is
@@ -1741,12 +1744,10 @@ or
 a
 BrowserToolbox
 via
-devtools
-.
-browsertoolbox
-.
-fission
-pref
+scope
+set
+to
+everything
 .
 const
 watchingAdditionalTargets
