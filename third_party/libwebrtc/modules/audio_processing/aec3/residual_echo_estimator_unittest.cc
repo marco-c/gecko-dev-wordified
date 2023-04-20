@@ -833,6 +833,13 @@ GetRenderBuffer
 )
 S2_linear
 Y2
+/
+*
+dominant_nearend
+=
+*
+/
+false
 R2
 )
 ;

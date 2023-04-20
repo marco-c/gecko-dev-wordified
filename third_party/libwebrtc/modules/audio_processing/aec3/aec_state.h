@@ -523,6 +523,8 @@ kFftLengthBy2Plus1
 >
 Erle
 (
+bool
+onset_compensated
 )
 const
 {
@@ -531,6 +533,7 @@ erle_estimator_
 .
 Erle
 (
+onset_compensated
 )
 ;
 }

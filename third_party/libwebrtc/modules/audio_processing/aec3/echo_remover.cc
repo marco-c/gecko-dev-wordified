@@ -3361,6 +3361,11 @@ aec_state_
 render_buffer
 S2_linear
 Y2
+suppression_gain_
+.
+IsDominantNearend
+(
+)
 R2
 )
 ;

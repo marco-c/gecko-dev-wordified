@@ -284,6 +284,8 @@ kFftLengthBy2Plus1
 >
 >
 Y2
+bool
+dominant_nearend
 rtc
 :
 :
@@ -442,6 +444,10 @@ early_reflections_general_gain_
 const
 float
 late_reflections_general_gain_
+;
+const
+bool
+erle_onset_compensation_in_dominant_nearend_
 ;
 std
 :
