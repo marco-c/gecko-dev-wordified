@@ -467,6 +467,12 @@ ifdef
 DEBUG
 JS_PUBLIC_API
 bool
+CurrentThreadIsMainThread
+(
+)
+;
+JS_PUBLIC_API
+bool
 CurrentThreadIsPerformingGC
 (
 )
