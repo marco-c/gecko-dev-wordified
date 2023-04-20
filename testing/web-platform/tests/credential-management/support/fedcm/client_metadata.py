@@ -171,7 +171,6 @@ header
 )
     
 if
-not
 request
 .
 headers
@@ -191,8 +190,36 @@ return
 [
 ]
 "
-Missing
+Should
+not
+have
 Referer
+"
+)
+    
+if
+not
+request
+.
+headers
+.
+get
+(
+b
+"
+Origin
+"
+)
+:
+      
+return
+(
+534
+[
+]
+"
+Missing
+Origin
 "
 )
   
