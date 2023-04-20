@@ -541,6 +541,11 @@ StreamBufferSource
 .
 h
 "
+"
+StreamBufferSourceImpl
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
