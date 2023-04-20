@@ -6277,6 +6277,12 @@ getDomains
 )
 ;
 }
+SuppressLint
+(
+"
+ResourceType
+"
+)
 WrapForJNI
 (
 calledFrom
@@ -6307,7 +6313,7 @@ structure
 in
 android
 /
-AndroidBridge
+nsLookAndFeel
 .
 h
 final
@@ -6452,10 +6458,6 @@ TypedArray
 appearance
 =
 contextThemeWrapper
-.
-getTheme
-(
-)
 .
 obtainStyledAttributes
 (
