@@ -783,11 +783,15 @@ MediaEngineInterface
 /
 /
 Initialization
-/
-/
-Starts
+.
+Needs
+to
+be
+called
+on
 the
-engine
+worker
+thread
 .
 virtual
 bool
@@ -929,6 +933,11 @@ CompositeMediaEngine
 )
 override
 ;
+/
+/
+Always
+succeeds
+.
 bool
 Init
 (
@@ -982,6 +991,7 @@ WebRtcKeyValueConfig
 >
 trials_
 ;
+const
 std
 :
 :
@@ -991,6 +1001,7 @@ VoiceEngineInterface
 >
 voice_engine_
 ;
+const
 std
 :
 :
