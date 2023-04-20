@@ -295,7 +295,9 @@ crate
 prim_store
 :
 :
+{
 VECS_PER_SEGMENT
+}
 ;
 use
 crate
@@ -349,7 +351,10 @@ crate
 renderer
 :
 :
+{
 MAX_VERTEX_TEXTURE_WIDTH
+GpuBufferBuilder
+}
 ;
 use
 crate
@@ -4927,6 +4932,11 @@ z_generator
 &
 mut
 ZBufferIdGenerator
+_gpu_buffer_builder
+:
+&
+mut
+GpuBufferBuilder
 )
 {
 let
