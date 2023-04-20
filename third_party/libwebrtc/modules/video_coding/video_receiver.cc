@@ -1152,11 +1152,7 @@ _receiver
 FrameForDecoding
 (
 maxWaitTimeMs
-_codecDataBase
-.
-PrefersLateDecoding
-(
-)
+true
 )
 ;
 if

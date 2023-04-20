@@ -542,13 +542,6 @@ Release
 )
 override
 ;
-bool
-PrefersLateDecoding
-(
-)
-const
-override
-;
 const
 char
 *

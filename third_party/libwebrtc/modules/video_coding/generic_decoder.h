@@ -728,12 +728,6 @@ callback
 )
 ;
 bool
-PrefersLateDecoding
-(
-)
-const
-;
-bool
 IsSameDecoder
 (
 VideoDecoder
