@@ -94283,8 +94283,12 @@ mDeleteDatabaseOp
 mInPrivateBrowsing
 )
 {
-MOZ_ASSERT
-(
+DebugOnly
+<
+bool
+>
+ok
+=
 gIndexedDBCipherKeyManager
 -
 >
@@ -94295,6 +94299,10 @@ mDeleteDatabaseOp
 >
 mDatabaseId
 )
+;
+MOZ_ASSERT
+(
+ok
 )
 ;
 }
