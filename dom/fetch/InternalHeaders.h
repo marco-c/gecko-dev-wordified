@@ -847,6 +847,10 @@ const
 nsCString
 &
 aName
+const
+nsACString
+&
+aValue
 )
 const
 ;
@@ -949,6 +953,7 @@ aRv
 IsForbiddenRequestHeader
 (
 aName
+aValue
 )
 |
 |

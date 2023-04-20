@@ -18870,6 +18870,7 @@ nsContentUtils
 IsForbiddenRequestHeader
 (
 aName
+aValue
 )
 ;
 if
