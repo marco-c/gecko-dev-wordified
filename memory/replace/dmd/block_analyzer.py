@@ -5,7 +5,8 @@ usr
 /
 bin
 /
-python
+env
+python3
 #
 This
 Source
@@ -107,11 +108,6 @@ to
 refcounted
 objects
 .
-from
-__future__
-import
-absolute_import
-print_function
 import
 argparse
 import
@@ -965,7 +961,7 @@ data
 in
 blocks
 .
-iteritems
+items
 (
 )
 :
