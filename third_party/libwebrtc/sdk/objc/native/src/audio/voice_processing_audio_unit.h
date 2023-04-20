@@ -532,7 +532,7 @@ underlying
 audio
 unit
 .
-bool
+OSStatus
 Start
 (
 )

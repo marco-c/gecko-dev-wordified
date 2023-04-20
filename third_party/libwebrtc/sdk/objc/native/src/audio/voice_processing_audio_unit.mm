@@ -2273,7 +2273,7 @@ return
 true
 ;
 }
-bool
+OSStatus
 VoiceProcessingAudioUnit
 :
 :
@@ -2334,7 +2334,7 @@ result
 )
 ;
 return
-false
+result
 ;
 }
 else
@@ -2354,7 +2354,7 @@ state_
 kStarted
 ;
 return
-true
+noErr
 ;
 }
 bool
