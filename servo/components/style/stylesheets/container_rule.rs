@@ -200,6 +200,18 @@ use
 crate
 :
 :
+queries
+:
+:
+condition
+:
+:
+KleeneValue
+;
+use
+crate
+:
+:
 shared_lock
 :
 :
@@ -1493,7 +1505,7 @@ ComputedValueFlags
 )
 -
 >
-bool
+KleeneValue
 where
 E
 :
