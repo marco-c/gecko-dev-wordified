@@ -188,6 +188,7 @@ nsIBinaryOutputStream
 /
 [
 scriptable
+builtinclass
 uuid
 (
 899b826b

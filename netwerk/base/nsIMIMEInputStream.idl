@@ -137,6 +137,7 @@ header
 /
 [
 scriptable
+builtinclass
 uuid
 (
 dcbce63c

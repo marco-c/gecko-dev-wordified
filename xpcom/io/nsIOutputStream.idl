@@ -404,6 +404,7 @@ Release
 /
 [
 scriptable
+builtinclass
 uuid
 (
 0d0acd2a

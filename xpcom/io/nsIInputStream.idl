@@ -489,6 +489,7 @@ Release
 /
 [
 scriptable
+builtinclass
 uuid
 (
 53cdbc97

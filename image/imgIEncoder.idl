@@ -121,6 +121,7 @@ interface
 /
 [
 scriptable
+builtinclass
 uuid
 (
 4baa2d6e
