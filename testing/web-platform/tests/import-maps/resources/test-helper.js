@@ -1092,6 +1092,7 @@ close
 (
 )
 ;
+return
 fetch_tests_from_window
 (
 iframe
@@ -1110,6 +1111,7 @@ expected
 type
 )
 {
+return
 testInIframe
 (
 importMapString
@@ -1260,6 +1262,7 @@ specifier
 expected
 )
 {
+return
 testInIframe
 (
 importMapString
@@ -1421,6 +1424,7 @@ expected
 type
 )
 {
+return
 testInIframe
 (
 importMapString
@@ -1731,6 +1735,7 @@ close
 (
 )
 ;
+return
 fetch_tests_from_window
 (
 iframe
@@ -1748,6 +1753,7 @@ specifier
 expected
 )
 {
+return
 testInIframeInjectBase
 (
 importMapString
@@ -1914,6 +1920,7 @@ expected
 type
 )
 {
+return
 testInIframeInjectBase
 (
 importMapString
@@ -2075,6 +2082,22 @@ importMapBaseURL
 tests
 )
 {
+promise_setup
+(
+function
+(
+)
+{
+return
+new
+Promise
+(
+(
+resolve
+)
+=
+>
+{
 window
 .
 addEventListener
@@ -2082,6 +2105,7 @@ addEventListener
 "
 load
 "
+async
 (
 )
 =
@@ -2105,6 +2129,7 @@ src
 module
 scripts
 )
+await
 testScriptElement
 (
 importMapString
@@ -2132,6 +2157,7 @@ src
 classic
 scripts
 )
+await
 testScriptElement
 (
 importMapString
@@ -2156,6 +2182,7 @@ javascript
 static
 imports
 .
+await
 testStaticImport
 (
 importMapString
@@ -2179,6 +2206,7 @@ a
 module
 script
 .
+await
 testDynamicImport
 (
 importMapString
@@ -2205,6 +2233,7 @@ a
 classic
 script
 .
+await
 testDynamicImport
 (
 importMapString
@@ -2225,6 +2254,25 @@ javascript
 )
 ;
 }
+done
+(
+)
+;
+resolve
+(
+)
+;
+}
+)
+;
+}
+)
+;
+}
+{
+explicit_done
+:
+true
 }
 )
 ;
