@@ -402,9 +402,9 @@ externref
 [
 value
 (
-"
+'
 externref
-"
+'
 null
 )
 ]
@@ -442,9 +442,9 @@ externref
 [
 value
 (
-"
+'
 externref
-"
+'
 externref
 (
 1
@@ -485,9 +485,9 @@ funcref
 [
 value
 (
-"
+'
 anyfunc
-"
+'
 null
 )
 ]
