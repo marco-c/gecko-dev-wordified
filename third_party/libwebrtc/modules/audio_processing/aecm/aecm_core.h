@@ -2786,10 +2786,8 @@ const
 uint16_t
 *
 far_spectrum
-const
 int16_t
 far_q
-const
 uint32_t
 nearEner
 int32_t

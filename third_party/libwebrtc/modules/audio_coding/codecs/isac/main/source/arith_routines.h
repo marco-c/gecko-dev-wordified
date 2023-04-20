@@ -173,7 +173,6 @@ the
 pdf
 *
 /
-const
 int
 N
 /
@@ -185,7 +184,6 @@ vector
 length
 *
 /
-const
 int16_t
 isSWB12kHz
 )
@@ -306,7 +304,6 @@ dither
 vector
 *
 /
-const
 int
 N
 /
@@ -318,7 +315,6 @@ vector
 length
 *
 /
-const
 int16_t
 isSWB12kHz
 )
@@ -380,7 +376,6 @@ cdf
 arrays
 *
 /
-const
 int
 N
 )
@@ -464,7 +459,6 @@ k
 )
 *
 /
-const
 int
 N
 )
@@ -539,7 +533,6 @@ search
 entries
 *
 /
-const
 int
 N
 )

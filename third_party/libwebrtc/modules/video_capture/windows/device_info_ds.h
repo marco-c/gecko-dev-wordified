@@ -342,7 +342,6 @@ productUniqueIdUTF8Length
 int32_t
 GetWindowsCapability
 (
-const
 int32_t
 capabilityIndex
 VideoCaptureCapabilityWindows

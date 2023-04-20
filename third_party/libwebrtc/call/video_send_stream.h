@@ -1530,7 +1530,6 @@ virtual
 void
 UpdateActiveSimulcastLayers
 (
-const
 std
 :
 :

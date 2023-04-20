@@ -429,7 +429,6 @@ implementation
 void
 UpdateActiveSimulcastLayers
 (
-const
 std
 :
 :

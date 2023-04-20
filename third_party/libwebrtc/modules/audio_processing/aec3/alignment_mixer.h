@@ -299,7 +299,6 @@ block_counter_
 void
 Downmix
 (
-const
 rtc
 :
 :
