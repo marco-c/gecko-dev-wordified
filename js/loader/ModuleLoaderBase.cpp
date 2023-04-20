@@ -6327,6 +6327,15 @@ entry
 mFetchedModules
 )
 {
+if
+(
+entry
+.
+GetData
+(
+)
+)
+{
 entry
 .
 GetData
@@ -6338,6 +6347,7 @@ Shutdown
 (
 )
 ;
+}
 }
 mFetchedModules
 .
