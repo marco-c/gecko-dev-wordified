@@ -1,12 +1,3 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FissionTestHelperParent
-"
-]
-;
 /
 /
 This
@@ -93,6 +84,7 @@ they
 live
 in
 .
+export
 class
 FissionTestHelperParent
 extends
