@@ -4143,7 +4143,7 @@ only
 defined
 for
 |
-media_type
+kind
 =
 =
 "
@@ -4596,7 +4596,7 @@ only
 defined
 for
 |
-media_type
+kind
 =
 =
 "

@@ -389,7 +389,7 @@ if
 s
 -
 >
-media_type
+kind
 .
 is_defined
 (
@@ -407,7 +407,7 @@ if
 s
 -
 >
-media_type
+kind
 =
 =
 RTCMediaStreamTrackKind
