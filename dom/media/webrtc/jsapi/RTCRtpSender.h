@@ -437,10 +437,6 @@ RTCStatsPromise
 >
 GetStatsInternal
 (
-bool
-aSkipIceStats
-=
-false
 )
 ;
 /
@@ -1076,12 +1072,6 @@ RefPtr
 MediaPipelineTransmit
 >
 mPipeline
-;
-RefPtr
-<
-MediaTransportHandler
->
-mTransportHandler
 ;
 RefPtr
 <
