@@ -461,6 +461,18 @@ DashboardTypes
 h
 "
 ;
+using
+nsIDNSService
+:
+:
+DNSFlags
+from
+"
+nsIDNSService
+.
+h
+"
+;
 #
 if
 defined
@@ -1388,7 +1400,7 @@ uint16_t
 type
 OriginAttributes
 originAttributes
-uint32_t
+DNSFlags
 flags
 )
 ;

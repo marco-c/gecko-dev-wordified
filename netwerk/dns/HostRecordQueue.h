@@ -204,7 +204,10 @@ InsertRecord
 nsHostRecord
 *
 aRec
-uint16_t
+nsIDNSService
+:
+:
+DNSFlags
 aFlags
 const
 MutexAutoLock
@@ -376,7 +379,10 @@ MoveToAnotherPendingQ
 nsHostRecord
 *
 aRec
-uint16_t
+nsIDNSService
+:
+:
+DNSFlags
 aFlags
 const
 MutexAutoLock
