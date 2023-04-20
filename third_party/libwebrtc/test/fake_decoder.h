@@ -178,6 +178,16 @@ VideoDecoder
 {
 public
 :
+enum
+{
+kDefaultWidth
+=
+320
+kDefaultHeight
+=
+180
+}
+;
 FakeDecoder
 (
 )
