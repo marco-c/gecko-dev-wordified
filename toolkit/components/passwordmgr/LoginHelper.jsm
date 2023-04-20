@@ -8707,6 +8707,14 @@ fieldType
 "
 number
 "
+|
+|
+fieldType
+=
+=
+"
+search
+"
 )
 )
 {
