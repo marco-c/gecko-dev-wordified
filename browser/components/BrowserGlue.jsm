@@ -2122,7 +2122,7 @@ AboutNewTab
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2134,13 +2134,15 @@ actors
 /
 AboutNewTabParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2152,7 +2154,9 @@ actors
 /
 AboutNewTabChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
