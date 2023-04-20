@@ -6522,7 +6522,9 @@ ones
 in
 E10SUtils
 .
-jsm
+sys
+.
+mjs
 RemoteTypes
 .
 h
