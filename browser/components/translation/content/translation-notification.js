@@ -2577,7 +2577,7 @@ messageImage
 "
 )
 "
-bottomcenter
+bottomleft
 topleft
 "
 )

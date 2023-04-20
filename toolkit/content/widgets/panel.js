@@ -329,7 +329,7 @@ setAttribute
 position
 "
 "
-bottomcenter
+bottomleft
 topleft
 "
 )
