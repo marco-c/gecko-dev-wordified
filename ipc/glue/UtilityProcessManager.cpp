@@ -1788,6 +1788,8 @@ base
 :
 ProcessId
 aOtherProcess
+SandboxingKind
+aSandbox
 )
 {
 RefPtr
@@ -1809,6 +1811,7 @@ UtilityAudioDecoderChild
 :
 GetSingleton
 (
+aSandbox
 )
 ;
 MOZ_ASSERT
@@ -1829,10 +1832,7 @@ return
 StartUtility
 (
 uadc
-SandboxingKind
-:
-:
-UTILITY_AUDIO_DECODING
+aSandbox
 )
 -
 >
@@ -1846,6 +1846,7 @@ __func__
 self
 uadc
 aOtherProcess
+aSandbox
 ]
 (
 )
@@ -1861,10 +1862,7 @@ self
 >
 GetProcessParent
 (
-SandboxingKind
-:
-:
-UTILITY_AUDIO_DECODING
+aSandbox
 )
 -
 >

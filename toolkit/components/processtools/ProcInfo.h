@@ -386,7 +386,9 @@ class
 UtilityActorName
 {
 Unknown
-AudioDecoder
+AudioDecoder_Generic
+AudioDecoder_AppleMedia
+AudioDecoder_WMF
 }
 ;
 /

@@ -172,6 +172,17 @@ VideoBridgeUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+UtilityProcessSandboxing
+.
+h
+"
 namespace
 mozilla
 {
@@ -188,7 +199,9 @@ RemoteDecodeIn
 Unspecified
 RddProcess
 GpuProcess
-UtilityProcess
+UtilityProcess_Generic
+UtilityProcess_AppleMedia
+UtilityProcess_WMF
 SENTINEL
 }
 ;
@@ -827,6 +840,8 @@ GenericNonExclusivePromise
 >
 LaunchUtilityProcessIfNeeded
 (
+RemoteDecodeIn
+aLocation
 )
 ;
 RefPtr

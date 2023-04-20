@@ -2035,6 +2035,10 @@ ipc
 IPCResult
 RecvEnsureUtilityProcessAndCreateBridge
 (
+const
+RemoteDecodeIn
+&
+aLocation
 EnsureUtilityProcessAndCreateBridgeResolver
 &
 &

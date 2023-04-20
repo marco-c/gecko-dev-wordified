@@ -337,6 +337,8 @@ base
 :
 ProcessId
 aOtherProcess
+SandboxingKind
+aSandbox
 )
 ;
 void

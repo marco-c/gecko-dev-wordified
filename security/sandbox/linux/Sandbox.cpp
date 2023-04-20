@@ -5704,7 +5704,7 @@ ipc
 SandboxingKind
 :
 :
-UTILITY_AUDIO_DECODING
+UTILITY_AUDIO_DECODING_GENERIC
 :
 policy
 =
