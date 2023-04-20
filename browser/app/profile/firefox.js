@@ -17752,7 +17752,7 @@ settings
 "
 \
 "
-bucket
+collection
 \
 "
 :
@@ -17832,7 +17832,7 @@ settings
 "
 \
 "
-bucket
+collection
 \
 "
 :
@@ -17912,7 +17912,7 @@ settings
 "
 \
 "
-bucket
+collection
 \
 "
 :

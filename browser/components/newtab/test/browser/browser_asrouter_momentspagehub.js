@@ -187,7 +187,7 @@ remote
 settings
 "
 "
-bucket
+collection
 "
 :
 "
