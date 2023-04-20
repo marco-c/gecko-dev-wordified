@@ -188,12 +188,12 @@ gEndOffsets
 ]
 =
 {
-501
-772
-1244
-1380
-1543
-2015
+466
+737
+1209
+1345
+1508
+1980
 }
 ;
 TEST
@@ -214,6 +214,8 @@ WebMTimeDataOffset
 >
 mapping
 ;
+EXPECT_TRUE
+(
 parser
 .
 Append
@@ -221,6 +223,7 @@ Append
 nullptr
 0
 mapping
+)
 )
 ;
 EXPECT_TRUE
@@ -261,6 +264,8 @@ buf
 0xa3
 }
 ;
+EXPECT_TRUE
+(
 parser
 .
 Append
@@ -271,6 +276,7 @@ ArrayLength
 buf
 )
 mapping
+)
 )
 ;
 EXPECT_TRUE
@@ -462,6 +468,8 @@ WebMTimeDataOffset
 >
 mapping
 ;
+EXPECT_TRUE
+(
 parser
 .
 Append
@@ -477,6 +485,7 @@ Length
 (
 )
 mapping
+)
 )
 ;
 EXPECT_EQ
@@ -564,7 +573,7 @@ i
 ]
 .
 mSyncOffset
-361
+326
 )
 ;
 EXPECT_EQ
@@ -642,6 +651,8 @@ Length
 )
 )
 {
+EXPECT_TRUE
+(
 parser
 .
 Append
@@ -655,6 +666,7 @@ Elements
 offset
 1
 mapping
+)
 )
 ;
 offset
@@ -728,7 +740,7 @@ i
 ]
 .
 mSyncOffset
-361
+326
 )
 ;
 EXPECT_EQ
@@ -842,7 +854,7 @@ i
 ]
 .
 mSyncOffset
-361
+326
 )
 ;
 EXPECT_EQ
