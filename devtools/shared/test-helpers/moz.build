@@ -88,6 +88,15 @@ MPL
 DevToolsModules
 (
 "
+thread
+-
+helpers
+.
+sys
+.
+mjs
+"
+"
 tracked
 -
 objects
