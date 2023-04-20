@@ -175,7 +175,8 @@ aFormat
 gfx
 :
 :
-ColorSpace2
+YUVColorSpace
+aYUVColorSpace
 gfx
 :
 :
@@ -416,11 +417,10 @@ override
 return
 ToYUVRangedColorSpace
 (
-ToYUVColorSpace
+mYUVColorSpace
+GetColorRange
 (
-mColorSpace
 )
-mColorRange
 )
 ;
 }
@@ -661,8 +661,6 @@ mTextureHandle
 2
 ]
 ;
-public
-:
 const
 gfx
 :
@@ -674,8 +672,8 @@ const
 gfx
 :
 :
-ColorSpace2
-mColorSpace
+YUVColorSpace
+mYUVColorSpace
 ;
 const
 gfx
@@ -691,8 +689,6 @@ gfx
 IntSize
 mSize
 ;
-private
-:
 bool
 mLocked
 ;
