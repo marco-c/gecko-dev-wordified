@@ -32450,6 +32450,18 @@ AttachDecision
 NoAction
 ;
 }
+SharedShape
+*
+oldSharedShape
+=
+&
+oldShape
+-
+>
+asShared
+(
+)
+;
 ObjOperandId
 objId
 =
@@ -32766,7 +32778,7 @@ NativeObject
 :
 calculateDynamicSlots
 (
-oldShape
+oldSharedShape
 )
 ;
 uint32_t

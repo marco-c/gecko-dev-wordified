@@ -9042,7 +9042,7 @@ MOZ_ALWAYS_INLINE
 uint32_t
 calculateDynamicSlots
 (
-Shape
+SharedShape
 *
 shape
 )
