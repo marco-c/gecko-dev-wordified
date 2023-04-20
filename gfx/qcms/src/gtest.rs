@@ -5889,6 +5889,7 @@ new_from_slice
 (
 &
 data
+false
 )
 .
 unwrap
