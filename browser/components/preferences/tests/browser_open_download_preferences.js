@@ -39,7 +39,7 @@ HandlerServiceTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ common
 /
 HandlerServiceTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

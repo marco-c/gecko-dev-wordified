@@ -136,7 +136,9 @@ TESTING_JS_MODULES
 "
 HandlerServiceTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 GeckoSimplePrograms

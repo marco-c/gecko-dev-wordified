@@ -88,6 +88,7 @@ mjs
 }
 )
 ;
+export
 function
 nsWebHandlerApp
 (
@@ -1036,13 +1037,4 @@ aURITemplate
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-nsWebHandlerApp
-"
-]
 ;
