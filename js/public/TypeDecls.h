@@ -905,8 +905,8 @@ pattern
 as
 IF_RECORD_TUPLE
 #
-ifdef
-MOZ_JS_STREAMS
+ifndef
+MOZ_DOM_STREAMS
 #
 define
 IF_JS_STREAMS
