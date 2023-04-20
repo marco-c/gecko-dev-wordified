@@ -5046,7 +5046,10 @@ ObfsFile
 szOsFile
 *
 /
-1024
+pOrig
+-
+>
+mxPathname
 /
 *
 mxPathname
