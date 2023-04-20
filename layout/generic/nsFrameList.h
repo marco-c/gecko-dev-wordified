@@ -899,14 +899,6 @@ nullptr
 void
 SetFrames
 (
-nsIFrame
-*
-aFrameList
-)
-;
-void
-SetFrames
-(
 nsFrameList
 &
 aFrameList

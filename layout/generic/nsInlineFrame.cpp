@@ -5563,9 +5563,10 @@ nextInFlow
 -
 >
 mFrames
-.
-SetFrames
+=
+nsFrameList
 (
+frame
 frame
 )
 ;
