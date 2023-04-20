@@ -735,7 +735,7 @@ ms
 as
 the
 heuristic
-in
+is
 500
 ms
 .
