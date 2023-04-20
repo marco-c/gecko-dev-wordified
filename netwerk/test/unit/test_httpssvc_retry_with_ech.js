@@ -378,7 +378,9 @@ nsIDNSService
 MODE_TRRONLY
 )
 ;
-add_tls_server_setup
+add_setup
+(
+asyncStartTLSTestServer
 (
 "
 EncryptedClientHelloServer
@@ -405,6 +407,7 @@ unit
 /
 test_encrypted_client_hello
 "
+)
 )
 ;
 h3Port
