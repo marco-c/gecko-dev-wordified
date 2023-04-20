@@ -141,6 +141,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
