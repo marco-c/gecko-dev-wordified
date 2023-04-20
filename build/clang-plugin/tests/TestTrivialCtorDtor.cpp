@@ -388,6 +388,15 @@ m
 ;
 }
 ;
+#
+if
+__cplusplus
+>
+=
+202002L
+struct
+#
+else
 /
 /
 XXX
@@ -429,9 +438,6 @@ the
 members
 .
 struct
-MOZ_TRIVIAL_CTOR_DTOR
-BadUnfortunateError
-{
 /
 /
 expected
@@ -451,6 +457,11 @@ and
 destructors
 }
 }
+#
+endif
+MOZ_TRIVIAL_CTOR_DTOR
+BadUnfortunateError
+{
 OkConstExprConstructor
 m
 ;
