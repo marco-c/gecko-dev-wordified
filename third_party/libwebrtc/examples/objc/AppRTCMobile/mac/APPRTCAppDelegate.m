@@ -189,9 +189,9 @@ visibleRect
 NSUInteger
 styleMask
 =
-NSTitledWindowMask
+NSWindowStyleMaskTitled
 |
-NSClosableWindowMask
+NSWindowStyleMaskClosable
 ;
 _window
 =
