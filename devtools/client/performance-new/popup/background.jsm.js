@@ -3040,6 +3040,11 @@ case
 aboutprofiling
 "
 :
+case
+"
+aboutlogging
+"
+:
 /
 /
 Don

@@ -747,6 +747,10 @@ remote
 "
 |
 "
+aboutlogging
+"
+|
+"
 aboutprofiling
 "
 |
