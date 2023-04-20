@@ -1967,6 +1967,11 @@ dll
 )
 #
 Cylance
+bug
+1756190
+and
+bug
+1799562
 DllBlocklistEntry
 (
 "
@@ -1977,8 +1982,8 @@ dll
 (
 2
 48
-0
-707
+4
+1125
 )
 )
 ]
