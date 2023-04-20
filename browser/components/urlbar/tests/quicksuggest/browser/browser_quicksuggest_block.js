@@ -111,10 +111,10 @@ jsm
 ;
 const
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 =
-UrlbarProviderQuickSuggest
+QuickSuggest
 ;
 /
 /
@@ -174,7 +174,7 @@ sponsored
 t
 =
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 title
 :
@@ -247,7 +247,7 @@ nonsponsored
 t
 =
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 title
 :
@@ -402,14 +402,14 @@ clear
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockTaskQueue
 .
 emptyPromise
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (
@@ -1041,7 +1041,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -1334,7 +1334,7 @@ window
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (
@@ -1511,7 +1511,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -1570,7 +1570,7 @@ Assert
 equal
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -1610,7 +1610,7 @@ window
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (
@@ -2092,7 +2092,7 @@ ok
 !
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -2172,7 +2172,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -2188,7 +2188,7 @@ blocked
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (

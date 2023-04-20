@@ -313,14 +313,14 @@ clear
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockTaskQueue
 .
 emptyPromise
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (
