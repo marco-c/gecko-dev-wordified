@@ -6265,19 +6265,14 @@ r1
 ;
 r1
 =
-fabsf
-(
 r1
 +
 deltaR
 *
 firstStop
-)
 ;
 r2
 =
-fabsf
-(
 r2
 -
 deltaR
@@ -6288,7 +6283,6 @@ deltaR
 0f
 -
 lastStop
-)
 )
 ;
 }
@@ -6301,8 +6295,14 @@ RadialGradientPattern
 (
 c1
 c2
+fabsf
+(
 r1
+)
+fabsf
+(
 r2
+)
 std
 :
 :
@@ -6458,8 +6458,6 @@ varIndexBase
 float
 r1
 =
-fabsf
-(
 aState
 .
 F2P
@@ -6475,7 +6473,6 @@ SatAdd
 (
 varIndexBase
 2
-)
 )
 )
 )
@@ -6524,8 +6521,6 @@ varIndexBase
 float
 r2
 =
-fabsf
-(
 aState
 .
 F2P
@@ -6541,7 +6536,6 @@ SatAdd
 (
 varIndexBase
 5
-)
 )
 )
 )
