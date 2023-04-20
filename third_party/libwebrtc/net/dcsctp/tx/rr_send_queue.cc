@@ -94,7 +94,7 @@ dcsctp
 /
 tx
 /
-fcfs_send_queue
+rr_send_queue
 .
 h
 "
@@ -224,7 +224,7 @@ namespace
 dcsctp
 {
 void
-FCFSSendQueue
+RRSendQueue
 :
 :
 Add
@@ -396,7 +396,7 @@ send_options
 ;
 }
 size_t
-FCFSSendQueue
+RRSendQueue
 :
 :
 total_bytes
@@ -491,7 +491,7 @@ remaining_size
 ;
 }
 bool
-FCFSSendQueue
+RRSendQueue
 :
 :
 IsFull
@@ -509,7 +509,7 @@ buffer_size_
 ;
 }
 bool
-FCFSSendQueue
+RRSendQueue
 :
 :
 IsEmpty
@@ -525,12 +525,12 @@ empty
 )
 ;
 }
-FCFSSendQueue
+RRSendQueue
 :
 :
 Item
 *
-FCFSSendQueue
+RRSendQueue
 :
 :
 GetFirstNonExpiredMessage
@@ -549,7 +549,7 @@ empty
 )
 )
 {
-FCFSSendQueue
+RRSendQueue
 :
 :
 Item
@@ -709,7 +709,7 @@ SendQueue
 :
 DataToSend
 >
-FCFSSendQueue
+RRSendQueue
 :
 :
 Produce
@@ -1403,7 +1403,7 @@ chunk
 ;
 }
 void
-FCFSSendQueue
+RRSendQueue
 :
 :
 Discard
@@ -1522,7 +1522,7 @@ pop_front
 }
 }
 void
-FCFSSendQueue
+RRSendQueue
 :
 :
 PrepareResetStreams
@@ -1663,7 +1663,7 @@ it
 }
 }
 bool
-FCFSSendQueue
+RRSendQueue
 :
 :
 CanResetStreams
@@ -1704,7 +1704,7 @@ true
 ;
 }
 void
-FCFSSendQueue
+RRSendQueue
 :
 :
 CommitResetStreams
@@ -1839,7 +1839,7 @@ RollbackResetStreams
 ;
 }
 void
-FCFSSendQueue
+RRSendQueue
 :
 :
 RollbackResetStreams
@@ -1888,7 +1888,7 @@ clear
 ;
 }
 void
-FCFSSendQueue
+RRSendQueue
 :
 :
 Reset
@@ -2005,7 +2005,7 @@ clear
 ;
 }
 bool
-FCFSSendQueue
+RRSendQueue
 :
 :
 IsPaused
