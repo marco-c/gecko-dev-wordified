@@ -59,6 +59,14 @@ import
 absolute_import
 print_function
 import
+sys
+import
+unittest
+from
+os
+import
+path
+import
 mozpack
 .
 path
@@ -67,15 +75,7 @@ mozpath
 import
 mozunit
 import
-sys
-import
-unittest
-import
 yaml
-from
-os
-import
-path
 try
 :
     
