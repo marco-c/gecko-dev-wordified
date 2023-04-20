@@ -238,13 +238,13 @@ perftest
 import
 json
 import
+logging
+import
 os
 import
 shutil
 import
 sys
-import
-logging
 import
 tempfile
 from
@@ -514,13 +514,13 @@ site
 import
 (
         
-resolve_requirements
+ExternalPythonSite
         
 MachSiteManager
         
-ExternalPythonSite
-        
 SitePackagesSource
+        
+resolve_requirements
     
 )
     
@@ -855,13 +855,6 @@ try_options
     
 from
 mozperftest
-.
-utils
-import
-build_test_list
-    
-from
-mozperftest
 import
 MachEnvironment
 Metadata
@@ -879,6 +872,13 @@ mozperftest
 script
 import
 ScriptInfo
+    
+from
+mozperftest
+.
+utils
+import
+build_test_list
     
 hooks_file
 =
@@ -1397,8 +1397,8 @@ mozperftest
 .
 utils
 import
-install_package
 ON_TRY
+install_package
     
 mach_cmd
 .
@@ -1444,7 +1444,7 @@ tools
 .
 1
 .
-11
+12
 "
     
 )
@@ -1707,27 +1707,6 @@ _activate_mach_virtualenv
 )
     
 from
-mozbuild
-.
-mozconfig
-import
-MozconfigLoader
-    
-from
-mozbuild
-.
-base
-import
-MachCommandBase
-MozbuildObject
-    
-from
-mozperftest
-import
-PerftestArgumentParser
-PerftestToolsArgumentParser
-    
-from
 mach
 .
 logging
@@ -1740,6 +1719,27 @@ mach
 util
 import
 get_state_dir
+    
+from
+mozbuild
+.
+base
+import
+MachCommandBase
+MozbuildObject
+    
+from
+mozbuild
+.
+mozconfig
+import
+MozconfigLoader
+    
+from
+mozperftest
+import
+PerftestArgumentParser
+PerftestToolsArgumentParser
     
 mozconfig
 =
