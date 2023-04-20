@@ -348,6 +348,8 @@ quote
 #
 function
 (
+&
+mut
 result
 )
 }

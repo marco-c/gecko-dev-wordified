@@ -8506,7 +8506,7 @@ eCSSProperty_text_emphasis_position
 StyleTextEmphasisPosition
 :
 :
-DEFAULT_ZH
+UNDER
 .
 bits
 )
@@ -8572,7 +8572,7 @@ eCSSProperty_text_emphasis_position
 StyleTextEmphasisPosition
 :
 :
-DEFAULT
+OVER
 .
 bits
 )
