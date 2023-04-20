@@ -118,13 +118,7 @@ class
 MockSctpDataChannel
 :
 public
-rtc
-:
-:
-RefCountedObject
-<
 SctpDataChannel
->
 {
 public
 :
@@ -223,13 +217,7 @@ Current
 )
 )
 :
-rtc
-:
-:
-RefCountedObject
-<
 SctpDataChannel
->
 (
 config
 nullptr
