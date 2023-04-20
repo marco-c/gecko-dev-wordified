@@ -527,9 +527,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Permission

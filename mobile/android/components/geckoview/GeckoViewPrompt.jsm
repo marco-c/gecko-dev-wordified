@@ -1204,9 +1204,9 @@ true
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid
@@ -1376,9 +1376,9 @@ i
 null
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid
@@ -1980,9 +1980,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Delegation
