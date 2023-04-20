@@ -3633,7 +3633,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 callee_sender
 )
@@ -3852,7 +3852,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 caller_sender
 )
@@ -7690,7 +7690,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 sender
 )
@@ -24231,7 +24231,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 sender
 )
