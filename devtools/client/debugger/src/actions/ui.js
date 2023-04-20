@@ -1022,7 +1022,7 @@ export
 function
 copyToClipboard
 (
-source
+location
 )
 {
 return
@@ -1043,9 +1043,7 @@ getSourceContent
 getState
 (
 )
-source
-.
-id
+location
 )
 ;
 if
