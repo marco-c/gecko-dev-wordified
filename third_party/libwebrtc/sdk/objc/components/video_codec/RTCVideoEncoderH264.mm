@@ -4040,6 +4040,16 @@ defined
 (
 WEBRTC_IOS
 )
+&
+&
+TARGET_OS_MACCATALYST
+kCVPixelBufferMetalCompatibilityKey
+#
+elif
+defined
+(
+WEBRTC_IOS
+)
 kCVPixelBufferOpenGLESCompatibilityKey
 #
 elif
