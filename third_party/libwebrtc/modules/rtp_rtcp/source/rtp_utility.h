@@ -230,15 +230,6 @@ RTCP
 const
 ;
 bool
-ParseRtcp
-(
-RTPHeader
-*
-header
-)
-const
-;
-bool
 Parse
 (
 RTPHeader
