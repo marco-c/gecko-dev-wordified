@@ -1940,9 +1940,6 @@ worker
 .
 js
 "
-this
-.
-chromeUtilsWindow
 )
 ;
 return

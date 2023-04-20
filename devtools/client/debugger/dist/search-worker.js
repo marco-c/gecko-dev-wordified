@@ -1281,9 +1281,6 @@ prototype
 start
 (
 url
-win
-=
-window
 )
 {
 this
@@ -1291,9 +1288,7 @@ this
 worker
 =
 new
-win
-.
-Worker
+ChromeWorker
 (
 url
 )

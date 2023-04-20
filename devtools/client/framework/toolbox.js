@@ -9501,9 +9501,6 @@ worker
 .
 js
 "
-this
-.
-win
 )
 ;
 return
