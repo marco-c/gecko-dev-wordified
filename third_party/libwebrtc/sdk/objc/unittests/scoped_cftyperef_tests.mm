@@ -131,7 +131,6 @@ b
 )
 {
 }
-explicit
 operator
 bool
 (
