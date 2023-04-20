@@ -253,6 +253,8 @@ virtual
 void
 EnsurePipeline
 (
+bool
+aIsAsync
 )
 =
 0
