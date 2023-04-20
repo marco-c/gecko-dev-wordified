@@ -7194,6 +7194,14 @@ value
 )
 ;
 void
+clearPrivate
+(
+JSRuntime
+*
+rt
+)
+;
+void
 setIntroductionScript
 (
 const
