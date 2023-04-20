@@ -9492,7 +9492,7 @@ credential
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 TURN_REFRESH_REQUEST
 )
@@ -9519,7 +9519,7 @@ response
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 TURN_REFRESH_REQUEST
 )
@@ -10816,7 +10816,7 @@ bad_credentials
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 kAllRequests
 )
@@ -10847,7 +10847,7 @@ fail
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 kAllRequests
 )

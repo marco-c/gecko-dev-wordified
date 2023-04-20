@@ -1144,6 +1144,9 @@ ConnectionRequest
 :
 ConnectionRequest
 (
+StunRequestManager
+&
+manager
 Connection
 *
 connection
@@ -1151,8 +1154,14 @@ connection
 :
 StunRequest
 (
-new
+manager
+std
+:
+:
+make_unique
+<
 IceMessage
+>
 (
 )
 )
@@ -2081,9 +2090,9 @@ will
 time
 out
 .
-timeout_
-=
-true
+set_timed_out
+(
+)
 ;
 }
 int
@@ -6916,6 +6925,7 @@ req
 new
 ConnectionRequest
 (
+requests_
 this
 )
 ;

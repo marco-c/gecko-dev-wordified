@@ -1200,6 +1200,16 @@ return
 socket_
 ;
 }
+StunRequestManager
+&
+request_manager
+(
+)
+{
+return
+request_manager_
+;
+}
 /
 /
 Signal
@@ -1338,7 +1348,7 @@ int
 SignalCreatePermissionResult
 ;
 void
-FlushRequests
+FlushRequestsForTest
 (
 int
 msg_type
@@ -1346,7 +1356,7 @@ msg_type
 {
 request_manager_
 .
-Flush
+FlushForTest
 (
 msg_type
 )
