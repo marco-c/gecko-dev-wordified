@@ -5791,6 +5791,16 @@ aSize
 !
 =
 mLastSizeRequest
+|
+|
+mBounds
+.
+Size
+(
+)
+!
+=
+aSize
 ;
 /
 /
