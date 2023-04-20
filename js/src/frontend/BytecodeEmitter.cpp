@@ -56212,17 +56212,6 @@ StringExpr
 )
 )
 {
-MOZ_ASSERT
-(
-accessorType
-=
-=
-AccessorType
-:
-:
-None
-)
-;
 auto
 keyAtom
 =
