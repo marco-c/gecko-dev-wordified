@@ -1,9 +1,3 @@
-#
-ifndef
-MOZ_FFVPX_CONFIG_OVERRIDE_H
-#
-define
-MOZ_FFVPX_CONFIG_OVERRIDE_H
 /
 /
 This
@@ -152,7 +146,5 @@ CONFIG_VP9_VAAPI_HWACCEL
 define
 CONFIG_AV1_VAAPI_HWACCEL
 0
-#
-endif
 #
 endif
