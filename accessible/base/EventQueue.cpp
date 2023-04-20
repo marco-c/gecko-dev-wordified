@@ -2989,6 +2989,17 @@ selChangeEvent
 >
 mItem
 ;
+if
+(
+!
+item
+-
+>
+IsDefunct
+(
+)
+)
+{
 uint64_t
 itemID
 =
@@ -3050,6 +3061,7 @@ AppendElement
 itemID
 )
 ;
+}
 }
 }
 }
