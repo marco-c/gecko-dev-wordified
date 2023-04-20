@@ -343,6 +343,7 @@ if
 (
 nameLength
 >
+=
 kVideoCaptureUniqueNameLength
 )
 return
