@@ -127,6 +127,11 @@ TestWinHeaderOnlyUtils
 cpp
 "
 "
+TestWinMessageLoggingUtils
+.
+cpp
+"
+"
 TestWinWindowOcclusionTracker
 .
 cpp
