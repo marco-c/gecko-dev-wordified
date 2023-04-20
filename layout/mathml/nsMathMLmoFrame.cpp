@@ -1397,7 +1397,7 @@ use
 our
 cached
 form
-nsOperatorFlags
+uint8_t
 form
 =
 NS_MATHML_OPERATOR_GET_FORM
