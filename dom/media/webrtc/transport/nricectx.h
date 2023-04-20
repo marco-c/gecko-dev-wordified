@@ -2360,9 +2360,6 @@ NrSocketProxyConfig
 >
 proxy_config_
 ;
-bool
-obfuscate_host_addresses_
-;
 std
 :
 :
