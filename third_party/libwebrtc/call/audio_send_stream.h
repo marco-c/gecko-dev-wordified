@@ -487,11 +487,6 @@ total_input_duration
 .
 0
 ;
-bool
-typing_noise_detected
-=
-false
-;
 ANAStats
 ana_statistics
 ;
