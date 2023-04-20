@@ -403,7 +403,7 @@ return
 webrtc
 :
 :
-GetMonitorList
+GetScreenList
 (
 sources
 )
