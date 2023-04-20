@@ -29074,9 +29074,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-#
-ifdef
-DEBUG
 nsresult
 nsChildView
 :
@@ -29158,8 +29155,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 #
 pragma
 mark

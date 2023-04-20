@@ -13382,9 +13382,6 @@ aClientRect
 )
 {
 }
-#
-ifdef
-DEBUG
 virtual
 nsresult
 SetHiDPIMode
@@ -13407,8 +13404,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-#
-endif
 protected
 :
 /
