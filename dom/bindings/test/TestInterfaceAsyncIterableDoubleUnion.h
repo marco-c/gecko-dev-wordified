@@ -359,14 +359,9 @@ default
 void
 ResolvePromise
 (
-IteratorData
+Iterator
 *
-aData
-IterableIteratorBase
-:
-:
-IteratorType
-aType
+aIterator
 )
 ;
 nsCOMPtr
