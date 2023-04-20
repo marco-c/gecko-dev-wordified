@@ -66,7 +66,7 @@ GMPInstallManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -79,7 +79,9 @@ modules
 /
 GMPInstallManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -114,7 +116,7 @@ FileUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -127,7 +129,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -210,7 +214,7 @@ UpdateUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -223,7 +227,9 @@ modules
 /
 UpdateUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -235,7 +241,7 @@ OPEN_H264_ID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -248,7 +254,9 @@ modules
 /
 GMPUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

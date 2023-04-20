@@ -68,7 +68,7 @@ AboutPagesUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -81,7 +81,9 @@ modules
 /
 AboutPagesUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -194,9 +194,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -213,7 +213,9 @@ modules
 /
 CreditCard
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

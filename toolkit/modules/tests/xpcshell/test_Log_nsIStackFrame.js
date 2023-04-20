@@ -5,7 +5,7 @@ Log
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 Log
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -35,7 +37,7 @@ bar
 /
 /
 line
-4
+6
 }
 function
 bar
@@ -50,7 +52,7 @@ baz
 /
 /
 line
-8
+10
 }
 function
 baz
@@ -72,7 +74,7 @@ caller
 /
 /
 line
-12
+14
 }
 function
 start
@@ -87,7 +89,7 @@ next
 /
 /
 line
-16
+18
 }
 function
 next
@@ -102,7 +104,7 @@ finish
 /
 /
 line
-20
+22
 }
 function
 finish
@@ -119,7 +121,7 @@ stackTrace
 /
 /
 line
-24
+26
 }
 function
 run_test
@@ -136,7 +138,7 @@ foo
 /
 /
 line
-28
+30
 print
 (
 Got
@@ -165,7 +167,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-4
+6
 /
 )
 ;
@@ -184,7 +186,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-8
+10
 /
 )
 ;
@@ -203,7 +205,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-28
+30
 /
 )
 ;
@@ -287,7 +289,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-16
+18
 /
 )
 ;
@@ -306,7 +308,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-20
+22
 /
 )
 ;
@@ -325,7 +327,7 @@ test_Log_nsIStackFrame
 .
 js
 :
-24
+26
 /
 )
 ;

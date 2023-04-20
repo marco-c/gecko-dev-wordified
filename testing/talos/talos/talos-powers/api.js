@@ -2627,7 +2627,7 @@ Troubleshoot
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2640,7 +2640,9 @@ modules
 /
 Troubleshoot
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

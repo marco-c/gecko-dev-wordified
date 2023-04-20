@@ -65,7 +65,7 @@ BrowserUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -78,7 +78,9 @@ modules
 /
 BrowserUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -242,7 +242,7 @@ AsyncPrefs
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -255,13 +255,15 @@ modules
 /
 AsyncPrefs
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -274,7 +276,9 @@ modules
 /
 AsyncPrefs
 .
-jsm
+sys
+.
+mjs
 "
 }
 }

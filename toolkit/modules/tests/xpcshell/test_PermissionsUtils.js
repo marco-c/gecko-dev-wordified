@@ -97,7 +97,7 @@ PermissionsUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -110,7 +110,9 @@ modules
 /
 PermissionsUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

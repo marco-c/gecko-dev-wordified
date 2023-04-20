@@ -63,7 +63,7 @@ AppMenuNotifications
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +76,9 @@ modules
 /
 AppMenuNotifications
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

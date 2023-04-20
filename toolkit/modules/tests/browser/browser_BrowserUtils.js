@@ -128,7 +128,7 @@ SelectionUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -141,7 +141,9 @@ modules
 /
 SelectionUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

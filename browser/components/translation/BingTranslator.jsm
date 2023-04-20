@@ -77,7 +77,7 @@ PromiseUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -90,7 +90,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -125,7 +127,7 @@ httpRequest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -138,7 +140,9 @@ modules
 /
 Http
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

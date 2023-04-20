@@ -92,7 +92,7 @@ ProcessType
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -105,7 +105,9 @@ modules
 /
 ProcessType
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -278,7 +278,7 @@ Finder
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -291,7 +291,9 @@ modules
 /
 Finder
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

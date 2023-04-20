@@ -34,7 +34,7 @@ CertUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ modules
 /
 CertUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

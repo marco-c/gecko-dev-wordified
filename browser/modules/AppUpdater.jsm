@@ -130,7 +130,7 @@ FileUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -143,7 +143,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -193,9 +195,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -212,7 +214,9 @@ modules
 /
 UpdateUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

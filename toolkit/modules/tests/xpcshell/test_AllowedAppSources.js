@@ -40,7 +40,7 @@ OsEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ modules
 /
 OsEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

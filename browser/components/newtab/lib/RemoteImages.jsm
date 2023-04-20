@@ -68,7 +68,7 @@ JSONFile
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -81,7 +81,9 @@ modules
 /
 JSONFile
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -92,7 +94,7 @@ PromiseUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -105,7 +107,9 @@ modules
 /
 PromiseUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

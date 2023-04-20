@@ -94,7 +94,7 @@ Sqlite
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -107,7 +107,9 @@ modules
 /
 Sqlite
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

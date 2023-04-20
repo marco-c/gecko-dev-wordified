@@ -120,7 +120,7 @@ AsyncPrefs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -133,7 +133,9 @@ modules
 /
 AsyncPrefs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
