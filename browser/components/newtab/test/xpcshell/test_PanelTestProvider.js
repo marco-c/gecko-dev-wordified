@@ -133,7 +133,7 @@ whatsnew_panel_message
 7
 spotlight
 :
-2
+5
 pb_newtab
 :
 2
