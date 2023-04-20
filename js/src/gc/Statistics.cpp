@@ -7490,6 +7490,12 @@ lastSlice
 wasReset
 (
 )
+&
+&
+preCollectedHeapBytes
+!
+=
+0
 )
 {
 size_t
@@ -7553,7 +7559,7 @@ bytesSurvived
 )
 ;
 double
-survialRate
+survivalRate
 =
 100
 .
@@ -7580,7 +7586,7 @@ GC_TENURED_SURVIVAL_RATE
 (
 uint32_t
 (
-survialRate
+survivalRate
 )
 )
 ;

@@ -1830,6 +1830,12 @@ sample
 MOZ_ASSERT
 (
 sample
+>
+=
+0
+&
+&
+sample
 <
 =
 100
@@ -1903,6 +1909,12 @@ sample
 {
 MOZ_ASSERT
 (
+sample
+>
+=
+0
+&
+&
 sample
 <
 =
