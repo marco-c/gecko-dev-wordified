@@ -365,6 +365,12 @@ mColor
 nsString
 mInitialColor
 ;
+nsTArray
+<
+nsString
+>
+mDefaultColors
+;
 }
 ;
 #

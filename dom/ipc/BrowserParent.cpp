@@ -21396,6 +21396,13 @@ const
 nsString
 &
 aInitialColor
+const
+nsTArray
+<
+nsString
+>
+&
+aDefaultColors
 )
 {
 return
@@ -21404,6 +21411,7 @@ ColorPickerParent
 (
 aTitle
 aInitialColor
+aDefaultColors
 )
 ;
 }

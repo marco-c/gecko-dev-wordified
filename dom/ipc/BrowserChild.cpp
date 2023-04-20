@@ -13913,6 +13913,12 @@ nsAString
 const
 nsAString
 &
+const
+nsTArray
+<
+nsString
+>
+&
 )
 {
 MOZ_CRASH

@@ -382,6 +382,7 @@ Init
 window
 mTitle
 mInitialColor
+mDefaultColors
 )
 )
 ;
