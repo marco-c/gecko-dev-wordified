@@ -738,7 +738,9 @@ deduplicate
 /
 clips
 .
-typedef
+using
+ClipIdMap
+=
 std
 :
 :
@@ -756,7 +758,6 @@ WrClipId
 4
 >
 >
-ClipIdMap
 ;
 std
 :
