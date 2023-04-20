@@ -940,7 +940,6 @@ Buttonface
 Buttonhighlight
 Buttonshadow
 Buttontext
-Buttonborder
 /
 /
 /
@@ -1008,8 +1007,6 @@ fieldtext
 )
 ]
 Fieldtext
-Mark
-Marktext
 /
 /
 /
