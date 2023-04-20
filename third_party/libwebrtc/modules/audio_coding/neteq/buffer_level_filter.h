@@ -100,6 +100,13 @@ h
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 rtc_base
 /
@@ -270,7 +277,10 @@ sample
 .
 return
 (
+int64_t
+{
 filtered_current_level_
+}
 +
 (
 1
