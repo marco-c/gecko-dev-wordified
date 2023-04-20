@@ -3315,6 +3315,11 @@ all
 of
 the
 channels
+and
+start
+SCTP
+if
+needed
 .
 RTCError
 PushdownMediaDescription
@@ -4334,6 +4339,12 @@ return
 video_options_
 ;
 }
+bool
+ConfiguredForMedia
+(
+)
+const
+;
 PeerConnectionSdpMethods
 *
 const
