@@ -158,7 +158,7 @@ include
 "
 mozilla
 /
-HTMLEditHelpers
+JoinSplitNodeDirection
 .
 h
 "

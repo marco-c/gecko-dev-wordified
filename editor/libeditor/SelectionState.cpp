@@ -126,7 +126,7 @@ AutoRangeArray
 #
 include
 "
-HTMLEditHelpers
+JoinSplitNodeDirection
 .
 h
 "

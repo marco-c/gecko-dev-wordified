@@ -138,6 +138,17 @@ HTMLEditUtils
 #
 include
 "
+HTMLEditHelpers
+.
+h
+"
+/
+/
+for
+SplitNodeResult
+#
+include
+"
 WSRunObject
 .
 h

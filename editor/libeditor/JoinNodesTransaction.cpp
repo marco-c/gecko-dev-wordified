@@ -124,8 +124,16 @@ h
 /
 for
 SplitNodeResult
+#
+include
+"
+JoinSplitNodeDirection
+.
+h
+"
+/
+/
 JoinNodesDirection
-etc
 #
 include
 "

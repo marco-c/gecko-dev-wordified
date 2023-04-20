@@ -122,8 +122,6 @@ h
 /
 for
 SplitNodeResult
-SplitNodeDirection
-etc
 #
 include
 "
@@ -142,6 +140,17 @@ HTMLEditUtils
 .
 h
 "
+#
+include
+"
+JoinSplitNodeDirection
+.
+h
+"
+/
+/
+for
+SplitNodeDirection
 #
 include
 "
