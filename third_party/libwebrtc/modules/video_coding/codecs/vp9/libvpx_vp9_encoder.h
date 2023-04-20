@@ -450,6 +450,15 @@ int
 >
 *
 spatial_idx
+absl
+:
+:
+optional
+<
+int
+>
+*
+temporal_idx
 const
 vpx_codec_cx_pkt
 &
