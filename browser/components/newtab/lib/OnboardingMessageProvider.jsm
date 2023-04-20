@@ -1318,6 +1318,9 @@ event
 defaultVariationIndex
 :
 1
+darkVariation
+:
+2
 systemVariations
 :
 [
