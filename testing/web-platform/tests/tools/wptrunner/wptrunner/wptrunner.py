@@ -1208,12 +1208,15 @@ run_by_dir
 for
 test_type
 in
+sorted
+(
 run_test_kwargs
 [
 "
 test_types
 "
 ]
+)
 :
         
 logger
