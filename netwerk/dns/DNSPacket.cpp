@@ -5425,10 +5425,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-aTTL
-=
-TTL
-;
 while
 (
 available
@@ -5985,6 +5981,10 @@ parsed
 )
 ;
 }
+aTTL
+=
+TTL
+;
 break
 ;
 }

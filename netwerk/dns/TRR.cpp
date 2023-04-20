@@ -4468,6 +4468,14 @@ MaybeRenewHostRecord
 hostRecord
 )
 ;
+uint32_t
+ttl
+=
+AddrInfo
+:
+:
+NO_TTL_DATA
+;
 RefPtr
 <
 AddrInfo
@@ -4491,7 +4499,7 @@ move
 (
 addresses
 )
-mTTL
+ttl
 )
 )
 ;
