@@ -370,10 +370,9 @@ SctpDataChannelProviderInterface
 bool
 SendData
 (
+int
+sid
 const
-cricket
-:
-:
 SendDataParams
 &
 params
@@ -882,10 +881,9 @@ true
 bool
 DataChannelSendData
 (
+int
+sid
 const
-cricket
-:
-:
 SendDataParams
 &
 params
