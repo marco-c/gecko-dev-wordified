@@ -11132,6 +11132,16 @@ UrlClassifierCommon
 IsTrackingClassificationFlag
 (
 mThirdPartyClassificationFlags
+mLoadInfo
+-
+>
+GetOriginAttributes
+(
+)
+.
+mPrivateBrowsingId
+>
+0
 )
 ;
 return

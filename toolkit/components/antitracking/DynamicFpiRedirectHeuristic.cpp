@@ -235,6 +235,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h
@@ -988,6 +995,10 @@ UrlClassifierCommon
 IsTrackingClassificationFlag
 (
 oldClassificationFlags
+NS_UsePrivateBrowsing
+(
+aOldChannel
+)
 )
 )
 {

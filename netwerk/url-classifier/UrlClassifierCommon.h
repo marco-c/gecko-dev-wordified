@@ -426,6 +426,8 @@ IsTrackingClassificationFlag
 (
 uint32_t
 aFlag
+bool
+aIsPrivate
 )
 ;
 static
@@ -442,6 +444,8 @@ IsCryptominingClassificationFlag
 (
 uint32_t
 aFlag
+bool
+aIsPrivate
 )
 ;
 /

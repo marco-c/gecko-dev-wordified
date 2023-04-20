@@ -270,6 +270,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
@@ -497,6 +504,10 @@ UrlClassifierCommon
 IsTrackingClassificationFlag
 (
 oldClassificationFlags
+NS_UsePrivateBrowsing
+(
+aOldChannel
+)
 )
 &
 &
@@ -723,6 +734,10 @@ UrlClassifierCommon
 IsTrackingClassificationFlag
 (
 newClassificationFlags
+NS_UsePrivateBrowsing
+(
+aNewChannel
+)
 )
 )
 {
