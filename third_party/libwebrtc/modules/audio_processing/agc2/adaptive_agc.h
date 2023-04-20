@@ -357,7 +357,7 @@ private
 AdaptiveModeLevelEstimator
 speech_level_estimator_
 ;
-VadLevelAnalyzer
+VoiceActivityDetectorWrapper
 vad_
 ;
 AdaptiveDigitalGainApplier
