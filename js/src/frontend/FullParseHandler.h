@@ -799,7 +799,7 @@ ArrayExpr
 }
 FullParseHandler
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState

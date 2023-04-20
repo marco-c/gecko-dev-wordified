@@ -985,7 +985,7 @@ XDRStencilDecoder
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -1100,7 +1100,7 @@ XDRStencilEncoder
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

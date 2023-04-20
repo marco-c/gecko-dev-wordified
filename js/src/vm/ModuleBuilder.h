@@ -282,7 +282,7 @@ ModuleBuilder
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -307,7 +307,7 @@ ModuleBuilder
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 Parser
@@ -409,7 +409,7 @@ list
 bool
 noteFunctionDeclaration
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -505,7 +505,7 @@ JSContext
 *
 cx_
 ;
-ErrorContext
+FrontendContext
 *
 ec_
 ;

@@ -1686,11 +1686,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 struct
 ErrorMetadata
 ;
@@ -2032,7 +2027,7 @@ foldConstants_
 ;
 protected
 :
-ErrorContext
+FrontendContext
 *
 ec_
 ;
@@ -2229,7 +2224,7 @@ ParserBase
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2362,7 +2357,7 @@ public
 Implement
 ErrorReportMixin
 .
-ErrorContext
+FrontendContext
 *
 getContext
 (
@@ -3221,7 +3216,7 @@ PerHandlerParser
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -3258,7 +3253,7 @@ PerHandlerParser
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -5935,7 +5930,7 @@ GeneralParser
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -11384,7 +11379,7 @@ ParserData
 *
 NewEmptyGlobalScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -11401,7 +11396,7 @@ ParserData
 *
 NewEmptyVarScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -11418,7 +11413,7 @@ ParserData
 *
 NewEmptyLexicalScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -11435,7 +11430,7 @@ ParserData
 *
 NewEmptyFunctionScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -11461,7 +11456,7 @@ NewGlobalScopeData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -11494,7 +11489,7 @@ NewEvalScopeData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -11527,7 +11522,7 @@ NewFunctionScopeData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -11562,7 +11557,7 @@ NewVarScopeData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -11595,7 +11590,7 @@ NewLexicalScopeData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext

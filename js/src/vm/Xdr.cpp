@@ -309,7 +309,7 @@ h
 "
 /
 /
-ErrorContext
+FrontendContext
 #
 include
 "
@@ -357,7 +357,7 @@ validateResultCode
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -432,7 +432,7 @@ reported
 to
 /
 /
-ErrorContext
+FrontendContext
 instead
 of
 JSContext
@@ -482,7 +482,7 @@ errors
 are
 reported
 to
-ErrorContext
+FrontendContext
 .
 if
 (

@@ -3843,7 +3843,7 @@ NameResolver
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -4059,7 +4059,7 @@ NameFunctions
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

@@ -191,11 +191,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 enum
 class
 AllocFunction
@@ -660,7 +655,7 @@ JS_PUBLIC_API
 void
 ReportOutOfMemory
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -773,7 +768,7 @@ is
 set
 )
 or
-ErrorContext
+FrontendContext
 *
 uintptr_t
 const
@@ -826,7 +821,7 @@ JsContextTag
 ;
 }
 MOZ_ALWAYS_INLINE
-ErrorContext
+FrontendContext
 *
 ec
 (
@@ -844,7 +839,7 @@ hasJSContext
 return
 reinterpret_cast
 <
-ErrorContext
+FrontendContext
 *
 >
 (
@@ -1018,7 +1013,7 @@ JsContextTag
 MOZ_IMPLICIT
 TempAllocPolicy
 (
-ErrorContext
+FrontendContext
 *
 ec
 )

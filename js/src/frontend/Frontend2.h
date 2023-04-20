@@ -251,11 +251,6 @@ ScriptSourceObject
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -310,7 +305,7 @@ tryCompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

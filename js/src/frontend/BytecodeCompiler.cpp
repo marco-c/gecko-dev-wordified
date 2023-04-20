@@ -498,7 +498,7 @@ JSContext
 *
 cx_
 ;
-ErrorContext
+FrontendContext
 *
 ec_
 ;
@@ -513,7 +513,7 @@ AutoAssertReportedException
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -673,7 +673,7 @@ AutoAssertReportedException
 (
 JSContext
 *
-ErrorContext
+FrontendContext
 *
 )
 {
@@ -701,7 +701,7 @@ BytecodeEmitter
 >
 &
 emitter
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -759,7 +759,7 @@ Unit
 >
 parser
 ;
-ErrorContext
+FrontendContext
 *
 errorContext
 =
@@ -790,7 +790,7 @@ SourceAwareCompiler
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -852,7 +852,7 @@ init
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScopeBindingCache
@@ -923,7 +923,7 @@ createSourceAndParser
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1136,7 +1136,7 @@ ScriptCompiler
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1214,7 +1214,7 @@ TrySmoosh
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1401,7 +1401,7 @@ TrySmoosh
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1522,7 +1522,7 @@ CompileGlobalScriptToStencilAndMaybeInstantiate
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2406,7 +2406,7 @@ CompileGlobalScriptToStencilImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2505,7 +2505,7 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2564,7 +2564,7 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2626,7 +2626,7 @@ CompileGlobalScriptToExtensibleStencilImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2726,7 +2726,7 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2778,7 +2778,7 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2966,7 +2966,7 @@ PrepareForInstantiate
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -3039,7 +3039,7 @@ CompileGlobalScriptImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -3153,7 +3153,7 @@ CompileGlobalScript
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -3203,7 +3203,7 @@ CompileGlobalScript
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -3675,7 +3675,7 @@ ModuleCompiler
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -3731,7 +3731,7 @@ compile
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3819,7 +3819,7 @@ StandaloneFunctionCompiler
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -3935,7 +3935,7 @@ createSourceAndParser
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -4119,7 +4119,7 @@ BytecodeEmitter
 >
 &
 emitter
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -4775,7 +4775,7 @@ compile
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -5582,7 +5582,7 @@ ParseModuleToStencilAndMaybeInstantiate
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -5984,7 +5984,7 @@ ParseModuleToStencilImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6070,7 +6070,7 @@ ParseModuleToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6116,7 +6116,7 @@ ParseModuleToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6164,7 +6164,7 @@ ParseModuleToExtensibleStencilImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6252,7 +6252,7 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6298,7 +6298,7 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6345,7 +6345,7 @@ CompileModuleImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6473,7 +6473,7 @@ CompileModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6517,7 +6517,7 @@ CompileModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6909,7 +6909,7 @@ GetCachedLazyFunctionStencilMaybeInstantiate
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -7211,7 +7211,7 @@ CompileLazyFunctionToStencilMaybeInstantiate
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -8095,7 +8095,7 @@ DelazifyCanonicalScriptedFunctionImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -8419,7 +8419,7 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -8591,7 +8591,7 @@ DelazifyCanonicalScriptedFunctionImpl
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -8969,7 +8969,7 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

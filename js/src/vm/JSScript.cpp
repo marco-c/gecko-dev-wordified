@@ -9962,7 +9962,7 @@ ScriptSource
 :
 assignSource
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -10187,7 +10187,7 @@ ScriptSource
 :
 assignSource
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -10209,7 +10209,7 @@ ScriptSource
 :
 assignSource
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -12513,7 +12513,7 @@ initFromOptions
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -12775,7 +12775,7 @@ static
 SharedT
 GetOrCreateStringZ
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniquePtr
@@ -12860,7 +12860,7 @@ ScriptSource
 :
 getOrCreateStringZ
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueChars
@@ -12892,7 +12892,7 @@ ScriptSource
 :
 getOrCreateStringZ
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueTwoByteChars
@@ -12927,7 +12927,7 @@ setFilename
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -12975,7 +12975,7 @@ ScriptSource
 :
 setFilename
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueChars
@@ -13020,7 +13020,7 @@ setIntroducerFilename
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -13068,7 +13068,7 @@ ScriptSource
 :
 setIntroducerFilename
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueChars
@@ -13113,7 +13113,7 @@ setDisplayURL
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -13165,7 +13165,7 @@ setDisplayURL
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 UniqueTwoByteChars
@@ -13284,7 +13284,7 @@ setSourceMapURL
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -13332,7 +13332,7 @@ ScriptSource
 :
 setSourceMapURL
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueTwoByteChars
@@ -13727,7 +13727,7 @@ ImmutableScriptData
 :
 new_
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -14177,7 +14177,7 @@ SharedImmutableScriptData
 :
 create
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -14211,7 +14211,7 @@ SharedImmutableScriptData
 :
 createWith
 (
-ErrorContext
+FrontendContext
 *
 ec
 js
@@ -14604,7 +14604,7 @@ shareScriptData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 RefPtr
@@ -19494,7 +19494,7 @@ ImmutableScriptData
 :
 new_
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t

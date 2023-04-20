@@ -1160,7 +1160,7 @@ SetSourceOptions
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScriptSource

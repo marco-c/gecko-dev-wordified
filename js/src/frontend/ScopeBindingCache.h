@@ -363,7 +363,7 @@ JSContext
 *
 cx
 ;
-ErrorContext
+FrontendContext
 *
 ec
 ;
@@ -383,7 +383,7 @@ EmitterName
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -553,7 +553,7 @@ GenericAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable

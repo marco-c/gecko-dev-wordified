@@ -672,7 +672,7 @@ Collection
 *
 acquire
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1907,7 +1907,7 @@ Map
 *
 acquireMap
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1982,7 +1982,7 @@ Vector
 *
 acquireVector
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2051,7 +2051,7 @@ acquireVector
 AtomVector
 >
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2135,7 +2135,7 @@ acquireVector
 FunctionBoxVector
 >
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2303,7 +2303,7 @@ pool
 bool
 acquire
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2437,7 +2437,7 @@ Map
 *
 acquireCollection
 (
-ErrorContext
+FrontendContext
 *
 ec
 NameCollectionPool
@@ -2532,7 +2532,7 @@ Vector
 *
 acquireCollection
 (
-ErrorContext
+FrontendContext
 *
 ec
 NameCollectionPool

@@ -1055,7 +1055,7 @@ frontend
 ParserAtomsTable
 &
 parserAtoms
-ErrorContext
+FrontendContext
 *
 ec
 )

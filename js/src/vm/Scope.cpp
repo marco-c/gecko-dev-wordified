@@ -1278,7 +1278,7 @@ ParserData
 *
 NewEmptyParserScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -9618,7 +9618,7 @@ ScopeStencil
 :
 appendScopeStencilAndData
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -9782,7 +9782,7 @@ ScopeStencil
 :
 createForFunctionScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -9942,7 +9942,7 @@ ScopeStencil
 :
 createForLexicalScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -10077,7 +10077,7 @@ ScopeStencil
 :
 createForClassBodyScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -10207,7 +10207,7 @@ ScopeStencil
 :
 createForVarScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -10345,7 +10345,7 @@ ScopeStencil
 :
 createForGlobalScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -10522,7 +10522,7 @@ ScopeStencil
 :
 createForEvalScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -10659,7 +10659,7 @@ ScopeStencil
 :
 createForModuleScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -10960,7 +10960,7 @@ ScopeStencil
 :
 createForWithScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState

@@ -2076,11 +2076,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -3523,7 +3518,7 @@ public
 :
 SourceCoords
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -4289,7 +4284,7 @@ JSContext
 const
 cx
 ;
-ErrorContext
+FrontendContext
 *
 const
 ec
@@ -5565,7 +5560,7 @@ TokenStreamAnyChars
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -6524,7 +6519,7 @@ get
 )
 ;
 }
-ErrorContext
+FrontendContext
 *
 context
 (
@@ -11591,7 +11586,7 @@ JSContext
 *
 cx
 ;
-ErrorContext
+FrontendContext
 *
 ec
 ;
@@ -11671,7 +11666,7 @@ TokenStreamCharsShared
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -11980,7 +11975,7 @@ TokenStreamCharsBase
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -18242,7 +18237,7 @@ TokenStreamSpecific
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -18555,7 +18550,7 @@ private
 Implement
 ErrorReportMixin
 .
-ErrorContext
+FrontendContext
 *
 getContext
 (
@@ -21385,7 +21380,7 @@ TokenStream
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -21448,7 +21443,7 @@ DummyTokenStream
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const

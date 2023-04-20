@@ -632,7 +632,7 @@ ConvertAtoms
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -1098,7 +1098,7 @@ ConvertScopeStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -1869,7 +1869,7 @@ ConvertRegExpData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -2606,7 +2606,7 @@ ConvertGCThings
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2954,7 +2954,7 @@ ConvertScriptStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3581,7 +3581,7 @@ ReportSmooshCompileError
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ErrorMetadata
@@ -3646,7 +3646,7 @@ tryCompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

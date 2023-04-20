@@ -174,11 +174,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -420,7 +415,7 @@ public
 :
 StringBufferAllocPolicy
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -866,7 +861,7 @@ JSContext
 *
 cx_
 ;
-ErrorContext
+FrontendContext
 *
 ec_
 ;
@@ -1200,7 +1195,7 @@ StringBuffer
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2576,7 +2571,7 @@ frontend
 ParserAtomsTable
 &
 parserAtoms
-ErrorContext
+FrontendContext
 *
 ec
 )

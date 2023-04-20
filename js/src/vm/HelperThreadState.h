@@ -3006,7 +3006,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3444,7 +3444,7 @@ nodiscard
 bool
 add
 (
-ErrorContext
+FrontendContext
 *
 ec
 const

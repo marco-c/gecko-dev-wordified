@@ -419,7 +419,7 @@ js
 :
 ReportCompileWarning
 (
-ErrorContext
+FrontendContext
 *
 ec
 ErrorMetadata
@@ -606,7 +606,7 @@ static
 void
 ReportCompileErrorImpl
 (
-ErrorContext
+FrontendContext
 *
 ec
 js
@@ -776,7 +776,7 @@ js
 :
 ReportCompileErrorLatin1
 (
-ErrorContext
+FrontendContext
 *
 ec
 ErrorMetadata
@@ -824,7 +824,7 @@ js
 :
 ReportCompileErrorUTF8
 (
-ErrorContext
+FrontendContext
 *
 ec
 ErrorMetadata
@@ -2044,7 +2044,7 @@ static
 bool
 ExpandErrorArgumentsHelper
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -2692,7 +2692,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -2745,7 +2745,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -2798,7 +2798,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -2838,7 +2838,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -2986,7 +2986,7 @@ static
 bool
 ExpandErrorArguments
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback

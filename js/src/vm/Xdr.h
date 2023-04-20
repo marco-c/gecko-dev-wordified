@@ -355,7 +355,7 @@ XDRBufferBase
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 size_t
@@ -389,7 +389,7 @@ return
 context_
 ;
 }
-ErrorContext
+FrontendContext
 *
 ec
 (
@@ -417,7 +417,7 @@ JSContext
 const
 context_
 ;
-ErrorContext
+FrontendContext
 *
 const
 err_
@@ -454,7 +454,7 @@ XDRBuffer
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -689,7 +689,7 @@ XDRBuffer
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -737,7 +737,7 @@ XDRBuffer
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1147,7 +1147,7 @@ validateResultCode
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1215,7 +1215,7 @@ XDRState
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1254,7 +1254,7 @@ XDRState
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -1339,7 +1339,7 @@ cx
 )
 ;
 }
-ErrorContext
+FrontendContext
 *
 ec
 (

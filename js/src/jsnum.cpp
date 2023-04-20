@@ -5709,7 +5709,7 @@ js
 :
 Int32ToParserAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -11776,7 +11776,7 @@ js
 :
 NumberToParserAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend

@@ -1307,7 +1307,7 @@ public
 explicit
 UsedNameInfo
 (
-ErrorContext
+FrontendContext
 *
 ec
 NameVisibility
@@ -1717,7 +1717,7 @@ public
 explicit
 UsedNameTracker
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1819,7 +1819,7 @@ nodiscard
 bool
 noteUse
 (
-ErrorContext
+FrontendContext
 *
 ec
 TaggedParserAtomIndex
@@ -1881,7 +1881,7 @@ nodiscard
 bool
 hasUnboundPrivateNames
 (
-ErrorContext
+FrontendContext
 *
 ec
 mozilla

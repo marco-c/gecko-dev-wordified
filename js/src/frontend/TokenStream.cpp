@@ -2067,7 +2067,7 @@ SourceCoords
 :
 SourceCoords
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -3057,7 +3057,7 @@ TokenStreamAnyChars
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3232,7 +3232,7 @@ TokenStreamCharsBase
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -3582,7 +3582,7 @@ TokenStreamSpecific
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable

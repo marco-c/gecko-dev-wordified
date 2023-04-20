@@ -373,7 +373,7 @@ current
 context
 .
 virtual
-ErrorContext
+FrontendContext
 *
 getContext
 (

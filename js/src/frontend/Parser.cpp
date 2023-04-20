@@ -1211,7 +1211,7 @@ ParserBase
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1343,7 +1343,7 @@ PerHandlerParser
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1422,7 +1422,7 @@ GeneralParser
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -6336,7 +6336,7 @@ ParserData
 *
 NewEmptyBindingData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -6404,7 +6404,7 @@ ParserData
 *
 NewEmptyGlobalScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -6433,7 +6433,7 @@ ParserData
 *
 NewEmptyLexicalScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -6462,7 +6462,7 @@ ParserData
 *
 NewEmptyFunctionScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -6911,7 +6911,7 @@ ParserData
 >
 NewGlobalScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -7289,7 +7289,7 @@ ParserData
 >
 NewModuleScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -7697,7 +7697,7 @@ ParserData
 >
 NewEvalScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -7972,7 +7972,7 @@ ParserData
 >
 NewFunctionScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -8810,7 +8810,7 @@ ParserData
 *
 NewEmptyVarScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -8842,7 +8842,7 @@ ParserData
 >
 NewVarScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -9181,7 +9181,7 @@ ParserData
 >
 NewLexicalScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext
@@ -9639,7 +9639,7 @@ ParserData
 >
 NewClassBodyScopeData
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParseContext

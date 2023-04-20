@@ -259,11 +259,6 @@ LifoAlloc
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -292,7 +287,7 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -335,7 +330,7 @@ CompileGlobalScriptToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -381,7 +376,7 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -418,7 +413,7 @@ CompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -510,7 +505,7 @@ PrepareForInstantiate
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -557,7 +552,7 @@ CompileGlobalScript
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -593,7 +588,7 @@ CompileGlobalScript
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -678,7 +673,7 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -707,7 +702,7 @@ DelazifyCanonicalScriptedFunction
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

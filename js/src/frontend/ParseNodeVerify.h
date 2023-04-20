@@ -150,11 +150,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 class
 LifoAlloc
 ;
@@ -244,7 +239,7 @@ extern
 bool
 CheckParseTree
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -272,7 +267,7 @@ inline
 bool
 CheckParseTree
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -304,7 +299,7 @@ inline
 bool
 CheckParseTree
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS

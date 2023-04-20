@@ -279,11 +279,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -429,7 +424,7 @@ CompileAsmJS
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -475,7 +470,7 @@ CompileAsmJS
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

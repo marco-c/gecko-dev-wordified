@@ -1154,7 +1154,7 @@ public
 :
 SyntaxParseHandler
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState

@@ -339,7 +339,7 @@ frontend
 TaggedParserAtomIndex
 NumberToParserAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -413,7 +413,7 @@ frontend
 TaggedParserAtomIndex
 Int32ToParserAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend

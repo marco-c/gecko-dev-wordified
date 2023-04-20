@@ -2849,7 +2849,7 @@ NumericLiteral
 :
 toAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -2879,7 +2879,7 @@ create
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable

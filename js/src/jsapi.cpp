@@ -23422,7 +23422,7 @@ Note
 >
 CreateErrorNoteVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -23546,7 +23546,7 @@ JSErrorNotes
 :
 addNoteVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -23710,7 +23710,7 @@ JSErrorNotes
 :
 addNoteASCII
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -23851,7 +23851,7 @@ JSErrorNotes
 :
 addNoteLatin1
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -23992,7 +23992,7 @@ JSErrorNotes
 :
 addNoteUTF8
 (
-ErrorContext
+FrontendContext
 *
 ec
 const

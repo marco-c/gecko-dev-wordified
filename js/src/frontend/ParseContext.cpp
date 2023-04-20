@@ -490,7 +490,7 @@ UsedNameTracker
 :
 noteUse
 (
-ErrorContext
+FrontendContext
 *
 ec
 TaggedParserAtomIndex
@@ -899,7 +899,7 @@ UsedNameTracker
 :
 hasUnboundPrivateNames
 (
-ErrorContext
+FrontendContext
 *
 ec
 mozilla
@@ -2169,7 +2169,7 @@ return
 false
 ;
 }
-ErrorContext
+FrontendContext
 *
 ec
 =

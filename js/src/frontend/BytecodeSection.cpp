@@ -1214,7 +1214,7 @@ BytecodeSection
 :
 BytecodeSection
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -1331,7 +1331,7 @@ PerScriptData
 :
 PerScriptData
 (
-ErrorContext
+FrontendContext
 *
 ec
 NameCollectionPool
@@ -1362,7 +1362,7 @@ PerScriptData
 :
 init
 (
-ErrorContext
+FrontendContext
 *
 ec
 )

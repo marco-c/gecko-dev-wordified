@@ -1989,7 +1989,7 @@ js
 :
 ReportOutOfMemory
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2270,7 +2270,7 @@ js
 :
 ReportOverRecursed
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2506,7 +2506,7 @@ js
 :
 ReportAllocationOverflow
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
