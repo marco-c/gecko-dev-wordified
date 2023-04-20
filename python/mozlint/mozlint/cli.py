@@ -3093,6 +3093,16 @@ file
 =
 fh
 )
+            
+if
+path
+:
+                
+fh
+.
+close
+(
+)
     
 return
 result
