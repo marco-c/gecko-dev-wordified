@@ -4546,18 +4546,6 @@ setting
 if
 not
 terminal
-or
-os
-.
-environ
-.
-get
-(
-"
-MACH_NO_TERMINAL_FOOTER
-"
-None
-)
 :
             
 return
@@ -4577,6 +4565,24 @@ None
 :
             
 return
+        
+if
+os
+.
+environ
+.
+get
+(
+"
+MACH_NO_TERMINAL_FOOTER
+"
+None
+)
+:
+            
+footer
+=
+None
         
 self
 .
