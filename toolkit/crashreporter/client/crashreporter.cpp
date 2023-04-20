@@ -388,7 +388,7 @@ buf
 2048
 ]
 ;
-UI_SNPRINTF
+snprintf
 (
 buf
 2048
@@ -2337,7 +2337,7 @@ buf
 1024
 ]
 ;
-UI_SNPRINTF
+snprintf
 (
 buf
 1024
@@ -2394,7 +2394,7 @@ end
 )
 )
 {
-UI_SNPRINTF
+snprintf
 (
 buf
 1024
@@ -3401,7 +3401,7 @@ buf
 4096
 ]
 ;
-UI_SNPRINTF
+snprintf
 (
 buf
 sizeof
@@ -3532,7 +3532,7 @@ UIError
 to
 fill
 in
-UI_SNPRINTF
+snprintf
 (
 buf
 sizeof
@@ -3582,7 +3582,7 @@ ST_CRASHREPORTERERROR
 str
 ;
 }
-UI_SNPRINTF
+snprintf
 (
 buf
 sizeof
@@ -3611,7 +3611,7 @@ ST_CRASHREPORTERDESCRIPTION
 =
 buf
 ;
-UI_SNPRINTF
+snprintf
 (
 buf
 sizeof
@@ -3640,7 +3640,7 @@ ST_CHECKSUBMIT
 =
 buf
 ;
-UI_SNPRINTF
+snprintf
 (
 buf
 sizeof
@@ -3669,7 +3669,7 @@ ST_RESTART
 =
 buf
 ;
-UI_SNPRINTF
+snprintf
 (
 buf
 sizeof
@@ -3698,7 +3698,7 @@ ST_QUIT
 =
 buf
 ;
-UI_SNPRINTF
+snprintf
 (
 buf
 sizeof
