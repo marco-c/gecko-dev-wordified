@@ -402,15 +402,6 @@ Debugger
 prototype
 objects
 .
-Source
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 Environment
 :
 {
