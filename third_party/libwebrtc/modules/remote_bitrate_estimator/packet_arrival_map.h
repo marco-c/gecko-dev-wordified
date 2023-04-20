@@ -109,6 +109,17 @@ deque
 #
 include
 "
+api
+/
+units
+/
+timestamp
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
@@ -371,7 +382,7 @@ const
 return
 begin_sequence_number_
 +
-arrival_times
+arrival_times_
 .
 size
 (
@@ -401,7 +412,7 @@ begin_sequence_number
 end_sequence_number
 )
 .
-int64_t
+Timestamp
 get
 (
 int64_t
@@ -430,7 +441,7 @@ static_cast
 int64_t
 >
 (
-arrival_times
+arrival_times_
 .
 size
 (
@@ -439,7 +450,7 @@ size
 )
 ;
 return
-arrival_times
+arrival_times_
 [
 pos
 ]
@@ -507,8 +518,8 @@ AddPacket
 (
 int64_t
 sequence_number
-int64_t
-arrival_time_ms
+Timestamp
+arrival_time
 )
 ;
 /
@@ -543,7 +554,7 @@ RemoveOldPackets
 (
 int64_t
 sequence_number
-int64_t
+Timestamp
 arrival_time_limit
 )
 ;
@@ -579,9 +590,9 @@ std
 :
 deque
 <
-int64_t
+Timestamp
 >
-arrival_times
+arrival_times_
 ;
 /
 /
@@ -596,7 +607,7 @@ element
 in
 /
 /
-arrival_times
+arrival_times_
 .
 int64_t
 begin_sequence_number_
