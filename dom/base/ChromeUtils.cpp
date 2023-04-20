@@ -6545,7 +6545,7 @@ size_t
 UtilityActorName
 :
 :
-AudioDecoder_WMF
+MfMediaEngineCDM
 )
 +
 1
@@ -6612,6 +6612,12 @@ UTILITYACTORNAME_TO_WEBIDL_CASE
 (
 AudioDecoder_WMF
 AudioDecoder_WMF
+)
+;
+UTILITYACTORNAME_TO_WEBIDL_CASE
+(
+MfMediaEngineCDM
+MfMediaEngineCDM
 )
 ;
 }
