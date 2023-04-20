@@ -15696,6 +15696,28 @@ MOZ_CHAOSMODE
 0xfb
 "
                 
+#
+chaosmode
+runs
+really
+slow
+allow
+tests
+extra
+time
+to
+pass
+                
+self
+.
+harness_timeout
+=
+self
+.
+harness_timeout
+*
+2
+                
 for
 i
 in
@@ -15753,6 +15775,16 @@ mobileArgs
 kwargs
                 
 )
+                
+self
+.
+harness_timeout
+=
+self
+.
+harness_timeout
+/
+2
                 
 return
 status

@@ -26741,6 +26741,25 @@ timeout
 .
 0
             
+if
+"
+MOZ_CHAOSMODE
+=
+0xfb
+"
+in
+options
+.
+environment
+and
+timeout
+:
+                
+timeout
+*
+=
+2
+            
 #
 Detect
 shutdown

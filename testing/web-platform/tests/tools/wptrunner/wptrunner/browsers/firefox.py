@@ -304,6 +304,38 @@ timeout_multiplier
 "
 ]
     
+multiplier
+=
+1
+    
+if
+run_info_data
+[
+"
+verify
+"
+]
+:
+        
+if
+kwargs
+.
+get
+(
+"
+chaos_mode_flags
+"
+None
+)
+is
+not
+None
+:
+            
+multiplier
+=
+2
+    
 if
 test_type
 =
@@ -314,12 +346,15 @@ reftest
 :
         
 if
+(
+            
 run_info_data
 [
 "
 debug
 "
 ]
+            
 or
 run_info_data
 .
@@ -329,6 +364,7 @@ get
 asan
 "
 )
+            
 or
 run_info_data
 .
@@ -338,18 +374,26 @@ get
 tsan
 "
 )
+        
+)
 :
             
 return
 4
+*
+multiplier
         
 else
 :
             
 return
 2
+*
+multiplier
     
 elif
+(
+        
 run_info_data
 [
 "
@@ -373,6 +417,8 @@ get
 "
 tsan
 "
+)
+    
 )
 :
         
@@ -389,12 +435,16 @@ ccov
             
 return
 4
+*
+multiplier
         
 else
 :
             
 return
 3
+*
+multiplier
     
 elif
 run_info_data
@@ -412,6 +462,8 @@ android
         
 return
 4
+*
+multiplier
     
 #
 https
@@ -460,6 +512,8 @@ aarch64
         
 return
 4
+*
+multiplier
     
 elif
 run_info_data
@@ -474,9 +528,13 @@ ccov
         
 return
 2
+*
+multiplier
     
 return
 1
+*
+multiplier
 def
 check_args
 (
