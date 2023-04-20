@@ -8569,6 +8569,13 @@ DepthRun
 *
 fdepth
 =
+depthtex
+.
+buf
+!
+=
+nullptr
+?
 (
 DepthRun
 *
@@ -8583,6 +8590,8 @@ int
 y
 )
 )
+:
+nullptr
 ;
 /
 /
@@ -11243,6 +11252,13 @@ DepthRun
 *
 fdepth
 =
+depthtex
+.
+buf
+!
+=
+nullptr
+?
 (
 DepthRun
 *
@@ -11257,6 +11273,8 @@ int
 y
 )
 )
+:
+nullptr
 ;
 /
 /
