@@ -351,7 +351,7 @@ return
 ;
 }
 }
-RTC_FATAL
+FATAL
 (
 )
 <

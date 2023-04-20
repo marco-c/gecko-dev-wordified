@@ -304,7 +304,7 @@ break
 ;
 default
 :
-RTC_FATAL
+FATAL
 (
 )
 <
@@ -320,8 +320,6 @@ to
 using
 the
 "
-<
-<
 "
 default
 call

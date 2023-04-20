@@ -167,7 +167,7 @@ if
 RTC_CHECK_MSG_ENABLED
 EXPECT_DEATH
 (
-RTC_FATAL
+FATAL
 (
 )
 <
@@ -421,7 +421,7 @@ there
 else
 EXPECT_DEATH
 (
-RTC_FATAL
+FATAL
 (
 )
 <
