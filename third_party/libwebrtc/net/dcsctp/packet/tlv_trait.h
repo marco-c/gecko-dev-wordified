@@ -943,6 +943,14 @@ data
 size
 (
 )
+|
+|
+length
+<
+Config
+:
+:
+kHeaderSize
 )
 {
 tlv_trait_impl
