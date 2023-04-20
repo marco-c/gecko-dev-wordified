@@ -601,6 +601,11 @@ ModuleCyclicFields
 \
 _
 (
+ModuleExports
+)
+\
+_
+(
 BaselineScript
 )
 \
