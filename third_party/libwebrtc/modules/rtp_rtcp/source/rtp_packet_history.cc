@@ -1019,7 +1019,7 @@ if
 packet_index
 >
 =
-0u
+0
 &
 &
 static_cast

@@ -740,13 +740,6 @@ if
 spatial_layer
 .
 frame_rate_fps
-<
-0
-|
-|
-spatial_layer
-.
-frame_rate_fps
 >
 255
 )
