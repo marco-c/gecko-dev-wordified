@@ -1591,7 +1591,7 @@ last_error_
 webrtc
 :
 :
-ScopedTaskSafety
+ScopedTaskSafetyDetached
 task_safety_
 ;
 RTC_DISALLOW_COPY_AND_ASSIGN
