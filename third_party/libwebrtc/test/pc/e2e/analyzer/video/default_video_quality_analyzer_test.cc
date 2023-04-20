@@ -8165,7 +8165,7 @@ rendered
 TEST
 (
 DefaultVideoQualityAnalyzerTest
-FrameCanBeReceivedByRecieverAfterItWasReceivedBySender
+FrameCanBeReceivedByReceiverAfterItWasReceivedBySender
 )
 {
 std

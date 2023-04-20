@@ -555,7 +555,7 @@ description
 *
 Notifies
 the
-reciever
+receiver
 that
 a
 playout
@@ -581,7 +581,7 @@ totalNumberOfGlitches
 *
 Notifies
 the
-reciever
+receiver
 that
 there
 was

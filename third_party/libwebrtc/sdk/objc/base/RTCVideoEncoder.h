@@ -406,7 +406,7 @@ applyAlignmentToAllSimulcastLayers
 If
 YES
 the
-reciever
+receiver
 is
 expected
 to

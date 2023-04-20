@@ -2651,7 +2651,7 @@ remote_description
 /
 Returns
 an
-RtpTransciever
+RtpTransceiver
 if
 available
 that

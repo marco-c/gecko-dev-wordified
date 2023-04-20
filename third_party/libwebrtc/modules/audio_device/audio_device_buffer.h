@@ -1595,7 +1595,7 @@ converting
 capture
 timestaps
 (
-recieved
+received
 from
 AudioRecordThread
 /

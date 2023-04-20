@@ -127,7 +127,7 @@ namespace
 TEST
 (
 CallbackList
-NoRecieverSingleMessageTest
+NoReceiverSingleMessageTest
 )
 {
 CallbackList

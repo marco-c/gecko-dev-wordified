@@ -35681,7 +35681,7 @@ also
 nominally
 in
 the
-recieve
+receive
 codecs
 list
 .

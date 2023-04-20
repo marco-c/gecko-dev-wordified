@@ -9979,7 +9979,7 @@ receive_time
 TEST
 (
 RtcpTransceiverImplTest
-CombinesReportBlocksFromSenderAndRecieverReports
+CombinesReportBlocksFromSenderAndReceiverReports
 )
 {
 MockNetworkLinkRtcpObserver

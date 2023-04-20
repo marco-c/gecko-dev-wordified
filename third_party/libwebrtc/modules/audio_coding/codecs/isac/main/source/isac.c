@@ -5351,7 +5351,7 @@ encoded
 data
 with
 the
-recieved
+received
 bwe
 -
 index

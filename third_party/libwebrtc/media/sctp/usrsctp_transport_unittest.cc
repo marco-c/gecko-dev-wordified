@@ -266,7 +266,7 @@ a
 buffer
 to
 hold
-recieved
+received
 data
 .
 It

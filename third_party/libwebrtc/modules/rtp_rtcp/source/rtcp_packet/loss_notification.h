@@ -267,7 +267,7 @@ happens
 /
 /
 when
-last_recieved
+last_received
 is
 ahead
 of
@@ -282,7 +282,7 @@ than
 This
 is
 because
-last_recieved
+last_received
 is
 represented
 on

@@ -1817,7 +1817,7 @@ setting
 up
 the
 windows
-recieve
+receive
 streams
 and
 decoders
@@ -2333,7 +2333,7 @@ structures
 required
 for
 a
-recieve
+receive
 stream
 .
 This

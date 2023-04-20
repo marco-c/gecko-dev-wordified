@@ -653,7 +653,7 @@ expected_counts
 TEST
 (
 VideoStreamTest
-RecievesVp8SimulcastFrames
+ReceivesVp8SimulcastFrames
 )
 {
 TimeDelta

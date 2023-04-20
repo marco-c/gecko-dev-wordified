@@ -507,7 +507,7 @@ are
 called
 with
 the
-recieved
+received
 data
 ]
 class
