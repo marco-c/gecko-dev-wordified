@@ -1650,7 +1650,7 @@ id
 firstNonDefaultLocal_
 )
 /
-WordSize
+WordBits
 <
 unsetLocals_
 .
