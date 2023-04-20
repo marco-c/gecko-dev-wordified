@@ -438,8 +438,11 @@ dcsctp
 :
 :
 DcSctpSocketCallbacks
-void
-SendPacket
+dcsctp
+:
+:
+SendPacketStatus
+SendPacketWithStatus
 (
 rtc
 :

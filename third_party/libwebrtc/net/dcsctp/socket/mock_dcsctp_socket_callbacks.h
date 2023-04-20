@@ -516,7 +516,7 @@ ON_CALL
 (
 *
 this
-SendPacket
+SendPacketWithStatus
 )
 .
 WillByDefault
@@ -560,6 +560,12 @@ end
 )
 )
 )
+;
+return
+SendPacketStatus
+:
+:
+kSuccess
 ;
 }
 )
@@ -729,8 +735,8 @@ now_
 }
 MOCK_METHOD
 (
-void
-SendPacket
+SendPacketStatus
+SendPacketWithStatus
 (
 rtc
 :

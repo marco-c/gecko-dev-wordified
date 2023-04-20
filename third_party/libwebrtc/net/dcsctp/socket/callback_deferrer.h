@@ -506,8 +506,8 @@ underlying_
 ;
 }
 }
-void
-SendPacket
+SendPacketStatus
+SendPacketWithStatus
 (
 rtc
 :
@@ -531,9 +531,10 @@ deferred
 call
 directly
 .
+return
 underlying_
 .
-SendPacket
+SendPacketWithStatus
 (
 data
 )
