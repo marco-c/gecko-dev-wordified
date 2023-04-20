@@ -38134,7 +38134,7 @@ const
 auto
 [
 maxBlockEndEdgeOfChildren
-areChildrenComplete
+anyChildIncomplete
 ]
 =
 ReflowChildren
@@ -38282,7 +38282,7 @@ borderPadding
 consumedBSize
 mayNeedNextInFlow
 maxBlockEndEdgeOfChildren
-areChildrenComplete
+anyChildIncomplete
 flr
 .
 mAscent
