@@ -2472,7 +2472,6 @@ ModuleLoadRequest
 aRequest
 )
 ;
-static
 nsresult
 ResolveRequestedModules
 (
@@ -2596,7 +2595,6 @@ EvaluationPromise
 .
 *
 /
-static
 void
 FinishDynamicImportAndReject
 (
