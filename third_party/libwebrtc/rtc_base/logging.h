@@ -957,8 +957,6 @@ LS_WARNING
 WARNING
 =
 LS_WARNING
-/
-/
 LERROR
 [
 [
@@ -971,9 +969,6 @@ LS_ERROR
 )
 ]
 ]
-=
-LS_ERROR
-LERROR
 =
 LS_ERROR
 }

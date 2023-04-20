@@ -4398,7 +4398,7 @@ error
 {
 RTC_LOG_ERR
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -6325,7 +6325,7 @@ socket
 {
 RTC_LOG_ERR
 (
-LERROR
+LS_ERROR
 )
 <
 <

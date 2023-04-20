@@ -446,7 +446,7 @@ return
 ;
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -490,7 +490,7 @@ return
 ;
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -911,7 +911,7 @@ incoming_payload
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -998,7 +998,7 @@ kOK
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -1129,7 +1129,7 @@ samples_per_channel_int
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -1241,7 +1241,7 @@ samples_per_channel_int
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <

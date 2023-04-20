@@ -1706,7 +1706,7 @@ error
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
