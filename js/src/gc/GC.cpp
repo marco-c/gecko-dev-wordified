@@ -18113,6 +18113,13 @@ updateLive
 this
 )
 ;
+marker
+.
+setRootMarkingMode
+(
+true
+)
+;
 traceRuntimeForMajorGC
 (
 marker
@@ -18121,6 +18128,13 @@ tracer
 (
 )
 session
+)
+;
+marker
+.
+setRootMarkingMode
+(
+false
 )
 ;
 }
