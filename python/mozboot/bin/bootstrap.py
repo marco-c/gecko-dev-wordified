@@ -424,8 +424,9 @@ WINDOWS
         
 potential_names
 .
-append
+insert
 (
+0
 name
 +
 "
