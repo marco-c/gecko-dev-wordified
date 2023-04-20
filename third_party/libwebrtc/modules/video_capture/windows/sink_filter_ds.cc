@@ -3228,6 +3228,7 @@ VFW_E_INVALID_DIRECTION
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3327,6 +3328,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3459,6 +3461,7 @@ S_OK
 VFW_E_NO_ACCEPTABLE_TYPES
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3562,6 +3565,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3612,6 +3616,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3658,6 +3663,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3694,6 +3700,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3735,6 +3742,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3763,6 +3771,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3826,6 +3835,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3875,6 +3885,7 @@ S_FALSE
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3919,6 +3930,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3938,6 +3950,7 @@ return
 E_NOTIMPL
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3950,6 +3963,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3972,6 +3986,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -3998,6 +4013,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -4022,6 +4038,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -4102,6 +4119,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -4155,6 +4173,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -4170,6 +4189,7 @@ return
 E_NOTIMPL
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -4459,6 +4479,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -4527,6 +4548,7 @@ return
 hr
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureInputPin
 :
@@ -4700,6 +4722,7 @@ capability
 )
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4728,6 +4751,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4749,6 +4773,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4771,6 +4796,7 @@ return
 E_NOTIMPL
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4793,6 +4819,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4835,6 +4862,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4874,6 +4902,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4923,6 +4952,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -4983,6 +5013,7 @@ return
 VFW_E_NOT_FOUND
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -5026,6 +5057,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -5234,6 +5266,7 @@ return
 S_OK
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -5372,6 +5405,7 @@ state_
 State_Stopped
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
@@ -5430,6 +5464,7 @@ return
 E_NOINTERFACE
 ;
 }
+COM_DECLSPEC_NOTHROW
 STDMETHODIMP
 CaptureSinkFilter
 :
