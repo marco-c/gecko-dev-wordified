@@ -179,9 +179,6 @@ class
 XPCWrappedNativeTearOff
 ;
 class
-XPCTraceableVariant
-;
-class
 JSObject2WrappedJSMap
 ;
 class
