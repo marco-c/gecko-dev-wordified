@@ -208,8 +208,6 @@ match
 (
 /
 Android
-\
-/
 [
 0
 -
