@@ -522,7 +522,16 @@ GetCryptoOptions
 virtual
 JsepTransportController
 *
-transport_controller
+transport_controller_s
+(
+)
+=
+0
+;
+virtual
+JsepTransportController
+*
+transport_controller_n
 (
 )
 =
