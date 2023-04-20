@@ -5808,6 +5808,16 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
+if
+(
+pending_delete_
+)
+return
+;
+pending_delete_
+=
+true
+;
 RTC_DLOG
 (
 LS_VERBOSE
