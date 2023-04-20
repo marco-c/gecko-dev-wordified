@@ -6758,6 +6758,8 @@ gfxUserFontSet
 aUserFontSet
 gfxFloat
 aDevToCssSize
+StyleFontVariantEmoji
+aVariantEmoji
 )
 ;
 virtual
@@ -9563,6 +9565,14 @@ an
 explicit
 attribute
 ?
+eFontPresentation
+mEmojiPresentation
+=
+eFontPresentation
+:
+:
+Any
+;
 /
 /
 Generic
