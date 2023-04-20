@@ -8655,7 +8655,15 @@ show
 (
 anchorNode
 "
-sendToDevice
+confirmation
+-
+hint
+-
+send
+-
+to
+-
+device
 "
 )
 ;

@@ -14817,7 +14817,15 @@ this
 .
 iconBox
 "
-breakageReport
+confirmation
+-
+hint
+-
+breakage
+-
+report
+-
+sent
 "
 )
 ;
