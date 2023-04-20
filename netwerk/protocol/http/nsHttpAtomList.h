@@ -642,6 +642,15 @@ Origin
 )
 HTTP_ATOM
 (
+OriginTrial
+"
+Origin
+-
+Trial
+"
+)
+HTTP_ATOM
+(
 Overwrite
 "
 Overwrite
