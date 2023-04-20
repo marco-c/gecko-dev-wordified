@@ -203,7 +203,7 @@ mockPressureService
 >
 {
 const
-update
+changes
 =
 await
 new
@@ -253,7 +253,7 @@ sendUpdate
 ;
 assert_true
 (
-update
+changes
 .
 length
 =
@@ -264,7 +264,7 @@ length
 ;
 assert_equals
 (
-update
+changes
 [
 0
 ]
@@ -277,7 +277,7 @@ critical
 ;
 assert_equals
 (
-update
+changes
 [
 0
 ]
@@ -291,7 +291,7 @@ cpu
 assert_equals
 (
 typeof
-update
+changes
 [
 0
 ]
