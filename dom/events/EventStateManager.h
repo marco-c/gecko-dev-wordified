@@ -735,6 +735,11 @@ aPresContext
 )
 ;
 void
+ResetHoverState
+(
+)
+;
+void
 SetPresContext
 (
 nsPresContext
