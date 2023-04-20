@@ -208,8 +208,6 @@ private
 nsSyncStreamListener
 (
 )
-=
-default
 ;
 ~
 nsSyncStreamListener
