@@ -5190,6 +5190,8 @@ emitNameIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 ;
 [
@@ -5524,6 +5526,8 @@ emitPropIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 ;
 [
@@ -5672,6 +5676,8 @@ emitElemIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 ;
 [
@@ -5701,6 +5707,8 @@ emitPrivateIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 ;
 [
@@ -7073,6 +7081,8 @@ emitIncOrDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 ;
 [

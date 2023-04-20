@@ -132,6 +132,10 @@ frontend
 struct
 BytecodeEmitter
 ;
+enum
+class
+ValueUsage
+;
 /
 /
 Class
@@ -2013,6 +2017,8 @@ nodiscard
 bool
 emitIncDec
 (
+ValueUsage
+valueUsage
 )
 ;
 }

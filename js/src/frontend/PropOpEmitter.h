@@ -147,6 +147,10 @@ BytecodeEmitter
 class
 TaggedParserAtomIndex
 ;
+enum
+class
+ValueUsage
+;
 /
 /
 Class
@@ -1815,6 +1819,8 @@ emitIncDec
 (
 TaggedParserAtomIndex
 prop
+ValueUsage
+valueUsage
 )
 ;
 }
