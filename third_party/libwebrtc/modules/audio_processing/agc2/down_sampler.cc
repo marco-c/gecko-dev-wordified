@@ -538,7 +538,7 @@ data_dumper_
 DumpWav
 (
 "
-lc_down_sampler_input
+agc2_down_sampler_input
 "
 in
 sample_rate_hz_
@@ -721,7 +721,7 @@ data_dumper_
 DumpWav
 (
 "
-lc_down_sampler_output
+agc2_down_sampler_output
 "
 out
 kSampleRate8kHz
