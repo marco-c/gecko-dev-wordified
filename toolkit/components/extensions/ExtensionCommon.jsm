@@ -16553,6 +16553,7 @@ BaseContext
 CanOfAPIs
 EventManager
 ExtensionAPI
+ExtensionAPIPersistent
 EventEmitter
 LocalAPIImplementation
 LocaleData
