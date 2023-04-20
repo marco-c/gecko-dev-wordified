@@ -660,7 +660,7 @@ at
 any
 time
 .
-bool
+void
 ApplyOptions
 (
 const
