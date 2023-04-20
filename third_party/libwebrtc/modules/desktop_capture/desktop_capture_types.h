@@ -148,6 +148,14 @@ h
 namespace
 webrtc
 {
+enum
+class
+CaptureType
+{
+kWindow
+kScreen
+}
+;
 /
 /
 Type

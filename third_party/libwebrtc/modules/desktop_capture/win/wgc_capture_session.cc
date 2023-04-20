@@ -909,16 +909,7 @@ hr
 =
 GetActivationFactory
 <
-ABI
-:
-:
-Windows
-:
-:
-Graphics
-:
-:
-Capture
+WGC
 :
 :
 IDirect3D11CaptureFramePoolStatics
