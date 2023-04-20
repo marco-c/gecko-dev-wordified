@@ -196,6 +196,7 @@ fmt
 void
 cubeb_async_log_reset_threads
 (
+void
 )
 ;
 #

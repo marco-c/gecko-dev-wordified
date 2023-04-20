@@ -316,9 +316,6 @@ self
 &
 DeviceCollectionRef
 {
-&
-*
-*
 self
 }
 }
