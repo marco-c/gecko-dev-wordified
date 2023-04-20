@@ -366,7 +366,6 @@ document
 ;
 const
 {
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -620,10 +619,9 @@ selected
 )
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;
