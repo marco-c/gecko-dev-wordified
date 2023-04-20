@@ -258,6 +258,11 @@ cinttypes
 #
 include
 <
+cstring
+>
+#
+include
+<
 float
 .
 h
