@@ -108,12 +108,10 @@ SimulcastLayer
 :
 SimulcastLayer
 (
-const
-std
+absl
 :
 :
-string
-&
+string_view
 rid
 bool
 is_paused
