@@ -1113,11 +1113,9 @@ this_offset
 +
 payload_ptr
 ;
-assert
+RTC_DCHECK_LE
 (
 kPayloadLength
-<
-=
 1023
 )
 ;

@@ -390,7 +390,7 @@ red_packet
 *
 it
 ;
-assert
+RTC_DCHECK
 (
 !
 red_packet

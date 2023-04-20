@@ -85,13 +85,6 @@ tree
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -193,6 +186,15 @@ peerconnection
 server
 /
 peer_channel
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "
@@ -324,7 +326,7 @@ bool
 quit
 )
 {
-assert
+RTC_DCHECK
 (
 ds
 &
@@ -337,7 +339,7 @@ valid
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 quit
 )
@@ -1374,7 +1376,7 @@ OnClosing
 s
 )
 ;
-assert
+RTC_DCHECK
 (
 s
 -

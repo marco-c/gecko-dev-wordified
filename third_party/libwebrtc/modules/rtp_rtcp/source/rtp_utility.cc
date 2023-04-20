@@ -806,12 +806,9 @@ header
 )
 const
 {
-assert
+RTC_DCHECK
 (
 header
-!
-=
-NULL
 )
 ;
 const

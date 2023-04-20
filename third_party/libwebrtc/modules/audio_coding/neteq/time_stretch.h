@@ -232,7 +232,7 @@ max_input_value_
 0
 )
 {
-assert
+RTC_DCHECK
 (
 sample_rate_hz_
 =
@@ -258,10 +258,9 @@ sample_rate_hz_
 48000
 )
 ;
-assert
+RTC_DCHECK_GT
 (
 num_channels_
->
 0
 )
 ;

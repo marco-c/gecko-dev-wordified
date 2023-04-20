@@ -233,7 +233,7 @@ num_samples
 )
 override
 {
-assert
+RTC_DCHECK
 (
 out_file_
 )

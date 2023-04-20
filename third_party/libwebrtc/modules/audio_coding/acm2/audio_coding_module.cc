@@ -2301,9 +2301,8 @@ samples_per_channel_
 0
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 RTC_LOG
@@ -2338,9 +2337,8 @@ sample_rate_hz_
 kMaxInputSampleRateHz
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 RTC_LOG

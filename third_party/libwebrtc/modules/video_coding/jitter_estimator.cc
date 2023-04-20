@@ -1816,9 +1816,8 @@ hMh_sigma
 )
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -2108,7 +2107,7 @@ semi
 -
 definite
 .
-assert
+RTC_DCHECK
 (
 _thetaCov
 [
@@ -2306,9 +2305,8 @@ _alphaCount
 0
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -3111,11 +3109,9 @@ ComputeMean
 Sanity
 check
 .
-assert
+RTC_DCHECK_GE
 (
 fps
->
-=
 0
 .
 0

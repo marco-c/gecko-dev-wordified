@@ -439,7 +439,7 @@ _maxFramesFec
 1
 )
 {
-assert
+RTC_DCHECK
 (
 lowRttNackThresholdMs
 >
@@ -455,7 +455,7 @@ highRttNackThresholdMs
 1
 )
 ;
-assert
+RTC_DCHECK
 (
 highRttNackThresholdMs
 =
@@ -470,7 +470,7 @@ lowRttNackThresholdMs
 highRttNackThresholdMs
 )
 ;
-assert
+RTC_DCHECK
 (
 lowRttNackThresholdMs
 >
@@ -2618,10 +2618,9 @@ Check
 on
 table
 index
-assert
+RTC_DCHECK_LT
 (
 indexTableKey
-<
 kFecRateTableSize
 )
 ;

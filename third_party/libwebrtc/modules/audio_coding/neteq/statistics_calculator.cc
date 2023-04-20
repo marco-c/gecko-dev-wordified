@@ -2080,7 +2080,7 @@ than
 in
 Q14
 .
-assert
+RTC_DCHECK_LT
 (
 (
 numerator
@@ -2090,7 +2090,6 @@ numerator
 )
 /
 denominator
-<
 (
 1
 <

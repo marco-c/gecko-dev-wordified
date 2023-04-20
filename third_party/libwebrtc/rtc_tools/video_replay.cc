@@ -1655,9 +1655,8 @@ codec
 <
 codec
 ;
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 }

@@ -994,9 +994,8 @@ kComfortNoise
 ;
 default
 :
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

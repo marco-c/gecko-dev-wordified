@@ -481,7 +481,7 @@ InsertPacket
 "
 )
 ;
-assert
+RTC_DCHECK
 (
 !
 (
@@ -1493,11 +1493,9 @@ state
 from
 state
 kStateEmpty
-assert
+RTC_DCHECK_EQ
 (
 _state
-=
-=
 kStateEmpty
 )
 ;
@@ -1514,7 +1512,7 @@ break
 case
 kStateComplete
 :
-assert
+RTC_DCHECK
 (
 _state
 =
@@ -1546,9 +1544,8 @@ Reset
 (
 )
 .
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 break

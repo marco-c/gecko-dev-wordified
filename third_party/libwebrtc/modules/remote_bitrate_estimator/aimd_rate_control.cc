@@ -2365,9 +2365,8 @@ break
 }
 default
 :
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -2675,9 +2674,8 @@ break
 ;
 default
 :
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 }

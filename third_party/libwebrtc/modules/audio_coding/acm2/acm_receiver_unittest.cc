@@ -798,9 +798,8 @@ ret_val
 0
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

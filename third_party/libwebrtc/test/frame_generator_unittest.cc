@@ -373,7 +373,7 @@ uint8_t
 v
 )
 {
-assert
+RTC_DCHECK
 (
 file
 )

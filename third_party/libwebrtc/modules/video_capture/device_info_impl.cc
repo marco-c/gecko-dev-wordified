@@ -312,12 +312,9 @@ VideoCaptureCapability
 capability
 )
 {
-assert
+RTC_DCHECK
 (
 deviceUniqueIdUTF8
-!
-=
-NULL
 )
 ;
 MutexLock

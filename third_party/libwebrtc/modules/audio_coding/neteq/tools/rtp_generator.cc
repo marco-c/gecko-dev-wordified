@@ -128,7 +128,7 @@ RTPHeader
 rtp_header
 )
 {
-assert
+RTC_DCHECK
 (
 rtp_header
 )
@@ -203,10 +203,9 @@ this_send_time
 =
 next_send_time_ms_
 ;
-assert
+RTC_DCHECK_GT
 (
 samples_per_ms_
->
 0
 )
 ;

@@ -481,7 +481,7 @@ kFullDesktopScreenId
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 capturer
 .
@@ -774,7 +774,7 @@ id
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 capturer
 .
@@ -870,7 +870,7 @@ kFullDesktopScreenId
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 capturer
 .

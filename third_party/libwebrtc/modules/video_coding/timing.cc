@@ -933,11 +933,9 @@ decode_time_ms
 now_ms
 )
 ;
-assert
+RTC_DCHECK_GE
 (
 decode_time_ms
->
-=
 0
 )
 ;
@@ -1189,11 +1187,9 @@ RequiredDecodeTimeMs
 (
 )
 ;
-assert
+RTC_DCHECK_GE
 (
 decode_time_ms
->
-=
 0
 )
 ;

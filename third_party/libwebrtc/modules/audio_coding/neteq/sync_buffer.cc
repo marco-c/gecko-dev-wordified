@@ -209,9 +209,8 @@ used
 .
 /
 /
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 /

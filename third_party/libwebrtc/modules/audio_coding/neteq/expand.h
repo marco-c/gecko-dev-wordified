@@ -337,10 +337,9 @@ channel
 )
 const
 {
-assert
+RTC_DCHECK_LT
 (
 channel
-<
 num_channels_
 )
 ;

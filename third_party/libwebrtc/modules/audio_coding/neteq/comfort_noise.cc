@@ -344,7 +344,7 @@ and
 skip
 assert
 .
-assert
+RTC_DCHECK
 (
 fs_hz_
 =

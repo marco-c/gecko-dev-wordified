@@ -1409,7 +1409,7 @@ volume
 0
 )
 ;
-assert
+RTC_DCHECK
 (
 vol
 <
@@ -1915,10 +1915,9 @@ return
 1
 ;
 }
-assert
+RTC_DCHECK_GT
 (
 channels
->
 0
 )
 ;
@@ -3109,10 +3108,9 @@ return
 1
 ;
 }
-assert
+RTC_DCHECK_GT
 (
 channels
->
 0
 )
 ;
@@ -4036,10 +4034,9 @@ return
 1
 ;
 }
-assert
+RTC_DCHECK_GT
 (
 channels
->
 0
 )
 ;
@@ -4414,7 +4411,7 @@ volume
 0
 )
 ;
-assert
+RTC_DCHECK
 (
 vol
 <
@@ -4920,10 +4917,9 @@ return
 1
 ;
 }
-assert
+RTC_DCHECK_GT
 (
 channels
->
 0
 )
 ;

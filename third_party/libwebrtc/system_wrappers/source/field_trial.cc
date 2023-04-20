@@ -648,9 +648,8 @@ idx
 }
 else
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 <
 <

@@ -321,9 +321,8 @@ Zero
 )
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 /
@@ -479,9 +478,8 @@ exponent
 0
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -575,9 +573,8 @@ Zero
 )
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -1029,9 +1026,8 @@ empty
 )
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

@@ -974,7 +974,7 @@ E_
 =
 0
 ;
-assert
+RTC_DCHECK
 (
 positive_semi_definite
 )

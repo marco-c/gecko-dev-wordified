@@ -980,7 +980,7 @@ unique_nack_requests
 =
 0
 ;
-assert
+RTC_DCHECK
 (
 stats
 .

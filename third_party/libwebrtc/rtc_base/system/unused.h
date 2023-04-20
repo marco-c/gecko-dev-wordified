@@ -117,7 +117,7 @@ DoSomething
 ;
 /
 /
-assert
+RTC_DCHECK
 (
 result
 =

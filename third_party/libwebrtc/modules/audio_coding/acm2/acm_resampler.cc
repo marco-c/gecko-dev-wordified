@@ -191,9 +191,8 @@ out_capacity_samples
 in_length
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
