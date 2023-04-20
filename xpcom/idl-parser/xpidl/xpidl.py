@@ -7064,10 +7064,6 @@ function
 =
 False
     
-noscript
-=
-False
-    
 main_process_scriptable_only
 =
 False
@@ -7113,19 +7109,6 @@ self
 self
 .
 function
-=
-True
-    
-def
-setnoscript
-(
-self
-)
-:
-        
-self
-.
-noscript
 =
 True
     
@@ -7193,15 +7176,6 @@ function
 (
 False
 setfunction
-)
-        
-"
-noscript
-"
-:
-(
-False
-setnoscript
 )
         
 "
