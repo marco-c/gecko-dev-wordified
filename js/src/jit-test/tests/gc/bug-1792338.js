@@ -43,6 +43,11 @@ enqueueMark
 (
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 )
 ;
@@ -59,9 +64,8 @@ black
 ;
 enqueueMark
 (
-newGlobal
-(
-)
+{
+}
 )
 ;
 gcparam
@@ -70,6 +74,10 @@ gcparam
 markStackLimit
 "
 1
+)
+;
+gc
+(
 )
 ;
 gc
