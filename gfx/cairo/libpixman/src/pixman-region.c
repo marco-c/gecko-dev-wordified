@@ -754,6 +754,10 @@ data
 )
 \
 :
+(
+box_type_t
+*
+)
 &
 (
 reg
@@ -2560,9 +2564,11 @@ PREFIX
 _equal
 )
 (
+const
 region_type_t
 *
 reg1
+const
 region_type_t
 *
 reg2
@@ -3123,6 +3129,7 @@ _init_with_extents
 region_type_t
 *
 region
+const
 box_type_t
 *
 extents
@@ -3211,6 +3218,7 @@ PREFIX
 _n_rects
 )
 (
+const
 region_type_t
 *
 region
@@ -3231,6 +3239,7 @@ PREFIX
 _rectangles
 )
 (
+const
 region_type_t
 *
 region
@@ -3551,6 +3560,7 @@ _copy
 region_type_t
 *
 dst
+const
 region_type_t
 *
 src
@@ -5504,6 +5514,7 @@ store
 result
 *
 /
+const
 region_type_t
 *
 reg1
@@ -5515,6 +5526,7 @@ in
 operation
 *
 /
+const
 region_type_t
 *
 reg2
@@ -8224,9 +8236,11 @@ _intersect
 region_type_t
 *
 new_reg
+const
 region_type_t
 *
 reg1
+const
 region_type_t
 *
 reg2
@@ -9372,6 +9386,7 @@ _intersect_rect
 region_type_t
 *
 dest
+const
 region_type_t
 *
 source
@@ -9471,6 +9486,7 @@ _union_rect
 region_type_t
 *
 dest
+const
 region_type_t
 *
 source
@@ -9597,9 +9613,11 @@ _union
 region_type_t
 *
 new_reg
+const
 region_type_t
 *
 reg1
+const
 region_type_t
 *
 reg2
@@ -13523,9 +13541,11 @@ _subtract
 region_type_t
 *
 reg_d
+const
 region_type_t
 *
 reg_m
+const
 region_type_t
 *
 reg_s
@@ -14173,6 +14193,7 @@ Destination
 region
 *
 /
+const
 region_type_t
 *
 reg1
@@ -14183,6 +14204,7 @@ to
 invert
 *
 /
+const
 box_type_t
 *
 inv_rect
@@ -14814,9 +14836,11 @@ PREFIX
 _contains_rectangle
 )
 (
+const
 region_type_t
 *
 region
+const
 box_type_t
 *
 prect
@@ -16011,6 +16035,7 @@ _reset
 region_type_t
 *
 region
+const
 box_type_t
 *
 box
@@ -16105,6 +16130,7 @@ PREFIX
 _contains_point
 )
 (
+const
 region_type_t
 *
 region
@@ -16299,6 +16325,7 @@ PREFIX
 _not_empty
 )
 (
+const
 region_type_t
 *
 region
@@ -16327,6 +16354,7 @@ PREFIX
 _extents
 )
 (
+const
 region_type_t
 *
 region
@@ -16338,6 +16366,10 @@ region
 )
 ;
 return
+(
+box_type_t
+*
+)
 (
 &
 region
