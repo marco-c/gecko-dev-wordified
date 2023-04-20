@@ -315,7 +315,7 @@ GainController2
 config_
 ;
 GainApplier
-gain_applier_
+fixed_gain_applier_
 ;
 std
 :
@@ -324,7 +324,7 @@ unique_ptr
 <
 AdaptiveAgc
 >
-adaptive_agc_
+adaptive_digital_controller_
 ;
 Limiter
 limiter_
