@@ -5465,7 +5465,7 @@ use
 .
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 CreateNewSyncLoop
 (
@@ -7832,7 +7832,7 @@ mWorkerPrivate
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mTarget
 ;
@@ -7978,9 +7978,9 @@ RunCurrentSyncLoop
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
-GetEventTarget
+GetSerialEventTarget
 (
 )
 const

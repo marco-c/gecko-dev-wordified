@@ -23293,7 +23293,7 @@ nullptr
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 WorkerPrivate
 :

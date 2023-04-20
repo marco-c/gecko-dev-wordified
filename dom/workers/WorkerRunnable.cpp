@@ -3446,7 +3446,7 @@ mSyncLoopTarget
 =
 syncLoop
 .
-GetEventTarget
+GetSerialEventTarget
 (
 )
 ;

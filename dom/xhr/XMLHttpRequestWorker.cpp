@@ -8377,7 +8377,7 @@ autoSyncLoop
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 syncLoopTarget
 ;
@@ -8407,7 +8407,7 @@ syncLoopTarget
 autoSyncLoop
 -
 >
-GetEventTarget
+GetSerialEventTarget
 (
 )
 ;

@@ -2441,7 +2441,7 @@ mWorkerPrivate
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mSyncLoopTarget
 ;

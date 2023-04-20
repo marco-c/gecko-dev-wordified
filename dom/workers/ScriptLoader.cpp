@@ -1612,13 +1612,13 @@ Canceling
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 syncLoopTarget
 =
 syncLoop
 .
-GetEventTarget
+GetSerialEventTarget
 (
 )
 ;
