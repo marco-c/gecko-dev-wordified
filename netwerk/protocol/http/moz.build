@@ -558,11 +558,6 @@ Http2Compression
 cpp
 "
 "
-Http2ConnectTransaction
-.
-cpp
-"
-"
 Http2Push
 .
 cpp
@@ -584,11 +579,6 @@ cpp
 "
 "
 Http2StreamTunnel
-.
-cpp
-"
-"
-Http2StreamWebSocket
 .
 cpp
 "

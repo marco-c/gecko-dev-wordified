@@ -173,7 +173,6 @@ AddStream
 nsAHttpTransaction
 *
 int32_t
-bool
 nsIInterfaceRequestor
 *
 )
@@ -562,8 +561,8 @@ bool
 0
 ;
 virtual
-bool
-CanAcceptWebsocket
+WebSocketSupport
+GetWebSocketSupport
 (
 )
 =

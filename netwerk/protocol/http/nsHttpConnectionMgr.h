@@ -1959,16 +1959,6 @@ ci
 ;
 public
 :
-static
-nsAHttpConnection
-*
-MakeConnectionHandle
-(
-HttpConnectionBase
-*
-aWrapped
-)
-;
 void
 RegisterOriginCoalescingKey
 (

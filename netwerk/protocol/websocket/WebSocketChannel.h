@@ -1115,6 +1115,11 @@ mPingInterval
 }
 }
 }
+void
+NotifyOnStart
+(
+)
+;
 nsCOMPtr
 <
 nsIEventTarget

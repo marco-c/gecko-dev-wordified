@@ -204,15 +204,6 @@ h3
 }
 )
 ;
-let
-WebSocketListener
-=
-function
-(
-)
-{
-}
-;
 WebSocketListener
 .
 prototype

@@ -213,6 +213,11 @@ Http2StreamBase
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+Http2PushedStream
+override
+)
 Http2PushedStream
 (
 Http2PushTransactionBuffer
