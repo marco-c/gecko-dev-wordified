@@ -377,7 +377,7 @@ but
 SSLIdentity
 :
 :
-Create
+Generate
 |
 should
 stop
