@@ -319,7 +319,6 @@ aBounds
 bool
 aTight
 )
-const
 override
 ;
 already_AddRefed

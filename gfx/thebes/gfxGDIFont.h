@@ -373,7 +373,6 @@ aBounds
 bool
 aTight
 )
-const
 override
 ;
 void

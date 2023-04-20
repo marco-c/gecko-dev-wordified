@@ -422,7 +422,6 @@ aBounds
 bool
 aTight
 )
-const
 override
 ;
 FontType

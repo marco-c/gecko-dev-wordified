@@ -3829,7 +3829,6 @@ aBounds
 bool
 aTight
 )
-const
 {
 DCForMetrics
 dc
