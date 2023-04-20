@@ -155,6 +155,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+AppUpdater
+.
+jsm
+"
+"
 UpdateListener
 .
 jsm
