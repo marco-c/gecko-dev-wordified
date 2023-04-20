@@ -131,6 +131,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+FileSystemManager
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
