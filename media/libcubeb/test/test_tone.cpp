@@ -753,3 +753,9 @@ load
 )
 ;
 }
+#
+undef
+SAMPLE_FREQUENCY
+#
+undef
+STREAM_FORMAT
