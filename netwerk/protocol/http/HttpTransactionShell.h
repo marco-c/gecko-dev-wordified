@@ -954,6 +954,17 @@ Timings
 =
 0
 ;
+virtual
+mozilla
+:
+:
+TimeStamp
+GetPendingTime
+(
+)
+=
+0
+;
 /
 /
 Called

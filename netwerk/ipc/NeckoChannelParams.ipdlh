@@ -2788,6 +2788,9 @@ cacheReadStart
 TimeStamp
 cacheReadEnd
 ;
+TimeStamp
+transactionPending
+;
 }
 ;
 struct
