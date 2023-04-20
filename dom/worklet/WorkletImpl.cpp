@@ -462,6 +462,15 @@ CreateWithInheritedAttributes
 aPrincipal
 )
 )
+mIsSystemPrincipal
+(
+mPrincipal
+-
+>
+IsSystemPrincipal
+(
+)
+)
 mWorkletLoadInfo
 (
 aWindow
