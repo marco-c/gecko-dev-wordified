@@ -2976,11 +2976,6 @@ CanTakeFocus
 bool
 UpdateNonClientMargins
 (
-int32_t
-aSizeMode
-=
--
-1
 bool
 aReflowWindow
 =
@@ -3398,8 +3393,6 @@ aSize
 void
 OnSizeModeChange
 (
-nsSizeMode
-aSizeMode
 )
 ;
 bool
