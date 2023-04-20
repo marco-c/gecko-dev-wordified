@@ -1766,7 +1766,7 @@ ntp_time_ms
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 )

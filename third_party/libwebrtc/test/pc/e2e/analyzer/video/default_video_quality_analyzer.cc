@@ -2864,7 +2864,7 @@ empty
 )
 )
 ;
-int64_t
+Timestamp
 last_receive_time
 =
 std
@@ -2906,13 +2906,13 @@ b
 return
 a
 .
-receive_time_ms
+receive_time
 (
 )
 <
 b
 .
-receive_time_ms
+receive_time
 (
 )
 ;
@@ -2920,7 +2920,7 @@ receive_time_ms
 )
 -
 >
-receive_time_ms
+receive_time
 (
 )
 ;
@@ -2938,13 +2938,7 @@ received_time
 =
 *
 /
-Timestamp
-:
-:
-Millis
-(
 last_receive_time
-)
 /
 *
 decode_start_time

@@ -3841,13 +3841,13 @@ return
 kInvalidPointer
 ;
 }
-int64_t
-receive_time_ms
+Timestamp
+receive_time
 =
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
@@ -3880,7 +3880,7 @@ rtp_header
 &
 payload
 &
-receive_time_ms
+receive_time
 ]
 {
 /
@@ -3941,7 +3941,7 @@ packet_info
 RtpPacketInfo
 (
 rtp_header
-receive_time_ms
+receive_time
 )
 ;
 /
