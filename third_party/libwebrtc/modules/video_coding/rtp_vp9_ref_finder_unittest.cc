@@ -940,9 +940,9 @@ return
 f
 -
 >
-id
-.
-picture_id
+Id
+(
+)
 =
 =
 frame_id_
@@ -6739,9 +6739,9 @@ ASSERT_EQ
 (
 frame
 .
-id
-.
-picture_id
+Id
+(
+)
 -
 frame
 .
