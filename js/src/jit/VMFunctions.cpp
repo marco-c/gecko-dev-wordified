@@ -11460,9 +11460,8 @@ cx
 JSObject
 *
 obj
-PropertyName
-*
-name
+PropertyKey
+id
 Value
 *
 vp
@@ -11470,14 +11469,6 @@ vp
 {
 AutoUnsafeCallWithABI
 unsafe
-;
-jsid
-id
-=
-NameToId
-(
-name
-)
 ;
 Shape
 *

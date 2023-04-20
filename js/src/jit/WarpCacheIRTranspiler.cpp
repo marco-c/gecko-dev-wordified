@@ -4038,7 +4038,10 @@ alloc
 (
 )
 obj
+NameToId
+(
 name
+)
 )
 ;
 add
