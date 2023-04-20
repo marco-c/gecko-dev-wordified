@@ -11822,6 +11822,9 @@ Rhs
 rhs
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 /
 /
 Jump
@@ -11862,6 +11865,8 @@ bool
 onSuccess
 )
 ;
+#
+endif
 template
 <
 typename

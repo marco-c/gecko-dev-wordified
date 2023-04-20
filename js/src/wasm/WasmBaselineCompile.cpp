@@ -21861,6 +21861,9 @@ return
 true
 ;
 }
+#
+ifdef
+ENABLE_WASM_GC
 bool
 BaseCompiler
 :
@@ -22008,6 +22011,8 @@ return
 true
 ;
 }
+#
+endif
 /
 /
 sniffConditionalControl
