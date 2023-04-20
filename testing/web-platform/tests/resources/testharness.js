@@ -7732,7 +7732,7 @@ when
 either
 the
 *
-explict_done
+explicit_done
 or
 single_page
 properties
@@ -26404,7 +26404,7 @@ has
 an
 effect
 when
-explict_timeout
+explicit_timeout
 has
 been
 set

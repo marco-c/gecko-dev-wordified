@@ -3854,7 +3854,7 @@ disconnect
 until
 they
 are
-explictly
+explicitly
 reconnected
 return
 this
