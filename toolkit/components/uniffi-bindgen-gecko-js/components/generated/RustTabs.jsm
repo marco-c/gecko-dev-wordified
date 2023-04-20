@@ -1921,7 +1921,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_last_sync
+tabs_edc9_TabsBridgedEngine_last_sync
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2025,7 +2025,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_set_last_sync
+tabs_edc9_TabsBridgedEngine_set_last_sync
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2129,7 +2129,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_sync_id
+tabs_edc9_TabsBridgedEngine_sync_id
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2227,7 +2227,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_reset_sync_id
+tabs_edc9_TabsBridgedEngine_reset_sync_id
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2336,7 +2336,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_ensure_current_sync_id
+tabs_edc9_TabsBridgedEngine_ensure_current_sync_id
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2446,7 +2446,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_prepare_for_sync
+tabs_edc9_TabsBridgedEngine_prepare_for_sync
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2545,7 +2545,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_sync_started
+tabs_edc9_TabsBridgedEngine_sync_started
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2649,7 +2649,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_store_incoming
+tabs_edc9_TabsBridgedEngine_store_incoming
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2753,7 +2753,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_apply
+tabs_edc9_TabsBridgedEngine_apply
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2868,7 +2868,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_set_uploaded
+tabs_edc9_TabsBridgedEngine_set_uploaded
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -2973,7 +2973,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_sync_finished
+tabs_edc9_TabsBridgedEngine_sync_finished
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -3066,7 +3066,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_reset
+tabs_edc9_TabsBridgedEngine_reset
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -3159,7 +3159,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsBridgedEngine_wipe
+tabs_edc9_TabsBridgedEngine_wipe
 FfiConverterTypeTabsBridgedEngine
 .
 lower
@@ -3537,7 +3537,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsStore_new
+tabs_edc9_TabsStore_new
 FfiConverterString
 .
 lower
@@ -3625,7 +3625,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsStore_get_all
+tabs_edc9_TabsStore_get_all
 FfiConverterTypeTabsStore
 .
 lower
@@ -3719,7 +3719,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsStore_set_local_tabs
+tabs_edc9_TabsStore_set_local_tabs
 FfiConverterTypeTabsStore
 .
 lower
@@ -3808,7 +3808,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsStore_register_with_sync_manager
+tabs_edc9_TabsStore_register_with_sync_manager
 FfiConverterTypeTabsStore
 .
 lower
@@ -3901,7 +3901,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsStore_reset
+tabs_edc9_TabsStore_reset
 FfiConverterTypeTabsStore
 .
 lower
@@ -4054,7 +4054,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsStore_sync
+tabs_edc9_TabsStore_sync
 FfiConverterTypeTabsStore
 .
 lower
@@ -4172,7 +4172,7 @@ callAsync
 /
 tabs
 :
-tabs_1d6_TabsStore_bridged_engine
+tabs_edc9_TabsStore_bridged_engine
 FfiConverterTypeTabsStore
 .
 lower
