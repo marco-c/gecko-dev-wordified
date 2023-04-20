@@ -588,7 +588,7 @@ code
 such
 as
 the
-inital
+initial
 frame
 dropping
 .
@@ -1173,7 +1173,7 @@ GetCpuOveruseOptions
 const
 ;
 int
-LastInputFrameSizeOrDefault
+LastFrameSizeOrDefault
 (
 )
 const
