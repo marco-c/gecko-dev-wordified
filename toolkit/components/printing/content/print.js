@@ -2469,15 +2469,10 @@ isn
 '
 t
 .
-Services
+PSSVC
 .
-prefs
-.
-setStringPref
+saveLastUsedPrinterNameToPrefs
 (
-"
-print_printer
-"
 settings
 .
 printerName
@@ -4856,7 +4851,6 @@ savePrintSettingsToPrefs
 this
 .
 settings
-true
 flags
 )
 ;

@@ -3683,7 +3683,6 @@ gPrintService
 savePrintSettingsToPrefs
 (
 gPrintSettings
-true
 flags
 )
 ;

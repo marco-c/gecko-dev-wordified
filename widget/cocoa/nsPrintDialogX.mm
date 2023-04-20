@@ -863,7 +863,6 @@ printSettingsSvc
 SavePrintSettingsToPrefs
 (
 settingsX
-true
 nsIPrintSettings
 :
 :
@@ -1154,7 +1153,6 @@ printSettingsService
 SavePrintSettingsToPrefs
 (
 aNSSettings
-true
 flags
 )
 ;

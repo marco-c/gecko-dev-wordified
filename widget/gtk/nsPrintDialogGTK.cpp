@@ -3987,7 +3987,6 @@ psService
 SavePrintSettingsToPrefs
 (
 aNSSettings
-true
 nsIPrintSettings
 :
 :
