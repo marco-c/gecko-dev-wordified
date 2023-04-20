@@ -15737,6 +15737,8 @@ CleanupConnection
 NS_DISPATCH_NORMAL
 )
 ;
+return
+;
 }
 if
 (
