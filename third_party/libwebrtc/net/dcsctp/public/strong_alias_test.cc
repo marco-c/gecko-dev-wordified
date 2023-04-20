@@ -258,9 +258,7 @@ lexically
 incrementing
 values
 as
-|
 index
-|
 grows
 .
 template
