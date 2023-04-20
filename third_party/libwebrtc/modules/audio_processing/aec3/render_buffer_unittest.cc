@@ -162,7 +162,6 @@ block_buffer
 10
 3
 1
-kBlockSize
 )
 ;
 SpectrumBuffer
@@ -218,7 +217,6 @@ block_buffer
 10
 3
 1
-kBlockSize
 )
 ;
 EXPECT_DEATH
