@@ -649,6 +649,14 @@ gecko_pings
 [
     
 "
+dom
+/
+pings
+.
+yaml
+"
+    
+"
 toolkit
 /
 components
