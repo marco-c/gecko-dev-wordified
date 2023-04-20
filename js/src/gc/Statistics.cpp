@@ -7015,13 +7015,9 @@ SWEEP_MARK_GRAY_WEAK
 size_t
 markCount
 =
-gc
--
->
-marker
-.
-getMarkCount
+getCount
 (
+COUNT_CELLS_MARKED
 )
 ;
 runtime
