@@ -728,6 +728,16 @@ field_trials
 )
 ;
 }
+cricket
+:
+:
+MediaEngineInterface
+*
+media_engine
+(
+)
+const
+;
 protected
 :
 /

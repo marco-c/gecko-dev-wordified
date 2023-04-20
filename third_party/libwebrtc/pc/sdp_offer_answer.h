@@ -4113,6 +4113,16 @@ channel_manager
 )
 const
 ;
+cricket
+:
+:
+MediaEngineInterface
+*
+media_engine
+(
+)
+const
+;
 TransceiverList
 *
 transceivers
