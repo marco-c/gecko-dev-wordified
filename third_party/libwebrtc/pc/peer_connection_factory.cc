@@ -2172,7 +2172,7 @@ event_log_factory_
 event_log_factory_
 -
 >
-CreateRtcEventLog
+Create
 (
 encoding_type
 )
