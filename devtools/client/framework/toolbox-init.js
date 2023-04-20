@@ -655,7 +655,7 @@ js
 ;
 const
 {
-commandsFromURL
+descriptorFromURL
 }
 =
 require
@@ -671,7 +671,7 @@ client
 /
 framework
 /
-commands
+descriptor
 -
 from
 -
@@ -730,10 +730,10 @@ tool
 try
 {
 const
-commands
+descriptor
 =
 await
-commandsFromURL
+descriptorFromURL
 (
 url
 )
@@ -743,9 +743,9 @@ toolbox
 =
 gDevTools
 .
-getToolboxForCommands
+getToolboxForDescriptor
 (
-commands
+descriptor
 )
 ;
 if
@@ -769,7 +769,7 @@ already
 exists
 for
 the
-commands
+descriptor
 wait
 for
 current
@@ -807,9 +807,7 @@ and
 we
 lose
 it
-commands
-.
-descriptorFront
+descriptor
 .
 once
 (
@@ -887,7 +885,7 @@ gDevTools
 .
 showToolbox
 (
-commands
+descriptor
 {
 toolId
 :
