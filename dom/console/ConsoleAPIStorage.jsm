@@ -1015,9 +1015,9 @@ index
 }
 else
 {
-console
+Cu
 .
-error
+reportError
 (
 "
 Attempted
@@ -1219,9 +1219,9 @@ calling
 other
 listeners
 .
-console
+Cu
 .
-error
+reportError
 (
 e
 )

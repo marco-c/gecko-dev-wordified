@@ -597,9 +597,9 @@ true
 .
 catch
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }
