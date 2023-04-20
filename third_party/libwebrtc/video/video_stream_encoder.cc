@@ -2761,6 +2761,12 @@ AddRestrictionsListener
 this
 )
 ;
+stream_resource_manager_
+.
+MaybeInitializePixelLimitResource
+(
+)
+;
 /
 /
 Add
