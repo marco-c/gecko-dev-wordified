@@ -811,7 +811,11 @@ operator
 =
 (
 const
+Result
+<
 MoveNodeResult
+nsresult
+>
 &
 aMoveNodeResult
 )
