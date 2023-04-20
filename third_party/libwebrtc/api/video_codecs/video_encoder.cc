@@ -281,15 +281,6 @@ InterLayerPredMode
 :
 kOn
 ;
-vp9_settings
-.
-complexity
-=
-VideoCodecComplexity
-:
-:
-kComplexityNormal
-;
 return
 vp9_settings
 ;

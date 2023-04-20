@@ -269,9 +269,6 @@ other
 )
 ;
 }
-VideoCodecComplexity
-complexity
-;
 unsigned
 char
 numberOfTemporalLayers
@@ -382,9 +379,6 @@ other
 )
 ;
 }
-VideoCodecComplexity
-complexity
-;
 unsigned
 char
 numberOfTemporalLayers
@@ -1114,13 +1108,7 @@ and
 AV1
 )
 .
-absl
-:
-:
-optional
-<
 VideoCodecComplexity
->
 complexity_
 ;
 /
