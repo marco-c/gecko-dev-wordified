@@ -143,6 +143,7 @@ Clone
 Serialize
 Deserialize
 PartialEq
+Eq
 )
 ]
 pub
@@ -3250,7 +3251,7 @@ keybundle
 /
 Note
 :
-ErrorKind
+Error
 isn
 '
 t
@@ -3263,7 +3264,7 @@ e
 error
 :
 :
-SyncTraitsError
+Error
 :
 :
 CryptoError

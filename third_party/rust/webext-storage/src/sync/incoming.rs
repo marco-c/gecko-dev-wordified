@@ -118,7 +118,7 @@ sql_support
 ConnExt
 ;
 use
-sync15_traits
+sync15
 :
 :
 Payload
@@ -204,6 +204,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 )
 ]
 pub
@@ -935,6 +936,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 )
 ]
 pub
@@ -1848,6 +1850,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 )
 ]
 pub
@@ -3503,7 +3506,7 @@ Value
 }
 ;
 use
-sync15_traits
+sync15
 :
 :
 Payload

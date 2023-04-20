@@ -3231,7 +3231,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_new
+rondpoint_6001_Optionneur_new
 )
 }
 try
@@ -3326,7 +3326,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_boolean
+rondpoint_6001_Optionneur_sinon_boolean
 FfiConverterTypeOptionneur
 .
 lower
@@ -3435,7 +3435,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_string
+rondpoint_6001_Optionneur_sinon_string
 FfiConverterTypeOptionneur
 .
 lower
@@ -3543,7 +3543,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_sequence
+rondpoint_6001_Optionneur_sinon_sequence
 FfiConverterTypeOptionneur
 .
 lower
@@ -3650,7 +3650,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_null
+rondpoint_6001_Optionneur_sinon_null
 FfiConverterTypeOptionneur
 .
 lower
@@ -3757,7 +3757,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_zero
+rondpoint_6001_Optionneur_sinon_zero
 FfiConverterTypeOptionneur
 .
 lower
@@ -3864,7 +3864,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u8_dec
+rondpoint_6001_Optionneur_sinon_u8_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -3972,7 +3972,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i8_dec
+rondpoint_6001_Optionneur_sinon_i8_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -4079,7 +4079,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u16_dec
+rondpoint_6001_Optionneur_sinon_u16_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -4186,7 +4186,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i16_dec
+rondpoint_6001_Optionneur_sinon_i16_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -4293,7 +4293,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u32_dec
+rondpoint_6001_Optionneur_sinon_u32_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -4400,7 +4400,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i32_dec
+rondpoint_6001_Optionneur_sinon_i32_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -4507,7 +4507,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u64_dec
+rondpoint_6001_Optionneur_sinon_u64_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -4614,7 +4614,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i64_dec
+rondpoint_6001_Optionneur_sinon_i64_dec
 FfiConverterTypeOptionneur
 .
 lower
@@ -4721,7 +4721,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u8_hex
+rondpoint_6001_Optionneur_sinon_u8_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -4829,7 +4829,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i8_hex
+rondpoint_6001_Optionneur_sinon_i8_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -4936,7 +4936,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u16_hex
+rondpoint_6001_Optionneur_sinon_u16_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -5043,7 +5043,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i16_hex
+rondpoint_6001_Optionneur_sinon_i16_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -5150,7 +5150,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u32_hex
+rondpoint_6001_Optionneur_sinon_u32_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -5257,7 +5257,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i32_hex
+rondpoint_6001_Optionneur_sinon_i32_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -5364,7 +5364,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u64_hex
+rondpoint_6001_Optionneur_sinon_u64_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -5471,7 +5471,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_i64_hex
+rondpoint_6001_Optionneur_sinon_i64_hex
 FfiConverterTypeOptionneur
 .
 lower
@@ -5578,7 +5578,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_u32_oct
+rondpoint_6001_Optionneur_sinon_u32_oct
 FfiConverterTypeOptionneur
 .
 lower
@@ -5687,7 +5687,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_f32
+rondpoint_6001_Optionneur_sinon_f32
 FfiConverterTypeOptionneur
 .
 lower
@@ -5796,7 +5796,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_f64
+rondpoint_6001_Optionneur_sinon_f64
 FfiConverterTypeOptionneur
 .
 lower
@@ -5905,7 +5905,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Optionneur_sinon_enum
+rondpoint_6001_Optionneur_sinon_enum
 FfiConverterTypeOptionneur
 .
 lower
@@ -6257,7 +6257,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_new
+rondpoint_6001_Retourneur_new
 )
 }
 try
@@ -6350,7 +6350,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_i8
+rondpoint_6001_Retourneur_identique_i8
 FfiConverterTypeRetourneur
 .
 lower
@@ -6455,7 +6455,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_u8
+rondpoint_6001_Retourneur_identique_u8
 FfiConverterTypeRetourneur
 .
 lower
@@ -6560,7 +6560,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_i16
+rondpoint_6001_Retourneur_identique_i16
 FfiConverterTypeRetourneur
 .
 lower
@@ -6665,7 +6665,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_u16
+rondpoint_6001_Retourneur_identique_u16
 FfiConverterTypeRetourneur
 .
 lower
@@ -6770,7 +6770,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_i32
+rondpoint_6001_Retourneur_identique_i32
 FfiConverterTypeRetourneur
 .
 lower
@@ -6875,7 +6875,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_u32
+rondpoint_6001_Retourneur_identique_u32
 FfiConverterTypeRetourneur
 .
 lower
@@ -6980,7 +6980,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_i64
+rondpoint_6001_Retourneur_identique_i64
 FfiConverterTypeRetourneur
 .
 lower
@@ -7085,7 +7085,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_u64
+rondpoint_6001_Retourneur_identique_u64
 FfiConverterTypeRetourneur
 .
 lower
@@ -7190,7 +7190,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_float
+rondpoint_6001_Retourneur_identique_float
 FfiConverterTypeRetourneur
 .
 lower
@@ -7295,7 +7295,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_double
+rondpoint_6001_Retourneur_identique_double
 FfiConverterTypeRetourneur
 .
 lower
@@ -7400,7 +7400,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_boolean
+rondpoint_6001_Retourneur_identique_boolean
 FfiConverterTypeRetourneur
 .
 lower
@@ -7505,7 +7505,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_string
+rondpoint_6001_Retourneur_identique_string
 FfiConverterTypeRetourneur
 .
 lower
@@ -7610,7 +7610,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_nombres_signes
+rondpoint_6001_Retourneur_identique_nombres_signes
 FfiConverterTypeRetourneur
 .
 lower
@@ -7715,7 +7715,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_nombres
+rondpoint_6001_Retourneur_identique_nombres
 FfiConverterTypeRetourneur
 .
 lower
@@ -7820,7 +7820,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Retourneur_identique_optionneur_dictionnaire
+rondpoint_6001_Retourneur_identique_optionneur_dictionnaire
 FfiConverterTypeRetourneur
 .
 lower
@@ -8172,7 +8172,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_new
+rondpoint_6001_Stringifier_new
 )
 }
 try
@@ -8265,7 +8265,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_well_known_string
+rondpoint_6001_Stringifier_well_known_string
 FfiConverterTypeStringifier
 .
 lower
@@ -8370,7 +8370,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_i8
+rondpoint_6001_Stringifier_to_string_i8
 FfiConverterTypeStringifier
 .
 lower
@@ -8475,7 +8475,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_u8
+rondpoint_6001_Stringifier_to_string_u8
 FfiConverterTypeStringifier
 .
 lower
@@ -8580,7 +8580,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_i16
+rondpoint_6001_Stringifier_to_string_i16
 FfiConverterTypeStringifier
 .
 lower
@@ -8685,7 +8685,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_u16
+rondpoint_6001_Stringifier_to_string_u16
 FfiConverterTypeStringifier
 .
 lower
@@ -8790,7 +8790,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_i32
+rondpoint_6001_Stringifier_to_string_i32
 FfiConverterTypeStringifier
 .
 lower
@@ -8895,7 +8895,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_u32
+rondpoint_6001_Stringifier_to_string_u32
 FfiConverterTypeStringifier
 .
 lower
@@ -9000,7 +9000,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_i64
+rondpoint_6001_Stringifier_to_string_i64
 FfiConverterTypeStringifier
 .
 lower
@@ -9105,7 +9105,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_u64
+rondpoint_6001_Stringifier_to_string_u64
 FfiConverterTypeStringifier
 .
 lower
@@ -9210,7 +9210,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_float
+rondpoint_6001_Stringifier_to_string_float
 FfiConverterTypeStringifier
 .
 lower
@@ -9315,7 +9315,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_double
+rondpoint_6001_Stringifier_to_string_double
 FfiConverterTypeStringifier
 .
 lower
@@ -9420,7 +9420,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_Stringifier_to_string_boolean
+rondpoint_6001_Stringifier_to_string_boolean
 FfiConverterTypeStringifier
 .
 lower
@@ -13502,7 +13502,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_copie_dictionnaire
+rondpoint_6001_copie_dictionnaire
 FfiConverterTypeDictionnaire
 .
 lower
@@ -13611,7 +13611,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_copie_enumeration
+rondpoint_6001_copie_enumeration
 FfiConverterTypeEnumeration
 .
 lower
@@ -13720,7 +13720,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_copie_enumerations
+rondpoint_6001_copie_enumerations
 FfiConverterSequenceTypeEnumeration
 .
 lower
@@ -13829,7 +13829,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_copie_carte
+rondpoint_6001_copie_carte
 FfiConverterMapStringTypeEnumerationAvecDonnees
 .
 lower
@@ -13938,7 +13938,7 @@ callAsync
 /
 rondpoint
 :
-rondpoint_84bf_switcheroo
+rondpoint_6001_switcheroo
 FfiConverterBool
 .
 lower

@@ -978,6 +978,7 @@ derive
 Debug
 Clone
 PartialEq
+Eq
 Serialize
 )
 ]
@@ -1096,6 +1097,7 @@ Debug
 Default
 Clone
 PartialEq
+Eq
 )
 ]
 pub
@@ -2935,6 +2937,7 @@ derive
 Debug
 Clone
 PartialEq
+Eq
 )
 ]
 pub

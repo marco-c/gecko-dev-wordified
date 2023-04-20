@@ -370,7 +370,6 @@ thiserror
 Error
 Debug
 Clone
-PartialEq
 )
 ]
 #

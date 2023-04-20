@@ -2042,7 +2042,7 @@ callAsync
 /
 geometry
 :
-geometry_ba8c_gradient
+geometry_631c_gradient
 FfiConverterTypeLine
 .
 lower
@@ -2162,7 +2162,7 @@ callAsync
 /
 geometry
 :
-geometry_ba8c_intersection
+geometry_631c_intersection
 FfiConverterTypeLine
 .
 lower

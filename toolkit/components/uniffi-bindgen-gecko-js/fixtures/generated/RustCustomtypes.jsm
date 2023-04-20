@@ -2042,7 +2042,7 @@ callAsync
 /
 customtypes
 :
-customtypes_8b94_get_custom_types_demo
+customtypes_6e0d_get_custom_types_demo
 FfiConverterOptionalTypeCustomTypesDemo
 .
 lower

@@ -201,7 +201,6 @@ fly
 derive
 (
 Debug
-PartialEq
 )
 ]
 #

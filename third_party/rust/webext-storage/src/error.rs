@@ -62,12 +62,6 @@ interrupt_support
 :
 Interrupted
 ;
-use
-sync15_traits
-:
-:
-bridged_engine
-;
 #
 [
 derive
@@ -406,7 +400,10 @@ IncomingPayloadError
 [
 from
 ]
-bridged_engine
+sync15
+:
+:
+engine
 :
 :
 PayloadError
@@ -460,7 +457,10 @@ Utf8Error
 )
 (
 IncomingPayloadError
-bridged_engine
+sync15
+:
+:
+engine
 :
 :
 PayloadError

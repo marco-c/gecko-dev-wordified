@@ -2040,6 +2040,7 @@ Debug
 Clone
 Default
 PartialEq
+Eq
 serde
 :
 :
