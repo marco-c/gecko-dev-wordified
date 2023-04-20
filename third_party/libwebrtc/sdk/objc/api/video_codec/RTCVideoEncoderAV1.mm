@@ -127,7 +127,7 @@ codecs
 /
 av1
 /
-libaom_av1_encoder
+libaom_av1_encoder_supported
 .
 h
 "
@@ -163,7 +163,7 @@ nativeEncoder
 webrtc
 :
 :
-CreateLibaomAv1Encoder
+CreateLibaomAv1EncoderIfSupported
 (
 )
 )
