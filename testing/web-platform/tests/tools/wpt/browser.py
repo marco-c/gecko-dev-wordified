@@ -13698,6 +13698,10 @@ attrib
 href
 "
 ]
+.
+strip
+(
+)
 )
 )
                     
