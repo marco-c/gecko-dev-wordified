@@ -344,13 +344,6 @@ false
 \
 _
 (
-UseWebRender
-bool
-false
-)
-\
-_
-(
 UseWebRenderANGLE
 bool
 false
