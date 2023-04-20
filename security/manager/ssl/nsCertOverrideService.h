@@ -681,11 +681,6 @@ MutexAutoLock
 aProofOfLock
 )
 ;
-void
-RemoveAllFromMemory
-(
-)
-;
 nsresult
 Read
 (
