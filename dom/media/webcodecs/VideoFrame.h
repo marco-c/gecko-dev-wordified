@@ -446,14 +446,14 @@ Constructor
 const
 GlobalObject
 &
-global
+aGlobal
 HTMLImageElement
 &
-imageElement
+aImageElement
 const
 VideoFrameInit
 &
-init
+aInit
 ErrorResult
 &
 aRv
