@@ -7016,7 +7016,7 @@ clean
 False
 in_app
 =
-False
+True
 callback
 =
 None
@@ -7026,11 +7026,34 @@ None
 "
 "
 "
-Terminate
+        
+By
+default
+this
+method
+will
+trigger
+a
+normal
+shutdown
+of
 the
 currently
 running
 instance
+.
+        
+But
+it
+can
+also
+be
+used
+to
+force
+terminate
+the
+process
 .
         
 This
@@ -7081,9 +7104,9 @@ param
 clean
 :
 If
-False
-the
-same
+True
+a
+new
 profile
 will
 be
@@ -7100,10 +7123,9 @@ application
 Note
 that
 the
-in
-app
+in_app
 initiated
-restart
+quit
 always
                       
 maintains
@@ -7127,16 +7149,16 @@ from
 within
 the
                        
-browser
+application
 .
 Otherwise
 the
-browser
+application
 will
 be
-quit
-immediately
+restarted
                        
+immediately
 by
 killing
 the
@@ -7264,6 +7286,30 @@ in_app
 :
             
 if
+clean
+:
+                
+raise
+ValueError
+(
+                    
+"
+An
+in_app
+restart
+cannot
+be
+triggered
+with
+the
+clean
+flag
+set
+"
+                
+)
+            
+if
 callback
 is
 not
@@ -7344,6 +7390,15 @@ None
 callback
 (
 )
+                    
+quit_details
+[
+"
+in_app
+"
+]
+=
+True
                 
 else
 :
@@ -7576,13 +7631,22 @@ clean
 )
             
 quit_details
-[
+.
+update
+(
+{
+"
+in_app
+"
+:
+False
 "
 forced
 "
-]
-=
+:
 True
+}
+)
         
 if
 quit_details
@@ -7657,7 +7721,7 @@ clean
 False
 in_app
 =
-False
+True
 safe_mode
 =
 False
@@ -7672,34 +7736,48 @@ False
 "
 "
         
-This
+By
+default
+this
+method
 will
+restart
+the
+currently
+running
+instance
+by
+using
+the
+same
+        
+profile
+.
+But
+it
+can
+also
+be
+forced
+to
 terminate
 the
 currently
 running
 instance
 and
+        
+to
 spawn
 a
 new
 instance
-        
 with
 the
 same
+or
+different
 profile
-and
-then
-reuse
-the
-session
-id
-when
-creating
-a
-session
-again
 .
         
 :
@@ -7729,9 +7807,9 @@ param
 clean
 :
 If
-False
-the
-same
+True
+a
+new
 profile
 will
 be
@@ -7744,8 +7822,7 @@ Note
                       
 that
 the
-in
-app
+in_app
 initiated
 restart
 always
@@ -7771,16 +7848,16 @@ from
 within
 the
                        
-browser
+application
 .
 Otherwise
 the
-browser
+application
 will
 be
 restarted
-immediately
                        
+immediately
 by
 killing
 the
@@ -7839,6 +7916,14 @@ only
 supported
 on
 MacOS
+and
+requires
+"
+in_app
+"
+to
+be
+True
 .
         
 :
@@ -7962,19 +8047,38 @@ the
 silent
 flag
 require
+an
 in_app
-restarts
+restart
 .
         
 if
+(
 safe_mode
 or
 silent
+)
+and
+not
+in_app
 :
             
+raise
+ValueError
+(
+"
+An
 in_app
-=
-True
+restart
+is
+required
+for
+safe
+or
+silent
+mode
+"
+)
         
 if
 in_app
@@ -8085,6 +8189,15 @@ None
 callback
 (
 )
+                    
+restart_details
+[
+"
+in_app
+"
+]
+=
+True
                 
 else
 :
@@ -8466,13 +8579,22 @@ DEFAULT_STARTUP_TIMEOUT
 )
             
 restart_details
-[
+.
+update
+(
+{
+"
+in_app
+"
+:
+False
 "
 forced
 "
-]
-=
+:
 True
+}
+)
         
 if
 restart_details

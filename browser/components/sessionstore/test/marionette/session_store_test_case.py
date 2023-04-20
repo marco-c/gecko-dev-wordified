@@ -672,6 +672,9 @@ marionette
 .
 restart
 (
+in_app
+=
+False
 clean
 =
 True
@@ -1609,9 +1612,6 @@ marionette
 .
 quit
 (
-in_app
-=
-True
 callback
 =
 self
@@ -2708,9 +2708,6 @@ marionette
 .
 quit
 (
-in_app
-=
-True
 callback
 =
 lambda
