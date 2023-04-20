@@ -89,7 +89,10 @@ mjs
 let
 expectedMatch
 =
+(
 key
+inputLength
+)
 =
 >
 (
@@ -131,6 +134,7 @@ helpUrl
 UrlbarProviderQuickActions
 .
 helpUrl
+inputLength
 }
 }
 )
@@ -392,6 +396,7 @@ expectedMatch
 "
 newaction
 "
+3
 )
 ]
 }
@@ -464,6 +469,7 @@ expectedMatch
 "
 testaction
 "
+10
 )
 ]
 }
