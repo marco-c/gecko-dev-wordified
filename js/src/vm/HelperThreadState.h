@@ -4093,9 +4093,6 @@ DelazifyTask
 >
 Create
 (
-JSContext
-*
-cx
 JSRuntime
 *
 runtime
