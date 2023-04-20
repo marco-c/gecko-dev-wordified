@@ -1875,6 +1875,12 @@ this
 }
 protected
 :
+virtual
+~
+DCSurfaceVideo
+(
+)
+;
 DXGI_FORMAT
 GetSwapChainFormat
 (
