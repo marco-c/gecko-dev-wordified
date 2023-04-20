@@ -91,10 +91,8 @@ urllib
 request
 import
 urlopen
-from
-mozilla_repo_urls
 import
-parse
+mozilla_repo_urls
 from
 voluptuous
 import
@@ -579,6 +577,8 @@ get_url
         
 parsed_url
 =
+mozilla_repo_urls
+.
 parse
 (
 repo_url
@@ -593,24 +593,13 @@ repo_name
 except
 (
 CalledProcessError
-IndexError
+mozilla_repo_urls
+.
+errors
+.
+InvalidRepoUrlError
 )
 :
-        
-#
-IndexError
-is
-raised
-if
-repo
-url
-doesn
-'
-t
-have
-any
-slashes
-.
         
 repo_url
 =
@@ -621,12 +610,6 @@ project
 =
 "
 "
-    
-default_base_ref
-=
-repo
-.
-default_branch
     
 return
 {
@@ -641,21 +624,15 @@ repo_url
 base_ref
 "
 :
-default_base_ref
+"
+"
         
 "
 base_rev
 "
 :
-repo
-.
-find_latest_common_revision
-(
-default_base_ref
-repo
-.
-head_rev
-)
+"
+"
         
 "
 build_date
