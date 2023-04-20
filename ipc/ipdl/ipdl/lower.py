@@ -12969,6 +12969,16 @@ type
 .
 compress
     
+lazySend
+=
+md
+.
+decl
+.
+type
+.
+lazySend
+    
 routingId
 =
 ExprVar
@@ -13069,6 +13079,25 @@ compression
 =
 "
 COMPRESSION_ENABLED
+"
+    
+if
+lazySend
+:
+        
+lazySendEnum
+=
+"
+LAZY_SEND
+"
+    
+else
+:
+        
+lazySendEnum
+=
+"
+EAGER_SEND
 "
     
 if
@@ -13302,6 +13331,11 @@ prioEnum
 messageEnum
 (
 compression
+)
+            
+messageEnum
+(
+lazySendEnum
 )
             
 messageEnum
