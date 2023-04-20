@@ -1201,6 +1201,15 @@ last_frame_time_ms
 ;
 }
 ;
+enum
+class
+SendVideoLayersAllocation
+{
+kSendWithResolution
+kSendWithoutResolution
+kDontSend
+}
+;
 void
 SetVideoStructureInternal
 (
@@ -1425,7 +1434,7 @@ send
 allocation_
 |
 .
-bool
+SendVideoLayersAllocation
 send_allocation_
 RTC_GUARDED_BY
 (
