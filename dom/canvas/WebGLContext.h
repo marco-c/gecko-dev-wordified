@@ -3940,7 +3940,10 @@ const
 Range
 <
 const
-uint8_t
+webgl
+:
+:
+UniformDataVal
 >
 &
 data
