@@ -1229,7 +1229,8 @@ If
 the
 domain
 is
-whitelisted
+allow
+listed
 to
 allow
 it
