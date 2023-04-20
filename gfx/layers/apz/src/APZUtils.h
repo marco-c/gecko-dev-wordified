@@ -588,7 +588,7 @@ COORDINATE_EPSILON
 =
 0
 .
-02f
+01f
 ;
 inline
 bool
