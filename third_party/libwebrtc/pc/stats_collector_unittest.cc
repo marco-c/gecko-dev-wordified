@@ -4212,7 +4212,7 @@ kStatsOutputLevelStandard
 stats
 -
 >
-ClearUpdateStatsCacheForTest
+InvalidateCache
 (
 )
 ;
@@ -11892,7 +11892,7 @@ kSsrcOfTrack
 stats
 -
 >
-ClearUpdateStatsCacheForTest
+InvalidateCache
 (
 )
 ;
