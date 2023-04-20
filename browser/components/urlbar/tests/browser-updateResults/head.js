@@ -533,6 +533,14 @@ number
 }
 suggestedIndex
 *
+The
+preferred
+index
+of
+the
+result
+.
+*
 param
 {
 number

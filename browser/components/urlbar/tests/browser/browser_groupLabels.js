@@ -3554,9 +3554,13 @@ label
 *
 param
 {
-object
+Array
 }
 expectedRows
+The
+expected
+rows
+.
 *
 /
 async

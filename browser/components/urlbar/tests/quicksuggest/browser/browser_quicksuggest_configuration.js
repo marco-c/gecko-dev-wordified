@@ -8334,6 +8334,10 @@ object
 }
 options
 *
+Function
+options
+.
+*
 param
 {
 object

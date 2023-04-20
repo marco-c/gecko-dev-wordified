@@ -6087,6 +6087,11 @@ options
 .
 searchString
 *
+The
+search
+string
+.
+*
 param
 {
 string
@@ -6140,6 +6145,11 @@ the
 search
 completes
 .
+*
+returns
+{
+Promise
+}
 *
 /
 async
@@ -6640,6 +6650,13 @@ param
 string
 }
 urls
+The
+URLs
+to
+add
+visits
+to
+.
 *
 /
 async

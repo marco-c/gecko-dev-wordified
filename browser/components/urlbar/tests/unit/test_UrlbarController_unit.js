@@ -98,6 +98,10 @@ param
 UrlbarQueryContext
 }
 context
+The
+query
+context
+.
 *
 param
 {
