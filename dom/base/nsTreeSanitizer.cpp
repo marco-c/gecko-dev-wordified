@@ -4533,13 +4533,6 @@ merror
 nsGkAtoms
 :
 :
-mfenced_
-/
-/
-mfenced
-nsGkAtoms
-:
-:
 mfrac_
 /
 /
