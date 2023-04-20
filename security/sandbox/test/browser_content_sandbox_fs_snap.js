@@ -128,7 +128,11 @@ there
 const
 snap
 =
-GetEnvironmentVariable
+Services
+.
+env
+.
+get
 (
 "
 SNAP
