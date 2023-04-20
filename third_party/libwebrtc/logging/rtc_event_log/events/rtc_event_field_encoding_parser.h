@@ -282,6 +282,7 @@ ok
 instead
 "
 )
+explicit
 operator
 bool
 (

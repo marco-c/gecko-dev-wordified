@@ -952,6 +952,7 @@ map_size_
 ;
 }
 }
+explicit
 operator
 bool
 (
