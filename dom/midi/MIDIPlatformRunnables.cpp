@@ -170,15 +170,10 @@ Run
 (
 )
 {
+MIDIPlatformService
 :
 :
-mozilla
-:
-:
-ipc
-:
-:
-AssertIsOnBackgroundThread
+AssertThread
 (
 )
 ;
