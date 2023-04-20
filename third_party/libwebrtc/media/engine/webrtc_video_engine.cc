@@ -5999,6 +5999,7 @@ ValidateRtpExtensions
 params
 .
 extensions
+send_rtp_extensions_
 )
 )
 {
@@ -6251,17 +6252,10 @@ trials
 ;
 if
 (
-!
-send_rtp_extensions_
-|
-|
-(
-*
 send_rtp_extensions_
 !
 =
 filtered_extensions
-)
 )
 {
 changed_params
@@ -7166,6 +7160,7 @@ rtp_header_extensions
 {
 send_rtp_extensions_
 =
+*
 changed_params
 .
 rtp_header_extensions
@@ -8504,6 +8499,7 @@ ValidateRtpExtensions
 params
 .
 extensions
+recv_rtp_extensions_
 )
 )
 {
