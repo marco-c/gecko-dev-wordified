@@ -437,7 +437,9 @@ gz
 "
             
 "
-perfherder_data
+perfherder
+-
+data
 .
 json
 "
@@ -742,7 +744,9 @@ self
 .
 _resultsDir
 "
-perfherder_data
+perfherder
+-
+data
 .
 json
 "
