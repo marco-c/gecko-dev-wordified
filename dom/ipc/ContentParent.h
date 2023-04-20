@@ -5210,7 +5210,7 @@ crash
 .
 *
 /
-void
+bool
 ShutDownProcess
 (
 ShutDownMethod
