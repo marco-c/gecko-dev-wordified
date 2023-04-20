@@ -1149,6 +1149,7 @@ State
 {
 kUninitialized
 kInitialized
+kLoadedDynamicBlocklistEntries
 kResolved
 }
 mState
@@ -1578,6 +1579,10 @@ Layout
 *
 EnsureWriteCopyView
 (
+bool
+requireKernel32Exports
+=
+false
 )
 ;
 static
