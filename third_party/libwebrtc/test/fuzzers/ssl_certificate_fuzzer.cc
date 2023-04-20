@@ -109,6 +109,15 @@ include
 "
 rtc_base
 /
+message_digest
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_certificate
 .
 h
@@ -227,6 +236,7 @@ cert
 >
 GetSignatureDigestAlgorithm
 (
+&
 algorithm
 )
 ;
