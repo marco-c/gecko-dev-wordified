@@ -6678,11 +6678,6 @@ Port
 deleted
 "
 ;
-SignalDestroyed
-(
-this
-)
-;
 SendPortDestroyed
 (
 this

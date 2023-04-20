@@ -784,16 +784,6 @@ has
 any
 usefulness
 .
-sigslot
-:
-:
-signal1
-<
-PortInterface
-*
->
-SignalDestroyed
-;
 virtual
 void
 SubscribePortDestroyed
