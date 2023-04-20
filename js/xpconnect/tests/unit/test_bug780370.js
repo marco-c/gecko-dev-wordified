@@ -134,15 +134,6 @@ obj
 foo
 :
 42
-__exposedProps__
-:
-{
-hasOwnProperty
-:
-'
-r
-'
-}
 }
 ;
 Assert
