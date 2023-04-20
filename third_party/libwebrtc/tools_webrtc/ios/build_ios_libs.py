@@ -2346,6 +2346,15 @@ check_output
 cmd
 )
 .
+decode
+(
+'
+utf
+-
+8
+'
+)
+.
 strip
 (
 )
