@@ -623,6 +623,17 @@ FindMappingFor
 kRedCodecName
 48000
 2
+{
+{
+"
+"
+"
+111
+/
+111
+"
+}
+}
 }
 )
 )
