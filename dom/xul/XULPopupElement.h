@@ -459,6 +459,13 @@ bool
 aDeselectMenu
 )
 ;
+XULButtonElement
+*
+GetContainingMenu
+(
+)
+const
+;
 nsINode
 *
 GetTriggerNode

@@ -443,13 +443,6 @@ Yes
 )
 const
 ;
-XULButtonElement
-*
-GetContainingMenu
-(
-)
-const
-;
 MOZ_CAN_RUN_SCRIPT
 void
 SelectFirstItem
