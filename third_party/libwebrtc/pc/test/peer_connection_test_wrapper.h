@@ -297,6 +297,12 @@ name
 rtc
 :
 :
+SocketServer
+*
+socket_server
+rtc
+:
+:
 Thread
 *
 network_thread
@@ -813,6 +819,14 @@ std
 :
 string
 name_
+;
+rtc
+:
+:
+SocketServer
+*
+const
+socket_server_
 ;
 rtc
 :
