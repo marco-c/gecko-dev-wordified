@@ -809,6 +809,9 @@ HaveDataChannel
 {
 return
 last_datachannel_
+!
+=
+nullptr
 ;
 }
 absl

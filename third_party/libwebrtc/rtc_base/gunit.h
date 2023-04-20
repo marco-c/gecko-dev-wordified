@@ -304,6 +304,9 @@ res
 (
 ex
 )
+&
+&
+true
 ;
 \
 while
@@ -366,6 +369,9 @@ res
 (
 ex
 )
+&
+&
+true
 ;
 \
 }
