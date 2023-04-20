@@ -2996,14 +2996,10 @@ not
 .
 codec_settings_
 .
-VP8
+SetFrameDropEnabled
 (
-)
--
->
-frameDroppingOn
-=
 false
+)
 ;
 codec_settings_
 .

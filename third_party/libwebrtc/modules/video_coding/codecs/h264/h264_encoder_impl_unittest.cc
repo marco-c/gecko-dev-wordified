@@ -225,14 +225,10 @@ RC_TIMESTAMP_MODE
 codec_settings
 -
 >
-H264
+SetFrameDropEnabled
 (
-)
--
->
-frameDroppingOn
-=
 true
+)
 ;
 codec_settings
 -

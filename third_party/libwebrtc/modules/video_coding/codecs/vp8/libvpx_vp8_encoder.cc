@@ -6183,11 +6183,9 @@ if
 !
 codec_
 .
-VP8
+GetFrameDropEnabled
 (
 )
-.
-frameDroppingOn
 )
 {
 return
