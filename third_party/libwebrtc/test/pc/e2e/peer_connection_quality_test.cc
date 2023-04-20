@@ -852,7 +852,7 @@ i
 {
 Params
 *
-p
+params
 =
 peers
 [
@@ -864,6 +864,20 @@ params
 (
 )
 ;
+ConfigurableParams
+*
+configurable_params
+=
+peers
+[
+i
+]
+-
+>
+configurable_params
+(
+)
+;
 for
 (
 const
@@ -871,7 +885,7 @@ VideoConfig
 &
 video_config
 :
-p
+configurable_params
 -
 >
 video_configs
@@ -899,7 +913,7 @@ codec
 .
 RTC_CHECK_EQ
 (
-p
+params
 -
 >
 video_codecs
@@ -1461,7 +1475,7 @@ i
 bob_configurer
 -
 >
-params
+configurable_params
 (
 )
 -
@@ -1492,7 +1506,7 @@ RTC_CHECK
 bob_configurer
 -
 >
-params
+configurable_params
 (
 )
 -
@@ -1594,7 +1608,7 @@ video
 alice_configurer
 -
 >
-params
+configurable_params
 (
 )
 -
@@ -1659,7 +1673,7 @@ video
 bob_configurer
 -
 >
-params
+configurable_params
 (
 )
 -
@@ -1918,7 +1932,7 @@ alice_video_configs
 alice_configurer
 -
 >
-params
+configurable_params
 (
 )
 -
@@ -1957,7 +1971,7 @@ bob_video_configs
 bob_configurer
 -
 >
-params
+configurable_params
 (
 )
 -
@@ -3701,7 +3715,7 @@ video_config
 alice_
 -
 >
-params
+configurable_params
 (
 )
 .
@@ -4028,7 +4042,7 @@ i
 bob_
 -
 >
-params
+configurable_params
 (
 )
 .
@@ -4506,7 +4520,7 @@ video_config
 alice_
 -
 >
-params
+configurable_params
 (
 )
 .
