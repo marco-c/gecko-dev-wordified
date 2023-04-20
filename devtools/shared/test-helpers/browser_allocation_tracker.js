@@ -151,6 +151,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared

@@ -344,6 +344,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -355,6 +359,8 @@ helpers
 allocation
 -
 tracker
+.
+js
 "
 )
 ;

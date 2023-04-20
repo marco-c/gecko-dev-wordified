@@ -2818,6 +2818,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2829,6 +2833,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;

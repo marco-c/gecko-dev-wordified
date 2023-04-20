@@ -222,6 +222,8 @@ helpers
 allocation
 -
 tracker
+.
+js
 "
 )
 ;
@@ -765,6 +767,8 @@ helpers
 allocation
 -
 tracker
+.
+js
 "
 )
 ;

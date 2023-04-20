@@ -103,6 +103,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +116,8 @@ framework
 devtools
 -
 browser
+.
+js
 "
 )
 ;
@@ -1849,6 +1855,10 @@ testLoader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -1856,6 +1866,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -1869,6 +1881,10 @@ testLoader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -1876,6 +1892,8 @@ shared
 security
 /
 socket
+.
+js
 "
 )
 ;

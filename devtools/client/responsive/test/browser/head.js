@@ -4537,6 +4537,10 @@ toolWindow
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -4552,6 +4556,8 @@ dom
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -4735,6 +4741,10 @@ toolWindow
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -4750,6 +4760,8 @@ dom
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -5051,6 +5063,10 @@ toolWindow
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -5066,6 +5082,8 @@ dom
 test
 -
 utils
+.
+js
 "
 )
 ;
