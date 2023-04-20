@@ -2744,6 +2744,7 @@ isMarkedAny
 {
 DelayCrossCompartmentGrayMarking
 (
+marker
 src
 )
 ;
