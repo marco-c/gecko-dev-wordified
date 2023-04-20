@@ -1242,6 +1242,10 @@ const
 bool
 use_setup_specific_default_aec3_config_
 ;
+const
+bool
+use_denormal_disabler_
+;
 SwapQueue
 <
 RuntimeSetting
