@@ -41327,6 +41327,7 @@ MarkFramesInSubtreeApproximatelyVisible
 (
 child
 r
+aRemoveOnly
 )
 ;
 }
