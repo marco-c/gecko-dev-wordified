@@ -561,6 +561,7 @@ function
 configureStore
 (
 connector
+commands
 telemetry
 )
 {
@@ -660,6 +661,7 @@ thunk
 (
 {
 connector
+commands
 }
 )
 prefs

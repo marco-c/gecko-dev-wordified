@@ -431,6 +431,11 @@ this
 .
 toolbox
 .
+commands
+this
+.
+toolbox
+.
 telemetry
 )
 ;
