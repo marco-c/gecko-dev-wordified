@@ -32394,10 +32394,8 @@ config
 )
 ;
 offer
-.
-release
-(
-)
+=
+nullptr
 ;
 ASSERT_TRUE
 (
