@@ -1956,8 +1956,11 @@ TestStunServer
 :
 Create
 (
-&
-main_
+ss_
+.
+get
+(
+)
 kStunAddr
 )
 )
