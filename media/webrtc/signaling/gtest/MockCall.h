@@ -356,6 +356,17 @@ Stop
 override
 {
 }
+bool
+IsRunning
+(
+)
+const
+override
+{
+return
+true
+;
+}
 Stats
 GetStats
 (
