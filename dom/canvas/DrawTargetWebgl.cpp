@@ -2022,6 +2022,7 @@ mSharedContext
 >
 WaitForShmem
 (
+this
 )
 ;
 auto
@@ -25346,6 +25347,9 @@ SharedContext
 :
 WaitForShmem
 (
+DrawTargetWebgl
+*
+aTarget
 )
 {
 if
@@ -25428,7 +25432,12 @@ for
 that
 here
 .
-mCurrentTarget
+if
+(
+aTarget
+)
+{
+aTarget
 -
 >
 mProfile
@@ -25437,6 +25446,7 @@ OnReadback
 (
 )
 ;
+}
 }
 }
 void
