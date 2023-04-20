@@ -96,7 +96,7 @@ CONTINUE_CHECK
 panelId
 :
 "
-noUpdatesFound
+checkingFailed
 "
 checkActiveUpdate
 :
