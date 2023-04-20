@@ -1299,7 +1299,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -1670,7 +1669,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -2064,7 +2062,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -2416,7 +2413,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -2511,7 +2507,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -2585,7 +2580,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -2911,7 +2905,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -3292,7 +3285,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -3598,7 +3590,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -4156,7 +4147,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -4834,7 +4824,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -5294,7 +5283,6 @@ padding_bitrate
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 rtc
@@ -5541,7 +5529,6 @@ Times
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 rtc
@@ -6303,7 +6290,6 @@ Stop
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }

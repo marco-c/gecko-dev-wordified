@@ -883,7 +883,6 @@ MultiCodecReceiveTest
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1051,7 +1050,6 @@ MultiCodecReceiveTest
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1685,7 +1683,6 @@ call
 .
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1845,7 +1842,6 @@ layers
 .
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1942,7 +1938,6 @@ frames
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )

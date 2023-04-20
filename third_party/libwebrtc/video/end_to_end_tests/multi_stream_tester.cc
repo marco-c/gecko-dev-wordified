@@ -558,7 +558,6 @@ decoder_factory
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 .
 get
@@ -1019,7 +1018,6 @@ Wait
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 .
 get

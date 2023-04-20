@@ -510,7 +510,6 @@ ReportEncodeInfo
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -532,7 +531,6 @@ bandwidth_quality_scaler_
 nullptr
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -906,7 +904,6 @@ actual_height
 }
 }
 }
-RTC_FROM_HERE
 )
 ;
 }

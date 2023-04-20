@@ -1531,7 +1531,6 @@ PictureIdTest
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1717,7 +1716,6 @@ payload_name
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2056,7 +2054,6 @@ ssrc_counts
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2187,7 +2184,6 @@ recreate
 .
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2240,7 +2236,6 @@ packets
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2282,7 +2277,6 @@ ssrc_counts
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2396,7 +2390,6 @@ ssrc_counts
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2478,7 +2471,6 @@ packets
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )

@@ -1579,7 +1579,6 @@ active
 false
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }

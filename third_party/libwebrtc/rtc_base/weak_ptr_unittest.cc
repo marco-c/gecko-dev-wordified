@@ -1266,7 +1266,6 @@ T
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 return
@@ -1510,7 +1509,6 @@ reset
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }

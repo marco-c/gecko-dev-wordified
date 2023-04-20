@@ -2427,7 +2427,6 @@ Enabled
 /
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -2476,7 +2475,6 @@ send_stats
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &

@@ -133,15 +133,6 @@ include
 "
 rtc_base
 /
-location
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 logging
 .
 h
@@ -256,7 +247,6 @@ return
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this

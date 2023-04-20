@@ -3897,7 +3897,6 @@ SendTask
 ]
 {
 }
-RTC_FROM_HERE
 )
 ;
 /
@@ -5330,7 +5329,6 @@ CreateEncoderAndDecoder
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 if
@@ -5706,7 +5704,6 @@ decoded_frame_writers_
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 return
@@ -5757,7 +5754,6 @@ DestroyEncoderAndDecoder
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 source_frame_reader_
@@ -5895,7 +5891,6 @@ ImplementationName
 ;
 }
 }
-RTC_FROM_HERE
 )
 ;
 return

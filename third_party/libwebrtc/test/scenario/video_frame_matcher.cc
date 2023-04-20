@@ -218,7 +218,6 @@ Finalize
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }

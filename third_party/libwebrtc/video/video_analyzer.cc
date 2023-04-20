@@ -2360,7 +2360,6 @@ n
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &

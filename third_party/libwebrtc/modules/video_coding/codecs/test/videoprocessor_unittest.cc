@@ -437,7 +437,6 @@ nullptr
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -461,7 +460,6 @@ reset
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -695,7 +693,6 @@ kFramerateFps
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_CALL
@@ -764,7 +761,6 @@ ProcessFrame
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_CALL
@@ -810,7 +806,6 @@ ProcessFrame
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 ExpectRelease
@@ -893,7 +888,6 @@ kStartFramerateFps
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_CALL
@@ -958,7 +952,6 @@ ProcessFrame
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 const
@@ -1016,7 +1009,6 @@ kNewFramerateFps
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_CALL
@@ -1062,7 +1054,6 @@ ProcessFrame
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 ExpectRelease
@@ -1166,7 +1157,6 @@ kFramerateFps
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 const
@@ -1259,7 +1249,6 @@ kNewFramerateFps
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 ExpectRelease

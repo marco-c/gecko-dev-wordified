@@ -9502,7 +9502,6 @@ kDefaultExpectedRetransmissionTimeMs
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 encoder_queue

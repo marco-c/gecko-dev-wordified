@@ -2651,7 +2651,6 @@ Create
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 MockMixerAudioSource
@@ -2713,7 +2712,6 @@ participant
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_CALL

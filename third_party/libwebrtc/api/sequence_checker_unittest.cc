@@ -450,7 +450,6 @@ IsCurrent
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -498,7 +497,6 @@ IsCurrent
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -564,7 +562,6 @@ RTC_DCHECK_IS_ON
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -604,7 +601,6 @@ IsCurrent
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 /
@@ -648,7 +644,6 @@ RTC_DCHECK_IS_ON
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -750,7 +745,6 @@ ModifyTestVar
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }

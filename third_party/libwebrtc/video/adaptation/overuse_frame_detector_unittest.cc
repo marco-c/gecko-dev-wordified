@@ -2795,7 +2795,6 @@ observer_
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 rtc
@@ -6105,7 +6104,6 @@ observer_
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 rtc

@@ -1108,7 +1108,6 @@ CanStartStartedStream
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1179,7 +1178,6 @@ CanStopStoppedStream
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -9700,7 +9698,6 @@ this
 .
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 ]
@@ -10091,7 +10088,6 @@ bitrate_config
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -10171,7 +10167,6 @@ exceeded
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -10544,7 +10539,6 @@ this
 .
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 ]
@@ -10737,7 +10731,6 @@ CreateWithNetworkId
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -10832,7 +10825,6 @@ count
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -11142,7 +11134,6 @@ override
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -11192,7 +11183,6 @@ packets_sent_
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -11471,7 +11461,6 @@ this
 .
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 ]
@@ -12531,7 +12520,6 @@ encoder
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -12601,7 +12589,6 @@ kDefaultHeight
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -12641,7 +12628,6 @@ kDefaultHeight
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -13904,7 +13890,6 @@ Encode
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -14451,7 +14436,6 @@ GetEncoderSpecificSettings
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -16999,7 +16983,6 @@ kIncreasedMaxBitrateKbps
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -17050,7 +17033,6 @@ kLowerMaxBitrateKbps
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -17124,7 +17106,6 @@ kIncreasedMaxBitrateKbps
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -17717,7 +17698,6 @@ stats
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -22770,7 +22750,6 @@ kMinBitrateBps
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this
@@ -24299,7 +24278,6 @@ test
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
