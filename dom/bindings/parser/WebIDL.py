@@ -58149,10 +58149,6 @@ append
 p
 )
         
-iterableIteratorIface
-=
-None
-        
 for
 iface
 in
