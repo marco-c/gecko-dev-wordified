@@ -4179,6 +4179,10 @@ const
 nsACString
 &
 aReferrerPolicy
+const
+nsACString
+&
+aCSPHeader
 )
 {
 LOG
@@ -4198,6 +4202,12 @@ aReferrerPolicy
 %
 s
 "
+"
+aCSPHeader
+=
+%
+s
+"
 PromiseFlatCString
 (
 aValue
@@ -4209,6 +4219,14 @@ get
 PromiseFlatCString
 (
 aReferrerPolicy
+)
+.
+get
+(
+)
+PromiseFlatCString
+(
+aCSPHeader
 )
 .
 get
@@ -4243,6 +4261,7 @@ EarlyHint
 (
 aValue
 aReferrerPolicy
+aCSPHeader
 )
 ;
 }
