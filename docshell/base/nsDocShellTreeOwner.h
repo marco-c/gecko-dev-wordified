@@ -187,6 +187,13 @@ h
 #
 include
 "
+nsIEmbeddingSiteWindow
+.
+h
+"
+#
+include
+"
 nsIWebProgressListener
 .
 h
@@ -440,7 +447,7 @@ GetWebBrowserChrome
 ;
 already_AddRefed
 <
-nsIBaseWindow
+nsIEmbeddingSiteWindow
 >
 GetOwnerWin
 (
@@ -476,7 +483,7 @@ nsIWebBrowserChrome
 *
 mWebBrowserChrome
 ;
-nsIBaseWindow
+nsIEmbeddingSiteWindow
 *
 mOwnerWin
 ;
