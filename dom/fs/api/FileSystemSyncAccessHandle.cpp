@@ -869,6 +869,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 FileSystemSyncAccessHandle
 )
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mGlobal
+)
 /
 /
 Don
