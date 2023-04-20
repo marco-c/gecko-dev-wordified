@@ -57106,6 +57106,11 @@ method
 decorators
 (
 )
+method
+.
+isStatic
+(
+)
 )
 )
 {
