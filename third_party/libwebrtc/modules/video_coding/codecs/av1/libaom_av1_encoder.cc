@@ -4340,7 +4340,7 @@ I420BufferInterface
 >
 converted_buffer
 (
-mapped_buffer
+buffer
 -
 >
 ToI420
