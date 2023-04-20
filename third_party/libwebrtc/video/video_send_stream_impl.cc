@@ -203,7 +203,7 @@ modules
 /
 pacing
 /
-paced_sender
+pacing_controller
 .
 h
 "
@@ -1479,16 +1479,10 @@ max_pacing_delay
 "
 max_delay
 "
-TimeDelta
+PacingController
 :
 :
-Millis
-(
-PacedSender
-:
-:
-kMaxQueueLengthMs
-)
+kMaxExpectedQueueLength
 )
 {
 ParseFieldTrial
