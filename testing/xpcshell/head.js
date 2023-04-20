@@ -666,7 +666,7 @@ _LoggerClass
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -679,7 +679,9 @@ common
 /
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

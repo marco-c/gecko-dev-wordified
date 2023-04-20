@@ -178,7 +178,9 @@ jsm
 "
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 "
 "
 TestUtils
@@ -235,7 +237,9 @@ SimpleTest
 "
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 "
 ]
 with
