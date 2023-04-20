@@ -158,7 +158,6 @@ aDoc
 /
 /
 LocalAccessible
-virtual
 void
 Description
 (
@@ -169,7 +168,6 @@ aDescription
 const
 override
 ;
-virtual
 void
 Value
 (
@@ -180,7 +178,6 @@ aValue
 const
 override
 ;
-virtual
 a11y
 :
 :
@@ -191,7 +188,6 @@ NativeRole
 const
 override
 ;
-virtual
 uint64_t
 NativeState
 (
@@ -199,10 +195,18 @@ NativeState
 const
 override
 ;
+bool
+IsAcceptableChild
+(
+nsIContent
+*
+)
+const
+override
+;
 /
 /
 ActionAccessible
-virtual
 bool
 HasPrimaryAction
 (
@@ -210,7 +214,6 @@ HasPrimaryAction
 const
 override
 ;
-virtual
 void
 ActionNameAt
 (
@@ -222,7 +225,6 @@ aName
 )
 override
 ;
-virtual
 bool
 DoAction
 (
@@ -235,7 +237,6 @@ override
 /
 /
 Widgets
-virtual
 bool
 IsActiveWidget
 (
@@ -244,7 +245,6 @@ const
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 bool
 AreItemsOperable
 (
