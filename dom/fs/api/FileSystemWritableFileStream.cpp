@@ -159,17 +159,6 @@ mozilla
 /
 dom
 /
-UnionConversions
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WritableStreamDefaultController
 .
 h
@@ -276,12 +265,6 @@ aCx
 aChunk
 )
 ;
-ArrayBufferViewOrArrayBufferOrBlobOrUSVStringOrWriteParamsArgument
-holder
-(
-aOutput
-)
-;
 bool
 done
 =
@@ -306,7 +289,7 @@ done
 failed
 =
 !
-holder
+aOutput
 .
 TrySetToArrayBufferView
 (
@@ -327,7 +310,7 @@ tryNext
 failed
 =
 !
-holder
+aOutput
 .
 TrySetToArrayBuffer
 (
@@ -348,7 +331,7 @@ tryNext
 failed
 =
 !
-holder
+aOutput
 .
 TrySetToBlob
 (
@@ -377,7 +360,7 @@ done
 failed
 =
 !
-holder
+aOutput
 .
 TrySetToWriteParams
 (
@@ -408,7 +391,7 @@ done
 failed
 =
 !
-holder
+aOutput
 .
 TrySetToUSVString
 (
