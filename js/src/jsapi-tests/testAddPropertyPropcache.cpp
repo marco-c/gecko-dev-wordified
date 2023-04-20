@@ -324,9 +324,12 @@ JS_InitClass
 (
 cx
 global
-obj
 &
 AddPropertyClass
+obj
+"
+AddPropertyTester
+"
 nullptr
 0
 nullptr

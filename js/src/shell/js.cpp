@@ -66581,9 +66581,12 @@ JS_InitClass
 (
 cx
 glob
-nullptr
 &
 dom_class
+nullptr
+"
+FakeDOMObject
+"
 dom_constructor
 0
 dom_props

@@ -12325,8 +12325,12 @@ JS_InitClass
 (
 cx
 parent
+clasp
 nullptr
 clasp
+-
+>
+name
 construct
 0
 nullptr

@@ -704,9 +704,12 @@ InitClass
 (
 cx
 debugCtor
-nullptr
 &
 class_
+nullptr
+"
+Source
+"
 construct
 0
 properties_

@@ -1950,9 +1950,12 @@ InitClass
 (
 cx
 dbgCtor
-nullptr
 &
 class_
+nullptr
+"
+Frame
+"
 construct
 0
 properties_
