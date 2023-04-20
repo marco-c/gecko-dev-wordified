@@ -144,6 +144,9 @@ mozilla
 :
 dom
 {
+class
+ThreadsafeContentParentHandle
+;
 using
 BrowsingContextCallbackReceivedPromise
 =
@@ -168,6 +171,9 @@ ClientOpPromise
 >
 ClientOpenWindow
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientOpenWindowArgs
 &
