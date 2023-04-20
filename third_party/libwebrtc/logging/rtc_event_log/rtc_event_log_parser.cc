@@ -5160,7 +5160,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5171,6 +5171,7 @@ Parse
 header
 )
 )
+;
 transport_feedback_list
 -
 >
@@ -5214,7 +5215,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5225,7 +5226,7 @@ Parse
 header
 )
 )
-{
+;
 sr_list
 -
 >
@@ -5240,7 +5241,6 @@ parsed_block
 )
 )
 ;
-}
 }
 else
 if
@@ -5270,7 +5270,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5281,7 +5281,7 @@ Parse
 header
 )
 )
-{
+;
 rr_list
 -
 >
@@ -5296,7 +5296,6 @@ parsed_block
 )
 )
 ;
-}
 }
 else
 if
@@ -5326,7 +5325,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5337,7 +5336,7 @@ Parse
 header
 )
 )
-{
+;
 xr_list
 -
 >
@@ -5352,7 +5351,6 @@ parsed_block
 )
 )
 ;
-}
 }
 else
 if
@@ -5398,7 +5396,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5409,7 +5407,7 @@ Parse
 header
 )
 )
-{
+;
 fir_list
 -
 >
@@ -5424,7 +5422,6 @@ parsed_block
 )
 )
 ;
-}
 }
 else
 if
@@ -5470,7 +5467,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5481,7 +5478,7 @@ Parse
 header
 )
 )
-{
+;
 pli_list
 -
 >
@@ -5496,7 +5493,6 @@ parsed_block
 )
 )
 ;
-}
 }
 else
 if
@@ -5526,7 +5522,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5537,7 +5533,7 @@ Parse
 header
 )
 )
-{
+;
 bye_list
 -
 >
@@ -5552,7 +5548,6 @@ parsed_block
 )
 )
 ;
-}
 }
 else
 if
@@ -5688,6 +5683,17 @@ true
 ;
 }
 }
+/
+/
+We
+ignore
+other
+application
+-
+layer
+feedback
+types
+.
 }
 else
 if
@@ -5733,7 +5739,7 @@ timestamp
 =
 timestamp
 ;
-if
+RTC_PARSE_CHECK_OR_RETURN
 (
 parsed_block
 .
@@ -5744,7 +5750,7 @@ Parse
 header
 )
 )
-{
+;
 nack_list
 -
 >
@@ -5759,7 +5765,6 @@ parsed_block
 )
 )
 ;
-}
 }
 }
 return
@@ -17568,6 +17573,28 @@ PacketDirection
 kOutgoingPacket
 )
 {
+if
+(
+last
+-
+>
+reported_recv_time
+.
+IsFinite
+(
+)
+&
+&
+fb
+-
+>
+reported_recv_time
+.
+IsFinite
+(
+)
+)
+{
 fb
 -
 >
@@ -17583,6 +17610,7 @@ fb
 >
 reported_recv_time
 ;
+}
 }
 else
 {
