@@ -2140,6 +2140,16 @@ numFixableBailouts_
 ;
 }
 void
+resetNumFixableBailouts
+(
+)
+{
+numFixableBailouts_
+=
+0
+;
+}
+void
 incNumUnfixableBailouts
 (
 )
