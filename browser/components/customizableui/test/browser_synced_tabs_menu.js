@@ -2385,7 +2385,7 @@ siblings
 Next
 is
 a
-menuseparator
+toolbarseparator
 between
 the
 clients
@@ -2402,7 +2402,7 @@ node
 .
 nodeName
 "
-menuseparator
+toolbarseparator
 "
 )
 ;
@@ -2567,7 +2567,7 @@ siblings
 Next
 is
 a
-menuseparator
+toolbarseparator
 between
 the
 clients
@@ -2584,7 +2584,7 @@ node
 .
 nodeName
 "
-menuseparator
+toolbarseparator
 "
 )
 ;
