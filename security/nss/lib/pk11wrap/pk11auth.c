@@ -3297,7 +3297,7 @@ access
 to
 multiple
 *
-client
+slave
 applications
 to
 single
