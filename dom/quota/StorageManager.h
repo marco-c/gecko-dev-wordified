@@ -238,11 +238,6 @@ return
 mOwner
 ;
 }
-void
-Shutdown
-(
-)
-;
 /
 /
 WebIDL
@@ -288,6 +283,11 @@ GetDirectory
 ErrorResult
 &
 aRv
+)
+;
+void
+Shutdown
+(
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
