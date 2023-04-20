@@ -11520,6 +11520,17 @@ nullptr
 }
 )
 ;
+/
+/
+The
+conditions
+should
+match
+ScriptLoadContext
+:
+:
+MaybeCancelOffThreadScript
+.
 if
 (
 aRequest
