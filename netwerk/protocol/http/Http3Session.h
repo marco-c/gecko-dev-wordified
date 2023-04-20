@@ -1512,6 +1512,16 @@ uint8_t
 aErrorCode
 )
 ;
+void
+StreamStopSending
+(
+Http3WebTransportStream
+*
+aStream
+uint8_t
+aErrorCode
+)
+;
 private
 :
 ~
