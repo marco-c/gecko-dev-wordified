@@ -188,27 +188,6 @@ packages
 )
     
 def
-ensure_clang_static_analysis_package
-(
-self
-)
-:
-        
-from
-mozboot
-import
-static_analysis
-        
-self
-.
-install_toolchain_static_analysis
-(
-static_analysis
-.
-LINUX_CLANG_TIDY
-)
-    
-def
 _update_package_manager
 (
 self
