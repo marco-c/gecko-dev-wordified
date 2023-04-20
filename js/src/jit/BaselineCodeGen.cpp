@@ -2102,7 +2102,6 @@ perfSpewer_
 .
 saveProfile
 (
-cx
 script
 code
 )
