@@ -1668,7 +1668,7 @@ CharT
 >
 static
 bool
-GetPrefixInteger
+GetPrefixIntegerImpl
 (
 const
 CharT
@@ -1965,9 +1965,6 @@ js
 :
 GetPrefixInteger
 (
-JSContext
-*
-cx
 const
 CharT
 *
@@ -1992,9 +1989,7 @@ dp
 {
 if
 (
-:
-:
-GetPrefixInteger
+GetPrefixIntegerImpl
 (
 start
 end
@@ -2055,7 +2050,7 @@ from
 the
 loop
 in
-GetPrefixInteger
+GetPrefixIntegerImpl
 may
 be
 inaccurate
@@ -2073,7 +2068,6 @@ answer
 return
 GetDecimal
 (
-cx
 start
 *
 endp
@@ -2088,9 +2082,6 @@ template
 bool
 GetPrefixInteger
 (
-JSContext
-*
-cx
 const
 char16_t
 *
@@ -2117,9 +2108,6 @@ template
 bool
 GetPrefixInteger
 (
-JSContext
-*
-cx
 const
 Latin1Char
 *
@@ -2158,9 +2146,6 @@ js
 :
 GetDecimalInteger
 (
-JSContext
-*
-cx
 const
 CharT
 *
@@ -2306,7 +2291,6 @@ GetDecimal
 return
 GetDecimal
 (
-cx
 start
 end
 dp
@@ -2320,9 +2304,6 @@ template
 bool
 GetDecimalInteger
 (
-JSContext
-*
-cx
 const
 char16_t
 *
@@ -2340,9 +2321,6 @@ template
 bool
 GetDecimalInteger
 (
-JSContext
-*
-cx
 const
 Latin1Char
 *
@@ -2365,9 +2343,6 @@ GetDecimalInteger
 Utf8Unit
 >
 (
-JSContext
-*
-cx
 const
 Utf8Unit
 *
@@ -2384,7 +2359,6 @@ dp
 return
 GetDecimalInteger
 (
-cx
 Utf8AsUnsignedChars
 (
 start
@@ -2413,9 +2387,6 @@ js
 :
 GetDecimal
 (
-JSContext
-*
-cx
 const
 CharT
 *
@@ -2690,11 +2661,9 @@ Vector
 <
 char
 32
+SystemAllocPolicy
 >
 chars
-(
-cx
-)
 ;
 if
 (
@@ -2846,9 +2815,6 @@ template
 bool
 GetDecimal
 (
-JSContext
-*
-cx
 const
 char16_t
 *
@@ -2866,9 +2832,6 @@ template
 bool
 GetDecimal
 (
-JSContext
-*
-cx
 const
 Latin1Char
 *
@@ -2891,9 +2854,6 @@ GetDecimal
 Utf8Unit
 >
 (
-JSContext
-*
-cx
 const
 Utf8Unit
 *
@@ -2910,7 +2870,6 @@ dp
 return
 GetDecimal
 (
-cx
 Utf8AsUnsignedChars
 (
 start
@@ -3519,9 +3478,11 @@ d
 if
 (
 !
+js
+:
+:
 GetPrefixInteger
 (
-cx
 s
 end
 radix
@@ -3536,6 +3497,11 @@ d
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -12490,7 +12456,7 @@ d
 ;
 MOZ_ALWAYS_TRUE
 (
-GetPrefixInteger
+GetPrefixIntegerImpl
 (
 start
 +

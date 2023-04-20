@@ -1259,9 +1259,6 @@ extern
 bool
 GetPrefixInteger
 (
-JSContext
-*
-cx
 const
 CharT
 *
@@ -1394,9 +1391,6 @@ extern
 bool
 GetFullInteger
 (
-JSContext
-*
-cx
 const
 CharT
 *
@@ -1427,7 +1421,6 @@ if
 (
 GetPrefixInteger
 (
-cx
 ToRawChars
 (
 start
@@ -1542,9 +1535,6 @@ extern
 bool
 GetDecimalInteger
 (
-JSContext
-*
-cx
 const
 CharT
 *
@@ -1617,9 +1607,6 @@ extern
 bool
 GetDecimal
 (
-JSContext
-*
-cx
 const
 CharT
 *
