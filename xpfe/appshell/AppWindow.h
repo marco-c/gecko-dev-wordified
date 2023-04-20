@@ -2036,16 +2036,6 @@ nsCOMPtr
 nsITimer
 >
 mSPTimer
-MOZ_GUARDED_BY
-(
-mSPTimerLock
-)
-;
-mozilla
-:
-:
-Mutex
-mSPTimerLock
 ;
 WidgetListenerDelegate
 mWidgetListenerDelegate
