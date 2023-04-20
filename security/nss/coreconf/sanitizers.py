@@ -45,6 +45,9 @@ msan
 "
 sancov
 "
+"
+sourcecov
+"
 or
 "
 ubsan
@@ -315,6 +318,37 @@ end
         
 return
     
+if
+sanitizer
+=
+=
+"
+sourcecov
+"
+:
+        
+print
+(
+'
+-
+fprofile
+-
+instr
+-
+generate
+-
+fcoverage
+-
+mapping
+'
+end
+=
+'
+'
+)
+        
+return
+    
 raise
 Exception
 (
@@ -329,6 +363,9 @@ msan
 "
 "
 sancov
+"
+"
+sourcecov
 "
 or
 "
