@@ -9091,7 +9091,7 @@ android_arm64_audio
 android_arm64_clang_audio
 "
 "
-Mac_arm64_checksum_placeholder
+7b6ec10910debd9af08011d3ed5249f7
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -9115,7 +9115,7 @@ android_arm64_payload
 android_arm64_clang_payload
 "
 "
-Mac_arm64_checksum_placeholder
+cfae2e9f6aba96e145f2bcdd5050ce78
 "
 )
 33
