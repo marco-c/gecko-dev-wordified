@@ -1592,17 +1592,6 @@ js
 jit
 :
 :
-SetDenseElementPure
-)
-\
-_
-(
-js
-:
-:
-jit
-:
-:
 SetNativeDataPropertyPure
 )
 \
