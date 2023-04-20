@@ -2079,8 +2079,6 @@ PanGestureInput
 aSwipeStartEvent
 uint32_t
 aAllowedDirections
-uint64_t
-aInputBlockId
 )
 ;
 struct
@@ -2105,6 +2103,20 @@ PanGestureInput
 &
 aSwipeStartEvent
 )
+;
+enum
+class
+CanTriggerSwipe
+:
+bool
+{
+No
+=
+false
+Yes
+=
+true
+}
 ;
 /
 /
@@ -2157,6 +2169,8 @@ layers
 APZEventResult
 &
 aApzResult
+CanTriggerSwipe
+aCanTriggerSwipe
 )
 ;
 /
@@ -2187,6 +2201,8 @@ mozilla
 PanGestureInput
 &
 aPanInput
+CanTriggerSwipe
+aCanTriggerSwipe
 )
 ;
 void
