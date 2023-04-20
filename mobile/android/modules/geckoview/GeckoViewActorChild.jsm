@@ -89,7 +89,7 @@ EventDispatcher
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -102,7 +102,9 @@ modules
 /
 Messaging
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
