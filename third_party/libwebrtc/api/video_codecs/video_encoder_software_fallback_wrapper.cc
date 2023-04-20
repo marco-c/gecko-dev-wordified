@@ -958,7 +958,11 @@ preserve
 previous
 behavior
 .
-ABSL_FALLTHROUGH_INTENDED
+[
+[
+fallthrough
+]
+]
 ;
 case
 EncoderState

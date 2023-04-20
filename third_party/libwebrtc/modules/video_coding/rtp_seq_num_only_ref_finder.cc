@@ -841,7 +841,11 @@ frame_it
 )
 )
 ;
-ABSL_FALLTHROUGH_INTENDED
+[
+[
+fallthrough
+]
+]
 ;
 case
 kDrop

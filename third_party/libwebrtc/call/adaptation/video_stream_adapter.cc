@@ -2449,7 +2449,11 @@ else
 increase
 resolution
 .
-ABSL_FALLTHROUGH_INTENDED
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -2941,7 +2945,11 @@ else
 decrease
 resolution
 .
-ABSL_FALLTHROUGH_INTENDED
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
