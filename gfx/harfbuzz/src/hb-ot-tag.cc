@@ -2239,10 +2239,6 @@ unsigned
 tag_idx
 =
 last_tag_idx
-.
-get_relaxed
-(
-)
 ;
 if
 (
@@ -2280,11 +2276,8 @@ tag_idx
 )
 {
 last_tag_idx
-.
-set_relaxed
-(
+=
 tag_idx
-)
 ;
 unsigned
 int

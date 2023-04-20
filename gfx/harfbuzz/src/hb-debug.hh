@@ -353,10 +353,6 @@ u
 i
 =
 _hb_options
-.
-get_relaxed
-(
-)
 ;
 if
 (
@@ -378,10 +374,6 @@ u
 i
 =
 _hb_options
-.
-get_relaxed
-(
-)
 ;
 }
 return

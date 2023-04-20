@@ -312,7 +312,7 @@ indic_non_indic_cluster
 ;
 #
 line
-54
+57
 "
 hb
 -
@@ -404,7 +404,7 @@ indic_syllable_machine_ex_ZWNJ
 5u
 #
 line
-74
+79
 "
 hb
 -
@@ -3092,7 +3092,7 @@ info
 ;
 #
 line
-415
+426
 "
 hb
 -
@@ -3161,7 +3161,7 @@ syllable_serial
 ;
 #
 line
-427
+442
 "
 hb
 -
@@ -3233,7 +3233,7 @@ break
 ;
 #
 line
-439
+456
 "
 hb
 -
@@ -4101,7 +4101,7 @@ break
 ;
 #
 line
-521
+559
 "
 hb
 -
@@ -4145,7 +4145,7 @@ break
 ;
 #
 line
-528
+568
 "
 hb
 -

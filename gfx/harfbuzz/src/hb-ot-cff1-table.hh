@@ -7903,7 +7903,7 @@ names
 =
 glyph_names
 .
-get
+get_acquire
 (
 )
 ;

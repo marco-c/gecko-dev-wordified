@@ -263,7 +263,7 @@ measure
 .
 *
 /
-HBUINT32
+VarIdx
 varIdx
 ;
 /

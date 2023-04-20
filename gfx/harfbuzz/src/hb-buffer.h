@@ -1211,9 +1211,7 @@ U
 0640
 TATWEEL
 character
-*
 before
-*
 this
 cluster
 for
