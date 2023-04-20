@@ -174,11 +174,10 @@ g_peer_connection_map
 g_peer_connection_id
 ]
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 SimplePeerConnection
 >

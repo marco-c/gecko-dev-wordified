@@ -1449,11 +1449,10 @@ pc_
 >
 CreateOffer
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 CreateOfferObserver
 >
@@ -1809,11 +1808,10 @@ pc_
 >
 SetLocalDescription
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 SetLocalSessionDescriptionObserver
 >

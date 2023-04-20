@@ -443,13 +443,7 @@ frame
 )
 {
 const
-rtc
-:
-:
-scoped_refptr
-<
-VideoFrameBuffer
->
+auto
 buffer
 =
 rtc

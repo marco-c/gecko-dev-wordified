@@ -9159,11 +9159,10 @@ pc
 >
 SetLocalDescription
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 MockSetSessionDescriptionObserver
 >
