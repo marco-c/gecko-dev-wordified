@@ -3471,10 +3471,6 @@ rtp_video_sender_
 IsActive
 (
 )
-&
-&
-!
-timed_out_
 )
 {
 /
