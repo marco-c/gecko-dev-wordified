@@ -114,7 +114,7 @@ media
 /
 sctp
 /
-usrsctp_transport
+sctp_transport_internal
 .
 h
 "

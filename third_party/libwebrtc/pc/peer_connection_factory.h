@@ -302,17 +302,6 @@ h
 #
 include
 "
-media
-/
-sctp
-/
-sctp_transport_internal
-.
-h
-"
-#
-include
-"
 p2p
 /
 base
