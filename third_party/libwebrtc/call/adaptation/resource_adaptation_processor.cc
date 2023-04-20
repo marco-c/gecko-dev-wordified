@@ -710,6 +710,10 @@ resource
 SetResourceListener
 (
 resource_listener_delegate_
+.
+get
+(
+)
 )
 ;
 RTC_LOG

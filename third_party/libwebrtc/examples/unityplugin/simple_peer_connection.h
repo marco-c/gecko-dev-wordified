@@ -695,11 +695,16 @@ VideoObserver
 >
 remote_video_observer_
 ;
+rtc
+:
+:
+scoped_refptr
+<
 webrtc
 :
 :
 MediaStreamInterface
-*
+>
 remote_stream_
 =
 nullptr
