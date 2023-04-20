@@ -120,6 +120,14 @@ LPC_inv_pred_gain_FLP
 .
 c
 '
+    
+'
+src
+/
+opus_projection_encoder
+.
+c
+'
 ]
 def
 should_ignore
