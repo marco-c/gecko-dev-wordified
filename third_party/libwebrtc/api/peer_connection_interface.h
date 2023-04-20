@@ -12453,6 +12453,15 @@ signaling_thread
 =
 nullptr
 ;
+rtc
+:
+:
+SocketFactory
+*
+socket_factory
+=
+nullptr
+;
 std
 :
 :
