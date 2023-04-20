@@ -309,7 +309,7 @@ toolkit
 /
 components
 /
-processtools
+pdfjs
 /
 metrics
 .
@@ -321,7 +321,7 @@ toolkit
 /
 components
 /
-pdfjs
+processtools
 /
 metrics
 .
