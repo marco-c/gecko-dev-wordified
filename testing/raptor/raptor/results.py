@@ -5546,7 +5546,7 @@ the
 contents
 of
 the
-browertime
+browsertime
 .
 json
 file
