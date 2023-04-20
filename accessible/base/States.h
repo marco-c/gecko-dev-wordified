@@ -1903,6 +1903,11 @@ states
 :
 :
 COLLAPSED
+|
+states
+:
+:
+OPAQUE1
 ;
 }
 /
