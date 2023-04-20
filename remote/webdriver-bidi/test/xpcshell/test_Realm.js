@@ -40,7 +40,7 @@ Realm
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -57,7 +57,9 @@ bidi
 /
 Realm
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

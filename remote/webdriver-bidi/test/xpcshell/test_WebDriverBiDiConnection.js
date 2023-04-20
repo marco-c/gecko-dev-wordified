@@ -40,7 +40,7 @@ splitMethod
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -57,7 +57,9 @@ bidi
 /
 WebDriverBiDiConnection
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
