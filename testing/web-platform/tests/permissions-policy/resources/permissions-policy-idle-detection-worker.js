@@ -58,6 +58,13 @@ then
 postMessage
 (
 {
+type
+:
+'
+availability
+-
+result
+'
 enabled
 :
 true
@@ -72,6 +79,13 @@ error
 postMessage
 (
 {
+type
+:
+'
+availability
+-
+result
+'
 enabled
 :
 false
