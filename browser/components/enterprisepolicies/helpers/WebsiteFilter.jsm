@@ -164,8 +164,8 @@ the
 user
 to
 create
-a
-whitelist
+an
+allowlist
 approach
 *
 by
@@ -186,7 +186,7 @@ then
 *
 adding
 all
-whitelisted
+allowlisted
 websites
 on
 the
