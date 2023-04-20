@@ -32360,9 +32360,10 @@ numArgs
 pushReturnValueOfCall
 (
 baselineCall
-ToMIRType
-(
 retType
+.
+toMIRType
+(
 )
 )
 ;
