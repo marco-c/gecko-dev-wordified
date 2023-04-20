@@ -117,6 +117,12 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
+quota
+/
 QuotaCommon
 .
 h
