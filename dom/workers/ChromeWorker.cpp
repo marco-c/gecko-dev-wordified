@@ -220,14 +220,6 @@ aIsChromeWorker
 *
 /
 WorkerKindDedicated
-RequestCredentials
-:
-:
-Omit
-WorkerType
-:
-:
-Classic
 u
 "
 "

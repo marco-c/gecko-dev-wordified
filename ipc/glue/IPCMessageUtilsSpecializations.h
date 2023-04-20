@@ -2230,7 +2230,7 @@ nsContentPolicyType
 >
 :
 public
-ContiguousEnumSerializer
+ContiguousEnumSerializerInclusive
 <
 nsContentPolicyType
 nsIContentPolicy
@@ -2240,7 +2240,7 @@ TYPE_INVALID
 nsIContentPolicy
 :
 :
-TYPE_END
+TYPE_WEB_IDENTITY
 >
 {
 }

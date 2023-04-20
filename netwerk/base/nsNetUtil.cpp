@@ -2449,15 +2449,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
-|
-|
-aType
-=
-=
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_WORKER_STATIC_MODULE
 )
 )
 {
