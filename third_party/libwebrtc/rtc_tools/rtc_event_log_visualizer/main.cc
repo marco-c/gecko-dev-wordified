@@ -321,15 +321,6 @@ include
 "
 test
 /
-field_trial
-.
-h
-"
-#
-include
-"
-test
-/
 testsupport
 /
 file_utils
