@@ -837,6 +837,26 @@ android_deps
 ]
     
 #
+This
+is
+not
+a
+library
+but
+a
+collection
+of
+libraries
+.
+    
+'
+androidx
+'
+:
+[
+]
+    
+#
 Compile
 time
 dependencies
