@@ -665,6 +665,17 @@ data
 )
 ;
 nsresult
+AppendToCrashReportAnnotation
+(
+Annotation
+key
+const
+nsACString
+&
+data
+)
+;
+nsresult
 RemoveCrashReportAnnotation
 (
 Annotation
