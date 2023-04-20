@@ -282,6 +282,17 @@ include
 "
 gc
 /
+TraceMethods
+-
+inl
+.
+h
+"
+#
+include
+"
+gc
+/
 Zone
 -
 inl
