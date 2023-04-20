@@ -537,6 +537,15 @@ const
 ;
 private
 :
+enum
+class
+RateControlState
+{
+kRcHold
+kRcIncrease
+kRcDecrease
+}
+;
 friend
 class
 GoogCcStatePrinter
