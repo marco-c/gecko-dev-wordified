@@ -346,6 +346,14 @@ encapsulating
 NSNumbers
 or
 NSStrings
+or
+NSDictionary
+of
+NSString
+keys
+to
+NSNumber
+values
 .
 *
 /
