@@ -811,15 +811,6 @@ optional
 <
 bool
 >
-use_vad
-;
-absl
-:
-:
-optional
-<
-bool
->
 use_all
 ;
 absl
