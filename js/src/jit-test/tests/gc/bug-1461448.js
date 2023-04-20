@@ -149,11 +149,8 @@ lfOffThreadGlobal
 .
 offThreadCompileToStencil
 (
-gcparam
+setMarkStackLimit
 (
-"
-markStackLimit
-"
 1
 )
 ;

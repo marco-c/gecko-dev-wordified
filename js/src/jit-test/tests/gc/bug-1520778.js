@@ -13,11 +13,8 @@ gczeal
 0
 )
 ;
-gcparam
+setMarkStackLimit
 (
-"
-markStackLimit
-"
 1
 )
 ;
