@@ -1325,7 +1325,7 @@ glob
 .
 RefPtr
 <
-MatchGlob
+MatchGlobCore
 >
 mPath
 ;
