@@ -5916,14 +5916,6 @@ to
 the
 start
 position
-which
-currently
-/
-/
-happens
-on
-audio
-only
 .
 const
 bool
