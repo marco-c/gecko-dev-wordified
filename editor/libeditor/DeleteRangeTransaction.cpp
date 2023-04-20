@@ -960,7 +960,7 @@ rv
 EditorBase
 :
 :
-CollapseSelectionToEndOfLastLeafNode
+CollapseSelectionTo
 (
 )
 failed
