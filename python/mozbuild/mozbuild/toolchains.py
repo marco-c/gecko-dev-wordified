@@ -67,8 +67,19 @@ toolchain_task_definitions
 )
 :
     
-from
+import
 gecko_taskgraph
+#
+noqa
+:
+triggers
+override
+of
+the
+graph_config_schema
+    
+from
+taskgraph
 .
 generator
 import

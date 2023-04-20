@@ -102,6 +102,12 @@ get_suite_definition
 from
 taskgraph
 .
+generator
+import
+TaskGraphGenerator
+from
+taskgraph
+.
 parameters
 import
 ParameterMismatch
@@ -112,12 +118,6 @@ taskgraph
 taskgraph
 import
 TaskGraph
-from
-gecko_taskgraph
-.
-generator
-import
-TaskGraphGenerator
 here
 =
 os
