@@ -2582,7 +2582,6 @@ Container
 Little
 =
 >
-(
 bytes
 .
 pwrite_with
@@ -2601,14 +2600,12 @@ into
 le
 )
 ?
-)
 Container
 :
 :
 Big
 =
 >
-(
 bytes
 .
 pwrite_with
@@ -2627,7 +2624,6 @@ into
 le
 )
 ?
-)
 }
 ;
 Ok
