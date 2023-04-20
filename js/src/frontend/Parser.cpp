@@ -1252,7 +1252,6 @@ Parser
 )
 anyChars
 (
-cx
 fc
 options
 this
@@ -1466,7 +1465,6 @@ syntaxParser
 )
 tokenStream
 (
-cx
 fc
 &
 compilationState

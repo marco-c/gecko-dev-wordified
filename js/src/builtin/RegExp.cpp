@@ -2507,7 +2507,6 @@ frontend
 DummyTokenStream
 dummyTokenStream
 (
-cx
 &
 fc
 options
