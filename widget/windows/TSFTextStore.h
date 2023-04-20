@@ -2463,7 +2463,7 @@ aHTMLInputType
 const
 nsString
 &
-aHTMLInputMode
+aHTMLInputInputMode
 )
 ;
 /

@@ -10179,7 +10179,7 @@ go
 }
 static
 void
-GetInputMode
+GetInputmode
 (
 const
 IMEState
@@ -10191,7 +10191,7 @@ nsIContent
 aContent
 nsAString
 &
-aInputMode
+aInputmode
 )
 {
 if
@@ -10240,7 +10240,7 @@ nsGkAtoms
 :
 :
 inputmode
-aInputMode
+aInputmode
 )
 ;
 if
@@ -10256,7 +10256,7 @@ input
 )
 &
 &
-aInputMode
+aInputmode
 .
 EqualsLiteral
 (
@@ -10291,7 +10291,7 @@ allowed
 only
 in
 chrome
-aInputMode
+aInputmode
 .
 Truncate
 (
@@ -10303,7 +10303,7 @@ else
 {
 ToLowerCase
 (
-aInputMode
+aInputmode
 )
 ;
 }
@@ -10903,14 +10903,14 @@ context
 mActionHint
 )
 ;
-GetInputMode
+GetInputmode
 (
 aState
 *
 focusedElement
 context
 .
-mHTMLInputMode
+mHTMLInputInputmode
 )
 ;
 GetAutocapitalize
