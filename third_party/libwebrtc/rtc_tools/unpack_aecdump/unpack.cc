@@ -951,13 +951,9 @@ file
 the
 payload
 of
-|
 event
-|
 using
-|
 frame_count
-|
 to
 calculate
 /
@@ -1114,9 +1110,7 @@ at
 frame
 /
 /
-|
 frame_offset
-|
 .
 void
 HandleInitEvent

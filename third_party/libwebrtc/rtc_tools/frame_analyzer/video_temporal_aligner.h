@@ -275,9 +275,7 @@ as
 the
 size
 of
-|
 indices
-|
 and
 /
 /
