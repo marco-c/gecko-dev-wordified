@@ -324,6 +324,12 @@ CalculatePreallocateSize
 )
 const
 ;
+uint32_t
+Length
+(
+)
+const
+;
 size_t
 SizeOfIncludingThis
 (
