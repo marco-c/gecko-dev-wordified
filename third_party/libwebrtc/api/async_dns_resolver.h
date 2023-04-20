@@ -91,11 +91,6 @@ API_ASYNC_DNS_RESOLVER_H_
 #
 include
 <
-functional
->
-#
-include
-<
 memory
 >
 #

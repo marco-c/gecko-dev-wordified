@@ -141,7 +141,7 @@ include
 "
 api
 /
-async_dns_resolver
+async_resolver_factory
 .
 h
 "
@@ -1123,9 +1123,9 @@ cricket
 PortAllocator
 *
 port_allocator
-AsyncDnsResolverFactoryInterface
+AsyncResolverFactory
 *
-async_dns_resolver_factory
+async_resolver_factory
 Config
 config
 )
@@ -3538,10 +3538,10 @@ port_allocator_
 =
 nullptr
 ;
-AsyncDnsResolverFactoryInterface
+AsyncResolverFactory
 *
 const
-async_dns_resolver_factory_
+async_resolver_factory_
 =
 nullptr
 ;
