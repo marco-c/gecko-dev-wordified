@@ -15888,11 +15888,12 @@ loadInfo
 .
 mShouldResistFingerprinting
 =
-document
--
->
+nsContentUtils
+:
+:
 ShouldResistFingerprinting
 (
+document
 )
 ;
 /
