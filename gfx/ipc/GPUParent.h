@@ -310,6 +310,16 @@ OverlayInfo
 aInfo
 )
 ;
+void
+NotifySwapChainInfo
+(
+layers
+:
+:
+SwapChainInfo
+aInfo
+)
+;
 mozilla
 :
 :
