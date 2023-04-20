@@ -794,9 +794,6 @@ CreateLoadingSessionHistoryEntryForLoad
 nsDocShellLoadState
 *
 aLoadState
-SessionHistoryEntry
-*
-aExistingEntry
 nsIChannel
 *
 aChannel
@@ -2983,17 +2980,6 @@ aHasPostData
 )
 ;
 }
-already_AddRefed
-<
-nsDocShellLoadState
->
-CreateLoadInfo
-(
-SessionHistoryEntry
-*
-aEntry
-)
-;
 /
 /
 XXX
