@@ -116,6 +116,11 @@ nsIBackgroundChannelRegistrar
 idl
 "
 "
+nsIBinaryHttp
+.
+idl
+"
+"
 nsIEarlyHintObserver
 .
 idl
