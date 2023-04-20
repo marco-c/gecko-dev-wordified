@@ -1918,7 +1918,6 @@ aGraph
 Control
 API
 .
-virtual
 void
 AddAudioOutput
 (
@@ -1927,7 +1926,6 @@ void
 aKey
 )
 ;
-virtual
 void
 SetAudioOutputVolume
 (
@@ -1938,7 +1936,6 @@ float
 aVolume
 )
 ;
-virtual
 void
 RemoveAudioOutput
 (
@@ -2015,13 +2012,11 @@ does
 not
 advance
 .
-virtual
 void
 Suspend
 (
 )
 ;
-virtual
 void
 Resume
 (
@@ -2128,7 +2123,6 @@ not
 .
 *
 /
-virtual
 void
 AddDirectListener
 (
@@ -2206,7 +2200,6 @@ nothing
 .
 *
 /
-virtual
 void
 RemoveDirectListener
 (
