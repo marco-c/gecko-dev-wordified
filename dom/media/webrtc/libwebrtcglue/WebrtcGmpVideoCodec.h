@@ -349,6 +349,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 VideoConduit
 .
 h
@@ -2558,6 +2565,12 @@ std
 :
 string
 mPCHandle
+;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder
 ;
 MediaEventProducer
 <
