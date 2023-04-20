@@ -1144,11 +1144,6 @@ FrameType
 VideoFrameKey
 )
 .
-setCompleteFrame
-(
-true
-)
-.
 createEncodedImage
 (
 )
