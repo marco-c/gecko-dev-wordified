@@ -210,6 +210,17 @@ include
 "
 mozilla
 /
+dom
+/
+StorageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -284,6 +295,7 @@ FileSystemManager
 >
 (
 mGlobal
+nullptr
 )
 ;
 }

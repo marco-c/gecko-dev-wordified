@@ -195,6 +195,17 @@ include
 "
 mozilla
 /
+dom
+/
+StorageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 FileDescriptorUtils
@@ -357,6 +368,7 @@ FileSystemManager
 >
 (
 mGlobal
+nullptr
 MakeRefPtr
 <
 FileSystemBackgroundRequestHandler

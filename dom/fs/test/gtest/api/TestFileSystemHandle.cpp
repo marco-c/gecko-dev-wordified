@@ -208,6 +208,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+StorageManager
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h
@@ -281,6 +292,7 @@ FileSystemManager
 >
 (
 mGlobal
+nullptr
 )
 ;
 }
