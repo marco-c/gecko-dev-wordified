@@ -2469,6 +2469,7 @@ RtpVideoSender
 Clock
 *
 clock
+const
 std
 :
 :
@@ -2477,6 +2478,7 @@ map
 uint32_t
 RtpState
 >
+&
 suspended_ssrcs
 const
 std
@@ -2618,16 +2620,6 @@ active_
 (
 false
 )
-suspended_ssrcs_
-(
-std
-:
-:
-move
-(
-suspended_ssrcs
-)
-)
 fec_controller_
 (
 std
@@ -2658,7 +2650,7 @@ GetBandwidthObserver
 (
 )
 transport
-suspended_ssrcs_
+suspended_ssrcs
 event_log
 retransmission_limiter
 frame_encryptor
@@ -2936,6 +2928,7 @@ id
 }
 ConfigureSsrcs
 (
+suspended_ssrcs
 )
 ;
 ConfigureRids
@@ -4783,6 +4776,17 @@ RtpVideoSender
 :
 ConfigureSsrcs
 (
+const
+std
+:
+:
+map
+<
+uint32_t
+RtpState
+>
+&
+suspended_ssrcs
 )
 {
 /
@@ -4860,7 +4864,7 @@ existed
 auto
 it
 =
-suspended_ssrcs_
+suspended_ssrcs
 .
 find
 (
@@ -4872,7 +4876,7 @@ if
 it
 !
 =
-suspended_ssrcs_
+suspended_ssrcs
 .
 end
 (
@@ -4994,7 +4998,7 @@ get
 auto
 it
 =
-suspended_ssrcs_
+suspended_ssrcs
 .
 find
 (
@@ -5006,7 +5010,7 @@ if
 it
 !
 =
-suspended_ssrcs_
+suspended_ssrcs
 .
 end
 (
