@@ -116,6 +116,15 @@ dll
 "
 ;
 const
+kUserBlockedModuleName
+=
+"
+TestDllBlocklist_UserBlocked
+.
+dll
+"
+;
+const
 kFileFilterInDialog
 =
 "
