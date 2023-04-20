@@ -151,6 +151,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 RTCStatsReport
 .
 h
@@ -237,6 +244,10 @@ aConduit
 RTCRtpTransceiver
 *
 aTransceiver
+const
+TrackingId
+&
+aTrackingId
 )
 ;
 /

@@ -499,6 +499,11 @@ UNIFIED_SOURCES
 =
 [
 "
+CamerasTypes
+.
+cpp
+"
+"
 MediaChild
 .
 cpp

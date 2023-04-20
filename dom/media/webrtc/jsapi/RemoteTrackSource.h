@@ -90,7 +90,6 @@ MediaStreamTrackSource
 {
 public
 :
-explicit
 RemoteTrackSource
 (
 SourceMediaTrack
@@ -103,6 +102,8 @@ const
 nsString
 &
 aLabel
+TrackingId
+aTrackingId
 )
 :
 dom
@@ -112,6 +113,13 @@ MediaStreamTrackSource
 (
 aPrincipal
 aLabel
+std
+:
+:
+move
+(
+aTrackingId
+)
 )
 mStream
 (

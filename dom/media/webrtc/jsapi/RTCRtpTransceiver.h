@@ -1089,6 +1089,10 @@ InitAudio
 void
 InitVideo
 (
+const
+TrackingId
+&
+aRecvTrackingId
 )
 ;
 void

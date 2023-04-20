@@ -162,6 +162,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 transport
 /
 mediapacket
@@ -2178,6 +2185,10 @@ std
 :
 string
 aPCHandle
+const
+TrackingId
+&
+aRecvTrackingId
 )
 ;
 enum
