@@ -189,9 +189,6 @@ frame_builder
 FrameBuildingState
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

@@ -272,7 +272,7 @@ use
 crate
 :
 :
-glyph_rasterizer
+rasterizer
 :
 :
 {
@@ -285,7 +285,7 @@ use
 crate
 :
 :
-glyph_rasterizer
+rasterizer
 :
 :
 {
@@ -299,13 +299,10 @@ use
 crate
 :
 :
-internal_types
+types
 :
 :
-{
 FastHashMap
-ResourceCacheError
-}
 ;
 use
 std
@@ -1979,11 +1976,7 @@ new
 )
 -
 >
-Result
-<
 FontContext
-ResourceCacheError
->
 {
 debug
 !
@@ -2031,8 +2024,6 @@ gamma
 .
 0
 ;
-Ok
-(
 FontContext
 {
 ct_font_descs
@@ -2071,7 +2062,6 @@ gamma
 gamma
 )
 }
-)
 }
 pub
 fn

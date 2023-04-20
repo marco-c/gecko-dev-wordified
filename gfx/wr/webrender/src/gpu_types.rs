@@ -173,9 +173,6 @@ MatrixHelpers
 }
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

@@ -67,9 +67,6 @@ IdNamespace
 }
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

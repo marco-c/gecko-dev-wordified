@@ -110,9 +110,6 @@ units
 *
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :
