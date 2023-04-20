@@ -283,6 +283,11 @@ Win32SocketTest
 (
 )
 :
+SocketTest
+(
+&
+server_
+)
 thread_
 (
 &
