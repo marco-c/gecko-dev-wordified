@@ -179,6 +179,16 @@ chrome
 /
 global
 /
+aboutReader
+.
+properties
+"
+            
+"
+chrome
+/
+global
+/
 commonDialogs
 .
 properties
