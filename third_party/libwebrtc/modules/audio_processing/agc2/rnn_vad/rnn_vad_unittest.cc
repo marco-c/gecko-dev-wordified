@@ -543,7 +543,7 @@ features_extractor
 cpu_features
 )
 ;
-RnnBasedVad
+RnnVad
 rnn_vad
 (
 cpu_features
@@ -1098,7 +1098,7 @@ kFeatureVectorSize
 >
 feature_vector
 ;
-RnnBasedVad
+RnnVad
 rnn_vad
 (
 cpu_features

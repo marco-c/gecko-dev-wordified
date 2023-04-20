@@ -477,7 +477,7 @@ features_extractor_
 rnn_vad
 :
 :
-RnnBasedVad
+RnnVad
 rnn_vad_
 ;
 }
