@@ -32052,8 +32052,6 @@ LS_INFO
 Dissociating
 transceiver
 "
-<
-<
 "
 since
 the
@@ -32097,19 +32095,8 @@ absl
 nullopt
 )
 ;
-transceivers
-(
-)
--
->
-Remove
-(
-transceiver
-)
-;
-continue
-;
 }
+else
 if
 (
 !
@@ -32176,6 +32163,7 @@ never
 associated
 "
 ;
+}
 transceivers
 (
 )
@@ -32186,9 +32174,6 @@ Remove
 transceiver
 )
 ;
-continue
-;
-}
 }
 }
 void
