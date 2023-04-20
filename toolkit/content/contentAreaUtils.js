@@ -3558,7 +3558,7 @@ fileName
 aContentType
 mimeService
 .
-VALIDATE_DEFAULT
+VALIDATE_FORCE_APPEND_EXTENSION
 )
 ;
 /

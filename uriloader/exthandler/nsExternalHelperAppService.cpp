@@ -23494,6 +23494,9 @@ modify
 ShouldModifyExtension
 (
 mimeInfo
+aFlags
+&
+VALIDATE_FORCE_APPEND_EXTENSION
 originalExtension
 )
 ;
@@ -25292,6 +25295,8 @@ ShouldModifyExtension
 nsIMIMEInfo
 *
 aMimeInfo
+bool
+aForceAppend
 const
 nsCString
 &
@@ -25440,6 +25445,10 @@ canForce
 )
 {
 return
+aForceAppend
+?
+ModifyExtension_Append
+:
 ModifyExtension_Ignore
 ;
 }

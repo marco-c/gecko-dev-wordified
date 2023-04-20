@@ -1398,6 +1398,8 @@ ShouldModifyExtension
 nsIMIMEInfo
 *
 aMimeInfo
+bool
+aForceAppend
 const
 nsCString
 &
