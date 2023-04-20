@@ -1539,6 +1539,12 @@ GetStreamingParametersForThreadCallback
 ProfilerThreadId
 DoStreamSamplesAndMarkersToJSON
 (
+mozilla
+:
+:
+FailureLatch
+&
+aFailureLatch
 GetStreamingParametersForThreadCallback
 &
 &
