@@ -1418,6 +1418,8 @@ GetTransceivers
 const
 override
 ;
+RTCErrorOr
+<
 rtc
 :
 :
@@ -1425,7 +1427,8 @@ scoped_refptr
 <
 DataChannelInterface
 >
-CreateDataChannel
+>
+CreateDataChannelOrError
 (
 const
 std

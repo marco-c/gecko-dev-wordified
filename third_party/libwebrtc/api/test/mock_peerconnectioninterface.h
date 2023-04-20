@@ -612,6 +612,8 @@ override
 ;
 MOCK_METHOD
 (
+RTCErrorOr
+<
 rtc
 :
 :
@@ -619,7 +621,8 @@ scoped_refptr
 <
 DataChannelInterface
 >
-CreateDataChannel
+>
+CreateDataChannelOrError
 (
 const
 std
