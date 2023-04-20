@@ -1799,7 +1799,7 @@ appendInvariantChars
 (
 UnicodeString
 (
-false
+FALSE
 extStart
 +
 1
@@ -1823,7 +1823,7 @@ appendInvariantChars
 (
 UnicodeString
 (
-false
+FALSE
 dictfname
 dictnlength
 )

@@ -1866,7 +1866,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -1897,7 +1897,7 @@ pos
 start
 ;
 return
-false
+FALSE
 ;
 }
 +
@@ -1905,7 +1905,7 @@ false
 pos
 ;
 return
-true
+TRUE
 ;
 }
 /
@@ -2400,7 +2400,7 @@ with
 isLiteral
 =
 =
-true
+TRUE
 .
 *
 If
@@ -3443,7 +3443,7 @@ toPattern
 pat
 escapeUnprintable
 )
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )

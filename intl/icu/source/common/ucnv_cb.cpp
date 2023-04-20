@@ -579,7 +579,7 @@ no
 offsets
 *
 /
-false
+FALSE
 /
 *
 no
@@ -926,7 +926,7 @@ newTargetLimit
 source
 sourceLimit
 NULL
-false
+FALSE
 &
 err2
 )

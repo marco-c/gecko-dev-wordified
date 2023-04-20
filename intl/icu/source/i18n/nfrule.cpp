@@ -5082,11 +5082,11 @@ sub2
 )
 {
 return
-true
+TRUE
 ;
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -7131,7 +7131,7 @@ re
 ;
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -7942,7 +7942,7 @@ setLong
 )
 ;
 return
-true
+TRUE
 ;
 }
 if
@@ -7991,7 +7991,7 @@ uprv_getInfinity
 )
 ;
 return
-true
+TRUE
 ;
 }
 if
@@ -8040,7 +8040,7 @@ uprv_getNaN
 )
 ;
 return
-true
+TRUE
 ;
 }
 /
@@ -9169,7 +9169,7 @@ result
 )
 ;
 return
-true
+TRUE
 ;
 /
 /
@@ -10157,7 +10157,7 @@ upperBound
 #
 if
 UCONFIG_NO_COLLATION
-false
+FALSE
 #
 else
 formatter
@@ -10530,7 +10530,7 @@ upperBound
 #
 if
 UCONFIG_NO_COLLATION
-false
+FALSE
 #
 else
 formatter
@@ -13469,7 +13469,7 @@ length
 )
 {
 return
-true
+TRUE
 ;
 }
 #
@@ -13547,7 +13547,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 LocalPointer
@@ -13586,7 +13586,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 UErrorCode
@@ -13680,7 +13680,7 @@ string
 is
 empty
 return
-false
+FALSE
 ;
 }
 void

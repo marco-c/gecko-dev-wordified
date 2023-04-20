@@ -469,7 +469,7 @@ iter
 )
 {
 return
-false
+FALSE
 ;
 }
 static
@@ -4257,7 +4257,7 @@ delta
 ;
 havePos
 =
-true
+TRUE
 ;
 /
 *
@@ -4301,7 +4301,7 @@ delta
 ;
 havePos
 =
-true
+TRUE
 ;
 }
 else
@@ -4331,7 +4331,7 @@ pos
 ;
 havePos
 =
-false
+FALSE
 ;
 }
 break
@@ -4364,7 +4364,7 @@ delta
 ;
 havePos
 =
-true
+TRUE
 ;
 }
 else
@@ -4441,7 +4441,7 @@ pos
 ;
 havePos
 =
-false
+FALSE
 ;
 }
 }

@@ -3321,8 +3321,8 @@ UCNV_UTF32_BigEndian
 0xfd
 }
 4
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -6333,8 +6333,8 @@ UCNV_UTF32_LittleEndian
 0
 }
 4
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -7183,7 +7183,7 @@ pArgs
 >
 flush
 =
-false
+FALSE
 ;
 /
 *
@@ -7783,8 +7783,8 @@ else
 4
 #
 endif
-false
-false
+FALSE
+FALSE
 0
 0
 {

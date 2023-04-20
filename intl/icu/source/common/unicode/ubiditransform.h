@@ -289,9 +289,6 @@ file
 *
 \
 brief
-C
-API
-:
 Bidi
 Transformations
 *

@@ -1674,7 +1674,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -1750,12 +1750,12 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 }
 return
-true
+TRUE
 ;
 }
 CharString

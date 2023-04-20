@@ -262,7 +262,7 @@ brief
 C
 API
 :
-Miscellaneous
+misc
 definitions
 *
 *

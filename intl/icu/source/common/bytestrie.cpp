@@ -2400,7 +2400,7 @@ value
 ;
 haveUniqueValue
 =
-true
+TRUE
 ;
 }
 }
@@ -2425,7 +2425,7 @@ NULL
 }
 haveUniqueValue
 =
-true
+TRUE
 ;
 }
 }
@@ -2526,12 +2526,12 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 haveUniqueValue
 =
-true
+TRUE
 ;
 }
 else
@@ -2605,7 +2605,7 @@ uniqueValue
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2617,7 +2617,7 @@ value
 ;
 haveUniqueValue
 =
-true
+TRUE
 ;
 }
 if
@@ -2626,7 +2626,7 @@ isFinal
 )
 {
 return
-true
+TRUE
 ;
 }
 pos

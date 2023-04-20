@@ -1999,7 +1999,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 U_ASSERT
@@ -2265,7 +2265,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 start
@@ -2291,7 +2291,7 @@ pos
 0
 ;
 return
-true
+TRUE
 ;
 }
 prevCC
@@ -2360,7 +2360,7 @@ state
 ITER_IN_FCD_SEGMENT
 ;
 return
-true
+TRUE
 ;
 }
 void
@@ -2581,7 +2581,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 U_ASSERT
@@ -2864,7 +2864,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 limit
@@ -2894,7 +2894,7 @@ length
 )
 ;
 return
-true
+TRUE
 ;
 }
 nextCC
@@ -2967,7 +2967,7 @@ state
 ITER_IN_FCD_SEGMENT
 ;
 return
-true
+TRUE
 ;
 }
 UBool

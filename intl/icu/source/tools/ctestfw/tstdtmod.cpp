@@ -287,7 +287,7 @@ isFailure
 {
 errlog
 (
-false
+FALSE
 u
 "
 destructor
@@ -317,7 +317,7 @@ isFailure
 {
 errlog
 (
-false
+FALSE
 u
 "
 expected
@@ -331,7 +331,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -341,7 +341,7 @@ reset
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -396,7 +396,7 @@ ap
 ;
 errlog
 (
-false
+FALSE
 u
 "
 expected
@@ -410,7 +410,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -420,7 +420,7 @@ reset
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -441,7 +441,7 @@ isFailure
 {
 errlog
 (
-true
+TRUE
 u
 "
 data
@@ -457,7 +457,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -467,7 +467,7 @@ reset
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -522,7 +522,7 @@ ap
 ;
 errlog
 (
-true
+TRUE
 u
 "
 data
@@ -538,7 +538,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -548,7 +548,7 @@ reset
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -574,7 +574,7 @@ expectedError
 {
 errlog
 (
-false
+FALSE
 UnicodeString
 (
 u
@@ -663,7 +663,7 @@ ap
 ;
 errlog
 (
-false
+FALSE
 UnicodeString
 (
 u
@@ -753,7 +753,7 @@ const
 {
 errlog
 (
-false
+FALSE
 u
 "
 (
@@ -1167,7 +1167,7 @@ fNumberOfTests
 ;
 fDataTestValid
 =
-true
+TRUE
 ;
 fModuleBundle
 =
@@ -1247,7 +1247,7 @@ resources
 ;
 fDataTestValid
 =
-false
+FALSE
 ;
 }
 else
@@ -1295,13 +1295,13 @@ fInfo
 )
 {
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -1336,7 +1336,7 @@ if
 fDataTestValid
 =
 =
-true
+TRUE
 )
 {
 /
@@ -1475,7 +1475,7 @@ if
 fDataTestValid
 =
 =
-true
+TRUE
 )
 {
 /
@@ -1685,7 +1685,7 @@ US_INV
 ;
 fDataTestValid
 =
-false
+FALSE
 ;
 }
 }

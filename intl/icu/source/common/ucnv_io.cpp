@@ -2003,8 +2003,8 @@ icu
 :
 UInitOnce
 gAliasDataInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 enum
 {
@@ -2310,7 +2310,7 @@ gMainTable
 )
 ;
 return
-true
+TRUE
 ;
 /
 *
@@ -2853,7 +2853,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 return
@@ -3407,7 +3407,7 @@ c1
 UBool
 afterDigit
 =
-false
+FALSE
 ;
 while
 (
@@ -3441,7 +3441,7 @@ UIGNORE
 :
 afterDigit
 =
-false
+FALSE
 ;
 continue
 ;
@@ -3507,7 +3507,7 @@ NONZERO
 :
 afterDigit
 =
-true
+TRUE
 ;
 break
 ;
@@ -3528,7 +3528,7 @@ letter
 /
 afterDigit
 =
-false
+FALSE
 ;
 break
 ;
@@ -3581,7 +3581,7 @@ c1
 UBool
 afterDigit
 =
-false
+FALSE
 ;
 while
 (
@@ -3615,7 +3615,7 @@ UIGNORE
 :
 afterDigit
 =
-false
+FALSE
 ;
 continue
 ;
@@ -3681,7 +3681,7 @@ NONZERO
 :
 afterDigit
 =
-true
+TRUE
 ;
 break
 ;
@@ -3702,7 +3702,7 @@ letter
 /
 afterDigit
 =
-false
+FALSE
 ;
 break
 ;
@@ -3962,10 +3962,10 @@ c2
 UBool
 afterDigit1
 =
-false
+FALSE
 afterDigit2
 =
-false
+FALSE
 ;
 for
 (
@@ -4005,7 +4005,7 @@ UIGNORE
 :
 afterDigit1
 =
-false
+FALSE
 ;
 continue
 ;
@@ -4071,7 +4071,7 @@ NONZERO
 :
 afterDigit1
 =
-true
+TRUE
 ;
 break
 ;
@@ -4092,7 +4092,7 @@ letter
 /
 afterDigit1
 =
-false
+FALSE
 ;
 break
 ;
@@ -4138,7 +4138,7 @@ UIGNORE
 :
 afterDigit2
 =
-false
+FALSE
 ;
 continue
 ;
@@ -4204,7 +4204,7 @@ NONZERO
 :
 afterDigit2
 =
-true
+TRUE
 ;
 break
 ;
@@ -4225,7 +4225,7 @@ letter
 /
 afterDigit2
 =
-false
+FALSE
 ;
 break
 ;
@@ -4846,13 +4846,13 @@ currAlias
 )
 {
 return
-true
+TRUE
 ;
 }
 }
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -9051,7 +9051,7 @@ TempRow
 io_compareRows
 &
 tempTable
-false
+FALSE
 pErrorCode
 )
 ;

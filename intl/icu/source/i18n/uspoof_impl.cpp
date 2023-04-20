@@ -2264,7 +2264,7 @@ loop
 UBool
 allASCII
 =
-true
+TRUE
 ;
 for
 (
@@ -2303,7 +2303,7 @@ i
 {
 allASCII
 =
-false
+FALSE
 ;
 break
 ;
@@ -3596,11 +3596,11 @@ status
 U_INVALID_FORMAT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -3762,13 +3762,13 @@ dataVersion
 ;
 }
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -3897,8 +3897,8 @@ cleanup
 static
 UInitOnce
 gSpoofInitDefaultOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 SpoofData
@@ -3951,7 +3951,7 @@ reset
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -4547,7 +4547,7 @@ NULL
 ;
 fDataOwned
 =
-false
+FALSE
 ;
 fUDM
 =

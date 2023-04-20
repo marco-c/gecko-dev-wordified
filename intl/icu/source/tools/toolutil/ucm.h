@@ -1471,7 +1471,7 @@ direction
 If
 intersectBase
 is
-true
+TRUE
 and
 the
 base
@@ -1590,7 +1590,7 @@ error
 *
 *
 return
-false
+FALSE
 in
 case
 of

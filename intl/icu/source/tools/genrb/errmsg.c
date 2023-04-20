@@ -329,13 +329,6 @@ h
 #
 include
 <
-stdbool
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -429,7 +422,7 @@ static
 UBool
 gShowWarning
 =
-true
+TRUE
 ;
 U_CFUNC
 void
@@ -458,7 +451,7 @@ static
 UBool
 gStrict
 =
-false
+FALSE
 ;
 U_CFUNC
 UBool
@@ -487,7 +480,7 @@ static
 UBool
 gVerbose
 =
-false
+FALSE
 ;
 U_CFUNC
 UBool

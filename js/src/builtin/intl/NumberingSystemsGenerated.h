@@ -131,10 +131,6 @@ kali
 "
 \
 "
-kawi
-"
-\
-"
 khmr
 "
 \
@@ -216,10 +212,6 @@ mymrshan
 \
 "
 mymrtlng
-"
-\
-"
-nagm
 "
 \
 "

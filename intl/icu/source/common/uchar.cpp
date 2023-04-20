@@ -1130,7 +1130,7 @@ c
 )
 {
 return
-true
+TRUE
 ;
 }
 GET_PROPS
@@ -1969,7 +1969,7 @@ comparing
 =
 0
 returns
-false
+FALSE
 for
 the
 categories
@@ -2132,7 +2132,7 @@ comparing
 =
 0
 returns
-false
+FALSE
 for
 the
 categories
@@ -2283,7 +2283,7 @@ comparing
 =
 0
 returns
-false
+FALSE
 for
 the
 categories
@@ -4105,7 +4105,7 @@ terminator
 *
 /
 return
-false
+FALSE
 ;
 }
 while
@@ -4494,7 +4494,7 @@ void
 value
 ;
 return
-true
+TRUE
 ;
 }
 #

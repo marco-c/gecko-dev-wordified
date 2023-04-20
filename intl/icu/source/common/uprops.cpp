@@ -509,8 +509,8 @@ icu
 :
 UInitOnce
 gLayoutInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UDataMemory
 *
@@ -621,7 +621,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 UBool
@@ -1028,7 +1028,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 umtx_initOnce
@@ -1340,7 +1340,7 @@ UProperty
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -1443,7 +1443,7 @@ UProperty
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -1527,7 +1527,7 @@ UProperty
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -1584,7 +1584,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -1694,7 +1694,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -1820,7 +1820,7 @@ length
 )
 dest
 destLength
-false
+FALSE
 )
 )
 ;
@@ -1843,7 +1843,7 @@ UProperty
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -1897,7 +1897,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 UnicodeString
@@ -1991,8 +1991,8 @@ src
 length
 (
 )
-false
-true
+FALSE
+TRUE
 buffer
 errorCode
 )
@@ -2029,7 +2029,7 @@ UProperty
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -2981,7 +2981,7 @@ property
 *
 /
 return
-false
+FALSE
 ;
 }
 else
@@ -4766,7 +4766,7 @@ return
 /
 /
 maximum
-true
+TRUE
 for
 all
 binary
@@ -5515,7 +5515,7 @@ folded1String
 .
 setTo
 (
-false
+FALSE
 folded1
 folded1Length
 )

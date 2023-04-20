@@ -649,14 +649,14 @@ doNOP
 0
 0
 0
-true
+TRUE
 }
 {
 doExprStart
 254
 29
 9
-false
+FALSE
 }
 /
 /
@@ -667,7 +667,7 @@ doNOP
 132
 1
 0
-true
+TRUE
 }
 /
 /
@@ -682,7 +682,7 @@ doNoChain
 /
 12
 9
-true
+TRUE
 }
 /
 /
@@ -696,7 +696,7 @@ doExprStart
 /
 88
 98
-false
+FALSE
 }
 /
 /
@@ -711,7 +711,7 @@ doNOP
 /
 19
 0
-true
+TRUE
 }
 /
 /
@@ -726,7 +726,7 @@ doNOP
 /
 1
 0
-true
+TRUE
 }
 /
 /
@@ -736,7 +736,7 @@ doNOP
 252
 0
 0
-false
+FALSE
 }
 /
 /
@@ -746,7 +746,7 @@ doExprStart
 255
 29
 9
-false
+FALSE
 }
 /
 /
@@ -761,7 +761,7 @@ doEndOfRule
 /
 1
 0
-true
+TRUE
 }
 /
 /
@@ -776,7 +776,7 @@ doNOP
 132
 9
 0
-true
+TRUE
 }
 /
 /
@@ -786,7 +786,7 @@ doRuleError
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -796,7 +796,7 @@ doExprStart
 254
 29
 0
-false
+FALSE
 }
 /
 /
@@ -811,7 +811,7 @@ doNOP
 132
 12
 0
-true
+TRUE
 }
 /
 /
@@ -826,7 +826,7 @@ doRuleError
 /
 103
 0
-false
+FALSE
 }
 /
 /
@@ -840,7 +840,7 @@ doExprStart
 /
 88
 37
-false
+FALSE
 }
 /
 /
@@ -855,7 +855,7 @@ doRuleError
 /
 103
 0
-false
+FALSE
 }
 /
 /
@@ -865,7 +865,7 @@ doRuleError
 252
 103
 0
-false
+FALSE
 }
 /
 /
@@ -875,7 +875,7 @@ doExprStart
 255
 29
 0
-false
+FALSE
 }
 /
 /
@@ -890,7 +890,7 @@ doNOP
 /
 21
 0
-true
+TRUE
 }
 /
 /
@@ -903,7 +903,7 @@ doReverseDir
 255
 28
 9
-false
+FALSE
 }
 /
 /
@@ -913,7 +913,7 @@ doOptionStart
 130
 23
 0
-true
+TRUE
 }
 /
 /
@@ -926,7 +926,7 @@ doRuleError
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -936,7 +936,7 @@ doNOP
 129
 23
 0
-true
+TRUE
 }
 /
 /
@@ -949,7 +949,7 @@ doOptionEnd
 255
 25
 0
-false
+FALSE
 }
 /
 /
@@ -964,7 +964,7 @@ doNOP
 /
 1
 0
-true
+TRUE
 }
 /
 /
@@ -977,7 +977,7 @@ doNOP
 132
 25
 0
-true
+TRUE
 }
 /
 /
@@ -987,7 +987,7 @@ doRuleError
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -997,7 +997,7 @@ doExprStart
 255
 29
 9
-false
+FALSE
 }
 /
 /
@@ -1010,7 +1010,7 @@ doRuleChar
 254
 38
 0
-true
+TRUE
 }
 /
 /
@@ -1021,7 +1021,7 @@ doNOP
 132
 29
 0
-true
+TRUE
 }
 /
 /
@@ -1031,7 +1031,7 @@ doRuleChar
 131
 38
 0
-true
+TRUE
 }
 /
 /
@@ -1046,7 +1046,7 @@ doNOP
 /
 94
 38
-false
+FALSE
 }
 /
 /
@@ -1061,7 +1061,7 @@ doLParen
 /
 29
 38
-true
+TRUE
 }
 /
 /
@@ -1075,7 +1075,7 @@ doNOP
 /
 88
 37
-false
+FALSE
 }
 /
 /
@@ -1090,7 +1090,7 @@ doDotAny
 /
 38
 0
-true
+TRUE
 }
 /
 /
@@ -1100,7 +1100,7 @@ doRuleError
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1110,7 +1110,7 @@ doCheckVarDef
 255
 38
 0
-false
+FALSE
 }
 /
 /
@@ -1125,7 +1125,7 @@ doNOP
 132
 38
 0
-true
+TRUE
 }
 /
 /
@@ -1143,7 +1143,7 @@ doUnaryOpStar
 /
 43
 0
-true
+TRUE
 }
 /
 /
@@ -1158,7 +1158,7 @@ doUnaryOpPlus
 /
 43
 0
-true
+TRUE
 }
 /
 /
@@ -1173,7 +1173,7 @@ doUnaryOpQuestion
 /
 43
 0
-true
+TRUE
 }
 /
 /
@@ -1183,7 +1183,7 @@ doNOP
 255
 43
 0
-false
+FALSE
 }
 /
 /
@@ -1193,7 +1193,7 @@ doExprCatOperator
 254
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1206,7 +1206,7 @@ doNOP
 132
 43
 0
-true
+TRUE
 }
 /
 /
@@ -1216,7 +1216,7 @@ doExprCatOperator
 131
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1231,7 +1231,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1246,7 +1246,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1260,7 +1260,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1275,7 +1275,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1290,7 +1290,7 @@ doExprCatOperator
 /
 55
 0
-false
+FALSE
 }
 /
 /
@@ -1305,7 +1305,7 @@ doExprCatOperator
 /
 67
 0
-true
+TRUE
 }
 /
 /
@@ -1320,7 +1320,7 @@ doExprOrOperator
 /
 29
 0
-true
+TRUE
 }
 /
 /
@@ -1335,7 +1335,7 @@ doExprRParen
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1345,7 +1345,7 @@ doExprFinished
 255
 255
 0
-false
+FALSE
 }
 /
 /
@@ -1360,7 +1360,7 @@ doSlash
 /
 57
 0
-true
+TRUE
 }
 /
 /
@@ -1373,7 +1373,7 @@ doNOP
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1383,7 +1383,7 @@ doExprCatOperator
 254
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1400,7 +1400,7 @@ doNOP
 132
 43
 0
-true
+TRUE
 }
 /
 /
@@ -1410,7 +1410,7 @@ doExprCatOperator
 131
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1425,7 +1425,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1440,7 +1440,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1454,7 +1454,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1469,7 +1469,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1484,7 +1484,7 @@ doExprOrOperator
 /
 29
 0
-true
+TRUE
 }
 /
 /
@@ -1499,7 +1499,7 @@ doExprRParen
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1509,7 +1509,7 @@ doExprFinished
 255
 255
 0
-false
+FALSE
 }
 /
 /
@@ -1519,7 +1519,7 @@ doNOP
 132
 67
 0
-true
+TRUE
 }
 /
 /
@@ -1532,7 +1532,7 @@ doStartTagValue
 128
 70
 0
-false
+FALSE
 }
 /
 /
@@ -1542,7 +1542,7 @@ doTagExpectedError
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1552,7 +1552,7 @@ doNOP
 132
 74
 0
-true
+TRUE
 }
 /
 /
@@ -1570,7 +1570,7 @@ doNOP
 /
 74
 0
-false
+FALSE
 }
 /
 /
@@ -1580,7 +1580,7 @@ doTagDigit
 128
 70
 0
-true
+TRUE
 }
 /
 /
@@ -1590,7 +1590,7 @@ doTagExpectedError
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1600,7 +1600,7 @@ doNOP
 132
 74
 0
-true
+TRUE
 }
 /
 /
@@ -1618,7 +1618,7 @@ doTagValue
 /
 77
 0
-true
+TRUE
 }
 /
 /
@@ -1628,7 +1628,7 @@ doTagExpectedError
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1638,7 +1638,7 @@ doExprCatOperator
 254
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1655,7 +1655,7 @@ doNOP
 132
 77
 0
-true
+TRUE
 }
 /
 /
@@ -1665,7 +1665,7 @@ doExprCatOperator
 131
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1680,7 +1680,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1695,7 +1695,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1709,7 +1709,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1724,7 +1724,7 @@ doExprCatOperator
 /
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1739,7 +1739,7 @@ doExprCatOperator
 /
 55
 0
-false
+FALSE
 }
 /
 /
@@ -1754,7 +1754,7 @@ doExprOrOperator
 /
 29
 0
-true
+TRUE
 }
 /
 /
@@ -1769,7 +1769,7 @@ doExprRParen
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1779,7 +1779,7 @@ doExprFinished
 255
 255
 0
-false
+FALSE
 }
 /
 /
@@ -1793,7 +1793,7 @@ doStartVariableName
 /
 90
 0
-true
+TRUE
 }
 /
 /
@@ -1808,7 +1808,7 @@ doNOP
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1818,7 +1818,7 @@ doNOP
 130
 92
 0
-true
+TRUE
 }
 /
 /
@@ -1833,7 +1833,7 @@ doVariableNameExpectedErr
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1843,7 +1843,7 @@ doNOP
 129
 92
 0
-true
+TRUE
 }
 /
 /
@@ -1858,7 +1858,7 @@ doEndVariableName
 255
 255
 0
-false
+FALSE
 }
 /
 /
@@ -1873,7 +1873,7 @@ doScanUnicodeSet
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1893,7 +1893,7 @@ p
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1908,7 +1908,7 @@ P
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1918,7 +1918,7 @@ doNOP
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1928,7 +1928,7 @@ doNOP
 132
 98
 0
-true
+TRUE
 }
 /
 /
@@ -1948,7 +1948,7 @@ doStartAssign
 /
 29
 101
-true
+TRUE
 }
 /
 /
@@ -1958,7 +1958,7 @@ doNOP
 255
 37
 9
-false
+FALSE
 }
 /
 /
@@ -1973,7 +1973,7 @@ doEndAssign
 /
 1
 0
-true
+TRUE
 }
 /
 /
@@ -1986,7 +1986,7 @@ doRuleErrorAssignExpr
 255
 103
 0
-false
+FALSE
 }
 /
 /
@@ -1996,7 +1996,7 @@ doExit
 255
 103
 0
-true
+TRUE
 }
 /
 /

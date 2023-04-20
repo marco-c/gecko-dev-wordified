@@ -1597,7 +1597,7 @@ status
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -3546,7 +3546,7 @@ hasNext
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -3702,7 +3702,7 @@ hasPrevious
 )
 {
 return
-false
+FALSE
 ;
 }
 UnicodeString

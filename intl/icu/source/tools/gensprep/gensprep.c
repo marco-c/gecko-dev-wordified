@@ -305,13 +305,6 @@ USPREP_TYPE_NAMES_ARRAY
 #
 include
 <
-stdbool
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -420,10 +413,10 @@ U_CDECL_END
 UBool
 beVerbose
 =
-false
+FALSE
 haveCopyright
 =
-true
+TRUE
 ;
 #
 define
@@ -1806,7 +1799,7 @@ inputFileName
 parseMappings
 (
 filename
-false
+FALSE
 &
 errorCode
 )
@@ -2723,7 +2716,7 @@ NORMALIZE
 .
 doesOccur
 =
-true
+TRUE
 ;
 return
 ;
@@ -2755,7 +2748,7 @@ CHECK_BIDI
 .
 doesOccur
 =
-true
+TRUE
 ;
 return
 ;

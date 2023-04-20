@@ -1731,7 +1731,6 @@ year
 +
 11
 33
-&
 remainder
 )
 ;
@@ -1786,7 +1785,7 @@ handleComputeMonthStart
 (
 year
 0
-false
+FALSE
 )
 ;
 }
@@ -1852,7 +1851,7 @@ handleComputeMonthStart
 (
 year
 month
-true
+TRUE
 )
 ;
 }
@@ -2096,7 +2095,6 @@ floorDivide
 (
 month
 12
-&
 month
 )
 ;
@@ -2395,7 +2393,6 @@ floorDivide
 (
 month
 12
-&
 month
 )
 ;
@@ -2968,7 +2965,7 @@ useDaylightTime
 )
 )
 return
-false
+FALSE
 ;
 /
 /
@@ -3021,7 +3018,7 @@ UCAL_DST_OFFSET
 0
 )
 :
-false
+FALSE
 )
 ;
 }
@@ -3048,8 +3045,8 @@ icu
 :
 UInitOnce
 gSystemDefaultCenturyInit
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UBool
 PersianCalendar
@@ -3061,7 +3058,7 @@ haveDefaultCentury
 const
 {
 return
-true
+TRUE
 ;
 }
 static

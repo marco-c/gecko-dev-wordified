@@ -1499,7 +1499,7 @@ rule
 .
 fHasMidnight
 =
-true
+TRUE
 ;
 }
 else
@@ -1524,7 +1524,7 @@ rule
 .
 fHasNoon
 =
-true
+TRUE
 ;
 }
 else
@@ -2199,8 +2199,8 @@ namespace
 {
 UInitOnce
 initOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 U_CFUNC
 UBool
@@ -2233,7 +2233,7 @@ data
 NULL
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -2709,11 +2709,11 @@ DayPeriodRules
 :
 fHasMidnight
 (
-false
+FALSE
 )
 fHasNoon
 (
-false
+FALSE
 )
 {
 for
@@ -3620,12 +3620,12 @@ DAYPERIOD_UNKNOWN
 )
 {
 return
-false
+FALSE
 ;
 }
 }
 return
-true
+TRUE
 ;
 }
 U_NAMESPACE_END

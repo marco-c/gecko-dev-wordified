@@ -468,8 +468,8 @@ NULL
 static
 UInitOnce
 gStdOutInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 UBool
@@ -504,7 +504,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 static

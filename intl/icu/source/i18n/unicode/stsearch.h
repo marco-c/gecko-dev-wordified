@@ -4550,8 +4550,6 @@ private
 StringSearch
 (
 )
-=
-delete
 ;
 /
 /

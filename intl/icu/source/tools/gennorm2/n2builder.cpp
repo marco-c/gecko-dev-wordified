@@ -1589,7 +1589,7 @@ isEmpty
 )
 {
 return
-false
+FALSE
 ;
 /
 /
@@ -1625,7 +1625,7 @@ lastStarterIndex
 )
 {
 return
-false
+FALSE
 ;
 /
 /
@@ -1746,7 +1746,7 @@ combining
 mark
 .
 return
-false
+FALSE
 ;
 }
 UChar32
@@ -1792,7 +1792,7 @@ combines
 backward
 .
 return
-false
+FALSE
 ;
 }
 if
@@ -2027,7 +2027,7 @@ nullptr
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -2111,7 +2111,7 @@ current
 one
 .
 return
-false
+FALSE
 ;
 }
 UChar32
@@ -2219,7 +2219,7 @@ nullptr
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -2289,7 +2289,7 @@ nullptr
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -2324,7 +2324,7 @@ prevCC
 )
 {
 return
-false
+FALSE
 ;
 /
 /
@@ -2360,11 +2360,11 @@ another
 mark
 .
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 UBool
@@ -2392,7 +2392,7 @@ lastStarterIndex
 )
 {
 return
-false
+FALSE
 ;
 /
 /
@@ -2495,7 +2495,7 @@ c
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -2554,7 +2554,7 @@ i
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -2585,7 +2585,7 @@ cc
 ;
 }
 return
-false
+FALSE
 ;
 }
 void
@@ -4550,7 +4550,7 @@ decomposer
 .
 didDecompose
 =
-false
+FALSE
 ;
 norms
 .

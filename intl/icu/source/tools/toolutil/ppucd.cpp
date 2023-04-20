@@ -1552,11 +1552,11 @@ props
 UBool
 insideBlock
 =
-false
+FALSE
 ;
 /
 /
-true
+TRUE
 if
 cp
 or
@@ -1795,7 +1795,7 @@ end
 {
 insideBlock
 =
-true
+TRUE
 ;
 if
 (
@@ -2283,7 +2283,7 @@ PPUCD_TURKIC_CASE_FOLDING
 /
 /
 Returns
-true
+TRUE
 for
 "
 ok
@@ -2405,7 +2405,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 binaryValue
@@ -2535,7 +2535,7 @@ property
 names
 .
 return
-true
+TRUE
 ;
 }
 if
@@ -3443,7 +3443,7 @@ unhandled
 properties
 .
 return
-true
+TRUE
 ;
 }
 }
@@ -3466,13 +3466,13 @@ prop
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -3502,7 +3502,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -3518,7 +3518,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 firstField
@@ -3589,7 +3589,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 return
@@ -3783,7 +3783,7 @@ lineNumber
 )
 ;
 return
-false
+FALSE
 ;
 }
 start
@@ -3801,7 +3801,7 @@ UChar32
 e
 ;
 return
-true
+TRUE
 ;
 }
 void

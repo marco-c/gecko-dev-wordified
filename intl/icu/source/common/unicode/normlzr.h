@@ -6221,8 +6221,6 @@ functions
 Normalizer
 (
 )
-=
-delete
 ;
 /
 /
@@ -6240,8 +6238,6 @@ Normalizer
 &
 that
 )
-=
-delete
 ;
 /
 /

@@ -1143,7 +1143,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 UDataMemory_init
@@ -1161,7 +1161,7 @@ struct
 *
 /
 return
-false
+FALSE
 ;
 /
 *
@@ -1276,7 +1276,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 HANDLE
@@ -1492,7 +1492,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -1521,7 +1521,7 @@ status
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 file
@@ -1601,7 +1601,7 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -1729,7 +1729,7 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 }
 return
-false
+FALSE
 ;
 }
 /
@@ -1785,7 +1785,7 @@ map
 )
 ;
 return
-false
+FALSE
 ;
 }
 pData
@@ -1796,7 +1796,7 @@ map
 map
 ;
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -1903,7 +1903,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 UDataMemory_init
@@ -1952,7 +1952,7 @@ st_size
 )
 {
 return
-false
+FALSE
 ;
 }
 length
@@ -1986,7 +1986,7 @@ fd
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -2067,7 +2067,7 @@ report
 U_MEMORY_ALLOCATION_ERROR
 ?
 return
-false
+FALSE
 ;
 }
 pData
@@ -2118,7 +2118,7 @@ POSIX_MADV_RANDOM
 #
 endif
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -2343,7 +2343,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 UDataMemory_init
@@ -2387,7 +2387,7 @@ nullptr
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -2425,7 +2425,7 @@ file
 )
 ;
 return
-false
+FALSE
 ;
 }
 /
@@ -2466,7 +2466,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 /
@@ -2501,7 +2501,7 @@ file
 )
 ;
 return
-false
+FALSE
 ;
 }
 fclose
@@ -2536,7 +2536,7 @@ mapAddr
 p
 ;
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -3311,7 +3311,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 inBasename
@@ -3438,7 +3438,7 @@ st_size
 )
 {
 return
-false
+FALSE
 ;
 }
 length
@@ -3472,7 +3472,7 @@ fd
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -3531,7 +3531,7 @@ report
 U_MEMORY_ALLOCATION_ERROR
 ?
 return
-false
+FALSE
 ;
 }
 pData
@@ -3567,7 +3567,7 @@ mapAddr
 data
 ;
 return
-true
+TRUE
 ;
 }
 #
@@ -3860,7 +3860,7 @@ looking
 *
 /
 return
-false
+FALSE
 ;
 }
 #
@@ -3904,13 +3904,13 @@ DataHeader
 val
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 /
 *

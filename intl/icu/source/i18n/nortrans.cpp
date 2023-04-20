@@ -561,7 +561,7 @@ UNICODE_STRING_SIMPLE
 NFD
 "
 )
-true
+TRUE
 )
 ;
 Transliterator
@@ -581,7 +581,7 @@ UNICODE_STRING_SIMPLE
 NFKD
 "
 )
-true
+TRUE
 )
 ;
 Transliterator
@@ -601,7 +601,7 @@ UNICODE_STRING_SIMPLE
 NFD
 "
 )
-false
+FALSE
 )
 ;
 Transliterator
@@ -621,7 +621,7 @@ UNICODE_STRING_SIMPLE
 FCD
 "
 )
-false
+FALSE
 )
 ;
 }

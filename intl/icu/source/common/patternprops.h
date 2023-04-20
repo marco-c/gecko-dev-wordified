@@ -820,8 +820,6 @@ private
 PatternProps
 (
 )
-=
-delete
 ;
 /
 /

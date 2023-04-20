@@ -326,14 +326,14 @@ file
 *
 \
 brief
-C
-API
-:
 Unicode
 Security
 and
 Spoofing
 Detection
+C
+API
+.
 *
 *
 <

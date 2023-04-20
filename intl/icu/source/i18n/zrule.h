@@ -259,6 +259,9 @@ uobject
 .
 h
 "
+#
+ifndef
+UCNV_H
 /
 *
 *
@@ -364,6 +367,8 @@ struct
 AZRule
 AZRule
 ;
+#
+endif
 /
 *
 *

@@ -711,14 +711,14 @@ doNOP
 0
 0
 0
-true
+TRUE
 }
 {
 doPatStart
 255
 2
 0
-false
+FALSE
 }
 /
 /
@@ -729,7 +729,7 @@ doLiteralChar
 254
 14
 0
-true
+TRUE
 }
 /
 /
@@ -740,7 +740,7 @@ doLiteralChar
 130
 14
 0
-true
+TRUE
 }
 /
 /
@@ -755,7 +755,7 @@ doSetBegin
 /
 123
 205
-true
+TRUE
 }
 /
 /
@@ -770,7 +770,7 @@ doNOP
 /
 27
 0
-true
+TRUE
 }
 /
 /
@@ -785,7 +785,7 @@ doDotAny
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -800,7 +800,7 @@ doCaret
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -814,7 +814,7 @@ doDollar
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -829,7 +829,7 @@ doNOP
 /
 89
 0
-true
+TRUE
 }
 /
 /
@@ -844,7 +844,7 @@ doOrOperator
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -859,7 +859,7 @@ doCloseParen
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -869,7 +869,7 @@ doPatFinish
 253
 2
 0
-false
+FALSE
 }
 /
 /
@@ -879,7 +879,7 @@ doRuleError
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -894,7 +894,7 @@ doNOP
 /
 68
 0
-true
+TRUE
 }
 /
 /
@@ -912,7 +912,7 @@ doNOP
 /
 71
 0
-true
+TRUE
 }
 /
 /
@@ -927,7 +927,7 @@ doNOP
 /
 74
 0
-true
+TRUE
 }
 /
 /
@@ -942,7 +942,7 @@ doIntervalInit
 /
 77
 0
-true
+TRUE
 }
 /
 /
@@ -957,7 +957,7 @@ doNOP
 /
 23
 0
-true
+TRUE
 }
 /
 /
@@ -967,7 +967,7 @@ doNOP
 255
 20
 0
-false
+FALSE
 }
 /
 /
@@ -982,7 +982,7 @@ doOrOperator
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -1000,7 +1000,7 @@ doCloseParen
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1010,7 +1010,7 @@ doNOP
 255
 2
 0
-false
+FALSE
 }
 /
 /
@@ -1025,7 +1025,7 @@ doSuppressComments
 /
 25
 0
-true
+TRUE
 }
 /
 /
@@ -1040,7 +1040,7 @@ doNOP
 255
 27
 0
-false
+FALSE
 }
 /
 /
@@ -1055,7 +1055,7 @@ doNOP
 /
 50
 14
-true
+TRUE
 }
 /
 /
@@ -1070,7 +1070,7 @@ doNOP
 255
 29
 0
-false
+FALSE
 }
 /
 /
@@ -1085,7 +1085,7 @@ doSuppressComments
 /
 29
 0
-true
+TRUE
 }
 /
 /
@@ -1098,7 +1098,7 @@ doOpenCaptureParen
 255
 2
 14
-false
+FALSE
 }
 /
 /
@@ -1113,7 +1113,7 @@ doOpenNonCaptureParen
 /
 2
 14
-true
+TRUE
 }
 /
 /
@@ -1133,7 +1133,7 @@ doOpenAtomicParen
 /
 2
 14
-true
+TRUE
 }
 /
 /
@@ -1148,7 +1148,7 @@ doOpenLookAhead
 /
 2
 20
-true
+TRUE
 }
 /
 /
@@ -1163,7 +1163,7 @@ doOpenLookAheadNeg
 /
 2
 20
-true
+TRUE
 }
 /
 /
@@ -1178,7 +1178,7 @@ doNOP
 /
 46
 0
-true
+TRUE
 }
 /
 /
@@ -1193,7 +1193,7 @@ doNOP
 /
 50
 2
-true
+TRUE
 }
 /
 /
@@ -1208,7 +1208,7 @@ i
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1223,7 +1223,7 @@ d
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1238,7 +1238,7 @@ m
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1253,7 +1253,7 @@ s
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1268,7 +1268,7 @@ u
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1283,7 +1283,7 @@ w
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1298,7 +1298,7 @@ x
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1313,7 +1313,7 @@ doBeginMatchMode
 /
 53
 0
-false
+FALSE
 }
 /
 /
@@ -1328,7 +1328,7 @@ doConditionalExpr
 /
 206
 0
-true
+TRUE
 }
 /
 /
@@ -1343,7 +1343,7 @@ doPerlInline
 /
 206
 0
-true
+TRUE
 }
 /
 /
@@ -1353,7 +1353,7 @@ doBadOpenParenType
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1368,7 +1368,7 @@ doOpenLookBehind
 /
 2
 20
-true
+TRUE
 }
 /
 /
@@ -1388,7 +1388,7 @@ doOpenLookBehindNeg
 /
 2
 20
-true
+TRUE
 }
 /
 /
@@ -1398,7 +1398,7 @@ doBeginNamedCapture
 129
 64
 0
-false
+FALSE
 }
 /
 /
@@ -1408,7 +1408,7 @@ doBadOpenParenType
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1423,7 +1423,7 @@ doNOP
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -1436,7 +1436,7 @@ doMismatchedParenErr
 253
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1446,7 +1446,7 @@ doNOP
 255
 50
 0
-true
+TRUE
 }
 /
 /
@@ -1461,7 +1461,7 @@ i
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1479,7 +1479,7 @@ d
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1494,7 +1494,7 @@ m
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1509,7 +1509,7 @@ s
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1524,7 +1524,7 @@ u
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1539,7 +1539,7 @@ w
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1554,7 +1554,7 @@ x
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1569,7 +1569,7 @@ doMatchMode
 /
 53
 0
-true
+TRUE
 }
 /
 /
@@ -1584,7 +1584,7 @@ doSetMatchMode
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -1599,7 +1599,7 @@ doMatchModeParen
 /
 2
 14
-true
+TRUE
 }
 /
 /
@@ -1609,7 +1609,7 @@ doBadModeFlag
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1619,7 +1619,7 @@ doContinueNamedCapture
 129
 64
 0
-true
+TRUE
 }
 /
 /
@@ -1632,7 +1632,7 @@ doContinueNamedCapture
 128
 64
 0
-true
+TRUE
 }
 /
 /
@@ -1647,7 +1647,7 @@ doOpenCaptureParen
 /
 2
 14
-true
+TRUE
 }
 /
 /
@@ -1657,7 +1657,7 @@ doBadNamedCapture
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1672,7 +1672,7 @@ doNGStar
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1690,7 +1690,7 @@ doPossessiveStar
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1700,7 +1700,7 @@ doStar
 255
 20
 0
-false
+FALSE
 }
 /
 /
@@ -1715,7 +1715,7 @@ doNGPlus
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1733,7 +1733,7 @@ doPossessivePlus
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1743,7 +1743,7 @@ doPlus
 255
 20
 0
-false
+FALSE
 }
 /
 /
@@ -1758,7 +1758,7 @@ doNGOpt
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1776,7 +1776,7 @@ doPossessiveOpt
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1786,7 +1786,7 @@ doOpt
 255
 20
 0
-false
+FALSE
 }
 /
 /
@@ -1796,7 +1796,7 @@ doNOP
 128
 79
 0
-false
+FALSE
 }
 /
 /
@@ -1809,7 +1809,7 @@ doIntervalError
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1819,7 +1819,7 @@ doIntevalLowerDigit
 128
 79
 0
-true
+TRUE
 }
 /
 /
@@ -1836,7 +1836,7 @@ doNOP
 /
 83
 0
-true
+TRUE
 }
 /
 /
@@ -1851,7 +1851,7 @@ doIntervalSame
 /
 86
 0
-true
+TRUE
 }
 /
 /
@@ -1861,7 +1861,7 @@ doIntervalError
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1871,7 +1871,7 @@ doIntervalUpperDigit
 128
 83
 0
-true
+TRUE
 }
 /
 /
@@ -1889,7 +1889,7 @@ doNOP
 /
 86
 0
-true
+TRUE
 }
 /
 /
@@ -1899,7 +1899,7 @@ doIntervalError
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -1914,7 +1914,7 @@ doNGInterval
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1932,7 +1932,7 @@ doPossessiveInterval
 /
 20
 0
-true
+TRUE
 }
 /
 /
@@ -1942,7 +1942,7 @@ doInterval
 255
 20
 0
-false
+FALSE
 }
 /
 /
@@ -1957,7 +1957,7 @@ A
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -1973,7 +1973,7 @@ B
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -1988,7 +1988,7 @@ b
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -2003,7 +2003,7 @@ d
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2018,7 +2018,7 @@ D
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2033,7 +2033,7 @@ G
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -2048,7 +2048,7 @@ h
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2063,7 +2063,7 @@ H
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2078,7 +2078,7 @@ k
 /
 115
 0
-true
+TRUE
 }
 /
 /
@@ -2093,7 +2093,7 @@ N
 /
 14
 0
-false
+FALSE
 }
 /
 /
@@ -2108,7 +2108,7 @@ p
 /
 14
 0
-false
+FALSE
 }
 /
 /
@@ -2123,7 +2123,7 @@ P
 /
 14
 0
-false
+FALSE
 }
 /
 /
@@ -2138,7 +2138,7 @@ R
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2153,7 +2153,7 @@ Q
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -2168,7 +2168,7 @@ S
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2183,7 +2183,7 @@ s
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2198,7 +2198,7 @@ v
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2213,7 +2213,7 @@ V
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2228,7 +2228,7 @@ W
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2243,7 +2243,7 @@ w
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2258,7 +2258,7 @@ X
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2273,7 +2273,7 @@ Z
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -2288,7 +2288,7 @@ z
 /
 2
 0
-true
+TRUE
 }
 /
 /
@@ -2298,7 +2298,7 @@ doBackRef
 128
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2308,7 +2308,7 @@ doEscapeError
 253
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2318,7 +2318,7 @@ doEscapedLiteralChar
 255
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2333,7 +2333,7 @@ doBeginNamedBackRef
 /
 117
 0
-true
+TRUE
 }
 /
 /
@@ -2346,7 +2346,7 @@ doBadNamedCapture
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2356,7 +2356,7 @@ doContinueNamedBackRef
 129
 119
 0
-true
+TRUE
 }
 /
 /
@@ -2371,7 +2371,7 @@ doBadNamedCapture
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2381,7 +2381,7 @@ doContinueNamedBackRef
 129
 119
 0
-true
+TRUE
 }
 /
 /
@@ -2396,7 +2396,7 @@ doContinueNamedBackRef
 128
 119
 0
-true
+TRUE
 }
 /
 /
@@ -2411,7 +2411,7 @@ doCompleteNamedBackRef
 /
 14
 0
-true
+TRUE
 }
 /
 /
@@ -2421,7 +2421,7 @@ doBadNamedCapture
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2436,7 +2436,7 @@ doSetNegate
 /
 126
 0
-true
+TRUE
 }
 /
 /
@@ -2454,7 +2454,7 @@ doSetPosixProp
 /
 128
 0
-false
+FALSE
 }
 /
 /
@@ -2464,7 +2464,7 @@ doNOP
 255
 126
 0
-false
+FALSE
 }
 /
 /
@@ -2479,7 +2479,7 @@ doSetLiteral
 /
 141
 0
-true
+TRUE
 }
 /
 /
@@ -2492,7 +2492,7 @@ doNOP
 255
 131
 0
-false
+FALSE
 }
 /
 /
@@ -2507,7 +2507,7 @@ doSetEnd
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -2525,7 +2525,7 @@ doNOP
 /
 131
 0
-false
+FALSE
 }
 /
 /
@@ -2535,7 +2535,7 @@ doRuleError
 255
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2550,7 +2550,7 @@ doSetEnd
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -2568,7 +2568,7 @@ doSetBeginUnion
 /
 123
 148
-true
+TRUE
 }
 /
 /
@@ -2583,7 +2583,7 @@ doNOP
 /
 191
 0
-true
+TRUE
 }
 /
 /
@@ -2598,7 +2598,7 @@ doNOP
 /
 137
 0
-true
+TRUE
 }
 /
 /
@@ -2613,7 +2613,7 @@ doNOP
 /
 139
 0
-true
+TRUE
 }
 /
 /
@@ -2623,7 +2623,7 @@ doSetLiteral
 255
 141
 0
-true
+TRUE
 }
 /
 /
@@ -2638,7 +2638,7 @@ doRuleError
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2653,7 +2653,7 @@ doSetAddDash
 255
 141
 0
-false
+FALSE
 }
 /
 /
@@ -2668,7 +2668,7 @@ doRuleError
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2683,7 +2683,7 @@ doSetAddAmp
 255
 141
 0
-false
+FALSE
 }
 /
 /
@@ -2698,7 +2698,7 @@ doSetEnd
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -2718,7 +2718,7 @@ doSetBeginUnion
 /
 123
 148
-true
+TRUE
 }
 /
 /
@@ -2733,7 +2733,7 @@ doNOP
 /
 178
 0
-true
+TRUE
 }
 /
 /
@@ -2748,7 +2748,7 @@ doNOP
 /
 169
 0
-true
+TRUE
 }
 /
 /
@@ -2763,7 +2763,7 @@ doNOP
 /
 191
 0
-true
+TRUE
 }
 /
 /
@@ -2773,7 +2773,7 @@ doSetNoCloseError
 253
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2783,7 +2783,7 @@ doSetLiteral
 255
 141
 0
-true
+TRUE
 }
 /
 /
@@ -2798,7 +2798,7 @@ doSetEnd
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -2818,7 +2818,7 @@ doSetBeginUnion
 /
 123
 148
-true
+TRUE
 }
 /
 /
@@ -2833,7 +2833,7 @@ doNOP
 /
 171
 0
-true
+TRUE
 }
 /
 /
@@ -2848,7 +2848,7 @@ doNOP
 /
 166
 0
-true
+TRUE
 }
 /
 /
@@ -2863,7 +2863,7 @@ doNOP
 /
 191
 0
-true
+TRUE
 }
 /
 /
@@ -2873,7 +2873,7 @@ doSetNoCloseError
 253
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2883,7 +2883,7 @@ doSetLiteral
 255
 141
 0
-true
+TRUE
 }
 /
 /
@@ -2898,7 +2898,7 @@ doSetEnd
 /
 255
 0
-true
+TRUE
 }
 /
 /
@@ -2918,7 +2918,7 @@ doSetBeginUnion
 /
 123
 148
-true
+TRUE
 }
 /
 /
@@ -2933,7 +2933,7 @@ doNOP
 /
 174
 0
-true
+TRUE
 }
 /
 /
@@ -2948,7 +2948,7 @@ doNOP
 /
 176
 0
-true
+TRUE
 }
 /
 /
@@ -2963,7 +2963,7 @@ doNOP
 /
 191
 0
-true
+TRUE
 }
 /
 /
@@ -2973,7 +2973,7 @@ doSetNoCloseError
 253
 206
 0
-false
+FALSE
 }
 /
 /
@@ -2983,7 +2983,7 @@ doSetLiteral
 255
 141
 0
-true
+TRUE
 }
 /
 /
@@ -2998,7 +2998,7 @@ doSetBeginUnion
 /
 123
 148
-true
+TRUE
 }
 /
 /
@@ -3018,7 +3018,7 @@ doSetOpError
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -3033,7 +3033,7 @@ doNOP
 /
 191
 0
-true
+TRUE
 }
 /
 /
@@ -3043,7 +3043,7 @@ doSetLiteral
 255
 141
 0
-true
+TRUE
 }
 /
 /
@@ -3058,7 +3058,7 @@ doSetBeginIntersection1
 /
 123
 148
-true
+TRUE
 }
 /
 /
@@ -3078,7 +3078,7 @@ doSetIntersection2
 /
 162
 0
-true
+TRUE
 }
 /
 /
@@ -3088,7 +3088,7 @@ doSetAddAmp
 255
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3103,7 +3103,7 @@ doSetIntersection2
 /
 162
 0
-true
+TRUE
 }
 /
 /
@@ -3118,7 +3118,7 @@ doSetAddAmp
 255
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3133,7 +3133,7 @@ doSetBeginDifference1
 /
 123
 148
-true
+TRUE
 }
 /
 /
@@ -3153,7 +3153,7 @@ doSetDifference2
 /
 162
 0
-true
+TRUE
 }
 /
 /
@@ -3163,7 +3163,7 @@ doSetAddDash
 255
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3178,7 +3178,7 @@ doSetDifference2
 /
 162
 0
-true
+TRUE
 }
 /
 /
@@ -3193,7 +3193,7 @@ doSetAddDash
 255
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3208,7 +3208,7 @@ doSetIntersection2
 /
 162
 0
-true
+TRUE
 }
 /
 /
@@ -3223,7 +3223,7 @@ doSetAddAmp
 255
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3238,7 +3238,7 @@ doSetDifference2
 /
 162
 0
-true
+TRUE
 }
 /
 /
@@ -3258,7 +3258,7 @@ doSetAddDash
 /
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3273,7 +3273,7 @@ doSetAddDash
 /
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3288,7 +3288,7 @@ doNOP
 /
 183
 0
-true
+TRUE
 }
 /
 /
@@ -3298,7 +3298,7 @@ doSetRange
 255
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3313,7 +3313,7 @@ s
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -3335,7 +3335,7 @@ S
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -3350,7 +3350,7 @@ w
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -3365,7 +3365,7 @@ W
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -3380,7 +3380,7 @@ d
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -3395,7 +3395,7 @@ D
 /
 206
 0
-false
+FALSE
 }
 /
 /
@@ -3410,7 +3410,7 @@ N
 /
 155
 0
-false
+FALSE
 }
 /
 /
@@ -3420,7 +3420,7 @@ doSetRange
 255
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3435,7 +3435,7 @@ p
 /
 148
 0
-false
+FALSE
 }
 /
 /
@@ -3453,7 +3453,7 @@ P
 /
 148
 0
-false
+FALSE
 }
 /
 /
@@ -3468,7 +3468,7 @@ N
 /
 141
 0
-false
+FALSE
 }
 /
 /
@@ -3483,7 +3483,7 @@ s
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3498,7 +3498,7 @@ S
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3513,7 +3513,7 @@ w
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3528,7 +3528,7 @@ W
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3543,7 +3543,7 @@ d
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3558,7 +3558,7 @@ D
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3573,7 +3573,7 @@ h
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3588,7 +3588,7 @@ H
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3603,7 +3603,7 @@ v
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3618,7 +3618,7 @@ V
 /
 155
 0
-true
+TRUE
 }
 /
 /
@@ -3628,7 +3628,7 @@ doSetLiteralEscaped
 255
 141
 0
-true
+TRUE
 }
 /
 /
@@ -3638,7 +3638,7 @@ doSetFinish
 255
 14
 0
-false
+FALSE
 }
 /
 /
@@ -3651,7 +3651,7 @@ doExit
 255
 206
 0
-true
+TRUE
 }
 /
 /

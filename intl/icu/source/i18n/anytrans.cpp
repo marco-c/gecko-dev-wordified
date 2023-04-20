@@ -1014,7 +1014,7 @@ limit
 *
 *
 Returns
-true
+TRUE
 if
 there
 are
@@ -1022,7 +1022,7 @@ any
 more
 runs
 .
-true
+TRUE
 is
 always
 *
@@ -1208,7 +1208,7 @@ textLimit
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -1376,7 +1376,7 @@ limit
 /
 /
 Return
-true
+TRUE
 even
 if
 the
@@ -1397,7 +1397,7 @@ be
 USCRIPT_INVALID_CODE
 .
 return
-true
+TRUE
 ;
 }
 void
@@ -2568,7 +2568,7 @@ U_ZERO_ERROR
 Hashtable
 seen
 (
-true
+TRUE
 ec
 )
 ;
@@ -2808,7 +2808,7 @@ STVtoID
 (
 UnicodeString
 (
-true
+TRUE
 ANY
 3
 )
@@ -2865,11 +2865,11 @@ _registerSpecialInverse
 target
 UnicodeString
 (
-true
+TRUE
 NULL_ID
 4
 )
-false
+FALSE
 )
 ;
 }

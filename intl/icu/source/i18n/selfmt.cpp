@@ -938,7 +938,7 @@ return
 UnicodeString
 other
 (
-false
+FALSE
 SELECT_KEYWORD_OTHER
 5
 )

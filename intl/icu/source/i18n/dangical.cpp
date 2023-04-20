@@ -384,8 +384,8 @@ icu
 :
 UInitOnce
 gDangiCalendarInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 /
 *
@@ -460,7 +460,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_END

@@ -360,7 +360,7 @@ FALLBACK_CE32
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -2878,7 +2878,7 @@ FALLBACK_CE32
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -2941,7 +2941,7 @@ start
 )
 {
 return
-true
+TRUE
 ;
 }
 }
@@ -3952,7 +3952,7 @@ UTF16CollationIterator
 iter
 (
 data
-false
+FALSE
 NULL
 NULL
 NULL

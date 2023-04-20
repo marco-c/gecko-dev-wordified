@@ -1926,7 +1926,7 @@ value
 param
 anyEndianOk
 If
-false
+FALSE
 only
 platform
 -
@@ -1938,7 +1938,7 @@ recognized
 .
 *
 If
-true
+TRUE
 opposite
 -
 endian
@@ -2158,7 +2158,7 @@ getVersion
 (
 inData
 length
-true
+TRUE
 )
 )
 {

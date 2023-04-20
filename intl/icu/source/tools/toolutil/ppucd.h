@@ -869,7 +869,7 @@ ucdVersion
 *
 *
 Returns
-true
+TRUE
 if
 the
 current

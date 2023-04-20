@@ -860,7 +860,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 const
@@ -889,7 +889,7 @@ isEmpty
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -1011,7 +1011,7 @@ NULL
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -1176,7 +1176,7 @@ node
 ;
 }
 return
-true
+TRUE
 ;
 }
 if
@@ -1246,7 +1246,7 @@ NULL
 )
 {
 return
-true
+TRUE
 ;
 /
 /
@@ -1414,7 +1414,7 @@ value
 for
 str
 return
-true
+TRUE
 ;
 }
 /

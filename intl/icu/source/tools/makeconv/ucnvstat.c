@@ -229,13 +229,6 @@ converters
 /
 #
 include
-<
-stdbool
-.
-h
->
-#
-include
 "
 unicode
 /
@@ -291,8 +284,8 @@ UCNV_SBCS
 0
 }
 1
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -348,8 +341,8 @@ UCNV_DBCS
 0
 }
 0
-false
-false
+FALSE
+FALSE
 /
 *
 subchar
@@ -410,8 +403,8 @@ UCNV_MBCS
 0
 }
 1
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -467,8 +460,8 @@ UCNV_EBCDIC_STATEFUL
 0
 }
 0
-false
-false
+FALSE
+FALSE
 0
 0
 {

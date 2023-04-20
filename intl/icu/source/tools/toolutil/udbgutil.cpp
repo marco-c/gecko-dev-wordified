@@ -1668,7 +1668,7 @@ item
 *
 param
 actual
-true
+TRUE
 :
 for
 the
@@ -1682,7 +1682,7 @@ UCAL_FIELD_COUNT
 etc
 )
 or
-false
+FALSE
 for
 the
 string
@@ -1858,7 +1858,7 @@ return
 _udbg_enumCount
 (
 type
-false
+FALSE
 )
 ;
 }
@@ -1873,7 +1873,7 @@ return
 _udbg_enumCount
 (
 type
-true
+TRUE
 )
 ;
 }
@@ -1901,7 +1901,7 @@ field
 _udbg_enumCount
 (
 type
-false
+FALSE
 )
 )
 {
@@ -1982,7 +1982,7 @@ field
 _udbg_enumCount
 (
 type
-false
+FALSE
 )
 )
 {
@@ -2060,7 +2060,7 @@ type
 _udbg_enumCount
 (
 UDBG_UDebugEnumType
-true
+TRUE
 )
 )
 {
@@ -2105,7 +2105,7 @@ field
 _udbg_enumCount
 (
 type
-false
+FALSE
 )
 ;
 field
@@ -2163,7 +2163,7 @@ field
 _udbg_enumCount
 (
 type
-false
+FALSE
 )
 ;
 field
@@ -3160,7 +3160,7 @@ uloc_toLanguageTag
 def
 target
 targetCapacity
-false
+FALSE
 status
 )
 ;
@@ -4301,7 +4301,7 @@ NULL
 *
 firstForTicket
 =
-true
+TRUE
 ;
 fTable
 [
@@ -4344,7 +4344,7 @@ NULL
 *
 firstForTicket
 =
-false
+FALSE
 ;
 }
 if
@@ -4389,7 +4389,7 @@ NULL
 *
 firstForWhere
 =
-true
+TRUE
 ;
 fTable
 [
@@ -4425,7 +4425,7 @@ NULL
 *
 firstForWhere
 =
-false
+FALSE
 ;
 }
 if
@@ -4545,7 +4545,7 @@ NULL
 *
 firstForTicket
 =
-true
+TRUE
 ;
 fTable
 [
@@ -4588,7 +4588,7 @@ NULL
 *
 firstForTicket
 =
-false
+FALSE
 ;
 }
 if
@@ -4633,7 +4633,7 @@ NULL
 *
 firstForWhere
 =
-true
+TRUE
 ;
 fTable
 [
@@ -4669,7 +4669,7 @@ NULL
 *
 firstForWhere
 =
-false
+FALSE
 ;
 }
 if
@@ -4727,7 +4727,7 @@ empty
 )
 {
 return
-false
+FALSE
 ;
 }
 std
@@ -5074,7 +5074,7 @@ endl
 }
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -5266,7 +5266,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 else
@@ -5279,7 +5279,7 @@ print
 )
 ;
 return
-true
+TRUE
 ;
 }
 }

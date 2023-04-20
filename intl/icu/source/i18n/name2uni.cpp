@@ -972,7 +972,7 @@ return
 UnicodeString
 openPat
 (
-true
+TRUE
 OPEN
 -
 1
@@ -1622,7 +1622,7 @@ contains
 OPEN_DELIM
 )
 is
-false
+FALSE
 so
 when
 we

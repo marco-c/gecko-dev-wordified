@@ -1834,7 +1834,7 @@ LocaleAndWeight
 )
 compareLocaleAndWeight
 nullptr
-false
+FALSE
 &
 errorCode
 )

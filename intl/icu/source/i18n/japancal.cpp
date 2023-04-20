@@ -384,8 +384,8 @@ icu
 :
 UInitOnce
 gJapaneseEraRulesInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 int32_t
@@ -425,7 +425,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -550,7 +550,7 @@ false
 UBool
 includeTentativeEra
 =
-false
+FALSE
 ;
 #
 if
@@ -662,7 +662,7 @@ true
 {
 includeTentativeEra
 =
-true
+TRUE
 ;
 }
 #
@@ -698,7 +698,7 @@ true
 {
 includeTentativeEra
 =
-true
+TRUE
 ;
 }
 #
@@ -1496,7 +1496,7 @@ haveDefaultCentury
 const
 {
 return
-false
+FALSE
 ;
 }
 UDate

@@ -998,7 +998,7 @@ from
 udbg_knownIssue
 *
 return
-true
+TRUE
 if
 there
 were

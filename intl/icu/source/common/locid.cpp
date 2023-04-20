@@ -651,8 +651,8 @@ NULL
 static
 UInitOnce
 gLocaleCacheInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 /
 /
@@ -836,7 +836,7 @@ gDefaultLocale
 NULL
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -1183,7 +1183,7 @@ gDefaultLocaleMutex
 UBool
 canonicalize
 =
-false
+FALSE
 ;
 /
 /
@@ -1258,7 +1258,7 @@ verify
 .
 canonicalize
 =
-true
+TRUE
 ;
 /
 /
@@ -1423,7 +1423,7 @@ localeNameBuf
 data
 (
 )
-false
+FALSE
 )
 ;
 uhash_put
@@ -1657,7 +1657,7 @@ NULL
 init
 (
 NULL
-false
+FALSE
 )
 ;
 }
@@ -1785,7 +1785,7 @@ NULL
 init
 (
 NULL
-false
+FALSE
 )
 ;
 /
@@ -2317,7 +2317,7 @@ togo
 data
 (
 )
-false
+FALSE
 )
 ;
 }
@@ -2827,8 +2827,8 @@ namespace
 {
 UInitOnce
 gKnownCanonicalizedInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UHashtable
 *
@@ -3416,7 +3416,7 @@ gKnownCanonicalized
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -4321,8 +4321,8 @@ AliasData
 :
 :
 gInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UBool
 U_CALLCONV
@@ -4343,7 +4343,7 @@ delete
 gSingleton
 ;
 return
-true
+TRUE
 ;
 }
 void
@@ -11473,7 +11473,7 @@ canonicalize
 {
 fIsBogus
 =
-false
+FALSE
 ;
 /
 *
@@ -12948,7 +12948,7 @@ country
 ;
 fIsBogus
 =
-true
+TRUE
 ;
 variantBegin
 =
@@ -13144,7 +13144,7 @@ canonicalize
 =
 *
 /
-false
+FALSE
 )
 ;
 if
@@ -13226,7 +13226,7 @@ canonicalize
 =
 *
 /
-false
+FALSE
 )
 ;
 if
@@ -13309,7 +13309,7 @@ canonicalize
 =
 *
 /
-true
+TRUE
 )
 ;
 if
@@ -13599,7 +13599,7 @@ canonicalize
 =
 *
 /
-false
+FALSE
 )
 ;
 if
@@ -13668,7 +13668,7 @@ strict
 =
 *
 /
-false
+FALSE
 &
 status
 )
@@ -13704,7 +13704,7 @@ l
 init
 (
 name
-false
+FALSE
 )
 ;
 return
@@ -13745,7 +13745,7 @@ loc
 init
 (
 name
-true
+TRUE
 )
 ;
 return
@@ -13949,7 +13949,7 @@ posixID
 init
 (
 posixID
-true
+TRUE
 )
 ;
 }
@@ -15279,7 +15279,7 @@ variantStart
 '
 '
 sink
-false
+FALSE
 &
 status
 )
@@ -15430,7 +15430,7 @@ variantStart
 '
 '
 sink
-false
+FALSE
 &
 status
 )

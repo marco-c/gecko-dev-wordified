@@ -389,7 +389,7 @@ fData
 ;
 isDataOwned
 =
-true
+TRUE
 ;
 if
 (
@@ -962,7 +962,7 @@ away
 const
 isDataOwned
 (
-false
+FALSE
 )
 {
 setMaximumContextLength
@@ -1587,7 +1587,7 @@ cases
 UBool
 lockedMutexAtThisLevel
 =
-false
+FALSE
 ;
 /
 /
@@ -1724,7 +1724,7 @@ text
 ;
 lockedMutexAtThisLevel
 =
-true
+TRUE
 ;
 }
 /
@@ -1865,7 +1865,7 @@ ruleSet
 getSourceTargetSet
 (
 result
-false
+FALSE
 )
 ;
 }
@@ -1900,7 +1900,7 @@ ruleSet
 getSourceTargetSet
 (
 result
-true
+TRUE
 )
 ;
 }

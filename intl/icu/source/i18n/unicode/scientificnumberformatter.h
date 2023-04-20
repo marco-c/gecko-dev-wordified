@@ -1029,8 +1029,6 @@ const
 ScientificNumberFormatter
 &
 )
-=
-delete
 ;
 static
 void

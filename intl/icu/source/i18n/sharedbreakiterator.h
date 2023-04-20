@@ -420,8 +420,6 @@ const
 SharedBreakIterator
 &
 )
-=
-delete
 ;
 SharedBreakIterator
 &
@@ -432,8 +430,6 @@ const
 SharedBreakIterator
 &
 )
-=
-delete
 ;
 }
 ;

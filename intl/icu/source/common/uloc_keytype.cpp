@@ -317,8 +317,8 @@ icu
 :
 UInitOnce
 gLocExtKeyMapInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 /
 /
@@ -493,7 +493,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -2272,11 +2272,11 @@ sts
 )
 {
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -2331,7 +2331,7 @@ subtagLen
 )
 {
 return
-false
+FALSE
 ;
 }
 subtagLen
@@ -2426,7 +2426,7 @@ subtagLen
 else
 {
 return
-false
+FALSE
 ;
 }
 p
@@ -2501,7 +2501,7 @@ subtagLen
 )
 {
 return
-false
+FALSE
 ;
 }
 subtagLen
@@ -2527,7 +2527,7 @@ subtagLen
 else
 {
 return
-false
+FALSE
 ;
 }
 p
@@ -2630,7 +2630,7 @@ subtagLen
 else
 {
 return
-false
+FALSE
 ;
 }
 p
@@ -2794,7 +2794,7 @@ NULL
 *
 isKnownKey
 =
-false
+FALSE
 ;
 }
 if
@@ -2808,7 +2808,7 @@ NULL
 *
 isSpecialType
 =
-false
+FALSE
 ;
 }
 if
@@ -2856,7 +2856,7 @@ NULL
 *
 isKnownKey
 =
-true
+TRUE
 ;
 }
 LocExtType
@@ -2909,7 +2909,7 @@ SPECIALTYPE_NONE
 UBool
 matched
 =
-false
+FALSE
 ;
 if
 (
@@ -2989,7 +2989,7 @@ NULL
 *
 isSpecialType
 =
-true
+TRUE
 ;
 }
 return
@@ -3035,7 +3035,7 @@ NULL
 *
 isKnownKey
 =
-false
+FALSE
 ;
 }
 if
@@ -3049,7 +3049,7 @@ NULL
 *
 isSpecialType
 =
-false
+FALSE
 ;
 }
 if
@@ -3097,7 +3097,7 @@ NULL
 *
 isKnownKey
 =
-true
+TRUE
 ;
 }
 LocExtType
@@ -3150,7 +3150,7 @@ SPECIALTYPE_NONE
 UBool
 matched
 =
-false
+FALSE
 ;
 if
 (
@@ -3230,7 +3230,7 @@ NULL
 *
 isSpecialType
 =
-true
+TRUE
 ;
 }
 return

@@ -671,7 +671,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -686,7 +686,7 @@ NULL
 )
 {
 return
-true
+TRUE
 ;
 }
 SimpleFormatter
@@ -715,7 +715,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -730,7 +730,7 @@ delete
 newFmt
 ;
 return
-false
+FALSE
 ;
 }
 formatters
@@ -741,7 +741,7 @@ pluralIndex
 newFmt
 ;
 return
-true
+TRUE
 ;
 }
 UBool

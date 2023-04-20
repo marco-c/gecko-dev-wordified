@@ -2012,7 +2012,7 @@ u
 {
 U_ASSERT
 (
-false
+FALSE
 )
 ;
 /
@@ -2221,7 +2221,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -2261,7 +2261,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -2284,7 +2284,7 @@ valid
 endif
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -2403,7 +2403,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 /
 *
@@ -2416,7 +2416,7 @@ char
 }
 }
 return
-true
+TRUE
 ;
 }
 /

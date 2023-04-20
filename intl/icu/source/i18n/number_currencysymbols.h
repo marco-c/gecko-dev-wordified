@@ -244,12 +244,6 @@ status
 )
 const
 ;
-bool
-hasEmptyCurrencySymbol
-(
-)
-const
-;
 protected
 :
 /

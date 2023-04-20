@@ -415,8 +415,8 @@ icu
 :
 UInitOnce
 gCSRecognizersInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 int32_t
@@ -494,7 +494,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -616,7 +616,7 @@ new
 CharsetRecog_UTF8
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -625,7 +625,7 @@ new
 CharsetRecog_UTF_16_BE
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -634,7 +634,7 @@ new
 CharsetRecog_UTF_16_LE
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -643,7 +643,7 @@ new
 CharsetRecog_UTF_32_BE
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -652,7 +652,7 @@ new
 CharsetRecog_UTF_32_LE
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -661,7 +661,7 @@ new
 CharsetRecog_8859_1
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -670,7 +670,7 @@ new
 CharsetRecog_8859_2
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -679,7 +679,7 @@ new
 CharsetRecog_8859_5_ru
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -688,7 +688,7 @@ new
 CharsetRecog_8859_6_ar
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -697,7 +697,7 @@ new
 CharsetRecog_8859_7_el
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -706,7 +706,7 @@ new
 CharsetRecog_8859_8_I_he
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -715,7 +715,7 @@ new
 CharsetRecog_8859_8_he
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -724,7 +724,7 @@ new
 CharsetRecog_windows_1251
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -733,7 +733,7 @@ new
 CharsetRecog_windows_1256
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -742,7 +742,7 @@ new
 CharsetRecog_KOI8_R
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -751,7 +751,7 @@ new
 CharsetRecog_8859_9_tr
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -760,7 +760,7 @@ new
 CharsetRecog_sjis
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -769,7 +769,7 @@ new
 CharsetRecog_gb_18030
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -778,7 +778,7 @@ new
 CharsetRecog_euc_jp
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -787,7 +787,7 @@ new
 CharsetRecog_euc_kr
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -796,7 +796,7 @@ new
 CharsetRecog_big5
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -805,7 +805,7 @@ new
 CharsetRecog_2022JP
 (
 )
-true
+TRUE
 )
 #
 if
@@ -818,7 +818,7 @@ new
 CharsetRecog_2022KR
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -827,7 +827,7 @@ new
 CharsetRecog_2022CN
 (
 )
-true
+TRUE
 )
 new
 CSRecognizerInfo
@@ -836,7 +836,7 @@ new
 CharsetRecog_IBM424_he_rtl
 (
 )
-false
+FALSE
 )
 new
 CSRecognizerInfo
@@ -845,7 +845,7 @@ new
 CharsetRecog_IBM424_he_ltr
 (
 )
-false
+FALSE
 )
 new
 CSRecognizerInfo
@@ -854,7 +854,7 @@ new
 CharsetRecog_IBM420_ar_rtl
 (
 )
-false
+FALSE
 )
 new
 CSRecognizerInfo
@@ -863,7 +863,7 @@ new
 CharsetRecog_IBM420_ar_ltr
 (
 )
-false
+FALSE
 )
 #
 endif
@@ -1001,11 +1001,11 @@ resultCount
 )
 fStripTags
 (
-false
+FALSE
 )
 fFreshTextSet
 (
-false
+FALSE
 )
 fEnabledRecognizers
 (
@@ -1196,7 +1196,7 @@ len
 ;
 fFreshTextSet
 =
-true
+TRUE
 ;
 }
 UBool
@@ -1220,7 +1220,7 @@ flag
 ;
 fFreshTextSet
 =
-true
+TRUE
 ;
 return
 temp
@@ -1492,7 +1492,7 @@ resultArray
 ]
 charsetMatchComparator
 NULL
-true
+TRUE
 &
 status
 )
@@ -1500,7 +1500,7 @@ status
 }
 fFreshTextSet
 =
-false
+FALSE
 ;
 }
 maxMatchesFound
@@ -1564,7 +1564,7 @@ modIdx
 UBool
 isDefaultVal
 =
-false
+FALSE
 ;
 for
 (
@@ -2582,7 +2582,7 @@ context
 >
 all
 =
-true
+TRUE
 ;
 return
 en
@@ -2716,7 +2716,7 @@ context
 >
 all
 =
-false
+FALSE
 ;
 (
 (

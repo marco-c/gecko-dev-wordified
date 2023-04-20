@@ -583,11 +583,11 @@ fCharNum
 ;
 fQuoteMode
 =
-false
+FALSE
 ;
 fInBackslashQuote
 =
-false
+FALSE
 ;
 fModeFlags
 =
@@ -600,7 +600,7 @@ fFlags
 ;
 fEOLComments
 =
-true
+TRUE
 ;
 fMatchOpenParen
 =
@@ -1354,8 +1354,8 @@ fRXPat
 >
 fPattern
 pat
-false
-true
+FALSE
+TRUE
 fStatus
 )
 ;
@@ -1419,7 +1419,7 @@ UREGEX_LITERAL
 {
 fQuoteMode
 =
-true
+TRUE
 ;
 }
 nextChar
@@ -1760,7 +1760,7 @@ fC
 fQuoted
 =
 =
-false
+FALSE
 &
 &
 tableEl
@@ -1937,7 +1937,7 @@ fC
 fQuoted
 =
 =
-false
+FALSE
 &
 &
 /
@@ -2110,7 +2110,7 @@ fAction
 )
 =
 =
-false
+FALSE
 )
 {
 /
@@ -2934,7 +2934,7 @@ action
 UBool
 returnVal
 =
-true
+TRUE
 ;
 switch
 (
@@ -3209,7 +3209,7 @@ machine
 .
 returnVal
 =
-false
+FALSE
 ;
 break
 ;
@@ -3246,7 +3246,7 @@ the
 '
 fixLiterals
 (
-false
+FALSE
 )
 ;
 /
@@ -6542,7 +6542,7 @@ topLoc
 =
 blockTopLoc
 (
-false
+FALSE
 )
 ;
 /
@@ -6945,7 +6945,7 @@ topLoc
 =
 blockTopLoc
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -7017,7 +7017,7 @@ saveStateLoc
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 int32_t
@@ -7137,7 +7137,7 @@ jmp1_loc
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 int32_t
@@ -7371,7 +7371,7 @@ topLoc
 =
 blockTopLoc
 (
-false
+FALSE
 )
 ;
 int32_t
@@ -7647,7 +7647,7 @@ saveStateLoc
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 int32_t
@@ -7900,7 +7900,7 @@ jmpLoc
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 /
@@ -8222,7 +8222,7 @@ compileInlineInterval
 )
 =
 =
-false
+FALSE
 )
 {
 compileInterval
@@ -8312,7 +8312,7 @@ topLoc
 =
 blockTopLoc
 (
-false
+FALSE
 )
 ;
 /
@@ -8688,7 +8688,7 @@ character
 {
 fixLiterals
 (
-false
+FALSE
 )
 ;
 if
@@ -8738,7 +8738,7 @@ doCaret
 {
 fixLiterals
 (
-false
+FALSE
 )
 ;
 if
@@ -8878,7 +8878,7 @@ doDollar
 {
 fixLiterals
 (
-false
+FALSE
 )
 ;
 if
@@ -9008,7 +9008,7 @@ doBackslashA
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9046,7 +9046,7 @@ U_UNSUPPORTED_ERROR
 endif
 fixLiterals
 (
-false
+FALSE
 )
 ;
 int32_t
@@ -9098,7 +9098,7 @@ U_UNSUPPORTED_ERROR
 endif
 fixLiterals
 (
-false
+FALSE
 )
 ;
 int32_t
@@ -9128,7 +9128,7 @@ doBackslashD
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9144,7 +9144,7 @@ doBackslashd
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9160,7 +9160,7 @@ doBackslashG
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9176,7 +9176,7 @@ doBackslashH
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9192,7 +9192,7 @@ doBackslashh
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9208,7 +9208,7 @@ doBackslashR
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9224,7 +9224,7 @@ doBackslashS
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9240,7 +9240,7 @@ doBackslashs
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9256,7 +9256,7 @@ doBackslashV
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9272,7 +9272,7 @@ doBackslashv
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9288,7 +9288,7 @@ doBackslashW
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9304,7 +9304,7 @@ doBackslashw
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9343,7 +9343,7 @@ U_UNSUPPORTED_ERROR
 endif
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9359,7 +9359,7 @@ doBackslashZ
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9375,7 +9375,7 @@ doBackslashz
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -9401,12 +9401,12 @@ doExit
 :
 fixLiterals
 (
-false
+FALSE
 )
 ;
 returnVal
 =
-false
+FALSE
 ;
 break
 ;
@@ -9416,7 +9416,7 @@ doProperty
 {
 fixLiterals
 (
-false
+FALSE
 )
 ;
 UnicodeSet
@@ -9610,7 +9610,7 @@ c
 )
 =
 =
-false
+FALSE
 )
 {
 break
@@ -9727,7 +9727,7 @@ all
 .
 fixLiterals
 (
-false
+FALSE
 )
 ;
 if
@@ -9904,7 +9904,7 @@ under
 doBackRef
 fixLiterals
 (
-false
+FALSE
 )
 ;
 if
@@ -10042,7 +10042,7 @@ topLoc
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 int32_t
@@ -10224,7 +10224,7 @@ topLoc
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 insertOp
@@ -10418,7 +10418,7 @@ topLoc
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 insertOp
@@ -10537,7 +10537,7 @@ fModeFlags
 ;
 fSetModeFlag
 =
-true
+TRUE
 ;
 break
 ;
@@ -10695,7 +10695,7 @@ case
 /
 fSetModeFlag
 =
-false
+FALSE
 ;
 break
 ;
@@ -10918,7 +10918,7 @@ parens
 {
 fixLiterals
 (
-false
+FALSE
 )
 ;
 appendOp
@@ -11144,7 +11144,7 @@ do
 )
 fEOLComments
 =
-false
+FALSE
 ;
 break
 ;
@@ -11753,7 +11753,7 @@ doSetBegin
 {
 fixLiterals
 (
-false
+FALSE
 )
 ;
 LocalPointer
@@ -13211,7 +13211,7 @@ fStatus
 {
 returnVal
 =
-false
+FALSE
 ;
 }
 return
@@ -13837,7 +13837,7 @@ indexOfLastCodePoint
 ;
 fixLiterals
 (
-false
+FALSE
 )
 ;
 /
@@ -13900,7 +13900,7 @@ literal
 .
 fixLiterals
 (
-false
+FALSE
 )
 ;
 /
@@ -15995,7 +15995,7 @@ added
 parameter
 reserveLoc
 :
-true
+TRUE
 -
 ensure
 that
@@ -16015,7 +16015,7 @@ location
 .
 /
 /
-false
+FALSE
 -
 just
 return
@@ -16127,7 +16127,7 @@ theLoc
 ;
 fixLiterals
 (
-true
+TRUE
 )
 ;
 /
@@ -16683,7 +16683,7 @@ literals
 .
 fixLiterals
 (
-false
+FALSE
 )
 ;
 /
@@ -18896,7 +18896,7 @@ topOfBlock
 =
 blockTopLoc
 (
-true
+TRUE
 )
 ;
 insertOp
@@ -19301,7 +19301,7 @@ both
 .
 )
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -19309,7 +19309,7 @@ topOfBlock
 =
 blockTopLoc
 (
-false
+FALSE
 )
 ;
 if
@@ -19403,7 +19403,7 @@ fMatchCloseParen
 ;
 }
 return
-true
+TRUE
 ;
 }
 if
@@ -19489,7 +19489,7 @@ just
 fine
 .
 return
-false
+FALSE
 ;
 }
 /
@@ -19690,7 +19690,7 @@ op
 ;
 }
 return
-true
+TRUE
 ;
 }
 /
@@ -21066,7 +21066,7 @@ start
 UBool
 atStart
 =
-true
+TRUE
 ;
 /
 /
@@ -21574,7 +21574,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -21665,7 +21665,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -21777,7 +21777,7 @@ numInitialStrings
 }
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -21840,7 +21840,7 @@ numInitialStrings
 }
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -21918,7 +21918,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -21991,7 +21991,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22068,7 +22068,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22159,7 +22159,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22292,7 +22292,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22450,7 +22450,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22556,7 +22556,7 @@ currentLen
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22692,7 +22692,7 @@ jmpDest
 }
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22730,7 +22730,7 @@ nothing
 .
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22774,7 +22774,7 @@ loc
 ;
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -22841,7 +22841,7 @@ jmpDest
 }
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -23019,7 +23019,7 @@ stringLen
 ;
 atStart
 =
-false
+FALSE
 ;
 }
 break
@@ -23214,7 +23214,7 @@ stringLen
 ;
 atStart
 =
-false
+FALSE
 ;
 }
 break
@@ -23441,7 +23441,7 @@ CTR_INIT
 }
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -23467,7 +23467,7 @@ only
 .
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -23498,7 +23498,7 @@ minimum
 match
 atStart
 =
-false
+FALSE
 ;
 break
 ;
@@ -24220,7 +24220,7 @@ UChar32
 )
 =
 =
-false
+FALSE
 &
 &
 fRXPat
@@ -28600,7 +28600,7 @@ fRXPat
 >
 fNeedsAltInput
 =
-true
+TRUE
 ;
 break
 ;
@@ -30370,7 +30370,7 @@ c
 .
 fQuoted
 =
-false
+FALSE
 ;
 if
 (
@@ -30381,7 +30381,7 @@ c
 .
 fQuoted
 =
-true
+TRUE
 ;
 if
 (
@@ -30429,7 +30429,7 @@ UChar32
 {
 fQuoteMode
 =
-false
+FALSE
 ;
 /
 /
@@ -30543,7 +30543,7 @@ character
 .
 fInBackslashQuote
 =
-false
+FALSE
 ;
 }
 else
@@ -30650,6 +30650,9 @@ chPound
 &
 &
 fEOLComments
+=
+=
+TRUE
 )
 {
 /
@@ -30771,7 +30774,7 @@ fChar
 )
 =
 =
-false
+FALSE
 )
 {
 break
@@ -30897,7 +30900,7 @@ c
 .
 fQuoted
 =
-true
+TRUE
 ;
 if
 (
@@ -31313,7 +31316,7 @@ c
 .
 fQuoted
 =
-true
+TRUE
 ;
 }
 else
@@ -31346,7 +31349,7 @@ E
 "
 fQuoteMode
 =
-true
+TRUE
 ;
 nextCharLL
 (
@@ -31443,7 +31446,7 @@ literally
 .
 fInBackslashQuote
 =
-true
+TRUE
 ;
 }
 }
@@ -31497,7 +31500,7 @@ only
 .
 fEOLComments
 =
-true
+TRUE
 ;
 /
 /
@@ -32941,7 +32944,7 @@ propName
 UBool
 negated
 =
-false
+FALSE
 ;
 /
 /
@@ -32985,7 +32988,7 @@ chUp
 {
 negated
 =
-true
+TRUE
 ;
 nextChar
 (
@@ -33014,7 +33017,7 @@ way
 UBool
 sawPropSetTerminator
 =
-false
+FALSE
 ;
 for
 (
@@ -33103,7 +33106,7 @@ chRBracket
 {
 sawPropSetTerminator
 =
-true
+TRUE
 ;
 }
 break
@@ -35218,7 +35221,7 @@ empty
 )
 =
 =
-false
+FALSE
 )
 ;
 int32_t
@@ -35263,7 +35266,7 @@ empty
 )
 =
 =
-false
+FALSE
 )
 ;
 rightOperand

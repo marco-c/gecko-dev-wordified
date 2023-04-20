@@ -199,7 +199,7 @@ case
 UCFPOS_CONSTRAINT_NONE
 :
 return
-true
+TRUE
 ;
 case
 UCFPOS_CONSTRAINT_CATEGORY
@@ -1184,7 +1184,7 @@ ec
 )
 {
 return
-false
+FALSE
 ;
 }
 return

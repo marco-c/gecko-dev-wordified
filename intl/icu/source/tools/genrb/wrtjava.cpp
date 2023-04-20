@@ -2894,7 +2894,7 @@ res
 length
 (
 )
-true
+TRUE
 status
 )
 ;
@@ -2942,7 +2942,7 @@ NULL
 UBool
 allStrings
 =
-true
+TRUE
 ;
 if
 (
@@ -2998,7 +2998,7 @@ isString
 {
 allStrings
 =
-false
+FALSE
 ;
 break
 ;
@@ -3023,7 +3023,7 @@ if
 allStrings
 =
 =
-false
+FALSE
 )
 {
 const
@@ -3987,7 +3987,7 @@ static
 UBool
 start
 =
-true
+TRUE
 ;
 static
 void
@@ -4058,7 +4058,7 @@ if
 start
 =
 =
-false
+FALSE
 )
 {
 write_tabs
@@ -4086,7 +4086,7 @@ tabCount
 }
 start
 =
-false
+FALSE
 ;
 current
 =
@@ -4596,7 +4596,7 @@ constructor
 UBool
 j1
 =
-false
+FALSE
 ;
 *
 /
@@ -4610,7 +4610,7 @@ outputDir
 /
 start
 =
-true
+TRUE
 ;
 /
 *

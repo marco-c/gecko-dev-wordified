@@ -2059,8 +2059,8 @@ icu
 :
 UInitOnce
 gUnitExtrasInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 /
 /
@@ -2315,7 +2315,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 void
@@ -4740,7 +4740,7 @@ TODO
 (
 CLDR
 -
-13701
+13700
 )
 .
 status
@@ -4815,7 +4815,7 @@ TODO
 (
 CLDR
 -
-13701
+13700
 )
 .
 status

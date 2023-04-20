@@ -680,7 +680,7 @@ toLower
 UBool
 doTitle
 =
-true
+TRUE
 ;
 /
 /
@@ -791,7 +791,7 @@ type
 cased
 doTitle
 =
-false
+FALSE
 ;
 break
 ;
@@ -1117,7 +1117,7 @@ tmp
 .
 setTo
 (
-false
+FALSE
 s
 result
 )

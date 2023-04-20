@@ -662,6 +662,7 @@ DateFormat
 *
 U_NAMESPACE_BEGIN
 class
+U_I18N_API
 DateFmtBestPattern
 :
 public
@@ -705,6 +706,7 @@ DateFmtBestPattern
 template
 <
 >
+U_I18N_API
 const
 DateFmtBestPattern
 *
@@ -739,6 +741,7 @@ NULL
 ;
 }
 class
+U_I18N_API
 DateFmtBestPatternKey
 :
 public
@@ -5042,7 +5045,7 @@ newNumberFormat
 >
 setParseIntegerOnly
 (
-true
+TRUE
 )
 ;
 newNumberFormat
@@ -5050,7 +5053,7 @@ newNumberFormat
 >
 setGroupingUsed
 (
-false
+FALSE
 )
 ;
 }
@@ -5786,7 +5789,7 @@ const
 UBool
 lenient
 =
-true
+TRUE
 ;
 if
 (
@@ -5962,7 +5965,7 @@ is
 rarely
 null
 return
-false
+FALSE
 ;
 }
 /

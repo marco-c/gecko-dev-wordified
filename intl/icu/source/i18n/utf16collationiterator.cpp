@@ -623,13 +623,13 @@ limit
 pos
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -1749,13 +1749,13 @@ rawLimit
 pos
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2482,7 +2482,7 @@ might
 help
 to
 return
-false
+FALSE
 to
 indicate
 that
@@ -2556,7 +2556,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 U_ASSERT
@@ -2759,7 +2759,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 pos
@@ -2822,7 +2822,7 @@ checkDir
 0
 ;
 return
-true
+TRUE
 ;
 }
 void
@@ -3013,7 +3013,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 U_ASSERT
@@ -3229,7 +3229,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 pos
@@ -3297,7 +3297,7 @@ checkDir
 0
 ;
 return
-true
+TRUE
 ;
 }
 UBool
@@ -3361,7 +3361,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -3412,7 +3412,7 @@ length
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_NAMESPACE_END

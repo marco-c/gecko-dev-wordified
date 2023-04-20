@@ -6530,8 +6530,6 @@ ULOC_FULLNAME_CAPACITY
 DateFormatSymbols
 (
 )
-=
-delete
 ;
 /
 /

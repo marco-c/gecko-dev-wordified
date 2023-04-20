@@ -867,8 +867,8 @@ icu
 :
 UInitOnce
 gCharNamesInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 /
 *
@@ -1213,7 +1213,7 @@ gMaxNameLength
 0
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -2568,7 +2568,7 @@ otherName
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2686,7 +2686,7 @@ otherName
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2831,7 +2831,7 @@ otherName
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -4291,7 +4291,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -4365,7 +4365,7 @@ code
 start
 ;
 return
-false
+FALSE
 ;
 }
 +
@@ -4375,7 +4375,7 @@ start
 }
 }
 return
-true
+TRUE
 ;
 }
 /
@@ -4516,7 +4516,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -4527,7 +4527,7 @@ start
 }
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -4686,7 +4686,7 @@ context
 )
 {
 return
-false
+FALSE
 ;
 }
 start
@@ -4839,7 +4839,7 @@ nameChoice
 )
 {
 return
-false
+FALSE
 ;
 }
 group
@@ -4956,7 +4956,7 @@ context
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -5033,7 +5033,7 @@ nameChoice
 )
 {
 return
-false
+FALSE
 ;
 }
 nextGroup
@@ -5117,7 +5117,7 @@ context
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -5231,7 +5231,7 @@ next
 else
 {
 return
-true
+TRUE
 ;
 }
 }
@@ -5291,7 +5291,7 @@ context
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -6255,7 +6255,7 @@ U_EXTENDED_CHAR_NAME
 )
 {
 return
-true
+TRUE
 ;
 }
 switch
@@ -6317,7 +6317,7 @@ length
 )
 {
 return
-true
+TRUE
 ;
 }
 /
@@ -6346,7 +6346,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -6541,7 +6541,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -6753,7 +6753,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -7011,7 +7011,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -7030,7 +7030,7 @@ break
 ;
 }
 return
-true
+TRUE
 ;
 }
 /
@@ -9218,7 +9218,7 @@ gMaxNameLength
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -9231,7 +9231,7 @@ pErrorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 /
@@ -9343,7 +9343,7 @@ maxNameLength
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_NAMESPACE_END
@@ -11929,7 +11929,7 @@ usedOutChar
 c2
 ]
 =
-true
+TRUE
 ;
 }
 }
