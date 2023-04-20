@@ -127,13 +127,6 @@ constants
 js
 "
 "
-custom
--
-formatter
-.
-js
-"
-"
 date
 -
 time
@@ -202,6 +195,11 @@ js
 "
 "
 infinity
+.
+js
+"
+"
+jsonml
 .
 js
 "

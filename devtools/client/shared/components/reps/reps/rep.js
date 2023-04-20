@@ -1172,7 +1172,7 @@ useCustomFormatters
 )
 {
 const
-CustomFormatter
+JsonMl
 =
 require
 (
@@ -1189,9 +1189,7 @@ reps
 /
 reps
 /
-custom
--
-formatter
+jsonml
 "
 )
 ;
@@ -1199,14 +1197,14 @@ reps
 .
 unshift
 (
-CustomFormatter
+JsonMl
 )
 ;
 exportedReps
 .
-CustomFormatter
+JsonMl
 =
-CustomFormatter
+JsonMl
 ;
 }
 }
@@ -1375,7 +1373,7 @@ rep
 =
 exportedReps
 .
-CustomFormatter
+JsonMl
 &
 &
 !
