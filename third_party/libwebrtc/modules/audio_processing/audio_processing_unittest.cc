@@ -243,17 +243,6 @@ modules
 /
 audio_processing
 /
-common
-.
-h
-"
-#
-include
-"
-modules
-/
-audio_processing
-/
 include
 /
 mock_audio_processing

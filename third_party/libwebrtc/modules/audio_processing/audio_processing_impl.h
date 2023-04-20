@@ -434,6 +434,16 @@ ApmDataDumper
 class
 AudioConverter
 ;
+constexpr
+int
+RuntimeSettingQueueSize
+(
+)
+{
+return
+100
+;
+}
 class
 AudioProcessingImpl
 :
