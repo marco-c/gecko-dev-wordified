@@ -1212,6 +1212,7 @@ this
 protected
 :
 class
+RTC_EXPORT
 CurrentTaskQueueSetter
 {
 public
