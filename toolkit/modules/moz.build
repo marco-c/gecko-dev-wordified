@@ -1295,7 +1295,9 @@ jsm
 "
 IgnoreLists
 .
-jsm
+sys
+.
+mjs
 "
 "
 IndexedDB
@@ -1405,7 +1407,9 @@ jsm
 "
 Region
 .
-jsm
+sys
+.
+mjs
 "
 "
 RemotePageAccessManager

@@ -102,9 +102,9 @@ init
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -121,7 +121,9 @@ modules
 /
 Region
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
