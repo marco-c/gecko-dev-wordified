@@ -88,7 +88,7 @@ makeFakeAppDir
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -101,7 +101,9 @@ common
 /
 AppData
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1294,7 +1296,9 @@ we
 use
 AppData
 .
-jsm
+sys
+.
+mjs
 to
 point
 to
