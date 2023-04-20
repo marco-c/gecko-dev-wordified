@@ -954,6 +954,7 @@ value_
 ;
 /
 /
+Unwrapped
 Transmission
 Sequence
 Numbers
@@ -961,7 +962,7 @@ Numbers
 TSN
 )
 using
-TSN
+UnwrappedTSN
 =
 UnwrappedSequenceNumber
 <
@@ -970,6 +971,7 @@ uint32_t
 ;
 /
 /
+Unwrapped
 Stream
 Sequence
 Numbers
@@ -977,7 +979,7 @@ Numbers
 SSN
 )
 using
-SSN
+UnwrappedSSN
 =
 UnwrappedSequenceNumber
 <
@@ -986,13 +988,14 @@ uint16_t
 ;
 /
 /
+Unwrapped
 Message
 Identifier
 (
 MID
 )
 using
-MID
+UnwrappedMID
 =
 UnwrappedSequenceNumber
 <
