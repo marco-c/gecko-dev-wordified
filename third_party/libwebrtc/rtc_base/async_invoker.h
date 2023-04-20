@@ -1267,13 +1267,13 @@ destroyed
 rtc
 :
 :
-Ref
+scoped_refptr
+<
+FinalRefCountedObject
 <
 Event
 >
-:
-:
-Ptr
+>
 invocation_complete_
 ;
 /
