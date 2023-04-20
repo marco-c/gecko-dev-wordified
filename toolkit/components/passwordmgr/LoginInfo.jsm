@@ -240,11 +240,10 @@ g
 .
 /
 /
-chrome
+file
 :
 /
 /
-FirefoxAccounts
 }
 if
 (
