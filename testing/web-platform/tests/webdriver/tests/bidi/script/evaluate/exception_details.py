@@ -1403,24 +1403,10 @@ xhtml
 '
                     
 '
-nodeName
-'
-:
-'
-'
-                    
-'
 nodeType
 '
 :
 1
-                    
-'
-nodeValue
-'
-:
-'
-'
                 
 }
             
