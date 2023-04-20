@@ -492,11 +492,6 @@ IdlePeriodState
 cpp
 "
 "
-InputEventStatistics
-.
-cpp
-"
-"
 InputTaskManager
 .
 cpp
