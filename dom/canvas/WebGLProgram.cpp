@@ -3122,7 +3122,7 @@ curInfo
 >
 texUnits
 .
-SetLength
+resize
 (
 uniform
 .
