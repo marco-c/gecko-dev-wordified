@@ -3117,6 +3117,8 @@ isShadowSampler
 }
 )
 ;
+MOZ_RELEASE_ASSERT
+(
 curInfo
 -
 >
@@ -3127,6 +3129,7 @@ resize
 uniform
 .
 elemCount
+)
 )
 ;
 samplerInfo
