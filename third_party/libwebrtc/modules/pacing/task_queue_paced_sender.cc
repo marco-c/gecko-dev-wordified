@@ -262,9 +262,12 @@ TaskQueuePacedSender
 Clock
 *
 clock
-PacketRouter
+PacingController
+:
+:
+PacketSender
 *
-packet_router
+packet_sender
 RtcEventLog
 *
 event_log
@@ -290,7 +293,7 @@ hold_back_window
 pacing_controller_
 (
 clock
-packet_router
+packet_sender
 event_log
 field_trials
 PacingController
