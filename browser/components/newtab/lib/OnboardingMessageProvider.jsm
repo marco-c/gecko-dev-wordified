@@ -2113,9 +2113,6 @@ progress_bar
 "
 true
 "
-dual_action_buttons
-:
-true
 background
 :
 "
@@ -2289,7 +2286,7 @@ navigate
 true
 }
 }
-secondary_button
+additional_button
 :
 {
 label
@@ -2313,6 +2310,11 @@ secondary
 label
 "
 }
+style
+:
+"
+secondary
+"
 action
 :
 {
