@@ -265,10 +265,6 @@ name
 )
 )
 {
-hasTestEntry
-=
-true
-;
 payloadSize
 +
 =
@@ -283,7 +279,6 @@ sizeof
 char16_t
 )
 ;
-}
 if
 (
 !
@@ -295,6 +290,14 @@ isValid
 )
 {
 return
+;
+}
+}
+else
+{
+hasTestEntry
+=
+true
 ;
 }
 }
