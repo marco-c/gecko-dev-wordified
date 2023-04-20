@@ -427,7 +427,7 @@ IsUsedAsPrototype
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 }
 )
 ;
@@ -455,7 +455,7 @@ IsUsedAsPrototype
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 }
 )
 ;
@@ -483,7 +483,7 @@ IsUsedAsPrototype
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 }
 )
 ;
@@ -507,7 +507,7 @@ hasAnyFlag
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 }
 )
 ;
@@ -535,7 +535,7 @@ IsUsedAsPrototype
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 }
 )
 ;
@@ -577,7 +577,7 @@ IsUsedAsPrototype
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 }
 )
 ;

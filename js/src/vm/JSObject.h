@@ -1433,7 +1433,7 @@ IsUsedAsPrototype
 ;
 }
 bool
-useWatchtowerTestingCallback
+useWatchtowerTestingLog
 (
 )
 const
@@ -1447,13 +1447,13 @@ js
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 )
 ;
 }
 static
 bool
-setUseWatchtowerTestingCallback
+setUseWatchtowerTestingLog
 (
 JSContext
 *
@@ -1476,7 +1476,7 @@ js
 ObjectFlag
 :
 :
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 )
 ;
 }
