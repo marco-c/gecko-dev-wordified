@@ -170,7 +170,9 @@ script
 "
 Common
 .
-jsm
+sys
+.
+mjs
 "
 symbol
 :

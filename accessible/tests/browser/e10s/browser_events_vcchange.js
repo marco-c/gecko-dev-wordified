@@ -123,7 +123,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -144,7 +144,9 @@ browser
 /
 Common
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -289,7 +291,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -310,7 +312,9 @@ browser
 /
 Common
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -442,7 +446,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -463,7 +467,9 @@ browser
 /
 Common
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -2078,7 +2078,7 @@ module
 =
 ChromeUtils
 .
-import
+importESModule
 (
 _contentScript
 )
@@ -3147,7 +3147,9 @@ script
 "
 Common
 .
-jsm
+sys
+.
+mjs
 "
 symbol
 :
@@ -4836,7 +4838,7 @@ LayoutUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -4857,7 +4859,9 @@ browser
 /
 Layout
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -5329,7 +5333,7 @@ LayoutUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -5350,7 +5354,9 @@ browser
 /
 Layout
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
