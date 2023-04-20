@@ -3224,7 +3224,9 @@ can
 only
 pass
 a
-TypedObject
+WebAssembly
+GC
+object
 /
 )
 ;
