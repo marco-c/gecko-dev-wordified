@@ -875,7 +875,7 @@ deleted
 .
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
-network_thread_checker_
+packet_sequence_checker_
 ;
 webrtc
 :
@@ -919,7 +919,7 @@ AudioSendStream
 associated_send_stream_
 RTC_GUARDED_BY
 (
-network_thread_checker_
+packet_sequence_checker_
 )
 =
 nullptr
@@ -943,7 +943,7 @@ RtpStreamReceiverInterface
 rtp_stream_receiver_
 RTC_GUARDED_BY
 (
-network_thread_checker_
+packet_sequence_checker_
 )
 ;
 }
