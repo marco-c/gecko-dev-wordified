@@ -1272,6 +1272,15 @@ feature
 -
 tour
 "
+"
+browser
+.
+pdfjs
+.
+feature
+-
+tour
+"
 ]
 ;
 if
