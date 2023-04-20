@@ -585,7 +585,9 @@ Files
 "
 PartnerLinkAttribution
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -996,7 +998,9 @@ jsm
 "
 PartnerLinkAttribution
 .
-jsm
+sys
+.
+mjs
 "
 "
 PermissionUI
