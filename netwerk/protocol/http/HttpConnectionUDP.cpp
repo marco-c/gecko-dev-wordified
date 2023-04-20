@@ -2447,7 +2447,7 @@ HttpConnectionUDP
 :
 GetTLSSocketControl
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 secinfo

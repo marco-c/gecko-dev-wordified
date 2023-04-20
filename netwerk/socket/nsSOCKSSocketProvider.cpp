@@ -542,7 +542,7 @@ PRFileDesc
 *
 *
 result
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 tlsSocketControl
@@ -632,7 +632,7 @@ tlsFlags
 PRFileDesc
 *
 sock
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 tlsSocketControl

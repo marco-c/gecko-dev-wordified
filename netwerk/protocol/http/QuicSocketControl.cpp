@@ -178,7 +178,7 @@ NS_IMPL_ISUPPORTS_INHERITED
 (
 QuicSocketControl
 TransportSecurityInfo
-nsISSLSocketControl
+nsITLSSocketControl
 QuicSocketControl
 )
 QuicSocketControl
@@ -348,7 +348,7 @@ aSSLVersionOffered
 *
 aSSLVersionOffered
 =
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 TLS_VERSION_1_3

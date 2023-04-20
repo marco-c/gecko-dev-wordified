@@ -509,7 +509,7 @@ NS_OK
 NS_IMETHOD
 GetTlsSocketControl
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 aTLSSocketControl

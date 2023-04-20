@@ -213,7 +213,7 @@ mTLSVersionRange
 /
 /
 From
-nsISSLSocketControl
+nsITLSSocketControl
 .
 NS_IMETHOD
 ProxyStartSSL
@@ -267,7 +267,7 @@ void
 override
 ;
 using
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 GetKEAUsed
@@ -1187,7 +1187,7 @@ detetermination
 Values
 are
 from
-nsISSLSocketControl
+nsITLSSocketControl
 int16_t
 mKEAUsed
 ;
