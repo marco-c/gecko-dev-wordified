@@ -2075,7 +2075,7 @@ peer
 private
 :
 DefaultNamesProvider
-peer_names_provider
+peer_names_provider_
 ;
 std
 :
@@ -2087,7 +2087,7 @@ std
 :
 string
 >
-peer_names
+peer_names_
 ;
 std
 :
@@ -2099,7 +2099,7 @@ std
 :
 string
 >
-video_labels
+video_labels_
 ;
 std
 :
@@ -2111,7 +2111,7 @@ std
 :
 string
 >
-audio_labels
+audio_labels_
 ;
 std
 :
@@ -2123,7 +2123,7 @@ std
 :
 string
 >
-video_sync_groups
+video_sync_groups_
 ;
 std
 :
@@ -2135,12 +2135,7 @@ std
 :
 string
 >
-audio_sync_groups
-;
-int
-media_streams_count
-=
-0
+audio_sync_groups_
 ;
 }
 ;
