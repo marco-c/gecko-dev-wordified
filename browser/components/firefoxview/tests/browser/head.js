@@ -301,7 +301,7 @@ iphone
 clientType
 :
 "
-mobile
+phone
 "
 lastModified
 :
