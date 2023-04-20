@@ -204,7 +204,6 @@ getPendingSelectedLocation
 getPendingBreakpointsForSource
 getContext
 getSourceTextContent
-getFirstSourceActorForGeneratedSource
 }
 from
 "
@@ -934,19 +933,6 @@ pending
 breakpoint
 for
 it
-const
-sourceActor
-=
-getFirstSourceActorForGeneratedSource
-(
-getState
-(
-)
-source
-.
-id
-)
-;
 await
 dispatch
 (
@@ -955,7 +941,6 @@ loadSourceText
 {
 cx
 source
-sourceActor
 }
 )
 )

@@ -1797,7 +1797,7 @@ isWasm
 /
 /
 True
-if
+is
 this
 source
 is

@@ -131,9 +131,6 @@ sourceUrl
 =
 "
 "
-sourceActorId
-=
-null
 }
 )
 {
@@ -143,7 +140,6 @@ sourceId
 line
 column
 sourceUrl
-sourceActorId
 }
 ;
 }
