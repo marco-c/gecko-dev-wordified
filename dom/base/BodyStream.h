@@ -680,7 +680,7 @@ ReadableStream
 *
 aStream
 nsresult
-aRv
+aError
 )
 MOZ_REQUIRES
 (
