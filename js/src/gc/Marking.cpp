@@ -4612,7 +4612,7 @@ inline
 bool
 DoCallback
 (
-GenericTracer
+JSTracer
 *
 trc
 T
@@ -4653,7 +4653,7 @@ inline
 bool
 DoCallback
 (
-GenericTracer
+JSTracer
 *
 trc
 T
@@ -4968,11 +4968,6 @@ return
 DoCallback
 (
 trc
--
->
-asGenericTracer
-(
-)
 thingp
 name
 )
@@ -18992,11 +18987,6 @@ BarrierTracer
 >
 (
 trc
--
->
-asGenericTracer
-(
-)
 )
 ;
 }
