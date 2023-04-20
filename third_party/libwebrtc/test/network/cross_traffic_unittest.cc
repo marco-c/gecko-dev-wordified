@@ -597,7 +597,7 @@ AdvanceTimeMilliseconds
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -832,7 +832,7 @@ AdvanceTimeMilliseconds
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

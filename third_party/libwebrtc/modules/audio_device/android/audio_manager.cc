@@ -277,7 +277,7 @@ Z
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -302,7 +302,7 @@ JavaAudioManager
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -461,7 +461,7 @@ delay_estimate_in_milliseconds_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -578,7 +578,7 @@ AudioManager
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -615,7 +615,7 @@ audio_layer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -733,7 +733,7 @@ kLowLatencyModeDelayEstimateInMilliseconds
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -756,7 +756,7 @@ GetOpenSLEngine
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -812,7 +812,7 @@ kAndroidJavaInputAndOpenSLESOutputAudio
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1086,7 +1086,7 @@ Init
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1164,7 +1164,7 @@ Close
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1684,7 +1684,7 @@ input_buffer_size
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

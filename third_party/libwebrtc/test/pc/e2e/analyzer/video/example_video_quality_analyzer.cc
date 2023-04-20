@@ -436,7 +436,7 @@ reason
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -686,7 +686,7 @@ lock_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

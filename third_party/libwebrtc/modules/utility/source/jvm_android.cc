@@ -362,7 +362,7 @@ jni
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -559,7 +559,7 @@ false
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -608,7 +608,7 @@ jni
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -659,7 +659,7 @@ JvmThreadConnector
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -686,7 +686,7 @@ attached_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -769,7 +769,7 @@ object
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -791,7 +791,7 @@ GlobalRef
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1000,7 +1000,7 @@ jni
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1022,7 +1022,7 @@ NativeRegistration
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1081,7 +1081,7 @@ signature
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1336,7 +1336,7 @@ jni
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1358,7 +1358,7 @@ JNIEnvironment
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1405,7 +1405,7 @@ num_methods
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1701,7 +1701,7 @@ Uninitialize
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1763,7 +1763,7 @@ jvm
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1813,7 +1813,7 @@ JVM
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1858,7 +1858,7 @@ environment
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2041,7 +2041,7 @@ name
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

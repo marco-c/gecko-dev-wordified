@@ -704,7 +704,7 @@ observer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -748,7 +748,7 @@ Detach
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -769,7 +769,7 @@ AAudioWrapper
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -803,7 +803,7 @@ Init
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -973,7 +973,7 @@ Start
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1080,7 +1080,7 @@ Stop
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1440,7 +1440,7 @@ IncreaseOutputBufferSize
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1585,7 +1585,7 @@ false
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1657,7 +1657,7 @@ false
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1691,7 +1691,7 @@ num_frames
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2081,7 +2081,7 @@ builder
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2406,7 +2406,7 @@ builder
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2458,7 +2458,7 @@ CloseStream
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2659,7 +2659,7 @@ frames_per_callback
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2680,7 +2680,7 @@ LogStreamState
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2710,7 +2710,7 @@ VerifyStreamConfiguration
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2998,7 +2998,7 @@ OptimizeBuffers
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3026,7 +3026,7 @@ blocking
 .
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3077,7 +3077,7 @@ stream_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3238,7 +3238,7 @@ blocking
 .
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

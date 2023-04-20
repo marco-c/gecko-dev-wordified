@@ -802,7 +802,7 @@ enabled
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -900,7 +900,7 @@ enabled
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

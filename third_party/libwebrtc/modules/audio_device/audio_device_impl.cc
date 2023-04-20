@@ -538,7 +538,7 @@ task_queue_factory
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -579,7 +579,7 @@ task_queue_factory
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -794,7 +794,7 @@ task_queue_factory
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -811,7 +811,7 @@ CheckPlatform
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -844,7 +844,7 @@ kPlatformWin32
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -867,7 +867,7 @@ kPlatformAndroid
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -890,7 +890,7 @@ kPlatformLinux
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -913,7 +913,7 @@ kPlatformIOS
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -936,7 +936,7 @@ kPlatformMac
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1004,7 +1004,7 @@ CreatePlatformSpecificObjects
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1039,7 +1039,7 @@ AudioDeviceDummy
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1077,7 +1077,7 @@ audio_device_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1115,7 +1115,7 @@ AudioDeviceDummy
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1182,7 +1182,7 @@ kPlatformDefaultAudio
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1222,7 +1222,7 @@ AudioDeviceWindowsCore
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1885,7 +1885,7 @@ AudioDeviceLinuxALSA
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1955,7 +1955,7 @@ default
 .
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2005,7 +2005,7 @@ AudioDeviceLinuxPulse
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2118,7 +2118,7 @@ false
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2176,7 +2176,7 @@ AudioDeviceMac
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2224,7 +2224,7 @@ AudioDeviceDummy
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2291,7 +2291,7 @@ AttachAudioBuffer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2320,7 +2320,7 @@ AudioDeviceModuleImpl
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2341,7 +2341,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2389,7 +2389,7 @@ Init
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2502,7 +2502,7 @@ Terminate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2554,7 +2554,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2582,7 +2582,7 @@ InitSpeaker
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2611,7 +2611,7 @@ InitMicrophone
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2643,7 +2643,7 @@ available
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2685,7 +2685,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2713,7 +2713,7 @@ volume
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2760,7 +2760,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2802,7 +2802,7 @@ level
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2830,7 +2830,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2852,7 +2852,7 @@ SpeakerIsInitialized
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2879,7 +2879,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2901,7 +2901,7 @@ MicrophoneIsInitialized
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3030,7 +3030,7 @@ available
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3072,7 +3072,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3100,7 +3100,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3147,7 +3147,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3189,7 +3189,7 @@ muted
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3218,7 +3218,7 @@ available
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3260,7 +3260,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3288,7 +3288,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3337,7 +3337,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3379,7 +3379,7 @@ muted
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3408,7 +3408,7 @@ available
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3450,7 +3450,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3478,7 +3478,7 @@ volume
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3527,7 +3527,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3569,7 +3569,7 @@ level
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3600,7 +3600,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3642,7 +3642,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3670,7 +3670,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3807,7 +3807,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3849,7 +3849,7 @@ stereo
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3879,7 +3879,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3921,7 +3921,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3949,7 +3949,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4077,7 +4077,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4119,7 +4119,7 @@ stereo
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4148,7 +4148,7 @@ available
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4190,7 +4190,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4219,7 +4219,7 @@ available
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4261,7 +4261,7 @@ isAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4389,7 +4389,7 @@ PlayoutDevices
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4411,7 +4411,7 @@ PlayoutDevices
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4444,7 +4444,7 @@ index
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4489,7 +4489,7 @@ device
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4531,7 +4531,7 @@ kAdmMaxGuidSize
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4602,7 +4602,7 @@ NULL
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4627,7 +4627,7 @@ NULL
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4668,7 +4668,7 @@ kAdmMaxGuidSize
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4739,7 +4739,7 @@ NULL
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4764,7 +4764,7 @@ NULL
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4793,7 +4793,7 @@ RecordingDevices
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4815,7 +4815,7 @@ RecordingDevices
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4846,7 +4846,7 @@ index
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4891,7 +4891,7 @@ device
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4921,7 +4921,7 @@ InitPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4954,7 +4954,7 @@ InitPlayout
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5001,7 +5001,7 @@ InitRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5034,7 +5034,7 @@ InitRecording
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5082,7 +5082,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5112,7 +5112,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5141,7 +5141,7 @@ StartPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5180,7 +5180,7 @@ StartPlayout
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5227,7 +5227,7 @@ StopPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5255,7 +5255,7 @@ StopPlayout
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5303,7 +5303,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5332,7 +5332,7 @@ StartRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5371,7 +5371,7 @@ StartRecording
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5418,7 +5418,7 @@ StopRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5446,7 +5446,7 @@ StopRecording
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5494,7 +5494,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5526,7 +5526,7 @@ audioCallback
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5617,7 +5617,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5639,7 +5639,7 @@ BuiltInAECIsAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5667,7 +5667,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5703,7 +5703,7 @@ enable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5730,7 +5730,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5752,7 +5752,7 @@ BuiltInAGCIsAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5780,7 +5780,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5816,7 +5816,7 @@ enable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5843,7 +5843,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5865,7 +5865,7 @@ BuiltInNSIsAvailable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5893,7 +5893,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5929,7 +5929,7 @@ enable
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5956,7 +5956,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5978,7 +5978,7 @@ GetPlayoutUnderrunCount
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6014,7 +6014,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6033,7 +6033,7 @@ params
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6063,7 +6063,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6082,7 +6082,7 @@ params
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6117,7 +6117,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6141,7 +6141,7 @@ const
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

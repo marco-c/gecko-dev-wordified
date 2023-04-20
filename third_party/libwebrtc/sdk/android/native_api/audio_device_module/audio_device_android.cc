@@ -402,7 +402,7 @@ application_context
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -515,7 +515,7 @@ application_context
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -704,7 +704,7 @@ application_context
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -866,7 +866,7 @@ application_context
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

@@ -629,7 +629,7 @@ user
 .
 RTC_LOG_ERR
 (
-INFO
+LS_INFO
 )
 <
 <

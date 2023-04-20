@@ -520,7 +520,7 @@ OnSuccess
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -540,7 +540,7 @@ error
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1498,7 +1498,7 @@ streams
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1556,7 +1556,7 @@ receiver
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1610,7 +1610,7 @@ candidate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1659,7 +1659,7 @@ candidate
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1784,7 +1784,7 @@ OnSignedIn
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1814,7 +1814,7 @@ OnDisconnected
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1860,7 +1860,7 @@ name
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1919,7 +1919,7 @@ id
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1935,7 +1935,7 @@ peer_id_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2118,7 +2118,7 @@ peer_id_
 ;
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2172,7 +2172,7 @@ jmessage
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2366,7 +2366,7 @@ sdp
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2422,7 +2422,7 @@ session_description
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2453,7 +2453,7 @@ return
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2580,7 +2580,7 @@ sdp
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2640,7 +2640,7 @@ get
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2686,7 +2686,7 @@ get
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2704,7 +2704,7 @@ return
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3229,7 +3229,7 @@ DisconnectFromCurrentPeer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3303,7 +3303,7 @@ PEER_CONNECTION_CLOSED
 :
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3375,7 +3375,7 @@ SEND_MESSAGE_TO_PEER
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3854,7 +3854,7 @@ error
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <

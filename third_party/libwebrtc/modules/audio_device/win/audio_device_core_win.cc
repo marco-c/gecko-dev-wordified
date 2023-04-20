@@ -16853,7 +16853,7 @@ pWfxClosestMatch
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -16925,7 +16925,7 @@ else
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -19589,7 +19589,7 @@ pWfxClosestMatch
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -19665,7 +19665,7 @@ else
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

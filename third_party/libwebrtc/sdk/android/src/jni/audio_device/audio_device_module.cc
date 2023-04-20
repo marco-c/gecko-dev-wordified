@@ -554,7 +554,7 @@ output_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -575,7 +575,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -597,7 +597,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -623,7 +623,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -647,7 +647,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -829,7 +829,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -908,7 +908,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -934,7 +934,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -942,7 +942,7 @@ __FUNCTION__
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -966,7 +966,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -974,7 +974,7 @@ __FUNCTION__
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1069,7 +1069,7 @@ instead
 .
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1141,7 +1141,7 @@ instead
 .
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1191,7 +1191,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1204,7 +1204,7 @@ true
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1229,7 +1229,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1267,7 +1267,7 @@ InitPlayout
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1313,7 +1313,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1339,7 +1339,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1352,7 +1352,7 @@ true
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1377,7 +1377,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1415,7 +1415,7 @@ InitRecording
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1461,7 +1461,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1484,7 +1484,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1522,7 +1522,7 @@ StartPlayout
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1601,7 +1601,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1628,7 +1628,7 @@ return
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1653,7 +1653,7 @@ StopPlayout
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1699,7 +1699,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1722,7 +1722,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1760,7 +1760,7 @@ StartRecording
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1839,7 +1839,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1883,7 +1883,7 @@ StopRecording
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1929,7 +1929,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1952,7 +1952,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1976,7 +1976,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1994,7 +1994,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2018,7 +2018,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2039,7 +2039,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2066,7 +2066,7 @@ SpeakerVolumeIsAvailable
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2093,7 +2093,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2130,7 +2130,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2178,7 +2178,7 @@ volume
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2207,7 +2207,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2269,7 +2269,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2330,7 +2330,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2343,7 +2343,7 @@ false
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2371,7 +2371,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2407,7 +2407,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2430,7 +2430,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2453,7 +2453,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2475,7 +2475,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2496,7 +2496,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2532,7 +2532,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2554,7 +2554,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2575,7 +2575,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2611,7 +2611,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2634,7 +2634,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2647,7 +2647,7 @@ is_stereo_playout_supported_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2674,7 +2674,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2788,7 +2788,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2801,7 +2801,7 @@ is_stereo_playout_supported_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2830,7 +2830,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2843,7 +2843,7 @@ is_stereo_record_supported_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2870,7 +2870,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2984,7 +2984,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2997,7 +2997,7 @@ is_stereo_record_supported_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3253,7 +3253,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3279,7 +3279,7 @@ IsAcousticEchoCancelerSupported
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3315,7 +3315,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3323,7 +3323,7 @@ __FUNCTION__
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3397,7 +3397,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3423,7 +3423,7 @@ IsNoiseSuppressorSupported
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3466,7 +3466,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3523,7 +3523,7 @@ enable
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3549,7 +3549,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3600,7 +3600,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3657,7 +3657,7 @@ enable
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3705,7 +3705,7 @@ AttachAudioBuffer
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4047,7 +4047,7 @@ audio_output
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

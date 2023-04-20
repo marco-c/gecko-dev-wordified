@@ -1959,7 +1959,7 @@ npos
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2503,7 +2503,7 @@ socket
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3159,7 +3159,7 @@ err
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

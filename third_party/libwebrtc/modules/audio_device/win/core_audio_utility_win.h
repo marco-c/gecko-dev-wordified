@@ -472,7 +472,7 @@ task_name
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -574,7 +574,7 @@ GetCurrentThread
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -605,7 +605,7 @@ priority_class
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -655,7 +655,7 @@ MMCSS
 .
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

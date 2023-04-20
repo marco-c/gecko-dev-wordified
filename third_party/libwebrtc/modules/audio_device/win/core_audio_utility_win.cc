@@ -1184,7 +1184,7 @@ path
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1259,7 +1259,7 @@ path
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1800,7 +1800,7 @@ role
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4291,7 +4291,7 @@ i
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4323,7 +4323,7 @@ device_name
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4468,7 +4468,7 @@ sample_rate
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4628,7 +4628,7 @@ audio_params
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4808,7 +4808,7 @@ IsSupported
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4835,7 +4835,7 @@ IsMMCSSSupported
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4996,7 +4996,7 @@ devices
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5094,7 +5094,7 @@ CreateDeviceEnumerator
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5119,7 +5119,7 @@ GetDefaultInputDeviceID
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5178,7 +5178,7 @@ GetDefaultOutputDeviceID
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5237,7 +5237,7 @@ GetCommunicationsInputDeviceID
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5296,7 +5296,7 @@ GetCommunicationsOutputDeviceID
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5366,7 +5366,7 @@ role
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5393,7 +5393,7 @@ device
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5421,7 +5421,7 @@ device
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5438,7 +5438,7 @@ device_name
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5478,7 +5478,7 @@ role
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5544,7 +5544,7 @@ device
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5683,7 +5683,7 @@ device_names
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5727,7 +5727,7 @@ device_names
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5771,7 +5771,7 @@ device
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5805,7 +5805,7 @@ device
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5830,7 +5830,7 @@ device
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5917,7 +5917,7 @@ return
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6051,7 +6051,7 @@ display_name
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6163,7 +6163,7 @@ num_active
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6204,7 +6204,7 @@ role
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6258,7 +6258,7 @@ role
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6312,7 +6312,7 @@ role
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6355,7 +6355,7 @@ client
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6559,7 +6559,7 @@ error
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6586,7 +6586,7 @@ NTDDI_WINBLUE
 )
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6767,7 +6767,7 @@ AUDCLNT_STREAMOPTIONS_MATCH_FORMAT
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6863,7 +6863,7 @@ max_buffer_duration
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7051,7 +7051,7 @@ max_duration
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7065,7 +7065,7 @@ min_buffer_duration
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7099,7 +7099,7 @@ format
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7534,7 +7534,7 @@ size
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7567,7 +7567,7 @@ format
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7677,7 +7677,7 @@ closest_match
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7717,7 +7717,7 @@ nullptr
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7803,7 +7803,7 @@ exists
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7862,7 +7862,7 @@ format
 .
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7935,7 +7935,7 @@ device_period
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8077,7 +8077,7 @@ minimum_period
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8106,7 +8106,7 @@ ms
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8166,7 +8166,7 @@ max_period_in_frames
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8285,7 +8285,7 @@ nSamplesPerSec
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8317,7 +8317,7 @@ ms
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8349,7 +8349,7 @@ ms
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8381,7 +8381,7 @@ ms
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8452,7 +8452,7 @@ params
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8493,7 +8493,7 @@ sample_rate
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8542,7 +8542,7 @@ endpoint_buffer_size
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8792,7 +8792,7 @@ AUDCLNT_STREAMFLAGS_EVENTCALLBACK
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8880,7 +8880,7 @@ APIs
 .
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8908,7 +8908,7 @@ AUDCLNT_STREAMFLAGS_SRC_DEFAULT_QUALITY
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9295,7 +9295,7 @@ buffer_size_in_frames
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9344,7 +9344,7 @@ nSamplesPerSec
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9377,7 +9377,7 @@ ms
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9399,7 +9399,7 @@ nBlockAlign
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9470,7 +9470,7 @@ latency
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9528,7 +9528,7 @@ endpoint_buffer_size
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9621,7 +9621,7 @@ AUDCLNT_STREAMFLAGS_EVENTCALLBACK
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9655,7 +9655,7 @@ AUDCLNT_STREAMFLAGS_SRC_DEFAULT_QUALITY
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9920,7 +9920,7 @@ buffer_size_in_frames
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -9969,7 +9969,7 @@ nSamplesPerSec
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10002,7 +10002,7 @@ ms
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10024,7 +10024,7 @@ nBlockAlign
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10131,7 +10131,7 @@ else
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10180,7 +10180,7 @@ client
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10301,7 +10301,7 @@ client
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10422,7 +10422,7 @@ client
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10549,7 +10549,7 @@ client
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10645,7 +10645,7 @@ client
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10768,7 +10768,7 @@ render_client
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10915,7 +10915,7 @@ false
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10942,7 +10942,7 @@ num_queued_frames
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

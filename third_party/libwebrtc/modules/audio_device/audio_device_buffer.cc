@@ -395,7 +395,7 @@ false
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -459,7 +459,7 @@ recording_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -491,7 +491,7 @@ main_thread_checker_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -610,7 +610,7 @@ return
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -738,7 +738,7 @@ return
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -909,7 +909,7 @@ return
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -944,7 +944,7 @@ StopPeriodicLogging
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -990,7 +990,7 @@ return
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1208,7 +1208,7 @@ only_zeros
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1230,7 +1230,7 @@ only_zeros
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1257,7 +1257,7 @@ fsHz
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1294,7 +1294,7 @@ fsHz
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1357,7 +1357,7 @@ channels
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1394,7 +1394,7 @@ channels
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2909,7 +2909,7 @@ abs_diff_rate_in_percent
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3098,7 +3098,7 @@ abs_diff_rate_in_percent
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

@@ -341,7 +341,7 @@ counters
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -366,7 +366,7 @@ captured
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -392,7 +392,7 @@ pre_encoded
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -417,7 +417,7 @@ encoded
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -442,7 +442,7 @@ received
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -467,7 +467,7 @@ decoded
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -492,7 +492,7 @@ rendered
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -633,7 +633,7 @@ dropped_by_phase
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -732,7 +732,7 @@ switched_on_at
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -916,7 +916,7 @@ IsFinite
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5428,7 +5428,7 @@ stream_stats
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5817,7 +5817,7 @@ IsEmpty
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5875,7 +5875,7 @@ GetPercentile
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5891,7 +5891,7 @@ comparisons_done
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5907,7 +5907,7 @@ cpu_overloaded_comparisons_done
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

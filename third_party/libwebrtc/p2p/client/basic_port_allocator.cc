@@ -712,7 +712,7 @@ return
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -756,7 +756,7 @@ it
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

@@ -3391,7 +3391,7 @@ adaption_enabled
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3617,7 +3617,7 @@ else
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7878,7 +7878,7 @@ log
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

@@ -1517,7 +1517,7 @@ test
 summary
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2170,7 +2170,7 @@ kMaxVideoAnalyzerThreads
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2505,7 +2505,7 @@ kAliveMessageLogInterval
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2856,7 +2856,7 @@ run_duration
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3046,7 +3046,7 @@ Now
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4777,7 +4777,7 @@ log_output
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4832,7 +4832,7 @@ log_output
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4862,7 +4862,7 @@ log_output
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4953,7 +4953,7 @@ log_output
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5007,7 +5007,7 @@ log_output
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5037,7 +5037,7 @@ log_output
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5184,7 +5184,7 @@ candidate_str
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5305,7 +5305,7 @@ candidate_str
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

@@ -4815,7 +4815,7 @@ iTemporalLayerNum
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4905,7 +4905,7 @@ max_payload_size_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

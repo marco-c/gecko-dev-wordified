@@ -682,7 +682,7 @@ min_period_in_frames
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -799,7 +799,7 @@ default_period
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -873,7 +873,7 @@ false
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -897,7 +897,7 @@ direction
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -912,7 +912,7 @@ automatic_restart
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1080,7 +1080,7 @@ CoreAudioBase
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1211,7 +1211,7 @@ ReleaseCOMObjects
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1749,7 +1749,7 @@ index
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1805,7 +1805,7 @@ index
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1877,7 +1877,7 @@ const
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2046,7 +2046,7 @@ device_name
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2079,7 +2079,7 @@ unique_id
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2107,7 +2107,7 @@ Init
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2337,7 +2337,7 @@ GetAudioClientVersion
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2377,7 +2377,7 @@ GetAudioClientVersion
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2405,7 +2405,7 @@ else
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2976,7 +2976,7 @@ KSDATAFORMAT_SUBTYPE_PCM
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3581,7 +3581,7 @@ device_period_in_seconds
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3754,7 +3754,7 @@ false
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -3844,7 +3844,7 @@ Start
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4013,7 +4013,7 @@ kRealtime
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4139,7 +4139,7 @@ Stop
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4165,7 +4165,7 @@ direction
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4423,7 +4423,7 @@ events
 .
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4773,7 +4773,7 @@ false
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4866,7 +4866,7 @@ Restart
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4929,7 +4929,7 @@ StopThread
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4955,7 +4955,7 @@ empty
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -4978,7 +4978,7 @@ Get
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5052,7 +5052,7 @@ HandleRestartEvent
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5176,7 +5176,7 @@ SwitchDeviceIfNeeded
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5215,7 +5215,7 @@ IsRestarting
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5457,7 +5457,7 @@ else
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5590,7 +5590,7 @@ ref_count_
 /
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5641,7 +5641,7 @@ ref_count_
 /
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5763,7 +5763,7 @@ new_state
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -5901,7 +5901,7 @@ disconnect_reason
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6237,7 +6237,7 @@ return
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -6779,7 +6779,7 @@ future
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

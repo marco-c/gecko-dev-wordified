@@ -3137,7 +3137,7 @@ sizeInBytes
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

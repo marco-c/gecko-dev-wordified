@@ -687,7 +687,7 @@ kFrameLogInterval
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1515,7 +1515,7 @@ kFrameLogInterval
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1545,7 +1545,7 @@ encoding
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
