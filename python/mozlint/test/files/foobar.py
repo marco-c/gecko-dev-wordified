@@ -10,10 +10,6 @@ variable
 foobar
 bad
 !
-from
-__future__
-import
-absolute_import
 foobar
 =
 "

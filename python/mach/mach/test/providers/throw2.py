@@ -83,10 +83,6 @@ things
 they
 call
 .
-from
-__future__
-import
-absolute_import
 def
 throw_deep
 (

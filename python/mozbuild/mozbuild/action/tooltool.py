@@ -202,11 +202,6 @@ manifest
 .
 tt
 '
-from
-__future__
-import
-absolute_import
-print_function
 import
 base64
 import
