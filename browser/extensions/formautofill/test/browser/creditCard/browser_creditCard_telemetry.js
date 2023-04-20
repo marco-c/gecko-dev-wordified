@@ -986,6 +986,8 @@ creditCards
 .
 heuristics
 .
+fathom
+.
 testConfidence
 "
 "
