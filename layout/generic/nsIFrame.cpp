@@ -30548,6 +30548,16 @@ savedOutOfFlowData
 mContainingBlockActiveScrolledRoot
 )
 ;
+asrSetter
+.
+SetCurrentScrollParentId
+(
+savedOutOfFlowData
+-
+>
+mScrollParentId
+)
+;
 MOZ_ASSERT
 (
 awayFromCommonPath

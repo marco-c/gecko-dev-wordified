@@ -859,6 +859,16 @@ savedOutOfFlowData
 mContainingBlockActiveScrolledRoot
 )
 ;
+asrSetter
+.
+SetCurrentScrollParentId
+(
+savedOutOfFlowData
+-
+>
+mScrollParentId
+)
+;
 }
 nsDisplayListBuilder
 :
