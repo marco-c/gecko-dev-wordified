@@ -193,8 +193,8 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 MIDIManagerParent
+override
 )
-;
 MIDIManagerParent
 (
 )
@@ -220,11 +220,6 @@ ipc
 :
 IPCResult
 RecvShutdown
-(
-)
-;
-void
-Teardown
 (
 )
 ;

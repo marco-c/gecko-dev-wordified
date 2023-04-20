@@ -221,11 +221,6 @@ aPortList
 )
 ;
 void
-SetActorAlive
-(
-)
-;
-void
 Shutdown
 (
 )
