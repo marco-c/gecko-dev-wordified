@@ -433,6 +433,8 @@ mStart
 .
 y
 )
+.
+value
 *
 (
 mEnd
@@ -443,6 +445,8 @@ mStart
 .
 x
 )
+.
+value
 -
 (
 aOther
@@ -457,6 +461,8 @@ mStart
 .
 x
 )
+.
+value
 *
 (
 mEnd
@@ -467,6 +473,8 @@ mStart
 .
 y
 )
+.
+value
 ;
 /
 /
@@ -520,6 +528,8 @@ mStart
 .
 x
 )
+.
+value
 *
 (
 mStart
@@ -532,6 +542,8 @@ mStart
 .
 y
 )
+.
+value
 -
 (
 aOther
@@ -546,6 +558,8 @@ mStart
 .
 y
 )
+.
+value
 *
 (
 mStart
@@ -558,6 +572,8 @@ mStart
 .
 x
 )
+.
+value
 ;
 gfxFloat
 bnumerator
@@ -571,6 +587,8 @@ mStart
 .
 x
 )
+.
+value
 *
 (
 mStart
@@ -583,6 +601,8 @@ mStart
 .
 y
 )
+.
+value
 -
 (
 mEnd
@@ -593,6 +613,8 @@ mStart
 .
 y
 )
+.
+value
 *
 (
 mStart
@@ -605,6 +627,8 @@ mStart
 .
 x
 )
+.
+value
 ;
 gfxFloat
 ua

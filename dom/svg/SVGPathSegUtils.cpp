@@ -4790,6 +4790,8 @@ isfinite
 v
 .
 x
+.
+value
 )
 |
 |
@@ -4802,6 +4804,8 @@ isfinite
 v
 .
 y
+.
+value
 )
 )
 {

@@ -17235,9 +17235,13 @@ d
 cursorPos
 .
 x
+.
+value
 cursorPos
 .
 y
+.
+value
 offset
 positioning
 )

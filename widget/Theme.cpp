@@ -9037,7 +9037,7 @@ radius
 auto
 offset
 =
-LayoutDeviceCoord
+LayoutDevicePixel
 :
 :
 FromAppUnits

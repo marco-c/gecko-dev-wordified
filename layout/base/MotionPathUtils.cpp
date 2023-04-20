@@ -900,6 +900,8 @@ cost
 aInitialPosition
 .
 y
+.
+value
 :
 aContainerSize
 .
@@ -908,6 +910,8 @@ height
 aInitialPosition
 .
 y
+.
+value
 ;
 double
 bPrime
@@ -924,10 +928,14 @@ width
 aInitialPosition
 .
 x
+.
+value
 :
 aInitialPosition
 .
 x
+.
+value
 ;
 sint
 =
@@ -2291,10 +2299,14 @@ value
 p
 .
 y
+.
+value
 *
 p
 .
 y
+.
+value
 ;
 if
 (
@@ -2525,6 +2537,8 @@ vertices
 ]
 .
 x
+.
+value
 ;
 const
 double

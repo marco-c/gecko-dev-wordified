@@ -36483,6 +36483,8 @@ clamped
 pointInRunUserSpace
 .
 x
+.
+value
 runRect
 .
 X
@@ -36504,6 +36506,8 @@ clamped
 pointInRunUserSpace
 .
 y
+.
+value
 runRect
 .
 Y

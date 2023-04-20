@@ -21920,6 +21920,8 @@ mPosition
 offset
 .
 x
+.
+value
 &
 =
 ~
@@ -21927,6 +21929,8 @@ x
 aQuantizeScale
 .
 x
+.
+value
 -
 1
 )
@@ -21934,6 +21938,8 @@ x
 offset
 .
 y
+.
+value
 &
 =
 ~
@@ -21941,6 +21947,8 @@ y
 aQuantizeScale
 .
 y
+.
+value
 -
 1
 )

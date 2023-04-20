@@ -17766,9 +17766,13 @@ d
 p
 .
 x
+.
+value
 p
 .
 y
+.
+value
 )
 ;
 rv

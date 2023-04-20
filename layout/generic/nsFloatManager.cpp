@@ -16568,6 +16568,8 @@ col
 dfOffset
 .
 x
+.
+value
 +
 (
 row
@@ -16575,6 +16577,8 @@ row
 dfOffset
 .
 y
+.
+value
 )
 *
 aStride
@@ -16605,6 +16609,8 @@ col
 dfOffset
 .
 x
+.
+value
 +
 (
 row
@@ -16612,6 +16618,8 @@ row
 dfOffset
 .
 y
+.
+value
 )
 *
 aStride
