@@ -8394,6 +8394,7 @@ sysroot
 macos_target
 multiarch_dir
 winsysroot
+host
 )
 checking
 (
@@ -8447,6 +8448,7 @@ sysroot
 macos_target
 multiarch_dir
 winsysroot
+host
 )
 :
 wrapper
@@ -9359,6 +9361,15 @@ version
 )
 if
 winsysroot
+and
+host
+.
+os
+!
+=
+"
+WINNT
+"
 :
 overlay
 =
