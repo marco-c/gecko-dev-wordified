@@ -1484,11 +1484,6 @@ NETWORK_DNS_PREF
 "
 network
 .
-ssl_tokens_cache_enabled
-"
-"
-network
-.
 send_ODA_to_content_directly
 "
 "
