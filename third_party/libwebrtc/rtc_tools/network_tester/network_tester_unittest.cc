@@ -142,6 +142,12 @@ NetworkTesterTest
 ServerClient
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread
+;
 TestController
 client
 (
