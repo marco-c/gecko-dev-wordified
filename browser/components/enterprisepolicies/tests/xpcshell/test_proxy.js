@@ -100,7 +100,7 @@ PROXY_TYPES_MAP
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -114,9 +114,7 @@ policies
 /
 ProxyPolicies
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

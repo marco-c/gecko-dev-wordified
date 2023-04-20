@@ -138,7 +138,18 @@ jsm
 "
 )
 ;
-export
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+EnterprisePolicyTesting
+"
+"
+PoliciesPrefTracker
+"
+]
+;
 var
 EnterprisePolicyTesting
 =
@@ -593,7 +604,6 @@ engine
 .
 *
 /
-export
 var
 PoliciesPrefTracker
 =
@@ -618,7 +628,7 @@ PoliciesUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -632,9 +642,7 @@ policies
 /
 Policies
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -677,7 +685,7 @@ PoliciesUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -691,9 +699,7 @@ policies
 /
 Policies
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

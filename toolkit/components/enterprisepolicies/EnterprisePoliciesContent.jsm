@@ -56,7 +56,15 @@ MPL
 .
 *
 /
-export
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+EnterprisePoliciesManagerContent
+"
+]
+;
 class
 EnterprisePoliciesManagerContent
 {
