@@ -97,8 +97,6 @@ httplib2
 import
 json
 import
-math
-import
 subprocess
 import
 time
@@ -1271,9 +1269,6 @@ and
 handle
 -
 infinity
-and
-NaN
-#
 correctly
 .
 def
@@ -1351,7 +1346,6 @@ running
 ]
 =
 [
-                
 _NoInf
 (
 value
@@ -1365,15 +1359,6 @@ d
 running
 '
 ]
-                
-if
-not
-math
-.
-isnan
-(
-value
-)
 ]
         
 if
@@ -1383,29 +1368,6 @@ sampleValues
 in
 d
 :
-            
-#
-We
-always
-have
-a
-single
-sample
-value
-.
-If
-it
-'
-s
-NaN
--
-the
-upload
-            
-#
-should
-fail
-.
             
 d
 [
