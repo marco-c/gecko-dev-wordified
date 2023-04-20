@@ -388,9 +388,6 @@ cricket
 DtlsTransportInternal
 *
 transport
-cricket
-:
-:
 DtlsTransportState
 state
 )
