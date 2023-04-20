@@ -618,15 +618,6 @@ IsTimeToNotify
 (
 )
 ;
-bool
-LinkContextIsOurDocument
-(
-const
-nsAString
-&
-aAnchor
-)
-;
 protected
 :
 nsContentSink
