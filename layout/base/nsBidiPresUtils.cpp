@@ -4441,9 +4441,6 @@ newParent
 >
 InsertFrames
 (
-nsIFrame
-:
-:
 kNoReflowPrincipalList
 nullptr
 nullptr
@@ -4582,9 +4579,6 @@ grandparent
 >
 InsertFrames
 (
-nsIFrame
-:
-:
 kNoReflowPrincipalList
 parent
 parentLine
@@ -5282,9 +5276,6 @@ parent
 >
 InsertFrames
 (
-nsIFrame
-:
-:
 kNoReflowPrincipalList
 aFrame
 parentLine
@@ -9880,9 +9871,6 @@ frame
 >
 GetChildList
 (
-nsIFrame
-:
-:
 kOverflowList
 )
 .

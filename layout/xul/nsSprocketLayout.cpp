@@ -267,12 +267,6 @@ ret
 emplace
 (
 aBoxFrame
-mozilla
-:
-:
-layout
-:
-:
 kPrincipalList
 CSSOrderAwareFrameIterator
 :
