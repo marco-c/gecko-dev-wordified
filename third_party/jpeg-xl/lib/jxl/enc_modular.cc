@@ -391,6 +391,12 @@ jxl
 {
 namespace
 {
+constexpr
+bool
+kPrintTree
+=
+false
+;
 /
 /
 Squeeze
@@ -9900,6 +9906,9 @@ decoded_tree
 ;
 if
 (
+kPrintTree
+&
+&
 WantDebugOutput
 (
 aux_out
