@@ -384,6 +384,13 @@ RegisterParticipantInCall
 peer_name
 )
 ;
+extractor_
+-
+>
+AddParticipantInCall
+(
+)
+;
 }
 /
 /
