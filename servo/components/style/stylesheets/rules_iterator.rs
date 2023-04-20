@@ -501,6 +501,14 @@ FontFeatureValues
 (
 _
 )
+|
+CssRule
+:
+:
+FontPaletteValues
+(
+_
+)
 =
 >
 None
