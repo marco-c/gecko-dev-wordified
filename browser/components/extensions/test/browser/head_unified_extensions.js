@@ -438,9 +438,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 ;
@@ -449,10 +449,7 @@ ok
 button
 "
 expected
-'
-open
 menu
-'
 button
 "
 )
@@ -698,6 +695,8 @@ extensions
 item
 -
 action
+-
+button
 "
 )
 ;

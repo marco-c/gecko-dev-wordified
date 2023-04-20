@@ -728,9 +728,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 )
@@ -885,9 +885,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 )
@@ -1045,9 +1045,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 )
@@ -5567,6 +5567,8 @@ extensions
 item
 -
 action
+-
+button
 "
 )
 ;
@@ -6040,6 +6042,8 @@ extensions
 item
 -
 action
+-
+button
 "
 )
 ;
@@ -6069,9 +6073,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 ;
@@ -6081,7 +6085,6 @@ menuButton
 "
 expected
 a
-open
 menu
 button
 "
