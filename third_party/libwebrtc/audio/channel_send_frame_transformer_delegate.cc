@@ -525,8 +525,9 @@ scoped_refptr
 ChannelSendFrameTransformerDelegate
 >
 delegate
-=
+(
 this
+)
 ;
 encoder_queue_
 -
