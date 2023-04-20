@@ -851,6 +851,14 @@ length
 const
 range
 =
+(
+options
+.
+inset
+instanceof
+Array
+)
+?
 options
 .
 inset
@@ -860,6 +868,10 @@ join
 '
 '
 )
+:
+options
+.
+inset
 ;
 return
 runTimelineRangeTest
