@@ -519,13 +519,10 @@ WrSpatialId
 aSpatialId
 )
 ;
-Maybe
-<
 wr
 :
 :
 WrSpatialId
->
 GetScrollLayer
 (
 const
