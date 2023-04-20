@@ -175,7 +175,7 @@ urlbar
 .
 showSearchTerms
 .
-shouldShow
+featureGate
 "
 true
 ]
