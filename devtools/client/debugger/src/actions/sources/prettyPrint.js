@@ -547,9 +547,6 @@ createPrettyPrintOriginalSource
 (
 id
 url
-source
-.
-thread
 )
 ;
 dispatch
@@ -558,10 +555,10 @@ dispatch
 type
 :
 "
-ADD_SOURCES
+ADD_ORIGINAL_SOURCES
 "
 cx
-sources
+originalSources
 :
 [
 prettySource

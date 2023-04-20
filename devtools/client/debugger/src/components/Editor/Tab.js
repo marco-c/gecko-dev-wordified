@@ -329,6 +329,13 @@ PropTypes
 object
 .
 isRequired
+sourceActor
+:
+PropTypes
+.
+object
+.
+isRequired
 tabSources
 :
 PropTypes
@@ -923,6 +930,7 @@ selectedLocation
 selectSource
 closeTab
 source
+sourceActor
 tabSources
 onDragOver
 onDragStart
@@ -1019,6 +1027,10 @@ selectSource
 (
 cx
 sourceId
+sourceActor
+?
+.
+actor
 )
 ;
 }
