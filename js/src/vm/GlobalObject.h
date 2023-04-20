@@ -1172,7 +1172,7 @@ prototype
 .
 HeapPtr
 <
-Shape
+SharedShape
 *
 >
 arrayShapeWithDefaultProto
@@ -6022,7 +6022,7 @@ nullptr
 )
 ;
 }
-Shape
+SharedShape
 *
 maybeArrayShapeWithDefaultProto
 (
@@ -6038,7 +6038,7 @@ arrayShapeWithDefaultProto
 ;
 }
 static
-Shape
+SharedShape
 *
 getArrayShapeWithDefaultProto
 (
@@ -6049,7 +6049,7 @@ cx
 {
 if
 (
-Shape
+SharedShape
 *
 shape
 =
@@ -6085,7 +6085,7 @@ cx
 ;
 }
 static
-Shape
+SharedShape
 *
 createArrayShapeWithDefaultProto
 (
