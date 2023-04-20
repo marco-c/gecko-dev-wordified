@@ -497,9 +497,6 @@ RtpPacketSinkInterface
 public
 KeyFrameRequestSender
 public
-video_coding
-:
-:
 OnCompleteFrameCallback
 public
 OnDecryptedFrameCallback
@@ -610,9 +607,6 @@ module
 KeyFrameRequestSender
 *
 keyframe_request_sender
-video_coding
-:
-:
 OnCompleteFrameCallback
 *
 complete_frame_callback
@@ -1757,9 +1751,6 @@ ModuleRtpRtcpImpl2
 >
 rtp_rtcp_
 ;
-video_coding
-:
-:
 OnCompleteFrameCallback
 *
 complete_frame_callback_
@@ -1915,9 +1906,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameReferenceFinder
 >
 reference_finder_

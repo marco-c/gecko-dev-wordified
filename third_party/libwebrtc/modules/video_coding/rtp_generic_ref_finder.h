@@ -121,9 +121,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 class
 RtpGenericFrameRefFinder
 {
@@ -146,6 +143,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -160,11 +160,6 @@ descriptor
 ;
 }
 ;
-}
-/
-/
-namespace
-video_coding
 }
 /
 /

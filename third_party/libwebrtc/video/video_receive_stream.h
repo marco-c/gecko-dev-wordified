@@ -337,9 +337,6 @@ VideoFrame
 public
 NackSender
 public
-video_coding
-:
-:
 OnCompleteFrameCallback
 public
 Syncable
@@ -679,9 +676,6 @@ override
 /
 /
 Implements
-video_coding
-:
-:
 OnCompleteFrameCallback
 .
 void

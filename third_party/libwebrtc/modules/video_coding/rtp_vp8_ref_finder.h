@@ -158,9 +158,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 class
 RtpVp8RefFinder
 {
@@ -183,6 +180,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -246,6 +246,9 @@ kDrop
 FrameDecision
 ManageFrameInternal
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -265,6 +268,9 @@ res
 void
 UpdateLayerInfoVp8
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -277,6 +283,9 @@ temporal_idx
 void
 UnwrapPictureIds
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -383,6 +392,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 >
@@ -463,11 +475,6 @@ tl0_unwrapper_
 ;
 }
 ;
-}
-/
-/
-namespace
-video_coding
 }
 /
 /

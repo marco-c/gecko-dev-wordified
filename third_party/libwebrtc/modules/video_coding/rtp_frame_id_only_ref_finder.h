@@ -143,9 +143,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 class
 RtpFrameIdOnlyRefFinder
 {
@@ -168,6 +165,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -196,11 +196,6 @@ unwrapper_
 ;
 }
 ;
-}
-/
-/
-namespace
-video_coding
 }
 /
 /
