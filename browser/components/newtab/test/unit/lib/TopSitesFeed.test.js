@@ -5454,9 +5454,9 @@ spy
 (
 global
 .
-Cu
+console
 "
-reportError
+error
 "
 )
 ;
@@ -5491,9 +5491,9 @@ assert
 .
 calledOnce
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

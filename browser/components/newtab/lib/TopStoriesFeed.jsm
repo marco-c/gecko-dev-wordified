@@ -849,9 +849,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Problem
 initializing
@@ -1524,9 +1524,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Failed
 to
@@ -2128,9 +2128,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Failed
 to
