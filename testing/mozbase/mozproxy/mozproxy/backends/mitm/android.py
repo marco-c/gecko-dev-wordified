@@ -70,10 +70,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
 import
 glob
 import

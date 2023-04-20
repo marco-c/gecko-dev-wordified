@@ -229,10 +229,6 @@ ReleaseEngineering
 How_To
 /
 Modify_scripts_on_stage
-from
-__future__
-import
-absolute_import
 import
 logging
 import

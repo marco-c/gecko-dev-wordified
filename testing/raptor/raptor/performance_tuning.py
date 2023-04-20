@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-from
 mozdevice
 import
 ADBError

@@ -104,10 +104,6 @@ files
 "
 "
 "
-from
-__future__
-import
-absolute_import
 import
 pprint
 try

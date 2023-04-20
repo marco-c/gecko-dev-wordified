@@ -89,10 +89,6 @@ android_hw
 or
 similar
 .
-from
-__future__
-import
-absolute_import
 import
 os
 NODEJS_PATH
