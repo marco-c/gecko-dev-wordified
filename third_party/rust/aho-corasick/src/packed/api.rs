@@ -2184,15 +2184,6 @@ Some
 (
 Searcher
 {
-config
-:
-self
-.
-config
-.
-clone
-(
-)
 patterns
 rabinkarp
 search_kind
@@ -3071,9 +3062,6 @@ pub
 struct
 Searcher
 {
-config
-:
-Config
 patterns
 :
 Patterns

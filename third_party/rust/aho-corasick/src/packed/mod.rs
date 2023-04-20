@@ -51,7 +51,7 @@ interface
 with
 this
 module
-directory
+directly
 as
 the
 primary
