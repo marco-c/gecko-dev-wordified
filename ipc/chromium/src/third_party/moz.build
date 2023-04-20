@@ -213,7 +213,6 @@ evthread
 .
 c
 '
-#
 '
 libevent
 /
@@ -221,10 +220,6 @@ evthread_pthread
 .
 c
 '
-#
-Unused
-file
-.
 '
 libevent
 /
@@ -288,7 +283,6 @@ signal
 .
 c
 '
-#
 '
 libevent
 /
@@ -296,10 +290,6 @@ strlcpy
 .
 c
 '
-#
-Unused
-file
-.
 ]
 SOURCES
 +
@@ -316,7 +306,6 @@ c
 conflicting
 types
 errors
-#
 '
 libevent
 /
@@ -324,10 +313,6 @@ evrpc
 .
 c
 '
-#
-Unused
-file
-.
 #
 conflicting
 TAILQ_ENTRY
