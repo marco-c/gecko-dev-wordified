@@ -4508,9 +4508,6 @@ MinimumCompressibleLength
 SharedImmutableString
 getOrCreateStringZ
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4523,9 +4520,6 @@ str
 SharedImmutableTwoByteString
 getOrCreateStringZ
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -4643,9 +4637,6 @@ nodiscard
 bool
 assignSource
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -6425,9 +6416,6 @@ nodiscard
 bool
 setFilename
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -6487,9 +6475,6 @@ nodiscard
 bool
 setIntroducerFilename
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -6642,9 +6627,6 @@ nodiscard
 bool
 setSourceMapURL
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
