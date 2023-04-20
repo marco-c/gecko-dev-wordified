@@ -2247,15 +2247,7 @@ IsMailEditor
 )
 &
 &
-mCSSEditUtils
-&
-&
-mCSSEditUtils
--
->
-IsCSSPrefChecked
-(
-)
+mIsCSSPrefChecked
 ;
 }
 /
@@ -30195,6 +30187,9 @@ table
 editing
 bool
 mIsInlineTableEditingEnabled
+;
+bool
+mIsCSSPrefChecked
 ;
 /
 /
