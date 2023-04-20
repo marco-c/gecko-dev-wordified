@@ -1095,7 +1095,7 @@ LossBasedBandwidthEstimation
 loss_based_bandwidth_estimation_
 ;
 FieldTrialFlag
-disable_receiver_limit_caps_only_
+receiver_limit_caps_only_
 ;
 }
 ;
