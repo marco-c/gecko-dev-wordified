@@ -971,7 +971,7 @@ TEST_TARGET_URL
 {
 BASE
 }
-file_navigator_header
+browser_navigator_header
 .
 sjs
 ?

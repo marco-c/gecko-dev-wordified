@@ -123,13 +123,6 @@ mozilla_dom_BaseBlobImpl_h
 #
 include
 "
-nsIGlobalObject
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -713,8 +706,8 @@ NextSerialNumber
 void
 SetLastModificationDate
 (
-RTPCallerType
-aRTPCallerType
+bool
+aCrossOriginIsolated
 int64_t
 aDate
 )
