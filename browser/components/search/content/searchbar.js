@@ -1319,6 +1319,12 @@ form
 information
 .
 *
+*
+returns
+{
+HTMLInputElement
+}
+*
 /
 get
 textbox
