@@ -561,17 +561,6 @@ results
 file
 '
                       
-type
-=
-argparse
-.
-FileType
-(
-'
-rb
-'
-)
-                      
 required
 =
 True
@@ -608,17 +597,6 @@ json
 -
 file
 '
-                      
-type
-=
-argparse
-.
-FileType
-(
-'
-w
-'
-)
                       
 help
 =
