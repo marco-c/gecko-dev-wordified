@@ -1972,7 +1972,7 @@ if
 !
 sps_
 )
-RTC_DLOG
+RTC_LOG
 (
 LS_WARNING
 )
@@ -2028,7 +2028,7 @@ if
 !
 pps_
 )
-RTC_DLOG
+RTC_LOG
 (
 LS_WARNING
 )
@@ -2102,7 +2102,7 @@ res
 =
 kOk
 )
-RTC_DLOG
+RTC_LOG
 (
 LS_INFO
 )
