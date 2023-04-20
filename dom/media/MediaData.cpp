@@ -2065,6 +2065,14 @@ mYUVColorSpace
 ;
 data
 .
+mColorPrimaries
+=
+aBuffer
+.
+mColorPrimaries
+;
+data
+.
 mColorDepth
 =
 aBuffer
