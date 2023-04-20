@@ -51,7 +51,6 @@ nfc
 '
 denied
 '
-false
 )
 ;
 const
@@ -124,7 +123,6 @@ nfc
 '
 granted
 '
-false
 )
 ;
 const

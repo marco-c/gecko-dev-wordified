@@ -875,18 +875,6 @@ state
 "
 ]
         
-one_realm
-=
-permission_params
-.
-get
-(
-"
-oneRealm
-"
-False
-)
-        
 self
 .
 logger
@@ -901,16 +889,11 @@ s
 to
 %
 s
-oneRealm
-=
-%
-s
 "
 %
 (
 name
 state
-one_realm
 )
 )
         
@@ -924,7 +907,6 @@ set_permission
 (
 descriptor
 state
-one_realm
 )
 class
 AddVirtualAuthenticatorAction

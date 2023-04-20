@@ -1975,7 +1975,6 @@ set_permission
 self
 descriptor
 state
-one_realm
 )
 :
         
@@ -1996,22 +1995,6 @@ state
 state
         
 }
-        
-if
-one_realm
-is
-not
-None
-:
-            
-permission_params_dict
-[
-"
-oneRealm
-"
-]
-=
-one_realm
         
 self
 .

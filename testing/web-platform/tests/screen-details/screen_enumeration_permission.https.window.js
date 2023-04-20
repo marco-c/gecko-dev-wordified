@@ -60,7 +60,6 @@ placement
 "
 denied
 "
-false
 )
 ;
 const
@@ -138,7 +137,6 @@ placement
 "
 granted
 "
-false
 )
 ;
 const

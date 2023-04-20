@@ -64,7 +64,6 @@ detection
 '
 granted
 '
-false
 )
 ;
 }

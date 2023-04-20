@@ -110,7 +110,6 @@ detection
 '
 granted
 '
-false
 )
 ;
 self

@@ -2222,9 +2222,6 @@ set_permission
 self
 descriptor
 state
-one_realm
-=
-False
 )
 :
         
@@ -2256,21 +2253,6 @@ set
 the
 permission
 to
-.
-        
-:
-param
-one_realm
-:
-Whether
-to
-set
-the
-permission
-for
-only
-one
-realm
 .
 "
 "
