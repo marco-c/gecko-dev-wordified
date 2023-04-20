@@ -587,9 +587,6 @@ OwnershipModel
 =
 }
 resultOwnership
-[
-unsupported
-]
 *
 The
 ownership
@@ -602,6 +599,13 @@ results
 of
 this
 evaluation
+.
+Defaults
+*
+to
+OwnershipModel
+.
+None
 .
 *
 param
@@ -903,6 +907,7 @@ awaitPromise
 commandArguments
 functionDeclaration
 realmId
+resultOwnership
 sandbox
 thisParameter
 }
@@ -1000,9 +1005,6 @@ OwnershipModel
 =
 }
 resultOwnership
-[
-unsupported
-]
 *
 The
 ownership
@@ -1015,6 +1017,13 @@ results
 of
 this
 evaluation
+.
+Defaults
+*
+to
+OwnershipModel
+.
+None
 .
 *
 param
@@ -1260,6 +1269,7 @@ expression
 :
 source
 realmId
+resultOwnership
 sandbox
 }
 }
