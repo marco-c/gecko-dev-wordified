@@ -1317,6 +1317,20 @@ Cargo
 lock
 "
 )
+            
+and
+not
+f
+.
+startswith
+(
+"
+supply
+-
+chain
+/
+"
+)
         
 ]
         
