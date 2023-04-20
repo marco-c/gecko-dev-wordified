@@ -7155,6 +7155,7 @@ PBM
 window
 .
 return
+(
 mode
 !
 =
@@ -7163,6 +7164,17 @@ Ci
 nsICookieBannerService
 .
 MODE_DISABLED
+&
+&
+mode
+!
+=
+Ci
+.
+nsICookieBannerService
+.
+MODE_DETECT_ONLY
+)
 ;
 }
 /
