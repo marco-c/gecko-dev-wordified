@@ -355,7 +355,6 @@ render_time_ms
 int64_t
 now_ms
 )
-const
 override
 {
 return
