@@ -868,6 +868,15 @@ Reset
 )
 ;
 }
+send_queue
+.
+EnableMessageInterleaving
+(
+capabilities
+.
+message_interleaving
+)
+;
 }
 /
 /
