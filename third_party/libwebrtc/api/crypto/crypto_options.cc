@@ -200,7 +200,7 @@ crypto_suites
 /
 Note
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 is
 what
 is
@@ -223,7 +223,7 @@ security
 arch
 )
 but
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 is
 allowed
 as
@@ -279,7 +279,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 )
 ;
 }
@@ -297,7 +297,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 }
@@ -335,7 +335,7 @@ not
 support
 /
 /
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 .
 if
 (
@@ -351,7 +351,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 crypto_suites
@@ -361,7 +361,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 }

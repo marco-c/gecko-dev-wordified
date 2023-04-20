@@ -20156,7 +20156,7 @@ srtp_crypto_suite
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 ;
 pc_
 -

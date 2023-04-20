@@ -5733,7 +5733,7 @@ CryptoParams
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 "
 inline
 :
@@ -5792,7 +5792,7 @@ CryptoParams
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 "
 inline
 :
@@ -5900,7 +5900,7 @@ CryptoParams
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 "
 inline
 :
@@ -6045,7 +6045,7 @@ CryptoParams
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 "
 inline
 :
@@ -6104,7 +6104,7 @@ CryptoParams
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
 "
 inline
 :
@@ -7214,7 +7214,7 @@ sdes_param
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
 "
 inline
 :
@@ -7282,7 +7282,7 @@ SetSrtpCryptoSuite
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 fake_dtls2
@@ -7293,7 +7293,7 @@ SetSrtpCryptoSuite
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 }

@@ -923,7 +923,7 @@ exception
 /
 of
 the
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 cipher
 suite
 .

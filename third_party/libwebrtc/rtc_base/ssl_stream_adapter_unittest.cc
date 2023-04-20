@@ -8011,7 +8011,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8068,7 +8068,7 @@ client_cipher
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 }
@@ -8104,7 +8104,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8161,7 +8161,7 @@ client_cipher
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 )
 ;
 }
@@ -8201,7 +8201,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 std
@@ -8220,7 +8220,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8304,7 +8304,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 mixed
@@ -8314,7 +8314,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8371,7 +8371,7 @@ client_cipher
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 }
@@ -8410,7 +8410,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8467,7 +8467,7 @@ client_cipher
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 }
@@ -8506,7 +8506,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8563,7 +8563,7 @@ client_cipher
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 }
@@ -8610,7 +8610,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 std
@@ -8629,7 +8629,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8720,7 +8720,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 gcmBoth
@@ -8730,7 +8730,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 SetDtlsSrtpCryptoSuites
@@ -8787,7 +8787,7 @@ client_cipher
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 }
@@ -8821,7 +8821,7 @@ GetSrtpKeyAndSaltLengths
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 &
 key_len
 &
@@ -8839,7 +8839,7 @@ GetSrtpKeyAndSaltLengths
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 &
 key_len
 &
@@ -8873,7 +8873,7 @@ GetSrtpKeyAndSaltLengths
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 &
 key_len
 &
@@ -8907,7 +8907,7 @@ GetSrtpKeyAndSaltLengths
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 &
 key_len
 &
@@ -8941,7 +8941,7 @@ GetSrtpKeyAndSaltLengths
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 &
 key_len
 &

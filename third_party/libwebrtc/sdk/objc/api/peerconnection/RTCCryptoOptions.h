@@ -192,7 +192,7 @@ insecure
 crypto
 cipher
 *
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 will
 be
 included

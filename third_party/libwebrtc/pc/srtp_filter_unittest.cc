@@ -866,7 +866,7 @@ offer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 answer
 [
@@ -884,7 +884,7 @@ answer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 EXPECT_TRUE
 (
@@ -1845,7 +1845,7 @@ answer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 EXPECT_TRUE
 (
@@ -2778,7 +2778,7 @@ offer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 TestSetParams
 (
@@ -2788,8 +2788,8 @@ answer
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 }
@@ -2865,7 +2865,7 @@ offer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 answer
 [
@@ -2883,7 +2883,7 @@ answer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 TestSetParams
 (
@@ -2893,8 +2893,8 @@ answer
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_32
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
+kCsAesCm128HmacSha1_32
 )
 ;
 }
@@ -2952,8 +2952,8 @@ answer
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 /
@@ -2981,7 +2981,7 @@ offer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 answer
 [
@@ -2999,7 +2999,7 @@ answer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 EXPECT_TRUE
 (
@@ -3058,8 +3058,8 @@ complete
 .
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 /
@@ -3101,8 +3101,8 @@ CS_REMOTE
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_32
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
+kCsAesCm128HmacSha1_32
 )
 ;
 }
@@ -3176,7 +3176,7 @@ offer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 std
 :
@@ -3275,8 +3275,8 @@ IsActive
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 answer
@@ -3304,7 +3304,7 @@ answer
 .
 cipher_suite
 =
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 ;
 EXPECT_TRUE
 (
@@ -3348,8 +3348,8 @@ IsActive
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_32
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
+kCsAesCm128HmacSha1_32
 )
 ;
 }
@@ -3528,8 +3528,8 @@ IsActive
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 }
@@ -3765,8 +3765,8 @@ IsActive
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 }
@@ -3823,8 +3823,8 @@ answer
 ;
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 offer
@@ -3896,8 +3896,8 @@ complete
 .
 VerifyCryptoParamsMatch
 (
-CS_AES_CM_128_HMAC_SHA1_80
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
+kCsAesCm128HmacSha1_80
 )
 ;
 /

@@ -14531,7 +14531,7 @@ expected_cipher_suite
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 ;
 TestNegotiatedCipherSuite
 (
@@ -14585,7 +14585,7 @@ expected_cipher_suite
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 ;
 TestNegotiatedCipherSuite
 (
@@ -14639,7 +14639,7 @@ expected_cipher_suite
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 ;
 TestNegotiatedCipherSuite
 (
