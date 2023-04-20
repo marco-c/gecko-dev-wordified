@@ -139,7 +139,7 @@ jsm
 *
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 *

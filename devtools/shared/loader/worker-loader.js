@@ -2860,7 +2860,7 @@ jsm
 ;
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 sandbox

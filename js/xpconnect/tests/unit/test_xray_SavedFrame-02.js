@@ -42,7 +42,7 @@ jsm
 ;
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 const

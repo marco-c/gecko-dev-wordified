@@ -80,7 +80,7 @@ jsm
 ;
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 }

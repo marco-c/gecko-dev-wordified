@@ -122,7 +122,7 @@ API
 .
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 /
