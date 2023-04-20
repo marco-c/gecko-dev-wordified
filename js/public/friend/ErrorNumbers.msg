@@ -10315,7 +10315,7 @@ found
 MSG_DEF
 (
 JSMSG_BAD_MODULE_STATUS
-0
+1
 JSEXN_INTERNALERR
 "
 module
@@ -10323,6 +10323,10 @@ record
 has
 unexpected
 status
+:
+{
+0
+}
 "
 )
 MSG_DEF
