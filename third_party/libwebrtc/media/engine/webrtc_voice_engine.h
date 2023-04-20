@@ -1901,13 +1901,6 @@ return
 engine_
 ;
 }
-void
-ChangePlayout
-(
-bool
-playout
-)
-;
 int
 CreateVoEChannel
 (
@@ -2077,11 +2070,6 @@ false
 ;
 bool
 recv_nack_enabled_
-=
-false
-;
-bool
-desired_playout_
 =
 false
 ;
