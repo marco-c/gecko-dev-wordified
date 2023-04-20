@@ -1030,6 +1030,9 @@ mozilla
 net
 {
 class
+WebTransportStreamCallbackWrapper
+;
+class
 WebTransportSessionProxy
 final
 :
@@ -1112,6 +1115,16 @@ ChangeState
 (
 WebTransportSessionProxyState
 newState
+)
+;
+void
+CreateStreamInternal
+(
+WebTransportStreamCallbackWrapper
+*
+aCallback
+bool
+aBidi
 )
 ;
 nsCOMPtr
