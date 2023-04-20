@@ -263,7 +263,7 @@ shared
 /
 loader
 /
-DistinctSystemPrincipalLoader
+Loader
 .
 sys
 .
@@ -1355,7 +1355,7 @@ shared
 /
 loader
 /
-DistinctSystemPrincipalLoader
+Loader
 .
 sys
 .
