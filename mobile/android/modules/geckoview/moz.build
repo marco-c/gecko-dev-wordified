@@ -227,7 +227,9 @@ jsm
 "
 GeckoViewUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewWebExtension
