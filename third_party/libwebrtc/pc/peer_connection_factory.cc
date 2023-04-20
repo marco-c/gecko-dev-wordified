@@ -2037,7 +2037,16 @@ AudioTrack
 Create
 (
 id
+rtc
+:
+:
+scoped_refptr
+<
+AudioSourceInterface
+>
+(
 source
+)
 )
 )
 ;

@@ -1963,6 +1963,14 @@ size
 )
 ;
 return
+rtc
+:
+:
+scoped_refptr
+<
+RtpSenderInternal
+>
+(
 senders_
 [
 0
@@ -1971,6 +1979,7 @@ senders_
 >
 internal
 (
+)
 )
 ;
 }
@@ -2005,6 +2014,14 @@ size
 )
 ;
 return
+rtc
+:
+:
+scoped_refptr
+<
+RtpReceiverInternal
+>
+(
 receivers_
 [
 0
@@ -2013,6 +2030,7 @@ receivers_
 >
 internal
 (
+)
 )
 ;
 }

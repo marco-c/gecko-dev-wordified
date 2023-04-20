@@ -4126,10 +4126,6 @@ options
 CreateAudioRtpSender
 (
 source
-.
-get
-(
-)
 )
 ;
 EXPECT_EQ

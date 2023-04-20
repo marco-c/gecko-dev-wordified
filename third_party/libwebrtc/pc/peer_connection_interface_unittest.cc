@@ -20665,7 +20665,7 @@ scoped_refptr
 MediaStreamInterface
 >
 local_stream
-=
+(
 pc_
 -
 >
@@ -20677,6 +20677,7 @@ local_streams
 at
 (
 0
+)
 )
 ;
 pc_
