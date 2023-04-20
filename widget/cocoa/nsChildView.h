@@ -3566,6 +3566,9 @@ bool
 aFullscreen
 )
 ;
+#
+ifdef
+DEBUG
 /
 /
 test
@@ -3587,6 +3590,8 @@ RestoreHiDPIMode
 )
 override
 ;
+#
+endif
 protected
 :
 virtual
