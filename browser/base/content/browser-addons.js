@@ -7212,7 +7212,7 @@ id
 ;
 this
 .
-setAttribute
+toggleAttribute
 (
 "
 attention
@@ -7752,7 +7752,7 @@ this
 .
 button
 .
-setAttribute
+toggleAttribute
 (
 "
 attention
@@ -7769,7 +7769,7 @@ this
 .
 button
 .
-setAttribute
+toggleAttribute
 (
 "
 attention
