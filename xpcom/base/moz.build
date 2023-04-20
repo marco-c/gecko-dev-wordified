@@ -120,11 +120,6 @@ nsIDebug2
 idl
 "
 "
-nsIErrorService
-.
-idl
-"
-"
 nsIException
 .
 idl
@@ -378,11 +373,6 @@ h
 "
 "
 nsError
-.
-h
-"
-"
-nsErrorService
 .
 h
 "
@@ -924,11 +914,6 @@ cpp
 "
 "
 nsCycleCollectorTraceJSHelpers
-.
-cpp
-"
-"
-nsErrorService
 .
 cpp
 "

@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIErrorService
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
@@ -389,12 +382,6 @@ AutoCleanLinkedList
 bundleCacheEntry_t
 >
 mSharedBundles
-;
-nsCOMPtr
-<
-nsIErrorService
->
-mErrorService
 ;
 }
 ;
