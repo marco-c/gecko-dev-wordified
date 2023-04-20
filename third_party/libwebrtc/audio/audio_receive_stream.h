@@ -570,6 +570,14 @@ transport_cc
 const
 override
 ;
+void
+SetTransportCc
+(
+bool
+transport_cc
+)
+override
+;
 bool
 IsRunning
 (
@@ -610,10 +618,8 @@ decoder_map
 override
 ;
 void
-SetUseTransportCcAndNackHistory
+SetNackHistory
 (
-bool
-use_transport_cc
 int
 history_ms
 )
