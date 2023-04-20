@@ -286,7 +286,7 @@ aA
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 &
 &
 aA
@@ -295,7 +295,7 @@ aA
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 &
 &
 aB
@@ -304,7 +304,7 @@ aB
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 &
 &
 aB
@@ -313,7 +313,7 @@ aB
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 )
 ;
 if
@@ -324,7 +324,7 @@ aA
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 {
 return
@@ -339,7 +339,7 @@ aB
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 {
 return

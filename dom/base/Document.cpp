@@ -62211,14 +62211,14 @@ mMinWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 mMaxWidth
 =
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 if
 (
@@ -62235,7 +62235,7 @@ mMinWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 ;
 if
 (
@@ -62256,7 +62256,7 @@ mMaxWidth
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 ;
 }
 else
@@ -62287,7 +62287,7 @@ mMaxWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 }
 else
@@ -62328,7 +62328,7 @@ mMaxWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 }
 }
@@ -62353,14 +62353,14 @@ mMinWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 ;
 mMaxWidth
 =
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 ;
 }
 }
@@ -62384,14 +62384,14 @@ mMinWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 ;
 mMaxWidth
 =
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 ;
 }
 mMinHeight
@@ -62399,14 +62399,14 @@ mMinHeight
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 mMaxHeight
 =
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 if
 (
@@ -62423,7 +62423,7 @@ mMinHeight
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 ;
 if
 (
@@ -62444,7 +62444,7 @@ mMaxHeight
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 ;
 }
 else
@@ -62475,7 +62475,7 @@ mMaxHeight
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 }
 else
@@ -62516,7 +62516,7 @@ mMaxHeight
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 }
 }
@@ -63755,7 +63755,7 @@ return
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 }
 ;
@@ -63986,7 +63986,7 @@ maxWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 &
 &
 !
@@ -64155,7 +64155,7 @@ minWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 ;
 }
 /
@@ -64178,7 +64178,7 @@ maxWidth
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 )
 {
 maxWidth
@@ -64196,7 +64196,7 @@ maxHeight
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 )
 {
 maxHeight
@@ -64214,7 +64214,7 @@ extendZoom
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 {
 if
@@ -64225,7 +64225,7 @@ maxWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 maxWidth
@@ -64233,7 +64233,7 @@ maxWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 }
 if
@@ -64244,7 +64244,7 @@ maxHeight
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 maxHeight
@@ -64252,7 +64252,7 @@ maxHeight
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 }
 if
@@ -64263,7 +64263,7 @@ minWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 minWidth
@@ -64279,7 +64279,7 @@ minHeight
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 minHeight
@@ -64305,7 +64305,7 @@ maxWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 maxWidth
@@ -64323,7 +64323,7 @@ maxHeight
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 maxHeight
@@ -64341,7 +64341,7 @@ minWidth
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 minWidth
@@ -64366,7 +64366,7 @@ minHeight
 nsViewportInfo
 :
 :
-ExtendToZoom
+kExtendToZoom
 )
 {
 minHeight
@@ -64428,7 +64428,7 @@ width
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 if
 (
@@ -64438,7 +64438,7 @@ minWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 |
 |
 maxWidth
@@ -64447,7 +64447,7 @@ maxWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 {
 width
@@ -64477,7 +64477,7 @@ height
 nsViewportInfo
 :
 :
-Auto
+kAuto
 ;
 if
 (
@@ -64487,7 +64487,7 @@ minHeight
 nsViewportInfo
 :
 :
-Auto
+kAuto
 |
 |
 maxHeight
@@ -64496,7 +64496,7 @@ maxHeight
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 {
 height
@@ -64555,7 +64555,7 @@ width
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 {
 if
@@ -64566,7 +64566,7 @@ height
 nsViewportInfo
 :
 :
-Auto
+kAuto
 |
 |
 aDisplaySize
@@ -64635,7 +64635,7 @@ height
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 {
 if
@@ -64679,7 +64679,7 @@ width
 nsViewportInfo
 :
 :
-Auto
+kAuto
 &
 &
 height
@@ -64688,7 +64688,7 @@ height
 nsViewportInfo
 :
 :
-Auto
+kAuto
 )
 ;
 CSSSize
@@ -64741,7 +64741,7 @@ mMaxWidth
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 |
 |
 (
@@ -64755,7 +64755,7 @@ mMaxHeight
 nsViewportInfo
 :
 :
-DeviceSize
+kDeviceSize
 |
 |
 mScaleFloat
@@ -64781,7 +64781,7 @@ mMaxWidth
 nsViewportInfo
 :
 :
-Auto
+kAuto
 &
 &
 mMaxHeight
