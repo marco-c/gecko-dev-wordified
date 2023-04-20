@@ -138,10 +138,10 @@ License
 .
 #
 ifndef
-ABSL_BASE_INTERNAL_LOG_SEVERITY_H_
+ABSL_BASE_LOG_SEVERITY_H_
 #
 define
-ABSL_BASE_INTERNAL_LOG_SEVERITY_H_
+ABSL_BASE_LOG_SEVERITY_H_
 #
 include
 <
@@ -302,7 +302,7 @@ comparison
 /
 /
 /
-Exmaple
+Example
 :
 /
 /
@@ -993,4 +993,4 @@ absl
 endif
 /
 /
-ABSL_BASE_INTERNAL_LOG_SEVERITY_H_
+ABSL_BASE_LOG_SEVERITY_H_

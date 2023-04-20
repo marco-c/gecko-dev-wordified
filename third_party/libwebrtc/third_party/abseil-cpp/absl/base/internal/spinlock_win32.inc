@@ -183,7 +183,10 @@ C
 "
 {
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockDelay
+)
 (
 std
 :
@@ -265,7 +268,10 @@ loop
 }
 }
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockWake
+)
 (
 std
 :

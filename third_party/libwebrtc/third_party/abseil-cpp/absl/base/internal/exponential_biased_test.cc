@@ -1571,7 +1571,7 @@ Ge
 )
 ;
 #
-if
+ifdef
 ABSL_HAVE_THREAD_LOCAL
 thread_local
 ExponentialBiased

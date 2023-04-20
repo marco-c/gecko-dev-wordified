@@ -1319,6 +1319,9 @@ int
 y
 )
 {
+/
+/
+NOLINT
 EXPECT_EQ
 (
 &
@@ -1619,6 +1622,9 @@ const
 int
 &
 x
+/
+/
+NOLINT
 std
 :
 :

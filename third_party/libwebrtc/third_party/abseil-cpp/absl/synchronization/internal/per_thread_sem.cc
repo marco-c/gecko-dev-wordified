@@ -542,7 +542,10 @@ C
 {
 ABSL_ATTRIBUTE_WEAK
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalPerThreadSemPost
+)
 (
 absl
 :
@@ -577,7 +580,10 @@ Post
 }
 ABSL_ATTRIBUTE_WEAK
 bool
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalPerThreadSemWait
+)
 (
 absl
 :

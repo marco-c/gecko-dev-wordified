@@ -1310,6 +1310,16 @@ rhs
 =
 delete
 ;
+FunctionRef
+(
+const
+FunctionRef
+&
+rhs
+)
+=
+default
+;
 /
 /
 Call

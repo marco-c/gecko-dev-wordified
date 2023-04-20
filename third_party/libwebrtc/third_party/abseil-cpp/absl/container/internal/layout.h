@@ -3831,8 +3831,9 @@ N
 1
 >
 >
-(
-)
+:
+:
+value
 *
 size_
 [
@@ -5825,8 +5826,9 @@ NumTypes
 1
 >
 >
-(
-)
+:
+:
+value
 *
 size_
 [
@@ -6078,8 +6080,9 @@ N
 1
 >
 >
-(
-)
+:
+:
+value
 *
 size_
 [
@@ -6390,8 +6393,9 @@ ElementType
 OffsetSeq
 >
 >
-(
-)
+:
+:
+value
 .
 .
 .

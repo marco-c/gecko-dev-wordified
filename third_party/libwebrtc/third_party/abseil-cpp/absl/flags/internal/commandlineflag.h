@@ -194,7 +194,7 @@ value
 type
 /
 /
-simialarly
+similarly
 to
 typeid
 (

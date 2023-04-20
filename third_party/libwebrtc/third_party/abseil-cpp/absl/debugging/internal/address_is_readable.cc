@@ -768,7 +768,7 @@ load
 std
 :
 :
-memory_order_relaxed
+memory_order_acquire
 )
 ;
 Unpack
@@ -875,7 +875,7 @@ new_pid_and_fds
 std
 :
 :
-memory_order_relaxed
+memory_order_release
 std
 :
 :
@@ -936,7 +936,7 @@ load
 std
 :
 :
-memory_order_relaxed
+memory_order_acquire
 )
 ;
 }
@@ -1107,7 +1107,7 @@ local_pid_and_fds
 std
 :
 :
-memory_order_relaxed
+memory_order_release
 std
 :
 :

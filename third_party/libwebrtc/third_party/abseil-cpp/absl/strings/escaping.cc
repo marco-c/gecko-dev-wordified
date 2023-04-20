@@ -1421,7 +1421,7 @@ d
 \
 '
 ;
-memcpy
+memmove
 (
 d
 octal_start
@@ -1670,7 +1670,7 @@ d
 \
 '
 ;
-memcpy
+memmove
 (
 d
 hex_start
@@ -1917,7 +1917,7 @@ d
 \
 '
 ;
-memcpy
+memmove
 (
 d
 hex_start
@@ -2270,7 +2270,7 @@ d
 \
 '
 ;
-memcpy
+memmove
 (
 d
 hex_start

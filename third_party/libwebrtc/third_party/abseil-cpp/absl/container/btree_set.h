@@ -1652,6 +1652,11 @@ number
 of
 elements
 erased
+(
+0
+or
+1
+)
 .
 using
 Base

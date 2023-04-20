@@ -1347,7 +1347,10 @@ is
 true
 .
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalReportFatalUsageError
+)
 (
 absl
 :

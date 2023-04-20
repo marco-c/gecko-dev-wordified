@@ -698,6 +698,7 @@ delegator
 noreturn
 ]
 ]
+ABSL_DLL
 void
 throw_bad_optional_access
 (

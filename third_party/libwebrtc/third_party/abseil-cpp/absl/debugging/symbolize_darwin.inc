@@ -584,7 +584,7 @@ tmp_buf
 )
 )
 {
-int
+size_t
 len
 =
 strlen
@@ -599,7 +599,13 @@ len
 1
 <
 =
+static_cast
+<
+size_t
+>
+(
 out_size
+)
 )
 {
 /

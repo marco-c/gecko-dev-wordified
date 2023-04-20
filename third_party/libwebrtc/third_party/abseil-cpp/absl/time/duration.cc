@@ -6384,10 +6384,15 @@ non
 -
 zero
 .
-The
+/
+/
+Unlike
+Go
+we
+format
+the
 zero
 duration
-formats
 as
 0
 with

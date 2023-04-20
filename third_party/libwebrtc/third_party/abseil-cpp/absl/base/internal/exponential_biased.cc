@@ -680,7 +680,7 @@ value
 std
 :
 :
-round
+rint
 (
 interval
 )

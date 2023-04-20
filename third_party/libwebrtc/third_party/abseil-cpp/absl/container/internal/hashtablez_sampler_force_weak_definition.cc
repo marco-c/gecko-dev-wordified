@@ -182,7 +182,10 @@ C
 "
 ABSL_ATTRIBUTE_WEAK
 bool
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslContainerInternalSampleEverything
+)
 (
 )
 {

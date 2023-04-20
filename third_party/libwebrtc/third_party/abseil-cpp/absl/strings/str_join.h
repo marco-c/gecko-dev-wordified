@@ -1540,7 +1540,7 @@ f
 Function
 overload
 of
-DererefenceFormatter
+DereferenceFormatter
 (
 )
 for

@@ -213,7 +213,10 @@ C
 {
 ABSL_ATTRIBUTE_WEAK
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockDelay
+)
 (
 std
 :
@@ -320,7 +323,10 @@ nullptr
 }
 ABSL_ATTRIBUTE_WEAK
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockWake
+)
 (
 std
 :

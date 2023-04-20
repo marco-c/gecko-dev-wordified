@@ -752,6 +752,7 @@ variant_internal
 noreturn
 ]
 ]
+ABSL_DLL
 void
 ThrowBadVariantAccess
 (
@@ -762,6 +763,7 @@ ThrowBadVariantAccess
 noreturn
 ]
 ]
+ABSL_DLL
 void
 Rethrow
 (

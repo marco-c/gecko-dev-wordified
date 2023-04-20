@@ -644,7 +644,7 @@ rounded_value
 std
 :
 :
-round
+rint
 (
 value
 )

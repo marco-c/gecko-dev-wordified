@@ -2283,15 +2283,8 @@ get
 &
 {
 return
-internal_compressed_tuple
-:
-:
-Storage
+StorageT
 <
-ElemT
-<
-I
->
 I
 >
 :
