@@ -771,6 +771,3 @@ true
 WAIT_FOR_EVENTS
 ;
 }
-#
-undef
-WAIT_FOR_EVENTS
