@@ -6056,7 +6056,7 @@ take
 a
 /
 /
-bugos
+bogus
 temporary
 as
 fifth

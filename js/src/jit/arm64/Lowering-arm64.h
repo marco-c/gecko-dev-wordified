@@ -219,6 +219,11 @@ mir
 )
 ;
 LDefinition
+tempByteOpRegister
+(
+)
+;
+LDefinition
 tempToUnbox
 (
 )
