@@ -220,6 +220,17 @@ mutex
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -367,6 +378,7 @@ vary
 .
 )
 class
+RTC_EXPORT
 DxgiDuplicatorController
 {
 public
