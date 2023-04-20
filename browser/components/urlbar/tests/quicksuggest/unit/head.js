@@ -200,6 +200,19 @@ param
 {
 object
 }
+options
+*
+The
+options
+object
+.
+*
+param
+{
+object
+}
+options
+.
 testOverrides
 *
 An
@@ -313,6 +326,8 @@ param
 {
 string
 }
+options
+.
 scenario
 *
 The
@@ -330,6 +345,8 @@ param
 {
 object
 }
+options
+.
 expectedPrefs
 *
 The
@@ -359,6 +376,8 @@ param
 object
 }
 [
+options
+.
 initialUserBranch
 ]
 *

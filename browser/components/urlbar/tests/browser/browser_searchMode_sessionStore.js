@@ -569,8 +569,19 @@ properly
 *
 param
 {
-array
+object
 }
+options
+*
+Options
+object
+*
+param
+{
+Array
+}
+options
+.
 urls
 *
 Array
@@ -585,6 +596,8 @@ param
 {
 number
 }
+options
+.
 searchModeTabIndex
 *
 The
@@ -604,6 +617,8 @@ param
 {
 boolean
 }
+options
+.
 exitSearchMode
 *
 If
@@ -642,6 +657,8 @@ param
 {
 boolean
 }
+options
+.
 switchTabsAfterEnteringSearchMode
 *
 If
@@ -1497,7 +1514,7 @@ window
 *
 param
 {
-array
+Array
 }
 urls
 *
@@ -1511,7 +1528,7 @@ open
 *
 param
 {
-function
+Function
 }
 callback
 *

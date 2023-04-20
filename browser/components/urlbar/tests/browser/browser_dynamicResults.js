@@ -2697,7 +2697,7 @@ query
 *
 param
 {
-function
+Function
 }
 addCallback
 -
@@ -4014,6 +4014,7 @@ a
 dynamic
 result
 .
+*
 *
 param
 {

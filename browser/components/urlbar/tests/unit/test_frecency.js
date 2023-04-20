@@ -92,7 +92,6 @@ the
 interactions
 among
 *
-*
 DIFFERENT
 *
 visit

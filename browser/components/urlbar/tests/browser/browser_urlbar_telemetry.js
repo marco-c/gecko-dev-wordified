@@ -412,7 +412,7 @@ test
 *
 param
 {
-function
+Function
 }
 taskFn
 *

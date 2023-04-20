@@ -526,7 +526,7 @@ feed
 *
 param
 {
-function
+Function
 }
 condition
 *

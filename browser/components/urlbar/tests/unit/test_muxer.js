@@ -2651,7 +2651,7 @@ result
 *
 param
 {
-array
+Array
 }
 resultGroups
 *
@@ -2662,7 +2662,7 @@ groups
 *
 param
 {
-array
+Array
 }
 expectedResults
 *

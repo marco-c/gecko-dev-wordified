@@ -480,7 +480,7 @@ SUGGESTIONS
 *
 param
 {
-function
+Function
 }
 fn
 *

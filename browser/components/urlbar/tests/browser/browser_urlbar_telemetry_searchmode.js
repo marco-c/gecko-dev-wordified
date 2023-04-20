@@ -217,6 +217,7 @@ searchmode_picked
 probes
 .
 *
+*
 param
 {
 string

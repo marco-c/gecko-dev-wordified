@@ -4022,8 +4022,20 @@ it
 *
 param
 {
+object
+}
+options
+*
+Options
+object
+.
+*
+param
+{
 string
 }
+options
+.
 searchString
 *
 The
@@ -4049,6 +4061,8 @@ param
 {
 object
 }
+options
+.
 expectedQuickSuggestResult
 *
 The
@@ -4062,6 +4076,8 @@ param
 {
 string
 }
+options
+.
 otherPrefix
 *
 The
@@ -4091,6 +4107,8 @@ param
 {
 boolean
 }
+options
+.
 expectOther
 *
 Whether

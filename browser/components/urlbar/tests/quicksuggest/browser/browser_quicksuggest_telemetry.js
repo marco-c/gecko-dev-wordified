@@ -486,7 +486,7 @@ SUGGESTIONS
 *
 param
 {
-function
+Function
 }
 fn
 *
@@ -6526,7 +6526,7 @@ engine
 *
 param
 {
-function
+Function
 }
 callback
 *

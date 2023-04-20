@@ -1744,7 +1744,7 @@ returned
 *
 returns
 {
-array
+Array
 }
 *
 Array

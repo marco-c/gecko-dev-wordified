@@ -1179,7 +1179,7 @@ counts
 *
 param
 {
-function
+Function
 }
 clickCallback
 Use

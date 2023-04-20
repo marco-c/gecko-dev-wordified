@@ -492,6 +492,16 @@ correct
 *
 param
 {
+object
+}
+options
+*
+Options
+object
+.
+*
+param
+{
 string
 }
 options
@@ -898,7 +908,7 @@ locales
 *
 param
 {
-array
+Array
 }
 locales
 *
@@ -938,7 +948,7 @@ locale
 *
 param
 {
-function
+Function
 }
 callback
 *

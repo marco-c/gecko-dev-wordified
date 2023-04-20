@@ -141,7 +141,6 @@ press
 enter
 .
 *
-*
 /
 async
 function

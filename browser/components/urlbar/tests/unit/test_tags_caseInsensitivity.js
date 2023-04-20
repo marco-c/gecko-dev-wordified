@@ -74,9 +74,10 @@ for
 searchTerm
 .
 *
+*
 param
 {
-array
+Array
 }
 uris
 *
@@ -346,7 +347,7 @@ tag
 *
 param
 {
-array
+Array
 }
 tags
 *

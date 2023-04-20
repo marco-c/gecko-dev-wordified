@@ -9697,6 +9697,18 @@ param
 {
 object
 }
+options
+*
+Options
+object
+.
+*
+param
+{
+object
+}
+options
+.
 prefPolicy
 *
 An
@@ -9718,6 +9730,8 @@ param
 {
 boolean
 }
+options
+.
 expectedDefault
 *
 The
@@ -9737,6 +9751,8 @@ param
 {
 boolean
 }
+options
+.
 expectedUser
 *
 The
@@ -9769,6 +9785,8 @@ param
 {
 boolean
 }
+options
+.
 expectedLocked
 *
 Whether

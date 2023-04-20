@@ -1323,7 +1323,7 @@ permutations
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -1442,8 +1442,22 @@ run
 *
 param
 {
+object
+}
+options
+*
+Options
+for
+the
+test
+.
+*
+param
+{
 boolean
 }
+options
+.
 isSponsored
 *
 True
@@ -1466,6 +1480,8 @@ param
 {
 boolean
 }
+options
+.
 withHistory
 *
 True
@@ -1488,6 +1504,8 @@ param
 {
 number
 }
+options
+.
 generalIndex
 *
 The
@@ -1521,6 +1539,8 @@ param
 {
 number
 }
+options
+.
 expectedResultCount
 *
 The
@@ -1537,6 +1557,8 @@ param
 {
 number
 }
+options
+.
 expectedIndex
 *
 The
@@ -1863,7 +1885,7 @@ engine
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -2018,7 +2040,7 @@ results
 *
 param
 {
-array
+Array
 }
 expectedProps
 *
@@ -2122,7 +2144,7 @@ match
 *
 param
 {
-array
+Array
 }
 actualResults
 *
@@ -2134,7 +2156,7 @@ results
 *
 param
 {
-array
+Array
 }
 expectedProps
 *

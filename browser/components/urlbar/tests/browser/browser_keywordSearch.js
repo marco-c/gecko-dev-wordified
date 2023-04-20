@@ -29,7 +29,6 @@ zero
 0
 /
 *
-*
 /
 var
 gTests

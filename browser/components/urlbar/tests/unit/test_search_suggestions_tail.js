@@ -105,9 +105,10 @@ suggestion
 funciton
 .
 *
+*
 param
 {
-function
+Function
 }
 fn
 *

@@ -1753,7 +1753,7 @@ time
 *
 param
 {
-function
+Function
 }
 callback
 *

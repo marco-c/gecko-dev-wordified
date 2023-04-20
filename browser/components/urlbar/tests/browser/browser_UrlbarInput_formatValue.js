@@ -80,6 +80,7 @@ and
 chars
 .
 *
+*
 param
 {
 string
