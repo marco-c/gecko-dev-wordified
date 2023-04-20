@@ -359,10 +359,6 @@ locations
 struct
 EmitterName
 {
-JSContext
-*
-cx
-;
 FrontendContext
 *
 fc
@@ -380,9 +376,6 @@ index
 ;
 EmitterName
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -396,10 +389,6 @@ TaggedParserAtomIndex
 index
 )
 :
-cx
-(
-cx
-)
 fc
 (
 fc
@@ -550,9 +539,6 @@ script
 .
 GenericAtom
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

@@ -1259,10 +1259,6 @@ searchInEnclosingScope
 bce
 -
 >
-cx
-bce
--
->
 fc
 bce
 -

@@ -2932,9 +2932,6 @@ nullptr
 bool
 isEqualTo
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3704,9 +3701,6 @@ name
 NameLocation
 searchInEnclosingScope
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3781,9 +3775,6 @@ enclosingScope
 NameLocation
 searchInEnclosingScopeWithCache
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3800,9 +3791,6 @@ name
 NameLocation
 searchInEnclosingScopeNoCache
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
