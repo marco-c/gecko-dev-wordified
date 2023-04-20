@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2016
@@ -184,8 +184,6 @@ sys
 import
 argparse
 import
-cgi
-import
 json
 import
 logging
@@ -195,6 +193,28 @@ import
 re
 import
 subprocess
+try
+:
+    
+#
+python
+3
+.
+2
++
+    
+from
+html
+import
+escape
+except
+ImportError
+:
+    
+from
+cgi
+import
+escape
 #
 Third_party
 library
@@ -1572,6 +1592,15 @@ cwd
 =
 WEBRTC_ROOT
 )
+.
+decode
+(
+'
+UTF
+-
+8
+'
+)
         
 logging
 .
@@ -1785,7 +1814,10 @@ s
 .
 join
 (
+sorted
+(
 missing_licenses
+)
 )
             
 logging
@@ -1988,8 +2020,6 @@ license_file
                     
 license_text
 =
-cgi
-.
 escape
 (
 license_file
