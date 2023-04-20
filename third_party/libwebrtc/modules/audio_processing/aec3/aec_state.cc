@@ -1418,6 +1418,13 @@ MinDirectPathFilterDelay
 )
 ReverbDecay
 (
+/
+*
+mild
+=
+*
+/
+false
 )
 &
 avg_render_reverb_

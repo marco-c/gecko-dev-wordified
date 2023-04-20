@@ -387,6 +387,8 @@ const
 RenderBuffer
 &
 render_buffer
+bool
+dominant_nearend
 )
 ;
 /

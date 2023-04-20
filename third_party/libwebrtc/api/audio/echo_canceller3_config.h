@@ -574,6 +574,13 @@ default_len
 .
 83f
 ;
+float
+nearend_len
+=
+0
+.
+83f
+;
 bool
 echo_can_saturate
 =
