@@ -2558,7 +2558,7 @@ class_like_selectors
 specificity
 +
 =
-selector_list_specificity
+max_selector_list_specificity
 (
 nth_of_data
 .
@@ -2665,7 +2665,7 @@ argument
 specificity
 +
 =
-selector_list_specificity
+max_selector_list_specificity
 (
 list
 )
@@ -2741,7 +2741,7 @@ returns
 it
 .
 fn
-selector_list_specificity
+max_selector_list_specificity
 <
 Impl
 :
