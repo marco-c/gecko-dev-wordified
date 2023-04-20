@@ -606,8 +606,6 @@ V3
 extension_pages
 would
 use
-CSP_ALLOW_LOCALHOST
-|
 CSP_ALLOW_WASM
 *
 and

@@ -6612,8 +6612,6 @@ Manifest
 V3
 extension_pages
 allows
-localhost
-and
 WASM
 .
 When
@@ -6655,12 +6653,6 @@ nsIAddonContentPolicy
 .
 CSP_ALLOW_ANY
 :
-Ci
-.
-nsIAddonContentPolicy
-.
-CSP_ALLOW_LOCALHOST
-|
 Ci
 .
 nsIAddonContentPolicy
