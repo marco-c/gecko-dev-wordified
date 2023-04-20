@@ -248,6 +248,17 @@ click
 (
 )
 ;
+await
+waitForLoadedSource
+(
+dbg
+"
+simple1
+.
+js
+"
+)
+;
 assertHighlightLocation
 (
 dbg
