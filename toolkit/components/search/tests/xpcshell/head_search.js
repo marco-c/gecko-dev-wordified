@@ -1986,10 +1986,8 @@ matches
 [
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 searchignore
 mozilla
 .

@@ -259,10 +259,8 @@ wrappedJSObject
 _loadPath
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 "
 +
 kExtensionID
@@ -544,10 +542,8 @@ wrappedJSObject
 _loadPath
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 "
 +
 kExtensionID

@@ -290,10 +290,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 engine
 search
 .

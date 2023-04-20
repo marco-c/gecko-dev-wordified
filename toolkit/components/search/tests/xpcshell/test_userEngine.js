@@ -337,15 +337,8 @@ loadPath
 :
 "
 [
-other
-]
-addEngineWithDetails
-:
-set
--
-via
--
 user
+]
 "
 submissionUrl
 :

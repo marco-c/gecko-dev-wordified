@@ -574,15 +574,8 @@ loadPath
 :
 "
 [
-other
-]
-addEngineWithDetails
-:
-set
--
-via
--
 policy
+]
 "
 submissionUrl
 :

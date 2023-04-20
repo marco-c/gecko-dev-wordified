@@ -1400,10 +1400,8 @@ new_load_path
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 engine2
 tests
 .
@@ -1506,10 +1504,8 @@ new_load_path
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 engine2
 tests
 .
@@ -1714,10 +1710,8 @@ new_load_path
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 engine1
 tests
 .
@@ -1827,10 +1821,8 @@ new_load_path
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 engine1
 tests
 .

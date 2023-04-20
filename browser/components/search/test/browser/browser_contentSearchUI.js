@@ -57,10 +57,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 searchsuggestionengine1
 tests
 .
@@ -90,10 +88,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 searchsuggestionengine2
 tests
 .
