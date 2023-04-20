@@ -2887,7 +2887,7 @@ CrossRealmWritableUnderlyingSinkAlgorithms
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-CrossRealmWritableUnderlyingSinkAlgorithms
+UnderlyingSinkAlgorithmsBase
 )
 /
 /
@@ -4964,7 +4964,7 @@ CrossRealmReadableUnderlyingSourceAlgorithms
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-CrossRealmReadableUnderlyingSourceAlgorithms
+UnderlyingSourceAlgorithmsBase
 )
 /
 /
