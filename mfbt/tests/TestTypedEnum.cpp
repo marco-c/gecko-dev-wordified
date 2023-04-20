@@ -167,6 +167,15 @@ amend
 as
 needed
 .
+is_literal_type
+was
+removed
+in
+C
++
++
+20
+.
 /
 /
 We
@@ -197,6 +206,11 @@ __cplusplus
 >
 =
 201103L
+&
+&
+__cplusplus
+<
+202002L
 &
 &
 !
