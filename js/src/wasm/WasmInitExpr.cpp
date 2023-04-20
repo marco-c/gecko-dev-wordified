@@ -209,7 +209,7 @@ include
 "
 wasm
 /
-TypedObject
+WasmGcObject
 .
 h
 "

@@ -148,11 +148,6 @@ AsmJS
 cpp
 "
 "
-TypedObject
-.
-cpp
-"
-"
 WasmBaselineCompile
 .
 cpp
@@ -209,6 +204,11 @@ cpp
 "
 "
 WasmGC
+.
+cpp
+"
+"
+WasmGcObject
 .
 cpp
 "
