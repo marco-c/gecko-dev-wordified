@@ -256,8 +256,6 @@ kind
 const
 override
 ;
-private
-:
 /
 /
 AudioTrackInterface
@@ -289,6 +287,8 @@ sink
 )
 override
 ;
+private
+:
 /
 /
 ObserverInterface
