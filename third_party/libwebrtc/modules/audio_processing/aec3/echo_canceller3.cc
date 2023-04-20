@@ -4907,6 +4907,15 @@ active_config
 multi_channel
 .
 stereo_detection_timeout_threshold_seconds
+config_selector_
+.
+active_config
+(
+)
+.
+multi_channel
+.
+stereo_detection_hysteresis_seconds
 )
 output_framer_
 (
@@ -5399,7 +5408,7 @@ num_render_channels_to_aec_
 =
 multichannel_content_detector_
 .
-IsMultiChannelContentDetected
+IsProperMultiChannelContentDetected
 (
 )
 ?
@@ -5413,7 +5422,7 @@ Update
 (
 multichannel_content_detector_
 .
-IsMultiChannelContentDetected
+IsProperMultiChannelContentDetected
 (
 )
 )
