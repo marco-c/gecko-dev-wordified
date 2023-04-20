@@ -3736,7 +3736,7 @@ height
 libyuv
 :
 :
-kFilterBilinear
+kFilterBox
 )
 ;
 }

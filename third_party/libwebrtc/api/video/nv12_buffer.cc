@@ -950,18 +950,6 @@ uv_offset_x
 *
 2
 ;
-/
-/
-kFilterBox
-is
-unsupported
-in
-libyuv
-so
-using
-kFilterBilinear
-instead
-.
 int
 res
 =
@@ -1005,7 +993,7 @@ height
 libyuv
 :
 :
-kFilterBilinear
+kFilterBox
 )
 ;
 RTC_DCHECK_EQ
