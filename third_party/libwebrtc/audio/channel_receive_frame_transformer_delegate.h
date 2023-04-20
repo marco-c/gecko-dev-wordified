@@ -224,10 +224,7 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
-rtc
-:
-:
-Thread
+TaskQueueBase
 *
 channel_receive_thread
 )
@@ -439,11 +436,9 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-rtc
-:
-:
-Thread
+TaskQueueBase
 *
+const
 channel_receive_thread_
 ;
 }

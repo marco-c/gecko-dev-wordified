@@ -304,10 +304,7 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
-rtc
-:
-:
-Thread
+TaskQueueBase
 *
 channel_receive_thread
 )
