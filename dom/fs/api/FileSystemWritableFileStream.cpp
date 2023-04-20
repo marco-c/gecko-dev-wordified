@@ -709,14 +709,6 @@ mFileDesc
 )
 )
 ;
-mActor
--
->
-SetStream
-(
-this
-)
-;
 }
 FileSystemWritableFileStream
 :
