@@ -442,6 +442,48 @@ p
 ]
 )
             
+elif
+config
+.
+params
+[
+"
+project
+"
+]
+=
+=
+"
+toolchains
+"
+:
+                
+#
+The
+toolchains
+repository
+uses
+non
+-
+cached
+toolchain
+artifacts
+.
+Allow
+                
+#
+tasks
+to
+use
+them
+.
+                
+cache
+=
+None
+                
+break
+            
 else
 :
                 
@@ -477,6 +519,17 @@ p
 )
                 
 )
+        
+if
+cache
+is
+None
+:
+            
+yield
+task
+            
+continue
         
 digest_data
 =
