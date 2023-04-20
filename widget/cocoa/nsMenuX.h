@@ -1369,15 +1369,6 @@ nsIContent
 aMenuContent
 )
 ;
-static
-bool
-IsXULWindowMenu
-(
-nsIContent
-*
-aMenuContent
-)
-;
 /
 /
 Set
