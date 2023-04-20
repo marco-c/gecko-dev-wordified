@@ -477,10 +477,10 @@ box_
 :
 {
 Clear
-ContentVisibility
 ContainIntrinsicSize
-LineClamp
+ContentVisibility
 Float
+LineClamp
 Overflow
 OverflowAnchor
 }
@@ -883,8 +883,8 @@ page
 :
 :
 {
-PageOrientation
 PageName
+PageOrientation
 PageSize
 PaperSize
 }
@@ -1191,8 +1191,8 @@ ui
 :
 :
 {
-Cursor
 BoolInteger
+Cursor
 UserSelect
 }
 ;

@@ -1303,6 +1303,7 @@ a
 b
 )
 )
+;
 }
 }
 impl
@@ -3169,6 +3170,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 &
 Token
@@ -4457,6 +4459,7 @@ Err
 )
 =
 >
+{
 return
 Err
 (
@@ -4470,6 +4473,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 }
 ;
 Ok
@@ -5141,6 +5145,7 @@ n
 _
 =
 >
+{
 return
 Err
 (
@@ -5154,6 +5159,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 }
 ;
 node

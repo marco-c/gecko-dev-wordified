@@ -4111,6 +4111,14 @@ a
 3d
 matrix
 .
+#
+[
+cfg_attr
+(
+rustfmt
+rustfmt_skip
+)
+]
 pub
 fn
 components_to_transform_3d_matrix
@@ -4182,7 +4190,6 @@ v
 :
 f64
 |
-{
 v
 .
 min
@@ -4206,7 +4213,6 @@ f64
 )
 as
 f32
-}
 ;
 Transform3D
 :

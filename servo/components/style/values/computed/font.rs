@@ -1445,6 +1445,7 @@ min
 .
 )
 )
+;
 }
 if
 value
@@ -6462,6 +6463,7 @@ write_str
 normal
 "
 )
+;
 }
 if
 *
@@ -6482,6 +6484,7 @@ write_str
 italic
 "
 )
+;
 }
 if
 *
@@ -6593,6 +6596,7 @@ FontStyle
 :
 :
 Normal
+;
 }
 if
 self
@@ -6611,6 +6615,7 @@ FontStyle
 :
 :
 Italic
+;
 }
 generics
 :

@@ -1103,8 +1103,8 @@ hash
 :
 :
 {
-Hash
 BuildHasher
+Hash
 }
 ;
 /

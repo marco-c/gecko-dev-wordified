@@ -973,8 +973,8 @@ matching
 :
 :
 {
-VisitedHandlingMode
 NeedsSelectorFlags
+VisitedHandlingMode
 }
 ;
 use

@@ -168,9 +168,9 @@ matching
 {
 MatchingContext
 MatchingMode
+NeedsSelectorFlags
 QuirksMode
 VisitedHandlingMode
-NeedsSelectorFlags
 }
 ;
 /

@@ -198,8 +198,8 @@ matching
 :
 :
 {
-NeedsSelectorFlags
 MatchingContext
+NeedsSelectorFlags
 }
 ;
 use

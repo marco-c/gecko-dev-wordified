@@ -84,8 +84,8 @@ computed
 {
 self
 CSSPixelLength
-Resolution
 Ratio
+Resolution
 }
 ;
 use

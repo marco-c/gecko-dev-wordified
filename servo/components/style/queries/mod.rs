@@ -175,7 +175,7 @@ feature_expression
 :
 :
 {
-QueryFeatureExpression
 FeatureType
+QueryFeatureExpression
 }
 ;

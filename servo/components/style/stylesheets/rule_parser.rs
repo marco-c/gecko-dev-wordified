@@ -169,8 +169,8 @@ container_rule
 :
 :
 {
-ContainerRule
 ContainerCondition
+ContainerRule
 }
 ;
 use
@@ -4771,7 +4771,6 @@ condition
 )
 =
 >
-{
 Ok
 (
 CssRule
@@ -4817,7 +4816,6 @@ source_location
 )
 )
 )
-}
 AtRulePrelude
 :
 :

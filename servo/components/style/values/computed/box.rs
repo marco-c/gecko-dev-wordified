@@ -146,10 +146,10 @@ box_
 :
 :
 {
+GenericContainIntrinsicSize
 GenericLineClamp
 GenericPerspective
 GenericVerticalAlign
-GenericContainIntrinsicSize
 }
 ;
 use
@@ -376,6 +376,7 @@ none
 (
 )
 )
+;
 }
 Ok
 (

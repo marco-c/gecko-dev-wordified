@@ -4924,7 +4924,6 @@ nest
 |
 context
 |
-{
 matches_complex_selector
 (
 selector
@@ -4935,7 +4934,6 @@ iter
 element
 context
 )
-}
 )
 }
 Component
@@ -5266,7 +5264,6 @@ nest
 |
 context
 |
-{
 matches_complex_selector
 (
 selector
@@ -5277,7 +5274,6 @@ iter
 element
 context
 )
-}
 )
 }
 )
@@ -5606,14 +5602,12 @@ nest
 |
 context
 |
-{
 has_children_matching
 (
 list
 element
 context
 )
-}
 )
 Component
 :

@@ -3571,6 +3571,7 @@ v
 )
 =
 >
+{
 (
 ViewportVariant
 :
@@ -3582,6 +3583,7 @@ ViewportUnit
 Vmin
 v
 )
+}
 ViewportPercentageLength
 :
 :
@@ -3651,6 +3653,7 @@ v
 )
 =
 >
+{
 (
 ViewportVariant
 :
@@ -3662,6 +3665,7 @@ ViewportUnit
 Vmax
 v
 )
+}
 ViewportPercentageLength
 :
 :

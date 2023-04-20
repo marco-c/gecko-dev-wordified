@@ -79,8 +79,8 @@ proc_macro2
 :
 :
 {
-TokenStream
 Span
+TokenStream
 }
 ;
 use
@@ -95,8 +95,8 @@ syn
 :
 {
 self
-Ident
 DeriveInput
+Ident
 Path
 }
 ;
@@ -793,6 +793,7 @@ parse_bitflags
 (
 bitflags
 )
+;
 }
 let
 field_attrs

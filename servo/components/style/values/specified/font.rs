@@ -128,13 +128,9 @@ values
 computed
 :
 :
-{
-font
+Percentage
 as
-computed
-Length
-NonNegativeLength
-}
+ComputedPercentage
 ;
 use
 crate
@@ -146,9 +142,13 @@ values
 computed
 :
 :
-Percentage
+{
+font
 as
-ComputedPercentage
+computed
+Length
+NonNegativeLength
+}
 ;
 use
 crate
@@ -1312,7 +1312,6 @@ weight
 )
 =
 >
-{
 computed
 :
 :
@@ -1327,7 +1326,6 @@ get
 (
 )
 )
-}
 AbsoluteFontWeight
 :
 :

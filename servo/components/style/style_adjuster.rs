@@ -1319,8 +1319,8 @@ box_
 :
 :
 {
-DisplayOutside
 DisplayInside
+DisplayOutside
 }
 ;
 let
