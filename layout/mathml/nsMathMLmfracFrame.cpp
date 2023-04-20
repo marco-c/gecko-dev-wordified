@@ -360,7 +360,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 &
 &
 aFrame
@@ -466,7 +469,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 )
 {
 PropagateFrameFlagFor
@@ -1286,7 +1292,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_NORMAL
+StyleMathStyle
+:
+:
+Compact
 ;
 mLineRect
 .

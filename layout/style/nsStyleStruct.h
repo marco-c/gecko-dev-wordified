@@ -902,7 +902,10 @@ for
 MathML
 displaystyle
 )
-uint8_t
+mozilla
+:
+:
+StyleMathStyle
 mMathStyle
 ;
 /

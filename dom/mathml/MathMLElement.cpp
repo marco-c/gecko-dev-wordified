@@ -4579,7 +4579,7 @@ true
 ;
 static
 const
-uint8_t
+StyleMathStyle
 mathStyle
 [
 MOZ_ARRAY_LENGTH
@@ -4589,8 +4589,14 @@ displaystyles
 ]
 =
 {
-NS_STYLE_MATH_STYLE_COMPACT
-NS_STYLE_MATH_STYLE_NORMAL
+StyleMathStyle
+:
+:
+Compact
+StyleMathStyle
+:
+:
+Normal
 }
 ;
 for

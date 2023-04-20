@@ -448,7 +448,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 )
 {
 mPresentationData
@@ -1817,7 +1820,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 ;
 /
 /
@@ -2472,7 +2478,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 )
 {
 /
@@ -2547,7 +2556,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 )
 {
 /
