@@ -488,7 +488,7 @@ high
 override
 ;
 void
-NotifyOutgoingMessageBufferEmpty
+OnTotalBufferedAmountLow
 (
 )
 override

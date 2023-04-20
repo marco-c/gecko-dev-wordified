@@ -594,13 +594,6 @@ incoming_streams
 override
 {
 }
-void
-NotifyOutgoingMessageBufferEmpty
-(
-)
-override
-{
-}
 std
 :
 :
