@@ -301,11 +301,10 @@ return
 }
 if
 (
+!
 packet_result
 .
-receive_time
-.
-IsInfinite
+IsReceived
 (
 )
 )

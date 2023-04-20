@@ -172,11 +172,10 @@ packet_feedbacks
 {
 if
 (
+!
 packet_result
 .
-receive_time
-.
-IsInfinite
+IsReceived
 (
 )
 )

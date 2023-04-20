@@ -1055,11 +1055,10 @@ packet_results
 loss_count
 +
 =
+!
 pkt
 .
-receive_time
-.
-IsInfinite
+IsReceived
 (
 )
 ?

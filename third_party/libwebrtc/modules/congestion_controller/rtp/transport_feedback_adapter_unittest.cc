@@ -461,9 +461,7 @@ truth
 i
 ]
 .
-receive_time
-.
-IsFinite
+IsReceived
 (
 )
 )
@@ -475,9 +473,7 @@ input
 i
 ]
 .
-receive_time
-.
-IsFinite
+IsReceived
 (
 )
 )
