@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-log
-*
-/
 "
 use
 strict
@@ -3182,6 +3176,8 @@ ExpireAtSessionEnd
 undefined
 )
 {
+lazy
+.
 log
 .
 error
