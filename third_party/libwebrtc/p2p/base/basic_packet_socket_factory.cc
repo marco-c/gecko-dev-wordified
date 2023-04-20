@@ -121,6 +121,15 @@ include
 "
 rtc_base
 /
+async_resolver
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 async_tcp_socket
 .
 h
