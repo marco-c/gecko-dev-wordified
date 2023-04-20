@@ -1612,10 +1612,7 @@ const
 0
 ;
 virtual
-Maybe
-<
 float
->
 Opacity
 (
 )
