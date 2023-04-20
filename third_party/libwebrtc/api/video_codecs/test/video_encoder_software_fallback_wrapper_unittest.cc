@@ -3557,12 +3557,7 @@ fallback
 .
 codec_
 .
-VP8
-(
-)
--
->
-numberOfTemporalLayers
+numberOfSimulcastStreams
 =
 2
 ;
@@ -3602,12 +3597,7 @@ setting
 .
 codec_
 .
-VP8
-(
-)
--
->
-numberOfTemporalLayers
+numberOfSimulcastStreams
 =
 1
 ;
