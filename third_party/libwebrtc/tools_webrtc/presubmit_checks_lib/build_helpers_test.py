@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 (
@@ -96,14 +96,6 @@ import
 os
 import
 unittest
-#
-pylint
-:
-disable
-=
-relative
--
-import
 import
 build_helpers
 TESTDATA_DIR
@@ -199,7 +191,7 @@ gn_output
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 gn_output
 [

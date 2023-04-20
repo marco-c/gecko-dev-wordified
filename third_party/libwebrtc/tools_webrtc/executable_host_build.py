@@ -6,8 +6,7 @@ usr
 bin
 /
 env
-/
-python
+vpython3
 #
 Copyright
 (
@@ -221,7 +220,7 @@ by
 running
 :
   
-python
+vpython3
 tools_webrtc
 /
 executable_host_build
@@ -424,7 +423,7 @@ _ParseArgs
 (
 )
 :
-    
+  
 desc
 =
 '
@@ -438,7 +437,7 @@ host
 machine
 .
 '
-    
+  
 parser
 =
 argparse
@@ -449,7 +448,7 @@ description
 =
 desc
 )
-    
+  
 parser
 .
 add_argument
@@ -459,11 +458,11 @@ add_argument
 -
 executable_name
 '
-                        
+                      
 required
 =
 True
-                        
+                      
 help
 =
 '
@@ -475,7 +474,7 @@ to
 build
 '
 )
-    
+  
 args
 =
 parser
@@ -483,7 +482,7 @@ parser
 parse_args
 (
 )
-    
+  
 return
 args
 contextmanager
@@ -492,7 +491,7 @@ HostBuildDir
 (
 )
 :
-    
+  
 temp_dir
 =
 tempfile
@@ -500,16 +499,16 @@ tempfile
 mkdtemp
 (
 )
-    
+  
 try
 :
-        
+    
 yield
 temp_dir
-    
+  
 finally
 :
-        
+    
 shutil
 .
 rmtree
@@ -528,7 +527,7 @@ SRC_DIR
 kwargs
 )
 :
-    
+  
 with
 open
 (
@@ -542,7 +541,7 @@ w
 as
 devnull
 :
-        
+    
 subprocess
 .
 check_call
@@ -565,7 +564,7 @@ DepotToolPath
 args
 )
 :
-    
+  
 return
 os
 .
@@ -587,19 +586,19 @@ __name__
 __main__
 '
 :
-    
+  
 ARGS
 =
 _ParseArgs
 (
 )
-    
+  
 EXECUTABLE_TO_BUILD
 =
 ARGS
 .
 executable_name
-    
+  
 EXECUTABLE_FINAL_NAME
 =
 ARGS
@@ -609,7 +608,7 @@ executable_name
 '
 _host
 '
-    
+  
 with
 HostBuildDir
 (
@@ -617,7 +616,7 @@ HostBuildDir
 as
 build_dir
 :
-        
+    
 _RunCommand
 (
 [
@@ -638,10 +637,9 @@ gen
 build_dir
 ]
 )
-        
+    
 _RunCommand
 (
-            
 [
 DepotToolPath
 (
@@ -657,7 +655,7 @@ build_dir
 EXECUTABLE_TO_BUILD
 ]
 )
-        
+    
 shutil
 .
 copy
@@ -671,6 +669,6 @@ join
 build_dir
 EXECUTABLE_TO_BUILD
 )
-                    
+                
 EXECUTABLE_FINAL_NAME
 )

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 (
@@ -266,6 +266,15 @@ cmd
 ]
   
 if
+len
+(
+out
+)
+>
+0
+:
+    
+if
 out
 [
 0
@@ -276,7 +285,7 @@ out
 python
 '
 :
-    
+      
 out
 [
 0
@@ -285,7 +294,7 @@ out
 sys
 .
 executable
-  
+    
 elif
 out
 [
@@ -300,7 +309,7 @@ py
 '
 )
 :
-    
+      
 out
 .
 insert

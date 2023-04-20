@@ -249,6 +249,10 @@ subprocess
 "
 "
 "
+import
+subprocess
+import
+sys
 #
 psutil
 is
@@ -270,10 +274,6 @@ pylint
 disable
 =
 F0401
-import
-subprocess
-import
-sys
 WEBCAM_WIN
 =
 (
@@ -697,7 +697,7 @@ out
 =
 =
 '
-python
+vpython3
 '
 :
     
@@ -776,9 +776,6 @@ argv
 )
 )
   
-else
-:
-    
 return
 0
 if
