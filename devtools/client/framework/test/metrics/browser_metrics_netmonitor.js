@@ -225,13 +225,6 @@ js
 /
 /
 "
-chrome
-.
-js
-"
-/
-/
-"
 resource
 :
 /

@@ -199,11 +199,6 @@ options
 js
 "
 "
-chrome
-.
-js
-"
-"
 resource
 :
 /

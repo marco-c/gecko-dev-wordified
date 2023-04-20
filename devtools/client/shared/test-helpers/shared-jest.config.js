@@ -205,16 +205,6 @@ fixturesDir
 promise
 "
 ^
-chrome
-"
-:
-{
-fixturesDir
-}
-/
-Chrome
-"
-^
 devtools
 /
 client
