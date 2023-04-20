@@ -137,6 +137,15 @@ VCMJitterEstimator
 )
 ;
 VCMJitterEstimator
+(
+const
+VCMJitterEstimator
+&
+)
+=
+delete
+;
+VCMJitterEstimator
 &
 operator
 =
@@ -144,8 +153,9 @@ operator
 const
 VCMJitterEstimator
 &
-rhs
 )
+=
+delete
 ;
 /
 /

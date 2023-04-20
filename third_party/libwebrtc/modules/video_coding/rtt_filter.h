@@ -111,6 +111,15 @@ VCMRttFilter
 )
 ;
 VCMRttFilter
+(
+const
+VCMRttFilter
+&
+)
+=
+delete
+;
+VCMRttFilter
 &
 operator
 =
@@ -118,8 +127,9 @@ operator
 const
 VCMRttFilter
 &
-rhs
 )
+=
+delete
 ;
 /
 /
