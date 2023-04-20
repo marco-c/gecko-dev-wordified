@@ -323,13 +323,7 @@ GetRandomTimelineSeed
 mPerformance
 -
 >
-IsSystemPrincipal
-(
-)
-mPerformance
--
->
-CrossOriginIsolated
+GetRTPCallerType
 (
 )
 )

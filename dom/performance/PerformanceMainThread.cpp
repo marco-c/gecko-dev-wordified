@@ -2231,15 +2231,7 @@ retValue
 GetRandomTimelineSeed
 (
 )
-/
-*
-aIsSystemPrinciapl
-*
-/
-false
-CrossOriginIsolated
-(
-)
+mRTPCallerType
 )
 ;
 }
