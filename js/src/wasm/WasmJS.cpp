@@ -7771,6 +7771,16 @@ i64
 if
 (
 !
+it
+)
+{
+return
+nullptr
+;
+}
+if
+(
+!
 props
 .
 append
