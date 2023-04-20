@@ -1460,12 +1460,14 @@ markingOptions
 {
 public
 :
-explicit
 MarkingTracerT
 (
 JSRuntime
 *
 runtime
+GCMarker
+*
+marker
 )
 ;
 virtual
@@ -2036,7 +2038,7 @@ strictCompartmentChecking
 #
 endif
 size_t
-sizeOfExcludingThis
+sizeOfIncludingThis
 (
 mozilla
 :
