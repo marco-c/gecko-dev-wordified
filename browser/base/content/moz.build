@@ -431,10 +431,11 @@ BUG_COMPONENT
 =
 (
 "
-Firefox
+Toolkit
 "
 "
-General
+Performance
+Monitoring
 "
 )
 with
