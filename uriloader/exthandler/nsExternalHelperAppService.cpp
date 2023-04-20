@@ -1772,7 +1772,7 @@ downloadBundle
 GetStringFromName
 (
 "
-DownloadsFolder
+downloadsFolder
 "
 downloadLocalized
 )
