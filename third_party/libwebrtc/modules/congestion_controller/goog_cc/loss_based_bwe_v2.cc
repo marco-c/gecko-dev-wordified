@@ -5068,6 +5068,18 @@ if
 (
 observation_duration
 <
+=
+TimeDelta
+:
+:
+Zero
+(
+)
+|
+|
+(
+observation_duration
+<
 config_
 -
 >
@@ -5089,6 +5101,7 @@ config_
 -
 >
 trendline_integration_enabled
+)
 )
 )
 {
