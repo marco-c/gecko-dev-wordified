@@ -320,9 +320,7 @@ the
 shared
 UDP
 socket
-|
 socket
-|
 .
 static
 std
@@ -577,9 +575,7 @@ clients
 have
 moved
 to
-|
 Create
-|
 .
 static
 std
@@ -695,9 +691,7 @@ new
 socket
 bound
 to
-|
 network
-|
 and
 /
 /
@@ -708,13 +702,9 @@ in
 the
 range
 between
-|
 min_port
-|
 and
-|
 max_port
-|
 .
 static
 std
@@ -1005,9 +995,7 @@ clients
 have
 moved
 to
-|
 Create
-|
 .
 static
 std
@@ -1797,9 +1785,7 @@ the
 turn
 entry
 with
-|
 address
-|
 and
 sets
 its
@@ -2523,9 +2509,7 @@ the
 entry
 only
 if
-|
 timestamp
-|
 matches
 the
 destruction
@@ -2533,9 +2517,7 @@ timestamp
 /
 /
 in
-|
 entry
-|
 .
 void
 DestroyEntryIfNotCancelled
@@ -2563,9 +2545,7 @@ connection
 with
 remote
 address
-|
 address
-|
 failed
 and
 /

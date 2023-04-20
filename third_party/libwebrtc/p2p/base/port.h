@@ -2114,9 +2114,7 @@ packet
 based
 on
 the
-|
 remote_addr
-|
 .
 Currently
 only
@@ -2176,9 +2174,7 @@ handle
 packet
 from
 this
-|
 remote_addr
-|
 .
 /
 /
@@ -3354,9 +3350,7 @@ of
 using
 /
 /
-|
 ice_username_fragment_
-|
 directly
 .
 For

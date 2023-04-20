@@ -586,9 +586,7 @@ changed
 /
 /
 If
-|
 dtls
-|
 is
 true
 the

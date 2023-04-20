@@ -4917,9 +4917,7 @@ value
 /
 /
 If
-|
 remote_ufrag
-|
 is
 same
 as

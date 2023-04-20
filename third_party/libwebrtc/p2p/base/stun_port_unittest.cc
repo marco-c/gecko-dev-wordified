@@ -724,9 +724,7 @@ stun_keepalive_delay_
 /
 /
 If
-|
 stun_keepalive_lifetime_
-|
 is
 negative
 let
@@ -2850,9 +2848,7 @@ unknown
 network
 type
 is
-|
 kInfiniteLifetime
-|
 .
 CreateStunPort
 (
@@ -2880,9 +2876,7 @@ the
 cellular
 network
 is
-|
 kHighCostPortKeepaliveLifetimeMs
-|
 SetNetworkType
 (
 rtc
@@ -2912,9 +2906,7 @@ the
 wifi
 network
 is
-|
 kInfiniteLifetime
-|
 .
 SetNetworkType
 (
@@ -3001,9 +2993,7 @@ unknown
 network
 type
 is
-|
 kInfiniteLifetime
-|
 .
 CreateSharedUdpPort
 (
@@ -3032,9 +3022,7 @@ the
 cellular
 network
 is
-|
 kHighCostPortKeepaliveLifetimeMs
-|
 .
 SetNetworkType
 (
@@ -3066,9 +3054,7 @@ wifi
 network
 type
 is
-|
 kInfiniteLifetime
-|
 .
 SetNetworkType
 (

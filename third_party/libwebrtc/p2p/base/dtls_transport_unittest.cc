@@ -316,9 +316,7 @@ b
 }
 /
 /
-|
 modify_digest
-|
 is
 used
 to
@@ -2136,9 +2134,7 @@ FakeClock
 due
 to
 the
-|
 fake_clock_
-|
 member
 /
 /
@@ -4573,9 +4569,7 @@ protected
 /
 /
 If
-|
 valid_fingerprint
-|
 is
 false
 the

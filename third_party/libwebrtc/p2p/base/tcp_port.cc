@@ -160,9 +160,7 @@ connection
 -
 PendingTCP
 :
-|
 connection_pending_
-|
 indicates
 whether
 there
@@ -182,9 +180,7 @@ PretendWri
 :
 Tracked
 by
-|
 pretending_to_be_writable_
-|
 .
 Marking
 connection
@@ -2934,17 +2930,13 @@ TODO
 qingsi
 )
 :
-|
 CONNECTION_WRITE_CONNECT_TIMEOUT
-|
 is
 overriden
 by
 /
 /
-|
 ice_unwritable_timeout
-|
 in
 IceConfig
 when
@@ -4329,9 +4321,7 @@ i
 .
 e
 .
-|
 pretending_to_be_writable_
-|
 is
 false
 )

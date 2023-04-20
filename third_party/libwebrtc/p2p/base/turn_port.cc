@@ -5485,9 +5485,7 @@ original
 server
 address
 in
-|
 resolved_address
-|
 .
 For
 TLS
@@ -5625,9 +5623,7 @@ resolved
 address
 back
 into
-|
 server_address_
-|
 .
 SignalResolvedServerAddress
 (
@@ -7368,9 +7364,7 @@ Allowing
 messages
 larger
 than
-|
 len
-|
 as
 ChannelData
 can
@@ -12470,9 +12464,7 @@ remote_ufrag
 Creating
 permission
 for
-|
 ext_addr_
-|
 .
 SendCreatePermissionRequest
 (
@@ -12892,9 +12884,7 @@ TURN_SUCCESS_RESULT_CODE
 /
 /
 If
-|
 state_
-|
 is
 STATE_BOUND
 the

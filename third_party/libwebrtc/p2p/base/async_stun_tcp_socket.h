@@ -159,9 +159,7 @@ public
 Binds
 and
 connects
-|
 socket
-|
 and
 creates
 AsyncTCPSocket
@@ -173,9 +171,7 @@ it
 Takes
 ownership
 of
-|
 socket
-|
 .
 Returns
 NULL
@@ -191,9 +187,7 @@ connect
 )
 fail
 (
-|
 socket
-|
 is
 destroyed
 in
@@ -321,17 +315,13 @@ the
 turn
 message
 .
-|
 pad_bytes
-|
 should
 be
 used
 only
 when
-|
 is_turn
-|
 is
 true
 .

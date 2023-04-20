@@ -267,9 +267,7 @@ AsyncStunTCPSocket
 Binds
 and
 connects
-|
 socket
-|
 and
 creates
 AsyncTCPSocket
@@ -281,9 +279,7 @@ it
 Takes
 ownership
 of
-|
 socket
-|
 .
 Returns
 NULL
@@ -299,9 +295,7 @@ connect
 )
 fail
 (
-|
 socket
-|
 is
 destroyed
 in

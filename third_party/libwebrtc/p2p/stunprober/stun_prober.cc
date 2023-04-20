@@ -414,9 +414,7 @@ buf_len
 /
 StunProber
 provides
-|
 server_ips
-|
 for
 Requester
 to

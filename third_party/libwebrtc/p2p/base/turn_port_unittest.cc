@@ -3140,9 +3140,7 @@ FAILED
 /
 Checks
 that
-|
 turn_port_
-|
 has
 a
 nonempty
@@ -8373,9 +8371,7 @@ server
 /
 using
 timestamp
-|
 ts_before
-|
 but
 then
 get
@@ -8397,9 +8393,7 @@ the
 system
 clock
 .
-|
 ts_before
-|
 is
 /
 /
@@ -12836,9 +12830,7 @@ size
 )
 calls
 to
-|
 customizer
-|
 .
 EXPECT_GE
 (
@@ -13062,9 +13054,7 @@ size
 )
 calls
 to
-|
 customizer
-|
 .
 EXPECT_GE
 (
@@ -13288,9 +13278,7 @@ size
 )
 calls
 to
-|
 customizer
-|
 .
 EXPECT_GE
 (

@@ -1731,9 +1731,7 @@ and
 /
 append
 to
-|
 candidates
-|
 .
 void
 GetCandidatesFromPort
@@ -1975,9 +1973,7 @@ jiayl
 )
 :
 remove
-|
 stun_address
-|
 when
 Chrome
 is
@@ -2301,9 +2297,7 @@ kStopped
 ;
 /
 /
-|
 port_allocation_complete_callback
-|
 is
 called
 when
@@ -2781,9 +2775,7 @@ doesn
 '
 t
 match
-|
 epoch_
-|
 on
 reception
 the

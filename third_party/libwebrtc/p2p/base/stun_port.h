@@ -711,9 +711,7 @@ pending
 request
 with
 type
-|
 msg_type
-|
 .
 bool
 HasPendingRequest
@@ -999,9 +997,7 @@ function
 which
 will
 set
-|
 addr
-|
 '
 s
 IP
@@ -1013,9 +1009,7 @@ address
 if
 /
 /
-|
 addr
-|
 is
 the
 "
@@ -1023,9 +1017,7 @@ any
 "
 address
 and
-|
 emit_local_for_anyaddress_
-|
 is
 true
 .

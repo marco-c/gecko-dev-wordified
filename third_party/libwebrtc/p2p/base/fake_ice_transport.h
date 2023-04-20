@@ -462,9 +462,7 @@ other
 /
 /
 If
-|
 asymmetric
-|
 is
 true
 this
@@ -480,9 +478,7 @@ If
 false
 it
 affects
-|
 dest
-|
 as
 well
 .
@@ -672,9 +668,7 @@ this
 fake
 transport
 channel
-|
 connection_count_
-|
 determines
 the
 /

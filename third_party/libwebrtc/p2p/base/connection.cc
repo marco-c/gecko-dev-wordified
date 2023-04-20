@@ -3738,9 +3738,7 @@ request
 In
 this
 case
-|
 last_ping_received_
-|
 will
 be
 updated
@@ -6859,9 +6857,7 @@ shorter
 than
 /
 /
-|
 dead_connection_timeout_ms
-|
 .
 if
 (

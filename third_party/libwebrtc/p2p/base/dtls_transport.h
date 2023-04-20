@@ -653,9 +653,7 @@ public
 :
 /
 /
-|
 ice_transport
-|
 is
 the
 ICE
@@ -679,9 +677,7 @@ transport
 /
 /
 /
-|
 crypto_options
-|
 are
 the
 options
@@ -706,9 +702,7 @@ negotiated
 /
 /
 /
-|
 event_log
-|
 is
 an
 optional

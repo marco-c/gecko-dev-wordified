@@ -3900,9 +3900,7 @@ a
 signal
 /
 /
-|
 SignalCandidateFilterChanged
-|
 so
 that
 objects
@@ -4233,9 +4231,7 @@ GetPooledIceCredentials
 /
 Fired
 when
-|
 candidate_filter_
-|
 changes
 .
 sigslot

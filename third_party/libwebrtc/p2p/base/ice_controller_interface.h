@@ -292,9 +292,7 @@ IceController
 using
 /
 /
-|
 AddConnection
-|
 i
 .
 e
@@ -846,9 +844,7 @@ the
 STUN_ATTR_USE_CANDIDATE
 "
 for
-|
 conn
-|
 .
 virtual
 bool
@@ -923,9 +919,7 @@ we
 should
 switch
 to
-|
 connection
-|
 .
 /
 /

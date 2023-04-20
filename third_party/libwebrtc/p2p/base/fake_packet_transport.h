@@ -252,9 +252,7 @@ other
 /
 /
 If
-|
 asymmetric
-|
 is
 true
 this
@@ -270,9 +268,7 @@ If
 false
 it
 affects
-|
 dest
-|
 as
 well
 .

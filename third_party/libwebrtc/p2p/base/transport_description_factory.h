@@ -395,9 +395,7 @@ offer
 /
 /
 If
-|
 require_transport_attributes
-|
 is
 true
 then
@@ -412,9 +410,7 @@ to
 be
 present
 in
-|
 offer
-|
 as
 defined
 by

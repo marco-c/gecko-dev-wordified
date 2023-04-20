@@ -298,16 +298,12 @@ this
 is
 constructed
 after
-|
 thread_
-|
 it
 will
 pick
 up
-|
 threads_
-|
 '
 s
 /

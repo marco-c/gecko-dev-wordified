@@ -1031,9 +1031,7 @@ given
 by
 /
 /
-|
 STRONG_PING_INTERVAL
-|
 in
 p2ptransport
 .
@@ -1099,9 +1097,7 @@ given
 by
 /
 /
-|
 WEAK_PING_INTERVAL
-|
 in
 p2ptransport
 .
@@ -1238,9 +1234,7 @@ default
 value
 given
 by
-|
 CONNECTION_WRITE_CONNECT_TIMEOUT
-|
 /
 /
 in
@@ -1301,9 +1295,7 @@ default
 value
 given
 by
-|
 CONNECTION_WRITE_CONNECT_FAILURES
-|
 in
 /
 /
@@ -1364,9 +1356,7 @@ default
 value
 given
 by
-|
 CONNECTION_WRITE_TIMEOUT
-|
 in
 port
 .
@@ -1900,9 +1890,7 @@ ufrag
 and
 pwd
 in
-|
 ice_params
-|
 must
 be
 set

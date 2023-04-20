@@ -911,9 +911,7 @@ turn_customizer
 /
 /
 If
-|
 candidate_pool_size_
-|
 is
 less
 than
@@ -967,9 +965,7 @@ pop_back
 }
 /
 /
-|
 stun_candidate_keepalive_interval_
-|
 will
 be
 used
@@ -1041,9 +1037,7 @@ stun_candidate_keepalive_interval_
 /
 /
 If
-|
 candidate_pool_size_
-|
 is
 greater
 than

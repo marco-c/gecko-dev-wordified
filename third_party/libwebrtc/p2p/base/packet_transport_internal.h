@@ -538,11 +538,9 @@ writable
 state
 represented
 by
-|
 writable
 (
 )
-|
 changes
 .
 sigslot

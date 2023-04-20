@@ -682,9 +682,7 @@ other
 /
 /
 If
-|
 asymmetric
-|
 is
 true
 this
@@ -700,9 +698,7 @@ If
 false
 it
 affects
-|
 dest
-|
 as
 well
 .
@@ -850,9 +846,7 @@ true
 /
 If
 the
-|
 dtls_role_
-|
 is
 unset
 set

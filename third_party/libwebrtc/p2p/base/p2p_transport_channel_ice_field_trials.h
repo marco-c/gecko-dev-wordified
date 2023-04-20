@@ -322,9 +322,7 @@ favor
 of
 /
 /
-|
 send_ping_on_selected_ice_controlling
-|
 .
 bool
 send_ping_on_switch_ice_controlling

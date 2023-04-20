@@ -304,9 +304,7 @@ delay
 /
 /
 If
-|
 msg_type
-|
 is
 kAllRequests
 sends
@@ -352,9 +350,7 @@ least
 one
 request
 with
-|
 msg_type
-|
 is
 scheduled
 for
@@ -783,9 +779,7 @@ a
 const
 pointer
 to
-|
 msg_
-|
 .
 const
 StunMessage
@@ -802,9 +796,7 @@ a
 mutable
 pointer
 to
-|
 msg_
-|
 .
 StunMessage
 *

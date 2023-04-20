@@ -363,9 +363,7 @@ ufrag
 and
 pwd
 in
-|
 ice_params
-|
 must
 be
 set

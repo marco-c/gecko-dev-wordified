@@ -439,9 +439,7 @@ simultaneously
 /
 rather
 than
-|
 local_
-|
 sending
 it
 followed
@@ -449,9 +447,7 @@ by
 a
 response
 from
-|
 remote_
-|
 .
 /
 /
@@ -3107,9 +3103,7 @@ the
 data
 are
 transfered
-|
 size
-|
 just
 need
 to

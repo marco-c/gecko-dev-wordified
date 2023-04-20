@@ -253,9 +253,7 @@ have
 logged
 /
 /
-|
 kSendErrorLogLimit
-|
 messages
 .
 Start
@@ -800,9 +798,7 @@ private
 Returns
 true
 if
-|
 now
-|
 is
 within
 the
@@ -2598,9 +2594,7 @@ instead
 if
 /
 /
-|
 emit_local_for_anyaddress
-|
 is
 true
 .
@@ -3301,9 +3295,7 @@ STATE_BOUND
 /
 Check
 if
-|
 server_addr_
-|
 is
 compatible
 with
@@ -3592,9 +3584,7 @@ socket
 is
 shared
 and
-|
 stun_reflected_addr
-|
 is
 equal
 to

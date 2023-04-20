@@ -2392,9 +2392,7 @@ one
 in
 the
 ordered
-|
 connections_
-|
 .
 auto
 connections
@@ -2653,9 +2651,7 @@ const
 {
 /
 /
-|
 connections_
-|
 has
 been
 sorted
@@ -2742,9 +2738,7 @@ to
 update
 this
 if
-|
 connections_
-|
 are
 not
 sorted
@@ -4772,15 +4766,11 @@ information
 Returns
 positive
 if
-|
 a
-|
 is
 better
 than
-|
 b
-|
 .
 int
 BasicIceController
@@ -5556,9 +5546,7 @@ can
 switch
 .
 If
-|
 best_conn_on_network
-|
 is
 not
 connected
@@ -5948,9 +5936,7 @@ a
 .
 1
 )
-|
 conn
-|
 is
 the
 selected
@@ -5986,9 +5972,7 @@ a
 .
 4
 )
-|
 conn
-|
 has
 higher
 priority
@@ -6011,9 +5995,7 @@ b
 .
 1
 )
-|
 conn
-|
 is
 the
 selected_connection
@@ -6024,9 +6006,7 @@ b
 .
 2
 )
-|
 conn
-|
 is
 writable
 .

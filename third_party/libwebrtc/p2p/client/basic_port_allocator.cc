@@ -5874,9 +5874,7 @@ not
 in
 /
 /
-|
 networks
-|
 .
 if
 (
@@ -7338,9 +7336,7 @@ network_name
 ;
 /
 /
-|
 port
-|
 is
 already
 in
@@ -8834,9 +8830,7 @@ OnReadPacket
 /
 Continuing
 if
-|
 udp_socket_
-|
 is
 NULL
 as
@@ -10543,9 +10537,7 @@ created
 using
 shared
 socket
-|
 port
-|
 will
 not
 be
@@ -10765,9 +10757,7 @@ created
 using
 shared
 socket
-|
 port
-|
 will
 not
 be

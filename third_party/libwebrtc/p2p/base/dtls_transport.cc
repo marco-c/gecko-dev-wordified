@@ -1570,9 +1570,7 @@ support
 DTLS
 turn
 off
-|
 dtls_active_
-|
 .
 /
 /

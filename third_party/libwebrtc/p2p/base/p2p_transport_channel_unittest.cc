@@ -6365,9 +6365,7 @@ network_route
 /
 If
 the
-|
 network_route
-|
 is
 unset
 don
@@ -17010,9 +17008,7 @@ len
 /
 /
 Reset
-|
 ready_to_send_
-|
 flag
 which
 is
@@ -20180,9 +20176,7 @@ remote_nomination
 ;
 /
 /
-|
 selected_connection2
-|
 should
 not
 be
@@ -21236,9 +21230,7 @@ are
 chosen
 so
 that
-|
 cellular
-|
 would
 have
 higher
@@ -21641,9 +21633,7 @@ are
 chosen
 so
 that
-|
 cellular
-|
 would
 have
 higher
@@ -21867,9 +21857,7 @@ are
 chosen
 so
 that
-|
 cellular
-|
 would
 have
 higher
@@ -22055,9 +22043,7 @@ address
 will
 make
 sure
-|
 kPublicAddrs
-|
 has
 the
 higher
@@ -22184,9 +22170,7 @@ pinged
 /
 once
 every
-|
 backup_ping_interval
-|
 milliseconds
 .
 ASSERT_TRUE_WAIT
@@ -22358,9 +22342,7 @@ address
 will
 make
 sure
-|
 kPublicAddrs
-|
 has
 the
 higher
@@ -22516,9 +22498,7 @@ be
 pinged
 once
 every
-|
 ping_interval_ms
-|
 milliseconds
 .
 ASSERT_TRUE_WAIT
@@ -25151,9 +25131,7 @@ Return
 true
 if
 the
-|
 pair
-|
 matches
 the
 last
@@ -27682,9 +27660,7 @@ the
 remote
 candidate
 of
-|
 conn1
-|
 making
 /
 /
@@ -35492,9 +35468,7 @@ GetIceTransportState
 ;
 /
 /
-|
 conn1
-|
 becomes
 writable
 and
@@ -35504,9 +35478,7 @@ it
 then
 should
 prune
-|
 conn2
-|
 .
 conn1
 -
@@ -35835,9 +35807,7 @@ low
 -
 priority
 connection
-|
 conn2
-|
 which
 will
 be
@@ -35863,9 +35833,7 @@ not
 /
 /
 receiving
-|
 conn2
-|
 will
 start
 to
@@ -35951,9 +35919,7 @@ clock
 ;
 /
 /
-|
 conn2
-|
 should
 not
 send
@@ -35992,9 +35958,7 @@ GetState
 /
 Wait
 for
-|
 conn1
-|
 becoming
 not
 receiving
@@ -36104,15 +36068,11 @@ GetState
 /
 /
 When
-|
 conn1
-|
 comes
 back
 again
-|
 conn2
-|
 will
 be
 pruned
@@ -38732,9 +38692,7 @@ have
 been
 pinged
 before
-|
 max_strong_interval
-|
 so
 it
 may
@@ -38774,9 +38732,7 @@ and
 writable
 .
 After
-|
 MAX_CURRENT_STRONG_INTERVAL
-|
 it
 should
 be
@@ -45596,9 +45552,7 @@ the
 config
 /
 /
-|
 surface_ice_candidates_on_ice_transport_type_changed
-|
 ineffective
 after
 the
