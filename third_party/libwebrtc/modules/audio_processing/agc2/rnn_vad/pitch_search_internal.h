@@ -593,8 +593,9 @@ buffer
 The
 indexes
 of
-yy_values
+y_energy
 are
+inverted
 lags
 .
 void
@@ -618,7 +619,7 @@ ArrayView
 float
 kRefineNumLags24kHz
 >
-yy_values
+y_energy
 )
 ;
 /
