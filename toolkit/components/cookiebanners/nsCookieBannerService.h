@@ -370,10 +370,16 @@ GetRuleForURI
 nsIURI
 *
 aURI
+bool
+aIsTopLevel
 nsICookieBannerRule
 *
 *
 aRule
+bool
+aReportTelemetry
+=
+false
 )
 ;
 void
