@@ -1226,7 +1226,7 @@ been
 created
 .
 void
-EnsureWidget
+PrepareWidget
 (
 bool
 aRecreate
