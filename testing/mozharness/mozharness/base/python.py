@@ -5689,9 +5689,11 @@ register_virtualenv_module
 mozsystemmonitor
 =
 =
+1
+.
 0
 .
-4
+1
 "
 method
 =
