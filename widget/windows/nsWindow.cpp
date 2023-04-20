@@ -24937,15 +24937,6 @@ cyBottomHeight
 kGlassMarginAdjustment
 ;
 }
-[
-[
-fallthrough
-]
-]
-;
-case
-eTransparencyGlass
-:
 policy
 =
 DWMNCRP_ENABLED

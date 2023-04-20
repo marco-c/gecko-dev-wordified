@@ -37508,15 +37508,6 @@ appearance
 StyleAppearance
 :
 :
-MozWinGlass
-&
-&
-appearance
-!
-=
-StyleAppearance
-:
-:
 MozWinBorderlessGlass
 )
 {

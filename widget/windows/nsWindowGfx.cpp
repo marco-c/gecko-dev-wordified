@@ -2746,9 +2746,6 @@ mTransparencyMode
 )
 {
 case
-eTransparencyGlass
-:
-case
 eTransparencyBorderlessGlass
 :
 default
