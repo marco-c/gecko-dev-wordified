@@ -1382,7 +1382,7 @@ Telemetry
 ;
 this
 .
-descriptorFront
+_descriptorFront
 =
 descriptorFront
 ;
@@ -4757,7 +4757,7 @@ isTopLevel
 &
 this
 .
-descriptorFront
+_descriptorFront
 .
 isLocalTab
 )
@@ -5330,7 +5330,7 @@ createCommandsDictionary
 (
 this
 .
-descriptorFront
+_descriptorFront
 )
 ;
 this
@@ -8549,7 +8549,7 @@ descriptorType
 :
 this
 .
-descriptorFront
+_descriptorFront
 .
 descriptorType
 }
@@ -11461,7 +11461,7 @@ if
 !
 this
 .
-descriptorFront
+_descriptorFront
 .
 isLocalTab
 )
@@ -11860,7 +11860,7 @@ isBrowserToolbox
 |
 this
 .
-descriptorFront
+_descriptorFront
 .
 isWebExtensionDescriptor
 )
@@ -11972,7 +11972,7 @@ if
 (
 this
 .
-descriptorFront
+_descriptorFront
 .
 isWebExtensionDescriptor
 &
@@ -20890,7 +20890,7 @@ isBrowserToolbox
 |
 this
 .
-descriptorFront
+_descriptorFront
 .
 isWebExtensionDescriptor
 )
@@ -21000,7 +21000,7 @@ addonId
 =
 this
 .
-descriptorFront
+_descriptorFront
 .
 id
 ;
@@ -21035,7 +21035,7 @@ isBrowserToolbox
 !
 this
 .
-descriptorFront
+_descriptorFront
 .
 isWebExtensionDescriptor
 )
@@ -22661,7 +22661,7 @@ hostType
 !
 this
 .
-descriptorFront
+_descriptorFront
 .
 isLocalTab
 )
@@ -26522,7 +26522,7 @@ destroy
 return
 this
 .
-descriptorFront
+_descriptorFront
 .
 destroy
 (
@@ -26597,7 +26597,7 @@ clear
 ;
 this
 .
-descriptorFront
+_descriptorFront
 =
 null
 ;
@@ -29311,7 +29311,7 @@ PAGE
 |
 this
 .
-descriptorFront
+_descriptorFront
 .
 isWebExtensionDescriptor
 )

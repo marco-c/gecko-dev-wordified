@@ -5905,6 +5905,8 @@ t
 >
 t
 .
+commands
+.
 descriptorFront
 .
 localTab

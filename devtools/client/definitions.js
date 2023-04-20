@@ -3036,6 +3036,8 @@ localTab
 =
 toolbox
 .
+commands
+.
 descriptorFront
 ;
 const
@@ -3074,6 +3076,8 @@ localTab
 }
 =
 toolbox
+.
+commands
 .
 descriptorFront
 ;
