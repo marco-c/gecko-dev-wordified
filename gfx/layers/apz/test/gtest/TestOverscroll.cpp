@@ -10511,15 +10511,6 @@ PanGestureInput
 :
 :
 PANGESTURE_START
-MillisecondsSinceStartup
-(
-mcc
--
->
-Time
-(
-)
-)
 mcc
 -
 >

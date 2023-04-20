@@ -726,8 +726,6 @@ DispatchSynthesizedMouseEvent
 (
 EventMessage
 aMsg
-uint64_t
-aTime
 const
 LayoutDevicePoint
 &

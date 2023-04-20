@@ -39813,14 +39813,6 @@ refpoint
 viewAPD
 )
 ;
-event
-.
-mTime
-=
-PR_IntervalNow
-(
-)
-;
 /
 /
 XXX

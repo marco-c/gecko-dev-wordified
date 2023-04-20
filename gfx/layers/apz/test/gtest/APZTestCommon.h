@@ -607,10 +607,6 @@ PinchGestureInput
 :
 :
 UNKNOWN
-MillisecondsSinceStartup
-(
-timestamp
-)
 timestamp
 ExternalPoint
 (

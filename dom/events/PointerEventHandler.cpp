@@ -3477,14 +3477,6 @@ twist
 ;
 aPointerEvent
 .
-mTime
-=
-aTouchEvent
-.
-mTime
-;
-aPointerEvent
-.
 mTimeStamp
 =
 aTouchEvent

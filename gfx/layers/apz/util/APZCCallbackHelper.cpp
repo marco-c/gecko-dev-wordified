@@ -4103,8 +4103,6 @@ DispatchSynthesizedMouseEvent
 (
 EventMessage
 aMsg
-uint64_t
-aTime
 const
 LayoutDevicePoint
 &
@@ -4176,12 +4174,6 @@ aRefPoint
 .
 y
 )
-;
-event
-.
-mTime
-=
-aTime
 ;
 event
 .
@@ -4442,15 +4434,9 @@ c_str
 )
 )
 ;
-int
-time
-=
-0
-;
 DispatchSynthesizedMouseEvent
 (
 eMouseMove
-time
 aPoint
 aModifiers
 aClickCount
@@ -4460,7 +4446,6 @@ aWidget
 DispatchSynthesizedMouseEvent
 (
 eMouseDown
-time
 aPoint
 aModifiers
 aClickCount
@@ -4470,7 +4455,6 @@ aWidget
 DispatchSynthesizedMouseEvent
 (
 eMouseUp
-time
 aPoint
 aModifiers
 aClickCount

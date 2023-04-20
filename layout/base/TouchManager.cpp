@@ -552,14 +552,6 @@ widget
 ;
 event
 .
-mTime
-=
-PR_IntervalNow
-(
-)
-;
-event
-.
 mTouches
 .
 AppendElement

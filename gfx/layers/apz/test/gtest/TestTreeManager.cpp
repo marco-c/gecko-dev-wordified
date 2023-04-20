@@ -1967,15 +1967,6 @@ origin
 ScrollWheelInput
 swi
 (
-MillisecondsSinceStartup
-(
-mcc
--
->
-Time
-(
-)
-)
 mcc
 -
 >

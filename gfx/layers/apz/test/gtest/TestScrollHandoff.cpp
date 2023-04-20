@@ -5736,15 +5736,6 @@ PRIMARY_BUTTON
 0
 0
 scrollableLocation
-MillisecondsSinceStartup
-(
-mcc
--
->
-Time
-(
-)
-)
 mcc
 -
 >

@@ -2893,7 +2893,6 @@ aVScroll
 ScrollWheelInput
 input
 (
-aTime
 nsWindow
 :
 :
@@ -3962,7 +3961,6 @@ ConvertButtons
 buttons
 )
 origin
-aTime
 nsWindow
 :
 :
@@ -16090,16 +16088,6 @@ LayoutDeviceIntPoint
 )
 ;
 }
-event
-.
-mTime
-=
-PR_Now
-(
-)
-/
-1000
-;
 }
 void
 nsWindow

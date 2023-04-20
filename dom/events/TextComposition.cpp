@@ -1486,15 +1486,6 @@ mWidget
 ;
 compositionEvent
 .
-mTime
-=
-aCompositionEvent
--
->
-mTime
-;
-compositionEvent
-.
 mTimeStamp
 =
 aCompositionEvent

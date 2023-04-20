@@ -3053,9 +3053,6 @@ mSynthesizedTouchInput
 get
 (
 )
-PR_IntervalNow
-(
-)
 TimeStamp
 :
 :
@@ -3253,9 +3250,6 @@ PinchGestureInput
 :
 :
 TRACKPAD
-PR_IntervalNow
-(
-)
 TimeStamp
 :
 :
@@ -3459,9 +3453,6 @@ PanGestureInput
 input
 (
 eventType
-PR_IntervalNow
-(
-)
 TimeStamp
 :
 :

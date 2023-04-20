@@ -1277,14 +1277,6 @@ const
 {
 aEvent
 .
-mTime
-=
-PR_IntervalNow
-(
-)
-;
-aEvent
-.
 mRefPoint
 =
 LayoutDeviceIntPoint

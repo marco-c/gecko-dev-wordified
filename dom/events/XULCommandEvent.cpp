@@ -191,15 +191,6 @@ mEventIsInternal
 =
 true
 ;
-mEvent
--
->
-mTime
-=
-PR_Now
-(
-)
-;
 }
 }
 NS_IMPL_ADDREF_INHERITED

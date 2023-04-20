@@ -212,15 +212,6 @@ mEventIsInternal
 =
 true
 ;
-mEvent
--
->
-mTime
-=
-PR_Now
-(
-)
-;
 /
 /
 XXX
