@@ -2525,6 +2525,13 @@ fn
 "
 restore
 "
+&
+&
+this
+.
+indentLevel
+>
+0
 )
 {
 this
