@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -134,6 +152,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -171,6 +195,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -180,6 +208,8 @@ shared
 components
 /
 AppErrorBoundary
+.
+js
 "
 )
 )
@@ -205,6 +235,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -216,6 +250,8 @@ src
 components
 /
 MonitorPanel
+.
+js
 "
 )
 )
@@ -241,6 +277,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -252,6 +292,8 @@ src
 components
 /
 StatisticsPanel
+.
+js
 "
 )
 )
@@ -277,6 +319,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -288,6 +334,8 @@ src
 components
 /
 DropHarHandler
+.
+js
 "
 )
 )
@@ -335,11 +383,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

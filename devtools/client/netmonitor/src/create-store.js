@@ -70,6 +70,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ waitUntilService
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +127,10 @@ DEFAULT_COLUMN_WIDTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +140,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -138,6 +154,10 @@ batching
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +169,8 @@ src
 middleware
 /
 batching
+.
+js
 "
 )
 ;
@@ -158,6 +180,10 @@ prefs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +195,8 @@ src
 middleware
 /
 prefs
+.
+js
 "
 )
 ;
@@ -180,6 +208,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +223,8 @@ redux
 middleware
 /
 thunk
+.
+js
 "
 )
 ;
@@ -200,6 +234,10 @@ throttling
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +249,8 @@ src
 middleware
 /
 throttling
+.
+js
 "
 )
 ;
@@ -220,6 +260,10 @@ eventTelemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +277,8 @@ middleware
 event
 -
 telemetry
+.
+js
 "
 )
 ;
@@ -242,6 +288,10 @@ requestBlocking
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -255,6 +305,8 @@ middleware
 request
 -
 blocking
+.
+js
 "
 )
 ;
@@ -267,6 +319,10 @@ rootReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -278,6 +334,8 @@ src
 reducers
 /
 index
+.
+js
 "
 )
 ;
@@ -290,6 +348,10 @@ Filters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -301,6 +363,8 @@ src
 reducers
 /
 filters
+.
+js
 "
 )
 ;
@@ -312,6 +376,10 @@ Requests
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -323,6 +391,8 @@ src
 reducers
 /
 requests
+.
+js
 "
 )
 ;
@@ -334,6 +404,10 @@ Sort
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -345,6 +419,8 @@ src
 reducers
 /
 sort
+.
+js
 "
 )
 ;
@@ -356,6 +432,10 @@ TimingMarkers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -369,6 +449,8 @@ reducers
 timing
 -
 markers
+.
+js
 "
 )
 ;
@@ -382,6 +464,10 @@ ColumnsData
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -393,6 +479,8 @@ src
 reducers
 /
 ui
+.
+js
 "
 )
 ;
@@ -405,6 +493,10 @@ getMessageDefaultColumnsState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -416,6 +508,8 @@ src
 reducers
 /
 messages
+.
+js
 "
 )
 ;
@@ -427,6 +521,10 @@ Search
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -438,6 +536,8 @@ src
 reducers
 /
 search
+.
+js
 "
 )
 ;

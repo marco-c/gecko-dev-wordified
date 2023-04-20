@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -135,6 +153,10 @@ propertiesEqual
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +170,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -160,6 +184,10 @@ RESPONSE_HEADERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -216,6 +246,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -231,6 +265,8 @@ request
 list
 /
 RequestListColumnInitiator
+.
+js
 "
 )
 )
@@ -256,6 +292,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -271,6 +311,8 @@ request
 list
 /
 RequestListColumnContentSize
+.
+js
 "
 )
 )
@@ -296,6 +338,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -311,6 +357,8 @@ request
 list
 /
 RequestListColumnCookies
+.
+js
 "
 )
 )
@@ -336,6 +384,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -351,6 +403,8 @@ request
 list
 /
 RequestListColumnDomain
+.
+js
 "
 )
 )
@@ -376,6 +430,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -391,6 +449,8 @@ request
 list
 /
 RequestListColumnFile
+.
+js
 "
 )
 )
@@ -416,6 +476,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -431,6 +495,8 @@ request
 list
 /
 RequestListColumnUrl
+.
+js
 "
 )
 )
@@ -456,6 +522,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -471,6 +541,8 @@ request
 list
 /
 RequestListColumnMethod
+.
+js
 "
 )
 )
@@ -496,6 +568,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -511,6 +587,8 @@ request
 list
 /
 RequestListColumnProtocol
+.
+js
 "
 )
 )
@@ -536,6 +614,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -551,6 +633,8 @@ request
 list
 /
 RequestListColumnRemoteIP
+.
+js
 "
 )
 )
@@ -576,6 +660,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -591,6 +679,8 @@ request
 list
 /
 RequestListColumnResponseHeader
+.
+js
 "
 )
 )
@@ -616,6 +706,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -631,6 +725,8 @@ request
 list
 /
 RequestListColumnTime
+.
+js
 "
 )
 )
@@ -656,6 +752,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -671,6 +771,8 @@ request
 list
 /
 RequestListColumnScheme
+.
+js
 "
 )
 )
@@ -696,6 +798,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -711,6 +817,8 @@ request
 list
 /
 RequestListColumnSetCookies
+.
+js
 "
 )
 )
@@ -736,6 +844,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -751,6 +863,8 @@ request
 list
 /
 RequestListColumnStatus
+.
+js
 "
 )
 )
@@ -776,6 +890,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -791,6 +909,8 @@ request
 list
 /
 RequestListColumnTransferredSize
+.
+js
 "
 )
 )
@@ -816,6 +936,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -831,6 +955,8 @@ request
 list
 /
 RequestListColumnType
+.
+js
 "
 )
 )
@@ -856,6 +982,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -871,6 +1001,8 @@ request
 list
 /
 RequestListColumnWaterfall
+.
+js
 "
 )
 )
@@ -896,6 +1028,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -911,6 +1047,8 @@ request
 list
 /
 RequestListColumnPriority
+.
+js
 "
 )
 )

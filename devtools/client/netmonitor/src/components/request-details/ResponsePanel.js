@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -134,6 +152,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +167,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -158,6 +182,10 @@ parseJSON
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -171,6 +199,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -182,6 +212,10 @@ getCORSErrorURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -195,6 +229,8 @@ utils
 doc
 -
 utils
+.
+js
 "
 )
 ;
@@ -206,6 +242,10 @@ Filters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -219,6 +259,8 @@ utils
 filter
 -
 predicates
+.
+js
 "
 )
 ;
@@ -230,6 +272,10 @@ FILTER_SEARCH_DELAY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -239,6 +285,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -250,6 +298,10 @@ BLOCKED_REASON_MESSAGES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -259,6 +311,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -273,6 +327,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -288,6 +346,8 @@ request
 details
 /
 PropertiesView
+.
+js
 "
 )
 )
@@ -300,6 +360,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -313,6 +377,8 @@ components
 previews
 /
 ImagePreview
+.
+js
 "
 )
 )
@@ -325,6 +391,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -338,6 +408,8 @@ components
 previews
 /
 FontPreview
+.
+js
 "
 )
 )
@@ -350,6 +422,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -363,6 +439,8 @@ components
 previews
 /
 SourcePreview
+.
+js
 "
 )
 )
@@ -375,6 +453,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -388,6 +470,8 @@ components
 previews
 /
 HtmlPreview
+.
+js
 "
 )
 )
@@ -401,6 +485,10 @@ PriorityLevels
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -410,6 +498,8 @@ shared
 components
 /
 NotificationBox
+.
+js
 "
 )
 ;
@@ -428,6 +518,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -441,6 +535,8 @@ components
 messages
 /
 MessagesView
+.
+js
 "
 )
 )
@@ -453,6 +549,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -462,6 +562,8 @@ shared
 components
 /
 SearchBox
+.
+js
 "
 )
 )
@@ -482,6 +584,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -493,6 +599,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .

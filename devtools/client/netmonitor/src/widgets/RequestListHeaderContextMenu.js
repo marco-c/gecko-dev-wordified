@@ -69,6 +69,10 @@ showMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ components
 menu
 /
 utils
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ HEADERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ getVisibleColumns
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +166,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;

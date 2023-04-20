@@ -67,6 +67,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +78,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ bindActionCreators
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +104,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -105,6 +117,10 @@ Connector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +132,8 @@ src
 connector
 /
 index
+.
+js
 "
 )
 ;
@@ -127,6 +145,10 @@ configureStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +160,8 @@ src
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -149,6 +173,10 @@ EVENTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +186,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -167,6 +197,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +212,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -190,6 +226,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +237,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -209,6 +251,10 @@ getSortedRequests
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -220,6 +266,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -608,6 +656,10 @@ HarExporter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -621,6 +673,8 @@ har
 har
 -
 exporter
+.
+js
 "
 )
 ;
@@ -715,6 +769,10 @@ HarExporter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -728,6 +786,8 @@ har
 har
 -
 exporter
+.
+js
 "
 )
 ;

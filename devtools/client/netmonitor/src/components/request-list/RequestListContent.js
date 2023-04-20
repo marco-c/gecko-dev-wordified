@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -134,6 +152,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -158,6 +182,10 @@ HTMLTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 )
 ;
@@ -178,6 +208,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +223,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -200,6 +236,10 @@ formDataURI
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +253,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -227,6 +269,10 @@ getClickedRequest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -238,6 +284,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -289,6 +337,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -300,6 +352,8 @@ widgets
 tooltip
 /
 ImageTooltipHelper
+.
+js
 "
 )
 .
@@ -324,6 +378,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -335,6 +393,8 @@ widgets
 tooltip
 /
 ImageTooltipHelper
+.
+js
 "
 )
 .
@@ -354,6 +414,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -369,6 +433,8 @@ request
 list
 /
 RequestListHeader
+.
+js
 "
 )
 )
@@ -381,6 +447,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -396,6 +466,8 @@ request
 list
 /
 RequestListItem
+.
+js
 "
 )
 )
@@ -406,6 +478,10 @@ RequestListContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -417,6 +493,8 @@ src
 widgets
 /
 RequestListContextMenu
+.
+js
 "
 )
 ;

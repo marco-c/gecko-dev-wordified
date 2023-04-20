@@ -69,6 +69,10 @@ SORT_BY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

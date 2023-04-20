@@ -74,6 +74,10 @@ ipToLong
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -98,6 +104,10 @@ RESPONSE_HEADERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +117,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -118,6 +130,10 @@ getUrlBaseName
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +147,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;

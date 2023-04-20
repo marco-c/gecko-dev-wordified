@@ -88,6 +88,10 @@ SET_HEADERS_URL_PREVIEW_EXPANDED
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +101,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

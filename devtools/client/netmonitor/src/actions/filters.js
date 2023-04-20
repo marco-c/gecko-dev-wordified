@@ -71,6 +71,10 @@ SET_REQUEST_FILTER_TEXT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

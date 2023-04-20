@@ -71,6 +71,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +140,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -135,6 +153,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +170,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -161,6 +185,10 @@ removeThemeObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +196,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;
@@ -177,6 +207,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +222,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -202,6 +238,10 @@ DEFAULT_COLUMN_WIDTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +251,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -223,6 +265,10 @@ getWaterfallScale
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -234,6 +280,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -245,6 +293,10 @@ getFormattedTime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -258,6 +310,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;
@@ -269,6 +323,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -280,6 +338,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -289,6 +349,10 @@ RequestListHeaderContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -300,6 +364,8 @@ src
 widgets
 /
 RequestListHeaderContextMenu
+.
+js
 "
 )
 ;
@@ -309,6 +375,10 @@ WaterfallBackground
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -320,6 +390,8 @@ src
 widgets
 /
 WaterfallBackground
+.
+js
 "
 )
 ;
@@ -331,6 +403,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -342,6 +418,8 @@ components
 splitter
 /
 Draggable
+.
+js
 "
 )
 )

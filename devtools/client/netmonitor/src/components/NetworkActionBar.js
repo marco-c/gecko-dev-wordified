@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -114,6 +126,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +143,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -138,6 +156,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +171,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -158,6 +182,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -180,6 +210,10 @@ PANELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +223,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -198,6 +234,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +251,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -222,6 +264,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +279,8 @@ components
 tabs
 /
 TabBar
+.
+js
 "
 )
 )
@@ -245,6 +293,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -256,6 +308,8 @@ components
 tabs
 /
 Tabs
+.
+js
 "
 )
 .
@@ -280,6 +334,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -293,6 +351,8 @@ components
 search
 /
 SearchPanel
+.
+js
 "
 )
 )
@@ -318,6 +378,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -333,6 +397,8 @@ request
 blocking
 /
 RequestBlockingPanel
+.
+js
 "
 )
 )
@@ -358,6 +424,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -373,6 +443,8 @@ new
 request
 /
 HTTPCustomRequestPanel
+.
+js
 "
 )
 )

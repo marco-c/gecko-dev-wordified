@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ getFormattedSize
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;
@@ -157,6 +181,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +196,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -179,6 +209,10 @@ propertiesEqual
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +226,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -203,6 +239,10 @@ BLOCKED_REASON_MESSAGES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -212,6 +252,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

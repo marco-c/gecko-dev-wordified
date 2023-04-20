@@ -82,6 +82,10 @@ TEST_EVENTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +95,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -102,6 +108,10 @@ CurlUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +119,8 @@ client
 shared
 /
 curl
+.
+js
 "
 )
 ;
@@ -120,6 +132,10 @@ fetchHeaders
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +149,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -144,6 +162,10 @@ getLongStringFullText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +175,8 @@ shared
 string
 -
 utils
+.
+js
 "
 )
 ;

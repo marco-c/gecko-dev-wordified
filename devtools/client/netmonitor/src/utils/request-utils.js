@@ -71,6 +71,10 @@ getUnicodeHostname
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ UPDATE_PROPS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

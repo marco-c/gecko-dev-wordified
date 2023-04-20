@@ -69,6 +69,10 @@ createSelector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 reselect
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ REQUESTS_WATERFALL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

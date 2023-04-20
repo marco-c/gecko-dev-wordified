@@ -79,6 +79,10 @@ PANELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +92,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -102,6 +108,10 @@ getRequestById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +123,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -124,6 +136,10 @@ selectRequest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +151,8 @@ src
 actions
 /
 selection
+.
+js
 "
 )
 ;
@@ -146,6 +164,10 @@ selectDetailsPanelTab
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +179,8 @@ src
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -168,6 +192,10 @@ fetchNetworkUpdatePacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +209,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -192,6 +222,10 @@ searchInResource
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +239,8 @@ workers
 search
 /
 index
+.
+js
 "
 )
 ;

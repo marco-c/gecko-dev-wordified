@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ getUrlBaseName
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +140,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;

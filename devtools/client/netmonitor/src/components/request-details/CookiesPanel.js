@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -134,6 +152,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +167,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -156,6 +180,10 @@ fetchNetworkUpdatePacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +197,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -180,6 +210,10 @@ sortObjectKeys
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -193,6 +227,8 @@ utils
 sort
 -
 utils
+.
+js
 "
 )
 ;
@@ -204,6 +240,10 @@ FILTER_SEARCH_DELAY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +253,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -227,6 +269,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -242,6 +288,8 @@ request
 details
 /
 PropertiesView
+.
+js
 "
 )
 )
@@ -254,6 +302,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -263,6 +315,8 @@ shared
 components
 /
 SearchBox
+.
+js
 "
 )
 )
@@ -275,6 +329,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -284,6 +342,8 @@ shared
 components
 /
 Accordion
+.
+js
 "
 )
 )
@@ -306,6 +366,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -317,6 +381,8 @@ components
 tree
 /
 TreeRow
+.
+js
 "
 )
 )

@@ -69,6 +69,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +140,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -157,6 +181,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +196,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -179,6 +209,10 @@ getNetMonitorTimingsURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +226,8 @@ utils
 doc
 -
 utils
+.
+js
 "
 )
 ;
@@ -203,6 +239,10 @@ fetchNetworkUpdatePacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -216,6 +256,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -227,6 +269,10 @@ getFormattedTime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -240,6 +286,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;
@@ -251,6 +299,10 @@ TIMING_KEYS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -260,6 +312,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -272,6 +326,10 @@ MDNLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -281,6 +339,8 @@ shared
 components
 /
 MdnLink
+.
+js
 "
 )
 ;

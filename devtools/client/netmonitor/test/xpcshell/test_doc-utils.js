@@ -170,6 +170,10 @@ getFilterBoxURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +187,8 @@ utils
 doc
 -
 utils
+.
+js
 "
 )
 ;

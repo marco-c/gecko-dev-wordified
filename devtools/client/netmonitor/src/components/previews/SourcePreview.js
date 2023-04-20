@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +140,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -155,6 +179,10 @@ Editor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +192,8 @@ shared
 sourceeditor
 /
 editor
+.
+js
 "
 )
 ;
@@ -175,6 +205,10 @@ setTargetSearchResult
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +220,8 @@ src
 actions
 /
 search
+.
+js
 "
 )
 ;

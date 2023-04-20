@@ -76,6 +76,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;

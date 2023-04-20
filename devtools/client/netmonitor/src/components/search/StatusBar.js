@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -159,6 +183,10 @@ getSearchResourceCount
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +211,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -190,6 +222,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -201,6 +235,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +271,10 @@ SEARCH_STATUS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -242,6 +284,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

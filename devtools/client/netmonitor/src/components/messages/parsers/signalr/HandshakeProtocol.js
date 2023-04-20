@@ -99,6 +99,10 @@ TextMessageFormat
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +120,8 @@ parsers
 signalr
 /
 TextMessageFormat
+.
+js
 "
 )
 ;
@@ -125,6 +131,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -142,6 +152,8 @@ parsers
 signalr
 /
 Utils
+.
+js
 "
 )
 ;

@@ -82,6 +82,10 @@ OPEN_ACTION_BAR
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +95,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -102,6 +108,10 @@ getDisplayedRequests
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +123,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;

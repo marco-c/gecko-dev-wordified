@@ -70,6 +70,10 @@ RESET_COLUMNS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

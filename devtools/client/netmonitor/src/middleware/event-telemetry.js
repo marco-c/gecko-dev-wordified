@@ -75,6 +75,10 @@ MSG_SELECT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ CHANGE_NETWORK_THROTTLING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +116,8 @@ components
 throttling
 /
 actions
+.
+js
 "
 )
 ;

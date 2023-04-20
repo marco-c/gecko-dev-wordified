@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ asyncStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;
@@ -104,6 +116,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +133,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -126,6 +144,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +161,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -150,6 +174,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -163,6 +191,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -174,6 +204,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +219,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -194,6 +230,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +245,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -216,6 +258,10 @@ getClickedRequest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -227,6 +273,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -239,6 +287,10 @@ parseQueryString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -252,6 +304,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -263,6 +317,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -278,6 +336,8 @@ new
 request
 /
 InputMap
+.
+js
 "
 )
 )

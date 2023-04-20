@@ -70,6 +70,10 @@ CLEAR_TIMING_MARKERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

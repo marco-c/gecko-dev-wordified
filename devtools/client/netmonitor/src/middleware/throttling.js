@@ -69,6 +69,10 @@ CHANGE_NETWORK_THROTTLING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ components
 throttling
 /
 actions
+.
+js
 "
 )
 ;

@@ -71,6 +71,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -119,6 +131,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +146,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -141,6 +159,10 @@ PANELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +172,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -159,6 +183,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -172,6 +200,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -183,6 +213,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +230,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -205,6 +241,10 @@ TreeViewClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -216,6 +256,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 ;
@@ -235,6 +277,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -246,6 +292,8 @@ components
 tree
 /
 LabelCell
+.
+js
 "
 )
 )
@@ -258,6 +306,10 @@ SearchProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -273,6 +325,8 @@ search
 search
 -
 provider
+.
+js
 "
 )
 ;
@@ -284,6 +338,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -297,6 +355,8 @@ components
 search
 /
 Toolbar
+.
+js
 "
 )
 )
@@ -309,6 +369,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -322,6 +386,8 @@ components
 search
 /
 StatusBar
+.
+js
 "
 )
 )
@@ -334,6 +400,10 @@ limitTooltipLength
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -345,6 +415,8 @@ src
 utils
 /
 tooltips
+.
+js
 "
 )
 ;

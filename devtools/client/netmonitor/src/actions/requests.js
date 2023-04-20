@@ -78,6 +78,10 @@ UPDATE_REQUEST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -100,6 +106,10 @@ getRecordingState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +121,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -122,6 +134,10 @@ fetchNetworkUpdatePacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +151,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;

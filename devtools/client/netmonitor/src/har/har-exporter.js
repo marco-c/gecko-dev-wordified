@@ -67,11 +67,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -81,6 +87,10 @@ JSZip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +100,8 @@ shared
 vendor
 /
 jszip
+.
+js
 "
 )
 ;
@@ -99,6 +111,10 @@ clipboardHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -106,6 +122,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;
@@ -117,6 +135,10 @@ HarUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +152,8 @@ har
 har
 -
 utils
+.
+js
 "
 )
 ;
@@ -141,6 +165,10 @@ HarBuilder
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -154,6 +182,8 @@ har
 har
 -
 builder
+.
+js
 "
 )
 ;

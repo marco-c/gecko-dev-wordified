@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -111,6 +123,10 @@ MESSAGE_HEADERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +149,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +175,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +192,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -179,6 +205,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +222,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -201,6 +233,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -226,6 +262,10 @@ MessageListHeaderContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

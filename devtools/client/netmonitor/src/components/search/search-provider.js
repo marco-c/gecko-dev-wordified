@@ -69,6 +69,10 @@ ObjectProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ components
 tree
 /
 ObjectProvider
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ getFileName
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +114,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;

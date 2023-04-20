@@ -119,6 +119,10 @@ Emitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +155,10 @@ binary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +189,10 @@ isBuf
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

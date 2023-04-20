@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -121,6 +133,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +150,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -145,6 +163,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +180,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -169,6 +193,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -195,6 +223,10 @@ parseJSON
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -221,6 +253,10 @@ getFormattedSize
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -277,6 +313,10 @@ SocketIODecoder
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -310,6 +350,10 @@ HandshakeProtocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -340,6 +384,10 @@ parseSockJS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -370,6 +418,10 @@ parseStompJs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -400,6 +452,10 @@ wampSerializers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -430,6 +486,10 @@ getRequestByChannelId
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -441,6 +501,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -455,6 +517,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -468,6 +534,8 @@ components
 messages
 /
 RawData
+.
+js
 "
 )
 )
@@ -490,6 +558,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -505,6 +577,8 @@ request
 details
 /
 PropertiesView
+.
+js
 "
 )
 )

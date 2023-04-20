@@ -96,6 +96,10 @@ IHubProtocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +117,8 @@ parsers
 signalr
 /
 IHubProtocol
+.
+js
 "
 )
 ;
@@ -122,6 +128,10 @@ TextMessageFormat
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +149,8 @@ parsers
 signalr
 /
 TextMessageFormat
+.
+js
 "
 )
 ;

@@ -76,6 +76,10 @@ SET_TARGET_SEARCH_RESULT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +89,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

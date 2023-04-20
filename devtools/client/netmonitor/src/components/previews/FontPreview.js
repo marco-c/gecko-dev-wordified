@@ -69,6 +69,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +106,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -105,6 +117,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +134,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -129,6 +147,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +162,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -152,6 +176,10 @@ img
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +193,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -176,6 +206,10 @@ getColor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +217,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;

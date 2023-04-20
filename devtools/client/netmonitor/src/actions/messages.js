@@ -78,6 +78,10 @@ MSG_CLOSE_CONNECTION
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -98,6 +104,10 @@ getDisplayedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +119,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;

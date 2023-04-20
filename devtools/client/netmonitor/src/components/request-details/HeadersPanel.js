@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -132,6 +150,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +167,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -154,6 +178,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +195,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -180,6 +210,10 @@ getRequestPriorityAsText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -193,6 +227,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;
@@ -204,6 +240,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -215,6 +255,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -228,6 +270,10 @@ getHTTPStatusCodeURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -241,6 +287,8 @@ utils
 doc
 -
 utils
+.
+js
 "
 )
 ;
@@ -254,6 +302,10 @@ getRequestHeadersRawText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -267,6 +319,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -279,6 +333,10 @@ HeaderList
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -292,6 +350,8 @@ utils
 headers
 -
 provider
+.
+js
 "
 )
 ;
@@ -303,6 +363,10 @@ FILTER_SEARCH_DELAY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -312,6 +376,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -326,6 +392,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -341,6 +411,8 @@ request
 details
 /
 PropertiesView
+.
+js
 "
 )
 )
@@ -353,6 +425,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -362,6 +438,8 @@ shared
 components
 /
 SearchBox
+.
+js
 "
 )
 )
@@ -374,6 +452,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -383,6 +465,8 @@ shared
 components
 /
 Accordion
+.
+js
 "
 )
 )
@@ -395,6 +479,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -408,6 +496,8 @@ components
 previews
 /
 UrlPreview
+.
+js
 "
 )
 )
@@ -418,6 +508,10 @@ HeadersPanelContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -429,6 +523,8 @@ src
 widgets
 /
 HeadersPanelContextMenu
+.
+js
 "
 )
 ;
@@ -440,6 +536,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -451,6 +551,8 @@ src
 components
 /
 StatusCode
+.
+js
 "
 )
 )
@@ -473,6 +575,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -482,6 +588,8 @@ shared
 components
 /
 MdnLink
+.
+js
 "
 )
 )
@@ -505,6 +613,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -516,6 +628,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -542,6 +656,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -553,6 +671,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -579,6 +699,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -590,6 +714,8 @@ components
 tree
 /
 TreeRow
+.
+js
 "
 )
 )

@@ -67,6 +67,10 @@ frameModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +101,10 @@ Parser
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +135,10 @@ parseJSON
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

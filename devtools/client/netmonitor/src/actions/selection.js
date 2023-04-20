@@ -69,6 +69,10 @@ SELECT_REQUEST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ getSortedRequests
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;

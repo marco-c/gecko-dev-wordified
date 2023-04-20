@@ -38,6 +38,10 @@ asyncStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -45,6 +49,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;

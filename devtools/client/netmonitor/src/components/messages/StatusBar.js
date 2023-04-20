@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -157,6 +181,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -164,6 +192,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -175,6 +205,10 @@ getDisplayedMessagesSummary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +234,10 @@ getFormattedTime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -226,6 +264,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -250,6 +292,10 @@ propertiesEqual
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -276,6 +322,10 @@ CHANNEL_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -285,6 +335,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

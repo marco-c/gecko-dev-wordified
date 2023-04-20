@@ -67,6 +67,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ FILTER_TAGS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +135,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -128,6 +146,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +163,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -150,6 +174,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -163,6 +191,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -174,6 +204,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +221,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -198,6 +234,10 @@ Chart
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +247,8 @@ shared
 widgets
 /
 Chart
+.
+js
 "
 )
 ;
@@ -218,6 +260,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -225,6 +271,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -234,6 +282,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -245,6 +297,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -256,6 +310,10 @@ Filters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -269,6 +327,8 @@ utils
 filter
 -
 predicates
+.
+js
 "
 )
 ;
@@ -281,6 +341,10 @@ getTimeWithDecimals
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -294,6 +358,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;
@@ -305,6 +371,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -316,6 +386,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -327,6 +399,10 @@ getPerformanceAnalysisURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -340,6 +416,8 @@ utils
 doc
 -
 utils
+.
+js
 "
 )
 ;
@@ -351,6 +429,10 @@ fetchNetworkUpdatePacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -364,6 +446,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -378,6 +462,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -387,6 +475,8 @@ shared
 components
 /
 MdnLink
+.
+js
 "
 )
 )

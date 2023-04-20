@@ -69,6 +69,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -137,6 +141,10 @@ getMessagePayload
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

@@ -69,6 +69,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +168,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -155,6 +179,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +194,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -177,6 +207,10 @@ getSelectedRequest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +222,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -212,6 +248,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -223,6 +263,8 @@ src
 components
 /
 CustomRequestPanel
+.
+js
 "
 )
 )
@@ -248,6 +290,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -259,6 +305,8 @@ src
 components
 /
 TabboxPanel
+.
+js
 "
 )
 )

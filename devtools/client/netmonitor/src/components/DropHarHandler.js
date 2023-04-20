@@ -69,6 +69,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ findDOMNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -131,6 +149,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +166,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -155,6 +179,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +194,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;

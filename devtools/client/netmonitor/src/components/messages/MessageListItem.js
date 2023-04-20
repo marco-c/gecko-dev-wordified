@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -144,6 +162,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +179,8 @@ components
 messages
 /
 ColumnData
+.
+js
 "
 )
 )
@@ -182,6 +206,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -195,6 +223,8 @@ components
 messages
 /
 ColumnEventName
+.
+js
 "
 )
 )
@@ -220,6 +250,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +267,8 @@ components
 messages
 /
 ColumnFinBit
+.
+js
 "
 )
 )
@@ -258,6 +294,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -271,6 +311,8 @@ components
 messages
 /
 ColumnLastEventId
+.
+js
 "
 )
 )
@@ -296,6 +338,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -309,6 +355,8 @@ components
 messages
 /
 ColumnMaskBit
+.
+js
 "
 )
 )
@@ -334,6 +382,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -347,6 +399,8 @@ components
 messages
 /
 ColumnOpCode
+.
+js
 "
 )
 )
@@ -372,6 +426,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -385,6 +443,8 @@ components
 messages
 /
 ColumnRetry
+.
+js
 "
 )
 )
@@ -410,6 +470,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -423,6 +487,8 @@ components
 messages
 /
 ColumnSize
+.
+js
 "
 )
 )
@@ -448,6 +514,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -461,6 +531,8 @@ components
 messages
 /
 ColumnTime
+.
+js
 "
 )
 )

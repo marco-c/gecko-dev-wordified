@@ -69,6 +69,10 @@ processNetworkUpdates
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -105,6 +111,10 @@ UPDATE_REQUEST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +124,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

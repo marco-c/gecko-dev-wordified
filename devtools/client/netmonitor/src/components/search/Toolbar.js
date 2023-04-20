@@ -70,6 +70,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -114,6 +126,10 @@ FILTER_SEARCH_DELAY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -132,6 +150,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +167,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -154,6 +178,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +193,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -174,6 +204,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +221,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -198,6 +234,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -234,6 +274,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -243,6 +287,8 @@ shared
 components
 /
 SearchBox
+.
+js
 "
 )
 )

@@ -69,6 +69,10 @@ combineReducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ batchingReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ src
 reducers
 /
 batching
+.
+js
 "
 )
 ;
@@ -107,6 +119,10 @@ requestBlockingReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +136,8 @@ reducers
 request
 -
 blocking
+.
+js
 "
 )
 ;
@@ -131,6 +149,10 @@ requestsReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -142,6 +164,8 @@ src
 reducers
 /
 requests
+.
+js
 "
 )
 ;
@@ -153,6 +177,10 @@ search
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +192,8 @@ src
 reducers
 /
 search
+.
+js
 "
 )
 ;
@@ -175,6 +205,10 @@ sortReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +220,8 @@ src
 reducers
 /
 sort
+.
+js
 "
 )
 ;
@@ -197,6 +233,10 @@ filters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -208,6 +248,8 @@ src
 reducers
 /
 filters
+.
+js
 "
 )
 ;
@@ -219,6 +261,10 @@ timingMarkers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -232,6 +278,8 @@ reducers
 timing
 -
 markers
+.
+js
 "
 )
 ;
@@ -243,6 +291,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -254,6 +306,8 @@ src
 reducers
 /
 ui
+.
+js
 "
 )
 ;
@@ -265,6 +319,10 @@ messages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -276,6 +334,8 @@ src
 reducers
 /
 messages
+.
+js
 "
 )
 ;
@@ -285,6 +345,10 @@ networkThrottling
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -296,6 +360,8 @@ components
 throttling
 /
 reducer
+.
+js
 "
 )
 ;

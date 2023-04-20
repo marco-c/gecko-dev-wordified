@@ -67,6 +67,10 @@ JsonHubProtocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ parsers
 signalr
 /
 JSONHubProtocol
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ HandshakeProtocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +120,8 @@ parsers
 signalr
 /
 HandshakeProtocol
+.
+js
 "
 )
 ;

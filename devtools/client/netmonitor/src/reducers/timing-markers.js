@@ -72,6 +72,10 @@ CLEAR_REQUESTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
