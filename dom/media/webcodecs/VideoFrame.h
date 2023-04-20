@@ -515,14 +515,14 @@ Constructor
 const
 GlobalObject
 &
-global
+aGlobal
 HTMLVideoElement
 &
-videoElement
+aVideoElement
 const
 VideoFrameInit
 &
-init
+aInit
 ErrorResult
 &
 aRv
