@@ -429,6 +429,12 @@ get
 )
 fake_call_
 (
+worker_
+network_
+.
+get
+(
+)
 )
 {
 network_

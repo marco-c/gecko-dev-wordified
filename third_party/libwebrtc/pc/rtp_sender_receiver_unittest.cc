@@ -872,6 +872,8 @@ FakeMediaEngine
 )
 fake_call_
 (
+worker_thread_
+network_thread_
 )
 local_stream_
 (
