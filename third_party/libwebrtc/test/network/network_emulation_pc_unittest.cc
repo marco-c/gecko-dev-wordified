@@ -1254,6 +1254,10 @@ CreateAudioTrack
 audio
 "
 source
+.
+get
+(
+)
 )
 ;
 alice
@@ -2064,6 +2068,10 @@ CreateAudioTrack
 audio
 "
 source
+.
+get
+(
+)
 )
 ;
 alice

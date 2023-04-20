@@ -1081,6 +1081,10 @@ SetStreamSource
 (
 0
 vertex_buffer_
+.
+get
+(
+)
 0
 sizeof
 (
@@ -1095,6 +1099,10 @@ SetTexture
 (
 0
 texture_
+.
+get
+(
+)
 )
 ;
 d3d_device_
