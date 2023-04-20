@@ -1435,19 +1435,6 @@ GECKO_PATH
         
 )
     
-command
-.
-append
-(
-"
--
--
-fetch
--
-hgfingerprint
-"
-)
-    
 if
 run
 [
