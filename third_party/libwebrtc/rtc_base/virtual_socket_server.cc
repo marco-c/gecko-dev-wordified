@@ -4391,7 +4391,7 @@ second
 IPAddress
 default_ip
 =
-GetDefaultRoute
+GetDefaultSourceAddress
 (
 addr
 .
@@ -6512,7 +6512,7 @@ GetLocalAddress
 IPAddress
 default_ip
 =
-GetDefaultRoute
+GetDefaultSourceAddress
 (
 sender_addr
 .
@@ -8310,7 +8310,7 @@ IPAddress
 VirtualSocketServer
 :
 :
-GetDefaultRoute
+GetDefaultSourceAddress
 (
 int
 family
@@ -8325,7 +8325,7 @@ AF_INET
 )
 {
 return
-default_route_v4_
+default_source_address_v4_
 ;
 }
 if
@@ -8337,7 +8337,7 @@ AF_INET6
 )
 {
 return
-default_route_v6_
+default_source_address_v6_
 ;
 }
 return
@@ -8350,7 +8350,7 @@ void
 VirtualSocketServer
 :
 :
-SetDefaultRoute
+SetDefaultSourceAddress
 (
 const
 IPAddress
@@ -8379,7 +8379,7 @@ family
 AF_INET
 )
 {
-default_route_v4_
+default_source_address_v4_
 =
 from_addr
 ;
@@ -8397,7 +8397,7 @@ family
 AF_INET6
 )
 {
-default_route_v6_
+default_source_address_v6_
 =
 from_addr
 ;
