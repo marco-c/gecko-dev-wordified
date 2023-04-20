@@ -2175,7 +2175,7 @@ mIsNoLineOrPageDelta
 (
 true
 )
-mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
+mMayTriggerSwipe
 (
 false
 )
@@ -2260,7 +2260,7 @@ mIsNoLineOrPageDelta
 true
 )
 {
-mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
+mMayTriggerSwipe
 =
 SwipeTracker
 :
@@ -2307,7 +2307,7 @@ aPanDisplacement
 aModifiers
 )
 {
-mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
+mMayTriggerSwipe
 &
 =
 bool
