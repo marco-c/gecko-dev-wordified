@@ -258,6 +258,7 @@ rc2
 Navigate
 back
 .
+await
 rc2
 .
 historyBack
