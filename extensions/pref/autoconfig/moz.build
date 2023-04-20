@@ -106,6 +106,15 @@ xpcshell
 .
 ini
 "
+"
+test
+/
+unit
+/
+xpcshell_snap
+.
+ini
+"
 ]
 MARIONETTE_UNIT_MANIFESTS
 +
