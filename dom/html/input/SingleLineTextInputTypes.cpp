@@ -536,6 +536,17 @@ IsPatternMatching
 value
 pattern
 doc
+mInputElement
+-
+>
+HasAttr
+(
+kNameSpaceID_None
+nsGkAtoms
+:
+:
+multiple
+)
 )
 ;
 return
