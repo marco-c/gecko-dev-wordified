@@ -2246,6 +2246,17 @@ already_AddRefed
 <
 SourceSurface
 >
+GetOptimizedSnapshot
+(
+DrawTarget
+*
+aTarget
+)
+;
+already_AddRefed
+<
+SourceSurface
+>
 GetBackingSurface
 (
 )

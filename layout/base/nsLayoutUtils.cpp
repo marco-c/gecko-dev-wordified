@@ -50863,6 +50863,7 @@ aElement
 GetSurfaceSnapshot
 (
 pAlphaType
+aTarget
 )
 ;
 if
