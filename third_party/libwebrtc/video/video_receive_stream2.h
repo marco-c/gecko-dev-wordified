@@ -636,6 +636,9 @@ timing
 NackPeriodicProcessor
 *
 nack_periodic_processor
+DecodeSynchronizer
+*
+decode_sync
 )
 ;
 /
@@ -2253,6 +2256,10 @@ FieldTrialParameter
 int
 >
 maximum_pre_stream_decoders_
+;
+DecodeSynchronizer
+*
+decode_sync_
 ;
 /
 /

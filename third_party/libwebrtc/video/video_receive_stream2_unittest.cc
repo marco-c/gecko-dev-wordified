@@ -768,6 +768,7 @@ clock_
 timing_
 &
 nack_periodic_processor_
+nullptr
 )
 ;
 video_receive_stream_
@@ -2107,6 +2108,7 @@ clock_
 timing_
 &
 nack_periodic_processor_
+nullptr
 )
 )
 ;
@@ -3908,6 +3910,7 @@ GetClock
 )
 &
 nack_periodic_processor_
+nullptr
 )
 {
 video_receive_stream_
@@ -5074,6 +5077,7 @@ clock_
 timing_
 &
 nack_periodic_processor_
+nullptr
 )
 ;
 video_receive_stream_

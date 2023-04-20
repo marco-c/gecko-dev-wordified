@@ -1458,6 +1458,9 @@ timing
 NackPeriodicProcessor
 *
 nack_periodic_processor
+DecodeSynchronizer
+*
+decode_sync
 )
 :
 task_queue_factory_
@@ -1649,6 +1652,10 @@ maximum_pre_stream_decoders_
 max
 "
 kDefaultMaximumPreStreamDecoders
+)
+decode_sync_
+(
+decode_sync
 )
 decode_queue_
 (
@@ -1855,7 +1862,7 @@ Millis
 (
 max_wait_for_frame_ms_
 )
-nullptr
+decode_sync_
 )
 ;
 if
