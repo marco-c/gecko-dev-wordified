@@ -155,6 +155,7 @@ VP9Profile
 kProfile0
 kProfile1
 kProfile2
+kProfile3
 }
 ;
 /
