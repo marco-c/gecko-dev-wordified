@@ -8462,6 +8462,8 @@ Http2StreamBase
 aStream
 nsresult
 aResult
+bool
+aRemoveFromQueue
 )
 {
 MOZ_ASSERT
@@ -8563,11 +8565,17 @@ mInputFrameDataStream
 nullptr
 ;
 }
+if
+(
+aRemoveFromQueue
+)
+{
 RemoveStreamFromQueues
 (
 aStream
 )
 ;
+}
 /
 /
 Send
@@ -14988,6 +14996,7 @@ CloseStream
 (
 stream
 NS_ERROR_NET_RESET
+false
 )
 ;
 self

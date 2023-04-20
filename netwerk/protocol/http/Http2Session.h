@@ -2242,7 +2242,13 @@ CloseStream
 (
 Http2StreamBase
 *
+aStream
 nsresult
+aResult
+bool
+aRemoveFromQueue
+=
+true
 )
 ;
 void
