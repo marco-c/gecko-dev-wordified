@@ -954,7 +954,7 @@ true
 the
 VideoStreamEncoder
 should
-eexecute
+execute
 its
 logic
 to
@@ -963,7 +963,7 @@ drop
 /
 /
 frames
-baseed
+based
 on
 size
 and
@@ -971,6 +971,18 @@ bitrate
 .
 bool
 DropInitialFrames
+(
+)
+const
+;
+absl
+:
+:
+optional
+<
+uint32_t
+>
+SingleActiveStreamPixels
 (
 )
 const
