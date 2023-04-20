@@ -816,10 +816,6 @@ const
 bool
 in_rapid_recovery_experiment_
 ;
-const
-bool
-limit_probes_with_allocateable_rate_
-;
 /
 /
 For
