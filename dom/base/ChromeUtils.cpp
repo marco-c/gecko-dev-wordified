@@ -6834,7 +6834,7 @@ size_t
 UtilityActorName
 :
 :
-JSOracle
+MfMediaEngineCDM
 )
 +
 1
@@ -6907,12 +6907,6 @@ UTILITYACTORNAME_TO_WEBIDL_CASE
 (
 MfMediaEngineCDM
 MfMediaEngineCDM
-)
-;
-UTILITYACTORNAME_TO_WEBIDL_CASE
-(
-JSOracle
-JSOracle
 )
 ;
 }

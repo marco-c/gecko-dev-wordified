@@ -107,10 +107,6 @@ include
 protocol
 PUtilityAudioDecoder
 ;
-include
-protocol
-PJSOracle
-;
 #
 if
 defined
@@ -646,16 +642,6 @@ StartUtilityAudioDecoderService
 Endpoint
 <
 PUtilityAudioDecoderParent
->
-aEndpoint
-)
-;
-async
-StartJSOracleService
-(
-Endpoint
-<
-PJSOracleChild
 >
 aEndpoint
 )
