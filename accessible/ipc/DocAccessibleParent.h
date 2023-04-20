@@ -2055,6 +2055,16 @@ aURL
 )
 const
 ;
+virtual
+Relation
+RelationByType
+(
+RelationType
+aType
+)
+const
+override
+;
 /
 /
 Tracks

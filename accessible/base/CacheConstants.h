@@ -594,7 +594,7 @@ attribute
 relation
 *
 type
-paring
+pairing
 is
 valid
 on
