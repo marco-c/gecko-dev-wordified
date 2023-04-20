@@ -227,11 +227,6 @@ SDR
 js
 "
 "
-FirefoxRelay
-.
-jsm
-"
-"
 InsecurePasswordUtils
 .
 jsm
