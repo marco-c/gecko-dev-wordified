@@ -360,10 +360,10 @@ size
 void
 OnEncodedFrame
 (
-const
-EncodedImage
-&
-encoded_image
+DataSize
+size
+int
+spatial_index
 int
 temporal_index
 )
