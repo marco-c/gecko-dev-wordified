@@ -774,6 +774,57 @@ utcnow
 (
 )
     
+git_author
+=
+subprocess
+.
+check_output
+(
+[
+'
+git
+'
+'
+config
+'
+                                          
+'
+user
+.
+email
+'
+]
+)
+.
+strip
+(
+)
+    
+tbr_authors
+=
+git_author
++
+'
+'
++
+'
+mbonadei
+webrtc
+.
+org
+'
+    
+tbr
+=
+'
+TBR
+=
+%
+s
+'
+%
+tbr_authors
+    
 commit_msg
 =
 (
@@ -807,6 +858,11 @@ version
 \
 n
 \
+nTBR
+=
+%
+s
+\
 nBugs
 :
 None
@@ -837,6 +893,7 @@ minute
 d
 .
 second
+tbr_authors
 )
     
 subprocess
@@ -1214,7 +1271,7 @@ CL
         
 _UploadCL
 (
-1
+2
 )
     
 return
