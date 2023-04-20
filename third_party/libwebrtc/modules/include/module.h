@@ -288,9 +288,7 @@ the
 case
 of
 detaching
-|
 process_thread
-|
 /
 /
 will

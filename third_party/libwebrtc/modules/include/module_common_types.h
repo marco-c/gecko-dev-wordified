@@ -185,9 +185,7 @@ public
 /
 /
 If
-|
 buffering_allowed
-|
 other
 feedback
 messages

@@ -105,9 +105,7 @@ masks
 .
 The
 type
-|
 kFecMaskRandom
-|
 is
 based
 on
@@ -120,9 +118,7 @@ model
 .
 The
 type
-|
 kFecMaskBursty
-|
 is
 based
 on
