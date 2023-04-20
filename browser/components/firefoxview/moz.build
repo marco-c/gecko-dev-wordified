@@ -111,7 +111,8 @@ BUG_COMPONENT
 Firefox
 "
 "
-General
+Firefox
+View
 "
 )
 EXTRA_JS_MODULES
