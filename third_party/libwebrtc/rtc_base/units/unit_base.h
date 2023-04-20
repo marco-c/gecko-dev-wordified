@@ -2196,6 +2196,7 @@ T
 =
 nullptr
 >
+constexpr
 Unit_T
 operator
 /
@@ -2283,6 +2284,7 @@ scalar
 )
 ;
 }
+constexpr
 Unit_T
 operator
 *
