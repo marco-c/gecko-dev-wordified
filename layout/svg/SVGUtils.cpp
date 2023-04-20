@@ -980,6 +980,11 @@ nullptr
 &
 aPreFilterRect
 )
+.
+valueOr
+(
+aPreFilterRect
+)
 ;
 }
 bool
