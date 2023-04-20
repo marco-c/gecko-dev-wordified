@@ -880,11 +880,6 @@ output
 num_channels_
 )
 ;
-size_t
-sum_output_len_samples
-=
-0
-;
 for
 (
 int
@@ -921,15 +916,6 @@ Size
 (
 )
 0u
-)
-;
-sum_output_len_samples
-+
-=
-output
-.
-Size
-(
 )
 ;
 EXPECT_EQ

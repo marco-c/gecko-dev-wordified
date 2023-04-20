@@ -927,9 +927,6 @@ WriteTestData
 samples
 )
 ;
-bool
-is_silence
-;
 /
 /
 Fill
@@ -966,8 +963,6 @@ kCepstralCoeffsHistorySize
 i
 )
 {
-is_silence
-=
 sfe
 .
 CheckSilenceComputeFeatures
@@ -1033,8 +1028,6 @@ kTestFeatureVectorSize
 >
 feature_vector_last
 ;
-is_silence
-=
 sfe
 .
 CheckSilenceComputeFeatures
