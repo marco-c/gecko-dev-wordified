@@ -124,7 +124,7 @@ debug
 .
 requestLongerTimeout
 (
-7
+3
 )
 ;
 const
