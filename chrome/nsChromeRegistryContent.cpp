@@ -814,7 +814,6 @@ entry
 localeBaseURI
 ;
 }
-else
 if
 (
 aProvider
@@ -834,7 +833,6 @@ entry
 skinBaseURI
 ;
 }
-else
 if
 (
 aProvider
