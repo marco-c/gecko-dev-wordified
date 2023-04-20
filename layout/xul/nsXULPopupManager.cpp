@@ -3511,6 +3511,11 @@ widget
 "
 )
 ;
+if
+(
+widget
+)
+{
 aWidgetChain
 -
 >
@@ -3622,6 +3627,7 @@ sameTypeCount
 =
 count
 ;
+}
 }
 }
 }
