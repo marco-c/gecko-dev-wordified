@@ -1199,9 +1199,12 @@ directory
 iterator
 "
 +
-file
+Object
 .
-__proto__
+getPrototypeOf
+(
+file
+)
 .
 toSource
 (
