@@ -2578,6 +2578,7 @@ matches
 about
 :
 privatebrowsing
+*
 "
 ]
 }
@@ -4691,6 +4692,7 @@ welcome
 about
 :
 privatebrowsing
+*
 "
 ]
 remoteTypes
