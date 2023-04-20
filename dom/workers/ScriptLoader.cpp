@@ -3287,6 +3287,7 @@ WorkerScriptLoader
 GetBaseURI
 (
 )
+const
 {
 MOZ_ASSERT
 (
