@@ -9985,14 +9985,8 @@ socket
 )
 -
 >
-SignalClose
+NotifyClosedForTest
 (
-turn_port_
--
->
-socket
-(
-)
 1
 )
 ;
