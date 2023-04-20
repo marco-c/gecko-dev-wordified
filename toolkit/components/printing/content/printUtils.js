@@ -1195,9 +1195,9 @@ so
 .
 .
 .
-Cu
-.
-reportError
+throw
+new
+Error
 (
 "
 Tab
@@ -1209,9 +1209,6 @@ already
 open
 "
 )
-;
-return
-null
 ;
 }
 /
