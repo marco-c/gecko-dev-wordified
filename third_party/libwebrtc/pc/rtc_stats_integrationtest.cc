@@ -8243,7 +8243,7 @@ report_
 ;
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_F
 (
 RTCStatsIntegrationTest
@@ -9564,7 +9564,7 @@ expected_id
 endif
 /
 /
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 }
 /
 /

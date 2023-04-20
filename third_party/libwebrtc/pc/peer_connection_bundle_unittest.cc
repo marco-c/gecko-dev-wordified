@@ -5591,7 +5591,7 @@ config
 ;
 #
 ifndef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 config
 .
 enable_rtp_data_channel

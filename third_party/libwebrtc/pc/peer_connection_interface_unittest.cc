@@ -19271,7 +19271,7 @@ state
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 /
 /
 This
@@ -19678,7 +19678,7 @@ rejected
 ;
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 content
 =
 cricket
@@ -30222,7 +30222,7 @@ this
 .
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_P
 (
 PeerConnectionInterfaceTest
@@ -30241,7 +30241,7 @@ DISABLED_DataChannelOnlyOfferWithMaxBundlePolicy
 endif
 /
 /
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 PeerConnectionInterface
 :
 :

@@ -3360,7 +3360,7 @@ expected_fingerprint_callee
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_F
 (
 PeerConnectionUsageHistogramTest
@@ -3551,7 +3551,7 @@ PRIVATE_CANDIDATE_COLLECTED
 endif
 /
 /
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 #
 endif
 /
@@ -4337,7 +4337,7 @@ ifndef
 WEBRTC_ANDROID
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 /
 /
 Test

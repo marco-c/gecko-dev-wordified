@@ -402,7 +402,7 @@ factory
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 return
 std
 :

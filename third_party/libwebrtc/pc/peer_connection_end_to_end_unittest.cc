@@ -3275,7 +3275,7 @@ encoder_id2
 }
 #
 ifdef
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 /
 /
 Verifies
@@ -5264,7 +5264,7 @@ state
 endif
 /
 /
-HAVE_SCTP
+WEBRTC_HAVE_SCTP
 TEST_P
 (
 PeerConnectionEndToEndTest
