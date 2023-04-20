@@ -93,6 +93,20 @@ wasm
 ;
 import
 {
+getMatches
+}
+from
+"
+.
+.
+/
+workers
+/
+search
+"
+;
+import
+{
 getSelectedSourceId
 getSelectedSourceTextContent
 getFileSearchModifiers
@@ -371,7 +385,6 @@ async
 {
 getState
 dispatch
-searchWorker
 }
 )
 =
@@ -515,8 +528,6 @@ const
 matches
 =
 await
-searchWorker
-.
 getMatches
 (
 query

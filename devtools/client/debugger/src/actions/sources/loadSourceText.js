@@ -306,7 +306,6 @@ state
 source
 client
 sourceMaps
-prettyPrintWorker
 )
 {
 if
@@ -369,7 +368,6 @@ return
 prettyPrintSource
 (
 sourceMaps
-prettyPrintWorker
 generatedSource
 content
 getSourceActorsForSource
@@ -475,7 +473,7 @@ sourceActor
 dispatch
 getState
 client
-parserWorker
+parser
 }
 )
 {
@@ -535,7 +533,7 @@ state
 getState
 (
 )
-parserWorker
+parser
 dispatch
 }
 )
@@ -552,8 +550,7 @@ dispatch
 getState
 client
 sourceMaps
-parserWorker
-prettyPrintWorker
+parser
 }
 )
 {
@@ -594,7 +591,6 @@ getState
 source
 client
 sourceMaps
-prettyPrintWorker
 )
 }
 )
@@ -613,7 +609,7 @@ state
 getState
 (
 )
-parserWorker
+parser
 dispatch
 }
 )
@@ -629,7 +625,7 @@ sourceActorId
 {
 dispatch
 state
-parserWorker
+parser
 }
 )
 {
@@ -681,7 +677,7 @@ isWasm
 content
 )
 {
-parserWorker
+parser
 .
 setSource
 (

@@ -190,7 +190,7 @@ location
 {
 dispatch
 getState
-parserWorker
+parser
 }
 )
 {
@@ -240,7 +240,7 @@ isWasm
 locations
 =
 await
-parserWorker
+parser
 .
 findOutOfScopeLocations
 (

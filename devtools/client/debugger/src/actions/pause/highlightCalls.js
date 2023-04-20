@@ -242,7 +242,8 @@ function
 {
 dispatch
 getState
-parserWorker
+parser
+client
 }
 )
 {
@@ -294,7 +295,7 @@ const
 originalAstScopes
 =
 await
-parserWorker
+parser
 .
 getScopes
 (
@@ -462,6 +463,8 @@ function
 {
 dispatch
 getState
+parser
+client
 }
 )
 {

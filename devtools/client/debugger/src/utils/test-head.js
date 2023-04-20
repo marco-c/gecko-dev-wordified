@@ -117,8 +117,6 @@ selectors
 ;
 import
 {
-searchWorker
-prettyPrintWorker
 parserWorker
 evaluationsParser
 }
@@ -332,10 +330,10 @@ undefined
 sourceMapsMock
 :
 sourceMaps
+parser
+:
 parserWorker
 evaluationsParser
-prettyPrintWorker
-searchWorker
 }
 ;
 }
