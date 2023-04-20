@@ -25948,6 +25948,7 @@ onStopRequest
 .
 *
 /
+async
 function
 waitForUpdateDownload
 (
@@ -25968,6 +25969,7 @@ aUpdates
 let
 success
 =
+await
 gAUS
 .
 downloadUpdate
