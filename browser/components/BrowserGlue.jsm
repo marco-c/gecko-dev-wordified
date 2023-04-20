@@ -2424,6 +2424,13 @@ true
 }
 }
 }
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 matches
 :
 [
