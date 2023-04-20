@@ -7429,7 +7429,7 @@ names
 .
 maximum
 )
-Int32Value
+NumberValue
 (
 maximum
 .
@@ -7471,7 +7471,7 @@ names
 .
 minimum
 )
-Int32Value
+NumberValue
 (
 initial
 )
@@ -12550,7 +12550,9 @@ create
 JSContext
 *
 cx
+const
 SharedCode
+&
 code
 const
 DataSegmentVector
@@ -18557,7 +18559,10 @@ rval
 .
 setInt32
 (
+int32_t
+(
 ret
+)
 )
 ;
 return
@@ -22440,7 +22445,10 @@ rval
 .
 setInt32
 (
+int32_t
+(
 oldLength
+)
 )
 ;
 return
@@ -35323,9 +35331,7 @@ className
 )
 )
 ;
-if
-(
-!
+return
 DefineDataProperty
 (
 cx
@@ -35334,14 +35340,6 @@ id
 ctorValue
 0
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 static

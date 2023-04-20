@@ -1385,6 +1385,8 @@ size
 size_t
 estimatedCodeSize
 =
+size_t
+(
 1
 .
 2
@@ -1395,6 +1397,7 @@ tier
 (
 )
 codeSectionSize
+)
 )
 ;
 (
@@ -1652,7 +1655,7 @@ allocateGlobalBytes
 (
 sizeof
 (
-WasmTagObject
+void
 *
 )
 sizeof
@@ -4428,9 +4431,7 @@ offsetInModule
 ;
 }
 ;
-if
-(
-!
+return
 AppendForEach
 (
 &
@@ -4444,14 +4445,6 @@ tryNotes
 tryNoteFilter
 tryNoteOp
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 static
