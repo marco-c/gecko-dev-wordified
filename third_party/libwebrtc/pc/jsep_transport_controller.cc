@@ -288,9 +288,9 @@ cricket
 PortAllocator
 *
 port_allocator
-AsyncResolverFactory
+AsyncDnsResolverFactoryInterface
 *
-async_resolver_factory
+async_dns_resolver_factory
 Config
 config
 )
@@ -303,9 +303,9 @@ port_allocator_
 (
 port_allocator
 )
-async_resolver_factory_
+async_dns_resolver_factory_
 (
-async_resolver_factory
+async_dns_resolver_factory
 )
 config_
 (
@@ -2455,9 +2455,9 @@ port_allocator_
 ;
 init
 .
-set_async_resolver_factory
+set_async_dns_resolver_factory
 (
-async_resolver_factory_
+async_dns_resolver_factory_
 )
 ;
 init
