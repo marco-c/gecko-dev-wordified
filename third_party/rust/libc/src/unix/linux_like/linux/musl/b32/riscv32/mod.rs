@@ -1754,6 +1754,16 @@ c_int
 ;
 pub
 const
+ENOTSUP
+:
+:
+:
+c_int
+=
+EOPNOTSUPP
+;
+pub
+const
 EPFNOSUPPORT
 :
 :
