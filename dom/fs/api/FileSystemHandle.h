@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-PFileSystemManager
+Logging
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-Logging
+dom
+/
+PFileSystemManager
 .
 h
 "
