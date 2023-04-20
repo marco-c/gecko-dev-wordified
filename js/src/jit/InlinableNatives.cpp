@@ -1693,6 +1693,12 @@ case
 InlinableNative
 :
 :
+Number
+:
+case
+InlinableNative
+:
+:
 NumberParseInt
 :
 case
