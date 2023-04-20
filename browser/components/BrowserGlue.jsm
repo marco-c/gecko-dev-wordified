@@ -3360,7 +3360,7 @@ DecoderDoctor
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3372,13 +3372,15 @@ actors
 /
 DecoderDoctorParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3390,7 +3392,9 @@ actors
 /
 DecoderDoctorChild
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :
