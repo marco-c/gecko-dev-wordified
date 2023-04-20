@@ -11892,7 +11892,7 @@ world
 TEST
 (
 ComparisonOpsTest
-HeterogenousStringViewEquals
+HeterogeneousStringViewEquals
 )
 {
 EXPECT_EQ

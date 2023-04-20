@@ -510,7 +510,7 @@ double
 :
 type
 ;
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 GaussianDistributionInterfaceTest
 RealTypes

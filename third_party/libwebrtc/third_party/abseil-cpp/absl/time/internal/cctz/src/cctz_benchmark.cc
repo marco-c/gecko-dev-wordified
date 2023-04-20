@@ -3682,6 +3682,11 @@ Johnston
 "
 Pacific
 /
+Kanton
+"
+"
+Pacific
+/
 Kiritimati
 "
 "

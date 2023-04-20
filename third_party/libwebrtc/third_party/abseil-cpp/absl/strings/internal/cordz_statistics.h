@@ -336,6 +336,16 @@ btree
 #
 btree
 reps
+size_t
+crc
+=
+0
+;
+/
+/
+#
+crc
+reps
 }
 ;
 /

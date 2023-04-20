@@ -362,7 +362,7 @@ uint32_t
 uint64_t
 >
 ;
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 LogUniformIntDistributionTypeTest
 IntTypes

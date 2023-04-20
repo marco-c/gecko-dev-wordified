@@ -138,10 +138,10 @@ License
 .
 #
 ifndef
-ABSL_BASE_INTERNAL_PERIODIC_SAMPLER_H_
+ABSL_PROFILING_INTERNAL_PERIODIC_SAMPLER_H_
 #
 define
-ABSL_BASE_INTERNAL_PERIODIC_SAMPLER_H_
+ABSL_PROFILING_INTERNAL_PERIODIC_SAMPLER_H_
 #
 include
 <
@@ -161,9 +161,7 @@ absl
 /
 base
 /
-internal
-/
-exponential_biased
+optimization
 .
 h
 "
@@ -172,9 +170,11 @@ include
 "
 absl
 /
-base
+profiling
 /
-optimization
+internal
+/
+exponential_biased
 .
 h
 "
@@ -183,7 +183,7 @@ absl
 {
 ABSL_NAMESPACE_BEGIN
 namespace
-base_internal
+profiling_internal
 {
 /
 /
@@ -1400,6 +1400,12 @@ stride_
 =
 0
 ;
+absl
+:
+:
+profiling_internal
+:
+:
 ExponentialBiased
 rng_
 ;
@@ -1757,7 +1763,7 @@ default_period
 /
 /
 namespace
-base_internal
+profiling_internal
 ABSL_NAMESPACE_END
 }
 /
@@ -1768,4 +1774,4 @@ absl
 endif
 /
 /
-ABSL_BASE_INTERNAL_PERIODIC_SAMPLER_H_
+ABSL_PROFILING_INTERNAL_PERIODIC_SAMPLER_H_

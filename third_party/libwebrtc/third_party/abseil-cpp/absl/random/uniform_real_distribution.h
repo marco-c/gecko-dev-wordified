@@ -813,17 +813,6 @@ max
 )
 )
 ;
-assert
-(
-std
-:
-:
-isfinite
-(
-range_
-)
-)
-;
 }
 result_type
 a

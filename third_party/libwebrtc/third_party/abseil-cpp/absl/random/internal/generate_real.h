@@ -402,7 +402,7 @@ use
 :
 /
 /
-Uniform64ToReal
+GenerateRealFromBits
 <
 double
 PositiveValueT
@@ -429,7 +429,7 @@ use
 :
 /
 /
-Uniform64ToReal
+GenerateRealFromBits
 <
 double
 SignedValueT

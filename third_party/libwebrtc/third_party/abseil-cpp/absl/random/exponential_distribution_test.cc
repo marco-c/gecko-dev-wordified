@@ -538,7 +538,7 @@ double
 :
 type
 ;
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 ExponentialDistributionTypedTest
 RealTypes
@@ -2840,7 +2840,7 @@ _
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 All
 ExponentialDistributionTests

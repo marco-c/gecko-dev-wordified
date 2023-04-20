@@ -174,10 +174,10 @@ details
 .
 #
 ifndef
-ABSL_TYPES_variant_internal_H_
+ABSL_TYPES_VARIANT_INTERNAL_H_
 #
 define
-ABSL_TYPES_variant_internal_H_
+ABSL_TYPES_VARIANT_INTERNAL_H_
 #
 include
 <
@@ -13057,4 +13057,4 @@ ABSL_USES_STD_VARIANT
 endif
 /
 /
-ABSL_TYPES_variant_internal_H_
+ABSL_TYPES_VARIANT_INTERNAL_H_

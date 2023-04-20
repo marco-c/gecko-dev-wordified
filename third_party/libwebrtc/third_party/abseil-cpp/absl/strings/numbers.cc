@@ -4994,12 +4994,19 @@ d
 }
 if
 (
+d
+>
 std
 :
 :
-isinf
+numeric_limits
+<
+double
+>
+:
+:
+max
 (
-d
 )
 )
 {
@@ -7202,6 +7209,7 @@ initializer
 template
 <
 >
+ABSL_CONST_INIT
 const
 uint128
 LookupTables
@@ -7545,6 +7553,7 @@ initializer
 template
 <
 >
+ABSL_CONST_INIT
 const
 int128
 LookupTables
@@ -7890,6 +7899,7 @@ initializer
 template
 <
 >
+ABSL_CONST_INIT
 const
 int128
 LookupTables
@@ -8122,6 +8132,7 @@ template
 typename
 IntType
 >
+ABSL_CONST_INIT
 const
 IntType
 LookupTables
@@ -8155,6 +8166,7 @@ template
 typename
 IntType
 >
+ABSL_CONST_INIT
 const
 IntType
 LookupTables

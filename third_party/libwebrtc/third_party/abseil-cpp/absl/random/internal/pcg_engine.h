@@ -1980,7 +1980,13 @@ return
 rotr
 (
 s
+static_cast
+<
+int
+>
+(
 rotate
+)
 )
 ;
 }

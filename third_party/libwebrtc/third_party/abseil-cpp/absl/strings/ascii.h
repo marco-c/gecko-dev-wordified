@@ -1204,7 +1204,7 @@ character
 is
 printable
 including
-whitespace
+spaces
 .
 inline
 bool
@@ -1710,12 +1710,18 @@ str
 .
 substr
 (
+static_cast
+<
+size_t
+>
+(
 it
 -
 str
 .
 begin
 (
+)
 )
 )
 ;
@@ -1852,6 +1858,11 @@ str
 substr
 (
 0
+static_cast
+<
+size_t
+>
+(
 str
 .
 rend
@@ -1859,6 +1870,7 @@ rend
 )
 -
 it
+)
 )
 ;
 }
@@ -1918,6 +1930,11 @@ str
 >
 erase
 (
+static_cast
+<
+size_t
+>
+(
 str
 -
 >
@@ -1926,6 +1943,7 @@ rend
 )
 -
 it
+)
 )
 ;
 }

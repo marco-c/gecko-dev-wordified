@@ -4661,6 +4661,9 @@ kExceptionSentinel
 ;
 }
 ;
+#
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
 constexpr
 int
 BasicGuaranteeWithExtraContracts
@@ -4668,6 +4671,8 @@ BasicGuaranteeWithExtraContracts
 :
 kExceptionSentinel
 ;
+#
+endif
 TEST
 (
 ExceptionCheckTest

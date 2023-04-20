@@ -1304,6 +1304,7 @@ floating
 point
 types
 .
+constexpr
 int128
 operator
 -
@@ -1312,6 +1313,7 @@ int128
 v
 )
 ;
+constexpr
 bool
 operator
 !
@@ -1638,7 +1640,7 @@ PowerPC
 Comparison
 operators
 .
-inline
+constexpr
 bool
 operator
 =
@@ -1669,7 +1671,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 !
@@ -1700,7 +1702,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 <
@@ -1729,7 +1731,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 >
@@ -1758,7 +1760,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 <
@@ -1789,7 +1791,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 >
@@ -1825,7 +1827,7 @@ rhs
 Unary
 operators
 .
-inline
+constexpr
 int128
 operator
 -
@@ -1845,7 +1847,7 @@ v
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 !
@@ -1865,7 +1867,7 @@ v
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 ~
@@ -1890,7 +1892,7 @@ val
 Arithmetic
 operators
 .
-inline
+constexpr
 int128
 operator
 +
@@ -1919,7 +1921,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 -
@@ -2131,7 +2133,7 @@ return
 this
 ;
 }
-inline
+constexpr
 int128
 operator
 |
@@ -2160,7 +2162,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 &
@@ -2189,7 +2191,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 ^
@@ -2218,7 +2220,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 <
@@ -2243,7 +2245,7 @@ lhs
 amount
 ;
 }
-inline
+constexpr
 int128
 operator
 >

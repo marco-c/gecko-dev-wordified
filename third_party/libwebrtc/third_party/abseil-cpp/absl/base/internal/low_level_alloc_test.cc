@@ -698,7 +698,7 @@ Arena
 *
 arena
 =
-0
+nullptr
 ;
 if
 (
@@ -828,7 +828,7 @@ char
 arena
 =
 =
-0
+nullptr
 ?
 LowLevelAlloc
 :

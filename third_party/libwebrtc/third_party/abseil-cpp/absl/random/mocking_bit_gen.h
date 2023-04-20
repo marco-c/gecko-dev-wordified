@@ -860,10 +860,12 @@ high
 /
 /
 return
-(
 low
 +
+(
 high
+-
+low
 )
 /
 2

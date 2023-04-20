@@ -249,7 +249,13 @@ s_
 append
 (
 s
+static_cast
+<
+size_t
+>
+(
 n
+)
 )
 ;
 return

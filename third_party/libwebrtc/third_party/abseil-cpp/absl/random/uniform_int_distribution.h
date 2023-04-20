@@ -829,10 +829,10 @@ range_
 ;
 static_assert
 (
-std
+random_internal
 :
 :
-is_integral
+IsIntegral
 <
 result_type
 >
@@ -1031,6 +1031,11 @@ runtime
 references
 )
 return
+static_cast
+<
+result_type
+>
+(
 param
 .
 a
@@ -1044,6 +1049,7 @@ param
 .
 range
 (
+)
 )
 )
 ;

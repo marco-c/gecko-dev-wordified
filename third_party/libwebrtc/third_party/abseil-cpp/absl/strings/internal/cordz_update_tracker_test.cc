@@ -290,6 +290,10 @@ kAppendCord
 Method
 :
 :
+kAppendCordBuffer
+Method
+:
+:
 kAppendExternalMemory
 Method
 :
@@ -326,6 +330,10 @@ kFlatten
 Method
 :
 :
+kGetAppendBuffer
+Method
+:
+:
 kGetAppendRegion
 Method
 :
@@ -350,6 +358,10 @@ kPrependCord
 Method
 :
 :
+kPrependCordBuffer
+Method
+:
+:
 kPrependString
 Method
 :
@@ -359,6 +371,10 @@ Method
 :
 :
 kRemoveSuffix
+Method
+:
+:
+kSetExpectedChecksum
 Method
 :
 :

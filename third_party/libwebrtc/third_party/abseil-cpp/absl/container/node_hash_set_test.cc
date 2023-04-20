@@ -935,6 +935,8 @@ s
 5
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
@@ -948,6 +950,8 @@ return
 true
 ;
 }
+)
+5
 )
 ;
 EXPECT_THAT
@@ -980,6 +984,8 @@ s
 5
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
@@ -993,6 +999,8 @@ return
 false
 ;
 }
+)
+0
 )
 ;
 EXPECT_THAT
@@ -1030,6 +1038,8 @@ s
 5
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
@@ -1049,6 +1059,8 @@ k
 1
 ;
 }
+)
+3
 )
 ;
 EXPECT_THAT
@@ -1084,10 +1096,14 @@ s
 5
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
 IsEven
+)
+2
 )
 ;
 EXPECT_THAT
@@ -1124,11 +1140,15 @@ s
 5
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
 &
 IsEven
+)
+2
 )
 ;
 EXPECT_THAT

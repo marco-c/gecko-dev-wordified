@@ -182,6 +182,8 @@ ABSL_NAMESPACE_BEGIN
 namespace
 hash_internal
 {
+namespace
+{
 static
 const
 uint64_t
@@ -5891,6 +5893,10 @@ kDataSize
 )
 ;
 }
+}
+/
+/
+namespace
 }
 /
 /

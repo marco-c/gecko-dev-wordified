@@ -182,6 +182,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 internal
 /
 atomic_hook
@@ -608,6 +619,9 @@ fn
 )
 ;
 }
+#
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
 /
 /
 Static
@@ -650,6 +664,8 @@ SpinLock
 :
 kWaitTimeMask
 ;
+#
+endif
 /
 /
 Uncommon

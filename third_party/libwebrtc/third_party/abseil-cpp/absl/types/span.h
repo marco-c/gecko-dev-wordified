@@ -6380,9 +6380,15 @@ T
 >
 (
 begin
+static_cast
+<
+size_t
+>
+(
 end
 -
 begin
+)
 )
 ;
 }

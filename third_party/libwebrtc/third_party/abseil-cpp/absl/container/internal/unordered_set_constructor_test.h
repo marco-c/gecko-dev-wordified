@@ -3689,7 +3689,7 @@ values
 )
 ;
 }
-REGISTER_TYPED_TEST_CASE_P
+REGISTER_TYPED_TEST_SUITE_P
 (
 ConstructorTest
 NoArgs

@@ -141,7 +141,7 @@ include
 "
 absl
 /
-base
+profiling
 /
 internal
 /
@@ -203,7 +203,7 @@ absl
 {
 ABSL_NAMESPACE_BEGIN
 namespace
-base_internal
+profiling_internal
 {
 /
 /
@@ -852,7 +852,7 @@ true
 /
 /
 namespace
-base_internal
+profiling_internal
 ABSL_NAMESPACE_END
 }
 /

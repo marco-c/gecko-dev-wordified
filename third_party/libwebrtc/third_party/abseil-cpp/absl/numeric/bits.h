@@ -1205,9 +1205,16 @@ T
 :
 digits
 -
+static_cast
+<
+unsigned
+int
+>
+(
 countl_zero
 (
 x
+)
 )
 ;
 }

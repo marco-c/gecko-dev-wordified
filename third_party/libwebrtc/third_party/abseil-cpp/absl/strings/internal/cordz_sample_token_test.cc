@@ -1231,7 +1231,6 @@ clear_cordz_info
 (
 )
 ;
-;
 }
 else
 {

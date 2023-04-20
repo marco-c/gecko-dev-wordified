@@ -1092,7 +1092,6 @@ ring
 >
 length
 ;
-;
 for
 (
 int

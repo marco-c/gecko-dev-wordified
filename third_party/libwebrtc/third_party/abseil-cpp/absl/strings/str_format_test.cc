@@ -7164,6 +7164,8 @@ ABSL_NAMESPACE_END
 /
 namespace
 absl
+namespace
+{
 using
 FormatExtensionTest
 =
@@ -7447,6 +7449,10 @@ p
 )
 ;
 }
+}
+/
+/
+namespace
 /
 /
 Some
