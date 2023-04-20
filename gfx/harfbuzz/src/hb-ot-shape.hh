@@ -297,7 +297,7 @@ return
 0
 =
 =
-memcmp
+hb_memcmp
 (
 this
 other

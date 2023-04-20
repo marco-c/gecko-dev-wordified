@@ -291,7 +291,7 @@ khmer_non_khmer_cluster
 ;
 #
 line
-52
+49
 "
 hb
 -
@@ -367,7 +367,7 @@ khmer_syllable_machine_ex_ZWNJ
 5u
 #
 line
-70
+65
 "
 hb
 -
@@ -1970,13 +1970,10 @@ syllable_serial
 \
 if
 (
-unlikely
-(
 syllable_serial
 =
 =
 16
-)
 )
 syllable_serial
 =
@@ -2018,7 +2015,7 @@ info
 ;
 #
 line
-298
+287
 "
 hb
 -
@@ -2087,7 +2084,7 @@ syllable_serial
 ;
 #
 line
-314
+299
 "
 hb
 -
@@ -2158,7 +2155,7 @@ break
 ;
 #
 line
-328
+311
 "
 hb
 -
@@ -2721,7 +2718,7 @@ break
 ;
 #
 line
-398
+368
 "
 hb
 -
@@ -2765,7 +2762,7 @@ break
 ;
 #
 line
-407
+375
 "
 hb
 -

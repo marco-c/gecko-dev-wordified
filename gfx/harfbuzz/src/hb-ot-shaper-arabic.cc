@@ -1123,7 +1123,7 @@ ISOL
 }
 ;
 static
-void
+bool
 arabic_fallback_shape
 (
 const
@@ -1139,7 +1139,7 @@ buffer
 )
 ;
 static
-void
+bool
 record_stch
 (
 const
@@ -1155,7 +1155,7 @@ buffer
 )
 ;
 static
-void
+bool
 deallocate_buffer_var
 (
 const
@@ -1175,6 +1175,9 @@ HB_BUFFER_DEALLOCATE_VAR
 buffer
 arabic_shaping_action
 )
+;
+return
+false
 ;
 }
 static
@@ -3006,7 +3009,7 @@ script
 ;
 }
 static
-void
+bool
 arabic_fallback_shape
 (
 const
@@ -3025,6 +3028,7 @@ buffer
 ifdef
 HB_NO_OT_SHAPER_ARABIC_FALLBACK
 return
+false
 ;
 #
 endif
@@ -3052,6 +3056,7 @@ arabic_plan
 do_fallback
 )
 return
+false
 ;
 retry
 :
@@ -3135,6 +3140,9 @@ font
 buffer
 )
 ;
+return
+true
+;
 }
 /
 *
@@ -3197,7 +3205,7 @@ well
 *
 /
 static
-void
+bool
 record_stch
 (
 const
@@ -3237,6 +3245,7 @@ arabic_plan
 has_stch
 )
 return
+false
 ;
 /
 *
@@ -3388,6 +3397,9 @@ scratch_flags
 HB_BUFFER_SCRATCH_FLAG_ARABIC_HAS_STCH
 ;
 }
+return
+false
+;
 }
 static
 void

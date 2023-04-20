@@ -2987,9 +2987,11 @@ hb_buffer_t
 buffer
 )
 {
-hb_ot_layout_delete_glyphs_inplace
-(
 buffer
+-
+>
+delete_glyphs_inplace
+(
 is_deleted_glyph
 )
 ;

@@ -1517,6 +1517,9 @@ return
 _hb_ot_shaper_myanmar
 ;
 #
+ifndef
+HB_NO_OT_SHAPER_MYANMAR_ZAWGYI
+#
 define
 HB_SCRIPT_MYANMAR_ZAWGYI
 (
@@ -1565,6 +1568,8 @@ return
 &
 _hb_ot_shaper_myanmar_zawgyi
 ;
+#
+endif
 /
 *
 Unicode

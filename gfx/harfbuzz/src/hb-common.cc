@@ -1822,7 +1822,7 @@ lang
 )
 )
 {
-memcpy
+hb_memcpy
 (
 (
 unsigned
@@ -2315,7 +2315,7 @@ strbuf
 1
 )
 ;
-memcpy
+hb_memcpy
 (
 strbuf
 str
@@ -6381,7 +6381,7 @@ if
 (
 feature
 )
-memset
+hb_memset
 (
 feature
 0
@@ -6793,7 +6793,7 @@ size
 1
 )
 ;
-memcpy
+hb_memcpy
 (
 buf
 s
@@ -7158,7 +7158,7 @@ if
 (
 variation
 )
-memset
+hb_memset
 (
 variation
 0
@@ -7316,6 +7316,9 @@ size
 )
 (
 out
+caller
+-
+allocates
 )
 :
 output
@@ -7535,7 +7538,7 @@ size
 1
 )
 ;
-memcpy
+hb_memcpy
 (
 buf
 s

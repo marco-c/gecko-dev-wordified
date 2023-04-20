@@ -2198,8 +2198,6 @@ end
 )
 if
 (
-unlikely
-(
 _hb_glyph_info_is_unicode_mark
 (
 &
@@ -2210,7 +2208,6 @@ info
 [
 end
 ]
-)
 )
 )
 break

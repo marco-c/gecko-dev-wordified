@@ -483,7 +483,7 @@ return_trace
 false
 )
 ;
-memcpy
+hb_memcpy
 (
 post_prime
 this

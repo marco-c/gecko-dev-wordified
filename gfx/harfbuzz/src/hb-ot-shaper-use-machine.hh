@@ -290,7 +290,7 @@ use_non_cluster
 ;
 #
 line
-57
+54
 "
 hb
 -
@@ -470,7 +470,7 @@ use_syllable_machine_ex_ZWNJ
 14u
 #
 line
-101
+96
 "
 hb
 -
@@ -6404,13 +6404,10 @@ syllable_serial
 \
 if
 (
-unlikely
-(
 syllable_serial
 =
 =
 16
-)
 )
 syllable_serial
 =
@@ -7038,7 +7035,7 @@ cs
 ;
 #
 line
-933
+922
 "
 hb
 -
@@ -7094,7 +7091,7 @@ syllable_serial
 ;
 #
 line
-946
+931
 "
 hb
 -
@@ -7166,7 +7163,7 @@ break
 ;
 #
 line
-960
+943
 "
 hb
 -
@@ -7997,7 +7994,7 @@ break
 ;
 #
 line
-1050
+1014
 "
 hb
 -
@@ -8041,7 +8038,7 @@ break
 ;
 #
 line
-1059
+1021
 "
 hb
 -

@@ -262,7 +262,7 @@ time
 #
 define
 HB_VERSION_MAJOR
-5
+6
 /
 *
 *
@@ -289,7 +289,7 @@ time
 #
 define
 HB_VERSION_MINOR
-3
+0
 /
 *
 *
@@ -316,7 +316,7 @@ time
 #
 define
 HB_VERSION_MICRO
-1
+0
 /
 *
 *
@@ -344,11 +344,11 @@ time
 define
 HB_VERSION_STRING
 "
-5
+6
 .
-3
+0
 .
-1
+0
 "
 /
 *

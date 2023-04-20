@@ -207,7 +207,7 @@ shaper
 hh
 "
 HB_INTERNAL
-void
+bool
 hb_syllabic_insert_dotted_circles
 (
 hb_font_t
@@ -235,7 +235,7 @@ dottedcircle_position
 )
 ;
 HB_INTERNAL
-void
+bool
 hb_syllabic_clear_var
 (
 const

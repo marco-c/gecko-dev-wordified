@@ -205,7 +205,7 @@ syllabic
 .
 hh
 "
-void
+bool
 hb_syllabic_insert_dotted_circles
 (
 hb_font_t
@@ -239,6 +239,7 @@ HB_BUFFER_FLAG_DO_NOT_INSERT_DOTTED_CIRCLE
 )
 )
 return
+false
 ;
 if
 (
@@ -256,6 +257,7 @@ HB_BUFFER_SCRATCH_FLAG_HAS_BROKEN_SYLLABLE
 )
 )
 return
+false
 ;
 hb_codepoint_t
 dottedcircle_glyph
@@ -274,6 +276,7 @@ dottedcircle_glyph
 )
 )
 return
+false
 ;
 hb_glyph_info_t
 dottedcircle
@@ -557,9 +560,12 @@ sync
 (
 )
 ;
+return
+true
+;
 }
 HB_INTERNAL
-void
+bool
 hb_syllabic_clear_var
 (
 const
@@ -579,6 +585,9 @@ HB_BUFFER_DEALLOCATE_VAR
 buffer
 syllable
 )
+;
+return
+false
 ;
 }
 #

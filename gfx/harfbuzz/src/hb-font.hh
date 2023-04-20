@@ -1171,7 +1171,7 @@ hb_font_extents_t
 extents
 )
 {
-memset
+hb_memset
 (
 extents
 0
@@ -1221,7 +1221,7 @@ hb_font_extents_t
 extents
 )
 {
-memset
+hb_memset
 (
 extents
 0
@@ -1852,7 +1852,7 @@ hb_glyph_extents_t
 extents
 )
 {
-memset
+hb_memset
 (
 extents
 0

@@ -660,7 +660,7 @@ s
 }
 ;
 static
-void
+bool
 setup_syllables_use
 (
 const
@@ -676,7 +676,7 @@ buffer
 )
 ;
 static
-void
+bool
 record_rphf_use
 (
 const
@@ -692,7 +692,7 @@ buffer
 )
 ;
 static
-void
+bool
 record_pref_use
 (
 const
@@ -708,7 +708,7 @@ buffer
 )
 ;
 static
-void
+bool
 reorder_use
 (
 const
@@ -1963,7 +1963,7 @@ start
 }
 }
 static
-void
+bool
 setup_syllables_use
 (
 const
@@ -2017,9 +2017,12 @@ plan
 buffer
 )
 ;
+return
+false
+;
 }
 static
-void
+bool
 record_rphf_use
 (
 const
@@ -2064,6 +2067,7 @@ if
 mask
 )
 return
+false
 ;
 hb_glyph_info_t
 *
@@ -2153,9 +2157,12 @@ break
 ;
 }
 }
+return
+false
+;
 }
 static
-void
+bool
 record_pref_use
 (
 const
@@ -2251,6 +2258,9 @@ break
 ;
 }
 }
+return
+false
+;
 }
 static
 inline
@@ -2974,7 +2984,7 @@ t
 }
 }
 static
-void
+bool
 reorder_use
 (
 const
@@ -2989,6 +2999,11 @@ hb_buffer_t
 buffer
 )
 {
+bool
+ret
+=
+false
+;
 if
 (
 buffer
@@ -3005,6 +3020,8 @@ USE
 )
 )
 {
+if
+(
 hb_syllabic_insert_dotted_circles
 (
 font
@@ -3019,6 +3036,10 @@ USE
 R
 )
 )
+)
+ret
+=
+true
 ;
 foreach_syllable
 (
@@ -3055,6 +3076,9 @@ HB_BUFFER_DEALLOCATE_VAR
 buffer
 use_category
 )
+;
+return
+ret
 ;
 }
 static

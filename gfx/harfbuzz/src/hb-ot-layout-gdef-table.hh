@@ -430,6 +430,10 @@ point_count
 +
 points
 .
+as_array
+(
+)
+.
 sub_array
 (
 start_offset
@@ -1943,6 +1947,10 @@ caret_count
 {
 +
 carets
+.
+as_array
+(
+)
 .
 sub_array
 (

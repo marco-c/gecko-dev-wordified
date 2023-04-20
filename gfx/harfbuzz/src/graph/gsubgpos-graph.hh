@@ -1230,7 +1230,7 @@ add_buffer
 buffer
 )
 ;
-memcpy
+hb_memcpy
 (
 buffer
 v
@@ -2198,7 +2198,7 @@ get_lookup_list_offset
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 2
 :
@@ -2317,7 +2317,7 @@ break
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 2
 :

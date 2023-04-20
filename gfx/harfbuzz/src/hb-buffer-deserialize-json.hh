@@ -221,7 +221,7 @@ hh
 "
 #
 line
-36
+33
 "
 hb
 -
@@ -4270,7 +4270,7 @@ pos
 ;
 #
 line
-561
+554
 "
 hb
 -
@@ -4290,7 +4290,7 @@ deserialize_json_start
 }
 #
 line
-566
+557
 "
 hb
 -
@@ -4460,7 +4460,7 @@ json
 rl
 "
 {
-memset
+hb_memset
 (
 &
 info
@@ -4471,7 +4471,7 @@ info
 )
 )
 ;
-memset
+hb_memset
 (
 &
 pos
@@ -5875,7 +5875,7 @@ break
 ;
 #
 line
-778
+735
 "
 hb
 -

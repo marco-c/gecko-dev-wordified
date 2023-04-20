@@ -555,6 +555,10 @@ table
 >
 dataMaps
 .
+as_array
+(
+)
+.
 sub_array
 (
 start_offset

@@ -300,7 +300,7 @@ format2
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 CoverageFormat1_3
 <
 MediumTypes
@@ -396,7 +396,7 @@ c
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -445,19 +445,7 @@ interface
 .
 *
 /
-static
-constexpr
 unsigned
-SENTINEL
-=
-NOT_COVERED
-;
-typedef
-unsigned
-int
-value_t
-;
-value_t
 operator
 [
 ]
@@ -492,7 +480,7 @@ k
 ]
 !
 =
-SENTINEL
+NOT_COVERED
 ;
 }
 /
@@ -578,7 +566,7 @@ glyph_id
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -653,7 +641,7 @@ get_population
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -800,7 +788,7 @@ num_ranges
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 if
 (
 count
@@ -860,7 +848,7 @@ glyphs
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1045,7 +1033,7 @@ glyphs
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1131,7 +1119,7 @@ index
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1239,7 +1227,7 @@ glyphs
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1339,7 +1327,7 @@ intersect_glyphs
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1405,7 +1393,7 @@ Coverage
 )
 )
 {
-memset
+hb_memset
 (
 this
 0
@@ -1467,7 +1455,7 @@ return
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1549,7 +1537,7 @@ __more__
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1621,7 +1609,7 @@ break
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1709,7 +1697,7 @@ get_glyph
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1807,7 +1795,7 @@ format2
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1910,7 +1898,7 @@ break
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -1970,7 +1958,7 @@ union
 {
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 CoverageFormat2_4
 <
 MediumTypes

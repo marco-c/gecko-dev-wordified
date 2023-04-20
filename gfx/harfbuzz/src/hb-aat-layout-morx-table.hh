@@ -1002,7 +1002,7 @@ buf
 4
 ]
 ;
-memcpy
+hb_memcpy
 (
 buf
 info
@@ -1019,7 +1019,7 @@ buf
 )
 )
 ;
-memcpy
+hb_memcpy
 (
 buf
 +
@@ -1078,7 +1078,7 @@ buf
 )
 )
 ;
-memcpy
+hb_memcpy
 (
 info
 +
@@ -1097,7 +1097,7 @@ buf
 )
 )
 ;
-memcpy
+hb_memcpy
 (
 info
 +

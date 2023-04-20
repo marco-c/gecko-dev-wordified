@@ -774,7 +774,7 @@ o
 .
 real_links
 .
-remove
+remove_unordered
 (
 i
 )
@@ -2289,11 +2289,8 @@ auto
 new_coverage
 =
 +
-hb_zip
+hb_enumerate
 (
-hb_range
-(
-)
 mark_coverage
 .
 table
@@ -2681,11 +2678,8 @@ auto
 new_coverage
 =
 +
-hb_zip
+hb_enumerate
 (
-hb_range
-(
-)
 mark_coverage
 .
 table
@@ -2942,7 +2936,7 @@ this_index
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 2
 :
@@ -3047,7 +3041,7 @@ vertex
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 2
 :

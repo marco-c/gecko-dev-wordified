@@ -362,8 +362,10 @@ output_path
 255
 ]
 ;
-sprintf
+snprintf
 (
+output_path
+sizeof
 output_path
 "
 out
@@ -735,8 +737,10 @@ output_path
 255
 ]
 ;
-sprintf
+snprintf
 (
+output_path
+sizeof
 output_path
 "
 out
@@ -1294,8 +1298,10 @@ output_path
 255
 ]
 ;
-sprintf
+snprintf
 (
+output_path
+sizeof
 output_path
 "
 out
@@ -1689,8 +1695,10 @@ output_path
 255
 ]
 ;
-sprintf
+snprintf
 (
+output_path
+sizeof
 output_path
 "
 out

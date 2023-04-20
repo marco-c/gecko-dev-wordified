@@ -2027,7 +2027,7 @@ return_trace
 false
 )
 ;
-memcpy
+hb_memcpy
 (
 out
 this

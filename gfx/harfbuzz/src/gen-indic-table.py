@@ -616,6 +616,10 @@ RS
 '
     
 '
+MPst
+'
+    
+'
 Repha
 '
     
@@ -1081,34 +1085,6 @@ Vowel_Independent
 '
 V
 '
-  
-'
-Dotted_Circle
-'
-:
-'
-DOTTEDCIRCLE
-'
-#
-Ours
-not
-Unicode
-'
-s
-  
-'
-Ra
-'
-:
-'
-Ra
-'
-#
-Ours
-not
-Unicode
-'
-s
 }
 position_map
 =
@@ -1542,6 +1518,32 @@ SM
 :
 '
 SM
+'
+  
+#
+U
++
+0A40
+GURMUKHI
+VOWEL
+SIGN
+II
+may
+be
+preceded
+by
+U
++
+0A02
+GURMUKHI
+SIGN
+BINDI
+.
+  
+0x0A40
+:
+'
+MPst
 '
   
 #
@@ -3106,6 +3108,9 @@ H
 '
 M
 '
+'
+MPst
+'
 )
 for
 k
@@ -3185,6 +3190,16 @@ PLACEHOLDER
 DOTTEDCIRCLE
 '
 )
+matra_categories
+=
+(
+'
+M
+'
+'
+MPst
+'
+)
 smvd_categories
 =
 (
@@ -3230,11 +3245,8 @@ BASE_C
   
 elif
 cat
-=
-=
-'
-M
-'
+in
+matra_categories
 :
     
 if
@@ -4808,7 +4820,7 @@ last
 +
 16
 *
-3
+2
 :
 			
 print_block
@@ -5382,7 +5394,7 @@ table
 Maintain
 at
 least
-30
+50
 %
 occupancy
 in
@@ -5393,7 +5405,7 @@ table
 if
 occupancy
 <
-30
+50
 :
 	
 raise

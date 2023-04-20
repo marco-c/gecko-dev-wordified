@@ -1638,7 +1638,7 @@ glyph_count
 #
 undef
 ALLOCATE_ARRAY
-memset
+hb_memset
 (
 clusters
 0

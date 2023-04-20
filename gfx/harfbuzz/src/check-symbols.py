@@ -339,7 +339,7 @@ r
 .
 +
 [
-BCDGIRST
+BCDGIRSTu
 ]
 .
 +

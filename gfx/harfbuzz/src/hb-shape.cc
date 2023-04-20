@@ -263,6 +263,9 @@ machinery
 .
 hh
 "
+#
+ifndef
+HB_NO_SHAPER
 /
 *
 *
@@ -1092,3 +1095,5 @@ nullptr
 )
 ;
 }
+#
+endif

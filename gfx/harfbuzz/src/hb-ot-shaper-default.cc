@@ -295,6 +295,9 @@ fallback_position
 /
 }
 ;
+#
+ifndef
+HB_NO_AAT_SHAPE
 /
 *
 Same
@@ -398,5 +401,7 @@ fallback_position
 /
 }
 ;
+#
+endif
 #
 endif

@@ -3938,7 +3938,7 @@ else
 int
 shift
 ;
-memcpy
+hb_memcpy
 (
 buf
 lang_str

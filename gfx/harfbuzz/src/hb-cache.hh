@@ -303,10 +303,10 @@ static_assert
 key_bits
 +
 value_bits
--
-cache_bits
 <
 =
+cache_bits
++
 8
 *
 sizeof
