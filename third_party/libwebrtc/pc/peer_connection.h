@@ -1088,12 +1088,15 @@ or
 fails
 .
 static
+RTCErrorOr
+<
 rtc
 :
 :
 scoped_refptr
 <
 PeerConnection
+>
 >
 Create
 (
@@ -3397,7 +3400,7 @@ override
 ;
 private
 :
-bool
+RTCError
 Initialize
 (
 const
