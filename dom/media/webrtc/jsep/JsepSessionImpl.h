@@ -1081,7 +1081,7 @@ mTransceivers
 ;
 }
 virtual
-void
+nsresult
 AddTransceiver
 (
 RefPtr
@@ -1669,14 +1669,6 @@ SetIceRestarting
 (
 bool
 restarting
-)
-;
-void
-InitTransceiver
-(
-JsepTransceiver
-&
-aTransceiver
 )
 ;
 /

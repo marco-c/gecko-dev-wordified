@@ -397,14 +397,6 @@ init
 )
 ;
 }
-Services
-.
-fog
-.
-initializeFOG
-(
-)
-;
 }
 /
 /
