@@ -101,7 +101,7 @@ abstractions
 built
 around
 the
-blessings
+blessed
 module
 .
 "

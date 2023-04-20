@@ -4306,7 +4306,7 @@ mach
 builds
 inside
 a
-blessings
+blessed
 -
 supported
 terminal
