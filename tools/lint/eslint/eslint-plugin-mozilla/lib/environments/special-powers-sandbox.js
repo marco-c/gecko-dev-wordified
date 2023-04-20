@@ -115,7 +115,9 @@ content
 /
 SpecialPowersSandbox
 .
-jsm
+sys
+.
+mjs
 /
 /
 SANDBOX_GLOBALS

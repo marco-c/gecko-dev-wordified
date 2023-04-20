@@ -148,7 +148,9 @@ registerXPCTestComponents
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 globals
 .
 "

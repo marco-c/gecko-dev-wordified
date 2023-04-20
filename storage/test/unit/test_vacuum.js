@@ -44,7 +44,7 @@ MockRegistrar
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,7 +57,9 @@ common
 /
 MockRegistrar
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -402,7 +402,9 @@ content
 /
 SpecialPowersChild
 .
-jsm
+sys
+.
+mjs
 /
 /
 SpecialPowersChild
@@ -522,7 +524,9 @@ content
 /
 SpecialPowersParent
 .
-jsm
+sys
+.
+mjs
 /
 /
 SpecialPowersParent

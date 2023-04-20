@@ -124,7 +124,9 @@ content
 /
 SpecialPowersParent
 .
-jsm
+sys
+.
+mjs
 /
 /
 SPLoadChromeScript
