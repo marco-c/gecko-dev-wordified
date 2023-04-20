@@ -948,7 +948,7 @@ does
 void
 OnConnectionRequestResponse
 (
-ConnectionRequest
+StunRequest
 *
 req
 StunMessage

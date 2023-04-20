@@ -3510,7 +3510,7 @@ TCPConnection
 :
 OnConnectionRequestResponse
 (
-ConnectionRequest
+StunRequest
 *
 req
 StunMessage
