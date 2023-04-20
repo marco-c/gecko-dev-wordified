@@ -464,10 +464,10 @@ proxied
 .
 #
 ifndef
-API_PROXY_H_
+PC_PROXY_H_
 #
 define
-API_PROXY_H_
+PC_PROXY_H_
 #
 include
 <
@@ -3494,4 +3494,4 @@ webrtc
 endif
 /
 /
-API_PROXY_H_
+PC_PROXY_H_

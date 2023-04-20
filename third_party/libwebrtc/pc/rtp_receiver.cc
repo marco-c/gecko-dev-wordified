@@ -111,9 +111,9 @@ vector
 #
 include
 "
-api
+pc
 /
-media_stream_proxy
+media_stream
 .
 h
 "
@@ -122,7 +122,7 @@ include
 "
 pc
 /
-media_stream
+media_stream_proxy
 .
 h
 "
