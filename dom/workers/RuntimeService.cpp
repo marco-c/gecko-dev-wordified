@@ -670,13 +670,6 @@ endif
 #
 include
 "
-Principal
-.
-h
-"
-#
-include
-"
 WorkerDebuggerManager
 .
 h
@@ -5005,7 +4998,7 @@ HasReleasedWrapper
 JS_InitDestroyPrincipalsCallback
 (
 cx
-WorkerPrincipal
+nsJSPrincipals
 :
 :
 Destroy
