@@ -749,8 +749,6 @@ StackResults
 ;
 }
 return
-ToMIRType
-(
 args_
 [
 naturalIndex
@@ -758,6 +756,9 @@ naturalIndex
 i
 )
 ]
+.
+toMIRType
+(
 )
 ;
 }

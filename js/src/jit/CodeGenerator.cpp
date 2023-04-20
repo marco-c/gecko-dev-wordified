@@ -126756,8 +126756,6 @@ F64
 :
 argMir
 =
-ToMIRType
-(
 sig
 .
 args
@@ -126766,6 +126764,9 @@ args
 [
 i
 ]
+.
+toMIRType
+(
 )
 ;
 break
@@ -126846,8 +126847,6 @@ here
 .
 argMir
 =
-ToMIRType
-(
 sig
 .
 args
@@ -126856,6 +126855,9 @@ args
 [
 i
 ]
+.
+toMIRType
+(
 )
 ;
 break
