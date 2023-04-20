@@ -236,16 +236,6 @@ GetHandleLauncherErrorFn
 )
 final
 ;
-nt
-:
-:
-SharedSection
-*
-GetSharedSection
-(
-)
-final
-;
 void
 SetObserver
 (
