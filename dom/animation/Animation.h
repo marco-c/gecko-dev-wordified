@@ -821,7 +821,16 @@ SetCurrentTime
 const
 TimeDuration
 &
-aNewCurrentTime
+aSeekTime
+)
+;
+void
+SetCurrentTimeNoUpdate
+(
+const
+TimeDuration
+&
+aSeekTime
 )
 ;
 void
