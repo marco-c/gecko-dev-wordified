@@ -130,6 +130,15 @@ h
 #
 include
 "
+call
+/
+video_receive_stream
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp

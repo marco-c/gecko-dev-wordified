@@ -101,11 +101,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 cctype
 >
 /
@@ -116,11 +111,6 @@ std
 :
 isdigit
 .
-#
-include
-<
-memory
->
 #
 include
 <

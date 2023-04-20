@@ -94,7 +94,7 @@ h
 #
 include
 <
-algorithm
+type_traits
 >
 #
 include
@@ -190,6 +190,15 @@ include
 rtc_base
 /
 logging
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+ref_counted_object
 .
 h
 "

@@ -104,6 +104,11 @@ atomic
 #
 include
 <
+string
+>
+#
+include
+<
 utility
 >
 #

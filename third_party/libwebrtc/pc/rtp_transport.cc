@@ -101,7 +101,7 @@ h
 #
 include
 <
-string
+cstdint
 >
 #
 include
@@ -125,6 +125,17 @@ include
 api
 /
 array_view
+.
+h
+"
+#
+include
+"
+api
+/
+units
+/
+timestamp
 .
 h
 "

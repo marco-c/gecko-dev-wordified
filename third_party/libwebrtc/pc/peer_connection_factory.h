@@ -164,6 +164,17 @@ include
 "
 api
 /
+metronome
+/
+metronome
+.
+h
+"
+#
+include
+"
+api
+/
 neteq
 /
 neteq_factory

@@ -93,11 +93,6 @@ h
 "
 #
 include
-<
-memory
->
-#
-include
 "
 test
 /

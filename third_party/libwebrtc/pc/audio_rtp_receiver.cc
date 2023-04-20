@@ -101,6 +101,11 @@ h
 #
 include
 <
+string
+>
+#
+include
+<
 utility
 >
 #
@@ -158,7 +163,7 @@ include
 "
 rtc_base
 /
-logging
+ref_counted_object
 .
 h
 "

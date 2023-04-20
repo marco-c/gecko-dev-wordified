@@ -101,9 +101,7 @@ h
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include
@@ -131,15 +129,6 @@ include
 rtc_base
 /
 byte_buffer
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-checks
 .
 h
 "
