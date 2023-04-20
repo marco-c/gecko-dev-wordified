@@ -1699,14 +1699,6 @@ ElemSegmentVector
 elemSegments
 )
 ;
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 /
 /
 Trace
