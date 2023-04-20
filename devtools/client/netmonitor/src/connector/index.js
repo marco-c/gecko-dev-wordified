@@ -647,7 +647,7 @@ owner
 await
 this
 .
-toolbox
+commands
 .
 resourceCommand
 .
@@ -775,7 +775,7 @@ true
 ;
 this
 .
-toolbox
+commands
 .
 resourceCommand
 .
@@ -868,7 +868,7 @@ clear
 ;
 this
 .
-toolbox
+commands
 .
 resourceCommand
 .
@@ -918,7 +918,7 @@ pause
 return
 this
 .
-toolbox
+commands
 .
 resourceCommand
 .
@@ -952,7 +952,7 @@ true
 return
 this
 .
-toolbox
+commands
 .
 resourceCommand
 .
