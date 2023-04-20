@@ -108,16 +108,6 @@ server
 "
 )
 ;
-const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 loader
 .
 lazyGetter

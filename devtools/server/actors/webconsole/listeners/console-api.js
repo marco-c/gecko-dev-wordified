@@ -75,16 +75,6 @@ chrome
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 CONSOLE_WORKER_IDS
 WebConsoleUtils

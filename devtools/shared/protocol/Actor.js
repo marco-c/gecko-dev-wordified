@@ -107,16 +107,6 @@ chrome
 "
 )
 ;
-const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 /
 *
 *

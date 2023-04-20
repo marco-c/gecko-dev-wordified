@@ -151,16 +151,6 @@ nsIHttpActivityDistributor
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 setTimeout
 }

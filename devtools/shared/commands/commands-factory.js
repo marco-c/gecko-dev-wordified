@@ -80,16 +80,6 @@ index
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 DevToolsLoader
 }

@@ -3404,6 +3404,7 @@ create
 (
 null
 )
+ChromeUtils
 }
 loadSubScript
 modules
@@ -3412,7 +3413,6 @@ modules
 Debugger
 chrome
 xpcInspector
-ChromeUtils
 DebuggerNotificationObserver
 }
 paths

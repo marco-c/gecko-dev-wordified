@@ -296,16 +296,6 @@ utils
 )
 ;
 var
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-var
 {
 gDevTools
 }

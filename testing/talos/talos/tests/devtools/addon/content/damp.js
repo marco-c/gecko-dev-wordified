@@ -91,16 +91,6 @@ requestIdleCallback
 dampWindow
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 AddonManager
 }

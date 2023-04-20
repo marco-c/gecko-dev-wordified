@@ -219,16 +219,6 @@ LayoutChangesObserver
 *
 /
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 protocol
 =
 require

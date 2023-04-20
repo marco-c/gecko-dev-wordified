@@ -463,16 +463,6 @@ strict
 "
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 components
 Cc

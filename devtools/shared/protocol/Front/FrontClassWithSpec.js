@@ -73,16 +73,6 @@ chrome
 "
 )
 ;
-const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 var
 {
 Front

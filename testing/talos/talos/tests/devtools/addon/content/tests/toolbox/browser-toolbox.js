@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 runTest
 testSetup

@@ -311,16 +311,6 @@ ProfilerViewMode
 *
 /
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 createLazyLoaders
 }

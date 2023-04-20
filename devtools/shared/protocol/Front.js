@@ -61,16 +61,6 @@ use
 strict
 "
 ;
-const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 var
 {
 settleAll

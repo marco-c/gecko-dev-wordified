@@ -126,16 +126,6 @@ event
 *
 /
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 lazy
 =
 {
