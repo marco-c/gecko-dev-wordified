@@ -2047,11 +2047,6 @@ engines
 "
 gecko
 "
-gecko_enum_prefix
-=
-"
-StyleMathStyle
-"
 gecko_pref
 =
 "

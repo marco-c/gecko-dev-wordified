@@ -1425,10 +1425,7 @@ StyleFont
 mMathStyle
 =
 =
-StyleMathStyle
-:
-:
-Normal
+NS_STYLE_MATH_STYLE_NORMAL
 ruleThickness
 leading
 psi
