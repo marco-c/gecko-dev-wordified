@@ -220,6 +220,10 @@ aIsChromeWorker
 *
 /
 WorkerKindDedicated
+WorkerType
+:
+:
+Classic
 u
 "
 "
