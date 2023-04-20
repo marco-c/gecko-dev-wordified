@@ -170,7 +170,7 @@ id
 1
 url
 :
-http
+https
 :
 /
 /
@@ -201,7 +201,7 @@ sponsored
 click_url
 :
 "
-http
+https
 :
 /
 /
@@ -214,7 +214,7 @@ click
 impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -243,7 +243,7 @@ id
 2
 url
 :
-http
+https
 :
 /
 /
@@ -276,7 +276,7 @@ nonsponsored
 click_url
 :
 "
-http
+https
 :
 /
 /
@@ -289,7 +289,7 @@ click
 impression_url
 :
 "
-http
+https
 :
 /
 /
