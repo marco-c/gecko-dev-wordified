@@ -1998,7 +1998,7 @@ markColor
 const
 {
 return
-color
+markColor_
 ;
 }
 bool
@@ -3065,7 +3065,11 @@ grayPosition
 /
 *
 The
+current
+mark
 color
+.
+This
 is
 only
 applied
@@ -3083,7 +3087,7 @@ gc
 :
 MarkColor
 >
-color
+markColor_
 ;
 /
 *
