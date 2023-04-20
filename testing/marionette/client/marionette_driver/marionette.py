@@ -11804,6 +11804,26 @@ id
 }
         
 elif
+type
+(
+args
+)
+=
+=
+ShadowRoot
+:
+            
+wrapped
+=
+{
+WEB_SHADOW_ROOT_KEY
+:
+args
+.
+id
+}
+        
+elif
 (
             
 isinstance
