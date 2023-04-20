@@ -196,6 +196,11 @@ SurfaceFormat
 aFormat
 bool
 aContinuousUpdate
+gl
+:
+:
+OriginPos
+aOriginPos
 Maybe
 <
 gfx
@@ -399,6 +404,13 @@ gecko
 const
 bool
 mContinuousUpdate
+;
+const
+gl
+:
+:
+OriginPos
+mOriginPos
 ;
 const
 Maybe
