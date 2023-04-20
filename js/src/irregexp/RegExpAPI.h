@@ -242,6 +242,9 @@ js
 class
 VectorMatchPairs
 ;
+class
+LifoAlloc
+;
 namespace
 frontend
 {
@@ -296,9 +299,12 @@ mallocSizeOf
 bool
 CheckPatternSyntax
 (
-JSContext
-*
-cx
+js
+:
+:
+LifoAlloc
+&
+alloc
 JS
 :
 :

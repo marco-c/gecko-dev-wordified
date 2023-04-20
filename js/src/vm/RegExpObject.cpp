@@ -7200,6 +7200,11 @@ irregexp
 CheckPatternSyntax
 (
 cx
+-
+>
+tempLifoAlloc
+(
+)
 cx
 -
 >
