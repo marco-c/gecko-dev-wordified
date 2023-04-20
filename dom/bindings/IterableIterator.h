@@ -446,9 +446,6 @@ aCx
 Promise
 *
 aPromise
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -471,9 +468,6 @@ JS
 Value
 >
 aKeyOrValue
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -507,9 +501,6 @@ JS
 Value
 >
 aValue
-ErrorResult
-&
-aRv
 )
 ;
 }
