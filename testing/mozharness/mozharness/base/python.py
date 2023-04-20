@@ -1680,6 +1680,11 @@ module_url
 "
         
 import
+http
+.
+client
+        
+import
 urllib
 .
 request
@@ -2277,6 +2282,12 @@ URLError
 socket
 .
 timeout
+                    
+http
+.
+client
+.
+RemoteDisconnected
                 
 )
 as
