@@ -962,7 +962,7 @@ disabled
 )
 ;
 }
-add_task
+add_setup
 (
 async
 function
@@ -975,6 +975,14 @@ gProvider
 new
 MockProvider
 (
+[
+"
+extension
+"
+"
+sitepermission
+"
+]
 )
 ;
 gProvider

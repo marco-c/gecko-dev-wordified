@@ -224,6 +224,14 @@ mockProvider
 new
 MockProvider
 (
+[
+"
+extension
+"
+"
+sitepermission
+"
+]
 )
 ;
 promptService
