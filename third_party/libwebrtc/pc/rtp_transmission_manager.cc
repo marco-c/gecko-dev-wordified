@@ -4267,10 +4267,6 @@ stream
 RemoveTrack
 (
 audio_track
-.
-get
-(
-)
 )
 ;
 }
@@ -4374,10 +4370,6 @@ stream
 RemoveTrack
 (
 video_track
-.
-get
-(
-)
 )
 ;
 }

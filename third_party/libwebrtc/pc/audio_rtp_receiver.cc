@@ -1624,9 +1624,7 @@ existing_stream
 >
 RemoveTrack
 (
-track_
-.
-get
+audio_track
 (
 )
 )
@@ -1720,9 +1718,7 @@ stream
 >
 AddTrack
 (
-track_
-.
-get
+audio_track
 (
 )
 )

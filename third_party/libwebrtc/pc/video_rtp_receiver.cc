@@ -1350,9 +1350,7 @@ existing_stream
 >
 RemoveTrack
 (
-track_
-.
-get
+video_track
 (
 )
 )
@@ -1446,9 +1444,7 @@ stream
 >
 AddTrack
 (
-track_
-.
-get
+video_track
 (
 )
 )
