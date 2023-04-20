@@ -71,12 +71,12 @@ profiling_categories
 .
 yaml
 .
-import
-yaml
 from
 collections
 import
 OrderedDict
+import
+yaml
 CPP_HEADER_TEMPLATE
 =
 "
