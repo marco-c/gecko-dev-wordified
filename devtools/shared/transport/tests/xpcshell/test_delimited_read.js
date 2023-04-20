@@ -53,7 +53,9 @@ utils
 const
 StringInputStream
 =
-CC
+Components
+.
+Constructor
 (
 "
 mozilla

@@ -85,19 +85,6 @@ index
 "
 )
 ;
-const
-{
-Ci
-components
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
 loader
 .
 lazyRequireGetter
@@ -936,7 +923,7 @@ etc
 let
 frame
 =
-components
+Components
 .
 stack
 ;
@@ -1105,7 +1092,7 @@ stack
 /
 /
 from
-components
+Components
 .
 stack
 will

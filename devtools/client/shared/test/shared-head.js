@@ -13025,7 +13025,9 @@ data
 const
 BufferStream
 =
-CC
+Components
+.
+Constructor
 (
 "
 mozilla

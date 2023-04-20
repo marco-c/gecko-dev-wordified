@@ -59,7 +59,9 @@ jsm
 var
 Pipe
 =
-CC
+Components
+.
+Constructor
 (
 "
 mozilla

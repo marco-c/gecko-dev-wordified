@@ -61,18 +61,6 @@ use
 strict
 "
 ;
-const
-{
-components
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
 /
 *
 *
@@ -229,7 +217,7 @@ interruptible
 const
 frame
 =
-components
+Components
 .
 stack
 .
