@@ -1406,9 +1406,9 @@ input
 )
 *
 *
-argument
+param
 {
-String
+string
 }
 input
 Base64
@@ -1424,7 +1424,7 @@ of
 *
 returns
 {
-String
+string
 }
 Base64
 encoded
