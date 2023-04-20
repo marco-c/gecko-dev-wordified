@@ -204,6 +204,7 @@ Foo
 /
 RTC_DCHECK_RUN_ON
 (
+&
 sequence_checker_
 )
 ;
