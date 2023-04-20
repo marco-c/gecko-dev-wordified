@@ -5235,7 +5235,7 @@ clone_container_type
 (
 )
 .
-is_empty
+is_normal
 (
 )
 ;
