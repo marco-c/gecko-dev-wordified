@@ -3221,25 +3221,6 @@ args
 =
 False
         
-else
-:
-            
-job_description
-[
-"
-run
-"
-]
-[
-"
-need
--
-xvfb
-"
-]
-=
-True
-        
 if
 job
 .
