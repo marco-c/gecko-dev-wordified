@@ -1655,7 +1655,7 @@ BrowserProcess
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1667,7 +1667,9 @@ actors
 /
 BrowserProcessChild
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :

@@ -61,15 +61,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BrowserProcessChild
-"
-]
-;
 const
 lazy
 =
@@ -120,6 +111,7 @@ jsm
 "
 )
 ;
+export
 class
 BrowserProcessChild
 extends

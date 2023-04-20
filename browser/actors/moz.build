@@ -376,7 +376,9 @@ jsm
 "
 BrowserProcessChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 BrowserTabChild
