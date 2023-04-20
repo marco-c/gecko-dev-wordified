@@ -642,13 +642,7 @@ ParseNumericValue
 aThicknessAttribute
 &
 lineThickness
-dom
-:
-:
-MathMLElement
-:
-:
-PARSE_ALLOW_UNITLESS
+0
 aPresContext
 aComputedStyle
 aFontSizeInflation

@@ -3103,13 +3103,7 @@ ParseNumericValue
 valueString
 &
 newValue
-dom
-:
-:
-MathMLElement
-:
-:
-PARSE_ALLOW_UNITLESS
+0
 presContext
 computedStyle
 aFontSizeInflation
