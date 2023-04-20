@@ -1299,12 +1299,6 @@ mParent
 }
 protected
 :
-nsCOMPtr
-<
-nsINode
->
-mNode
-;
 RefPtr
 <
 LocalAccessible
