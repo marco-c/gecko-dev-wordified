@@ -102,24 +102,6 @@ browsertime
 "
     
 "
-p2
--
-browsertime
-"
-:
-"
-perftest
--
-android
--
-hw
--
-p2
--
-browsertime
-"
-    
-"
 linux
 -
 xpcshell
