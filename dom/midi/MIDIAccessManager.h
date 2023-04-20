@@ -427,6 +427,11 @@ MIDIAccessManager
 (
 )
 ;
+void
+StartActor
+(
+)
+;
 /
 /
 True
