@@ -105,6 +105,14 @@ org
 .
 junit
 .
+Assume
+.
+assumeThat
+import
+org
+.
+junit
+.
 Test
 import
 org
@@ -114,14 +122,6 @@ junit
 runner
 .
 RunWith
-import
-org
-.
-junit
-.
-Assume
-.
-assumeThat
 import
 org
 .
@@ -270,9 +270,7 @@ callback
 reject
 (
 )
-;
 return
-;
 }
 var
 audioDevice
@@ -285,7 +283,6 @@ MediaSource
 ?
 =
 null
-;
 var
 videoDevice
 :
@@ -297,7 +294,6 @@ MediaSource
 ?
 =
 null
-;
 if
 (
 allowAudio
@@ -311,7 +307,6 @@ audio
 [
 0
 ]
-;
 }
 if
 (
@@ -326,7 +321,6 @@ video
 [
 0
 ]
-;
 }
 if
 (
@@ -349,7 +343,6 @@ grant
 videoDevice
 audioDevice
 )
-;
 }
 }
 override
@@ -934,7 +927,6 @@ allowCamera
 =
 false
 )
-;
 }
 }
 Test
@@ -1181,7 +1173,6 @@ allowCamera
 =
 true
 )
-;
 }
 }
 }

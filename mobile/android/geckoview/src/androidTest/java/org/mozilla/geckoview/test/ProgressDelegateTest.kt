@@ -104,6 +104,16 @@ hamcrest
 Matchers
 .
 *
+/
+/
+ktlint
+-
+disable
+no
+-
+wildcard
+-
+imports
 import
 org
 .
@@ -159,7 +169,9 @@ geckoview
 .
 GeckoSession
 .
-ProgressDelegate
+PermissionDelegate
+.
+ContentPermission
 import
 org
 .
@@ -169,9 +181,7 @@ geckoview
 .
 GeckoSession
 .
-PermissionDelegate
-.
-ContentPermission
+ProgressDelegate
 import
 org
 .
@@ -186,6 +196,16 @@ rule
 GeckoSessionTestRule
 .
 *
+/
+/
+ktlint
+-
+disable
+no
+-
+wildcard
+-
+imports
 RunWith
 (
 AndroidJUnit4
@@ -811,7 +831,6 @@ true
 )
 )
 }
-;
 }
 )
 }
@@ -1826,6 +1845,7 @@ env
 .
 isAutomation
 )
+{
 "
 https
 :
@@ -1837,7 +1857,9 @@ example
 .
 com
 "
+}
 else
+{
 "
 https
 :
@@ -1849,6 +1871,7 @@ badssl
 .
 com
 "
+}
 )
 sessionRule
 .
@@ -2482,7 +2505,6 @@ collectState
 helloUri
 startUri
 )
-;
 val
 session
 =
@@ -2765,7 +2787,6 @@ collectState
 (
 startUri
 )
-;
 mainSession
 .
 loadUri
