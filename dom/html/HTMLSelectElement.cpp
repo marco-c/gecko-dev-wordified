@@ -3638,10 +3638,6 @@ one
 ;
 }
 }
-#
-define
-MAX_DYNAMIC_SELECT_LENGTH
-10000
 void
 HTMLSelectElement
 :
@@ -3655,6 +3651,12 @@ ErrorResult
 aRv
 )
 {
+constexpr
+uint32_t
+kMaxDynamicSelectLength
+=
+100000
+;
 uint32_t
 curlen
 =
@@ -3711,7 +3713,7 @@ if
 (
 aLength
 >
-MAX_DYNAMIC_SELECT_LENGTH
+kMaxDynamicSelectLength
 )
 {
 nsAutoString
@@ -3731,7 +3733,7 @@ strLimit
 .
 AppendInt
 (
-MAX_DYNAMIC_SELECT_LENGTH
+kMaxDynamicSelectLength
 )
 ;
 nsContentUtils
@@ -3747,7 +3749,7 @@ warningFlag
 DOM
 "
 _ns
-GetOwnerDocument
+OwnerDoc
 (
 )
 nsContentUtils
