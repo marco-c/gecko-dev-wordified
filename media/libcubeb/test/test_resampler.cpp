@@ -300,8 +300,6 @@ chunk_increment
 ;
 #
 endif
-/
-/
 #
 define
 DUMP_ARRAYS
@@ -7270,9 +7268,3 @@ frames_needed2
 )
 ;
 }
-#
-undef
-NOMINMAX
-#
-undef
-DUMP_ARRAYS
