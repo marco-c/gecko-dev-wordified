@@ -4373,6 +4373,10 @@ uint8_t
 data
 =
 data_
++
+elementSize
+*
+itemIndex
 ;
 MOZ_ASSERT
 (
