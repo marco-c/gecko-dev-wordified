@@ -535,7 +535,7 @@ if
 msg_type
 =
 =
-kAllRequests
+kAllRequestsForTest
 |
 |
 msg_type
@@ -673,6 +673,12 @@ RTC_DCHECK_RUN_ON
 thread_
 )
 ;
+RTC_DCHECK_NE
+(
+msg_type
+kAllRequestsForTest
+)
+;
 for
 (
 const
@@ -688,12 +694,6 @@ requests_
 {
 if
 (
-msg_type
-=
-=
-kAllRequests
-|
-|
 msg_type
 =
 =
