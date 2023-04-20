@@ -78,6 +78,10 @@ TAKE_SCREENSHOT_END
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ responsive
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -96,6 +102,10 @@ message
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ responsive
 utils
 /
 message
+.
+js
 "
 )
 ;

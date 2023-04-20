@@ -75,6 +75,10 @@ TOGGLE_USER_AGENT_INPUT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +88,8 @@ responsive
 actions
 /
 index
+.
+js
 "
 )
 ;

@@ -49,6 +49,10 @@ addViewport
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +62,8 @@ responsive
 actions
 /
 viewports
+.
+js
 "
 )
 ;

@@ -129,6 +129,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +140,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -148,6 +154,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +167,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -166,6 +178,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -177,6 +193,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -188,6 +206,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -199,6 +221,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -208,6 +232,10 @@ message
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +245,8 @@ responsive
 utils
 /
 message
+.
+js
 "
 )
 ;
@@ -228,6 +258,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +271,8 @@ responsive
 components
 /
 App
+.
+js
 "
 )
 )
@@ -247,6 +283,10 @@ Store
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -254,6 +294,8 @@ client
 responsive
 /
 store
+.
+js
 "
 )
 ;
@@ -266,6 +308,10 @@ restoreDeviceState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -275,6 +321,8 @@ responsive
 actions
 /
 devices
+.
+js
 "
 )
 ;
@@ -290,6 +338,10 @@ zoomViewport
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -299,6 +351,8 @@ responsive
 actions
 /
 viewports
+.
+js
 "
 )
 ;
@@ -312,6 +366,10 @@ toggleTouchSimulation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -321,6 +379,8 @@ responsive
 actions
 /
 ui
+.
+js
 "
 )
 ;

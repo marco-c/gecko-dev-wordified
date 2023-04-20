@@ -67,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ createEnum
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ client
 shared
 /
 enum
+.
+js
 "
 )
 ;

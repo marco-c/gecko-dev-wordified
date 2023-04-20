@@ -72,6 +72,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +141,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +169,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -158,6 +182,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +195,8 @@ responsive
 components
 /
 DevicePixelRatioMenu
+.
+js
 "
 )
 )
@@ -179,6 +209,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +222,8 @@ responsive
 components
 /
 DeviceSelector
+.
+js
 "
 )
 )
@@ -200,6 +236,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -211,6 +251,8 @@ components
 throttling
 /
 NetworkThrottlingMenu
+.
+js
 "
 )
 )
@@ -223,6 +265,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -232,6 +278,8 @@ responsive
 components
 /
 SettingsMenu
+.
+js
 "
 )
 )
@@ -244,6 +292,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -253,6 +305,8 @@ responsive
 components
 /
 ViewportDimension
+.
+js
 "
 )
 )
@@ -275,6 +329,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -284,6 +342,8 @@ responsive
 components
 /
 UserAgentInput
+.
+js
 "
 )
 )
@@ -299,6 +359,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -308,6 +372,8 @@ responsive
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -317,6 +383,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -324,6 +394,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;

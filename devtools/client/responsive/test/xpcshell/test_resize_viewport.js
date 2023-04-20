@@ -48,6 +48,10 @@ resizeViewport
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -57,6 +61,8 @@ responsive
 actions
 /
 viewports
+.
+js
 "
 )
 ;
@@ -68,6 +74,10 @@ toggleTouchSimulation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -77,6 +87,8 @@ responsive
 actions
 /
 ui
+.
+js
 "
 )
 ;

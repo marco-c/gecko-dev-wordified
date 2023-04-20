@@ -67,6 +67,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +78,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ getOrientation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +104,8 @@ responsive
 utils
 /
 orientation
+.
+js
 "
 )
 ;
@@ -103,6 +115,10 @@ Constants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +126,8 @@ client
 responsive
 /
 constants
+.
+js
 "
 )
 ;
@@ -121,6 +139,10 @@ CommandsFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -130,6 +152,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 )
 ;

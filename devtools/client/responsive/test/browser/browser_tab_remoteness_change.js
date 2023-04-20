@@ -97,6 +97,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +108,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;

@@ -38,6 +38,10 @@ throttlingProfiles
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ components
 throttling
 /
 profiles
+.
+js
 "
 )
 ;

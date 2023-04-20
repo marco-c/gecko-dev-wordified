@@ -48,6 +48,10 @@ parseUserAgent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -57,6 +61,8 @@ responsive
 utils
 /
 ua
+.
+js
 "
 )
 ;

@@ -69,6 +69,10 @@ parseUserAgent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ responsive
 utils
 /
 ua
+.
+js
 "
 )
 ;
@@ -89,11 +95,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

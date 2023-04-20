@@ -78,6 +78,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -96,6 +102,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +119,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -118,6 +130,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +147,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -142,6 +160,10 @@ getFormatStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +173,8 @@ responsive
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -162,6 +186,10 @@ parseUserAgent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -171,6 +199,8 @@ responsive
 utils
 /
 ua
+.
+js
 "
 )
 ;
@@ -180,6 +210,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +221,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;
@@ -198,6 +234,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +247,8 @@ responsive
 components
 /
 DeviceInfo
+.
+js
 "
 )
 )

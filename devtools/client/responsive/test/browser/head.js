@@ -198,6 +198,10 @@ _loadPreferredDevices
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +211,8 @@ responsive
 actions
 /
 devices
+.
+js
 "
 )
 ;
@@ -218,6 +224,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -227,6 +237,8 @@ responsive
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -238,6 +250,10 @@ getTopLevelWindow
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -247,6 +263,8 @@ responsive
 utils
 /
 window
+.
+js
 "
 )
 ;
@@ -260,6 +278,10 @@ removeLocalDevices
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -267,6 +289,8 @@ client
 shared
 /
 devices
+.
+js
 "
 )
 ;
@@ -278,6 +302,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -285,6 +313,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;
@@ -294,6 +324,10 @@ asyncStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -301,6 +335,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;
@@ -310,6 +346,10 @@ localTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -317,6 +357,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;

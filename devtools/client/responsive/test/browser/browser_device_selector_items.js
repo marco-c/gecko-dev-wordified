@@ -50,6 +50,10 @@ MenuItem
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +65,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 ;
@@ -224,6 +230,10 @@ updatePreferredDevices
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +243,8 @@ responsive
 actions
 /
 devices
+.
+js
 "
 )
 ;

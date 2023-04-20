@@ -49,6 +49,10 @@ addDeviceType
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +62,8 @@ responsive
 actions
 /
 devices
+.
+js
 "
 )
 ;
@@ -70,6 +76,10 @@ changeDevice
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +89,8 @@ responsive
 actions
 /
 viewports
+.
+js
 "
 )
 ;

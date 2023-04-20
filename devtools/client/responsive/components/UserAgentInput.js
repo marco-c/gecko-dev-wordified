@@ -69,6 +69,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +138,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +166,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -155,6 +179,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +190,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;
@@ -173,6 +203,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +216,8 @@ responsive
 utils
 /
 l10n
+.
+js
 "
 )
 ;

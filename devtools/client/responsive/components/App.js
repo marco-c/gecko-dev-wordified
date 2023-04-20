@@ -78,6 +78,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -96,6 +102,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +119,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -118,6 +130,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +147,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -142,6 +160,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +175,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -164,6 +188,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +201,8 @@ responsive
 components
 /
 Toolbar
+.
+js
 "
 )
 )
@@ -194,6 +224,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -203,6 +237,8 @@ responsive
 components
 /
 DeviceModal
+.
+js
 "
 )
 )
@@ -216,6 +252,10 @@ changeNetworkThrottling
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -227,6 +267,8 @@ components
 throttling
 /
 actions
+.
+js
 "
 )
 ;
@@ -243,6 +285,10 @@ updatePreferredDevices
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -252,6 +298,8 @@ responsive
 actions
 /
 devices
+.
+js
 "
 )
 ;
@@ -263,6 +311,10 @@ takeScreenshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -272,6 +324,8 @@ responsive
 actions
 /
 screenshot
+.
+js
 "
 )
 ;
@@ -288,6 +342,10 @@ toggleUserAgentInput
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -297,6 +355,8 @@ responsive
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -313,6 +373,10 @@ rotateViewport
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -322,6 +386,8 @@ responsive
 actions
 /
 viewports
+.
+js
 "
 )
 ;
@@ -333,6 +399,10 @@ getOrientation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -342,6 +412,8 @@ responsive
 utils
 /
 orientation
+.
+js
 "
 )
 ;
@@ -351,6 +423,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -358,6 +434,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;
