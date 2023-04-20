@@ -20889,7 +20889,7 @@ assert_equals
 desc
 .
 enumerable
-false
+true
 {
 name
 }
@@ -21068,7 +21068,7 @@ assert_equals
 sizeDesc
 .
 enumerable
-false
+true
 size
 enumerable
 )
@@ -21303,7 +21303,7 @@ assert_equals
 desc
 .
 enumerable
-false
+true
 {
 name
 }
@@ -21482,7 +21482,7 @@ assert_equals
 sizeDesc
 .
 enumerable
-false
+true
 size
 enumerable
 )
