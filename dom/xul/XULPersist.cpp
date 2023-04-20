@@ -1598,7 +1598,7 @@ mLocalStore
 >
 GetValue
 (
-uri
+aDocURI
 aID
 attrstr
 value
