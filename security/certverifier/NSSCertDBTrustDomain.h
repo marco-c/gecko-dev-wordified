@@ -1750,6 +1750,14 @@ out
 bool
 &
 expired
+/
+*
+out
+*
+/
+uint32_t
+&
+ageInHours
 )
 ;
 TimeDuration
