@@ -1639,7 +1639,7 @@ fxaDevice
 {
 this
 .
-log
+_log
 .
 warn
 (
