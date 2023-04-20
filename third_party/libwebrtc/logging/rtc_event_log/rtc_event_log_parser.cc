@@ -8321,7 +8321,7 @@ size
 )
 ;
 auto
-status
+store_rtcp_status
 =
 StoreRtcpBlocks
 (
@@ -8352,7 +8352,7 @@ incoming_loss_notification_
 ;
 RTC_RETURN_IF_ERROR
 (
-status
+store_rtcp_status
 )
 ;
 }
@@ -8413,7 +8413,7 @@ size
 )
 ;
 auto
-status
+store_rtcp_status
 =
 StoreRtcpBlocks
 (
@@ -8444,7 +8444,7 @@ outgoing_loss_notification_
 ;
 RTC_RETURN_IF_ERROR
 (
-status
+store_rtcp_status
 )
 ;
 }
@@ -23565,7 +23565,7 @@ has_value
 )
 {
 float
-uplink_packet_loss_fraction
+uplink_packet_loss_fraction2
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
@@ -23589,7 +23589,7 @@ value
 )
 )
 &
-uplink_packet_loss_fraction
+uplink_packet_loss_fraction2
 )
 )
 ;
@@ -23597,7 +23597,7 @@ runtime_config
 .
 uplink_packet_loss_fraction
 =
-uplink_packet_loss_fraction
+uplink_packet_loss_fraction2
 ;
 }
 if

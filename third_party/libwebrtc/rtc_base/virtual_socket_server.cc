@@ -5373,7 +5373,7 @@ side
 .
 VirtualSocket
 *
-socket
+lookup_socket
 =
 LookupConnection
 (
@@ -5386,7 +5386,7 @@ addr
 ;
 if
 (
-socket
+lookup_socket
 )
 {
 /
@@ -5426,7 +5426,7 @@ table
 .
 Disconnect
 (
-socket
+lookup_socket
 )
 ;
 RemoveConnection
