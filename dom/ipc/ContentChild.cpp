@@ -7747,7 +7747,7 @@ isTransparent
 *
 /
 false
-aTabOpener
+newChild
 -
 >
 WebWidget
@@ -7758,7 +7758,7 @@ WebWidget
 GetDPI
 (
 )
-aTabOpener
+newChild
 -
 >
 WebWidget
@@ -7769,7 +7769,7 @@ WebWidget
 RoundsWidgetCoordinatesTo
 (
 )
-aTabOpener
+newChild
 -
 >
 WebWidget
