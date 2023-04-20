@@ -62,10 +62,6 @@ bench_collections_gtest
 ;
 extern
 crate
-dap_ffi_gtest
-;
-extern
-crate
 fog_gtest
 ;
 #
