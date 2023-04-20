@@ -12,11 +12,6 @@ rc
 :
 Rc
 ;
-fn
-main
-(
-)
-{
 rayon_core
 :
 :
@@ -41,7 +36,6 @@ new
 /
 ~
 ERROR
-}
 *
 /
 mod
@@ -62,11 +56,6 @@ rc
 :
 Rc
 ;
-fn
-main
-(
-)
-{
 rayon_core
 :
 :
@@ -91,7 +80,6 @@ new
 /
 ~
 ERROR
-}
 *
 /
 mod

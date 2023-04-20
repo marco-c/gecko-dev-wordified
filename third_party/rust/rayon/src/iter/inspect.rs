@@ -1329,7 +1329,6 @@ base
 split_off_left
 (
 )
-&
 self
 .
 inspect_op

@@ -1336,7 +1336,6 @@ base
 split_off_left
 (
 )
-&
 self
 .
 update_op

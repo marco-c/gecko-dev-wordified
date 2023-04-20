@@ -743,7 +743,6 @@ base
 split_off_left
 (
 )
-&
 self
 .
 filter_op

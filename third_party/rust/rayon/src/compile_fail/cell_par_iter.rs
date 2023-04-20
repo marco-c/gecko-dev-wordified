@@ -42,11 +42,6 @@ cell
 :
 Cell
 ;
-fn
-main
-(
-)
-{
 let
 c
 =
@@ -90,6 +85,5 @@ min
 (
 )
 ;
-}
 *
 /

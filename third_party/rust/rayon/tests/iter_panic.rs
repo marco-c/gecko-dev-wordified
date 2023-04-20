@@ -417,10 +417,6 @@ count
 (
 iter
 .
-clone
-(
-)
-.
 panic_fuse
 (
 )

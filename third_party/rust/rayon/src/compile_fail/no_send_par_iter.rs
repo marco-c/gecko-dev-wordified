@@ -55,11 +55,6 @@ for
 NoSend
 {
 }
-fn
-main
-(
-)
-{
 let
 x
 =
@@ -100,7 +95,6 @@ count
 /
 ~
 ERROR
-}
 *
 /
 mod
@@ -154,11 +148,6 @@ for
 NoSend
 {
 }
-fn
-main
-(
-)
-{
 let
 x
 =
@@ -202,7 +191,6 @@ count
 /
 ~
 ERROR
-}
 *
 /
 mod
@@ -256,11 +244,6 @@ for
 NoSend
 {
 }
-fn
-main
-(
-)
-{
 let
 x
 =
@@ -296,7 +279,6 @@ count
 /
 ~
 ERROR
-}
 *
 /
 mod

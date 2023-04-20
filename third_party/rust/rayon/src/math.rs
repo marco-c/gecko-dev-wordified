@@ -31,7 +31,7 @@ integer
 if
 not
 evenly
-divisable
+divisible
 .
 #
 [

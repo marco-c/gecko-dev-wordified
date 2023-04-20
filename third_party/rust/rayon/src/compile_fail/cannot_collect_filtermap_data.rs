@@ -36,11 +36,6 @@ cannot
 apply
 it
 .
-fn
-main
-(
-)
-{
 let
 a
 :
@@ -102,6 +97,5 @@ v
 ERROR
 no
 method
-}
 *
 /

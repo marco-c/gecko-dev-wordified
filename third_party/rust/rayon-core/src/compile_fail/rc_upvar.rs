@@ -12,11 +12,6 @@ rc
 :
 Rc
 ;
-fn
-main
-(
-)
-{
 let
 r
 =
@@ -54,6 +49,5 @@ clone
 ~
 ^
 ERROR
-}
 *
 /

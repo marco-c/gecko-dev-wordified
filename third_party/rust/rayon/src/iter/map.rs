@@ -1363,7 +1363,6 @@ base
 split_off_left
 (
 )
-&
 self
 .
 map_op

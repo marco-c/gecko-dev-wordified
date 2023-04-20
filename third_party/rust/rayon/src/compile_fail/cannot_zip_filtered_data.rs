@@ -36,11 +36,6 @@ cannot
 apply
 it
 .
-fn
-main
-(
-)
-{
 let
 mut
 a
@@ -115,6 +110,5 @@ x
 /
 ~
 ERROR
-}
 *
 /

@@ -597,7 +597,6 @@ take_while
 (
 not_full
 (
-&
 self
 .
 found

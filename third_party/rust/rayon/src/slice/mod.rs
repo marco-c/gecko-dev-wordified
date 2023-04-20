@@ -716,6 +716,10 @@ vec
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_chunks
 (
@@ -918,6 +922,10 @@ vec
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_chunks_exact
 (
@@ -1127,6 +1135,10 @@ vec
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_rchunks
 (
@@ -1333,6 +1345,10 @@ vec
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_rchunks_exact
 (
@@ -1805,6 +1821,10 @@ array
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_chunks_mut
 (
@@ -2012,6 +2032,10 @@ array
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_chunks_exact_mut
 (
@@ -2222,6 +2246,10 @@ array
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_rchunks_mut
 (
@@ -2433,6 +2461,10 @@ array
 /
 /
 /
+#
+[
+track_caller
+]
 fn
 par_rchunks_exact_mut
 (
