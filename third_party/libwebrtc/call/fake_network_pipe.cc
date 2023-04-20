@@ -1777,9 +1777,7 @@ packet
 ;
 /
 /
-|
 time_now_us
-|
 might
 be
 later

@@ -496,15 +496,11 @@ rtc
 VideoSinkWants
 '
 s
-|
 max_pixel_count
-|
 and
 /
 /
-|
 target_pixel_count
-|
 .
 absl
 :

@@ -859,9 +859,7 @@ task_queue_
 /
 /
 Searches
-|
 adaptation_limits_by_resources_
-|
 for
 each
 resource

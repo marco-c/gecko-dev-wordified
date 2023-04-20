@@ -1944,9 +1944,7 @@ to
 the
 caller
 and
-|
 state
-|
 /
 /
 is
@@ -1978,9 +1976,7 @@ arrive
 /
 /
 If
-|
 generate_key_frame
-|
 is
 true
 the

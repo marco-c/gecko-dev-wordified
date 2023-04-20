@@ -345,9 +345,7 @@ at
 /
 /
 least
-|
 min_bitrate_bps
-|
 for
 this
 observer
@@ -375,9 +373,7 @@ t
 allow
 /
 /
-|
 min_bitrate_bps
-|
 .
 bool
 enforce_min_bitrate
@@ -753,9 +749,7 @@ management
 .
 /
 /
-|
 observer
-|
 updates
 bitrates
 if
@@ -765,9 +759,7 @@ use
 .
 /
 /
-|
 config
-|
 is
 the
 configuration
@@ -780,9 +772,7 @@ allocation
 /
 Note
 that
-|
 observer
-|
 -
 >
 OnBitrateUpdated
@@ -822,9 +812,7 @@ if
 /
 /
 the
-|
 observer
-|
 is
 currently
 not
@@ -878,14 +866,10 @@ initial
 bitrate
 allocated
 for
-|
 observer
-|
 .
 If
-|
 observer
-|
 is
 not
 in

@@ -1307,9 +1307,7 @@ resource
 ;
 /
 /
-|
 resource
-|
 could
 have
 been
@@ -1790,9 +1788,7 @@ Total
 /
 /
 If
-|
 reason_resource
-|
 is
 not
 one

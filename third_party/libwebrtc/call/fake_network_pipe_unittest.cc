@@ -2814,9 +2814,7 @@ the
 average
 loss
 is
-|
 kLossPercent
-|
 percent
 .
 int

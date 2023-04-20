@@ -441,16 +441,12 @@ the
 BitrateConstraints
 cached
 in
-|
 config_
-|
 resetting
 /
 /
 with
-|
 new_start
-|
 if
 set
 .

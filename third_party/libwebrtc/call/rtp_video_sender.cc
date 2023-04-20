@@ -2756,9 +2756,7 @@ the
 same
 order
 as
-|
 rtp_modules
-|
 .
 for
 (
@@ -5747,9 +5745,7 @@ to
 allow
 /
 /
-|
 fec_controller_
-|
 to
 update
 whatever
@@ -5761,9 +5757,7 @@ have
 /
 /
 since
-|
 fec_allowed_
-|
 may
 be
 toggled
@@ -5807,9 +5801,7 @@ case
 where
 /
 /
-|
 encoder_target_rate_bps_
-|
 is
 0
 due

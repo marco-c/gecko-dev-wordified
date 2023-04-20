@@ -2449,9 +2449,7 @@ adapter
 resource
 mirroring
 the
-|
 fake_resource
-|
 should
 now
 be
@@ -2936,9 +2934,7 @@ adapter
 resource
 mirroring
 the
-|
 fake_resource
-|
 should
 be
 present
@@ -3395,9 +3391,7 @@ to
 1
 -
 meaning
-|
 shared
-|
 again
 is
 the

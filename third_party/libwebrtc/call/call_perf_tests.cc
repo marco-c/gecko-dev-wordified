@@ -2848,9 +2848,7 @@ start_time_ms_
 /
 Wait
 for
-|
 start_time_ms_
-|
 before
 start
 measuring
@@ -5124,9 +5122,7 @@ known
 .
 /
 /
-|
 expected_bitrate
-|
 is
 affected
 by
@@ -5684,9 +5680,7 @@ constraint
 range
 /
 /
-|
 test_bitrate_step
-|
 bitrate
 constraint
 update
@@ -5704,9 +5698,7 @@ BWE
 range
 /
 /
-|
 start_bwe
-|
 initial
 BWE
 void

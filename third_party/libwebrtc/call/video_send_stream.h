@@ -455,9 +455,7 @@ single
 kMedia
 stream
 :
-|
 referenced_media_ssrc
-|
 .
 kRtx
 /
@@ -482,9 +480,7 @@ single
 kMedia
 stream
 :
-|
 referenced_media_ssrc
-|
 .
 kFlexfec
 }
@@ -518,9 +514,7 @@ kMedia
 /
 /
 If
-|
 type
-|
 is
 kRtx
 or
@@ -552,9 +546,7 @@ FEC
 for
 .
 If
-|
 type
-|
 is
 kMedia
 this
@@ -1228,9 +1220,7 @@ time
 Only
 valid
 if
-|
 local_renderer
-|
 is
 set
 .

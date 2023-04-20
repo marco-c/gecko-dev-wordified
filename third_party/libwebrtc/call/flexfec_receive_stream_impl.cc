@@ -1312,9 +1312,7 @@ RTCP
 RRs
 generated
 by
-|
 rtp_rtcp_
-|
 .
 if
 (

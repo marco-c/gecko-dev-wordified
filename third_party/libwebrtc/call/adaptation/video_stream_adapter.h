@@ -307,9 +307,7 @@ VideoSourceRestrictionsListener
 /
 /
 The
-|
 restrictions
-|
 are
 filtered
 by
@@ -320,9 +318,7 @@ not
 the
 /
 /
-|
 adaptation_counters
-|
 which
 are
 currently

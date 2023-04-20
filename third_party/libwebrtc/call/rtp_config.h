@@ -490,9 +490,7 @@ should
 correspond
 to
 the
-|
 ssrcs
-|
 vector
 .
 /

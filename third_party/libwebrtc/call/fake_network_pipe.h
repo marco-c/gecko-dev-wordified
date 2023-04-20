@@ -262,9 +262,7 @@ no
 deep
 copies
 of
-|
 data_
-|
 )
 .
 NetworkPacket
@@ -642,9 +640,7 @@ public
 /
 Will
 keep
-|
 network_behavior
-|
 alive
 while
 pipe
@@ -938,9 +934,7 @@ instance
 specified
 by
 the
-|
 transport
-|
 parameter
 .
 /
@@ -1410,9 +1404,7 @@ clock_
 ;
 /
 /
-|
 config_lock
-|
 guards
 the
 mostly
@@ -1451,9 +1443,7 @@ global_transport_
 ;
 /
 /
-|
 process_lock
-|
 guards
 the
 data

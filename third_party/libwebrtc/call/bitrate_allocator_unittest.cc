@@ -1120,9 +1120,7 @@ bitrate_observer
 /
 /
 Expect
-|
 max_padding_bitrate_bps
-|
 to
 change
 to
@@ -1826,9 +1824,7 @@ bitrate_observer_1
 Expect
 OnAllocationLimitsChanged
 with
-|
 min_send_bitrate_bps
-|
 =
 0
 since
@@ -1838,9 +1834,7 @@ AddObserver
 is
 called
 with
-|
 enforce_min_bitrate
-|
 =
 false
 .
@@ -2570,9 +2564,7 @@ kMinBitrateBps
 Expect
 OnAllocationLimitsChanged
 with
-|
 min_send_bitrate_bps
-|
 =
 0
 since
@@ -2582,9 +2574,7 @@ AddObserver
 is
 called
 with
-|
 enforce_min_bitrate
-|
 =
 false
 .
@@ -3011,9 +3001,7 @@ kMaxBitrateBps
 /
 /
 Register
-|
 bitrate_observer
-|
 and
 expect
 total

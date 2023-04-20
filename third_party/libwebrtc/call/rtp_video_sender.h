@@ -1248,9 +1248,7 @@ frame
 id
 )
 therefore
-|
 shared_frame_id
-|
 has
 to
 live

@@ -215,9 +215,7 @@ CallConfig
 /
 /
 If
-|
 network_task_queue
-|
 is
 set
 to

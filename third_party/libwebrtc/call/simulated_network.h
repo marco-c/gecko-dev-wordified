@@ -625,9 +625,7 @@ config_lock_
 ;
 /
 /
-|
 process_checker_
-|
 guards
 the
 data

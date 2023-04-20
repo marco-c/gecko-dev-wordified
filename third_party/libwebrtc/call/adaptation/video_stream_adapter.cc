@@ -4270,9 +4270,7 @@ existing
 framerate
 reduction
 in
-|
 first_restrictions
-|
 .
 auto
 second_step
