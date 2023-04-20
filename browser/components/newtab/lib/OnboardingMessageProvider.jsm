@@ -5536,6 +5536,13 @@ action
 .
 type
 ;
+delete
+pinScreen
+.
+content
+.
+secondary_button
+;
 }
 }
 /

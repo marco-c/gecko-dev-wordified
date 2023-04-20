@@ -4683,13 +4683,6 @@ if
 removeDefault
 )
 {
-if
-(
-!
-content
-.
-templateMR
-)
 delete
 pinScreen
 .
