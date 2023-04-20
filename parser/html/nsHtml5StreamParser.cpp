@@ -1603,12 +1603,7 @@ mEventTarget
 nsHtml5Module
 :
 :
-GetStreamParserThread
-(
-)
--
->
-SerialEventTarget
+GetStreamParserEventTarget
 (
 )
 )
