@@ -1660,7 +1660,7 @@ void
 VerifyLoggedSenderReport
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1678,7 +1678,7 @@ void
 VerifyLoggedReceiverReport
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1696,7 +1696,7 @@ void
 VerifyLoggedExtendedReports
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1714,7 +1714,7 @@ void
 VerifyLoggedFir
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1732,7 +1732,7 @@ void
 VerifyLoggedPli
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1750,7 +1750,7 @@ void
 VerifyLoggedBye
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1768,7 +1768,7 @@ void
 VerifyLoggedNack
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1786,7 +1786,7 @@ void
 VerifyLoggedTransportFeedback
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1804,7 +1804,7 @@ void
 VerifyLoggedRemb
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
@@ -1822,7 +1822,7 @@ void
 VerifyLoggedLossNotification
 (
 int64_t
-log_time_us
+log_time_ms
 const
 rtcp
 :
