@@ -464,9 +464,6 @@ VP9
 VideoCodecMimeType
 .
 H264
-VideoCodecMimeType
-.
-AV1
 }
 )
 {

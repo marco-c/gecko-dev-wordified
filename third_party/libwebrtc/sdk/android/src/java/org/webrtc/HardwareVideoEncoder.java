@@ -1216,9 +1216,8 @@ eg
 .
 VP8
 VP9
-H264
 or
-AV1
+H264
 )
 *
 param

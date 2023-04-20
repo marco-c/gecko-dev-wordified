@@ -533,13 +533,6 @@ extends
 CodecSpecificInfo
 {
 }
-public
-class
-CodecSpecificInfoAV1
-extends
-CodecSpecificInfo
-{
-}
 /
 *
 *
