@@ -167,6 +167,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -820,6 +827,12 @@ Atomic
 bool
 >
 mIsHardwareAccelerated
+;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder
 ;
 }
 ;
