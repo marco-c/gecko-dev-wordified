@@ -933,11 +933,11 @@ granted
 ;
 const
 {
-clickPromise
+promise
 }
 =
 await
-ClickButtonWithGesture
+RunCallbackWithGesture
 (
 '
 b1
@@ -954,7 +954,7 @@ requestStorageAccess
 )
 ;
 await
-clickPromise
+promise
 ;
 }
 '
