@@ -3759,10 +3759,14 @@ been
 destroyed
 yet
 ?
-bool
-mIsDestroyed
+mozilla
 :
-1
+:
+Atomic
+<
+bool
+>
+mIsDestroyed
 ;
 /
 /
