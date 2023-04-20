@@ -1944,11 +1944,7 @@ maxTextureSize
 (
 aAllocFlags
 &
-(
 ALLOC_UPDATE_FROM_SURFACE
-|
-ALLOC_DO_NOT_ACCELERATE
-)
 )
 )
 {
