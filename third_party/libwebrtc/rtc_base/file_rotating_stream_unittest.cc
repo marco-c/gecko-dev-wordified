@@ -462,9 +462,8 @@ size_t
 data_len
 )
 {
-EXPECT_EQ
+EXPECT_TRUE
 (
-SR_SUCCESS
 stream_
 -
 >
@@ -2665,9 +2664,8 @@ i
 buffer_size
 )
 ;
-EXPECT_EQ
+EXPECT_TRUE
 (
-SR_SUCCESS
 stream_
 -
 >
@@ -2967,9 +2965,8 @@ i
 buffer_size
 )
 ;
-EXPECT_EQ
+EXPECT_TRUE
 (
-SR_SUCCESS
 stream_
 -
 >
