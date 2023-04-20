@@ -2807,11 +2807,6 @@ gc
 Arena
 *
 arena
-gc
-:
-:
-MarkColor
-color
 )
 ;
 [
