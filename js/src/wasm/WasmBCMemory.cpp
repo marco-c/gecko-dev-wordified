@@ -15400,8 +15400,6 @@ type
 MemoryAccessDesc
 *
 access
-uint32_t
-lineOrBytecode
 )
 {
 switch
@@ -15497,7 +15495,6 @@ if
 !
 emitInstanceCall
 (
-lineOrBytecode
 isMem32
 (
 )
@@ -15650,7 +15647,6 @@ if
 !
 emitInstanceCall
 (
-lineOrBytecode
 isMem32
 (
 )
@@ -15688,8 +15684,6 @@ atomicWake
 MemoryAccessDesc
 *
 access
-uint32_t
-lineOrBytecode
 )
 {
 RegI32
@@ -15755,7 +15749,6 @@ count
 return
 emitInstanceCall
 (
-lineOrBytecode
 isMem32
 (
 )
