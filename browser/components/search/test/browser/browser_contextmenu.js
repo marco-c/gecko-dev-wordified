@@ -704,10 +704,11 @@ test
 true
 )
 ;
-searchItem
+contextMenu
 .
-click
+activateItem
 (
+searchItem
 )
 ;
 let

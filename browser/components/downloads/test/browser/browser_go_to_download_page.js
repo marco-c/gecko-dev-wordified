@@ -488,10 +488,11 @@ downloadsCmd_openReferrer
 "
 )
 ;
-goToDownloadButton
+contextMenu
 .
-click
+activateItem
 (
+goToDownloadButton
 )
 ;
 let

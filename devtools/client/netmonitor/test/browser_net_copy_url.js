@@ -264,12 +264,14 @@ item
 await
 waitForClipboardPromise
 (
+async
 function
 setup
 (
 )
 {
-getContextMenuItem
+await
+selectContextMenuItem
 (
 monitor
 "
@@ -283,10 +285,6 @@ copy
 -
 url
 "
-)
-.
-click
-(
 )
 ;
 }

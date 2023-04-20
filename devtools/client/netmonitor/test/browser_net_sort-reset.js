@@ -590,7 +590,8 @@ button
 )
 )
 ;
-getContextMenuItem
+await
+selectContextMenuItem
 (
 monitor
 "
@@ -604,10 +605,6 @@ reset
 -
 sorting
 "
-)
-.
-click
-(
 )
 ;
 testHeaders
@@ -698,7 +695,8 @@ button
 )
 )
 ;
-getContextMenuItem
+await
+selectContextMenuItem
 (
 monitor
 "
@@ -712,10 +710,6 @@ reset
 -
 columns
 "
-)
-.
-click
-(
 )
 ;
 testHeaders
@@ -732,6 +726,7 @@ expects
 some
 extra
 columns
+await
 showColumn
 (
 monitor
@@ -740,6 +735,7 @@ protocol
 "
 )
 ;
+await
 showColumn
 (
 monitor
@@ -748,6 +744,7 @@ remoteip
 "
 )
 ;
+await
 showColumn
 (
 monitor
@@ -756,6 +753,7 @@ scheme
 "
 )
 ;
+await
 showColumn
 (
 monitor
@@ -764,6 +762,7 @@ duration
 "
 )
 ;
+await
 showColumn
 (
 monitor

@@ -2987,6 +2987,16 @@ if
 (
 !
 popup
+|
+|
+popup
+.
+state
+=
+=
+"
+hidden
+"
 )
 {
 return
