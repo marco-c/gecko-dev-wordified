@@ -360,16 +360,6 @@ dest_fd
 )
 const
 ;
-int
-GetFileDescriptor
-(
-)
-const
-{
-return
-pipe_
-;
-}
 void
 CloseClientFileDescriptor
 (

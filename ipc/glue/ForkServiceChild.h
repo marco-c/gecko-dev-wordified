@@ -544,9 +544,6 @@ pid_t
 mRecvPid
 ;
 bool
-mWaitForHello
-;
-bool
 mFailed
 ;
 /
