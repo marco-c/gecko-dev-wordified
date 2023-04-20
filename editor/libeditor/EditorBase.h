@@ -13203,7 +13203,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 virtual
+Result
+<
 EditActionResult
+nsresult
+>
 HandleDeleteSelection
 (
 nsIEditor
@@ -13316,7 +13320,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 virtual
+Result
+<
 EditActionResult
+nsresult
+>
 HandleInsertText
 (
 EditSubAction

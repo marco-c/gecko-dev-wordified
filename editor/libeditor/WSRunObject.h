@@ -9151,7 +9151,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
 EditActionResult
+nsresult
+>
 MergeFirstLineOfRightBlockElementIntoDescendantLeftBlockElement
 (
 HTMLEditor
@@ -9332,7 +9336,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
 EditActionResult
+nsresult
+>
 MergeFirstLineOfRightBlockElementIntoAncestorLeftBlockElement
 (
 HTMLEditor
@@ -9480,7 +9488,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
 EditActionResult
+nsresult
+>
 MergeFirstLineOfRightBlockElementIntoLeftBlockElement
 (
 HTMLEditor
