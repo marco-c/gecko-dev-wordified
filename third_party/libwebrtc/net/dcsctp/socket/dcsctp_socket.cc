@@ -1560,6 +1560,14 @@ log_prefix_
 options_
 .
 max_send_buffer_size
+[
+]
+(
+StreamID
+stream_id
+)
+{
+}
 )
 {
 }
