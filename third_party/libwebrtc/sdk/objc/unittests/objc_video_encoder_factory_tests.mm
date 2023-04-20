@@ -180,17 +180,6 @@ include
 "
 modules
 /
-include
-/
-module_common_types
-.
-h
-"
-#
-include
-"
-modules
-/
 video_coding
 /
 include
