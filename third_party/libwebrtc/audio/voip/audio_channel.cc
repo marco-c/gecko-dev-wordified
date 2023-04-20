@@ -481,9 +481,7 @@ still
 need
 to
 clear
-|
 egress_
-|
 /
 /
 here

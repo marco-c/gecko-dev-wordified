@@ -1179,9 +1179,7 @@ to
 be
 accessed
 from
-|
 rtp_transport_queue_
-|
 .
 absl
 :

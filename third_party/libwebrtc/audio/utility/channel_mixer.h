@@ -307,9 +307,7 @@ corresponding
 to
 the
 selected
-|
 input_layout
-|
 /
 /
 to
@@ -320,9 +318,7 @@ channels
 in
 the
 selected
-|
 output_layout
-|
 .
 /
 /
@@ -513,9 +509,7 @@ of
 elements
 allocated
 for
-|
 audio_vector_
-|
 .
 size_t
 audio_vector_size_
@@ -549,9 +543,7 @@ all
 scaling
 factors
 in
-|
 matrix_
-|
 equals
 1
 .

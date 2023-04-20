@@ -433,9 +433,7 @@ can
 be
 injected
 by
-|
 process_thread
-|
 /
 /
 (
@@ -960,9 +958,7 @@ AudioChannel
 assigned
 with
 given
-|
 channel
-|
 .
 /
 /
@@ -1100,9 +1096,7 @@ Must
 be
 placed
 before
-|
 audio_device_module_
-|
 for
 proper
 destruction
@@ -1131,9 +1125,7 @@ Must
 be
 placed
 before
-|
 audio_device_module_
-|
 for
 proper
 destruction
@@ -1162,9 +1154,7 @@ Must
 be
 placed
 before
-|
 audio_device_module_
-|
 for
 proper
 destruction

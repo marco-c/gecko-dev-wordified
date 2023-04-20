@@ -313,9 +313,7 @@ kNumChannels
 Output
 variables
 from
-|
 NeedMorePlayData
-|
 .
 size_t
 n_samples

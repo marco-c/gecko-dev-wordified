@@ -393,9 +393,7 @@ InitializeIfNeeded
 {
 /
 /
-|
 audio_device_module_
-|
 internally
 owns
 a
@@ -1216,9 +1214,7 @@ still
 need
 to
 clear
-|
 channel
-|
 /
 /
 here

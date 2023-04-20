@@ -399,9 +399,7 @@ audio_frame
 Resample
 audio
 in
-|
 frame
-|
 to
 given
 sample
@@ -417,9 +415,7 @@ place
 the
 result
 in
-|
 destination
-|
 .
 int
 Resample

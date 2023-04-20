@@ -703,9 +703,7 @@ on
 RTCP
 packets
 (
-|
 ReceivedRTCPPacket
-|
 )
 to
 inform
@@ -741,9 +739,7 @@ should
 expect
 /
 /
-|
 ReceivedRTCPPacket
-|
 to
 be
 called
@@ -755,9 +751,7 @@ media
 transport
 /
 /
-|
 OnTargetTransferRate
-|
 will
 be
 called

@@ -1331,9 +1331,7 @@ as
 to
 prevent
 unnecessary
-|
 channel_proxy_
-|
 /
 /
 calls
@@ -2437,9 +2435,7 @@ bitrate_allocator_
 ;
 /
 /
-|
 worker_queue
-|
 is
 defined
 last

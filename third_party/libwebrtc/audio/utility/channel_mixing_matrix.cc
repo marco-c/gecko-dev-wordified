@@ -2120,9 +2120,7 @@ See
 if
 the
 output
-|
 matrix_
-|
 is
 simply
 a
@@ -2268,9 +2266,7 @@ we
 ve
 gotten
 here
-|
 matrix_
-|
 is
 simply
 a

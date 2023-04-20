@@ -689,9 +689,7 @@ the
 audio
 frame
 in
-|
 frame
-|
 .
 memcpy
 (

@@ -1490,9 +1490,7 @@ Fade
 out
 the
 last
-|
 count
-|
 samples
 of
 frame
@@ -1539,9 +1537,7 @@ Fade
 in
 the
 first
-|
 count
-|
 samples
 of
 frame

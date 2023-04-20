@@ -433,9 +433,7 @@ usage
 .
 /
 /
-|
 payload_type
-|
 must
 be
 the
@@ -693,9 +691,7 @@ section
 2
 /
 /
-|
 duration_ms
-|
 specifies
 the
 duration
@@ -1022,9 +1018,7 @@ state
 from
 caller
 .
-|
 previously_muted_
-|
 is
 used
 to
