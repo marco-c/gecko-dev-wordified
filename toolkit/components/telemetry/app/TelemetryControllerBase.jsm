@@ -626,6 +626,16 @@ prereleaseChannels
 nightly
 "
 "
+nightly
+-
+autoland
+"
+"
+nightly
+-
+try
+"
+"
 aurora
 "
 "
