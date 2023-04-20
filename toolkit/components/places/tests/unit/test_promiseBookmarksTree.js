@@ -336,12 +336,14 @@ aIsRootItem
 &
 aNode
 .
-itemId
+bookmarkGuid
 !
 =
 PlacesUtils
 .
-placesRootId
+bookmarks
+.
+rootGuid
 )
 {
 Assert
