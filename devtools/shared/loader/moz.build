@@ -155,7 +155,9 @@ plugin
 -
 raw
 .
-jsm
+sys
+.
+mjs
 "
 "
 Loader

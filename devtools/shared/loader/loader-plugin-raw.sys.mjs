@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 {
 NetUtil
@@ -146,6 +141,7 @@ loader
 .
 *
 /
+export
 const
 requireRawId
 =
@@ -374,13 +370,4 @@ return
 data
 ;
 }
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-requireRawId
-"
-]
 ;
