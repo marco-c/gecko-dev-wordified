@@ -370,12 +370,6 @@ AIX
 |
 defined
 (
-BEOS
-)
-|
-|
-defined
-(
 BSDI
 )
 |

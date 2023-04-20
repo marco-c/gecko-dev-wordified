@@ -748,13 +748,6 @@ XP_WIN32
 |
 defined
 (
-XP_BEOS
-)
-|
-|
-\
-defined
-(
 XP_MACOSX
 )
 #

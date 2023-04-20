@@ -184,12 +184,6 @@ defined
 (
 _WINDOWS
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 #
 include
 <
