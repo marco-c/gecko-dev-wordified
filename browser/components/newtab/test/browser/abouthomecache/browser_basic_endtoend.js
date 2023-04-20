@@ -67,15 +67,8 @@ test_basic_behaviour
 )
 {
 await
-BrowserTestUtils
-.
-withNewTab
+withFullyLoadedAboutHome
 (
-"
-about
-:
-home
-"
 async
 browser
 =
