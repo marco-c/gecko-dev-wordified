@@ -520,7 +520,9 @@ sessionstore
 /
 ContentSessionStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

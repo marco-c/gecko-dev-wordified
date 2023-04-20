@@ -35,7 +35,7 @@ _LastSession
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ sessionstore
 /
 SessionStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
