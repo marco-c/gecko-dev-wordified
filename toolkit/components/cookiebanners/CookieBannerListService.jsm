@@ -1355,17 +1355,6 @@ schema
 .
 json
 .
-/
-/
-Allow
-extra
-properties
-.
-They
-will
-be
-discarded
-.
 let
 schema
 =
