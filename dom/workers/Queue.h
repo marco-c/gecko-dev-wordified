@@ -361,6 +361,11 @@ Compact
 ;
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 LockingWithMutex
 {
 mozilla

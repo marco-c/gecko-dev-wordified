@@ -198,6 +198,11 @@ overlap
 .
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 MultiWriterQueueReaderLocking_Mutex
 {
 public
@@ -289,6 +294,12 @@ thread
 .
 class
 MOZ_CAPABILITY
+(
+"
+dummy
+lock
+"
+)
 MultiWriterQueueReaderLocking_None
 {
 public

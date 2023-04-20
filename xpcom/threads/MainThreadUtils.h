@@ -265,6 +265,12 @@ type
 /
 class
 MOZ_CAPABILITY
+(
+"
+main
+thread
+"
+)
 MainThreadCapability
 final
 {

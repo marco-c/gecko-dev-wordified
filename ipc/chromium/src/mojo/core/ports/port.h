@@ -181,6 +181,11 @@ detector
 .
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 PortMutex
 :
 private

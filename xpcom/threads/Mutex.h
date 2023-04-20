@@ -312,6 +312,11 @@ you
 /
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 OffTheBooksMutex
 :
 public

@@ -448,6 +448,11 @@ unlocking
 .
 class
 MOZ_CAPABILITY
+(
+"
+rwlock
+"
+)
 RWLock
 :
 public
@@ -1322,6 +1327,11 @@ AutoWriteLock
 class
 MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
 MOZ_CAPABILITY
+(
+"
+rwlock
+"
+)
 StaticRWLock
 {
 public

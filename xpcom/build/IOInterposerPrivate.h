@@ -266,6 +266,11 @@ positives
 /
 class
 MOZ_CAPABILITY
+(
+"
+monitor
+"
+)
 Monitor
 {
 public
@@ -500,6 +505,11 @@ mMonitor
 ;
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 Mutex
 {
 public

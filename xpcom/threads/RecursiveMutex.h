@@ -170,6 +170,12 @@ mozilla
 {
 class
 MOZ_CAPABILITY
+(
+"
+recursive
+mutex
+"
+)
 RecursiveMutex
 :
 public

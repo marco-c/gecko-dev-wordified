@@ -544,6 +544,11 @@ h
 "
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 TraceLogMutex
 :
 private
