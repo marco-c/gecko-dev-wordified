@@ -664,7 +664,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -681,7 +681,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -862,7 +862,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -879,7 +879,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -1053,6 +1053,8 @@ uris
 =
 [
 OTHER_DIALOG_URI
+QuickSuggest
+.
 ONBOARDING_URI
 ]
 ;
@@ -1282,7 +1284,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -1299,7 +1301,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -1406,7 +1408,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -1423,7 +1425,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -1669,6 +1671,8 @@ BrowserTestUtils
 promiseAlertDialogOpen
 (
 null
+QuickSuggest
+.
 ONBOARDING_URI
 {
 isSubDialog
@@ -6736,7 +6740,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -6753,7 +6757,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -6991,7 +6995,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7008,7 +7012,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7228,7 +7232,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7245,7 +7249,7 @@ enabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7449,7 +7453,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7466,7 +7470,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7687,7 +7691,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7704,7 +7708,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -7849,9 +7853,9 @@ BrowserTestUtils
 waitForNewTab
 (
 gBrowser
-QuickSuggestTestUtils
+QuickSuggest
 .
-LEARN_MORE_URL
+HELP_URL
 )
 .
 then
@@ -7948,9 +7952,9 @@ gBrowser
 currentURI
 .
 spec
-QuickSuggestTestUtils
+QuickSuggest
 .
-LEARN_MORE_URL
+HELP_URL
 "
 Current
 tab
@@ -8014,7 +8018,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -8031,7 +8035,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -8870,6 +8874,8 @@ BrowserTestUtils
 promiseAlertDialogOpen
 (
 null
+QuickSuggest
+.
 ONBOARDING_URI
 {
 isSubDialog
@@ -9465,7 +9471,7 @@ telemetryEvents
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
@@ -9482,7 +9488,7 @@ disabled
 {
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method

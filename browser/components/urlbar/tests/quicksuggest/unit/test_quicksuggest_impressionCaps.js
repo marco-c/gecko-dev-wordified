@@ -17952,7 +17952,7 @@ event
 event
 category
 :
-QuickSuggestTestUtils
+QuickSuggest
 .
 TELEMETRY_EVENT_CATEGORY
 method
