@@ -1611,6 +1611,36 @@ filename
             
 continue
         
+#
+Ignore
+use
+of
+std
+:
+:
+string
+in
+regexp
+AST
+debug
+output
+.
+        
+if
+filename
+=
+=
+"
+regexp
+-
+ast
+.
+o
+"
+:
+            
+continue
+        
 fn
 =
 m
