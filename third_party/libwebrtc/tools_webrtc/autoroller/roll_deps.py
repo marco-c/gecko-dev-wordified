@@ -125,6 +125,8 @@ import
 sys
 import
 urllib
+.
+request
 def
 FindSrcDirPath
 (
