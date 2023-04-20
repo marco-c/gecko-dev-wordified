@@ -458,6 +458,9 @@ dom
 quota
 {
 class
+CanonicalQuotaObject
+;
+class
 ClientUsageArray
 ;
 class
@@ -496,6 +499,10 @@ BackgroundThreadObject
 {
 friend
 class
+CanonicalQuotaObject
+;
+friend
+class
 DirectoryLockImpl
 ;
 friend
@@ -505,10 +512,6 @@ GroupInfo
 friend
 class
 OriginInfo
-;
-friend
-class
-QuotaObject
 ;
 using
 PrincipalInfo
