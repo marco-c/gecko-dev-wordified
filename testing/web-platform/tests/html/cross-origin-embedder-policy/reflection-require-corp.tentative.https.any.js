@@ -9,6 +9,9 @@ worker
 sharedworker
 -
 module
+serviceworker
+-
+module
 test
 (
 t
