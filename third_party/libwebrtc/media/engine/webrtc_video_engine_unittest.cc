@@ -32880,6 +32880,8 @@ EXPECT_EQ
 kFlexfecSsrc
 config
 .
+rtp
+.
 remote_ssrc
 )
 ;
@@ -34533,6 +34535,8 @@ EXPECT_EQ
 kFlexfecSsrc
 flexfec_stream_config
 .
+rtp
+.
 remote_ssrc
 )
 ;
@@ -34619,6 +34623,8 @@ rtp
 local_ssrc
 flexfec_stream_config
 .
+rtp
+.
 local_ssrc
 )
 ;
@@ -34678,6 +34684,8 @@ rtp
 transport_cc
 flexfec_stream_config
 .
+rtp
+.
 transport_cc
 )
 ;
@@ -34702,7 +34710,9 @@ rtp
 extensions
 flexfec_stream_config
 .
-rtp_header_extensions
+rtp
+.
+extensions
 )
 ;
 }
@@ -40952,6 +40962,8 @@ GetConfig
 (
 )
 .
+rtp
+.
 remote_ssrc
 )
 ;
@@ -41441,6 +41453,8 @@ GetConfig
 (
 )
 .
+rtp
+.
 remote_ssrc
 )
 ;
@@ -41579,6 +41593,8 @@ stream_with_send_params
 GetConfig
 (
 )
+.
+rtp
 .
 remote_ssrc
 )

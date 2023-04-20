@@ -901,6 +901,8 @@ EXPECT_EQ
 0U
 default_receive_config
 .
+rtp
+.
 remote_ssrc
 )
 <
