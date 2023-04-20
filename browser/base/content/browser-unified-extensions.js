@@ -734,7 +734,7 @@ this
 extension
 .
 policy
-tab
+uri
 :
 this
 .
@@ -742,7 +742,7 @@ ownerGlobal
 .
 gBrowser
 .
-selectedTab
+currentURI
 }
 )
 ;
@@ -854,7 +854,7 @@ ownerGlobal
 .
 gBrowser
 .
-selectedTab
+currentURI
 )
 ;
 return
