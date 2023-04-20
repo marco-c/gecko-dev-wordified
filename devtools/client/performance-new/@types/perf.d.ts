@@ -3196,7 +3196,9 @@ modules
 /
 WebChannel
 .
-jsm
+sys
+.
+mjs
 *
 and
 is
