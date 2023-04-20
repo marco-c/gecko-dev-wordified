@@ -421,7 +421,7 @@ _playStreamFlags
 0
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -485,7 +485,7 @@ AudioDeviceLinuxPulse
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )

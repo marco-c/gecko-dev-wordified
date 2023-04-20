@@ -345,7 +345,7 @@ _paObjectsSet
 false
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -376,7 +376,7 @@ IsCurrent
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -575,7 +575,7 @@ IsCurrent
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -665,7 +665,7 @@ IsCurrent
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -714,7 +714,7 @@ IsCurrent
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -760,7 +760,7 @@ IsCurrent
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -1143,7 +1143,7 @@ IsCurrent
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -1179,7 +1179,7 @@ IsCurrent
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )

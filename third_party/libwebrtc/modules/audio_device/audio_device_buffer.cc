@@ -489,7 +489,7 @@ RTC_DCHECK_RUN_ON
 main_thread_checker_
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -608,7 +608,7 @@ playing_
 return
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -736,7 +736,7 @@ recording_
 return
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -907,7 +907,7 @@ playing_
 return
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -988,7 +988,7 @@ recording_
 return
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )

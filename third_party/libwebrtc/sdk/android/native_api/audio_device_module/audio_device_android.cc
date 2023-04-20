@@ -400,7 +400,7 @@ jobject
 application_context
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -513,7 +513,7 @@ jobject
 application_context
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -702,7 +702,7 @@ jobject
 application_context
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -864,7 +864,7 @@ jobject
 application_context
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )

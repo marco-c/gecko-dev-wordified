@@ -771,7 +771,7 @@ set
 .
 /
 /
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -1704,7 +1704,7 @@ if
 deviceNameLength
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
