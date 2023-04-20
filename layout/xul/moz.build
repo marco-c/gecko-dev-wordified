@@ -193,11 +193,6 @@ nsBoxLayoutState
 cpp
 "
 "
-nsDocElementBoxFrame
-.
-cpp
-"
-"
 nsImageBoxFrame
 .
 cpp
