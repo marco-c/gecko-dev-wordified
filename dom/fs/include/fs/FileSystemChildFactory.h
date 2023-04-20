@@ -129,9 +129,6 @@ AlreadyAddRefed
 .
 h
 "
-class
-nsIGlobalObject
-;
 namespace
 mozilla
 {

@@ -700,11 +700,6 @@ childEndpoint
 Bind
 (
 child
--
->
-AsBindable
-(
-)
 )
 )
 {
