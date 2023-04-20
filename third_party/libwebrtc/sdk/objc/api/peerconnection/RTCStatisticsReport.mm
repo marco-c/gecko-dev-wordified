@@ -403,9 +403,7 @@ size
 ;
 for
 (
-const
 auto
-&
 item
 :
 sequence
