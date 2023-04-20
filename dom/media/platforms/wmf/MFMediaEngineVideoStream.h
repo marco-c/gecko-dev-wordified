@@ -334,6 +334,13 @@ ShutdownCleanUpOnTaskQueue
 )
 override
 ;
+bool
+IsEnded
+(
+)
+const
+override
+;
 /
 /
 Task
