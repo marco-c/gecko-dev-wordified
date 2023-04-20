@@ -2233,11 +2233,9 @@ CancelableRunnable
 {
 public
 :
+explicit
 NotifyUnhandledRejections
 (
-CycleCollectedJSContext
-*
-aCx
 PromiseArray
 &
 &
@@ -2249,10 +2247,6 @@ CancelableRunnable
 "
 NotifyUnhandledRejections
 "
-)
-mCx
-(
-aCx
 )
 mUnhandledRejections
 (
@@ -2280,10 +2274,6 @@ final
 ;
 private
 :
-CycleCollectedJSContext
-*
-mCx
-;
 PromiseArray
 mUnhandledRejections
 ;
