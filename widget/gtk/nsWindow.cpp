@@ -11015,9 +11015,6 @@ mPopupHint
 case
 ePopupTypeMenu
 :
-case
-ePopupTypePanel
-:
 /
 /
 GDK_WINDOW_TYPE_HINT_POPUP_MENU
@@ -12026,6 +12023,15 @@ false
 }
 if
 (
+popup
+-
+>
+mPopupHint
+=
+=
+ePopupTypePanel
+&
+&
 popup
 -
 >
