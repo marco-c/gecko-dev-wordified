@@ -4231,7 +4231,7 @@ mozilla
 :
 UniquePtr
 <
-LayoutDeviceIntRect
+DesktopRect
 >
 mOriginalBounds
 ;
