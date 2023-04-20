@@ -116,6 +116,9 @@ idl_test
 '
 dom
 '
+'
+fullscreen
+'
 ]
 [
 '
