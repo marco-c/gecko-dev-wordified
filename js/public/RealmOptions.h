@@ -1773,7 +1773,7 @@ NIGHTLY_BUILD
 bool
 arrayGrouping_
 =
-true
+false
 ;
 bool
 arrayFromAsync_

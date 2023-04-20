@@ -4513,7 +4513,7 @@ shell
 :
 enableArrayGrouping
 =
-true
+false
 ;
 bool
 shell
