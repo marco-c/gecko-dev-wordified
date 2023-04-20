@@ -2737,7 +2737,6 @@ createSandbox
 dump
 rpc
 loadSubScript
-reportError
 setImmediate
 xpcInspector
 }
@@ -2975,13 +2974,6 @@ sandbox
 }
 ;
 const
-reportError
-=
-Cu
-.
-reportError
-;
-const
 Timer
 =
 ChromeUtils
@@ -3077,7 +3069,6 @@ this
 dump
 rpc
 loadSubScript
-reportError
 setImmediate
 xpcInspector
 }
@@ -3219,11 +3210,6 @@ loadSubScript
 this
 .
 loadSubScript
-reportError
-:
-this
-.
-reportError
 setImmediate
 :
 this
@@ -3285,7 +3271,6 @@ isWorker
 true
 dump
 loader
-reportError
 rpc
 URL
 setImmediate
