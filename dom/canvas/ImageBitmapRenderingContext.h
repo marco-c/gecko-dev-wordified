@@ -511,14 +511,6 @@ aDirty
 )
 override
 ;
-NS_IMETHOD
-SetIsIPC
-(
-bool
-aIsIPC
-)
-override
-;
 virtual
 void
 DidRefresh

@@ -2959,14 +2959,6 @@ return
 mFrameCaptureState
 ;
 }
-NS_IMETHOD
-SetIsIPC
-(
-bool
-aIsIPC
-)
-override
-;
 /
 /
 this
