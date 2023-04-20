@@ -31722,6 +31722,9 @@ MOZ_ASSERT_IF
 subTypingDepth
 >
 =
+wasm
+:
+:
 MinSuperTypeVectorLength
 scratch
 !
