@@ -114,7 +114,7 @@ remote
 :
 state_
 (
-kInitializing
+kLive
 )
 remote_
 (
