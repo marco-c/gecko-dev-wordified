@@ -1756,6 +1756,15 @@ CanGC
 \
 _
 (
+Int32ToStringWithBase
+js
+:
+:
+Int32ToStringWithBase
+)
+\
+_
+(
 InterpretResume
 js
 :
