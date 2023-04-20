@@ -1293,9 +1293,6 @@ FuncType
 *
 unusedType
 ;
-bool
-unused
-;
 NothingVector
 unusedArgs
 {
@@ -1309,8 +1306,6 @@ readCallRef
 (
 &
 unusedType
-&
-unused
 &
 nothing
 &

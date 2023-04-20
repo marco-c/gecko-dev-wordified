@@ -188,6 +188,7 @@ l
 return
 (
 call_ref
+t
 (
 br_on_null
 l
@@ -232,6 +233,7 @@ l
 return
 (
 call_ref
+t
 (
 br_on_null
 l
@@ -365,7 +367,8 @@ l
 (
 return
 (
-drop
+call_ref
+t
 (
 br_on_null
 l
@@ -740,6 +743,7 @@ i32
 return
 (
 call_ref
+t
 (
 br_on_null
 l

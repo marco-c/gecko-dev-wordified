@@ -12211,8 +12211,6 @@ const
 FunctionCall
 &
 call
-bool
-checkNull
 CodeOffset
 *
 fastCallOffset
@@ -12252,11 +12250,6 @@ WasmCallRefReg
 )
 )
 ;
-if
-(
-checkNull
-)
-{
 emitGcNullCheck
 (
 RegRef
@@ -12265,7 +12258,6 @@ WasmCallRefReg
 )
 )
 ;
-}
 masm
 .
 wasmCallRef
@@ -31801,9 +31793,6 @@ FuncType
 *
 funcType
 ;
-bool
-maybeNull
-;
 Nothing
 unused_callee
 ;
@@ -31821,8 +31810,6 @@ readCallRef
 (
 &
 funcType
-&
-maybeNull
 &
 unused_callee
 &
@@ -32013,7 +32000,6 @@ callRef
 (
 callee
 baselineCall
-maybeNull
 &
 fastCallOffset
 &

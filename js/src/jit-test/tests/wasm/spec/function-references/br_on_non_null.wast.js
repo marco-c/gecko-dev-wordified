@@ -183,6 +183,7 @@ i32
 )
 (
 call_ref
+t
 (
 block
 l
@@ -234,6 +235,7 @@ i32
 )
 (
 call_ref
+t
 (
 block
 l
@@ -380,11 +382,9 @@ l
 result
 (
 ref
-func
+t
 )
 )
-(
-return
 (
 br_on_non_null
 l
@@ -392,17 +392,20 @@ l
 unreachable
 )
 )
-)
-)
 (
-drop
-)
+return
 (
 i32
 .
 const
 -
 1
+)
+)
+)
+(
+call_ref
+t
 )
 )
 )
@@ -420,7 +423,7 @@ br_on_non_null
 .
 wast
 :
-36
+37
 assert_trap
 (
 (
@@ -449,7 +452,7 @@ br_on_non_null
 .
 wast
 :
-38
+39
 assert_return
 (
 (
@@ -489,7 +492,7 @@ br_on_non_null
 .
 wast
 :
-39
+40
 assert_return
 (
 (
@@ -528,7 +531,7 @@ br_on_non_null
 .
 wast
 :
-40
+41
 assert_return
 (
 (
@@ -567,7 +570,7 @@ br_on_non_null
 .
 wast
 :
-42
+43
 let
 1
 =
@@ -711,7 +714,7 @@ br_on_non_null
 .
 wast
 :
-50
+51
 let
 2
 =
@@ -791,6 +794,7 @@ i32
 )
 (
 call_ref
+t
 (
 block
 l
@@ -911,7 +915,7 @@ br_on_non_null
 .
 wast
 :
-71
+72
 assert_return
 (
 (
@@ -951,7 +955,7 @@ br_on_non_null
 .
 wast
 :
-72
+73
 assert_return
 (
 (
