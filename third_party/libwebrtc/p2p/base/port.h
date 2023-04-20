@@ -2267,7 +2267,7 @@ SendBindingErrorResponse
 (
 StunMessage
 *
-request
+message
 const
 rtc
 :
@@ -2292,7 +2292,7 @@ SendUnknownAttributesErrorResponse
 (
 StunMessage
 *
-request
+message
 const
 rtc
 :

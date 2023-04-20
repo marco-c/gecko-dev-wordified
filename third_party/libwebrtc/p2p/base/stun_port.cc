@@ -359,11 +359,11 @@ Prepare
 (
 StunMessage
 *
-request
+message
 )
 override
 {
-request
+message
 -
 >
 SetType

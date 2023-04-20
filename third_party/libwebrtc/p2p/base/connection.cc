@@ -1179,7 +1179,7 @@ Prepare
 (
 StunMessage
 *
-request
+message
 )
 {
 RTC_DCHECK_RUN_ON
@@ -1190,7 +1190,7 @@ connection_
 network_thread_
 )
 ;
-request
+message
 -
 >
 SetType
@@ -1270,7 +1270,7 @@ StunMessage
 :
 GetAttribute
 .
-request
+message
 -
 >
 AddAttribute
@@ -1316,7 +1316,7 @@ send_retransmit_count_attribute
 )
 )
 {
-request
+message
 -
 >
 AddAttribute
@@ -1391,7 +1391,7 @@ network_cost
 (
 )
 ;
-request
+message
 -
 >
 AddAttribute
@@ -1428,7 +1428,7 @@ last_ping_id_received
 )
 )
 {
-request
+message
 -
 >
 AddAttribute
@@ -1486,7 +1486,7 @@ GetIceRole
 ICEROLE_CONTROLLING
 )
 {
-request
+message
 -
 >
 AddAttribute
@@ -1547,7 +1547,7 @@ use_candidate_attr
 )
 )
 {
-request
+message
 -
 >
 AddAttribute
@@ -1587,7 +1587,7 @@ acked_nomination
 )
 )
 {
-request
+message
 -
 >
 AddAttribute
@@ -1629,7 +1629,7 @@ GetIceRole
 ICEROLE_CONTROLLED
 )
 {
-request
+message
 -
 >
 AddAttribute
@@ -1784,7 +1784,7 @@ priority
 0x00FFFFFF
 )
 ;
-request
+message
 -
 >
 AddAttribute
@@ -1875,7 +1875,7 @@ kSupportGoogPingVersionRequestIndex
 kGoogPingVersion
 )
 ;
-request
+message
 -
 >
 AddAttribute
@@ -1897,11 +1897,11 @@ connection_
 >
 ShouldSendGoogPing
 (
-request
+message
 )
 )
 {
-request
+message
 -
 >
 SetType
@@ -1909,14 +1909,14 @@ SetType
 GOOG_PING_REQUEST
 )
 ;
-request
+message
 -
 >
 ClearAttributes
 (
 )
 ;
-request
+message
 -
 >
 AddMessageIntegrity32
@@ -1936,7 +1936,7 @@ password
 }
 else
 {
-request
+message
 -
 >
 AddMessageIntegrity
@@ -1953,7 +1953,7 @@ password
 )
 )
 ;
-request
+message
 -
 >
 AddFingerprint
@@ -4045,7 +4045,6 @@ silently
 discard
 the
 response
-message
 .
 break
 ;
@@ -4883,7 +4882,7 @@ SendStunBindingResponse
 const
 StunMessage
 *
-request
+message
 )
 {
 RTC_DCHECK_RUN_ON
@@ -4891,16 +4890,14 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-RTC_DCHECK
+RTC_DCHECK_EQ
 (
-request
+message
 -
 >
 type
 (
 )
-=
-=
 STUN_BINDING_REQUEST
 )
 ;
@@ -4911,14 +4908,14 @@ the
 username
 from
 the
-request
+message
 .
 const
 StunByteStringAttribute
 *
 username_attr
 =
-request
+message
 -
 >
 GetByteString
@@ -4960,7 +4957,6 @@ Fill
 in
 the
 response
-message
 .
 StunMessage
 response
@@ -4976,7 +4972,7 @@ response
 .
 SetTransactionID
 (
-request
+message
 -
 >
 transaction_id
@@ -4989,7 +4985,7 @@ StunUInt32Attribute
 *
 retransmit_attr
 =
-request
+message
 -
 >
 GetUInt32
@@ -5127,7 +5123,7 @@ announce_goog_ping
 /
 Check
 if
-request
+message
 contains
 a
 announce
@@ -5137,7 +5133,7 @@ request
 auto
 goog_misc
 =
-request
+message
 -
 >
 GetUInt16List
@@ -5260,7 +5256,7 @@ SendGoogPingResponse
 const
 StunMessage
 *
-request
+message
 )
 {
 RTC_DCHECK_RUN_ON
@@ -5270,7 +5266,7 @@ network_thread_
 ;
 RTC_DCHECK
 (
-request
+message
 -
 >
 type
@@ -5287,7 +5283,6 @@ Fill
 in
 the
 response
-message
 .
 StunMessage
 response
@@ -5303,7 +5298,7 @@ response
 .
 SetTransactionID
 (
-request
+message
 -
 >
 transaction_id
@@ -5374,7 +5369,6 @@ address
 Send
 the
 response
-message
 .
 rtc
 :

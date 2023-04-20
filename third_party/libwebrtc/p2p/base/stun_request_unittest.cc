@@ -600,10 +600,10 @@ Prepare
 (
 StunMessage
 *
-request
+message
 )
 {
-request
+message
 -
 >
 SetType

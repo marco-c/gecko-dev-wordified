@@ -1411,7 +1411,7 @@ unique_ptr
 <
 StunMessage
 >
-request
+message
 )
 :
 manager_
@@ -1425,7 +1425,7 @@ std
 :
 move
 (
-request
+message
 )
 )
 tstamp_

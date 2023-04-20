@@ -610,7 +610,7 @@ unique_ptr
 <
 StunMessage
 >
-request
+message
 )
 ;
 ~
@@ -808,7 +808,7 @@ Prepare
 (
 StunMessage
 *
-request
+message
 )
 {
 }
