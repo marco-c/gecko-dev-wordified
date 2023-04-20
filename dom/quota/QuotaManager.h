@@ -1132,7 +1132,6 @@ mQuotaMutex
 ;
 LockedRemoveQuotaForOrigin
 (
-aPersistenceType
 aOriginMetadata
 )
 ;
@@ -2610,8 +2609,6 @@ aLocks
 void
 LockedRemoveQuotaForOrigin
 (
-PersistenceType
-aPersistenceType
 const
 OriginMetadata
 &

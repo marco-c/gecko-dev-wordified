@@ -1345,12 +1345,6 @@ LockedRemoveQuotaForOrigin
 lock
 -
 >
-GetPersistenceType
-(
-)
-lock
--
->
 OriginMetadata
 (
 )
