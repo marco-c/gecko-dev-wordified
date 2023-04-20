@@ -567,7 +567,9 @@ Deregister
 TransmissionOffset
 :
 :
-kId
+Uri
+(
+)
 )
 ;
 map
@@ -577,7 +579,9 @@ Deregister
 TransmissionOffset
 :
 :
-kId
+Uri
+(
+)
 )
 ;
 }

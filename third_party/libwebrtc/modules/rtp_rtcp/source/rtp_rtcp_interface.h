@@ -1923,16 +1923,6 @@ id
 0
 ;
 virtual
-int32_t
-DeregisterSendRtpHeaderExtension
-(
-RTPExtensionType
-type
-)
-=
-0
-;
-virtual
 void
 DeregisterSendRtpHeaderExtension
 (

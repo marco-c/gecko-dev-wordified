@@ -334,13 +334,6 @@ type
 ]
 ;
 }
-int32_t
-Deregister
-(
-RTPExtensionType
-type
-)
-;
 void
 Deregister
 (
