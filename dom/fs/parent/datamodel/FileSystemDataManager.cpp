@@ -165,7 +165,12 @@ aOrigin
 )
 {
 return
-nullptr
+RefPtr
+<
+FileSystemDataManager
+>
+(
+)
 ;
 }
 }
