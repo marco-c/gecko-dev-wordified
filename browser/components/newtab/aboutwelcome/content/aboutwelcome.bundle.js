@@ -12487,7 +12487,7 @@ button
 className
 :
 "
-secondary
+primary
 "
 value
 :
