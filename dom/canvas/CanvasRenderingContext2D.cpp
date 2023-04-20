@@ -29159,6 +29159,7 @@ CanvasImageCache
 LookupAllCanvas
 (
 aElement
+mTarget
 )
 ;
 if
@@ -30187,6 +30188,7 @@ LookupCanvas
 (
 element
 mCanvasElement
+mTarget
 &
 imgSize
 &
@@ -30533,6 +30535,7 @@ NotifyDrawImage
 (
 element
 mCanvasElement
+mTarget
 res
 .
 mSourceSurface
