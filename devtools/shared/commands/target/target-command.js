@@ -6846,7 +6846,7 @@ be
 destroyed
 so
 that
-LocalTabCommandsFactory
+TabDescriptorFactory
 clears
 its
 memoized

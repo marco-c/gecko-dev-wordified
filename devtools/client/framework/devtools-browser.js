@@ -2348,6 +2348,13 @@ forProcess
 processId
 )
 ;
+const
+descriptor
+=
+commands
+.
+descriptorFront
+;
 /
 /
 Display
@@ -2366,7 +2373,7 @@ gDevTools
 .
 showToolbox
 (
-commands
+descriptor
 {
 hostType
 :

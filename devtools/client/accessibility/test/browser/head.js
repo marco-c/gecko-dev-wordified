@@ -5082,9 +5082,9 @@ selectedTab
 {
 if
 (
-gDevTools
+TabDescriptorFactory
 .
-hasToolboxForTab
+isKnownTab
 (
 tab
 )
