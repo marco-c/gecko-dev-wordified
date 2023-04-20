@@ -568,16 +568,6 @@ UpdateLoadFlags
 (
 )
 ;
-void
-RestartAnimation
-(
-)
-;
-void
-StopAnimation
-(
-)
-;
 virtual
 void
 BuildDisplayList
