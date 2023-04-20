@@ -132,7 +132,7 @@ setTargets
 int
 targetBitrateBps
 int
-targetFps
+targetFramerateFps
 )
 ;
 /
@@ -197,16 +197,13 @@ getAdjustedBitrateBps
 *
 Gets
 the
+current
 framerate
-for
-initial
-codec
-configuration
 .
 *
 /
 int
-getCodecConfigFramerate
+getAdjustedFramerateFps
 (
 )
 ;

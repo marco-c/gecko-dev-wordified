@@ -249,7 +249,7 @@ setTargets
 int
 targetBitrateBps
 int
-targetFps
+targetFramerateFps
 )
 {
 if
@@ -295,7 +295,7 @@ super
 setTargets
 (
 targetBitrateBps
-targetFps
+targetFramerateFps
 )
 ;
 }
@@ -310,7 +310,7 @@ size
 {
 if
 (
-targetFps
+targetFramerateFps
 =
 =
 0
@@ -340,7 +340,7 @@ targetBitrateBps
 BITS_PER_BYTE
 )
 /
-targetFps
+targetFramerateFps
 ;
 deviationBytes
 +
@@ -358,7 +358,7 @@ timeSinceLastAdjustmentMs
 .
 0
 /
-targetFps
+targetFramerateFps
 ;
 /
 /
