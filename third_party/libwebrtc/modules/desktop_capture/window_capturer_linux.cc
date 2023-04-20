@@ -244,6 +244,11 @@ options
 )
 ;
 #
+else
+return
+nullptr
+;
+#
 endif
 /
 /
@@ -251,9 +256,6 @@ defined
 (
 WEBRTC_USE_X11
 )
-return
-nullptr
-;
 }
 }
 /
