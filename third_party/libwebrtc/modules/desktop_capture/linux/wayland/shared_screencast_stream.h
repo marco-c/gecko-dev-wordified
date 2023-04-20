@@ -185,7 +185,7 @@ std
 :
 unique_ptr
 <
-BasicDesktopFrame
+DesktopFrame
 >
 CaptureFrame
 (
