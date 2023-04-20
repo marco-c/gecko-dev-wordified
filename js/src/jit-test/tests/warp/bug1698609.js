@@ -73,7 +73,7 @@ src
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 job
 )

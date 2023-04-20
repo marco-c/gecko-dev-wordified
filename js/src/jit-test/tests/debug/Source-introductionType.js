@@ -529,7 +529,7 @@ stencil
 =
 g
 .
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

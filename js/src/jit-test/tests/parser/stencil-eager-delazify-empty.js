@@ -170,7 +170,7 @@ options
 const
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 job
 )

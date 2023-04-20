@@ -32,7 +32,7 @@ offThreadCompileModuleToStencil
 var
 stencil
 =
-finishOffThreadCompileModuleToStencil
+finishOffThreadStencil
 (
 )
 ;

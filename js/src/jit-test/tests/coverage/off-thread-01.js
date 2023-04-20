@@ -75,7 +75,7 @@ offThreadFun
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

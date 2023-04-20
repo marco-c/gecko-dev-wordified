@@ -123,7 +123,7 @@ asmFunStr
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

@@ -55,7 +55,7 @@ f
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 job
 )

@@ -31,7 +31,7 @@ source
 var
 stencil
 =
-finishOffThreadCompileModuleToStencil
+finishOffThreadStencil
 (
 )
 ;

@@ -54,7 +54,7 @@ assertThrowsInstanceOf
 var
 stencil
 =
-finishOffThreadCompileModuleToStencil
+finishOffThreadStencil
 (
 )
 ;

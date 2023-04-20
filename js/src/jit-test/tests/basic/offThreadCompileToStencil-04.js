@@ -103,7 +103,7 @@ assertThrowsValue
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

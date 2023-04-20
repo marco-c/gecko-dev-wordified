@@ -25,7 +25,7 @@ evalInWorker
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

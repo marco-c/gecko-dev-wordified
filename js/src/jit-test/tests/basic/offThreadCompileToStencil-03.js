@@ -63,7 +63,7 @@ f
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 id
 )
@@ -107,7 +107,7 @@ next
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 id
 )
@@ -154,7 +154,7 @@ f
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 id
 )
@@ -199,7 +199,7 @@ next
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 id
 )
