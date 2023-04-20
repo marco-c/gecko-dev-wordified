@@ -2952,10 +2952,10 @@ GetPosition
 (
 uint32_t
 *
-aColIdx
+aRowIdx
 uint32_t
 *
-aRowIdx
+aColIdx
 )
 {
 Unused
@@ -2967,8 +2967,8 @@ mDoc
 SendGetPosition
 (
 mID
-aColIdx
 aRowIdx
+aColIdx
 )
 ;
 }
