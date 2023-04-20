@@ -1483,20 +1483,16 @@ server
 "
 :
 "
-http
+data
 :
-/
-/
-%
-(
-server
-)
-s
-/
+#
+remote
+-
+settings
+-
 dummy
 /
-blocklist
-/
+v1
 "
         
 #

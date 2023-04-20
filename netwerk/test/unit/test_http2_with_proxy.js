@@ -415,10 +415,14 @@ server
 "
 data
 :
-text
+#
+remote
+-
+settings
+-
+dummy
 /
-html
-test
+v1
 )
 ;
 proxy

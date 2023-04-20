@@ -870,12 +870,9 @@ settings
 server
 "
 "
-http
+data
 :
-/
-/
-localhost
-/
+#
 remote
 -
 settings
