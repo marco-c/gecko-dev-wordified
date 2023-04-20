@@ -120,6 +120,8 @@ uint64_t
 aMaxStreamData
 bool
 aVersionNegotiation
+bool
+aWebTransport
 const
 nsACString
 &
@@ -146,6 +148,7 @@ aMaxBlockedStreams
 aMaxData
 aMaxStreamData
 aVersionNegotiation
+aWebTransport
 &
 aQlogDir
 (
