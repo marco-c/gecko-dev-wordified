@@ -145,6 +145,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGAnimatedNumber
 .
 h
