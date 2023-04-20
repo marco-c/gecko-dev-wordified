@@ -1661,6 +1661,7 @@ NS_IsMainThread
 )
 )
 ;
+{
 /
 /
 This
@@ -1669,9 +1670,11 @@ enable
 vsync
 .
 RefPtr
-(
+window
+=
 mWindow
-)
+;
+window
 -
 >
 NotifyOcclusionState
@@ -1682,6 +1685,7 @@ OcclusionState
 VISIBLE
 )
 ;
+}
 MutexAutoLock
 lock
 (
