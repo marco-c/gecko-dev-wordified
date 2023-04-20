@@ -174,6 +174,7 @@ MerinoClient
 (
 )
 ;
+await
 MerinoTestUtils
 .
 server

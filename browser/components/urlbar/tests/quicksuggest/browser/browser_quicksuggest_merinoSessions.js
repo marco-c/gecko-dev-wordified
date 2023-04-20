@@ -257,6 +257,7 @@ nsISearchService
 CHANGE_REASON_UNKNOWN
 )
 ;
+await
 MerinoTestUtils
 .
 server
