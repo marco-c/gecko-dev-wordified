@@ -415,6 +415,8 @@ Second
 Literal
 (
 "
+\
+u202F
 "
 )
 DayPeriod
@@ -726,6 +728,8 @@ Second
 Literal
 (
 "
+\
+u202F
 "
 )
 DayPeriod

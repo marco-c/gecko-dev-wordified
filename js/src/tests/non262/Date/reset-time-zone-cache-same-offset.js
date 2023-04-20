@@ -83,7 +83,8 @@ localeString
 00
 :
 00
-AM
+\
+u202FAM
 GMT
 +
 1
@@ -136,7 +137,8 @@ localeString
 00
 :
 00
-AM
+\
+u202FAM
 UTC
 "
 }
