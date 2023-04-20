@@ -9604,9 +9604,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -11316,9 +11316,9 @@ if
 node
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 isEditable

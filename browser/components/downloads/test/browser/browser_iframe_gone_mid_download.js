@@ -329,9 +329,9 @@ saved
 "
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -425,9 +425,9 @@ saved
 "
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
