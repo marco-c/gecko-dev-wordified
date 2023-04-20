@@ -3426,14 +3426,12 @@ Relaxed
 sCrashOnBlocklistedPref
 ;
 bool
-ShouldSanitizePreference
+IsPreferenceSanitized
 (
 const
 char
 *
 aPref
-bool
-aIsDestWebContentProcess
 )
 ;
 const
