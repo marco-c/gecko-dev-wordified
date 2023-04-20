@@ -910,6 +910,7 @@ window
 .
 PlacesPanelview
 (
+query
 document
 .
 getElementById
@@ -919,7 +920,6 @@ appMenu_historyMenu
 "
 )
 panelview
-query
 )
 ;
 /
