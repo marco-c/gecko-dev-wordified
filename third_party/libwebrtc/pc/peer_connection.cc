@@ -15039,7 +15039,7 @@ cricket
 :
 :
 CandidateStatsList
-candidate_states_list
+candidate_stats_list
 ;
 port_allocator_
 -
@@ -15047,11 +15047,11 @@ port_allocator_
 GetCandidateStatsFromPooledSessions
 (
 &
-candidate_states_list
+candidate_stats_list
 )
 ;
 return
-candidate_states_list
+candidate_stats_list
 ;
 }
 std
