@@ -197,11 +197,6 @@ nsIMacPreferencesReader
 .
 idl
 "
-"
-nsIMacUtils
-.
-idl
-"
 ]
 EXPORTS
 +
