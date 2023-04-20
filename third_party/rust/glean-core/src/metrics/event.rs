@@ -122,7 +122,7 @@ MAX_LENGTH_EXTRA_KEY_VALUE
 :
 usize
 =
-100
+500
 ;
 /
 /

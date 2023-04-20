@@ -2016,7 +2016,6 @@ labeled
 .
 get
 (
-&
 label
 )
 .
@@ -2404,7 +2403,6 @@ labeled
 .
 get
 (
-&
 label
 )
 }
@@ -2635,7 +2633,6 @@ labeled
 .
 get
 (
-&
 label
 )
 }

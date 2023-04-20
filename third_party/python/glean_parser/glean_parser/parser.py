@@ -1668,7 +1668,7 @@ metric_obj
 .
 no_lint
 =
-list
+sorted
 (
 set
 (
@@ -1696,7 +1696,7 @@ tags
 "
 ]
 =
-list
+sorted
 (
                         
 set
@@ -2132,7 +2132,7 @@ ping_obj
 .
 no_lint
 =
-list
+sorted
 (
 set
 (
@@ -2492,7 +2492,7 @@ tag_obj
 .
 no_lint
 =
-list
+sorted
 (
 set
 (

@@ -1611,6 +1611,7 @@ code
             
 print
 (
+                
 f
 "
 ERROR
@@ -1623,6 +1624,13 @@ glean_parser
 __version__
 }
 "
+                
+file
+=
+sys
+.
+stderr
+            
 )
         
 raise
