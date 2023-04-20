@@ -46,6 +46,12 @@ generator
 BundleGenerator
 ;
 use
+rustc_hash
+:
+:
+FxHashSet
+;
+use
 std
 :
 :
@@ -2592,7 +2598,7 @@ Self
 LocalesIter
 resource_ids
 :
-Vec
+FxHashSet
 <
 ResourceId
 >
@@ -2663,7 +2669,7 @@ Self
 LocalesIter
 resource_ids
 :
-Vec
+FxHashSet
 <
 ResourceId
 >
