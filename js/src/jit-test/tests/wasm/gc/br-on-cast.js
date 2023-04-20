@@ -741,9 +741,6 @@ struct
 )
 )
 (
-sub
-a
-(
 type
 b
 (
@@ -751,7 +748,6 @@ struct
 (
 field
 i32
-)
 )
 )
 )
@@ -913,7 +909,7 @@ isA
 (
 b
 )
-1
+0
 )
 ;
 assertEq

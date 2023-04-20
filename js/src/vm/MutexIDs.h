@@ -339,7 +339,7 @@ SharedImmutableScriptData
 \
 _
 (
-WasmTypeIdSet
+WasmFuncTypeIdSet
 500
 )
 \

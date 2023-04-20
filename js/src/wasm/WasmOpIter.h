@@ -2102,6 +2102,9 @@ ModuleEnvironment
 &
 env_
 ;
+TypeCache
+cache_
+;
 TypeAndValueStack
 valueStack_
 ;
@@ -6125,6 +6128,8 @@ lastOpcodeOffset
 )
 actual
 expected
+&
+cache_
 )
 ;
 }
@@ -6358,6 +6363,8 @@ expectedTypeDef
 true
 )
 )
+&
+cache_
 )
 ;
 }
