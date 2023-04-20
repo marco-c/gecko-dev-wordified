@@ -1941,11 +1941,15 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 engine2
 .
 xml
+}
 )
 ;
 await

@@ -492,6 +492,9 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 engineMaker
@@ -506,6 +509,7 @@ stringify
 getEngineData
 )
 }
+}
 )
 ;
 postEngine
@@ -515,6 +519,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 {
 gDataUrl
 }
@@ -530,6 +537,7 @@ stringify
 postEngineData
 )
 }
+}
 )
 ;
 unresolvableEngine
@@ -539,6 +547,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 {
 gDataUrl
 }
@@ -554,6 +565,7 @@ stringify
 unresolvableEngineData
 )
 }
+}
 )
 ;
 alternateJSONEngine
@@ -563,6 +575,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 {
 gDataUrl
 }
@@ -577,6 +592,7 @@ stringify
 (
 alternateJSONSuggestEngineData
 )
+}
 }
 )
 ;

@@ -130,11 +130,15 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 engine
 .
 xml
+}
 )
 ;
 Assert

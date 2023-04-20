@@ -102,6 +102,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -112,6 +115,7 @@ testEngine_dupe
 .
 xml
 "
+}
 )
 ;
 await
@@ -119,6 +123,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -129,6 +136,7 @@ testEngine
 .
 xml
 "
+}
 )
 ;
 Services
@@ -354,6 +362,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -364,6 +375,7 @@ testEngine
 .
 xml
 "
+}
 )
 ;
 info
@@ -398,6 +410,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -408,6 +423,7 @@ testEngine_dupe
 .
 xml
 "
+}
 )
 ;
 let
@@ -583,6 +599,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -593,6 +612,7 @@ testEngine_diacritics
 .
 xml
 "
+}
 )
 ;
 let

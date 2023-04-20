@@ -1497,12 +1497,16 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
 )
 +
 TEST_ENGINE_BASENAME
+}
 )
 ;
 engine

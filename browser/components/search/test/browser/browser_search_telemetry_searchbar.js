@@ -298,9 +298,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
 url
-"
-"
+}
 )
 ;
 registerCleanupFunction

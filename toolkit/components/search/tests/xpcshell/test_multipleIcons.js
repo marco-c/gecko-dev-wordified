@@ -90,11 +90,15 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 engineImages
 .
 xml
+}
 )
 ;
 info

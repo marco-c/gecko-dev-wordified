@@ -162,12 +162,16 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
 )
 +
 SUGGESTIONS_ENGINE_NAME
+}
 )
 ;
 let
