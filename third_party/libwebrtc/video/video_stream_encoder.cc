@@ -1118,14 +1118,14 @@ if
 (
 new_send_codec
 .
-ScalabilityMode
+GetScalabilityMode
 (
 )
 !
 =
 prev_send_codec
 .
-ScalabilityMode
+GetScalabilityMode
 (
 )
 )
