@@ -331,6 +331,13 @@ ClearContentController
 (
 )
 ;
+APZCTesterBase
+:
+:
+TearDown
+(
+)
+;
 }
 /
 *

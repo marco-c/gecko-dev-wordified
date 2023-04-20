@@ -1152,7 +1152,7 @@ Up
 2
 4
 .
-2
+3
 )
 ;
 }
@@ -1302,7 +1302,7 @@ Down
 2
 8
 .
-5
+6
 )
 ;
 ExecuteWait
@@ -1324,7 +1324,7 @@ Down
 4
 7
 .
-3
+4
 )
 ;
 ExecutePanGesture100Hz
@@ -1431,7 +1431,7 @@ Down
 5
 10
 .
-0
+1
 )
 ;
 ExecuteWait
@@ -1453,7 +1453,7 @@ Down
 8
 9
 .
-3
+4
 )
 ;
 ExecutePanGesture100Hz
@@ -1607,7 +1607,7 @@ Down
 4
 7
 .
-0
+1
 )
 ;
 ExecuteWait
