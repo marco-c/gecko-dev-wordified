@@ -687,6 +687,12 @@ bool
 >
 mCallingStatusAndProgress
 ;
+bool
+mInterceptionReset
+{
+false
+}
+;
 /
 *
 *
