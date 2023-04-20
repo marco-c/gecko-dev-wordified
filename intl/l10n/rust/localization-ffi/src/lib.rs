@@ -2981,6 +2981,14 @@ rc
 =
 0
 {
+std
+:
+:
+mem
+:
+:
+drop
+(
 Box
 :
 :
@@ -2995,6 +3003,7 @@ as
 *
 mut
 LocalizationRc
+)
 )
 ;
 }
