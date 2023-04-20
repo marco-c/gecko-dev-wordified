@@ -14291,6 +14291,10 @@ JS
 :
 GCCellPtr
 thing
+const
+char
+*
+name
 )
 override
 ;
@@ -14510,6 +14514,10 @@ JS
 :
 GCCellPtr
 thing
+const
+char
+*
+name
 )
 {
 Compartment
@@ -31030,6 +31038,10 @@ onEdge
 T
 *
 thing
+const
+char
+*
+name
 )
 {
 /

@@ -287,6 +287,10 @@ Edge
 type
 *
 thing
+const
+char
+*
+name
 )
 override
 ;
