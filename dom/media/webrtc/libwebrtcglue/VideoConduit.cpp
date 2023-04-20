@@ -8884,10 +8884,6 @@ videoStreamFactoryRef
 ShouldDropFrame
 (
 aFrame
-.
-timestamp_us
-(
-)
 )
 )
 {
