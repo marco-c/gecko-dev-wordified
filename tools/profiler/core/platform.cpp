@@ -22929,6 +22929,11 @@ ProcessStreamingContext
 processStreamingContext
 (
 threadCount
+aWriter
+.
+SourceFailureLatch
+(
+)
 CorePS
 :
 :
@@ -38984,6 +38989,11 @@ CopyData
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 profiler_get_profile_json
 (
