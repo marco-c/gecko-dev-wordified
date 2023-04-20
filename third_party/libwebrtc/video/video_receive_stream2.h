@@ -1165,7 +1165,7 @@ wait_ms
 )
 RTC_RUN_ON
 (
-worker_sequence_checker_
+packet_sequence_checker_
 )
 ;
 void
@@ -1186,7 +1186,7 @@ timestamp_ms
 )
 RTC_RUN_ON
 (
-worker_sequence_checker_
+packet_sequence_checker_
 )
 ;
 void
@@ -1203,7 +1203,7 @@ keyframe_request_is_due
 )
 RTC_RUN_ON
 (
-worker_sequence_checker_
+packet_sequence_checker_
 )
 ;
 bool
@@ -1215,7 +1215,7 @@ timestamp_ms
 const
 RTC_RUN_ON
 (
-worker_sequence_checker_
+packet_sequence_checker_
 )
 ;
 int
@@ -1887,7 +1887,7 @@ bool
 keyframe_generation_requested_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+packet_sequence_checker_
 )
 =
 false
