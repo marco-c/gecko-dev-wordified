@@ -4169,7 +4169,7 @@ ReportTransportStats
 )
 RTC_RUN_ON
 (
-signaling_thread
+network_thread
 (
 )
 )
