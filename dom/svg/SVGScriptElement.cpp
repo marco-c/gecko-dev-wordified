@@ -1014,6 +1014,7 @@ nsAString
 &
 text
 )
+const
 {
 nsContentUtils
 :

@@ -204,6 +204,7 @@ ErrorResult
 &
 aError
 )
+const
 ;
 void
 SetText

@@ -312,6 +312,7 @@ nsAString
 &
 text
 )
+const
 override
 ;
 virtual

@@ -635,6 +635,7 @@ nsAString
 &
 text
 )
+const
 =
 0
 ;

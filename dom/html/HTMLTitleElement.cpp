@@ -283,6 +283,7 @@ ErrorResult
 &
 aError
 )
+const
 {
 if
 (

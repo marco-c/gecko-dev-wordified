@@ -35803,6 +35803,7 @@ static
 bool
 AppendNodeTextContentsRecurse
 (
+const
 nsINode
 *
 aNode
@@ -35925,6 +35926,7 @@ nsContentUtils
 :
 AppendNodeTextContent
 (
+const
 nsINode
 *
 aNode
@@ -35941,6 +35943,7 @@ aFallible
 {
 if
 (
+const
 Text
 *
 text
@@ -47890,6 +47893,7 @@ nsContentUtils
 :
 GetNodeTextContent
 (
+const
 nsINode
 *
 aNode
@@ -47926,6 +47930,7 @@ nsContentUtils
 :
 GetNodeTextContent
 (
+const
 nsINode
 *
 aNode

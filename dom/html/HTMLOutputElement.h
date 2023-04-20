@@ -459,6 +459,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 void
 SetValue

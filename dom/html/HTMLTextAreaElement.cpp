@@ -1950,6 +1950,7 @@ ErrorResult
 &
 aError
 )
+const
 {
 if
 (
