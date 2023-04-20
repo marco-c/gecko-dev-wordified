@@ -1940,7 +1940,9 @@ RegisterRtpHeaderExtension
 AbsoluteSendTime
 :
 :
-kUri
+Uri
+(
+)
 new_ids
 .
 abs_send_time
@@ -2016,7 +2018,9 @@ RegisterRtpHeaderExtension
 TransportSequenceNumber
 :
 :
-kUri
+Uri
+(
+)
 new_ids
 .
 transport_sequence_number
@@ -2176,7 +2180,9 @@ RegisterRtpHeaderExtension
 RtpMid
 :
 :
-kUri
+Uri
+(
+)
 new_ids
 .
 mid
@@ -2281,7 +2287,9 @@ DeregisterSendRtpHeaderExtension
 RtpStreamId
 :
 :
-kUri
+Uri
+(
+)
 )
 ;
 }
@@ -2304,7 +2312,9 @@ RegisterRtpHeaderExtension
 RtpStreamId
 :
 :
-kUri
+Uri
+(
+)
 new_ids
 .
 repaired_rid
@@ -2321,7 +2331,9 @@ RegisterRtpHeaderExtension
 RtpStreamId
 :
 :
-kUri
+Uri
+(
+)
 new_ids
 .
 rid
@@ -2380,7 +2392,9 @@ RegisterRtpHeaderExtension
 AbsoluteCaptureTimeExtension
 :
 :
-kUri
+Uri
+(
+)
 new_ids
 .
 abs_capture_time

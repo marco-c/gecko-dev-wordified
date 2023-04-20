@@ -4513,7 +4513,9 @@ webrtc
 AudioLevel
 :
 :
-kUri
+Uri
+(
+)
 id
 )
 ;
@@ -4531,7 +4533,9 @@ webrtc
 AudioLevel
 :
 :
-kUri
+Uri
+(
+)
 )
 ;
 }

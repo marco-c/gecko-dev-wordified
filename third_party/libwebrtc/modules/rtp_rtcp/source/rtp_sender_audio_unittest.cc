@@ -675,7 +675,9 @@ RegisterRtpHeaderExtension
 AudioLevel
 :
 :
-kUri
+Uri
+(
+)
 kAudioLevelExtensionId
 )
 ;
@@ -928,7 +930,9 @@ RegisterRtpHeaderExtension
 AbsoluteCaptureTimeExtension
 :
 :
-kUri
+Uri
+(
+)
 kAbsoluteCaptureTimeExtensionId
 )
 ;
@@ -1144,7 +1148,9 @@ RegisterRtpHeaderExtension
 AbsoluteCaptureTimeExtension
 :
 :
-kUri
+Uri
+(
+)
 kAbsoluteCaptureTimeExtensionId
 )
 ;

@@ -7334,7 +7334,9 @@ RegisterHeaderExtension
 TransportSequenceNumber
 :
 :
-kUri
+Uri
+(
+)
 kTransportSequenceNumberExtensionId
 )
 ;
@@ -7436,7 +7438,9 @@ RegisterHeaderExtension
 AbsoluteSendTime
 :
 :
-kUri
+Uri
+(
+)
 kAbsoluteSendTimeExtensionId
 )
 ;
@@ -7486,7 +7490,9 @@ RegisterHeaderExtension
 TransmissionOffset
 :
 :
-kUri
+Uri
+(
+)
 kTransmissionOffsetExtensionId
 )
 ;
@@ -7600,7 +7606,9 @@ RegisterHeaderExtension
 TransportSequenceNumber
 :
 :
-kUri
+Uri
+(
+)
 kTransportSequenceNumberExtensionId
 )
 ;
