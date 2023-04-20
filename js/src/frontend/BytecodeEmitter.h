@@ -4578,11 +4578,9 @@ nodiscard
 bool
 emitArray
 (
-ParseNode
+ListNode
 *
-arrayHead
-uint32_t
-count
+array
 )
 ;
 [
@@ -4756,9 +4754,9 @@ withoutValues
 bool
 isArrayObjLiteralCompatible
 (
-ParseNode
+ListNode
 *
-arrayHead
+array
 )
 ;
 [
@@ -4817,9 +4815,9 @@ nodiscard
 bool
 emitObjLiteralArray
 (
-ParseNode
+ListNode
 *
-arrayHead
+array
 )
 ;
 /
