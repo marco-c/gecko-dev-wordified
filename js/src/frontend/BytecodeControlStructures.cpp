@@ -1724,7 +1724,7 @@ forOfIterCloseScopeStarts
 bce_
 -
 >
-cx
+ec
 )
 ;
 /
