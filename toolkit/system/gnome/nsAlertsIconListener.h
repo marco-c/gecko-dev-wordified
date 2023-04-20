@@ -456,6 +456,9 @@ mBackend
 bool
 mAlertHasAction
 ;
+bool
+mAlertIsSilent
+;
 static
 void
 *
