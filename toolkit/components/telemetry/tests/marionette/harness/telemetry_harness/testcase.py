@@ -1145,6 +1145,9 @@ marionette
 .
 quit
 (
+in_app
+=
+True
 )
     
 def
@@ -1837,9 +1840,6 @@ marionette
 .
 quit
 (
-in_app
-=
-False
 clean
 =
 True

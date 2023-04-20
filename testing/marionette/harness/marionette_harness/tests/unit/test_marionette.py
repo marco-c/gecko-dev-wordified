@@ -404,6 +404,9 @@ marionette
 .
 quit
 (
+in_app
+=
+True
 )
         
 self
@@ -704,9 +707,6 @@ marionette
 .
 quit
 (
-in_app
-=
-False
 )
     
 def

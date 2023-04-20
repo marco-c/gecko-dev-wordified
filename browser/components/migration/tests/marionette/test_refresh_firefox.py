@@ -4219,12 +4219,12 @@ marionette
 .
 restart
 (
-in_app
-=
-False
 clean
 =
 True
+in_app
+=
+False
 )
         
 self
