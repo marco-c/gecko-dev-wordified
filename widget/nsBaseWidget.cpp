@@ -16664,14 +16664,9 @@ if
 (
 aPanInput
 .
-MayTriggerSwipe
+AllowsSwipe
 (
 )
-&
-&
-aPanInput
-.
-mOverscrollBehaviorAllowsSwipe
 )
 {
 SwipeInfo
