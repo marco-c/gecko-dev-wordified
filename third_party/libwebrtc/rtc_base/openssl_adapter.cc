@@ -6571,6 +6571,10 @@ mode
 ECDSA
 ciphers
 .
+Finally
+disable
+3DES
+.
 SSL_CTX_set_cipher_list
 (
 ctx
@@ -6602,6 +6606,9 @@ EXP
 :
 !
 MD5
+:
+!
+3DES
 "
 )
 ;

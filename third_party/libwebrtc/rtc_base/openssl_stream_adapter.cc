@@ -6395,7 +6395,7 @@ matches
 the
 list
 of
-SSLClientSocketOpenSSL
+SSLClientSocketImpl
 in
 Chromium
 .
@@ -6427,6 +6427,9 @@ AES256
 :
 !
 aPSK
+:
+!
+3DES
 "
 )
 ;
