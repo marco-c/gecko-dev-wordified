@@ -687,7 +687,6 @@ Self
 Target
 {
 &
-*
 self
 .
 buf

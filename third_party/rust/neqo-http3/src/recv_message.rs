@@ -237,6 +237,9 @@ module_name_repetitions
 )
 ]
 pub
+(
+crate
+)
 struct
 RecvMessageInfo
 {

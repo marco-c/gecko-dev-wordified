@@ -4650,7 +4650,6 @@ remove_acked
 acked_ranges
 &
 mut
-*
 self
 .
 stats
@@ -6296,7 +6295,6 @@ count_pto
 (
 &
 mut
-*
 self
 .
 stats

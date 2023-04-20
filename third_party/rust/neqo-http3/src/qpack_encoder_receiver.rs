@@ -135,6 +135,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 EncoderRecvStream
 {

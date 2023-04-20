@@ -1325,7 +1325,6 @@ Self
 Target
 {
 &
-*
 self
 .
 stats

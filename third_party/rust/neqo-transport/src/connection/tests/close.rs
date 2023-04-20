@@ -555,10 +555,8 @@ now
 String
 :
 :
-from
+new
 (
-"
-"
 )
 )
 ;

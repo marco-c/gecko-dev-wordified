@@ -5827,7 +5827,6 @@ challenge
 "
 hex
 (
-&
 challenge
 )
 )

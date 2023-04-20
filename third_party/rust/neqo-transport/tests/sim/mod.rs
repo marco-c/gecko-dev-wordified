@@ -1670,14 +1670,11 @@ done
 let
 real_elapsed
 =
-Instant
-:
-:
-now
+real_start
+.
+elapsed
 (
 )
--
-real_start
 ;
 println
 !

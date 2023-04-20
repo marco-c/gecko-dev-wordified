@@ -1095,8 +1095,6 @@ len
 )
 )
 ?
-(
-&
 sample
 [
 .
@@ -1106,7 +1104,6 @@ Self
 :
 SAMPLE_SIZE
 ]
-)
 .
 as_ptr
 (
@@ -1193,8 +1190,6 @@ blockCounterBits
 32
 pNonce
 :
-(
-&
 sample
 [
 4
@@ -1205,7 +1200,6 @@ Self
 :
 SAMPLE_SIZE
 ]
-)
 .
 as_ptr
 (
@@ -1261,15 +1255,11 @@ addr_of_mut
 (
 param_item
 )
-(
-&
-mut
 output
 [
 .
 .
 ]
-)
 .
 as_mut_ptr
 (
@@ -1289,14 +1279,11 @@ len
 )
 )
 ?
-(
-&
 output
 [
 .
 .
 ]
-)
 .
 as_ptr
 (
