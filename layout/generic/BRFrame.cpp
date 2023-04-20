@@ -288,7 +288,6 @@ aPoint
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetNoAmount
 (
@@ -300,7 +299,6 @@ aOffset
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetCharacter
 (
@@ -318,7 +316,6 @@ PeekOffsetCharacterOptions
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetWord
 (
@@ -339,7 +336,6 @@ aTrimSpaces
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -348,7 +344,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aMetrics
 const
 ReflowInput
 &
@@ -359,7 +355,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 AddInlineMinISize
 (
@@ -372,7 +367,6 @@ aData
 )
 override
 ;
-virtual
 void
 AddInlinePrefISize
 (
@@ -385,7 +379,6 @@ aData
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -395,7 +388,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -405,7 +397,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetLogicalBaseline
 (
@@ -418,7 +409,6 @@ aWritingMode
 const
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -454,7 +444,6 @@ eLineParticipant
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -471,7 +460,6 @@ override
 endif
 protected
 :
-explicit
 BRFrame
 (
 ComputedStyle
