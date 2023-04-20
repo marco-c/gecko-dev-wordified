@@ -12007,14 +12007,6 @@ nsDisplayItem
 public
 :
 using
-Layer
-=
-layers
-:
-:
-Layer
-;
-using
 LayerManager
 =
 layers

@@ -533,16 +533,6 @@ public
 WindowRenderer
 {
 typedef
-nsTArray
-<
-RefPtr
-<
-Layer
->
->
-LayerRefArray
-;
-typedef
 nsTHashSet
 <
 RefPtr
