@@ -987,7 +987,7 @@ MTU
 bool
 slow_start_tcp_style
 =
-true
+false
 ;
 /
 /
