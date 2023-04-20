@@ -343,6 +343,9 @@ aIsChromeWorker
 WorkerKindDedicated
 aOptions
 .
+mCredentials
+aOptions
+.
 mType
 aOptions
 .

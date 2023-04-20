@@ -220,6 +220,10 @@ aIsChromeWorker
 *
 /
 WorkerKindDedicated
+RequestCredentials
+:
+:
+Omit
 WorkerType
 :
 :
