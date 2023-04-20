@@ -14975,7 +14975,7 @@ ReportSdpFormatReceived
 const
 SessionDescriptionInterface
 &
-remote_offer
+remote_description
 )
 {
 int
@@ -15005,7 +15005,7 @@ ContentInfo
 &
 content
 :
-remote_offer
+remote_description
 .
 description
 (
@@ -15171,7 +15171,7 @@ kSdpFormatReceivedSimple
 }
 switch
 (
-remote_offer
+remote_description
 .
 GetType
 (
@@ -15247,7 +15247,7 @@ for
 <
 SdpTypeToString
 (
-remote_offer
+remote_description
 .
 GetType
 (

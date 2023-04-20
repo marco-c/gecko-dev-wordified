@@ -2845,7 +2845,7 @@ for
 the
 given
 remote
-offer
+description
 .
 void
 ReportSdpFormatReceived
@@ -2853,7 +2853,7 @@ ReportSdpFormatReceived
 const
 SessionDescriptionInterface
 &
-remote_offer
+remote_description
 )
 ;
 /
