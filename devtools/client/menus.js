@@ -78,8 +78,8 @@ into
 the
 *
 "
-Web
-Developer
+Browser
+Tools
 "
 menu
 .

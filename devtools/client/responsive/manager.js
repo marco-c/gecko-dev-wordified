@@ -429,8 +429,8 @@ Button
 -
 menu
 :
-Web
-Developer
+Browser
+Tools
 menu
 item
 *
@@ -624,8 +624,8 @@ Button
 -
 menu
 :
-Web
-Developer
+Browser
+Tools
 menu
 item
 *
@@ -1038,8 +1038,8 @@ Button
 -
 menu
 :
-Web
-Developer
+Browser
+Tools
 menu
 item
 *

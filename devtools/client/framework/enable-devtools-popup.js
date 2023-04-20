@@ -104,8 +104,8 @@ Firefox
 which
 contains
 the
-Web
-Developer
+Browser
+Tools
 menu
 .
 *
