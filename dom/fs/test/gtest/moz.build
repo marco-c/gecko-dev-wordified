@@ -110,6 +110,11 @@ FileSystemMocks
 .
 cpp
 "
+"
+TestHelpers
+.
+cpp
+"
 ]
 include
 (
