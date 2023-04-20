@@ -3361,8 +3361,6 @@ mozilla
 InputData
 &
 aEvent
-bool
-aCanTriggerSwipe
 )
 ;
 nsEventStatus
