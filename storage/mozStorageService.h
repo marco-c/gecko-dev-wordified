@@ -778,6 +778,9 @@ mTelemetryExclSqliteVFS
 AutoVFSRegistration
 mObfuscatingSqliteVFS
 ;
+AutoVFSRegistration
+mReadOnlyNoLockSqliteVFS
+;
 /
 *
 *

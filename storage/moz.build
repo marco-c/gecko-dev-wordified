@@ -409,6 +409,11 @@ ObfuscatingVFS
 cpp
 "
 "
+ReadOnlyNoLockVFS
+.
+cpp
+"
+"
 SQLCollations
 .
 cpp
