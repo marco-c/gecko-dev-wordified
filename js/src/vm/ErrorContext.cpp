@@ -181,7 +181,7 @@ namespace
 js
 ;
 void
-ErrorAllocator
+FrontendAllocator
 :
 :
 reportAllocationOverflow
@@ -198,7 +198,7 @@ onAllocationOverflow
 }
 void
 *
-ErrorAllocator
+FrontendAllocator
 :
 :
 onOutOfMemory
