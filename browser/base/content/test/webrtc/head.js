@@ -3626,6 +3626,7 @@ async
 function
 promiseRequestAudioOutput
 (
+options
 )
 {
 info
@@ -3651,10 +3652,12 @@ spawn
 (
 bc
 [
+options
 ]
 async
 function
 (
+opts
 )
 {
 const
@@ -3668,6 +3671,13 @@ global
 .
 requestAudioOutput
 (
+Cu
+.
+cloneInto
+(
+opts
+content
+)
 )
 ;
 }
