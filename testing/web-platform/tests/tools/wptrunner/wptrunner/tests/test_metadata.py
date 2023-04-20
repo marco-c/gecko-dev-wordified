@@ -16,6 +16,10 @@ tmp_path
 data
 )
 :
+#
+type
+:
+ignore
     
 path
 =
@@ -77,6 +81,10 @@ prop1
 "
 ]
 }
+#
+type
+:
+ignore
                           
 {
 "
@@ -171,6 +179,10 @@ data
 [
 {
 }
+#
+type
+:
+ignore
                           
 {
 "
@@ -349,6 +361,10 @@ test_extra_properties
 tmp_path
 )
 :
+#
+type
+:
+ignore
     
 data
 =
