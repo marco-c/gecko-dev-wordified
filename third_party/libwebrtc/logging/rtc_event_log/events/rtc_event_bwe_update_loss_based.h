@@ -230,16 +230,6 @@ ms
 ;
 }
 Timestamp
-log_time
-(
-)
-const
-{
-return
-timestamp
-;
-}
-Timestamp
 timestamp
 =
 Timestamp
