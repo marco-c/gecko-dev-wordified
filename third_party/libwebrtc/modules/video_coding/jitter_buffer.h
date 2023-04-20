@@ -213,7 +213,9 @@ modules
 /
 video_coding
 /
-jitter_estimator
+timing
+/
+inter_frame_delay
 .
 h
 "
@@ -226,7 +228,7 @@ video_coding
 /
 timing
 /
-inter_frame_delay
+jitter_estimator
 .
 h
 "
@@ -1724,7 +1726,7 @@ for
 estimating
 jitter
 .
-VCMJitterEstimator
+JitterEstimator
 jitter_estimate_
 ;
 /

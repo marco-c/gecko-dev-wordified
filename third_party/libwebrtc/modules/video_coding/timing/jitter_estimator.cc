@@ -92,6 +92,8 @@ modules
 /
 video_coding
 /
+timing
+/
 jitter_estimator
 .
 h
@@ -381,10 +383,10 @@ kNoiseStdDevOffset
 /
 /
 namespace
-VCMJitterEstimator
+JitterEstimator
 :
 :
-VCMJitterEstimator
+JitterEstimator
 (
 Clock
 *
@@ -460,11 +462,11 @@ Reset
 )
 ;
 }
-VCMJitterEstimator
+JitterEstimator
 :
 :
 ~
-VCMJitterEstimator
+JitterEstimator
 (
 )
 =
@@ -477,7 +479,7 @@ the
 JitterEstimate
 .
 void
-VCMJitterEstimator
+JitterEstimator
 :
 :
 Reset
@@ -700,7 +702,7 @@ new
 measurements
 .
 void
-VCMJitterEstimator
+JitterEstimator
 :
 :
 UpdateEstimate
@@ -1358,7 +1360,7 @@ packet
 ratio
 .
 void
-VCMJitterEstimator
+JitterEstimator
 :
 :
 FrameNacked
@@ -1409,7 +1411,7 @@ the
 inputs
 .
 void
-VCMJitterEstimator
+JitterEstimator
 :
 :
 KalmanEstimateChannel
@@ -2160,7 +2162,7 @@ the
 Kalman
 filter
 double
-VCMJitterEstimator
+JitterEstimator
 :
 :
 DeviationFromExpectedDelay
@@ -2218,7 +2220,7 @@ by
 theta
 .
 void
-VCMJitterEstimator
+JitterEstimator
 :
 :
 EstimateRandomJitter
@@ -2560,7 +2562,7 @@ var_noise_
 }
 }
 double
-VCMJitterEstimator
+JitterEstimator
 :
 :
 NoiseThreshold
@@ -2613,7 +2615,7 @@ filtered
 estimates
 .
 TimeDelta
-VCMJitterEstimator
+JitterEstimator
 :
 :
 CalculateEstimate
@@ -2763,7 +2765,7 @@ ret
 ;
 }
 void
-VCMJitterEstimator
+JitterEstimator
 :
 :
 PostProcessEstimate
@@ -2778,7 +2780,7 @@ CalculateEstimate
 ;
 }
 void
-VCMJitterEstimator
+JitterEstimator
 :
 :
 UpdateRtt
@@ -2814,7 +2816,7 @@ an
 estimate
 .
 TimeDelta
-VCMJitterEstimator
+JitterEstimator
 :
 :
 GetJitterEstimate
@@ -3092,7 +3094,7 @@ jitter
 ;
 }
 Frequency
-VCMJitterEstimator
+JitterEstimator
 :
 :
 GetFrameRate

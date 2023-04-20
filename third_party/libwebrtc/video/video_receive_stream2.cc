@@ -433,17 +433,6 @@ modules
 /
 video_coding
 /
-jitter_estimator
-.
-h
-"
-#
-include
-"
-modules
-/
-video_coding
-/
 timing
 .
 h

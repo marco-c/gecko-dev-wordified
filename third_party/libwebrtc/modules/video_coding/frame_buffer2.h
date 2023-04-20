@@ -176,7 +176,9 @@ modules
 /
 video_coding
 /
-jitter_estimator
+timing
+/
+inter_frame_delay
 .
 h
 "
@@ -189,7 +191,7 @@ video_coding
 /
 timing
 /
-inter_frame_delay
+jitter_estimator
 .
 h
 "
@@ -309,7 +311,7 @@ class
 VCMReceiveStatisticsCallback
 ;
 class
-VCMJitterEstimator
+JitterEstimator
 ;
 class
 VCMTiming
@@ -1153,7 +1155,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-VCMJitterEstimator
+JitterEstimator
 jitter_estimator_
 RTC_GUARDED_BY
 (
