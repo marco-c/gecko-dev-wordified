@@ -1784,7 +1784,7 @@ gURLBar
 .
 view
 .
-_queryContextCache
+queryContextCache
 ;
 Assert
 .
@@ -1801,7 +1801,7 @@ number
 Sanity
 check
 :
-_queryContextCache
+queryContextCache
 .
 size
 is
@@ -2342,7 +2342,7 @@ gURLBar
 .
 view
 .
-_queryContextCache
+queryContextCache
 ;
 let
 getContext
