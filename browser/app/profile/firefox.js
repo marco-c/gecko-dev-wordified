@@ -29774,7 +29774,7 @@ devtools
 .
 styleeditor
 .
-showMediaSidebar
+showAtRulesSidebar
 "
 true
 )
@@ -29786,7 +29786,7 @@ devtools
 .
 styleeditor
 .
-mediaSidebarWidth
+atRulesSidebarWidth
 "
 238
 )

@@ -625,7 +625,7 @@ applied
 "
 *
 "
-media
+at
 -
 rules
 -
@@ -685,7 +685,7 @@ are
 being
 registered
 from
-_getMediaRules
+getAtRules
 .
 _mqlList
 =
@@ -2121,7 +2121,7 @@ those
 handler
 properly
 from
-_getMediaRules
+getAtRules
 .
 for
 (
@@ -2141,12 +2141,12 @@ null
 ;
 }
 const
-mediaRules
+atRules
 =
 await
 this
 .
-_getMediaRules
+getAtRules
 (
 styleSheet
 )
@@ -2165,7 +2165,7 @@ resourceId
 updateKind
 :
 "
-media
+at
 -
 rules
 -
@@ -2177,7 +2177,7 @@ updates
 resourceUpdates
 :
 {
-mediaRules
+atRules
 }
 }
 }
@@ -3387,7 +3387,8 @@ importedStyleSheets
 *
 Retrieve
 the
-media
+at
+-
 rules
 of
 a
@@ -3417,6 +3418,12 @@ the
 following
 shape
 :
+*
+-
+type
+{
+String
+}
 *
 -
 mediaText
@@ -3463,7 +3470,7 @@ Number
 *
 /
 async
-_getMediaRules
+getAtRules
 (
 styleSheet
 )
@@ -3892,7 +3899,7 @@ path
 :
 [
 "
-mediaRules
+atRules
 "
 index
 "

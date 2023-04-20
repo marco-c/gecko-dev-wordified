@@ -402,14 +402,14 @@ href
 isNew
 :
 isCreatedByDevTools
-mediaRules
+atRules
 :
 await
 this
 .
 _styleSheetsManager
 .
-_getMediaRules
+getAtRules
 (
 styleSheet
 )

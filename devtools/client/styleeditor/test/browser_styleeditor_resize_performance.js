@@ -105,7 +105,9 @@ delay
 allowed
 between
 two
-media
+at
+-
+rules
 -
 list
 -
@@ -279,7 +281,9 @@ info
 "
 Wait
 for
-media
+at
+-
+rules
 -
 list
 -
