@@ -7067,11 +7067,6 @@ ListNode
 node
 ValueUsage
 valueUsage
-=
-ValueUsage
-:
-:
-WantValue
 )
 ;
 [
@@ -7103,11 +7098,6 @@ ConditionalExpression
 conditional
 ValueUsage
 valueUsage
-=
-ValueUsage
-:
-:
-WantValue
 )
 ;
 [
@@ -7165,11 +7155,6 @@ CallNode
 callNode
 ValueUsage
 valueUsage
-=
-ValueUsage
-:
-:
-WantValue
 )
 ;
 [
