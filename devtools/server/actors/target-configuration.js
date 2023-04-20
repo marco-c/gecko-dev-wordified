@@ -1130,7 +1130,11 @@ if
 this
 .
 _browsingContext
-?
+&
+&
+this
+.
+_browsingContext
 .
 browserId
 =
@@ -1139,6 +1143,14 @@ browserId
 browsingContext
 .
 browserId
+&
+&
+!
+this
+.
+_browsingContext
+.
+isDiscarded
 )
 {
 /
