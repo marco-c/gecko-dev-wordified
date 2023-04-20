@@ -138,6 +138,13 @@ h
 #
 include
 "
+GetDirectoryForOrigin
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -1035,7 +1042,7 @@ finished
 .
 #
 if
-0
+FS_QUOTA_MANAGEMENT_ENABLED
 QM_TRY_UNWRAP
 (
 nsCOMPtr
