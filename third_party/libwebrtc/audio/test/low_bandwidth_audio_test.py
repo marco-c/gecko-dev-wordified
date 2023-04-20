@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+vpython3
 #
 Copyright
 (
@@ -2614,10 +2614,13 @@ value
 units
 )
 in
+list
+(
 analyzer_results
 .
 items
 (
+)
 )
 :
           
@@ -2666,6 +2669,7 @@ results
 .
           
 print
+(
 '
 RESULT
 %
@@ -2685,6 +2689,7 @@ metric
 test_name
 value
 units
+)
 )
         
 if
