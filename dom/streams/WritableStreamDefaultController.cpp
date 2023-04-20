@@ -1266,6 +1266,7 @@ aController
 >
 SetAlgorithms
 (
+*
 aAlgorithms
 )
 ;
