@@ -7640,7 +7640,7 @@ assertEqual
 output
             
 "
-Warning
+warning
 :
 JS
 minification
@@ -7656,7 +7656,7 @@ n
 "
             
 "
-Warning
+warning
 :
 Error
 message

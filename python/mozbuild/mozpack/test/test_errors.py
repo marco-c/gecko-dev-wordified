@@ -220,7 +220,7 @@ get_output
 )
 [
 "
-Warning
+warning
 :
 foo
 "
@@ -282,12 +282,12 @@ get_output
 )
 [
 "
-Warning
+warning
 :
 foo
 "
 "
-Warning
+warning
 :
 bar
 "
@@ -362,7 +362,7 @@ get_output
 )
 [
 "
-Error
+error
 :
 1
 "
@@ -425,17 +425,17 @@ get_output
 )
 [
 "
-Error
+error
 :
 0
 "
 "
-Error
+error
 :
 1
 "
 "
-Error
+error
 :
 2
 "
@@ -540,27 +540,27 @@ get_output
             
 [
 "
-Error
+error
 :
 foo
 "
 "
-Error
+error
 :
 0
 "
 "
-Error
+error
 :
 1
 "
 "
-Warning
+warning
 :
 2
 "
 "
-Error
+error
 :
 bar
 "
@@ -720,7 +720,7 @@ get_output
 [
                 
 "
-Error
+error
 :
 foo
 :
@@ -730,7 +730,7 @@ a
 "
                 
 "
-Error
+error
 :
 bar
 :
@@ -740,7 +740,7 @@ b
 "
                 
 "
-Error
+error
 :
 foo
 :
