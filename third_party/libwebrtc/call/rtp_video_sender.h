@@ -1122,10 +1122,6 @@ const
 bool
 has_packet_feedback_
 ;
-const
-bool
-simulate_generic_structure_
-;
 /
 /
 Semantically
