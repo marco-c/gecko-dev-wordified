@@ -1688,13 +1688,6 @@ mHasReceivedFirstDecodedVideoFrame
 =
 false
 ;
-const
-RefPtr
-<
-VideoFrameContainer
->
-mVideoFrameContainer
-;
 }
 ;
 class
