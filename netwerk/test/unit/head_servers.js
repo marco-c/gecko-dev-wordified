@@ -2488,7 +2488,7 @@ __dirname
 +
 "
 /
-http2
+proxy
 -
 cert
 .
@@ -2505,7 +2505,7 @@ __dirname
 +
 "
 /
-http2
+proxy
 -
 cert
 .
@@ -2746,7 +2746,7 @@ __dirname
 +
 "
 /
-http2
+proxy
 -
 cert
 .
@@ -2763,7 +2763,7 @@ __dirname
 +
 "
 /
-http2
+proxy
 -
 cert
 .
