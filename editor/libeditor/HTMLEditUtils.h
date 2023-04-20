@@ -2480,7 +2480,7 @@ IsInVisibleTextFrames
 returns
 true
 if
-all
+any
 text
 in
 aText
