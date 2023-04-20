@@ -5522,13 +5522,6 @@ new
 WritableStream
 (
 mGlobal
-WritableStream
-:
-:
-HoldDropJSObjectsCaller
-:
-:
-Implicit
 )
 ;
 /
@@ -6429,13 +6422,6 @@ WritableStream
 >
 (
 aGlobal
-WritableStream
-:
-:
-HoldDropJSObjectsCaller
-:
-:
-Implicit
 )
 ;
 ErrorResult
