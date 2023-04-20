@@ -115,6 +115,9 @@ CanonicalBrowsingContext
 namespace
 net
 {
+class
+EarlyHintConnectArgs
+;
 /
 *
 *
@@ -291,6 +294,13 @@ uint32_t
 aRedirectFlags
 uint32_t
 aLoadFlags
+nsTArray
+<
+EarlyHintConnectArgs
+>
+&
+&
+aEarlyHints
 )
 ;
 virtual
