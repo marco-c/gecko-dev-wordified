@@ -46,7 +46,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,7 +57,9 @@ specialpowers
 /
 AppTestDelegate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -269,7 +271,9 @@ based
 on
 Assert
 .
-jsm
+sys
+.
+mjs
 .
 Only
 supports

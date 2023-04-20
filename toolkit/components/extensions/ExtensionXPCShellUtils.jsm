@@ -148,7 +148,7 @@ XPCShellContentUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -161,7 +161,9 @@ common
 /
 XPCShellContentUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
