@@ -35,7 +35,7 @@ faster
 .
 requestLongerTimeout
 (
-6
+12
 )
 ;
 Services
