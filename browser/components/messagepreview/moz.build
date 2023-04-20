@@ -85,14 +85,6 @@ MPL
 0
 /
 .
-if
-CONFIG
-[
-"
-NIGHTLY_BUILD
-"
-]
-:
 JAR_MANIFESTS
 +
 =
