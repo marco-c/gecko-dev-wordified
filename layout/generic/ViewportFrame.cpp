@@ -2254,7 +2254,7 @@ wm
 aReflowInput
 -
 >
-SetComputedBSizeWithoutResettingResizeFlags
+SetComputedBSize
 (
 aReflowInput
 -
@@ -2269,6 +2269,13 @@ BStartEnd
 (
 wm
 )
+ReflowInput
+:
+:
+ResetResizeFlags
+:
+:
+No
 )
 ;
 return
