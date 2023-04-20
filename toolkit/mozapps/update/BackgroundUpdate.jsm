@@ -382,7 +382,9 @@ LOG_LEVELS
 in
 Console
 .
-jsm
+sys
+.
+mjs
 for
 details
 .
@@ -4487,7 +4489,9 @@ periodically
 .
 JSONFile
 .
-jsm
+sys
+.
+mjs
 will
 also
 persist
