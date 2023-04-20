@@ -323,7 +323,7 @@ callback
 )
 ;
 void
-RegisterOnIceCandiateReadytoSend
+RegisterOnIceCandidateReadytoSend
 (
 ICECANDIDATEREADYTOSEND_CALLBACK
 callback
@@ -739,7 +739,7 @@ OnLocalSdpReady
 nullptr
 ;
 ICECANDIDATEREADYTOSEND_CALLBACK
-OnIceCandiateReady
+OnIceCandidateReady
 =
 nullptr
 ;

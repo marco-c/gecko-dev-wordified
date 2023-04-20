@@ -25974,7 +25974,7 @@ per
 RFC
 5245
 .
-Candiate
+Candidate
 -
 attribute
 will

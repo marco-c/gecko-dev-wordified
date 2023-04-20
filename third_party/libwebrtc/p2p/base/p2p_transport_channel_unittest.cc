@@ -50889,7 +50889,7 @@ stop_gather_on_strongly_connected
 /
 The
 relay
-candiates
+candidates
 gathered
 has
 not
@@ -50931,7 +50931,7 @@ else
 /
 The
 relay
-candiates
+candidates
 gathered
 has
 been
@@ -51327,7 +51327,7 @@ stop_gather_on_strongly_connected
 /
 The
 relay
-candiates
+candidates
 gathered
 has
 not
@@ -51369,7 +51369,7 @@ else
 /
 The
 relay
-candiates
+candidates
 gathered
 has
 been

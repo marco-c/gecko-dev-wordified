@@ -607,7 +607,7 @@ callback
 ;
 WEBRTC_PLUGIN_API
 bool
-RegisterOnIceCandiateReadytoSend
+RegisterOnIceCandidateReadytoSend
 (
 int
 peer_connection_id

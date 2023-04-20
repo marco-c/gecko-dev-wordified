@@ -3737,7 +3737,7 @@ port
 will
 have
 two
-candiates
+candidates
 STUN
 and
 TURN

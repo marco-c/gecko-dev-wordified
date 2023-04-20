@@ -836,7 +836,7 @@ true
 ;
 }
 bool
-RegisterOnIceCandiateReadytoSend
+RegisterOnIceCandidateReadytoSend
 (
 int
 peer_connection_id
@@ -863,7 +863,7 @@ peer_connection_id
 ]
 -
 >
-RegisterOnIceCandiateReadytoSend
+RegisterOnIceCandidateReadytoSend
 (
 callback
 )
