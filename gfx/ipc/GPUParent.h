@@ -418,6 +418,13 @@ PVideoBridgeParent
 &
 &
 aEndpoint
+const
+layers
+:
+:
+VideoBridgeSource
+&
+aSource
 )
 ;
 mozilla

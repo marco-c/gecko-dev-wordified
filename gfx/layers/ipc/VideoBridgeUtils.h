@@ -143,6 +143,7 @@ uint8_t
 {
 RddProcess
 GpuProcess
+MFMediaEngineCDMProcess
 _Count
 }
 ;

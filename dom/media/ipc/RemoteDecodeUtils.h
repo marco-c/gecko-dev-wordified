@@ -154,6 +154,16 @@ SandboxingKind
 aKind
 )
 ;
+RemoteDecodeIn
+GetRemoteDecodeInFromVideoBridgeSource
+(
+layers
+:
+:
+VideoBridgeSource
+aSource
+)
+;
 const
 char
 *

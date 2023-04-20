@@ -2038,6 +2038,10 @@ move
 (
 parentPipe
 )
+VideoBridgeSource
+:
+:
+RddProcess
 )
 ;
 }

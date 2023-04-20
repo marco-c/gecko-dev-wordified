@@ -794,6 +794,11 @@ PVideoBridgeParent
 &
 &
 aVideoBridge
+layers
+:
+:
+VideoBridgeSource
+aSource
 )
 ;
 /
