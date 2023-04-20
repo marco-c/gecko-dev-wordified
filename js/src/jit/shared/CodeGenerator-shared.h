@@ -459,8 +459,10 @@ SystemAllocPolicy
 >
 nativeToBytecodeList_
 ;
+UniquePtr
+<
 uint8_t
-*
+>
 nativeToBytecodeMap_
 ;
 uint32_t
