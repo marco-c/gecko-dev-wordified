@@ -263,9 +263,6 @@ been
 initialized
 correctly
 using
-webrtc_win
-:
-:
 ScopedCOMInitializer
 .
 if

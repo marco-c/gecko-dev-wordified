@@ -270,17 +270,11 @@ std
 :
 make_unique
 <
-webrtc_win
-:
-:
 ScopedCOMInitializer
 >
 (
 /
 /
-webrtc_win
-:
-:
 ScopedCOMInitializer
 :
 :
@@ -359,9 +353,6 @@ std
 :
 unique_ptr
 <
-webrtc_win
-:
-:
 ScopedCOMInitializer
 >
 com_initializer_

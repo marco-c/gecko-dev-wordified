@@ -10647,15 +10647,9 @@ std
 :
 make_unique
 <
-webrtc_win
-:
-:
 ScopedCOMInitializer
 >
 (
-webrtc_win
-:
-:
 ScopedCOMInitializer
 :
 :

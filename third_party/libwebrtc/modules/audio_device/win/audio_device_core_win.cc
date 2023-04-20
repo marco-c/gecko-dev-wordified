@@ -319,6 +319,15 @@ include
 "
 rtc_base
 /
+checks
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 logging
 .
 h
@@ -1637,7 +1646,7 @@ if
 !
 comInit
 .
-succeeded
+Succeeded
 (
 )
 )
@@ -2919,11 +2928,11 @@ __FUNCTION__
 created
 "
 ;
-assert
+RTC_DCHECK
 (
 _comInit
 .
-succeeded
+Succeeded
 (
 )
 )
@@ -23991,7 +24000,7 @@ if
 !
 comInit
 .
-succeeded
+Succeeded
 (
 )
 )
@@ -26014,7 +26023,7 @@ if
 !
 comInit
 .
-succeeded
+Succeeded
 (
 )
 )
@@ -27032,7 +27041,7 @@ if
 !
 comInit
 .
-succeeded
+Succeeded
 (
 )
 )
