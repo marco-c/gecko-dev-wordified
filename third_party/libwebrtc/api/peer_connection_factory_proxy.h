@@ -156,7 +156,7 @@ an
 implementation
 detail
 .
-BEGIN_PRIMARY_PROXY_MAP
+BEGIN_PROXY_MAP
 (
 PeerConnectionFactory
 )
@@ -345,7 +345,7 @@ string
 AudioSourceInterface
 *
 )
-PROXY_METHOD2
+PROXY_SECONDARY_METHOD2
 (
 bool
 StartAecDump
@@ -353,7 +353,7 @@ FILE
 *
 int64_t
 )
-PROXY_METHOD0
+PROXY_SECONDARY_METHOD0
 (
 void
 StopAecDump
