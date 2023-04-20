@@ -9208,34 +9208,18 @@ obj
 cargo_file
 )
         
-target_dir
-=
-mozpath
-.
-normpath
-(
 backend_file
 .
-environment
-.
-topobjdir
-)
-        
-backend_file
-.
-write
+write_once
 (
 "
 CARGO_TARGET_DIR
 :
 =
-%
-s
+.
 \
 n
 "
-%
-target_dir
 )
         
 backend_file
@@ -9247,10 +9231,6 @@ write
 s
 +
 =
-(
-DEPTH
-)
-/
 %
 s
 \
