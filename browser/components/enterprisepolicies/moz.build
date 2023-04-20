@@ -143,7 +143,9 @@ policies
 "
 Policies
 .
-jsm
+sys
+.
+mjs
 "
 ]
 FINAL_LIBRARY
