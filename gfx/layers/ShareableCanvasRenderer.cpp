@@ -1080,12 +1080,6 @@ NON_PREMULTIPLIED
 }
 EnsurePipeline
 (
-/
-*
-aIsAsync
-*
-/
-true
 )
 ;
 forwarder
@@ -1119,12 +1113,6 @@ return
 }
 EnsurePipeline
 (
-/
-*
-aIsAsync
-*
-/
-false
 )
 ;
 /
