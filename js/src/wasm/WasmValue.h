@@ -2396,15 +2396,6 @@ type_
 type
 )
 {
-MOZ_ASSERT
-(
-type
-.
-isDefaultable
-(
-)
-)
-;
 switch
 (
 type
