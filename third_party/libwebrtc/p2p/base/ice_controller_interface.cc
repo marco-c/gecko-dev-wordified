@@ -116,7 +116,7 @@ std
 :
 :
 string
-IceControllerEvent
+IceRecheckEvent
 :
 :
 ToString
@@ -189,11 +189,11 @@ with
 /
 IceSwitchReason
 .
-IceControllerEvent
+IceRecheckEvent
 :
 :
 Type
-IceControllerEvent
+IceRecheckEvent
 :
 :
 FromIceSwitchReason
@@ -214,7 +214,7 @@ IceSwitchReason
 REMOTE_CANDIDATE_GENERATION_CHANGE
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 REMOTE_CANDIDATE_GENERATION_CHANGE
@@ -226,7 +226,7 @@ IceSwitchReason
 NETWORK_PREFERENCE_CHANGE
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NETWORK_PREFERENCE_CHANGE
@@ -238,7 +238,7 @@ IceSwitchReason
 NEW_CONNECTION_FROM_LOCAL_CANDIDATE
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NEW_CONNECTION_FROM_LOCAL_CANDIDATE
@@ -250,7 +250,7 @@ IceSwitchReason
 NEW_CONNECTION_FROM_REMOTE_CANDIDATE
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NEW_CONNECTION_FROM_REMOTE_CANDIDATE
@@ -262,7 +262,7 @@ IceSwitchReason
 NEW_CONNECTION_FROM_UNKNOWN_REMOTE_ADDRESS
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NEW_CONNECTION_FROM_UNKNOWN_REMOTE_ADDRESS
@@ -274,7 +274,7 @@ IceSwitchReason
 NOMINATION_ON_CONTROLLED_SIDE
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NOMINATION_ON_CONTROLLED_SIDE
@@ -286,7 +286,7 @@ IceSwitchReason
 DATA_RECEIVED
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 DATA_RECEIVED
@@ -298,7 +298,7 @@ IceSwitchReason
 CONNECT_STATE_CHANGE
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 CONNECT_STATE_CHANGE
@@ -310,7 +310,7 @@ IceSwitchReason
 SELECTED_CONNECTION_DESTROYED
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 SELECTED_CONNECTION_DESTROYED
@@ -322,7 +322,7 @@ IceSwitchReason
 ICE_CONTROLLER_RECHECK
 :
 return
-IceControllerEvent
+IceRecheckEvent
 :
 :
 ICE_CONTROLLER_RECHECK
@@ -352,12 +352,12 @@ with
 IceSwitchReason
 .
 IceSwitchReason
-IceControllerEvent
+IceRecheckEvent
 :
 :
 FromType
 (
-IceControllerEvent
+IceRecheckEvent
 :
 :
 Type
@@ -370,7 +370,7 @@ type
 )
 {
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 REMOTE_CANDIDATE_GENERATION_CHANGE
@@ -382,7 +382,7 @@ IceSwitchReason
 REMOTE_CANDIDATE_GENERATION_CHANGE
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NETWORK_PREFERENCE_CHANGE
@@ -394,7 +394,7 @@ IceSwitchReason
 NETWORK_PREFERENCE_CHANGE
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NEW_CONNECTION_FROM_LOCAL_CANDIDATE
@@ -406,7 +406,7 @@ IceSwitchReason
 NEW_CONNECTION_FROM_LOCAL_CANDIDATE
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NEW_CONNECTION_FROM_REMOTE_CANDIDATE
@@ -418,7 +418,7 @@ IceSwitchReason
 NEW_CONNECTION_FROM_REMOTE_CANDIDATE
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NEW_CONNECTION_FROM_UNKNOWN_REMOTE_ADDRESS
@@ -430,7 +430,7 @@ IceSwitchReason
 NEW_CONNECTION_FROM_UNKNOWN_REMOTE_ADDRESS
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 NOMINATION_ON_CONTROLLED_SIDE
@@ -442,7 +442,7 @@ IceSwitchReason
 NOMINATION_ON_CONTROLLED_SIDE
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 DATA_RECEIVED
@@ -454,7 +454,7 @@ IceSwitchReason
 DATA_RECEIVED
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 CONNECT_STATE_CHANGE
@@ -466,7 +466,7 @@ IceSwitchReason
 CONNECT_STATE_CHANGE
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 SELECTED_CONNECTION_DESTROYED
@@ -478,7 +478,7 @@ IceSwitchReason
 SELECTED_CONNECTION_DESTROYED
 ;
 case
-IceControllerEvent
+IceRecheckEvent
 :
 :
 ICE_CONTROLLER_RECHECK

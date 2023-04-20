@@ -3261,7 +3261,7 @@ nullopt
 .
 recheck_event
 =
-IceControllerEvent
+IceRecheckEvent
 (
 IceSwitchReason
 :
@@ -3457,7 +3457,7 @@ absl
 :
 optional
 <
-IceControllerEvent
+IceRecheckEvent
 >
 recheck_event
 ;
