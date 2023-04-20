@@ -293,6 +293,19 @@ net
 /
 dcsctp
 /
+socket
+/
+mock_dcsctp_socket_callbacks
+.
+h
+"
+#
+include
+"
+net
+/
+dcsctp
+/
 testing
 /
 data_generator
@@ -779,6 +792,8 @@ RetransmissionQueue
 (
 "
 "
+&
+callbacks_
 TSN
 (
 10
@@ -858,6 +873,8 @@ RetransmissionQueue
 (
 "
 "
+&
+callbacks_
 TSN
 (
 10
@@ -905,6 +922,9 @@ return
 queue2
 ;
 }
+MockDcSctpSocketCallbacks
+callbacks_
+;
 DcSctpOptions
 options_
 ;

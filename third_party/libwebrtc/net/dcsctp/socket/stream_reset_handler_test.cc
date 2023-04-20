@@ -880,6 +880,8 @@ RetransmissionQueue
 (
 "
 "
+&
+callbacks_
 kMyInitialTsn
 kArwnd
 producer_
@@ -1481,6 +1483,8 @@ RetransmissionQueue
 (
 "
 "
+&
+callbacks_
 kMyInitialTsn
 kArwnd
 producer_
