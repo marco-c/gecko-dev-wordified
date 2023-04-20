@@ -390,10 +390,10 @@ float
 >
 output_
 ;
-std
+rtc
 :
 :
-unique_ptr
+scoped_refptr
 <
 AudioProcessing
 >

@@ -184,10 +184,10 @@ StrictMock
 ;
 namespace
 {
-std
+rtc
 :
 :
-unique_ptr
+scoped_refptr
 <
 webrtc
 :
@@ -204,10 +204,10 @@ webrtc
 Config
 config
 ;
-std
+rtc
 :
 :
-unique_ptr
+scoped_refptr
 <
 webrtc
 :

@@ -1279,9 +1279,7 @@ get
 )
 {
 apm_
-.
-reset
-(
+=
 AudioProcessingBuilderForTesting
 (
 )
@@ -1289,7 +1287,6 @@ AudioProcessingBuilderForTesting
 Create
 (
 config
-)
 )
 ;
 }
