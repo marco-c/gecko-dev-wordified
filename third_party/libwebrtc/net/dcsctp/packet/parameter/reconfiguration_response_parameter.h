@@ -289,7 +289,7 @@ kInProgress
 ;
 ReconfigurationResponseParameter
 (
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number
 Result
 result
@@ -322,7 +322,7 @@ nullopt
 explicit
 ReconfigurationResponseParameter
 (
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number
 Result
 result
@@ -397,7 +397,7 @@ ToString
 const
 override
 ;
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number
 (
 )
@@ -458,7 +458,7 @@ kNextTsnHeaderSize
 =
 8
 ;
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number_
 ;
 Result

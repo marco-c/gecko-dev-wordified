@@ -279,7 +279,7 @@ OutgoingSSNResetRequestParameter
 (
 ReconfigRequestSN
 request_sequence_number
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number
 TSN
 sender_last_assigned_tsn
@@ -374,7 +374,7 @@ return
 request_sequence_number_
 ;
 }
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number
 (
 )
@@ -426,7 +426,7 @@ uint16_t
 ReconfigRequestSN
 request_sequence_number_
 ;
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number_
 ;
 TSN

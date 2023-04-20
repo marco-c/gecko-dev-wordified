@@ -228,7 +228,7 @@ ReconfigRequestSN
 (
 123
 )
-ReconfigResponseSN
+ReconfigRequestSN
 (
 456
 )

@@ -173,7 +173,7 @@ SerializeAndDeserializeFirstForm
 ReconfigurationResponseParameter
 parameter
 (
-ReconfigResponseSN
+ReconfigRequestSN
 (
 1
 )
@@ -278,7 +278,7 @@ SerializeAndDeserializeFirstFormSecondForm
 ReconfigurationResponseParameter
 parameter
 (
-ReconfigResponseSN
+ReconfigRequestSN
 (
 1
 )
