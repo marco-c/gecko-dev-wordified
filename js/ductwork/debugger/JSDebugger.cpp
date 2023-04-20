@@ -249,7 +249,11 @@ NS_ERROR_INVALID_ARG
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 obj
 (
 cx

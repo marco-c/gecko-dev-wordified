@@ -35,10 +35,10 @@ strict
 function
 testGlobal
 (
-aName
+name
 )
 {
-let
+const
 systemPrincipal
 =
 Cc
@@ -61,7 +61,7 @@ Ci
 nsIPrincipal
 )
 ;
-let
+const
 sandbox
 =
 Cu
@@ -83,7 +83,7 @@ __name
 '
 "
 +
-aName
+name
 +
 "
 '

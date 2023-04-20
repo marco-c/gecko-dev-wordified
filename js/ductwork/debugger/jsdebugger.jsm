@@ -81,6 +81,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 var
 EXPORTED_SYMBOLS
 =
@@ -283,7 +288,7 @@ addSandboxedDebuggerToGlobal
 global
 )
 {
-var
+const
 sb
 =
 Cu
@@ -401,7 +406,7 @@ polyfillSource
 )
 ;
 }
-let
+const
 polyfillSource
 =
 Object
