@@ -397,6 +397,14 @@ init
 )
 ;
 }
+Services
+.
+fog
+.
+initializeFOG
+(
+)
+;
 }
 /
 /
