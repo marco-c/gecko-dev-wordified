@@ -121,11 +121,6 @@ FileSystemQuotaClient
 .
 h
 "
-"
-FileSystemWritableFileStreamParent
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -153,11 +148,6 @@ cpp
 "
 "
 FileSystemQuotaClient
-.
-cpp
-"
-"
-FileSystemWritableFileStreamParent
 .
 cpp
 "

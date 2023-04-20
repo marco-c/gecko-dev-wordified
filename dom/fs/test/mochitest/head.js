@@ -135,7 +135,6 @@ SpecialPowers
 .
 Cr
 navigator
-TextEncoder
 }
 ;
 require_module

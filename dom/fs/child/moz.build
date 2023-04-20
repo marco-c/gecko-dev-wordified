@@ -103,11 +103,6 @@ FileSystemManagerChild
 .
 h
 "
-"
-FileSystemWritableFileStreamChild
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -140,11 +135,6 @@ cpp
 "
 "
 FileSystemRequestHandler
-.
-cpp
-"
-"
-FileSystemWritableFileStreamChild
 .
 cpp
 "
