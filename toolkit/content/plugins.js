@@ -615,10 +615,6 @@ pluginLibraries
 [
 0
 ]
-?
-?
-"
-"
 }
 )
 ;
@@ -731,10 +727,6 @@ pluginFullpath
 [
 0
 ]
-?
-?
-"
-"
 }
 )
 ;
@@ -828,10 +820,6 @@ version
 plugin
 .
 version
-?
-?
-"
-"
 }
 )
 ;
