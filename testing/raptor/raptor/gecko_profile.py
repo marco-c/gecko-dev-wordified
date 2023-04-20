@@ -1289,9 +1289,6 @@ chimera
 "
 False
 )
-and
-not
-is_extra_profiler_run
 :
                 
 if
@@ -1403,6 +1400,7 @@ a
 benchmark
 scenario
 test
+or
 separate
                 
 #
@@ -1411,10 +1409,6 @@ warm
 cold
 pageload
 tests
-or
-extra
-profiling
-run
 .
                 
 profile_locations
