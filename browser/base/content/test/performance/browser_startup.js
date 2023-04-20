@@ -306,7 +306,9 @@ modules
 /
 StartupRecorder
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
