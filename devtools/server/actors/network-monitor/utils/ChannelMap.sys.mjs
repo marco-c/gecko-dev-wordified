@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 global
@@ -236,6 +231,7 @@ issues
 .
 *
 /
+export
 class
 ChannelMap
 {
@@ -492,9 +488,3 @@ clear
 ;
 }
 }
-exports
-.
-ChannelMap
-=
-ChannelMap
-;

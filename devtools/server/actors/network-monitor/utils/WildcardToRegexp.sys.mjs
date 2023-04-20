@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -76,6 +71,7 @@ string
 .
 *
 /
+export
 function
 wildcardToRegExp
 (
@@ -113,12 +109,6 @@ i
 )
 ;
 }
-exports
-.
-wildcardToRegExp
-=
-wildcardToRegExp
-;
 /
 *
 *
