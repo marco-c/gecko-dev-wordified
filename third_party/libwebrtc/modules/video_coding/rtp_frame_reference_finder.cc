@@ -1105,13 +1105,12 @@ frame_id
 frame
 -
 >
-id
-.
-spatial_layer
-=
+SetSpatialIndex
+(
 descriptor
 .
 spatial_index
+)
 ;
 if
 (
