@@ -2413,8 +2413,6 @@ platform
     
 map_config
 =
-deepcopy
-(
 cached_load_yaml
 (
 job
@@ -2428,7 +2426,6 @@ attributes
 artifact_map
 "
 ]
-)
 )
     
 upstream_artifacts
@@ -2444,12 +2441,15 @@ locale
         
 locales
 =
+deepcopy
+(
 map_config
 [
 "
 default_locales
 "
 ]
+)
     
 elif
 isinstance
@@ -2958,6 +2958,8 @@ dep
 taskType
 "
 :
+deepcopy
+(
 map_config
 [
 "
@@ -2968,6 +2970,7 @@ tasktype_map
 get
 (
 dep
+)
 )
                 
 "
