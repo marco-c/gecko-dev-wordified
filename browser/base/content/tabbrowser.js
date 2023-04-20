@@ -5825,8 +5825,6 @@ _instantiateFeatureCalloutTour
 newBrowser
 .
 currentURI
-.
-spec
 )
 ;
 window
