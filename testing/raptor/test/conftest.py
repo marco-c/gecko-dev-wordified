@@ -569,6 +569,10 @@ gecko_profile
 =
 False
         
+extra_profiler_run
+=
+False
+        
 debug_mode
 =
 False
@@ -610,6 +614,10 @@ enable_marionette_trace
 False
         
 collect_perfstats
+=
+False
+        
+chimera
 =
 False
     

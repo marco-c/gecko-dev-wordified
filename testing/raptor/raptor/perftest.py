@@ -417,6 +417,10 @@ gecko_profile_features
 =
 None
         
+extra_profiler_run
+=
+False
+        
 symbols_path
 =
 None
@@ -670,6 +674,12 @@ gecko_profile_features
 "
 :
 gecko_profile_features
+            
+"
+extra_profiler_run
+"
+:
+extra_profiler_run
             
 "
 symbols_path
