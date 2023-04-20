@@ -144,7 +144,7 @@ include
 "
 pc
 /
-channel
+channel_interface
 .
 h
 "
@@ -457,15 +457,6 @@ auto
 *
 voice_channel
 =
-static_cast
-<
-cricket
-:
-:
-VoiceChannel
-*
->
-(
 GetAudioTransceiver
 (
 )
@@ -479,7 +470,6 @@ internal
 channel
 (
 )
-)
 ;
 if
 (
@@ -490,7 +480,7 @@ return
 voice_channel
 -
 >
-media_channel
+voice_media_channel
 (
 )
 ;
@@ -534,15 +524,6 @@ auto
 *
 video_channel
 =
-static_cast
-<
-cricket
-:
-:
-VideoChannel
-*
->
-(
 GetVideoTransceiver
 (
 )
@@ -556,7 +537,6 @@ internal
 channel
 (
 )
-)
 ;
 if
 (
@@ -567,7 +547,7 @@ return
 video_channel
 -
 >
-media_channel
+video_media_channel
 (
 )
 ;
