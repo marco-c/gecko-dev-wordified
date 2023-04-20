@@ -2608,7 +2608,17 @@ is
 /
 explicitly
 calling
+either
 eval
+DebuggerObject
+.
+apply
+or
+DebuggerObject
+.
+call
+/
+/
 so
 we
 need
@@ -2622,8 +2632,6 @@ dbg
 "
 even
 though
-/
-/
 the
 rest
 of
