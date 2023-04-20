@@ -1492,9 +1492,6 @@ mozilla
 :
 ComputeSizeFlags
 aFlags
-=
-{
-}
 const
 mozilla
 :
@@ -1508,13 +1505,6 @@ LogicalMargin
 >
 &
 aBorder
-=
-mozilla
-:
-:
-Nothing
-(
-)
 const
 mozilla
 :
@@ -1528,13 +1518,6 @@ LogicalMargin
 >
 &
 aPadding
-=
-mozilla
-:
-:
-Nothing
-(
-)
 const
 nsStyleDisplay
 *
