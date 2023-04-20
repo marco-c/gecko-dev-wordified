@@ -4592,12 +4592,20 @@ Example
 "
                 
 assert
+(
+                    
 pathlib
 .
 Path
 (
 manifest
+[
+"
+path
+"
+]
 )
+                    
 =
 =
 perfdocs_sample
@@ -4606,6 +4614,13 @@ perfdocs_sample
 manifest
 "
 ]
+[
+"
+path
+"
+]
+                
+)
 mock
 .
 patch
