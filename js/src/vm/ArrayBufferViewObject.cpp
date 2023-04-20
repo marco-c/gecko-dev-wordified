@@ -754,9 +754,7 @@ length
 TypedArrayObject
 :
 :
-maxByteLength
-(
-)
+MaxByteLength
 /
 bytesPerElement
 )

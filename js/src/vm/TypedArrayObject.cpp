@@ -2945,9 +2945,7 @@ MOZ_ASSERT
 len
 <
 =
-maxByteLength
-(
-)
+MaxByteLength
 /
 BYTES_PER_ELEMENT
 )
@@ -3465,9 +3463,7 @@ size_t
 len
 )
 >
-maxByteLength
-(
-)
+MaxByteLength
 /
 BYTES_PER_ELEMENT
 )
@@ -3499,9 +3495,7 @@ MOZ_ASSERT
 nbytes
 <
 =
-maxByteLength
-(
-)
+MaxByteLength
 )
 ;
 bool
@@ -4803,9 +4797,7 @@ if
 (
 len
 >
-maxByteLength
-(
-)
+MaxByteLength
 /
 BYTES_PER_ELEMENT
 )
@@ -5514,9 +5506,7 @@ if
 (
 count
 >
-maxByteLength
-(
-)
+MaxByteLength
 /
 BYTES_PER_ELEMENT
 )
@@ -5545,9 +5535,7 @@ MOZ_ASSERT
 byteLength
 <
 =
-maxByteLength
-(
-)
+MaxByteLength
 )
 ;
 static_assert
@@ -8340,9 +8328,7 @@ MOZ_ASSERT
 len
 <
 =
-maxByteLength
-(
-)
+MaxByteLength
 /
 BYTES_PER_ELEMENT
 )
@@ -8592,9 +8578,7 @@ nbytes
 TypedArrayObject
 :
 :
-maxByteLength
-(
-)
+MaxByteLength
 )
 {
 return
