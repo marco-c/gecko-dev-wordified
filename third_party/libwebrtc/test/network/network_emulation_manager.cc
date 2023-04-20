@@ -1812,6 +1812,17 @@ EmulatedEndpointImpl
 >
 endpoint_impls
 ;
+endpoint_impls
+.
+reserve
+(
+endpoints
+.
+size
+(
+)
+)
+;
 for
 (
 EmulatedEndpoint
