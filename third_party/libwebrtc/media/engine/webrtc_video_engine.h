@@ -1796,6 +1796,16 @@ rtx_payload_type
 if
 absent
 .
+int
+rtx_time
+;
+/
+/
+-
+1
+if
+absent
+.
 }
 ;
 struct
@@ -3074,6 +3084,8 @@ webrtc
 :
 RtcpMode
 rtcp_mode
+int
+rtx_time
 )
 ;
 void
