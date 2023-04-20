@@ -641,13 +641,6 @@ max_rtt_ms
 )
 const
 ;
-void
-SetRtcpXrRrtrStatus
-(
-bool
-enable
-)
-;
 bool
 GetAndResetXrRrRtt
 (
@@ -1638,12 +1631,9 @@ no
 valid
 estimate
 .
+const
 bool
 xr_rrtr_status_
-RTC_GUARDED_BY
-(
-rtcp_receiver_lock_
-)
 ;
 int64_t
 xr_rr_rtt_ms_
