@@ -741,11 +741,6 @@ aResponseStatus
 >
 =
 300
-&
-&
-aResponseStatus
-<
-400
 )
 {
 mOngoingEarlyHints
