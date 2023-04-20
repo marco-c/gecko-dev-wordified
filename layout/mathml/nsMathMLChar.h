@@ -292,9 +292,6 @@ displaystyle
 NS_STRETCH_LARGEOP
 =
 0x10
-NS_STRETCH_INTEGRAL
-=
-0x20
 /
 /
 Intended
@@ -318,7 +315,7 @@ vertical
 stretch
 NS_STRETCH_MAXWIDTH
 =
-0x40
+0x20
 }
 ;
 /
