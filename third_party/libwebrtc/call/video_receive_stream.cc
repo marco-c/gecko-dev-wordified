@@ -802,8 +802,15 @@ Config
 Transport
 *
 rtcp_send_transport
+VideoDecoderFactory
+*
+decoder_factory
 )
 :
+decoder_factory
+(
+decoder_factory
+)
 rtcp_send_transport
 (
 rtcp_send_transport
