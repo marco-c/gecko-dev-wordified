@@ -348,6 +348,7 @@ GLYPH_PATH
 *
 /
 struct
+MOZ_STACK_CLASS
 gfxTextRunDrawCallbacks
 {
 /

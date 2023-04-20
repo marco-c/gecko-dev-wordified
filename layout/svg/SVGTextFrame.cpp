@@ -10285,6 +10285,7 @@ over
 *
 /
 class
+MOZ_STACK_CLASS
 TextFrameIterator
 {
 public
@@ -13301,6 +13302,7 @@ SVGTextFrame
 *
 /
 class
+MOZ_STACK_CLASS
 CharIterator
 {
 using
