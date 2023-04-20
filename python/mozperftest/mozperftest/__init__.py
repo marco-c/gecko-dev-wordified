@@ -60,9 +60,14 @@ mozperftest
 .
 argparser
 import
-PerftestArgumentParser
+(
 #
 noqa
+    
+PerftestArgumentParser
+    
+PerftestToolsArgumentParser
+)
 from
 mozperftest
 .

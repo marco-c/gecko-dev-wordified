@@ -120,6 +120,12 @@ mozinfo
 "
 mozfile
 "
+    
+"
+mozperftest
+-
+tools
+"
 ]
 setup
 (

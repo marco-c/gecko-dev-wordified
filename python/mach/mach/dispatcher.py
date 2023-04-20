@@ -3393,6 +3393,17 @@ subcommand_handlers
 subcommand
 ]
         
+#
+Initialize
+the
+parser
+if
+necessary
+        
+subhandler
+.
+parser
+        
 c_parser
 =
 subhandler
