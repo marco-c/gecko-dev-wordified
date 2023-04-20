@@ -1957,6 +1957,7 @@ double
 -
 rounding
 .
+MFBT_API
 float
 StringToFloat
 (
@@ -1984,6 +1985,7 @@ for
 bit
 characters
 .
+MFBT_API
 float
 StringToFloat
 (
