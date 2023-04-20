@@ -175,9 +175,6 @@ WebRenderBridgeParent
 class
 WebRenderBridgeParentRef
 ;
-class
-RemoteTextureConsumerClient
-;
 /
 *
 *
@@ -238,10 +235,6 @@ aTextureId
 const
 RemoteTextureOwnerId
 aOwnerId
-const
-CompositableHandle
-&
-aHandle
 const
 base
 :
@@ -434,11 +427,8 @@ mCurrentAsyncImageManager
 CompositableTextureHostRef
 mCurrentTextureHost
 ;
-UniquePtr
-<
-RemoteTextureConsumerClient
->
-mRemoteTextureConsumer
+CompositableTextureHostRef
+mRemoteTextureHost
 ;
 }
 ;

@@ -760,7 +760,6 @@ op
 ownerId
 (
 )
-aHandle
 GetChildProcessId
 (
 )

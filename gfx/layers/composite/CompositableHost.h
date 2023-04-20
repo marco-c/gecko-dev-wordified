@@ -701,10 +701,6 @@ const
 RemoteTextureOwnerId
 aOwnerId
 const
-CompositableHandle
-&
-aHandle
-const
 base
 :
 :
