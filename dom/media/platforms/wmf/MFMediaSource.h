@@ -312,6 +312,11 @@ MFMediaSource
 (
 )
 ;
+~
+MFMediaSource
+(
+)
+;
 HRESULT
 RuntimeClassInitialize
 (

@@ -345,6 +345,11 @@ DeviceManagerDx
 (
 )
 ;
+~
+DeviceManagerDx
+(
+)
+;
 static
 DeviceManagerDx
 *
