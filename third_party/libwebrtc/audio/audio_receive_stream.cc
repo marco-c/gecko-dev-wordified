@@ -604,9 +604,6 @@ webrtc
 AudioState
 *
 audio_state
-ProcessThread
-*
-module_process_thread
 NetEqFactory
 *
 neteq_factory
@@ -656,7 +653,6 @@ voe
 CreateChannelReceive
 (
 clock
-module_process_thread
 neteq_factory
 internal_audio_state
 -
@@ -740,9 +736,6 @@ clock
 PacketRouter
 *
 packet_router
-ProcessThread
-*
-module_process_thread
 NetEqFactory
 *
 neteq_factory
@@ -792,7 +785,6 @@ audio_state
 get
 (
 )
-module_process_thread
 neteq_factory
 config
 event_log

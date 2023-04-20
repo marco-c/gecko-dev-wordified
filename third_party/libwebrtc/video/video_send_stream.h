@@ -256,9 +256,6 @@ class
 IvfFileWriter
 ;
 class
-ProcessThread
-;
-class
 RateLimiter
 ;
 class
@@ -344,9 +341,6 @@ Clock
 clock
 int
 num_cpu_cores
-ProcessThread
-*
-module_process_thread
 TaskQueueFactory
 *
 task_queue_factory

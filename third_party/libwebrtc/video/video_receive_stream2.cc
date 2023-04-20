@@ -1444,9 +1444,6 @@ VideoReceiveStream
 :
 Config
 config
-ProcessThread
-*
-process_thread
 CallStats
 *
 call_stats
@@ -1564,7 +1561,6 @@ stats_proxy_
 stats_proxy_
 &
 stats_proxy_
-process_thread
 this
 /
 /
@@ -1691,12 +1687,6 @@ renderer
 RTC_DCHECK
 (
 call_stats_
-)
-;
-module_process_sequence_checker_
-.
-Detach
-(
 )
 ;
 packet_sequence_checker_

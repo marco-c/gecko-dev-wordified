@@ -1405,13 +1405,6 @@ AdvanceTimeMilliseconds
 5ms
 delay
 .
-rtp_rtcp_module_
--
->
-Process
-(
-)
-;
 /
 /
 Prepare
@@ -1739,13 +1732,6 @@ fake_clock
 AdvanceTimeMilliseconds
 (
 33
-)
-;
-rtp_rtcp_module_
--
->
-Process
-(
 )
 ;
 }

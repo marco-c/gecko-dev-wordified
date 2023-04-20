@@ -334,9 +334,6 @@ class
 PacketRouter
 ;
 class
-ProcessThread
-;
-class
 RateLimiter
 ;
 class
@@ -1161,9 +1158,6 @@ CreateChannelReceive
 Clock
 *
 clock
-ProcessThread
-*
-module_process_thread
 NetEqFactory
 *
 neteq_factory

@@ -278,9 +278,6 @@ clock
 PacketRouter
 *
 packet_router
-ProcessThread
-*
-module_process_thread
 NetEqFactory
 *
 neteq_factory
