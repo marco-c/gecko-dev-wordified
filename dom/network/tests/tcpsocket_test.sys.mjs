@@ -1,18 +1,4 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-createSocket
-"
-"
-createServer
-"
-"
-socketCompartmentInstanceOfArrayBuffer
-"
-]
-;
+export
 var
 createSocket
 =
@@ -34,6 +20,7 @@ options
 ;
 }
 ;
+export
 var
 createServer
 =
@@ -67,6 +54,7 @@ version
 for
 rationale
 .
+export
 var
 socketCompartmentInstanceOfArrayBuffer
 =
