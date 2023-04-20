@@ -39372,8 +39372,6 @@ security
 ports
 .
 banned
-.
-override
 "
 )
 PREF_LIST_ENTRY
