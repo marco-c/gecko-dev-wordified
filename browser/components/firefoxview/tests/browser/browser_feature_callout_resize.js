@@ -355,7 +355,7 @@ contentWindow
 .
 resizeTo
 (
-1500
+1550
 1000
 )
 ;
@@ -730,7 +730,7 @@ contentWindow
 .
 resizeTo
 (
-1500
+1550
 1000
 )
 ;
@@ -760,7 +760,7 @@ On
 first
 screen
 at
-1500x1000
+1550x1000
 the
 callout
 is
@@ -792,7 +792,7 @@ contentWindow
 .
 resizeTo
 (
-1500
+1550
 600
 )
 ;
@@ -867,7 +867,7 @@ On
 first
 screen
 at
-1500x600
+1550x600
 the
 callout
 is
@@ -1155,8 +1155,8 @@ contentWindow
 .
 resizeTo
 (
-700
-1150
+800
+1300
 )
 ;
 await
@@ -1220,7 +1220,7 @@ On
 third
 screen
 at
-700x1150
+800x1300
 the
 callout
 is
@@ -1332,7 +1332,7 @@ contentWindow
 .
 resizeTo
 (
-1500
+1550
 1000
 )
 ;
@@ -1362,7 +1362,7 @@ On
 first
 screen
 at
-1500x1000
+1550x1000
 the
 callout
 is
@@ -1394,7 +1394,7 @@ contentWindow
 .
 resizeTo
 (
-1500
+1550
 600
 )
 ;
@@ -1469,7 +1469,7 @@ On
 first
 screen
 at
-1500x600
+1550x600
 the
 callout
 is
@@ -1757,8 +1757,8 @@ contentWindow
 .
 resizeTo
 (
-700
-1150
+800
+1300
 )
 ;
 await
@@ -1822,7 +1822,7 @@ On
 third
 screen
 at
-700x1150
+800x1300
 the
 callout
 is
