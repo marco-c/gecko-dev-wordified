@@ -69,11 +69,17 @@ reportException
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ expectState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -92,6 +102,8 @@ server
 actors
 /
 common
+.
+js
 "
 )
 ;

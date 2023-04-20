@@ -81,11 +81,17 @@ CONTRAST_LOSS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

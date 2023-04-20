@@ -70,6 +70,10 @@ getComputedStyle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -81,6 +85,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ getFrameOffsets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -102,6 +112,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ AutoRefreshHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -124,6 +140,8 @@ highlighters
 auto
 -
 refresh
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ clickedOnPoint
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -150,6 +172,8 @@ utils
 shapes
 -
 utils
+.
+js
 "
 )
 ;
@@ -168,6 +192,10 @@ getBasis
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -179,6 +207,8 @@ dom
 matrix
 -
 2d
+.
+js
 "
 )
 ;
@@ -188,6 +218,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -195,6 +229,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -206,6 +242,10 @@ getCSSStyleRules
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -215,6 +255,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;

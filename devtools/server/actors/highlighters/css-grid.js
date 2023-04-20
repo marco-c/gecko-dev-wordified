@@ -69,6 +69,10 @@ AutoRefreshHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -80,6 +84,8 @@ highlighters
 auto
 -
 refresh
+.
+js
 "
 )
 ;
@@ -102,6 +108,10 @@ updateCanvasPosition
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -113,6 +123,8 @@ highlighters
 utils
 /
 canvas
+.
+js
 "
 )
 ;
@@ -126,6 +138,10 @@ moveInfobar
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -137,6 +153,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -148,6 +166,10 @@ apply
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -159,6 +181,8 @@ dom
 matrix
 -
 2d
+.
+js
 "
 )
 ;
@@ -173,6 +197,10 @@ setIgnoreLayoutChanges
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -180,6 +208,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -191,6 +221,10 @@ stringifyGridFragments
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -204,6 +238,8 @@ css
 grid
 -
 utils
+.
+js
 "
 )
 ;

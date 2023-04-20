@@ -73,6 +73,10 @@ REFLOW
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -100,6 +110,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;
@@ -112,6 +124,10 @@ releaseLayoutChangesObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -119,6 +135,8 @@ server
 actors
 /
 reflow
+.
+js
 "
 )
 ;

@@ -63,6 +63,10 @@ NodeListActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -72,6 +76,8 @@ actors
 inspector
 /
 node
+.
+js
 "
 )
 ;

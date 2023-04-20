@@ -73,6 +73,10 @@ DOCUMENT_EVENT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ DocumentEventsListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -106,6 +116,8 @@ listeners
 document
 -
 events
+.
+js
 "
 )
 ;

@@ -69,11 +69,17 @@ executeSoon
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ delimitedRead
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -94,6 +104,8 @@ transport
 stream
 -
 utils
+.
+js
 "
 )
 ;

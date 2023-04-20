@@ -317,6 +317,10 @@ makeDebugger
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -328,6 +332,8 @@ utils
 make
 -
 debugger
+.
+js
 "
 )
 ;
@@ -337,11 +343,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -353,6 +365,10 @@ ActorRegistry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -364,6 +380,8 @@ utils
 actor
 -
 registry
+.
+js
 "
 )
 ;
@@ -375,6 +393,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -382,6 +404,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -415,6 +439,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -422,6 +450,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;
@@ -433,6 +463,10 @@ ObjectFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -440,6 +474,8 @@ client
 fronts
 /
 object
+.
+js
 "
 )
 ;
@@ -451,6 +487,10 @@ LongStringFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -458,6 +498,8 @@ client
 fronts
 /
 string
+.
+js
 "
 )
 ;
@@ -469,6 +511,10 @@ createCommandsDictionary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -476,6 +522,8 @@ shared
 commands
 /
 index
+.
+js
 "
 )
 ;
@@ -487,6 +535,10 @@ CommandsFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -496,6 +548,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 )
 ;

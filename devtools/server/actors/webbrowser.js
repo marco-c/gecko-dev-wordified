@@ -69,6 +69,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ ActorRegistry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -98,6 +108,8 @@ utils
 actor
 -
 registry
+.
+js
 "
 )
 ;
@@ -107,11 +119,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

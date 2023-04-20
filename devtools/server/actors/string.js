@@ -69,6 +69,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -85,11 +91,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ longStringSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -108,6 +124,8 @@ shared
 specs
 /
 string
+.
+js
 "
 )
 ;

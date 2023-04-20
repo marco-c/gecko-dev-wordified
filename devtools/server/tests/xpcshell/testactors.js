@@ -41,6 +41,10 @@ createExtraActors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -50,6 +54,8 @@ protocol
 lazy
 -
 pool
+.
+js
 "
 )
 ;
@@ -61,6 +67,10 @@ RootActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -68,6 +78,8 @@ server
 actors
 /
 root
+.
+js
 "
 )
 ;
@@ -79,6 +91,10 @@ ThreadActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -86,6 +102,8 @@ server
 actors
 /
 thread
+.
+js
 "
 )
 ;
@@ -97,6 +115,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -104,6 +126,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -115,6 +139,10 @@ ActorRegistry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -126,6 +154,8 @@ utils
 actor
 -
 registry
+.
+js
 "
 )
 ;
@@ -137,6 +167,10 @@ SourcesManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -148,6 +182,8 @@ utils
 sources
 -
 manager
+.
+js
 "
 )
 ;
@@ -157,6 +193,10 @@ makeDebugger
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -168,6 +208,8 @@ utils
 make
 -
 debugger
+.
+js
 "
 )
 ;
@@ -177,11 +219,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -193,6 +241,10 @@ windowGlobalTargetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -204,6 +256,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;
@@ -215,6 +269,10 @@ tabDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -224,6 +282,8 @@ specs
 descriptors
 /
 tab
+.
+js
 "
 )
 ;
@@ -233,6 +293,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -242,6 +306,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;
@@ -253,6 +319,10 @@ createContentProcessSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -264,6 +334,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;

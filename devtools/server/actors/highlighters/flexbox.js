@@ -69,6 +69,10 @@ AutoRefreshHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -80,6 +84,8 @@ highlighters
 auto
 -
 refresh
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ apply
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -102,6 +112,8 @@ dom
 matrix
 -
 2d
+.
+js
 "
 )
 ;
@@ -120,6 +132,10 @@ updateCanvasPosition
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -131,6 +147,8 @@ highlighters
 utils
 /
 canvas
+.
+js
 "
 )
 ;
@@ -143,6 +161,10 @@ getComputedStyle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -154,6 +176,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -170,6 +194,10 @@ setIgnoreLayoutChanges
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -177,6 +205,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

@@ -131,6 +131,10 @@ HighlighterEnvironment
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -138,6 +142,8 @@ server
 actors
 /
 highlighters
+.
+js
 "
 )
 ;
@@ -149,6 +155,10 @@ CanvasFrameAnonymousContentHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -160,6 +170,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;

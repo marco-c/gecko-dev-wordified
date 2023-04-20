@@ -73,6 +73,10 @@ EXTENSIONS_BGSCRIPT_STATUS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

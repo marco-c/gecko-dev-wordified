@@ -67,11 +67,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -90,6 +100,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ styleSheetsSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -110,6 +126,8 @@ specs
 style
 -
 sheets
+.
+js
 "
 )
 ;

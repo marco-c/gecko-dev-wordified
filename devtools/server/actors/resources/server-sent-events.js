@@ -71,6 +71,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -78,6 +82,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;
@@ -93,6 +99,10 @@ SERVER_SENT_EVENT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -102,6 +112,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

@@ -70,11 +70,17 @@ ActorClassWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ layoutSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -96,6 +106,8 @@ shared
 specs
 /
 layout
+.
+js
 "
 )
 ;
@@ -107,6 +119,10 @@ getStringifiableFragments
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -120,6 +136,8 @@ css
 grid
 -
 utils
+.
+js
 "
 )
 ;

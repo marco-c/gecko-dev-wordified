@@ -68,6 +68,10 @@ AnimationPlayerActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -75,6 +79,8 @@ server
 actors
 /
 animation
+.
+js
 "
 )
 ;

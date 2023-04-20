@@ -69,6 +69,10 @@ AutoRefreshHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -80,6 +84,8 @@ highlighters
 auto
 -
 refresh
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ moveInfobar
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -106,6 +116,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -117,6 +129,10 @@ PSEUDO_CLASSES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -124,6 +140,8 @@ shared
 css
 /
 constants
+.
+js
 "
 )
 ;
@@ -136,6 +154,10 @@ setIgnoreLayoutChanges
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -143,6 +165,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -155,6 +179,10 @@ getNodeGridFlexType
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -164,6 +192,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 )
 ;
@@ -173,6 +203,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -182,6 +216,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;

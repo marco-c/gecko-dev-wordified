@@ -67,11 +67,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ arrayBufferSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -92,6 +102,8 @@ specs
 array
 -
 buffer
+.
+js
 "
 )
 ;

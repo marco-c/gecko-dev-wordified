@@ -73,6 +73,10 @@ DOCUMENT_EVENT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -150,6 +156,10 @@ WILL_NAVIGATE_TIME_SHIFT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -163,6 +173,8 @@ listeners
 document
 -
 events
+.
+js
 "
 )
 ;

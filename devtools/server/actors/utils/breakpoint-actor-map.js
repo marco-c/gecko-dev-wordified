@@ -69,6 +69,10 @@ BreakpointActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ server
 actors
 /
 breakpoint
+.
+js
 "
 )
 ;

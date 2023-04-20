@@ -61,6 +61,10 @@ LayoutChangesObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -68,6 +72,8 @@ server
 actors
 /
 reflow
+.
+js
 "
 )
 ;
@@ -77,6 +83,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -84,6 +94,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

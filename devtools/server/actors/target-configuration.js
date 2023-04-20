@@ -70,11 +70,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ targetConfigurationSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ specs
 target
 -
 configuration
+.
+js
 "
 )
 ;

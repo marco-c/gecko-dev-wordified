@@ -67,11 +67,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ preferenceSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -90,6 +100,8 @@ shared
 specs
 /
 preference
+.
+js
 "
 )
 ;

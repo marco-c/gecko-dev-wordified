@@ -67,6 +67,10 @@ idlPureAllowlist
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -80,6 +84,8 @@ webidl
 pure
 -
 allowlist
+.
+js
 "
 )
 ;

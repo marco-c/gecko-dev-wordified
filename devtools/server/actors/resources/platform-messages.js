@@ -67,6 +67,10 @@ nsIConsoleListenerWatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -84,6 +88,8 @@ console
 listener
 -
 watcher
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ PLATFORM_MESSAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -108,6 +118,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -119,6 +131,10 @@ createStringGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -128,6 +144,8 @@ actors
 object
 /
 utils
+.
+js
 "
 )
 ;

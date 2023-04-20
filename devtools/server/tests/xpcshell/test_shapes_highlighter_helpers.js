@@ -61,6 +61,10 @@ getUnit
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -70,6 +74,8 @@ actors
 highlighters
 /
 shapes
+.
+js
 "
 )
 ;

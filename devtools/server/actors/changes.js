@@ -67,11 +67,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ changesSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -90,6 +100,8 @@ shared
 specs
 /
 changes
+.
+js
 "
 )
 ;
@@ -99,6 +111,10 @@ TrackChangeEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -112,6 +128,8 @@ track
 change
 -
 emitter
+.
+js
 "
 )
 ;

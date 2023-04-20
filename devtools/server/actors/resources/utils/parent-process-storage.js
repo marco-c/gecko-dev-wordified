@@ -69,6 +69,10 @@ storageTypePool
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ server
 actors
 /
 storage
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -92,6 +102,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

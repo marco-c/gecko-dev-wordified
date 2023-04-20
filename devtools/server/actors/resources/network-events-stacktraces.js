@@ -73,6 +73,10 @@ NETWORK_EVENT_STACKTRACE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

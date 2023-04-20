@@ -67,11 +67,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ createContentProcessSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -101,6 +111,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;

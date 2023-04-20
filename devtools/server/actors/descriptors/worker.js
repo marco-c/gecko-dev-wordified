@@ -133,6 +133,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -140,6 +144,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -175,11 +181,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -191,6 +203,10 @@ workerDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -200,6 +216,8 @@ specs
 descriptors
 /
 worker
+.
+js
 "
 )
 ;
@@ -211,6 +229,10 @@ createWorkerSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -222,6 +244,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;

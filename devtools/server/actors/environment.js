@@ -70,11 +70,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ createValueGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -95,6 +105,8 @@ actors
 object
 /
 utils
+.
+js
 "
 )
 ;
@@ -106,6 +118,10 @@ environmentSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -113,6 +129,8 @@ shared
 specs
 /
 environment
+.
+js
 "
 )
 ;

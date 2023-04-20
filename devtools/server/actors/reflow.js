@@ -224,11 +224,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -238,6 +244,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -245,6 +255,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -256,6 +268,10 @@ reflowSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -263,6 +279,8 @@ shared
 specs
 /
 reflow
+.
+js
 "
 )
 ;

@@ -67,11 +67,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ Memory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -90,6 +100,8 @@ server
 performance
 /
 memory
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ actorBridgeWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -108,6 +124,8 @@ server
 actors
 /
 common
+.
+js
 "
 )
 ;
@@ -119,6 +137,10 @@ memorySpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -126,6 +148,8 @@ shared
 specs
 /
 memory
+.
+js
 "
 )
 ;

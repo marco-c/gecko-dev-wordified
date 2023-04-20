@@ -290,6 +290,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -299,6 +303,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -319,6 +325,10 @@ STATUS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -328,6 +338,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;

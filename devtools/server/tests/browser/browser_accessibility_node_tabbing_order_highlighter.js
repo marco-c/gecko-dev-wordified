@@ -145,6 +145,10 @@ HighlighterEnvironment
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -152,6 +156,8 @@ server
 actors
 /
 highlighters
+.
+js
 "
 )
 ;
@@ -163,6 +169,10 @@ NodeTabbingOrderHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -176,6 +186,8 @@ node
 tabbing
 -
 order
+.
+js
 "
 )
 ;

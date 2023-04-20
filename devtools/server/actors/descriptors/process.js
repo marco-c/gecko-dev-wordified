@@ -203,6 +203,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -210,6 +214,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -222,6 +228,10 @@ createContentProcessSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -233,6 +243,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;
@@ -245,11 +257,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -261,6 +279,10 @@ processDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -270,6 +292,8 @@ specs
 descriptors
 /
 process
+.
+js
 "
 )
 ;

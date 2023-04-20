@@ -108,11 +108,17 @@ extend
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 extend
+.
+js
 "
 )
 ;
@@ -125,6 +131,10 @@ parentProcessTargetPrototype
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -136,6 +146,8 @@ targets
 parent
 -
 process
+.
+js
 "
 )
 ;
@@ -145,6 +157,10 @@ makeDebugger
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -156,6 +172,8 @@ utils
 make
 -
 debugger
+.
+js
 "
 )
 ;
@@ -167,6 +185,10 @@ webExtensionTargetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -176,6 +198,8 @@ specs
 targets
 /
 webextension
+.
+js
 "
 )
 ;
@@ -185,6 +209,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -194,6 +222,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;
@@ -203,6 +233,10 @@ TargetActorMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -216,6 +250,8 @@ target
 actor
 -
 mixin
+.
+js
 "
 )
 ;
@@ -227,6 +263,10 @@ getChildDocShells
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -238,6 +278,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;

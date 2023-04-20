@@ -69,11 +69,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ workerTargetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -94,6 +104,8 @@ specs
 targets
 /
 worker
+.
+js
 "
 )
 ;
@@ -105,6 +117,10 @@ ThreadActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -112,6 +128,8 @@ server
 actors
 /
 thread
+.
+js
 "
 )
 ;
@@ -123,6 +141,10 @@ WebConsoleActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -130,6 +152,8 @@ server
 actors
 /
 webconsole
+.
+js
 "
 )
 ;
@@ -139,6 +163,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -148,6 +176,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;
@@ -157,6 +187,10 @@ makeDebuggerUtil
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -168,6 +202,8 @@ utils
 make
 -
 debugger
+.
+js
 "
 )
 ;
@@ -179,6 +215,10 @@ SourcesManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -190,6 +230,8 @@ utils
 sources
 -
 manager
+.
+js
 "
 )
 ;
@@ -199,6 +241,10 @@ TargetActorMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -212,6 +258,8 @@ target
 actor
 -
 mixin
+.
+js
 "
 )
 ;

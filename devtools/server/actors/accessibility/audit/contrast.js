@@ -297,11 +297,17 @@ LARGE_TEXT_MIN_PIXELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 accessibility
+.
+js
 "
 )
 ;

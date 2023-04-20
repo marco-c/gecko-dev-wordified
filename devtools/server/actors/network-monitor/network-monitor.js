@@ -70,11 +70,17 @@ ActorClassWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ networkMonitorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -95,6 +105,8 @@ specs
 network
 -
 monitor
+.
+js
 "
 )
 ;

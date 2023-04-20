@@ -43,6 +43,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -50,6 +54,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -61,6 +67,10 @@ CommandsFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -70,6 +80,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 )
 ;

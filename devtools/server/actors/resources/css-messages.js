@@ -67,6 +67,10 @@ nsIConsoleListenerWatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -84,6 +88,8 @@ console
 listener
 -
 watcher
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -102,6 +112,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ createStringGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -122,6 +138,8 @@ actors
 object
 /
 utils
+.
+js
 "
 )
 ;
@@ -133,6 +151,10 @@ getActorIdForInternalSourceId
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -144,6 +166,8 @@ utils
 dbg
 -
 source
+.
+js
 "
 )
 ;
@@ -155,6 +179,10 @@ WebConsoleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -164,6 +192,8 @@ actors
 webconsole
 /
 utils
+.
+js
 "
 )
 ;
@@ -179,6 +209,10 @@ CSS_MESSAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -188,6 +222,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -199,11 +235,17 @@ MESSAGE_CATEGORY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

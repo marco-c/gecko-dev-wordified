@@ -69,6 +69,10 @@ Pool
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -76,6 +80,8 @@ shared
 protocol
 /
 Pool
+.
+js
 "
 )
 ;
@@ -149,6 +155,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -158,6 +168,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;

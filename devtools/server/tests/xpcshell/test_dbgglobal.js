@@ -40,6 +40,10 @@ SocketListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -47,6 +51,8 @@ shared
 security
 /
 socket
+.
+js
 "
 )
 ;

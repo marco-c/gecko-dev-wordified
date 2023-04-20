@@ -99,11 +99,17 @@ PROTANOPIA
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -128,6 +134,10 @@ DEFAULT_MATRIX
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -137,6 +147,8 @@ actors
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

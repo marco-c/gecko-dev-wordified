@@ -188,6 +188,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -195,6 +199,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -208,6 +214,10 @@ _documentWalker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -219,6 +229,8 @@ inspector
 document
 -
 walker
+.
+js
 "
 )
 ;
@@ -277,6 +289,10 @@ WalkerIndex
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -288,6 +304,8 @@ utils
 walker
 -
 search
+.
+js
 "
 )
 ;

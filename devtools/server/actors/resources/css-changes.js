@@ -73,6 +73,10 @@ CSS_CHANGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ TrackChangeEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -104,6 +114,8 @@ track
 change
 -
 emitter
+.
+js
 "
 )
 ;

@@ -69,6 +69,10 @@ createStringGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -78,6 +82,8 @@ actors
 object
 /
 utils
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ getActorIdForInternalSourceId
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -100,6 +110,8 @@ utils
 dbg
 -
 source
+.
+js
 "
 )
 ;

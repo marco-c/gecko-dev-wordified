@@ -69,6 +69,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ WEBSOCKET
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -100,6 +110,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

@@ -100,6 +100,10 @@ isNativeAnonymous
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -107,6 +111,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -128,6 +134,10 @@ EXCLUDED_LISTENER
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -137,6 +147,8 @@ actors
 inspector
 /
 constants
+.
+js
 "
 )
 ;

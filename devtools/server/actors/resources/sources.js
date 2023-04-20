@@ -73,6 +73,10 @@ SOURCE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -100,6 +110,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ THREAD_STATES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -120,6 +136,8 @@ server
 actors
 /
 thread
+.
+js
 "
 )
 ;

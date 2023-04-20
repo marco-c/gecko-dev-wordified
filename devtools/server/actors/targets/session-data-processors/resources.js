@@ -67,6 +67,10 @@ Resources
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

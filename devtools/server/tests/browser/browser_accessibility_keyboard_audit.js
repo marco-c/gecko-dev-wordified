@@ -115,11 +115,17 @@ NO_FOCUS_VISIBLE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

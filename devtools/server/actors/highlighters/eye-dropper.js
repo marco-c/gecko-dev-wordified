@@ -128,6 +128,10 @@ CanvasFrameAnonymousContentHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -139,6 +143,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -148,6 +154,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -155,6 +165,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -167,6 +179,10 @@ rgbToColorName
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -174,6 +190,8 @@ shared
 css
 /
 color
+.
+js
 "
 )
 .
@@ -188,6 +206,10 @@ getFrameOffsets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -195,6 +217,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

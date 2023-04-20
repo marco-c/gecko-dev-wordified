@@ -70,11 +70,17 @@ ActorClassWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -86,6 +92,10 @@ accessibleWalkerSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -93,6 +103,8 @@ shared
 specs
 /
 accessibility
+.
+js
 "
 )
 ;
@@ -108,6 +120,10 @@ COLOR_TRANSFORMATION_MATRICES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -117,6 +133,8 @@ actors
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

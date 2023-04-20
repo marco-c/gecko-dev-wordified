@@ -215,11 +215,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -239,6 +245,10 @@ animationsSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -246,6 +256,8 @@ shared
 specs
 /
 animation
+.
+js
 "
 )
 ;
@@ -257,6 +269,10 @@ ANIMATION_TYPE_FOR_LONGHANDS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -268,6 +284,8 @@ animation
 type
 -
 longhand
+.
+js
 "
 )
 ;

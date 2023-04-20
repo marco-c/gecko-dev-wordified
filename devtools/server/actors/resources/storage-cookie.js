@@ -73,6 +73,10 @@ COOKIE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -82,6 +86,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ ParentProcessStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -106,6 +116,8 @@ parent
 process
 -
 storage
+.
+js
 "
 )
 ;

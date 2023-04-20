@@ -69,6 +69,10 @@ formatDisplayName
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ server
 actors
 /
 frame
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ getResourceWatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -97,6 +107,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

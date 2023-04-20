@@ -135,11 +135,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -151,6 +157,10 @@ webExtensionDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -160,6 +170,8 @@ specs
 descriptors
 /
 webextension
+.
+js
 "
 )
 ;
@@ -171,6 +183,10 @@ connectToFrame
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -180,6 +196,8 @@ connectors
 frame
 -
 connector
+.
+js
 "
 )
 ;
@@ -191,6 +209,10 @@ createWebExtensionSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -202,6 +224,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;

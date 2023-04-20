@@ -67,11 +67,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -83,6 +89,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -90,6 +100,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -108,6 +124,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -119,6 +137,10 @@ isWindowIncluded
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -126,6 +148,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -135,6 +159,10 @@ specs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -142,6 +170,8 @@ shared
 specs
 /
 storage
+.
+js
 "
 )
 ;
@@ -153,6 +183,10 @@ parseItemValue
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -160,6 +194,8 @@ shared
 storage
 /
 utils
+.
+js
 "
 )
 ;

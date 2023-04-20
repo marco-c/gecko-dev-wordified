@@ -40,6 +40,10 @@ ThreadFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -47,6 +51,8 @@ client
 fronts
 /
 thread
+.
+js
 "
 )
 ;
@@ -58,6 +64,10 @@ WindowGlobalTargetFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +79,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;

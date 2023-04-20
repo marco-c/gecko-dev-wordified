@@ -71,6 +71,10 @@ THREAD_STATES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -78,6 +82,8 @@ server
 actors
 /
 thread
+.
+js
 "
 )
 ;

@@ -40,6 +40,10 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -47,6 +51,8 @@ shared
 protocol
 /
 Actor
+.
+js
 "
 )
 ;
