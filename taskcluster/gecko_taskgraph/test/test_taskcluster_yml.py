@@ -151,14 +151,6 @@ e8d2d9aff5026ef1f1777b781b47fdcbdb9d8f20
 "
                 
 "
-base_revision
-"
-:
-"
-e8aebe488b2f2e567940577de25013d00e818f7c
-"
-                
-"
 owner
 "
 :
@@ -367,14 +359,6 @@ revision
 :
 "
 e8aebe488b2f2e567940577de25013d00e818f7c
-"
-                
-"
-base_revision
-"
-:
-"
-54cbb3745cdb9a8aa0a4428d405b3b2e1c7d13c2
 "
                 
 "
@@ -594,14 +578,6 @@ revision
 :
 "
 e8d2d9aff5026ef1f1777b781b47fdcbdb9d8f20
-"
-                
-"
-base_revision
-"
-:
-"
-e8aebe488b2f2e567940577de25013d00e818f7c
 "
                 
 "

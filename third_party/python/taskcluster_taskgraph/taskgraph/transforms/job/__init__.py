@@ -1874,10 +1874,6 @@ in
 config
 .
 kind_dependencies_tasks
-.
-values
-(
-)
 :
         
 if
@@ -2357,18 +2353,15 @@ dep_tasks
 task
                         
 for
-label
 task
 in
 config
 .
 kind_dependencies_tasks
-.
-items
-(
-)
                         
 if
+task
+.
 label
 =
 =
