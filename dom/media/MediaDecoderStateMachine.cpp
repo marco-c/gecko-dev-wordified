@@ -8028,8 +8028,8 @@ if
 (
 !
 mIsReachingAudioEOS
-&
-&
+|
+|
 !
 mIsReachingVideoEOS
 )
