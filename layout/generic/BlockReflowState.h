@@ -2663,9 +2663,6 @@ far
 OverflowAreas
 mFloatOverflowAreas
 ;
-nsFloatCacheFreeList
-mFloatCacheFreeList
-;
 /
 /
 Previous
@@ -2893,7 +2890,11 @@ N
 ^
 2
 .
-nsFloatCacheFreeList
+nsTArray
+<
+nsIFrame
+*
+>
 mCurrentLineFloats
 ;
 /
@@ -2946,7 +2947,11 @@ N
 ^
 2
 .
-nsFloatCacheFreeList
+nsTArray
+<
+nsIFrame
+*
+>
 mBelowCurrentLineFloats
 ;
 /
