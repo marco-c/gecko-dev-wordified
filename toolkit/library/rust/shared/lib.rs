@@ -731,6 +731,7 @@ purposes
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -788,6 +789,7 @@ purposes
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -806,8 +808,6 @@ message
 const
 c_char
 )
-{
-unsafe
 {
 /
 /
@@ -870,5 +870,4 @@ unwrap
 )
 )
 ;
-}
 }
