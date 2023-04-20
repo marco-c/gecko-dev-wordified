@@ -7188,6 +7188,10 @@ reallyWait
 )
 ;
 }
+DrainDirectTasks
+(
+)
+;
 #
 ifdef
 EARLY_BETA_OR_EARLIER
@@ -7277,6 +7281,10 @@ OnProcessNextEvent
 this
 reallyWait
 )
+)
+;
+DrainDirectTasks
+(
 )
 ;
 #
