@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h
@@ -160,7 +167,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsIRequest
 .
 h
 "
@@ -181,13 +188,10 @@ h
 #
 include
 "
-nsIRequest
+nsITransportSecurityInfo
 .
 h
 "
-class
-nsITransportSecurityInfo
-;
 namespace
 mozilla
 :
@@ -762,7 +766,7 @@ EventTargetMutex
 ;
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 mSecurityInfo
 ;

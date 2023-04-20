@@ -2191,7 +2191,7 @@ mDataSentToChildProcess
 }
 already_AddRefed
 <
-nsISupports
+nsITransportSecurityInfo
 >
 HttpTransactionParent
 :
