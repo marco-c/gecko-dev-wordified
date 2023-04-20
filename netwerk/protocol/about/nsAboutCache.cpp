@@ -319,8 +319,6 @@ nsIInputStream
 >
 inputStream
 ;
-rv
-=
 NS_NewPipe
 (
 getter_AddRefs
@@ -350,16 +348,6 @@ false
 blocking
 output
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 nsAutoCString
 storageName

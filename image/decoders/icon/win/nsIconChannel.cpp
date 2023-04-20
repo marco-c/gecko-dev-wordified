@@ -4639,8 +4639,6 @@ nsIAsyncOutputStream
 >
 outputStream
 ;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -4677,12 +4675,6 @@ segmentSize
 segmentCount
 *
 /
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
@@ -4959,8 +4951,6 @@ nsIAsyncOutputStream
 >
 outputStream
 ;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -4995,12 +4985,6 @@ UINT32_MAX
 segmentCount
 *
 /
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /

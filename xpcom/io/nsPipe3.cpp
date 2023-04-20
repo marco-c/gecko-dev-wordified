@@ -2333,7 +2333,7 @@ nsPipe
 public
 constructor
 friend
-nsresult
+void
 NS_NewPipe2
 (
 nsIAsyncInputStream
@@ -12118,7 +12118,7 @@ NS_OK
 /
 /
 /
-nsresult
+void
 NS_NewPipe
 (
 nsIInputStream
@@ -12195,9 +12195,6 @@ nsIAsyncOutputStream
 *
 out
 ;
-nsresult
-rv
-=
 NS_NewPipe2
 (
 &
@@ -12210,18 +12207,6 @@ aSegmentSize
 segmentCount
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-rv
-;
-}
 *
 aPipeIn
 =
@@ -12231,9 +12216,6 @@ in
 aPipeOut
 =
 out
-;
-return
-NS_OK
 ;
 }
 /
@@ -12260,7 +12242,7 @@ these
 objects
 yet
 .
-nsresult
+void
 NS_NewPipe2
 (
 nsIAsyncInputStream
@@ -12366,9 +12348,6 @@ forget
 (
 aPipeOut
 )
-;
-return
-NS_OK
 ;
 }
 /
@@ -12547,7 +12526,6 @@ return
 NS_ERROR_ALREADY_INITIALIZED
 ;
 }
-return
 NS_NewPipe2
 (
 getter_AddRefs
@@ -12563,6 +12541,9 @@ aNonBlockingOutput
 aSegmentSize
 aSegmentCount
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

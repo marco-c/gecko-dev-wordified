@@ -4514,8 +4514,6 @@ the
 sniffer
 buffer
 .
-rv
-=
 NS_NewPipe
 (
 getter_AddRefs
@@ -4530,14 +4528,6 @@ MAX_BUFFER_SIZE
 MAX_BUFFER_SIZE
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 rv
 =
 out
@@ -4603,7 +4593,6 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-}
 }
 }
 }

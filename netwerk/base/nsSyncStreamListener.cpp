@@ -113,7 +113,6 @@ Init
 (
 )
 {
-return
 NS_NewPipe
 (
 getter_AddRefs
@@ -143,6 +142,9 @@ limit
 false
 false
 )
+;
+return
+NS_OK
 ;
 }
 /

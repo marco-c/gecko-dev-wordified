@@ -2243,8 +2243,6 @@ nsIOutputStream
 >
 outStream
 ;
-rv
-=
 NS_NewPipe
 (
 getter_AddRefs
@@ -2260,14 +2258,6 @@ bufferCapacity
 aNonBlocking
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 uint32_t
 written
 ;
@@ -2308,7 +2298,6 @@ _retval
 inStream
 )
 ;
-}
 }
 /
 /
