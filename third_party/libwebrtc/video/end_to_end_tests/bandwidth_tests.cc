@@ -346,7 +346,7 @@ RembObserver
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 {
 }
@@ -622,7 +622,7 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 sender_call_
 (
@@ -1289,7 +1289,7 @@ task_queue
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 sender_call_
 (
@@ -2031,7 +2031,7 @@ task_queue
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 FakeEncoder
 (
@@ -2294,7 +2294,11 @@ i
 ;
 i
 <
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 ;
 +
 +
@@ -2388,7 +2392,11 @@ i
 ;
 i
 <
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 ;
 +
 +

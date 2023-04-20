@@ -370,7 +370,7 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 depacketizer_
 (

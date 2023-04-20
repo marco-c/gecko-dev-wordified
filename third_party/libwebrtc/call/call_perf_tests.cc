@@ -732,7 +732,7 @@ RtpRtcpObserver
 CallPerfTest
 :
 :
-kLongTimeoutMs
+kLongTimeout
 )
 clock_
 (
@@ -2629,7 +2629,7 @@ run_time_ms
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 net_config_
 (
@@ -3651,7 +3651,7 @@ LoadObserver
 :
 SendTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 test_phase_
 (
@@ -4469,7 +4469,7 @@ task_queue
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 send_stream_
 (
@@ -5127,7 +5127,7 @@ task_queue
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 FakeEncoder
 (
@@ -5572,7 +5572,11 @@ time_to_reconfigure_
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 )
 )
 <
@@ -6747,7 +6751,7 @@ task_queue
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 clock_
 (

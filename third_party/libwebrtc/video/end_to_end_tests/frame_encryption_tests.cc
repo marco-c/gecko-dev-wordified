@@ -225,7 +225,7 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 encoder_factory_
 (

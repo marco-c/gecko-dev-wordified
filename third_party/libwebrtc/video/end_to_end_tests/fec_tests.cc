@@ -378,7 +378,7 @@ UlpfecRenderObserver
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 encoder_factory_
 (
@@ -1100,7 +1100,7 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 enable_nack_
 (
@@ -2401,7 +2401,7 @@ UlpfecNackObserver
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 state_
 (

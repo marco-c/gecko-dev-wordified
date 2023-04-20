@@ -376,7 +376,7 @@ NackObserver
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 sent_rtp_packets_
 (
@@ -812,7 +812,7 @@ NackObserver
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 local_ssrc_
 (
@@ -1704,7 +1704,7 @@ rtp_history_ms
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 rtp_history_ms_
 (
@@ -2197,7 +2197,7 @@ enable_red
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 payload_type_
 (

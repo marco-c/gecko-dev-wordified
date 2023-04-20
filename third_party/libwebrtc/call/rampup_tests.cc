@@ -453,7 +453,7 @@ test
 CallTest
 :
 :
-kLongTimeoutMs
+kLongTimeout
 )
 clock_
 (

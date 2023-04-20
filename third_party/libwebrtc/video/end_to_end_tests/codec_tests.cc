@@ -412,7 +412,7 @@ EndToEndTest
 CodecEndToEndTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 /
 /
