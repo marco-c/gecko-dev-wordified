@@ -19937,7 +19937,10 @@ NS_STYLE_TEXT_DECORATION_STYLE_SOLID
 )
 mUnicodeBidi
 (
-NS_STYLE_UNICODE_BIDI_NORMAL
+StyleUnicodeBidi
+:
+:
+Normal
 )
 mInitialLetterSink
 (

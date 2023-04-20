@@ -6244,13 +6244,12 @@ mTextDecorationStyle
 /
 NS_STYLE_TEXT_DECORATION_STYLE_
 *
-uint8_t
+mozilla
+:
+:
+StyleUnicodeBidi
 mUnicodeBidi
 ;
-/
-/
-NS_STYLE_UNICODE_BIDI_
-*
 nscoord
 mInitialLetterSink
 ;

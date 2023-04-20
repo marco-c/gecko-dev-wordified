@@ -17409,7 +17409,7 @@ StyleTextAlign
 aAlignment
 StyleDirection
 aDirection
-uint8_t
+StyleUnicodeBidi
 aUnicodeBidi
 nsIFrame
 *
@@ -17478,12 +17478,13 @@ aDirection
 )
 &
 &
-!
-(
-NS_STYLE_UNICODE_BIDI_PLAINTEXT
-&
 aUnicodeBidi
-)
+!
+=
+StyleUnicodeBidi
+:
+:
+Plaintext
 )
 ;
 }
