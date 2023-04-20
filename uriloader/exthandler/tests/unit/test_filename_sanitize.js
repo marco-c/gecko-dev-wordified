@@ -1110,7 +1110,7 @@ png
 0
 )
 "
-index
+png
 .
 png
 "
