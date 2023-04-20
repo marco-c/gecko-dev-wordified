@@ -539,7 +539,6 @@ Element
 ResizeObserver
 &
 ResizeObserverBoxOptions
-WritingMode
 )
 ;
 Element
