@@ -662,6 +662,10 @@ IsServiceWorker
 )
 )
 ;
+AssertIsOnMainThread
+(
+)
+;
 }
 nsresult
 CacheCreator
