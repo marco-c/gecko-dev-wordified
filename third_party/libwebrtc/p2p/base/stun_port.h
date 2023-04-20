@@ -1130,6 +1130,15 @@ rtc
 SocketAddress
 &
 address
+int
+family
+const
+webrtc
+:
+:
+FieldTrialsView
+&
+field_trials
 )
 ;
 bool
