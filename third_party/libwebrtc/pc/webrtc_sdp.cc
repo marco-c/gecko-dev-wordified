@@ -24342,6 +24342,15 @@ IsDtlsSctp
 (
 protocol
 )
+&
+&
+media_type
+=
+=
+cricket
+:
+:
+MEDIA_TYPE_DATA
 )
 {
 /
