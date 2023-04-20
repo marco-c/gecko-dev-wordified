@@ -9999,9 +9999,14 @@ POWER_PLATFORM_ROLE_V2
 )
 ;
 }
+/
+/
 static
 bool
-CallGetAutoRotationState
+WinUtils
+:
+:
+GetAutoRotationState
 (
 AR_STATE
 *
@@ -10258,7 +10263,10 @@ rotation_state
 ;
 if
 (
-CallGetAutoRotationState
+WinUtils
+:
+:
+GetAutoRotationState
 (
 &
 rotation_state

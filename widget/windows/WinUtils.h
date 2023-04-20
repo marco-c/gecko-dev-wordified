@@ -4337,6 +4337,15 @@ RestoreHiDPIMode
 ;
 #
 endif
+static
+bool
+GetAutoRotationState
+(
+AR_STATE
+*
+aRotationState
+)
+;
 private
 :
 static
