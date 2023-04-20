@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsIMutationObserver
+nsStubMutationObserver
 .
 h
 "
@@ -270,7 +270,7 @@ class
 nsMenuGroupOwnerX
 :
 public
-nsIMutationObserver
+nsMultiMutationObserver
 public
 nsIObserver
 {

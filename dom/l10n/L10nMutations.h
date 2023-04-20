@@ -155,17 +155,6 @@ nsTHashSet
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-DOMLocalization
-.
-h
-"
 class
 nsRefreshDriver
 ;
@@ -175,6 +164,9 @@ mozilla
 :
 dom
 {
+class
+DOMLocalization
+;
 /
 *
 *
@@ -207,7 +199,7 @@ L10nMutations
 final
 :
 public
-nsStubMutationObserver
+nsStubMultiMutationObserver
 public
 nsARefreshObserver
 {

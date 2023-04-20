@@ -142,6 +142,13 @@ h
 #
 include
 "
+DOMLocalization
+.
+h
+"
+#
+include
+"
 mozilla
 /
 intl
