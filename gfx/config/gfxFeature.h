@@ -464,6 +464,17 @@ Backdrop
 filter
 "
 )
+\
+_
+(
+CANVAS_RENDERER_THREAD
+Feature
+"
+canvas
+renderer
+thread
+"
+)
 /
 *
 Add
