@@ -169,6 +169,7 @@ VideoCodec
 >
 send_codecs
 (
+bool
 )
 const
 override
@@ -194,6 +195,7 @@ VideoCodec
 >
 recv_codecs
 (
+bool
 )
 const
 override
@@ -219,7 +221,6 @@ VideoCodec
 >
 send_codecs
 (
-bool
 )
 const
 override
@@ -245,7 +246,6 @@ VideoCodec
 >
 recv_codecs
 (
-bool
 )
 const
 override
