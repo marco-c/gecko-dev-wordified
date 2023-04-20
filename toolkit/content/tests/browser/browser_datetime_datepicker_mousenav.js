@@ -908,9 +908,12 @@ getElement
 DAYS_VIEW
 )
 .
-firstChild
-.
-firstChild
+querySelector
+(
+"
+td
+"
+)
 )
 ;
 await
