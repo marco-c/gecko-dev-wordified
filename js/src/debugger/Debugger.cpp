@@ -42644,7 +42644,7 @@ if
 r
 -
 >
-hasLiveGlobal
+hasInitializedGlobal
 (
 )
 )
