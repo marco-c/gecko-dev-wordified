@@ -1664,6 +1664,11 @@ aGuid
 mLayersId
 )
 ;
+if
+(
+rootController
+)
+{
 MOZ_RELEASE_ASSERT
 (
 rootController
@@ -1695,6 +1700,7 @@ aY
 aIsRootContent
 )
 ;
+}
 }
 }
 void
@@ -1912,6 +1918,11 @@ aGuid
 mLayersId
 )
 ;
+if
+(
+rootController
+)
+{
 MOZ_RELEASE_ASSERT
 (
 rootController
@@ -1943,6 +1954,7 @@ aY
 aIsRootContent
 )
 ;
+}
 }
 }
 void
