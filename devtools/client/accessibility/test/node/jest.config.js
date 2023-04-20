@@ -123,6 +123,10 @@ other
 rules
 "
 ^
+resource
+:
+/
+/
 devtools
 /
 shared
