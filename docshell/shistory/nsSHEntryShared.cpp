@@ -465,7 +465,7 @@ loader
 loader
 -
 >
-Destroy
+AsyncDestroy
 (
 )
 ;
