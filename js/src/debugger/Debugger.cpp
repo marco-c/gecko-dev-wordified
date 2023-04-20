@@ -28014,11 +28014,10 @@ problem
 .
 if
 (
-!
 tracer
 -
 >
-isMarkingTracer
+isGenericTracer
 (
 )
 )

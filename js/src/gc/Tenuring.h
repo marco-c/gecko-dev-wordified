@@ -163,7 +163,7 @@ TenuringTracer
 final
 :
 public
-JSTracer
+GenericTracer
 {
 Nursery
 &
@@ -274,7 +274,8 @@ _1
 _2
 )
 \
-void
+type
+*
 on
 #
 #
@@ -285,12 +286,7 @@ Edge
 (
 type
 *
-*
-thingp
-const
-char
-*
-name
+thing
 )
 override
 ;
