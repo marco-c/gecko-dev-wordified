@@ -362,19 +362,6 @@ return
 }
 #
 endif
-if
-(
-GetCurrentSandboxingKind
-(
-)
-!
-=
-SandboxingKind
-:
-:
-GENERIC_UTILITY
-)
-{
 nsDebugImpl
 :
 :
@@ -397,7 +384,6 @@ AudioDecoder
 )
 )
 ;
-}
 }
 /
 *
