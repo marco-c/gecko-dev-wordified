@@ -6119,7 +6119,10 @@ RuleInclusion
 originating_element_style
 :
 &
+Arc
+<
 ComputedValues
+>
 parent_style
 :
 &
@@ -7018,7 +7021,10 @@ E
 originating_element_style
 :
 &
+Arc
+<
 ComputedValues
+>
 parent_style
 :
 &
@@ -7175,6 +7181,10 @@ originating_element_style
 Some
 (
 originating_element_style
+.
+clone
+(
+)
 )
 ;
 self
@@ -7317,6 +7327,10 @@ originating_element_style
 Some
 (
 originating_element_style
+.
+clone
+(
+)
 )
 ;
 self
@@ -15405,6 +15419,10 @@ context
 extra_data
 .
 originating_element_style
+.
+as_ref
+(
+)
 &
 mut
 context

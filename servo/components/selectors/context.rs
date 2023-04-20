@@ -1101,10 +1101,6 @@ Impl
 :
 :
 ExtraMatchingData
-<
-'
-a
->
 quirks_mode
 :
 QuirksMode
