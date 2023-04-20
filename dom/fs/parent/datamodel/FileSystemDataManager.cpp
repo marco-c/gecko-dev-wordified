@@ -1532,6 +1532,16 @@ State
 :
 Opening
 ;
+/
+/
+XXX
+Add
+storage
+initialization
+to
+the
+chain
+.
 InvokeAsync
 (
 MutableIOTargetPtr
