@@ -4211,7 +4211,7 @@ const
 int
 kEncodedBytes
 =
-687
+671
 ;
 #
 endif
