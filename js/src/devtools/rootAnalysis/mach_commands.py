@@ -2337,6 +2337,8 @@ explicit
 -
 enable
 -
+project
+/
 application
 =
 APP
@@ -2385,6 +2387,25 @@ configure_args
 ]
     
 if
+(
+        
+"
+-
+-
+enable
+-
+project
+=
+%
+s
+"
+%
+app
+not
+in
+configure_args
+        
+and
 "
 -
 -
@@ -2400,6 +2421,8 @@ app
 not
 in
 configure_args
+    
+)
 :
         
 raise
