@@ -72,6 +72,10 @@ SERVICE_WORKER_STATUSES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

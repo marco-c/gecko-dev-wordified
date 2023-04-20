@@ -70,6 +70,10 @@ REQUEST_EXTENSIONS_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ parseFileUri
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +114,8 @@ modules
 extensions
 -
 helper
+.
+js
 "
 )
 ;

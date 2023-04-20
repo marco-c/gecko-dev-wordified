@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -132,6 +150,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +165,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -164,6 +188,10 @@ USB_STATES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +201,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -182,6 +212,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -193,6 +227,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -232,6 +268,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -245,6 +285,8 @@ react
 router
 -
 dom
+.
+js
 "
 )
 .
@@ -259,6 +301,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -272,6 +318,8 @@ components
 connect
 /
 ConnectSection
+.
+js
 "
 )
 )
@@ -284,6 +332,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -297,6 +349,8 @@ components
 connect
 /
 ConnectSteps
+.
+js
 "
 )
 )
@@ -309,6 +363,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -322,6 +380,8 @@ components
 connect
 /
 NetworkLocationsForm
+.
+js
 "
 )
 )
@@ -334,6 +394,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -347,6 +411,8 @@ components
 connect
 /
 NetworkLocationsList
+.
+js
 "
 )
 )
@@ -360,6 +426,10 @@ RUNTIMES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -369,6 +439,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -378,6 +450,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -389,6 +465,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;

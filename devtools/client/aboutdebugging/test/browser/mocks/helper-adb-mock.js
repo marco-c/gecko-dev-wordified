@@ -109,6 +109,10 @@ setMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -120,6 +124,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;
@@ -182,6 +188,10 @@ removeMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -193,6 +203,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;
@@ -517,6 +529,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -524,6 +540,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -655,6 +673,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -662,6 +684,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -752,6 +776,10 @@ setMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -763,6 +791,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;
@@ -808,6 +838,10 @@ removeMockedModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -819,6 +853,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 )
 ;

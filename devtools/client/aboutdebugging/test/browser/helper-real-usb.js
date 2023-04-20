@@ -259,6 +259,10 @@ adbAddon
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -274,6 +278,8 @@ adb
 adb
 -
 addon
+.
+js
 "
 )
 ;

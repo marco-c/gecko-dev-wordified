@@ -69,6 +69,10 @@ bindActionCreators
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +82,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -89,6 +95,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ unmountComponentAtNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +137,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -132,6 +150,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +165,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -155,6 +179,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +194,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -185,6 +215,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +230,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -207,6 +243,10 @@ configureStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -218,6 +258,8 @@ src
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -229,6 +271,10 @@ setDebugTargetCollapsibilities
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -244,6 +290,8 @@ debug
 target
 -
 collapsibilities
+.
+js
 "
 )
 ;
@@ -255,6 +303,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -266,6 +318,8 @@ src
 modules
 /
 l10n
+.
+js
 "
 )
 ;
@@ -279,6 +333,10 @@ removeNetworkLocationsObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -292,6 +350,8 @@ modules
 network
 -
 locations
+.
+js
 "
 )
 ;
@@ -305,6 +365,10 @@ removeUSBRuntimesObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -318,6 +382,8 @@ modules
 usb
 -
 runtimes
+.
+js
 "
 )
 ;
@@ -411,6 +477,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -424,6 +494,8 @@ react
 router
 -
 dom
+.
+js
 "
 )
 .
@@ -438,6 +510,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -449,6 +525,8 @@ src
 components
 /
 App
+.
+js
 "
 )
 )

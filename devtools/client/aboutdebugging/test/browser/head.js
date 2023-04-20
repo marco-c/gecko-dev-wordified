@@ -305,6 +305,10 @@ adbAddon
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -320,6 +324,8 @@ adb
 adb
 -
 addon
+.
+js
 "
 )
 ;
@@ -359,6 +365,10 @@ adbProcess
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -374,6 +384,8 @@ adb
 adb
 -
 process
+.
+js
 "
 )
 ;
@@ -392,6 +404,10 @@ remoteClientManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -407,6 +423,8 @@ remote
 client
 -
 manager
+.
+js
 "
 )
 ;
@@ -635,6 +653,10 @@ DEBUG_TARGETS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -644,6 +666,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

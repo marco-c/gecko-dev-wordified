@@ -67,6 +67,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -155,6 +161,10 @@ UPDATE_CONNECTION_PROMPT_SETTING_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +174,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -177,6 +189,10 @@ getCurrentRuntime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +208,8 @@ runtimes
 state
 -
 helper
+.
+js
 "
 )
 ;

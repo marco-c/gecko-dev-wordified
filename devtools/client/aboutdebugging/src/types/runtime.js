@@ -67,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ ClientWrapper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +114,8 @@ modules
 client
 -
 wrapper
+.
+js
 "
 )
 ;
@@ -115,6 +127,10 @@ COMPATIBILITY_STATUS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ debugging
 version
 -
 checker
+.
+js
 "
 )
 ;

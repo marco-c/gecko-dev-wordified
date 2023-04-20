@@ -79,6 +79,10 @@ THIS_FIREFOX_RUNTIME_CREATED
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +92,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ findRuntimeById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +124,8 @@ runtimes
 state
 -
 helper
+.
+js
 "
 )
 ;
@@ -125,6 +137,10 @@ remoteClientManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +156,8 @@ remote
 client
 -
 manager
+.
+js
 "
 )
 ;

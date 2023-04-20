@@ -75,6 +75,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +92,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ MESSAGE_LEVEL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -108,6 +118,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -121,6 +133,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +150,8 @@ components
 shared
 /
 Message
+.
+js
 "
 )
 )

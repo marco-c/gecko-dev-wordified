@@ -17,6 +17,10 @@ parseFileUri
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -30,6 +34,8 @@ modules
 extensions
 -
 helper
+.
+js
 "
 )
 ;

@@ -70,6 +70,10 @@ REQUEST_TABS_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

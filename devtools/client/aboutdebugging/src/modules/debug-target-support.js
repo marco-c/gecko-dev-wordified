@@ -71,6 +71,10 @@ RUNTIMES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

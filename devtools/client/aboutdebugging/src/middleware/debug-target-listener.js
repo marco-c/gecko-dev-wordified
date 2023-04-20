@@ -72,6 +72,10 @@ WATCH_RUNTIME_SUCCESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +85,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -90,6 +96,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ RootResourceCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -125,6 +141,8 @@ root
 resource
 -
 command
+.
+js
 "
 )
 ;

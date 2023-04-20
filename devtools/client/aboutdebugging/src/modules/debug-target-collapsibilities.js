@@ -81,6 +81,10 @@ DEBUG_TARGET_PANE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +94,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;

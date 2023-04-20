@@ -69,6 +69,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -92,6 +98,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -132,6 +150,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +167,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -154,6 +178,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +193,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -186,6 +216,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -199,6 +233,8 @@ react
 router
 -
 dom
+.
+js
 "
 )
 .
@@ -213,6 +249,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -226,6 +266,8 @@ react
 router
 -
 dom
+.
+js
 "
 )
 .
@@ -240,6 +282,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -253,6 +299,8 @@ react
 router
 -
 dom
+.
+js
 "
 )
 .
@@ -265,6 +313,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -276,6 +328,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
@@ -288,6 +342,10 @@ RUNTIMES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -297,6 +355,8 @@ aboutdebugging
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -308,6 +368,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -321,6 +385,8 @@ components
 connect
 /
 ConnectPage
+.
+js
 "
 )
 )
@@ -333,6 +399,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -344,6 +414,8 @@ src
 components
 /
 RuntimePage
+.
+js
 "
 )
 )
@@ -356,6 +428,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -369,6 +445,8 @@ components
 sidebar
 /
 Sidebar
+.
+js
 "
 )
 )

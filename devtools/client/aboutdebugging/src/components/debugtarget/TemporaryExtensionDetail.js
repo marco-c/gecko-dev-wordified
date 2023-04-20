@@ -70,6 +70,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +83,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -88,6 +94,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +111,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -110,6 +122,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -132,6 +150,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -143,6 +165,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -164,6 +188,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -177,6 +205,8 @@ components
 debugtarget
 /
 ExtensionDetail
+.
+js
 "
 )
 )
@@ -189,6 +219,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -202,6 +236,8 @@ components
 debugtarget
 /
 FieldPair
+.
+js
 "
 )
 )
@@ -212,6 +248,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -223,6 +263,8 @@ src
 types
 /
 index
+.
+js
 "
 )
 ;
