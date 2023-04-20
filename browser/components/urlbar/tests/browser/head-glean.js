@@ -551,7 +551,7 @@ controller
 .
 engagementEvent
 .
-discard
+reset
 (
 )
 ;
