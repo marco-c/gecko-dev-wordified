@@ -174,6 +174,13 @@ SupportedFormats
 return
 SupportedH264Codecs
 (
+/
+*
+add_scalability_modes
+=
+*
+/
+true
 )
 ;
 }

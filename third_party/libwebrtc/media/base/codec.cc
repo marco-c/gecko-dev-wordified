@@ -2452,6 +2452,12 @@ c
 .
 parameters
 ;
+scalability_modes
+=
+c
+.
+scalability_modes
+;
 }
 VideoCodec
 :

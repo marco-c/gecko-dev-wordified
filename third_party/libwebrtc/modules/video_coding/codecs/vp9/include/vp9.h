@@ -184,6 +184,10 @@ SdpVideoFormat
 >
 SupportedVP9Codecs
 (
+bool
+add_scalability_modes
+=
+false
 )
 ;
 /

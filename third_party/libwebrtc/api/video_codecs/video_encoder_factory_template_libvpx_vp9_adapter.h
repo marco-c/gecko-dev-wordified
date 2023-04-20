@@ -139,6 +139,13 @@ SupportedFormats
 return
 SupportedVP9Codecs
 (
+/
+*
+add_scalability_modes
+=
+*
+/
+true
 )
 ;
 }
