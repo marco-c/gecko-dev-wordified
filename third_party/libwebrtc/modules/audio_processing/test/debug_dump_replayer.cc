@@ -1226,9 +1226,6 @@ on
 the
 fly
 .
-Config
-config
-;
 RTC_CHECK
 (
 msg
@@ -1286,7 +1283,6 @@ AudioProcessingBuilderForTesting
 .
 Create
 (
-config
 )
 ;
 }
