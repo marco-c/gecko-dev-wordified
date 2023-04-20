@@ -679,7 +679,7 @@ SyntaxError
 failed
 to
 find
-type
+name
 /
 )
 ;

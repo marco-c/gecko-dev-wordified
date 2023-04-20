@@ -2109,6 +2109,8 @@ usize
 self
 .
 params
+(
+)
 .
 len
 (
@@ -2126,7 +2128,9 @@ usize
 {
 self
 .
-returns
+results
+(
+)
 .
 len
 (
@@ -2151,6 +2155,8 @@ ValType
 self
 .
 params
+(
+)
 .
 get
 (
@@ -2181,7 +2187,9 @@ ValType
 {
 self
 .
-returns
+results
+(
+)
 .
 get
 (

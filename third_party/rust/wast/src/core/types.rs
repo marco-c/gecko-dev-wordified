@@ -5805,7 +5805,6 @@ parens
 |
 parser
 |
-{
 Type
 :
 :
@@ -5814,7 +5813,6 @@ parse_inner
 parser
 parent
 )
-}
 )
 ;
 }
@@ -5988,13 +5986,11 @@ parens
 |
 p
 |
-{
 p
 .
 parse
 (
 )
-}
 )
 ?
 )

@@ -131,7 +131,7 @@ crate
 {
 BinaryReader
 BinaryReaderError
-InitExpr
+ConstExpr
 Result
 SectionIteratorLimited
 SectionReader
@@ -302,9 +302,9 @@ the
 data
 segment
 .
-init_expr
+offset_expr
 :
-InitExpr
+ConstExpr
 <
 '
 a
@@ -719,7 +719,7 @@ DataKind
 :
 Active
 {
-init_expr
+offset_expr
 .
 .
 }
@@ -733,9 +733,9 @@ kind
 /
 let
 mut
-init_expr_reader
+offset_expr_reader
 =
-init_expr
+offset_expr
 .
 get_binary_reader
 (
@@ -747,7 +747,7 @@ get_binary_reader
 let
 op
 =
-init_expr_reader
+offset_expr_reader
 .
 read_operator
 (
@@ -767,8 +767,8 @@ println
 !
 (
 "
-Init
-const
+offset
+expression
 :
 {
 :
@@ -1048,7 +1048,7 @@ read_var_u32
 }
 ;
 let
-init_expr
+offset_expr
 =
 {
 let
@@ -1064,7 +1064,7 @@ self
 .
 reader
 .
-skip_init_expr
+skip_const_expr
 (
 )
 ?
@@ -1089,7 +1089,7 @@ reader
 position
 ]
 ;
-InitExpr
+ConstExpr
 :
 :
 new
@@ -1111,7 +1111,7 @@ DataKind
 Active
 {
 memory_index
-init_expr
+offset_expr
 }
 }
 _

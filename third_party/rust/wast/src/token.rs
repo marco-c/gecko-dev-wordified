@@ -1238,9 +1238,10 @@ self
 >
 bool
 {
-match
+matches
+!
+(
 self
-{
 Index
 :
 :
@@ -1249,14 +1250,7 @@ Num
 .
 .
 )
-=
->
-true
-_
-=
->
-false
-}
+)
 }
 }
 impl
@@ -1900,6 +1894,7 @@ derive
 Copy
 Clone
 PartialEq
+Eq
 Debug
 )
 ]

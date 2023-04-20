@@ -152,7 +152,7 @@ Clone
 ]
 pub
 struct
-InitExpr
+ConstExpr
 <
 '
 a
@@ -175,7 +175,7 @@ impl
 '
 a
 >
-InitExpr
+ConstExpr
 <
 '
 a
@@ -187,7 +187,7 @@ a
 Constructs
 a
 new
-InitExpr
+ConstExpr
 from
 the
 given
@@ -211,9 +211,9 @@ usize
 )
 -
 >
-InitExpr
+ConstExpr
 {
-InitExpr
+ConstExpr
 {
 offset
 data

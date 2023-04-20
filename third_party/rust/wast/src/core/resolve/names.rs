@@ -991,6 +991,7 @@ Ok
 (
 )
 )
+;
 }
 ModuleField
 :
@@ -5305,6 +5306,16 @@ Type
 ;
 }
 RefNull
+(
+ty
+)
+|
+CallRef
+(
+ty
+)
+|
+ReturnCallRef
 (
 ty
 )
