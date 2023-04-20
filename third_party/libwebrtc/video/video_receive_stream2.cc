@@ -1399,6 +1399,9 @@ nack_periodic_processor
 DecodeSynchronizer
 *
 decode_sync
+RtcEventLog
+*
+event_log
 )
 :
 task_queue_factory_
@@ -1549,6 +1552,7 @@ call
 trials
 (
 )
+event_log
 )
 rtp_stream_sync_
 (

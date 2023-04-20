@@ -726,6 +726,9 @@ bool
 non_sender_rtt_measurement
 uint32_t
 local_ssrc
+RtcEventLog
+*
+rtc_event_log
 RtcpEventObserver
 *
 rtcp_event_observer
@@ -802,6 +805,12 @@ configuration
 non_sender_rtt_measurement
 =
 non_sender_rtt_measurement
+;
+configuration
+.
+event_log
+=
+rtc_event_log
 ;
 std
 :
@@ -1471,6 +1480,9 @@ const
 FieldTrialsView
 &
 field_trials
+RtcEventLog
+*
+event_log
 )
 :
 field_trials_
@@ -1601,6 +1613,7 @@ config_
 rtp
 .
 local_ssrc
+event_log
 config_
 .
 rtp

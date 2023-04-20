@@ -6833,6 +6833,7 @@ decode_sync_
 get
 (
 )
+event_log_
 )
 ;
 /

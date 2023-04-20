@@ -698,6 +698,9 @@ const
 FieldTrialsView
 &
 field_trials
+RtcEventLog
+*
+event_log
 )
 ;
 ~
