@@ -2127,8 +2127,9 @@ FEATURE_CALLOUT_1_A
 parent_selector
 :
 "
+hbox
 #
-editorFreeText
+browser
 "
 content
 :
@@ -2144,7 +2145,7 @@ callout_position_override
 top
 :
 "
-130px
+45px
 "
 right
 :
@@ -2372,8 +2373,9 @@ FEATURE_CALLOUT_2_A
 parent_selector
 :
 "
+hbox
 #
-editorInk
+browser
 "
 content
 :
@@ -2389,7 +2391,7 @@ callout_position_override
 top
 :
 "
-130px
+45px
 "
 right
 :
@@ -2611,8 +2613,9 @@ FEATURE_CALLOUT_1_B
 parent_selector
 :
 "
+hbox
 #
-editorFreeText
+browser
 "
 content
 :
@@ -2628,7 +2631,7 @@ callout_position_override
 top
 :
 "
-130px
+45px
 "
 right
 :
@@ -2856,8 +2859,9 @@ FEATURE_CALLOUT_2_B
 parent_selector
 :
 "
+hbox
 #
-editorInk
+browser
 "
 content
 :
@@ -2873,7 +2877,7 @@ callout_position_override
 top
 :
 "
-130px
+45px
 "
 right
 :
