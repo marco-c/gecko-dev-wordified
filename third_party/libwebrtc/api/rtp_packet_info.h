@@ -730,8 +730,6 @@ received
 .
 Timestamp
 receive_time_
-=
-0
 ;
 }
 ;
