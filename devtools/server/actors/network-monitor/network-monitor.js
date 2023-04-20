@@ -513,14 +513,6 @@ onNetworkEvent
 ;
 this
 .
-observer
-.
-init
-(
-)
-;
-this
-.
 stackTraces
 =
 new
