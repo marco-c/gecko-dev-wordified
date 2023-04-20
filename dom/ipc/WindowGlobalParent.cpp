@@ -8473,12 +8473,6 @@ DiscoverFromExternalSourceInMainProcess
 DocumentPrincipal
 (
 )
-this
--
->
-BrowsingContext
-(
-)
 aOptions
 )
 -
