@@ -6176,7 +6176,7 @@ prompter
 style
 .
 var
-PromptUtilsTemp
+InternalPromptUtils
 =
 {
 getLocalizedString
@@ -6352,7 +6352,7 @@ BUTTON_TITLE_OK
 :
 buttonLabel
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -6372,7 +6372,7 @@ BUTTON_TITLE_CANCEL
 :
 buttonLabel
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -6392,7 +6392,7 @@ BUTTON_TITLE_YES
 :
 buttonLabel
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -6412,7 +6412,7 @@ BUTTON_TITLE_NO
 :
 buttonLabel
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -6432,7 +6432,7 @@ BUTTON_TITLE_SAVE
 :
 buttonLabel
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -6452,7 +6452,7 @@ BUTTON_TITLE_DONT_SAVE
 :
 buttonLabel
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -6472,7 +6472,7 @@ BUTTON_TITLE_REVERT
 :
 buttonLabel
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7298,7 +7298,7 @@ ellipsis
 ;
 }
 return
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7318,7 +7318,7 @@ isPassOnly
 )
 {
 return
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7337,7 +7337,7 @@ isCrossOrig
 )
 {
 return
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7351,7 +7351,7 @@ displayHostOnly
 ;
 }
 return
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7561,7 +7561,7 @@ isProxy
 {
 text
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7583,7 +7583,7 @@ isPassOnly
 {
 text
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7605,7 +7605,7 @@ isCrossOrig
 {
 text
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7627,7 +7627,7 @@ realm
 {
 text
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7644,7 +7644,7 @@ else
 {
 text
 =
-PromptUtils
+this
 .
 getLocalizedString
 (
@@ -7681,23 +7681,11 @@ brandFullName
 }
 }
 ;
-Object
-.
-setPrototypeOf
-(
-PromptUtilsTemp
-PromptUtils
-)
-;
-PromptUtils
-=
-PromptUtilsTemp
-;
 XPCOMUtils
 .
 defineLazyGetter
 (
-PromptUtils
+InternalPromptUtils
 "
 strBundle
 "
@@ -7761,7 +7749,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-PromptUtils
+InternalPromptUtils
 "
 brandBundle
 "
@@ -7825,7 +7813,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-PromptUtils
+InternalPromptUtils
 "
 ellipsis
 "
@@ -10210,7 +10198,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -10274,7 +10262,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -10409,7 +10397,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -10492,7 +10480,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -10631,7 +10619,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -10685,7 +10673,7 @@ defaultButtonNum
 isDelayEnabled
 ]
 =
-PromptUtils
+InternalPromptUtils
 .
 confirmExHelper
 (
@@ -10816,7 +10804,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -10971,7 +10959,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -10979,7 +10967,7 @@ getLocalizedString
 PromptUsernameAndPassword3
 "
 [
-PromptUtils
+InternalPromptUtils
 .
 getBrandFullName
 (
@@ -11024,7 +11012,7 @@ pass
 value
 button0Label
 :
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -11140,7 +11128,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -11148,7 +11136,7 @@ getLocalizedString
 PromptPassword3
 "
 [
-PromptUtils
+InternalPromptUtils
 .
 getBrandFullName
 (
@@ -11182,7 +11170,7 @@ pass
 value
 button0Label
 :
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -11285,7 +11273,7 @@ title
 {
 title
 =
-PromptUtils
+InternalPromptUtils
 .
 getLocalizedString
 (
@@ -11581,7 +11569,7 @@ authInfo
 let
 message
 =
-PromptUtils
+InternalPromptUtils
 .
 makeAuthMessage
 (
@@ -11596,7 +11584,7 @@ username
 password
 ]
 =
-PromptUtils
+InternalPromptUtils
 .
 getAuthInfo
 (
@@ -11749,7 +11737,7 @@ pass
 "
 )
 ;
-PromptUtils
+InternalPromptUtils
 .
 setAuthInfo
 (
@@ -11796,7 +11784,7 @@ if
 result
 )
 {
-PromptUtils
+InternalPromptUtils
 .
 setAuthInfo
 (
@@ -12182,7 +12170,7 @@ checkValue
 let
 message
 =
-PromptUtils
+InternalPromptUtils
 .
 makeAuthMessage
 (
@@ -12199,7 +12187,7 @@ username
 password
 ]
 =
-PromptUtils
+InternalPromptUtils
 .
 getAuthInfo
 (
@@ -12230,7 +12218,7 @@ displayHost
 realm
 }
 =
-PromptUtils
+InternalPromptUtils
 .
 getAuthTarget
 (
@@ -12317,7 +12305,7 @@ if
 ok
 )
 {
-PromptUtils
+InternalPromptUtils
 .
 setAuthInfo
 (
