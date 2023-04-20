@@ -2732,6 +2732,7 @@ enabled
 false
 ;
 struct
+FixedDigital
 {
 float
 gain_db
@@ -2744,6 +2745,7 @@ f
 fixed_digital
 ;
 struct
+AdaptiveDigital
 {
 bool
 enabled
@@ -2821,6 +2823,11 @@ max_output_noise_level_dbfs
 50
 .
 f
+;
+bool
+avx2_allowed
+=
+true
 ;
 }
 adaptive_digital

@@ -202,6 +202,10 @@ FeaturesExtractor
 :
 FeaturesExtractor
 (
+const
+AvailableCpuFeatures
+&
+cpu_features
 )
 :
 use_high_pass_filter_
@@ -234,6 +238,7 @@ kBufSize24kHz
 )
 pitch_estimator_
 (
+cpu_features
 )
 reference_frame_view_
 (

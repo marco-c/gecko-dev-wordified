@@ -199,8 +199,13 @@ FeaturesExtractor
 {
 public
 :
+explicit
 FeaturesExtractor
 (
+const
+AvailableCpuFeatures
+&
+cpu_features
 )
 ;
 FeaturesExtractor
