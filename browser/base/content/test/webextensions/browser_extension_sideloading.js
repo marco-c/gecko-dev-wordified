@@ -96,7 +96,7 @@ options
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
