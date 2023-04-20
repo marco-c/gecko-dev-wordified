@@ -98,6 +98,11 @@ VideoColorSpace
 .
 h
 "
+"
+VideoFrame
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -105,6 +110,11 @@ UNIFIED_SOURCES
 [
 "
 VideoColorSpace
+.
+cpp
+"
+"
+VideoFrame
 .
 cpp
 "
