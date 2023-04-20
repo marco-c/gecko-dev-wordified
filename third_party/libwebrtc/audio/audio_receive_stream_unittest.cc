@@ -1091,7 +1091,7 @@ return
 ret
 ;
 }
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1339,7 +1339,7 @@ MockAudioMixer
 >
 audio_mixer_
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1491,7 +1491,7 @@ AudioReceiveStreamTest
 ConfigToString
 )
 {
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1792,7 +1792,7 @@ SetupMockForGetStats
 (
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

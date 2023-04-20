@@ -1182,7 +1182,7 @@ send_stream
 )
 ;
 }
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 DegradedCall
 :
@@ -1190,7 +1190,7 @@ DegradedCall
 CreateAudioReceiveStream
 (
 const
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1214,7 +1214,7 @@ DegradedCall
 :
 DestroyAudioReceiveStream
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -1824,7 +1824,7 @@ DegradedCall
 :
 OnLocalSsrcUpdated
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -1893,7 +1893,7 @@ DegradedCall
 :
 OnUpdateSyncGroup
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl

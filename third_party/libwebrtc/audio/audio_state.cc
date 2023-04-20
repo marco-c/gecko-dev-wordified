@@ -329,7 +329,7 @@ AddReceivingStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 stream
 )
@@ -494,7 +494,7 @@ RemoveReceivingStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 stream
 )

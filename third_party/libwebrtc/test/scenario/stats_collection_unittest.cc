@@ -374,7 +374,7 @@ Now
 )
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

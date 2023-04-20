@@ -593,7 +593,7 @@ Interface
 class
 needed
 for
-AudioReceiveStream
+AudioReceiveStreamInterface
 tests
 that
 use

@@ -99,7 +99,7 @@ VideoReceiveStreamInterface
 and
 implemented
 by
-AudioReceiveStream
+AudioReceiveStreamInterface
 .
 #
 ifndef

@@ -183,7 +183,7 @@ send_stream_
 ;
 }
 const
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 (
@@ -317,7 +317,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -339,7 +339,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 >
 &
@@ -367,7 +367,7 @@ send_stream_
 =
 nullptr
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream_
 =

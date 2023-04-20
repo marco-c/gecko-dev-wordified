@@ -276,7 +276,7 @@ std
 :
 :
 string
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -476,7 +476,7 @@ std
 :
 :
 string
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -608,7 +608,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -740,7 +740,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -804,7 +804,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1181,7 +1181,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1913,7 +1913,7 @@ extensions
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -1936,7 +1936,7 @@ worker_thread_checker_
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

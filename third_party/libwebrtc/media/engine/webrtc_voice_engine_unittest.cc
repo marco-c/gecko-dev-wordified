@@ -2249,7 +2249,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -4994,7 +4994,7 @@ uplink_packet_loss_fraction
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -5006,7 +5006,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -6255,7 +6255,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -28289,7 +28289,9 @@ extensions
 will
 recreate
 the
-AudioReceiveStream
+/
+/
+AudioReceiveStreamInterface
 .
 cricket
 :

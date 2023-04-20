@@ -2879,7 +2879,7 @@ sync_group
 )
 ;
 }
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -2913,7 +2913,7 @@ string
 sync_group
 )
 {
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -3991,7 +3991,7 @@ Start
 }
 for
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 audio_recv_stream
 :
@@ -4054,7 +4054,7 @@ Stop
 {
 for
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 audio_recv_stream
 :
@@ -4150,7 +4150,7 @@ nullptr
 ;
 for
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 audio_recv_stream
 :
@@ -5225,7 +5225,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -5250,7 +5250,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 >
 &

@@ -164,7 +164,7 @@ class
 AudioSendStream
 ;
 class
-AudioReceiveStream
+AudioReceiveStreamInterface
 ;
 namespace
 internal
@@ -292,7 +292,7 @@ AddReceivingStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 stream
 )
@@ -303,7 +303,7 @@ RemoveReceivingStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 stream
 )
@@ -450,7 +450,7 @@ flat_set
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 >
 receiving_streams_

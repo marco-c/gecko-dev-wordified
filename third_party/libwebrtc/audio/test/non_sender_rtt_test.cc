@@ -189,7 +189,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -260,7 +260,7 @@ OnStreamsStopped
 )
 override
 {
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

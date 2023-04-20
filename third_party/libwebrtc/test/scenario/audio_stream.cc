@@ -1212,7 +1212,7 @@ config_
 config
 )
 {
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1464,7 +1464,7 @@ Stop
 )
 ;
 }
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -1476,7 +1476,7 @@ GetStats
 )
 const
 {
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

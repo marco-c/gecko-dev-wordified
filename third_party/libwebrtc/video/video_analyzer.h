@@ -386,7 +386,7 @@ stream
 void
 SetAudioReceiveStream
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 recv_stream
 )
@@ -1184,7 +1184,7 @@ VideoReceiveStreamInterface
 *
 receive_stream_
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 audio_receive_stream_
 ;

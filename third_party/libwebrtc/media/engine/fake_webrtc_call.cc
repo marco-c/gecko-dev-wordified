@@ -411,7 +411,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -433,7 +433,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -460,7 +460,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -774,7 +774,7 @@ extensions
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -2990,7 +2990,7 @@ it
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 FakeCall
 :
@@ -3001,7 +3001,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -3044,7 +3044,7 @@ DestroyAudioReceiveStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -3953,7 +3953,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -4064,7 +4064,7 @@ OnUpdateSyncGroup
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl

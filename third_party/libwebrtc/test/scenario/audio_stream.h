@@ -338,7 +338,7 @@ Stop
 (
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -380,7 +380,7 @@ Transport
 feedback_transport
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream_
 =
