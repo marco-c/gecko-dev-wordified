@@ -2338,7 +2338,10 @@ isGCFinished
 TimeStamp
 startTime
 =
-ReallyNow
+TimeStamp
+:
+:
+Now
 (
 )
 ;
@@ -2570,7 +2573,10 @@ zone
 TimeStamp
 endTime
 =
-ReallyNow
+TimeStamp
+:
+:
+Now
 (
 )
 ;
