@@ -125,6 +125,16 @@ width
 :
 none
 ;
+font
+-
+family
+:
+'
+Liberation
+Mono
+'
+monospace
+;
 "
 cols
 =
