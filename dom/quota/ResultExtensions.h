@@ -933,6 +933,11 @@ MOZ_TO_RESULT
 (
 expr
 )
+:
+:
+mozilla
+:
+:
 ToResult
 (
 expr
@@ -943,6 +948,11 @@ QM_TO_RESULT
 (
 expr
 )
+:
+:
+mozilla
+:
+:
 ToResult
 <
 QMResult
@@ -956,6 +966,12 @@ QM_TO_RESULT_TRANSFORM
 (
 value
 )
+\
+:
+:
+mozilla
+:
+:
 ToResultTransform
 <
 QMResult
