@@ -1982,7 +1982,7 @@ MaybeSwitchSelectedConnection
 Connection
 *
 new_connection
-IceSwitchReason
+IceControllerEvent
 reason
 )
 {
@@ -2012,7 +2012,7 @@ P2PTransportChannel
 :
 MaybeSwitchSelectedConnection
 (
-IceSwitchReason
+IceControllerEvent
 reason
 IceControllerInterface
 :
@@ -2053,9 +2053,10 @@ to
 "
 <
 <
-IceSwitchReasonToString
-(
 reason
+.
+ToString
+(
 )
 ;
 SwitchSelectedConnection
@@ -2160,8 +2161,6 @@ recheck_event
 SortConnectionsAndUpdateState
 (
 recheck
-.
-reason
 )
 ;
 }
@@ -3403,7 +3402,7 @@ order
 .
 RequestSortAndStateUpdate
 (
-IceSwitchReason
+IceControllerEvent
 :
 :
 REMOTE_CANDIDATE_GENERATION_CHANGE
@@ -4373,7 +4372,7 @@ network_preference
 ;
 RequestSortAndStateUpdate
 (
-IceSwitchReason
+IceControllerEvent
 :
 :
 NETWORK_PREFERENCE_CHANGE
@@ -6404,7 +6403,7 @@ origin_port
 }
 SortConnectionsAndUpdateState
 (
-IceSwitchReason
+IceControllerEvent
 :
 :
 NEW_CONNECTION_FROM_LOCAL_CANDIDATE
@@ -7769,7 +7768,7 @@ question
 .
 SortConnectionsAndUpdateState
 (
-IceSwitchReason
+IceControllerEvent
 :
 :
 NEW_CONNECTION_FROM_UNKNOWN_REMOTE_ADDRESS
@@ -8061,7 +8060,7 @@ if
 MaybeSwitchSelectedConnection
 (
 conn
-IceSwitchReason
+IceControllerEvent
 :
 :
 NOMINATION_ON_CONTROLLED_SIDE
@@ -8099,7 +8098,7 @@ channel
 .
 RequestSortAndStateUpdate
 (
-IceSwitchReason
+IceControllerEvent
 :
 :
 NOMINATION_ON_CONTROLLED_SIDE
@@ -9238,7 +9237,7 @@ elements
 .
 SortConnectionsAndUpdateState
 (
-IceSwitchReason
+IceControllerEvent
 :
 :
 NEW_CONNECTION_FROM_REMOTE_CANDIDATE
@@ -11818,7 +11817,7 @@ P2PTransportChannel
 :
 RequestSortAndStateUpdate
 (
-IceSwitchReason
+IceControllerEvent
 reason_to_sort
 )
 {
@@ -12139,7 +12138,7 @@ P2PTransportChannel
 :
 SortConnectionsAndUpdateState
 (
-IceSwitchReason
+IceControllerEvent
 reason_to_sort
 )
 {
@@ -12707,7 +12706,7 @@ SwitchSelectedConnection
 Connection
 *
 conn
-IceSwitchReason
+IceControllerEvent
 reason
 )
 {
@@ -13063,9 +13062,10 @@ pair_change
 .
 reason
 =
-IceSwitchReasonToString
-(
 reason
+.
+ToString
+(
 )
 ;
 pair_change
@@ -13938,10 +13938,10 @@ one
 .
 "
 ;
-IceSwitchReason
+IceControllerEvent
 reason
 =
-IceSwitchReason
+IceControllerEvent
 :
 :
 SELECTED_CONNECTION_DESTROYED
@@ -14840,7 +14840,7 @@ sorting
 .
 RequestSortAndStateUpdate
 (
-IceSwitchReason
+IceControllerEvent
 :
 :
 CONNECT_STATE_CHANGE
@@ -15801,7 +15801,7 @@ ICEROLE_CONTROLLED
 MaybeSwitchSelectedConnection
 (
 connection
-IceSwitchReason
+IceControllerEvent
 :
 :
 DATA_RECEIVED
