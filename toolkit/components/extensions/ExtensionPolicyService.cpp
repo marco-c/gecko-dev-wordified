@@ -421,7 +421,6 @@ policy
 #
 define
 DEFAULT_DEFAULT_CSP
-\
 "
 script
 -
@@ -435,13 +434,6 @@ wasm
 unsafe
 -
 eval
-'
-;
-object
--
-src
-'
-self
 '
 ;
 "
@@ -469,13 +461,6 @@ define
 DEFAULT_DEFAULT_CSP_V3
 "
 script
--
-src
-'
-self
-'
-;
-object
 -
 src
 '
