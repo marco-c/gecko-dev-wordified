@@ -3494,6 +3494,15 @@ args
 extra_profiler_run
 is
 True
+and
+args
+.
+app
+=
+=
+"
+firefox
+"
 :
             
 next_test
@@ -3554,6 +3563,29 @@ extra_profiler_run_page_cycles
 ]
 =
 1
+        
+else
+:
+            
+args
+.
+extra_profiler_run
+=
+False
+            
+LOG
+.
+info
+(
+"
+extra
+-
+profiler
+-
+run
+disabled
+"
+)
         
 if
 args
