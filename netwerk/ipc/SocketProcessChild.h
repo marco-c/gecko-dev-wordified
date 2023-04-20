@@ -639,10 +639,7 @@ OriginAttributes
 &
 aOriginAttributes
 const
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 &
 aFlags
 )
@@ -680,10 +677,7 @@ OriginAttributes
 &
 aOriginAttributes
 const
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 &
 aFlags
 )

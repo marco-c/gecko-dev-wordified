@@ -1635,10 +1635,7 @@ aStatus
 ConnectivityState
 state
 =
-NS_SUCCEEDED
-(
-aStatus
-)
+aRecord
 ?
 OK
 :
