@@ -962,6 +962,13 @@ codec
 AudioCodec
 *
 found_codec
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 {
 for
@@ -981,6 +988,7 @@ c
 Matches
 (
 codec
+field_trials
 )
 )
 {
@@ -10318,6 +10326,13 @@ recv_codecs_
 codec
 &
 old_codec
+&
+call_
+-
+>
+trials
+(
+)
 )
 &
 &

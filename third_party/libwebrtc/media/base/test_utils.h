@@ -311,6 +311,13 @@ const
 C
 &
 codec
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 {
 typename
@@ -358,6 +365,7 @@ it
 Matches
 (
 codec
+field_trials
 )
 )
 {
