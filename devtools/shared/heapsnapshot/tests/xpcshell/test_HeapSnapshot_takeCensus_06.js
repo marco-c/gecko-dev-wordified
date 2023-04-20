@@ -402,15 +402,6 @@ Debugger
 prototype
 objects
 .
-Environment
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 Memory
 :
 {
