@@ -43483,6 +43483,8 @@ CompilationState
 compilationState
 (
 cx
+&
+ec
 allocScope
 input
 .
