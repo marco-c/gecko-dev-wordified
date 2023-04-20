@@ -165,11 +165,6 @@ unix
 target_os
 =
 "
-redox
-"
-target_os
-=
-"
 wasi
 "
 )
