@@ -4112,6 +4112,10 @@ ServoStyleSet
 :
 GetDefaultPageSizeOrientation
 (
+const
+nsAtom
+*
+aFirstPageName
 )
 {
 const
@@ -4121,12 +4125,9 @@ ComputedStyle
 >
 style
 =
-ResolveNonInheritingAnonymousBoxStyle
+ResolvePageContentStyle
 (
-PseudoStyleType
-:
-:
-pageContent
+aFirstPageName
 )
 ;
 const

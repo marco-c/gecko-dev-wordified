@@ -1652,7 +1652,6 @@ the
 default
 orientation
 of
-unnamed
 CSS
 pages
 .
@@ -1713,6 +1712,10 @@ StylePageSizeOrientation
 >
 GetDefaultPageSizeOrientation
 (
+const
+nsAtom
+*
+aFirstPageName
 )
 ;
 void
