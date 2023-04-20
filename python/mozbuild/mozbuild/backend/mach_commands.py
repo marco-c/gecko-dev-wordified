@@ -67,6 +67,8 @@ import
 os
 import
 subprocess
+import
+sys
 from
 mozbuild
 import
@@ -1034,6 +1036,10 @@ topsrcdir
 cargo_check_command
 =
 [
+        
+sys
+.
+executable
         
 mozpath
 .
