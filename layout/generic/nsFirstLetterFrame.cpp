@@ -2365,13 +2365,6 @@ to
 be
 issued
 .
-nsFrameList
-temp
-(
-continuation
-continuation
-)
-;
 parent
 -
 >
@@ -2380,7 +2373,11 @@ InsertFrames
 kNoReflowPrincipalList
 placeholderFrame
 nullptr
-temp
+nsFrameList
+(
+continuation
+continuation
+)
 )
 ;
 *

@@ -723,6 +723,7 @@ iterator
 aPrevFrameLine
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -734,7 +735,13 @@ InsertFrames
 aListID
 aPrevFrame
 aPrevFrameLine
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 MarkTextFramesAsTokenMathML

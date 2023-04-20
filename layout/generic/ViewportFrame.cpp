@@ -1947,6 +1947,7 @@ iterator
 aPrevFrameLine
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -1992,7 +1993,13 @@ InsertFrames
 aListID
 aPrevFrame
 aPrevFrameLine
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 }

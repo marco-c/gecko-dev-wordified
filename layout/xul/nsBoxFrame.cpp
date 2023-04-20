@@ -4572,6 +4572,7 @@ iterator
 aPrevFrameLine
 nsFrameList
 &
+&
 aFrameList
 )
 {

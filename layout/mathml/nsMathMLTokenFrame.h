@@ -284,7 +284,6 @@ aChildList
 )
 override
 ;
-virtual
 void
 InsertFrames
 (
@@ -301,6 +300,7 @@ iterator
 *
 aPrevFrameLine
 nsFrameList
+&
 &
 aChildList
 )

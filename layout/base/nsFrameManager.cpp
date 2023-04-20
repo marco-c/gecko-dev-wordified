@@ -723,7 +723,13 @@ InsertFrames
 aListID
 aPrevFrame
 nullptr
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 }

@@ -620,7 +620,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 InsertFrames
 (
@@ -637,6 +636,7 @@ iterator
 *
 aPrevFrameLine
 nsFrameList
+&
 &
 aFrameList
 )
@@ -3384,7 +3384,6 @@ this
 )
 ;
 }
-virtual
 void
 InsertFrames
 (
@@ -3401,6 +3400,7 @@ iterator
 *
 aPrevFrameLine
 nsFrameList
+&
 &
 aFrameList
 )
@@ -3433,7 +3433,13 @@ InsertFrames
 aListID
 aPrevFrame
 aPrevFrameLine
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 if
@@ -3833,7 +3839,6 @@ this
 )
 ;
 }
-virtual
 void
 InsertFrames
 (
@@ -3850,6 +3855,7 @@ iterator
 *
 aPrevFrameLine
 nsFrameList
+&
 &
 aFrameList
 )
@@ -3882,7 +3888,13 @@ InsertFrames
 aListID
 aPrevFrame
 aPrevFrameLine
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 if
