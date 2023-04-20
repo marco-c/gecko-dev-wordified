@@ -215,6 +215,8 @@ dom
 Document
 *
 aDocument
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 /
@@ -319,6 +321,8 @@ aLoadGroup
 nsIInterfaceRequestor
 *
 aCallbacks
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 private

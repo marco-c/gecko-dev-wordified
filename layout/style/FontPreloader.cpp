@@ -255,6 +255,8 @@ aLoadGroup
 nsIInterfaceRequestor
 *
 aCallbacks
+uint64_t
+aEarlyHintPreloaderId
 )
 {
 return
