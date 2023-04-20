@@ -1090,6 +1090,16 @@ format
 )
 override
 {
+RTC_CHECK_EQ
+(
+format
+.
+name
+"
+VP8
+"
+)
+;
 return
 std
 :
