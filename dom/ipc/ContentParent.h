@@ -512,6 +512,9 @@ ParentIdleListener
 class
 nsIWidget
 ;
+class
+nsIX509Cert
+;
 namespace
 mozilla
 {
@@ -7529,10 +7532,9 @@ ipc
 IPCResult
 RecvAddCertException
 (
-const
-nsACString
-&
-aSerializedCert
+nsIX509Cert
+*
+aCert
 const
 nsACString
 &

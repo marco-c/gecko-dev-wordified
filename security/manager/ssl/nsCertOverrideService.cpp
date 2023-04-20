@@ -2439,11 +2439,6 @@ bool
 aTemporary
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aCert
-)
-;
 if
 (
 aHostName
@@ -2458,6 +2453,10 @@ IsAscii
 (
 aHostName
 )
+|
+|
+!
+aCert
 )
 {
 return
