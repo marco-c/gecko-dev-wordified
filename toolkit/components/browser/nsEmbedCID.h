@@ -266,11 +266,7 @@ mozilla
 .
 org
 /
-embedcomp
-/
-prompt
--
-service
+prompter
 ;
 1
 "
