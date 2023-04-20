@@ -94,6 +94,11 @@ browser
 .
 ini
 "
+"
+browser_audio_shutdown
+.
+ini
+"
 ]
 MOCHITEST_MANIFESTS
 +
