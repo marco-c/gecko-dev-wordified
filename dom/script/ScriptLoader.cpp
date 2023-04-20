@@ -5693,6 +5693,12 @@ nsIContentSecurityPolicy
 :
 :
 SCRIPT_SRC_ELEM_DIRECTIVE
+false
+/
+*
+aHasUnsafeHash
+*
+/
 nonce
 parserCreated
 scriptContent

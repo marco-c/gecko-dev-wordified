@@ -879,6 +879,10 @@ Ci
 nsIContentSecurityPolicy
 .
 SCRIPT_SRC_ELEM_DIRECTIVE
+false
+/
+/
+aHasUnsafeHash
 "
 "
 /
@@ -1325,6 +1329,10 @@ Ci
 nsIContentSecurityPolicy
 .
 SCRIPT_SRC_ELEM_DIRECTIVE
+false
+/
+/
+aHasUnsafeHash
 "
 "
 /
