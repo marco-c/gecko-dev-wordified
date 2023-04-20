@@ -3513,7 +3513,6 @@ kSendOnly
 Because
 simulcast
 enabled
-|
 alice_
 -
 >
@@ -3523,7 +3522,6 @@ params
 -
 >
 video_codecs
-|
 has
 only
 1
@@ -3584,11 +3582,9 @@ specified
 in
 /
 /
-|
 video_config
 .
 simulcast_config
-|
 it
 should
 be

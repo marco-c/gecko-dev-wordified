@@ -19270,12 +19270,9 @@ nullopt
 /
 /
 Unvalued
-|
 options
 .
 audio_network_adaptor
-|
-.
 should
 not
 reset

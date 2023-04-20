@@ -622,12 +622,10 @@ content
 of
 /
 /
-|
 packet
 -
 >
 data
-|
 .
 RtpPacketReceived
 BuildUlpfecRedPacket

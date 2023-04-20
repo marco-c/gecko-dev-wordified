@@ -880,12 +880,10 @@ only
 once
 .
 See
-|
 setActive
 :
 error
 :
-|
 .
 *
 /

@@ -607,12 +607,10 @@ contains
 /
 1
 .
-|
 absl
 :
 :
 nullopt
-|
 means
 "
 Foo

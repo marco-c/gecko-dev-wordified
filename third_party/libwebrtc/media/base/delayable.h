@@ -135,11 +135,9 @@ over
 similar
 functional
 in
-|
 syncable
 .
 h
-|
 .
 class
 Delayable

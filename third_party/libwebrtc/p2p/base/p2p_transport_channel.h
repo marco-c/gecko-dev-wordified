@@ -2715,12 +2715,10 @@ commented
 in
 /
 /
-|
 PortAllocator
 :
 :
 SanitizeCandidate
-|
 .
 Candidate
 SanitizeLocalCandidate

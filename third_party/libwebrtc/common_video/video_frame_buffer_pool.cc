@@ -157,7 +157,6 @@ are
 either
 /
 /
-|
 rtc
 :
 :
@@ -165,9 +164,7 @@ RefCountedObject
 <
 I420Buffer
 >
-|
 or
-|
 rtc
 :
 :
@@ -175,7 +172,6 @@ RefCountedObject
 <
 NV12Buffer
 >
-|
 .
 switch
 (
@@ -633,12 +629,10 @@ same
 function
 below
 where
-|
 RefCountedObject
 <
 I420Buffer
 >
-|
 is
 /
 /
@@ -844,12 +838,10 @@ same
 function
 below
 where
-|
 RefCountedObject
 <
 I420Buffer
 >
-|
 is
 /
 /

@@ -2220,9 +2220,7 @@ active
 and
 /
 /
-|
 rtcp_dtls_transport_
-|
 is
 destroyed
 .

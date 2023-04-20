@@ -663,10 +663,8 @@ been
 queued
 using
 *
-|
 sendData
 :
-|
 but
 that
 have

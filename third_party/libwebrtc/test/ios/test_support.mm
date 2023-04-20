@@ -586,9 +586,7 @@ mode
 XCTest
 will
 invoke
-|
 runGoogleTest
-|
 directly
 .
 /
@@ -598,9 +596,7 @@ schedule
 a
 call
 to
-|
 runTests
-|
 .
 [
 self

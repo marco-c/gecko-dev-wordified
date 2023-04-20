@@ -440,12 +440,10 @@ to
 be
 sent
 or
-|
 absl
 :
 :
 nullopt
-|
 if
 the
 header

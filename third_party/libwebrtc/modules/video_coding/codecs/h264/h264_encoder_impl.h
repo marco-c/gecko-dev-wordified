@@ -359,11 +359,9 @@ override
 ;
 /
 /
-|
 settings
 .
 max_payload_size
-|
 is
 ignored
 .

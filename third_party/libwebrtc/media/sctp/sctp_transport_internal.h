@@ -1081,11 +1081,9 @@ network
 /
 /
 Uses
-|
 params
 .
 ssrc
-|
 as
 the
 SCTP

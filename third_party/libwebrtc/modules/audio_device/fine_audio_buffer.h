@@ -349,13 +349,11 @@ elements
 is
 specified
 by
-|
 audio_buffer
 .
 size
 (
 )
-|
 .
 The
 producer

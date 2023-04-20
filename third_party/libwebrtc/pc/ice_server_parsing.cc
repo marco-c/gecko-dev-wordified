@@ -851,11 +851,9 @@ correct
 .
 /
 /
-|
 hostname
 :
 port
-|
 |
 [
 IPV6

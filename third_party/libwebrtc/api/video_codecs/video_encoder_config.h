@@ -757,11 +757,9 @@ larger
 than
 /
 /
-|
 encoder_config
 .
 number_of_streams
-|
 .
 virtual
 std

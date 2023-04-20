@@ -949,14 +949,12 @@ generation
 with
 /
 /
-|
 media_desc
 -
 >
 connection_address
 (
 )
-|
 .
 connection_addr
 =

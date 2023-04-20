@@ -1375,13 +1375,11 @@ an
 average
 rate
 of
-|
 state
 .
 config
 .
 loss_percent
-|
 with
 /
 /
@@ -1391,13 +1389,11 @@ loss
 burst
 length
 of
-|
 state
 .
 config
 .
 avg_burst_loss_length
-|
 .
 if
 (

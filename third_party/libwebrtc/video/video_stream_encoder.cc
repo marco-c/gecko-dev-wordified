@@ -7128,11 +7128,9 @@ also
 make
 use
 of
-|
 codec
 .
 spatialLayers
-|
 .
 /
 /
@@ -9250,12 +9248,10 @@ is
 down
 /
 /
-|
 last_encoder_rate_settings_
 -
 >
 encoder_target
-|
 will
 be
 0

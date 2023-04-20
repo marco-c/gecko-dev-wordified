@@ -4825,14 +4825,12 @@ allocated
 Since
 /
 /
-|
 helper_
 -
 >
 factory
 (
 )
-|
 is
 owned
 by

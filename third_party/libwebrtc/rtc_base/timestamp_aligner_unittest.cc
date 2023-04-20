@@ -1072,11 +1072,9 @@ tolerated
 if
 /
 /
-|
 timestamp_aligner
 .
 clip_bias_us
-|
 is
 large
 enough

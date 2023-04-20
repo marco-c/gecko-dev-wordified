@@ -3144,13 +3144,11 @@ AUDCLNT_E_UNSUPPORTED_FORMAT
 /
 /
 when
-|
 sample_rate_
 .
 has_value
 (
 )
-|
 returns
 true
 if

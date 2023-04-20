@@ -30597,11 +30597,9 @@ MediaStream
 label
 and
 the
-|
 stream
 .
 id
-|
 is
 the
 /
@@ -31073,11 +31071,9 @@ break
 }
 /
 /
-|
 params
 .
 id
-|
 is
 the
 sender
@@ -31092,11 +31088,9 @@ first
 of
 /
 /
-|
 params
 .
 stream_ids
-|
 .
 The
 remote

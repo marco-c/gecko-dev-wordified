@@ -630,7 +630,6 @@ given
 by
 /
 /
-|
 states
 -
 >
@@ -638,7 +637,6 @@ controller
 -
 >
 MakeDecision
-|
 matches
 expected_enable_fec
 and

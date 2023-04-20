@@ -1260,12 +1260,10 @@ or
 /
 equal
 to
-|
 Nack
 :
 :
 kNackListSizeLimit
-|
 .
 Otherwise
 No

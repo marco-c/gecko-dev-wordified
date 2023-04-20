@@ -6520,11 +6520,9 @@ encode_frame_rate
 ;
 /
 /
-|
 stats_
 .
 target_media_bitrate_bps
-|
 is
 set
 in
@@ -8111,11 +8109,9 @@ current_reason
 ;
 /
 /
-|
 stats_
 .
 quality_limitation_durations_ms
-|
 depends
 on
 the

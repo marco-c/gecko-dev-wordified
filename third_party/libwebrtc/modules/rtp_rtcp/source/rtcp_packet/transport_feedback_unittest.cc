@@ -885,17 +885,13 @@ specified
 by
 the
 parameters
-|
 received_seq
 [
 ]
-|
 and
-|
 received_ts
 [
 ]
-|
 (
 optional
 )

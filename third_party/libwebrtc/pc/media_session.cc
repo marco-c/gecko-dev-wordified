@@ -11182,11 +11182,9 @@ The
 bundle_index
 is
 for
-|
 media_description_options
 .
 mid
-|
 .
 RTC_DCHECK_EQ
 (

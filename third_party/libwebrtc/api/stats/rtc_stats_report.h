@@ -726,12 +726,10 @@ are
 ordered
 lexicographically
 on
-|
 RTCStats
 :
 :
 id
-|
 .
 ConstIterator
 begin

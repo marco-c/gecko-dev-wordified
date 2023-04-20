@@ -2994,12 +2994,10 @@ more
 than
 /
 /
-|
 ReceiverReport
 :
 :
 kMaxNumberOfReportBlocks
-|
 per
 compound
 rtcp

@@ -4311,13 +4311,11 @@ CreateAnswerAndSetAsLocal
 ;
 /
 /
-|
 candidate
 .
 transport_name
 (
 )
-|
 is
 empty
 .
@@ -11727,13 +11725,11 @@ CreateAnswerAndSetAsLocal
 ;
 /
 /
-|
 candidate
 .
 transport_name
 (
 )
-|
 is
 empty
 .

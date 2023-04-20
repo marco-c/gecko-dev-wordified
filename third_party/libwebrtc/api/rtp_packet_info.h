@@ -834,12 +834,10 @@ local_capture_clock_offset_
 /
 /
 Local
-|
 webrtc
 :
 :
 Clock
-|
 -
 based
 timestamp

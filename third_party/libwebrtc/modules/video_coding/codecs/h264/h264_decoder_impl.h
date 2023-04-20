@@ -477,12 +477,10 @@ not
 NULL
 /
 /
-|
 codec_settings
 -
 >
 codecType
-|
 must
 be
 kVideoCodecH264

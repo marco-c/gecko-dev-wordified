@@ -1061,11 +1061,9 @@ was
 /
 subtracted
 from
-|
 packet
 .
 enqueue_time_ms
-|
 when
 the
 packet

@@ -870,11 +870,9 @@ rotation_applied_
 ;
 /
 /
-|
 wants
 .
 black_frames
-|
 is
 not
 used

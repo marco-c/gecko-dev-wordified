@@ -1401,14 +1401,12 @@ as
 /
 specified
 in
-|
 codec_
 .
 spatialLayer
 [
 i
 ]
-|
 .
 std
 :

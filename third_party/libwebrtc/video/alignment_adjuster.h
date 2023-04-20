@@ -137,12 +137,10 @@ i
 e
 /
 /
-|
 EncoderInfo
 :
 :
 requested_resolution_alignment
-|
 which
 ensures
 that
@@ -165,12 +163,10 @@ alignment
 /
 /
 If
-|
 EncoderInfo
 :
 :
 apply_alignment_to_all_simulcast_layers
-|
 is
 enabled
 the

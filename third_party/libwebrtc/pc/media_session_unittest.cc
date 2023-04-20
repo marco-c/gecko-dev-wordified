@@ -21818,12 +21818,10 @@ i
 .
 e
 .
-|
 kAudioCodecs2
 [
 0
 ]
-|
 )
 the
 other

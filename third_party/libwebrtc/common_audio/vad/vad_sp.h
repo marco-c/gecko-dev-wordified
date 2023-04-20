@@ -277,12 +277,10 @@ window
 As
 long
 as
-|
 handle
 -
 >
 frame_counter
-|
 is
 zero
 that

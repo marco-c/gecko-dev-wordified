@@ -563,11 +563,9 @@ given
 /
 /
 by
-|
 params_
 .
 fec_rate
-|
 and
 is
 only

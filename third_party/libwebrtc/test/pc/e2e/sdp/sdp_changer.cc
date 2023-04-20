@@ -1396,11 +1396,9 @@ empty
 Because
 simulcast
 enabled
-|
 params_
 .
 video_codecs
-|
 has
 only
 1
@@ -3019,11 +3017,9 @@ empty
 Because
 simulcast
 enabled
-|
 params_
 .
 video_codecs
-|
 has
 only
 1

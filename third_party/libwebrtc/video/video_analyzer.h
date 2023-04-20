@@ -799,13 +799,11 @@ override
 /
 Called
 when
-|
 send_stream_
 .
 SetSource
 (
 )
-|
 is
 called
 .
@@ -841,13 +839,11 @@ Called
 by
 send_stream_
 when
-|
 send_stream_
 .
 SetSource
 (
 )
-|
 is
 called
 .

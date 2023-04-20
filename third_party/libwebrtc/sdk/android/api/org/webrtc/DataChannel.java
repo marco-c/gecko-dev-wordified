@@ -478,11 +478,9 @@ received
 .
 NOTE
 :
-|
 buffer
 .
 data
-|
 will
 be
 *

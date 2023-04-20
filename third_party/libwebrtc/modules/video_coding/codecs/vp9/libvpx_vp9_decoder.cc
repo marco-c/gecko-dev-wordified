@@ -1607,12 +1607,10 @@ WEBRTC_VIDEO_CODEC_ERROR
 }
 /
 /
-|
 img
 -
 >
 fb_priv
-|
 contains
 the
 image

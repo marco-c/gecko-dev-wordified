@@ -2160,12 +2160,10 @@ Values
 When
 gain
 <
-|
 test
 :
 :
 kLimiterMaxInputLevelDbFs
-|
 the
 limiter
 will
@@ -2219,12 +2217,10 @@ false
 When
 gain
 >
-|
 test
 :
 :
 kLimiterMaxInputLevelDbFs
-|
 the
 limiter
 will

@@ -726,11 +726,9 @@ to
 the
 payload_router_
 and
-|
 config
 .
 pre_encode_callback
-|
 if
 set
 .

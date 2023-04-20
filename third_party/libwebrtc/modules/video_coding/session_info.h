@@ -518,13 +518,11 @@ returned
 iterator
 points
 to
-|
 packets_
 .
 end
 (
 )
-|
 .
 /
 /

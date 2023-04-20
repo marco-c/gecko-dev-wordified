@@ -709,13 +709,11 @@ file
 /
 After
 preparation
-|
 speech_data_
 .
 GetNextBlock
 (
 )
-|
 returns
 a
 pointer

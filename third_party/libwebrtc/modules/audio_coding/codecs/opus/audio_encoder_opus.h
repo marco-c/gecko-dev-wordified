@@ -921,12 +921,10 @@ can
 deprecate
 /
 /
-|
 AudioEncoder
 :
 :
 SetTargetBitrate
-|
 .
 void
 SetTargetBitrate

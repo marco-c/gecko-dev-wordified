@@ -3651,11 +3651,9 @@ speech_type_
 /
 /
 Verify
-|
 output
 .
 packet_infos_
-|
 .
 ASSERT_THAT
 (
@@ -4424,11 +4422,9 @@ speech_type_
 /
 /
 Verify
-|
 output
 .
 packet_infos_
-|
 .
 ASSERT_THAT
 (
@@ -4833,11 +4829,9 @@ Empty
 /
 /
 Verify
-|
 output
 .
 packet_infos_
-|
 .
 Expect
 to

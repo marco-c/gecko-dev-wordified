@@ -354,14 +354,12 @@ order
 /
 /
 If
-|
 task
 -
 >
 Run
 (
 )
-|
 returns
 true
 task

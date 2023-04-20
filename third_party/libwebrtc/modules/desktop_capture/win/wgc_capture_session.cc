@@ -1824,11 +1824,9 @@ data
 pointed
 to
 by
-|
 map_info
 .
 pData
-|
 so
 we
 are

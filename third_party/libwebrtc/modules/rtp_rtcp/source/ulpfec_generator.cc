@@ -229,11 +229,9 @@ EncodeFec
 (
 )
 before
-|
 params_
 .
 max_fec_frames
-|
 /
 /
 is
@@ -288,11 +286,9 @@ EncodeFec
 (
 )
 before
-|
 params_
 .
 max_fec_frames
-|
 is
 /
 /
@@ -1030,11 +1026,9 @@ FEC
 over
 at
 most
-|
 params_
 .
 max_fec_frames
-|
 frames
 or
 as

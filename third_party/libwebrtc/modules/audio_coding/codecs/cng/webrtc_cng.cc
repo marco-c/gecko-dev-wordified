@@ -1395,12 +1395,10 @@ Speech
 samples
 .
 *
-|
 nst
 -
 >
 dec_filtstate
-|
 -
 State
 preservation

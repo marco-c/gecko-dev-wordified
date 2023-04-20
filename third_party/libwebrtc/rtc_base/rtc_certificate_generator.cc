@@ -369,12 +369,10 @@ more
 but
 /
 /
-|
 SSLIdentity
 :
 :
 Create
-|
 should
 stop
 relying

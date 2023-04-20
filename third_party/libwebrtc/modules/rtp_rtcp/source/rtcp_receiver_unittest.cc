@@ -8989,11 +8989,9 @@ clock
 not
 the
 simulcated
-|
 mocks
 .
 clock
-|
 )
 and
 requires

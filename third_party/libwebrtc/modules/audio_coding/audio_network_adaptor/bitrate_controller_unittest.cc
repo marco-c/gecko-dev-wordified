@@ -536,17 +536,13 @@ accordance
 with
 /
 /
-|
 metrics
 .
 target_audio_bitrate_bps
-|
 and
-|
 metrics
 .
 overhead_bytes_per_packet
-|
 .
 UpdateNetworkMetrics
 (

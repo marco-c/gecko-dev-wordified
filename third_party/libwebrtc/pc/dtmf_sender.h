@@ -331,14 +331,12 @@ duration
 /
 Returns
 a
-|
 sigslot
 :
 :
 signal0
 <
 >
-|
 signal
 .
 The

@@ -168,12 +168,10 @@ rtc
 /
 /
 See
-|
 RTCCertificateGeneratorInterface
 :
 :
 GenerateCertificateAsync
-|
 .
 class
 RTCCertificateGeneratorCallback

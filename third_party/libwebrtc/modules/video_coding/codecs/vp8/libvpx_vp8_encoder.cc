@@ -7718,12 +7718,10 @@ are
 set
 above
 in
-|
 libvpx_interface_
 -
 >
 vpx_codec_control_
-|
 function
 for
 each

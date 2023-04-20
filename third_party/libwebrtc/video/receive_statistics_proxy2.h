@@ -901,11 +901,9 @@ main_thread_
 Note
 :
 The
-|
 stats_
 .
 rtp_stats
-|
 member
 is
 not

@@ -397,11 +397,9 @@ be
 done
 on
 the
-|
 config
 .
 task_queue
-|
 .
 void
 AddMediaReceiverRtcpObserver

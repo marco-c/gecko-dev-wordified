@@ -1882,12 +1882,10 @@ these
 are
 implemented
 by
-|
 RTCStatsMember
 <
 T
 >
-|
 .
 The
 value
@@ -2428,12 +2426,10 @@ described
 by
 /
 /
-|
 RTCStatsMemberInterface
 :
 :
 Type
-|
 .
 template
 <

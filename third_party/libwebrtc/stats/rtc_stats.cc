@@ -148,12 +148,10 @@ for
 non
 -
 vector
-|
 RTCStatsMemberInterface
 :
 :
 Type
-|
 /
 /
 types

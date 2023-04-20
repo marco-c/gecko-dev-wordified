@@ -2196,13 +2196,11 @@ space
 for
 at
 least
-|
 packet
 .
 size
 (
 )
-|
 bytes
 .
 size_t

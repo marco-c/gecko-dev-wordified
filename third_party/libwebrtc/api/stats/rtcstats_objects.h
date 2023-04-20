@@ -372,12 +372,10 @@ kFailed
 ;
 /
 /
-|
 RTCMediaStreamTrackStats
 :
 :
 kind
-|
 is
 not
 an

@@ -165,7 +165,6 @@ C
 /
 We
 use
-|
 webrtc
 :
 :
@@ -173,7 +172,6 @@ void_t_internal
 :
 :
 make_void
-|
 as
 a
 helper

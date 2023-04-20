@@ -836,12 +836,10 @@ kStatsValueNameTimingFrameInfo
 /
 Result
 of
-|
 TimingFrameInfo
 :
 :
 ToString
-|
 kStatsValueNameTrackId
 kStatsValueNameTransmitBitrate
 kStatsValueNameTransportType

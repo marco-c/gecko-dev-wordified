@@ -662,13 +662,11 @@ rows
 until
 it
 reaches
-|
 rect
 .
 bottom
 (
 )
-|
 .
 int
 top
@@ -3675,11 +3673,9 @@ starts
 at
 or
 after
-|
 span
 .
 left
-|
 and
 then
 check

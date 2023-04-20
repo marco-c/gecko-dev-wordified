@@ -193,11 +193,9 @@ sprang
 :
 Make
 populating
-|
 dependencies
 .
 trials
-|
 mandatory
 and
 remove

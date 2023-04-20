@@ -1052,12 +1052,10 @@ effect
 /
 However
 if
-|
 Vp8EncoderConfig
 :
 :
 reset_previous_configuration_overrides
-|
 /
 /
 is

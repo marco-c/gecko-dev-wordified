@@ -158,13 +158,11 @@ public
 /
 On
 success
-|
 error
 .
 ok
 (
 )
-|
 is
 true
 .

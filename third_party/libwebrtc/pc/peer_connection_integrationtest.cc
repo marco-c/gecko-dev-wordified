@@ -26119,13 +26119,11 @@ the
 metric
 /
 /
-|
 WebRTC
 .
 PeerConnection
 .
 CandidatePairType_UDP
-|
 in
 this
 test

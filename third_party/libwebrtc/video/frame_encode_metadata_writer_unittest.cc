@@ -418,11 +418,9 @@ relatevely
 to
 /
 /
-|
 average_frame_sizes
 [
 ]
-|
 for
 each
 stream

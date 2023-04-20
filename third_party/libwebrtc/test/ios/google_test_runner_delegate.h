@@ -154,9 +154,7 @@ call
 to
 /
 /
-|
 runGoogleTests
-|
 .
 property
 (

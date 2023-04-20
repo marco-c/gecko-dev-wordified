@@ -490,12 +490,10 @@ org
 Change
 to
 use
-|
 rtc
 :
 :
 saturated_cast
-|
 once
 the
 /
@@ -725,12 +723,10 @@ org
 Change
 to
 use
-|
 rtc
 :
 :
 saturated_cast
-|
 once
 the
 /

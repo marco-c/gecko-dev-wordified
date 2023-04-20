@@ -3500,14 +3500,12 @@ options
 endif
 /
 /
-|
 track_
 -
 >
 enabled
 (
 )
-|
 hops
 to
 the

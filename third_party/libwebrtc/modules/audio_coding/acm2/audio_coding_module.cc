@@ -1567,13 +1567,11 @@ dcheck
 that
 /
 /
-|
 audio_frame
 .
 absolute_capture_timestamp_ms
 (
 )
-|
 always
 has
 a
@@ -2229,13 +2227,11 @@ dcheck
 that
 /
 /
-|
 audio_frame
 .
 absolute_capture_timestamp_ms
 (
 )
-|
 always
 has
 a

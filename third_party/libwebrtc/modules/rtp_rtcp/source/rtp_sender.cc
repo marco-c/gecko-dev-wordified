@@ -4489,13 +4489,11 @@ supported
 so
 not
 checking
-|
 source
 .
 empty
 (
 )
-|
 .
 if
 (

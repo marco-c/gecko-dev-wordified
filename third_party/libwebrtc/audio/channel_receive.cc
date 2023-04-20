@@ -3042,12 +3042,10 @@ capture
 clock
 offset
 in
-|
 audio_frame
 -
 >
 packet_infos_
-|
 .
 RtpPacketInfos
 :

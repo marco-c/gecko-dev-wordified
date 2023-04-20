@@ -2190,13 +2190,11 @@ at
 least
 /
 /
-|
 bitrate
 .
 get_sum_bps
 (
 )
-|
 but
 may
 be

@@ -3155,11 +3155,9 @@ offset
 for
 /
 /
-|
 video_frame
 .
 packet_infos
-|
 .
 But
 VideoFrame
