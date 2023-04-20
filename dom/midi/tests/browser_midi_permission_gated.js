@@ -2336,8 +2336,7 @@ com
 "
 extra
 :
-{
-}
+undefined
 }
 )
 ;
