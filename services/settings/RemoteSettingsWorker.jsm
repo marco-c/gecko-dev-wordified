@@ -310,9 +310,9 @@ if
 gShutdown
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Can
@@ -1502,9 +1502,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Couldn
@@ -1521,9 +1521,9 @@ started
 "
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

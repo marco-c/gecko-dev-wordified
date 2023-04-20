@@ -1944,9 +1944,9 @@ happen
 in
 practice
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 rest

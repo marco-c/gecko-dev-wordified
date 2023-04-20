@@ -558,9 +558,9 @@ e
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -679,9 +679,9 @@ e
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1210,9 +1210,9 @@ the
 failure
 reason
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 Error

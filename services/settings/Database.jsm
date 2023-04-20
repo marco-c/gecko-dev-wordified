@@ -3160,9 +3160,9 @@ any
 other
 errors
 :
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

@@ -436,9 +436,9 @@ _converter
 null
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 TPS

@@ -735,9 +735,9 @@ Ignore
 malformed
 entries
 .
-Cu
+console
 .
-reportError
+error
 (
 e
 )

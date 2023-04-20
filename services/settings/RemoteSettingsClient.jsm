@@ -3100,9 +3100,9 @@ a
 parallel
 call
 .
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -3205,9 +3205,9 @@ throw
 e
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -4494,9 +4494,9 @@ go
 -
 on
 .
-Cu
+console
 .
-reportError
+error
 (
 e
 )
