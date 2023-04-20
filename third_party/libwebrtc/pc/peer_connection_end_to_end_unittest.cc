@@ -5637,7 +5637,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :

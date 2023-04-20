@@ -1100,7 +1100,7 @@ PeerConnectionIntegrationBaseTest
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 }
@@ -4078,7 +4078,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 PeerConnectionInterface
@@ -4314,7 +4314,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 PeerConnectionInterface
@@ -6164,7 +6164,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 /
@@ -6536,7 +6536,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 /
@@ -6940,7 +6940,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 /
@@ -7356,7 +7356,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 caller
@@ -17598,7 +17598,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :
@@ -17657,7 +17657,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :
@@ -19127,7 +19127,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 PeerConnectionInterface
@@ -19299,7 +19299,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 PeerConnectionInterface
@@ -28849,7 +28849,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :
@@ -28902,7 +28902,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :
@@ -29025,7 +29025,7 @@ PeerConnectionIntegrationBaseTest
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 caller_semantics_
 (
@@ -29827,7 +29827,7 @@ make_tuple
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :
@@ -29845,7 +29845,7 @@ kUnifiedPlan
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 )
 )
@@ -29898,7 +29898,7 @@ kUnifiedPlan
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 )
 ;

@@ -9511,7 +9511,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 AddAudioVideoStream
@@ -11705,7 +11705,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 return
@@ -11735,7 +11735,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 return
@@ -11888,7 +11888,7 @@ PeerConnectionInterfaceBaseTest
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 }
@@ -14399,7 +14399,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 /
@@ -18099,7 +18099,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ?
 webrtc
 :
@@ -18162,7 +18162,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ?
 webrtc
 :
@@ -20231,7 +20231,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 ASSERT_EQ
@@ -20342,7 +20342,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 EXPECT_EQ
@@ -20436,7 +20436,7 @@ sdp_semantics_
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 ASSERT_TRUE
@@ -30467,7 +30467,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :

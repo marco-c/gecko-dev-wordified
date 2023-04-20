@@ -9437,7 +9437,7 @@ PeerConnectionIceBaseTest
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 }
@@ -10271,7 +10271,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :
@@ -11108,7 +11108,7 @@ Values
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 SdpSemantics
 :
 :

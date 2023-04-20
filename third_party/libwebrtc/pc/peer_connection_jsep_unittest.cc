@@ -14675,7 +14675,7 @@ sdp_semantics
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 auto
 caller
@@ -14794,7 +14794,7 @@ sdp_semantics
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 auto
 callee
@@ -15981,7 +15981,7 @@ sdp_semantics
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 config
 .
