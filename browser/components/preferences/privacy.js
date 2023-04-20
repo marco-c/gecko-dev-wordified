@@ -12444,9 +12444,9 @@ setAttribute
 "
 href
 "
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-bestMatchHelpUrl
+HELP_URL
 )
 ;
 /
@@ -12491,9 +12491,9 @@ setAttribute
 "
 href
 "
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-helpUrl
+HELP_URL
 )
 ;
 }

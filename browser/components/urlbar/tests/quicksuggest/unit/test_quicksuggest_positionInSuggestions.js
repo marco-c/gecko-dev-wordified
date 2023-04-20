@@ -1049,9 +1049,9 @@ Education
 "
 helpUrl
 :
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-helpUrl
+HELP_URL
 helpL10nId
 :
 "

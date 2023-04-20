@@ -390,9 +390,9 @@ TestAdvertiser
 "
 helpUrl
 :
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-helpUrl
+HELP_URL
 helpL10nId
 :
 "
@@ -528,9 +528,9 @@ TestAdvertiser
 "
 helpUrl
 :
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-helpUrl
+HELP_URL
 helpL10nId
 :
 "
@@ -674,9 +674,9 @@ TestAdvertiser
 "
 helpUrl
 :
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-helpUrl
+HELP_URL
 helpL10nId
 :
 "
