@@ -197,6 +197,11 @@ GetEffectiveSocketProcessSandboxLevel
 (
 )
 ;
+int
+GetEffectiveGpuSandboxLevel
+(
+)
+;
 /
 /
 Checks
