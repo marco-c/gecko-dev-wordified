@@ -159,6 +159,17 @@ sequence_checker
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+no_unique_address
+.
+h
+"
 namespace
 webrtc
 {
@@ -479,6 +490,7 @@ s
 worker
 thread
 .
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
 ;

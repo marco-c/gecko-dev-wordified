@@ -143,6 +143,17 @@ include
 "
 rtc_base
 /
+system
+/
+no_unique_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 task_queue
 .
 h
@@ -259,6 +270,7 @@ send_interval_ms
 ;
 private
 :
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_queue_checker_
 ;
