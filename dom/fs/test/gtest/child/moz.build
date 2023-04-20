@@ -89,6 +89,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestFileSystemBackgroundRequestHandler
+.
+cpp
+"
+"
 TestFileSystemRequestHandler
 .
 cpp

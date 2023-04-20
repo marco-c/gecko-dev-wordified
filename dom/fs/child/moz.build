@@ -109,6 +109,11 @@ UNIFIED_SOURCES
 =
 [
 "
+FileSystemBackgroundRequestHandler
+.
+cpp
+"
+"
 FileSystemChildFactory
 .
 cpp
