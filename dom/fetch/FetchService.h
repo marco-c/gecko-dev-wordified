@@ -732,17 +732,6 @@ FetchDriverObserver
 :
 EndReason
 aReason
-JS
-:
-:
-Handle
-<
-JS
-:
-:
-Value
->
-aReasonDetails
 )
 override
 ;
