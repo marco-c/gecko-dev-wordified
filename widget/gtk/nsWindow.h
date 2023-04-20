@@ -1503,11 +1503,6 @@ OnMap
 )
 ;
 void
-OnUnmap
-(
-)
-;
-void
 OnUnrealize
 (
 )
