@@ -2131,16 +2131,6 @@ SetOptions
 factory_options
 )
 ;
-RTC_CHECK
-(
-pc_factory
--
->
-Initialize
-(
-)
-)
-;
 if
 (
 immediate_report

@@ -7926,13 +7926,6 @@ CreatePeerConnectionFactoryForTest
 (
 )
 ;
-pc_factory_for_test_
--
->
-Initialize
-(
-)
-;
 }
 void
 CreatePeerConnection
@@ -32474,13 +32467,6 @@ PeerConnectionFactoryForTest
 :
 :
 CreatePeerConnectionFactoryForTest
-(
-)
-;
-pcf_
--
->
-Initialize
 (
 )
 ;
