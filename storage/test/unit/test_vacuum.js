@@ -134,7 +134,7 @@ participant
 ;
 MockRegistrar
 .
-registerJSM
+registerESM
 (
 CONTRACT_ID
 "
@@ -146,7 +146,9 @@ test
 /
 VacuumParticipant
 .
-jsm
+sys
+.
+mjs
 "
 "
 VacuumParticipant

@@ -40,15 +40,6 @@ test_vacuum
 *
 tests
 .
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-VacuumParticipant
-"
-]
-;
 /
 *
 *
@@ -159,6 +150,7 @@ aFile
 )
 ;
 }
+export
 function
 VacuumParticipant
 (
