@@ -674,7 +674,7 @@ get
 rtc
 :
 :
-BasicPacketSocketFactory
+PacketSocketFactory
 *
 default_socket_factory
 (
@@ -1070,7 +1070,7 @@ unique_ptr
 rtc
 :
 :
-BasicPacketSocketFactory
+PacketSocketFactory
 >
 default_socket_factory_
 RTC_GUARDED_BY
