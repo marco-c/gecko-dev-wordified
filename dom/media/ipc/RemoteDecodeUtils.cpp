@@ -471,7 +471,7 @@ UtilityProcess_MFMediaEngineCDM
 :
 return
 "
-Utiltiy
+Utility
 MF
 Media
 Engine
