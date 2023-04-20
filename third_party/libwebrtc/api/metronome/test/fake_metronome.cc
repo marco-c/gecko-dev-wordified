@@ -132,17 +132,6 @@ include
 "
 api
 /
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
-api
-/
 units
 /
 time_delta
@@ -284,8 +273,6 @@ OnTickTaskQueue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 listener
 ]
@@ -298,7 +285,6 @@ OnTick
 )
 ;
 }
-)
 )
 ;
 }
@@ -453,8 +439,6 @@ OnTickTaskQueue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 listener
 ]
@@ -467,7 +451,6 @@ OnTick
 )
 ;
 }
-)
 )
 ;
 }

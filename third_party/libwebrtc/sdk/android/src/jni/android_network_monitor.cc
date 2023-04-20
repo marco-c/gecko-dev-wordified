@@ -147,17 +147,6 @@ h
 #
 include
 "
-api
-/
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 checks
@@ -4074,7 +4063,7 @@ network_thread_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 safety_flag_
 [
@@ -4197,7 +4186,7 @@ network_thread_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 safety_flag_
 [
@@ -4248,7 +4237,7 @@ network_thread_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 safety_flag_
 [
@@ -4330,7 +4319,7 @@ network_thread_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 safety_flag_
 [

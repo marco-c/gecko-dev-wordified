@@ -150,7 +150,7 @@ api
 /
 task_queue
 /
-queued_task
+task_queue_base
 .
 h
 "
@@ -159,9 +159,9 @@ include
 "
 api
 /
-task_queue
+units
 /
-task_queue_base
+time_delta
 .
 h
 "
@@ -1368,8 +1368,6 @@ task_queue_
 >
 PostDelayedTask
 (
-ToQueuedTask
-(
 std
 :
 :
@@ -1377,8 +1375,13 @@ move
 (
 output_task
 )
-)
+TimeDelta
+:
+:
+Millis
+(
 delay
+)
 )
 ;
 }
