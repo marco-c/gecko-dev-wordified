@@ -1879,7 +1879,7 @@ open
 (
 output_file
 '
-wb
+w
 '
 )
 as
