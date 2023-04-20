@@ -281,6 +281,13 @@ TEST_DIRS
 "
 tests
 "
+"
+dap
+/
+ffi
+-
+gtest
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
@@ -393,6 +400,13 @@ h
 dap
 /
 DAPTelemetry
+.
+h
+"
+"
+dap
+/
+DAPTelemetryBindings
 .
 h
 "
