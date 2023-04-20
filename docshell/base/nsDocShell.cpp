@@ -86522,9 +86522,16 @@ GetPendingRedirectedChannel
 )
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+nsDocShell
+:
+:
+mIsBeingDestroyed
+"
+_ns
 )
 ;
 return

@@ -389,9 +389,16 @@ mLoadGroupToCancel
 mLoadGroupToCancel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+WorkerLoadInfo
+:
+:
+MainThreadReleaseRunnable
+"
+_ns
 )
 ;
 mLoadGroupToCancel

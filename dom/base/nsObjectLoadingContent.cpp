@@ -12015,9 +12015,16 @@ nullptr
 channelGrip
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+nsObjectLoadingContent
+:
+:
+CloseChannel
+"
+_ns
 )
 ;
 if

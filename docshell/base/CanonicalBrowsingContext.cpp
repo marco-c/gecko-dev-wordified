@@ -7848,6 +7848,13 @@ mCurrentLoad
 Cancel
 (
 NS_BINDING_ABORTED
+"
+CanonicalBrowsingContext
+:
+:
+CanonicalDiscard
+"
+_ns
 )
 ;
 }
@@ -8667,6 +8674,9 @@ mCurrentLoad
 Cancel
 (
 NS_BINDING_CANCELLED_OLD_LOAD
+"
+"
+_ns
 )
 ;
 }
@@ -8824,6 +8834,9 @@ mCurrentLoad
 Cancel
 (
 NS_BINDING_CANCELLED_OLD_LOAD
+"
+"
+_ns
 )
 ;
 }
@@ -8981,6 +8994,9 @@ mCurrentLoad
 Cancel
 (
 NS_BINDING_CANCELLED_OLD_LOAD
+"
+"
+_ns
 )
 ;
 }
@@ -9129,6 +9145,9 @@ mCurrentLoad
 Cancel
 (
 NS_BINDING_CANCELLED_OLD_LOAD
+"
+"
+_ns
 )
 ;
 }
@@ -9235,6 +9254,13 @@ mCurrentLoad
 Cancel
 (
 NS_BINDING_ABORTED
+"
+CanonicalBrowsingContext
+:
+:
+Stop
+"
+_ns
 )
 ;
 }
@@ -14152,6 +14178,9 @@ mCurrentLoad
 Cancel
 (
 NS_BINDING_CANCELLED_OLD_LOAD
+"
+"
+_ns
 )
 ;
 }

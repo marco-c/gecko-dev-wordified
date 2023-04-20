@@ -12406,6 +12406,7 @@ mLoadInfo
 GetRequestBlockingReason
 (
 )
+mCanceledReason
 logOnParent
 )
 ;

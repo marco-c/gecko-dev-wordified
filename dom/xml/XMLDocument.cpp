@@ -1748,9 +1748,16 @@ StopDocumentLoad
 mChannel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+XMLDocument
+:
+:
+ResetToURI
+"
+_ns
 )
 ;
 mChannelIsPending

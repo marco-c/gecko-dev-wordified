@@ -36782,6 +36782,10 @@ status
 "
 PRIx32
 "
+reason
+=
+%
+s
 ]
 \
 n
@@ -36793,6 +36797,11 @@ uint32_t
 >
 (
 status
+)
+mCanceledReason
+.
+get
+(
 )
 )
 )

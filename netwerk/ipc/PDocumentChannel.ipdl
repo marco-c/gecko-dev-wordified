@@ -199,6 +199,8 @@ Cancel
 (
 nsresult
 status
+nsCString
+reason
 )
 ;
 async

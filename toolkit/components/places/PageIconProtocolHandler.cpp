@@ -1360,9 +1360,14 @@ rv
 channel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+GetFaviconData
+failed
+"
+_ns
 )
 ;
 return

@@ -500,9 +500,16 @@ aResult
 aChannel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+RemoteStreamGetter
+:
+:
+CancelRequest
+"
+_ns
 )
 ;
 }

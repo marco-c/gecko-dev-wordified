@@ -5232,9 +5232,16 @@ mChannel
 mChannel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+XMLHttpRequestMainThread
+:
+:
+CloseRequest
+"
+_ns
 )
 ;
 }

@@ -358,6 +358,8 @@ status
 uint32_t
 requestBlockingReason
 nsCString
+aReason
+nsCString
 ?
 logString
 )

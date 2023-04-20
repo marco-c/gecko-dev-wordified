@@ -1652,9 +1652,16 @@ mChannel
 mChannel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+PreloaderBase
+:
+:
+RemoveLinkPreloadNode
+"
+_ns
 )
 ;
 }

@@ -1568,6 +1568,10 @@ const
 nsresult
 &
 aStatusCode
+const
+nsACString
+&
+aReason
 )
 ;
 nsIChannel

@@ -1145,9 +1145,16 @@ aResult
 aChannel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+faviconAsyncLoader
+:
+:
+CancelRequest
+"
+_ns
 )
 ;
 }

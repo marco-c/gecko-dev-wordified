@@ -2455,9 +2455,16 @@ mChannel
 channel
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+nsFontFaceLoader
+:
+:
+OnStopRequest
+"
+_ns
 )
 ;
 }
