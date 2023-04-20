@@ -713,7 +713,9 @@ thread
 only
 Troubleshoot
 .
-jsm
+sys
+.
+mjs
 .
 NS_DispatchToMainThread
 (
