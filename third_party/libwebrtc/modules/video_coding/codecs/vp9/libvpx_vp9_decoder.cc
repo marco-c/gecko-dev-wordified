@@ -809,6 +809,17 @@ decoder_
 new
 vpx_codec_ctx_t
 ;
+memset
+(
+decoder_
+0
+sizeof
+(
+*
+decoder_
+)
+)
+;
 }
 vpx_codec_dec_cfg_t
 cfg
