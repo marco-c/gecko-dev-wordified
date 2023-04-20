@@ -2149,12 +2149,6 @@ pendingAsyncDependencies
 )
 const
 ;
-bool
-hasAsyncEvaluatingPostOrder
-(
-)
-const
-;
 mozilla
 :
 :
