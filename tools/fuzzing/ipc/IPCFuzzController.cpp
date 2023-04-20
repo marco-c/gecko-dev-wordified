@@ -4901,9 +4901,6 @@ DispatchToThread
 GetMainThreadEventTarget
 (
 )
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
@@ -4959,7 +4956,6 @@ n
 )
 ;
 }
-)
 )
 )
 ;

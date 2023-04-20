@@ -404,9 +404,6 @@ SyncRunnable
 DispatchToThread
 (
 mainThread
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
@@ -430,7 +427,6 @@ slot
 )
 ;
 }
-)
 )
 )
 ;
@@ -561,9 +557,6 @@ SyncRunnable
 DispatchToThread
 (
 mainThread
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
@@ -594,7 +587,6 @@ slot
 )
 ;
 }
-)
 )
 )
 ;

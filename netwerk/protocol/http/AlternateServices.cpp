@@ -6277,9 +6277,6 @@ SyncRunnable
 DispatchToThread
 (
 main
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
@@ -6289,7 +6286,6 @@ AltSvcCache
 EnsureStorageInited
 "
 initTask
-)
 )
 )
 ;

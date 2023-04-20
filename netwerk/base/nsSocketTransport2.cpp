@@ -6504,9 +6504,6 @@ SyncRunnable
 DispatchToThread
 (
 mainThread
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
@@ -6519,7 +6516,6 @@ ResolveHost
 GetDNSService
 "
 initTask
-)
 )
 )
 ;
