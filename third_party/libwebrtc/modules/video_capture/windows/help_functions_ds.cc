@@ -235,9 +235,6 @@ IBaseFilter
 filter
 )
 {
-HRESULT
-hr
-;
 IPin
 *
 pin
@@ -277,8 +274,6 @@ get
 first
 unconnected
 pin
-hr
-=
 pPinEnum
 -
 >
