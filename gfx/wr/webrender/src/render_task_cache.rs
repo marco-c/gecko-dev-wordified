@@ -232,6 +232,15 @@ use
 crate
 :
 :
+renderer
+:
+:
+GpuBufferBuilder
+;
+use
+crate
+:
+:
 render_target
 :
 :
@@ -1464,6 +1473,11 @@ gpu_cache
 &
 mut
 GpuCache
+gpu_buffer_builder
+:
+&
+mut
+GpuBufferBuilder
 rg_builder
 :
 &
@@ -1510,6 +1524,9 @@ FnOnce
 &
 mut
 RenderTaskGraphBuilder
+&
+mut
+GpuBufferBuilder
 )
 -
 >
@@ -1687,6 +1704,7 @@ render_task_id
 f
 (
 rg_builder
+gpu_buffer_builder
 )
 ?
 ;

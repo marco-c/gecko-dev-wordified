@@ -249,6 +249,15 @@ use
 crate
 :
 :
+renderer
+:
+:
+GpuBufferBuilder
+;
+use
+crate
+:
+:
 render_target
 :
 :
@@ -3296,6 +3305,11 @@ gpu_cache
 &
 mut
 GpuCache
+gpu_buffer_builder
+:
+&
+mut
+GpuBufferBuilder
 resource_cache
 :
 &
@@ -3706,6 +3720,7 @@ cache_key
 )
 }
 gpu_cache
+gpu_buffer_builder
 rg_builder
 None
 false
@@ -3719,6 +3734,7 @@ clip_task_id
 surface_builder
 |
 rg_builder
+_
 |
 {
 let
