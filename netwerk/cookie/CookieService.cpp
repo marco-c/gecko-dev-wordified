@@ -5472,7 +5472,7 @@ cookies
 mPersistentStorage
 -
 >
-GetCookies
+GetSessionCookies
 (
 aCookies
 )
