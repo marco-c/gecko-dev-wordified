@@ -122,6 +122,11 @@ nsConverterInputStream
 .
 h
 "
+"
+nsTextToSubURI
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
