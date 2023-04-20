@@ -29187,7 +29187,7 @@ input
 blob
 *
 param
-aGlobal
+aWindow
 The
 global
 object
@@ -29223,9 +29223,9 @@ dom
 Blob
 *
 aBlob
-nsIGlobalObject
+nsPIDOMWindowOuter
 *
-aGlobal
+aWindow
 BlobReader
 *
 aBlobReader
