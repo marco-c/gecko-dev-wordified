@@ -239,7 +239,7 @@ include
 "
 mozilla
 /
-EditorUtils
+TextEditor
 .
 h
 "
@@ -2954,7 +2954,7 @@ NS_MAYBE_MASKED
 )
 )
 {
-EditorUtils
+TextEditor
 :
 :
 MaskString
