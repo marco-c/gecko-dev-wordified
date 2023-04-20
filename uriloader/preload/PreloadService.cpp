@@ -1528,6 +1528,7 @@ aURI
 cors
 referrerPolicy
 mDocument
+aEarlyHintPreloaderId
 )
 ;
 }
@@ -1641,6 +1642,7 @@ aURI
 cors
 referrerPolicy
 mDocument
+aEarlyHintPreloaderId
 )
 ;
 }
