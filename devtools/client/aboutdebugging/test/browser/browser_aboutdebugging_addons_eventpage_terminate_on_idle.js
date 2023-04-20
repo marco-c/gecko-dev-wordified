@@ -482,6 +482,7 @@ extension
 ;
 const
 {
+devtoolsTab
 devtoolsWindow
 }
 =
@@ -997,9 +998,10 @@ toolbox
 )
 ;
 await
-closeWebExtAboutDevtoolsToolbox
+closeAboutDevtoolsToolbox
 (
-devtoolsWindow
+document
+devtoolsTab
 window
 )
 ;

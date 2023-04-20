@@ -292,6 +292,7 @@ addon
 ;
 const
 {
+devtoolsTab
 devtoolsWindow
 }
 =
@@ -473,9 +474,10 @@ value
 )
 ;
 await
-closeWebExtAboutDevtoolsToolbox
+closeAboutDevtoolsToolbox
 (
-devtoolsWindow
+document
+devtoolsTab
 window
 )
 ;
