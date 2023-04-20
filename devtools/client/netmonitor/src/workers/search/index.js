@@ -133,12 +133,6 @@ dispatcher
 new
 WorkerDispatcher
 (
-)
-;
-dispatcher
-.
-start
-(
 SEARCH_WORKER_URL
 )
 ;

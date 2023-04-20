@@ -125,7 +125,7 @@ jestWorkerUrl
 ;
 export
 const
-start
+setJestWorkerURL
 =
 jestUrl
 =
@@ -185,12 +185,6 @@ dispatcher
 =
 new
 WorkerDispatcher
-(
-)
-;
-dispatcher
-.
-start
 (
 jestWorkerUrl
 |
