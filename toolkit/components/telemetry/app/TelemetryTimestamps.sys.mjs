@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TelemetryTimestamps
-"
-]
-;
 /
 *
 *
@@ -141,6 +132,7 @@ timeStamps
 {
 }
 ;
+export
 var
 TelemetryTimestamps
 =

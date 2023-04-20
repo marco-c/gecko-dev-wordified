@@ -81,11 +81,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -210,15 +205,6 @@ fast
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TelemetryController
-"
-]
-;
 /
 /
 We
@@ -314,6 +300,7 @@ nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
 ;
+export
 var
 TelemetryController
 ;

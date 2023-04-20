@@ -22,15 +22,6 @@ jsm
 "
 )
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TelemetryArchiveTesting
-"
-]
-;
 function
 checkForProperties
 (
@@ -407,6 +398,7 @@ null
 }
 }
 ;
+export
 const
 TelemetryArchiveTesting
 =

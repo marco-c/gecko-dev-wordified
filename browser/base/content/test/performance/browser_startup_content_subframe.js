@@ -369,7 +369,9 @@ modules
 /
 TelemetryControllerBase
 .
-jsm
+sys
+.
+mjs
 "
 /
 /
@@ -386,7 +388,9 @@ modules
 /
 TelemetryControllerContent
 .
-jsm
+sys
+.
+mjs
 "
 /
 /

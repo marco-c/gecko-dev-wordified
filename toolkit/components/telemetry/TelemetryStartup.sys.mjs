@@ -81,11 +81,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -164,6 +159,7 @@ jsm
 .
 *
 /
+export
 function
 TelemetryStartup
 (
@@ -344,12 +340,3 @@ Ignore
 errors
 }
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TelemetryStartup
-"
-]
-;
