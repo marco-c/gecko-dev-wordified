@@ -6105,6 +6105,13 @@ PseudoElement
 rule_inclusion
 :
 RuleInclusion
+originating_element_style
+:
+&
+Arc
+<
+ComputedValues
+>
 parent_style
 :
 &
@@ -6154,6 +6161,7 @@ lazy_pseudo_rules
 (
 guards
 element
+originating_element_style
 parent_style
 pseudo
 is_probe
@@ -6979,6 +6987,13 @@ StylesheetGuards
 element
 :
 E
+originating_element_style
+:
+&
+Arc
+<
+ComputedValues
+>
 parent_style
 :
 &
@@ -7134,7 +7149,7 @@ originating_element_style
 =
 Some
 (
-parent_style
+originating_element_style
 .
 clone
 (
@@ -7280,7 +7295,7 @@ originating_element_style
 =
 Some
 (
-parent_style
+originating_element_style
 .
 clone
 (
