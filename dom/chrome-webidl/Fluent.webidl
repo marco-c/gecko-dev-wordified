@@ -263,7 +263,7 @@ UTF8String
 >
 locales
 ;
-void
+undefined
 addResource
 (
 FluentResource

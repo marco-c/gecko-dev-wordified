@@ -645,7 +645,7 @@ interface
 OptionalByteString
 {
               
-void
+undefined
 passByteString
 (
 optional

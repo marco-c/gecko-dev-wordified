@@ -546,7 +546,7 @@ context
 .
 *
 /
-void
+undefined
 addResourceIds
 (
 sequence
@@ -938,7 +938,7 @@ L10nKey
 aKeys
 )
 ;
-void
+undefined
 setAsync
 (
 )

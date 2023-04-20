@@ -3116,7 +3116,7 @@ s
 Throws
 ]
                        
-void
+undefined
 %
 s
 (
@@ -3184,7 +3184,7 @@ s
 Throws
 ]
                        
-void
+undefined
 %
 s
 (
@@ -3248,7 +3248,7 @@ interface
 Foo1
 {
                    
-void
+undefined
 %
 s
 (
@@ -3322,7 +3322,7 @@ s
 ;
                    
 static
-void
+undefined
 %
 s
 (
@@ -3646,7 +3646,7 @@ Foo2
 Foo1
 {
                
-void
+undefined
 entries
 (
 )
@@ -3718,7 +3718,7 @@ Foo3
 Foo2
 {
                
-void
+undefined
 entries
 (
 )
@@ -3774,7 +3774,7 @@ mixin
 Foo2
 {
                
-void
+undefined
 entries
 (
 )
@@ -3831,7 +3831,7 @@ mixin
 Foo2
 {
                
-void
+undefined
 entries
 (
 )
@@ -3889,7 +3889,7 @@ interface
 Foo1
 {
                
-void
+undefined
 entries
 (
 )
@@ -3946,7 +3946,7 @@ interface
 Foo1
 {
                
-void
+undefined
 entries
 (
 )
@@ -4390,7 +4390,7 @@ Foo2
 Foo1
 {
                
-void
+undefined
 clear
 (
 )

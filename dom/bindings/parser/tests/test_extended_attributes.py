@@ -289,7 +289,7 @@ interface
 TestClamp
 {
           
-void
+undefined
 testClamp
 (
 [
@@ -300,7 +300,7 @@ foo
 )
 ;
           
-void
+undefined
 testNotClamp
 (
 long
@@ -460,7 +460,7 @@ interface
 TestClamp2
 {
               
-void
+undefined
 testClamp
 (
 [
@@ -534,7 +534,7 @@ interface
 TestEnforceRange
 {
           
-void
+undefined
 testEnforceRange
 (
 [
@@ -545,7 +545,7 @@ foo
 )
 ;
           
-void
+undefined
 testNotEnforceRange
 (
 long
@@ -706,7 +706,7 @@ interface
 TestEnforceRange2
 {
               
-void
+undefined
 testEnforceRange
 (
 [

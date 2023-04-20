@@ -121,7 +121,7 @@ JSActor
 [
 Throws
 ]
-void
+undefined
 sendAsyncMessage
 (
 DOMString
@@ -213,7 +213,7 @@ callback
 interface
 MozObserverCallback
 {
-void
+undefined
 observe
 (
 nsISupports
@@ -252,7 +252,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 MozJSActorCallback
 =
-void
+undefined
 (
 )
 ;

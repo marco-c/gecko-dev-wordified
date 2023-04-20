@@ -15176,6 +15176,119 @@ location
 locations
                 
 )
+            
+if
+member
+.
+type
+.
+isUndefined
+(
+)
+:
+                
+raise
+WebIDLError
+(
+                    
+"
+Dictionary
+%
+s
+has
+member
+with
+undefined
+as
+its
+type
+.
+"
+                    
+%
+self
+.
+identifier
+.
+name
+                    
+[
+member
+.
+location
+]
+                
+)
+            
+elif
+member
+.
+type
+.
+isUnion
+(
+)
+:
+                
+for
+unionMember
+in
+member
+.
+type
+.
+unroll
+(
+)
+.
+flatMemberTypes
+:
+                    
+if
+unionMember
+.
+isUndefined
+(
+)
+:
+                        
+raise
+WebIDLError
+(
+                            
+"
+Dictionary
+%
+s
+has
+member
+with
+a
+union
+containing
+"
+                            
+"
+undefined
+as
+a
+type
+.
+"
+%
+self
+.
+identifier
+.
+name
+                            
+[
+unionMember
+.
+location
+]
+                        
+)
     
 def
 getExtendedAttribute
@@ -15776,7 +15889,7 @@ object
 "
         
 "
-void
+undefined
 "
         
 #
@@ -16223,7 +16336,7 @@ return
 False
     
 def
-isVoid
+isUndefined
 (
 self
 )
@@ -16236,7 +16349,7 @@ name
 =
 =
 "
-Void
+Undefined
 "
     
 def
@@ -17287,14 +17400,6 @@ innerType
 assert
 not
 innerType
-.
-isVoid
-(
-)
-        
-assert
-not
-innerType
 =
 =
 BuiltinTypes
@@ -17614,7 +17719,7 @@ isInteger
 )
     
 def
-isVoid
+isUndefined
 (
 self
 )
@@ -18389,7 +18494,7 @@ assert
 not
 parameterType
 .
-isVoid
+isUndefined
 (
 )
         
@@ -18547,7 +18652,7 @@ prettyName
 )
     
 def
-isVoid
+isUndefined
 (
 self
 )
@@ -18811,7 +18916,7 @@ assert
 not
 valueType
 .
-isVoid
+isUndefined
 (
 )
         
@@ -19295,7 +19400,7 @@ assert
 not
 innerType
 .
-isVoid
+isUndefined
 (
 )
         
@@ -19393,7 +19498,7 @@ prettyName
 )
     
 def
-isVoid
+isUndefined
 (
 self
 )
@@ -19854,7 +19959,7 @@ memberTypes
 "
     
 def
-isVoid
+isUndefined
 (
 self
 )
@@ -21020,7 +21125,7 @@ isJSString
 )
     
 def
-isVoid
+isUndefined
 (
 self
 )
@@ -21031,7 +21136,7 @@ self
 .
 inner
 .
-isVoid
+isUndefined
 (
 )
     
@@ -21709,7 +21814,7 @@ Wrapper
 "
     
 def
-isVoid
+isUndefined
 (
 self
 )
@@ -23226,7 +23331,7 @@ object
 "
         
 "
-void
+undefined
 "
         
 #
@@ -23485,13 +23590,13 @@ object
         
 Types
 .
-void
+undefined
 :
 IDLType
 .
 Tags
 .
-void
+undefined
         
 Types
 .
@@ -23799,10 +23904,10 @@ object
         
 Types
 .
-void
+undefined
 :
 "
-void
+undefined
 "
         
 Types
@@ -25402,7 +25507,7 @@ isEnum
 if
 self
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -25411,7 +25516,7 @@ return
 not
 other
 .
-isVoid
+isUndefined
 (
 )
         
@@ -26709,7 +26814,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 :
 IDLBuiltinType
 (
@@ -26724,13 +26829,13 @@ type
 "
 )
 "
-Void
+Undefined
 "
 IDLBuiltinType
 .
 Types
 .
-void
+undefined
     
 )
     
@@ -31774,7 +31879,7 @@ True
 )
         
 #
-void
+undefined
 forEach
 (
 callback
@@ -31806,7 +31911,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
             
 self
@@ -32714,7 +32819,7 @@ isSetlike
 )
         
 #
-void
+undefined
 forEach
 (
 callback
@@ -32744,7 +32849,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
             
 self
@@ -32835,7 +32940,7 @@ readonly
 :
             
 #
-void
+undefined
 clear
 (
 )
@@ -32856,7 +32961,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
 [
 ]
@@ -38414,6 +38519,45 @@ self
 .
 type
 .
+isUndefined
+(
+)
+:
+            
+raise
+WebIDLError
+(
+                
+"
+undefined
+must
+not
+be
+used
+as
+the
+type
+of
+an
+argument
+in
+any
+circumstance
+"
+                
+[
+self
+.
+location
+]
+            
+)
+        
+if
+self
+.
+type
+.
 isAny
 (
 )
@@ -38980,7 +39124,52 @@ self
 )
 :
         
-pass
+for
+argument
+in
+self
+.
+_arguments
+:
+            
+if
+argument
+.
+type
+.
+isUndefined
+(
+)
+:
+                
+raise
+WebIDLError
+(
+                    
+"
+undefined
+must
+not
+be
+used
+as
+the
+type
+of
+an
+argument
+in
+any
+circumstance
+"
+                    
+[
+self
+.
+location
+]
+                
+)
     
 def
 addExtendedAttributes
@@ -40059,7 +40248,7 @@ overload
 .
 returnType
 .
-isVoid
+isUndefined
 (
 )
         
@@ -43127,7 +43316,7 @@ overloads
 .
 returnType
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -43145,7 +43334,7 @@ on
 a
 non
 -
-void
+undefined
 method
 "
                     
@@ -46150,11 +46339,11 @@ UNSIGNED
 "
         
 "
-void
+undefined
 "
 :
 "
-VOID
+UNDEFINED
 "
         
 "
@@ -50311,7 +50500,7 @@ CallbackRest
 :
 IDENTIFIER
 EQUALS
-ReturnType
+Type
 LPAREN
 ArgumentList
 RPAREN
@@ -50395,7 +50584,7 @@ CallbackConstructorRest
 CONSTRUCTOR
 IDENTIFIER
 EQUALS
-ReturnType
+Type
 LPAREN
 ArgumentList
 RPAREN
@@ -52483,7 +52672,7 @@ getter
 if
 returnType
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -52496,7 +52685,7 @@ WebIDLError
 getter
 cannot
 have
-void
+undefined
 return
 type
 "
@@ -53482,7 +53671,7 @@ p
         
 OperationRest
 :
-ReturnType
+Type
 OptionalIdentifier
 LPAREN
 ArgumentList
@@ -54826,7 +55015,7 @@ TRUE
 UNSIGNED
               
 |
-VOID
+UNDEFINED
               
 |
 ArgumentNameKeyword
@@ -55035,43 +55224,6 @@ Types
 any
 ]
     
-#
-Note
-:
-Promise
-<
-void
->
-is
-allowed
-so
-we
-want
-to
-parametrize
-on
-ReturnType
-    
-#
-not
-Type
-.
-Promise
-types
-can
-'
-t
-be
-null
-hence
-no
-"
-Null
-"
-in
-there
-.
-    
 def
 p_SingleTypePromiseType
 (
@@ -55088,7 +55240,7 @@ SingleType
 :
 PROMISE
 LT
-ReturnType
+Type
 GT
         
 "
@@ -56047,6 +56199,37 @@ p
 ]
     
 def
+p_PrimitiveTypeUndefined
+(
+self
+p
+)
+:
+        
+"
+"
+"
+        
+PrimitiveType
+:
+UNDEFINED
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+IDLBuiltinType
+.
+Types
+.
+undefined
+    
+def
 p_PrimitiveTypeBoolean
 (
 self
@@ -56722,70 +56905,6 @@ p
 ]
 =
 None
-    
-def
-p_ReturnTypeType
-(
-self
-p
-)
-:
-        
-"
-"
-"
-        
-ReturnType
-:
-Type
-        
-"
-"
-"
-        
-p
-[
-0
-]
-=
-p
-[
-1
-]
-    
-def
-p_ReturnTypeVoid
-(
-self
-p
-)
-:
-        
-"
-"
-"
-        
-ReturnType
-:
-VOID
-        
-"
-"
-"
-        
-p
-[
-0
-]
-=
-BuiltinTypes
-[
-IDLBuiltinType
-.
-Types
-.
-void
-]
     
 def
 p_ScopedName

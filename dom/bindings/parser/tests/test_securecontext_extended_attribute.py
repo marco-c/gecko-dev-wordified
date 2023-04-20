@@ -38,7 +38,7 @@ byte
 testAttribute
 ;
           
-void
+undefined
 testMethod
 (
 byte
@@ -67,7 +67,7 @@ byte
 testAttribute2
 ;
           
-void
+undefined
 testMethod2
 (
 byte
@@ -427,7 +427,7 @@ byte
 testAttribute2
 ;
           
-void
+undefined
 testMethod2
 (
 byte
@@ -459,7 +459,7 @@ byte
 testAttribute
 ;
           
-void
+undefined
 testMethod
 (
 byte
@@ -806,7 +806,7 @@ byte
 testAttribute
 ;
           
-void
+undefined
 testMethod
 (
 byte
@@ -839,7 +839,7 @@ byte
 testAttribute2
 ;
           
-void
+undefined
 testMethod2
 (
 byte
@@ -1254,7 +1254,7 @@ byte
 testNonSecureAttribute2
 ;
           
-void
+undefined
 testNonSecureMethod1
 (
 byte
@@ -1266,7 +1266,7 @@ foo
 SecureContext
 ]
           
-void
+undefined
 testSecureMethod
 (
 byte
@@ -1274,7 +1274,7 @@ foo
 )
 ;
           
-void
+undefined
 testNonSecureMethod2
 (
 byte
@@ -1771,7 +1771,7 @@ byte
 testNonSecureAttribute2
 ;
           
-void
+undefined
 testNonSecureMethod1
 (
 byte
@@ -1783,7 +1783,7 @@ foo
 SecureContext
 ]
           
-void
+undefined
 testSecureMethod
 (
 byte
@@ -1791,7 +1791,7 @@ foo
 )
 ;
           
-void
+undefined
 testNonSecureMethod2
 (
 byte
@@ -2321,7 +2321,7 @@ TestSecureContextForOverloads1
 SecureContext
 ]
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2337,7 +2337,7 @@ interface
 TestSecureContextForOverloads1
 {
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2431,7 +2431,7 @@ TestSecureContextForOverloads2
 SecureContext
 ]
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2451,7 +2451,7 @@ TestSecureContextForOverloads2
 SecureContext
 ]
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2549,7 +2549,7 @@ TestSecureContextOnInterfaceAndMember
 SecureContext
 ]
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2648,7 +2648,7 @@ TestSecureContextOnPartialInterfaceAndMember
 SecureContext
 ]
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2757,7 +2757,7 @@ TestSecureContextOnInterfaceAndPartialInterfaceMember
 SecureContext
 ]
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2862,7 +2862,7 @@ TestSecureContextNotOnInheritingInterface
 TestSecureContextOnInheritedInterface
 {
               
-void
+undefined
 testSecureMethod
 (
 byte
@@ -2981,7 +2981,7 @@ byte
 testAttribute2
 ;
           
-void
+undefined
 testMethod2
 (
 byte
@@ -3283,7 +3283,7 @@ interface
 TestSecureContextLegacyNoInterfaceObject
 {
           
-void
+undefined
 testSecureMethod
 (
 byte

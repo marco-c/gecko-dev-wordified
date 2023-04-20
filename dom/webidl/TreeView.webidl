@@ -682,7 +682,7 @@ row
 [
 Throws
 ]
-void
+undefined
 drop
 (
 long
@@ -1028,7 +1028,7 @@ object
 [
 Throws
 ]
-void
+undefined
 setTree
 (
 XULTreeElement
@@ -1057,7 +1057,7 @@ closed
 [
 Throws
 ]
-void
+undefined
 toggleOpenState
 (
 long
@@ -1083,7 +1083,7 @@ clicked
 [
 Throws
 ]
-void
+undefined
 cycleHeader
 (
 TreeColumn
@@ -1109,7 +1109,7 @@ changes
 .
 *
 /
-void
+undefined
 selectionChanged
 (
 )
@@ -1149,7 +1149,7 @@ clicked
 .
 *
 /
-void
+undefined
 cycleCell
 (
 long
@@ -1257,7 +1257,7 @@ text
 [
 Throws
 ]
-void
+undefined
 setCellValue
 (
 long
@@ -1293,7 +1293,7 @@ user
 [
 Throws
 ]
-void
+undefined
 setCellText
 (
 long

@@ -133,7 +133,7 @@ DOMString
 baz
 ;
                 
-void
+undefined
 method
 (
 [
@@ -146,7 +146,7 @@ Clamp
 ]
 long
 bar
-                            
+                                 
 [
 LegacyNullToEmptyString
 ]
@@ -155,7 +155,7 @@ baz
 )
 ;
                 
-void
+undefined
 method2
 (
 optional
@@ -170,7 +170,7 @@ Clamp
 ]
 long
 bar
-                             
+                                  
 optional
 [
 LegacyNullToEmptyString
@@ -180,7 +180,7 @@ baz
 )
 ;
                 
-void
+undefined
 method3
 (
 optional
@@ -220,7 +220,7 @@ long
 bar
 ;
                 
-void
+undefined
 method
 (
 [
@@ -238,7 +238,7 @@ bar
 )
 ;
                 
-void
+undefined
 method2
 (
 optional
@@ -1424,7 +1424,7 @@ ArrayBufferView
 foo
 ;
                 
-void
+undefined
 method
 (
 [
@@ -1435,7 +1435,7 @@ foo
 )
 ;
                 
-void
+undefined
 method2
 (
 optional
@@ -1463,7 +1463,7 @@ ArrayBufferView
 foo
 ;
                 
-void
+undefined
 method
 (
 [
@@ -1475,7 +1475,7 @@ foo
 )
 ;
                 
-void
+undefined
 method2
 (
 optional
@@ -2159,7 +2159,7 @@ interface
 Foo
 {
                 
-void
+undefined
 foo
 (
 %
@@ -2386,7 +2386,7 @@ interface
 Foo
 {
               
-void
+undefined
 foo
 (
 )
@@ -2499,7 +2499,7 @@ namespace
 Foo
 {
               
-void
+undefined
 foo
 (
 )
@@ -3574,7 +3574,7 @@ interface
 Foo
 {
                
-void
+undefined
 foo
 (
 [
@@ -3710,7 +3710,7 @@ interface
 Foo
 {
                
-void
+undefined
 foo
 (
 Bar

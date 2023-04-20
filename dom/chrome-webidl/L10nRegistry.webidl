@@ -1048,7 +1048,7 @@ getAvailableLocales
 (
 )
 ;
-void
+undefined
 registerSources
 (
 sequence
@@ -1058,7 +1058,7 @@ L10nFileSource
 aSources
 )
 ;
-void
+undefined
 updateSources
 (
 sequence
@@ -1068,7 +1068,7 @@ L10nFileSource
 aSources
 )
 ;
-void
+undefined
 removeSources
 (
 sequence
@@ -1107,7 +1107,7 @@ getSourceNames
 (
 )
 ;
-void
+undefined
 clearSources
 (
 )

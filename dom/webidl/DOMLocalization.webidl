@@ -399,7 +399,7 @@ changes
 [
 Throws
 ]
-void
+undefined
 connectRoot
 (
 Node
@@ -427,7 +427,7 @@ changes
 [
 Throws
 ]
-void
+undefined
 disconnectRoot
 (
 Node
@@ -455,7 +455,7 @@ mutations
 [
 Throws
 ]
-void
+undefined
 pauseObserving
 (
 )
@@ -481,7 +481,7 @@ mutations
 [
 Throws
 ]
-void
+undefined
 resumeObserving
 (
 )
@@ -593,7 +593,7 @@ emailCount
 [
 Throws
 ]
-void
+undefined
 setAttributes
 (
 Element
@@ -998,7 +998,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 translateElements
 (
@@ -1050,7 +1050,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 translateRoots
 (

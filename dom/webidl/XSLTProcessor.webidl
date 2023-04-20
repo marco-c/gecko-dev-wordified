@@ -221,7 +221,7 @@ stylesheet
 [
 Throws
 ]
-void
+undefined
 importStylesheet
 (
 Node
@@ -425,7 +425,7 @@ parameter
 [
 Throws
 ]
-void
+undefined
 setParameter
 (
 [
@@ -559,7 +559,7 @@ parameter
 [
 Throws
 ]
-void
+undefined
 removeParameter
 (
 [
@@ -606,7 +606,7 @@ stylesheet
 .
 *
 /
-void
+undefined
 clearParameters
 (
 )
@@ -626,7 +626,7 @@ XSLTProcessor
 .
 *
 /
-void
+undefined
 reset
 (
 )

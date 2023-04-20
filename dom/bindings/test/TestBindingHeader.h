@@ -4258,7 +4258,7 @@ TestObjectArguments
 &
 TestOptionalArguments
 &
-TestVoidConstruction
+TestUndefinedConstruction
 &
 TestIntegerConstruction
 &

@@ -666,7 +666,7 @@ interface
 TestInterface
 {
             
-void
+undefined
 foo
 (
 optional
