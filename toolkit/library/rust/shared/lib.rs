@@ -546,10 +546,6 @@ extern
 crate
 data_encoding_ffi
 ;
-extern
-crate
-oblivious_http
-;
 #
 [
 cfg
