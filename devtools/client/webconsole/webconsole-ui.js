@@ -1203,11 +1203,6 @@ resourceCommand
 .
 TYPES
 .
-CLONED_CONTENT_PROCESS_MESSAGE
-resourceCommand
-.
-TYPES
-.
 DOCUMENT_EVENT
 ]
 {
@@ -1948,11 +1943,6 @@ resourceCommand
 TYPES
 .
 PLATFORM_MESSAGE
-resourceCommand
-.
-TYPES
-.
-CLONED_CONTENT_PROCESS_MESSAGE
 resourceCommand
 .
 TYPES
