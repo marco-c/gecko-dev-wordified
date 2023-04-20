@@ -555,12 +555,12 @@ break
 ;
 case
 "
-popuphiding
+popuphidden
 "
 :
 this
 .
-_onPopupHiding
+_onPopupHidden
 (
 aEvent
 )
@@ -575,7 +575,7 @@ break
 Internal
 *
 /
-_onPopupHiding
+_onPopupHidden
 (
 aEvent
 )
@@ -587,7 +587,7 @@ originalTarget
 removeEventListener
 (
 "
-popuphiding
+popuphidden
 "
 this
 true
@@ -817,10 +817,12 @@ visible
 .
 if
 (
-!
 previouslyShown
 )
 {
+return
+;
+}
 /
 /
 Cleanup
@@ -836,7 +838,7 @@ _panel
 addEventListener
 (
 "
-popuphiding
+popuphidden
 "
 this
 true
@@ -962,7 +964,6 @@ false
 false
 )
 ;
-}
 }
 /
 *
