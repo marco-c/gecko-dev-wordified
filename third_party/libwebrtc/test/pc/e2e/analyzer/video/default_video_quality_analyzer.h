@@ -624,9 +624,7 @@ GetKnownStreams
 )
 const
 ;
-const
 FrameCounters
-&
 GetGlobalCounters
 (
 )
