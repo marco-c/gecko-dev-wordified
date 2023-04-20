@@ -493,12 +493,6 @@ release
 "
 mozilla
 -
-esr91
-"
-            
-"
-mozilla
--
 esr102
 "
             
@@ -506,12 +500,6 @@ esr102
 comm
 -
 beta
-"
-            
-"
-comm
--
-esr91
 "
             
 "
@@ -726,12 +714,6 @@ release
 "
 mozilla
 -
-esr91
-"
-            
-"
-mozilla
--
 esr102
 "
             
@@ -739,12 +721,6 @@ esr102
 comm
 -
 beta
-"
-            
-"
-comm
--
-esr91
 "
             
 "
@@ -1037,31 +1013,7 @@ release
 "
 comm
 -
-esr91
-"
-            
-"
-comm
--
 esr102
-"
-        
-}
-    
-]
-    
-[
-        
-"
-esr91
-"
-        
-{
-            
-"
-mozilla
--
-esr91
 "
         
 }
@@ -1152,18 +1104,6 @@ balrog
 server
 :
 release
-"
-    
-"
-esr91
-"
-:
-"
-balrog
-:
-server
-:
-esr
 "
     
 "
