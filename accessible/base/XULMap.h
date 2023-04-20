@@ -104,7 +104,7 @@ XULColumAccessible
 XULMAP_TYPE
 (
 menu
-XULMenuitemAccessibleWrap
+XULMenuitemAccessible
 )
 XULMAP_TYPE
 (
@@ -114,12 +114,12 @@ XULMenubarAccessible
 XULMAP_TYPE
 (
 menucaption
-XULMenuitemAccessibleWrap
+XULMenuitemAccessible
 )
 XULMAP_TYPE
 (
 menuitem
-XULMenuitemAccessibleWrap
+XULMenuitemAccessible
 )
 XULMAP_TYPE
 (
@@ -149,7 +149,7 @@ XULRadioGroupAccessible
 XULMAP_TYPE
 (
 richlistbox
-XULListboxAccessibleWrap
+XULListboxAccessible
 )
 XULMAP_TYPE
 (
@@ -435,7 +435,7 @@ nullptr
 }
 return
 new
-ImageAccessibleWrap
+ImageAccessible
 (
 aElement
 aContext
@@ -740,7 +740,7 @@ accessible
 .
 return
 new
-XULTreeGridAccessibleWrap
+XULTreeGridAccessible
 (
 aElement
 aContext

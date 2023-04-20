@@ -366,7 +366,7 @@ DocAccessible
 aDoc
 )
 :
-ImageAccessibleWrap
+ImageAccessible
 (
 aContent
 aDoc

@@ -109,7 +109,7 @@ h
 #
 include
 "
-ImageAccessibleWrap
+ImageAccessible
 .
 h
 "
@@ -136,7 +136,7 @@ HTMLImageMapAccessible
 final
 :
 public
-ImageAccessibleWrap
+ImageAccessible
 {
 public
 :
@@ -159,7 +159,7 @@ collector
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLImageMapAccessible
-ImageAccessibleWrap
+ImageAccessible
 )
 /
 /
