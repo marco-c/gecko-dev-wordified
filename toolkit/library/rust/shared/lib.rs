@@ -421,10 +421,6 @@ qcms
 ;
 extern
 crate
-wpf_gpu_raster
-;
-extern
-crate
 unic_langid
 ;
 extern

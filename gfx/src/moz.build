@@ -295,11 +295,6 @@ CompositorHitTestInfo
 .
 h
 "
-"
-WPFGpuRaster
-.
-h
-"
 ]
 if
 CONFIG
