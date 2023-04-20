@@ -172,10 +172,10 @@ class
 Record
 ;
 class
-HeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
+ByteStringSequenceSequenceOrByteStringByteStringRecord
 ;
 class
-OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
+OwningByteStringSequenceSequenceOrByteStringByteStringRecord
 ;
 /
 *
@@ -245,7 +245,7 @@ public
 nsWrapperCache
 {
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 Headers
 )
@@ -331,7 +331,7 @@ aGlobal
 const
 Optional
 <
-HeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
+ByteStringSequenceSequenceOrByteStringByteStringRecord
 >
 &
 aInit
@@ -352,7 +352,7 @@ GlobalObject
 &
 aGlobal
 const
-OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
+OwningByteStringSequenceSequenceOrByteStringByteStringRecord
 &
 aInit
 ErrorResult
@@ -371,7 +371,7 @@ nsIGlobalObject
 *
 aGlobalObject
 const
-OwningHeadersOrByteStringSequenceSequenceOrByteStringByteStringRecord
+OwningByteStringSequenceSequenceOrByteStringByteStringRecord
 &
 aInit
 ErrorResult
