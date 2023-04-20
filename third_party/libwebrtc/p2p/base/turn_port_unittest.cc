@@ -4775,12 +4775,11 @@ an
 unknown
 address
 .
-turn_port_
+conn2
 -
 >
-DestroyConnection
+Destroy
 (
-conn2
 )
 ;
 conn1
@@ -9699,7 +9698,7 @@ fake_clock_
 turn_port_
 -
 >
-CloseForTest
+Close
 (
 )
 ;
