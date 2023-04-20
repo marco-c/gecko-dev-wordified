@@ -780,7 +780,7 @@ k
 {
 multiplier
 =
-1024
+1000
 ;
 value
 =
@@ -812,9 +812,9 @@ m
 {
 multiplier
 =
-1024
+1000
 *
-1024
+1000
 ;
 value
 =

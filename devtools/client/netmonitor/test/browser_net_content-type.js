@@ -809,11 +809,13 @@ getFormatStrWithNumbers
 "
 networkMenu
 .
-sizeKB
+size
+.
+kB
 "
 10
 .
-73
+99
 )
 time
 :
