@@ -2516,11 +2516,8 @@ engine
 "
 )
 ;
-MOZ_CRASH
-(
-)
-;
-break
+return
+false
 ;
 }
 engine
