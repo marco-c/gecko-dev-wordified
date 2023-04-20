@@ -207,7 +207,7 @@ mShortWriteOriginalAmount
 )
 mKEAUsed
 (
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 KEY_EXCHANGE_UNKNOWN
@@ -218,7 +218,7 @@ mKEAKeyBits
 )
 mMACAlgorithmUsed
 (
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 SSL_MAC_UNKNOWN
@@ -268,7 +268,7 @@ NS_IMPL_ISUPPORTS_INHERITED
 (
 NSSSocketControl
 TransportSecurityInfo
-nsISSLSocketControl
+nsITLSSocketControl
 )
 NS_IMETHODIMP
 NSSSocketControl

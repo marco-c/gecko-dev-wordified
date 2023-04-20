@@ -175,7 +175,7 @@ NS_IMPL_ISUPPORTS_INHERITED
 (
 CommonSocketControl
 TransportSecurityInfo
-nsISSLSocketControl
+nsITLSSocketControl
 )
 CommonSocketControl
 :
@@ -204,7 +204,7 @@ false
 )
 mSSLVersionUsed
 (
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 SSL_VERSION_UNKNOWN
