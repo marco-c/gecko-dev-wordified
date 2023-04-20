@@ -12363,6 +12363,9 @@ WaylandPopupIsFirst
 &
 &
 !
+popup
+-
+>
 mWaylandPopupPrev
 -
 >
@@ -12372,6 +12375,9 @@ WaylandPopupIsFirst
 &
 &
 !
+popup
+-
+>
 mWaylandPopupPrev
 -
 >
