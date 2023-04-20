@@ -1224,7 +1224,7 @@ uint64_t
 domOther
 ;
 uint64_t
-GCHeapUsage
+jsMemUsage
 ;
 }
 ;

@@ -487,7 +487,7 @@ entry
 .
 memoryInfo
 .
-GCHeapUsage
+jsMemUsage
 ;
 mediaMemory
 +

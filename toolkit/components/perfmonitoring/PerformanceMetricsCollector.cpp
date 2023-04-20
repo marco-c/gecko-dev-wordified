@@ -1017,7 +1017,7 @@ data
 >
 mMemoryInfo
 .
-mGCHeapUsage
+mJsMemUsage
 =
 result
 .
@@ -1025,7 +1025,7 @@ memory
 (
 )
 .
-GCHeapUsage
+jsMemUsage
 (
 )
 ;
