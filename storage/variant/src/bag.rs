@@ -115,12 +115,6 @@ mut
 const
 nsIWritablePropertyBag
 )
--
->
-libc
-:
-:
-c_void
 ;
 }
 /
