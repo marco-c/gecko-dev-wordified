@@ -1072,7 +1072,10 @@ InsertTextAt
 (
 data
 aDroppedAt
-false
+DeleteSelectedContent
+:
+:
+No
 )
 ;
 if
@@ -1101,7 +1104,13 @@ EditorBase
 :
 InsertTextAt
 (
+DeleteSelectedContent
+:
+:
+No
 )
+"
+"
 failed
 but
 ignored
