@@ -2641,6 +2641,14 @@ TieTag
 tie_tag
 )
 {
+metrics_
+.
+uses_message_interleaving
+=
+capabilities
+.
+message_interleaving
+;
 tcb_
 =
 std
