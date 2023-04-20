@@ -2359,16 +2359,6 @@ nsAtom
 aName
 )
 ;
-const
-RawServoScrollTimelineRule
-*
-ScrollTimelineRuleForName
-(
-nsAtom
-*
-aName
-)
-;
 /
 /
 Get
