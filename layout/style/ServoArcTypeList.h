@@ -358,11 +358,6 @@ RawServoKeyframesRule
 )
 SERVO_ARC_TYPE
 (
-ScrollTimelineRule
-RawServoScrollTimelineRule
-)
-SERVO_ARC_TYPE
-(
 LayerBlockRule
 RawServoLayerBlockRule
 )

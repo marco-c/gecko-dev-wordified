@@ -478,13 +478,6 @@ template
 struct
 StyleStrong
 <
-RawServoScrollTimelineRule
->
-;
-template
-struct
-StyleStrong
-<
 RawServoContainerRule
 >
 ;

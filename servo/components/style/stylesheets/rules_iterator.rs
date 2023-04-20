@@ -481,14 +481,6 @@ _
 CssRule
 :
 :
-ScrollTimeline
-(
-_
-)
-|
-CssRule
-:
-:
 Page
 (
 _
