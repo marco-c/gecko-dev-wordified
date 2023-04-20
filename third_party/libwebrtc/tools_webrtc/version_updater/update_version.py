@@ -251,7 +251,7 @@ UPDATE_BRANCH_NAME
 active_branch
 =
 '
-master
+main
 '
   
 if
