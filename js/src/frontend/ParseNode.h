@@ -6798,6 +6798,16 @@ left
 right
 )
 {
+MOZ_ASSERT
+(
+is
+<
+AssignmentNode
+>
+(
+)
+)
+;
 }
 static
 bool
