@@ -1155,8 +1155,9 @@ network_
 >
 GetCost
 (
-*
-field_trials_
+field_trials
+(
+)
 )
 ;
 thread_
@@ -6296,8 +6297,9 @@ network_
 >
 GetCost
 (
-*
-field_trials_
+field_trials
+(
+)
 )
 ;
 if
