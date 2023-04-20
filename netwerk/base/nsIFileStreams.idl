@@ -155,7 +155,6 @@ file
 /
 [
 scriptable
-builtinclass
 uuid
 (
 e3d56a20
@@ -672,7 +671,6 @@ file
 /
 [
 scriptable
-builtinclass
 uuid
 (
 e734cac9
@@ -1005,7 +1003,6 @@ file
 /
 [
 scriptable
-builtinclass
 uuid
 (
 82cf605a
@@ -1406,7 +1403,6 @@ example
 /
 [
 scriptable
-builtinclass
 uuid
 (
 07f679e4
@@ -1531,7 +1527,6 @@ getFileDescriptor
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 de15b80b
