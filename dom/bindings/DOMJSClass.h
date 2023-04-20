@@ -4076,7 +4076,6 @@ eGlobalInstance
 eInterface
 eInterfacePrototype
 eGlobalInterfacePrototype
-eNamespace
 eNamedPropertiesObject
 }
 ;
@@ -4811,12 +4810,11 @@ mBase
 /
 Either
 eInterface
-eNamespace
 eInterfacePrototype
-/
-/
 eGlobalInterfacePrototype
 or
+/
+/
 eNamedPropertiesObject
 .
 DOMObjectType

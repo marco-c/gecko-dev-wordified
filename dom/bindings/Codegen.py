@@ -6384,15 +6384,9 @@ None
                 
 classString
 =
-self
-.
-descriptor
-.
-interface
-.
-identifier
-.
-name
+"
+Object
+"
             
 else
 :
@@ -6540,9 +6534,7 @@ objectOps
               
 }
               
-{
-type
-}
+eInterface
               
 {
 needsHasInstance
@@ -6599,28 +6591,6 @@ descriptor
 objectOps
 =
 objectOps
-            
-type
-=
-"
-eNamespace
-"
-            
-if
-self
-.
-descriptor
-.
-interface
-.
-isNamespace
-(
-)
-            
-else
-"
-eInterface
-"
             
 needsHasInstance
 =
