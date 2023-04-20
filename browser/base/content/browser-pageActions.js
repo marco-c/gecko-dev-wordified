@@ -2109,7 +2109,7 @@ anchorNode
 position
 :
 "
-bottomcenter
+bottomright
 topright
 "
 triggerEvent
@@ -5633,7 +5633,7 @@ mainButtonNode
 position
 :
 "
-bottomcenter
+bottomright
 topright
 "
 triggerEvent

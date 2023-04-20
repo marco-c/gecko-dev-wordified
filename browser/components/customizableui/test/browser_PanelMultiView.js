@@ -461,7 +461,7 @@ gPanelAnchors
 panelIndex
 ]
 "
-bottomcenter
+bottomright
 topright
 "
 )
@@ -2651,7 +2651,7 @@ gPanelAnchors
 0
 ]
 "
-bottomcenter
+bottomright
 topright
 "
 )
@@ -3073,7 +3073,7 @@ gPanelAnchors
 0
 ]
 "
-bottomcenter
+bottomright
 topright
 "
 )

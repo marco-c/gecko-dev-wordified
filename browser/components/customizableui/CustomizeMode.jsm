@@ -16477,7 +16477,7 @@ explicitly
 position
 =
 "
-leftcenter
+topleft
 topright
 "
 ;
@@ -16497,7 +16497,7 @@ else
 position
 =
 "
-rightcenter
+topright
 topleft
 "
 ;

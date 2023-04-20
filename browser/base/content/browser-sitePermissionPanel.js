@@ -274,7 +274,7 @@ null
 _popupPosition
 :
 "
-bottomcenter
+bottomleft
 topleft
 "
 setAnchor
