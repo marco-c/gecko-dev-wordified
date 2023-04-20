@@ -626,8 +626,9 @@ scoped_refptr
 RtpVideoStreamReceiverFrameTransformerDelegate
 >
 delegate
-=
+(
 this
+)
 ;
 network_thread_
 -
