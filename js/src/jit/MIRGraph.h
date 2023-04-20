@@ -4416,18 +4416,6 @@ BytecodeSite
 *
 trackedSite_
 ;
-#
-if
-defined
-(
-JS_ION_PERF
-)
-|
-|
-defined
-(
-DEBUG
-)
 unsigned
 lineno_
 ;
@@ -4480,8 +4468,6 @@ return
 columnIndex_
 ;
 }
-#
-endif
 }
 ;
 using
