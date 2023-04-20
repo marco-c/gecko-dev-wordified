@@ -2460,11 +2460,6 @@ GetNegotiatedRtpHeaderExtensions
 const
 override
 ;
-bool
-has_received_packet_
-=
-false
-;
 private
 :
 bool
@@ -2569,6 +2564,11 @@ std
 :
 string
 content_name_
+;
+bool
+has_received_packet_
+=
+false
 ;
 /
 /
