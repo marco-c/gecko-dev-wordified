@@ -1067,13 +1067,6 @@ secInfo
 aChannel
 .
 securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
 ;
 let
 cert

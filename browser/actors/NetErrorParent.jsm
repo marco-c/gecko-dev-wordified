@@ -1297,13 +1297,6 @@ request
 channel
 .
 securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
 ;
 if
 (

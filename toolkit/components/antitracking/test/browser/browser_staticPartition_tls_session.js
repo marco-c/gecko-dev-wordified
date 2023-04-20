@@ -279,13 +279,6 @@ subject
 .
 securityInfo
 .
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-.
 peerId
 )
 ;

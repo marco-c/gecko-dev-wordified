@@ -552,15 +552,6 @@ return
 retval
 ;
 }
-secInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-;
 let
 cert
 =

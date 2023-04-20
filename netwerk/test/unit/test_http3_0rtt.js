@@ -183,15 +183,6 @@ request
 .
 securityInfo
 ;
-secinfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-;
 Assert
 .
 equal

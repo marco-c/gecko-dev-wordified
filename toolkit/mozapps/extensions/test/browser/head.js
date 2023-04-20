@@ -3665,13 +3665,6 @@ req
 channel
 .
 securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
 ;
 if
 (

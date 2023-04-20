@@ -2076,15 +2076,6 @@ return
 null
 ;
 }
-securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-;
 if
 (
 !

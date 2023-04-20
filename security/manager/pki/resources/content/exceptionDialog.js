@@ -664,13 +664,6 @@ req
 channel
 .
 securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
 ;
 gCert
 =
