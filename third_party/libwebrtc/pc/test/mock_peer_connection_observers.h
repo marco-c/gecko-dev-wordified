@@ -508,6 +508,10 @@ const
 {
 return
 remote_streams_
+.
+get
+(
+)
 ;
 }
 void
@@ -561,6 +565,10 @@ remote_streams_
 RemoveStream
 (
 stream
+.
+get
+(
+)
 )
 ;
 }

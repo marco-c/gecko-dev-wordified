@@ -4211,6 +4211,10 @@ this
 configuration
 dependencies
 context_
+.
+get
+(
+)
 )
 ;
 rtp_manager_
@@ -5719,6 +5723,10 @@ rtp_manager
 FindSenderForTrack
 (
 track
+.
+get
+(
+)
 )
 )
 {
@@ -5785,6 +5793,10 @@ stats_
 AddTrack
 (
 track
+.
+get
+(
+)
 )
 ;
 }
@@ -6014,6 +6026,10 @@ internal
 RemoveSender
 (
 sender
+.
+get
+(
+)
 )
 ;
 }
@@ -6053,6 +6069,10 @@ internal
 RemoveSender
 (
 sender
+.
+get
+(
+)
 )
 ;
 }

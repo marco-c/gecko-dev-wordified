@@ -211,6 +211,10 @@ at
 (
 index
 )
+.
+get
+(
+)
 ;
 }
 virtual
@@ -281,6 +285,10 @@ return
 *
 it
 )
+.
+get
+(
+)
 ;
 }
 }
@@ -335,6 +343,10 @@ i
 FindAudioTrack
 (
 id
+)
+.
+get
+(
 )
 ;
 if
@@ -398,6 +410,10 @@ i
 FindVideoTrack
 (
 id
+)
+.
+get
+(
 )
 ;
 if

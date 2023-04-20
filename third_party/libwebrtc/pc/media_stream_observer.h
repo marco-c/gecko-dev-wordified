@@ -222,6 +222,10 @@ const
 {
 return
 stream_
+.
+get
+(
+)
 ;
 }
 void

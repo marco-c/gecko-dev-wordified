@@ -2286,6 +2286,10 @@ result
 value
 (
 )
+.
+get
+(
+)
 )
 ;
 auto

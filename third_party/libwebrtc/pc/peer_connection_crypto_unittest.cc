@@ -835,6 +835,10 @@ result
 value
 (
 )
+.
+get
+(
+)
 )
 ;
 return
@@ -4732,6 +4736,10 @@ pc
 CreateOffer
 (
 observer
+.
+get
+(
+)
 PeerConnectionInterface
 :
 :
@@ -4754,6 +4762,10 @@ pc
 CreateAnswer
 (
 observer
+.
+get
+(
+)
 PeerConnectionInterface
 :
 :

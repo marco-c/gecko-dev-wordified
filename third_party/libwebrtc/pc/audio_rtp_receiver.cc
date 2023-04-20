@@ -1625,6 +1625,10 @@ existing_stream
 RemoveTrack
 (
 track_
+.
+get
+(
+)
 )
 ;
 }
@@ -1717,6 +1721,10 @@ stream
 AddTrack
 (
 track_
+.
+get
+(
+)
 )
 ;
 }

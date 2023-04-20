@@ -1147,6 +1147,10 @@ RTCCertificate
 >
 (
 certificate
+.
+get
+(
+)
 )
 )
 ;
@@ -2253,6 +2257,10 @@ PostCreateSessionDescriptionFailed
 request
 .
 observer
+.
+get
+(
+)
 "
 Failed
 to
@@ -2474,6 +2482,10 @@ PostCreateSessionDescriptionSucceeded
 request
 .
 observer
+.
+get
+(
+)
 std
 :
 :
@@ -2733,6 +2745,10 @@ PostCreateSessionDescriptionFailed
 request
 .
 observer
+.
+get
+(
+)
 "
 Failed
 to
@@ -2971,6 +2987,10 @@ PostCreateSessionDescriptionSucceeded
 request
 .
 observer
+.
+get
+(
+)
 std
 :
 :
@@ -3027,6 +3047,10 @@ PostCreateSessionDescriptionFailed
 request
 .
 observer
+.
+get
+(
+)
 (
 (
 request
