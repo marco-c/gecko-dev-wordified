@@ -518,6 +518,12 @@ Count
 0
 )
 ;
+MOZ_ASSERT
+(
+!
+mBrowsingContext
+)
+;
 mShutdown
 =
 true
