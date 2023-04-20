@@ -84,6 +84,10 @@ from
 collections
 import
 namedtuple
+from
+redo
+import
+retriable
 import
 mozfile
 import
@@ -1909,6 +1913,19 @@ self
 _dump_files
 =
 None
+    
+retriable
+(
+attempts
+=
+5
+sleeptime
+=
+5
+sleepscale
+=
+2
+)
     
 def
 _get_symbols
