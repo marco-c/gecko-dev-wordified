@@ -98,6 +98,15 @@ objc_frame_buffer
 h
 "
 #
+include
+"
+api
+/
+make_ref_counted
+.
+h
+"
+#
 import
 "
 base

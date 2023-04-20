@@ -133,15 +133,6 @@ checks
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-ref_counted_object
-.
-h
-"
 namespace
 webrtc
 {

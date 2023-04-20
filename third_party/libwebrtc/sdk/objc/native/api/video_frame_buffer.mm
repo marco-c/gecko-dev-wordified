@@ -100,6 +100,15 @@ h
 #
 include
 "
+api
+/
+make_ref_counted
+.
+h
+"
+#
+include
+"
 sdk
 /
 objc

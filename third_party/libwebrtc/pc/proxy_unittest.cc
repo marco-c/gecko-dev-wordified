@@ -104,6 +104,15 @@ string
 #
 include
 "
+api
+/
+make_ref_counted
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 gunit

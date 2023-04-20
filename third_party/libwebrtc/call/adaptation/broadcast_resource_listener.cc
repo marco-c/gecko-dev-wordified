@@ -122,9 +122,9 @@ h
 #
 include
 "
-rtc_base
+api
 /
-checks
+make_ref_counted
 .
 h
 "
@@ -133,7 +133,7 @@ include
 "
 rtc_base
 /
-ref_counted_object
+checks
 .
 h
 "
