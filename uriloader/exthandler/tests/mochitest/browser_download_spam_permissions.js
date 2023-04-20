@@ -533,9 +533,10 @@ DownloadIntegration
 .
 downloadSpamProtection
 .
-clearDownloadSpam
+removeDownloadSpamForWindow
 (
 TEST_URI
+window
 )
 ;
 DownloadsPanel
