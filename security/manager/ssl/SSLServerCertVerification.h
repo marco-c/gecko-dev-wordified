@@ -361,6 +361,8 @@ bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
 aProviderFlags
+bool
+aMadeOCSPRequests
 )
 =
 0
@@ -491,6 +493,8 @@ bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
 aProviderFlags
+bool
+aMadeOCSPRequests
 )
 override
 ;
@@ -551,6 +555,9 @@ mIsBuiltCertChainRootBuiltInRoot
 ;
 uint32_t
 mProviderFlags
+;
+bool
+mMadeOCSPRequests
 ;
 }
 ;

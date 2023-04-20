@@ -700,6 +700,13 @@ SECMOD_FindModule
 kRootModuleName
 )
 )
+mOCSPFetchStatus
+(
+OCSPFetchStatus
+:
+:
+NotFetched
+)
 {
 }
 static
@@ -6805,6 +6812,13 @@ ocspResponse
 ;
 Input
 response
+;
+mOCSPFetchStatus
+=
+OCSPFetchStatus
+:
+:
+Fetched
 ;
 rv
 =
