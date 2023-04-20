@@ -1882,6 +1882,15 @@ jitter_buffer_target_delay_ms
 acm_stat
 -
 >
+jitterBufferMinimumDelayMs
+=
+neteq_lifetime_stat
+.
+jitter_buffer_minimum_delay_ms
+;
+acm_stat
+-
+>
 jitterBufferEmittedCount
 =
 neteq_lifetime_stat

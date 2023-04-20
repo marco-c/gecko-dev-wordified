@@ -3181,6 +3181,12 @@ jitter_buffer_target_delay
 ;
 RTCStatsMember
 <
+double
+>
+jitter_buffer_minimum_delay
+;
+RTCStatsMember
+<
 uint64_t
 >
 jitter_buffer_emitted_count

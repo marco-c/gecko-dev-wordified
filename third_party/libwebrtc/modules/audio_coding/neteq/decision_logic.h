@@ -580,6 +580,13 @@ TargetLevelMs
 const
 override
 ;
+int
+UnlimitedTargetLevelMs
+(
+)
+const
+override
+;
 absl
 :
 :
