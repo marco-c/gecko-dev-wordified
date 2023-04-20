@@ -3162,7 +3162,11 @@ stored_packet
 packet_
 -
 >
-capture_time_ms
+capture_time
+(
+)
+.
+ms
 (
 )
 ;
