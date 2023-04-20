@@ -74,15 +74,6 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FormValidationParent
-"
-]
-;
 const
 lazy
 =
@@ -248,6 +239,7 @@ nsISupportsWeakReference
 )
 ;
 }
+export
 class
 FormValidationParent
 extends

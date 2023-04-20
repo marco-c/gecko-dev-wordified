@@ -3542,7 +3542,7 @@ FormValidation
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3554,13 +3554,15 @@ actors
 /
 FormValidationParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3572,7 +3574,9 @@ actors
 /
 FormValidationChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

@@ -85,15 +85,6 @@ elements
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FormValidationChild
-"
-]
-;
 const
 {
 LayoutUtils
@@ -118,6 +109,7 @@ jsm
 "
 )
 ;
+export
 class
 FormValidationChild
 extends
