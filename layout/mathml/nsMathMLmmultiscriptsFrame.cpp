@@ -1770,7 +1770,10 @@ font
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_NORMAL
+StyleMathStyle
+:
+:
+Normal
 &
 &
 !
