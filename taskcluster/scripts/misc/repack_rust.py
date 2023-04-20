@@ -118,11 +118,9 @@ contextlib
 import
 contextmanager
 import
-pytoml
-as
-toml
-import
 requests
+import
+toml
 import
 zstandard
 def
@@ -2531,7 +2529,7 @@ loads
 (
 req
 .
-content
+text
 )
     
 if

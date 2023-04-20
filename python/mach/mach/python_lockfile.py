@@ -64,7 +64,7 @@ pathlib
 import
 Path
 import
-pytoml
+toml
 from
 packaging
 .
@@ -435,12 +435,12 @@ as
 pyproject_file
 :
             
-pytoml
+toml
 .
 dump
 (
-pyproject_file
 pyproject
+pyproject_file
 )
         
 self

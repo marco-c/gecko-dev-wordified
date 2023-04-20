@@ -70,9 +70,9 @@ path
 as
 mozpath
 import
-pytoml
-import
 six
+import
+toml
 #
 Try
 to
@@ -127,7 +127,7 @@ f
 :
             
 return
-pytoml
+toml
 .
 load
 (

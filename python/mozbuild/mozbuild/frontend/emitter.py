@@ -100,7 +100,7 @@ mozpath
 import
 mozinfo
 import
-pytoml
+toml
 from
 .
 data
@@ -3735,7 +3735,7 @@ f
 :
             
 return
-pytoml
+toml
 .
 load
 (

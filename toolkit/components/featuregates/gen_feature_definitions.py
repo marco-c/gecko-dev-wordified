@@ -65,11 +65,11 @@ MPL
 import
 json
 import
-pytoml
-import
 re
 import
 sys
+import
+toml
 import
 voluptuous
 import
@@ -582,6 +582,8 @@ file
 }
 "
 :
+\
+n
 '
 .
 format
@@ -766,7 +768,7 @@ f
                 
 feature_data
 =
-pytoml
+toml
 .
 load
 (
@@ -817,13 +819,21 @@ feature
         
 except
 (
+            
 voluptuous
 .
 error
 .
 Error
+            
 IOError
+            
 FeatureGateException
+            
+toml
+.
+TomlDecodeError
+        
 )
 as
 e
@@ -852,29 +862,6 @@ FeatureGateException
 e
 filename
 )
-)
-        
-except
-pytoml
-.
-TomlError
-as
-e
-:
-            
-#
-Toml
-errors
-have
-file
-information
-already
-            
-errors
-.
-append
-(
-e
 )
     
 if
