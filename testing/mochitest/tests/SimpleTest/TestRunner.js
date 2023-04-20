@@ -2030,7 +2030,7 @@ TestRunner
 .
 structuredLogger
 .
-_logData
+logData
 (
 "
 buffering_off
@@ -2053,7 +2053,7 @@ TestRunner
 .
 structuredLogger
 .
-_logData
+logData
 (
 "
 buffering_on

@@ -6713,7 +6713,7 @@ else
 {
 logger
 .
-_logData
+logData
 (
 '
 results
