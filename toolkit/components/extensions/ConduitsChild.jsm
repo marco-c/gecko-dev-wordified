@@ -108,7 +108,7 @@ object
 }
 MessageData
 *
-prop
+property
 {
 ConduitID
 }
@@ -116,7 +116,7 @@ ConduitID
 target
 ]
 *
-prop
+property
 {
 ConduitID
 }
@@ -124,13 +124,13 @@ ConduitID
 sender
 ]
 *
-prop
+property
 {
 boolean
 }
 query
 *
-prop
+property
 {
 object
 }
@@ -397,6 +397,7 @@ message
 query
 .
 *
+*
 param
 {
 string
@@ -482,6 +483,7 @@ on
 the
 message
 .
+*
 *
 param
 {
@@ -695,6 +697,7 @@ sendX
 stubs
 .
 *
+*
 param
 {
 string
@@ -800,6 +803,7 @@ side
 by
 default
 .
+*
 *
 param
 {
@@ -952,9 +956,10 @@ is
 closed
 .
 *
+*
 param
 {
-function
+Function
 }
 callback
 *
@@ -1032,6 +1037,7 @@ a
 conduit
 .
 *
+*
 param
 {
 object
@@ -1098,10 +1104,19 @@ target
 subject
 .
 *
+*
+param
+{
+object
+}
+options
+*
 param
 {
 string
 }
+options
+.
 name
 *
 param
@@ -1112,6 +1127,8 @@ MessageData
 [
 ]
 }
+options
+.
 data
 *
 returns

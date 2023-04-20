@@ -323,6 +323,8 @@ param
 {
 string
 }
+params
+.
 queryphrase
 -
 the
@@ -336,6 +338,8 @@ param
 {
 boolean
 }
+params
+.
 caseSensitive
 -
 whether
@@ -350,6 +354,8 @@ param
 {
 boolean
 }
+params
+.
 includeRangeData
 -
 whether
@@ -365,6 +371,8 @@ param
 {
 boolean
 }
+params
+.
 matchDiacritics
 -
 whether
@@ -377,6 +385,8 @@ param
 {
 boolean
 }
+params
+.
 searchString
 -
 whether
@@ -658,7 +668,7 @@ results
 *
 returns
 {
-array
+Array
 }
 -
 serializable
@@ -991,7 +1001,7 @@ results
 *
 returns
 {
-array
+Array
 }
 rectData
 -

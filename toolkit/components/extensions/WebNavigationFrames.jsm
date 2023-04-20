@@ -95,7 +95,7 @@ APIs
 *
 typedef
 {
-Object
+object
 }
 FrameDetail
 *
@@ -381,6 +381,7 @@ internal
 FrameDetail
 json
 .
+*
 *
 param
 {

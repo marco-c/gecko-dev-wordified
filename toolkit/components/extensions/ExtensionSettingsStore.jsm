@@ -110,7 +110,7 @@ strict
 *
 *
 *
-fileOverview
+file
 *
 This
 module
@@ -1291,7 +1291,7 @@ setting
 *
 returns
 {
-array
+Array
 }
 an
 array
@@ -2325,7 +2325,7 @@ setting
 *
 param
 {
-function
+Function
 }
 initialValueCallback
 *
@@ -2395,7 +2395,7 @@ argument
 *
 param
 {
-function
+Function
 }
 settingDataUpdate
 *
@@ -3517,7 +3517,7 @@ returned
 *
 returns
 {
-array
+Array
 }
 *
 A
@@ -3793,7 +3793,7 @@ setting
 *
 returns
 {
-array
+Array
 }
 an
 array

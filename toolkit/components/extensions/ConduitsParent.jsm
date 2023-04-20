@@ -206,7 +206,7 @@ object
 }
 ConduitAddress
 *
-prop
+property
 {
 ConduitID
 }
@@ -218,7 +218,7 @@ all
 processes
 .
 *
-prop
+property
 {
 string
 [
@@ -228,7 +228,7 @@ string
 recv
 ]
 *
-prop
+property
 {
 string
 [
@@ -238,7 +238,7 @@ string
 send
 ]
 *
-prop
+property
 {
 string
 [
@@ -248,7 +248,7 @@ string
 query
 ]
 *
-prop
+property
 {
 string
 [
@@ -298,8 +298,10 @@ filters
 *
 *
 example
-:
 *
+js
+*
+{
 *
 init
 (
@@ -379,6 +381,8 @@ num
 }
 )
 ;
+*
+}
 *
 }
 *
@@ -509,11 +513,13 @@ Hub
 *
 *
 type
+{
 Map
 <
 ConduitID
 ConduitAddress
 >
+}
 Info
 about
 all
@@ -532,11 +538,13 @@ Map
 *
 *
 type
+{
 Map
 <
 ConduitID
 BroadcastConduit
 >
+}
 All
 open
 parent
@@ -554,11 +562,13 @@ Map
 *
 *
 type
+{
 Map
 <
 string
 BroadcastConduit
 >
+}
 Parent
 conduits
 by
@@ -576,6 +586,7 @@ Map
 *
 *
 type
+{
 WeakMap
 <
 ConduitsParent
@@ -584,6 +595,7 @@ Set
 ConduitAddress
 >
 >
+}
 Conduits
 by
 actor
@@ -608,11 +620,13 @@ Set
 *
 *
 type
+{
 Map
 <
 string
 BroadcastConduit
 >
+}
 *
 /
 reportOnClosed
@@ -639,6 +653,7 @@ a
 global
 listener
 .
+*
 *
 param
 {
@@ -741,6 +756,7 @@ conduit
 Cleanup
 .
 *
+*
 param
 {
 BroadcastConduit
@@ -808,6 +824,7 @@ background
 service
 worker
 .
+*
 *
 see
 ExtensionPolicyService
@@ -960,6 +977,7 @@ background
 service
 worker
 .
+*
 *
 see
 ExtensionPolicyService
@@ -1193,6 +1211,7 @@ parent
 process
 .
 *
+*
 param
 {
 ConduitAddress
@@ -1363,6 +1382,7 @@ remote
 conduit
 .
 *
+*
 param
 {
 ConduitAddress
@@ -1433,6 +1453,7 @@ conduit
 is
 closed
 .
+*
 *
 param
 {
@@ -1530,6 +1551,7 @@ actor
 goes
 away
 .
+*
 *
 param
 {
@@ -1825,6 +1847,7 @@ sendX
 stubs
 .
 *
+*
 param
 {
 string
@@ -2005,6 +2028,7 @@ of
 response
 promises
 .
+*
 *
 param
 {
@@ -2373,6 +2397,7 @@ and
 errors
 .
 *
+*
 param
 {
 Promise
@@ -2676,6 +2701,7 @@ IPC
 overhead
 .
 *
+*
 param
 {
 string
@@ -2900,16 +2926,27 @@ target
 subject
 .
 *
+*
+param
+{
+object
+}
+options
+*
 param
 {
 string
 }
+options
+.
 name
 *
 param
 {
 MessageData
 }
+options
+.
 data
 *
 returns

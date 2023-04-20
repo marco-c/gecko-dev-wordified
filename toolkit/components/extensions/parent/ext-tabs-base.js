@@ -197,7 +197,7 @@ instances
 *
 typedef
 {
-Object
+object
 |
 XULElement
 }
@@ -210,7 +210,7 @@ NativeTab
 *
 typedef
 {
-Object
+object
 }
 MutedInfo
 *
@@ -540,7 +540,7 @@ page
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -3508,7 +3508,7 @@ APIs
 *
 param
 {
-Object
+object
 }
 [
 fallbackTabSize
@@ -7183,7 +7183,7 @@ window
 *
 typedef
 {
-Object
+object
 }
 TabAttachedEvent
 *
@@ -7330,7 +7330,7 @@ window
 *
 typedef
 {
-Object
+object
 }
 TabDetachedEvent
 *
@@ -7515,7 +7515,7 @@ created
 *
 typedef
 {
-Object
+object
 }
 TabCreatedEvent
 *
@@ -7569,7 +7569,7 @@ destroyed
 *
 typedef
 {
-Object
+object
 }
 TabRemovedEvent
 *
@@ -7679,7 +7679,7 @@ to
 *
 typedef
 {
-Object
+object
 }
 BrowserData
 *
@@ -8324,7 +8324,7 @@ param
 {
 function
 (
-Object
+object
 )
 }
 listener
@@ -10384,7 +10384,7 @@ addCloseListener
 *
 param
 {
-function
+Function
 |
 object
 }
@@ -10589,7 +10589,7 @@ for
 *
 param
 {
-function
+Function
 |
 object
 }
@@ -10886,7 +10886,7 @@ listener
 *
 param
 {
-function
+Function
 |
 object
 }
@@ -11572,6 +11572,7 @@ host
 permission
 .
 *
+*
 param
 {
 NativeTab
@@ -12079,7 +12080,7 @@ convert
 *
 param
 {
-Object
+object
 }
 [
 fallbackTabSize
@@ -12108,7 +12109,7 @@ yet
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -12187,7 +12188,7 @@ info
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -12592,7 +12593,7 @@ param
 {
 integer
 }
-id
+tabId
 *
 The
 ID
@@ -12860,7 +12861,7 @@ convert
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -13135,7 +13136,7 @@ info
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -13418,7 +13419,7 @@ param
 {
 integer
 }
-id
+windowId
 *
 The
 ID

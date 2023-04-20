@@ -190,6 +190,7 @@ color
 scheme
 .
 *
+*
 param
 {
 *
@@ -494,9 +495,10 @@ the
 results
 .
 *
+*
 param
 {
-Object
+object
 }
 options
 *

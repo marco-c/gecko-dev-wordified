@@ -1541,6 +1541,7 @@ background
 scripts
 .
 *
+*
 returns
 {
 Promise
@@ -4276,6 +4277,21 @@ redirect
 to
 .
 *
+param
+{
+.
+.
+.
+any
+}
+args
+*
+Extra
+parameters
+to
+ensure
+compatibility
+*
 *
 returns
 {
@@ -4285,6 +4301,8 @@ ContentPage
 /
 loadContentPage
 (
+url
+options
 .
 .
 .
@@ -4296,6 +4314,8 @@ XPCShellContentUtils
 .
 loadContentPage
 (
+url
+options
 .
 .
 .

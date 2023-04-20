@@ -175,7 +175,7 @@ incremented
 *
 param
 {
-Object
+object
 }
 snapshot
 *

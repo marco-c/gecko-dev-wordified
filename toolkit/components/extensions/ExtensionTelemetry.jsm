@@ -1039,7 +1039,7 @@ object
 *
 param
 {
-Object
+object
 }
 options
 *

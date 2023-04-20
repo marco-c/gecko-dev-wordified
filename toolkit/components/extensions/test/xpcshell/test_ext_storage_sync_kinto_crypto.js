@@ -157,9 +157,9 @@ param
 {
 string
 |
-Object
+object
 |
-function
+Function
 }
 constraint
 *
@@ -174,7 +174,7 @@ exception
 *
 param
 {
-function
+Function
 }
 f
 *

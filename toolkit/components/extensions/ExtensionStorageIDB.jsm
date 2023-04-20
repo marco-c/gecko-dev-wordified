@@ -973,8 +973,16 @@ call
 *
 param
 {
+object
+}
+options
+*
+param
+{
 string
 }
+options
+.
 extensionId
 *
 The
@@ -989,6 +997,8 @@ param
 {
 string
 }
+options
+.
 storageMethod
 *
 The
@@ -1005,6 +1015,8 @@ param
 {
 Error
 }
+options
+.
 error
 *
 The
@@ -1234,7 +1246,7 @@ options
 *
 param
 {
-function
+Function
 }
 options
 .
@@ -1968,7 +1980,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -2167,7 +2179,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -3920,7 +3932,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *

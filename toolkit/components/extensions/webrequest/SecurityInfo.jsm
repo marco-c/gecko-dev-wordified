@@ -256,14 +256,14 @@ insecure
 *
 param
 {
-Object
+object
 }
 options
 *
 *
 returns
 {
-Object
+object
 }
 *
 Returns
@@ -297,7 +297,7 @@ string
 values
 :
 *
-*
+-
 "
 insecure
 "
@@ -312,7 +312,7 @@ only
 http
 )
 *
-*
+-
 "
 weak
 "
@@ -324,7 +324,7 @@ minor
 security
 issues
 *
-*
+-
 "
 broken
 "
@@ -341,7 +341,7 @@ expired
 cert
 )
 *
-*
+-
 "
 secure
 "
@@ -1477,13 +1477,13 @@ from
 *
 param
 {
-Object
+object
 }
 options
 *
 returns
 {
-Object
+object
 }
 *
 An
@@ -1906,7 +1906,7 @@ securityState
 *
 returns
 {
-array
+Array
 <
 string
 >
@@ -1924,7 +1924,6 @@ of
 cipher
 }
 where
-*
 *
 cipher
 :

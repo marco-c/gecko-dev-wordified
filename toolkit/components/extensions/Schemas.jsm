@@ -1062,7 +1062,7 @@ param
 {
 string
 |
-Symbol
+symbol
 }
 prop
 *
@@ -1079,7 +1079,7 @@ getter
 *
 param
 {
-function
+Function
 }
 getter
 *
@@ -1317,7 +1317,7 @@ param
 {
 string
 |
-Symbol
+symbol
 }
 prop
 *
@@ -1334,7 +1334,7 @@ getter
 *
 param
 {
-function
+Function
 }
 getter
 *
@@ -2859,7 +2859,7 @@ param
 {
 string
 |
-function
+Function
 }
 errorMessage
 *
@@ -2909,7 +2909,7 @@ param
 {
 string
 |
-function
+Function
 }
 choicesMessage
 *
@@ -3734,7 +3734,7 @@ execution
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -3999,7 +3999,7 @@ component
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -20643,7 +20643,7 @@ context
 *
 param
 {
-function
+Function
 }
 wrapperFuncs
 .
@@ -21769,7 +21769,7 @@ context
 *
 param
 {
-function
+Function
 }
 wrapperFuncs
 .

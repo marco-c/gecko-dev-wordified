@@ -758,7 +758,7 @@ convert
 *
 returns
 {
-Object
+object
 }
 *
 /

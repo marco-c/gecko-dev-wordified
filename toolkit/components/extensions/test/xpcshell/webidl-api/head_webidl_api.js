@@ -619,7 +619,7 @@ test
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -629,6 +629,8 @@ param
 {
 Function
 }
+options
+.
 backgroundScript
 *
 Test
@@ -737,6 +739,8 @@ param
 {
 Function
 }
+options
+.
 assertResults
 *
 Function
@@ -842,6 +846,8 @@ param
 {
 Function
 }
+options
+.
 mockAPIRequestHandler
 *
 Function

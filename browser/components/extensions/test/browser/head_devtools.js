@@ -540,7 +540,7 @@ process
 *
 param
 {
-Object
+object
 }
 tab
 The

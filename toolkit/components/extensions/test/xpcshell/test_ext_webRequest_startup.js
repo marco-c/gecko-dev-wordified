@@ -260,6 +260,7 @@ the
 expected
 events
 *
+*
 param
 {
 Extension
@@ -274,7 +275,7 @@ events
 *
 param
 {
-Object
+object
 }
 expect
 *

@@ -671,7 +671,7 @@ param
 {
 nsIAutoCompleteInput
 |
-Object
+object
 }
 subject
 *

@@ -28,6 +28,7 @@ invalid
 properties
 .
 *
+*
 param
 {
 object

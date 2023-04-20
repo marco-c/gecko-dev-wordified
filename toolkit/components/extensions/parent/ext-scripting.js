@@ -236,7 +236,7 @@ injection
 *
 param
 {
-Object
+object
 }
 details
 *

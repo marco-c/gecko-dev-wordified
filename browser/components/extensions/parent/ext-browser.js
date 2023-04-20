@@ -1106,7 +1106,7 @@ window
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -3607,7 +3607,7 @@ break
 *
 param
 {
-Object
+object
 }
 message
 *
@@ -4250,7 +4250,7 @@ created
 *
 param
 {
-Object
+object
 }
 [
 currentTabSize
@@ -5200,7 +5200,7 @@ data
 *
 param
 {
-Object
+object
 }
 tabData
 *
@@ -5264,7 +5264,7 @@ exists
 *
 returns
 {
-Object
+object
 }
 *
 static
@@ -5608,7 +5608,7 @@ window
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6940,7 +6940,7 @@ data
 *
 param
 {
-Object
+object
 }
 windowData
 *
@@ -6965,7 +6965,7 @@ getClosedWindowData
 *
 returns
 {
-Object
+object
 }
 *
 static

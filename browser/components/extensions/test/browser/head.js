@@ -5761,7 +5761,6 @@ navigator
 toolbox
 .
 *
-*
 /
 function
 backgroundColorSetOnRoot

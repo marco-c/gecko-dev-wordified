@@ -332,7 +332,7 @@ URLs
 *
 returns
 {
-Object
+object
 }
 *
 /

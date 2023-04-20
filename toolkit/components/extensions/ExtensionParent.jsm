@@ -1838,7 +1838,7 @@ object
 }
 ParentPort
 *
-prop
+property
 {
 function
 (
@@ -1847,7 +1847,7 @@ StructuredCloneHolder
 }
 onPortMessage
 *
-prop
+property
 {
 function
 (
@@ -1860,11 +1860,13 @@ onPortDisconnect
 *
 *
 type
+{
 Map
 <
 number
 ParentPort
 >
+}
 *
 /
 ports
@@ -5198,7 +5200,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -6584,7 +6586,7 @@ call
 *
 param
 {
-function
+Function
 }
 callable
 The
@@ -8269,7 +8271,7 @@ Page
 *
 param
 {
-Object
+object
 }
 xulAttributes
 *
@@ -11024,6 +11026,12 @@ param
 object
 }
 params
+*
+param
+{
+object
+}
+params
 .
 extension
 *
@@ -11100,7 +11108,7 @@ watching
 *
 param
 {
-function
+Function
 }
 onExtensionProxyContextLoaded
 *
@@ -11128,7 +11136,7 @@ context
 *
 returns
 {
-function
+Function
 }
 *
 Unsubscribe
@@ -11299,6 +11307,12 @@ param
 object
 }
 params
+*
+param
+{
+object
+}
+params
 .
 extension
 *
@@ -11320,7 +11334,7 @@ ExtensionProxyContext
 *
 param
 {
-function
+Function
 }
 onExtensionWorkerContextLoaded
 *
@@ -11349,7 +11363,7 @@ context
 *
 returns
 {
-function
+Function
 }
 *
 Unsubscribe
@@ -13949,6 +13963,7 @@ popups
 and
 sidebars
 .
+*
 *
 returns
 {

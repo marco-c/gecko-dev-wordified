@@ -1293,7 +1293,7 @@ for
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -2681,7 +2681,7 @@ constructors
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -2698,7 +2698,7 @@ constructors
 *
 param
 {
-function
+Function
 }
 [
 constructor

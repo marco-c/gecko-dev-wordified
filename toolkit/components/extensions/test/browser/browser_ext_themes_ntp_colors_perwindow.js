@@ -128,9 +128,10 @@ page
 theme
 applied
 *
+*
 param
 {
-Object
+object
 }
 browser
 to
@@ -139,7 +140,7 @@ against
 *
 param
 {
-Object
+object
 }
 theme
 that
@@ -430,9 +431,10 @@ default
 theme
 applied
 *
+*
 param
 {
-Object
+object
 }
 browser
 to

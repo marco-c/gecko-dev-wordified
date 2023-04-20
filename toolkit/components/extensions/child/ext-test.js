@@ -145,7 +145,7 @@ string
 |
 RegExp
 |
-function
+Function
 |
 null
 }

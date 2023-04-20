@@ -110,7 +110,7 @@ strict
 *
 *
 *
-fileOverview
+file
 *
 This
 module
@@ -690,7 +690,7 @@ object
 *
 returns
 {
-Object
+object
 }
 *
 An
@@ -802,7 +802,7 @@ values
 *
 param
 {
-Object
+object
 }
 initialValue
 Initial
@@ -815,7 +815,7 @@ store
 *
 returns
 {
-Object
+object
 }
 *
 The
@@ -957,7 +957,7 @@ setting
 *
 param
 {
-Object
+object
 }
 setting
 *
@@ -996,7 +996,7 @@ change
 *
 param
 {
-Object
+object
 }
 item
 *
@@ -1581,7 +1581,7 @@ setting
 *
 param
 {
-Object
+object
 }
 setting
 *
@@ -2793,6 +2793,7 @@ param
 string
 }
 id
+*
 The
 extension
 id
@@ -2800,13 +2801,13 @@ id
 *
 param
 {
-array
+Array
 <
 string
 >
 }
-*
 permissions
+*
 The
 permission
 name
@@ -2820,6 +2821,7 @@ returns
 {
 Promise
 }
+*
 A
 promise
 that
@@ -2949,7 +2951,7 @@ setting
 *
 returns
 {
-Object
+object
 }
 The
 current

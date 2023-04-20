@@ -196,7 +196,7 @@ API
 *
 param
 {
-Object
+object
 }
 value
 *

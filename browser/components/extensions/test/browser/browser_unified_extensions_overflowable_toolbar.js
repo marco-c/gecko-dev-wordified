@@ -510,7 +510,7 @@ on
 *
 param
 {
-function
+Function
 }
 taskFn
 The

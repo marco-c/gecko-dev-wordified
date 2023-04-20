@@ -30,9 +30,10 @@ sidebar
 theme
 applied
 *
+*
 param
 {
-Object
+object
 }
 theme
 that

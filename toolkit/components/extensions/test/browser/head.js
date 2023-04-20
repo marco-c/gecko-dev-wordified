@@ -800,7 +800,6 @@ navigator
 toolbox
 .
 *
-*
 /
 function
 backgroundColorSetOnRoot

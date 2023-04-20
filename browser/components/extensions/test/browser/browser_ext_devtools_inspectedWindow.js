@@ -83,7 +83,7 @@ toolbox
 *
 param
 {
-Object
+object
 }
 toolbox
 *
@@ -200,6 +200,7 @@ for
 the
 content
 browserId
+*
 *
 param
 {

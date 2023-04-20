@@ -843,7 +843,7 @@ access
 *
 param
 {
-Object
+object
 }
 fxAccounts
 The
@@ -1843,7 +1843,7 @@ ID
 *
 param
 {
-Object
+object
 }
 record
 The
@@ -2346,11 +2346,12 @@ Sqlite
 connection
 .
 *
+*
 returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -3286,11 +3287,12 @@ that
 collection
 .
 *
+*
 returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -4795,7 +4797,7 @@ opened
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -5856,7 +5858,7 @@ collection
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6357,7 +6359,7 @@ extIds
 *
 param
 {
-Object
+object
 }
 keysRecord
 A

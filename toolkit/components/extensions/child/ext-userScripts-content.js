@@ -245,7 +245,7 @@ Event
 *
 param
 {
-Object
+object
 }
 params
 *
@@ -393,7 +393,7 @@ listeners
 *
 returns
 {
-Object
+object
 }
 *
 The
@@ -477,7 +477,7 @@ object
 *
 param
 {
-Object
+object
 }
 sourceObject
 *
@@ -696,7 +696,7 @@ userScript
 *
 param
 {
-Object
+object
 }
 privateOptions
 *
@@ -731,6 +731,8 @@ param
 {
 Error
 }
+privateOptions
+.
 Error
 *
 The
@@ -760,6 +762,8 @@ param
 {
 Error
 }
+privateOptions
+.
 errorMessage
 *
 A
@@ -1181,7 +1185,7 @@ undefined
 *
 param
 {
-Object
+object
 }
 src
 *
@@ -1202,7 +1206,7 @@ getters
 *
 param
 {
-Object
+object
 }
 [
 dest
@@ -1230,7 +1234,7 @@ specified
 *
 returns
 {
-Object
+object
 }
 *
 The
@@ -1451,7 +1455,7 @@ wrap
 *
 returns
 {
-Object
+object
 }
 *
 The
@@ -1742,7 +1746,7 @@ getters
 *
 param
 {
-Object
+object
 |
 Array
 }

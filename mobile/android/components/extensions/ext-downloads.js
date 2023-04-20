@@ -488,7 +488,7 @@ download
 *
 param
 {
-Object
+object
 }
 downloadInfo
 -
@@ -503,7 +503,7 @@ download
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -721,7 +721,7 @@ on
 *
 param
 {
-Object
+object
 }
 data
 that
@@ -735,7 +735,7 @@ Java
 *
 returns
 {
-Object
+object
 |
 null
 }

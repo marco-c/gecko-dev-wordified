@@ -203,7 +203,7 @@ out
 *
 param
 {
-function
+Function
 }
 f
 the
@@ -327,7 +327,7 @@ default
 *
 param
 {
-function
+Function
 }
 f
 the

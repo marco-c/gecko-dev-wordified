@@ -125,9 +125,10 @@ page
 theme
 applied
 *
+*
 param
 {
-Object
+object
 }
 theme
 that

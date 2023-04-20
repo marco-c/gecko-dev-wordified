@@ -2025,7 +2025,7 @@ object
 *
 param
 {
-Object
+object
 }
 manifest
 The
@@ -2269,6 +2269,7 @@ to
 a
 document
 .
+*
 *
 param
 {

@@ -3294,7 +3294,7 @@ string
 *
 param
 {
-function
+Function
 }
 script
 *
@@ -3433,7 +3433,7 @@ param
 {
 string
 |
-function
+Function
 |
 Array
 }

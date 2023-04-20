@@ -4244,7 +4244,7 @@ logging
 *
 param
 {
-function
+Function
 }
 callable
 The
@@ -4256,7 +4256,7 @@ invoke
 *
 param
 {
-array
+Array
 }
 args
 Arguments

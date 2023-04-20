@@ -629,7 +629,7 @@ manager
 *
 param
 {
-array
+Array
 }
 args
 *
@@ -949,8 +949,6 @@ message
 *
 *
 *
-private
-*
 Iterates
 over
 all
@@ -961,6 +959,9 @@ registered
 message
 listeners
 .
+*
+*
+private
 *
 /
 *
@@ -1006,8 +1007,6 @@ listenWhenClosed
 *
 *
 *
-private
-*
 Adds
 docShell
 swap
@@ -1030,6 +1029,8 @@ The
 target
 element
 .
+*
+private
 *
 /
 addListeners
@@ -1094,8 +1095,6 @@ listenWhenClosed
 *
 *
 *
-private
-*
 Removes
 docShell
 swap
@@ -1118,6 +1117,8 @@ The
 target
 element
 .
+*
+private
 *
 /
 removeListeners

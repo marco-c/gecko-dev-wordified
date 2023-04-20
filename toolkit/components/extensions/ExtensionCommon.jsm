@@ -849,7 +849,7 @@ param
 {
 string
 |
-Symbol
+symbol
 }
 prop
 *
@@ -866,7 +866,7 @@ getter
 *
 param
 {
-function
+Function
 }
 getter
 *
@@ -2298,7 +2298,7 @@ listener
 *
 param
 {
-Object
+object
 }
 options
 Options
@@ -2507,7 +2507,7 @@ use
 *
 returns
 {
-Object
+object
 }
 the
 unregister
@@ -2597,6 +2597,7 @@ for
 that
 process
 .
+*
 *
 abstract
 *
@@ -3026,6 +3027,7 @@ an
 associated
 contentWindow
 .
+*
 *
 param
 {
@@ -3884,7 +3886,7 @@ extension
 *
 param
 {
-array
+Array
 <
 any
 >
@@ -4428,7 +4430,7 @@ reporting
 *
 param
 {
-function
+Function
 }
 callback
 The
@@ -4727,7 +4729,7 @@ promise
 *
 param
 {
-function
+Function
 }
 [
 callback
@@ -5709,7 +5711,7 @@ abstract
 *
 param
 {
-function
+Function
 }
 listener
 The
@@ -5780,7 +5782,7 @@ abstract
 *
 param
 {
-function
+Function
 }
 listener
 The
@@ -5843,7 +5845,7 @@ abstract
 *
 param
 {
-function
+Function
 }
 listener
 The

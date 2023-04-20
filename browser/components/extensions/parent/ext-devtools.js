@@ -596,7 +596,7 @@ devtools_page
 *
 param
 {
-Object
+object
 }
 options
 *

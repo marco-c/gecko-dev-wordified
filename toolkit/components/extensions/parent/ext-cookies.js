@@ -1756,7 +1756,7 @@ instead
 *
 param
 {
-Object
+object
 }
 details
 *
@@ -1825,7 +1825,7 @@ attributes
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -1881,7 +1881,6 @@ of
 the
 cookie
 .
-*
 *
 /
 const
@@ -2342,9 +2341,10 @@ matching
 cookies
 .
 *
+*
 param
 {
-Object
+object
 }
 detailsIn
 *

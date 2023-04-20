@@ -1567,7 +1567,7 @@ server
 *
 param
 {
-Object
+object
 }
 properties
 An
