@@ -225,7 +225,7 @@ function
 updateFrameLocation
 (
 frame
-sourceMaps
+sourceMapLoader
 )
 {
 if
@@ -245,7 +245,7 @@ frame
 ;
 }
 return
-sourceMaps
+sourceMapLoader
 .
 getOriginalLocation
 (
@@ -287,7 +287,7 @@ function
 updateFrameLocations
 (
 frames
-sourceMaps
+sourceMapLoader
 )
 {
 if
@@ -326,7 +326,7 @@ frame
 updateFrameLocation
 (
 frame
-sourceMaps
+sourceMapLoader
 )
 )
 )
@@ -383,7 +383,7 @@ function
 expandFrames
 (
 frames
-sourceMaps
+sourceMapLoader
 getState
 )
 {
@@ -448,7 +448,7 @@ const
 originalFrames
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getOriginalStackFrames
 (
@@ -756,7 +756,7 @@ const
 {
 dispatch
 getState
-sourceMaps
+sourceMapLoader
 }
 =
 thunkArgs
@@ -790,7 +790,7 @@ await
 updateFrameLocations
 (
 frames
-sourceMaps
+sourceMapLoader
 )
 ;
 mappedFrames
@@ -799,7 +799,7 @@ await
 expandFrames
 (
 mappedFrames
-sourceMaps
+sourceMapLoader
 getState
 )
 ;

@@ -258,7 +258,7 @@ head
 "
 ;
 import
-sourceMaps
+sourceMapLoader
 from
 "
 devtools
@@ -345,7 +345,7 @@ return
 .
 .
 .
-sourceMaps
+sourceMapLoader
 getOriginalSourceText
 :
 async
@@ -2737,7 +2737,7 @@ source
 {
 id
 :
-sourceMaps
+sourceMapLoader
 .
 generatedToOriginalId
 (
@@ -2850,7 +2850,7 @@ item
 item
 sourceId
 :
-sourceMaps
+sourceMapLoader
 .
 generatedToOriginalId
 (

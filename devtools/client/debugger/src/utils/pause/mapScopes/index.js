@@ -168,7 +168,7 @@ scopes
 {
 client
 parserWorker
-sourceMaps
+sourceMapLoader
 }
 )
 {
@@ -222,7 +222,7 @@ frame
 .
 location
 originalAstScopes
-sourceMaps
+sourceMapLoader
 )
 ;
 if
@@ -282,7 +282,7 @@ originalRanges
 originalAstScopes
 generatedAstBindings
 client
-sourceMaps
+sourceMapLoader
 )
 ;
 const
@@ -337,7 +337,7 @@ originalRanges
 originalAstScopes
 generatedAstBindings
 client
-sourceMaps
+sourceMapLoader
 )
 {
 const
@@ -359,7 +359,7 @@ batchScopeMappings
 (
 originalAstScopes
 source
-sourceMaps
+sourceMapLoader
 )
 ;
 for
@@ -736,7 +736,7 @@ batchScopeMappings
 (
 originalAstScopes
 source
-sourceMaps
+sourceMapLoader
 )
 {
 const
@@ -871,7 +871,7 @@ loc
 .
 start
 )
-sourceMaps
+sourceMapLoader
 .
 getGeneratedRanges
 (
@@ -891,7 +891,7 @@ loc
 .
 start
 )
-sourceMaps
+sourceMapLoader
 .
 getGeneratedLocation
 (
@@ -911,7 +911,7 @@ loc
 .
 end
 )
-sourceMaps
+sourceMapLoader
 .
 getGeneratedLocation
 (
@@ -962,7 +962,7 @@ mapping
 )
 ;
 return
-sourceMaps
+sourceMapLoader
 .
 getGeneratedRanges
 (
@@ -1014,7 +1014,7 @@ mapping
 )
 ;
 return
-sourceMaps
+sourceMapLoader
 .
 getGeneratedLocation
 (
@@ -1679,7 +1679,7 @@ async
 function
 findGeneratedBinding
 (
-sourceMaps
+sourceMapLoader
 client
 source
 content
@@ -1800,7 +1800,7 @@ originalBinding
 .
 type
 locationType
-sourceMaps
+sourceMapLoader
 )
 ;
 if
@@ -1937,7 +1937,7 @@ originalRangeStartsInside
 (
 source
 pos
-sourceMaps
+sourceMapLoader
 )
 )
 )

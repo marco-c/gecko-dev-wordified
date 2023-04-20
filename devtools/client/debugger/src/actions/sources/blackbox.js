@@ -160,7 +160,7 @@ const
 {
 getState
 client
-sourceMaps
+sourceMapLoader
 }
 =
 thunkArgs
@@ -257,7 +257,7 @@ const
 range
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getFileGeneratedRange
 (

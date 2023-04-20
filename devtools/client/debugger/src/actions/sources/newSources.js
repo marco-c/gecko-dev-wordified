@@ -299,7 +299,6 @@ function
 (
 {
 dispatch
-sourceMaps
 }
 )
 {
@@ -433,7 +432,7 @@ function
 {
 dispatch
 getState
-sourceMaps
+sourceMapLoader
 }
 )
 {
@@ -512,7 +511,7 @@ source
 data
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getOriginalURLs
 (

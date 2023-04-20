@@ -100,7 +100,7 @@ getGeneratedLocation
 state
 source
 location
-sourceMaps
+sourceMapLoader
 )
 {
 if
@@ -126,7 +126,7 @@ column
 }
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getGeneratedLocation
 (
@@ -192,7 +192,7 @@ function
 getOriginalLocation
 (
 generatedLocation
-sourceMaps
+sourceMapLoader
 )
 {
 if
@@ -210,7 +210,7 @@ location
 ;
 }
 return
-sourceMaps
+sourceMapLoader
 .
 getOriginalLocation
 (
@@ -224,7 +224,7 @@ function
 getMappedLocation
 (
 state
-sourceMaps
+sourceMapLoader
 location
 )
 {
@@ -276,7 +276,7 @@ getGeneratedLocation
 state
 source
 location
-sourceMaps
+sourceMapLoader
 )
 ;
 return
@@ -295,7 +295,7 @@ const
 originalLocation
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getOriginalLocation
 (
@@ -373,7 +373,7 @@ function
 getRelatedMapLocation
 (
 state
-sourceMaps
+sourceMapLoader
 location
 )
 {
@@ -412,12 +412,12 @@ getGeneratedLocation
 state
 source
 location
-sourceMaps
+sourceMapLoader
 )
 ;
 }
 return
-sourceMaps
+sourceMapLoader
 .
 getOriginalLocation
 (

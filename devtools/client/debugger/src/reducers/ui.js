@@ -162,11 +162,6 @@ editorWrappingEnabled
 prefs
 .
 editorWrapping
-sourceMapsEnabled
-:
-prefs
-.
-clientSourceMapsEnabled
 javascriptEnabled
 :
 true
@@ -335,11 +330,6 @@ return
 .
 .
 state
-sourceMapsEnabled
-:
-action
-.
-value
 }
 ;
 }

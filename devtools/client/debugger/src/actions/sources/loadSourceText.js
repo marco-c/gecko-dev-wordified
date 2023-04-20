@@ -305,7 +305,7 @@ loadOriginalSource
 state
 source
 client
-sourceMaps
+sourceMapLoader
 prettyPrintWorker
 )
 {
@@ -368,7 +368,7 @@ id
 return
 prettyPrintSource
 (
-sourceMaps
+sourceMapLoader
 prettyPrintWorker
 generatedSource
 content
@@ -386,7 +386,7 @@ const
 result
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getOriginalSourceText
 (
@@ -551,7 +551,7 @@ source
 dispatch
 getState
 client
-sourceMaps
+sourceMapLoader
 parserWorker
 prettyPrintWorker
 }
@@ -593,7 +593,7 @@ getState
 )
 source
 client
-sourceMaps
+sourceMapLoader
 prettyPrintWorker
 )
 }

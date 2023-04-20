@@ -145,14 +145,14 @@ loadRangeMetadata
 (
 location
 originalAstScopes
-sourceMaps
+sourceMapLoader
 )
 {
 const
 originalRanges
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getOriginalRanges
 (
