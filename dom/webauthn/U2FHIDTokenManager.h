@@ -621,6 +621,7 @@ U2FHIDTokenManager
 (
 )
 ;
+virtual
 RefPtr
 <
 U2FRegisterPromise
@@ -633,9 +634,16 @@ WebAuthnMakeCredentialInfo
 aInfo
 bool
 aForceNoneAttestation
+void
+_status_callback
+(
+rust_ctap2_status_update_res
+*
+)
 )
 override
 ;
+virtual
 RefPtr
 <
 U2FSignPromise
@@ -646,6 +654,12 @@ const
 WebAuthnGetAssertionInfo
 &
 aInfo
+void
+_status_callback
+(
+rust_ctap2_status_update_res
+*
+)
 )
 override
 ;
@@ -870,7 +884,7 @@ mForceNoneAttestation
 ;
 }
 ;
-rust_u2f_manager
+rust_ctap_manager
 *
 mU2FManager
 ;
