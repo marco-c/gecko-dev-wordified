@@ -595,6 +595,17 @@ return
 0
 ;
 }
+uint32_t
+remote_ssrc
+(
+)
+const
+override
+{
+return
+0
+;
+}
 virtual
 ~
 MockAudioReceiveStream
