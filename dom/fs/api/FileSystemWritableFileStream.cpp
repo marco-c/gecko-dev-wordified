@@ -583,10 +583,6 @@ mManager
 (
 aManager
 )
-mMetadata
-(
-aMetadata
-)
 mActor
 (
 std
@@ -596,6 +592,10 @@ move
 (
 aActor
 )
+)
+mMetadata
+(
+aMetadata
 )
 {
 LOG
