@@ -1537,7 +1537,10 @@ be
 keyed
 by
 test
-pltaform
+platform
+but
+also
+variant
 .
         
 Required
@@ -1553,6 +1556,7 @@ time
 :
 optionally_keyed_by
 (
+            
 "
 test
 -
@@ -1561,7 +1565,11 @@ platform
 "
 subtest
 "
+"
+variant
+"
 int
+        
 )
         
 #
