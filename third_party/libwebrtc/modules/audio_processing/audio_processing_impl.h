@@ -1210,6 +1210,13 @@ const
 bool
 use_denormal_disabler_
 ;
+const
+TransientSuppressor
+:
+:
+VadMode
+transient_suppressor_vad_mode_
+;
 SwapQueue
 <
 RuntimeSetting

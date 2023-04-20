@@ -130,6 +130,11 @@ const
 ApmSubmoduleCreationOverrides
 &
 overrides
+TransientSuppressor
+:
+:
+VadMode
+vad_mode
 )
 {
 #
@@ -160,6 +165,7 @@ make_unique
 TransientSuppressorImpl
 >
 (
+vad_mode
 )
 ;
 #
