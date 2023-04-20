@@ -395,15 +395,6 @@ include
 "
 pc
 /
-srtp_filter
-.
-h
-"
-#
-include
-"
-pc
-/
 srtp_transport
 .
 h
