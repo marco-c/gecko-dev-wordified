@@ -1449,7 +1449,6 @@ destroyed
 )
 {
 return
-null
 ;
 }
 const
