@@ -520,6 +520,9 @@ VideoFrame
 public
 NackSender
 public
+RtpVideoStreamReceiver2
+:
+:
 OnCompleteFrameCallback
 public
 Syncable
@@ -838,6 +841,9 @@ override
 /
 /
 Implements
+RtpVideoStreamReceiver2
+:
+:
 OnCompleteFrameCallback
 .
 void
