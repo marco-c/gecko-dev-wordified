@@ -232,6 +232,10 @@ timing
 Clock
 *
 clock
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 VCMReceiver
@@ -265,6 +269,7 @@ Create
 (
 )
 )
+field_trials
 )
 {
 }
@@ -295,6 +300,10 @@ unique_ptr
 EventWrapper
 >
 jitter_buffer_event
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 clock_
@@ -311,6 +320,7 @@ move
 (
 jitter_buffer_event
 )
+field_trials
 )
 timing_
 (

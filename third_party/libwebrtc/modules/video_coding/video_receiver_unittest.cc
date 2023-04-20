@@ -162,6 +162,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 using
 :
 :
@@ -330,6 +339,7 @@ timing_
 (
 &
 clock_
+field_trials_
 )
 receiver_
 (
@@ -337,6 +347,7 @@ receiver_
 clock_
 &
 timing_
+field_trials_
 )
 {
 }
@@ -751,6 +762,12 @@ kMaxWaitTimeMs
 )
 ;
 }
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 SimulatedClock
 clock_
 ;

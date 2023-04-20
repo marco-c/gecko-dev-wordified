@@ -163,6 +163,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 namespace
 webrtc
 {
@@ -217,6 +226,10 @@ FakeVCMTiming
 Clock
 *
 clock
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 webrtc
@@ -225,6 +238,7 @@ webrtc
 VCMTiming
 (
 clock
+field_trials
 )
 {
 }
@@ -387,6 +401,7 @@ timing_
 (
 &
 clock_
+field_trials_
 )
 frame_decode_scheduler_
 (
@@ -399,6 +414,12 @@ timing_
 }
 protected
 :
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 SimulatedClock
 clock_
 ;

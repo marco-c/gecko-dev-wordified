@@ -104,6 +104,15 @@ vector
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
@@ -193,6 +202,10 @@ timing
 Clock
 *
 clock
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 /
@@ -271,6 +284,10 @@ unique_ptr
 EventWrapper
 >
 jitter_buffer_event
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

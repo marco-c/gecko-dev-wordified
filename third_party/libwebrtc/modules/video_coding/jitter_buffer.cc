@@ -755,6 +755,10 @@ unique_ptr
 EventWrapper
 >
 event
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 clock_
@@ -810,6 +814,7 @@ num_duplicated_packets_
 jitter_estimate_
 (
 clock
+field_trials
 )
 missing_sequence_numbers_
 (

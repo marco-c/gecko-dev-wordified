@@ -2069,6 +2069,7 @@ clock_
 rtcp_feedback_buffer_
 &
 rtcp_feedback_buffer_
+field_trials_
 )
 ;
 process_thread_

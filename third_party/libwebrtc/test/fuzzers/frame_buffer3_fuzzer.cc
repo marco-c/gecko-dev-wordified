@@ -138,6 +138,15 @@ fuzz_data_helper
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 namespace
 webrtc
 {
@@ -209,6 +218,12 @@ size
 return
 ;
 }
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 FrameBuffer
 buffer
 (
@@ -226,6 +241,7 @@ max_decode_history
 *
 /
 1000
+field_trials
 )
 ;
 test

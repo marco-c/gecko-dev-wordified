@@ -860,6 +860,10 @@ nack_sender
 KeyFrameRequestSender
 *
 keyframe_request_sender
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 {
 if
@@ -912,6 +916,7 @@ nack_periodic_processor
 clock
 nack_sender
 keyframe_request_sender
+field_trials
 )
 ;
 }
@@ -1620,6 +1625,7 @@ clock_
 rtcp_feedback_buffer_
 &
 rtcp_feedback_buffer_
+field_trials_
 )
 )
 vcm_receive_statistics_
