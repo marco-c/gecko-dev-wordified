@@ -267,6 +267,9 @@ dav1d_decoder
 .
 h
 "
+/
+/
+nogncheck
 #
 endif
 namespace
