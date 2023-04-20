@@ -112,15 +112,6 @@ TLSServer
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Sprintf
-.
-h
-"
 using
 namespace
 mozilla
@@ -604,7 +595,7 @@ request
 512
 ]
 ;
-SprintfLiteral
+sprintf
 (
 request
 "
@@ -938,7 +929,7 @@ path
 256
 ]
 ;
-SprintfLiteral
+sprintf
 (
 path
 "

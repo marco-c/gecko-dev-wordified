@@ -166,15 +166,6 @@ nsStringFwd
 h
 "
 #
-include
-"
-mozilla
-/
-Sprintf
-.
-h
-"
-#
 define
 ASSERT_STRCMP
 (
@@ -359,7 +350,7 @@ expected
 1025
 ]
 ;
-SprintfLiteral
+sprintf
 (
 expected
 "

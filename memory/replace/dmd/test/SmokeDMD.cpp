@@ -489,7 +489,7 @@ buf
 int
 n
 =
-SprintfLiteral
+sprintf
 (
 buf
 "
@@ -766,7 +766,7 @@ filename
 128
 ]
 ;
-SprintfLiteral
+sprintf
 (
 filename
 "
@@ -801,7 +801,7 @@ options
 128
 ]
 ;
-SprintfLiteral
+sprintf
 (
 options
 "
@@ -866,7 +866,7 @@ filename
 128
 ]
 ;
-SprintfLiteral
+sprintf
 (
 filename
 "
@@ -949,7 +949,7 @@ options
 128
 ]
 ;
-SprintfLiteral
+sprintf
 (
 options
 "
@@ -2117,7 +2117,7 @@ filename
 128
 ]
 ;
-SprintfLiteral
+sprintf
 (
 filename
 "
@@ -2152,7 +2152,7 @@ options
 128
 ]
 ;
-SprintfLiteral
+sprintf
 (
 options
 "
