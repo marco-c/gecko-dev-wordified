@@ -285,12 +285,6 @@ SrtpTransport
 =
 default
 ;
-/
-/
-SrtpTransportInterface
-specific
-implementation
-.
 virtual
 RTCError
 SetSrtpSendKey
