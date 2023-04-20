@@ -3094,11 +3094,16 @@ fixed
 .
 if
 (
+NS_IsMainThread
+(
+)
+&
+&
 !
 StaticPrefs
 :
 :
-dom_fs_writable_file_stream_enabled
+dom_fs_main_thread_writable_file_stream
 (
 )
 )
