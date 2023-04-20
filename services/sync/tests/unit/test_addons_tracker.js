@@ -212,7 +212,7 @@ test_addon1
 manifest
 :
 {
-browser_specific_settings
+applications
 :
 {
 gecko

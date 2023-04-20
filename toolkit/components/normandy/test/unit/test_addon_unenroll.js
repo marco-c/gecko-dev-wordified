@@ -376,7 +376,7 @@ version
 .
 0
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -1316,7 +1316,7 @@ version
 .
 0
 "
-browser_specific_settings
+applications
 :
 {
 gecko

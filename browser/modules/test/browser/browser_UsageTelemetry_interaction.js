@@ -1759,7 +1759,7 @@ version
 "
 1
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -2169,7 +2169,7 @@ version
 "
 1
 "
-browser_specific_settings
+applications
 :
 {
 gecko
