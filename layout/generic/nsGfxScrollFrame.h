@@ -6837,7 +6837,7 @@ GetScrollStyles
 (
 )
 const
-override
+final
 {
 return
 mHelper

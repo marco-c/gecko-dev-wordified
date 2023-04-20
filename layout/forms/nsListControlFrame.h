@@ -528,16 +528,6 @@ false
 )
 final
 ;
-mozilla
-:
-:
-ScrollStyles
-GetScrollStyles
-(
-)
-const
-final
-;
 bool
 ShouldPropagateComputedBSizeToScrolledContent
 (
