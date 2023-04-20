@@ -292,7 +292,7 @@ NS_SUCCEEDED
 cr
 -
 >
-GetEnabled
+GetCrashReporterEnabled
 (
 &
 enabled

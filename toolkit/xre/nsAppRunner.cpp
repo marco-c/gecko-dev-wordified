@@ -10044,7 +10044,7 @@ NS_IMETHODIMP
 nsXULAppInfo
 :
 :
-GetEnabled
+GetCrashReporterEnabled
 (
 bool
 *
