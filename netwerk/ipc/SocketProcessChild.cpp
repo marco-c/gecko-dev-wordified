@@ -2914,6 +2914,10 @@ SocketProcessChild
 :
 RecvClearSessionCache
 (
+ClearSessionCacheResolver
+&
+&
+aResolve
 )
 {
 nsNSSComponent
@@ -2921,6 +2925,13 @@ nsNSSComponent
 :
 DoClearSSLExternalAndInternalSessionCache
 (
+)
+;
+aResolve
+(
+void_t
+{
+}
 )
 ;
 return
