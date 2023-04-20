@@ -681,12 +681,6 @@ const
 MediaConfig
 &
 media_config
-webrtc
-:
-:
-RtpTransportInternal
-*
-rtp_transport
 rtc
 :
 :
@@ -784,12 +778,6 @@ const
 MediaConfig
 &
 media_config
-webrtc
-:
-:
-RtpTransportInternal
-*
-rtp_transport
 rtc
 :
 :
