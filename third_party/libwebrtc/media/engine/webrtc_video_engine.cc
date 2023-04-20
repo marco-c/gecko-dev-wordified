@@ -5051,13 +5051,15 @@ bitrate_allocator_factory
 :
 VideoMediaChannel
 (
-config
 call
 -
 >
 network_thread
 (
 )
+config
+.
+enable_dscp
 )
 worker_thread_
 (
