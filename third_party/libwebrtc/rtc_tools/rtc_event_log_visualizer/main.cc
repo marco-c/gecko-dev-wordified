@@ -1575,9 +1575,6 @@ simulated_neteq_preferred_buffer_size
 simulated_neteq_concealment_events
 "
 "
-simulated_neteq_packet_loss_rate
-"
-"
 simulated_neteq_preemptive_rate
 "
 "
