@@ -150,6 +150,13 @@ nsIStringEnumerator
 h
 "
 #
+include
+"
+nsServiceManagerUtils
+.
+h
+"
+#
 endif
 #
 include
