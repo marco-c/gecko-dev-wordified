@@ -1225,10 +1225,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-const
-bool
-add_rtt_to_playout_delay_
-;
 /
 /
 rtt_mult
