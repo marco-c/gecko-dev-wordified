@@ -2945,6 +2945,11 @@ ClearOverscroll
 (
 )
 ;
+void
+ClearPhysicalOverscroll
+(
+)
+;
 /
 *
 *
