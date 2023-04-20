@@ -344,6 +344,13 @@ h
 #
 include
 "
+nsStackLayout
+.
+h
+"
+#
+include
+"
 nsTextControlFrame
 .
 h
@@ -2019,6 +2026,13 @@ ReleaseTable
 )
 ;
 nsRepeatService
+:
+:
+Shutdown
+(
+)
+;
+nsStackLayout
 :
 :
 Shutdown

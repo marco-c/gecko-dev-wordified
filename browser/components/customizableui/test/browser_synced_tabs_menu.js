@@ -1768,6 +1768,9 @@ is
 deck
 .
 selectedIndex
+"
+"
++
 DECKINDEX_FETCHING
 "
 first
@@ -1842,6 +1845,9 @@ is
 deck
 .
 selectedIndex
+"
+"
++
 DECKINDEX_NOCLIENTS
 "
 no
@@ -2068,6 +2074,9 @@ is
 deck
 .
 selectedIndex
+"
+"
++
 DECKINDEX_TABS
 "
 no
@@ -3330,6 +3339,9 @@ is
 deck
 .
 selectedIndex
+"
+"
++
 DECKINDEX_TABS
 "
 we

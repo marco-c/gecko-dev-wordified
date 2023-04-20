@@ -193,6 +193,11 @@ nsBoxLayoutState
 cpp
 "
 "
+nsDeckFrame
+.
+cpp
+"
+"
 nsDocElementBoxFrame
 .
 cpp
@@ -264,6 +269,11 @@ cpp
 "
 "
 nsSprocketLayout
+.
+cpp
+"
+"
+nsStackLayout
 .
 cpp
 "
