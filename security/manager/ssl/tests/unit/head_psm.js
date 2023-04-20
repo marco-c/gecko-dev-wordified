@@ -3839,6 +3839,7 @@ aHost
 .
 then
 (
+async
 function
 (
 conn
@@ -3896,17 +3897,15 @@ aWithSecurityInfo
 {
 aWithSecurityInfo
 (
+await
 conn
 .
 transport
 .
 tlsSocketControl
 .
-QueryInterface
+asyncGetSecurityInfo
 (
-Ci
-.
-nsITransportSecurityInfo
 )
 )
 ;

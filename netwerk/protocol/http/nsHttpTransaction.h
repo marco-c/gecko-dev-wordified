@@ -2098,9 +2098,9 @@ mConsumerTarget
 ;
 nsCOMPtr
 <
-nsITLSSocketControl
+nsITransportSecurityInfo
 >
-mTLSSocketControl
+mSecurityInfo
 ;
 nsCOMPtr
 <
