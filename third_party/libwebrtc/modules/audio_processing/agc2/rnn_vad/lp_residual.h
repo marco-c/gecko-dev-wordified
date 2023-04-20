@@ -121,7 +121,7 @@ filter
 length
 .
 constexpr
-size_t
+int
 kNumLpcCoefficients
 =
 5
