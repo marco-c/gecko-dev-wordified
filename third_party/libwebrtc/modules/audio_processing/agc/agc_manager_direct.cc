@@ -3132,6 +3132,7 @@ AgcManagerDirect
 /
 *
 num_capture_channels
+=
 *
 /
 1
@@ -3140,6 +3141,7 @@ clipped_level_min
 /
 *
 disable_digital_adaptive
+=
 *
 /
 false
