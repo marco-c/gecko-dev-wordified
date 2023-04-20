@@ -35815,7 +35815,7 @@ stencil
 JS
 :
 :
-FinishCompileToStencilOffThread
+FinishOffThreadStencil
 (
 cx
 token
@@ -36377,7 +36377,7 @@ stencil
 JS
 :
 :
-FinishCompileModuleToStencilOffThread
+FinishOffThreadStencil
 (
 cx
 token
@@ -37037,7 +37037,7 @@ stencil
 JS
 :
 :
-FinishDecodeStencilOffThread
+FinishOffThreadStencil
 (
 cx
 token

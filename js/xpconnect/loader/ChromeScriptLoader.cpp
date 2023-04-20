@@ -1027,7 +1027,7 @@ Init
 JS
 :
 :
-CancelCompileToStencilOffThread
+CancelOffThreadToken
 (
 jsapi
 .
@@ -1073,7 +1073,7 @@ stencil
 JS
 :
 :
-FinishCompileToStencilOffThread
+FinishOffThreadStencil
 (
 aCx
 mToken
