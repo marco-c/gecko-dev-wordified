@@ -3816,7 +3816,16 @@ aResult
 *
 aResult
 =
-mShuttingDown
+AppShutdown
+:
+:
+IsInOrBeyond
+(
+ShutdownPhase
+:
+:
+AppShutdownConfirmed
+)
 ;
 return
 NS_OK
