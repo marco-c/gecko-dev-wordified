@@ -81,15 +81,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BlockedSiteParent
-"
-]
-;
+export
 class
 BlockedSiteParent
 extends

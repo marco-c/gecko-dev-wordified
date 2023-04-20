@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BlockedSiteChild
-"
-]
-;
 const
 lazy
 =
@@ -262,6 +253,7 @@ return
 blockedInfo
 ;
 }
+export
 class
 BlockedSiteChild
 extends

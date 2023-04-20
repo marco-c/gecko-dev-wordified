@@ -2878,7 +2878,7 @@ BlockedSite
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2890,13 +2890,15 @@ actors
 /
 BlockedSiteParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2908,7 +2910,9 @@ actors
 /
 BlockedSiteChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
