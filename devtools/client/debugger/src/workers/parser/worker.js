@@ -118,17 +118,6 @@ findOutOfScopeLocations
 ;
 import
 {
-getNextStep
-}
-from
-"
-.
-/
-steps
-"
-;
-import
-{
 hasSyntaxError
 }
 from
@@ -197,7 +186,6 @@ findOutOfScopeLocations
 getSymbols
 getScopes
 clearState
-getNextStep
 hasSyntaxError
 mapExpression
 setSource
