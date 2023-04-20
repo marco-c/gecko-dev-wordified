@@ -781,9 +781,7 @@ as
 an
 alternative
 to
-|
 filename
-|
 .
   
 Compile
@@ -807,9 +805,7 @@ enough
 approximation
 for
 building
-|
 filename
-|
 .
   
 Args
@@ -949,9 +945,7 @@ inputs
 and
 outputs
 of
-|
 filename
-|
 .
 This
 list
@@ -1017,9 +1011,7 @@ return
 [
 ]
 if
-|
 filename
-|
 doesn
 '
 t
@@ -1293,9 +1285,7 @@ command
 line
 for
 building
-|
 build_target
-|
   
 Asks
 ninja
@@ -1307,9 +1297,7 @@ commands
 used
 to
 build
-|
 filename
-|
 and
 returns
 the
@@ -1454,9 +1442,7 @@ up
 to
     
 #
-|
 build_target
-|
 .
 The
 build
@@ -1479,9 +1465,7 @@ the
 one
 that
 outputs
-|
 build_target
-|
 .
     
 for
@@ -1533,9 +1517,7 @@ line
 used
 to
 build
-|
 filename
-|
 .
   
 The
@@ -1641,9 +1623,7 @@ for
 Clang
 invocation
 using
-|
 filename
-|
 as
 a
         
@@ -1715,9 +1695,7 @@ command
 line
 options
 from
-|
 clang_commandline
-|
   
 Args
 :
@@ -1754,9 +1732,7 @@ line
 are
 relative
 to
-|
 out_dir
-|
 .
     
 additional_flags
@@ -1865,9 +1841,9 @@ they
 re
 relative
 to
-the
             
 #
+the
 output
 dir
 not
@@ -1972,6 +1948,7 @@ DWFfmO
 :
             
 if
+(
 flag
 =
 =
@@ -1984,6 +1961,7 @@ deprecated
 register
 '
 or
+                
 flag
 =
 =
@@ -1995,6 +1973,7 @@ header
 -
 guard
 '
+)
 :
                 
 #
@@ -2013,9 +1992,9 @@ crash
 Remove
 it
 until
-things
                 
 #
+things
 are
 fixed
 .
@@ -2208,9 +2187,7 @@ options
 needed
 for
 building
-|
 filename
-|
 .
   
 Command
@@ -2227,14 +2204,10 @@ ninja
 for
 building
   
-|
 filename
-|
 .
 If
-|
 filename
-|
 is
 a
 .
@@ -2270,9 +2243,7 @@ t
 know
 about
   
-|
 filename
-|
 then
 uses
 default
@@ -2429,9 +2400,9 @@ that
 YCM
 '
 s
-libclang
     
 #
+libclang
 doesn
 '
 t
@@ -2443,9 +2414,9 @@ warning
 options
 which
 causes
-compilation
     
 #
+compilation
 warnings
 (
 and
@@ -2628,9 +2599,9 @@ companion
 files
 then
 try
-a
         
 #
+a
 default
 build
 target
@@ -2644,11 +2615,11 @@ file
 is
 new
 or
+        
+#
 build
 .
 ninja
-        
-#
 is
 stale
 .
@@ -2819,10 +2790,10 @@ flags
 allows
 us
 to
-try
-to
     
 #
+try
+to
 determine
 the
 flags
