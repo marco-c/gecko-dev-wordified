@@ -83,6 +83,13 @@ TransportSecurityInfo
 .
 h
 "
+#
+include
+"
+nsNSSCertificate
+.
+h
+"
 namespace
 IPC
 {
