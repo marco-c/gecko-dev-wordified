@@ -630,7 +630,6 @@ h
 /
 /
 AutoReportFrontendContext
-MainThreadErrorContext
 #
 include
 "
@@ -12010,7 +12009,7 @@ reset
 }
 )
 ;
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -12076,6 +12075,12 @@ unwrapErr
 )
 )
 {
+ec
+.
+clearAutoReport
+(
+)
+;
 JS_ReportErrorASCII
 (
 cx
