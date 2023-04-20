@@ -1429,10 +1429,6 @@ WasmInstanceObject
 instanceObj
 )
 :
-cx
-(
-cx
-)
 features
 (
 FeatureArgs
@@ -1499,10 +1495,6 @@ popCopy
 }
 private
 :
-JSContext
-*
-cx
-;
 FeatureArgs
 features
 ;
@@ -2141,6 +2133,9 @@ WasmStructObject
 *
 createStruct
 (
+JSContext
+*
+cx
 uint32_t
 typeIndex
 )
@@ -2177,6 +2172,9 @@ rttValue
 bool
 evalStructNew
 (
+JSContext
+*
+cx
 uint32_t
 typeIndex
 )
@@ -2191,6 +2189,7 @@ structObj
 cx
 createStruct
 (
+cx
 typeIndex
 )
 )
@@ -2298,6 +2297,9 @@ structObj
 bool
 evalStructNewDefault
 (
+JSContext
+*
+cx
 uint32_t
 typeIndex
 )
@@ -2312,6 +2314,7 @@ structObj
 cx
 createStruct
 (
+cx
 typeIndex
 )
 )
@@ -2351,6 +2354,9 @@ WasmArrayObject
 *
 createArray
 (
+JSContext
+*
+cx
 uint32_t
 typeIndex
 uint32_t
@@ -2390,6 +2396,9 @@ numElements
 bool
 evalArrayNew
 (
+JSContext
+*
+cx
 uint32_t
 typeIndex
 )
@@ -2411,6 +2420,7 @@ arrayObj
 cx
 createArray
 (
+cx
 typeIndex
 len
 )
@@ -2477,6 +2487,9 @@ arrayObj
 bool
 evalArrayNewDefault
 (
+JSContext
+*
+cx
 uint32_t
 typeIndex
 )
@@ -2498,6 +2511,7 @@ arrayObj
 cx
 createArray
 (
+cx
 typeIndex
 len
 )
@@ -2537,6 +2551,9 @@ arrayObj
 bool
 evalArrayNewFixed
 (
+JSContext
+*
+cx
 uint32_t
 typeIndex
 uint32_t
@@ -2553,6 +2570,7 @@ arrayObj
 cx
 createArray
 (
+cx
 typeIndex
 len
 )
@@ -3293,6 +3311,7 @@ CHECK
 (
 evalStructNew
 (
+cx
 typeIndex
 )
 )
@@ -3331,6 +3350,7 @@ CHECK
 (
 evalStructNewDefault
 (
+cx
 typeIndex
 )
 )
@@ -3369,6 +3389,7 @@ CHECK
 (
 evalArrayNew
 (
+cx
 typeIndex
 )
 )
@@ -3424,6 +3445,7 @@ CHECK
 (
 evalArrayNewFixed
 (
+cx
 typeIndex
 len
 )
@@ -3463,6 +3485,7 @@ CHECK
 (
 evalArrayNewDefault
 (
+cx
 typeIndex
 )
 )
