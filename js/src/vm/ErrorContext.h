@@ -178,10 +178,7 @@ script
 .
 Vector
 <
-UniquePtr
-<
 CompileError
->
 0
 SystemAllocPolicy
 >
@@ -189,10 +186,7 @@ errors
 ;
 Vector
 <
-UniquePtr
-<
 CompileError
->
 0
 SystemAllocPolicy
 >
@@ -348,7 +342,8 @@ js
 :
 :
 CompileError
-*
+&
+&
 err
 )
 =
@@ -362,7 +357,8 @@ js
 :
 :
 CompileError
-*
+&
+&
 err
 )
 =
@@ -627,13 +623,9 @@ JSContext
 cx
 )
 ;
-const
 Vector
 <
-UniquePtr
-<
 CompileError
->
 0
 SystemAllocPolicy
 >
@@ -641,7 +633,6 @@ SystemAllocPolicy
 errors
 (
 )
-const
 {
 return
 errors_
@@ -649,13 +640,9 @@ errors_
 errors
 ;
 }
-const
 Vector
 <
-UniquePtr
-<
 CompileError
->
 0
 SystemAllocPolicy
 >
@@ -663,7 +650,6 @@ SystemAllocPolicy
 warnings
 (
 )
-const
 {
 return
 errors_
@@ -682,7 +668,8 @@ js
 :
 :
 CompileError
-*
+&
+&
 err
 )
 override
@@ -694,7 +681,8 @@ js
 :
 :
 CompileError
-*
+&
+&
 err
 )
 override
