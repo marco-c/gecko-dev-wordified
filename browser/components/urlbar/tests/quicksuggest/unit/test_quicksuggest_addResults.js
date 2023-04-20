@@ -1008,9 +1008,6 @@ score
 RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
-is_top_pick
-:
-false
 source
 :
 "
@@ -1022,9 +1019,6 @@ icon
 :
 null
 position
-:
-undefined
-_test_is_best_match
 :
 undefined
 }

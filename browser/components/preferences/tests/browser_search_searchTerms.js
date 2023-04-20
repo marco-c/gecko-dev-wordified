@@ -67,7 +67,7 @@ const
 {
 QuickSuggestTestUtils
 :
-Utils
+module
 }
 =
 ChromeUtils
@@ -91,12 +91,15 @@ mjs
 "
 )
 ;
-return
-new
-Utils
+module
+.
+init
 (
 this
 )
+;
+return
+module
 ;
 }
 )
