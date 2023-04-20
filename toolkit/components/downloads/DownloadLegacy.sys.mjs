@@ -88,7 +88,9 @@ the
 "
 Downloads
 .
-jsm
+sys
+.
+mjs
 "
 module
 directly
@@ -127,11 +129,6 @@ thread
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -448,6 +445,7 @@ bytes
 .
 *
 /
+export
 function
 DownloadLegacyTransfer
 (
@@ -2549,13 +2547,4 @@ _signatureInfo
 :
 null
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-DownloadLegacyTransfer
-"
-]
 ;

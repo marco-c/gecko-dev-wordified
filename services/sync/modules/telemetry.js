@@ -980,7 +980,9 @@ taken
 from
 DownloadCore
 .
-jsm
+sys
+.
+mjs
 .
 function
 NS_ERROR_GET_MODULE

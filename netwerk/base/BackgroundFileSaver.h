@@ -2304,7 +2304,9 @@ by
 nsExternalHelperAppService
 DownloadCore
 .
-jsm
+sys
+.
+mjs
 and
 possibly
 others

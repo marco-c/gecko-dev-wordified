@@ -38,7 +38,9 @@ the
 "
 DownloadPaths
 .
-jsm
+sys
+.
+mjs
 "
 JavaScript
 module

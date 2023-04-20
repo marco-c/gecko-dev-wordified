@@ -928,7 +928,9 @@ summarizeDownloads
 in
 DownloadsCommon
 .
-jsm
+sys
+.
+mjs
 if
 (
 this
@@ -1585,7 +1587,9 @@ object
 from
 the
 Downloads
-jsm
+sys
+.
+mjs
 .
 /
 /

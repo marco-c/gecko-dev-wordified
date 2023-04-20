@@ -1347,7 +1347,9 @@ sync
 with
 DownloadIntegration
 .
-jsm
+sys
+.
+mjs
 .
 *
 *
