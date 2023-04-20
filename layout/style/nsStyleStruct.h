@@ -6428,13 +6428,12 @@ mozilla
 StyleTextSizeAdjust
 mTextSizeAdjust
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextCombineUpright
 mTextCombineUpright
 ;
-/
-/
-NS_STYLE_TEXT_COMBINE_UPRIGHT_
-*
 mozilla
 :
 :

@@ -2291,6 +2291,11 @@ engines
 "
 gecko
 "
+gecko_enum_prefix
+=
+"
+StyleTextCombineUpright
+"
 animation_value_type
 =
 "
