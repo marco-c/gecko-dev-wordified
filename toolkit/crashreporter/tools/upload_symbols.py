@@ -767,6 +767,13 @@ archive
 return
 1
     
+try
+:
+        
+tmpdir
+=
+None
+        
 if
 args
 .
@@ -782,7 +789,7 @@ zst
 "
 )
 :
-        
+            
 tmpdir
 =
 tempfile
@@ -790,7 +797,7 @@ tempfile
 TemporaryDirectory
 (
 )
-        
+            
 zip_path
 =
 convert_zst_archive
@@ -800,20 +807,33 @@ args
 archive
 tmpdir
 )
-    
+        
 else
 :
-        
+            
 zip_path
 =
 args
 .
 archive
-    
+        
 return
 upload_symbols
 (
 zip_path
+)
+    
+finally
+:
+        
+if
+tmpdir
+:
+            
+tmpdir
+.
+cleanup
+(
 )
 def
 convert_zst_archive
@@ -1571,9 +1591,6 @@ zst_archive
 )
 )
     
-try
-:
-        
 for
 i
 _
@@ -1593,7 +1610,7 @@ start
 1
 )
 :
-            
+        
 with
 JarWriter
 (
@@ -1602,10 +1619,10 @@ zip_path
 as
 jar
 :
-                
+            
 try
 :
-                    
+                
 for
 name
 data
@@ -1618,7 +1635,7 @@ tmpdir
 name
 )
 :
-                        
+                    
 jar
 .
 add
@@ -1634,9 +1651,9 @@ data
 File
 )
 )
-                    
-break
                 
+break
+            
 except
 requests
 .
@@ -1646,7 +1663,7 @@ RequestException
 as
 e
 :
-                    
+                
 log
 .
 error
@@ -1664,7 +1681,7 @@ format
 e
 )
 )
-                
+            
 log
 .
 info
@@ -1676,19 +1693,6 @@ Retrying
 .
 "
 )
-    
-except
-Exception
-:
-        
-os
-.
-remove
-(
-zip_path
-)
-        
-raise
     
 return
 zip_path
