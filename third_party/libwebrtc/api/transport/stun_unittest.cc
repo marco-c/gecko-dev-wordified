@@ -4858,7 +4858,7 @@ kRfc5769SampleMsgClientSoftware
 software
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -4889,7 +4889,7 @@ kRfc5769SampleMsgUsername
 username
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -5040,7 +5040,7 @@ kRfc5769SampleMsgServerSoftware
 software
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -5190,7 +5190,7 @@ kRfc5769SampleMsgServerSoftware
 software
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -5340,7 +5340,7 @@ kRfc5769SampleMsgWithAuthUsername
 username
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -5371,7 +5371,7 @@ kRfc5769SampleMsgWithAuthNonce
 nonce
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -5402,7 +5402,7 @@ kRfc5769SampleMsgWithAuthRealm
 realm
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -7401,7 +7401,7 @@ kTestUserName1
 username
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -7472,7 +7472,7 @@ kTestUserName2
 username
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -7796,7 +7796,7 @@ kTestUserName2
 username
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -11040,7 +11040,7 @@ abcdefghijkl
 bytes
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -11505,7 +11505,7 @@ abcdefg
 bytes
 -
 >
-GetString
+string_view
 (
 )
 )

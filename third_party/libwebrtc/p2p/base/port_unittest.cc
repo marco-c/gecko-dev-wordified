@@ -10746,7 +10746,7 @@ STUN_ATTR_USERNAME
 username_attr
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -13571,7 +13571,7 @@ lfrag
 username_attr
 -
 >
-GetString
+string_view
 (
 )
 )
