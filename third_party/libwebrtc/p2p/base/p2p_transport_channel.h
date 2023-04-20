@@ -1576,6 +1576,14 @@ connections
 )
 const
 ;
+void
+RemoveConnectionForTest
+(
+Connection
+*
+connection
+)
+;
 /
 /
 Public
