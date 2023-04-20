@@ -109,7 +109,7 @@ delayed_by_retransmission
 const
 {
 return
-0
+false
 ;
 }
 }
