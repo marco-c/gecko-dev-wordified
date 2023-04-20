@@ -2183,6 +2183,12 @@ GetCachedARIAAttributes
 )
 const
 ;
+nsString
+GetCachedHTMLRadioNameAttribute
+(
+)
+const
+;
 virtual
 HyperTextAccessibleBase
 *
