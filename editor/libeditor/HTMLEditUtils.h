@@ -9952,7 +9952,7 @@ topMostInlineContent
 *
 *
 *
-GetMostDistantAnscestorEditableEmptyInlineElement
+GetMostDistantAncestorEditableEmptyInlineElement
 (
 )
 returns
@@ -9978,7 +9978,7 @@ element
 static
 Element
 *
-GetMostDistantAnscestorEditableEmptyInlineElement
+GetMostDistantAncestorEditableEmptyInlineElement
 (
 const
 nsIContent
