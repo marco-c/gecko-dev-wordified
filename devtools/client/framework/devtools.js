@@ -66,7 +66,9 @@ const
 DevToolsShim
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 chrome
@@ -81,7 +83,9 @@ content
 /
 DevToolsShim
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -3545,7 +3549,9 @@ by
 *
 DevToolsShim
 .
-jsm
+sys
+.
+mjs
 .
 *
 *
