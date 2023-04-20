@@ -392,15 +392,6 @@ include
 "
 pc
 /
-channel
-.
-h
-"
-#
-include
-"
-pc
-/
 dtls_srtp_transport
 .
 h
