@@ -331,7 +331,7 @@ false
 ;
 }
 RTCError
-RemoveTrackNew
+RemoveTrackOrError
 (
 rtc
 :

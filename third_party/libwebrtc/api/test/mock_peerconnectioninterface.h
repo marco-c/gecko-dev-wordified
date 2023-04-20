@@ -315,7 +315,7 @@ override
 MOCK_METHOD
 (
 RTCError
-RemoveTrackNew
+RemoveTrackOrError
 (
 rtc
 :

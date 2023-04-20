@@ -877,7 +877,7 @@ pc
 )
 -
 >
-RemoveTrackNew
+RemoveTrackOrError
 (
 audio
 .
