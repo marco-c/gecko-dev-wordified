@@ -3921,6 +3921,9 @@ has_value
 ;
 CpuOveruseOptions
 options
+(
+field_trials_
+)
 ;
 /
 /
