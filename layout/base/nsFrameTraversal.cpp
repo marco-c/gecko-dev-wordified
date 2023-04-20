@@ -1191,6 +1191,14 @@ aFrame
 IsCanvasFrame
 (
 )
+|
+|
+aFrame
+-
+>
+IsXULRootFrame
+(
+)
 ;
 }
 void

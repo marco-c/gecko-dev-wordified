@@ -1779,7 +1779,12 @@ nsIPopupContainer
 :
 GetPopupContainer
 (
-PresShell
+PresContext
+(
+)
+-
+>
+GetPresShell
 (
 )
 )
@@ -16631,7 +16636,12 @@ nsIPopupContainer
 :
 GetPopupContainer
 (
-PresShell
+PresContext
+(
+)
+-
+>
+GetPresShell
 (
 )
 )
