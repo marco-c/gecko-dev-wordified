@@ -606,7 +606,7 @@ GetCallTimeSec
 (
 packet
 .
-log_time_us
+log_time
 (
 )
 )
@@ -668,7 +668,7 @@ GetCallTimeSec
 (
 packet
 .
-log_time_us
+log_time
 (
 )
 )
@@ -1060,7 +1060,13 @@ config_
 .
 GetCallTimeSec
 (
+Timestamp
+:
+:
+Micros
+(
 timestamp
+)
 )
 rtp_explanation
 )
@@ -1183,7 +1189,7 @@ GetCallTimeSec
 (
 rtcp
 .
-log_time_us
+log_time
 (
 )
 )
@@ -1298,7 +1304,7 @@ GetCallTimeSec
 (
 rtcp
 .
-log_time_us
+log_time
 (
 )
 )
@@ -1423,7 +1429,7 @@ stop_time_us
 (
 )
 ;
-int64_t
+Timestamp
 first_occurrence
 =
 parsed_log
@@ -1546,7 +1552,7 @@ min
 first_occurrence
 bwe_update
 .
-log_time_us
+log_time
 (
 )
 )
@@ -1579,7 +1585,12 @@ TriageAlertType
 :
 :
 kOutgoingHighLoss
+config_
+.
+GetCallTimeSec
+(
 first_occurrence
+)
 "
 More
 than
