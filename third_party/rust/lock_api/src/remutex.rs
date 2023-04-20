@@ -5035,7 +5035,7 @@ as
 ReentrantMutexGuard
 :
 :
-map
+try_map
 (
 .
 .
@@ -5105,7 +5105,6 @@ F
 FnOnce
 (
 &
-mut
 T
 )
 -
@@ -5113,7 +5112,6 @@ T
 Option
 <
 &
-mut
 U
 >
 {
@@ -5136,7 +5134,6 @@ f
 unsafe
 {
 &
-mut
 *
 s
 .
@@ -7379,7 +7376,7 @@ as
 MappedReentrantMutexGuard
 :
 :
-map
+try_map
 (
 .
 .

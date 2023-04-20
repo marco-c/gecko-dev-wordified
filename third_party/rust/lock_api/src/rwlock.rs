@@ -9658,11 +9658,10 @@ the
 locked
 data
 .
-The
+Returns
+the
 original
 guard
-is
-return
 if
 the
 closure
@@ -9715,7 +9714,7 @@ as
 RwLockReadGuard
 :
 :
-map
+try_map
 (
 .
 .
@@ -12099,7 +12098,7 @@ as
 RwLockWriteGuard
 :
 :
-map
+try_map
 (
 .
 .
@@ -18842,7 +18841,7 @@ as
 MappedRwLockReadGuard
 :
 :
-map
+try_map
 (
 .
 .
@@ -20012,7 +20011,7 @@ as
 MappedRwLockWriteGuard
 :
 :
-map
+try_map
 (
 .
 .
