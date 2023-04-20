@@ -1707,7 +1707,10 @@ size
 :
 Size2D
 <
+Option
+<
 Au
+>
 >
 wm
 :
@@ -1752,6 +1755,7 @@ info
 size
 .
 width
+?
 .
 to_f32_px
 (
@@ -1798,6 +1802,7 @@ info
 size
 .
 height
+?
 .
 to_f32_px
 (
@@ -1853,6 +1858,7 @@ size
 )
 .
 inline
+?
 .
 to_f32_px
 (
@@ -1908,6 +1914,7 @@ size
 )
 .
 block
+?
 .
 to_f32_px
 (
@@ -1954,6 +1961,7 @@ info
 size
 .
 width
+?
 .
 0
 as
@@ -1963,6 +1971,7 @@ info
 size
 .
 height
+?
 .
 0
 as
@@ -3000,20 +3009,14 @@ ContainerSizeQueryResult
 {
 width
 :
-Some
-(
 size
 .
 width
-)
 height
 :
-Some
-(
 size
 .
 height
-)
 }
 )
 }
@@ -3040,12 +3043,9 @@ ContainerSizeQueryResult
 {
 width
 :
-Some
-(
 size
 .
 width
-)
 height
 :
 None
@@ -3066,12 +3066,9 @@ width
 None
 height
 :
-Some
-(
 size
 .
 height
-)
 }
 )
 }
