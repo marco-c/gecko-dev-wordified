@@ -2196,6 +2196,10 @@ I420Buffer
 SetBlack
 (
 buffer
+.
+get
+(
+)
 )
 ;
 VideoFrameConverted
