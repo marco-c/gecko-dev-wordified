@@ -21471,6 +21471,11 @@ pageValues
 frame
 -
 >
+FirstInFlow
+(
+)
+-
+>
 GetProperty
 (
 nsIFrame
@@ -21492,6 +21497,11 @@ const
 prevPageValues
 =
 prevFrame
+-
+>
+FirstInFlow
+(
+)
 -
 >
 GetProperty
