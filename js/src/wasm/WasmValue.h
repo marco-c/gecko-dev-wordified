@@ -3443,6 +3443,17 @@ void
 loc
 )
 ;
+void
+initFromHeapLocation
+(
+ValType
+type
+const
+void
+*
+loc
+)
+;
 /
 /
 Write
@@ -3483,6 +3494,7 @@ heap
 void
 readFromHeapLocation
 (
+const
 void
 *
 loc

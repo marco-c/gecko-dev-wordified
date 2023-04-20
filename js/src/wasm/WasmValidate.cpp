@@ -16234,6 +16234,7 @@ decodeAndValidate
 d
 env
 type
+i
 &
 initializer
 )
@@ -18228,6 +18229,14 @@ ValType
 :
 :
 I32
+env
+-
+>
+globals
+.
+length
+(
+)
 &
 offset
 )
@@ -20479,6 +20488,14 @@ decodeAndValidate
 d
 env
 exprType
+env
+-
+>
+globals
+.
+length
+(
+)
 &
 segOffset
 )
