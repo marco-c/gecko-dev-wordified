@@ -119,10 +119,6 @@ timeout
 (
 false
 )
-new_connection
-(
-false
-)
 rtt
 (
 0
