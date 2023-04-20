@@ -4165,6 +4165,7 @@ browseraction_contextmenu_report_extension_helper
 win
 )
 {
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -6261,6 +6262,13 @@ BrowserTestUtils
 closeWindow
 (
 win
+)
+;
+await
+SpecialPowers
+.
+popPrefEnv
+(
 )
 ;
 }

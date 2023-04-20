@@ -836,6 +836,13 @@ closeWindow
 anotherWindow
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 )
 ;
