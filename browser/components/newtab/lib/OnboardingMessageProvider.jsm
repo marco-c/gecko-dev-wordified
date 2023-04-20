@@ -651,6 +651,8 @@ firefoxview
 cfr
 -
 header
+-
+v2
 "
 }
 text
@@ -664,6 +666,8 @@ firefoxview
 cfr
 -
 body
+-
+v2
 "
 }
 buttons
