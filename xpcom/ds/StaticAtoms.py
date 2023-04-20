@@ -20825,6 +20825,16 @@ svgContextPropertiesAllowed
 "
 )
     
+Atom
+(
+"
+theme
+"
+"
+theme
+"
+)
+    
 #
 CSS
 Counter

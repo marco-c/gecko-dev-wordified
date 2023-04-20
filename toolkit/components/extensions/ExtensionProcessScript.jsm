@@ -1011,6 +1011,11 @@ name
 extension
 .
 name
+type
+:
+extension
+.
+type
 baseURL
 :
 extension

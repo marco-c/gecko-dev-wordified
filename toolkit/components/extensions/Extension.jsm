@@ -17133,6 +17133,11 @@ name
 this
 .
 name
+type
+:
+this
+.
+type
 manifestVersion
 :
 this
