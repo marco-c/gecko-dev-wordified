@@ -58,7 +58,7 @@ __future__
 import
 absolute_import
 import
-os
+pathlib
 import
 re
 import
@@ -270,11 +270,9 @@ self
 .
 templates_path
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
             
 self
@@ -299,11 +297,9 @@ self
 .
 perfdocs_path
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
             
 self
@@ -438,11 +434,9 @@ yaml_content
 =
 read_yaml
 (
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 framework
 [
@@ -464,11 +458,9 @@ rst_content
 read_file
 (
                 
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 framework
 [
@@ -769,11 +761,9 @@ content
 read_file
 (
                             
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 framework
 [
@@ -865,19 +855,22 @@ try
             
 tmpdir
 =
+pathlib
+.
+Path
+(
 tempfile
 .
 mkdtemp
 (
 )
+)
             
 perfdocs_tmpdir
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 tmpdir
 "
@@ -885,11 +878,23 @@ generated
 "
 )
             
-os
+perfdocs_tmpdir
 .
 mkdir
 (
+parents
+=
+True
+exist_ok
+=
+True
+)
+            
 perfdocs_tmpdir
+.
+chmod
+(
+0o766
 )
         
 except
@@ -918,31 +923,19 @@ e
 )
 )
         
-success
-=
-False
-or
-os
-.
-path
-.
-isdir
-(
-perfdocs_tmpdir
-)
-        
 if
-success
+perfdocs_tmpdir
+.
+is_dir
+(
+)
 :
             
 return
 perfdocs_tmpdir
         
-else
-:
-            
 return
-success
+False
     
 def
 _create_perfdocs
@@ -1063,11 +1056,9 @@ dynamic
 "
 ]
                 
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 perfdocs_tmpdir
 framework_name
@@ -1099,11 +1090,9 @@ content
 "
 ]
                     
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 perfdocs_tmpdir
 static_name
@@ -1144,11 +1133,9 @@ mainpage
 read_file
 (
             
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 self
 .
@@ -1250,11 +1237,9 @@ fmt_mainpage
 save_file
 (
 fmt_mainpage
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 perfdocs_tmpdir
 "
@@ -1348,15 +1333,12 @@ perfdocs
 )
         
 if
-os
-.
-path
-.
-exists
-(
 self
 .
 perfdocs_path
+.
+exists
+(
 )
 :
             
@@ -1364,9 +1346,12 @@ shutil
 .
 rmtree
 (
+str
+(
 self
 .
 perfdocs_path
+)
 )
         
 try
@@ -1378,10 +1363,16 @@ shutil
 .
 copytree
 (
+str
+(
 perfdocs_tmpdir
+)
+str
+(
 self
 .
 perfdocs_path
+)
 )
             
 if
@@ -1417,9 +1408,12 @@ testing
 "
 testing
 "
+str
+(
 self
 .
 perfdocs_path
+)
 )
                     
 )
@@ -1664,11 +1658,9 @@ extend
                     
 [
                         
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 entry
 [
@@ -1684,11 +1676,9 @@ yml
 ]
 )
                         
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 entry
 [
@@ -1726,15 +1716,12 @@ generating
         
 if
 not
-os
-.
-path
-.
-exists
-(
 self
 .
 perfdocs_path
+.
+exists
+(
 )
 and
 not
