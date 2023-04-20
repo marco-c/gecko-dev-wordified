@@ -1205,6 +1205,13 @@ RtcpMode
 mode
 )
 ;
+void
+SetReferenceTimeReport
+(
+bool
+enabled
+)
+;
 /
 /
 Sets
