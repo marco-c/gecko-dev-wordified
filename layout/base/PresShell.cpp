@@ -28721,13 +28721,6 @@ FlushFontFeatureValues
 (
 )
 ;
-mPresContext
--
->
-FlushFontPaletteValues
-(
-)
-;
 /
 /
 Flush
@@ -62735,13 +62728,6 @@ mPresContext
 -
 >
 FlushFontFeatureValues
-(
-)
-;
-mPresContext
--
->
-FlushFontPaletteValues
 (
 )
 ;

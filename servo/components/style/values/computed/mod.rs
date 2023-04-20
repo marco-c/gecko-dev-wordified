@@ -670,7 +670,6 @@ font
 FontFamily
 FontLanguageOverride
 FontStyle
-FontPalette
 }
 ;
 pub
