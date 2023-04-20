@@ -31363,9 +31363,6 @@ Now
 ;
 RequestContentRepaint
 (
-Metrics
-(
-)
 velocity
 displayportMargins
 aUpdateType
@@ -31522,10 +31519,6 @@ AsyncPanZoomController
 RequestContentRepaint
 (
 const
-FrameMetrics
-&
-aFrameMetrics
-const
 ParentLayerPoint
 &
 aVelocity
@@ -31608,7 +31601,9 @@ TriggeredByUserInput
 RepaintRequest
 request
 (
-aFrameMetrics
+Metrics
+(
+)
 aDisplayportMargins
 aUpdateType
 animationType
@@ -31937,7 +31932,9 @@ CheckerboardEvent
 RequestedDisplayPort
 GetDisplayPortRect
 (
-aFrameMetrics
+Metrics
+(
+)
 aDisplayportMargins
 )
 str
@@ -31957,7 +31954,9 @@ mExpectedGeckoMetrics
 .
 UpdateFrom
 (
-aFrameMetrics
+Metrics
+(
+)
 )
 ;
 mLastPaintRequestMetrics

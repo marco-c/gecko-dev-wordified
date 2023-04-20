@@ -5995,9 +5995,9 @@ eUserAction
 *
 *
 Send
-the
-provided
-metrics
+Metrics
+(
+)
 to
 Gecko
 to
@@ -6007,9 +6007,9 @@ repaint
 .
 This
 function
-*
 may
 filter
+*
 duplicate
 calls
 with
@@ -6021,10 +6021,10 @@ This
 function
 must
 be
-*
 called
 on
 the
+*
 main
 thread
 .
@@ -6033,10 +6033,6 @@ thread
 void
 RequestContentRepaint
 (
-const
-FrameMetrics
-&
-aFrameMetrics
 const
 ParentLayerPoint
 &
