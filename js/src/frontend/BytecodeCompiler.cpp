@@ -1566,9 +1566,6 @@ borrowingStencil
 extensibleStencil
 )
 ;
-if
-(
-!
 StartOffThreadDelazification
 (
 cx
@@ -1577,12 +1574,7 @@ input
 options
 borrowingStencil
 )
-)
-{
-return
-false
 ;
-}
 /
 /
 When
@@ -1989,9 +1981,6 @@ stencil
 )
 )
 ;
-if
-(
-!
 StartOffThreadDelazification
 (
 cx
@@ -2000,12 +1989,7 @@ input
 options
 borrowingStencil
 )
-)
-{
-return
-false
 ;
-}
 /
 /
 When

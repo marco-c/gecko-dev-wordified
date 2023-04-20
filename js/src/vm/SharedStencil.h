@@ -5033,9 +5033,9 @@ SharedImmutableScriptData
 *
 create
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 )
 ;
 public
@@ -5045,9 +5045,9 @@ SharedImmutableScriptData
 *
 createWith
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 js
 :
 :

@@ -1439,12 +1439,7 @@ inner
 /
 functions
 .
-[
-[
-nodiscard
-]
-]
-bool
+void
 StartOffThreadDelazification
 (
 JSContext
