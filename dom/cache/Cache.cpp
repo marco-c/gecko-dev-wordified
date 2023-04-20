@@ -220,17 +220,6 @@ mozilla
 /
 dom
 /
-RootedDictionary
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerPrivate
 .
 h
