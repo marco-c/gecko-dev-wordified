@@ -401,7 +401,7 @@ fluent_ffi
 ;
 extern
 crate
-rure
+regex_ffi
 ;
 extern
 crate

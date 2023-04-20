@@ -472,12 +472,12 @@ mDomain
 ;
 Maybe
 <
-RefPtr
+WeakPtr
 <
 extensions
 :
 :
-WebExtensionPolicyCore
+WebExtensionPolicy
 >
 >
 mAddon
