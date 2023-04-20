@@ -1765,6 +1765,16 @@ ports
 /
 SkGlobalInitialization
 '
+    
+'
+skia
+/
+src
+/
+sksl
+/
+SkSLJIT
+'
   
 ]
   
