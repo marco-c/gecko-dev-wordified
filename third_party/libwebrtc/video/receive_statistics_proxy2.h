@@ -332,13 +332,8 @@ public
 :
 ReceiveStatisticsProxy
 (
-const
-VideoReceiveStream
-:
-:
-Config
-*
-config
+uint32_t
+remote_ssrc
 Clock
 *
 clock
