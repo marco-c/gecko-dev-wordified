@@ -119,10 +119,6 @@ import
 re
 import
 time
-from
-copy
-import
-deepcopy
 import
 attr
 from
@@ -225,6 +221,14 @@ import
 TRUNK_PROJECTS
 is_try
 release_level
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 from
 gecko_taskgraph
 .
@@ -7469,7 +7473,7 @@ renaming
     
 mounts
 =
-deepcopy
+copy_task
 (
 worker
 .

@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-import
-copy
 from
 taskgraph
 .
@@ -73,6 +71,14 @@ from
 voluptuous
 import
 Required
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 schema
 =
 Schema
@@ -476,9 +482,7 @@ job
 .
 update
 (
-copy
-.
-deepcopy
+copy_task
 (
 job_template
 )

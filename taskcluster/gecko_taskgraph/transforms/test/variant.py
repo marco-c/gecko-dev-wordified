@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-copy
-import
 jsone
 from
 taskgraph
@@ -99,6 +97,14 @@ Optional
 Required
 import
 gecko_taskgraph
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 from
 gecko_taskgraph
 .
@@ -556,9 +562,7 @@ variant
 :
             
 yield
-copy
-.
-deepcopy
+copy_task
 (
 task
 )
@@ -597,9 +601,7 @@ split
             
 taskv
 =
-copy
-.
-deepcopy
+copy_task
 (
 task
 )
