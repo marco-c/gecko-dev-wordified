@@ -512,15 +512,6 @@ RtpGenericFrameDescriptorExtension00
 :
 kId
 ;
-constexpr
-char
-RtpGenericFrameDescriptorExtension00
-:
-:
-kUri
-[
-]
-;
 bool
 RtpGenericFrameDescriptorExtension00
 :
