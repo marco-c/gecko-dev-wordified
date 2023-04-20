@@ -1593,6 +1593,7 @@ OnAllocationSequenceObjectsCreated
 void
 DisableEquivalentPhases
 (
+const
 rtc
 :
 :
@@ -1700,6 +1701,7 @@ std
 :
 vector
 <
+const
 rtc
 :
 :
@@ -1715,6 +1717,7 @@ std
 :
 vector
 <
+const
 rtc
 :
 :
@@ -1734,6 +1737,7 @@ std
 :
 vector
 <
+const
 rtc
 :
 :
@@ -1788,6 +1792,7 @@ std
 :
 vector
 <
+const
 rtc
 :
 :
@@ -2476,6 +2481,7 @@ AllocationSequence
 BasicPortAllocatorSession
 *
 session
+const
 rtc
 :
 :
@@ -2524,6 +2530,7 @@ return
 state_
 ;
 }
+const
 rtc
 :
 :
@@ -2583,6 +2590,7 @@ setup
 void
 DisableEquivalentPhases
 (
+const
 rtc
 :
 :
@@ -2751,6 +2759,7 @@ network_failed_
 =
 false
 ;
+const
 rtc
 :
 :

@@ -1073,6 +1073,7 @@ rtc
 PacketSocketFactory
 *
 factory
+const
 rtc
 :
 :
@@ -5898,6 +5899,7 @@ TestPort
 >
 CreateTestPort
 (
+const
 rtc
 :
 :
@@ -16808,12 +16810,7 @@ lnetwork_id
 =
 9
 ;
-lport
--
->
-Network
-(
-)
+test_network
 -
 >
 set_id
@@ -17008,12 +17005,7 @@ rnetwork_id
 =
 8
 ;
-rport
--
->
-Network
-(
-)
+test_network
 -
 >
 set_id

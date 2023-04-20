@@ -276,6 +276,7 @@ const
 0
 ;
 virtual
+const
 rtc
 :
 :
