@@ -478,6 +478,17 @@ path
 )
 :
     
+#
+pylint
+:
+disable
+=
+no
+-
+self
+-
+use
+    
 return
 '
 HOME
@@ -6336,8 +6347,7 @@ output_dir
 {
 ISOLATED_OUTDIR
 }
-\
-\
+/
 test_logs
 '
         

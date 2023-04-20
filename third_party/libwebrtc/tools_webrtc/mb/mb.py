@@ -1038,37 +1038,13 @@ py
       
 ]
       
-sep
-=
-'
-\
-\
-'
-if
-self
-.
-platform
-=
-=
-'
-win32
-'
-else
-'
-/
-'
-      
 output_dir
 =
 '
 {
 ISOLATED_OUTDIR
 }
-'
-+
-sep
-+
-'
+/
 test_logs
 '
       
