@@ -467,6 +467,14 @@ aOther
 mAllowSoftwareWebRenderOGL
 &
 &
+mInitiallyPaused
+=
+=
+aOther
+.
+mInitiallyPaused
+&
+&
 mNeedFastSnaphot
 =
 =
