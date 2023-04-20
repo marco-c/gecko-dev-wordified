@@ -369,12 +369,11 @@ ZeroOnFreeBuffer
 HttpAuthResult
 HttpAuthenticate
 (
-const
-char
-*
+absl
+:
+:
+string_view
 challenge
-size_t
-len
 const
 SocketAddress
 &

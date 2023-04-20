@@ -4710,9 +4710,10 @@ GetSslVersion
 bool
 ExportKeyingMaterial
 (
-const
-char
-*
+absl
+:
+:
+string_view
 label
 const
 unsigned

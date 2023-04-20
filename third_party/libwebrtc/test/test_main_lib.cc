@@ -1594,10 +1594,6 @@ tracing
 StartInternalCapture
 (
 trace_event_path
-.
-c_str
-(
-)
 )
 ;
 }

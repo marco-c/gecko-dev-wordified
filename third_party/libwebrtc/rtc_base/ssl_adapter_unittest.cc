@@ -813,17 +813,7 @@ ssl_adapter_
 >
 StartSSL
 (
-std
-:
-:
-string
-(
 hostname
-)
-.
-c_str
-(
-)
 )
 !
 =

@@ -1531,9 +1531,10 @@ on
 AdapterType
 GetAdapterTypeFromName
 (
-const
-char
-*
+absl
+:
+:
+string_view
 network_name
 )
 {

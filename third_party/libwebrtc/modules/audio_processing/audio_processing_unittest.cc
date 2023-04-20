@@ -11646,10 +11646,6 @@ FileWrapper
 OpenWriteOnly
 (
 filename
-.
-c_str
-(
-)
 )
 ;
 ASSERT_TRUE
