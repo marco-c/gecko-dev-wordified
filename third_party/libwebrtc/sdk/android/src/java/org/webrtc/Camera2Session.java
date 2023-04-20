@@ -1512,6 +1512,14 @@ CameraCharacteristics
 CONTROL_AVAILABLE_VIDEO_STABILIZATION_MODES
 )
 ;
+if
+(
+availableVideoStabilization
+!
+=
+null
+)
+{
 for
 (
 int
@@ -1569,6 +1577,7 @@ stabilization
 ;
 return
 ;
+}
 }
 }
 Logging
