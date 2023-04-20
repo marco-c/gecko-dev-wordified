@@ -129,9 +129,7 @@ Tests
 for
 PromiseUtils
 .
-sys
-.
-mjs
+jsm
 /
 /
 Tests

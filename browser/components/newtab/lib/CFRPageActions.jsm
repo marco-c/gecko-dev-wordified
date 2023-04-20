@@ -4834,7 +4834,7 @@ central
 /
 rev
 /
-c5c002f81f08a73e04868e0c2bf0eb113f200b03
+847b64cc28b74b44c379f9bff4f415b97da1c6d7
 /
 toolkit
 /
@@ -4842,11 +4842,9 @@ modules
 /
 PopupNotifications
 .
-sys
-.
-mjs
+jsm
 #
-40
+42
 browser
 .
 cfrpopupnotificationanchor
@@ -4946,7 +4944,7 @@ central
 /
 rev
 /
-c5c002f81f08a73e04868e0c2bf0eb113f200b03
+847b64cc28b74b44c379f9bff4f415b97da1c6d7
 /
 toolkit
 /
@@ -4954,11 +4952,9 @@ modules
 /
 PopupNotifications
 .
-sys
-.
-mjs
+jsm
 #
-40
+42
 browser
 .
 cfrpopupnotificationanchor

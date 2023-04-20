@@ -1291,9 +1291,7 @@ of
 a
 Sqlite
 .
-sys
-.
-mjs
+jsm
 transaction
 and
 fail

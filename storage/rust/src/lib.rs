@@ -1087,9 +1087,7 @@ caller
 like
 Sqlite
 .
-sys
-.
-mjs
+jsm
 or
 mozStorageTransaction
 from

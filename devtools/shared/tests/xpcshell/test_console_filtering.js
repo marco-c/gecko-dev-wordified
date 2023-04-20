@@ -484,9 +484,7 @@ console1
 Test
 Console
 .
-sys
-.
-mjs
+jsm
 messages
 tagged
 by

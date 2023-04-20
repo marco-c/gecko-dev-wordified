@@ -194,9 +194,7 @@ SEARCH_SERVICE_COUNTRY_FETCH_RESULT
 /
 Region
 .
-sys
-.
-mjs
+jsm
 will
 call
 init

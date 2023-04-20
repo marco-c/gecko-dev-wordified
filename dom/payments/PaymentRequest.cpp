@@ -545,7 +545,7 @@ nsIRegion
 >
 regionJsm
 =
-do_ImportESModule
+do_ImportModule
 (
 "
 resource
@@ -558,9 +558,7 @@ modules
 /
 Region
 .
-sys
-.
-mjs
+jsm
 "
 "
 Region

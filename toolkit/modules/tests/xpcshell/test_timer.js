@@ -40,9 +40,7 @@ exports
 from
 Timer
 .
-sys
-.
-mjs
+jsm
 var
 imported
 =

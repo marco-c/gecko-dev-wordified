@@ -346,9 +346,7 @@ shuts
 down
 Sqlite
 .
-sys
-.
-mjs
+jsm
 /
 /
 add_task
@@ -366,9 +364,7 @@ Ensuring
 that
 Sqlite
 .
-sys
-.
-mjs
+jsm
 doesn
 '
 t
@@ -576,9 +572,7 @@ to
 complete
 Sqlite
 .
-sys
-.
-mjs
+jsm
 must
 wait
 automatically
@@ -632,9 +626,7 @@ Now
 shutdown
 Sqlite
 .
-sys
-.
-mjs
+jsm
 synchronously
 "
 )
@@ -770,9 +762,7 @@ includes
 "
 Sqlite
 .
-sys
-.
-mjs
+jsm
 has
 been
 shutdown

@@ -7438,9 +7438,7 @@ logging
 for
 Sqlite
 .
-sys
-.
-mjs
+jsm
 .
 pref
 (

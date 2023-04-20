@@ -1089,9 +1089,7 @@ modules
 /
 FindBarContent
 .
-sys
-.
-mjs
+jsm
 *
 /
 this

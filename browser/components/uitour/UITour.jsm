@@ -358,9 +358,7 @@ LOG_LEVELS
 in
 Console
 .
-sys
-.
-mjs
+jsm
 .
 Common
 examples
@@ -375,8 +373,6 @@ Info
 Warn
 "
 &
-/
-/
 "
 Error
 "

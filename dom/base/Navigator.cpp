@@ -5487,9 +5487,7 @@ copy
 in
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 .
 static
 const

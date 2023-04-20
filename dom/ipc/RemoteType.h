@@ -145,9 +145,7 @@ ones
 in
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 and
 ProcInfo
 .

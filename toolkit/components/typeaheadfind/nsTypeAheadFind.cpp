@@ -1791,9 +1791,7 @@ by
 /
 FinderParent
 .
-sys
-.
-mjs
+jsm
 which
 will
 end

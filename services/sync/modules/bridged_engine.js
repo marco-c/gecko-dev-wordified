@@ -1035,9 +1035,7 @@ Adapts
 a
 Log
 .
-sys
-.
-mjs
+jsm
 logger
 to
 a

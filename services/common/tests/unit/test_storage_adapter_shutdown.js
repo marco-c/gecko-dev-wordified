@@ -111,9 +111,7 @@ sqlite
 Shutdown
 Sqlite
 .
-sys
-.
-mjs
+jsm
 synchronously
 .
 Services

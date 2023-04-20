@@ -37,9 +37,7 @@ tests
 the
 DeferredTask
 .
-sys
-.
-mjs
+jsm
 module
 .
 *

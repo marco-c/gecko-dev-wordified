@@ -158,9 +158,7 @@ defined
 in
 Log
 .
-sys
-.
-mjs
+jsm
 *
 /
 configure

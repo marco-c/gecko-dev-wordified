@@ -294,9 +294,7 @@ h
 and
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 Web
 WebIsolated
 File

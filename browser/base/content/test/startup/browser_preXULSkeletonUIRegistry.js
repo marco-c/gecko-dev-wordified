@@ -96,9 +96,7 @@ copied
 from
 WindowsRegistry
 .
-sys
-.
-mjs
+jsm
 but
 extended
 to
@@ -131,9 +129,7 @@ t
 extend
 WindowsRegistry
 .
-sys
-.
-mjs
+jsm
 itself
 /
 /

@@ -643,9 +643,7 @@ Adapted
 from
 Console
 .
-sys
-.
-mjs
+jsm
 .
 if
 (

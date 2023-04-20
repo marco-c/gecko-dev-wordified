@@ -1764,9 +1764,7 @@ NETWORK_NAMES
 in
 CreditCard
 .
-sys
-.
-mjs
+jsm
 {
 RegexKey
 :

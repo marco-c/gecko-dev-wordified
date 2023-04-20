@@ -656,9 +656,7 @@ property
 in
 Troubleshoot
 .
-sys
-.
-mjs
+jsm
 '
 s
 /
@@ -4236,9 +4234,7 @@ failures
 see
 Troubleshoot
 .
-sys
-.
-mjs
+jsm
 )
 but
 we

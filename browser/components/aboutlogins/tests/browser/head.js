@@ -659,9 +659,7 @@ errors
 from
 JSONFile
 .
-sys
-.
-mjs
+jsm
 .
 return
 ;

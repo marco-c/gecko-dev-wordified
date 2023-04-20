@@ -144,9 +144,7 @@ it
 to
 RemotePageAccessManager
 .
-sys
-.
-mjs
+jsm
 /
 /
 to

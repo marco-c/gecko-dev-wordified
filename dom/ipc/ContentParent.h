@@ -10048,9 +10048,7 @@ remoteTypePrefix
 in
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 .
 const
 nsDependentCSubstring
@@ -10072,9 +10070,7 @@ isWebRemoteType
 in
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 .
 bool
 IsWebRemoteType

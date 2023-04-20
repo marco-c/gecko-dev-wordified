@@ -2597,9 +2597,7 @@ suffix
 that
 JSONFile
 .
-sys
-.
-mjs
+jsm
 /
 /
 adds

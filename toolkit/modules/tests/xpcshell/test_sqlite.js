@@ -239,9 +239,7 @@ to
 tell
 Sqlite
 .
-sys
-.
-mjs
+jsm
 to
 not
 throw
