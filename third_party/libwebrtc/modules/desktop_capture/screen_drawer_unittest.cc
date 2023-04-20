@@ -513,9 +513,7 @@ before
 unlocking
 /
 /
-|
 lock
-|
 .
 while
 (

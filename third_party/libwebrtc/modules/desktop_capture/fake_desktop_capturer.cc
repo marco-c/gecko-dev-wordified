@@ -193,9 +193,7 @@ num_capture_attempts_
 /
 Uses
 the
-|
 generator
-|
 provided
 as
 DesktopFrameGenerator
@@ -210,9 +208,7 @@ take
 the
 ownership
 of
-|
 generator
-|
 .
 void
 FakeDesktopCapturer

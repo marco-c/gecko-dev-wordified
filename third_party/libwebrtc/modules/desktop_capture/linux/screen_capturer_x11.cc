@@ -1555,9 +1555,7 @@ which
 /
 /
 reinitializes
-|
 x_server_pixel_buffer_
-|
 .
 Check
 if
@@ -1903,9 +1901,7 @@ true
 /
 Ensure
 that
-|
 monitors_
-|
 is
 updated
 with
@@ -2505,9 +2501,7 @@ resolution
 change
 occurred
 and
-|
 invalid_rects
-|
 will
 be
 updated
@@ -3004,15 +2998,11 @@ by
 subtracting
 /
 /
-|
 capturer_helper_
-|
 s
 region
 from
-|
 last_invalid_region_
-|
 .
 /
 /

@@ -117,9 +117,7 @@ Sets
 the
 resolution
 to
-|
 size
-|
 .
 Returns
 true
@@ -134,9 +132,7 @@ recorded
 and
 differs
 from
-|
 size
-|
 .
 bool
 SetResolution

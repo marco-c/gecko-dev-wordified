@@ -260,9 +260,7 @@ cg_image
 This
 constructor
 expects
-|
 cg_image
-|
 to
 hold
 a

@@ -373,13 +373,9 @@ a
 rectangle
 to
 cover
-|
 rect
-|
 with
-|
 color
-|
 .
 Note
 rect
@@ -404,9 +400,7 @@ included
 The
 part
 of
-|
 rect
-|
 which
 is
 out

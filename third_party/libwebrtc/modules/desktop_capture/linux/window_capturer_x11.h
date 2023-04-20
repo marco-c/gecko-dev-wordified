@@ -376,9 +376,7 @@ for
 the
 specified
 X
-|
 window
-|
 .
 bool
 GetWindowTitle

@@ -135,9 +135,7 @@ of
 active
 screens
 into
-|
 screens
-|
 .
 Returns
 true
@@ -158,9 +156,7 @@ devices
 .
 If
 the
-|
 device_names
-|
 /
 /
 is
@@ -194,16 +190,12 @@ assume
 that
 /
 /
-|
 screens
-|
 [
 i
 ]
 and
-|
 device_names
-|
 [
 i
 ]
@@ -251,9 +243,7 @@ which
 are
 returned
 by
-|
 GetScreenList
-|
 )
 into
 an
@@ -280,9 +270,7 @@ hmonitor
 Returns
 true
 if
-|
 monitor
-|
 represents
 a
 valid
@@ -328,9 +316,7 @@ the
 monitor
 identified
 by
-|
 monitor
-|
 relative
 to
 the
@@ -364,9 +350,7 @@ monitor
 Returns
 true
 if
-|
 screen
-|
 is
 a
 valid
@@ -381,9 +365,7 @@ is
 /
 returned
 through
-|
 device_key
-|
 if
 the
 screen
@@ -475,9 +457,7 @@ the
 screen
 identified
 by
-|
 screen
-|
 relative
 to
 the
@@ -499,9 +479,7 @@ key
 does
 not
 match
-|
 device_key
-|
 or
 /
 /

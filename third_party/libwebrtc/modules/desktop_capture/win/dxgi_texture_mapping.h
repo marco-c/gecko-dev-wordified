@@ -216,9 +216,7 @@ lifetime
 /
 of
 input
-|
 duplication
-|
 to
 make
 sure

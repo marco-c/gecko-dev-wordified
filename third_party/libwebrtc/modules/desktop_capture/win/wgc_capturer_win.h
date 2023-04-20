@@ -491,17 +491,13 @@ should
 use
 /
 /
-|
 CreateRawWindowCapturer
 (
 )
-|
 or
-|
 CreateRawScreenCapturer
 (
 )
-|
 to
 receive
 a

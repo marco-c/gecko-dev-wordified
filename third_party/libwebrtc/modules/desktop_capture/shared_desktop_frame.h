@@ -275,13 +275,9 @@ GetUnderlyingFrame
 /
 Returns
 whether
-|
 this
-|
 and
-|
 other
-|
 share
 the
 underlying

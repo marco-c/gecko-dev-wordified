@@ -165,9 +165,7 @@ instance
 which
 represents
 the
-|
 desktop_size
-|
 area
 of
 /

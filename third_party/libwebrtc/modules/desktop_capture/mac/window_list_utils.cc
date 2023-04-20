@@ -281,14 +281,10 @@ true
 Get
 CFDictionaryRef
 from
-|
 id
-|
 and
 call
-|
 on_window
-|
 against
 it
 .
@@ -307,9 +303,7 @@ it
 indicates
 that
 the
-|
 id
-|
 does
 /
 /
@@ -318,9 +312,7 @@ represent
 a
 window
 .
-|
 on_window
-|
 will
 not
 be
@@ -365,9 +357,7 @@ TODO
 zijiehe
 )
 :
-|
 id
-|
 is
 a
 32

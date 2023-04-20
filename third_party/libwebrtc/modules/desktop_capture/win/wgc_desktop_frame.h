@@ -179,9 +179,7 @@ rvalue
 reference
 to
 the
-|
 image_data
-|
 vector
 /
 /

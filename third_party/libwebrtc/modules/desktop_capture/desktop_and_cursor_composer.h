@@ -279,9 +279,7 @@ frames
 /
 generated
 by
-|
 desktop_capturer
-|
 .
 DesktopAndCursorComposer
 (

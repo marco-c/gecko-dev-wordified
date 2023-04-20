@@ -225,9 +225,7 @@ Inverts
 the
 position
 of
-|
 rect
-|
 from
 bottom
 -
@@ -241,9 +239,7 @@ down
 /
 relative
 to
-|
 bounds
-|
 .
 void
 InvertRectYOrigin
@@ -863,9 +859,7 @@ bounds
 ;
 /
 /
-|
 display_bounds
-|
 is
 density
 dependent

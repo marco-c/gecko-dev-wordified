@@ -454,9 +454,7 @@ ProcessPendingXEvents
 Hold
 reference
 to
-|
 this
-|
 to
 prevent
 it

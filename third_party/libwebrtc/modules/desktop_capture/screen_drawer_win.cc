@@ -491,9 +491,7 @@ Draw
 a
 line
 with
-|
 color
-|
 .
 void
 DrawLine
@@ -512,9 +510,7 @@ Draw
 a
 dot
 with
-|
 color
-|
 .
 void
 DrawDot
@@ -580,9 +576,7 @@ any
 messages
 for
 the
-|
 window_
-|
 so
 disable
 Windows

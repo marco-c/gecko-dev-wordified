@@ -526,9 +526,7 @@ potentially
 blocking
 operations
 if
-|
 hwnd
-|
 is
 /
 /
@@ -1716,9 +1714,7 @@ width
 /
 /
 When
-|
 shrink
-|
 is
 negative
 DesktopRect
@@ -2562,9 +2558,7 @@ false
 }
 /
 /
-|
 content_rect
-|
 is
 preferred
 because

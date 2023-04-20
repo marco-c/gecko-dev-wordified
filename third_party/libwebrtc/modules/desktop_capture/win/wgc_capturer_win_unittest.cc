@@ -1647,11 +1647,9 @@ invokes
 this
 method
 before
-|
 CaptureFrame
 (
 )
-|
 /
 /
 returns

@@ -183,9 +183,7 @@ maintain
 the
 lifetime
 of
-|
 factory
-|
 to
 ensure
 it
@@ -224,9 +222,7 @@ CreateSharedMemory
 )
 calls
 to
-|
 factory_
-|
 .
 Users
 should
@@ -558,9 +554,7 @@ return
 to
 the
 input
-|
 callback
-|
 .
 secondary_capturer_
 -

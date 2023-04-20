@@ -191,9 +191,7 @@ CreateTestFrame
 /
 owned
 by
-|
 original
-|
 and
 CroppedDesktopFrame
 .

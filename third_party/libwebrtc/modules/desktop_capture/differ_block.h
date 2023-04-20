@@ -204,9 +204,7 @@ size
 /
 (
 kBlockSize
-|
 height
-|
 )
 .
 Returns

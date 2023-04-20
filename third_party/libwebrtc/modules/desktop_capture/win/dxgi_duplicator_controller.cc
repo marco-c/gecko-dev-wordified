@@ -1171,9 +1171,7 @@ error
 to
 provide
 a
-|
 monitor_id
-|
 larger
 than
 screen
@@ -1199,9 +1197,7 @@ INVALID_MONITOR_ID
 /
 If
 the
-|
 monitor_id
-|
 is
 valid
 but
@@ -2791,9 +2787,7 @@ height
 {
 /
 /
-|
 target
-|
 is
 large
 enough
@@ -2809,9 +2803,7 @@ to
 use
 /
 /
-|
 fallback_frame
-|
 .
 shared_frame
 =
@@ -2891,9 +2883,7 @@ GetNumFramesCaptured
 /
 /
 Sleep
-|
 ms_per_frame
-|
 before
 capturing
 next

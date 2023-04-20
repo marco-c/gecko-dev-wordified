@@ -406,9 +406,7 @@ current
 IDXGIOutput
 to
 the
-|
 target
-|
 .
 To
 improve
@@ -425,9 +423,7 @@ merged
 from
 /
 /
-|
 context
-|
 -
 >
 updated_region
@@ -437,9 +433,7 @@ DetectUpdatedRegion
 )
 .
 The
-|
 offset
-|
 decides
 /
 /
@@ -447,9 +441,7 @@ the
 offset
 in
 the
-|
 target
-|
 where
 the
 content
@@ -623,9 +615,7 @@ const
 /
 /
 Moves
-|
 desktop_rect_
-|
 .
 See
 DxgiDuplicatorController
@@ -662,9 +652,7 @@ sets
 the
 /
 /
-|
 updated_region
-|
 as
 entire
 UntranslatedDesktopRect
@@ -815,9 +803,7 @@ const
 Spreads
 changes
 from
-|
 context
-|
 to
 other
 registered
@@ -1027,9 +1013,7 @@ content
 from
 /
 /
-|
 last_frame_
-|
 .
 std
 :

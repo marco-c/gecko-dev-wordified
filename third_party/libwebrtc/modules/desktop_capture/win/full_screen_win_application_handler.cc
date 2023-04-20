@@ -203,17 +203,13 @@ function
 to
 verify
 that
-|
 window
-|
 has
 class
 name
 equal
 to
-|
 class_name
-|
 bool
 CheckWindowClassName
 (
@@ -547,9 +543,7 @@ process
 id
 /
 /
-|
 sources
-|
 is
 a
 full
@@ -559,9 +553,7 @@ available
 windows
 /
 /
-|
 processId
-|
 is
 a
 process
@@ -572,9 +564,7 @@ owner
 )
 /
 /
-|
 window_to_exclude
-|
 is
 a
 window

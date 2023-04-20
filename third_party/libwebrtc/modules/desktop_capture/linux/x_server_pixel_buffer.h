@@ -224,9 +224,7 @@ the
 pixel
 buffer
 for
-|
 window
-|
 .
 Returns
 false
@@ -423,9 +421,7 @@ stores
 it
 in
 the
-|
 frame
-|
 .
 In
 the
@@ -464,9 +460,7 @@ ensure
 /
 /
 that
-|
 rect
-|
 is
 not
 larger

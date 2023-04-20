@@ -226,9 +226,7 @@ not
 take
 ownership
 of
-|
 factory
-|
 consumers
 should
 ensure

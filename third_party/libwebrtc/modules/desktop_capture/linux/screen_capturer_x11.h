@@ -606,9 +606,7 @@ the
 current
 buffer
 with
-|
 last_buffer_
-|
 by
 copying
 pixels
@@ -618,9 +616,7 @@ from
 the
 area
 of
-|
 last_invalid_rects
-|
 .
 /
 /
@@ -639,9 +635,7 @@ kNumBuffers
 as
 /
 /
-|
 last_invalid_rects
-|
 holds
 the
 differences

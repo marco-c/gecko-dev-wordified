@@ -290,9 +290,7 @@ result
 /
 Uses
 the
-|
 generator
-|
 provided
 as
 DesktopFrameGenerator
@@ -305,9 +303,7 @@ take
 the
 ownership
 of
-|
 generator
-|
 .
 void
 set_frame_generator

@@ -235,14 +235,10 @@ BlankDesktopCapturerWrapper
 takes
 ownership
 of
-|
 capturer
-|
 .
 The
-|
 blank_pixel
-|
 is
 the
 unmodified
@@ -252,9 +248,7 @@ color
 returned
 by
 the
-|
 capturer
-|
 .
 BlankDetectorDesktopCapturerWrapper
 (
@@ -402,9 +396,7 @@ y
 )
 equals
 to
-|
 blank_pixel_
-|
 .
 bool
 IsBlankPixel

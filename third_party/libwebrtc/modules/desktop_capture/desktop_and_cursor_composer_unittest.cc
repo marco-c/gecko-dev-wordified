@@ -1255,9 +1255,7 @@ protected
 /
 Owned
 by
-|
 blender_
-|
 .
 FakeScreenCapturer
 *
@@ -1790,11 +1788,9 @@ contained
 the
 cursor
 then
-|
 CaptureFrame
 (
 )
-|
 /
 /
 should
@@ -1883,11 +1879,9 @@ else
 {
 /
 /
-|
 CaptureFrame
 (
 )
-|
 should
 have
 modified

@@ -1569,13 +1569,9 @@ We
 need
 to
 copy
-|
 texture_2D
-|
 into
-|
 mapped_texture_
-|
 as
 the
 latter
@@ -1928,9 +1924,7 @@ RowPitch
 Transfer
 ownership
 of
-|
 image_data
-|
 to
 the
 output_frame

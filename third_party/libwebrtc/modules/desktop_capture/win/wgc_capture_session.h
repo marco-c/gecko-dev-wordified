@@ -290,17 +290,13 @@ private
 /
 /
 Initializes
-|
 mapped_texture_
-|
 with
 the
 properties
 of
 the
-|
 src_texture
-|
 /
 /
 overrides
@@ -326,9 +322,7 @@ what
 size
 /
 /
-|
 mapped_texture_
-|
 should
 be
 if
@@ -345,9 +339,7 @@ size
 /
 /
 of
-|
 src_texture
-|
 .
 HRESULT
 CreateMappedTexture
@@ -378,9 +370,7 @@ height
 Event
 handler
 for
-|
 item_
-|
 '
 s
 Closed

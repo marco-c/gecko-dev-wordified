@@ -190,9 +190,7 @@ Otherwise
 returns
 null
 if
-|
 display_id
-|
 is
 invalid
 or

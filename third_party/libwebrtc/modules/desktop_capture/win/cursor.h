@@ -111,9 +111,7 @@ an
 HCURSOR
 into
 a
-|
 MouseCursor
-|
 instance
 .
 MouseCursor

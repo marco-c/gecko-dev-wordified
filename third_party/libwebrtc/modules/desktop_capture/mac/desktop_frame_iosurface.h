@@ -204,9 +204,7 @@ private
 This
 constructor
 expects
-|
 io_surface
-|
 to
 hold
 a

@@ -276,9 +276,7 @@ device
 ;
 /
 /
-|
 enum_result
-|
 is
 0
 if
@@ -385,9 +383,7 @@ A
 device
 index
 of
-|
 kFullDesktopScreenId
-|
 or
 -
 1

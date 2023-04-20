@@ -588,9 +588,7 @@ source_rect
 The
 rectangle
 in
-|
 target
-|
 .
 const
 DesktopRect

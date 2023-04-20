@@ -473,9 +473,7 @@ a
 updated
 region
 if
-|
 enlarge_updated_region_
-|
 is
 true
 .
@@ -497,9 +495,7 @@ zero
 and
 /
 /
-|
 enlarge_updated_region_
-|
 will
 be
 ignored
@@ -567,9 +563,7 @@ painting
 work
 if
 no
-|
 painter_
-|
 has
 /
 /
@@ -606,9 +600,7 @@ take
 ownership
 of
 the
-|
 painter
-|
 .
 void
 set_desktop_frame_painter

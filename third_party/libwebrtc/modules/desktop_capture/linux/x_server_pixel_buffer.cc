@@ -219,9 +219,7 @@ the
 number
 of
 bits
-|
 mask
-|
 has
 to
 be
@@ -252,9 +250,7 @@ word
 /
 /
 When
-|
 mask
-|
 is
 0
 the
@@ -395,9 +391,7 @@ shift
 Returns
 true
 if
-|
 image
-|
 is
 in
 RGB
@@ -1388,9 +1382,7 @@ None
 {
 /
 /
-|
 window
-|
 is
 the
 root
@@ -1988,9 +1980,7 @@ GetLastErrorAndDisable
 {
 /
 /
-|
 shm_pixmap_
-|
 is
 not
 not

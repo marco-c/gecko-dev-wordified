@@ -149,9 +149,7 @@ ScopedThreadDesktop
 Returns
 true
 if
-|
 desktop
-|
 has
 the
 same
@@ -227,9 +225,7 @@ Revert
 /
 /
 Assigns
-|
 desktop
-|
 to
 be
 the
@@ -247,17 +243,13 @@ has
 been
 switched
 to
-|
 desktop
-|
 successfully
 .
 Takes
 ownership
 of
-|
 desktop
-|
 .
 bool
 SetThreadDesktop

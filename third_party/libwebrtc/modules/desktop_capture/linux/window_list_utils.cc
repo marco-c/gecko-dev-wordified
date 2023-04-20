@@ -241,9 +241,7 @@ data_
 /
 Iterates
 through
-|
 window
-|
 hierarchy
 to
 find
@@ -520,9 +518,7 @@ Returns
 true
 if
 the
-|
 window
-|
 is
 a
 desktop

@@ -334,9 +334,7 @@ Callback
 implementation
 passed
 to
-|
 screen_capturer_
-|
 to
 /
 /

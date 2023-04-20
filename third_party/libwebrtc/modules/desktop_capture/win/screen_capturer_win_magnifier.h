@@ -499,9 +499,7 @@ Captures
 the
 screen
 within
-|
 rect
-|
 in
 the
 desktop
@@ -642,9 +640,7 @@ frame
 exists
 and
 matches
-|
 size
-|
 .
 void
 CreateCurrentFrameIfNecessary

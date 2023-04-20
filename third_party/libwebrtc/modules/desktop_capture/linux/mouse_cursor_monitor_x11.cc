@@ -328,9 +328,7 @@ corresponds
 /
 /
 to
-|
 window
-|
 .
 Window
 GetTopLevelWindow
@@ -1053,9 +1051,7 @@ XQueryPointer
 (
 )
 sets
-|
 child_window
-|
 to
 None
 if
@@ -1065,9 +1061,7 @@ is
 outside
 /
 /
-|
 window_
-|
 .
 state
 =
@@ -1111,9 +1105,7 @@ position
 capture
 happens
 in
-|
 window_
-|
 while
 the
 frame
@@ -1122,9 +1114,7 @@ catpure
 /
 happens
 in
-|
 child_window
-|
 .
 These
 two
@@ -1144,9 +1134,7 @@ some
 decorations
 to
 the
-|
 window_
-|
 .
 So
 translate
@@ -1155,17 +1143,13 @@ translate
 the
 coordinate
 in
-|
 window_
-|
 to
 the
 coordinate
 space
 of
-|
 child_window
-|
 .
 if
 (

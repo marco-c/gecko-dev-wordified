@@ -812,9 +812,7 @@ alpha
 is
 found
 .
-|
 stride
-|
 is
 expressed
 in
@@ -1027,9 +1025,7 @@ NULL
 /
 /
 Get
-|
 scoped_mask
-|
 dimensions
 .
 BITMAP
@@ -1116,9 +1112,7 @@ Get
 pixel
 data
 from
-|
 scoped_mask
-|
 converting
 it
 to

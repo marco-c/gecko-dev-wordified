@@ -765,11 +765,9 @@ into
 an
 HMONITOR
 when
-|
 IsCapturable
 (
 )
-|
 is
 called
 .

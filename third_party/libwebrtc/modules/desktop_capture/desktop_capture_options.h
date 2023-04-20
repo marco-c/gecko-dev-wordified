@@ -701,11 +701,9 @@ the
 comments
 in
 the
-|
 GetWindowListHandler
 (
 )
-|
 function
 in
 /
@@ -744,11 +742,9 @@ loop
 never
 waits
 on
-|
 GetSourceList
 (
 )
-|
 or
 they
 can
@@ -792,11 +788,9 @@ their
 own
 windows
 to
-|
 SelectSource
 (
 )
-|
 and
 capture
 /

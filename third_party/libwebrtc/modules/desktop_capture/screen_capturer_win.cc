@@ -300,9 +300,7 @@ allow_directx_capturer
 {
 /
 /
-|
 dxgi_duplicator_controller
-|
 should
 be
 alive

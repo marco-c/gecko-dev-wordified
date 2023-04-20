@@ -110,9 +110,7 @@ webrtc
 Clears
 a
 DesktopFrame
-|
 frame
-|
 by
 setting
 its
@@ -143,13 +141,9 @@ data
 of
 two
 DesktopFrames
-|
 left
-|
 and
-|
 right
-|
 .
 bool
 DesktopFrameDataEquals

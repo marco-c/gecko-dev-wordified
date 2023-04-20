@@ -782,11 +782,9 @@ leave
 hmonitor_
 uninitialized
 and
-|
 IsCapturable
 (
 )
-|
 will
 fail
 .

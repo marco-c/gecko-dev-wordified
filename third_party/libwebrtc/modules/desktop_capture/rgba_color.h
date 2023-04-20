@@ -326,13 +326,9 @@ bgra
 Returns
 true
 if
-|
 this
-|
 and
-|
 right
-|
 is
 the
 same
@@ -355,13 +351,9 @@ const
 Returns
 true
 if
-|
 this
-|
 and
-|
 right
-|
 are
 different
 colors

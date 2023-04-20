@@ -703,9 +703,7 @@ or
 another
 frame
 .
-|
 dest_rect
-|
 rect
 must
 lay
@@ -939,9 +937,7 @@ Copies
 various
 information
 from
-|
 other
-|
 .
 Anything
 initialized
@@ -1012,9 +1008,7 @@ Copies
 various
 information
 from
-|
 other
-|
 .
 Anything
 initialized
@@ -1054,9 +1048,7 @@ break
 /
 /
 the
-|
 other
-|
 but
 some
 of
@@ -1101,9 +1093,7 @@ takes
 the
 ownership
 of
-|
 other
-|
 so
 other
 components
@@ -1111,9 +1101,7 @@ cannot
 access
 /
 /
-|
 other
-|
 anymore
 .
 For
@@ -1400,9 +1388,7 @@ that
 contains
 copy
 of
-|
 frame
-|
 .
 /
 /
@@ -1465,9 +1451,7 @@ May
 return
 nullptr
 if
-|
 shared_memory_factory
-|
 failed
 to
 create
@@ -1479,9 +1463,7 @@ instance
 .
 /
 /
-|
 shared_memory_factory
-|
 should
 not
 be
@@ -1509,9 +1491,7 @@ shared_memory_factory
 Takes
 ownership
 of
-|
 shared_memory
-|
 .
 /
 /

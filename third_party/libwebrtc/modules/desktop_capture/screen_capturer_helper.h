@@ -272,9 +272,7 @@ current
 invalid
 region
 to
-|
 invalid_region
-|
 clears
 invalid
 region
@@ -387,9 +385,7 @@ changes
 /
 /
 If
-|
 log_grid_size
-|
 is
 >
 =
@@ -422,9 +418,7 @@ of
 size
 2
 ^
-|
 log_grid_size
-|
 .
 The
 expanded
@@ -456,9 +450,7 @@ set_size_most_recent
 /
 /
 If
-|
 log_grid_size
-|
 is
 <
 =
@@ -504,9 +496,7 @@ be
 =
 2
 so
-|
 log_grid_size
-|
 must
 be
 >
@@ -575,9 +565,7 @@ invalid_region_mutex_
 A
 lock
 protecting
-|
 invalid_region_
-|
 across
 threads
 .

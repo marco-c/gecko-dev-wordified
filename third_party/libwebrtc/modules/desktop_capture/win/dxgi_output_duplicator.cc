@@ -1154,9 +1154,7 @@ context
 here
 .
 The
-|
 updated_region
-|
 always
 starts
 from
@@ -1322,9 +1320,7 @@ Advance
 /
 /
 The
-|
 updated_region
-|
 returned
 by
 Windows
@@ -1332,9 +1328,7 @@ is
 rotated
 but
 the
-|
 source
-|
 /
 /
 frame
@@ -1412,9 +1406,7 @@ Advance
 The
 DesktopRect
 in
-|
 target
-|
 starts
 from
 offset
@@ -1574,9 +1566,7 @@ Advance
 The
 DesktopRect
 in
-|
 source
-|
 starts
 from
 last_frame_offset_
@@ -1595,9 +1585,7 @@ rect
 The
 DesktopRect
 in
-|
 target
-|
 starts
 from
 offset

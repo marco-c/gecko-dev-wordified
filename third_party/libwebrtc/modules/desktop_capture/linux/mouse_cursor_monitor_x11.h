@@ -304,9 +304,7 @@ and
 stores
 it
 in
-|
 cursor_shape_
-|
 .
 void
 CaptureCursor

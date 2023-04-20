@@ -297,9 +297,7 @@ have
 an
 exactly
 same
-|
 controller_id
-|
 as
 /
 /

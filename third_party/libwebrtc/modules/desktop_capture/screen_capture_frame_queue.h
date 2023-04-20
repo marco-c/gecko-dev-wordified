@@ -439,9 +439,7 @@ destroyed
 Takes
 ownership
 of
-|
 frame
-|
 .
 void
 ReplaceCurrentFrame

@@ -506,9 +506,7 @@ public
 Takes
 ownership
 of
-|
 frame
-|
 .
 DesktopFrameWithCursor
 (
@@ -794,9 +792,7 @@ content
 under
 cursor
 to
-|
 restore_frame_
-|
 .
 restore_position_
 =
@@ -1528,9 +1524,7 @@ current
 frame
 to
 the
-|
 relative_position
-|
 .
 const
 float

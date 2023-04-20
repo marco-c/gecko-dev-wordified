@@ -180,9 +180,7 @@ const
 Returns
 true
 if
-|
 other
-|
 has
 the
 same
@@ -349,9 +347,7 @@ desktop_
 /
 True
 if
-|
 desktop_
-|
 must
 be
 closed

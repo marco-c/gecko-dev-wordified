@@ -289,9 +289,7 @@ has
 been
 captured
 .
-|
 frame
-|
 is
 not
 nullptr
@@ -301,9 +299,7 @@ and
 /
 only
 if
-|
 result
-|
 is
 SUCCESS
 .
@@ -452,9 +448,7 @@ a
 capturing
 session
 .
-|
 callback
-|
 must
 remain
 /
@@ -838,9 +832,7 @@ Returns
 true
 if
 the
-|
 pos
-|
 on
 the
 selected
@@ -865,9 +857,7 @@ users
 .
 /
 /
-|
 pos
-|
 is
 in
 full
@@ -898,9 +888,7 @@ The
 return
 value
 if
-|
 pos
-|
 is
 out
 of

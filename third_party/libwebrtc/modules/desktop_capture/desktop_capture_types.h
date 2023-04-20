@@ -375,13 +375,9 @@ UMA
 .
 /
 /
-|
 kScreenCapturerWinGdi
-|
 and
-|
 kScreenCapturerWinDirectx
-|
 values
 are
 preserved

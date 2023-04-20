@@ -263,9 +263,7 @@ Must
 take
 ownership
 of
-|
 cursor
-|
 .
 virtual
 void
@@ -288,9 +286,7 @@ Capture
 (
 )
 .
-|
 position
-|
 indicates
 cursor
 position
@@ -299,9 +295,7 @@ position
 relative
 to
 the
-|
 window
-|
 specified
 in
 the
@@ -340,9 +334,7 @@ Capture
 (
 )
 .
-|
 position
-|
 indicates
 cursor
 absolute
@@ -624,9 +616,7 @@ the
 monitor
 with
 the
-|
 callback
-|
 which
 must
 remain
@@ -663,9 +653,7 @@ position
 depending
 on
 the
-|
 mode
-|
 passed
 /
 /
