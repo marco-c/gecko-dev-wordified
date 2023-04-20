@@ -2388,7 +2388,7 @@ SendPacketStatus
 :
 kError
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3662,7 +3662,7 @@ packets
 return
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
