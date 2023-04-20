@@ -483,10 +483,6 @@ core
 :
 :
 {
-no_traps
-:
-:
-NotSupported
 ConfiguredModule
 InstructionKind
 InstructionKinds

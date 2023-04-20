@@ -1461,6 +1461,9 @@ validator
 =
 VisitConstOperator
 {
+offset
+:
+0
 order
 :
 self
@@ -1523,9 +1526,19 @@ eof
 (
 )
 {
+validator
+.
+offset
+=
 ops
 .
-visit_with_offset
+original_position
+(
+)
+;
+ops
+.
+visit_operator
 (
 &
 mut
@@ -1598,6 +1611,9 @@ VisitConstOperator
 a
 >
 {
+offset
+:
+usize
 uninserted_funcref
 :
 bool
@@ -1655,6 +1671,9 @@ with_resources
 self
 .
 resources
+self
+.
+offset
 )
 }
 fn
@@ -1663,9 +1682,6 @@ validate_extended_const
 &
 mut
 self
-offset
-:
-usize
 )
 -
 >
@@ -1709,6 +1725,8 @@ non
 constant
 operator
 "
+self
+.
 offset
 )
 )
@@ -1720,9 +1738,6 @@ validate_global
 &
 mut
 self
-offset
-:
-usize
 index
 :
 u32
@@ -1753,6 +1768,8 @@ module
 global_at
 (
 index
+self
+.
 offset
 )
 ?
@@ -1786,6 +1803,8 @@ locally
 defined
 global
 "
+self
+.
 offset
 )
 )
@@ -1816,6 +1835,8 @@ of
 mutable
 global
 "
+self
+.
 offset
 )
 )
@@ -2104,9 +2125,6 @@ visit
 &
 mut
 self
-pos
-:
-usize
 (
 (
 arg
@@ -2130,7 +2148,6 @@ define_visit_operator
 visit
 self
 visit
-pos
 (
 (
 arg
@@ -2159,9 +2176,6 @@ self
 :
 ident
 visit_i32_const
-pos
-:
-ident
 val
 :
 ident
@@ -2178,7 +2192,6 @@ validator
 .
 visit_i32_const
 (
-pos
 val
 )
 }
@@ -2190,9 +2203,6 @@ self
 :
 ident
 visit_i64_const
-pos
-:
-ident
 val
 :
 ident
@@ -2209,7 +2219,6 @@ validator
 .
 visit_i64_const
 (
-pos
 val
 )
 }
@@ -2221,9 +2230,6 @@ self
 :
 ident
 visit_f32_const
-pos
-:
-ident
 val
 :
 ident
@@ -2240,7 +2246,6 @@ validator
 .
 visit_f32_const
 (
-pos
 val
 )
 }
@@ -2252,9 +2257,6 @@ self
 :
 ident
 visit_f64_const
-pos
-:
-ident
 val
 :
 ident
@@ -2271,7 +2273,6 @@ validator
 .
 visit_f64_const
 (
-pos
 val
 )
 }
@@ -2283,9 +2284,6 @@ self
 :
 ident
 visit_v128_const
-pos
-:
-ident
 val
 :
 ident
@@ -2302,7 +2300,6 @@ validator
 .
 visit_v128_const
 (
-pos
 val
 )
 }
@@ -2314,9 +2311,6 @@ self
 :
 ident
 visit_ref_null
-pos
-:
-ident
 val
 :
 ident
@@ -2333,7 +2327,6 @@ validator
 .
 visit_ref_null
 (
-pos
 val
 )
 }
@@ -2345,9 +2338,6 @@ self
 :
 ident
 visit_end
-pos
-:
-ident
 )
 =
 >
@@ -2361,7 +2351,6 @@ validator
 .
 visit_end
 (
-pos
 )
 }
 }
@@ -2388,9 +2377,6 @@ self
 :
 ident
 visit_i32_add
-pos
-:
-ident
 )
 =
 >
@@ -2400,7 +2386,6 @@ self
 .
 validate_extended_const
 (
-pos
 )
 ?
 ;
@@ -2412,7 +2397,6 @@ validator
 .
 visit_i32_add
 (
-pos
 )
 }
 }
@@ -2423,9 +2407,6 @@ self
 :
 ident
 visit_i32_sub
-pos
-:
-ident
 )
 =
 >
@@ -2435,7 +2416,6 @@ self
 .
 validate_extended_const
 (
-pos
 )
 ?
 ;
@@ -2447,7 +2427,6 @@ validator
 .
 visit_i32_sub
 (
-pos
 )
 }
 }
@@ -2458,9 +2437,6 @@ self
 :
 ident
 visit_i32_mul
-pos
-:
-ident
 )
 =
 >
@@ -2470,7 +2446,6 @@ self
 .
 validate_extended_const
 (
-pos
 )
 ?
 ;
@@ -2482,7 +2457,6 @@ validator
 .
 visit_i32_mul
 (
-pos
 )
 }
 }
@@ -2493,9 +2467,6 @@ self
 :
 ident
 visit_i64_add
-pos
-:
-ident
 )
 =
 >
@@ -2505,7 +2476,6 @@ self
 .
 validate_extended_const
 (
-pos
 )
 ?
 ;
@@ -2517,7 +2487,6 @@ validator
 .
 visit_i64_add
 (
-pos
 )
 }
 }
@@ -2528,9 +2497,6 @@ self
 :
 ident
 visit_i64_sub
-pos
-:
-ident
 )
 =
 >
@@ -2540,7 +2506,6 @@ self
 .
 validate_extended_const
 (
-pos
 )
 ?
 ;
@@ -2552,7 +2517,6 @@ validator
 .
 visit_i64_sub
 (
-pos
 )
 }
 }
@@ -2563,9 +2527,6 @@ self
 :
 ident
 visit_i64_mul
-pos
-:
-ident
 )
 =
 >
@@ -2575,7 +2536,6 @@ self
 .
 validate_extended_const
 (
-pos
 )
 ?
 ;
@@ -2587,7 +2547,6 @@ validator
 .
 visit_i64_mul
 (
-pos
 )
 }
 }
@@ -2615,9 +2574,6 @@ self
 :
 ident
 visit_global_get
-pos
-:
-ident
 idx
 :
 ident
@@ -2630,7 +2586,6 @@ self
 .
 validate_global
 (
-pos
 idx
 )
 ?
@@ -2643,7 +2598,6 @@ validator
 .
 visit_global_get
 (
-pos
 idx
 )
 }
@@ -2685,9 +2639,6 @@ self
 :
 ident
 visit_ref_func
-pos
-:
-ident
 idx
 :
 ident
@@ -2711,7 +2662,6 @@ validator
 .
 visit_ref_func
 (
-pos
 idx
 )
 }
@@ -2723,9 +2673,6 @@ self
 :
 ident
 op
-:
-ident
-pos
 :
 ident
 (
@@ -2756,7 +2703,9 @@ non
 constant
 operator
 "
-pos
+self
+.
+offset
 )
 )
 }
@@ -3149,6 +3098,21 @@ types
 len
 (
 )
+type_index
+:
+Some
+(
+self
+.
+types
+.
+len
+(
+)
+)
+is_core
+:
+true
 }
 )
 ;

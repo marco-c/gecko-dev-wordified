@@ -424,7 +424,7 @@ ValType
 The
 number
 of
-paramter
+parameter
 types
 .
 len_params
