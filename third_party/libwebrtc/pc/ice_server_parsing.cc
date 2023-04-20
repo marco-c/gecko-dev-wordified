@@ -1952,7 +1952,7 @@ equivalent
 .
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -2094,7 +2094,7 @@ address
 .
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -2338,7 +2338,7 @@ empty
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -2445,7 +2445,7 @@ else
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
