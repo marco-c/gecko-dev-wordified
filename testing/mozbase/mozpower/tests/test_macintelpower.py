@@ -11,14 +11,14 @@ from
 __future__
 import
 absolute_import
+import
+time
 from
 unittest
 import
 mock
 import
 mozunit
-import
-time
 def
 test_macintelpower_init
 (

@@ -64,13 +64,13 @@ csv
 import
 os
 import
-subprocess
-import
 re
 import
-time
+subprocess
 import
 threading
+import
+time
 from
 .
 mozpowerutils

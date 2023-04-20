@@ -72,8 +72,8 @@ RaptorLogger
 from
 wptserve
 import
-server
 handlers
+server
 LOG
 =
 RaptorLogger

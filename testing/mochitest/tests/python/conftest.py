@@ -60,8 +60,6 @@ absolute_import
 print_function
 unicode_literals
 import
-six
-import
 json
 import
 os
@@ -70,9 +68,11 @@ argparse
 import
 Namespace
 import
+mozinfo
+import
 pytest
 import
-mozinfo
+six
 from
 manifestparser
 import

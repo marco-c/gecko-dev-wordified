@@ -70,8 +70,6 @@ time
 import
 unittest
 import
-mozunit
-import
 mozfile
 import
 mozlog
@@ -79,6 +77,8 @@ mozlog
 unstructured
 as
 mozlog
+import
+mozunit
 import
 six
 class

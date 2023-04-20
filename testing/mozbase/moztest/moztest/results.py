@@ -62,9 +62,9 @@ os
 import
 time
 import
-six
-import
 mozinfo
+import
+six
 class
 TestContext
 (

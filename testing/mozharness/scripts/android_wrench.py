@@ -150,12 +150,8 @@ mozilla
 .
 automation
 import
-(
-    
 EXIT_STATUS_DICT
-    
 TBPL_FAILURE
-)
 from
 mozharness
 .

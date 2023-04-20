@@ -61,9 +61,14 @@ from
 .
 base
 import
+BaseHandler
 LogLevelFilter
 StreamHandler
-BaseHandler
+from
+.
+bufferhandler
+import
+BufferHandler
 from
 .
 statushandler
@@ -74,11 +79,6 @@ from
 summaryhandler
 import
 SummaryHandler
-from
-.
-bufferhandler
-import
-BufferHandler
 from
 .
 valgrindhandler

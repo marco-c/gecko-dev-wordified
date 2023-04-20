@@ -57,13 +57,13 @@ from
 __future__
 import
 absolute_import
+import
+re
 from
 .
 base
 import
 BaseHandler
-import
-re
 class
 ValgrindHandler
 (

@@ -82,8 +82,6 @@ posixpath
 import
 shutil
 import
-six
-import
 sys
 import
 tempfile
@@ -99,6 +97,8 @@ import
 mozinfo
 import
 mozlog
+import
+six
 LOGGER_NAME
 =
 "

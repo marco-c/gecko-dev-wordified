@@ -117,11 +117,11 @@ absolute_import
 import
 os
 import
-six
-import
 subprocess
 import
 sys
+import
+six
 try
 :
     

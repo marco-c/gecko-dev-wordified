@@ -103,9 +103,9 @@ json
 import
 os
 import
-sys
-import
 subprocess
+import
+sys
 #
 load
 modules
@@ -183,10 +183,9 @@ mozilla
 .
 testing
 .
-testbase
+codecoverage
 import
-TestingMixin
-testing_config_options
+CodeCoverageMixin
 from
 mozharness
 .
@@ -194,9 +193,10 @@ mozilla
 .
 testing
 .
-codecoverage
+testbase
 import
-CodeCoverageMixin
+TestingMixin
+testing_config_options
 SUITE_DEFAULT_E10S
 =
 [

@@ -141,6 +141,8 @@ sys
 import
 threading
 import
+time
+import
 traceback
 from
 datetime
@@ -148,8 +150,6 @@ import
 datetime
 import
 six
-import
-time
 if
 six
 .
@@ -159,8 +159,8 @@ PY2
 from
 Queue
 import
-Queue
 Empty
+Queue
 #
 Python
 2
@@ -170,8 +170,8 @@ else
 from
 queue
 import
-Queue
 Empty
+Queue
 #
 Python
 3
@@ -273,12 +273,12 @@ isWin
 from
 ctypes
 import
-sizeof
-addressof
-c_ulong
-byref
 WinError
+addressof
+byref
 c_longlong
+c_ulong
+sizeof
     
 from
 .
@@ -291,17 +291,17 @@ qijo
 import
 (
         
-JobObjectAssociateCompletionPortInformation
+IO_COUNTERS
         
 JOBOBJECT_ASSOCIATE_COMPLETION_PORT
-        
-JobObjectExtendedLimitInformation
         
 JOBOBJECT_BASIC_LIMIT_INFORMATION
         
 JOBOBJECT_EXTENDED_LIMIT_INFORMATION
         
-IO_COUNTERS
+JobObjectAssociateCompletionPortInformation
+        
+JobObjectExtendedLimitInformation
     
 )
 class

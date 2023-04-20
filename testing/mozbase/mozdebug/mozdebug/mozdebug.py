@@ -72,8 +72,6 @@ json
 import
 os
 import
-mozinfo
-import
 sys
 from
 collections
@@ -89,6 +87,8 @@ from
 subprocess
 import
 check_output
+import
+mozinfo
 __all__
 =
 [

@@ -18,6 +18,8 @@ signal
 import
 sys
 import
+time
+import
 unittest
 import
 mozinfo
@@ -25,8 +27,6 @@ import
 mozunit
 import
 proctest
-import
-time
 from
 mozprocess
 import

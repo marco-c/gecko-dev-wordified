@@ -129,9 +129,9 @@ base
 .
 log
 import
+ERROR
 INFO
 WARNING
-ERROR
 TBPL_SUCCESS
 =
 "

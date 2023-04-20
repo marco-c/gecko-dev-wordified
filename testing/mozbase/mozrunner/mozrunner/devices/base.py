@@ -73,8 +73,8 @@ time
 from
 mozdevice
 import
-ADBHost
 ADBError
+ADBHost
 from
 six
 .

@@ -72,9 +72,9 @@ json
 import
 os
 import
-requests
-import
 time
+import
+requests
 from
 benchmark
 import
@@ -98,10 +98,6 @@ logger
 import
 RaptorLogger
 from
-memory
-import
-generate_android_memory_profile
-from
 perftest
 import
 Perftest
@@ -109,6 +105,10 @@ from
 results
 import
 RaptorResultsHandler
+from
+memory
+import
+generate_android_memory_profile
 LOG
 =
 RaptorLogger

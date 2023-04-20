@@ -86,12 +86,8 @@ mozsystemmonitor
 .
 resourcemonitor
 import
-(
-    
 SystemResourceMonitor
-    
 SystemResourceUsage
-)
 unittest
 .
 skipIf

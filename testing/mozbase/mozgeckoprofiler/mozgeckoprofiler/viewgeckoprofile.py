@@ -75,9 +75,9 @@ socket
 import
 sys
 import
-six
-import
 webbrowser
+import
+six
 from
 mozlog
 import
@@ -127,9 +127,9 @@ Python
 2
     
 from
-SocketServer
+urllib
 import
-TCPServer
+quote
     
 from
 SimpleHTTPServer
@@ -137,9 +137,9 @@ import
 SimpleHTTPRequestHandler
     
 from
-urllib
+SocketServer
 import
-quote
+TCPServer
 else
 :
     
@@ -150,16 +150,16 @@ Python
 3
     
 from
-socketserver
-import
-TCPServer
-    
-from
 http
 .
 server
 import
 SimpleHTTPRequestHandler
+    
+from
+socketserver
+import
+TCPServer
     
 from
 urllib

@@ -109,6 +109,8 @@ __future__
 import
 absolute_import
 import
+json
+import
 os
 import
 six
@@ -118,8 +120,6 @@ six
 moves
 import
 urllib
-import
-json
 class
 SecretsMixin
 (

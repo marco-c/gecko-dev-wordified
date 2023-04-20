@@ -59,8 +59,6 @@ import
 absolute_import
 unicode_literals
 import
-six
-import
 json
 import
 os
@@ -74,15 +72,14 @@ from
 functools
 import
 partial
+import
+six
 from
 mach
 .
 decorators
 import
-(
-    
 Command
-)
 here
 =
 os

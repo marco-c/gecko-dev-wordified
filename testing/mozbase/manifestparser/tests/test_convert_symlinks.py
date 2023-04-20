@@ -79,8 +79,8 @@ mozunit
 from
 manifestparser
 import
-convert
 ManifestParser
+convert
 class
 TestSymlinkConversion
 (

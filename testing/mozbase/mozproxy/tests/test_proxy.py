@@ -19,9 +19,9 @@ unittest
 import
 mock
 import
-mozunit
-import
 mozinfo
+import
+mozunit
 import
 requests
 from

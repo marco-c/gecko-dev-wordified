@@ -75,18 +75,10 @@ import
 pytest
 from
 mozprofile
-.
-prefs
-import
-Preferences
-from
-mozprofile
 import
 (
     
 BaseProfile
-    
-Profile
     
 ChromeProfile
     
@@ -94,10 +86,18 @@ ChromiumProfile
     
 FirefoxProfile
     
+Profile
+    
 ThunderbirdProfile
     
 create_profile
 )
+from
+mozprofile
+.
+prefs
+import
+Preferences
 here
 =
 os

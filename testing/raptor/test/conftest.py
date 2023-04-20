@@ -8,12 +8,12 @@ import
 os
 import
 sys
-import
-pytest
 from
 argparse
 import
 Namespace
+import
+pytest
 #
 need
 this
@@ -75,6 +75,10 @@ insert
 raptor_dir
 )
 from
+browsertime
+import
+Browsertime
+from
 perftest
 import
 Perftest
@@ -82,10 +86,6 @@ from
 webextension
 import
 WebExtensionFirefox
-from
-browsertime
-import
-Browsertime
 pytest
 .
 fixture

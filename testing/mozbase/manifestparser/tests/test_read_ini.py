@@ -79,13 +79,13 @@ mozunit
 import
 pytest
 from
-six
-import
-StringIO
-from
 manifestparser
 import
 read_ini
+from
+six
+import
+StringIO
 pytest
 .
 fixture

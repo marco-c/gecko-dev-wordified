@@ -58,9 +58,9 @@ __future__
 import
 absolute_import
 import
-sys
-import
 os
+import
+sys
 def
 path_join
 (

@@ -62,15 +62,13 @@ pprint
 import
 signal
 import
-six
+subprocess
 import
 sys
 import
 time
 import
 traceback
-import
-subprocess
 from
 threading
 import
@@ -79,6 +77,8 @@ import
 mozcrash
 import
 psutil
+import
+six
 from
 mozlog
 import

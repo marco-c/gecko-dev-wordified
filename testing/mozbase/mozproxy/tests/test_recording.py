@@ -13,9 +13,9 @@ import
 absolute_import
 print_function
 import
-os
-import
 datetime
+import
+os
 from
 builtins
 import

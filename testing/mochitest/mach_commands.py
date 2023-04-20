@@ -59,6 +59,16 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+functools
+import
+logging
+import
+os
+import
+sys
+import
+warnings
 from
 argparse
 import
@@ -68,41 +78,28 @@ collections
 import
 defaultdict
 import
-functools
-import
-logging
-import
-os
-import
 six
-import
-sys
-import
-warnings
-from
-mozbuild
-.
-base
-import
-(
-    
-MachCommandConditions
-as
-conditions
-    
-MozbuildObject
-)
 from
 mach
 .
 decorators
 import
-(
-    
-CommandArgument
-    
 Command
-)
+CommandArgument
+from
+mozbuild
+.
+base
+import
+MachCommandConditions
+as
+conditions
+from
+mozbuild
+.
+base
+import
+MozbuildObject
 here
 =
 os
@@ -1572,9 +1569,9 @@ android_device
 import
 (
             
-verify_android_device
-            
 InstallIntent
+            
+verify_android_device
         
 )
         
@@ -1805,9 +1802,9 @@ android_device
 import
 (
             
-verify_android_device
-            
 InstallIntent
+            
+verify_android_device
         
 )
         
@@ -3175,11 +3172,11 @@ android_device
 import
 (
             
+InstallIntent
+            
 get_adb_path
             
 verify_android_device
-            
-InstallIntent
         
 )
         
@@ -3655,11 +3652,11 @@ android_device
 import
 (
         
+InstallIntent
+        
 get_adb_path
         
 verify_android_device
-        
-InstallIntent
     
 )
     

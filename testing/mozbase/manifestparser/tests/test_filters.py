@@ -43,6 +43,8 @@ enabled
     
 fail_if
     
+failures
+    
 filterlist
     
 pathprefix
@@ -54,8 +56,6 @@ skip_if
 subsuite
     
 tags
-    
-failures
 )
 here
 =

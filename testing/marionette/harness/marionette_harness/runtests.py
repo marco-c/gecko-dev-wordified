@@ -72,13 +72,13 @@ marionette_harness
 import
 (
     
-__version__
+BaseMarionetteArguments
     
 BaseMarionetteTestRunner
     
-BaseMarionetteArguments
-    
 MarionetteTestCase
+    
+__version__
 )
 class
 MarionetteTestRunner

@@ -67,8 +67,6 @@ csv
 import
 os
 import
-six
-import
 sys
 from
 calendar
@@ -82,6 +80,8 @@ import
 compare
 import
 numpy
+import
+six
 sys
 .
 path

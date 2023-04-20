@@ -169,17 +169,9 @@ io
 import
 BytesIO
 import
-six
-from
-six
-import
-binary_type
-from
-mozprocess
-import
-ProcessHandler
-import
 mozinfo
+import
+six
 from
 mozharness
 .
@@ -217,6 +209,14 @@ OutputParser
     
 SimpleFileLogger
 )
+from
+mozprocess
+import
+ProcessHandler
+from
+six
+import
+binary_type
 try
 :
     
@@ -251,9 +251,9 @@ try
 from
 urllib2
 import
+Request
 quote
 urlopen
-Request
 except
 ImportError
 :
@@ -263,9 +263,9 @@ urllib
 .
 request
 import
+Request
 quote
 urlopen
-Request
 try
 :
     
@@ -299,10 +299,10 @@ try
 :
         
 import
-win32file
+win32api
         
 import
-win32api
+win32file
         
 PYWIN32
 =

@@ -11,6 +11,10 @@ from
 __future__
 import
 absolute_import
+import
+subprocess
+import
+sys
 from
 unittest
 import
@@ -19,10 +23,6 @@ import
 mozunit
 import
 pytest
-import
-subprocess
-import
-sys
 from
 mozpower
 import
@@ -32,12 +32,8 @@ mozpower
 .
 mozpower
 import
-(
-    
-OsCpuComboMissingError
-    
 MissingProcessorInfoError
-)
+OsCpuComboMissingError
 def
 test_mozpower_android_init_failure
 (

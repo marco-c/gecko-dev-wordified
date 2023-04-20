@@ -59,14 +59,14 @@ import
 absolute_import
 from
 .
-unittest
+errorsummary
 import
-UnittestFormatter
+ErrorSummaryFormatter
 from
 .
-xunit
+grouping
 import
-XUnitFormatter
+GroupingFormatter
 from
 .
 html
@@ -84,14 +84,14 @@ import
 TbplFormatter
 from
 .
-errorsummary
+unittest
 import
-ErrorSummaryFormatter
+UnittestFormatter
 from
 .
-grouping
+xunit
 import
-GroupingFormatter
+XUnitFormatter
 try
 :
     

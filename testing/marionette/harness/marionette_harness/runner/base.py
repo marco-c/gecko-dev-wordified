@@ -88,8 +88,6 @@ copy
 import
 deepcopy
 import
-six
-import
 mozinfo
 import
 moznetwork
@@ -97,6 +95,8 @@ import
 mozprofile
 import
 mozversion
+import
+six
 from
 manifestparser
 import
@@ -133,8 +133,8 @@ relevant_line
 from
 six
 import
-reraise
 MAXSIZE
+reraise
 from
 .
 import

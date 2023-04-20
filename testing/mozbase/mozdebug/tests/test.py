@@ -189,10 +189,10 @@ monkeypatch
 :
     
 import
-mozinfo
+sys
     
 import
-sys
+mozinfo
     
 def
 update_os_name

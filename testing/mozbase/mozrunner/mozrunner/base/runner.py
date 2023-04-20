@@ -67,8 +67,6 @@ __future__
 import
 absolute_import
 import
-six
-import
 os
 import
 subprocess
@@ -81,6 +79,8 @@ abc
 import
 ABCMeta
 abstractproperty
+import
+six
 from
 mozlog
 import

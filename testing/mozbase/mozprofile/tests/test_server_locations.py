@@ -77,15 +77,15 @@ permissions
 import
 (
     
-ServerLocations
+BadPortLocationError
+    
+LocationsSyntaxError
     
 MissingPrimaryLocationError
     
 MultiplePrimaryLocationsError
     
-BadPortLocationError
-    
-LocationsSyntaxError
+ServerLocations
 )
 LOCATIONS
 =

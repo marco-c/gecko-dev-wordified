@@ -122,8 +122,8 @@ wptrunner
 .
 update
 import
-setup_logging
 WPTUpdate
+setup_logging
 from
 wptrunner
 .

@@ -111,9 +111,9 @@ six
 from
 talos
 import
+filter
 output
 utils
-filter
 class
 TalosResults
 (

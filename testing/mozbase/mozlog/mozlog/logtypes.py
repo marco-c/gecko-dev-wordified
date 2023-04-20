@@ -67,11 +67,6 @@ six
 moves
 import
 range
-from
-six
-.
-moves
-import
 zip
 convertor_registry
 =

@@ -66,12 +66,12 @@ import
 os
 import
 sys
+import
+time
 from
 threading
 import
 current_thread
-import
-time
 from
 mozlog
 .

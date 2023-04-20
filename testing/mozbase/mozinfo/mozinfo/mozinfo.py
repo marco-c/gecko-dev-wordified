@@ -123,16 +123,16 @@ re
 import
 sys
 from
-.
-string_version
-import
-StringVersion
-from
 ctypes
 .
 util
 import
 find_library
+from
+.
+string_version
+import
+StringVersion
 #
 keep
 a
@@ -1822,10 +1822,10 @@ lazy
 import
         
 import
-mozfile
+json
         
 import
-json
+mozfile
         
 f
 =
@@ -2176,19 +2176,19 @@ try
 :
         
 from
-mozbuild
-.
-base
-import
-MozbuildObject
-BuildEnvironmentNotFoundException
-        
-from
 mozboot
 .
 mozconfig
 import
 MozconfigFindException
+        
+from
+mozbuild
+.
+base
+import
+BuildEnvironmentNotFoundException
+MozbuildObject
         
 build
 =

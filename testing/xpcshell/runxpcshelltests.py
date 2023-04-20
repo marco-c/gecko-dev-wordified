@@ -74,8 +74,6 @@ copy
 import
 json
 import
-mozdebug
-import
 os
 import
 pipes
@@ -97,8 +95,6 @@ import
 time
 import
 traceback
-import
-six
 from
 argparse
 import
@@ -129,27 +125,25 @@ cpu_count
 from
 subprocess
 import
-Popen
 PIPE
 STDOUT
+Popen
 from
 tempfile
 import
-mkdtemp
 gettempdir
+mkdtemp
 from
 threading
 import
-(
-    
-Timer
-    
-Thread
-    
 Event
-    
+Thread
+Timer
 current_thread
-)
+import
+mozdebug
+import
+six
 try
 :
     
@@ -418,6 +412,12 @@ mozbase
 package
 )
 )
+import
+mozcrash
+import
+mozfile
+import
+mozinfo
 from
 manifestparser
 import
@@ -428,9 +428,9 @@ manifestparser
 filters
 import
 chunk_by_slice
-tags
-pathprefix
 failures
+pathprefix
+tags
 from
 manifestparser
 .
@@ -441,12 +441,6 @@ from
 mozlog
 import
 commandline
-import
-mozcrash
-import
-mozfile
-import
-mozinfo
 from
 mozprofile
 import
@@ -12825,10 +12819,10 @@ self
 :
         
 import
-selftest
+unittest
         
 import
-unittest
+selftest
         
 this
 =

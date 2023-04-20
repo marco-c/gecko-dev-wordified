@@ -66,8 +66,8 @@ test
 .
 browsertime
 import
-add_options
 add_option
+add_options
 sites
 =
 os

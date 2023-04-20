@@ -69,9 +69,9 @@ absolute_import
 import
 os
 import
-sys
-import
 shutil
+import
+sys
 import
 mozunit
 import

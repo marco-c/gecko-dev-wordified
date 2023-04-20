@@ -31,8 +31,6 @@ import
 absolute_import
 print_function
 import
-six
-import
 json
 import
 time
@@ -42,6 +40,8 @@ import
 mozunit
 import
 pytest
+import
+six
 from
 conftest
 import

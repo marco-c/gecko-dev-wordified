@@ -12,11 +12,11 @@ __future__
 import
 absolute_import
 import
-mozprofile
-import
 os
 import
 shutil
+import
+mozprofile
 import
 mozunit
 here

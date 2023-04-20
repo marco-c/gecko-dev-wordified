@@ -137,13 +137,13 @@ resolve
 import
 (
     
+TEST_SUITES
+    
 BuildBackendLoader
     
 TestManifestLoader
     
 TestResolver
-    
-TEST_SUITES
 )
 here
 =

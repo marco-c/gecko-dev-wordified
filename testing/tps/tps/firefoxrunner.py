@@ -54,9 +54,9 @@ MPL
 /
 .
 import
-httplib2
-import
 os
+import
+httplib2
 import
 mozfile
 import

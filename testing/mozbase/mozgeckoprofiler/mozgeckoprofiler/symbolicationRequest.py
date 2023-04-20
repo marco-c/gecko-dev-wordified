@@ -160,8 +160,8 @@ Python
 from
 urllib2
 import
-urlopen
 Request
+urlopen
 else
 :
     
@@ -176,8 +176,8 @@ urllib
 .
 request
 import
-urlopen
 Request
+urlopen
     
 #
 Symbolication

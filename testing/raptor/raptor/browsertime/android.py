@@ -95,8 +95,8 @@ PerftestAndroid
 from
 power
 import
-enable_charging
 disable_charging
+enable_charging
 from
 .
 base

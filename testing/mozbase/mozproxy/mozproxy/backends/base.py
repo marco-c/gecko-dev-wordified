@@ -57,13 +57,13 @@ from
 __future__
 import
 absolute_import
-import
-six
 from
 abc
 import
 ABCMeta
 abstractmethod
+import
+six
 #
 abstract
 class

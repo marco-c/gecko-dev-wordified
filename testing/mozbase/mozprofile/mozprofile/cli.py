@@ -134,10 +134,6 @@ from
 profile
 import
 FirefoxProfile
-from
-.
-profile
-import
 Profile
 __all__
 =

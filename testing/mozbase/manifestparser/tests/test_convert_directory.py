@@ -79,11 +79,8 @@ mozunit
 from
 manifestparser
 import
-convert
-from
-manifestparser
-import
 ManifestParser
+convert
 here
 =
 os

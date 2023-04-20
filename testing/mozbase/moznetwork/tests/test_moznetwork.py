@@ -32,10 +32,6 @@ distutils
 spawn
 import
 find_executable
-import
-moznetwork
-import
-pytest
 from
 unittest
 import
@@ -43,7 +39,11 @@ mock
 import
 mozinfo
 import
+moznetwork
+import
 mozunit
+import
+pytest
 pytest
 .
 fixture

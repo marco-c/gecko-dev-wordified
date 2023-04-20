@@ -102,8 +102,8 @@ try
 from
 urllib
 import
-urlencode
 quote
+urlencode
 except
 ImportError
 :
@@ -113,8 +113,8 @@ urllib
 .
 parse
 import
-urlencode
 quote
+urlencode
 try
 :
     
@@ -122,8 +122,8 @@ from
 urllib2
 import
 HTTPError
-URLError
 Request
+URLError
 urlopen
 except
 ImportError
@@ -135,8 +135,8 @@ urllib
 request
 import
 HTTPError
-URLError
 Request
+URLError
 urlopen
 class
 BouncerSubmitterMixin

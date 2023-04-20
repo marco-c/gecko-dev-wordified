@@ -206,16 +206,16 @@ kwargs
 :
         
 from
-wptrunner
-import
-wptrunner
-        
-from
 mozbuild
 .
 base
 import
 BinaryNotFoundException
+        
+from
+wptrunner
+import
+wptrunner
         
 if
 kwargs

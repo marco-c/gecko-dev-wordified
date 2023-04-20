@@ -147,10 +147,6 @@ path
 import
 mozinstall
 from
-mozprocess
-import
-ProcessHandler
-from
 mozharness
 .
 base
@@ -158,6 +154,10 @@ base
 script
 import
 BaseScript
+from
+mozprocess
+import
+ProcessHandler
 class
 DoesItCrash
 (

@@ -27,6 +27,10 @@ mozunit
 import
 pytest
 from
+mozfile
+import
+load
+from
 wptserve
 .
 handlers
@@ -38,10 +42,6 @@ wptserve
 server
 import
 WebTestHttpd
-from
-mozfile
-import
-load
 pytest
 .
 fixture
