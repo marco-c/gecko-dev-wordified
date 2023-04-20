@@ -1648,14 +1648,6 @@ IsEmpty
 )
 )
 ;
-if
-(
-nameFlag
-!
-=
-eNoNameOnPurpose
-)
-{
 aName
 .
 SetIsVoid
@@ -1663,7 +1655,6 @@ SetIsVoid
 true
 )
 ;
-}
 return
 nameFlag
 ;
