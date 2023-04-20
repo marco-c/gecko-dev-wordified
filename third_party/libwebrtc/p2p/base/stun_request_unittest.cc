@@ -272,13 +272,6 @@ testing
 :
 :
 Test
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :

@@ -490,13 +490,6 @@ Connection
 :
 public
 CandidatePairInterface
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :
