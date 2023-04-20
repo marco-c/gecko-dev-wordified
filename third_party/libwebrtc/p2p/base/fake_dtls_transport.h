@@ -619,6 +619,12 @@ this
 dtls_state_
 )
 ;
+SendDtlsState
+(
+this
+dtls_state_
+)
+;
 }
 /
 /

@@ -5428,6 +5428,12 @@ this
 state
 )
 ;
+SendDtlsState
+(
+this
+state
+)
+;
 }
 void
 DtlsTransport
