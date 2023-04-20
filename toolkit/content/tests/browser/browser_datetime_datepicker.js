@@ -1645,6 +1645,13 @@ VK_ESCAPE
 window
 )
 ;
+await
+helper
+.
+promisePickerClosed
+(
+)
+;
 Assert
 .
 equal
