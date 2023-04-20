@@ -163,6 +163,10 @@ mFeatureWr
 (
 nullptr
 )
+mFeatureWrQualified
+(
+nullptr
+)
 mFeatureWrCompositor
 (
 nullptr
@@ -184,6 +188,10 @@ mFeatureWrShaderCache
 nullptr
 )
 mFeatureWrOptimizedShaders
+(
+nullptr
+)
+mFeatureWrSoftware
 (
 nullptr
 )
@@ -331,6 +339,10 @@ mFeatureWr
 ;
 FeatureState
 *
+mFeatureWrQualified
+;
+FeatureState
+*
 mFeatureWrCompositor
 ;
 FeatureState
@@ -352,6 +364,10 @@ mFeatureWrShaderCache
 FeatureState
 *
 mFeatureWrOptimizedShaders
+;
+FeatureState
+*
+mFeatureWrSoftware
 ;
 FeatureState
 *

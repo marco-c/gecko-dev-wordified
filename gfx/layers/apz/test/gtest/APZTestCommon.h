@@ -175,6 +175,17 @@ include
 "
 mozilla
 /
+gfx
+/
+gfxVars
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 GeckoContentController
