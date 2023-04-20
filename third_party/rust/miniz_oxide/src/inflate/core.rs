@@ -903,11 +903,8 @@ header
 /
 If
 unset
-[
-decompress
-(
-)
-]
+the
+function
 will
 expect
 an
@@ -920,7 +917,7 @@ set
 it
 will
 expect
-an
+a
 /
 /
 /
