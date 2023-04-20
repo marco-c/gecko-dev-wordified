@@ -191,6 +191,11 @@ int
 width
 =
 0
+const
+LONG
+extended_styles
+=
+0
 )
 ;
 void
