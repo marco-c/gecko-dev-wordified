@@ -6365,7 +6365,7 @@ continuationColumns
 =
 mFrames
 .
-RemoveFramesAfter
+TakeFramesAfter
 (
 child
 )
