@@ -605,6 +605,8 @@ bool
 aIsHttp3
 bool
 aWebTransport
+=
+false
 )
 ;
 static

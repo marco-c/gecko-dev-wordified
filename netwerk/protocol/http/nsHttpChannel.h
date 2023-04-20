@@ -1661,6 +1661,12 @@ AttachStreamFilter
 (
 )
 ;
+WebTransportSessionEventListener
+*
+GetWebTransportSessionEventListener
+(
+)
+;
 private
 :
 /
@@ -5828,6 +5834,12 @@ Maybe
 nsCString
 >
 mOpenerCallingScriptLocation
+;
+bool
+mIsForWebTransport
+{
+false
+}
 ;
 }
 ;
