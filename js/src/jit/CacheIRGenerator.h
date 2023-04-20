@@ -3372,16 +3372,6 @@ tryAttachMapGet
 (
 )
 ;
-#
-ifdef
-FUZZING_JS_FUZZILLI
-AttachDecision
-tryAttachFuzzilliHash
-(
-)
-;
-#
-endif
 void
 trackAttached
 (
