@@ -341,15 +341,9 @@ name
 ]
 stdout
 =
-open
-(
-os
+subprocess
 .
-devnull
-"
-wb
-"
-)
+DEVNULL
         
 )
         
