@@ -101,7 +101,7 @@ observer_changes
 {
 sampleRate
 :
-1
+5
 .
 0
 }
@@ -143,7 +143,7 @@ startPlatformCollector
 sampleRate
 *
 /
-1
+5
 .
 0
 )
@@ -365,7 +365,7 @@ observer_changes
 {
 sampleRate
 :
-1
+5
 .
 0
 }
@@ -412,7 +412,7 @@ startPlatformCollector
 sampleRate
 *
 /
-1
+5
 .
 0
 )
