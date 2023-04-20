@@ -141,12 +141,6 @@ s
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -203,12 +197,6 @@ esr
 -
 latest
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -271,12 +259,6 @@ next
 -
 latest
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -341,12 +323,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -407,12 +383,6 @@ latest
 -
 SSL
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -481,12 +451,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -549,12 +513,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -597,12 +555,6 @@ latest
 -
 SSL
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -651,12 +603,6 @@ latest
 -
 SSL
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -703,12 +649,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -751,12 +691,6 @@ latest
 -
 SSL
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -805,12 +739,6 @@ latest
 -
 SSL
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -855,12 +783,6 @@ s
 -
 Complete
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -937,12 +859,6 @@ prev_version
 )
 s
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms

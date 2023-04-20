@@ -90,12 +90,6 @@ latest
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -158,12 +152,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -230,12 +218,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -298,12 +280,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -352,12 +328,6 @@ SSL
 "
             
 "
-check_uptake
-"
-:
-True
-            
-"
 platforms
 "
 :
@@ -396,12 +366,6 @@ nightly
 -
 stub
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms
@@ -452,12 +416,6 @@ stub
 -
 l10n
 "
-            
-"
-check_uptake
-"
-:
-True
             
 "
 platforms

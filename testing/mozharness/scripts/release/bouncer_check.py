@@ -1136,18 +1136,6 @@ values
 )
 :
             
-if
-not
-product
-[
-"
-check_uptake
-"
-]
-:
-                
-continue
-            
 product_name
 =
 product
@@ -1253,18 +1241,6 @@ values
 (
 )
 :
-            
-if
-not
-product
-[
-"
-check_uptake
-"
-]
-:
-                
-continue
             
 for
 prev_version
