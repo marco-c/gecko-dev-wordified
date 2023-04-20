@@ -2938,7 +2938,7 @@ nsIEventTarget
 &
 &
 aSyncLoopTarget
-bool
+nsresult
 aResult
 )
 :
@@ -3522,10 +3522,13 @@ then
 bool
 success
 =
+NS_SUCCEEDED
+(
 syncLoop
 .
 Run
 (
+)
 )
 ;
 Telemetry
@@ -3669,6 +3672,10 @@ move
 mSyncLoopTarget
 )
 runResult
+?
+NS_OK
+:
+NS_ERROR_FAILURE
 )
 ;
 MOZ_ALWAYS_TRUE

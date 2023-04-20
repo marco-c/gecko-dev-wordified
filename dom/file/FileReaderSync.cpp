@@ -1987,7 +1987,7 @@ aWorkerPrivate
 StopSyncLoop
 (
 syncLoopTarget
-true
+NS_OK
 )
 ;
 return
@@ -2497,11 +2497,16 @@ rv
 }
 if
 (
-!
+NS_WARN_IF
+(
+NS_FAILED
+(
 syncLoop
 .
 Run
 (
+)
+)
 )
 )
 {

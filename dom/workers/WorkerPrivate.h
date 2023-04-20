@@ -2314,7 +2314,7 @@ StopSyncLoop
 nsIEventTarget
 *
 aSyncLoopTarget
-bool
+nsresult
 aResult
 )
 ;
@@ -5488,12 +5488,12 @@ WorkerStatus
 aFailStatus
 )
 ;
-bool
+nsresult
 RunCurrentSyncLoop
 (
 )
 ;
-bool
+nsresult
 DestroySyncLoop
 (
 uint32_t
@@ -6380,11 +6380,11 @@ EventTarget
 >
 mEventTarget
 ;
-bool
-mCompleted
+nsresult
+mResult
 ;
 bool
-mResult
+mCompleted
 ;
 #
 ifdef
@@ -7947,7 +7947,7 @@ mWorkerPrivate
 StopSyncLoop
 (
 mTarget
-false
+NS_ERROR_FAILURE
 )
 ;
 mWorkerPrivate
@@ -7960,7 +7960,7 @@ mIndex
 ;
 }
 }
-bool
+nsresult
 Run
 (
 )
