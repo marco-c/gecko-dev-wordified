@@ -163,7 +163,7 @@ pc
 /
 test
 /
-fake_data_channel_provider
+fake_data_channel_controller
 .
 h
 "
@@ -1463,7 +1463,7 @@ SctpDataChannel
 Create
 (
 &
-data_channel_provider_
+data_channel_controller_
 label
 init
 rtc
@@ -2535,8 +2535,8 @@ RtpTransceiver
 >
 transceivers_
 ;
-FakeDataChannelProvider
-data_channel_provider_
+FakeDataChannelController
+data_channel_controller_
 ;
 std
 :

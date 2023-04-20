@@ -251,7 +251,7 @@ class
 DataChannelController
 :
 public
-SctpDataChannelProviderInterface
+SctpDataChannelControllerInterface
 public
 DataChannelSink
 {
@@ -271,6 +271,11 @@ pc
 )
 {
 }
+~
+DataChannelController
+(
+)
+;
 /
 /
 Not
