@@ -1332,6 +1332,9 @@ Length
 )
 )
 removedContent
+GetSplitNodeDirection
+(
+)
 )
 ;
 NS_WARNING_ASSERTION

@@ -2720,10 +2720,9 @@ aContainer
 aNewContent
 ;
 aOffset
+-
 =
 aSplitOffset
--
-aOffset
 ;
 }
 }
