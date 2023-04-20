@@ -251,7 +251,7 @@ pc
 *
 /
 extern
-Shape
+SharedShape
 *
 EnvironmentCoordinateToEnvironmentShape
 (

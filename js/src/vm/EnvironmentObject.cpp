@@ -486,7 +486,7 @@ ArgumentsObject
 *
 *
 /
-Shape
+SharedShape
 *
 js
 :
@@ -606,7 +606,7 @@ jsbytecode
 pc
 )
 {
-Shape
+SharedShape
 *
 shape
 =
@@ -622,7 +622,7 @@ ec
 pc
 )
 ;
-ShapePropertyIter
+SharedShapePropertyIter
 <
 NoGC
 >
@@ -7786,7 +7786,7 @@ writable
 )
 property
 .
-ShapePropertyIter
+SharedShapePropertyIter
 <
 NoGC
 >

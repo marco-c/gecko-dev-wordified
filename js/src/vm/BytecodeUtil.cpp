@@ -8453,7 +8453,7 @@ cx
 Sprinter
 *
 sp
-Shape
+SharedShape
 *
 shape
 )
@@ -8489,7 +8489,7 @@ cx
 ;
 for
 (
-ShapePropertyIter
+SharedShapePropertyIter
 <
 NoGC
 >
@@ -9807,7 +9807,7 @@ case
 JOF_SHAPE
 :
 {
-Shape
+SharedShape
 *
 shape
 =
