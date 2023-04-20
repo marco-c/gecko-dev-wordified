@@ -4340,7 +4340,7 @@ menu
 should
 have
 the
-memu
+menu
 item
 created
 by
