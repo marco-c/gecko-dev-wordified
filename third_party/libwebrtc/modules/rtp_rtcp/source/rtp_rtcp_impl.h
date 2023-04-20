@@ -448,6 +448,14 @@ ssrc
 )
 override
 ;
+void
+SetLocalSsrc
+(
+uint32_t
+ssrc
+)
+override
+;
 /
 /
 Sender
