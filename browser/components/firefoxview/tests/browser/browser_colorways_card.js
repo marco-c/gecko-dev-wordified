@@ -750,6 +750,9 @@ await
 withFirefoxView
 (
 {
+win
+:
+window
 }
 async
 browser
@@ -845,6 +848,9 @@ await
 withFirefoxView
 (
 {
+win
+:
+window
 }
 async
 browser
@@ -964,6 +970,9 @@ await
 withFirefoxView
 (
 {
+win
+:
+window
 }
 async
 browser
@@ -1368,6 +1377,9 @@ await
 withFirefoxView
 (
 {
+win
+:
+window
 }
 async
 browser
@@ -1687,6 +1699,9 @@ await
 withFirefoxView
 (
 {
+win
+:
+window
 }
 async
 browser
@@ -1858,6 +1873,9 @@ await
 withFirefoxView
 (
 {
+win
+:
+window
 }
 async
 browser
