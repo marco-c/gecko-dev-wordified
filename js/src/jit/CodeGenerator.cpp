@@ -97227,9 +97227,9 @@ void
 CodeGenerator
 :
 :
-visitCallSetElement
+visitMegamorphicSetElement
 (
-LCallSetElement
+LMegamorphicSetElement
 *
 lir
 )
@@ -97286,7 +97286,7 @@ pushArg
 ToValue
 (
 lir
-LCallSetElement
+LMegamorphicSetElement
 :
 :
 ValueIndex
@@ -97298,7 +97298,7 @@ pushArg
 ToValue
 (
 lir
-LCallSetElement
+LMegamorphicSetElement
 :
 :
 IndexIndex

@@ -5856,7 +5856,7 @@ true
 ;
 }
 bool
-CallSetElementPolicy
+MegamorphicSetElementPolicy
 :
 :
 adjustInputs
@@ -7117,7 +7117,7 @@ CallPolicy
 \
 _
 (
-CallSetElementPolicy
+MegamorphicSetElementPolicy
 )
 \
 _

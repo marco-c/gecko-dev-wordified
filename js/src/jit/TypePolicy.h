@@ -2841,7 +2841,7 @@ ins
 }
 ;
 class
-CallSetElementPolicy
+MegamorphicSetElementPolicy
 final
 :
 public
@@ -2850,7 +2850,7 @@ TypePolicy
 public
 :
 constexpr
-CallSetElementPolicy
+MegamorphicSetElementPolicy
 (
 )
 =

@@ -38239,9 +38239,9 @@ void
 LIRGenerator
 :
 :
-visitCallSetElement
+visitMegamorphicSetElement
 (
-MCallSetElement
+MMegamorphicSetElement
 *
 ins
 )
@@ -38309,7 +38309,7 @@ MIRType
 Value
 )
 ;
-LCallSetElement
+auto
 *
 lir
 =
@@ -38319,7 +38319,7 @@ alloc
 (
 )
 )
-LCallSetElement
+LMegamorphicSetElement
 (
 useRegisterAtStart
 (
