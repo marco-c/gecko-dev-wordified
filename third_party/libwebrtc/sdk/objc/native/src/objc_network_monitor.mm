@@ -169,6 +169,11 @@ ObjCNetworkMonitor
 (
 )
 {
+[
+network_monitor_
+stop
+]
+;
 network_monitor_
 =
 nil
@@ -288,6 +293,11 @@ safety_flag_
 SetNotAlive
 (
 )
+;
+[
+network_monitor_
+stop
+]
 ;
 network_monitor_
 =
