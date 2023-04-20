@@ -2444,8 +2444,17 @@ OpenRedirectChannel
 %
 p
 ]
+mRedirectChannel
+:
+%
+p
 "
 this
+mRedirectChannel
+.
+get
+(
+)
 )
 )
 ;

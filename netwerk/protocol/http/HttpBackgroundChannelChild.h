@@ -497,6 +497,11 @@ PStreamFilterParent
 aEndpoint
 )
 ;
+IPCResult
+RecvDetachStreamFilters
+(
+)
+;
 void
 ActorDestroy
 (
