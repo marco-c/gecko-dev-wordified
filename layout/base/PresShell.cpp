@@ -25078,8 +25078,6 @@ in
 this
 document
 .
-nsIFrame
-*
 container
 =
 nsLayoutUtils
