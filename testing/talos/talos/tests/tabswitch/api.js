@@ -1311,7 +1311,7 @@ TalosParentProfiler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1324,7 +1324,9 @@ powers
 /
 TalosParentProfiler
 .
-jsm
+sys
+.
+mjs
 "
 )
 .

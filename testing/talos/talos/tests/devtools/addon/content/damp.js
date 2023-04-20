@@ -3480,7 +3480,7 @@ JSWindowActor
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3497,13 +3497,15 @@ actors
 /
 DampLoadParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3520,7 +3522,9 @@ actors
 /
 DampLoadChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

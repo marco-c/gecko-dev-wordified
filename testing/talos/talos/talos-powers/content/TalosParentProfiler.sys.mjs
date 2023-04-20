@@ -142,15 +142,7 @@ instead
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TalosParentProfiler
-"
-]
-;
+export
 const
 TalosParentProfiler
 =
