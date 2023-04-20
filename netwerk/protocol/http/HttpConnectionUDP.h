@@ -221,13 +221,13 @@ Http3Session
 h
 "
 class
+nsIDNSRecord
+;
+class
 nsISocketTransport
 ;
 class
-nsISSLSocketControl
-;
-class
-nsIDNSRecord
+nsITLSSocketControl
 ;
 namespace
 mozilla

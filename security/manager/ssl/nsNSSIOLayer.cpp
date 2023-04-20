@@ -8005,7 +8005,7 @@ PRFileDesc
 *
 *
 fd
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 tlsSocketControl
@@ -9999,7 +9999,7 @@ originAttributes
 PRFileDesc
 *
 fd
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 tlsSocketControl

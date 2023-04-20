@@ -243,7 +243,7 @@ class
 nsISocketTransport
 ;
 class
-nsISSLSocketControl
+nsITLSSocketControl
 ;
 namespace
 mozilla
@@ -1619,7 +1619,7 @@ spdy
 void
 StartSpdy
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 ssl
 SpdyVersion

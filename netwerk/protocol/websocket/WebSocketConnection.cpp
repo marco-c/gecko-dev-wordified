@@ -153,7 +153,7 @@ h
 #
 include
 "
-nsISSLSocketControl
+nsITLSSocketControl
 .
 h
 "
@@ -906,7 +906,7 @@ mTransport
 {
 nsCOMPtr
 <
-nsISSLSocketControl
+nsITLSSocketControl
 >
 tlsSocketControl
 ;
