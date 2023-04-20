@@ -23533,33 +23533,6 @@ block
 )
     
 #
-Standard
-font
--
-palette
-identifiers
-    
-Atom
-(
-"
-light
-"
-"
-light
-"
-)
-    
-Atom
-(
-"
-dark
-"
-"
-dark
-"
-)
-    
-#
 IPC
 stuff
     
