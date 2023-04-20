@@ -154,13 +154,13 @@ template
 typename
 T
 >
-T
-*
+void
 onEdge
 (
 T
 *
-thing
+*
+thingp
 const
 char
 *

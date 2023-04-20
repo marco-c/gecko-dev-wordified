@@ -2876,8 +2876,7 @@ _2
 )
 \
 inline
-type
-*
+void
 DispatchToOnEdge
 (
 GenericTracer
@@ -2885,7 +2884,8 @@ GenericTracer
 trc
 type
 *
-thing
+*
+thingp
 \
 const
 char
@@ -2894,7 +2894,6 @@ name
 )
 {
 \
-return
 trc
 -
 >
@@ -2906,7 +2905,7 @@ name
 #
 Edge
 (
-thing
+thingp
 name
 )
 ;

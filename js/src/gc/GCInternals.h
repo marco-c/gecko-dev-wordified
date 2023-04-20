@@ -1745,11 +1745,11 @@ template
 typename
 T
 >
-T
-*
+void
 onEdge
 (
 T
+*
 *
 thingp
 const
@@ -1792,11 +1792,11 @@ template
 typename
 T
 >
-T
-*
+void
 onEdge
 (
 T
+*
 *
 thingp
 const
