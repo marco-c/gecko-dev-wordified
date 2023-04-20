@@ -286,6 +286,10 @@ from
 optparse
 import
 OptionParser
+from
+pathlib
+import
+Path
 import
 buildconfig
 from
@@ -295,9 +299,9 @@ generated_sources
 import
 (
     
-get_filename_with_digest
+GENERATED_SOURCE_EXTS
     
-get_generated_sources
+get_filename_with_digest
     
 get_s3_region_and_bucket
 )
@@ -3681,10 +3685,6 @@ srcsrv
 =
 False
         
-generated_files
-=
-None
-        
 s3_bucket
 =
 None
@@ -3822,15 +3822,6 @@ self
 srcsrv
 =
 srcsrv
-        
-self
-.
-generated_files
-=
-generated_files
-or
-{
-}
         
 self
 .
@@ -4779,23 +4770,55 @@ self
 vcsinfo
 :
                             
-gen_path
+try
+:
+                                
+rel_path
 =
-self
-.
-generated_files
-.
-get
+str
+(
+                                    
+Path
 (
 filename
 )
+.
+relative_to
+(
+buildconfig
+.
+topobjdir
+)
+                                
+)
+                            
+except
+ValueError
+:
+                                
+rel_path
+=
+None
                             
 if
-gen_path
+(
+                                
+rel_path
+                                
+and
+rel_path
+.
+endswith
+(
+GENERATED_SOURCE_EXTS
+)
+                                
 and
 self
 .
 s3_bucket
+                            
+)
 :
                                 
 filename
@@ -4804,7 +4827,7 @@ get_generated_file_s3_path
 (
                                     
 filename
-gen_path
+rel_path
 self
 .
 s3_bucket
@@ -8828,56 +8851,6 @@ make_file_mapping
 manifests
 )
     
-#
-Any
-paths
-that
-get
-compared
-to
-source
-file
-names
-need
-to
-go
-through
-realpath
-.
-    
-generated_files
-=
-{
-        
-realpath
-(
-os
-.
-path
-.
-join
-(
-buildconfig
-.
-topobjdir
-f
-)
-)
-:
-f
-        
-for
-(
-f
-_
-)
-in
-get_generated_sources
-(
-)
-    
-}
-    
 _
 bucket
 =
@@ -8933,10 +8906,6 @@ srcsrv
 options
 .
 srcsrv
-        
-generated_files
-=
-generated_files
         
 s3_bucket
 =
