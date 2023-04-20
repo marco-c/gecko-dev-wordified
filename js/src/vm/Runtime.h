@@ -6244,6 +6244,15 @@ destroyRuntime
 (
 )
 ;
+private
+:
+void
+releaseScriptDataTable
+(
+)
+;
+public
+:
 bool
 init
 (
