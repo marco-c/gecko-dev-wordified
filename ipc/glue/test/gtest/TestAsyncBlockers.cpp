@@ -802,6 +802,12 @@ done
 }
 #
 if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
+&
+&
 !
 defined
 (
@@ -809,6 +815,7 @@ ANDROID
 )
 &
 &
+\
 !
 (
 defined
@@ -917,6 +924,12 @@ DeregisterEmpty_Test
 endif
 /
 /
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
+&
+&
 !
 defined
 (
@@ -924,6 +937,8 @@ ANDROID
 )
 &
 &
+/
+/
 !
 (
 defined
