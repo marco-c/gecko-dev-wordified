@@ -118,6 +118,8 @@ uint64_t
 aMaxData
 uint64_t
 aMaxStreamData
+bool
+aVersionNegotiation
 const
 nsACString
 &
@@ -143,6 +145,7 @@ aMaxTableSize
 aMaxBlockedStreams
 aMaxData
 aMaxStreamData
+aVersionNegotiation
 &
 aQlogDir
 (
