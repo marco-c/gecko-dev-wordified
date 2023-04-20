@@ -264,6 +264,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -271,6 +275,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -518,6 +524,10 @@ openTrustedLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -525,6 +535,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;

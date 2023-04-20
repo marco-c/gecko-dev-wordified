@@ -197,6 +197,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -206,6 +210,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -217,6 +223,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -228,6 +238,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -241,6 +253,10 @@ button
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -254,6 +270,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -265,6 +283,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -276,6 +298,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .
@@ -290,6 +314,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -315,6 +343,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -326,6 +358,8 @@ new
 components
 /
 Presets
+.
+js
 "
 )
 )
@@ -336,6 +370,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -347,6 +385,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -358,6 +398,10 @@ restartBrowserWithEnvironmentVariable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -367,6 +411,8 @@ performance
 new
 /
 browser
+.
+js
 "
 )
 ;

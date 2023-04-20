@@ -428,6 +428,10 @@ typeof
 import
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -476,6 +480,10 @@ typeof
 import
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -522,6 +530,10 @@ typeof
 import
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2138,6 +2150,10 @@ boolean
 declare
 module
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2147,6 +2163,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 {
 import
@@ -2166,6 +2184,10 @@ React
 declare
 module
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2179,6 +2201,8 @@ react
 dom
 -
 factories
+.
+js
 "
 {
 import
@@ -2202,6 +2226,10 @@ ReactDomFactories
 declare
 module
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2211,6 +2239,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 {
 import
@@ -2230,6 +2260,10 @@ Redux
 declare
 module
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2241,6 +2275,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 {
 import
@@ -2262,6 +2298,10 @@ ReactRedux
 declare
 module
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -2269,6 +2309,8 @@ shared
 event
 -
 emitter2
+.
+js
 "
 {
 export

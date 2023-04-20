@@ -262,6 +262,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -271,6 +275,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -288,6 +294,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -301,6 +311,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -312,6 +324,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -323,6 +339,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -332,6 +350,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -343,6 +365,8 @@ new
 store
 /
 actions
+.
+js
 "
 )
 ;
@@ -352,6 +376,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -363,6 +391,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -374,6 +404,10 @@ featureDescriptions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -383,6 +417,8 @@ performance
 new
 /
 utils
+.
+js
 "
 )
 ;
@@ -394,6 +430,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -405,6 +445,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .

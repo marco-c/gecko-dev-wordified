@@ -3208,6 +3208,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -3215,6 +3219,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -5492,6 +5498,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -5503,6 +5513,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;

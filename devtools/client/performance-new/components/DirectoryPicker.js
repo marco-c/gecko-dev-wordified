@@ -117,6 +117,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +130,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -140,6 +146,10 @@ option
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +163,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -164,6 +176,10 @@ withCommonPathPrefixRemoved
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +189,8 @@ performance
 new
 /
 utils
+.
+js
 "
 )
 ;
@@ -184,6 +202,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -195,6 +217,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .

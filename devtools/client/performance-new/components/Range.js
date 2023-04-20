@@ -162,6 +162,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -171,6 +175,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -184,6 +190,10 @@ label
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +207,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;

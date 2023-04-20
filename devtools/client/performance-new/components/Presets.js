@@ -106,6 +106,10 @@ Fragment
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +119,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -128,6 +134,10 @@ input
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +151,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -150,6 +162,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -161,6 +177,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -170,6 +188,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +203,8 @@ new
 store
 /
 actions
+.
+js
 "
 )
 ;
@@ -192,6 +216,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -203,6 +231,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -214,6 +244,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -225,6 +259,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .
