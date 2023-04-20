@@ -664,6 +664,18 @@ nsIChannel
 aChannel
 )
 ;
+/
+/
+aEarlyHintPreloaderId
+zero
+means
+no
+early
+hint
+channel
+to
+connect
+back
 nsresult
 ProcessLinkFromHeader
 (
@@ -677,6 +689,8 @@ net
 LinkHeader
 &
 aHeader
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 virtual
@@ -771,6 +785,8 @@ const
 nsAString
 &
 aReferrerPolicy
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 /
