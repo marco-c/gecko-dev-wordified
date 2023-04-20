@@ -611,7 +611,7 @@ small
 (
 0
 .
-02
+01
 parentlayer
 pixels
 or
@@ -726,7 +726,7 @@ EPSILON
 =
 0
 .
-02
+01
 ;
 ParentLayerPoint
 paintedOffset
