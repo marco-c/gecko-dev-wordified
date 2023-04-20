@@ -143,6 +143,8 @@ derive
 (
 Clone
 Debug
+Serialize
+Deserialize
 )
 ]
 pub
@@ -184,6 +186,8 @@ Debug
 Eq
 Hash
 PartialEq
+Serialize
+Deserialize
 )
 ]
 pub
