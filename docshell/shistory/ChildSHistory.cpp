@@ -1327,7 +1327,10 @@ aUserActivation
 shistory
 ]
 (
+Maybe
+<
 int32_t
+>
 &
 &
 aRequestedIndex
@@ -1348,6 +1351,13 @@ fission
 .
 if
 (
+aRequestedIndex
+.
+isSome
+(
+)
+&
+&
 shistory
 )
 {
@@ -1357,6 +1367,10 @@ shistory
 InternalSetRequestedIndex
 (
 aRequestedIndex
+.
+value
+(
+)
 )
 ;
 }

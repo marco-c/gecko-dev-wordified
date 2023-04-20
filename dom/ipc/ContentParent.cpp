@@ -49232,6 +49232,8 @@ IsDiscarded
 )
 )
 {
+aResolveRequestedIndex
+(
 aContext
 .
 get_canonical
@@ -49251,12 +49253,6 @@ ChildID
 (
 )
 )
-std
-:
-:
-move
-(
-aResolveRequestedIndex
 )
 )
 ;

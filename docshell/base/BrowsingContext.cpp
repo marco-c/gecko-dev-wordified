@@ -23538,7 +23538,10 @@ function
 <
 void
 (
+Maybe
+<
 int32_t
+>
 &
 &
 )
@@ -23605,6 +23608,8 @@ fine
 }
 else
 {
+aResolver
+(
 Canonical
 (
 )
@@ -23645,12 +23650,6 @@ ChildID
 Nothing
 (
 )
-std
-:
-:
-move
-(
-aResolver
 )
 )
 ;
