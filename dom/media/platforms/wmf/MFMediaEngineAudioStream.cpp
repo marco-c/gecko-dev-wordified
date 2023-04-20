@@ -579,13 +579,6 @@ more
 /
 audio
 .
-static
-const
-int64_t
-AMPLE_AUDIO_USECS
-=
-2000000
-;
 return
 mRawDataQueueForFeedingEngine
 .
@@ -594,7 +587,12 @@ Duration
 )
 >
 =
-AMPLE_AUDIO_USECS
+StaticPrefs
+:
+:
+media_wmf_media_engine_raw_data_threshold_audio
+(
+)
 ;
 }
 already_AddRefed

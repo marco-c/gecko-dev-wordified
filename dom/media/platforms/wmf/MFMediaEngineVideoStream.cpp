@@ -1345,13 +1345,6 @@ more
 /
 video
 .
-static
-const
-int64_t
-VIDEO_VIDEO_USECS
-=
-500000
-;
 return
 mRawDataQueueForFeedingEngine
 .
@@ -1360,7 +1353,12 @@ Duration
 )
 >
 =
-VIDEO_VIDEO_USECS
+StaticPrefs
+:
+:
+media_wmf_media_engine_raw_data_threshold_video
+(
+)
 ;
 }
 bool
