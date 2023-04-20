@@ -3820,6 +3820,15 @@ iCalendar
 VIDEO_OGG
 "
 ogv
+"
+"
+Ogg
+Video
+"
+}
+{
+VIDEO_OGG
+"
 ogg
 "
 "
@@ -3883,8 +3892,6 @@ Audio
 AUDIO_MP3
 "
 mp3
-mpega
-mp2
 "
 "
 MPEG
@@ -3907,7 +3914,6 @@ Video
 AUDIO_MP4
 "
 m4a
-m4b
 "
 "
 MPEG
