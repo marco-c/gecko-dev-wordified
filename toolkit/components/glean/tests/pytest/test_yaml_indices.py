@@ -169,9 +169,7 @@ module
 yaml_lists
 =
 [
-        
 item
-        
 for
 item
 in
@@ -179,14 +177,7 @@ dir
 (
 metrics_index
 )
-        
 if
-isinstance
-(
-item
-list
-)
-and
 not
 item
 .
@@ -196,7 +187,6 @@ startswith
 __
 "
 )
-    
 ]
     
 for

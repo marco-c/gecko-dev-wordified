@@ -2349,7 +2349,7 @@ new_v4
 (
 )
 .
-as_hyphenated
+to_hyphenated
 (
 )
 .
@@ -2467,7 +2467,7 @@ new_v4
 (
 )
 .
-as_hyphenated
+to_hyphenated
 (
 )
 .

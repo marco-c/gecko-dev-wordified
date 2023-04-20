@@ -497,9 +497,6 @@ None
 use_core_mps
 :
 false
-trim_data_to_registered_pings
-:
-false
 }
 ;
 common

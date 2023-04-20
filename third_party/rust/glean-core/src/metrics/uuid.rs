@@ -75,15 +75,6 @@ use
 crate
 :
 :
-common_metric_data
-:
-:
-CommonMetricDataInternal
-;
-use
-crate
-:
-:
 error_recording
 :
 :
@@ -170,7 +161,7 @@ meta
 :
 Arc
 <
-CommonMetricDataInternal
+CommonMetricData
 >
 }
 impl
@@ -187,7 +178,7 @@ self
 -
 >
 &
-CommonMetricDataInternal
+CommonMetricData
 {
 &
 self
@@ -261,10 +252,6 @@ Arc
 new
 (
 meta
-.
-into
-(
-)
 )
 }
 }
@@ -433,7 +420,7 @@ Uuid
 (
 uuid
 .
-as_hyphenated
+to_hyphenated
 (
 )
 .
@@ -850,8 +837,6 @@ meta
 (
 )
 .
-inner
-.
 send_in_pings
 [
 0
@@ -881,8 +866,6 @@ glean
 self
 .
 meta
-.
-inner
 .
 lifetime
 )
