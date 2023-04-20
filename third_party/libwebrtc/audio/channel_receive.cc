@@ -3657,14 +3657,6 @@ configuration
 rtp_rtcp_
 -
 >
-SetSendingMediaStatus
-(
-false
-)
-;
-rtp_rtcp_
--
->
 SetRemoteSSRC
 (
 remote_ssrc_
