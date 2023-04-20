@@ -1038,8 +1038,6 @@ aLoadGroup
 nsIInterfaceRequestor
 *
 aCallbacks
-uint64_t
-aHttpChannelId
 )
 override
 {
@@ -1639,7 +1637,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -1941,7 +1938,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -2243,7 +2239,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -2545,7 +2540,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -2857,7 +2851,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -3167,7 +3160,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -3478,7 +3470,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -3851,7 +3842,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -4157,7 +4147,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -4466,7 +4455,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -4792,7 +4780,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -5125,7 +5112,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -5465,7 +5451,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -5777,7 +5762,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -6177,7 +6161,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
@@ -6583,7 +6566,6 @@ ReferrerPolicy
 :
 _empty
 doc
-0
 )
 )
 )
