@@ -5300,6 +5300,13 @@ global_
 )
 ;
 }
+private
+:
+void
+purgeForOfPicChain
+(
+)
+;
 }
 ;
 inline
