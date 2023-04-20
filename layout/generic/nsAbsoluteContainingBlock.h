@@ -410,6 +410,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 ;
@@ -422,6 +423,7 @@ aDelegatingFrame
 ChildListID
 aListID
 nsFrameList
+&
 &
 aFrameList
 )
@@ -438,6 +440,7 @@ nsIFrame
 *
 aPrevFrame
 nsFrameList
+&
 &
 aFrameList
 )

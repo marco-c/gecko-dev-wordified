@@ -542,6 +542,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -578,7 +579,13 @@ AppendFrames
 (
 aParentFrame
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 }
@@ -616,6 +623,7 @@ nsIFrame
 *
 aPrevFrame
 nsFrameList
+&
 &
 aFrameList
 )
@@ -709,7 +717,13 @@ InsertFrames
 aParentFrame
 aListID
 aPrevFrame
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 }
