@@ -1558,11 +1558,6 @@ next_input_time_ms
 .
 0
 ;
-uint32_t
-receive_timestamp
-=
-0
-;
 /
 /
 Insert
@@ -1826,11 +1821,6 @@ timestamp
 seq_no
 ;
 timestamp
-+
-=
-kSamples
-;
-receive_timestamp
 +
 =
 kSamples
