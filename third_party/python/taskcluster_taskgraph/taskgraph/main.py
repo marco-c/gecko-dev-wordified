@@ -246,6 +246,9 @@ n
 join
 (
         
+sorted
+(
+            
 taskgraph
 .
 tasks
@@ -263,6 +266,8 @@ graph
 .
 visit_postorder
 (
+)
+        
 )
     
 )
