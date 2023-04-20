@@ -520,12 +520,6 @@ enums
 *
 *
 /
-/
-/
-nsWindow
-:
-:
-sCanQuit
 typedef
 enum
 {
