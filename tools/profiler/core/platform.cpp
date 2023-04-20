@@ -19686,7 +19686,7 @@ IntProperty
 "
 version
 "
-25
+26
 )
 ;
 /
@@ -21463,7 +21463,7 @@ name
 ;
 schema
 .
-AddKeyLabelFormat
+AddKeyLabelFormatSearchable
 (
 "
 name
@@ -21478,6 +21478,13 @@ Format
 :
 :
 String
+MS
+:
+:
+Searchable
+:
+:
+Searchable
 )
 ;
 return
