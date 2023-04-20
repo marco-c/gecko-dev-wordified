@@ -440,7 +440,7 @@ on_outside_input
 override
 ;
 bool
-CheckSpecialCharacterClass
+CheckSpecialClassRanges
 (
 StandardCharacterSet
 type

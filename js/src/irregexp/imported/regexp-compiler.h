@@ -393,6 +393,11 @@ flags
 /
 Both
 unicode
+(
+or
+unicode
+sets
+)
 and
 ignore_case
 flags
@@ -402,12 +407,12 @@ set
 We
 need
 to
+/
+/
 use
 ICU
 to
 find
-/
-/
 the
 closure
 over
@@ -415,7 +420,7 @@ case
 equivalents
 .
 return
-IsUnicode
+IsEitherUnicode
 (
 flags
 )

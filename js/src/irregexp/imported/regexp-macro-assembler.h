@@ -1025,7 +1025,7 @@ character
 .
 virtual
 bool
-CheckSpecialCharacterClass
+CheckSpecialClassRanges
 (
 StandardCharacterSet
 type
