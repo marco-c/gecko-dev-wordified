@@ -400,11 +400,6 @@ ServiceWorkerPrivate
 cpp
 "
 "
-ServiceWorkerPrivateImpl
-.
-cpp
-"
-"
 ServiceWorkerProxy
 .
 cpp
