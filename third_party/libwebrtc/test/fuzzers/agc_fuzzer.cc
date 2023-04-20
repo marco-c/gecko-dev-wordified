@@ -807,11 +807,12 @@ render
 AudioBuffer
 audio
 (
-samples_per_frame
+sample_rate_hz
 num_channels
-samples_per_frame
+sample_rate_hz
 num_channels
-samples_per_frame
+sample_rate_hz
+num_channels
 )
 ;
 std
