@@ -2135,14 +2135,6 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
-RateStatistics
-input_framerate_
-RTC_GUARDED_BY
-(
-&
-encoder_queue_
-)
-;
 /
 /
 Incremented
