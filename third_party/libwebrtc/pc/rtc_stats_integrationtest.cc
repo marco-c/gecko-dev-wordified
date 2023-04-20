@@ -8628,6 +8628,15 @@ transport
 ice_role
 )
 ;
+verifier
+.
+TestMemberIsDefined
+(
+transport
+.
+ice_local_username_fragment
+)
+;
 return
 verifier
 .

@@ -5521,6 +5521,15 @@ string
 >
 ice_role
 ;
+RTCStatsMember
+<
+std
+:
+:
+string
+>
+ice_local_username_fragment
+;
 }
 ;
 }
