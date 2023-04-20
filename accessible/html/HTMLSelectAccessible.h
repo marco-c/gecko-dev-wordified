@@ -436,15 +436,6 @@ aSelect
 )
 override
 ;
-nsresult
-HandleAccEvent
-(
-AccEvent
-*
-aEvent
-)
-override
-;
 /
 /
 ActionAccessible
