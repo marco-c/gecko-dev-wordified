@@ -82,15 +82,7 @@ use
 strict
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ContentSearchChild
-"
-]
-;
+export
 class
 ContentSearchChild
 extends

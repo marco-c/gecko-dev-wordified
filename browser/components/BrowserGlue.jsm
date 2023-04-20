@@ -3172,7 +3172,7 @@ ContentSearch
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3184,13 +3184,15 @@ actors
 /
 ContentSearchParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3202,7 +3204,9 @@ actors
 /
 ContentSearchChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
