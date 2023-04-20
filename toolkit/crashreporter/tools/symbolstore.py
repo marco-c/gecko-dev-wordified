@@ -4380,6 +4380,11 @@ return
 self
 .
 dump_syms
+"
+-
+-
+inlines
+"
 file
 ]
     
@@ -7360,19 +7365,28 @@ bundle
 .
             
 return
+(
+                
 [
 self
 .
 dump_syms
 ]
+                
 +
 arch
 .
 split
 (
 )
+                
 +
 [
+"
+-
+-
+inlines
+"
 "
 -
 j
@@ -7383,6 +7397,8 @@ j
 dsymbundle
 file
 ]
+            
+)
         
 return
 Dumper
