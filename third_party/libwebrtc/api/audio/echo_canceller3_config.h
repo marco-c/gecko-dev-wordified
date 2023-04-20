@@ -1050,6 +1050,11 @@ use_during_initial_phase
 =
 true
 ;
+bool
+use_unbounded_echo_spectrum
+=
+true
+;
 }
 dominant_nearend_detection
 ;
