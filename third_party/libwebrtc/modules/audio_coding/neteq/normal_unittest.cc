@@ -359,6 +359,8 @@ db
 bgn
 &
 expand
+&
+statistics
 )
 ;
 EXPECT_CALL
@@ -444,6 +446,8 @@ db
 bgn
 &
 expand
+&
+statistics
 )
 ;
 int16_t
@@ -728,6 +732,8 @@ db
 bgn
 &
 expand
+&
+statistics
 )
 ;
 int16_t
@@ -914,6 +920,8 @@ db
 bgn
 &
 expand
+&
+statistics
 )
 ;
 int16_t
