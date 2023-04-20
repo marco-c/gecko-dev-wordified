@@ -744,18 +744,6 @@ s
 '
 %
 target
-'
--
--
-out
--
-dir
-'
-'
-{
-ISOLATED_OUTDIR
-}
-'
       
 ]
       
