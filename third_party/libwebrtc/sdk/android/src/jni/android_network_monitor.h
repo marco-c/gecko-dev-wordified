@@ -126,15 +126,6 @@ include
 "
 rtc_base
 /
-async_invoker
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 network_monitor
 .
 h
@@ -680,6 +671,7 @@ rtc
 :
 Thread
 *
+const
 network_thread_
 ;
 bool
@@ -799,12 +791,6 @@ network_thread_
 )
 =
 false
-;
-rtc
-:
-:
-AsyncInvoker
-invoker_
 ;
 }
 ;
