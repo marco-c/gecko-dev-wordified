@@ -6675,6 +6675,12 @@ thisDoc
 return
 ;
 }
+mChildren
+.
+Clear
+(
+)
+;
 /
 /
 The
