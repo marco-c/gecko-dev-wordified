@@ -720,7 +720,7 @@ script
 .
 *
 /
-char16_t
+Utf8Unit
 *
 mOffThreadCompileStringBuf
 ;

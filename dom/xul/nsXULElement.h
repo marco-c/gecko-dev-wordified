@@ -1317,11 +1317,16 @@ nsXULPrototypeDocument
 aProtoDoc
 )
 ;
+template
+<
+typename
+Unit
+>
 nsresult
 Compile
 (
 const
-char16_t
+Unit
 *
 aText
 size_t

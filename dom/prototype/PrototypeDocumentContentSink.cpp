@@ -5530,7 +5530,7 @@ rv
 ScriptLoader
 :
 :
-ConvertToUTF16
+ConvertToUTF8
 (
 channel
 string
@@ -5588,7 +5588,7 @@ of
 the
 buffer
 .
-char16_t
+Utf8Unit
 *
 units
 =
