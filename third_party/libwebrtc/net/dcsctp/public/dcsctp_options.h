@@ -967,6 +967,12 @@ connections
 only
 )
 .
+Set
+to
+zero
+to
+disable
+.
 DurationMs
 heartbeat_interval
 =
