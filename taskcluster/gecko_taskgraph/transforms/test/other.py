@@ -60,6 +60,24 @@ json
 import
 re
 from
+gecko_taskgraph
+.
+transforms
+.
+test
+.
+variant
+import
+TEST_VARIANTS
+from
+gecko_taskgraph
+.
+util
+.
+platforms
+import
+platform_family
+from
 mozbuild
 .
 schedules
@@ -116,32 +134,9 @@ get_index_url
 from
 voluptuous
 import
-(
-    
 Any
-    
 Optional
-    
 Required
-)
-from
-gecko_taskgraph
-.
-transforms
-.
-test
-.
-variant
-import
-TEST_VARIANTS
-from
-gecko_taskgraph
-.
-util
-.
-platforms
-import
-platform_family
 transforms
 =
 TransformSequence
@@ -3167,6 +3162,14 @@ chromedriver
 -
 107
 "
+                
+"
+linux64
+-
+chromedriver
+-
+108
+"
             
 ]
             
@@ -3224,6 +3227,14 @@ mac64
 chromedriver
 -
 107
+"
+                
+"
+mac64
+-
+chromedriver
+-
+108
 "
             
 ]
@@ -3285,6 +3296,14 @@ win32
 chromedriver
 -
 107
+"
+                
+"
+win32
+-
+chromedriver
+-
+108
 "
             
 ]
@@ -3348,6 +3367,14 @@ chromedriver
 -
 107
 "
+                
+"
+win32
+-
+chromedriver
+-
+108
+"
             
 ]
             
@@ -3409,6 +3436,14 @@ win32
 chromedriver
 -
 107
+"
+                
+"
+win32
+-
+chromedriver
+-
+108
 "
             
 ]
