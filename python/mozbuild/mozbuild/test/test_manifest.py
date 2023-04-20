@@ -1466,14 +1466,6 @@ hosting
 "
 gitlab
 "
-                            
-"
-tracking
-"
-:
-"
-commit
-"
                         
 }
                         
@@ -1876,14 +1868,6 @@ hosting
 :
 "
 gitlab
-"
-                            
-"
-tracking
-"
-:
-"
-commit
 "
                         
 }
@@ -2295,14 +2279,6 @@ hosting
 :
 "
 gitlab
-"
-                            
-"
-tracking
-"
-:
-"
-commit
 "
                         
 }
@@ -3238,7 +3214,7 @@ tracking
 "
 :
 "
-commit
+tag
 "
                             
 "
@@ -3454,7 +3430,7 @@ com
   
 tracking
 :
-commit
+tag
   
 source
 -
@@ -3749,14 +3725,6 @@ com
 "
                             
 "
-tracking
-"
-:
-"
-commit
-"
-                            
-"
 source
 -
 hosting
@@ -4319,14 +4287,6 @@ com
 "
                             
 "
-tracking
-"
-:
-"
-commit
-"
-                            
-"
 source
 -
 hosting
@@ -4886,14 +4846,6 @@ https
 example
 .
 com
-"
-                            
-"
-tracking
-"
-:
-"
-commit
 "
                             
 "
@@ -5733,14 +5685,6 @@ https
 example
 .
 com
-"
-                            
-"
-tracking
-"
-:
-"
-commit
 "
                             
 "
