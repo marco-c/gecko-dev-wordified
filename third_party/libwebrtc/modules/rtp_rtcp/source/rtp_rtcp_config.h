@@ -123,7 +123,7 @@ constexpr
 int
 kDefaultMaxReorderingThreshold
 =
-5
+50
 ;
 /
 /
