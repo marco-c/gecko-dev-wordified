@@ -20153,6 +20153,8 @@ len
 =
 sources
 .
+0
+.
 iter
 (
 )
@@ -20285,6 +20287,8 @@ for
 source
 in
 sources
+.
+0
 .
 iter
 (
