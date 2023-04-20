@@ -459,9 +459,6 @@ Scripts
 "
 )
     
-else
-:
-        
 return
 os
 .

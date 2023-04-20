@@ -237,9 +237,6 @@ Scripts
 "
 )
     
-else
-:
-        
 return
 os
 .
@@ -1091,9 +1088,6 @@ version
 return
 0
         
-else
-:
-            
 log
 .
 debug
