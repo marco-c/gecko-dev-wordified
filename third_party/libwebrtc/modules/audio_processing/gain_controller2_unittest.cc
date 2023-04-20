@@ -504,6 +504,13 @@ agc2
 Initialize
 (
 sample_rate_hz
+/
+*
+num_channels
+=
+*
+/
+1
 )
 ;
 return
@@ -2329,6 +2336,13 @@ AudioProcessing
 :
 :
 kSampleRate48kHz
+/
+*
+num_channels
+=
+*
+/
+1
 )
 ;
 AudioProcessing
@@ -2348,7 +2362,7 @@ gain_db
 =
 0
 .
-f
+0f
 ;
 config
 .
