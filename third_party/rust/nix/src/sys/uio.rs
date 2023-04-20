@@ -1611,8 +1611,6 @@ self
 0
 .
 iov_len
-as
-usize
 )
 }
 }

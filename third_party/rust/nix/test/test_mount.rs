@@ -845,8 +845,6 @@ assert_eq
 !
 (
 EROFS
-as
-i32
 File
 :
 :
@@ -1190,8 +1188,6 @@ assert_eq
 !
 (
 EACCES
-as
-i32
 Command
 :
 :

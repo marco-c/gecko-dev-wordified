@@ -158,7 +158,6 @@ File
 :
 create
 (
-&
 tmp
 .
 path
