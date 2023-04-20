@@ -284,6 +284,11 @@ last_completed_deferred_reset_req_sn
 =
 0
 ;
+uint32_t
+last_completed_reset_req_sn
+=
+0
+;
 std
 :
 :
