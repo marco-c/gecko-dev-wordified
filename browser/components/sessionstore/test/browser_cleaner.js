@@ -219,11 +219,10 @@ CLOSED_STATE
 var
 CLOSED_STATE
 ;
-add_task
+add_setup
 (
 async
 function
-init
 (
 )
 {
