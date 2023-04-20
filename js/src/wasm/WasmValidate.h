@@ -1318,9 +1318,9 @@ ModuleEnvironment
 env
 size_t
 opcodeOffset
-ValType
+FieldType
 actual
-ValType
+FieldType
 expected
 TypeCache
 *
