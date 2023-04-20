@@ -1888,12 +1888,6 @@ manager
 network_manager
 (
 )
-manager
--
->
-packet_socket_factory
-(
-)
 )
 ;
 pc_deps
