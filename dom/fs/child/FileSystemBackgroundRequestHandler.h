@@ -232,11 +232,6 @@ NS_INLINE_DECL_REFCOUNTING
 FileSystemBackgroundRequestHandler
 )
 void
-ClearActor
-(
-)
-;
-void
 Shutdown
 (
 )
