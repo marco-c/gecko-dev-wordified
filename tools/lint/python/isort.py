@@ -230,9 +230,6 @@ Scripts
 "
 )
     
-else
-:
-        
 return
 os
 .
