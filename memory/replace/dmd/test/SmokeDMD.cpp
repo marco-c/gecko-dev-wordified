@@ -300,6 +300,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -489,7 +498,7 @@ buf
 int
 n
 =
-sprintf
+SprintfLiteral
 (
 buf
 "
@@ -766,7 +775,7 @@ filename
 128
 ]
 ;
-sprintf
+SprintfLiteral
 (
 filename
 "
@@ -801,7 +810,7 @@ options
 128
 ]
 ;
-sprintf
+SprintfLiteral
 (
 options
 "
@@ -866,7 +875,7 @@ filename
 128
 ]
 ;
-sprintf
+SprintfLiteral
 (
 filename
 "
@@ -949,7 +958,7 @@ options
 128
 ]
 ;
-sprintf
+SprintfLiteral
 (
 options
 "
@@ -2117,7 +2126,7 @@ filename
 128
 ]
 ;
-sprintf
+SprintfLiteral
 (
 filename
 "
@@ -2152,7 +2161,7 @@ options
 128
 ]
 ;
-sprintf
+SprintfLiteral
 (
 options
 "

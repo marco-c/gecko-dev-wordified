@@ -224,6 +224,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Tainting
 .
 h
@@ -1853,7 +1862,7 @@ buffer
 256
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buffer
 "
