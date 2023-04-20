@@ -1655,7 +1655,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_new
+todolist_97c5_TodoList_new
 )
 }
 try
@@ -1753,7 +1753,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_add_item
+todolist_97c5_TodoList_add_item
 FfiConverterTypeTodoList
 .
 lower
@@ -1863,7 +1863,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_add_entry
+todolist_97c5_TodoList_add_entry
 FfiConverterTypeTodoList
 .
 lower
@@ -1957,7 +1957,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_get_entries
+todolist_97c5_TodoList_get_entries
 FfiConverterTypeTodoList
 .
 lower
@@ -2045,7 +2045,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_get_items
+todolist_97c5_TodoList_get_items
 FfiConverterTypeTodoList
 .
 lower
@@ -2139,7 +2139,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_add_entries
+todolist_97c5_TodoList_add_entries
 FfiConverterTypeTodoList
 .
 lower
@@ -2239,7 +2239,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_add_items
+todolist_97c5_TodoList_add_items
 FfiConverterTypeTodoList
 .
 lower
@@ -2343,7 +2343,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_get_last_entry
+todolist_97c5_TodoList_get_last_entry
 FfiConverterTypeTodoList
 .
 lower
@@ -2441,7 +2441,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_get_last
+todolist_97c5_TodoList_get_last
 FfiConverterTypeTodoList
 .
 lower
@@ -2539,7 +2539,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_get_first
+todolist_97c5_TodoList_get_first
 FfiConverterTypeTodoList
 .
 lower
@@ -2643,7 +2643,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_clear_item
+todolist_97c5_TodoList_clear_item
 FfiConverterTypeTodoList
 .
 lower
@@ -2732,7 +2732,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_TodoList_make_default
+todolist_97c5_TodoList_make_default
 FfiConverterTypeTodoList
 .
 lower
@@ -4001,7 +4001,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_get_default_list
+todolist_97c5_get_default_list
 )
 }
 try
@@ -4099,7 +4099,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_set_default_list
+todolist_97c5_set_default_list
 FfiConverterTypeTodoList
 .
 lower
@@ -4218,7 +4218,7 @@ callAsync
 /
 todolist
 :
-todolist_aa33_create_entry_with
+todolist_97c5_create_entry_with
 FfiConverterString
 .
 lower

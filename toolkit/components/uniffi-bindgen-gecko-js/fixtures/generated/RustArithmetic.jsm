@@ -1761,7 +1761,7 @@ callAsync
 /
 arithmetic
 :
-arithmetic_906c_add
+arithmetic_cd72_add
 FfiConverterU64
 .
 lower
@@ -1897,7 +1897,7 @@ callAsync
 /
 arithmetic
 :
-arithmetic_906c_sub
+arithmetic_cd72_sub
 FfiConverterU64
 .
 lower
@@ -2023,7 +2023,7 @@ callAsync
 /
 arithmetic
 :
-arithmetic_906c_div
+arithmetic_cd72_div
 FfiConverterU64
 .
 lower
@@ -2149,7 +2149,7 @@ callAsync
 /
 arithmetic
 :
-arithmetic_906c_equal
+arithmetic_cd72_equal
 FfiConverterU64
 .
 lower
