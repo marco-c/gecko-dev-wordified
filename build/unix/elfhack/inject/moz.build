@@ -263,12 +263,6 @@ I
 -
 isystem
 "
-"
--
--
-sysroot
-=
-"
 )
 )
 or
