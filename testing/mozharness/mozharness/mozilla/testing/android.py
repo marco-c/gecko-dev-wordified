@@ -315,6 +315,12 @@ False
         
 self
 .
+use_root
+=
+True
+        
+self
+.
 xre_path
 =
 None
@@ -470,6 +476,11 @@ device
 self
 .
 device_serial
+use_root
+=
+self
+.
+use_root
             
 )
         

@@ -3370,7 +3370,7 @@ native_activity
 (
 )
 .
-external_data_path
+internal_data_path
 (
 )
 .
@@ -3762,7 +3762,7 @@ native_activity
 (
 )
 .
-external_data_path
+internal_data_path
 (
 )
 .
@@ -4228,7 +4228,7 @@ file
 located
 at
 <
-external_data_dir
+internal_data_dir
 >
 /
 wrench
@@ -4323,7 +4323,7 @@ native_activity
 (
 )
 .
-external_data_path
+internal_data_path
 (
 )
 .
