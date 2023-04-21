@@ -763,30 +763,6 @@ tiers
 tier
 ]
         
-#
-We
-should
-ideally
-use
-a
-monotonic
-clock
-here
-.
-Unfortunately
-we
-won
-'
-t
-        
-#
-have
-one
-until
-Python
-3
-.
-        
 t
 [
 "
@@ -796,7 +772,7 @@ begin_time
 =
 time
 .
-time
+monotonic
 (
 )
         
@@ -862,7 +838,7 @@ finish_time
 =
 time
 .
-time
+monotonic
 (
 )
         
@@ -1556,7 +1532,7 @@ start_time
 =
 time
 .
-time
+monotonic
 (
 )
         
@@ -2136,7 +2112,7 @@ end_time
 =
 time
 .
-time
+monotonic
 (
 )
         
