@@ -178,6 +178,8 @@ performance
 -
 new
 /
+shared
+/
 typescript
 -
 lazy

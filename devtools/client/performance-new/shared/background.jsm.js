@@ -172,6 +172,8 @@ performance
 -
 new
 /
+shared
+/
 typescript
 -
 lazy
@@ -1078,6 +1080,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1086,7 +1092,11 @@ performance
 -
 new
 /
+shared
+/
 utils
+.
+js
 "
 )
 BrowserModule
