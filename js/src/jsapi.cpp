@@ -14776,12 +14776,6 @@ rhs
 .
 importAssertions
 ;
-useFdlibmForSinCosTan
-=
-rhs
-.
-useFdlibmForSinCosTan
-;
 borrowBuffer
 =
 rhs
@@ -15314,12 +15308,6 @@ options
 )
 .
 importAssertions
-(
-)
-;
-useFdlibmForSinCosTan
-=
-math_use_fdlibm_for_sin_cos_tan
 (
 )
 ;

@@ -1354,11 +1354,6 @@ topLevelAwait
 true
 ;
 bool
-useFdlibmForSinCosTan
-=
-false
-;
-bool
 importAssertions
 =
 false
@@ -2257,11 +2252,6 @@ nonSyntacticScope
 PrintFields_
 (
 topLevelAwait
-)
-;
-PrintFields_
-(
-useFdlibmForSinCosTan
 )
 ;
 PrintFields_
