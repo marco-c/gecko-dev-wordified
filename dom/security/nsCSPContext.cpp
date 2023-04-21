@@ -6286,7 +6286,7 @@ s
 scheme
 .
 bool
-isHttpFtpOrWs
+isHttpOrWs
 =
 (
 aURI
@@ -6317,17 +6317,6 @@ aURI
 SchemeIs
 (
 "
-ftp
-"
-)
-|
-|
-aURI
--
->
-SchemeIs
-(
-"
 ws
 "
 )
@@ -6347,7 +6336,7 @@ wss
 if
 (
 !
-isHttpFtpOrWs
+isHttpOrWs
 )
 {
 /
@@ -6368,9 +6357,6 @@ is
 http
 /
 https
-and
-also
-ftp
 .
 If
 it
@@ -6380,8 +6366,6 @@ not
 http
 /
 https
-or
-ftp
 then
 treat
 aURI
