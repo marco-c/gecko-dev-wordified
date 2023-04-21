@@ -36120,7 +36120,7 @@ shape
 cx_
 -
 >
-recoverFromOutOfMemory
+clearPendingException
 (
 )
 ;
