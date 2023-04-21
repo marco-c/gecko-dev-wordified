@@ -102,6 +102,11 @@ dom
 =
 [
 "
+FileSystemAccessHandle
+.
+h
+"
+"
 FileSystemAccessHandleParent
 .
 h
@@ -131,6 +136,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+FileSystemAccessHandle
+.
+cpp
+"
 "
 FileSystemAccessHandleParent
 .
