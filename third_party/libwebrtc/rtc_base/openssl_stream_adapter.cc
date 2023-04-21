@@ -2549,6 +2549,14 @@ ssl_cipher
 ;
 #
 else
+const
+int
+openssl_cipher_id
+=
+0x03000000L
+|
+cipher_suite
+;
 for
 (
 const
@@ -2570,7 +2578,7 @@ entry
 {
 if
 (
-cipher_suite
+openssl_cipher_id
 =
 =
 static_cast
