@@ -138,12 +138,6 @@ nsIGfxInfoDebug
 ;
 gfxInfo
 .
-fireTestProcess
-(
-)
-;
-gfxInfo
-.
 spoofVendorID
 (
 "

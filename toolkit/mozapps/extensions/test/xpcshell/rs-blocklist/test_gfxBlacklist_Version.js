@@ -136,12 +136,6 @@ Ci
 nsIGfxInfoDebug
 )
 ;
-gfxInfo
-.
-fireTestProcess
-(
-)
-;
 /
 /
 Save
