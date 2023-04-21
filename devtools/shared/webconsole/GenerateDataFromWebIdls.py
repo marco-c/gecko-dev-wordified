@@ -1075,6 +1075,8 @@ isAttr
 )
                 
 and
+(
+                    
 member
 .
 getExtendedAttribute
@@ -1082,6 +1084,18 @@ getExtendedAttribute
 "
 Deprecated
 "
+)
+                    
+or
+member
+.
+getExtendedAttribute
+(
+"
+LegacyLenientThis
+"
+)
+                
 )
             
 )
