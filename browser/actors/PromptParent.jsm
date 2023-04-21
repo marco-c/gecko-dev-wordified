@@ -1900,6 +1900,11 @@ allowFocusCheckbox
 args
 .
 allowFocusCheckbox
+hideContent
+:
+args
+.
+isTopLevelCrossDomainAuth
 }
 bag
 )
