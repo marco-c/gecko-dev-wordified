@@ -1239,19 +1239,6 @@ EmptyWorkerSourceWarning
 )
 ;
 }
-if
-(
-loadContext
--
->
-mRequest
--
->
-IsModuleRequest
-(
-)
-)
-{
 /
 /
 For
@@ -1372,7 +1359,6 @@ mBaseURL
 )
 )
 ;
-}
 /
 /
 Figure
