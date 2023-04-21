@@ -35,6 +35,16 @@ getBuildConfiguration
 mips64
 '
 ]
+|
+|
+getBuildConfiguration
+(
+)
+[
+'
+riscv64
+'
+]
 function
 f
 (

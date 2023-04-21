@@ -296,6 +296,25 @@ h
 elif
 defined
 (
+JS_CODEGEN_RISCV64
+)
+#
+include
+"
+jit
+/
+riscv64
+/
+MacroAssembler
+-
+riscv64
+.
+h
+"
+#
+elif
+defined
+(
 JS_CODEGEN_WASM32
 )
 #
@@ -914,13 +933,16 @@ arm64
 x86
 x64
 loong64
+riscv64
 wasm32
 #
 define
 ALL_SHARED_ARCH
+\
 arm
 arm64
 loong64
+riscv64
 x86_shared
 mips_shared
 wasm32
@@ -1237,6 +1259,9 @@ define
 DEFINED_ON_loong64
 #
 define
+DEFINED_ON_riscv64
+#
+define
 DEFINED_ON_wasm32
 #
 define
@@ -1366,6 +1391,19 @@ DEFINED_ON_loong64
 #
 define
 DEFINED_ON_loong64
+define
+#
+elif
+defined
+(
+JS_CODEGEN_RISCV64
+)
+#
+undef
+DEFINED_ON_riscv64
+#
+define
+DEFINED_ON_riscv64
 define
 #
 elif
@@ -3975,6 +4013,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -3992,6 +4031,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -4131,6 +4171,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -4164,6 +4205,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -4495,6 +4537,7 @@ arm
 mips_shared
 x86_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -5034,6 +5077,7 @@ mips_shared
 arm
 arm64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -5047,6 +5091,7 @@ mips_shared
 arm
 arm64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -5353,16 +5398,7 @@ moveNearAddressWithPatch
 Register
 dest
 )
-DEFINED_ON
-(
-x86
-x64
-arm
-arm64
-loong64
-wasm32
-mips_shared
-)
+PER_ARCH
 ;
 static
 void
@@ -5380,6 +5416,7 @@ x64
 arm
 arm64
 loong64
+riscv64
 wasm32
 mips_shared
 )
@@ -8749,6 +8786,7 @@ DEFINED_ON
 x64
 mips64
 loong64
+riscv64
 )
 ;
 inline
@@ -8767,6 +8805,7 @@ DEFINED_ON
 x64
 mips64
 loong64
+riscv64
 )
 ;
 inline
@@ -8785,6 +8824,7 @@ DEFINED_ON
 x64
 mips64
 loong64
+riscv64
 )
 ;
 /
@@ -9166,6 +9206,7 @@ arm64
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -9205,6 +9246,7 @@ arm64
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -9257,6 +9299,7 @@ DEFINED_ON
 x64
 mips64
 loong64
+riscv64
 )
 ;
 inline
@@ -9417,6 +9460,7 @@ arm64
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -9464,6 +9508,7 @@ arm64
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -9505,6 +9550,7 @@ DEFINED_ON
 x64
 mips64
 loong64
+riscv64
 )
 ;
 inline
@@ -9648,6 +9694,7 @@ DEFINED_ON
 x64
 mips64
 loong64
+riscv64
 )
 ;
 inline
@@ -9685,6 +9732,7 @@ arm
 mips32
 mips64
 loong64
+riscv64
 )
 ;
 inline
@@ -9799,6 +9847,7 @@ arm64
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -9861,6 +9910,7 @@ mips_shared
 arm
 arm64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -9953,6 +10003,7 @@ mips_shared
 arm
 arm64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -10079,6 +10130,7 @@ arm
 arm64
 x86_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -10172,6 +10224,7 @@ arm
 arm64
 x86_shared
 loong64
+riscv64
 )
 ;
 /
@@ -10281,6 +10334,7 @@ arm
 arm64
 x86_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -11942,6 +11996,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -12303,6 +12358,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -12330,6 +12386,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -12440,6 +12497,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -12875,6 +12933,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -12902,6 +12961,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -12930,6 +12990,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -12993,6 +13054,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -13206,6 +13268,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -13229,6 +13292,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -13336,6 +13400,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -13359,6 +13424,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -13705,6 +13771,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -14708,6 +14775,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -14949,6 +15017,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15006,6 +15075,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15063,6 +15133,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15088,6 +15159,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15145,6 +15217,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15202,6 +15275,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15259,6 +15333,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15316,6 +15391,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15373,6 +15449,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15438,6 +15515,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15511,6 +15589,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15572,6 +15651,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15702,6 +15782,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 x86_shared
 wasm32
 )
@@ -15757,6 +15838,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15782,6 +15864,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 x86_shared
 )
@@ -15885,6 +15968,7 @@ arm64
 x64
 mips64
 loong64
+riscv64
 )
 ;
 template
@@ -16586,6 +16670,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 wasm32
 mips_shared
 x86_shared
@@ -16613,6 +16698,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 wasm32
 mips_shared
 x86_shared
@@ -16678,6 +16764,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 mips_shared
 x86_shared
 )
@@ -16704,6 +16791,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 mips_shared
 x86_shared
 )
@@ -16732,6 +16820,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 wasm32
 mips_shared
 x86
@@ -16758,6 +16847,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 wasm32
 mips_shared
 x86
@@ -16788,6 +16878,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 wasm32
 mips_shared
 x86
@@ -16816,6 +16907,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+riscv64
 wasm32
 mips_shared
 x86
@@ -16849,6 +16941,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -16880,6 +16973,7 @@ arm64
 mips_shared
 x86_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -16955,6 +17049,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -16982,6 +17077,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -17007,6 +17103,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -17034,6 +17131,7 @@ mips_shared
 x86
 x64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -17249,6 +17347,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -17271,6 +17370,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -17349,6 +17449,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -17371,6 +17472,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -25116,6 +25218,7 @@ DEFINED_ON
 arm64
 mips64
 loong64
+riscv64
 wasm32
 x64
 x86
@@ -25134,6 +25237,7 @@ DEFINED_ON
 arm64
 mips64
 loong64
+riscv64
 wasm32
 x64
 x86
@@ -25657,6 +25761,7 @@ mips32
 mips64
 x86_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -25681,6 +25786,7 @@ mips32
 mips64
 x86_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -25705,6 +25811,7 @@ x64
 x86
 arm
 loong64
+riscv64
 wasm32
 )
 ;
@@ -25729,6 +25836,7 @@ x64
 x86
 arm
 loong64
+riscv64
 wasm32
 )
 ;
@@ -25931,6 +26039,7 @@ DEFINED_ON
 (
 arm
 loong64
+riscv64
 mips_shared
 )
 ;
@@ -25959,6 +26068,7 @@ arm
 mips32
 mips64
 loong64
+riscv64
 )
 ;
 void
@@ -25984,6 +26094,7 @@ DEFINED_ON
 (
 arm
 loong64
+riscv64
 mips_shared
 )
 ;
@@ -26012,6 +26123,7 @@ arm
 mips32
 mips64
 loong64
+riscv64
 )
 ;
 /
@@ -26486,6 +26598,7 @@ arm64
 x86_shared
 mips_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -26544,6 +26657,7 @@ arm64
 x86_shared
 mips_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -26595,6 +26709,7 @@ x86
 x64
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -26623,6 +26738,7 @@ x86
 x64
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -26651,6 +26767,7 @@ arm64
 x86_shared
 mips_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -26679,6 +26796,7 @@ x86
 x64
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -26707,6 +26825,7 @@ x86
 x64
 mips64
 loong64
+riscv64
 wasm32
 )
 ;
@@ -26735,6 +26854,7 @@ arm64
 x86_shared
 mips_shared
 loong64
+riscv64
 wasm32
 )
 ;
@@ -27472,6 +27592,7 @@ arm64
 x64
 mips64
 loong64
+riscv64
 )
 ;
 /
@@ -28083,6 +28204,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -28118,6 +28240,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 /
@@ -28196,6 +28319,7 @@ x64
 x86
 mips64
 loong64
+riscv64
 )
 ;
 void
@@ -28224,6 +28348,7 @@ x64
 x86
 mips64
 loong64
+riscv64
 )
 ;
 /
@@ -28350,6 +28475,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -28383,6 +28509,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 /
@@ -28455,6 +28582,7 @@ x64
 x86
 mips64
 loong64
+riscv64
 )
 ;
 void
@@ -28481,6 +28609,7 @@ x64
 x86
 mips64
 loong64
+riscv64
 )
 ;
 /
@@ -28760,6 +28889,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -28795,6 +28925,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 /
@@ -28906,6 +29037,7 @@ arm64
 x64
 mips64
 loong64
+riscv64
 )
 ;
 void
@@ -28962,6 +29094,7 @@ arm64
 x64
 mips64
 loong64
+riscv64
 )
 ;
 void
@@ -29081,6 +29214,7 @@ arm
 arm64
 mips64
 loong64
+riscv64
 )
 ;
 void
@@ -29128,6 +29262,7 @@ arm
 arm64
 mips64
 loong64
+riscv64
 )
 ;
 /
@@ -29561,6 +29696,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -29594,6 +29730,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -29677,6 +29814,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -29708,6 +29846,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -29857,6 +29996,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -29890,6 +30030,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 /
@@ -30069,6 +30210,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -30100,6 +30242,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 /
@@ -30560,6 +30703,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 x64
 )
 ;
@@ -30593,6 +30737,7 @@ arm64
 mips32
 mips64
 loong64
+riscv64
 x64
 )
 ;
@@ -31039,6 +31184,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -31076,6 +31222,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -31171,6 +31318,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -31206,6 +31354,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -31375,6 +31524,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -31412,6 +31562,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -31561,6 +31712,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -31594,6 +31746,7 @@ DEFINED_ON
 (
 mips_shared
 loong64
+riscv64
 )
 ;
 void
@@ -36462,6 +36615,7 @@ DEFINED_ON
 mips32
 mips64
 loong64
+riscv64
 wasm32
 arm
 x86

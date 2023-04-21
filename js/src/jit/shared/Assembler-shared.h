@@ -285,6 +285,13 @@ defined
 (
 JS_CODEGEN_WASM32
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_RISCV64
+)
 /
 /
 Push
@@ -323,6 +330,13 @@ JS_CODEGEN_ARM64
 defined
 (
 JS_CODEGEN_LOONG64
+)
+|
+|
+\
+defined
+(
+JS_CODEGEN_RISCV64
 )
 /
 /

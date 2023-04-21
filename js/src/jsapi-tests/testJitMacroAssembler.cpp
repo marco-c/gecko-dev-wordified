@@ -242,6 +242,13 @@ defined
 (
 JS_CODEGEN_X64
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_RISCV64s
+)
 BEGIN_TEST
 (
 testJitMacroAssembler_flexibleDivMod
