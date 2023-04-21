@@ -5338,8 +5338,10 @@ filename
 ;
 try
 {
-let
-profileData
+const
+{
+profile
+}
 =
 await
 Services
@@ -5359,7 +5361,7 @@ profilePath
 new
 Uint8Array
 (
-profileData
+profile
 )
 )
 ;

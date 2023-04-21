@@ -2507,7 +2507,11 @@ getProfileDataAsGzippedArrayBuffer
 .
 then
 (
+(
+{
 profile
+}
+)
 =
 >
 (
