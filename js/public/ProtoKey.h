@@ -466,6 +466,15 @@ Function
 FunctionClass
 )
 \
+IMAGINARY
+(
+BoundFunction
+OCLASP
+(
+BoundFunction
+)
+)
+\
 REAL
 (
 Array
