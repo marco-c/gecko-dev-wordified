@@ -9614,6 +9614,10 @@ MarkChanged
 (
 )
 ;
+PushAllClips
+(
+)
+;
 bool
 patternSupported
 =
@@ -9657,10 +9661,6 @@ to
 become
 dirty
 .
-PushAllClips
-(
-)
-;
 FlushTransformToDC
 (
 )
