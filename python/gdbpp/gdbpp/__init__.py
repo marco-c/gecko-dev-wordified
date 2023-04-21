@@ -162,7 +162,7 @@ gdbpp
 .
 enumset
 #
-noqa
+NOQA
 :
 F401
 import
@@ -170,7 +170,7 @@ gdbpp
 .
 linkedlist
 #
-noqa
+NOQA
 :
 F401
 import
@@ -178,7 +178,7 @@ gdbpp
 .
 owningthread
 #
-noqa
+NOQA
 :
 F401
 import
@@ -186,7 +186,7 @@ gdbpp
 .
 smartptr
 #
-noqa
+NOQA
 :
 F401
 import
@@ -194,7 +194,7 @@ gdbpp
 .
 string
 #
-noqa
+NOQA
 :
 F401
 import
@@ -202,7 +202,7 @@ gdbpp
 .
 tarray
 #
-noqa
+NOQA
 :
 F401
 import
@@ -210,7 +210,7 @@ gdbpp
 .
 thashtable
 #
-noqa
+NOQA
 :
 F401
 gdb

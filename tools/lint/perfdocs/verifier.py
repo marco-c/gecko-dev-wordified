@@ -4044,10 +4044,6 @@ logger
 .
 warning
 (
-#
-noqa
-:
-PLE1205
                 
 "
 Cannot

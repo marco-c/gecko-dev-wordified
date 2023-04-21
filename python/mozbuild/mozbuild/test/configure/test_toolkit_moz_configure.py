@@ -60,6 +60,10 @@ buildconfig
 import
 topsrcdir
 from
+common
+import
+BaseConfigureTest
+from
 mozpack
 import
 path
@@ -70,10 +74,6 @@ mozunit
 import
 MockedOpen
 main
-from
-common
-import
-BaseConfigureTest
 from
 mozbuild
 .

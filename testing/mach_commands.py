@@ -3598,6 +3598,8 @@ log
     
 import
 remotecppunittests
+as
+remotecppunittests
     
 from
 mozlog

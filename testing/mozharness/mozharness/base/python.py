@@ -139,10 +139,6 @@ urllib
 parse
 as
 urlparse
-from
-six
-import
-string_types
 import
 mozharness
 from
@@ -179,6 +175,10 @@ PreScriptAction
     
 ScriptMixin
 )
+from
+six
+import
+string_types
 external_tools_path
 =
 os

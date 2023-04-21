@@ -742,15 +742,11 @@ log
 .
 debug
 (
-f
 "
 Unhandled
 line
-:
-{
-line
-}
 "
+line
 )
     
 return

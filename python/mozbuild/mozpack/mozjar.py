@@ -74,13 +74,13 @@ import
 ZIP_DEFLATED
 ZIP_STORED
 import
-six
-import
 mozpack
 .
 path
 as
 mozpath
+import
+six
 from
 mozbuild
 .

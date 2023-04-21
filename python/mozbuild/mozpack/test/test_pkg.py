@@ -68,11 +68,11 @@ mock
 import
 patch
 import
-mozunit
-import
 mozpack
 .
 pkg
+import
+mozunit
 from
 mozpack
 .

@@ -170,14 +170,6 @@ mozinfo
 import
 six
 from
-mozprocess
-import
-ProcessHandler
-from
-six
-import
-binary_type
-from
 mozharness
 .
 base
@@ -214,6 +206,14 @@ OutputParser
     
 SimpleFileLogger
 )
+from
+mozprocess
+import
+ProcessHandler
+from
+six
+import
+binary_type
 try
 :
     

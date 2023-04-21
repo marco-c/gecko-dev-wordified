@@ -61,6 +61,8 @@ import
 mock
 import
 pytest
+as
+pytest
 from
 buildconfig
 import

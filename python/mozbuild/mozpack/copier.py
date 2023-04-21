@@ -74,13 +74,13 @@ Counter
 OrderedDict
 defaultdict
 import
-six
-import
 mozpack
 .
 path
 as
 mozpath
+import
+six
 from
 mozpack
 .
