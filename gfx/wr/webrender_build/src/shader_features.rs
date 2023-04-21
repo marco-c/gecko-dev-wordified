@@ -1801,7 +1801,7 @@ shaders
 insert
 (
 "
-ps_quad
+ps_quad_textured
 "
 vec
 !
