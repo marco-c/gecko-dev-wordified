@@ -1122,14 +1122,6 @@ value
 struct
 RtpPacketSendInfo
 {
-public
-:
-RtpPacketSendInfo
-(
-)
-=
-default
-;
 uint16_t
 transport_sequence_number
 =
