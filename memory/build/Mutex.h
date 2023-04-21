@@ -1038,6 +1038,7 @@ SpinInKernelSpace
 )
 ;
 static
+const
 bool
 gSpinInKernelSpace
 ;
