@@ -487,11 +487,6 @@ const
 override
 ;
 bool
-CheckIsReadyForRendering
-(
-)
-;
-bool
 IsReadyForRendering
 (
 )
