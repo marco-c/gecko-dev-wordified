@@ -27975,17 +27975,6 @@ aY
 )
 ;
 void
-AddPositioningOffset
-(
-int32_t
-&
-aX
-int32_t
-&
-aY
-)
-;
-void
 SnapToGrid
 (
 int32_t
