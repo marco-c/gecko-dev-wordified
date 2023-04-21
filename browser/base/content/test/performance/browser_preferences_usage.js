@@ -1636,7 +1636,7 @@ read_path_whitelist
 {
 min
 :
-48
+47
 max
 :
 55
@@ -1658,7 +1658,7 @@ enabled
 {
 min
 :
-48
+47
 max
 :
 55
