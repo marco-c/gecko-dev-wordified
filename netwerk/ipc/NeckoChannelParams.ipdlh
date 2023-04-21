@@ -652,6 +652,14 @@ isFixed
 nsString
 partitionKey
 ;
+bool
+hasFingerprintingRandomizationKey
+;
+uint8_t
+[
+]
+fingerprintingRandomizationKey
+;
 }
 ;
 /
