@@ -2325,6 +2325,15 @@ MutableHandleValue
 rval
 )
 {
+cx
+-
+>
+check
+(
+reobj
+input
+)
+;
 RootedRegExpShared
 shared
 (
