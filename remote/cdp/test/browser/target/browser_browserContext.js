@@ -232,6 +232,13 @@ Target
 createTarget
 (
 {
+url
+:
+"
+about
+:
+blank
+"
 browserContextId
 }
 )
