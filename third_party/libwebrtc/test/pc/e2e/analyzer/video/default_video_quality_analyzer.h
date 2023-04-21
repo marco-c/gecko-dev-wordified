@@ -976,12 +976,9 @@ void
 ReportResults
 (
 const
-std
-:
-:
-string
+InternalStatsKey
 &
-test_case_name
+key
 const
 StreamStats
 &
