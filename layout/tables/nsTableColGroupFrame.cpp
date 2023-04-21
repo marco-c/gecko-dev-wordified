@@ -3195,7 +3195,10 @@ false
 verify
 the
 colindices
+DebugOnly
+<
 int32_t
+>
 j
 =
 GetStartColumnIndex
