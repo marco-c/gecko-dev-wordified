@@ -413,13 +413,6 @@ MOZ_ASSERT
 mIsShutdown
 )
 ;
-SchedulerGroup
-:
-:
-MarkVsyncRan
-(
-)
-;
 mVsyncRate
 =
 TimeDuration
