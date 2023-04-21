@@ -406,13 +406,7 @@ GetImageBuffer
 (
 int32_t
 *
-out_format
-gfx
-:
-:
-IntSize
-*
-out_imageSize
+aFormat
 )
 override
 ;
