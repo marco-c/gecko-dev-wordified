@@ -1077,6 +1077,8 @@ EVENT
 contextmenu
 eContextMenu
 EventNameType_HTMLXUL
+|
+EventNameType_SVGGraphic
 eMouseEventClass
 )
 NON_IDL_EVENT
