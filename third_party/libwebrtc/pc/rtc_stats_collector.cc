@@ -5449,6 +5449,17 @@ fraction_lost
 8
 )
 ;
+if
+(
+report_block_data
+.
+num_rtts
+(
+)
+>
+0
+)
+{
 remote_inbound
 -
 >
@@ -5471,6 +5482,7 @@ rtc
 :
 kNumMillisecsPerSec
 ;
+}
 remote_inbound
 -
 >
