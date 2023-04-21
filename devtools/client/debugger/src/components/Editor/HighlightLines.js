@@ -276,7 +276,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 highlight
@@ -375,7 +375,7 @@ addLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 highlight

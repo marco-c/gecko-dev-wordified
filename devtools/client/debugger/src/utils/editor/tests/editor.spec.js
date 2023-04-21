@@ -1337,7 +1337,7 @@ toHaveBeenCalledWith
 (
 line
 "
-wrapClass
+wrap
 "
 className
 )

@@ -208,7 +208,7 @@ addLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 line
@@ -425,7 +425,7 @@ this
 .
 exceptionLine
 "
-wrapClass
+wrap
 "
 "
 line
