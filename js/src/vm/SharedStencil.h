@@ -2247,6 +2247,13 @@ functionHasNewTargetBinding
 FunctionHasNewTargetBinding
 )
 \
+_
+(
+ImmutableFlags
+usesArgumentsIntrinsics
+UsesArgumentsIntrinsics
+)
+\
 \
 GeneratorKind
 generatorKind
