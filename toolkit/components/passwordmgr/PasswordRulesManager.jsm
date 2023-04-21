@@ -627,6 +627,12 @@ async
 generatePassword
 (
 uri
+{
+inputMaxLength
+}
+=
+{
+}
 )
 {
 await
@@ -814,6 +820,7 @@ generatePassword
 rules
 :
 mapOfRules
+inputMaxLength
 }
 )
 ;
@@ -856,6 +863,7 @@ PasswordGenerator
 generatePassword
 (
 {
+inputMaxLength
 }
 )
 ;

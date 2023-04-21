@@ -600,7 +600,7 @@ id
 stub
 )
 ;
-let
+const
 generatedPassword
 =
 await
@@ -608,7 +608,6 @@ LMP
 .
 getGeneratedPassword
 (
-id
 )
 ;
 notEqual

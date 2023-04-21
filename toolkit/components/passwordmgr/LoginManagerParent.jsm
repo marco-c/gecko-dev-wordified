@@ -3996,6 +3996,7 @@ forcePasswordGeneration
 hasBeenTypePassword
 isProbablyANewPasswordField
 scenarioName
+inputMaxLength
 }
 )
 {
@@ -4539,6 +4540,9 @@ this
 .
 getGeneratedPassword
 (
+{
+inputMaxLength
+}
 )
 ;
 const
@@ -4742,6 +4746,12 @@ browsingContext
 async
 getGeneratedPassword
 (
+{
+inputMaxLength
+}
+=
+{
+}
 )
 {
 if
@@ -4964,6 +4974,9 @@ browsingContext
 currentWindowGlobal
 .
 documentURI
+{
+inputMaxLength
+}
 )
 ;
 }
@@ -4980,6 +4993,7 @@ PasswordGenerator
 generatePassword
 (
 {
+inputMaxLength
 }
 )
 ;
