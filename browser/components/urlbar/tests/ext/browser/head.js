@@ -785,8 +785,9 @@ default
 :
 Assert
 .
-fail
+ok
 (
+false
 "
 type
 "
