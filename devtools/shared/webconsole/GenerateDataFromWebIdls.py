@@ -169,6 +169,10 @@ set
 [
         
 "
+Window
+"
+        
+"
 Document
 "
         
@@ -714,6 +718,17 @@ identifier
 .
 name
         
+is_global
+=
+result
+.
+getExtendedAttribute
+(
+"
+Global
+"
+)
+        
 for
 member
 in
@@ -795,6 +810,16 @@ iface
 }
                 
 if
+is_global
+:
+                    
+owner_type
+=
+"
+instance
+"
+                
+elif
 member
 .
 isStatic
