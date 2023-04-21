@@ -6335,6 +6335,10 @@ to
 64
 -
 bit
+by
+zero
+-
+extension
 when
 use
 it
@@ -6344,6 +6348,8 @@ index
 register
 in
 memory
+/
+/
 accesses
 .
 MOZ_ASSERT
