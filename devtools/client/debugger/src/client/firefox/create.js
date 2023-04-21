@@ -464,6 +464,8 @@ getState
 .
 sourceActors
 .
+mutableSourceActors
+.
 size
 ;
 /
