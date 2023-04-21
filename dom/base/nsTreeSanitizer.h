@@ -150,6 +150,9 @@ mozilla
 class
 DeclarationBlock
 ;
+class
+ErrorResult
+;
 enum
 class
 StyleSanitizationKind
@@ -423,6 +426,12 @@ dom
 SanitizerConfig
 &
 aOptions
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 /
