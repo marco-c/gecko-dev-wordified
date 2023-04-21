@@ -397,6 +397,7 @@ GdkIsWaylandDisplay
 {
 ConfigureWaylandBackend
 (
+mWidget
 )
 ;
 LOG
@@ -1190,13 +1191,18 @@ GtkCompositorWidget
 :
 ConfigureWaylandBackend
 (
+RefPtr
+<
+nsWindow
+>
+aWindow
 )
 {
 mProvider
 .
 Initialize
 (
-this
+aWindow
 )
 ;
 return
@@ -1429,6 +1435,7 @@ if
 !
 ConfigureWaylandBackend
 (
+mWidget
 )
 )
 {

@@ -558,6 +558,11 @@ MOZ_WAYLAND
 bool
 ConfigureWaylandBackend
 (
+RefPtr
+<
+nsWindow
+>
+aWindow
 )
 ;
 #
