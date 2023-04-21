@@ -965,7 +965,7 @@ LaunchPhase
 :
 Unlaunched
 ;
-UniquePtr
+RefPtr
 <
 RDDChild
 >
