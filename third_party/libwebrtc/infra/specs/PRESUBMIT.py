@@ -92,6 +92,8 @@ tree
 .
 import
 os
+import
+shlex
 #
 Runs
 PRESUBMIT
@@ -228,6 +230,7 @@ results
 .
 append
 (
+          
 output_api
 .
 PresubmitError
@@ -238,7 +241,12 @@ calling
 "
 '
 +
+shlex
+.
+join
+(
 cmd
+)
 +
 '
 "
