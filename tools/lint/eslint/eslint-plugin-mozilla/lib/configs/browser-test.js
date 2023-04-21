@@ -104,9 +104,6 @@ false
 TestUtils
 :
 false
-XPCNativeWrapper
-:
-false
 addLoadEvent
 :
 false

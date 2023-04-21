@@ -135,9 +135,6 @@ true
 Task
 :
 true
-XPCNativeWrapper
-:
-true
 XPCOMUtils
 :
 true

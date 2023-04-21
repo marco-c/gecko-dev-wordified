@@ -55,9 +55,6 @@ js
 SpecialPowers
 :
 false
-XPCNativeWrapper
-:
-false
 }
 overrides
 :
