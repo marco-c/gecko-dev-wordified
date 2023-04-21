@@ -1251,7 +1251,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_LOCAL
+HISTORY
 uri
 :
 "
@@ -1277,6 +1277,9 @@ test
 title
 :
 "
+test
+visit
+for
 https
 :
 /
@@ -1287,6 +1290,12 @@ mozilla
 .
 org
 /
+%
+E5
+%
+95
+%
+8A
 -
 test
 "
@@ -1307,6 +1316,14 @@ mozilla
 .
 org
 /
+%
+E5
+%
+95
+%
+8A
+-
+test
 "
 heuristic
 :

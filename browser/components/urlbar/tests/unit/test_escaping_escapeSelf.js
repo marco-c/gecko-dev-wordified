@@ -277,9 +277,9 @@ uri1
 spec
 title
 :
-uri1
-.
-spec
+"
+title
+"
 iconUri
 :
 page
@@ -297,7 +297,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_LOCAL
+HISTORY
 heuristic
 :
 true
@@ -373,7 +373,7 @@ escapeduri
 %
 40
 "
-title
+fallbackTitle
 :
 "
 http

@@ -1161,7 +1161,7 @@ otherScheme
 ex
 /
 "
-title
+fallbackTitle
 :
 otherScheme
 +
@@ -1246,7 +1246,7 @@ www
 ex
 /
 "
-title
+fallbackTitle
 :
 otherScheme
 +
@@ -1312,7 +1312,7 @@ http
 example
 /
 "
-title
+fallbackTitle
 :
 "
 http

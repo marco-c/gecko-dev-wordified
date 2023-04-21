@@ -1260,6 +1260,9 @@ http
 example
 .
 com
+/
+a
+/
 "
 )
 ;

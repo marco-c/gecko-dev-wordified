@@ -226,7 +226,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 http
@@ -356,7 +356,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 http
@@ -504,7 +504,7 @@ org
 /
 link
 "
-title
+fallbackTitle
 :
 "
 http
@@ -606,6 +606,11 @@ autofill
 whitespaced
 entry
 4
+but
+UrlbarProviderPlaces
+provides
+heuristic
+result
 "
 )
 ;
@@ -658,6 +663,9 @@ link
 title
 :
 "
+test
+visit
+for
 http
 :
 /
@@ -684,6 +692,8 @@ mozilla
 .
 org
 /
+link
+/
 "
 source
 :
@@ -691,7 +701,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_LOCAL
+HISTORY
 heuristic
 :
 true
