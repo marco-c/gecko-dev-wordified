@@ -285,7 +285,6 @@ aNoSniff
 OpaqueResponseBlockedReason
 GetOpaqueResponseBlockedReason
 (
-const
 nsHttpResponseHead
 &
 aResponseHead

@@ -1175,7 +1175,6 @@ nsACString
 &
 aOutput
 )
-const
 ;
 private
 :

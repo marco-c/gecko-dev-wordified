@@ -809,7 +809,6 @@ BLOCKED_SHOULD_SNIFF
 OpaqueResponseBlockedReason
 GetOpaqueResponseBlockedReason
 (
-const
 nsHttpResponseHead
 &
 aResponseHead
