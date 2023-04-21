@@ -272,9 +272,20 @@ Frame
 nsFileControlFrame
 "
 "
-Block
+FileControl
 "
 LEAF
+)
+    
+Frame
+(
+"
+FileControlLabelFrame
+"
+"
+Block
+"
+NOT_LEAF
 )
     
 Frame
@@ -1441,6 +1452,13 @@ classes
 for
 FrameIID
 use
+)
+    
+AbstractFrame
+(
+"
+MiddleCroppingBlockFrame
+"
 )
     
 AbstractFrame

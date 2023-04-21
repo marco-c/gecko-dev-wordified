@@ -1091,6 +1091,11 @@ MathMLTextRunFactory
 cpp
 "
 "
+MiddleCroppingBlockFrame
+.
+cpp
+"
+"
 nsAbsoluteContainingBlock
 .
 cpp
