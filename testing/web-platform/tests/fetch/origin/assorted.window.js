@@ -135,6 +135,11 @@ encodeURIComponent
 (
 url
 )
++
+"
+&
+dummyJS
+"
 ;
 await
 fetch
@@ -1083,6 +1088,11 @@ stash
 "
 +
 stash
++
+"
+&
+dummyJS
+"
 ;
 await
 fetch
