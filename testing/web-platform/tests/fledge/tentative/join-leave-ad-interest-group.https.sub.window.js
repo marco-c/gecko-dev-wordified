@@ -35,6 +35,11 @@ fledge
 util
 .
 js
+"
+use
+strict
+;
+"
 /
 /
 These
