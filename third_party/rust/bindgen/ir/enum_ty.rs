@@ -81,10 +81,7 @@ crate
 parse
 :
 :
-{
-ClangItemParser
 ParseError
-}
 ;
 use
 crate

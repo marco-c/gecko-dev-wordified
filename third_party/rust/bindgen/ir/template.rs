@@ -279,15 +279,6 @@ crate
 :
 clang
 ;
-use
-crate
-:
-:
-parse
-:
-:
-ClangItemParser
-;
 /
 /
 /

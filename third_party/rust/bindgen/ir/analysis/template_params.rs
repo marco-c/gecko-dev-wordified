@@ -3286,13 +3286,11 @@ if
 let
 Some
 (
-&
 TypeKind
 :
 :
 TemplateInstantiation
 (
-ref
 inst
 )
 )
@@ -4057,13 +4055,11 @@ parameter
 .
 Some
 (
-&
 TypeKind
 :
 :
 TemplateInstantiation
 (
-ref
 inst
 )
 )
