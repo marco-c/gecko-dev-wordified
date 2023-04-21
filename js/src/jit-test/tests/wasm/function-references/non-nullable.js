@@ -907,6 +907,8 @@ non
 -
 nullable
 tables
+without
+initializer
 wasmFailValidateText
 (
 (
@@ -923,14 +925,14 @@ elem
 )
 )
 /
+table
+with
 non
 -
 nullable
 references
-not
-supported
-in
-tables
+requires
+initializer
 /
 )
 ;

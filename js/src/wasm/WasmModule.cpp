@@ -4968,7 +4968,7 @@ if
 (
 td
 .
-isImportedOrExported
+isExported
 )
 {
 RootedObject
