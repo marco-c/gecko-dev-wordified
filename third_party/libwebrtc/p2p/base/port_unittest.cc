@@ -13119,7 +13119,12 @@ WebRTC
 -
 IPv6NetworkResolutionFixes
 /
+"
+"
 Enabled
+PreferGlobalIPv6Address
+:
+true
 /
 "
 )
