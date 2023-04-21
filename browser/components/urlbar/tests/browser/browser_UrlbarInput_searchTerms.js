@@ -610,7 +610,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -745,7 +745,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

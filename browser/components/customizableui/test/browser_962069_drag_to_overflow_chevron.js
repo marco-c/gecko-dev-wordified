@@ -98,7 +98,7 @@ dragged
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 "

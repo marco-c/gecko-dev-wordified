@@ -573,7 +573,7 @@ tab
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

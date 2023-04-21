@@ -232,7 +232,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

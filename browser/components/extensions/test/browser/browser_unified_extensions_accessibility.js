@@ -312,7 +312,7 @@ temporary
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

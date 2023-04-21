@@ -553,7 +553,7 @@ event
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aTab
 .

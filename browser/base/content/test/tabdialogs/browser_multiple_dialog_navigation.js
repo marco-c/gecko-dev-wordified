@@ -352,7 +352,7 @@ gone
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

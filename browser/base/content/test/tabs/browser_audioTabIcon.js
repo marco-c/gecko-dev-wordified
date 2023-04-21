@@ -2886,7 +2886,7 @@ process
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -155,7 +155,7 @@ target
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

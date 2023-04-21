@@ -160,7 +160,7 @@ set
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -375,7 +375,7 @@ set
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

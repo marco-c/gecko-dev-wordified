@@ -276,7 +276,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 url
@@ -333,7 +333,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 url
@@ -1270,7 +1270,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 page

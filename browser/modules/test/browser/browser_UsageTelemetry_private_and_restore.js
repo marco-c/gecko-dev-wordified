@@ -251,7 +251,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 privateWin
 .

@@ -1284,7 +1284,7 @@ browser
 >
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 AUTH_URI

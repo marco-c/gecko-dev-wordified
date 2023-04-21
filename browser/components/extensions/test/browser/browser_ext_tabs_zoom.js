@@ -2097,7 +2097,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 selectedBrowser
 url

@@ -150,7 +150,7 @@ aIsPrivate
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

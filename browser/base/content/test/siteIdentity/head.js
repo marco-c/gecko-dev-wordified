@@ -343,7 +343,7 @@ url
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2460,7 +2460,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

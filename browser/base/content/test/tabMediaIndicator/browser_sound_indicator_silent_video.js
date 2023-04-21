@@ -246,7 +246,7 @@ video
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -400,7 +400,7 @@ video
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

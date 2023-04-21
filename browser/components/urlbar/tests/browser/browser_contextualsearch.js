@@ -158,7 +158,7 @@ ENGINE_TEST_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -450,7 +450,7 @@ ENGINE_TEST_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

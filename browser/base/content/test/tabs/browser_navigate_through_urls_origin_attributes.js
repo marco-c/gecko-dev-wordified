@@ -724,7 +724,7 @@ aText
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aBrowser
 aURI

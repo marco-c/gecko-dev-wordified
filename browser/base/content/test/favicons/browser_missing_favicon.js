@@ -108,7 +108,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 testPath
@@ -148,7 +148,7 @@ icon
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 testPath

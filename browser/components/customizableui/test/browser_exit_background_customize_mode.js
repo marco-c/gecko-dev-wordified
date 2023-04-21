@@ -161,7 +161,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 custTab
 .

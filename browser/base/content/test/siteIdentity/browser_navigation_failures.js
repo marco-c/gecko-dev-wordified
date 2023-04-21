@@ -274,7 +274,7 @@ fail
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TLS_HANDSHAKE_FAILURE_URI
@@ -411,7 +411,7 @@ t
 exist
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 BAD_ABOUT_PAGE_URI
@@ -966,7 +966,7 @@ after
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TLS_HANDSHAKE_FAILURE_URI

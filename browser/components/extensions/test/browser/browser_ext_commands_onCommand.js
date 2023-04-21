@@ -795,7 +795,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win1
 .
@@ -1300,7 +1300,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win2
 .
@@ -1543,7 +1543,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 privateWin
 .

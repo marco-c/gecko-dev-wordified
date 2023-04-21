@@ -828,7 +828,7 @@ request
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

@@ -241,7 +241,7 @@ EXAMPLE_URL_2
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 EXAMPLE_URL_2
@@ -884,7 +884,7 @@ URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL

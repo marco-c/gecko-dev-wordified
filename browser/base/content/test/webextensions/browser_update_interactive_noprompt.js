@@ -176,7 +176,7 @@ new
 tab
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

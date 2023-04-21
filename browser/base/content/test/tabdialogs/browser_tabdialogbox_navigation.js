@@ -206,7 +206,7 @@ different
 page
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -953,7 +953,7 @@ different
 page
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

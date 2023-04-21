@@ -1125,7 +1125,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PERMISSIONS_PAGE

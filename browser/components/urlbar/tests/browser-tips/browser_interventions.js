@@ -1621,7 +1621,7 @@ helpButton
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

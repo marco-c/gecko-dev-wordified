@@ -635,7 +635,7 @@ below
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -678,7 +678,7 @@ re
 done
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

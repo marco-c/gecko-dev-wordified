@@ -1243,7 +1243,7 @@ URL2
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL2

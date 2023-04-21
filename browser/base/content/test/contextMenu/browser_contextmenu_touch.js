@@ -462,7 +462,7 @@ disabled
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -514,7 +514,7 @@ counts
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 firstTab
 .
@@ -643,7 +643,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWin
 .
@@ -825,7 +825,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWin
 .
@@ -887,7 +887,7 @@ count
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWin
 .
@@ -953,7 +953,7 @@ domain
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWin
 .
@@ -1191,7 +1191,7 @@ a
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWin
 .

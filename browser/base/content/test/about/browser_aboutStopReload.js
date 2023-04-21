@@ -304,7 +304,7 @@ animate
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -439,7 +439,7 @@ animate
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -714,7 +714,7 @@ stopReloadContainer
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -869,7 +869,7 @@ stopReloadContainer
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

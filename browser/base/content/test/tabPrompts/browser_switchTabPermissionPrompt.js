@@ -83,7 +83,7 @@ expectedValue
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri

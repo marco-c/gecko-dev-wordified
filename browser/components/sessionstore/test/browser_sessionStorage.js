@@ -830,7 +830,7 @@ data
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser2
 "

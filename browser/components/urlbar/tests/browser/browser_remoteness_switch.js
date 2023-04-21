@@ -238,7 +238,7 @@ config
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

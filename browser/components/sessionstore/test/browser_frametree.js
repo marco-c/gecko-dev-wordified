@@ -161,7 +161,7 @@ frameset
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL_FRAMESET

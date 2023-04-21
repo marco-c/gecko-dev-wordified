@@ -3337,7 +3337,7 @@ below
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

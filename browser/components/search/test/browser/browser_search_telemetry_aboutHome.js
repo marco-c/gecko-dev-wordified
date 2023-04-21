@@ -429,7 +429,7 @@ home
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

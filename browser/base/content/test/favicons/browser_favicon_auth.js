@@ -106,7 +106,7 @@ png
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 {

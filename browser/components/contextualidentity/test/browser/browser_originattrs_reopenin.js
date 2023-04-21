@@ -858,7 +858,7 @@ uri
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 regularPage
 .

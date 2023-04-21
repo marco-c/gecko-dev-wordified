@@ -218,7 +218,7 @@ FAVICON_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 url

@@ -1612,7 +1612,7 @@ tests
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

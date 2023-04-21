@@ -309,7 +309,7 @@ content
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 openedBrowser
 "

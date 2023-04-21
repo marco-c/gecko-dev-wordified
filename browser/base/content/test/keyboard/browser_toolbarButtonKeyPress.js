@@ -1102,7 +1102,7 @@ aBrowser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aBrowser
 "

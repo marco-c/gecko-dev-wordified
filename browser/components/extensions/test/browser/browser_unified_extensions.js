@@ -1731,7 +1731,7 @@ tests
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .
@@ -2884,7 +2884,7 @@ tests
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

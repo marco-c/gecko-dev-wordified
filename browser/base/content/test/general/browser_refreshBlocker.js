@@ -691,7 +691,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 refreshPage
@@ -1054,7 +1054,7 @@ a
 redirect
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 META_PAGE

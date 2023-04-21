@@ -118,7 +118,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 window
 .

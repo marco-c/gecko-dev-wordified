@@ -879,7 +879,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tabBrowser
 URL

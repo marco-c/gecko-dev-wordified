@@ -1719,7 +1719,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 backgroundTab
 .

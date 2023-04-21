@@ -83,7 +83,7 @@ LOAD_FLAGS_REPLACE_HISTORY
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

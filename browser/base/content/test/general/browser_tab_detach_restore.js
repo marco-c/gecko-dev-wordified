@@ -107,7 +107,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

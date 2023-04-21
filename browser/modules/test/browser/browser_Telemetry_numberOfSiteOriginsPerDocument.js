@@ -383,7 +383,7 @@ page
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -415,7 +415,7 @@ page
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

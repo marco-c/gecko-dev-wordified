@@ -148,7 +148,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 privateTab
 TOP_PAGE

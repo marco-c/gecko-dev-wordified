@@ -373,7 +373,7 @@ error
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

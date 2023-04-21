@@ -137,7 +137,7 @@ from
 newtab
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newtab
 .
@@ -238,7 +238,7 @@ toolbar
 reappears
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newtab
 .
@@ -482,7 +482,7 @@ show
 toolbar
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 example
 .
@@ -695,7 +695,7 @@ newtab
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 example
 .

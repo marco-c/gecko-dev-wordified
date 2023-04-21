@@ -275,7 +275,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2
@@ -396,7 +396,7 @@ KEY_ArrowDown
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2
@@ -507,7 +507,7 @@ scrollIntoView
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2
@@ -628,7 +628,7 @@ click
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2
@@ -741,7 +741,7 @@ scrollBy
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2
@@ -857,7 +857,7 @@ scrollTo
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2

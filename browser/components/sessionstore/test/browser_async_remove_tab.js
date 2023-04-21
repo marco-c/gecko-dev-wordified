@@ -797,7 +797,7 @@ entry
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
