@@ -782,7 +782,6 @@ assertIndividualRules
 info
 (
 Verify
-the
 each
 individual
 rule
