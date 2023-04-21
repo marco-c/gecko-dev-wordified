@@ -13421,6 +13421,7 @@ bool
 IsScriptEnabled
 (
 )
+const
 ;
 /
 *
@@ -23564,6 +23565,7 @@ bool
 HasScriptsBlockedBySandbox
 (
 )
+const
 ;
 void
 ReportHasScrollLinkedEffect
