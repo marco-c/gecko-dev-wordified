@@ -2095,6 +2095,11 @@ nsString
 >
 mBackgroundScripts
 ;
+bool
+mBackgroundTypeModule
+=
+false
+;
 nsTArray
 <
 RefPtr
