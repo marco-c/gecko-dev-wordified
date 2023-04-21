@@ -1142,7 +1142,12 @@ dmd
 )
     
 if
-extra_opts
+len
+(
+opts
+)
+>
+0
 :
         
 suite
