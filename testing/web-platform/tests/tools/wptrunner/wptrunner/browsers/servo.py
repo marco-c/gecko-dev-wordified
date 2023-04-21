@@ -616,30 +616,28 @@ binary
 "
 servo
 "
-webdriver_args
+webdriver_binary
 =
-None
+"
+servo
+"
                  
 binary_args
 =
 None
-host
+webdriver_args
 =
-"
-127
-.
-0
-.
-0
-.
-1
-"
+None
 env
 =
 None
 port
 =
 None
+                 
+*
+*
+kwargs
 )
 :
         
@@ -679,16 +677,16 @@ __init__
 logger
                          
 binary
+=
+binary
                          
-None
+webdriver_binary
+=
+webdriver_binary
                          
 webdriver_args
 =
 webdriver_args
-                         
-host
-=
-host
                          
 port
 =
@@ -697,6 +695,10 @@ port
 env
 =
 env
+                         
+*
+*
+kwargs
 )
         
 self
