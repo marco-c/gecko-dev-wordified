@@ -92,7 +92,7 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
 clipping_predictor
 .
@@ -126,7 +126,7 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
 clipping_predictor_level_buffer
 .
@@ -139,7 +139,7 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
 gain_map_internal
 .

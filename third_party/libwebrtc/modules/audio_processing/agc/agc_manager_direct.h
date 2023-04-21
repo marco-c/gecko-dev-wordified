@@ -141,7 +141,7 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
 clipping_predictor
 .
@@ -154,7 +154,7 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
 clipping_predictor_evaluator
 .
