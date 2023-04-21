@@ -13785,7 +13785,6 @@ compilationState_
 .
 allocateGCThingsUninitialized
 (
-cx_
 fc_
 funbox
 -
