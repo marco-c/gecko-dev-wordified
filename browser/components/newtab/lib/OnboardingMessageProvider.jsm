@@ -2820,15 +2820,11 @@ label
 string_id
 :
 "
-mr1
--
 onboarding
 -
-set
+not
 -
-default
--
-secondary
+now
 -
 button
 -
