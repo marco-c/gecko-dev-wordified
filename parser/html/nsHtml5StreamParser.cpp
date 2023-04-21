@@ -2115,6 +2115,12 @@ mCharsetSource
 =
 =
 kCharsetFromInitialAutoDetectionWouldHaveBeenUTF8
+|
+|
+mEncoding
+=
+=
+ISO_2022_JP_ENCODING
 )
 ;
 source
