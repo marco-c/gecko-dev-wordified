@@ -136,17 +136,3 @@ mochitest
 ini
 "
 ]
-MOCHITEST_CHROME_MANIFESTS
-+
-=
-[
-"
-test
-/
-chrome
-/
-chrome
-.
-ini
-"
-]
