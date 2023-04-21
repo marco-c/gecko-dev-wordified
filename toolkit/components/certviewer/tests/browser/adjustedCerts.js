@@ -31,7 +31,7 @@ content
 /
 certviewer
 .
-js
+mjs
 (
 e
 .
@@ -137,7 +137,7 @@ content
 /
 certviewer
 .
-js
+mjs
 #
 428
 )

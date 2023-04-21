@@ -68,7 +68,7 @@ error
 -
 section
 .
-js
+mjs
 "
 ;
 import
@@ -85,7 +85,7 @@ group
 -
 container
 .
-js
+mjs
 "
 ;
 import
@@ -102,7 +102,7 @@ tabs
 -
 section
 .
-js
+mjs
 "
 ;
 class

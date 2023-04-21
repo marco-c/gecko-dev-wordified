@@ -66,7 +66,7 @@ from
 /
 utils
 .
-js
+mjs
 "
 ;
 export
