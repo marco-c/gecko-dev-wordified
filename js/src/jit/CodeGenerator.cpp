@@ -7568,11 +7568,10 @@ branchTruncateDoubleToInt32
 )
 on
 x86
+and
 /
 /
 x64
-and
-ARM64
 so
 handle
 it
