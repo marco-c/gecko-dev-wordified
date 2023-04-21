@@ -85,7 +85,7 @@ findSourceMatches
 (
 content
 queryText
-modifiers
+options
 )
 {
 if
@@ -127,7 +127,7 @@ getMatches
 (
 queryText
 text
-modifiers
+options
 )
 .
 map

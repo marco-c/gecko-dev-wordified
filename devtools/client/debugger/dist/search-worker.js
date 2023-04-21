@@ -3798,7 +3798,7 @@ getMatches
 (
 query
 text
-modifiers
+options
 )
 {
 if
@@ -3812,7 +3812,7 @@ text
 |
 |
 !
-modifiers
+options
 )
 {
 return
@@ -3831,7 +3831,7 @@ default
 )
 (
 query
-modifiers
+options
 {
 isGlobal
 :
@@ -5176,7 +5176,7 @@ findSourceMatches
 (
 content
 queryText
-modifiers
+options
 )
 {
 if
@@ -5223,7 +5223,7 @@ default
 (
 queryText
 text
-modifiers
+options
 )
 .
 map

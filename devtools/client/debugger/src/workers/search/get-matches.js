@@ -97,7 +97,7 @@ getMatches
 (
 query
 text
-modifiers
+options
 )
 {
 if
@@ -111,7 +111,7 @@ text
 |
 |
 !
-modifiers
+options
 )
 {
 return
@@ -125,7 +125,7 @@ regexQuery
 buildQuery
 (
 query
-modifiers
+options
 {
 isGlobal
 :
