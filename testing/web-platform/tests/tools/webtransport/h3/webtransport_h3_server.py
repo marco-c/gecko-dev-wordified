@@ -186,16 +186,16 @@ type
 ignore
 from
 tools
-.
-wptserve
-.
+import
+localpaths
+#
+noqa
+:
+F401
+from
 wptserve
 import
 stash
-#
-type
-:
-ignore
 from
 .
 capsule
@@ -2497,6 +2497,10 @@ stash
 load_env_config
 (
 )
+#
+type
+:
+ignore
             
 self
 .
@@ -2512,6 +2516,10 @@ _stash_path
 address
 authkey
 )
+#
+type
+:
+ignore
         
 return
 self

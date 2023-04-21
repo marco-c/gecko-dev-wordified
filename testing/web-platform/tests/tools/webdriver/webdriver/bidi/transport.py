@@ -202,6 +202,10 @@ WebSocketClientProtocol
 ]
 =
 None
+#
+type
+:
+ignore
         
 self
 .
@@ -283,6 +287,10 @@ self
 .
 url
 )
+#
+type
+:
+ignore
         
 self
 .
@@ -382,6 +390,10 @@ connection
 websockets
 .
 WebSocketClientProtocol
+#
+type
+:
+ignore
         
 data
 :

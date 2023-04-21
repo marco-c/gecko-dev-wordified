@@ -1169,6 +1169,10 @@ session
 .
 new
 (
+#
+type
+:
+ignore
                 
 capabilities
 =

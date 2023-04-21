@@ -432,10 +432,6 @@ SkippedEntityHandler
 self
 .
 _skipped
-#
-type
-:
-ignore
         
 #
 used
