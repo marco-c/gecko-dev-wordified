@@ -47230,12 +47230,8 @@ perfSpewer_
 recordInstruction
 (
 masm
+*
 iter
--
->
-op
-(
-)
 )
 ;
 #
