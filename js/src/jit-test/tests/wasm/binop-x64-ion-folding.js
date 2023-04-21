@@ -1399,7 +1399,8 @@ ff
 mov
 \
 \
-0xFFFFFFFF
+-
+0x01
 %
 eax
 '
@@ -1712,7 +1713,8 @@ ff
 mov
 \
 \
-0xFFFFFFFF
+-
+0x01
 %
 eax
 '

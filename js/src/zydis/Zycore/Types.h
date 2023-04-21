@@ -2059,11 +2059,11 @@ Boolean
 #
 define
 ZYAN_FALSE
-0
+0u
 #
 define
 ZYAN_TRUE
-1
+1u
 /
 *
 *
