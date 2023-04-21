@@ -602,6 +602,15 @@ globals
 "
 error
 "
+"
+no
+-
+shadow
+"
+:
+"
+error
+"
 }
 }
 {
