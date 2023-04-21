@@ -561,12 +561,6 @@ SurfaceFormat
 :
 R8G8B8A8
 ;
-gfx
-:
-:
-IntSize
-mGfxSize
-;
 Maybe
 <
 layers

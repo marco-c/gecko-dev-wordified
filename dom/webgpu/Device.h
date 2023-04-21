@@ -466,7 +466,6 @@ gfx
 :
 :
 IntSize
-*
 aDefaultSize
 )
 ;
