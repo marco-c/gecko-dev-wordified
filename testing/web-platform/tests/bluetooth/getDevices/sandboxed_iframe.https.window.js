@@ -84,11 +84,6 @@ async
 >
 {
 await
-getConnectedHealthThermometerDevice
-(
-)
-;
-await
 new
 Promise
 (
