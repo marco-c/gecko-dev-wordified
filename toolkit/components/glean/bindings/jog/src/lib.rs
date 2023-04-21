@@ -57,13 +57,13 @@ MPL
 *
 /
 use
-fog
+firefox_on_glean
 :
 :
 factory
 ;
 use
-fog
+firefox_on_glean
 :
 :
 private
@@ -75,7 +75,7 @@ traits
 HistogramType
 ;
 use
-fog
+firefox_on_glean
 :
 :
 private

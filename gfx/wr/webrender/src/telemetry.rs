@@ -74,7 +74,7 @@ gecko
 )
 ]
 use
-fog
+firefox_on_glean
 :
 :
 metrics
