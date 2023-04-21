@@ -311,11 +311,13 @@ Struct
 {
 clasp
 =
-&
 WasmStructObject
 :
 :
-class_
+classForTypeDef
+(
+typeDef
+)
 ;
 allocKind
 =
