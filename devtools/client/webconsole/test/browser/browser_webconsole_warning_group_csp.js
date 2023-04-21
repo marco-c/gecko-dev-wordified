@@ -85,7 +85,9 @@ GROUP_LABEL
 =
 "
 Content
+-
 Security
+-
 Policy
 warnings
 "
