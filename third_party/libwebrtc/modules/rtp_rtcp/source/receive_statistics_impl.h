@@ -443,6 +443,13 @@ int64_t
 receive_time_ms
 )
 ;
+void
+ReviseFrequencyAndJitter
+(
+int
+payload_type_frequency
+)
+;
 /
 /
 Updates
