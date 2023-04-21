@@ -425,9 +425,6 @@ Value
 .
 class
 LAllocation
-:
-public
-TempObject
 {
 uintptr_t
 bits_
