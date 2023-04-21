@@ -654,7 +654,7 @@ ourBrowser
 setAttribute
 (
 "
-selectmenuconstrained
+constrainpopups
 "
 "
 false
