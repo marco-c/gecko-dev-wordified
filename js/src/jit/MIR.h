@@ -4952,8 +4952,6 @@ virtual
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 ;
@@ -9555,8 +9553,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -10127,8 +10123,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -18579,8 +18573,6 @@ true
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -21299,8 +21291,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -31139,8 +31129,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -31347,8 +31335,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -31847,8 +31833,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -32548,8 +32532,6 @@ const
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -33618,8 +33600,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override
@@ -37224,8 +37204,6 @@ override
 bool
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 override

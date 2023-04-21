@@ -20065,8 +20065,6 @@ MDefinition
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20115,8 +20113,6 @@ MConstant
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20143,7 +20139,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20216,8 +20211,6 @@ MPhi
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20267,7 +20260,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20316,8 +20308,6 @@ MAdd
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20358,7 +20348,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20419,8 +20408,6 @@ MSub
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20461,7 +20448,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20522,8 +20508,6 @@ MMul
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20564,7 +20548,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20633,8 +20616,6 @@ MDiv
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20675,7 +20656,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20747,8 +20727,6 @@ MMod
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20802,7 +20780,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20851,8 +20828,6 @@ MToDouble
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20887,7 +20862,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -20967,8 +20941,6 @@ MLimitedTruncate
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -20990,7 +20962,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -21040,8 +21011,6 @@ MCompare
 :
 needTruncation
 (
-TruncateKind
-kind
 )
 const
 {
@@ -21211,7 +21180,6 @@ MOZ_ASSERT
 (
 needTruncation
 (
-kind
 )
 )
 ;
@@ -24800,7 +24768,6 @@ iter
 >
 needTruncation
 (
-kind
 )
 )
 {
@@ -25086,7 +25053,6 @@ iter
 >
 needTruncation
 (
-kind
 )
 )
 {
