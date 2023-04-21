@@ -1033,6 +1033,10 @@ const
 nsAString
 &
 aClassicScriptHintCharset
+const
+nsAString
+&
+aDocumentCharacterSet
 )
 ;
 virtual
