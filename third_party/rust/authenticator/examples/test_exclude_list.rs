@@ -66,9 +66,8 @@ authenticatorservice
 :
 {
 AuthenticatorService
-CtapVersion
 MakeCredentialsOptions
-RegisterArgsCtap2
+RegisterArgs
 }
 ctap2
 :
@@ -377,10 +376,6 @@ AuthenticatorService
 :
 new
 (
-CtapVersion
-:
-:
-CTAP2
 )
 .
 expect
@@ -579,7 +574,7 @@ finalize
 (
 )
 .
-to_vec
+into
 (
 )
 ;
@@ -1266,9 +1261,9 @@ let
 mut
 ctap_args
 =
-RegisterArgsCtap2
+RegisterArgs
 {
-challenge
+client_data_hash
 :
 chall_bytes
 relying_party
@@ -1347,6 +1342,9 @@ default
 pin
 :
 None
+use_ctap1_fallback
+:
+false
 }
 ;
 loop
@@ -1409,10 +1407,6 @@ timeout_ms
 ctap_args
 .
 clone
-(
-)
-.
-into
 (
 )
 status_tx
@@ -1499,7 +1493,6 @@ RegisterResult
 CTAP2
 (
 a
-_c
 )
 )
 =

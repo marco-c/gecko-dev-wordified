@@ -777,13 +777,6 @@ self
 supports_ctap2
 (
 )
-&
-&
-msg
-.
-is_ctap2_request
-(
-)
 {
 self
 .
