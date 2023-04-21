@@ -59,7 +59,6 @@ MPL
 const
 {
 ExperimentAPI
-NimbusFeatures
 }
 =
 ChromeUtils

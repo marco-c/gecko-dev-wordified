@@ -35,7 +35,6 @@ strict
 ;
 const
 {
-Translation
 TranslationTelemetry
 }
 =

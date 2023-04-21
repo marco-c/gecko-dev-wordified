@@ -72,7 +72,6 @@ implementation
 .
 const
 {
-Translation
 TranslationParent
 }
 =

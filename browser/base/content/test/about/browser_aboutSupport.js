@@ -36,7 +36,6 @@ strict
 const
 {
 ExperimentAPI
-NimbusFeatures
 }
 =
 ChromeUtils
