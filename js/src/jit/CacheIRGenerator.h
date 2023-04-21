@@ -257,6 +257,9 @@ namespace
 js
 {
 class
+BoundFunctionObject
+;
+class
 NativeObject
 ;
 class
@@ -2580,6 +2583,17 @@ AttachDecision
 tryAttachCallHook
 (
 HandleObject
+calleeObj
+)
+;
+AttachDecision
+tryAttachBoundFunction
+(
+Handle
+<
+BoundFunctionObject
+*
+>
 calleeObj
 )
 ;
