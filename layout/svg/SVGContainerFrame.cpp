@@ -1640,10 +1640,6 @@ aTransform
 imgDrawingParams
 &
 aImgParams
-const
-nsIntRect
-*
-aDirtyRect
 )
 {
 NS_ASSERTION
@@ -1890,7 +1886,6 @@ kid
 aContext
 m
 aImgParams
-aDirtyRect
 )
 ;
 }

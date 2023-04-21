@@ -5491,10 +5491,6 @@ aTransform
 imgDrawingParams
 &
 aImgParams
-const
-nsIntRect
-*
-aDirtyRect
 )
 {
 NS_ASSERTION
@@ -5564,7 +5560,6 @@ PaintSVG
 aContext
 aTransform
 aImgParams
-aDirtyRect
 )
 ;
 }

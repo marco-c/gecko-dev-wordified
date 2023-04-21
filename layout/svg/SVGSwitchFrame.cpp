@@ -370,12 +370,6 @@ aTransform
 imgDrawingParams
 &
 aImgParams
-const
-nsIntRect
-*
-aDirtyRect
-=
-nullptr
 )
 override
 ;
@@ -674,10 +668,6 @@ aTransform
 imgDrawingParams
 &
 aImgParams
-const
-nsIntRect
-*
-aDirtyRect
 )
 {
 NS_ASSERTION
@@ -775,7 +765,6 @@ kid
 aContext
 tm
 aImgParams
-aDirtyRect
 )
 ;
 }

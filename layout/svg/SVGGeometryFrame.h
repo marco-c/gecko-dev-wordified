@@ -492,12 +492,6 @@ aTransform
 imgDrawingParams
 &
 aImgParams
-const
-nsIntRect
-*
-aDirtyRect
-=
-nullptr
 )
 override
 ;
