@@ -2676,10 +2676,10 @@ mCanBeAvailable
 =
 false
 ;
-bool
-mHasWarnedNotAvailable
+uint8_t
+mNumQueriesBeforeFirstFrameBoundary
 =
-false
+0
 ;
 bool
 mSignaled
