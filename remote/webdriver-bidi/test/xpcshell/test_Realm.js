@@ -63,7 +63,7 @@ mjs
 "
 )
 ;
-add_test
+add_task
 (
 function
 test_id
@@ -138,14 +138,10 @@ different
 "
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_handleObjectMap
@@ -516,10 +512,6 @@ undefined
 as
 well
 "
-)
-;
-run_next_test
-(
 )
 ;
 }

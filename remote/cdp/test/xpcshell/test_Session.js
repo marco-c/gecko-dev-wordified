@@ -141,7 +141,7 @@ sendAsyncMessage
 ;
 }
 }
-add_test
+add_task
 (
 function
 test_Session_destructor
@@ -196,10 +196,6 @@ domains
 .
 size
 0
-)
-;
-run_next_test
-(
 )
 ;
 }

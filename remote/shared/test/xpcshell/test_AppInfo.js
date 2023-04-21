@@ -105,7 +105,7 @@ appinfo
 is
 not
 available
-add_test
+add_task
 (
 function
 test_custom_properties
@@ -171,10 +171,6 @@ type
 )
 ;
 }
-run_next_test
-(
-)
-;
 }
 )
 ;
