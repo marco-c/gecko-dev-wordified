@@ -12910,6 +12910,19 @@ replyEnum
 "
 REPLY
 "
+        
+prioEnum
+=
+cppPriorityList
+[
+md
+.
+decl
+.
+type
+.
+replyPrio
+]
     
 else
 :
@@ -12935,17 +12948,7 @@ replyEnum
 "
 NOT_REPLY
 "
-    
-nested
-=
-md
-.
-decl
-.
-type
-.
-nested
-    
+        
 prioEnum
 =
 cppPriorityList
@@ -12958,6 +12961,16 @@ type
 .
 prio
 ]
+    
+nested
+=
+md
+.
+decl
+.
+type
+.
+nested
     
 compress
 =
