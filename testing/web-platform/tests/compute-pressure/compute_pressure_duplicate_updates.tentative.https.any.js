@@ -27,6 +27,15 @@ pressure
 helpers
 .
 js
+/
+/
+META
+:
+global
+=
+window
+dedicatedworker
+sharedworker
 '
 use
 strict
