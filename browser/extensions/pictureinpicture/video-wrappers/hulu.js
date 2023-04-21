@@ -223,14 +223,6 @@ text
 =
 container
 .
-querySelector
-(
-"
-.
-CaptionBox
-"
-)
-.
 innerText
 ;
 updateCaptionsFunction
