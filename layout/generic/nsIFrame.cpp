@@ -50440,6 +50440,9 @@ GetRegisteredClosestCommonInclusiveAncestor
 if
 (
 commonAncestorNode
+&
+&
+commonAncestorNode
 -
 >
 IsInclusiveDescendantOf
