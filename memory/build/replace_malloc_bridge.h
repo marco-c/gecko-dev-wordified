@@ -241,7 +241,7 @@ derived
 class
 and
 a
-replace_get_bridge
+get_bridge
 function
 /
 /
