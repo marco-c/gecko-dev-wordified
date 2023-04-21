@@ -7956,7 +7956,7 @@ if
 peers_
 -
 >
-size
+GetKnownSize
 (
 )
 <
@@ -7974,6 +7974,18 @@ key
 receiver
 )
 {
+/
+/
+TODO
+(
+titovartem
+)
+:
+remove
+this
+special
+case
+.
 return
 stream_label
 ;
