@@ -994,6 +994,7 @@ const
 {
 dispatch
 getState
+sourceMapLoader
 }
 =
 thunkArgs
@@ -1014,8 +1015,11 @@ mappedLocation
 await
 getMappedLocation
 (
+getState
+(
+)
+sourceMapLoader
 location
-thunkArgs
 )
 ;
 return
