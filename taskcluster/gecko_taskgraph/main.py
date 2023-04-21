@@ -2711,9 +2711,16 @@ split
 .
 endswith
 (
+                
+(
 "
 taskgraph
 "
+"
+mozbuild
+"
+)
+            
 )
 :
                 
