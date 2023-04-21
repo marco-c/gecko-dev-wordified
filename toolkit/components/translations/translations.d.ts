@@ -1411,7 +1411,7 @@ bergamotWasmArrayBuffer
 ArrayBuffer
 languageModelFiles
 :
-LanguageModelFiles
+LanguageTranslationModelFiles
 [
 ]
 }
