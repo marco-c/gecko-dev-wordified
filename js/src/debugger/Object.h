@@ -1318,6 +1318,12 @@ isBoundFunction
 const
 ;
 bool
+isDebuggeeBoundFunction
+(
+)
+const
+;
+bool
 isArrowFunction
 (
 )
