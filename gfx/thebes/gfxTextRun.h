@@ -4518,11 +4518,6 @@ Clear
 ;
 }
 void
-SortGlyphRuns
-(
-)
-;
-void
 SanitizeGlyphRuns
 (
 )
