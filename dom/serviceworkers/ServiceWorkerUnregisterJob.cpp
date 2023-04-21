@@ -284,8 +284,6 @@ const
 nsACString
 &
 aScope
-bool
-aSendToParent
 )
 :
 ServiceWorkerJob
@@ -303,10 +301,6 @@ _ns
 mResult
 (
 false
-)
-mSendToParent
-(
-aSendToParent
 )
 {
 }
@@ -708,11 +702,6 @@ down
 the
 browser
 .
-if
-(
-mSendToParent
-)
-{
 swm
 -
 >
@@ -722,7 +711,6 @@ mPrincipal
 mScope
 )
 ;
-}
 swm
 -
 >
