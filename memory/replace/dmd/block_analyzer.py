@@ -1107,11 +1107,7 @@ else
 "
 "
             
-sys
-.
-stdout
-.
-write
+print
 (
                 
 "
@@ -1150,10 +1146,6 @@ r
             
 )
             
-print
-(
-)
-            
 print_trace_segment
 (
 args
@@ -1166,6 +1158,8 @@ r
             
 print
 (
+"
+"
 )
         
 if
