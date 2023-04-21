@@ -806,6 +806,12 @@ tag
 )
 const
 ;
+uintptr_t
+tagUnchecked
+(
+)
+const
+;
 template
 <
 typename
@@ -1360,6 +1366,14 @@ const
 size_t
 wordCountForCurrentColor
 (
+)
+const
+;
+bool
+indexIsEntryBase
+(
+size_t
+index
 )
 const
 ;
