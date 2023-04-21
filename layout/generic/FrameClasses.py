@@ -709,17 +709,6 @@ NOT_LEAF
 Frame
 (
 "
-nsMenuBarFrame
-"
-"
-Box
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsMenuPopupFrame
 "
 "

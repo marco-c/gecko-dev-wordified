@@ -198,6 +198,11 @@ XULFrameElement
 h
 "
 "
+XULMenuBarElement
+.
+h
+"
+"
 XULMenuElement
 .
 h
@@ -242,6 +247,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+MenuBarListener
+.
+cpp
+"
 "
 nsXULCommandDispatcher
 .
@@ -294,6 +304,11 @@ cpp
 "
 "
 XULFrameElement
+.
+cpp
+"
+"
+XULMenuBarElement
 .
 cpp
 "

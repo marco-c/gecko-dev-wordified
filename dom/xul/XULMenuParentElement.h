@@ -306,6 +306,14 @@ aDoAction
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+HandleEnterKeyPress
+(
+WidgetEvent
+&
+)
+;
 NS_IMPL_FROMNODE_HELPER
 (
 XULMenuParentElement
