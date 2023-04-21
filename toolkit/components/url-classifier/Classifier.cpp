@@ -888,7 +888,6 @@ DEFAULT_THREAD_TIMEOUT_MS
 Classifier
 Update
 "
-_ns
 LazyIdleThread
 :
 :
@@ -12097,13 +12096,11 @@ ShutdownHasStarted
 mUpdateInterrupted
 &
 &
-(
-NS_GetCurrentThread
-(
-)
-=
-=
 mUpdateThread
+-
+>
+IsOnCurrentThread
+(
 )
 )
 ;
