@@ -1237,7 +1237,7 @@ CallIndirectIdKind
 Global
 moduleEnv
 .
-offsetOfTypeId
+offsetOfTypeDef
 (
 funcTypeIndex
 )
