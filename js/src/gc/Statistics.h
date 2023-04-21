@@ -1786,8 +1786,6 @@ gc
 :
 State
 initialState
-size_t
-parallelMarkInterruptions
 )
 ;
 SliceBudget
@@ -1877,17 +1875,6 @@ totalParallelTimes
 PhaseKindTimes
 maxParallelTimes
 ;
-size_t
-parallelMarkInterruptions
-;
-/
-/
-todo
-:
-bump
-to
-later
-patch
 TimeDuration
 duration
 (
