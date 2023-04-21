@@ -307,6 +307,12 @@ ComputeTextScaleFactor
 (
 )
 ;
+static
+bool
+ComputeTransparencyEffects
+(
+)
+;
 protected
 :
 ~
