@@ -168,6 +168,13 @@ ErrorHandler
 .
 h
 "
+#
+include
+"
+SharedSection
+.
+h
+"
 using
 GlobalInitializerFn
 =

@@ -115,9 +115,6 @@ MPL
 *
 /
 #
-define
-MOZ_USE_LAUNCHER_ERROR
-#
 include
 "
 LauncherProcessWin

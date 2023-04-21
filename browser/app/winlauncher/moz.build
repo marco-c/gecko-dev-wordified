@@ -322,6 +322,14 @@ CONFIG
 [
 var
 ]
+DEFINES
+[
+"
+MOZ_USE_LAUNCHER_ERROR
+"
+]
+=
+1
 DisableStlWrapping
 (
 )
@@ -345,6 +353,3 @@ Launcher
 Process
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
