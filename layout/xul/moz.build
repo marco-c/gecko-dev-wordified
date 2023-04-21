@@ -173,6 +173,11 @@ UNIFIED_SOURCES
 =
 [
 "
+MiddleCroppingLabelFrame
+.
+cpp
+"
+"
 nsBox
 .
 cpp
@@ -214,11 +219,6 @@ cpp
 "
 "
 nsSplitterFrame
-.
-cpp
-"
-"
-nsTextBoxFrame
 .
 cpp
 "

@@ -1281,6 +1281,17 @@ NOT_LEAF
 Frame
 (
 "
+MiddleCroppingLabelFrame
+"
+"
+MiddleCroppingLabel
+"
+LEAF
+)
+    
+Frame
+(
+"
 SVGViewFrame
 "
 "
@@ -1364,17 +1375,6 @@ nsTableRowGroupFrame
 TableRowGroup
 "
 NOT_LEAF
-)
-    
-Frame
-(
-"
-nsTextBoxFrame
-"
-"
-LeafBox
-"
-LEAF
 )
     
 Frame
