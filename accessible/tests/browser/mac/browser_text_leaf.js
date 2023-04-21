@@ -456,7 +456,7 @@ is
 str
 "
 lo
-this
+th
 "
 "
 AXStringForRange
