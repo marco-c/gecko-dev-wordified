@@ -178,8 +178,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 /
@@ -6949,12 +6949,10 @@ return
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx
 #
 endif
 /
