@@ -266,6 +266,15 @@ iframes
 "
 )
 ;
+promise_test
+(
+async
+(
+t
+)
+=
+>
+{
 /
 /
 Finally
@@ -282,6 +291,7 @@ cross
 origin
 iframe
 .
+await
 RunTestsInIFrame
 (
 '
@@ -326,6 +336,13 @@ https
 .
 html
 '
+)
+;
+}
+"
+IFrame
+tests
+"
 )
 ;
 return
