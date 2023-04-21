@@ -246,7 +246,7 @@ preflight
 :
 PreflightBehavior
 .
-success
+optionalSuccess
 (
 token
 (
@@ -363,7 +363,7 @@ preflight
 :
 PreflightBehavior
 .
-success
+optionalSuccess
 (
 token
 (
