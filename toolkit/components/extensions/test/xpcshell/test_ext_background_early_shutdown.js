@@ -965,15 +965,15 @@ page
 load
 .
 let
-browserLoadURI
+browserFixupAndLoadURIString
 =
 browser
 .
-loadURI
+fixupAndLoadURIString
 ;
 browser
 .
-loadURI
+fixupAndLoadURIString
 =
 function
 (
@@ -1040,7 +1040,7 @@ about
 blank
 "
 ;
-browserLoadURI
+browserFixupAndLoadURIString
 .
 apply
 (

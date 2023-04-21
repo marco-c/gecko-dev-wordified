@@ -460,7 +460,7 @@ url
 ;
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 url
 {

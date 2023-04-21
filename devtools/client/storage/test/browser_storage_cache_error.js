@@ -111,7 +111,7 @@ gBrowser
 selectedBrowser
 ;
 const
-systemPrincipal
+triggeringPrincipal
 =
 Services
 .
@@ -125,6 +125,12 @@ tab
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 ALT_DOMAIN_SECURED
 +
 "
@@ -136,10 +142,9 @@ error
 .
 html
 "
+)
 {
 triggeringPrincipal
-:
-systemPrincipal
 }
 )
 ;
