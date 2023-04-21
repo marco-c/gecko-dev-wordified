@@ -2007,6 +2007,15 @@ GetIsAppTab
 ;
 txn
 .
+SetHasSiblings
+(
+GetHasSiblings
+(
+)
+)
+;
+txn
+.
 SetHistoryID
 (
 GetHistoryID
