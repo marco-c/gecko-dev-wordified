@@ -1190,7 +1190,7 @@ uint32_t
 aLength
 uint32_t
 &
-aSaneLength
+aSanitaryLength
 gfxUserFontType
 &
 aFontType
@@ -1246,7 +1246,7 @@ if
 lengthHint
 )
 {
-aSaneLength
+aSanitaryLength
 =
 0
 ;
@@ -1294,7 +1294,7 @@ so
 discard
 it
 .
-aSaneLength
+aSanitaryLength
 =
 0
 ;
@@ -1302,7 +1302,7 @@ return
 nullptr
 ;
 }
-aSaneLength
+aSanitaryLength
 =
 output
 .
@@ -4213,7 +4213,7 @@ left
 unchanged
 .
 uint32_t
-saneLen
+sanitaryLen
 ;
 gfxUserFontType
 fontType
@@ -4227,13 +4227,13 @@ messages
 const
 uint8_t
 *
-saneData
+sanitaryData
 =
 SanitizeOpenTypeData
 (
 aFontData
 aLength
-saneLen
+sanitaryLen
 fontType
 messages
 )
@@ -4245,8 +4245,8 @@ aSrcIndex
 aFontData
 aLength
 fontType
-saneData
-saneLen
+sanitaryData
+sanitaryLen
 std
 :
 :
@@ -4287,7 +4287,7 @@ NS_IsMainThread
 )
 ;
 uint32_t
-saneLen
+sanitaryLen
 ;
 gfxUserFontType
 fontType
@@ -4301,13 +4301,13 @@ messages
 const
 uint8_t
 *
-saneData
+sanitaryData
 =
 SanitizeOpenTypeData
 (
 aFontData
 aLength
-saneLen
+sanitaryLen
 fontType
 messages
 )
@@ -4358,8 +4358,8 @@ aSrcIndex
 aFontData
 aLength
 fontType
-saneData
-saneLen
+sanitaryData
+sanitaryLen
 std
 :
 :

@@ -4367,7 +4367,7 @@ uint32_t
 aLength
 uint32_t
 &
-aSaneLength
+aSanitaryLength
 gfxUserFontType
 &
 aFontType

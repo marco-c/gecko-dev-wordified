@@ -3111,7 +3111,7 @@ Fall
 back
 to
 something
-sane
+reasonable
 dpi
 =
 96
