@@ -1082,6 +1082,13 @@ mozilla
 ;
 using
 namespace
+mozilla
+:
+:
+dom
+;
+using
+namespace
 JS
 ;
 using
