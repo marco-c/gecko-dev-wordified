@@ -580,6 +580,20 @@ remote
 "
 remote
 "
+        
+"
+mochitest
+-
+browser
+-
+media
+"
+:
+"
+media
+-
+bc
+"
     
 }
     
@@ -621,6 +635,27 @@ subsuite
 =
 "
 a11y
+"
+:
+        
+args
+.
+flavor
+=
+"
+browser
+"
+    
+if
+args
+.
+subsuite
+=
+=
+"
+media
+-
+bc
 "
 :
         
