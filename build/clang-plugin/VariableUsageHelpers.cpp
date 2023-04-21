@@ -257,10 +257,7 @@ BlockItem
 Block
 )
 {
-Optional
-<
-CFGStmt
->
+auto
 CFGStatement
 =
 BlockItem
