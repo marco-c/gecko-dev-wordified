@@ -275,7 +275,10 @@ const
 nsAString
 &
 aTitle
-int16_t
+nsIFilePicker
+:
+:
+Mode
 aMode
 )
 override

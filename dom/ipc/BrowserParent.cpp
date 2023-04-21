@@ -8129,7 +8129,10 @@ nsString
 &
 aTitle
 const
-int16_t
+nsIFilePicker
+:
+:
+Mode
 &
 aMode
 )

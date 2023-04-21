@@ -274,6 +274,13 @@ h
 #
 include
 "
+nsIFilePicker
+.
+h
+"
+#
+include
+"
 nsIRemoteTab
 .
 h
@@ -3368,7 +3375,10 @@ nsString
 &
 aTitle
 const
-int16_t
+nsIFilePicker
+:
+:
+Mode
 &
 aMode
 )
