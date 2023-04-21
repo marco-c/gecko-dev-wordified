@@ -3518,5 +3518,12 @@ attribute
 AString
 classicScriptHintCharset
 ;
+[
+must_use
+]
+attribute
+AString
+documentCharacterSet
+;
 }
 ;
