@@ -2126,6 +2126,7 @@ fired
 ;
 r
 (
+null
 )
 ;
 }
@@ -2145,6 +2146,18 @@ race
 loaded_entry
 timeout
 ]
+)
+;
+assert_not_equals
+(
+entry
+null
+'
+No
+entry
+was
+recieved
+'
 )
 ;
 run_test
