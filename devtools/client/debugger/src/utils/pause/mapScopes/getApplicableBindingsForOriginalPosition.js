@@ -103,9 +103,6 @@ from
 .
 .
 /
-.
-.
-/
 source
 -
 maps
