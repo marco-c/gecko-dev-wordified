@@ -355,6 +355,9 @@ bool
 disableRedundantShapeGuards
 ;
 bool
+disableRedundantGCBarriers
+;
+bool
 disableBailoutLoopCheck
 ;
 bool
