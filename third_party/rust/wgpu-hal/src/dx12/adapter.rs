@@ -3036,6 +3036,15 @@ Tfc
 MULTISAMPLE_X8
 )
 ;
+set_sample_count
+(
+16
+Tfc
+:
+:
+MULTISAMPLE_X16
+)
+;
 caps
 }
 unsafe

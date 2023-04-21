@@ -5791,6 +5791,14 @@ TextureFormatFeatureFlags
 :
 :
 MULTISAMPLE_X8
+|
+wgt
+:
+:
+TextureFormatFeatureFlags
+:
+:
+MULTISAMPLE_X16
 )
 {
 return
