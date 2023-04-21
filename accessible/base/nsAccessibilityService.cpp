@@ -10087,15 +10087,6 @@ frameType
 LayoutFrameType
 :
 :
-Box
-|
-|
-frameType
-=
-=
-LayoutFrameType
-:
-:
 FlexContainer
 |
 |

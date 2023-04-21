@@ -1547,14 +1547,6 @@ collapse
 -
 moz
 -
-box
--
-layout
-"
-"
--
-moz
--
 top
 -
 layer
