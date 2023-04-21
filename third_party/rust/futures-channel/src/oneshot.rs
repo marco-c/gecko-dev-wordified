@@ -3523,11 +3523,6 @@ drop_tx
 impl
 <
 T
-:
-fmt
-:
-:
-Debug
 >
 fmt
 :
@@ -4236,11 +4231,6 @@ drop_rx
 impl
 <
 T
-:
-fmt
-:
-:
-Debug
 >
 fmt
 :

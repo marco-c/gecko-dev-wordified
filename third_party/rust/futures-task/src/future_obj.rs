@@ -1283,6 +1283,16 @@ called
 with
 it
 .
+#
+[
+allow
+(
+clippy
+:
+:
+unnecessary_safety_doc
+)
+]
 fn
 into_raw
 (

@@ -585,13 +585,6 @@ or
 not
 Inconsistent
 }
-#
-[
-derive
-(
-Debug
-)
-]
 struct
 Node
 <
@@ -661,13 +654,6 @@ are
 allowed
 )
 .
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 (
 super
