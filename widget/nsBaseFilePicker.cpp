@@ -542,7 +542,10 @@ it
 s
 done
 .
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 result
 =
 nsIFilePicker

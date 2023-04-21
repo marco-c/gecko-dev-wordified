@@ -316,7 +316,10 @@ nsFilePicker
 nsresult
 Show
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturn
 )
@@ -393,7 +396,10 @@ mFiles
 int16_t
 mSelectedType
 ;
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 mResult
 ;
 bool

@@ -3061,7 +3061,10 @@ nsFilePickerShownCallback
 :
 Done
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 aResult
 )
 {

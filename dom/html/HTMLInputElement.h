@@ -10194,7 +10194,10 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Done
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 aResult
 )
 override

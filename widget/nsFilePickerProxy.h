@@ -424,7 +424,10 @@ MaybeInputData
 &
 aData
 const
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 &
 aResult
 )
@@ -451,7 +454,10 @@ override
 nsresult
 Show
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturn
 )

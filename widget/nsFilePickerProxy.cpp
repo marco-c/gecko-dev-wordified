@@ -589,7 +589,10 @@ nsFilePickerProxy
 :
 Show
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturn
 )
@@ -689,7 +692,10 @@ MaybeInputData
 &
 aData
 const
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 &
 aResult
 )

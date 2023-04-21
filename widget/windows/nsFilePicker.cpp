@@ -2182,7 +2182,10 @@ nsFilePicker
 :
 ShowW
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturnVal
 )
@@ -2358,7 +2361,10 @@ RememberLastUsedDirectory
 (
 )
 ;
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 retValue
 =
 returnOK
@@ -2457,7 +2463,10 @@ nsFilePicker
 :
 Show
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturnVal
 )

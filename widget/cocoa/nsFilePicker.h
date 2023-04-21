@@ -150,6 +150,12 @@ nsFilePicker
 (
 )
 ;
+using
+nsIFilePicker
+:
+:
+ResultCode
+;
 NS_DECL_ISUPPORTS
 /
 /
@@ -325,7 +331,7 @@ override
 nsresult
 Show
 (
-int16_t
+ResultCode
 *
 _retval
 )
@@ -376,7 +382,7 @@ returnOK
 as
 result
 .
-int16_t
+ResultCode
 GetLocalFiles
 (
 bool
@@ -389,7 +395,7 @@ nsIFile
 outFiles
 )
 ;
-int16_t
+ResultCode
 GetLocalFolder
 (
 nsIFile
@@ -398,7 +404,7 @@ nsIFile
 outFile
 )
 ;
-int16_t
+ResultCode
 PutLocalFile
 (
 nsIFile

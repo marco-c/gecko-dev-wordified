@@ -266,7 +266,10 @@ FilePickerShownCallback
 :
 Done
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 aResult
 )
 {
@@ -1160,7 +1163,10 @@ FilePickerParent
 :
 Done
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 aResult
 )
 {

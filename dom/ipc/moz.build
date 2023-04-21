@@ -310,6 +310,11 @@ EffectsInfo
 h
 "
 "
+FilePickerMessageUtils
+.
+h
+"
+"
 FilePickerParent
 .
 h

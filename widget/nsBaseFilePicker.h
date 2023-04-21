@@ -383,7 +383,10 @@ virtual
 nsresult
 Show
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 _retval
 )

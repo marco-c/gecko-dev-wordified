@@ -381,7 +381,10 @@ override
 nsresult
 Show
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturnVal
 )
@@ -390,7 +393,10 @@ override
 nsresult
 ShowW
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturnVal
 )
