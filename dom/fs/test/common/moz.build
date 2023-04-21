@@ -128,6 +128,11 @@ test_basics
 js
 "
 "
+test_fileSystemDirectoryHandle
+.
+js
+"
+"
 test_syncAccessHandle
 .
 js
