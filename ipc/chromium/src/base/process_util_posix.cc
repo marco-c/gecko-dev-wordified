@@ -400,6 +400,12 @@ define
 HAVE_WAITID
 #
 endif
+const
+int
+kMicrosecondsPerSecond
+=
+1000000
+;
 namespace
 base
 {

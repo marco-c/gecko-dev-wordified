@@ -176,13 +176,6 @@ nsHashtablesFwd
 .
 h
 "
-#
-include
-"
-nsdefs
-.
-h
-"
 namespace
 mozilla
 :

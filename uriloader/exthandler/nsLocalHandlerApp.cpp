@@ -126,13 +126,6 @@ nsIProcess
 .
 h
 "
-#
-include
-"
-nsComponentManagerUtils
-.
-h
-"
 /
 /
 XXX

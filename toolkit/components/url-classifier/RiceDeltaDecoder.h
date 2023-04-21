@@ -62,16 +62,6 @@ RICE_DELTA_DECODER_H
 #
 define
 RICE_DELTA_DECODER_H
-#
-include
-<
-cstddef
->
-#
-include
-<
-cstdint
->
 namespace
 mozilla
 {

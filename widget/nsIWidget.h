@@ -130,13 +130,6 @@ cstdint
 #
 include
 "
-imgIContainer
-.
-h
-"
-#
-include
-"
 ErrorList
 .
 h
@@ -422,6 +415,9 @@ nsIBidiKeyboard
 ;
 class
 nsIRollupListener
+;
+class
+imgIContainer
 ;
 class
 nsIContent

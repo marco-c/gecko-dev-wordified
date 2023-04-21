@@ -252,9 +252,6 @@ mozilla
 :
 LogLevel
 ;
-#
-ifdef
-DEBUG
 static
 mozilla
 :
@@ -267,8 +264,6 @@ nsSound
 "
 )
 ;
-#
-endif
 /
 /
 Hackaround

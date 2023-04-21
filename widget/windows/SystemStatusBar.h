@@ -106,15 +106,6 @@ nsISystemStatusBar
 .
 h
 "
-#
-include
-"
-mozilla
-/
-LinkedList
-.
-h
-"
 namespace
 mozilla
 :

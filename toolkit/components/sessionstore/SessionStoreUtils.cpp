@@ -175,15 +175,6 @@ include
 "
 mozilla
 /
-BasePrincipal
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresShell
 .
 h

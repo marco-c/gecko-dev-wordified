@@ -120,13 +120,6 @@ nsIWindowWatcher
 .
 h
 "
-#
-include
-<
-windef
-.
-h
->
 class
 nsIPrintSettings
 ;
