@@ -288,6 +288,13 @@ height
 )
 ;
 void
+SetUseDamageRegion
+(
+bool
+use_damage_region
+)
+;
+void
 SetObserver
 (
 SharedScreenCastStream
