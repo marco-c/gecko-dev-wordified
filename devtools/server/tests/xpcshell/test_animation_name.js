@@ -552,6 +552,7 @@ key
 const
 actor
 =
+new
 AnimationPlayerActor
 (
 {

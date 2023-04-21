@@ -1042,6 +1042,7 @@ this
 .
 walker
 =
+new
 WalkerActor
 (
 this
@@ -1335,6 +1336,7 @@ walker
 const
 pageStyle
 =
+new
 PageStyleActor
 (
 this
@@ -1380,6 +1382,7 @@ this
 .
 _compatibility
 =
+new
 CompatibilityActor
 (
 this
@@ -1524,6 +1527,7 @@ typeName
 const
 highlighterActor
 =
+new
 CustomHighlighterActor
 (
 this
@@ -1728,6 +1732,7 @@ return
 {
 data
 :
+new
 LongStringActor
 (
 this

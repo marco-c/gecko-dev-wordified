@@ -3453,6 +3453,7 @@ return
 {
 data
 :
+new
 LongStringActor
 (
 this
@@ -4030,6 +4031,7 @@ return
 {
 data
 :
+new
 LongStringActor
 (
 this

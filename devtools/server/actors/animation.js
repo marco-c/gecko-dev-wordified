@@ -4074,6 +4074,7 @@ animation
 const
 actor
 =
+new
 AnimationPlayerActor
 (
 this
@@ -4695,6 +4696,7 @@ player
 const
 actor
 =
+new
 AnimationPlayerActor
 (
 this

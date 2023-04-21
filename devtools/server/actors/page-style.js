@@ -1240,6 +1240,7 @@ item
 const
 actor
 =
+new
 StyleRuleActor
 (
 this
@@ -2314,6 +2315,7 @@ rule
 const
 styleActor
 =
+new
 StyleRuleActor
 (
 this
@@ -2521,6 +2523,7 @@ preview
 {
 data
 :
+new
 LongStringActor
 (
 this

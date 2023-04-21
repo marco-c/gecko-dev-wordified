@@ -9991,6 +9991,7 @@ innerHTML
 ;
 }
 return
+new
 LongStringActor
 (
 this
@@ -10181,6 +10182,7 @@ outerHTML
 ;
 }
 return
+new
 LongStringActor
 (
 this
