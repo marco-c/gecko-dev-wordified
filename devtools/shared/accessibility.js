@@ -515,12 +515,11 @@ b
 a
 }
 =
-colorUtils
+InspectorUtils
 .
 colorToRGBA
 (
 color
-true
 )
 ;
 /
