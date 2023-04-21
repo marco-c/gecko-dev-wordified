@@ -100,7 +100,7 @@ h
 #
 include
 "
-nsIChannel
+nsIHttpChannel
 .
 h
 "
@@ -122,6 +122,13 @@ h
 include
 "
 nsIRedirectResultListener
+.
+h
+"
+#
+include
+"
+nsNetUtil
 .
 h
 "
