@@ -2572,6 +2572,7 @@ features
 +
 =
 "
+centerscreen
 resizable
 =
 no
