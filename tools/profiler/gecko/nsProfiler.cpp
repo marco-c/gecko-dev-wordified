@@ -7372,9 +7372,9 @@ Start
 (
 )
 ;
-if
-(
-!
+auto
+rv
+=
 profiler_stream_json_for_this_process
 (
 *
@@ -7391,6 +7391,14 @@ service
 get
 (
 )
+)
+;
+if
+(
+rv
+.
+isErr
+(
 )
 )
 {

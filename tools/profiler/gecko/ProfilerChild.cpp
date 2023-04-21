@@ -3407,9 +3407,9 @@ Start
 (
 )
 ;
-if
-(
-!
+auto
+rv
+=
 profiler_stream_json_for_this_process
 (
 writer
@@ -3433,6 +3433,14 @@ get
 ProgressLogger
 {
 }
+)
+;
+if
+(
+rv
+.
+isErr
+(
 )
 )
 {
