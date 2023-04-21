@@ -2359,6 +2359,14 @@ nsAtom
 name
 )
 ;
+float
+Gecko_GetScrollbarInlineSize
+(
+const
+nsPresContext
+*
+)
+;
 /
 /
 Incremental
