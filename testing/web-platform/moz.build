@@ -6679,10 +6679,11 @@ BUG_COMPONENT
 =
 (
 "
-Testing
+Remote
+Protocol
 "
 "
-geckodriver
+Marionette
 "
 )
 with
