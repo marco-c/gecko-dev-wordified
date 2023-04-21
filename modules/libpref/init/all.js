@@ -10119,7 +10119,7 @@ invalid
 If
 privacy
 .
-fingerprintingProtection
+resistFingerprintingLite
 is
 enabled
 this
@@ -10142,7 +10142,7 @@ pref
 "
 privacy
 .
-fingerprintingProtection
+resistFingerprintingLite
 .
 overrides
 "
