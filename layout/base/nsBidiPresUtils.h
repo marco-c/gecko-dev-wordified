@@ -1260,15 +1260,6 @@ to
 ProcessText
 .
 *
-param
-aWidth
-The
-width
-returned
-by
-GetWidth
-.
-*
 /
 virtual
 void
@@ -1276,8 +1267,6 @@ DrawText
 (
 nscoord
 aXOffset
-nscoord
-aWidth
 )
 =
 0
