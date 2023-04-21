@@ -988,6 +988,16 @@ for
 cargo
 test
 .
+#
+[
+allow
+(
+clippy
+:
+:
+wrong_self_convention
+)
+]
 pub
 (
 crate

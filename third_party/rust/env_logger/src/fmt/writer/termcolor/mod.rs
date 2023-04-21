@@ -45,7 +45,7 @@ cfg_attr
 feature
 =
 "
-termcolor
+color
 "
 path
 =
@@ -65,7 +65,7 @@ not
 feature
 =
 "
-termcolor
+color
 "
 )
 path

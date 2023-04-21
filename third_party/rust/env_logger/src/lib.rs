@@ -1041,7 +1041,7 @@ though
 it
 can
 be
-overriden
+overridden
 .
 /
 /
@@ -7953,7 +7953,7 @@ they
 aren
 '
 t
-shrinked
+shrunk
 /
 /
 so
@@ -9704,6 +9704,7 @@ Result
 )
 Box
 <
+dyn
 :
 :
 std
