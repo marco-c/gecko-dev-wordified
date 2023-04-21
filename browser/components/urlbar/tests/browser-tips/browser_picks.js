@@ -1006,7 +1006,8 @@ tip
 with
 the
 keyboard
-TAB
+arrow
+down
 to
 select
 the
@@ -1026,7 +1027,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 repeat

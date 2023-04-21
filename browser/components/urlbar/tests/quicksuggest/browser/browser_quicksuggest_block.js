@@ -666,7 +666,8 @@ block
 {
 /
 /
-TAB
+Arrow
+down
 twice
 to
 select
@@ -697,7 +698,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 repeat
@@ -1503,7 +1504,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 repeat
