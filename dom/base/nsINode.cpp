@@ -1456,6 +1456,8 @@ nsSlots
 :
 Unlink
 (
+nsINode
+&
 )
 {
 if
@@ -9537,6 +9539,8 @@ ReleaseWrapper
 tmp
 )
 ;
+if
+(
 nsSlots
 *
 slots
@@ -9547,10 +9551,6 @@ tmp
 GetExistingSlots
 (
 )
-;
-if
-(
-slots
 )
 {
 slots
@@ -9558,6 +9558,8 @@ slots
 >
 Unlink
 (
+*
+tmp
 )
 ;
 }

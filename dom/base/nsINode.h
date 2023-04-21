@@ -8910,6 +8910,8 @@ virtual
 void
 Unlink
 (
+nsINode
+&
 )
 ;
 /
@@ -13359,6 +13361,17 @@ SetMayHaveAnimations
 )
 {
 SetBoolFlag
+(
+ElementHasAnimations
+)
+;
+}
+void
+ClearMayHaveAnimations
+(
+)
+{
+ClearBoolFlag
 (
 ElementHasAnimations
 )
