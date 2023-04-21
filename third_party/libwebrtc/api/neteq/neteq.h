@@ -959,7 +959,7 @@ const
 int
 sample_rate_hz
 =
-16000
+48000
 ;
 /
 /
