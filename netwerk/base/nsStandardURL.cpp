@@ -416,13 +416,6 @@ kThisImplCID
 NS_THIS_STANDARDURL_IMPL_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kStandardURLCID
-NS_STANDARDURL_CID
-)
-;
 /
 /
 This
