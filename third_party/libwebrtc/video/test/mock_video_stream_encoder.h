@@ -216,6 +216,15 @@ MOCK_METHOD
 void
 SendKeyFrame
 (
+const
+std
+:
+:
+vector
+<
+VideoFrameType
+>
+&
 )
 (
 override

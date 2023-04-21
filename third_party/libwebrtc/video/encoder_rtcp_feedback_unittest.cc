@@ -128,6 +128,14 @@ mock_video_stream_encoder
 .
 h
 "
+using
+:
+:
+testing
+:
+:
+_
+;
 namespace
 webrtc
 {
@@ -217,6 +225,7 @@ EXPECT_CALL
 encoder_
 SendKeyFrame
 (
+_
 )
 )
 .
@@ -244,6 +253,7 @@ EXPECT_CALL
 encoder_
 SendKeyFrame
 (
+_
 )
 )
 .
@@ -285,6 +295,7 @@ EXPECT_CALL
 encoder_
 SendKeyFrame
 (
+_
 )
 )
 .
