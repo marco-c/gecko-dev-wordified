@@ -3029,14 +3029,8 @@ aLoadingContext
 nsDocShellLoadState
 *
 aLoadState
-DocumentLoadListener
-*
-aDLL
 bool
 aIsDocumentLoad
-LoadInfo
-*
-aLoadInfo
 )
 {
 /
@@ -4004,9 +3998,7 @@ CheckRecursiveLoad
 (
 loadingContext
 aLoadState
-this
 mIsDocumentLoad
-aLoadInfo
 )
 )
 {
