@@ -2000,9 +2000,6 @@ aUseContext
 ComputedStyle
 *
 aComputedStyle
-bool
-&
-aAllowImageRegions
 imgIContainer
 *
 *
@@ -2073,12 +2070,8 @@ GetImageDestSize
 (
 ComputedStyle
 *
-aComputedStyle
-bool
-useImageRegion
 imgIContainer
 *
-image
 )
 ;
 /
@@ -2099,12 +2092,8 @@ GetImageSourceRect
 (
 ComputedStyle
 *
-aComputedStyle
-bool
-useImageRegion
 imgIContainer
 *
-image
 )
 ;
 /
