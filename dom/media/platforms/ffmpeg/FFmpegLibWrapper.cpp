@@ -453,6 +453,12 @@ AV_FUNC_59
 <
 <
 6
+AV_FUNC_60
+=
+1
+<
+<
+7
 AV_FUNC_AVUTIL_53
 =
 AV_FUNC_53
@@ -488,6 +494,11 @@ AV_FUNC_AVUTIL_59
 AV_FUNC_59
 |
 AV_FUNC_AVUTIL_MASK
+AV_FUNC_AVUTIL_60
+=
+AV_FUNC_60
+|
+AV_FUNC_AVUTIL_MASK
 AV_FUNC_AVCODEC_ALL
 =
 AV_FUNC_53
@@ -503,6 +514,8 @@ AV_FUNC_57
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 AV_FUNC_AVUTIL_ALL
 =
 AV_FUNC_AVCODEC_ALL
@@ -578,6 +591,15 @@ AV_FUNC_59
 ;
 break
 ;
+case
+60
+:
+version
+=
+AV_FUNC_60
+;
+break
+;
 default
 :
 FFMPEG_LOG
@@ -586,7 +608,11 @@ FFMPEG_LOG
 Unknown
 avcodec
 version
+:
+%
+d
 "
+macro
 )
 ;
 Unlink
@@ -956,6 +982,8 @@ avcodec_send_packet
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC
 (
@@ -963,6 +991,8 @@ avcodec_receive_frame
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC
 (
@@ -977,6 +1007,8 @@ AV_FUNC_57
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 )
 AV_FUNC_OPTION
@@ -1022,6 +1054,8 @@ AV_FUNC_AVUTIL_57
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_AVUTIL_59
+|
+AV_FUNC_AVUTIL_60
 )
 )
 AV_FUNC
@@ -1037,6 +1071,8 @@ AV_FUNC_AVUTIL_57
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_AVUTIL_59
+|
+AV_FUNC_AVUTIL_60
 )
 )
 AV_FUNC
@@ -1052,6 +1088,8 @@ AV_FUNC_AVUTIL_57
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_AVUTIL_59
+|
+AV_FUNC_AVUTIL_60
 )
 )
 AV_FUNC
@@ -1075,6 +1113,8 @@ AV_FUNC_AVUTIL_57
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_AVUTIL_59
+|
+AV_FUNC_AVUTIL_60
 )
 )
 AV_FUNC
@@ -1090,6 +1130,8 @@ AV_FUNC_AVUTIL_57
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_AVUTIL_59
+|
+AV_FUNC_AVUTIL_60
 )
 )
 AV_FUNC_OPTION
@@ -1120,6 +1162,8 @@ av_strerror
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_AVUTIL_59
+|
+AV_FUNC_AVUTIL_60
 )
 #
 ifdef
@@ -1130,6 +1174,8 @@ avcodec_get_hw_config
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1137,6 +1183,8 @@ av_codec_iterate
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1144,6 +1192,8 @@ av_codec_is_decoder
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1151,6 +1201,8 @@ av_hwdevice_ctx_init
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1158,6 +1210,8 @@ av_hwdevice_ctx_alloc
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1165,6 +1219,8 @@ av_hwdevice_hwconfig_alloc
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1172,6 +1228,8 @@ av_hwdevice_get_hwframe_constraints
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1179,6 +1237,8 @@ av_hwframe_constraints_free
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1186,6 +1246,8 @@ av_buffer_ref
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1193,6 +1255,8 @@ av_buffer_unref
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1200,6 +1264,8 @@ av_hwframe_transfer_get_formats
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1207,6 +1273,8 @@ av_hwdevice_ctx_create_derived
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1214,6 +1282,8 @@ av_hwframe_ctx_alloc
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1221,6 +1291,8 @@ av_dict_set
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1228,6 +1300,8 @@ av_dict_free
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1235,6 +1309,8 @@ avcodec_get_name
 AV_FUNC_58
 |
 AV_FUNC_59
+|
+AV_FUNC_60
 )
 AV_FUNC_OPTION_SILENT
 (
@@ -1242,6 +1318,8 @@ av_get_pix_fmt_string
 AV_FUNC_AVUTIL_58
 |
 AV_FUNC_AVUTIL_59
+|
+AV_FUNC_AVUTIL_60
 )
 #
 endif
