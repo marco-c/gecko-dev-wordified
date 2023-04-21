@@ -182,7 +182,19 @@ Driver
 long_description
 =
 "
-See
+"
+"
+Note
+marionette_driver
+is
+no
+longer
+supported
+.
+For
+more
+information
+see
 https
 :
 /
@@ -202,6 +214,8 @@ python
 marionette_driver
 .
 html
+"
+"
 "
     
 #
@@ -234,11 +248,9 @@ Development
 Status
 :
 :
-5
+7
 -
-Production
-/
-Stable
+Inactive
 "
         
 "
