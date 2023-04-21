@@ -369,6 +369,7 @@ stats
 if
 (
 result
+?
 .
 hasErrors
 (
