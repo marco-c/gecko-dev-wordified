@@ -79,7 +79,7 @@ LoginManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -92,7 +92,9 @@ modules
 /
 LoginManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

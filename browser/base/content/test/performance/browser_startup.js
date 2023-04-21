@@ -1027,7 +1027,9 @@ modules
 /
 LoginManagerContextMenu
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

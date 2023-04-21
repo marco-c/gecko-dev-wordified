@@ -177,7 +177,7 @@ LoginManagerChild
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -190,7 +190,9 @@ modules
 /
 LoginManagerChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

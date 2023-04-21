@@ -24,7 +24,7 @@ LMP
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -37,7 +37,9 @@ modules
 /
 LoginManagerParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

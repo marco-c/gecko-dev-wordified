@@ -22,7 +22,7 @@ LoginFormFactory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -35,7 +35,9 @@ modules
 /
 LoginFormFactory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -46,7 +48,7 @@ LoginManagerChild
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -59,7 +61,9 @@ modules
 /
 LoginManagerChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

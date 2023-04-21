@@ -80,7 +80,7 @@ LoginHelper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -93,7 +93,9 @@ modules
 /
 LoginHelper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -104,7 +106,7 @@ LoginManagerParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -117,7 +119,9 @@ modules
 /
 LoginManagerParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -128,7 +132,7 @@ LoginTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -141,7 +145,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

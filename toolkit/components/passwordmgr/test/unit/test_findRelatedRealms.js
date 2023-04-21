@@ -39,7 +39,7 @@ LoginRelatedRealmsParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ modules
 /
 LoginRelatedRealms
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

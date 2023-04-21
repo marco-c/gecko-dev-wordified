@@ -22,7 +22,7 @@ PasswordGenerator
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -35,7 +35,9 @@ modules
 /
 PasswordGenerator
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -46,7 +48,7 @@ PasswordRulesManagerParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -59,7 +61,9 @@ modules
 /
 PasswordRulesManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -70,7 +74,7 @@ PasswordRulesParser
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -83,7 +87,9 @@ modules
 /
 PasswordRulesParser
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

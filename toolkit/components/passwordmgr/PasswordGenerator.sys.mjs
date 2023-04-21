@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -130,15 +125,6 @@ reserved
 .
 *
 /
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-PasswordGenerator
-"
-]
-;
 const
 DEFAULT_PASSWORD_LENGTH
 =
@@ -379,6 +365,7 @@ SPECIAL
 ]
 )
 ;
+export
 const
 PasswordGenerator
 =

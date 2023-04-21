@@ -48,7 +48,7 @@ LoginManagerParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -61,7 +61,9 @@ modules
 /
 LoginManagerParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -72,7 +74,7 @@ LoginManagerPrompter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -85,7 +87,9 @@ modules
 /
 LoginManagerPrompter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
