@@ -17394,7 +17394,7 @@ VideoSendStream
 stream_
 -
 >
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 active_layers
 )
@@ -20589,7 +20589,7 @@ Calls
 stream_
 -
 >
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 )
 to

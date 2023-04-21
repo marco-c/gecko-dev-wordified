@@ -1405,7 +1405,7 @@ VideoSendStream
 implementation
 .
 void
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 std
 :
