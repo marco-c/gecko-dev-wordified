@@ -528,7 +528,7 @@ nodiscard
 bool
 lowerCallArguments
 (
-MCall
+MCallBase
 *
 call
 )
