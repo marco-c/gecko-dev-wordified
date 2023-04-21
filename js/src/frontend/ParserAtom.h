@@ -4215,9 +4215,6 @@ length
 TaggedParserAtomIndex
 internJSAtom
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

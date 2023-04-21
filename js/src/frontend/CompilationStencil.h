@@ -2832,9 +2832,6 @@ CompilationInput
 TaggedParserAtomIndex
 internInto
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

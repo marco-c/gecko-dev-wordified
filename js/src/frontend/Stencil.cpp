@@ -1085,9 +1085,6 @@ InputName
 :
 internInto
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1121,7 +1118,6 @@ parserAtoms
 .
 internJSAtom
 (
-cx
 fc
 atomCache
 ptr
@@ -5895,7 +5891,6 @@ name
 .
 internInto
 (
-cx
 fc
 parserAtoms
 atomCache
@@ -6513,7 +6508,6 @@ binding
 .
 internInto
 (
-cx
 fc
 parserAtoms
 input
@@ -9444,7 +9438,6 @@ name
 .
 internInto
 (
-cx
 fc
 parseAtoms
 atomCache
@@ -9912,7 +9905,6 @@ parseAtoms
 .
 internJSAtom
 (
-cx
 fc
 atomCache
 fun
@@ -10414,7 +10406,6 @@ name
 .
 internInto
 (
-cx
 fc
 parseAtoms
 atomCache
@@ -10749,7 +10740,6 @@ parseAtoms
 .
 internJSAtom
 (
-cx
 fc
 atomCache
 name
@@ -11091,7 +11081,6 @@ name
 .
 internInto
 (
-cx
 fc
 parseAtoms
 atomCache
