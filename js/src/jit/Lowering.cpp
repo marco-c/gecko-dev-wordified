@@ -39649,7 +39649,7 @@ object
 (
 )
 )
-useBoxAtStart
+useBoxFixedAtStart
 (
 ins
 -
@@ -39657,8 +39657,10 @@ ins
 index
 (
 )
+CallTempReg1
+CallTempReg2
 )
-useBoxAtStart
+useBoxFixedAtStart
 (
 ins
 -
@@ -39666,6 +39668,8 @@ ins
 value
 (
 )
+CallTempReg3
+CallTempReg4
 )
 tempFixed
 (
