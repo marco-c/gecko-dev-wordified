@@ -5680,7 +5680,10 @@ argDisp
 MoveOperand
 :
 :
-EFFECTIVE_ADDRESS
+Kind
+:
+:
+EffectiveAddress
 )
 MoveOp
 :
