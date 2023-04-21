@@ -130,13 +130,6 @@ h
 #
 include
 "
-VideoTypes
-.
-h
-"
-#
-include
-"
 WebrtcVideoCodecFactory
 .
 h
