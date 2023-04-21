@@ -2517,7 +2517,7 @@ realm2
 remoteReference
 )
 /
-InvalidArgumentError
+NoSuchHandleError
 :
 /
 Got
@@ -2555,7 +2555,7 @@ realm1
 remoteReference
 )
 /
-InvalidArgumentError
+NoSuchHandleError
 :
 /
 Got
