@@ -1887,8 +1887,11 @@ called
 past
 step
 4
-dump
+Assert
+.
+ok
 (
+false
 "
 ERROR
 :
@@ -1901,12 +1904,6 @@ not
 be
 reused
 "
-)
-;
-Assert
-.
-fail
-(
 )
 ;
 }
