@@ -1468,9 +1468,9 @@ domEvent
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -2552,9 +2552,9 @@ if
 viewNode
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Could
@@ -2566,7 +2566,6 @@ with
 id
 :
 "
-+
 aViewId
 )
 ;
@@ -2579,9 +2578,9 @@ if
 aAnchor
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Expected
@@ -2594,7 +2593,6 @@ with
 id
 :
 "
-+
 aViewId
 )
 ;
@@ -3102,9 +3100,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

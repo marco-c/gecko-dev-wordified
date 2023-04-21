@@ -306,9 +306,9 @@ _readAcceptLanguages
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 )
 ;
@@ -1542,9 +1542,9 @@ _buildAvailableLanguageList
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -1745,9 +1745,9 @@ _buildAvailableLanguageList
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

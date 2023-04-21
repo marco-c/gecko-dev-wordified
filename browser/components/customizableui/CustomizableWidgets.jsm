@@ -3329,9 +3329,9 @@ otherWindow
 closed
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Got

@@ -3062,9 +3062,9 @@ enginePromise
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 break
@@ -3382,9 +3382,9 @@ openSuggestionsPanel
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 break

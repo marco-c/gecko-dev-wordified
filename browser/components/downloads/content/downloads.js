@@ -3916,9 +3916,9 @@ refresh
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -7042,9 +7042,9 @@ unblockAndOpenDownload
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -7603,9 +7603,9 @@ refresh
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

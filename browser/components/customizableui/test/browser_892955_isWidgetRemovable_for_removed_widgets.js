@@ -142,9 +142,9 @@ noError
 =
 false
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

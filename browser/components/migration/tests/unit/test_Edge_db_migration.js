@@ -2075,9 +2075,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -3305,9 +3305,9 @@ ex
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -4140,9 +4140,9 @@ ex
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

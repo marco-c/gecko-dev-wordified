@@ -3168,9 +3168,9 @@ window
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

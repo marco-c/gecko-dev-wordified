@@ -269,9 +269,9 @@ loadContentWindow
 url
 }
 ;
-Cu
+console
 .
-reportError
+error
 (
 msg
 )

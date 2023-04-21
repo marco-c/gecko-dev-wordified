@@ -1167,9 +1167,9 @@ complete
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

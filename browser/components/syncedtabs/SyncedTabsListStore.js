@@ -1664,9 +1664,9 @@ updateType
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

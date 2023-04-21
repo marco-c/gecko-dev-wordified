@@ -1902,9 +1902,9 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

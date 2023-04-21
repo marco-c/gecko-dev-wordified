@@ -8705,9 +8705,9 @@ _rebuild
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 return
@@ -10983,9 +10983,9 @@ dataTransfer
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 aEvent

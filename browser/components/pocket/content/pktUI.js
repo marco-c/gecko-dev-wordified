@@ -2702,9 +2702,9 @@ if
 recentWindow
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Pocket

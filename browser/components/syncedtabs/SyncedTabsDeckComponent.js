@@ -635,9 +635,9 @@ syncTabs
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 this
@@ -1069,9 +1069,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -1195,9 +1195,9 @@ panelId
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

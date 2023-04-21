@@ -2177,9 +2177,9 @@ err
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -2343,9 +2343,9 @@ setAsDefaultError
 =
 true
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -2928,9 +2928,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

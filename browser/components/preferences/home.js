@@ -3564,9 +3564,9 @@ join
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -3635,9 +3635,9 @@ join
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -3824,9 +3824,9 @@ value
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
