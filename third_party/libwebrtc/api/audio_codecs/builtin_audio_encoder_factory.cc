@@ -178,19 +178,6 @@ nogncheck
 #
 endif
 #
-include
-"
-api
-/
-audio_codecs
-/
-isac
-/
-audio_encoder_isac
-.
-h
-"
-#
 if
 WEBRTC_USE_BUILTIN_OPUS
 #
@@ -411,7 +398,6 @@ AudioEncoderMultiChannelOpus
 >
 #
 endif
-AudioEncoderIsac
 AudioEncoderG722
 #
 if
