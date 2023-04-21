@@ -251,7 +251,6 @@ js
 const
 {
 Svc
-Utils
 }
 =
 ChromeUtils
