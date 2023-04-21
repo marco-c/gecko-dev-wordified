@@ -791,33 +791,6 @@ pytest
 .
 mark
 .
-parametrize
-(
-    
-"
-method
-"
-    
-[
-        
-"
-GET
-"
-        
-"
-HEAD
-"
-        
-"
-OPTIONS
-"
-    
-]
-)
-pytest
-.
-mark
-.
 asyncio
 async
 def
@@ -830,7 +803,6 @@ wait_for_event
 url
 fetch
 setup_network_test
-method
 )
 :
     
@@ -915,9 +887,6 @@ await
 fetch
 (
 revalidate_url
-method
-=
-method
 )
     
 await
@@ -939,7 +908,9 @@ expected_request
 method
 "
 :
-method
+"
+GET
+"
 "
 url
 "
@@ -1037,9 +1008,6 @@ await
 fetch
 (
 revalidate_url
-method
-=
-method
 headers
 =
 {
