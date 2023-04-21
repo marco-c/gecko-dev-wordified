@@ -633,6 +633,14 @@ const
 FieldTrialsView
 &
 trials
+absl
+:
+:
+optional
+<
+TimeDelta
+>
+pacer_burst_interval
 )
 :
 clock_
@@ -680,6 +688,7 @@ holdback_packets
 Get
 (
 )
+pacer_burst_interval
 )
 observer_
 (

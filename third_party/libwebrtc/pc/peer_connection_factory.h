@@ -866,6 +866,14 @@ const
 FieldTrialsView
 &
 field_trials
+absl
+:
+:
+optional
+<
+TimeDelta
+>
+pacer_burst_interval
 )
 ;
 rtc

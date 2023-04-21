@@ -1731,6 +1731,11 @@ this
 &
 event_log
 trials
+pacer_burst_interval
+=
+configuration
+.
+pacer_burst_interval
 ]
 {
 return
@@ -1743,6 +1748,7 @@ get
 )
 *
 trials
+pacer_burst_interval
 )
 ;
 }
@@ -2223,6 +2229,14 @@ const
 FieldTrialsView
 &
 field_trials
+absl
+:
+:
+optional
+<
+TimeDelta
+>
+pacer_burst_interval
 )
 {
 RTC_DCHECK_RUN_ON
@@ -2549,6 +2563,12 @@ metronome_
 get
 (
 )
+;
+call_config
+.
+pacer_burst_interval
+=
+pacer_burst_interval
 ;
 return
 std
