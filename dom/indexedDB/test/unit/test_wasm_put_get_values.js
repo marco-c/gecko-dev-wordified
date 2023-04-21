@@ -139,13 +139,9 @@ const
 '
 /
 /
-eslint
+prettier
 -
-disable
--
-next
--
-line
+ignore
 let
 binary
 =

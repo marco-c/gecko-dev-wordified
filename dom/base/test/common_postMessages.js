@@ -1078,13 +1078,9 @@ t
 /
 /
 /
-eslint
+prettier
 -
-disable
--
-next
--
-line
+ignore
 const
 fooModuleCode
 =
