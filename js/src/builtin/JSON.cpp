@@ -7418,7 +7418,10 @@ CharT
 (
 cx
 chars
-JSONParserBase
+JSONParser
+<
+CharT
+>
 :
 :
 ParseType
