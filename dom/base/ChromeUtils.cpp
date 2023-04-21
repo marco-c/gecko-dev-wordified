@@ -11241,11 +11241,6 @@ JSOracleParent
 aParent
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-aParent
-)
-;
 }
 )
 ;
