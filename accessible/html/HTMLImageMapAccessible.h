@@ -179,13 +179,6 @@ override
 /
 HyperLinkAccessible
 virtual
-uint32_t
-AnchorCount
-(
-)
-override
-;
-virtual
 LocalAccessible
 *
 AnchorAt

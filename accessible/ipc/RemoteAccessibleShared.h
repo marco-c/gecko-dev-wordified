@@ -595,14 +595,6 @@ ImageSize
 (
 )
 ;
-uint32_t
-AnchorCount
-(
-bool
-*
-aOk
-)
-;
 void
 AnchorURIAt
 (
