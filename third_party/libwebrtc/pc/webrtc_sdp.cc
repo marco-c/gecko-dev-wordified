@@ -15221,10 +15221,9 @@ message
 )
 ;
 }
-RTC_DCHECK
+RTC_DCHECK_GE
 (
 min_maxptime
->
 max_minptime
 )
 ;
