@@ -6443,6 +6443,8 @@ I
 (
 )
 ;
+/
+/
 const
 auto
 srcOrigin
@@ -6451,6 +6453,15 @@ OriginPos
 :
 :
 TopLeft
+;
+const
+auto
+srcOrigin
+=
+OriginPos
+:
+:
+BottomLeft
 ;
 const
 bool
