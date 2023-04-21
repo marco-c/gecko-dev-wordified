@@ -5709,7 +5709,7 @@ if
 p
 -
 >
-IsSignaledImpendingShutdown
+IsShuttingDown
 (
 )
 )
@@ -6207,7 +6207,7 @@ if
 retval
 -
 >
-IsSignaledImpendingShutdown
+IsShuttingDown
 (
 )
 )
