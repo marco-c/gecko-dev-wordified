@@ -427,6 +427,11 @@ MoveOnlyFunction
 h
 "
 "
+MruCache
+.
+h
+"
+"
 NonDereferenceable
 .
 h
