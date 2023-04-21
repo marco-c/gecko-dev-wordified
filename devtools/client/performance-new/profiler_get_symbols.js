@@ -275,11 +275,6 @@ cachedTextEncoder
 new
 TextEncoder
 (
-'
-utf
--
-8
-'
 )
 ;
 const

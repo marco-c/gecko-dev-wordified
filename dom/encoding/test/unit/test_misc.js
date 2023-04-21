@@ -150,11 +150,6 @@ encoded
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode
@@ -1752,7 +1747,6 @@ encoding
 new
 TextEncoder
 (
-encoding
 )
 .
 encode
@@ -2294,11 +2288,6 @@ ascii_encoded
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode
@@ -2329,7 +2318,6 @@ assert_array_equals
 new
 TextEncoder
 (
-encoding
 )
 .
 encode

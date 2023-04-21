@@ -2562,11 +2562,6 @@ Uint8Array
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode

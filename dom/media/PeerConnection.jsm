@@ -9917,11 +9917,6 @@ byteCounter
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 ;
 if
@@ -9974,11 +9969,6 @@ byteCounter
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 ;
 if

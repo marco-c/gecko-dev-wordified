@@ -1946,9 +1946,6 @@ encoder
 new
 TextEncoder
 (
-"
-utf8
-"
 )
 ;
 const

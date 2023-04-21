@@ -1693,9 +1693,6 @@ encrypted
 new
 TextEncoder
 (
-"
-utf8
-"
 )
 .
 encode

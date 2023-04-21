@@ -4381,9 +4381,6 @@ context
 new
 TextEncoder
 (
-"
-utf8
-"
 )
 .
 encode
