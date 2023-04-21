@@ -734,6 +734,9 @@ wr
 TransactionBuilder
 &
 aTxnForImageBridge
+RemoteTextureInfoList
+*
+aList
 )
 ;
 void
@@ -810,14 +813,6 @@ SetWillGenerateFrame
 ;
 bool
 GetAndResetWillGenerateFrame
-(
-)
-;
-UniquePtr
-<
-RemoteTextureInfoList
->
-GetPendingRemoteTextures
 (
 )
 ;
@@ -1296,6 +1291,9 @@ wr
 TransactionBuilder
 &
 aMaybeFastTxn
+RemoteTextureInfoList
+*
+aList
 )
 ;
 Maybe
@@ -1345,6 +1343,9 @@ wr
 TransactionBuilder
 &
 aMaybeFastTxn
+RemoteTextureInfoList
+*
+aList
 )
 ;
 Maybe

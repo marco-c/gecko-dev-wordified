@@ -1975,6 +1975,11 @@ GetWebRenderBridgeParentRef
 (
 )
 ;
+void
+FlushPendingWrTransactionEventsWithWait
+(
+)
+;
 private
 :
 class

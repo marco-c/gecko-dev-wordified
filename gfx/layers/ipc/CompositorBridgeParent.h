@@ -3231,6 +3231,11 @@ return
 mWrBridge
 ;
 }
+void
+FlushPendingWrTransactionEventsWithWait
+(
+)
+;
 private
 :
 void
