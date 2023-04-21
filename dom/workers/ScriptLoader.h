@@ -2135,6 +2135,15 @@ DispatchLoadScripts
 (
 )
 ;
+WorkerScriptType
+GetWorkerScriptType
+(
+)
+{
+return
+mWorkerScriptType
+;
+}
 protected
 :
 nsIURI
