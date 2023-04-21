@@ -108,6 +108,15 @@ browser
 .
 ini
 "
+"
+browser
+/
+datetime
+/
+browser
+.
+ini
+"
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
