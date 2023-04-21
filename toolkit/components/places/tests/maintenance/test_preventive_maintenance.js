@@ -7079,10 +7079,15 @@ PlacesTestUtils
 .
 dumpTable
 (
+{
 db
+table
+:
 "
 moz_bookmarks
 "
+columns
+:
 [
 "
 id
@@ -7094,6 +7099,7 @@ parent
 position
 "
 ]
+}
 )
 ;
 }
@@ -7327,10 +7333,15 @@ PlacesTestUtils
 .
 dumpTable
 (
+{
 db
+table
+:
 "
 moz_bookmarks
 "
+columns
+:
 [
 "
 id
@@ -7342,6 +7353,7 @@ parent
 position
 "
 ]
+}
 )
 ;
 do_throw
