@@ -7226,6 +7226,14 @@ widget
 IsRunningUnderFlatpakOrSnap
 (
 )
+|
+|
+widget
+:
+:
+IsPackagedAppFileExists
+(
+)
 )
 ;
 if

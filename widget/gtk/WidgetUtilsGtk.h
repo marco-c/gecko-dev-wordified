@@ -281,6 +281,11 @@ IsRunningUnderFlatpak
 (
 )
 ;
+bool
+IsPackagedAppFileExists
+(
+)
+;
 inline
 bool
 IsRunningUnderFlatpakOrSnap
