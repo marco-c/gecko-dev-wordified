@@ -11596,11 +11596,11 @@ callFunction
 (
 CallTypedArrayMethodIfWrapped
 this
+index
+value
 "
 TypedArrayWith
 "
-index
-value
 )
 ;
 }
