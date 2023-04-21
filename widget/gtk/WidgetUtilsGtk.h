@@ -392,6 +392,11 @@ IsGnomeDesktopEnvironment
 (
 )
 ;
+bool
+IsKdeDesktopEnvironment
+(
+)
+;
 /
 /
 Parse
