@@ -656,6 +656,19 @@ postBuffer
 2147483648
 "
                 
+"
+-
+c
+"
+                
+"
+core
+.
+autocrlf
+=
+false
+"
+                
 benchmark_repository
                 
 str
