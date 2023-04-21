@@ -64,8 +64,8 @@ h
 class
 SkMatrix
 ;
-struct
-SkSamplingOptions
+class
+SkPaint
 ;
 /
 *
@@ -76,9 +76,7 @@ a
 matrix
 size
 and
-an
-antialias
-setting
+paint
 return
 true
 if
@@ -87,8 +85,8 @@ computed
 dst
 -
 rect
-*
 would
+*
 align
 such
 that
@@ -168,10 +166,9 @@ SkISize
 &
 size
 const
-SkSamplingOptions
+SkPaint
 &
-bool
-isAntiAlias
+paint
 )
 ;
 /

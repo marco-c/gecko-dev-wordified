@@ -45,13 +45,6 @@ SkOpts
 h
 "
 #
-if
-!
-defined
-(
-SK_ENABLE_OPTIMIZE_SIZE
-)
-#
 define
 SK_OPTS_NS
 sse42
@@ -83,12 +76,3 @@ hash_fn
 ;
 }
 }
-/
-/
-namespace
-SkOpts
-#
-endif
-/
-/
-SK_ENABLE_OPTIMIZE_SIZE

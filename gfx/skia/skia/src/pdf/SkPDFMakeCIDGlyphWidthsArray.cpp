@@ -62,8 +62,6 @@ include
 /
 private
 /
-base
-/
 SkTo
 .
 h
@@ -874,7 +872,7 @@ paths
 .
 glyphs
 (
-SkSpan
+SkMakeSpan
 (
 glyphIDs
 )
@@ -897,7 +895,7 @@ advances
 ;
 advances
 .
-reserve_back
+reserve
 (
 glyphs
 .
@@ -954,7 +952,7 @@ modeAdvance
 =
 findMode
 (
-SkSpan
+SkMakeSpan
 (
 advances
 )

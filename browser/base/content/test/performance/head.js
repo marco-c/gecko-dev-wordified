@@ -5282,7 +5282,7 @@ getBoundingClientRect
 const
 SHADOW_SIZE
 =
-17
+14
 ;
 let
 expectedRects

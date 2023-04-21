@@ -51,8 +51,6 @@ include
 /
 private
 /
-base
-/
 SkTo
 .
 h
@@ -62,9 +60,9 @@ include
 "
 src
 /
-base
+core
 /
-SkUTF
+SkGlyphRun
 .
 h
 "
@@ -73,9 +71,9 @@ include
 "
 src
 /
-text
+utils
 /
-GlyphRun
+SkUTF
 .
 h
 "
@@ -198,10 +196,7 @@ SkClusterator
 SkClusterator
 (
 const
-sktext
-:
-:
-GlyphRun
+SkGlyphRun
 &
 run
 )

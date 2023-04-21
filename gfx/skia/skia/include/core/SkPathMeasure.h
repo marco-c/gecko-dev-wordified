@@ -70,8 +70,6 @@ include
 /
 private
 /
-base
-/
 SkTDArray
 .
 h
@@ -142,7 +140,7 @@ the
 precision
 (
 and
-possibly
+possible
 slow
 down
 the

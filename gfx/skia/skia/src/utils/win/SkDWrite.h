@@ -57,8 +57,6 @@ include
 /
 private
 /
-base
-/
 SkTemplates
 .
 h
@@ -269,10 +267,7 @@ proliferation
 *
 /
 typedef
-skia_private
-:
-:
-AutoSTMalloc
+SkAutoSTMalloc
 <
 16
 WCHAR

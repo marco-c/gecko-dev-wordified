@@ -493,10 +493,9 @@ pt
 fY
 ;
 }
-using
-INHERITED
-=
+typedef
 SkRect
+INHERITED
 ;
 }
 ;

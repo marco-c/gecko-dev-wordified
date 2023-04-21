@@ -145,9 +145,6 @@ other
 )
 ;
 }
-#
-ifdef
-SK_DEBUG
 std
 :
 :
@@ -216,8 +213,6 @@ return
 result
 ;
 }
-#
-endif
 }
 ;
 DFAState

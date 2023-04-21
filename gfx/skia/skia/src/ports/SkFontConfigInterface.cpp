@@ -73,8 +73,6 @@ include
 /
 private
 /
-base
-/
 SkMutex
 .
 h

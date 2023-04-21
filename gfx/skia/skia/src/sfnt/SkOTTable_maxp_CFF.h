@@ -44,7 +44,7 @@ include
 "
 src
 /
-base
+core
 /
 SkEndian
 .
