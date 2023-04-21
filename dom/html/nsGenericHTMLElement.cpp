@@ -1436,14 +1436,6 @@ Auto
 }
 {
 "
-"
-PopoverState
-:
-:
-Auto
-}
-{
-"
 manual
 "
 PopoverState
@@ -1469,7 +1461,7 @@ kPopoverTableDefault
 &
 kPopoverTable
 [
-2
+1
 ]
 ;
 void
