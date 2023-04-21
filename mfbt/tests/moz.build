@@ -278,9 +278,6 @@ TestTextUtils
 TestTypedEnum
 "
 "
-TestTypeTraits
-"
-"
 TestUniquePtr
 "
 "
