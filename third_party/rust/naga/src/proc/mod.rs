@@ -1078,6 +1078,16 @@ Sampler
 Self
 :
 :
+AccelerationStructure
+|
+Self
+:
+:
+RayQuery
+|
+Self
+:
+:
 BindingArray
 {
 .

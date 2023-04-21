@@ -764,6 +764,10 @@ Eq
 PartialEq
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 DispatchError
@@ -773,7 +777,7 @@ DispatchError
 error
 (
 "
-compute
+Compute
 pipeline
 must
 be
@@ -787,7 +791,7 @@ MissingPipeline
 error
 (
 "
-the
+The
 pipeline
 layout
 associated
@@ -853,7 +857,7 @@ BindGroupId
 error
 (
 "
-each
+Each
 current
 dispatch
 group
@@ -951,7 +955,7 @@ CommandEncoderError
 error
 (
 "
-bind
+Bind
 group
 {
 0
@@ -975,7 +979,7 @@ BindGroupId
 error
 (
 "
-bind
+Bind
 group
 index
 {
@@ -1011,7 +1015,7 @@ u32
 error
 (
 "
-compute
+Compute
 pipeline
 {
 0
@@ -1058,7 +1062,7 @@ QuerySetId
 error
 (
 "
-indirect
+Indirect
 buffer
 {
 0
@@ -1084,7 +1088,7 @@ BufferId
 error
 (
 "
-indirect
+Indirect
 buffer
 uses
 bytes
@@ -1125,7 +1129,7 @@ u64
 error
 (
 "
-buffer
+Buffer
 {
 0
 :
@@ -1180,7 +1184,7 @@ MissingBufferUsageError
 error
 (
 "
-cannot
+Cannot
 pop
 debug
 group
@@ -4090,7 +4094,7 @@ wgt
 Features
 :
 :
-WRITE_TIMESTAMP_INSIDE_PASSES
+TIMESTAMP_QUERY_INSIDE_PASSES
 )
 .
 map_pass_err

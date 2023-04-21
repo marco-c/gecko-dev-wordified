@@ -714,6 +714,7 @@ AttachmentData
 Device
 DeviceError
 MissingDownlevelFlags
+RenderPassCompatibilityCheckType
 RenderPassContext
 SHADER_STAGE_COUNT
 }
@@ -2649,6 +2650,10 @@ check_compatible
 pipeline
 .
 pass_context
+RenderPassCompatibilityCheckType
+:
+:
+RenderPipeline
 )
 .
 map_err
@@ -4226,7 +4231,7 @@ WriteTimestamp
 Must
 check
 the
-WRITE_TIMESTAMP_INSIDE_PASSES
+TIMESTAMP_QUERY_INSIDE_PASSES
 feature
 |
 RenderCommand
@@ -4559,6 +4564,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 CreateRenderBundleError
@@ -4583,7 +4592,7 @@ ColorAttachmentError
 error
 (
 "
-invalid
+Invalid
 number
 of
 samples
@@ -4625,6 +4634,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 ExecutionError
@@ -4634,7 +4647,7 @@ ExecutionError
 error
 (
 "
-buffer
+Buffer
 {
 0
 :
@@ -4657,7 +4670,7 @@ BufferId
 error
 (
 "
-using
+Using
 {
 0
 }
@@ -8847,7 +8860,7 @@ RenderBundleErrorInner
 error
 (
 "
-resource
+Resource
 is
 not
 valid

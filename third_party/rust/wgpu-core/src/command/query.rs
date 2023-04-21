@@ -723,6 +723,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 QueryError
@@ -939,6 +943,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 QueryUseError
@@ -1136,6 +1144,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 ResolveError
@@ -1155,7 +1167,7 @@ buffers
 that
 contain
 the
-COPY_DST
+QUERY_RESOLVE
 usage
 "
 )
@@ -2470,7 +2482,7 @@ wgt
 BufferUsages
 :
 :
-COPY_DST
+QUERY_RESOLVE
 )
 {
 return

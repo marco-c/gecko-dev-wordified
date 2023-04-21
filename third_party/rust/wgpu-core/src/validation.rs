@@ -731,7 +731,7 @@ Error
 error
 (
 "
-buffer
+Buffer
 usage
 is
 {
@@ -867,7 +867,7 @@ Error
 error
 (
 "
-texture
+Texture
 usage
 is
 {
@@ -998,6 +998,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 BindingError
@@ -1007,7 +1011,7 @@ BindingError
 error
 (
 "
-binding
+Binding
 is
 missing
 from
@@ -1023,7 +1027,7 @@ Missing
 error
 (
 "
-visibility
+Visibility
 flags
 don
 '
@@ -1081,7 +1085,7 @@ GlobalUse
 error
 (
 "
-type
+Type
 on
 the
 shader
@@ -1101,7 +1105,7 @@ WrongType
 error
 (
 "
-storage
+Storage
 class
 {
 binding
@@ -1142,7 +1146,7 @@ AddressSpace
 error
 (
 "
-buffer
+Buffer
 structure
 size
 {
@@ -1185,7 +1189,7 @@ BufferSize
 error
 (
 "
-view
+View
 dimension
 {
 dim
@@ -1234,7 +1238,7 @@ BindingType
 error
 (
 "
-texture
+Texture
 class
 {
 binding
@@ -1275,7 +1279,7 @@ ImageClass
 error
 (
 "
-comparison
+Comparison
 flag
 doesn
 '
@@ -1292,7 +1296,7 @@ WrongSamplerComparison
 error
 (
 "
-derived
+Derived
 bind
 group
 layout
@@ -1311,7 +1315,7 @@ InconsistentlyDerivedType
 error
 (
 "
-texture
+Texture
 format
 {
 0
@@ -1339,7 +1343,7 @@ TextureFormat
 error
 (
 "
-storage
+Storage
 texture
 usage
 {
@@ -1372,6 +1376,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 FilteringError
@@ -1381,7 +1389,7 @@ FilteringError
 error
 (
 "
-integer
+Integer
 textures
 can
 '
@@ -1401,7 +1409,7 @@ Integer
 error
 (
 "
-non
+Non
 -
 filterable
 float
@@ -1429,6 +1437,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 InputError
@@ -1438,7 +1450,7 @@ InputError
 error
 (
 "
-input
+Input
 is
 not
 provided
@@ -1458,7 +1470,7 @@ Missing
 error
 (
 "
-input
+Input
 type
 is
 not
@@ -1481,7 +1493,7 @@ NumericType
 error
 (
 "
-input
+Input
 interpolation
 doesn
 '
@@ -1511,7 +1523,7 @@ Interpolation
 error
 (
 "
-input
+Input
 sampling
 doesn
 '
@@ -1560,6 +1572,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 StageError
@@ -1569,7 +1585,7 @@ StageError
 error
 (
 "
-shader
+Shader
 module
 is
 invalid
@@ -1582,7 +1598,7 @@ InvalidModule
 error
 (
 "
-shader
+Shader
 entry
 point
 '
@@ -1656,7 +1672,7 @@ u32
 error
 (
 "
-shader
+Shader
 uses
 {
 used
@@ -1689,7 +1705,7 @@ u32
 error
 (
 "
-unable
+Unable
 to
 find
 entry
@@ -1711,7 +1727,7 @@ String
 error
 (
 "
-shader
+Shader
 global
 {
 0
@@ -1746,7 +1762,7 @@ BindingError
 error
 (
 "
-unable
+Unable
 to
 filter
 the
@@ -1798,7 +1814,7 @@ FilteringError
 error
 (
 "
-location
+Location
 [
 {
 location
@@ -1842,7 +1858,7 @@ InputError
 error
 (
 "
-location
+Location
 [
 {
 location

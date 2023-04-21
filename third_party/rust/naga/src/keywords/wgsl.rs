@@ -219,6 +219,9 @@ vec4
 Other
 Keywords
 "
+alias
+"
+"
 bitcast
 "
 "

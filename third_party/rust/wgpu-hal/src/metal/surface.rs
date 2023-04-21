@@ -370,7 +370,7 @@ Object
 >
 layer
 :
-mtl
+metal
 :
 :
 MetalLayer
@@ -543,7 +543,7 @@ transmute
 <
 _
 &
-mtl
+metal
 :
 :
 MetalLayerRef
@@ -595,7 +595,7 @@ from_layer
 layer
 :
 &
-mtl
+metal
 :
 :
 MetalLayerRef
@@ -1942,7 +1942,7 @@ unwrap
 )
 raw_type
 :
-mtl
+metal
 :
 :
 MTLTextureType

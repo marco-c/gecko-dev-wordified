@@ -981,7 +981,7 @@ gl_ClipDistance
 BuiltIn
 :
 :
-PointSize
+ClipDistance
 "
 gl_CullDistance
 "
@@ -990,7 +990,7 @@ gl_CullDistance
 BuiltIn
 :
 :
-FragDepth
+CullDistance
 _
 =
 >

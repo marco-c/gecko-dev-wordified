@@ -313,6 +313,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 SurfaceError
@@ -322,7 +326,7 @@ SurfaceError
 error
 (
 "
-surface
+Surface
 is
 invalid
 "
@@ -334,7 +338,7 @@ Invalid
 error
 (
 "
-surface
+Surface
 is
 not
 configured
@@ -364,7 +368,7 @@ DeviceError
 error
 (
 "
-surface
+Surface
 image
 is
 already
@@ -378,7 +382,7 @@ AlreadyAcquired
 error
 (
 "
-acquired
+Acquired
 frame
 is
 still
@@ -396,6 +400,10 @@ Clone
 Debug
 Error
 )
+]
+#
+[
+non_exhaustive
 ]
 pub
 enum
@@ -421,7 +429,7 @@ DeviceError
 error
 (
 "
-invalid
+Invalid
 surface
 "
 )
@@ -546,7 +554,7 @@ ZeroArea
 error
 (
 "
-surface
+Surface
 does
 not
 support
@@ -565,7 +573,7 @@ UnsupportedQueueFamily
 error
 (
 "
-requested
+Requested
 format
 {
 requested
@@ -611,7 +619,7 @@ TextureFormat
 error
 (
 "
-requested
+Requested
 present
 mode
 {
@@ -660,7 +668,7 @@ PresentMode
 error
 (
 "
-requested
+Requested
 alpha
 mode
 {
@@ -709,7 +717,7 @@ CompositeAlphaMode
 error
 (
 "
-requested
+Requested
 usage
 is
 not

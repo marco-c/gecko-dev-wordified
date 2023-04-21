@@ -29,6 +29,9 @@ s
 mod
 interpolator
 ;
+mod
+type_gen
+;
 #
 [
 cfg

@@ -104,7 +104,7 @@ ID3D11DeviceContext
 )
 -
 >
-native
+d3d12
 :
 :
 HRESULT
@@ -251,7 +251,7 @@ create_device
 self
 adapter
 :
-native
+d3d12
 :
 :
 DxgiAdapter
@@ -310,7 +310,7 @@ let
 mut
 device
 =
-native
+d3d12
 :
 :
 WeakPtr

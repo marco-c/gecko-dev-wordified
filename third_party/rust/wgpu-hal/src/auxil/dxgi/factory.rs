@@ -53,7 +53,7 @@ enumerate_adapters
 (
 factory
 :
-native
+d3d12
 :
 :
 DxgiFactory
@@ -62,7 +62,7 @@ DxgiFactory
 >
 Vec
 <
-native
+d3d12
 :
 :
 DxgiAdapter
@@ -133,7 +133,7 @@ let
 mut
 adapter4
 =
-native
+d3d12
 :
 :
 WeakPtr
@@ -232,7 +232,7 @@ adapters
 .
 push
 (
-native
+d3d12
 :
 :
 DxgiAdapter
@@ -265,7 +265,7 @@ let
 mut
 adapter1
 =
-native
+d3d12
 :
 :
 WeakPtr
@@ -295,15 +295,9 @@ EnumAdapters1
 cur_index
 adapter1
 .
-mut_void
+mut_self
 (
 )
-as
-*
-mut
-*
-mut
-_
 )
 }
 ;
@@ -415,7 +409,7 @@ adapters
 .
 push
 (
-native
+d3d12
 :
 :
 DxgiAdapter
@@ -503,7 +497,7 @@ adapters
 .
 push
 (
-native
+d3d12
 :
 :
 DxgiAdapter
@@ -551,7 +545,7 @@ adapters
 .
 push
 (
-native
+d3d12
 :
 :
 DxgiAdapter
@@ -622,11 +616,11 @@ InstanceFlags
 Result
 <
 (
-native
+d3d12
 :
 :
 DxgiLib
-native
+d3d12
 :
 :
 DxgiFactory
@@ -640,7 +634,7 @@ InstanceError
 let
 lib_dxgi
 =
-native
+d3d12
 :
 :
 DxgiLib
@@ -666,7 +660,7 @@ let
 mut
 factory_flags
 =
-native
+d3d12
 :
 :
 FactoryCreationFlags
@@ -763,7 +757,7 @@ destroy
 factory_flags
 |
 =
-native
+d3d12
 :
 :
 FactoryCreationFlags
@@ -1118,7 +1112,7 @@ Ok
 (
 (
 lib_dxgi
-native
+d3d12
 :
 :
 DxgiFactory
@@ -1234,7 +1228,7 @@ Ok
 (
 (
 lib_dxgi
-native
+d3d12
 :
 :
 DxgiFactory
@@ -1430,7 +1424,7 @@ Ok
 (
 (
 lib_dxgi
-native
+d3d12
 :
 :
 DxgiFactory
@@ -1562,7 +1556,7 @@ Ok
 (
 (
 lib_dxgi
-native
+d3d12
 :
 :
 DxgiFactory

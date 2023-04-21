@@ -1843,6 +1843,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 WaitIdleError

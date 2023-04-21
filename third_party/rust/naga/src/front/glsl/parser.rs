@@ -1018,7 +1018,13 @@ res
 meta
 }
 )
+LexerResultKind
+:
+:
+Token
+(
 _
+)
 =
 >
 unreachable

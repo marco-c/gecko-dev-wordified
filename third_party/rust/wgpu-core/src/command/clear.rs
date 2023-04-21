@@ -2,16 +2,10 @@ use
 std
 :
 :
-{
-num
-:
-:
-NonZeroU32
 ops
 :
 :
 Range
-}
 ;
 #
 [
@@ -95,15 +89,9 @@ use
 hal
 :
 :
-{
-auxil
-:
-:
-align_to
 CommandEncoder
 as
 _
-}
 ;
 use
 thiserror
@@ -116,6 +104,10 @@ wgt
 :
 :
 {
+math
+:
+:
+align_to
 BufferAddress
 BufferSize
 BufferUsages
@@ -142,6 +134,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 ClearError
@@ -151,7 +147,7 @@ ClearError
 error
 (
 "
-to
+To
 use
 clear_texture
 the
@@ -170,7 +166,7 @@ MissingClearTextureFeature
 error
 (
 "
-command
+Command
 encoder
 {
 0
@@ -191,7 +187,7 @@ CommandEncoderId
 error
 (
 "
-device
+Device
 {
 0
 :
@@ -211,7 +207,7 @@ DeviceId
 error
 (
 "
-buffer
+Buffer
 {
 0
 :
@@ -233,7 +229,7 @@ BufferId
 error
 (
 "
-texture
+Texture
 {
 0
 :
@@ -255,7 +251,7 @@ TextureId
 error
 (
 "
-texture
+Texture
 {
 0
 :
@@ -277,7 +273,7 @@ TextureId
 error
 (
 "
-buffer
+Buffer
 clear
 size
 {
@@ -303,7 +299,7 @@ BufferSize
 error
 (
 "
-buffer
+Buffer
 offset
 {
 0
@@ -328,7 +324,7 @@ BufferAddress
 error
 (
 "
-clear
+Clear
 of
 {
 start_offset
@@ -372,7 +368,7 @@ BufferAddress
 error
 (
 "
-destination
+Destination
 buffer
 is
 missing
@@ -399,7 +395,7 @@ TextureId
 error
 (
 "
-texture
+Texture
 lacks
 the
 aspects
@@ -447,7 +443,7 @@ TextureAspect
 error
 (
 "
-image
+Image
 subresource
 level
 range
@@ -511,7 +507,7 @@ u32
 error
 (
 "
-image
+Image
 subresource
 layer
 range
@@ -2624,10 +2620,7 @@ offset
 0
 bytes_per_row
 :
-NonZeroU32
-:
-:
-new
+Some
 (
 bytes_per_row
 )
