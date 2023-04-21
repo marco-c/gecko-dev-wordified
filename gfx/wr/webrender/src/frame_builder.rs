@@ -623,10 +623,6 @@ pub
 uses_native_antialiasing
 :
 bool
-pub
-max_shared_surface_size
-:
-i32
 }
 /
 /
@@ -3025,11 +3021,6 @@ gpu_cache
 &
 mut
 deferred_resolves
-scene
-.
-config
-.
-max_shared_surface_size
 )
 ;
 let

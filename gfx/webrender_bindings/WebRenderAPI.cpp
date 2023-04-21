@@ -1096,12 +1096,6 @@ StaticPrefs
 gfx_webrender_low_quality_pinch_zoom_AtStartup
 (
 )
-StaticPrefs
-:
-:
-gfx_webrender_max_shared_surface_size_AtStartup
-(
-)
 )
 )
 {
