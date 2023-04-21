@@ -1636,7 +1636,7 @@ bool
 SMILTimeValueSpec
 :
 :
-IsWhitelistedEvent
+IsEventAllowedWhenScriptingIsDisabled
 (
 )
 {
@@ -1831,7 +1831,7 @@ only
 allow
 registration
 for
-whitelisted
+limited
 events
 .
 if
@@ -1851,7 +1851,7 @@ IsScriptEnabled
 &
 &
 !
-IsWhitelistedEvent
+IsEventAllowedWhenScriptingIsDisabled
 (
 )
 )
