@@ -227,6 +227,9 @@ dom
 namespace
 intl
 {
+class
+FluentResource
+;
 using
 L10nArgs
 =
