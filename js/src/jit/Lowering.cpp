@@ -1546,9 +1546,9 @@ void
 LIRGenerator
 :
 :
-visitNewBoundFunction
+visitBindFunction
 (
-MNewBoundFunction
+MBindFunction
 *
 ins
 )
@@ -1601,7 +1601,7 @@ OOM
 LIRGenerator
 :
 :
-visitNewBoundFunction
+visitBindFunction
 "
 )
 ;
@@ -1618,7 +1618,7 @@ alloc
 (
 )
 )
-LNewBoundFunction
+LBindFunction
 (
 useFixedAtStart
 (

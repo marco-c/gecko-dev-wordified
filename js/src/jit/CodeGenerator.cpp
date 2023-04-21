@@ -50081,9 +50081,9 @@ void
 CodeGenerator
 :
 :
-visitNewBoundFunction
+visitBindFunction
 (
-LNewBoundFunction
+LBindFunction
 *
 lir
 )

@@ -21248,7 +21248,7 @@ into
 JS
 .
 class
-MNewBoundFunction
+MBindFunction
 :
 public
 MVariadicInstruction
@@ -21276,7 +21276,7 @@ JSObject
 templateObj_
 ;
 explicit
-MNewBoundFunction
+MBindFunction
 (
 JSObject
 *
@@ -21321,10 +21321,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-NewBoundFunction
+BindFunction
 )
 static
-MNewBoundFunction
+MBindFunction
 *
 New
 (

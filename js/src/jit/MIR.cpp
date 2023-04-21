@@ -48870,9 +48870,9 @@ return
 ins
 ;
 }
-MNewBoundFunction
+MBindFunction
 *
-MNewBoundFunction
+MBindFunction
 :
 :
 New
@@ -48898,7 +48898,7 @@ new
 (
 alloc
 )
-MNewBoundFunction
+MBindFunction
 (
 templateObj
 )
