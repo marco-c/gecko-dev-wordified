@@ -2018,6 +2018,15 @@ network_name
 clat
 "
 )
+|
+|
+MatchTypeNameWithIndexPattern
+(
+network_name
+"
+ccmni
+"
+)
 )
 {
 return
