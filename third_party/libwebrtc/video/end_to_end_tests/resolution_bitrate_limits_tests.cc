@@ -839,6 +839,15 @@ encoder_config
 )
 override
 {
+webrtc
+:
+:
+VideoEncoder
+:
+:
+EncoderInfo
+encoder_info
+;
 send_config
 -
 >
@@ -926,6 +935,7 @@ enabled
 *
 /
 false
+encoder_info
 )
 ;
 encoder_config

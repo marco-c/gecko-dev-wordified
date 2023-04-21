@@ -1300,6 +1300,15 @@ stream_count
 =
 0
 ;
+webrtc
+:
+:
+VideoEncoder
+:
+:
+EncoderInfo
+encoder_info
+;
 for
 (
 const
@@ -1718,6 +1727,7 @@ enabled
 *
 /
 false
+encoder_info
 )
 ;
 /

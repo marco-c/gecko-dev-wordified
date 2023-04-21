@@ -1318,6 +1318,15 @@ encoder_config_
 }
 else
 {
+webrtc
+:
+:
+VideoEncoder
+:
+:
+EncoderInfo
+encoder_info
+;
 rtc
 :
 :
@@ -1370,6 +1379,7 @@ kScreen
 encoder_config_
 .
 legacy_conference_mode
+encoder_info
 )
 ;
 video_streams_
@@ -1527,6 +1537,15 @@ config
 }
 else
 {
+webrtc
+:
+:
+VideoEncoder
+:
+:
+EncoderInfo
+encoder_info
+;
 rtc
 :
 :
@@ -1579,6 +1598,7 @@ kScreen
 config
 .
 legacy_conference_mode
+encoder_info
 )
 ;
 video_streams_

@@ -698,9 +698,9 @@ DefaultVideoStreamFactory
 CreateEncoderStreams
 (
 int
-width
+frame_width
 int
-height
+frame_height
 const
 webrtc
 :
@@ -713,8 +713,8 @@ encoder_config
 return
 CreateVideoStreams
 (
-width
-height
+frame_width
+frame_height
 encoder_config
 )
 ;
