@@ -800,7 +800,10 @@ aRv
 {
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 aIterations
 )

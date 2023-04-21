@@ -2388,7 +2388,10 @@ isSome
 {
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 *
 number

@@ -276,10 +276,10 @@ NaN
 /
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 rightDbl
 )
@@ -307,10 +307,10 @@ leftDbl
 0
 |
 |
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 leftDbl
 )

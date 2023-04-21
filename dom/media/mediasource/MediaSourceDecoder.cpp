@@ -694,7 +694,10 @@ Duration
 ;
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 duration
 )
@@ -1536,7 +1539,10 @@ mMediaSource
 |
 |
 !
-IsNaN
+std
+:
+:
+isnan
 (
 ExplicitDuration
 (
@@ -2038,7 +2044,10 @@ false
 }
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 mMediaSource
 -

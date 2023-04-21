@@ -557,7 +557,10 @@ aDouble
 {
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 aDouble
 )
@@ -1056,10 +1059,10 @@ type
 ;
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 f
 )

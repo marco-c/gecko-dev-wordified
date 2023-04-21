@@ -743,10 +743,10 @@ special
 cases
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 aValue
 )

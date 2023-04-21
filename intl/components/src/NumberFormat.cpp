@@ -367,7 +367,10 @@ bool
 isNegative
 =
 !
-IsNaN
+std
+:
+:
+isnan
 (
 number
 )
@@ -740,7 +743,10 @@ if
 (
 MOZ_UNLIKELY
 (
-IsNaN
+std
+:
+:
+isnan
 (
 number
 )

@@ -6475,7 +6475,10 @@ mDuration
 oldDuration
 |
 |
-IsNaN
+std
+:
+:
+isnan
 (
 mDuration
 )
@@ -7444,7 +7447,10 @@ NS_IsMainThread
 ;
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 GetDuration
 (

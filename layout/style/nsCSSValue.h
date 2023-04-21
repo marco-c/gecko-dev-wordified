@@ -1267,10 +1267,10 @@ value
 MOZ_ASSERT
 (
 !
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 mValue
 .

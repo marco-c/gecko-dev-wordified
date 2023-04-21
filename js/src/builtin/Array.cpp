@@ -26470,10 +26470,10 @@ SearchKind
 Includes
 &
 &
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 dval
 )
@@ -26507,10 +26507,10 @@ isDouble
 )
 &
 &
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 element
 .

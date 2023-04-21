@@ -26696,10 +26696,10 @@ false
 }
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 t_secs
 )
@@ -27595,10 +27595,10 @@ t
 {
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 t
 )

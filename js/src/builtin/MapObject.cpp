@@ -343,12 +343,6 @@ using
 mozilla
 :
 :
-IsNaN
-;
-using
-mozilla
-:
-:
 NumberEqualsInt32
 ;
 /

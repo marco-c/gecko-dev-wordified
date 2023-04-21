@@ -18613,10 +18613,10 @@ false
 }
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 maxDouble
 )

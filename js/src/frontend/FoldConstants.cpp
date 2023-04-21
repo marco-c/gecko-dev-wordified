@@ -281,12 +281,6 @@ using
 mozilla
 :
 :
-IsNaN
-;
-using
-mozilla
-:
-:
 IsNegative
 ;
 using
@@ -3603,7 +3597,10 @@ value
 &
 &
 !
-IsNaN
+std
+:
+:
+isnan
 (
 pn
 -

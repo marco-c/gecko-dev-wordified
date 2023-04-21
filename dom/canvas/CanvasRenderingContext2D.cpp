@@ -26588,7 +26588,10 @@ Value
 0
 |
 |
-IsNaN
+std
+:
+:
+isnan
 (
 aMaxWidth
 .

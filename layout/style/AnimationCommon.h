@@ -1163,7 +1163,10 @@ aIterationCount
 &
 &
 !
-IsNaN
+std
+:
+:
+isnan
 (
 aIterationCount
 )
