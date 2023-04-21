@@ -926,11 +926,6 @@ Comment
 h
 "
 "
-CompressionStream
-.
-h
-"
-"
 ContentFrameMessageManager
 .
 h
@@ -942,11 +937,6 @@ h
 "
 "
 CustomElementRegistry
-.
-h
-"
-"
-DecompressionStream
 .
 h
 "
@@ -1721,11 +1711,6 @@ Comment
 cpp
 "
 "
-CompressionStream
-.
-cpp
-"
-"
 ContentFrameMessageManager
 .
 cpp
@@ -1747,11 +1732,6 @@ cpp
 "
 "
 CustomElementRegistry
-.
-cpp
-"
-"
-DecompressionStream
 .
 cpp
 "

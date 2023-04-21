@@ -376,6 +376,7 @@ t
 Bug
 1561594
 )
+static
 Span
 <
 const
