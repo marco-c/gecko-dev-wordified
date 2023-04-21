@@ -145,6 +145,15 @@ string
 isolated_script_test_perf_output
 )
 ;
+ABSL_DECLARE_FLAG
+(
+std
+:
+:
+string
+webrtc_test_metrics_output_path
+)
+;
 #
 endif
 /
