@@ -38801,16 +38801,6 @@ urlbar
 PREF_LIST_ENTRY
 (
 "
-browser
-.
-urlbar
-.
-resultGroups
-"
-)
-PREF_LIST_ENTRY
-(
-"
 devtools
 .
 debugger
