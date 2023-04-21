@@ -868,6 +868,12 @@ for
 this
 image
 .
+VideoQualityAnalyzerInterface
+:
+:
+DecoderStats
+stats
+;
 {
 MutexLock
 lock
@@ -898,6 +904,12 @@ Timestamp
 )
 )
 ;
+stats
+.
+decoder_name
+=
+codec_name_
+;
 }
 analyzer_
 -
@@ -917,6 +929,7 @@ VideoFrame
 kNotSetId
 )
 result
+stats
 )
 ;
 }
