@@ -380,6 +380,16 @@ kMicrosoftProductXboxAdaptiveWireless
 0x045e0b0c
 /
 /
+Microsoft
+Xbox
+Series
+X
+Wireless
+kMicrosoftProductXboxSeriesXWireless
+=
+0x045e0b13
+/
+/
 Switch
 Joy
 -
