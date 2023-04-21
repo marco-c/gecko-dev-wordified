@@ -214,6 +214,13 @@ HARNESS_TIMEOUT
 5
 *
 60
+TBPL_RETRY
+=
+4
+#
+defined
+in
+mozharness
 #
 benchmarking
 on
@@ -1799,6 +1806,12 @@ timedout
 =
 False
         
+self
+.
+infra
+=
+False
+        
 #
 event
 from
@@ -1855,6 +1868,34 @@ try
 self
 .
 run_test
+(
+)
+        
+except
+PermissionError
+as
+e
+:
+            
+self
+.
+infra
+=
+True
+            
+self
+.
+exception
+=
+e
+            
+self
+.
+traceback
+=
+traceback
+.
+format_exc
 (
 )
         
@@ -16537,6 +16578,10 @@ keep_going
 =
 True
         
+infra_abort
+=
+False
+        
 exceptions
 =
 [
@@ -16999,6 +17044,14 @@ keep_going
 =
 False
                     
+infra_abort
+=
+infra_abort
+and
+test
+.
+infra
+                    
 keep_going
 =
 keep_going
@@ -17029,6 +17082,16 @@ difference_update
 (
 done_tests
 )
+        
+if
+infra_abort
+:
+            
+return
+TBPL_RETRY
+#
+terminate
+early
         
 if
 keep_going
@@ -17985,14 +18048,32 @@ exit
 1
 )
     
-if
-not
+result
+=
 xpcsh
 .
 runTests
 (
 options
 )
+    
+if
+result
+=
+=
+TBPL_RETRY
+:
+        
+sys
+.
+exit
+(
+4
+)
+    
+if
+not
+result
 :
         
 sys
