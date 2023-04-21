@@ -300,16 +300,11 @@ const
 win
 =
 browser
-?
 .
 ownerGlobal
 ;
 if
 (
-!
-win
-|
-|
 win
 .
 gDialogBox
