@@ -8002,7 +8002,7 @@ this
 DecodeResult
 result
 =
-Decode
+DoDecodeInternal
 (
 aIterator
 aOnResume
@@ -9230,7 +9230,7 @@ DecodeResult
 nsAVIFDecoder
 :
 :
-Decode
+DoDecodeInternal
 (
 SourceBufferIterator
 &
@@ -9258,7 +9258,7 @@ p
 nsAVIFDecoder
 :
 :
-DoDecode
+DoDecodeInternal
 "
 this
 )
