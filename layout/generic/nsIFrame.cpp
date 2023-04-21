@@ -82509,6 +82509,7 @@ nsIFrame
 ComputeWidgetTransform
 (
 )
+const
 {
 const
 nsStyleUIReset
