@@ -1126,6 +1126,13 @@ cpp
 "
 core
 /
+ProfileAdditionalInformation
+.
+cpp
+"
+"
+core
+/
 ProfilerBindings
 .
 cpp
