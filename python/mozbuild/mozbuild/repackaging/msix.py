@@ -1549,6 +1549,7 @@ def
 get_branding
 (
 use_official
+topsrcdir
 build_app
 finder
 log
@@ -1578,6 +1579,7 @@ mozpath
 .
 join
 (
+topsrcdir
 build_app
 "
 confvars
@@ -2002,7 +2004,13 @@ branding
 )
     
 return
+mozpath
+.
+join
+(
+topsrcdir
 branding
+)
 def
 unpack_msix
 (
@@ -3509,21 +3517,14 @@ Beta
     
 branding
 =
-os
-.
-path
-.
-join
-(
-        
-topsrcdir
 get_branding
 (
+        
 use_official_branding
+topsrcdir
 build_app
 unpack_finder
 log
-)
     
 )
     
