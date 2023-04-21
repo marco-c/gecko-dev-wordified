@@ -78,15 +78,6 @@ require
 -
 jsdoc
 "
-"
-plugin
-:
-mozilla
-/
-valid
--
-jsdoc
-"
 ]
 rules
 :
