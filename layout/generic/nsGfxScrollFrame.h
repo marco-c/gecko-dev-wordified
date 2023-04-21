@@ -1320,12 +1320,6 @@ GetLayoutScrollRange
 )
 const
 ;
-nsRect
-GetUnsnappedLayoutScrollRange
-(
-)
-const
-;
 /
 /
 Get
@@ -2444,7 +2438,7 @@ const
 *
 *
 *
-GetUnsnappedScrolledRectInternal
+GetScrolledRectInternal
 is
 designed
 to
@@ -2524,7 +2518,7 @@ directionality
 *
 /
 nsRect
-GetUnsnappedScrolledRectInternal
+GetScrolledRectInternal
 (
 const
 nsRect
