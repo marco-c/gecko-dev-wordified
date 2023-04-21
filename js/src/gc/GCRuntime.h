@@ -6015,6 +6015,11 @@ cancelRequestedGCAfterBackgroundTask
 void
 finishCollection
 (
+JS
+:
+:
+GCReason
+reason
 )
 ;
 void
