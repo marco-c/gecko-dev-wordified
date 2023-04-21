@@ -1179,6 +1179,7 @@ function
 assertIsFunctionalPopover
 (
 popover
+checkVisibility
 )
 {
 assertPopoverVisibility
@@ -1212,6 +1213,10 @@ showPopover
 (
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
@@ -1273,6 +1278,10 @@ hidePopover
 (
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
@@ -1334,6 +1343,10 @@ togglePopover
 (
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
@@ -1370,6 +1383,10 @@ togglePopover
 (
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
@@ -1413,6 +1430,10 @@ force
 true
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
@@ -1457,6 +1478,10 @@ force
 true
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
@@ -1501,6 +1526,10 @@ force
 false
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
@@ -1545,6 +1574,10 @@ force
 false
 )
 ;
+if
+(
+checkVisibility
+)
 assertPopoverVisibility
 (
 popover
