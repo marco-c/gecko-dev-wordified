@@ -6452,6 +6452,16 @@ ExtensionBrowser
 webidl
 "
 "
+ExtensionBrowserSettings
+.
+webidl
+"
+"
+ExtensionBrowserSettingsColorManagement
+.
+webidl
+"
+"
 ExtensionDns
 .
 webidl
