@@ -102,9 +102,6 @@ await
 withFirefoxView
 (
 {
-win
-:
-window
 }
 async
 browser
@@ -322,6 +319,15 @@ openTab
 let
 recentlyClosedEle
 =
+await
+TestUtils
+.
+waitForCondition
+(
+(
+)
+=
+>
 document
 .
 querySelector
@@ -336,6 +342,7 @@ li
 -
 main
 "
+)
 )
 ;
 document

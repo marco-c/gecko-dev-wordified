@@ -360,6 +360,9 @@ await
 withFirefoxView
 (
 {
+openNewWindow
+:
+true
 }
 async
 browser
