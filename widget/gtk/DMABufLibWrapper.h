@@ -1177,6 +1177,7 @@ WebRender
 general
 web
 content
+static
 bool
 IsDMABufTexturesEnabled
 (
@@ -1189,11 +1190,13 @@ dmabuf
 for
 WebGL
 content
+static
 bool
 IsDMABufWebGLEnabled
 (
 )
 ;
+static
 void
 DisableDMABufWebGL
 (
@@ -1205,9 +1208,6 @@ void
 Configure
 (
 )
-;
-bool
-mUseWebGLDmabufBackend
 ;
 int
 mDRMFd
@@ -1221,6 +1221,10 @@ mInitialized
 ;
 nsCString
 mFailureId
+;
+static
+bool
+sUseWebGLDmabufBackend
 ;
 }
 ;
