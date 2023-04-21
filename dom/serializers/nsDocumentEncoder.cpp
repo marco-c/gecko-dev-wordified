@@ -9215,7 +9215,7 @@ mDocument
 selection
 -
 >
-AddRangeAndSelectFramesAndNotifyListeners
+AddRangeAndSelectFramesAndNotifyListenersInternal
 (
 *
 myRange
