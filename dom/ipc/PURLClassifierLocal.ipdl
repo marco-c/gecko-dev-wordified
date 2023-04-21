@@ -166,6 +166,7 @@ dom
 struct
 URLClassifierLocalResult
 {
+nullable
 nsIURI
 uri
 ;

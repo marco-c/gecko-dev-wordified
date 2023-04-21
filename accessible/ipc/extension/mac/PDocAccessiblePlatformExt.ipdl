@@ -211,6 +211,7 @@ Text
 uint64_t
 ContainerID
 ;
+nullable
 AccAttributes
 TextAttributes
 ;
