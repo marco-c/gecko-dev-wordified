@@ -583,10 +583,6 @@ pub
 root_spatial_node_index
 :
 SpatialNodeIndex
-pub
-uses_native_antialiasing
-:
-bool
 }
 /
 /
