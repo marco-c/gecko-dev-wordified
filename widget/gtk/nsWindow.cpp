@@ -55579,6 +55579,7 @@ nsWindow
 :
 SetNonClientMargins
 (
+const
 LayoutDeviceIntMargin
 &
 aMargins

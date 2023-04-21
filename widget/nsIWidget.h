@@ -5826,9 +5826,9 @@ virtual
 nsresult
 SetNonClientMargins
 (
+const
 LayoutDeviceIntMargin
 &
-aMargins
 )
 =
 0

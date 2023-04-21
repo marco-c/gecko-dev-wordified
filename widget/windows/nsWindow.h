@@ -1712,9 +1712,9 @@ override
 nsresult
 SetNonClientMargins
 (
+const
 LayoutDeviceIntMargin
 &
-aMargins
 )
 override
 ;

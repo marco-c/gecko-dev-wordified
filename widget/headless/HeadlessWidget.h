@@ -600,6 +600,7 @@ virtual
 nsresult
 SetNonClientMargins
 (
+const
 LayoutDeviceIntMargin
 &
 margins
