@@ -62,7 +62,7 @@ ipsum
 const
 {
 handle
-path
+stream
 }
 =
 await
@@ -86,12 +86,12 @@ ok
 !
 (
 await
-OS
-.
-File
+IOUtils
 .
 exists
 (
+stream
+.
 path
 )
 )
