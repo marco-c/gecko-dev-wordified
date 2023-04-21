@@ -453,6 +453,11 @@ WindowsProcessMitigations
 h
 "
 "
+WindowsStackCookie
+.
+h
+"
+"
 WindowsUnwindInfo
 .
 h
