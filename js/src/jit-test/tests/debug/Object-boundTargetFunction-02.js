@@ -199,7 +199,7 @@ assertEq
 ow
 .
 isBoundFunction
-undefined
+false
 )
 ;
 assertEq

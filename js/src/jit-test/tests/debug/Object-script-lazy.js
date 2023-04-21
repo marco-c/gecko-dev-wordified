@@ -443,7 +443,7 @@ unwrap
 .
 class
 "
-Function
+BoundFunctionObject
 "
 )
 ;
@@ -456,7 +456,7 @@ unwrap
 )
 .
 isBoundFunction
-undefined
+true
 )
 ;
 assertEq
@@ -580,7 +580,7 @@ unwrap
 )
 .
 isArrowFunction
-false
+undefined
 )
 ;
 assertEq
