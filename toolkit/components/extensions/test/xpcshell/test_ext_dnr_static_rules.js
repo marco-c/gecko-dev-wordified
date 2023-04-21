@@ -39,7 +39,7 @@ defineESModuleGetters
 (
 this
 {
-ExtensionDNR
+ExtensionDNRLimits
 :
 "
 resource
@@ -50,7 +50,7 @@ gre
 /
 modules
 /
-ExtensionDNR
+ExtensionDNRLimits
 .
 sys
 .
@@ -4569,9 +4569,7 @@ const
 GUARANTEED_MINIMUM_STATIC_RULES
 }
 =
-ExtensionDNR
-.
-limits
+ExtensionDNRLimits
 ;
 equal
 (
@@ -5809,9 +5807,7 @@ MAX_NUMBER_OF_STATIC_RULESETS
 MAX_NUMBER_OF_ENABLED_STATIC_RULESETS
 }
 =
-ExtensionDNR
-.
-limits
+ExtensionDNRLimits
 ;
 equal
 (
