@@ -502,7 +502,7 @@ char
 aReason
 )
 ;
-UniquePtr
+RefPtr
 <
 VRChild
 >

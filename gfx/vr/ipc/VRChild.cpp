@@ -485,6 +485,16 @@ XRE_IsParentProcess
 )
 ;
 }
+VRChild
+:
+:
+~
+VRChild
+(
+)
+=
+default
+;
 mozilla
 :
 :
@@ -1153,7 +1163,7 @@ public
 explicit
 DeferredDeleteVRChild
 (
-UniquePtr
+RefPtr
 <
 VRChild
 >
@@ -1195,7 +1205,7 @@ NS_OK
 }
 private
 :
-UniquePtr
+RefPtr
 <
 VRChild
 >
@@ -1214,7 +1224,7 @@ VRChild
 :
 Destroy
 (
-UniquePtr
+RefPtr
 <
 VRChild
 >
