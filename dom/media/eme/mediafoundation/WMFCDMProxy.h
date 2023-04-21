@@ -339,8 +339,7 @@ PromiseId
 aPromiseId
 )
 override
-{
-}
+;
 void
 RemoveSession
 (
@@ -352,8 +351,7 @@ PromiseId
 aPromiseId
 )
 override
-{
-}
+;
 void
 QueryOutputProtectionStatus
 (
@@ -680,6 +678,12 @@ MozPromiseRequestHolder
 GenericPromise
 >
 mUpdateSessionRequest
+;
+MozPromiseRequestHolder
+<
+GenericPromise
+>
+mCloseSessionRequest
 ;
 const
 dom
