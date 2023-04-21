@@ -2128,8 +2128,6 @@ WorkletFetchHandler
 :
 ExecutionFailed
 (
-nsresult
-aRv
 )
 {
 MOZ_ASSERT
@@ -2141,7 +2139,7 @@ NS_IsMainThread
 ;
 RejectPromises
 (
-aRv
+NS_ERROR_DOM_ABORT_ERR
 )
 ;
 }
