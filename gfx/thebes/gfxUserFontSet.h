@@ -2964,6 +2964,13 @@ aKey
 mFontEntry
 -
 >
+mRangeFlags
+aKey
+-
+>
+mFontEntry
+-
+>
 mLanguageOverride
 )
 ;
