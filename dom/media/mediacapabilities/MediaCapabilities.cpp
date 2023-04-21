@@ -2274,6 +2274,17 @@ ref
 )
 )
 ;
+const
+bool
+shouldResistFingerprinting
+=
+mParent
+-
+>
+ShouldResistFingerprinting
+(
+)
+;
 /
 /
 clang
@@ -2291,6 +2302,7 @@ __func__
 [
 taskQueue
 frameRate
+shouldResistFingerprinting
 compositor
 config
 =
@@ -2519,6 +2531,7 @@ __func__
 [
 taskQueue
 frameRate
+shouldResistFingerprinting
 config
 =
 std
@@ -2631,6 +2644,7 @@ __func__
 taskQueue
 decoder
 frameRate
+shouldResistFingerprinting
 config
 =
 std
@@ -2695,12 +2709,7 @@ __func__
 else
 if
 (
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
-(
-)
+shouldResistFingerprinting
 )
 {
 p
