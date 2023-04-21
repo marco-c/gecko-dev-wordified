@@ -11141,7 +11141,7 @@ frame
 GetChildFrameContainingOffset
 (
 contentOffset
-false
+true
 &
 contentOffsetInFrame
 &
@@ -13032,6 +13032,7 @@ uint32_t
 mOffset
 )
 >
+=
 nsAccUtils
 :
 :
