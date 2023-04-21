@@ -2039,7 +2039,7 @@ background
 update
 task
 every
-30
+60
 minutes
 .
 pref
@@ -2059,7 +2059,7 @@ snapshot
 .
 intervalSec
 "
-1800
+3600
 )
 ;
 #
