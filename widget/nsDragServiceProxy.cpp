@@ -333,12 +333,6 @@ TransferablesToIPCTransferables
 aArrayTransferables
 dataTransfers
 false
-child
--
->
-Manager
-(
-)
 nullptr
 )
 ;
