@@ -102,11 +102,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -180,6 +175,7 @@ mjs
 }
 )
 ;
+export
 function
 nsTerminatorTelemetry
 (
@@ -733,12 +729,3 @@ resolve
 /
 /
 Module
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-nsTerminatorTelemetry
-"
-]
-;

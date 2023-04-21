@@ -156,7 +156,9 @@ EXTRA_JS_MODULES
 "
 TerminatorTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
