@@ -120,6 +120,11 @@ fs
 =
 [
 "
+IPCRejectReporter
+.
+h
+"
+"
 ManagedMozPromiseRequestHolder
 .
 h
@@ -141,6 +146,11 @@ cpp
 "
 "
 FileSystemLog
+.
+cpp
+"
+"
+IPCRejectReporter
 .
 cpp
 "

@@ -569,7 +569,7 @@ IsOpen
 )
 )
 {
-Close
+BeginClose
 (
 )
 ;
@@ -643,7 +643,7 @@ IsOpen
 )
 )
 {
-Close
+BeginClose
 (
 )
 ;
@@ -717,7 +717,7 @@ IsOpen
 )
 )
 {
-Close
+BeginClose
 (
 )
 ;
@@ -737,11 +737,14 @@ return
 mClosed
 ;
 }
-void
+RefPtr
+<
+BoolPromise
+>
 FileSystemAccessHandle
 :
 :
-Close
+BeginClose
 (
 )
 {
@@ -793,6 +796,7 @@ mEntryId
 )
 ;
 }
+return
 InvokeAsync
 (
 mDataManager

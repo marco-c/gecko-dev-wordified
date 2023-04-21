@@ -424,8 +424,11 @@ IsOpen
 )
 const
 ;
-void
-Close
+RefPtr
+<
+BoolPromise
+>
+BeginClose
 (
 )
 ;
