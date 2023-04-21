@@ -5166,9 +5166,8 @@ ToRefType
 JSContext
 *
 cx
-JSLinearString
-*
-typeLinearStr
+HandleValue
+v
 RefType
 *
 out
