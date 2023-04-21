@@ -314,7 +314,7 @@ JSObject
 gc
 :
 :
-detail
+CellAllocator
 :
 :
 AllocateObject
@@ -675,7 +675,7 @@ JSObject
 gc
 :
 :
-detail
+CellAllocator
 :
 :
 AllocateObject
@@ -716,7 +716,7 @@ JSObject
 gc
 :
 :
-detail
+CellAllocator
 :
 :
 AllocateObject
