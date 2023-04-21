@@ -783,7 +783,7 @@ handle
 coloring
 and
 other
-formating
+formatting
 inner
 :
 termcolor
