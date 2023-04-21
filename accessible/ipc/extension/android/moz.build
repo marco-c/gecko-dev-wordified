@@ -131,11 +131,6 @@ DocAccessiblePlatformExtChild
 .
 cpp
 "
-"
-DocAccessiblePlatformExtParent
-.
-cpp
-"
 ]
 LOCAL_INCLUDES
 +
