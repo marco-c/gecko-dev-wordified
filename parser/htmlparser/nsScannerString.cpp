@@ -975,16 +975,6 @@ lengthToExamineInThisFragment
 )
 ;
 }
-/
-/
-never
-reached
-;
-quiets
-warnings
-return
-0
-;
 }
 void
 nsScannerSubstring

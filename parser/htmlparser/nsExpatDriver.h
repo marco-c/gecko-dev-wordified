@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsScanner
+.
+h
+"
+#
+include
+"
 rlbox_expat
 .
 h
