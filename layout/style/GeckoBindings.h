@@ -2677,16 +2677,6 @@ size_t
 len
 )
 ;
-void
-Gecko_EnsureStyleViewTimelineArrayLength
-(
-void
-*
-array
-size_t
-len
-)
-;
 /
 /
 Searches
