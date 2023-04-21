@@ -23814,7 +23814,9 @@ posixpath
 join
 (
 remote
-posixpath
+os
+.
+path
 .
 basename
 (
@@ -24196,7 +24198,9 @@ local
 /
 tmp
 "
-posixpath
+os
+.
+path
 .
 basename
 (
@@ -24479,7 +24483,9 @@ join
 /
 sdcard
 "
-posixpath
+os
+.
+path
 .
 basename
 (
@@ -25196,7 +25202,9 @@ local
 /
 tmp
 "
-posixpath
+os
+.
+path
 .
 basename
 (
@@ -28304,7 +28312,9 @@ posixpath
 join
 (
 destination
-posixpath
+os
+.
+path
 .
 basename
 (
@@ -28442,7 +28452,9 @@ posixpath
 join
 (
 destination
-posixpath
+os
+.
+path
 .
 basename
 (
