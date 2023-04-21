@@ -511,12 +511,6 @@ childNodeCount
 0
                             
 "
-children
-"
-:
-None
-                            
-"
 localName
 "
 :
@@ -574,12 +568,6 @@ childNodeCount
 "
 :
 0
-                            
-"
-children
-"
-:
-None
                             
 "
 nodeType
@@ -743,12 +731,6 @@ childNodeCount
 1
                             
 "
-children
-"
-:
-None
-                            
-"
 localName
 "
 :
@@ -813,12 +795,6 @@ childNodeCount
 "
 :
 0
-                            
-"
-children
-"
-:
-None
                             
 "
 localName
@@ -2325,12 +2301,6 @@ childNodeCount
 0
                             
 "
-children
-"
-:
-None
-                            
-"
 nodeType
 "
 :
@@ -2367,12 +2337,6 @@ childNodeCount
 "
 :
 2
-                            
-"
-children
-"
-:
-None
                             
 "
 localName
@@ -3011,12 +2975,6 @@ childNodeCount
 0
                     
 "
-children
-"
-:
-None
-                    
-"
 localName
 "
 :
@@ -3140,12 +3098,6 @@ childNodeCount
 0
                             
 "
-children
-"
-:
-None
-                            
-"
 localName
 "
 :
@@ -3250,12 +3202,6 @@ childNodeCount
 "
 :
 0
-                            
-"
-children
-"
-:
-None
                             
 "
 localName
