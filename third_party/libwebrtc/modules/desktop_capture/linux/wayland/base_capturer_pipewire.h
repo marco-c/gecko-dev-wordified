@@ -229,13 +229,14 @@ PortalNotifier
 {
 public
 :
-explicit
 BaseCapturerPipeWire
 (
 const
 DesktopCaptureOptions
 &
 options
+CaptureType
+type
 )
 ;
 BaseCapturerPipeWire

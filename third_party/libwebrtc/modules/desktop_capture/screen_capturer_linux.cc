@@ -224,6 +224,10 @@ BaseCapturerPipeWire
 >
 (
 options
+CaptureType
+:
+:
+kScreen
 )
 ;
 }
