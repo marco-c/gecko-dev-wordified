@@ -263,6 +263,13 @@ nsStyleConsts
 .
 h
 "
+#
+include
+"
+Baseline
+.
+h
+"
 using
 namespace
 mozilla
@@ -6544,8 +6551,12 @@ aBaselineGroup
 const
 {
 return
-SynthesizeBaselineBOffsetFromMarginBox
+Baseline
+:
+:
+SynthesizeBOffsetFromMarginBox
 (
+this
 aWM
 aBaselineGroup
 )

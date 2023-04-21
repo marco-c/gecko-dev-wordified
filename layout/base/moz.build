@@ -244,6 +244,11 @@ EXPORTS
 =
 [
 "
+Baseline
+.
+h
+"
+"
 CaretAssociationHint
 .
 h
@@ -566,6 +571,11 @@ cpp
 "
 "
 AccessibleCaretManager
+.
+cpp
+"
+"
+Baseline
 .
 cpp
 "
