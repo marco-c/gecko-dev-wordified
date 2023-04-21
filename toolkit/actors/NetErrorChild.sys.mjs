@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-NetErrorChild
-"
-]
-;
 const
 lazy
 =
@@ -148,6 +139,7 @@ jsm
 "
 )
 ;
+export
 class
 NetErrorChild
 extends
