@@ -51,7 +51,7 @@ INVALID
 1
 #
 define
-ABORT
+SK_ABORT
 (
 .
 .
@@ -73,6 +73,7 @@ SkASSERT
 (
 x
 )
+\
 (
 void
 )
@@ -83,7 +84,7 @@ x
 |
 |
 (
-ABORT
+SK_ABORT
 (
 "
 failed
@@ -107,6 +108,17 @@ __FILE__
 __LINE__
 )
 0
+)
+)
+#
+define
+SkUNREACHABLE
+(
+SK_ABORT
+(
+"
+unreachable
+"
 )
 )
 #

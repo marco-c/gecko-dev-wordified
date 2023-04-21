@@ -45,6 +45,19 @@ SkSpinlock
 h
 "
 #
+include
+"
+include
+/
+private
+/
+base
+/
+SkThreadAnnotations
+.
+h
+"
+#
 if
 0
 #
@@ -53,6 +66,8 @@ include
 include
 /
 private
+/
+base
 /
 SkMutex
 .
@@ -91,7 +106,10 @@ len
 backtrace
 (
 stack
-SK_ARRAY_COUNT
+std
+:
+:
+size
 (
 stack
 )
@@ -255,6 +273,8 @@ acquire
 the
 lock
 .
+SK_POTENTIALLY_BLOCKING_REGION_BEGIN
+;
 while
 (
 fLocked
@@ -274,4 +294,6 @@ do_pause
 )
 ;
 }
+SK_POTENTIALLY_BLOCKING_REGION_END
+;
 }

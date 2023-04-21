@@ -370,7 +370,7 @@ return
 0
 static
 SkScalar
-SK_API
+SK_SPI
 ConvertRadiusToSigma
 (
 SkScalar
@@ -394,7 +394,7 @@ return
 0
 static
 SkScalar
-SK_API
+SK_SPI
 ConvertSigmaToRadius
 (
 SkScalar

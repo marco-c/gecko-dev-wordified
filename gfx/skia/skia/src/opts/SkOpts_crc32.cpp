@@ -45,6 +45,13 @@ SkOpts
 h
 "
 #
+if
+!
+defined
+(
+SK_ENABLE_OPTIMIZE_SIZE
+)
+#
 define
 SK_OPTS_NS
 crc32
@@ -76,3 +83,8 @@ hash_fn
 ;
 }
 }
+#
+endif
+/
+/
+SK_ENABLE_OPTIMIZE_SIZE

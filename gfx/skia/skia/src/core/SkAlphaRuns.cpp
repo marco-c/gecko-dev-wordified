@@ -42,6 +42,8 @@ include
 /
 private
 /
+base
+/
 SkTo
 .
 h
@@ -64,7 +66,7 @@ src
 /
 core
 /
-SkUtils
+SkOpts
 .
 h
 "
@@ -91,7 +93,10 @@ SK_DEBUG
 #
 ifndef
 SK_DISABLE_SLOW_DEBUG_VALIDATION
-sk_memset16
+SkOpts
+:
+:
+memset16
 (
 (
 uint16_t

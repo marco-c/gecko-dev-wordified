@@ -98,6 +98,7 @@ fTy
 *
 /
 struct
+SK_API
 SkRSXform
 {
 static

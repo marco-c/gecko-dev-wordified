@@ -47,6 +47,8 @@ include
 /
 private
 /
+base
+/
 SkTemplates
 .
 h
@@ -58,7 +60,20 @@ include
 /
 private
 /
+base
+/
 SkTo
+.
+h
+"
+#
+include
+"
+src
+/
+core
+/
+SkStrike
 .
 h
 "
@@ -80,6 +95,10 @@ ctype
 .
 h
 >
+using
+namespace
+skia_private
+;
 /
 *
 "
@@ -1087,7 +1106,7 @@ to
 search
 it
 .
-SkAutoTMalloc
+AutoTMalloc
 <
 uint8_t
 >
@@ -1889,7 +1908,10 @@ move
 fontStream
 )
 doc
-true
+SkPDFSteamCompressionEnabled
+:
+:
+Yes
 )
 )
 ;
@@ -1927,8 +1949,8 @@ SkTypeface
 typeface
 )
 {
-SkFontID
-fontID
+SkTypefaceID
+typefaceID
 =
 typeface
 -
@@ -1955,7 +1977,7 @@ fType1GlyphNames
 .
 find
 (
-fontID
+typefaceID
 )
 ;
 if
@@ -2004,7 +2026,7 @@ fType1GlyphNames
 .
 set
 (
-fontID
+typefaceID
 std
 :
 :
@@ -2038,8 +2060,8 @@ SkTypeface
 typeface
 )
 {
-SkFontID
-fontID
+SkTypefaceID
+typefaceID
 =
 typeface
 -
@@ -2061,7 +2083,7 @@ fFontDescriptors
 .
 find
 (
-fontID
+typefaceID
 )
 )
 {
@@ -2101,7 +2123,7 @@ fFontDescriptors
 .
 set
 (
-fontID
+typefaceID
 fontDescriptor
 )
 ;
@@ -2139,6 +2161,7 @@ vector
 <
 SkString
 >
+&
 glyphNames
 =
 type_1_glyphnames
@@ -2305,7 +2328,7 @@ firstGlyphID
 +
 2
 ;
-SkAutoTArray
+AutoTArray
 <
 SkGlyphID
 >
@@ -2377,7 +2400,7 @@ metrics
 .
 glyphs
 (
-SkMakeSpan
+SkSpan
 (
 glyphIDs
 .

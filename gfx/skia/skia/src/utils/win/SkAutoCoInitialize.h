@@ -60,6 +60,8 @@ include
 /
 private
 /
+base
+/
 SkNoncopyable
 .
 h
@@ -69,7 +71,7 @@ include
 "
 src
 /
-core
+base
 /
 SkLeanWindows
 .

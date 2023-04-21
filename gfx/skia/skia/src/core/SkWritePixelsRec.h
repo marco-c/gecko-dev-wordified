@@ -61,6 +61,11 @@ SkPixmap
 .
 h
 "
+#
+include
+<
+cstddef
+>
 /
 *
 *

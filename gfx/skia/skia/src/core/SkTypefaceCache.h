@@ -68,6 +68,8 @@ include
 /
 private
 /
+base
+/
 SkTArray
 .
 h
@@ -318,7 +320,7 @@ Helper
 returns
 a
 unique
-fontID
+typefaceID
 to
 pass
 to
@@ -333,8 +335,8 @@ SkTypeface
 *
 /
 static
-SkFontID
-NewFontID
+SkTypefaceID
+NewTypefaceID
 (
 )
 ;
@@ -422,7 +424,10 @@ int
 count
 )
 ;
-SkTArray
+skia_private
+:
+:
+TArray
 <
 sk_sp
 <

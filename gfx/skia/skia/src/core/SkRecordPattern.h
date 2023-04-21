@@ -46,6 +46,8 @@ include
 /
 private
 /
+base
+/
 SkTLogic
 .
 h
@@ -244,8 +246,11 @@ template
 typename
 T
 >
-SK_WHEN
-(
+std
+:
+:
+enable_if_t
+<
 (
 T
 :
@@ -258,7 +263,7 @@ kDrawWithPaint_Tag
 =
 kDrawWithPaint_Tag
 bool
-)
+>
 operator
 (
 )
@@ -287,8 +292,11 @@ template
 typename
 T
 >
-SK_WHEN
-(
+std
+:
+:
+enable_if_t
+<
 (
 T
 :
@@ -301,7 +309,7 @@ kDrawWithPaint_Tag
 =
 kDraw_Tag
 bool
-)
+>
 operator
 (
 )
@@ -324,8 +332,11 @@ template
 typename
 T
 >
-SK_WHEN
-(
+std
+:
+:
+enable_if_t
+<
 !
 (
 T
@@ -336,7 +347,7 @@ kTags
 kDraw_Tag
 )
 bool
-)
+>
 operator
 (
 )

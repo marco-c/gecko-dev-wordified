@@ -91,6 +91,9 @@ tmx
 SkTileMode
 tmy
 const
+SkSamplingOptions
+&
+const
 SkImage_Base
 *
 const
@@ -101,9 +104,10 @@ SkArenaAlloc
 alloc
 )
 ;
-typedef
-SkShaderBase
+using
 INHERITED
+=
+SkShaderBase
 ;
 }
 ;

@@ -59,6 +59,8 @@ include
 /
 private
 /
+base
+/
 SkTDArray
 .
 h

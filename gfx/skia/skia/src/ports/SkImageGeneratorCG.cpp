@@ -62,6 +62,8 @@ include
 /
 private
 /
+base
+/
 SkTemplates
 .
 h
@@ -84,9 +86,9 @@ include
 "
 src
 /
-core
+codec
 /
-SkPixmapPriv
+SkPixmapUtils
 .
 h
 "
@@ -225,9 +227,10 @@ const
 SkEncodedOrigin
 fOrigin
 ;
-typedef
-SkImageGenerator
+using
 INHERITED
+=
+SkImageGenerator
 ;
 }
 ;
@@ -547,10 +550,7 @@ originInt
 }
 if
 (
-SkPixmapPriv
-:
-:
-ShouldSwapWidthHeight
+SkEncodedOriginSwapsWidthHeight
 (
 origin
 )
@@ -558,7 +558,7 @@ origin
 {
 info
 =
-SkPixmapPriv
+SkPixmapUtils
 :
 :
 SwapWidthHeight
@@ -935,7 +935,7 @@ get
 }
 ;
 return
-SkPixmapPriv
+SkPixmapUtils
 :
 :
 Orient

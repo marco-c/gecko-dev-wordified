@@ -55,7 +55,7 @@ include
 "
 src
 /
-core
+base
 /
 SkLeanWindows
 .
@@ -79,7 +79,7 @@ the
 reasons
 is
 that
-You
+you
 must
 *
 have
@@ -114,11 +114,11 @@ have
 to
 create
 a
-dummy
+placeholder
 GL
+*
 ctx
 to
-*
 get
 the
 proc
@@ -1041,11 +1041,11 @@ HGLRC
 shareContext
 )
 ;
-virtual
 ~
 SkWGLPbufferContext
 (
 )
+override
 ;
 HDC
 getDC
