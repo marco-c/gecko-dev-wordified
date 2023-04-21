@@ -3306,7 +3306,6 @@ CaretPoint
 :
 SuggestCaretPointTo
 (
-const
 EditorBase
 &
 aEditorBase

@@ -728,7 +728,6 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 SuggestCaretPointTo
 (
-const
 EditorBase
 &
 aEditorBase
