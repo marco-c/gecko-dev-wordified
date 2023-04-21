@@ -491,6 +491,11 @@ CheckIsReadyForRendering
 (
 )
 ;
+bool
+IsReadyForRendering
+(
+)
+;
 void
 ApplyTextureFlagsToRemoteTexture
 (
