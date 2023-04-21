@@ -253,6 +253,7 @@ mvpis_short
 )
 ;
 do
+{
 vp8_write
 (
 w
@@ -272,6 +273,7 @@ i
 ]
 )
 ;
+}
 while
 (
 +
@@ -299,6 +301,7 @@ implicit
 *
 /
 do
+{
 vp8_write
 (
 w
@@ -318,6 +321,7 @@ i
 ]
 )
 ;
+}
 while
 (
 -

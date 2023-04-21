@@ -1710,6 +1710,10 @@ s0
 ;
 avg
 =
+(
+unsigned
+int
+)
 _mm_cvtsi128_si32
 (
 s0
@@ -2660,7 +2664,6 @@ __m128i
 (
 src_diff
 +
-=
 src_stride
 )
 )

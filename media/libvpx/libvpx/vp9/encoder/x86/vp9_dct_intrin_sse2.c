@@ -1125,9 +1125,8 @@ const
 __m128i
 kZero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -3992,9 +3991,8 @@ const
 __m128i
 k__const_0
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -10477,9 +10475,8 @@ const
 __m128i
 kZero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 u

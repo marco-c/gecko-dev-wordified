@@ -3723,7 +3723,7 @@ _mm_setzero_si128
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -4510,7 +4510,7 @@ words
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -4526,7 +4526,7 @@ res_reg_m1012
 *
 (
 (
-uint32_t
+int
 *
 )
 (

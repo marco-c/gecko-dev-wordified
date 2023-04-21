@@ -5257,6 +5257,13 @@ refresh_golden_frame
 =
 =
 1
+&
+&
+!
+cpi
+-
+>
+use_svc
 )
 {
 cr

@@ -376,7 +376,6 @@ char
 *
 Get
 (
-void
 )
 {
 static

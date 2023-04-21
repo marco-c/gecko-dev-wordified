@@ -180,7 +180,6 @@ seed
 uint16_t
 Rand16
 (
-void
 )
 {
 const
@@ -217,7 +216,6 @@ value
 int32_t
 Rand20Signed
 (
-void
 )
 {
 /
@@ -259,7 +257,6 @@ value
 int16_t
 Rand16Signed
 (
-void
 )
 {
 /
@@ -293,7 +290,6 @@ Generate
 int16_t
 Rand13Signed
 (
-void
 )
 {
 /
@@ -335,7 +331,6 @@ value
 int16_t
 Rand9Signed
 (
-void
 )
 {
 /
@@ -383,7 +378,6 @@ value
 uint8_t
 Rand8
 (
-void
 )
 {
 const
@@ -437,7 +431,6 @@ value
 uint8_t
 Rand8Extremes
 (
-void
 )
 {
 /
@@ -591,7 +584,6 @@ static
 int
 DeterministicSeed
 (
-void
 )
 {
 return

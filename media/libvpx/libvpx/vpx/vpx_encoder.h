@@ -790,7 +790,7 @@ vpx_codec_frame_flags_t
 #
 define
 VPX_FRAME_IS_KEY
-0x1
+0x1u
 /
 *
 *
@@ -832,7 +832,7 @@ one
 #
 define
 VPX_FRAME_IS_DROPPABLE
-0x2
+0x2u
 /
 *
 !
@@ -852,7 +852,7 @@ shown
 #
 define
 VPX_FRAME_IS_INVISIBLE
-0x4
+0x4u
 /
 *
 !
@@ -871,7 +871,7 @@ frame
 #
 define
 VPX_FRAME_IS_FRAGMENT
-0x8
+0x8u
 /
 *
 !
@@ -932,7 +932,7 @@ frames
 #
 define
 VPX_ERROR_RESILIENT_DEFAULT
-0x1
+0x1u
 /
 *
 !
@@ -978,11 +978,21 @@ partition
 boundary
 .
 *
+\
+note
+This
+is
+only
+supported
+by
+VP8
+.
+*
 /
 #
 define
 VPX_ERROR_RESILIENT_PARTITIONS
-0x2
+0x2u
 /
 *
 !

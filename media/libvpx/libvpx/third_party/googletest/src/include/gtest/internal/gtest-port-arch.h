@@ -297,8 +297,6 @@ DAMAGE
 .
 /
 /
-/
-/
 The
 Google
 C
@@ -562,6 +560,16 @@ __Fuchsia__
 #
 define
 GTEST_OS_FUCHSIA
+1
+#
+elif
+defined
+(
+__GNU__
+)
+#
+define
+GTEST_OS_GNU_HURD
 1
 #
 elif

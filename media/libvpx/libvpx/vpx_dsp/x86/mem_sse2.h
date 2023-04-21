@@ -181,7 +181,7 @@ void
 a
 )
 {
-uint32_t
+int
 val
 ;
 memcpy
@@ -217,7 +217,7 @@ v
 )
 {
 const
-uint32_t
+int
 val
 =
 _mm_cvtsi128_si32

@@ -1427,7 +1427,7 @@ cpi
 )
 ;
 int
-vp9_one_pass_cbr_svc_start_layer
+vp9_one_pass_svc_start_layer
 (
 struct
 VP9_COMP

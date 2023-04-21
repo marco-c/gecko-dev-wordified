@@ -366,8 +366,7 @@ VideoSource
 *
 video
 const
-unsigned
-long
+vpx_enc_frame_flags_t
 frame_flags
 )
 {
@@ -456,8 +455,7 @@ VideoSource
 &
 video
 const
-unsigned
-long
+vpx_enc_frame_flags_t
 frame_flags
 )
 {

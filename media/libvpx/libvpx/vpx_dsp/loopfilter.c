@@ -1488,7 +1488,7 @@ int8_t
 mask
 uint8_t
 thresh
-uint8_t
+int8_t
 flat
 uint8_t
 *
@@ -2246,9 +2246,9 @@ int8_t
 mask
 uint8_t
 thresh
-uint8_t
+int8_t
 flat
-uint8_t
+int8_t
 flat2
 uint8_t
 *
@@ -5062,7 +5062,7 @@ int8_t
 mask
 uint8_t
 thresh
-uint8_t
+int8_t
 flat
 uint16_t
 *
@@ -5841,9 +5841,9 @@ int8_t
 mask
 uint8_t
 thresh
-uint8_t
+int8_t
 flat
-uint8_t
+int8_t
 flat2
 uint16_t
 *

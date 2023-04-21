@@ -2894,9 +2894,8 @@ new
 "
 ones
 .
-static
 void
-reset_temporal_layer_change
+vp8_reset_temporal_layer_change
 (
 VP8_COMP
 *
@@ -12852,7 +12851,7 @@ temporal_pattern_counter
 =
 0
 ;
-reset_temporal_layer_change
+vp8_reset_temporal_layer_change
 (
 cpi
 oxcf

@@ -175,6 +175,10 @@ val
 )
 ;
 return
+(
+unsigned
+int
+)
 _mm_cvtsi128_si32
 (
 val
@@ -646,6 +650,9 @@ vsum
 *
 sum
 =
+(
+int
+)
 add32x4_sse2
 (
 vsum
@@ -732,6 +739,9 @@ sum
 )
 ;
 return
+(
+int
+)
 add32x4_sse2
 (
 t
@@ -2421,6 +2431,9 @@ vsse
 ;
 sum
 =
+(
+int
+)
 add32x4_sse2
 (
 vsum
@@ -2558,6 +2571,9 @@ vsse
 ;
 sum
 =
+(
+int
+)
 add32x4_sse2
 (
 vsum
@@ -2695,6 +2711,9 @@ vsse
 ;
 sum
 =
+(
+int
+)
 add32x4_sse2
 (
 vsum

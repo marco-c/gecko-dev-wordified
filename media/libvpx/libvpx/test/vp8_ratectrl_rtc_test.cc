@@ -892,6 +892,7 @@ VP8E_SET_MAX_INTRA_BITRATE_PCT
 )
 ;
 }
+else
 if
 (
 frame_params_

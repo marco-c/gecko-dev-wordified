@@ -970,6 +970,7 @@ val_m
 asm
 volatile
 (
+\
 "
 lwr
 %
@@ -1083,6 +1084,7 @@ val_m
 asm
 volatile
 (
+\
 "
 ldr
 %

@@ -4555,7 +4555,7 @@ _mm_setzero_si128
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -5165,7 +5165,7 @@ result
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -5181,7 +5181,7 @@ reg_0
 *
 (
 (
-uint32_t
+int
 *
 )
 (

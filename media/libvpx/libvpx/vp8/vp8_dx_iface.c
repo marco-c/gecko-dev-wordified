@@ -1871,6 +1871,7 @@ resolution_change
 =
 0
 ;
+volatile
 unsigned
 int
 w

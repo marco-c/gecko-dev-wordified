@@ -5868,7 +5868,7 @@ corrupted
 =
 1
 ;
-break
+return
 ;
 }
 if

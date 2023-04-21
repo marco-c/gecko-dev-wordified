@@ -909,7 +909,6 @@ __m128i
 (
 src_diff
 +
-=
 src_stride
 )
 )
@@ -2578,7 +2577,6 @@ __m256i
 (
 src_diff
 +
-=
 src_stride
 )
 )
