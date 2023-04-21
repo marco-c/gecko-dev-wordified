@@ -273,10 +273,6 @@ nsTArray
 uint8_t
 >
 streamBlob
-;
-streamBlob
-.
-SetLength
 (
 statstg
 .

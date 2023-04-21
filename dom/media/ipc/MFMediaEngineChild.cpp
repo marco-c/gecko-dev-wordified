@@ -2148,10 +2148,6 @@ hasVideo
 =
 %
 d
-encrypted
-=
-%
-d
 "
 aInfo
 .
@@ -2161,11 +2157,6 @@ HasAudio
 aInfo
 .
 HasVideo
-(
-)
-aInfo
-.
-IsEncrypted
 (
 )
 )

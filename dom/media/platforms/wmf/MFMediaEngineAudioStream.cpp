@@ -570,12 +570,6 @@ bitDepth
 %
 "
 PRIu64
-"
-encrypted
-=
-%
-d
-"
 GUIDToStr
 (
 subType
@@ -587,13 +581,6 @@ info
 .
 mRate
 bitDepth
-mAudioInfo
-.
-mCrypto
-.
-IsEncrypted
-(
-)
 )
 ;
 *
