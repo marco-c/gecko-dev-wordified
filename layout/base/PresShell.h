@@ -1273,6 +1273,7 @@ return
 mLastOverWindowPointerLocation
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 Init
 (
@@ -1990,6 +1991,12 @@ ResizeReflowOptions
 NoOption
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+ForceResizeReflowWithCurrentDimensions
+(
+)
+;
 /
 *
 *
@@ -2224,6 +2231,7 @@ changed
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeRecreateMobileViewportManager
 (
