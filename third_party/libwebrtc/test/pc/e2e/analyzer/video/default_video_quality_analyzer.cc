@@ -7288,12 +7288,7 @@ MetricMetadataKey
 :
 :
 kExperimentalTestNameMetadataKey
-webrtc_pc_e2e
-:
-:
-GetCurrentTestName
-(
-)
+test_label_
 }
 }
 )
@@ -7979,12 +7974,7 @@ MetricMetadataKey
 :
 :
 kExperimentalTestNameMetadataKey
-webrtc_pc_e2e
-:
-:
-GetCurrentTestName
-(
-)
+test_label_
 }
 }
 ;
