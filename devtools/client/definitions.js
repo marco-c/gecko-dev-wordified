@@ -1803,9 +1803,12 @@ browser
 toolbox
 .
 return
+(
 toolbox
 .
-target
+commands
+.
+descriptorFront
 .
 isLocalTab
 |
@@ -1813,6 +1816,7 @@ isLocalTab
 toolbox
 .
 isBrowserToolbox
+)
 ;
 }
 build
@@ -3119,7 +3123,9 @@ toolbox
 >
 toolbox
 .
-target
+commands
+.
+descriptorFront
 .
 isLocalTab
 onClick
