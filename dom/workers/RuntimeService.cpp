@@ -11648,6 +11648,13 @@ cx
 mWorkerPrivate
 -
 >
+ShutdownModuleLoader
+(
+)
+;
+mWorkerPrivate
+-
+>
 RunShutdownTasks
 (
 )
