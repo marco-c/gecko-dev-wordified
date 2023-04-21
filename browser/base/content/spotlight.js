@@ -225,17 +225,6 @@ CONFIG
 ;
 window
 .
-AWGetRegion
-=
-receive
-(
-"
-GET_REGION
-"
-)
-;
-window
-.
 AWGetSelectedTheme
 =
 receive
