@@ -1224,13 +1224,6 @@ aNode
 AbstractRange
 (
 aNode
-/
-*
-aIsDynamicRange
-=
-*
-/
-true
 )
 mRegisteredClosestCommonInclusiveAncestor
 (
