@@ -496,7 +496,10 @@ parallel
 marking
 .
 class
-MOZ_STACK_CLASS
+alignas
+(
+TypicalCacheLineSize
+)
 ParallelMarkTask
 :
 public
