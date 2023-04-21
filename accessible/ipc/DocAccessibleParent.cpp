@@ -4957,8 +4957,11 @@ DocAccessibleParent
 :
 RecvBindChildDoc
 (
+NotNull
+<
 PDocAccessibleParent
 *
+>
 aChildDoc
 const
 uint64_t
@@ -5045,6 +5048,10 @@ DocAccessibleParent
 >
 (
 aChildDoc
+.
+get
+(
+)
 )
 ;
 childDoc
@@ -8110,6 +8117,10 @@ get_PDocAccessible
 )
 .
 AsParent
+(
+)
+.
+get
 (
 )
 )

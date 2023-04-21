@@ -1393,9 +1393,12 @@ get
 auto
 writableFileStreamParent
 =
-MakeRefPtr
+MakeNotNull
+<
+RefPtr
 <
 FileSystemWritableFileStreamParent
+>
 >
 (
 this

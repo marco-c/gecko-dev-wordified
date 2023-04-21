@@ -1124,8 +1124,11 @@ ipc
 IPCResult
 RecvBindChildDoc
 (
+NotNull
+<
 PDocAccessibleParent
 *
+>
 aChildDoc
 const
 uint64_t

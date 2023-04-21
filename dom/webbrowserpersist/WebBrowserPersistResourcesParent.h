@@ -182,8 +182,11 @@ ipc
 IPCResult
 RecvVisitDocument
 (
+NotNull
+<
 PWebBrowserPersistDocumentParent
 *
+>
 aSubDocument
 )
 override

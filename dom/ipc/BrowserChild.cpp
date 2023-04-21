@@ -4432,7 +4432,10 @@ cc
 >
 ProvideWindowCommon
 (
+WrapNotNull
+(
 this
+)
 aOpenWindowInfo
 aChromeFlags
 aCalledFromJS

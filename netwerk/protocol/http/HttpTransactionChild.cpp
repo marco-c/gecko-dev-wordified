@@ -883,6 +883,10 @@ transWithPushedStream
 AsChild
 (
 )
+.
+get
+(
+)
 )
 ;
 transWithPushedStream

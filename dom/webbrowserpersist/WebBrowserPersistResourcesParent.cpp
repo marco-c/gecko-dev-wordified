@@ -372,8 +372,11 @@ WebBrowserPersistResourcesParent
 :
 RecvVisitDocument
 (
+NotNull
+<
 PWebBrowserPersistDocumentParent
 *
+>
 aSubDocument
 )
 {
@@ -414,6 +417,10 @@ WebBrowserPersistDocumentParent
 >
 (
 aSubDocument
+.
+get
+(
+)
 )
 -
 >
