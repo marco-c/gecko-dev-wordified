@@ -675,7 +675,7 @@ newState
 ;
 }
 async
-setOptions
+setPhotoOptions
 (
 source_id
 settings
