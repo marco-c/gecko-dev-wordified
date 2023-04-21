@@ -67,6 +67,14 @@ sys
 import
 yaml
 from
+mozbuild
+.
+shellutil
+import
+quote
+as
+shellquote
+from
 vsdownload
 import
 (
@@ -120,6 +128,38 @@ help
 Output
 file
 "
+)
+    
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+exclude
+"
+default
+=
+[
+]
+nargs
+=
+"
++
+"
+help
+=
+"
+Patterns
+of
+file
+names
+to
+exclude
+"
+    
 )
     
 args
@@ -356,6 +396,26 @@ vsix
 "
 )
 )
+                
+and
+not
+any
+(
+e
+in
+payload
+[
+"
+fileName
+"
+]
+for
+e
+in
+args
+.
+exclude
+)
             
 ]
             
@@ -424,7 +484,7 @@ out
         
 for
 i
-arg
+arg_
 in
 enumerate
 (
@@ -437,6 +497,13 @@ argv
 ]
 )
 :
+            
+arg
+=
+shellquote
+(
+arg_
+)
             
 if
 i
