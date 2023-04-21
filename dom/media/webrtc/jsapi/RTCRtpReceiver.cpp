@@ -4433,13 +4433,10 @@ if
 (
 mReceiving
 =
-GetJsepTransceiver
-(
-)
-.
-mRecvTrack
-.
-GetActive
+mTransceiver
+-
+>
+IsReceiving
 (
 )
 )
