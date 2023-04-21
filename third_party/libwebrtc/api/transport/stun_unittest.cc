@@ -13885,7 +13885,7 @@ EXPECT_EQ
 (
 message
 .
-ValidateMessageIntegrity
+RevalidateMessageIntegrity
 (
 "
 Invalid
