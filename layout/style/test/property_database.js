@@ -89457,12 +89457,15 @@ other_values
 auto
 "
 "
-invisible
+hidden
 "
 ]
 invalid_values
 :
 [
+"
+invisible
+"
 "
 partially
 -
@@ -89474,7 +89477,7 @@ auto
 "
 "
 visible
-invisible
+hidden
 "
 ]
 }
