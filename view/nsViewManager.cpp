@@ -2200,7 +2200,12 @@ presShell
 >
 SyncWindowProperties
 (
-view
+/
+*
+aSync
+*
+/
+true
 )
 ;
 }
