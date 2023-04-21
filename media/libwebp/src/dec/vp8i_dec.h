@@ -379,11 +379,11 @@ DEC_MAJ_VERSION
 #
 define
 DEC_MIN_VERSION
-2
+3
 #
 define
 DEC_REV_VERSION
-4
+0
 /
 /
 YUV

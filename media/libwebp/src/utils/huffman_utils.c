@@ -1119,8 +1119,7 @@ table
 uint32_t
 low
 =
--
-1
+0xffffffffu
 ;
 /
 /

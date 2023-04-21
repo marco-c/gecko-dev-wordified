@@ -375,7 +375,10 @@ rgb_mask
 =
 _mm_set1_epi32
 (
-0xffffff00u
+(
+int
+)
+0xffffff00
 )
 ;
 /
@@ -392,9 +395,9 @@ _mm_set_epi32
 0
 0
 ~
-0u
+0
 ~
-0u
+0
 )
 ;
 __m128i
@@ -1112,7 +1115,7 @@ a_mask
 =
 _mm_set1_epi32
 (
-0xffu
+0xff
 )
 ;
 /
@@ -1129,9 +1132,9 @@ _mm_set_epi32
 0
 0
 ~
-0u
+0
 ~
-0u
+0
 )
 ;
 __m128i
@@ -1892,7 +1895,10 @@ kMult
 =
 _mm_set1_epi16
 (
-0x8081u
+(
+short
+)
+0x8081
 )
 ;
 const
@@ -2871,6 +2877,9 @@ m_color
 =
 _mm_set1_epi32
 (
+(
+int
+)
 color
 )
 ;

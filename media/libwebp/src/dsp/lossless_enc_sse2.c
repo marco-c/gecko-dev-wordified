@@ -717,6 +717,9 @@ mask_ag
 =
 _mm_set1_epi32
 (
+(
+int
+)
 0xff00ff00
 )
 ;
@@ -4200,6 +4203,9 @@ mask_or
 =
 _mm_set1_epi32
 (
+(
+int
+)
 0xff000000
 )
 ;
@@ -4734,6 +4740,9 @@ black
 =
 _mm_set1_epi32
 (
+(
+int
+)
 ARGB_BLACK
 )
 ;
