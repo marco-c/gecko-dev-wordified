@@ -3256,6 +3256,10 @@ PrintColorAdjust
 "
                 
 "
+ForcedColorAdjust
+"
+                
+"
 Resize
 "
                 

@@ -13540,6 +13540,13 @@ hyphenate
 character
 "
 "
+forced
+-
+color
+-
+adjust
+"
+"
 cursor
 "
 "
