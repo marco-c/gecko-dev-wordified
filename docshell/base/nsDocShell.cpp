@@ -50130,11 +50130,12 @@ background
 %
 s
 "
-prinURI
--
->
-GetSpecOrDefault
+nsContentUtils
+:
+:
+TruncatedURLForDisplay
 (
+prinURI
 )
 .
 get
