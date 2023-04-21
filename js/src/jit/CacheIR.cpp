@@ -7377,7 +7377,7 @@ returnFromIC
 trackAttached
 (
 "
-MegamorphicNativeSlot
+GetMegamorphicNativeSlot
 "
 )
 ;
@@ -7545,7 +7545,7 @@ returnFromIC
 trackAttached
 (
 "
-NativeSlot
+GetNativeSlot
 "
 )
 ;
@@ -8373,7 +8373,7 @@ returnFromIC
 trackAttached
 (
 "
-WindowProxySlot
+GetWindowProxySlot
 "
 )
 ;
@@ -10272,7 +10272,7 @@ returnFromIC
 trackAttached
 (
 "
-GenericProxy
+GetGenericProxy
 "
 )
 ;
@@ -10993,7 +10993,7 @@ returnFromIC
 trackAttached
 (
 "
-DOMProxyShadowed
+GetDOMProxyShadowed
 "
 )
 ;
@@ -11657,7 +11657,7 @@ returnFromIC
 trackAttached
 (
 "
-DOMProxyUnshadowed
+GetDOMProxyUnshadowed
 "
 )
 ;
@@ -16852,7 +16852,7 @@ returnFromIC
 trackAttached
 (
 "
-ArgumentsObjectArg
+GetArgumentsObjectArg
 "
 )
 ;
@@ -18950,7 +18950,7 @@ returnFromIC
 trackAttached
 (
 "
-ProxyElement
+GetProxyElement
 "
 )
 ;
@@ -21342,7 +21342,7 @@ returnFromIC
 trackAttached
 (
 "
-EnvironmentName
+GetEnvironmentName
 "
 )
 ;
@@ -22344,7 +22344,7 @@ returnFromIC
 trackAttached
 (
 "
-EnvironmentName
+SetEnvironmentName
 "
 )
 ;
@@ -23302,7 +23302,7 @@ returnFromIC
 trackAttached
 (
 "
-ArgumentsObjectArg
+HasArgumentsObjectArg
 "
 )
 ;
@@ -26148,7 +26148,7 @@ returnFromIC
 trackAttached
 (
 "
-MegamorphicNativeSlot
+SetMegamorphicNativeSlot
 "
 )
 ;
@@ -26216,7 +26216,7 @@ rhsId
 trackAttached
 (
 "
-NativeSlot
+SetNativeSlot
 "
 )
 ;
@@ -30057,7 +30057,7 @@ returnFromIC
 trackAttached
 (
 "
-GenericProxy
+SetGenericProxy
 "
 )
 ;
@@ -30159,7 +30159,7 @@ returnFromIC
 trackAttached
 (
 "
-DOMProxyShadowed
+SetDOMProxyShadowed
 "
 )
 ;
@@ -30446,7 +30446,7 @@ rhsId
 trackAttached
 (
 "
-DOMProxyUnshadowed
+SetDOMProxyUnshadowed
 "
 )
 ;
@@ -31185,7 +31185,7 @@ returnFromIC
 trackAttached
 (
 "
-ProxyElement
+SetProxyElement
 "
 )
 ;
@@ -31548,7 +31548,7 @@ rhsId
 trackAttached
 (
 "
-WindowProxySlot
+SetWindowProxySlot
 "
 )
 ;
@@ -33201,7 +33201,7 @@ newShape
 trackAttached
 (
 "
-AddSlot
+AddSlotFixed
 "
 )
 ;
@@ -33270,7 +33270,7 @@ newShape
 trackAttached
 (
 "
-AddSlot
+AddSlotDynamic
 "
 )
 ;
@@ -34447,6 +34447,8 @@ type
 trackAttached
 (
 "
+TypeOf
+.
 Primitive
 "
 )
@@ -34528,6 +34530,8 @@ type
 trackAttached
 (
 "
+TypeOf
+.
 Object
 "
 )
@@ -49787,11 +49791,11 @@ trackAttached
 isMax
 ?
 "
-MathMax
+MathMaxArray
 "
 :
 "
-MathMin
+MathMinArray
 "
 )
 ;
@@ -58520,7 +58524,7 @@ returnFromIC
 trackAttached
 (
 "
-TypedArrayByteOffset
+IntrinsicTypedArrayByteOffset
 "
 )
 ;
@@ -58899,7 +58903,7 @@ returnFromIC
 trackAttached
 (
 "
-TypedArrayLength
+IntrinsicTypedArrayLength
 "
 )
 ;
@@ -71700,6 +71704,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 String
 "
 )
@@ -71794,6 +71800,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 Object
 "
 )
@@ -71888,6 +71896,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 Symbol
 "
 )
@@ -72069,6 +72079,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 StrictDifferentTypes
 "
 )
@@ -72229,6 +72241,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 Int32
 "
 )
@@ -72405,6 +72419,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 Number
 "
 )
@@ -72491,6 +72507,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 BigInt
 "
 )
@@ -72711,6 +72729,8 @@ lhsId
 trackAttached
 (
 "
+Compare
+.
 AnyNull
 "
 )
@@ -72742,6 +72762,8 @@ lhsId
 trackAttached
 (
 "
+Compare
+.
 AnyUndefined
 "
 )
@@ -72783,6 +72805,8 @@ rhsId
 trackAttached
 (
 "
+Compare
+.
 NullAny
 "
 )
@@ -72814,6 +72838,8 @@ rhsId
 trackAttached
 (
 "
+Compare
+.
 UndefinedAny
 "
 )
@@ -72948,6 +72974,8 @@ Eq
 trackAttached
 (
 "
+Compare
+.
 SloppyNullUndefined
 "
 )
@@ -73070,6 +73098,8 @@ StrictEq
 trackAttached
 (
 "
+Compare
+.
 StrictNullUndefinedEquality
 "
 )
@@ -73270,6 +73300,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 StringNumber
 "
 )
@@ -73615,6 +73647,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 PrimitiveSymbol
 "
 )
@@ -73802,6 +73836,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 BigIntInt32
 "
 )
@@ -74016,6 +74052,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 BigIntNumber
 "
 )
@@ -74201,6 +74239,8 @@ returnFromIC
 trackAttached
 (
 "
+Compare
+.
 BigIntString
 "
 )
