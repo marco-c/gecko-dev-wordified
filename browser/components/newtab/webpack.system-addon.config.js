@@ -323,13 +323,7 @@ node_modules
 (
 ?
 !
-(
 fluent
-|
-fluent
--
-react
-)
 \
 /
 )

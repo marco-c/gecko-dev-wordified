@@ -59,10 +59,13 @@ MPL
 import
 {
 FluentBundle
+FluentResource
 }
 from
 "
 fluent
+/
+bundle
 "
 ;
 /
@@ -321,7 +324,10 @@ attr
 }
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 {
 key
@@ -330,6 +336,7 @@ key
 {
 string
 }
+)
 )
 ;
 }
