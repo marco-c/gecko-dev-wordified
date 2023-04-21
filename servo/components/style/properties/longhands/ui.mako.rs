@@ -2594,7 +2594,7 @@ computed
 ViewTimelineInset
 :
 :
-zero
+default
 (
 )
 "

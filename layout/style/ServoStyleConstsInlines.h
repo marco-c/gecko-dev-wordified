@@ -7209,7 +7209,7 @@ start
 LengthPercentageOrAuto
 :
 :
-Zero
+Auto
 (
 )
 )
@@ -7218,7 +7218,7 @@ end
 LengthPercentageOrAuto
 :
 :
-Zero
+Auto
 (
 )
 )
