@@ -251,6 +251,15 @@ expectedLabelValues
 =
 [
 "
+__proto__
+"
+"
+httpOnly
+"
+"
+value
+"
+"
 bob
 "
 "
@@ -276,6 +285,9 @@ httpOnly
 "
 "
 value
+"
+"
+__proto__
 "
 "
 bob
