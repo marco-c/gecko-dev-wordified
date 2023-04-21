@@ -14,7 +14,6 @@ strict
 ;
 const
 {
-expectAccessAllowed
 testPrefix
 topLevelDocument
 }
