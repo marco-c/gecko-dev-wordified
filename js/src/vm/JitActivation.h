@@ -1262,6 +1262,16 @@ size_t
 inlineDepth
 =
 0
+MaybeReadFallback
+:
+:
+FallbackConsequence
+consequence
+=
+MaybeReadFallback
+:
+:
+Fallback_Invalidate
 )
 ;
 /
