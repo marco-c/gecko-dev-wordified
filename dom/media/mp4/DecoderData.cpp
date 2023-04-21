@@ -1523,7 +1523,7 @@ decoder
 as
 well
 .
-Index
+MP4SampleIndex
 :
 :
 Indice
