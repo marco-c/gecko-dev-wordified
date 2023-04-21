@@ -356,14 +356,7 @@ CharT
 >
 template
 <
-typename
-JSONTokenizer
-<
-CharT
->
-:
-:
-StringType
+JSONStringType
 ST
 >
 JSONToken
@@ -548,6 +541,9 @@ str
 ST
 =
 =
+JSONStringType
+:
+:
 PropertyName
 )
 ?
@@ -774,6 +770,9 @@ str
 ST
 =
 =
+JSONStringType
+:
+:
 PropertyName
 )
 ?
@@ -2333,6 +2332,9 @@ case
 return
 readString
 <
+JSONStringType
+:
+:
 LiteralValue
 >
 (
@@ -2868,6 +2870,9 @@ current
 return
 readString
 <
+JSONStringType
+:
+:
 PropertyName
 >
 (
@@ -3556,6 +3561,9 @@ current
 return
 readString
 <
+JSONStringType
+:
+:
 PropertyName
 >
 (
