@@ -493,6 +493,8 @@ Register
 scratch
 Register
 scratch2
+CallFlags
+flags
 uint32_t
 numBoundArgs
 bool
@@ -510,6 +512,8 @@ Register
 scratch
 CallFlags
 flags
+bool
+isBoundFunction
 )
 ;
 template
