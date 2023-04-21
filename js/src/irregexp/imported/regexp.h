@@ -1031,6 +1031,8 @@ Handle
 JSRegExp
 >
 re
+RegExpFlags
+flags
 Handle
 <
 String
