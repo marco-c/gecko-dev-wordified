@@ -429,9 +429,11 @@ server
 /
 actors
 /
-style
+utils
+/
+stylesheets
 -
-sheet
+manager
 .
 js
 "
