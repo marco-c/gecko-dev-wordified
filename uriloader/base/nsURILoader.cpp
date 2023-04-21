@@ -122,6 +122,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIURIContentListener
 .
 h
@@ -520,6 +527,9 @@ aURILoader
 )
 mDataConversionDepthLimit
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -554,6 +564,9 @@ nullptr
 )
 mDataConversionDepthLimit
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -1768,6 +1781,9 @@ if
 forceExternalHandling
 &
 &
+mozilla
+:
+:
 StaticPrefs
 :
 :
