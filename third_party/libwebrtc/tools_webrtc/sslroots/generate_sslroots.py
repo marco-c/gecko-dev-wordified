@@ -1136,18 +1136,52 @@ command
 1
 ]
   
-renamed_output
+decl_block
 =
-output
-.
-replace
-(
 '
 unsigned
 char
-XXX_
+.
+*
+_
+(
+%
+s
+|
+%
+s
+|
+%
+s
+)
 '
-                                  
+%
+\
+    
+(
+_SUBJECT_NAME_ARRAY
+_PUBLIC_KEY_ARRAY
+_CERTIFICATE_ARRAY
+)
+  
+prog
+=
+re
+.
+compile
+(
+decl_block
+re
+.
+IGNORECASE
+)
+  
+renamed_output
+=
+prog
+.
+sub
+(
 '
 const
 unsigned
@@ -1156,9 +1190,13 @@ char
 +
 label
 +
+r
 '
 _
+\
+1
 '
+output
 )
   
 filtered_output
@@ -1180,7 +1218,7 @@ char
 ;
 '
   
-prog
+prog2
 =
 re
 .
@@ -1209,7 +1247,7 @@ full_cert
     
 filtered_output
 =
-prog
+prog2
 .
 sub
 (
@@ -1241,7 +1279,7 @@ d
 +
 '
   
-prog2
+prog3
 =
 re
 .
@@ -1259,7 +1297,7 @@ VERBOSE
   
 result
 =
-prog2
+prog3
 .
 findall
 (
