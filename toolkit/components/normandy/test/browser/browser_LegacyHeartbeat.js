@@ -40,7 +40,7 @@ BaseAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ actions
 /
 BaseAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -64,7 +66,7 @@ ClientEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -77,7 +79,9 @@ lib
 /
 ClientEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -88,7 +92,7 @@ Heartbeat
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -101,7 +105,9 @@ lib
 /
 Heartbeat
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -112,7 +118,7 @@ Normandy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -123,7 +129,9 @@ normandy
 /
 Normandy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -184,7 +192,7 @@ RecipeRunner
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -197,7 +205,9 @@ lib
 /
 RecipeRunner
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

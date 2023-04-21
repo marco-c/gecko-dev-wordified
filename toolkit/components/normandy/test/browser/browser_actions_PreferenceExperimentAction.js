@@ -70,7 +70,7 @@ ClientEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -83,7 +83,9 @@ lib
 /
 ClientEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -94,7 +96,7 @@ PreferenceExperiments
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -107,7 +109,9 @@ lib
 /
 PreferenceExperiments
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -118,7 +122,7 @@ Uptake
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -131,7 +135,9 @@ lib
 /
 Uptake
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -142,7 +148,7 @@ BaseAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -155,7 +161,9 @@ actions
 /
 BaseAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -166,7 +174,7 @@ PreferenceExperimentAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -179,7 +187,9 @@ actions
 /
 PreferenceExperimentAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -190,7 +200,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -203,7 +213,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

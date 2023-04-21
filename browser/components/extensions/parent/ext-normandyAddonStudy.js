@@ -68,7 +68,7 @@ AddonStudies
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -81,7 +81,9 @@ lib
 /
 AddonStudies
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

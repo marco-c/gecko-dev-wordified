@@ -53,7 +53,7 @@ BranchedAddonStudyAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -66,7 +66,9 @@ actions
 /
 BranchedAddonStudyAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -77,7 +79,7 @@ BaseAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -90,7 +92,9 @@ actions
 /
 BaseAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -101,7 +105,7 @@ TelemetryEvents
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -114,7 +118,9 @@ lib
 /
 TelemetryEvents
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -149,7 +155,7 @@ AddonStudies
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -162,7 +168,9 @@ lib
 /
 AddonStudies
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -561,7 +569,7 @@ AddonStudies
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -574,7 +582,9 @@ lib
 /
 AddonStudies
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

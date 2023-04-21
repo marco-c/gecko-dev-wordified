@@ -62,7 +62,7 @@ PrefUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -75,7 +75,9 @@ lib
 /
 PrefUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -112,7 +114,7 @@ TelemetryEvents
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -125,7 +127,9 @@ lib
 /
 TelemetryEvents
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
