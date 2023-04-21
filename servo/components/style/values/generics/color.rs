@@ -310,7 +310,7 @@ u8
 ]
 pub
 enum
-ColorSpace
+InterpolationColorSpace
 {
 /
 /
@@ -462,7 +462,7 @@ Oklab
 Lch
 }
 impl
-ColorSpace
+InterpolationColorSpace
 {
 /
 /
@@ -799,7 +799,7 @@ in
 pub
 space
 :
-ColorSpace
+InterpolationColorSpace
 /
 /
 /
@@ -838,7 +838,7 @@ Self
 {
 space
 :
-ColorSpace
+InterpolationColorSpace
 :
 :
 Srgb
@@ -906,7 +906,7 @@ in
 let
 space
 =
-ColorSpace
+InterpolationColorSpace
 :
 :
 parse

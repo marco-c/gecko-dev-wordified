@@ -123,10 +123,10 @@ color
 :
 {
 ColorInterpolationMethod
-ColorSpace
 GenericColor
 GenericColorMix
 HueInterpolationMethod
+InterpolationColorSpace
 }
 ;
 use
@@ -844,7 +844,7 @@ interpolation
 .
 space
 {
-ColorSpace
+InterpolationColorSpace
 :
 :
 Srgb
@@ -859,7 +859,7 @@ mix_in
 <
 RGBA
 >
-ColorSpace
+InterpolationColorSpace
 :
 :
 LinearSrgb
@@ -874,7 +874,7 @@ mix_in
 <
 LinearRGBA
 >
-ColorSpace
+InterpolationColorSpace
 :
 :
 Xyz
@@ -889,7 +889,7 @@ mix_in
 <
 XYZD65A
 >
-ColorSpace
+InterpolationColorSpace
 :
 :
 XyzD50
@@ -904,7 +904,7 @@ mix_in
 <
 XYZD50A
 >
-ColorSpace
+InterpolationColorSpace
 :
 :
 Lab
@@ -919,7 +919,7 @@ mix_in
 <
 LABA
 >
-ColorSpace
+InterpolationColorSpace
 :
 :
 Hwb
@@ -934,7 +934,7 @@ mix_in
 <
 HWBA
 >
-ColorSpace
+InterpolationColorSpace
 :
 :
 Hsl
@@ -949,7 +949,7 @@ mix_in
 <
 HSLA
 >
-ColorSpace
+InterpolationColorSpace
 :
 :
 Lch
