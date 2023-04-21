@@ -446,6 +446,13 @@ arguments
 :
 value
 level
+timeStamp
+:
+ChromeUtils
+.
+dateNow
+(
+)
 chromeContext
 :
 targetActor
