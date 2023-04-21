@@ -173,6 +173,12 @@ QuirksMode
 VisitedHandlingMode
 }
 ;
+use
+selectors
+:
+:
+NthIndexCache
+;
 /
 /
 /
@@ -343,6 +349,13 @@ I
 document_states_changed
 :
 DocumentState
+nth_index_cache
+:
+&
+'
+a
+mut
+NthIndexCache
 quirks_mode
 :
 QuirksMode
@@ -375,7 +388,7 @@ MatchingMode
 :
 Normal
 None
-None
+nth_index_cache
 VisitedHandlingMode
 :
 :
