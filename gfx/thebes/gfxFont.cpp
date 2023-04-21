@@ -5663,6 +5663,14 @@ mFontEntry
 IsUpright
 (
 )
+|
+|
+mFontEntry
+-
+>
+HasSlantVariation
+(
+)
 )
 {
 return
