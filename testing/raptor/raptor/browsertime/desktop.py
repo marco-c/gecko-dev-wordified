@@ -195,6 +195,12 @@ chrome
 "
 chromium
 "
+            
+"
+custom
+-
+car
+"
         
 )
 :

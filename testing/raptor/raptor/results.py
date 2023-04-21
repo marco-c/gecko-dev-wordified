@@ -187,6 +187,11 @@ chrome
 chromium
 "
 "
+custom
+-
+car
+"
+"
 safari
 "
 )
