@@ -119,15 +119,11 @@ License
 .
 *
 /
-const
+import
 {
 Sqlite
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -143,7 +139,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 {
@@ -1178,6 +1173,7 @@ method
 .
 *
 /
+export
 class
 FirefoxAdapter
 extends
@@ -3067,12 +3063,3 @@ undefined
 }
 ;
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FirefoxAdapter
-"
-]
-;

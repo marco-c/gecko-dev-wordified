@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Async
-"
-]
-;
 const
 Timer
 =
@@ -97,6 +88,7 @@ operations
 .
 *
 /
+export
 var
 Async
 =

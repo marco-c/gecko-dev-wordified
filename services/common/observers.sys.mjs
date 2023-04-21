@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-Observers
-"
-]
-;
 /
 *
 *
@@ -94,6 +85,7 @@ version
 2
 *
 /
+export
 var
 Observers
 =
