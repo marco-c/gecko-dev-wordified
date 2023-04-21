@@ -2446,6 +2446,10 @@ test_summary
 subtest_name_filters
         
 handle_custom_data
+        
+*
+*
+kwargs
     
 )
 :
@@ -4343,6 +4347,18 @@ metric
 ]
 )
                 
+if
+kwargs
+.
+get
+(
+"
+gather_cpuTime
+"
+None
+)
+:
+                    
 _extract_cpu_vals
 (
 )
@@ -6437,6 +6453,18 @@ False
 "
 true
 "
+                
+gather_cpuTime
+=
+test
+.
+get
+(
+"
+gather_cpuTime
+"
+None
+)
             
 )
 :
