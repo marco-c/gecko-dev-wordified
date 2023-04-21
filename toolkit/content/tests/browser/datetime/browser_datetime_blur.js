@@ -920,7 +920,7 @@ KEY_Tab
 {
 repeat
 :
-2
+3
 }
 )
 ;

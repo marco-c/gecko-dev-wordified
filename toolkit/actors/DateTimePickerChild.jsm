@@ -581,15 +581,6 @@ _inputElement
 .
 ownerGlobal
 ;
-if
-(
-this
-.
-_inputElement
-.
-openOrClosedShadowRoot
-)
-{
 /
 /
 dateTimeBoxElement
@@ -643,7 +634,6 @@ win
 )
 )
 ;
-}
 break
 ;
 }
