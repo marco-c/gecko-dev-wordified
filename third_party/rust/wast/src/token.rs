@@ -2632,8 +2632,13 @@ _
 |
 parser
 .
-error
+error_at
 (
+parser
+.
+prev_span
+(
+)
 "
 malformed
 UTF

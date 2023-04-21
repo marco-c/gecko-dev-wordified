@@ -724,6 +724,8 @@ import
 "
 f
 "
+"
+"
 ComponentTypeRef
 :
 :
@@ -920,6 +922,10 @@ name
 :
 &
 str
+url
+:
+&
+str
 ty
 :
 ComponentTypeRef
@@ -931,6 +937,17 @@ mut
 Self
 {
 name
+.
+encode
+(
+&
+mut
+self
+.
+bytes
+)
+;
+url
 .
 encode
 (

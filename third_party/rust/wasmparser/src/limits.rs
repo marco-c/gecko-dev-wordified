@@ -438,7 +438,7 @@ pub
 const
 MAX_WASM_TYPE_SIZE
 :
-usize
+u32
 =
 100_000
 ;

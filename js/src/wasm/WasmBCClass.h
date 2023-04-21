@@ -14016,6 +14016,16 @@ nodiscard
 ]
 ]
 bool
+emitMemDiscard
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitTableGet
 (
 )

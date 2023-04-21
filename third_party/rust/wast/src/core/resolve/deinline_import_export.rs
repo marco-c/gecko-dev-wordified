@@ -834,7 +834,9 @@ TableKind
 :
 :
 Normal
-(
+{
+ty
+:
 TableType
 {
 limits
@@ -860,7 +862,10 @@ elem
 *
 elem
 }
-)
+init_expr
+:
+None
+}
 ;
 let
 payload
@@ -989,9 +994,10 @@ TableKind
 :
 :
 Normal
-(
-_
-)
+{
+.
+.
+}
 =
 >
 {

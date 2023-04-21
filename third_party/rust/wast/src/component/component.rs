@@ -17,12 +17,6 @@ use
 crate
 :
 :
-core
-;
-use
-crate
-:
-:
 kw
 ;
 use
@@ -2333,9 +2327,6 @@ under
 .
 pub
 exports
-:
-core
-:
 :
 InlineExport
 <

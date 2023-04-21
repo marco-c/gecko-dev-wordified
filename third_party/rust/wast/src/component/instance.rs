@@ -1376,9 +1376,6 @@ under
 pub
 exports
 :
-core
-:
-:
 InlineExport
 <
 '
