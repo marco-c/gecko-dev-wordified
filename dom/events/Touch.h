@@ -400,6 +400,7 @@ nsIGlobalObject
 GetParentObject
 (
 )
+const
 ;
 /
 /
