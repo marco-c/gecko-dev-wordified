@@ -4675,7 +4675,9 @@ dest64
 dest64
 Operand
 (
-0xffffffff
+0xffff
+'
+ffff
 )
 )
 ;
