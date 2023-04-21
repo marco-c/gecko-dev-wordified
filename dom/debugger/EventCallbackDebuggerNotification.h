@@ -308,7 +308,7 @@ final
 {
 public
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 explicit
 EventCallbackDebuggerNotificationGuard
 (
@@ -405,7 +405,7 @@ EventCallbackDebuggerNotificationGuard
 =
 delete
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 ~
 EventCallbackDebuggerNotificationGuard
 (
