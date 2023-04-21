@@ -95,15 +95,15 @@ running
 full
 suite
 previous
+audio
+decoding
 tests
-may
+might
 have
 left
 some
-utility
 /
 /
-processes
 running
 and
 this
@@ -112,7 +112,6 @@ interfere
 with
 our
 testing
-.
 add_setup
 (
 async
@@ -122,7 +121,7 @@ ensureNoExistingProcess
 )
 {
 await
-killUtilityProcesses
+killPendingUtilityProcess
 (
 )
 ;
@@ -459,6 +458,7 @@ StopProfiler
 await
 cleanUtilityProcessShutdown
 (
+utilityPid
 )
 ;
 }
