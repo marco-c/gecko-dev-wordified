@@ -221,7 +221,7 @@ constexpr
 size_t
 kCookieSize
 =
-31
+36
 ;
 StateCookie
 (
