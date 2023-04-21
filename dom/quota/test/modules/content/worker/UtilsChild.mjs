@@ -30,8 +30,9 @@ zero
 /
 *
 /
+export
 const
-_UtilsChild
+UtilsChild
 =
 {
 async
@@ -110,16 +111,3 @@ data
 }
 }
 ;
-function
-importUtilsChild
-(
-)
-{
-return
-{
-UtilsChild
-:
-_UtilsChild
-}
-;
-}

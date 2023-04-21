@@ -438,7 +438,7 @@ worker
 /
 UtilsChild
 .
-js
+mjs
 "
 ]
 TEST_HARNESS_FILES
