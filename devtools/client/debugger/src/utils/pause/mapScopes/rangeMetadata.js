@@ -145,7 +145,9 @@ loadRangeMetadata
 (
 location
 originalAstScopes
+{
 sourceMapLoader
+}
 )
 {
 const
