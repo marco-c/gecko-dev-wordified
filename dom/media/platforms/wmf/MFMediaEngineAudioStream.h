@@ -142,13 +142,6 @@ TrackType
 kAudioTrack
 ;
 }
-bool
-IsEncrypted
-(
-)
-const
-override
-;
 private
 :
 HRESULT
