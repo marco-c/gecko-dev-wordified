@@ -1866,7 +1866,7 @@ JS
 :
 StackForUntrustedScript
 -
-1024
+4096
 *
 int
 (
