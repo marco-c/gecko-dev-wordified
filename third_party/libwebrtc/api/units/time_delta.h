@@ -143,6 +143,12 @@ unit_base
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 namespace
 webrtc
 {

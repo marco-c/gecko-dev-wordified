@@ -121,6 +121,12 @@ flat_tree
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 #
 include
 "

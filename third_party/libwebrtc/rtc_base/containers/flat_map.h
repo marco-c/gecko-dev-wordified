@@ -140,6 +140,12 @@ flat_tree
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 namespace
 webrtc
 {
