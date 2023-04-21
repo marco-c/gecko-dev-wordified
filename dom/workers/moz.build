@@ -173,6 +173,11 @@ WorkerError
 h
 "
 "
+WorkerIPCUtils
+.
+h
+"
+"
 WorkerLoadInfo
 .
 h

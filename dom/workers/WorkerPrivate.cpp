@@ -14026,6 +14026,8 @@ aCx
 nullptr
 parent
 aScriptURL
+aWorkerType
+aRequestCredentials
 aIsChromeWorker
 InheritLoadGroup
 aWorkerKind
@@ -14801,6 +14803,15 @@ const
 nsAString
 &
 aScriptURL
+const
+enum
+WorkerType
+&
+aWorkerType
+const
+RequestCredentials
+&
+aCredentials
 bool
 aIsChromeWorker
 LoadGroupBehavior
@@ -14952,6 +14963,8 @@ ChannelFromScriptURLWorkerThread
 aCx
 aParent
 aScriptURL
+aWorkerType
+aCredentials
 loadInfo
 )
 ;
@@ -16891,6 +16904,8 @@ loadInfo
 .
 mLoadGroup
 url
+aWorkerType
+aCredentials
 clientInfo
 ContentPolicyType
 (
