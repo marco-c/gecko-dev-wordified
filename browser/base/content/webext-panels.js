@@ -1096,7 +1096,7 @@ uri
 ;
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 extensionUrl
 {

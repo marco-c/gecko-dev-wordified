@@ -5174,7 +5174,7 @@ linkedPanel
 {
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 url
 options
@@ -5213,7 +5213,7 @@ SSTabRestoring
 >
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 url
 options

@@ -897,7 +897,7 @@ this
 .
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 this
 .
