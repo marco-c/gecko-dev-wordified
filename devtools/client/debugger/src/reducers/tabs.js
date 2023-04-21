@@ -238,7 +238,7 @@ addVisibleTabs
 state
 action
 .
-items
+sourceActors
 )
 ;
 case
