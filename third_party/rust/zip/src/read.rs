@@ -2881,6 +2881,14 @@ ZIP64
 file
 .
 if
+!
+footer
+.
+record_too_small
+(
+)
+&
+&
 footer
 .
 disk_number
@@ -3204,6 +3212,14 @@ reader
 ?
 ;
 if
+!
+footer
+.
+record_too_small
+(
+)
+&
+&
 footer
 .
 disk_number
@@ -3654,7 +3670,6 @@ fs
 :
 create_dir_all
 (
-&
 p
 )
 ?
@@ -5461,7 +5476,6 @@ String
 from_utf8_lossy
 (
 &
-*
 file_name_raw
 )
 .
@@ -5497,7 +5511,6 @@ String
 from_utf8_lossy
 (
 &
-*
 file_comment_raw
 )
 .
@@ -7263,6 +7276,8 @@ of
 the
 file
 in
+bytes
+in
 the
 archive
 pub
@@ -7291,6 +7306,8 @@ size
 of
 the
 file
+in
+bytes
 when
 uncompressed
 pub
@@ -8612,7 +8629,6 @@ String
 from_utf8_lossy
 (
 &
-*
 file_name_raw
 )
 .
@@ -8903,8 +8919,6 @@ take
 result
 .
 compressed_size
-as
-u64
 )
 ;
 let

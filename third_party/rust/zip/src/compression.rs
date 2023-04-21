@@ -1190,11 +1190,11 @@ write
 f
 "
 {
+self
 :
 ?
 }
 "
-self
 )
 }
 }
@@ -1493,11 +1493,11 @@ format
 (
 "
 {
+method
 :
 ?
 }
 "
-method
 )
 ;
 let
@@ -1508,9 +1508,9 @@ format
 (
 "
 {
+method
 }
 "
-method
 )
 ;
 assert_eq
