@@ -5553,7 +5553,6 @@ nsPresContext
 :
 FlushFontCache
 (
-void
 )
 {
 if
