@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NativeNt
 .
 h
@@ -165,6 +174,7 @@ PHANDLE
 aOutHandle
 )
 ;
+MOZ_NO_STACK_PROTECTOR
 NTSTATUS
 NTAPI
 patched_NtMapViewOfSection
