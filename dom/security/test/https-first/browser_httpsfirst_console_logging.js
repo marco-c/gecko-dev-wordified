@@ -282,7 +282,7 @@ https
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

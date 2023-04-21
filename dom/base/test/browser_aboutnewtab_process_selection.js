@@ -336,7 +336,7 @@ expectedChildCount
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tabs
 [

@@ -1176,7 +1176,7 @@ type
 }
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

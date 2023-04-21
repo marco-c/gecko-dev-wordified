@@ -162,7 +162,7 @@ insecure
 url
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -903,7 +903,7 @@ insecure
 url
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -306,7 +306,7 @@ on_new_console_messages
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

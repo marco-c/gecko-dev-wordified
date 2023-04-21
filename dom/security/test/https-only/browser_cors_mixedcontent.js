@@ -606,7 +606,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 SERVER_URL

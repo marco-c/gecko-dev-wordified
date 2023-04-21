@@ -179,7 +179,7 @@ false
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL1
@@ -327,7 +327,7 @@ correctly
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL2
@@ -426,7 +426,7 @@ visit
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL1
@@ -531,7 +531,7 @@ navigating
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL2
@@ -820,7 +820,7 @@ once
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL1
@@ -1070,7 +1070,7 @@ anotherValue
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL1_WITH_COOP_COEP
@@ -1283,7 +1283,7 @@ expected
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL1

@@ -271,7 +271,7 @@ blank
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -405,7 +405,7 @@ blank
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

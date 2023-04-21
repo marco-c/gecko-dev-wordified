@@ -353,7 +353,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 dummyPageURL

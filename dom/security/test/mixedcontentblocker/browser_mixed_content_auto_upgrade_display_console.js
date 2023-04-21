@@ -147,7 +147,7 @@ on_auto_upgrade_message
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

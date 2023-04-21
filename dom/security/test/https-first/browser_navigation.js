@@ -159,7 +159,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 url1

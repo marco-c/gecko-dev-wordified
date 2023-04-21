@@ -263,7 +263,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 originalBrowser
 TEST_PAGE
@@ -503,7 +503,7 @@ _blank
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 originalBrowser
 TEST_IFRAME_PAGE
@@ -863,7 +863,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 currentBrowser
 TEST_PAGE

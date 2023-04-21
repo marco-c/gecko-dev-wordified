@@ -185,7 +185,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri2

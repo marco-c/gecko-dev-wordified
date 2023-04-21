@@ -153,7 +153,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 newLocation
@@ -584,7 +584,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 secondLocation

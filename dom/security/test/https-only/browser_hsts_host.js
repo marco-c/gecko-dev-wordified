@@ -168,7 +168,7 @@ response
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -360,7 +360,7 @@ https
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -476,7 +476,7 @@ header
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

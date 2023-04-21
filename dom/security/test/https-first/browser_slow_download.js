@@ -797,7 +797,7 @@ PUBLIC
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TEST_URI

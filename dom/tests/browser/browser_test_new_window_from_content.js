@@ -936,7 +936,7 @@ came
 from
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aBrowser
 kContentDoc

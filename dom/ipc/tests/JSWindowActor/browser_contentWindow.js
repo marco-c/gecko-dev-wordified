@@ -170,7 +170,7 @@ url
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 url

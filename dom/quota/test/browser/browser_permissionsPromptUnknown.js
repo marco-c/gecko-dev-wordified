@@ -221,7 +221,7 @@ testPageURL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

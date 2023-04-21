@@ -186,7 +186,7 @@ https
 /
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 kTestURI

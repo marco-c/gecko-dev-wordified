@@ -150,7 +150,7 @@ html
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL0

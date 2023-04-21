@@ -340,7 +340,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newBrowser
 url

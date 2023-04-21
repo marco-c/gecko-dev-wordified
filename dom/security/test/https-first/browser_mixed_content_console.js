@@ -166,7 +166,7 @@ on_console_message
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

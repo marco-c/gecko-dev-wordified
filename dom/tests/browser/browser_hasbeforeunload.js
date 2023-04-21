@@ -3022,7 +3022,7 @@ tests
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PAGE_URL
@@ -4480,7 +4480,7 @@ tests
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PAGE_URL

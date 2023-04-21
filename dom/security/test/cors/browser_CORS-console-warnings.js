@@ -403,7 +403,7 @@ blank
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 test_uri
@@ -480,7 +480,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 test_two_uri

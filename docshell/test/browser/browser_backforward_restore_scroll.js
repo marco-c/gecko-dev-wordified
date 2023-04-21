@@ -236,7 +236,7 @@ URL2
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

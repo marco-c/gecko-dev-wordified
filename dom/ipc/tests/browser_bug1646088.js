@@ -281,7 +281,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uriString

@@ -163,7 +163,7 @@ page
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -401,7 +401,7 @@ page
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

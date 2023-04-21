@@ -629,7 +629,7 @@ https
 /
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

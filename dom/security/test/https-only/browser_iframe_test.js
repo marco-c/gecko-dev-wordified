@@ -1222,7 +1222,7 @@ maybeErrorPage
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 SERVER_URL

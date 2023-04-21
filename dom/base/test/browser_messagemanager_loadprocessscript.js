@@ -955,7 +955,7 @@ main
 process
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -1160,7 +1160,7 @@ DEFAULT_REMOTE_TYPE
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

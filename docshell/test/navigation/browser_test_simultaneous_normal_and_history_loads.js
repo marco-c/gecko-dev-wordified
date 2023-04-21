@@ -177,7 +177,7 @@ i
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 testPage

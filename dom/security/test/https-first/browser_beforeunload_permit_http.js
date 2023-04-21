@@ -874,7 +874,7 @@ http
 page
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 {
@@ -990,6 +990,11 @@ get
 timed
 out
 )
+BrowserTestUtils
+.
+loadURIString
+(
+browser
 /
 /
 eslint
@@ -1008,11 +1013,6 @@ no
 insecure
 -
 url
-BrowserTestUtils
-.
-loadURI
-(
-browser
 "
 http
 :
@@ -1098,7 +1098,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 {
@@ -1262,7 +1262,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 {
@@ -1283,7 +1283,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 {
