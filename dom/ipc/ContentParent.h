@@ -9526,8 +9526,10 @@ mChildXSocketFdDup
 ;
 #
 endif
+RefPtr
+<
 PProcessHangMonitorParent
-*
+>
 mHangMonitorActor
 ;
 UniquePtr

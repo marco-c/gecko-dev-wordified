@@ -24530,8 +24530,10 @@ HangMonitorParent
 :
 ShutdownOnThread
 .
+RefPtr
+<
 PProcessHangMonitorParent
-*
+>
 mHangMonitorActor
 ;
 }
