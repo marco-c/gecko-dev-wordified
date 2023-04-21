@@ -641,8 +641,6 @@ thread
 const
 pid
 =
-parseInt
-(
 label
 .
 match
@@ -661,14 +659,11 @@ d
 [
 1
 ]
-10
-)
 ;
 ok
 (
 pid
 >
-=
 lastPID
 The
 content
@@ -704,7 +699,6 @@ localeCompare
 lastThreadLabel
 )
 >
-=
 0
 Worker
 thread

@@ -1274,7 +1274,8 @@ setBreakableLines
 (
 cx
 source
-sourceActor
+.
+id
 )
 )
 ;
