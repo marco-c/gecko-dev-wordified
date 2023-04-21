@@ -20779,6 +20779,16 @@ onscrollend
 "
 )
     
+Atom
+(
+"
+onbeforetoggle
+"
+"
+onbeforetoggle
+"
+)
+    
 #
 WebExtensions
     
