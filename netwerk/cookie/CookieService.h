@@ -570,6 +570,8 @@ bool
 aHadCrossSiteRedirects
 bool
 aHttpBound
+bool
+aAllowSecureCookiesToInsecureOrigin
 const
 OriginAttributes
 &
