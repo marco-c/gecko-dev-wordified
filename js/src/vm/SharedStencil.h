@@ -5046,9 +5046,6 @@ static
 bool
 shareScriptData
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

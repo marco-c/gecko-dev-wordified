@@ -2099,17 +2099,6 @@ disk
 "
 )
 ;
-JSContext
-*
-cx
-=
-xdr
--
->
-cx
-(
-)
-;
 uint32_t
 size
 ;
@@ -2557,7 +2546,6 @@ SharedImmutableScriptData
 :
 shareScriptData
 (
-cx
 xdr
 -
 >

@@ -3357,6 +3357,13 @@ cpp
 "
 vm
 /
+SharedScriptDataTableHolder
+.
+cpp
+"
+"
+vm
+/
 SourceHook
 .
 cpp
