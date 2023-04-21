@@ -320,6 +320,16 @@ reg
 ;
 #
 endif
+IonICPerfSpewer
+&
+perfSpewer
+(
+)
+{
+return
+perfSpewer_
+;
+}
 private
 :
 const
@@ -363,6 +373,9 @@ stubJitCodeOffset_
 ;
 bool
 savedLiveRegs_
+;
+IonICPerfSpewer
+perfSpewer_
 ;
 template
 <
