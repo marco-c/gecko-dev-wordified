@@ -95,8 +95,7 @@ check_user_prompt_closed_without_exception
 (
 session
 create_dialog
-inline
-get_shadow_page
+get_test_page
 )
 :
     
@@ -112,30 +111,11 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
-"
-<
-div
->
-<
-p
->
-bar
-<
-/
-p
->
-<
-div
->
-"
-)
 )
         
-outer_element
+host
 =
 session
 .
@@ -146,8 +126,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -157,7 +135,7 @@ False
         
 shadow_root
 =
-outer_element
+host
 .
 shadow_root
         
@@ -168,6 +146,9 @@ session
 execute_script
 (
 "
+"
+"
+            
 return
 arguments
 [
@@ -179,15 +160,17 @@ shadowRoot
 querySelector
 (
 '
-p
+input
 '
 )
+            
 "
-                                               
+"
+"
 args
 =
 (
-outer_element
+host
 )
 )
         
@@ -212,7 +195,7 @@ css
 selector
 "
 "
-p
+input
 "
 )
         
@@ -251,8 +234,7 @@ check_user_prompt_closed_with_exception
 (
 session
 create_dialog
-inline
-get_shadow_page
+get_test_page
 )
 :
     
@@ -268,30 +250,11 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
-"
-<
-div
->
-<
-p
->
-bar
-<
-/
-p
->
-<
-div
->
-"
-)
 )
         
-outer_element
+host
 =
 session
 .
@@ -302,8 +265,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -313,7 +274,7 @@ False
         
 shadow_root
 =
-outer_element
+host
 .
 shadow_root
         
@@ -338,7 +299,7 @@ css
 selector
 "
 "
-p
+input
 "
 )
         
@@ -373,8 +334,7 @@ check_user_prompt_not_closed_but_exception
 (
 session
 create_dialog
-inline
-get_shadow_page
+get_test_page
 )
 :
     
@@ -389,30 +349,11 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
-"
-<
-div
->
-<
-p
->
-bar
-<
-/
-p
->
-<
-div
->
-"
-)
 )
         
-outer_element
+host
 =
 session
 .
@@ -423,8 +364,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -434,7 +373,7 @@ False
         
 shadow_root
 =
-outer_element
+host
 .
 shadow_root
         
@@ -459,7 +398,7 @@ css
 selector
 "
 "
-p
+input
 "
 )
         
