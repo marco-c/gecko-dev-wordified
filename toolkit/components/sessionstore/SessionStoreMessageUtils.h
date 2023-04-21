@@ -85,6 +85,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+URIUtils
+.
+h
+"
+#
+include
+"
 SessionStoreData
 .
 h
