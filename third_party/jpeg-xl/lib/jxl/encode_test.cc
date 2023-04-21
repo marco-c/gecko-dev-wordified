@@ -2563,7 +2563,7 @@ get
 (
 )
 frame_settings
-2830
+2803
 /
 *
 lossy_use_original_profile
@@ -3181,7 +3181,7 @@ get
 (
 )
 frame_settings
-5190
+5181
 true
 )
 ;
@@ -3240,7 +3240,7 @@ get
 (
 )
 frame_settings
-5620
+5580
 true
 )
 ;
@@ -3299,7 +3299,7 @@ get
 (
 )
 frame_settings
-4676
+4647
 true
 )
 ;

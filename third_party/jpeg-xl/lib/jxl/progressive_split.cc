@@ -49,7 +49,7 @@ lib
 /
 jxl
 /
-enc_progressive_split
+progressive_split
 .
 h
 "

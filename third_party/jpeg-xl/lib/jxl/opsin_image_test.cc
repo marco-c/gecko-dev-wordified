@@ -137,7 +137,7 @@ lib
 /
 jxl
 /
-matrix_ops
+linalg
 .
 h
 "
