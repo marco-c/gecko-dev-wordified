@@ -87,7 +87,7 @@ include
 "
 api
 /
-stats_types
+legacy_stats_types
 .
 h
 "
