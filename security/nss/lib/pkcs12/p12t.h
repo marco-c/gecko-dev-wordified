@@ -342,6 +342,10 @@ sec_PKCS12SafeContents
 *
 safeContents
 ;
+SECItem
+*
+unknownBag
+;
 }
 safeBagContent
 ;
