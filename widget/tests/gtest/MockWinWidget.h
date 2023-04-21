@@ -262,7 +262,7 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
 aInitData
 =
@@ -287,7 +287,7 @@ const
 DesktopIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
 aInitData
 =

@@ -880,7 +880,7 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
 aInitData
 )
@@ -1424,7 +1424,7 @@ gdk_window_set_decorations
 gint
 ConvertBorderStyles
 (
-nsBorderStyle
+BorderStyle
 aStyle
 )
 ;
@@ -2038,12 +2038,12 @@ ClearTransparencyBitmap
 void
 SetTransparencyMode
 (
-nsTransparencyMode
+TransparencyMode
 aMode
 )
 override
 ;
-nsTransparencyMode
+TransparencyMode
 GetTransparencyMode
 (
 )
@@ -2813,7 +2813,7 @@ nsIWidget
 >
 mParent
 ;
-nsPopupType
+PopupType
 mPopupHint
 {
 }
@@ -2957,7 +2957,7 @@ void
 void
 SetWindowDecoration
 (
-nsBorderStyle
+BorderStyle
 aStyle
 )
 ;

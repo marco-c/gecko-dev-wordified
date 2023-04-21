@@ -1548,7 +1548,10 @@ is
 still
 set
 to
-nsViewVisibility_kHide
+ViewVisibility
+:
+:
+Hide
 (
 waiting
 the
@@ -1588,7 +1591,10 @@ frame
 /
 visibility
 to
-nsViewVisibility_kShow
+ViewVisibility
+:
+:
+Show
 )
 .
 this

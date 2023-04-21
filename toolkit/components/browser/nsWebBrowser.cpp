@@ -537,7 +537,10 @@ return
 nullptr
 ;
 }
-nsWidgetInitData
+widget
+:
+:
+InitData
 widgetInit
 ;
 widgetInit
@@ -550,7 +553,13 @@ widgetInit
 .
 mWindowType
 =
-eWindowType_child
+widget
+:
+:
+WindowType
+:
+:
+Child
 ;
 LayoutDeviceIntRect
 bounds

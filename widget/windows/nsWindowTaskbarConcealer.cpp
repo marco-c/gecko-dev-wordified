@@ -1009,7 +1009,10 @@ pWin
 mWindowType
 !
 =
-eWindowType_toplevel
+WindowType
+:
+:
+TopLevel
 )
 {
 return

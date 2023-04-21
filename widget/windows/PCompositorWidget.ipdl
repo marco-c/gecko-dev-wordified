@@ -176,7 +176,7 @@ h
 "
 ;
 using
-nsTransparencyMode
+TransparencyMode
 from
 "
 nsIWidget
@@ -251,7 +251,7 @@ LeavePresentLock
 async
 UpdateTransparency
 (
-nsTransparencyMode
+TransparencyMode
 aMode
 )
 ;

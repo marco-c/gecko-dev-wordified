@@ -132,6 +132,12 @@ mozilla
 namespace
 widget
 {
+enum
+class
+TransparencyMode
+:
+uint8_t
+;
 namespace
 remote_backbuffer
 {
@@ -377,7 +383,7 @@ IPCResult
 RecvUpdateTransparency
 (
 const
-nsTransparencyMode
+TransparencyMode
 &
 aMode
 )
@@ -514,7 +520,7 @@ mozilla
 :
 Atomic
 <
-nsTransparencyMode
+uint32_t
 MemoryOrdering
 :
 :

@@ -223,7 +223,7 @@ override
 void
 UpdateTransparency
 (
-nsTransparencyMode
+TransparencyMode
 aMode
 )
 override
@@ -312,7 +312,7 @@ mCompositorWnd
 HWND
 mWnd
 ;
-nsTransparencyMode
+TransparencyMode
 mTransparencyMode
 ;
 std

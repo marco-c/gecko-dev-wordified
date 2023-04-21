@@ -342,7 +342,10 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+widget
+:
+:
+InitData
 *
 aInitData
 =
@@ -375,7 +378,10 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+widget
+:
+:
+InitData
 *
 aInitData
 =

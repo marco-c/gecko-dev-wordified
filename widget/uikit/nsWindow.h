@@ -176,7 +176,10 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+widget
+:
+:
+InitData
 *
 aInitData
 =

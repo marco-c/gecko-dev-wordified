@@ -1655,12 +1655,15 @@ if
 mWindow
 -
 >
-WindowType
+GetWindowType
 (
 )
 =
 =
-eWindowType_invisible
+WindowType
+:
+:
+Invisible
 )
 {
 return
