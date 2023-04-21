@@ -2082,7 +2082,7 @@ RFPHelper
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2094,13 +2094,15 @@ actors
 /
 RFPHelperParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2112,7 +2114,9 @@ actors
 /
 RFPHelperChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
