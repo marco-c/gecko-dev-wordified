@@ -35,8 +35,13 @@ Services
 .
 clipboard
 .
-supportsFindClipboard
+isClipboardTypeSupported
 (
+Services
+.
+clipboard
+.
+kFindClipboard
 )
 ;
 add_task
