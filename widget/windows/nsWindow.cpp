@@ -37383,8 +37383,6 @@ mWnd
 msg
 wParam
 lParam
-*
-aRetValue
 )
 ;
 bool
@@ -37402,6 +37400,8 @@ printEvent
 .
 SetResult
 (
+*
+aRetValue
 result
 )
 ;
