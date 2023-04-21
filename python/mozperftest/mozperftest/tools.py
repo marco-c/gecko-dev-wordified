@@ -642,6 +642,14 @@ splitter
 1
 ]
             
+new_test_name
+=
+test_name
+            
+new_platform_name
+=
+platform
+            
 if
 kwargs
 [
@@ -650,17 +658,18 @@ new_test_name
 "
 ]
 is
+not
 None
 :
                 
+new_test_name
+=
 kwargs
 [
 "
 new_test_name
 "
 ]
-=
-test_name
             
 if
 kwargs
@@ -670,17 +679,18 @@ new_platform
 "
 ]
 is
+not
 None
 :
                 
+new_platform_name
+=
 kwargs
 [
 "
-new_platform
+new_platform_name
 "
 ]
-=
-platform
             
 all_changed_revisions
 changed_metric_revisions
@@ -696,12 +706,7 @@ test_name
                 
 new_test_name
 =
-kwargs
-[
-"
 new_test_name
-"
-]
                 
 platform
 =
@@ -709,12 +714,7 @@ platform
                 
 new_platform
 =
-kwargs
-[
-"
-new_platform
-"
-]
+new_platform_name
                 
 base_revision
 =
