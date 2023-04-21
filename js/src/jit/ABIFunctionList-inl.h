@@ -1032,6 +1032,17 @@ js
 jit
 :
 :
+AssertPropertyLookup
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 AssertSetObjectHash
 )
 \
