@@ -5045,6 +5045,12 @@ ParseModuleToStencil
 cx
 fc
 stackLimit
+cx
+-
+>
+tempLifoAlloc
+(
+)
 *
 stencilInput_
 &
