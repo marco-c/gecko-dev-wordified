@@ -4652,13 +4652,6 @@ grow
 /
 unconditionally
 .
-requestAnimationFrame
-(
-(
-)
-=
->
-{
 let
 {
 width
@@ -4747,9 +4740,6 @@ width
 "
 px
 "
-)
-;
-}
 )
 ;
 popup
