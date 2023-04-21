@@ -2390,6 +2390,8 @@ updated
 void
 NotifyGlyphMetricsChange
 (
+bool
+aUpdateTextCorrespondence
 )
 ;
 /
