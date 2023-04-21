@@ -494,7 +494,6 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToCss
 ToShmem
-ToResolvedValue
 Parse
 )
 ]
