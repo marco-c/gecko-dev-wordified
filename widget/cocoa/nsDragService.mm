@@ -1734,7 +1734,16 @@ draggingSession
 .
 animatesToStartingPositionsOnCancelOrFail
 =
-YES
+!
+mDataTransfer
+|
+|
+mDataTransfer
+-
+>
+MozShowFailAnimation
+(
+)
 ;
 return
 NS_OK
