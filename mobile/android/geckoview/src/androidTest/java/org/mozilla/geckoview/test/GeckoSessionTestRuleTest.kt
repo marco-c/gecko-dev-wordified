@@ -9749,6 +9749,12 @@ count
 {
 }
 )
+/
+/
+ktlint
+-
+disable
+annotation
 assertThat
 (
 "
