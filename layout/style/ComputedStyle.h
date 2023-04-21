@@ -478,7 +478,7 @@ aOut
 )
 const
 {
-Servo_GetPropertyValue
+Servo_GetComputedValue
 (
 this
 aId
