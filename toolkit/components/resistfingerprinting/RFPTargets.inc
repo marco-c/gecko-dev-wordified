@@ -17,6 +17,11 @@ re
 used
 *
 /
+ITEM_VALUE
+(
+TouchEvents
+0x0001
+)
 /
 *
 *
