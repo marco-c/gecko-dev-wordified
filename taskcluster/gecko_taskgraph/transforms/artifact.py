@@ -571,6 +571,12 @@ in
 plat
 or
 "
+ccov
+"
+in
+plat
+or
+"
 rusttest
 "
 in
@@ -655,19 +661,6 @@ docs
 art_dict
 =
 None
-                
-elif
-"
-ccov
-"
-in
-plat
-:
-                    
-art_dict
-=
-{
-}
                 
 elif
 plat
@@ -867,18 +860,6 @@ is
 not
 None
 :
-                    
-art_dict
-.
-update
-(
-manifest
-[
-"
-*
-"
-]
-)
                     
 for
 art_name
