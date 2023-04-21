@@ -2266,6 +2266,11 @@ PointerLockManager
 cpp
 "
 "
+PopoverData
+.
+cpp
+"
+"
 PopupBlocker
 .
 cpp
