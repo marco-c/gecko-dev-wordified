@@ -221,6 +221,13 @@ LoadProxyinfo
 (
 )
 ;
+gboolean
+CloseApp
+(
+gpointer
+data
+)
+;
 gpointer
 SendThread
 (

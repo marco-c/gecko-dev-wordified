@@ -544,7 +544,6 @@ as
 a
 timeout
 callback
-static
 gboolean
 CloseApp
 (
