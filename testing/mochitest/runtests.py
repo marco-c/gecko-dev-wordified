@@ -25834,18 +25834,34 @@ options
 disable_fission
                 
 or
+not
 self
 .
 extraPrefs
 .
 get
 (
+                    
 "
 fission
 .
-sessionHistoryInParent
+disableSessionHistoryInParent
 "
-False
+                    
+mozinfo
+.
+info
+[
+"
+os
+"
+]
+=
+=
+"
+android
+"
+                
 )
                 
 "
