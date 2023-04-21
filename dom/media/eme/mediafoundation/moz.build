@@ -109,6 +109,11 @@ WMFCDMProxy
 .
 h
 "
+"
+WMFCDMProxyCallback
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -121,6 +126,11 @@ cpp
 "
 "
 WMFCDMProxy
+.
+cpp
+"
+"
+WMFCDMProxyCallback
 .
 cpp
 "

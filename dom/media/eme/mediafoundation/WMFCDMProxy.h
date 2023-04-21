@@ -196,6 +196,9 @@ namespace
 mozilla
 {
 class
+WMFCDMProxyCallback
+;
+class
 WMFCDMProxy
 :
 public
@@ -597,8 +600,6 @@ virtual
 WMFCDMProxy
 (
 )
-=
-default
 ;
 template
 <
@@ -676,6 +677,12 @@ dom
 :
 MediaKeySystemConfiguration
 mConfig
+;
+RefPtr
+<
+WMFCDMProxyCallback
+>
+mProxyCallback
 ;
 }
 ;
