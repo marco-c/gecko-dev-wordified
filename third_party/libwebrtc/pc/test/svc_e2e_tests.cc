@@ -2343,8 +2343,6 @@ L2T2
 2
 2
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2381,8 +2379,6 @@ L2T3
 2
 3
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2421,8 +2417,6 @@ L3T1
 3
 1
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2450,8 +2444,6 @@ L3T2
 3
 2
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2490,8 +2482,6 @@ L3T3
 3
 3
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2762,8 +2752,6 @@ L2T2
 2
 2
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
@@ -2800,8 +2788,6 @@ L2T3
 2
 3
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
@@ -2840,8 +2826,6 @@ L3T1
 3
 1
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
@@ -2869,8 +2853,6 @@ L3T2
 3
 2
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
@@ -2909,8 +2891,6 @@ L3T3
 3
 3
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
