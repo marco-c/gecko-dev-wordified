@@ -139,6 +139,7 @@ xulstore
 json
 "
 ;
+export
 function
 XULStore
 (
@@ -1958,13 +1959,4 @@ _nextIndex
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-XULStore
-"
-]
 ;
