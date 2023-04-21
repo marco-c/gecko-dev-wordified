@@ -2817,7 +2817,7 @@ NS_NETWORKCONNECTIVITYSERVICE_CID
 *
 netwerk
 /
-cache
+cache2
 /
 classes
 *
