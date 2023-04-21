@@ -133,6 +133,11 @@ DeserializedStackFrameUbiStackFrames
 cpp
 "
 "
+DevTools
+.
+cpp
+"
+"
 DoesCrossCompartmentBoundaries
 .
 cpp
@@ -218,6 +223,3 @@ xul
 -
 gtest
 "
-REQUIRES_UNIFIED_BUILD
-=
-True
