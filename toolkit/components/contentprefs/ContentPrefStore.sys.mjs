@@ -56,15 +56,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ContentPrefStore
-"
-]
-;
+export
 function
 ContentPrefStore
 (
