@@ -2337,7 +2337,6 @@ is_u2f
 {
 send_no_token
 (
-&
 d
 &
 selector

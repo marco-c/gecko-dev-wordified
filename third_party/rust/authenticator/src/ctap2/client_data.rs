@@ -676,11 +676,11 @@ unexpected
 key
 :
 {
+k
 :
 ?
 }
 "
-k
 )
 )
 )
@@ -776,11 +776,11 @@ status
 key
 :
 {
+k
 :
 ?
 }
 "
-k
 )
 )
 )

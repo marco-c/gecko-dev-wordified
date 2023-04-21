@@ -4835,6 +4835,7 @@ MAKE_CREDENTIALS_SAMPLE_REQUEST_CTAP1
 nGot
 :
 {
+req_serialized
 :
 X
 ?
@@ -4843,13 +4844,12 @@ X
 nExpected
 :
 {
+MAKE_CREDENTIALS_SAMPLE_REQUEST_CTAP1
 :
 X
 ?
 }
 "
-req_serialized
-MAKE_CREDENTIALS_SAMPLE_REQUEST_CTAP1
 )
 ;
 let

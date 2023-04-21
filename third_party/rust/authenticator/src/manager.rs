@@ -2614,6 +2614,7 @@ default
 (
 )
 None
+None
 )
 ?
 ;
@@ -2740,6 +2741,9 @@ extensions
 args
 .
 pin
+args
+.
+alternate_rp_id
 )
 ?
 ;

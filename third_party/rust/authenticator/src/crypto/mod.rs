@@ -5376,9 +5376,9 @@ format
 unsupported
 key_type
 {
+value
 }
 "
-value
 )
 )
 }
@@ -5553,9 +5553,9 @@ format
 unsupported
 curve
 {
+value
 }
 "
-value
 )
 )
 }
@@ -5754,9 +5754,9 @@ format
 unsupported
 algorithm
 {
+value
 }
 "
-value
 )
 )
 }

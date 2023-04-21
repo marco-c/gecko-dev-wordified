@@ -555,9 +555,9 @@ Manager
 rv
 =
 {
+rv
 }
 "
-rv
 )
 )
 )
@@ -801,10 +801,8 @@ if
 let
 Some
 (
-&
 DeviceData
 {
-ref
 tx
 .
 .
