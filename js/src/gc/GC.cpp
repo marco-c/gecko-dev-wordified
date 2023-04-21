@@ -18116,10 +18116,6 @@ discardJITCodeForGC
 (
 )
 ;
-startBackgroundFreeAfterMinorGC
-(
-)
-;
 /
 *
 *
@@ -18323,6 +18319,10 @@ exist
 *
 /
 purgeRuntime
+(
+)
+;
+startBackgroundFreeAfterMinorGC
 (
 )
 ;
