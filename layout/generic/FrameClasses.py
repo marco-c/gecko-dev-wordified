@@ -1413,17 +1413,6 @@ NOT_LEAF
 Frame
 (
 "
-nsXULScrollFrame
-"
-"
-Scroll
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 ViewportFrame
 "
 "
