@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 secmod
 .
 h

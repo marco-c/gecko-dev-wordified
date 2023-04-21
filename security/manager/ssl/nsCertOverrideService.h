@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+OriginAttributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TaskQueue
 .
 h
@@ -217,6 +226,9 @@ mAsciiHost
 int32_t
 mPort
 ;
+mozilla
+:
+:
 OriginAttributes
 mOriginAttributes
 ;
@@ -599,6 +611,9 @@ aHostName
 int32_t
 aPort
 const
+mozilla
+:
+:
 OriginAttributes
 &
 aOriginAttributes
@@ -715,6 +730,9 @@ host
 int32_t
 port
 const
+mozilla
+:
+:
 OriginAttributes
 &
 aOriginAttributes
@@ -754,6 +772,9 @@ aHostName
 int32_t
 aPort
 const
+mozilla
+:
+:
 OriginAttributes
 &
 aOriginAttributes

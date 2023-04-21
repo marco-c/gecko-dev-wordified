@@ -128,9 +128,6 @@ namespace
 ct
 {
 typedef
-mozilla
-:
-:
 pkix
 :
 :
@@ -243,6 +240,9 @@ dependentOperators
 )
 {
 return
+pkix
+:
+:
 Success
 ;
 }

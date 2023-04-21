@@ -102,6 +102,15 @@ include
 "
 mozilla
 /
+OriginAttributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 psm
 /
 PSelectTLSClientAuthCertParent

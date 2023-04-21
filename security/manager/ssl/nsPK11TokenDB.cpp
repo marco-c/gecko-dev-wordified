@@ -133,6 +133,15 @@ h
 #
 include
 "
+mozilla
+/
+Logging
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

@@ -149,6 +149,13 @@ h
 #
 include
 "
+NSSCertDBTrustDomain
+.
+h
+"
+#
+include
+"
 SSLServerCertVerification
 .
 h
@@ -157,6 +164,13 @@ h
 include
 "
 nsNSSIOLayer
+.
+h
+"
+#
+include
+"
+nsISocketProvider
 .
 h
 "

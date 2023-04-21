@@ -278,6 +278,3 @@ Library
 tlsserver
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
