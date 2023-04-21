@@ -1128,6 +1128,18 @@ self
 refcounted
     
 def
+supportsNullable
+(
+self
+)
+:
+        
+return
+self
+.
+refcounted
+    
+def
 isSendMoveOnly
 (
 self
