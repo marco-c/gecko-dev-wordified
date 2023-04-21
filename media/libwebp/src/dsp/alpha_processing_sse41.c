@@ -372,7 +372,7 @@ all_0xff
 _mm_set1_epi32
 (
 ~
-0u
+0
 )
 ;
 __m128i

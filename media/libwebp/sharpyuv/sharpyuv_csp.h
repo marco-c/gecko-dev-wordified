@@ -325,6 +325,7 @@ the
 given
 YUVColorSpace
 .
+SHARPYUV_EXTERN
 void
 SharpYuvComputeConversionMatrix
 (
@@ -374,6 +375,7 @@ the
 predefined
 colorspaces
 .
+SHARPYUV_EXTERN
 const
 SharpYuvConversionMatrix
 *
