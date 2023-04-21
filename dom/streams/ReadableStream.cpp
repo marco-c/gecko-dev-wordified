@@ -244,15 +244,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HoldDropJSObjects
 .
 h
