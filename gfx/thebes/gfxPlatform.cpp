@@ -2042,10 +2042,7 @@ message
 logAnnotation
 <
 <
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -2059,10 +2056,7 @@ it
 "
 <
 <
-std
-:
-:
-get
+Get
 <
 1
 >
@@ -2078,10 +2072,7 @@ t
 "
 <
 <
-std
-:
-:
-get
+Get
 <
 2
 >

@@ -8457,10 +8457,7 @@ Resolve
 (
 FetchEventRespondWithResult
 (
-std
-:
-:
-make_tuple
+MakeTuple
 (
 std
 :

@@ -176,6 +176,15 @@ nsHttpResponseHead
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Tuple
+.
+h
+"
 namespace
 mozilla
 {

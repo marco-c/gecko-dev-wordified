@@ -315,6 +315,15 @@ include
 "
 mozilla
 /
+Tuple
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtrExtensions
 .
 h

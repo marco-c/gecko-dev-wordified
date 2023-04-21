@@ -2362,10 +2362,7 @@ aResult
 aResult
 is
 a
-std
-:
-:
-tuple
+Tuple
 <
 nsresult
 uint8_t
@@ -2416,10 +2413,7 @@ IsReject
 ?
 NS_ERROR_FAILURE
 :
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -2501,10 +2495,7 @@ static_cast
 WebTransportReliabilityMode
 >
 (
-std
-:
-:
-get
+Get
 <
 1
 >

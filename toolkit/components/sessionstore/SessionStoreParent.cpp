@@ -761,10 +761,7 @@ Double
 :
 New
 (
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -797,10 +794,7 @@ Integer
 :
 ValueOf
 (
-std
-:
-:
-get
+Get
 <
 1
 >
@@ -828,10 +822,7 @@ Integer
 :
 ValueOf
 (
-std
-:
-:
-get
+Get
 <
 2
 >

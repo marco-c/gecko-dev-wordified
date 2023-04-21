@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+Tuple
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 sessionstore

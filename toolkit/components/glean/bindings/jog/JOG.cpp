@@ -188,6 +188,15 @@ h
 #
 include
 "
+mozilla
+/
+Tuple
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h

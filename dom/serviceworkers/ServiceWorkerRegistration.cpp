@@ -2113,10 +2113,7 @@ SendUnregister
 outer
 ]
 (
-std
-:
-:
-tuple
+Tuple
 <
 bool
 CopyableErrorResult
@@ -2128,10 +2125,7 @@ aResult
 {
 if
 (
-std
-:
-:
-get
+Get
 <
 1
 >
@@ -2169,10 +2163,7 @@ in
 most
 cases
 .
-std
-:
-:
-get
+Get
 <
 1
 >
@@ -2203,10 +2194,7 @@ outer
 >
 MaybeResolve
 (
-std
-:
-:
-get
+Get
 <
 0
 >

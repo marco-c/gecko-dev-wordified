@@ -2465,10 +2465,10 @@ mozilla
 :
 ProfilerLabelEnd
 (
-std
+mozilla
 :
 :
-tuple
+Tuple
 <
 void
 *

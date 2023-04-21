@@ -7590,10 +7590,7 @@ Get
 using
 Type
 =
-std
-:
-:
-tuple
+Tuple
 <
 const
 nsresult
@@ -7828,10 +7825,7 @@ GetSingleton
 using
 Type
 =
-std
-:
-:
-tuple
+Tuple
 <
 const
 nsresult

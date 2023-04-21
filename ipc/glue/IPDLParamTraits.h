@@ -161,6 +161,15 @@ h
 #
 include
 "
+mozilla
+/
+Tuple
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

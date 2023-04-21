@@ -4445,10 +4445,7 @@ sampleRow
 )
 {
 return
-std
-:
-:
-make_tuple
+MakeTuple
 (
 /
 *
@@ -4592,10 +4589,7 @@ break
 ;
 }
 return
-std
-:
-:
-make_tuple
+MakeTuple
 (
 aBlockSize
 Maybe

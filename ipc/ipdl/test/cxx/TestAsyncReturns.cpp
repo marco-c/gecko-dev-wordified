@@ -447,10 +447,7 @@ aResolve
 {
 aResolve
 (
-std
-:
-:
-tuple
+Tuple
 <
 const
 uint32_t
@@ -653,10 +650,7 @@ aResolve
 ]
 (
 const
-std
-:
-:
-tuple
+Tuple
 <
 uint32_t
 uint32_t
@@ -667,10 +661,7 @@ aParam
 {
 if
 (
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -682,10 +673,7 @@ aParam
 sMagic1
 &
 &
-std
-:
-:
-get
+Get
 <
 1
 >

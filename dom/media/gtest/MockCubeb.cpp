@@ -1479,10 +1479,7 @@ mOutputVerificationEvent
 .
 Notify
 (
-std
-:
-:
-make_tuple
+MakeTuple
 (
 mAudioVerifier
 .
@@ -1895,10 +1892,7 @@ mFramesVerifiedEvent
 }
 MediaEventSource
 <
-std
-:
-:
-tuple
+Tuple
 <
 uint64_t
 float

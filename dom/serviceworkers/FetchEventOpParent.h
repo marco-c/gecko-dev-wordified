@@ -132,6 +132,15 @@ include
 "
 mozilla
 /
+Tuple
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 FetchEventOpProxyParent
@@ -206,10 +215,7 @@ has
 already
 arrived
 .
-std
-:
-:
-tuple
+Tuple
 <
 Maybe
 <

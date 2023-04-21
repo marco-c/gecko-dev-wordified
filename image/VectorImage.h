@@ -448,10 +448,7 @@ aSize
 .
 *
 /
-std
-:
-:
-tuple
+Tuple
 <
 RefPtr
 <

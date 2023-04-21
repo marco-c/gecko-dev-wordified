@@ -9327,10 +9327,7 @@ estimatedFreq
 uint32_t
 nrDiscontinuities
 ;
-std
-:
-:
-tie
+Tie
 (
 preSilenceSamples
 estimatedFreq
@@ -10469,10 +10466,7 @@ estimatedFreq
 uint32_t
 nrDiscontinuities
 ;
-std
-:
-:
-tie
+Tie
 (
 preSilenceSamples
 estimatedFreq
@@ -11405,10 +11399,7 @@ estimatedFreq
 uint32_t
 nrDiscontinuities
 ;
-std
-:
-:
-tie
+Tie
 (
 preSilenceSamples
 estimatedFreq
@@ -18866,10 +18857,7 @@ estimatedFreq
 uint32_t
 nrDiscontinuities
 ;
-std
-:
-:
-tie
+Tie
 (
 preSilenceSamples
 estimatedFreq

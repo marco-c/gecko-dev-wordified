@@ -242,10 +242,7 @@ ipc
 namespace
 dom
 {
-std
-:
-:
-tuple
+Tuple
 <
 Maybe
 <
@@ -334,10 +331,7 @@ aFetchEventOpProxyParent
 )
 ;
 return
-std
-:
-:
-make_tuple
+MakeTuple
 (
 preloadResponse
 preloadResponseEndArgs
