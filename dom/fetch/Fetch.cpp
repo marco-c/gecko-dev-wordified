@@ -6613,10 +6613,6 @@ mOwner
 (
 aOwner
 )
-mReadableStreamBody
-(
-nullptr
-)
 mReadableStreamReader
 (
 nullptr
@@ -9306,10 +9302,6 @@ mFetchStreamReader
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mReadableStreamBody
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
 mReadableStreamReader
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -9332,10 +9324,6 @@ mAbortSignalImpl
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mFetchStreamReader
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mReadableStreamBody
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
