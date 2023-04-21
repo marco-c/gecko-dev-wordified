@@ -171,6 +171,9 @@ Promise
 class
 WorkletFetchHandler
 ;
+class
+WorkletScriptHandler
+;
 struct
 WorkletOptions
 ;
@@ -373,6 +376,10 @@ mImpl
 friend
 class
 WorkletFetchHandler
+;
+friend
+class
+WorkletScriptHandler
 ;
 }
 ;
