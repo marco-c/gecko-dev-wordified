@@ -4962,17 +4962,6 @@ MTG
 "
 )
 ;
-MOZ_ASSERT
-(
-mAudioStreamState
-=
-=
-AudioStreamState
-:
-:
-None
-)
-;
 return
 false
 ;
