@@ -423,11 +423,12 @@ not
 include
 the
 keywords
+only
 not
+and
 or
 and
-and
-only
+layer
 .
 /
 /
@@ -487,6 +488,10 @@ and
 |
 "
 only
+"
+|
+"
+layer
 "
 =
 >
