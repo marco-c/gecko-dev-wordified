@@ -1272,9 +1272,6 @@ float
 mFullZoom
 ;
 bool
-mViewportInitialized
-;
-bool
 mIsRootContent
 ;
 bool
