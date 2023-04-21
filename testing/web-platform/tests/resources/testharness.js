@@ -32352,6 +32352,13 @@ location
 '
 in
 global_scope
+&
+&
+'
+pathname
+'
+in
+location
 )
 {
 return
