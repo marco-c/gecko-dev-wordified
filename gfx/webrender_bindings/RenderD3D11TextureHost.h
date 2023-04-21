@@ -161,7 +161,10 @@ WindowsHandle
 aHandle
 Maybe
 <
-uint64_t
+layers
+:
+:
+GpuProcessTextureId
 >
 &
 aGpuProcessTextureId
@@ -567,7 +570,10 @@ mHandle
 ;
 Maybe
 <
-uint64_t
+layers
+:
+:
+GpuProcessTextureId
 >
 mGpuProcessTextureId
 ;

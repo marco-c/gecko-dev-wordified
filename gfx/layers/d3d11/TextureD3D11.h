@@ -620,7 +620,7 @@ override
 void
 SetGpuProcessTextureId
 (
-uint64_t
+GpuProcessTextureId
 aTextureId
 )
 {
@@ -634,7 +634,7 @@ aTextureId
 }
 Maybe
 <
-uint64_t
+GpuProcessTextureId
 >
 GetGpuProcessTextureId
 (
@@ -821,7 +821,7 @@ mTexture
 ;
 Maybe
 <
-uint64_t
+GpuProcessTextureId
 >
 mGpuProcessTextureId
 ;
@@ -2146,7 +2146,7 @@ mTexture
 ;
 Maybe
 <
-uint64_t
+GpuProcessTextureId
 >
 mGpuProcessTextureId
 ;
@@ -3107,7 +3107,7 @@ sInstance
 ;
 }
 static
-uint64_t
+GpuProcessTextureId
 GetNextTextureId
 (
 )
@@ -3124,7 +3124,7 @@ GpuProcessD3D11TextureMap
 void
 Register
 (
-uint64_t
+GpuProcessTextureId
 aTextureId
 ID3D11Texture2D
 *
@@ -3148,7 +3148,7 @@ aUsageInfo
 void
 Unregister
 (
-uint64_t
+GpuProcessTextureId
 aTextureId
 )
 ;
@@ -3158,7 +3158,7 @@ ID3D11Texture2D
 >
 GetTexture
 (
-uint64_t
+GpuProcessTextureId
 aTextureId
 )
 ;
@@ -3168,7 +3168,7 @@ HANDLE
 >
 GetSharedHandleOfCopiedTexture
 (
-uint64_t
+GpuProcessTextureId
 aTextureId
 )
 ;
@@ -3248,8 +3248,12 @@ std
 :
 unordered_map
 <
-uint64_t
+GpuProcessTextureId
 TextureHolder
+GpuProcessTextureId
+:
+:
+HashFn
 >
 >
 mD3D11TexturesById
