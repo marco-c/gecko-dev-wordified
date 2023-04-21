@@ -304,6 +304,9 @@ SetBackpressure
 (
 bool
 aBackpressure
+ErrorResult
+&
+aRv
 )
 ;
 MOZ_KNOWN_LIVE

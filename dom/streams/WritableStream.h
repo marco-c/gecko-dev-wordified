@@ -823,6 +823,9 @@ UpdateBackpressure
 (
 bool
 aBackpressure
+ErrorResult
+&
+aRv
 )
 ;
 /
@@ -1316,6 +1319,9 @@ WritableStreamAddWriteRequest
 WritableStream
 *
 aStream
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
