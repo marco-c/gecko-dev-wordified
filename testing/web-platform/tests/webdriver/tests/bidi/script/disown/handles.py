@@ -168,7 +168,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchHandleException
 )
 :
         
@@ -422,7 +422,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchHandleException
 )
 :
         
@@ -449,7 +449,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchHandleException
 )
 :
         
@@ -566,7 +566,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchHandleException
 )
 :
         
@@ -895,7 +895,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchHandleException
 )
 :
         
@@ -1014,7 +1014,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchHandleException
 )
 :
         
@@ -1238,7 +1238,7 @@ raises
 (
 error
 .
-InvalidArgumentException
+NoSuchHandleException
 )
 :
         
