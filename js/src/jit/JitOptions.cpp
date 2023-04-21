@@ -2204,6 +2204,12 @@ false
 ;
 SET_DEFAULT
 (
+enableICFramePointers
+false
+)
+;
+SET_DEFAULT
+(
 enableWasmJitExit
 true
 )
