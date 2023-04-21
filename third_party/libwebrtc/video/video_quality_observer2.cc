@@ -671,6 +671,12 @@ num_resolution_downgrades_
 /
 video_duration_ms
 ;
+if
+(
+!
+screenshare
+)
+{
 RTC_HISTOGRAM_COUNTS_SPARSE_100
 (
 uma_prefix
@@ -702,6 +708,7 @@ num_resolution_downgrades_per_minute
 n
 "
 ;
+}
 int
 num_freezes_per_minute
 =
