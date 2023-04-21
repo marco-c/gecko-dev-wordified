@@ -1386,6 +1386,9 @@ return
 false
 ;
 }
+#
+ifdef
+XP_LINUX
 /
 /
 We
@@ -1442,6 +1445,8 @@ return
 false
 ;
 }
+#
+endif
 writeJitDumpHeader
 (
 lock
