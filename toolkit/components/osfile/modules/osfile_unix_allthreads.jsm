@@ -210,7 +210,7 @@ ctypes
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -223,7 +223,9 @@ modules
 /
 ctypes
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
