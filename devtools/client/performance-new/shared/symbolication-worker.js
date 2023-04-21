@@ -198,6 +198,8 @@ performance
 -
 new
 /
+shared
+/
 profiler_get_symbols
 .
 js
@@ -213,6 +215,7 @@ typedef
 import
 (
 "
+.
 .
 /
 types
@@ -230,6 +233,7 @@ typedef
 import
 (
 "
+.
 .
 /
 types
