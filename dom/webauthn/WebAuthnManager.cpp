@@ -3010,7 +3010,7 @@ mAttestation
 Attachment
 Maybe
 <
-AuthenticatorAttachment
+nsString
 >
 authenticatorAttachment
 ;
