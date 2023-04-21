@@ -35,7 +35,7 @@ FormAutofillStatus
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -46,9 +46,7 @@ autofill
 /
 FormAutofillParent
 .
-sys
-.
-mjs
+jsm
 "
 )
 )

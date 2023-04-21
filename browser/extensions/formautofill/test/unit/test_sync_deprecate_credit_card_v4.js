@@ -186,7 +186,7 @@ CreditCardsEngine
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -197,9 +197,7 @@ autofill
 /
 FormAutofillSync
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
