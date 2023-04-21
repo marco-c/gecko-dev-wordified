@@ -1339,15 +1339,6 @@ give_up_after_ms
 *
 /
 100
-/
-*
-warn_after_ms
-=
-*
-/
-10
-'
-000
 )
 )
 ;
