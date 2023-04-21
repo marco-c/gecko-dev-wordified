@@ -499,10 +499,6 @@ context
 =
 None
     
-is_redirect
-=
-None
-    
 redirect_count
 =
 None
@@ -529,12 +525,6 @@ navigation
 "
 :
 any_string_or_null
-            
-"
-isRedirect
-"
-:
-any_bool
             
 "
 redirectCount
@@ -577,24 +567,6 @@ context
 =
 =
 context
-    
-if
-is_redirect
-is
-not
-None
-:
-        
-assert
-event
-[
-"
-isRedirect
-"
-]
-=
-=
-is_redirect
     
 if
 redirect_count
@@ -643,10 +615,6 @@ assert_before_request_sent_event
 event
     
 context
-=
-None
-    
-is_redirect
 =
 None
     
@@ -706,10 +674,6 @@ event
 context
 =
 context
-        
-is_redirect
-=
-is_redirect
         
 redirect_count
 =
@@ -863,10 +827,6 @@ context
 =
 None
     
-is_redirect
-=
-None
-    
 redirect_count
 =
 None
@@ -927,10 +887,6 @@ event
 context
 =
 context
-        
-is_redirect
-=
-is_redirect
         
 redirect_count
 =
