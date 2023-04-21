@@ -154,17 +154,6 @@ mozilla
 /
 dom
 /
-DOMException
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 IDBRequestBinding
 .
 h
@@ -254,6 +243,9 @@ ErrorResult
 namespace
 dom
 {
+class
+DOMException
+;
 class
 IDBCursor
 ;
