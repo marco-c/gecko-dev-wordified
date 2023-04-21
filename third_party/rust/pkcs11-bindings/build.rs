@@ -239,6 +239,13 @@ CK_INVALID_HANDLE
 allowlist_var
 (
 "
+CKP_PUBLIC_CERTIFICATES_TOKEN
+"
+)
+.
+allowlist_var
+(
+"
 CKA_
 .
 *
