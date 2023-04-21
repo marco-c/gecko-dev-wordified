@@ -644,7 +644,7 @@ permission
 .
 state
 "
-denied
+prompt
 "
 )
 ;
@@ -672,9 +672,8 @@ prompt
 Permission
 denied
 state
-can
-be
-queried
+is
+hidden
 "
 )
 ;
