@@ -3475,6 +3475,14 @@ uint32_t
 redirectFlags
 )
 ;
+bool
+IsNewChannelSameOrigin
+(
+nsIChannel
+*
+aNewChannel
+)
+;
 /
 /
 WHATWG
