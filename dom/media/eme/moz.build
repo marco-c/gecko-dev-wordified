@@ -175,6 +175,11 @@ EMEUtils
 .
 h
 "
+"
+KeySystemConfig
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -192,6 +197,11 @@ cpp
 "
 "
 EMEUtils
+.
+cpp
+"
+"
+KeySystemConfig
 .
 cpp
 "
