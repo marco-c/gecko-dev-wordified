@@ -106,9 +106,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -125,7 +125,9 @@ modules
 /
 GeckoViewWebExtension
 .
-jsm
+sys
+.
+mjs
 "
 ExtensionActionHelper
 :
@@ -140,7 +142,9 @@ modules
 /
 GeckoViewWebExtension
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

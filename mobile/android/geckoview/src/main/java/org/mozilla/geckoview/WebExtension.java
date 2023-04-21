@@ -653,7 +653,9 @@ sync
 with
 GeckoViewWebExtension
 .
-jsm
+sys
+.
+mjs
 public
 static
 class
