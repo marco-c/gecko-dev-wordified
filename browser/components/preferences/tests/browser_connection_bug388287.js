@@ -300,7 +300,7 @@ are
 tested
 separately
 in
-browser_connect_dnsoverhttps
+browser_privacy_dnsoverhttps
 .
 js
 .
