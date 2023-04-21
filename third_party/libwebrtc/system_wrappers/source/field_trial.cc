@@ -1171,10 +1171,10 @@ return
 trials_init_string
 ;
 }
-ScopedGlobalFieldTrialsForTesting
+FieldTrialsAllowedInScopeForTesting
 :
 :
-ScopedGlobalFieldTrialsForTesting
+FieldTrialsAllowedInScopeForTesting
 (
 flat_set
 <
@@ -1199,11 +1199,11 @@ keys
 )
 ;
 }
-ScopedGlobalFieldTrialsForTesting
+FieldTrialsAllowedInScopeForTesting
 :
 :
 ~
-ScopedGlobalFieldTrialsForTesting
+FieldTrialsAllowedInScopeForTesting
 (
 )
 {
