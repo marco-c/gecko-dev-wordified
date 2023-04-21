@@ -9479,7 +9479,10 @@ AppendElement
 (
 nsDependentCSubstring
 (
-Get
+std
+:
+:
+get
 <
 1
 >
@@ -9491,7 +9494,10 @@ it
 c_str
 (
 )
-Get
+std
+:
+:
+get
 <
 1
 >
@@ -9510,7 +9516,10 @@ indices
 .
 AppendElement
 (
-Get
+std
+:
+:
+get
 <
 0
 >

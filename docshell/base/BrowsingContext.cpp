@@ -8910,7 +8910,10 @@ aLoadIdentifier
 ;
 }
 }
-Tuple
+std
+:
+:
+tuple
 <
 nsCOMPtr
 <
@@ -8951,7 +8954,10 @@ mPrincipalToInherit
 )
 ;
 return
-MakeTuple
+std
+:
+:
+make_tuple
 (
 triggeringPrincipal
 principalToInherit
@@ -8986,7 +8992,10 @@ principal
 uint64_t
 loadIdentifier
 ;
-Tie
+std
+:
+:
+tie
 (
 principal
 loadIdentifier

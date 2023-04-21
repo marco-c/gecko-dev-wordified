@@ -205,15 +205,6 @@ mozilla_dom_gamepad_GamepadHandle_h
 #
 include
 "
-mozilla
-/
-Tuple
-.
-h
-"
-#
-include
-"
 PLDHashTable
 .
 h
