@@ -42872,9 +42872,10 @@ Run
 )
 override
 {
-nsTArray
+AutoTArray
 <
 nsCString
+70
 >
 enabledCommands
 disabledCommands
