@@ -5,6 +5,15 @@ jit
 -
 test
 |
+skip
+-
+if
+:
+!
+wasmMemoryControlEnabled
+(
+)
+;
 test
 -
 also
