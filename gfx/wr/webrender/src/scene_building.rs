@@ -15707,15 +15707,6 @@ repeat_vertical
 border
 .
 repeat_vertical
-outset
-:
-border
-.
-outset
-.
-into
-(
-)
 widths
 :
 border_item
