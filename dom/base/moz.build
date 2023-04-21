@@ -3068,6 +3068,14 @@ ssl
 "
 "
 /
+third_party
+/
+xsimd
+/
+include
+"
+"
+/
 widget
 "
 "
