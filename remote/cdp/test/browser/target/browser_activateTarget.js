@@ -212,8 +212,6 @@ target
 return
 target
 .
-targetInfo
-.
 targetId
 =
 =
@@ -383,8 +381,6 @@ activateTarget
 targetId
 :
 initialTarget
-.
-targetInfo
 .
 targetId
 }
