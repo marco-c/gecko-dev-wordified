@@ -357,6 +357,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h

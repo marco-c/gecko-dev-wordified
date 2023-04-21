@@ -114,6 +114,13 @@ InkCollector_h__
 #
 include
 <
+objbase
+.
+h
+>
+#
+include
+<
 msinkaut
 .
 h
