@@ -625,12 +625,6 @@ prefix
 mm
 )
 ;
-conn
-.
-parentMessageManager
-=
-mm
-;
 connections
 .
 set
