@@ -157,10 +157,6 @@ CtapRegisterResult
 (
 nsresult
 aStatus
-nsCString
-&
-&
-aClientDataJSON
 nsTArray
 <
 uint8_t
@@ -180,16 +176,6 @@ aCredentialId
 mStatus
 (
 aStatus
-)
-mClientDataJSON
-(
-std
-:
-:
-move
-(
-aClientDataJSON
-)
 )
 mAttestationObject
 (
@@ -224,9 +210,6 @@ default
 ;
 nsresult
 mStatus
-;
-nsCString
-mClientDataJSON
 ;
 nsTArray
 <

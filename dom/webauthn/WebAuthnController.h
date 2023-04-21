@@ -495,10 +495,6 @@ RunFinishSign
 uint64_t
 aTransactionId
 const
-nsACString
-&
-aClientDataJson
-const
 nsTArray
 <
 RefPtr
