@@ -675,7 +675,7 @@ aEntryId
 )
 const
 ;
-bool
+nsresult
 LockExclusive
 (
 const
@@ -693,7 +693,7 @@ EntryId
 aEntryId
 )
 ;
-bool
+nsresult
 LockShared
 (
 const

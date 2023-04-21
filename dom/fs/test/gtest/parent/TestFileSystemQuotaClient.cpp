@@ -2607,7 +2607,7 @@ backgroundTask
 TEST_F
 (
 TestFileSystemQuotaClient
-DISABLED_TrackedFilesOnInitOriginShouldCauseRescan
+TrackedFilesOnInitOriginShouldCauseRescan
 )
 {
 auto
@@ -3032,8 +3032,9 @@ should
 force
 a
 rescan
-ASSERT_TRUE
+ASSERT_NSEQ
 (
+NS_OK
 rdm
 -
 >
