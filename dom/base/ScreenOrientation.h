@@ -587,12 +587,6 @@ DispatchChangeEventAndResolvePromise
 (
 )
 ;
-bool
-ShouldResistFingerprinting
-(
-)
-const
-;
 LockPermission
 GetLockOrientationPermission
 (
