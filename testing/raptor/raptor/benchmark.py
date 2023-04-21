@@ -941,9 +941,16 @@ _copy_or_link_files
 (
         
 self
+        
 benchmark_path
+        
 benchmark_dest
+        
 skip_files_and_hidden
+=
+True
+        
+host_from_parent
 =
 True
     
@@ -1059,8 +1066,11 @@ dest
 )
         
 if
+host_from_parent
+and
 any
 (
+            
 path
 .
 is_file
@@ -1074,6 +1084,7 @@ benchmark_path
 iterdir
 (
 )
+        
 )
 :
             
@@ -2062,6 +2073,20 @@ benchmark_dest
 skip_files_and_hidden
 =
 False
+            
+host_from_parent
+=
+self
+.
+test
+.
+get
+(
+"
+host_from_parent
+"
+True
+)
         
 )
         
