@@ -2693,7 +2693,7 @@ Align
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 maybeNonEditableBlockElement
@@ -3046,7 +3046,7 @@ Align
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 containerElement

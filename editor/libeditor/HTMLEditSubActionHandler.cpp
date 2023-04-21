@@ -45863,7 +45863,7 @@ Align
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 styledListOrListItemElement
@@ -64151,7 +64151,7 @@ if
 (
 style
 .
-IsCSSEditable
+IsCSSSettable
 (
 aElement
 )
@@ -64520,7 +64520,7 @@ useCSS
 &
 inlineStyle
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 startContainerElement
