@@ -310,10 +310,7 @@ rv
 {
 aResolve
 (
-std
-:
-:
-tuple
+Tuple
 <
 const
 bool
@@ -337,10 +334,7 @@ IPC_OK
 }
 aResolve
 (
-std
-:
-:
-tuple
+Tuple
 <
 const
 bool

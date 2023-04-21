@@ -262,10 +262,7 @@ resolve
 &
 ]
 (
-std
-:
-:
-tuple
+Tuple
 <
 mozilla
 :
@@ -283,10 +280,7 @@ aResult
 {
 if
 (
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -305,10 +299,7 @@ std
 move
 (
 *
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -331,10 +322,7 @@ int32_t
 ;
 mChildId
 =
-std
-:
-:
-get
+Get
 <
 1
 >

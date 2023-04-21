@@ -3207,10 +3207,7 @@ __func__
 nsresult
 rv
 =
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -3243,10 +3240,7 @@ __func__
 }
 OpenRemoteDecoderManagerChildForProcess
 (
-std
-:
-:
-get
+Get
 <
 1
 >
@@ -3855,10 +3849,7 @@ __func__
 nsresult
 rv
 =
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -3891,10 +3882,7 @@ __func__
 }
 OpenRemoteDecoderManagerChildForProcess
 (
-std
-:
-:
-get
+Get
 <
 1
 >

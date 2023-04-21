@@ -1785,10 +1785,7 @@ return
 Type
 (
 "
-std
-:
-:
-tuple
+Tuple
 "
 T
 =
@@ -33270,10 +33267,7 @@ ExprCall
 ExprVar
 (
 "
-std
-:
-:
-make_tuple
+MakeTuple
 "
 )
 args
@@ -34758,10 +34752,10 @@ return
 ExprCode
 (
 "
-std
+mozilla
 :
 :
-get
+Get
 <
 {
 idx

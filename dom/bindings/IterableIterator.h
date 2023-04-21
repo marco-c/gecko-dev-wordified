@@ -593,10 +593,7 @@ aPromise
 >
 MaybeResolve
 (
-std
-:
-:
-make_tuple
+MakeTuple
 (
 aKey
 aValue

@@ -275,6 +275,9 @@ TestTemplateLib
 TestTextUtils
 "
 "
+TestTuple
+"
+"
 TestTypedEnum
 "
 "

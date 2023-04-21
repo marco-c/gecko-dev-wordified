@@ -965,10 +965,7 @@ aResult
 {
 mResolver
 (
-std
-:
-:
-tuple
+Tuple
 <
 const
 nsresult

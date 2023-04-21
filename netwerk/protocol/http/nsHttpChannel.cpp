@@ -49516,10 +49516,7 @@ svcbRecord
 ;
 Maybe
 <
-std
-:
-:
-tuple
+Tuple
 <
 nsCString
 SupportedAlpnRank
@@ -49541,10 +49538,7 @@ alpn
 ?
 IsHttp3
 (
-std
-:
-:
-get
+Get
 <
 1
 >

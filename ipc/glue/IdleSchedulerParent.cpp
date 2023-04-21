@@ -1395,10 +1395,7 @@ unusedId
 ;
 aResolve
 (
-std
-:
-:
-tuple
+Tuple
 <
 mozilla
 :

@@ -344,10 +344,7 @@ respectively
 nsTHashMap
 <
 uint64_t
-std
-:
-:
-tuple
+Tuple
 <
 bool
 bool

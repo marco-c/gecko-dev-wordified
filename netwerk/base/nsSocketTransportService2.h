@@ -147,6 +147,15 @@ include
 "
 mozilla
 /
+Tuple
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -3095,10 +3104,7 @@ TPortRemapping
 =
 CopyableTArray
 <
-std
-:
-:
-tuple
+Tuple
 <
 uint16_t
 uint16_t
