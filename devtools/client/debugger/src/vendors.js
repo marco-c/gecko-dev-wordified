@@ -196,19 +196,6 @@ tabs
 ;
 /
 /
-Modules
-imported
-without
-destructuring
-import
-classnames
-from
-"
-classnames
-"
-;
-/
-/
 We
 cannot
 directly
@@ -279,7 +266,6 @@ const
 vendored
 =
 {
-classnames
 "
 fuzzaldrin
 -
