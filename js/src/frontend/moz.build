@@ -295,11 +295,6 @@ CForEmitter
 cpp
 "
 "
-CompileScript
-.
-cpp
-"
-"
 DefaultEmitter
 .
 cpp

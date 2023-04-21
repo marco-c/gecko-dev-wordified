@@ -359,7 +359,7 @@ token
 ;
 BEGIN_TEST
 (
-testCompileNonsyntactic
+testCompileScript
 )
 {
 CHECK
@@ -786,6 +786,6 @@ true
 }
 END_TEST
 (
-testCompileNonsyntactic
+testCompileScript
 )
 ;
