@@ -20063,7 +20063,7 @@ bool
 MDefinition
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20111,7 +20111,7 @@ bool
 MConstant
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20137,7 +20137,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20209,7 +20209,7 @@ bool
 MPhi
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20249,7 +20249,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20297,7 +20297,7 @@ bool
 MAdd
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20337,7 +20337,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20397,7 +20397,7 @@ bool
 MSub
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20437,7 +20437,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20497,7 +20497,7 @@ bool
 MMul
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20537,7 +20537,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20605,7 +20605,7 @@ bool
 MDiv
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20645,7 +20645,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20716,7 +20716,7 @@ bool
 MMod
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20769,7 +20769,7 @@ result
 .
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20817,7 +20817,7 @@ bool
 MToDouble
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20851,7 +20851,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -20930,7 +20930,7 @@ bool
 MLimitedTruncate
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -20951,7 +20951,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -21000,7 +21000,7 @@ bool
 MCompare
 :
 :
-needTruncation
+canTruncate
 (
 )
 const
@@ -21091,7 +21091,7 @@ kind
 {
 MOZ_ASSERT
 (
-needTruncation
+canTruncate
 (
 )
 )
@@ -24679,7 +24679,7 @@ kind
 iter
 -
 >
-needTruncation
+canTruncate
 (
 )
 )
@@ -24964,7 +24964,7 @@ kind
 iter
 -
 >
-needTruncation
+canTruncate
 (
 )
 )
