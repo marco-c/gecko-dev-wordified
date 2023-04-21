@@ -185,9 +185,11 @@ mSegmentSize
 =
 aSegmentSize
 ;
-mMaxSize
+mMaxSegmentCount
 =
 aMaxSize
+/
+aSegmentSize
 ;
 mSegmentArrayCount
 =
@@ -208,12 +210,12 @@ AppendNewSegment
 {
 if
 (
-GetSize
+GetSegmentCount
 (
 )
 >
 =
-mMaxSize
+mMaxSegmentCount
 )
 {
 return
