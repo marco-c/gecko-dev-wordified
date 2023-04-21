@@ -1602,8 +1602,6 @@ join
 WINDOWS
 ?
 "
-C
-:
 \
 \
 tmp
