@@ -1339,6 +1339,7 @@ output_rust
 (
 objs
 output_fd
+ping_names_by_app_id
 options
 =
 {
@@ -1400,6 +1401,31 @@ write
 the
 output
 to
+.
+    
+:
+param
+ping_names_by_app_id
+:
+A
+map
+of
+app_ids
+to
+lists
+of
+ping
+names
+.
+                                 
+Used
+to
+determine
+which
+custom
+pings
+to
+register
 .
     
 :
@@ -2086,6 +2112,10 @@ submetric_bit
 ID_BITS
 -
 ID_SIGNAL_BITS
+            
+ping_names_by_app_id
+=
+ping_names_by_app_id
         
 )
     
