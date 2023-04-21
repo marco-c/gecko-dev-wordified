@@ -1310,6 +1310,14 @@ generate_name
 (
 )
 ;
+options
+.
+transitionProperty
+?
+?
+=
+customProperty
+;
 CSS
 .
 registerProperty
@@ -1412,7 +1420,9 @@ style
 transition
 =
 {
-customProperty
+options
+.
+transitionProperty
 }
 1s
 -
