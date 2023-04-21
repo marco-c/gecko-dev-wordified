@@ -35,7 +35,7 @@ LoginBreaches
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ modules
 /
 LoginBreaches
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +86,7 @@ _AboutLogins
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -96,7 +98,9 @@ actors
 /
 AboutLoginsParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1399,7 +1403,9 @@ duplicated
 from
 AboutLoginsParent
 .
-jsm
+sys
+.
+mjs
 )
 _AboutLogins
 .
@@ -1509,7 +1515,9 @@ duplicated
 from
 AboutLoginsParent
 .
-jsm
+sys
+.
+mjs
 )
 _AboutLogins
 .
