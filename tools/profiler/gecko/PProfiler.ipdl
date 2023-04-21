@@ -195,7 +195,6 @@ is
 unresponsive
 .
 [
-ManualDealloc
 ChildImpl
 =
 virtual
