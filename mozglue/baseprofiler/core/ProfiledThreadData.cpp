@@ -401,15 +401,6 @@ schema
 WriteField
 (
 "
-optimizations
-"
-)
-;
-schema
-.
-WriteField
-(
-"
 line
 "
 )
