@@ -1,18 +1,3 @@
-#
-Import
-the
-WebIDL
-module
-so
-we
-can
-do
-isinstance
-checks
-and
-whatnot
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -52,8 +37,6 @@ Foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -148,8 +131,6 @@ a
         
 )
         
-results
-=
 parser
 .
 finish
@@ -244,8 +225,6 @@ b
         
 )
         
-results
-=
 parser
 .
 finish
