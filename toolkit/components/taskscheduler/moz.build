@@ -126,7 +126,9 @@ EXTRA_JS_MODULES
 "
 TaskScheduler
 .
-jsm
+sys
+.
+mjs
 "
 ]
 #
@@ -178,7 +180,9 @@ EXTRA_JS_MODULES
 "
 TaskSchedulerWinImpl
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
@@ -262,7 +266,9 @@ EXTRA_JS_MODULES
 "
 TaskSchedulerMacOSImpl
 .
-jsm
+sys
+.
+mjs
 "
 ]
 FINAL_LIBRARY

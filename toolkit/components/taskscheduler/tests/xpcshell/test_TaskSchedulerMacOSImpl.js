@@ -106,7 +106,7 @@ TaskScheduler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -119,7 +119,9 @@ modules
 /
 TaskScheduler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -130,7 +132,7 @@ MacOSImpl
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -143,7 +145,9 @@ modules
 /
 TaskSchedulerMacOSImpl
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -128,7 +128,7 @@ TaskScheduler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -141,7 +141,9 @@ modules
 /
 TaskScheduler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

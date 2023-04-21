@@ -80,7 +80,7 @@ TaskScheduler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -93,7 +93,9 @@ modules
 /
 TaskScheduler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -104,7 +106,7 @@ WinImpl
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -117,7 +119,9 @@ modules
 /
 TaskSchedulerWinImpl
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
