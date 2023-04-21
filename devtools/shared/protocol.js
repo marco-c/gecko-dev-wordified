@@ -64,7 +64,6 @@ strict
 var
 {
 Actor
-ActorClassWithSpec
 }
 =
 require
@@ -279,12 +278,6 @@ exports
 Actor
 =
 Actor
-;
-exports
-.
-ActorClassWithSpec
-=
-ActorClassWithSpec
 ;
 exports
 .
