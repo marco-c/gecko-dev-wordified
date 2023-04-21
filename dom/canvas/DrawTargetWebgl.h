@@ -2694,6 +2694,10 @@ const
 DrawOptions
 &
 aOptions
+bool
+aClosed
+=
+false
 )
 ;
 void
