@@ -132,14 +132,6 @@ License
 [
 allow
 (
-warnings
-)
-]
-#
-!
-[
-allow
-(
 clippy
 :
 :
