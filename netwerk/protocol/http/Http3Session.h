@@ -2216,6 +2216,11 @@ Http3StreamBase
 >
 mWebTransportStreams
 ;
+bool
+mHasWebTransportSession
+=
+false
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

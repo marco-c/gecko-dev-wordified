@@ -980,6 +980,11 @@ iter_mut
 (
 )
 {
+mem
+:
+:
+drop
+(
 s
 .
 close_session
@@ -988,9 +993,6 @@ close_session
 "
 "
 )
-.
-unwrap
-(
 )
 ;
 }

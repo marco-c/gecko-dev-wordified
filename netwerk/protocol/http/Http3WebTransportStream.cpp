@@ -1878,6 +1878,10 @@ NS_OK
 break
 ;
 }
+mSendState
+=
+SENDING
+;
 rv
 =
 mSendStreamPipeIn

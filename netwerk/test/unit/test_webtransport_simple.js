@@ -1252,7 +1252,7 @@ let
 data
 =
 "
-123456
+1234567890ABC
 "
 ;
 outputStream
