@@ -5149,10 +5149,10 @@ return
 result
 ;
 }
-uint32_t
+int32_t
 mWidth
 ;
-uint32_t
+int32_t
 mHeight
 ;
 bool
