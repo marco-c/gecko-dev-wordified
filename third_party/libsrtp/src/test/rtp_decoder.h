@@ -381,7 +381,7 @@ srtp_ctx
 rtp_decoder_mode_t
 mode
 ;
-int
+size_t
 rtp_offset
 ;
 struct
@@ -537,8 +537,10 @@ srtp_policy_t
 policy
 rtp_decoder_mode_t
 mode
-int
+size_t
 rtp_packet_offset
+uint32_t
+roc
 )
 ;
 int

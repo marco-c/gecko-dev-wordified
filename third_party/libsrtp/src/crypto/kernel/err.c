@@ -362,6 +362,7 @@ NULL
 srtp_err_status_t
 srtp_err_reporting_init
 (
+void
 )
 {
 #

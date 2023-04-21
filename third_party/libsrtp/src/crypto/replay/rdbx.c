@@ -1749,6 +1749,9 @@ rdbx
 -
 >
 index
+(
+srtp_sequence_number_t
+)
 delta
 )
 ;

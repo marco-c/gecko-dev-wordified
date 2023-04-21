@@ -1079,7 +1079,7 @@ srtp_err_status_bad_param
 break
 ;
 }
-EVP_CIPHER_CTX_cleanup
+EVP_CIPHER_CTX_reset
 (
 c
 -
@@ -1494,6 +1494,14 @@ aad_len
 ;
 if
 (
+rv
+<
+0
+|
+|
+(
+uint32_t
+)
 rv
 !
 =

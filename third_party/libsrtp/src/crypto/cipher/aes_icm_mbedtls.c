@@ -1155,6 +1155,11 @@ srtp_aes_icm_ctx_t
 *
 icm
 ;
+(
+void
+)
+tlen
+;
 debug_print
 (
 srtp_mod_aes_icm
@@ -1952,6 +1957,11 @@ cv
 ;
 v128_t
 nonce
+;
+(
+void
+)
+dir
 ;
 c
 -
