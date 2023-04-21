@@ -469,12 +469,6 @@ return
 capturer
 ;
 }
-#
-if
-defined
-(
-WEBRTC_USE_PIPEWIRE
-)
 /
 /
 static
@@ -562,6 +556,12 @@ DesktopCaptureOptions
 options
 )
 {
+#
+if
+defined
+(
+WEBRTC_USE_PIPEWIRE
+)
 if
 (
 options
@@ -596,10 +596,6 @@ kAnyScreenContent
 )
 ;
 }
-return
-nullptr
-;
-}
 #
 endif
 /
@@ -608,6 +604,10 @@ defined
 (
 WEBRTC_USE_PIPEWIRE
 )
+return
+nullptr
+;
+}
 /
 /
 static

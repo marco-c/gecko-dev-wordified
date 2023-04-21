@@ -1235,12 +1235,6 @@ DesktopVector
 pos
 )
 ;
-#
-if
-defined
-(
-WEBRTC_USE_PIPEWIRE
-)
 /
 /
 Creates
@@ -1271,8 +1265,6 @@ DesktopCaptureOptions
 options
 )
 ;
-#
-endif
 /
 /
 Creates
@@ -1476,12 +1468,6 @@ functions
 are
 protected
 .
-#
-if
-defined
-(
-WEBRTC_USE_PIPEWIRE
-)
 /
 /
 Creates
@@ -1516,8 +1502,6 @@ DesktopCaptureOptions
 options
 )
 ;
-#
-endif
 /
 /
 Creates
