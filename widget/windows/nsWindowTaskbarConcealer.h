@@ -352,6 +352,9 @@ isGkFullscreen
 }
 ;
 static
+mozilla
+:
+:
 Maybe
 <
 WindowState
