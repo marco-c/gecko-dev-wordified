@@ -1434,7 +1434,7 @@ html
                 
 (
 "
-print_reftest_runner
+print_pdf_runner
 .
 html
 "
@@ -1447,7 +1447,7 @@ html
 "
 "
 /
-print_reftest_runner
+print_pdf_runner
 .
 html
 "
