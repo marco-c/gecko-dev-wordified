@@ -6562,7 +6562,7 @@ GLContextEGL
 GLContextEGL
 :
 :
-CreateEGLPBufferOffscreenContext
+CreateWithoutSurface
 (
 const
 std
@@ -6988,7 +6988,7 @@ ret
 GLContextEGL
 :
 :
-CreateEGLPBufferOffscreenContext
+CreateWithoutSurface
 (
 display
 desc
