@@ -329,9 +329,7 @@ browser
 =
 hud
 .
-commands
-.
-descriptorFront
+currentTarget
 .
 localTab
 .
