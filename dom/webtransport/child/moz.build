@@ -99,6 +99,16 @@ WebTransportChild
 h
 "
 ]
+UNIFIED_SOURCES
++
+=
+[
+"
+WebTransportChild
+.
+cpp
+"
+]
 FINAL_LIBRARY
 =
 "
