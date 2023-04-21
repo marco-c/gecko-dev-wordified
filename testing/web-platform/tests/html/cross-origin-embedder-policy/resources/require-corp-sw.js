@@ -128,7 +128,7 @@ origin
 -
 corp
 .
-txt
+js
 '
 ;
 }
