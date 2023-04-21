@@ -831,8 +831,15 @@ sync
 const
 recentTabsData
 =
+structuredClone
+(
+syncedTabsData1
 [
+0
 ]
+.
+tabs
+)
 ;
 const
 sandbox
