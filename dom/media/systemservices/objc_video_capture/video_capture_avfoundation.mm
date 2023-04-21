@@ -821,6 +821,11 @@ including
 async
 operations
 .
+MOZ_RELEASE_ASSERT
+(
+mOkToDestroy
+)
+;
 StopCapture
 (
 )
