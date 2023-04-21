@@ -204,15 +204,6 @@ TimeStamp
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Tuple
-.
-h
-"
 /
 /
 for

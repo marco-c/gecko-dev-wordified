@@ -323,15 +323,6 @@ include
 "
 mozilla
 /
-Tuple
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D

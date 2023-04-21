@@ -489,7 +489,10 @@ template
 typename
 PixelSize
 >
-Tuple
+std
+:
+:
+tuple
 <
 int32_t
 Maybe

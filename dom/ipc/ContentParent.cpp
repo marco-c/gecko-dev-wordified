@@ -50819,7 +50819,10 @@ reloadActiveEntry
 }
 aResolver
 (
-Tuple
+std
+:
+:
+tuple
 <
 const
 bool
@@ -53148,7 +53151,10 @@ aResolver
 using
 ResolverArgs
 =
-Tuple
+std
+:
+:
+tuple
 <
 const
 nsresult
