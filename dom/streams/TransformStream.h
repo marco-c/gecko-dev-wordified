@@ -643,6 +643,9 @@ mWritable
 ;
 }
 ;
+namespace
+streams_abstract
+{
 MOZ_CAN_RUN_SCRIPT
 void
 TransformStreamErrorWritableAndUnblockWrite
@@ -695,6 +698,11 @@ ErrorResult
 aRv
 )
 ;
+}
+/
+/
+namespace
+streams_abstract
 }
 /
 /
