@@ -336,7 +336,7 @@ MAX_WASM_MODULE_TYPE_DECLS
 :
 usize
 =
-1000
+100_000
 ;
 pub
 const
@@ -344,7 +344,7 @@ MAX_WASM_COMPONENT_TYPE_DECLS
 :
 usize
 =
-1000
+100_000
 ;
 pub
 const
@@ -352,7 +352,7 @@ MAX_WASM_INSTANCE_TYPE_DECLS
 :
 usize
 =
-1000
+100_000
 ;
 pub
 const
@@ -440,7 +440,7 @@ MAX_WASM_TYPE_SIZE
 :
 u32
 =
-100_000
+1_000_000
 ;
 pub
 const
