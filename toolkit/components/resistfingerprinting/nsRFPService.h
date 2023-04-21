@@ -2226,7 +2226,7 @@ UpdateRFPPref
 )
 ;
 void
-UpdateRFPLiteOverrideList
+UpdateFPPOverrideList
 (
 )
 ;
