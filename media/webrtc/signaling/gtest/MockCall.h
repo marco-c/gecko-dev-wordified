@@ -875,6 +875,13 @@ Resource
 )
 ;
 }
+void
+GenerateKeyFrame
+(
+)
+override
+{
+}
 virtual
 ~
 MockVideoSendStream
