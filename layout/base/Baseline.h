@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-BaselineUtils_h___
+LAYOUT_BASE_BASELINE_H_
 #
 define
-BaselineUtils_h___
+LAYOUT_BASE_BASELINE_H_
 #
 include
 "
@@ -255,4 +255,4 @@ mozilla
 endif
 /
 /
-BaselineUtils_h___
+LAYOUT_BASE_BASELINE_H_

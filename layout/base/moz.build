@@ -244,11 +244,6 @@ EXPORTS
 =
 [
 "
-Baseline
-.
-h
-"
-"
 CaretAssociationHint
 .
 h
@@ -432,6 +427,11 @@ h
 "
 "
 ArenaObjectID
+.
+h
+"
+"
+Baseline
 .
 h
 "
