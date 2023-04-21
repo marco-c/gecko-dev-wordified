@@ -238,9 +238,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -263,7 +260,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 prot
 =
@@ -379,9 +376,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -404,7 +398,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 prot
 =

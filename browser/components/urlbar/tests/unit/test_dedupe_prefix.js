@@ -431,9 +431,6 @@ com
 foo
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -702,9 +699,6 @@ com
 foo
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1047,9 +1041,6 @@ com
 foo
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1488,9 +1479,6 @@ com
 foo
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1759,9 +1747,6 @@ com
 foo
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -2034,9 +2019,6 @@ com
 foo
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [

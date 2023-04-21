@@ -477,9 +477,6 @@ https
 host
 }
 /
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -870,9 +867,6 @@ www
 host
 }
 /
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -892,7 +886,7 @@ www
 host
 }
 /
-title
+fallbackTitle
 :
 www
 .
@@ -959,9 +953,6 @@ www
 host
 }
 /
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -981,7 +972,7 @@ www
 host
 }
 /
-title
+fallbackTitle
 :
 www
 .
@@ -1046,9 +1037,6 @@ www
 host
 }
 /
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -1068,7 +1056,7 @@ www
 host
 }
 /
-title
+fallbackTitle
 :
 www
 .

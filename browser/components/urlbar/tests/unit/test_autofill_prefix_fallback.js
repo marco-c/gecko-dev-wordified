@@ -340,9 +340,6 @@ www
 host
 }
 /
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -362,7 +359,7 @@ www
 host
 }
 /
-title
+fallbackTitle
 :
 https
 :
@@ -527,9 +524,6 @@ https
 host
 }
 /
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -547,7 +541,7 @@ https
 host
 }
 /
-title
+fallbackTitle
 :
 https
 :

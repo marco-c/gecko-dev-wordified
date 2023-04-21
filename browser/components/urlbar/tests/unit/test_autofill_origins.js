@@ -291,9 +291,6 @@ http
 origin
 }
 /
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -461,9 +458,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -616,9 +610,6 @@ com
 8888
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -779,9 +770,6 @@ com
 8888
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -936,9 +924,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1104,9 +1089,6 @@ com
 8888
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1688,9 +1670,6 @@ jp
 8888
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1952,9 +1931,6 @@ http
 "
 +
 str
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -2101,9 +2077,6 @@ it
 8888
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -2627,9 +2600,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -3176,9 +3146,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -3639,9 +3606,6 @@ com
 completed
 :
 baseURL
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -3652,7 +3616,7 @@ context
 uri
 :
 baseURL
-title
+fallbackTitle
 :
 "
 example
@@ -4153,9 +4117,6 @@ com
 completed
 :
 baseURL
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -4166,7 +4127,7 @@ context
 uri
 :
 baseURL
-title
+fallbackTitle
 :
 "
 example
@@ -4569,9 +4530,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -5052,9 +5010,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -5311,9 +5266,6 @@ hostAndPort
 completed
 :
 address
-hasAutofillTitle
-:
-true
 matches
 :
 [

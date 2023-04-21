@@ -491,9 +491,6 @@ search
 com
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -531,7 +528,7 @@ search
 com
 /
 "
-title
+fallbackTitle
 :
 "
 my

@@ -163,9 +163,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -185,7 +182,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 mozilla
@@ -346,9 +343,6 @@ org
 test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -529,9 +523,6 @@ org
 Test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -684,9 +675,6 @@ org
 Test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -867,9 +855,6 @@ org
 Test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1022,9 +1007,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -1044,7 +1026,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 mozilla
@@ -1215,9 +1197,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -1239,7 +1218,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 www
@@ -1416,9 +1395,6 @@ org
 Test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1610,9 +1586,6 @@ org
 Test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1785,9 +1758,6 @@ org
 Test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1995,9 +1965,6 @@ org
 Test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [

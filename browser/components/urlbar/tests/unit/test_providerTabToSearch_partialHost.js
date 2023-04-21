@@ -1150,9 +1150,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [

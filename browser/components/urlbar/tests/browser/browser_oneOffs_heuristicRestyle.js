@@ -528,10 +528,9 @@ resultDetails
 .
 result
 .
-autofill
-?
+payload
 .
-hasTitle
+title
 )
 {
 Assert

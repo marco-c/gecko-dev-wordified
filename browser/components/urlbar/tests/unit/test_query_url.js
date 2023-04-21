@@ -172,9 +172,6 @@ file
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -194,7 +191,7 @@ file
 org
 /
 "
-title
+fallbackTitle
 :
 "
 file
@@ -428,9 +425,6 @@ file
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -450,7 +444,7 @@ file
 org
 /
 "
-title
+fallbackTitle
 :
 "
 file
@@ -641,9 +635,6 @@ org
 test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [

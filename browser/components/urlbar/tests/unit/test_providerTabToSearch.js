@@ -317,9 +317,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -473,9 +470,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -807,9 +801,6 @@ test
 ca
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -981,9 +972,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1204,9 +1192,6 @@ foo
 bar
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1376,9 +1361,6 @@ foo
 bar
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1767,9 +1749,6 @@ foo
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1977,9 +1956,6 @@ foobar
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -2351,9 +2327,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -2621,9 +2594,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -3125,9 +3095,6 @@ com
 mx
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -3342,9 +3309,6 @@ disabled
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -3489,9 +3453,6 @@ disabled
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
