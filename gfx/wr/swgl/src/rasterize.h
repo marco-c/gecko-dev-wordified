@@ -8433,7 +8433,7 @@ y
 =
 floor
 (
-max
+clamp
 (
 l0
 .
@@ -8441,6 +8441,9 @@ y
 clipRect
 .
 y0
+clipRect
+.
+y1
 )
 +
 aaRound
@@ -11116,7 +11119,7 @@ y
 =
 floor
 (
-max
+clamp
 (
 l0
 .
@@ -11124,6 +11127,9 @@ y
 clipRect
 .
 y0
+clipRect
+.
+y1
 )
 +
 aaRound
