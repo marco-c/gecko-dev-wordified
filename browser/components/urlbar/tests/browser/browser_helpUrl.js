@@ -485,22 +485,6 @@ assertIsTestResult
 1
 )
 ;
-let
-resultMenuOffset
-=
-UrlbarPrefs
-.
-get
-(
-"
-resultMenu
-"
-)
-?
-1
-:
-0
-;
 info
 (
 "
@@ -529,8 +513,6 @@ KEY_ArrowDown
 assertMainPartSelected
 (
 1
-+
-resultMenuOffset
 )
 ;
 info
@@ -556,8 +538,6 @@ KEY_Tab
 assertButtonSelected
 (
 2
-+
-resultMenuOffset
 )
 ;
 info
@@ -587,8 +567,6 @@ KEY_Tab
 assertOtherResultSelected
 (
 3
-+
-resultMenuOffset
 "
 next
 result
@@ -626,8 +604,6 @@ true
 assertButtonSelected
 (
 2
-+
-resultMenuOffset
 )
 ;
 info
@@ -664,8 +640,6 @@ true
 assertMainPartSelected
 (
 1
-+
-resultMenuOffset
 )
 ;
 info
@@ -853,7 +827,7 @@ MAX_RESULTS
 *
 2
 -
-1
+2
 :
 MAX_RESULTS
 ;
@@ -1513,6 +1487,8 @@ resultMenu
 index
 *
 2
+-
+1
 :
 index
 )
