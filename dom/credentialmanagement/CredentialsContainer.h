@@ -275,6 +275,9 @@ WebAuthnManager
 >
 mManager
 ;
+bool
+mActiveIdentityRequest
+;
 }
 ;
 }
