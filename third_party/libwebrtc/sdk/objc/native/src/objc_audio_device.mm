@@ -190,7 +190,7 @@ int
 (
 [
 audio_device
-inputSampleRate
+deviceInputSampleRate
 ]
 )
 ;
@@ -268,7 +268,7 @@ int
 (
 [
 audio_device
-outputSampleRate
+deviceOutputSampleRate
 ]
 )
 ;
@@ -718,7 +718,7 @@ if
 !
 [
 audio_device_
-terminate
+terminateDevice
 ]
 )
 {

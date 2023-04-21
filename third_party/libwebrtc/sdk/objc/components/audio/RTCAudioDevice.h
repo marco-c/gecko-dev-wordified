@@ -1177,7 +1177,7 @@ property
 readonly
 )
 double
-inputSampleRate
+deviceInputSampleRate
 ;
 /
 *
@@ -1313,7 +1313,7 @@ property
 readonly
 )
 double
-outputSampleRate
+deviceOutputSampleRate
 ;
 /
 *
@@ -1525,7 +1525,7 @@ initializeWithDelegate
 (
 BOOL
 )
-terminate
+terminateDevice
 ;
 /
 *
