@@ -29777,12 +29777,8 @@ aResult
 ;
 if
 (
-profiler_feature_active
+profiler_thread_is_being_profiled_for_markers
 (
-ProfilerFeature
-:
-:
-PreferenceReads
 )
 )
 {
@@ -29885,12 +29881,8 @@ aResult
 ;
 if
 (
-profiler_feature_active
+profiler_thread_is_being_profiled_for_markers
 (
-ProfilerFeature
-:
-:
-PreferenceReads
 )
 )
 {

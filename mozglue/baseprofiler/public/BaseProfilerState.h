@@ -1711,24 +1711,6 @@ MACRO
 (
 11
 "
-preferencereads
-"
-PreferenceReads
-\
-"
-Track
-when
-preferences
-are
-read
-"
-)
-\
-\
-MACRO
-(
-12
-"
 nativeallocations
 "
 NativeAllocations
@@ -1759,7 +1741,7 @@ allocations
 \
 MACRO
 (
-13
+12
 "
 ipcmessages
 "
@@ -1781,7 +1763,7 @@ messages
 \
 MACRO
 (
-14
+13
 "
 audiocallbacktracing
 "
@@ -1797,7 +1779,7 @@ tracing
 \
 MACRO
 (
-15
+14
 "
 cpu
 "
@@ -1811,7 +1793,7 @@ utilization
 \
 MACRO
 (
-16
+15
 "
 notimerresolutionchange
 "
@@ -1845,7 +1827,7 @@ affected
 \
 MACRO
 (
-17
+16
 "
 cpuallthreads
 "
@@ -1866,7 +1848,7 @@ threads
 \
 MACRO
 (
-18
+17
 "
 samplingallthreads
 "
@@ -1886,7 +1868,7 @@ threads
 \
 MACRO
 (
-19
+18
 "
 markersallthreads
 "
@@ -1905,7 +1887,7 @@ threads
 \
 MACRO
 (
-20
+19
 "
 unregisteredthreads
 "
@@ -1929,7 +1911,7 @@ expensive
 \
 MACRO
 (
-21
+20
 "
 processcpu
 "
@@ -1949,7 +1931,7 @@ process
 \
 MACRO
 (
-22
+21
 "
 power
 "
