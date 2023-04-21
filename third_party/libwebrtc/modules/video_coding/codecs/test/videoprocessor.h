@@ -196,6 +196,17 @@ api
 /
 video
 /
+resolution
+.
+h
+"
+#
+include
+"
+api
+/
+video
+/
 video_bitrate_allocation
 .
 h
