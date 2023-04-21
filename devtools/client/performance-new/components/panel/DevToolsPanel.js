@@ -126,6 +126,9 @@ import
 .
 .
 /
+.
+.
+/
 types
 /
 perf
@@ -141,6 +144,9 @@ property
 import
 (
 "
+.
+.
+/
 .
 .
 /
@@ -182,6 +188,9 @@ typedef
 import
 (
 "
+.
+.
+/
 .
 .
 /
@@ -309,6 +318,8 @@ new
 /
 components
 /
+panel
+/
 RecordingButton
 .
 js
@@ -338,6 +349,8 @@ new
 /
 components
 /
+panel
+/
 Description
 .
 js
@@ -367,6 +380,8 @@ new
 /
 components
 /
+panel
+/
 DevToolsPresetSelection
 .
 js
@@ -395,6 +410,8 @@ performance
 new
 /
 components
+/
+panel
 /
 OnboardingMessage
 .

@@ -223,6 +223,9 @@ import
 .
 .
 /
+.
+.
+/
 types
 /
 perf
@@ -238,6 +241,9 @@ typedef
 import
 (
 "
+.
+.
+/
 .
 .
 /
@@ -418,6 +424,8 @@ new
 /
 components
 /
+aboutprofiling
+/
 Range
 .
 js
@@ -446,6 +454,8 @@ performance
 new
 /
 components
+/
+aboutprofiling
 /
 DirectoryPicker
 .

@@ -154,6 +154,9 @@ import
 .
 .
 /
+.
+.
+/
 types
 /
 perf
@@ -169,6 +172,9 @@ typedef
 import
 (
 "
+.
+.
+/
 .
 .
 /
@@ -328,6 +334,8 @@ new
 /
 components
 /
+aboutprofiling
+/
 Settings
 .
 js
@@ -356,6 +364,8 @@ performance
 new
 /
 components
+/
+aboutprofiling
 /
 Presets
 .

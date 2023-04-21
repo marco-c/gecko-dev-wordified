@@ -591,6 +591,8 @@ new
 /
 components
 /
+panel
+/
 DevToolsPanel
 .
 js
@@ -622,6 +624,8 @@ new
 /
 components
 /
+panel
+/
 ProfilerEventHandling
 .
 js
@@ -652,6 +656,8 @@ performance
 new
 /
 components
+/
+shared
 /
 ProfilerPreferenceObserver
 .
