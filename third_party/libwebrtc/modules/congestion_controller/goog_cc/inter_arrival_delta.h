@@ -344,7 +344,7 @@ delta
 .
 /
 /
-arrival_time_delta_ms
+arrival_time_delta
 (
 output
 )

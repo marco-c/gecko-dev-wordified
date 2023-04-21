@@ -490,12 +490,13 @@ out
 of
 order
 resetting
-.
+:
 "
 <
 <
 "
-arrival_time_delta
+arrival_time_delta_ms
+=
 "
 <
 <
@@ -508,9 +509,8 @@ ms
 <
 <
 "
-send
-time
-delta
+send_time_delta_ms
+=
 "
 <
 <
