@@ -763,7 +763,7 @@ MAX_PUSH_CONSTANTS
 :
 usize
 =
-64
+16
 ;
 impl
 crate

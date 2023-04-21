@@ -8269,16 +8269,6 @@ FragDepth
 Bi
 :
 :
-PointCoord
-=
->
-BuiltIn
-:
-:
-PointCoord
-Bi
-:
-:
 FrontFacing
 =
 >

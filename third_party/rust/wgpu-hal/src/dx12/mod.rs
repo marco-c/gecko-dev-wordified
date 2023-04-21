@@ -1818,9 +1818,6 @@ native
 :
 :
 GraphicsCommandList
-closed
-:
-bool
 }
 unsafe
 impl
