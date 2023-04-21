@@ -1135,7 +1135,7 @@ Nursery
 is
 full
 .
-JSObject
+void
 *
 allocateObject
 (
