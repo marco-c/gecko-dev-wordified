@@ -4135,7 +4135,7 @@ FormAutofill
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4146,13 +4146,15 @@ autofill
 /
 FormAutofillParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4163,7 +4165,9 @@ autofill
 /
 FormAutofillChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
