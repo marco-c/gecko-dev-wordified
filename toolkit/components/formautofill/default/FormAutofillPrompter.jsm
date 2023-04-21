@@ -3610,6 +3610,11 @@ DESCRIPTION_ID
 description
 )
 ;
+if
+(
+additionalDescription
+)
+{
 this
 .
 _updateDescription
@@ -3619,6 +3624,7 @@ ADDITIONAL_DESCRIPTION_ID
 additionalDescription
 )
 ;
+}
 }
 ;
 this
