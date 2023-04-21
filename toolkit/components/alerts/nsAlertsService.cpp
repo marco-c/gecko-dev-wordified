@@ -178,6 +178,13 @@ nsToolkitCompsCID
 h
 "
 #
+include
+"
+nsComponentManagerUtils
+.
+h
+"
+#
 ifdef
 MOZ_PLACES
 #
