@@ -615,7 +615,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 repeat
@@ -1602,7 +1602,7 @@ button
 info
 (
 "
-Arrowing
+Tabbing
 down
 to
 block
@@ -1615,7 +1615,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 repeat
@@ -1643,7 +1643,7 @@ should
 be
 selected
 after
-arrowing
+tabbing
 down
 "
 )
