@@ -301,6 +301,10 @@ from
 Git
 etc
 .
+from
+typing
+import
+List
 import
 re
 import
@@ -397,8 +401,15 @@ def
 genTestUtils_union
 (
 TEMPLATEFILE
+:
+str
 NAME2DIRFILE
+:
+str
 )
+-
+>
+None
 :
     
 CANVASOUTPUTDIR
@@ -449,7 +460,12 @@ def
 simpleEscapeJS
 (
 string
+:
+str
 )
+-
+>
+str
 :
         
 return
@@ -485,7 +501,12 @@ def
 escapeJS
 (
 string
+:
+str
 )
+-
+>
+str
 :
         
 string
@@ -556,9 +577,18 @@ def
 expand_nonfinite
 (
 method
+:
+str
 argstr
+:
+str
 tail
+:
+str
 )
+-
+>
+str
 :
         
 "
@@ -977,9 +1007,21 @@ def
 f
 (
 c
+:
+List
+[
+str
+]
 start
+:
+int
 depth
+:
+int
 )
+-
+>
+None
 :
             
 for
@@ -1359,7 +1401,12 @@ def
 backref_html
 (
 name
+:
+str
 )
+-
+>
+str
 :
         
 backrefs
@@ -1566,7 +1613,12 @@ def
 map_name
 (
 name
+:
+str
 )
+-
+>
+str
 :
         
 mapped_name
@@ -1672,7 +1724,12 @@ def
 expand_test_code
 (
 code
+:
+str
 )
+-
+>
+str
 :
         
 code
