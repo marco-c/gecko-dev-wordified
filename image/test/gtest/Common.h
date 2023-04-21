@@ -4168,6 +4168,11 @@ GreenFirstFrameAnimatedWebPTestCase
 )
 ;
 ImageTestCase
+GreenFirstFrameAnimatedAVIFTestCase
+(
+)
+;
+ImageTestCase
 BlendAnimatedGIFTestCase
 (
 )
@@ -4179,6 +4184,11 @@ BlendAnimatedPNGTestCase
 ;
 ImageTestCase
 BlendAnimatedWebPTestCase
+(
+)
+;
+ImageTestCase
+BlendAnimatedAVIFTestCase
 (
 )
 ;
