@@ -323,6 +323,8 @@ public
 /
 build
 /
+fenix
+/
 {
 architecture
 }

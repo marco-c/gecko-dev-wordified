@@ -254,6 +254,8 @@ public
 %
 2Fbuild
 %
+2Ffenix
+%
 2F
 {
 architecture
@@ -332,6 +334,8 @@ artifacts
 public
 %
 2Fbuild
+%
+2Ffenix
 %
 2F
 {
