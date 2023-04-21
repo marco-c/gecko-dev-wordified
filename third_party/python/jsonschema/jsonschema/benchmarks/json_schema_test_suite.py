@@ -1,3 +1,12 @@
+#
+!
+/
+usr
+/
+bin
+/
+env
+python
 "
 "
 "
