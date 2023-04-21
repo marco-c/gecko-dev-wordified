@@ -60,7 +60,6 @@ MPL
 /
 import
 {
-getLocationSource
 getSourceActorsForSource
 }
 from
@@ -261,11 +260,9 @@ location
 const
 source
 =
-getLocationSource
-(
-state
 location
-)
+.
+source
 ;
 if
 (
