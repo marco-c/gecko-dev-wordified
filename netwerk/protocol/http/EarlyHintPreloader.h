@@ -591,8 +591,6 @@ OnParentReady
 nsIParentChannel
 *
 aParent
-uint64_t
-aChannelId
 )
 ;
 private
@@ -712,11 +710,6 @@ nsCOMPtr
 nsIChannel
 >
 mRedirectChannel
-;
-uint64_t
-mChannelId
-=
-0
 ;
 EarlyHintConnectArgs
 mConnectArgs

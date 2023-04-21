@@ -635,8 +635,6 @@ aEarlyHintPreloaderId
 nsIParentChannel
 *
 aParent
-uint64_t
-aChannelId
 )
 {
 MOZ_ASSERT
@@ -682,7 +680,6 @@ ehp
 OnParentReady
 (
 aParent
-aChannelId
 )
 ;
 }
