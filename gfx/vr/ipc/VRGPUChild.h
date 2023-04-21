@@ -149,6 +149,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 VRGPUChild
+final
 )
 ;
 static
