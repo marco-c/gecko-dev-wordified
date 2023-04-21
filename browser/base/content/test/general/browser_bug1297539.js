@@ -246,7 +246,7 @@ addDataFlavor
 "
 text
 /
-unicode
+plain
 "
 )
 ;

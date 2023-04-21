@@ -8238,7 +8238,7 @@ addData
 (
 PlacesUtils
 .
-TYPE_UNICODE
+TYPE_PLAINTEXT
 0
 )
 ;

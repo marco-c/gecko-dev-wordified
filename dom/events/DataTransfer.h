@@ -2563,11 +2563,7 @@ aOutFormat
 /
 /
 Text
-and
-text
-/
-unicode
-become
+becomes
 text
 /
 plain

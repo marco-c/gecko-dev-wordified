@@ -411,7 +411,7 @@ getClipboardData
 "
 text
 /
-unicode
+plain
 "
 )
 ;

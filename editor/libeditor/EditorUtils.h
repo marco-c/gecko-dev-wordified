@@ -3434,7 +3434,7 @@ nsITransferable
 instance
 which
 has
-kUnicodeMime
+kTextMime
 and
 *
 kMozTextInternal

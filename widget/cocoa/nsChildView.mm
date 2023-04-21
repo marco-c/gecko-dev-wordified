@@ -28258,7 +28258,7 @@ trans
 >
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 trans

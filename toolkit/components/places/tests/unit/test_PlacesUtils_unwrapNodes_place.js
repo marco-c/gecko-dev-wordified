@@ -198,7 +198,7 @@ sort
 "
 PlacesUtils
 .
-TYPE_UNICODE
+TYPE_PLAINTEXT
 ]
 /
 /
@@ -230,7 +230,7 @@ sort
 "
 PlacesUtils
 .
-TYPE_UNICODE
+TYPE_PLAINTEXT
 ]
 ]
 ;

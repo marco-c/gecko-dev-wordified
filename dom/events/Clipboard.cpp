@@ -782,7 +782,7 @@ kHTMLMime
 )
 nsDependentCString
 (
-kUnicodeMime
+kTextMime
 )
 nsDependentCString
 (
@@ -943,18 +943,6 @@ ClipboardItem
 ItemEntry
 >
 (
-format
-.
-EqualsLiteral
-(
-kUnicodeMime
-)
-?
-NS_ConvertUTF8toUTF16
-(
-kTextMime
-)
-:
 NS_ConvertUTF8toUTF16
 (
 format
@@ -1134,7 +1122,7 @@ trans
 >
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 clipboardService
@@ -1182,7 +1170,7 @@ trans
 >
 GetTransferData
 (
-kUnicodeMime
+kTextMime
 getter_AddRefs
 (
 data
@@ -4313,7 +4301,7 @@ kTextMime
 )
 nsLiteralCString
 (
-kUnicodeMime
+kTextMime
 )
 std
 :

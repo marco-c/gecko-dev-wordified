@@ -7106,7 +7106,7 @@ only
 for
 text
 /
-unicode
+plain
 *
 values
 .
@@ -7362,7 +7362,7 @@ aFlavor
 "
 text
 /
-unicode
+plain
 "
 ]
 *
@@ -7560,7 +7560,7 @@ aFlavor
 "
 text
 /
-unicode
+plain
 "
 ;
 /
@@ -8098,7 +8098,7 @@ preExpectedVal
 "
 text
 /
-unicode
+plain
 "
 false
 )

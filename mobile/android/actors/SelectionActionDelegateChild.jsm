@@ -529,7 +529,7 @@ hasDataMatchingFlavors
 "
 text
 /
-unicode
+plain
 "
 ]
 Ci

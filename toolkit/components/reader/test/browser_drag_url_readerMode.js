@@ -303,7 +303,7 @@ getData
 "
 text
 /
-unicode
+plain
 "
 )
 ;

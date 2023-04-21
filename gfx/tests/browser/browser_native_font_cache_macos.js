@@ -518,7 +518,7 @@ resolve
 "
 text
 /
-unicode
+plain
 "
 REPORT_TIMEOUT_MS
 )

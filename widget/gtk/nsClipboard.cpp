@@ -1919,7 +1919,7 @@ Special
 case
 text
 /
-unicode
+plain
 since
 we
 can
@@ -1936,7 +1936,7 @@ flavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {
@@ -3205,7 +3205,7 @@ text
 html
 into
 our
-unicode
+text
 format
 nsAutoCString
 charset
@@ -3974,7 +3974,7 @@ Special
 case
 text
 /
-unicode
+plain
 since
 we
 can
@@ -3986,14 +3986,14 @@ string
 into
 text
 /
-unicode
+plain
 if
 (
 flavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {
@@ -4001,7 +4001,7 @@ LOGCLIP
 (
 "
 Getting
-unicode
+text
 %
 s
 MIME
@@ -4040,7 +4040,7 @@ LOGCLIP
 failed
 to
 get
-unicode
+text
 data
 \
 n
@@ -4055,7 +4055,7 @@ type
 was
 text
 /
-unicode
+plain
 and
 we
 couldn
@@ -4087,7 +4087,7 @@ utf
 8
 into
 our
-unicode
+text
 format
 .
 NS_ConvertUTF8toUTF16
@@ -4127,7 +4127,7 @@ LOGCLIP
 (
 "
 got
-unicode
+text
 data
 length
 %
@@ -4751,7 +4751,7 @@ dataLength
 nsLiteralCString
 flavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 SetTransferableData
@@ -4815,7 +4815,7 @@ DataPromiseHandler
 (
 aTransferable
 dataPromise
-kUnicodeMime
+kTextMime
 )
 )
 ;
@@ -5399,7 +5399,7 @@ Special
 case
 text
 /
-unicode
+plain
 since
 we
 can
@@ -5411,14 +5411,14 @@ string
 into
 text
 /
-unicode
+plain
 if
 (
 aFlavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {
@@ -6499,7 +6499,7 @@ special
 case
 text
 /
-unicode
+plain
 here
 .
 if
@@ -6508,7 +6508,7 @@ flavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 &
 &
@@ -6544,7 +6544,7 @@ LOGCLIP
 (
 "
 has
-kUnicodeMime
+kTextMime
 \
 n
 "
@@ -6889,23 +6889,13 @@ get
 )
 )
 ;
-/
-/
-We
-can
-convert
-any
-text
-to
-unicode
-.
 if
 (
 flavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 &
 &
@@ -6927,7 +6917,7 @@ LOGCLIP
 (
 "
 has
-kUnicodeMime
+kTextMime
 \
 n
 "
@@ -7143,7 +7133,7 @@ give
 it
 text
 /
-unicode
+plain
 after
 converting
 it
@@ -7369,7 +7359,7 @@ LOGCLIP
 providing
 text
 /
-unicode
+plain
 data
 \
 n
@@ -7406,7 +7396,7 @@ the
 /
 text
 /
-unicode
+plain
 type
 for
 it
@@ -7421,7 +7411,7 @@ GetTransferData
 "
 text
 /
-unicode
+plain
 "
 getter_AddRefs
 (
@@ -7452,7 +7442,7 @@ to
 get
 text
 /
-unicode
+plain
 !
 \
 n

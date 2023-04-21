@@ -698,7 +698,11 @@ mimeType
 .
 AssignLiteral
 (
-kUnicodeMime
+"
+text
+/
+unicode
+"
 )
 ;
 /
@@ -1125,7 +1129,7 @@ EncodedDocumentWithContext
 /
 /
 When
-determening
+determining
 mSerializationForTextUnicode
 text
 /
@@ -1710,7 +1714,8 @@ text
 /
 Add
 the
-unicode
+plain
+text
 DataFlavor
 to
 the
@@ -1734,7 +1739,7 @@ matches
 /
 text
 /
-unicode
+plain
 against
 the
 kURLMime
@@ -1761,7 +1766,7 @@ aTransferable
 aEncodedDocumentWithContext
 .
 mSerializationForTextUnicode
-kUnicodeMime
+kTextMime
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1971,7 +1976,7 @@ aTransferable
 aEncodedDocumentWithContext
 .
 mSerializationForTextUnicode
-kUnicodeMime
+kTextMime
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2849,7 +2854,7 @@ NS_ConvertUTF8toUTF16
 (
 location
 )
-kUnicodeMime
+kTextMime
 )
 ;
 NS_ENSURE_SUCCESS

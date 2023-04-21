@@ -144,12 +144,12 @@ private
 static
 final
 String
-UNICODE_MIME
+PLAINTEXT_MIME
 =
 "
 text
 /
-unicode
+plain
 "
 ;
 private
@@ -215,7 +215,7 @@ return
 getData
 (
 context
-UNICODE_MIME
+PLAINTEXT_MIME
 )
 ;
 }
@@ -255,7 +255,7 @@ html
 and
 text
 /
-unicode
+plain
 only
 .
 If
@@ -420,7 +420,7 @@ toString
 }
 if
 (
-UNICODE_MIME
+PLAINTEXT_MIME
 .
 equals
 (
@@ -932,7 +932,7 @@ mimeType
 )
 |
 |
-UNICODE_MIME
+PLAINTEXT_MIME
 .
 equals
 (
@@ -1074,7 +1074,7 @@ MIMETYPE_TEXT_HTML
 }
 if
 (
-UNICODE_MIME
+PLAINTEXT_MIME
 .
 equals
 (

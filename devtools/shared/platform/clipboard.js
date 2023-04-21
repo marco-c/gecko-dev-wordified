@@ -122,7 +122,7 @@ flavor
 "
 text
 /
-unicode
+plain
 "
 .
 *
@@ -156,7 +156,7 @@ flavor
 "
 text
 /
-unicode
+plain
 "
 ;
 const

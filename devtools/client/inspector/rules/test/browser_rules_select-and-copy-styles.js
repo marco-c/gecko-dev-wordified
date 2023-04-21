@@ -1379,7 +1379,7 @@ getClipboardData
 "
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -1511,7 +1511,7 @@ getClipboardData
 "
 text
 /
-unicode
+plain
 "
 )
 ;

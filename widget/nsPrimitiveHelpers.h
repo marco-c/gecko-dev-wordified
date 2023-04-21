@@ -378,10 +378,8 @@ static
 nsresult
 ConvertPlatformToDOMLinebreaks
 (
-const
-nsACString
-&
-inFlavor
+bool
+aIsSingleByteChars
 void
 *
 *

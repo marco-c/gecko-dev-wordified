@@ -728,7 +728,7 @@ input
 "
 text
 /
-unicode
+plain
 "
 output
 )

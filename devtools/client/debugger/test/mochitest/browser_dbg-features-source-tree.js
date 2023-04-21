@@ -789,7 +789,7 @@ getClipboardData
 "
 text
 /
-unicode
+plain
 "
 )
 ;

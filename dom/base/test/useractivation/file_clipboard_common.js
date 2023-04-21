@@ -499,7 +499,7 @@ aNext
 "
 text
 /
-unicode
+plain
 "
 WATCH_TIMEOUT
 true

@@ -801,7 +801,7 @@ trans
 >
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 NS_ENSURE_SUCCESS
@@ -941,7 +941,7 @@ trans
 >
 SetTransferData
 (
-kUnicodeMime
+kTextMime
 genericData
 )
 ;

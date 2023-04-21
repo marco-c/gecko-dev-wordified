@@ -3875,7 +3875,7 @@ flav
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 &
 &
