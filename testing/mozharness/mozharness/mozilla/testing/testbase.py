@@ -3315,6 +3315,24 @@ query_build_dir_url
 (
 file_name
 )
+.
+replace
+(
+                
+"
+public
+/
+build
+/
+"
+"
+public
+/
+cidata
+/
+"
+            
+)
             
 self
 .
