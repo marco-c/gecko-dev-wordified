@@ -418,6 +418,15 @@ active_streams
 )
 ;
 void
+ExpectStream
+(
+VideoFrameType
+frame_type
+int
+scaleResolutionDownBy
+)
+;
+void
 ExpectStreams
 (
 VideoFrameType
