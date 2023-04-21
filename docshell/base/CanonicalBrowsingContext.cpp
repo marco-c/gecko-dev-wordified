@@ -9964,7 +9964,7 @@ NS_WARN_IF
 mContentParent
 -
 >
-IsDead
+IsShuttingDown
 (
 )
 )
@@ -10807,7 +10807,7 @@ NS_WARN_IF
 mContentParent
 -
 >
-IsDead
+IsShuttingDown
 (
 )
 )
