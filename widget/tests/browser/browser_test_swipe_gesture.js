@@ -7248,6 +7248,16 @@ scrollLeft
 =
 1
 ;
+content
+.
+document
+.
+documentElement
+.
+getBoundingClientRect
+(
+)
+;
 await
 content
 .
