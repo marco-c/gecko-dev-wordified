@@ -3064,9 +3064,9 @@ fingerprinting
 .
 if
 (
-nsContentUtils
-:
-:
+aPerformance
+-
+>
 ShouldResistFingerprinting
 (
 )
@@ -3163,9 +3163,9 @@ fingerprinting
 .
 if
 (
-nsContentUtils
-:
-:
+aPerformance
+-
+>
 ShouldResistFingerprinting
 (
 )

@@ -503,13 +503,6 @@ workers
 )
 ;
 }
-bool
-CrossOriginIsolated
-(
-)
-const
-override
-;
 void
 NoteShuttingDown
 (
