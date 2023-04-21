@@ -494,6 +494,11 @@ options_
 get_height
 (
 )
+options_
+.
+prefer_cursor_embedded
+(
+)
 )
 )
 {
