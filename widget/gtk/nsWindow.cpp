@@ -39863,17 +39863,10 @@ to
 make
 popup
 modal
-on
-Wayland
 too
 .
 if
 (
-GdkIsWaylandDisplay
-(
-)
-&
-&
 mPopupHint
 !
 =
