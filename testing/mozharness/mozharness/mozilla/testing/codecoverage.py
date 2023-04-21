@@ -2764,6 +2764,9 @@ and
 JS_CODE_COVERAGE_OUTPUT_DIR
 .
             
+try
+:
+                
 shutil
 .
 rmtree
@@ -2773,6 +2776,15 @@ self
 gcov_dir
 )
             
+except
+FileNotFoundError
+:
+                
+pass
+            
+try
+:
+                
 shutil
 .
 rmtree
@@ -2781,6 +2793,12 @@ self
 .
 jsvm_dir
 )
+            
+except
+FileNotFoundError
+:
+                
+pass
     
 def
 is_covered
