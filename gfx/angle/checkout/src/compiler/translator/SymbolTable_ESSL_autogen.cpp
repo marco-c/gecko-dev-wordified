@@ -88,6 +88,11 @@ ins
 .
 #
 include
+<
+cmath
+>
+#
+include
 "
 compiler
 /
