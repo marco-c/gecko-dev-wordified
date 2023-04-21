@@ -119,6 +119,10 @@ public
 enum
 VideoCodecStatus
 {
+TARGET_BITRATE_OVERSHOOT
+(
+5
+)
 REQUEST_SLI
 (
 2
@@ -175,11 +179,6 @@ FALLBACK_SOFTWARE
 (
 -
 13
-)
-TARGET_BITRATE_OVERSHOOT
-(
--
-14
 )
 ;
 private
