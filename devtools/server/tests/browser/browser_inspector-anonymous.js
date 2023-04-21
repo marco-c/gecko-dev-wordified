@@ -538,11 +538,6 @@ select
 )
 content
 {
-whatToShow
-:
-nodeFilterConstants
-.
-SHOW_ALL
 filter
 :
 (
