@@ -3452,11 +3452,10 @@ if
 childAtOffset
 &
 &
-!
 childAtOffset
 -
 >
-IsText
+IsHyperText
 (
 )
 )
@@ -3519,11 +3518,10 @@ if
 childAtOffset
 &
 &
-!
 childAtOffset
 -
 >
-IsText
+IsHyperText
 (
 )
 &

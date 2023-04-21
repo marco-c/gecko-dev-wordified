@@ -198,6 +198,13 @@ nsIAccessiblePivot
 WORD_BOUNDARY
 ;
 const
+LINE_BOUNDARY
+=
+nsIAccessiblePivot
+.
+LINE_BOUNDARY
+;
+const
 NS_ERROR_NOT_IN_TREE
 =
 0x80780026
