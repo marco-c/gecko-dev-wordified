@@ -634,7 +634,7 @@ prev_was_unstructured
                     
 self
 .
-critical
+info
 (
                         
 "
@@ -667,16 +667,6 @@ self
 info
 (
 line
-)
-                
-self
-.
-update_levels
-(
-TBPL_FAILURE
-log
-.
-CRITICAL
 )
                 
 self
