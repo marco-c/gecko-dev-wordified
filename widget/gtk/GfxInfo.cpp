@@ -3913,6 +3913,10 @@ AddCrashReportAnnotations
 )
 ;
 }
+#
+ifdef
+MOZ_WAYLAND
+static
 int
 fire_vaapi_process
 (
@@ -4809,6 +4813,8 @@ return
 }
 }
 }
+#
+endif
 const
 nsTArray
 <
@@ -8092,10 +8098,15 @@ nsIGfxInfo
 FEATURE_STATUS_OK
 )
 {
+#
+ifdef
+MOZ_WAYLAND
 GetDataVAAPI
 (
 )
 ;
+#
+endif
 if
 (
 !
