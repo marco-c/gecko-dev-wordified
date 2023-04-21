@@ -998,7 +998,7 @@ AnalyzePreProcess
 input_volume_controller_
 -
 >
-set_stream_analog_level
+SetAppliedInputVolume
 (
 applied_input_volume
 )
@@ -1042,7 +1042,7 @@ int
 input_volume_controller_
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
