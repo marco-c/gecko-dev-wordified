@@ -37,7 +37,7 @@ ForgetAboutSite
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -50,7 +50,9 @@ modules
 /
 ForgetAboutSite
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
