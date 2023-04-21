@@ -1711,6 +1711,10 @@ return
 rv
 ;
 }
+HandlePopoverTargetAction
+(
+)
+;
 }
 }
 if
