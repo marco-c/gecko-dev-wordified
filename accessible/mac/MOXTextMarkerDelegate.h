@@ -130,7 +130,7 @@ h
 #
 import
 "
-LegacyTextMarker
+GeckoTextMarker
 .
 h
 "

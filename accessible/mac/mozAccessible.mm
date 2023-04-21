@@ -149,6 +149,13 @@ h
 #
 import
 "
+MOXTextMarkerDelegate
+.
+h
+"
+#
+import
+"
 MOXWebAreaAccessible
 .
 h
@@ -251,6 +258,13 @@ h
 include
 "
 nsChildView
+.
+h
+"
+#
+include
+"
+xpcAccessibleMacInterface
 .
 h
 "
