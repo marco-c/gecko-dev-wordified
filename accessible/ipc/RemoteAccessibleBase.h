@@ -1214,15 +1214,6 @@ const
 override
 ;
 virtual
-nsAtom
-*
-InputType
-(
-)
-const
-override
-;
-virtual
 already_AddRefed
 <
 nsAtom

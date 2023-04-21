@@ -492,14 +492,6 @@ const
 override
 ;
 virtual
-bool
-IsSearchbox
-(
-)
-const
-override
-;
-virtual
 int32_t
 SelectionCount
 (
