@@ -4430,9 +4430,9 @@ m_formatter
 .
 oneByteOp64
 (
-OP_MOV_GvEv
-src
+OP_MOV_EvGv
 dst
+src
 )
 ;
 }
