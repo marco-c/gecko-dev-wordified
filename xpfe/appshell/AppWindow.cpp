@@ -19729,15 +19729,6 @@ WindowDeactivated
 (
 )
 {
-nsCOMPtr
-<
-nsIAppWindow
->
-appWindow
-(
-this
-)
-;
 if
 (
 mDocShell

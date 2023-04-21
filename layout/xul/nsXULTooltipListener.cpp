@@ -2892,6 +2892,8 @@ at
 /
 document
 level
+if
+(
 Document
 *
 doc
@@ -2902,10 +2904,6 @@ sourceNode
 GetComposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 /
@@ -4235,6 +4233,8 @@ node
 on
 the
 document
+if
+(
 nsCOMPtr
 <
 Document
@@ -4247,10 +4247,6 @@ currentTooltip
 GetComposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 /
