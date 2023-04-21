@@ -4324,15 +4324,8 @@ want
 to
 proceed
 .
-gfxCriticalErrorOnce
+gfxWarning
 (
-CriticalLog
-:
-:
-DefaultOptions
-(
-false
-)
 )
 <
 <
