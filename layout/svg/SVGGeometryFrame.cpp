@@ -268,9 +268,7 @@ h
 #
 include
 "
-mozilla
-/
-SVGUtils
+nsDisplayList
 .
 h
 "
