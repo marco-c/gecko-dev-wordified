@@ -975,9 +975,6 @@ setupAndRunCrossOriginIsolatedTest
 resistFingerprinting
 :
 true
-reduceTimerPrecision
-:
-false
 crossOriginIsolated
 :
 true
@@ -1019,15 +1016,9 @@ await
 setupAndRunCrossOriginIsolatedTest
 (
 {
-resistFingerprinting
-:
-false
 reduceTimerPrecision
 :
 true
-crossOriginIsolated
-:
-false
 }
 0
 .
@@ -1042,9 +1033,6 @@ await
 setupAndRunCrossOriginIsolatedTest
 (
 {
-resistFingerprinting
-:
-false
 reduceTimerPrecision
 :
 true
