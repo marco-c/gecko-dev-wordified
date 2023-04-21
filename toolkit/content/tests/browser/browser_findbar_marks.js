@@ -1140,9 +1140,13 @@ window2
 .
 resizeTo
 (
+window2
+.
 outerWidth
 -
 100
+window2
+.
 outerHeight
 -
 80
