@@ -707,6 +707,10 @@ sRFPLiteTargets
 RFPTarget
 :
 :
+PrecomputeIsEnabled
+RFPTarget
+:
+:
 Unknown
 }
 ;
