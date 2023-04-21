@@ -3700,7 +3700,7 @@ display
 :
 contents
 or
-optgroup
+option
 /
 optgroup
 we
@@ -3722,7 +3722,7 @@ code
 relies
 on
 the
-later
+latter
 .
 if
 (
