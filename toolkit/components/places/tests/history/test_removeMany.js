@@ -1070,6 +1070,13 @@ removed
 "
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 PlacesObservers
 .
 removeListener
@@ -1276,12 +1283,6 @@ page
 rank
 -
 changed
-was
-fired
-if
-page
--
-removed
 was
 fired
 "
