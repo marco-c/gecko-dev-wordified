@@ -203,7 +203,7 @@ export
 MOZ_FASTFORWARD_BUG
 =
 "
-1800920
+bugnum
 "
 #
 MOZ_NEXT_LIBWEBRTC_MILESTONE
@@ -529,6 +529,7 @@ mozpatches
 def
 build_example_config_env
 (
+bug_number
 milestone
 target
 )
@@ -634,6 +635,10 @@ s
 substitute
 (
         
+bugnum
+=
+bug_number
+        
 m1
 =
 milestone
@@ -691,6 +696,42 @@ new
 release
 /
 milestone
+"
+    
+)
+    
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+bug
+-
+number
+"
+        
+required
+=
+True
+        
+type
+=
+int
+        
+help
+=
+"
+integer
+Bugzilla
+number
+(
+example
+:
+1800920
+)
 "
     
 )
@@ -775,8 +816,12 @@ parse_args
     
 print
 (
+        
 build_example_config_env
 (
+args
+.
+bug_number
 args
 .
 milestone
@@ -784,8 +829,10 @@ args
 .
 release_target
 )
+        
 end
 =
 "
 "
+    
 )
