@@ -125,6 +125,13 @@ windows
 .
 h
 >
+#
+include
+<
+wtypes
+.
+h
+>
 /
 /
 uniqueToken

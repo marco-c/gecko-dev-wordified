@@ -348,6 +348,7 @@ source
 )
 ;
 }
+inline
 void
 WriteWindowsEventLogHresult
 (
@@ -461,6 +462,7 @@ MOZ_FORMAT_WPRINTF
 1
 4
 )
+inline
 void
 WriteWindowsEventLogErrorMessage
 (
