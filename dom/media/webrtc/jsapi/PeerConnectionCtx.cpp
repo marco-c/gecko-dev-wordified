@@ -1813,10 +1813,6 @@ s
 .
 mKind
 .
-Value
-(
-)
-.
 Find
 (
 u
@@ -2178,10 +2174,6 @@ s
 .
 mKind
 .
-Value
-(
-)
-.
 Find
 (
 u
@@ -2405,10 +2397,6 @@ isAudio
 s
 .
 mKind
-.
-Value
-(
-)
 .
 Find
 (
