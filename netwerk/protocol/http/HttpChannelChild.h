@@ -587,6 +587,15 @@ aObserver
 )
 override
 ;
+NS_IMETHOD
+SetWebTransportSessionEventListener
+(
+WebTransportSessionEventListener
+*
+aListener
+)
+override
+;
 /
 /
 nsISupportsPriority
