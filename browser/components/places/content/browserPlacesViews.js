@@ -4353,6 +4353,9 @@ getViewForNode
 (
 this
 )
+PlacesSearchBox
+.
+updateHistorySearchTelemetry
 )
 ;
 "
