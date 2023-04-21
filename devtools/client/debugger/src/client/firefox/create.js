@@ -75,7 +75,7 @@ import
 hasSource
 hasSourceActor
 getSourceActor
-getSourcesMap
+getSourcesCount
 }
 from
 "
@@ -629,7 +629,7 @@ currentSize
 ;
 currentSize
 =
-getSourcesMap
+getSourcesCount
 (
 store
 .
@@ -637,8 +637,6 @@ getState
 (
 )
 )
-.
-size
 ;
 /
 /
