@@ -2014,7 +2014,7 @@ kMethod
 =
 StyleColorInterpolationMethod
 {
-StyleInterpolationColorSpace
+StyleColorSpace
 :
 :
 Srgb
