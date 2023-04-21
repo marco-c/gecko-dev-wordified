@@ -412,6 +412,12 @@ default
 ;
 public
 :
+NS_IMPL_FROMNODE_WITH_TAG
+(
+SVGSVGElement
+kNameSpaceID_SVG
+svg
+)
 /
 /
 interfaces

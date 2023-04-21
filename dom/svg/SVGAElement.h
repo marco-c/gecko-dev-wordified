@@ -661,12 +661,8 @@ NS_IMPL_FROMNODE_WITH_TAG
 (
 SVGAElement
 kNameSpaceID_SVG
-nsGkAtoms
-:
-:
 a
 )
-;
 protected
 :
 virtual
