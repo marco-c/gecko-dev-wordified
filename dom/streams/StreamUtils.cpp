@@ -59,10 +59,6 @@ MPL
 #
 include
 "
-mozilla
-/
-dom
-/
 StreamUtils
 .
 h
