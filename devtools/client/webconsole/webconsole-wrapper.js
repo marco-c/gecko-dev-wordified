@@ -995,7 +995,7 @@ can
 be
 instantiated
 from
-mocha
+jest
 test
 in
 which

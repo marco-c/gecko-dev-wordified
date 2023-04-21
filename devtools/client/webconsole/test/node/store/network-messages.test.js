@@ -152,7 +152,7 @@ getState
 let
 dispatch
 ;
-before
+beforeAll
 (
 (
 )

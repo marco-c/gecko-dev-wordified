@@ -79,5 +79,16 @@ win
 top
 ;
 }
+defineLazyGetter
+(
+)
+{
+}
+makeInfallible
+:
+fn
+=
+>
+fn
 }
 ;

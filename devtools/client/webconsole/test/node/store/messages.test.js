@@ -208,7 +208,7 @@ reducer
 let
 actions
 ;
-before
+beforeAll
 (
 (
 )

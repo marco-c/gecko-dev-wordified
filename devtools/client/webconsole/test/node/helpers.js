@@ -241,6 +241,14 @@ client
 /
 shared
 /
+test
+-
+helpers
+/
+jest
+-
+fixtures
+/
 telemetry
 .
 js
