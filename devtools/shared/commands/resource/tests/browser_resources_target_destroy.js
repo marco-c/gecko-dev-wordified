@@ -309,7 +309,7 @@ targetActor
 =
 TargetActorRegistry
 .
-getTopLevelTargetActorForContext
+getTargetActors
 (
 {
 type
@@ -328,6 +328,16 @@ browsingContext
 browserId
 }
 _connectionPrefix
+)
+.
+find
+(
+actor
+=
+>
+actor
+.
+isTopLevelTarget
 )
 ;
 ok
