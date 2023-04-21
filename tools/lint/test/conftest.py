@@ -867,6 +867,26 @@ specified
 "
 "
     
+if
+hasattr
+(
+request
+.
+module
+"
+fixed
+"
+)
+:
+        
+request
+.
+module
+.
+fixed
+=
+0
+    
 try
 :
         
