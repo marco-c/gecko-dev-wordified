@@ -5762,6 +5762,11 @@ ResetKeyboard
 (
 )
 {
+if
+(
+sInstance
+)
+{
 sInstance
 -
 >
@@ -5773,6 +5778,7 @@ ResetBidiKeyboard
 (
 )
 ;
+}
 }
 /
 *
