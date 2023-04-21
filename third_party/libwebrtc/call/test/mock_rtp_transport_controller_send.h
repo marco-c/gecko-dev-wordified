@@ -313,10 +313,7 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
-TaskQueue
+MaybeWorkerThread
 *
 GetWorkerQueue
 (

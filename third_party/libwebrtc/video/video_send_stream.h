@@ -174,6 +174,17 @@ h
 #
 include
 "
+modules
+/
+utility
+/
+maybe_worker_thread
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 event
@@ -563,7 +574,7 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 thread_checker_
 ;
-TaskQueueBase
+MaybeWorkerThread
 *
 const
 rtp_transport_queue_
