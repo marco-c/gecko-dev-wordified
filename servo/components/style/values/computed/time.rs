@@ -132,6 +132,13 @@ Serialize
 )
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 Time
@@ -169,8 +176,6 @@ Self
 {
 Time
 {
-seconds
-:
 seconds
 }
 }
