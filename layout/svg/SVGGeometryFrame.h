@@ -466,6 +466,7 @@ GetCanvasTM
 (
 )
 ;
+virtual
 bool
 IsInvisible
 (
