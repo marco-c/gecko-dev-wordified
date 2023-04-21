@@ -78,6 +78,16 @@ Cookie2
 OK
 "
 ]
+[
+"
+User
+-
+Agent
+"
+"
+OK
+"
+]
 ]
 ;
 var
