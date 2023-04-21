@@ -787,7 +787,11 @@ server
 /
 actors
 /
+resources
+/
 storage
+/
+index
 .
 js
 const
@@ -3767,7 +3771,11 @@ server
 /
 actors
 /
+resources
+/
 storage
+/
+index
 .
 js
 let

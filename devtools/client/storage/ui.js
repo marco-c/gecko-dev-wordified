@@ -257,7 +257,11 @@ server
 /
 actors
 /
+resources
+/
 storage
+/
+index
 .
 js
 /
