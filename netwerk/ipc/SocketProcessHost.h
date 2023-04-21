@@ -725,7 +725,7 @@ Complete
 LaunchPhase
 mLaunchPhase
 ;
-UniquePtr
+RefPtr
 <
 SocketProcessParent
 >
