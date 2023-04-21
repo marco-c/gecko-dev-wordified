@@ -1906,7 +1906,7 @@ capabilites
 .
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -1921,7 +1921,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -1936,7 +1936,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -1951,7 +1951,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -1966,7 +1966,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -1981,7 +1981,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -1996,7 +1996,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2014,7 +2014,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2035,7 +2035,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2056,7 +2056,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2077,7 +2077,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2098,7 +2098,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2119,7 +2119,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2140,7 +2140,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2164,7 +2164,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
@@ -2189,7 +2189,7 @@ kHardwareCapability
 ;
 template
 class
-RTC_EXPORT_TEMPLATE_DECLARE
+RTC_EXPORT_TEMPLATE_DEFINE
 (
 RTC_EXPORT
 )
