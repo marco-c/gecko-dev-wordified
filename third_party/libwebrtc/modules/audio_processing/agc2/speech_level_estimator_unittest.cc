@@ -94,7 +94,7 @@ audio_processing
 /
 agc2
 /
-adaptive_mode_level_estimator
+speech_level_estimator
 .
 h
 "
@@ -241,7 +241,7 @@ float
 peak_dbfs
 float
 speech_probability
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 &
 level_estimator
 )
@@ -349,7 +349,7 @@ std
 :
 make_unique
 <
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 >
 (
 &
@@ -439,7 +439,7 @@ std
 :
 unique_ptr
 <
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 >
 estimator
 ;
@@ -474,7 +474,7 @@ level
 .
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 LevelStabilizes
 )
 {
@@ -587,7 +587,7 @@ observed
 .
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 IsNotConfident
 )
 {
@@ -660,7 +660,7 @@ observed
 .
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 IsConfident
 )
 {
@@ -734,7 +734,7 @@ frames
 .
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 EstimatorIgnoresNonSpeechFrames
 )
 {
@@ -873,7 +873,7 @@ confident
 .
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 ConvergenceSpeedBeforeConfidence
 )
 {
@@ -944,7 +944,7 @@ confident
 .
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 ConvergenceSpeedAfterConfidence
 )
 {
@@ -1112,7 +1112,7 @@ kConvergenceSpeedTestsLevelTolerance
 ;
 }
 class
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 :
 public
 :
@@ -1143,7 +1143,7 @@ GetParam
 ;
 TEST_P
 (
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 DoNotAdaptToShortSpeechSegments
 )
 {
@@ -1263,7 +1263,7 @@ level_dbfs
 }
 TEST_P
 (
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 AdaptToEnoughSpeechSegments
 )
 {
@@ -1348,7 +1348,7 @@ level_dbfs
 INSTANTIATE_TEST_SUITE_P
 (
 GainController2
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 :
 :
 testing
