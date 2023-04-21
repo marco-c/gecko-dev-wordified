@@ -262,6 +262,9 @@ NS_JAR_CACHE_SIZE
 -
 -
 -
+mozilla
+:
+:
 StaticRefPtr
 <
 nsJARProtocolHandler

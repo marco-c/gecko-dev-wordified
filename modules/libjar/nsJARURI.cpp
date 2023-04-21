@@ -195,13 +195,6 @@ mozilla
 :
 ipc
 ;
-static
-NS_DEFINE_CID
-(
-kJARURICID
-NS_JARURI_CID
-)
-;
 /
 /
 /
@@ -2981,6 +2974,9 @@ nsACString
 &
 query
 const
+mozilla
+:
+:
 Encoding
 *
 encoding
