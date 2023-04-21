@@ -1910,6 +1910,12 @@ aLocal
 {
 aLocal
 .
+mTrackIdentifier
+=
+recvTrackId
+;
+aLocal
+.
 mTimestamp
 .
 Construct
