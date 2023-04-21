@@ -1045,6 +1045,8 @@ performance
 -
 new
 /
+panel
+/
 index
 .
 xhtml
