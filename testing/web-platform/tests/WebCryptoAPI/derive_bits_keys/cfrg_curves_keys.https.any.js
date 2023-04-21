@@ -21,6 +21,15 @@ META
 :
 script
 =
+cfrg_curves_bits_fixtures
+.
+js
+/
+/
+META
+:
+script
+=
 cfrg_curves_keys
 .
 js
