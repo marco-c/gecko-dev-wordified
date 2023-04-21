@@ -303,6 +303,14 @@ True
 DEFINES
 [
 '
+RTC_ENABLE_WIN_WGC
+'
+]
+=
+False
+DEFINES
+[
+'
 HAVE_WINSOCK2_H
 '
 ]
