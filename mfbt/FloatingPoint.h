@@ -1883,7 +1883,10 @@ aValue
 )
 {
 return
-IsFinite
+std
+:
+:
+isfinite
 (
 aValue
 )
@@ -2901,7 +2904,10 @@ integers
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 aValue
 )

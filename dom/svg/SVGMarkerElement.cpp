@@ -998,7 +998,10 @@ Value
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 f
 )

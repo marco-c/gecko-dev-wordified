@@ -838,10 +838,10 @@ double
 ;
 return
 (
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 FloatType
 (
@@ -850,10 +850,10 @@ x
 )
 &
 &
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 FloatType
 (

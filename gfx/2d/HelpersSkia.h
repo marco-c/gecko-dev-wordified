@@ -178,6 +178,11 @@ h
 #
 include
 <
+cmath
+>
+#
+include
+<
 vector
 >
 #
@@ -767,7 +772,10 @@ mLineWidth
 |
 |
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 aOptions
 .

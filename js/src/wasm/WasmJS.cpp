@@ -5654,10 +5654,10 @@ Step
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 x
 )

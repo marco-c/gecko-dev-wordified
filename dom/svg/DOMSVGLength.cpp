@@ -1095,7 +1095,10 @@ Axis
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 value
 )
@@ -1375,7 +1378,10 @@ uuPerUnit
 ;
 if
 (
-IsFinite
+std
+:
+:
+isfinite
 (
 newValue
 )
@@ -2245,7 +2251,10 @@ nullptr
 }
 if
 (
-IsFinite
+std
+:
+:
+isfinite
 (
 val
 )

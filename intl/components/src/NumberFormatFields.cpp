@@ -2411,7 +2411,10 @@ Nan
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 *
 number

@@ -52364,10 +52364,10 @@ compliant
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 y
 )

@@ -161,7 +161,10 @@ representable
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 aValue
 )

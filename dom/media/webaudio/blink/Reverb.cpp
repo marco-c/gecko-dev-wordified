@@ -483,7 +483,10 @@ overload
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 power
 )

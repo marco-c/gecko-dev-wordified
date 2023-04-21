@@ -890,7 +890,10 @@ IsValid
 const
 {
 return
-IsFinite
+std
+:
+:
+isfinite
 (
 mValue
 )
