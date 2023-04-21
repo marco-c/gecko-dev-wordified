@@ -4487,9 +4487,6 @@ Run
 )
 override
 {
-#
-ifndef
-__MINGW32__
 if
 (
 !
@@ -4544,8 +4541,6 @@ gVirtualDesktopManager
 =
 desktopManager
 ;
-#
-endif
 return
 true
 ;
