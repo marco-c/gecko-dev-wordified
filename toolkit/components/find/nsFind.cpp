@@ -6645,7 +6645,4 @@ EndPartialMatch
 )
 ;
 }
-return
-NS_OK
-;
 }
