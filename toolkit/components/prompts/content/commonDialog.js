@@ -63,7 +63,7 @@ CommonDialog
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +76,9 @@ modules
 /
 CommonDialog
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
