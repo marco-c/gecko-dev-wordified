@@ -1,13 +1,3 @@
-/
-*
-eslint
--
-disable
-prettier
-/
-prettier
-*
-/
 function
 runTest
 (
