@@ -3595,14 +3595,12 @@ GetLoadingSessionHistoryInfo
 (
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
 !
-existingEntry
-=
-=
-!
 existingLoadingInfo
+!
+existingEntry
 )
 ;
 if
