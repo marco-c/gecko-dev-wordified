@@ -239,6 +239,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+XREAppData
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -702,6 +711,10 @@ STATE_IDLE
 STATE_INTERACTING
 STATE_SHUTDOWN_CANCELLED
 }
+;
+using
+namespace
+mozilla
 ;
 static
 const

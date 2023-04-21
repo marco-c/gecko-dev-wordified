@@ -195,6 +195,16 @@ aPid
 0
 )
 ;
+bool
+InstallPrivilegedHelper
+(
+)
+;
+void
+AbortElevatedUpdate
+(
+)
+;
 }
 #
 endif

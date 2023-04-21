@@ -130,6 +130,13 @@ h
 >
 #
 endif
+#
+include
+"
+nsIFile
+.
+h
+"
 /
 /
 These

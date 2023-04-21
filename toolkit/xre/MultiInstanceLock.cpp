@@ -156,6 +156,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 updatedefines
 .
 h
