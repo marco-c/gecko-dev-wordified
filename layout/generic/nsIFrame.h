@@ -30166,6 +30166,7 @@ bool
 IsVisibleForPainting
 (
 )
+const
 ;
 /
 *
@@ -30200,6 +30201,7 @@ bool
 IsVisibleOrCollapsedForPainting
 (
 )
+const
 ;
 /
 *
