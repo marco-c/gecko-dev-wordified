@@ -233,7 +233,7 @@ aRate
 float
 aPitch
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 ;
 }

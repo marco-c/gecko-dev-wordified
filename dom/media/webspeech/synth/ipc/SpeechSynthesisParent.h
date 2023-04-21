@@ -182,7 +182,7 @@ aPitch
 const
 bool
 &
-aIsChrome
+aShouldResistFingerprinting
 )
 ;
 bool
@@ -232,7 +232,7 @@ aPitch
 const
 bool
 &
-aIsChrome
+aShouldResistFingerprinting
 )
 override
 ;
@@ -375,14 +375,14 @@ nsAString
 &
 aUtterance
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 :
 nsSpeechTask
 (
 aVolume
 aUtterance
-aIsChrome
+aShouldResistFingerprinting
 )
 mActor
 (

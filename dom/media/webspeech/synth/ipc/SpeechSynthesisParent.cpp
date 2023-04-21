@@ -178,7 +178,7 @@ aPitch
 const
 bool
 &
-aIsChrome
+aShouldResistFingerprinting
 )
 {
 RefPtr
@@ -192,7 +192,7 @@ SpeechTaskParent
 (
 aVolume
 aText
-aIsChrome
+aShouldResistFingerprinting
 )
 ;
 SpeechSynthesisRequestParent
@@ -269,7 +269,7 @@ aPitch
 const
 bool
 &
-aIsChrome
+aShouldResistFingerprinting
 )
 {
 MOZ_ASSERT

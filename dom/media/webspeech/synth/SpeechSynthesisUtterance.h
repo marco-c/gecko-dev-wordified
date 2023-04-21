@@ -378,6 +378,16 @@ return
 mPaused
 ;
 }
+bool
+ShouldResistFingerprinting
+(
+)
+const
+{
+return
+mShouldResistFingerprinting
+;
+}
 IMPL_EVENT_HANDLER
 (
 start
@@ -464,6 +474,9 @@ RefPtr
 SpeechSynthesisVoice
 >
 mVoice
+;
+bool
+mShouldResistFingerprinting
 ;
 }
 ;

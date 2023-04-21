@@ -188,7 +188,7 @@ SpeechSynthesisUtterance
 *
 aUtterance
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 ;
 nsSpeechTask
@@ -200,7 +200,7 @@ nsAString
 &
 aText
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 ;
 virtual
@@ -286,12 +286,12 @@ mPrePaused
 ;
 }
 bool
-IsChrome
+ShouldResistFingerprinting
 (
 )
 {
 return
-mIsChrome
+mShouldResistFingerprinting
 ;
 }
 enum
@@ -498,7 +498,7 @@ nsString
 mChosenVoiceURI
 ;
 bool
-mIsChrome
+mShouldResistFingerprinting
 ;
 uint32_t
 mState

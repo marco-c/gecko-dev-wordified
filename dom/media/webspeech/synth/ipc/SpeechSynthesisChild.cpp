@@ -345,7 +345,7 @@ aPitch
 const
 bool
 &
-aIsChrome
+aShouldResistFingerprinting
 )
 {
 MOZ_CRASH
@@ -722,13 +722,13 @@ SpeechSynthesisUtterance
 *
 aUtterance
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 :
 nsSpeechTask
 (
 aUtterance
-aIsChrome
+aShouldResistFingerprinting
 )
 mActor
 (
