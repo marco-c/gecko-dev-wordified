@@ -282,6 +282,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 VsyncDispatcher
 .
 h
@@ -2347,8 +2356,10 @@ std
 unordered_map
 <
 uint64_t
+UniquePtr
+<
 WindowInfo
-*
+>
 >
 >
 mWindowInfos
