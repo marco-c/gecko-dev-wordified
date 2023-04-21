@@ -582,12 +582,6 @@ mOS
 nsCString
 mOSRelease
 ;
-nsAutoCStringN
-<
-16
->
-mDesktopEnvironment
-;
 nsCString
 mTestType
 ;

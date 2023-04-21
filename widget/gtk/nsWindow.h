@@ -2438,11 +2438,10 @@ Side
 Decoration
 by
 checking
-*
 the
-XDG_CURRENT_DESKTOP
+desktop
+*
 environment
-variable
 .
 *
 /
