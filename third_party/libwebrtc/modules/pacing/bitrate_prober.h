@@ -343,6 +343,8 @@ field_trials
 BitrateProber
 (
 )
+=
+default
 ;
 void
 SetEnabled
@@ -899,12 +901,6 @@ state
 .
 Timestamp
 next_probe_time_
-;
-int
-total_probe_count_
-;
-int
-total_failed_probe_count_
 ;
 BitrateProberConfig
 config_
