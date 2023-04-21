@@ -2239,10 +2239,10 @@ start
 )
 |
 |
-mozilla
+std
 :
 :
-IsInfinite
+isinf
 (
 start
 )

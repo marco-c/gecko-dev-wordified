@@ -766,10 +766,10 @@ return
 }
 if
 (
-mozilla
+std
 :
 :
-IsInfinite
+isinf
 (
 aValue
 )

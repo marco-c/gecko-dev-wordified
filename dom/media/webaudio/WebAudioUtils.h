@@ -566,7 +566,10 @@ aDouble
 )
 |
 |
-IsInfinite
+std
+:
+:
+isinf
 (
 aDouble
 )
