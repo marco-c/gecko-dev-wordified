@@ -720,6 +720,11 @@ NS_DEFINE_COMMAND
 ToggleAbsolutePositionEditor
 cmd_enableAbsolutePositionEditing
 )
+NS_DEFINE_COMMAND
+(
+EnableCompatibleJoinSplitNodeDirection
+cmd_enableCompatibleJoinSplitNodeDirection
+)
 /
 /
 Commands

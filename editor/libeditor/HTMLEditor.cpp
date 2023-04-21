@@ -32021,6 +32021,10 @@ ignored
 "
 )
 ;
+mMaybeHasJoinSplitTransactions
+=
+true
+;
 RefPtr
 <
 SplitNodeTransaction
@@ -35609,6 +35613,10 @@ NS_ERROR_FAILURE
 )
 ;
 }
+mMaybeHasJoinSplitTransactions
+=
+true
+;
 const
 nsresult
 rv
