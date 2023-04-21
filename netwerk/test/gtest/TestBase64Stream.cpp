@@ -258,6 +258,16 @@ NS_OK
 ;
 }
 NS_IMETHOD
+StreamStatus
+(
+)
+override
+{
+return
+NS_OK
+;
+}
+NS_IMETHOD
 Read
 (
 char
