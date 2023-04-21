@@ -2517,6 +2517,7 @@ isFunction
 smooshScriptData
 .
 fun_length
+0
 mozilla
 :
 :
