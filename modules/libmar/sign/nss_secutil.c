@@ -124,7 +124,6 @@ defined
 (
 _WINDOWS
 )
-static
 char
 *
 quiet_fgets
