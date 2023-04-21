@@ -6270,6 +6270,11 @@ RTCRtpTransceiver
 webidl
 "
 "
+RTCSctpTransport
+.
+webidl
+"
+"
 RTCSessionDescription
 .
 webidl
