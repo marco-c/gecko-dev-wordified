@@ -681,6 +681,9 @@ aParent
 -
 >
 mFetchOptions
+dom
+:
+:
 SRIMetadata
 (
 )
@@ -909,6 +912,9 @@ cx
 (
 )
 ;
+JS
+:
+:
 RootedScript
 script
 (

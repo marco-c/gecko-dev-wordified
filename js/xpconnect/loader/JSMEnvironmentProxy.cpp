@@ -1160,6 +1160,9 @@ aModObj
 )
 )
 {
+JS
+:
+:
 RootedObject
 lexical
 (

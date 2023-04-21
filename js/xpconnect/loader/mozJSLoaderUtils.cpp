@@ -177,6 +177,15 @@ BasePrincipal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Span
+.
+h
+"
 using
 namespace
 JS
@@ -366,6 +375,9 @@ range
 (
 AsBytes
 (
+mozilla
+:
+:
 Span
 (
 buf
@@ -495,6 +507,9 @@ unique
 pointer
 buffer
 .
+mozilla
+:
+:
 UniqueFreePtr
 <
 char
