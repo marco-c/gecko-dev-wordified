@@ -42,7 +42,6 @@ Speculation
 rules
 injection
 is
-not
 blocked
 in
 the
