@@ -512,7 +512,7 @@ AutoAssertReportedException
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -520,7 +520,7 @@ fc
 :
 maybeCx_
 (
-cx
+maybeCx
 )
 fc_
 (
@@ -2336,6 +2336,11 @@ stencil
 }
 else
 {
+MOZ_ASSERT
+(
+maybeCx
+)
+;
 BorrowingCompilationStencil
 borrowingStencil
 (
@@ -3031,7 +3036,7 @@ CompileGlobalScriptImpl
 (
 JSContext
 *
-maybeCx
+cx
 FrontendContext
 *
 fc
@@ -3066,7 +3071,7 @@ CompilationInput
 >
 input
 (
-maybeCx
+cx
 CompilationInput
 (
 options
@@ -3079,7 +3084,7 @@ CompilationGCOutput
 >
 gcOutput
 (
-maybeCx
+cx
 )
 ;
 BytecodeCompilerOutput
@@ -3100,10 +3105,10 @@ if
 !
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
-maybeCx
+cx
 fc
 stackLimit
-maybeCx
+cx
 -
 >
 tempLifoAlloc
@@ -3145,7 +3150,7 @@ CompileGlobalScript
 (
 JSContext
 *
-maybeCx
+cx
 FrontendContext
 *
 fc
@@ -3177,7 +3182,7 @@ scopeKind
 return
 CompileGlobalScriptImpl
 (
-maybeCx
+cx
 fc
 stackLimit
 options
@@ -3195,7 +3200,7 @@ CompileGlobalScript
 (
 JSContext
 *
-maybeCx
+cx
 FrontendContext
 *
 fc
@@ -3227,7 +3232,7 @@ scopeKind
 return
 CompileGlobalScriptImpl
 (
-maybeCx
+cx
 fc
 stackLimit
 options
@@ -3715,7 +3720,7 @@ compile
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -4750,7 +4755,7 @@ compile
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -4794,10 +4799,23 @@ return
 false
 ;
 }
+/
+/
+TODO
+bug
+1773319
+ModuleBuilder
+doesn
+'
+t
+expect
+nullptr
+for
+cx
 ModuleBuilder
 builder
 (
-cx
+maybeCx
 fc
 parser
 .
@@ -5556,7 +5574,7 @@ ParseModuleToStencilAndMaybeInstantiate
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -5615,7 +5633,7 @@ false
 AutoAssertReportedException
 assertException
 (
-cx
+maybeCx
 fc
 )
 ;
@@ -5662,7 +5680,7 @@ compiler
 .
 compile
 (
-cx
+maybeCx
 fc
 )
 )
@@ -5770,14 +5788,14 @@ pseudoFrame
 ;
 if
 (
-cx
+maybeCx
 )
 {
 pseudoFrame
 .
 emplace
 (
-cx
+maybeCx
 "
 script
 emit
@@ -5895,6 +5913,11 @@ stencil
 }
 else
 {
+MOZ_ASSERT
+(
+maybeCx
+)
+;
 BorrowingCompilationStencil
 borrowingStencil
 (
@@ -5910,7 +5933,7 @@ if
 !
 InstantiateStencils
 (
-cx
+maybeCx
 input
 borrowingStencil
 *
@@ -5956,7 +5979,7 @@ ParseModuleToStencilImpl
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -6008,7 +6031,7 @@ if
 !
 ParseModuleToStencilAndMaybeInstantiate
 (
-cx
+maybeCx
 fc
 stackLimit
 tempLifoAlloc
@@ -6049,7 +6072,7 @@ ParseModuleToStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -6081,7 +6104,7 @@ srcBuf
 return
 ParseModuleToStencilImpl
 (
-cx
+maybeCx
 fc
 stackLimit
 tempLifoAlloc
@@ -6102,7 +6125,7 @@ ParseModuleToStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -6134,7 +6157,7 @@ srcBuf
 return
 ParseModuleToStencilImpl
 (
-cx
+maybeCx
 fc
 stackLimit
 tempLifoAlloc

@@ -551,7 +551,7 @@ CompileGlobalScript
 (
 JSContext
 *
-maybeCx
+cx
 FrontendContext
 *
 fc
@@ -587,7 +587,7 @@ CompileGlobalScript
 (
 JSContext
 *
-maybeCx
+cx
 FrontendContext
 *
 fc
