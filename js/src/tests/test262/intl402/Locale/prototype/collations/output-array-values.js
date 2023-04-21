@@ -172,6 +172,11 @@ Intl
 Locale
 -
 info
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

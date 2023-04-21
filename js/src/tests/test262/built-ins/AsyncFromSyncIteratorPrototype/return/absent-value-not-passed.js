@@ -118,6 +118,13 @@ async
 -
 iteration
 ]
+includes
+:
+[
+asyncHelpers
+.
+js
+]
 -
 -
 -
@@ -174,6 +181,7 @@ true
 }
 }
 ;
+asyncTest
 (
 async
 function
@@ -201,13 +209,5 @@ returnArgumentsLength
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

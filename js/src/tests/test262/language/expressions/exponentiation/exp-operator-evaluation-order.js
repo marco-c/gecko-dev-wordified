@@ -163,6 +163,11 @@ in
 .
 4
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

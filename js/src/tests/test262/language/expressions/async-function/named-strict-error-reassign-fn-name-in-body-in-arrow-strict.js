@@ -125,6 +125,13 @@ generated
 async
 onlyStrict
 ]
+includes
+:
+[
+asyncHelpers
+.
+js
+]
 info
 :
 |
@@ -194,6 +201,7 @@ BindingIdentifier
 ;
 }
 ;
+asyncTest
 (
 async
 (
@@ -247,13 +255,5 @@ callCount
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

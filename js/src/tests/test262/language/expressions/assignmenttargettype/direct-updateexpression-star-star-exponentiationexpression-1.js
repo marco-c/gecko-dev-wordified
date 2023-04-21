@@ -73,6 +73,11 @@ invalid
 Direct
 assignment
 )
+features
+:
+[
+exponentiation
+]
 flags
 :
 [

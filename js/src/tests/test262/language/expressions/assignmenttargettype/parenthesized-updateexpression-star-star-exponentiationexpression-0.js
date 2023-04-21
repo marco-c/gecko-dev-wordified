@@ -85,6 +85,11 @@ static
 semantics
 -
 assignmenttargettype
+features
+:
+[
+exponentiation
+]
 flags
 :
 [

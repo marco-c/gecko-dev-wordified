@@ -79,6 +79,11 @@ UnaryExpression
 .
 .
 .
+features
+:
+[
+exponentiation
+]
 negative
 :
 phase

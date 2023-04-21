@@ -61,6 +61,11 @@ result
 is
 0
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

@@ -148,6 +148,11 @@ features
 :
 [
 Atomics
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

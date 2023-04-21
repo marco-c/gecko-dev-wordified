@@ -345,10 +345,6 @@ valueOf
 "
 "
 get
-timeZone
-"
-"
-get
 year
 "
 "

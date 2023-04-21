@@ -194,6 +194,7 @@ array
 by
 -
 copy
+exponentiation
 ]
 -
 -

@@ -66,6 +66,11 @@ result
 is
 NaN
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

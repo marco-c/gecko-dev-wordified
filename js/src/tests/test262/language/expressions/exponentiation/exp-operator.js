@@ -63,6 +63,11 @@ MathPow
 base
 exponent
 )
+features
+:
+[
+exponentiation
+]
 -
 -
 -

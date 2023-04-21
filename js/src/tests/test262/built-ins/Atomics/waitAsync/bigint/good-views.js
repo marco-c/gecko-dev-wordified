@@ -79,6 +79,9 @@ includes
 atomicsHelper
 .
 js
+asyncHelpers
+.
+js
 ]
 features
 :
@@ -425,6 +428,7 @@ leaving
 ;
 )
 ;
+asyncTest
 (
 async
 (
@@ -590,13 +594,5 @@ equal
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

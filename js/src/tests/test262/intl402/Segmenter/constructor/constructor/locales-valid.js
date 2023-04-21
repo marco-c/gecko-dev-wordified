@@ -98,6 +98,11 @@ features
 Intl
 .
 Segmenter
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

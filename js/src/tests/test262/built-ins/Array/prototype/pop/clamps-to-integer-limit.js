@@ -126,6 +126,11 @@ true
 .
 .
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

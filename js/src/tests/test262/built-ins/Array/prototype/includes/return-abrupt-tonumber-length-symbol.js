@@ -105,6 +105,11 @@ features
 :
 [
 Symbol
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

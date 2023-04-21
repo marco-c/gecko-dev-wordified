@@ -194,6 +194,7 @@ features
 Symbol
 .
 species
+exponentiation
 ]
 -
 -

@@ -140,6 +140,11 @@ true
 .
 .
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

@@ -66,6 +66,7 @@ computed
 property
 -
 names
+exponentiation
 ]
 -
 -

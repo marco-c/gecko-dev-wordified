@@ -9,6 +9,9 @@ skip
 resizable
 -
 arraybuffer
+arraybuffer
+-
+transfer
 is
 not
 supported
@@ -310,6 +313,9 @@ features
 resizable
 -
 arraybuffer
+arraybuffer
+-
+transfer
 ]
 -
 -
@@ -416,7 +422,7 @@ sameValue
 dest
 .
 resizable
-false
+true
 '
 dest
 .
@@ -446,7 +452,7 @@ sameValue
 dest
 .
 maxByteLength
-4
+8
 '
 dest
 .

@@ -90,6 +90,11 @@ features
 resizable
 -
 arraybuffer
+Array
+.
+prototype
+.
+includes
 ]
 flags
 :

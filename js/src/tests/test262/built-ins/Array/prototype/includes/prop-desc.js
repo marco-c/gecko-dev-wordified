@@ -115,6 +115,15 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+Array
+.
+prototype
+.
+includes
+]
 -
 -
 -

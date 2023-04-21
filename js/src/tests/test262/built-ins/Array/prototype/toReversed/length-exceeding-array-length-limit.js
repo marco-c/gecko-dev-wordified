@@ -190,6 +190,7 @@ array
 by
 -
 copy
+exponentiation
 ]
 -
 -

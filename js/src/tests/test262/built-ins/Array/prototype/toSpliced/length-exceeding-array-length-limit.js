@@ -229,6 +229,7 @@ array
 by
 -
 copy
+exponentiation
 ]
 -
 -

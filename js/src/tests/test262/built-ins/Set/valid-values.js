@@ -145,6 +145,7 @@ BigInt
 Symbol
 TypedArray
 WeakRef
+exponentiation
 ]
 -
 -

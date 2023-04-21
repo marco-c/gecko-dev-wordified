@@ -80,6 +80,7 @@ computed
 property
 -
 names
+exponentiation
 ]
 flags
 :

@@ -145,6 +145,11 @@ construct
 arrow
 -
 function
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

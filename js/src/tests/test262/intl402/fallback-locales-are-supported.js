@@ -60,6 +60,15 @@ testIntl
 .
 js
 ]
+features
+:
+[
+Array
+.
+prototype
+.
+includes
+]
 -
 -
 -

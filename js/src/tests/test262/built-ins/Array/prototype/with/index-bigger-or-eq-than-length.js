@@ -211,6 +211,7 @@ array
 by
 -
 copy
+exponentiation
 ]
 -
 -

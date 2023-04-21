@@ -122,6 +122,13 @@ flags
 [
 async
 ]
+includes
+:
+[
+asyncHelpers
+.
+js
+]
 -
 -
 -
@@ -300,6 +307,7 @@ true
 ;
 }
 ;
+asyncTest
 (
 async
 function
@@ -318,13 +326,5 @@ undefined
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

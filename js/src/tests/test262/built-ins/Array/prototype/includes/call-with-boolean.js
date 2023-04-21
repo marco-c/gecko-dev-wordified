@@ -53,6 +53,15 @@ applied
 to
 boolean
 primitive
+features
+:
+[
+Array
+.
+prototype
+.
+includes
+]
 -
 -
 -

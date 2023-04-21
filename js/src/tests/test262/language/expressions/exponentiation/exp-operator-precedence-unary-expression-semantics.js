@@ -81,6 +81,11 @@ UnaryExpression
 UnaryExpression
 !
 UnaryExpression
+features
+:
+[
+exponentiation
+]
 -
 -
 -

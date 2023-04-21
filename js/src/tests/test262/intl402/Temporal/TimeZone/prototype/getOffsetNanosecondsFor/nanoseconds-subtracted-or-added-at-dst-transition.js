@@ -75,6 +75,7 @@ features
 :
 [
 Temporal
+exponentiation
 ]
 -
 -

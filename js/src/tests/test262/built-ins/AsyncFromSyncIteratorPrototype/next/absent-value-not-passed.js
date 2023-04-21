@@ -117,6 +117,13 @@ async
 -
 iteration
 ]
+includes
+:
+[
+asyncHelpers
+.
+js
+]
 -
 -
 -
@@ -161,6 +168,7 @@ true
 }
 }
 ;
+asyncTest
 (
 async
 function
@@ -185,13 +193,5 @@ nextArgumentsLength
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

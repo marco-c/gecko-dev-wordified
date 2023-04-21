@@ -221,6 +221,11 @@ compareArray
 .
 js
 ]
+features
+:
+[
+exponentiation
+]
 -
 -
 -

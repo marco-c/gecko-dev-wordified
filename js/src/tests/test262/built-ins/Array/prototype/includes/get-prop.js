@@ -116,6 +116,11 @@ features
 :
 [
 Proxy
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

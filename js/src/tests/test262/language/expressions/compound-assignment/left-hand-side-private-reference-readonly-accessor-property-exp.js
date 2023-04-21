@@ -80,6 +80,7 @@ evaluation
 features
 :
 [
+exponentiation
 class
 -
 fields

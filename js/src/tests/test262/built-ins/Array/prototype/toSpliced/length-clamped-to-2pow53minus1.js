@@ -186,6 +186,7 @@ array
 by
 -
 copy
+exponentiation
 ]
 includes
 :

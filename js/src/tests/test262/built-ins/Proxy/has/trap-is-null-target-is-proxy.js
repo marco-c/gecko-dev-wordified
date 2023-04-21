@@ -161,6 +161,11 @@ features
 Proxy
 Symbol
 Reflect
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

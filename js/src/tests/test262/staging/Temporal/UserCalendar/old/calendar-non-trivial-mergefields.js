@@ -65,6 +65,11 @@ features
 :
 [
 Temporal
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

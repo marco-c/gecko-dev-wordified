@@ -84,6 +84,7 @@ computed
 property
 -
 names
+exponentiation
 class
 -
 fields

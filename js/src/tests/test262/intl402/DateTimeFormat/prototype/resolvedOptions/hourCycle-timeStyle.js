@@ -77,6 +77,11 @@ Intl
 DateTimeFormat
 -
 datetimestyle
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

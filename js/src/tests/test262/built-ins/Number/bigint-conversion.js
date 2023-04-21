@@ -46,6 +46,7 @@ features
 :
 [
 BigInt
+exponentiation
 ]
 -
 -

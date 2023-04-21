@@ -66,6 +66,11 @@ behave
 as
 expected
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

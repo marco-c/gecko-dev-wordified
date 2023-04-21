@@ -62,6 +62,7 @@ features
 :
 [
 Symbol
+exponentiation
 ]
 info
 :

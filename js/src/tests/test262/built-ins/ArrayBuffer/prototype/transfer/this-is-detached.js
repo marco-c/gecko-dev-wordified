@@ -9,6 +9,9 @@ skip
 resizable
 -
 arraybuffer
+arraybuffer
+-
+transfer
 is
 not
 supported
@@ -160,6 +163,9 @@ features
 resizable
 -
 arraybuffer
+arraybuffer
+-
+transfer
 ]
 -
 -

@@ -214,6 +214,11 @@ enumeration
 Intl
 .
 RelativeTimeFormat
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

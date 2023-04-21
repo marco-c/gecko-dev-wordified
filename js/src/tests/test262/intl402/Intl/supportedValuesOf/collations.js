@@ -184,6 +184,11 @@ enumeration
 Intl
 .
 Locale
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

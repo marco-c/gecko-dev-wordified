@@ -143,6 +143,7 @@ features
 :
 [
 BigInt
+exponentiation
 ]
 -
 -

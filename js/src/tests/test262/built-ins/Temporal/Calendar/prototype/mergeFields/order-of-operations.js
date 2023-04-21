@@ -98,6 +98,11 @@ const
 expected
 =
 [
+/
+/
+CopyDataProperties
+on
+fields
 "
 ownKeys
 fields
@@ -150,6 +155,11 @@ fields
 .
 extra
 "
+/
+/
+CopyDataProperties
+on
+additionalFields
 "
 ownKeys
 additionalFields

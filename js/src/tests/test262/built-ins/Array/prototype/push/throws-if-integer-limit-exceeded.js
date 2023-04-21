@@ -143,6 +143,11 @@ exception
 .
 .
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

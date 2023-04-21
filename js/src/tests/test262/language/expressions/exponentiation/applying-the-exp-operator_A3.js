@@ -58,6 +58,11 @@ base
 is
 NaN
 .
+features
+:
+[
+exponentiation
+]
 -
 -
 -

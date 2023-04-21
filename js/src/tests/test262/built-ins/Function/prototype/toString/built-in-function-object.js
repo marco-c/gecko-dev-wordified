@@ -130,6 +130,11 @@ arrow
 -
 function
 Reflect
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

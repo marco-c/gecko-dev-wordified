@@ -193,6 +193,7 @@ features
 dynamic
 -
 import
+exponentiation
 ]
 -
 -

@@ -211,6 +211,11 @@ features
 Intl
 -
 enumeration
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

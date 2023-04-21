@@ -251,6 +251,11 @@ features
 :
 [
 ShadowRealm
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

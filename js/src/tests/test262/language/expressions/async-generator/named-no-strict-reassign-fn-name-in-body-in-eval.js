@@ -125,6 +125,13 @@ generated
 async
 noStrict
 ]
+includes
+:
+[
+asyncHelpers
+.
+js
+]
 info
 :
 |
@@ -187,6 +194,7 @@ BindingIdentifier
 ;
 }
 ;
+asyncTest
 (
 async
 (
@@ -231,13 +239,5 @@ once
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

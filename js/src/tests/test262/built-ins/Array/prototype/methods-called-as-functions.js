@@ -136,6 +136,11 @@ Array
 prototype
 .
 flatMap
+Array
+.
+prototype
+.
+includes
 ]
 -
 -

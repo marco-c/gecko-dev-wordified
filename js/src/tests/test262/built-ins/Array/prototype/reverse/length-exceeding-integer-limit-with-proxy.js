@@ -70,6 +70,11 @@ proxyTrapsHelper
 .
 js
 ]
+features
+:
+[
+exponentiation
+]
 -
 -
 -

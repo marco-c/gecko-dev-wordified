@@ -195,6 +195,11 @@ enumeration
 Intl
 .
 DisplayNames
+Array
+.
+prototype
+.
+includes
 ]
 -
 -
