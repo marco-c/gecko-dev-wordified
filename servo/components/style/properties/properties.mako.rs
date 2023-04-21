@@ -6826,13 +6826,6 @@ color
 -
 scheme
 "
-"
-forced
--
-color
--
-adjust
-"
 ]
 }
 def
