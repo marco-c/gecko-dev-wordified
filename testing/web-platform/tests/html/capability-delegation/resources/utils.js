@@ -316,6 +316,11 @@ fullscreen
 "
 payment
 "
+"
+display
+-
+capture
+"
 ]
 ;
 for
