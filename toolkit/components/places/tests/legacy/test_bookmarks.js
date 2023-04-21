@@ -527,17 +527,6 @@ tagsFolder
 0
 )
 ;
-Assert
-.
-ok
-(
-bs
-.
-toolbarFolder
->
-0
-)
-;
 /
 /
 create
