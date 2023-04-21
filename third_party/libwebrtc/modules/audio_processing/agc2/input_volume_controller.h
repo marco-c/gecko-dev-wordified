@@ -1863,15 +1863,8 @@ min_input_volume_after_clipping_
 int
 max_input_volume_
 ;
-/
-/
-Last
-recommended
-input
-volume
-.
 int
-input_volume_
+last_recommended_input_volume_
 =
 0
 ;

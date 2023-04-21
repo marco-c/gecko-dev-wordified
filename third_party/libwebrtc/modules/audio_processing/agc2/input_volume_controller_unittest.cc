@@ -5548,7 +5548,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager_with_override
+controller_with_override
 ;
 {
 test
@@ -5563,7 +5563,7 @@ kMinInputVolume
 )
 )
 ;
-manager_with_override
+controller_with_override
 =
 factory
 (
@@ -5704,7 +5704,7 @@ speech_level_dbfs
 .
 0f
 *
-manager_with_override
+controller_with_override
 )
 ;
 /
@@ -5754,7 +5754,7 @@ gain
 .
 EXPECT_GT
 (
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -5776,7 +5776,7 @@ the
 gain
 selected
 by
-manager_with_override
+controller_with_override
 equals
 the
 /
@@ -5790,7 +5790,7 @@ trial
 .
 EXPECT_EQ
 (
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -5984,7 +5984,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager_with_override
+controller_with_override
 ;
 {
 test
@@ -5999,7 +5999,7 @@ kMinInputVolume
 )
 )
 ;
-manager_with_override
+controller_with_override
 =
 factory
 (
@@ -6125,7 +6125,7 @@ speech_level_dbfs
 .
 0f
 *
-manager_with_override
+controller_with_override
 )
 ;
 /
@@ -6175,7 +6175,7 @@ gain
 .
 EXPECT_GT
 (
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -6197,12 +6197,12 @@ the
 gain
 selected
 by
-manager_with_override
+controller_with_override
 equals
 the
+/
+/
 minimum
-/
-/
 value
 overridden
 via
@@ -6211,7 +6211,7 @@ trial
 .
 EXPECT_EQ
 (
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -6412,7 +6412,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager_with_override
+controller_with_override
 ;
 {
 constexpr
@@ -6451,7 +6451,7 @@ kMinInputVolume
 )
 )
 ;
-manager_with_override
+controller_with_override
 =
 factory
 (
@@ -6588,7 +6588,7 @@ speech_level_dbfs
 -
 18
 *
-manager_with_override
+controller_with_override
 )
 ;
 /
@@ -6673,7 +6673,7 @@ controller
 recommended_analog_level
 (
 )
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -6683,7 +6683,7 @@ recommended_analog_level
 ;
 EXPECT_EQ
 (
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -6925,7 +6925,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager_with_override
+controller_with_override
 ;
 {
 constexpr
@@ -6964,7 +6964,7 @@ kMinInputVolume
 )
 )
 ;
-manager_with_override
+controller_with_override
 =
 factory
 (
@@ -7083,7 +7083,7 @@ speech_level_dbfs
 .
 0f
 *
-manager_with_override
+controller_with_override
 )
 ;
 /
@@ -7168,7 +7168,7 @@ controller
 recommended_analog_level
 (
 )
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -7178,7 +7178,7 @@ recommended_analog_level
 ;
 EXPECT_EQ
 (
-manager_with_override
+controller_with_override
 -
 >
 recommended_analog_level
@@ -7322,7 +7322,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager_custom
+controller_custom
 =
 CreateInputVolumeController
 (
@@ -7351,7 +7351,7 @@ clipped_wait_frames
 50
 )
 ;
-manager_custom
+controller_custom
 -
 >
 Initialize
@@ -7360,7 +7360,7 @@ Initialize
 ;
 EXPECT_EQ
 (
-manager_custom
+controller_custom
 -
 >
 clipped_level_step_
@@ -7369,7 +7369,7 @@ clipped_level_step_
 ;
 EXPECT_EQ
 (
-manager_custom
+controller_custom
 -
 >
 clipped_ratio_threshold_
@@ -7380,7 +7380,7 @@ clipped_ratio_threshold_
 ;
 EXPECT_EQ
 (
-manager_custom
+controller_custom
 -
 >
 clipped_wait_frames_
