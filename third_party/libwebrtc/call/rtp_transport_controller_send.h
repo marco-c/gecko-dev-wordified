@@ -1140,10 +1140,6 @@ reset_feedback_on_route_change_
 ;
 const
 bool
-send_side_bwe_with_overhead_
-;
-const
-bool
 add_pacing_to_cwin_
 ;
 FieldTrialParameter

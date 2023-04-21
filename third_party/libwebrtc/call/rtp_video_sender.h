@@ -1137,10 +1137,6 @@ field_trials_
 ;
 const
 bool
-send_side_bwe_with_overhead_
-;
-const
-bool
 use_frame_rate_for_overhead_
 ;
 const

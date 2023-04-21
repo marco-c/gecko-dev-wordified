@@ -125,12 +125,6 @@ RTC_EXTERN
 NSString
 *
 const
-kRTCFieldTrialSendSideBweWithOverheadKey
-;
-RTC_EXTERN
-NSString
-*
-const
 kRTCFieldTrialFlexFec03AdvertisedKey
 ;
 RTC_EXTERN
