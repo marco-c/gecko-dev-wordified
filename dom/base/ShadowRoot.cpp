@@ -468,10 +468,6 @@ mSlotAssignment
 (
 aSlotAssignment
 )
-mIsUAWidget
-(
-false
-)
 mIsDetailsShadowTree
 (
 aElement
@@ -4876,7 +4872,9 @@ rv
 {
 MOZ_ASSERT
 (
-mIsUAWidget
+IsUAWidget
+(
+)
 )
 ;
 if
@@ -4966,7 +4964,9 @@ rv
 {
 MOZ_ASSERT
 (
-mIsUAWidget
+IsUAWidget
+(
+)
 )
 ;
 if
