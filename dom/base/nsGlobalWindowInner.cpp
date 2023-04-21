@@ -34317,6 +34317,12 @@ if
 (
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 ScreenOrientation
 >
 orientation
