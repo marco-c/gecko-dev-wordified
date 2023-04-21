@@ -1998,6 +1998,15 @@ GetBrowserId
 ;
 txn
 .
+SetIsAppTab
+(
+GetIsAppTab
+(
+)
+)
+;
+txn
+.
 SetHistoryID
 (
 GetHistoryID
