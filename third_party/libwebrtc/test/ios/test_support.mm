@@ -910,7 +910,7 @@ empty
 )
 )
 {
-RTC_CHECK_NE
+RTC_CHECK_EQ
 (
 g_webrtc_test_metrics_output_path
 .
