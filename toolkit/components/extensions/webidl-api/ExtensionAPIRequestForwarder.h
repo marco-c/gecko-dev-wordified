@@ -156,6 +156,17 @@ mozilla
 /
 dom
 /
+SerializedStackHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneHolder
 .
 h
@@ -204,9 +215,6 @@ ClientInfoAndState
 ;
 class
 Function
-;
-class
-SerializedStackHolder
 ;
 }
 /

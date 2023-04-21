@@ -381,6 +381,9 @@ aRetval
 void
 GetId
 (
+dom
+:
+:
 DOMString
 &
 aRetval

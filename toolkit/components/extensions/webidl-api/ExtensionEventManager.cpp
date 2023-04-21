@@ -87,6 +87,13 @@ h
 #
 include
 "
+ExtensionAPIAddRemoveListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

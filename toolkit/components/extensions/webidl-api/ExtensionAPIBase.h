@@ -138,6 +138,17 @@ mozilla
 /
 dom
 /
+FunctionBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PromiseNativeHandler
 .
 h
