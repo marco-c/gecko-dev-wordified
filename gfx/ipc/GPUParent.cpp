@@ -4902,10 +4902,10 @@ mVsyncBridge
 nullptr
 ;
 }
-VideoBridgeParent
+RemoteDecoderManagerParent
 :
 :
-Shutdown
+ShutdownVideoBridge
 (
 )
 ;

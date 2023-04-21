@@ -668,6 +668,13 @@ ShutdownVideoBridge
 (
 )
 {
+VideoBridgeParent
+:
+:
+Shutdown
+(
+)
+;
 VideoBridgeChild
 :
 :

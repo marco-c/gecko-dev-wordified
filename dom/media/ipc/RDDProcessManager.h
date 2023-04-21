@@ -243,12 +243,6 @@ Initialize
 ;
 static
 void
-RDDProcessShutdown
-(
-)
-;
-static
-void
 Shutdown
 (
 )
@@ -581,6 +575,11 @@ the
 RDD
 process
 .
+void
+CleanShutdown
+(
+)
+;
 void
 DestroyProcess
 (
