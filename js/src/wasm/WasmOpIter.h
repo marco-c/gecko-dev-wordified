@@ -2120,7 +2120,7 @@ TypeAndValueStack
 Vector
 <
 TypeAndValue
-16
+32
 SystemAllocPolicy
 >
 ;

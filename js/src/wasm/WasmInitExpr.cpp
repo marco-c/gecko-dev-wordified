@@ -1510,7 +1510,10 @@ private
 FeatureArgs
 features
 ;
-RootedValVector
+RootedValVectorN
+<
+48
+>
 stack
 ;
 Rooted
