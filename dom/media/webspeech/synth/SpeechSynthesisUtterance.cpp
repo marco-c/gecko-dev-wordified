@@ -257,6 +257,10 @@ AsGlobal
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+SpeechSynthesis
 )
 )
 {

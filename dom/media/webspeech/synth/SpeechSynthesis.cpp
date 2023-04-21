@@ -1351,6 +1351,10 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 docShell
+RFPTarget
+:
+:
+SpeechSynthesis
 )
 )
 {
@@ -1795,6 +1799,10 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 docShell
+RFPTarget
+:
+:
+SpeechSynthesis
 )
 )
 {
