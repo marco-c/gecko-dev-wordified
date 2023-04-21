@@ -44,15 +44,7 @@ test
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FullscreenFrameChild
-"
-]
-;
+export
 class
 FullscreenFrameChild
 extends

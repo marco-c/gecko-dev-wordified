@@ -44,18 +44,7 @@ test
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-StartupContentSubframeParent
-"
-"
-StartupContentSubframeChild
-"
-]
-;
+export
 class
 StartupContentSubframeParent
 extends
@@ -105,6 +94,7 @@ scripts
 ;
 }
 }
+export
 class
 StartupContentSubframeChild
 extends

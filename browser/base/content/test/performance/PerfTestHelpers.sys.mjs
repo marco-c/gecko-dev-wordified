@@ -27,15 +27,6 @@ zero
 /
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PerfTestHelpers
-"
-]
-;
 const
 lazy
 =
@@ -65,6 +56,7 @@ jsm
 "
 )
 ;
+export
 var
 PerfTestHelpers
 =

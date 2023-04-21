@@ -1,13 +1,4 @@
 var
-EXPORTED_SYMBOLS
-=
-[
-"
-BlocklistTestProxyChild
-"
-]
-;
-var
 Cm
 =
 Components
@@ -268,6 +259,7 @@ STATE_NOT_BLOCKED
 }
 }
 ;
+export
 class
 BlocklistTestProxyChild
 extends
