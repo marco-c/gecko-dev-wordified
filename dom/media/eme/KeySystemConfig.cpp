@@ -193,7 +193,7 @@ h
 endif
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 #
 include
 "
@@ -296,7 +296,7 @@ true
 endif
 #
 if
-MOZ_WMF_CDM
+MOZ_MF_CDM
 if
 (
 IsPlayReadyKeySystem
@@ -1361,7 +1361,7 @@ true
 }
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 if
 (
 IsPlayReadyKeySystem

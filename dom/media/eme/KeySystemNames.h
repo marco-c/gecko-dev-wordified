@@ -275,7 +275,7 @@ alpha
 ;
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 /
 /
 https

@@ -464,7 +464,7 @@ kWidevineKeySystemName
 }
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 bool
 IsPlayReadyKeySystem
 (
@@ -540,7 +540,7 @@ _ns
 }
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 if
 (
 IsPlayReadyKeySystem
