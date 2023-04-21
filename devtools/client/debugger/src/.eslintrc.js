@@ -76,9 +76,6 @@ mozilla
 babel
 "
 "
-prettier
-"
-"
 import
 "
 "
@@ -259,15 +256,6 @@ true
 rules
 :
 {
-"
-prettier
-/
-prettier
-"
-:
-"
-off
-"
 /
 /
 These
