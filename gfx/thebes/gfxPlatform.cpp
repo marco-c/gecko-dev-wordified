@@ -17597,7 +17597,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_STATUS_OK
+FEATURE_ALLOW_ALWAYS
 )
 {
 FeatureState
