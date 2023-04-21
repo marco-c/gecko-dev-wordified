@@ -769,15 +769,6 @@ Accessible
 aContainer
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-bool
-SetSelectionAt
-(
-int32_t
-aSelectionNum
-)
-const
-;
 /
 *
 *

@@ -318,6 +318,13 @@ h
 #
 include
 "
+TextLeafRange
+.
+h
+"
+#
+include
+"
 xpcAccessibleDocument
 .
 h

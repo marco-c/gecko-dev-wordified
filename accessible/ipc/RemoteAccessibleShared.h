@@ -478,6 +478,7 @@ aCoordType
 )
 override
 ;
+virtual
 bool
 SetSelectionBoundsAt
 (
@@ -488,15 +489,7 @@ aStartOffset
 int32_t
 aEndOffset
 )
-;
-bool
-AddToSelection
-(
-int32_t
-aStartOffset
-int32_t
-aEndOffset
-)
+override
 ;
 bool
 RemoveFromSelection
