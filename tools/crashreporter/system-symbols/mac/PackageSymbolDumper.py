@@ -326,6 +326,8 @@ tempfile
 import
 traceback
 from
+mozpack
+.
 macpkg
 import
 Pbzx
