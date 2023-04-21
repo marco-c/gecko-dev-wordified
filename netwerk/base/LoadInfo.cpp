@@ -2059,12 +2059,12 @@ true
 }
 if
 (
-nsContentUtils
+nsMixedContentBlocker
 :
 :
-IsUpgradableDisplayType
+IsUpgradableContentType
 (
-externalType
+mInternalContentPolicyType
 )
 )
 {
