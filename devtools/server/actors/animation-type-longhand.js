@@ -1541,6 +1541,14 @@ moz
 -
 box
 -
+collapse
+"
+"
+-
+moz
+-
+box
+-
 layout
 "
 "
