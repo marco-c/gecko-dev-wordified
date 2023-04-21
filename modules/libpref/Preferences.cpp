@@ -20045,13 +20045,6 @@ mozilla
 define
 INITIAL_PREF_FILES
 10
-static
-NS_DEFINE_CID
-(
-kZipReaderCID
-NS_ZIPREADER_CID
-)
-;
 void
 Preferences
 :
