@@ -257,12 +257,14 @@ const
 GLContextDesc
 &
 EGLConfig
-config
+surfaceConfig
 EGLSurface
 surface
 const
 bool
 useGles
+EGLConfig
+contextConfig
 nsACString
 *
 const
@@ -284,7 +286,7 @@ const
 GLContextDesc
 &
 EGLConfig
-config
+surfaceConfig
 EGLSurface
 surface
 EGLContext
@@ -686,7 +688,7 @@ mEgl
 ;
 const
 EGLConfig
-mConfig
+mSurfaceConfig
 ;
 const
 EGLContext

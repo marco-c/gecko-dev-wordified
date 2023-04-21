@@ -901,7 +901,7 @@ GetGLContext
 )
 -
 >
-mConfig
+mSurfaceConfig
 )
 ;
 if
