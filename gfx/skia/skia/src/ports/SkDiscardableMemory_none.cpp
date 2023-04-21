@@ -47,9 +47,11 @@ h
 #
 include
 "
-src
+include
 /
-core
+private
+/
+chromium
 /
 SkDiscardableMemory
 .

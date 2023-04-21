@@ -103,7 +103,7 @@ SkSafeRange
 {
 public
 :
-MOZ_IMPLICIT
+explicit
 operator
 bool
 (

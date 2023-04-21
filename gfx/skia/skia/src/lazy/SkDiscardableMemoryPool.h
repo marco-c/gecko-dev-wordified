@@ -46,6 +46,8 @@ include
 /
 private
 /
+base
+/
 SkMutex
 .
 h
@@ -53,9 +55,11 @@ h
 #
 include
 "
-src
+include
 /
-core
+private
+/
+chromium
 /
 SkDiscardableMemory
 .
@@ -144,13 +148,6 @@ Factory
 {
 public
 :
-virtual
-~
-SkDiscardableMemoryPool
-(
-)
-{
-}
 virtual
 size_t
 getRAMUsed

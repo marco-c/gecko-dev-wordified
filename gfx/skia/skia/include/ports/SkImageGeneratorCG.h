@@ -103,6 +103,10 @@ SkData
 )
 ;
 }
+/
+/
+namespace
+SkImageGeneratorCG
 #
 endif
 /

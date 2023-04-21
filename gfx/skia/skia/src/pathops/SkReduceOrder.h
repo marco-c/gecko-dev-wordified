@@ -42,6 +42,17 @@ SkReduceOrder_DEFINED
 #
 include
 "
+include
+/
+core
+/
+SkPath
+.
+h
+"
+#
+include
+"
 src
 /
 pathops
@@ -74,6 +85,9 @@ h
 "
 struct
 SkConic
+;
+struct
+SkPoint
 ;
 union
 SkReduceOrder

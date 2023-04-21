@@ -148,6 +148,10 @@ SkPDFDocument
 )
 ;
 }
+/
+/
+namespace
+SkPDFMetadata
 #
 endif
 /
