@@ -5855,11 +5855,14 @@ intKey
 Key
 key
 ;
+QM_TRY
+(
 key
 .
 SetFromInteger
 (
 intKey
+)
 )
 ;
 return

@@ -106872,11 +106872,14 @@ return
 NS_ERROR_DOM_INDEXEDDB_CONSTRAINT_ERR
 ;
 }
+QM_TRY
+(
 key
 .
 SetFromInteger
 (
 autoIncrementNum
+)
 )
 ;
 }
