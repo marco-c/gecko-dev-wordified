@@ -440,6 +440,13 @@ mTimestamp
 /
 microseconds
 uint64_t
+?
+mUpdatedTimestamp
+;
+/
+/
+microseconds
+uint64_t
 mDuration
 ;
 /

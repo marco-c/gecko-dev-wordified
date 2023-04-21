@@ -813,7 +813,7 @@ codecParams
 .
 mGMPApiVersion
 =
-33
+kGMPVersion34
 ;
 codecParams
 .
@@ -4841,7 +4841,7 @@ codec
 .
 mGMPApiVersion
 =
-33
+kGMPVersion34
 ;
 /
 /
@@ -6963,7 +6963,7 @@ up
 aDecodedFrame
 -
 >
-Timestamp
+UpdatedTimestamp
 (
 )
 *
