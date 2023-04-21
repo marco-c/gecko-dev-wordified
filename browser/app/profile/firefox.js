@@ -18938,7 +18938,6 @@ stories
 block
 "
 "
-FR
 "
 )
 ;
