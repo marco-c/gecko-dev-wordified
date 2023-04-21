@@ -364,6 +364,17 @@ WAIT_FOR_MIGRATION_CLOSE
 "
 )
 ;
+window
+.
+AWEvaluateScreenTargeting
+=
+receive
+(
+"
+EVALUATE_SCREEN_TARGETING
+"
+)
+;
 /
 /
 Update
