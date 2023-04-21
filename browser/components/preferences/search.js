@@ -2120,6 +2120,7 @@ selection
 if
 (
 selection
+?
 .
 count
 >
