@@ -371,6 +371,14 @@ mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
+mUnidirectionalStreams
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mBidirectionalStreams
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
 mIncomingUnidirectionalStreams
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK

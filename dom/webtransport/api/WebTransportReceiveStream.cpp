@@ -351,6 +351,7 @@ MakeRefPtr
 InputToReadableStreamAlgorithms
 >
 (
+cx
 inputStream
 (
 ReadableStream
