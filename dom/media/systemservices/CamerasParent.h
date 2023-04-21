@@ -785,13 +785,6 @@ int
 aCaptureId
 )
 ;
-bool
-SetupEngine
-(
-CaptureEngine
-aCapEngine
-)
-;
 /
 /
 VideoInputFeedBack
