@@ -5126,10 +5126,7 @@ FramePointerStackWalk
 on
 Win32
 :
-Registers
-:
-:
-SyncPopulate
+REGISTERS_SYNC_POPULATE
 (
 )
 for
@@ -5263,10 +5260,7 @@ FramePointerStackWalk
 on
 Mac
 :
-Registers
-:
-:
-SyncPopulate
+REGISTERS_SYNC_POPULATE
 (
 )
 for
