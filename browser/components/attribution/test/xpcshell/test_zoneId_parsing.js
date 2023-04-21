@@ -343,6 +343,7 @@ unableToReadFile
 (
 )
 {
+await
 testProvenance
 (
 null
@@ -392,6 +393,7 @@ expectedMozilla
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -675,6 +677,7 @@ expectedNonMozilla
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -824,6 +827,7 @@ readFsError
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -894,6 +898,7 @@ unexpectedReadFsError
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -968,6 +973,7 @@ unexpectedReadFsError
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1025,6 +1031,7 @@ missingFileSystem
 (
 )
 {
+await
 testProvenance
 (
 provenance
@@ -1076,6 +1083,7 @@ fileSystem
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1133,6 +1141,7 @@ unexpectedFileSystem
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1190,6 +1199,7 @@ zoneIdFileSize
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1227,6 +1237,7 @@ unknownZoneIdFileSize
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1266,6 +1277,7 @@ unexpectedZoneIdFileSize
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1305,6 +1317,7 @@ missingZoneIdFileSize
 (
 )
 {
+await
 testProvenance
 (
 provenance
@@ -1340,6 +1353,7 @@ zoneIdBufferLargeEnoughTrue
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1377,6 +1391,7 @@ zoneIdBufferLargeEnoughFalse
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1414,6 +1429,7 @@ unknownZoneIdBufferLargeEnough
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1453,6 +1469,7 @@ unknownZoneIdBufferLargeEnough
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1492,6 +1509,7 @@ missingZoneIdBufferLargeEnough
 (
 )
 {
+await
 testProvenance
 (
 provenance
@@ -1526,6 +1544,7 @@ zoneIdTruncatedTrue
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1563,6 +1582,7 @@ zoneIdTruncatedFalse
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1600,6 +1620,7 @@ unknownZoneIdTruncated
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1639,6 +1660,7 @@ unexpectedZoneIdTruncated
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1678,6 +1700,7 @@ missingZoneIdTruncated
 (
 )
 {
+await
 testProvenance
 (
 provenance
@@ -1712,6 +1735,7 @@ readZoneIdError
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1764,6 +1788,7 @@ unexpectedReadZoneIdErrorCode
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1820,6 +1845,7 @@ noAdsOnInstaller
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1888,6 +1914,7 @@ unexpectedReadZoneIdError
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -1927,6 +1954,7 @@ missingZoneId
 (
 )
 {
+await
 testProvenance
 (
 provenance
@@ -1960,6 +1988,7 @@ unexpectedZoneId
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -2029,6 +2058,7 @@ missingReferrerUrl
 (
 )
 {
+await
 testProvenance
 (
 provenance
@@ -2090,6 +2120,7 @@ unexpectedReferrerUrl
 (
 )
 {
+await
 testProvenance
 (
 [
@@ -2129,6 +2160,7 @@ missingHostUrl
 (
 )
 {
+await
 testProvenance
 (
 provenance
@@ -2190,6 +2222,7 @@ unexpectedHostUrl
 (
 )
 {
+await
 testProvenance
 (
 [
