@@ -583,6 +583,7 @@ nscoord
 XHeight
 (
 )
+const
 ;
 /
 *
@@ -603,6 +604,7 @@ nscoord
 CapHeight
 (
 )
+const
 ;
 /
 *
@@ -648,6 +650,7 @@ nscoord
 SuperscriptOffset
 (
 )
+const
 ;
 /
 *
@@ -693,6 +696,7 @@ nscoord
 SubscriptOffset
 (
 )
+const
 ;
 /
 *
@@ -745,6 +749,7 @@ nscoord
 &
 aSize
 )
+const
 ;
 /
 *
@@ -797,6 +802,7 @@ nscoord
 &
 aSize
 )
+const
 ;
 /
 *
@@ -834,6 +840,7 @@ nscoord
 InternalLeading
 (
 )
+const
 ;
 /
 *
@@ -879,6 +886,7 @@ nscoord
 ExternalLeading
 (
 )
+const
 ;
 /
 *
@@ -907,6 +915,7 @@ nscoord
 EmHeight
 (
 )
+const
 ;
 /
 *
@@ -927,6 +936,7 @@ nscoord
 EmAscent
 (
 )
+const
 ;
 /
 *
@@ -947,6 +957,7 @@ nscoord
 EmDescent
 (
 )
+const
 ;
 /
 *
@@ -975,6 +986,7 @@ nscoord
 MaxHeight
 (
 )
+const
 ;
 /
 *
@@ -1001,6 +1013,7 @@ nscoord
 MaxAscent
 (
 )
+const
 ;
 /
 *
@@ -1027,6 +1040,7 @@ nscoord
 MaxDescent
 (
 )
+const
 ;
 /
 *
@@ -1047,6 +1061,7 @@ nscoord
 MaxAdvance
 (
 )
+const
 ;
 /
 *
@@ -1063,6 +1078,7 @@ nscoord
 AveCharWidth
 (
 )
+const
 ;
 /
 *
@@ -1083,6 +1099,7 @@ nscoord
 SpaceWidth
 (
 )
+const
 ;
 /
 *
@@ -1181,6 +1198,7 @@ int32_t
 GetMaxStringLength
 (
 )
+const
 ;
 /
 /
@@ -1232,6 +1250,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 ;
 nscoord
 GetWidth
@@ -1246,6 +1265,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 ;
 /
 /
@@ -1279,6 +1299,7 @@ gfxContext
 *
 aContext
 )
+const
 ;
 void
 DrawString
@@ -1300,6 +1321,7 @@ DrawTarget
 *
 aTextRunConstructionDrawTarget
 )
+const
 ;
 nsBoundingMetrics
 GetBoundingMetrics
@@ -1314,6 +1336,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 ;
 /
 /
@@ -1348,6 +1371,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 ;
 void
 SetTextRunRTL
@@ -1479,6 +1503,7 @@ nsFontMetrics
 (
 )
 ;
+const
 nsFont
 mFont
 ;
@@ -1492,6 +1517,7 @@ RefPtr
 <
 nsAtom
 >
+const
 mLanguage
 ;
 /
@@ -1516,6 +1542,7 @@ nsPresContext
 MOZ_NON_OWNING_REF
 mPresContext
 ;
+const
 int32_t
 mP2A
 ;
@@ -1555,6 +1582,7 @@ they
 will
 return
 .
+const
 FontOrientation
 mOrientation
 ;
@@ -1594,6 +1622,7 @@ default
 /
 value
 .
+const
 bool
 mExplicitLanguage
 ;
