@@ -8303,7 +8303,7 @@ nsTextControlFrame
 :
 PeekOffset
 (
-PeekOffsetStruct
+nsPeekOffsetStruct
 *
 aPos
 )
