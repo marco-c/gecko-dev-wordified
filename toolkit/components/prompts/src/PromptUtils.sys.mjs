@@ -56,18 +56,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PromptUtils
-"
-"
-EnableDelayHelper
-"
-]
-;
+export
 var
 PromptUtils
 =
@@ -506,6 +495,7 @@ events
 .
 *
 /
+export
 var
 EnableDelayHelper
 =
