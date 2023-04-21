@@ -221,7 +221,10 @@ override
 NS_IMETHOD
 GetCapture
 (
-int16_t
+nsIFilePicker
+:
+:
+CaptureTarget
 *
 aCapture
 )
@@ -230,7 +233,10 @@ override
 NS_IMETHOD
 SetCapture
 (
-int16_t
+nsIFilePicker
+:
+:
+CaptureTarget
 aCapture
 )
 override

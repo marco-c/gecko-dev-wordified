@@ -327,7 +327,10 @@ nsString
 &
 aOkButtonLabel
 const
-int16_t
+nsIFilePicker
+:
+:
+CaptureTarget
 &
 aCapture
 )
