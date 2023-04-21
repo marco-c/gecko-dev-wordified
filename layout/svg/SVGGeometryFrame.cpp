@@ -5352,7 +5352,7 @@ IsVisible
 )
 {
 return
-false
+true
 ;
 }
 /
