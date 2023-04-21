@@ -2226,6 +2226,16 @@ IsInitialized
 const
 ;
 bool
+IsSignaledImpendingShutdown
+(
+)
+const
+{
+return
+mIsSignaledImpendingShutdown
+;
+}
+bool
 IsDead
 (
 )
