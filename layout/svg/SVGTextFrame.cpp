@@ -32108,10 +32108,12 @@ partialAdvance
 }
 if
 (
-!
 skippedEndOfTextPath
 )
 {
+break
+;
+}
 /
 /
 Any
@@ -32157,7 +32159,6 @@ partialAdvance
 +
 j
 ;
-}
 }
 gfxFloat
 halfAdvance
