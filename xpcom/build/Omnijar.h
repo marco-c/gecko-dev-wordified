@@ -1217,12 +1217,11 @@ dir
 /
 inline
 bool
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 {
 return
-!
 Omnijar
 :
 :

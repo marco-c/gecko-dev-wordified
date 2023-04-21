@@ -16668,7 +16668,9 @@ TESTING_READ_PATH3
 TESTING_READ_PATH4
 .
 In
-development
+non
+-
+packaged
 builds
 /
 /
@@ -16690,10 +16692,11 @@ rv
 ;
 if
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )

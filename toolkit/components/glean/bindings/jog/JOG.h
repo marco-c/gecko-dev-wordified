@@ -218,10 +218,11 @@ work
 at
 all
 if
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 *

@@ -464,11 +464,10 @@ you
 ;
 if
 (
-!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )
@@ -520,8 +519,7 @@ LogLevel
 Debug
 (
 "
-!
-IsDevelopmentBuild
+IsPackagedBuild
 .
 No
 JOG

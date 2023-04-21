@@ -1496,10 +1496,11 @@ get
 ;
 if
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )
@@ -1512,11 +1513,11 @@ GMPProcessParent
 :
 FillMacSandboxInfo
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 =
-true
+false
 "
 )
 ;

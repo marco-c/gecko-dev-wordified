@@ -2171,10 +2171,11 @@ MOZ_SANDBOX
 )
 MOZ_ASSERT
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )
@@ -2212,10 +2213,11 @@ MOZ_SANDBOX
 )
 MOZ_ASSERT
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )
