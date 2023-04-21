@@ -9242,8 +9242,6 @@ int
 avg_delay_ms
 int
 max_delay_ms
-uint64_t
-total_delay_ms
 uint32_t
 ssrc
 )
@@ -9287,13 +9285,6 @@ stats
 max_delay_ms
 =
 max_delay_ms
-;
-stats
--
->
-total_packet_send_delay_ms
-=
-total_delay_ms
 ;
 uma_container_
 -
