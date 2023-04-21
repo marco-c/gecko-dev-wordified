@@ -1205,6 +1205,11 @@ a
 earlyHintPreloaderId
 (
 )
+a
+.
+classicScriptHintCharset
+(
+)
 )
 ;
 }
@@ -3113,6 +3118,10 @@ const
 uint64_t
 &
 aEarlyHintPreloaderId
+const
+nsAString
+&
+aClassicScriptHintCharset
 )
 {
 MOZ_ASSERT
@@ -3678,6 +3687,14 @@ rv
 )
 ;
 }
+httpChannel
+-
+>
+SetClassicScriptHintCharset
+(
+aClassicScriptHintCharset
+)
+;
 if
 (
 aAPIRedirectToURI
