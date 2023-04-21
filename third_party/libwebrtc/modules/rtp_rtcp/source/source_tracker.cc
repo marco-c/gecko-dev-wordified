@@ -222,7 +222,11 @@ packet_time
 =
 packet_info
 .
-receive_time_ms
+receive_time
+(
+)
+.
+ms
 (
 )
 ;
