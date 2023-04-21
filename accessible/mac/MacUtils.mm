@@ -535,6 +535,17 @@ Accessible
 aContainer
 )
 {
+if
+(
+!
+aAttributes
+)
+{
+return
+{
+}
+;
+}
 NSMutableDictionary
 *
 attrDict
