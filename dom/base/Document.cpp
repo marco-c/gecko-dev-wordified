@@ -9363,7 +9363,7 @@ mStyleSheetChangeEventsEnabled
 (
 false
 )
-mShadowRootAttachedEventEnabled
+mDevToolsAnonymousAndShadowEventsEnabled
 (
 false
 )
