@@ -137,7 +137,7 @@ sandbox
 if
 defined
 (
-ENABLE_TESTS
+MOZ_DEBUG
 )
 /
 /
