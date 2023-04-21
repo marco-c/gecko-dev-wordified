@@ -319,7 +319,7 @@ details
 maxLogLevel
 :
 "
-debug
+error
 "
 maxLogLevelPref
 :
