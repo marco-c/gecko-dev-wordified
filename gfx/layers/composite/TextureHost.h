@@ -4990,16 +4990,6 @@ aFlags
 )
 override
 ;
-void
-DisableExternalTextures
-(
-)
-{
-mUseExternalTextures
-=
-false
-;
-}
 protected
 :
 bool
