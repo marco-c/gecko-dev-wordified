@@ -3141,8 +3141,7 @@ name
 "
 No
 Marker
-Stack
-Sampling
+Stacks
 "
 value
 :
@@ -3154,11 +3153,14 @@ title
 "
 Do
 not
-sample
+capture
 stacks
 when
 recording
 markers
+to
+reduce
+overhead
 .
 "
 }
