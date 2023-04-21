@@ -1867,6 +1867,11 @@ color_encoding_set
 bool
 intensity_target_set
 ;
+bool
+allow_expert_options
+=
+false
+;
 int
 brotli_effort
 =

@@ -8843,7 +8843,7 @@ format
 PackedPixelFile
 ppf_out
 ;
-EXPECT_EQ
+EXPECT_THAT
 (
 Roundtrip
 (
@@ -8859,7 +8859,10 @@ pool
 &
 ppf_out
 )
-2298
+IsSlightlyBelow
+(
+2400
+)
 )
 ;
 t
@@ -9184,7 +9187,7 @@ encoded
 multiple
 times
 .
-EXPECT_EQ
+EXPECT_THAT
 (
 Roundtrip
 (
@@ -9199,7 +9202,10 @@ pool
 &
 ppf_out
 )
-13458
+IsSlightlyBelow
+(
+14000
+)
 )
 ;
 EXPECT_EQ

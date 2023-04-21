@@ -150,13 +150,6 @@ ImageF
 &
 qf
 const
-jxl
-:
-:
-FrameDimensions
-&
-frame_dim
-const
 float
 *
 qm
@@ -810,13 +803,6 @@ ImageF
 &
 qf
 const
-jxl
-:
-:
-FrameDimensions
-&
-frame_dim
-const
 float
 *
 qm
@@ -845,7 +831,6 @@ ComputeDCTCoefficients
 opsin
 xyb
 qf
-frame_dim
 qm
 components
 )

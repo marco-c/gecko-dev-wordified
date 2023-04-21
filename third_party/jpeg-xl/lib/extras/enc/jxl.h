@@ -372,6 +372,11 @@ runner_opaque
 =
 nullptr
 ;
+bool
+allow_expert_options
+=
+false
+;
 void
 AddOption
 (
