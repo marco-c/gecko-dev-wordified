@@ -1639,9 +1639,10 @@ AvailableHeight
 ;
 MOZ_ASSERT
 (
-mState
-&
+HasAnyStateBits
+(
 NS_FRAME_IN_REFLOW
+)
 "
 frame
 is

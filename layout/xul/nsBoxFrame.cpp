@@ -1333,11 +1333,8 @@ mHalign
 bool
 autostretch
 =
-!
-!
+HasAnyStateBits
 (
-mState
-&
 NS_STATE_AUTO_STRETCH
 )
 ;
@@ -2220,7 +2217,9 @@ aReflowInput
 nsFrameState
 preserveBits
 =
-mState
+GetStateBits
+(
+)
 &
 (
 NS_FRAME_IS_DIRTY
@@ -5179,11 +5178,8 @@ mHalign
 bool
 autostretch
 =
-!
-!
+HasAnyStateBits
 (
-mState
-&
 NS_STATE_AUTO_STRETCH
 )
 ;

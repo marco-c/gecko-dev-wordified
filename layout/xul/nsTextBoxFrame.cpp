@@ -2869,9 +2869,10 @@ NS_ERROR_FAILURE
 ;
 if
 (
-mState
-&
+HasAnyStateBits
+(
 NS_FRAME_IS_BIDI
+)
 )
 {
 presContext

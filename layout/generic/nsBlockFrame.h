@@ -2103,12 +2103,8 @@ HasInsideMarker
 const
 {
 return
-0
-!
-=
+HasAnyStateBits
 (
-mState
-&
 NS_BLOCK_FRAME_HAS_INSIDE_MARKER
 )
 ;
@@ -2139,12 +2135,8 @@ HasOutsideMarker
 const
 {
 return
-0
-!
-=
+HasAnyStateBits
 (
-mState
-&
 NS_BLOCK_FRAME_HAS_OUTSIDE_MARKER
 )
 ;
