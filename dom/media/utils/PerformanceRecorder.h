@@ -951,7 +951,7 @@ CaptureStage
 (
 nsCString
 aSource
-nsCString
+TrackingId
 aTrackingId
 int32_t
 aWidth
@@ -1022,7 +1022,7 @@ MEDIA_RT
 nsCString
 mSource
 ;
-nsCString
+TrackingId
 mTrackingId
 ;
 int32_t
@@ -1034,6 +1034,8 @@ mHeight
 ImageType
 mImageType
 ;
+private
+:
 mutable
 Maybe
 <
