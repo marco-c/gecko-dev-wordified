@@ -814,6 +814,12 @@ FlushConsoleReport
 )
 override
 ;
+void
+OnReportPerformanceTiming
+(
+)
+override
+;
 private
 :
 ~
