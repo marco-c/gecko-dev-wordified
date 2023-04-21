@@ -641,7 +641,7 @@ const
 EntryId
 &
 aEntry
-int64_t
+Usage
 aNewDiskUsage
 )
 ;
@@ -668,8 +668,14 @@ aDelta
 nsresult
 UpdateCachedQuotaUsage
 (
-int64_t
-aDelta
+const
+EntryId
+&
+aEntryId
+Usage
+aOldUsage
+Usage
+aNewUsage
 )
 ;
 /
