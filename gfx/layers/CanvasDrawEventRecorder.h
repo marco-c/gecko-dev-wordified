@@ -1509,15 +1509,6 @@ aReason
 final
 ;
 void
-RecordSourceSurfaceDestruction
-(
-void
-*
-aSurface
-)
-final
-;
-void
 Flush
 (
 )
