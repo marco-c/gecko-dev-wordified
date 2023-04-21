@@ -514,8 +514,6 @@ move
 (
 feedback_sender
 )
-&
-field_trial_config_
 network_state_estimator
 )
 rbe_
