@@ -693,6 +693,9 @@ WritableSharedMemoryMapping
 (
 RefPtr
 <
+mozilla
+:
+:
 ipc
 :
 :
@@ -705,6 +708,9 @@ aRef
 ;
 RefPtr
 <
+mozilla
+:
+:
 ipc
 :
 :
