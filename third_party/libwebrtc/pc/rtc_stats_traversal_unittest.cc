@@ -221,7 +221,12 @@ RTCStatsReport
 :
 Create
 (
-0
+Timestamp
+:
+:
+Zero
+(
+)
 )
 ;
 initial_report_
@@ -303,7 +308,12 @@ RTCStatsReport
 :
 Create
 (
-0
+Timestamp
+:
+:
+Zero
+(
+)
 )
 ;
 }

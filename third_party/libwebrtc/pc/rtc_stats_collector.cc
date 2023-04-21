@@ -9061,7 +9061,7 @@ Create
 report
 -
 >
-timestamp_us
+timestamp
 (
 )
 )
@@ -10111,7 +10111,13 @@ RTCStatsReport
 :
 Create
 (
+Timestamp
+:
+:
+Micros
+(
 timestamp_us
+)
 )
 ;
 ProducePartialResultsOnSignalingThreadImpl
@@ -10325,7 +10331,13 @@ RTCStatsReport
 :
 Create
 (
+Timestamp
+:
+:
+Micros
+(
 timestamp_us
+)
 )
 ;
 std
