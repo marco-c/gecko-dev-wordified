@@ -7070,6 +7070,7 @@ true
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -7083,7 +7084,7 @@ input
 ByteBuf
 v
 :
-&
+*
 mut
 computed_type
 )
@@ -7121,10 +7122,17 @@ return
 false
 }
 ;
-*
+std
+:
+:
+ptr
+:
+:
+write
+(
 v
-=
 buf
+)
 ;
 true
 }

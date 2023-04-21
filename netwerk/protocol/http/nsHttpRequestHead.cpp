@@ -315,6 +315,11 @@ nsHttpRequestHead
 aRequestHead
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHttpRequestHead
+)
+;
 nsHttpRequestHead
 &
 other
@@ -400,6 +405,11 @@ nsHttpRequestHead
 aRequestHead
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHttpRequestHead
+)
+;
 nsHttpRequestHead
 &
 other

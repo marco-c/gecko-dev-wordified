@@ -2762,21 +2762,6 @@ write
 )
     
 def
-visitExprMove
-(
-self
-em
-)
-:
-        
-self
-.
-visitExprCall
-(
-em
-)
-    
-def
 visitExprNew
 (
 self

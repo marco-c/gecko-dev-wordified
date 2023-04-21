@@ -248,6 +248,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+IPCForwards
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1515,6 +1526,7 @@ ParamTraits
 WidgetKeyboardEvent
 >
 ;
+ALLOW_DEPRECATED_READPARAM
 protected
 :
 WidgetKeyboardEvent
@@ -6345,6 +6357,7 @@ dom
 :
 PBrowserChild
 ;
+ALLOW_DEPRECATED_READPARAM
 WidgetCompositionEvent
 (
 )
@@ -6989,6 +7002,7 @@ dom
 :
 PBrowserChild
 ;
+ALLOW_DEPRECATED_READPARAM
 WidgetQueryContentEvent
 (
 )
@@ -9586,6 +9600,7 @@ dom
 :
 PBrowserChild
 ;
+ALLOW_DEPRECATED_READPARAM
 WidgetSelectionEvent
 (
 )

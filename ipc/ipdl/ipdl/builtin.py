@@ -375,7 +375,7 @@ mozilla
 /
 ipc
 /
-ProtocolUtilsFwd
+IPCForwards
 .
 h
 "

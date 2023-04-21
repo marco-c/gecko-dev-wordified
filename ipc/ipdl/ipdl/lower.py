@@ -14056,6 +14056,7 @@ def
 checkedBulkWrite
 (
 cls
+var
 size
 fields
 )
@@ -14116,8 +14117,6 @@ getMethod
 (
 thisexpr
 =
-cls
-.
 var
 sel
 =
@@ -14180,6 +14179,7 @@ def
 checkedBulkRead
 (
 cls
+var
 size
 fields
 )
@@ -14231,14 +14231,11 @@ getMethod
 (
 thisexpr
 =
-cls
-.
 var
 sel
 =
 "
--
->
+.
 "
 )
 )
@@ -14294,6 +14291,7 @@ ifbad
 .
 addifstmts
 (
+            
 [
 cls
 .
@@ -14305,9 +14303,13 @@ readervar
 errmsg
 )
 StmtReturn
-.
-FALSE
+(
+ExprNothing
+(
+)
+)
 ]
+        
 )
         
 block
@@ -14340,6 +14342,9 @@ fields
                 
 errfnSentinel
 (
+ExprNothing
+(
+)
 )
 (
 errmsg
@@ -14362,6 +14367,8 @@ cls
         
 ipdltype
         
+cxxtype
+        
 var
         
 readervar
@@ -14373,13 +14380,17 @@ paramtype
 sentinelKey
         
 errfnSentinel
+        
+varIsMaybe
+=
+True
     
 )
 :
         
 block
 =
-Block
+StmtBlock
 (
 )
         
@@ -14388,33 +14399,123 @@ Read
 the
 data
         
-ifbad
+maybeVar
 =
-StmtIf
-(
+var
+        
+if
+varIsMaybe
+:
             
-ExprNot
+block
+.
+addcode
 (
-ExprCall
-(
-ExprVar
-(
+                
 "
+"
+"
+                
+{
+var
+}
+=
 IPC
 :
 :
 ReadParam
+<
+{
+ty
+}
+>
+(
+{
+reader
+}
+)
+;
+                
 "
-)
-args
-=
-[
-readervar
+"
+"
+                
 var
-]
-)
+=
+var
+                
+ty
+=
+cxxtype
+                
+reader
+=
+readervar
+            
 )
         
+else
+:
+            
+block
+.
+addcode
+(
+                
+"
+"
+"
+                
+auto
+tmp
+=
+IPC
+:
+:
+ReadParam
+<
+{
+ty
+}
+>
+(
+{
+reader
+}
+)
+;
+                
+"
+"
+"
+                
+ty
+=
+cxxtype
+                
+reader
+=
+readervar
+            
+)
+            
+maybeVar
+=
+ExprVar
+(
+"
+tmp
+"
+)
+        
+ifbad
+=
+StmtIf
+(
+ExprNot
+(
+maybeVar
+)
 )
         
 if
@@ -14503,7 +14604,7 @@ ExprNot
 (
 ExprDeref
 (
-var
+maybeVar
 )
 )
 )
@@ -14546,6 +14647,51 @@ paramtype
         
 )
         
+#
+Move
+the
+read
+value
+into
+the
+target
+.
+        
+if
+not
+varIsMaybe
+:
+            
+block
+.
+addcode
+(
+                
+"
+"
+"
+                
+{
+var
+}
+=
+tmp
+.
+extract
+(
+)
+;
+                
+"
+"
+"
+                
+var
+=
+var
+            
+)
+        
 return
 block
     
@@ -14566,9 +14712,13 @@ _checkedRead
 (
 cls
 ipdltype
+cxxtype
 var
 sentinelKey
 what
+varIsMaybe
+=
+True
 )
 :
         
@@ -14591,8 +14741,11 @@ readervar
 msg
 )
 StmtReturn
-.
-FALSE
+(
+ExprNothing
+(
+)
+)
 ]
         
 return
@@ -14602,6 +14755,8 @@ checkedRead
 (
             
 ipdltype
+            
+cxxtype
             
 var
             
@@ -14625,7 +14780,14 @@ errfnSentinel
 =
 errfnSentinel
 (
+ExprNothing
+(
 )
+)
+            
+varIsMaybe
+=
+varIsMaybe
         
 )
     
@@ -14837,15 +14999,13 @@ writemthd
         
 #
 static
-bool
+Maybe
+<
+T
+>
 Read
 (
-const
-Message
-*
-PickleIterator
-*
-T
+MessageReader
 *
 )
 ;
@@ -14898,24 +15058,23 @@ readervar
 .
 name
 )
-                    
-Decl
-(
-outtype
-cls
-.
-var
-.
-name
-)
                 
 ]
                 
 ret
 =
 Type
-.
-BOOL
+(
+"
+mozilla
+:
+:
+Maybe
+<
+paramType
+>
+"
+)
                 
 methodspec
 =
@@ -15304,23 +15463,7 @@ actor
 )
 ;
             
-mozilla
-:
-:
-Maybe
-<
-mozilla
-:
-:
-ipc
-:
-:
-IProtocol
-*
->
-actor
-=
-                
+return
 {
 readervar
 }
@@ -15329,6 +15472,7 @@ readervar
 GetActor
 (
 )
+              
 -
 >
 ReadActor
@@ -15344,29 +15488,25 @@ actortype
 protocolid
 }
 )
-;
-            
-if
-(
-actor
+              
 .
-isNothing
+map
 (
-)
-)
-{
-                
-return
-false
-;
-            
-}
-            
+[
+]
+(
+mozilla
+:
+:
+ipc
+:
+:
+IProtocol
 *
+actor
+)
 {
-var
-}
-=
+return
 static_cast
 <
 {
@@ -15375,15 +15515,10 @@ cxxtype
 >
 (
 actor
-.
-value
-(
-)
 )
 ;
-            
-return
-true
+}
+)
 ;
             
 "
@@ -15415,12 +15550,6 @@ _protocolId
 (
 actortype
 )
-            
-var
-=
-cls
-.
-var
             
 cxxtype
 =
@@ -15485,11 +15614,57 @@ fullname
 )
 )
         
+write
+=
+[
+]
+        
+read
+=
+[
+]
+        
+readparam
+=
+ExprVar
+(
+"
+param
+"
+)
+        
+read
+.
+append
+(
+StmtDecl
+(
+Decl
+(
+Type
+(
+"
+paramType
+"
+)
+readparam
+.
+name
+)
+)
+)
+        
+writeparam
+=
+cls
+.
+var
+        
 def
 get
 (
-sel
 f
+var
 )
 :
             
@@ -15502,24 +15677,14 @@ getMethod
 (
 thisexpr
 =
-cls
-.
 var
 sel
 =
-sel
+"
+.
+"
 )
 )
-        
-write
-=
-[
-]
-        
-read
-=
-[
-]
         
 #
 If
@@ -15736,10 +15901,8 @@ ipdltype
                         
 get
 (
-"
-.
-"
 f
+writeparam
 )
                         
 cls
@@ -15765,16 +15928,22 @@ f
 .
 ipdltype
                         
-ExprAddrOf
+f
+.
+bareType
 (
+f
+.
+side
+fq
+=
+True
+)
+                        
 get
 (
-"
--
->
-"
 f
-)
+readparam
 )
                         
 f
@@ -15836,6 +16005,10 @@ name
 "
 '
 "
+                        
+varIsMaybe
+=
+False
                     
 )
                     
@@ -15927,6 +16100,7 @@ cls
 .
 checkedBulkWrite
 (
+writeparam
 size
 fields
 )
@@ -15937,6 +16111,7 @@ cls
 .
 checkedBulkRead
 (
+readparam
 size
 fields
 )
@@ -15960,8 +16135,15 @@ read
 append
 (
 StmtReturn
-.
-TRUE
+(
+ExprSome
+(
+ExprMove
+(
+readparam
+)
+)
+)
 )
         
 return
@@ -16174,10 +16356,11 @@ _checkedRead
                 
 None
                 
-ExprAddrOf
-(
+Type
+.
+INT
+                
 typevar
-)
                 
 uniontype
 .
@@ -16196,6 +16379,10 @@ uniontype
 name
 (
 )
+                
+varIsMaybe
+=
+False
             
 )
             
@@ -16594,8 +16781,11 @@ side
 )
                                     
 StmtReturn
-.
-FALSE
+(
+ExprNothing
+(
+)
+)
                                 
 ]
                             
@@ -16624,6 +16814,8 @@ tmp
             
 ct
 =
+_cxxMaybeType
+(
 c
 .
 bareType
@@ -16631,6 +16823,7 @@ bareType
 fq
 =
 True
+)
 )
             
 readcase
@@ -16649,33 +16842,6 @@ tmpvar
 .
 name
 )
-init
-=
-c
-.
-defaultValue
-(
-fq
-=
-True
-)
-)
-                    
-StmtExpr
-(
-ExprAssn
-(
-ExprDeref
-(
-cls
-.
-var
-)
-ExprMove
-(
-tmpvar
-)
-)
 )
                     
 cls
@@ -16687,29 +16853,16 @@ c
 .
 ipdltype
                         
-ExprAddrOf
-(
-                            
-ExprCall
-(
-ExprSelect
-(
-cls
-.
-var
-"
--
->
-"
 c
 .
-getTypeName
+bareType
 (
-)
-)
+fq
+=
+True
 )
                         
-)
+tmpvar
                         
 origenum
                         
@@ -16733,8 +16886,9 @@ name
 )
                     
 StmtReturn
-.
-TRUE
+(
+tmpvar
+)
                 
 ]
             
@@ -16840,8 +16994,11 @@ name
 )
                     
 StmtReturn
-.
-FALSE
+(
+ExprNothing
+(
+)
+)
                 
 ]
             
@@ -35684,10 +35841,9 @@ checkedRead
                     
 None
                     
-ExprAddrOf
-(
+handletype
+                    
 handlevar
-)
                     
 ExprAddrOf
 (
@@ -35716,6 +35872,10 @@ actor
 errfnSentinel
 =
 errfnSent
+                    
+varIsMaybe
+=
+False
                 
 )
             
@@ -35725,36 +35885,14 @@ start
 =
 1
         
-decls
-.
-extend
+def
+maybeTainted
 (
-            
-[
-                
-StmtDecl
-(
-                    
-Decl
-(
-                        
-(
-                            
-Type
-(
-"
-Tainted
-"
-T
-=
 p
-.
-bareType
-(
 side
 )
-)
-                            
+:
+            
 if
 md
 .
@@ -35772,17 +35910,49 @@ in
 p
 .
 attributes
-                            
-else
+:
+                
+return
+Type
+(
+"
+Tainted
+"
+T
+=
 p
 .
 bareType
 (
 side
 )
-                        
 )
-                        
+            
+return
+p
+.
+bareType
+(
+side
+)
+        
+decls
+.
+extend
+(
+            
+[
+                
+StmtDecl
+(
+                    
+Decl
+(
+maybeTainted
+(
+p
+side
+)
 p
 .
 var
@@ -35790,7 +35960,6 @@ var
 )
 .
 name
-                    
 )
                     
 initargs
@@ -35831,13 +36000,16 @@ p
 .
 ipdltype
                     
-ExprAddrOf
+maybeTainted
 (
+p
+side
+)
+                    
 p
 .
 var
 (
-)
 )
                     
 ExprAddrOf
@@ -35871,6 +36043,10 @@ name
 errfnSentinel
 =
 errfnSent
+                    
+varIsMaybe
+=
+False
                 
 )
                 
@@ -36373,10 +36549,9 @@ checkedRead
                     
 None
                     
-ExprAddrOf
-(
+handletype
+                    
 handlevar
-)
                     
 ExprAddrOf
 (
@@ -36405,6 +36580,10 @@ actor
 errfnSentinel
 =
 errfnSent
+                    
+varIsMaybe
+=
+False
                 
 )
             
@@ -36478,13 +36657,17 @@ p
 .
 ipdltype
                     
-ExprAddrOf
+p
+.
+bareType
 (
+side
+)
+                    
 p
 .
 var
 (
-)
 )
                     
 ExprAddrOf
@@ -36518,6 +36701,10 @@ name
 errfnSentinel
 =
 errfnSent
+                    
+varIsMaybe
+=
+False
                 
 )
                 
@@ -36751,8 +36938,20 @@ ipdltype
                     
 r
 .
+bareType
+(
+self
+.
+side
+)
+                    
+ExprDeref
+(
+r
+.
 var
 (
+)
 )
                     
 ExprAddrOf
@@ -36786,6 +36985,10 @@ name
 errfnSentinel
 =
 errfnSentinel
+                    
+varIsMaybe
+=
+False
                 
 )
                 

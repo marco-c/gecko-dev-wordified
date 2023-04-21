@@ -138,6 +138,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+IPCForwards
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -734,6 +745,7 @@ dom
 :
 PBrowserBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 protected
 :
 WidgetMouseEventBase
@@ -1362,6 +1374,7 @@ dom
 :
 PBrowserBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 public
 :
 typedef
@@ -2304,6 +2317,7 @@ dom
 :
 PBrowserChild
 ;
+ALLOW_DEPRECATED_READPARAM
 protected
 :
 WidgetDragEvent
@@ -3255,6 +3269,7 @@ dom
 :
 PBrowserChild
 ;
+ALLOW_DEPRECATED_READPARAM
 WidgetWheelEvent
 (
 )
@@ -4991,6 +5006,7 @@ dom
 :
 PBrowserChild
 ;
+ALLOW_DEPRECATED_READPARAM
 public
 :
 virtual
