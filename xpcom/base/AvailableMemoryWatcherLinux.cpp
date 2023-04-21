@@ -735,6 +735,7 @@ nsAvailableMemoryWatcher
 nsAvailableMemoryWatcherBase
 nsITimerCallback
 nsIObserver
+nsINamed
 )
 ;
 void

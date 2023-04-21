@@ -1667,6 +1667,11 @@ ID
 }
 "
 )
+name
+:
+"
+NetworkGeolocationProvider
+"
 QueryInterface
 :
 ChromeUtils
@@ -1685,6 +1690,9 @@ nsITimerCallback
 "
 "
 nsIObserver
+"
+"
+nsINamed
 "
 ]
 )
