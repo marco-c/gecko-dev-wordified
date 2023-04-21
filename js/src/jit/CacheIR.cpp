@@ -34520,12 +34520,6 @@ ICState
 state
 HandleValue
 value
-Handle
-<
-PropertyIteratorObject
-*
->
-iterObj
 )
 :
 IRGenerator
@@ -34542,10 +34536,6 @@ state
 val_
 (
 value
-)
-iterObj_
-(
-iterObj
 )
 {
 }
