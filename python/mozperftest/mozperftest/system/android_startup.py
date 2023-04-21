@@ -62,7 +62,6 @@ time
 from
 datetime
 import
-date
 datetime
 timedelta
 import
@@ -154,6 +153,15 @@ median
 standard_deviation
 "
 ]
+OLD_VERSION_FOCUS_PAGE_START_LINE_COUNT
+=
+3
+NEW_VERSION_FOCUS_PAGE_START_LINE_COUNT
+=
+2
+STDOUT_LINE_COUNT
+=
+2
 TEST_COLD_MAIN_FF
 =
 "
@@ -1118,16 +1126,6 @@ self
 app_name
 =
 None
-        
-self
-.
-download_date
-=
-date
-.
-today
-(
-)
         
 self
 .
@@ -2629,8 +2627,13 @@ assert
 (
                     
 page_start_line_count
+                    
 =
 =
+OLD_VERSION_FOCUS_PAGE_START_LINE_COUNT
+#
+should
+be
 3
                 
 )
@@ -2654,8 +2657,13 @@ assert
 (
                     
 page_start_line_count
+                    
 =
 =
+NEW_VERSION_FOCUS_PAGE_START_LINE_COUNT
+#
+Should
+be
 2
                 
 )
@@ -2797,6 +2805,10 @@ visual
 completeness
 .
         
+"
+"
+"
+        
 return
 60
 if
@@ -2805,13 +2817,6 @@ self
 startup_cache
 else
 5
-        
-"
-"
-"
-        
-return
-1
     
 def
 get_start_cmd
@@ -3080,8 +3085,12 @@ stdout
 )
 !
 =
-2
+STDOUT_LINE_COUNT
 :
+#
+Should
+be
+2
             
 raise
 AndroidStartUpMatchingError
