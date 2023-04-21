@@ -2123,6 +2123,15 @@ receiver
 )
 const
 ;
+std
+:
+:
+string
+ToString
+(
+)
+const
+;
 private
 :
 std
