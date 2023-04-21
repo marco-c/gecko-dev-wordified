@@ -2147,7 +2147,7 @@ anyhow
 .
 0
 .
-68
+69
 "
 )
 ]
@@ -3420,9 +3420,16 @@ Ok
 /
 #
 [
+cfg_attr
+(
+not
+(
+doc
+)
 repr
 (
 transparent
+)
 )
 ]
 pub
