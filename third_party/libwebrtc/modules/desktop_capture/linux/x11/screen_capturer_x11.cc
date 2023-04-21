@@ -1948,6 +1948,17 @@ rtc
 kNumNanosecsPerMillisec
 )
 ;
+result
+-
+>
+set_capturer_id
+(
+DesktopCapturerId
+:
+:
+kX11CapturerLinux
+)
+;
 callback_
 -
 >

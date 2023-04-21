@@ -829,6 +829,17 @@ ScreenCapturerX11
 :
 CaptureFrame
 .
+frame
+-
+>
+set_capturer_id
+(
+DesktopCapturerId
+:
+:
+kWaylandCapturerLinux
+)
+;
 callback_
 -
 >

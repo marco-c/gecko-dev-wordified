@@ -1324,6 +1324,17 @@ top_left
 )
 )
 ;
+frame
+-
+>
+set_capturer_id
+(
+DesktopCapturerId
+:
+:
+kX11CapturerLinux
+)
+;
 callback_
 -
 >
