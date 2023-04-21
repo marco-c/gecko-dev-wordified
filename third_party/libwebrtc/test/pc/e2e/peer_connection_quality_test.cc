@@ -1476,14 +1476,6 @@ PeerConfigurerImpl
 >
 (
 network_dependencies
-.
-network_thread
-network_dependencies
-.
-network_manager
-network_dependencies
-.
-packet_socket_factory
 )
 )
 ;
