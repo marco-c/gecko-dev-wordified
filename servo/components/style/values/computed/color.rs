@@ -167,6 +167,7 @@ color
 {
 ColorScheme
 PrintColorAdjust
+ForcedColorAdjust
 }
 ;
 /
