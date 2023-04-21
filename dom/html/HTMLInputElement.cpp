@@ -33775,7 +33775,7 @@ true
 }
 }
 return
-nsGenericHTMLElement
+TextControlElement
 :
 :
 ParseAttribute
