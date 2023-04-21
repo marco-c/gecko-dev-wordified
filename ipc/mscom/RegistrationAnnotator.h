@@ -120,6 +120,13 @@ mozilla_mscom_RegistrationAnnotator_h
 #
 define
 mozilla_mscom_RegistrationAnnotator_h
+#
+include
+<
+windows
+.
+h
+>
 namespace
 mozilla
 {

@@ -283,6 +283,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -333,6 +340,13 @@ h
 include
 "
 prenv
+.
+h
+"
+#
+include
+"
+prio
 .
 h
 "

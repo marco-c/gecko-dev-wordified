@@ -136,6 +136,13 @@ nsString
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 struct
 ICallFrame
 ;
