@@ -274,6 +274,9 @@ bool
 composite_needed
 :
 bool
+_
+:
+FramePublishId
 )
 {
 self

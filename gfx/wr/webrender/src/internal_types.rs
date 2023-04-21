@@ -85,6 +85,12 @@ use
 api
 :
 :
+FramePublishId
+;
+use
+api
+:
+:
 units
 :
 :
@@ -5068,6 +5074,7 @@ PipelineInfo
 )
 PublishDocument
 (
+FramePublishId
 DocumentId
 RenderedDocument
 ResourceUpdateList
