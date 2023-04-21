@@ -1863,7 +1863,6 @@ Gpsd
 poll
 thread
 "
-_ns
 LazyIdleThread
 :
 :
