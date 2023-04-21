@@ -1588,6 +1588,8 @@ CheckVolumeAndReset
 void
 UpdateGain
 (
+int
+rms_error_db
 )
 ;
 void
