@@ -179,6 +179,13 @@ h
 "
 src
 /
+GeneralCategory
+.
+h
+"
+"
+src
+/
 ICU4CGlue
 .
 h
