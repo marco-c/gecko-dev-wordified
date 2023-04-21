@@ -288,13 +288,6 @@ SetSecurityLevelForGPUProcess
 (
 int32_t
 aSandboxLevel
-const
-nsCOMPtr
-<
-nsIFile
->
-&
-aProfileDir
 )
 =
 0
@@ -592,13 +585,6 @@ SetSecurityLevelForGPUProcess
 (
 int32_t
 aSandboxLevel
-const
-nsCOMPtr
-<
-nsIFile
->
-&
-aProfileDir
 )
 override
 ;
