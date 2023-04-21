@@ -968,7 +968,7 @@ bug
 .
 webNav
 .
-loadURI
+fixupAndLoadURIString
 (
 originalURL
 loadURIOptions

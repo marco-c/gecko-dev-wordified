@@ -511,7 +511,7 @@ this
 .
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 url
 {
@@ -2988,7 +2988,7 @@ this
 .
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 this
 .
