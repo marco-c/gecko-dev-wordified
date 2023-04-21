@@ -10064,12 +10064,8 @@ if
 content
 -
 >
-IsNodeOfType
+IsSVGGeometryElement
 (
-nsINode
-:
-:
-eSHAPE
 )
 |
 |
