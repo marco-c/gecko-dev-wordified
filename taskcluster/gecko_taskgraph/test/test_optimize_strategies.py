@@ -155,8 +155,6 @@ branch
 "
 :
 "
-integration
-/
 autoland
 "
         
