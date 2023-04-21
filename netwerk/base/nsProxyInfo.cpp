@@ -222,13 +222,6 @@ kProxyType_DIRECT
 [
 ]
 ;
-extern
-const
-char
-kProxyType_PROXY
-[
-]
-;
 nsProxyInfo
 :
 :
