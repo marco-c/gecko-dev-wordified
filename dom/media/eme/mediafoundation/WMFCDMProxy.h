@@ -685,6 +685,12 @@ GenericPromise
 >
 mCloseSessionRequest
 ;
+MozPromiseRequestHolder
+<
+GenericPromise
+>
+mRemoveSessionRequest
+;
 const
 dom
 :
