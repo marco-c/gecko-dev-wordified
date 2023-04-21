@@ -83,9 +83,7 @@ pip
 wrapper
 "
 :
-0
-.
-8
+DEFAULT_TOGGLE_OPACITY
 }
 hidden
 :
