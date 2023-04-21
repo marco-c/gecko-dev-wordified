@@ -1545,6 +1545,11 @@ uint64_t
 aSessionId
 )
 ;
+void
+CloseWebTransportConn
+(
+)
+;
 private
 :
 ~
