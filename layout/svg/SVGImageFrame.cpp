@@ -2607,15 +2607,8 @@ aDirtyRect
 {
 NS_ASSERTION
 (
-!
-NS_SVGDisplayListPaintingEnabled
+HasAnyStateBits
 (
-)
-|
-|
-(
-mState
-&
 NS_FRAME_IS_NONDISPLAY
 )
 "

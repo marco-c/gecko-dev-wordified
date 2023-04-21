@@ -4807,9 +4807,6 @@ nsIFrame
 aFrame
 )
 {
-#
-ifdef
-DEBUG
 NS_ASSERTION
 (
 !
@@ -4822,12 +4819,6 @@ NS_FRAME_SVG_LAYOUT
 )
 |
 |
-(
-NS_SVGDisplayListPaintingEnabled
-(
-)
-&
-&
 !
 aFrame
 -
@@ -4835,7 +4826,6 @@ aFrame
 HasAnyStateBits
 (
 NS_FRAME_IS_NONDISPLAY
-)
 )
 "
 Should
@@ -4849,8 +4839,6 @@ frame
 "
 )
 ;
-#
-endif
 bool
 hasSVGLayout
 =

@@ -163,13 +163,6 @@ nsContainerFrame
 .
 h
 "
-#
-include
-"
-nsRegion
-.
-h
-"
 class
 gfxContext
 ;
@@ -491,11 +484,6 @@ true
 }
 gfxMatrix
 GetCanvasTM
-(
-)
-;
-nsRect
-GetInvalidRegion
 (
 )
 ;
