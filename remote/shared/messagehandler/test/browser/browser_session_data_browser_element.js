@@ -359,7 +359,7 @@ value
 await
 root
 .
-addSessionData
+addSessionDataItem
 (
 {
 moduleName

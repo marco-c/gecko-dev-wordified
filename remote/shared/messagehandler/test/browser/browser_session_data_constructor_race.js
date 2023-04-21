@@ -152,7 +152,7 @@ module
 await
 root
 .
-addSessionData
+addSessionDataItem
 (
 {
 moduleName

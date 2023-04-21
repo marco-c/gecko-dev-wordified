@@ -1022,7 +1022,7 @@ root
 await
 rootMessageHandler
 .
-addSessionData
+addSessionDataItem
 (
 {
 moduleName
@@ -1181,7 +1181,7 @@ module
 await
 rootMessageHandler
 .
-removeSessionData
+removeSessionDataItem
 (
 {
 moduleName
