@@ -361,6 +361,8 @@ NativeObject
 obj
 HandleId
 id
+PropertyFlags
+flags
 )
 ;
 static
@@ -455,6 +457,10 @@ IsUsedAsPrototype
 ObjectFlag
 :
 :
+GenerationCountedGlobal
+ObjectFlag
+:
+:
 UseWatchtowerTestingLog
 }
 )
@@ -480,6 +486,10 @@ ObjectFlag
 :
 :
 IsUsedAsPrototype
+ObjectFlag
+:
+:
+GenerationCountedGlobal
 ObjectFlag
 :
 :
@@ -695,6 +705,8 @@ NativeObject
 obj
 HandleId
 id
+PropertyFlags
+flags
 )
 {
 if
@@ -719,6 +731,7 @@ watchPropertyChangeSlow
 cx
 obj
 id
+flags
 )
 ;
 }
