@@ -46,6 +46,10 @@ manifestexpected
 from
 .
 import
+manifestupdate
+from
+.
+import
 mpcontext
 from
 .
@@ -1599,20 +1603,14 @@ test_metadata
 .
 get_test
 (
+manifestupdate
+.
+get_test_name
+(
 manifest_test
 .
 id
-.
-rpartition
-(
-'
-/
-'
 )
-[
--
-1
-]
 )
         
 return
