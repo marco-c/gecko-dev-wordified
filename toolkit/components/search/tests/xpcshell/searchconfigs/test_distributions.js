@@ -232,11 +232,6 @@ canonical
 -
 001
 "
-"
-canonical
--
-002
-"
 ]
 )
 {
