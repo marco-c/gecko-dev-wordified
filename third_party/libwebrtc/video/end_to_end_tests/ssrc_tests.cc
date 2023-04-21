@@ -359,10 +359,6 @@ delivered_packet_
 Wait
 (
 kDefaultTimeout
-.
-ms
-(
-)
 )
 ;
 }

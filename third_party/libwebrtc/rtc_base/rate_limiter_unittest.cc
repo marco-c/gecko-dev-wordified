@@ -772,11 +772,17 @@ kWindowSizeMs
 ;
 }
 static
-const
-int64_t
-kMaxTimeoutMs
+constexpr
+TimeDelta
+kMaxTimeout
 =
-30000
+TimeDelta
+:
+:
+Seconds
+(
+30
+)
 ;
 class
 ThreadTask
@@ -813,7 +819,7 @@ start_signal_
 .
 Wait
 (
-kMaxTimeoutMs
+kMaxTimeout
 )
 ;
 DoRun
@@ -1246,7 +1252,7 @@ end_signal_
 .
 Wait
 (
-kMaxTimeoutMs
+kMaxTimeout
 )
 )
 ;
@@ -1266,7 +1272,7 @@ end_signal_
 .
 Wait
 (
-kMaxTimeoutMs
+kMaxTimeout
 )
 )
 ;
@@ -1286,7 +1292,7 @@ end_signal_
 .
 Wait
 (
-kMaxTimeoutMs
+kMaxTimeout
 )
 )
 ;

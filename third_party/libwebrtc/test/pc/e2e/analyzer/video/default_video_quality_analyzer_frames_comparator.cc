@@ -2931,7 +2931,13 @@ comparison_available_event_
 .
 Wait
 (
-1000
+TimeDelta
+:
+:
+Seconds
+(
+1
+)
 )
 ;
 continue

@@ -5573,10 +5573,6 @@ time_to_reconfigure_
 Wait
 (
 kDefaultTimeout
-.
-ms
-(
-)
 )
 )
 <

@@ -1296,10 +1296,6 @@ encoded_frames_
 Wait
 (
 kDefaultTimeout
-.
-ms
-(
-)
 )
 )
 <
@@ -1826,7 +1822,13 @@ packet_event_
 .
 Wait
 (
+TimeDelta
+:
+:
+Millis
+(
 kSilenceTimeoutMs
+)
 )
 ;
 int64_t
