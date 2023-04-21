@@ -4932,10 +4932,7 @@ heading
 0
 |
 |
-std
-:
-:
-isnan
+IsNaN
 (
 speed
 )

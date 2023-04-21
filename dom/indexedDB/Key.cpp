@@ -3015,10 +3015,10 @@ invalid
 .
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 number
 )
@@ -3294,10 +3294,10 @@ invalid
 .
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 ms
 )

@@ -18613,10 +18613,10 @@ false
 }
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 maxDouble
 )
@@ -52364,10 +52364,10 @@ compliant
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 y
 )

@@ -743,10 +743,10 @@ special
 cases
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 aValue
 )
@@ -766,10 +766,10 @@ return
 }
 if
 (
-std
+mozilla
 :
 :
-isinf
+IsInfinite
 (
 aValue
 )

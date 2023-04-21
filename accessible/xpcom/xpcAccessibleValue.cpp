@@ -222,10 +222,7 @@ MaxValue
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 value
 )
@@ -316,10 +313,7 @@ MinValue
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 value
 )
@@ -410,10 +404,7 @@ CurValue
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 value
 )
@@ -605,10 +596,7 @@ Step
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 value
 )

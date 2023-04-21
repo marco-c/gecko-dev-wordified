@@ -43822,10 +43822,7 @@ scale
 }
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 aConstraints
 .
@@ -43835,10 +43832,7 @@ scale
 )
 |
 |
-std
-:
-:
-isnan
+IsNaN
 (
 aConstraints
 .

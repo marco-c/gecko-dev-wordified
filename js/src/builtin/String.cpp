@@ -571,6 +571,12 @@ using
 mozilla
 :
 :
+IsNaN
+;
+using
+mozilla
+:
+:
 PodCopy
 ;
 using
@@ -14813,10 +14819,7 @@ false
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 d
 )

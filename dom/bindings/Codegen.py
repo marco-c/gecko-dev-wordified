@@ -50417,10 +50417,10 @@ else
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 {
 readLoc

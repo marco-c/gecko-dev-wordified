@@ -7368,10 +7368,7 @@ Height
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 aRect
 .
@@ -7382,10 +7379,7 @@ X
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 aRect
 .
@@ -7396,10 +7390,7 @@ Width
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 aRect
 .
@@ -7410,10 +7401,7 @@ Y
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 aRect
 .

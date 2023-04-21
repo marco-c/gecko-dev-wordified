@@ -30937,10 +30937,7 @@ IsPercentage
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 GetOffsetScale
 (

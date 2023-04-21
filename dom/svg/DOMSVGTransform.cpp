@@ -1478,10 +1478,7 @@ return
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 tan
 (
@@ -1599,10 +1596,7 @@ return
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 tan
 (

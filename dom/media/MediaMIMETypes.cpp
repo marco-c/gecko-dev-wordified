@@ -1172,10 +1172,7 @@ rv
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 aConfig
 .

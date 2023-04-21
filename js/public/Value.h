@@ -3374,10 +3374,10 @@ if
 (
 MOZ_UNLIKELY
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 d
 )

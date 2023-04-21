@@ -1024,10 +1024,7 @@ radPerDegree
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 ta
 )
@@ -1137,10 +1134,7 @@ radPerDegree
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 ta
 )

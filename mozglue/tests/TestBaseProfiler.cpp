@@ -6403,10 +6403,10 @@ NaN
 .
 MOZ_RELEASE_ASSERT
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 ProportionValue
 :

@@ -535,10 +535,10 @@ Special
 cases
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 value
 )

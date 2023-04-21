@@ -715,10 +715,7 @@ bool
 isNegativeStart
 =
 !
-std
-:
-:
-isnan
+IsNaN
 (
 start
 )
@@ -733,10 +730,7 @@ bool
 isNegativeEnd
 =
 !
-std
-:
-:
-isnan
+IsNaN
 (
 end
 )

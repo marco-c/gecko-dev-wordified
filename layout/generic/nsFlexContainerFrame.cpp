@@ -25969,10 +25969,7 @@ curFlexFactor
 ;
 if
 (
-std
-:
-:
-isfinite
+IsFinite
 (
 weightSum
 )
@@ -26552,10 +26549,7 @@ sizeDelta
 ;
 if
 (
-std
-:
-:
-isfinite
+IsFinite
 (
 weightSum
 )

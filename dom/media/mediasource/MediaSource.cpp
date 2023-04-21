@@ -1883,10 +1883,7 @@ aDuration
 0
 |
 |
-std
-:
-:
-isnan
+IsNaN
 (
 aDuration
 )

@@ -2155,10 +2155,10 @@ Step
 .
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 x
 )
@@ -2187,10 +2187,10 @@ false
 }
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 y
 )

@@ -4178,10 +4178,10 @@ Step
 if
 (
 !
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 timeout_ms
 )
@@ -4220,10 +4220,10 @@ else
 if
 (
 !
-std
+mozilla
 :
 :
-isinf
+IsInfinite
 (
 timeout_ms
 )

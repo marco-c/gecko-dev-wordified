@@ -770,10 +770,7 @@ Iterations
 &
 &
 !
-std
-:
-:
-isnan
+IsNaN
 (
 aTiming
 .
@@ -1306,10 +1303,7 @@ offset
 .
 if
 (
-std
-:
-:
-isfinite
+IsFinite
 (
 overallProgress
 )
@@ -1475,10 +1469,7 @@ progress
 double
 progress
 =
-std
-:
-:
-isfinite
+IsFinite
 (
 overallProgress
 )
@@ -1929,10 +1920,7 @@ mBeforeFlag
 }
 MOZ_ASSERT
 (
-std
-:
-:
-isfinite
+IsFinite
 (
 progress
 )

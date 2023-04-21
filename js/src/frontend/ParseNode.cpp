@@ -229,6 +229,12 @@ js
 :
 frontend
 ;
+using
+mozilla
+:
+:
+IsFinite
+;
 #
 ifdef
 DEBUG
@@ -1399,10 +1405,7 @@ cstr
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 value
 (

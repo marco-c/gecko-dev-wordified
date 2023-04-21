@@ -228,10 +228,7 @@ CurValue
 ;
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 accValue
 )
@@ -306,10 +303,7 @@ MaxValue
 ;
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 accValue
 )
@@ -384,10 +378,7 @@ MinValue
 ;
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 accValue
 )
@@ -462,10 +453,7 @@ Step
 ;
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 accValue
 )

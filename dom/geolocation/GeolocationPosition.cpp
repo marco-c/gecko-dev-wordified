@@ -162,6 +162,12 @@ mozilla
 :
 EqualOrBothNaN
 ;
+using
+mozilla
+:
+:
+IsNaN
+;
 /
 /
 NaN
@@ -368,10 +374,7 @@ aVError
 &
 &
 !
-std
-:
-:
-isnan
+IsNaN
 (
 aAlt
 )

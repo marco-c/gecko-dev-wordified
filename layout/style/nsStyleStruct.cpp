@@ -25576,10 +25576,7 @@ aPercent
 ;
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 float
 (

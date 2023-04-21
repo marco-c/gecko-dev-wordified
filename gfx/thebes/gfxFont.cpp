@@ -32518,10 +32518,10 @@ true
 MOZ_ASSERT
 (
 !
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 size
 )
@@ -32650,10 +32650,10 @@ break
 MOZ_ASSERT
 (
 !
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 sizeAdjust
 )

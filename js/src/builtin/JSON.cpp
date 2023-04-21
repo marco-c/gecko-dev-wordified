@@ -450,6 +450,12 @@ using
 mozilla
 :
 :
+IsFinite
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 using
@@ -5053,10 +5059,7 @@ isDouble
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 v
 .

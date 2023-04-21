@@ -2184,10 +2184,10 @@ aValue
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 value
 )
