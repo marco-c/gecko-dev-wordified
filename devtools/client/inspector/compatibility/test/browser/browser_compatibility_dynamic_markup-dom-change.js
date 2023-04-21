@@ -93,7 +93,7 @@ are
 dynamically
 added
 const
-ISSUE_BINDING
+ISSUE_OUTLINE_RADIUS
 =
 {
 type
@@ -107,7 +107,9 @@ property
 -
 moz
 -
-binding
+outline
+-
+radius
 "
 url
 :
@@ -131,7 +133,9 @@ CSS
 -
 moz
 -
-binding
+outline
+-
+radius
 "
 deprecated
 :
@@ -202,9 +206,11 @@ div
 -
 moz
 -
-binding
+outline
+-
+radius
 :
-none
+25px
 ;
 }
 <
@@ -322,7 +328,7 @@ assertIssueList
 (
 allElementsPane
 [
-ISSUE_BINDING
+ISSUE_OUTLINE_RADIUS
 ISSUE_HYPHENS
 ]
 )
@@ -352,7 +358,7 @@ parent
 inspector
 allElementsPane
 [
-ISSUE_BINDING
+ISSUE_OUTLINE_RADIUS
 ]
 )
 ;
@@ -403,7 +409,7 @@ div
 inspector
 allElementsPane
 [
-ISSUE_BINDING
+ISSUE_OUTLINE_RADIUS
 ]
 )
 ;

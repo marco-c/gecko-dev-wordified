@@ -864,7 +864,9 @@ name
 -
 moz
 -
-binding
+outline
+-
+radius
 "
 }
 ]
@@ -890,7 +892,9 @@ property
 -
 moz
 -
-binding
+outline
+-
+radius
 "
 url
 :
@@ -914,7 +918,9 @@ CSS
 -
 moz
 -
-binding
+outline
+-
+radius
 "
 deprecated
 :
@@ -925,7 +931,6 @@ false
 unsupportedBrowsers
 :
 [
-FIREFOX_69
 ]
 }
 ]
