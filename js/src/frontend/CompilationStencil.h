@@ -3812,9 +3812,6 @@ environment
 bool
 cachePrivateFieldsForEval
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3836,9 +3833,6 @@ parserAtoms
 bool
 cacheEnclosingScopeBindingForEval
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3853,9 +3847,6 @@ parserAtoms
 bool
 addToEnclosingLexicalBindingCache
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
