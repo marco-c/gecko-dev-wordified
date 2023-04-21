@@ -3819,11 +3819,6 @@ EnumTable
 *
 sEnumTableArray
 ;
-static
-MiscContainer
-*
-sMiscContainerCache
-;
 /
 *
 *
