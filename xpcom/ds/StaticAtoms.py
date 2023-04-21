@@ -2697,6 +2697,16 @@ clickcount
 Atom
 (
 "
+clickthrough
+"
+"
+clickthrough
+"
+)
+    
+Atom
+(
+"
 movetoclick
 "
 "
