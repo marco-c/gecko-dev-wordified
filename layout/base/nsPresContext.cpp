@@ -5076,10 +5076,10 @@ level
 ;
 if
 (
-StaticPrefs
-:
-:
-privacy_resistFingerprinting
+mDocument
+-
+>
+ShouldResistFingerprinting
 (
 )
 )
