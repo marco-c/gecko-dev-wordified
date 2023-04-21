@@ -389,6 +389,8 @@ op
 void
 writeShaderStorageBlocksHeader
 (
+GLenum
+shaderType
 TInfoSinkBase
 &
 out

@@ -157,7 +157,11 @@ TIntermBlock
 class
 TSymbolTable
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 EmulateGLDrawID
 (
@@ -186,7 +190,11 @@ bool
 shouldCollect
 )
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 EmulateGLBaseVertexBaseInstance
 (

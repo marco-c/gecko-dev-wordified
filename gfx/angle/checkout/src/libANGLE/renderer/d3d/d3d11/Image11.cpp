@@ -1346,7 +1346,7 @@ verifyAssociatedStorageValid
 (
 TextureStorage11
 *
-textureStorage
+textureStorageEXT
 )
 const
 {
@@ -1355,7 +1355,7 @@ ASSERT
 mAssociatedStorage
 =
 =
-textureStorage
+textureStorageEXT
 )
 ;
 }
@@ -3839,7 +3839,7 @@ mStagingTexture
 }
 mStagingTexture
 .
-setDebugName
+setInternalName
 (
 "
 Image11
@@ -4061,7 +4061,7 @@ mStagingTexture
 }
 mStagingTexture
 .
-setDebugName
+setInternalName
 (
 "
 Image11

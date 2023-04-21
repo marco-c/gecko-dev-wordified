@@ -483,7 +483,7 @@ verifyAssociatedStorageValid
 (
 TextureStorage11
 *
-textureStorage
+textureStorageEXT
 )
 const
 ;

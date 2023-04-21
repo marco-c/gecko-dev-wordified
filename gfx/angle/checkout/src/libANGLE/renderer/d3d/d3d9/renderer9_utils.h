@@ -98,7 +98,7 @@ include
 "
 platform
 /
-FeaturesD3D
+FeaturesD3D_autogen
 .
 h
 "

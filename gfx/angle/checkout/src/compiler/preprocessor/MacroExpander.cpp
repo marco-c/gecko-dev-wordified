@@ -223,6 +223,11 @@ mIter
 anonymous
 namespace
 class
+[
+[
+nodiscard
+]
+]
 MacroExpander
 :
 :

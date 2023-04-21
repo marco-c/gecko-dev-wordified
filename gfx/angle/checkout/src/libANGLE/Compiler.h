@@ -201,6 +201,16 @@ return
 mOutputType
 ;
 }
+static
+ShShaderSpec
+SelectShaderSpec
+(
+const
+State
+&
+state
+)
+;
 private
 :
 ~
@@ -310,6 +320,12 @@ getShaderType
 )
 const
 ;
+ShBuiltInResources
+getBuiltInResources
+(
+)
+const
+;
 const
 std
 :
@@ -319,6 +335,7 @@ string
 getBuiltinResourcesString
 (
 )
+const
 ;
 ShShaderOutput
 getShaderOutputType

@@ -293,7 +293,10 @@ context
 )
 override
 ;
-void
+angle
+:
+:
+Result
 setLabel
 (
 const
@@ -618,7 +621,7 @@ another
 target
 .
 bool
-buffersBoundForOtherUse
+buffersBoundForOtherUseInWebGL
 (
 )
 const

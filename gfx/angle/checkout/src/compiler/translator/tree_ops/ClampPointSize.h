@@ -85,7 +85,11 @@ TIntermBlock
 class
 TSymbolTable
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 ClampPointSize
 (
