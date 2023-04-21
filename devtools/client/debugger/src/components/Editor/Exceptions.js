@@ -246,12 +246,10 @@ exc
 lineNumber
 }
 }
-selectedSourceId
+selectedSource
 =
 {
 selectedSource
-.
-id
 }
 /
 >

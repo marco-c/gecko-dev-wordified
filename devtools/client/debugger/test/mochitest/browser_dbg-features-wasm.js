@@ -476,11 +476,7 @@ dbg
 createLocation
 (
 {
-sourceId
-:
 source
-.
-id
 }
 )
 {
@@ -1082,11 +1078,9 @@ dbg
 createLocation
 (
 {
-sourceId
+source
 :
 binarySource
-.
-id
 }
 )
 {
@@ -1192,11 +1186,9 @@ dbg
 createLocation
 (
 {
-sourceId
+source
 :
 binarySource
-.
-id
 }
 )
 {

@@ -218,6 +218,15 @@ line
 {
 return
 {
+source
+:
+{
+id
+:
+"
+foo
+"
+}
 sourceId
 :
 "

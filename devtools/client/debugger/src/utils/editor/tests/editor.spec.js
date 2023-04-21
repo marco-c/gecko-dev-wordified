@@ -1167,6 +1167,7 @@ test
 -
 123
 "
+source
 line
 :
 7
@@ -1174,6 +1175,9 @@ column
 :
 31
 sourceActorId
+:
+undefined
+sourceActor
 :
 null
 sourceUrl

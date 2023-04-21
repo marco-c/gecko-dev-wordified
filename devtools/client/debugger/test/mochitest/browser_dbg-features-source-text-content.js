@@ -3946,11 +3946,7 @@ dbg
 createLocation
 (
 {
-sourceId
-:
 source
-.
-id
 }
 )
 {

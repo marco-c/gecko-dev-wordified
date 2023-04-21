@@ -678,11 +678,9 @@ createLocation
 .
 .
 location
-sourceId
+source
 :
 prettySource
-.
-id
 }
 )
 )

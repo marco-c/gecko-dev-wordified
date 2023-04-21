@@ -162,7 +162,7 @@ PropTypes
 object
 .
 isRequired
-selectedSourceId
+selectedSource
 :
 PropTypes
 .
@@ -318,7 +318,7 @@ const
 {
 exception
 doc
-selectedSourceId
+selectedSource
 }
 =
 this
@@ -338,7 +338,9 @@ if
 !
 hasDocument
 (
-selectedSourceId
+selectedSource
+.
+id
 )
 )
 {
@@ -359,9 +361,9 @@ columnNumber
 line
 :
 lineNumber
-sourceId
+source
 :
-selectedSourceId
+selectedSource
 }
 )
 ;
@@ -410,7 +412,7 @@ markText
 {
 const
 {
-selectedSourceId
+selectedSource
 }
 =
 this
@@ -429,7 +431,9 @@ if
 (
 hasDocument
 (
-selectedSourceId
+selectedSource
+.
+id
 )
 )
 {

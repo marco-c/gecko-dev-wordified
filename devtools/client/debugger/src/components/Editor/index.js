@@ -2365,7 +2365,9 @@ line
 column
 :
 undefined
-sourceId
+source
+:
+selectedSource
 }
 )
 ;

@@ -1157,11 +1157,7 @@ cx
 createLocation
 (
 {
-sourceId
-:
 source
-.
-id
 line
 }
 )
@@ -1623,11 +1619,7 @@ location
 createLocation
 (
 {
-sourceId
-:
 source
-.
-id
 line
 }
 )

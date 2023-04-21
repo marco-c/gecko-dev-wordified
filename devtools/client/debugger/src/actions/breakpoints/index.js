@@ -1266,11 +1266,9 @@ cx
 createLocation
 (
 {
-sourceId
+source
 :
 selectedSource
-.
-id
 sourceUrl
 :
 selectedSource
@@ -1340,11 +1338,7 @@ breakpointLocation
 createLocation
 (
 {
-sourceId
-:
 source
-.
-id
 sourceUrl
 :
 source
