@@ -94603,6 +94603,9 @@ other_values
 all
 "
 "
+auto
+"
+"
 ball
 "
 "
@@ -94657,9 +94660,6 @@ bounce
 invalid_values
 :
 [
-"
-auto
-"
 "
 bounce
 abc
@@ -94801,6 +94801,10 @@ other_values
 :
 [
 "
+auto
+inline
+"
+"
 bounce
 inline
 "
@@ -94888,6 +94892,9 @@ other_values
 all
 "
 "
+auto
+"
+"
 ball
 "
 "
@@ -94950,9 +94957,6 @@ none
 invalid_values
 :
 [
-"
-auto
-"
 "
 abc
 bounce
@@ -95173,6 +95177,10 @@ none
 other_values
 :
 [
+"
+auto
+inline
+"
 "
 bounce
 inline
