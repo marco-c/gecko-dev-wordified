@@ -364,7 +364,7 @@ sphinx_markdown_tables
 "
     
 "
-sphinx_panels
+sphinx_design
 "
     
 "
@@ -859,6 +859,27 @@ pygments_style
 sphinx
 "
 #
+generate
+label
+slugs
+for
+header
+anchors
+so
+that
+#
+we
+can
+reference
+them
+from
+markdown
+links
+.
+myst_heading_anchors
+=
+5
+#
 We
 need
 to
@@ -1115,7 +1136,7 @@ autosectionlabel_maxdepth
 =
 1
 def
-install_sphinx_panels
+install_sphinx_design
 (
 app
 pagename
@@ -1138,7 +1159,7 @@ app
 add_js_file
 (
 "
-sphinx_panels
+sphinx_design
 .
 js
 "
@@ -1149,7 +1170,7 @@ app
 add_css_file
 (
 "
-sphinx_panels
+sphinx_design
 .
 css
 "
@@ -1183,5 +1204,5 @@ page
 -
 context
 "
-install_sphinx_panels
+install_sphinx_design
 )

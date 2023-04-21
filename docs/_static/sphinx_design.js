@@ -70,6 +70,8 @@ var
 dropdownClassName
 =
 "
+sd
+-
 dropdown
 "
 ;
@@ -309,6 +311,8 @@ i
 getElementsByClassName
 (
 "
+sd
+-
 summary
 -
 title
