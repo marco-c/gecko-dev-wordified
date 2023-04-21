@@ -546,6 +546,8 @@ AbstractRange
 nsINode
 *
 aNode
+bool
+aIsDynamicRange
 )
 :
 mIsPositioned
@@ -559,6 +561,10 @@ false
 mCalledByJS
 (
 false
+)
+mIsDynamicRange
+(
+aIsDynamicRange
 )
 {
 Init
