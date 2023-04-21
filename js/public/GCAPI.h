@@ -6715,6 +6715,7 @@ AutoCheckCannotGC
 endif
 }
 JS_HAZ_GC_INVALIDATED
+JS_HAZ_GC_REF
 ;
 extern
 JS_PUBLIC_API

@@ -607,6 +607,10 @@ run_analysis_script
 (
 self
 startPhase
+=
+"
+gcTypes
+"
 upto
 =
 None
