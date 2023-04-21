@@ -11550,6 +11550,10 @@ AliasSet
 :
 :
 WasmGlobalCell
+WasmPreBarrierKind
+:
+:
+Normal
 )
 ;
 curBlock_
@@ -11763,6 +11767,10 @@ AliasSet
 :
 :
 WasmGlobalVar
+WasmPreBarrierKind
+:
+:
+Normal
 )
 ;
 curBlock_
@@ -12277,6 +12285,10 @@ AliasSet
 :
 :
 WasmTableElement
+WasmPreBarrierKind
+:
+:
+Normal
 )
 ;
 curBlock_
@@ -15539,6 +15551,10 @@ AliasSet
 :
 :
 WasmStackResult
+WasmPreBarrierKind
+:
+:
+None
 )
 ;
 curBlock_
@@ -18598,6 +18614,10 @@ AliasSet
 :
 :
 WasmPendingException
+WasmPreBarrierKind
+:
+:
+Normal
 )
 ;
 curBlock_
@@ -18692,6 +18712,10 @@ AliasSet
 :
 :
 WasmPendingException
+WasmPreBarrierKind
+:
+:
+Normal
 )
 ;
 curBlock_
@@ -21646,6 +21670,10 @@ AliasSet
 :
 Any
 )
+WasmPreBarrierKind
+:
+:
+None
 )
 ;
 if
@@ -23451,6 +23479,8 @@ uint32_t
 offset
 bool
 needsTrapInfo
+WasmPreBarrierKind
+preBarrierKind
 )
 {
 MOZ_ASSERT
@@ -23785,6 +23815,7 @@ Store
 (
 aliasBitset
 )
+preBarrierKind
 )
 ;
 if
@@ -23938,6 +23969,8 @@ scale
 MDefinition
 *
 index
+WasmPreBarrierKind
+preBarrierKind
 )
 {
 MOZ_ASSERT
@@ -24123,6 +24156,7 @@ needsTrapInfo
 *
 /
 false
+preBarrierKind
 )
 ;
 }
@@ -24969,6 +25003,8 @@ structObject
 MDefinition
 *
 value
+WasmPreBarrierKind
+preBarrierKind
 )
 {
 FieldType
@@ -25229,6 +25265,7 @@ value
 base
 areaOffset
 needsTrapInfo
+preBarrierKind
 )
 ;
 }
@@ -27851,6 +27888,10 @@ needsTrapInfo
 *
 /
 false
+WasmPreBarrierKind
+:
+:
+None
 )
 )
 {
@@ -42414,6 +42455,10 @@ args
 [
 fieldIndex
 ]
+WasmPreBarrierKind
+:
+:
+None
 )
 )
 {
@@ -42716,6 +42761,10 @@ lineOrBytecode
 field
 structObject
 value
+WasmPreBarrierKind
+:
+:
+Normal
 )
 ;
 }
@@ -43514,6 +43563,10 @@ i
 *
 elemSize
 false
+WasmPreBarrierKind
+:
+:
+None
 )
 )
 {
@@ -44211,6 +44264,10 @@ value
 base
 elemSize
 index
+WasmPreBarrierKind
+:
+:
+Normal
 )
 ;
 }
