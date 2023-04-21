@@ -324,7 +324,7 @@ aOffset
 )
 ;
 uint32_t
-HashHeadTables
+HashHeadAndCmapTables
 (
 )
 ;
