@@ -25788,7 +25788,9 @@ will
 be
 removed
 after
-QA
+enabling
+on
+Release
 )
 .
 /
@@ -25850,14 +25852,6 @@ of
 the
 feature
 .
-/
-/
-will
-be
-enabled
-after
-QA
-round
 pref
 (
 "
@@ -25868,7 +25862,6 @@ firefoxRelay
 feature
 "
 "
-not
 available
 "
 )
