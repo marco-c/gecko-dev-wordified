@@ -23373,7 +23373,7 @@ Object
 static
 constexpr
 uint32_t
-SuperTypeDef
+SuperSuperTypeVector
 =
 1
 ;
@@ -23392,7 +23392,7 @@ object
 const
 LAllocation
 &
-superTypeDef
+superSuperTypeVector
 uint32_t
 subTypingDepth
 bool
@@ -23440,8 +23440,8 @@ object
 ;
 setOperand
 (
-SuperTypeDef
-superTypeDef
+SuperSuperTypeVector
+superSuperTypeVector
 )
 ;
 setTemp
@@ -23522,14 +23522,14 @@ Object
 const
 LAllocation
 *
-superTypeDef
+superSuperTypeVector
 (
 )
 {
 return
 getOperand
 (
-SuperTypeDef
+SuperSuperTypeVector
 )
 ;
 }

@@ -14452,14 +14452,14 @@ a
 pointer
 to
 the
-TypeDef
+SuperTypeVector
 for
 a
 given
 type
 index
 RegPtr
-loadTypeDef
+loadSuperTypeVector
 (
 uint32_t
 typeIndex
