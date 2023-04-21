@@ -4625,6 +4625,9 @@ request
 import
 urlopen
         
+import
+certifi
+        
 if
 not
 cinnabar_dir
@@ -4685,8 +4688,10 @@ shutil
 .
 copyfileobj
 (
+                
 urlopen
 (
+                    
 f
 "
 {
@@ -4701,8 +4706,18 @@ download
 .
 py
 "
+cafile
+=
+certifi
+.
+where
+(
 )
+                
+)
+                
 fh
+            
 )
         
 try

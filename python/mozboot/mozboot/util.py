@@ -67,6 +67,8 @@ urllib
 request
 import
 urlopen
+import
+certifi
 from
 mach
 .
@@ -265,6 +267,13 @@ f
 urlopen
 (
 url
+cafile
+=
+certifi
+.
+where
+(
+)
 )
     
 h
