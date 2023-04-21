@@ -222,7 +222,7 @@ kSyncWeaveDisabled
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -235,7 +235,9 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
 )
 ;
