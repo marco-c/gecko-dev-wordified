@@ -834,7 +834,10 @@ mQueryStatusRecorded
 true
 ;
 return
-NS_ERROR_FAILURE
+convertResultCode
+(
+srv
+)
 ;
 }
 MOZ_LOG
