@@ -7804,7 +7804,7 @@ gl
 GLContextEGL
 :
 :
-CreateEGLPBufferOffscreenContext
+CreateWithoutSurface
 (
 egl
 {
