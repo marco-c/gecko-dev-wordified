@@ -125,7 +125,9 @@ EXTRA_JS_MODULES
 "
 InstallerPrefs
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
