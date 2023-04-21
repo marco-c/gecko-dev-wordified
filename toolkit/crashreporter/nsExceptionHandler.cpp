@@ -22159,6 +22159,8 @@ true
 bool
 UnsetRemoteExceptionHandler
 (
+bool
+wasSet
 )
 {
 /
@@ -22221,6 +22223,11 @@ defined
 (
 MOZ_SANDBOX
 )
+if
+(
+wasSet
+)
+{
 std
 :
 :
@@ -22236,6 +22243,7 @@ gExceptionHandler
 =
 nullptr
 ;
+}
 #
 endif
 TeardownAnnotationFacilities

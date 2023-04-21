@@ -1142,6 +1142,8 @@ false
 bool
 UnsetRemoteExceptionHandler
 (
+bool
+wasSet
 )
 {
 return
