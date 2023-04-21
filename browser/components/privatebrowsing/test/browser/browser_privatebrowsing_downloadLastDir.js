@@ -123,7 +123,7 @@ DownloadLastDir
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -136,7 +136,9 @@ modules
 /
 DownloadLastDir
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
