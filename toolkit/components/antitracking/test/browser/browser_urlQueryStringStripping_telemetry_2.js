@@ -1,15 +1,3 @@
-/
-*
-import
--
-globals
--
-from
-head
-.
-js
-*
-/
 "
 use
 strict

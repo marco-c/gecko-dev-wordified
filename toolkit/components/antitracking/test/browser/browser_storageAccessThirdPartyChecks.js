@@ -1,15 +1,3 @@
-/
-*
-import
--
-globals
--
-from
-antitracking_head
-.
-js
-*
-/
 const
 APS_PREF
 =

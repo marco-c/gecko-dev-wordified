@@ -1,15 +1,3 @@
-/
-*
-import
--
-globals
--
-from
-partitionedstorage_head
-.
-js
-*
-/
 PartitionedStorageHelper
 .
 runTest
