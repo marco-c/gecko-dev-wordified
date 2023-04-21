@@ -3796,6 +3796,15 @@ this
 )
 ;
 }
+get
+isProxyContextParent
+(
+)
+{
+return
+true
+;
+}
 trackRunListenerPromise
 (
 runListenerPromise
