@@ -21557,12 +21557,8 @@ if
 node
 -
 >
-IsNodeOfType
+IsHTMLFormControlElement
 (
-nsINode
-:
-:
-eHTML_FORM_CONTROL
 )
 )
 {

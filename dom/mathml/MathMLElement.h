@@ -413,7 +413,6 @@ aResult
 const
 override
 ;
-virtual
 mozilla
 :
 :
@@ -423,16 +422,6 @@ dom
 ElementState
 IntrinsicState
 (
-)
-const
-override
-;
-virtual
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
 )
 const
 override

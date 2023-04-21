@@ -4096,15 +4096,6 @@ false
 /
 /
 nsINode
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-final
-;
 void
 InsertChildBefore
 (

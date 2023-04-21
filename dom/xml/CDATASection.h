@@ -263,17 +263,6 @@ Text
 /
 /
 nsINode
-virtual
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
-virtual
 already_AddRefed
 <
 CharacterData
@@ -298,7 +287,6 @@ override
 #
 ifdef
 MOZ_DOM_LIST
-virtual
 void
 List
 (
@@ -311,7 +299,6 @@ aIndent
 const
 override
 ;
-virtual
 void
 DumpContent
 (
@@ -330,7 +317,6 @@ override
 endif
 protected
 :
-virtual
 JSObject
 *
 WrapNode

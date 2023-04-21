@@ -278,17 +278,6 @@ CharacterData
 /
 /
 nsINode
-virtual
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
-virtual
 void
 GetNodeValueInternal
 (
@@ -304,7 +293,6 @@ aNodeValue
 )
 ;
 }
-virtual
 void
 SetNodeValueInternal
 (

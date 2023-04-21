@@ -387,16 +387,6 @@ aGivenProto
 )
 override
 ;
-virtual
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
 nsresult
 BindToTree
 (
@@ -452,7 +442,6 @@ tree
 )
 ;
 }
-virtual
 Element
 *
 GetNameSpaceElement

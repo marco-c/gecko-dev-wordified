@@ -3886,12 +3886,8 @@ return
 aElement
 -
 >
-IsNodeOfType
+IsHTMLFormControlElement
 (
-nsIContent
-:
-:
-eHTML_FORM_CONTROL
 )
 ;
 }

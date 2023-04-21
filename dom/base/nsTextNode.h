@@ -294,17 +294,6 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsINode
-virtual
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
-virtual
 already_AddRefed
 <
 CharacterData
@@ -326,7 +315,6 @@ aCloneText
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -338,7 +326,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
