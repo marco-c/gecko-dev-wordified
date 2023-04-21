@@ -382,7 +382,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -394,7 +394,9 @@ actors
 /
 WebRTCChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
