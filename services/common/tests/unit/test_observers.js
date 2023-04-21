@@ -35,7 +35,7 @@ Observers
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +48,9 @@ common
 /
 observers
 .
-js
+sys
+.
+mjs
 "
 )
 ;

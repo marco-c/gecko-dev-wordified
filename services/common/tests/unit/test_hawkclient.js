@@ -39,7 +39,7 @@ HawkClient
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ common
 /
 hawkclient
 .
-js
+sys
+.
+mjs
 "
 )
 ;

@@ -105,7 +105,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -118,7 +118,9 @@ common
 /
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -4041,7 +4043,7 @@ FirefoxAdapter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -4058,7 +4060,9 @@ storage
 -
 adapter
 .
-js
+sys
+.
+mjs
 "
 )
 ;

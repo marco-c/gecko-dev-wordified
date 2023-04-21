@@ -271,7 +271,7 @@ initTestLogging
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -288,7 +288,9 @@ common
 /
 logging
 .
-js
+sys
+.
+mjs
 "
 )
 ;

@@ -101,7 +101,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -114,7 +114,9 @@ common
 /
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -174,7 +176,7 @@ initTestLogging
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -191,7 +193,9 @@ common
 /
 logging
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -1441,7 +1445,7 @@ UptakeTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1456,7 +1460,9 @@ uptake
 -
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -1546,7 +1552,7 @@ Policy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1561,7 +1567,9 @@ uptake
 -
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;

@@ -214,7 +214,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -227,7 +227,9 @@ common
 /
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;

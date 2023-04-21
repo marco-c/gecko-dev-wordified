@@ -109,7 +109,7 @@ RESTRequest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -122,7 +122,9 @@ common
 /
 rest
 .
-js
+sys
+.
+mjs
 "
 )
 ;
