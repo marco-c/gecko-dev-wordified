@@ -1114,7 +1114,7 @@ video_quality_analyzer
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 metrics_logger
 )

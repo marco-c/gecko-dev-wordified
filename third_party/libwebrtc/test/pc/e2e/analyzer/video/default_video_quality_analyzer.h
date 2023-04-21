@@ -160,7 +160,7 @@ test
 /
 metrics
 /
-metrics_logger_and_exporter
+metrics_logger
 .
 h
 "
@@ -447,7 +447,7 @@ clock
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 metrics_logger
 DefaultVideoQualityAnalyzerOptions
@@ -1193,7 +1193,7 @@ clock_
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 const
 metrics_logger_
