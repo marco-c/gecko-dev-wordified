@@ -7822,9 +7822,6 @@ anyways
 /
 /
 Button
-and
-table
-cell
 frames
 are
 also
@@ -7834,10 +7831,10 @@ the
 containing
 block
 is
-/
-/
 the
 frame
+/
+/
 itself
 .
 if
@@ -7854,14 +7851,6 @@ aFrame
 -
 >
 IsHTMLButtonControlFrame
-(
-)
-|
-|
-aFrame
--
->
-IsTableCellFrame
 (
 )
 )
