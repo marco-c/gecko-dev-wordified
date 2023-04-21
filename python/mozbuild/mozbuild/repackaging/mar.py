@@ -72,6 +72,8 @@ pathlib
 import
 Path
 import
+mozfile
+import
 mozpack
 .
 path
@@ -267,34 +269,14 @@ package
 )
 :
             
-z
-=
-tarfile
-.
-open
-(
-package
-)
-            
-z
-.
-extractall
-(
-tmpdir
-)
-            
 filelist
 =
-z
+mozfile
 .
-getnames
+extract_tarball
 (
-)
-            
-z
-.
-close
-(
+package
+tmpdir
 )
         
 else

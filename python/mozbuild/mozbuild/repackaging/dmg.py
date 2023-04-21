@@ -221,23 +221,11 @@ Path
 tmp
 )
         
-with
-tarfile
+mozfile
 .
-open
+extract_tarball
 (
 infile
-)
-as
-tar
-:
-            
-tar
-.
-extractall
-(
-path
-=
 tmpdir
 )
         
