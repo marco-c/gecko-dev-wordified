@@ -1940,6 +1940,9 @@ false
 low_quality_pinch_zoom
 :
 false
+uses_native_antialiasing
+:
+false
 }
 }
 }
