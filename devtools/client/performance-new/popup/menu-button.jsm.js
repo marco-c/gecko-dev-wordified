@@ -224,7 +224,7 @@ CustomizableWidgets
 jsm
 "
 )
-PopupPanel
+PopupLogic
 :
 (
 )
@@ -249,7 +249,7 @@ new
 /
 popup
 /
-panel
+logic
 .
 jsm
 .
@@ -804,7 +804,7 @@ new
 /
 popup
 /
-panel
+logic
 .
 jsm
 .
@@ -1189,7 +1189,7 @@ initializePopup
 =
 lazy
 .
-PopupPanel
+PopupLogic
 (
 )
 ;
