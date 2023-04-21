@@ -380,7 +380,7 @@ y
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 +
@@ -407,7 +407,7 @@ y
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 +
@@ -893,7 +893,7 @@ y
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 +
@@ -1171,9 +1171,13 @@ dx
 >
 16
 ;
-int
+ptrdiff_t
 row_stride
 =
+(
+ptrdiff_t
+)
+(
 (
 dy
 >
@@ -1182,9 +1186,10 @@ dy
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
+)
 ;
 void
 (
@@ -1252,7 +1257,7 @@ y
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 +
@@ -2149,7 +2154,7 @@ src_argb
 yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 ;
@@ -2910,7 +2915,7 @@ src_argb
 yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 ;
@@ -3062,7 +3067,7 @@ src_argb
 yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 ;
@@ -4147,7 +4152,7 @@ src_y
 yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride_y
 ;
@@ -4161,7 +4166,7 @@ src_u
 uv_yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride_u
 ;
@@ -4175,7 +4180,7 @@ src_v
 uv_yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride_v
 ;
@@ -4408,7 +4413,7 @@ src_y
 yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride_y
 ;
@@ -4419,7 +4424,7 @@ src_u
 uv_yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride_u
 ;
@@ -4430,7 +4435,7 @@ src_v
 uv_yi
 *
 (
-int64_t
+intptr_t
 )
 src_stride_v
 ;
@@ -4917,7 +4922,7 @@ y
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 dst_width
@@ -5103,7 +5108,7 @@ src_height
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 ;
@@ -5220,7 +5225,7 @@ clipf
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 ;
@@ -5478,7 +5483,7 @@ y
 )
 *
 (
-int64_t
+intptr_t
 )
 src_stride
 +
