@@ -1772,7 +1772,7 @@ Bradford
 transformation
 "
 :
-constexpr
+const
 auto
 M_BFD
 =
