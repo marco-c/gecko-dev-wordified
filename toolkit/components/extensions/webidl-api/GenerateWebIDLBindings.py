@@ -4556,7 +4556,7 @@ api_path_string
         
 return
 "
-void
+undefined
 "
     
 classmethod
@@ -4620,7 +4620,7 @@ e
 .
 g
 .
-void
+undefined
 myMethod
 (
 any
