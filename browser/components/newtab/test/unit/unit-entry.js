@@ -3082,6 +3082,15 @@ record
 {
 }
 }
+rows
+:
+{
+set
+(
+)
+{
+}
+}
 }
 }
 GleanPings
