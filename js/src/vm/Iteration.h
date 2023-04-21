@@ -1665,8 +1665,6 @@ HandleIdVector
 props
 uint32_t
 numShapes
-HashNumber
-shapesHash
 bool
 *
 hadError
