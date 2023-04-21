@@ -1388,6 +1388,15 @@ Resources
 .
 TYPES
 .
+EXTENSION_STORAGE
+]
+:
+true
+[
+Resources
+.
+TYPES
+.
 INDEXED_DB
 ]
 :

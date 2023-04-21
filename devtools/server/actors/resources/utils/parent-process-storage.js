@@ -2805,6 +2805,15 @@ type
 "
 all
 "
+addonId
+:
+this
+.
+watcherActor
+.
+sessionContext
+.
+addonId
 }
 ;
 }
