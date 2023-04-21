@@ -1333,6 +1333,12 @@ NODE_FLAG_BIT
 (
 17
 )
+NODE_MAY_HAVE_ELEMENT_CHILDREN
+=
+NODE_FLAG_BIT
+(
+18
+)
 /
 /
 Remaining
@@ -1344,7 +1350,7 @@ specific
 .
 NODE_TYPE_SPECIFIC_BITS_OFFSET
 =
-18
+19
 }
 ;
 /
