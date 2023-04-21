@@ -578,7 +578,14 @@ Promise
 Closed
 (
 )
+{
+return
+do_AddRef
+(
+mClosed
+)
 ;
+}
 MOZ_CAN_RUN_SCRIPT
 void
 Close
@@ -596,8 +603,11 @@ already_AddRefed
 <
 WebTransportDatagramDuplexStream
 >
-Datagrams
+GetDatagrams
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
