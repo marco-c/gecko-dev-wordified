@@ -1124,7 +1124,13 @@ image
 .
 nsCOMPtr
 <
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
 mDragPopup
 ;

@@ -5821,6 +5821,11 @@ IsMenuPopupFrame
 mDragPopup
 =
 content
+-
+>
+AsElement
+(
+)
 ;
 }
 }
