@@ -565,6 +565,7 @@ receiver
 system
 time
 .
+virtual
 void
 IncomingTimestamp
 (
