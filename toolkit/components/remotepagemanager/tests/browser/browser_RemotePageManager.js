@@ -67,7 +67,7 @@ RemotePageManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -82,7 +82,9 @@ remotepagemanager
 /
 RemotePageManagerParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
