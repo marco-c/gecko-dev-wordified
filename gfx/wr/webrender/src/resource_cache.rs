@@ -592,6 +592,12 @@ picture_textures
 :
 PictureTextures
 ;
+use
+peek_poke
+:
+:
+PeekPoke
+;
 /
 /
 Counter
@@ -1413,6 +1419,8 @@ Debug
 Copy
 Clone
 PartialEq
+PeekPoke
+Default
 )
 ]
 pub

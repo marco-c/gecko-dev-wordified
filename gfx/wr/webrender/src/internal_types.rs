@@ -261,6 +261,12 @@ UNIX_EPOCH
 SystemTime
 }
 ;
+use
+peek_poke
+:
+:
+PeekPoke
+;
 #
 [
 cfg
@@ -376,6 +382,7 @@ PartialOrd
 Debug
 Eq
 Ord
+PeekPoke
 )
 ]
 #
