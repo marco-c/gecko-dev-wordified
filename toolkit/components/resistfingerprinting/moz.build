@@ -170,6 +170,8 @@ EXTRA_JS_MODULES
 "
 RFPHelper
 .
-jsm
+sys
+.
+mjs
 "
 ]
