@@ -69411,7 +69411,7 @@ the
 |
 this
 |
-class
+shape
 to
 make
 sure
@@ -69424,7 +69424,7 @@ instance
 .
 writer
 .
-guardAnyClass
+guardShape
 (
 thisObjId
 thisval_
@@ -69433,7 +69433,7 @@ toObject
 (
 )
 .
-getClass
+shape
 (
 )
 )
