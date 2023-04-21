@@ -18568,12 +18568,6 @@ settings
 }
 if
 (
-!
-HonorPrintBackgroundSettings
-(
-)
-|
-|
 StyleVisibility
 (
 )

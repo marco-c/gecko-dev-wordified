@@ -30232,17 +30232,6 @@ IsStackingContext
 (
 )
 ;
-virtual
-bool
-HonorPrintBackgroundSettings
-(
-)
-const
-{
-return
-true
-;
-}
 /
 /
 Whether
