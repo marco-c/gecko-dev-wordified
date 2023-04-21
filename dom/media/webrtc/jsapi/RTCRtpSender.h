@@ -1164,11 +1164,6 @@ mHaveWarnedBecauseEncodingCountChange
 false
 ;
 bool
-mHaveWarnedBecauseRidChange
-=
-false
-;
-bool
 mHaveWarnedBecauseNoTransactionId
 =
 false
