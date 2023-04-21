@@ -490,13 +490,6 @@ OnDataAvailable
 =
 0
 ;
-virtual
-void
-OnReportPerformanceTiming
-(
-)
-{
-}
 protected
 :
 virtual
