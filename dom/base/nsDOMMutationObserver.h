@@ -2308,7 +2308,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -2361,6 +2360,7 @@ bool
 IsChrome
 (
 )
+const
 {
 return
 mIsChrome
@@ -3025,6 +3025,7 @@ mCallback
 bool
 mWaitingForRun
 ;
+const
 bool
 mIsChrome
 ;
