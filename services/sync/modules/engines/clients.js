@@ -1590,6 +1590,7 @@ fxAccounts
 device
 .
 recentDeviceList
+?
 .
 find
 (
