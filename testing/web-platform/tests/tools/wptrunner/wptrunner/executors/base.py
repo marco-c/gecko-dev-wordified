@@ -4864,6 +4864,14 @@ self
 capabilities
                           
 "
+timeout_multiplier
+"
+:
+self
+.
+timeout_multiplier
+                          
+"
 webdriver
 "
 :
