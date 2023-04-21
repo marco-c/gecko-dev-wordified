@@ -4523,7 +4523,7 @@ Register
 reg
 )
 {
-Negs
+Neg
 (
 ARMRegister
 (
@@ -4569,7 +4569,7 @@ Register
 reg
 )
 {
-Negs
+Neg
 (
 ARMRegister
 (
@@ -11141,7 +11141,7 @@ cond
 Overflow
 )
 ;
-neg32
+negs32
 (
 reg
 )
