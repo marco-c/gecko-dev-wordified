@@ -165,6 +165,9 @@ false
 RPMIsSiteSpecificTRRError
 :
 false
+RPMSetTRRDisabledLoadFlags
+:
+false
 }
 }
 ;
