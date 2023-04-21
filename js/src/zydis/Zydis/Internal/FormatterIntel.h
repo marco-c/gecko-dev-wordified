@@ -1865,12 +1865,6 @@ hex_uppercase
 ZYAN_TRUE
 /
 *
-hex_force_leading_number
-*
-/
-ZYAN_FALSE
-/
-*
 number_format
 *
 /
@@ -2548,12 +2542,6 @@ ZYDIS_LETTER_CASE_DEFAULT
 /
 *
 hex_uppercase
-*
-/
-ZYAN_TRUE
-/
-*
-hex_force_leading_number
 *
 /
 ZYAN_TRUE

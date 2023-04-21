@@ -2058,12 +2058,6 @@ hex_uppercase
 ZYAN_TRUE
 /
 *
-hex_force_leading_number
-*
-/
-ZYAN_FALSE
-/
-*
 number_format
 *
 /
