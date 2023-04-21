@@ -1539,12 +1539,13 @@ disable_fission
 )
 or
                                      
+not
 get_bool_pref
 (
 "
 fission
 .
-sessionHistoryInParent
+disableSessionHistoryInParent
 "
 )
 )
