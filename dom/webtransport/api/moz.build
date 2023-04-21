@@ -154,6 +154,16 @@ WebTransportError
 cpp
 "
 "
+WebTransportReceiveStream
+.
+cpp
+"
+"
+WebTransportSendStream
+.
+cpp
+"
+"
 WebTransportStreams
 .
 cpp
