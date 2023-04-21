@@ -371,6 +371,17 @@ int
 conversion
 "
 ]
+CXXFLAGS
++
+=
+[
+"
+-
+Werror
+=
+switch
+"
+]
 include
 (
 "
