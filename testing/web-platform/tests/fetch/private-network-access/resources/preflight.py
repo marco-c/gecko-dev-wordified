@@ -1392,15 +1392,7 @@ return
 no
 preflight
 received
-for
-{
-}
 "
-.
-format
-(
-uuid
-)
 )
       
 request
