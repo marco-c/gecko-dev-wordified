@@ -409,6 +409,13 @@ GetTextureHostType
 )
 override
 ;
+bool
+NeedsDeferredDeletion
+(
+)
+const
+override
+;
 protected
 :
 GPUVideoTextureHost
