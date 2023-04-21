@@ -2373,6 +2373,9 @@ exec
 /
 /
 Java
+#
+ifndef
+MOZ_ESR
 /
 /
 "
@@ -2383,6 +2386,8 @@ exec
 /
 /
 Java
+#
+endif
 /
 /
 "

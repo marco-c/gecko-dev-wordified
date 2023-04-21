@@ -62,6 +62,12 @@ h
 "
 /
 /
+clang
+-
+format
+off
+/
+/
 PLEASE
 read
 the
@@ -986,6 +992,9 @@ jar
 /
 /
 Java
+#
+ifndef
+MOZ_ESR
 "
 .
 jnlp
@@ -993,6 +1002,8 @@ jnlp
 /
 /
 Java
+#
+endif
 "
 .
 js
@@ -2513,6 +2524,12 @@ zipx
 WinZip
 }
 ;
+/
+/
+clang
+-
+format
+on
 #
 define
 CheckListSorted
