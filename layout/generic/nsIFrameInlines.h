@@ -134,6 +134,15 @@ h
 #
 include
 "
+mozilla
+/
+ComputedStyleInlines
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -149,13 +158,6 @@ h
 include
 "
 nsPlaceholderFrame
-.
-h
-"
-#
-include
-"
-nsStyleStructInlines
 .
 h
 "
@@ -415,7 +417,7 @@ IsAbsPosContainingBlock
 const
 {
 return
-StyleDisplay
+Style
 (
 )
 -
@@ -436,7 +438,7 @@ IsFixedPosContainingBlock
 const
 {
 return
-StyleDisplay
+Style
 (
 )
 -
