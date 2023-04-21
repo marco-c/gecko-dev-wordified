@@ -260,6 +260,11 @@ MFContentProtectionManager
 .
 h
 "
+"
+MFPMPHostWrapper
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -277,6 +282,11 @@ cpp
 "
 "
 MFContentProtectionManager
+.
+cpp
+"
+"
+MFPMPHostWrapper
 .
 cpp
 "
