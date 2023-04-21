@@ -4207,6 +4207,7 @@ CreateTunnelStream
 httpTransaction
 mCallbacks
 mRtt
+aIsWebSocket
 )
 ;
 /

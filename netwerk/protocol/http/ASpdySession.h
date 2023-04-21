@@ -589,6 +589,10 @@ nsIInterfaceRequestor
 aCallbacks
 PRIntervalTime
 aRtt
+bool
+aIsWebSocket
+=
+false
 )
 =
 0

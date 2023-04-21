@@ -1660,7 +1660,7 @@ let
 wss
 =
 new
-NodeWebSocketServer
+NodeWebSocketHttp2Server
 (
 )
 ;
