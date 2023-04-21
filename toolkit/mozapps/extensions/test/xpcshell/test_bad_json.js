@@ -154,8 +154,13 @@ with
 something
 bogus
 await
-saveJSON
+IOUtils
+.
+writeJSON
 (
+gExtensionsJSON
+.
+path
 {
 not
 :
@@ -167,9 +172,6 @@ to
 find
 "
 }
-gExtensionsJSON
-.
-path
 )
 ;
 await
@@ -231,7 +233,9 @@ let
 data
 =
 await
-loadJSON
+IOUtils
+.
+readJSON
 (
 gExtensionsJSON
 .

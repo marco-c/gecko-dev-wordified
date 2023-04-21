@@ -288,9 +288,7 @@ ID
 let
 xpiPath
 =
-OS
-.
-Path
+PathUtils
 .
 join
 (

@@ -3285,9 +3285,7 @@ uninstall
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
@@ -3439,9 +3437,7 @@ installed
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
