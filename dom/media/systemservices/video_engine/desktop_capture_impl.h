@@ -1298,8 +1298,11 @@ frame
 mCaptureThread
 only
 .
-int64_t
-mLastFrameTimeMs
+webrtc
+:
+:
+Timestamp
+mNextFrameMinimumTime
 ;
 /
 /
