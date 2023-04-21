@@ -416,9 +416,6 @@ Element
 >
 mGlyphIdMap
 ;
-nsCString
-mSVGGlyphsDocumentURI
-;
 }
 ;
 /
