@@ -636,16 +636,6 @@ LinkCount
 ;
 RemoteAccessible
 *
-LinkAt
-(
-const
-uint32_t
-&
-aIndex
-)
-;
-RemoteAccessible
-*
 TableOfACell
 (
 )
