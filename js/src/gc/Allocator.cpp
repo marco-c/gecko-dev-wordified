@@ -2396,7 +2396,7 @@ gc
 detail
 :
 :
-AllocateTenuredImpl
+AllocateTenuredCell
 (
 JSContext
 *
@@ -2521,7 +2521,7 @@ gc
 detail
 :
 :
-AllocateTenuredImpl
+AllocateTenuredCell
 <
 NoGC
 >
@@ -2541,7 +2541,7 @@ gc
 detail
 :
 :
-AllocateTenuredImpl
+AllocateTenuredCell
 <
 CanGC
 >
