@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+Atomics
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1437,7 +1446,10 @@ CLose
 has
 been
 called
+Atomic
+<
 bool
+>
 mIsClosed
 ;
 nsCOMPtr
