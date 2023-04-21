@@ -137,9 +137,6 @@ namespace
 mozilla
 {
 class
-IndiceWrapper
-;
-class
 MP4Demuxer
 ;
 struct
@@ -320,15 +317,11 @@ Update
 const
 Mp4parseTrackInfo
 *
-aTrack
+track
 const
 Mp4parseTrackAudioInfo
 *
-aAudio
-const
-IndiceWrapper
-*
-aIndices
+audio
 )
 ;
 virtual
