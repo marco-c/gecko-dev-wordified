@@ -1897,9 +1897,9 @@ kind
 +
 kind
 ;
-Cu
+console
 .
-reportError
+error
 (
 err
 )

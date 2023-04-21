@@ -776,9 +776,9 @@ have
 a
 presShell
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 Unable
@@ -2114,9 +2114,9 @@ have
 a
 presShell
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 Unable

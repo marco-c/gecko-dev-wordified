@@ -792,9 +792,9 @@ NotFoundError
 "
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Error
 while
@@ -845,9 +845,9 @@ notifications
 notifications
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Error

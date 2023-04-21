@@ -1556,9 +1556,9 @@ targetPrefType
 sourcePrefType
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error
@@ -1783,9 +1783,9 @@ it
 and
 move
 on
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1889,9 +1889,9 @@ should
 never
 happen
 .
-Cu
+console
 .
-reportError
+error
 (
 new
 Error

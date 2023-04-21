@@ -2044,9 +2044,9 @@ err
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 Narrate
 failed

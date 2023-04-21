@@ -1711,9 +1711,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -1850,9 +1850,9 @@ onDisable
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error

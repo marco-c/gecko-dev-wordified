@@ -165,9 +165,9 @@ select
 "
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 selectDialog
@@ -177,7 +177,6 @@ unknown
 type
 :
 "
-+
 promptType
 )
 ;

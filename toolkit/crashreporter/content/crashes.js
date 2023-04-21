@@ -171,9 +171,9 @@ clearUnsubmittedReports
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -204,9 +204,9 @@ submitAllUnsubmittedReports
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -237,9 +237,9 @@ clearSubmittedReports
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

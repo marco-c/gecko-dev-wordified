@@ -818,9 +818,9 @@ break
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 Unexpected
 pref
@@ -1238,9 +1238,9 @@ break
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 Unexpected
 event

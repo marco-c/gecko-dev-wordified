@@ -1880,9 +1880,9 @@ binding
 .
 "
 ;
-Cu
+console
 .
-reportError
+error
 (
 msg
 )
@@ -1992,9 +1992,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

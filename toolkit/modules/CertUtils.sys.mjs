@@ -547,9 +547,9 @@ present
 .
 "
 ;
-Cu
+console
 .
-reportError
+error
 (
 missingCertErr
 )
@@ -764,9 +764,9 @@ details
 .
 "
 ;
-Cu
+console
 .
-reportError
+error
 (
 certCheckErr
 )

@@ -2045,9 +2045,9 @@ the
 external
 editor
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -2142,9 +2142,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -2440,9 +2440,9 @@ the
 external
 editor
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

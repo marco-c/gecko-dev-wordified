@@ -1687,9 +1687,9 @@ sandbox
 initialization
 phase
 .
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -5348,9 +5348,9 @@ by
 this
 behaviour
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 Found

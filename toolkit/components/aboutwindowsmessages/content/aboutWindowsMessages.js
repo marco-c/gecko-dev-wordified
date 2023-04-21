@@ -574,9 +574,9 @@ no
 module
 message
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

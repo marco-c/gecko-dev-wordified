@@ -740,9 +740,9 @@ value
 }
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 {
 event
@@ -902,9 +902,9 @@ reject
 error
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 error
 )

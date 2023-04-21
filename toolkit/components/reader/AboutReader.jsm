@@ -536,9 +536,9 @@ url
 "
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 errorMsg
 )

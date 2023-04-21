@@ -2560,9 +2560,9 @@ this
 return
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 "
 BackgroundThumbnails
@@ -4480,9 +4480,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )

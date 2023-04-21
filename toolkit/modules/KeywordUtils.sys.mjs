@@ -463,9 +463,9 @@ url
 is
 invalid
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
