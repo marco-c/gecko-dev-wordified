@@ -5751,6 +5751,10 @@ new
 ReadableStream
 (
 aGlobal
+HoldDropJSObjectsCaller
+:
+:
+Implicit
 )
 ;
 ErrorResult
@@ -6100,6 +6104,13 @@ new
 ReadableStream
 (
 mGlobal
+ReadableStream
+:
+:
+HoldDropJSObjectsCaller
+:
+:
+Implicit
 )
 ;
 /
