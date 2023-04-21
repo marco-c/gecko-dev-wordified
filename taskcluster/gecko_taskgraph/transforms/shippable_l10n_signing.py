@@ -365,7 +365,7 @@ in
 locale_specifications
 :
             
-task_type
+upstream_task_type
 =
 "
 l10n
@@ -381,7 +381,7 @@ upstream_artifact_task
 kind
 :
                 
-task_type
+upstream_task_type
 =
 "
 scriptworker
@@ -421,7 +421,7 @@ kind
 taskType
 "
 :
-task_type
+upstream_task_type
                     
 #
 Set

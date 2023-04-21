@@ -148,6 +148,14 @@ part
 "
 in
 label
+or
+"
+mac
+-
+signing
+"
+in
+label
 :
                     
 assert

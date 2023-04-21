@@ -1627,15 +1627,16 @@ and
 config
 .
 kind
-=
-=
+.
+endswith
+(
 "
-build
 -
 mac
 -
 notarization
 "
+)
 :
             
 task
@@ -2004,8 +2005,7 @@ attr
 Override
 behavior
 for
-build
--
+signingscript
 mac
 -
 signing
@@ -2015,15 +2015,16 @@ if
 config
 .
 kind
-=
-=
+.
+endswith
+(
 "
-build
 -
 mac
 -
 signing
 "
+)
 :
                 
 task
@@ -2041,7 +2042,7 @@ behavior
 ]
 =
 "
-mac_sign
+mac_sign_and_pkg
 "
         
 task
