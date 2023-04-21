@@ -1268,7 +1268,7 @@ MOZ_ASSERT
 EffectSet
 :
 :
-GetEffectSetForEffect
+GetForEffect
 (
 aAnimation
 -
@@ -1287,7 +1287,7 @@ AsKeyframeEffect
 EffectSet
 :
 :
-GetEffectSetForEffect
+GetForEffect
 (
 animation
 -

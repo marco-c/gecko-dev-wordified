@@ -3606,7 +3606,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 aElement
 pseudoType
@@ -3802,7 +3802,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 aElementOrPseudo
 pseudoType
@@ -3844,7 +3844,7 @@ return
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 aElement
 pseudoType

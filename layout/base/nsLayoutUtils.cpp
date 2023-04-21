@@ -1748,7 +1748,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 aFrame
 aPropertySet
@@ -1857,7 +1857,7 @@ aEffectSet
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 aFrame
 aPropertySet
@@ -2172,7 +2172,7 @@ effects
 EffectSet
 :
 :
-GetEffectSetForStyleFrame
+GetForStyleFrame
 (
 aStyleFrame
 )

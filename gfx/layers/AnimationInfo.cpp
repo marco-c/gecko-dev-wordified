@@ -6633,7 +6633,7 @@ effects
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 aFrame
 aType

@@ -13534,7 +13534,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSetForStyleFrame
+GetForStyleFrame
 (
 aStyleFrame
 )
@@ -14705,6 +14705,8 @@ at
 this
 point
 .
+if
+(
 EffectSet
 *
 effectSet
@@ -14712,15 +14714,11 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 element
 aPseudoType
 )
-;
-if
-(
-effectSet
 )
 {
 for

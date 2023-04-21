@@ -252,7 +252,7 @@ EffectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 const
 dom
@@ -303,7 +303,7 @@ EffectSet
 EffectSet
 :
 :
-GetOrCreateEffectSet
+GetOrCreate
 (
 dom
 :
@@ -340,7 +340,7 @@ EffectSet
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 const
 nsIFrame
@@ -550,7 +550,7 @@ nullptr
 ;
 }
 return
-GetEffectSet
+Get
 (
 target
 -
@@ -573,7 +573,7 @@ EffectSet
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 const
 nsIFrame
@@ -587,7 +587,7 @@ return
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 aFrame
 LayerAnimationInfo
@@ -610,7 +610,7 @@ EffectSet
 EffectSet
 :
 :
-GetEffectSetForStyleFrame
+GetForStyleFrame
 (
 const
 nsIFrame
@@ -643,7 +643,7 @@ nullptr
 ;
 }
 return
-GetEffectSet
+Get
 (
 target
 -
@@ -666,7 +666,7 @@ EffectSet
 EffectSet
 :
 :
-GetEffectSetForEffect
+GetForEffect
 (
 const
 dom
@@ -701,7 +701,7 @@ return
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 target
 .

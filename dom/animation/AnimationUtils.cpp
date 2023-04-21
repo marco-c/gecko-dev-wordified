@@ -483,7 +483,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 aFrame
 nsCSSPropertyIDSet
@@ -569,7 +569,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 aElement
 aPseudoType
