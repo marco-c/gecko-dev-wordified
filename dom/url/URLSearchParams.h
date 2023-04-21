@@ -394,6 +394,12 @@ aValue
 )
 const
 ;
+uint32_t
+Size
+(
+)
+const
+;
 void
 Get
 (
