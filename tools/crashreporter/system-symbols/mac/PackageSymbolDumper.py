@@ -621,15 +621,9 @@ zip_path
 ]
 stdout
 =
-open
-(
 subprocess
 .
 DEVNULL
-"
-wb
-"
-)
     
 )
 def
