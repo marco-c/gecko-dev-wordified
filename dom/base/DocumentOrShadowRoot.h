@@ -568,17 +568,6 @@ nsAString
 &
 aElementId
 )
-const
-;
-Element
-*
-GetElementById
-(
-nsAtom
-*
-aElementId
-)
-const
 ;
 /
 *
@@ -1247,7 +1236,6 @@ void
 ReportEmptyGetElementByIdArg
 (
 )
-const
 ;
 /
 /
