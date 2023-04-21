@@ -126,7 +126,7 @@ include
 "
 mozilla
 /
-EffectCompositor
+AnimationUtils
 .
 h
 "
@@ -666,10 +666,10 @@ Element
 *
 e
 =
-EffectCompositor
+AnimationUtils
 :
 :
-GetElementToRestyle
+GetElementForRestyle
 (
 aElement
 aPseudoType

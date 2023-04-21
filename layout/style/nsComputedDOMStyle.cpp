@@ -4049,10 +4049,10 @@ Element
 *
 elementOrPseudoElement
 =
-EffectCompositor
+AnimationUtils
 :
 :
-GetElementToRestyle
+GetElementForRestyle
 (
 aElement
 aPseudo
