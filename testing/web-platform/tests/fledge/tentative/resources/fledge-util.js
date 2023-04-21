@@ -2083,9 +2083,12 @@ testConfig
 auctionConfigOverrides
 )
 ;
-assert_equals
+assert_true
 (
 result
+=
+=
+=
 null
 '
 Auction
