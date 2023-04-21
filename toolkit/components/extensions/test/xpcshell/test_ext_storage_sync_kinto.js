@@ -165,7 +165,7 @@ BulkKeyBundle
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -178,7 +178,9 @@ sync
 /
 keys
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -213,7 +215,7 @@ Utils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -226,7 +228,9 @@ sync
 /
 util
 .
-js
+sys
+.
+mjs
 "
 )
 ;

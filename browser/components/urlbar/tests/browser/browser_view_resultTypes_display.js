@@ -39,7 +39,7 @@ SyncedTabs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ sync
 /
 SyncedTabs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

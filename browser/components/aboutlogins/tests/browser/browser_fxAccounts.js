@@ -35,7 +35,7 @@ UIState
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +48,9 @@ sync
 /
 UIState
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

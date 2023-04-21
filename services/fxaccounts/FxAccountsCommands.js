@@ -174,9 +174,9 @@ js
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -193,7 +193,9 @@ sync
 /
 keys
 .
-js
+sys
+.
+mjs
 "
 CryptoWrapper
 :
@@ -208,7 +210,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 }
 )

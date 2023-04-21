@@ -418,7 +418,7 @@ mpLocked
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -431,7 +431,9 @@ sync
 /
 util
 .
-js
+sys
+.
+mjs
 "
 )
 .
@@ -458,7 +460,7 @@ ensureMPUnlocked
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -471,7 +473,9 @@ sync
 /
 util
 .
-js
+sys
+.
+mjs
 "
 )
 .
@@ -5282,7 +5286,7 @@ Weave
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -5295,7 +5299,9 @@ sync
 /
 main
 .
-js
+sys
+.
+mjs
 "
 )
 ;

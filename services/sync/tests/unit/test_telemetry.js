@@ -34,7 +34,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +60,7 @@ WBORecord
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +73,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -82,7 +86,7 @@ Resource
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -95,7 +99,9 @@ sync
 /
 resource
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -106,7 +112,7 @@ RotaryEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -123,7 +129,9 @@ sync
 /
 rotaryengine
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -4227,7 +4235,7 @@ ErrorSanitizer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -4240,7 +4248,9 @@ sync
 /
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -4373,7 +4383,7 @@ ErrorSanitizer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -4386,7 +4396,9 @@ sync
 /
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;

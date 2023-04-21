@@ -34,7 +34,7 @@ FormValidator
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ engines
 /
 forms
 .
-js
+sys
+.
+mjs
 "
 )
 ;

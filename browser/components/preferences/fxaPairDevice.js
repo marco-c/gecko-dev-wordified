@@ -113,7 +113,7 @@ Weave
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -126,7 +126,9 @@ sync
 /
 main
 .
-js
+sys
+.
+mjs
 "
 )
 ;

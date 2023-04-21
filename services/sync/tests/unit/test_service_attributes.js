@@ -35,7 +35,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +48,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -59,7 +61,7 @@ FakeGUIDService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +78,9 @@ sync
 /
 fakeservices
 .
-js
+sys
+.
+mjs
 "
 )
 ;

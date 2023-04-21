@@ -50,7 +50,7 @@ Weave
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -63,7 +63,9 @@ sync
 /
 main
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -74,7 +76,7 @@ SyncedTabs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -87,7 +89,9 @@ sync
 /
 SyncedTabs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -29,7 +29,7 @@ zero
 /
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +44,9 @@ engines
 /
 passwords
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -55,7 +57,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -68,7 +70,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

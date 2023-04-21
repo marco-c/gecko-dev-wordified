@@ -34,7 +34,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +60,7 @@ EngineSynchronizer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +75,9 @@ stages
 /
 enginesync
 .
-js
+sys
+.
+mjs
 "
 )
 ;

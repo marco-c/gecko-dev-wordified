@@ -36,7 +36,7 @@ BridgeWrapperXPCOM
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ sync
 /
 bridged_engine
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -60,7 +62,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +75,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

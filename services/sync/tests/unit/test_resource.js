@@ -59,7 +59,7 @@ Resource
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -72,7 +72,9 @@ sync
 /
 resource
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -83,7 +85,7 @@ SyncAuthManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -96,7 +98,9 @@ sync
 /
 sync_auth
 .
-js
+sys
+.
+mjs
 "
 )
 ;

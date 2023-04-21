@@ -28,9 +28,9 @@ zero
 /
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 globalThis
 {
@@ -47,7 +47,9 @@ sync
 /
 SyncedTabs
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

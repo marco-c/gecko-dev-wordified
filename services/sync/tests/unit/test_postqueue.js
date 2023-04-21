@@ -35,7 +35,7 @@ PostQueue
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +48,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 )
 ;

@@ -34,7 +34,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +60,7 @@ Status
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +73,9 @@ sync
 /
 status
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -82,7 +86,7 @@ FakeCryptoService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -99,7 +103,9 @@ sync
 /
 fakeservices
 .
-js
+sys
+.
+mjs
 "
 )
 ;

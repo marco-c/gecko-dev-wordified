@@ -36,7 +36,7 @@ SyncAuthManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ sync
 /
 sync_auth
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -60,7 +62,7 @@ Resource
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +75,9 @@ sync
 /
 resource
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +88,7 @@ initializeIdentityWithTokenServerResponse
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -101,7 +105,9 @@ sync
 /
 fxa_utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -210,7 +216,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -223,7 +229,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -234,7 +242,7 @@ Status
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -247,7 +255,9 @@ sync
 /
 status
 .
-js
+sys
+.
+mjs
 "
 )
 ;

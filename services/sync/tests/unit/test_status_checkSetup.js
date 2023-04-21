@@ -35,7 +35,7 @@ Status
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +48,9 @@ sync
 /
 status
 .
-js
+sys
+.
+mjs
 "
 )
 ;

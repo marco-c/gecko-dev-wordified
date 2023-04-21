@@ -162,7 +162,7 @@ waitForZeroTimer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -179,7 +179,9 @@ sync
 /
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;

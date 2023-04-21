@@ -100,7 +100,7 @@ Tracker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -113,7 +113,9 @@ sync
 /
 engines
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -124,7 +126,7 @@ CryptoWrapper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -137,7 +139,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -148,7 +152,7 @@ Utils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -161,7 +165,9 @@ sync
 /
 util
 .
-js
+sys
+.
+mjs
 "
 )
 ;

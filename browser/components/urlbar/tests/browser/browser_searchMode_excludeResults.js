@@ -54,9 +54,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -73,7 +73,9 @@ sync
 /
 SyncedTabs
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

@@ -40,7 +40,7 @@ SyncDisconnectInternal
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ sync
 /
 SyncDisconnect
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

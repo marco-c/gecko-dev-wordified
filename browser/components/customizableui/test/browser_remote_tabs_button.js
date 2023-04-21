@@ -68,7 +68,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -81,7 +81,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -92,7 +94,7 @@ UIState
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -105,7 +107,9 @@ sync
 /
 UIState
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

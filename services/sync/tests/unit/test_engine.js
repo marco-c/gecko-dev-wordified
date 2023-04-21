@@ -84,7 +84,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -97,7 +97,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
