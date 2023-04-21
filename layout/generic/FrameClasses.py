@@ -863,12 +863,23 @@ NOT_LEAF
 Frame
 (
 "
+SimpleXULLeafFrame
+"
+"
+SimpleXULLeaf
+"
+LEAF
+)
+    
+Frame
+(
+"
 nsScrollbarButtonFrame
 "
 "
-Box
+SimpleXULLeaf
 "
-NOT_LEAF
+LEAF
 )
     
 Frame
