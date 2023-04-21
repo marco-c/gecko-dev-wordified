@@ -267,7 +267,7 @@ const
 VideoConfig
 &
 video_config
-PeerConfigurerImpl
+PeerConfigurer
 :
 :
 VideoSource

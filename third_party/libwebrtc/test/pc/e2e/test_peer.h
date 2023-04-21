@@ -369,7 +369,7 @@ callback
 )
 override
 ;
-PeerConfigurerImpl
+PeerConfigurer
 :
 :
 VideoSource
@@ -1100,7 +1100,7 @@ std
 :
 vector
 <
-PeerConfigurerImpl
+PeerConfigurer
 :
 :
 VideoSource
@@ -1246,7 +1246,7 @@ std
 :
 vector
 <
-PeerConfigurerImpl
+PeerConfigurer
 :
 :
 VideoSource
