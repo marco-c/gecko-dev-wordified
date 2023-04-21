@@ -2495,15 +2495,6 @@ false
 console
 :
 false
-mozRTCIceCandidate
-:
-false
-mozRTCPeerConnection
-:
-false
-mozRTCSessionDescription
-:
-false
 }
 }
 ;
