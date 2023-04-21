@@ -382,6 +382,9 @@ class
 nsDOMAttributeMap
 ;
 class
+nsGenericHTMLElement
+;
+class
 nsIAnimationObserver
 ;
 class
@@ -3720,13 +3723,7 @@ target
 element
 *
 /
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsGenericHTMLElement
 *
 GetEffectivePopoverTargetElement
 (
