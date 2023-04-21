@@ -770,11 +770,20 @@ None
 capture_output
 =
 True
-stdin
+input
 =
 None
 )
 :
+    
+#
+pylint
+:
+disable
+=
+redefined
+-
+builtin
     
 del
 env
@@ -783,7 +792,7 @@ del
 capture_output
     
 del
-stdin
+input
     
 self
 .
@@ -4169,20 +4178,6 @@ py
 '
         
 '
-.
-.
-/
-.
-.
-/
-tools_webrtc
-/
-flags_compatibility
-.
-py
-'
-        
-'
 foo_unittests
 '
     
@@ -4195,31 +4190,11 @@ assertEqual
 (
 command
 [
-        
 '
-vpython3
-'
-        
-'
-.
-.
+bin
 /
-.
-.
-/
-tools_webrtc
-/
-flags_compatibility
-.
-py
+run_foo_unittests
 '
-        
-'
-.
-/
-foo_unittests
-'
-    
 ]
 )
   
