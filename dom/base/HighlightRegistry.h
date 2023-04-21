@@ -801,8 +801,6 @@ ErrorResult
 aRv
 )
 ;
-private
-:
 /
 *
 *
@@ -829,6 +827,8 @@ GetFrameSelection
 (
 )
 ;
+private
+:
 /
 *
 *
