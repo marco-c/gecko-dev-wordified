@@ -1241,12 +1241,6 @@ defined
 (
 WEBRTC_USE_PIPEWIRE
 )
-|
-|
-defined
-(
-WEBRTC_USE_X11
-)
 /
 /
 Creates
@@ -1487,12 +1481,6 @@ if
 defined
 (
 WEBRTC_USE_PIPEWIRE
-)
-|
-|
-defined
-(
-WEBRTC_USE_X11
 )
 /
 /
