@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsObjCExceptions
+nsCocoaUtils
 .
 h
 "
