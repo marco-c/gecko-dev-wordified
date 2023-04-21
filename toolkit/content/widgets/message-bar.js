@@ -554,11 +554,11 @@ setAttributes
 (
 closeIcon
 "
+notification
+-
 close
 -
 button
--
-label
 "
 )
 ;
