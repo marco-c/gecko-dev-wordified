@@ -2070,6 +2070,49 @@ hasimplicitcopyctor
     
 )
 def
+_cxxReadResultType
+(
+basetype
+const
+=
+False
+ref
+=
+False
+)
+:
+    
+return
+Type
+(
+        
+"
+IPC
+:
+:
+ReadResult
+"
+        
+T
+=
+basetype
+        
+const
+=
+const
+        
+ref
+=
+ref
+        
+hasimplicitcopyctor
+=
+basetype
+.
+hasimplicitcopyctor
+    
+)
+def
 _cxxNotNullType
 (
 basetype
@@ -2845,6 +2888,20 @@ _logicError
 msg
 )
 ]
+def
+readResultError
+(
+)
+:
+    
+return
+ExprCode
+(
+"
+{
+}
+"
+)
 class
 _DestroyReason
 :
@@ -14212,7 +14269,7 @@ errmsg
 )
 StmtReturn
 (
-ExprNothing
+readResultError
 (
 )
 )
@@ -14250,7 +14307,7 @@ fields
                 
 errfnSentinel
 (
-ExprNothing
+readResultError
 (
 )
 )
@@ -14494,7 +14551,7 @@ msg
 )
 StmtReturn
 (
-ExprNothing
+readResultError
 (
 )
 )
@@ -14532,7 +14589,7 @@ errfnSentinel
 =
 errfnSentinel
 (
-ExprNothing
+readResultError
 (
 )
 )
@@ -14747,7 +14804,7 @@ writemthd
         
 #
 static
-Maybe
+ReadResult
 <
 T
 >
@@ -14757,18 +14814,6 @@ MessageReader
 *
 )
 ;
-        
-outtype
-=
-Type
-(
-"
-paramType
-"
-ptr
-=
-True
-)
         
 readmthd
 =
@@ -14814,10 +14859,10 @@ ret
 Type
 (
 "
-mozilla
+IPC
 :
 :
-Maybe
+ReadResult
 <
 paramType
 >
@@ -15211,7 +15256,22 @@ actor
 )
 ;
             
-return
+mozilla
+:
+:
+Maybe
+<
+mozilla
+:
+:
+ipc
+:
+:
+IProtocol
+*
+>
+actor
+=
 {
 readervar
 }
@@ -15236,24 +15296,18 @@ actortype
 protocolid
 }
 )
-              
-.
-map
+;
+            
+if
 (
-[
-]
-(
-mozilla
-:
-:
-ipc
-:
-:
-IProtocol
-*
 actor
+.
+isSome
+(
+)
 )
 {
+                
 return
 static_cast
 <
@@ -15263,10 +15317,18 @@ cxxtype
 >
 (
 actor
+.
+ref
+(
+)
 )
 ;
+            
 }
-)
+            
+return
+{
+}
 ;
             
 "
@@ -15695,7 +15757,7 @@ StmtDecl
                 
 Decl
 (
-_cxxMaybeType
+_cxxReadResultType
 (
 Type
 (
@@ -16247,12 +16309,9 @@ name
                     
 StmtReturn
 (
-ExprSome
-(
 ExprMove
 (
 tmpvar
-)
 )
 )
                 
@@ -16361,7 +16420,7 @@ name
                     
 StmtReturn
 (
-ExprNothing
+readResultError
 (
 )
 )
