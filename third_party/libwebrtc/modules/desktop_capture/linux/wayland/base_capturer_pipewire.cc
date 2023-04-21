@@ -295,6 +295,17 @@ BaseCapturerPipeWire
 (
 )
 {
+options_
+.
+screencast_stream
+(
+)
+-
+>
+StopScreenCastStream
+(
+)
+;
 }
 void
 BaseCapturerPipeWire
