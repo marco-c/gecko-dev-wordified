@@ -2436,7 +2436,7 @@ false
 aInitData
 -
 >
-mIsPrivateBrowsing
+mIsPrivate
 )
 ;
 NS_ENSURE_SUCCESS

@@ -24796,6 +24796,8 @@ pending
 .
 SetupMacApplicationDelegate
 (
+&
+gRestartedByOS
 )
 ;
 if
