@@ -138,6 +138,8 @@ sh
 :
 GLenum
 shaderType
+bool
+debugShaderPrecisionSupported
 )
 ;
 ~
@@ -297,6 +299,9 @@ sh
 :
 GLenum
 mShaderType
+;
+bool
+mDebugShaderPrecisionSupported
 ;
 }
 ;

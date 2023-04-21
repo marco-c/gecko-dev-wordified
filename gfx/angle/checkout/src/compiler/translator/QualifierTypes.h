@@ -996,8 +996,6 @@ fails
 TTypeQualifier
 getParameterTypeQualifier
 (
-TBasicType
-parameterBasicType
 TDiagnostics
 *
 diagnostics

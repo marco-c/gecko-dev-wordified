@@ -2671,7 +2671,7 @@ size
 1
 )
 {
-uint8_t
+int
 rows
 =
 ctorType
@@ -2680,7 +2680,7 @@ getRows
 (
 )
 ;
-uint8_t
+int
 cols
 =
 ctorType
@@ -2710,7 +2710,7 @@ isScalar
 {
 for
 (
-uint8_t
+int
 col
 =
 0
@@ -2726,7 +2726,7 @@ col
 {
 for
 (
-uint8_t
+int
 row
 =
 0
@@ -2801,7 +2801,7 @@ isMatrix
 {
 for
 (
-uint8_t
+int
 col
 =
 0
@@ -2817,7 +2817,7 @@ col
 {
 for
 (
-uint8_t
+int
 row
 =
 0
@@ -3206,7 +3206,7 @@ isMatrix
 )
 )
 {
-uint8_t
+int
 column
 =
 0

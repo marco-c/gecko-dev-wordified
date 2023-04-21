@@ -65,11 +65,7 @@ TCompiler
 class
 TIntermNode
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 RemoveInvariantDeclaration
 (

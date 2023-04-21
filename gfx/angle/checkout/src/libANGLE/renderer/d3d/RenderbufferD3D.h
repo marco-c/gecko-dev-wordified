@@ -280,8 +280,6 @@ gl
 Context
 *
 context
-GLenum
-binding
 const
 gl
 :

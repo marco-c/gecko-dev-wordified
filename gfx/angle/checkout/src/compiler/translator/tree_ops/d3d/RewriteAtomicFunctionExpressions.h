@@ -255,11 +255,7 @@ TIntermNode
 class
 TSymbolTable
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 RewriteAtomicFunctionExpressions
 (

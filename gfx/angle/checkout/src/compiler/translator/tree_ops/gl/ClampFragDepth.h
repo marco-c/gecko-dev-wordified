@@ -125,11 +125,7 @@ TSymbolTable
 #
 ifdef
 ANGLE_ENABLE_GLSL
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 ClampFragDepth
 (
@@ -146,11 +142,7 @@ symbolTable
 ;
 #
 else
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 ANGLE_INLINE
 bool
 ClampFragDepth

@@ -132,11 +132,7 @@ TIntermBlock
 class
 TDiagnostics
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 FoldExpressions
 (

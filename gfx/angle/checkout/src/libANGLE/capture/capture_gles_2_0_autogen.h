@@ -2077,7 +2077,7 @@ ShaderProgramID
 *
 shadersPacked
 GLenum
-binaryFormat
+binaryformat
 const
 void
 *
@@ -4409,7 +4409,7 @@ ShaderProgramID
 *
 shadersPacked
 GLenum
-binaryFormat
+binaryformat
 const
 void
 *
@@ -4440,7 +4440,7 @@ ShaderProgramID
 *
 shadersPacked
 GLenum
-binaryFormat
+binaryformat
 const
 void
 *

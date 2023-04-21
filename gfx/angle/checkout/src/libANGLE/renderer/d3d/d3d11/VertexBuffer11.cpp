@@ -337,7 +337,7 @@ dynamicUsage
 {
 mBuffer
 .
-setInternalName
+setDebugName
 (
 "
 VertexBuffer11
@@ -352,7 +352,7 @@ else
 {
 mBuffer
 .
-setInternalName
+setDebugName
 (
 "
 VertexBuffer11

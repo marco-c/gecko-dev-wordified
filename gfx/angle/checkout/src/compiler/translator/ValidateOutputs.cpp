@@ -458,6 +458,12 @@ qualifier
 =
 =
 EvqFragDepth
+|
+|
+qualifier
+=
+=
+EvqFragDepthEXT
 )
 {
 mUsesFragDepth

@@ -92,7 +92,6 @@ PoolIndex
 =
 CreateTLSIndex
 (
-nullptr
 )
 ;
 return

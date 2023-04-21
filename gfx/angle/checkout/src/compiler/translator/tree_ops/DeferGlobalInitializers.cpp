@@ -308,8 +308,6 @@ bool
 canUseLoopsToInitialize
 bool
 highPrecisionSupported
-bool
-forceDeferGlobalInitializers
 TIntermSequence
 *
 deferredInitializersOut
@@ -440,9 +438,6 @@ expression
 hasConstantValue
 (
 )
-|
-|
-forceDeferGlobalInitializers
 )
 {
 /
@@ -834,7 +829,6 @@ StaticType
 GetBasic
 <
 EbtVoid
-EbpUndefined
 >
 (
 )
@@ -965,8 +959,6 @@ bool
 canUseLoopsToInitialize
 bool
 highPrecisionSupported
-bool
-forceDeferGlobalInitializers
 TSymbolTable
 *
 symbolTable
@@ -1045,7 +1037,6 @@ declaration
 initializeUninitializedGlobals
 canUseLoopsToInitialize
 highPrecisionSupported
-forceDeferGlobalInitializers
 &
 deferredInitializers
 &

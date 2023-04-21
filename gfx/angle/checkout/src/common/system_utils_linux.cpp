@@ -292,7 +292,7 @@ so
 ;
 }
 double
-GetCurrentSystemTime
+GetCurrentTime
 (
 )
 {

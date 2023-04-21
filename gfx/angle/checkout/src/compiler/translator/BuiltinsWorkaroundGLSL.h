@@ -74,11 +74,7 @@ h
 namespace
 sh
 {
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 ShaderBuiltinsWorkaround
 (
@@ -91,9 +87,7 @@ root
 TSymbolTable
 *
 symbolTable
-const
 ShCompileOptions
-&
 compileOptions
 )
 ;

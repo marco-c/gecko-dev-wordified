@@ -12,7 +12,7 @@ VULKAN_SCREEN_H_
 Copyright
 2015
 -
-2022
+2021
 The
 Khronos
 Group

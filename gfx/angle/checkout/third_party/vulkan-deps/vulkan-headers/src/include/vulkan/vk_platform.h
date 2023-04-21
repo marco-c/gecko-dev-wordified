@@ -16,7 +16,7 @@ h
 Copyright
 2014
 -
-2022
+2021
 The
 Khronos
 Group
@@ -451,8 +451,9 @@ __ARM_ARCH
 error
 "
 Vulkan
-is
-not
+isn
+'
+t
 supported
 for
 the

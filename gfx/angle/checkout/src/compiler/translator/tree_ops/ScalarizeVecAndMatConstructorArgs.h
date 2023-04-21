@@ -125,11 +125,7 @@ TIntermBlock
 class
 TSymbolTable
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 ScalarizeVecAndMatConstructorArgs
 (
@@ -139,6 +135,13 @@ compiler
 TIntermBlock
 *
 root
+sh
+:
+:
+GLenum
+shaderType
+bool
+fragmentPrecisionHigh
 TSymbolTable
 *
 symbolTable

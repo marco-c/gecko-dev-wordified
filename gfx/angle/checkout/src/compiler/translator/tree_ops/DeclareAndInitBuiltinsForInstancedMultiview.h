@@ -179,7 +179,7 @@ or
 GLSL
 and
 the
-selectViewInNvGLSLVertexShader
+SH_SELECT_VIEW_IN_NV_GLSL_VERTEX_SHADER
 option
 is
 /
@@ -292,11 +292,7 @@ TIntermBlock
 class
 TSymbolTable
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 DeclareAndInitBuiltinsForInstancedMultiview
 (
@@ -310,9 +306,7 @@ unsigned
 numberOfViews
 GLenum
 shaderType
-const
 ShCompileOptions
-&
 compileOptions
 ShShaderOutput
 shaderOutput

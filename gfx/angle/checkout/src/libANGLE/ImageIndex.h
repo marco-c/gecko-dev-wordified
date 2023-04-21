@@ -239,12 +239,6 @@ const
 ;
 static
 ImageIndex
-MakeBuffer
-(
-)
-;
-static
-ImageIndex
 Make2D
 (
 GLint
@@ -521,12 +515,6 @@ const
 ImageIndexIterator
 &
 other
-)
-;
-static
-ImageIndexIterator
-MakeBuffer
-(
 )
 ;
 static

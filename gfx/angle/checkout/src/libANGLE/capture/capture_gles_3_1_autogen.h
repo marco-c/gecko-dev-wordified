@@ -600,7 +600,7 @@ GLenum
 *
 props
 GLsizei
-count
+bufSize
 GLsizei
 *
 length
@@ -2099,7 +2099,7 @@ GLenum
 *
 props
 GLsizei
-count
+bufSize
 GLsizei
 *
 length
@@ -2136,7 +2136,7 @@ GLenum
 *
 props
 GLsizei
-count
+bufSize
 GLsizei
 *
 length
@@ -2173,7 +2173,7 @@ GLenum
 *
 props
 GLsizei
-count
+bufSize
 GLsizei
 *
 length

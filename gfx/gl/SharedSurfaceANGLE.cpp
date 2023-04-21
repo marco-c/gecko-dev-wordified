@@ -345,7 +345,7 @@ config
 gle
 -
 >
-mSurfaceConfig
+mConfig
 ;
 MOZ_ASSERT
 (

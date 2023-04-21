@@ -269,7 +269,7 @@ unknown
 physical
 device
 extension
-querying
+qyering
 via
 /
 /

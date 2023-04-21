@@ -673,15 +673,6 @@ a
 texture
 target
 .
-EGLint
-matchFormat
-;
-/
-/
-LockSurface
-match
-format
-.
 }
 ;
 class

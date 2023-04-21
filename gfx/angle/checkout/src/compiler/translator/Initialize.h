@@ -155,7 +155,6 @@ TExtensionBehavior
 extensionBehavior
 const
 ShCompileOptions
-&
 compileOptions
 )
 ;

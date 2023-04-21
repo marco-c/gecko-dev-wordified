@@ -496,18 +496,6 @@ curRenderTarget
 )
 )
 ;
-{
-std
-:
-:
-unique_lock
-lock
-(
-mState
-.
-targetsLock
-)
-;
 /
 /
 Invalidate
@@ -551,7 +539,6 @@ SubjectMessage
 SubjectChanged
 )
 ;
-}
 }
 return
 mRenderer

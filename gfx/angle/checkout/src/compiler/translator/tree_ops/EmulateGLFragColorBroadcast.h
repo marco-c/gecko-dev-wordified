@@ -152,11 +152,7 @@ replaced
 by
 gl_FragData
 .
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 EmulateGLFragColorBroadcast
 (

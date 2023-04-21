@@ -89,11 +89,7 @@ TCompiler
 class
 TIntermBlock
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 AddDefaultReturnStatements
 (

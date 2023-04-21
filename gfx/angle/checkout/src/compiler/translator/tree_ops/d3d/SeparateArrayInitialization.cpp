@@ -211,11 +211,7 @@ TIntermTraverser
 {
 public
 :
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 static
 bool
 apply

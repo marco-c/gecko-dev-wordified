@@ -812,11 +812,7 @@ replacements
 that
 were
 identified
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 executeReplacements
 (
@@ -913,11 +909,7 @@ with
 another
 variable
 .
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 ReplaceShadowingVariables
 (
