@@ -49771,6 +49771,14 @@ content
 GetPrimaryFrame
 (
 )
+&
+&
+!
+(
+aSurfaceFlags
+&
+SFE_ORIENTATION_FROM_IMAGE
+)
 ?
 content
 -
