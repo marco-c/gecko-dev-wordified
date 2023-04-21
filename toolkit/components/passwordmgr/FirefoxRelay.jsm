@@ -196,9 +196,9 @@ learnMoreURL
 :
 Services
 .
-prefs
+urlFormatter
 .
-getStringPref
+formatURLPref
 (
 "
 signon
@@ -207,7 +207,6 @@ firefoxRelay
 .
 learn_more_url
 "
-undefined
 )
 relayFeaturePref
 :
