@@ -54421,6 +54421,11 @@ gUseAspectRatio
 IsGnomeDesktopEnvironment
 (
 )
+|
+|
+IsKdeDesktopEnvironment
+(
+)
 ;
 }
 return
