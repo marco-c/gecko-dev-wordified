@@ -167,14 +167,6 @@ utility
 codecs
 )
 ;
-/
-/
-TODO
-:
-Bug
-1804291
-/
-/
 await
 verifyNoTelemetryForProcess
 (

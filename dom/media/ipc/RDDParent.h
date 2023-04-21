@@ -496,6 +496,17 @@ TestTriggerMetricsResolver
 aResolve
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvTestTelemetryProbes
+(
+)
+;
 private
 :
 const

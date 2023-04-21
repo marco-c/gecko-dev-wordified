@@ -6651,6 +6651,11 @@ XRE_IsGPUProcess
 )
 |
 |
+XRE_IsRDDProcess
+(
+)
+|
+|
 XRE_IsSocketProcess
 (
 )
