@@ -2684,6 +2684,9 @@ nrsack_supported
 uint8_t
 pktdrop_supported
 ;
+uint8_t
+zero_checksum
+;
 struct
 sctp_nonpad_sndrcvinfo
 def_send
@@ -4640,16 +4643,6 @@ timeval
 *
 )
 ;
-/
-*
-void
-sctp_drain
-(
-void
-)
-;
-*
-/
 int
 sctp_destination_is_reachable
 (
