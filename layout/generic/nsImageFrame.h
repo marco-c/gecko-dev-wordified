@@ -599,6 +599,11 @@ SetupOwnedRequest
 (
 )
 ;
+void
+DeinitOwnedRequest
+(
+)
+;
 bool
 ShouldShowBrokenImageIcon
 (
