@@ -260,7 +260,7 @@ magic
 value
 of
 the
-FramePointer
+InstanceReg
 to
 indicate
 after
@@ -287,7 +287,7 @@ throw
 static
 const
 unsigned
-FailFP
+FailInstanceReg
 =
 0xbad
 ;

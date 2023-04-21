@@ -1372,7 +1372,7 @@ if
 !
 wasmFrame
 .
-unwoundJitCallerFP
+hasUnwoundJitFrame
 (
 )
 )
@@ -1499,7 +1499,7 @@ prevFP
 =
 wasmFrame
 .
-unwoundJitCallerFP
+unwoundCallerFP
 (
 )
 ;
