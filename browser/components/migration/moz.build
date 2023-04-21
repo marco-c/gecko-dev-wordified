@@ -195,13 +195,6 @@ sys
 mjs
 "
 "
-FileMigrators
-.
-sys
-.
-mjs
-"
-"
 FirefoxProfileMigrator
 .
 sys
