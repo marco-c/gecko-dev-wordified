@@ -320,13 +320,6 @@ nsUserIdleServiceGTK
 (
 )
 ;
-virtual
-bool
-UsePollMode
-(
-)
-override
-;
 }
 ;
 #

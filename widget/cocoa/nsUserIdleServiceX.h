@@ -156,12 +156,6 @@ nsUserIdleServiceX
 )
 {
 }
-bool
-UsePollMode
-(
-)
-override
-;
 }
 ;
 #

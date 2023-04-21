@@ -131,15 +131,3 @@ return
 false
 ;
 }
-bool
-nsUserIdleServiceAndroid
-:
-:
-UsePollMode
-(
-)
-{
-return
-false
-;
-}

@@ -209,12 +209,6 @@ nsUserIdleServiceAndroid
 )
 {
 }
-bool
-UsePollMode
-(
-)
-override
-;
 }
 ;
 #
