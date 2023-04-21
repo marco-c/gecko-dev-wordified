@@ -2570,7 +2570,7 @@ intl
 :
 :
 Bidi
-*
+&
 aBidiEngine
 )
 ;

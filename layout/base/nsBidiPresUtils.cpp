@@ -14799,7 +14799,7 @@ nscoord
 *
 aWidth
 BidiEngine
-*
+&
 aBidiEngine
 )
 {
@@ -15014,8 +15014,7 @@ NS_OK
 if
 (
 aBidiEngine
--
->
+.
 SetParagraph
 (
 Span
@@ -15039,8 +15038,7 @@ auto
 result
 =
 aBidiEngine
--
->
+.
 CountRuns
 (
 )
@@ -15124,8 +15122,7 @@ BidiDirection
 dir
 =
 aBidiEngine
--
->
+.
 GetVisualRun
 (
 i
@@ -15139,8 +15136,7 @@ BidiEmbeddingLevel
 level
 ;
 aBidiEngine
--
->
+.
 GetLogicalRun
 (
 start
@@ -17005,7 +17001,6 @@ aMode
 aPosResolve
 aPosResolveCount
 aWidth
-&
 aPresContext
 -
 >
