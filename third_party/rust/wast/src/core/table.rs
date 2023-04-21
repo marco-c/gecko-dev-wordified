@@ -623,10 +623,14 @@ parse
 init_expr
 :
 if
-!
 parser
 .
-is_empty
+peek
+:
+:
+<
+LParen
+>
 (
 )
 {

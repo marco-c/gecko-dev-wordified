@@ -6,9 +6,9 @@ crate
 encode_section
 ConstExpr
 Encode
-RefType
 Section
 SectionId
+ValType
 }
 ;
 /
@@ -68,7 +68,7 @@ TableType
 /
 /
 /
-RefType
+ValType
 ConstExpr
 /
 /
@@ -106,10 +106,10 @@ TableType
 /
 element_type
 :
-RefType
+ValType
 :
 :
-FUNCREF
+FuncRef
 /
 /
 /
@@ -173,10 +173,10 @@ i32_const
 let
 element_type
 =
-RefType
+ValType
 :
 :
-FUNCREF
+FuncRef
 ;
 /
 /
@@ -612,7 +612,7 @@ type
 pub
 element_type
 :
-RefType
+ValType
 /
 /
 /
@@ -1207,7 +1207,7 @@ offset
 ConstExpr
 element_type
 :
-RefType
+ValType
 elements
 :
 Elements
@@ -1283,7 +1283,7 @@ mut
 self
 element_type
 :
-RefType
+ValType
 elements
 :
 Elements
@@ -1353,7 +1353,7 @@ mut
 self
 element_type
 :
-RefType
+ValType
 elements
 :
 Elements

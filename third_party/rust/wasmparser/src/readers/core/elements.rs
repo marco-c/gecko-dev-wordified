@@ -134,9 +134,9 @@ BinaryReaderError
 ConstExpr
 ExternalKind
 FromReader
-RefType
 Result
 SectionLimited
+ValType
 }
 ;
 use
@@ -222,7 +222,7 @@ elements
 pub
 ty
 :
-RefType
+ValType
 /
 /
 /
@@ -819,10 +819,10 @@ ExternalKind
 Func
 =
 >
-RefType
+ValType
 :
 :
-FUNCREF
+FuncRef
 _
 =
 >
@@ -863,10 +863,10 @@ original_position
 }
 else
 {
-RefType
+ValType
 :
 :
-FUNCREF
+FuncRef
 }
 ;
 /

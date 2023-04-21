@@ -54,10 +54,8 @@ wasmparser
 {
 DataKind
 ElementKind
-HeapType
 Parser
 Payload
-ValType
 Validator
 VisitOperator
 WasmFeatures
@@ -1403,9 +1401,6 @@ saturating_float_to_int
 :
 true
 sign_extension
-:
-true
-function_references
 :
 true
 memory_control

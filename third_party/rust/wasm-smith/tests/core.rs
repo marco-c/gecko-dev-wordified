@@ -1315,15 +1315,9 @@ if
 t
 =
 =
-ValType
-:
-:
-Ref
-(
 tt
 .
 element_type
-)
 =
 >
 {
@@ -2138,10 +2132,7 @@ tbl
 "
 Table
 (
-ValType
-:
-:
-FUNCREF
+FuncRef
 )
 )
 (
@@ -2476,9 +2467,6 @@ extended_const
 :
 false
 component_model
-:
-false
-function_references
 :
 false
 memory_control
