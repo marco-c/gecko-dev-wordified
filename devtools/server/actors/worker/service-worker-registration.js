@@ -291,12 +291,6 @@ serviceWorkerRegistrationSpec
 ;
 this
 .
-_conn
-=
-conn
-;
-this
-.
 _registration
 =
 registration
@@ -1224,7 +1218,7 @@ PushSubscriptionActor
 (
 this
 .
-_conn
+conn
 subscription
 )
 ;
@@ -1308,7 +1302,7 @@ ServiceWorkerActor
 (
 this
 .
-_conn
+conn
 evaluatingWorker
 )
 ;
@@ -1321,7 +1315,7 @@ ServiceWorkerActor
 (
 this
 .
-_conn
+conn
 installingWorker
 )
 ;
@@ -1334,7 +1328,7 @@ ServiceWorkerActor
 (
 this
 .
-_conn
+conn
 waitingWorker
 )
 ;
@@ -1347,7 +1341,7 @@ ServiceWorkerActor
 (
 this
 .
-_conn
+conn
 activeWorker
 )
 ;
