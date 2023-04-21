@@ -1218,7 +1218,7 @@ ignore
 the
 /
 /
-cancelled
+canceled
 entries
 *
 (
