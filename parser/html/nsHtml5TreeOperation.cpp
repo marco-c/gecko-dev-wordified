@@ -1062,7 +1062,7 @@ operator
 )
 (
 const
-opSetScriptLineNumberAndFreeze
+opSetScriptLineAndColumnNumberAndFreeze
 &
 aOperation
 )
@@ -6614,7 +6614,7 @@ operator
 )
 (
 const
-opSetScriptLineNumberAndFreeze
+opSetScriptLineAndColumnNumberAndFreeze
 &
 aOperation
 )
@@ -6654,6 +6654,16 @@ SetScriptLineNumber
 aOperation
 .
 mLineNumber
+)
+;
+sele
+-
+>
+SetScriptColumnNumber
+(
+aOperation
+.
+mColumnNumber
 )
 ;
 sele
