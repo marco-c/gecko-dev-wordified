@@ -1557,8 +1557,14 @@ bitexact_output_
 =
 true
 ;
+absl
+:
+:
+optional
+<
 int
-aec_dump_mic_level_
+>
+aec_dump_applied_input_level_
 =
 0
 ;
@@ -1632,7 +1638,7 @@ ofstream
 residual_echo_likelihood_graph_writer_
 ;
 int
-analog_mic_level_
+applied_input_volume_
 ;
 FakeRecordingDevice
 fake_recording_device_
