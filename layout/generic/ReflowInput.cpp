@@ -9225,7 +9225,6 @@ IsAllZero
 )
 |
 |
-(
 !
 IsXULCollapsedXULFrame
 (
@@ -9234,7 +9233,6 @@ aFrame
 >
 GetParent
 (
-)
 )
 )
 )
