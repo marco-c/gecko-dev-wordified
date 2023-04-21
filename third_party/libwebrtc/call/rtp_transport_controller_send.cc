@@ -632,6 +632,10 @@ event_log_
 (
 event_log
 )
+task_queue_factory_
+(
+task_queue_factory
+)
 bitrate_configurator_
 (
 bitrate_config
@@ -1048,6 +1052,7 @@ move
 frame_transformer
 )
 field_trials_
+task_queue_factory_
 )
 )
 ;
