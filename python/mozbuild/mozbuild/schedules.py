@@ -526,14 +526,6 @@ tests
 wdspec
 "
     
-#
-webrender
-enabled
-    
-"
-webrender
-"
-    
 "
 nss
 "
