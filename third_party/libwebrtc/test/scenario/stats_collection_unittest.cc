@@ -895,8 +895,8 @@ Mean
 kbps
 (
 )
-100
-50
+70
+30
 )
 ;
 EXPECT_NEAR
