@@ -495,13 +495,6 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-availableSpan
-:
-UrlbarUtils
-.
-MAX_OMNIBOX_RESULT_COUNT
--
-1
 }
 /
 /
@@ -839,13 +832,6 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-availableSpan
-:
-UrlbarUtils
-.
-MAX_OMNIBOX_RESULT_COUNT
--
-1
 }
 /
 /
