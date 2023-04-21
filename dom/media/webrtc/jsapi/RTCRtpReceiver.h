@@ -655,6 +655,11 @@ OnRtcpTimeout
 )
 ;
 void
+OnUnmute
+(
+)
+;
+void
 SetReceiveTrackMuted
 (
 bool
@@ -946,6 +951,9 @@ mRtcpByeListener
 ;
 MediaEventListener
 mRtcpTimeoutListener
+;
+MediaEventListener
+mUnmuteListener
 ;
 Canonical
 <
