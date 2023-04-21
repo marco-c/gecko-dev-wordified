@@ -348,11 +348,27 @@ return
 DEVICE
     
 from
+mozbuild
+.
+base
+import
+MozbuildObject
+    
+from
 mozdevice
 import
 ADBDeviceFactory
 ADBError
 ADBTimeoutError
+    
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+get_adb_path
     
 try
 :
@@ -398,30 +414,54 @@ options
 js_shell
 )
         
+#
+Follow
+the
+same
+logic
+as
+geckoview
+builds
+to
+find
+adb
+        
+context
+=
+MozbuildObject
+.
+from_environment
+(
+)
+        
+adb_path
+=
+get_adb_path
+(
+context
+)
+        
 DEVICE
 =
 ADBDeviceFactory
 (
+            
+adb
+=
+adb_path
             
 device
 =
 options
 .
 device_serial
+            
 test_root
 =
 options
 .
 remote_test_root
         
-)
-        
-init_remote_dir
-(
-DEVICE
-options
-.
-remote_test_root
 )
         
 bin_dir
@@ -467,12 +507,19 @@ tmp
 )
         
 #
-Push
-js
-shell
-and
-libraries
+Create
+directory
+structure
+on
+device
+        
+init_remote_dir
+(
+DEVICE
+options
 .
+remote_test_root
+)
         
 init_remote_dir
 (
@@ -491,6 +538,14 @@ init_remote_dir
 DEVICE
 temp_dir
 )
+        
+#
+Push
+js
+shell
+and
+libraries
+.
         
 push_libs
 (
