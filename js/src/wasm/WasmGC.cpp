@@ -1468,6 +1468,8 @@ Register
 scratch
 Register
 valueAddr
+size_t
+valueOffset
 Label
 *
 skipBarrier
@@ -1549,7 +1551,7 @@ loadPtr
 Address
 (
 valueAddr
-0
+valueOffset
 )
 scratch
 )
@@ -1583,6 +1585,8 @@ Register
 scratch
 Register
 valueAddr
+size_t
+valueOffset
 )
 {
 MOZ_ASSERT

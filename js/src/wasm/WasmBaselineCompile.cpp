@@ -39551,6 +39551,13 @@ masm
 instance
 scratch
 valueAddr
+/
+*
+valueOffset
+=
+*
+/
+0
 &
 skipBarrier
 )
@@ -39660,6 +39667,13 @@ masm
 instance
 scratch
 valueAddr
+/
+*
+valueOffset
+=
+*
+/
+0
 )
 ;
 masm
