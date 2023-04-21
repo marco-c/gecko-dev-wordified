@@ -685,6 +685,19 @@ return
 false
 ;
 }
+nsCOMPtr
+<
+nsIPrincipal
+>
+principal
+=
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
+;
 /
 /
 Create
@@ -929,6 +942,7 @@ backgroundChild
 SendCreateWebTransportParent
 (
 aURL
+principal
 dedicated
 requireUnreliable
 (

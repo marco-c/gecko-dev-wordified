@@ -740,6 +740,14 @@ lock
 mMutex
 )
 ;
+mChannel
+=
+nullptr
+;
+mListener
+=
+nullptr
+;
 ChangeState
 (
 WebTransportSessionProxyState
