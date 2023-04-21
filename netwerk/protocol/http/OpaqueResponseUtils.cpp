@@ -2165,7 +2165,7 @@ case
 OpaqueResponse
 :
 :
-Alllow
+Allow
 :
 AllowResponse
 (

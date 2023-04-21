@@ -478,7 +478,7 @@ class
 OpaqueResponse
 {
 Block
-Alllow
+Allow
 SniffCompressed
 Sniff
 }
