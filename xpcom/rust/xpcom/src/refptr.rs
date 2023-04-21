@@ -63,9 +63,7 @@ crate
 interfaces
 :
 :
-{
 nsISupports
-}
 ;
 use
 libc
