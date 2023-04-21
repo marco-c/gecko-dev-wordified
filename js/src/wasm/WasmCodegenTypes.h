@@ -4220,7 +4220,7 @@ bits_
 ;
 }
 uint32_t
-instanceDataOffset
+globalDataOffset
 (
 )
 const
@@ -4436,7 +4436,7 @@ funcIndex_
 struct
 {
 uint32_t
-instanceDataOffset_
+globalDataOffset_
 ;
 }
 import
@@ -4444,7 +4444,7 @@ import
 struct
 {
 uint32_t
-instanceDataOffset_
+globalDataOffset_
 ;
 uint32_t
 minLength_
@@ -4488,7 +4488,7 @@ CalleeDesc
 import
 (
 uint32_t
-instanceDataOffset
+globalDataOffset
 )
 ;
 static
@@ -4496,15 +4496,9 @@ CalleeDesc
 wasmTable
 (
 const
-ModuleEnvironment
-&
-moduleEnv
-const
 TableDesc
 &
 desc
-uint32_t
-tableIndex
 CallIndirectId
 callIndirectId
 )
@@ -4514,11 +4508,9 @@ CalleeDesc
 asmJSTable
 (
 const
-ModuleEnvironment
+TableDesc
 &
-moduleEnv
-uint32_t
-tableIndex
+desc
 )
 ;
 static
@@ -4574,7 +4566,7 @@ funcIndex_
 ;
 }
 uint32_t
-importInstanceDataOffset
+importGlobalDataOffset
 (
 )
 const
@@ -4592,7 +4584,7 @@ u
 .
 import
 .
-instanceDataOffset_
+globalDataOffset_
 ;
 }
 bool
@@ -4615,7 +4607,7 @@ AsmJSTable
 ;
 }
 uint32_t
-tableLengthInstanceDataOffset
+tableLengthGlobalDataOffset
 (
 )
 const
@@ -4632,7 +4624,7 @@ u
 .
 table
 .
-instanceDataOffset_
+globalDataOffset_
 +
 offsetof
 (
@@ -4642,7 +4634,7 @@ length
 ;
 }
 uint32_t
-tableFunctionBaseInstanceDataOffset
+tableFunctionBaseGlobalDataOffset
 (
 )
 const
@@ -4659,7 +4651,7 @@ u
 .
 table
 .
-instanceDataOffset_
+globalDataOffset_
 +
 offsetof
 (

@@ -2550,7 +2550,7 @@ ElemSegmentVector
 &
 elemSegments
 uint32_t
-instanceDataLength
+globalDataLength
 Handle
 <
 WasmMemoryObject

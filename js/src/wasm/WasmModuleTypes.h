@@ -2431,6 +2431,9 @@ kind
 SharedTagType
 type
 ;
+uint32_t
+globalDataOffset
+;
 bool
 isExport
 ;
@@ -2438,6 +2441,10 @@ TagDesc
 (
 )
 :
+globalDataOffset
+(
+UINT32_MAX
+)
 isExport
 (
 false
@@ -2465,6 +2472,10 @@ kind
 type
 (
 type
+)
+globalDataOffset
+(
+UINT32_MAX
 )
 isExport
 (
@@ -3931,6 +3942,9 @@ bool
 isAsmJS
 ;
 uint32_t
+globalDataOffset
+;
+uint32_t
 initialLength
 ;
 Maybe
@@ -3996,6 +4010,10 @@ isExported
 isAsmJS
 (
 isAsmJS
+)
+globalDataOffset
+(
+UINT32_MAX
 )
 initialLength
 (
