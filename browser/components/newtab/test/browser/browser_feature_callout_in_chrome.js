@@ -249,7 +249,6 @@ val
 >
 {
 return
-(
 val
 ?
 .
@@ -272,8 +271,9 @@ source
 =
 =
 =
-PDF_TEST_URL
-)
+"
+chrome
+"
 ;
 }
 )

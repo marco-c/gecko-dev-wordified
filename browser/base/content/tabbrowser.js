@@ -1658,11 +1658,11 @@ feature
 -
 tour
 "
-source
+page
 :
-location
-.
-spec
+"
+chrome
+"
 }
 )
 ;

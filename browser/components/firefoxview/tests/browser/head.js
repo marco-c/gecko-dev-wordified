@@ -3092,6 +3092,8 @@ context
 source
 :
 "
+about
+:
 firefoxview
 "
 }
