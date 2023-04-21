@@ -1,7 +1,7 @@
 /
 *
 Copyright
-2022
+2023
 Mozilla
 Foundation
 *
