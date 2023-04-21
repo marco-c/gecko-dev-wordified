@@ -311,6 +311,8 @@ re
 import
 codecs
 import
+collections
+import
 dataclasses
 import
 enum
@@ -3852,8 +3854,12 @@ exists
     
 used_tests
 =
-{
-}
+collections
+.
+defaultdict
+(
+set
+)
     
 for
 test
@@ -3892,32 +3898,59 @@ t
 '
 )
         
-if
-name
-in
+enabled_canvas_types
+=
+_get_enabled_canvas_types
+(
+test
+)
+        
+already_tested
+=
 used_tests
+[
+name
+]
+.
+intersection
+(
+enabled_canvas_types
+)
+        
+if
+already_tested
 :
             
-print
+raise
+InvalidTestDefinitionError
 (
+                
+f
 '
 Test
-%
-s
+{
+name
+}
 is
 defined
 twice
+for
+types
+{
+already_tested
+}
 '
-%
-name
 )
         
 used_tests
 [
 name
 ]
-=
-1
+.
+update
+(
+enabled_canvas_types
+)
         
 sub_dir
 =
@@ -3925,13 +3958,6 @@ _get_test_sub_dir
 (
 name
 name_to_sub_dir
-)
-        
-enabled_canvas_types
-=
-_get_enabled_canvas_types
-(
-test
 )
         
 _generate_test
