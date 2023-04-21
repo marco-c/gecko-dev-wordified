@@ -637,13 +637,6 @@ DEFINE_ASYNC
 HostWebGLContext
 :
 :
-ProvokingVertex
-)
-DEFINE_ASYNC
-(
-HostWebGLContext
-:
-:
 Present
 )
 DEFINE_ASYNC
