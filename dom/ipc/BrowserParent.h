@@ -3855,6 +3855,13 @@ WindowContext
 >
 &
 aSourceWindowContext
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aSourceTopWindowContext
 )
 ;
 void

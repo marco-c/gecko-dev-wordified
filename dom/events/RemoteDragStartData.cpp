@@ -200,6 +200,9 @@ aCookieJarSettings
 WindowContext
 *
 aSourceWindowContext
+WindowContext
+*
+aSourceTopWindowContext
 )
 :
 mBrowserParent
@@ -235,6 +238,10 @@ aCookieJarSettings
 mSourceWindowContext
 (
 aSourceWindowContext
+)
+mSourceTopWindowContext
+(
+aSourceTopWindowContext
 )
 {
 }
