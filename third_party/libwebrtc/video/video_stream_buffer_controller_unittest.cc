@@ -835,11 +835,6 @@ GetClock
 )
 fake_metronome_
 (
-time_controller_
-.
-GetTaskQueueFactory
-(
-)
 TimeDelta
 :
 :
@@ -980,12 +975,6 @@ Stop
 )
 ;
 }
-fake_metronome_
-.
-Stop
-(
-)
-;
 time_controller_
 .
 AdvanceTime

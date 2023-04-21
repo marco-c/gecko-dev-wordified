@@ -961,6 +961,12 @@ unique_ptr
 Metronome
 >
 metronome_
+RTC_GUARDED_BY
+(
+worker_thread
+(
+)
+)
 ;
 }
 ;
