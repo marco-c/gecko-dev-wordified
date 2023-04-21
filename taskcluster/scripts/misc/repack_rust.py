@@ -3043,6 +3043,12 @@ git
 =
 false
         
+use
+-
+lld
+=
+true
+        
 [
 install
 ]
@@ -3220,23 +3226,6 @@ toolchains
 are
 visible
     
-binutils
-=
-os
-.
-path
-.
-join
-(
-fetches
-"
-binutils
-"
-"
-bin
-"
-)
-    
 clang
 =
 os
@@ -3307,7 +3296,6 @@ pathsep
 join
 (
 (
-binutils
 clang_bin
 os
 .
