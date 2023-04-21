@@ -416,13 +416,16 @@ Tests
 function
 callError
 (
-message
 )
 {
 return
 [
 {
-message
+messageId
+:
+"
+noCompareBoolean
+"
 type
 :
 "
@@ -432,22 +435,6 @@ BinaryExpression
 ]
 ;
 }
-const
-MESSAGE
-=
-"
-Don
-'
-t
-compare
-for
-inexact
-equality
-against
-boolean
-literals
-"
-;
 ruleTester
 .
 run
@@ -503,7 +490,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 {
@@ -522,7 +508,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 {
@@ -541,7 +526,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 {
@@ -560,7 +544,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 {
@@ -579,7 +562,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 {
@@ -598,7 +580,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 {
@@ -617,7 +598,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 {
@@ -636,7 +616,6 @@ errors
 :
 callError
 (
-MESSAGE
 )
 }
 ]
