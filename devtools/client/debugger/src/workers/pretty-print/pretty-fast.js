@@ -35,24 +35,6 @@ complexity
 eslint
 -
 disable
-mozilla
-/
-var
--
-only
--
-at
--
-top
--
-level
-*
-/
-/
-*
-eslint
--
-disable
 no
 -
 undef
@@ -264,7 +246,7 @@ an
 array
 literal
 .
-var
+const
 PRE_ARRAY_LITERAL_TOKENS
 =
 {
@@ -633,7 +615,7 @@ ASI
 cannot
 happen
 .
-var
+const
 PREVENT_ASI_AFTER_TOKENS
 =
 {
@@ -915,7 +897,7 @@ ASI
 cannot
 happen
 .
-var
+const
 PREVENT_ASI_BEFORE_TOKENS
 =
 {
@@ -1206,7 +1188,7 @@ isIdentifierLike
 token
 )
 {
-var
+const
 ttl
 =
 token
@@ -1534,7 +1516,7 @@ return
 true
 ;
 }
-var
+const
 ttl
 =
 token
@@ -1543,7 +1525,7 @@ type
 .
 label
 ;
-var
+const
 top
 =
 stack
@@ -1885,7 +1867,7 @@ return
 true
 ;
 }
-var
+const
 ltt
 =
 lastToken
@@ -1989,7 +1971,7 @@ return
 true
 ;
 }
-var
+const
 ltk
 =
 lastToken
@@ -1998,7 +1980,7 @@ type
 .
 keyword
 ;
-var
+const
 ttl
 =
 token
@@ -2495,7 +2477,7 @@ indentLevel
 stack
 )
 {
-var
+const
 ttk
 =
 token
@@ -2504,7 +2486,7 @@ type
 .
 keyword
 ;
-var
+const
 ttl
 =
 token
@@ -2513,17 +2495,17 @@ type
 .
 label
 ;
-var
+let
 newlineAdded
 =
 addedNewline
 ;
-var
+let
 spaceAdded
 =
 addedSpace
 ;
-var
+const
 ltt
 =
 lastToken
@@ -3167,7 +3149,7 @@ str
 n
 )
 {
-var
+let
 result
 =
 "
@@ -3234,7 +3216,7 @@ characters
 .
 *
 /
-var
+const
 sanitize
 =
 (
@@ -3242,7 +3224,7 @@ function
 (
 )
 {
-var
+const
 escapeCharacters
 =
 {
@@ -3385,7 +3367,7 @@ quotes
 "
 }
 ;
-var
+const
 regExpString
 =
 "
@@ -3426,7 +3408,7 @@ join
 )
 "
 ;
-var
+const
 escapeCharactersRegExp
 =
 new
@@ -3716,7 +3698,7 @@ belongsOnStack
 token
 )
 {
-var
+const
 ttl
 =
 token
@@ -3725,7 +3707,7 @@ type
 .
 label
 ;
-var
+const
 ttk
 =
 token
@@ -3836,7 +3818,7 @@ token
 stack
 )
 {
-var
+const
 ttl
 =
 token
@@ -3845,7 +3827,7 @@ type
 .
 label
 ;
-var
+const
 ttk
 =
 token
@@ -3854,7 +3836,7 @@ type
 .
 keyword
 ;
-var
+const
 top
 =
 stack
@@ -4237,7 +4219,7 @@ column
 nextToken
 )
 {
-var
+const
 indentString
 =
 repeat
@@ -4248,7 +4230,7 @@ indent
 indentLevel
 )
 ;
-var
+let
 needNewline
 =
 true
@@ -4519,7 +4501,7 @@ deep
 we
 are
 .
-var
+let
 indentLevel
 =
 0
@@ -4537,7 +4519,7 @@ in
 this
 SourceNode
 .
-var
+const
 result
 =
 new
@@ -4704,7 +4686,7 @@ mapping
 .
 *
 /
-var
+const
 write
 =
 (
@@ -4712,19 +4694,19 @@ function
 (
 )
 {
-var
+const
 buffer
 =
 [
 ]
 ;
-var
+let
 bufferLine
 =
 -
 1
 ;
-var
+let
 bufferColumn
 =
 -
@@ -4804,7 +4786,7 @@ n
 ignoreNewline
 )
 {
-var
+let
 lineStr
 =
 "
@@ -4812,7 +4794,7 @@ lineStr
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4901,7 +4883,7 @@ the
 last
 token
 .
-var
+let
 addedNewline
 =
 false
@@ -4922,7 +4904,7 @@ the
 last
 token
 .
-var
+let
 addedSpace
 =
 false
@@ -4942,7 +4924,7 @@ pretty
 printed
 code
 .
-var
+let
 token
 ;
 /
@@ -4967,7 +4949,7 @@ access
 /
 properties
 .
-var
+let
 ttl
 ;
 /
@@ -4992,7 +4974,7 @@ access
 /
 properties
 .
-var
+let
 ttk
 ;
 /
@@ -5008,7 +4990,7 @@ pretty
 printed
 code
 .
-var
+let
 lastToken
 ;
 /
@@ -5213,7 +5195,7 @@ we
 find
 them
 .
-var
+const
 stack
 =
 [
@@ -5297,13 +5279,13 @@ b
 '
 bar
 ]
-var
+const
 tokenQueue
 =
 [
 ]
 ;
-var
+const
 tokens
 =
 acorn
@@ -5412,7 +5394,7 @@ break
 }
 for
 (
-var
+let
 i
 =
 0
@@ -5435,7 +5417,7 @@ tokenQueue
 i
 ]
 ;
-var
+const
 nextToken
 =
 tokenQueue
@@ -5452,7 +5434,7 @@ token
 comment
 )
 {
-var
+let
 commentIndentLevel
 =
 indentLevel
