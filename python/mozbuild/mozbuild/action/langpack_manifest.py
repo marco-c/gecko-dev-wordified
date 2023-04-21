@@ -3172,7 +3172,7 @@ browser
 }
 #
 '
-browser_specific_settings
+applications
 '
 :
 {
@@ -3338,7 +3338,7 @@ manifest_version
 2
         
 "
-browser_specific_settings
+applications
 "
 :
 {
