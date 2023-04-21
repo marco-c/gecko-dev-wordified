@@ -1999,16 +1999,6 @@ return
 false
 ;
 }
-/
-/
-TODO
-bug
-1773319
-maybeCx
-nullptr
-could
-crash
-here
 if
 (
 input
@@ -2018,6 +2008,9 @@ options
 populateDelazificationCache
 (
 )
+&
+&
+maybeCx
 &
 &
 !
