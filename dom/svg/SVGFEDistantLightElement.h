@@ -173,6 +173,7 @@ SVGFELightElement
 ;
 class
 SVGFEDistantLightElement
+final
 :
 public
 SVGFEDistantLightElementBase

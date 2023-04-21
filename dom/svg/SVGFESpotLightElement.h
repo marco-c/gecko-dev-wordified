@@ -173,6 +173,7 @@ SVGFELightElement
 ;
 class
 SVGFESpotLightElement
+final
 :
 public
 SVGFESpotLightElementBase

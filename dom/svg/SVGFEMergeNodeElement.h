@@ -166,6 +166,7 @@ SVGFEUnstyledElement
 ;
 class
 SVGFEMergeNodeElement
+final
 :
 public
 SVGFEMergeNodeElementBase

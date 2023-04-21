@@ -166,6 +166,7 @@ SVGFE
 ;
 class
 SVGFETileElement
+final
 :
 public
 SVGFETileElementBase

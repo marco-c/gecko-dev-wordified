@@ -187,6 +187,7 @@ SVGFE
 ;
 class
 SVGFEDropShadowElement
+final
 :
 public
 SVGFEDropShadowElementBase

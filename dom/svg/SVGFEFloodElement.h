@@ -166,6 +166,7 @@ SVGFE
 ;
 class
 SVGFEFloodElement
+final
 :
 public
 SVGFEFloodElementBase

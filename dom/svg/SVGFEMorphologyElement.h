@@ -187,6 +187,7 @@ SVGFE
 ;
 class
 SVGFEMorphologyElement
+final
 :
 public
 SVGFEMorphologyElementBase

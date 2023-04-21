@@ -180,6 +180,7 @@ SVGFE
 ;
 class
 SVGFECompositeElement
+final
 :
 public
 SVGFECompositeElementBase

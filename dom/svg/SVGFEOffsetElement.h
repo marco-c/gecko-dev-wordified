@@ -180,6 +180,7 @@ SVGFE
 ;
 class
 SVGFEOffsetElement
+final
 :
 public
 SVGFEOffsetElementBase

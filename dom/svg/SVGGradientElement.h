@@ -562,6 +562,7 @@ SVGGradientElement
 ;
 class
 SVGLinearGradientElement
+final
 :
 public
 SVGLinearGradientElementBase
@@ -789,6 +790,7 @@ SVGGradientElement
 ;
 class
 SVGRadialGradientElement
+final
 :
 public
 SVGRadialGradientElementBase

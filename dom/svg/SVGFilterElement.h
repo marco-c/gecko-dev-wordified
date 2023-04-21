@@ -196,6 +196,7 @@ SVGElement
 ;
 class
 SVGFilterElement
+final
 :
 public
 SVGFilterElementBase

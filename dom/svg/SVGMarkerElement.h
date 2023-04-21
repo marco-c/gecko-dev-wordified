@@ -242,6 +242,7 @@ SVGElement
 ;
 class
 SVGMarkerElement
+final
 :
 public
 SVGMarkerElementBase

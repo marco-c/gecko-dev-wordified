@@ -180,6 +180,7 @@ SVGFE
 ;
 class
 SVGFEGaussianBlurElement
+final
 :
 public
 SVGFEGaussianBlurElementBase
