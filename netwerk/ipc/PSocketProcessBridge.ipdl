@@ -178,7 +178,6 @@ process
 *
 /
 [
-ManualDealloc
 NeedsOtherPid
 ]
 sync
