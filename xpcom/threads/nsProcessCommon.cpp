@@ -2775,6 +2775,10 @@ options
 &
 newPid
 )
+.
+isOk
+(
+)
 )
 {
 static_assert

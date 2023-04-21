@@ -7701,9 +7701,7 @@ LaunchPromise
 :
 CreateAndReject
 (
-LaunchError
-(
-)
+NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 __func__
 )
 ;
@@ -7952,6 +7950,8 @@ this
 }
 aPriority
 ]
+(
+)
 {
 if
 (
@@ -8030,9 +8030,7 @@ LaunchPromise
 :
 CreateAndReject
 (
-LaunchError
-(
-)
+NS_ERROR_INVALID_ARG
 __func__
 )
 ;
@@ -8045,6 +8043,8 @@ RefPtr
 this
 }
 ]
+(
+)
 {
 MOZ_LOG
 (
@@ -8081,9 +8081,7 @@ LaunchPromise
 :
 CreateAndReject
 (
-LaunchError
-(
-)
+NS_ERROR_FAILURE
 __func__
 )
 ;
@@ -18591,9 +18589,7 @@ LaunchPromise
 :
 CreateAndReject
 (
-LaunchError
-(
-)
+NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 __func__
 )
 ;
@@ -18711,9 +18707,7 @@ LaunchPromise
 :
 CreateAndReject
 (
-LaunchError
-(
-)
+NS_ERROR_FAILURE
 __func__
 )
 ;

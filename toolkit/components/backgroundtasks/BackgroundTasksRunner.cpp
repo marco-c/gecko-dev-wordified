@@ -113,6 +113,15 @@ h
 "
 #
 endif
+#
+include
+"
+mozilla
+/
+ResultVariant
+.
+h
+"
 namespace
 mozilla
 {
@@ -305,7 +314,6 @@ NS_ERROR_FAILURE
 }
 if
 (
-!
 base
 :
 :
@@ -314,6 +322,10 @@ LaunchApp
 assembledCmdLine
 options
 nullptr
+)
+.
+isErr
+(
 )
 )
 {
@@ -377,7 +389,6 @@ get
 }
 if
 (
-!
 base
 :
 :
@@ -386,6 +397,10 @@ LaunchApp
 argv
 options
 nullptr
+)
+.
+isErr
+(
 )
 )
 {
