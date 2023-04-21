@@ -3748,11 +3748,6 @@ y
 )
 )
 ;
-/
-/
-For
-testing
-purpose
 if
 (
 observer_
@@ -3785,11 +3780,6 @@ position
 y
 )
 ;
-/
-/
-For
-testing
-purpose
 if
 (
 observer_
@@ -4417,11 +4407,6 @@ if
 src
 )
 {
-/
-/
-For
-testing
-purpose
 if
 (
 observer_
@@ -5461,11 +5446,6 @@ stride
 ;
 }
 }
-/
-/
-For
-testing
-purpose
 if
 (
 observer_
