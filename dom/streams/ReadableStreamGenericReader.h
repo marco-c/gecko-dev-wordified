@@ -410,6 +410,9 @@ mStream
 ;
 }
 ;
+namespace
+streams_abstract
+{
 bool
 ReadableStreamReaderGenericInitialize
 (
@@ -432,6 +435,11 @@ ErrorResult
 aRv
 )
 ;
+}
+/
+/
+namespace
+streams_abstract
 }
 /
 /

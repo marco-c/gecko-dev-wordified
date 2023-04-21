@@ -251,6 +251,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_INHERITED
 (
 ReadableStreamBYOBReader
@@ -1153,6 +1157,9 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 ReadIntoRequest
 )
+namespace
+streams_abstract
+{
 /
 /
 https
@@ -1426,6 +1433,11 @@ aRv
 )
 ;
 }
+}
+/
+/
+namespace
+streams_abstract
 /
 /
 https
@@ -1903,6 +1915,9 @@ forget
 )
 ;
 }
+namespace
+streams_abstract
+{
 /
 /
 https
@@ -2238,6 +2253,11 @@ aRv
 )
 ;
 }
+}
+/
+/
+namespace
+streams_abstract
 /
 /
 https
@@ -2361,6 +2381,9 @@ aRv
 )
 ;
 }
+namespace
+streams_abstract
+{
 /
 /
 https
@@ -2478,6 +2501,11 @@ forget
 )
 ;
 }
+}
+/
+/
+namespace
+streams_abstract
 }
 /
 /

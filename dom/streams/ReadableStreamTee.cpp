@@ -296,6 +296,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 ReadableStreamDefaultTeeSourceAlgorithms
@@ -6317,6 +6321,9 @@ aThisReader
 )
 ;
 }
+namespace
+streams_abstract
+{
 /
 /
 https
@@ -6632,6 +6639,11 @@ Branch2
 )
 ;
 }
+}
+/
+/
+namespace
+streams_abstract
 }
 /
 /
