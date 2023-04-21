@@ -169,7 +169,6 @@ compositor
 *
 /
 [
-ManualDealloc
 NeedsOtherPid
 ]
 sync
