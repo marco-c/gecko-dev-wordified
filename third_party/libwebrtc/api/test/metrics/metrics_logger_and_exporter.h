@@ -349,6 +349,9 @@ std
 string
 >
 metadata
+=
+{
+}
 )
 ;
 /
@@ -414,6 +417,9 @@ std
 string
 >
 metadata
+=
+{
+}
 )
 ;
 /
@@ -487,6 +493,9 @@ std
 string
 >
 metadata
+=
+{
+}
 )
 ;
 /
