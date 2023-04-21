@@ -1791,7 +1791,7 @@ self
 load_text_file
 (
 "
-rootingHazards
+hazards
 .
 txt
 "

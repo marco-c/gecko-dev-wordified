@@ -1171,9 +1171,23 @@ command
 "
 :
 [
+            
 "
-cat
+{
+js
+}
 "
+            
+"
+{
+analysis_scriptdir
+}
+/
+mergeJSON
+.
+js
+"
+            
 MultiInput
 (
 "
@@ -1182,19 +1196,27 @@ hazards
 }
 "
 )
+            
+Output
+(
+"
+all_hazards
+"
+)
+        
 ]
         
 "
-redirect
--
-output
+outputs
 "
 :
+[
 "
 rootingHazards
 .
-txt
+json
 "
+]
     
 }
     
@@ -1226,9 +1248,7 @@ py
             
 "
 {
-gather
--
-hazards
+all_hazards
 }
 "
             
@@ -1258,6 +1278,13 @@ Output
 refs
 "
 )
+            
+Output
+(
+"
+html
+"
+)
         
 ]
         
@@ -1280,6 +1307,11 @@ txt
 refs
 .
 txt
+"
+"
+hazards
+.
+html
 "
 ]
     
