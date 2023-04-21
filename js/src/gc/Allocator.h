@@ -580,7 +580,7 @@ cx
 >
 newCell
 <
-StringT
+T
 >
 (
 [
@@ -632,7 +632,7 @@ path
 template
 <
 typename
-StringT
+T
 AllowGC
 allowGC
 =
@@ -644,7 +644,7 @@ typename
 Args
 >
 static
-StringT
+T
 *
 AllocateString
 (
@@ -673,7 +673,7 @@ std
 is_base_of_v
 <
 JSString
-StringT
+T
 >
 )
 ;
@@ -688,7 +688,7 @@ gc
 :
 MapTypeToAllocKind
 <
-StringT
+T
 >
 :
 :
@@ -707,7 +707,7 @@ cx
 kind
 sizeof
 (
-StringT
+T
 )
 heap
 )
@@ -731,7 +731,7 @@ mozilla
 KnownNotNull
 ptr
 )
-StringT
+T
 (
 std
 :
