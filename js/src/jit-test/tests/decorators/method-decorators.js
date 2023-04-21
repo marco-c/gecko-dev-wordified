@@ -5,14 +5,6 @@ jit
 -
 test
 |
--
--
-no
--
-jit
--
-backend
-;
 skip
 -
 if
