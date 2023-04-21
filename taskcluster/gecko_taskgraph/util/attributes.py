@@ -124,10 +124,6 @@ comm
 -
 esr102
 "
-    
-"
-oak
-"
 }
 RELEASE_PROMOTION_PROJECTS
 =
@@ -167,7 +163,7 @@ When
 using
 a
 "
-Disposeabel
+Disposable
 Project
 Branch
 "
@@ -184,10 +180,9 @@ g
 .
 :
         
-#
-'
+"
 oak
-'
+"
     
 }
 )
