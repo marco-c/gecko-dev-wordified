@@ -576,15 +576,16 @@ ThemeNeedsComboboxDropmarker
 )
 override
 ;
-ScrollbarSizes
-GetScrollbarSizes
+LayoutDeviceIntCoord
+GetScrollbarSize
 (
+const
 nsPresContext
 *
 StyleScrollbarWidth
 Overlay
 )
-override
+final
 ;
 nscoord
 GetCheckboxRadioPrefSize
@@ -611,7 +612,6 @@ Theme
 =
 default
 ;
-static
 DPIRatio
 GetDPIRatio
 (
@@ -620,7 +620,6 @@ nsPresContext
 StyleAppearance
 )
 ;
-static
 DPIRatio
 GetDPIRatio
 (
