@@ -5027,6 +5027,12 @@ js
 SupportDifferentialTesting
 (
 )
+&
+&
+!
+supportsIndices
+(
+)
 )
 {
 /
