@@ -2416,7 +2416,6 @@ ww
 getWindowByName
 (
 DIALOG_WINDOW_NAME
-null
 )
 ;
 }

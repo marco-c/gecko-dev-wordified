@@ -1174,7 +1174,6 @@ report
 -
 dialog
 "
-null
 )
 ;
 }

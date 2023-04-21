@@ -1203,9 +1203,6 @@ ww
 getWindowByName
 (
 referrerSessionId
-this
-.
-window
 )
 ;
 triggeringPrincipal
