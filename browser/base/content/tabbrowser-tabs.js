@@ -1797,16 +1797,9 @@ tab
 animate
 :
 true
-byMouse
+triggeringEvent
 :
 event
-.
-mozInputSource
-=
-=
-MouseEvent
-.
-MOZ_SOURCE_MOUSE
 }
 )
 ;

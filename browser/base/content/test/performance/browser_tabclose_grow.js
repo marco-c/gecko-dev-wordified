@@ -588,9 +588,6 @@ tab
 animate
 :
 true
-byMouse
-:
-true
 }
 )
 ;
