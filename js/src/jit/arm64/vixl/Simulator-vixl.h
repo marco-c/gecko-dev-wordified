@@ -6540,6 +6540,7 @@ LOG_REG
 and
 LOG_VREG
 .
+inline
 void
 LogWrittenRegisters
 (
@@ -6558,6 +6559,7 @@ PrintWrittenRegisters
 )
 ;
 }
+inline
 void
 LogWrittenVRegisters
 (
@@ -6576,6 +6578,7 @@ PrintWrittenVRegisters
 )
 ;
 }
+inline
 void
 LogAllWrittenRegisters
 (
