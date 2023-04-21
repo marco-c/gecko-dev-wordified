@@ -700,6 +700,7 @@ target
 target_sysroot
 .
 path
+android_version
 )
 checking
 (
@@ -733,6 +734,7 @@ cxx_compiler
 clang_search_path
 target
 sysroot_path
+android_version
 )
 :
 #
@@ -1037,6 +1039,7 @@ C
 +
 "
 target
+android_version
 )
 #
 Usually
@@ -1126,6 +1129,7 @@ C
 +
 "
 target
+android_version
 )
 return
 namespace
