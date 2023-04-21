@@ -2604,6 +2604,11 @@ ReadOnlyData
 SectionKind
 :
 :
+ReadOnlyDataWithRel
+|
+SectionKind
+:
+:
 ReadOnlyString
 =
 >
