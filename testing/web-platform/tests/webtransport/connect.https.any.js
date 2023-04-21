@@ -41,6 +41,13 @@ helpers
 sub
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 promise_test
 (
 async
