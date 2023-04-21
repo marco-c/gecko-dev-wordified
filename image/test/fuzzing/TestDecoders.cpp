@@ -882,6 +882,8 @@ image
 .
 avif
 .
+sequence
+.
 enabled
 "
 true
