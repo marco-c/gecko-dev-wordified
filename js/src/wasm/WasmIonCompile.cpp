@@ -39800,6 +39800,9 @@ tableIndexArg
 )
 ;
 }
+#
+if
+ENABLE_WASM_MEMORY_CONTROL
 static
 bool
 EmitMemDiscard
@@ -39923,6 +39926,8 @@ memoryBase
 )
 ;
 }
+#
+endif
 static
 bool
 EmitTableGet
