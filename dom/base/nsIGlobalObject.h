@@ -1824,7 +1824,7 @@ dom
 :
 FontFaceSet
 *
-Fonts
+GetFonts
 (
 )
 {

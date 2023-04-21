@@ -9989,7 +9989,7 @@ FontFaceSet
 nsGlobalWindowInner
 :
 :
-Fonts
+GetFonts
 (
 )
 {
