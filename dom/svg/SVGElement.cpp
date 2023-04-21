@@ -7718,7 +7718,7 @@ referrerInfo
 ReferrerInfo
 :
 :
-CreateForSVGResources
+CreateForInternalCSSAndSVGResources
 (
 mElement
 .

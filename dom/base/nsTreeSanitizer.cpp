@@ -11038,7 +11038,7 @@ referrer
 ReferrerInfo
 :
 :
-CreateForInternalCSSResources
+CreateForInternalCSSAndSVGResources
 (
 aDocument
 )

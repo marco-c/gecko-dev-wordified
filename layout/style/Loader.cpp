@@ -12118,7 +12118,7 @@ referrerInfo
 ReferrerInfo
 :
 :
-CreateForInternalCSSResources
+CreateForInternalCSSAndSVGResources
 (
 aInfo
 .

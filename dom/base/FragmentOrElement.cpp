@@ -2357,7 +2357,7 @@ referrerInfo
 ReferrerInfo
 :
 :
-CreateForInternalCSSResources
+CreateForInternalCSSAndSVGResources
 (
 OwnerDoc
 (

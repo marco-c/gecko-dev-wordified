@@ -10262,7 +10262,7 @@ dom
 ReferrerInfo
 :
 :
-CreateForInternalCSSResources
+CreateForInternalCSSAndSVGResources
 (
 ownerDoc
 )

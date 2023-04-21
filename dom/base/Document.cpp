@@ -40164,7 +40164,7 @@ mCachedReferrerInfo
 ReferrerInfo
 :
 :
-CreateForInternalCSSResources
+CreateForInternalCSSAndSVGResources
 (
 this
 )
