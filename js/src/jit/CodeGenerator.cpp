@@ -101638,7 +101638,7 @@ js
 jit
 :
 :
-SetElementMegamorphic
+SetElementMegamorphicCached
 >
 (
 lir
