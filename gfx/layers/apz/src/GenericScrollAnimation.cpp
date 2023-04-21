@@ -210,7 +210,9 @@ aInitialPosition
 ScrollAnimationBezierPhysics
 (
 despite
-its
+it
+'
+s
 name
 )
 handles
@@ -239,9 +241,10 @@ smoothly
 .
 if
 (
-aApzc
-.
-IsSmoothScrollingEnabled
+StaticPrefs
+:
+:
+general_smoothScroll
 (
 )
 &

@@ -139,13 +139,6 @@ APZPublicUtils
 .
 h
 "
-#
-include
-"
-AsyncPanZoomController
-.
-h
-"
 namespace
 mozilla
 {
@@ -178,11 +171,6 @@ apz
 ComputeBezierAnimationSettingsForOrigin
 (
 aOrigin
-aApzc
-.
-IsSmoothScrollingEnabled
-(
-)
 )
 )
 mOrigin
