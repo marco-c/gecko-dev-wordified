@@ -537,15 +537,15 @@ AnalyzePreProcess
 (
 )
 on
-manager
+controller
 num_calls
 times
 .
 peak_ratio
+/
+/
 is
 a
-/
-/
 value
 in
 [
@@ -563,9 +563,9 @@ samples
 1
 maps
 to
+/
+/
 full
-/
-/
 scale
 )
 .
@@ -582,9 +582,9 @@ frames
 which
 are
 half
+/
+/
 filled
-/
-/
 with
 zeros
 in
@@ -607,7 +607,7 @@ float
 peak_ratio
 InputVolumeController
 &
-manager
+controller
 )
 {
 RTC_DCHECK_LE
@@ -763,7 +763,7 @@ num_calls
 n
 )
 {
-manager
+controller
 .
 AnalyzePreProcess
 (
@@ -860,7 +860,7 @@ num_calls
 n
 )
 {
-manager
+controller
 .
 AnalyzePreProcess
 (
@@ -1304,7 +1304,7 @@ float
 speech_level
 InputVolumeController
 &
-manager
+controller
 )
 {
 for
@@ -1323,14 +1323,14 @@ num_calls
 n
 )
 {
-manager
+controller
 .
 AnalyzePreProcess
 (
 audio_buffer
 )
 ;
-manager
+controller
 .
 Process
 (
@@ -1493,14 +1493,14 @@ feeds
 the
 frames
 into
-agc
+controller
 by
 calling
+/
+/
 AnalyzePreProcess
 (
 )
-/
-/
 and
 Process
 (
@@ -1513,12 +1513,12 @@ Reads
 the
 number
 of
+/
+/
 10
 ms
 frames
 available
-/
-/
 in
 the
 PCM
@@ -1533,12 +1533,12 @@ i
 .
 e
 .
+/
+/
 does
 not
 loop
 .
-/
-/
 speech_probability
 and
 speech_level
@@ -1570,7 +1570,7 @@ float
 speech_level
 InputVolumeController
 &
-agc
+controller
 )
 {
 float
@@ -1749,14 +1749,14 @@ kMaxSample
 }
 )
 ;
-agc
+controller
 .
 AnalyzePreProcess
 (
 audio_buffer_
 )
 ;
-agc
+controller
 .
 Process
 (
@@ -2030,7 +2030,7 @@ kNumChannels
 kSampleRateHz
 kNumChannels
 )
-manager
+controller
 (
 /
 *
@@ -2044,7 +2044,7 @@ GetInputVolumeControllerTestConfig
 )
 )
 {
-manager
+controller
 .
 Initialize
 (
@@ -2140,21 +2140,21 @@ float
 speech_level
 )
 {
-manager
+controller
 .
 set_stream_analog_level
 (
 applied_input_volume
 )
 ;
-manager
+controller
 .
 AnalyzePreProcess
 (
 audio_buffer
 )
 ;
-manager
+controller
 .
 Process
 (
@@ -2163,7 +2163,7 @@ speech_level
 )
 ;
 return
-manager
+controller
 .
 recommended_analog_level
 (
@@ -2233,7 +2233,7 @@ num_calls
 i
 )
 {
-manager
+controller
 .
 Process
 (
@@ -2329,7 +2329,7 @@ num_calls
 i
 )
 {
-manager
+controller
 .
 AnalyzePreProcess
 (
@@ -2515,7 +2515,7 @@ num_calls
 i
 )
 {
-manager
+controller
 .
 AnalyzePreProcess
 (
@@ -2576,7 +2576,7 @@ num_calls
 i
 )
 {
-manager
+controller
 .
 AnalyzePreProcess
 (
@@ -2589,7 +2589,7 @@ AudioBuffer
 audio_buffer
 ;
 InputVolumeController
-manager
+controller
 ;
 }
 ;
@@ -2699,7 +2699,7 @@ EXPECT_EQ
 kInitialInputVolume
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -2828,7 +2828,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -2858,7 +2858,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -2954,7 +2954,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -2984,7 +2984,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3014,7 +3014,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3071,7 +3071,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3101,7 +3101,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3142,7 +3142,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3172,7 +3172,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3209,7 +3209,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3238,7 +3238,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3267,7 +3267,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3296,7 +3296,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3325,7 +3325,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3365,7 +3365,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3403,7 +3403,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3441,7 +3441,7 @@ kSpeechLevel
 ;
 helper
 .
-manager
+controller
 .
 HandleCaptureOutputUsedChange
 (
@@ -3450,7 +3450,7 @@ false
 ;
 helper
 .
-manager
+controller
 .
 Process
 (
@@ -3479,7 +3479,7 @@ kSpeechLevel
 ;
 helper
 .
-manager
+controller
 .
 HandleCaptureOutputUsedChange
 (
@@ -3488,7 +3488,7 @@ false
 ;
 helper
 .
-manager
+controller
 .
 HandleCaptureOutputUsedChange
 (
@@ -3503,7 +3503,7 @@ kInputVolume
 ;
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -3537,7 +3537,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3566,7 +3566,7 @@ kSpeechLevel
 ;
 helper
 .
-manager
+controller
 .
 HandleCaptureOutputUsedChange
 (
@@ -3575,7 +3575,7 @@ false
 ;
 helper
 .
-manager
+controller
 .
 HandleCaptureOutputUsedChange
 (
@@ -3590,7 +3590,7 @@ kInputVolume
 ;
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -3616,7 +3616,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3668,7 +3668,7 @@ ASSERT_NE
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3678,7 +3678,7 @@ recommended_analog_level
 ;
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -3707,7 +3707,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3727,7 +3727,7 @@ now
 .
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -3756,7 +3756,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3800,7 +3800,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3872,7 +3872,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3902,7 +3902,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3932,7 +3932,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -3953,7 +3953,7 @@ call
 .
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -3982,7 +3982,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4020,7 +4020,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4088,7 +4088,7 @@ taken
 .
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -4128,7 +4128,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4160,7 +4160,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4192,7 +4192,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4247,7 +4247,7 @@ EXPECT_GT
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4335,7 +4335,7 @@ action
 .
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -4367,7 +4367,7 @@ GetMinInputVolume
 )
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4417,7 +4417,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4470,7 +4470,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4529,7 +4529,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4586,7 +4586,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4618,7 +4618,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4650,7 +4650,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4707,7 +4707,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4739,7 +4739,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4796,7 +4796,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4826,7 +4826,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4883,7 +4883,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4913,7 +4913,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -4943,7 +4943,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5000,7 +5000,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5017,7 +5017,7 @@ volume
 .
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -5046,7 +5046,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5083,7 +5083,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5127,7 +5127,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5166,7 +5166,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5204,7 +5204,7 @@ initial_volume
 =
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5235,7 +5235,7 @@ EXPECT_EQ
 initial_volume
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5263,7 +5263,7 @@ kSpeechLevel
 ;
 helper
 .
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -5292,7 +5292,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5329,7 +5329,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5363,7 +5363,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5397,7 +5397,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5434,7 +5434,7 @@ EXPECT_FALSE
 (
 helper
 .
-manager
+controller
 .
 clipping_predictor_enabled
 (
@@ -5445,7 +5445,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5479,7 +5479,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5513,7 +5513,7 @@ EXPECT_EQ
 (
 helper
 .
-manager
+controller
 .
 recommended_analog_level
 (
@@ -5535,7 +5535,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -5546,7 +5546,7 @@ kClippedWaitFrames
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 channel_controllers_
@@ -5610,7 +5610,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -5621,7 +5621,7 @@ kClippedWaitFrames
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 channel_controllers_
@@ -5690,7 +5690,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -5701,7 +5701,7 @@ kClippedWaitFrames
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 channel_controllers_
@@ -5770,7 +5770,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -5781,7 +5781,7 @@ kClippedWaitFrames
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 channel_controllers_
@@ -5886,7 +5886,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -5897,7 +5897,7 @@ kClippedWaitFrames
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 channel_controllers_
@@ -6004,7 +6004,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -6013,14 +6013,14 @@ kClippedRatioThreshold
 kClippedWaitFrames
 )
 ;
-manager
+controller
 -
 >
 Initialize
 (
 )
 ;
-manager
+controller
 -
 >
 set_stream_analog_level
@@ -6029,7 +6029,7 @@ kInitialInputVolume
 )
 ;
 return
-manager
+controller
 ;
 }
 ;
@@ -6040,7 +6040,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 factory
 (
@@ -6184,7 +6184,7 @@ speech_level
 .
 0f
 *
-manager
+controller
 )
 ;
 CallPreProcessAndProcess
@@ -6223,7 +6223,7 @@ occurred
 .
 ASSERT_GT
 (
-manager
+controller
 -
 >
 recommended_analog_level
@@ -6247,7 +6247,7 @@ adaptation
 for
 /
 /
-manager
+controller
 which
 is
 allowed
@@ -6265,7 +6265,7 @@ manager_with_override
 recommended_analog_level
 (
 )
-manager
+controller
 -
 >
 recommended_analog_level
@@ -6440,7 +6440,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -6449,14 +6449,14 @@ kClippedRatioThreshold
 kClippedWaitFrames
 )
 ;
-manager
+controller
 -
 >
 Initialize
 (
 )
 ;
-manager
+controller
 -
 >
 set_stream_analog_level
@@ -6465,7 +6465,7 @@ kInitialInputVolume
 )
 ;
 return
-manager
+controller
 ;
 }
 ;
@@ -6476,7 +6476,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 factory
 (
@@ -6605,7 +6605,7 @@ speech_level
 .
 0f
 *
-manager
+controller
 )
 ;
 CallPreProcessAndProcess
@@ -6644,7 +6644,7 @@ occurred
 .
 ASSERT_GT
 (
-manager
+controller
 -
 >
 recommended_analog_level
@@ -6668,7 +6668,7 @@ adaptation
 for
 /
 /
-manager
+controller
 which
 is
 allowed
@@ -6686,7 +6686,7 @@ manager_with_override
 recommended_analog_level
 (
 )
-manager
+controller
 -
 >
 recommended_analog_level
@@ -6904,7 +6904,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 factory
 (
@@ -7070,7 +7070,7 @@ speech_level
 -
 18
 *
-manager
+controller
 )
 ;
 CallPreProcessAndProcess
@@ -7107,7 +7107,7 @@ occurred
 .
 ASSERT_GT
 (
-manager
+controller
 -
 >
 recommended_analog_level
@@ -7172,7 +7172,7 @@ detected
 .
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 recommended_analog_level
@@ -7417,7 +7417,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 factory
 (
@@ -7555,7 +7555,7 @@ speech_level
 .
 0f
 *
-manager
+controller
 )
 ;
 CallPreProcessAndProcess
@@ -7602,7 +7602,7 @@ occurred
 .
 ASSERT_GT
 (
-manager
+controller
 -
 >
 recommended_analog_level
@@ -7667,7 +7667,7 @@ detected
 .
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 recommended_analog_level
@@ -7777,7 +7777,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -7786,7 +7786,7 @@ kClippedRatioThreshold
 kClippedWaitFrames
 )
 ;
-manager
+controller
 -
 >
 Initialize
@@ -7795,7 +7795,7 @@ Initialize
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 clipped_level_step_
@@ -7804,7 +7804,7 @@ kClippedLevelStep
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 clipped_ratio_threshold_
@@ -7813,7 +7813,7 @@ kClippedRatioThreshold
 ;
 EXPECT_EQ
 (
-manager
+controller
 -
 >
 clipped_wait_frames_
@@ -7906,7 +7906,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -7922,7 +7922,7 @@ enable_clipping_predictor
 false
 )
 ;
-manager
+controller
 -
 >
 Initialize
@@ -7931,7 +7931,7 @@ Initialize
 ;
 EXPECT_FALSE
 (
-manager
+controller
 -
 >
 clipping_predictor_enabled
@@ -7941,7 +7941,7 @@ clipping_predictor_enabled
 ;
 EXPECT_FALSE
 (
-manager
+controller
 -
 >
 use_clipping_predictor_step
@@ -7963,7 +7963,7 @@ unique_ptr
 <
 InputVolumeController
 >
-manager
+controller
 =
 CreateInputVolumeController
 (
@@ -7979,7 +7979,7 @@ enable_clipping_predictor
 true
 )
 ;
-manager
+controller
 -
 >
 Initialize
@@ -7988,7 +7988,7 @@ Initialize
 ;
 EXPECT_TRUE
 (
-manager
+controller
 -
 >
 clipping_predictor_enabled
@@ -7998,7 +7998,7 @@ clipping_predictor_enabled
 ;
 EXPECT_TRUE
 (
-manager
+controller
 -
 >
 use_clipping_predictor_step
@@ -8038,7 +8038,7 @@ enable_clipping_predictor
 false
 ;
 InputVolumeController
-manager
+controller
 (
 /
 *
@@ -8050,13 +8050,13 @@ num_capture_channels
 config
 )
 ;
-manager
+controller
 .
 Initialize
 (
 )
 ;
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -8071,7 +8071,7 @@ level
 ;
 EXPECT_FALSE
 (
-manager
+controller
 .
 clipping_predictor_enabled
 (
@@ -8080,7 +8080,7 @@ clipping_predictor_enabled
 ;
 EXPECT_FALSE
 (
-manager
+controller
 .
 use_clipping_predictor_step
 (
@@ -8089,7 +8089,7 @@ use_clipping_predictor_step
 ;
 EXPECT_EQ
 (
-manager
+controller
 .
 recommended_analog_level
 (
@@ -8097,7 +8097,7 @@ recommended_analog_level
 255
 )
 ;
-manager
+controller
 .
 Process
 (
@@ -8123,12 +8123,12 @@ peak_ratio
 0
 .
 99f
-manager
+controller
 )
 ;
 EXPECT_EQ
 (
-manager
+controller
 .
 recommended_analog_level
 (
@@ -8154,12 +8154,12 @@ peak_ratio
 0
 .
 99f
-manager
+controller
 )
 ;
 EXPECT_EQ
 (
-manager
+controller
 .
 recommended_analog_level
 (
@@ -8185,12 +8185,12 @@ peak_ratio
 0
 .
 99f
-manager
+controller
 )
 ;
 EXPECT_EQ
 (
-manager
+controller
 .
 recommended_analog_level
 (
@@ -8809,7 +8809,7 @@ EmptyRmsErrorHasNoEffect
 )
 {
 InputVolumeController
-manager
+controller
 (
 kNumChannels
 GetInputVolumeControllerTestConfig
@@ -8817,7 +8817,7 @@ GetInputVolumeControllerTestConfig
 )
 )
 ;
-manager
+controller
 .
 Initialize
 (
@@ -8829,7 +8829,7 @@ kInputVolume
 =
 kInitialInputVolume
 ;
-manager
+controller
 .
 set_stream_analog_level
 (
@@ -8895,7 +8895,7 @@ absl
 :
 :
 nullopt
-manager
+controller
 )
 ;
 /
@@ -8908,7 +8908,7 @@ occurs
 .
 ASSERT_EQ
 (
-manager
+controller
 .
 recommended_analog_level
 (
