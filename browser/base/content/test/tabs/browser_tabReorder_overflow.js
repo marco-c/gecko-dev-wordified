@@ -199,7 +199,11 @@ overflowTabs
 (
 registerCleanupFunction
 window
+{
+overflowAtStart
+:
 false
+}
 )
 ;
 registerCleanupFunction
