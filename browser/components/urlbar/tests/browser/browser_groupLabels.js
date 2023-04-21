@@ -2948,10 +2948,7 @@ FIREFOX_SUGGEST_LABEL
 {
 hasGroupAriaLabel
 :
-true
-ariaLabel
-:
-null
+false
 }
 {
 hasGroupAriaLabel
