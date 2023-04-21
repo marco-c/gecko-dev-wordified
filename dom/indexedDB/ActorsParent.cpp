@@ -4852,14 +4852,14 @@ tunnel
 quota
 information
 to
-TelemetryVFS
+QuotaVFS
 to
 get
 corresponding
 QuotaObject
-/
-/
 instances
+/
+/
 for
 SQLite
 files

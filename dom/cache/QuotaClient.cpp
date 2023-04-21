@@ -1123,9 +1123,9 @@ tunnel
 quota
 information
 to
+QuotaVFS
 /
 /
-TelemetryVFS
 to
 get
 corresponding
@@ -1134,8 +1134,6 @@ instance
 for
 the
 SQLite
-/
-/
 file
 )
 .

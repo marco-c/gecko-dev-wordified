@@ -776,6 +776,9 @@ AutoVFSRegistration
 mTelemetryExclSqliteVFS
 ;
 AutoVFSRegistration
+mQuotaSqliteVFS
+;
+AutoVFSRegistration
 mObfuscatingSqliteVFS
 ;
 AutoVFSRegistration
