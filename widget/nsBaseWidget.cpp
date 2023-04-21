@@ -3619,6 +3619,10 @@ Destroy
 (
 )
 {
+DestroyCompositor
+(
+)
+;
 /
 /
 Just
