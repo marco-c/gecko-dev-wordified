@@ -154,6 +154,12 @@ string
 webrtc_test_metrics_output_path
 )
 ;
+ABSL_DECLARE_FLAG
+(
+bool
+export_perf_results_new_api
+)
+;
 #
 endif
 /
