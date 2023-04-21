@@ -56,6 +56,20 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+Narrator
+"
+]
+;
 /
 /
 Maximum
@@ -174,7 +188,6 @@ spacing
 "
 ]
 ;
-export
 function
 Narrator
 (
@@ -1924,7 +1937,7 @@ container
 *
 param
 {
-number
+Number
 }
 startOffset
 the
@@ -1933,7 +1946,7 @@ offset
 *
 param
 {
-number
+Number
 }
 length
 the
@@ -2371,7 +2384,7 @@ needed
 *
 param
 {
-number
+Number
 }
 count
 number
@@ -2568,7 +2581,7 @@ node
 *
 param
 {
-number
+Number
 }
 startOffset
 the
@@ -2577,7 +2590,7 @@ offset
 *
 param
 {
-number
+Number
 }
 endOffset
 the
