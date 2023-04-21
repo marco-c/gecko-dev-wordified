@@ -85,12 +85,17 @@ mfapi
 h
 >
 #
+ifdef
+MOZ_WMF_CDM
+#
 include
 "
 MFContentProtectionManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1004,6 +1009,9 @@ mMediaEngine
 )
 )
 ;
+#
+ifdef
+MOZ_WMF_CDM
 /
 /
 TODO
@@ -1027,6 +1035,8 @@ mContentProtectionManager
 )
 )
 ;
+#
+endif
 LOG
 (
 "
@@ -3983,6 +3993,9 @@ totalDroppedFrames
 ;
 }
 }
+#
+ifdef
+MOZ_WMF_CDM
 void
 MFMediaEngineParent
 :
@@ -4028,6 +4041,8 @@ aCDMProxy
 )
 ;
 }
+#
+endif
 #
 undef
 LOG
