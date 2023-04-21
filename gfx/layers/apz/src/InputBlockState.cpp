@@ -1698,7 +1698,7 @@ DragBlockState
 :
 SetInitialThumbPos
 (
-CSSCoord
+OuterCSSCoord
 aThumbPos
 )
 {

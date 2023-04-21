@@ -2739,7 +2739,7 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
-CSSCoord
+OuterCSSCoord
 aInitialThumbPos
 )
 ;
@@ -3931,7 +3931,7 @@ ParentLayer
 coordinates
 *
 to
-CSS
+OuterCSS
 coordinates
 relative
 to
@@ -3956,7 +3956,7 @@ returned
 .
 *
 /
-CSSCoord
+OuterCSSCoord
 ConvertScrollbarPoint
 (
 const

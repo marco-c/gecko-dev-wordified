@@ -16318,7 +16318,7 @@ GetTransformToThis
 )
 )
 ;
-CSSCoord
+OuterCSSCoord
 dragStart
 =
 aApzc
@@ -16457,7 +16457,7 @@ on
 any
 platform
 .
-CSSCoord
+OuterCSSCoord
 thumbStart
 =
 thumbData
