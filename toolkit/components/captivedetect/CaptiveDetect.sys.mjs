@@ -81,11 +81,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 DEBUG
 =
@@ -1424,6 +1419,7 @@ return
 observer
 ;
 }
+export
 function
 CaptivePortalDetector
 (
@@ -3140,12 +3136,3 @@ s
 }
 ;
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-CaptivePortalDetector
-"
-]
-;

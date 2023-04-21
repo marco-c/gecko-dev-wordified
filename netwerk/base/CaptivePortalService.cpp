@@ -446,7 +446,9 @@ NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 Instantiating
 CaptiveDetect
 .
-jsm
+sys
+.
+mjs
 before
 the
 JS
