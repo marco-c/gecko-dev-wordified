@@ -13387,6 +13387,11 @@ Checked
 NonTSPseudoClass
 :
 :
+Closed
+|
+NonTSPseudoClass
+:
+:
 Fullscreen
 |
 NonTSPseudoClass
@@ -13402,7 +13407,7 @@ MozInert
 NonTSPseudoClass
 :
 :
-PopoverOpen
+Open
 |
 NonTSPseudoClass
 :
