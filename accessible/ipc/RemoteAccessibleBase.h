@@ -1306,6 +1306,16 @@ aAttrName
 const
 override
 ;
+virtual
+void
+Language
+(
+nsAString
+&
+aLocale
+)
+override
+;
 /
 /
 /
