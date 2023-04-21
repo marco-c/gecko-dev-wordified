@@ -189,9 +189,6 @@ h
 namespace
 mozilla
 {
-class
-MFCDMChild
-;
 /
 *
 *
