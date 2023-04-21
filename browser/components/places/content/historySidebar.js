@@ -604,7 +604,7 @@ value
 ;
 }
 function
-updateHistoryTelemetry
+updateTelemetry
 (
 urlsOpened
 =
