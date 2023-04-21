@@ -748,9 +748,6 @@ worker
 }
 ]
     
-else
-:
-        
 return
 [
 {

@@ -1044,6 +1044,26 @@ context_value
 =
 context
         
+#
+Because
+of
+the
+same
+name
+as
+param
+it
+must
+be
+redefined
+        
+#
+pylint
+:
+disable
+=
+E0102
+        
 def
 context
 (

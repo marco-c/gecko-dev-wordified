@@ -1447,7 +1447,7 @@ android
 return
 False
         
-elif
+if
 task
 .
 kind
@@ -1480,7 +1480,7 @@ spidermonkey
 return
 False
         
-elif
+if
 "
 64
 "
@@ -2518,7 +2518,7 @@ parameters
 graph_config
 )
     
-elif
+if
 try_mode
 =
 =
@@ -2535,9 +2535,6 @@ parameters
 graph_config
 )
     
-else
-:
-        
 #
 With
 no
@@ -2552,13 +2549,13 @@ user
 to
 add
 tasks
-        
+    
 #
 later
 via
 treeherder
 .
-        
+    
 return
 [
 ]
@@ -4685,9 +4682,6 @@ kind
 return
 is_rc
         
-else
-:
-            
 return
 not
 is_rc

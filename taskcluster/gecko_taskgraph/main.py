@@ -5155,7 +5155,7 @@ load_stream
 f
 )
             
-elif
+if
 filename
 .
 endswith
@@ -5175,9 +5175,6 @@ load
 f
 )
             
-else
-:
-                
 raise
 Exception
 (

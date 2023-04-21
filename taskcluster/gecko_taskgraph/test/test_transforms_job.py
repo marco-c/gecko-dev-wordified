@@ -77,10 +77,6 @@ deepcopy
 import
 pytest
 from
-conftest
-import
-FakeParameters
-from
 mozunit
 import
 main
@@ -111,6 +107,14 @@ from
 gecko_taskgraph
 import
 GECKO
+from
+gecko_taskgraph
+.
+test
+.
+conftest
+import
+FakeParameters
 from
 gecko_taskgraph
 .

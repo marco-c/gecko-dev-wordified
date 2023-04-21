@@ -1398,9 +1398,6 @@ config
 scope_or_scopes
 )
         
-else
-:
-            
 return
 add_scope_prefix
 (
@@ -2216,7 +2213,7 @@ get_devedition_signing_cert_scope
 config
 )
     
-elif
+if
 is_shippable
 :
         
@@ -2226,9 +2223,6 @@ get_signing_cert_scope
 config
 )
     
-else
-:
-        
 return
 add_scope_prefix
 (
