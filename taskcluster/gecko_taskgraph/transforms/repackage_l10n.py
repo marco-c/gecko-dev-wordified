@@ -163,6 +163,19 @@ treeherder
 }
 )
             
+treeherder_group
+=
+locale_job
+.
+pop
+(
+"
+treeherder
+-
+group
+"
+)
+            
 treeherder
 [
 "
@@ -172,9 +185,9 @@ symbol
 =
 f
 "
-L10n
--
-Rpk
+{
+treeherder_group
+}
 (
 {
 locale
