@@ -1357,11 +1357,15 @@ keypress
 }
 /
 /
-Level
+The
+stream
+analog
+level
 is
 always
 logged
 in
+the
 AEC
 dumps
 .
@@ -1369,7 +1373,7 @@ RTC_CHECK
 (
 msg
 .
-has_level
+has_applied_input_volume
 (
 )
 )
@@ -1378,7 +1382,7 @@ aec_dump_mic_level_
 =
 msg
 .
-level
+applied_input_volume
 (
 )
 ;

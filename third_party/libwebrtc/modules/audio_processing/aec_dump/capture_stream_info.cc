@@ -418,11 +418,11 @@ drift
 stream
 -
 >
-set_level
+set_applied_input_volume
 (
 state
 .
-level
+applied_input_volume
 )
 ;
 stream

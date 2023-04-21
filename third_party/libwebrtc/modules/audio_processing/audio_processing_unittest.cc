@@ -2805,12 +2805,12 @@ EXPECT_EQ
 (
 actual
 .
-level
+applied_input_volume
 (
 )
 expected
 .
-level
+applied_input_volume
 (
 )
 )
@@ -11103,7 +11103,7 @@ set_stream_analog_level
 (
 msg
 .
-level
+applied_input_volume
 (
 )
 )
