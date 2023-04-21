@@ -234,6 +234,11 @@ showSearchModifiers
 {
 false
 }
+showExcludePatterns
+=
+{
+false
+}
 showClose
 =
 {
