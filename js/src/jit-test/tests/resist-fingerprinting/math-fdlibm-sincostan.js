@@ -676,6 +676,17 @@ well
 .
 if
 (
+!
+getBuildConfiguration
+(
+)
+[
+"
+android
+"
+]
+&
+&
 Math
 .
 cos
