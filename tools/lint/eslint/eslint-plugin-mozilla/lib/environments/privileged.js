@@ -1412,6 +1412,9 @@ false
 PlacesBookmarkGuid
 :
 false
+PlacesBookmarkKeyword
+:
+false
 PlacesBookmarkMoved
 :
 false
