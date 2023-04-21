@@ -861,7 +861,7 @@ cookie
 monster
 "
 await
-FetchFromFrame
+FetchSubresourceCookiesFromFrame
 (
 crossOriginFrame
 www
@@ -893,7 +893,7 @@ foo
 bar
 "
 await
-FetchFromFrame
+FetchSubresourceCookiesFromFrame
 (
 crossSiteFrame
 wwwAlt
@@ -925,7 +925,7 @@ foo
 bar
 "
 await
-FetchFromFrame
+FetchSubresourceCookiesFromFrame
 (
 crossOriginFrame
 wwwAlt
@@ -964,7 +964,7 @@ cookie
 monster
 "
 await
-FetchFromFrame
+FetchSubresourceCookiesFromFrame
 (
 crossSiteFrame
 www
