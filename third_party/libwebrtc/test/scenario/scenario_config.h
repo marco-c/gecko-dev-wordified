@@ -1271,11 +1271,6 @@ loss_rate
 =
 0
 ;
-bool
-codel_active_queue_management
-=
-false
-;
 absl
 :
 :

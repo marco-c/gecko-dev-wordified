@@ -226,14 +226,6 @@ int
 ;
 sim_config
 .
-codel_active_queue_management
-=
-config
-.
-codel_active_queue_management
-;
-sim_config
-.
 queue_length_packets
 =
 config
