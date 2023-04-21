@@ -1274,6 +1274,12 @@ aKey
 {
 mFingerprintingRandomKey
 .
+reset
+(
+)
+;
+mFingerprintingRandomKey
+.
 emplace
 (
 aKey
