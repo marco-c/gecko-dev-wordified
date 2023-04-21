@@ -145,6 +145,15 @@ ipc_message
 .
 h
 "
+#
+include
+"
+base
+/
+process
+.
+h
+"
 namespace
 IPC
 {
