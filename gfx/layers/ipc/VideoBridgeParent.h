@@ -216,6 +216,12 @@ Shutdown
 (
 )
 ;
+static
+void
+UnregisterExternalImages
+(
+)
+;
 TextureHost
 *
 LookupTexture
@@ -415,6 +421,11 @@ override
 ;
 void
 ReleaseCompositorThread
+(
+)
+;
+void
+DoUnregisterExternalImages
 (
 )
 ;
