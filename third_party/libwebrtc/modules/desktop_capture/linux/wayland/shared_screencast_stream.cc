@@ -1067,7 +1067,7 @@ message
 {
 SharedScreenCastStreamPrivate
 *
-that
+stream
 =
 static_cast
 <
@@ -1080,7 +1080,7 @@ data
 ;
 RTC_DCHECK
 (
-that
+stream
 )
 ;
 RTC_LOG
@@ -1098,6 +1098,15 @@ error
 <
 <
 message
+;
+pw_thread_loop_signal
+(
+stream
+-
+>
+pw_main_loop_
+false
+)
 ;
 }
 void
