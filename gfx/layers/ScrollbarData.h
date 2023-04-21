@@ -260,6 +260,8 @@ CSSCoord
 aThumbStart
 CSSCoord
 aThumbLength
+CSSCoord
+aThumbMinLength
 bool
 aThumbIsAsyncDraggable
 CSSCoord
@@ -295,6 +297,10 @@ aThumbStart
 mThumbLength
 (
 aThumbLength
+)
+mThumbMinLength
+(
+aThumbMinLength
 )
 mThumbIsAsyncDraggable
 (
@@ -378,6 +384,8 @@ CSSCoord
 aThumbStart
 CSSCoord
 aThumbLength
+CSSCoord
+aThumbMinLength
 bool
 aThumbIsAsyncDraggable
 CSSCoord
@@ -395,6 +403,7 @@ aDirection
 aThumbRatio
 aThumbStart
 aThumbLength
+aThumbMinLength
 aThumbIsAsyncDraggable
 aScrollTrackStart
 aScrollTrackLength
@@ -551,6 +560,9 @@ mThumbStart
 CSSCoord
 mThumbLength
 ;
+CSSCoord
+mThumbMinLength
+;
 /
 *
 *
@@ -636,6 +648,14 @@ mThumbLength
 aOther
 .
 mThumbLength
+&
+&
+mThumbMinLength
+=
+=
+aOther
+.
+mThumbMinLength
 &
 &
 mThumbIsAsyncDraggable

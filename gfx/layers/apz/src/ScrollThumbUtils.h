@@ -266,6 +266,8 @@ NOT
 reflect
 async
 scrolling
+or
+zooming
 i
 .
 e
@@ -275,10 +277,10 @@ should
 be
 the
 layer
+*
 tree
 '
 s
-*
 copy
 of
 the
