@@ -193,6 +193,12 @@ Seconds
 5
 )
 ;
+constexpr
+size_t
+kMaxPendingProbeClusters
+=
+5
+;
 }
 /
 /
@@ -593,6 +599,7 @@ empty
 )
 &
 &
+(
 cluster_config
 .
 at_time
@@ -606,6 +613,16 @@ front
 requested_at
 >
 kProbeClusterTimeout
+|
+|
+clusters_
+.
+size
+(
+)
+>
+kMaxPendingProbeClusters
+)
 )
 {
 clusters_
