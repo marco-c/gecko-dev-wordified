@@ -193,6 +193,9 @@ aTitle
 value
 :
 aInitialColor
+predefinedValues
+:
+aDefaultColors
 }
 ;
 }
