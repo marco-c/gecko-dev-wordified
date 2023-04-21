@@ -318,10 +318,6 @@ angle
 .
 py
 origin
-/
-chromium
-/
-XXXX
 git
 push
 moz
