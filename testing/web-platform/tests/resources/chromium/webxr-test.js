@@ -25,6 +25,32 @@ js
 '
 ;
 import
+*
+as
+xrSessionMojom
+from
+'
+/
+gen
+/
+device
+/
+vr
+/
+public
+/
+mojom
+/
+xr_session
+.
+mojom
+.
+m
+.
+js
+'
+;
+import
 {
 GamepadHand
 GamepadMapping
@@ -1944,7 +1970,7 @@ _featureToMojoMap
 viewer
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -1953,7 +1979,7 @@ REF_SPACE_VIEWER
 local
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -1964,7 +1990,7 @@ local
 floor
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -1975,7 +2001,7 @@ bounded
 floor
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -1984,7 +2010,7 @@ REF_SPACE_BOUNDED_FLOOR
 unbounded
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -1995,7 +2021,7 @@ hit
 test
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2006,7 +2032,7 @@ dom
 overlay
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2017,7 +2043,7 @@ light
 estimation
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2026,7 +2052,7 @@ LIGHT_ESTIMATION
 anchors
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2037,7 +2063,7 @@ depth
 sensing
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2048,7 +2074,7 @@ secondary
 views
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2059,7 +2085,7 @@ camera
 access
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2068,7 +2094,7 @@ CAMERA_ACCESS
 layers
 '
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -2083,7 +2109,7 @@ _sessionModeToMojoMap
 inline
 "
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -2094,7 +2120,7 @@ immersive
 vr
 "
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -2105,7 +2131,7 @@ immersive
 ar
 "
 :
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -4260,7 +4286,7 @@ supportedModes_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -4285,7 +4311,7 @@ supportedModes_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -5117,7 +5143,7 @@ feature
 else
 {
 return
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -5167,7 +5193,7 @@ feature
 !
 =
 =
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -5518,7 +5544,7 @@ enabledFeatures_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -5745,7 +5771,7 @@ sessionOptions_
 mode
 =
 =
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -5939,7 +5965,7 @@ supportedModes_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -6158,7 +6184,7 @@ supportedModes_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -7127,7 +7153,7 @@ enabled_features
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -7221,7 +7247,7 @@ requiredFeatures
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -7235,7 +7261,7 @@ optionalFeatures
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -7461,7 +7487,7 @@ supportedModes_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -7625,7 +7651,7 @@ supportedModes_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
@@ -7645,7 +7671,7 @@ enabledFeatures_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionFeature
 .
@@ -7931,7 +7957,7 @@ supportedModes_
 .
 includes
 (
-vrMojom
+xrSessionMojom
 .
 XRSessionMode
 .
