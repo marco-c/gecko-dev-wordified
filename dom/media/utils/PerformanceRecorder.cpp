@@ -1873,6 +1873,10 @@ mImageType
 )
 mTrackingId
 .
+ToString
+(
+)
+.
 get
 (
 )
