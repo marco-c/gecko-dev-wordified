@@ -2665,15 +2665,7 @@ if
 gfxVars
 :
 :
-UseAHardwareBufferContent
-(
-)
-|
-|
-gfxVars
-:
-:
-UseAHardwareBufferSharedSurface
+UseAHardwareBufferSharedSurfaceWebglOop
 (
 )
 )

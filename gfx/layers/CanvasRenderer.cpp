@@ -725,7 +725,7 @@ gfx
 gfxVars
 :
 :
-UseAHardwareBufferSharedSurface
+UseAHardwareBufferSharedSurfaceWebglOop
 (
 )
 )

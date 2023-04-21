@@ -654,14 +654,7 @@ false
 \
 _
 (
-UseAHardwareBufferContent
-bool
-false
-)
-\
-_
-(
-UseAHardwareBufferSharedSurface
+UseAHardwareBufferSharedSurfaceWebglOop
 bool
 false
 )

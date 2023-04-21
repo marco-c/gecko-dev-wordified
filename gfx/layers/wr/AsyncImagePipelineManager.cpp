@@ -4502,6 +4502,13 @@ mTexture
 GetAndroidHardwareBuffer
 (
 )
+&
+&
+mReleaseFenceFd
+.
+IsValid
+(
+)
 )
 {
 ipc

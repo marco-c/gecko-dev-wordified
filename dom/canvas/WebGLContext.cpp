@@ -7457,6 +7457,15 @@ SurfaceDescriptor
 :
 TSurfaceTextureDescriptor
 :
+case
+layers
+:
+:
+SurfaceDescriptor
+:
+:
+TSurfaceDescriptorAndroidHardwareBuffer
+:
 keepAlive
 =
 surf
