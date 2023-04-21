@@ -15770,9 +15770,9 @@ U2F
 insecureContext
 :
 false
-android
+disabled
 :
-false
+true
 }
 /
 /
@@ -22913,9 +22913,9 @@ u2f
 insecureContext
 :
 false
-android
+disabled
 :
-false
+true
 }
 /
 /
