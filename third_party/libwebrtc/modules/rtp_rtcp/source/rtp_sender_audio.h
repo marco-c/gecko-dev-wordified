@@ -375,7 +375,7 @@ range
 is
 [
 0
-100
+127
 ]
 .
 Actual
@@ -638,7 +638,7 @@ RTC_GUARDED_BY
 send_audio_mutex_
 )
 =
-0
+127
 ;
 OneTimeEvent
 first_packet_sent_
