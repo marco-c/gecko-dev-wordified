@@ -380,6 +380,7 @@ aData
 .
 Truncate
 (
+true
 )
 ;
 p
