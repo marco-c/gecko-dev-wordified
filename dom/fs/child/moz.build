@@ -154,6 +154,11 @@ FileSystemRequestHandler
 cpp
 "
 "
+FileSystemThreadSafeStreamOwner
+.
+cpp
+"
+"
 FileSystemWritableFileStreamChild
 .
 cpp
@@ -170,6 +175,12 @@ dom
 fs
 /
 include
+"
+"
+/
+netwerk
+/
+base
 "
 ]
 FINAL_LIBRARY
