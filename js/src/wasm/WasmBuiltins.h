@@ -411,11 +411,9 @@ TableSet
 TableSize
 RefFunc
 RefTest
-PreBarrierFiltering
 PostBarrier
 PostBarrierPrecise
 PostBarrierPreciseWithOffset
-PostBarrierFiltering
 StructNew
 ExceptionNew
 ThrowException
@@ -1181,11 +1179,6 @@ SASigRefFunc
 extern
 const
 SymbolicAddressSignature
-SASigPreBarrierFiltering
-;
-extern
-const
-SymbolicAddressSignature
 SASigPostBarrier
 ;
 extern
@@ -1197,11 +1190,6 @@ extern
 const
 SymbolicAddressSignature
 SASigPostBarrierPreciseWithOffset
-;
-extern
-const
-SymbolicAddressSignature
-SASigPostBarrierFiltering
 ;
 extern
 const
