@@ -209,7 +209,7 @@ assertEq
 offsets
 .
 length
-5
+4
 )
 ;
 offsets
