@@ -3168,9 +3168,9 @@ Maybe
 <
 nsCString
 >
-gmp
+keySystem
 ;
-gmp
+keySystem
 .
 emplace
 (
@@ -3192,7 +3192,11 @@ GMPDecoderModule
 SupportsMimeType
 (
 aMimeType
-gmp
+nsLiteralCString
+(
+CHROMIUM_CDM_API
+)
+keySystem
 )
 ;
 }

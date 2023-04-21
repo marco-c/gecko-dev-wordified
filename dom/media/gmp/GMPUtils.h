@@ -413,14 +413,14 @@ bool
 HaveGMPFor
 (
 const
-nsCString
+nsACString
 &
 aAPI
+const
 nsTArray
 <
 nsCString
 >
-&
 &
 aTags
 )

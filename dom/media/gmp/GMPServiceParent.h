@@ -304,11 +304,12 @@ const
 nsACString
 &
 aAPI
+const
 nsTArray
 <
 nsCString
 >
-*
+&
 aTags
 bool
 *

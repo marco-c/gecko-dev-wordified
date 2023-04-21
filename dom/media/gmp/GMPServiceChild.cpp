@@ -1801,11 +1801,12 @@ const
 nsACString
 &
 aAPI
+const
 nsTArray
 <
 nsCString
 >
-*
+&
 aTags
 bool
 *
@@ -1861,7 +1862,6 @@ plugin
 .
 mCapabilities
 api
-*
 aTags
 )
 )

@@ -414,12 +414,16 @@ nsACString
 &
 aMimeType
 const
+nsACString
+&
+aApi
+const
 Maybe
 <
 nsCString
 >
 &
-aGMP
+aKeySystem
 )
 ;
 private
