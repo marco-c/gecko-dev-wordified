@@ -972,9 +972,12 @@ CSPCONTEXTLOG
 aContentType
 :
 %
-d
+s
 "
+NS_CP_ContentTypeName
+(
 aContentType
+)
 )
 )
 ;
