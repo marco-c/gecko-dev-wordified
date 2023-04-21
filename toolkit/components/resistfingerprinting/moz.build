@@ -168,3 +168,6 @@ RFPHelper
 jsm
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True
