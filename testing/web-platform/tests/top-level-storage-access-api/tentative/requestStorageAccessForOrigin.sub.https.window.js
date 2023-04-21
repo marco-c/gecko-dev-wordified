@@ -800,6 +800,8 @@ requestStorageAccessForOrigin
 -
 iframe
 .
+https
+.
 html
 ?
 testCase

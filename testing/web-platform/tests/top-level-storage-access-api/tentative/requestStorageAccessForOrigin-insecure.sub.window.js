@@ -796,14 +796,10 @@ requestStorageAccessForOrigin
 -
 iframe
 .
-https
-.
 html
 ?
 testCase
 =
-secure
--
 frame
 -
 on
