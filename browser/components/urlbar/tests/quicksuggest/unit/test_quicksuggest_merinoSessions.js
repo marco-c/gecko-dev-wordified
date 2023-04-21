@@ -74,7 +74,8 @@ strict
 /
 UrlbarProviderQuickSuggest
 .
-_merino
+#
+merino
 is
 lazily
 created
@@ -110,7 +111,7 @@ gClient
 >
 UrlbarProviderQuickSuggest
 .
-_merino
+_test_merino
 )
 ;
 add_task
