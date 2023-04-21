@@ -740,6 +740,10 @@ size
 bool
 Gecko_MediaFeatures_WindowsNonNativeMenus
 (
+const
+Document
+*
+aDocument
 )
 {
 return
@@ -747,6 +751,14 @@ LookAndFeel
 :
 :
 WindowsNonNativeMenusEnabled
+(
+)
+|
+|
+aDocument
+-
+>
+ShouldAvoidNativeTheme
 (
 )
 ;

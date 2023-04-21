@@ -3950,7 +3950,7 @@ query_value
 fn
 eval_moz_windows_non_native_menus
 (
-_
+context
 :
 &
 Context
@@ -3966,6 +3966,15 @@ bindings
 :
 Gecko_MediaFeatures_WindowsNonNativeMenus
 (
+context
+.
+device
+(
+)
+.
+document
+(
+)
 )
 }
 }
