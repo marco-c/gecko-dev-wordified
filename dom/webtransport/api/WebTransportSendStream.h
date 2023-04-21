@@ -235,5 +235,12 @@ default
 }
 ;
 }
+/
+/
+namespace
+mozilla
+:
+:
+dom
 #
 endif
