@@ -2329,9 +2329,6 @@ aStorageKey
 )
 ;
 }
-mozilla
-:
-:
 RTPCallerType
 nsIGlobalObject
 :
@@ -2408,17 +2405,6 @@ ShouldResistFingerprinting
 (
 CallerType
 aCallerType
-RFPTarget
-aTarget
-/
-*
-=
-RFPTarget
-:
-:
-Unknown
-*
-/
 )
 const
 {
@@ -2434,7 +2420,6 @@ System
 &
 ShouldResistFingerprinting
 (
-aTarget
 )
 ;
 }

@@ -717,13 +717,6 @@ return
 bool
 ShouldResistFingerprinting
 (
-RFPTarget
-aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 const
 override
@@ -757,7 +750,6 @@ Sandboxes
 See
 1782853
 "
-aTarget
 )
 ;
 }
