@@ -173,7 +173,9 @@ _retval
 /
 /
 if
-mDefaultApplication
+a
+default
+app
 is
 set
 it
@@ -216,8 +218,11 @@ answer
 .
 if
 (
-mDefaultApplication
+GetDefaultApplication
+(
 )
+)
+{
 return
 nsMIMEInfoImpl
 :
@@ -227,6 +232,7 @@ GetHasDefaultHandler
 _retval
 )
 ;
+}
 *
 _retval
 =
@@ -345,7 +351,9 @@ aFile
 /
 /
 if
-mDefaultApplication
+a
+default
+app
 is
 set
 it
@@ -388,8 +396,11 @@ answer
 .
 if
 (
-mDefaultApplication
+GetDefaultApplication
+(
 )
+)
+{
 return
 nsMIMEInfoImpl
 :
@@ -399,6 +410,7 @@ LaunchDefaultWithFile
 aFile
 )
 ;
+}
 nsAutoCString
 nativePath
 ;
