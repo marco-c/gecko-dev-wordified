@@ -685,6 +685,15 @@ initialized
 )
 ;
 }
+log
+(
+"
+Received
+message
+"
+data
+)
+;
 switch
 (
 data
