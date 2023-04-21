@@ -352,8 +352,6 @@ browser
 loadURI
 (
 uri
-.
-spec
 loadURIOptions
 )
 ;

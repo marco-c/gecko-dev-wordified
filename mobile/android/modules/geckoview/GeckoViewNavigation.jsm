@@ -2731,8 +2731,6 @@ browser
 loadURI
 (
 uri
-.
-spec
 {
 triggeringPrincipal
 csp
