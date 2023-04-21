@@ -5617,6 +5617,16 @@ GetMid
 )
 )
 ;
+transceiver
+-
+>
+mRecvTrack
+.
+RecvTrackSetLocal
+(
+msection
+)
+;
 if
 (
 mSdpHelper
