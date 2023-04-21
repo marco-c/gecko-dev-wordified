@@ -346,7 +346,6 @@ processes
 *
 /
 [
-ManualDealloc
 NeedsOtherPid
 ChildImpl
 =
