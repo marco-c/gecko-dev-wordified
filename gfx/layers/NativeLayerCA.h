@@ -2729,6 +2729,8 @@ CGColorRef
 aColor
 bool
 aIsDRM
+bool
+aIsVideo
 )
 ;
 /
@@ -2878,6 +2880,16 @@ nullptr
 /
 /
 strong
+#
+ifdef
+NIGHTLY_BUILD
+bool
+mLogNextVideoSurface
+=
+false
+;
+#
+endif
 bool
 mMutatedPosition
 :
