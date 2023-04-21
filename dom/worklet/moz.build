@@ -122,6 +122,11 @@ Worklet
 h
 "
 "
+WorkletFetchHandler
+.
+h
+"
+"
 WorkletGlobalScope
 .
 h
@@ -143,6 +148,11 @@ UNIFIED_SOURCES
 [
 "
 Worklet
+.
+cpp
+"
+"
+WorkletFetchHandler
 .
 cpp
 "
