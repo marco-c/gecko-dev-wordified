@@ -1364,7 +1364,7 @@ TYPES
 CACHE_STORAGE
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
@@ -1400,7 +1400,7 @@ TYPES
 LOCAL_STORAGE
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
@@ -1409,7 +1409,7 @@ TYPES
 SESSION_STORAGE
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
