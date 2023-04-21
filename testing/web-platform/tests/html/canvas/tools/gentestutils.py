@@ -83,8 +83,8 @@ features
 (
 multiple
 versions
-of
 #
+of
 each
 test
 case
@@ -96,8 +96,8 @@ mochitests
 semi
 -
 automated
-test
 #
+test
 harness
 )
 .
@@ -129,6 +129,7 @@ yaml
 files
 .
 #
+-
 '
 name
 '
@@ -143,6 +144,7 @@ categorise
 tests
 .
 #
+-
 '
 desc
 '
@@ -160,6 +162,7 @@ to
 test
 .
 #
+-
 '
 code
 '
@@ -173,10 +176,12 @@ some
 special
 commands
 starting
+#
 with
 '
 '
 #
+-
 '
 expected
 '
@@ -195,10 +200,10 @@ string
 green
 '
 or
+#
 '
 clear
 '
-#
 (
 100x50
 images
@@ -217,10 +222,10 @@ size
 (
 or
 any
+#
 other
 size
 )
-#
 followed
 by
 Python
@@ -363,6 +368,7 @@ TESTOUTPUTDIR
 IMAGEOUTPUTDIR
 TEMPLATEFILE
 NAME2DIRFILE
+                 
 ISOFFSCREENCANVAS
 )
 :
@@ -425,6 +431,19 @@ simpleEscapeJS
 str
 )
         
+#
+kind
+of
+an
+ugly
+hack
+for
+nicer
+failure
+-
+message
+output
+        
 str
 =
 re
@@ -464,18 +483,6 @@ r
 '
 str
 )
-#
-kind
-of
-an
-ugly
-hack
-for
-nicer
-failure
--
-message
-output
         
 return
 str
@@ -516,6 +523,7 @@ lt
 .
 replace
 (
+            
 '
 >
 '
@@ -1037,6 +1045,7 @@ c
 )
 tail
 )
+                         
 for
 c
 in
@@ -1171,6 +1180,7 @@ join
 test_yaml_directory
 f
 )
+        
 for
 f
 in
@@ -1180,7 +1190,6 @@ listdir
 (
 test_yaml_directory
 )
-        
 if
 f
 .
@@ -1191,6 +1200,7 @@ endswith
 yaml
 "
 )
+    
 ]
     
 for
@@ -1220,6 +1230,7 @@ f
 in
 TESTSFILES
 ]
+                 
 [
 ]
 )
@@ -1265,6 +1276,7 @@ exec
 )
 {
 }
+                 
 {
 '
 tests
@@ -1564,6 +1576,7 @@ testdirs
         
 try
 :
+            
 os
 .
 mkdir
@@ -1573,6 +1586,7 @@ d
         
 except
 :
+            
 pass
 #
 ignore
@@ -1666,6 +1680,7 @@ directory
 mapping
 "
 %
+                  
 name
 )
         
@@ -1730,6 +1745,7 @@ nonfinite
 lambda
 m
 :
+                      
 expand_nonfinite
 (
 m
@@ -1751,6 +1767,7 @@ group
 3
 )
 )
+                      
 code
 )
 #
@@ -1798,7 +1815,7 @@ d
 )
 ;
 '
-                    
+                      
 r
 '
 _assertPixel
@@ -1811,7 +1828,6 @@ canvas
 )
 ;
 '
-                    
 code
 )
         
@@ -1852,7 +1868,7 @@ d
 )
 ;
 '
-                    
+                      
 r
 '
 _assertPixelApprox
@@ -1866,7 +1882,6 @@ canvas
 )
 ;
 '
-                    
 code
 )
         
@@ -1876,6 +1891,7 @@ re
 .
 sub
 (
+            
 r
 '
 assert
@@ -1916,7 +1932,7 @@ d
 )
 ;
 '
-                    
+            
 r
 '
 _assertPixelApprox
@@ -1931,7 +1947,6 @@ canvas
 )
 ;
 '
-                    
 code
 )
         
@@ -1957,7 +1972,7 @@ _ERR
 )
 ;
 '
-                
+                      
 r
 '
 assert_throws_dom
@@ -1977,7 +1992,6 @@ function
 )
 ;
 '
-                
 code
 )
         
@@ -2003,7 +2017,7 @@ Error
 )
 ;
 '
-                
+                      
 r
 '
 assert_throws_js
@@ -2021,7 +2035,6 @@ function
 )
 ;
 '
-                
 code
 )
         
@@ -2031,6 +2044,7 @@ re
 .
 sub
 (
+            
 r
 '
 assert
@@ -2047,10 +2061,10 @@ assert
 )
 ;
 '
-                
 lambda
 m
 :
+            
 '
 _assertSame
 (
@@ -2069,7 +2083,6 @@ s
 )
 ;
 '
-                    
 %
 (
 m
@@ -2082,6 +2095,7 @@ m
 .
 group
 (
+                
 2
 )
 escapeJS
@@ -2103,7 +2117,6 @@ group
 )
 )
 )
-                
 code
 )
         
@@ -2113,6 +2126,7 @@ re
 .
 sub
 (
+            
 r
 '
 assert
@@ -2129,10 +2143,10 @@ assert
 )
 ;
 '
-                
 lambda
 m
 :
+            
 '
 _assertDifferent
 (
@@ -2151,7 +2165,6 @@ s
 )
 ;
 '
-                    
 %
 (
 m
@@ -2164,6 +2177,7 @@ m
 .
 group
 (
+                
 2
 )
 escapeJS
@@ -2185,7 +2199,6 @@ group
 )
 )
 )
-                
 code
 )
         
@@ -2195,6 +2208,7 @@ re
 .
 sub
 (
+            
 r
 '
 assert
@@ -2210,7 +2224,6 @@ assert
 )
 ;
 '
-                
 lambda
 m
 :
@@ -2224,7 +2237,7 @@ s
 )
 ;
 '
-                    
+            
 %
 (
 m
@@ -2240,7 +2253,6 @@ group
 2
 )
 )
-                
 code
 )
         
@@ -2250,6 +2262,7 @@ re
 .
 sub
 (
+            
 r
 '
 assert
@@ -2259,7 +2272,6 @@ assert
 )
 ;
 '
-                
 lambda
 m
 :
@@ -2275,13 +2287,13 @@ s
 )
 ;
 '
-                    
 %
 (
 m
 .
 group
 (
+                
 1
 )
 escapeJS
@@ -2294,7 +2306,6 @@ group
 )
 )
 )
-                
 code
 )
         
@@ -2328,10 +2339,8 @@ moz
 UniversalBrowserRead
 ;
 '
-                
 "
 "
-                
 code
 )
         
@@ -2497,6 +2506,7 @@ cat_total
 in
 category_names
 :
+                
 category_names
 .
 append
@@ -2553,6 +2563,7 @@ re
 .
 search
 (
+                
 r
 '
 assert
@@ -2711,6 +2722,7 @@ re
 .
 sub
 (
+                    
 r
 '
 ^
@@ -2743,6 +2755,10 @@ FORMAT_ARGB32
 \
 2
 )
+'
+                    
+r
+'
 \
 ncr
 =
@@ -2753,7 +2769,6 @@ Context
 surface
 )
 '
-                                  
 expected
 )
                 
@@ -2815,6 +2830,7 @@ n
 "
 %
 (
+                    
 IMAGEOUTPUTDIR
 png_name
 )
@@ -2844,6 +2860,7 @@ exec
 )
 {
 }
+                     
 {
 '
 cairo
@@ -2871,6 +2888,7 @@ expected_img
 expectation_html
 =
 (
+                    
 '
 <
 p
@@ -2884,13 +2902,12 @@ expectedtext
 Expected
 output
 :
-'
-+
-                    
-'
 <
 p
 >
+'
+                    
+'
 <
 img
 src
@@ -2910,6 +2927,9 @@ id
 "
 expected
 "
+'
+                    
+'
 alt
 =
 "
@@ -2917,9 +2937,7 @@ alt
 >
 '
 %
-(
 expected_img
-)
 )
         
 canvas
@@ -3047,6 +3065,7 @@ else
         
 timeout
 =
+(
 '
 \
 n
@@ -3066,6 +3085,7 @@ s
 >
 '
 %
+                   
 test
 [
 '
@@ -3081,6 +3101,7 @@ test
 else
 '
 '
+)
         
 scripts
 =
@@ -3169,6 +3190,7 @@ n
 s
 )
 )
+                           
 for
 (
 v
@@ -3359,6 +3381,7 @@ i
 images
 +
 =
+(
 '
 <
 svg
@@ -3385,6 +3408,9 @@ class
 resource
 "
 >
+'
+                       
+'
 <
 /
 svg
@@ -3396,6 +3422,7 @@ n
 (
 i
 id
+)
 )
         
 images
@@ -3446,6 +3473,7 @@ fonts
 fonts
 +
 =
+(
 '
 font
 -
@@ -3462,6 +3490,9 @@ s
 ;
 \
 n
+'
+                      
+'
 src
 :
 url
@@ -3487,6 +3518,7 @@ n
 (
 i
 i
+)
 )
             
 #
@@ -3517,6 +3549,7 @@ fonthack
 fonthack
 +
 =
+(
 '
 <
 span
@@ -3532,6 +3565,9 @@ s
 ;
 position
 :
+'
+                             
+'
 absolute
 ;
 visibility
@@ -3549,6 +3585,7 @@ n
 '
 %
 i
+)
         
 if
 fonts
@@ -3583,6 +3620,7 @@ get
 '
 fallback
 '
+                            
 '
 <
 p
@@ -3719,6 +3757,7 @@ name_wrapped
 '
 :
 name_wrapped
+                
 '
 backrefs
 '
@@ -3739,6 +3778,7 @@ desc
 '
 :
 desc
+                
 '
 escaped_desc
 '
@@ -3750,16 +3790,19 @@ prev
 '
 :
 prev
+                
 '
 next
 '
 :
 next
+                
 '
 notes
 '
 :
 notes
+                
 '
 images
 '
@@ -3771,11 +3814,13 @@ fonts
 '
 :
 fonts
+                
 '
 fonthack
 '
 :
 fonthack
+                
 '
 timeout
 '
@@ -3787,11 +3832,13 @@ canvas
 '
 :
 canvas
+                
 '
 expected
 '
 :
 expectation_html
+                
 '
 code
 '
@@ -3811,6 +3858,7 @@ fallback
 '
 :
 fallback
+                
 '
 attributes
 '
@@ -3835,6 +3883,7 @@ codecs
 .
 open
 (
+                    
 '
 %
 s
@@ -3847,6 +3896,7 @@ s
 html
 '
 %
+                    
 (
 TESTOUTPUTDIR
 mapped_name
@@ -3878,6 +3928,7 @@ template_params
                 
 timeout
 =
+(
 '
 /
 /
@@ -3891,6 +3942,7 @@ s
 n
 '
 %
+                           
 test
 [
 '
@@ -3906,6 +3958,7 @@ test
 else
 '
 '
+)
                 
 template_params
 [
@@ -3922,6 +3975,7 @@ codecs
 .
 open
 (
+                    
 '
 %
 s
@@ -3936,6 +3990,7 @@ worker
 js
 '
 %
+                    
 (
 TESTOUTPUTDIR
 mapped_name
@@ -3974,6 +4029,7 @@ codecs
 .
 open
 (
+                    
 '
 %
 s
@@ -3986,6 +4042,7 @@ s
 html
 '
 %
+                    
 (
 TESTOUTPUTDIR
 mapped_name
