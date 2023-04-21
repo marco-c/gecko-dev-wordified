@@ -1657,14 +1657,6 @@ include
 "
 "
 #
-ifndef
-__gen_
-%
-(
-basename
-)
-s_h__
-#
 include
 "
 %
@@ -1675,8 +1667,6 @@ s
 .
 h
 "
-#
-endif
 "
 "
 "
