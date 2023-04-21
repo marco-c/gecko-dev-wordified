@@ -1214,10 +1214,6 @@ StrongWorkerRef
 >
 mWorkerRef
 ;
-const
-bool
-mFileHandleDisabled
-;
 bool
 mIncreasedActiveDatabaseCount
 ;
@@ -1248,16 +1244,6 @@ nsIGlobalObject
 aGlobal
 )
 ;
-bool
-IsFileHandleDisabled
-(
-)
-const
-{
-return
-mFileHandleDisabled
-;
-}
 void
 SetTransaction
 (
@@ -1334,8 +1320,6 @@ aFactory
 nsIGlobalObject
 *
 aGlobal
-bool
-aFileHandleDisabled
 )
 ;
 ~
