@@ -206,7 +206,9 @@ resultsSelector
 =
 '
 .
-titlelink
+titleline
+>
+a
 '
 ;
 const

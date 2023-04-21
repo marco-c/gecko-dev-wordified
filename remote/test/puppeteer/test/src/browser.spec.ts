@@ -251,7 +251,7 @@ headless
 =
 =
 '
-chrome
+new
 '
 )
 ;
