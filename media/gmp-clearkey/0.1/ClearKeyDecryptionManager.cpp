@@ -1563,13 +1563,13 @@ Status
 kDecryptError
 ;
 }
+}
 return
 Status
 :
 :
 kSuccess
 ;
-}
 }
 /
 /
