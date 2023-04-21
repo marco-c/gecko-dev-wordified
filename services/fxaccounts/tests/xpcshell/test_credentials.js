@@ -61,7 +61,7 @@ CryptoUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -74,7 +74,9 @@ crypto
 /
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;

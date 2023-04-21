@@ -85,9 +85,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -104,7 +104,9 @@ crypto
 /
 jwcrypto
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
