@@ -996,6 +996,13 @@ nsAString
 &
 aOrigin
 const
+CopyableTArray
+<
+nsString
+>
+&
+aInitDataTypes
+const
 KeySystemConfig
 :
 :
@@ -1079,6 +1086,7 @@ nsString
 (
 aOrigin
 )
+aInitDataTypes
 aDistinctiveID
 aPersistentState
 aHWSecure
