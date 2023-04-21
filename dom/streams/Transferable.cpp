@@ -1348,7 +1348,7 @@ mBackpressurePromise
 Promise
 :
 :
-Create
+CreateInfallible
 (
 mController
 -
@@ -1356,7 +1356,6 @@ mController
 GetParentObject
 (
 )
-aRv
 )
 ;
 }
@@ -3048,7 +3047,7 @@ backpressurePromise
 Promise
 :
 :
-Create
+CreateInfallible
 (
 aWritable
 -
@@ -3056,21 +3055,8 @@ aWritable
 GetParentObject
 (
 )
-aRv
 )
 ;
-if
-(
-aRv
-.
-Failed
-(
-)
-)
-{
-return
-;
-}
 /
 /
 Step
