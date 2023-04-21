@@ -2100,6 +2100,14 @@ mMenuBar
 mMenuBar
 -
 >
+IsActive
+(
+)
+&
+&
+mMenuBar
+-
+>
 IsActiveByKeyboard
 (
 )
