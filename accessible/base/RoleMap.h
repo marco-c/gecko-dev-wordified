@@ -1763,7 +1763,7 @@ editor
 "
 ATK_ROLE_DATE_EDITOR
 "
-AXDateField
+AXGroup
 "
 NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
