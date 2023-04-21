@@ -20710,6 +20710,9 @@ static
 bool
 NeedEnvironmentShapeGuard
 (
+JSContext
+*
+cx
 JSObject
 *
 envObj
@@ -20839,6 +20842,17 @@ baseScript
 >
 funHasExtensibleScope
 (
+)
+|
+|
+DebugEnvironments
+:
+:
+hasDebugEnvironment
+(
+cx
+*
+callObj
 )
 )
 {
@@ -21226,6 +21240,7 @@ if
 (
 NeedEnvironmentShapeGuard
 (
+cx_
 env
 )
 )
@@ -22208,6 +22223,7 @@ if
 (
 NeedEnvironmentShapeGuard
 (
+cx_
 env
 )
 &
