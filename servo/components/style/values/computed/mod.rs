@@ -1154,6 +1154,7 @@ ui
 BoolInteger
 Cursor
 UserSelect
+ViewTimelineInset
 }
 ;
 pub
