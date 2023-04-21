@@ -250,7 +250,7 @@ data
 :
 text
 /
-plain
+javascript
 const
 startResponse
 =

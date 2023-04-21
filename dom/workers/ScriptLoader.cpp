@@ -6468,6 +6468,16 @@ IsDynamicImport
 (
 request
 )
+GetContentPolicyType
+(
+request
+)
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
 )
 ;
 }
