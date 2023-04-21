@@ -526,6 +526,26 @@ stddata
 {
 }
         
+self
+.
+ptnb_config
+=
+{
+}
+        
+self
+.
+results
+=
+[
+]
+        
+self
+.
+logger
+=
+logger
+        
 p
 =
 Path
@@ -544,19 +564,6 @@ exist_ok
 =
 True
 )
-        
-self
-.
-results
-=
-[
-]
-        
-self
-.
-logger
-=
-logger
     
 def
 _parse_results
@@ -1430,7 +1437,46 @@ prefix
 data_type
 )
             
-config
+#
+Primarily
+used
+to
+store
+the
+transformer
+used
+on
+the
+data
+            
+#
+so
+that
+it
+can
+also
+be
+used
+for
+generating
+things
+            
+#
+like
+summary
+values
+for
+suites
+and
+subtests
+.
+            
+self
+.
+ptnb_config
+[
+data_type
+]
 =
 {
                 
@@ -1449,7 +1495,7 @@ prefix
 prefix
                 
 "
-customtransformer
+custom_transformer
 "
 :
 tfm
@@ -1478,7 +1524,12 @@ PerftestETL
                 
 file_groups
 =
-config
+self
+.
+ptnb_config
+[
+data_type
+]
 [
 "
 file_groups
@@ -1487,7 +1538,12 @@ file_groups
                 
 config
 =
-config
+self
+.
+ptnb_config
+[
+data_type
+]
                 
 prefix
 =
@@ -1980,6 +2036,27 @@ exclude
 )
 :
                     
+res
+[
+"
+transformer
+"
+]
+=
+self
+.
+ptnb_config
+[
+data_type
+]
+[
+                        
+"
+custom_transformer
+"
+                    
+]
+                    
 newresults
 .
 append
@@ -2224,6 +2301,27 @@ for
 i
 in
 indices
+]
+                        
+splitres
+[
+"
+transformer
+"
+]
+=
+self
+.
+ptnb_config
+[
+data_type
+]
+[
+                            
+"
+custom_transformer
+"
+                        
 ]
                         
 newresults
