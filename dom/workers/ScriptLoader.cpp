@@ -3803,6 +3803,7 @@ WorkerLoadContext
 (
 kind
 clientInfo
+this
 )
 ;
 /
