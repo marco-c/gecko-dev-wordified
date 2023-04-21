@@ -327,20 +327,6 @@ command_context
 {
             
 "
-preferences
-"
-:
-stringify
-(
-db
-[
-"
-preferences
-"
-]
-)
-            
-"
 cssProperties
 "
 :
