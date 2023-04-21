@@ -359,7 +359,7 @@ page
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PAGE_URL
@@ -481,7 +481,7 @@ away
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

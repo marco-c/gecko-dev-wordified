@@ -315,7 +315,7 @@ includeSubFrames
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWin
 .
