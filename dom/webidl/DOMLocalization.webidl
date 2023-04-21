@@ -396,9 +396,6 @@ changes
 .
 *
 /
-[
-Throws
-]
 undefined
 connectRoot
 (
@@ -424,9 +421,6 @@ changes
 .
 *
 /
-[
-Throws
-]
 undefined
 disconnectRoot
 (
@@ -452,9 +446,6 @@ mutations
 .
 *
 /
-[
-Throws
-]
 undefined
 pauseObserving
 (
@@ -478,9 +469,6 @@ mutations
 .
 *
 /
-[
-Throws
-]
 undefined
 resumeObserving
 (

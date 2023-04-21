@@ -513,9 +513,6 @@ elem
 return
 ;
 }
-ErrorResult
-rv
-;
 Sequence
 <
 OwningNonNull
@@ -533,7 +530,9 @@ GetTranslatables
 *
 aChild
 elements
-rv
+IgnoreErrors
+(
+)
 )
 ;
 for
