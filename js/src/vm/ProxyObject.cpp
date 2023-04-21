@@ -904,7 +904,6 @@ realm
 >
 setObjectPendingMetadata
 (
-cx
 proxy
 )
 ;
