@@ -150,6 +150,13 @@ nsITimer
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {

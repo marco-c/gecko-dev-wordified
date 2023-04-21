@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsIClassInfoImpl
+.
+h
+"
+#
+include
+"
 nsSimpleNestedURI
 .
 h
