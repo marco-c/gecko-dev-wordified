@@ -124,6 +124,15 @@ include
 "
 mozilla
 /
+RecursiveMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProfilerRunnable
 .
 h

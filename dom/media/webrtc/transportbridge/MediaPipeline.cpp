@@ -427,6 +427,15 @@ h
 #
 include
 "
+libwebrtcglue
+/
+MediaConduitInterface
+.
+h
+"
+#
+include
+"
 common_video
 /
 include

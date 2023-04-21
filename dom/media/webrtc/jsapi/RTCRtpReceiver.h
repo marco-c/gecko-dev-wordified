@@ -117,15 +117,6 @@ include
 "
 libwebrtcglue
 /
-MediaConduitInterface
-.
-h
-"
-#
-include
-"
-libwebrtcglue
-/
 RtpRtcpConfig
 .
 h
