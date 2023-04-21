@@ -825,7 +825,8 @@ false
 )
 ;
 }
-j
+unsigned
+idx
 =
 (
 unsigned
@@ -867,7 +868,7 @@ buffer
 >
 info
 [
-j
+idx
 ]
 )
 )
@@ -895,7 +896,7 @@ buffer
 >
 info
 [
-j
+idx
 ]
 .
 codepoint
@@ -914,8 +915,6 @@ buffer
 >
 unsafe_to_concat_from_outbuffer
 (
-skippy_iter
-.
 idx
 buffer
 -
@@ -981,8 +980,6 @@ buffer
 >
 unsafe_to_concat_from_outbuffer
 (
-skippy_iter
-.
 idx
 buffer
 -
@@ -1070,7 +1067,7 @@ buffer
 >
 info
 [
-j
+idx
 ]
 )
 ;
@@ -1160,7 +1157,7 @@ mark_index
 comp_index
 lig_attach
 classCount
-j
+idx
 )
 )
 ;

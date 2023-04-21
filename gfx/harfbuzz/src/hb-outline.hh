@@ -331,7 +331,7 @@ const
 ;
 HB_INTERNAL
 float
-area
+control_area
 (
 )
 const

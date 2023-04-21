@@ -274,7 +274,6 @@ This
 is
 our
 main
-OpenType
 shaper
 .
 *

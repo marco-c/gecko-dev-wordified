@@ -472,7 +472,7 @@ float
 hb_outline_t
 :
 :
-area
+control_area
 (
 )
 const
@@ -664,7 +664,7 @@ f
 bool
 orientation_negative
 =
-area
+control_area
 (
 )
 <
