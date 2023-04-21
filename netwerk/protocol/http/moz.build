@@ -1043,7 +1043,9 @@ EXTRA_JS_MODULES
 "
 WellKnownOpportunisticUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

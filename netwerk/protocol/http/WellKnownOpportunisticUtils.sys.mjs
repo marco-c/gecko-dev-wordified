@@ -81,11 +81,7 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
+export
 function
 WellKnownOpportunisticUtils
 (
@@ -192,13 +188,4 @@ true
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-WellKnownOpportunisticUtils
-"
-]
 ;

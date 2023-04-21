@@ -56,6 +56,7 @@ MPL
 .
 *
 /
+export
 function
 UrlClassifierExceptionListService
 (
@@ -1019,13 +1020,4 @@ null
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-UrlClassifierExceptionListService
-"
-]
 ;
