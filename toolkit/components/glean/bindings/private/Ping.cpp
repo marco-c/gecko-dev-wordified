@@ -128,9 +128,6 @@ Ping
 h
 "
 #
-ifndef
-MOZ_GLEAN_ANDROID
-#
 include
 "
 mozilla
@@ -148,8 +145,6 @@ ClearOnShutdown
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -182,9 +177,6 @@ glean
 namespace
 impl
 {
-#
-ifndef
-MOZ_GLEAN_ANDROID
 using
 CallbackMapType
 =
@@ -333,8 +325,6 @@ lock
 )
 ;
 }
-#
-endif
 void
 Ping
 :
@@ -348,16 +338,6 @@ aReason
 )
 const
 {
-#
-ifdef
-MOZ_GLEAN_ANDROID
-Unused
-<
-<
-mId
-;
-#
-else
 {
 GetCallbackMapLock
 (
@@ -415,8 +395,6 @@ mId
 aReason
 )
 ;
-#
-endif
 }
 void
 Ping
@@ -431,13 +409,6 @@ aCallback
 )
 const
 {
-#
-ifdef
-MOZ_GLEAN_ANDROID
-return
-;
-#
-else
 {
 GetCallbackMapLock
 (
@@ -471,8 +442,6 @@ aCallback
 )
 ;
 }
-#
-endif
 }
 }
 /
