@@ -2430,11 +2430,14 @@ OpPushExternalImageForTexture
 (
 aExtId
 aKey
+WrapNotNull
+(
 aTexture
 -
 >
 GetIPDLActor
 (
+)
 )
 aIsUpdate
 )

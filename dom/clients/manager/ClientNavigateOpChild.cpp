@@ -1025,6 +1025,10 @@ target
 AsChild
 (
 )
+.
+get
+(
+)
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT

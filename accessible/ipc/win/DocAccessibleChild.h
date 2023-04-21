@@ -571,8 +571,11 @@ aMsaaID
 bool
 SendBindChildDoc
 (
+NotNull
+<
 DocAccessibleChild
 *
+>
 aChildDoc
 const
 uint64_t
@@ -1874,8 +1877,11 @@ SerializedBindChildDoc
 DocAccessibleChild
 *
 aParentDoc
+NotNull
+<
 DocAccessibleChild
 *
+>
 aChildDoc
 uint64_t
 aNewParentID
@@ -1917,8 +1923,11 @@ mNewParentID
 )
 ;
 }
+NotNull
+<
 DocAccessibleChild
 *
+>
 mChildDoc
 ;
 uint64_t

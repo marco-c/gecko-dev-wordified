@@ -481,7 +481,10 @@ PTCPServerSocketParent
 :
 SendCallbackAccept
 (
+WrapNotNull
+(
 socket
+)
 )
 ;
 }

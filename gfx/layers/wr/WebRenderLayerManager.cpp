@@ -3398,11 +3398,14 @@ WrBridge
 >
 SendGetSnapshot
 (
+WrapNotNull
+(
 texture
 -
 >
 GetIPDLActor
 (
+)
 )
 &
 needsYFlip

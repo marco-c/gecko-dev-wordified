@@ -2743,8 +2743,11 @@ loadInfoArgs
 ;
 Maybe
 <
+NotNull
+<
 PTransportProviderChild
 *
+>
 >
 transportProvider
 ;
@@ -2814,7 +2817,10 @@ transportProvider
 =
 Some
 (
+WrapNotNull
+(
 ipcChild
+)
 )
 ;
 }
