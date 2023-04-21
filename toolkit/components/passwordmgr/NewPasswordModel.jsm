@@ -2405,16 +2405,6 @@ return
 setDefault
 (
 selectorToDescendants
-/
-/
-eslint
--
-disable
--
-line
-prettier
-/
-prettier
 selector
 (
 )
