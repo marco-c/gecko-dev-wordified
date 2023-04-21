@@ -665,9 +665,6 @@ url
 =
 TEST_URL2
 )
-"
-places
-"
 )
 ;
 /
@@ -1395,9 +1392,6 @@ url
 =
 TEST_URL3
 )
-"
-places
-"
 )
 ;
 /

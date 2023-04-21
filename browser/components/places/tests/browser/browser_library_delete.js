@@ -411,9 +411,6 @@ folderNode
 .
 bookmarkGuid
 )
-"
-places
-"
 )
 ;
 /

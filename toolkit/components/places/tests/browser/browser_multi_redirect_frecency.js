@@ -435,9 +435,6 @@ TARGET_URI
 spec
 ;
 }
-"
-places
-"
 )
 ;
 return

@@ -55,14 +55,6 @@ title
 -
 changed
 "
-(
-)
-=
->
-true
-"
-places
-"
 )
 ;
 /

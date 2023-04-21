@@ -624,9 +624,6 @@ url
 TEST_URI
 .
 spec
-"
-places
-"
 )
 ;
 PO
@@ -1238,9 +1235,6 @@ event
 .
 guid
 )
-"
-places
-"
 )
 ;
 PO

@@ -278,9 +278,6 @@ title
 folder
 "
 )
-"
-places
-"
 )
 ;
 await
@@ -448,9 +445,6 @@ title
 newname
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField

@@ -244,9 +244,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 )
 ;

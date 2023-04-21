@@ -378,9 +378,6 @@ eventUrl
 =
 url
 )
-"
-places
-"
 )
 ;
 /
@@ -802,9 +799,6 @@ urls
 2
 ]
 )
-"
-places
-"
 )
 ;
 /

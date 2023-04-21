@@ -992,9 +992,6 @@ faviconUrl
 =
 aFaviconURL
 )
-"
-places
-"
 )
 ;
 }

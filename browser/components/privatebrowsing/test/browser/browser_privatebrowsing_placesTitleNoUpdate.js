@@ -188,9 +188,6 @@ url
 =
 =
 TEST_URL
-"
-places
-"
 )
 ;
 let
@@ -312,9 +309,6 @@ url
 =
 =
 TEST_URL
-"
-places
-"
 )
 ;
 await

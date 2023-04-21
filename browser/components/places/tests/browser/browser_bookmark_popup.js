@@ -738,9 +738,6 @@ event
 .
 url
 )
-"
-places
-"
 )
 ;
 }

@@ -640,9 +640,6 @@ tagRoot
 .
 itemId
 )
-"
-places
-"
 )
 ;
 /
@@ -1156,9 +1153,6 @@ tagRoot
 .
 itemId
 )
-"
-places
-"
 )
 ;
 tagssvc

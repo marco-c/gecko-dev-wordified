@@ -88,14 +88,6 @@ rank
 -
 changed
 "
-(
-)
-=
->
-true
-"
-places
-"
 )
 ;
 }

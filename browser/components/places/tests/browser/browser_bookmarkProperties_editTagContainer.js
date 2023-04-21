@@ -321,9 +321,6 @@ tags
 tag1
 "
 )
-"
-places
-"
 )
 ;
 await
@@ -505,9 +502,6 @@ tags
 tag2
 "
 )
-"
-places
-"
 )
 ;
 let
@@ -543,9 +537,6 @@ bookmarks
 .
 tagsGuid
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField

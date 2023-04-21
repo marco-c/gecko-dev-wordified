@@ -304,9 +304,6 @@ guid
 =
 guid
 )
-"
-places
-"
 )
 ;
 win
@@ -1056,9 +1053,6 @@ bookmarks
 .
 menuGuid
 )
-"
-places
-"
 )
 ;
 /

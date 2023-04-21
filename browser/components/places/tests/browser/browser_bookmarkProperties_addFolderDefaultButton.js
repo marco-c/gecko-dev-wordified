@@ -287,9 +287,6 @@ title
 n
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField

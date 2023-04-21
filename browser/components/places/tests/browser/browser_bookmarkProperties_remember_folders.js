@@ -135,9 +135,6 @@ e
 .
 parentGuid
 )
-"
-places
-"
 )
 ;
 }

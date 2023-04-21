@@ -77,9 +77,6 @@ id
 =
 savedItemId
 )
-"
-places
-"
 )
 ;
 }
@@ -247,9 +244,6 @@ keyword
 kw
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField

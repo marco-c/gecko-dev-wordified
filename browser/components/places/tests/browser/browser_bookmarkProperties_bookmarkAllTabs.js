@@ -285,9 +285,6 @@ title
 folder
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField
@@ -478,9 +475,6 @@ id
 =
 savedItemId
 )
-"
-places
-"
 )
 ;
 }
@@ -631,10 +625,6 @@ waitForNotification
 bookmark
 -
 added
-"
-undefined
-"
-places
 "
 )
 ;

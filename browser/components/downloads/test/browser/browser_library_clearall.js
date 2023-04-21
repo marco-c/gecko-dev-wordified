@@ -386,9 +386,6 @@ DOWNLOAD_DATA
 length
 ;
 }
-"
-places
-"
 )
 ;
 promiseLength

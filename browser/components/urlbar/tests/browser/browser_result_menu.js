@@ -137,9 +137,6 @@ url
 =
 =
 TEST_URL
-"
-places
-"
 )
 ;
 await

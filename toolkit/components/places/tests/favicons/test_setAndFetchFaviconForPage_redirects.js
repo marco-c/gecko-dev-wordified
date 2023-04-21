@@ -254,9 +254,6 @@ SMALLPNG_DATA_URI
 .
 spec
 )
-"
-places
-"
 )
 ;
 PlacesUtils
@@ -500,9 +497,6 @@ SMALLPNG_DATA_URI
 .
 spec
 )
-"
-places
-"
 )
 new
 Promise

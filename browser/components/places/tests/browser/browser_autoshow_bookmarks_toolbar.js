@@ -460,9 +460,6 @@ guid
 =
 guid
 )
-"
-places
-"
 )
 ;
 win

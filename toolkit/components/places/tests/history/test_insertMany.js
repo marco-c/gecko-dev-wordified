@@ -703,14 +703,6 @@ rank
 -
 changed
 "
-(
-)
-=
->
-true
-"
-places
-"
 )
 ;
 result

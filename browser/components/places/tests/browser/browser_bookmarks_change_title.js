@@ -486,9 +486,6 @@ title
 =
 titleAfterFirstUpdate
 )
-"
-places
-"
 )
 ;
 /
@@ -884,9 +881,6 @@ Toolbar
 title
 "
 )
-"
-places
-"
 )
 ;
 /
@@ -1143,9 +1137,6 @@ Sidebar
 Title
 "
 )
-"
-places
-"
 )
 ;
 /
@@ -1428,9 +1419,6 @@ title
 =
 newTitle
 )
-"
-places
-"
 )
 ;
 info

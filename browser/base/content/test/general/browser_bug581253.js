@@ -321,9 +321,6 @@ url
 =
 testURL
 )
-"
-places
-"
 )
 ;
 let

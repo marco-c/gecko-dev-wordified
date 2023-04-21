@@ -195,9 +195,6 @@ aURI
 spec
 ;
 }
-"
-places
-"
 )
 ;
 /

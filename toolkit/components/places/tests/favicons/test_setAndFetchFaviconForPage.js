@@ -478,9 +478,6 @@ false
 ;
 }
 )
-"
-places
-"
 )
 ;
 PlacesUtils

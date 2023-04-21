@@ -149,9 +149,6 @@ events
 .
 url
 )
-"
-places
-"
 )
 ;
 await

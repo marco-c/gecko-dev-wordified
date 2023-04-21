@@ -427,9 +427,6 @@ TARGET_URI
 spec
 ;
 }
-"
-places
-"
 )
 ;
 let
@@ -623,9 +620,6 @@ TARGET_URI
 spec
 ;
 }
-"
-places
-"
 )
 ;
 let
@@ -812,9 +806,6 @@ TARGET_URI
 spec
 ;
 }
-"
-places
-"
 )
 ;
 let

@@ -301,9 +301,6 @@ return
 false
 ;
 }
-"
-places
-"
 )
 ;
 let
@@ -424,9 +421,6 @@ title
 f
 "
 )
-"
-places
-"
 )
 ;
 /
