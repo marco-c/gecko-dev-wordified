@@ -838,6 +838,36 @@ continue_on_error
 Boolean
             
 #
+Whether
+this
+command
+requires
+pre_export
+and
+export
+build
+            
+#
+targets
+to
+have
+run
+.
+Defaults
+to
+bool
+(
+cargo_build_flags
+)
+.
+            
+"
+requires_export
+"
+:
+Boolean
+            
+#
 Build
 flags
 to
@@ -1598,12 +1628,27 @@ join
 cargo_extra_flags
 )
     
+requires_export
+=
+yaml_config
+.
+get
+(
+"
+requires_export
+"
+bool
+(
+cargo_build_flags
+)
+)
+    
 ret
 =
 0
     
 if
-cargo_build_flags
+requires_export
 :
         
 #
