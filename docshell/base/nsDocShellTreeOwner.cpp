@@ -5606,7 +5606,7 @@ csp
 webnav
 -
 >
-LoadURI
+FixupAndLoadURIString
 (
 url
 loadURIOptions
