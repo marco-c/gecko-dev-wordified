@@ -367,6 +367,16 @@ nsAString
 aJSON
 )
 ;
+void
+OnReportPerformanceTiming
+(
+const
+ResponseTiming
+&
+&
+aTiming
+)
+;
 private
 :
 ~
