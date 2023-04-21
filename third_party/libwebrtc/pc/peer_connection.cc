@@ -8023,7 +8023,7 @@ rtp_manager
 )
 -
 >
-voice_media_channel
+voice_media_send_channel
 (
 )
 )
@@ -8109,7 +8109,7 @@ rtp_manager
 )
 -
 >
-video_media_channel
+video_media_send_channel
 (
 )
 )
@@ -10953,7 +10953,7 @@ vector
 cricket
 :
 :
-VideoMediaChannel
+VideoMediaSendChannelInterface
 *
 >
 channels
@@ -11026,7 +11026,7 @@ static_cast
 cricket
 :
 :
-VideoMediaChannel
+VideoMediaSendChannelInterface
 *
 >
 (

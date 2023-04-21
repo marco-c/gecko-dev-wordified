@@ -436,8 +436,11 @@ receiver_
 >
 SetMediaChannel
 (
-&
 media_channel_
+.
+AsVoiceReceiveChannel
+(
+)
 )
 ;
 EXPECT_CALL
@@ -564,8 +567,11 @@ receiver_
 >
 SetMediaChannel
 (
-&
 media_channel_
+.
+AsVoiceReceiveChannel
+(
+)
 )
 ;
 /

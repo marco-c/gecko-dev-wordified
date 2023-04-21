@@ -184,7 +184,7 @@ is_unified_plan
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 voice_channel
 /
@@ -253,7 +253,7 @@ is_unified_plan
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 voice_channel
 /
@@ -2029,7 +2029,7 @@ static_cast
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 >
 (

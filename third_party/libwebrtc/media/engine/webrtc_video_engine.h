@@ -1268,7 +1268,7 @@ override
 void
 SetInterface
 (
-NetworkInterface
+MediaChannelNetworkInterface
 *
 iface
 )

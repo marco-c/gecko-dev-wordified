@@ -13522,7 +13522,7 @@ WebRtcVideoChannel
 :
 SetInterface
 (
-NetworkInterface
+MediaChannelNetworkInterface
 *
 iface
 )
@@ -13560,7 +13560,7 @@ MediaChannel
 :
 SetOption
 (
-NetworkInterface
+MediaChannelNetworkInterface
 :
 :
 ST_RTP
@@ -13718,7 +13718,7 @@ MediaChannel
 :
 SetOption
 (
-NetworkInterface
+MediaChannelNetworkInterface
 :
 :
 ST_RTP

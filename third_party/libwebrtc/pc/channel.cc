@@ -6056,7 +6056,7 @@ recv_params
 if
 (
 !
-media_send_channel
+media_receive_channel
 (
 )
 -
@@ -6878,7 +6878,7 @@ false
 if
 (
 !
-media_send_channel
+media_receive_channel
 (
 )
 -
@@ -7456,7 +7456,7 @@ needs_recv_params_update
 if
 (
 !
-media_send_channel
+media_receive_channel
 (
 )
 -

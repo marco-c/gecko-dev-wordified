@@ -461,7 +461,7 @@ Start
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 media_channel
 absl
@@ -567,7 +567,7 @@ Stop
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 media_channel
 absl
