@@ -56,21 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-maybeOnSpellCheck
-"
-"
-onSpellCheck
-"
-"
-getDictionaryContentPref
-"
-]
-;
 const
 SPELL_CHECK_ENDED_TOPIC
 =
@@ -273,6 +258,7 @@ started
 .
 *
 /
+export
 function
 maybeOnSpellCheck
 (
@@ -751,6 +737,7 @@ started
 .
 *
 /
+export
 function
 onSpellCheck
 (
@@ -811,6 +798,7 @@ callback
 )
 ;
 }
+export
 async
 function
 getDictionaryContentPref
