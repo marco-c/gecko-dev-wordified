@@ -1324,14 +1324,6 @@ ErrorResult
 aRv
 )
 ;
-protected
-:
-nsCOMPtr
-<
-nsIGlobalObject
->
-mGlobal
-;
 /
 /
 Internal
@@ -1468,6 +1460,12 @@ Promise
 >
 >
 mWriteRequests
+;
+nsCOMPtr
+<
+nsIGlobalObject
+>
+mGlobal
 ;
 HoldDropJSObjectsCaller
 mHoldDropCaller
