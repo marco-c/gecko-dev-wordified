@@ -896,14 +896,7 @@ scope
 mBuffer
 -
 >
-abandon
-(
-)
-;
-mBuffer
--
->
-steal
+giveTo
 (
 &
 data
