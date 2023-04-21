@@ -1200,12 +1200,7 @@ self
 Self
 :
 :
-Open
-|
-Self
-:
-:
-Closed
+PopoverOpen
 )
 {
 return
