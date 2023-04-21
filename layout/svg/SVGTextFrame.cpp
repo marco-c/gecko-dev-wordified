@@ -21179,6 +21179,11 @@ SVGUtils
 SetupStrokeGeometry
 (
 frame
+-
+>
+GetParent
+(
+)
 &
 aContext
 outerContextPaint
