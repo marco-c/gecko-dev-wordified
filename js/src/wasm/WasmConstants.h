@@ -2111,6 +2111,14 @@ BrOnCastFail
 0x47
 /
 /
+Dart
+compatibility
+instruction
+RefAsStruct
+=
+0x59
+/
+/
 Extern
 /
 any
