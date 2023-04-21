@@ -6452,7 +6452,6 @@ target
 )
 :
 return
-(
 js_standalone
 and
 target
@@ -6466,16 +6465,6 @@ WINNT
 "
 "
 Darwin
-"
-)
-and
-target
-.
-os
-!
-=
-"
-Android
 "
 )
 option
