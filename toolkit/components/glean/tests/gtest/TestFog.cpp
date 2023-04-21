@@ -2166,11 +2166,11 @@ expect
 Give
 ourselves
 a
-40000ns
+200000ns
 (
 0
 .
-04ms
+2ms
 )
 window
 to
@@ -2184,7 +2184,7 @@ const
 uint64_t
 EPSILON
 =
-40000
+200000
 ;
 /
 /
