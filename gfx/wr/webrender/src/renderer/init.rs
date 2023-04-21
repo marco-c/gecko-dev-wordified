@@ -3446,6 +3446,9 @@ compositor
 .
 get_capabilities
 (
+&
+mut
+device
 )
 ;
 CompositorKind
