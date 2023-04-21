@@ -1038,6 +1038,11 @@ mLaunchPromiseSettled
 =
 false
 ;
+bool
+mLaunchPromiseLaunched
+=
+false
+;
 /
 /
 Will
