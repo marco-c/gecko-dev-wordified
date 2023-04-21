@@ -702,6 +702,13 @@ webgl
 :
 AttribBaseType
 )
+USE_IS_ENUM_CASE
+(
+webgl
+:
+:
+ProvokingVertex
+)
 #
 undef
 USE_IS_ENUM_CASE
