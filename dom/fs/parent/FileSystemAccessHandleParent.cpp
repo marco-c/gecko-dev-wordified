@@ -227,6 +227,17 @@ true
 )
 ;
 mAccessHandle
+-
+>
+UnregisterActor
+(
+WrapNotNullUnchecked
+(
+this
+)
+)
+;
+mAccessHandle
 =
 nullptr
 ;
