@@ -3713,10 +3713,6 @@ Failed
 to
 record
 metric
-'
-{
-}
-'
 into
 {
 }
@@ -3726,11 +3722,6 @@ into
 ?
 }
 "
-data
-.
-base_identifier
-(
-)
 ping_name
 e
 )
@@ -4179,10 +4170,6 @@ Failed
 to
 record
 metric
-'
-{
-}
-'
 into
 {
 }
@@ -4192,11 +4179,6 @@ into
 ?
 }
 "
-data
-.
-base_identifier
-(
-)
 ping_name
 e
 )
