@@ -128,6 +128,8 @@ h
 #
 include
 "
+third_party
+/
 libyuv
 /
 include
