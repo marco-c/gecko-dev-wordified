@@ -210,10 +210,6 @@ version
 .
 h
 "
-#
-if
-!
-FF_API_DECLARE_ALIGNED
 /
 *
 *
@@ -791,8 +787,6 @@ static
 const
 t
 v
-#
-endif
 #
 endif
 /

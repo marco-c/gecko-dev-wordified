@@ -1490,7 +1490,7 @@ implemented
 part
 of
 this
-funcation
+function
 *
 so
 we
@@ -3779,7 +3779,7 @@ platform
 doesn
 '
 t
-suppport
+support
 "
 "
 hardware

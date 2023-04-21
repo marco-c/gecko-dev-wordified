@@ -562,6 +562,12 @@ Rext
 "
 }
 {
+FF_PROFILE_HEVC_SCC
+"
+Scc
+"
+}
+{
 FF_PROFILE_UNKNOWN
 }
 }

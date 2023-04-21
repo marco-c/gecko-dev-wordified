@@ -470,6 +470,12 @@ reference
 int
 shared
 ;
+int
+display_picture_number
+;
+int
+coded_picture_number
+;
 }
 Picture
 ;

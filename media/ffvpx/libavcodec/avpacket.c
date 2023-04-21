@@ -1907,13 +1907,10 @@ while
 (
 t
 =
-av_dict_get
+av_dict_iterate
 (
 dict
-"
-"
 t
-AV_DICT_IGNORE_SUFFIX
 )
 )
 )

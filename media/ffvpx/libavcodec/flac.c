@@ -243,7 +243,7 @@ sample_size_table
 16
 20
 24
-0
+32
 }
 ;
 static
@@ -530,12 +530,6 @@ bps_code
 =
 =
 3
-|
-|
-bps_code
-=
-=
-7
 )
 {
 av_log
