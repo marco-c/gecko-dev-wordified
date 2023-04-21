@@ -11020,6 +11020,11 @@ marker
 isDrained
 (
 )
+|
+|
+hasDelayedMarking
+(
+)
 )
 {
 AutoLockHelperThreadState
