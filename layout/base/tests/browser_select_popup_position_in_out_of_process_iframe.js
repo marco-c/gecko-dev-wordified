@@ -541,6 +541,14 @@ function
 (
 )
 {
+await
+SpecialPowers
+.
+contentTransformsReceived
+(
+content
+)
+;
 const
 input
 =
