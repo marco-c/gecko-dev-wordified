@@ -1098,6 +1098,21 @@ tests
 test_type
 ]
 )
+        
+tests_by_type
+[
+test_type
+]
+.
+extend
+(
+test_loader
+.
+disabled_tests
+[
+test_type
+]
+)
     
 try
 :
