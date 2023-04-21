@@ -1048,6 +1048,10 @@ enum
 Dav1dInloopFilterType
 inloop_filters
 ;
+enum
+Dav1dDecodeFrameType
+decode_frame_type
+;
 int
 drain
 ;

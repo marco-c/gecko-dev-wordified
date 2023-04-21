@@ -396,7 +396,6 @@ int
 h
 )
 {
-static
 const
 i32x4
 zerov
@@ -406,7 +405,6 @@ vec_splats
 0
 )
 ;
-static
 const
 i32x4
 seven_vec
@@ -416,7 +414,6 @@ vec_splats
 7
 )
 ;
-static
 const
 i32x4
 bitdepth_added_vec
@@ -429,7 +426,6 @@ vec_splats
 14
 )
 ;
-static
 const
 i32x4
 round_bits_vec
@@ -439,7 +435,6 @@ vec_splats
 3
 )
 ;
-static
 const
 i32x4
 rounding_off_vec
@@ -452,7 +447,6 @@ vec_splats
 2
 )
 ;
-static
 const
 i32x4
 clip_limit_v
@@ -1010,7 +1004,6 @@ i16x8
 v
 )
 {
-static
 const
 i16x8
 zerov
@@ -1023,7 +1016,6 @@ int16_t
 0
 )
 ;
-static
 const
 i16x8
 maxv
@@ -1398,7 +1390,6 @@ int
 h
 )
 {
-static
 const
 i32x4
 round_bits_vec
@@ -1408,7 +1399,6 @@ vec_splats
 11
 )
 ;
-static
 const
 i32x4
 round_vec

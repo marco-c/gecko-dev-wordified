@@ -467,6 +467,12 @@ int
 offset
 =
 (
+int
+)
+(
+(
+unsigned
+)
 w
 *
 rnd
