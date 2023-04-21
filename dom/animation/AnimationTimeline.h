@@ -729,7 +729,7 @@ Animation
 *
 aAnimation
 bool
-visible
+aIsVisible
 )
 ;
 virtual
@@ -902,8 +902,8 @@ and
 (
 b
 )
-an
-array
+a
+LinkedList
 /
 /
 to

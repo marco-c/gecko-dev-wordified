@@ -1582,7 +1582,7 @@ Animation
 *
 aAnimation
 bool
-visible
+aIsVisible
 )
 {
 AnimationTimeline
@@ -1591,7 +1591,7 @@ AnimationTimeline
 NotifyAnimationContentVisibilityChanged
 (
 aAnimation
-visible
+aIsVisible
 )
 ;
 if
