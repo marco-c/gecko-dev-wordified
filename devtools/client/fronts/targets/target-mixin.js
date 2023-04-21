@@ -1888,9 +1888,10 @@ chrome
 )
 {
 return
+(
 this
 .
-isAddon
+isWebExtension
 |
 |
 this
@@ -1901,6 +1902,7 @@ isContentProcess
 this
 .
 isParentProcess
+)
 ;
 }
 /
@@ -1958,7 +1960,7 @@ if
 (
 this
 .
-isAddon
+isWebExtension
 |
 |
 this
@@ -2005,17 +2007,6 @@ return
 this
 .
 _url
-;
-}
-get
-isAddon
-(
-)
-{
-return
-this
-.
-isWebExtension
 ;
 }
 get
