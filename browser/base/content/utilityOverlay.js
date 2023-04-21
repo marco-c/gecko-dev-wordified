@@ -2532,6 +2532,7 @@ features
 =
 "
 chrome
+centerscreen
 "
 ;
 if
@@ -2550,7 +2551,6 @@ features
 +
 =
 "
-centerscreen
 dependent
 "
 ;
@@ -2587,7 +2587,6 @@ features
 +
 =
 "
-centerscreen
 dependent
 dialog
 =
