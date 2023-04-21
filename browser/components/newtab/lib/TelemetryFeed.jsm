@@ -5174,6 +5174,7 @@ namespace
 pingType
 version
 )
+namespace
 )
 ;
 }

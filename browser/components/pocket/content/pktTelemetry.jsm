@@ -804,6 +804,7 @@ this
 _generateStructuredIngestionEndpoint
 (
 )
+STRUCTURED_INGESTION_NAMESPACE_AS
 )
 ;
 }
