@@ -202,7 +202,7 @@ TOGGLE_POLICIES
 THREE_QUARTERS
 /
 /
-keyboardControls
+disabledKeyboardControls
 :
 KEYBOARD_CONTROLS
 .
@@ -242,11 +242,11 @@ TOGGLE_POLICIES
 TOP
 /
 /
-keyboardControls
+disabledKeyboardControls
 :
 KEYBOARD_CONTROLS
 .
-NONE
+ALL
 /
 /
 }
