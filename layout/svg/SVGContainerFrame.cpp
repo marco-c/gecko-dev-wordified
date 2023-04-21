@@ -1686,12 +1686,9 @@ StyleEffects
 )
 -
 >
-mOpacity
-=
-=
-0
-.
-0
+IsTransparent
+(
+)
 )
 {
 return
