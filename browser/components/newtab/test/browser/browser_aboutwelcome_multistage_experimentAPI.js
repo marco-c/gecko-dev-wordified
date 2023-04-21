@@ -2612,8 +2612,6 @@ referral
 &
 utm_term
 =
-aboutwelcome
--
 test
 -
 screen
