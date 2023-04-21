@@ -873,6 +873,13 @@ pos
 comp
 -
 >
+quant_tbl_no
+=
+quant_tbl_idx
+;
+comp
+-
+>
 quant_table
 =
 cinfo

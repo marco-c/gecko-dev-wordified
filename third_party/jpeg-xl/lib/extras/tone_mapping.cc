@@ -110,6 +110,17 @@ enc_color_management
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+image_bundle
+.
+h
+"
 HWY_BEFORE_NAMESPACE
 (
 )

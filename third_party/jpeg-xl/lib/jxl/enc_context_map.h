@@ -85,17 +85,6 @@ lib
 /
 jxl
 /
-aux_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_bit_writer
 .
 h
@@ -103,6 +92,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 /
 /
 Max

@@ -73,17 +73,6 @@ lib
 /
 jxl
 /
-aux_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 data_parallel
@@ -287,6 +276,9 @@ field
 namespace
 jxl
 {
+struct
+AuxOut
+;
 /
 /
 Computes

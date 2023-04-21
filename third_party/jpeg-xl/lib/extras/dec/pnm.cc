@@ -108,6 +108,17 @@ status
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+size_constraints
+.
+h
+"
 namespace
 jxl
 {
@@ -1886,6 +1897,7 @@ MAXVAL
 e
 .
 g
+.
 When
 max_val
 is

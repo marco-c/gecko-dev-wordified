@@ -62,6 +62,12 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
+struct
+BitWriter
+;
 Status
 DequantMatricesEncode
 (
@@ -134,7 +140,6 @@ DequantMatricesScaleDC
 DequantMatrices
 *
 matrices
-const
 float
 scale
 )

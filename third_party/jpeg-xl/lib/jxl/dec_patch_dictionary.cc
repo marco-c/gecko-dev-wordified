@@ -541,8 +541,7 @@ ref
 ]
 .
 frame
--
->
+.
 xsize
 (
 )
@@ -600,7 +599,6 @@ ImageBundle
 &
 ib
 =
-*
 shared_
 -
 >
@@ -2775,13 +2773,11 @@ ref
 ]
 .
 frame
--
->
+.
 color
 (
 )
--
->
+.
 ConstPlaneRow
 (
 c
@@ -2833,8 +2829,7 @@ ref
 ]
 .
 frame
--
->
+.
 extra_channels
 (
 )

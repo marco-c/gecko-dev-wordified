@@ -74,17 +74,6 @@ lib
 /
 jxl
 /
-aux_out_fwd
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 compiler_specific

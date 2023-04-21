@@ -151,6 +151,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 class
 QuantizedSplineEncoder
 {

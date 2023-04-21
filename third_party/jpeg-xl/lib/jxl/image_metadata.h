@@ -170,6 +170,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 /
 /
 EXIF

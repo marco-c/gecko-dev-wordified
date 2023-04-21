@@ -850,6 +850,7 @@ accordingly
 e
 .
 g
+.
 multiplied
 by
 *

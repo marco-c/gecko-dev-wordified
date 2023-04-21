@@ -84,17 +84,6 @@ lib
 /
 jxl
 /
-aux_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 override

@@ -249,15 +249,6 @@ hwy
 HWY_NAMESPACE
 :
 :
-Broadcast
-;
-using
-hwy
-:
-:
-HWY_NAMESPACE
-:
-:
 MulAdd
 ;
 void

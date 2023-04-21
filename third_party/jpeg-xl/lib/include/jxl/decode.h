@@ -3135,7 +3135,7 @@ event
 but
 before
 the
-corrsponding
+corresponding
 ref
 JXL_DEC_FULL_IMAGE
 event
@@ -7069,7 +7069,7 @@ JxlDecoderSetCms
 and
 the
 CMS
-suppports
+supports
 output
 to
 the
@@ -7485,7 +7485,7 @@ libjxl
 is
 build
 with
-an
+a
 CMS
 .
 /
@@ -10794,7 +10794,7 @@ a
 ref
 JXL_DEC_BOX
 event
-occured
+occurred
 *
 as
 4

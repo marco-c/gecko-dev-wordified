@@ -229,6 +229,17 @@ lib
 /
 jxl
 /
+enc_aux_out
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_params
 .
 h

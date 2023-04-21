@@ -84,6 +84,11 @@ algorithm
 #
 include
 <
+array
+>
+#
+include
+<
 iterator
 >
 #
@@ -233,7 +238,7 @@ kSJpeg
 ;
 #
 define
-ARRAYSIZE
+ARRAY_SIZE
 (
 X
 )
@@ -378,7 +383,7 @@ constexpr
 size_t
 kNumScans1
 =
-ARRAYSIZE
+ARRAY_SIZE
 (
 kScanScript1
 )
@@ -494,7 +499,7 @@ constexpr
 size_t
 kNumScans2
 =
-ARRAYSIZE
+ARRAY_SIZE
 (
 kScanScript2
 )
@@ -610,7 +615,7 @@ constexpr
 size_t
 kNumScans3
 =
-ARRAYSIZE
+ARRAY_SIZE
 (
 kScanScript3
 )
@@ -754,7 +759,7 @@ constexpr
 size_t
 kNumScans4
 =
-ARRAYSIZE
+ARRAY_SIZE
 (
 kScanScript4
 )
@@ -946,7 +951,7 @@ constexpr
 size_t
 kNumScans5
 =
-ARRAYSIZE
+ARRAY_SIZE
 (
 kScanScript5
 )
@@ -1131,7 +1136,7 @@ static_cast
 int
 >
 (
-ARRAYSIZE
+ARRAY_SIZE
 (
 kNumScans
 )

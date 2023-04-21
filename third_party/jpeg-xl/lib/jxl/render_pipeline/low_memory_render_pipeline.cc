@@ -77,7 +77,9 @@ lib
 /
 jxl
 /
-aux_out
+base
+/
+arch_macros
 .
 h
 "
@@ -88,9 +90,7 @@ lib
 /
 jxl
 /
-base
-/
-arch_macros
+image_ops
 .
 h
 "

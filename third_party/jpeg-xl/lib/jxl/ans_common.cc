@@ -179,7 +179,7 @@ all
 trailing
 non
 -
-occuring
+occurring
 symbols
 are
 removed

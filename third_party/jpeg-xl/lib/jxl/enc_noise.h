@@ -68,17 +68,6 @@ lib
 /
 jxl
 /
-aux_out_fwd
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 status
@@ -121,6 +110,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 /
 /
 Get

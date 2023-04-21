@@ -64,6 +64,17 @@ test_utils
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+testing
+.
+h
+"
 namespace
 jxl
 {

@@ -228,6 +228,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 namespace
 {
 void

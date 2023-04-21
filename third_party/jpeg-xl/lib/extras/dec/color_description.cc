@@ -374,7 +374,7 @@ false
 }
 #
 define
-ARRAYSIZE
+ARRAY_SIZE
 (
 X
 )
@@ -416,7 +416,7 @@ type
 #
 #
 Names
-ARRAYSIZE
+ARRAY_SIZE
 (
 k
 #

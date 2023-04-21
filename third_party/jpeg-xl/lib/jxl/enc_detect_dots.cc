@@ -294,7 +294,7 @@ lib
 /
 jxl
 /
-aux_out
+enc_aux_out
 .
 h
 "

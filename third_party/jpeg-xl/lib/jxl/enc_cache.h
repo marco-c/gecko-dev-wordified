@@ -85,17 +85,6 @@ lib
 /
 jxl
 /
-aux_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 data_parallel
@@ -270,6 +259,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 /
 /
 Contains
