@@ -57,13 +57,6 @@ zero
 length
 strings
 .
-newRope
-(
-"
-"
-"
-"
-)
 newString
 (
 "
