@@ -2083,7 +2083,7 @@ manager
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .

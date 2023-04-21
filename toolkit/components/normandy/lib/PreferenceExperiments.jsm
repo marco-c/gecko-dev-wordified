@@ -1584,7 +1584,7 @@ of
 await
 this
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 )
@@ -1944,7 +1944,7 @@ allExperiments
 await
 this
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 ;
@@ -5541,7 +5541,7 @@ Experiment
 *
 /
 async
-getAllActive
+getAllActiveExperiments
 (
 )
 {
@@ -6358,7 +6358,7 @@ experiments
 await
 PreferenceExperiments
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 ;
