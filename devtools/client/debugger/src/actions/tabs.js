@@ -104,7 +104,7 @@ import
 {
 getSourceByURL
 getSourceTabs
-getNewSelectedSourceId
+getNewSelectedSource
 }
 from
 "
@@ -240,9 +240,9 @@ source
 )
 ;
 const
-sourceId
+newSource
 =
-getNewSelectedSourceId
+getNewSelectedSource
 (
 getState
 (
@@ -255,7 +255,7 @@ dispatch
 selectSource
 (
 cx
-sourceId
+newSource
 )
 )
 ;
@@ -355,9 +355,9 @@ sources
 )
 ;
 const
-sourceId
+source
 =
-getNewSelectedSourceId
+getNewSelectedSource
 (
 getState
 (
@@ -370,7 +370,7 @@ dispatch
 selectSource
 (
 cx
-sourceId
+source
 )
 )
 ;

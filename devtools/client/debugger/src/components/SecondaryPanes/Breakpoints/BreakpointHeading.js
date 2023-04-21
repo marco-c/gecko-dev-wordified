@@ -310,8 +310,6 @@ selectSource
 (
 cx
 source
-.
-id
 )
 }
 onContextMenu

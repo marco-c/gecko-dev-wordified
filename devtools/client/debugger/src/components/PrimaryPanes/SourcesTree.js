@@ -975,13 +975,9 @@ cx
 item
 .
 source
-.
-id
 item
 .
 sourceActor
-.
-actor
 )
 ;
 }
