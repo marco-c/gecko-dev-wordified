@@ -2764,6 +2764,16 @@ nsIPrincipal
 *
 aPrincipal
 const
+mozilla
+:
+:
+Maybe
+<
+IPCClientInfo
+>
+&
+aClientInfo
+const
 bool
 &
 aDedicated
@@ -2834,6 +2844,7 @@ Create
 (
 aURL
 aPrincipal
+aClientInfo
 aDedicated
 aRequireUnreliable
 aCongestionControl
