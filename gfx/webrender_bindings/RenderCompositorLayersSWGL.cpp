@@ -1967,6 +1967,14 @@ MOZ_RELEASE_ASSERT
 image
 -
 >
+AsRenderAndroidHardwareBufferTextureHost
+(
+)
+|
+|
+image
+-
+>
 AsRenderAndroidSurfaceTextureHost
 (
 )

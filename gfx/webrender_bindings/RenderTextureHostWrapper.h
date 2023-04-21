@@ -330,6 +330,13 @@ AsRenderDcompSurfaceTextureHost
 )
 override
 ;
+RenderAndroidHardwareBufferTextureHost
+*
+AsRenderAndroidHardwareBufferTextureHost
+(
+)
+override
+;
 RenderAndroidSurfaceTextureHost
 *
 AsRenderAndroidSurfaceTextureHost
