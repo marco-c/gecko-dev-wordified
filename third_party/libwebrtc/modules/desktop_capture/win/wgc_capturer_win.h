@@ -554,6 +554,10 @@ public
 :
 WgcCapturerWin
 (
+const
+DesktopCaptureOptions
+&
+options
 std
 :
 :
@@ -717,6 +721,9 @@ IDispatcherQueueController
 *
 *
 )
+;
+DesktopCaptureOptions
+options_
 ;
 /
 /

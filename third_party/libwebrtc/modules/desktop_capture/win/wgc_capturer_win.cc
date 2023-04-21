@@ -928,6 +928,10 @@ WgcCapturerWin
 :
 WgcCapturerWin
 (
+const
+DesktopCaptureOptions
+&
+options
 std
 :
 :
@@ -948,6 +952,10 @@ bool
 allow_delayed_capturable_check
 )
 :
+options_
+(
+options
+)
 source_factory_
 (
 std
@@ -1058,6 +1066,7 @@ make_unique
 WgcCapturerWin
 >
 (
+options
 std
 :
 :
@@ -1115,6 +1124,7 @@ make_unique
 WgcCapturerWin
 >
 (
+options
 std
 :
 :
@@ -2036,6 +2046,7 @@ capture_session
 >
 StartCapture
 (
+options_
 )
 ;
 if
@@ -2290,7 +2301,11 @@ frame
 >
 set_may_contain_cursor
 (
-true
+options_
+.
+prefer_cursor_embedded
+(
+)
 )
 ;
 frame
