@@ -1408,8 +1408,6 @@ public
 MonoInputVolumeController
 (
 int
-startup_min_level
-int
 clipped_level_min
 int
 min_mic_level
@@ -1607,16 +1605,6 @@ return
 min_mic_level_
 ;
 }
-int
-startup_min_level
-(
-)
-const
-{
-return
-startup_min_level_
-;
-}
 private
 :
 /
@@ -1770,9 +1758,6 @@ bool
 startup_
 =
 true
-;
-int
-startup_min_level_
 ;
 /
 /
