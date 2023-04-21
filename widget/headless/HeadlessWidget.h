@@ -886,6 +886,9 @@ mVisible
 bool
 mDestroyed
 ;
+bool
+mAlwaysOnTop
+;
 nsIWidget
 *
 mTopLevel
