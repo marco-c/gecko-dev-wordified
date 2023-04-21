@@ -56,7 +56,6 @@ MPL
 .
 *
 /
-export
 function
 TooltipTextProvider
 (
@@ -1157,4 +1156,13 @@ nsITooltipTextProvider
 ]
 )
 }
+;
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+TooltipTextProvider
+"
+]
 ;
