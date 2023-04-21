@@ -1750,8 +1750,6 @@ riscv64
 AssemblerMatInt
 .
 cpp
-.
-cpp
 "
 "
 riscv64
