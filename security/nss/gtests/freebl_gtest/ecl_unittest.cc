@@ -109,6 +109,7 @@ Test
 {
 protected
 :
+const
 ECCurveName
 GetCurveName
 (

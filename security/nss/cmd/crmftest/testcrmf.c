@@ -746,7 +746,7 @@ endif
 #
 define
 MAX_KEY_LEN
-1024
+512
 #
 define
 PATH_LEN
