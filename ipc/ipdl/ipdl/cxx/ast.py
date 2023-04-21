@@ -2151,10 +2151,6 @@ rvalref
 =
 False
         
-rightconst
-=
-False
-        
 hasimplicitcopyctor
 =
 True
@@ -2276,37 +2272,6 @@ T
 "
 "
         
-#
-XXX
-(
-nika
-)
-:
-This
-type
-is
-complex
-enough
-at
-this
-point
-perhaps
-we
-        
-#
-should
-get
-"
-fancy
-with
-recursive
-types
-"
-to
-simplify
-it
-.
-        
 assert
 isinstance
 (
@@ -2353,13 +2318,6 @@ assert
 isinstance
 (
 rvalref
-bool
-)
-        
-assert
-isinstance
-(
-rightconst
 bool
 )
         
@@ -2419,12 +2377,6 @@ self
 rvalref
 =
 rvalref
-        
-self
-.
-rightconst
-=
-rightconst
         
 self
 .
@@ -2516,12 +2468,6 @@ rvalref
 self
 .
 rvalref
-            
-rightconst
-=
-self
-.
-rightconst
             
 T
 =
