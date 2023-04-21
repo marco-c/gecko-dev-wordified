@@ -2214,6 +2214,8 @@ mozilla
 CORSMode
 bool
 aLinkPreload
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 bool
@@ -2265,6 +2267,8 @@ mozilla
 CORSMode
 bool
 aLinkPreload
+uint64_t
+aEarlyHintPreloaderId
 bool
 *
 aNewChannelCreated
@@ -2301,6 +2305,8 @@ mozilla
 :
 :
 CORSMode
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 /
