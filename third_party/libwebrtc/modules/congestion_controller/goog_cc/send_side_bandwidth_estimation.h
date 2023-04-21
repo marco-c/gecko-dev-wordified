@@ -698,6 +698,8 @@ optional
 DataRate
 >
 probe_bitrate
+DataRate
+upper_link_capacity
 )
 ;
 private
