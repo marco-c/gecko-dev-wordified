@@ -1553,9 +1553,23 @@ Got
 +
 msg
                     
+#
+Force
+level
+to
+be
+WARNING
+as
+message
+is
+not
+necessary
+in
+Treeherder
+                    
 self
 .
-error
+warning
 (
 msg
 )

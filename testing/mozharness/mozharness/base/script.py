@@ -12913,20 +12913,12 @@ return
 -
 1
         
-return_level
-=
-INFO
-        
 if
 returncode
 not
 in
 success_codes
 :
-            
-return_level
-=
-error_level
             
 if
 throw_exception
@@ -12940,6 +12932,20 @@ CalledProcessError
 returncode
 command
 )
+        
+#
+Force
+level
+to
+be
+INFO
+as
+message
+is
+not
+necessary
+in
+Treeherder
         
 self
 .
@@ -12956,7 +12962,7 @@ d
 returncode
 level
 =
-return_level
+INFO
 )
         
 if
@@ -14454,6 +14460,20 @@ returncode
 command
 )
         
+#
+Force
+level
+to
+be
+INFO
+as
+message
+is
+not
+necessary
+in
+Treeherder
+        
 self
 .
 log
@@ -14471,7 +14491,7 @@ p
 returncode
 level
 =
-return_level
+INFO
 )
         
 if

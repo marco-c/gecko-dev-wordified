@@ -1807,7 +1807,7 @@ getsize
 "
 test_logs
 /
-test_error
+test_info
 .
 log
 "

@@ -3722,9 +3722,22 @@ level
 log_level
 )
                     
+#
+report
+as
+INFO
+instead
+of
+log_level
+to
+avoid
+extra
+Treeherder
+lines
+                    
 self
 .
-log
+info
 (
                         
 "
@@ -3750,10 +3763,6 @@ suite_category
 suite
 tbpl_status
 )
-                        
-level
-=
-log_level
                     
 )
 if
