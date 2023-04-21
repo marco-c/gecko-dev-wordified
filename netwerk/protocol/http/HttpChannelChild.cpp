@@ -15327,6 +15327,14 @@ earlyHintPreloaderId
 =
 mEarlyHintPreloaderId
 ;
+openArgs
+.
+classicScriptHintCharset
+(
+)
+=
+mClassicScriptHintCharset
+;
 /
 /
 This
