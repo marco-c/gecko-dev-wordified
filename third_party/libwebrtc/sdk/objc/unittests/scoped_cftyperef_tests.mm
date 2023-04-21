@@ -104,15 +104,6 @@ scoped_cftyperef
 .
 h
 "
-#
-include
-"
-test
-/
-gtest
-.
-h
-"
 namespace
 {
 struct
@@ -299,7 +290,7 @@ ref
 a
 )
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 0
 a
@@ -331,7 +322,7 @@ RetainPolicy
 RETAIN
 )
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 1
 a
@@ -349,7 +340,7 @@ testShouldReleaseWhenLeavingScope
 TestType
 a
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 0
 a
@@ -372,7 +363,7 @@ RetainPolicy
 RETAIN
 )
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 1
 a
@@ -381,7 +372,7 @@ retain_count
 )
 ;
 }
-EXPECT_EQ
+XCTAssertEqual
 (
 0
 a
@@ -399,7 +390,7 @@ testShouldBeCopyable
 TestType
 a
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 0
 a
@@ -422,7 +413,7 @@ RetainPolicy
 RETAIN
 )
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 1
 a
@@ -435,7 +426,7 @@ ref2
 =
 ref1
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 2
 a
@@ -444,7 +435,7 @@ retain_count
 )
 ;
 }
-EXPECT_EQ
+XCTAssertEqual
 (
 0
 a
@@ -462,7 +453,7 @@ testCanReleaseOwnership
 TestType
 a
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 0
 a
@@ -485,7 +476,7 @@ RetainPolicy
 RETAIN
 )
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 1
 a
@@ -503,7 +494,7 @@ release
 )
 ;
 }
-EXPECT_EQ
+XCTAssertEqual
 (
 1
 a
@@ -521,7 +512,7 @@ testShouldBeTestableForTruthiness
 ScopedTestType
 ref
 ;
-EXPECT_FALSE
+XCTAssertFalse
 (
 ref
 )
@@ -534,7 +525,7 @@ ref
 &
 a
 ;
-EXPECT_TRUE
+XCTAssertTrue
 (
 ref
 )
@@ -545,7 +536,7 @@ release
 (
 )
 ;
-EXPECT_FALSE
+XCTAssertFalse
 (
 ref
 )
@@ -567,7 +558,7 @@ ref
 a
 )
 ;
-EXPECT_EQ
+XCTAssertEqual
 (
 &
 (
