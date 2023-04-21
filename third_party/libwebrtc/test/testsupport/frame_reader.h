@@ -685,7 +685,7 @@ and
 frame
 headers
 .
-uint8_t
+char
 *
 buffer_
 ;
