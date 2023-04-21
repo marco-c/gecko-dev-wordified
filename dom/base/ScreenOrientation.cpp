@@ -3630,6 +3630,10 @@ aCallerType
 GetOwnerGlobal
 (
 )
+RFPTarget
+:
+:
+ScreenOrientation
 )
 )
 {
@@ -3666,6 +3670,10 @@ aCallerType
 GetOwnerGlobal
 (
 )
+RFPTarget
+:
+:
+ScreenOrientation
 )
 )
 {
@@ -3702,6 +3710,10 @@ aCallerType
 GetOwnerGlobal
 (
 )
+RFPTarget
+:
+:
+ScreenOrientation
 )
 )
 {
@@ -3789,6 +3801,10 @@ aCallerType
 GetOwnerGlobal
 (
 )
+RFPTarget
+:
+:
+ScreenOrientation
 )
 )
 {
@@ -4093,6 +4109,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+ScreenOrientation
 )
 )
 {
