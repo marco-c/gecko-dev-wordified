@@ -1014,7 +1014,8 @@ Invalidate
 )
 ;
 }
-nsScrollbarFrame
+virtual
+nsIFrame
 *
 GetScrollbarBox
 (

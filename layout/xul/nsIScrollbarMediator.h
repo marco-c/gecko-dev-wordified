@@ -649,7 +649,7 @@ box
 *
 /
 virtual
-nsScrollbarFrame
+nsIFrame
 *
 GetScrollbarBox
 (
