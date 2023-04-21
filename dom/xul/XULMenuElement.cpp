@@ -192,6 +192,13 @@ h
 #
 include
 "
+nsMenuBarListener
+.
+h
+"
+#
+include
+"
 nsXULPopupManager
 .
 h
