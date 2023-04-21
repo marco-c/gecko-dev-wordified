@@ -1708,10 +1708,10 @@ is_zero
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;
@@ -1738,10 +1738,10 @@ is_auto
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;

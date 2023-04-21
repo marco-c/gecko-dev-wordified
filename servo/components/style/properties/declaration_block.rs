@@ -7722,10 +7722,10 @@ is_first_serialization
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 }
 else

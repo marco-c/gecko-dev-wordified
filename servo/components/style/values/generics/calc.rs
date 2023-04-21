@@ -6544,11 +6544,11 @@ write_closing_paren
 {
 dest
 .
-write_str
+write_char
 (
-"
+'
 )
-"
+'
 )
 ?
 ;

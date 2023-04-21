@@ -681,11 +681,11 @@ was_calc
 {
 dest
 .
-write_str
+write_char
 (
-"
+'
 )
-"
+'
 )
 ?
 ;

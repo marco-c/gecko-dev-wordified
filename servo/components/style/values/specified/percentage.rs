@@ -371,11 +371,11 @@ is_some
 {
 dest
 .
-write_str
+write_char
 (
-"
+'
 )
-"
+'
 )
 ?
 ;

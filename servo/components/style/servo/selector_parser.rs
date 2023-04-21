@@ -2152,11 +2152,11 @@ dest
 return
 dest
 .
-write_str
+write_char
 (
-"
+'
 )
-"
+'
 )
 ;
 }

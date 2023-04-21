@@ -513,10 +513,10 @@ wrote_value
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;

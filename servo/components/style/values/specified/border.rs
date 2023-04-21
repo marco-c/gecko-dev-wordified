@@ -1797,10 +1797,10 @@ self
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;

@@ -1186,10 +1186,10 @@ solid
 ?
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;
@@ -1213,10 +1213,10 @@ CurrentColor
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;
