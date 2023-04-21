@@ -577,7 +577,7 @@ to
 the
 input
 field
-to
+and
 reopen
 the
 picker
@@ -923,7 +923,7 @@ KEY_Tab
 {
 repeat
 :
-3
+2
 }
 )
 ;

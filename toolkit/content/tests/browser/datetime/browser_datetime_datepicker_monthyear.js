@@ -193,7 +193,7 @@ KEY_Tab
 {
 repeat
 :
-3
+2
 }
 )
 ;
@@ -395,7 +395,7 @@ KEY_Tab
 {
 repeat
 :
-3
+2
 }
 )
 ;
@@ -591,7 +591,7 @@ KEY_Tab
 {
 repeat
 :
-3
+2
 }
 )
 ;
@@ -1045,7 +1045,7 @@ KEY_Tab
 {
 repeat
 :
-3
+2
 }
 )
 ;
