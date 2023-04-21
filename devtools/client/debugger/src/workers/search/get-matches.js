@@ -240,6 +240,12 @@ ch
 singleMatch
 .
 index
+match
+:
+singleMatch
+[
+0
+]
 }
 )
 ;
