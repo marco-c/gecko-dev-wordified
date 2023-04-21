@@ -1815,6 +1815,14 @@ spatial_layer_target_bandwidth
 =
 spatial_layer_target
 ;
+if
+(
+target_bandwidth
+!
+=
+0
+)
+{
 bitrate_alloc
 =
 (
@@ -1827,6 +1835,7 @@ target_bandwidth
 /
 target_bandwidth
 ;
+}
 lrc
 -
 >
@@ -2080,6 +2089,14 @@ layer_target_bitrate
 layer
 ]
 ;
+if
+(
+target_bandwidth
+!
+=
+0
+)
+{
 bitrate_alloc
 =
 (
@@ -2092,6 +2109,7 @@ target_bandwidth
 /
 target_bandwidth
 ;
+}
 /
 /
 Update
