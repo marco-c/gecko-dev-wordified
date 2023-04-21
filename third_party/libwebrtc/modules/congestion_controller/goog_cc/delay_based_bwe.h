@@ -505,6 +505,16 @@ return
 prev_bitrate_
 ;
 }
+BandwidthUsage
+last_state
+(
+)
+const
+{
+return
+prev_state_
+;
+}
 private
 :
 friend
