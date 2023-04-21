@@ -8383,17 +8383,6 @@ ScriptSource
 source
 )
 {
-JSContext
-*
-cx
-=
-xdr
--
->
-cx
-(
-)
-;
 FrontendContext
 *
 fc
@@ -8765,7 +8754,6 @@ source
 >
 setDisplayURL
 (
-cx
 fc
 std
 :
@@ -9013,7 +9001,6 @@ source
 >
 setIntroducerFilename
 (
-cx
 fc
 maybeOptions
 -
