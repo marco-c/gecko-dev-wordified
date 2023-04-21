@@ -215,7 +215,9 @@ media
 TimeIntervals
 >
 {
-typedef
+using
+Type
+=
 nsTArray_RelocateUsingMoveConstructor
 <
 mozilla
@@ -226,7 +228,6 @@ media
 :
 TimeIntervals
 >
-Type
 ;
 }
 ;
@@ -297,7 +298,6 @@ sample
 \
 MOZ_LOG
 (
-\
 sPDMLog
 mozilla
 :
@@ -337,7 +337,9 @@ PRIu64
 s
 "
 \
+(
 sample
+)
 -
 >
 mDuration
@@ -345,7 +347,10 @@ mDuration
 ToMicroseconds
 (
 )
+\
+(
 sample
+)
 -
 >
 mTime
@@ -354,7 +359,9 @@ ToMicroseconds
 (
 )
 \
+(
 sample
+)
 -
 >
 mTimecode
@@ -507,7 +514,6 @@ INT64_MAX
 )
 ;
 }
-else
 if
 (
 val
@@ -526,8 +532,6 @@ INT64_MIN
 )
 ;
 }
-else
-{
 return
 FromMicroseconds
 (
@@ -537,7 +541,6 @@ val
 )
 )
 ;
-}
 }
 static
 constexpr
