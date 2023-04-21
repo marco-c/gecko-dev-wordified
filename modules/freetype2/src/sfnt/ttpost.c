@@ -104,7 +104,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -524,6 +524,7 @@ x
 else
 /
 *
+!
 FT_CONFIG_OPTION_POSTSCRIPT_NAMES
 *
 /
@@ -1531,6 +1532,7 @@ dcroat
 endif
 /
 *
+!
 FT_CONFIG_OPTION_POSTSCRIPT_NAMES
 *
 /

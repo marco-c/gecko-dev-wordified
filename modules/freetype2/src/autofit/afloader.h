@@ -100,7 +100,7 @@ C
 )
 2003
 -
-2022
+2023
 by
 *
 David
@@ -386,7 +386,7 @@ FT_Int32
 load_flags
 )
 ;
-FT_LOCAL_DEF
+FT_LOCAL
 (
 FT_Fixed
 )

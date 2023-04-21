@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -2467,6 +2467,7 @@ d
 .
 16
 fixed
+-
 point
 is
 used
@@ -3741,6 +3742,9 @@ matrix
 >
 xx
 /
+(
+double
+)
 *
 upm
 /
@@ -3753,6 +3757,9 @@ matrix
 >
 xy
 /
+(
+double
+)
 *
 upm
 /
@@ -3765,6 +3772,9 @@ matrix
 >
 yx
 /
+(
+double
+)
 *
 upm
 /
@@ -3777,6 +3787,9 @@ matrix
 >
 yy
 /
+(
+double
+)
 *
 upm
 /
@@ -3789,6 +3802,9 @@ offset
 >
 x
 /
+(
+double
+)
 *
 upm
 /
@@ -3801,6 +3817,9 @@ offset
 >
 y
 /
+(
+double
+)
 *
 upm
 /

@@ -98,7 +98,7 @@ C
 )
 2001
 -
-2022
+2023
 by
 *
 David
@@ -4570,7 +4570,7 @@ destroy
 hints
 *
 /
-FT_LOCAL
+FT_LOCAL_DEF
 (
 void
 )
@@ -4629,7 +4629,7 @@ memory
 NULL
 ;
 }
-FT_LOCAL
+FT_LOCAL_DEF
 (
 void
 )

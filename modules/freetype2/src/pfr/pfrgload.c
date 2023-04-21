@@ -98,7 +98,7 @@ C
 )
 2002
 -
-2022
+2023
 by
 *
 David
@@ -585,13 +585,6 @@ glyph
 loader
 =
 loader
-;
-glyph
--
->
-path_begun
-=
-0
 ;
 FT_GlyphLoader_Rewind
 (

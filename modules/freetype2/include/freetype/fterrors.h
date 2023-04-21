@@ -98,7 +98,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -292,6 +292,7 @@ by
 freetype
 .
 h
+)
 defines
 the
 handling

@@ -99,7 +99,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -917,13 +917,6 @@ table
 init
 =
 0xDEADBEEFUL
-;
-table
--
->
-num_elems
-=
-0
 ;
 table
 -
@@ -1761,9 +1754,6 @@ memory
 ;
 if
 (
-(
-FT_ULong
-)
 table
 -
 >

@@ -101,7 +101,7 @@ C
 )
 2020
 -
-2022
+2023
 by
 *
 David
@@ -5346,12 +5346,8 @@ is_set
 =
 1
 ;
-/
-*
-fall
-through
-*
-/
+FALL_THROUGH
+;
 case
 SDF_EDGE_CONIC
 :
@@ -5504,12 +5500,8 @@ is_set
 1
 ;
 }
-/
-*
-fall
-through
-*
-/
+FALL_THROUGH
+;
 case
 SDF_EDGE_LINE
 :
@@ -8114,7 +8106,7 @@ less
 than
 1
 /
-8th
+8
 of
 a
 pixel
@@ -12129,6 +12121,7 @@ and
 0
 in
 fixed
+-
 point
 *
 /
@@ -13274,6 +13267,11 @@ comment
 /
 FT_26D6_Vec
 nearest_point
+=
+{
+0
+0
+}
 ;
 /
 *
@@ -15216,6 +15214,11 @@ comment
 /
 FT_26D6_Vec
 nearest_point
+=
+{
+0
+0
+}
 ;
 /
 *
@@ -20087,6 +20090,7 @@ a
 .
 10
 fixed
+-
 point
 *
 /
@@ -20697,6 +20701,9 @@ const
 FT_16D16
 fixed_spread
 =
+(
+FT_16D16
+)
 FT_INT_16D16
 (
 spread

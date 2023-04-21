@@ -103,7 +103,7 @@ C
 )
 2007
 -
-2022
+2023
 by
 *
 Rahul
@@ -323,11 +323,12 @@ face
 )
 ;
 }
-FT_Set_Charmap
-(
 face
+-
+>
+charmap
+=
 oldmap
-)
 ;
 return
 FT_Err_Ok

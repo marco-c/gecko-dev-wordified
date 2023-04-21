@@ -99,7 +99,7 @@ C
 )
 2003
 -
-2022
+2023
 by
 *
 David
@@ -184,9 +184,6 @@ aftypes
 .
 h
 "
-#
-define
-xxAF_SORT_SEGMENTS
 FT_BEGIN_HEADER
 /
 *
@@ -2078,7 +2075,7 @@ typedef
 struct
 AF_AxisHintsRec_
 {
-FT_Int
+FT_UInt
 num_segments
 ;
 /
@@ -2089,7 +2086,7 @@ used
 segments
 *
 /
-FT_Int
+FT_UInt
 max_segments
 ;
 /
@@ -2109,15 +2106,7 @@ segments
 array
 *
 /
-#
-ifdef
-AF_SORT_SEGMENTS
-FT_Int
-mid_segments
-;
-#
-endif
-FT_Int
+FT_UInt
 num_edges
 ;
 /
@@ -2128,7 +2117,7 @@ used
 edges
 *
 /
-FT_Int
+FT_UInt
 max_edges
 ;
 /
@@ -2429,7 +2418,7 @@ h
 \
 (
 !
-_af_debug_disable_horz_hints
+af_debug_disable_horz_hints_
 &
 &
 \
@@ -2449,7 +2438,7 @@ h
 \
 (
 !
-_af_debug_disable_vert_hints
+af_debug_disable_vert_hints_
 &
 &
 \
@@ -2468,7 +2457,7 @@ h
 )
 (
 !
-_af_debug_disable_blue_hints
+af_debug_disable_blue_hints_
 )
 #
 else

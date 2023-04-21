@@ -104,7 +104,7 @@ C
 )
 2003
 -
-2022
+2023
 by
 *
 David
@@ -837,13 +837,12 @@ AF_FaceGlobalsRec_
 FT_Face
 face
 ;
-FT_Long
+FT_UInt
 glyph_count
 ;
 /
 *
-same
-as
+unsigned
 face
 -
 >
@@ -1132,7 +1131,7 @@ AF_FaceGlobals
 globals
 )
 ;
-FT_LOCAL_DEF
+FT_LOCAL
 (
 FT_Bool
 )

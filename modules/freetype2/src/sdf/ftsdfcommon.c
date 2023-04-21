@@ -101,7 +101,7 @@ C
 )
 2020
 -
-2022
+2023
 by
 *
 David
@@ -310,6 +310,7 @@ a
 .
 16
 fixed
+-
 point
 number
 .
@@ -498,6 +499,7 @@ Convert
 .
 16
 fixed
+-
 point
 values
 to
@@ -516,6 +518,7 @@ reduce
 .
 16
 fixed
+-
 point
 values
 to

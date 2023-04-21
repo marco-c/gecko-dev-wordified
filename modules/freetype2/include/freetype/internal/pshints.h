@@ -136,7 +136,7 @@ C
 )
 2001
 -
-2022
+2023
 by
 *
 David
@@ -2674,7 +2674,7 @@ are
 in
 1
 /
-64th
+64
 of
 pixels
 .
@@ -5165,7 +5165,7 @@ are
 in
 1
 /
-64th
+64
 of
 pixels
 .

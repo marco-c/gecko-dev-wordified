@@ -101,7 +101,7 @@ C
 )
 2020
 -
-2022
+2023
 by
 *
 David
@@ -1015,7 +1015,7 @@ components
 *
 /
 typedef
-FT_Fixed
+FT_Int32
 FT_16D16
 ;
 /
@@ -1030,7 +1030,7 @@ representation
 *
 /
 typedef
-FT_Fixed
+FT_Int32
 FT_26D6
 ;
 /

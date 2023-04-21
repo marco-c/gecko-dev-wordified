@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -1333,10 +1333,6 @@ for
 glyph
 *
 /
-FT_Long
-*
-origCvt
-;
 FT_UInt
 glyphSize
 ;
@@ -1579,10 +1575,6 @@ for
 glyph
 *
 /
-FT_Long
-*
-origStorage
-;
 FT_F26Dot6
 period
 ;

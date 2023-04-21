@@ -466,6 +466,7 @@ r
 .
 16
 fixed
+-
 point
 *
 /
@@ -478,6 +479,7 @@ f
 .
 30
 fixed
+-
 point
 (
 for

@@ -88,6 +88,7 @@ s
 code
 for
 Fixed
+-
 Point
 Mathematics
 (
@@ -429,6 +430,7 @@ rasterizer
 integer
 and
 fixed
+-
 point
 arithmetic
 must
@@ -452,6 +454,7 @@ CF2_Frac
 .
 30
 fixed
+-
 point
 *
 /

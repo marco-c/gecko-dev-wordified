@@ -412,7 +412,7 @@ found
 in
 the
 zlib
-distribtution
+distribution
 .
 The
 arguments
@@ -556,6 +556,7 @@ DISTS
 }
 codetype
 ;
+static
 int
 ZLIB_INTERNAL
 inflate_table

@@ -96,7 +96,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -1777,10 +1777,6 @@ buffer
 )
 \
 (
-(
-short
-)
-(
 buffer
 +
 =
@@ -1792,7 +1788,6 @@ buffer
 2
 )
 )
-)
 #
 define
 FT_NEXT_USHORT
@@ -1800,11 +1795,6 @@ FT_NEXT_USHORT
 buffer
 )
 \
-(
-(
-unsigned
-short
-)
 (
 buffer
 +
@@ -1817,7 +1807,6 @@ buffer
 2
 )
 )
-)
 #
 define
 FT_NEXT_OFF3
@@ -1825,10 +1814,6 @@ FT_NEXT_OFF3
 buffer
 )
 \
-(
-(
-long
-)
 (
 buffer
 +
@@ -1841,7 +1826,6 @@ buffer
 3
 )
 )
-)
 #
 define
 FT_NEXT_UOFF3
@@ -1849,11 +1833,6 @@ FT_NEXT_UOFF3
 buffer
 )
 \
-(
-(
-unsigned
-long
-)
 (
 buffer
 +
@@ -1866,7 +1845,6 @@ buffer
 3
 )
 )
-)
 #
 define
 FT_NEXT_LONG
@@ -1874,10 +1852,6 @@ FT_NEXT_LONG
 buffer
 )
 \
-(
-(
-long
-)
 (
 buffer
 +
@@ -1890,7 +1864,6 @@ buffer
 4
 )
 )
-)
 #
 define
 FT_NEXT_ULONG
@@ -1898,11 +1871,6 @@ FT_NEXT_ULONG
 buffer
 )
 \
-(
-(
-unsigned
-long
-)
 (
 buffer
 +
@@ -1915,7 +1883,6 @@ buffer
 4
 )
 )
-)
 #
 define
 FT_NEXT_SHORT_LE
@@ -1923,10 +1890,6 @@ FT_NEXT_SHORT_LE
 buffer
 )
 \
-(
-(
-short
-)
 (
 buffer
 +
@@ -1939,7 +1902,6 @@ buffer
 2
 )
 )
-)
 #
 define
 FT_NEXT_USHORT_LE
@@ -1947,11 +1909,6 @@ FT_NEXT_USHORT_LE
 buffer
 )
 \
-(
-(
-unsigned
-short
-)
 (
 buffer
 +
@@ -1964,7 +1921,6 @@ buffer
 2
 )
 )
-)
 #
 define
 FT_NEXT_OFF3_LE
@@ -1972,10 +1928,6 @@ FT_NEXT_OFF3_LE
 buffer
 )
 \
-(
-(
-long
-)
 (
 buffer
 +
@@ -1988,7 +1940,6 @@ buffer
 3
 )
 )
-)
 #
 define
 FT_NEXT_UOFF3_LE
@@ -1996,11 +1947,6 @@ FT_NEXT_UOFF3_LE
 buffer
 )
 \
-(
-(
-unsigned
-long
-)
 (
 buffer
 +
@@ -2013,7 +1959,6 @@ buffer
 3
 )
 )
-)
 #
 define
 FT_NEXT_LONG_LE
@@ -2021,10 +1966,6 @@ FT_NEXT_LONG_LE
 buffer
 )
 \
-(
-(
-long
-)
 (
 buffer
 +
@@ -2037,7 +1978,6 @@ buffer
 4
 )
 )
-)
 #
 define
 FT_NEXT_ULONG_LE
@@ -2045,11 +1985,6 @@ FT_NEXT_ULONG_LE
 buffer
 )
 \
-(
-(
-unsigned
-long
-)
 (
 buffer
 +
@@ -2060,7 +1995,6 @@ FT_PEEK_ULONG_LE
 buffer
 -
 4
-)
 )
 )
 /
@@ -2372,7 +2306,7 @@ FT_GET_SHORT
 FT_GET_MACRO
 (
 FT_Stream_GetUShort
-FT_Short
+FT_Int16
 )
 #
 define
@@ -2382,7 +2316,7 @@ FT_GET_USHORT
 FT_GET_MACRO
 (
 FT_Stream_GetUShort
-FT_UShort
+FT_UInt16
 )
 #
 define
@@ -2392,7 +2326,7 @@ FT_GET_UOFF3
 FT_GET_MACRO
 (
 FT_Stream_GetUOffset
-FT_ULong
+FT_UInt32
 )
 #
 define
@@ -2402,7 +2336,7 @@ FT_GET_LONG
 FT_GET_MACRO
 (
 FT_Stream_GetULong
-FT_Long
+FT_Int32
 )
 #
 define
@@ -2412,7 +2346,7 @@ FT_GET_ULONG
 FT_GET_MACRO
 (
 FT_Stream_GetULong
-FT_ULong
+FT_UInt32
 )
 #
 define
@@ -2422,7 +2356,7 @@ FT_GET_TAG4
 FT_GET_MACRO
 (
 FT_Stream_GetULong
-FT_ULong
+FT_UInt32
 )
 #
 define
@@ -2432,7 +2366,7 @@ FT_GET_SHORT_LE
 FT_GET_MACRO
 (
 FT_Stream_GetUShortLE
-FT_Short
+FT_Int16
 )
 #
 define
@@ -2442,7 +2376,7 @@ FT_GET_USHORT_LE
 FT_GET_MACRO
 (
 FT_Stream_GetUShortLE
-FT_UShort
+FT_UInt16
 )
 #
 define
@@ -2452,7 +2386,7 @@ FT_GET_LONG_LE
 FT_GET_MACRO
 (
 FT_Stream_GetULongLE
-FT_Long
+FT_Int32
 )
 #
 define
@@ -2462,7 +2396,7 @@ FT_GET_ULONG_LE
 FT_GET_MACRO
 (
 FT_Stream_GetULongLE
-FT_ULong
+FT_UInt32
 )
 #
 endif
@@ -2573,7 +2507,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadUShort
-FT_Short
+FT_Int16
 var
 )
 #
@@ -2585,7 +2519,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadUShort
-FT_UShort
+FT_UInt16
 var
 )
 #
@@ -2597,7 +2531,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadUOffset
-FT_ULong
+FT_UInt32
 var
 )
 #
@@ -2609,7 +2543,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadULong
-FT_Long
+FT_Int32
 var
 )
 #
@@ -2621,7 +2555,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadULong
-FT_ULong
+FT_UInt32
 var
 )
 #
@@ -2633,7 +2567,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadUShortLE
-FT_Short
+FT_Int16
 var
 )
 #
@@ -2645,7 +2579,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadUShortLE
-FT_UShort
+FT_UInt16
 var
 )
 #
@@ -2657,7 +2591,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadULongLE
-FT_Long
+FT_Int32
 var
 )
 #
@@ -2669,7 +2603,7 @@ var
 FT_READ_MACRO
 (
 FT_Stream_ReadULongLE
-FT_ULong
+FT_UInt32
 var
 )
 #
@@ -3334,7 +3268,7 @@ frame
 /
 FT_BASE
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_GetUShort
 (
@@ -3362,7 +3296,7 @@ frame
 /
 FT_BASE
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_GetUOffset
 (
@@ -3390,7 +3324,7 @@ frame
 /
 FT_BASE
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_GetULong
 (
@@ -3418,7 +3352,7 @@ frame
 /
 FT_BASE
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_GetUShortLE
 (
@@ -3446,7 +3380,7 @@ frame
 /
 FT_BASE
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_GetULongLE
 (
@@ -3496,7 +3430,7 @@ stream
 /
 FT_BASE
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_ReadUShort
 (
@@ -3555,7 +3489,7 @@ stream
 /
 FT_BASE
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_ReadULong
 (
@@ -3585,7 +3519,7 @@ stream
 /
 FT_BASE
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_ReadUShortLE
 (
@@ -3615,7 +3549,7 @@ stream
 /
 FT_BASE
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_ReadULongLE
 (

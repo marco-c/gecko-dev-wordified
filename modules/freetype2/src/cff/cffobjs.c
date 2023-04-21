@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -6168,9 +6168,6 @@ style_flags
 flags
 ;
 }
-#
-ifndef
-FT_CONFIG_OPTION_NO_GLYPH_NAMES
 /
 *
 CID
@@ -6233,8 +6230,6 @@ face_flags
 =
 FT_FACE_FLAG_GLYPH_NAMES
 ;
-#
-endif
 if
 (
 dict

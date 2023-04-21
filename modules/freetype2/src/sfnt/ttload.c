@@ -114,7 +114,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -1265,7 +1265,7 @@ can
 read
 only
 %
-d
+hu
 table
 %
 s
@@ -1275,7 +1275,7 @@ font
 instead
 of
 %
-d
+hu
 )
 \
 n
@@ -1338,7 +1338,7 @@ check_table_dir
 table
 entry
 %
-d
+hu
 invalid
 \
 n
@@ -1451,7 +1451,7 @@ check_table_dir
 table
 entry
 %
-d
+hu
 invalid
 \
 n
@@ -2235,7 +2235,7 @@ of
 tables
 :
 %
-10u
+10hu
 \
 n
 "
@@ -3811,7 +3811,7 @@ per
 EM
 :
 %
-4u
+4hu
 \
 n
 "
@@ -3829,7 +3829,7 @@ FT_TRACE3
 IndexToLoc
 :
 %
-4d
+4hd
 \
 n
 "
@@ -4453,7 +4453,7 @@ FT_TRACE3
 numGlyphs
 :
 %
-u
+hu
 \
 n
 "
@@ -6839,7 +6839,7 @@ FT_TRACE3
 sTypoAscender
 :
 %
-4d
+4hd
 \
 n
 "
@@ -6857,7 +6857,7 @@ FT_TRACE3
 sTypoDescender
 :
 %
-4d
+4hd
 \
 n
 "
@@ -6875,7 +6875,7 @@ FT_TRACE3
 usWinAscent
 :
 %
-4u
+4hu
 \
 n
 "
@@ -6893,7 +6893,7 @@ FT_TRACE3
 usWinDescent
 :
 %
-4u
+4hu
 \
 n
 "
@@ -6912,7 +6912,7 @@ fsSelection
 :
 0x
 %
-2x
+2hx
 \
 n
 "
@@ -7940,15 +7940,15 @@ FT_TRACE3
 "
 gaspRange
 %
-d
+hu
 :
 rangeMaxPPEM
 %
-5d
+5hu
 rangeGaspBehavior
 0x
 %
-x
+hx
 \
 n
 "

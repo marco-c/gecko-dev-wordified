@@ -98,7 +98,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -14218,6 +14218,9 @@ x
 ]
 "
 y
+(
+double
+)
 x1
 /
 (
@@ -14226,6 +14229,9 @@ double
 ras
 .
 precision
+(
+double
+)
 x2
 /
 (
@@ -14639,6 +14645,9 @@ x
 ]
 "
 y
+(
+double
+)
 x1
 /
 (
@@ -14647,6 +14656,9 @@ double
 ras
 .
 precision
+(
+double
+)
 x2
 /
 (
@@ -15884,6 +15896,9 @@ y
 ]
 "
 y
+(
+double
+)
 x1
 /
 (
@@ -15892,6 +15907,9 @@ double
 ras
 .
 precision
+(
+double
+)
 x2
 /
 (
@@ -16267,6 +16285,9 @@ y
 ]
 "
 y
+(
+double
+)
 x1
 /
 (
@@ -16275,6 +16296,9 @@ double
 ras
 .
 precision
+(
+double
+)
 x2
 /
 (

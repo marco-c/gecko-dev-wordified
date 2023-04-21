@@ -99,7 +99,7 @@ C
 )
 2008
 -
-2022
+2023
 by
 *
 David
@@ -204,7 +204,7 @@ h
 >
 static
 FT_Error
-_ft_face_scale_advances
+ft_face_scale_advances_
 (
 FT_Face
 face
@@ -590,7 +590,7 @@ if
 error
 )
 return
-_ft_face_scale_advances
+ft_face_scale_advances_
 (
 face
 padvance
@@ -779,7 +779,7 @@ if
 error
 )
 return
-_ft_face_scale_advances
+ft_face_scale_advances_
 (
 face
 padvances

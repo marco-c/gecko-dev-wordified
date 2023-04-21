@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -1032,12 +1032,6 @@ FT_QALLOC
 (
 sfnt
 12
-+
-woff
-.
-num_tables
-*
-16UL
 )
 |
 |
@@ -1206,7 +1200,7 @@ overlap
 /
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 tables
 woff
@@ -1215,7 +1209,7 @@ num_tables
 )
 |
 |
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 indices
 woff
@@ -2047,16 +2041,10 @@ totalSfntSize
 /
 if
 (
-FT_REALLOC
+FT_QREALLOC
 (
 sfnt
 12
-+
-woff
-.
-num_tables
-*
-16UL
 woff
 .
 totalSfntSize

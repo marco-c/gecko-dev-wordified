@@ -102,7 +102,7 @@ C
 )
 2002
 -
-2022
+2023
 by
 *
 David
@@ -22343,7 +22343,7 @@ return
 FT_Err_Ok
 ;
 }
-FT_LOCAL
+FT_LOCAL_DEF
 (
 FT_Error
 )

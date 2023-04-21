@@ -96,7 +96,7 @@ C
 )
 2006
 -
-2022
+2023
 by
 *
 David
@@ -2290,7 +2290,7 @@ return
 FT_Err_Ok
 ;
 }
-FT_LOCAL
+FT_LOCAL_DEF
 (
 void
 )
@@ -4612,12 +4612,8 @@ so
 .
 *
 /
-/
-*
-fall
-through
-*
-/
+FALL_THROUGH
+;
 case
 AFM_TOKEN_ENDFONTMETRICS
 :

@@ -20,9 +20,9 @@ version
 .
 2
 .
-12
-March
-11th
+13
+October
+13th
 2022
 Copyright
 (
@@ -286,12 +286,12 @@ ZLIB_VERSION
 .
 2
 .
-12
+13
 "
 #
 define
 ZLIB_VERNUM
-0x12c0
+0x12d0
 #
 define
 ZLIB_VER_MAJOR
@@ -303,7 +303,7 @@ ZLIB_VER_MINOR
 #
 define
 ZLIB_VER_REVISION
-12
+13
 #
 define
 ZLIB_VER_SUBREVISION
@@ -2309,7 +2309,7 @@ not
 there
 is
 more
-ouput
+output
 in
 that
 case
@@ -6175,7 +6175,7 @@ nothing
 is
 copied
 .
-Similary
+Similarly
 if
 dictLength
 is
@@ -8620,7 +8620,7 @@ nothing
 is
 copied
 .
-Similary
+Similarly
 if
 dictLength
 is
@@ -13758,7 +13758,7 @@ final
 partial
 item
 is
-nevetheless
+nevertheless
 read
 into
 buf
@@ -13827,7 +13827,7 @@ a
 concurrently
 written
 file
-reseting
+resetting
 and
 retrying
 on
@@ -16447,9 +16447,6 @@ error
 ;
 *
 /
-#
-ifndef
-Z_FREETYPE
 ZEXTERN
 uLong
 ZEXPORT
@@ -16592,6 +16589,9 @@ crc32_combine_op
 .
 *
 /
+#
+ifndef
+Z_FREETYPE
 ZEXTERN
 uLong
 ZEXPORT
@@ -17964,6 +17964,14 @@ z_streamp
 )
 )
 ;
+#
+endif
+/
+*
+!
+Z_FREETYPE
+*
+/
 ZEXTERN
 int
 ZEXPORT
@@ -17975,6 +17983,9 @@ z_streamp
 )
 )
 ;
+#
+ifndef
+Z_FREETYPE
 ZEXTERN
 int
 ZEXPORT

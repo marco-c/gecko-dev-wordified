@@ -100,7 +100,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -2564,6 +2564,12 @@ the
 glyph
 object
 .
+NULL
+in
+case
+of
+error
+.
 *
 *
 return
@@ -2803,8 +2809,7 @@ target
 glyph
 object
 .
-0
-~
+NULL
 in
 case
 of
@@ -2992,7 +2997,7 @@ in
 *
 1
 /
-64th
+64
 of
 a
 pixel
@@ -3546,7 +3551,7 @@ in
 *
 1
 /
-64th
+64
 of
 pixels
 if
@@ -4657,6 +4662,10 @@ the
 target
 glyph
 object
+.
+Can
+be
+NULL
 .
 *
 /

@@ -100,7 +100,7 @@ C
 )
 1996
 -
-2022
+2023
 by
 *
 David
@@ -4447,11 +4447,18 @@ if
 (
 error
 )
+{
 FT_Done_Glyph
 (
 glyph
 )
 ;
+*
+aglyph
+=
+NULL
+;
+}
 else
 *
 aglyph

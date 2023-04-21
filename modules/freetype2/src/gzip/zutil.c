@@ -68,6 +68,9 @@ h
 "
 #
 endif
+#
+ifndef
+Z_FREETYPE
 z_const
 char
 *
@@ -487,6 +490,8 @@ flags
 ;
 #
 endif
+/
+*
 #
 if
 defined
@@ -509,6 +514,8 @@ flags
 ;
 #
 endif
+*
+/
 #
 ifdef
 ZLIB_WINAPI
@@ -804,6 +811,14 @@ err
 ;
 }
 #
+endif
+/
+*
+!
+Z_FREETYPE
+*
+/
+#
 if
 defined
 (
@@ -927,6 +942,9 @@ len
 )
 ;
 }
+#
+ifndef
+Z_FREETYPE
 int
 ZLIB_INTERNAL
 zmemcmp
@@ -1047,6 +1065,14 @@ len
 )
 ;
 }
+#
+endif
+/
+*
+!
+Z_FREETYPE
+*
+/
 #
 endif
 #

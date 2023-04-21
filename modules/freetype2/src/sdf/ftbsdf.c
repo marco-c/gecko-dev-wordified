@@ -102,7 +102,7 @@ C
 )
 2020
 -
-2022
+2023
 by
 *
 David
@@ -7614,6 +7614,9 @@ Exit
 }
 spread
 =
+(
+FT_16D16
+)
 FT_INT_16D16
 (
 worker
@@ -7629,6 +7632,9 @@ if
 USE_SQUARED_DISTANCES
 sp_sq
 =
+(
+FT_16D16
+)
 FT_INT_16D16
 (
 worker
@@ -7650,6 +7656,9 @@ spread
 else
 sp_sq
 =
+(
+FT_16D16
+)
 FT_INT_16D16
 (
 worker

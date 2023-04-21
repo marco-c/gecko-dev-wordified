@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+python3
+#
 compute
 arctangent
 table
@@ -10,7 +19,6 @@ fttrigon
 .
 c
 import
-sys
 math
 #
 units
@@ -47,14 +55,17 @@ shrink
 1
 .
 0
-comma
+angles2
 =
-"
-"
+[
+]
 print
+(
 "
 "
+)
 print
+(
 "
 table
 of
@@ -83,6 +94,7 @@ units
 "
 units
 "
+)
 for
 n
 in
@@ -139,14 +151,10 @@ angle2
         
 break
     
-sys
+angles2
 .
-stdout
-.
-write
+append
 (
-comma
-+
 repr
 (
 int
@@ -155,11 +163,6 @@ angle2
 )
 )
 )
-    
-comma
-=
-"
-"
     
 shrink
 /
@@ -175,7 +178,17 @@ x
 x
 )
 print
+(
+"
+"
+.
+join
+(
+angles2
+)
+)
 print
+(
 "
 shrink
 factor
@@ -186,7 +199,9 @@ repr
 (
 shrink
 )
+)
 print
+(
 "
 shrink
 factor
@@ -208,7 +223,9 @@ shrink
 )
 )
 )
+)
 print
+(
 "
 expansion
 factor
@@ -221,6 +238,9 @@ repr
 /
 shrink
 )
+)
 print
+(
 "
 "
+)

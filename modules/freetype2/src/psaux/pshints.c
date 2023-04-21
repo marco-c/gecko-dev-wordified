@@ -4469,6 +4469,12 @@ hintmap
 initialHintMap
 ADD_INT32
 (
+firstHintEdge
+-
+>
+csCoord
+SUB_INT32
+(
 secondHintEdge
 -
 >
@@ -4480,6 +4486,7 @@ csCoord
 )
 /
 2
+)
 )
 ;
 CF2_Fixed
@@ -6434,6 +6441,9 @@ FT_TRACE6
 "
 Initial
 hintmap
+:
+\
+n
 "
 )
 )
@@ -6446,6 +6456,8 @@ FT_TRACE6
 "
 Hints
 :
+\
+n
 "
 )
 )
@@ -6554,9 +6566,9 @@ FT_TRACE6
 (
 (
 "
-(
+Hints
 adjusted
-)
+:
 \
 n
 "

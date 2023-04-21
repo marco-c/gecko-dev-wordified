@@ -55,6 +55,7 @@ h
 define
 MAXBITS
 15
+static
 const
 char
 inflate_copyright
@@ -67,7 +68,7 @@ inflate
 .
 2
 .
-12
+13
 Copyright
 1995
 -
@@ -690,8 +691,8 @@ extra
 21
 21
 16
-199
-202
+194
+65
 }
 ;
 static

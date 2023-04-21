@@ -99,7 +99,7 @@ C
 )
 2003
 -
-2022
+2023
 by
 *
 David
@@ -230,7 +230,7 @@ root
 FT_UInt
 fallback_style
 ;
-FT_UInt
+AF_Script
 default_script
 ;
 FT_Bool
