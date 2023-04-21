@@ -6177,8 +6177,6 @@ d
 d
 %
 d
-%
-d
 "
 StaticPrefs
 :
@@ -6214,12 +6212,6 @@ StaticPrefs
 :
 :
 webgl_force_enabled
-(
-)
-StaticPrefs
-:
-:
-webgl_force_layers_readback
 (
 )
 StaticPrefs
