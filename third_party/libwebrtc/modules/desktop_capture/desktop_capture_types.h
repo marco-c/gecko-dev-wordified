@@ -154,6 +154,7 @@ CaptureType
 {
 kWindow
 kScreen
+kAnyScreenContent
 }
 ;
 /
