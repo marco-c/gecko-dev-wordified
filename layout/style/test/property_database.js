@@ -92883,6 +92883,12 @@ push
 "
 ray
 (
+0deg
+)
+"
+"
+ray
+(
 45deg
 closest
 -
@@ -92968,12 +92974,6 @@ invalid_values
 .
 push
 (
-"
-ray
-(
-0deg
-)
-"
 "
 ray
 (
