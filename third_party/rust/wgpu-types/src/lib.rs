@@ -2270,9 +2270,9 @@ Platforms
 /
 /
 -
-Intel
-/
 Vulkan
+on
+Intel
 /
 /
 /
@@ -2415,9 +2415,9 @@ Platforms
 /
 /
 -
-Intel
-/
 Vulkan
+on
+Intel
 /
 /
 /
