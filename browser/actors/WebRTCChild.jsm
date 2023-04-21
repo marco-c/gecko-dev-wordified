@@ -1819,6 +1819,11 @@ mediaSource
 device
 .
 mediaSource
+canRequestOsLevelPrompt
+:
+device
+.
+canRequestOsLevelPrompt
 }
 ;
 switch
