@@ -919,6 +919,11 @@ CleanShutdownAllProcesses
 (
 )
 ;
+uint16_t
+AliveProcesses
+(
+)
+;
 private
 :
 ~
@@ -1220,11 +1225,6 @@ SandboxingKind
 ;
 bool
 NoMoreProcesses
-(
-)
-;
-uint16_t
-AliveProcesses
 (
 )
 ;

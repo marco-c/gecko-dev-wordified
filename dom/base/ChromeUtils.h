@@ -1671,6 +1671,15 @@ GlobalObject
 &
 )
 ;
+static
+unsigned
+AliveUtilityProcesses
+(
+const
+GlobalObject
+&
+)
+;
 }
 ;
 }
