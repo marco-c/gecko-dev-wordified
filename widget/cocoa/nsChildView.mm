@@ -20927,6 +20927,9 @@ of
 int32_t
 twist
 =
+(
+int32_t
+)
 fmod
 (
 [
