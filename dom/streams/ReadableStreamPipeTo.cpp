@@ -254,10 +254,6 @@ mozilla
 :
 dom
 {
-using
-namespace
-streams_abstract
-;
 struct
 PipeToReadRequest
 ;
@@ -6766,9 +6762,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 mLastWritePromise
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
-namespace
-streams_abstract
-{
 /
 /
 https
@@ -7268,11 +7261,6 @@ forget
 )
 ;
 }
-}
-/
-/
-namespace
-streams_abstract
 }
 /
 /

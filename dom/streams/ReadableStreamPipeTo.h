@@ -157,9 +157,6 @@ ReadableStream
 class
 WritableStream
 ;
-namespace
-streams_abstract
-{
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
@@ -187,7 +184,6 @@ ErrorResult
 aRv
 )
 ;
-}
 }
 /
 /

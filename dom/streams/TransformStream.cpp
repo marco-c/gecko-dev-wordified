@@ -294,10 +294,6 @@ mozilla
 :
 dom
 {
-using
-namespace
-streams_abstract
-;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 TransformStream
@@ -847,9 +843,6 @@ aGivenProto
 )
 ;
 }
-namespace
-streams_abstract
-{
 /
 /
 https
@@ -1184,11 +1177,6 @@ aRv
 )
 ;
 }
-}
-/
-/
-namespace
-streams_abstract
 /
 /
 https

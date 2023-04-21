@@ -496,9 +496,6 @@ mClosedPromise
 ;
 }
 ;
-namespace
-streams_abstract
-{
 void
 SetUpWritableStreamDefaultWriter
 (
@@ -620,11 +617,6 @@ ErrorResult
 aRv
 )
 ;
-}
-/
-/
-namespace
-streams_abstract
 }
 /
 /

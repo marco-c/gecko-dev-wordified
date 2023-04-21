@@ -1371,9 +1371,6 @@ mStoredError
 ;
 }
 ;
-namespace
-streams_abstract
-{
 bool
 IsReadableStreamLocked
 (
@@ -1592,11 +1589,6 @@ ErrorResult
 aRv
 )
 ;
-}
-/
-/
-namespace
-streams_abstract
 }
 /
 /
