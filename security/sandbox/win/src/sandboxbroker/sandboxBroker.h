@@ -209,15 +209,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 AbstractSandboxBroker
 )
-static
-AbstractSandboxBroker
-*
-Create
-(
-GeckoProcessType
-aProcessType
-)
-;
 virtual
 void
 Shutdown

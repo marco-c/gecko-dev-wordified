@@ -232,8 +232,11 @@ AbstractSandboxBroker
 {
 public
 :
+explicit
 RemoteSandboxBroker
 (
+uint32_t
+aLaunchArch
 )
 ;
 void
@@ -494,6 +497,9 @@ bool
 mShutdown
 =
 false
+;
+uint32_t
+mLaunchArch
 ;
 }
 ;
