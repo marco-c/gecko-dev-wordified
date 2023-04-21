@@ -1430,7 +1430,7 @@ localizedReader
 AddKey
 (
 "
-DefaultBrowserNotificationTitle
+DefaultBrowserNotificationHeaderText
 "
 &
 strings
@@ -1445,7 +1445,7 @@ localizedReader
 AddKey
 (
 "
-DefaultBrowserNotificationText
+DefaultBrowserNotificationBodyText
 "
 &
 strings
