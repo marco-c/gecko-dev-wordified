@@ -191,6 +191,9 @@ mockPressureService
 .
 setPressureUpdate
 (
+'
+cpu
+'
 readings
 [
 i
@@ -436,6 +439,9 @@ mockPressureService
 setPressureUpdate
 (
 '
+cpu
+'
+'
 critical
 '
 )
@@ -499,6 +505,9 @@ mockPressureService
 .
 setPressureUpdate
 (
+'
+cpu
+'
 '
 serious
 '

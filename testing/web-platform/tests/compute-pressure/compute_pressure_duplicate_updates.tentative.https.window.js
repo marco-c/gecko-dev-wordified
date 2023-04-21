@@ -130,6 +130,9 @@ mockPressureService
 setPressureUpdate
 (
 '
+cpu
+'
+'
 critical
 '
 )
@@ -195,6 +198,9 @@ mockPressureService
 .
 setPressureUpdate
 (
+'
+cpu
+'
 '
 nominal
 '
@@ -394,6 +400,9 @@ mockPressureService
 setPressureUpdate
 (
 '
+cpu
+'
+'
 critical
 '
 [
@@ -464,6 +473,9 @@ mockPressureService
 .
 setPressureUpdate
 (
+'
+cpu
+'
 '
 critical
 '

@@ -83,6 +83,9 @@ mockPressureService
 setPressureUpdate
 (
 '
+cpu
+'
+'
 critical
 '
 [
