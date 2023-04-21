@@ -920,7 +920,6 @@ map
 sColorMap
 sFEFloodMap
 sFiltersMap
-sFontSpecificationMap
 sGradientStopMap
 sLightingEffectsMap
 sMarkersMap
