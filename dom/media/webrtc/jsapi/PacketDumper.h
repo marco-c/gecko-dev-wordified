@@ -89,6 +89,11 @@ RTCPeerConnectionBinding
 .
 h
 "
+#
+include
+<
+vector
+>
 namespace
 mozilla
 {
