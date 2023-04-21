@@ -23757,12 +23757,15 @@ nsIChannel
 aFailedChannel
 )
 {
-MOZ_ASSERT
+if
 (
-!
 mIsBeingDestroyed
 )
+{
+return
+NS_ERROR_NOT_AVAILABLE
 ;
+}
 #
 if
 defined
