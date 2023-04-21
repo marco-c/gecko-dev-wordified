@@ -255,6 +255,3 @@ xpcshell
 ini
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
