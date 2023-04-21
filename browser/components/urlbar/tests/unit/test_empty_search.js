@@ -495,6 +495,13 @@ remove
 uri6
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 /
 /
 With

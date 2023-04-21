@@ -2697,9 +2697,9 @@ bm
 )
 ;
 await
-PlacesTestUtils
+PlacesFrecencyRecalculator
 .
-promiseAsyncUpdates
+recalculateAnyOutdatedFrecencies
 (
 )
 ;

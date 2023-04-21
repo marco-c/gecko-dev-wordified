@@ -614,6 +614,13 @@ dontmatchme3
 }
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 info
 (
 "

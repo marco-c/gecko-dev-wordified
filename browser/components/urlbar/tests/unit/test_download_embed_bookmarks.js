@@ -469,6 +469,13 @@ bookmark
 }
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 info
 (
 "

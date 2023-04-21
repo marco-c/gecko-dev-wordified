@@ -1360,6 +1360,13 @@ is
 }
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 /
 /
 Tail

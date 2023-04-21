@@ -265,9 +265,9 @@ bookmark
 )
 ;
 await
-PlacesTestUtils
+PlacesFrecencyRecalculator
 .
-promiseAsyncUpdates
+recalculateAnyOutdatedFrecencies
 (
 )
 ;

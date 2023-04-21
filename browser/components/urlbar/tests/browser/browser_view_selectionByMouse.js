@@ -1678,6 +1678,13 @@ example
 )
 ;
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 UrlbarTestUtils
 .
 promiseAutocompleteResultPopup

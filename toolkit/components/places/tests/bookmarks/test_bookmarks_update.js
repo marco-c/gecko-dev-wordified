@@ -2178,6 +2178,13 @@ bm
 .
 lastModified
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 let
 frecency
 =
@@ -2316,6 +2323,13 @@ lastModified
 >
 =
 lastModified
+)
+;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
 )
 ;
 Assert

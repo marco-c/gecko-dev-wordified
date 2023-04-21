@@ -471,6 +471,13 @@ z
 }
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 info
 (
 "
