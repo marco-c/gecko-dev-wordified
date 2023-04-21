@@ -360,10 +360,6 @@ OffscreenCanvasToBlob
 )
 DEPRECATED_OPERATION
 (
-IDBDatabaseCreateMutableFile
-)
-DEPRECATED_OPERATION
-(
 IDBMutableFileOpen
 )
 DEPRECATED_OPERATION
