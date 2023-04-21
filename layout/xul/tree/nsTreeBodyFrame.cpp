@@ -432,13 +432,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsBoxLayoutState
 .
 h

@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsDOMAttributeMap
 .
 h
@@ -206,13 +199,6 @@ h
 include
 "
 nsITheme
-.
-h
-"
-#
-include
-"
-nsBoxLayout
 .
 h
 "

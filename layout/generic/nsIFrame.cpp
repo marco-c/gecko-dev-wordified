@@ -30547,16 +30547,6 @@ StyleDisplay
 ;
 /
 /
-REVIEW
-:
-Taken
-from
-nsBoxFrame
-:
-:
-Paint
-/
-/
 Don
 '
 t

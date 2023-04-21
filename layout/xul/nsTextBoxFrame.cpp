@@ -335,13 +335,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsIContentInlines
 .
 h
