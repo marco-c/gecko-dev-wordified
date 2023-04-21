@@ -972,7 +972,8 @@ Core
 "
 DOM
 :
-Security
+Web
+Crypto
 "
 )
 with
