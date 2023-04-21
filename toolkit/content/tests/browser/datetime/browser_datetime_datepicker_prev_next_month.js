@@ -163,6 +163,11 @@ synthesizeKey
 "
 KEY_Tab
 "
+{
+repeat
+:
+2
+}
 )
 ;
 EventUtils
@@ -171,6 +176,8 @@ synthesizeKey
 (
 "
 "
+{
+}
 )
 ;
 /
@@ -647,7 +654,7 @@ KEY_Tab
 {
 repeat
 :
-3
+4
 }
 )
 ;
@@ -657,6 +664,8 @@ synthesizeKey
 (
 "
 "
+{
+}
 )
 ;
 /
@@ -982,6 +991,8 @@ synthesizeKey
 "
 KEY_Tab
 "
+{
+}
 )
 ;
 Assert
@@ -1158,6 +1169,11 @@ synthesizeKey
 "
 KEY_Tab
 "
+{
+repeat
+:
+2
+}
 )
 ;
 EventUtils
@@ -1166,6 +1182,8 @@ synthesizeKey
 (
 "
 "
+{
+}
 )
 ;
 /
@@ -1544,7 +1562,7 @@ KEY_Tab
 {
 repeat
 :
-3
+4
 }
 )
 ;
@@ -1554,6 +1572,8 @@ synthesizeKey
 (
 "
 "
+{
+}
 )
 ;
 /
@@ -1742,6 +1762,8 @@ synthesizeKey
 "
 KEY_Tab
 "
+{
+}
 )
 ;
 Assert
