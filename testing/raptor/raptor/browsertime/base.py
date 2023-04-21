@@ -2318,6 +2318,28 @@ perfstats
 false
 "
 )
+            
+"
+-
+-
+browsertime
+.
+moz_fetch_dir
+"
+            
+os
+.
+environ
+.
+get
+(
+"
+MOZ_FETCHES_DIR
+"
+"
+None
+"
+)
         
 ]
         
