@@ -1936,6 +1936,10 @@ mIsMainThread
 bool
 mUseHangMonitor
 ;
+const
+bool
+mIsUiThread
+;
 mozilla
 :
 :
