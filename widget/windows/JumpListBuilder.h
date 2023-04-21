@@ -196,15 +196,6 @@ include
 "
 mozilla
 /
-LazyIdleThread
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mscom
 /
 AgileReference
@@ -291,9 +282,9 @@ mMonitor
 bool
 mHasCommit
 ;
-RefPtr
+nsCOMPtr
 <
-LazyIdleThread
+nsIThread
 >
 mIOThread
 ;
