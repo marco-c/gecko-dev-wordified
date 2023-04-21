@@ -145,6 +145,11 @@ nsRFPService
 .
 h
 "
+"
+RFPTargets
+.
+inc
+"
 ]
 EXPORTS
 .
