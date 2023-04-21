@@ -90,6 +90,9 @@ toLang
 "
 en
 "
+isBeta
+:
+false
 }
 {
 fromLang
@@ -102,6 +105,9 @@ toLang
 "
 es
 "
+isBeta
+:
+false
 }
 ]
 runInPage
@@ -430,6 +436,9 @@ toLang
 "
 en
 "
+isBeta
+:
+false
 }
 {
 fromLang
@@ -442,6 +451,9 @@ toLang
 "
 es
 "
+isBeta
+:
+false
 }
 ]
 runInPage
@@ -730,6 +742,9 @@ toLang
 "
 en
 "
+isBeta
+:
+false
 }
 {
 fromLang
@@ -742,6 +757,9 @@ toLang
 "
 es
 "
+isBeta
+:
+false
 }
 ]
 runInPage

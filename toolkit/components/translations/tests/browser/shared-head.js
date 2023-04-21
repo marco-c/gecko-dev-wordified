@@ -415,6 +415,9 @@ string
 toLang
 :
 string
+isBeta
+:
+boolean
 }
 >
 }

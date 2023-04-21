@@ -142,6 +142,9 @@ toLang
 "
 es
 "
+isBeta
+:
+false
 }
 {
 fromLang
@@ -154,6 +157,9 @@ toLang
 "
 en
 "
+isBeta
+:
+false
 }
 /
 /
@@ -177,6 +183,9 @@ toLang
 "
 en
 "
+isBeta
+:
+false
 }
 /
 /
@@ -198,6 +207,9 @@ toLang
 "
 ja
 "
+isBeta
+:
+true
 }
 {
 fromLang
@@ -210,6 +222,9 @@ toLang
 "
 zh
 "
+isBeta
+:
+true
 }
 ]
 }
@@ -244,6 +259,9 @@ toLang
 "
 es
 "
+isBeta
+:
+false
 }
 {
 fromLang
@@ -256,6 +274,9 @@ toLang
 "
 en
 "
+isBeta
+:
+false
 }
 {
 fromLang
@@ -268,6 +289,9 @@ toLang
 "
 en
 "
+isBeta
+:
+false
 }
 ]
 "
