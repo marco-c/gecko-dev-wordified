@@ -2063,7 +2063,7 @@ of
 1000
 bytes
 =
-80
+160
 kb
 .
 const
