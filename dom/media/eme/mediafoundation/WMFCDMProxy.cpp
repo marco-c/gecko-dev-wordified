@@ -1725,14 +1725,6 @@ MOZ_ASSERT
 mIsShutdown
 )
 ;
-/
-/
-TODO
-:
-reject
-pending
-promise
-.
 if
 (
 mProxyCallback
