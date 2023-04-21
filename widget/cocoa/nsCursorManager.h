@@ -197,12 +197,6 @@ nsCursorManager
 )
 sharedInstance
 ;
-+
-(
-void
-)
-dispose
-;
 end
 interface
 NSCursor
