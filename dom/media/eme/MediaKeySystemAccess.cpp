@@ -1031,7 +1031,7 @@ kPlayReadyKeySystemName
 )
 NS_ConvertUTF8toUTF16
 (
-kPlayReadyKeySystemNameDeprecated
+kPlayReadyKeySystemHardware
 )
 #
 endif
