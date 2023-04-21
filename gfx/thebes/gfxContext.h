@@ -3075,12 +3075,6 @@ dashPattern
 StrokeOptions
 strokeOptions
 ;
-RefPtr
-<
-DrawTarget
->
-drawTarget
-;
 mozilla
 :
 :
@@ -3296,6 +3290,7 @@ RefPtr
 <
 DrawTarget
 >
+const
 mDT
 ;
 float
