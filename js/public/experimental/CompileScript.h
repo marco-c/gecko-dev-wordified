@@ -127,10 +127,10 @@ JSContext
 /
 #
 ifndef
-js_experimental_ParseScript_h
+js_experimental_CompileScript_h
 #
 define
-js_experimental_ParseScript_h
+js_experimental_CompileScript_h
 #
 include
 "
@@ -254,7 +254,7 @@ end
 context
 allocated
 with
-JS_NewFrontendContext
+NewFrontendContext
 .
 JS_PUBLIC_API
 void
@@ -277,7 +277,7 @@ JS
 :
 Stencil
 >
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 JS
 :
@@ -335,7 +335,7 @@ JS
 :
 Stencil
 >
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 JS
 :
@@ -424,4 +424,4 @@ JS
 endif
 /
 /
-js_experimental_ParseScript_h
+js_experimental_CompileScript_h
