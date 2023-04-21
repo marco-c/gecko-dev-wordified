@@ -5027,6 +5027,9 @@ execute
 the
 compiled
 graph
+const
+result
+=
 await
 context
 .
@@ -5041,6 +5044,8 @@ checkResults
 (
 operationName
 namedOutputOperands
+result
+.
 outputs
 resources
 )
