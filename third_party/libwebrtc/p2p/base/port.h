@@ -2845,7 +2845,6 @@ the
 frozen
 algorithm
 .
-static
 std
 :
 :

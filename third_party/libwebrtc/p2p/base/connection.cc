@@ -10932,9 +10932,11 @@ local_candidate_
 .
 set_foundation
 (
-Port
-:
-:
+port
+(
+)
+-
+>
 ComputeFoundation
 (
 PRFLX_PORT_TYPE
