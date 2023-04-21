@@ -2827,7 +2827,7 @@ Info
 (
 "
 Calling
-PrepareFullScreenHWND
+PrepareFullScreen
 (
 %
 p
@@ -2847,7 +2847,7 @@ hr
 mTaskbarInfo
 -
 >
-PrepareFullScreenHWND
+PrepareFullScreen
 (
 aWnd
 aMark
@@ -2872,7 +2872,7 @@ Error
 "
 Call
 to
-PrepareFullScreenHWND
+PrepareFullScreen
 (
 %
 p
