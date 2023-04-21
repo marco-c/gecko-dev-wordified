@@ -1673,7 +1673,7 @@ SSRC
 media_channel_
 -
 >
-GenerateKeyFrame
+RequestRecvKeyFrame
 (
 ssrc_
 .
@@ -1975,7 +1975,7 @@ SSRC
 media_channel_
 -
 >
-GenerateKeyFrame
+RequestRecvKeyFrame
 (
 ssrc_
 .

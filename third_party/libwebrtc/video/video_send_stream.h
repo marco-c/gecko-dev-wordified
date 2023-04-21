@@ -549,6 +549,12 @@ RtpPayloadStateMap
 payload_state_map
 )
 ;
+void
+GenerateKeyFrame
+(
+)
+override
+;
 private
 :
 friend

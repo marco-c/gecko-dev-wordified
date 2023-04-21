@@ -1959,6 +1959,14 @@ GetStats
 =
 0
 ;
+virtual
+void
+GenerateKeyFrame
+(
+)
+=
+0
+;
 protected
 :
 virtual

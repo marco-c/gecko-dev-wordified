@@ -3056,7 +3056,15 @@ ssrc
 override
 ;
 void
-GenerateKeyFrame
+RequestRecvKeyFrame
+(
+uint32_t
+ssrc
+)
+override
+;
+void
+GenerateSendKeyFrame
 (
 uint32_t
 ssrc
