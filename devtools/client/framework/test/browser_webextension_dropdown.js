@@ -244,13 +244,9 @@ BrowserTestUtils
 .
 waitForSelectPopupShown
 (
-toolbox
+iframe
 .
-win
-.
-browsingContext
-.
-topChromeWindow
+contentWindow
 )
 ;
 const
