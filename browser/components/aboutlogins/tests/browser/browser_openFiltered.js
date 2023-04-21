@@ -243,7 +243,7 @@ logins
 =
 >
 {
-let
+const
 loginList
 =
 Cu
@@ -295,7 +295,7 @@ cached
 "
 )
 ;
-let
+const
 loginItem
 =
 Cu
@@ -379,7 +379,7 @@ selected
 "
 )
 ;
-let
+const
 loginIntro
 =
 content
@@ -420,12 +420,12 @@ selected
 "
 )
 ;
-let
+const
 loginFilter
 =
-content
+loginList
 .
-document
+shadowRoot
 .
 querySelector
 (
@@ -436,7 +436,7 @@ filter
 "
 )
 ;
-let
+const
 xRayLoginFilter
 =
 Cu
@@ -472,9 +472,9 @@ Assert
 .
 equal
 (
-content
+loginList
 .
-document
+shadowRoot
 .
 activeElement
 loginFilter
