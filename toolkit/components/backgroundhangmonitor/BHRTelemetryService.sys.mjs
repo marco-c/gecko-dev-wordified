@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -93,6 +88,7 @@ mjs
 }
 )
 ;
+export
 function
 BHRTelemetryService
 (
@@ -1121,13 +1117,4 @@ break
 }
 }
 )
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-BHRTelemetryService
-"
-]
 ;
