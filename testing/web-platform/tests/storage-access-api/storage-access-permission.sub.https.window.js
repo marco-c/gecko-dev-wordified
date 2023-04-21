@@ -402,7 +402,9 @@ permission
 .
 name
 "
-storage_access
+storage
+-
+access
 "
 )
 ;
@@ -512,7 +514,9 @@ permission
 .
 name
 "
-storage_access
+storage
+-
+access
 "
 )
 ;
@@ -622,7 +626,9 @@ permission
 .
 name
 "
-storage_access
+storage
+-
+access
 "
 )
 ;
