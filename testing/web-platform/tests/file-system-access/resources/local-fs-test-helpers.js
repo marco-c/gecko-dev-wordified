@@ -86,6 +86,17 @@ file
 system
 instead
 .
+function
+getFileSystemType
+(
+)
+{
+return
+'
+local
+'
+;
+}
 const
 directory_promise
 =

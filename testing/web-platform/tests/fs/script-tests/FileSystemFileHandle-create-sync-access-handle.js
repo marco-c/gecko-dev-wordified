@@ -47,9 +47,16 @@ root_dir
 =
 >
 {
+const
+fileSystemType
+=
+getFileSystemType
+(
+)
+;
 assert_true
 (
-file_system_type
+fileSystemType
 =
 =
 '
@@ -57,7 +64,7 @@ sandboxed
 '
 |
 |
-file_system_type
+fileSystemType
 =
 =
 '
@@ -79,7 +86,7 @@ local
 const
 expect_success
 =
-file_system_type
+fileSystemType
 =
 =
 '

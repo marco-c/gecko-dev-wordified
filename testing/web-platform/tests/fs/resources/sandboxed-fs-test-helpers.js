@@ -85,6 +85,17 @@ file
 system
 instead
 .
+function
+getFileSystemType
+(
+)
+{
+return
+'
+sandboxed
+'
+;
+}
 async
 function
 cleanupSandboxedFileSystem
