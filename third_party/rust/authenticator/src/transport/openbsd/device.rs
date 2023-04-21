@@ -108,9 +108,9 @@ transport
 :
 {
 AuthenticatorInfo
-ECDHSecret
 FidoDevice
 HIDError
+SharedSecret
 }
 ;
 use
@@ -238,7 +238,7 @@ secret
 :
 Option
 <
-ECDHSecret
+SharedSecret
 >
 authenticator_info
 :
@@ -1342,7 +1342,7 @@ self
 Option
 <
 &
-ECDHSecret
+SharedSecret
 >
 {
 self
@@ -1361,7 +1361,7 @@ mut
 self
 secret
 :
-ECDHSecret
+SharedSecret
 )
 {
 self
