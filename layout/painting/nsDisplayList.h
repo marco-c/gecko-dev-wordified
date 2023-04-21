@@ -31463,7 +31463,6 @@ OwnLayerType
 {
 OwnLayerForTransformWithRoundedClip
 OwnLayerForStackingContext
-OwnLayerForImageBoxFrame
 OwnLayerForScrollbar
 OwnLayerForScrollThumb
 OwnLayerForSubdoc

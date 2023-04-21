@@ -11945,17 +11945,10 @@ document
 '
 s
 ImageTracker
-(
-like
-nsImageBoxFrame
-does
-)
 .
 For
 now
 assume
-/
-/
 we
 don
 '

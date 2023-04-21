@@ -412,17 +412,6 @@ NOT_LEAF
 Frame
 (
 "
-nsImageBoxFrame
-"
-"
-ImageBox
-"
-LEAF
-)
-    
-Frame
-(
-"
 nsImageControlFrame
 "
 "
