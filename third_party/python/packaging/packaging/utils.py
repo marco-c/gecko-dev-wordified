@@ -36,15 +36,19 @@ for
 complete
 details
 .
+from
+__future__
+import
+absolute_import
+division
+print_function
 import
 re
 from
-typing
+.
+_typing
 import
-FrozenSet
-NewType
-Tuple
-Union
+TYPE_CHECKING
 cast
 from
 .
@@ -58,6 +62,23 @@ version
 import
 InvalidVersion
 Version
+if
+TYPE_CHECKING
+:
+#
+pragma
+:
+no
+cover
+    
+from
+typing
+import
+FrozenSet
+NewType
+Tuple
+Union
+    
 BuildTag
 =
 Union
@@ -73,6 +94,7 @@ int
 str
 ]
 ]
+    
 NormalizedName
 =
 NewType
@@ -82,6 +104,16 @@ NormalizedName
 "
 str
 )
+else
+:
+    
+BuildTag
+=
+tuple
+    
+NormalizedName
+=
+str
 class
 InvalidWheelFilename
 (
@@ -192,13 +224,18 @@ def
 canonicalize_name
 (
 name
+)
 :
+    
+#
+type
+:
+(
 str
 )
 -
 >
 NormalizedName
-:
     
 #
 This
@@ -235,7 +272,13 @@ def
 canonicalize_version
 (
 version
+)
 :
+    
+#
+type
+:
+(
 Union
 [
 Version
@@ -244,8 +287,11 @@ str
 )
 -
 >
+Union
+[
+Version
 str
-:
+]
     
 "
 "
@@ -280,17 +326,18 @@ segment
 "
     
 if
+not
 isinstance
 (
 version
-str
+Version
 )
 :
         
 try
 :
             
-parsed
+version
 =
 Version
 (
@@ -311,13 +358,6 @@ normalized
 return
 version
     
-else
-:
-        
-parsed
-=
-version
-    
 parts
 =
 [
@@ -327,7 +367,7 @@ parts
 Epoch
     
 if
-parsed
+version
 .
 epoch
 !
@@ -339,15 +379,19 @@ parts
 .
 append
 (
-f
 "
 {
-parsed
-.
-epoch
+0
 }
 !
 "
+.
+format
+(
+version
+.
+epoch
+)
 )
     
 #
@@ -400,7 +444,7 @@ x
 for
 x
 in
-parsed
+version
 .
 release
 )
@@ -413,7 +457,7 @@ Pre
 release
     
 if
-parsed
+version
 .
 pre
 is
@@ -437,7 +481,7 @@ x
 for
 x
 in
-parsed
+version
 .
 pre
 )
@@ -449,7 +493,7 @@ Post
 release
     
 if
-parsed
+version
 .
 post
 is
@@ -461,16 +505,20 @@ parts
 .
 append
 (
-f
 "
 .
 post
 {
-parsed
-.
-post
+0
 }
 "
+.
+format
+(
+version
+.
+post
+)
 )
     
 #
@@ -478,7 +526,7 @@ Development
 release
     
 if
-parsed
+version
 .
 dev
 is
@@ -490,16 +538,20 @@ parts
 .
 append
 (
-f
 "
 .
 dev
 {
-parsed
-.
-dev
+0
 }
 "
+.
+format
+(
+version
+.
+dev
+)
 )
     
 #
@@ -508,7 +560,7 @@ version
 segment
     
 if
-parsed
+version
 .
 local
 is
@@ -520,15 +572,19 @@ parts
 .
 append
 (
-f
 "
 +
 {
-parsed
-.
-local
+0
 }
 "
+.
+format
+(
+version
+.
+local
+)
 )
     
 return
@@ -542,9 +598,14 @@ parts
 def
 parse_wheel_filename
 (
-    
 filename
+)
 :
+    
+#
+type
+:
+(
 str
 )
 -
@@ -559,7 +620,6 @@ FrozenSet
 Tag
 ]
 ]
-:
     
 if
 not
@@ -578,7 +638,6 @@ raise
 InvalidWheelFilename
 (
             
-f
 "
 Invalid
 wheel
@@ -594,9 +653,14 @@ whl
 )
 :
 {
-filename
+0
 }
 "
+.
+format
+(
+filename
+)
         
 )
     
@@ -634,7 +698,6 @@ raise
 InvalidWheelFilename
 (
             
-f
 "
 Invalid
 wheel
@@ -647,9 +710,14 @@ parts
 )
 :
 {
-filename
+0
 }
 "
+.
+format
+(
+filename
+)
         
 )
     
@@ -723,16 +791,20 @@ None
 raise
 InvalidWheelFilename
 (
-f
 "
 Invalid
 project
 name
 :
 {
-filename
+0
 }
 "
+.
+format
+(
+filename
+)
 )
     
 name
@@ -785,22 +857,27 @@ raise
 InvalidWheelFilename
 (
                 
-f
 "
 Invalid
 build
 number
 :
 {
-build_part
+0
 }
 in
 '
 {
-filename
+1
 }
 '
 "
+.
+format
+(
+build_part
+filename
+)
             
 )
         
@@ -858,7 +935,13 @@ def
 parse_sdist_filename
 (
 filename
+)
 :
+    
+#
+type
+:
+(
 str
 )
 -
@@ -868,9 +951,9 @@ Tuple
 NormalizedName
 Version
 ]
-:
     
 if
+not
 filename
 .
 endswith
@@ -882,60 +965,12 @@ tar
 gz
 "
 )
-:
-        
-file_stem
-=
-filename
-[
-:
--
-len
-(
-"
-.
-tar
-.
-gz
-"
-)
-]
-    
-elif
-filename
-.
-endswith
-(
-"
-.
-zip
-"
-)
-:
-        
-file_stem
-=
-filename
-[
-:
--
-len
-(
-"
-.
-zip
-"
-)
-]
-    
-else
 :
         
 raise
 InvalidSdistFilename
 (
             
-f
 "
 Invalid
 sdist
@@ -950,21 +985,17 @@ tar
 .
 gz
 '
-or
-'
-.
-zip
-'
 )
 :
-"
-            
-f
-"
 {
-filename
+0
 }
 "
+.
+format
+(
+filename
+)
         
 )
     
@@ -995,7 +1026,12 @@ name_part
 sep
 version_part
 =
-file_stem
+filename
+[
+:
+-
+7
+]
 .
 rpartition
 (
@@ -1012,16 +1048,20 @@ sep
 raise
 InvalidSdistFilename
 (
-f
 "
 Invalid
 sdist
 filename
 :
 {
-filename
+0
 }
 "
+.
+format
+(
+filename
+)
 )
     
 name
