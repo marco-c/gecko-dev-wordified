@@ -2996,7 +2996,7 @@ aAlwaysRollup
 )
 ;
 void
-RollupAllMenus
+CheckForRollupDuringGrab
 (
 )
 {
@@ -3006,16 +3006,6 @@ CheckForRollup
 0
 false
 true
-)
-;
-}
-void
-CheckForRollupDuringGrab
-(
-)
-{
-RollupAllMenus
-(
 )
 ;
 }
