@@ -6378,11 +6378,12 @@ bufLayout
 =
 {
 0
+&
 data
 -
 >
 mSourcePitch
-0
+nullptr
 }
 ;
 const
