@@ -2670,7 +2670,7 @@ aCumulativeBounds
 )
 const
 ;
-void
+bool
 ApplyScrollOffset
 (
 nsRect
@@ -2696,6 +2696,10 @@ Maybe
 nsRect
 >
 aOffset
+bool
+aBoundsAreForHittesting
+=
+false
 )
 const
 ;
@@ -2705,6 +2709,17 @@ IsFixedPos
 )
 const
 ;
+/
+/
+This
+function
+is
+used
+exclusively
+for
+hit
+testing
+.
 bool
 ContainsPoint
 (
