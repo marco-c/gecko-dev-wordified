@@ -244,6 +244,8 @@ if
 initialOrientation
 )
 {
+try
+{
 await
 screen
 .
@@ -254,6 +256,10 @@ lock
 initialOrientation
 )
 ;
+}
+catch
+{
+}
 }
 screen
 .
