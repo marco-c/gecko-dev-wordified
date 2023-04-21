@@ -4760,6 +4760,11 @@ AssertIsOnBackgroundThread
 (
 )
 ;
+if
+(
+mTransportImpl
+)
+{
 mTransportImpl
 -
 >
@@ -4769,6 +4774,7 @@ aTransactionId
 aPin
 )
 ;
+}
 }
 NS_IMETHODIMP
 WebAuthnController
