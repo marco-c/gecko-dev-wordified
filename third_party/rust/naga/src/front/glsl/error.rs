@@ -346,11 +346,11 @@ write
 f
 "
 {
+token
 :
 ?
 }
 "
-token
 )
 ExpectedToken
 :

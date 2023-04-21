@@ -1759,6 +1759,15 @@ Determinant
 /
 bits
 "
+countLeadingZeros
+"
+=
+>
+Mf
+:
+:
+CountLeadingZeros
+"
 countOneBits
 "
 =

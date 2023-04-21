@@ -45,7 +45,7 @@ Token
 TokenValue
 }
 Error
-Parser
+Frontend
 Result
 Span
 }
@@ -79,11 +79,11 @@ parse_primary
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -118,7 +118,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -246,7 +246,7 @@ self
 .
 parse_expression
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -260,7 +260,7 @@ self
 .
 expect
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -344,7 +344,7 @@ meta
 let
 handle
 =
-parser
+frontend
 .
 module
 .
@@ -417,11 +417,11 @@ parse_function_call_args
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -478,7 +478,7 @@ self
 .
 bump_if
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -507,7 +507,7 @@ self
 .
 parse_assignment
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -522,7 +522,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -622,11 +622,11 @@ parse_postfix
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -662,7 +662,7 @@ self
 .
 peek_type_name
 (
-parser
+frontend
 )
 {
 let
@@ -677,7 +677,7 @@ self
 .
 parse_type_non_void
 (
-parser
+frontend
 )
 ?
 ;
@@ -685,7 +685,7 @@ self
 .
 expect
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -700,7 +700,7 @@ self
 .
 parse_function_call_args
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -727,7 +727,7 @@ stride
 base
 }
 =
-parser
+frontend
 .
 module
 .
@@ -741,7 +741,7 @@ inner
 let
 span
 =
-parser
+frontend
 .
 module
 .
@@ -755,7 +755,7 @@ handle
 let
 constant
 =
-parser
+frontend
 .
 module
 .
@@ -808,7 +808,7 @@ default
 ;
 handle
 =
-parser
+frontend
 .
 module
 .
@@ -898,7 +898,7 @@ self
 .
 expect_peek
 (
-parser
+frontend
 )
 ?
 .
@@ -915,7 +915,7 @@ self
 .
 expect_ident
 (
-parser
+frontend
 )
 ?
 ;
@@ -927,7 +927,7 @@ self
 .
 bump_if
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -945,7 +945,7 @@ self
 .
 parse_function_call_args
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -959,7 +959,7 @@ let
 kind
 =
 match
-parser
+frontend
 .
 lookup_type
 .
@@ -1019,7 +1019,7 @@ let
 var
 =
 match
-parser
+frontend
 .
 lookup_variable
 (
@@ -1097,7 +1097,7 @@ self
 .
 parse_primary
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -1131,7 +1131,7 @@ self
 .
 expect_peek
 (
-parser
+frontend
 )
 ?
 .
@@ -1149,7 +1149,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -1170,7 +1170,7 @@ self
 .
 parse_expression
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -1184,7 +1184,7 @@ self
 .
 expect
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -1248,7 +1248,7 @@ self
 .
 expect_ident
 (
-parser
+frontend
 )
 ?
 ;
@@ -1257,7 +1257,7 @@ self
 .
 bump_if
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -1275,7 +1275,7 @@ self
 .
 parse_function_call_args
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -1456,11 +1456,11 @@ parse_unary
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -1494,7 +1494,7 @@ self
 .
 expect_peek
 (
-parser
+frontend
 )
 ?
 .
@@ -1534,7 +1534,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -1545,7 +1545,7 @@ self
 .
 parse_unary
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -1672,7 +1672,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -1683,7 +1683,7 @@ self
 .
 parse_unary
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -1756,7 +1756,7 @@ self
 .
 parse_postfix
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -1772,11 +1772,11 @@ parse_binary
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -1792,7 +1792,7 @@ body
 &
 mut
 Block
-passtrough
+passthrough
 :
 Option
 <
@@ -1819,7 +1819,7 @@ let
 mut
 left
 =
-passtrough
+passthrough
 .
 ok_or
 (
@@ -1844,7 +1844,7 @@ self
 .
 parse_unary
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -1882,7 +1882,7 @@ self
 .
 expect_peek
 (
-parser
+frontend
 )
 ?
 .
@@ -1909,7 +1909,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -1920,7 +1920,7 @@ self
 .
 parse_binary
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2193,11 +2193,11 @@ parse_conditional
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -2213,7 +2213,7 @@ body
 &
 mut
 Block
-passtrough
+passthrough
 :
 Option
 <
@@ -2241,11 +2241,11 @@ self
 .
 parse_binary
 (
-parser
+frontend
 ctx
 stmt
 body
-passtrough
+passthrough
 0
 )
 ?
@@ -2268,7 +2268,7 @@ self
 .
 bump_if
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -2286,7 +2286,7 @@ self
 .
 parse_expression
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2297,7 +2297,7 @@ self
 .
 expect
 (
-parser
+frontend
 TokenValue
 :
 :
@@ -2312,7 +2312,7 @@ self
 .
 parse_assignment
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2381,11 +2381,11 @@ parse_assignment
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -2419,7 +2419,7 @@ self
 .
 parse_unary
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2446,7 +2446,7 @@ self
 .
 expect_peek
 (
-parser
+frontend
 )
 ?
 .
@@ -2463,7 +2463,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -2474,7 +2474,7 @@ self
 .
 parse_assignment
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2587,7 +2587,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -2598,7 +2598,7 @@ self
 .
 parse_assignment
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2807,7 +2807,7 @@ self
 .
 parse_conditional
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2827,11 +2827,11 @@ parse_expression
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 ctx
 :
 &
@@ -2866,7 +2866,7 @@ self
 .
 parse_assignment
 (
-parser
+frontend
 ctx
 stmt
 body
@@ -2884,7 +2884,7 @@ self
 .
 expect_peek
 (
-parser
+frontend
 )
 ?
 .
@@ -2894,7 +2894,7 @@ self
 .
 bump
 (
-parser
+frontend
 )
 ?
 ;
@@ -2904,7 +2904,7 @@ self
 .
 parse_assignment
 (
-parser
+frontend
 ctx
 stmt
 body
