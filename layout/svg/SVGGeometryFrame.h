@@ -484,7 +484,7 @@ IsInvisible
 )
 const
 ;
-private
+protected
 :
 /
 /
@@ -616,11 +616,14 @@ element
 .
 *
 /
+virtual
 uint16_t
 GetHitTestFlags
 (
 )
 ;
+private
+:
 enum
 {
 eRenderFill
@@ -648,6 +651,7 @@ imgDrawingParams
 aImgParams
 )
 ;
+virtual
 bool
 CreateWebRenderCommands
 (
@@ -1088,6 +1092,7 @@ true
 )
 ;
 }
+virtual
 bool
 CreateWebRenderCommands
 (
