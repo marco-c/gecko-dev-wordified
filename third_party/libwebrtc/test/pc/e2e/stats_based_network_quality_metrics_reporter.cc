@@ -2046,7 +2046,10 @@ LogSingleValueMetric
 "
 bytes_discarded_no_receiver
 "
+GetTestCaseName
+(
 pc_label
+)
 network_layer_stats
 .
 stats
@@ -2077,7 +2080,10 @@ LogSingleValueMetric
 "
 packets_discarded_no_receiver
 "
+GetTestCaseName
+(
 pc_label
+)
 network_layer_stats
 .
 stats
@@ -2104,7 +2110,10 @@ LogSingleValueMetric
 "
 payload_bytes_received
 "
+GetTestCaseName
+(
 pc_label
+)
 pc_stats
 .
 payload_received
@@ -2130,7 +2139,10 @@ LogSingleValueMetric
 "
 payload_bytes_sent
 "
+GetTestCaseName
+(
 pc_label
+)
 pc_stats
 .
 payload_sent
@@ -2156,7 +2168,10 @@ LogSingleValueMetric
 "
 bytes_sent
 "
+GetTestCaseName
+(
 pc_label
+)
 pc_stats
 .
 total_sent
@@ -2182,7 +2197,10 @@ LogSingleValueMetric
 "
 packets_sent
 "
+GetTestCaseName
+(
 pc_label
+)
 pc_stats
 .
 packets_sent
@@ -2204,7 +2222,10 @@ LogSingleValueMetric
 "
 average_send_rate
 "
+GetTestCaseName
+(
 pc_label
+)
 (
 pc_stats
 .
@@ -2238,7 +2259,10 @@ LogSingleValueMetric
 "
 bytes_received
 "
+GetTestCaseName
+(
 pc_label
+)
 pc_stats
 .
 total_received
@@ -2264,7 +2288,10 @@ LogSingleValueMetric
 "
 packets_received
 "
+GetTestCaseName
+(
 pc_label
+)
 pc_stats
 .
 packets_received
@@ -2286,7 +2313,10 @@ LogSingleValueMetric
 "
 average_receive_rate
 "
+GetTestCaseName
+(
 pc_label
+)
 (
 pc_stats
 .
@@ -2320,7 +2350,10 @@ LogSingleValueMetric
 "
 sent_packets_loss
 "
+GetTestCaseName
+(
 pc_label
+)
 packet_loss
 Unit
 :
@@ -2748,7 +2781,10 @@ LogMetric
 "
 sent_packets_size
 "
+GetTestCaseName
+(
 peer_name
+)
 stats
 .
 stats
@@ -2824,7 +2860,10 @@ LogMetric
 "
 received_packets_size
 "
+GetTestCaseName
+(
 peer_name
+)
 stats
 .
 stats
@@ -2900,7 +2939,10 @@ LogMetric
 "
 dropped_packets_size
 "
+GetTestCaseName
+(
 peer_name
+)
 stats
 .
 stats
@@ -2976,7 +3018,10 @@ LogMetric
 "
 sent_packets_queue_wait_time_us
 "
+GetTestCaseName
+(
 peer_name
+)
 stats
 .
 stats
@@ -3310,6 +3355,8 @@ LogMetric
 "
 sent_packets_size
 "
+GetTestCaseName
+(
 peer_name
 +
 "
@@ -3322,6 +3369,7 @@ first
 .
 ToString
 (
+)
 )
 stats
 .
@@ -3657,6 +3705,8 @@ LogMetric
 "
 received_packets_size
 "
+GetTestCaseName
+(
 peer_name
 +
 "
@@ -3669,6 +3719,7 @@ first
 .
 ToString
 (
+)
 )
 stats
 .
@@ -3757,6 +3808,8 @@ LogMetric
 "
 dropped_packets_size
 "
+GetTestCaseName
+(
 peer_name
 +
 "
@@ -3769,6 +3822,7 @@ first
 .
 ToString
 (
+)
 )
 stats
 .
