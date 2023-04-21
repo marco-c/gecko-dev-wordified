@@ -736,6 +736,17 @@ include
 "
 video
 /
+config
+/
+encoder_stream_factory
+.
+h
+"
+#
+include
+"
+video
+/
 frame_cadence_adapter
 .
 h
