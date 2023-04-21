@@ -330,6 +330,14 @@ void
 file_chooser
 )
 ;
+bool
+WarnForNonReadableFile
+(
+void
+*
+file_chooser
+)
+;
 static
 void
 OnResponse
