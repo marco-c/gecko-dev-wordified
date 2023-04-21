@@ -6716,6 +6716,14 @@ getElementsHeader
 (
 )
 ;
+void
+*
+allocatedElements
+=
+getUnshiftedElementsHeader
+(
+)
+;
 size_t
 count
 =
@@ -6766,7 +6774,7 @@ nursery
 .
 isInside
 (
-elements
+allocatedElements
 )
 )
 {
@@ -6845,7 +6853,7 @@ nursery
 .
 removeMallocedBuffer
 (
-elements
+allocatedElements
 size
 )
 ;
@@ -7196,6 +7204,17 @@ getElementsHeader
 (
 )
 ;
+void
+*
+allocatedElements
+=
+obj
+-
+>
+getUnshiftedElementsHeader
+(
+)
+;
 MOZ_ASSERT
 (
 !
@@ -7208,7 +7227,7 @@ nursery
 .
 isInside
 (
-elements
+allocatedElements
 )
 )
 ;
@@ -7261,7 +7280,7 @@ nursery
 .
 registerMallocedBuffer
 (
-elements
+allocatedElements
 size
 )
 )
@@ -22330,7 +22349,7 @@ isInside
 (
 nobj
 .
-getElementsHeader
+getUnshiftedElementsHeader
 (
 )
 )
