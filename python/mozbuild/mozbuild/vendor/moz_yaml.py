@@ -420,6 +420,9 @@ github
 "
 angle
 "
+"
+codeberg
+"
 ]
 "
 "
