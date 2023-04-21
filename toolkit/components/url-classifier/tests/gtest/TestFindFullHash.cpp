@@ -125,6 +125,10 @@ Common
 .
 h
 "
+using
+namespace
+mozilla
+;
 template
 <
 size_t

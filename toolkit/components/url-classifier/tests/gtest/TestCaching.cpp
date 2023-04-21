@@ -101,6 +101,13 @@ Common
 h
 "
 #
+include
+"
+LookupCacheV4
+.
+h
+"
+#
 define
 EXPIRED_TIME_SEC
 (
@@ -211,6 +218,9 @@ completes
 .
 AppendElement
 (
+mozilla
+:
+:
 fallible
 )
 ;
@@ -232,6 +242,9 @@ misses
 .
 AppendElement
 (
+mozilla
+:
+:
 fallible
 )
 ;
@@ -1724,6 +1737,9 @@ misses
 .
 AppendElement
 (
+mozilla
+:
+:
 fallible
 )
 ;

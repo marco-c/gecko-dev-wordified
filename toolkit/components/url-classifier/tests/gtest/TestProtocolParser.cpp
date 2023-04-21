@@ -286,6 +286,9 @@ buffer
 4
 ]
 ;
+mozilla
+:
+:
 NativeEndian
 :
 :
@@ -758,6 +761,9 @@ before
 encoding
 .
 {
+mozilla
+:
+:
 LittleEndian
 :
 :
