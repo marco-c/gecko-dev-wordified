@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsUrlClassifierUtils
 .
 h
