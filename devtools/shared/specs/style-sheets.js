@@ -251,16 +251,6 @@ string
 response
 :
 {
-styleSheet
-:
-RetVal
-(
-"
-nullable
-:
-stylesheet
-"
-)
 }
 }
 toggleDisabled
