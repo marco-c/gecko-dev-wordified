@@ -1750,7 +1750,7 @@ Http3StreamBase
 >
 mStreamTransactionHash
 ;
-nsDeque
+nsRefPtrDeque
 <
 Http3StreamBase
 >
@@ -1765,7 +1765,7 @@ Http3StreamBase
 >
 mSlowConsumersReadyForRead
 ;
-nsDeque
+nsRefPtrDeque
 <
 Http3StreamBase
 >
