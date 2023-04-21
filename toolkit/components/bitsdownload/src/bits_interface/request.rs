@@ -1272,17 +1272,9 @@ monitor_thread
 =
 create_thread
 (
-&
-format
-!
-(
 "
 BitsMonitor
-{
-}
 "
-id
-)
 )
 .
 map_err
