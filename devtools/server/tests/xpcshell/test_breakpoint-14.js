@@ -596,12 +596,10 @@ debuggee
 )
 {
 /
-*
-eslint
--
-disable
-*
 /
+prettier
+-
+ignore
 Cu
 .
 evalInSandbox
@@ -725,11 +723,4 @@ line0
 debuggee
 )
 ;
-/
-*
-eslint
--
-enable
-*
-/
 }

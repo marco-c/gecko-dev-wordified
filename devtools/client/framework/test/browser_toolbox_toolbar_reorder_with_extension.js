@@ -264,6 +264,9 @@ disable
 next
 -
 line
+no
+-
+undef
 await
 browser
 .
@@ -299,6 +302,9 @@ disable
 next
 -
 line
+no
+-
+undef
 browser
 .
 test

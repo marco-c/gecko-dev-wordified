@@ -235,13 +235,6 @@ SOFTWARE
 /
 /
 *
-eslint
--
-disable
-*
-/
-/
-*
 *
 *
 USAGE

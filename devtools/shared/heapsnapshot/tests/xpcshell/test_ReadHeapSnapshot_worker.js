@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -43,15 +48,6 @@ in
 a
 worker
 .
-/
-/
-eslint
--
-disable
--
-next
--
-line
 add_task
 (
 async

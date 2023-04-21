@@ -180,12 +180,10 @@ debuggee
 )
 {
 /
-*
-eslint
--
-disable
-*
 /
+prettier
+-
+ignore
 try
 {
 Cu
@@ -257,11 +255,4 @@ e
 )
 {
 }
-/
-*
-eslint
--
-disable
-*
-/
 }

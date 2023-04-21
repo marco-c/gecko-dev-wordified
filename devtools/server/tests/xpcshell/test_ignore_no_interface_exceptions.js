@@ -141,12 +141,10 @@ debuggee
 )
 {
 /
-*
-eslint
--
-disable
-*
 /
+prettier
+-
+ignore
 Cu
 .
 evalInSandbox
@@ -250,11 +248,4 @@ js
 1
 )
 ;
-/
-*
-eslint
--
-disable
-*
-/
 }
