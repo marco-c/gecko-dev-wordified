@@ -147,6 +147,17 @@ camelCase
 "
 )
 ]
+/
+/
+This
+struct
+mirrors
+what
+is
+stored
+on
+the
+server
 pub
 struct
 TabsRecord

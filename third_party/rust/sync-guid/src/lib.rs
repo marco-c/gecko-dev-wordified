@@ -1096,7 +1096,6 @@ base64
 :
 encode_config_slice
 (
-&
 bytes
 base64
 :

@@ -3071,8 +3071,6 @@ Self
 :
 IntoIter
 {
-(
-&
 self
 .
 headers
@@ -3080,7 +3078,6 @@ headers
 .
 .
 ]
-)
 .
 iter
 (

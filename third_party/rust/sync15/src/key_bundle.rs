@@ -552,7 +552,6 @@ base64
 :
 decode_config
 (
-&
 ksync
 base64
 :
@@ -598,7 +597,6 @@ base64
 :
 decode
 (
-&
 enc
 )
 ?
@@ -611,7 +609,6 @@ base64
 :
 decode
 (
-&
 mac
 )
 ?
@@ -1181,7 +1178,6 @@ base64
 :
 encode
 (
-&
 ciphertext
 )
 ;
@@ -1299,7 +1295,6 @@ base64
 :
 encode
 (
-&
 iv
 )
 ;
