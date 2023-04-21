@@ -592,7 +592,7 @@ void
 ComputePassEncoder
 :
 :
-EndPass
+End
 (
 ErrorResult
 &

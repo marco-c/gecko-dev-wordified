@@ -571,7 +571,7 @@ aBundles
 )
 ;
 void
-EndPass
+End
 (
 ErrorResult
 &

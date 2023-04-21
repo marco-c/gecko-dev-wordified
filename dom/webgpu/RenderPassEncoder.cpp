@@ -1900,7 +1900,7 @@ void
 RenderPassEncoder
 :
 :
-EndPass
+End
 (
 ErrorResult
 &
