@@ -1070,7 +1070,7 @@ UnusedClippingPredictionsProduceEqualAnalogLevels
 FRIEND_TEST_ALL_PREFIXES
 (
 InputVolumeControllerParametrizedTest
-EmptyRmsErrorOverrideHasNoEffect
+EmptyRmsErrorHasNoEffect
 )
 ;
 void
@@ -1467,7 +1467,7 @@ optional
 <
 int
 >
-rms_error_override
+rms_error
 )
 ;
 /
