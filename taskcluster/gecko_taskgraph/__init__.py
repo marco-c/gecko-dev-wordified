@@ -385,17 +385,6 @@ generator
 from
 gecko_taskgraph
 import
-morph
-#
-noqa
-:
-trigger
-morph
-registration
-    
-from
-gecko_taskgraph
-import
 (
 #
 noqa
@@ -404,6 +393,14 @@ trigger
 target
 task
 method
+registration
+        
+morph
+#
+noqa
+:
+trigger
+morph
 registration
         
 target_tasks

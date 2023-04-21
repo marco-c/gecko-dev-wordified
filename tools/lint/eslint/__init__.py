@@ -129,10 +129,6 @@ eslint
 )
 )
 from
-eslint
-import
-setup_helper
-from
 mozbuild
 .
 nodeutil
@@ -142,6 +138,10 @@ from
 mozlint
 import
 result
+from
+eslint
+import
+setup_helper
 ESLINT_ERROR_MESSAGE
 =
 "

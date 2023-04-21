@@ -54,6 +54,13 @@ MPL
 /
 .
 from
+mozbuild
+.
+util
+import
+ensure_bytes
+ensureParentDir
+from
 mozpack
 .
 errors
@@ -103,13 +110,6 @@ PreprocessedFile
     
 TarFinder
 )
-from
-mozbuild
-.
-util
-import
-ensure_bytes
-ensureParentDir
 #
 We
 don
@@ -155,15 +155,15 @@ mkdtemp
 import
 mozfile
 import
+mozunit
+import
+six
+import
 mozpack
 .
 path
 as
 mozpath
-import
-mozunit
-import
-six
 from
 mozpack
 .

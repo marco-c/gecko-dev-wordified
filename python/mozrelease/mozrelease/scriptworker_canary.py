@@ -83,6 +83,8 @@ from
 pathlib
 import
 Path
+import
+taskcluster
 from
 appdirs
 import
@@ -97,8 +99,6 @@ mach
 base
 import
 FailedCommandError
-import
-taskcluster
 logger
 =
 logging

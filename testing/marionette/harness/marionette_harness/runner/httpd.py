@@ -104,16 +104,13 @@ wptserve
 import
 handlers
 request
+server
 from
 wptserve
 import
 routes
 as
 default_routes
-from
-wptserve
-import
-server
 root
 =
 os
