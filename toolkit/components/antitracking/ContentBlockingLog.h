@@ -532,6 +532,11 @@ aTrackingFullHashes
 ;
 }
 void
+ReportOrigins
+(
+)
+;
+void
 ReportLog
 (
 nsIPrincipal
