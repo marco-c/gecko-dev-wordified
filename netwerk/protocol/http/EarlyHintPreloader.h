@@ -245,7 +245,7 @@ aPreloader
 )
 ;
 void
-CancelAllOngoingPreloads
+CancelAll
 (
 const
 nsACString

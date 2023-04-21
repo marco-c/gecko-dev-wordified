@@ -729,7 +729,7 @@ void
 OngoingEarlyHints
 :
 :
-CancelAllOngoingPreloads
+CancelAll
 (
 const
 nsACString
