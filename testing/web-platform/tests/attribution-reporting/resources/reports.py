@@ -197,6 +197,42 @@ items
   
 }
 def
+get_request_origin
+(
+request
+:
+Request
+)
+-
+>
+str
+:
+  
+return
+"
+%
+s
+:
+/
+/
+%
+s
+"
+%
+(
+request
+.
+url_parts
+.
+scheme
+                      
+request
+.
+url_parts
+.
+netloc
+)
+def
 handle_post_report
 (
 request
@@ -319,6 +355,10 @@ request
 server
 .
 stash
+get_request_origin
+(
+request
+)
 {
           
 "
@@ -436,6 +476,30 @@ request
 server
 .
 stash
+get_request_origin
+(
+request
+)
+)
+  
+headers
+.
+append
+(
+(
+"
+Access
+-
+Control
+-
+Allow
+-
+Origin
+"
+"
+*
+"
+)
 )
   
 return
@@ -472,6 +536,9 @@ store_report
 stash
 :
 Stash
+origin
+:
+str
 report
 :
 str
@@ -507,7 +574,7 @@ stash
 lock
 :
     
-reports
+reports_dict
 =
 stash
 .
@@ -518,13 +585,24 @@ REPORTS
     
 if
 not
-reports
+reports_dict
 :
       
+reports_dict
+=
+{
+}
+    
 reports
 =
+reports_dict
+.
+get
+(
+origin
 [
 ]
+)
     
 reports
 .
@@ -533,12 +611,19 @@ append
 report
 )
     
+reports_dict
+[
+origin
+]
+=
+reports
+    
 stash
 .
 put
 (
 REPORTS
-reports
+reports_dict
 )
   
 return
@@ -549,6 +634,9 @@ take_reports
 stash
 :
 Stash
+origin
+:
+str
 )
 -
 >
@@ -576,7 +664,13 @@ them
 "
 "
   
-reports
+with
+stash
+.
+lock
+:
+    
+reports_dict
 =
 stash
 .
@@ -584,16 +678,35 @@ take
 (
 REPORTS
 )
-  
+    
 if
 not
-reports
+reports_dict
 :
+      
+reports_dict
+=
+{
+}
     
 reports
 =
+reports_dict
+.
+pop
+(
+origin
 [
 ]
+)
+    
+stash
+.
+put
+(
+REPORTS
+reports_dict
+)
   
 return
 reports
