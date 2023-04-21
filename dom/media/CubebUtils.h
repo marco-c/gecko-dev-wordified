@@ -292,6 +292,8 @@ safe
 uint32_t
 PreferredSampleRate
 (
+bool
+aShouldResistFingerprinting
 )
 ;
 /

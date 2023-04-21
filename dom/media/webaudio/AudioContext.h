@@ -1759,6 +1759,16 @@ return
 mIsOffline
 ;
 }
+bool
+ShouldResistFingerprinting
+(
+)
+const
+{
+return
+mShouldResistFingerprinting
+;
+}
 MediaTrackGraph
 *
 Graph

@@ -22560,6 +22560,8 @@ GetInstanceIfExists
 (
 uint64_t
 aWindowID
+bool
+aShouldResistFingerprinting
 TrackRate
 aSampleRate
 CubebUtils
@@ -22593,6 +22595,7 @@ CubebUtils
 :
 PreferredSampleRate
 (
+aShouldResistFingerprinting
 )
 ;
 GraphKey
@@ -22673,6 +22676,17 @@ aWindow
 WindowID
 (
 )
+aWindow
+-
+>
+AsGlobal
+(
+)
+-
+>
+ShouldResistFingerprinting
+(
+)
 aSampleRate
 aOutputDeviceID
 )
@@ -22694,6 +22708,8 @@ GraphDriverType
 aGraphDriverRequested
 uint64_t
 aWindowID
+bool
+aShouldResistFingerprinting
 TrackRate
 aSampleRate
 CubebUtils
@@ -22730,6 +22746,7 @@ CubebUtils
 :
 PreferredSampleRate
 (
+aShouldResistFingerprinting
 )
 ;
 MediaTrackGraphImpl
@@ -22739,6 +22756,7 @@ graph
 GetInstanceIfExists
 (
 aWindowID
+aShouldResistFingerprinting
 sampleRate
 aOutputDeviceID
 )
@@ -22945,6 +22963,17 @@ aWindow
 -
 >
 WindowID
+(
+)
+aWindow
+-
+>
+AsGlobal
+(
+)
+-
+>
+ShouldResistFingerprinting
 (
 )
 aSampleRate

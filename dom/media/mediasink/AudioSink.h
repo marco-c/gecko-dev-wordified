@@ -310,6 +310,8 @@ const
 AudioInfo
 &
 aInfo
+bool
+aShouldResistFingerprinting
 )
 ;
 ~

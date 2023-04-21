@@ -2250,6 +2250,13 @@ HadCrossOriginRedirects
 (
 )
 ;
+bool
+ShouldResistFingerprinting
+(
+)
+const
+override
+;
 /
 /
 Principal

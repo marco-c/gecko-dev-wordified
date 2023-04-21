@@ -1680,6 +1680,17 @@ aInit
 .
 mHasSuspendTaint
 )
+mShouldResistFingerprinting
+(
+aInit
+.
+mOwner
+-
+>
+ShouldResistFingerprinting
+(
+)
+)
 mPlaybackRate
 (
 aInit
