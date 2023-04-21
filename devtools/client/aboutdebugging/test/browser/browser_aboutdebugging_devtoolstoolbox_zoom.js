@@ -293,7 +293,7 @@ toFixed
 "
 1
 .
-09
+10
 "
 "
 zoom
@@ -364,7 +364,7 @@ toFixed
 "
 1
 .
-09
+10
 "
 "
 zoom
@@ -462,7 +462,7 @@ win
 return
 win
 .
-windowUtils
+browsingContext
 .
 fullZoom
 ;
