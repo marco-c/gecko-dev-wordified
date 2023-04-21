@@ -321,17 +321,10 @@ IsFrameOfType
 aFlags
 &
 ~
-(
 nsIFrame
 :
 :
 eSVG
-|
-nsIFrame
-:
-:
-eSVGContainer
-)
 )
 ;
 }
