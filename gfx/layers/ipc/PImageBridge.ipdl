@@ -267,7 +267,6 @@ script
 *
 /
 [
-ManualDealloc
 NeedsOtherPid
 ]
 sync
