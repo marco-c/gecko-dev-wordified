@@ -697,6 +697,8 @@ GetTransitionCombinedDuration
 (
 i
 )
+.
+seconds
 <
 =
 0
@@ -2241,6 +2243,10 @@ GetTransitionDelay
 (
 transitionIdx
 )
+.
+ToMilliseconds
+(
+)
 ;
 /
 /
@@ -2268,6 +2274,10 @@ aStyle
 GetTransitionDuration
 (
 transitionIdx
+)
+.
+ToMilliseconds
+(
 )
 0
 .
