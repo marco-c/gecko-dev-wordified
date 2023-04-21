@@ -94,6 +94,11 @@ TEST_PC_E2E_PEER_CONNECTION_QUALITY_TEST_PARAMS_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #
@@ -752,6 +757,10 @@ network_thread
 (
 network_thread
 )
+worker_thread
+(
+nullptr
+)
 pcf_dependencies
 (
 std
@@ -792,6 +801,13 @@ Thread
 *
 const
 network_thread
+;
+rtc
+:
+:
+Thread
+*
+worker_thread
 ;
 std
 :
