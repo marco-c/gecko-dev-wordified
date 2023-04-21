@@ -251,6 +251,12 @@ reftest
 -
 snapshot
 "
+            
+"
+xpcshell
+-
+msix
+"
         
 ]
     
