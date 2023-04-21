@@ -18016,10 +18016,9 @@ mBidiEngine
 )
 {
 mBidiEngine
-.
-reset
-(
-new
+=
+MakeUnique
+<
 mozilla
 :
 :
@@ -18027,8 +18026,8 @@ intl
 :
 :
 Bidi
+>
 (
-)
 )
 ;
 }
