@@ -49,11 +49,6 @@ parameters
 .
 *
 /
-"
-use
-strict
-"
-;
 let
 pm
 =
@@ -67,15 +62,6 @@ secMan
 Services
 .
 scriptSecurityManager
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-PermissionTestUtils
-"
-]
 ;
 /
 *
@@ -101,6 +87,7 @@ returned
 without
 conversion
 .
+*
 *
 param
 {
@@ -223,6 +210,7 @@ principal
 )
 ;
 }
+export
 let
 PermissionTestUtils
 =
@@ -250,6 +238,7 @@ or
 origin
 string
 .
+*
 *
 see
 nsIPermissionManager
@@ -328,6 +317,7 @@ origin
 string
 .
 *
+*
 see
 nsIPermissionManager
 for
@@ -405,6 +395,7 @@ or
 origin
 string
 .
+*
 *
 see
 nsIPermissionManager
@@ -486,6 +477,7 @@ origin
 string
 .
 *
+*
 see
 nsIPermissionManager
 for
@@ -566,6 +558,7 @@ origin
 string
 .
 *
+*
 see
 nsIPermissionManager
 for
@@ -645,6 +638,7 @@ or
 origin
 string
 .
+*
 *
 see
 nsIPermissionManager

@@ -56,7 +56,7 @@ PermissionTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -69,7 +69,9 @@ common
 /
 PermissionTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
