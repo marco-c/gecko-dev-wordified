@@ -867,13 +867,6 @@ ProxyObject
 >
 (
 allocKind
-/
-*
-nDynamicSlots
-=
-*
-/
-0
 heap
 clasp
 )

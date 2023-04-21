@@ -2974,13 +2974,6 @@ typeDefData
 -
 >
 allocKind
-/
-*
-nDynamicSlots
-=
-*
-/
-0
 initialHeap
 typeDefData
 -

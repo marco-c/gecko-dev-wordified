@@ -2014,7 +2014,6 @@ TupleType
 >
 (
 allocKind
-0
 gc
 :
 :

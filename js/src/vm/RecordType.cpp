@@ -792,7 +792,6 @@ RecordType
 NewObjectGCKind
 (
 )
-initialLength
 gc
 :
 :

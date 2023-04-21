@@ -1147,8 +1147,6 @@ AllocSite
 site
 size_t
 size
-size_t
-numDynamicSlots
 const
 JSClass
 *
@@ -1312,6 +1310,12 @@ void
 *
 allocateBuffer
 (
+JS
+:
+:
+Zone
+*
+zone
 JSObject
 *
 obj
