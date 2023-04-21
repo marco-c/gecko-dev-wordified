@@ -189,6 +189,9 @@ SKIP_TO_SIBLING
 SKIP_TO_SIBLING
 "
 ;
+class
+DocumentWalker
+{
 /
 *
 *
@@ -385,8 +388,7 @@ true
 .
 *
 /
-function
-DocumentWalker
+constructor
 (
 node
 rootWin
@@ -555,11 +557,6 @@ skipTo
 )
 ;
 }
-DocumentWalker
-.
-prototype
-=
-{
 get
 whatToShow
 (
@@ -1256,7 +1253,6 @@ FILTER_SKIP
 ;
 }
 }
-;
 exports
 .
 DocumentWalker

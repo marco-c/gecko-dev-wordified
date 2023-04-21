@@ -177,8 +177,10 @@ event
 sinks
 "
 ;
-function
+class
 ChannelEventSink
+{
+constructor
 (
 )
 {
@@ -198,13 +200,8 @@ Set
 )
 ;
 }
-ChannelEventSink
-.
-prototype
-=
-{
 QueryInterface
-:
+=
 ChromeUtils
 .
 generateQI
@@ -215,6 +212,7 @@ nsIChannelEventSink
 "
 ]
 )
+;
 registerCollector
 (
 collector
@@ -343,7 +341,6 @@ NS_OK
 ;
 }
 }
-;
 const
 ChannelEventSinkFactory
 =

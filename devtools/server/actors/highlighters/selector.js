@@ -172,8 +172,10 @@ matching
 nodes
 *
 /
-function
+class
 SelectorHighlighter
+{
+constructor
 (
 highlighterEnv
 )
@@ -192,11 +194,6 @@ _highlighters
 ]
 ;
 }
-SelectorHighlighter
-.
-prototype
-=
-{
 /
 *
 *
@@ -625,7 +622,6 @@ null
 ;
 }
 }
-;
 exports
 .
 SelectorHighlighter

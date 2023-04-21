@@ -143,8 +143,10 @@ nsIServiceWorkerManager
 "
 )
 ;
-function
+class
 ServiceWorkerRegistrationActorList
+{
+constructor
 (
 conn
 )
@@ -203,11 +205,6 @@ this
 )
 ;
 }
-ServiceWorkerRegistrationActorList
-.
-prototype
-=
-{
 getList
 (
 )
@@ -628,7 +625,6 @@ _notifyListChanged
 ;
 }
 }
-;
 exports
 .
 ServiceWorkerRegistrationActorList

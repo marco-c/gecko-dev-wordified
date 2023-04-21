@@ -436,8 +436,10 @@ more
 consistent
 interface
 .
-function
+class
 WorkerPauser
+{
+constructor
 (
 options
 )
@@ -492,11 +494,6 @@ this
 )
 ;
 }
-WorkerPauser
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -603,9 +600,10 @@ origin
 ;
 }
 }
-;
-function
+class
 WorkerDescriptorActorList
+{
+constructor
 (
 conn
 options
@@ -677,11 +675,6 @@ this
 )
 ;
 }
-WorkerDescriptorActorList
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -1194,7 +1187,6 @@ _workerPauser
 ;
 }
 }
-;
 exports
 .
 WorkerDescriptorActorList

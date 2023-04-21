@@ -95,8 +95,10 @@ getService
 }
 )
 ;
-function
+class
 ProcessActorList
+{
+constructor
 (
 )
 {
@@ -128,11 +130,6 @@ _hasObserver
 false
 ;
 }
-ProcessActorList
-.
-prototype
-=
-{
 getList
 (
 )
@@ -489,7 +486,6 @@ false
 }
 }
 }
-;
 exports
 .
 ProcessActorList

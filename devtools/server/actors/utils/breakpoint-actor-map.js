@@ -103,8 +103,10 @@ BreakpointActor
 .
 *
 /
-function
+class
 BreakpointActorMap
+{
+constructor
 (
 threadActor
 )
@@ -123,11 +125,6 @@ _actors
 }
 ;
 }
-BreakpointActorMap
-.
-prototype
-=
-{
 /
 /
 Get
@@ -413,7 +410,6 @@ key
 ;
 }
 }
-;
 exports
 .
 BreakpointActorMap

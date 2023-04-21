@@ -228,8 +228,10 @@ installed
 .
 *
 /
-function
+class
 BreakpointActor
+{
+constructor
 (
 threadActor
 location
@@ -288,11 +290,6 @@ options
 null
 ;
 }
-BreakpointActor
-.
-prototype
-=
-{
 setOptions
 (
 options
@@ -1251,7 +1248,6 @@ destroy
 ;
 }
 }
-;
 exports
 .
 BreakpointActor
