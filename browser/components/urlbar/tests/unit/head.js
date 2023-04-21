@@ -3490,7 +3490,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_NETWORK
+ADDON
 .
 .
 .
