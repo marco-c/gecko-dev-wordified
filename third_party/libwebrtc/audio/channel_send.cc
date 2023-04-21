@@ -5044,6 +5044,16 @@ packets
 ;
 stats
 .
+total_packet_send_delay
+=
+rtp_stats
+.
+transmitted
+.
+total_packet_delay
+;
+stats
+.
 retransmitted_packets_sent
 =
 rtp_stats

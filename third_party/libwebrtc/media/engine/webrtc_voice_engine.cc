@@ -15682,6 +15682,14 @@ packets_sent
 ;
 sinfo
 .
+total_packet_send_delay
+=
+stats
+.
+total_packet_send_delay
+;
+sinfo
+.
 retransmitted_packets_sent
 =
 stats
