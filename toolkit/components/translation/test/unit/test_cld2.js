@@ -9367,7 +9367,7 @@ workerManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -9382,7 +9382,9 @@ translation
 /
 LanguageDetector
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
