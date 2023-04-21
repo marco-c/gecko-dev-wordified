@@ -6834,7 +6834,7 @@ size_t
 UtilityActorName
 :
 :
-JSOracle
+WindowsUtils
 )
 +
 1
@@ -6913,6 +6913,12 @@ UTILITYACTORNAME_TO_WEBIDL_CASE
 (
 JSOracle
 JSOracle
+)
+;
+UTILITYACTORNAME_TO_WEBIDL_CASE
+(
+WindowsUtils
+WindowsUtils
 )
 ;
 }
