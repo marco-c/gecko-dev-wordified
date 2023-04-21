@@ -262,6 +262,9 @@ opcode
 =
 0
 ;
+UniqueChars
+str
+;
 }
 ;
 typedef
