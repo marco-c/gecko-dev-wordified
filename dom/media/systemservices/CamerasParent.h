@@ -815,16 +815,6 @@ CloseEngines
 )
 ;
 void
-StopIPC
-(
-)
-;
-void
-StopVideoCapture
-(
-)
-;
-void
 OnShutdown
 (
 )
