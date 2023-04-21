@@ -189,6 +189,9 @@ h
 namespace
 mozilla
 {
+class
+WMFCDMProxyCallback
+;
 /
 *
 *
@@ -317,6 +320,10 @@ mDistinctiveIdentifierRequired
 ;
 bool
 mHWSecure
+;
+WMFCDMProxyCallback
+*
+mProxyCallback
 ;
 }
 ;

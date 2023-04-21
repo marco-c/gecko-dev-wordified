@@ -850,6 +850,9 @@ Optional
 aParams
 .
 mHWSecure
+aParams
+.
+mProxyCallback
 )
 -
 >
