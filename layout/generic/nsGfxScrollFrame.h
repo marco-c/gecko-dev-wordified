@@ -1320,6 +1320,12 @@ GetLayoutScrollRange
 )
 const
 ;
+nsRect
+GetUnsnappedLayoutScrollRange
+(
+)
+const
+;
 /
 /
 Get
