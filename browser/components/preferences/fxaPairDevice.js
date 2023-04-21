@@ -443,6 +443,12 @@ browser
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 "
 about
 :
@@ -450,6 +456,7 @@ preferences
 #
 sync
 "
+)
 {
 triggeringPrincipal
 :
