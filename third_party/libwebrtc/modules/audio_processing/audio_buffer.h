@@ -200,7 +200,7 @@ kSplitBandSize
 ;
 static
 const
-size_t
+int
 kMaxSampleRate
 =
 384000
