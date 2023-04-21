@@ -20732,7 +20732,7 @@ fail
 ;
 movePtr
 (
-ImmPtr
+ImmWord
 (
 0
 )
