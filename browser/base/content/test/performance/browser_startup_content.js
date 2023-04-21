@@ -503,7 +503,11 @@ js
 if
 (
 !
-gFissionBrowser
+Services
+.
+appinfo
+.
+sessionHistoryInParent
 )
 {
 known_scripts
