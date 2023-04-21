@@ -233,7 +233,6 @@ p
 closePath
 (
 )
-;
 g
 .
 width
@@ -482,7 +481,7 @@ nAryWhiteVerticalBarCodePoint
 verticalComponents
 =
 \
-  
+    
 (
 (
 "
@@ -502,7 +501,7 @@ mathfont
 .
 em
 )
-   
+     
 (
 "
 uni2AFF
@@ -528,7 +527,7 @@ mathfont
 .
 em
 )
-   
+     
 (
 "
 uni2AFF
@@ -547,9 +546,8 @@ mathfont
 .
 em
 )
-  
+     
 )
-;
 f
 [
 nAryWhiteVerticalBarCodePoint

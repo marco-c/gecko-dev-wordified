@@ -177,7 +177,6 @@ mathfont
 .
 em
 )
-\
          
 (
 "
@@ -954,6 +953,7 @@ rulethickness
 d
 "
 %
+                    
 (
 v1
 v2
