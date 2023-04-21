@@ -157,7 +157,7 @@ mozilla
 /
 dom
 /
-ReferrerInfo
+Document
 .
 h
 "
@@ -1820,14 +1820,13 @@ nsIReferrerInfo
 >
 referrerInfo
 =
-ReferrerInfo
-:
-:
-CreateForInternalCSSAndSVGResources
-(
 OwnerDoc
 (
 )
+-
+>
+ReferrerInfoForInternalCSSAndSVGResources
+(
 )
 ;
 mPathTracker

@@ -791,6 +791,17 @@ include
 "
 mozilla
 /
+dom
+/
+ReferrerInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h

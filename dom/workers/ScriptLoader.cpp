@@ -561,6 +561,17 @@ mozilla
 /
 dom
 /
+ReferrerInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptSettings
 .
 h

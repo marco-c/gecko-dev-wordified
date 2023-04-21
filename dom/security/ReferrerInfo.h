@@ -264,12 +264,6 @@ net
 /
 namespace
 mozilla
-using
-mozilla
-:
-:
-Maybe
-;
 namespace
 mozilla
 :

@@ -164,6 +164,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ReferrerInfo
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h

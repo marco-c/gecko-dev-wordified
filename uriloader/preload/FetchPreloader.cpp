@@ -161,6 +161,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ReferrerInfo
+.
+h
+"
+#
+include
+"
 nsContentPolicyUtils
 .
 h

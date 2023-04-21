@@ -150,6 +150,17 @@ include
 "
 mozilla
 /
+dom
+/
+ReferrerInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Encoding
 .
 h
