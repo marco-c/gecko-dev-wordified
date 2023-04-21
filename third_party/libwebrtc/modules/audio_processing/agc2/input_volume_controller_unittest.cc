@@ -1584,7 +1584,6 @@ int
 applied_input_volume
 float
 speech_probability
-const
 absl
 :
 :

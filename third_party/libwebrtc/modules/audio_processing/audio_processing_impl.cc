@@ -13832,6 +13832,7 @@ gain_controller2
 enabled
 &
 &
+(
 config_
 .
 gain_controller2
@@ -13839,6 +13840,16 @@ gain_controller2
 adaptive_digital
 .
 enabled
+|
+|
+config_
+.
+gain_controller2
+.
+input_volume_controller
+.
+enabled
+)
 ;
 if
 (

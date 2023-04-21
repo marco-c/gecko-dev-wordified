@@ -1499,10 +1499,8 @@ speech_ratio
 >
 =
 speech_ratio_threshold_
-)
-{
-if
-(
+&
+&
 rms_error_db
 .
 has_value
@@ -1516,7 +1514,6 @@ UpdateInputVolume
 rms_error_db
 )
 ;
-}
 }
 }
 is_first_frame_
