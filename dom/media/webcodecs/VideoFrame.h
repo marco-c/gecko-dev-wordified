@@ -159,7 +159,7 @@ include
 "
 mozilla
 /
-RangedPtr
+Span
 .
 h
 "
@@ -1303,7 +1303,7 @@ gfx
 IntRect
 &
 aRect
-RangedPtr
+Span
 <
 uint8_t
 >
