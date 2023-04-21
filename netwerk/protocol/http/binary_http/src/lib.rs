@@ -1912,7 +1912,7 @@ name
 value
 )
 in
-header_values
+header_names
 .
 iter
 (
@@ -1920,7 +1920,7 @@ iter
 .
 zip
 (
-header_names
+header_values
 .
 iter
 (
