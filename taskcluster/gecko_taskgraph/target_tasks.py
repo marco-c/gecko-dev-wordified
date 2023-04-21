@@ -4083,19 +4083,20 @@ promote
 phase
         
 if
-"
-mozilla
--
-esr
-"
 not
-in
 parameters
 [
 "
-project
+release_type
 "
 ]
+.
+startswith
+(
+"
+esr
+"
+)
 and
 is_geckoview
 (
