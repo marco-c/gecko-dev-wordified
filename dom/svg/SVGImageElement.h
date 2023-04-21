@@ -396,12 +396,12 @@ by
 SVGGeometryElement
 .
 return
-!
+SVGGraphicsElement
+:
+:
+IsNodeOfType
 (
 aFlags
-&
-~
-eUSE_TARGET
 )
 ;
 }

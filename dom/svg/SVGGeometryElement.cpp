@@ -484,11 +484,7 @@ return
 aFlags
 &
 ~
-(
 eSHAPE
-|
-eUSE_TARGET
-)
 )
 ;
 }

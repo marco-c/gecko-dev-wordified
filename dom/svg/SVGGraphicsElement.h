@@ -195,6 +195,13 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_IMPL_FROMNODE_HELPER
+(
+SVGGraphicsElement
+IsSVGGraphicsElement
+(
+)
+)
 /
 /
 WebIDL
@@ -260,6 +267,12 @@ return
 true
 ;
 }
+using
+nsINode
+:
+:
+Clone
+;
 /
 /
 Overrides
