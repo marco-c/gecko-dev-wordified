@@ -82,7 +82,6 @@ jsm
 ;
 const
 {
-NimbusFeatures
 ExperimentAPI
 }
 =
