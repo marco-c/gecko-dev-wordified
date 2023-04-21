@@ -1770,6 +1770,8 @@ MediaData
 enum
 class
 Type
+:
+uint8_t
 {
 AUDIO_DATA
 =
