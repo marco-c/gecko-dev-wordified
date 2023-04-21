@@ -909,7 +909,7 @@ packet_history_
 )
 ;
 }
-RtpRtcp
+RtpRtcpInterface
 :
 :
 Configuration
@@ -917,7 +917,7 @@ DefaultConfig
 (
 )
 {
-RtpRtcp
+RtpRtcpInterface
 :
 :
 Configuration
