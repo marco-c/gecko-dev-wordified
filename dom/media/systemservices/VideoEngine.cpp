@@ -1357,9 +1357,7 @@ defined
 WEBRTC_IOS
 )
 mDeviceInfo
-.
-reset
-(
+=
 webrtc
 :
 :
@@ -1372,7 +1370,6 @@ mId
 mCaptureDevInfo
 .
 type
-)
 )
 ;
 LOG
