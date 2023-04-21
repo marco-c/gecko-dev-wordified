@@ -905,7 +905,7 @@ browser
 .
 aboutwelcome
 .
-skipFocus
+enabled
 /
 /
 in
@@ -922,7 +922,7 @@ browser
 .
 aboutwelcome
 .
-skipFocus
+enabled
 "
 true
 PrefValueKind
@@ -943,7 +943,7 @@ aboutwelcome
 "
 _ns
 "
-skipFocus
+enabled
 "
 _ns
 false
@@ -961,7 +961,7 @@ browser
 .
 aboutwelcome
 .
-skipFocus
+enabled
 "
 false
 PrefValueKind
@@ -982,7 +982,7 @@ aboutwelcome
 "
 _ns
 "
-skipFocus
+enabled
 "
 _ns
 true
@@ -1000,7 +1000,7 @@ browser
 .
 aboutwelcome
 .
-skipFocus
+enabled
 "
 )
 ;
