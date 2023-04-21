@@ -4389,7 +4389,7 @@ const
 {
 error
 status
-message
+body
 }
 =
 await
@@ -4421,10 +4421,10 @@ status
 ;
 assert_equals
 (
-message
+body
 expected
 .
-message
+body
 "
 response
 body
@@ -4514,7 +4514,7 @@ const
 {
 error
 status
-message
+body
 }
 =
 await
@@ -4546,10 +4546,10 @@ status
 ;
 assert_equals
 (
-message
+body
 expected
 .
-message
+body
 "
 response
 body
@@ -4669,7 +4669,7 @@ const
 {
 error
 status
-message
+body
 }
 =
 await
@@ -4701,10 +4701,10 @@ status
 ;
 assert_equals
 (
-message
+body
 expected
 .
-message
+body
 "
 response
 body
@@ -4796,7 +4796,7 @@ const
 {
 error
 status
-message
+body
 }
 =
 await
@@ -4828,10 +4828,10 @@ status
 ;
 assert_equals
 (
-message
+body
 expected
 .
-message
+body
 "
 response
 body
