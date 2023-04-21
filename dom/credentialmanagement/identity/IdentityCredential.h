@@ -399,7 +399,7 @@ MozPromise
 <
 Tuple
 <
-IdentityToken
+IdentityProviderToken
 IdentityAccount
 >
 nsresult
