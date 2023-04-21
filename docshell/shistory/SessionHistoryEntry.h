@@ -849,6 +849,16 @@ bool
 aSaveLayoutStateFlag
 )
 ;
+bool
+GetPersist
+(
+)
+const
+{
+return
+mPersist
+;
+}
 private
 :
 friend
