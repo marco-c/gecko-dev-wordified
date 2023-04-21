@@ -40,7 +40,7 @@ KeyValueService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ modules
 /
 kvstore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 gKeyValueService
 =
@@ -87,15 +82,6 @@ Ci
 .
 nsIKeyValueService
 )
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-KeyValueService
-"
-]
 ;
 function
 promisify
@@ -241,6 +227,7 @@ storage
 .
 *
 /
+export
 class
 KeyValueService
 {
