@@ -141,6 +141,13 @@ StaticPtr
 .
 h
 "
+#
+include
+"
+ia2AccessibleText
+.
+h
+"
 using
 namespace
 mozilla

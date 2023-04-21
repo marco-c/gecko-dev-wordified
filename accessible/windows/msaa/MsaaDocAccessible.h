@@ -124,6 +124,13 @@ ia2AccessibleHypertext
 .
 h
 "
+#
+include
+"
+nsTHashMap
+.
+h
+"
 namespace
 mozilla
 {
