@@ -980,9 +980,12 @@ GetDMABufSurface
 (
 )
 :
+RefPtr
+(
 new
 DMABufSurfaceYUV
 (
+)
 )
 ;
 if
