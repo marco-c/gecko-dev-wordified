@@ -45,7 +45,11 @@ bigint
 parameter
 esid
 :
-pending
+sec
+-
+bigint
+.
+asuintn
 info
 :
 |

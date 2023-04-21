@@ -84,19 +84,6 @@ Temporal
 *
 /
 const
-calendar
-=
-new
-Temporal
-.
-Calendar
-(
-"
-iso8601
-"
-)
-;
-const
 orig
 =
 new
@@ -107,7 +94,6 @@ PlainDate
 2000
 5
 2
-calendar
 )
 ;
 const
@@ -147,6 +133,8 @@ sameValue
 result
 .
 calendar
+orig
+.
 calendar
 "
 Calendar

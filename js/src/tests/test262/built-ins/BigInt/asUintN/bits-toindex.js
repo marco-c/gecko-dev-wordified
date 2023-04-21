@@ -45,7 +45,11 @@ bits
 parameter
 esid
 :
-pending
+sec
+-
+bigint
+.
+asuintn
 info
 :
 |

@@ -54,6 +54,13 @@ method
 definitions
 return
 promises
+features
+:
+[
+async
+-
+functions
+]
 -
 -
 -

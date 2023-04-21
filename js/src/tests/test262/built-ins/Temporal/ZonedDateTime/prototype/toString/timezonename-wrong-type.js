@@ -107,7 +107,11 @@ _normalizedOptions_
 timeZoneName
 "
 *
-String
+*
+"
+string
+"
+*
 *
 "
 auto
@@ -116,6 +120,11 @@ auto
 *
 "
 never
+"
+*
+*
+"
+critical
 "
 *
 *

@@ -169,6 +169,11 @@ Reflect
 .
 construct
 FinalizationRegistry
+FinalizationRegistry
+.
+prototype
+.
+cleanupSome
 arrow
 -
 function

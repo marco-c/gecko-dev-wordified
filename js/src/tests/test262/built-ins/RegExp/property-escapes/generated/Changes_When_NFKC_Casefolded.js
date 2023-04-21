@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2021
+2022
 Mathias
 Bynens
 .
@@ -65,7 +65,7 @@ escapes
 -
 tests
 Unicode
-v14
+v15
 .
 0
 .
@@ -1504,6 +1504,10 @@ ranges
 [
 0x01D7CE
 0x01D7FF
+]
+[
+0x01E030
+0x01E06D
 ]
 [
 0x01E900
@@ -3095,6 +3099,10 @@ ranges
 ]
 [
 0x01D800
+0x01E02F
+]
+[
+0x01E06E
 0x01E8FF
 ]
 [

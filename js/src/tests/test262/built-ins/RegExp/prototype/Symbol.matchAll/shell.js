@@ -108,6 +108,8 @@ yield
 /
 /
 /
+assert
+.
 compareIterator
 (
 numbers

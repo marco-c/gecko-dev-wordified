@@ -303,10 +303,10 @@ compareArray
 callOrder
 [
 "
-notation
-"
-"
 roundingIncrement
+"
+"
+notation
 "
 ]
 )

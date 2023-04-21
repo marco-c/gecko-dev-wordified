@@ -211,9 +211,6 @@ actual
 splice
 (
 0
-actual
-.
-length
 )
 ;
 /

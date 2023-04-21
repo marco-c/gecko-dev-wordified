@@ -151,6 +151,13 @@ parse
 type
 :
 SyntaxError
+features
+:
+[
+async
+-
+functions
+]
 -
 -
 -

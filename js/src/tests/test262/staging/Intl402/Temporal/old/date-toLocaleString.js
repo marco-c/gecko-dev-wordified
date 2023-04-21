@@ -196,6 +196,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 timeZone
@@ -216,6 +218,7 @@ New_York
 1976
 "
 )
+;
 assert
 .
 sameValue
@@ -227,6 +230,8 @@ toLocaleString
 (
 "
 de
+-
+AT
 "
 {
 timeZone
@@ -247,6 +252,7 @@ Vienna
 1976
 "
 )
+;
 var
 fmt
 =
@@ -293,6 +299,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 timeZoneName
@@ -321,6 +329,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 hour
@@ -349,6 +359,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 minute
@@ -377,6 +389,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 second

@@ -20,7 +20,7 @@ supported
 /
 /
 Copyright
-2021
+2022
 Mathias
 Bynens
 .
@@ -100,7 +100,7 @@ escapes
 -
 tests
 Unicode
-v14
+v15
 .
 0
 .

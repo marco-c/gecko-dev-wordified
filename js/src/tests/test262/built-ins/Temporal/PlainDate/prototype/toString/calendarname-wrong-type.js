@@ -107,7 +107,11 @@ _normalizedOptions_
 calendarName
 "
 *
-String
+*
+"
+string
+"
+*
 *
 "
 auto
@@ -121,6 +125,11 @@ always
 *
 "
 never
+"
+*
+*
+"
+critical
 "
 *
 *

@@ -17,7 +17,7 @@ supported
 /
 /
 Copyright
-2021
+2022
 Mathias
 Bynens
 .
@@ -86,7 +86,7 @@ escapes
 -
 tests
 Unicode
-v14
+v15
 .
 0
 .
@@ -28109,6 +28109,17 @@ u
 {
 1F9BA
 }
+"
+"
+\
+u
+{
+1F426
+}
+\
+u200D
+\
+u2B1B
 "
 "
 \

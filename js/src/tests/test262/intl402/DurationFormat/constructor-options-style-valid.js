@@ -111,7 +111,7 @@ narrow
 digital
 "
 "
-long
+short
 "
 )
 .
@@ -147,7 +147,7 @@ validOptions
 [
 undefined
 "
-long
+short
 "
 ]
 [

@@ -372,6 +372,8 @@ count
 nextItem
 =
 Symbol
+.
+for
 (
 '
 a

@@ -84,6 +84,13 @@ flags
 [
 onlyStrict
 ]
+features
+:
+[
+async
+-
+functions
+]
 -
 -
 -
