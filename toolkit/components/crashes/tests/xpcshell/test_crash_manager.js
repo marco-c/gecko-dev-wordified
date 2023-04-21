@@ -40,7 +40,7 @@ CrashManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ modules
 /
 CrashManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -92,7 +94,7 @@ sleep
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -105,7 +107,9 @@ common
 /
 CrashManagerTest
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

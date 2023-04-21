@@ -51,7 +51,9 @@ nsICrashService
 and
 CrashManager
 .
-jsm
+sys
+.
+mjs
 )
 .
 /
