@@ -815,7 +815,12 @@ supports
 #
 define
 RSA_MIN_MODULUS_BITS
+1023
+/
+*
 128
+*
+/
 #
 define
 RSA_MAX_MODULUS_BITS
