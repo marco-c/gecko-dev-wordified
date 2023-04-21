@@ -1147,7 +1147,7 @@ match
 open
 )
 ;
-assert_true
+assert_equals
 (
 popover
 .
@@ -1158,6 +1158,7 @@ matches
 closed
 '
 )
+isPopover
 {
 message
 }
