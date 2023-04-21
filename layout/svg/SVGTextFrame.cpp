@@ -33071,9 +33071,10 @@ in
 app
 units
 .
-nsTArray
+AutoTArray
 <
 nsPoint
+64
 >
 charPositions
 ;
@@ -33259,9 +33260,10 @@ for
 the
 subtree
 .
-nsTArray
+AutoTArray
 <
 gfxPoint
+16
 >
 deltas
 ;
