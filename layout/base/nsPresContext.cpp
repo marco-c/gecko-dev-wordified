@@ -17998,7 +17998,7 @@ Bidi
 nsPresContext
 :
 :
-GetBidiEngine
+BidiEngine
 (
 )
 {

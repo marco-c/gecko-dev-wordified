@@ -2552,7 +2552,7 @@ if
 mPresContext
 -
 >
-GetBidiEngine
+BidiEngine
 (
 )
 .
@@ -2669,7 +2669,7 @@ paraLevel
 mPresContext
 -
 >
-GetBidiEngine
+BidiEngine
 (
 )
 .
@@ -2694,7 +2694,7 @@ return
 mPresContext
 -
 >
-GetBidiEngine
+BidiEngine
 (
 )
 .
@@ -2717,7 +2717,7 @@ result
 mPresContext
 -
 >
-GetBidiEngine
+BidiEngine
 (
 )
 .
@@ -2767,7 +2767,7 @@ aLevel
 mPresContext
 -
 >
-GetBidiEngine
+BidiEngine
 (
 )
 .
@@ -16064,7 +16064,7 @@ with
 mPresContext
 -
 >
-GetBidiEngine
+BidiEngine
 (
 )
 .
@@ -17009,7 +17009,7 @@ aWidth
 aPresContext
 -
 >
-GetBidiEngine
+BidiEngine
 (
 )
 )
