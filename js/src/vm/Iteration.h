@@ -507,7 +507,7 @@ PropertyIndex
 js
 :
 :
-SystemAllocPolicy
+TempAllocPolicy
 >
 ;
 struct
