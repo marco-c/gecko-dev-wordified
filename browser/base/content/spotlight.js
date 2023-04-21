@@ -428,6 +428,12 @@ body
 id
 =
 "
+multi
+-
+stage
+-
+message
+-
 root
 "
 ;
