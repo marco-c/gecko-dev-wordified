@@ -728,7 +728,10 @@ Take
 {
 if
 (
+MOZ_LIKELY
+(
 mTimerImpl
+)
 )
 {
 MOZ_ASSERT
