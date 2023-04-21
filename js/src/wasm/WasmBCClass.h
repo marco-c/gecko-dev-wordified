@@ -14271,6 +14271,16 @@ nodiscard
 ]
 ]
 bool
+emitBrOnNonStruct
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitExternInternalize
 (
 )

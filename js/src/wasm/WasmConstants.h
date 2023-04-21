@@ -2117,6 +2117,9 @@ instruction
 RefAsStruct
 =
 0x59
+BrOnNonStruct
+=
+0x64
 /
 /
 Extern
