@@ -139,7 +139,7 @@ request_count_checking
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -152,7 +152,9 @@ common
 /
 early_hint_preload_test_helper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

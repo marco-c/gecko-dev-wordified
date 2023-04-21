@@ -40,7 +40,7 @@ PublicSuffixList
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,7 +57,9 @@ dns
 /
 PublicSuffixList
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
