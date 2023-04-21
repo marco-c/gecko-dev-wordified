@@ -2111,7 +2111,7 @@ enabled
 "
 Enabled
 "
-false
+true
 )
 ;
 FieldTrialParameter
@@ -2123,9 +2123,9 @@ bandwidth_rampup_upper_bound_factor
 "
 BwRampupUpperBoundFactor
 "
-1
+1000000
 .
-1
+0
 )
 ;
 FieldTrialParameter
@@ -2172,7 +2172,7 @@ CandidateFactors
 {
 1
 .
-05
+02
 1
 .
 0
@@ -2193,7 +2193,7 @@ HigherBwBiasFactor
 "
 0
 .
-00001
+0002
 )
 ;
 FieldTrialParameter
@@ -2207,7 +2207,7 @@ HigherLogBwBiasFactor
 "
 0
 .
-001
+02
 )
 ;
 FieldTrialParameter
@@ -2237,7 +2237,7 @@ LossThresholdOfHighBandwidthPreference
 "
 0
 .
-99
+15
 )
 ;
 FieldTrialParameter
@@ -2268,7 +2268,7 @@ DataRate
 :
 KilobitsPerSec
 (
-15
+75
 .
 0
 )
@@ -2325,7 +2325,7 @@ NewtonStepSize
 "
 0
 .
-5
+75
 )
 ;
 FieldTrialParameter
@@ -2349,7 +2349,7 @@ append_delay_based_estimate_candidate
 "
 DelayBasedCandidate
 "
-false
+true
 )
 ;
 FieldTrialParameter
@@ -2364,9 +2364,9 @@ ObservationDurationLowerBound
 TimeDelta
 :
 :
-Seconds
+Millis
 (
-1
+250
 )
 )
 ;
@@ -2407,7 +2407,7 @@ InstantUpperBoundTemporalWeightFactor
 "
 0
 .
-99
+9
 )
 ;
 FieldTrialParameter
@@ -2424,7 +2424,7 @@ DataRate
 :
 KilobitsPerSec
 (
-15
+75
 .
 0
 )
@@ -2455,7 +2455,7 @@ TemporalWeightFactor
 "
 0
 .
-99
+9
 )
 ;
 FieldTrialParameter
@@ -2505,9 +2505,9 @@ max_increase_factor
 "
 MaxIncreaseFactor
 "
-1000
+1
 .
-0
+3
 )
 ;
 FieldTrialParameter
@@ -2549,7 +2549,7 @@ not_increase_if_inherent_loss_less_than_average_loss
 "
 NotIncreaseIfInherentLossLessThanAverageLoss
 "
-false
+true
 )
 ;
 FieldTrialParameter
