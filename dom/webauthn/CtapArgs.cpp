@@ -802,11 +802,11 @@ NS_IMETHODIMP
 CtapRegisterArgs
 :
 :
-GetResidentKey
+GetRequireResidentKey
 (
-nsAString
-&
-aResidentKey
+bool
+*
+aRequireResidentKey
 )
 {
 mozilla
@@ -836,7 +836,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-aResidentKey
+*
+aRequireResidentKey
 =
 (
 *
@@ -851,7 +852,7 @@ AuthenticatorSelection
 (
 )
 .
-residentKey
+requireResidentKey
 (
 )
 ;
