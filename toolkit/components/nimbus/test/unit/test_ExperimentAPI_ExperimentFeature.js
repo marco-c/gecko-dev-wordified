@@ -1296,7 +1296,7 @@ manager
 .
 store
 "
-getAllActiveExperiments
+getAllActive
 "
 )
 .
@@ -1517,7 +1517,7 @@ manager
 .
 store
 "
-getAllActiveRollouts
+getAllRollouts
 "
 )
 .
