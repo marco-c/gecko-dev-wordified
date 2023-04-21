@@ -3150,6 +3150,8 @@ qp_sum
 &
 goog_timing_frame_info
 &
+power_efficient_decoder
+&
 jitter_buffer_flushes
 &
 delayed_packet_outage_samples
@@ -3512,6 +3514,12 @@ goog_timing_frame_info
 googTimingFrameInfo
 "
 )
+power_efficient_decoder
+(
+"
+powerEfficientDecoder
+"
+)
 jitter_buffer_flushes
 (
 "
@@ -3669,6 +3677,8 @@ nack_count
 qp_sum
 &
 active
+&
+power_efficient_encoder
 )
 /
 /
@@ -3910,6 +3920,12 @@ active
 (
 "
 active
+"
+)
+power_efficient_encoder
+(
+"
+powerEfficientEncoder
 "
 )
 {
