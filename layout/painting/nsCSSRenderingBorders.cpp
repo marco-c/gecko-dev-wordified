@@ -29986,14 +29986,6 @@ HasRatio
 (
 )
 ;
-mImageRenderer
-.
-PurgeCacheForViewportChange
-(
-svgViewportSize
-hasIntrinsicRatio
-)
-;
 /
 /
 These
