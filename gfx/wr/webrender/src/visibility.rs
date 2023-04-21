@@ -188,7 +188,6 @@ picture
 {
 SurfaceIndex
 RasterConfig
-TileRect
 SubSliceIndex
 }
 ;
@@ -736,18 +735,6 @@ primitives
 vis_flags
 :
 PrimitiveVisibilityFlags
-/
-/
-/
-Tiles
-that
-this
-primitive
-intersects
-with
-tile_rect
-:
-TileRect
 /
 /
 /
