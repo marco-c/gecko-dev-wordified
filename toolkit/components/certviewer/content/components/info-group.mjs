@@ -68,7 +68,7 @@ info
 -
 item
 .
-js
+mjs
 "
 ;
 import
@@ -82,7 +82,7 @@ from
 /
 certviewer
 .
-js
+mjs
 "
 ;
 import
@@ -95,7 +95,7 @@ from
 /
 utils
 .
-js
+mjs
 "
 ;
 export

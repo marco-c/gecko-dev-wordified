@@ -80,7 +80,7 @@ list
 -
 item
 .
-js
+mjs
 "
 ;
 export

@@ -21648,7 +21648,7 @@ chrome
 /
 CSoutput
 .
-js
+mjs
 "
 "
 toolkit
@@ -21663,7 +21663,7 @@ chrome
 /
 parseOutput
 .
-js
+mjs
 "
 "
 toolkit

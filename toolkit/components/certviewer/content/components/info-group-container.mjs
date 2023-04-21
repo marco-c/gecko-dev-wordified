@@ -68,7 +68,7 @@ info
 -
 group
 .
-js
+mjs
 "
 ;
 import
@@ -85,7 +85,7 @@ certificate
 -
 items
 .
-js
+mjs
 "
 ;
 export

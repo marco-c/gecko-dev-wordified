@@ -66,7 +66,7 @@ from
 /
 utils
 .
-js
+mjs
 "
 ;
 import
@@ -80,7 +80,7 @@ from
 /
 certviewer
 .
-js
+mjs
 "
 ;
 export
@@ -473,7 +473,7 @@ implemented
 in
 certviewer
 .
-js
+mjs
 .
 if
 (

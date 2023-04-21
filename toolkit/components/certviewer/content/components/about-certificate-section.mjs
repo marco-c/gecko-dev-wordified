@@ -82,7 +82,7 @@ group
 -
 container
 .
-js
+mjs
 "
 ;
 import
@@ -99,7 +99,7 @@ tabs
 -
 section
 .
-js
+mjs
 "
 ;
 const
