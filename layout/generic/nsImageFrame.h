@@ -595,7 +595,7 @@ ElementState
 override
 ;
 void
-SetupForContentURLRequest
+SetupOwnedRequest
 (
 )
 ;
@@ -2305,7 +2305,7 @@ RefPtr
 <
 imgRequestProxy
 >
-mContentURLRequest
+mOwnedRequest
 ;
 nsCOMPtr
 <
@@ -2383,7 +2383,7 @@ Kind
 mKind
 ;
 bool
-mContentURLRequestRegistered
+mOwnedRequestRegistered
 ;
 bool
 mDisplayingIcon
