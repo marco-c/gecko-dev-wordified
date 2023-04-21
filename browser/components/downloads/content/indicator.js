@@ -2885,7 +2885,7 @@ always
 visible
 this
 .
-indicator
+_progressIcon
 .
 style
 .
@@ -2930,7 +2930,7 @@ progress
 ;
 this
 .
-indicator
+_progressIcon
 .
 style
 .
