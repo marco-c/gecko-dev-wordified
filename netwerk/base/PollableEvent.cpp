@@ -156,6 +156,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+DNS
+.
+h
+"
+#
+include
+"
 prerror
 .
 h

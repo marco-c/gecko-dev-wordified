@@ -245,6 +245,15 @@ MozURL
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_network
+.
+h
+"
 using
 namespace
 mozilla

@@ -266,6 +266,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -1756,6 +1765,9 @@ if
 parent
 )
 {
+mozilla
+:
+:
 Unused
 <
 <
@@ -2645,6 +2657,9 @@ mLineBuffer
 {
 mLineBuffer
 =
+mozilla
+:
+:
 MakeUnique
 <
 nsLineBuffer
