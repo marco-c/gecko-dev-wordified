@@ -8972,7 +8972,7 @@ actions
 ;
 cFormat
 .
-replace
+replaceAll
 (
 /
 (
@@ -24423,7 +24423,7 @@ args
 0
 ]
 .
-replace
+replaceAll
 (
 pattern
 function
@@ -25818,7 +25818,7 @@ g
 return
 cFormat
 .
-replace
+replaceAll
 (
 patterns
 function
@@ -27285,7 +27285,7 @@ escapedFormat
 =
 cFormat
 .
-replace
+replaceAll
 (
 /
 [
@@ -27375,7 +27375,7 @@ re
 =
 escapedFormat
 .
-replace
+replaceAll
 (
 patterns
 function
@@ -28195,16 +28195,16 @@ pdfjsVersion
 '
 3
 .
-5
+6
 .
-80
+9
 '
 ;
 const
 pdfjsBuild
 =
 '
-b1e0253f2
+184076fe7
 '
 ;
 }
