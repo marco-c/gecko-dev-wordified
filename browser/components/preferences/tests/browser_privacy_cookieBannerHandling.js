@@ -464,7 +464,7 @@ Ci
 .
 nsICookieBannerService
 .
-MODE_REJECT_OR_ACCEPT
+MODE_REJECT
 ]
 [
 DETECT_ONLY_PREF
@@ -797,7 +797,7 @@ Ci
 .
 nsICookieBannerService
 .
-MODE_REJECT_OR_ACCEPT
+MODE_REJECT
 ]
 ]
 }
@@ -978,7 +978,7 @@ Ci
 .
 nsICookieBannerService
 .
-MODE_REJECT_OR_ACCEPT
+MODE_REJECT
 Services
 .
 prefs
@@ -996,7 +996,7 @@ should
 be
 set
 to
-REJECT_OR_ACCEPT
+REJECT
 mode
 after
 checking
