@@ -20122,6 +20122,15 @@ PrimitiveFlags
 :
 SUPPORTS_EXTERNAL_COMPOSITOR_SURFACE
 )
+&
+&
+image_rendering
+=
+=
+ImageRendering
+:
+:
+Auto
 {
 resource_cache
 .
