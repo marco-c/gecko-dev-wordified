@@ -428,6 +428,9 @@ enableWasmFuncCallSpew
 ;
 #
 endif
+bool
+emitInterpreterEntryTrampoline
+;
 uint32_t
 baselineInterpreterWarmUpThreshold
 ;
