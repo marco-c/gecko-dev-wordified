@@ -1121,6 +1121,9 @@ offset
 on
 Windows
 breakpadId
+nsCString
+(
+)
 PromiseFlatString
 (
 moduleNameStr

@@ -1560,6 +1560,12 @@ offset
 on
 Windows
 breakpadId
+std
+:
+:
+string
+{
+}
 moduleNameStr
 modulePathStr
 pdbNameStr
