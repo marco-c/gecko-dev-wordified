@@ -59,10 +59,16 @@ the
 page
 of
 the
+provided
+context
+default
+to
+the
+    
 top
-level
 context
 .
+    
 "
 "
 "
@@ -80,6 +86,9 @@ GET
 headers
 =
 None
+context
+=
+top_context
 )
 :
         
@@ -221,7 +230,7 @@ target
 =
 ContextTarget
 (
-top_context
+context
 [
 "
 context
@@ -340,6 +349,9 @@ url
 (
 PAGE_EMPTY_HTML
 )
+contexts
+=
+None
 )
 :
         
@@ -468,6 +480,7 @@ await
 subscribe_events
 (
 events
+contexts
 )
         
 network_events
