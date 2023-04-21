@@ -114,6 +114,9 @@ Units
 h
 "
 class
+nsIFrame
+;
+class
 nsPresContext
 ;
 namespace
@@ -209,9 +212,9 @@ virtual
 void
 ShowAsContextMenu
 (
-nsPresContext
+nsIFrame
 *
-aPc
+aClickedFrame
 const
 CSSIntPoint
 &
