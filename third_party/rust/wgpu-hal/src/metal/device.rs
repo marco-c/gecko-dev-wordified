@@ -4912,6 +4912,9 @@ BoundsCheckPolicy
 :
 Unchecked
 }
+zero_initialize_workgroup_memory
+:
+true
 }
 total_push_constants
 }

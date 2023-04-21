@@ -289,6 +289,15 @@ wgt
 :
 :
 SurfaceConfiguration
+<
+Vec
+<
+wgt
+:
+:
+TextureFormat
+>
+>
 )
 CreateBuffer
 (

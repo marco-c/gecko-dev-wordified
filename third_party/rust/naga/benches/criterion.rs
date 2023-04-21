@@ -2315,6 +2315,9 @@ Default
 default
 (
 )
+zero_initialize_workgroup_memory
+:
+true
 }
 ;
 for

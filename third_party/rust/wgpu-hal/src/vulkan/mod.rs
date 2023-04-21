@@ -904,6 +904,9 @@ bool
 robust_image_access
 :
 bool
+zero_initialize_workgroup_memory
+:
+bool
 }
 bitflags
 :
