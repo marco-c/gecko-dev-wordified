@@ -247,7 +247,7 @@ _styleSheetsManager
 =
 targetActor
 .
-getStyleSheetManager
+getStyleSheetsManager
 (
 )
 ;

@@ -16350,7 +16350,7 @@ this
 .
 targetActor
 .
-getStyleSheetManager
+getStyleSheetsManager
 (
 )
 ;

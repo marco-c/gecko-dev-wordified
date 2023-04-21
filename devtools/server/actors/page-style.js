@@ -722,7 +722,7 @@ inspector
 .
 targetActor
 .
-getStyleSheetManager
+getStyleSheetsManager
 (
 )
 ;

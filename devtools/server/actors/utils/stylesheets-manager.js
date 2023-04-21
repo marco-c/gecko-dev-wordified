@@ -4811,7 +4811,7 @@ true
 *
 *
 The
-StyleSheetManager
+StyleSheetsManager
 instance
 is
 managed

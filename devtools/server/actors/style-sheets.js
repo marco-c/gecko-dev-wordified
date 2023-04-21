@@ -476,7 +476,7 @@ this
 .
 parentActor
 .
-getStyleSheetManager
+getStyleSheetsManager
 (
 )
 ;
