@@ -254,6 +254,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 struct
 PipeToReadRequest
 ;

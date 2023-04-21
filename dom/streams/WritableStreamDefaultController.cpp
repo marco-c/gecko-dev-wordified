@@ -263,6 +263,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 /
 /
 Note
@@ -905,6 +909,9 @@ mSignal
 aSignal
 ;
 }
+namespace
+streams_abstract
+{
 MOZ_CAN_RUN_SCRIPT
 static
 void
@@ -4416,6 +4423,11 @@ return
 chunkSize
 ;
 }
+}
+/
+/
+namespace
+streams_abstract
 }
 /
 /
