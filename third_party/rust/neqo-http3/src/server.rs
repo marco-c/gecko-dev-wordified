@@ -1418,6 +1418,7 @@ ExtendedConnectClosed
 {
 stream_id
 reason
+headers
 .
 .
 }
@@ -1447,6 +1448,7 @@ clone
 stream_id
 )
 reason
+headers
 )
 Http3ServerConnEvent
 :
@@ -8847,14 +8849,13 @@ Some
 Box
 :
 :
-new
-(
+<
 RejectZeroRtt
+>
 :
 :
 default
 (
-)
 )
 )
 )
