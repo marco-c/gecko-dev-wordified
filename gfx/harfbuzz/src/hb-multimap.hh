@@ -349,6 +349,7 @@ k
 )
 const
 {
+const
 hb_codepoint_t
 *
 v
@@ -400,6 +401,7 @@ as_array
 return
 hb_array_t
 <
+const
 hb_codepoint_t
 >
 (

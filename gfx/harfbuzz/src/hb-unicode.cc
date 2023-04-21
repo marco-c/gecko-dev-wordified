@@ -828,9 +828,8 @@ to
 build
 without
 any
-check
-the
-code
+define
+HB_NO_UNICODE_FUNCS
 .
 "
 #

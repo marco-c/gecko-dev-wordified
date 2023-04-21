@@ -301,13 +301,6 @@ kMaxCallLimit
 =
 10
 ;
-const
-unsigned
-int
-kMaxOps
-=
-10000
-;
 struct
 call_stack_t
 :
@@ -6006,7 +5999,7 @@ false
 unsigned
 max_ops
 =
-kMaxOps
+HB_CFF_MAX_OPS
 ;
 for
 (

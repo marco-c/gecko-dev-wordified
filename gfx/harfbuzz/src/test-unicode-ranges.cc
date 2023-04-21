@@ -248,7 +248,7 @@ incorrect
 bit
 (
 %
-d
+u
 )
 for
 cp
@@ -260,7 +260,7 @@ Should
 have
 been
 %
-d
+u
 .
 "
 OT

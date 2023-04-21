@@ -466,7 +466,7 @@ positioning
 glyph
 at
 %
-d
+u
 "
 c
 -
@@ -536,7 +536,7 @@ positioned
 glyph
 at
 %
-d
+u
 "
 c
 -
@@ -987,6 +987,7 @@ c
 serializer
 this
 it
+&
 c
 -
 >

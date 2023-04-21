@@ -985,6 +985,17 @@ sizeDeviceRecord
 )
 &
 &
+min_size
++
+numRecords
+*
+sizeDeviceRecord
+>
+numRecords
+*
+sizeDeviceRecord
+&
+&
 sizeDeviceRecord
 >
 =

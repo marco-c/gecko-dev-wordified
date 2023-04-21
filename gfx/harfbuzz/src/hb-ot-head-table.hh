@@ -611,6 +611,8 @@ to
 .
 *
 /
+public
+:
 HBUINT16
 flags
 ;
@@ -1037,6 +1039,8 @@ to
 .
 *
 /
+protected
+:
 HBUINT16
 unitsPerEm
 ;
@@ -1115,6 +1119,8 @@ bit
 integer
 *
 /
+public
+:
 HBINT16
 xMin
 ;
@@ -1167,6 +1173,8 @@ boxes
 .
 *
 /
+protected
+:
 HBUINT16
 macStyle
 ;

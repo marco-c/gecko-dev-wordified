@@ -3046,12 +3046,6 @@ i
 }
 hb_vector_t
 <
-feature_record_t
->
-feature_records
-;
-hb_vector_t
-<
 range_record_t
 >
 range_records

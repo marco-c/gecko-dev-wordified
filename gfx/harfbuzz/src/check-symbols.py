@@ -234,6 +234,11 @@ harfbuzz
 -
 gobject
 '
+'
+harfbuzz
+-
+cairo
+'
 ]
 :
 	

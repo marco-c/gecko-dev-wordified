@@ -950,7 +950,7 @@ replacing
 glyph
 at
 %
-d
+u
 (
 reverse
 chaining
@@ -1011,7 +1011,7 @@ replaced
 glyph
 at
 %
-d
+u
 (
 reverse
 chaining

@@ -260,6 +260,17 @@ acc
 unsigned
 int
 fd
+const
+int
+*
+coords_
+=
+nullptr
+unsigned
+int
+num_coords_
+=
+0
 )
 :
 SUPER

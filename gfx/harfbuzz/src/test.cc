@@ -519,7 +519,7 @@ printf
 "
 cluster
 %
-d
+u
 glyph
 0x
 %

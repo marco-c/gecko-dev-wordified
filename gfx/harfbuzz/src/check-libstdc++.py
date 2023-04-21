@@ -171,6 +171,11 @@ harfbuzz
 -
 gobject
 '
+'
+harfbuzz
+-
+cairo
+'
 ]
 :
 	

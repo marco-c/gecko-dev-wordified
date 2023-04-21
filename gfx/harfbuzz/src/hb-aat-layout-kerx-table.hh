@@ -2040,6 +2040,7 @@ drive
 (
 &
 dc
+c
 )
 ;
 return_trace
@@ -3750,6 +3751,7 @@ drive
 (
 &
 dc
+c
 )
 ;
 return_trace
@@ -5555,6 +5557,16 @@ c
 )
 const
 {
+c
+-
+>
+buffer
+-
+>
+unsafe_to_concat
+(
+)
+;
 typedef
 typename
 T
@@ -5746,7 +5758,7 @@ font
 start
 subtable
 %
-d
+u
 "
 c
 -
@@ -6019,7 +6031,7 @@ font
 end
 subtable
 %
-d
+u
 "
 c
 -

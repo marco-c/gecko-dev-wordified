@@ -505,6 +505,16 @@ inverted
 ;
 }
 bool
+is_inverted
+(
+)
+const
+{
+return
+inverted
+;
+}
+bool
 is_empty
 (
 )

@@ -223,7 +223,7 @@ return
 (
 key
 <
-start
+first
 )
 ?
 -
@@ -232,7 +232,7 @@ start
 key
 <
 =
-end
+last
 ?
 0
 :
@@ -241,10 +241,10 @@ end
 ;
 }
 hb_codepoint_t
-start
+first
 ;
 hb_codepoint_t
-end
+last
 ;
 unsigned
 int
@@ -1906,6 +1906,9 @@ range
 >
 bit
 :
+(
+unsigned
+)
 -
 1
 ;

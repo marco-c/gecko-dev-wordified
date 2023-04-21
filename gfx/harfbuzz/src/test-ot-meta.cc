@@ -387,7 +387,7 @@ c
 size
 :
 %
-d
+u
 :
 %
 .
@@ -406,6 +406,9 @@ i
 hb_blob_get_length
 (
 entry
+)
+(
+int
 )
 hb_blob_get_length
 (

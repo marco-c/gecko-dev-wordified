@@ -339,9 +339,6 @@ shaper
 hb_ot_map_t
 map
 ;
-hb_aat_map_t
-aat_map
-;
 const
 void
 *
@@ -703,9 +700,6 @@ props
 ;
 hb_ot_map_builder_t
 map
-;
-hb_aat_map_builder_t
-aat_map
 ;
 #
 ifndef

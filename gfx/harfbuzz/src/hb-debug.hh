@@ -595,6 +595,9 @@ stderr
 *
 s
 "
+(
+int
+)
 func_len
 func
 )
@@ -722,7 +725,6 @@ p
 )
 "
 (
-unsigned
 int
 )
 (
@@ -747,7 +749,6 @@ stderr
 s
 "
 (
-unsigned
 int
 )
 (
@@ -1836,7 +1837,7 @@ s
 (
 line
 %
-d
+u
 )
 "
 hb_printer_t
@@ -2276,7 +2277,7 @@ HB_FUNC
 "
 idx
 %
-d
+u
 gid
 %
 u
@@ -2592,10 +2593,10 @@ HB_FUNC
 "
 format
 %
-d
+u
 "
 (
-int
+unsigned
 )
 format
 )
