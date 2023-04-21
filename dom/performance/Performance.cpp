@@ -5365,6 +5365,11 @@ ShouldResistFingerprinting
 return
 ;
 }
+QueueEntry
+(
+aEntry
+)
+;
 /
 *
 *
@@ -5448,11 +5453,6 @@ aEntry
 PerformanceEntryComparator
 (
 )
-)
-;
-QueueEntry
-(
-aEntry
 )
 ;
 return
