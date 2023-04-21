@@ -4021,6 +4021,11 @@ newly
 created
 InvalidModificationError
 :
+bool
+compatModeAllowedRidChange
+=
+false
+;
 /
 /
 encodings
@@ -4116,6 +4121,10 @@ forget
 )
 ;
 }
+compatModeAllowedRidChange
+=
+true
+;
 if
 (
 !
@@ -5135,7 +5144,7 @@ MaybeUpdateConduit
 ;
 if
 (
-mAllowOldSetParameters
+compatModeAllowedRidChange
 )
 {
 SetJsepRids
