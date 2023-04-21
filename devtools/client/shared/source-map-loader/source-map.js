@@ -1764,6 +1764,9 @@ sourceMapBaseURL
 loadFromCache
 :
 false
+allowsRedirects
+:
+false
 }
 )
 ;
