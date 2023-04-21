@@ -340,6 +340,9 @@ GenericTypes
 uint8_t
 RoleMapEntryIndex
 ;
+AccAttributes
+CacheFields
+;
 }
 ;
 struct
