@@ -1027,10 +1027,8 @@ rollupListener
 >
 Rollup
 (
-0
-false
-nullptr
-nullptr
+{
+}
 )
 ;
 }

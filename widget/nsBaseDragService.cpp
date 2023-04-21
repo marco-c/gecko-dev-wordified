@@ -4021,10 +4021,12 @@ pm
 HidePopup
 (
 mDragPopup
-false
-true
-false
-false
+{
+HidePopupOption
+:
+:
+DeselectMenu
+}
 )
 ;
 }
