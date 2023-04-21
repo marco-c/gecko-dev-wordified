@@ -597,6 +597,12 @@ return
 false
 ;
 }
+virtual
+void
+Destroy
+(
+)
+;
 protected
 :
 virtual

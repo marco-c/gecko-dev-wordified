@@ -392,6 +392,12 @@ aShmem
 )
 override
 ;
+void
+OnChannelError
+(
+)
+override
+;
 private
 :
 explicit
