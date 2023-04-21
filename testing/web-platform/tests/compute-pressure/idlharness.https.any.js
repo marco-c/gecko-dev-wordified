@@ -24,6 +24,15 @@ idlharness
 js
 /
 /
+META
+:
+global
+=
+window
+dedicatedworker
+sharedworker
+/
+/
 https
 :
 /
