@@ -2094,7 +2094,7 @@ operator
 )
 (
 const
-nsRange
+AbstractRange
 *
 const
 aRange
@@ -2507,7 +2507,7 @@ low
 2
 ;
 const
-nsRange
+AbstractRange
 *
 const
 range
@@ -2515,7 +2515,7 @@ range
 selection
 -
 >
-GetRangeAt
+GetAbstractRangeAt
 (
 middle
 )
@@ -2552,12 +2552,12 @@ true
 ;
 }
 const
-nsRange
+AbstractRange
 *
 middlePlus1
 ;
 const
-nsRange
+AbstractRange
 *
 middleMinus1
 ;
@@ -2590,7 +2590,7 @@ middlePlus1
 selection
 -
 >
-GetRangeAt
+GetAbstractRangeAt
 (
 middle
 +
@@ -2661,7 +2661,7 @@ middleMinus1
 selection
 -
 >
-GetRangeAt
+GetAbstractRangeAt
 (
 middle
 -

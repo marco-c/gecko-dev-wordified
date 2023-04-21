@@ -3538,7 +3538,7 @@ domRanges
 domSel
 -
 >
-GetRangesForIntervalArray
+GetDynamicRangesForIntervalArray
 (
 node
 contentStart

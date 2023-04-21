@@ -137,7 +137,13 @@ StyledRange
 :
 StyledRange
 (
-nsRange
+mozilla
+:
+:
+dom
+:
+:
+AbstractRange
 *
 aRange
 )
