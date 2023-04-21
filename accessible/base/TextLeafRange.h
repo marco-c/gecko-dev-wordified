@@ -1307,6 +1307,14 @@ IsEmptyLastLine
 )
 const
 ;
+bool
+IsDocEdge
+(
+nsDirection
+aDirection
+)
+const
+;
 char16_t
 GetChar
 (
