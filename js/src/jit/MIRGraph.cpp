@@ -2474,6 +2474,16 @@ return
 false
 ;
 }
+if
+(
+ins
+-
+>
+hasUses
+(
+)
+)
+{
 /
 /
 Insert
@@ -2628,6 +2638,7 @@ replaceProducer
 phi
 )
 ;
+}
 }
 }
 moveOuterResumePointTo
