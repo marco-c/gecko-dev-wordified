@@ -412,6 +412,3 @@ sprintf
 )
 prototype
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
