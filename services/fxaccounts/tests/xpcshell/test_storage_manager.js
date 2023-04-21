@@ -49,7 +49,7 @@ FxAccountsStorageManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -62,7 +62,9 @@ modules
 /
 FxAccountsStorage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
