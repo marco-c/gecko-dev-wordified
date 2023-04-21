@@ -430,6 +430,12 @@ return
 mIsDynamicImport
 ;
 }
+bool
+IsErrored
+(
+)
+const
+;
 nsIGlobalObject
 *
 GetGlobalObject
