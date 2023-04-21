@@ -4976,7 +4976,7 @@ fBindAttribLocation
 prog
 0
 "
-aPosition
+aVert
 "
 )
 ;
