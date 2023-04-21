@@ -847,9 +847,7 @@ info
 "
 -
 Test
-non
--
-javascript
+HTML
 source
 "
 )
@@ -886,14 +884,12 @@ L10N
 getStr
 (
 "
-sourceFooter
+sourceTabs
 .
 prettyPrint
-.
-isNotJavascriptMessage
 "
 )
-true
+false
 )
 ;
 info
