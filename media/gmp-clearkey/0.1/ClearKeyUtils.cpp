@@ -2219,9 +2219,6 @@ aCtx
 )
 ;
 }
-return
-false
-;
 }
 /
 *
@@ -2563,9 +2560,6 @@ aCtx
 )
 ;
 }
-return
-false
-;
 }
 static
 bool
