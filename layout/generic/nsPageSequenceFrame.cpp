@@ -1072,7 +1072,7 @@ scale
 pc
 -
 >
-GetPrintPreviewScaleForSequenceFrame
+GetPrintPreviewScaleForSequenceFrameOrScrollbars
 (
 )
 ;
