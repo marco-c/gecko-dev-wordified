@@ -159,7 +159,6 @@ parent
 async
 OnTransportAvailable
 (
-nullable
 nsITransportSecurityInfo
 aSecurityInfo
 )

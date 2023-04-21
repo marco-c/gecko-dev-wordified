@@ -415,10 +415,7 @@ management
 .
 SendVisitDocument
 (
-WrapNotNull
-(
 subActor
-)
 )
 ;
 subActor

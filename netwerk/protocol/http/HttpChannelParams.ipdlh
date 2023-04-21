@@ -265,11 +265,9 @@ net
 struct
 HttpChannelOnStartRequestArgs
 {
-nullable
 nsITransportSecurityInfo
 securityInfo
 ;
-nullable
 nsIReferrerInfo
 overrideReferrerInfo
 ;

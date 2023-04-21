@@ -401,9 +401,6 @@ PStreamFilterParent
 >
 mStreamFilterEndpoints
 ;
-dom
-:
-:
 BrowsingContext
 *
 mLoadingContext

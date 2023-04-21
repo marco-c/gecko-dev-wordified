@@ -808,7 +808,6 @@ PAltService
 async
 PProxyConfigLookup
 (
-nullable
 nsIURI
 aUri
 uint32_t
@@ -818,7 +817,6 @@ aFlags
 async
 CachePushCheck
 (
-nullable
 nsIURI
 aPushedURL
 OriginAttributes

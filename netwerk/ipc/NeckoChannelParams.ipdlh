@@ -1387,7 +1387,6 @@ loadingEmbedderPolicy
 bool
 originTrialCoepCredentiallessEnabledForTopLevel
 ;
-nullable
 nsIURI
 unstrippedURI
 ;
@@ -1795,7 +1794,6 @@ isThirdPartyContextToTopWindow
 bool
 isInThirdPartyContext
 ;
-nullable
 nsIURI
 unstrippedURI
 ;
@@ -2135,7 +2133,6 @@ unsafeHeaders
 struct
 HttpChannelOpenArgs
 {
-nullable
 nsIURI
 uri
 ;
@@ -2188,23 +2185,18 @@ of
 next
 arg
 ?
-nullable
 nsIURI
 original
 ;
-nullable
 nsIURI
 doc
 ;
-nullable
 nsIReferrerInfo
 referrerInfo
 ;
-nullable
 nsIURI
 apiRedirectTo
 ;
-nullable
 nsIURI
 topWindowURI
 ;
@@ -2652,8 +2644,8 @@ channelId
 uint32_t
 cacheKey
 ;
-nullable
 nsDOMNavigationTiming
+?
 timing
 ;
 IPCClientInfo
@@ -2685,7 +2677,6 @@ RedirectToRealChannelArgs
 uint32_t
 registrarId
 ;
-nullable
 nsIURI
 uri
 ;
@@ -2703,7 +2694,6 @@ loadInfo
 uint64_t
 channelId
 ;
-nullable
 nsIURI
 originalURI
 ;
@@ -2721,7 +2711,6 @@ nsString
 ?
 contentDispositionFilename
 ;
-nullable
 nsIPropertyBag2
 properties
 ;
@@ -2734,14 +2723,13 @@ loadStateInternalLoadFlags
 uint32_t
 loadStateLoadType
 ;
-nullable
 nsDOMNavigationTiming
+?
 timing
 ;
 nsString
 srcdocData
 ;
-nullable
 nsIURI
 baseUri
 ;
@@ -3203,7 +3191,6 @@ channels
 struct
 RemoteStreamInfo
 {
-nullable
 nsIInputStream
 inputStream
 ;

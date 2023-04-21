@@ -3710,11 +3710,7 @@ AsTextureHost
 (
 op
 .
-texture
-(
-)
-.
-AsParent
+textureParent
 (
 )
 )
@@ -11036,11 +11032,8 @@ WebRenderBridgeParent
 :
 RecvGetSnapshot
 (
-NotNull
-<
 PTextureParent
 *
->
 aTexture
 bool
 *

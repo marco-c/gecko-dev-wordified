@@ -320,10 +320,7 @@ mBridge
 >
 SendLoadURL
 (
-WrapNotNull
-(
 aLoadState
-)
 )
 ;
 }

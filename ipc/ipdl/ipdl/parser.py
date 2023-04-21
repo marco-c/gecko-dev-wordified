@@ -4315,7 +4315,7 @@ BasicType
     
 #
 only
-some
+actor
 types
 are
 nullable

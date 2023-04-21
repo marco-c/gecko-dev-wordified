@@ -9420,10 +9420,7 @@ aRv
 )
 StorageOpenResult
 (
-(
-PCacheParent
-*
-)
+nullptr
 nullptr
 mNamespace
 )

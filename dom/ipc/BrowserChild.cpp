@@ -4432,10 +4432,7 @@ cc
 >
 ProvideWindowCommon
 (
-WrapNotNull
-(
 this
-)
 aOpenWindowInfo
 aChromeFlags
 aCalledFromJS
@@ -6071,11 +6068,7 @@ RemotePrintJobChild
 (
 aPrintData
 .
-remotePrintJob
-(
-)
-.
-AsChild
+remotePrintJobChild
 (
 )
 )
@@ -14954,11 +14947,7 @@ RemotePrintJobChild
 (
 aPrintData
 .
-remotePrintJob
-(
-)
-.
-AsChild
+remotePrintJobChild
 (
 )
 )

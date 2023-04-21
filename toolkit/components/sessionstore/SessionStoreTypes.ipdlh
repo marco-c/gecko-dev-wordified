@@ -250,7 +250,6 @@ uri
 struct
 DocShellRestoreState
 {
-nullable
 nsIURI
 URI
 ;

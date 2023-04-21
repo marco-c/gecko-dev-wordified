@@ -340,7 +340,6 @@ GenericTypes
 uint8_t
 RoleMapEntryIndex
 ;
-nullable
 AccAttributes
 CacheFields
 ;
@@ -935,7 +934,6 @@ uint64_t
 aID
 uint64_t
 aCacheDomain
-nullable
 AccAttributes
 aFields
 )

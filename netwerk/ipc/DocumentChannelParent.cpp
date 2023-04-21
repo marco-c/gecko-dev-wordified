@@ -554,6 +554,11 @@ aArgs
 timing
 (
 )
+.
+refOr
+(
+nullptr
+)
 std
 :
 :
@@ -626,6 +631,11 @@ aArgs
 .
 timing
 (
+)
+.
+refOr
+(
+nullptr
 )
 std
 :

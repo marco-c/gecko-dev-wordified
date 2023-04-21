@@ -876,15 +876,7 @@ ref
 (
 )
 .
-transWithPushedStream
-(
-)
-.
-AsChild
-(
-)
-.
-get
+transWithPushedStreamChild
 (
 )
 )
