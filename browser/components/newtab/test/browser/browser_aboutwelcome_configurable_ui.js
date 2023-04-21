@@ -1312,11 +1312,9 @@ content
 /
 assets
 /
-proton
--
-bkg
+confetti
 .
-avif
+svg
 "
 ;
 const
@@ -1853,11 +1851,9 @@ content
 /
 assets
 /
-proton
--
-bkg
+confetti
 .
-avif
+svg
 "
 )
 ;
