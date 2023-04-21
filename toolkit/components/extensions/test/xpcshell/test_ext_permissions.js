@@ -3812,6 +3812,9 @@ webRequestBlocking
 "
 "
 webRequestFilterResponse
+"
+"
+webRequestFilterResponse
 .
 serviceWorkerScript
 "
