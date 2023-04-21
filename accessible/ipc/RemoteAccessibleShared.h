@@ -608,14 +608,6 @@ bool
 aOk
 )
 ;
-RemoteAccessible
-*
-AnchorAt
-(
-uint32_t
-aIndex
-)
-;
 uint32_t
 LinkCount
 (

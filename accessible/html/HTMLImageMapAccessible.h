@@ -179,16 +179,6 @@ override
 /
 HyperLinkAccessible
 virtual
-LocalAccessible
-*
-AnchorAt
-(
-uint32_t
-aAnchorIndex
-)
-override
-;
-virtual
 already_AddRefed
 <
 nsIURI
