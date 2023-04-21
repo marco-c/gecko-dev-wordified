@@ -1285,6 +1285,12 @@ GetDMABufDevice
 (
 )
 ;
+nsDMABufDevice
+*
+GetAndConfigureDMABufDevice
+(
+)
+;
 }
 /
 /
