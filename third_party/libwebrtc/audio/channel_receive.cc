@@ -4974,14 +4974,6 @@ rtp_stats
 .
 jitter
 ;
-stats
-.
-rttMs
-=
-GetRTT
-(
-)
-;
 /
 /
 Data

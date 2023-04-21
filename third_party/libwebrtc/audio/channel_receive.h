@@ -360,9 +360,6 @@ int
 jitterSamples
 ;
 int64_t
-rttMs
-;
-int64_t
 payload_bytes_rcvd
 =
 0
