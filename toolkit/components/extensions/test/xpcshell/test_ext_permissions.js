@@ -3749,9 +3749,6 @@ contextualIdentities
 cookies
 "
 "
-declarativeNetRequestFeedback
-"
-"
 declarativeNetRequestWithHostAccess
 "
 "
