@@ -1588,7 +1588,7 @@ config
 colorSpace
 .
 transfer
-undefined
+null
 '
 color
 transfer
@@ -1604,7 +1604,7 @@ config
 colorSpace
 .
 matrix
-undefined
+null
 '
 color
 matrix
@@ -1620,7 +1620,7 @@ config
 colorSpace
 .
 fullRange
-undefined
+null
 '
 color
 range
