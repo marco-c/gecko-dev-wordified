@@ -1,24 +1,138 @@
+from
+__future__
+import
+annotations
 import
 numbers
+import
+typing
 from
 pyrsistent
 import
 pmap
+from
+pyrsistent
+.
+typing
+import
+PMap
 import
 attr
-from
-jsonschema
-.
-compat
-import
-int_types
-str_types
 from
 jsonschema
 .
 exceptions
 import
 UndefinedTypeCheck
+#
+unfortunately
+the
+type
+of
+pmap
+is
+generic
+and
+if
+used
+as
+the
+attr
+.
+ib
+#
+converter
+the
+generic
+type
+is
+presented
+to
+mypy
+which
+then
+fails
+to
+match
+#
+the
+concrete
+type
+of
+a
+type
+checker
+mapping
+#
+this
+"
+do
+nothing
+"
+wrapper
+presents
+the
+correct
+information
+to
+mypy
+def
+_typed_pmap_converter
+(
+    
+init_val
+:
+typing
+.
+Mapping
+[
+        
+str
+        
+typing
+.
+Callable
+[
+[
+"
+TypeChecker
+"
+typing
+.
+Any
+]
+bool
+]
+    
+]
+)
+-
+>
+PMap
+[
+str
+typing
+.
+Callable
+[
+[
+"
+TypeChecker
+"
+typing
+.
+Any
+]
+bool
+]
+]
+:
+    
+return
+pmap
+(
+init_val
+)
 def
 is_array
 (
@@ -85,7 +199,7 @@ return
 isinstance
 (
 instance
-int_types
+int
 )
 def
 is_null
@@ -167,7 +281,7 @@ return
 isinstance
 (
 instance
-str_types
+str
 )
 def
 is_any
@@ -186,12 +300,12 @@ s
 frozen
 =
 True
+repr
+=
+False
 )
 class
 TypeChecker
-(
-object
-)
 :
     
 "
@@ -199,6 +313,9 @@ object
 "
     
 A
+:
+kw
+:
 type
 property
 checker
@@ -210,33 +327,69 @@ performs
 type
 checking
 for
-an
-IValidator
-.
-Type
+a
+Validator
+converting
     
-checks
-to
-perform
+between
+the
+defined
+JSON
+Schema
+types
+and
+some
+associated
+Python
+types
+or
+    
+objects
+.
+    
+Modifying
+the
+behavior
+just
+mentioned
+by
+redefining
+which
+Python
+objects
+    
 are
-updated
+considered
+to
+be
+of
+which
+JSON
+Schema
+types
+can
+be
+done
 using
+    
 TypeChecker
 .
 redefine
 or
-    
 TypeChecker
 .
 redefine_many
 and
+types
+can
+be
+    
 removed
 via
 TypeChecker
 .
 remove
 .
-    
 Each
 of
 these
@@ -244,16 +397,12 @@ return
 a
 new
 TypeChecker
-object
 .
     
 Arguments
 :
         
 type_checkers
-(
-dict
-)
 :
             
 The
@@ -272,20 +421,96 @@ functions
 "
     
 _type_checkers
+:
+PMap
+[
+        
+str
+typing
+.
+Callable
+[
+[
+"
+TypeChecker
+"
+typing
+.
+Any
+]
+bool
+]
+    
+]
 =
 attr
 .
 ib
 (
+        
 default
 =
 pmap
 (
 )
+        
 converter
 =
-pmap
+_typed_pmap_converter
+    
 )
+    
+def
+__repr__
+(
+self
+)
+:
+        
+types
+=
+"
+"
+.
+join
+(
+repr
+(
+k
+)
+for
+k
+in
+sorted
+(
+self
+.
+_type_checkers
+)
+)
+        
+return
+f
+"
+<
+{
+self
+.
+__class__
+.
+__name__
+}
+types
+=
+{
+{
+{
+types
+}
+}
+}
+>
+"
     
 def
 is_type
@@ -293,7 +518,12 @@ is_type
 self
 instance
 type
+:
+str
 )
+-
+>
+bool
 :
         
 "
@@ -315,9 +545,6 @@ Arguments
 :
             
 instance
-(
-object
-)
 :
                 
 The
@@ -326,9 +553,6 @@ to
 check
             
 type
-(
-str
-)
 :
                 
 The
@@ -339,16 +563,6 @@ type
 that
 is
 expected
-.
-        
-Returns
-:
-            
-bool
-:
-Whether
-it
-conformed
 .
         
 Raises
@@ -395,6 +609,8 @@ UndefinedTypeCheck
 (
 type
 )
+from
+None
         
 return
 fn
@@ -408,8 +624,15 @@ redefine
 (
 self
 type
+:
+str
 fn
 )
+-
+>
+"
+TypeChecker
+"
 :
         
 "
@@ -431,9 +654,6 @@ Arguments
 :
             
 type
-(
-str
-)
 :
                 
 The
@@ -449,12 +669,14 @@ fn
 (
 collections
 .
+abc
+.
 Callable
 )
 :
                 
 A
-function
+callable
 taking
 exactly
 two
@@ -491,15 +713,6 @@ false
 otherwise
 .
         
-Returns
-:
-            
-A
-new
-TypeChecker
-instance
-.
-        
 "
 "
 "
@@ -525,6 +738,11 @@ definitions
 (
 )
 )
+-
+>
+"
+TypeChecker
+"
 :
         
 "
@@ -561,26 +779,10 @@ checking
 functions
 .
         
-Returns
-:
-            
-A
-new
-TypeChecker
-instance
-.
-        
 "
 "
 "
         
-return
-attr
-.
-evolve
-(
-            
-self
 type_checkers
 =
 self
@@ -592,6 +794,15 @@ update
 definitions
 )
         
+return
+attr
+.
+evolve
+(
+self
+type_checkers
+=
+type_checkers
 )
     
 def
@@ -601,6 +812,11 @@ self
 *
 types
 )
+-
+>
+"
+TypeChecker
+"
 :
         
 "
@@ -622,12 +838,6 @@ Arguments
 :
             
 types
-(
-~
-collections
-.
-Iterable
-)
 :
                 
 the
@@ -638,14 +848,6 @@ types
 to
 remove
 .
-        
-Returns
-:
-            
-A
-new
-TypeChecker
-instance
         
 Raises
 :
@@ -671,7 +873,7 @@ object
 "
 "
         
-checkers
+type_checkers
 =
 self
 .
@@ -686,9 +888,9 @@ types
 try
 :
                 
-checkers
+type_checkers
 =
-checkers
+type_checkers
 .
 remove
 (
@@ -713,7 +915,7 @@ evolve
 self
 type_checkers
 =
-checkers
+type_checkers
 )
 draft3_type_checker
 =
@@ -722,56 +924,48 @@ TypeChecker
     
 {
         
-u
 "
 any
 "
 :
 is_any
         
-u
 "
 array
 "
 :
 is_array
         
-u
 "
 boolean
 "
 :
 is_bool
         
-u
 "
 integer
 "
 :
 is_integer
         
-u
 "
 object
 "
 :
 is_object
         
-u
 "
 null
 "
 :
 is_null
         
-u
 "
 number
 "
 :
 is_number
         
-u
 "
 string
 "
@@ -786,7 +980,6 @@ draft3_type_checker
 .
 remove
 (
-u
 "
 any
 "
@@ -798,7 +991,6 @@ draft4_type_checker
 redefine
 (
     
-u
 "
 integer
 "
@@ -814,8 +1006,8 @@ is_integer
 checker
 instance
 )
-or
         
+or
 isinstance
 (
 instance
@@ -833,3 +1025,9 @@ is_integer
 draft7_type_checker
 =
 draft6_type_checker
+draft201909_type_checker
+=
+draft7_type_checker
+draft202012_type_checker
+=
+draft201909_type_checker
