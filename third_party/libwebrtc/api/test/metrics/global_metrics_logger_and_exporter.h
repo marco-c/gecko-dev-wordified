@@ -145,7 +145,7 @@ to
 log
 metrics
 .
-MetricsLogger
+DefaultMetricsLogger
 *
 GetGlobalMetricsLogger
 (
