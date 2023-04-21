@@ -14996,6 +14996,18 @@ FAILURE
 17
 )
     
+errors
+[
+"
+NS_ERROR_DOM_MEDIA_REMOTE_DECODER_CRASHED_MF_CDM_ERR
+"
+]
+=
+FAILURE
+(
+18
+)
+    
 #
 Internal
 platform
