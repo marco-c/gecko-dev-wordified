@@ -468,11 +468,9 @@ docs
 .
 rs
 /
-profiler
+samply
 -
-get
--
-symbols
+api
 /
 .
 /
@@ -542,7 +540,7 @@ symbols
 /
 commit
 /
-b933282e82f871ea76b5373f9fc81800e8550b7b
+0373708893e45e8299e58ca692764be448e3457d
 const
 WASM_MODULE_URL
 =
@@ -565,7 +563,7 @@ get
 -
 symbols
 /
-b933282e82f871ea76b5373f9fc81800e8550b7b
+0373708893e45e8299e58ca692764be448e3457d
 .
 wasm
 "
@@ -576,10 +574,9 @@ WASM_MODULE_INTEGRITY
 "
 sha384
 -
-WeRBd3mn0rbs
-+
+rUGgHTg1eAKP2MB4JcX
 /
-DX4NzsNc77ZhZOPuRTPZR9y10xrvQdUY6Dm0o205EDz3GyYSPv
+HGROSBlRUmvpm6FFIihH0gGQ74zfJE2p7P8cxR86faQ7
 "
 ;
 const
