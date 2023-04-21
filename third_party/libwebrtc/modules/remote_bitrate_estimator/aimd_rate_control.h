@@ -759,10 +759,6 @@ const
 bool
 send_side_
 ;
-const
-bool
-in_experiment_
-;
 /
 /
 Allow
