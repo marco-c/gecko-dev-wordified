@@ -903,6 +903,13 @@ nodePreview
 highlightNodeLabel
 "
 )
+inspectIconClassName
+:
+"
+highlight
+-
+node
+"
 object
 :
 translateNodeFrontToGrip

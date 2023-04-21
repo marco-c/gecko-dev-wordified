@@ -357,9 +357,9 @@ querySelector
 (
 "
 .
-open
+highlight
 -
-inspector
+node
 "
 )
 .
