@@ -1664,6 +1664,8 @@ TestFloatTranspose
 )
 ;
 }
+/
+*
 HWY_NOINLINE
 void
 TestFastIDCT64x128
@@ -1723,6 +1725,8 @@ TestFloatIDCT
 #
 endif
 }
+*
+/
 HWY_NOINLINE
 void
 TestFastTranspose128x64
@@ -1753,6 +1757,8 @@ TestFloatTranspose
 )
 ;
 }
+/
+*
 HWY_NOINLINE
 void
 TestFastIDCT128x64
@@ -1812,6 +1818,8 @@ TestFloatIDCT
 #
 endif
 }
+*
+/
 HWY_NOINLINE
 void
 TestFastTranspose128x128
@@ -1842,6 +1850,8 @@ TestFloatTranspose
 )
 ;
 }
+/
+*
 HWY_NOINLINE
 void
 TestFastIDCT128x128
@@ -1901,6 +1911,8 @@ TestFloatIDCT
 #
 endif
 }
+*
+/
 HWY_NOINLINE
 void
 TestFastTranspose128x256
@@ -1931,6 +1943,8 @@ TestFloatTranspose
 )
 ;
 }
+/
+*
 HWY_NOINLINE
 void
 TestFastIDCT128x256
@@ -1990,6 +2004,8 @@ TestFloatIDCT
 #
 endif
 }
+*
+/
 HWY_NOINLINE
 void
 TestFastTranspose256x128
@@ -2020,6 +2036,8 @@ TestFloatTranspose
 )
 ;
 }
+/
+*
 HWY_NOINLINE
 void
 TestFastIDCT256x128
@@ -2079,6 +2097,8 @@ TestFloatIDCT
 #
 endif
 }
+*
+/
 HWY_NOINLINE
 void
 TestFastTranspose256x256
@@ -2109,6 +2129,8 @@ TestFloatTranspose
 )
 ;
 }
+/
+*
 HWY_NOINLINE
 void
 TestFastIDCT256x256
@@ -2168,6 +2190,8 @@ TestFloatIDCT
 #
 endif
 }
+*
+/
 }
 /
 /
