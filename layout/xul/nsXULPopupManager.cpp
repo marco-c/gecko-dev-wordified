@@ -18312,10 +18312,10 @@ unfocus
 the
 menu
 .
-int32_t
+uint32_t
 menuAccessKey
 =
-nsMenuBarListener
+LookAndFeel
 :
 :
 GetMenuAccessKey
@@ -18342,9 +18342,6 @@ if
 theChar
 =
 =
-(
-uint32_t
-)
 menuAccessKey
 )
 {

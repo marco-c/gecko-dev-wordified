@@ -440,12 +440,10 @@ false
 }
 if
 (
-nsMenuBarListener
-:
-:
-IsAccessKeyPressed
-(
 keyEvent
+.
+IsMenuAccessKeyPressed
+(
 )
 )
 {

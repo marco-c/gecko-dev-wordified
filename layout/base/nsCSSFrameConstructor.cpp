@@ -11918,7 +11918,7 @@ IsEmpty
 |
 |
 !
-nsMenuBarListener
+LookAndFeel
 :
 :
 GetMenuAccessKey
