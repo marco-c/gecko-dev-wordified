@@ -5432,7 +5432,7 @@ For
 texts
 over
 100
-characterss
+characters
 this
 truncates
 the

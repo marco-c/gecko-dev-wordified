@@ -333,6 +333,11 @@ thread
 js
 "
 "
+tracer
+.
+js
+"
+"
 walker
 .
 js

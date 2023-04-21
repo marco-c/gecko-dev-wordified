@@ -348,6 +348,11 @@ thread
 js
 "
 "
+tracer
+.
+js
+"
+"
 watcher
 .
 js

@@ -636,6 +636,16 @@ workerTargetForm
 .
 threadActor
 ;
+this
+.
+targetForm
+.
+tracerActor
+=
+workerTargetForm
+.
+tracerActor
+;
 if
 (
 this

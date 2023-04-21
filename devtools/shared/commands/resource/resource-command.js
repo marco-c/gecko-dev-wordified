@@ -8309,6 +8309,13 @@ thread
 -
 state
 "
+TRACING_STATE
+:
+"
+tracing
+-
+state
+"
 SERVER_SENT_EVENT
 :
 "

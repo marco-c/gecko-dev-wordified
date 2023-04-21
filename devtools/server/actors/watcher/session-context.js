@@ -1505,6 +1505,15 @@ Resources
 .
 TYPES
 .
+TRACING_STATE
+]
+:
+true
+[
+Resources
+.
+TYPES
+.
 LAST_PRIVATE_CONTEXT_EXIT
 ]
 :
