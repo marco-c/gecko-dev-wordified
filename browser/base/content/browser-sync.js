@@ -2303,13 +2303,11 @@ sync
 ftl
 "
 "
-browser
+toolkit
 /
 branding
 /
-sync
--
-brand
+accounts
 .
 ftl
 "
