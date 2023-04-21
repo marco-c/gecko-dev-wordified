@@ -1943,6 +1943,9 @@ false
 uses_native_antialiasing
 :
 false
+max_shared_surface_size
+:
+2048
 }
 }
 }

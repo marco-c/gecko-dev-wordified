@@ -8361,6 +8361,9 @@ bool
 low_quality_pinch_zoom
 :
 bool
+max_shared_surface_size
+:
+i32
 )
 -
 >
@@ -9256,6 +9259,7 @@ picture_tile_size
 texture_cache_config
 reject_software_rasterizer
 low_quality_pinch_zoom
+max_shared_surface_size
 .
 .
 Default
