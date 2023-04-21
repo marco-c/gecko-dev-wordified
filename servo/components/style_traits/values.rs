@@ -3852,17 +3852,6 @@ impl_to_css_for_predefined_type
 cssparser
 :
 :
-RGBA
-)
-;
-impl_to_css_for_predefined_type
-!
-(
-:
-:
-cssparser
-:
-:
 Token
 <
 '

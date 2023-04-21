@@ -2358,7 +2358,7 @@ ComputedStyle
 &
 aStyle
 const
-StyleRGBA
+StyleAbsoluteColor
 &
 aColor
 )

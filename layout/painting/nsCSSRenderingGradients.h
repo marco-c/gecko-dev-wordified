@@ -244,7 +244,7 @@ aPosition
 bool
 aIsMidPoint
 const
-StyleAnimatedRGBA
+StyleAbsoluteColor
 &
 aColor
 )
@@ -282,7 +282,7 @@ end
 bool
 mIsMidpoint
 ;
-StyleAnimatedRGBA
+StyleAbsoluteColor
 mColor
 ;
 }

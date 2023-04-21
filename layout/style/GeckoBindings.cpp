@@ -6725,7 +6725,8 @@ PaletteValues
 aValues
 int32_t
 aIndex
-StyleRGBA
+StyleAbsoluteColor
+*
 aColor
 )
 {
@@ -6767,7 +6768,8 @@ sRGBColor
 FromABGR
 (
 aColor
-.
+-
+>
 ToColor
 (
 )

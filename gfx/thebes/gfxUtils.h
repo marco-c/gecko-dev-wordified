@@ -2793,10 +2793,7 @@ namespace
 mozilla
 {
 struct
-StyleRGBA
-;
-struct
-StyleAnimatedRGBA
+StyleAbsoluteColor
 ;
 namespace
 gfx
@@ -2880,15 +2877,7 @@ DeviceColor
 ToDeviceColor
 (
 const
-StyleRGBA
-&
-)
-;
-DeviceColor
-ToDeviceColor
-(
-const
-StyleAnimatedRGBA
+StyleAbsoluteColor
 &
 )
 ;
@@ -2902,7 +2891,7 @@ sRGBColor
 ToSRGBColor
 (
 const
-StyleAnimatedRGBA
+StyleAbsoluteColor
 &
 )
 ;
