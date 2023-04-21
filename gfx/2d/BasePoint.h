@@ -274,7 +274,7 @@ aY
 {
 }
 MOZ_ALWAYS_INLINE
-T
+Coord
 X
 (
 )
@@ -285,7 +285,7 @@ x
 ;
 }
 MOZ_ALWAYS_INLINE
-T
+Coord
 Y
 (
 )
