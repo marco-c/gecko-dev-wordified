@@ -286,6 +286,10 @@ PBackgroundParent
 *
 >
 aBackgroundParent
+bool
+aSerializeAsLazy
+=
+true
 )
 ;
 /
