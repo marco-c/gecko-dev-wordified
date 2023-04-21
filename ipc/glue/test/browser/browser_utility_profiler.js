@@ -154,6 +154,7 @@ profiler
 "
 )
 ;
+await
 startProfiler
 (
 )
