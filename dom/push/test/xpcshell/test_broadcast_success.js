@@ -353,7 +353,9 @@ test
 /
 broadcast_handler
 .
-jsm
+sys
+.
+mjs
 "
 symbolName
 :
@@ -850,7 +852,9 @@ test
 /
 broadcast_handler
 .
-jsm
+sys
+.
+mjs
 "
 symbolName
 :
@@ -1207,7 +1211,9 @@ test
 /
 broadcast_handler
 .
-jsm
+sys
+.
+mjs
 "
 symbolName
 :
