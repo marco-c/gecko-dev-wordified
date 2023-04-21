@@ -1575,8 +1575,17 @@ self
 .
 instance
 .
-ensure_clang_static_analysis_package
+install_toolchain_artifact
 (
+"
+clang
+-
+tools
+/
+clang
+-
+tidy
+"
 )
             
 self
