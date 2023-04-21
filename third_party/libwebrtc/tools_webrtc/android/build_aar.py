@@ -1308,7 +1308,7 @@ Build
 build_dir
 arch
 use_goma
-use_remoteexe
+use_remoteexec
 extra_gn_args
           
 extra_gn_switches
@@ -1404,7 +1404,7 @@ use_goma
 use_remoteexec
 '
 :
-use_remoteexe
+use_remoteexec
   
 }
   
@@ -1500,7 +1500,7 @@ TARGETS
 if
 use_goma
 or
-use_remoteexe
+use_remoteexec
 :
     
 ninja_args
@@ -1767,7 +1767,7 @@ use_goma
 =
 False
              
-use_remoteexe
+use_remoteexec
 =
 False
              
@@ -1837,7 +1837,7 @@ Build
 build_dir
 arch
 use_goma
-use_remoteexe
+use_remoteexec
 extra_gn_args
           
 extra_gn_switches
@@ -1977,7 +1977,7 @@ args
 use_goma
 args
 .
-use_remoteexe
+use_remoteexec
            
 args
 .
