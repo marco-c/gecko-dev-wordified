@@ -1988,6 +1988,16 @@ emitExtraBodyVarScope
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
+bool
+emitInitializeClosedOverArgumentBindings
+(
+)
+;
 }
 ;
 /
