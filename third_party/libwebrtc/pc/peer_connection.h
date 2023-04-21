@@ -723,13 +723,6 @@ weak_ptr
 h
 "
 namespace
-cricket
-{
-class
-ChannelManager
-;
-}
-namespace
 webrtc
 {
 /

@@ -376,9 +376,6 @@ namespace
 cricket
 {
 class
-ChannelManager
-;
-class
 MediaEngineInterface
 ;
 }
