@@ -2217,6 +2217,18 @@ TYPE_INTERNAL_WORKER_STATIC_MODULE
 *
 *
 *
+Indicates
+Webtransport
+request
+*
+/
+TYPE_WEB_TRANSPORT
+=
+59
+/
+*
+*
+*
 Used
 to
 indicate
@@ -2279,7 +2291,7 @@ value
 /
 TYPE_END
 =
-59
+60
 /
 *
 When
