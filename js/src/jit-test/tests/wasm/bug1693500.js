@@ -9,6 +9,12 @@ skip
 -
 if
 :
+!
+wasmSimdEnabled
+(
+)
+|
+|
 wasmCompileMode
 (
 )
