@@ -1891,12 +1891,7 @@ exception
 .
 if
 (
-aReader
--
->
-GetStream
-(
-)
+stream
 -
 >
 State
