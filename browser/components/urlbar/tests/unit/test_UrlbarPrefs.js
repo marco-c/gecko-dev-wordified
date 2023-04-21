@@ -1876,9 +1876,7 @@ browser
 .
 urlbar
 .
-autoFill
-.
-adaptiveHistory
+searchEngagementTelemetry
 .
 enabled
 "
@@ -2028,7 +2026,7 @@ UrlbarTestUtils
 initNimbusFeature
 (
 {
-autoFillAdaptiveHistoryEnabled
+searchEngagementTelemetryEnabled
 :
 true
 }
@@ -2057,7 +2055,7 @@ nimbusChangedList
 includes
 (
 "
-autoFillAdaptiveHistoryEnabled
+searchEngagementTelemetryEnabled
 "
 )
 )
@@ -2095,7 +2093,7 @@ UrlbarTestUtils
 initNimbusFeature
 (
 {
-autoFillAdaptiveHistoryEnabled
+searchEngagementTelemetryEnabled
 :
 false
 }
@@ -2112,9 +2110,7 @@ browser
 .
 urlbar
 .
-autoFill
-.
-adaptiveHistory
+searchEngagementTelemetry
 .
 enabled
 "
@@ -2287,9 +2283,7 @@ browser
 .
 urlbar
 .
-autoFill
-.
-adaptiveHistory
+searchEngagementTelemetry
 .
 enabled
 "
@@ -2324,9 +2318,7 @@ prefChangedList
 0
 ]
 "
-autoFill
-.
-adaptiveHistory
+searchEngagementTelemetry
 .
 enabled
 "
@@ -2355,9 +2347,7 @@ browser
 .
 urlbar
 .
-autoFill
-.
-adaptiveHistory
+searchEngagementTelemetry
 .
 enabled
 "
