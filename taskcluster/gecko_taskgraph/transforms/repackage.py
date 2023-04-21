@@ -2186,6 +2186,16 @@ package
 -
 formats
 "
+        
+"
+worker
+.
+max
+-
+run
+-
+time
+"
     
 ]
     
@@ -3951,27 +3961,6 @@ trust
 :
 True
                 
-"
-max
--
-run
--
-time
-"
-:
-7200
-if
-build_platform
-.
-startswith
-(
-"
-win
-"
-)
-else
-3600
-                
 #
 Don
 '
@@ -3992,6 +3981,20 @@ True
             
 }
         
+)
+        
+worker
+.
+setdefault
+(
+"
+max
+-
+run
+-
+time
+"
+3600
 )
         
 if

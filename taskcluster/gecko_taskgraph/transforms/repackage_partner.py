@@ -1296,17 +1296,6 @@ run
 time
 "
 :
-7200
-if
-build_platform
-.
-startswith
-(
-"
-win
-"
-)
-else
 3600
             
 "
