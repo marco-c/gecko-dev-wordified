@@ -400,6 +400,9 @@ bool
 enableWatchtowerMegamorphic
 ;
 bool
+onlyInlineSelfHosted
+;
+bool
 enableWasmJitExit
 ;
 bool

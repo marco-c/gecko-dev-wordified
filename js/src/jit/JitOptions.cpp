@@ -2198,6 +2198,12 @@ true
 ;
 SET_DEFAULT
 (
+onlyInlineSelfHosted
+false
+)
+;
+SET_DEFAULT
+(
 enableWasmJitExit
 true
 )
