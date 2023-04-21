@@ -366,7 +366,8 @@ Startup
 ;
 return
 mPlugin
-.
+-
+>
 Init
 (
 pluginFilename
