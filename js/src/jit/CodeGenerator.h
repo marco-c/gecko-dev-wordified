@@ -474,6 +474,9 @@ class
 OutOfLineArrayPush
 ;
 class
+OutOfLineWasmCallPostWriteBarrier
+;
+class
 CodeGenerator
 final
 :
@@ -1012,6 +1015,14 @@ void
 visitOutOfLineArrayPush
 (
 OutOfLineArrayPush
+*
+ool
+)
+;
+void
+visitOutOfLineWasmCallPostWriteBarrier
+(
+OutOfLineWasmCallPostWriteBarrier
 *
 ool
 )
