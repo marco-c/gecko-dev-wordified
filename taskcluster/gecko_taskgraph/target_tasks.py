@@ -5354,23 +5354,6 @@ try_name
                 
 if
 "
-speedometer3
-"
-in
-try_name
-and
-"
-windows
-"
-in
-platform
-:
-                    
-return
-False
-                
-if
-"
 chrome
 "
 in
@@ -5479,6 +5462,17 @@ benchmark
 in
 try_name
 :
+                    
+#
+Speedometer
+3
+is
+broken
+on
+Safari
+see
+bug
+1802922
                     
 if
 "
