@@ -279,7 +279,7 @@ Resolution
 (
 self
 .
-to_dppx
+dppx
 (
 )
 )
@@ -309,7 +309,7 @@ specified
 Resolution
 :
 :
-Dppx
+from_dppx
 (
 computed
 .
