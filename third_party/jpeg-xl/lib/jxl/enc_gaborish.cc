@@ -49,7 +49,7 @@ lib
 /
 jxl
 /
-gaborish
+enc_gaborish
 .
 h
 "

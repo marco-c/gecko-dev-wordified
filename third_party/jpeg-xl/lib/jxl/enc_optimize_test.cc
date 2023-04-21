@@ -49,7 +49,7 @@ lib
 /
 jxl
 /
-optimize
+enc_optimize
 .
 h
 "

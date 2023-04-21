@@ -236,17 +236,6 @@ lib
 /
 jxl
 /
-linalg
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 quant_weights
 .
 h

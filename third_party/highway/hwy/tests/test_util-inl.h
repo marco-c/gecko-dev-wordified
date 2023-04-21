@@ -763,7 +763,10 @@ uint8_t
 (
 HWY_MAX
 (
+size_t
+{
 8
+}
 N8
 )
 )
@@ -776,11 +779,14 @@ AllocateAligned
 uint8_t
 >
 (
+size_t
+{
 HWY_MAX
 (
 8
 N8
 )
+}
 )
 ;
 memset

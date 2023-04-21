@@ -6488,7 +6488,7 @@ kDcQuantPow
 =
 0
 .
-66f
+87f
 ;
 static
 const
@@ -6497,7 +6497,7 @@ kDcQuant
 =
 1
 .
-1f
+29f
 ;
 static
 const
@@ -9221,9 +9221,9 @@ const
 float
 kDcMul
 =
-1
+0
 .
-5
+3
 ;
 /
 /
