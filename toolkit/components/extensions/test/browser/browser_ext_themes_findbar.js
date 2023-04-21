@@ -749,18 +749,10 @@ that
 theme
 properties
 are
-*
-not
-*
 applied
 with
 a
 theme_frame
-(
-see
-bug
-1506913
-)
 add_task
 (
 async
@@ -911,9 +903,6 @@ Checking
 findbar
 background
 is
-*
-not
-*
 set
 as
 toolbar
@@ -923,7 +912,7 @@ color
 ;
 Assert
 .
-notEqual
+equal
 (
 window
 .
@@ -942,7 +931,6 @@ Findbar
 background
 color
 should
-not
 be
 set
 by
@@ -961,9 +949,6 @@ button
 text
 color
 is
-*
-not
-*
 set
 as
 toolbar
@@ -974,7 +959,7 @@ color
 ;
 Assert
 .
-notEqual
+equal
 (
 window
 .
@@ -993,7 +978,6 @@ Findbar
 text
 color
 should
-not
 be
 set
 by
@@ -1004,7 +988,7 @@ theme
 ;
 Assert
 .
-notEqual
+equal
 (
 window
 .
@@ -1024,7 +1008,6 @@ button
 text
 color
 should
-not
 be
 set
 by
@@ -1201,7 +1184,7 @@ textbox
 ;
 Assert
 .
-notEqual
+equal
 (
 window
 .
@@ -1221,7 +1204,6 @@ textbox
 background
 color
 should
-not
 be
 set
 by
@@ -1232,7 +1214,7 @@ theme
 ;
 Assert
 .
-notEqual
+equal
 (
 window
 .
@@ -1252,7 +1234,6 @@ textbox
 text
 color
 should
-not
 be
 set
 by
