@@ -247,6 +247,11 @@ nsXULTooltipListener
 .
 cpp
 "
+"
+SimpleXULLeafFrame
+.
+cpp
+"
 ]
 DIRS
 +
