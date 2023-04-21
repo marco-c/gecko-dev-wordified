@@ -925,9 +925,6 @@ availableOptions
 en
 "
 "
-is
-"
-"
 es
 "
 ]
@@ -1053,9 +1050,6 @@ availableOptions
 en
 "
 "
-is
-"
-"
 es
 "
 ]
@@ -1129,9 +1123,6 @@ availableOptions
 :
 [
 "
-"
-"
-is
 "
 "
 es
