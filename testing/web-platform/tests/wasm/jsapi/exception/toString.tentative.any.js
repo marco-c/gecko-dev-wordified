@@ -36,7 +36,7 @@ argument
 )
 ;
 const
-exception
+exn
 =
 new
 WebAssembly
@@ -50,7 +50,7 @@ tag
 ;
 assert_class_string
 (
-exception
+exn
 "
 WebAssembly
 .
