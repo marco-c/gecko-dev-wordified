@@ -224,9 +224,9 @@ CanvasFilter
 {
 filter
 :
-"
+'
 gaussianBlur
-"
+'
 stdDeviation
 :
 5
@@ -280,9 +280,9 @@ CanvasFilter
 {
 filter
 :
-"
+'
 gaussianBlur
-"
+'
 stdDeviation
 :
 5
@@ -290,9 +290,9 @@ stdDeviation
 {
 filter
 :
-"
+'
 gaussianBlur
-"
+'
 stdDeviation
 :
 10
@@ -481,9 +481,9 @@ CanvasFilter
 {
 filter
 :
-"
+'
 gaussianBlur
-"
+'
 stdDeviation
 :
 5
@@ -494,7 +494,7 @@ ctx
 .
 filter
 =
-"
+'
 this
 string
 is
@@ -505,7 +505,7 @@ and
 should
 do
 nothing
-"
+'
 ;
 _assert
 (
