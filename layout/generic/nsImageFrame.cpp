@@ -3146,7 +3146,7 @@ AsElement
 )
 -
 >
-HasAttr
+HasNonEmptyAttr
 (
 nsGkAtoms
 :
@@ -3545,7 +3545,7 @@ AsElement
 )
 -
 >
-HasAttr
+HasNonEmptyAttr
 (
 nsGkAtoms
 :
@@ -3873,6 +3873,14 @@ nsGkAtoms
 :
 src
 src
+)
+&
+&
+!
+src
+.
+IsEmpty
+(
 )
 )
 {
@@ -5191,7 +5199,7 @@ AsElement
 )
 -
 >
-HasAttr
+HasNonEmptyAttr
 (
 nsGkAtoms
 :
@@ -17571,7 +17579,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
