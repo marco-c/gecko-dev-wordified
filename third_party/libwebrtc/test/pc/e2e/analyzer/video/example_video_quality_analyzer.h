@@ -633,7 +633,7 @@ RTC_GUARDED_BY
 lock_
 )
 =
-0
+1
 ;
 uint64_t
 frames_captured_
