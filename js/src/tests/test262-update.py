@@ -129,16 +129,11 @@ optimization
 "
 Intl
 .
-DateTimeFormat
--
-quarter
-"
-        
-"
-Intl
-.
 Segmenter
 "
+#
+Bug
+1423593
         
 "
 Intl
@@ -147,40 +142,61 @@ Locale
 -
 info
 "
+#
+Bug
+1693576
         
 "
 Intl
 .
 DurationFormat
 "
+#
+Bug
+1648139
         
 "
 Atomics
 .
 waitAsync
 "
+#
+Bug
+1467846
         
 "
 legacy
 -
 regexp
 "
+#
+Bug
+1306461
         
 "
 json
 -
 modules
 "
+#
+Bug
+1670176
         
 "
 resizable
 -
 arraybuffer
 "
+#
+Bug
+1670026
         
 "
 Temporal
 "
+#
+Bug
+1519167
         
 "
 regexp
@@ -189,10 +205,16 @@ v
 -
 flag
 "
+#
+Bug
+1713657
         
 "
 decorators
 "
+#
+Bug
+1435869
         
 "
 regexp
@@ -203,6 +225,9 @@ named
 -
 groups
 "
+#
+Bug
+1773135
         
 "
 String
@@ -238,6 +263,28 @@ keys
 #
 Bug
 1710433
+        
+"
+arraybuffer
+-
+transfer
+"
+#
+Bug
+1519163
+        
+"
+json
+-
+parse
+-
+with
+-
+source
+"
+#
+Bug
+1658310
     
 ]
 )
@@ -323,6 +370,9 @@ prototype
 .
 group
 "
+#
+Bug
+1792650
     
 "
 change
@@ -342,6 +392,9 @@ prototype
 .
 with
 "
+#
+Bug
+1811054
     
 "
 Array
@@ -355,6 +408,9 @@ Array
 .
 fromAsync
 "
+#
+Bug
+1746209
 }
 RELEASE_OR_BETA
 =
@@ -370,6 +426,9 @@ NumberFormat
 -
 v3
 "
+#
+Bug
+1795756
     
 ]
 )
@@ -2155,13 +2214,15 @@ may
 use
 the
 DONE
+or
+asyncTest
 function
 .
 However
-negative
-parse
     
 #
+negative
+parse
 tests
 may
 "
@@ -2169,9 +2230,15 @@ use
 "
 the
 DONE
+(
+or
+asyncTest
+)
 function
 (
 of
+    
+#
 course
 they
 don
@@ -2182,29 +2249,61 @@ use
 it
 !
 )
-    
-#
 without
 specifying
 the
 "
 async
 "
+    
+#
 attribute
 .
 Otherwise
+neither
 DONE
+nor
+asyncTest
 must
-not
-    
-#
 appear
 in
 the
 test
 .
     
+#
+    
+#
+Some
+"
+harness
+"
+tests
+redefine
+DONE
+so
+skip
+this
+check
+when
+the
+test
+file
+    
+#
+is
+in
+the
+"
+harness
+"
+directory
+.
+    
 assert
+(
+        
+(
 b
 "
 DONE
@@ -2212,12 +2311,44 @@ DONE
 not
 in
 testSource
+and
+b
+"
+asyncTest
+"
+not
+in
+testSource
+)
+        
 or
 isAsync
+        
 or
 isNegative
-(
         
+or
+testName
+.
+split
+(
+os
+.
+path
+.
+sep
+)
+[
+0
+]
+=
+=
+"
+harness
+"
+    
+)
+(
 "
 Missing
 async
@@ -2229,7 +2360,6 @@ s
 "
 %
 testName
-    
 )
     
 #
