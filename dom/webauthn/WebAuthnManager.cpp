@@ -2997,7 +2997,7 @@ selection
 mAuthenticatorAttachment
 ;
 const
-AttestationConveyancePreference
+nsString
 &
 attestation
 =
