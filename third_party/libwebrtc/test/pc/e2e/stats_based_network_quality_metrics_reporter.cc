@@ -2091,6 +2091,9 @@ start_time_
 )
 .
 kbps
+<
+double
+>
 (
 )
 Unit
@@ -2182,6 +2185,9 @@ start_time_
 )
 .
 kbps
+<
+double
+>
 (
 )
 Unit
