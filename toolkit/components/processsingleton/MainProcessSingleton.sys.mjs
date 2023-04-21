@@ -56,11 +56,7 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
+export
 function
 MainProcessSingleton
 (
@@ -137,7 +133,7 @@ effects
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -150,7 +146,9 @@ modules
 /
 CustomElementsListener
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -184,13 +182,4 @@ break
 }
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-MainProcessSingleton
-"
-]
 ;

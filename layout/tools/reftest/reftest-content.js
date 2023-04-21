@@ -302,7 +302,7 @@ documents
 :
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -315,7 +315,9 @@ modules
 /
 CustomElementsListener
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

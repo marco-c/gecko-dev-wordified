@@ -81,12 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-]
-;
 /
 /
 Set
