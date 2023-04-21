@@ -818,15 +818,6 @@ argBase
 static
 const
 SetType
-SingleByteRegs
-=
-VolatileMask
-|
-NonVolatileMask
-;
-static
-const
-SetType
 NonAllocatableMask
 =
 (
