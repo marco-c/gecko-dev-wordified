@@ -424,6 +424,7 @@ StringifyJSON
 cx
 vp
 aString
+UndefinedIsNullStringLiteral
 )
 )
 {

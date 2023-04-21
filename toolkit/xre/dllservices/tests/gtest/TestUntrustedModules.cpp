@@ -1578,6 +1578,10 @@ GetJSContext
 )
 jsval
 json
+dom
+:
+:
+UndefinedIsNullStringLiteral
 )
 )
 ;
