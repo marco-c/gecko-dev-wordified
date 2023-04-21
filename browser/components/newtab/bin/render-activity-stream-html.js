@@ -706,7 +706,7 @@ localization
 href
 =
 "
-browser
+toolkit
 /
 branding
 /

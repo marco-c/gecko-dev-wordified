@@ -368,7 +368,7 @@ brand
 ftl
 "
 "
-browser
+toolkit
 /
 branding
 /

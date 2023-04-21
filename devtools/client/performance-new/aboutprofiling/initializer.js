@@ -860,7 +860,7 @@ the
 onboarding
 UI
 "
-browser
+toolkit
 /
 branding
 /

@@ -555,7 +555,7 @@ asrouter
 ftl
 "
 "
-browser
+toolkit
 /
 branding
 /
@@ -751,7 +751,7 @@ asrouter
 ftl
 "
 "
-browser
+toolkit
 /
 branding
 /
