@@ -64468,12 +64468,15 @@ PendingStyleCache
 &
 styleCacheBeforeEdit
 :
+Reversed
+(
 *
 TopLevelEditSubActionDataRef
 (
 )
 .
 mCachedPendingStyles
+)
 )
 {
 bool
