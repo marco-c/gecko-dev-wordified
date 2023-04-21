@@ -614,12 +614,21 @@ repo_name
     
 except
 (
+        
 CalledProcessError
+        
 mozilla_repo_urls
 .
 errors
 .
 InvalidRepoUrlError
+        
+mozilla_repo_urls
+.
+errors
+.
+UnsupportedPlatformError
+    
 )
 :
         
