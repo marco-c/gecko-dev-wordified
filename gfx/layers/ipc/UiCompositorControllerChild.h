@@ -237,6 +237,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 UiCompositorControllerChild
+final
 )
 static
 RefPtr
@@ -550,12 +551,6 @@ ActorDestroy
 (
 ActorDestroyReason
 aWhy
-)
-override
-;
-void
-ActorDealloc
-(
 )
 override
 ;
