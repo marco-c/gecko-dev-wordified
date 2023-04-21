@@ -3551,6 +3551,12 @@ return
 mHiddenByContentVisibility
 ;
 }
+DocGroup
+*
+GetDocGroup
+(
+)
+;
 protected
 :
 void
