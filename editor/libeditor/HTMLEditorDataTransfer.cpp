@@ -1980,7 +1980,7 @@ Yes
 InlineStylesAtInsertionPoint
 :
 :
-Preserve
+Clear
 )
 ;
 NS_WARNING_ASSERTION
@@ -2010,7 +2010,7 @@ Yes
 InlineStylesAtInsertionPoint
 :
 :
-Preserve
+Clear
 )
 failed
 "
