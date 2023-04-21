@@ -913,7 +913,17 @@ FILL_WINDING
 )
 const
 override
+{
+return
+PathBuilderCairo
+:
+:
+Create
+(
+aFillRule
+)
 ;
+}
 virtual
 already_AddRefed
 <
