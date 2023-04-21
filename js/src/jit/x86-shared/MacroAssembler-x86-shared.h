@@ -3091,7 +3091,7 @@ dest
 )
 ;
 void
-unsignedTruncSatFloat32x4ToInt32x4Relaxed
+unsignedTruncFloat32x4ToInt32x4Relaxed
 (
 FloatRegister
 src
@@ -3122,7 +3122,7 @@ dest
 )
 ;
 void
-unsignedTruncSatFloat64x2ToInt32x4Relaxed
+unsignedTruncFloat64x2ToInt32x4Relaxed
 (
 FloatRegister
 src
@@ -3924,19 +3924,6 @@ FloatRegister
 temp
 FloatRegister
 output
-)
-;
-void
-dotBFloat16x8ThenAdd
-(
-FloatRegister
-lhs
-FloatRegister
-rhs
-FloatRegister
-dest
-FloatRegister
-temp
 )
 ;
 /
