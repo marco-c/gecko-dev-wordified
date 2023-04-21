@@ -888,7 +888,7 @@ mLabeledMainThreadTarget
 :
 do_AddRef
 (
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 )

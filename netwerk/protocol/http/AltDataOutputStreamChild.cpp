@@ -908,7 +908,7 @@ mCallbackTarget
 {
 mCallbackTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

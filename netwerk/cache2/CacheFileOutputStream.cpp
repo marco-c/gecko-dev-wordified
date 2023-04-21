@@ -2530,7 +2530,7 @@ callback
 ;
 mCallbackTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

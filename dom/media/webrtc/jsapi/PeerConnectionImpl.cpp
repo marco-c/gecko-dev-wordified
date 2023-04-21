@@ -9017,7 +9017,7 @@ the
 following
 steps
 :
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -9807,7 +9807,7 @@ Offer
 "
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -10067,7 +10067,7 @@ here
 JsepAnswerOptions
 options
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -11960,7 +11960,7 @@ task
 for
 these
 updates
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -12100,7 +12100,7 @@ c_str
 )
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -16187,7 +16187,7 @@ up
 back
 in
 JS
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -24690,7 +24690,7 @@ push_back
 cand
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -25911,7 +25911,7 @@ ASSERT_ON_THREAD
 mSTSThread
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -25983,7 +25983,7 @@ ASSERT_ON_THREAD
 mSTSThread
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -26091,7 +26091,7 @@ empty
 )
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -26181,7 +26181,7 @@ webrtc
 aPrivacyRequested
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -

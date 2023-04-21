@@ -910,7 +910,7 @@ target
 {
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

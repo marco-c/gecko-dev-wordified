@@ -4898,7 +4898,7 @@ SyncRunnable
 :
 DispatchToThread
 (
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 NS_NewRunnableFunction

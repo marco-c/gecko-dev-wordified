@@ -2333,7 +2333,7 @@ ProxyRelease
 (
 aName
 object
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 )
