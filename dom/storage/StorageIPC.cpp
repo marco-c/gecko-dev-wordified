@@ -3823,7 +3823,7 @@ aActor
 :
 mOwningEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

@@ -1752,7 +1752,7 @@ ConnectionOperationBase
 )
 mOwningEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3627,7 +3627,7 @@ StreamHelper
 )
 mOwningEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

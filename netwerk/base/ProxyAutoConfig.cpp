@@ -1565,7 +1565,7 @@ RESOLVE_TYPE_DEFAULT
 flags
 nullptr
 helper
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 attrs

@@ -4692,7 +4692,7 @@ target
 mozilla
 :
 :
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

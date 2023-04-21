@@ -527,7 +527,7 @@ InitHelper
 )
 mOwningThread
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -684,7 +684,7 @@ aPrivateBrowsingId
 )
 mOwningThread
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

@@ -19435,7 +19435,7 @@ mODATarget
 {
 target
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

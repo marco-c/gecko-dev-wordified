@@ -669,7 +669,7 @@ nsIDNSService
 RESOLVE_SPECULATE
 nullptr
 this
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 mTransaction

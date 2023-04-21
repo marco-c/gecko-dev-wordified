@@ -2147,7 +2147,7 @@ ifdef
 DEBUG
 mCreationEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

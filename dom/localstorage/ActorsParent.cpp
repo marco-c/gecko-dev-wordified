@@ -8098,7 +8098,7 @@ DatastoreOperationBase
 )
 mOwningEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

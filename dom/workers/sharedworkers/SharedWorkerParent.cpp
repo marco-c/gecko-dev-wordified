@@ -196,7 +196,7 @@ SharedWorkerParent
 :
 mBackgroundEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
