@@ -42407,7 +42407,6 @@ get
 .
 initForGlobal
 (
-cx
 &
 fc
 )

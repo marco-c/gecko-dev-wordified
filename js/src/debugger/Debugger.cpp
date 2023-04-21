@@ -43433,7 +43433,6 @@ get
 .
 initForGlobal
 (
-cx
 &
 fc
 )

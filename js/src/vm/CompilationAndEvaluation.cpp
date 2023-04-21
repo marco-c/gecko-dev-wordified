@@ -1285,7 +1285,6 @@ get
 .
 initForGlobal
 (
-cx
 &
 fc
 )

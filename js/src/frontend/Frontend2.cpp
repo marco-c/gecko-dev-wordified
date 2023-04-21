@@ -3846,7 +3846,6 @@ input
 .
 initForGlobal
 (
-cx
 fc
 )
 )

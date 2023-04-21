@@ -5216,7 +5216,6 @@ stencilInput_
 >
 initForGlobal
 (
-cx
 fc
 )
 )
@@ -5448,7 +5447,6 @@ stencilInput
 .
 initForGlobal
 (
-cx
 fc
 )
 )

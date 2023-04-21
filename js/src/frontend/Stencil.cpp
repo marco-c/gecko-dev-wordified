@@ -8794,9 +8794,6 @@ CompilationInput
 :
 initScriptSource
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -8849,9 +8846,6 @@ CompilationInput
 :
 initForStandaloneFunctionInNonSyntacticScope
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -8893,7 +8887,6 @@ if
 !
 initScriptSource
 (
-cx
 fc
 )
 )
