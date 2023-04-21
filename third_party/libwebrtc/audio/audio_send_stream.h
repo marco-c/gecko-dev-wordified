@@ -637,6 +637,8 @@ AudioSendStream
 Config
 &
 config
+SetParametersCallback
+callback
 )
 override
 ;
@@ -847,6 +849,8 @@ Config
 new_config
 bool
 first_time
+SetParametersCallback
+callback
 )
 RTC_RUN_ON
 (

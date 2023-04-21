@@ -3967,6 +3967,7 @@ send_stream
 Reconfigure
 (
 stream_config
+nullptr
 )
 ;
 }
@@ -4247,6 +4248,7 @@ send_stream
 Reconfigure
 (
 stream_config
+nullptr
 )
 ;
 }
@@ -5831,6 +5833,7 @@ helper
 config
 (
 )
+nullptr
 )
 ;
 }
@@ -5973,6 +5976,7 @@ send_stream
 Reconfigure
 (
 new_config
+nullptr
 )
 ;
 }
@@ -6695,6 +6699,7 @@ send_stream
 Reconfigure
 (
 new_config
+nullptr
 )
 ;
 /
@@ -6737,6 +6742,7 @@ send_stream
 Reconfigure
 (
 new_config
+nullptr
 )
 ;
 /
@@ -6822,6 +6828,7 @@ send_stream
 Reconfigure
 (
 new_config
+nullptr
 )
 ;
 }

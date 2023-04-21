@@ -1021,6 +1021,11 @@ webrtc
 RtpParameters
 &
 parameters
+webrtc
+:
+:
+SetParametersCallback
+callback
 )
 override
 ;
@@ -2458,6 +2463,11 @@ webrtc
 RtpParameters
 &
 parameters
+webrtc
+:
+:
+SetParametersCallback
+callback
 )
 ;
 webrtc
@@ -2869,6 +2879,11 @@ const
 void
 ReconfigureEncoder
 (
+webrtc
+:
+:
+SetParametersCallback
+callback
 )
 ;
 /

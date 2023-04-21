@@ -25048,6 +25048,7 @@ SetRtpSendParameters
 (
 kSsrcZ
 parameters
+nullptr
 )
 .
 ok
@@ -25094,6 +25095,7 @@ SetRtpSendParameters
 (
 kSsrcZ
 parameters
+nullptr
 )
 .
 ok

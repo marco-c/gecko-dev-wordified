@@ -478,6 +478,11 @@ webrtc
 RtpParameters
 &
 parameters
+webrtc
+:
+:
+SetParametersCallback
+callback
 )
 (
 override

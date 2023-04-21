@@ -534,6 +534,17 @@ void
 ReconfigureVideoEncoder
 (
 VideoEncoderConfig
+config
+)
+override
+;
+void
+ReconfigureVideoEncoder
+(
+VideoEncoderConfig
+config
+SetParametersCallback
+callback
 )
 override
 ;
