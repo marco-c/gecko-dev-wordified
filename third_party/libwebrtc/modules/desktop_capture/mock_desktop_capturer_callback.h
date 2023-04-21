@@ -200,7 +200,6 @@ DesktopFrame
 frame
 )
 final
-override
 ;
 }
 ;

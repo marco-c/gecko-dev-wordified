@@ -930,8 +930,6 @@ char
 *
 p
 =
-:
-:
 strchr
 (
 Base64Table

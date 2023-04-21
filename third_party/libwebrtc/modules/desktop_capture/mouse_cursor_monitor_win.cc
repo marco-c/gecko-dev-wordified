@@ -200,13 +200,6 @@ logging
 .
 h
 "
-#
-include
-<
-windows
-.
-h
->
 namespace
 webrtc
 {

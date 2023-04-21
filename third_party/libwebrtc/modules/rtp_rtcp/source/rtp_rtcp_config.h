@@ -177,13 +177,6 @@ RFC
 3550
 page
 37
-enum
-{
-RTCP_NUMBER_OF_SR
-=
-60
-}
-;
 }
 /
 /
