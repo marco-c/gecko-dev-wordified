@@ -6702,9 +6702,10 @@ node
 We
 only
 want
+direct
 native
 anonymous
-content
+children
 here
 .
 if
@@ -6713,6 +6714,14 @@ isNativeAnonymous
 (
 node
 )
+&
+&
+node
+.
+parentNode
+=
+=
+rawNode
 )
 {
 nodes
