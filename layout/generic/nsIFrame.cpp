@@ -83695,7 +83695,7 @@ result
 CompositorHitTestFlags
 :
 :
-eTouchActionDoubleTapZoomDisabled
+eTouchActionAnimatingZoomDisabled
 ;
 }
 else
@@ -83763,7 +83763,7 @@ result
 CompositorHitTestFlags
 :
 :
-eTouchActionDoubleTapZoomDisabled
+eTouchActionAnimatingZoomDisabled
 ;
 if
 (

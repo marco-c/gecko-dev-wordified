@@ -738,7 +738,7 @@ PINCH_ZOOM
 AllowedTouchBehavior
 :
 :
-DOUBLE_TAP_ZOOM
+ANIMATING_ZOOM
 ;
 #
 define

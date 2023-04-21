@@ -419,7 +419,7 @@ eTouchActionPinchZoomDisabled
 /
 /
 0x0040
-eTouchActionDoubleTapZoomDisabled
+eTouchActionAnimatingZoomDisabled
 /
 /
 0x0080
@@ -673,7 +673,7 @@ eTouchActionPinchZoomDisabled
 CompositorHitTestFlags
 :
 :
-eTouchActionDoubleTapZoomDisabled
+eTouchActionAnimatingZoomDisabled
 )
 ;
 /
