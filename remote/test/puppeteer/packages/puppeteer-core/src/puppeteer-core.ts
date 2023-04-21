@@ -231,7 +231,7 @@ from
 /
 common
 /
-QueryHandler
+CustomQueryHandler
 .
 js
 '

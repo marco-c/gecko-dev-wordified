@@ -3540,8 +3540,6 @@ issues
 /
 4110
 it
-.
-skip
 (
 '
 should

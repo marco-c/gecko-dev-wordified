@@ -148,6 +148,7 @@ puppeteer
 '
 ;
 import
+type
 {
 CustomQueryHandler
 }
@@ -161,7 +162,7 @@ internal
 /
 common
 /
-QueryHandler
+CustomQueryHandler
 .
 js
 '

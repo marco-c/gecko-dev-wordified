@@ -148,6 +148,13 @@ requires
 *
 /
 import
+path
+from
+'
+path
+'
+;
+import
 expect
 from
 '
@@ -167,13 +174,6 @@ mocha
 utils
 .
 js
-'
-;
-import
-path
-from
-'
-path
 '
 ;
 describe

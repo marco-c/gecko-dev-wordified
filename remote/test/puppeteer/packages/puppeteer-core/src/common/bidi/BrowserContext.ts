@@ -248,9 +248,8 @@ PageBase
 >
 {
 const
-result
+response
 =
-(
 await
 this
 .
@@ -272,13 +271,6 @@ tab
 '
 }
 )
-)
-as
-{
-context
-:
-string
-}
 ;
 return
 new
@@ -288,6 +280,8 @@ this
 .
 #
 connection
+response
+.
 result
 .
 context
