@@ -6551,11 +6551,10 @@ FissionAutostart
 )
 |
 |
-!
 StaticPrefs
 :
 :
-fission_disableSessionHistoryInParent_AtStartup_DoNotUseDirectly
+fission_sessionHistoryInParent_AtStartup_DoNotUseDirectly
 (
 )
 ;
