@@ -126,9 +126,9 @@ global
 MozXULElement
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -145,7 +145,9 @@ modules
 /
 BackgroundUpdate
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
