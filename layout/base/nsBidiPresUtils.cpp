@@ -15118,9 +15118,6 @@ i
 +
 )
 {
-BidiDirection
-dir
-=
 aBidiEngine
 .
 GetVisualRun
@@ -15146,6 +15143,7 @@ limit
 level
 )
 ;
+BidiDirection
 dir
 =
 level
