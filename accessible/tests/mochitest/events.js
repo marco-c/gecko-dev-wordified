@@ -7817,8 +7817,8 @@ synthesizeMouse
 this
 .
 DOMNode
-1
-1
+5
+5
 {
 type
 :
@@ -7833,8 +7833,8 @@ synthesizeMouse
 this
 .
 DOMNode
-2
-2
+6
+6
 {
 type
 :
