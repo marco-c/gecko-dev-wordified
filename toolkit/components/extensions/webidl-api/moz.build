@@ -202,6 +202,11 @@ ExtensionDns
 cpp
 "
 "
+ExtensionProxy
+.
+cpp
+"
+"
 ExtensionRuntime
 .
 cpp
@@ -232,6 +237,11 @@ h
 "
 "
 ExtensionDns
+.
+h
+"
+"
+ExtensionProxy
 .
 h
 "
