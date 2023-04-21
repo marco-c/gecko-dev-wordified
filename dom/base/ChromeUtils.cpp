@@ -11948,6 +11948,16 @@ GlobalObject
 &
 )
 {
+if
+(
+StaticPrefs
+:
+:
+browser_opaqueResponseBlocking_javascriptValidator
+(
+)
+)
+{
 JSOracleParent
 :
 :
@@ -11964,6 +11974,7 @@ aParent
 }
 )
 ;
+}
 }
 /
 *
