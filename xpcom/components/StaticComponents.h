@@ -544,7 +544,7 @@ struct
 InterfaceOffset
 final
 {
-uint32_t
+uint16_t
 mOffset
 ;
 }
