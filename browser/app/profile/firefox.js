@@ -11536,7 +11536,7 @@ idle
 /
 Time
 (
-ms
+seconds
 )
 before
 we
@@ -11574,7 +11574,7 @@ sessionstore
 .
 idleDelay
 "
-180000
+180
 )
 ;
 /
