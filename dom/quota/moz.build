@@ -225,6 +225,11 @@ Config
 h
 "
 "
+DebugOnlyMacro
+.
+h
+"
+"
 DecryptingInputStream
 .
 h
