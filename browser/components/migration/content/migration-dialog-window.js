@@ -78,10 +78,6 @@ that
 runs
 *
 in
-either
-a
-TabDialogBox
-or
 a
 top
 -
@@ -93,11 +89,11 @@ It
 '
 s
 main
-*
 responsibility
 is
 to
 listen
+*
 for
 dialog
 -
@@ -105,11 +101,11 @@ specific
 events
 from
 the
-*
 embedded
 MigrationWizard
 and
 to
+*
 respond
 appropriately
 to
