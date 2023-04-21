@@ -1212,8 +1212,6 @@ ar
     
 ranlib
     
-libtool
-    
 ldflags
     
 src_dir
@@ -1320,7 +1318,6 @@ cxx
 asm
 ar
 ranlib
-libtool
 ldflags
 inst_dir
 )
@@ -1977,31 +1974,6 @@ ranlib
 ]
         
 if
-libtool
-is
-not
-None
-:
-            
-cmake_args
-+
-=
-[
-"
--
-DCMAKE_LIBTOOL
-=
-%
-s
-"
-%
-slashify_path
-(
-libtool
-)
-]
-        
-if
 osx_cross_compile
 :
             
@@ -2503,7 +2475,6 @@ cxx
 asm
 ar
 ranlib
-libtool
 ldflags
 inst_dir
 )
@@ -5059,28 +5030,6 @@ ranlib
 "
 )
     
-libtool
-=
-None
-    
-if
-"
-libtool
-"
-in
-config
-:
-        
-libtool
-=
-get_tool
-(
-config
-"
-libtool
-"
-)
-    
 if
 not
 os
@@ -5969,8 +5918,6 @@ ar
             
 ranlib
             
-libtool
-            
 extra_ldflags
             
 llvm_source_dir
@@ -6119,8 +6066,6 @@ extra_asmflags
 ar
             
 ranlib
-            
-libtool
             
 extra_ldflags
             
@@ -6280,8 +6225,6 @@ extra_asmflags
 ar
             
 ranlib
-            
-libtool
             
 extra_ldflags
             
@@ -6582,8 +6525,6 @@ extra_asmflags
 ar
             
 ranlib
-            
-libtool
             
 extra_ldflags
             
