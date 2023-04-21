@@ -1261,24 +1261,10 @@ payload
 "
 )
             
-extract
-=
-"
+from
 extract_pbzx
-.
-py
-"
-            
-payload_dir
-=
-os
-.
-path
-.
-dirname
-(
-payload_path
-)
+import
+extract_pbzx
             
 #
 First
@@ -1289,17 +1275,9 @@ into
 cpio
 .
             
-subprocess
-.
-check_call
+extract_pbzx
 (
-[
-extract
 payload_path
-]
-cwd
-=
-payload_dir
 )
             
 #
