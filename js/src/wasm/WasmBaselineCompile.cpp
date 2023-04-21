@@ -42460,9 +42460,8 @@ structType
 /
 /
 Allocate
-a
-default
-initialized
+an
+uninitialized
 struct
 .
 This
@@ -42501,7 +42500,7 @@ if
 !
 emitInstanceCall
 (
-SASigStructNew
+SASigStructNewUninit
 )
 )
 {
@@ -43829,9 +43828,8 @@ arrayType
 /
 /
 Allocate
-a
-default
-initialized
+an
+uninitialized
 array
 .
 This
@@ -43870,7 +43868,7 @@ if
 !
 emitInstanceCall
 (
-SASigArrayNew
+SASigArrayNewUninit
 )
 )
 {
