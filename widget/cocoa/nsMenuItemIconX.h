@@ -438,9 +438,6 @@ mListener
 [
 weak
 ]
-nsIntRect
-mImageRegionRect
-;
 RefPtr
 <
 const
