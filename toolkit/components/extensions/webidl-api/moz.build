@@ -197,6 +197,11 @@ ExtensionAlarms
 cpp
 "
 "
+ExtensionDns
+.
+cpp
+"
+"
 ExtensionRuntime
 .
 cpp
@@ -222,6 +227,11 @@ extensions
 [
 "
 ExtensionAlarms
+.
+h
+"
+"
+ExtensionDns
 .
 h
 "
