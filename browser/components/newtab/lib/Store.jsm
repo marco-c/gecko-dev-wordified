@@ -146,7 +146,7 @@ reducers
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -161,7 +161,9 @@ common
 /
 Reducers
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
