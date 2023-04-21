@@ -226,6 +226,11 @@ return
 mParent
 ;
 }
+void
+ForgetFrame
+(
+)
+;
 GridDimension
 *
 Rows
@@ -262,6 +267,9 @@ nsCOMPtr
 Element
 >
 mParent
+;
+WeakFrame
+mFrame
 ;
 RefPtr
 <
