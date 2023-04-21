@@ -973,6 +973,10 @@ unsigned
 int
 mask
 ;
+CursorState
+state
+;
+{
 XErrorTrap
 error_trap
 (
@@ -1005,9 +1009,6 @@ win_y
 &
 mask
 )
-;
-CursorState
-state
 ;
 if
 (
@@ -1086,6 +1087,7 @@ INSIDE
 :
 OUTSIDE
 ;
+}
 }
 /
 /
