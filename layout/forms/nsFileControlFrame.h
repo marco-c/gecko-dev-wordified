@@ -333,7 +333,6 @@ nsTArray
 ContentInfo
 >
 &
-aElements
 )
 override
 ;
@@ -346,7 +345,6 @@ nsIContent
 *
 >
 &
-aElements
 uint32_t
 aFilter
 )
@@ -355,7 +353,6 @@ override
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -370,20 +367,6 @@ override
 ;
 #
 endif
-typedef
-bool
-(
-*
-AcceptAttrCallback
-)
-(
-const
-nsAString
-&
-void
-*
-)
-;
 protected
 :
 class
@@ -629,7 +612,6 @@ aSupportsMultiple
 ;
 }
 ;
-virtual
 bool
 IsFrameOfType
 (
