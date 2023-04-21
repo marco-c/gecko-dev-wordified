@@ -179,8 +179,14 @@ override
 ;
 private
 :
+RefPtr
+<
 RemoteSandboxBrokerChild
+>
 mSandboxBrokerChild
+=
+new
+RemoteSandboxBrokerChild
 ;
 }
 ;
