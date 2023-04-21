@@ -497,9 +497,6 @@ ws
 ;
 }
 }
-return
-result
-;
 }
 /
 *
