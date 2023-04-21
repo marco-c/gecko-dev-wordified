@@ -6523,7 +6523,7 @@ if
 mReadableStreamBody
 -
 >
-HasNativeUnderlyingSource
+GetBodyStreamHolder
 (
 )
 )
@@ -8472,7 +8472,7 @@ if
 mReadableStreamBody
 -
 >
-HasNativeUnderlyingSource
+GetBodyStreamHolder
 (
 )
 )
