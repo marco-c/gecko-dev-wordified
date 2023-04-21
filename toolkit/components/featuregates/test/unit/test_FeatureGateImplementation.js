@@ -40,7 +40,7 @@ FeatureGateImplementation
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +51,9 @@ featuregates
 /
 FeatureGateImplementation
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
