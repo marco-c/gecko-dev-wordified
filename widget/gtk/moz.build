@@ -232,6 +232,9 @@ wayland
 "
 mozwayland
 "
+"
+vaapitest
+"
 ]
 EXPORTS
 +
