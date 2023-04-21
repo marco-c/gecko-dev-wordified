@@ -6641,6 +6641,14 @@ DownloadPaths
 sanitize
 (
 aFileName
+{
+compressWhitespaces
+:
+false
+allowInvalidFilenames
+:
+true
+}
 )
 |
 |
