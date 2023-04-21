@@ -848,7 +848,7 @@ Decode
 (
 )
 .
-LOG
+LOGV
 (
 "
 No
@@ -974,7 +974,7 @@ case
 abort
 trimming
 .
-LOG
+LOGV
 (
 "
 sample
@@ -1130,7 +1130,7 @@ sampleInterval
 )
 )
 {
-LOG
+LOGV
 (
 "
 sample
@@ -1192,7 +1192,7 @@ i
 continue
 ;
 }
-LOG
+LOGV
 (
 "
 Trimming
@@ -1361,7 +1361,7 @@ Frames
 0
 )
 {
-LOG
+LOGV
 (
 "
 sample
@@ -1466,7 +1466,7 @@ on
 "
 )
 ;
-LOG
+LOGV
 (
 "
 DecodeBatch
@@ -1701,7 +1701,7 @@ aRaw
 mOriginalPresentationWindow
 )
 {
-LOG
+LOGV
 (
 "
 sample
