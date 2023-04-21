@@ -4672,12 +4672,6 @@ nsSocketTransport
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
-mAttached
-)
-;
 SOCKET_LOG
 (
 (
