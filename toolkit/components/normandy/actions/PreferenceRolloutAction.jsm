@@ -1041,7 +1041,7 @@ lazy
 .
 PreferenceRollouts
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 )

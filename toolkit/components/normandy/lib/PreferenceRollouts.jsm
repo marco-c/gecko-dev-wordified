@@ -1189,7 +1189,7 @@ of
 await
 this
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 )
@@ -1464,7 +1464,7 @@ of
 await
 this
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 )
@@ -2424,7 +2424,7 @@ state
 *
 /
 async
-getAllActiveExperiments
+getAllActive
 (
 )
 {
@@ -2539,7 +2539,7 @@ of
 await
 this
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 )

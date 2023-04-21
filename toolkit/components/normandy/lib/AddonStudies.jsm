@@ -1137,7 +1137,7 @@ of
 await
 this
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 )
@@ -1668,7 +1668,7 @@ studies
 await
 AddonStudies
 .
-getAllActiveExperiments
+getAllActive
 (
 {
 branched
@@ -2195,7 +2195,7 @@ Study
 *
 /
 async
-getAllActiveExperiments
+getAllActive
 (
 options
 )

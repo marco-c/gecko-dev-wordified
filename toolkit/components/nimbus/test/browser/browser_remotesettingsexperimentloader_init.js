@@ -206,7 +206,7 @@ ExperimentManager
 .
 store
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 .
@@ -301,7 +301,7 @@ ExperimentManager
 .
 store
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 .
