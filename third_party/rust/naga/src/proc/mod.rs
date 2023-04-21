@@ -2094,6 +2094,13 @@ bits
 Self
 :
 :
+CountTrailingZeros
+=
+>
+1
+Self
+:
+:
 CountLeadingZeros
 =
 >

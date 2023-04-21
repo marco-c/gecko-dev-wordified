@@ -97,11 +97,6 @@ wasm32
 unknown
 -
 emscripten
--
--
-features
-emscripten
-webgl
 /
 /
 !
@@ -519,7 +514,7 @@ _
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten
@@ -880,7 +875,7 @@ wasm32
 "
 not
 (
-feature
+target_os
 =
 "
 emscripten

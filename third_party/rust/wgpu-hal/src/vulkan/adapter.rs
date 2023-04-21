@@ -9534,10 +9534,6 @@ MULTISAMPLE_RESOLVE
 !
 format
 .
-describe
-(
-)
-.
 is_compressed
 (
 )
@@ -9634,11 +9630,14 @@ else
 match
 format
 .
-describe
+sample_type
 (
+None
 )
 .
-sample_type
+unwrap
+(
+)
 {
 wgt
 :

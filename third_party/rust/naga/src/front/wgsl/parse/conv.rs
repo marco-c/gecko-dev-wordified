@@ -1759,6 +1759,15 @@ Determinant
 /
 bits
 "
+countTrailingZeros
+"
+=
+>
+Mf
+:
+:
+CountTrailingZeros
+"
 countLeadingZeros
 "
 =

@@ -3127,7 +3127,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -3626,7 +3626,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -3776,7 +3776,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -3926,7 +3926,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -4252,7 +4252,7 @@ uint
 /
 bit
 1
-trough
+through
 2
 -
 dims
@@ -4938,7 +4938,7 @@ atan2
 /
 bit
 1
-trough
+through
 2
 -
 dims
@@ -5137,7 +5137,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -5846,7 +5846,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 scalar
@@ -5855,7 +5855,7 @@ kind
 /
 bit
 2
-trough
+through
 4
 -
 dims
@@ -6166,7 +6166,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -6174,7 +6174,7 @@ dims
 /
 bit
 2
-trough
+through
 4
 -
 types
@@ -6475,7 +6475,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 float
@@ -6487,7 +6487,7 @@ uint
 /
 bit
 2
-trough
+through
 3
 -
 dims
@@ -6821,7 +6821,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -6989,7 +6989,7 @@ layout
 /
 bit
 0
-trough
+through
 2
 -
 dims
@@ -7270,7 +7270,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -7278,7 +7278,7 @@ dims
 /
 bit
 2
-trough
+through
 3
 -
 splatted
@@ -7558,7 +7558,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -8086,7 +8086,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -8418,7 +8418,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -8636,7 +8636,7 @@ layout
 /
 bit
 0
-trough
+through
 3
 -
 dims
@@ -8833,7 +8833,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -8982,7 +8982,7 @@ layout
 /
 bit
 0
-trough
+through
 2
 -
 dims
@@ -9287,7 +9287,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -9620,7 +9620,7 @@ layout
 /
 bit
 0
-trough
+through
 3
 -
 dims
@@ -9847,7 +9847,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -10043,7 +10043,7 @@ layout
 /
 bit
 0
-trough
+through
 1
 -
 dims
@@ -10217,7 +10217,7 @@ splatted
 /
 bit
 1
-trough
+through
 2
 -
 dims
@@ -11609,7 +11609,7 @@ crate
 ScalarKind
 :
 :
-Sint
+Uint
 width
 :
 4
@@ -11641,7 +11641,37 @@ meta
 body
 )
 }
+ctx
+.
+add_expression
+(
+Expression
+:
+:
+As
+{
 expr
+kind
+:
+Sk
+:
+:
+Sint
+convert
+:
+Some
+(
+4
+)
+}
+Span
+:
+:
+default
+(
+)
+body
+)
 }
 MacroCall
 :
@@ -14252,7 +14282,7 @@ the
 image
 was
 passed
-trough
+through
 a
 function
 argument

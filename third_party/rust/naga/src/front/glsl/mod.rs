@@ -462,7 +462,7 @@ specified
 in
 the
 shader
-trough
+through
 the
 use
 of
@@ -489,7 +489,7 @@ specified
 in
 the
 shader
-trough
+through
 the
 use
 of

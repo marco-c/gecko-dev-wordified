@@ -2383,7 +2383,7 @@ a
 init_declarator_list
 /
 /
-token_falltrough
+token_fallthrough
 will
 have
 a

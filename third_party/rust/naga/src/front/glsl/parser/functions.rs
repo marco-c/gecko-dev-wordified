@@ -1790,7 +1790,7 @@ an
 error
 otherwise
 (
-fall_trough
+fall_through
 must
 /
 /
@@ -1886,7 +1886,7 @@ mark
 it
 as
 fall
-trough
+through
 but
 naga
 '
@@ -1903,7 +1903,7 @@ must
 not
 be
 fall
-trough
+through
 so
 we
 mark
@@ -1918,7 +1918,7 @@ case
 as
 not
 fall
-trough
+through
 always
 .
 case

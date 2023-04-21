@@ -4072,7 +4072,7 @@ crate
 ScalarKind
 :
 :
-Sint
+Uint
 width
 :
 4
@@ -4116,7 +4116,7 @@ crate
 ScalarKind
 :
 :
-Sint
+Uint
 width
 :
 4
@@ -4152,7 +4152,7 @@ crate
 ScalarKind
 :
 :
-Sint
+Uint
 width
 :
 4
@@ -4232,7 +4232,7 @@ crate
 ScalarKind
 :
 :
-Sint
+Uint
 width
 :
 4
@@ -5992,6 +5992,11 @@ other
 /
 /
 bits
+Mf
+:
+:
+CountTrailingZeros
+|
 Mf
 :
 :

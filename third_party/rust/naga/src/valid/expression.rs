@@ -8775,6 +8775,11 @@ arg
 Mf
 :
 :
+CountTrailingZeros
+|
+Mf
+:
+:
 CountLeadingZeros
 |
 Mf

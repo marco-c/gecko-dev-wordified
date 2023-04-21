@@ -8063,6 +8063,7 @@ Determinant
 /
 /
 bits
+CountTrailingZeros
 CountLeadingZeros
 CountOneBits
 ReverseBits

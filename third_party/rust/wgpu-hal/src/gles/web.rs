@@ -1355,11 +1355,9 @@ swapchain
 .
 format
 .
-describe
+is_srgb
 (
 )
-.
-srgb
 {
 /
 /
@@ -2067,11 +2065,9 @@ config
 .
 format
 .
-describe
+is_srgb
 (
 )
-.
-srgb
 {
 self
 .
