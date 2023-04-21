@@ -1944,7 +1944,7 @@ the
 top
 half
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp0
@@ -1958,7 +1958,7 @@ temp2
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -2122,7 +2122,7 @@ the
 bottom
 half
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp0

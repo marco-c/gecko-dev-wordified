@@ -22208,7 +22208,7 @@ common
 .
 horiz_scale
 =
-NORMAL
+VP8E_NORMAL
 ;
 cpi
 -
@@ -22217,7 +22217,7 @@ common
 .
 vert_scale
 =
-NORMAL
+VP8E_NORMAL
 ;
 /
 *

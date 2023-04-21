@@ -10805,6 +10805,16 @@ pic_h
 _img
 -
 >
+bit_depth
+=
+_y4m
+-
+>
+bit_depth
+;
+_img
+-
+>
 x_chroma_shift
 =
 _y4m

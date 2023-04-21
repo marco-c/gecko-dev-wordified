@@ -13047,7 +13047,7 @@ cm
 horiz_scale
 !
 =
-NORMAL
+VP8E_NORMAL
 |
 |
 cm
@@ -13056,7 +13056,7 @@ cm
 vert_scale
 !
 =
-NORMAL
+VP8E_NORMAL
 )
 {
 int
@@ -19062,7 +19062,7 @@ cm
 >
 horiz_scale
 <
-ONETWO
+VP8E_ONETWO
 )
 ?
 cm
@@ -19072,7 +19072,7 @@ horiz_scale
 +
 1
 :
-ONETWO
+VP8E_ONETWO
 ;
 cm
 -
@@ -19085,7 +19085,7 @@ cm
 >
 vert_scale
 <
-ONETWO
+VP8E_ONETWO
 )
 ?
 cm
@@ -19095,7 +19095,7 @@ vert_scale
 +
 1
 :
-ONETWO
+VP8E_ONETWO
 ;
 }
 /
@@ -19147,7 +19147,7 @@ cm
 >
 horiz_scale
 >
-NORMAL
+VP8E_NORMAL
 )
 ?
 cm
@@ -19157,7 +19157,7 @@ horiz_scale
 -
 1
 :
-NORMAL
+VP8E_NORMAL
 ;
 cm
 -
@@ -19170,7 +19170,7 @@ cm
 >
 vert_scale
 >
-NORMAL
+VP8E_NORMAL
 )
 ?
 cm
@@ -19180,7 +19180,7 @@ vert_scale
 -
 1
 :
-NORMAL
+VP8E_NORMAL
 ;
 }
 /
@@ -40408,9 +40408,9 @@ vp8_set_internal_size
 VP8_COMP
 *
 cpi
-VPX_SCALING
+VPX_SCALING_MODE
 horiz_mode
-VPX_SCALING
+VPX_SCALING_MODE
 vert_mode
 )
 {
@@ -40419,7 +40419,7 @@ if
 horiz_mode
 <
 =
-ONETWO
+VP8E_ONETWO
 )
 {
 cpi
@@ -40444,7 +40444,7 @@ if
 vert_mode
 <
 =
-ONETWO
+VP8E_ONETWO
 )
 {
 cpi

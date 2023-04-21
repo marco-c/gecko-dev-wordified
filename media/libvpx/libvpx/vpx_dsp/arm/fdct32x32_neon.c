@@ -421,7 +421,7 @@ each
 one
 together
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -435,7 +435,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -449,7 +449,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -463,7 +463,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -672,7 +672,7 @@ row
 of
 8x32
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -686,7 +686,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -700,7 +700,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -714,7 +714,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -926,7 +926,7 @@ Third
 row
 of
 8x32
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -940,7 +940,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -954,7 +954,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -968,7 +968,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -1181,7 +1181,7 @@ row
 of
 8x32
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1195,7 +1195,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -1209,7 +1209,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -1223,7 +1223,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -1587,7 +1587,7 @@ each
 one
 together
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1601,7 +1601,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -1615,7 +1615,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -1629,7 +1629,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -1838,7 +1838,7 @@ row
 of
 8x32
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1852,7 +1852,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -1866,7 +1866,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -1880,7 +1880,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -2092,7 +2092,7 @@ Third
 row
 of
 8x32
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -2106,7 +2106,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -2120,7 +2120,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -2134,7 +2134,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -2347,7 +2347,7 @@ row
 of
 8x32
 .
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -2361,7 +2361,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -2375,7 +2375,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -2389,7 +2389,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
