@@ -922,6 +922,10 @@ OnlyIfTransactionsAllowedToDoIt
 )
 )
 ;
+mHandledCaretPoint
+=
+true
+;
 if
 (
 aOptions
