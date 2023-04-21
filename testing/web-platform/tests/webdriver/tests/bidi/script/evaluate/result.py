@@ -10,6 +10,7 @@ modules
 script
 import
 ContextTarget
+SerializationOptions
 pytest
 .
 mark
@@ -1314,6 +1315,15 @@ context
 await_promise
 =
 False
+        
+serialization_options
+=
+SerializationOptions
+(
+max_object_depth
+=
+1
+)
     
 )
     

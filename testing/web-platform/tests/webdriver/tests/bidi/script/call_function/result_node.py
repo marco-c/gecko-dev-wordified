@@ -10,6 +10,7 @@ modules
 script
 import
 ContextTarget
+SerializationOptions
 from
 .
 .
@@ -909,6 +910,15 @@ context
 await_promise
 =
 False
+        
+serialization_options
+=
+SerializationOptions
+(
+max_dom_depth
+=
+1
+)
     
 )
     
@@ -993,13 +1003,6 @@ childNodeCount
 "
 :
 0
-                    
-"
-children
-"
-:
-[
-]
                     
 "
 localName
@@ -1089,13 +1092,6 @@ childNodeCount
 "
 :
 0
-                    
-"
-children
-"
-:
-[
-]
                     
 "
 localName
@@ -1320,13 +1316,6 @@ childNodeCount
 0
                     
 "
-children
-"
-:
-[
-]
-                    
-"
 nodeType
 "
 :
@@ -1510,13 +1499,6 @@ childNodeCount
 "
 :
 0
-                    
-"
-children
-"
-:
-[
-]
                     
 "
 nodeType
@@ -1748,13 +1730,6 @@ childNodeCount
 0
                     
 "
-children
-"
-:
-[
-]
-                    
-"
 nodeType
 "
 :
@@ -1969,13 +1944,6 @@ childNodeCount
 "
 :
 0
-                    
-"
-children
-"
-:
-[
-]
                     
 "
 nodeType
@@ -2360,6 +2328,15 @@ context
 await_promise
 =
 False
+        
+serialization_options
+=
+SerializationOptions
+(
+max_dom_depth
+=
+1
+)
     
 )
     
@@ -2432,13 +2409,6 @@ childNodeCount
 "
 :
 0
-                    
-"
-children
-"
-:
-[
-]
                     
 "
 nodeType
@@ -2874,6 +2844,15 @@ context
 await_promise
 =
 False
+        
+serialization_options
+=
+SerializationOptions
+(
+max_dom_depth
+=
+1
+)
     
 )
     
@@ -3421,6 +3400,15 @@ context
 await_promise
 =
 False
+        
+serialization_options
+=
+SerializationOptions
+(
+max_dom_depth
+=
+1
+)
     
 )
     
@@ -3597,13 +3585,6 @@ childNodeCount
 "
 :
 0
-            
-"
-children
-"
-:
-[
-]
             
 "
 localName
