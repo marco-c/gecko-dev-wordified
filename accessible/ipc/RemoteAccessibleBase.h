@@ -2720,12 +2720,6 @@ IsFixedPos
 )
 const
 ;
-bool
-IsOverflowHidden
-(
-)
-const
-;
 /
 /
 This
