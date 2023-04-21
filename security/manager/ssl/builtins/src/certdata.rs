@@ -92,6 +92,12 @@ pkcs11_bindings
 :
 *
 ;
+use
+std
+:
+:
+slice
+;
 /
 /
 We
