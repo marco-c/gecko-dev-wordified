@@ -679,6 +679,22 @@ moz
 -
 http2
 "
+        
+"
+toolkit
+/
+mozapps
+/
+extensions
+/
+test
+/
+xpcshell
+/
+data
+/
+productaddons
+"
     
 ]
     
