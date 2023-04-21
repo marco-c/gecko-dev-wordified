@@ -34559,9 +34559,11 @@ t
 we
 simply
 use
-NS_DISPATCH_SYNC
+NS_DispatchAndSpinEventLoopUntilComplete
 instead
 of
+/
+/
 using
 a
 monitor

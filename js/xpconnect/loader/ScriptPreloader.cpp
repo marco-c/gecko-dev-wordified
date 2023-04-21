@@ -4764,8 +4764,18 @@ mau
 mSaveMonitor
 )
 ;
-NS_DispatchToMainThread
+NS_DispatchAndSpinEventLoopUntilComplete
 (
+"
+ScriptPreloader
+:
+:
+PrepareCacheWrite
+"
+_ns
+GetMainThreadSerialEventTarget
+(
+)
 NewRunnableMethod
 (
 "
@@ -4781,7 +4791,6 @@ ScriptPreloader
 :
 PrepareCacheWrite
 )
-NS_DISPATCH_SYNC
 )
 ;
 }

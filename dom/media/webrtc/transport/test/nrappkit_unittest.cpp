@@ -228,12 +228,7 @@ ret
 test_utils_
 -
 >
-sts_target
-(
-)
--
->
-Dispatch
+SyncDispatchToSTS
 (
 WrapRunnableRet
 (
@@ -247,7 +242,6 @@ TimerTest
 ArmTimer_w
 timeout
 )
-NS_DISPATCH_SYNC
 )
 ;
 return
@@ -267,12 +261,7 @@ ret
 test_utils_
 -
 >
-sts_target
-(
-)
--
->
-Dispatch
+SyncDispatchToSTS
 (
 WrapRunnableRet
 (
@@ -286,7 +275,6 @@ TimerTest
 ArmCancelTimer_w
 timeout
 )
-NS_DISPATCH_SYNC
 )
 ;
 return
@@ -352,12 +340,7 @@ ret
 test_utils_
 -
 >
-sts_target
-(
-)
--
->
-Dispatch
+SyncDispatchToSTS
 (
 WrapRunnableRet
 (
@@ -370,7 +353,6 @@ TimerTest
 :
 CancelTimer_w
 )
-NS_DISPATCH_SYNC
 )
 ;
 return
@@ -400,12 +382,7 @@ ret
 test_utils_
 -
 >
-sts_target
-(
-)
--
->
-Dispatch
+SyncDispatchToSTS
 (
 WrapRunnableRet
 (
@@ -418,7 +395,6 @@ TimerTest
 :
 Schedule_w
 )
-NS_DISPATCH_SYNC
 )
 ;
 return

@@ -5173,9 +5173,15 @@ SHUTDOWN
 releaseEvent
 -
 >
-Dispatch
+DispatchAndSpinEventLoopUntilComplete
 (
-NS_DISPATCH_SYNC
+"
+AudioCallbackDriver
+:
+:
+Shutdown
+"
+_ns
 )
 ;
 }

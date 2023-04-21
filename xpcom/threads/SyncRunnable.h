@@ -188,11 +188,9 @@ This
 is
 different
 from
-nsIEventTarget
-.
-DISPATCH_SYNC
-:
 *
+NS_DispatchAndSpinEventLoopUntilComplete
+:
 this
 class
 does
@@ -200,6 +198,7 @@ not
 spin
 the
 event
+*
 loop
 waiting
 for
@@ -207,7 +206,6 @@ the
 event
 to
 be
-*
 dispatched
 .
 This
@@ -218,10 +216,10 @@ don
 '
 t
 risk
+*
 reentrance
 from
 pending
-*
 messages
 but
 you
@@ -232,11 +230,11 @@ that
 the
 target
 thread
+*
 does
 not
 ever
 block
-*
 on
 this
 thread

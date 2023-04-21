@@ -131,7 +131,7 @@ thread
 using
 /
 /
-NS_DISPATCH_SYNC
+NS_DispatchAndSpinEventLoopUntilComplete
 would
 cause
 the
@@ -139,6 +139,8 @@ event
 loop
 on
 the
+/
+/
 calling
 thread
 to
