@@ -56,15 +56,7 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-CrashReports
-"
-]
-;
+export
 var
 CrashReports
 =

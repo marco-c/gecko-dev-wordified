@@ -1174,7 +1174,9 @@ modules
 /
 CrashSubmit
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

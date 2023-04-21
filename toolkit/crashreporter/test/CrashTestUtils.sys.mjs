@@ -28,15 +28,7 @@ zero
 /
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-CrashTestUtils
-"
-]
-;
+export
 var
 CrashTestUtils
 =
