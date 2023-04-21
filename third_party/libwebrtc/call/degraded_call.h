@@ -1111,8 +1111,7 @@ BitrateSettings
 preferences
 )
 override
-{
-}
+;
 void
 UpdateSendNetworkConfig
 (
