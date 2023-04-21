@@ -244,7 +244,7 @@ aCopier
 )
 mTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

@@ -193,7 +193,7 @@ MakeRefPtr
 DriftCompensator
 >
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 mRate

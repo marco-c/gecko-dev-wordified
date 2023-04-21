@@ -2108,7 +2108,7 @@ nsIEventTarget
 >
 mainThread
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

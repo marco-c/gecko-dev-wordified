@@ -929,7 +929,7 @@ nsIEventTarget
 >
 target
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

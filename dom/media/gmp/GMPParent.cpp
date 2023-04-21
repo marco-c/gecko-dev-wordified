@@ -3804,6 +3804,15 @@ gmpThread
 ;
 return
 gmpThread
+?
+gmpThread
+-
+>
+SerialEventTarget
+(
+)
+:
+nullptr
 ;
 }
 /

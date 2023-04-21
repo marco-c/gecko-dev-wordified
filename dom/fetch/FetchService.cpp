@@ -971,7 +971,7 @@ mLoadGroup
 /
 /
 LoadGroup
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 /

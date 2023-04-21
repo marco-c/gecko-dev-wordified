@@ -1139,7 +1139,7 @@ aCallback
 )
 mTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

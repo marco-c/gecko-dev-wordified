@@ -5514,7 +5514,7 @@ else
 {
 target
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

@@ -16483,7 +16483,7 @@ forget
 )
 )
 :
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

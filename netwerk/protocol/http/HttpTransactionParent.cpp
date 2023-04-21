@@ -1021,7 +1021,7 @@ eventsink
 ;
 mTargetThread
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -1689,7 +1689,7 @@ target
 {
 target
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;
@@ -2503,7 +2503,7 @@ nsIEventTarget
 >
 target
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

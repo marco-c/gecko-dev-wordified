@@ -447,7 +447,7 @@ ifdef
 DEBUG
 mOwningThread
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

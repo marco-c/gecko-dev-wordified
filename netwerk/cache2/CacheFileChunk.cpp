@@ -2608,7 +2608,7 @@ item
 >
 mTarget
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

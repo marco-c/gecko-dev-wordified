@@ -295,7 +295,7 @@ nsBrowserStatusFilter
 :
 mTarget
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

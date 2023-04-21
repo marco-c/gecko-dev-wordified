@@ -888,7 +888,7 @@ mLabeledMainThreadTarget
 :
 do_AddRef
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )
@@ -2599,10 +2599,7 @@ else
 {
 mTargetThread
 =
-mozilla
-:
-:
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

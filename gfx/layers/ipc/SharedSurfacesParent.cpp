@@ -237,7 +237,7 @@ h
 /
 /
 for
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 namespace
 mozilla
 {
@@ -436,7 +436,7 @@ image_mem_shared_unmap_min_expiration_ms_AtStartup
 mozilla
 :
 :
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

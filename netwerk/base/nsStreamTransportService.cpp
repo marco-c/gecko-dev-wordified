@@ -2014,7 +2014,7 @@ NS_OK
 {
 mCallbackTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

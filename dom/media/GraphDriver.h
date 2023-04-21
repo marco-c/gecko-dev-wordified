@@ -3263,6 +3263,11 @@ mThread
 mThread
 -
 >
+EventTarget
+(
+)
+-
+>
 IsOnCurrentThread
 (
 )

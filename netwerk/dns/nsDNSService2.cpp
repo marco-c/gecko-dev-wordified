@@ -6226,7 +6226,7 @@ target
 {
 target
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

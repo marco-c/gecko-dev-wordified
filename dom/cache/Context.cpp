@@ -3271,7 +3271,7 @@ aDirectoryMetadata
 )
 mInitiatingThread
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

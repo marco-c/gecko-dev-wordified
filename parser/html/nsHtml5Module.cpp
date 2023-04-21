@@ -665,6 +665,11 @@ nsISerialEventTarget
 target
 =
 sStreamParserThread
+-
+>
+SerialEventTarget
+(
+)
 ;
 return
 target
@@ -704,6 +709,11 @@ nsISerialEventTarget
 target
 =
 mainThread
+-
+>
+SerialEventTarget
+(
+)
 ;
 return
 target

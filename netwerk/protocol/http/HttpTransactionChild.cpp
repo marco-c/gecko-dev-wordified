@@ -917,7 +917,7 @@ requestHead
 requestBody
 requestContentLength
 requestBodyHasHeaders
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 nullptr

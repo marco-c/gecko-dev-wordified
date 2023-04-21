@@ -2535,7 +2535,7 @@ this
 mozilla
 :
 :
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 attrs

@@ -503,7 +503,7 @@ nsIEventTarget
 >
 mainTarget
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;
@@ -719,7 +719,7 @@ IsCurrentThreadRunningWorker
 {
 mCreationEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -728,7 +728,7 @@ else
 {
 mCreationEventTarget
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

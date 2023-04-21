@@ -201,7 +201,7 @@ nullptr
 {
 mMainThread
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

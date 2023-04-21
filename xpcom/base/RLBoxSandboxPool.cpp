@@ -330,7 +330,7 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

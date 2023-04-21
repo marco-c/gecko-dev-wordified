@@ -1416,7 +1416,7 @@ nsIEventTarget
 >
 target
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

@@ -2452,7 +2452,7 @@ aProxyInfo
 }
 mCurrentThread
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

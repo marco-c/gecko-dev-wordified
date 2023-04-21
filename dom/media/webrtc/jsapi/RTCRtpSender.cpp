@@ -4928,7 +4928,7 @@ the
 following
 steps
 :
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -
@@ -6239,7 +6239,7 @@ LastReturnedParameters
 to
 null
 .
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -
@@ -7771,7 +7771,7 @@ the
 following
 steps
 :
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

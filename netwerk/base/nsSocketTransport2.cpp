@@ -15986,7 +15986,7 @@ NS_NewNotificationCallbacksAggregation
 (
 callbacks
 nullptr
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 getter_AddRefs

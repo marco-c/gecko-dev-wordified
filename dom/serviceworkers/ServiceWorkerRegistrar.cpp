@@ -5303,7 +5303,7 @@ ServiceWorkerRegistrarSaveDataRunnable
 )
 mEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

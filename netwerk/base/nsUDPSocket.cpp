@@ -5613,7 +5613,7 @@ aListener
 )
 mTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -6022,7 +6022,7 @@ aListener
 )
 mTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -6942,7 +6942,7 @@ mLock
 ;
 mListenerTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

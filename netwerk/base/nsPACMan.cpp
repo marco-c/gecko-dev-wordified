@@ -3824,7 +3824,7 @@ forget
 )
 )
 :
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 -
