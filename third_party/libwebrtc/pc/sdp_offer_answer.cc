@@ -3783,7 +3783,7 @@ parameters
 sender
 -
 >
-GetParametersInternal
+GetParametersInternalWithAllLayers
 (
 )
 ;
@@ -3940,7 +3940,7 @@ result
 sender
 -
 >
-SetParametersInternal
+SetParametersInternalWithAllLayers
 (
 parameters
 )
@@ -4093,7 +4093,7 @@ parameters
 sender
 -
 >
-GetParametersInternal
+GetParametersInternalWithAllLayers
 (
 )
 ;
@@ -4760,7 +4760,7 @@ sender_internal
 )
 -
 >
-GetParametersInternal
+GetParametersInternalWithAllLayers
 (
 )
 ;
