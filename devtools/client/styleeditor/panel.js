@@ -544,13 +544,14 @@ stylesheet
 *
 param
 {
-StyleSheetFront
+StyleSheetResource
 }
-front
+stylesheet
 *
 The
-front
-of
+resource
+for
+the
 stylesheet
 to
 find
@@ -621,7 +622,7 @@ used
 /
 selectStyleSheet
 (
-front
+stylesheet
 line
 col
 )
@@ -645,7 +646,7 @@ UI
 .
 selectStyleSheet
 (
-front
+stylesheet
 line
 -
 1
@@ -808,7 +809,7 @@ col
 )
 ;
 }
-getStylesheetFrontForGeneratedURL
+getStylesheetResourceForGeneratedURL
 (
 url
 )
@@ -830,7 +831,7 @@ this
 .
 UI
 .
-getStylesheetFrontForGeneratedURL
+getStylesheetResourceForGeneratedURL
 (
 url
 )

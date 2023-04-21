@@ -27285,9 +27285,9 @@ version
 *
 /
 async
-viewSourceInStyleEditorByFront
+viewSourceInStyleEditorByResource
 (
-stylesheetFront
+stylesheetResource
 line
 column
 )
@@ -27295,11 +27295,11 @@ column
 if
 (
 !
-stylesheetFront
+stylesheetResource
 |
 |
 typeof
-stylesheetFront
+stylesheetResource
 !
 =
 =
@@ -27384,7 +27384,7 @@ perfect
 /
 /
 world
-viewSourceInStyleEditorByFront
+viewSourceInStyleEditorByResource
 would
 always
 get
@@ -27408,7 +27408,7 @@ viewSource
 viewSourceInStyleEditor
 (
 this
-stylesheetFront
+stylesheetResource
 line
 column
 )

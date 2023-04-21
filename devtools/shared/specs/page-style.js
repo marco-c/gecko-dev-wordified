@@ -415,13 +415,6 @@ array
 :
 domstylerule
 "
-sheets
-:
-"
-array
-:
-stylesheet
-"
 matched
 :
 "

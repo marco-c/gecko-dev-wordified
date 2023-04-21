@@ -412,7 +412,7 @@ sheet
 *
 param
 {
-StyleSheetFront
+StyleSheetResource
 }
 relatedSheet
 *
@@ -422,7 +422,7 @@ style
 sheet
 '
 s
-actor
+resource
 *
 param
 {
