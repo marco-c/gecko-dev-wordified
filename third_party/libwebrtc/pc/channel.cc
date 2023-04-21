@@ -1088,7 +1088,7 @@ rtp_transport_
 ;
 RTC_DCHECK
 (
-media_channel
+media_send_channel
 (
 )
 )
@@ -1214,7 +1214,7 @@ rtp_transport_
 ;
 RTC_DCHECK
 (
-media_channel
+media_send_channel
 (
 )
 )
@@ -3183,7 +3183,7 @@ if
 (
 update_demuxer
 )
-media_channel
+media_receive_channel
 (
 )
 -
@@ -3353,7 +3353,7 @@ if
 (
 update_demuxer
 )
-media_channel
+media_receive_channel
 (
 )
 -
@@ -3984,7 +3984,7 @@ identify
 those
 streams
 .
-media_channel
+media_receive_channel
 (
 )
 -
@@ -4327,7 +4327,7 @@ continue
 if
 (
 !
-media_channel
+media_send_channel
 (
 )
 -
@@ -4673,7 +4673,7 @@ ssrc_generator_
 }
 if
 (
-media_channel
+media_send_channel
 (
 )
 -
@@ -4956,7 +4956,7 @@ has_ssrcs
 new_has_unsignaled_ssrcs
 )
 {
-media_channel
+media_receive_channel
 (
 )
 -
@@ -5014,7 +5014,7 @@ first_ssrc
 {
 if
 (
-media_channel
+media_receive_channel
 (
 )
 -
@@ -5207,7 +5207,7 @@ first_ssrc
 {
 if
 (
-media_channel
+media_receive_channel
 (
 )
 -
@@ -5662,7 +5662,7 @@ network_initialized
 )
 )
 ;
-media_channel
+media_send_channel
 (
 )
 -
@@ -5842,7 +5842,7 @@ local_content_direction
 )
 )
 ;
-media_channel
+media_receive_channel
 (
 )
 -
@@ -5887,7 +5887,7 @@ IsReadyToSendMedia_w
 (
 )
 ;
-media_channel
+media_send_channel
 (
 )
 -
@@ -6008,7 +6008,7 @@ update_header_extensions
 =
 true
 ;
-media_channel
+media_send_channel
 (
 )
 -
@@ -6056,7 +6056,7 @@ recv_params
 if
 (
 !
-media_channel
+media_send_channel
 (
 )
 -
@@ -6348,7 +6348,7 @@ mid
 bool
 parameters_applied
 =
-media_channel
+media_send_channel
 (
 )
 -
@@ -6572,7 +6572,7 @@ IsReadyToSendMedia_w
 (
 )
 ;
-media_channel
+media_send_channel
 (
 )
 -
@@ -6684,7 +6684,7 @@ update_header_extensions
 =
 true
 ;
-media_channel
+media_send_channel
 (
 )
 -
@@ -6878,7 +6878,7 @@ false
 if
 (
 !
-media_channel
+media_send_channel
 (
 )
 -
@@ -6998,7 +6998,7 @@ needs_send_params_update
 if
 (
 !
-media_channel
+media_send_channel
 (
 )
 -
@@ -7392,7 +7392,7 @@ false
 if
 (
 !
-media_channel
+media_send_channel
 (
 )
 -
@@ -7456,7 +7456,7 @@ needs_recv_params_update
 if
 (
 !
-media_channel
+media_send_channel
 (
 )
 -

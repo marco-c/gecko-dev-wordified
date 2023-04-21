@@ -448,7 +448,7 @@ return
 voice_channel
 -
 >
-voice_media_channel
+voice_media_send_channel
 (
 )
 ;
@@ -515,7 +515,7 @@ return
 video_channel
 -
 >
-video_media_channel
+video_media_send_channel
 (
 )
 ;

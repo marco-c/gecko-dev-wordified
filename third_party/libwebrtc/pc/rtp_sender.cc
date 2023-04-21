@@ -1214,7 +1214,7 @@ SetMediaChannel
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 media_channel
 )

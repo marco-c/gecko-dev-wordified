@@ -421,7 +421,7 @@ SetMediaChannel
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 media_channel
 )
@@ -936,7 +936,7 @@ SetMediaChannel
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 media_channel
 )
@@ -1945,7 +1945,7 @@ thread
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 media_channel_
 =
