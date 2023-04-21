@@ -3251,6 +3251,8 @@ monitor
 ]
 ;
 }
+#
+endif
 RefPtr
 <
 nsIScreen
@@ -3275,8 +3277,6 @@ aWindow
 )
 ;
 }
-#
-endif
 gint
 ScreenHelperGTK
 :
