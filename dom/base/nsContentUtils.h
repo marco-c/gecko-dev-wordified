@@ -17270,12 +17270,15 @@ the
 internal
 PDF
 viewer
+or
+system
+JS
 .
 *
 /
 static
 bool
-IsPDFJS
+IsSystemOrPDFJS
 (
 JSContext
 *
