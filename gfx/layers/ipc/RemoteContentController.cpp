@@ -1372,6 +1372,11 @@ APZStateChange
 aChange
 int
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 {
 if
@@ -1406,6 +1411,10 @@ NewRunnableMethod
 ScrollableLayerGuid
 APZStateChange
 int
+Maybe
+<
+uint64_t
+>
 >
 (
 "
@@ -1426,6 +1435,7 @@ NotifyAPZStateChange
 aGuid
 aChange
 aArg
+aInputBlockId
 )
 )
 ;
@@ -1445,6 +1455,7 @@ SendNotifyAPZStateChange
 aGuid
 aChange
 aArg
+aInputBlockId
 )
 ;
 }

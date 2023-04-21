@@ -336,6 +336,11 @@ const
 int
 &
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 ;
 mozilla

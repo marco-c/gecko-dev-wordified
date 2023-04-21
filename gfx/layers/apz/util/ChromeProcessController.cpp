@@ -1208,6 +1208,7 @@ point
 scale
 aModifiers
 1
+aInputBlockId
 )
 ;
 break
@@ -1242,6 +1243,7 @@ point
 scale
 aModifiers
 2
+aInputBlockId
 )
 ;
 break
@@ -1494,6 +1496,11 @@ APZStateChange
 aChange
 int
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 {
 if
@@ -1517,6 +1524,10 @@ NewRunnableMethod
 ScrollableLayerGuid
 APZStateChange
 int
+Maybe
+<
+uint64_t
+>
 >
 (
 "
@@ -1537,6 +1548,7 @@ NotifyAPZStateChange
 aGuid
 aChange
 aArg
+aInputBlockId
 )
 )
 ;
@@ -1562,6 +1574,7 @@ aGuid
 mScrollId
 aChange
 aArg
+aInputBlockId
 )
 ;
 }

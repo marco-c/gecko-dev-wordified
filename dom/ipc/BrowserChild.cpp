@@ -8225,6 +8225,7 @@ point
 scale
 aModifiers
 1
+aInputBlockId
 )
 ;
 }
@@ -8271,6 +8272,7 @@ point
 scale
 aModifiers
 2
+aInputBlockId
 )
 ;
 }
@@ -8489,6 +8491,11 @@ const
 int
 &
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 {
 mAPZEventState
@@ -8499,6 +8506,7 @@ ProcessAPZStateChange
 aViewId
 aChange
 aArg
+aInputBlockId
 )
 ;
 nsCOMPtr

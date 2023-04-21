@@ -483,6 +483,11 @@ const
 int
 &
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 {
 mController
@@ -493,6 +498,7 @@ NotifyAPZStateChange
 aGuid
 aChange
 aArg
+aInputBlockId
 )
 ;
 return
