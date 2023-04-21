@@ -273,9 +273,12 @@ recalculateAnyOutdatedFrecencies
 ;
 ok
 (
+(
+await
 frecencyForUrl
 (
 uri
+)
 )
 >
 10000

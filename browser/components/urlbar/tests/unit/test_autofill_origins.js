@@ -2378,6 +2378,7 @@ org
 let
 httpFrec
 =
+await
 frecencyForUrl
 (
 "
@@ -2395,6 +2396,7 @@ com
 let
 httpsFrec
 =
+await
 frecencyForUrl
 (
 "
@@ -2412,6 +2414,7 @@ com
 let
 otherFrec
 =
+await
 frecencyForUrl
 (
 "
@@ -2924,6 +2927,7 @@ org
 let
 httpFrec
 =
+await
 frecencyForUrl
 (
 "
@@ -2941,6 +2945,7 @@ com
 let
 httpsFrec
 =
+await
 frecencyForUrl
 (
 "
@@ -2958,6 +2963,7 @@ com
 let
 otherFrec
 =
+await
 frecencyForUrl
 (
 "
