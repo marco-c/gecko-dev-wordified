@@ -540,9 +540,9 @@ format
 "
 gen_
 {
-base
 }
 "
+base
 )
 .
 into
@@ -1857,10 +1857,10 @@ temp
 "
 const_
 {
-v
 }
 i
 "
+v
 )
 crate
 :
@@ -1895,10 +1895,10 @@ temp
 "
 const_
 {
-v
 }
 u
 "
+v
 )
 crate
 :
@@ -2059,9 +2059,9 @@ temp
 "
 const_
 {
-v
 }
 "
+v
 )
 crate
 :

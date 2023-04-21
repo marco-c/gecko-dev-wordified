@@ -1001,9 +1001,9 @@ destroy
 dx12
 buffer
 {
-e
 }
 "
+e
 )
 }
 ;
@@ -1076,9 +1076,9 @@ destroy
 dx12
 texture
 {
-e
 }
 "
+e
 )
 }
 ;

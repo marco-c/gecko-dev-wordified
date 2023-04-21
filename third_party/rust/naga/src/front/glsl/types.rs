@@ -13,7 +13,7 @@ context
 Context
 Error
 ErrorKind
-Frontend
+Parser
 Result
 Span
 }
@@ -1468,7 +1468,7 @@ None
 )
 }
 impl
-Frontend
+Parser
 {
 /
 /
@@ -1717,11 +1717,11 @@ resolve
 type
 :
 {
-error
 :
 ?
 }
 "
+error
 )
 .
 into
@@ -2220,11 +2220,11 @@ resolve
 type
 :
 {
-error
 :
 ?
 }
 "
+error
 )
 .
 into

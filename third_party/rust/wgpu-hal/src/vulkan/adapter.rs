@@ -1286,6 +1286,8 @@ Features
 SHADER_INT64
 )
 )
+/
+/
 .
 shader_int16
 (
@@ -2680,14 +2682,9 @@ shader_int64
 =
 0
 {
-features
-.
-set
-(
-F
-:
-:
-SHADER_INT16
+/
+/
+if
 self
 .
 core
@@ -2696,8 +2693,7 @@ shader_int16
 !
 =
 0
-)
-;
+{
 /
 /
 if

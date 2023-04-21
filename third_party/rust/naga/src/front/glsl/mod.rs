@@ -26,8 +26,11 @@ documentation
 for
 the
 [
-Frontend
+Parser
 ]
+(
+Parser
+)
 .
 #
 Supported
@@ -206,7 +209,7 @@ to
 parse
 ]
 (
-Frontend
+Parser
 :
 :
 parse
@@ -522,7 +525,7 @@ the
 parse
 ]
 (
-Frontend
+Parser
 :
 :
 parse
@@ -825,7 +828,7 @@ default
 /
 /
 The
-Frontend
+Parser
 is
 the
 central
@@ -845,7 +848,7 @@ To
 instantiate
 a
 new
-Frontend
+Parser
 the
 [
 Default
@@ -867,13 +870,13 @@ the
 associated
 function
 [
-Frontend
+Parser
 :
 :
 default
 ]
 (
-Frontend
+Parser
 :
 :
 default
@@ -885,7 +888,7 @@ will
 return
 a
 new
-Frontend
+Parser
 instance
 .
 /
@@ -905,7 +908,7 @@ the
 parse
 ]
 (
-Frontend
+Parser
 :
 :
 parse
@@ -944,7 +947,7 @@ code
 /
 /
 The
-Frontend
+Parser
 also
 provides
 the
@@ -952,7 +955,7 @@ the
 metadata
 ]
 (
-Frontend
+Parser
 :
 :
 metadata
@@ -1035,7 +1038,7 @@ glsl
 :
 :
 {
-Frontend
+Parser
 Options
 }
 ;
@@ -1084,9 +1087,9 @@ main
 /
 let
 mut
-frontend
+parser
 =
-Frontend
+Parser
 :
 :
 default
@@ -1113,7 +1116,7 @@ Vertex
 /
 /
 /
-frontend
+parser
 .
 parse
 (
@@ -1154,7 +1157,7 @@ shader
 reusing
 the
 same
-Frontend
+Parser
 /
 /
 /
@@ -1181,7 +1184,7 @@ the
 parse
 ]
 (
-Frontend
+Parser
 :
 :
 parse
@@ -1195,7 +1198,7 @@ the
 /
 /
 /
-Frontend
+Parser
 so
 no
 extra
@@ -1215,7 +1218,7 @@ Default
 ]
 pub
 struct
-Frontend
+Parser
 {
 meta
 :
@@ -1266,7 +1269,7 @@ module
 Module
 }
 impl
-Frontend
+Parser
 {
 fn
 reset
@@ -1404,7 +1407,7 @@ calls
 using
 the
 same
-Frontend
+Parser
 and
 different
 shaders
