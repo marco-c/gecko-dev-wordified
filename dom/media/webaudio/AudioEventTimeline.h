@@ -2315,10 +2315,10 @@ value
 )
 {
 return
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 value
 )

@@ -646,7 +646,10 @@ override
 {
 MOZ_ASSERT
 (
-IsFinite
+std
+:
+:
+isfinite
 (
 aValue
 )

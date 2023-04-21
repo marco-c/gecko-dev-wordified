@@ -540,7 +540,10 @@ _f
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 _f
 )

@@ -1925,10 +1925,10 @@ result
 *
 aErrorCode
 =
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 result
 )

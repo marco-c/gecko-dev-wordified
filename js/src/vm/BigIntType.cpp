@@ -1141,12 +1141,6 @@ using
 mozilla
 :
 :
-IsFinite
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
@@ -23294,10 +23288,10 @@ value
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 y
 )

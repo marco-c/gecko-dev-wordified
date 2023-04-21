@@ -11370,7 +11370,10 @@ bug
 .
 if
 (
-IsInfinite
+std
+:
+:
+isinf
 (
 aValueAsNumber
 )

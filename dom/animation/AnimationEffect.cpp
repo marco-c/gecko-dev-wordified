@@ -1306,7 +1306,10 @@ offset
 .
 if
 (
-IsFinite
+std
+:
+:
+isfinite
 (
 overallProgress
 )
@@ -1472,7 +1475,10 @@ progress
 double
 progress
 =
-IsFinite
+std
+:
+:
+isfinite
 (
 overallProgress
 )
@@ -1923,7 +1929,10 @@ mBeforeFlag
 }
 MOZ_ASSERT
 (
-IsFinite
+std
+:
+:
+isfinite
 (
 progress
 )

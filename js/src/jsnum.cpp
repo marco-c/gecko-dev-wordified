@@ -9268,10 +9268,10 @@ d
 )
 {
 return
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 d
 )
