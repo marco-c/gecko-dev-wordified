@@ -611,7 +611,7 @@ requestContentLength
 bool
 requestBodyHasHeaders
 uint64_t
-topLevelOuterContentWindowId
+browserId
 uint8_t
 httpTrafficCategory
 uint64_t
@@ -933,7 +933,7 @@ bug
 1512479
 .
 this
-topLevelOuterContentWindowId
+browserId
 static_cast
 <
 HttpTrafficCategory

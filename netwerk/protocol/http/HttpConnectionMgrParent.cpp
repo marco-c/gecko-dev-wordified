@@ -771,7 +771,7 @@ nsresult
 HttpConnectionMgrParent
 :
 :
-UpdateCurrentTopBrowsingContextId
+UpdateCurrentBrowserId
 (
 uint64_t
 aId
@@ -801,7 +801,7 @@ Unused
 self
 -
 >
-SendUpdateCurrentTopBrowsingContextId
+SendUpdateCurrentBrowserId
 (
 aId
 )

@@ -507,7 +507,7 @@ void
 ConnectionHandle
 :
 :
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 id

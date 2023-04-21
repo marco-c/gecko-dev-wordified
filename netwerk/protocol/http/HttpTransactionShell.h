@@ -544,7 +544,7 @@ PSM
 /
 /
 param
-topBrowsingContextId
+browserId
 /
 /
 indicate
@@ -552,17 +552,15 @@ the
 id
 of
 the
-top
-browsing
-context
+browser
 in
 which
-/
-/
 this
 transaction
 is
 being
+/
+/
 loaded
 .
 [
@@ -599,7 +597,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topBrowsingContextId
+browserId
 HttpTrafficCategory
 trafficCategory
 nsIRequestContext
@@ -1211,7 +1209,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topBrowsingContextId
+browserId
 \
 HttpTrafficCategory
 trafficCategory

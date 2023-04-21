@@ -1450,7 +1450,7 @@ aContentWindowId
 override
 ;
 NS_IMETHOD
-GetTopBrowsingContextId
+GetBrowserId
 (
 uint64_t
 *
@@ -1459,7 +1459,7 @@ aId
 override
 ;
 NS_IMETHOD
-SetTopBrowsingContextId
+SetBrowserId
 (
 uint64_t
 aId
@@ -4462,7 +4462,7 @@ uint64_t
 mContentWindowId
 ;
 uint64_t
-mTopBrowsingContextId
+mBrowserId
 ;
 int64_t
 mAltDataLength
@@ -6018,7 +6018,7 @@ RemoveAsNonTailRequest
 )
 ;
 void
-EnsureTopBrowsingContextId
+EnsureBrowserId
 (
 )
 ;

@@ -1468,7 +1468,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topBrowsingContextId
+browserId
 HttpTrafficCategory
 trafficCategory
 nsIRequestContext
@@ -1575,9 +1575,9 @@ move
 aOnPushCallback
 )
 ;
-mTopBrowsingContextId
+mBrowserId
 =
-topBrowsingContextId
+browserId
 ;
 mTrafficCategory
 =
@@ -5949,12 +5949,12 @@ ConnMgr
 )
 -
 >
-CurrentTopBrowsingContextId
+CurrentBrowserId
 (
 )
 !
 =
-mTopBrowsingContextId
+mBrowserId
 )
 {
 nsHttp

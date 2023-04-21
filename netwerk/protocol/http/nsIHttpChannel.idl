@@ -3358,11 +3358,7 @@ topLevelContentWindowId
 ID
 of
 the
-top
--
-level
-browsing
-context
+browser
 for
 this
 channel
@@ -3398,7 +3394,7 @@ must_use
 ]
 attribute
 uint64_t
-topBrowsingContextId
+browserId
 ;
 /
 *

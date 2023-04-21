@@ -373,7 +373,7 @@ return
 0
 .
 uint64_t
-TopBrowsingContextId
+BrowserId
 (
 )
 override

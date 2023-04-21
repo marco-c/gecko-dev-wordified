@@ -1364,12 +1364,12 @@ nsHttpConnectionInfo
 )
 ;
 uint64_t
-CurrentTopBrowsingContextId
+CurrentBrowserId
 (
 )
 {
 return
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 ;
 }
 void
@@ -3145,7 +3145,7 @@ ARefBase
 )
 ;
 void
-OnMsgUpdateCurrentTopBrowsingContextId
+OnMsgUpdateCurrentBrowserId
 (
 int32_t
 ARefBase
@@ -3466,7 +3466,7 @@ nsCString
 mLogData
 ;
 uint64_t
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 {
 0
 }
@@ -4064,7 +4064,7 @@ and
 /
 /
 |
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 |
 to
 select
@@ -4090,7 +4090,7 @@ tab
 id
 .
 void
-NotifyConnectionOfBrowsingContextIdChange
+NotifyConnectionOfBrowserIdChange
 (
 uint64_t
 previousId

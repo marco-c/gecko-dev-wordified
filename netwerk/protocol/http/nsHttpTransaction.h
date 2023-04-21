@@ -1273,13 +1273,13 @@ Refused0RTT
 )
 ;
 uint64_t
-TopBrowsingContextId
+BrowserId
 (
 )
 override
 {
 return
-mTopBrowsingContextId
+mBrowserId
 ;
 }
 void
@@ -3275,7 +3275,7 @@ TimeDuration
 mPendingDurationTime
 ;
 uint64_t
-mTopBrowsingContextId
+mBrowserId
 {
 0
 }

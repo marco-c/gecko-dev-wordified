@@ -948,7 +948,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topLevelOuterContentWindowId
+browserId
 HttpTrafficCategory
 trafficCategory
 nsIRequestContext
@@ -1350,7 +1350,7 @@ requestHead
 ipcStream
 requestContentLength
 requestBodyHasHeaders
-topLevelOuterContentWindowId
+browserId
 static_cast
 <
 uint8_t

@@ -1885,7 +1885,7 @@ false
 }
 ;
 uint64_t
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 ;
 /
 /

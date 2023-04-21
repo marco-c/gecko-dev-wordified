@@ -992,7 +992,7 @@ aPreferredAlternativeTypes
 const
 uint64_t
 &
-aTopBrowsingContextId
+aBrowserId
 const
 TimeStamp
 &

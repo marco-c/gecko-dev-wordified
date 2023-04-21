@@ -3955,7 +3955,7 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-GetTopBrowsingContextId
+GetBrowserId
 (
 uint64_t
 *
@@ -3971,7 +3971,7 @@ NS_ERROR_NULL_POINTER
 mHttpChannel
 -
 >
-GetTopBrowsingContextId
+GetBrowserId
 (
 aId
 )
@@ -3981,7 +3981,7 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-SetTopBrowsingContextId
+SetBrowserId
 (
 uint64_t
 aId
@@ -3996,7 +3996,7 @@ NS_ERROR_NULL_POINTER
 mHttpChannel
 -
 >
-SetTopBrowsingContextId
+SetBrowserId
 (
 aId
 )

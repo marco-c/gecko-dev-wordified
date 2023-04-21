@@ -621,7 +621,7 @@ PrintDiagnostics
 ;
 virtual
 nsresult
-UpdateCurrentTopBrowsingContextId
+UpdateCurrentBrowserId
 (
 uint64_t
 aId
@@ -1380,7 +1380,7 @@ override
 \
 virtual
 nsresult
-UpdateCurrentTopBrowsingContextId
+UpdateCurrentBrowserId
 (
 uint64_t
 aId

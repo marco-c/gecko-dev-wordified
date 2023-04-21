@@ -378,7 +378,7 @@ IPCResult
 HttpConnectionMgrChild
 :
 :
-RecvUpdateCurrentTopBrowsingContextId
+RecvUpdateCurrentBrowserId
 (
 const
 uint64_t
@@ -389,7 +389,7 @@ aId
 mConnMgr
 -
 >
-UpdateCurrentTopBrowsingContextId
+UpdateCurrentBrowserId
 (
 aId
 )

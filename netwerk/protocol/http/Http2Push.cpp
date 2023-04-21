@@ -745,7 +745,7 @@ QueryHttpTransaction
 )
 -
 >
-TopBrowsingContextId
+BrowserId
 (
 )
 :
@@ -958,12 +958,12 @@ much
 matter
 anyway
 .
-mTransactionTabId
+mTransactionBrowserId
 =
 aAssociatedStream
 -
 >
-TransactionTabId
+TransactionBrowserId
 (
 )
 ;
@@ -2185,7 +2185,7 @@ void
 Http2PushedStream
 :
 :
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 id
@@ -2212,7 +2212,7 @@ appropriately
 mConsumerStream
 -
 >
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 id
 )
@@ -2230,7 +2230,7 @@ ActiveTabPriority
 )
 )
 ;
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 =
 id
 ;
@@ -2265,10 +2265,10 @@ mPriorityDependency
 ;
 if
 (
-mTransactionTabId
+mTransactionBrowserId
 !
 =
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 {
 mPriorityDependency

@@ -247,7 +247,7 @@ QueryHttpTransaction
 )
 -
 >
-TopBrowsingContextId
+BrowserId
 (
 )
 :

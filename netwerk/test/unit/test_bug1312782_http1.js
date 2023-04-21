@@ -435,7 +435,7 @@ stop
 function
 createHttpRequest
 (
-browsingContextId
+browserId
 requestId
 )
 {
@@ -454,9 +454,9 @@ uri
 ;
 chan
 .
-topBrowsingContextId
+browserId
 =
-browsingContextId
+browserId
 ;
 var
 listner
@@ -1178,11 +1178,7 @@ net
 :
 current
 -
-top
--
-browsing
--
-context
+browser
 -
 id
 "
