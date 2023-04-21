@@ -2965,7 +2965,7 @@ PrepareForInstantiate
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -2989,14 +2989,14 @@ pseudoFrame
 ;
 if
 (
-cx
+maybeCx
 )
 {
 pseudoFrame
 .
 emplace
 (
-cx
+maybeCx
 "
 stencil
 instantiate
