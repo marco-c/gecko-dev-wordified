@@ -10115,7 +10115,7 @@ GetReferrerPolicy
 namespace
 {
 class
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 :
 public
 Runnable
@@ -10153,7 +10153,7 @@ mStopTime
 ;
 public
 :
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 (
 ScriptLoadRequest
 *
@@ -10169,7 +10169,7 @@ Runnable
 dom
 :
 :
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 "
 )
 mRequest
@@ -10302,7 +10302,7 @@ Dispatch
 (
 already_AddRefed
 <
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 >
 &
 &
@@ -10311,7 +10311,7 @@ aSelf
 {
 RefPtr
 <
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 >
 self
 =
@@ -10971,7 +10971,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 :
 :
 Run
@@ -11182,7 +11182,7 @@ rv
 }
 static
 void
-OffThreadScriptLoaderCallback
+OffThreadCompilationCompleteCallback
 (
 JS
 :
@@ -11197,13 +11197,13 @@ aCallbackData
 {
 RefPtr
 <
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 >
 aRunnable
 =
 static_cast
 <
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 *
 >
 (
@@ -11234,7 +11234,7 @@ SetToken
 aToken
 )
 ;
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 :
 :
 Dispatch
@@ -11251,7 +11251,7 @@ nsresult
 ScriptLoader
 :
 :
-AttemptAsyncScriptCompile
+AttemptOffThreadScriptCompile
 (
 ScriptLoadRequest
 *
@@ -11591,12 +11591,12 @@ NS_OK
 }
 RefPtr
 <
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 >
 runnable
 =
 new
-NotifyOffThreadScriptLoadCompletedRunnable
+OffThreadCompilationCompleteRunnable
 (
 aRequest
 this
@@ -11612,7 +11612,7 @@ will
 call
 /
 /
-OffThreadScriptLoaderCallback
+OffThreadCompilationCompleteCallback
 were
 we
 will
@@ -11908,7 +11908,7 @@ JS
 OffThreadCompileCallback
 callback
 =
-OffThreadScriptLoaderCallback
+OffThreadCompilationCompleteCallback
 ;
 if
 (
@@ -12405,7 +12405,7 @@ false
 nsresult
 rv
 =
-AttemptAsyncScriptCompile
+AttemptOffThreadScriptCompile
 (
 aRequest
 &
@@ -23306,7 +23306,7 @@ false
 ;
 rv
 =
-AttemptAsyncScriptCompile
+AttemptOffThreadScriptCompile
 (
 request
 &
@@ -23428,7 +23428,7 @@ false
 nsresult
 rv
 =
-AttemptAsyncScriptCompile
+AttemptOffThreadScriptCompile
 (
 aRequest
 &
