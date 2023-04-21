@@ -2407,7 +2407,10 @@ icon
 :
 extension
 .
-iconURL
+getPreferredIcon
+(
+32
+)
 currentEngine
 :
 defaultEngine

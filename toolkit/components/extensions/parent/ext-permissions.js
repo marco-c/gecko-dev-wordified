@@ -664,7 +664,10 @@ context
 .
 extension
 .
-iconURL
+getPreferredIcon
+(
+32
+)
 permissions
 :
 {

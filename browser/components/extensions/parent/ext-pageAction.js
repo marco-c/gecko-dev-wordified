@@ -831,7 +831,7 @@ getProperty
 (
 null
 "
-title
+icon
 "
 )
 pinnedToUrlbar
