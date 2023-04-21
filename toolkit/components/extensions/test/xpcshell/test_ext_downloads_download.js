@@ -1602,6 +1602,8 @@ join
 WINDOWS
 ?
 "
+C
+:
 \
 \
 tmp
