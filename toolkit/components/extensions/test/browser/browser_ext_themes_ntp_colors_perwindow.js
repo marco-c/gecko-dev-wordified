@@ -1251,7 +1251,9 @@ chosen
 because
 LightweightThemeChild
 .
-jsm
+sys
+.
+mjs
 /
 /
 treats

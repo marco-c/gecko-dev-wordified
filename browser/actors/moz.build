@@ -154,7 +154,9 @@ Files
 "
 LightweightThemeChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -516,7 +518,9 @@ mjs
 "
 LightweightThemeChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 LinkHandlerChild
