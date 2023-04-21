@@ -4194,6 +4194,10 @@ true
 )
 ;
 }
+RecomputeCanExecuteScripts
+(
+)
+;
 }
 /
 /
