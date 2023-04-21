@@ -106,7 +106,9 @@ EXTRA_JS_MODULES
 "
 WebProtocolHandlerRegistrar
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

@@ -81,15 +81,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-WebProtocolHandlerRegistrar
-"
-]
-;
 const
 STRING_BUNDLE_URI
 =
@@ -109,6 +100,7 @@ subscribe
 properties
 "
 ;
+export
 function
 WebProtocolHandlerRegistrar
 (
