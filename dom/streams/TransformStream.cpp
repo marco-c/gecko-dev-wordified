@@ -1042,7 +1042,6 @@ aStream
 SetBackpressure
 (
 false
-aRv
 )
 ;
 }
@@ -3379,7 +3378,6 @@ mStream
 SetBackpressure
 (
 false
-aRv
 )
 ;
 /
@@ -3632,9 +3630,6 @@ SetBackpressure
 (
 bool
 aBackpressure
-ErrorResult
-&
-aRv
 )
 {
 /
@@ -4080,7 +4075,6 @@ true
 SetBackpressure
 (
 true
-aRv
 )
 ;
 if

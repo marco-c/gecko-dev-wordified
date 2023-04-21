@@ -403,9 +403,6 @@ aReader
 ReadableStream
 *
 aStream
-ErrorResult
-&
-aRv
 )
 {
 /
@@ -822,7 +819,6 @@ ReadableStreamReaderGenericInitialize
 (
 reader
 streamPtr
-aRv
 )
 )
 {
@@ -2898,7 +2894,6 @@ ReadableStreamReaderGenericInitialize
 (
 aReader
 aStream
-aRv
 )
 )
 {
