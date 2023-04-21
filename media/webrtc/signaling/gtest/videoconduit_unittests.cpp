@@ -93,7 +93,7 @@ h
 #
 include
 "
-ConcreteConduitControl
+Canonicals
 .
 h
 "
@@ -601,7 +601,7 @@ WebrtcVideoConduit
 >
 mVideoConduit
 ;
-ConcreteConduitControl
+ConcreteControl
 mControl
 ;
 }

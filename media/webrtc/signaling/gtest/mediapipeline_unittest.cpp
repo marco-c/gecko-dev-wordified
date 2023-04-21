@@ -116,7 +116,7 @@ h
 #
 include
 "
-ConcreteConduitControl
+Canonicals
 .
 h
 "
@@ -1523,7 +1523,7 @@ SharedWebrtcState
 aSharedState
 )
 :
-conduit_control_
+control_
 (
 aSharedState
 -
@@ -1607,7 +1607,7 @@ audio_conduit_
 InitControl
 (
 &
-conduit_control_
+control_
 )
 ;
 return
@@ -1794,7 +1794,7 @@ if
 audio_conduit_
 )
 {
-conduit_control_
+control_
 .
 Update
 (
@@ -2044,8 +2044,8 @@ RtcpPacketsReceived
 }
 protected
 :
-ConcreteConduitControl
-conduit_control_
+ConcreteControl
+control_
 ;
 AudioCodecConfig
 audio_config_
@@ -2151,7 +2151,7 @@ TestAgent
 aSharedState
 )
 {
-conduit_control_
+control_
 .
 Update
 (
@@ -2245,7 +2245,7 @@ Start
 (
 )
 ;
-conduit_control_
+control_
 .
 Update
 (
@@ -2307,7 +2307,7 @@ TestAgent
 aSharedState
 )
 {
-conduit_control_
+control_
 .
 Update
 (
@@ -2414,7 +2414,7 @@ Start
 (
 )
 ;
-conduit_control_
+control_
 .
 Update
 (
