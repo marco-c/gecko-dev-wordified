@@ -1859,7 +1859,7 @@ input
 .
 initForSelfHostingGlobal
 (
-cx
+fc
 )
 )
 {
