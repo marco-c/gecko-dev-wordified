@@ -9374,7 +9374,9 @@ menuitem
 -
 screenshot
 "
-true
+"
+context_menu
+"
 )
 ;
 }
