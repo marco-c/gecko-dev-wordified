@@ -4909,6 +4909,12 @@ ReportMarkTime
 )
 ;
 bool
+canMarkInParallel
+(
+)
+const
+;
+bool
 hasMarkingWork
 (
 MarkColor
@@ -6313,6 +6319,12 @@ MainThreadOrGCTaskData
 size_t
 >
 helperThreadCount
+;
+MainThreadData
+<
+size_t
+>
+markingThreadCount
 ;
 /
 /
