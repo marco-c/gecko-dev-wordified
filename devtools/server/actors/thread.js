@@ -7338,6 +7338,10 @@ onStep
 eslint
 -
 disable
+-
+next
+-
+line
 no
 -
 fallthrough
@@ -7362,6 +7366,10 @@ onStep
 eslint
 -
 disable
+-
+next
+-
+line
 no
 -
 fallthrough
