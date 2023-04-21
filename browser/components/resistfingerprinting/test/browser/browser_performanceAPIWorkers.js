@@ -381,7 +381,7 @@ add_task
 (
 async
 function
-runRPTestsForWorker
+runRFPestsForWorker
 (
 )
 {
@@ -394,7 +394,7 @@ false
 100
 runWorkerTest
 "
-runRPTests
+runTimerTests
 "
 )
 ;
@@ -407,7 +407,7 @@ false
 13
 runWorkerTest
 "
-runRPTests
+runTimerTests
 "
 )
 ;
@@ -422,7 +422,7 @@ false
 13
 runWorkerTest
 "
-runRPTests
+runTimerTests
 "
 )
 ;
@@ -446,7 +446,7 @@ false
 100
 runWorkerTest
 "
-runRTPTests
+runTimerTests
 "
 )
 ;
@@ -459,7 +459,7 @@ false
 13
 runWorkerTest
 "
-runRTPTests
+runTimerTests
 "
 )
 ;
@@ -474,7 +474,7 @@ false
 13
 runWorkerTest
 "
-runRTPTests
+runTimerTests
 "
 )
 ;
