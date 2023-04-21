@@ -172,6 +172,7 @@ js
 '
 ;
 import
+type
 {
 Browser
 BrowserContext
@@ -180,6 +181,9 @@ IsPageTargetCallback
 from
 '
 .
+.
+/
+api
 /
 Browser
 .

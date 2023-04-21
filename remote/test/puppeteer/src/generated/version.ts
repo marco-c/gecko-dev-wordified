@@ -10,10 +10,10 @@ const
 packageVersion
 =
 '
-17
+18
 .
-1
+0
 .
-2
+0
 '
 ;

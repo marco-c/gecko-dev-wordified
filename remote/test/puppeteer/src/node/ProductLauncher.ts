@@ -147,7 +147,7 @@ from
 .
 .
 /
-common
+api
 /
 Browser
 .

@@ -150,7 +150,6 @@ import
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
-describeFailsFirefox
 }
 from
 '
@@ -206,7 +205,7 @@ setupTestPageAndContextHooks
 (
 )
 ;
-describeFailsFirefox
+describe
 (
 '
 input
@@ -605,7 +604,7 @@ file
 }
 )
 ;
-describeFailsFirefox
+describe
 (
 '
 Page
@@ -1257,7 +1256,7 @@ true
 }
 )
 ;
-describeFailsFirefox
+describe
 (
 '
 FileChooser
@@ -2510,7 +2509,7 @@ handled
 }
 )
 ;
-describeFailsFirefox
+describe
 (
 '
 FileChooser
@@ -2834,7 +2833,7 @@ handled
 }
 )
 ;
-describeFailsFirefox
+describe
 (
 '
 FileChooser

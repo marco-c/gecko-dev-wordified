@@ -30,7 +30,7 @@ js
 ;
 import
 {
-Browser
+CDPBrowser
 }
 from
 '
@@ -211,7 +211,7 @@ PuppeteerNodeLaunchOptions
 :
 Promise
 <
-Browser
+CDPBrowser
 >
 {
 const
@@ -781,7 +781,7 @@ _preferredRevision
 browser
 =
 await
-Browser
+CDPBrowser
 .
 _create
 (

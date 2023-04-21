@@ -3534,7 +3534,9 @@ puppeteer
 issues
 /
 4110
-xit
+it
+.
+skip
 (
 '
 should

@@ -133,7 +133,6 @@ License
 /
 import
 {
-describeChromeOnly
 getTestState
 }
 from
@@ -175,8 +174,8 @@ expect
 ;
 import
 {
-Browser
-BrowserContext
+CDPBrowser
+CDPBrowserContext
 }
 from
 '
@@ -199,7 +198,7 @@ Browser
 js
 '
 ;
-describeChromeOnly
+describe
 (
 '
 TargetManager
@@ -236,12 +235,12 @@ flag
 let
 browser
 :
-Browser
+CDPBrowser
 ;
 let
 context
 :
-BrowserContext
+CDPBrowserContext
 ;
 before
 (
@@ -263,6 +262,7 @@ getTestState
 ;
 browser
 =
+(
 await
 puppeteer
 .
@@ -333,6 +333,9 @@ MAP
 }
 )
 )
+)
+as
+CDPBrowser
 ;
 }
 )

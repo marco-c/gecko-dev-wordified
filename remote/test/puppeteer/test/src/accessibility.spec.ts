@@ -175,7 +175,6 @@ import
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
-describeFailsFirefox
 }
 from
 '
@@ -188,7 +187,7 @@ utils
 js
 '
 ;
-describeFailsFirefox
+describe
 (
 '
 Accessibility
@@ -2347,7 +2346,7 @@ plaintext
 only
 "
 .
-describeFailsFirefox
+describe
 (
 '
 plaintext

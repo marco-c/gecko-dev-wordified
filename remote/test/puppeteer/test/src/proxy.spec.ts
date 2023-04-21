@@ -155,8 +155,6 @@ os
 import
 {
 getTestState
-describeFailsFirefox
-itFailsWindows
 }
 from
 '
@@ -200,7 +198,7 @@ cjs
 /
 puppeteer
 /
-common
+api
 /
 Browser
 .
@@ -426,7 +424,7 @@ emptyPagePath
 }
 ;
 }
-describeFailsFirefox
+describe
 (
 '
 request
@@ -1268,7 +1266,7 @@ and
 .
 *
 /
-itFailsWindows
+it
 (
 '
 should

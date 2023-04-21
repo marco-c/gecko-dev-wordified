@@ -202,7 +202,7 @@ from
 .
 .
 /
-common
+api
 /
 Browser
 .
@@ -583,6 +583,13 @@ productName
 :
 Product
 ;
+/
+*
+*
+*
+internal
+*
+/
 _preferredRevision
 :
 string

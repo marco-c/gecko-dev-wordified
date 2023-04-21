@@ -143,7 +143,6 @@ import
 getTestState
 setupTestPageAndContextHooks
 setupTestBrowserHooks
-describeChromeOnly
 }
 from
 '
@@ -156,7 +155,7 @@ utils
 js
 '
 ;
-describeChromeOnly
+describe
 (
 '
 Input
