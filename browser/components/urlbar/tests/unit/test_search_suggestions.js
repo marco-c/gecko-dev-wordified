@@ -720,6 +720,13 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
+maxResultCount
+:
+UrlbarUtils
+.
+MAX_OMNIBOX_RESULT_COUNT
+-
+1
 }
 .
 .
