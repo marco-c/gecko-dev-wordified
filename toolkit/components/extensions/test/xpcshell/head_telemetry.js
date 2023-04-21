@@ -1960,9 +1960,16 @@ extensionApisDnr
 {
 metric
 }
+{
+label
+?
 .
 {
 label
+}
+:
+"
+"
 }
 (
 {
