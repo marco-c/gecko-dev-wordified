@@ -120,11 +120,7 @@ include
 "
 modules
 /
-desktop_capture
-/
-linux
-/
-wayland
+portal
 /
 scoped_glib
 .
@@ -135,11 +131,7 @@ include
 "
 modules
 /
-desktop_capture
-/
-linux
-/
-wayland
+portal
 /
 xdg_desktop_portal_utils
 .

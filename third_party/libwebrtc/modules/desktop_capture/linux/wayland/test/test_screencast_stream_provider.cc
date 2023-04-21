@@ -151,11 +151,7 @@ include
 "
 modules
 /
-desktop_capture
-/
-linux
-/
-wayland
+portal
 /
 pipewire_utils
 .

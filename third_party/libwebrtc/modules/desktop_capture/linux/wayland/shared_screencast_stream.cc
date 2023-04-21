@@ -188,7 +188,7 @@ linux
 /
 wayland
 /
-pipewire_utils
+screencast_stream_utils
 .
 h
 "
@@ -197,13 +197,9 @@ include
 "
 modules
 /
-desktop_capture
+portal
 /
-linux
-/
-wayland
-/
-screencast_stream_utils
+pipewire_utils
 .
 h
 "
