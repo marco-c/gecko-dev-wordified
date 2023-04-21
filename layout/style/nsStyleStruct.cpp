@@ -7456,6 +7456,14 @@ mPage
 !
 =
 mPage
+|
+|
+aNewData
+.
+mPageOrientation
+!
+=
+mPageOrientation
 )
 {
 return
