@@ -387,7 +387,10 @@ returnValue_
 argsObj_
 &
 thisArgument_
-ReadFrame_Actuals
+ReadFrameArgsBehavior
+:
+:
+ActualsAndFormals
 fallback
 )
 ;
