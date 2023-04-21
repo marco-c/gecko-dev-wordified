@@ -8437,9 +8437,12 @@ release_artifacts
 "
 ]
 =
+sorted
+(
 list
 (
 artifacts
+)
 )
 payload_builder
 (
