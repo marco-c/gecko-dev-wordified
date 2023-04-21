@@ -1093,9 +1093,7 @@ context
 [
 wikiEngine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ]
 )
 ;
@@ -1106,9 +1104,7 @@ equal
 host
 wikiEngine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 "
 The
 search

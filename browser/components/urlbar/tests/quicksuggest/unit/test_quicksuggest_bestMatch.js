@@ -1915,9 +1915,7 @@ stripPublicSuffixFromHost
 (
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 )
 providesSearchMode
 :
