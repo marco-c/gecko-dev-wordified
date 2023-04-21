@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+ComputedStyleInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
