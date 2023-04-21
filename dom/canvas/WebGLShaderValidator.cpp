@@ -375,9 +375,11 @@ WorkAroundDriverBugs
 )
 )
 {
-#
-ifdef
-XP_MACOSX
+if
+(
+kIsMacOS
+)
+{
 /
 /
 Work
@@ -448,6 +450,12 @@ initOutputVariables
 =
 true
 ;
+options
+.
+initGLPointSize
+=
+true
+;
 if
 (
 gl
@@ -496,8 +504,7 @@ rewriteTexelFetchOffsetToTexelFetch
 true
 ;
 }
-#
-endif
+}
 if
 (
 !
