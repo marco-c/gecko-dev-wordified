@@ -149,7 +149,7 @@ include
 "
 mozilla
 /
-ServoStyleConstsInlines
+ServoStyleConsts
 .
 h
 "
