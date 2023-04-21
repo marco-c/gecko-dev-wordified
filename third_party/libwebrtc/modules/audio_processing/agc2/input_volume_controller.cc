@@ -2908,7 +2908,7 @@ channel
 ]
 -
 >
-min_mic_level
+clipped_level_min
 (
 )
 kMaxMicLevel
