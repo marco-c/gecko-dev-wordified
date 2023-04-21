@@ -819,6 +819,8 @@ dispatch
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -849,6 +851,7 @@ pendingLocation
 .
 column
 }
+)
 )
 )
 ;
