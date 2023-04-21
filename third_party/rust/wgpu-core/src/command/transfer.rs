@@ -2340,6 +2340,13 @@ TextureDescriptor
 <
 (
 )
+Vec
+<
+wgt
+:
+:
+TextureFormat
+>
 >
 texture_side
 :

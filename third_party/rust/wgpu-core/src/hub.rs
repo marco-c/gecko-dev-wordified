@@ -9656,12 +9656,12 @@ str
 factory
 :
 G
-backends
+instance_desc
 :
 wgt
 :
 :
-Backends
+InstanceDescriptor
 )
 -
 >
@@ -9691,7 +9691,7 @@ Instance
 new
 (
 name
-backends
+instance_desc
 )
 surfaces
 :

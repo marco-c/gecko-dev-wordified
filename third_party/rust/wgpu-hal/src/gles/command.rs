@@ -3488,7 +3488,7 @@ TextureSampleType
 Depth
 =
 >
-unimplemented
+unreachable
 !
 (
 )

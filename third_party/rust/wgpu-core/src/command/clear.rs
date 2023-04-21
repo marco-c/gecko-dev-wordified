@@ -2246,6 +2246,13 @@ TextureDescriptor
 <
 (
 )
+Vec
+<
+wgt
+:
+:
+TextureFormat
+>
 >
 alignments
 :

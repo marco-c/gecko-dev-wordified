@@ -1237,6 +1237,12 @@ usage
 config
 .
 usage
+view_formats
+:
+vec
+!
+[
+]
 }
 hal_usage
 :
