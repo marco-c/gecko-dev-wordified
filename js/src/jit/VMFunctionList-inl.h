@@ -1517,15 +1517,6 @@ FinalSuspend
 \
 _
 (
-FinishBoundFunctionInit
-JSFunction
-:
-:
-finishBoundFunctionInit
-)
-\
-_
-(
 FreshenLexicalEnv
 js
 :

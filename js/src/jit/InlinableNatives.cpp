@@ -1301,12 +1301,6 @@ case
 InlinableNative
 :
 :
-IntrinsicFinishBoundFunctionInit
-:
-case
-InlinableNative
-:
-:
 IntrinsicIsPackedArray
 :
 case

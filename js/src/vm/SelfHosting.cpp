@@ -13280,7 +13280,7 @@ intrinsic_DumpMessage
 1
 0
 )
-JS_INLINABLE_FN
+JS_FN
 (
 "
 FinishBoundFunctionInit
@@ -13288,7 +13288,6 @@ FinishBoundFunctionInit
 intrinsic_FinishBoundFunctionInit
 3
 0
-IntrinsicFinishBoundFunctionInit
 )
 JS_FN
 (
