@@ -1380,6 +1380,11 @@ mMaxTextureSize
 =
 0
 ;
+bool
+mRasterizationTruncates
+=
+false
+;
 /
 /
 The

@@ -144,6 +144,13 @@ h
 #
 include
 "
+GLVendor
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
@@ -3613,6 +3620,12 @@ SurfaceDescriptor
 Type
 >
 uploadableSdTypes
+;
+gl
+:
+:
+GLVendor
+vendor
 ;
 }
 ;

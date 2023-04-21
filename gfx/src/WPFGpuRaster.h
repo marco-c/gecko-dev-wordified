@@ -359,6 +359,10 @@ bool
 need_outside
 =
 false
+bool
+rasterization_truncates
+=
+false
 OutputVertex
 *
 output_ptr
