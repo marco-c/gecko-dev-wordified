@@ -982,6 +982,14 @@ runFromMainThread
 (
 )
 ;
+void
+runFromMainThread
+(
+AutoLockHelperThreadState
+&
+lock
+)
+;
 /
 /
 If
