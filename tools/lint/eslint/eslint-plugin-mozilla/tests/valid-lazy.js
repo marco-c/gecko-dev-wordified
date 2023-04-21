@@ -239,7 +239,9 @@ parserOptions
 {
 ecmaVersion
 :
-13
+"
+latest
+"
 }
 }
 )

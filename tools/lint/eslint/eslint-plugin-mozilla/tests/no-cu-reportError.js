@@ -241,7 +241,9 @@ parserOptions
 {
 ecmaVersion
 :
-9
+"
+latest
+"
 }
 }
 )
