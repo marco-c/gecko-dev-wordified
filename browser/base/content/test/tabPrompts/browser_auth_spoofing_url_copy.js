@@ -527,7 +527,7 @@ url
 bar
 copy
 action
-propperly
+properly
 *
 canceling
 the
