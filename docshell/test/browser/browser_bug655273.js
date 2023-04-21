@@ -91,7 +91,6 @@ old
 SHEntry
 .
 *
-*
 /
 add_task
 (

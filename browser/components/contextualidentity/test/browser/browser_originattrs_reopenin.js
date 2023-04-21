@@ -803,7 +803,6 @@ tabs
 is
 correct
 *
-*
 /
 let
 regularPage

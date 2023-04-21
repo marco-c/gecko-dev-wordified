@@ -2669,6 +2669,9 @@ now
 *
 *
 returns
+{
+boolean
+}
 true
 if
 we

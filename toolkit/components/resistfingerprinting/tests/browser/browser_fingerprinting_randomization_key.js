@@ -82,7 +82,7 @@ tab
 *
 param
 {
-String
+string
 }
 firstPartyDomain
 The
@@ -97,7 +97,7 @@ tab
 *
 param
 {
-String
+string
 }
 thirdPartyDomain
 The
@@ -110,7 +110,7 @@ test
 *
 returns
 {
-String
+string
 }
 The
 random

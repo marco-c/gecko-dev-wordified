@@ -232,6 +232,7 @@ each
 TouchBarInput
 .
 *
+*
 param
 {
 string
@@ -321,6 +322,7 @@ s
 NSColor
 code
 .
+*
 *
 param
 {
@@ -2096,6 +2098,7 @@ Touch
 Bar
 .
 *
+*
 param
 {
 .
@@ -2247,6 +2250,7 @@ typed
 search
 term
 .
+*
 *
 param
 {
@@ -3058,6 +3062,7 @@ Bar
 input
 .
 *
+*
 param
 {
 object
@@ -3814,6 +3819,7 @@ to
 child
 inputs
 .
+*
 *
 param
 {

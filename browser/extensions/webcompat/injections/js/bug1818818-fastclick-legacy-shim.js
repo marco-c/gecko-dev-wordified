@@ -44,7 +44,6 @@ the
 library
 .
 *
-*
 /
 /
 *
