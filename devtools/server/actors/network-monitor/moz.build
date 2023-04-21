@@ -126,11 +126,4 @@ parent
 .
 js
 "
-"
-websocket
--
-actor
-.
-js
-"
 )

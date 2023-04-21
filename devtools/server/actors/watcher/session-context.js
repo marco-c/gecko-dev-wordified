@@ -1499,7 +1499,7 @@ TYPES
 WEBSOCKET
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
