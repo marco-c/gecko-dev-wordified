@@ -124,6 +124,13 @@ h
 #
 include
 "
+RemoteSandboxBrokerParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SpinEventLoopUntil
@@ -152,6 +159,11 @@ aLaunchArch
 mLaunchArch
 (
 aLaunchArch
+)
+mParent
+(
+new
+RemoteSandboxBrokerParent
 )
 {
 }
@@ -274,7 +286,8 @@ this
 instance
 .
 mParent
-.
+-
+>
 Shutdown
 (
 )
@@ -726,7 +739,8 @@ NS_GetCurrentThread
 )
 ;
 mParent
-.
+-
+>
 Launch
 (
 mLaunchArch
@@ -822,7 +836,8 @@ bool
 rv
 =
 mParent
-.
+-
+>
 SendLaunchApp
 (
 std
@@ -858,7 +873,8 @@ rv
 )
 {
 mParent
-.
+-
+>
 Shutdown
 (
 )
@@ -904,7 +920,8 @@ bool
 dh
 =
 mParent
-.
+-
+>
 DuplicateFromLauncher
 (
 (
@@ -922,7 +939,8 @@ dh
 )
 {
 mParent
-.
+-
+>
 Shutdown
 (
 )

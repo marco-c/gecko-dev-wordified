@@ -434,7 +434,10 @@ process
 LaunchParameters
 mParameters
 ;
+RefPtr
+<
 RemoteSandboxBrokerParent
+>
 mParent
 ;
 /
