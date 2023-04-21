@@ -29,6 +29,17 @@ observed
 by
 extensions
 .
+/
+/
+The
+DNR
+version
+is
+in
+test_ext_dnr_download
+.
+js
+.
 add_task
 (
 async
