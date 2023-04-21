@@ -113,7 +113,11 @@ BASE_URL
 }
 resources
 /
-trusted_bidding_signals
+trusted
+-
+bidding
+-
+signals
 .
 py
 ;
@@ -214,7 +218,9 @@ BASE_PATH
 }
 resources
 /
-request_tracker
+request
+-
+tracker
 .
 py
 )
@@ -816,7 +822,9 @@ throw
 Errors
 reported
 by
-request_tracker
+request
+-
+tracker
 .
 py
 :
