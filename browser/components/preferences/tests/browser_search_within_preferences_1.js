@@ -713,6 +713,16 @@ id
 "
 connectionGroup
 "
+|
+|
+child
+.
+id
+=
+=
+"
+dataMigrationGroup
+"
 )
 {
 is_element_visible
@@ -867,6 +877,9 @@ browsingCategory
 "
 "
 networkProxyCategory
+"
+"
+dataMigrationGroup
 "
 ]
 ;
