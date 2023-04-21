@@ -3674,12 +3674,11 @@ value
 }
 if
 (
-!
 this
 .
 target
 .
-chrome
+isTabDescriptor
 )
 {
 const
