@@ -1131,7 +1131,7 @@ knownBrowser
 true
 }
 ;
-sinon
+sandbox
 .
 stub
 (
