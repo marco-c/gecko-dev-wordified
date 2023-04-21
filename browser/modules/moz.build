@@ -630,7 +630,9 @@ Files
 "
 PermissionUI
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -1035,7 +1037,9 @@ mjs
 "
 PermissionUI
 .
-jsm
+sys
+.
+mjs
 "
 "
 PingCentre
