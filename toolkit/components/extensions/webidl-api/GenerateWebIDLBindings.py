@@ -4945,6 +4945,21 @@ method
                 
 continue
             
+api_path
+=
+api_fun
+.
+api_path_string
+            
+pname
+=
+param
+[
+"
+name
+"
+]
+            
 ptype
 =
 cls
@@ -4953,27 +4968,17 @@ webidl_type_from_mapping
 (
                 
 param
-                
+f
 "
-%
-s
+{
+api_path
+}
 method
 parameter
-%
-s
+{
+pname
+}
 "
-%
-(
-api_fun
-.
-api_path_string
-param
-[
-"
-name
-"
-]
-)
             
 )
             
@@ -5015,13 +5020,21 @@ raise
 TypeError
 (
                         
+f
 "
 unexpected
 optional
 type
+:
+'
+{
+ptype
+}
+'
 .
 "
                         
+f
 "
 Only
 Function
@@ -5032,40 +5045,45 @@ be
 marked
 as
 optional
+:
+'
+{
+api_path
+}
+'
+parameter
+'
+{
+pname
+}
+'
 "
                     
 )
                 
 ptype
 =
+f
 "
 optional
-%
-s
-"
-%
+{
 ptype
+}
+"
             
 params
 .
 append
 (
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 ptype
-param
-[
+}
+{
+pname
+}
 "
-name
-"
-]
-)
 )
         
 if
@@ -5157,19 +5175,19 @@ params
 append
 (
                 
+f
 "
 optional
 Function
-%
-s
-"
-%
+{
 api_fun
 .
 get_async_callback_name
 (
 schema_group
 )
+}
+"
             
 )
         
