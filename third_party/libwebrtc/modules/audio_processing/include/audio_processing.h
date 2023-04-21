@@ -413,13 +413,6 @@ defined
 (
 WEBRTC_CHROMIUM_BUILD
 )
-static
-constexpr
-int
-kClippedLevelMin
-=
-70
-;
 /
 /
 The
@@ -2380,7 +2373,7 @@ clipping
 int
 clipped_level_min
 =
-kClippedLevelMin
+70
 ;
 /
 /
