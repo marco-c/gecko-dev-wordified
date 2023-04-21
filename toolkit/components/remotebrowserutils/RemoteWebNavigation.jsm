@@ -730,7 +730,7 @@ _browser
 .
 browsingContext
 .
-loadURI
+fixupAndLoadURIString
 (
 aURI
 {
