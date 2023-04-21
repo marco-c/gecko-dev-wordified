@@ -164,7 +164,7 @@ video_coding
 /
 timing
 /
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 .
 h
 "
@@ -604,7 +604,7 @@ linear
 Kalman
 filter
 .
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 kalman_filter_
 ;
 /

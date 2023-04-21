@@ -94,7 +94,7 @@ video_coding
 /
 timing
 /
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 .
 h
 "
@@ -165,10 +165,13 @@ ms
 ]
 .
 }
-FrameDelayDeltaKalmanFilter
+/
+/
+namespace
+FrameDelayVariationKalmanFilter
 :
 :
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 (
 )
 {
@@ -347,7 +350,7 @@ ms
 ]
 }
 void
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 :
 :
 PredictAndUpdate
@@ -1189,7 +1192,7 @@ estimate_cov_
 ;
 }
 double
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 :
 :
 GetFrameDelayVariationEstimateSizeBased
@@ -1229,7 +1232,7 @@ frame_size_variation_bytes
 ;
 }
 double
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 :
 :
 GetFrameDelayVariationEstimateTotal

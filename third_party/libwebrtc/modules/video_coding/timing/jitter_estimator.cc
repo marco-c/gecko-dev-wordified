@@ -543,7 +543,7 @@ Reset
 ;
 kalman_filter_
 =
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 (
 )
 ;
