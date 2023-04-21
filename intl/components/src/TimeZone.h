@@ -1443,6 +1443,9 @@ GetAvailableTimeZones
 ;
 private
 :
+#
+if
+MOZ_INTL_USE_ICU_CPP_TIMEZONE
 template
 <
 typename
@@ -1561,9 +1564,6 @@ Ok
 }
 ;
 }
-#
-if
-MOZ_INTL_USE_ICU_CPP_TIMEZONE
 UniquePtr
 <
 icu
