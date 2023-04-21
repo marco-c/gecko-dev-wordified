@@ -1938,17 +1938,23 @@ configure
 def
 try_preprocess
 (
+configure_cache
 compiler
 language
 source
 onerror
 =
 None
+wrapper
+=
+[
+]
 )
 :
 return
 try_invoke_compiler
 (
+configure_cache
 compiler
 language
 source
@@ -1959,6 +1965,7 @@ E
 "
 ]
 onerror
+wrapper
 )
 imports
 (
@@ -2057,6 +2064,7 @@ Exception
 def
 get_compiler_info
 (
+configure_cache
 compiler
 language
 )
@@ -2509,6 +2517,7 @@ result
 =
 try_preprocess
 (
+configure_cache
 compiler
 language
 check
@@ -3197,6 +3206,7 @@ OS_preprocessor_checks
 def
 check_compiler
 (
+configure_cache
 compiler
 language
 target
@@ -3206,6 +3216,7 @@ info
 =
 get_compiler_info
 (
+configure_cache
 compiler
 language
 )
@@ -8393,6 +8404,7 @@ clang_search_path
 )
 depends
 (
+configure_cache
 compiler
 provided_compiler
 compiler_wrapper
@@ -8447,6 +8459,7 @@ os
 def
 valid_compiler
 (
+configure_cache
 compiler
 provided_compiler
 compiler_wrapper
@@ -8608,6 +8621,7 @@ info
 =
 check_compiler
 (
+configure_cache
 wrapper
 +
 [
@@ -8777,6 +8791,7 @@ info
 =
 check_compiler
 (
+configure_cache
 wrapper
 +
 [
@@ -9487,8 +9502,7 @@ version
 and
 try_preprocess
 (
-wrapper
-+
+configure_cache
 [
 compiler
 ]
@@ -9504,6 +9518,9 @@ onerror
 lambda
 :
 False
+wrapper
+=
+wrapper
 )
 )
 :
