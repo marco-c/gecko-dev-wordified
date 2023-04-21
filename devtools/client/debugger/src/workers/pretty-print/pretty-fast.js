@@ -5771,11 +5771,6 @@ input
 locations
 :
 true
-sourceFile
-:
-options
-.
-url
 ecmaVersion
 :
 options
