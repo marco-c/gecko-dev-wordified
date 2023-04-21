@@ -1744,6 +1744,30 @@ in
 lines
 :
             
+line
+=
+line
+.
+strip
+(
+)
+            
+if
+line
+and
+line
+[
+0
+]
+=
+=
+"
+#
+"
+:
+                
+continue
+            
 if
 key
 not
@@ -1766,13 +1790,12 @@ partition
 "
 )
             
+if
+not
 value
-=
-value
-.
-strip
-(
-)
+:
+                
+continue
             
 log
 (
