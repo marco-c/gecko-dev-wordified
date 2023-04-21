@@ -307,7 +307,9 @@ actors
 /
 ContentMetaChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
