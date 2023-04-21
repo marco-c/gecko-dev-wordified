@@ -16740,6 +16740,11 @@ chrome
 -
 m
 chromium
+chromium
+-
+as
+-
+release
             
 if
 self
@@ -16757,6 +16762,11 @@ m
 "
 "
 chromium
+"
+"
+custom
+-
+car
 "
 )
 :
@@ -17054,6 +17064,11 @@ m
 "
 "
 chromium
+"
+"
+custom
+-
+car
 "
 )
 :
