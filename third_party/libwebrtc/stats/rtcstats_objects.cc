@@ -3242,6 +3242,8 @@ nack_count
 &
 qp_sum
 &
+goog_timing_frame_info
+&
 jitter_buffer_flushes
 &
 delayed_packet_outage_samples
@@ -3596,6 +3598,12 @@ qp_sum
 (
 "
 qpSum
+"
+)
+goog_timing_frame_info
+(
+"
+googTimingFrameInfo
 "
 )
 jitter_buffer_flushes
