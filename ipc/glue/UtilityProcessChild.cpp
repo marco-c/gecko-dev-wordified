@@ -1293,13 +1293,11 @@ processName
 Utility
 (
 pid
-:
 %
 "
 PRIPID
 "
 sandboxingKind
-:
 %
 "
 PRIu64

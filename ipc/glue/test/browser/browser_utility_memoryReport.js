@@ -185,12 +185,10 @@ expectedProcess
 Utility
 (
 pid
-:
 {
 utilityPid
 }
 sandboxingKind
-:
 {
 kGenericUtilitySandbox
 }
