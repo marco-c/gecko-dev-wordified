@@ -3815,7 +3815,7 @@ getCrashManager
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -3828,9 +3828,7 @@ modules
 /
 CrashManager
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
