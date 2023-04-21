@@ -333,13 +333,6 @@ InflightAssetsMessageProvider
 .
 jsm
 "
-"
-test
-/
-RemoteImagesTestUtils
-.
-jsm
-"
 ]
 SPHINX_TREES
 [
