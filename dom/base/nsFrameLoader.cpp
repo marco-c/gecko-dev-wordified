@@ -22626,7 +22626,7 @@ nsILoadContext
 nsFrameLoader
 :
 :
-LoadContext
+GetLoadContext
 (
 )
 {
