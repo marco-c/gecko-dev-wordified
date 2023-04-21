@@ -1133,6 +1133,14 @@ bc
 bc
 -
 >
+IsInProcess
+(
+)
+&
+&
+bc
+-
+>
 SameOriginWithTop
 (
 )
