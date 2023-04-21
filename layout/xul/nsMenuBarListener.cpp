@@ -1685,10 +1685,8 @@ pm
 >
 Rollup
 (
-0
-false
-nullptr
-nullptr
+{
+}
 )
 ;
 }
