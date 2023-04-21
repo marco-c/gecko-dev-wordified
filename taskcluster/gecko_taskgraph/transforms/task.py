@@ -128,6 +128,12 @@ util
 import
 memoize
 from
+taskcluster
+.
+utils
+import
+fromNow
+from
 taskgraph
 .
 transforms
@@ -271,12 +277,6 @@ workertypes
 import
 get_worker_type
 worker_type_implementation
-from
-taskcluster
-.
-utils
-import
-fromNow
 RUN_TASK
 =
 os

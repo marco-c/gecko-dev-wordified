@@ -135,6 +135,10 @@ six
 import
 yaml
 from
+yaml
+import
+YAMLError
+from
 mozharness
 .
 base
@@ -220,10 +224,6 @@ mozilla
 secrets
 import
 SecretsMixin
-from
-yaml
-import
-YAMLError
 AUTOMATION_EXIT_CODES
 =
 sorted
