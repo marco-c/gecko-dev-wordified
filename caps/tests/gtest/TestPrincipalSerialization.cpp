@@ -1002,6 +1002,9 @@ allowedDomains
 =
 principal2
 ;
+mozilla
+:
+:
 OriginAttributes
 attrs
 ;
@@ -1472,6 +1475,9 @@ allowedDomains
 =
 principal2
 ;
+mozilla
+:
+:
 OriginAttributes
 attrs
 ;
