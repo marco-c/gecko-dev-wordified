@@ -640,9 +640,6 @@ mGlxTestError
 bool
 mIsVAAPISupported
 ;
-bool
-mIsX11ThreadSafe
-;
 void
 AddCrashReportAnnotations
 (
