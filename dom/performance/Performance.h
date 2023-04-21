@@ -1079,6 +1079,8 @@ aName
 ErrorResult
 &
 aRv
+bool
+aReturnUnclamped
 )
 ;
 DOMHighResTimeStamp
@@ -1108,6 +1110,8 @@ aMarkNameOrTimestamp
 ErrorResult
 &
 aRv
+bool
+aReturnUnclamped
 )
 ;
 DOMHighResTimeStamp
@@ -1144,6 +1148,8 @@ aOptions
 ErrorResult
 &
 aRv
+bool
+aReturnUnclamped
 )
 ;
 DOMHighResTimeStamp
@@ -1170,6 +1176,8 @@ aOptions
 ErrorResult
 &
 aRv
+bool
+aReturnUnclamped
 )
 ;
 }
