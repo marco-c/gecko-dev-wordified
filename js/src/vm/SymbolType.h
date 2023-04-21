@@ -677,6 +677,15 @@ SymbolCode
 :
 :
 toPrimitive
+|
+|
+code_
+=
+=
+SymbolCode
+:
+:
+isConcatSpreadable
 ;
 }
 /
