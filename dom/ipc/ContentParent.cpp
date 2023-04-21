@@ -22762,6 +22762,9 @@ const
 nsContentPolicyType
 &
 aContentPolicyType
+nsIReferrerInfo
+*
+aReferrerInfo
 const
 int32_t
 &
@@ -22862,6 +22865,14 @@ trans
 Init
 (
 nullptr
+)
+;
+trans
+-
+>
+SetReferrerInfo
+(
+aReferrerInfo
 )
 ;
 rv

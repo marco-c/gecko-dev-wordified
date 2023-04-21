@@ -6013,6 +6013,9 @@ const
 nsContentPolicyType
 &
 aContentPolicyType
+nsIReferrerInfo
+*
+aReferrerInfo
 const
 int32_t
 &

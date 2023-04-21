@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsIReferrerInfo
+.
+h
+"
+#
+include
+"
 prio
 .
 h
@@ -500,6 +507,12 @@ nsCOMPtr
 nsICookieJarSettings
 >
 mCookieJarSettings
+;
+nsCOMPtr
+<
+nsIReferrerInfo
+>
+mReferrerInfo
 ;
 #
 if
