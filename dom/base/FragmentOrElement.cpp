@@ -7028,6 +7028,8 @@ GetFocusDelegate
 (
 bool
 aWithMouse
+bool
+aAutofocusOnly
 )
 const
 {
@@ -7201,6 +7203,18 @@ nsGkAtoms
 autofocus
 )
 ;
+if
+(
+aAutofocusOnly
+&
+&
+!
+autofocus
+)
+{
+continue
+;
+}
 if
 (
 autofocus
