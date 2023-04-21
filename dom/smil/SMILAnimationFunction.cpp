@@ -5285,11 +5285,6 @@ attValue
 )
 )
 {
-bool
-preventCachingOfSandwich
-=
-false
-;
 nsresult
 rv
 =
@@ -5300,7 +5295,7 @@ ValueFromString
 attValue
 mAnimationElement
 aResult
-preventCachingOfSandwich
+aPreventCachingOfSandwich
 )
 ;
 if
@@ -5313,16 +5308,6 @@ rv
 return
 false
 ;
-if
-(
-preventCachingOfSandwich
-)
-{
-aPreventCachingOfSandwich
-=
-true
-;
-}
 }
 return
 true

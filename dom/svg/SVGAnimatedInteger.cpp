@@ -843,10 +843,6 @@ aValue
 =
 smilVal
 ;
-aPreventCachingOfSandwich
-=
-false
-;
 return
 NS_OK
 ;

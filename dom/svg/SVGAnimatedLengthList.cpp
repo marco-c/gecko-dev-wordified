@@ -1214,10 +1214,6 @@ every
 single
 sample
 .
-aPreventCachingOfSandwich
-=
-false
-;
 for
 (
 uint32_t

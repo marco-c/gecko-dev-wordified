@@ -1214,10 +1214,6 @@ val
 )
 ;
 }
-aPreventCachingOfSandwich
-=
-false
-;
 return
 rv
 ;
