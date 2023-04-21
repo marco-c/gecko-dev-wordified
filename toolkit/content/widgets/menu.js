@@ -884,7 +884,7 @@ flex
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -914,7 +914,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -1372,7 +1372,7 @@ flex
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -1399,7 +1399,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -1515,7 +1515,7 @@ flex
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -1542,7 +1542,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -1641,7 +1641,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -2603,7 +2603,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -2667,7 +2667,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -2784,7 +2784,7 @@ flex
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -2811,7 +2811,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
@@ -2947,7 +2947,7 @@ text
 crop
 =
 "
-right
+end
 "
 aria
 -
