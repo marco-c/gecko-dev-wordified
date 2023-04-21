@@ -6174,6 +6174,10 @@ nextOffset
 BufferOffset
 nextInstrOffset
 (
+int
+numInsts
+=
+1
 )
 {
 if
@@ -6181,13 +6185,7 @@ if
 !
 hasSpaceForInsts
 (
-/
-*
 numInsts
-=
-*
-/
-1
 /
 *
 numPoolEntries
