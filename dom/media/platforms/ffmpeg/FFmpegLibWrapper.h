@@ -100,6 +100,9 @@ struct
 AVCodecContext
 ;
 struct
+AVCodecDescriptor
+;
+struct
 AVFrame
 ;
 struct
@@ -612,6 +615,17 @@ char
 errbuf
 size_t
 errbuf_size
+)
+;
+AVCodecDescriptor
+*
+(
+*
+avcodec_descriptor_get
+)
+(
+int
+id
 )
 ;
 /
@@ -1225,8 +1239,6 @@ mVALibDrm
 ;
 #
 endif
-private
-:
 }
 ;
 }

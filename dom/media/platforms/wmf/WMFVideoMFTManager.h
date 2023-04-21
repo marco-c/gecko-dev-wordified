@@ -321,6 +321,13 @@ GetDescriptionName
 const
 override
 ;
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 MediaDataDecoder
 :
 :

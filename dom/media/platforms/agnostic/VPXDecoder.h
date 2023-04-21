@@ -278,6 +278,13 @@ decoder
 _ns
 ;
 }
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 enum
 Codec
 :

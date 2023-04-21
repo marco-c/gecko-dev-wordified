@@ -447,6 +447,13 @@ decoder
 _ns
 ;
 }
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 ConversionRequired
 NeedsConversion
 (

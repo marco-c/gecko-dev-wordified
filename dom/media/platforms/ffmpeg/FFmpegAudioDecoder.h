@@ -268,6 +268,13 @@ _ns
 #
 endif
 }
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 private
 :
 MediaResult

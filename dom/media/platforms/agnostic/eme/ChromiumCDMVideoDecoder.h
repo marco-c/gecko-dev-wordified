@@ -237,6 +237,13 @@ GetDescriptionName
 const
 override
 ;
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 ConversionRequired
 NeedsConversion
 (
