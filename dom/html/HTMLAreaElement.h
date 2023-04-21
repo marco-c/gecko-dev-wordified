@@ -136,17 +136,6 @@ mozilla
 /
 dom
 /
-AnchorAreaFormRelValues
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Link
 .
 h
@@ -185,8 +174,6 @@ public
 nsGenericHTMLElement
 public
 Link
-public
-AnchorAreaFormRelValues
 {
 public
 :
