@@ -106,7 +106,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 via
 wantGlobalProperties
 property

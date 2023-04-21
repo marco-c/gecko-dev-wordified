@@ -1670,7 +1670,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 the
 location
 looks
@@ -1690,7 +1692,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 -
 >
 resource
