@@ -15,7 +15,7 @@ AES
 GCM
 w
 /
-96
+256
 -
 bit
 iv
@@ -25,7 +25,7 @@ META
 :
 script
 =
-aes_gcm_96_iv_fixtures
+aes_gcm_256_iv_fixtures
 .
 js
 /
