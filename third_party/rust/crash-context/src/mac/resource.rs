@@ -1710,7 +1710,6 @@ let
 interval_seconds
 =
 (
-(
 code
 >
 >
@@ -1718,9 +1717,6 @@ code
 )
 &
 0x1ffffff
-)
-as
-u64
 ;
 let
 limit
@@ -2533,7 +2529,6 @@ let
 interval_seconds
 =
 (
-(
 code
 >
 >
@@ -2541,9 +2536,6 @@ code
 )
 &
 0xfff
-)
-as
-u64
 ;
 let
 permitted
@@ -3807,7 +3799,6 @@ let
 interval_seconds
 =
 (
-(
 code
 >
 >
@@ -3815,9 +3806,6 @@ code
 )
 &
 0x1ffff
-)
-as
-u64
 ;
 let
 limit_mib
