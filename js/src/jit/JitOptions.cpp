@@ -1384,7 +1384,9 @@ stack
 SET_DEFAULT
 (
 maxStackArgs
-4096
+20
+'
+000
 )
 ;
 /

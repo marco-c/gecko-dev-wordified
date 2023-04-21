@@ -505,14 +505,15 @@ isFunctionFrame
 )
 &
 &
+TooManyActualArguments
+(
 fp
 -
 >
 numActualArgs
 (
 )
->
-BASELINE_MAX_ARGS_LENGTH
+)
 )
 {
 /
@@ -2506,6 +2507,8 @@ asInvoke
 ;
 if
 (
+TooManyActualArguments
+(
 invoke
 .
 args
@@ -2515,8 +2518,7 @@ args
 length
 (
 )
->
-BASELINE_MAX_ARGS_LENGTH
+)
 )
 {
 JitSpew
