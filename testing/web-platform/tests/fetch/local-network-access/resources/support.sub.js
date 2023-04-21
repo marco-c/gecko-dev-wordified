@@ -1578,6 +1578,15 @@ behavior
 }
 )
 {
+assert_not_equals
+(
+server
+undefined
+'
+server
+'
+)
+;
 const
 options
 =

@@ -2139,14 +2139,14 @@ treatAsPublic
 :
 true
 }
+target
+:
+{
 server
 :
 Server
 .
 HTTPS_PRIVATE
-target
-:
-{
 behavior
 :
 {
