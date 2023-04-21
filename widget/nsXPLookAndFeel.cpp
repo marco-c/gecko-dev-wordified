@@ -1003,11 +1003,6 @@ chosenMenuItemsShouldBlink
 "
 ui
 .
-showKeyboardCues
-"
-"
-ui
-.
 windowsAccentColorInTitlebar
 "
 "
