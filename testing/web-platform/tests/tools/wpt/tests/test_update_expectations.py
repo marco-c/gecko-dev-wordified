@@ -717,10 +717,6 @@ metadata_path
                                                      
 test_path
                                                      
-"
-/
-"
-                                                     
 run_info_firefox
 )
     
@@ -747,6 +743,17 @@ firefox_expected
 get_test
 (
 test_id
+.
+rpartition
+(
+'
+/
+'
+)
+[
+-
+1
+]
 )
 .
 get
@@ -762,6 +769,17 @@ firefox_expected
 get_test
 (
 test_id
+.
+rpartition
+(
+'
+/
+'
+)
+[
+-
+1
+]
 )
 .
 get_subtest
@@ -786,10 +804,6 @@ metadata_path
                                                     
 test_path
                                                     
-"
-/
-"
-                                                    
 run_info_chrome
 )
     
@@ -799,6 +813,17 @@ chrome_expected
 get_test
 (
 test_id
+.
+rpartition
+(
+'
+/
+'
+)
+[
+-
+1
+]
 )
 .
 expected
@@ -814,6 +839,17 @@ chrome_expected
 get_test
 (
 test_id
+.
+rpartition
+(
+'
+/
+'
+)
+[
+-
+1
+]
 )
 .
 get_subtest

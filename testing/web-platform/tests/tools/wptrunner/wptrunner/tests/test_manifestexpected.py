@@ -505,12 +505,6 @@ test
 .
 html
 "
-                                               
-url_base
-=
-"
-/
-"
 )
     
 assert
@@ -519,9 +513,6 @@ manifest
 get_test
 (
 "
-/
-test
-/
 test
 .
 html
