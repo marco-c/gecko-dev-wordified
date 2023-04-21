@@ -57755,10 +57755,7 @@ open
 for
 /
 /
-1
-.
-5s
-second
+3s
 after
 the
 text
@@ -57781,7 +57778,7 @@ description
 we
 show
 for
-4s
+6s
 after
 the
 text
@@ -57794,9 +57791,9 @@ options
 .
 showDescription
 ?
-4000
+6000
 :
-1500
+3000
 ;
 this
 .
