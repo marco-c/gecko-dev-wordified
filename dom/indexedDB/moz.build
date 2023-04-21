@@ -125,6 +125,17 @@ ini
 test
 /
 mochitest
+-
+private
+.
+ini
+"
+"
+test
+/
+mochitest
+-
+regular
 .
 ini
 "
