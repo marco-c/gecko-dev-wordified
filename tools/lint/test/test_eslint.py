@@ -474,11 +474,23 @@ fix
 True
 )
     
+#
+ESLint
+returns
+counts
+of
+files
+fixed
+not
+errors
+fixed
+.
+    
 assert
 fixed
 =
 =
-6
+1
 if
 __name__
 =
