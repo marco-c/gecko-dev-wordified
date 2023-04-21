@@ -33,9 +33,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -51,7 +51,9 @@ modules
 /
 DoHHeuristics
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

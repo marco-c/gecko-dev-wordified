@@ -167,7 +167,7 @@ DoHHeuristics
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -179,7 +179,9 @@ modules
 /
 DoHHeuristics
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

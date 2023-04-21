@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -110,15 +105,6 @@ preferred
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-DoHConfigController
-"
-]
-;
 const
 {
 RemoteSettings
@@ -879,6 +865,7 @@ return
 newConfig
 ;
 }
+export
 const
 DoHConfigController
 =

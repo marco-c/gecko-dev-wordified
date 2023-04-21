@@ -691,7 +691,7 @@ TRRPerformance
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -703,7 +703,9 @@ modules
 /
 TRRPerformance
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
