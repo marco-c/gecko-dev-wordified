@@ -19568,7 +19568,7 @@ as
 a
 /
 /
-chokepoint
+checkpoint
 for
 these
 restyles
