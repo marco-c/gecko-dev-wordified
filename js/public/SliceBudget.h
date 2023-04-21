@@ -360,6 +360,10 @@ mozilla
 Atomic
 <
 bool
+mozilla
+:
+:
+Relaxed
 >
 ;
 /

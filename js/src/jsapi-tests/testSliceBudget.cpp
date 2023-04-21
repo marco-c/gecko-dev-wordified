@@ -483,13 +483,10 @@ BEGIN_TEST
 testSliceBudgetInterruptibleTime
 )
 {
-mozilla
+SliceBudget
 :
 :
-Atomic
-<
-bool
->
+InterruptRequestFlag
 wantInterrupt
 (
 false
