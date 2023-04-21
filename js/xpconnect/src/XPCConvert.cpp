@@ -2744,9 +2744,6 @@ return
 false
 ;
 }
-return
-true
-;
 }
 /
 *
