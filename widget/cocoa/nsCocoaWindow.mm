@@ -4031,11 +4031,6 @@ NSMakeSize
 )
 ]
 ;
-[
-mWindow
-disableCursorRects
-]
-;
 /
 /
 Make
