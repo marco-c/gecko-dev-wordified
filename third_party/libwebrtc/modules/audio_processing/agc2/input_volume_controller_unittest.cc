@@ -2630,24 +2630,8 @@ GetParam
 )
 {
 }
-bool
-IsMinMicLevelOverridden
-(
-)
-const
-{
-return
-GetParam
-(
-)
-.
-has_value
-(
-)
-;
-}
 int
-GetMinMicLevel
+GetMinInputVolume
 (
 )
 const
@@ -2842,7 +2826,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-128
 helper
 .
 manager
@@ -2850,6 +2833,7 @@ manager
 recommended_analog_level
 (
 )
+128
 )
 ;
 helper
@@ -2872,7 +2856,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-156
 helper
 .
 manager
@@ -2880,6 +2863,7 @@ manager
 recommended_analog_level
 (
 )
+156
 )
 ;
 /
@@ -2968,7 +2952,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-155
 helper
 .
 manager
@@ -2976,6 +2959,7 @@ manager
 recommended_analog_level
 (
 )
+155
 )
 ;
 helper
@@ -2998,7 +2982,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-151
 helper
 .
 manager
@@ -3006,6 +2989,7 @@ manager
 recommended_analog_level
 (
 )
+151
 )
 ;
 helper
@@ -3028,7 +3012,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-119
 helper
 .
 manager
@@ -3036,6 +3019,7 @@ manager
 recommended_analog_level
 (
 )
+119
 )
 ;
 }
@@ -3085,7 +3069,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-183
 helper
 .
 manager
@@ -3093,6 +3076,7 @@ manager
 recommended_analog_level
 (
 )
+183
 )
 ;
 helper
@@ -3115,7 +3099,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-243
 helper
 .
 manager
@@ -3123,6 +3106,7 @@ manager
 recommended_analog_level
 (
 )
+243
 )
 ;
 /
@@ -3156,7 +3140,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-255
 helper
 .
 manager
@@ -3164,6 +3147,7 @@ manager
 recommended_analog_level
 (
 )
+255
 )
 ;
 helper
@@ -3186,7 +3170,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-254
 helper
 .
 manager
@@ -3194,6 +3177,7 @@ manager
 recommended_analog_level
 (
 )
+254
 )
 ;
 /
@@ -3223,14 +3207,14 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
+helper
+.
+manager
+.
+recommended_analog_level
+(
+)
 194
-helper
-.
-manager
-.
-recommended_analog_level
-(
-)
 )
 ;
 helper
@@ -3252,14 +3236,14 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
+helper
+.
+manager
+.
+recommended_analog_level
+(
+)
 137
-helper
-.
-manager
-.
-recommended_analog_level
-(
-)
 )
 ;
 helper
@@ -3281,14 +3265,14 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
+helper
+.
+manager
+.
+recommended_analog_level
+(
+)
 88
-helper
-.
-manager
-.
-recommended_analog_level
-(
-)
 )
 ;
 helper
@@ -3310,14 +3294,14 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
+helper
+.
+manager
+.
+recommended_analog_level
+(
+)
 54
-helper
-.
-manager
-.
-recommended_analog_level
-(
-)
 )
 ;
 helper
@@ -3339,7 +3323,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-33
 helper
 .
 manager
@@ -3347,6 +3330,7 @@ manager
 recommended_analog_level
 (
 )
+33
 )
 ;
 /
@@ -3379,22 +3363,22 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-std
-:
-:
-max
-(
-18
-GetMinMicLevel
-(
-)
-)
 helper
 .
 manager
 .
 recommended_analog_level
 (
+)
+std
+:
+:
+max
+(
+18
+GetMinInputVolume
+(
+)
 )
 )
 ;
@@ -3417,22 +3401,22 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-std
-:
-:
-max
-(
-12
-GetMinMicLevel
-(
-)
-)
 helper
 .
 manager
 .
 recommended_analog_level
 (
+)
+std
+:
+:
+max
+(
+12
+GetMinInputVolume
+(
+)
 )
 )
 ;
@@ -3551,7 +3535,6 @@ kSpeechLevel
 ;
 EXPECT_EQ
 (
-127
 helper
 .
 manager
@@ -3559,6 +3542,7 @@ manager
 recommended_analog_level
 (
 )
+127
 )
 ;
 }
@@ -3630,14 +3614,14 @@ kSpeechLevel
 ;
 EXPECT_EQ
 (
-GetMinMicLevel
-(
-)
 helper
 .
 manager
 .
 recommended_analog_level
+(
+)
+GetMinInputVolume
 (
 )
 )
@@ -3721,7 +3705,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-154
 helper
 .
 manager
@@ -3729,6 +3712,7 @@ manager
 recommended_analog_level
 (
 )
+154
 )
 ;
 /
@@ -3770,7 +3754,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-100
 helper
 .
 manager
@@ -3778,6 +3761,7 @@ manager
 recommended_analog_level
 (
 )
+100
 )
 ;
 /
@@ -3814,7 +3798,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-99
 helper
 .
 manager
@@ -3822,6 +3805,7 @@ manager
 recommended_analog_level
 (
 )
+99
 )
 ;
 }
@@ -3886,14 +3870,14 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
+helper
+.
+manager
+.
+recommended_analog_level
+(
+)
 183
-helper
-.
-manager
-.
-recommended_analog_level
-(
-)
 )
 ;
 helper
@@ -3916,14 +3900,14 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
+helper
+.
+manager
+.
+recommended_analog_level
+(
+)
 243
-helper
-.
-manager
-.
-recommended_analog_level
-(
-)
 )
 ;
 helper
@@ -3946,7 +3930,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-255
 helper
 .
 manager
@@ -3954,6 +3937,7 @@ manager
 recommended_analog_level
 (
 )
+255
 )
 ;
 /
@@ -3996,7 +3980,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-50
 helper
 .
 manager
@@ -4004,6 +3987,7 @@ manager
 recommended_analog_level
 (
 )
+50
 )
 ;
 /
@@ -4034,7 +4018,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-65
 helper
 .
 manager
@@ -4042,6 +4025,7 @@ manager
 recommended_analog_level
 (
 )
+65
 )
 ;
 }
@@ -4149,7 +4133,7 @@ manager
 recommended_analog_level
 (
 )
-GetMinMicLevel
+GetMinInputVolume
 (
 )
 )
@@ -4181,7 +4165,7 @@ manager
 recommended_analog_level
 (
 )
-GetMinMicLevel
+GetMinInputVolume
 (
 )
 )
@@ -4213,7 +4197,7 @@ manager
 recommended_analog_level
 (
 )
-GetMinMicLevel
+GetMinInputVolume
 (
 )
 )
@@ -4268,7 +4252,7 @@ manager
 recommended_analog_level
 (
 )
-GetMinMicLevel
+GetMinInputVolume
 (
 )
 )
@@ -4378,7 +4362,7 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-GetMinMicLevel
+GetMinInputVolume
 (
 )
 helper
@@ -4431,7 +4415,6 @@ clipped_ratio
 ;
 EXPECT_EQ
 (
-128
 helper
 .
 manager
@@ -4439,6 +4422,7 @@ manager
 recommended_analog_level
 (
 )
+128
 )
 ;
 }
@@ -4484,7 +4468,6 @@ clipped_ratio
 ;
 EXPECT_EQ
 (
-128
 helper
 .
 manager
@@ -4492,6 +4475,7 @@ manager
 recommended_analog_level
 (
 )
+128
 )
 ;
 }
@@ -4543,7 +4527,6 @@ clipped_ratio
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -4551,6 +4534,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 }
@@ -4600,7 +4584,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -4608,6 +4591,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 helper
@@ -4632,7 +4616,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -4640,6 +4623,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 helper
@@ -4664,7 +4648,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-225
 helper
 .
 manager
@@ -4672,6 +4655,7 @@ manager
 recommended_analog_level
 (
 )
+225
 )
 ;
 }
@@ -4721,7 +4705,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-kClippedMin
 helper
 .
 manager
@@ -4729,6 +4712,7 @@ manager
 recommended_analog_level
 (
 )
+kClippedMin
 )
 ;
 helper
@@ -4753,7 +4737,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-kClippedMin
 helper
 .
 manager
@@ -4761,6 +4744,7 @@ manager
 recommended_analog_level
 (
 )
+kClippedMin
 )
 ;
 }
@@ -4810,7 +4794,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -4818,6 +4801,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 helper
@@ -4840,7 +4824,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -4848,6 +4831,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 }
@@ -4897,7 +4881,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-185
 helper
 .
 manager
@@ -4905,6 +4888,7 @@ manager
 recommended_analog_level
 (
 )
+185
 )
 ;
 helper
@@ -4927,7 +4911,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -4935,6 +4918,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 helper
@@ -4957,7 +4941,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -4965,6 +4948,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 }
@@ -5014,7 +4998,6 @@ kAboveClippedThreshold
 ;
 EXPECT_EQ
 (
-210
 helper
 .
 manager
@@ -5022,6 +5005,7 @@ manager
 recommended_analog_level
 (
 )
+210
 )
 ;
 /
@@ -5060,7 +5044,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-250
 helper
 .
 manager
@@ -5068,6 +5051,7 @@ manager
 recommended_analog_level
 (
 )
+250
 )
 ;
 /
@@ -5097,7 +5081,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-210
 helper
 .
 manager
@@ -5105,6 +5088,7 @@ manager
 recommended_analog_level
 (
 )
+210
 )
 ;
 /
@@ -5141,7 +5125,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-250
 helper
 .
 manager
@@ -5149,6 +5132,7 @@ manager
 recommended_analog_level
 (
 )
+250
 )
 ;
 /
@@ -5180,7 +5164,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-250
 helper
 .
 manager
@@ -5188,6 +5171,7 @@ manager
 recommended_analog_level
 (
 )
+250
 )
 ;
 }
@@ -5306,7 +5290,6 @@ kHighSpeechProbability
 ;
 EXPECT_EQ
 (
-0
 helper
 .
 manager
@@ -5314,6 +5297,7 @@ manager
 recommended_analog_level
 (
 )
+0
 )
 ;
 }
@@ -5343,7 +5327,6 @@ kSpeechLevel
 ;
 EXPECT_EQ
 (
-255
 helper
 .
 manager
@@ -5351,6 +5334,7 @@ manager
 recommended_analog_level
 (
 )
+255
 )
 ;
 helper
@@ -5377,7 +5361,6 @@ peak_ratio
 ;
 EXPECT_EQ
 (
-255
 helper
 .
 manager
@@ -5385,6 +5368,7 @@ manager
 recommended_analog_level
 (
 )
+255
 )
 ;
 helper
@@ -5411,7 +5395,6 @@ peak_ratio
 ;
 EXPECT_EQ
 (
-240
 helper
 .
 manager
@@ -5419,6 +5402,7 @@ manager
 recommended_analog_level
 (
 )
+240
 )
 ;
 }
@@ -5459,7 +5443,6 @@ clipping_predictor_enabled
 ;
 EXPECT_EQ
 (
-255
 helper
 .
 manager
@@ -5467,6 +5450,7 @@ manager
 recommended_analog_level
 (
 )
+255
 )
 ;
 helper
@@ -5493,7 +5477,6 @@ peak_ratio
 ;
 EXPECT_EQ
 (
-255
 helper
 .
 manager
@@ -5501,6 +5484,7 @@ manager
 recommended_analog_level
 (
 )
+255
 )
 ;
 helper
@@ -5527,7 +5511,6 @@ peak_ratio
 ;
 EXPECT_EQ
 (
-255
 helper
 .
 manager
@@ -5535,13 +5518,14 @@ manager
 recommended_analog_level
 (
 )
+255
 )
 ;
 }
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentDefault
+MinInputVolumeDefault
 )
 {
 std
@@ -5581,7 +5565,7 @@ kMinMicLevel
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentDisabled
+MinInputVolumeDisabled
 )
 {
 for
@@ -5680,7 +5664,7 @@ ignored
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentOutOfRangeAbove
+MinInputVolumeOutOfRangeAbove
 )
 {
 test
@@ -5759,7 +5743,7 @@ ignored
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentOutOfRangeBelow
+MinInputVolumeOutOfRangeBelow
 )
 {
 test
@@ -5849,12 +5833,12 @@ changed
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentEnabled50
+MinInputVolumeEnabled50
 )
 {
 constexpr
 int
-kMinMicLevelOverride
+kMinInputVolume
 =
 50
 ;
@@ -5890,7 +5874,7 @@ field_trial
 (
 GetAgcMinInputVolumeFieldTrialEnabled
 (
-kMinMicLevelOverride
+kMinInputVolume
 field_trial_suffix
 )
 )
@@ -5925,7 +5909,7 @@ channel_controllers_
 min_input_volume
 (
 )
-kMinMicLevelOverride
+kMinInputVolume
 )
 ;
 }
@@ -5941,7 +5925,9 @@ WebRTC
 -
 Audio
 -
-AgcMinMicLevelExperiment
+Agc2
+-
+MinInputVolume
 "
 field
 trial
@@ -5974,12 +5960,12 @@ clipping
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentCheckMinLevelWithClipping
+MinInputVolumeCheckMinLevelWithClipping
 )
 {
 constexpr
 int
-kMinMicLevelOverride
+kMinInputVolume
 =
 250
 ;
@@ -6078,7 +6064,7 @@ field_trial
 (
 GetAgcMinInputVolumeFieldTrialEnabled
 (
-kMinMicLevelOverride
+kMinInputVolume
 )
 )
 ;
@@ -6315,7 +6301,7 @@ manager_with_override
 recommended_analog_level
 (
 )
-kMinMicLevelOverride
+kMinInputVolume
 )
 ;
 }
@@ -6330,7 +6316,9 @@ WebRTC
 -
 Audio
 -
-AgcMinMicLevelExperiment
+Agc2
+-
+MinInputVolume
 "
 field
 trial
@@ -6408,12 +6396,12 @@ differs
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentCheckMinLevelWithClippingWithRmsError
+MinInputVolumeCheckMinLevelWithClippingWithRmsError
 )
 {
 constexpr
 int
-kMinMicLevelOverride
+kMinInputVolume
 =
 250
 ;
@@ -6512,7 +6500,7 @@ field_trial
 (
 GetAgcMinInputVolumeFieldTrialEnabled
 (
-kMinMicLevelOverride
+kMinInputVolume
 )
 )
 ;
@@ -6734,7 +6722,7 @@ manager_with_override
 recommended_analog_level
 (
 )
-kMinMicLevelOverride
+kMinInputVolume
 )
 ;
 }
@@ -6749,7 +6737,9 @@ WebRTC
 -
 Audio
 -
-AgcMinMicLevelExperiment
+Agc2
+-
+MinInputVolume
 "
 field
 trial
@@ -6792,7 +6782,7 @@ specified
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentCompareMicLevelWithClipping
+MinInputVolumeCompareMicLevelWithClipping
 )
 {
 /
@@ -6932,7 +6922,7 @@ manager_with_override
 {
 constexpr
 int
-kMinMicLevelOverride
+kMinInputVolume
 =
 20
 ;
@@ -6943,7 +6933,7 @@ kDefaultInputVolumeControllerConfig
 clipped_level_min
 >
 =
-kMinMicLevelOverride
+kMinInputVolume
 "
 Use
 a
@@ -6962,7 +6952,7 @@ field_trial
 (
 GetAgcMinInputVolumeFieldTrialEnabled
 (
-kMinMicLevelOverride
+kMinInputVolume
 )
 )
 ;
@@ -7221,7 +7211,9 @@ WebRTC
 -
 Audio
 -
-AgcMinMicLevelExperiment
+Agc2
+-
+MinInputVolume
 "
 field
 trial
@@ -7303,7 +7295,7 @@ differs
 TEST
 (
 InputVolumeControllerTest
-AgcMinMicLevelExperimentCompareMicLevelWithClippingWithRmsError
+MinInputVolumeCompareMicLevelWithClippingWithRmsError
 )
 {
 /
@@ -7443,7 +7435,7 @@ manager_with_override
 {
 constexpr
 int
-kMinMicLevelOverride
+kMinInputVolume
 =
 20
 ;
@@ -7454,7 +7446,7 @@ kDefaultInputVolumeControllerConfig
 clipped_level_min
 >
 =
-kMinMicLevelOverride
+kMinInputVolume
 "
 Use
 a
@@ -7473,7 +7465,7 @@ field_trial
 (
 GetAgcMinInputVolumeFieldTrialEnabled
 (
-kMinMicLevelOverride
+kMinInputVolume
 )
 )
 ;
