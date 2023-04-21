@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-UITourChild
-"
-]
-;
 const
 PREF_TEST_WHITELIST
 =
@@ -83,6 +74,7 @@ UITOUR_PERMISSION
 uitour
 "
 ;
+export
 class
 UITourChild
 extends
@@ -284,7 +276,9 @@ copied
 from
 UITour
 .
-jsm
+sys
+.
+mjs
 .
 isSafeScheme
 (

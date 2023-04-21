@@ -92,7 +92,9 @@ event
 like
 UITour
 .
-jsm
+sys
+.
+mjs
 would
 )
 add_task
