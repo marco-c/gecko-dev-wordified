@@ -4592,14 +4592,6 @@ const
 bool
 preserveRatio
 =
-StaticPrefs
-:
-:
-editor_resizing_preserve_ratio
-(
-)
-&
-&
 HTMLEditUtils
 :
 :
