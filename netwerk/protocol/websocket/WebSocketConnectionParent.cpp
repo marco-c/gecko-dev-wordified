@@ -186,7 +186,7 @@ aListener
 )
 mBackgroundThread
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

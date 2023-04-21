@@ -2599,7 +2599,10 @@ else
 {
 mTargetThread
 =
-GetCurrentEventTarget
+mozilla
+:
+:
+GetCurrentSerialEventTarget
 (
 )
 ;

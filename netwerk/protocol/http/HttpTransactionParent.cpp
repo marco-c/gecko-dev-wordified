@@ -1021,7 +1021,7 @@ eventsink
 ;
 mTargetThread
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

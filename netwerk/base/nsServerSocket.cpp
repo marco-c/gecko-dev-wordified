@@ -3359,7 +3359,7 @@ aListener
 )
 mTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3711,7 +3711,7 @@ aListener
 ;
 mListenerTarget
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

@@ -719,7 +719,7 @@ IsCurrentThreadRunningWorker
 {
 mCreationEventTarget
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;
