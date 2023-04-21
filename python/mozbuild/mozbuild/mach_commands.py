@@ -1598,21 +1598,17 @@ join
 cargo_extra_flags
 )
     
-if
-cargo_build_flags
-:
-        
 try
 :
-            
+        
 command_context
 .
 config_environment
-        
+    
 except
 BuildEnvironmentNotFoundException
 :
-            
+        
 build
 =
 command_context
@@ -1621,6 +1617,10 @@ _spawn
 (
 BuildDriver
 )
+        
+if
+cargo_build_flags
+:
             
 ret
 =
@@ -1661,14 +1661,34 @@ command_context
 _mach_context
             
 )
+        
+else
+:
             
+ret
+=
+build
+.
+configure
+(
+                
+command_context
+.
+metrics
+                
+buildstatus_messages
+=
+False
+            
+)
+        
 if
 ret
 !
 =
 0
 :
-                
+            
 return
 ret
     
