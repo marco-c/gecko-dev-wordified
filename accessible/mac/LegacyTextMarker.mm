@@ -119,6 +119,13 @@ LegacyTextMarker
 h
 "
 #
+import
+"
+MacUtils
+.
+h
+"
+#
 include
 "
 DocAccessible

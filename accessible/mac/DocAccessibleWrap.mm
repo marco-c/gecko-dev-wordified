@@ -128,6 +128,13 @@ inl
 h
 "
 #
+include
+"
+nsAccUtils
+.
+h
+"
+#
 import
 "
 mozAccessible
