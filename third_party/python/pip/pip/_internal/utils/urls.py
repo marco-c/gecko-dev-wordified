@@ -23,13 +23,7 @@ def
 get_url_scheme
 (
 url
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
@@ -38,6 +32,7 @@ Optional
 [
 str
 ]
+:
     
 if
 "
@@ -72,18 +67,13 @@ def
 path_to_url
 (
 path
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
     
 "
 "
@@ -162,18 +152,13 @@ def
 url_to_path
 (
 url
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
     
 "
 "

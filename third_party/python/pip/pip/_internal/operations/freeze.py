@@ -7,36 +7,14 @@ os
 from
 typing
 import
-(
-    
 Container
-    
 Dict
-    
+Generator
 Iterable
-    
-Iterator
-    
 List
-    
 NamedTuple
-    
 Optional
-    
 Set
-    
-Union
-)
-from
-pip
-.
-_vendor
-.
-packaging
-.
-requirements
-import
-Requirement
 from
 pip
 .
@@ -127,14 +105,7 @@ NamedTuple
     
 requirement
 :
-Optional
-[
 str
-]
-    
-editable
-:
-bool
     
 comments
 :
@@ -147,10 +118,6 @@ freeze
 (
     
 requirement
-=
-None
-#
-type
 :
 Optional
 [
@@ -159,28 +126,22 @@ List
 str
 ]
 ]
+=
+None
     
 local_only
-=
-False
-#
-type
 :
 bool
+=
+False
     
 user_only
-=
-False
-#
-type
 :
 bool
+=
+False
     
 paths
-=
-None
-#
-type
 :
 Optional
 [
@@ -189,64 +150,51 @@ List
 str
 ]
 ]
+=
+None
     
 isolated
-=
-False
-#
-type
 :
 bool
+=
+False
     
 exclude_editable
-=
-False
-#
-type
 :
 bool
+=
+False
     
 skip
-=
-(
-)
-#
-type
 :
 Container
 [
 str
 ]
-)
-:
-    
-#
-type
-:
+=
 (
-.
-.
-.
+)
 )
 -
 >
-Iterator
+Generator
 [
 str
+None
+None
 ]
+:
     
 installations
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 FrozenRequirement
 ]
+=
+{
+}
     
 dists
 =
@@ -372,17 +320,15 @@ seen
 again
         
 emitted_options
-=
-set
-(
-)
-#
-type
 :
 Set
 [
 str
 ]
+=
+set
+(
+)
         
 #
 keep
@@ -413,15 +359,6 @@ times
 .
         
 req_files
-=
-collections
-.
-defaultdict
-(
-list
-)
-#
-type
 :
 Dict
 [
@@ -431,6 +368,13 @@ List
 str
 ]
 ]
+=
+collections
+.
+defaultdict
+(
+list
+)
         
 for
 req_file_path
@@ -455,14 +399,15 @@ req_file
                     
 if
 (
+                        
 not
 line
 .
 strip
 (
 )
+                        
 or
-                            
 line
 .
 strip
@@ -471,67 +416,71 @@ strip
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
+                        
 or
-                            
 line
 .
 startswith
 (
+                            
 (
                                 
-'
+"
 -
 r
-'
-'
+"
+                                
+"
 -
 -
 requirement
-'
+"
                                 
-'
+"
 -
 f
-'
-'
+"
+                                
+"
 -
 -
 find
 -
 links
-'
+"
                                 
-'
+"
 -
 i
-'
-'
+"
+                                
+"
 -
 -
 index
 -
 url
-'
+"
                                 
-'
+"
 -
 -
 pre
-'
+"
                                 
-'
+"
 -
 -
 trusted
 -
 host
-'
+"
                                 
-'
+"
 -
 -
 process
@@ -539,9 +488,9 @@ process
 dependency
 -
 links
-'
+"
                                 
-'
+"
 -
 -
 extra
@@ -549,17 +498,20 @@ extra
 index
 -
 url
-'
+"
                                 
-'
+"
 -
 -
 use
 -
 feature
-'
+"
+                            
 )
+                        
 )
+                    
 )
 :
                         
@@ -595,21 +547,21 @@ line
 .
 startswith
 (
-'
+"
 -
 e
-'
+"
 )
 or
 line
 .
 startswith
 (
-'
+"
 -
 -
 editable
-'
+"
 )
 :
                         
@@ -618,10 +570,10 @@ line
 .
 startswith
 (
-'
+"
 -
 e
-'
+"
 )
 :
                             
@@ -646,11 +598,11 @@ line
 [
 len
 (
-'
+"
 -
 -
 editable
-'
+"
 )
 :
 ]
@@ -661,9 +613,9 @@ strip
 .
 lstrip
 (
-'
+"
 =
-'
+"
 )
                         
 line_req
@@ -691,8 +643,8 @@ COMMENT_RE
 .
 sub
 (
-'
-'
+"
+"
 line
 )
 .
@@ -747,6 +699,7 @@ s
 "
                             
 req_file_path
+                            
 line
 .
 strip
@@ -789,7 +742,6 @@ line_req_canonical_name
 =
 canonicalize_name
 (
-                            
 line_req
 .
 name
@@ -864,8 +816,8 @@ COMMENT_RE
 .
 sub
 (
-'
-'
+"
+"
 line
 )
 .
@@ -902,7 +854,6 @@ str
 (
 installations
 [
-                                
 line_req_canonical_name
 ]
 )
@@ -978,6 +929,7 @@ logger
 .
 warning
 (
+                    
 "
 Requirement
 %
@@ -990,10 +942,11 @@ times
 s
 ]
 "
-                               
+                    
 name
-'
-'
+                    
+"
+"
 .
 join
 (
@@ -1005,12 +958,12 @@ files
 )
 )
 )
+                
 )
         
 yield
 (
-            
-'
+"
 #
 #
 The
@@ -1019,14 +972,10 @@ requirements
 were
 added
 by
-'
-            
-'
 pip
 freeze
 :
-'
-        
+"
 )
     
 for
@@ -1034,7 +983,6 @@ installation
 in
 sorted
 (
-            
 installations
 .
 values
@@ -1151,7 +1099,6 @@ return
 values
 (
 req
-editable
 comments
 )
 for
@@ -1169,92 +1116,14 @@ from_dist
 "
 "
     
-if
-not
+editable_project_location
+=
 dist
 .
-editable
-:
-        
-return
-_EditableInfo
-(
-requirement
-=
-None
-editable
-=
-False
-comments
-=
-[
-]
-)
+editable_project_location
     
-if
-dist
-.
-location
-is
-None
-:
-        
-display
-=
-_format_as_name_version
-(
-dist
-)
-        
-logger
-.
-warning
-(
-"
-Editable
-requirement
-not
-found
-on
-disk
-:
-%
-s
-"
-display
-)
-        
-return
-_EditableInfo
-(
-            
-requirement
-=
-None
-            
-editable
-=
-True
-            
-comments
-=
-[
-f
-"
-#
-Editable
-install
-not
-found
-(
-{
-display
-}
-)
-"
-]
-        
-)
+assert
+editable_project_location
     
 location
 =
@@ -1270,9 +1139,7 @@ path
 .
 abspath
 (
-dist
-.
-location
+editable_project_location
 )
 )
     
@@ -1330,6 +1197,7 @@ in
 %
 r
 '
+            
 display
             
 location
@@ -1344,15 +1212,11 @@ requirement
 =
 location
             
-editable
-=
-True
-            
 comments
 =
 [
 f
-'
+"
 #
 Editable
 install
@@ -1365,7 +1229,7 @@ control
 display
 }
 )
-'
+"
 ]
         
 )
@@ -1413,15 +1277,11 @@ requirement
 =
 location
             
-editable
-=
-True
-            
 comments
 =
 [
 f
-'
+"
 #
 Editable
 {
@@ -1436,7 +1296,7 @@ remote
 display
 }
 )
-'
+"
 ]
         
 )
@@ -1461,10 +1321,6 @@ _EditableInfo
 requirement
 =
 location
-            
-editable
-=
-True
             
 comments
 =
@@ -1524,7 +1380,7 @@ logger
 warning
 (
             
-'
+"
 cannot
 determine
 version
@@ -1534,9 +1390,9 @@ source
 in
 %
 s
-'
+"
             
-'
+"
 (
 %
 s
@@ -1546,7 +1402,7 @@ found
 in
 path
 )
-'
+"
             
 location
             
@@ -1561,10 +1417,7 @@ _EditableInfo
 (
 requirement
 =
-None
-editable
-=
-True
+location
 comments
 =
 [
@@ -1581,7 +1434,6 @@ logger
 .
 warning
 (
-            
 "
 Error
 when
@@ -1595,16 +1447,7 @@ system
 %
 s
 "
-            
-"
-falling
-back
-to
-uneditable
-format
-"
 exc
-        
 )
     
 else
@@ -1616,9 +1459,6 @@ _EditableInfo
 requirement
 =
 req
-editable
-=
-True
 comments
 =
 [
@@ -1629,7 +1469,7 @@ logger
 .
 warning
 (
-'
+"
 Could
 not
 determine
@@ -1638,7 +1478,7 @@ location
 of
 %
 s
-'
+"
 location
 )
     
@@ -1648,16 +1488,12 @@ _EditableInfo
         
 requirement
 =
-None
-        
-editable
-=
-False
+location
         
 comments
 =
 [
-'
+"
 #
 #
 !
@@ -1667,7 +1503,7 @@ not
 determine
 repository
 location
-'
+"
 ]
     
 )
@@ -1678,36 +1514,36 @@ FrozenRequirement
 def
 __init__
 (
-self
-name
-req
-editable
-comments
-=
-(
-)
-)
-:
         
-#
-type
+self
+        
+name
 :
-(
 str
-Union
-[
+        
+req
+:
 str
-Requirement
-]
+        
+editable
+:
 bool
+        
+comments
+:
 Iterable
 [
 str
 ]
+=
+(
+)
+    
 )
 -
 >
 None
+:
         
 self
 .
@@ -1759,43 +1595,17 @@ FrozenRequirement
 "
 :
         
-#
-TODO
-get_requirement_info
-is
-taking
-care
-of
 editable
-requirements
-.
-        
-#
-TODO
-This
-should
-be
-refactored
-when
-we
-will
-add
-detection
-of
-        
-#
-editable
-that
-provide
-.
+=
 dist
--
-info
-metadata
 .
-        
-req
 editable
+        
+if
+editable
+:
+            
+req
 comments
 =
 _get_editable_info
@@ -1803,15 +1613,24 @@ _get_editable_info
 dist
 )
         
-if
-req
-is
-None
-and
-not
-editable
+else
 :
             
+comments
+=
+[
+]
+            
+direct_url
+=
+dist
+.
+direct_url
+            
+if
+direct_url
+:
+                
 #
 if
 PEP
@@ -1819,51 +1638,29 @@ PEP
 metadata
 is
 present
-attempt
-to
 use
 it
-            
-direct_url
-=
-dist
-.
-direct_url
-            
-if
-direct_url
-:
                 
 req
 =
 direct_url_as_pep440_direct_reference
 (
-                    
 direct_url
 dist
 .
 raw_name
-                
 )
-                
-comments
-=
-[
-]
-        
-if
-req
-is
-None
-:
             
+else
+:
+                
 #
 name
 =
 =
 version
 requirement
-            
+                
 req
 =
 _format_as_name_version
@@ -1889,16 +1686,10 @@ __str__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 str
+:
         
 req
 =
@@ -1915,19 +1706,19 @@ editable
 req
 =
 f
-'
+"
 -
 e
 {
 req
 }
-'
+"
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1946,7 +1737,7 @@ req
 ]
 )
 +
-'
+"
 \
 n
-'
+"

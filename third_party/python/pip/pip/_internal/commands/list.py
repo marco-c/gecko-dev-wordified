@@ -10,7 +10,7 @@ from
 typing
 import
 TYPE_CHECKING
-Iterator
+Generator
 List
 Optional
 Sequence
@@ -118,11 +118,9 @@ _internal
 .
 utils
 .
-misc
+compat
 import
 stdlib_pkgs
-tabulate
-write_output
 from
 pip
 .
@@ -130,9 +128,10 @@ _internal
 .
 utils
 .
-parallel
+misc
 import
-map_multithread
+tabulate
+write_output
 if
 TYPE_CHECKING
 :
@@ -289,21 +288,22 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 o
-'
-'
+"
+            
+"
 -
 -
 outdated
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -311,11 +311,12 @@ False
             
 help
 =
-'
+"
 List
 outdated
 packages
-'
+"
+        
 )
         
 self
@@ -325,21 +326,22 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 u
-'
-'
+"
+            
+"
 -
 -
 uptodate
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -347,11 +349,12 @@ False
             
 help
 =
-'
+"
 List
 uptodate
 packages
-'
+"
+        
 )
         
 self
@@ -361,21 +364,22 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 e
-'
-'
+"
+            
+"
 -
 -
 editable
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -383,12 +387,13 @@ False
             
 help
 =
-'
+"
 List
 editable
 projects
 .
-'
+"
+        
 )
         
 self
@@ -398,21 +403,22 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 l
-'
-'
+"
+            
+"
 -
 -
 local
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -421,7 +427,8 @@ False
 help
 =
 (
-'
+                
+"
 If
 in
 a
@@ -433,15 +440,16 @@ access
 do
 not
 list
-'
-                  
-'
+"
+                
+"
 globally
 -
 installed
 packages
 .
-'
+"
+            
 )
         
 )
@@ -453,23 +461,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 user
-'
+"
             
 dest
 =
-'
+"
 user
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -477,7 +485,7 @@ False
             
 help
 =
-'
+"
 Only
 output
 packages
@@ -487,7 +495,8 @@ user
 -
 site
 .
-'
+"
+        
 )
         
 self
@@ -510,17 +519,17 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 pre
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -529,6 +538,7 @@ False
 help
 =
 (
+                
 "
 Include
 pre
@@ -541,7 +551,7 @@ versions
 By
 default
 "
-                  
+                
 "
 pip
 only
@@ -550,6 +560,7 @@ stable
 versions
 .
 "
+            
 )
         
 )
@@ -561,23 +572,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 format
-'
+"
             
 action
 =
-'
+"
 store
-'
+"
             
 dest
 =
-'
+"
 list_format
-'
+"
             
 default
 =
@@ -588,15 +599,15 @@ columns
 choices
 =
 (
-'
+"
 columns
-'
-'
+"
+"
 freeze
-'
-'
+"
+"
 json
-'
+"
 )
             
 help
@@ -613,9 +624,6 @@ columns
 default
 )
 freeze
-"
-                 
-"
 or
 json
 "
@@ -629,25 +637,25 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 not
 -
 required
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 dest
 =
-'
+"
 not_required
-'
+"
             
 help
 =
@@ -659,9 +667,6 @@ are
 not
 dependencies
 of
-"
-                 
-"
 installed
 packages
 .
@@ -676,36 +681,36 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 exclude
 -
 editable
-'
+"
             
 action
 =
-'
+"
 store_false
-'
+"
             
 dest
 =
-'
+"
 include_editable
-'
+"
             
 help
 =
-'
+"
 Exclude
 editable
 package
 from
 output
 .
-'
+"
         
 )
         
@@ -716,36 +721,36 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 include
 -
 editable
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 dest
 =
-'
+"
 include_editable
-'
+"
             
 help
 =
-'
+"
 Include
 editable
 package
 from
 output
 .
-'
+"
             
 default
 =
@@ -772,14 +777,12 @@ cmdoptions
 .
 make_option_group
 (
-            
 cmdoptions
 .
 index_group
 self
 .
 parser
-        
 )
         
 self
@@ -929,7 +932,6 @@ uptodate
 raise
 CommandError
 (
-                
 "
 Options
 -
@@ -944,6 +946,46 @@ be
 combined
 .
 "
+)
+        
+if
+options
+.
+outdated
+and
+options
+.
+list_format
+=
+=
+"
+freeze
+"
+:
+            
+raise
+CommandError
+(
+                
+"
+List
+format
+'
+freeze
+'
+can
+not
+be
+used
+with
+the
+-
+-
+outdated
+option
+.
+"
+            
 )
         
 cmdoptions
@@ -1172,6 +1214,7 @@ return
 [
             
 dist
+            
 for
 dist
 in
@@ -1220,6 +1263,7 @@ return
 [
             
 dist
+            
 for
 dist
 in
@@ -1362,11 +1406,13 @@ Values
 )
 -
 >
-Iterator
+Generator
 [
 "
 _DistWithLatestInfo
 "
+None
+None
 ]
 :
         
@@ -1437,12 +1483,14 @@ prereleases
 all_candidates
 =
 [
+                        
 candidate
+                        
 for
 candidate
 in
 all_candidates
-                                      
+                        
 if
 not
 candidate
@@ -1450,6 +1498,7 @@ candidate
 version
 .
 is_prerelease
+                    
 ]
                 
 evaluator
@@ -1501,18 +1550,18 @@ is_wheel
                     
 typ
 =
-'
+"
 wheel
-'
+"
                 
 else
 :
                     
 typ
 =
-'
+"
 sdist
-'
+"
                 
 dist
 .
@@ -1532,7 +1581,7 @@ dist
 for
 dist
 in
-map_multithread
+map
 (
 latest_info
 packages
@@ -1593,9 +1642,9 @@ options
 list_format
 =
 =
-'
+"
 columns
-'
+"
 and
 packages
 :
@@ -1623,9 +1672,9 @@ options
 list_format
 =
 =
-'
+"
 freeze
-'
+"
 :
             
 for
@@ -1645,6 +1694,7 @@ verbose
                     
 write_output
 (
+                        
 "
 %
 s
@@ -1660,13 +1710,13 @@ s
 dist
 .
 raw_name
-                                 
 dist
 .
 version
 dist
 .
 location
+                    
 )
                 
 else
@@ -1696,9 +1746,9 @@ options
 list_format
 =
 =
-'
+"
 json
-'
+"
 :
             
 write_output
@@ -1810,9 +1860,9 @@ map
 lambda
 x
 :
-'
+"
 -
-'
+"
 *
 x
 sizes
@@ -1881,30 +1931,6 @@ output_package_listing_columns
 "
 "
     
-running_outdated
-=
-options
-.
-outdated
-    
-#
-Adjust
-the
-header
-for
-the
-pip
-list
--
--
-outdated
-case
-.
-    
-if
-running_outdated
-:
-        
 header
 =
 [
@@ -1914,6 +1940,23 @@ Package
 "
 Version
 "
+]
+    
+running_outdated
+=
+options
+.
+outdated
+    
+if
+running_outdated
+:
+        
+header
+.
+extend
+(
+[
 "
 Latest
 "
@@ -1921,34 +1964,10 @@ Latest
 Type
 "
 ]
+)
     
-else
-:
-        
-header
+has_editables
 =
-[
-"
-Package
-"
-"
-Version
-"
-]
-    
-data
-=
-[
-]
-    
-if
-options
-.
-verbose
->
-=
-1
-or
 any
 (
 x
@@ -1959,6 +1978,29 @@ x
 in
 pkgs
 )
+    
+if
+has_editables
+:
+        
+header
+.
+append
+(
+"
+Editable
+project
+location
+"
+)
+    
+if
+options
+.
+verbose
+>
+=
+1
 :
         
 header
@@ -1987,6 +2029,11 @@ append
 Installer
 "
 )
+    
+data
+=
+[
+]
     
 for
 proj
@@ -2055,16 +2102,28 @@ latest_filetype
 )
         
 if
+has_editables
+:
+            
+row
+.
+append
+(
+proj
+.
+editable_project_location
+or
+"
+"
+)
+        
+if
 options
 .
 verbose
 >
 =
 1
-or
-proj
-.
-editable
 :
             
 row
@@ -2139,17 +2198,17 @@ info
 =
 {
             
-'
+"
 name
-'
+"
 :
 dist
 .
 raw_name
             
-'
+"
 version
-'
+"
 :
 str
 (
@@ -2171,9 +2230,9 @@ verbose
             
 info
 [
-'
+"
 location
-'
+"
 ]
 =
 dist
@@ -2185,9 +2244,9 @@ or
             
 info
 [
-'
+"
 installer
-'
+"
 ]
 =
 dist
@@ -2202,9 +2261,9 @@ outdated
             
 info
 [
-'
+"
 latest_version
-'
+"
 ]
 =
 str
@@ -2216,14 +2275,33 @@ latest_version
             
 info
 [
-'
+"
 latest_filetype
-'
+"
 ]
 =
 dist
 .
 latest_filetype
+        
+editable_project_location
+=
+dist
+.
+editable_project_location
+        
+if
+editable_project_location
+:
+            
+info
+[
+"
+editable_project_location
+"
+]
+=
+editable_project_location
         
 data
 .

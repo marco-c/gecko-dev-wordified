@@ -230,6 +230,13 @@ from
 .
 retry
 import
+retry_if_exception_cause_type
+#
+noqa
+from
+.
+retry
+import
 retry_if_not_exception_type
 #
 noqa
@@ -427,6 +434,13 @@ import
 wait_random_exponential
 as
 wait_full_jitter
+#
+noqa
+from
+.
+wait
+import
+wait_exponential_jitter
 #
 noqa
 #

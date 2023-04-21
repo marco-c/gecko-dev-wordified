@@ -29,6 +29,8 @@ typing
 import
 (
     
+TYPE_CHECKING
+    
 Any
     
 Dict
@@ -104,9 +106,16 @@ utils
 .
 subprocess
 import
+(
+    
 CommandArgs
+    
 call_subprocess
+    
+format_command_args
+    
 make_command
+)
 from
 pip
 .
@@ -117,12 +126,49 @@ utils
 urls
 import
 get_url_scheme
+if
+TYPE_CHECKING
+:
+    
+#
+Literal
+was
+introduced
+in
+Python
+3
+.
+8
+.
+    
+#
+    
+#
+TODO
+:
+Remove
+if
+TYPE_CHECKING
+when
+dropping
+support
+for
+Python
+3
+.
+7
+.
+    
+from
+typing
+import
+Literal
 __all__
 =
 [
-'
+"
 vcs
-'
+"
 ]
 logger
 =
@@ -149,18 +195,13 @@ def
 is_url
 (
 name
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 bool
+:
     
 "
 "
@@ -201,18 +242,18 @@ return
 scheme
 in
 [
-'
+"
 http
-'
-'
+"
+"
 https
-'
-'
+"
+"
 file
-'
-'
+"
+"
 ftp
-'
+"
 ]
 +
 vcs
@@ -221,30 +262,29 @@ all_schemes
 def
 make_vcs_requirement_url
 (
-repo_url
-rev
-project_name
-subdir
-=
-None
-)
-:
     
-#
-type
+repo_url
 :
-(
 str
+rev
+:
 str
+project_name
+:
 str
+subdir
+:
 Optional
 [
 str
 ]
+=
+None
 )
 -
 >
 str
+:
     
 "
 "
@@ -316,7 +356,7 @@ _
 req
 =
 f
-'
+"
 {
 repo_url
 }
@@ -329,7 +369,7 @@ egg
 {
 egg_project_name
 }
-'
+"
     
 if
 subdir
@@ -339,30 +379,26 @@ req
 +
 =
 f
-'
+"
 &
 subdirectory
 =
 {
 subdir
 }
-'
+"
     
 return
 req
 def
 find_path_to_project_root_from_repo_root
 (
-location
-repo_root
-)
-:
     
-#
-type
+location
 :
-(
 str
+repo_root
+:
 str
 )
 -
@@ -371,6 +407,7 @@ Optional
 [
 str
 ]
+:
     
 "
 "
@@ -629,50 +666,37 @@ __init__
 self
         
 vc_class
-#
-type
 :
 Type
 [
+"
 VersionControl
+"
 ]
         
 rev
-=
-None
-#
-type
 :
 Optional
 [
 str
 ]
-        
-extra_args
 =
 None
-#
-type
+        
+extra_args
 :
 Optional
 [
 CommandArgs
 ]
+=
+None
     
-)
-:
-        
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
 None
+:
         
 "
 "
@@ -744,35 +768,27 @@ vc_class
 self
 .
 branch_name
-=
-None
-#
-type
 :
 Optional
 [
 str
 ]
+=
+None
     
 def
 __repr__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 str
+:
         
 return
 f
-'
+"
 <
 RevOptions
 {
@@ -793,7 +809,7 @@ rev
 r
 }
 >
-'
+"
     
 property
     
@@ -802,19 +818,13 @@ arg_rev
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 str
 ]
+:
         
 if
 self
@@ -841,16 +851,10 @@ to_args
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 CommandArgs
+:
         
 "
 "
@@ -870,13 +874,11 @@ arguments
 "
         
 args
+:
+CommandArgs
 =
 [
 ]
-#
-type
-:
-CommandArgs
         
 rev
 =
@@ -918,16 +920,10 @@ to_display
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 str
+:
         
 if
 not
@@ -937,12 +933,12 @@ rev
 :
             
 return
-'
-'
+"
+"
         
 return
 f
-'
+"
 (
 to
 revision
@@ -952,25 +948,22 @@ self
 rev
 }
 )
-'
+"
     
 def
 make_new
 (
 self
 rev
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
+"
 RevOptions
+"
+:
         
 "
 "
@@ -1029,39 +1022,39 @@ VcsSupport
 :
     
 _registry
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
+"
 VersionControl
+"
 ]
+=
+{
+}
     
 schemes
 =
 [
-'
+"
 ssh
-'
-'
+"
+"
 git
-'
-'
+"
+"
 hg
-'
-'
+"
+"
 bzr
-'
-'
+"
+"
 sftp
-'
-'
+"
+"
 svn
-'
+"
 ]
     
 def
@@ -1069,16 +1062,10 @@ __init__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 None
+:
         
 #
 Register
@@ -1120,19 +1107,13 @@ __iter__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Iterator
 [
 str
 ]
+:
         
 return
 self
@@ -1150,19 +1131,15 @@ backends
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 List
 [
+"
 VersionControl
+"
 ]
+:
         
 return
 list
@@ -1183,19 +1160,13 @@ dirnames
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 List
 [
 str
 ]
+:
         
 return
 [
@@ -1217,30 +1188,22 @@ all_schemes
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 List
 [
 str
 ]
+:
         
 schemes
-=
-[
-]
-#
-type
 :
 List
 [
 str
+]
+=
+[
 ]
         
 for
@@ -1268,30 +1231,27 @@ register
 (
 self
 cls
-)
 :
-        
-#
-type
-:
-(
 Type
 [
+"
 VersionControl
+"
 ]
 )
 -
 >
 None
+:
         
 if
 not
 hasattr
 (
 cls
-'
+"
 name
-'
+"
 )
 :
             
@@ -1299,13 +1259,13 @@ logger
 .
 warning
 (
-'
+"
 Cannot
 register
 VCS
 %
 s
-'
+"
 cls
 .
 __name__
@@ -1341,14 +1301,14 @@ logger
 .
 debug
 (
-'
+"
 Registered
 VCS
 backend
 :
 %
 s
-'
+"
 cls
 .
 name
@@ -1359,18 +1319,13 @@ unregister
 (
 self
 name
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 None
+:
         
 if
 name
@@ -1393,21 +1348,18 @@ get_backend_for_dir
 (
 self
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 Optional
 [
+"
 VersionControl
+"
 ]
+:
         
 "
 "
@@ -1473,7 +1425,7 @@ logger
 .
 debug
 (
-'
+"
 Determine
 that
 %
@@ -1483,8 +1435,7 @@ VCS
 :
 %
 s
-'
-                         
+"
 location
 vcs_backend
 .
@@ -1582,21 +1533,18 @@ get_backend_for_scheme
 (
 self
 scheme
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 Optional
 [
+"
 VersionControl
+"
 ]
+:
         
 "
 "
@@ -1645,21 +1593,18 @@ get_backend
 (
 self
 name
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 Optional
 [
+"
 VersionControl
+"
 ]
+:
         
 "
 "
@@ -1705,18 +1650,18 @@ VersionControl
     
 name
 =
-'
-'
+"
+"
     
 dirname
 =
-'
-'
+"
+"
     
 repo_name
 =
-'
-'
+"
+"
     
 #
 List
@@ -1729,11 +1674,6 @@ Version
 Control
     
 schemes
-=
-(
-)
-#
-type
 :
 Tuple
 [
@@ -1742,6 +1682,9 @@ str
 .
 .
 ]
+=
+(
+)
     
 #
 Iterable
@@ -1758,11 +1701,6 @@ call_subprocess
 .
     
 unset_environ
-=
-(
-)
-#
-type
 :
 Tuple
 [
@@ -1771,17 +1709,18 @@ str
 .
 .
 ]
+=
+(
+)
     
 default_arg_rev
-=
-None
-#
-type
 :
 Optional
 [
 str
 ]
+=
+None
     
 classmethod
     
@@ -1790,18 +1729,13 @@ should_add_vcs_url_prefix
 (
 cls
 remote_url
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 bool
+:
         
 "
 "
@@ -1855,14 +1789,14 @@ lower
 startswith
 (
 f
-'
+"
 {
 cls
 .
 name
 }
 :
-'
+"
 )
     
 classmethod
@@ -1872,13 +1806,7 @@ get_subdirectory
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -1887,6 +1815,7 @@ Optional
 [
 str
 ]
+:
         
 "
 "
@@ -1933,18 +1862,13 @@ get_requirement_revision
 (
 cls
 repo_dir
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -1982,20 +1906,16 @@ get_src_requirement
 (
 cls
 repo_dir
-project_name
-)
 :
-        
-#
-type
-:
-(
 str
+project_name
+:
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -2083,7 +2003,7 @@ repo_url
 repo_url
 =
 f
-'
+"
 {
 cls
 .
@@ -2093,7 +2013,7 @@ name
 {
 repo_url
 }
-'
+"
         
 revision
 =
@@ -2120,7 +2040,6 @@ make_vcs_requirement_url
 repo_url
 revision
 project_name
-                                       
 subdir
 =
 subdir
@@ -2135,13 +2054,7 @@ def
 get_base_rev_args
 (
 rev
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -2150,6 +2063,7 @@ List
 [
 str
 ]
+:
         
 "
 "
@@ -2196,20 +2110,16 @@ is_immutable_rev_checkout
 (
 self
 url
-dest
-)
 :
-        
-#
-type
-:
-(
 str
+dest
+:
 str
 )
 -
 >
 bool
+:
         
 "
 "
@@ -2287,32 +2197,30 @@ classmethod
 def
 make_rev_options
 (
+        
 cls
 rev
-=
-None
-extra_args
-=
-None
-)
 :
-        
-#
-type
-:
-(
 Optional
 [
 str
 ]
+=
+None
+extra_args
+:
 Optional
 [
 CommandArgs
 ]
+=
+None
+    
 )
 -
 >
 RevOptions
+:
         
 "
 "
@@ -2368,23 +2276,18 @@ _is_local_repository
 (
 cls
 repo
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 bool
+:
         
 "
 "
 "
-           
+        
 posix
 absolute
 paths
@@ -2395,7 +2298,7 @@ os
 path
 .
 sep
-           
+        
 win32
 ones
 start
@@ -2448,18 +2351,15 @@ classmethod
 def
 get_netloc_and_auth
 (
+        
 cls
 netloc
+:
+str
 scheme
-)
 :
-        
-#
-type
-:
-(
 str
-str
+    
 )
 -
 >
@@ -2478,6 +2378,7 @@ str
 ]
 ]
 ]
+:
         
 "
 "
@@ -2612,13 +2513,7 @@ get_url_rev_and_auth
 (
 cls
 url
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -2632,6 +2527,7 @@ str
 ]
 AuthInfo
 ]
+:
         
 "
 "
@@ -2688,9 +2584,9 @@ url
 )
         
 if
-'
+"
 +
-'
+"
 not
 in
 scheme
@@ -2775,9 +2671,9 @@ scheme
 .
 split
 (
-'
+"
 +
-'
+"
 1
 )
 [
@@ -2800,8 +2696,8 @@ rev
 None
         
 if
-'
-'
+"
+"
 in
 path
 :
@@ -2813,8 +2709,8 @@ path
 .
 rsplit
 (
-'
-'
+"
+"
 1
 )
             
@@ -2884,8 +2780,8 @@ scheme
 netloc
 path
 query
-'
-'
+"
+"
 )
 )
         
@@ -2899,27 +2795,25 @@ staticmethod
 def
 make_rev_args
 (
-username
-password
-)
-:
         
-#
-type
+username
 :
-(
 Optional
 [
 str
 ]
+password
+:
 Optional
 [
 HiddenText
 ]
+    
 )
 -
 >
 CommandArgs
+:
         
 "
 "
@@ -2953,13 +2847,7 @@ get_url_rev_options
 (
 self
 url
-)
 :
-        
-#
-type
-:
-(
 HiddenText
 )
 -
@@ -2969,6 +2857,7 @@ Tuple
 HiddenText
 RevOptions
 ]
+:
         
 "
 "
@@ -3019,15 +2908,13 @@ secret_password
 user_pass
         
 password
-=
-None
-#
-type
 :
 Optional
 [
 HiddenText
 ]
+=
+None
         
 if
 secret_password
@@ -3078,18 +2965,13 @@ def
 normalize_url
 (
 url
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -3127,9 +3009,9 @@ url
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
     
 classmethod
@@ -3139,20 +3021,16 @@ compare_urls
 (
 cls
 url1
-url2
-)
 :
-        
-#
-type
-:
-(
 str
+url2
+:
 str
 )
 -
 >
 bool
+:
         
 "
 "
@@ -3174,7 +3052,6 @@ differences
 "
         
 return
-(
 cls
 .
 normalize_url
@@ -3189,29 +3066,30 @@ normalize_url
 (
 url2
 )
-)
     
 def
 fetch_new
 (
+        
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
+verbosity
+:
+int
+    
 )
 -
 >
 None
+:
         
 "
 "
@@ -3258,6 +3136,12 @@ a
 RevOptions
 object
 .
+          
+verbosity
+:
+verbosity
+level
+.
         
 "
 "
@@ -3271,22 +3155,19 @@ switch
 (
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
 )
 -
 >
 None
+:
         
 "
 "
@@ -3325,22 +3206,19 @@ update
 (
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
 )
 -
 >
 None
+:
         
 "
 "
@@ -3382,15 +3260,10 @@ is_commit_id_equal
 (
 cls
 dest
-name
-)
 :
-        
-#
-type
-:
-(
 str
+name
+:
 Optional
 [
 str
@@ -3399,6 +3272,7 @@ str
 -
 >
 bool
+:
         
 "
 "
@@ -3447,20 +3321,19 @@ obtain
 (
 self
 dest
-url
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+verbosity
+:
+int
 )
 -
 >
 None
+:
         
 "
 "
@@ -3511,6 +3384,14 @@ vcs
 prefix
 .
         
+:
+param
+verbosity
+:
+verbosity
+level
+.
+        
 "
 "
 "
@@ -3544,6 +3425,9 @@ fetch_new
 dest
 url
 rev_options
+verbosity
+=
+verbosity
 )
             
 return
@@ -3591,7 +3475,7 @@ logger
 debug
 (
                     
-'
+"
 %
 s
 in
@@ -3606,7 +3490,7 @@ URL
 %
 s
 )
-'
+"
                     
 self
 .
@@ -3643,7 +3527,7 @@ logger
 info
 (
                         
-'
+"
 Updating
 %
 s
@@ -3651,7 +3535,7 @@ s
 s
 %
 s
-'
+"
                         
 display_path
 (
@@ -3682,7 +3566,7 @@ logger
 .
 info
 (
-'
+"
 Skipping
 because
 already
@@ -3692,7 +3576,7 @@ to
 -
 date
 .
-'
+"
 )
                 
 return
@@ -3702,7 +3586,7 @@ logger
 warning
 (
                 
-'
+"
 %
 s
 %
@@ -3715,7 +3599,7 @@ with
 URL
 %
 s
-'
+"
                 
 self
 .
@@ -3737,7 +3621,7 @@ existing_url
 prompt
 =
 (
-'
+"
 (
 s
 )
@@ -3754,21 +3638,20 @@ ipe
 b
 )
 ackup
-'
-                      
+"
 (
-'
+"
 s
-'
-'
+"
+"
 i
-'
-'
+"
+"
 w
-'
-'
+"
+"
 b
-'
+"
 )
 )
         
@@ -3780,7 +3663,7 @@ logger
 warning
 (
                 
-'
+"
 Directory
 %
 s
@@ -3795,7 +3678,7 @@ s
 %
 s
 .
-'
+"
                 
 dest
                 
@@ -3829,7 +3712,7 @@ issues
 prompt
 =
 (
-'
+"
 (
 i
 )
@@ -3842,31 +3725,30 @@ ipe
 b
 )
 ackup
-'
+"
+(
+"
+i
+"
+"
+w
+"
+"
+b
+"
+)
+)
 #
 type
 :
 ignore
-                      
-(
-'
-i
-'
-'
-w
-'
-'
-b
-'
-)
-)
         
 logger
 .
 warning
 (
             
-'
+"
 The
 plan
 is
@@ -3878,7 +3760,7 @@ s
 repository
 %
 s
-'
+"
             
 self
 .
@@ -3892,18 +3774,17 @@ response
 =
 ask_path_exists
 (
-'
+"
 What
 to
 do
 ?
 {
 }
-'
+"
 .
 format
 (
-            
 prompt
 [
 0
@@ -3919,9 +3800,9 @@ if
 response
 =
 =
-'
+"
 a
-'
+"
 :
             
 sys
@@ -3936,20 +3817,20 @@ if
 response
 =
 =
-'
+"
 w
-'
+"
 :
             
 logger
 .
 warning
 (
-'
+"
 Deleting
 %
 s
-'
+"
 display_path
 (
 dest
@@ -3968,6 +3849,9 @@ fetch_new
 dest
 url
 rev_options
+verbosity
+=
+verbosity
 )
             
 return
@@ -3976,9 +3860,9 @@ if
 response
 =
 =
-'
+"
 b
-'
+"
 :
             
 dest_dir
@@ -3992,8 +3876,7 @@ logger
 .
 warning
 (
-                
-'
+"
 Backing
 up
 %
@@ -4001,13 +3884,12 @@ s
 to
 %
 s
-'
+"
 display_path
 (
 dest
 )
 dest_dir
-            
 )
             
 shutil
@@ -4025,6 +3907,9 @@ fetch_new
 dest
 url
 rev_options
+verbosity
+=
+verbosity
 )
             
 return
@@ -4045,9 +3930,9 @@ if
 response
 =
 =
-'
+"
 s
-'
+"
 :
             
 logger
@@ -4055,7 +3940,7 @@ logger
 info
 (
                 
-'
+"
 Switching
 %
 s
@@ -4066,7 +3951,7 @@ to
 s
 %
 s
-'
+"
                 
 self
 .
@@ -4097,20 +3982,19 @@ unpack
 (
 self
 location
-url
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+verbosity
+:
+int
 )
 -
 >
 None
+:
         
 "
 "
@@ -4148,6 +4032,14 @@ vcs
 prefix
 .
         
+:
+param
+verbosity
+:
+verbosity
+level
+.
+        
 "
 "
 "
@@ -4176,6 +4068,9 @@ location
 url
 =
 url
+verbosity
+=
+verbosity
 )
     
 classmethod
@@ -4185,18 +4080,13 @@ get_remote_url
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -4238,18 +4128,13 @@ get_revision
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -4285,8 +4170,6 @@ run_command
 cls
         
 cmd
-#
-type
 :
 Union
 [
@@ -4298,39 +4181,42 @@ CommandArgs
 ]
         
 show_stdout
-=
-True
-#
-type
 :
 bool
+=
+True
         
 cwd
-=
-None
-#
-type
 :
 Optional
 [
 str
 ]
-        
-on_returncode
-=
-'
-raise
-'
-#
-type
-:
-str
-        
-extra_ok_returncodes
 =
 None
-#
-type
+        
+on_returncode
+:
+'
+Literal
+[
+"
+raise
+"
+"
+warn
+"
+"
+ignore
+"
+]
+'
+=
+"
+raise
+"
+        
+extra_ok_returncodes
 :
 Optional
 [
@@ -4339,23 +4225,19 @@ Iterable
 int
 ]
 ]
-        
-command_desc
 =
 None
-#
-type
+        
+command_desc
 :
 Optional
 [
 str
 ]
-        
-extra_environ
 =
 None
-#
-type
+        
+extra_environ
 :
 Optional
 [
@@ -4365,48 +4247,35 @@ str
 Any
 ]
 ]
-        
-spinner
 =
 None
-#
-type
+        
+spinner
 :
 Optional
 [
 SpinnerInterface
 ]
+=
+None
         
 log_failed_cmd
+:
+bool
 =
 True
-#
-type
-:
-bool
         
 stdout_only
-=
-False
-#
-type
 :
 bool
+=
+False
     
-)
-:
-        
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
 str
+:
         
 "
 "
@@ -4454,49 +4323,66 @@ name
 cmd
 )
         
+if
+command_desc
+is
+None
+:
+            
+command_desc
+=
+format_command_args
+(
+cmd
+)
+        
 try
 :
             
 return
 call_subprocess
 (
+                
 cmd
+                
 show_stdout
+                
 cwd
-                                   
+                
 on_returncode
 =
 on_returncode
-                                   
+                
 extra_ok_returncodes
 =
 extra_ok_returncodes
-                                   
+                
 command_desc
 =
 command_desc
-                                   
+                
 extra_environ
 =
 extra_environ
-                                   
+                
 unset_environ
 =
 cls
 .
 unset_environ
-                                   
+                
 spinner
 =
 spinner
-                                   
+                
 log_failed_cmd
 =
 log_failed_cmd
-                                   
+                
 stdout_only
 =
 stdout_only
+            
 )
         
 except
@@ -4531,7 +4417,7 @@ BadCommand
 (
                 
 f
-'
+"
 Cannot
 find
 command
@@ -4546,10 +4432,10 @@ r
 do
 you
 have
-'
+"
                 
 f
-'
+"
 {
 cls
 .
@@ -4563,7 +4449,8 @@ in
 your
 PATH
 ?
-'
+"
+            
 )
         
 except
@@ -4702,18 +4589,13 @@ is_repository_directory
 (
 cls
 path
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 bool
+:
         
 "
 "
@@ -4738,7 +4620,7 @@ logger
 .
 debug
 (
-'
+"
 Checking
 in
 %
@@ -4753,8 +4635,7 @@ s
 .
 .
 .
-'
-                     
+"
 path
 cls
 .
@@ -4791,13 +4672,7 @@ get_repository_root
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -4806,6 +4681,7 @@ Optional
 [
 str
 ]
+:
         
 "
 "

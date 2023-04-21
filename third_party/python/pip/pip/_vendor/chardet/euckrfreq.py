@@ -418,6 +418,10 @@ Char
 to
 FreqOrder
 table
+#
+fmt
+:
+off
 EUCKR_CHAR_TO_FREQ_ORDER
 =
 (
@@ -2828,3 +2832,7 @@ EUCKR_CHAR_TO_FREQ_ORDER
 512
 256
 )
+#
+fmt
+:
+on

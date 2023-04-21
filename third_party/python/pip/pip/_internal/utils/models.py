@@ -52,23 +52,21 @@ __init__
 (
 self
 key
-defining_class
-)
 :
-        
-#
-type
-:
-(
 Any
+defining_class
+:
 Type
 [
+"
 KeyBasedCompareMixin
+"
 ]
 )
 -
 >
 None
+:
         
 self
 .
@@ -87,16 +85,10 @@ __hash__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 int
+:
         
 return
 hash
@@ -111,18 +103,13 @@ __lt__
 (
 self
 other
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 bool
+:
         
 return
 self
@@ -140,18 +127,13 @@ __le__
 (
 self
 other
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 bool
+:
         
 return
 self
@@ -169,18 +151,13 @@ __gt__
 (
 self
 other
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 bool
+:
         
 return
 self
@@ -198,18 +175,13 @@ __ge__
 (
 self
 other
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 bool
+:
         
 return
 self
@@ -227,18 +199,13 @@ __eq__
 (
 self
 other
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 bool
+:
         
 return
 self
@@ -256,15 +223,10 @@ _compare
 (
 self
 other
-method
-)
 :
-        
-#
-type
-:
-(
 Any
+method
+:
 Callable
 [
 [
@@ -277,6 +239,7 @@ bool
 -
 >
 bool
+:
         
 if
 not

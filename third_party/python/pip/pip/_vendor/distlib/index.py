@@ -65,6 +65,11 @@ Thread
 except
 ImportError
 :
+#
+pragma
+:
+no
+cover
     
 from
 dummy_threading
@@ -713,6 +718,11 @@ self
 metadata
 )
 :
+#
+pragma
+:
+no
+cover
         
 "
 "
@@ -1033,12 +1043,16 @@ self
 filename
 signer
 sign_password
-                         
 keystore
 =
 None
 )
 :
+#
+pragma
+:
+no
+cover
         
 "
 "
@@ -1646,6 +1660,11 @@ keystore
 None
 )
 :
+#
+pragma
+:
+no
+cover
         
 "
 "
@@ -2360,6 +2379,11 @@ metadata
 doc_dir
 )
 :
+#
+pragma
+:
+no
+cover
         
 "
 "
@@ -4121,6 +4145,11 @@ operator
 None
 )
 :
+#
+pragma
+:
+no
+cover
         
 if
 isinstance

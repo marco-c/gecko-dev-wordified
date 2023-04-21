@@ -312,9 +312,9 @@ BLOCK
 #
 from
 .
-mbcharsetprober
+chardistribution
 import
-MultiByteCharSetProber
+GB2312DistributionAnalysis
 from
 .
 codingstatemachine
@@ -322,9 +322,9 @@ import
 CodingStateMachine
 from
 .
-chardistribution
+mbcharsetprober
 import
-GB2312DistributionAnalysis
+MultiByteCharSetProber
 from
 .
 mbcssm
@@ -342,12 +342,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-GB2312Prober
-self
 )
 .
 __init__
@@ -384,6 +385,9 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -398,6 +402,9 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return

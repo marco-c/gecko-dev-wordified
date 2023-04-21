@@ -144,14 +144,18 @@ the
 value
 associated
 with
-name
+command
+.
+option
     
 -
 set
 :
 Set
 the
-name
+command
+.
+option
 =
 value
     
@@ -163,7 +167,9 @@ the
 value
 associated
 with
-name
+command
+.
+option
     
 -
 debug
@@ -177,6 +183,84 @@ values
 defined
 under
 them
+    
+Configuration
+keys
+should
+be
+dot
+separated
+command
+and
+option
+name
+    
+with
+the
+special
+prefix
+"
+global
+"
+affecting
+any
+command
+.
+For
+example
+    
+"
+pip
+config
+set
+global
+.
+index
+-
+url
+https
+:
+/
+/
+example
+.
+org
+/
+"
+would
+configure
+    
+the
+index
+url
+for
+all
+commands
+but
+"
+pip
+config
+set
+download
+.
+timeout
+10
+"
+    
+would
+configure
+a
+10
+second
+timeout
+only
+for
+"
+pip
+download
+"
+commands
+.
     
 If
 none
@@ -215,8 +299,6 @@ Otherwise
 all
 modifications
 happen
-on
-the
 to
 the
 user
@@ -282,7 +364,9 @@ option
 >
 ]
 get
-name
+command
+.
+option
         
 %
 prog
@@ -294,7 +378,9 @@ option
 >
 ]
 set
-name
+command
+.
+option
 value
         
 %
@@ -307,7 +393,9 @@ option
 >
 ]
 unset
-name
+command
+.
+option
         
 %
 prog
@@ -341,23 +429,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 editor
-'
+"
             
 dest
 =
-'
+"
 editor
-'
+"
             
 action
 =
-'
+"
 store
-'
+"
             
 default
 =
@@ -367,7 +455,7 @@ help
 =
 (
                 
-'
+"
 Editor
 to
 use
@@ -380,16 +468,16 @@ Uses
 VISUAL
 or
 EDITOR
-'
+"
                 
-'
+"
 environment
 variables
 if
 not
 provided
 .
-'
+"
             
 )
         
@@ -402,23 +490,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 global
-'
+"
             
 dest
 =
-'
+"
 global_file
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -426,7 +514,7 @@ False
             
 help
 =
-'
+"
 Use
 the
 system
@@ -435,7 +523,7 @@ wide
 configuration
 file
 only
-'
+"
         
 )
         
@@ -446,23 +534,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 user
-'
+"
             
 dest
 =
-'
+"
 user_file
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -470,14 +558,14 @@ False
             
 help
 =
-'
+"
 Use
 the
 user
 configuration
 file
 only
-'
+"
         
 )
         
@@ -488,23 +576,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 site
-'
+"
             
 dest
 =
-'
+"
 site_file
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -512,7 +600,7 @@ False
             
 help
 =
-'
+"
 Use
 the
 current
@@ -520,7 +608,7 @@ environment
 configuration
 file
 only
-'
+"
         
 )
         
@@ -849,13 +937,15 @@ Kind
 file_options
 =
 [
+            
 key
+            
 for
 key
 value
 in
 (
-            
+                
 (
 kinds
 .
@@ -864,7 +954,7 @@ options
 .
 user_file
 )
-            
+                
 (
 kinds
 .
@@ -873,7 +963,7 @@ options
 .
 global_file
 )
-            
+                
 (
 kinds
 .
@@ -882,10 +972,12 @@ options
 .
 site_file
 )
-        
+            
 )
+            
 if
 value
+        
 ]
         
 if
@@ -1370,7 +1462,6 @@ exists
 %
 r
 "
-                                 
 fname
 file_exists
 )
@@ -1425,8 +1516,6 @@ self
 .
 configuration
 .
-\
-                
 get_values_in_config
 (
 variant
@@ -1489,9 +1578,9 @@ write_output
 s
 :
 "
-'
+"
 env_var
-'
+"
 )
         
 with
@@ -1519,7 +1608,7 @@ get_environ_vars
 env_var
 =
 f
-'
+"
 PIP_
 {
 key
@@ -1528,7 +1617,7 @@ upper
 (
 )
 }
-'
+"
                 
 write_output
 (
@@ -1600,6 +1689,70 @@ file
 "
 )
         
+elif
+'
+"
+'
+in
+fname
+:
+            
+#
+This
+shouldn
+'
+t
+happen
+unless
+we
+see
+a
+username
+like
+that
+.
+            
+#
+If
+that
+happens
+we
+'
+d
+appreciate
+a
+pull
+request
+fixing
+this
+.
+            
+raise
+PipError
+(
+                
+f
+'
+Can
+not
+open
+an
+editor
+for
+a
+file
+name
+containing
+"
+\
+n
+{
+fname
+}
+'
+            
+)
+        
 try
 :
             
@@ -1607,11 +1760,42 @@ subprocess
 .
 check_call
 (
-[
+f
+'
+{
 editor
+}
+"
+{
 fname
-]
+}
+"
+'
+shell
+=
+True
 )
+        
+except
+FileNotFoundError
+as
+e
+:
+            
+if
+not
+e
+.
+filename
+:
+                
+e
+.
+filename
+=
+editor
+            
+raise
         
 except
 subprocess
@@ -1635,7 +1819,6 @@ code
 {
 }
 "
-                
 .
 format
 (
@@ -1683,7 +1866,6 @@ right
 number
 of
 arguments
-        
 "
 "
 "
@@ -1702,7 +1884,7 @@ msg
 =
 (
                 
-'
+"
 Got
 unexpected
 number
@@ -1712,7 +1894,7 @@ expected
 {
 }
 .
-'
+"
                 
 '
 (

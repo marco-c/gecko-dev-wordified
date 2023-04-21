@@ -1,3 +1,24 @@
+#
+SPDX
+-
+FileCopyrightText
+:
+2015
+Eric
+Larson
+#
+#
+SPDX
+-
+License
+-
+Identifier
+:
+Apache
+-
+2
+.
+0
 import
 types
 import
@@ -19,6 +40,7 @@ from
 controller
 import
 CacheController
+PERMANENT_REDIRECT_STATUSES
 from
 .
 cache
@@ -41,6 +63,9 @@ invalidating_methods
 {
 "
 PUT
+"
+"
+PATCH
 "
 "
 DELETE
@@ -579,12 +604,14 @@ the
 responses
             
 elif
+int
+(
 response
 .
 status
-=
-=
-301
+)
+in
+PERMANENT_REDIRECT_STATUSES
 :
                 
 self

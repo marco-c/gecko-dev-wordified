@@ -7,15 +7,7 @@ def
 main
 (
 args
-=
-None
-)
 :
-    
-#
-type
-:
-(
 Optional
 [
 List
@@ -23,10 +15,13 @@ List
 str
 ]
 ]
+=
+None
 )
 -
 >
 int
+:
     
 "
 "

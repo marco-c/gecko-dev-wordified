@@ -20,17 +20,6 @@ _vendor
 .
 packaging
 .
-specifiers
-import
-InvalidSpecifier
-SpecifierSet
-from
-pip
-.
-_vendor
-.
-packaging
-.
 utils
 import
 NormalizedName
@@ -48,32 +37,26 @@ Version
 from
 pip
 .
-_vendor
+_internal
 .
-packaging
-.
-version
+exceptions
 import
-parse
-as
-parse_version
-from
-pip
-.
-_vendor
-.
-pkg_resources
-import
-Distribution
+(
+    
+HashError
+    
+InstallationSubprocessError
+    
+MetadataInconsistent
+)
 from
 pip
 .
 _internal
 .
-exceptions
+metadata
 import
-HashError
-MetadataInconsistent
+BaseDistribution
 from
 pip
 .
@@ -127,10 +110,9 @@ _internal
 .
 utils
 .
-misc
+direct_url_helpers
 import
-dist_is_editable
-normalize_version_info
+direct_url_from_link
 from
 pip
 .
@@ -138,9 +120,9 @@ _internal
 .
 utils
 .
-packaging
+misc
 import
-get_requires_python
+normalize_version_info
 from
 .
 base
@@ -374,6 +356,12 @@ template
 hash_options
         
 )
+        
+config_settings
+=
+template
+.
+config_settings
     
 )
     
@@ -457,6 +445,12 @@ template
 .
 constraint
         
+permit_editable_wheels
+=
+template
+.
+permit_editable_wheels
+        
 options
 =
 dict
@@ -481,15 +475,21 @@ template
 hash_options
         
 )
+        
+config_settings
+=
+template
+.
+config_settings
     
 )
 def
-make_install_req_from_dist
+_make_install_req_from_dist
 (
     
 dist
 :
-Distribution
+BaseDistribution
 template
 :
 InstallRequirement
@@ -498,15 +498,6 @@ InstallRequirement
 >
 InstallRequirement
 :
-    
-project_name
-=
-canonicalize_name
-(
-dist
-.
-project_name
-)
     
 if
 template
@@ -534,7 +525,9 @@ line
 f
 "
 {
-project_name
+dist
+.
+canonical_name
 }
 {
 template
@@ -553,14 +546,16 @@ line
 f
 "
 {
-project_name
+dist
+.
+canonical_name
 }
 =
 =
 {
 dist
 .
-parsed_version
+version
 }
 "
     
@@ -625,6 +620,12 @@ template
 hash_options
         
 )
+        
+config_settings
+=
+template
+.
+config_settings
     
 )
     
@@ -787,6 +788,10 @@ org
 "
 "
 "
+    
+dist
+:
+BaseDistribution
     
 is_installed
 =
@@ -1078,14 +1083,11 @@ self
 .
 _name
 =
-canonicalize_name
-(
 self
 .
 dist
 .
-project_name
-)
+canonical_name
         
 return
 self
@@ -1133,14 +1135,11 @@ self
 .
 _version
 =
-parse_version
-(
 self
 .
 dist
 .
 version
-)
         
 return
 self
@@ -1206,7 +1205,7 @@ self
 )
 -
 >
-Distribution
+BaseDistribution
 :
         
 raise
@@ -1225,7 +1224,7 @@ _check_metadata_consistency
 self
 dist
 :
-Distribution
+BaseDistribution
 )
 -
 >
@@ -1250,15 +1249,6 @@ dist
 "
 "
         
-canonical_name
-=
-canonicalize_name
-(
-dist
-.
-project_name
-)
-        
 if
 self
 .
@@ -1272,6 +1262,8 @@ self
 _name
 !
 =
+dist
+.
 canonical_name
 :
             
@@ -1293,17 +1285,8 @@ _name
                 
 dist
 .
-project_name
+canonical_name
             
-)
-        
-parsed_version
-=
-parse_version
-(
-dist
-.
-version
 )
         
 if
@@ -1319,7 +1302,9 @@ self
 _version
 !
 =
-parsed_version
+dist
+.
+version
 :
             
 raise
@@ -1341,9 +1326,12 @@ self
 _version
 )
                 
+str
+(
 dist
 .
 version
+)
             
 )
     
@@ -1354,7 +1342,7 @@ self
 )
 -
 >
-Distribution
+BaseDistribution
 :
         
 try
@@ -1416,6 +1404,41 @@ _ireq
             
 raise
         
+except
+InstallationSubprocessError
+as
+exc
+:
+            
+#
+The
+output
+has
+been
+presented
+already
+so
+don
+'
+t
+duplicate
+it
+.
+            
+exc
+.
+context
+=
+"
+See
+above
+for
+output
+.
+"
+            
+raise
+        
 self
 .
 _check_metadata_consistency
@@ -1425,94 +1448,6 @@ dist
         
 return
 dist
-    
-def
-_get_requires_python_dependency
-(
-self
-)
--
->
-Optional
-[
-Requirement
-]
-:
-        
-requires_python
-=
-get_requires_python
-(
-self
-.
-dist
-)
-        
-if
-requires_python
-is
-None
-:
-            
-return
-None
-        
-try
-:
-            
-spec
-=
-SpecifierSet
-(
-requires_python
-)
-        
-except
-InvalidSpecifier
-as
-e
-:
-            
-message
-=
-"
-Package
-%
-r
-has
-an
-invalid
-Requires
--
-Python
-:
-%
-s
-"
-            
-logger
-.
-warning
-(
-message
-self
-.
-name
-e
-)
-            
-return
-None
-        
-return
-self
-.
-_factory
-.
-make_requires_python_requirement
-(
-spec
-)
     
 def
 iter_dependencies
@@ -1539,7 +1474,7 @@ self
 .
 dist
 .
-requires
+iter_dependencies
 (
 )
 if
@@ -1573,8 +1508,15 @@ _ireq
 yield
 self
 .
-_get_requires_python_dependency
+_factory
+.
+make_requires_python_requirement
 (
+self
+.
+dist
+.
+requires_python
 )
     
 def
@@ -1828,18 +1770,16 @@ name
 )
         
 if
-(
-            
 cache_entry
 is
 not
 None
+:
             
-and
+if
 cache_entry
 .
 persistent
-            
 and
 template
 .
@@ -1848,15 +1788,73 @@ is
 template
 .
 original_link
-        
-)
 :
-            
+                
 ireq
 .
 original_link_is_in_wheel_cache
 =
 True
+            
+if
+cache_entry
+.
+origin
+is
+not
+None
+:
+                
+ireq
+.
+download_info
+=
+cache_entry
+.
+origin
+            
+else
+:
+                
+#
+Legacy
+cache
+entry
+that
+does
+not
+have
+origin
+.
+json
+.
+                
+#
+download_info
+may
+miss
+the
+archive_info
+.
+hash
+field
+.
+                
+ireq
+.
+download_info
+=
+direct_url_from_link
+(
+                    
+source_link
+link_is_in_wheel_cache
+=
+cache_entry
+.
+persistent
+                
+)
         
 super
 (
@@ -1898,26 +1896,28 @@ self
 )
 -
 >
-Distribution
+BaseDistribution
 :
         
-return
+preparer
+=
 self
 .
 _factory
 .
 preparer
+        
+return
+preparer
 .
 prepare_linked_requirement
 (
-            
 self
 .
 _ireq
 parallel_builds
 =
 True
-        
 )
 class
 EditableCandidate
@@ -2018,7 +2018,7 @@ self
 )
 -
 >
-Distribution
+BaseDistribution
 :
         
 return
@@ -2057,7 +2057,7 @@ self
         
 dist
 :
-Distribution
+BaseDistribution
         
 template
 :
@@ -2085,7 +2085,7 @@ self
 .
 _ireq
 =
-make_install_req_from_dist
+_make_install_req_from_dist
 (
 dist
 template
@@ -2132,7 +2132,7 @@ we
 set
 satisfied_by
 in
-make_install_req_from_dist
+_make_install_req_from_dist
 .
         
 #
@@ -2311,14 +2311,11 @@ NormalizedName
 :
         
 return
-canonicalize_name
-(
 self
 .
 dist
 .
-project_name
-)
+canonical_name
     
 property
     
@@ -2350,14 +2347,11 @@ CandidateVersion
 :
         
 return
-parse_version
-(
 self
 .
 dist
 .
 version
-)
     
 property
     
@@ -2372,12 +2366,11 @@ bool
 :
         
 return
-dist_is_editable
-(
 self
 .
 dist
-)
+.
+editable
     
 def
 format_for_error
@@ -2440,7 +2433,7 @@ self
 .
 dist
 .
-requires
+iter_dependencies
 (
 )
 :
@@ -3254,7 +3247,9 @@ base
 .
 dist
 .
-extras
+iter_provided_extras
+(
+)
 )
         
 invalid_extras
@@ -3271,7 +3266,9 @@ base
 .
 dist
 .
-extras
+iter_provided_extras
+(
+)
 )
         
 for
@@ -3327,7 +3324,7 @@ base
 .
 dist
 .
-requires
+iter_dependencies
 (
 valid_extras
 )

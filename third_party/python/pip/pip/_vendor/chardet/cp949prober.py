@@ -342,12 +342,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-CP949Prober
-self
 )
 .
 __init__
@@ -406,6 +407,9 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -420,6 +424,9 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return

@@ -312,12 +312,22 @@ BLOCK
 #
 from
 .
+codingstatemachinedict
+import
+CodingStateMachineDict
+from
+.
 enums
 import
 MachineState
+#
+fmt
+:
+off
 HZ_CLS
 =
 (
+    
 1
 0
 0
@@ -330,6 +340,7 @@ HZ_CLS
 00
 -
 07
+    
 0
 0
 0
@@ -342,6 +353,7 @@ HZ_CLS
 08
 -
 0f
+    
 0
 0
 0
@@ -354,6 +366,7 @@ HZ_CLS
 10
 -
 17
+    
 0
 0
 0
@@ -366,6 +379,7 @@ HZ_CLS
 18
 -
 1f
+    
 0
 0
 0
@@ -378,6 +392,7 @@ HZ_CLS
 20
 -
 27
+    
 0
 0
 0
@@ -390,6 +405,7 @@ HZ_CLS
 28
 -
 2f
+    
 0
 0
 0
@@ -402,6 +418,7 @@ HZ_CLS
 30
 -
 37
+    
 0
 0
 0
@@ -414,6 +431,7 @@ HZ_CLS
 38
 -
 3f
+    
 0
 0
 0
@@ -426,6 +444,7 @@ HZ_CLS
 40
 -
 47
+    
 0
 0
 0
@@ -438,6 +457,7 @@ HZ_CLS
 48
 -
 4f
+    
 0
 0
 0
@@ -450,6 +470,7 @@ HZ_CLS
 50
 -
 57
+    
 0
 0
 0
@@ -462,6 +483,7 @@ HZ_CLS
 58
 -
 5f
+    
 0
 0
 0
@@ -474,6 +496,7 @@ HZ_CLS
 60
 -
 67
+    
 0
 0
 0
@@ -486,6 +509,7 @@ HZ_CLS
 68
 -
 6f
+    
 0
 0
 0
@@ -498,6 +522,7 @@ HZ_CLS
 70
 -
 77
+    
 0
 0
 0
@@ -510,6 +535,7 @@ HZ_CLS
 78
 -
 7f
+    
 1
 1
 1
@@ -522,6 +548,7 @@ HZ_CLS
 80
 -
 87
+    
 1
 1
 1
@@ -534,6 +561,7 @@ HZ_CLS
 88
 -
 8f
+    
 1
 1
 1
@@ -546,6 +574,7 @@ HZ_CLS
 90
 -
 97
+    
 1
 1
 1
@@ -558,6 +587,7 @@ HZ_CLS
 98
 -
 9f
+    
 1
 1
 1
@@ -570,6 +600,7 @@ HZ_CLS
 a0
 -
 a7
+    
 1
 1
 1
@@ -582,6 +613,7 @@ a7
 a8
 -
 af
+    
 1
 1
 1
@@ -594,6 +626,7 @@ af
 b0
 -
 b7
+    
 1
 1
 1
@@ -606,6 +639,7 @@ b7
 b8
 -
 bf
+    
 1
 1
 1
@@ -618,6 +652,7 @@ bf
 c0
 -
 c7
+    
 1
 1
 1
@@ -630,6 +665,7 @@ c7
 c8
 -
 cf
+    
 1
 1
 1
@@ -642,6 +678,7 @@ cf
 d0
 -
 d7
+    
 1
 1
 1
@@ -654,6 +691,7 @@ d7
 d8
 -
 df
+    
 1
 1
 1
@@ -666,6 +704,7 @@ df
 e0
 -
 e7
+    
 1
 1
 1
@@ -678,6 +717,7 @@ e7
 e8
 -
 ef
+    
 1
 1
 1
@@ -690,6 +730,7 @@ ef
 f0
 -
 f7
+    
 1
 1
 1
@@ -852,6 +893,10 @@ START
 -
 2f
 )
+#
+fmt
+:
+on
 HZ_CHAR_LEN_TABLE
 =
 (
@@ -863,35 +908,38 @@ HZ_CHAR_LEN_TABLE
 0
 )
 HZ_SM_MODEL
+:
+CodingStateMachineDict
 =
 {
-'
+    
+"
 class_table
-'
+"
 :
 HZ_CLS
-               
-'
+    
+"
 class_factor
-'
+"
 :
 6
-               
-'
+    
+"
 state_table
-'
+"
 :
 HZ_ST
-               
-'
+    
+"
 char_len_table
-'
+"
 :
 HZ_CHAR_LEN_TABLE
-               
-'
+    
+"
 name
-'
+"
 :
 "
 HZ
@@ -900,18 +948,23 @@ GB
 -
 2312
 "
-               
-'
+    
+"
 language
-'
+"
 :
-'
+"
 Chinese
-'
+"
 }
+#
+fmt
+:
+off
 ISO2022CN_CLS
 =
 (
+    
 2
 0
 0
@@ -924,6 +977,7 @@ ISO2022CN_CLS
 00
 -
 07
+    
 0
 0
 0
@@ -936,6 +990,7 @@ ISO2022CN_CLS
 08
 -
 0f
+    
 0
 0
 0
@@ -948,6 +1003,7 @@ ISO2022CN_CLS
 10
 -
 17
+    
 0
 0
 0
@@ -960,6 +1016,7 @@ ISO2022CN_CLS
 18
 -
 1f
+    
 0
 0
 0
@@ -972,6 +1029,7 @@ ISO2022CN_CLS
 20
 -
 27
+    
 0
 3
 0
@@ -984,6 +1042,7 @@ ISO2022CN_CLS
 28
 -
 2f
+    
 0
 0
 0
@@ -996,6 +1055,7 @@ ISO2022CN_CLS
 30
 -
 37
+    
 0
 0
 0
@@ -1008,6 +1068,7 @@ ISO2022CN_CLS
 38
 -
 3f
+    
 0
 0
 0
@@ -1020,6 +1081,7 @@ ISO2022CN_CLS
 40
 -
 47
+    
 0
 0
 0
@@ -1032,6 +1094,7 @@ ISO2022CN_CLS
 48
 -
 4f
+    
 0
 0
 0
@@ -1044,6 +1107,7 @@ ISO2022CN_CLS
 50
 -
 57
+    
 0
 0
 0
@@ -1056,6 +1120,7 @@ ISO2022CN_CLS
 58
 -
 5f
+    
 0
 0
 0
@@ -1068,6 +1133,7 @@ ISO2022CN_CLS
 60
 -
 67
+    
 0
 0
 0
@@ -1080,6 +1146,7 @@ ISO2022CN_CLS
 68
 -
 6f
+    
 0
 0
 0
@@ -1092,6 +1159,7 @@ ISO2022CN_CLS
 70
 -
 77
+    
 0
 0
 0
@@ -1104,6 +1172,7 @@ ISO2022CN_CLS
 78
 -
 7f
+    
 2
 2
 2
@@ -1116,6 +1185,7 @@ ISO2022CN_CLS
 80
 -
 87
+    
 2
 2
 2
@@ -1128,6 +1198,7 @@ ISO2022CN_CLS
 88
 -
 8f
+    
 2
 2
 2
@@ -1140,6 +1211,7 @@ ISO2022CN_CLS
 90
 -
 97
+    
 2
 2
 2
@@ -1152,6 +1224,7 @@ ISO2022CN_CLS
 98
 -
 9f
+    
 2
 2
 2
@@ -1164,6 +1237,7 @@ ISO2022CN_CLS
 a0
 -
 a7
+    
 2
 2
 2
@@ -1176,6 +1250,7 @@ a7
 a8
 -
 af
+    
 2
 2
 2
@@ -1188,6 +1263,7 @@ af
 b0
 -
 b7
+    
 2
 2
 2
@@ -1200,6 +1276,7 @@ b7
 b8
 -
 bf
+    
 2
 2
 2
@@ -1212,6 +1289,7 @@ bf
 c0
 -
 c7
+    
 2
 2
 2
@@ -1224,6 +1302,7 @@ c7
 c8
 -
 cf
+    
 2
 2
 2
@@ -1236,6 +1315,7 @@ cf
 d0
 -
 d7
+    
 2
 2
 2
@@ -1248,6 +1328,7 @@ d7
 d8
 -
 df
+    
 2
 2
 2
@@ -1260,6 +1341,7 @@ df
 e0
 -
 e7
+    
 2
 2
 2
@@ -1272,6 +1354,7 @@ e7
 e8
 -
 ef
+    
 2
 2
 2
@@ -1284,6 +1367,7 @@ ef
 f0
 -
 f7
+    
 2
 2
 2
@@ -1300,6 +1384,7 @@ ff
 ISO2022CN_ST
 =
 (
+    
 MachineState
 .
 START
@@ -1326,6 +1411,7 @@ START
 00
 -
 07
+    
 MachineState
 .
 START
@@ -1354,6 +1440,7 @@ ERROR
 08
 -
 0f
+    
 MachineState
 .
 ERROR
@@ -1382,6 +1469,7 @@ ITS_ME
 10
 -
 17
+    
 MachineState
 .
 ITS_ME
@@ -1408,6 +1496,7 @@ ERROR
 18
 -
 1f
+    
 MachineState
 .
 ERROR
@@ -1436,7 +1525,7 @@ ERROR
 20
 -
 27
-     
+        
 5
 6
 MachineState
@@ -1461,6 +1550,7 @@ ERROR
 28
 -
 2f
+    
 MachineState
 .
 ERROR
@@ -1489,6 +1579,7 @@ ERROR
 30
 -
 37
+    
 MachineState
 .
 ERROR
@@ -1518,6 +1609,10 @@ START
 -
 3f
 )
+#
+fmt
+:
+on
 ISO2022CN_CHAR_LEN_TABLE
 =
 (
@@ -1532,35 +1627,38 @@ ISO2022CN_CHAR_LEN_TABLE
 0
 )
 ISO2022CN_SM_MODEL
+:
+CodingStateMachineDict
 =
 {
-'
+    
+"
 class_table
-'
+"
 :
 ISO2022CN_CLS
-                      
-'
+    
+"
 class_factor
-'
+"
 :
 9
-                      
-'
+    
+"
 state_table
-'
+"
 :
 ISO2022CN_ST
-                      
-'
+    
+"
 char_len_table
-'
+"
 :
 ISO2022CN_CHAR_LEN_TABLE
-                      
-'
+    
+"
 name
-'
+"
 :
 "
 ISO
@@ -1569,18 +1667,23 @@ ISO
 -
 CN
 "
-                      
-'
+    
+"
 language
-'
+"
 :
-'
+"
 Chinese
-'
+"
 }
+#
+fmt
+:
+off
 ISO2022JP_CLS
 =
 (
+    
 2
 0
 0
@@ -1593,6 +1696,7 @@ ISO2022JP_CLS
 00
 -
 07
+    
 0
 0
 0
@@ -1605,6 +1709,7 @@ ISO2022JP_CLS
 08
 -
 0f
+    
 0
 0
 0
@@ -1617,6 +1722,7 @@ ISO2022JP_CLS
 10
 -
 17
+    
 0
 0
 0
@@ -1629,6 +1735,7 @@ ISO2022JP_CLS
 18
 -
 1f
+    
 0
 0
 0
@@ -1641,6 +1748,7 @@ ISO2022JP_CLS
 20
 -
 27
+    
 3
 0
 0
@@ -1653,6 +1761,7 @@ ISO2022JP_CLS
 28
 -
 2f
+    
 0
 0
 0
@@ -1665,6 +1774,7 @@ ISO2022JP_CLS
 30
 -
 37
+    
 0
 0
 0
@@ -1677,6 +1787,7 @@ ISO2022JP_CLS
 38
 -
 3f
+    
 6
 0
 4
@@ -1689,6 +1800,7 @@ ISO2022JP_CLS
 40
 -
 47
+    
 0
 9
 5
@@ -1701,6 +1813,7 @@ ISO2022JP_CLS
 48
 -
 4f
+    
 0
 0
 0
@@ -1713,6 +1826,7 @@ ISO2022JP_CLS
 50
 -
 57
+    
 0
 0
 0
@@ -1725,6 +1839,7 @@ ISO2022JP_CLS
 58
 -
 5f
+    
 0
 0
 0
@@ -1737,6 +1852,7 @@ ISO2022JP_CLS
 60
 -
 67
+    
 0
 0
 0
@@ -1749,6 +1865,7 @@ ISO2022JP_CLS
 68
 -
 6f
+    
 0
 0
 0
@@ -1761,6 +1878,7 @@ ISO2022JP_CLS
 70
 -
 77
+    
 0
 0
 0
@@ -1773,6 +1891,7 @@ ISO2022JP_CLS
 78
 -
 7f
+    
 2
 2
 2
@@ -1785,6 +1904,7 @@ ISO2022JP_CLS
 80
 -
 87
+    
 2
 2
 2
@@ -1797,6 +1917,7 @@ ISO2022JP_CLS
 88
 -
 8f
+    
 2
 2
 2
@@ -1809,6 +1930,7 @@ ISO2022JP_CLS
 90
 -
 97
+    
 2
 2
 2
@@ -1821,6 +1943,7 @@ ISO2022JP_CLS
 98
 -
 9f
+    
 2
 2
 2
@@ -1833,6 +1956,7 @@ ISO2022JP_CLS
 a0
 -
 a7
+    
 2
 2
 2
@@ -1845,6 +1969,7 @@ a7
 a8
 -
 af
+    
 2
 2
 2
@@ -1857,6 +1982,7 @@ af
 b0
 -
 b7
+    
 2
 2
 2
@@ -1869,6 +1995,7 @@ b7
 b8
 -
 bf
+    
 2
 2
 2
@@ -1881,6 +2008,7 @@ bf
 c0
 -
 c7
+    
 2
 2
 2
@@ -1893,6 +2021,7 @@ c7
 c8
 -
 cf
+    
 2
 2
 2
@@ -1905,6 +2034,7 @@ cf
 d0
 -
 d7
+    
 2
 2
 2
@@ -1917,6 +2047,7 @@ d7
 d8
 -
 df
+    
 2
 2
 2
@@ -1929,6 +2060,7 @@ df
 e0
 -
 e7
+    
 2
 2
 2
@@ -1941,6 +2073,7 @@ e7
 e8
 -
 ef
+    
 2
 2
 2
@@ -1953,6 +2086,7 @@ ef
 f0
 -
 f7
+    
 2
 2
 2
@@ -1969,6 +2103,7 @@ ff
 ISO2022JP_ST
 =
 (
+    
 MachineState
 .
 START
@@ -1995,6 +2130,7 @@ START
 00
 -
 07
+    
 MachineState
 .
 START
@@ -2023,6 +2159,7 @@ ERROR
 08
 -
 0f
+    
 MachineState
 .
 ERROR
@@ -2051,6 +2188,7 @@ ITS_ME
 10
 -
 17
+    
 MachineState
 .
 ITS_ME
@@ -2079,6 +2217,7 @@ ERROR
 18
 -
 1f
+    
 MachineState
 .
 ERROR
@@ -2103,6 +2242,7 @@ ERROR
 20
 -
 27
+    
 MachineState
 .
 ERROR
@@ -2129,6 +2269,7 @@ ERROR
 28
 -
 2f
+    
 MachineState
 .
 ERROR
@@ -2157,6 +2298,7 @@ ITS_ME
 30
 -
 37
+    
 MachineState
 .
 ERROR
@@ -2185,6 +2327,7 @@ ERROR
 38
 -
 3f
+    
 MachineState
 .
 ERROR
@@ -2214,6 +2357,10 @@ START
 -
 47
 )
+#
+fmt
+:
+on
 ISO2022JP_CHAR_LEN_TABLE
 =
 (
@@ -2229,35 +2376,38 @@ ISO2022JP_CHAR_LEN_TABLE
 0
 )
 ISO2022JP_SM_MODEL
+:
+CodingStateMachineDict
 =
 {
-'
+    
+"
 class_table
-'
+"
 :
 ISO2022JP_CLS
-                      
-'
+    
+"
 class_factor
-'
+"
 :
 10
-                      
-'
+    
+"
 state_table
-'
+"
 :
 ISO2022JP_ST
-                      
-'
+    
+"
 char_len_table
-'
+"
 :
 ISO2022JP_CHAR_LEN_TABLE
-                      
-'
+    
+"
 name
-'
+"
 :
 "
 ISO
@@ -2266,18 +2416,23 @@ ISO
 -
 JP
 "
-                      
-'
+    
+"
 language
-'
+"
 :
-'
+"
 Japanese
-'
+"
 }
+#
+fmt
+:
+off
 ISO2022KR_CLS
 =
 (
+    
 2
 0
 0
@@ -2290,6 +2445,7 @@ ISO2022KR_CLS
 00
 -
 07
+    
 0
 0
 0
@@ -2302,6 +2458,7 @@ ISO2022KR_CLS
 08
 -
 0f
+    
 0
 0
 0
@@ -2314,6 +2471,7 @@ ISO2022KR_CLS
 10
 -
 17
+    
 0
 0
 0
@@ -2326,6 +2484,7 @@ ISO2022KR_CLS
 18
 -
 1f
+    
 0
 0
 0
@@ -2338,6 +2497,7 @@ ISO2022KR_CLS
 20
 -
 27
+    
 0
 4
 0
@@ -2350,6 +2510,7 @@ ISO2022KR_CLS
 28
 -
 2f
+    
 0
 0
 0
@@ -2362,6 +2523,7 @@ ISO2022KR_CLS
 30
 -
 37
+    
 0
 0
 0
@@ -2374,6 +2536,7 @@ ISO2022KR_CLS
 38
 -
 3f
+    
 0
 0
 0
@@ -2386,6 +2549,7 @@ ISO2022KR_CLS
 40
 -
 47
+    
 0
 0
 0
@@ -2398,6 +2562,7 @@ ISO2022KR_CLS
 48
 -
 4f
+    
 0
 0
 0
@@ -2410,6 +2575,7 @@ ISO2022KR_CLS
 50
 -
 57
+    
 0
 0
 0
@@ -2422,6 +2588,7 @@ ISO2022KR_CLS
 58
 -
 5f
+    
 0
 0
 0
@@ -2434,6 +2601,7 @@ ISO2022KR_CLS
 60
 -
 67
+    
 0
 0
 0
@@ -2446,6 +2614,7 @@ ISO2022KR_CLS
 68
 -
 6f
+    
 0
 0
 0
@@ -2458,6 +2627,7 @@ ISO2022KR_CLS
 70
 -
 77
+    
 0
 0
 0
@@ -2470,6 +2640,7 @@ ISO2022KR_CLS
 78
 -
 7f
+    
 2
 2
 2
@@ -2482,6 +2653,7 @@ ISO2022KR_CLS
 80
 -
 87
+    
 2
 2
 2
@@ -2494,6 +2666,7 @@ ISO2022KR_CLS
 88
 -
 8f
+    
 2
 2
 2
@@ -2506,6 +2679,7 @@ ISO2022KR_CLS
 90
 -
 97
+    
 2
 2
 2
@@ -2518,6 +2692,7 @@ ISO2022KR_CLS
 98
 -
 9f
+    
 2
 2
 2
@@ -2530,6 +2705,7 @@ ISO2022KR_CLS
 a0
 -
 a7
+    
 2
 2
 2
@@ -2542,6 +2718,7 @@ a7
 a8
 -
 af
+    
 2
 2
 2
@@ -2554,6 +2731,7 @@ af
 b0
 -
 b7
+    
 2
 2
 2
@@ -2566,6 +2744,7 @@ b7
 b8
 -
 bf
+    
 2
 2
 2
@@ -2578,6 +2757,7 @@ bf
 c0
 -
 c7
+    
 2
 2
 2
@@ -2590,6 +2770,7 @@ c7
 c8
 -
 cf
+    
 2
 2
 2
@@ -2602,6 +2783,7 @@ cf
 d0
 -
 d7
+    
 2
 2
 2
@@ -2614,6 +2796,7 @@ d7
 d8
 -
 df
+    
 2
 2
 2
@@ -2626,6 +2809,7 @@ df
 e0
 -
 e7
+    
 2
 2
 2
@@ -2638,6 +2822,7 @@ e7
 e8
 -
 ef
+    
 2
 2
 2
@@ -2650,6 +2835,7 @@ ef
 f0
 -
 f7
+    
 2
 2
 2
@@ -2666,6 +2852,7 @@ ff
 ISO2022KR_ST
 =
 (
+    
 MachineState
 .
 START
@@ -2692,6 +2879,7 @@ ERROR
 00
 -
 07
+    
 MachineState
 .
 ERROR
@@ -2720,6 +2908,7 @@ ITS_ME
 08
 -
 0f
+    
 MachineState
 .
 ITS_ME
@@ -2746,6 +2935,7 @@ ERROR
 10
 -
 17
+    
 MachineState
 .
 ERROR
@@ -2772,6 +2962,7 @@ ERROR
 18
 -
 1f
+    
 MachineState
 .
 ERROR
@@ -2801,6 +2992,10 @@ START
 -
 27
 )
+#
+fmt
+:
+on
 ISO2022KR_CHAR_LEN_TABLE
 =
 (
@@ -2812,35 +3007,38 @@ ISO2022KR_CHAR_LEN_TABLE
 0
 )
 ISO2022KR_SM_MODEL
+:
+CodingStateMachineDict
 =
 {
-'
+    
+"
 class_table
-'
+"
 :
 ISO2022KR_CLS
-                      
-'
+    
+"
 class_factor
-'
+"
 :
 6
-                      
-'
+    
+"
 state_table
-'
+"
 :
 ISO2022KR_ST
-                      
-'
+    
+"
 char_len_table
-'
+"
 :
 ISO2022KR_CHAR_LEN_TABLE
-                      
-'
+    
+"
 name
-'
+"
 :
 "
 ISO
@@ -2849,12 +3047,12 @@ ISO
 -
 KR
 "
-                      
-'
+    
+"
 language
-'
+"
 :
-'
+"
 Korean
-'
+"
 }

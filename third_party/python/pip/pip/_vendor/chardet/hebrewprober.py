@@ -310,6 +310,11 @@ BLOCK
 #
 #
 from
+typing
+import
+Optional
+Union
+from
 .
 charsetprober
 import
@@ -319,6 +324,11 @@ from
 enums
 import
 ProbingState
+from
+.
+sbcharsetprober
+import
+SingleByteCharSetProber
 #
 This
 prober
@@ -1450,6 +1460,10 @@ CharSetProber
 )
 :
     
+SPACE
+=
+0x20
+    
 #
 windows
 -
@@ -1467,43 +1481,43 @@ interest
     
 FINAL_KAF
 =
-0xea
+0xEA
     
 NORMAL_KAF
 =
-0xeb
+0xEB
     
 FINAL_MEM
 =
-0xed
+0xED
     
 NORMAL_MEM
 =
-0xee
+0xEE
     
 FINAL_NUN
 =
-0xef
+0xEF
     
 NORMAL_NUN
 =
-0xf0
+0xF0
     
 FINAL_PE
 =
-0xf3
+0xF3
     
 NORMAL_PE
 =
-0xf4
+0xF4
     
 FINAL_TSADI
 =
-0xf5
+0xF5
     
 NORMAL_TSADI
 =
-0xf6
+0xF6
     
 #
 Minimum
@@ -1603,12 +1617,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-HebrewProber
-self
 )
 .
 __init__
@@ -1619,35 +1634,49 @@ self
 .
 _final_char_logical_score
 =
-None
+0
         
 self
 .
 _final_char_visual_score
 =
-None
+0
         
 self
 .
 _prev
 =
-None
+self
+.
+SPACE
         
 self
 .
 _before_prev
 =
-None
+self
+.
+SPACE
         
 self
 .
 _logical_prober
+:
+Optional
+[
+SingleByteCharSetProber
+]
 =
 None
         
 self
 .
 _visual_prober
+:
+Optional
+[
+SingleByteCharSetProber
+]
 =
 None
         
@@ -1662,6 +1691,9 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -1715,15 +1747,17 @@ self
 .
 _prev
 =
-'
-'
+self
+.
+SPACE
         
 self
 .
 _before_prev
 =
-'
-'
+self
+.
+SPACE
         
 #
 These
@@ -1739,52 +1773,73 @@ prober
 def
 set_model_probers
 (
+        
 self
-logicalProber
-visualProber
+        
+logical_prober
+:
+SingleByteCharSetProber
+        
+visual_prober
+:
+SingleByteCharSetProber
+    
 )
+-
+>
+None
 :
         
 self
 .
 _logical_prober
 =
-logicalProber
+logical_prober
         
 self
 .
 _visual_prober
 =
-visualProber
+visual_prober
     
 def
 is_final
 (
 self
 c
+:
+int
 )
+-
+>
+bool
 :
         
 return
 c
 in
 [
+            
 self
 .
 FINAL_KAF
+            
 self
 .
 FINAL_MEM
+            
 self
 .
 FINAL_NUN
-                     
+            
 self
 .
 FINAL_PE
+            
 self
 .
 FINAL_TSADI
+        
 ]
     
 def
@@ -1792,7 +1847,12 @@ is_non_final
 (
 self
 c
+:
+int
 )
+-
+>
+bool
 :
         
 #
@@ -1955,7 +2015,6 @@ NORMAL_KAF
 self
 .
 NORMAL_MEM
-                     
 self
 .
 NORMAL_NUN
@@ -1969,7 +2028,16 @@ feed
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+ProbingState
 :
         
 #
@@ -2336,8 +2404,9 @@ if
 cur
 =
 =
-'
-'
+self
+.
+SPACE
 :
                 
 #
@@ -2358,8 +2427,9 @@ self
 _before_prev
 !
 =
-'
-'
+self
+.
+SPACE
 :
                     
 #
@@ -2488,17 +2558,19 @@ space
                 
 if
 (
+                    
 (
 self
 .
 _before_prev
 =
 =
-'
-'
+self
+.
+SPACE
 )
+                    
 and
-                        
 (
 self
 .
@@ -2509,14 +2581,17 @@ self
 _prev
 )
 )
+                    
 and
 (
 cur
 !
 =
-'
-'
+self
+.
+SPACE
 )
+                
 )
 :
                     
@@ -2600,7 +2675,26 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
+        
+assert
+self
+.
+_logical_prober
+is
+not
+None
+        
+assert
+self
+.
+_visual_prober
+is
+not
+None
         
 #
 Make
@@ -2688,6 +2782,7 @@ instead
 modelsub
 =
 (
+            
 self
 .
 _logical_prober
@@ -2695,7 +2790,6 @@ _logical_prober
 get_confidence
 (
 )
-                    
 -
 self
 .
@@ -2704,6 +2798,7 @@ _visual_prober
 get_confidence
 (
 )
+        
 )
         
 if
@@ -2803,12 +2898,15 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return
-'
+"
 Hebrew
-'
+"
     
 property
     
@@ -2817,7 +2915,26 @@ state
 (
 self
 )
+-
+>
+ProbingState
 :
+        
+assert
+self
+.
+_logical_prober
+is
+not
+None
+        
+assert
+self
+.
+_visual_prober
+is
+not
+None
         
 #
 Remain
@@ -2848,9 +2965,8 @@ ProbingState
 NOT_ME
 )
 and
-\
-           
 (
+            
 self
 .
 _visual_prober
@@ -2861,6 +2977,7 @@ state
 ProbingState
 .
 NOT_ME
+        
 )
 :
             

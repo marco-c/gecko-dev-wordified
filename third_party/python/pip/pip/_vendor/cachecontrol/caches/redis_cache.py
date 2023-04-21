@@ -1,3 +1,24 @@
+#
+SPDX
+-
+FileCopyrightText
+:
+2015
+Eric
+Larson
+#
+#
+SPDX
+-
+License
+-
+Identifier
+:
+Apache
+-
+2
+.
+0
 from
 __future__
 import
@@ -82,7 +103,12 @@ key
 value
 )
         
-else
+elif
+isinstance
+(
+expires
+datetime
+)
 :
             
 expires
@@ -110,6 +136,20 @@ total_seconds
 (
 )
 )
+value
+)
+        
+else
+:
+            
+self
+.
+conn
+.
+setex
+(
+key
+expires
 value
 )
     

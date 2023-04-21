@@ -80,13 +80,7 @@ def
 intranges_from_list
 (
 list_
-)
 :
-    
-#
-type
-:
-(
 List
 [
 int
@@ -101,6 +95,7 @@ int
 .
 .
 ]
+:
     
 "
 "
@@ -281,20 +276,16 @@ def
 _encode_range
 (
 start
-end
-)
 :
-    
-#
-type
-:
-(
 int
+end
+:
 int
 )
 -
 >
 int
+:
     
 return
 (
@@ -309,13 +300,7 @@ def
 _decode_range
 (
 r
-)
 :
-    
-#
-type
-:
-(
 int
 )
 -
@@ -325,6 +310,7 @@ Tuple
 int
 int
 ]
+:
     
 return
 (
@@ -351,15 +337,10 @@ def
 intranges_contain
 (
 int_
-ranges
-)
 :
-    
-#
-type
-:
-(
 int
+ranges
+:
 Tuple
 [
 int
@@ -371,6 +352,7 @@ int
 -
 >
 bool
+:
     
 "
 "

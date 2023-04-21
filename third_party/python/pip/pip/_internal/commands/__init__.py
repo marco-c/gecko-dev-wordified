@@ -14,7 +14,6 @@ importlib
 from
 collections
 import
-OrderedDict
 namedtuple
 from
 typing
@@ -36,16 +35,45 @@ CommandInfo
 =
 namedtuple
 (
-'
+"
 CommandInfo
-'
-'
+"
+"
 module_path
 class_name
 summary
-'
+"
 )
 #
+This
+dictionary
+does
+a
+bunch
+of
+heavy
+lifting
+for
+help
+output
+:
+#
+-
+Enables
+avoiding
+additional
+(
+costly
+)
+imports
+for
+presenting
+-
+-
+help
+.
+#
+-
 The
 ordering
 matters
@@ -54,8 +82,8 @@ help
 display
 .
 #
-Also
-even
+#
+Even
 though
 the
 module
@@ -64,7 +92,6 @@ starts
 with
 the
 same
-#
 "
 pip
 .
@@ -72,18 +99,11 @@ _internal
 .
 commands
 "
+#
 prefix
-in
-each
-case
-we
-include
 the
 full
 path
-#
-because
-it
 makes
 testing
 easier
@@ -91,61 +111,14 @@ easier
 specifically
 when
 modifying
-commands_dict
 #
+commands_dict
 in
 test
 setup
 /
 teardown
-by
-adding
-info
-for
-a
-FakeCommand
-class
-defined
-#
-in
-a
-test
--
-related
-module
 )
-.
-#
-Finally
-we
-need
-to
-pass
-an
-iterable
-of
-pairs
-here
-rather
-than
-a
-dict
-#
-so
-that
-the
-ordering
-won
-'
-t
-be
-lost
-when
-using
-Python
-2
-.
-7
 .
 commands_dict
 :
@@ -155,18 +128,16 @@ str
 CommandInfo
 ]
 =
-OrderedDict
-(
-[
+{
     
-(
-'
+"
 install
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -174,28 +145,28 @@ _internal
 commands
 .
 install
-'
-'
-InstallCommand
-'
+"
         
-'
+"
+InstallCommand
+"
+        
+"
 Install
 packages
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 download
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -203,28 +174,28 @@ _internal
 commands
 .
 download
-'
-'
-DownloadCommand
-'
+"
         
-'
+"
+DownloadCommand
+"
+        
+"
 Download
 packages
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 uninstall
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -232,28 +203,28 @@ _internal
 commands
 .
 uninstall
-'
-'
-UninstallCommand
-'
+"
         
-'
+"
+UninstallCommand
+"
+        
+"
 Uninstall
 packages
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 freeze
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -261,12 +232,13 @@ _internal
 commands
 .
 freeze
-'
-'
-FreezeCommand
-'
+"
         
-'
+"
+FreezeCommand
+"
+        
+"
 Output
 installed
 packages
@@ -274,19 +246,49 @@ in
 requirements
 format
 .
-'
+"
     
 )
-)
     
-(
-'
-list
-'
+"
+inspect
+"
+:
 CommandInfo
 (
         
-'
+"
+pip
+.
+_internal
+.
+commands
+.
+inspect
+"
+        
+"
+InspectCommand
+"
+        
+"
+Inspect
+the
+python
+environment
+.
+"
+    
+)
+    
+"
+list
+"
+:
+CommandInfo
+(
+        
+"
 pip
 .
 _internal
@@ -294,29 +296,29 @@ _internal
 commands
 .
 list
-'
-'
-ListCommand
-'
+"
         
-'
+"
+ListCommand
+"
+        
+"
 List
 installed
 packages
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 show
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -324,31 +326,31 @@ _internal
 commands
 .
 show
-'
-'
-ShowCommand
-'
+"
         
-'
+"
+ShowCommand
+"
+        
+"
 Show
 information
 about
 installed
 packages
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 check
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -356,12 +358,13 @@ _internal
 commands
 .
 check
-'
-'
-CheckCommand
-'
+"
         
-'
+"
+CheckCommand
+"
+        
+"
 Verify
 installed
 packages
@@ -369,19 +372,18 @@ have
 compatible
 dependencies
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 config
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -389,31 +391,31 @@ _internal
 commands
 .
 configuration
-'
-'
-ConfigurationCommand
-'
+"
         
-'
+"
+ConfigurationCommand
+"
+        
+"
 Manage
 local
 and
 global
 configuration
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 search
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -421,30 +423,30 @@ _internal
 commands
 .
 search
-'
-'
-SearchCommand
-'
+"
         
-'
+"
+SearchCommand
+"
+        
+"
 Search
 PyPI
 for
 packages
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 cache
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -452,10 +454,11 @@ _internal
 commands
 .
 cache
-'
-'
+"
+        
+"
 CacheCommand
-'
+"
         
 "
 Inspect
@@ -470,16 +473,15 @@ cache
 "
     
 )
-)
     
-(
-'
+"
 index
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -487,10 +489,11 @@ _internal
 commands
 .
 index
-'
-'
+"
+        
+"
 IndexCommand
-'
+"
         
 "
 Inspect
@@ -503,16 +506,15 @@ indexes
 "
     
 )
-)
     
-(
-'
+"
 wheel
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -520,31 +522,31 @@ _internal
 commands
 .
 wheel
-'
-'
-WheelCommand
-'
+"
         
-'
+"
+WheelCommand
+"
+        
+"
 Build
 wheels
 from
 your
 requirements
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 hash
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -552,31 +554,31 @@ _internal
 commands
 .
 hash
-'
-'
-HashCommand
-'
+"
         
-'
+"
+HashCommand
+"
+        
+"
 Compute
 hashes
 of
 package
 archives
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 completion
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -584,12 +586,13 @@ _internal
 commands
 .
 completion
-'
-'
-CompletionCommand
-'
+"
         
-'
+"
+CompletionCommand
+"
+        
+"
 A
 helper
 command
@@ -598,19 +601,18 @@ for
 command
 completion
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 debug
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -618,31 +620,31 @@ _internal
 commands
 .
 debug
-'
-'
-DebugCommand
-'
+"
         
-'
+"
+DebugCommand
+"
+        
+"
 Show
 information
 useful
 for
 debugging
 .
-'
+"
     
 )
-)
     
-(
-'
+"
 help
-'
+"
+:
 CommandInfo
 (
         
-'
+"
 pip
 .
 _internal
@@ -650,23 +652,22 @@ _internal
 commands
 .
 help
-'
-'
-HelpCommand
-'
+"
         
-'
+"
+HelpCommand
+"
+        
+"
 Show
 help
 for
 commands
 .
-'
+"
     
 )
-)
-]
-)
+}
 def
 create_command
 (

@@ -559,29 +559,20 @@ str
 :
         
 return
+f
 "
 <
 {
 self
 }
 {
-self_id
-}
->
-"
-.
-format
-(
-self
-=
-self
-self_id
-=
 id
 (
 self
 )
-)
+}
+>
+"
 def
 parse_tag
 (
@@ -1418,14 +1409,10 @@ version_info
     
 interpreter
 =
+f
 "
 cp
 {
-}
-"
-.
-format
-(
 _version_nodot
 (
 python_version
@@ -1434,7 +1421,8 @@ python_version
 2
 ]
 )
-)
+}
+"
     
 if
 abis
@@ -1523,7 +1511,7 @@ list
 (
 platforms
 or
-_platform_tags
+platform_tags
 (
 )
 )
@@ -1843,7 +1831,7 @@ list
 (
 platforms
 or
-_platform_tags
+platform_tags
 (
 )
 )
@@ -1957,17 +1945,10 @@ py_version
 :
         
 yield
+f
 "
 py
 {
-version
-}
-"
-.
-format
-(
-version
-=
 _version_nodot
 (
 py_version
@@ -1976,25 +1957,20 @@ py_version
 2
 ]
 )
-)
+}
+"
     
 yield
+f
 "
 py
 {
-major
-}
-"
-.
-format
-(
-major
-=
 py_version
 [
 0
 ]
-)
+}
+"
     
 if
 len
@@ -2024,17 +2000,10 @@ py_version
 :
             
 yield
+f
 "
 py
 {
-version
-}
-"
-.
-format
-(
-version
-=
 _version_nodot
 (
 (
@@ -2045,7 +2014,8 @@ py_version
 minor
 )
 )
-)
+}
+"
 def
 compatible_tags
 (
@@ -2175,7 +2145,7 @@ list
 (
 platforms
 or
-_platform_tags
+platform_tags
 (
 )
 )
@@ -3262,7 +3232,7 @@ get_platform
 )
 )
 def
-_platform_tags
+platform_tags
 (
 )
 -
@@ -3564,6 +3534,29 @@ generic_tags
 (
 )
     
+if
+interp_name
+=
+=
+"
+pp
+"
+:
+        
+yield
+from
+compatible_tags
+(
+interpreter
+=
+"
+pp3
+"
+)
+    
+else
+:
+        
 yield
 from
 compatible_tags

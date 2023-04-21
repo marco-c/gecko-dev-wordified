@@ -149,16 +149,10 @@ def
 current_umask
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 int
+:
     
 "
 "
@@ -201,13 +195,7 @@ def
 split_leading_dir
 (
 path
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
@@ -216,6 +204,7 @@ List
 [
 str
 ]
+:
     
 path
 =
@@ -329,13 +318,7 @@ def
 has_leading_dir
 (
 paths
-)
 :
-    
-#
-type
-:
-(
 Iterable
 [
 str
@@ -344,6 +327,7 @@ str
 -
 >
 bool
+:
     
 "
 "
@@ -431,20 +415,16 @@ def
 is_within_directory
 (
 directory
-target
-)
 :
-    
-#
-type
-:
-(
 str
+target
+:
 str
 )
 -
 >
 bool
+:
     
 "
 "
@@ -512,18 +492,13 @@ def
 set_extracted_file_to_default_mode_plus_executable
 (
 path
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 None
+:
     
 "
 "
@@ -582,18 +557,13 @@ def
 zip_item_is_executable
 (
 info
-)
 :
-    
-#
-type
-:
-(
 ZipInfo
 )
 -
 >
 bool
+:
     
 mode
 =
@@ -644,24 +614,21 @@ def
 unzip_file
 (
 filename
+:
+str
 location
+:
+str
 flatten
+:
+bool
 =
 True
-)
-:
-    
-#
-type
-:
-(
-str
-str
-bool
 )
 -
 >
 None
+:
     
 "
 "
@@ -1043,20 +1010,16 @@ def
 untar_file
 (
 filename
-location
-)
 :
-    
-#
-type
-:
-(
 str
+location
+:
 str
 )
 -
 >
 None
+:
     
 "
 "
@@ -1452,23 +1415,6 @@ issym
 try
 :
                     
-#
-https
-:
-/
-/
-github
-.
-com
-/
-python
-/
-typeshed
-/
-issues
-/
-2673
-                    
 tar
 .
 _extract_member
@@ -1476,10 +1422,6 @@ _extract_member
 member
 path
 )
-#
-type
-:
-ignore
                 
 except
 Exception
@@ -1719,41 +1661,26 @@ unpack_file
 (
     
 filename
-#
-type
 :
 str
     
 location
-#
-type
 :
 str
     
 content_type
-=
-None
-#
-type
 :
 Optional
 [
 str
 ]
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
+=
+None
 )
 -
 >
 None
+:
     
 filename
 =

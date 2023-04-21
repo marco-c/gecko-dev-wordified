@@ -17,18 +17,13 @@ def
 ToASCII
 (
 label
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 bytes
+:
     
 return
 encode
@@ -39,13 +34,7 @@ def
 ToUnicode
 (
 label
-)
 :
-    
-#
-type
-:
-(
 Union
 [
 bytes
@@ -55,6 +44,7 @@ bytearray
 -
 >
 str
+:
     
 return
 decode
@@ -65,18 +55,13 @@ def
 nameprep
 (
 s
-)
 :
-    
-#
-type
-:
-(
 Any
 )
 -
 >
 None
+:
     
 raise
 NotImplementedError

@@ -41,7 +41,6 @@ can
 be
 installed
 .
-    
 "
 "
 "
@@ -173,7 +172,6 @@ False
 return
 all
 (
-            
 getattr
 (
 self
@@ -186,14 +184,12 @@ getattr
 other
 k
 )
-            
 for
 k
 in
 self
 .
 __slots__
-        
 )
     
 def
@@ -226,11 +222,9 @@ self
 __class__
 .
 __name__
-            
 self
 .
 no_binary
-            
 self
 .
 only_binary
@@ -268,9 +262,9 @@ value
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 :
             
@@ -305,16 +299,16 @@ value
 .
 split
 (
-'
-'
+"
+"
 )
         
 while
-'
+"
 :
 all
 :
-'
+"
 in
 new
 :
@@ -335,11 +329,11 @@ target
 .
 add
 (
-'
+"
 :
 all
 :
-'
+"
 )
             
 del
@@ -350,11 +344,11 @@ new
 .
 index
 (
-'
+"
 :
 all
 :
-'
+"
 )
 +
 1
@@ -377,11 +371,11 @@ covers
 it
             
 if
-'
+"
 :
 none
 :
-'
+"
 not
 in
 new
@@ -399,11 +393,11 @@ if
 name
 =
 =
-'
+"
 :
 none
 :
-'
+"
 :
                 
 target
@@ -474,9 +468,9 @@ result
 .
 discard
 (
-'
+"
 source
-'
+"
 )
         
 elif
@@ -491,17 +485,17 @@ result
 .
 discard
 (
-'
+"
 binary
-'
+"
 )
         
 elif
-'
+"
 :
 all
 :
-'
+"
 in
 self
 .
@@ -512,17 +506,17 @@ result
 .
 discard
 (
-'
+"
 source
-'
+"
 )
         
 elif
-'
+"
 :
 all
 :
-'
+"
 in
 self
 .
@@ -533,9 +527,9 @@ result
 .
 discard
 (
-'
+"
 binary
-'
+"
 )
         
 return
@@ -559,14 +553,16 @@ self
 handle_mutual_excludes
 (
             
-'
+"
 :
 all
 :
-'
+"
+            
 self
 .
 no_binary
+            
 self
 .
 only_binary

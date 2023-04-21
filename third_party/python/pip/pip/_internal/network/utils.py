@@ -2,7 +2,7 @@ from
 typing
 import
 Dict
-Iterator
+Generator
 from
 pip
 .
@@ -503,9 +503,11 @@ CONTENT_CHUNK_SIZE
 )
 -
 >
-Iterator
+Generator
 [
 bytes
+None
+None
 ]
 :
     

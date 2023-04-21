@@ -19,7 +19,6 @@ easier
 access
 to
 endpoints
-    
 "
 "
 "
@@ -27,22 +26,21 @@ endpoints
 __slots__
 =
 [
-'
+"
 url
-'
-'
+"
+"
 netloc
-'
-'
+"
+"
 simple_url
-'
-'
+"
+"
 pypi_url
-'
-                 
-'
+"
+"
 file_storage_domain
-'
+"
 ]
     
 def
@@ -98,9 +96,9 @@ self
 .
 _url_for_path
 (
-'
+"
 simple
-'
+"
 )
         
 self
@@ -111,9 +109,9 @@ self
 .
 _url_for_path
 (
-'
+"
 pypi
-'
+"
 )
         
 #
@@ -185,8 +183,7 @@ PyPI
 =
 PackageIndex
 (
-    
-'
+"
 https
 :
 /
@@ -195,23 +192,23 @@ pypi
 .
 org
 /
-'
+"
 file_storage_domain
 =
-'
+"
 files
 .
 pythonhosted
 .
 org
-'
+"
 )
 TestPyPI
 =
 PackageIndex
 (
     
-'
+"
 https
 :
 /
@@ -222,10 +219,10 @@ pypi
 .
 org
 /
-'
+"
 file_storage_domain
 =
-'
+"
 test
 -
 files
@@ -233,5 +230,5 @@ files
 pythonhosted
 .
 org
-'
+"
 )

@@ -28,6 +28,14 @@ WHEEL_EXTENSION
 whl
 "
 BZ2_EXTENSIONS
+:
+Tuple
+[
+str
+.
+.
+.
+]
 =
 (
 "
@@ -41,8 +49,7 @@ bz2
 tbz
 "
 )
-#
-type
+XZ_EXTENSIONS
 :
 Tuple
 [
@@ -51,7 +58,6 @@ str
 .
 .
 ]
-XZ_EXTENSIONS
 =
 (
     
@@ -86,8 +92,7 @@ tar
 lzma
 "
 )
-#
-type
+ZIP_EXTENSIONS
 :
 Tuple
 [
@@ -96,7 +101,6 @@ str
 .
 .
 ]
-ZIP_EXTENSIONS
 =
 (
 "
@@ -105,8 +109,7 @@ zip
 "
 WHEEL_EXTENSION
 )
-#
-type
+TAR_EXTENSIONS
 :
 Tuple
 [
@@ -115,7 +118,6 @@ str
 .
 .
 ]
-TAR_EXTENSIONS
 =
 (
 "
@@ -133,16 +135,6 @@ tgz
 tar
 "
 )
-#
-type
-:
-Tuple
-[
-str
-.
-.
-.
-]
 ARCHIVE_EXTENSIONS
 =
 ZIP_EXTENSIONS
@@ -156,18 +148,13 @@ def
 is_archive_file
 (
 name
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 bool
+:
     
 "
 "

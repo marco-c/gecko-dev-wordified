@@ -20,14 +20,6 @@ import
 logging
 import
 os
-import
-sys
-from
-distutils
-.
-util
-import
-change_root
 from
 typing
 import
@@ -50,6 +42,17 @@ _internal
 exceptions
 import
 InstallationError
+LegacyInstallFailure
+from
+pip
+.
+_internal
+.
+locations
+.
+base
+import
+change_root
 from
 pip
 .
@@ -60,16 +63,6 @@ models
 scheme
 import
 Scheme
-from
-pip
-.
-_internal
-.
-utils
-.
-logging
-import
-indent_log
 from
 pip
 .
@@ -118,38 +111,6 @@ getLogger
 (
 __name__
 )
-class
-LegacyInstallFailure
-(
-Exception
-)
-:
-    
-def
-__init__
-(
-self
-)
-:
-        
-#
-type
-:
-(
-)
--
->
-None
-        
-self
-.
-parent
-=
-sys
-.
-exc_info
-(
-)
 def
 write_installed_files_from_setuptools_record
 (
@@ -181,18 +142,13 @@ def
 prepend_root
 (
 path
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 if
 root
@@ -245,12 +201,12 @@ directory
 .
 endswith
 (
-'
+"
 .
 egg
 -
 info
-'
+"
 )
 :
             
@@ -364,7 +320,6 @@ new_lines
 .
 append
 (
-            
 os
 .
 path
@@ -377,7 +332,6 @@ filename
 )
 egg_info_dir
 )
-        
 )
     
 new_lines
@@ -400,22 +354,22 @@ path
 join
 (
 egg_info_dir
-'
+"
 installed
 -
 files
 .
 txt
-'
+"
 )
     
 with
 open
 (
 inst_files_path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -425,28 +379,26 @@ f
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
 new_lines
 )
 +
-'
+"
 \
 n
-'
+"
 )
 def
 install
 (
     
 install_options
-#
-type
 :
 List
 [
@@ -454,8 +406,6 @@ str
 ]
     
 global_options
-#
-type
 :
 Sequence
 [
@@ -463,8 +413,6 @@ str
 ]
     
 root
-#
-type
 :
 Optional
 [
@@ -472,8 +420,6 @@ str
 ]
     
 home
-#
-type
 :
 Optional
 [
@@ -481,8 +427,6 @@ str
 ]
     
 prefix
-#
-type
 :
 Optional
 [
@@ -490,72 +434,45 @@ str
 ]
     
 use_user_site
-#
-type
 :
 bool
     
 pycompile
-#
-type
 :
 bool
     
 scheme
-#
-type
 :
 Scheme
     
 setup_py_path
-#
-type
 :
 str
     
 isolated
-#
-type
 :
 bool
     
 req_name
-#
-type
 :
 str
     
 build_env
-#
-type
 :
 BuildEnvironment
     
 unpacked_source_directory
-#
-type
 :
 str
     
 req_description
-#
-type
 :
 str
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
 bool
+:
     
 header_dir
 =
@@ -590,13 +507,13 @@ join
 temp_dir
 .
 path
-'
+"
 install
 -
 record
 .
 txt
-'
+"
 )
             
 install_args
@@ -669,9 +586,6 @@ req_name
 )
             
 with
-indent_log
-(
-)
 build_env
 :
                 
@@ -704,14 +618,14 @@ logger
 .
 debug
 (
-'
+"
 Record
 file
 %
 s
 not
 found
-'
+"
 record_filename
 )
                 
@@ -735,6 +649,8 @@ False
         
 except
 Exception
+as
+e
 :
             
 #
@@ -754,6 +670,13 @@ package
             
 raise
 LegacyInstallFailure
+(
+package_details
+=
+req_name
+)
+from
+e
         
 #
 At

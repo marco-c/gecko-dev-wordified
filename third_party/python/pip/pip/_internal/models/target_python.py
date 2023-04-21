@@ -377,9 +377,9 @@ py_version_info
         
 py_version
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -497,9 +497,9 @@ None
             
 display_version
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -522,34 +522,34 @@ key_values
 [
             
 (
-'
+"
 platforms
-'
+"
 self
 .
 platforms
 )
             
 (
-'
+"
 version_info
-'
+"
 display_version
 )
             
 (
-'
+"
 abis
-'
+"
 self
 .
 abis
 )
             
 (
-'
+"
 implementation
-'
+"
 self
 .
 implementation
@@ -558,14 +558,14 @@ implementation
 ]
         
 return
-'
-'
+"
+"
 .
 join
 (
             
 f
-'
+"
 {
 key
 }
@@ -575,13 +575,12 @@ value
 !
 r
 }
-'
+"
 for
 key
 value
 in
 key_values
-            
 if
 value
 is

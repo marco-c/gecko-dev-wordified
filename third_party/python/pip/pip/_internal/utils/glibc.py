@@ -33,19 +33,13 @@ def
 glibc_version_string
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 str
 ]
+:
     
 "
 Returns
@@ -73,19 +67,13 @@ def
 glibc_version_string_confstr
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 str
 ]
+:
     
 "
 Primary
@@ -259,19 +247,13 @@ def
 glibc_version_string_ctypes
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 str
 ]
+:
     
 "
 Fallback
@@ -625,13 +607,6 @@ def
 libc_ver
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -639,6 +614,7 @@ Tuple
 str
 str
 ]
+:
     
 "
 "

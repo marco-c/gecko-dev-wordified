@@ -9,6 +9,7 @@ typing
 import
 List
 Optional
+Tuple
 from
 pip
 .
@@ -85,54 +86,58 @@ VersionControl
     
 name
 =
-'
+"
 hg
-'
+"
     
 dirname
 =
-'
+"
 .
 hg
-'
+"
     
 repo_name
 =
-'
+"
 clone
-'
+"
     
 schemes
 =
 (
         
-'
+"
 hg
 +
 file
-'
-'
+"
+        
+"
 hg
 +
 http
-'
-'
+"
+        
+"
 hg
 +
 https
-'
-'
+"
+        
+"
 hg
 +
 ssh
-'
-'
+"
+        
+"
 hg
 +
 static
 -
 http
-'
+"
     
 )
     
@@ -142,13 +147,7 @@ def
 get_base_rev_args
 (
 rev
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -157,6 +156,7 @@ List
 [
 str
 ]
+:
         
 return
 [
@@ -166,24 +166,26 @@ rev
 def
 fetch_new
 (
+        
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
+verbosity
+:
+int
+    
 )
 -
 >
 None
+:
         
 rev_display
 =
@@ -198,7 +200,7 @@ logger
 info
 (
             
-'
+"
 Cloning
 hg
 %
@@ -208,7 +210,7 @@ s
 to
 %
 s
-'
+"
             
 url
             
@@ -221,24 +223,94 @@ dest
         
 )
         
+if
+verbosity
+<
+=
+0
+:
+            
+flags
+:
+Tuple
+[
+str
+.
+.
+.
+]
+=
+(
+"
+-
+-
+quiet
+"
+)
+        
+elif
+verbosity
+=
+=
+1
+:
+            
+flags
+=
+(
+)
+        
+elif
+verbosity
+=
+=
+2
+:
+            
+flags
+=
+(
+"
+-
+-
+verbose
+"
+)
+        
+else
+:
+            
+flags
+=
+(
+"
+-
+-
+verbose
+"
+"
+-
+-
+debug
+"
+)
+        
 self
 .
 run_command
 (
 make_command
 (
-'
+"
 clone
-'
-'
+"
+"
 -
 -
 noupdate
-'
-'
--
-q
-'
+"
+*
+flags
 url
 dest
 )
@@ -251,13 +323,11 @@ run_command
             
 make_command
 (
-'
+"
 update
-'
-'
--
-q
-'
+"
+*
+flags
 rev_options
 .
 to_args
@@ -276,22 +346,19 @@ switch
 (
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
 )
 -
 >
 None
+:
         
 repo_config
 =
@@ -305,9 +372,9 @@ dest
 self
 .
 dirname
-'
+"
 hgrc
-'
+"
 )
         
 config
@@ -332,12 +399,12 @@ config
 .
 set
 (
-'
+"
 paths
-'
-'
+"
+"
 default
-'
+"
 url
 .
 secret
@@ -347,9 +414,9 @@ with
 open
 (
 repo_config
-'
+"
 w
-'
+"
 )
 as
 config_file
@@ -377,8 +444,7 @@ logger
 .
 warning
 (
-                
-'
+"
 Could
 not
 switch
@@ -390,10 +456,9 @@ s
 :
 %
 s
-'
+"
 url
 exc
-            
 )
         
 else
@@ -403,13 +468,13 @@ cmd_args
 =
 make_command
 (
-'
+"
 update
-'
-'
+"
+"
 -
 q
-'
+"
 rev_options
 .
 to_args
@@ -432,35 +497,32 @@ update
 (
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
 )
 -
 >
 None
+:
         
 self
 .
 run_command
 (
 [
-'
+"
 pull
-'
-'
+"
+"
 -
 q
-'
+"
 ]
 cwd
 =
@@ -471,13 +533,13 @@ cmd_args
 =
 make_command
 (
-'
+"
 update
-'
-'
+"
+"
 -
 q
-'
+"
 rev_options
 .
 to_args
@@ -502,18 +564,13 @@ get_remote_url
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 url
 =
@@ -523,14 +580,14 @@ run_command
 (
             
 [
-'
+"
 showconfig
-'
-'
+"
+"
 paths
 .
 default
-'
+"
 ]
             
 show_stdout
@@ -581,18 +638,13 @@ get_revision
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -623,10 +675,10 @@ run_command
 (
             
 [
-'
+"
 parents
-'
-'
+"
+"
 -
 -
 template
@@ -634,7 +686,7 @@ template
 {
 rev
 }
-'
+"
 ]
             
 show_stdout
@@ -665,18 +717,13 @@ get_requirement_revision
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -708,10 +755,10 @@ run_command
 (
             
 [
-'
+"
 parents
-'
-'
+"
+"
 -
 -
 template
@@ -719,7 +766,7 @@ template
 {
 node
 }
-'
+"
 ]
             
 show_stdout
@@ -750,15 +797,10 @@ is_commit_id_equal
 (
 cls
 dest
-name
-)
 :
-        
-#
-type
-:
-(
 str
+name
+:
 Optional
 [
 str
@@ -767,6 +809,7 @@ str
 -
 >
 bool
+:
         
 "
 "
@@ -793,13 +836,7 @@ get_subdirectory
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -808,6 +845,7 @@ Optional
 [
 str
 ]
+:
         
 "
 "
@@ -858,9 +896,9 @@ run_command
 (
             
 [
-'
+"
 root
-'
+"
 ]
 show_stdout
 =
@@ -923,13 +961,7 @@ get_repository_root
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -938,6 +970,7 @@ Optional
 [
 str
 ]
+:
         
 loc
 =
@@ -968,9 +1001,9 @@ run_command
 (
                 
 [
-'
+"
 root
-'
+"
 ]
                 
 cwd
@@ -987,9 +1020,9 @@ True
                 
 on_returncode
 =
-'
+"
 raise
-'
+"
                 
 log_failed_cmd
 =
@@ -1005,6 +1038,7 @@ logger
 .
 debug
 (
+                
 "
 could
 not
@@ -1017,7 +1051,7 @@ under
 hg
 control
 "
-                         
+                
 "
 because
 hg
@@ -1025,7 +1059,9 @@ is
 not
 available
 "
+                
 location
+            
 )
             
 return
@@ -1049,12 +1085,12 @@ r
 .
 rstrip
 (
-'
+"
 \
 r
 \
 n
-'
+"
 )
 )
 vcs

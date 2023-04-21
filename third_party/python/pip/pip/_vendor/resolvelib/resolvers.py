@@ -634,6 +634,7 @@ State
 "
 mapping
 criteria
+backtrack_causes
 "
 )
 class
@@ -816,6 +817,15 @@ criteria
 copy
 (
 )
+            
+backtrack_causes
+=
+base
+.
+backtrack_causes
+[
+:
+]
         
 )
         
@@ -1110,6 +1120,14 @@ information
 )
             
 )
+            
+backtrack_causes
+=
+self
+.
+state
+.
+backtrack_causes
         
 )
     
@@ -2110,8 +2128,10 @@ self
 _states
 =
 [
+            
 State
 (
+                
 mapping
 =
 collections
@@ -2119,11 +2139,19 @@ collections
 OrderedDict
 (
 )
+                
 criteria
 =
 {
 }
+                
+backtrack_causes
+=
+[
+]
+            
 )
+        
 ]
         
 for
@@ -2344,6 +2372,22 @@ if
 failure_causes
 :
                 
+causes
+=
+[
+i
+for
+c
+in
+failure_causes
+for
+i
+in
+c
+.
+information
+]
+                
 #
 Backtrack
 if
@@ -2373,6 +2417,17 @@ next
 round
 .
                 
+self
+.
+_r
+.
+resolving_conflicts
+(
+causes
+=
+causes
+)
+                
 success
 =
 self
@@ -2380,6 +2435,17 @@ self
 _backtrack
 (
 )
+                
+self
+.
+state
+.
+backtrack_causes
+[
+:
+]
+=
+causes
                 
 #
 Dead
@@ -2395,26 +2461,14 @@ not
 success
 :
                     
-causes
-=
-[
-i
-for
-c
-in
-failure_causes
-for
-i
-in
-c
-.
-information
-]
-                    
 raise
 ResolutionImpossible
 (
-causes
+self
+.
+state
+.
+backtrack_causes
 )
             
 else

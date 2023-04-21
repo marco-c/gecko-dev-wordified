@@ -26,14 +26,26 @@ Values
 from
 typing
 import
+(
+    
 TYPE_CHECKING
+    
 Any
+    
 Callable
+    
 Dict
-Iterator
+    
+Generator
+    
+Iterable
+    
 List
+    
 Optional
+    
 Tuple
+)
 from
 pip
 .
@@ -154,13 +166,13 @@ PackageFinder
 __all__
 =
 [
-'
+"
 parse_requirements
-'
+"
 ]
 ReqFileLines
 =
-Iterator
+Iterable
 [
 Tuple
 [
@@ -188,7 +200,7 @@ re
 compile
 (
 r
-'
+"
 ^
 (
 http
@@ -198,7 +210,7 @@ https
 file
 )
 :
-'
+"
 re
 .
 I
@@ -210,7 +222,7 @@ re
 compile
 (
 r
-'
+"
 (
 ^
 |
@@ -221,7 +233,7 @@ s
 #
 .
 *
-'
+"
 )
 #
 Matches
@@ -280,7 +292,7 @@ re
 compile
 (
 r
-'
+"
 (
 ?
 P
@@ -308,7 +320,7 @@ Z0
 \
 }
 )
-'
+"
 )
 SUPPORTED_OPTIONS
 :
@@ -705,9 +717,11 @@ False
 )
 -
 >
-Iterator
+Generator
 [
 ParsedRequirement
+None
+None
 ]
 :
     
@@ -819,15 +833,12 @@ handle_line
 (
             
 parsed_line
-            
 options
 =
 options
-            
 finder
 =
 finder
-            
 session
 =
 session
@@ -957,7 +968,7 @@ path
     
 line_comes_from
 =
-'
+"
 {
 }
 {
@@ -967,27 +978,29 @@ line
 {
 }
 )
-'
+"
 .
 format
 (
         
-'
+"
 -
 c
-'
+"
 if
 line
 .
 constraint
 else
-'
+"
 -
 r
-'
+"
+        
 line
 .
 filename
+        
 line
 .
 lineno
@@ -1059,31 +1072,6 @@ constraint
 else
 :
         
-if
-options
-:
-            
-#
-Disable
-wheels
-if
-the
-user
-has
-specified
-build
-options
-            
-cmdoptions
-.
-check_install_build_global
-(
-options
-line
-.
-opts
-)
-        
 #
 get
 the
@@ -1140,7 +1128,7 @@ dest
 line_source
 =
 f
-'
+"
 line
 {
 line
@@ -1153,7 +1141,7 @@ line
 .
 filename
 }
-'
+"
         
 return
 ParsedRequirement
@@ -1285,7 +1273,6 @@ in
 opts
 .
 features_enabled
-                
 if
 f
 not
@@ -1317,19 +1304,13 @@ finder
 .
 index_urls
         
-if
-opts
-.
-index_url
-:
-            
-index_urls
+no_index
 =
-[
-opts
+finder
 .
-index_url
-]
+search_scope
+.
+no_index
         
 if
 opts
@@ -1339,6 +1320,10 @@ is
 True
 :
             
+no_index
+=
+True
+            
 index_urls
 =
 [
@@ -1347,7 +1332,27 @@ index_urls
 if
 opts
 .
+index_url
+and
+not
+no_index
+:
+            
+index_urls
+=
+[
+opts
+.
+index_url
+]
+        
+if
+opts
+.
 extra_index_urls
+and
+not
+no_index
 :
             
 index_urls
@@ -1495,6 +1500,10 @@ find_links
 index_urls
 =
 index_urls
+            
+no_index
+=
+no_index
         
 )
         
@@ -1546,7 +1555,7 @@ or
 source
 =
 f
-'
+"
 line
 {
 lineno
@@ -1555,7 +1564,7 @@ of
 {
 filename
 }
-'
+"
                 
 session
 .
@@ -1889,6 +1898,7 @@ line_parser
 def
 parse
 (
+        
 self
 filename
 :
@@ -1896,12 +1906,15 @@ str
 constraint
 :
 bool
+    
 )
 -
 >
-Iterator
+Generator
 [
 ParsedLine
+None
+None
 ]
 :
         
@@ -1916,7 +1929,6 @@ yielding
 parsed
 lines
 .
-        
 "
 "
 "
@@ -1946,9 +1958,11 @@ bool
 )
 -
 >
-Iterator
+Generator
 [
 ParsedLine
+None
+None
 ]
 :
         
@@ -1965,15 +1979,13 @@ constraint
 :
             
 if
-(
-                
 not
 line
 .
 is_requirement
 and
-                
 (
+                
 line
 .
 opts
@@ -1985,7 +1997,6 @@ line
 opts
 .
 constraints
-)
             
 )
 :
@@ -2121,6 +2132,7 @@ dirname
 (
 filename
 )
+                        
 req_path
                     
 )
@@ -2144,6 +2156,7 @@ line
 def
 _parse_file
 (
+        
 self
 filename
 :
@@ -2151,12 +2164,15 @@ str
 constraint
 :
 bool
+    
 )
 -
 >
-Iterator
+Generator
 [
 ParsedLine
+None
+None
 ]
 :
         
@@ -2212,7 +2228,7 @@ line
 msg
 =
 f
-'
+"
 Invalid
 requirement
 :
@@ -2226,7 +2242,7 @@ e
 .
 msg
 }
-'
+"
                 
 raise
 RequirementsFileParseError
@@ -2338,6 +2354,42 @@ break_args_options
 line
 )
         
+try
+:
+            
+options
+=
+shlex
+.
+split
+(
+options_str
+)
+        
+except
+ValueError
+as
+e
+:
+            
+raise
+OptionParsingError
+(
+f
+"
+Could
+not
+split
+options
+:
+{
+options_str
+}
+"
+)
+from
+e
+        
 opts
 _
 =
@@ -2345,12 +2397,7 @@ parser
 .
 parse_args
 (
-shlex
-.
-split
-(
-options_str
-)
+options
 defaults
 )
         
@@ -2429,8 +2476,8 @@ line
 .
 split
 (
-'
-'
+"
+"
 )
     
 args
@@ -2456,19 +2503,19 @@ token
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 or
 token
 .
 startswith
 (
-'
+"
 -
 -
-'
+"
 )
 :
             
@@ -2492,15 +2539,15 @@ pop
 )
     
 return
-'
-'
+"
+"
 .
 join
 (
 args
 )
-'
-'
+"
+"
 .
 join
 (
@@ -2759,10 +2806,10 @@ line
 .
 endswith
 (
-'
+"
 \
 \
-'
+"
 )
 or
 COMMENT_RE
@@ -2793,8 +2840,8 @@ later
                 
 line
 =
-'
-'
+"
+"
 +
 line
             
@@ -2817,8 +2864,8 @@ None
                 
 yield
 primary_line_number
-'
-'
+"
+"
 .
 join
 (
@@ -2857,10 +2904,10 @@ line
 .
 strip
 (
-'
+"
 \
 \
-'
+"
 )
 )
     
@@ -2882,8 +2929,8 @@ None
         
 yield
 primary_line_number
-'
-'
+"
+"
 .
 join
 (
@@ -2941,8 +2988,8 @@ COMMENT_RE
 .
 sub
 (
-'
-'
+"
+"
 line
 )
         
@@ -3288,15 +3335,15 @@ if
 scheme
 in
 [
-'
+"
 http
-'
-'
+"
+"
 https
-'
-'
+"
+"
 file
-'
+"
 ]
 :
         
@@ -3338,9 +3385,9 @@ with
 open
 (
 url
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -3367,7 +3414,7 @@ raise
 InstallationError
 (
 f
-'
+"
 Could
 not
 open
@@ -3377,7 +3424,7 @@ file
 {
 exc
 }
-'
+"
 )
     
 return

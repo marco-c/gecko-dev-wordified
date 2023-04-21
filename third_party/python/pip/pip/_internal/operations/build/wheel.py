@@ -11,11 +11,9 @@ pip
 .
 _vendor
 .
-pep517
-.
-wrappers
+pyproject_hooks
 import
-Pep517HookCaller
+BuildBackendHookCaller
 from
 pip
 .
@@ -39,38 +37,20 @@ build_wheel_pep517
 (
     
 name
-#
-type
 :
 str
     
 backend
-#
-type
 :
-Pep517HookCaller
+BuildBackendHookCaller
     
 metadata_directory
-#
-type
 :
 str
     
 tempd
-#
-type
 :
 str
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
@@ -78,6 +58,7 @@ Optional
 [
 str
 ]
+:
     
 "
 "
@@ -123,13 +104,13 @@ logger
 .
 debug
 (
-'
+"
 Destination
 directory
 :
 %
 s
-'
+"
 tempd
 )
         
@@ -139,7 +120,7 @@ runner_with_spinner_message
 (
             
 f
-'
+"
 Building
 wheel
 for
@@ -147,10 +128,11 @@ for
 name
 }
 (
-PEP
-517
+pyproject
+.
+toml
 )
-'
+"
         
 )
         
@@ -186,14 +168,14 @@ logger
 .
 error
 (
-'
+"
 Failed
 building
 wheel
 for
 %
 s
-'
+"
 name
 )
         

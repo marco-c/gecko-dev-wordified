@@ -29,9 +29,26 @@ pip
 .
 _internal
 .
+cli
+.
+spinners
+import
+open_spinner
+from
+pip
+.
+_internal
+.
 exceptions
 import
+(
+    
 InstallationError
+    
+InstallationSubprocessError
+    
+MetadataGenerationFailed
+)
 from
 pip
 .
@@ -74,18 +91,13 @@ def
 _find_egg_info
 (
 directory
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
     
 "
 "
@@ -100,7 +112,6 @@ subdirectory
 in
 directory
 .
-    
 "
 "
 "
@@ -108,7 +119,6 @@ directory
 filenames
 =
 [
-        
 f
 for
 f
@@ -131,7 +141,6 @@ egg
 info
 "
 )
-    
 ]
     
 if
@@ -142,7 +151,6 @@ filenames
 raise
 InstallationError
 (
-            
 f
 "
 No
@@ -157,7 +165,6 @@ in
 directory
 }
 "
-        
 )
     
 if
@@ -190,9 +197,7 @@ in
 .
 format
 (
-                
 directory
-            
 )
         
 )
@@ -215,48 +220,29 @@ generate_metadata
 (
     
 build_env
-#
-type
 :
 BuildEnvironment
     
 setup_py_path
-#
-type
 :
 str
     
 source_dir
-#
-type
 :
 str
     
 isolated
-#
-type
 :
 bool
     
 details
-#
-type
 :
 str
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
 str
+:
     
 "
 "
@@ -289,7 +275,7 @@ logger
 debug
 (
         
-'
+"
 Running
 setup
 .
@@ -305,9 +291,10 @@ for
 package
 %
 s
-'
+"
         
 setup_py_path
+        
 details
     
 )
@@ -316,7 +303,6 @@ egg_info_dir
 =
 TempDirectory
 (
-        
 kind
 =
 "
@@ -329,7 +315,6 @@ info
 globally_managed
 =
 True
-    
 )
 .
 path
@@ -355,26 +340,66 @@ with
 build_env
 :
         
+with
+open_spinner
+(
+"
+Preparing
+metadata
+(
+setup
+.
+py
+)
+"
+)
+as
+spinner
+:
+            
+try
+:
+                
 call_subprocess
 (
-            
+                    
 args
-            
+                    
 cwd
 =
 source_dir
-            
+                    
 command_desc
 =
-'
+"
 python
 setup
 .
 py
 egg_info
-'
-        
+"
+                    
+spinner
+=
+spinner
+                
 )
+            
+except
+InstallationSubprocessError
+as
+error
+:
+                
+raise
+MetadataGenerationFailed
+(
+package_details
+=
+details
+)
+from
+error
     
 #
 Return

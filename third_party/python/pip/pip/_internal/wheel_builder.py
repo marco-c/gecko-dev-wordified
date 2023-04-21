@@ -24,7 +24,6 @@ shutil
 from
 typing
 import
-Any
 Callable
 Iterable
 List
@@ -76,6 +75,7 @@ _internal
 .
 metadata
 import
+FilesystemWheel
 get_wheel_distribution
 from
 pip
@@ -118,6 +118,18 @@ operations
 .
 build
 .
+wheel_editable
+import
+build_wheel_editable
+from
+pip
+.
+_internal
+.
+operations
+.
+build
+.
 wheel_legacy
 import
 build_wheel_legacy
@@ -131,6 +143,21 @@ req
 req_install
 import
 InstallRequirement
+from
+pip
+.
+_internal
+.
+utils
+.
+deprecation
+import
+(
+    
+LegacyInstallReasonMissingWheelPackage
+    
+LegacyInstallReasonNoBinaryForcesSetuptoolsInstall
+)
 from
 pip
 .
@@ -216,7 +243,7 @@ re
 compile
 (
 r
-'
+"
 (
 [
 a
@@ -243,12 +270,12 @@ z0
 ]
 +
 )
-'
+"
 re
 .
 IGNORECASE
 )
-BinaryAllowedPredicate
+BdistWheelAllowedPredicate
 =
 Callable
 [
@@ -274,18 +301,13 @@ def
 _contains_egg_info
 (
 s
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 bool
+:
     
 "
 "
@@ -338,36 +360,26 @@ _should_build
 (
     
 req
-#
-type
 :
 InstallRequirement
     
 need_wheel
-#
-type
 :
 bool
     
-check_binary_allowed
-#
-type
+check_bdist_wheel
 :
-BinaryAllowedPredicate
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
+Optional
+[
+BdistWheelAllowedPredicate
+]
+=
+None
 )
 -
 >
 bool
+:
     
 "
 "
@@ -420,7 +432,7 @@ logger
 info
 (
                 
-'
+"
 Skipping
 %
 s
@@ -430,7 +442,8 @@ already
 being
 wheel
 .
-'
+"
+                
 req
 .
 name
@@ -479,10 +492,6 @@ False
 .
     
 if
-req
-.
-editable
-or
 not
 req
 .
@@ -495,49 +504,136 @@ False
 if
 req
 .
+editable
+:
+        
+#
+we
+only
+build
+PEP
+660
+editable
+requirements
+        
+return
+req
+.
+supports_pyproject_editable
+(
+)
+    
+if
+req
+.
 use_pep517
 :
         
 return
 True
     
+assert
+check_bdist_wheel
+is
+not
+None
+    
 if
 not
-check_binary_allowed
+check_bdist_wheel
 (
 req
 )
 :
         
-logger
-.
-info
-(
-            
-"
-Skipping
-wheel
-build
-for
-%
-s
-due
+#
+/
+!
+\
+When
+we
+change
+this
 to
-binaries
-"
-            
-"
-being
-disabled
+unconditionally
+return
+True
+we
+must
+also
+remove
+        
+#
+support
 for
-it
+-
+-
+install
+-
+option
 .
-"
+Indeed
+-
+-
+install
+-
+option
+implies
+        
+#
+-
+-
+no
+-
+binary
+so
+we
+can
+return
+False
+here
+and
+run
+setup
+.
+py
+install
+.
+        
+#
+-
+-
+global
+-
+option
+and
+-
+-
+build
+-
+option
+can
+remain
+until
+we
+drop
+support
+for
+        
+#
+building
+with
+setup
+.
+py
+bdist_wheel
+.
+        
 req
 .
-name
-        
-)
+legacy_install_reason
+=
+LegacyInstallReasonNoBinaryForcesSetuptoolsInstall
         
 return
 False
@@ -563,41 +659,11 @@ is
 not
 installed
         
-logger
-.
-info
-(
-            
-"
-Using
-legacy
-'
-setup
-.
-py
-install
-'
-for
-%
-s
-"
-            
-"
-since
-package
-'
-wheel
-'
-is
-not
-installed
-.
-"
 req
 .
-name
-        
-)
+legacy_install_reason
+=
+LegacyInstallReasonMissingWheelPackage
         
 return
 False
@@ -609,67 +675,38 @@ should_build_for_wheel_command
 (
     
 req
-#
-type
 :
 InstallRequirement
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
 bool
+:
     
 return
 _should_build
 (
-        
 req
 need_wheel
 =
 True
-check_binary_allowed
-=
-_always_true
-    
 )
 def
 should_build_for_install_command
 (
     
 req
-#
-type
 :
 InstallRequirement
     
-check_binary_allowed
-#
-type
+check_bdist_wheel_allowed
 :
-BinaryAllowedPredicate
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
+BdistWheelAllowedPredicate
 )
 -
 >
 bool
+:
     
 return
 _should_build
@@ -679,9 +716,9 @@ req
 need_wheel
 =
 False
-check_binary_allowed
+check_bdist_wheel
 =
-check_binary_allowed
+check_bdist_wheel_allowed
     
 )
 def
@@ -689,20 +726,8 @@ _should_cache
 (
     
 req
-#
-type
 :
 InstallRequirement
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
@@ -710,6 +735,7 @@ Optional
 [
 bool
 ]
+:
     
 "
 "
@@ -894,30 +920,17 @@ _get_cache_dir
 (
     
 req
-#
-type
 :
 InstallRequirement
     
 wheel_cache
-#
-type
 :
 WheelCache
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
 str
+:
     
 "
 "
@@ -995,42 +1008,19 @@ link
 return
 cache_dir
 def
-_always_true
-(
-_
-)
-:
-    
-#
-type
-:
-(
-Any
-)
--
->
-bool
-    
-return
-True
-def
 _verify_one
 (
 req
-wheel_path
-)
 :
-    
-#
-type
-:
-(
 InstallRequirement
+wheel_path
+:
 str
 )
 -
 >
 None
+:
     
 canonical_name
 =
@@ -1110,7 +1100,10 @@ dist
 =
 get_wheel_distribution
 (
+FilesystemWheel
+(
 wheel_path
+)
 canonical_name
 )
     
@@ -1232,7 +1225,6 @@ msg
 )
     
 if
-(
 metadata_version
 >
 =
@@ -1244,7 +1236,6 @@ Version
 2
 "
 )
-            
 and
 not
 isinstance
@@ -1253,7 +1244,6 @@ dist
 .
 version
 Version
-)
 )
 :
         
@@ -1293,26 +1283,18 @@ _build_one
 (
     
 req
-#
-type
 :
 InstallRequirement
     
 output_dir
-#
-type
 :
 str
     
 verify
-#
-type
 :
 bool
     
 build_options
-#
-type
 :
 List
 [
@@ -1320,23 +1302,15 @@ str
 ]
     
 global_options
-#
-type
 :
 List
 [
 str
 ]
-)
-:
     
-#
-type
+editable
 :
-(
-.
-.
-.
+bool
 )
 -
 >
@@ -1344,6 +1318,7 @@ Optional
 [
 str
 ]
+:
     
 "
 "
@@ -1374,6 +1349,18 @@ failed
 "
 "
     
+artifact
+=
+"
+editable
+"
+if
+editable
+else
+"
+wheel
+"
+    
 try
 :
         
@@ -1395,7 +1382,8 @@ warning
             
 "
 Building
-wheel
+%
+s
 for
 %
 s
@@ -1405,9 +1393,12 @@ failed
 s
 "
             
+artifact
+            
 req
 .
 name
+            
 e
         
 )
@@ -1442,6 +1433,7 @@ req
 output_dir
 build_options
 global_options
+editable
         
 )
     
@@ -1475,7 +1467,8 @@ warning
 (
 "
 Built
-wheel
+%
+s
 for
 %
 s
@@ -1485,6 +1478,7 @@ invalid
 %
 s
 "
+artifact
 req
 .
 name
@@ -1501,20 +1495,14 @@ _build_one_inside_env
 (
     
 req
-#
-type
 :
 InstallRequirement
     
 output_dir
-#
-type
 :
 str
     
 build_options
-#
-type
 :
 List
 [
@@ -1522,23 +1510,15 @@ str
 ]
     
 global_options
-#
-type
 :
 List
 [
 str
 ]
-)
-:
     
-#
-type
+editable
 :
-(
-.
-.
-.
+bool
 )
 -
 >
@@ -1546,6 +1526,7 @@ Optional
 [
 str
 ]
+:
     
 with
 TempDirectory
@@ -1590,7 +1571,7 @@ logger
 warning
 (
                     
-'
+"
 Ignoring
 -
 -
@@ -1604,7 +1585,7 @@ s
 using
 PEP
 517
-'
+"
 req
 .
 name
@@ -1620,7 +1601,7 @@ logger
 warning
 (
                     
-'
+"
 Ignoring
 -
 -
@@ -1634,42 +1615,80 @@ s
 using
 PEP
 517
-'
+"
 req
 .
 name
                 
 )
             
+if
+editable
+:
+                
 wheel_path
 =
-build_wheel_pep517
+build_wheel_editable
 (
-                
+                    
 name
 =
 req
 .
 name
-                
+                    
 backend
 =
 req
 .
 pep517_backend
-                
+                    
 metadata_directory
 =
 req
 .
 metadata_directory
-                
+                    
 tempd
 =
 temp_dir
 .
 path
+                
+)
             
+else
+:
+                
+wheel_path
+=
+build_wheel_pep517
+(
+                    
+name
+=
+req
+.
+name
+                    
+backend
+=
+req
+.
+pep517_backend
+                    
+metadata_directory
+=
+req
+.
+metadata_directory
+                    
+tempd
+=
+temp_dir
+.
+path
+                
 )
         
 else
@@ -1767,16 +1786,14 @@ logger
 .
 info
 (
-'
+                    
+"
 Created
 wheel
 for
 %
 s
 :
-'
-                            
-'
 filename
 =
 %
@@ -1789,33 +1806,36 @@ sha256
 =
 %
 s
-'
-                            
+"
+                    
 req
 .
 name
+                    
 wheel_name
+                    
 length
-                            
+                    
 wheel_hash
 .
 hexdigest
 (
 )
+                
 )
                 
 logger
 .
 info
 (
-'
+"
 Stored
 in
 directory
 :
 %
 s
-'
+"
 output_dir
 )
                 
@@ -1848,6 +1868,7 @@ s
 req
 .
 name
+                    
 e
                 
 )
@@ -1884,15 +1905,10 @@ def
 _clean_one_legacy
 (
 req
-global_options
-)
 :
-    
-#
-type
-:
-(
 InstallRequirement
+global_options
+:
 List
 [
 str
@@ -1901,6 +1917,7 @@ str
 -
 >
 bool
+:
     
 clean_args
 =
@@ -1921,7 +1938,7 @@ logger
 .
 info
 (
-'
+"
 Running
 setup
 .
@@ -1930,7 +1947,7 @@ clean
 for
 %
 s
-'
+"
 req
 .
 name
@@ -1941,12 +1958,23 @@ try
         
 call_subprocess
 (
+            
 clean_args
+command_desc
+=
+"
+python
+setup
+.
+py
+clean
+"
 cwd
 =
 req
 .
 source_dir
+        
 )
         
 return
@@ -1960,7 +1988,7 @@ logger
 .
 error
 (
-'
+"
 Failed
 cleaning
 build
@@ -1968,7 +1996,7 @@ dir
 for
 %
 s
-'
+"
 req
 .
 name
@@ -1981,8 +2009,6 @@ build
 (
     
 requirements
-#
-type
 :
 Iterable
 [
@@ -1990,20 +2016,14 @@ InstallRequirement
 ]
     
 wheel_cache
-#
-type
 :
 WheelCache
     
 verify
-#
-type
 :
 bool
     
 build_options
-#
-type
 :
 List
 [
@@ -2011,27 +2031,16 @@ str
 ]
     
 global_options
-#
-type
 :
 List
 [
 str
 ]
 )
-:
-    
-#
-type
-:
-(
-.
-.
-.
-)
 -
 >
 BuildResult
+:
     
 "
 "
@@ -2089,7 +2098,7 @@ logger
 info
 (
         
-'
+"
 Building
 wheels
 for
@@ -2098,10 +2107,10 @@ packages
 :
 %
 s
-'
+"
         
-'
-'
+"
+"
 .
 join
 (
@@ -2140,6 +2149,11 @@ in
 requirements
 :
             
+assert
+req
+.
+name
+            
 cache_dir
 =
 _get_cache_dir
@@ -2154,16 +2168,88 @@ _build_one
 (
                 
 req
+                
 cache_dir
+                
 verify
+                
 build_options
+                
 global_options
+                
+req
+.
+editable
+and
+req
+.
+permit_editable_wheels
             
 )
             
 if
 wheel_file
 :
+                
+#
+Record
+the
+download
+origin
+in
+the
+cache
+                
+if
+req
+.
+download_info
+is
+not
+None
+:
+                    
+#
+download_info
+is
+guaranteed
+to
+be
+set
+because
+when
+we
+build
+an
+                    
+#
+InstallRequirement
+it
+has
+been
+through
+the
+preparer
+before
+but
+                    
+#
+let
+'
+s
+be
+cautious
+.
+                    
+wheel_cache
+.
+record_download_origin
+(
+cache_dir
+req
+.
+download_info
+)
                 
 #
 Update
@@ -2234,15 +2320,15 @@ logger
 info
 (
             
-'
+"
 Successfully
 built
 %
 s
-'
+"
             
-'
-'
+"
+"
 .
 join
 (
@@ -2272,16 +2358,16 @@ logger
 info
 (
             
-'
+"
 Failed
 to
 build
 %
 s
-'
+"
             
-'
-'
+"
+"
 .
 join
 (

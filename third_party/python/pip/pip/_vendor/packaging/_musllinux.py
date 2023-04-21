@@ -771,7 +771,7 @@ rb
 )
         
 except
-IOError
+OSError
 :
             
 return

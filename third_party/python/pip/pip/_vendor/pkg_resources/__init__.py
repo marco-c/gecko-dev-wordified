@@ -337,7 +337,7 @@ pip
 .
 _vendor
 import
-appdirs
+platformdirs
 from
 pip
 .
@@ -8798,7 +8798,7 @@ PYTHON_EGG_CACHE
 )
         
 or
-appdirs
+platformdirs
 .
 user_cache_dir
 (

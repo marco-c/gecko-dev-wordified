@@ -21,6 +21,7 @@ init
 deinit
 reinit
 colorama_text
+just_fix_windows_console
 from
 .
 ansi
@@ -41,5 +42,5 @@ __version__
 .
 4
 .
-4
+6
 '

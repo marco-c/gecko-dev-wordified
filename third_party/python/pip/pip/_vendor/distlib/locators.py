@@ -5609,10 +5609,9 @@ _fetch
             
 t
 .
-setDaemon
-(
+daemon
+=
 True
-)
             
 t
 .
@@ -9069,9 +9068,6 @@ t
 conform
 to
 PEP
-426
-/
-PEP
 440
 .
 default_locator
@@ -9079,9 +9075,20 @@ default_locator
 AggregatingLocator
 (
                     
+#
 JSONLocator
 (
 )
+#
+don
+'
+t
+use
+as
+PEP
+426
+is
+withdrawn
                     
 SimpleScrapingLocator
 (

@@ -66,16 +66,10 @@ def
 inject_securetransport
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 None
+:
     
 #
 Only

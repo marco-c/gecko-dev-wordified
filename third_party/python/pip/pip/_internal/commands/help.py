@@ -203,9 +203,9 @@ guess
 raise
 CommandError
 (
-'
+"
 -
-'
+"
 .
 join
 (

@@ -119,12 +119,6 @@ as
 configparser
     
 from
-.
-_backport
-import
-shutil
-    
-from
 urlparse
 import
 urlparse
@@ -250,10 +244,27 @@ ifilterfalse
 as
 filterfalse
     
+#
+Leaving
+this
+around
+for
+now
+in
+case
+it
+needs
+resurrecting
+in
+some
+way
+    
+#
 _userprog
 =
 None
     
+#
 def
 splituser
 (
@@ -261,6 +272,7 @@ host
 )
 :
         
+#
 "
 "
 "
@@ -301,18 +313,22 @@ port
 "
 "
         
+#
 global
 _userprog
         
+#
 if
 _userprog
 is
 None
 :
             
+#
 import
 re
             
+#
 _userprog
 =
 re
@@ -332,6 +348,7 @@ compile
 '
 )
         
+#
 match
 =
 _userprog
@@ -341,6 +358,7 @@ match
 host
 )
         
+#
 if
 match
 :
@@ -353,6 +371,7 @@ group
 2
 )
         
+#
 return
 None
 host
@@ -402,7 +421,6 @@ import
 urlparse
 urlunparse
 urljoin
-splituser
 quote
                               
 unquote
@@ -2299,23 +2317,8 @@ return
 '
 CPython
 '
-try
-:
-    
 import
-sysconfig
-except
-ImportError
-:
-#
-pragma
-:
-no
-cover
-    
-from
-.
-_backport
+shutil
 import
 sysconfig
 try
@@ -4596,23 +4599,6 @@ pragma
 no
 cover
     
-try
-:
-        
-from
-imp
-import
-cache_from_source
-    
-except
-ImportError
-:
-#
-pragma
-:
-no
-cover
-        
 def
 cache_from_source
 (
@@ -4622,7 +4608,7 @@ debug_override
 None
 )
 :
-            
+        
 assert
 path
 .
@@ -4633,36 +4619,36 @@ endswith
 py
 '
 )
-            
+        
 if
 debug_override
 is
 None
 :
-                
+            
 debug_override
 =
 __debug__
-            
+        
 if
 debug_override
 :
-                
+            
 suffix
 =
 '
 c
 '
-            
+        
 else
 :
-                
+            
 suffix
 =
 '
 o
 '
-            
+        
 return
 path
 +

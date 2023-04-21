@@ -60,16 +60,10 @@ def
 _running_under_venv
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 bool
+:
     
 "
 "
@@ -116,19 +110,13 @@ sys
 prefix
 )
 def
-_running_under_regular_virtualenv
-(
-)
-:
-    
-#
-type
-:
+_running_under_legacy_virtualenv
 (
 )
 -
 >
 bool
+:
     
 "
 "
@@ -176,21 +164,14 @@ def
 running_under_virtualenv
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 bool
+:
     
 "
 "
 "
-Return
 True
 if
 we
@@ -199,7 +180,8 @@ re
 running
 inside
 a
-virtualenv
+virtual
+environment
 False
 otherwise
 .
@@ -212,18 +194,11 @@ _running_under_venv
 (
 )
 or
-_running_under_regular_virtualenv
+_running_under_legacy_virtualenv
 (
 )
 def
 _get_pyvenv_cfg_lines
-(
-)
-:
-    
-#
-type
-:
 (
 )
 -
@@ -235,6 +210,7 @@ List
 str
 ]
 ]
+:
     
 "
 "
@@ -367,16 +343,10 @@ def
 _no_global_under_venv
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 bool
+:
     
 "
 "
@@ -591,19 +561,13 @@ True
 return
 False
 def
-_no_global_under_regular_virtualenv
-(
-)
-:
-    
-#
-type
-:
+_no_global_under_legacy_virtualenv
 (
 )
 -
 >
 bool
+:
     
 "
 "
@@ -712,16 +676,10 @@ def
 virtualenv_no_global
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 bool
+:
     
 "
 "
@@ -790,13 +748,13 @@ _no_global_under_venv
 )
     
 if
-_running_under_regular_virtualenv
+_running_under_legacy_virtualenv
 (
 )
 :
         
 return
-_no_global_under_regular_virtualenv
+_no_global_under_legacy_virtualenv
 (
 )
     

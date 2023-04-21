@@ -449,6 +449,10 @@ table
 JIS_TABLE_SIZE
 =
 4368
+#
+fmt
+:
+off
 JIS_CHAR_TO_FREQ_ORDER
 =
 (
@@ -5429,3 +5433,7 @@ JIS_CHAR_TO_FREQ_ORDER
 last
 512
 )
+#
+fmt
+:
+on

@@ -95,6 +95,9 @@ find_links
 "
 index_urls
 "
+"
+no_index
+"
 ]
     
 classmethod
@@ -118,6 +121,10 @@ List
 [
 str
 ]
+        
+no_index
+:
+bool
     
 )
 -
@@ -231,9 +238,9 @@ link
 .
 startswith
 (
-'
+"
 ~
-'
+"
 )
 :
                 
@@ -326,9 +333,9 @@ parsed
 scheme
 =
 =
-'
+"
 https
-'
+"
 :
                     
 logger
@@ -336,7 +343,7 @@ logger
 warning
 (
                         
-'
+"
 pip
 is
 configured
@@ -344,9 +351,9 @@ with
 locations
 that
 require
-'
+"
                         
-'
+"
 TLS
 /
 SSL
@@ -358,12 +365,12 @@ in
 Python
 is
 not
-'
+"
                         
-'
+"
 available
 .
-'
+"
                     
 )
                     
@@ -380,6 +387,10 @@ built_find_links
 index_urls
 =
 index_urls
+            
+no_index
+=
+no_index
         
 )
     
@@ -402,6 +413,10 @@ List
 [
 str
 ]
+        
+no_index
+:
+bool
     
 )
 -
@@ -420,6 +435,12 @@ self
 index_urls
 =
 index_urls
+        
+self
+.
+no_index
+=
+no_index
     
 def
 get_formatted_locations
@@ -577,16 +598,15 @@ s
 "
 seems
 invalid
-'
-                        
-'
 please
 provide
 a
 scheme
 .
 '
+                        
 redacted_index_url
+                    
 )
                 
 redacted_index_urls
@@ -600,26 +620,27 @@ lines
 .
 append
 (
-'
+                
+"
 Looking
 in
 indexes
 :
 {
 }
-'
+"
 .
 format
 (
-                
-'
-'
+"
+"
 .
 join
 (
 redacted_index_urls
 )
 )
+            
 )
         
 if
@@ -633,23 +654,23 @@ lines
 append
 (
                 
-'
+"
 Looking
 in
 links
 :
 {
 }
-'
+"
 .
 format
 (
-'
-'
+                    
+"
+"
 .
 join
 (
-                    
 redact_auth_from_url
 (
 url
@@ -661,15 +682,16 @@ self
 .
 find_links
 )
+                
 )
             
 )
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -751,7 +773,6 @@ join
 (
                 
 url
-                
 urllib
 .
 parse
@@ -763,6 +784,7 @@ canonicalize_name
 project_name
 )
 )
+            
 )
             
 #
@@ -828,9 +850,9 @@ loc
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
                 
@@ -838,9 +860,9 @@ loc
 =
 loc
 +
-'
+"
 /
-'
+"
             
 return
 loc

@@ -141,7 +141,7 @@ re
 compile
 (
 r
-'
+"
 <
 url
 >
@@ -153,7 +153,7 @@ url
 /
 url
 >
-'
+"
 )
 class
 Subversion
@@ -164,53 +164,51 @@ VersionControl
     
 name
 =
-'
+"
 svn
-'
+"
     
 dirname
 =
-'
+"
 .
 svn
-'
+"
     
 repo_name
 =
-'
+"
 checkout
-'
+"
     
 schemes
 =
 (
-        
-'
+"
 svn
 +
 ssh
-'
-'
+"
+"
 svn
 +
 http
-'
-'
+"
+"
 svn
 +
 https
-'
-'
+"
+"
 svn
 +
 svn
-'
-'
+"
+"
 svn
 +
 file
-'
-    
+"
 )
     
 classmethod
@@ -220,18 +218,13 @@ should_add_vcs_url_prefix
 (
 cls
 remote_url
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 bool
+:
         
 return
 True
@@ -242,13 +235,7 @@ def
 get_base_rev_args
 (
 rev
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -257,13 +244,14 @@ List
 [
 str
 ]
+:
         
 return
 [
-'
+"
 -
 r
-'
+"
 rev
 ]
     
@@ -274,18 +262,13 @@ get_revision
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 "
 "
@@ -381,9 +364,9 @@ base
 cls
 .
 dirname
-'
+"
 entries
-'
+"
 )
             
 if
@@ -435,9 +418,9 @@ base
 =
 dirurl
 +
-'
+"
 /
-'
+"
 #
 save
 the
@@ -496,18 +479,15 @@ classmethod
 def
 get_netloc_and_auth
 (
+        
 cls
 netloc
+:
+str
 scheme
-)
 :
-        
-#
-type
-:
-(
 str
-str
+    
 )
 -
 >
@@ -526,6 +506,7 @@ str
 ]
 ]
 ]
+:
         
 "
 "
@@ -568,9 +549,9 @@ if
 scheme
 =
 =
-'
+"
 ssh
-'
+"
 :
             
 #
@@ -629,13 +610,7 @@ get_url_rev_and_auth
 (
 cls
 url
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -649,6 +624,7 @@ str
 ]
 AuthInfo
 ]
+:
         
 #
 hotfix
@@ -666,7 +642,9 @@ ssh
 :
 /
 /
-readd
+re
+-
+add
 it
         
 url
@@ -687,21 +665,21 @@ url
 .
 startswith
 (
-'
+"
 ssh
 :
 /
 /
-'
+"
 )
 :
             
 url
 =
-'
+"
 svn
 +
-'
+"
 +
 url
         
@@ -715,36 +693,32 @@ staticmethod
 def
 make_rev_args
 (
-username
-password
-)
-:
         
-#
-type
+username
 :
-(
 Optional
 [
 str
 ]
+password
+:
 Optional
 [
 HiddenText
 ]
+    
 )
 -
 >
 CommandArgs
+:
         
 extra_args
-=
-[
-]
-#
-type
 :
 CommandArgs
+=
+[
+]
         
 if
 username
@@ -754,11 +728,11 @@ extra_args
 +
 =
 [
-'
+"
 -
 -
 username
-'
+"
 username
 ]
         
@@ -770,11 +744,11 @@ extra_args
 +
 =
 [
-'
+"
 -
 -
 password
-'
+"
 password
 ]
         
@@ -788,18 +762,13 @@ get_remote_url
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
         
 #
 In
@@ -947,13 +916,7 @@ _get_svn_url_rev
 (
 cls
 location
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
@@ -966,6 +929,7 @@ str
 ]
 int
 ]
+:
         
 from
 pip
@@ -988,9 +952,9 @@ location
 cls
 .
 dirname
-'
+"
 entries
-'
+"
 )
         
 if
@@ -1041,43 +1005,39 @@ file
             
 data
 =
-'
-'
+"
+"
         
 url
 =
 None
         
 if
-(
 data
 .
 startswith
 (
-'
+"
 8
-'
+"
 )
 or
-                
 data
 .
 startswith
 (
-'
+"
 9
-'
+"
 )
 or
-                
 data
 .
 startswith
 (
-'
+"
 10
-'
-)
+"
 )
 :
             
@@ -1094,14 +1054,14 @@ data
 .
 split
 (
-'
+"
 \
 n
 \
 x0c
 \
 n
-'
+"
 )
 )
 )
@@ -1170,11 +1130,11 @@ data
 .
 startswith
 (
-'
+"
 <
 ?
 xml
-'
+"
 )
 :
             
@@ -1196,7 +1156,7 @@ raise
 ValueError
 (
 f
-'
+"
 Badly
 formatted
 data
@@ -1206,7 +1166,7 @@ data
 !
 r
 }
-'
+"
 )
             
 url
@@ -1330,14 +1290,14 @@ run_command
 (
                     
 [
-'
+"
 info
-'
-'
+"
+"
 -
 -
 xml
-'
+"
 location
 ]
                     
@@ -1378,7 +1338,6 @@ group
 revs
 =
 [
-                    
 int
 (
 m
@@ -1397,7 +1356,6 @@ finditer
 (
 xml
 )
-                
 ]
             
 except
@@ -1440,15 +1398,10 @@ is_commit_id_equal
 (
 cls
 dest
-name
-)
 :
-        
-#
-type
-:
-(
 str
+name
+:
 Optional
 [
 str
@@ -1457,6 +1410,7 @@ str
 -
 >
 bool
+:
         
 "
 "
@@ -1481,20 +1435,18 @@ __init__
 (
 self
 use_interactive
+:
+Optional
+[
+bool
+]
 =
 None
-)
-:
-        
-#
-type
-:
-(
-bool
 )
 -
 >
 None
+:
         
 if
 use_interactive
@@ -1560,10 +1512,6 @@ version
 self
 .
 _vcs_version
-=
-None
-#
-type
 :
 Optional
 [
@@ -1575,6 +1523,8 @@ int
 .
 ]
 ]
+=
+None
         
 super
 (
@@ -1589,13 +1539,6 @@ call_vcs_version
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -1605,6 +1548,7 @@ int
 .
 .
 ]
+:
         
 "
 "
@@ -1774,10 +1718,10 @@ windows6
         
 version_prefix
 =
-'
+"
 svn
 version
-'
+"
         
 version
 =
@@ -1785,13 +1729,12 @@ self
 .
 run_command
 (
-            
 [
-'
+"
 -
 -
 version
-'
+"
 ]
 show_stdout
 =
@@ -1799,7 +1742,6 @@ False
 stdout_only
 =
 True
-        
 )
         
 if
@@ -1840,9 +1782,9 @@ version
 .
 partition
 (
-'
+"
 -
-'
+"
 )
 [
 0
@@ -1850,9 +1792,9 @@ partition
 .
 split
 (
-'
+"
 .
-'
+"
 )
         
 try
@@ -1885,13 +1827,6 @@ get_vcs_version
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -1901,6 +1836,7 @@ int
 .
 .
 ]
+:
         
 "
 "
@@ -2046,16 +1982,10 @@ get_remote_call_options
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 CommandArgs
+:
         
 "
 "
@@ -2160,13 +2090,13 @@ default
             
 return
 [
-'
+"
 -
 -
 non
 -
 interactive
-'
+"
 ]
         
 svn_version
@@ -2326,13 +2256,13 @@ svn_version
             
 return
 [
-'
+"
 -
 -
 force
 -
 interactive
-'
+"
 ]
         
 return
@@ -2342,24 +2272,26 @@ return
 def
 fetch_new
 (
+        
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
+verbosity
+:
+int
+    
 )
 -
 >
 None
+:
         
 rev_display
 =
@@ -2374,7 +2306,7 @@ logger
 info
 (
             
-'
+"
 Checking
 out
 %
@@ -2384,7 +2316,7 @@ s
 to
 %
 s
-'
+"
             
 url
             
@@ -2397,18 +2329,40 @@ dest
         
 )
         
+if
+verbosity
+<
+=
+0
+:
+            
+flag
+=
+"
+-
+-
+quiet
+"
+        
+else
+:
+            
+flag
+=
+"
+"
+        
 cmd_args
 =
 make_command
 (
             
-'
+"
 checkout
-'
-'
--
-q
-'
+"
+            
+flag
+            
 self
 .
 get_remote_call_options
@@ -2420,7 +2374,9 @@ rev_options
 to_args
 (
 )
+            
 url
+            
 dest
         
 )
@@ -2437,36 +2393,35 @@ switch
 (
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
 )
 -
 >
 None
+:
         
 cmd_args
 =
 make_command
 (
             
-'
+"
 switch
-'
+"
+            
 self
 .
 get_remote_call_options
 (
 )
+            
 rev_options
 .
 to_args
@@ -2474,6 +2429,7 @@ to_args
 )
             
 url
+            
 dest
         
 )
@@ -2490,36 +2446,35 @@ update
 (
 self
 dest
-url
-rev_options
-)
 :
-        
-#
-type
-:
-(
 str
+url
+:
 HiddenText
+rev_options
+:
 RevOptions
 )
 -
 >
 None
+:
         
 cmd_args
 =
 make_command
 (
             
-'
+"
 update
-'
+"
+            
 self
 .
 get_remote_call_options
 (
 )
+            
 rev_options
 .
 to_args

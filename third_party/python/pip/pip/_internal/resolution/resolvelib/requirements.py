@@ -140,7 +140,7 @@ NormalizedName
 No
 need
 to
-canonicalise
+canonicalize
 -
 the
 candidate
@@ -170,7 +170,7 @@ str
 No
 need
 to
-canonicalise
+canonicalize
 -
 the
 candidate

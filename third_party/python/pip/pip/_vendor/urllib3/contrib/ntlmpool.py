@@ -511,9 +511,7 @@ dict
 (
 res
 .
-getheaders
-(
-)
+headers
 )
         
 log
@@ -818,9 +816,7 @@ dict
 (
 res
 .
-getheaders
-(
-)
+headers
 )
 )
         

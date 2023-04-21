@@ -9,28 +9,8 @@ indexes
 "
 "
 "
-#
-The
-following
-comment
-should
-be
-removed
-at
-some
-point
-in
-the
-future
-.
-#
-mypy
-:
-strict
--
-optional
-=
-False
+import
+enum
 import
 functools
 import
@@ -42,6 +22,7 @@ re
 from
 typing
 import
+TYPE_CHECKING
 FrozenSet
 Iterable
 List
@@ -275,28 +256,30 @@ utils
 unpacking
 import
 SUPPORTED_EXTENSIONS
+if
+TYPE_CHECKING
+:
+    
 from
 pip
 .
-_internal
+_vendor
 .
-utils
-.
-urls
+typing_extensions
 import
-url_to_path
+TypeGuard
 __all__
 =
 [
-'
+"
 FormatControl
-'
-'
+"
+"
 BestCandidateResult
-'
-'
+"
+"
 PackageFinder
-'
+"
 ]
 logger
 =
@@ -321,8 +304,6 @@ str
 ]
 CandidateSortingKey
 =
-(
-    
 Tuple
 [
 int
@@ -335,7 +316,6 @@ int
 ]
 BuildTag
 ]
-)
 def
 _check_link_requires_python
 (
@@ -455,6 +435,7 @@ check_requires_python
 link
 .
 requires_python
+            
 version_info
 =
 version_info
@@ -492,6 +473,7 @@ s
 link
 .
 requires_python
+            
 link
         
 )
@@ -506,9 +488,9 @@ is_compatible
             
 version
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -529,7 +511,7 @@ logger
 verbose
 (
                     
-'
+"
 Link
 requires
 a
@@ -547,12 +529,14 @@ r
 :
 %
 s
-'
+"
                     
 version
+                    
 link
 .
 requires_python
+                    
 link
                 
 )
@@ -565,7 +549,7 @@ logger
 debug
 (
                 
-'
+"
 Ignoring
 failed
 Requires
@@ -581,26 +565,89 @@ in
 %
 r
 )
-'
-                
-'
 for
 link
 :
 %
 s
-'
+"
                 
 version
+                
 link
 .
 requires_python
+                
 link
             
 )
     
 return
 True
+class
+LinkType
+(
+enum
+.
+Enum
+)
+:
+    
+candidate
+=
+enum
+.
+auto
+(
+)
+    
+different_project
+=
+enum
+.
+auto
+(
+)
+    
+yanked
+=
+enum
+.
+auto
+(
+)
+    
+format_unsupported
+=
+enum
+.
+auto
+(
+)
+    
+format_invalid
+=
+enum
+.
+auto
+(
+)
+    
+platform_mismatch
+=
+enum
+.
+auto
+(
+)
+    
+requires_python_mismatch
+=
+enum
+.
+auto
+(
+)
 class
 LinkEvaluator
 :
@@ -630,7 +677,7 @@ re
 compile
 (
 r
-'
+"
 -
 py
 (
@@ -647,7 +694,7 @@ py
 ]
 ?
 )
-'
+"
 )
     
 #
@@ -991,11 +1038,8 @@ Link
 >
 Tuple
 [
-bool
-Optional
-[
+LinkType
 str
-]
 ]
 :
         
@@ -1020,40 +1064,62 @@ return
 A
 tuple
 (
-is_candidate
 result
+detail
 )
 where
+*
 result
+*
 is
-(
-1
-)
-a
-            
-version
-string
-if
-is_candidate
-is
-True
-and
-(
-2
-)
-if
-            
-is_candidate
-is
-False
 an
-optional
-string
-to
-log
+enum
+            
+representing
+whether
+the
+evaluation
+found
+a
+candidate
+or
 the
 reason
             
+why
+one
+is
+not
+found
+.
+If
+a
+candidate
+is
+found
+*
+detail
+*
+will
+be
+the
+            
+candidate
+'
+s
+version
+string
+;
+if
+one
+is
+not
+found
+it
+contains
+the
+            
+reason
 the
 link
 fails
@@ -1086,18 +1152,20 @@ link
 .
 yanked_reason
 or
-'
+"
 <
 none
 given
 >
-'
+"
             
 return
 (
-False
+LinkType
+.
+yanked
 f
-'
+"
 yanked
 for
 reason
@@ -1105,7 +1173,7 @@ reason
 {
 reason
 }
-'
+"
 )
         
 if
@@ -1145,12 +1213,14 @@ ext
                 
 return
 (
-False
-'
+LinkType
+.
+format_unsupported
+"
 not
 a
 file
-'
+"
 )
             
 if
@@ -1162,9 +1232,13 @@ SUPPORTED_EXTENSIONS
                 
 return
 (
-False
+                    
+LinkType
+.
+format_unsupported
+                    
 f
-'
+"
 unsupported
 archive
 format
@@ -1172,7 +1246,8 @@ format
 {
 ext
 }
-'
+"
+                
 )
             
 if
@@ -1193,26 +1268,24 @@ WHEEL_EXTENSION
                 
 reason
 =
-'
+f
+"
 No
 binaries
 permitted
 for
 {
-}
-'
-.
-format
-(
-                    
 self
 .
 project_name
-)
+}
+"
                 
 return
 (
-False
+LinkType
+.
+format_unsupported
 reason
 )
             
@@ -1228,19 +1301,21 @@ and
 ext
 =
 =
-'
+"
 .
 zip
-'
+"
 :
                 
 return
 (
-False
-'
+LinkType
+.
+format_unsupported
+"
 macosx10
 one
-'
+"
 )
             
 if
@@ -1268,12 +1343,17 @@ InvalidWheelFilename
                     
 return
 (
-False
-'
+                        
+LinkType
+.
+format_invalid
+                        
+"
 invalid
 wheel
 filename
-'
+"
+                    
 )
                 
 if
@@ -1292,28 +1372,26 @@ _canonical_name
                     
 reason
 =
-'
+f
+"
 wrong
 project
 name
 (
 not
 {
-}
-)
-'
-.
-format
-(
-                        
 self
 .
 project_name
+}
 )
+"
                     
 return
 (
-False
+LinkType
+.
+different_project
 reason
 )
                 
@@ -1359,16 +1437,23 @@ issues
                     
 file_tags
 =
+"
+"
+.
+join
+(
 wheel
 .
 get_formatted_file_tags
 (
+)
 )
                     
 reason
 =
 (
                         
+f
 "
 none
 of
@@ -1379,12 +1464,14 @@ s
 tags
 (
 {
+file_tags
 }
 )
 are
 compatible
 "
                         
+f
 "
 (
 run
@@ -1399,25 +1486,14 @@ compatible
 tags
 )
 "
-.
-format
-(
-                            
-'
-'
-.
-join
-(
-file_tags
-)
-                        
-)
                     
 )
                     
 return
 (
-False
+LinkType
+.
+platform_mismatch
 reason
 )
                 
@@ -1463,7 +1539,7 @@ WHEEL_EXTENSION
 reason
 =
 f
-'
+"
 No
 sources
 permitted
@@ -1473,11 +1549,13 @@ self
 .
 project_name
 }
-'
+"
             
 return
 (
-False
+LinkType
+.
+format_unsupported
 reason
 )
         
@@ -1492,6 +1570,7 @@ _extract_version_from_fragment
 (
                 
 egg_info
+                
 self
 .
 _canonical_name
@@ -1506,7 +1585,7 @@ version
 reason
 =
 f
-'
+"
 Missing
 project
 version
@@ -1516,11 +1595,13 @@ self
 .
 project_name
 }
-'
+"
             
 return
 (
-False
+LinkType
+.
+format_invalid
 reason
 )
         
@@ -1573,13 +1654,18 @@ py_version
                 
 return
 (
-False
-'
+                    
+LinkType
+.
+platform_mismatch
+                    
+"
 Python
 version
 is
 incorrect
-'
+"
+                
 )
         
 supports_python
@@ -1588,6 +1674,7 @@ _check_link_requires_python
 (
             
 link
+            
 version_info
 =
 self
@@ -1609,34 +1696,36 @@ not
 supports_python
 :
             
-#
-Return
-None
-for
-the
 reason
-text
-to
-suppress
-calling
-            
-#
-_log_skipped_link
-(
-)
+=
+f
+"
+{
+version
+}
+Requires
+-
+Python
+{
+link
 .
+requires_python
+}
+"
             
 return
 (
-False
-None
+LinkType
+.
+requires_python_mismatch
+reason
 )
         
 logger
 .
 debug
 (
-'
+"
 Found
 link
 %
@@ -1645,14 +1734,16 @@ version
 :
 %
 s
-'
+"
 link
 version
 )
         
 return
 (
-True
+LinkType
+.
+candidate
 version
 )
 def
@@ -1668,7 +1759,10 @@ InstallationCandidate
     
 hashes
 :
+Optional
+[
 Hashes
+]
     
 project_name
 :
@@ -1833,7 +1927,7 @@ logger
 debug
 (
             
-'
+"
 Given
 no
 hashes
@@ -1847,13 +1941,13 @@ project
 %
 r
 :
-'
+"
             
-'
+"
 discarding
 no
 candidates
-'
+"
             
 len
 (
@@ -2012,18 +2106,18 @@ candidates
         
 discard_message
 =
-'
+"
 discarding
 no
 candidates
-'
+"
     
 else
 :
         
 discard_message
 =
-'
+"
 discarding
 {
 }
@@ -2035,7 +2129,7 @@ matches
 n
 {
 }
-'
+"
 .
 format
 (
@@ -2045,10 +2139,10 @@ len
 non_matches
 )
             
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2071,7 +2165,7 @@ logger
 debug
 (
         
-'
+"
 Checked
 %
 s
@@ -2084,9 +2178,9 @@ against
 %
 s
 hashes
-'
+"
         
-'
+"
 (
 %
 s
@@ -2099,7 +2193,7 @@ digest
 :
 %
 s
-'
+"
         
 len
 (
@@ -2402,7 +2496,6 @@ through
 all
 candidates
 .
-        
 "
 "
 "
@@ -2437,7 +2530,6 @@ the
 applicable
 candidates
 .
-        
 "
 "
 "
@@ -2940,6 +3032,7 @@ str
 (
 v
 )
+            
 for
 v
 in
@@ -3079,7 +3172,6 @@ debundling
 applicable_candidates
 =
 [
-            
 c
 for
 c
@@ -3094,7 +3186,6 @@ version
 )
 in
 versions
-        
 ]
         
 filtered_applicable_candidates
@@ -3437,17 +3528,19 @@ pri
 =
 -
 (
+                    
 wheel
 .
 find_most_preferred_tag
 (
-                    
+                        
 valid_tags
 self
 .
 _wheel_tag_preferences
-                
+                    
 )
+                
 )
             
 except
@@ -3517,7 +3610,7 @@ re
 match
 (
 r
-'
+"
 ^
 (
 \
@@ -3528,11 +3621,23 @@ d
 .
 *
 )
-'
+"
 wheel
 .
 build_tag
 )
+                
+assert
+match
+is
+not
+None
+"
+guaranteed
+by
+filename
+validation
+"
                 
 build_tag_groups
 =
@@ -3606,13 +3711,17 @@ return
 (
             
 has_allowed_hash
+            
 yank_value
+            
 binary_preference
+            
 candidate
 .
 version
             
 pri
+            
 build_tag
         
 )
@@ -4003,7 +4112,12 @@ _logged_links
 :
 Set
 [
+Tuple
+[
 Link
+LinkType
+str
+]
 ]
 =
 set
@@ -4435,6 +4549,50 @@ prefer_binary
 True
     
 def
+requires_python_skipped_reasons
+(
+self
+)
+-
+>
+List
+[
+str
+]
+:
+        
+reasons
+=
+{
+            
+detail
+            
+for
+_
+result
+detail
+in
+self
+.
+_logged_links
+            
+if
+result
+=
+=
+LinkType
+.
+requires_python_mismatch
+        
+}
+        
+return
+sorted
+(
+reasons
+)
+    
+def
 make_link_evaluator
 (
 self
@@ -4621,7 +4779,10 @@ self
 link
 :
 Link
-reason
+result
+:
+LinkType
+detail
 :
 str
 )
@@ -4630,8 +4791,16 @@ str
 None
 :
         
-if
+entry
+=
+(
 link
+result
+detail
+)
+        
+if
+entry
 not
 in
 self
@@ -4669,7 +4838,7 @@ logger
 .
 debug
 (
-'
+"
 Skipping
 link
 :
@@ -4678,8 +4847,8 @@ s
 :
 %
 s
-'
-reason
+"
+detail
 link
 )
             
@@ -4689,7 +4858,7 @@ _logged_links
 .
 add
 (
-link
+entry
 )
     
 def
@@ -4744,8 +4913,8 @@ None
 "
 "
         
-is_candidate
 result
+detail
 =
 link_evaluator
 .
@@ -4755,22 +4924,21 @@ link
 )
         
 if
-not
-is_candidate
+result
+!
+=
+LinkType
+.
+candidate
 :
             
-if
-result
-:
-                
 self
 .
 _log_skipped_link
 (
 link
-reason
-=
 result
+detail
 )
             
 return
@@ -4792,7 +4960,7 @@ link
             
 version
 =
-result
+detail
         
 )
     
@@ -4907,7 +5075,7 @@ logger
 debug
 (
             
-'
+"
 Fetching
 project
 page
@@ -4917,24 +5085,25 @@ links
 :
 %
 s
-'
+"
+            
 project_url
         
 )
         
-html_page
+index_response
 =
 self
 .
 _link_collector
 .
-fetch_page
+fetch_response
 (
 project_url
 )
         
 if
-html_page
+index_response
 is
 None
 :
@@ -4949,7 +5118,7 @@ list
 (
 parse_links
 (
-html_page
+index_response
 )
 )
         
@@ -5199,19 +5368,64 @@ file_candidates
 paths
 =
 [
-url_to_path
+]
+            
+for
+candidate
+in
+file_candidates
+:
+                
+assert
+candidate
+.
+link
+.
+url
+#
+we
+need
+to
+have
+a
+URL
+                
+try
+:
+                    
+paths
+.
+append
 (
-c
+candidate
+.
+link
+.
+file_path
+)
+                
+except
+Exception
+:
+                    
+paths
+.
+append
+(
+candidate
 .
 link
 .
 url
 )
-for
-c
-in
-file_candidates
-]
+#
+it
+'
+s
+not
+a
+local
+file
             
 logger
 .
@@ -5293,7 +5507,6 @@ object
 to
 use
 .
-        
 "
 "
 "
@@ -5556,11 +5769,13 @@ find_best_candidate
 req
 .
 name
+            
 specifier
 =
 req
 .
 specifier
+            
 hashes
 =
 hashes
@@ -5593,14 +5808,11 @@ None
             
 installed_version
 =
-parse_version
-(
 req
 .
 satisfied_by
 .
 version
-)
         
 def
 _format_versions
@@ -5669,14 +5881,17 @@ str
 .
             
 return
+(
+                
 "
 "
 .
 join
 (
+                    
 sorted
 (
-                
+                        
 {
 str
 (
@@ -5689,17 +5904,21 @@ c
 in
 cand_iter
 }
-                
+                        
 key
 =
 parse_version
-            
+                    
 )
+                
 )
+                
 or
 "
 none
 "
+            
+)
         
 if
 installed_version
@@ -5716,7 +5935,7 @@ logger
 critical
 (
                 
-'
+"
 Could
 not
 find
@@ -5728,9 +5947,9 @@ the
 requirement
 %
 s
-'
+"
                 
-'
+"
 (
 from
 versions
@@ -5738,7 +5957,7 @@ versions
 %
 s
 )
-'
+"
                 
 req
                 
@@ -5757,7 +5976,7 @@ raise
 DistributionNotFound
 (
                 
-'
+"
 No
 matching
 distribution
@@ -5765,42 +5984,61 @@ found
 for
 {
 }
-'
+"
 .
 format
 (
-                    
 req
 )
             
 )
         
-best_installed
-=
-False
+def
+_should_install_candidate
+(
+            
+candidate
+:
+Optional
+[
+InstallationCandidate
+]
         
+)
+-
+>
+"
+TypeGuard
+[
+InstallationCandidate
+]
+"
+:
+            
 if
 installed_version
-and
-(
+is
+None
+:
                 
+return
+True
+            
+if
 best_candidate
 is
 None
-or
+:
                 
+return
+False
+            
+return
 best_candidate
 .
 version
-<
-=
+>
 installed_version
-)
-:
-            
-best_installed
-=
-True
         
 if
 not
@@ -5813,7 +6051,10 @@ None
 :
             
 if
-best_installed
+_should_install_candidate
+(
+best_candidate
+)
 :
                 
 logger
@@ -5821,7 +6062,7 @@ logger
 debug
 (
                     
-'
+"
 Existing
 installed
 version
@@ -5829,22 +6070,30 @@ version
 %
 s
 )
-is
+satisfies
+requirement
+"
+                    
+"
+(
 most
 up
 -
 to
 -
 date
-and
-'
-                    
-'
-satisfies
-requirement
-'
+version
+is
+%
+s
+)
+"
                     
 installed_version
+                    
+best_candidate
+.
+version
                 
 )
             
@@ -5856,7 +6105,7 @@ logger
 debug
 (
                     
-'
+"
 Existing
 installed
 version
@@ -5864,30 +6113,22 @@ version
 %
 s
 )
-satisfies
-requirement
-'
-                    
-'
-(
+is
 most
 up
 -
 to
 -
 date
-version
-is
-%
-s
-)
-'
+and
+"
+                    
+"
+satisfies
+requirement
+"
                     
 installed_version
-                    
-best_candidate
-.
-version
                 
 )
             
@@ -5895,9 +6136,50 @@ return
 None
         
 if
-best_installed
+_should_install_candidate
+(
+best_candidate
+)
 :
             
+logger
+.
+debug
+(
+                
+"
+Using
+version
+%
+s
+(
+newest
+of
+versions
+:
+%
+s
+)
+"
+                
+best_candidate
+.
+version
+                
+_format_versions
+(
+best_candidate_result
+.
+iter_applicable
+(
+)
+)
+            
+)
+            
+return
+best_candidate
+        
 #
 We
 have
@@ -5909,13 +6191,13 @@ its
 the
 best
 version
-            
+        
 logger
 .
 debug
 (
-                
-'
+            
+"
 Installed
 version
 (
@@ -5933,16 +6215,13 @@ date
 past
 versions
 :
-'
-                
-'
 %
 s
 )
-'
-                
+"
+            
 installed_version
-                
+            
 _format_versions
 (
 best_candidate_result
@@ -5951,49 +6230,11 @@ iter_applicable
 (
 )
 )
-            
+        
 )
-            
+        
 raise
 BestVersionAlreadyInstalled
-        
-logger
-.
-debug
-(
-            
-'
-Using
-version
-%
-s
-(
-newest
-of
-versions
-:
-%
-s
-)
-'
-            
-best_candidate
-.
-version
-            
-_format_versions
-(
-best_candidate_result
-.
-iter_applicable
-(
-)
-)
-        
-)
-        
-return
-best_candidate
 def
 _find_name_version_sep
 (

@@ -63,8 +63,6 @@ configparser
 import
 locale
 import
-logging
-import
 os
 import
 sys
@@ -116,6 +114,16 @@ _internal
 .
 utils
 .
+logging
+import
+getLogger
+from
+pip
+.
+_internal
+.
+utils
+.
 misc
 import
 ensure_dir
@@ -138,19 +146,19 @@ str
 )
 CONFIG_BASENAME
 =
-'
+"
 pip
 .
 ini
-'
+"
 if
 WINDOWS
 else
-'
+"
 pip
 .
 conf
-'
+"
 ENV_NAMES_IGNORED
 =
 "
@@ -253,8 +261,6 @@ kinds
 SITE
 logger
 =
-logging
-.
 getLogger
 (
 __name__
@@ -275,18 +281,13 @@ def
 _normalize_name
 (
 name
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
     
 "
 "
@@ -303,7 +304,6 @@ environment
 or
 file
 )
-    
 "
 "
 "
@@ -318,12 +318,12 @@ lower
 .
 replace
 (
-'
+"
 _
-'
-'
+"
+"
 -
-'
+"
 )
     
 if
@@ -331,10 +331,10 @@ name
 .
 startswith
 (
-'
+"
 -
 -
-'
+"
 )
 :
         
@@ -357,13 +357,7 @@ def
 _disassemble_key
 (
 name
-)
 :
-    
-#
-type
-:
-(
 str
 )
 -
@@ -372,6 +366,7 @@ List
 [
 str
 ]
+:
     
 if
 "
@@ -442,13 +437,6 @@ def
 get_configuration_files
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 Dict
@@ -459,6 +447,7 @@ List
 str
 ]
 ]
+:
     
 global_config_files
 =
@@ -473,7 +462,6 @@ join
 path
 CONFIG_BASENAME
 )
-        
 for
 path
 in
@@ -481,9 +469,9 @@ appdirs
 .
 site_config_dirs
 (
-'
+"
 pip
-'
+"
 )
     
 ]
@@ -517,21 +505,21 @@ path
 .
 expanduser
 (
-'
+"
 ~
-'
+"
 )
         
-'
+"
 pip
-'
+"
 if
 WINDOWS
 else
-'
+"
 .
 pip
-'
+"
         
 CONFIG_BASENAME
     
@@ -545,7 +533,6 @@ path
 .
 join
 (
-        
 appdirs
 .
 user_config_dir
@@ -555,7 +542,6 @@ pip
 "
 )
 CONFIG_BASENAME
-    
 )
     
 return
@@ -697,25 +683,21 @@ __init__
 (
 self
 isolated
-load_only
-=
-None
-)
 :
-        
-#
-type
-:
-(
 bool
+load_only
+:
 Optional
 [
 Kind
 ]
+=
+None
 )
 -
 >
 None
+:
         
 super
 (
@@ -803,21 +785,6 @@ from
 self
 .
 _parsers
-=
-{
-            
-variant
-:
-[
-]
-for
-variant
-in
-OVERRIDE_ORDER
-        
-}
-#
-type
 :
 Dict
 [
@@ -831,25 +798,23 @@ RawConfigParser
 ]
 ]
 ]
-        
-self
-.
-_config
 =
 {
             
 variant
 :
-{
-}
+[
+]
 for
 variant
 in
 OVERRIDE_ORDER
         
 }
-#
-type
+        
+self
+.
+_config
 :
 Dict
 [
@@ -860,15 +825,23 @@ str
 Any
 ]
 ]
+=
+{
+            
+variant
+:
+{
+}
+for
+variant
+in
+OVERRIDE_ORDER
+        
+}
         
 self
 .
 _modified_parsers
-=
-[
-]
-#
-type
 :
 List
 [
@@ -878,22 +851,19 @@ str
 RawConfigParser
 ]
 ]
+=
+[
+]
     
 def
 load
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 None
+:
         
 "
 "
@@ -905,7 +875,6 @@ configuration
 files
 and
 environment
-        
 "
 "
 "
@@ -934,19 +903,13 @@ get_file_to_edit
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 str
 ]
+:
         
 "
 "
@@ -959,7 +922,6 @@ highest
 priority
 in
 configuration
-        
 "
 "
 "
@@ -971,8 +933,6 @@ load_only
 is
 not
 None
-\
-            
 "
 Need
 to
@@ -1010,13 +970,6 @@ items
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Iterable
@@ -1027,6 +980,7 @@ str
 Any
 ]
 ]
+:
         
 "
 "
@@ -1066,18 +1020,13 @@ get_value
 (
 self
 key
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 Any
+:
         
 "
 "
@@ -1089,10 +1038,20 @@ from
 the
 configuration
 .
+"
+"
+"
         
-"
-"
-"
+orig_key
+=
+key
+        
+key
+=
+_normalize_name
+(
+key
+)
         
 try
 :
@@ -1109,6 +1068,44 @@ except
 KeyError
 :
             
+#
+disassembling
+triggers
+a
+more
+useful
+error
+message
+than
+simply
+            
+#
+"
+No
+such
+key
+"
+in
+the
+case
+that
+the
+key
+isn
+'
+t
+in
+the
+form
+command
+.
+option
+            
+_disassemble_key
+(
+key
+)
+            
 raise
 ConfigurationError
 (
@@ -1119,7 +1116,7 @@ such
 key
 -
 {
-key
+orig_key
 }
 "
 )
@@ -1129,20 +1126,16 @@ set_value
 (
 self
 key
-value
-)
 :
-        
-#
-type
-:
-(
 str
+value
+:
 Any
 )
 -
 >
 None
+:
         
 "
 "
@@ -1154,10 +1147,16 @@ in
 the
 configuration
 .
+"
+"
+"
         
-"
-"
-"
+key
+=
+_normalize_name
+(
+key
+)
         
 self
 .
@@ -1255,18 +1254,13 @@ unset_value
 (
 self
 key
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 None
+:
         
 "
 "
@@ -1281,6 +1275,17 @@ configuration
 "
 "
 "
+        
+orig_key
+=
+key
+        
+key
+=
+_normalize_name
+(
+key
+)
         
 self
 .
@@ -1317,7 +1322,7 @@ such
 key
 -
 {
-key
+orig_key
 }
 "
 )
@@ -1349,13 +1354,13 @@ key
 if
 not
 (
+                
 parser
 .
 has_section
 (
 section
 )
-                    
 and
 parser
 .
@@ -1364,6 +1369,7 @@ remove_option
 section
 name
 )
+            
 )
 :
                 
@@ -1455,16 +1461,10 @@ save
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 None
+:
         
 "
 "
@@ -1477,7 +1477,6 @@ in
 memory
 state
 .
-        
 "
 "
 "
@@ -1560,16 +1559,10 @@ _ensure_have_load_only
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 None
+:
         
 if
 self
@@ -1620,13 +1613,6 @@ _dictionary
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Dict
@@ -1634,6 +1620,7 @@ Dict
 str
 Any
 ]
+:
         
 "
 "
@@ -1645,7 +1632,6 @@ the
 loaded
 configuration
 .
-        
 "
 "
 "
@@ -1702,16 +1688,10 @@ _load_config_files
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 None
+:
         
 "
 "
@@ -1721,7 +1701,6 @@ configuration
 from
 configuration
 files
-        
 "
 "
 "
@@ -1845,7 +1824,6 @@ logger
 .
 debug
 (
-                        
 "
 Skipping
 file
@@ -1862,7 +1840,6 @@ s
 "
 fname
 variant
-                    
 )
                     
 continue
@@ -1905,24 +1882,20 @@ _load_file
 (
 self
 variant
-fname
-)
 :
-        
-#
-type
-:
-(
 Kind
+fname
+:
 str
 )
 -
 >
 RawConfigParser
+:
         
 logger
 .
-debug
+verbose
 (
 "
 For
@@ -1997,18 +1970,13 @@ _construct_parser
 (
 self
 fname
-)
 :
-        
-#
-type
-:
-(
 str
 )
 -
 >
 RawConfigParser
+:
         
 parser
 =
@@ -2079,6 +2047,15 @@ fname
 )
 :
             
+locale_encoding
+=
+locale
+.
+getpreferredencoding
+(
+False
+)
+            
 try
 :
                 
@@ -2087,6 +2064,9 @@ parser
 read
 (
 fname
+encoding
+=
+locale_encoding
 )
             
 except
@@ -2117,25 +2097,15 @@ ConfigurationFileCouldNotBeLoaded
                     
 reason
 =
+f
 "
 contains
 invalid
 {
+locale_encoding
 }
 characters
 "
-.
-format
-(
-                        
-locale
-.
-getpreferredencoding
-(
-False
-)
-                    
-)
                     
 fname
 =
@@ -2185,16 +2155,10 @@ _load_environment_vars
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 None
+:
         
 "
 "
@@ -2204,7 +2168,6 @@ configuration
 from
 environment
 variables
-        
 "
 "
 "
@@ -2242,17 +2205,13 @@ get_environ_vars
 def
 _normalized_keys
 (
+        
 self
 section
-items
-)
 :
-        
-#
-type
-:
-(
 str
+items
+:
 Iterable
 [
 Tuple
@@ -2261,6 +2220,7 @@ str
 Any
 ]
 ]
+    
 )
 -
 >
@@ -2269,6 +2229,7 @@ Dict
 str
 Any
 ]
+:
         
 "
 "
@@ -2352,13 +2313,6 @@ get_environ_vars
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Iterable
@@ -2369,6 +2323,7 @@ str
 str
 ]
 ]
+:
         
 "
 "
@@ -2450,13 +2405,6 @@ iter_config_files
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Iterable
@@ -2470,6 +2418,7 @@ str
 ]
 ]
 ]
+:
         
 "
 "
@@ -2526,9 +2475,9 @@ environ
 .
 get
 (
-'
+"
 PIP_CONFIG_FILE
-'
+"
 None
 )
         
@@ -2666,13 +2615,7 @@ get_values_in_config
 (
 self
 variant
-)
 :
-        
-#
-type
-:
-(
 Kind
 )
 -
@@ -2682,6 +2625,7 @@ Dict
 str
 Any
 ]
+:
         
 "
 "
@@ -2710,13 +2654,6 @@ _get_parser_to_modify
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -2724,6 +2661,7 @@ Tuple
 str
 RawConfigParser
 ]
+:
         
 #
 Determine
@@ -2819,20 +2757,16 @@ _mark_as_modified
 (
 self
 fname
-parser
-)
 :
-        
-#
-type
-:
-(
 str
+parser
+:
 RawConfigParser
 )
 -
 >
 None
+:
         
 file_parser_tuple
 =
@@ -2864,16 +2798,10 @@ __repr__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 str
+:
         
 return
 f

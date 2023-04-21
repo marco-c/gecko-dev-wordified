@@ -36,7 +36,7 @@ typing
 import
 Any
 Dict
-Iterator
+Generator
 List
 Optional
 Tuple
@@ -50,9 +50,11 @@ pip
 .
 _vendor
 .
-pkg_resources
+packaging
+.
+utils
 import
-Distribution
+canonicalize_name
 from
 pip
 .
@@ -64,6 +66,16 @@ models
 import
 CONTENT_CHUNK_SIZE
 Response
+from
+pip
+.
+_internal
+.
+metadata
+import
+BaseDistribution
+MemoryWheel
+get_wheel_distribution
 from
 pip
 .
@@ -86,16 +98,6 @@ import
 HEADERS
 raise_for_status
 response_chunks
-from
-pip
-.
-_internal
-.
-utils
-.
-wheel
-import
-pkg_resources_distribution_for_wheel
 class
 HTTPRangeRequestUnsupported
 (
@@ -119,7 +121,7 @@ PipSession
 )
 -
 >
-Distribution
+BaseDistribution
 :
     
 "
@@ -127,9 +129,8 @@ Distribution
 "
 Return
 a
-pkg_resources
-.
-Distribution
+distribution
+object
 from
 the
 given
@@ -146,7 +147,7 @@ to
 only
 fetch
 the
-potion
+portion
 of
 the
 wheel
@@ -186,7 +187,7 @@ url
 session
 )
 as
-wheel
+zf
 :
         
 #
@@ -214,11 +215,14 @@ IO
 protocol
 .
         
-zip_file
-=
-ZipFile
-(
 wheel
+=
+MemoryWheel
+(
+zf
+.
+name
+zf
 )
 #
 type
@@ -244,13 +248,13 @@ intention
 .
         
 return
-pkg_resources_distribution_for_wheel
+get_wheel_distribution
 (
-zip_file
-name
 wheel
-.
+canonicalize_name
+(
 name
+)
 )
 class
 LazyZipOverHTTP
@@ -1060,13 +1064,9 @@ Any
 )
 -
 >
-Optional
-[
-bool
-]
+None
 :
         
-return
 self
 .
 _file
@@ -1086,8 +1086,10 @@ self
 )
 -
 >
-Iterator
+Generator
 [
+None
+None
 None
 ]
 :
@@ -1394,13 +1396,15 @@ int
 )
 -
 >
-Iterator
+Generator
 [
 Tuple
 [
 int
 int
 ]
+None
+None
 ]
 :
         
@@ -1408,8 +1412,8 @@ int
 "
 "
 Return
-an
-iterator
+a
+generator
 of
 intervals
 to

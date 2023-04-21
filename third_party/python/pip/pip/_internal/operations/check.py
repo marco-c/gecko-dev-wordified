@@ -14,7 +14,6 @@ logging
 from
 typing
 import
-TYPE_CHECKING
 Callable
 Dict
 List
@@ -41,6 +40,7 @@ packaging
 .
 utils
 import
+NormalizedName
 canonicalize_name
 from
 pip
@@ -78,20 +78,6 @@ req
 req_install
 import
 InstallRequirement
-if
-TYPE_CHECKING
-:
-    
-from
-pip
-.
-_vendor
-.
-packaging
-.
-utils
-import
-NormalizedName
 logger
 =
 logging
@@ -123,27 +109,21 @@ PackageSet
 =
 Dict
 [
-'
 NormalizedName
-'
 PackageDetails
 ]
 Missing
 =
 Tuple
 [
-'
 NormalizedName
-'
 Requirement
 ]
 Conflicting
 =
 Tuple
 [
-'
 NormalizedName
-'
 DistributionVersion
 Requirement
 ]
@@ -151,9 +131,7 @@ MissingDict
 =
 Dict
 [
-'
 NormalizedName
-'
 List
 [
 Missing
@@ -163,9 +141,7 @@ ConflictingDict
 =
 Dict
 [
-'
 NormalizedName
-'
 List
 [
 Conflicting
@@ -329,18 +305,12 @@ problems
 def
 check_package_set
 (
-package_set
-should_ignore
-=
-None
-)
-:
     
-#
-type
+package_set
 :
-(
 PackageSet
+should_ignore
+:
 Optional
 [
 Callable
@@ -351,10 +321,13 @@ str
 bool
 ]
 ]
+=
+None
 )
 -
 >
 CheckResult
+:
     
 "
 "
@@ -421,30 +394,26 @@ of
 package_name
         
 missing_deps
-=
-set
-(
-)
-#
-type
 :
 Set
 [
 Missing
 ]
-        
-conflicting_deps
 =
 set
 (
 )
-#
-type
+        
+conflicting_deps
 :
 Set
 [
 Conflicting
 ]
+=
+set
+(
+)
         
 if
 should_ignore
@@ -510,6 +479,14 @@ marker
 .
 evaluate
 (
+{
+"
+extra
+"
+:
+"
+"
+}
 )
                 
 if
@@ -613,13 +590,7 @@ def
 check_install_conflicts
 (
 to_install
-)
 :
-    
-#
-type
-:
-(
 List
 [
 InstallRequirement
@@ -628,6 +599,7 @@ InstallRequirement
 -
 >
 ConflictDetails
+:
     
 "
 "
@@ -726,19 +698,15 @@ whitelist
 def
 _simulate_installation_of
 (
-to_install
-package_set
-)
-:
     
-#
-type
+to_install
 :
-(
 List
 [
 InstallRequirement
 ]
+package_set
+:
 PackageSet
 )
 -
@@ -747,6 +715,7 @@ Set
 [
 NormalizedName
 ]
+:
     
 "
 "
@@ -760,7 +729,6 @@ after
 installing
 to_install
 .
-    
 "
 "
 "
@@ -810,24 +778,15 @@ dist
 =
 abstract_dist
 .
-get_pkg_resources_distribution
+get_metadata_distribution
 (
 )
-        
-assert
-dist
-is
-not
-None
         
 name
 =
-canonicalize_name
-(
 dist
 .
-project_name
-)
+canonical_name
         
 package_set
 [
@@ -838,11 +797,14 @@ PackageDetails
 (
 dist
 .
-parsed_version
+version
+list
+(
 dist
 .
-requires
+iter_dependencies
 (
+)
 )
 )
         
@@ -858,19 +820,15 @@ installed
 def
 _create_whitelist
 (
-would_be_installed
-package_set
-)
-:
     
-#
-type
+would_be_installed
 :
-(
 Set
 [
 NormalizedName
 ]
+package_set
+:
 PackageSet
 )
 -
@@ -879,6 +837,7 @@ Set
 [
 NormalizedName
 ]
+:
     
 packages_affected
 =
