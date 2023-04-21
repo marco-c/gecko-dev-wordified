@@ -543,12 +543,6 @@ _isDestroyed
 =
 true
 ;
-this
-.
-conn
-=
-null
-;
 }
 /
 *
