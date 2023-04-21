@@ -120,6 +120,14 @@ TestKeyFrameRequestsOnAllStreams
 ;
 virtual
 void
+TestKeyFrameRequestsOnSpecificStreams
+(
+)
+=
+0
+;
+virtual
+void
 TestPaddingAllStreams
 (
 )
