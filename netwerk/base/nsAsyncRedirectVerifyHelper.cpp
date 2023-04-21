@@ -504,7 +504,7 @@ forget
 )
 )
 :
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -

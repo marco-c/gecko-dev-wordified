@@ -5807,7 +5807,7 @@ window
 )
 {
 return
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

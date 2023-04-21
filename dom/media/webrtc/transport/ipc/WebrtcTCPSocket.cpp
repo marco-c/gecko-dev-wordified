@@ -398,7 +398,7 @@ this
 ;
 mMainThread
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

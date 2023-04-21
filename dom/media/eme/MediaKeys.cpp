@@ -1114,7 +1114,7 @@ do
 not
 want
 .
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
