@@ -7730,12 +7730,12 @@ element
 void
 ExplicitlySetAttrElement
 (
-Element
-*
-aElement
 nsAtom
 *
 aAttr
+Element
+*
+aElement
 )
 ;
 PseudoStyleType
