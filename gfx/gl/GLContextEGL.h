@@ -593,13 +593,6 @@ EglDisplay
 const
 GLContextCreateDesc
 &
-const
-gfx
-:
-:
-IntSize
-&
-size
 nsACString
 *
 const
