@@ -105,6 +105,11 @@ mozmemory
 h
 "
 "
+mozmemory_utils
+.
+h
+"
+"
 mozmemory_wrap
 .
 h
@@ -353,3 +358,11 @@ bug
 REQUIRES_UNIFIED_BUILD
 =
 True
+TEST_DIRS
++
+=
+[
+"
+test
+"
+]
