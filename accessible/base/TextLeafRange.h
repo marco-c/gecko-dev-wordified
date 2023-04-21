@@ -1930,6 +1930,15 @@ aSelectionNum
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+ScrollIntoView
+(
+uint32_t
+aScrollType
+)
+const
+;
 private
 :
 TextLeafPoint

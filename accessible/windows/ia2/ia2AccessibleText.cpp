@@ -1971,13 +1971,11 @@ IA2ScrollType
 aScrollType
 )
 {
-auto
-[
+HyperTextAccessibleBase
+*
 textAcc
-hr
-]
 =
-LocalTextAcc
+TextAcc
 (
 )
 ;
@@ -1988,7 +1986,7 @@ textAcc
 )
 {
 return
-hr
+CO_E_OBJNOTCONNECTED
 ;
 }
 if

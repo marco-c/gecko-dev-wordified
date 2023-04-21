@@ -493,6 +493,7 @@ aSelectionNum
 )
 override
 ;
+virtual
 void
 ScrollSubstringTo
 (
@@ -503,6 +504,7 @@ aEndOffset
 uint32_t
 aScrollType
 )
+override
 ;
 void
 ScrollSubstringToPoint
