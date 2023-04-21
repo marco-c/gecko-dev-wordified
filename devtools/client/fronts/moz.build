@@ -189,13 +189,6 @@ manifest
 js
 "
 "
-media
--
-rule
-.
-js
-"
-"
 memory
 .
 js
