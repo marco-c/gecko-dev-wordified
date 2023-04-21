@@ -410,6 +410,9 @@ mReadIntoRequests
 ;
 }
 ;
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 ReadableStreamBYOBReader
@@ -490,6 +493,11 @@ ErrorResult
 aRv
 )
 ;
+}
+/
+/
+namespace
+streams_abstract
 }
 /
 /
