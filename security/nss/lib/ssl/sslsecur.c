@@ -1480,16 +1480,6 @@ greaseEchBuf
 )
 ;
 }
-tls13_ClientGreaseDestroy
-(
-ss
-)
-;
-tls_ClientHelloExtensionPermutationDestroy
-(
-ss
-)
-;
 if
 (
 !
