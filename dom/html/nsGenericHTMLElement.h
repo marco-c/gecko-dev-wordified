@@ -7960,7 +7960,7 @@ IsGenericHTMLFormControlElementWithState
 )
 /
 /
-Element
+nsIContent
 bool
 ParseAttribute
 (
