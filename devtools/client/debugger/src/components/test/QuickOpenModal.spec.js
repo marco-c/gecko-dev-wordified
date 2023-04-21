@@ -4384,6 +4384,7 @@ test
 searchType
 :
 "
+other
 "
 }
 "
@@ -4502,6 +4503,7 @@ query
 searchType
 :
 "
+other
 "
 }
 "
