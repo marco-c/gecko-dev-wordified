@@ -377,6 +377,3 @@ build
 DIST_INSTALL
 =
 True
-REQUIRES_UNIFIED_BUILD
-=
-True
