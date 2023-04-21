@@ -97,7 +97,7 @@ n
 ;
 return
 new
-RTCSessionDescription
+mozRTCSessionDescription
 (
 {
 type
