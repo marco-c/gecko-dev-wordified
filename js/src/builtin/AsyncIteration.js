@@ -2173,9 +2173,9 @@ accumulator
 ;
 if
 (
-arguments
-.
-length
+ArgumentsLength
+(
+)
 =
 =
 =
@@ -2258,10 +2258,10 @@ Step
 .
 accumulator
 =
-arguments
-[
+GetArgument
+(
 1
-]
+)
 ;
 }
 /

@@ -742,6 +742,11 @@ cases
 these
 identifiers
 .
+ArgumentsLength
+:
+"
+readonly
+"
 allowContentIter
 :
 "
@@ -773,6 +778,11 @@ DefineDataProperty
 readonly
 "
 forceInterpreter
+:
+"
+readonly
+"
+GetArgument
 :
 "
 readonly
