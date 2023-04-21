@@ -4792,6 +4792,16 @@ activeFieldDetail
 .
 fieldName
 ;
+if
+(
+fieldName
+&
+&
+this
+.
+activeSection
+)
+{
 lazy
 .
 AutofillTelemetry
@@ -4809,6 +4819,7 @@ fieldName
 }
 )
 ;
+}
 }
 _markAsAutofillField
 (
