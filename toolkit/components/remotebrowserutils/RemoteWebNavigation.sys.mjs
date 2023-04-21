@@ -122,6 +122,7 @@ parts
 of
 nsIWebNavigation
 .
+export
 class
 RemoteWebNavigation
 {
@@ -1115,12 +1116,3 @@ e
 }
 }
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-RemoteWebNavigation
-"
-]
-;
