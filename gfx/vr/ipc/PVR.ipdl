@@ -182,7 +182,6 @@ namespace
 gfx
 {
 [
-ManualDealloc
 NeedsOtherPid
 ChildImpl
 =
