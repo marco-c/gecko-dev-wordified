@@ -657,14 +657,6 @@ HTMLEditUtils
 LeafNodeTypes
 ;
 using
-StyleDifference
-=
-HTMLEditUtils
-:
-:
-StyleDifference
-;
-using
 WalkTextOption
 =
 HTMLEditUtils
@@ -62987,10 +62979,6 @@ CanContentsBeJoined
 lastEditableChildOfLeftContent
 *
 firstEditableChildOfRightContent
-StyleDifference
-:
-:
-CompareIfElements
 )
 )
 {
