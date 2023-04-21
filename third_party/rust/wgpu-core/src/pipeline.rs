@@ -610,14 +610,14 @@ f
 nShader
 '
 {
+label
 }
 '
 parsing
 {
+string
 }
 "
-label
-string
 )
 }
 }
