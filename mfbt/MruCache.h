@@ -904,16 +904,6 @@ Foo
 ;
 /
 /
-mTable
-.
-Insert
-(
-aKey
-foo
-)
-;
-/
-/
 p
 .
 Set
