@@ -97,7 +97,7 @@ getPayloadsOfType
 (
 thread
 "
-PreferenceRead
+Preference
 "
 )
 )
@@ -238,7 +238,8 @@ listener
 *
 Test
 the
-PreferenceRead
+Preference
+Read
 markers
 .
 *
@@ -378,7 +379,8 @@ pref
 Check
 that
 some
-PreferenceRead
+Preference
+Read
 profile
 markers
 were
@@ -406,7 +408,8 @@ kContentPref
 contentThread
 )
 0
-PreferenceRead
+Preference
+Read
 profile
 markers
 for
