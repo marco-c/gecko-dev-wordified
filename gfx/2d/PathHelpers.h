@@ -1586,6 +1586,17 @@ bool
 aDrawClockwise
 =
 true
+const
+Maybe
+<
+Matrix
+>
+&
+aTransform
+=
+Nothing
+(
+)
 )
 ;
 inline
