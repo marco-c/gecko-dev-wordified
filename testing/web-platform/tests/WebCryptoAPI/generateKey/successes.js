@@ -776,7 +776,7 @@ result
 .
 publicKey
 algorithm
-extractable
+true
 usages
 "
 public
