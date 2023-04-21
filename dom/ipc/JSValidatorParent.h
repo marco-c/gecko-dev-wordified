@@ -241,9 +241,6 @@ OnStopRequest
 (
 nsresult
 aResult
-nsIRequest
-&
-aRequest
 )
 ;
 private

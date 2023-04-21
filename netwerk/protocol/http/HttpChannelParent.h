@@ -1029,14 +1029,6 @@ const
 uint64_t
 &
 aEarlyHintPreloaderId
-const
-nsAString
-&
-aClassicScriptHintCharset
-const
-nsAString
-&
-aDocumentCharacterSet
 )
 ;
 virtual
