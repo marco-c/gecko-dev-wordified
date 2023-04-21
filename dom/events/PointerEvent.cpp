@@ -1916,6 +1916,10 @@ ShouldResistFingerprinting
 Efficiency
 Check
 "
+RFPTarget
+:
+:
+PointerEvents
 )
 |
 |
@@ -1979,6 +1983,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+PointerEvents
 )
 :
 true
