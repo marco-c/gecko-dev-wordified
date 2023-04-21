@@ -130,6 +130,18 @@ shadowrootmode
 )
 ;
 const
+delegatesFocus
+=
+template
+.
+hasAttribute
+(
+"
+shadowrootdelegatesfocus
+"
+)
+;
+const
 shadowRoot
 =
 template
@@ -140,6 +152,7 @@ attachShadow
 (
 {
 mode
+delegatesFocus
 }
 )
 ;
