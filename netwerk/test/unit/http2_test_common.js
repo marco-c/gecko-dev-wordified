@@ -3669,6 +3669,7 @@ function
 test_http2_invalid_response_header
 (
 serverPort
+invalid_kind
 )
 {
 return
@@ -3715,6 +3716,10 @@ serverPort
 }
 /
 invalid_response_header
+/
+{
+invalid_kind
+}
 )
 ;
 chan
