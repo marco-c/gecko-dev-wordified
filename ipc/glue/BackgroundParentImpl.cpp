@@ -2764,6 +2764,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+IPCClientInfo
+&
+aClientInfo
+const
 bool
 &
 aDedicated
@@ -2834,6 +2838,7 @@ Create
 (
 aURL
 aPrincipal
+aClientInfo
 aDedicated
 aRequireUnreliable
 aCongestionControl
