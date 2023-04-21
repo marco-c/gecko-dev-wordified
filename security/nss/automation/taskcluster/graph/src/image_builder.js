@@ -468,9 +468,12 @@ build
 "
 symbol
 :
-"
 I
-"
+(
+{
+name
+}
+)
 }
 ;
 }
