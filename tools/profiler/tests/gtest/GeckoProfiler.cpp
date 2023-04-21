@@ -28837,7 +28837,7 @@ profile
 .
 ProfilerResult
 <
-Ok
+ProfileGenerationAdditionalInformation
 >
 do_profiler_stream_json_for_this_process
 (
