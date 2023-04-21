@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-API_VIDEO_VIDEO_STREAM_ENCODER_INTERFACE_H_
+VIDEO_VIDEO_STREAM_ENCODER_INTERFACE_H_
 #
 define
-API_VIDEO_VIDEO_STREAM_ENCODER_INTERFACE_H_
+VIDEO_VIDEO_STREAM_ENCODER_INTERFACE_H_
 #
 include
 <
@@ -208,9 +208,9 @@ h
 #
 include
 "
-api
+video
 /
-video_codecs
+config
 /
 video_encoder_config
 .
@@ -1116,4 +1116,4 @@ webrtc
 endif
 /
 /
-API_VIDEO_VIDEO_STREAM_ENCODER_INTERFACE_H_
+VIDEO_VIDEO_STREAM_ENCODER_INTERFACE_H_
