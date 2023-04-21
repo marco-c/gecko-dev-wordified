@@ -40,7 +40,7 @@ MacAttribution
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ modules
 /
 MacAttribution
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
