@@ -276,9 +276,6 @@ h
 /
 /
 Vector
-struct
-JSContext
-;
 namespace
 js
 {

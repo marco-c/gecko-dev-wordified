@@ -229,10 +229,6 @@ Stencil
 .
 h
 "
-struct
-JS_PUBLIC_API
-JSContext
-;
 namespace
 js
 {
