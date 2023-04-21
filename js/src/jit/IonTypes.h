@@ -3043,7 +3043,7 @@ on
 /
 /
 These
-three
+two
 will
 convert
 the
@@ -3057,7 +3057,6 @@ of
 precision
 .
 Truncate
-TruncateNoWrap
 ClampToUint8
 }
 ;
