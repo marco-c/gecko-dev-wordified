@@ -1514,6 +1514,9 @@ true
 subtree
 :
 true
+chromeOnlyNodes
+:
+true
 }
 )
 ;
