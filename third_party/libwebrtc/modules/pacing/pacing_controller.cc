@@ -384,17 +384,6 @@ Millis
 )
 ;
 const
-float
-PacingController
-:
-:
-kDefaultPaceMultiplier
-=
-2
-.
-5f
-;
-const
 TimeDelta
 PacingController
 :
