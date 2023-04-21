@@ -12029,13 +12029,12 @@ indexOfOldRangeToKeep
 ]
 -
 >
-GetSelection
+IsInSelection
 (
-)
-=
-=
-&
 aSpellCheckerSelection
+)
+)
+{
 /
 *
 *
@@ -12074,8 +12073,6 @@ happens
 .
 *
 /
-)
-{
 MOZ_LOG
 (
 sInlineSpellCheckerLog

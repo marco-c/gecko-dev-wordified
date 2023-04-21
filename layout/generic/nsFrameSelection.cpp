@@ -2214,6 +2214,7 @@ range
 >
 UnregisterSelection
 (
+aSelection
 )
 ;
 aSelection
