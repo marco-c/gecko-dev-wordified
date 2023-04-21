@@ -193,6 +193,14 @@ public
 ProfilerLabels
 .
 h
+and
+xpcom
+/
+threads
+/
+moz
+.
+build
 .
 if
 (
