@@ -4438,7 +4438,7 @@ isConstant
 )
 )
 {
-int32_t
+uint32_t
 rhs
 =
 div
@@ -4466,13 +4466,7 @@ mozilla
 :
 FloorLog2
 (
-mozilla
-:
-:
-Abs
-(
 rhs
-)
 )
 ;
 if
@@ -4492,13 +4486,7 @@ uint32_t
 shift
 =
 =
-mozilla
-:
-:
-Abs
-(
 rhs
-)
 )
 {
 LDivPowTwoI
