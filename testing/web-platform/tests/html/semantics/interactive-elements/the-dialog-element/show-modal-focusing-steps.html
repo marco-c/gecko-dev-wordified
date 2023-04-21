@@ -111,7 +111,8 @@ that
 focus
 goes
 to
-body
+the
+dialog
 if
 the
 dialog
@@ -119,8 +120,6 @@ has
 no
 focusable
 elements
-including
-itself
 var
 outerDialog
 =
@@ -146,9 +145,7 @@ assert_equals
 document
 .
 activeElement
-document
-.
-body
+outerDialog
 )
 ;
 /
