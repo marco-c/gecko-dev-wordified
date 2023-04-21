@@ -181,8 +181,9 @@ in
 all
 frames
 .
-test
+promise_test
 (
+async
 (
 )
 =
