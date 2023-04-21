@@ -18,6 +18,7 @@ quote
 :
 :
 {
+quote
 ToTokens
 TokenStreamExt
 }
@@ -97,8 +98,6 @@ derive
 (
 Debug
 Clone
-PartialEq
-Eq
 )
 ]
 pub
@@ -857,6 +856,12 @@ name_in_attr
 {
 if
 let
+:
+:
+darling
+:
+:
+export
 :
 :
 syn

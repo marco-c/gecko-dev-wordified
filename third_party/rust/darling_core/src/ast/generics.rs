@@ -1152,6 +1152,12 @@ mod
 tests
 {
 use
+syn
+:
+:
+parse_quote
+;
+use
 super
 :
 :

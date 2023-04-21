@@ -2270,6 +2270,7 @@ syn
 :
 :
 {
+parse_quote
 DeriveInput
 Ident
 }

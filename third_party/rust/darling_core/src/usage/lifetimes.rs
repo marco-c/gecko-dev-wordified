@@ -2060,6 +2060,12 @@ use
 syn
 :
 :
+parse_quote
+;
+use
+syn
+:
+:
 DeriveInput
 ;
 use
