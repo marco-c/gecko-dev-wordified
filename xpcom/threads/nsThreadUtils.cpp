@@ -3192,11 +3192,6 @@ nullptr
 }
 return
 thread
--
->
-EventTarget
-(
-)
 ;
 }
 nsIEventTarget
@@ -3293,11 +3288,6 @@ nullptr
 }
 return
 thread
--
->
-SerialEventTarget
-(
-)
 ;
 }
 nsISerialEventTarget
