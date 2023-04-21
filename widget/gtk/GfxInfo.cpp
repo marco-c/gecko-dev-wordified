@@ -1097,8 +1097,6 @@ glxtest
 process
 got
 reaped
-got
-reaped
 after
 a
 /
