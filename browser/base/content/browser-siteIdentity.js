@@ -2869,7 +2869,9 @@ one
 in
 AboutHttpsOnlyErrorParent
 .
-jsm
+sys
+.
+mjs
 )
 let
 newURI
