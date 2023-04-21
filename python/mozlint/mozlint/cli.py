@@ -2651,8 +2651,11 @@ local_exclude
 ]
         
 if
+(
+            
 not
 paths
+            
 and
 Path
 .
@@ -2667,12 +2670,17 @@ lint
 .
 root
 )
+            
 and
 not
 (
 outgoing
 or
 workdir
+or
+rev
+)
+        
 )
 :
             
