@@ -28610,7 +28610,7 @@ success
 =
 false
 ;
-JitSpewIfEnabled
+JitSpew
 (
 JitSpew_RegAlloc
 "
@@ -34329,7 +34329,7 @@ CodePosition
 INPUT
 )
 {
-JitSpewIfEnabled
+JitSpew
 (
 JitSpew_RegAlloc
 "
