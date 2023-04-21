@@ -256,9 +256,7 @@ event
 {
 reply
 (
-event
-.
-target
+status
 .
 state
 )
