@@ -716,6 +716,12 @@ kWaitTimeout
 =
 10000
 ;
+constexpr
+uint64_t
+kTiebreakerDefault
+=
+44444
+;
 class
 PeerConnectionWrapperForIceTest
 :
@@ -11347,6 +11353,14 @@ port_allocator
 .
 get
 (
+)
+;
+port_allocator_
+-
+>
+SetIceTiebreaker
+(
+kTiebreakerDefault
 )
 ;
 PeerConnectionDependencies

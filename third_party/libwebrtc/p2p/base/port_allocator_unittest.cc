@@ -213,6 +213,12 @@ kTurnPassword
 test
 "
 ;
+constexpr
+uint64_t
+kTiebreakerDefault
+=
+44444
+;
 class
 PortAllocatorTest
 :
@@ -310,6 +316,14 @@ get
 )
 )
 {
+allocator_
+-
+>
+SetIceTiebreaker
+(
+kTiebreakerDefault
+)
+;
 }
 protected
 :
