@@ -8230,9 +8230,10 @@ nsSize
 containerSize
 =
 aContainerSize
-.
-valueOr
-(
+?
+*
+aContainerSize
+:
 aReflowInput
 .
 AvailableSize
@@ -8243,7 +8244,6 @@ wm
 GetPhysicalSize
 (
 wm
-)
 )
 ;
 LogicalRect
