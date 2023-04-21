@@ -338,7 +338,7 @@ ROLE_MENUITEM
 ;
 }
 function
-isEventForTipButton
+isEventForResultButton
 (
 event
 )
@@ -2814,7 +2814,7 @@ focused
 waitForEvent
 (
 EVENT_FOCUS
-isEventForTipButton
+isEventForResultButton
 )
 ;
 EventUtils
@@ -2877,7 +2877,7 @@ focused
 waitForEvent
 (
 EVENT_FOCUS
-isEventForTipButton
+isEventForResultButton
 )
 ;
 EventUtils
@@ -2968,7 +2968,7 @@ focused
 waitForEvent
 (
 EVENT_FOCUS
-isEventForTipButton
+isEventForResultButton
 )
 ;
 EventUtils
