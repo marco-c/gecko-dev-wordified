@@ -88,7 +88,9 @@ tree
 #
 include
 "
-common_video
+video
+/
+render
 /
 video_render_frames
 .
