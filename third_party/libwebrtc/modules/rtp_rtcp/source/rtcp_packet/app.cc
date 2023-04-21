@@ -1042,6 +1042,16 @@ index
 name_
 )
 ;
+if
+(
+!
+data_
+.
+empty
+(
+)
+)
+{
 memcpy
 (
 &
@@ -1064,6 +1074,7 @@ size
 )
 )
 ;
+}
 *
 index
 +

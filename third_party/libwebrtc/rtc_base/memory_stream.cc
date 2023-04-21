@@ -710,6 +710,19 @@ size
 ]
 )
 {
+if
+(
+buffer_
+!
+=
+nullptr
+&
+&
+data_length_
+>
+0
+)
+{
 memcpy
 (
 new_buffer
@@ -717,6 +730,7 @@ buffer_
 data_length_
 )
 ;
+}
 delete
 [
 ]
