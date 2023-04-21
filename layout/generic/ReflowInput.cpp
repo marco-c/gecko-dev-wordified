@@ -10442,7 +10442,7 @@ CalculateBorderPaddingMargin
 eLogicalAxisBlock
 blockContentSize
 .
-BSize
+ISize
 (
 wm
 )
