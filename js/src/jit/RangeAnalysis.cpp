@@ -20214,8 +20214,7 @@ needTruncation
 )
 const
 {
-if
-(
+return
 type
 (
 )
@@ -20236,14 +20235,6 @@ MIRType
 :
 :
 Int32
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 void
