@@ -1581,7 +1581,7 @@ removeCalls
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 url

@@ -518,7 +518,7 @@ going
 back
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aBrowser
 "
@@ -914,7 +914,7 @@ going
 back
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aBrowser
 "

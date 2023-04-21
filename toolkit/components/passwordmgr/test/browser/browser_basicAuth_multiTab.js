@@ -382,7 +382,7 @@ toString
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

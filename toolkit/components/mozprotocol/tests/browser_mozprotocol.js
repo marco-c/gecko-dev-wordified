@@ -102,7 +102,7 @@ function
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 "

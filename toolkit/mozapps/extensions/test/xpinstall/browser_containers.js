@@ -458,7 +458,7 @@ connect
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TESTROOT

@@ -297,7 +297,7 @@ browser
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL

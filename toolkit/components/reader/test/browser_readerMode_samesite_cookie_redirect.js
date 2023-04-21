@@ -271,7 +271,7 @@ AboutReaderContentReady
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -204,7 +204,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

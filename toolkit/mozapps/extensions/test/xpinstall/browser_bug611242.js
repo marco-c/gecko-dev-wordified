@@ -192,7 +192,7 @@ function
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TESTROOT2

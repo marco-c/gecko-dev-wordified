@@ -194,7 +194,7 @@ aCallback
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aWin
 .

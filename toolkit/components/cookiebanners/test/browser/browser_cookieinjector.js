@@ -321,7 +321,7 @@ urls
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1640,7 +1640,7 @@ blank
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1882,7 +1882,7 @@ userContextId
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2755,7 +2755,7 @@ blank
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2857,7 +2857,7 @@ true
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

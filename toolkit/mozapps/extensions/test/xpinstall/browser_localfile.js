@@ -234,7 +234,7 @@ then
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 xpipath

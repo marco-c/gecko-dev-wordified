@@ -163,7 +163,7 @@ HISTORY
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aBrowser
 url

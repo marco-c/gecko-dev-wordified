@@ -291,7 +291,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TESTROOT

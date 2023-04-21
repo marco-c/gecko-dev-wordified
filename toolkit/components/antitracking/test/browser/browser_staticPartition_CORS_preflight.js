@@ -615,7 +615,7 @@ principal
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

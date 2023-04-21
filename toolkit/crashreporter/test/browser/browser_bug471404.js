@@ -290,7 +290,7 @@ crD
 }
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

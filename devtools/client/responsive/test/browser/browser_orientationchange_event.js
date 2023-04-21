@@ -552,7 +552,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL_ROOT_ORG_SSL

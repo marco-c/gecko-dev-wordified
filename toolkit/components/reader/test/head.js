@@ -325,7 +325,7 @@ url
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

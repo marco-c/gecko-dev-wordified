@@ -316,7 +316,7 @@ resolve
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

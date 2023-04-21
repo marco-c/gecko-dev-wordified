@@ -2043,7 +2043,7 @@ targets
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

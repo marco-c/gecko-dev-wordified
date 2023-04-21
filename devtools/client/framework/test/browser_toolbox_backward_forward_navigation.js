@@ -398,7 +398,7 @@ TEST_URI_ORG
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TEST_URI_ORG
@@ -432,7 +432,7 @@ TEST_URI_COM
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TEST_URI_COM

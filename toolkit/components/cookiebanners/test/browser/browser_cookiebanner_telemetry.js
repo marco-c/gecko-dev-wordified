@@ -606,7 +606,7 @@ testInTop
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 page
@@ -617,7 +617,7 @@ else
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_ORIGIN_C
@@ -2641,7 +2641,7 @@ origin
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -3042,7 +3042,7 @@ rule
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

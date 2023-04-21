@@ -258,7 +258,7 @@ expectUncaughtException
 }
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TESTROOT

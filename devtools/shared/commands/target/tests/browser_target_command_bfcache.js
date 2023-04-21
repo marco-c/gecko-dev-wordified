@@ -750,7 +750,7 @@ secondPageUrl
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -2353,7 +2353,7 @@ secondPageUrl
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

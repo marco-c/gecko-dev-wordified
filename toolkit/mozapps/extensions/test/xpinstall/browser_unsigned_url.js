@@ -199,7 +199,7 @@ then
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TESTROOT

@@ -636,7 +636,7 @@ task
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

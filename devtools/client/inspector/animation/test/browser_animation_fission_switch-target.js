@@ -523,7 +523,7 @@ updated
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri

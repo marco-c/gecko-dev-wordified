@@ -441,7 +441,7 @@ fission
 }
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 aboutReaderURL

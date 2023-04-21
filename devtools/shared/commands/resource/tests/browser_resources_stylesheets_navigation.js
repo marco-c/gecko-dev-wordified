@@ -1502,7 +1502,7 @@ linkedBrowser
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
