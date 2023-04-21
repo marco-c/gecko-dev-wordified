@@ -2172,7 +2172,7 @@ HIRect
 inBoxRect
 ControlParams
 aControlParams
-NSCellStateValue
+NSControlStateValue
 aState
 )
 ;
