@@ -5228,6 +5228,12 @@ read_path_whitelist
 rdonly
 )
 ;
+#
+if
+defined
+(
+MOZ_CONTENT_TEMP_DIR
+)
 /
 /
 Add
@@ -5302,6 +5308,8 @@ get
 ;
 }
 }
+#
+endif
 /
 /
 userContent

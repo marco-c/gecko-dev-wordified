@@ -873,7 +873,7 @@ aLocal
 if
 defined
 (
-MOZ_SANDBOX
+MOZ_CONTENT_TEMP_DIR
 )
 /
 /
@@ -985,7 +985,7 @@ false
 if
 defined
 (
-MOZ_SANDBOX
+MOZ_CONTENT_TEMP_DIR
 )
 nsCOMPtr
 <
