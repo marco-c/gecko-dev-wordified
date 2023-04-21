@@ -3885,7 +3885,7 @@ bug
 prefs
 [
 "
-marionette
+remote
 .
 log
 .

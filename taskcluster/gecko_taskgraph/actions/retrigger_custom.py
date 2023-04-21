@@ -480,7 +480,7 @@ default
 :
 {
 "
-marionette
+remote
 .
 log
 .
