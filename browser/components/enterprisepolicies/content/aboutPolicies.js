@@ -1852,6 +1852,11 @@ DisableMasterPasswordCreation
 "
 DisablePrimaryPasswordCreation
 "
+DisablePocket
+:
+"
+DisablePocket2
+"
 DisableSetDesktopBackground
 :
 "
