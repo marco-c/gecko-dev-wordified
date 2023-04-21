@@ -1698,7 +1698,13 @@ WhenFound
 .
 Wait
 (
-10000
+TimeDelta
+:
+:
+Seconds
+(
+10
+)
 )
 )
 ;
