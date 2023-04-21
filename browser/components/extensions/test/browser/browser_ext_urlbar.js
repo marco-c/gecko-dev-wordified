@@ -3400,6 +3400,12 @@ onEngagement
 (
 )
 {
+gURLBar
+.
+blur
+(
+)
+;
 /
 /
 Enable

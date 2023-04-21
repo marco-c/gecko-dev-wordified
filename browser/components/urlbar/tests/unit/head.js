@@ -966,6 +966,15 @@ context
 results
 ;
 }
+controller
+:
+{
+removeResult
+(
+)
+{
+}
+}
 }
 ;
 UrlbarTokenizer
