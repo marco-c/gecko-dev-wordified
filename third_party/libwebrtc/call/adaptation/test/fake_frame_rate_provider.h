@@ -178,12 +178,7 @@ MOCK_METHOD
 void
 OnEncoderImplementationChanged
 (
-const
-std
-:
-:
-string
-&
+EncoderImplementation
 )
 (
 override

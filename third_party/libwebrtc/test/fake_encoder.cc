@@ -1756,6 +1756,12 @@ implementation_name
 =
 kImplementationName
 ;
+info
+.
+is_hardware_accelerated
+=
+true
+;
 MutexLock
 lock
 (

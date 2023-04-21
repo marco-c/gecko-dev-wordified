@@ -404,13 +404,8 @@ override
 void
 OnEncoderImplementationChanged
 (
-const
-std
-:
-:
-string
-&
-implementation_name
+EncoderImplementation
+implementation
 )
 override
 ;

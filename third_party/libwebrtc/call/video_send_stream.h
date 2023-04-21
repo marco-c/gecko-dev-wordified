@@ -1071,6 +1071,15 @@ huge_frames_sent
 =
 0
 ;
+absl
+:
+:
+optional
+<
+bool
+>
+power_efficient_encoder
+;
 }
 ;
 struct
