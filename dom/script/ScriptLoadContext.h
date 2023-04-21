@@ -1210,6 +1210,9 @@ mRunnable
 uint32_t
 mLineNo
 ;
+uint32_t
+mColumnNo
+;
 /
 /
 Set
