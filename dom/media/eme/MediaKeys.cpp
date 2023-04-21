@@ -4449,7 +4449,7 @@ NS_ConvertUTF8toUTF16
 (
 topLevelOrigin
 )
-KeySystemToGMPName
+KeySystemToProxyName
 (
 mKeySystem
 )

@@ -577,7 +577,7 @@ aBufferOrView
 )
 ;
 nsString
-KeySystemToGMPName
+KeySystemToProxyName
 (
 const
 nsAString
