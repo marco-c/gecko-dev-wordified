@@ -3333,7 +3333,7 @@ TimeDelta
 :
 Micros
 (
-100
+200
 )
 ;
 ScopedKeyValueConfig
@@ -3348,7 +3348,7 @@ ProbingBehavior
 /
 min_probe_delta
 :
-100us
+200us
 /
 "
 )
@@ -3617,8 +3617,7 @@ between
 /
 probes
 is
-2x
-100us
+200us
 meaning
 4
 times
@@ -3800,8 +3799,6 @@ const
 DataSize
 kMinProbeSize
 =
-2
-*
 kMinProbeDelta
 *
 kProbingRate
