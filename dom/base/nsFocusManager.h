@@ -2637,6 +2637,8 @@ bool
 aIsLeavingDocument
 bool
 aAdjustWidget
+bool
+aRemainActive
 uint64_t
 aActionId
 mozilla
@@ -2717,6 +2719,8 @@ bool
 aIsLeavingDocument
 bool
 aAdjustWidget
+bool
+aRemainActive
 mozilla
 :
 :
