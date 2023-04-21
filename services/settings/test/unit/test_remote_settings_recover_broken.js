@@ -32,7 +32,7 @@ SyncHistory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -45,7 +45,9 @@ settings
 /
 SyncHistory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -56,7 +58,7 @@ RemoteSettingsClient
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -69,7 +71,9 @@ settings
 /
 RemoteSettingsClient
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -80,7 +84,7 @@ RemoteSettings
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -95,7 +99,9 @@ remote
 -
 settings
 .
-js
+sys
+.
+mjs
 "
 )
 ;
