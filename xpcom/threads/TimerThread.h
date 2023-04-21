@@ -535,10 +535,6 @@ final
 public
 nsTimerImplHolder
 {
-const
-TimeStamp
-mTimeout
-;
 public
 :
 /
@@ -733,7 +729,9 @@ aLeft
 mTimeout
 ;
 }
+const
 TimeStamp
+&
 Timeout
 (
 )
@@ -743,6 +741,11 @@ return
 mTimeout
 ;
 }
+private
+:
+TimeStamp
+mTimeout
+;
 }
 ;
 nsTArray
