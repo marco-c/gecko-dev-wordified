@@ -65,7 +65,7 @@ pktApi
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -78,7 +78,9 @@ content
 /
 pktApi
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
