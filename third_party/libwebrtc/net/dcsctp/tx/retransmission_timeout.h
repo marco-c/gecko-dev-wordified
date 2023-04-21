@@ -372,8 +372,6 @@ by
 kRttShift
 int32_t
 scaled_srtt_
-=
-0
 ;
 /
 /
