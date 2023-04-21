@@ -1454,6 +1454,10 @@ freeAll
 )
 ;
 }
+last_
+=
+nullptr
+;
 }
 template
 struct
