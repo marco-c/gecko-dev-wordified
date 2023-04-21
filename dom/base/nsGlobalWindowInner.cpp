@@ -1742,17 +1742,6 @@ mozilla
 /
 dom
 /
-WakeLock
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WebIDLGlobalNameHash
 .
 h
