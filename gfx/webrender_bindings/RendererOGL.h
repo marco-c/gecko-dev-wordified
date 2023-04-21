@@ -355,6 +355,13 @@ GetExternalImageHandler
 (
 )
 ;
+void
+SetFramePublishId
+(
+FramePublishId
+aPublishId
+)
+;
 /
 /
 /
