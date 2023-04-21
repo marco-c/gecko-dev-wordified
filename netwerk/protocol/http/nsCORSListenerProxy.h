@@ -675,6 +675,11 @@ promise
 bool
 mHasBeenCrossSite
 ;
+bool
+mIsRedirect
+=
+false
+;
 /
 /
 Under
