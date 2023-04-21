@@ -4133,6 +4133,15 @@ StyleFontFaceSourceTechFlags
 aFlag
 )
 ;
+bool
+Gecko_IsKnownIconFontFamily
+(
+const
+nsAtom
+*
+aFamilyName
+)
+;
 /
 /
 Returns
