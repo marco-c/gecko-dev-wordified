@@ -336,7 +336,7 @@ aAlert
 )
 ;
 void
-OnWriteBitmapFinished
+OnWriteImageFinished
 (
 nsresult
 rv
@@ -681,7 +681,7 @@ aRequest
 )
 ;
 nsresult
-OnWriteBitmapSuccess
+OnWriteImageSuccess
 (
 )
 ;
