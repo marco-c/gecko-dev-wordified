@@ -11384,7 +11384,7 @@ aPtr
 {
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 if
 (
 !
@@ -11405,7 +11405,7 @@ avert
 OOM
 .
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mAllocatedPointers
@@ -11515,7 +11515,7 @@ aPtr
 {
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 if
 (
 !
@@ -11536,7 +11536,7 @@ avert
 OOM
 .
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mAllocatedPointers
 -
@@ -18087,7 +18087,7 @@ mReflowContinueTimer
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 /
 /
 We
@@ -18203,6 +18203,18 @@ void
 >
 >
 mAllocatedPointers
+{
+MakeUnique
+<
+nsTHashSet
+<
+void
+*
+>
+>
+(
+)
+}
 ;
 #
 endif
