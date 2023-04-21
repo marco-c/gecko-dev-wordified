@@ -4453,9 +4453,10 @@ return
 }
 ;
 if
+!
 element
 .
-is_in_native_anonymous_subtree
+matches_user_and_content_rules
 (
 )
 {
@@ -4470,7 +4471,10 @@ into
 the
 cache
 :
-NAC
+no
+tree
+rules
+:
 "
 )
 ;
@@ -5044,9 +5048,10 @@ None
 ;
 }
 if
+!
 target
 .
-is_in_native_anonymous_subtree
+matches_user_and_content_rules
 (
 )
 {
@@ -5062,7 +5067,8 @@ Cannot
 share
 style
 :
-NAC
+content
+rules
 "
 target
 .
@@ -5153,10 +5159,9 @@ ResolvedElementStyles
 debug_assert
 !
 (
-!
 target
 .
-is_in_native_anonymous_subtree
+matches_user_and_content_rules
 (
 )
 )
@@ -5629,7 +5634,7 @@ None
 if
 target
 .
-matches_user_and_author_rules
+matches_user_and_content_rules
 (
 )
 !
@@ -5638,7 +5643,7 @@ candidate
 .
 element
 .
-matches_user_and_author_rules
+matches_user_and_content_rules
 (
 )
 {

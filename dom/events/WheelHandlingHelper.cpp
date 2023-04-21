@@ -960,7 +960,7 @@ IsInNativeAnonymousSubtree
 content
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 :

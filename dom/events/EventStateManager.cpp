@@ -7503,7 +7503,7 @@ FromNodeOrNull
 focusedElement
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 )
@@ -12790,7 +12790,7 @@ FromNodeOrNull
 aContent
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 )
@@ -38864,7 +38864,7 @@ aTextControlElement
 mGestureDownFrameOwner
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 )

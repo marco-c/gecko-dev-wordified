@@ -863,6 +863,8 @@ Element
 specific
 flags
 enum
+:
+uint32_t
 {
 /
 /
