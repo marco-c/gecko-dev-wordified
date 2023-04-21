@@ -132,6 +132,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 LayoutDeviceIntRect
 from
 "
@@ -141,6 +144,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 LayoutDeviceIntPoint
 from
 "
@@ -150,6 +156,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 LayoutDeviceIntSize
 from
 "

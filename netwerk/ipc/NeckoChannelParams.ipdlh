@@ -231,6 +231,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+net
+:
+:
 RequestHeaderTuples
 from
 "
