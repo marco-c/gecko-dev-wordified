@@ -1461,7 +1461,7 @@ action
 _target
 .
 browser
-fromChrome
+forceForeground
 :
 false
 /
