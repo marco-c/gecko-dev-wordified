@@ -6697,9 +6697,29 @@ py
 "
 )
         
+#
+Dynamically
+set
+the
+log
+level
+based
+on
+the
+talos
+config
+for
+consistency
+        
+#
+throughout
+the
+test
+        
 mozlog_opts
 =
 [
+f
 "
 -
 -
@@ -6709,7 +6729,16 @@ tbpl
 -
 level
 =
-debug
+{
+self
+.
+config
+[
+'
+log_level
+'
+]
+}
 "
 ]
         
