@@ -4579,7 +4579,13 @@ uint8_t
 GetPlatformCMSOutputProfileData
 (
 )
+{
+return
+GetPrefCMSOutputProfileData
+(
+)
 ;
+}
 /
 *
 *
@@ -5284,6 +5290,8 @@ ContentDeviceData
 aData
 )
 ;
+public
+:
 /
 *
 *
@@ -5323,6 +5331,7 @@ error
 occurs
 *
 /
+static
 nsTArray
 <
 uint8_t
@@ -5331,6 +5340,8 @@ GetPrefCMSOutputProfileData
 (
 )
 ;
+protected
+:
 /
 *
 *
