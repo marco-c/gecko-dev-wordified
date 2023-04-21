@@ -194,6 +194,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h
