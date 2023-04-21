@@ -1768,6 +1768,7 @@ gBrowser
 .
 tabs
 ;
+await
 BrowserTestUtils
 .
 crashFrame
