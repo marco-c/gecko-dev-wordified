@@ -6728,7 +6728,7 @@ only
 string
 should
 be
-interpreted
+interpretted
 as
 two
 empty
@@ -6817,7 +6817,7 @@ bogus
 spec
 should
 be
-interpreted
+interpretted
 as
 containing
 one
@@ -6912,7 +6912,7 @@ bogus
 spec
 should
 be
-interpreted
+interpretted
 as
 containing
 one
