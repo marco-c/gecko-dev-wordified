@@ -2657,8 +2657,6 @@ txn
 set_display_list
 (
 current_epoch
-None
-layout_size
 root_builder
 .
 end
@@ -2864,8 +2862,6 @@ txn
 set_display_list
 (
 current_epoch
-None
-layout_size
 root_builder
 .
 end

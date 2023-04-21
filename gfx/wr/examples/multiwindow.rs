@@ -1718,8 +1718,6 @@ set_display_list
 self
 .
 epoch
-None
-layout_size
 builder
 .
 end
