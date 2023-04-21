@@ -5124,7 +5124,7 @@ SQLITE_TOOBIG
 AccumulateCategoricalKeyed
 (
 histogramKey
-LABELS_SQLITE_STORE_OPEN
+LABELS_SQLITE_STORE_QUERY
 :
 :
 diskspace
@@ -5147,7 +5147,7 @@ SQLITE_MISUSE
 AccumulateCategoricalKeyed
 (
 histogramKey
-LABELS_SQLITE_STORE_OPEN
+LABELS_SQLITE_STORE_QUERY
 :
 :
 misuse
@@ -5161,7 +5161,7 @@ SQLITE_BUSY
 AccumulateCategoricalKeyed
 (
 histogramKey
-LABELS_SQLITE_STORE_OPEN
+LABELS_SQLITE_STORE_QUERY
 :
 :
 busy
