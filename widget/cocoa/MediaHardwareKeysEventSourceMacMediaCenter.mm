@@ -1073,4 +1073,12 @@ nowPlayingInfo
 ;
 }
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla

@@ -244,4 +244,4 @@ NS_ERROR_FAILURE
 /
 /
 namespace
-Mozilla
+mozilla

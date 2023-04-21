@@ -691,4 +691,12 @@ AXTextSelectionGranularityAll
 }
 ;
 }
+/
+/
+namespace
+a11y
 }
+/
+/
+namespace
+mozilla

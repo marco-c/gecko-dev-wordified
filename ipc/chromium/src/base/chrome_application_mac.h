@@ -379,6 +379,7 @@ ScopedSendingEvent
 }
 /
 /
+namespace
 chrome_application_mac
 #
 endif

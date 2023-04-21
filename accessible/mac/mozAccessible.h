@@ -306,10 +306,12 @@ GetWrapper
 }
 /
 /
+namespace
 a11y
 }
 /
 /
+namespace
 mozilla
 interface
 mozAccessible

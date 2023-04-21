@@ -214,6 +214,10 @@ aException
 }
 /
 /
+namespace
+mozilla
+/
+/
 For
 wrapping
 blocks

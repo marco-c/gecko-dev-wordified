@@ -179,7 +179,15 @@ GfxInfo
 Init
 )
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 NS_DEFINE_NAMED_CID
 (
 NS_APPSHELL_CID

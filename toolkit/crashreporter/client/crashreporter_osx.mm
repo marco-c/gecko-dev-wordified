@@ -173,6 +173,12 @@ using
 std
 :
 :
+ostringstream
+;
+using
+std
+:
+:
 string
 ;
 using
@@ -180,12 +186,6 @@ std
 :
 :
 vector
-;
-using
-std
-:
-:
-ostringstream
 ;
 using
 namespace

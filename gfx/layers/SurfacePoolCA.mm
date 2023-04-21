@@ -191,12 +191,6 @@ using
 gfx
 :
 :
-IntSize
-;
-using
-gfx
-:
-:
 IntRect
 ;
 using
@@ -204,6 +198,12 @@ gfx
 :
 :
 IntRegion
+;
+using
+gfx
+:
+:
+IntSize
 ;
 using
 gl

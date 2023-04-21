@@ -154,6 +154,6 @@ aTo
 /
 /
 namespace
-Mozilla
+mozilla
 #
 endif
