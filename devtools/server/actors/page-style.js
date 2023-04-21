@@ -4423,7 +4423,7 @@ matches
 (
 "
 :
-fullscreen
+modal
 "
 )
 ;
