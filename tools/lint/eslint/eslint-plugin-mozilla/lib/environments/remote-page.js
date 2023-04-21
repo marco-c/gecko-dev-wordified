@@ -162,6 +162,9 @@ false
 RPMGetTRRDomain
 :
 false
+RPMIsSiteSpecificTRRError
+:
+false
 }
 }
 ;
