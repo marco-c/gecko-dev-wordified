@@ -171,7 +171,7 @@ nsIFilePicker
 Mode
 :
 :
-modeGetFolder
+modeOpenMultiple
 >
 {
 }
