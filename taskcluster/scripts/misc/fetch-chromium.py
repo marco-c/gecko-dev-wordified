@@ -481,7 +481,7 @@ retriable
 (
 attempts
 =
-5
+7
 sleeptime
 =
 5
@@ -643,7 +643,7 @@ retriable
 (
 attempts
 =
-5
+7
 sleeptime
 =
 5
@@ -870,6 +870,11 @@ s
 download_platform
 revision
 )
+)
+    
+log
+(
+download_url
 )
     
 fetch_file
