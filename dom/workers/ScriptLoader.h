@@ -2299,6 +2299,14 @@ GetLoadingList
 (
 )
 ;
+nsContentPolicyType
+GetContentPolicyType
+(
+ScriptLoadRequest
+*
+aRequest
+)
+;
 bool
 EvaluateScript
 (

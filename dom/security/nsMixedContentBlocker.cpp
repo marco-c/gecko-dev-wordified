@@ -2961,6 +2961,15 @@ internalContentType
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_WORKER_STATIC_MODULE
+|
+|
+internalContentType
+=
+=
+nsIContentPolicy
+:
+:
 TYPE_INTERNAL_SHARED_WORKER
 |
 |
