@@ -21951,15 +21951,3 @@ mfma
 "
 ]
 )
-set_config
-(
-"
-AVX2_FLAGS
-"
-[
-"
--
-mavx2
-"
-]
-)
