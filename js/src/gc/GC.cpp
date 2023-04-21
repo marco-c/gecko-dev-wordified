@@ -3557,6 +3557,13 @@ mutexid
 :
 GCLock
 )
+delayedMarkingLock
+(
+mutexid
+:
+:
+GCDelayedMarkingLock
+)
 allocTask
 (
 this
