@@ -975,6 +975,15 @@ works
 .
 #
 if
+!
+defined
+(
+MOZ_PROFILING
+)
+&
+&
+\
+(
 defined
 (
 __x86_64__
@@ -998,6 +1007,7 @@ __clang__
 defined
 (
 _MSC_VER
+)
 )
 /
 /
@@ -1281,6 +1291,15 @@ HAS_ARGBATTENUATEROW_AVX2
 endif
 #
 if
+!
+defined
+(
+MOZ_PROFILING
+)
+&
+&
+\
+(
 defined
 (
 __x86_64__
@@ -1304,6 +1323,7 @@ __clang__
 defined
 (
 _MSC_VER
+)
 )
 /
 /
