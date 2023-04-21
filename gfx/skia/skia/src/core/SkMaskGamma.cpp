@@ -73,6 +73,8 @@ include
 /
 private
 /
+base
+/
 SkFloatingPoint
 .
 h
@@ -83,6 +85,8 @@ include
 include
 /
 private
+/
+base
 /
 SkTo
 .

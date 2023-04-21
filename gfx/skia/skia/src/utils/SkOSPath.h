@@ -75,8 +75,8 @@ public
 #
 ifdef
 _WIN32
-const
 static
+constexpr
 char
 SEPARATOR
 =
@@ -87,8 +87,8 @@ SEPARATOR
 ;
 #
 else
-const
 static
+constexpr
 char
 SEPARATOR
 =

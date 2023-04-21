@@ -90,6 +90,8 @@ include
 /
 private
 /
+base
+/
 SkNoncopyable
 .
 h
@@ -1284,9 +1286,10 @@ MAX_LUM_BITS
 bool
 fIsLinear
 ;
-typedef
-SkRefCnt
+using
 INHERITED
+=
+SkRefCnt
 ;
 }
 ;

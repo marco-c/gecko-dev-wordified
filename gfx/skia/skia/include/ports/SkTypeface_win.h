@@ -403,12 +403,12 @@ IDWriteFactory
 *
 factory
 =
-NULL
+nullptr
 IDWriteFontCollection
 *
 collection
 =
-NULL
+nullptr
 )
 ;
 SK_API

@@ -274,5 +274,9 @@ data
 )
 ;
 }
+/
+/
+namespace
+SkMallocPixelRef
 #
 endif
