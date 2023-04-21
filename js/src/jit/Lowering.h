@@ -515,7 +515,7 @@ LAllocation
 input
 )
 ;
-void
+bool
 definePhis
 (
 )
