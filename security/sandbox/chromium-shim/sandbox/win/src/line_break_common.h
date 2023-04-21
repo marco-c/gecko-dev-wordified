@@ -139,12 +139,6 @@ defined
 (
 ENABLE_TESTS
 )
-&
-&
-defined
-(
-MOZ_DEBUG
-)
 /
 /
 Set
