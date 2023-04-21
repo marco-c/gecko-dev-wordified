@@ -3737,6 +3737,10 @@ if
 (
 !
 mMenuBar
+|
+|
+!
+mMenuBar
 -
 >
 GetPrimaryFrame
