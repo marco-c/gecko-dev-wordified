@@ -2020,6 +2020,13 @@ TRANSACTION_RESTART_REASON
 aReason
 )
 ;
+bool
+HandleWebTransportResponse
+(
+uint16_t
+aStatus
+)
+;
 private
 :
 class
