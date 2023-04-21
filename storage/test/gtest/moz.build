@@ -90,6 +90,11 @@ UNIFIED_SOURCES
 =
 [
 "
+storage_test_harness
+.
+cpp
+"
+"
 test_AsXXX_helpers
 .
 cpp
@@ -241,6 +246,3 @@ xul
 -
 gtest
 "
-REQUIRES_UNIFIED_BUILD
-=
-True

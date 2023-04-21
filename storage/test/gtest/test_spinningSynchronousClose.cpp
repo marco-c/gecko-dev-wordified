@@ -126,6 +126,10 @@ prinrval
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 *
 *
