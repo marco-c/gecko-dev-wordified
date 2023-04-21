@@ -4669,16 +4669,10 @@ nonzero
 )
 ;
 }
-And
+Uxtw
 (
 dest64
 dest64
-Operand
-(
-0xffff
-'
-ffff
-)
 )
 ;
 }
