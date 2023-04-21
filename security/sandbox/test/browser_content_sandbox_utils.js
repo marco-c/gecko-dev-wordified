@@ -1885,7 +1885,7 @@ let
 contentTempKey
 =
 "
-ContentTmpD
+TmpD
 "
 ;
 /
@@ -1924,8 +1924,7 @@ exists
 (
 )
 "
-Content
-temp
+Temp
 dir
 exists
 "
@@ -1941,8 +1940,7 @@ isDirectory
 (
 )
 "
-Content
-temp
+Temp
 dir
 is
 a
