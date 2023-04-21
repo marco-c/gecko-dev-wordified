@@ -1700,7 +1700,7 @@ aPlaintextLength
 ;
 SECItem
 *
-ct
+chCt
 =
 nullptr
 ;
@@ -1715,7 +1715,7 @@ aad_si
 &
 plaintext_si
 &
-ct
+chCt
 )
 ;
 if
@@ -1730,6 +1730,12 @@ return
 false
 ;
 }
+UniqueSECItem
+ct
+(
+chCt
+)
+;
 aOutputShare
 -
 >
