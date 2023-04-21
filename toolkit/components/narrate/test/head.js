@@ -471,7 +471,9 @@ test
 /
 NarrateTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
