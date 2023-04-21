@@ -2033,7 +2033,7 @@ return
 f
 -
 >
-IsForElement
+IsForImageLoadingContent
 (
 )
 ;

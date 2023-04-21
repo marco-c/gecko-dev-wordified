@@ -606,7 +606,7 @@ ShouldShowBrokenImageIcon
 const
 ;
 bool
-IsForElement
+IsForImageLoadingContent
 (
 )
 const
@@ -618,7 +618,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 ;
 }
 const
@@ -1080,7 +1080,7 @@ For
 an
 nsImageLoadingContent
 .
-ImageElement
+ImageLoadingContent
 /
 /
 For
@@ -1308,7 +1308,7 @@ aID
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 }
