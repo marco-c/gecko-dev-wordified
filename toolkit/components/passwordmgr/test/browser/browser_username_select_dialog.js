@@ -554,7 +554,7 @@ acceptDialog
 )
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1037,7 +1037,7 @@ cancelDialog
 )
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (

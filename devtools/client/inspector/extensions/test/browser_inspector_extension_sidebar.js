@@ -922,7 +922,7 @@ click
 )
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -960,7 +960,7 @@ expanded
 )
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1055,7 +1055,7 @@ defaultView
 )
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1144,7 +1144,7 @@ defaultView
 )
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1270,7 +1270,7 @@ evalResult
 )
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1396,7 +1396,7 @@ const
 numberEl
 =
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1607,7 +1607,7 @@ object
 element
 .
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
