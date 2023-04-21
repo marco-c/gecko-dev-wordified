@@ -138,6 +138,11 @@ nsIURLDecorationAnnotationsService
 idl
 "
 "
+nsIURLQueryStringStripper
+.
+idl
+"
+"
 nsIURLQueryStrippingListService
 .
 idl
