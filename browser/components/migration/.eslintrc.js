@@ -269,6 +269,16 @@ overrides
 {
 files
 :
+[
+"
+tests
+/
+browser
+/
+head
+.
+js
+"
 "
 tests
 /
@@ -279,6 +289,7 @@ head
 .
 js
 "
+]
 rules
 :
 {
