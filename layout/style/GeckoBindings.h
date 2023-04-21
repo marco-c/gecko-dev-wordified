@@ -4313,7 +4313,7 @@ Document
 *
 )
 ;
-uint32_t
+int32_t
 Gecko_MediaFeatures_GetColorDepth
 (
 const
@@ -4327,7 +4327,7 @@ Document
 *
 )
 ;
-uint32_t
+int32_t
 Gecko_MediaFeatures_GetMonochromeBitsPerPixel
 (
 const

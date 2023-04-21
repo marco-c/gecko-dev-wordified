@@ -965,7 +965,7 @@ size
 height
 ;
 }
-uint32_t
+int32_t
 Gecko_MediaFeatures_GetMonochromeBitsPerPixel
 (
 const
@@ -1019,7 +1019,7 @@ so
 .
 static
 constexpr
-uint32_t
+int32_t
 kDefaultMonochromeBpp
 =
 8
@@ -1149,7 +1149,7 @@ return
 colorGamut
 ;
 }
-uint32_t
+int32_t
 Gecko_MediaFeatures_GetColorDepth
 (
 const
@@ -1209,7 +1209,7 @@ being
 /
 rendered
 .
-uint32_t
+int32_t
 depth
 =
 24
