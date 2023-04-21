@@ -170,6 +170,9 @@ bool
 honorPageRuleMargins
 ;
 bool
+usePageRuleSizeAsPaperSize
+;
+bool
 ignoreUnwriteableMargins
 ;
 bool

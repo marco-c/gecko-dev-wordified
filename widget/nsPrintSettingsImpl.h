@@ -725,6 +725,11 @@ mHonorPageRuleMargins
 true
 ;
 bool
+mUsePageRuleSizeAsPaperSize
+=
+false
+;
+bool
 mIgnoreUnwriteableMargins
 =
 false
