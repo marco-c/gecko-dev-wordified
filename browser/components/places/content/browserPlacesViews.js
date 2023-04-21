@@ -3278,9 +3278,9 @@ not
 showing
 them
 .
-observeHistoryDetails
+skipHistoryDetailsNotifications
 =
-false
+true
 ;
 nodeHistoryDetailsChanged
 (
