@@ -438,3 +438,6 @@ Werror
 format
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

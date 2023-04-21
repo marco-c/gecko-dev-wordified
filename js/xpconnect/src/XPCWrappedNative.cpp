@@ -138,13 +138,6 @@ h
 #
 include
 "
-XPCMaps
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h

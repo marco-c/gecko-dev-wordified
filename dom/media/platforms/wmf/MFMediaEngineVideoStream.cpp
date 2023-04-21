@@ -81,15 +81,6 @@ MFMediaEngineUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StaticPrefs_media
-.
-h
-"
 namespace
 mozilla
 {

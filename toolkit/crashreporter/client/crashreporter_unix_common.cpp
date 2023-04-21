@@ -71,15 +71,6 @@ algorithm
 #
 include
 <
-sys
-/
-wait
-.
-h
->
-#
-include
-<
 dirent
 .
 h

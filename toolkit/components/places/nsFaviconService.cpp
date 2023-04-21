@@ -312,13 +312,6 @@ h
 #
 include
 "
-nsIProtocolHandler
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h

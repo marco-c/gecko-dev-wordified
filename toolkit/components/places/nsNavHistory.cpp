@@ -236,13 +236,6 @@ h
 #
 include
 "
-mozIStorageValueArray
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

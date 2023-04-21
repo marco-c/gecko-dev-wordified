@@ -121,13 +121,6 @@ XPCSelfHostedShmem
 .
 h
 "
-#
-include
-"
-xpcprivate
-.
-h
-"
 /
 /
 static
