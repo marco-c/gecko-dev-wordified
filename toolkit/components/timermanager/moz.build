@@ -121,7 +121,9 @@ EXTRA_JS_MODULES
 "
 UpdateTimerManager
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

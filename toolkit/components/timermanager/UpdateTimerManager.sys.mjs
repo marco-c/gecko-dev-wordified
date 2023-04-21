@@ -56,15 +56,11 @@ MPL
 .
 *
 /
-const
+import
 {
 XPCOMUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -80,7 +76,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 PREF_APP_UPDATE_LASTUPDATETIME_FMT
@@ -285,6 +280,7 @@ months
 constructor
 *
 /
+export
 function
 TimerManager
 (
@@ -2607,13 +2603,4 @@ nsIUpdateTimerManager
 ]
 )
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TimerManager
-"
-]
 ;
