@@ -901,6 +901,11 @@ GetEnvForThread
 (
 )
 mSurface
+-
+>
+GetSurface
+(
+)
 .
 Get
 (
