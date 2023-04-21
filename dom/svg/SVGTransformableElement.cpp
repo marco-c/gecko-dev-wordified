@@ -323,7 +323,6 @@ map
 =
 {
 sColorMap
-sFillStrokeMap
 sGraphicsMap
 }
 ;
