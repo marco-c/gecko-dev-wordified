@@ -3237,6 +3237,10 @@ RawBuffer
 >
 &
 srcData
+bool
+unsynchronized
+=
+false
 )
 const
 {
@@ -3272,6 +3276,7 @@ begin
 get
 (
 )
+unsynchronized
 )
 ;
 }

@@ -8662,6 +8662,10 @@ uint8_t
 srcBytes
 size_t
 srcLen
+bool
+unsynchronized
+=
+false
 )
 ;
 void

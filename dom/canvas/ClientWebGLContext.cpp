@@ -20916,6 +20916,8 @@ uint8_t
 srcBytes
 size_t
 srcLen
+bool
+unsynchronized
 )
 {
 const
@@ -20948,6 +20950,7 @@ srcBytes
 srcLen
 }
 )
+unsynchronized
 )
 ;
 }
@@ -21025,6 +21028,12 @@ RawBuffer
 (
 range
 )
+/
+*
+unsynchronized
+*
+/
+false
 )
 ;
 }
@@ -21118,6 +21127,12 @@ RawBuffer
 (
 range
 )
+/
+*
+unsynchronized
+*
+/
+false
 )
 ;
 }
