@@ -163,7 +163,7 @@ namespace
 dom
 {
 class
-ArrayBufferViewOrArrayBufferOrBlobOrUSVStringOrWriteParams
+ArrayBufferViewOrArrayBufferOrBlobOrUTF8StringOrWriteParams
 ;
 class
 Blob
@@ -173,6 +173,9 @@ FileSystemManager
 ;
 class
 FileSystemWritableFileStreamChild
+;
+class
+OwningArrayBufferViewOrArrayBufferOrBlobOrUSVString
 ;
 class
 Promise
@@ -320,7 +323,7 @@ Promise
 Write
 (
 const
-ArrayBufferViewOrArrayBufferOrBlobOrUSVStringOrWriteParams
+ArrayBufferViewOrArrayBufferOrBlobOrUTF8StringOrWriteParams
 &
 aData
 ErrorResult
@@ -457,11 +460,8 @@ nsresult
 >
 WriteBuffer
 (
-Buffer
-<
-char
->
-&
+const
+nsACString
 &
 aBuffer
 const
