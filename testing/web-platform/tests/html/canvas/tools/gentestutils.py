@@ -300,36 +300,16 @@ from
 Git
 etc
 .
-from
-__future__
-import
-print_function
 import
 re
 import
 codecs
 import
-time
+importlib
 import
 os
 import
-shutil
-import
 sys
-import
-xml
-.
-dom
-.
-minidom
-from
-xml
-.
-dom
-.
-minidom
-import
-Node
 try
 :
     
@@ -337,6 +317,10 @@ import
 cairocffi
 as
 cairo
+#
+type
+:
+ignore
 except
 ImportError
 :
@@ -346,21 +330,68 @@ cairo
 try
 :
     
+#
+Compatible
+and
+lots
+faster
+.
+    
 import
 syck
 as
 yaml
 #
-compatible
-and
-lots
-faster
+type
+:
+ignore
 except
 ImportError
 :
     
 import
 yaml
+class
+Error
+(
+Exception
+)
+:
+    
+"
+"
+"
+Base
+class
+for
+all
+exceptions
+raised
+by
+this
+module
+"
+"
+"
+class
+InvalidTestDefinitionError
+(
+Error
+)
+:
+    
+"
+"
+"
+Raised
+on
+invalid
+test
+definition
+.
+"
+"
+"
 def
 genTestUtils
 (
@@ -384,12 +415,12 @@ output
 def
 simpleEscapeJS
 (
-str
+string
 )
 :
         
 return
-str
+string
 .
 replace
 (
@@ -420,19 +451,19 @@ replace
 def
 escapeJS
 (
-str
+string
 )
 :
         
-str
+string
 =
 simpleEscapeJS
 (
-str
+string
 )
         
 #
-kind
+Kind
 of
 an
 ugly
@@ -443,8 +474,9 @@ failure
 -
 message
 output
+.
         
-str
+string
 =
 re
 .
@@ -481,70 +513,11 @@ r
 "
 ]
 '
-str
+string
 )
         
 return
-str
-    
-def
-escapeHTML
-(
-str
-)
-:
-        
-return
-str
-.
-replace
-(
-'
-&
-'
-'
-&
-amp
-;
-'
-)
-.
-replace
-(
-'
-<
-'
-'
-&
-lt
-;
-'
-)
-.
-replace
-(
-            
-'
->
-'
-'
-&
-gt
-;
-'
-)
-.
-replace
-(
-'
-"
-'
-'
-&
-quot
-;
-'
-)
+string
     
 def
 expand_nonfinite
@@ -739,6 +712,7 @@ Infinity
 /
 NaN
 )
+.
         
 args
 =
@@ -757,7 +731,7 @@ split
 )
 :
             
-a
+match
 =
 re
 .
@@ -773,6 +747,44 @@ match
 '
 arg
 )
+            
+if
+match
+is
+None
+:
+                
+raise
+InvalidTestDefinitionError
+(
+                    
+f
+"
+Expected
+arg
+to
+match
+format
+'
+<
+(
+.
+*
+)
+>
+'
+but
+was
+:
+{
+arg
+}
+"
+)
+            
+a
+=
+match
 .
 group
 (
@@ -804,6 +816,7 @@ the
 valid
 argument
 list
+.
         
 call
 =
@@ -990,6 +1003,7 @@ depth
 >
 0
 :
+                        
 calls
 .
 append
@@ -1089,8 +1103,16 @@ test
 '
 :
         
-import
 doctest
+=
+importlib
+.
+import_module
+(
+'
+doctest
+'
+)
         
 doctest
 .
@@ -1414,113 +1436,6 @@ join
 backrefs
 )
     
-def
-make_flat_image
-(
-filename
-w
-h
-r
-g
-b
-a
-)
-:
-        
-if
-os
-.
-path
-.
-exists
-(
-'
-%
-s
-/
-%
-s
-'
-%
-(
-IMAGEOUTPUTDIR
-filename
-)
-)
-:
-            
-return
-filename
-        
-surface
-=
-cairo
-.
-ImageSurface
-(
-cairo
-.
-FORMAT_ARGB32
-w
-h
-)
-        
-cr
-=
-cairo
-.
-Context
-(
-surface
-)
-        
-cr
-.
-set_source_rgba
-(
-r
-g
-b
-a
-)
-        
-cr
-.
-rectangle
-(
-0
-0
-w
-h
-)
-        
-cr
-.
-fill
-(
-)
-        
-surface
-.
-write_to_png
-(
-'
-%
-s
-/
-%
-s
-'
-%
-(
-IMAGEOUTPUTDIR
-filename
-)
-)
-        
-return
-filename
-    
 #
 Ensure
 the
@@ -1528,6 +1443,7 @@ test
 output
 directories
 exist
+.
     
 testdirs
 =
@@ -1585,15 +1501,17 @@ d
 )
         
 except
+FileExistsError
 :
             
 pass
 #
-ignore
+Ignore
 if
 it
 already
 exists
+.
     
 used_images
 =
@@ -1683,6 +1601,9 @@ mapping
                   
 name
 )
+            
+return
+None
         
 if
 '
@@ -1771,13 +1692,14 @@ group
 code
 )
 #
-must
+Must
 come
 before
 '
 assert
 throws
 '
+.
         
 code
 =
@@ -2456,9 +2378,6 @@ ISOFFSCREENCANVAS
                 
 continue
             
-else
-:
-                
 mapped_name
 =
 name
@@ -2963,7 +2882,7 @@ height
 '
 )
         
-prev
+prev_test
 =
 tests
 [
@@ -2986,7 +2905,7 @@ else
 index
 '
         
-next
+next_test
 =
 tests
 [
@@ -3226,7 +3145,7 @@ images
 '
         
 for
-i
+src
 in
 test
 .
@@ -3240,9 +3159,9 @@ images
 )
 :
             
-id
+img_id
 =
-i
+src
 .
 split
 (
@@ -3261,17 +3180,17 @@ if
 '
 not
 in
-i
+src
 :
                 
 used_images
 [
-i
+src
 ]
 =
 1
                 
-i
+src
 =
 '
 .
@@ -3283,7 +3202,7 @@ images
 s
 '
 %
-i
+src
             
 images
 +
@@ -3314,12 +3233,13 @@ n
 '
 %
 (
-i
-id
+src
+                                                                     
+img_id
 )
         
 for
-i
+src
 in
 test
 .
@@ -3333,9 +3253,9 @@ svgimages
 )
 :
             
-id
+img_id
 =
-i
+src
 .
 split
 (
@@ -3354,17 +3274,17 @@ if
 '
 not
 in
-i
+src
 :
                 
 used_images
 [
-i
+src
 ]
 =
 1
                 
-i
+src
 =
 '
 .
@@ -3376,7 +3296,7 @@ images
 s
 '
 %
-i
+src
             
 images
 +
@@ -3420,8 +3340,8 @@ n
 '
 %
 (
-i
-id
+src
+img_id
 )
 )
         
@@ -3456,7 +3376,7 @@ fonthack
 '
         
 for
-i
+font
 in
 test
 .
@@ -3516,8 +3436,8 @@ n
 '
 %
 (
-i
-i
+font
+font
 )
 )
             
@@ -3533,6 +3453,7 @@ used
 in
 the
 page
+.
             
 if
 test
@@ -3584,7 +3505,7 @@ span
 n
 '
 %
-i
+font
 )
         
 if
@@ -3789,13 +3710,13 @@ escaped_desc
 prev
 '
 :
-prev
+prev_test
                 
 '
 next
 '
 :
-next
+next_test
                 
 '
 notes
