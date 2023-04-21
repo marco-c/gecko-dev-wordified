@@ -5537,15 +5537,24 @@ _binaryNames
 .
 setdefault
 (
+                        
+(
 member
 .
 identifier
 .
 name
+member
+.
+isStatic
+(
+)
+)
 binaryName
 [
 0
 ]
+                    
 )
             
 for
@@ -5620,9 +5629,12 @@ _binaryNames
 .
 setdefault
 (
+(
 "
 __legacycaller
 "
+False
+)
 "
 LegacyCall
 "
@@ -5634,9 +5646,12 @@ _binaryNames
 .
 setdefault
 (
+(
 "
 __stringifier
 "
+False
+)
 "
 Stringify
 "
@@ -5750,6 +5765,7 @@ binaryNameFor
 (
 self
 name
+isStatic
 )
 :
         
@@ -5760,7 +5776,10 @@ _binaryNames
 .
 get
 (
+(
 name
+isStatic
+)
 name
 )
     
