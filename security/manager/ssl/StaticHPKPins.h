@@ -2876,7 +2876,7 @@ twitter
 com
 "
 true
-false
+true
 false
 -
 1
@@ -3184,7 +3184,7 @@ twitter
 com
 "
 true
-false
+true
 false
 -
 1
@@ -3847,7 +3847,7 @@ twitter
 com
 "
 true
-false
+true
 false
 -
 1
@@ -8587,7 +8587,7 @@ twitter
 com
 "
 true
-false
+true
 false
 -
 1
@@ -8813,7 +8813,7 @@ twitter
 com
 "
 true
-false
+true
 false
 -
 1
@@ -9051,7 +9051,7 @@ twitter
 com
 "
 true
-false
+true
 false
 -
 1
@@ -9769,7 +9769,7 @@ twimg
 com
 "
 true
-false
+true
 false
 -
 1
@@ -9782,13 +9782,13 @@ twitter
 .
 com
 "
-true
 false
+true
 false
 -
 1
 &
-kPinset_twitterCDN
+kPinset_twitterCom
 }
 {
 "
@@ -10393,7 +10393,7 @@ twitter
 com
 "
 true
-false
+true
 false
 -
 1
