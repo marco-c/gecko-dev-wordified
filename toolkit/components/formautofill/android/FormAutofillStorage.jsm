@@ -1404,7 +1404,7 @@ otherwise
 /
 async
 *
-getDuplicateRecord
+getDuplicateRecords
 (
 record
 )
