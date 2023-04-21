@@ -55696,6 +55696,9 @@ value
 .
 if
 (
+source
+&
+&
 timeToRead
 )
 {
