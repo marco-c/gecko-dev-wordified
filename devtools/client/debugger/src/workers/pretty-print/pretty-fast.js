@@ -42,16 +42,6 @@ undef
 /
 /
 *
-eslint
--
-disable
-no
--
-shadow
-*
-/
-/
-*
 This
 Source
 Code
@@ -4714,7 +4704,7 @@ bufferColumn
 ;
 return
 function
-write
+innerWrite
 (
 str
 line
