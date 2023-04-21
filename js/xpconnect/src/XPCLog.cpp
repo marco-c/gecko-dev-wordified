@@ -158,6 +158,13 @@ h
 "
 #
 include
+"
+prlog
+.
+h
+"
+#
+include
 <
 string
 .
@@ -273,6 +280,9 @@ g_Spaces
 MOZ_LOG_TEST
 (
 g_LogMod
+mozilla
+:
+:
 LogLevel
 :
 :
@@ -432,6 +442,9 @@ CAN_RUN
 MOZ_LOG_TEST
 (
 g_LogMod
+mozilla
+:
+:
 LogLevel
 :
 :
