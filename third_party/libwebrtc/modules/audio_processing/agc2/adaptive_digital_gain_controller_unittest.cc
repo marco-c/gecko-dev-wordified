@@ -94,7 +94,7 @@ audio_processing
 /
 agc2
 /
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 .
 h
 "
@@ -316,7 +316,7 @@ Helper
 to
 create
 initialized
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 objects
 .
 struct
@@ -345,7 +345,7 @@ std
 :
 make_unique
 <
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 >
 (
 &
@@ -365,7 +365,7 @@ std
 :
 unique_ptr
 <
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 >
 gain_applier
 ;
@@ -421,7 +421,7 @@ adaptation
 is
 expected
 .
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -433,7 +433,7 @@ AdaptiveDigitalConfig
 config
 )
 {
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -493,7 +493,7 @@ info
 }
 TEST
 (
-GainController2AdaptiveGainApplier
+GainController2AdaptiveDigitalGainControllerTest
 GainApplierShouldNotCrash
 )
 {
@@ -566,7 +566,7 @@ applied
 .
 TEST
 (
-GainController2AdaptiveGainApplier
+GainController2AdaptiveDigitalGainControllerTest
 MaxGainApplied
 )
 {
@@ -607,7 +607,7 @@ sample_rate_hz
 kMono
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -718,7 +718,7 @@ max_gain_db
 }
 TEST
 (
-GainController2AdaptiveGainApplier
+GainController2AdaptiveDigitalGainControllerTest
 GainDoesNotChangeFast
 )
 {
@@ -819,7 +819,7 @@ kFrameLen10ms8kHz
 0f
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -932,7 +932,7 @@ kFrameLen10ms8kHz
 0f
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -1005,7 +1005,7 @@ current_gain_linear
 }
 TEST
 (
-GainController2AdaptiveGainApplier
+GainController2AdaptiveDigitalGainControllerTest
 GainIsRampedInAFrame
 )
 {
@@ -1042,7 +1042,7 @@ kFrameLen10ms48kHz
 0f
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -1175,7 +1175,7 @@ max_change_per_sample
 }
 TEST
 (
-GainController2AdaptiveGainApplier
+GainController2AdaptiveDigitalGainControllerTest
 NoiseLimitsGain
 )
 {
@@ -1267,7 +1267,7 @@ kFrameLen10ms48kHz
 0f
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -1384,7 +1384,7 @@ maximal_ratio
 }
 TEST
 (
-GainController2GainApplier
+GainController2AdaptiveDigitalGainControllerTest
 CanHandlePositiveSpeechLevels
 )
 {
@@ -1425,7 +1425,7 @@ kFrameLen10ms48kHz
 0f
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -1462,7 +1462,7 @@ float_frame_view
 }
 TEST
 (
-GainController2GainApplier
+GainController2AdaptiveDigitalGainControllerTest
 AudioLevelLimitsGain
 )
 {
@@ -1554,7 +1554,7 @@ kFrameLen10ms48kHz
 0f
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -1678,7 +1678,7 @@ maximal_ratio
 }
 }
 class
-AdaptiveDigitalGainApplierTest
+AdaptiveDigitalGainControllerParametrizedTest
 :
 public
 :
@@ -1709,7 +1709,7 @@ GetParam
 ;
 TEST_P
 (
-AdaptiveDigitalGainApplierTest
+AdaptiveDigitalGainControllerParametrizedTest
 DoNotIncreaseGainWithTooFewSpeechFrames
 )
 {
@@ -1753,7 +1753,7 @@ will
 be
 increased
 .
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -1875,7 +1875,7 @@ gain
 }
 TEST_P
 (
-AdaptiveDigitalGainApplierTest
+AdaptiveDigitalGainControllerParametrizedTest
 IncreaseGainWithEnoughSpeechFrames
 )
 {
@@ -1919,7 +1919,7 @@ will
 be
 increased
 .
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -2075,7 +2075,7 @@ prev_gain
 INSTANTIATE_TEST_SUITE_P
 (
 GainController2
-AdaptiveDigitalGainApplierTest
+AdaptiveDigitalGainControllerParametrizedTest
 :
 :
 testing
@@ -2107,7 +2107,7 @@ mode
 .
 TEST
 (
-GainController2GainApplier
+GainController2AdaptiveDigitalGainControllerTest
 DryRunDoesNotChangeInput
 )
 {
@@ -2145,7 +2145,7 @@ log
 speech
 level
 .
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -2294,7 +2294,7 @@ changes
 .
 TEST
 (
-GainController2GainApplier
+GainController2AdaptiveDigitalGainControllerTest
 DryRunHandlesSampleRateChange
 )
 {
@@ -2321,7 +2321,7 @@ sample_rate_hz
 kMono
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
@@ -2470,7 +2470,7 @@ changes
 .
 TEST
 (
-GainController2GainApplier
+GainController2AdaptiveDigitalGainControllerTest
 DryRunHandlesNumChannelsChange
 )
 {
@@ -2497,7 +2497,7 @@ sample_rate_hz
 kMono
 )
 ;
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 FrameInfo
