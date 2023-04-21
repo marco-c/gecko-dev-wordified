@@ -4782,9 +4782,6 @@ NS_NATIVE_WIDGET
 case
 NS_NATIVE_WIDGET
 :
-case
-NS_NATIVE_DISPLAY
-:
 retVal
 =
 [
