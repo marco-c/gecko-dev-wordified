@@ -7934,6 +7934,12 @@ ifFalse
 object
 superTypeDef
 subTypingDepth
+isSubTypeOf
+-
+>
+succeedOnNull
+(
+)
 subTypeDepth
 scratch
 )
