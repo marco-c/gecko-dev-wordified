@@ -3567,10 +3567,8 @@ is_finite
 (
 )
 .
-then
+then_some
 (
-|
-|
 Number
 :
 :
@@ -3627,10 +3625,8 @@ is_finite
 (
 )
 .
-then
+then_some
 (
-|
-|
 Number
 :
 :
