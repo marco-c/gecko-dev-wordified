@@ -223,6 +223,15 @@ ico
 ;
 }
 get
+enabled
+(
+)
+{
+return
+true
+;
+}
+get
 progressHeaderL10nID
 (
 )
