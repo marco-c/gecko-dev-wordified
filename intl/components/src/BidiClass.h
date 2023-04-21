@@ -62,6 +62,11 @@ intl_components_BidiClass_h_
 #
 define
 intl_components_BidiClass_h_
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 :
