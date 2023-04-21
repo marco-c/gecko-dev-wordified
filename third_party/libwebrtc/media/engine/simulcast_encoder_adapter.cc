@@ -618,12 +618,12 @@ webrtc
 :
 VideoCodec
 *
-inst
+codec_settings
 )
 {
 if
 (
-inst
+codec_settings
 =
 =
 nullptr
@@ -635,7 +635,7 @@ WEBRTC_VIDEO_CODEC_ERR_PARAMETER
 }
 if
 (
-inst
+codec_settings
 -
 >
 maxFramerate
@@ -658,7 +658,7 @@ unspecified
 maxBitRate
 if
 (
-inst
+codec_settings
 -
 >
 maxBitrate
@@ -666,12 +666,12 @@ maxBitrate
 0
 &
 &
-inst
+codec_settings
 -
 >
 startBitrate
 >
-inst
+codec_settings
 -
 >
 maxBitrate
@@ -683,7 +683,7 @@ WEBRTC_VIDEO_CODEC_ERR_PARAMETER
 }
 if
 (
-inst
+codec_settings
 -
 >
 width
@@ -692,7 +692,7 @@ width
 1
 |
 |
-inst
+codec_settings
 -
 >
 height
@@ -707,7 +707,7 @@ WEBRTC_VIDEO_CODEC_ERR_PARAMETER
 }
 if
 (
-inst
+codec_settings
 -
 >
 codecType
@@ -719,7 +719,7 @@ webrtc
 kVideoCodecVP8
 &
 &
-inst
+codec_settings
 -
 >
 VP8
@@ -732,7 +732,7 @@ automaticResizeOn
 CountActiveStreams
 (
 *
-inst
+codec_settings
 )
 >
 1
@@ -1841,7 +1841,7 @@ InitEncode
 const
 VideoCodec
 *
-inst
+codec_settings
 const
 VideoEncoder
 :
@@ -1875,7 +1875,7 @@ ret
 =
 VerifyCodec
 (
-inst
+codec_settings
 )
 ;
 if
@@ -1896,14 +1896,14 @@ Release
 codec_
 =
 *
-inst
+codec_settings
 ;
 total_streams_count_
 =
 CountAllStreams
 (
 *
-inst
+codec_settings
 )
 ;
 /
@@ -2132,7 +2132,7 @@ active_streams_count
 CountActiveStreams
 (
 *
-inst
+codec_settings
 )
 ;
 /

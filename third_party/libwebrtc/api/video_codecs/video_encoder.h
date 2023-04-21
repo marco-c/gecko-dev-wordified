@@ -1164,7 +1164,7 @@ video
 frame
 buffers
 .
-int
+uint32_t
 requested_resolution_alignment
 ;
 /

@@ -252,7 +252,7 @@ settings
 ;
 EXPECT_EQ
 (
-2
+2u
 settings
 .
 requested_resolution_alignment
@@ -322,7 +322,7 @@ settings
 ;
 EXPECT_EQ
 (
-3
+3u
 settings
 .
 requested_resolution_alignment
@@ -609,7 +609,7 @@ vp8_settings
 ;
 EXPECT_EQ
 (
-2
+2u
 vp8_settings
 .
 requested_resolution_alignment
@@ -622,7 +622,7 @@ vp9_settings
 ;
 EXPECT_EQ
 (
-3
+3u
 vp9_settings
 .
 requested_resolution_alignment
