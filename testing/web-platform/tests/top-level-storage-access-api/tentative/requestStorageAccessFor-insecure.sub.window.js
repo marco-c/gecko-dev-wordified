@@ -315,7 +315,7 @@ helpers
 function
 RunRequestStorageAccessForInDetachedFrame
 (
-site
+origin
 )
 {
 const
@@ -357,14 +357,14 @@ inner_doc
 .
 requestStorageAccessFor
 (
-site
+origin
 )
 ;
 }
 function
 RunRequestStorageAccessForViaDomParser
 (
-site
+origin
 )
 {
 const
@@ -403,7 +403,7 @@ doc
 .
 requestStorageAccessFor
 (
-site
+origin
 )
 ;
 }
