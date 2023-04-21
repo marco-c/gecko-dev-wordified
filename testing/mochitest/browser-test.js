@@ -709,7 +709,7 @@ getSystemPrincipal
 ;
 webNav
 .
-loadURI
+fixupAndLoadURIString
 (
 url
 loadURIOptions
