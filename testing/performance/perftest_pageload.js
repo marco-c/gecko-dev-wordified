@@ -188,13 +188,6 @@ module
 exports
 =
 {
-/
-/
-eslint
--
-disable
--
-line
 setUp
 tearDown
 test
