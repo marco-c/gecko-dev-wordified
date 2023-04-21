@@ -4586,17 +4586,12 @@ Length
 /
 /
 /
-A
-(
-non
--
-negative
-)
+An
 integer
 .
 Integer
 (
-u32
+i32
 )
 /
 /
@@ -4982,7 +4977,7 @@ length
 Length
 :
 :
-parse_non_negative
+parse
 (
 context
 input
@@ -5014,7 +5009,7 @@ integer
 Integer
 :
 :
-parse_non_negative
+parse
 (
 context
 input
@@ -5031,8 +5026,6 @@ integer
 value
 (
 )
-as
-u32
 )
 }
 Evaluator
