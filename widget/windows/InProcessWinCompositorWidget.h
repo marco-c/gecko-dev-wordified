@@ -469,7 +469,8 @@ HWND
 aParentWnd
 )
 override
-;
+{
+}
 void
 SetRootLayerTreeID
 (
