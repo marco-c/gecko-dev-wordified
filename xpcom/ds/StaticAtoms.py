@@ -25789,6 +25789,21 @@ ms
 "
 )
     
+Atom
+(
+"
+_moz_popover_enabled
+"
+"
+-
+moz
+-
+popover
+-
+enabled
+"
+)
+    
 #
 Contextual
 Identity
