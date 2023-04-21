@@ -210,7 +210,6 @@ view
 ;
 let
 {
-tab
 toolbox
 inspector
 highlighterTestFront
@@ -502,6 +501,15 @@ the
 toolbox
 "
 )
+;
+const
+tab
+=
+toolbox
+.
+target
+.
+localTab
 ;
 await
 toolbox

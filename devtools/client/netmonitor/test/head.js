@@ -3267,9 +3267,9 @@ tab
 =
 monitor
 .
-commands
+toolbox
 .
-descriptorFront
+target
 .
 localTab
 ;
