@@ -231,6 +231,7 @@ information
 async
 Update
 (
+nullable
 nsIDOMGeoPosition
 aPosition
 )

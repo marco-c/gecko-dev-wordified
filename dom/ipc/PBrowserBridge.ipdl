@@ -713,6 +713,7 @@ messaging
 async
 LoadURL
 (
+nullable
 nsDocShellLoadState
 aLoadState
 )
