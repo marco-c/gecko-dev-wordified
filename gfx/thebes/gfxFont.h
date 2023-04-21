@@ -16022,6 +16022,12 @@ nullptr
 mozilla
 :
 :
+LayoutDeviceRect
+clipRect
+;
+mozilla
+:
+:
 gfx
 :
 :
