@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_windows_h
+mozilla_shlwapi_h
 #
 define
-mozilla_windows_h
+mozilla_shlwapi_h
 /
 /
 Include
@@ -124,7 +124,7 @@ the
 "
 real
 "
-windows
+shlwapi
 .
 h
 header
@@ -153,7 +153,7 @@ system_header
 #
 include_next
 <
-windows
+shlwapi
 .
 h
 >
@@ -230,7 +230,7 @@ current
 context
 .
 Define
-MOZ_WRAPPED_WINDOWS_H
+MOZ_WRAPPED_SHLWAPI_H
 /
 /
 to
@@ -244,7 +244,7 @@ wrapping
 .
 #
 define
-MOZ_WRAPPED_WINDOWS_H
+MOZ_WRAPPED_SHLWAPI_H
 extern
 "
 C
@@ -277,17 +277,6 @@ C
 +
 "
 #
-undef
-GetCurrentTime
-/
-/
-Use
-GetTickCount
-(
-)
-instead
-.
-#
 endif
 /
 /
@@ -304,5 +293,5 @@ endif
 !
 defined
 (
-mozilla_windows_h
+mozilla_shlwapi_h
 )
