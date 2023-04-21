@@ -151,6 +151,8 @@ const
 nsACString
 &
 aScope
+bool
+aSendToParent
 )
 ;
 bool
@@ -184,6 +186,9 @@ Unregister
 ;
 bool
 mResult
+;
+bool
+mSendToParent
 ;
 }
 ;
