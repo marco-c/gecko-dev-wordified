@@ -7031,10 +7031,6 @@ mingwclang
 "
                 
 "
-nightlyasrelease
-"
-                
-"
 shippable
 "
                 
