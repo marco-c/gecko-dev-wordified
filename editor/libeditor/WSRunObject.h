@@ -8647,16 +8647,12 @@ delete
 *
 *
 *
-DeleteInvisibleASCIIWhiteSpaces
-(
-)
-removes
+Remove
 invisible
 leading
 white
 -
 spaces
-*
 and
 trailing
 white
@@ -8664,6 +8660,7 @@ white
 spaces
 if
 there
+*
 are
 around
 aPoint
@@ -8677,7 +8674,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
+CaretPoint
 nsresult
+>
 DeleteInvisibleASCIIWhiteSpaces
 (
 HTMLEditor
