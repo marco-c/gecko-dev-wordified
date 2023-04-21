@@ -462,14 +462,12 @@ undefined
 '
 '
 :
-'
 ?
 manifest_url
 =
 {
 manifest_url
 }
-'
 ;
 return
 new
@@ -495,7 +493,6 @@ img
 .
 src
 =
-'
 support
 /
 fedcm
@@ -503,11 +500,9 @@ fedcm
 select_manifest_in_root_manifest
 .
 py
-?
 {
 url_query
 }
-'
 ;
 img
 .
