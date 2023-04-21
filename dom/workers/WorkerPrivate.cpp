@@ -12241,6 +12241,8 @@ bool
 aIsChromeWorker
 WorkerKind
 aWorkerKind
+RequestCredentials
+aRequestCredentials
 enum
 WorkerType
 aWorkerType
@@ -12297,6 +12299,10 @@ aScriptURL
 mWorkerName
 (
 aWorkerName
+)
+mCredentialsMode
+(
+aRequestCredentials
 )
 mWorkerType
 (
@@ -13732,6 +13738,10 @@ aCx
 aScriptURL
 aIsChromeWorker
 aWorkerKind
+RequestCredentials
+:
+:
+Omit
 WorkerType
 :
 :
@@ -13773,6 +13783,8 @@ bool
 aIsChromeWorker
 WorkerKind
 aWorkerKind
+RequestCredentials
+aRequestCredentials
 enum
 WorkerType
 aWorkerType
@@ -14114,6 +14126,7 @@ parent
 aScriptURL
 aIsChromeWorker
 aWorkerKind
+aRequestCredentials
 aWorkerType
 aWorkerName
 aServiceWorkerScope
