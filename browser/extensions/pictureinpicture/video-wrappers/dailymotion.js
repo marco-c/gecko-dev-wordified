@@ -78,8 +78,8 @@ document
 querySelector
 (
 "
-.
-dmp_VideoView
+#
+player
 "
 )
 ;
@@ -113,7 +113,7 @@ querySelector
 (
 "
 .
-dmp_SubtitlesView
+subtitles
 "
 )
 ?
