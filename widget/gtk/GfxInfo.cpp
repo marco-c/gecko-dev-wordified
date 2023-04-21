@@ -1099,8 +1099,6 @@ glxtest
 process
 got
 reaped
-got
-reaped
 after
 a
 /
@@ -1328,9 +1326,6 @@ adapterRam
 ;
 nsCString
 drmRenderDevice
-;
-nsCString
-isVAAPISupported
 ;
 nsCString
 ddxDriver
