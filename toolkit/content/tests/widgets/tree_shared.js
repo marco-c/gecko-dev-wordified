@@ -9907,7 +9907,7 @@ element
 .
 style
 .
-MozBoxOrdinalGroup
+order
 )
 ;
 var
@@ -9921,7 +9921,7 @@ element
 .
 style
 .
-MozBoxOrdinalGroup
+order
 )
 ;
 return

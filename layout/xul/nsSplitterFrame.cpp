@@ -3271,7 +3271,7 @@ CSSOrderAwareFrameIterator
 OrderingProperty
 :
 :
-BoxOrdinalGroup
+Order
 )
 ;
 for
