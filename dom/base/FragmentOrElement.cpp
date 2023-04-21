@@ -4252,6 +4252,10 @@ mLabelsList
 =
 nullptr
 ;
+mPopoverData
+=
+nullptr
+;
 if
 (
 mCustomElementData

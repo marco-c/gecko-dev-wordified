@@ -1341,6 +1341,11 @@ PlacesWeakCallbackWrapper
 h
 "
 "
+PopoverData
+.
+h
+"
+"
 PopupBlocker
 .
 h
