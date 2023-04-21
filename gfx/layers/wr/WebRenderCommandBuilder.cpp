@@ -20839,7 +20839,6 @@ if
 maskIsComplete
 &
 &
-(
 aMaskItem
 -
 >
@@ -20848,10 +20847,8 @@ Frame
 )
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_SVG_LAYOUT
 )
 )

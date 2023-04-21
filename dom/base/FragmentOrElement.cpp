@@ -1603,11 +1603,10 @@ frame
 frame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_INDEPENDENT_SELECTION
+)
 )
 ;
 }

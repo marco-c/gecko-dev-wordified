@@ -562,14 +562,11 @@ if
 frame
 |
 |
-(
 frame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_IS_NONDISPLAY
 )
 )
