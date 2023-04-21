@@ -155,7 +155,7 @@ to
 execute
 .
 *
-return
+returns
 {
 Promise
 }
@@ -426,7 +426,7 @@ loaded
 *
 param
 {
-String
+string
 }
 url
 *
@@ -510,7 +510,7 @@ performed
 *
 param
 {
-String
+string
 }
 url
 *

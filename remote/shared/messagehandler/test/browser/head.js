@@ -224,7 +224,7 @@ loaded
 *
 param
 {
-String
+string
 }
 url
 *
@@ -299,7 +299,7 @@ loaded
 *
 param
 {
-String
+string
 }
 url
 *
@@ -390,7 +390,7 @@ domain
 *
 param
 {
-String
+string
 }
 domain
 *
@@ -520,7 +520,7 @@ inserted
 *
 param
 {
-String
+string
 }
 type
 *
@@ -540,7 +540,7 @@ content
 "
 .
 *
-return
+returns
 {
 xul
 :
@@ -912,9 +912,9 @@ extension
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 Return

@@ -2294,7 +2294,7 @@ list
 .
 *
 *
-return
+returns
 {
 Map
 <
@@ -2518,7 +2518,7 @@ file
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2568,7 +2568,7 @@ true
 .
 *
 *
-return
+returns
 {
 Promise
 <
@@ -3029,7 +3029,7 @@ events
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3315,7 +3315,7 @@ string
 }
 step
 *
-return
+returns
 {
 Function
 }
@@ -3439,7 +3439,7 @@ to
 .
 *
 *
-return
+returns
 {
 Array
 <
@@ -3522,7 +3522,7 @@ Function
 predicate
 *
 *
-return
+returns
 {
 Array
 <
@@ -3581,7 +3581,7 @@ string
 eventName
 *
 *
-return
+returns
 {
 {
 eventName
@@ -3652,7 +3652,7 @@ string
 eventName
 *
 *
-return
+returns
 {
 Array
 <
@@ -3718,7 +3718,7 @@ string
 eventName
 *
 *
-return
+returns
 {
 number
 }

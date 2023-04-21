@@ -130,7 +130,7 @@ broadcast
 *
 param
 {
-String
+string
 }
 module
 *
@@ -148,7 +148,7 @@ broadcast
 *
 param
 {
-String
+string
 }
 command
 *
@@ -163,7 +163,7 @@ broadcast
 *
 param
 {
-Object
+object
 }
 params
 *
@@ -203,7 +203,7 @@ MessageHandler
 network
 .
 *
-return
+returns
 {
 Promise
 .

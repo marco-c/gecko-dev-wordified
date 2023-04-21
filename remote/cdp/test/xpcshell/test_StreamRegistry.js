@@ -995,7 +995,7 @@ file
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1045,7 +1045,7 @@ true
 .
 *
 *
-return
+returns
 {
 Promise
 <
