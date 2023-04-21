@@ -1965,12 +1965,6 @@ self
 isCtor
 (
 )
-or
-self
-.
-isDtor
-(
-)
 class
 ProtocolType
 (
