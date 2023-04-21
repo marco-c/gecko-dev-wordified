@@ -545,14 +545,7 @@ path
 .
 exists
 (
-os
-.
 path
-.
-dirname
-(
-path
-)
 )
 :
             
