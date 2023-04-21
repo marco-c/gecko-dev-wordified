@@ -1372,6 +1372,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToComputedValue
+SpecifiedValueInfo
 ToCss
 ToResolvedValue
 ToShmem

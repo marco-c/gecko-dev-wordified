@@ -42691,6 +42691,11 @@ Q2tQAAAABJRU5ErkJggg
 )
 "
 ]
+.
+concat
+(
+validNonUrlImageValues
+)
 invalid_values
 :
 [
@@ -42805,6 +42810,11 @@ foo
 '
 "
 ]
+.
+concat
+(
+invalidNonUrlImageValues
+)
 }
 "
 counter
