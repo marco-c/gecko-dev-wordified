@@ -183,6 +183,11 @@ ScrollTimeline
 .
 h
 "
+"
+ViewTimeline
+.
+h
+"
 ]
 EXPORTS
 .
@@ -377,6 +382,11 @@ cpp
 "
 "
 TimingParams
+.
+cpp
+"
+"
+ViewTimeline
 .
 cpp
 "
