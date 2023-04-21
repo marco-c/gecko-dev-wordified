@@ -467,7 +467,7 @@ upload
 -
 test
 -
-50MB
+32MB
 .
 dat
 "
