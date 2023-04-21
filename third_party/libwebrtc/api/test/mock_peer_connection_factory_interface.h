@@ -121,7 +121,6 @@ webrtc
 {
 class
 MockPeerConnectionFactoryInterface
-final
 :
 public
 rtc
