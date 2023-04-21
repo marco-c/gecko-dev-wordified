@@ -285,6 +285,13 @@ false
 payload
 :
 {
+subtype
+:
+UrlbarProviderQuickSuggest
+.
+RESULT_SUBTYPE
+.
+SPONSORED
 url
 :
 "
@@ -506,6 +513,13 @@ false
 payload
 :
 {
+subtype
+:
+UrlbarProviderQuickSuggest
+.
+RESULT_SUBTYPE
+.
+NONSPONSORED
 url
 :
 "

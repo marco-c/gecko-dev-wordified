@@ -339,6 +339,11 @@ concat
 (
 NON_BEST_MATCH_RESULT
 )
+config
+:
+QuickSuggestTestUtils
+.
+BEST_MATCH_CONFIG
 }
 )
 ;
