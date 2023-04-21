@@ -5906,15 +5906,6 @@ data
 table
 holder
 .
-/
-/
-Available
-only
-on
-the
-main
-thread
-.
 js
 :
 :
