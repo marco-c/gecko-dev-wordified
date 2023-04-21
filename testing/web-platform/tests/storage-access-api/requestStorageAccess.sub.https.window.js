@@ -120,13 +120,8 @@ processQueryParams
 ;
 if
 (
-window
 !
-=
-=
-window
-.
-top
+topLevelDocument
 )
 {
 /

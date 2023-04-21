@@ -110,10 +110,6 @@ cross
 origin
 -
 frame
-&
-rootdocument
-=
-false
 '
 )
 ;

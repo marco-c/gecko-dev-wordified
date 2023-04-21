@@ -85,10 +85,6 @@ same
 origin
 -
 frame
-&
-rootdocument
-=
-false
 '
 )
 ;
