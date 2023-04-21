@@ -185,7 +185,7 @@ code
 testInternal
 .
 serviceResultCode
-subApps
+subAppsList
 :
 testInternal
 .
