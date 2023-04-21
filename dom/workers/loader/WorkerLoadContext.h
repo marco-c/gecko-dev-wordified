@@ -744,6 +744,7 @@ Module
 script
 .
 StaticImport
+DynamicImport
 /
 /
 We
