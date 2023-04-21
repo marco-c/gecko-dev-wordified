@@ -278,7 +278,7 @@ name
 '
 window
 -
-placement
+management
 '
 }
 '
