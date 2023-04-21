@@ -1902,8 +1902,10 @@ __func__
 self
 ]
 (
+RefPtr
+<
 SandboxTestingParent
-*
+>
 aValue
 )
 {
@@ -1914,7 +1916,13 @@ mSandboxTestingParents
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 aValue
+)
 )
 ;
 return

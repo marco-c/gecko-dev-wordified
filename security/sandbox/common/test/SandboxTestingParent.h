@@ -222,6 +222,11 @@ SandboxTestingParent
 aInstance
 )
 ;
+NS_INLINE_DECL_REFCOUNTING
+(
+SandboxTestingParent
+override
+)
 void
 ActorDestroy
 (
@@ -302,8 +307,6 @@ virtual
 SandboxTestingParent
 (
 )
-=
-default
 ;
 void
 ShutdownSandboxTestThread
