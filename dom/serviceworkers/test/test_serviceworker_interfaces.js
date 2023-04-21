@@ -2990,10 +2990,7 @@ name
 "
 WebTransport
 "
-desktop
-:
-true
-nightlyAndroid
+nightly
 :
 true
 }
