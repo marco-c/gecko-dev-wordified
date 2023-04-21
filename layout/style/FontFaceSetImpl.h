@@ -430,6 +430,11 @@ FontFaceSet
 aOwner
 )
 ;
+void
+DestroyLoaders
+(
+)
+;
 public
 :
 virtual
