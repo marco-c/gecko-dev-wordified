@@ -250,14 +250,6 @@ isSync
 continue
 ;
 }
-for
-(
-const
-deviceType
-of
-DeviceTypeArray
-)
-{
 if
 (
 isSync
@@ -273,9 +265,6 @@ ml
 .
 createContextSync
 (
-{
-deviceType
-}
 )
 ;
 }
@@ -292,9 +281,6 @@ ml
 .
 createContext
 (
-{
-deviceType
-}
 )
 ;
 }
@@ -440,7 +426,6 @@ output
 }
 )
 ;
-}
 }
 }
 }
