@@ -455,7 +455,7 @@ GetClock
 test
 :
 :
-GetGlobalMetricsLoggerAndExporter
+GetGlobalMetricsLogger
 (
 )
 )
@@ -1463,7 +1463,7 @@ network_emulation
 test
 :
 :
-GetGlobalMetricsLoggerAndExporter
+GetGlobalMetricsLogger
 (
 )
 )
@@ -1942,7 +1942,7 @@ network_emulation
 test
 :
 :
-GetGlobalMetricsLoggerAndExporter
+GetGlobalMetricsLogger
 (
 )
 )
@@ -2418,7 +2418,7 @@ network_emulation
 test
 :
 :
-GetGlobalMetricsLoggerAndExporter
+GetGlobalMetricsLogger
 (
 )
 )
