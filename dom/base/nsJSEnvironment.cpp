@@ -3743,10 +3743,6 @@ DropJSObjects
 this
 )
 ;
-PROFILER_CLEAR_JS_CONTEXT
-(
-)
-;
 }
 /
 /
