@@ -576,10 +576,7 @@ config
 credentials
 args
 .
-config
--
->
-priority
+relative_priority
 args
 .
 config
@@ -720,10 +717,7 @@ config
 credentials
 args
 .
-config
--
->
-priority
+relative_priority
 args
 .
 config

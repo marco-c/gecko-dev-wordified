@@ -20332,7 +20332,7 @@ GetAllocator
 )
 -
 >
-AddTurnServer
+AddTurnServerForTesting
 (
 turn_server
 )
@@ -20343,7 +20343,7 @@ GetAllocator
 )
 -
 >
-AddTurnServer
+AddTurnServerForTesting
 (
 turn_server
 )
@@ -41915,7 +41915,7 @@ allocator
 )
 -
 >
-AddTurnServer
+AddTurnServerForTesting
 (
 config
 )
