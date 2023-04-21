@@ -1975,14 +1975,11 @@ notifyObservers
 (
 null
 "
-network
-:
-trr
+trrservice
 -
 confirmation
-"
-"
-CONFIRM_FAILED
+-
+failed
 "
 )
 ;
