@@ -210,6 +210,13 @@ h
 #
 include
 "
+ModuleVersionInfo
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
