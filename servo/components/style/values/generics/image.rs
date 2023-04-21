@@ -976,10 +976,16 @@ the
 selected
 candidate
 .
-Zero
+usize
+:
+:
+MAX
 for
 specified
 values
+or
+invalid
+images
 .
 #
 [

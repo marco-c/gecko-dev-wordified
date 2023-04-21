@@ -2893,7 +2893,13 @@ Self
 {
 selected_index
 :
-0
+std
+:
+:
+usize
+:
+:
+MAX
 items
 :
 items
