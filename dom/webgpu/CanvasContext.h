@@ -149,6 +149,9 @@ namespace
 dom
 {
 class
+OwningHTMLCanvasElementOrOffscreenCanvas
+;
+class
 Promise
 ;
 struct
@@ -471,6 +474,17 @@ nullptr
 }
 public
 :
+void
+GetCanvas
+(
+dom
+:
+:
+OwningHTMLCanvasElementOrOffscreenCanvas
+&
+)
+const
+;
 void
 Configure
 (

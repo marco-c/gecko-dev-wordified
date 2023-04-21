@@ -261,9 +261,16 @@ namespace
 dom
 {
 class
+OwningHTMLCanvasElementOrOffscreenCanvas
+;
+class
 WebGLChild
 ;
 }
+/
+/
+namespace
+dom
 namespace
 gfx
 {
