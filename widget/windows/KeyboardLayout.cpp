@@ -8468,8 +8468,6 @@ feature
 return
 ;
 }
-return
-;
 case
 WM_APPCOMMAND
 :

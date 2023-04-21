@@ -161,6 +161,3 @@ widget
 DisableStlWrapping
 (
 )
-REQUIRES_UNIFIED_BUILD
-=
-True

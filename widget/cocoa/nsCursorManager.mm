@@ -420,9 +420,6 @@ switch
 aCursor
 )
 {
-SEL
-cursorSelector
-;
 case
 eCursor_standard
 :
@@ -562,6 +559,8 @@ aCursor
 case
 eCursor_copy
 :
+{
+SEL
 cursorSelector
 =
 selector
@@ -597,9 +596,12 @@ type
 aCursor
 ]
 ;
+}
 case
 eCursor_alias
 :
+{
+SEL
 cursorSelector
 =
 selector
@@ -635,9 +637,12 @@ type
 aCursor
 ]
 ;
+}
 case
 eCursor_context_menu
 :
+{
+SEL
 cursorSelector
 =
 selector
@@ -673,6 +678,7 @@ type
 aCursor
 ]
 ;
+}
 case
 eCursor_cell
 :
@@ -822,6 +828,8 @@ eCursor_not_allowed
 case
 eCursor_no_drop
 :
+{
+SEL
 cursorSelector
 =
 selector
@@ -857,6 +865,7 @@ type
 aCursor
 ]
 ;
+}
 /
 /
 Resize
