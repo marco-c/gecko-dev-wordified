@@ -124,6 +124,7 @@ License
 .
 *
 /
+export
 class
 SandboxSupportBase
 {
@@ -868,15 +869,4 @@ toString
 }
 ;
 }
-}
-{
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SandboxSupportBase
-"
-]
-;
 }

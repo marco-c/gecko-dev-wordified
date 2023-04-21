@@ -146,7 +146,9 @@ EXTRA_JS_MODULES
 "
 pdfjs
 .
-js
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

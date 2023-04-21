@@ -163,7 +163,7 @@ PdfSandbox
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -176,7 +176,9 @@ js
 /
 PdfSandbox
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
