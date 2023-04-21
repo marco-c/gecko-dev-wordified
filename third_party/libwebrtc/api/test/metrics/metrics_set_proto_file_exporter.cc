@@ -198,7 +198,7 @@ case
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 :
 return
 webrtc
@@ -234,7 +234,7 @@ case
 Unit
 :
 :
-kSizeInBytes
+kBytes
 :
 return
 webrtc

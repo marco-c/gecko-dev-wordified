@@ -138,9 +138,9 @@ enum
 class
 Unit
 {
-kTimeMs
+kMilliseconds
 kPercent
-kSizeInBytes
+kBytes
 kKilobitsPerSecond
 kHertz
 /

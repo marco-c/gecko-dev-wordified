@@ -506,7 +506,7 @@ value
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -610,7 +610,7 @@ Eq
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 )
 )
 ;
@@ -994,7 +994,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -1098,7 +1098,7 @@ Eq
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 )
 )
 ;
@@ -1466,7 +1466,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -1570,7 +1570,7 @@ Eq
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 )
 )
 ;
@@ -1798,7 +1798,7 @@ value
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -1828,7 +1828,7 @@ value
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2073,7 +2073,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2097,7 +2097,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2291,7 +2291,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2315,7 +2315,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2590,7 +2590,7 @@ value
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2614,7 +2614,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2638,7 +2638,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2881,7 +2881,7 @@ value
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :

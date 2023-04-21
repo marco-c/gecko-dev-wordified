@@ -128,11 +128,11 @@ case
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 :
 return
 "
-TimeMs
+Milliseconds
 "
 ;
 case
@@ -150,11 +150,11 @@ case
 Unit
 :
 :
-kSizeInBytes
+kBytes
 :
 return
 "
-SizeInBytes
+Bytes
 "
 ;
 case
