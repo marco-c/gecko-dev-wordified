@@ -426,9 +426,6 @@ class
 ViewWrapper
 ;
 class
-nsIScreen
-;
-class
 nsIRunnable
 ;
 namespace
@@ -554,6 +551,9 @@ CompositorWidget
 ;
 class
 CompositorWidgetInitData
+;
+class
+Screen
 ;
 }
 /
@@ -2157,6 +2157,17 @@ widget
 :
 :
 TransparencyMode
+;
+using
+Screen
+=
+mozilla
+:
+:
+widget
+:
+:
+Screen
 ;
 /
 /
@@ -7261,7 +7272,7 @@ know
 virtual
 already_AddRefed
 <
-nsIScreen
+Screen
 >
 GetWidgetScreen
 (

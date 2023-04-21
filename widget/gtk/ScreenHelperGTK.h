@@ -211,7 +211,10 @@ RefreshScreens
 virtual
 RefPtr
 <
-nsIScreen
+widget
+:
+:
+Screen
 >
 GetScreenForWindow
 (
@@ -350,7 +353,10 @@ aMonitor
 ;
 RefPtr
 <
-nsIScreen
+widget
+:
+:
+Screen
 >
 GetScreenForWindow
 (
@@ -494,7 +500,10 @@ aMonitorNum
 static
 RefPtr
 <
-nsIScreen
+widget
+:
+:
+Screen
 >
 GetScreenForWindow
 (

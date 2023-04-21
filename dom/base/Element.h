@@ -619,6 +619,9 @@ class
 nsIPrincipal
 ;
 class
+nsIScreen
+;
+class
 nsIScrollableFrame
 ;
 class

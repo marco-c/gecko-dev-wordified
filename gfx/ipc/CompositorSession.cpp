@@ -191,10 +191,6 @@ using
 namespace
 gfx
 ;
-using
-namespace
-widget
-;
 CompositorSession
 :
 :

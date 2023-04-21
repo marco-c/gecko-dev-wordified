@@ -687,6 +687,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+Screen
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h

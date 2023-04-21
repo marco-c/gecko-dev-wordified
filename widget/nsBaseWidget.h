@@ -1142,7 +1142,7 @@ override
 }
 already_AddRefed
 <
-nsIScreen
+Screen
 >
 GetWidgetScreen
 (
