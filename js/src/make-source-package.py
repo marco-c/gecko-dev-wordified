@@ -1299,7 +1299,15 @@ rust
 /
 third_party
 /
-intgemm
+gemmology
+/
+*
+*
++
+/
+third_party
+/
+xsimd
 /
 *
 *
