@@ -174,6 +174,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+ProfileAdditionalInformation
+.
+h
+"
 class
 nsIThread
 ;
@@ -304,7 +311,7 @@ open
 long
 enough
 .
-nsCString
+ProfileAndAdditionalInformation
 GrabShutdownProfile
 (
 )

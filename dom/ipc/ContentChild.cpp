@@ -20307,8 +20307,8 @@ GrabShutdownProfileAndShutdown
 _ns
 )
 ;
-nsCString
-shutdownProfile
+ProfileAndAdditionalInformation
+shutdownProfileAndAdditionalInformation
 =
 mProfilerController
 -
@@ -20395,9 +20395,9 @@ const
 size_t
 len
 =
-shutdownProfile
+shutdownProfileAndAdditionalInformation
 .
-Length
+SizeOf
 (
 )
 ;
@@ -20416,7 +20416,9 @@ kMaximumMessageSize
 )
 )
 {
-shutdownProfile
+shutdownProfileAndAdditionalInformation
+.
+mProfile
 =
 nsPrintfCString
 (
@@ -20495,7 +20497,9 @@ sent
 =
 SendShutdownProfile
 (
-shutdownProfile
+shutdownProfileAndAdditionalInformation
+.
+mProfile
 )
 ;
 CrashReporter
