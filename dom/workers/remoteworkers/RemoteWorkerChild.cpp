@@ -2227,16 +2227,6 @@ mCookieJarSettings
 )
 )
 ;
-info
-.
-mCookieJarSettingsArgs
-=
-aData
-.
-cookieJarSettings
-(
-)
-;
 /
 /
 Default
