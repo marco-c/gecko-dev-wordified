@@ -3421,6 +3421,13 @@ RTC_GUARDED_BY
 mutex_capture_
 )
 ;
+InputVolumeStatsReporter
+recommended_input_volume_stats_reporter_
+RTC_GUARDED_BY
+(
+mutex_capture_
+)
+;
 /
 /
 Lock
