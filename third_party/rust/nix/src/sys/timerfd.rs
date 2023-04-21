@@ -795,9 +795,6 @@ drop
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -805,7 +802,6 @@ alias
 "
 timerfd_create
 "
-)
 )
 )
 ]
@@ -1246,9 +1242,6 @@ altogether
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -1256,7 +1249,6 @@ alias
 "
 timerfd_settime
 "
-)
 )
 )
 ]
@@ -1351,9 +1343,6 @@ any
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -1361,7 +1350,6 @@ alias
 "
 timerfd_gettime
 "
-)
 )
 )
 ]
@@ -1508,9 +1496,6 @@ set
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -1518,7 +1503,6 @@ alias
 "
 timerfd_settime
 "
-)
 )
 )
 ]

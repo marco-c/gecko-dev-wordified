@@ -645,8 +645,6 @@ crash_context
 get_instruction_pointer
 (
 )
-as
-usize
 ;
 let
 stack_pointer
@@ -656,8 +654,6 @@ crash_context
 get_stack_pointer
 (
 )
-as
-usize
 ;
 fill_thread_stack
 (
@@ -1088,8 +1084,6 @@ info
 get_instruction_pointer
 (
 )
-as
-usize
 ;
 fill_thread_stack
 (

@@ -57,6 +57,13 @@ libc
 :
 rlim_t
 ;
+pub
+use
+libc
+:
+:
+RLIM_INFINITY
+;
 use
 std
 :
@@ -1560,7 +1567,9 @@ limits
 The
 special
 value
+[
 RLIM_INFINITY
+]
 indicates
 that
 no
@@ -2005,7 +2014,9 @@ users
 The
 special
 value
+[
 RLIM_INFINITY
+]
 indicates
 that
 no

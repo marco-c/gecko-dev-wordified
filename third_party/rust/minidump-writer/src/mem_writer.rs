@@ -806,10 +806,6 @@ Ok
 Self
 {
 position
-:
-position
-as
-u32
 size
 phantom
 :

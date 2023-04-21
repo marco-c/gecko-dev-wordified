@@ -1447,10 +1447,12 @@ p
 )
 =
 >
+{
 Some
 (
 p
 )
+}
 StillAlive
 =
 >
@@ -2469,6 +2471,7 @@ libc
 CLD_STOPPED
 =
 >
+{
 WaitStatus
 :
 :
@@ -2484,6 +2487,7 @@ si_status
 )
 ?
 )
+}
 libc
 :
 :

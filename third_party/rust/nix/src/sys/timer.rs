@@ -736,9 +736,6 @@ sigevent
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -746,7 +743,6 @@ alias
 "
 timer_create
 "
-)
 )
 )
 ]
@@ -1245,9 +1241,6 @@ altogether
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -1255,7 +1248,6 @@ alias
 "
 timer_settime
 "
-)
 )
 )
 ]
@@ -1351,9 +1343,6 @@ any
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -1361,7 +1350,6 @@ alias
 "
 timer_gettime
 "
-)
 )
 )
 ]
@@ -1595,9 +1583,6 @@ maximum
 .
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -1605,7 +1590,6 @@ alias
 "
 timer_getoverrun
 "
-)
 )
 )
 ]
