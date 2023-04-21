@@ -342,7 +342,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 use
 .
@@ -352,6 +355,7 @@ of
 .
 indexOf
 "
+}
 )
 ;
 }

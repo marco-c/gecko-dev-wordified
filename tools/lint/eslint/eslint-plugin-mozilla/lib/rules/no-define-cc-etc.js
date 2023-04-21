@@ -199,7 +199,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 {
 node
 .
@@ -221,6 +224,7 @@ no
 longer
 necessary
 .
+}
 )
 ;
 }
@@ -278,7 +282,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 {
 property
 .
@@ -300,6 +307,7 @@ no
 longer
 necessary
 .
+}
 )
 ;
 }

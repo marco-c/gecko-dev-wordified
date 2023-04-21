@@ -302,7 +302,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 use
 element
@@ -324,6 +327,7 @@ removeChild
 element
 )
 "
+}
 )
 ;
 }
@@ -408,7 +412,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 use
 element
@@ -432,6 +439,7 @@ element
 firstChild
 )
 "
+}
 )
 ;
 }

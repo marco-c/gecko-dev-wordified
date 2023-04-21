@@ -204,7 +204,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 Unexpected
 var
@@ -215,6 +218,7 @@ const
 instead
 .
 "
+}
 )
 ;
 }

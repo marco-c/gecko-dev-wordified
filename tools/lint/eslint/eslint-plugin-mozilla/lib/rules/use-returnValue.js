@@ -232,7 +232,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 {
 Array
 /
@@ -259,6 +262,7 @@ instance
 in
 -
 place
+}
 )
 ;
 }

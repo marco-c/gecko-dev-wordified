@@ -396,7 +396,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 listen
 for
@@ -413,6 +416,7 @@ with
 arbitrary
 delay
 "
+}
 )
 ;
 }

@@ -217,7 +217,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 Ci
 .
@@ -234,6 +237,7 @@ TextDecoder
 instead
 .
 "
+}
 )
 ;
 }

@@ -216,7 +216,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 relative
 paths
@@ -228,6 +231,7 @@ require
 (
 )
 "
+}
 )
 ;
 }

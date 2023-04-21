@@ -282,7 +282,12 @@ context
 .
 report
 (
+{
+node
+:
 param
+message
+:
 "
 Parameter
 '
@@ -310,7 +315,10 @@ suggestion
 instead
 .
 "
+data
+:
 errorObj
+}
 )
 ;
 }

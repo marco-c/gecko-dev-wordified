@@ -215,7 +215,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 Don
 '
@@ -228,6 +231,7 @@ against
 boolean
 literals
 "
+}
 )
 ;
 }

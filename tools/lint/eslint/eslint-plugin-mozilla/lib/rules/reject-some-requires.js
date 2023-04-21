@@ -240,7 +240,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 require
 (
 {
@@ -250,6 +253,7 @@ path
 is
 not
 allowed
+}
 )
 ;
 }

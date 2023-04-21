@@ -273,7 +273,12 @@ context
 .
 report
 (
+{
+node
+:
 callNode
+message
+:
 "
 prefer
 to
@@ -306,6 +311,7 @@ l10n
 .
 formatValues
 "
+}
 )
 ;
 }
@@ -350,7 +356,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 call
 expression
@@ -360,6 +369,7 @@ of
 known
 block
 "
+}
 )
 ;
 }
