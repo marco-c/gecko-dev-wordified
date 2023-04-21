@@ -1250,8 +1250,6 @@ device_info
 println
 !
 (
-"
-"
 )
 ;
 println
@@ -1628,7 +1626,6 @@ base64
 :
 encode
 (
-&
 sign_data
 )
 )
@@ -1649,7 +1646,6 @@ base64
 :
 encode
 (
-&
 handle_used
 )
 )

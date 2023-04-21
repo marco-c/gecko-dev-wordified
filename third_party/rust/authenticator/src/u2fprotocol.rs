@@ -2798,10 +2798,6 @@ device
 set_cid
 (
 cid
-.
-clone
-(
-)
 )
 ;
 let
@@ -2873,7 +2869,6 @@ msg
 .
 extend
 (
-&
 [
 HIDCmd
 :
@@ -2897,7 +2892,6 @@ msg
 .
 extend
 (
-&
 [
 0x0
 0x3
@@ -2936,7 +2930,6 @@ msg
 .
 extend
 (
-&
 [
 HIDCmd
 :
@@ -2960,7 +2953,6 @@ msg
 .
 extend
 (
-&
 [
 0x55
 0x32
@@ -2980,7 +2972,6 @@ msg
 .
 extend
 (
-&
 SW_NO_ERROR
 )
 ;

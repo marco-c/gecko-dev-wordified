@@ -65,6 +65,7 @@ derive
 Clone
 Debug
 PartialEq
+Eq
 Serialize
 )
 ]

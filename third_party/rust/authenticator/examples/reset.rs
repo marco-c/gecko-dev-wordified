@@ -704,10 +704,6 @@ let
 rs_tx
 =
 reset_tx
-.
-clone
-(
-)
 ;
 let
 callback
@@ -754,10 +750,6 @@ reset
 (
 timeout_ms
 status_tx
-.
-clone
-(
-)
 callback
 )
 {

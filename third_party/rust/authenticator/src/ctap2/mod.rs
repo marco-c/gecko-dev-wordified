@@ -30,9 +30,6 @@ get_assertion
 AssertionObject
 ;
 pub
-(
-crate
-)
 mod
 attestation
 ;

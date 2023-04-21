@@ -229,8 +229,6 @@ libc
 poll
 (
 (
-&
-mut
 fds
 [
 .
