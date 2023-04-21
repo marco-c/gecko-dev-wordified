@@ -593,9 +593,6 @@ mRolloutURIPref
 nsCString
 mDefaultURIPref
 ;
-nsCString
-mOHTTPURIPref
-;
 Atomic
 <
 nsIDNSService
