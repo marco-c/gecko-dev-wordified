@@ -23603,6 +23603,17 @@ EnsureLazyLoadImageObserver
 )
 ;
 DOMIntersectionObserver
+*
+GetContentVisibilityObserver
+(
+)
+const
+{
+return
+mContentVisibilityObserver
+;
+}
+DOMIntersectionObserver
 &
 EnsureContentVisibilityObserver
 (
