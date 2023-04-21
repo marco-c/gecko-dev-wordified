@@ -132,6 +132,13 @@ builds
 "
 :
 True
+"
+disable
+-
+pgo
+"
+:
+True
 }
 )
     
