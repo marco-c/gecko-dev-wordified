@@ -2386,7 +2386,7 @@ will
 be
 passed
 to
-savePrivacyAwareURI
+saveURI
 *
 param
 persistArgs
@@ -2554,7 +2554,7 @@ or
 *
 null
 that
-savePrivacyAwareURI
+saveURI
 will
 create
 one
@@ -3010,7 +3010,7 @@ else
 {
 persist
 .
-savePrivacyAwareURI
+saveURI
 (
 persistArgs
 .

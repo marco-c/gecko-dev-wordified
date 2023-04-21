@@ -2155,7 +2155,7 @@ process
 .
 persist
 .
-savePrivacyAwareURI
+saveURI
 (
 sourceURI
 Services
