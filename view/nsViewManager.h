@@ -1978,13 +1978,12 @@ widget
 .
 *
 /
-already_AddRefed
-<
 nsIWidget
->
+*
 GetRootWidget
 (
 )
+const
 ;
 /
 *
