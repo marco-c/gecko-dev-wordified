@@ -19576,6 +19576,8 @@ bool
 isFunction
 uint16_t
 funLength
+uint16_t
+propertyCountEstimate
 mozilla
 :
 :
@@ -19819,6 +19821,13 @@ data
 numICEntries
 =
 numICEntries
+;
+data
+-
+>
+propertyCountEstimate
+=
+propertyCountEstimate
 ;
 if
 (
