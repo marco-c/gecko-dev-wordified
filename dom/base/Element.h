@@ -3118,6 +3118,12 @@ CreatePopoverData
 )
 ;
 }
+bool
+IsAutoPopover
+(
+)
+const
+;
 ElementAnimationData
 *
 GetAnimationData
