@@ -439,13 +439,11 @@ mContextPaint
 .
 emplace
 (
-*
 aSVGContext
 .
 GetContextPaint
 (
 )
-*
 aSVGDocumentWrapper
 -
 >
