@@ -166,6 +166,7 @@ proto
 {
 Assert
 Cr
+DOMException
 navigator
 :
 {
