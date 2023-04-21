@@ -1128,12 +1128,8 @@ voip_thread_
 voip_thread_
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 this
 &
@@ -1200,12 +1196,8 @@ AndroidVoipClient
 voip_thread_
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 this
 ]

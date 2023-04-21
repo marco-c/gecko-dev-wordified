@@ -507,12 +507,8 @@ IsCurrent
 _workerThread
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 renderer
 self
@@ -669,12 +665,8 @@ IsCurrent
 _workerThread
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 renderer
 self

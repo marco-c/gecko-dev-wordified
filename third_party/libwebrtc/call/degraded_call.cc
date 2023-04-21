@@ -115,15 +115,6 @@ string_view
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-location
-.
-h
-"
 namespace
 webrtc
 {

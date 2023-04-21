@@ -3304,12 +3304,8 @@ signaling_thread
 )
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 pc
 &
@@ -3474,12 +3470,8 @@ signaling_thread
 )
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 pc
 &

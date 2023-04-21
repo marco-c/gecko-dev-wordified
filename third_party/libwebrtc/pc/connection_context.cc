@@ -1203,12 +1203,8 @@ necessary
 worker_thread_
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 &
 ]
@@ -1241,12 +1237,8 @@ signaling_thread_
 worker_thread_
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 &
 ]
