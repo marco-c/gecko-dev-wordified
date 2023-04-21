@@ -586,7 +586,6 @@ secondTab
 .
 linkedBrowser
 "
-#
 with
 -
 controls
