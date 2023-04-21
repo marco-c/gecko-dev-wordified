@@ -793,7 +793,7 @@ glean_core
 Glean
 :
 :
-set_metrics_disabled_config
+set_metrics_enabled_config
 ]
 *
 *
