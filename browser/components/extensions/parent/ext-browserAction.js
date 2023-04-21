@@ -1246,6 +1246,11 @@ classList
 add
 (
 "
+toolbarbutton
+-
+1
+"
+"
 unified
 -
 extensions
@@ -1255,6 +1260,9 @@ item
 action
 -
 button
+"
+"
+subviewbutton
 "
 )
 ;
