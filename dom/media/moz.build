@@ -589,6 +589,17 @@ browser
 .
 ini
 "
+"
+test
+/
+browser
+/
+wmfme
+/
+browser
+.
+ini
+"
 ]
 if
 CONFIG
