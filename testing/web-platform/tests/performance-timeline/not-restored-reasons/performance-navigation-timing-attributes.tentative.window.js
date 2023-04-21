@@ -254,6 +254,9 @@ cross
 -
 origin
 iframe
+and
+use
+BroadcastChannel
 .
 const
 rc1_child
