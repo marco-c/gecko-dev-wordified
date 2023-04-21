@@ -1484,15 +1484,7 @@ true
 }
 }
 return
-SVGGeometryFrame
-:
-:
-AttributeChanged
-(
-aNameSpaceID
-aAttribute
-aModType
-)
+NS_OK
 ;
 }
 void
