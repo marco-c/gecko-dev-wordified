@@ -128,7 +128,7 @@ EXIT_CODE
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -141,7 +141,9 @@ modules
 /
 BackgroundUpdate
 .
-jsm
+sys
+.
+mjs
 "
 )
 .

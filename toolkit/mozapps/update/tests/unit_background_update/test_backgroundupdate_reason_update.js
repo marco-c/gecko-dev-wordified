@@ -103,7 +103,7 @@ BackgroundUpdate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -116,7 +116,9 @@ modules
 /
 BackgroundUpdate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -173,7 +175,7 @@ UpdateService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -186,7 +188,9 @@ modules
 /
 UpdateService
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
