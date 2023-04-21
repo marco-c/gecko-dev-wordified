@@ -2021,7 +2021,7 @@ DCHECK_LE
 (
 re_code
 .
-raw_instruction_start
+instruction_start
 (
 )
 old_pc
@@ -2032,7 +2032,7 @@ DCHECK_LE
 old_pc
 re_code
 .
-raw_instruction_end
+instruction_end
 (
 )
 )
