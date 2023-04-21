@@ -16420,6 +16420,15 @@ palette
 owned
 by
 TextRunDrawParams
+mozilla
+:
+:
+gfx
+:
+:
+Rect
+fontExtents
+;
 bool
 isVerticalFont
 ;
