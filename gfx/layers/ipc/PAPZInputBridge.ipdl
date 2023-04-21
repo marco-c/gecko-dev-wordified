@@ -103,6 +103,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 LayoutDeviceIntPoint
 from
 "
@@ -172,6 +175,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 EventMessage
 from
 "

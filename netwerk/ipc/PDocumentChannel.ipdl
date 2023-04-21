@@ -153,6 +153,12 @@ h
 ;
 using
 class
+mozilla
+:
+:
+net
+:
+:
 nsHttpHeaderArray
 from
 "
