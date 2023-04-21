@@ -947,7 +947,6 @@ NS_ConvertUTF8toUTF16
 (
 format
 )
-format
 )
 ;
 entry
@@ -4296,10 +4295,6 @@ ItemEntry
 >
 (
 NS_LITERAL_STRING_FROM_CSTRING
-(
-kTextMime
-)
-nsLiteralCString
 (
 kTextMime
 )
