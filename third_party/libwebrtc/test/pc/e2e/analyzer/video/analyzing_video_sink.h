@@ -140,7 +140,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+media_configuration
 .
 h
 "
@@ -357,9 +359,6 @@ AnalyzingVideoSinksHelper
 &
 sinks_helper
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoSubscription
 &
 subscription
@@ -384,9 +383,6 @@ void
 UpdateSubscription
 (
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoSubscription
 &
 subscription
@@ -421,9 +417,6 @@ absl
 string_view
 sender_peer_name
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoResolution
 &
 resolution
@@ -482,9 +475,6 @@ video_frame_writer
 and
 sinks
 .
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoResolution
 resolution
 ;
@@ -563,9 +553,6 @@ VideoFrame
 &
 frame
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoResolution
 &
 required_resolution
@@ -675,9 +662,6 @@ mutable
 Mutex
 mutex_
 ;
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoSubscription
 subscription_
 RTC_GUARDED_BY

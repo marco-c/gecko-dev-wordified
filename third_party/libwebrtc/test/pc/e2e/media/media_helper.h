@@ -121,7 +121,7 @@ test
 /
 pclf
 /
-peer_configurer
+media_configuration
 .
 h
 "
@@ -132,7 +132,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+peer_configurer
 .
 h
 "
@@ -262,9 +264,6 @@ TestVideoCapturer
 CreateVideoCapturer
 (
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoConfig
 &
 video_config

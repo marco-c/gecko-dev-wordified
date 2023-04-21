@@ -118,7 +118,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+media_configuration
 .
 h
 "
@@ -201,9 +203,6 @@ TestAudioDeviceModule
 Capturer
 >
 capturer
-PeerConnectionE2EQualityTestFixture
-:
-:
 EchoEmulationConfig
 config
 )
@@ -284,9 +283,6 @@ Capturer
 delegate_
 ;
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 EchoEmulationConfig
 config_
 ;
