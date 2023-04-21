@@ -429,8 +429,7 @@ uint8_t
 aMessage
 )
 override
-{
-}
+;
 void
 OnExpirationChange
 (
@@ -442,8 +441,7 @@ UnixTime
 aExpiryTime
 )
 override
-{
-}
+;
 void
 OnSessionClosed
 (
@@ -558,8 +556,7 @@ nsAString
 aSessionId
 )
 override
-{
-}
+;
 void
 GetStatusForPolicy
 (
