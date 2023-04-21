@@ -1402,17 +1402,6 @@ LEAF
 Frame
 (
 "
-nsTreeColFrame
-"
-"
-Box
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsVideoFrame
 "
 "

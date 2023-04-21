@@ -129,11 +129,6 @@ EXPORTS
 =
 [
 "
-nsTreeColFrame
-.
-h
-"
-"
 nsTreeColumns
 .
 h
@@ -150,11 +145,6 @@ UNIFIED_SOURCES
 [
 "
 nsTreeBodyFrame
-.
-cpp
-"
-"
-nsTreeColFrame
 .
 cpp
 "

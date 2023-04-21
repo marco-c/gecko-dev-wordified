@@ -1153,10 +1153,10 @@ columns
 list
 each
 time
-an
-nsTreeColFrame
-is
-destroyed
+a
+treecol
+changes
+size
 .
 *
 *
