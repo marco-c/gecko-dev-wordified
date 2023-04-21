@@ -114,7 +114,10 @@ false
 RPMIsTRROnlyFailure
 :
 false
-RPMShowTRROnlyFailureError
+RPMIsFirefox
+:
+false
+RPMIsNativeFallbackFailure
 :
 false
 RPMIsWindowPrivate
