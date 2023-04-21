@@ -2343,6 +2343,11 @@ if
 PrincipalOrNull
 (
 )
+&
+&
+PrincipalOrNull
+(
+)
 -
 >
 IsSystemPrincipal
