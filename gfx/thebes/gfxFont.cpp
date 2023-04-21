@@ -15466,13 +15466,6 @@ aRunParams
 .
 context
 )
-1
-.
-0
-/
-aRunParams
-.
-devPerApp
 matPtr
 )
 ;
