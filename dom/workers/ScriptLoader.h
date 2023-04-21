@@ -2048,7 +2048,7 @@ ErrorResult
 aRv
 )
 ;
-void
+bool
 CreateScriptRequests
 (
 const
