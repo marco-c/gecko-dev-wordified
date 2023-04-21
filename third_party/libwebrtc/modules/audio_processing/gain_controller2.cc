@@ -1131,13 +1131,6 @@ speech_level
 ;
 }
 }
-fixed_gain_applier_
-.
-ApplyGain
-(
-float_frame
-)
-;
 if
 (
 adaptive_digital_controller_
@@ -1171,6 +1164,13 @@ LastAudioLevel
 )
 ;
 }
+fixed_gain_applier_
+.
+ApplyGain
+(
+float_frame
+)
+;
 limiter_
 .
 Process
