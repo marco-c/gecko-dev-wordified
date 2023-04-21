@@ -93,6 +93,13 @@ define
 MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_SOURCE_FILTER_FUNCTIONS_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 modules
 /

@@ -96,6 +96,17 @@ memory
 #
 include
 "
+api
+/
+transport
+/
+sctp_transport_factory_interface
+.
+h
+"
+#
+include
+"
 media
 /
 sctp
