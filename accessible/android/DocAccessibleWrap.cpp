@@ -2340,7 +2340,12 @@ double
 >
 (
 )
-nullptr
+RefPtr
+<
+AccAttributes
+>
+{
+}
 )
 )
 ;
