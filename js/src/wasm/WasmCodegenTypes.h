@@ -4220,7 +4220,7 @@ bits_
 ;
 }
 uint32_t
-globalDataOffset
+instanceDataOffset
 (
 )
 const
@@ -4436,7 +4436,7 @@ funcIndex_
 struct
 {
 uint32_t
-globalDataOffset_
+instanceDataOffset_
 ;
 }
 import
@@ -4444,7 +4444,7 @@ import
 struct
 {
 uint32_t
-globalDataOffset_
+instanceDataOffset_
 ;
 uint32_t
 minLength_
@@ -4488,7 +4488,7 @@ CalleeDesc
 import
 (
 uint32_t
-globalDataOffset
+instanceDataOffset
 )
 ;
 static
@@ -4566,7 +4566,7 @@ funcIndex_
 ;
 }
 uint32_t
-importGlobalDataOffset
+importInstanceDataOffset
 (
 )
 const
@@ -4584,7 +4584,7 @@ u
 .
 import
 .
-globalDataOffset_
+instanceDataOffset_
 ;
 }
 bool
@@ -4607,7 +4607,7 @@ AsmJSTable
 ;
 }
 uint32_t
-tableLengthGlobalDataOffset
+tableLengthInstanceDataOffset
 (
 )
 const
@@ -4624,7 +4624,7 @@ u
 .
 table
 .
-globalDataOffset_
+instanceDataOffset_
 +
 offsetof
 (
@@ -4634,7 +4634,7 @@ length
 ;
 }
 uint32_t
-tableFunctionBaseGlobalDataOffset
+tableFunctionBaseInstanceDataOffset
 (
 )
 const
@@ -4651,7 +4651,7 @@ u
 .
 table
 .
-globalDataOffset_
+instanceDataOffset_
 +
 offsetof
 (
