@@ -1971,6 +1971,8 @@ output
 "
 target
 .
+langpack
+.
 deb
 "
     
