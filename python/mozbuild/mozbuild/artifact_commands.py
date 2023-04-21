@@ -459,10 +459,8 @@ Firefox
 .
     
 Use
-|
 mach
 build
-|
 as
 normal
 to
@@ -497,11 +495,9 @@ object
 directory
 .
 Use
-|
 mach
 artifact
 last
-|
 to
 see
 what

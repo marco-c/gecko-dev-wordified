@@ -140,6 +140,7 @@ that
 Why
 :
         
+-
 Some
 files
 need
@@ -150,6 +151,7 @@ UNIFIED_SOURCES
 vs
 SOURCES
         
+-
 Some
 files
 are
@@ -166,6 +168,7 @@ per
 OS
 conditionals
         
+-
 Some
 files
 are
@@ -257,7 +260,7 @@ want
 to
 find
 the
-        
+    
 correct
 moz
 .
@@ -331,7 +334,7 @@ that
 contains
 a
 file
-        
+    
 in
 the
 same
@@ -374,7 +377,7 @@ note
 the
 longest
 length
-        
+    
 of
 a
 common
@@ -391,7 +394,7 @@ did
 full
 directories
 the
-        
+    
 result
 would
 be
@@ -412,7 +415,7 @@ down
 )
 .
 Use
-        
+    
 the
 block
 containing
@@ -559,7 +562,7 @@ event
 of
 a
 tie
-             
+            
 yielded
 17
 additional
@@ -1207,11 +1210,9 @@ assignment
 location
 will
 be
-"
 >
 SOURCES
 1
-"
 .
     
 When
@@ -1253,7 +1254,6 @@ location
 will
 be
     
-"
 >
 if
 CONFIG
@@ -1270,7 +1270,6 @@ WINNT
 >
 SOURCES
 1
-"
     
 When
 SOURCES
@@ -1661,7 +1660,7 @@ when
 it
 looks
 like
-       
+    
 third_party
 /
 libdav1d
@@ -1677,7 +1676,7 @@ when
 it
 looks
 like
-       
+    
 media
 /
 libdav1d
@@ -1879,7 +1878,7 @@ suffix
 (
 target_filename_normalized
 )
-statistic_
+statistic
     
 Using
 some
@@ -1906,7 +1905,8 @@ e
 .
 g
 .
-        
+      
+-
 "
 How
 many
@@ -1921,7 +1921,8 @@ on
 prefix
 length
 "
-        
+      
+-
 "
 How
 many
@@ -1941,7 +1942,8 @@ in
 the
 block
 "
-        
+      
+-
 "
 What
 is
@@ -4546,7 +4548,7 @@ the
 root
 of
 the
-                  
+    
 moz
 .
 build
@@ -4693,6 +4695,15 @@ directory
     
 Example
 :
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 When
 moz_yaml
@@ -6064,7 +6075,7 @@ are
 some
 issues
 :
-      
+    
 -
 third
 party
@@ -6086,10 +6097,9 @@ aren
 t
 always
 run
-        
 through
 black
-      
+    
 -
 dumping
 the

@@ -1029,9 +1029,7 @@ a
 dictionary
 containing
 the
-|
 path
-|
 of
 the
 debugger
@@ -1042,9 +1040,7 @@ it
 will
 run
 in
-|
 interactive
-|
 mode
 its
 arguments
@@ -1063,9 +1059,7 @@ the
 debugged
 program
 (
-|
 requiresEscapedArgs
-|
 )
 .
     
@@ -1079,9 +1073,7 @@ in
 the
 system
 returns
-|
 None
-|
 .
     
 :
@@ -1111,7 +1103,7 @@ pass
 to
 the
 debugger
-    
+       
 as
 a
 string
@@ -1125,8 +1117,8 @@ arguments
 are
 appended
 after
+       
 these
-    
 arguments
 .
     
@@ -1624,11 +1616,9 @@ is
 not
 found
 (
-|
 DebuggerSearch
 .
 OnlyFirst
-|
 )
 or
 keeps
@@ -1639,11 +1629,9 @@ other
 compatible
 debuggers
 (
-|
 DebuggerSearch
 .
 KeepLooking
-|
 )
 .
     

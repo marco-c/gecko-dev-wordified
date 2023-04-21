@@ -645,11 +645,9 @@ dep2
 .
 .
 .
-            
+    
 command1
-            
 command2
-            
 .
 .
 .

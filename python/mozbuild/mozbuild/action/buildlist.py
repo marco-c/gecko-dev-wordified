@@ -130,9 +130,7 @@ entries
 Given
 a
 file
-|
 listFile
-|
 containing
 one
 entry
@@ -143,9 +141,7 @@ add
 each
 entry
 in
-|
 entries
-|
 to
 the
 file

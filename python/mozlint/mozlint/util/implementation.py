@@ -171,7 +171,6 @@ mozlint
 result
 .
 Issue
-s
         
 and
 storing

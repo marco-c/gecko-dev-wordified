@@ -2968,8 +2968,8 @@ scope
 .
 This
 is
-because
       
+because
 "
 unloading
 "
@@ -2985,9 +2985,9 @@ in
 -
 process
 activations
+      
 will
 always
-      
 carry
 Mach
 '
@@ -2999,9 +2999,9 @@ it
 .
 Accordingly
 compatibility
+      
 between
 each
-      
 command
 environment
 and

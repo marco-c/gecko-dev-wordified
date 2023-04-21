@@ -353,21 +353,17 @@ event
         
 Example
 Usage
+:
         
+.
+.
+code
 -
--
--
--
--
--
--
--
--
--
--
--
--
-        
+block
+:
+:
+python
+            
 self
 .
 log
@@ -387,7 +383,7 @@ username
 johndoe
 '
 }
-            
+                
 '
 User
 login

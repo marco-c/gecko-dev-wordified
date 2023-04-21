@@ -263,10 +263,8 @@ ambient
 Python
 environment
 .
-|
 mach
 artifact
-|
 ensures
 these
 modules

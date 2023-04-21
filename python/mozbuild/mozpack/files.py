@@ -410,7 +410,7 @@ works
 as
 follows
 :
-    
+      
 -
 read
 (
@@ -429,11 +429,10 @@ read
 write
 from
 the
-      
 underlying
 file
 .
-    
+      
 -
 a
 call
@@ -454,12 +453,11 @@ the
 underlying
 file
 and
-      
 read
 from
 it
 .
-    
+      
 -
 a
 call
@@ -479,7 +477,6 @@ open
 the
 underlying
 file
-      
 emptying
 it
 and
@@ -8118,8 +8115,8 @@ a
 dictionary
 associating
 paths
-to
     
+to
 *
 Finder
 instances

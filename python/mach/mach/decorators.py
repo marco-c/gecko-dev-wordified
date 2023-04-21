@@ -1103,6 +1103,15 @@ arguments
 For
 example
 :
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 Command
 (
@@ -1544,6 +1553,15 @@ add_argument
 For
 example
 :
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 Command
 (
@@ -1795,6 +1813,14 @@ add_argument_group
 For
 example
 :
+    
+.
+.
+code
+-
+block
+:
+python
         
 Command
 (
