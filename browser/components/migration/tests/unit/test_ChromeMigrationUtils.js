@@ -49,6 +49,10 @@ getDataPath
 >
 {
 return
+Promise
+.
+resolve
+(
 do_get_file
 (
 "
@@ -65,6 +69,7 @@ Chrome
 )
 .
 path
+)
 ;
 }
 ;
