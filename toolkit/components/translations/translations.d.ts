@@ -1404,7 +1404,7 @@ mocked
 *
 /
 interface
-EnginePayload
+TranslationsEnginePayload
 {
 bergamotWasmArrayBuffer
 :
