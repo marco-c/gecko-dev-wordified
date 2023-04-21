@@ -16757,7 +16757,15 @@ exit
 .
 masm
 .
-loadWasmGlobalPtr
+loadPtr
+(
+Address
+(
+InstanceReg
+Instance
+:
+:
+offsetInGlobalArea
 (
 fi
 .
@@ -16769,6 +16777,8 @@ offsetof
 (
 FuncImportInstanceData
 callable
+)
+)
 )
 callee
 )

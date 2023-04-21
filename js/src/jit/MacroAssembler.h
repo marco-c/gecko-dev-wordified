@@ -26905,15 +26905,6 @@ riscv64
 wasm32
 )
 ;
-void
-loadWasmGlobalPtr
-(
-uint32_t
-globalDataOffset
-Register
-dest
-)
-;
 /
 /
 This
