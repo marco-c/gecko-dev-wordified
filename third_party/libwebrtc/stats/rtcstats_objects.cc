@@ -3679,6 +3679,8 @@ qp_sum
 active
 &
 power_efficient_encoder
+&
+scalability_mode
 )
 /
 /
@@ -3926,6 +3928,12 @@ power_efficient_encoder
 (
 "
 powerEfficientEncoder
+"
+)
+scalability_mode
+(
+"
+scalabilityMode
 "
 )
 {

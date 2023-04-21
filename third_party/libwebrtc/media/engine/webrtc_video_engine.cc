@@ -19638,6 +19638,14 @@ stream_stats
 .
 huge_frames_sent
 ;
+info
+.
+scalability_mode
+=
+stream_stats
+.
+scalability_mode
+;
 infos
 .
 push_back
