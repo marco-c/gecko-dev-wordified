@@ -3536,6 +3536,7 @@ report
 result
 .
 delay_detector_state
+probe_bitrate
 )
 ;
 if
