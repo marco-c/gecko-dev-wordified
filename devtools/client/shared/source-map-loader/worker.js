@@ -103,7 +103,7 @@ getOriginalSourceText
 getGeneratedRangesForOriginal
 getFileGeneratedRange
 clearSourceMaps
-applySourceMap
+setSourceMapForGeneratedSources
 }
 =
 require
@@ -228,7 +228,7 @@ getOriginalSourceText
 getOriginalStackFrames
 getGeneratedRangesForOriginal
 getFileGeneratedRange
-applySourceMap
+setSourceMapForGeneratedSources
 clearSourceMaps
 }
 )
