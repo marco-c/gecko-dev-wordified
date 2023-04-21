@@ -8738,7 +8738,13 @@ dependencies
 .
 cert_generator
 )
+std
+:
+:
+move
+(
 certificate
+)
 [
 this
 ]

@@ -401,7 +401,6 @@ rtc
 RTCCertificateGeneratorInterface
 >
 cert_generator
-const
 rtc
 :
 :
@@ -412,7 +411,6 @@ rtc
 :
 RTCCertificate
 >
-&
 certificate
 std
 :
@@ -604,17 +602,6 @@ CERTIFICATE_SUCCEEDED
 CERTIFICATE_FAILED
 }
 ;
-/
-/
-DTLS
-certificate
-request
-callback
-class
-.
-class
-WebRtcCertificateGeneratorCallback
-;
 struct
 CreateSessionDescriptionRequest
 {
@@ -769,7 +756,6 @@ OnCertificateRequestFailed
 void
 SetCertificate
 (
-const
 rtc
 :
 :
@@ -780,7 +766,6 @@ rtc
 :
 RTCCertificate
 >
-&
 certificate
 )
 ;
