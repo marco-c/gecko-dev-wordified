@@ -445,7 +445,7 @@ waitForLoad
 async
 function
 (
-uriString
+uri
 )
 {
 info
@@ -454,7 +454,7 @@ info
 Loading
 "
 +
-uriString
+uri
 )
 ;
 /
@@ -494,14 +494,7 @@ webNavigation
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
-uriString
-)
+uri
 loadURIOptions
 )
 ;
@@ -511,7 +504,7 @@ BrowserTestUtils
 browserStopped
 (
 gBrowser
-uriString
+uri
 )
 ;
 /
@@ -645,7 +638,7 @@ waitForLoadWithFlags
 async
 function
 (
-uriString
+uri
 flags
 =
 Ci
@@ -661,7 +654,7 @@ info
 Loading
 "
 +
-uriString
+uri
 +
 "
 flags
@@ -677,14 +670,7 @@ selectedBrowser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
-uriString
-)
+uri
 {
 flags
 triggeringPrincipal
@@ -705,7 +691,7 @@ BrowserTestUtils
 browserStopped
 (
 gBrowser
-uriString
+uri
 )
 ;
 if

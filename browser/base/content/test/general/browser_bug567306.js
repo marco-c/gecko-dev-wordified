@@ -148,12 +148,6 @@ selectedBrowser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 "
 data
 :
@@ -175,7 +169,6 @@ Me
 h1
 >
 "
-)
 {
 triggeringPrincipal
 :

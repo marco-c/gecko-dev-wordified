@@ -3620,7 +3620,7 @@ aStoragePrincipal
 }
 targetBrowser
 .
-fixupAndLoadURIString
+loadURI
 (
 url
 {

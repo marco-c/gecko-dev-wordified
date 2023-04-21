@@ -1229,14 +1229,7 @@ selectedBrowser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 url
-)
 {
 triggeringPrincipal
 :

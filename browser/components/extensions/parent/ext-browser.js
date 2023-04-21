@@ -856,7 +856,7 @@ replaceUrlInTab
 (
 gBrowser
 tab
-uri
+url
 )
 =
 >
@@ -867,16 +867,14 @@ loaded
 waitForTabLoaded
 (
 tab
-uri
-.
-spec
+url
 )
 ;
 gBrowser
 .
 loadURI
 (
-uri
+url
 {
 flags
 :

@@ -149,12 +149,6 @@ webNav
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 "
 chrome
 :
@@ -168,7 +162,6 @@ sanitytest
 .
 html
 "
-)
 loadURIOptions
 )
 ;

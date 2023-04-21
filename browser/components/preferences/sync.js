@@ -3028,14 +3028,7 @@ browser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 url
-)
 {
 triggeringPrincipal
 :

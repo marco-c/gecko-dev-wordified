@@ -925,14 +925,7 @@ browser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 uri
-)
 {
 triggeringPrincipal
 }
