@@ -2446,9 +2446,6 @@ updateFromManifest
 (
 extension
 .
-id
-extension
-.
 baseURI
 SearchTestUtils
 .
