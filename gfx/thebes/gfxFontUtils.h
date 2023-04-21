@@ -8183,11 +8183,7 @@ mozilla
 FontSlantStyle
 :
 :
-OBLIQUE
-.
-ObliqueAngle
-(
-)
+DEFAULT_OBLIQUE_DEGREES
 ;
 if
 (
