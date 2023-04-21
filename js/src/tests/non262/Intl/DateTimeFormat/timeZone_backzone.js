@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2022g
+2023a
 const
 tzMapper
 =
@@ -814,6 +814,17 @@ Tortola
 America
 /
 Tortola
+"
+"
+America
+/
+Yellowknife
+"
+:
+"
+America
+/
+Yellowknife
 "
 "
 Antarctica
