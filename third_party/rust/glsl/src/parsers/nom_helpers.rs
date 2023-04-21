@@ -595,6 +595,8 @@ fold_many0
 &
 mut
 f
+|
+|
 (
 )
 |
