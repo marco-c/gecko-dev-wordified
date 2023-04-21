@@ -12448,6 +12448,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 mHasDriverVersionMismatch
@@ -12471,6 +12474,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 }
 return
 GfxInfoBase
