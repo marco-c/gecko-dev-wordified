@@ -3212,7 +3212,7 @@ AllComponentsSeen
 (
 jpeg_decompress_struct
 &
-mInfo
+info
 )
 {
 bool
@@ -3222,7 +3222,7 @@ true
 ;
 if
 (
-mInfo
+info
 .
 coef_bits
 )
@@ -3236,7 +3236,7 @@ c
 ;
 c
 <
-mInfo
+info
 .
 num_components
 ;
@@ -3248,7 +3248,7 @@ c
 bool
 current_component_seen
 =
-mInfo
+info
 .
 coef_bits
 [

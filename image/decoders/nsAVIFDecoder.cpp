@@ -3554,7 +3554,6 @@ Dav1dPicture
 )
 )
 ;
-Dav1dResult
 r
 =
 GetPicture
@@ -5132,7 +5131,6 @@ alphaImg
 =
 nullptr
 ;
-DecodeResult
 r
 =
 GetImage
@@ -5571,7 +5569,6 @@ emplace
 (
 )
 ;
-aom_codec_err_t
 r
 =
 aom_codec_dec_init
@@ -5658,6 +5655,9 @@ mAlphaContext
 reset
 (
 )
+;
+return
+r
 ;
 }
 }
