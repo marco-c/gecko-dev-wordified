@@ -1907,10 +1907,6 @@ scrollbarSize
 wm
 GetDesiredScrollbarSizes
 (
-PresContext
-(
-)
-aRenderingContext
 )
 )
 ;
@@ -2038,10 +2034,6 @@ scrollbarSize
 wm
 GetDesiredScrollbarSizes
 (
-PresContext
-(
-)
-aRenderingContext
 )
 )
 ;
