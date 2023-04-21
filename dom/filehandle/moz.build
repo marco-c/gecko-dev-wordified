@@ -161,11 +161,6 @@ PBackgroundFileHandle
 ipdl
 "
 "
-PBackgroundFileRequest
-.
-ipdl
-"
-"
 PBackgroundMutableFile
 .
 ipdl
