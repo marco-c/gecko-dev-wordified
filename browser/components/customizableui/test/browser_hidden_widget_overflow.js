@@ -377,7 +377,7 @@ webExtNode
 .
 style
 .
-width
+minWidth
 =
 "
 100px
