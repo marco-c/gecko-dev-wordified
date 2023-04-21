@@ -1557,7 +1557,6 @@ in
 the
 free
 chunk
-*
 pool
 .
 *
@@ -1570,11 +1569,11 @@ options
 .
 mem
 .
-gc_min_empty_chunk_count
+gc_max_empty_chunk_count
 *
 Default
 :
-MinEmptyChunkCount
+MaxEmptyChunkCount
 *
 /
 JSGC_MAX_EMPTY_CHUNK_COUNT
