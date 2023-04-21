@@ -984,6 +984,8 @@ getFormattedString
 webextSitePerms
 .
 descriptionGatedPerms
+.
+midi
 "
 [
 testPageHost
@@ -1704,6 +1706,8 @@ getFormattedString
 webextSitePerms
 .
 descriptionGatedPerms
+.
+midi
 "
 [
 testPageHost
