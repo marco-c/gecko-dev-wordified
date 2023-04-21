@@ -4347,12 +4347,6 @@ rcx
 rax
 x86
 :
-/
-/
--
-0x21524111
-is
-0xDEADBEEF
 8b
 5d
 14
@@ -4391,8 +4385,7 @@ de
 mov
 \
 \
--
-0x21524111
+0xDEADBEEF
 %
 edi
 8b
@@ -5210,12 +5203,6 @@ rcx
 rax
 x86
 :
-/
-/
--
-0x21524111
-is
-0xDEADBEEF
 8b
 5d
 14
@@ -5254,8 +5241,7 @@ de
 mov
 \
 \
--
-0x21524111
+0xDEADBEEF
 %
 edi
 8b
