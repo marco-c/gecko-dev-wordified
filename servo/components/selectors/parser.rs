@@ -11548,10 +11548,6 @@ csswg
 .
 org
 /
-csswg
--
-drafts
-/
 selectors
 -
 4
