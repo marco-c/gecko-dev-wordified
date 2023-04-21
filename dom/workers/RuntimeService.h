@@ -791,6 +791,11 @@ return
 mShuttingDown
 ;
 }
+void
+DumpRunningWorkers
+(
+)
+;
 private
 :
 RuntimeService
