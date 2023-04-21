@@ -393,7 +393,7 @@ VCIA
 )
 ;
 const
-DEFAULT_INDEX_FILENAME
+DEFAULT_FILENAME
 =
 AppConstants
 .
@@ -405,13 +405,13 @@ win
 "
 ?
 "
-index
+Untitled
 .
 htm
 "
 :
 "
-index
+Untitled
 .
 html
 "
@@ -1996,7 +1996,7 @@ it
 filename
 =
 "
-index_002
+Untitled_002
 "
 ;
 }
@@ -3349,7 +3349,7 @@ the
 /
 /
 filename
-index
+Untitled
 .
 html
 .
@@ -3363,7 +3363,7 @@ idx
 .
 unknown
 ?
-DEFAULT_INDEX_FILENAME
+DEFAULT_FILENAME
 :
 expectedItems
 [
@@ -4569,7 +4569,7 @@ filename
 =
 =
 "
-index
+Untitled
 (
 1
 )
@@ -4632,7 +4632,7 @@ here
 filename
 =
 "
-index
+Untitled
 "
 ;
 }
