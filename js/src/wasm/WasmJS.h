@@ -3382,7 +3382,7 @@ cx
 )
 ;
 static
-bool
+void
 discard
 (
 Handle
