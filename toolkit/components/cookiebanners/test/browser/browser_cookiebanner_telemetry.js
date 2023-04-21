@@ -61,7 +61,6 @@ const
 MODE_DISABLED
 MODE_REJECT
 MODE_REJECT_OR_ACCEPT
-MODE_DETECT_ONLY
 MODE_UNSET
 }
 =
@@ -76,7 +75,6 @@ TEST_MODES
 MODE_DISABLED
 MODE_REJECT
 MODE_REJECT_OR_ACCEPT
-MODE_DETECT_ONLY
 MODE_UNSET
 /
 /
@@ -130,14 +128,6 @@ MODE_REJECT_OR_ACCEPT
 return
 "
 reject_or_accept
-"
-;
-case
-MODE_DETECT_ONLY
-:
-return
-"
-detect_only
 "
 ;
 }
@@ -987,9 +977,6 @@ reject
 "
 "
 reject_or_accept
-"
-"
-detect_only
 "
 "
 invalid
