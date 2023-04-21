@@ -257,7 +257,7 @@ namespace
 js
 {
 using
-JSFunctionVector
+JSObjectVector
 =
 GCVector
 <

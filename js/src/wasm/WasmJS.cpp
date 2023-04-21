@@ -12587,7 +12587,7 @@ SharedTableVector
 &
 tables
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 const

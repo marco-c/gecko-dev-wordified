@@ -12056,7 +12056,7 @@ JSContext
 *
 cx
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 const

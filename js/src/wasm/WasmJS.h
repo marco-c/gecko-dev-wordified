@@ -2573,7 +2573,7 @@ SystemAllocPolicy
 &
 tables
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 const

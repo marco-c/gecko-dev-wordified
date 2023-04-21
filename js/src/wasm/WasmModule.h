@@ -359,7 +359,7 @@ barriers
 struct
 ImportValues
 {
-JSFunctionVector
+JSObjectVector
 funcs
 ;
 WasmTableObjectVector
@@ -775,7 +775,7 @@ JSContext
 *
 cx
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 )
