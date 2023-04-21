@@ -1885,7 +1885,6 @@ new_
 FunctionBox
 >
 (
-cx_
 fc_
 extent
 compilationState_
@@ -2082,7 +2081,6 @@ new_
 FunctionBox
 >
 (
-cx_
 fc_
 cachedScriptExtra
 .
@@ -2517,7 +2515,6 @@ forceStrictMode
 GlobalSharedContext
 globalsc
 (
-cx_
 this
 -
 >

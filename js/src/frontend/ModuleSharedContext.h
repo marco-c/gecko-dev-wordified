@@ -178,10 +178,6 @@ js
 :
 :
 ModuleScope
-struct
-JS_PUBLIC_API
-JSContext
-;
 namespace
 JS
 {
@@ -224,9 +220,6 @@ builder
 ;
 ModuleSharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
