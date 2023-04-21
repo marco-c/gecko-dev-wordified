@@ -975,7 +975,6 @@ test_closed_0ms
 (
 )
 {
-await
 test_closed
 (
 "
@@ -995,7 +994,6 @@ test_closed_100ms
 (
 )
 {
-await
 test_closed
 (
 "
@@ -1435,7 +1433,7 @@ https
 host
 }
 /
-create_unidi_stream_and_hello
+create_unidi_stream
 )
 Services
 .
@@ -1533,7 +1531,7 @@ equal
 (
 data
 "
-qwerty
+0123456789
 "
 )
 ;
