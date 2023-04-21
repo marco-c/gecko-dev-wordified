@@ -1170,7 +1170,10 @@ webrender_build
 shader
 :
 :
+{
 ProgramSourceDigest
+ShaderKind
+}
 ;
 pub
 use
