@@ -196,13 +196,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -335,9 +328,6 @@ nsStandardURL
 /
 /
 static
-mozilla
-:
-:
 LazyLogModule
 gStandardURLLog
 (

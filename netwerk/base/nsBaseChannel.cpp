@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsICancelable
-.
-h
-"
-#
-include
-"
 nsIChannelEventSink
 .
 h
