@@ -1042,6 +1042,11 @@ webtransport
 (
 webtransport
 )
+.
+http3_datagram
+(
+webtransport
+)
 ;
 let
 mut
