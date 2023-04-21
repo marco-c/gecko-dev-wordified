@@ -5349,23 +5349,6 @@ in
 try_name
 :
                     
-if
-"
-tp6
-"
-in
-try_name
-and
-"
-macosx1014
-"
-in
-platform
-:
-                        
-return
-False
-                    
 return
 True
                 
@@ -5376,23 +5359,6 @@ chromium
 in
 try_name
 :
-                    
-if
-"
-tp6
-"
-in
-try_name
-and
-"
-macosx1014
-"
-in
-platform
-:
-                        
-return
-False
                     
 return
 True
