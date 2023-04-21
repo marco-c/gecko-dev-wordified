@@ -161,16 +161,6 @@ js
 "
 )
 ;
-const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
 /
 /
 xpcshell

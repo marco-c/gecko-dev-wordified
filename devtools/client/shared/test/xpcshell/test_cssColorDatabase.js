@@ -94,16 +94,6 @@ js
 "
 )
 ;
-const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
 function
 isValid
 (

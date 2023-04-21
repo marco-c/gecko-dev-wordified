@@ -744,7 +744,6 @@ modules
 =
 {
 HeapSnapshot
-InspectorUtils
 /
 /
 Expose

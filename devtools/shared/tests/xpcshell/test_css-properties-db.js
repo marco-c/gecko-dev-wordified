@@ -301,16 +301,6 @@ mjs
 "
 )
 ;
-const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
 function
 run_test
 (

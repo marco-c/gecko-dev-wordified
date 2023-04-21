@@ -77,16 +77,6 @@ head
 "
 )
 ;
-const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
 /
 *
 *
