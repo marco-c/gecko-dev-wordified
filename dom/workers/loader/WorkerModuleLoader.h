@@ -354,6 +354,14 @@ GetScriptLoader
 (
 )
 ;
+nsIURI
+*
+GetBaseURI
+(
+)
+const
+override
+;
 already_AddRefed
 <
 ModuleLoadRequest

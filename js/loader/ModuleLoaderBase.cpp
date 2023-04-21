@@ -4894,9 +4894,6 @@ else
 {
 baseURL
 =
-mLoader
--
->
 GetBaseURI
 (
 )
