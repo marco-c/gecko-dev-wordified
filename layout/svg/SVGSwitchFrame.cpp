@@ -1401,9 +1401,8 @@ underway
 bool
 isFirstReflow
 =
+HasAnyStateBits
 (
-mState
-&
 NS_FRAME_FIRST_REFLOW
 )
 ;

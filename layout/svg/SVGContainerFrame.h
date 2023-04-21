@@ -294,7 +294,7 @@ g
 )
 inherit
 our
-nsDisplayContainerFrame
+SVGDisplayContainerFrame
 sub
 -
 class
