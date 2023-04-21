@@ -5548,6 +5548,16 @@ rawObj
 .
 columnNumber
 )
+stack
+:
+hooks
+.
+createValueGrip
+(
+rawObj
+.
+stack
+)
 }
 ;
 return
