@@ -8913,6 +8913,13 @@ total
 xsimd
 :
 :
+batch
+<
+float
+Arch
+>
+:
+:
 load_aligned
 (
 bias_addr
@@ -8933,6 +8940,13 @@ total
 )
 +
 xsimd
+:
+:
+batch
+<
+float
+Arch
+>
 :
 :
 load_aligned
