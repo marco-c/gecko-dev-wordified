@@ -3638,6 +3638,14 @@ getSelectedSource
 state
 )
 ;
+const
+selectedLocation
+=
+getSelectedLocation
+(
+state
+)
+;
 return
 {
 cx
@@ -3647,11 +3655,6 @@ getThreadContext
 state
 )
 selectedLocation
-:
-getSelectedLocation
-(
-state
-)
 selectedSource
 selectedSourceTextContent
 :
@@ -3693,7 +3696,7 @@ symbols
 getSymbols
 (
 state
-selectedSource
+selectedLocation
 )
 isPaused
 :
