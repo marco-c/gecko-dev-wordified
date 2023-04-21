@@ -1939,7 +1939,7 @@ hasLiveRuntimes
 js
 :
 :
-WasmReservedBytes
+LiveMappedBufferCount
 (
 )
 )
