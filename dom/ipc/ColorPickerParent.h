@@ -189,6 +189,11 @@ Clone
 )
 {
 }
+NS_INLINE_DECL_REFCOUNTING
+(
+ColorPickerParent
+final
+)
 virtual
 mozilla
 :

@@ -273,10 +273,6 @@ mMode
 =
 aMode
 ;
-NS_ADDREF_THIS
-(
-)
-;
 browserChild
 -
 >
