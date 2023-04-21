@@ -208,11 +208,6 @@ continualGatheringPolicy
 _continualGatheringPolicy
 ;
 synthesize
-disableIPV6
-=
-_disableIPV6
-;
-synthesize
 disableIPV6OnWiFi
 =
 _disableIPV6OnWiFi
@@ -668,12 +663,6 @@ continualGatheringPolicyForNativePolicy
 :
 nativePolicy
 ]
-;
-_disableIPV6
-=
-config
-.
-disable_ipv6
 ;
 _disableIPV6OnWiFi
 =
@@ -1213,7 +1202,6 @@ _shouldPresumeWritableWhenFullyRelayed
 _shouldSurfaceIceCandidatesOnIceTransportTypeChanged
 _iceCheckMinInterval
 _disableLinkLocalNetworks
-_disableIPV6
 _disableIPV6OnWiFi
 _maxIPv6Networks
 _activeResetSrtpParams
@@ -1399,13 +1387,6 @@ nativeContinualGatheringPolicyForPolicy
 :
 _continualGatheringPolicy
 ]
-;
-nativeConfig
--
->
-disable_ipv6
-=
-_disableIPV6
 ;
 nativeConfig
 -
