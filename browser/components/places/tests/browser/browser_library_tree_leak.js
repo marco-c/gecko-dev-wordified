@@ -163,13 +163,6 @@ await
 synthesizeClickOnSelectedTreeCell
 (
 tree
-{
-type
-:
-"
-mousedown
-"
-}
 )
 ;
 await
