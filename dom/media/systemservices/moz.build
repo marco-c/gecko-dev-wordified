@@ -388,13 +388,6 @@ cc
 "
 video_engine
 /
-platform_uithread
-.
-cc
-"
-"
-video_engine
-/
 tab_capturer
 .
 cc
