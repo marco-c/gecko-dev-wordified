@@ -1473,7 +1473,7 @@ NimbusFeatures
 .
 pocketNewtab
 "
-off
+offUpdate
 "
 )
 ;
@@ -1487,7 +1487,7 @@ NimbusFeatures
 .
 newtab
 "
-off
+offUpdate
 "
 )
 ;
@@ -1507,7 +1507,7 @@ NimbusFeatures
 .
 pocketNewtab
 .
-off
+offUpdate
 feed
 .
 onPocketExperimentUpdated
@@ -1523,7 +1523,7 @@ NimbusFeatures
 .
 newtab
 .
-off
+offUpdate
 feed
 .
 onExperimentUpdated

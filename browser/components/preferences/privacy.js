@@ -12331,7 +12331,7 @@ NimbusFeatures
 .
 urlbar
 .
-off
+offUpdate
 (
 onNimbus
 )
@@ -17159,7 +17159,7 @@ NimbusFeatures
 .
 majorRelease2022
 .
-off
+offUpdate
 (
 updatePrivacySegmentationSectionVisibilityState
 )

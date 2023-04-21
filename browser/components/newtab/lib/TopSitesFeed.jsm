@@ -1903,7 +1903,7 @@ NimbusFeatures
 .
 newtab
 .
-off
+offUpdate
 (
 this
 .

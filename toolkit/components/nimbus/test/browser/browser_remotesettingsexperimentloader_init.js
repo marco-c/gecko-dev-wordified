@@ -261,13 +261,9 @@ ExperimentFakes
 waitForExperimentUpdate
 (
 ExperimentAPI
-{
-slug
-:
 recipe1
 .
 slug
-}
 )
 ;
 ExperimentManager
