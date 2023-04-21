@@ -3963,7 +3963,7 @@ true
 /
 /
 EditActions
-chaning
+changing
 format
 around
 selection
