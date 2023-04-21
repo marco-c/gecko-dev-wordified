@@ -3150,6 +3150,12 @@ GetTextDirection
 (
 )
 ;
+bool
+DrawsToCSDTitlebar
+(
+)
+const
+;
 void
 AddCSDDecorationSize
 (
