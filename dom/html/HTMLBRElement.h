@@ -292,7 +292,6 @@ NS_IMPL_FROMNODE_HTML_WITH_TAG
 HTMLBRElement
 br
 )
-virtual
 bool
 ParseAttribute
 (
@@ -328,7 +327,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -336,7 +334,6 @@ GetAttributeMappingFunction
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -357,6 +354,7 @@ bool
 Clear
 (
 )
+const
 {
 return
 GetBoolAttr
@@ -412,7 +410,6 @@ aClear
 )
 ;
 }
-virtual
 JSObject
 *
 WrapNode
