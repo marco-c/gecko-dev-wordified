@@ -1694,6 +1694,10 @@ mManager
 (
 nullptr
 )
+mBuilder
+(
+nullptr
+)
 mIsFirstPaint
 (
 false
