@@ -22107,7 +22107,6 @@ nsContentUtils
 StringifyJSON
 (
 cx
-&
 value
 serializedValue
 )
@@ -22124,14 +22123,14 @@ aCx
 JS
 :
 :
-MutableHandle
+Handle
 <
 JS
 :
 :
 Value
 >
-vp
+aValue
 nsAString
 &
 aOutStr

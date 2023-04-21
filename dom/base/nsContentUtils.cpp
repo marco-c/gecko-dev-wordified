@@ -67024,7 +67024,7 @@ aCx
 JS
 :
 :
-MutableHandle
+Handle
 <
 JS
 :
@@ -67062,10 +67062,6 @@ value
 (
 aCx
 aValue
-.
-get
-(
-)
 )
 ;
 nsAutoString

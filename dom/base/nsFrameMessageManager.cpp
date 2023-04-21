@@ -3274,7 +3274,6 @@ nsContentUtils
 StringifyJSON
 (
 aCx
-&
 v
 json
 )

@@ -1576,7 +1576,6 @@ cx
 GetJSContext
 (
 )
-&
 jsval
 json
 )

@@ -981,7 +981,6 @@ nsContentUtils
 StringifyJSON
 (
 aCx
-&
 val
 data
 )
