@@ -3631,15 +3631,6 @@ rhsId
 )
 ;
 AttachDecision
-tryAttachNumberUndefined
-(
-ValOperandId
-lhsId
-ValOperandId
-rhsId
-)
-;
-AttachDecision
 tryAttachAnyNullUndefined
 (
 ValOperandId
