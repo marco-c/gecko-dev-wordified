@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 FRAME_SCRIPT_URL
 =
@@ -1760,6 +1755,7 @@ removeCrashReportAnnotation
 }
 }
 ;
+export
 function
 SanityTest
 (
@@ -2490,13 +2486,4 @@ sanityTest
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SanityTest
-"
-]
 ;
