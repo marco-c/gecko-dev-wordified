@@ -303,12 +303,6 @@ aWindow
 mScreenOrientation
 (
 new
-mozilla
-:
-:
-dom
-:
-:
 ScreenOrientation
 (
 aWindow
@@ -967,12 +961,6 @@ GetOrientationType
 )
 ;
 }
-mozilla
-:
-:
-dom
-:
-:
 ScreenOrientation
 *
 nsScreen
