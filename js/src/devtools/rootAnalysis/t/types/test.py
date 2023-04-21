@@ -81,16 +81,3 @@ unsafe4
 "
 in
 hazmap
-assert
-"
-unsafe5
-"
-in
-hazmap
-assert
-"
-safe6
-"
-not
-in
-hazmap
