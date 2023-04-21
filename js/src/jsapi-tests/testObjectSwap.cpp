@@ -164,6 +164,15 @@ checked
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 js
 /
 AllocPolicy
@@ -2326,7 +2335,7 @@ buffer
 32
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buffer
 "
