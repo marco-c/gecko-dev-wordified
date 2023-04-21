@@ -1551,6 +1551,8 @@ pref
 )
 ;
 }
+else
+{
 nsCString
 failureId
 ;
@@ -1676,6 +1678,7 @@ gfxInfo
 failureId
 )
 ;
+}
 }
 if
 (
