@@ -491,12 +491,14 @@ aEndOffset
 )
 override
 ;
+virtual
 bool
 RemoveFromSelection
 (
 int32_t
 aSelectionNum
 )
+override
 ;
 void
 ScrollSubstringTo

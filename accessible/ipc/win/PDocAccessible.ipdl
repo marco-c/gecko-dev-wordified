@@ -947,6 +947,15 @@ int32_t
 aSelectionNum
 )
 ;
+async
+RemoveTextSelection
+(
+uint64_t
+aID
+int32_t
+aSelectionNum
+)
+;
 /
 *
 *
