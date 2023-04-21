@@ -23,6 +23,16 @@ size
 ]
 >
 4
+|
+|
+getBuildConfiguration
+(
+)
+[
+"
+android
+"
+]
 /
 /
 On
