@@ -170,6 +170,15 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
 nsHtml5TreeBuilder
 :
 :
@@ -1062,6 +1071,9 @@ ATTR_LOADING
 if
 (
 !
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -1797,6 +1809,9 @@ crossOrigin
 else
 if
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -4871,6 +4886,9 @@ mImportScanner
 .
 Scan
 (
+mozilla
+:
+:
 Span
 (
 aBuffer
@@ -7998,6 +8016,9 @@ mOpQueue
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_OUT_OF_MEMORY

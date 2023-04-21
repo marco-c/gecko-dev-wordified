@@ -172,6 +172,17 @@ mozilla
 /
 dom
 /
+DocGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentType
 .
 h

@@ -603,6 +603,9 @@ aHighlighter
 {
 mViewSource
 =
+mozilla
+:
+:
 WrapUnique
 (
 aHighlighter

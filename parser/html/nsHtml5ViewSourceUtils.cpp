@@ -149,6 +149,9 @@ klass
 ;
 if
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -170,6 +173,9 @@ wrap
 }
 if
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -223,6 +229,9 @@ klass
 int32_t
 tabSize
 =
+mozilla
+:
+:
 StaticPrefs
 :
 :

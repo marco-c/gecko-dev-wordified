@@ -384,6 +384,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h
@@ -1444,6 +1451,12 @@ false
 ;
 if
 (
+mozilla
+:
+:
+dom
+:
+:
 BrowsingContext
 *
 bc
