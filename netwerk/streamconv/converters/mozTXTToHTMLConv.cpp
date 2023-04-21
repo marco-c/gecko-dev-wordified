@@ -1435,7 +1435,7 @@ case
 RFC2396E
 :
 {
-nsString
+nsDependentSubstring
 temp
 (
 aInString
@@ -2061,7 +2061,7 @@ case
 RFC2396E
 :
 {
-nsString
+nsDependentSubstring
 temp
 (
 aInString
@@ -9119,7 +9119,10 @@ i
 =
 lengthOfInString
 ;
-nsString
+nsAutoStringN
+<
+256
+>
 tempString
 ;
 tempString
