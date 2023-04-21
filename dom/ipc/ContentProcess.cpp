@@ -179,6 +179,15 @@ Sandbox
 h
 "
 #
+include
+"
+mozilla
+/
+SandboxSettings
+.
+h
+"
+#
 endif
 #
 include
