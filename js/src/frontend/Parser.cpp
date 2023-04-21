@@ -1097,9 +1097,6 @@ ParserSharedBase
 :
 ParserSharedBase
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1110,10 +1107,6 @@ Kind
 kind
 )
 :
-cx_
-(
-cx
-)
 fc_
 (
 fc
@@ -1215,9 +1208,6 @@ ParserBase
 :
 ParserBase
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1239,7 +1229,6 @@ compilationState
 :
 ParserSharedBase
 (
-cx
 fc
 compilationState
 ParserSharedBase
@@ -1388,9 +1377,6 @@ ParseHandler
 :
 PerHandlerParser
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1415,7 +1401,6 @@ internalSyntaxParser
 :
 ParserBase
 (
-cx
 fc
 stackLimit
 options
@@ -1467,9 +1452,6 @@ Unit
 :
 GeneralParser
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1500,7 +1482,6 @@ syntaxParser
 :
 Base
 (
-cx
 fc
 stackLimit
 options
