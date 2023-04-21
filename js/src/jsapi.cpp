@@ -967,6 +967,17 @@ include
 "
 vm
 /
+JSFunction
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSScript
 -
 inl
