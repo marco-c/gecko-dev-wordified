@@ -197,9 +197,9 @@ needed
 bool
 PushNameOrDescriptionChange
 (
-LocalAccessible
+AccEvent
 *
-aTarget
+aOrigEvent
 )
 ;
 /
