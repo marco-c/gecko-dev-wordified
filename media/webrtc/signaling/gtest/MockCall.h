@@ -821,7 +821,7 @@ mStats
 ;
 }
 void
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 const
 std
