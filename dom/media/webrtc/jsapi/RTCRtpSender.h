@@ -973,6 +973,11 @@ MaybeGetJsepRids
 )
 ;
 void
+UpdateDtmfSender
+(
+)
+;
+void
 WarnAboutBadSetParameters
 (
 const
@@ -980,6 +985,12 @@ nsCString
 &
 aError
 )
+;
+WatchManager
+<
+RTCRtpSender
+>
+mWatchManager
 ;
 nsCOMPtr
 <
