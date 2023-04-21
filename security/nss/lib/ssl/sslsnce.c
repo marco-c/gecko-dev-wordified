@@ -11558,7 +11558,7 @@ SECSuccess
 ;
 }
 static
-PRBool
+SECStatus
 ssl_GenerateSelfEncryptKeys
 (
 void
