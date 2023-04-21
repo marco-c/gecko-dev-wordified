@@ -956,11 +956,16 @@ const
 win
 =
 browser
+?
 .
 ownerGlobal
 ;
 if
 (
+!
+win
+|
+|
 lazy
 .
 PrivateBrowsingUtils
