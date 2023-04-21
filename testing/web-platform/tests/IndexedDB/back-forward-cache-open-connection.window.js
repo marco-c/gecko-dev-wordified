@@ -194,7 +194,7 @@ test_idb
 )
 ;
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 /
@@ -332,7 +332,7 @@ NotRestoredReasonToReportString
 )
 .
 await
-assert_not_bfcached
+assertNotRestoredFromBFCache
 (
 rc1
 [

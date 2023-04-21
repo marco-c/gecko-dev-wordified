@@ -264,7 +264,7 @@ reported
 reasons
 .
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 /
@@ -364,7 +364,7 @@ stay
 there
 .
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 /

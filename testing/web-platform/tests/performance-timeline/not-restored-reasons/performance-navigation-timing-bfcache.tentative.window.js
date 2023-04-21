@@ -222,7 +222,7 @@ successful
 restore
 .
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 /

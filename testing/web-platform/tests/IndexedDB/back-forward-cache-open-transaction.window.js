@@ -381,7 +381,7 @@ resolve
 )
 ;
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 /
