@@ -667,6 +667,12 @@ Flush
 override
 ;
 NS_IMETHOD
+StreamStatus
+(
+)
+override
+;
+NS_IMETHOD
 WriteSegments
 (
 nsReadSegmentFun
