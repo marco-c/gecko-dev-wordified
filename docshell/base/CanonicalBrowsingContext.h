@@ -2464,6 +2464,14 @@ RecomputeAppWindowVisibility
 (
 )
 ;
+already_AddRefed
+<
+nsISHEntry
+>
+GetMostRecentLoadingSessionHistoryEntry
+(
+)
+;
 protected
 :
 /
