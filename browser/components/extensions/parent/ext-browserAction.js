@@ -4818,7 +4818,7 @@ getStateMessageIDs
 (
 {
 policy
-uri
+tab
 :
 node
 .
@@ -4826,7 +4826,7 @@ ownerGlobal
 .
 gBrowser
 .
-currentURI
+selectedTab
 isAction
 :
 true
