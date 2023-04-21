@@ -835,7 +835,7 @@ FormAutofillStorage
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -846,7 +846,9 @@ autofill
 /
 FormAutofillStorage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1238,7 +1240,7 @@ FormAutofillHeuristics
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1249,7 +1251,9 @@ autofill
 /
 FormAutofillHeuristics
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
@@ -1263,7 +1267,7 @@ LabelUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1274,7 +1278,9 @@ autofill
 /
 FormAutofillUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
