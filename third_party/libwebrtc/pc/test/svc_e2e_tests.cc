@@ -2432,8 +2432,6 @@ L3T1h
 3
 1
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2443,8 +2441,6 @@ L3T1_KEY
 3
 1
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2465,8 +2461,6 @@ L3T2h
 3
 2
 }
-/
-/
 SvcTestParameters
 {
 kVp9CodecName
@@ -2857,8 +2851,6 @@ L3T1h
 3
 1
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
@@ -2868,8 +2860,6 @@ L3T1_KEY
 3
 1
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
@@ -2890,8 +2880,6 @@ L3T2h
 3
 2
 }
-/
-/
 SvcTestParameters
 {
 kAv1CodecName
