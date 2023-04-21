@@ -155,9 +155,7 @@ vp9
 /
 encoder
 /
-x86
-/
-temporal_filter_constants
+vp9_temporal_filter_constants
 .
 h
 "

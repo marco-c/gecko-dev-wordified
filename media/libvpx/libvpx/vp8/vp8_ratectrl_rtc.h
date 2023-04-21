@@ -197,7 +197,7 @@ VP8RateControlRTC
 (
 )
 ;
-void
+bool
 UpdateRateControl
 (
 const
@@ -274,7 +274,7 @@ VP8RateControlRTC
 )
 {
 }
-void
+bool
 InitRateControl
 (
 const

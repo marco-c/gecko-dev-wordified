@@ -6522,8 +6522,10 @@ retval
 VPX_CODEC_OK
 *
 The
-decoder
+encoder
 algorithm
+has
+been
 initialized
 .
 *

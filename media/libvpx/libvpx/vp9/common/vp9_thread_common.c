@@ -2069,9 +2069,6 @@ lf_sync
 recon_done_mutex
 )
 {
-int
-i
-;
 for
 (
 i
@@ -2132,9 +2129,6 @@ lf_sync
 recon_done_cond
 )
 {
-int
-i
-;
 for
 (
 i

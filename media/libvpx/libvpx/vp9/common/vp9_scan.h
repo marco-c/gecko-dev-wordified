@@ -147,6 +147,7 @@ MAX_NEIGHBORS
 2
 typedef
 struct
+ScanOrder
 {
 const
 int16_t
@@ -164,11 +165,11 @@ int16_t
 neighbors
 ;
 }
-scan_order
+ScanOrder
 ;
 extern
 const
-scan_order
+ScanOrder
 vp9_default_scan_orders
 [
 TX_SIZES
@@ -176,7 +177,7 @@ TX_SIZES
 ;
 extern
 const
-scan_order
+ScanOrder
 vp9_scan_orders
 [
 TX_SIZES
@@ -238,7 +239,7 @@ c
 static
 INLINE
 const
-scan_order
+ScanOrder
 *
 get_scan
 (

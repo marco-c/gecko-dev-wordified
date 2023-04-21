@@ -8767,7 +8767,7 @@ vp9_default_iscan_32x32
 }
 ;
 const
-scan_order
+ScanOrder
 vp9_default_scan_orders
 [
 TX_SIZES
@@ -8797,7 +8797,7 @@ default_scan_32x32_neighbors
 }
 ;
 const
-scan_order
+ScanOrder
 vp9_scan_orders
 [
 TX_SIZES

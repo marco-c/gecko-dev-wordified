@@ -6383,7 +6383,7 @@ max_blocks_wide
 )
 {
 const
-scan_order
+ScanOrder
 *
 const
 scan_order

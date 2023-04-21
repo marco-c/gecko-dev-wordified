@@ -3808,7 +3808,7 @@ scan
 nb
 ;
 const
-scan_order
+ScanOrder
 *
 so
 ;
