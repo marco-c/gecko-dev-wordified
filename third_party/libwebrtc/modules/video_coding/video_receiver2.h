@@ -443,7 +443,7 @@ the
 decoder
 thread
 .
-VCMDecoderDataBase
+VCMDecoderDatabase
 codec_database_
 ;
 }
