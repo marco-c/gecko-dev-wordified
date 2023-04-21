@@ -1099,6 +1099,8 @@ YES
 }
 mContainerStatusBarItem
 .
+button
+.
 image
 =
 menuImage
