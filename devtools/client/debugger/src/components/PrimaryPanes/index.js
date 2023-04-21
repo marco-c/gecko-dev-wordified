@@ -136,7 +136,6 @@ selectors
 ;
 import
 {
-features
 prefs
 }
 from
@@ -401,18 +400,6 @@ renderOutlineTabs
 (
 )
 {
-if
-(
-!
-features
-.
-outline
-)
-{
-return
-null
-;
-}
 const
 sources
 =
