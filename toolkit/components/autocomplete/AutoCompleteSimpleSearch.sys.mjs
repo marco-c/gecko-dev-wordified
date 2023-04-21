@@ -64,6 +64,7 @@ See
 nsIAutoCompleteSimpleSearch
 *
 /
+export
 class
 AutoCompleteSimpleSearch
 {
@@ -239,12 +240,3 @@ stopSearch
 {
 }
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-AutoCompleteSimpleSearch
-"
-]
-;
