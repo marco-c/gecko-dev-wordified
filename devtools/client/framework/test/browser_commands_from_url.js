@@ -204,9 +204,6 @@ assertTarget
 (
 target
 url
-chrome
-=
-false
 )
 {
 is
@@ -215,14 +212,6 @@ target
 .
 url
 url
-)
-;
-is
-(
-target
-.
-chrome
-chrome
 )
 ;
 is
@@ -628,7 +617,6 @@ topWindow
 location
 .
 href
-true
 )
 ;
 await
@@ -992,7 +980,6 @@ topWindow
 location
 .
 href
-true
 )
 ;
 const
@@ -1172,7 +1159,6 @@ topWindow
 location
 .
 href
-true
 )
 ;
 const
