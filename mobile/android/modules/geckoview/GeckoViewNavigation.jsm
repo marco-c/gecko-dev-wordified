@@ -77,7 +77,7 @@ GeckoViewModule
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -90,7 +90,9 @@ modules
 /
 GeckoViewModule
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
