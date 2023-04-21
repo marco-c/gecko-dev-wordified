@@ -2398,6 +2398,10 @@ get
 )
 nullptr
 PRINCIPAL_HANDLE_NONE
+PrincipalPrivacy
+:
+:
+NonPrivate
 )
 ;
 audio_pipeline_
