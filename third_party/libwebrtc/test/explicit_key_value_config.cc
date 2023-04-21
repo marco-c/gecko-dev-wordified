@@ -108,15 +108,6 @@ h
 #
 include
 "
-api
-/
-field_trials_view
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 checks
@@ -415,7 +406,7 @@ string
 ExplicitKeyValueConfig
 :
 :
-Lookup
+GetValue
 (
 absl
 :

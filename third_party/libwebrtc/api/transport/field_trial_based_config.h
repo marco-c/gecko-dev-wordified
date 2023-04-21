@@ -109,7 +109,7 @@ include
 "
 api
 /
-field_trials_view
+field_trials_registry
 .
 h
 "
@@ -134,15 +134,15 @@ class
 FieldTrialBasedConfig
 :
 public
-FieldTrialsView
+FieldTrialsRegistry
 {
-public
+private
 :
 std
 :
 :
 string
-Lookup
+GetValue
 (
 absl
 :
