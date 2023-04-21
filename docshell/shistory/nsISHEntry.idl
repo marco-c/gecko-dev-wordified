@@ -759,14 +759,6 @@ attribute
 nsIInputStream
 postData
 ;
-[
-infallible
-]
-readonly
-attribute
-boolean
-hasPostData
-;
 /
 *
 *
