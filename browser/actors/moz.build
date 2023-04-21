@@ -568,7 +568,9 @@ mjs
 "
 PromptParent
 .
-jsm
+sys
+.
+mjs
 "
 "
 RefreshBlockerChild
@@ -614,7 +616,9 @@ mjs
 "
 SwitchDocumentDirectionChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 WebRTCChild
