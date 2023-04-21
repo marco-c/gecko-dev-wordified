@@ -2040,6 +2040,11 @@ RenderTextureHost
 >
 mPrevTexture
 ;
+int
+mSlowPresentCount
+=
+0
+;
 }
 ;
 /
