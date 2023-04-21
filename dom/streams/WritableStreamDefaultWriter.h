@@ -435,9 +435,6 @@ ReleaseLock
 JSContext
 *
 aCx
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -530,9 +527,6 @@ JS
 Value
 >
 aError
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -552,9 +546,6 @@ JS
 Value
 >
 aError
-ErrorResult
-&
-aRv
 )
 ;
 Nullable
@@ -577,9 +568,6 @@ aCx
 WritableStreamDefaultWriter
 *
 aWriter
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
