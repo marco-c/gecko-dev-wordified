@@ -213,6 +213,13 @@ SamplesStatsCounter
 (
 )
 ;
+explicit
+SamplesStatsCounter
+(
+size_t
+expected_samples_count
+)
+;
 ~
 SamplesStatsCounter
 (
