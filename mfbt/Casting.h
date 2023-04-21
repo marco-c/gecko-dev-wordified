@@ -1098,11 +1098,6 @@ aIn
 if
 (
 asInteger
-<
-0
-|
-|
-asInteger
 >
 outMax
 )
