@@ -127,7 +127,6 @@ plain
 text
 *
 /
-async
 function
 translateElements
 (
@@ -135,23 +134,6 @@ container
 items
 )
 {
-/
-/
-We
-need
-to
-wait
-for
-fluent
-to
-initialize
-await
-document
-.
-l10n
-.
-ready
-;
 items
 .
 forEach
@@ -246,17 +228,7 @@ id
 }
 )
 ;
-document
-.
-l10n
-.
-translateFragment
-(
-container
-)
-;
 }
-async
 function
 renderInfo
 (
@@ -380,7 +352,6 @@ remove
 )
 ;
 }
-await
 translateElements
 (
 container
@@ -1071,7 +1042,6 @@ remove
 )
 ;
 }
-await
 translateElements
 (
 container
@@ -1342,7 +1312,6 @@ remove
 the
 promo
 .
-async
 function
 handlePromoOnPreload
 (
@@ -1546,7 +1515,6 @@ e
 {
 }
 }
-await
 renderInfo
 (
 config
@@ -1555,7 +1523,6 @@ config
 let
 hasRendered
 =
-await
 renderPromo
 (
 config
@@ -1574,7 +1541,6 @@ recordOnceVisible
 message
 )
 ;
-await
 handlePromoOnPreload
 (
 message
