@@ -676,8 +676,10 @@ GetOverscrollAmount
 )
 )
 ;
-if
-(
+bool
+haveAsyncZoom
+=
+!
 FuzzyEqualsAdditive
 (
 asyncZoom
@@ -685,6 +687,11 @@ asyncZoom
 .
 f
 )
+;
+if
+(
+!
+haveAsyncZoom
 &
 &
 mApzc
@@ -1104,6 +1111,11 @@ curPos
 *
 thumbPosRatio
 ;
+if
+(
+haveAsyncZoom
+)
+{
 /
 /
 When
@@ -1149,6 +1161,7 @@ ScrollThumbExtent
 Start
 )
 ;
+}
 /
 /
 If
