@@ -1016,11 +1016,6 @@ NSSInitContext
 *
 nss
 ;
-(
-void
-)
-tlen
-;
 debug_print
 (
 srtp_mod_aes_icm
@@ -1958,11 +1953,6 @@ cv
 ;
 v128_t
 nonce
-;
-(
-void
-)
-dir
 ;
 /
 *

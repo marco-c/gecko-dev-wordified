@@ -393,7 +393,6 @@ its
 datatype
 *
 /
-static
 srtp_crypto_kernel_t
 crypto_kernel
 =
@@ -444,7 +443,6 @@ MAX_RNG_TRIALS
 srtp_err_status_t
 srtp_crypto_kernel_init
 (
-void
 )
 {
 srtp_err_status_t
@@ -845,7 +843,6 @@ srtp_err_status_ok
 srtp_err_status_t
 srtp_crypto_kernel_status
 (
-void
 )
 {
 srtp_err_status_t
@@ -1089,7 +1086,6 @@ srtp_err_status_ok
 srtp_err_status_t
 srtp_crypto_kernel_list_debug_modules
 (
-void
 )
 {
 srtp_kernel_debug_module_t
@@ -1199,7 +1195,6 @@ srtp_err_status_ok
 srtp_err_status_t
 srtp_crypto_kernel_shutdown
 (
-void
 )
 {
 /

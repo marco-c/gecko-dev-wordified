@@ -403,7 +403,6 @@ MAX_PRINT_STRING_LEN
 1
 ]
 ;
-static
 uint8_t
 srtp_nibble_to_hex_char
 (
@@ -411,8 +410,6 @@ uint8_t
 nibble
 )
 {
-static
-const
 char
 buf
 [
@@ -1945,6 +1942,13 @@ if
 defined
 (
 OPENSSL
+)
+&
+&
+!
+defined
+(
+OPENSSL_CLEANSE_BROKEN
 )
 OPENSSL_cleanse
 (

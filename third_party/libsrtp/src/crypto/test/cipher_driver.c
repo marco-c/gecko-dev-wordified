@@ -2152,14 +2152,9 @@ end
 )
 len
 =
-(
-unsigned
-)
-(
 end
 -
 current
-)
 ;
 status
 =

@@ -1609,6 +1609,11 @@ test_verbose_level__
 verbose_level
 )
 {
+size_t
+n
+=
+0
+;
 va_list
 args
 ;
@@ -1625,6 +1630,9 @@ file
 =
 NULL
 )
+n
++
+=
 printf
 (
 "
@@ -1646,6 +1654,9 @@ args
 fmt
 )
 ;
+n
++
+=
 vprintf
 (
 fmt
@@ -2788,13 +2799,9 @@ break
 ;
 default
 :
-snprintf
+sprintf
 (
 tmp
-sizeof
-(
-tmp
-)
 "
 signal
 %

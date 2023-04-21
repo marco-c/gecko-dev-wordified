@@ -1283,17 +1283,8 @@ srtp_err_status_auth_fail
 }
 if
 (
-tag_len
-<
-0
-|
-|
 len
 <
-(
-unsigned
-int
-)
 tag_len
 )
 return
