@@ -672,6 +672,16 @@ n
 "
 called_from_lib
 :
+libvulkan_lvp
+.
+so
+\
+n
+"
+\
+"
+called_from_lib
+:
 libX11
 .
 so
