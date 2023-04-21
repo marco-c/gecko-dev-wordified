@@ -7,7 +7,7 @@ import
 {
 SubAppsService
 SubAppsServiceReceiver
-SubAppsServiceResult
+SubAppsServiceResultCode
 }
 from
 '
@@ -180,7 +180,7 @@ resolve
 result
 :
 {
-code
+resultCode
 :
 testInternal
 .
