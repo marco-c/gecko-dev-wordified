@@ -6056,12 +6056,6 @@ cue
 ?
                 
 "
-font
--
-synthesis
-"
-                
-"
 -
 moz
 -
@@ -6170,6 +6164,19 @@ shorthand
 data
 "
 font
+"
+)
+            
++
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+font
+-
+synthesis
 "
 )
         
