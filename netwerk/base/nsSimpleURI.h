@@ -702,6 +702,11 @@ nsIURI
 result
 )
 ;
+void
+TrimTrailingCharactersFromPath
+(
+)
+;
 nsresult
 EscapeAndSetPathQueryRef
 (
