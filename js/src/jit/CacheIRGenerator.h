@@ -2307,6 +2307,13 @@ IRGenerator
 HandleValue
 val_
 ;
+Handle
+<
+PropertyIteratorObject
+*
+>
+iterObj_
+;
 AttachDecision
 tryAttachNativeIterator
 (
@@ -2343,6 +2350,12 @@ ICState
 state
 HandleValue
 value
+Handle
+<
+PropertyIteratorObject
+*
+>
+iterObj
 )
 ;
 AttachDecision

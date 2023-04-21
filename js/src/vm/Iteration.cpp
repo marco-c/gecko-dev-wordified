@@ -8848,7 +8848,7 @@ return
 iterobj
 ;
 }
-JSObject
+PropertyIteratorObject
 *
 js
 :
@@ -8873,7 +8873,7 @@ obj
 )
 ;
 }
-JSObject
+PropertyIteratorObject
 *
 js
 :
@@ -10579,7 +10579,7 @@ data
 emptyIterator
 ;
 }
-JSObject
+PropertyIteratorObject
 *
 js
 :
