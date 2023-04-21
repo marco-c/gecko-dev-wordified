@@ -86,13 +86,6 @@ h
 #
 include
 "
-Index
-.
-h
-"
-#
-include
-"
 MediaData
 .
 h
@@ -122,6 +115,13 @@ h
 include
 "
 mp4parse
+.
+h
+"
+#
+include
+"
+SampleIterator
 .
 h
 "
@@ -176,7 +176,7 @@ GetIndice
 (
 size_t
 aIndex
-Index
+MP4SampleIndex
 :
 :
 Indice

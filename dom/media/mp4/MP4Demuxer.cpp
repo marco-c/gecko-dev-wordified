@@ -160,13 +160,6 @@ h
 #
 include
 "
-Index
-.
-h
-"
-#
-include
-"
 MP4Decoder
 .
 h
@@ -230,6 +223,13 @@ h
 include
 "
 nsPrintfCString
+.
+h
+"
+#
+include
+"
+SampleIterator
 .
 h
 "
@@ -459,7 +459,7 @@ mInfo
 ;
 RefPtr
 <
-Index
+MP4SampleIndex
 >
 mIndex
 ;
@@ -2236,7 +2236,7 @@ aInfo
 mIndex
 (
 new
-Index
+MP4SampleIndex
 (
 aIndices
 mStream
