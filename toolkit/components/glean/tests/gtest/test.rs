@@ -30,6 +30,16 @@ zero
 /
 extern
 crate
+firefox_on_glean
+;
+use
+firefox_on_glean
+:
+:
+metrics
+;
+extern
+crate
 nsstring
 ;
 use
@@ -279,9 +289,6 @@ in
 gtest
 pattern
 .
-fog
-:
-:
 metrics
 :
 :
@@ -298,9 +305,6 @@ add
 expect
 !
 (
-fog
-:
-:
 metrics
 :
 :
