@@ -12178,7 +12178,6 @@ hasGrayEntries
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 MarkStack
 :
@@ -12291,11 +12290,8 @@ MOZ_ASSERT
 (
 other
 .
-hasEntries
+hasStealableWork
 (
-markColor
-(
-)
 )
 )
 ;

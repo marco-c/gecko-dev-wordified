@@ -451,9 +451,8 @@ marker
 (
 )
 .
-hasEntries
+hasStealableWork
 (
-color
 )
 )
 {
