@@ -499,9 +499,7 @@ type
 *
 param
 {
-xul
-:
-tab
+XULTab
 }
 tab
 *
@@ -542,9 +540,7 @@ content
 *
 returns
 {
-xul
-:
-browser
+XULBrowser
 }
 *
 The
