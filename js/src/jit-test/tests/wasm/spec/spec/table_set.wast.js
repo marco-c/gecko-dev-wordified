@@ -275,7 +275,6 @@ externref
 table
 .
 set
-t2
 (
 local
 .

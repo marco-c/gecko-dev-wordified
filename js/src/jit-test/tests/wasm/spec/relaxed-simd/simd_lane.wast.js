@@ -1,19 +1,4 @@
 /
-/
-|
-jit
--
-test
-|
-skip
--
-if
-:
-!
-wasmSimdEnabled
-(
-)
-/
 *
 Copyright
 2021
@@ -18752,7 +18737,7 @@ f32x4
 0
 )
 (
-f32
+i32
 .
 const
 1
@@ -18813,7 +18798,7 @@ f32x4
 0
 )
 (
-f32
+i32
 .
 const
 1
@@ -19750,7 +19735,7 @@ i8x16
 0
 )
 (
-f32
+i32
 .
 const
 1

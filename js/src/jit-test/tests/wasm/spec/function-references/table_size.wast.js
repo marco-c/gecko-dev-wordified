@@ -195,9 +195,12 @@ t0
 result
 i32
 )
+(
 table
 .
 size
+t0
+)
 )
 (
 func
