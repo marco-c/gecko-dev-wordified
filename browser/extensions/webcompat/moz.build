@@ -1804,6 +1804,15 @@ js
 "
 shims
 /
+spotify
+-
+embed
+.
+js
+"
+"
+shims
+/
 tracking
 -
 pixel
