@@ -1713,6 +1713,11 @@ time
 ;
 if
 (
+profiler_is_active_and_unpaused
+(
+)
+&
+&
 mOptions
 .
 Timing
@@ -1745,6 +1750,13 @@ InstantNow
 ~
 AutoProfilerTextMarker
 (
+)
+{
+if
+(
+profiler_is_active_and_unpaused
+(
+)
 )
 {
 mOptions
@@ -1788,6 +1800,7 @@ TextMarker
 mText
 )
 ;
+}
 }
 protected
 :
