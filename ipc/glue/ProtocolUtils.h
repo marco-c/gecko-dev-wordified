@@ -2483,6 +2483,17 @@ public
 :
 /
 /
+All
+top
+-
+level
+protocols
+are
+refcounted
+.
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
+/
+/
 Shadow
 methods
 on
