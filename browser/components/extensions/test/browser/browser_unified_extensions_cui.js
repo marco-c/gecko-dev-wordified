@@ -139,6 +139,17 @@ closed
 "
 )
 ;
+CustomizableUI
+.
+dispatchToolboxEvent
+(
+"
+aftercustomization
+"
+{
+}
+)
+;
 }
 )
 ;
