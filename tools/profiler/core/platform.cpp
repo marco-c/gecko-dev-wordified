@@ -7833,7 +7833,7 @@ lockedThreadData
 =
 offThreadRef
 .
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;
@@ -30214,7 +30214,7 @@ lockedThreadData
 =
 offThreadRef
 .
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;
@@ -36314,7 +36314,7 @@ lockedRWFromAnyThread
 =
 aOffThreadRef
 .
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;
@@ -42043,7 +42043,7 @@ lockedThreadData
 =
 offThreadRef
 .
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;
@@ -43444,7 +43444,7 @@ lockedThreadData
 =
 offThreadRef
 .
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;
@@ -45565,7 +45565,7 @@ lockedThreadData
 =
 aOnThreadRef
 .
-LockedRWOnThread
+GetLockedRWOnThread
 (
 )
 ;
@@ -48441,7 +48441,7 @@ lockedThreadData
 =
 aOnThreadRef
 .
-LockedRWOnThread
+GetLockedRWOnThread
 (
 )
 ;

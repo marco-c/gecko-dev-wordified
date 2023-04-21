@@ -4039,7 +4039,7 @@ rwOnThreadWithLock
 =
 aOnThreadRef
 .
-LockedRWOnThread
+GetLockedRWOnThread
 (
 )
 ;
@@ -6761,7 +6761,7 @@ rwFromAnyThreadWithLock
 =
 aOffThreadRef
 .
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;
@@ -7581,7 +7581,7 @@ rwFromAnyThreadWithLock
 =
 aOffThreadRef
 .
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;

@@ -983,7 +983,7 @@ nodiscard
 ]
 ]
 RWFromAnyThreadWithLock
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 {
@@ -1018,7 +1018,7 @@ aF
 RWFromAnyThreadWithLock
 lockedData
 =
-LockedRWFromAnyThread
+GetLockedRWFromAnyThread
 (
 )
 ;
