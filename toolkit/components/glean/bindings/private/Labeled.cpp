@@ -292,7 +292,10 @@ lock
 auto
 tuple
 =
-MakeTuple
+std
+:
+:
+make_tuple
 <
 Telemetry
 :
@@ -434,7 +437,10 @@ lock
 auto
 tuple
 =
-MakeTuple
+std
+:
+:
+make_tuple
 <
 Telemetry
 :
@@ -688,7 +694,10 @@ lock
 auto
 tuple
 =
-MakeTuple
+std
+:
+:
+make_tuple
 <
 Telemetry
 :

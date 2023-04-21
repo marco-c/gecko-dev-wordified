@@ -2272,10 +2272,10 @@ scriptFinalWarmUpCountMap
 put
 (
 script
-mozilla
+std
 :
 :
-MakeTuple
+make_tuple
 (
 uint32_t
 (

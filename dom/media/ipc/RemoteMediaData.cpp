@@ -638,7 +638,10 @@ mBuffers
 |
 |
 !
-Get
+std
+:
+:
+get
 <
 1
 >
@@ -663,7 +666,10 @@ nullptr
 size_t
 entrySize
 =
-Get
+std
+:
+:
+get
 <
 1
 >
@@ -676,7 +682,10 @@ if
 !
 Check
 (
-Get
+std
+:
+:
+get
 <
 0
 >
@@ -765,7 +774,10 @@ uint8_t
 (
 )
 +
-Get
+std
+:
+:
+get
 <
 0
 >

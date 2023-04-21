@@ -332,7 +332,10 @@ function
 <
 void
 (
-Tuple
+std
+:
+:
+tuple
 <
 const
 nsresult
