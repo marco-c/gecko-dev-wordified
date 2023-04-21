@@ -134,6 +134,11 @@ PJSOracle
 ;
 child
 :
+[
+ReplyPriority
+=
+control
+]
 async
 IsOpaqueResponseAllowed
 (
