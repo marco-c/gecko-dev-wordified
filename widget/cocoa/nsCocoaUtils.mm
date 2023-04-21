@@ -3026,15 +3026,12 @@ draw
 CGContextRef
 imageContext
 =
-(
-CGContextRef
-)
 [
 [
 NSGraphicsContext
 currentContext
 ]
-graphicsPort
+CGContext
 ]
 ;
 :
