@@ -12,7 +12,7 @@ VULKAN_H_
 Copyright
 2015
 -
-2021
+2022
 The
 Khronos
 Group
@@ -133,15 +133,6 @@ endif
 #
 ifdef
 VK_USE_PLATFORM_WAYLAND_KHR
-#
-include
-<
-wayland
--
-client
-.
-h
->
 #
 include
 "

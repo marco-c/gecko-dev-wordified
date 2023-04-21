@@ -207,7 +207,11 @@ behavior
 is
 avoided
 .
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 InitializeUninitializedLocals
 (
@@ -336,7 +340,11 @@ by
 enabled
 extensions
 .
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 InitializeVariables
 (

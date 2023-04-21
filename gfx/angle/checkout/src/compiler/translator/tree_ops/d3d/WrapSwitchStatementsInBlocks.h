@@ -116,7 +116,11 @@ AST
 was
 changed
 .
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 WrapSwitchStatementsInBlocks
 (

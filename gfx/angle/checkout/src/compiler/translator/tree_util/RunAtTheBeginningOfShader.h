@@ -88,7 +88,11 @@ TIntermBlock
 class
 TIntermNode
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RunAtTheBeginningOfShader
 (

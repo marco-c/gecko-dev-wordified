@@ -146,7 +146,11 @@ TIntermBlock
 #
 ifdef
 ANGLE_ENABLE_GLSL
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RewriteRepeatedAssignToSwizzled
 (
@@ -160,7 +164,11 @@ root
 ;
 #
 else
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 ANGLE_INLINE
 bool
 RewriteRepeatedAssignToSwizzled

@@ -67,7 +67,7 @@ include
 <
 platform
 /
-Platform
+PlatformMethods
 .
 h
 >

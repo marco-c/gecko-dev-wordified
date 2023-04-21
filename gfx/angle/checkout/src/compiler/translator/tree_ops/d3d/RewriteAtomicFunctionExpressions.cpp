@@ -792,7 +792,10 @@ expression
 if
 (
 !
-IsAtomicFunction
+BuiltInGroup
+:
+:
+IsAtomicMemory
 (
 node
 -
@@ -890,7 +893,10 @@ traverser
 .
 if
 (
-IsAtomicFunction
+BuiltInGroup
+:
+:
+IsAtomicMemory
 (
 node
 -

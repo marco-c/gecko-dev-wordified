@@ -185,6 +185,9 @@ depth
 int
 *
 pixelFormat
+uint64_t
+*
+usage
 )
 ;
 GLenum

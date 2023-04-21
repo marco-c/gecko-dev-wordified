@@ -219,6 +219,7 @@ EGLChooseConfig
 EGLClientWaitSync
 EGLClientWaitSyncKHR
 EGLCopyBuffers
+EGLCopyMetalSharedEventANGLE
 EGLCreateContext
 EGLCreateDeviceANGLE
 EGLCreateImage
@@ -245,6 +246,8 @@ EGLDestroySurface
 EGLDestroySync
 EGLDestroySyncKHR
 EGLDupNativeFenceFDANDROID
+EGLExportVkImageANGLE
+EGLForceGPUSwitchANGLE
 EGLGetCompositorTimingANDROID
 EGLGetCompositorTimingSupportedANDROID
 EGLGetConfigAttrib
@@ -268,8 +271,10 @@ EGLGetSyncValuesCHROMIUM
 EGLHandleGPUSwitchANGLE
 EGLInitialize
 EGLLabelObjectKHR
+EGLLockSurfaceKHR
 EGLMakeCurrent
 EGLPostSubBufferNV
+EGLPrepareSwapBuffersANGLE
 EGLPresentationTimeANDROID
 EGLProgramCacheGetAttribANGLE
 EGLProgramCachePopulateANGLE
@@ -282,11 +287,14 @@ EGLQueryDeviceAttribEXT
 EGLQueryDeviceStringEXT
 EGLQueryDisplayAttribANGLE
 EGLQueryDisplayAttribEXT
+EGLQueryDmaBufFormatsEXT
+EGLQueryDmaBufModifiersEXT
 EGLQueryStreamKHR
 EGLQueryStreamu64KHR
 EGLQueryString
 EGLQueryStringiANGLE
 EGLQuerySurface
+EGLQuerySurface64KHR
 EGLQuerySurfacePointerANGLE
 EGLReacquireHighPowerGPUANGLE
 EGLReleaseDeviceANGLE
@@ -294,6 +302,7 @@ EGLReleaseHighPowerGPUANGLE
 EGLReleaseTexImage
 EGLReleaseThread
 EGLSetBlobCacheFuncsANDROID
+EGLSetDamageRegionKHR
 EGLSignalSyncKHR
 EGLStreamAttribKHR
 EGLStreamConsumerAcquireKHR
@@ -307,12 +316,14 @@ EGLSwapBuffersWithDamageKHR
 EGLSwapBuffersWithFrameTokenANGLE
 EGLSwapInterval
 EGLTerminate
+EGLUnlockSurfaceKHR
 EGLWaitClient
 EGLWaitGL
 EGLWaitNative
 EGLWaitSync
 EGLWaitSyncKHR
 GLAccum
+GLAcquireTexturesANGLE
 GLActiveShaderProgram
 GLActiveShaderProgramEXT
 GLActiveTexture
@@ -323,6 +334,8 @@ GLArrayElement
 GLAttachShader
 GLBegin
 GLBeginConditionalRender
+GLBeginPerfMonitorAMD
+GLBeginPixelLocalStorageANGLE
 GLBeginQuery
 GLBeginQueryEXT
 GLBeginQueryIndexed
@@ -530,6 +543,7 @@ GLDeleteFramebuffers
 GLDeleteFramebuffersOES
 GLDeleteLists
 GLDeleteMemoryObjectsEXT
+GLDeletePerfMonitorsAMD
 GLDeleteProgram
 GLDeleteProgramPipelines
 GLDeleteProgramPipelinesEXT
@@ -570,6 +584,7 @@ GLDrawArraysInstanced
 GLDrawArraysInstancedANGLE
 GLDrawArraysInstancedBaseInstance
 GLDrawArraysInstancedBaseInstanceANGLE
+GLDrawArraysInstancedBaseInstanceEXT
 GLDrawArraysInstancedEXT
 GLDrawBuffer
 GLDrawBuffers
@@ -582,9 +597,11 @@ GLDrawElementsIndirect
 GLDrawElementsInstanced
 GLDrawElementsInstancedANGLE
 GLDrawElementsInstancedBaseInstance
+GLDrawElementsInstancedBaseInstanceEXT
 GLDrawElementsInstancedBaseVertex
 GLDrawElementsInstancedBaseVertexBaseInstance
 GLDrawElementsInstancedBaseVertexBaseInstanceANGLE
+GLDrawElementsInstancedBaseVertexBaseInstanceEXT
 GLDrawElementsInstancedBaseVertexEXT
 GLDrawElementsInstancedBaseVertexOES
 GLDrawElementsInstancedEXT
@@ -606,7 +623,9 @@ GLDrawTransformFeedbackInstanced
 GLDrawTransformFeedbackStream
 GLDrawTransformFeedbackStreamInstanced
 GLEGLImageTargetRenderbufferStorageOES
+GLEGLImageTargetTexStorageEXT
 GLEGLImageTargetTexture2DOES
+GLEGLImageTargetTextureStorageEXT
 GLEdgeFlag
 GLEdgeFlagPointer
 GLEdgeFlagv
@@ -620,6 +639,8 @@ GLEnableiOES
 GLEnd
 GLEndConditionalRender
 GLEndList
+GLEndPerfMonitorAMD
+GLEndPixelLocalStorageANGLE
 GLEndQuery
 GLEndQueryEXT
 GLEndQueryIndexed
@@ -656,7 +677,9 @@ GLFogiv
 GLFogx
 GLFogxv
 GLFramebufferFetchBarrierEXT
+GLFramebufferMemorylessPixelLocalStorageANGLE
 GLFramebufferParameteri
+GLFramebufferParameteriMESA
 GLFramebufferRenderbuffer
 GLFramebufferRenderbufferOES
 GLFramebufferTexture
@@ -669,6 +692,8 @@ GLFramebufferTexture3DOES
 GLFramebufferTextureEXT
 GLFramebufferTextureLayer
 GLFramebufferTextureMultiviewOVR
+GLFramebufferTextureOES
+GLFramebufferTexturePixelLocalStorageANGLE
 GLFrontFace
 GLFrustum
 GLFrustumf
@@ -678,6 +703,7 @@ GLGenFencesNV
 GLGenFramebuffers
 GLGenFramebuffersOES
 GLGenLists
+GLGenPerfMonitorsAMD
 GLGenProgramPipelines
 GLGenProgramPipelinesEXT
 GLGenQueries
@@ -722,6 +748,7 @@ GLGetClipPlane
 GLGetClipPlanef
 GLGetClipPlanex
 GLGetCompressedTexImage
+GLGetCompressedTexImageANGLE
 GLGetCompressedTextureImage
 GLGetCompressedTextureSubImage
 GLGetDebugMessageLog
@@ -741,6 +768,7 @@ GLGetFramebufferAttachmentParameteriv
 GLGetFramebufferAttachmentParameterivOES
 GLGetFramebufferAttachmentParameterivRobustANGLE
 GLGetFramebufferParameteriv
+GLGetFramebufferParameterivMESA
 GLGetFramebufferParameterivRobustANGLE
 GLGetGraphicsResetStatus
 GLGetGraphicsResetStatusEXT
@@ -781,6 +809,12 @@ GLGetObjectLabelEXT
 GLGetObjectLabelKHR
 GLGetObjectPtrLabel
 GLGetObjectPtrLabelKHR
+GLGetPerfMonitorCounterDataAMD
+GLGetPerfMonitorCounterInfoAMD
+GLGetPerfMonitorCounterStringAMD
+GLGetPerfMonitorCountersAMD
+GLGetPerfMonitorGroupStringAMD
+GLGetPerfMonitorGroupsAMD
 GLGetPixelMapfv
 GLGetPixelMapuiv
 GLGetPixelMapusv
@@ -1029,6 +1063,7 @@ GLLoadPaletteFromModelViewMatrixOES
 GLLoadTransposeMatrixd
 GLLoadTransposeMatrixf
 GLLogicOp
+GLLogicOpANGLE
 GLLoseContextCHROMIUM
 GLMap1d
 GLMap1f
@@ -1067,6 +1102,7 @@ GLMultiDrawArrays
 GLMultiDrawArraysANGLE
 GLMultiDrawArraysIndirect
 GLMultiDrawArraysIndirectCount
+GLMultiDrawArraysIndirectEXT
 GLMultiDrawArraysInstancedANGLE
 GLMultiDrawArraysInstancedBaseInstanceANGLE
 GLMultiDrawElements
@@ -1075,6 +1111,7 @@ GLMultiDrawElementsBaseVertex
 GLMultiDrawElementsBaseVertexEXT
 GLMultiDrawElementsIndirect
 GLMultiDrawElementsIndirectCount
+GLMultiDrawElementsIndirectEXT
 GLMultiDrawElementsInstancedANGLE
 GLMultiDrawElementsInstancedBaseVertexBaseInstanceANGLE
 GLMultiTexCoord1d
@@ -1158,6 +1195,7 @@ GLPatchParameterfv
 GLPatchParameteri
 GLPatchParameteriEXT
 GLPauseTransformFeedback
+GLPixelLocalStorageBarrierANGLE
 GLPixelMapfv
 GLPixelMapuiv
 GLPixelMapusv
@@ -1189,6 +1227,7 @@ GLPopMatrix
 GLPopName
 GLPrimitiveBoundingBox
 GLPrimitiveBoundingBoxEXT
+GLPrimitiveBoundingBoxOES
 GLPrimitiveRestartIndex
 GLPrioritizeTextures
 GLProgramBinary
@@ -1329,6 +1368,7 @@ GLRectiv
 GLRects
 GLRectsv
 GLReleaseShaderCompiler
+GLReleaseTexturesANGLE
 GLRenderMode
 GLRenderbufferStorage
 GLRenderbufferStorageMultisample
@@ -1385,12 +1425,14 @@ GLSecondaryColorP3ui
 GLSecondaryColorP3uiv
 GLSecondaryColorPointer
 GLSelectBuffer
+GLSelectPerfMonitorCountersAMD
 GLSemaphoreParameterui64vEXT
 GLSetFenceNV
 GLShadeModel
 GLShaderBinary
 GLShaderSource
 GLShaderStorageBlockBinding
+GLShadingRateQCOM
 GLSignalSemaphoreEXT
 GLSpecializeShader
 GLStencilFunc

@@ -155,7 +155,11 @@ unsized
 array
 problem
 .
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RewriteSampleMask
 (
@@ -174,7 +178,11 @@ TIntermTyped
 numSamplesUniform
 )
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RewriteSampleMaskIn
 (

@@ -95,7 +95,11 @@ TSymbolTable
 class
 TVariable
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 ReplaceArrayOfMatrixVarying
 (
@@ -114,7 +118,11 @@ TVariable
 varying
 )
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 ReplaceArrayOfMatrixVaryings
 (

@@ -93,7 +93,11 @@ TIntermNode
 class
 TSymbolTable
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 ArrayReturnValueToOutParameter
 (

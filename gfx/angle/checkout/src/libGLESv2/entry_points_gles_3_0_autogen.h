@@ -772,7 +772,7 @@ internalformat
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLint
 *
 params
@@ -877,7 +877,7 @@ sync
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLsizei
 *
 length

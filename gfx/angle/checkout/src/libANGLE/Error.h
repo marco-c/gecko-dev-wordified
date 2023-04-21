@@ -256,7 +256,11 @@ namespace
 egl
 {
 class
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 Error
 final
 {
@@ -974,7 +978,11 @@ attention
 .
 enum
 class
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 Result
 {
 Continue
