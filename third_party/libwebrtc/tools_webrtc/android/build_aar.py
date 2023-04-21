@@ -548,6 +548,37 @@ add_argument
 -
 use
 -
+remoteexec
+'
+                      
+action
+=
+'
+store_true
+'
+                      
+default
+=
+False
+                      
+help
+=
+'
+Use
+RBE
+.
+'
+)
+  
+parser
+.
+add_argument
+(
+'
+-
+-
+use
+-
 unstripped
 -
 libs
@@ -1277,9 +1308,10 @@ Build
 build_dir
 arch
 use_goma
+use_remoteexe
 extra_gn_args
-extra_gn_switches
           
+extra_gn_switches
 extra_ninja_switches
 )
 :
@@ -1367,6 +1399,12 @@ use_goma
 '
 :
 use_goma
+      
+'
+use_remoteexec
+'
+:
+use_remoteexe
   
 }
   
@@ -1461,6 +1499,8 @@ TARGETS
   
 if
 use_goma
+or
+use_remoteexe
 :
     
 ninja_args
@@ -1727,6 +1767,10 @@ use_goma
 =
 False
              
+use_remoteexe
+=
+False
+             
 extra_gn_args
 =
 None
@@ -1793,9 +1837,10 @@ Build
 build_dir
 arch
 use_goma
+use_remoteexe
 extra_gn_args
-extra_gn_switches
           
+extra_gn_switches
 extra_ninja_switches
 )
   
@@ -1932,18 +1977,21 @@ args
 use_goma
 args
 .
-extra_gn_args
+use_remoteexe
            
+args
+.
+extra_gn_args
 args
 .
 build_dir
 args
 .
 extra_gn_switches
+           
 args
 .
 extra_ninja_switches
-           
 args
 .
 use_unstripped_libs
