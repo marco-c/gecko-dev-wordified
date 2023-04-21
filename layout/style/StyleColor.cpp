@@ -192,9 +192,7 @@ with
 alpha
 =
 =
-1
-.
-0
+255
 .
 return
 !
@@ -210,9 +208,7 @@ AsNumeric
 alpha
 !
 =
-1
-.
-0f
+255
 ;
 }
 template
