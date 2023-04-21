@@ -2789,6 +2789,7 @@ bool
 IsScrollingActive
 (
 )
+const
 =
 0
 ;
@@ -2818,6 +2819,7 @@ bool
 IsMaybeAsynchronouslyScrolled
 (
 )
+const
 =
 0
 ;
@@ -2969,6 +2971,7 @@ nsRect
 &
 aRect
 )
+const
 =
 0
 ;
@@ -3059,6 +3062,7 @@ ScrollOrigin
 LastScrollOrigin
 (
 )
+const
 =
 0
 ;

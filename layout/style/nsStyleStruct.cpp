@@ -17162,7 +17162,7 @@ case
 /
 though
 since
-ScrollFrameHelper
+nsHTMLScrollFrame
 :
 :
 CreateAnonymousContent

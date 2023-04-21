@@ -10007,7 +10007,7 @@ found
 /
 /
 by
-ScrollFrameHelper
+nsHTMLScrollFrame
 :
 :
 GetScrolledFrameDir
@@ -67159,6 +67159,7 @@ nsLayoutUtils
 :
 StyleForScrollbar
 (
+const
 nsIFrame
 *
 aScrollbarPart

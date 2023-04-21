@@ -40566,7 +40566,7 @@ limiting
 that
 /
 /
-ScrollFrameHelper
+nsHTMLScrollFrame
 :
 :
 DecideScrollableLayer

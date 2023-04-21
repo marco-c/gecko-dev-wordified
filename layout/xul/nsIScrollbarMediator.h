@@ -540,7 +540,7 @@ accordingly
 .
 (
 See
-ScrollFrameHelper
+nsHTMLScrollFrame
 :
 :
 ThumbMoved
