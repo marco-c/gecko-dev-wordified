@@ -2527,6 +2527,9 @@ insecureWarning
 generatedPassword
 "
 "
+generic
+"
+"
 importableLearnMore
 "
 "
