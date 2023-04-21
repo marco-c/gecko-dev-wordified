@@ -596,7 +596,7 @@ correctly
 locked
 )
 ;
-equal
+strictEqual
 (
 Preferences
 .
@@ -641,7 +641,7 @@ correctly
 unlocked
 )
 ;
-equal
+strictEqual
 (
 Preferences
 .
@@ -668,7 +668,7 @@ prefName
 prefValue
 )
 {
-equal
+strictEqual
 (
 Preferences
 .
