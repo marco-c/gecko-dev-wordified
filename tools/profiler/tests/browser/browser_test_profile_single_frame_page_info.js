@@ -638,7 +638,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 contentBrowser
 url

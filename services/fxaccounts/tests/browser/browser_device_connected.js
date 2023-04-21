@@ -201,7 +201,7 @@ deviceName
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

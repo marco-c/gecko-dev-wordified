@@ -502,7 +502,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 kProt

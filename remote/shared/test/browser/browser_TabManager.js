@@ -204,7 +204,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL
@@ -977,7 +977,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL

@@ -257,7 +257,7 @@ Time
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

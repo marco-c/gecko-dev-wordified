@@ -824,7 +824,7 @@ toString
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri
@@ -6933,7 +6933,7 @@ toString
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri

@@ -491,7 +491,7 @@ page
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -661,7 +661,7 @@ org
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

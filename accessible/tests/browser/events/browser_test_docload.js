@@ -250,7 +250,7 @@ iframe1
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 data
@@ -346,7 +346,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -442,7 +442,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -574,7 +574,7 @@ insecure
 url
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -636,7 +636,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

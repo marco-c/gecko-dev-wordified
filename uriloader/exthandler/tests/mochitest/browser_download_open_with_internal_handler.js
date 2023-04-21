@@ -300,7 +300,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 url
@@ -1186,7 +1186,7 @@ be
 different
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newTab
 .

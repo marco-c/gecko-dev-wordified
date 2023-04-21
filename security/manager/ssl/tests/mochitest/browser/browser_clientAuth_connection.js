@@ -1151,7 +1151,7 @@ options
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

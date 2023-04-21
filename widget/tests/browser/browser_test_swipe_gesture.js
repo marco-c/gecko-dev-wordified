@@ -436,7 +436,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1435,7 +1435,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2302,7 +2302,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -3058,7 +3058,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -3519,7 +3519,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -4067,7 +4067,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -4493,7 +4493,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -4926,7 +4926,7 @@ test
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -5503,7 +5503,7 @@ test
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -5947,7 +5947,7 @@ test
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -6374,7 +6374,7 @@ waitForLoad
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
