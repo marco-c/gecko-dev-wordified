@@ -31619,7 +31619,7 @@ workspaces
 .
 if
 (
-mIsPIPWindow
+mAlwaysOnTop
 &
 &
 aEvent
