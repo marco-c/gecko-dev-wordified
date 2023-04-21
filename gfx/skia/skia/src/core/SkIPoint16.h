@@ -57,8 +57,6 @@ include
 /
 private
 /
-base
-/
 SkTo
 .
 h

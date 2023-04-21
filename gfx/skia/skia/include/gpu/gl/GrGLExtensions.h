@@ -70,8 +70,6 @@ include
 /
 private
 /
-base
-/
 SkTArray
 .
 h
@@ -406,7 +404,7 @@ reset
 {
 fStrings
 .
-clear
+reset
 (
 )
 ;

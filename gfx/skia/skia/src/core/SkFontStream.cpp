@@ -49,7 +49,7 @@ include
 "
 src
 /
-base
+core
 /
 SkAutoMalloc
 .
@@ -60,7 +60,7 @@ include
 "
 src
 /
-base
+core
 /
 SkEndian
 .
@@ -1281,6 +1281,18 @@ i
 fLength
 )
 ;
+/
+/
+now
+sanity
+check
+the
+caller
+'
+s
+offset
+/
+length
 if
 (
 offset
@@ -1289,9 +1301,6 @@ offset
 realLength
 )
 {
-/
-/
-invalid
 return
 0
 ;

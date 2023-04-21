@@ -42,8 +42,6 @@ include
 /
 private
 /
-base
-/
 SkOnce
 .
 h
@@ -87,7 +85,6 @@ singleton
 new
 SkFontConfigInterfaceDirect
 (
-nullptr
 )
 ;
 }

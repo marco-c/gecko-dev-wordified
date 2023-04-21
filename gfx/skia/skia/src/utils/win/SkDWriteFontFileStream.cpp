@@ -68,8 +68,6 @@ include
 /
 private
 /
-base
-/
 SkTFitsIn
 .
 h
@@ -80,8 +78,6 @@ include
 include
 /
 private
-/
-base
 /
 SkTemplates
 .
@@ -133,10 +129,6 @@ dwrite
 .
 h
 >
-using
-namespace
-skia_private
-;
 /
 /
 /
@@ -691,11 +683,18 @@ getLength
 )
 const
 {
+HRESULT
+hr
+=
+S_OK
+;
 UINT64
 realFileSize
 =
 0
 ;
+hr
+=
 fFontFileStream
 -
 >
@@ -1238,7 +1237,7 @@ return
 E_FAIL
 ;
 }
-AutoTMalloc
+SkAutoTMalloc
 <
 uint8_t
 >

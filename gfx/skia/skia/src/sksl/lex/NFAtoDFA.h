@@ -262,7 +262,6 @@ NFAtoDFA
 {
 public
 :
-inline
 static
 constexpr
 char
@@ -270,7 +269,6 @@ START_CHAR
 =
 9
 ;
-inline
 static
 constexpr
 char
@@ -638,7 +636,7 @@ else
 for
 (
 int
-entry
+state
 :
 *
 states
@@ -649,7 +647,7 @@ if
 nfaState
 =
 =
-entry
+state
 )
 {
 return

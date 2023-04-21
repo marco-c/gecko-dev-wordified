@@ -66,6 +66,17 @@ SkNWayCanvas
 .
 h
 "
+#
+include
+"
+src
+/
+core
+/
+SkMakeUnique
+.
+h
+"
 std
 :
 :

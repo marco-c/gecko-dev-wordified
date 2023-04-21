@@ -45,13 +45,6 @@ SkOpts
 h
 "
 #
-if
-!
-defined
-(
-SK_ENABLE_OPTIMIZE_SIZE
-)
-#
 define
 SK_OPTS_NS
 ssse3
@@ -200,12 +193,3 @@ S32_alpha_D32_filter_DX
 ;
 }
 }
-/
-/
-namespace
-SkOpts
-#
-endif
-/
-/
-SK_ENABLE_OPTIMIZE_SIZE

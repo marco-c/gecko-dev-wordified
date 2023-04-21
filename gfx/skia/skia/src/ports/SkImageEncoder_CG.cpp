@@ -40,7 +40,7 @@ include
 "
 src
 /
-encode
+images
 /
 SkImageEncoderPriv
 .
@@ -119,8 +119,6 @@ include
 include
 /
 private
-/
-base
 /
 SkTemplates
 .

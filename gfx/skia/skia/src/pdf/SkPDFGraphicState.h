@@ -48,8 +48,6 @@ include
 /
 private
 /
-base
-/
 SkMacros
 .
 h
@@ -234,10 +232,6 @@ doc
 )
 ;
 }
-/
-/
-namespace
-SkPDFGraphicState
 SK_BEGIN_REQUIRE_DENSE
 struct
 SkPDFStrokeGraphicState

@@ -711,10 +711,9 @@ GetSingletonDirectInterface
 (
 )
 ;
-using
-INHERITED
-=
+typedef
 SkRefCnt
+INHERITED
 ;
 }
 ;

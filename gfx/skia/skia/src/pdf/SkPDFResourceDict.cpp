@@ -68,7 +68,8 @@ h
 "
 /
 /
-Verify
+Sanity
+check
 that
 the
 values
@@ -78,10 +79,10 @@ ResourceType
 correspond
 to
 the
+/
+/
 expected
 values
-/
-/
 as
 defined
 in
@@ -192,7 +193,7 @@ kMaxResourceNameLength
 =
 1
 +
-kSkStrAppendS32_MaxSize
+SkStrAppendS32_MaxSize
 ;
 /
 /
@@ -266,10 +267,7 @@ unsigned
 )
 type
 <
-std
-:
-:
-size
+SK_ARRAY_COUNT
 (
 kResourceTypePrefixes
 )
@@ -409,10 +407,7 @@ unsigned
 )
 type
 <
-std
-:
-:
-size
+SK_ARRAY_COUNT
 (
 kResourceTypeNames
 )
@@ -604,10 +599,7 @@ procSets
 >
 reserve
 (
-std
-:
-:
-size
+SK_ARRAY_COUNT
 (
 kProcs
 )
