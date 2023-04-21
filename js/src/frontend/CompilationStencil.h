@@ -3660,9 +3660,6 @@ endif
 bool
 init
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -9579,7 +9576,6 @@ scopeContext
 .
 init
 (
-cx
 fc
 input
 parserAtoms
