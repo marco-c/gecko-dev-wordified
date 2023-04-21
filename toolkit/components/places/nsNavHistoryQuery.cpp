@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 prprf
 .
 h
