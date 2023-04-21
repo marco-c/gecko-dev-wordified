@@ -1532,7 +1532,7 @@ PerTestCoverageUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1545,7 +1545,9 @@ common
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
