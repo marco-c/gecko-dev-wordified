@@ -327,14 +327,6 @@ metrics
 .
 yaml
 "
-    
-"
-xpcom
-/
-metrics
-.
-yaml
-"
 ]
 #
 Metrics
