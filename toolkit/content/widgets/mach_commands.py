@@ -55,6 +55,8 @@ MPL
 .
 import
 os
+import
+re
 from
 mach
 .
@@ -458,13 +460,8 @@ default
 title
 :
 "
-Design
-System
-/
-Experiments
-/
 {
-class_name
+story_name
 }
 "
   
@@ -1176,6 +1173,48 @@ as
 f
 :
             
+story_name
+=
+"
+"
+.
+join
+(
+                
+name
+for
+name
+in
+re
+.
+findall
+(
+r
+"
+[
+A
+-
+Z
+]
+[
+a
+-
+z
+]
++
+"
+class_name
+)
+if
+name
+!
+=
+"
+Moz
+"
+            
+)
+            
 f
 .
 write
@@ -1194,9 +1233,9 @@ element_name
 =
 name
                     
-class_name
+story_name
 =
-class_name
+story_name
                 
 )
             
