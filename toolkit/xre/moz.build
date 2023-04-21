@@ -249,11 +249,6 @@ nsAppRunner
 .
 h
 "
-"
-nsIAppStartupNotifier
-.
-h
-"
 ]
 EXPORTS
 .
@@ -768,11 +763,6 @@ cpp
 "
 "
 CreateAppData
-.
-cpp
-"
-"
-nsAppStartupNotifier
 .
 cpp
 "
