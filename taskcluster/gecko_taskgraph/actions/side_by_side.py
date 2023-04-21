@@ -829,6 +829,8 @@ flag
 )
     
 if
+(
+        
 "
 browsertime
 -
@@ -847,6 +849,26 @@ metadata
 name
 "
 ]
+        
+or
+"
+welcome
+"
+not
+in
+task
+[
+"
+metadata
+"
+]
+[
+"
+name
+"
+]
+    
+)
 :
         
 logger
@@ -883,12 +905,7 @@ comparable
         
 )
         
-sys
-.
-exit
-(
-1
-)
+return
     
 failed
 =
