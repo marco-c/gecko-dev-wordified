@@ -3255,6 +3255,7 @@ MappedArguments
 UnmappedArguments
 WindowProxy
 JSFunction
+BoundFunction
 Set
 Map
 }

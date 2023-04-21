@@ -1675,6 +1675,12 @@ case
 InlinableNative
 :
 :
+FunctionBind
+:
+case
+InlinableNative
+:
+:
 MapGet
 :
 case

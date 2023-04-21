@@ -362,6 +362,12 @@ DataViewSetBigUint64
 \
 _
 (
+FunctionBind
+)
+\
+\
+_
+(
 IntlGuardToCollator
 )
 \
