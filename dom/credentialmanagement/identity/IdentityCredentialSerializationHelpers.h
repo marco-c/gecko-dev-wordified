@@ -157,7 +157,7 @@ mozilla
 dom
 :
 :
-IdentityProvider
+IdentityProviderConfig
 >
 {
 typedef
@@ -167,7 +167,7 @@ mozilla
 dom
 :
 :
-IdentityProvider
+IdentityProviderConfig
 paramType
 ;
 static
