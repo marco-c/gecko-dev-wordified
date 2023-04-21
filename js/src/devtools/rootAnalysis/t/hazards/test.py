@@ -664,6 +664,12 @@ safe18
 not
 in
 hazmap
+assert
+"
+unsafe19
+"
+in
+hazmap
 #
 method
 hazard
