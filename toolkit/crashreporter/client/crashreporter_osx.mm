@@ -2545,9 +2545,9 @@ origin
 .
 x
 +
-frame
+checkbox
 .
-size
+intrinsicContentSize
 .
 width
 +
