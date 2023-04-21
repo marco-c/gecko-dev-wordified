@@ -2204,6 +2204,17 @@ DOMHighResTimeStamp
 aTimeStamp
 )
 ;
+void
+StringifyElement
+(
+Element
+*
+aElement
+nsAString
+&
+aOut
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 MaybeExecuteDumpFunction
