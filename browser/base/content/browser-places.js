@@ -9726,6 +9726,12 @@ hasAttribute
 initialized
 "
 )
+&
+&
+!
+this
+.
+_isCustomizing
 )
 {
 /
