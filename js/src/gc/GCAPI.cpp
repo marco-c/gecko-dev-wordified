@@ -4360,11 +4360,13 @@ double
 cx
 -
 >
-zone
+runtime
 (
 )
 -
 >
+gc
+.
 gcNumber
 (
 )
