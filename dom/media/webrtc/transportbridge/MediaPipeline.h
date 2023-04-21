@@ -1829,6 +1829,7 @@ one
 nsresult
 SetTrack
 (
+const
 RefPtr
 <
 dom
@@ -1836,6 +1837,7 @@ dom
 :
 MediaStreamTrack
 >
+&
 aDomTrack
 )
 ;
@@ -1883,10 +1885,12 @@ track
 void
 SetSendTrackOverride
 (
+const
 RefPtr
 <
 ProcessedMediaTrack
 >
+&
 aSendTrack
 )
 ;
