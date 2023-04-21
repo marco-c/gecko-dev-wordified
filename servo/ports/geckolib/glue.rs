@@ -19665,7 +19665,7 @@ simple_font_descriptor_getter_impl
 rule
 out
 language_override
-compute_non_system
+clone
 )
 }
 /

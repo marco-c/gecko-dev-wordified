@@ -1766,7 +1766,7 @@ computed
 FontLanguageOverride
 :
 :
-zero
+normal
 (
 )
 "
