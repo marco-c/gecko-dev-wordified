@@ -254,6 +254,14 @@ mWaitForVarUpdate
 true
 ;
 }
+base
+:
+:
+ProcessHandle
+GetChildProcessHandle
+(
+)
+;
 /
 /
 Notifies
