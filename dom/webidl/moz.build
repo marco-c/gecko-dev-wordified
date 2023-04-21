@@ -6503,6 +6503,11 @@ ExtensionScripting
 webidl
 "
 "
+ExtensionSetting
+.
+webidl
+"
+"
 ExtensionTest
 .
 webidl
