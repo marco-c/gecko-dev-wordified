@@ -2329,7 +2329,7 @@ stub
 (
 store
 "
-getAllRollouts
+getAllActiveRollouts
 "
 )
 .
@@ -2582,7 +2582,7 @@ stub
 (
 store
 "
-getAllRollouts
+getAllActiveRollouts
 "
 )
 .

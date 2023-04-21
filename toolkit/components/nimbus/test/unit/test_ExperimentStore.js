@@ -887,7 +887,7 @@ add_task
 (
 async
 function
-test_getAll_getAllActive
+test_getAll_getAllActiveExperiments
 (
 )
 {
@@ -1012,7 +1012,7 @@ deepEqual
 (
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .
@@ -1032,7 +1032,7 @@ qux
 ]
 "
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 should
@@ -1052,7 +1052,7 @@ add_task
 (
 async
 function
-test_getAll_getAllActive_no_rollouts
+test_getAll_getAllActiveExperiments
 (
 )
 {
@@ -1196,7 +1196,7 @@ deepEqual
 (
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .
@@ -1216,7 +1216,7 @@ qux
 ]
 "
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 should
@@ -1239,7 +1239,7 @@ add_task
 (
 async
 function
-test_getAllRollouts
+test_getAllActiveRollouts
 (
 )
 {
@@ -1361,7 +1361,7 @@ deepEqual
 (
 store
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 .
@@ -1387,7 +1387,7 @@ baz
 ]
 "
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 should

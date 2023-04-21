@@ -1454,7 +1454,7 @@ init
 ;
 this
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .
@@ -1504,7 +1504,7 @@ loaded
 ;
 this
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 .
@@ -1642,7 +1642,7 @@ return
 (
 this
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .
@@ -1856,6 +1856,11 @@ data
 *
 *
 *
+Returns
+all
+active
+experiments
+*
 returns
 {
 Enrollment
@@ -1864,7 +1869,7 @@ Enrollment
 }
 *
 /
-getAllActive
+getAllActiveExperiments
 (
 )
 {
@@ -1903,11 +1908,13 @@ rollouts
 *
 returns
 {
-array
+Enrollment
+[
+]
 }
 *
 /
-getAllRollouts
+getAllActiveRollouts
 (
 )
 {
@@ -1985,7 +1992,7 @@ return
 (
 this
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 .
