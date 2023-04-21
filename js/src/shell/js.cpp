@@ -5677,7 +5677,7 @@ i
 array
 -
 >
-length
+getDenseInitializedLength
 (
 )
 ;
