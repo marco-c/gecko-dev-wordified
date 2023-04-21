@@ -4516,6 +4516,15 @@ aMessage
 piName
 )
 ;
+NS_WARNING
+(
+msg
+.
+get
+(
+)
+)
+;
 CrashReporter
 :
 :
