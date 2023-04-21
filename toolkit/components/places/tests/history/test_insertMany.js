@@ -885,12 +885,11 @@ object
 x
 =
 >
-new
 URL
+.
+fromURI
 (
 x
-.
-spec
 )
 useCallbacks
 )

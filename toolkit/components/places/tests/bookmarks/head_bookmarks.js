@@ -262,12 +262,11 @@ nsIURI
 )
 {
 return
-new
 URL
+.
+fromURI
 (
 arg
-.
-spec
 )
 ;
 }
