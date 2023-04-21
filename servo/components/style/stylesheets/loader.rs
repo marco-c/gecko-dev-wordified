@@ -119,6 +119,7 @@ import_rule
 :
 {
 ImportLayer
+ImportSupportsCondition
 ImportRule
 }
 ;
@@ -217,6 +218,12 @@ Locked
 <
 MediaList
 >
+>
+supports
+:
+Option
+<
+ImportSupportsCondition
 >
 layer
 :
