@@ -545,4 +545,16 @@ getScaledTimeoutMillis
 )
 ;
 }
+public
+boolean
+isNightly
+(
+)
+{
+return
+BuildConfig
+.
+NIGHTLY_BUILD
+;
+}
 }
