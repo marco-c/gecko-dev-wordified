@@ -1885,6 +1885,7 @@ object
 )
 {
 return
+(
 object
 ?
 .
@@ -1901,6 +1902,19 @@ class
 "
 DOMException
 "
+|
+|
+object
+?
+.
+class
+=
+=
+=
+"
+Exception
+"
+)
 ;
 }
 /
