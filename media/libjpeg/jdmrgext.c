@@ -46,6 +46,7 @@ C
 2011
 2015
 2020
+2023
 D
 .
 R
@@ -417,7 +418,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -477,7 +478,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -604,7 +605,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -957,7 +958,7 @@ outptr0
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -1017,7 +1018,7 @@ outptr0
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -1077,7 +1078,7 @@ outptr1
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -1137,7 +1138,7 @@ outptr1
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -1264,7 +1265,7 @@ outptr0
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -1317,7 +1318,7 @@ outptr1
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif

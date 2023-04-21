@@ -138,13 +138,6 @@ jsimd
 .
 h
 "
-#
-include
-"
-jconfigint
-.
-h
-"
 /
 *
 Private

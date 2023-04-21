@@ -150,13 +150,6 @@ jpegcomp
 .
 h
 "
-#
-include
-"
-jconfigint
-.
-h
-"
 /
 *
 Private

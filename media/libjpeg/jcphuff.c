@@ -62,6 +62,7 @@ C
 )
 2016
 2018
+2022
 Matthieu
 Darbois
 .
@@ -166,13 +167,6 @@ h
 include
 "
 jsimd
-.
-h
-"
-#
-include
-"
-jconfigint
 .
 h
 "
@@ -604,7 +598,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 values
 size_t
@@ -644,7 +638,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 absvalues
 size_t
@@ -1239,7 +1233,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 values
 size_t
@@ -1291,7 +1285,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 absvalues
 size_t
@@ -4071,7 +4065,7 @@ k
 ]
 =
 (
-JCOEF
+UJCOEF
 )
 temp
 ;
@@ -4084,7 +4078,7 @@ DCTSIZE2
 ]
 =
 (
-JCOEF
+UJCOEF
 )
 temp2
 ;
@@ -4124,7 +4118,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 values
 size_t
@@ -4564,7 +4558,7 @@ cinfo
 >
 Al
 ;
-JCOEF
+UJCOEF
 values_unaligned
 [
 2
@@ -4574,12 +4568,12 @@ DCTSIZE2
 15
 ]
 ;
-JCOEF
+UJCOEF
 *
 values
 ;
 const
-JCOEF
+UJCOEF
 *
 cvalue
 ;
@@ -4663,7 +4657,7 @@ cvalue
 values
 =
 (
-JCOEF
+UJCOEF
 *
 )
 PAD
@@ -5579,7 +5573,7 @@ k
 ]
 =
 (
-JCOEF
+UJCOEF
 )
 temp
 ;
@@ -5643,7 +5637,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 absvalues
 size_t
@@ -6363,7 +6357,7 @@ cinfo
 >
 Al
 ;
-JCOEF
+UJCOEF
 absvalues_unaligned
 [
 DCTSIZE2
@@ -6371,12 +6365,12 @@ DCTSIZE2
 15
 ]
 ;
-JCOEF
+UJCOEF
 *
 absvalues
 ;
 const
-JCOEF
+UJCOEF
 *
 cabsvalue
 *
@@ -6463,7 +6457,7 @@ cabsvalue
 absvalues
 =
 (
-JCOEF
+UJCOEF
 *
 )
 PAD

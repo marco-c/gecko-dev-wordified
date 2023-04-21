@@ -30,6 +30,7 @@ C
 2014
 2016
 2018
+2022
 D
 .
 R
@@ -57,6 +58,7 @@ C
 )
 2015
 2018
+2022
 Matthieu
 Darbois
 .
@@ -231,6 +233,7 @@ ctype
 h
 >
 static
+THREAD_LOCAL
 unsigned
 int
 simd_support
@@ -575,21 +578,6 @@ SIMD
 accelerations
 are
 supported
-.
-*
-*
-FIXME
-:
-This
-code
-is
-racy
-under
-a
-multi
--
-threaded
-environment
 .
 *
 /
@@ -3179,7 +3167,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 values
 size_t
@@ -3219,7 +3207,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 absvalues
 size_t

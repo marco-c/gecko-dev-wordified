@@ -46,6 +46,7 @@ C
 2009
 2011
 2015
+2023
 D
 .
 R
@@ -468,7 +469,7 @@ Set
 unused
 byte
 to
-0xFF
+MAXJSAMPLE
 so
 it
 can
@@ -494,7 +495,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -651,7 +652,7 @@ Set
 unused
 byte
 to
-0xFF
+MAXJSAMPLE
 so
 it
 can
@@ -677,7 +678,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -850,7 +851,7 @@ Set
 unused
 byte
 to
-0xFF
+MAXJSAMPLE
 so
 it
 can
@@ -876,7 +877,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif

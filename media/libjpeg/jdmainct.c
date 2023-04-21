@@ -149,13 +149,6 @@ jdmainct
 .
 h
 "
-#
-include
-"
-jconfigint
-.
-h
-"
 /
 *
 *
