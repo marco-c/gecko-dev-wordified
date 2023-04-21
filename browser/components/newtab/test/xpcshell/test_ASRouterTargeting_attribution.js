@@ -40,7 +40,7 @@ AttributionCode
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ modules
 /
 AttributionCode
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -89,7 +91,7 @@ MacAttribution
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -101,7 +103,9 @@ modules
 /
 MacAttribution
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

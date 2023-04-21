@@ -92,7 +92,7 @@ AttributionCode
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -104,7 +104,9 @@ modules
 /
 AttributionCode
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
