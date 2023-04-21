@@ -142,6 +142,15 @@ kRootName
 =
 u
 "
+"
+_ns
+;
+constexpr
+nsLiteralString
+kRootString
+=
+u
+"
 root
 "
 _ns

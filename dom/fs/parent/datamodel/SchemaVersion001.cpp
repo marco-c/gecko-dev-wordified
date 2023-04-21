@@ -738,7 +738,7 @@ FileSystemHashSource
 GenerateHash
 (
 aOrigin
-kRootName
+kRootString
 )
 )
 ;
@@ -846,7 +846,7 @@ BindNameByName
 name
 "
 _ns
-kRootName
+kRootString
 )
 )
 )
