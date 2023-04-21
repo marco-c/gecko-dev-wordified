@@ -56,6 +56,7 @@ MPL
 .
 *
 /
+export
 function
 URLDecorationAnnotationsService
 (
@@ -446,13 +447,4 @@ undefined
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-URLDecorationAnnotationsService
-"
-]
 ;

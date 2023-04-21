@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -443,6 +438,7 @@ entriesAsString
 }
 }
 }
+export
 function
 PartitioningExceptionListService
 (
@@ -881,13 +877,4 @@ observer
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PartitioningExceptionListService
-"
-]
 ;
