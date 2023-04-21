@@ -5616,8 +5616,11 @@ the
 user
 .
 #
-ifdef
-NIGHTLY_BUILD
+if
+defined
+(
+EARLY_BETA_OR_EARLIER
+)
 pref
 (
 "
