@@ -4279,11 +4279,15 @@ return
 aEngineClone
 .
 originalEngine
+.
+id
 =
 =
 this
 .
 originalEngine
+.
+id
 ;
 }
 addEngine
