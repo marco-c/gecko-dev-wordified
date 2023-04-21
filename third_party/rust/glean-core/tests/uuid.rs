@@ -222,9 +222,9 @@ Snapshot
 1
 :
 {
+snapshot
 }
 "
-snapshot
 )
 ;
 uuid
@@ -273,9 +273,9 @@ Snapshot
 2
 :
 {
+snapshot
 }
 "
-snapshot
 )
 ;
 }

@@ -307,7 +307,7 @@ endfor
 /
 /
 Enum
-defitions
+definitions
 corresponding
 to
 enum

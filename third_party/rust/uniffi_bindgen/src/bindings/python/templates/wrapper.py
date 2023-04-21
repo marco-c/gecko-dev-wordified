@@ -231,7 +231,7 @@ datetime
 %
 -
 for
-module_name
+req
 in
 self
 .
@@ -240,10 +240,13 @@ imports
 )
 %
 }
-import
 {
 {
-module_name
+req
+.
+render
+(
+)
 }
 }
 {

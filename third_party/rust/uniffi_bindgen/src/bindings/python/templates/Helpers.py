@@ -257,7 +257,7 @@ be
 set
 to
 the
-FFIConverter
+FfiConverter
 for
 the
 error
@@ -342,9 +342,7 @@ None
             
 call_status
 .
-err_buf
-.
-contents
+error_buf
 .
 free
 (

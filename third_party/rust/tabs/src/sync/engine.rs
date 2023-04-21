@@ -2037,8 +2037,6 @@ last_sync
 as_millis
 (
 )
-as
-i64
 ;
 storage
 .

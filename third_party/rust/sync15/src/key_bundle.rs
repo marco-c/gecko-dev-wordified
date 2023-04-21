@@ -1597,7 +1597,6 @@ base64
 :
 decode
 (
-&
 CLEARTEXT_B64_PIECES
 .
 join
@@ -1674,7 +1673,6 @@ base64
 :
 decode
 (
-&
 CLEARTEXT_B64_PIECES
 .
 join

@@ -2954,7 +2954,6 @@ db
 ;
 init_source_db
 (
-&
 path
 f
 )

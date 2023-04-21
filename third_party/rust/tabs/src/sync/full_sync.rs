@@ -126,6 +126,10 @@ KeyBundle
 impl
 TabsStore
 {
+#
+[
+handle_error
+]
 pub
 fn
 reset
@@ -144,9 +148,6 @@ ApiResult
 (
 )
 >
-{
-handle_error
-!
 {
 let
 mut
@@ -185,7 +186,6 @@ Ok
 )
 )
 }
-}
 /
 /
 /
@@ -195,6 +195,10 @@ wrapper
 around
 sync_multiple
 .
+#
+[
+handle_error
+]
 pub
 fn
 sync
@@ -227,9 +231,6 @@ ApiResult
 <
 String
 >
-{
-handle_error
-!
 {
 let
 mut
@@ -536,7 +537,6 @@ into
 (
 )
 )
-}
 }
 }
 }

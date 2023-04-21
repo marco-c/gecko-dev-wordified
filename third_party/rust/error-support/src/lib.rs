@@ -212,6 +212,13 @@ unset_application_error_reporter
 ApplicationErrorReporter
 }
 ;
+pub
+use
+error_support_macros
+:
+:
+handle_error
+;
 mod
 handling
 ;
@@ -1143,7 +1150,7 @@ type
 }
 ;
 }
-uniffi_macros
+uniffi
 :
 :
 include_scaffolding

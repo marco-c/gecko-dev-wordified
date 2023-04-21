@@ -1336,7 +1336,7 @@ returns
 2
 An
 error
-occured
+occurred
 that
 was
 serialized
@@ -1351,7 +1351,7 @@ buf_ptr
 An
 unexpected
 error
-ocurred
+occurred
 /
 /
 /

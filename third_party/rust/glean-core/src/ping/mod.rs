@@ -349,13 +349,11 @@ ref
 mut
 a
 )
-&
 JsonValue
 :
 :
 Object
 (
-ref
 b
 )
 )

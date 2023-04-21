@@ -465,7 +465,7 @@ in
 the
 _UniFFILib
 function
-declations
+declarations
 .
 /
 /

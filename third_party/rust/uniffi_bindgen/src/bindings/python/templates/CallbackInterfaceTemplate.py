@@ -634,7 +634,7 @@ try
 :
                 
 #
-Sucessful
+Successful
 return
                 
 buf_ptr
@@ -721,7 +721,7 @@ else
 }
             
 #
-Sucessful
+Successful
 return
             
 buf_ptr

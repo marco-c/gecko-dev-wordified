@@ -1886,7 +1886,7 @@ callAsync
 /
 sprites
 :
-sprites_accb_Sprite_new
+sprites_3c8d_Sprite_new
 FfiConverterOptionalTypePoint
 .
 lower
@@ -2079,7 +2079,7 @@ callAsync
 /
 sprites
 :
-sprites_accb_Sprite_new_relative_to
+sprites_3c8d_Sprite_new_relative_to
 FfiConverterTypePoint
 .
 lower
@@ -2173,7 +2173,7 @@ callAsync
 /
 sprites
 :
-sprites_accb_Sprite_get_position
+sprites_3c8d_Sprite_get_position
 FfiConverterTypeSprite
 .
 lower
@@ -2292,7 +2292,7 @@ callAsync
 /
 sprites
 :
-sprites_accb_Sprite_move_to
+sprites_3c8d_Sprite_move_to
 FfiConverterTypeSprite
 .
 lower
@@ -2417,7 +2417,7 @@ callAsync
 /
 sprites
 :
-sprites_accb_Sprite_move_by
+sprites_3c8d_Sprite_move_by
 FfiConverterTypeSprite
 .
 lower
@@ -3578,7 +3578,7 @@ callAsync
 /
 sprites
 :
-sprites_accb_translate
+sprites_3c8d_translate
 FfiConverterTypePoint
 .
 lower

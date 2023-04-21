@@ -216,7 +216,7 @@ Type
 /
 /
 /
-Ths
+This
 trait
 does
 structural
@@ -294,7 +294,7 @@ references
 to
 the
 types
-seem
+seen
 during
 traversal
 .
@@ -307,13 +307,12 @@ type
 /
 /
 expression
-"
 sequence
+<
 <
 TestRecord
 >
 ?
-"
 will
 :
 /
@@ -978,6 +977,7 @@ add_known_type
 &
 ty
 )
+?
 ;
 Ok
 (
@@ -1197,6 +1197,7 @@ add_known_type
 &
 ty
 )
+?
 ;
 Ok
 (
@@ -1308,6 +1309,7 @@ Type
 :
 String
 )
+?
 ;
 Ok
 (
@@ -1430,6 +1432,7 @@ add_known_type
 &
 map
 )
+?
 ;
 Ok
 (
@@ -1492,6 +1495,7 @@ add_known_type
 &
 type_
 )
+?
 ;
 Ok
 (
@@ -1525,6 +1529,7 @@ add_known_type
 &
 type_
 )
+?
 ;
 Ok
 (
@@ -1592,6 +1597,7 @@ Type
 :
 Boolean
 )
+?
 ;
 Ok
 (
@@ -1665,6 +1671,7 @@ Type
 :
 Float32
 )
+?
 ;
 Ok
 (
@@ -1738,6 +1745,7 @@ Type
 :
 Float64
 )
+?
 ;
 Ok
 (

@@ -130,6 +130,7 @@ val
 val
 {
 %
+-
 else
 %
 }
@@ -142,11 +143,13 @@ val
 val
 {
 %
+-
 endif
 %
 }
 {
 #
+-
 If
 this
 function
@@ -182,6 +185,7 @@ we
 just
 panic
 .
+-
 #
 }
 {
@@ -334,7 +338,7 @@ in
 the
 _UniFFILib
 function
-declations
+declarations
 .
 /
 /

@@ -390,9 +390,9 @@ ffi
 :
 :
 {
-FFIArgument
-FFIFunction
-FFIType
+FfiArgument
+FfiFunction
+FfiType
 }
 ;
 use
@@ -522,7 +522,7 @@ avoids
 a
 weird
 circular
-depenendency
+dependency
 in
 the
 calculation
@@ -537,7 +537,7 @@ super
 )
 ffi_init_callback
 :
-FFIFunction
+FfiFunction
 }
 impl
 CallbackInterface
@@ -653,7 +653,7 @@ self
 -
 >
 &
-FFIFunction
+FfiFunction
 {
 &
 self
@@ -709,7 +709,7 @@ arguments
 vec
 !
 [
-FFIArgument
+FfiArgument
 {
 name
 :
@@ -722,7 +722,7 @@ to_string
 )
 type_
 :
-FFIType
+FfiType
 :
 :
 ForeignCallback
@@ -848,7 +848,7 @@ bail
 "
 callback
 interface
-inheritence
+inheritance
 is
 not
 supported

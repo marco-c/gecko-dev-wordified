@@ -252,7 +252,7 @@ T
 E
 >
 ;
-uniffi_macros
+uniffi
 :
 :
 include_scaffolding

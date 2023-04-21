@@ -95,6 +95,7 @@ glean_parser
 metrics
 import
 CowString
+Event
 Rate
 from
 util
@@ -1092,12 +1093,11 @@ name
 )
 )
 and
-suffix
-=
-=
-"
-Keys
-"
+isinstance
+(
+obj
+Event
+)
 :
                 
 return

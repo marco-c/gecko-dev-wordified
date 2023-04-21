@@ -72,7 +72,7 @@ crate
 interface
 :
 :
-FFIType
+FfiType
 ;
 /
 /
@@ -329,7 +329,7 @@ self
 ffi_type
 :
 &
-FFIType
+FfiType
 )
 -
 >
