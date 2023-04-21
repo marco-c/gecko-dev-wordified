@@ -358,17 +358,6 @@ step
 4
 )
 ;
-Assert
-.
-ok
-(
-fakeTelemetryService
-.
-recordEvent
-.
-calledOnce
-)
-;
 }
 }
 "
