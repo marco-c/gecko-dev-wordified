@@ -613,11 +613,15 @@ if
 (
 data
 .
+options
+.
 reduceTimerPrecision
 &
 &
 !
 data
+.
+options
 .
 resistFingerprinting
 )
@@ -830,9 +834,6 @@ setupAndRunCrossOriginIsolatedTest
 resistFingerprinting
 :
 true
-reduceTimerPrecision
-:
-false
 crossOriginIsolated
 :
 true
@@ -848,9 +849,6 @@ setupAndRunCrossOriginIsolatedTest
 resistFingerprinting
 :
 true
-reduceTimerPrecision
-:
-false
 crossOriginIsolated
 :
 true
@@ -885,9 +883,6 @@ await
 setupAndRunCrossOriginIsolatedTest
 (
 {
-resistFingerprinting
-:
-false
 reduceTimerPrecision
 :
 true
