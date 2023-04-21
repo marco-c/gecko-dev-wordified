@@ -508,11 +508,7 @@ EventUtils
 synthesizeDrop
 (
 linkSrcEl
-win
-.
-gBrowser
-.
-tabContainer
+testTab
 [
 [
 {
