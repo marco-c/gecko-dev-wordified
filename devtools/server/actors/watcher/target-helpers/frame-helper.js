@@ -1908,7 +1908,7 @@ which
 uses
 WatcherActor
 .
-_getTargetActorInParentProcess
+getTargetActorInParentProcess
 to
 convey
 session
