@@ -296,7 +296,10 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsListControlFrame
 )
-bool
+Maybe
+<
+nscoord
+>
 GetNaturalBaselineBOffset
 (
 mozilla
@@ -306,9 +309,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-nscoord
-*
-aBaseline
 )
 const
 override

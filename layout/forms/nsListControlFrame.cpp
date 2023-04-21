@@ -555,7 +555,10 @@ nsListControlFrame
 =
 default
 ;
-bool
+Maybe
+<
+nscoord
+>
 nsListControlFrame
 :
 :
@@ -565,9 +568,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-nscoord
-*
-aBaseline
 )
 const
 {
@@ -589,7 +589,9 @@ a
 baseline
 .
 return
-false
+Nothing
+{
+}
 ;
 }
 /
