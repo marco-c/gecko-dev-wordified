@@ -454,7 +454,7 @@ localhost
 :
 4444
 /
-simple
+redirect
 "
 ;
 Assert
@@ -710,7 +710,7 @@ localhost
 :
 4444
 /
-simple
+redirect
 "
 ;
 Assert
