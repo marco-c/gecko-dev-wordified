@@ -2528,7 +2528,7 @@ call_origin
 Address
 *
 return_address
-Code
+InstructionStream
 re_code
 Address
 *
