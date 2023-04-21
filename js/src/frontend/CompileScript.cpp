@@ -1009,6 +1009,9 @@ input_
 )
 ;
 }
+#
+ifdef
+DEBUG
 /
 /
 We
@@ -1157,6 +1160,11 @@ scriptHasNoGC
 cacheHasNoGC
 ;
 }
+#
+endif
+/
+/
+DEBUG
 bool
 JS
 :
