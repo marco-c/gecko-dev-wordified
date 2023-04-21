@@ -702,6 +702,7 @@ PEERS
 !
 metrics_yamls
 =
+set
 (
     
 gecko_metrics
@@ -1127,6 +1128,7 @@ PEERS
 !
 pings_yamls
 =
+set
 (
     
 gecko_pings
