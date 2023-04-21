@@ -124,12 +124,12 @@ empty
 .
 txt
 "
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 =
 "
 network
 .
-responseStarted
+responseCompleted
 "
 #
 The
@@ -188,40 +188,8 @@ subscribe
 events
 =
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
-)
-    
-await
-bidi_session
-.
-browsing_context
-.
-navigate
-(
-        
-context
-=
-top_context
-[
-"
-context
-"
-]
-        
-url
-=
-url
-(
-PAGE_EMPTY_HTML
-)
-        
-wait
-=
-"
-complete
-"
-    
 )
     
 #
@@ -230,7 +198,7 @@ all
 received
 network
 .
-responseStarted
+responseCompleted
 events
 in
 the
@@ -265,8 +233,151 @@ bidi_session
 add_event_listener
 (
         
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 on_event
+    
+)
+    
+html_url
+=
+url
+(
+PAGE_EMPTY_HTML
+)
+    
+on_response_completed
+=
+wait_for_event
+(
+RESPONSE_COMPLETED_EVENT
+)
+    
+await
+bidi_session
+.
+browsing_context
+.
+navigate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+        
+url
+=
+html_url
+        
+wait
+=
+"
+complete
+"
+    
+)
+    
+await
+on_response_completed
+    
+assert
+len
+(
+events
+)
+=
+=
+1
+    
+expected_request
+=
+{
+"
+method
+"
+:
+"
+GET
+"
+"
+url
+"
+:
+html_url
+}
+    
+expected_response
+=
+{
+        
+"
+url
+"
+:
+url
+(
+PAGE_EMPTY_HTML
+)
+        
+"
+fromCache
+"
+:
+False
+        
+"
+mimeType
+"
+:
+"
+text
+/
+html
+"
+        
+"
+status
+"
+:
+200
+        
+"
+statusText
+"
+:
+"
+OK
+"
+    
+}
+    
+assert_response_event
+(
+        
+events
+[
+0
+]
+        
+expected_request
+=
+expected_request
+        
+expected_response
+=
+expected_response
+        
+redirect_count
+=
+0
+        
+is_redirect
+=
+False
     
 )
     
@@ -277,11 +388,11 @@ url
 PAGE_EMPTY_TEXT
 )
     
-on_response_started
+on_response_completed
 =
 wait_for_event
 (
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -291,7 +402,7 @@ text_url
 )
     
 await
-on_response_started
+on_response_completed
     
 assert
 len
@@ -300,7 +411,7 @@ events
 )
 =
 =
-1
+2
     
 expected_request
 =
@@ -366,7 +477,7 @@ assert_response_event
         
 events
 [
-0
+1
 ]
         
 expected_request
@@ -397,7 +508,7 @@ unsubscribe
 events
 =
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
 )
     
@@ -456,7 +567,7 @@ events
 )
 =
 =
-1
+2
     
 remove_listener
 (
@@ -495,7 +606,7 @@ setup_network_test
 events
 =
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
 )
     
@@ -503,14 +614,14 @@ events
 =
 network_events
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
     
-on_response_started
+on_response_completed
 =
 wait_for_event
 (
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -543,7 +654,7 @@ complete
 )
     
 await
-on_response_started
+on_response_completed
     
 assert
 len
@@ -688,6 +799,7 @@ status_url
 =
 url
 (
+        
 f
 "
 /
@@ -712,9 +824,10 @@ status
 nocache
 =
 {
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 }
 "
+    
 )
     
 network_events
@@ -725,7 +838,7 @@ setup_network_test
 events
 =
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
 )
     
@@ -733,14 +846,14 @@ events
 =
 network_events
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
     
-on_response_started
+on_response_completed
 =
 wait_for_event
 (
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -750,7 +863,7 @@ status_url
 )
     
 await
-on_response_started
+on_response_completed
     
 assert
 len
@@ -911,7 +1024,7 @@ setup_network_test
 events
 =
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
 )
     
@@ -919,14 +1032,14 @@ events
 =
 network_events
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
     
-on_response_started
+on_response_completed
 =
 wait_for_event
 (
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -941,7 +1054,7 @@ GET
 )
     
 await
-on_response_started
+on_response_completed
     
 assert
 len
@@ -1177,7 +1290,7 @@ setup_network_test
 events
 =
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
 )
     
@@ -1185,14 +1298,14 @@ events
 =
 network_events
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
     
-on_response_started
+on_response_completed
 =
 wait_for_event
 (
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -1210,7 +1323,7 @@ GET
 )
     
 await
-on_response_started
+on_response_completed
     
 assert
 len
@@ -1312,6 +1425,7 @@ redirect_url
 =
 url
 (
+        
 f
 "
 /
@@ -1333,6 +1447,7 @@ location
 text_url
 }
 "
+    
 )
     
 network_events
@@ -1343,7 +1458,7 @@ setup_network_test
 events
 =
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
 )
     
@@ -1351,7 +1466,7 @@ events
 =
 network_events
 [
-RESPONSE_STARTED_EVENT
+RESPONSE_COMPLETED_EVENT
 ]
     
 await
