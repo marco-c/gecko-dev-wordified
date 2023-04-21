@@ -245,12 +245,6 @@ aWhy
 )
 override
 ;
-void
-ActorDealloc
-(
-)
-override
-;
 /
 /
 ISurfaceAllocator
@@ -501,12 +495,6 @@ virtual
 VideoBridgeChild
 (
 )
-;
-RefPtr
-<
-VideoBridgeChild
->
-mIPDLSelfRef
 ;
 nsCOMPtr
 <
