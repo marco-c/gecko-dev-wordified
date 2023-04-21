@@ -153,6 +153,11 @@ EXPORTS
 =
 [
 "
+MFContentProtectionManager
+.
+h
+"
+"
 MFMediaEngineAudioStream
 .
 h
@@ -187,6 +192,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+MFContentProtectionManager
+.
+cpp
+"
 "
 MFMediaEngineAudioStream
 .
