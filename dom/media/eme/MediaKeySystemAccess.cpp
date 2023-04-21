@@ -1040,6 +1040,10 @@ NS_ConvertUTF8toUTF16
 (
 kPlayReadyKeySystemName
 )
+NS_ConvertUTF8toUTF16
+(
+kPlayReadyKeySystemNameDeprecated
+)
 #
 endif
 }

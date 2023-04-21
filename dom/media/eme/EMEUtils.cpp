@@ -481,6 +481,14 @@ EqualsLiteral
 (
 kPlayReadyKeySystemName
 )
+|
+|
+aKeySystem
+.
+EqualsLiteral
+(
+kPlayReadyKeySystemNameDeprecated
+)
 ;
 }
 #

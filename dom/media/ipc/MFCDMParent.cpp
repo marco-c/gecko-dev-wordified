@@ -537,11 +537,9 @@ ready
 .
 MOZ_ASSERT
 (
-aKeySystem
-.
-EqualsLiteral
+IsPlayReadyKeySystem
 (
-kPlayReadyKeySystemName
+aKeySystem
 )
 )
 ;
