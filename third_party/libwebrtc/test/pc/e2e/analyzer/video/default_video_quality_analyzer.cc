@@ -7067,7 +7067,8 @@ metrics_logger_
 LogSingleValueMetric
 (
 "
-cpu_usage
+cpu_usage_
+%
 "
 test_label_
 GetCpuUsagePercent
@@ -7076,7 +7077,7 @@ GetCpuUsagePercent
 Unit
 :
 :
-kPercent
+kUnitless
 ImprovementDirection
 :
 :

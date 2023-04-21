@@ -2170,7 +2170,8 @@ test_case
 name
 =
 "
-cpu_usage
+cpu_usage_
+%
 "
 .
 unit
@@ -2178,7 +2179,7 @@ unit
 Unit
 :
 :
-kPercent
+kUnitless
 .
 improvement_direction
 =
@@ -4032,7 +4033,8 @@ test_case
 name
 =
 "
-cpu_usage
+cpu_usage_
+%
 "
 .
 unit
@@ -4040,7 +4042,7 @@ unit
 Unit
 :
 :
-kPercent
+kUnitless
 .
 improvement_direction
 =
