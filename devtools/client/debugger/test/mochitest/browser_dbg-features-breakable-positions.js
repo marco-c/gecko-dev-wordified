@@ -349,7 +349,7 @@ html
 :
 formatted
 "
-84
+80
 [
 {
 line
@@ -397,7 +397,7 @@ columns
 {
 line
 :
-36
+34
 columns
 :
 [
