@@ -549,6 +549,11 @@ override
 ;
 private
 :
+bool
+mInitialized
+=
+false
+;
 nsCString
 mVendorId
 ;
