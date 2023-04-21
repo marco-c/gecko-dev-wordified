@@ -785,6 +785,17 @@ return
 nullptr
 ;
 }
+virtual
+bool
+IsViewTimeline
+(
+)
+const
+{
+return
+false
+;
+}
 /
 /
 For
