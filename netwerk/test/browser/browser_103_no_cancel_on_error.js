@@ -269,6 +269,10 @@ early_hint_asset_html
 .
 sjs
 ?
+hinted
+=
+1
+&
 as
 =
 image
