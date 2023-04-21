@@ -9229,7 +9229,8 @@ them
 /
 /
 /
-mSumOfChildrenBSize
+This
+variable
 stores
 the
 sum
@@ -9241,9 +9242,9 @@ for
 the
 current
 flex
-/
-/
 container
+/
+/
 fragments
 and
 for
@@ -9252,7 +9253,7 @@ its
 previous
 fragments
 nscoord
-mSumOfChildrenBSize
+mCumulativeContentBoxBSize
 =
 0
 ;
@@ -38047,7 +38048,7 @@ space
 .
 fragmentData
 .
-mSumOfChildrenBSize
+mCumulativeContentBoxBSize
 +
 =
 std
@@ -44243,7 +44244,7 @@ flexWM
 =
 aFragmentData
 .
-mSumOfChildrenBSize
+mCumulativeContentBoxBSize
 ;
 framePos
 .
