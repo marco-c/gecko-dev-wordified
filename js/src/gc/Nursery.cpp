@@ -2994,7 +2994,7 @@ return
 obj
 ;
 }
-Cell
+void
 *
 js
 :
@@ -3092,12 +3092,13 @@ site
 kind
 )
 ;
-auto
+void
+*
 cell
 =
 reinterpret_cast
 <
-Cell
+void
 *
 >
 (
@@ -3171,7 +3172,7 @@ return
 cell
 ;
 }
-Cell
+void
 *
 js
 :
@@ -3191,9 +3192,9 @@ size_t
 size
 )
 {
-Cell
+void
 *
-cell
+ptr
 =
 allocateCell
 (
@@ -3210,7 +3211,7 @@ String
 ;
 if
 (
-cell
+ptr
 )
 {
 site
@@ -3227,7 +3228,7 @@ nurseryAllocatedStrings
 ;
 }
 return
-cell
+ptr
 ;
 }
 inline

@@ -1178,10 +1178,7 @@ Nursery
 is
 full
 .
-gc
-:
-:
-Cell
+void
 *
 allocateCell
 (
@@ -1200,10 +1197,7 @@ TraceKind
 kind
 )
 ;
-gc
-:
-:
-Cell
+void
 *
 allocateBigInt
 (
@@ -1232,10 +1226,7 @@ BigInt
 )
 ;
 }
-gc
-:
-:
-Cell
+void
 *
 allocateString
 (

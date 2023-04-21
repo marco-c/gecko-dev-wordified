@@ -1812,7 +1812,7 @@ kind
 )
 ;
 inline
-TenuredCell
+void
 *
 setArenaAndAllocate
 (
@@ -2520,7 +2520,7 @@ AllocKind
 thingKind
 )
 ;
-TenuredCell
+void
 *
 refillFreeListAndAllocate
 (

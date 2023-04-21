@@ -5426,9 +5426,15 @@ protected
 TenuredCellWithFlags
 (
 )
-=
-default
+{
+header_
+.
+set
+(
+0
+)
 ;
+}
 explicit
 TenuredCellWithFlags
 (

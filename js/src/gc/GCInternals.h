@@ -1871,7 +1871,7 @@ GCReason
 MEM_PRESSURE
 ;
 }
-TenuredCell
+void
 *
 AllocateCellInGC
 (
