@@ -6854,9 +6854,9 @@ reset
 then
 (
 null
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
