@@ -1288,6 +1288,10 @@ primaries
 =
 %
 s
+encrypted
+=
+%
+d
 "
 GUIDToStr
 (
@@ -1309,6 +1313,7 @@ MFVideoPrimariesToStr
 (
 videoPrimaries
 )
+mIsEncrypted
 )
 ;
 *
