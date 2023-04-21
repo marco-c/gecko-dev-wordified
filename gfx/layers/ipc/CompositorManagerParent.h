@@ -235,7 +235,6 @@ PCompositorManagerParent
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CompositorManagerParent
-final
 )
 public
 :
@@ -488,6 +487,12 @@ aEndpoint
 bool
 aIsRoot
 )
+;
+void
+ActorDealloc
+(
+)
+override
 ;
 void
 DeferredDestroy

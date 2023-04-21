@@ -175,11 +175,11 @@ PGPUParent
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
-(
 GPUParent
-final
+(
 )
+;
+~
 GPUParent
 (
 )
@@ -874,11 +874,6 @@ override
 ;
 private
 :
-~
-GPUParent
-(
-)
-;
 const
 TimeStamp
 mLaunchTime

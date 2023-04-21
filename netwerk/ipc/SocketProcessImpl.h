@@ -207,14 +207,8 @@ override
 ;
 private
 :
-RefPtr
-<
 SocketProcessChild
->
 mSocketProcessChild
-=
-new
-SocketProcessChild
 ;
 }
 ;

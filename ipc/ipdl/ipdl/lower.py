@@ -27015,32 +27015,23 @@ isRefcounted
 )
 :
             
-if
-not
-ptype
-.
-isToplevel
-(
-)
-:
-                
 self
 .
 cls
 .
 addcode
 (
-                    
-"
-"
-"
-                    
-NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
-                    
+                
 "
 "
 "
                 
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
+                
+"
+"
+"
+            
 )
             
 self

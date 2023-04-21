@@ -507,6 +507,7 @@ instance
 *
 /
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

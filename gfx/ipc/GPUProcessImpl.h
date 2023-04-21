@@ -242,14 +242,8 @@ override
 ;
 private
 :
-RefPtr
-<
 GPUParent
->
 mGPU
-=
-new
-GPUParent
 ;
 #
 if

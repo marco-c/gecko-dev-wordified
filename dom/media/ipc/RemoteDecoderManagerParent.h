@@ -481,6 +481,12 @@ ActorDestroyReason
 )
 override
 ;
+void
+ActorDealloc
+(
+)
+override
+;
 private
 :
 explicit

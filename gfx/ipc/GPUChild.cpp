@@ -410,6 +410,11 @@ mGPUReady
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+GPUChild
+)
+;
 }
 GPUChild
 :
@@ -418,9 +423,13 @@ GPUChild
 GPUChild
 (
 )
-=
-default
+{
+MOZ_COUNT_DTOR
+(
+GPUChild
+)
 ;
+}
 void
 GPUChild
 :
@@ -2452,7 +2461,7 @@ public
 explicit
 DeferredDeleteGPUChild
 (
-RefPtr
+UniquePtr
 <
 GPUChild
 >
@@ -2494,7 +2503,7 @@ NS_OK
 }
 private
 :
-RefPtr
+UniquePtr
 <
 GPUChild
 >
@@ -2513,7 +2522,7 @@ GPUChild
 :
 Destroy
 (
-RefPtr
+UniquePtr
 <
 GPUChild
 >

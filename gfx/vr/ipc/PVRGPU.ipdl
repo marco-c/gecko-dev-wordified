@@ -134,6 +134,7 @@ GPU
 process
 .
 [
+ManualDealloc
 NeedsOtherPid
 ChildImpl
 =

@@ -264,10 +264,8 @@ ProcessPromise
 =
 MozPromise
 <
-RefPtr
-<
 SandboxTestingParent
->
+*
 nsresult
 true
 >
@@ -284,10 +282,8 @@ default
 ;
 nsTArray
 <
-RefPtr
-<
 SandboxTestingParent
->
+*
 >
 mSandboxTestingParents
 ;
