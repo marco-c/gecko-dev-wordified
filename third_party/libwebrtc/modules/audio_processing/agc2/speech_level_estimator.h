@@ -191,6 +191,8 @@ GainController2
 AdaptiveDigital
 &
 config
+int
+adjacent_speech_frames_threshold
 )
 ;
 SpeechLevelEstimator

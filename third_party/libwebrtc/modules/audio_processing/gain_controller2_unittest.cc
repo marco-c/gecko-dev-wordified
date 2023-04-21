@@ -4126,11 +4126,6 @@ true
 VoiceActivityDetectorWrapper
 vad
 (
-config
-.
-adaptive_digital
-.
-vad_reset_period_ms
 GetAvailableCpuFeatures
 (
 )
