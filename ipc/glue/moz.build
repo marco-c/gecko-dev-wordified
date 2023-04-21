@@ -366,6 +366,11 @@ ShmemMessageUtils
 h
 "
 "
+SideVariant
+.
+h
+"
+"
 TaintingIPCUtils
 .
 h

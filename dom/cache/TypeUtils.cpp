@@ -3436,15 +3436,7 @@ ref
 ;
 cacheStream
 .
-controlChild
-(
-)
-=
-nullptr
-;
-cacheStream
-.
-controlParent
+control
 (
 )
 =

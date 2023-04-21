@@ -2515,7 +2515,6 @@ GetIPCHandle
 )
 OpRemoveTexture
 (
-nullptr
 aTexture
 -
 >
@@ -2639,7 +2638,6 @@ AppendElement
 (
 TimedTexture
 (
-nullptr
 t
 .
 mTextureClient

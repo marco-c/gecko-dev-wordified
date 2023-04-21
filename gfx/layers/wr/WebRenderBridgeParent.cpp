@@ -3710,7 +3710,11 @@ AsTextureHost
 (
 op
 .
-textureParent
+texture
+(
+)
+.
+AsParent
 (
 )
 )

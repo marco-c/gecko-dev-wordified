@@ -2430,7 +2430,6 @@ OpPushExternalImageForTexture
 (
 aExtId
 aKey
-nullptr
 aTexture
 -
 >
