@@ -4456,9 +4456,6 @@ nodiscard
 bool
 initFromOptions
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
