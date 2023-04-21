@@ -760,6 +760,39 @@ parser
 .
 add_argument
 (
+'
+-
+-
+use
+-
+remoteexec
+'
+                      
+action
+=
+'
+store_true
+'
+                      
+default
+=
+False
+                      
+help
+=
+'
+Use
+RBE
+to
+build
+.
+'
+)
+  
+parser
+.
+add_argument
+(
       
 '
 -
@@ -1105,6 +1138,7 @@ ios_deployment_target
 libvpx_build_vp9
                 
 use_goma
+use_remoteexec
 extra_gn_args
 )
 :
@@ -1314,6 +1348,28 @@ gn_args
 append
 (
 '
+use_remoteexec
+=
+'
++
+(
+'
+true
+'
+if
+use_remoteexec
+else
+'
+false
+'
+)
+)
+  
+gn_args
+.
+append
+(
+'
 rtc_enable_objc_symbol_export
 =
 true
@@ -1439,6 +1495,8 @@ gn_target_name
   
 if
 use_goma
+or
+use_remoteexec
 :
     
 cmd
@@ -1717,6 +1775,9 @@ LIBVPX_BUILD_VP9
 args
 .
 use_goma
+args
+.
+use_remoteexec
 gn_args
 )
     
