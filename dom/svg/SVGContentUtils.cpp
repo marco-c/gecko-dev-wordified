@@ -1297,6 +1297,13 @@ pathScale
 <
 =
 0
+|
+|
+!
+IsFinite
+(
+pathScale
+)
 )
 {
 return

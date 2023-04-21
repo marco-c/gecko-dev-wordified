@@ -1867,6 +1867,7 @@ if
 (
 authorsPathLengthEstimate
 >
+=
 0
 )
 {
