@@ -6409,6 +6409,9 @@ const
 Lookup
 &
 l
+HashNumber
+*
+hashOut
 )
 ;
 static
@@ -6533,6 +6536,9 @@ const
 Lookup
 &
 l
+HashNumber
+*
+hashOut
 )
 {
 return
@@ -6545,6 +6551,7 @@ T
 ensureHash
 (
 l
+hashOut
 )
 ;
 }
@@ -6687,6 +6694,9 @@ Lookup
 &
 &
 l
+HashNumber
+*
+hashOut
 )
 {
 return
@@ -6711,6 +6721,7 @@ Lookup
 (
 l
 )
+hashOut
 )
 ;
 }

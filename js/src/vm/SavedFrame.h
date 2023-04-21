@@ -1035,6 +1035,9 @@ const
 Lookup
 &
 l
+HashNumber
+*
+hashOut
 )
 ;
 static
@@ -1178,6 +1181,9 @@ Lookup
 &
 &
 l
+HashNumber
+*
+hashOut
 )
 {
 return
@@ -1202,6 +1208,7 @@ Lookup
 (
 l
 )
+hashOut
 )
 ;
 }
