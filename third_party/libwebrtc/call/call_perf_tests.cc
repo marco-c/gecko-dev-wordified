@@ -4900,7 +4900,7 @@ bitrate_kbps_list_
 Unit
 :
 :
-kKilobitsPerSecond
+kUnitless
 ImprovementDirection
 :
 :
@@ -6460,7 +6460,7 @@ last_passed_test_bitrate
 Unit
 :
 :
-kKilobitsPerSecond
+kUnitless
 ImprovementDirection
 :
 :
