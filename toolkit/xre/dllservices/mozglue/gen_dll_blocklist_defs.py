@@ -310,7 +310,7 @@ the
 ones
 defined
 in
-WindowsDllBlocklistInfo
+WindowsDllBlocklistCommon
 .
 h
 FLAGS_DEFAULT
@@ -362,11 +362,6 @@ SOCKET_PROCESSES_ONLY
 =
 "
 SOCKET_PROCESSES_ONLY
-"
-GPU_PROCESSES_ONLY
-=
-"
-GPU_PROCESSES_ONLY
 "
 #
 Only
@@ -526,10 +521,6 @@ BROWSER_PROCESS
     
 "
 CHILD_PROCESSES
-"
-    
-"
-GPU_PROCESSES
 "
     
 "
@@ -2434,14 +2425,6 @@ CHILD_PROCESSES_ONLY
 }
             
 "
-GPU_PROCESSES
-"
-:
-{
-GPU_PROCESSES_ONLY
-}
-            
-"
 UTILITY_PROCESSES
 "
 :
@@ -2488,14 +2471,6 @@ CHILD_PROCESSES
 :
 {
 CHILD_PROCESSES_ONLY
-}
-            
-"
-GPU_PROCESSES
-"
-:
-{
-GPU_PROCESSES_ONLY
 }
             
 "
