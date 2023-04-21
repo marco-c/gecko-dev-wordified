@@ -1053,15 +1053,6 @@ const
 nsAString
 &
 aScriptURL
-const
-enum
-WorkerType
-&
-aWorkerType
-const
-RequestCredentials
-&
-aCredentials
 bool
 aIsChromeWorker
 LoadGroupBehavior
