@@ -165,6 +165,15 @@ case
 CompositionOp
 :
 :
+OP_CLEAR
+:
+return
+CAIRO_OPERATOR_CLEAR
+;
+case
+CompositionOp
+:
+:
 OP_OVER
 :
 return
