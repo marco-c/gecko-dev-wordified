@@ -18487,7 +18487,12 @@ aChildFrame
 )
 mWM
 (
-aContainerWM
+aChildFrame
+-
+>
+GetWritingMode
+(
+)
 )
 mCBWM
 (
