@@ -1484,10 +1484,6 @@ hal
 :
 :
 TextureCopyBase
-wgt
-:
-:
-TextureFormat
 )
 TransferError
 >
@@ -1715,7 +1711,6 @@ Ok
 (
 selector
 base
-format
 )
 )
 }
@@ -4892,7 +4887,6 @@ let
 (
 dst_range
 dst_base
-_
 )
 =
 extract_texture_selector
@@ -5758,7 +5752,6 @@ let
 (
 src_range
 src_base
-_
 )
 =
 extract_texture_selector
@@ -6871,7 +6864,6 @@ let
 (
 src_range
 src_tex_base
-_
 )
 =
 extract_texture_selector
@@ -6886,7 +6878,6 @@ let
 (
 dst_range
 dst_tex_base
-_
 )
 =
 extract_texture_selector
