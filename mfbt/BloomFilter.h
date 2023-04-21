@@ -1312,7 +1312,7 @@ return
 !
 !
 (
-mCounters
+mBits
 [
 index
 ]
@@ -1350,7 +1350,7 @@ bit
 <
 shift
 ;
-mCounters
+mBits
 [
 index
 ]
@@ -1428,7 +1428,7 @@ aHash
 ;
 }
 uint8_t
-mCounters
+mBits
 [
 kArraySize
 ]
@@ -1457,7 +1457,7 @@ clear
 {
 memset
 (
-mCounters
+mBits
 0
 kArraySize
 )
