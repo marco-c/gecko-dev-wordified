@@ -31024,7 +31024,6 @@ long
 _
 =
 >
-{
 panic
 !
 (
@@ -31038,8 +31037,6 @@ with
 id
 "
 )
-;
-}
 }
 }
 ;
@@ -31150,10 +31147,16 @@ decls
 .
 contains
 (
+PropertyDeclarationId
+:
+:
+Longhand
+(
 get_longhand_from_id
 !
 (
 property
+)
 )
 )
 }
