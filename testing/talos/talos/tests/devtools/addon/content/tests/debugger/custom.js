@@ -1313,7 +1313,6 @@ await
 waitForText
 (
 dbg
-file
 fileFirstChars
 )
 ;
@@ -1553,7 +1552,6 @@ await
 waitForText
 (
 dbg
-formattedFileUrl
 "
 !
 function
