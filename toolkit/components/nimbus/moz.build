@@ -233,7 +233,9 @@ test
 /
 NimbusTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 GeneratedFile

@@ -117,7 +117,7 @@ RemoteSettingsExperimentLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -130,7 +130,9 @@ lib
 /
 RemoteSettingsExperimentLoader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -141,7 +143,7 @@ ExperimentAPI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -152,7 +154,9 @@ nimbus
 /
 ExperimentAPI
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -164,7 +168,7 @@ ExperimentTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -177,7 +181,9 @@ common
 /
 NimbusTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
