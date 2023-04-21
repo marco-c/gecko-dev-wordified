@@ -217,6 +217,11 @@ ExtensionScripting
 cpp
 "
 "
+ExtensionSetting
+.
+cpp
+"
+"
 ExtensionTest
 .
 cpp
@@ -252,6 +257,11 @@ h
 "
 "
 ExtensionScripting
+.
+h
+"
+"
+ExtensionSetting
 .
 h
 "
