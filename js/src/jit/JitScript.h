@@ -2749,16 +2749,13 @@ warmUpCount_
 void
 incWarmUpCount
 (
-uint32_t
-amount
 )
 {
 icScript_
 .
 warmUpCount_
 +
-=
-amount
++
 ;
 }
 void
