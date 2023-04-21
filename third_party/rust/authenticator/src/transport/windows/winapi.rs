@@ -1228,6 +1228,12 @@ unsafe
 {
 from_wide_ptr
 (
+ptr
+:
+:
+addr_of
+!
+(
 (
 *
 self
@@ -1236,9 +1242,9 @@ data
 )
 .
 DevicePath
-.
-as_ptr
-(
+[
+0
+]
 )
 self
 .

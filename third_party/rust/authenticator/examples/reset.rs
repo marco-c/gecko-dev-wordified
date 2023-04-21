@@ -910,7 +910,7 @@ Ok
 StatusUpdate
 :
 :
-PinError
+PinUvError
 (
 .
 .

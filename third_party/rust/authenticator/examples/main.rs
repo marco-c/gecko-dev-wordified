@@ -948,7 +948,7 @@ Ok
 StatusUpdate
 :
 :
-PinError
+PinUvError
 (
 .
 .
