@@ -2225,15 +2225,6 @@ aClientId
 )
 final
 ;
-already_AddRefed
-<
-PFetchParent
->
-AllocPFetchParent
-(
-)
-override
-;
 }
 ;
 }
