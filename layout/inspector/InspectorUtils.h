@@ -821,6 +821,9 @@ aB
 nsAString
 &
 aResult
+ErrorResult
+&
+aRv
 )
 ;
 /

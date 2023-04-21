@@ -173,6 +173,7 @@ js
 const
 {
 rgbToHsl
+rgbToColorName
 }
 =
 require
@@ -4021,8 +4022,6 @@ name
 const
 str
 =
-InspectorUtils
-.
 rgbToColorName
 (
 r

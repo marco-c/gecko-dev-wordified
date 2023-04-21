@@ -9763,8 +9763,6 @@ hsla
 7
 %
 0
-.
-03
 )
 "
 rgb
@@ -9776,8 +9774,6 @@ rgba
 170
 170
 0
-.
-03
 )
 "
 hwb
@@ -9796,10 +9792,11 @@ hwb
 %
 /
 0
-.
-03
 )
 "
+disableColorMatch
+:
+true
 }
 {
 authored
