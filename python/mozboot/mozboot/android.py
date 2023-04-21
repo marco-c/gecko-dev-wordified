@@ -125,7 +125,7 @@ MOZCONFIG_SUGGESTION_TEMPLATE
 NDK_VERSION
 =
 "
-r23c
+r21d
 "
 CMDLINE_TOOLS_VERSION_STRING
 =
@@ -4725,6 +4725,8 @@ ndk
 VER
 -
 linux
+-
+x86_64
 .
 zip
     
@@ -4782,8 +4784,37 @@ os_name
 darwin
 "
     
+if
+sys
+.
+maxsize
+>
+2
+*
+*
+32
+:
+        
+arch
+=
+"
+x86_64
+"
+    
+else
+:
+        
+arch
+=
+"
+x86
+"
+    
 return
 "
+%
+s
+-
 %
 s
 -
@@ -4800,6 +4831,7 @@ zip
 base_url
 ver
 os_name
+arch
 )
 def
 main
