@@ -3776,6 +3776,10 @@ transition
 |
 outline
 |
+vertical
+-
+align
+|
 white
 -
 space
