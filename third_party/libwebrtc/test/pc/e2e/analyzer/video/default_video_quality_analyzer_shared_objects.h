@@ -982,6 +982,17 @@ SamplesStatsCounter
 time_between_freezes_ms
 ;
 SamplesStatsCounter
+resolution_of_decoded_frame
+;
+/
+/
+Deprecated
+.
+Used
+resolution_of_decoded_frame
+instead
+.
+SamplesStatsCounter
 resolution_of_rendered_frame
 ;
 SamplesStatsCounter
