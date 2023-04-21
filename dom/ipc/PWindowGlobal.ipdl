@@ -758,7 +758,6 @@ LoadURI
 (
 MaybeDiscardedBrowsingContext
 aTargetBC
-nullable
 nsDocShellLoadState
 aLoadState
 bool
@@ -768,7 +767,6 @@ aSetNavigating
 async
 InternalLoad
 (
-nullable
 nsDocShellLoadState
 aLoadState
 )

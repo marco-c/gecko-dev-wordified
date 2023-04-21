@@ -1026,9 +1026,12 @@ bool
 aCanReload
 Maybe
 <
+NotNull
+<
 RefPtr
 <
 nsDocShellLoadState
+>
 >
 >
 &

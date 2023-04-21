@@ -1166,7 +1166,10 @@ mBrowserParent
 >
 SendLoadURL
 (
+WrapNotNull
+(
 aLoadState
+)
 mBrowserParent
 -
 >
