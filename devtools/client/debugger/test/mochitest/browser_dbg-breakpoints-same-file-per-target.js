@@ -97,17 +97,9 @@ switching
 disabled
 if
 (
-(
 !
 isFissionEnabled
 (
-)
-|
-|
-!
-isServerTargetSwitchingEnabled
-(
-)
 )
 &
 &
