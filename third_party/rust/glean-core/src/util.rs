@@ -70,6 +70,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error_recording
 :
 :
@@ -86,12 +95,6 @@ metrics
 :
 :
 TimeUnit
-;
-use
-crate
-:
-:
-CommonMetricData
 ;
 use
 crate
@@ -1225,7 +1228,7 @@ Glean
 meta
 :
 &
-CommonMetricData
+CommonMetricDataInternal
 value
 :
 S

@@ -201,6 +201,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error
 :
 :
@@ -333,6 +342,13 @@ iter
 )
 below
 .
+#
+[
+repr
+(
+C
+)
+]
 #
 [
 derive
@@ -752,7 +768,7 @@ get_error_metric_for_metric
 meta
 :
 &
-CommonMetricData
+CommonMetricDataInternal
 error
 :
 ErrorType
@@ -832,6 +848,8 @@ mut
 send_in_pings
 =
 meta
+.
+inner
 .
 send_in_pings
 .
@@ -1121,7 +1139,7 @@ Glean
 meta
 :
 &
-CommonMetricData
+CommonMetricDataInternal
 error
 :
 ErrorType
@@ -1321,7 +1339,7 @@ Glean
 meta
 :
 &
-CommonMetricData
+CommonMetricDataInternal
 error
 :
 ErrorType

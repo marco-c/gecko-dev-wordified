@@ -60,6 +60,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error_recording
 :
 :
@@ -237,7 +246,7 @@ self
 -
 >
 &
-CommonMetricData
+CommonMetricDataInternal
 {
 self
 .
@@ -737,6 +746,8 @@ meta
 (
 )
 .
+inner
+.
 send_in_pings
 [
 0
@@ -770,6 +781,8 @@ self
 meta
 (
 )
+.
+inner
 .
 lifetime
 )
@@ -870,7 +883,7 @@ metric
 /
 for
 .
-Defaults
+inner
 to
 the
 first
