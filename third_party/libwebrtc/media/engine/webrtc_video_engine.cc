@@ -18874,6 +18874,14 @@ encoder_implementation_name
 ;
 common_info
 .
+target_bitrate
+=
+stats
+.
+target_media_bitrate_bps
+;
+common_info
+.
 ssrc_groups
 =
 ssrc_groups_
