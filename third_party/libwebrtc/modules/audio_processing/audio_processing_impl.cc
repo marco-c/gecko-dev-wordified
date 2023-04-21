@@ -6931,6 +6931,7 @@ agc_manager
 >
 AnalyzePreProcess
 (
+*
 capture_buffer
 )
 ;
@@ -7342,6 +7343,7 @@ agc_manager
 >
 Process
 (
+*
 capture_buffer
 )
 ;
