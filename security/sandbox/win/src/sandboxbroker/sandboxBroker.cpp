@@ -3140,7 +3140,7 @@ and
 if
 defined
 (
-NIGHTLY_BUILD
+NIGHTLY
 )
 /
 /
