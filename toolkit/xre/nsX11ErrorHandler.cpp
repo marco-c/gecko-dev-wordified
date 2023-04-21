@@ -387,6 +387,9 @@ XErrorEvent
 event
 )
 {
+#
+ifdef
+DEBUG
 /
 /
 Get
@@ -421,6 +424,8 @@ event
 >
 serial
 ;
+#
+endif
 /
 /
 Get
@@ -674,6 +679,9 @@ Append
 buffer
 )
 ;
+#
+ifdef
+DEBUG
 /
 /
 For
@@ -900,9 +908,6 @@ ago
 ;
 }
 }
-#
-ifdef
-DEBUG
 /
 /
 The
