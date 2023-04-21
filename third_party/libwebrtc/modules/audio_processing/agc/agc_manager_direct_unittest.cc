@@ -1522,7 +1522,6 @@ return
 config
 ;
 }
-;
 class
 AgcManagerDirectTestHelper
 {
