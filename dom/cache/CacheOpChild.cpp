@@ -328,7 +328,11 @@ CacheStreamControlChild
 (
 aReadStream
 .
-controlChild
+control
+(
+)
+.
+AsChild
 (
 )
 )
@@ -915,7 +919,11 @@ CacheChild
 (
 result
 .
-actorChild
+actor
+(
+)
+.
+AsChild
 (
 )
 )

@@ -8105,7 +8105,11 @@ Document
 (
 )
 .
-get_PDocAccessibleParent
+get_PDocAccessible
+(
+)
+.
+AsParent
 (
 )
 )
