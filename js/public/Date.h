@@ -334,7 +334,6 @@ mozilla
 :
 {
 IsFinite
-IsNaN
 }
 mozilla
 :
@@ -835,10 +834,10 @@ const
 {
 return
 !
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 t
 )

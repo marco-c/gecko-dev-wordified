@@ -1981,7 +1981,10 @@ actual
 {
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 cached
 )

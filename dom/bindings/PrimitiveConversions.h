@@ -1623,10 +1623,10 @@ integers
 ;
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 d
 )

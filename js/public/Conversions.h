@@ -913,10 +913,10 @@ toDouble
 ;
 return
 !
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 d
 )
@@ -1094,10 +1094,10 @@ d
 {
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 d
 )

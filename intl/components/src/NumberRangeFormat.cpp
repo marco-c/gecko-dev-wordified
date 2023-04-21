@@ -483,7 +483,10 @@ if
 (
 MOZ_UNLIKELY
 (
-IsNaN
+std
+:
+:
+isnan
 (
 start
 )
@@ -506,7 +509,10 @@ if
 (
 MOZ_UNLIKELY
 (
-IsNaN
+std
+:
+:
+isnan
 (
 end
 )

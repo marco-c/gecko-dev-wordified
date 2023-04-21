@@ -357,7 +357,10 @@ CurValue
 ;
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 currentValue
 )
@@ -495,7 +498,10 @@ MaxValue
 ;
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 maximumValue
 )
@@ -577,7 +583,10 @@ MinValue
 ;
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 minimumValue
 )

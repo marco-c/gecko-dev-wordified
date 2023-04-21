@@ -770,7 +770,10 @@ Iterations
 &
 &
 !
-IsNaN
+std
+:
+:
+isnan
 (
 aTiming
 .

@@ -180,10 +180,10 @@ a
 0
 |
 |
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 a
 )

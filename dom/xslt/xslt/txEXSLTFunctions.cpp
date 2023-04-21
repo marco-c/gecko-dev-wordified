@@ -3325,10 +3325,10 @@ str
 ;
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 val
 )
@@ -3577,10 +3577,10 @@ str
 ;
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 val
 )
