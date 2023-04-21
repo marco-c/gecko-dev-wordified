@@ -370,7 +370,7 @@ true
 ;
 }
 function
-RunRequestStorageAccessInDetachedFrame
+CreateDetachedFrame
 (
 )
 {
@@ -410,14 +410,10 @@ remove
 ;
 return
 inner_doc
-.
-requestStorageAccess
-(
-)
 ;
 }
 function
-RunRequestStorageAccessViaDomParser
+CreateDocumentViaDOMParser
 (
 )
 {
@@ -454,10 +450,6 @@ html
 ;
 return
 doc
-.
-requestStorageAccess
-(
-)
 ;
 }
 function

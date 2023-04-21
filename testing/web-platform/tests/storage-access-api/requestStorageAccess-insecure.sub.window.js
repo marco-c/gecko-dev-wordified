@@ -315,7 +315,11 @@ wrong
 global
 .
 return
-RunRequestStorageAccessInDetachedFrame
+CreateDetachedFrame
+(
+)
+.
+requestStorageAccess
 (
 )
 .
@@ -392,7 +396,11 @@ t
 '
 InvalidStateError
 '
-RunRequestStorageAccessViaDomParser
+CreateDocumentViaDOMParser
+(
+)
+.
+requestStorageAccess
 (
 )
 "
