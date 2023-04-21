@@ -78,15 +78,6 @@ waitForOverlay
 (
 )
 ;
-EventUtils
-.
-synthesizeKey
-(
-"
-KEY_Tab
-"
-)
-;
 let
 screenshotsButtons
 =
