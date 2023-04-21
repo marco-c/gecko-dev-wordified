@@ -64,6 +64,16 @@ ModuleLoader
 .
 js
 "
+"
+Utils
+.
+js
+"
+"
+UtilsChild
+.
+js
+"
 ]
 parserOptions
 :
