@@ -106,7 +106,7 @@ testDevToolsServerInitialized
 )
 {
 const
-browser
+tab
 =
 await
 addTab
@@ -125,16 +125,6 @@ utf
 8
 foo
 "
-)
-;
-const
-tab
-=
-gBrowser
-.
-getTabForBrowser
-(
-browser
 )
 ;
 ok
@@ -161,7 +151,7 @@ process
 await
 assertServerInitialized
 (
-browser
+tab
 false
 "
 By
@@ -212,7 +202,7 @@ process
 await
 assertServerInitialized
 (
-browser
+tab
 false
 "
 Creating
@@ -244,7 +234,7 @@ startListening
 await
 assertServerInitialized
 (
-browser
+tab
 true
 "
 Initializing
@@ -308,7 +298,7 @@ process
 await
 assertServerInitialized
 (
-browser
+tab
 false
 "
 But
@@ -347,7 +337,7 @@ testDevToolsServerKeepAlive
 )
 {
 const
-browser
+tab
 =
 await
 addTab
@@ -368,20 +358,10 @@ foo
 "
 )
 ;
-const
-tab
-=
-gBrowser
-.
-getTabForBrowser
-(
-browser
-)
-;
 await
 assertServerInitialized
 (
-browser
+tab
 false
 "
 Server
@@ -416,7 +396,7 @@ startListening
 await
 assertServerInitialized
 (
-browser
+tab
 true
 "
 Server
@@ -452,7 +432,7 @@ true
 await
 setContentServerKeepAlive
 (
-browser
+tab
 true
 )
 ;
@@ -482,7 +462,7 @@ destroy
 await
 assertServerInitialized
 (
-browser
+tab
 true
 "
 Server
@@ -540,7 +520,7 @@ false
 await
 setContentServerKeepAlive
 (
-browser
+tab
 false
 )
 ;
@@ -586,7 +566,7 @@ destroy
 await
 assertServerInitialized
 (
-browser
+tab
 false
 "
 Server
@@ -637,7 +617,7 @@ async
 function
 assertServerInitialized
 (
-browser
+tab
 expected
 message
 )
@@ -650,7 +630,9 @@ SpecialPowers
 .
 spawn
 (
-browser
+tab
+.
+linkedBrowser
 [
 ]
 function
@@ -729,7 +711,7 @@ async
 function
 setContentServerKeepAlive
 (
-browser
+tab
 keepAlive
 message
 )
@@ -739,7 +721,9 @@ SpecialPowers
 .
 spawn
 (
-browser
+tab
+.
+linkedBrowser
 [
 keepAlive
 ]

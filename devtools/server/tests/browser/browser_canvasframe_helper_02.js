@@ -56,7 +56,7 @@ function
 )
 {
 const
-browser
+tab
 =
 await
 addTab
@@ -93,7 +93,9 @@ SpecialPowers
 .
 spawn
 (
-browser
+tab
+.
+linkedBrowser
 [
 ]
 async
