@@ -137,6 +137,10 @@ services
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -191,6 +191,10 @@ ChromeUtils
 importESModule
 "
 }
+schema
+:
+[
+]
 type
 :
 "

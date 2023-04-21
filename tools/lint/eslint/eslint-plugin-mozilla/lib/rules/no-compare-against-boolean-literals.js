@@ -128,6 +128,10 @@ literals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

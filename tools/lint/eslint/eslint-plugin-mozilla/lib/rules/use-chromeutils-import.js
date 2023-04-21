@@ -209,6 +209,10 @@ fixable
 "
 code
 "
+schema
+:
+[
+]
 type
 :
 "

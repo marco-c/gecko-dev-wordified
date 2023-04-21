@@ -125,6 +125,10 @@ ownerGlobal
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

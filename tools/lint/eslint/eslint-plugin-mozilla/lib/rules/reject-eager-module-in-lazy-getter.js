@@ -365,6 +365,10 @@ getter
 .
 '
 }
+schema
+:
+[
+]
 type
 :
 "

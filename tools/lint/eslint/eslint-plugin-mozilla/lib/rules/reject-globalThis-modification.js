@@ -226,6 +226,10 @@ modification
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

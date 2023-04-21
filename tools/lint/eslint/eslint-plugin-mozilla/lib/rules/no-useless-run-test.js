@@ -136,6 +136,10 @@ fixable
 "
 code
 "
+schema
+:
+[
+]
 type
 :
 "

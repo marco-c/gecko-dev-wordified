@@ -148,6 +148,10 @@ level
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

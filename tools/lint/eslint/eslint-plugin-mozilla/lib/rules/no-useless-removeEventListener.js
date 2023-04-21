@@ -133,6 +133,10 @@ removeEventListener
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

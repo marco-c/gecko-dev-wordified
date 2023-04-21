@@ -222,6 +222,10 @@ those
 calls
 "
 }
+schema
+:
+[
+]
 type
 :
 "

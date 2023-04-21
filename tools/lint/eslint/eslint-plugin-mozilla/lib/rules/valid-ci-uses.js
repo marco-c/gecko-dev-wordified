@@ -783,6 +783,10 @@ property
 }
 "
 }
+schema
+:
+[
+]
 type
 :
 "

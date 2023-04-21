@@ -157,6 +157,10 @@ name
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

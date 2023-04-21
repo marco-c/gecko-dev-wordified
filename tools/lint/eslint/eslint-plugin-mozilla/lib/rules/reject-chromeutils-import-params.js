@@ -236,6 +236,10 @@ html
 hasSuggestions
 :
 true
+schema
+:
+[
+]
 type
 :
 "

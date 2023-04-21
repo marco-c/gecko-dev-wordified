@@ -302,6 +302,10 @@ this
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

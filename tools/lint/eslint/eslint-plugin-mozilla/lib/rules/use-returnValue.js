@@ -128,6 +128,10 @@ returnValue
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

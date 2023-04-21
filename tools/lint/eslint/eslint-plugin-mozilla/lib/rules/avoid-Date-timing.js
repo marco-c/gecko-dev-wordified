@@ -126,6 +126,10 @@ timing
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

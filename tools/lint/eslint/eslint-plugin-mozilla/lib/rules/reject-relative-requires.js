@@ -169,6 +169,10 @@ requires
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

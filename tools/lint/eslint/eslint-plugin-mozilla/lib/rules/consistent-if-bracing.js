@@ -146,6 +146,10 @@ consistent
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

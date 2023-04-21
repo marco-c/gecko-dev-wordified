@@ -328,6 +328,10 @@ getter
 .
 '
 }
+schema
+:
+[
+]
 type
 :
 "

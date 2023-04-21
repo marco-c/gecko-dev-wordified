@@ -155,6 +155,10 @@ setTimeout
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

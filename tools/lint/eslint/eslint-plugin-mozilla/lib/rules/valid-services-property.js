@@ -351,6 +351,10 @@ checkedInterfaces
 }
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -144,6 +144,10 @@ await
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

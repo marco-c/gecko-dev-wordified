@@ -147,6 +147,10 @@ etc
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

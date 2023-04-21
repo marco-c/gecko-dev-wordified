@@ -139,6 +139,10 @@ values
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

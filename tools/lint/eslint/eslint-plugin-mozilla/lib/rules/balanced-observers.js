@@ -135,6 +135,10 @@ observers
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

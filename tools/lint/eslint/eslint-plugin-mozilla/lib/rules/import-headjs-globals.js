@@ -248,6 +248,10 @@ globals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

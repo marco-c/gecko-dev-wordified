@@ -138,6 +138,10 @@ fixable
 "
 code
 "
+schema
+:
+[
+]
 type
 :
 "

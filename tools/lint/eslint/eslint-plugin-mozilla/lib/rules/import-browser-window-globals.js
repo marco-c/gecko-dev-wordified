@@ -181,6 +181,10 @@ globals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

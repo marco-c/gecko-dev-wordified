@@ -161,6 +161,10 @@ files
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

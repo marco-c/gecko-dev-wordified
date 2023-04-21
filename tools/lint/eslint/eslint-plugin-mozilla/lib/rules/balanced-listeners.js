@@ -183,6 +183,10 @@ listeners
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

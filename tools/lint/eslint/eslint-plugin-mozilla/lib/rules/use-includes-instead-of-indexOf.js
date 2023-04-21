@@ -128,6 +128,10 @@ indexOf
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

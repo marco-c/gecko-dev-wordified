@@ -193,6 +193,10 @@ aArgs
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

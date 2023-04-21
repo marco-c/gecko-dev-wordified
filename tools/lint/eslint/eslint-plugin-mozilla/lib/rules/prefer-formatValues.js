@@ -207,6 +207,10 @@ formatValues
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

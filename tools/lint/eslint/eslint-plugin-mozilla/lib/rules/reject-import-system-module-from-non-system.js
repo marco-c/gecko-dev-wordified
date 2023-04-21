@@ -151,6 +151,10 @@ modules
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

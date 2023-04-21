@@ -577,6 +577,10 @@ lazy
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

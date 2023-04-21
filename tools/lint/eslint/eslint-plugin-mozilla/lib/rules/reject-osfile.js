@@ -213,6 +213,10 @@ osfile
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

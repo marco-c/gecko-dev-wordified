@@ -167,6 +167,10 @@ scriptableunicodeconverter
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -166,6 +166,10 @@ used
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

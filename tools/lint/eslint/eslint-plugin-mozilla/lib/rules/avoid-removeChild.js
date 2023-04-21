@@ -150,6 +150,10 @@ removeChild
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -413,6 +413,10 @@ Exception
 instead
 "
 }
+schema
+:
+[
+]
 type
 :
 "

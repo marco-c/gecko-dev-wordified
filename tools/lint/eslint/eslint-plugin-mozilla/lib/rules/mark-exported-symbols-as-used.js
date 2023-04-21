@@ -274,6 +274,10 @@ used
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

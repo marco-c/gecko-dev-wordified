@@ -123,6 +123,10 @@ globals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "
