@@ -4259,7 +4259,7 @@ aVisible
 *
 *
 *
-GetScrolledRectInternal
+GetUnsnappedScrolledRectInternal
 is
 designed
 to
@@ -4328,7 +4328,7 @@ directionality
 *
 /
 nsRect
-GetScrolledRectInternal
+GetUnsnappedScrolledRectInternal
 (
 const
 nsRect
