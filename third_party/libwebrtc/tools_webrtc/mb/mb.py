@@ -655,7 +655,20 @@ cmdline
 =
 [
           
+'
+luci
+-
+auth
+'
+'
+context
+'
+'
+-
+-
+'
 vpython_exe
+          
 '
 .
 .
@@ -673,12 +686,12 @@ logdog_wrapper
 .
 py
 '
-          
 '
 -
 -
 target
 '
+          
 target
 '
 -
@@ -689,6 +702,7 @@ bin
 -
 cmd
 '
+          
 '
 .
 .
@@ -696,11 +710,11 @@ cmd
 .
 .
 /
-bin
+.
+task_template_packages
 /
 logdog_butler
 '
-          
 '
 -
 -
@@ -710,6 +724,7 @@ output
 -
 file
 '
+          
 '
 {
 ISOLATED_OUTDIR
@@ -717,7 +732,6 @@ ISOLATED_OUTDIR
 /
 logcats
 '
-          
 '
 -
 -
