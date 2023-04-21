@@ -705,7 +705,6 @@ SCTP
 /
 DTLS
 .
-virtual
 std
 :
 :
@@ -741,7 +740,6 @@ protocol
 )
 ;
 }
-virtual
 webrtc
 :
 :
@@ -755,7 +753,6 @@ return
 direction_
 ;
 }
-virtual
 void
 set_direction
 (
@@ -771,7 +768,6 @@ direction_
 direction
 ;
 }
-virtual
 bool
 rtcp_mux
 (
@@ -782,7 +778,6 @@ return
 rtcp_mux_
 ;
 }
-virtual
 void
 set_rtcp_mux
 (
@@ -795,7 +790,6 @@ rtcp_mux_
 mux
 ;
 }
-virtual
 bool
 rtcp_reduced_size
 (
@@ -806,7 +800,6 @@ return
 rtcp_reduced_size_
 ;
 }
-virtual
 void
 set_rtcp_reduced_size
 (
@@ -844,7 +837,6 @@ change
 without
 notice
 .
-virtual
 bool
 remote_estimate
 (
@@ -855,7 +847,6 @@ return
 remote_estimate_
 ;
 }
-virtual
 void
 set_remote_estimate
 (
@@ -868,7 +859,6 @@ remote_estimate_
 remote_estimate
 ;
 }
-virtual
 int
 bandwidth
 (
@@ -879,7 +869,6 @@ return
 bandwidth_
 ;
 }
-virtual
 void
 set_bandwidth
 (
@@ -892,7 +881,6 @@ bandwidth_
 bandwidth
 ;
 }
-virtual
 std
 :
 :
@@ -906,7 +894,6 @@ return
 bandwidth_type_
 ;
 }
-virtual
 void
 set_bandwidth_type
 (
@@ -922,7 +909,6 @@ bandwidth_type_
 bandwidth_type
 ;
 }
-virtual
 const
 std
 :
@@ -941,7 +927,6 @@ return
 cryptos_
 ;
 }
-virtual
 void
 AddCrypto
 (
@@ -959,7 +944,6 @@ params
 )
 ;
 }
-virtual
 void
 set_cryptos
 (
@@ -1038,7 +1022,6 @@ DeduplicateHeaderExtensions
 for
 filtering
 .
-virtual
 const
 RtpHeaderExtensions
 &
@@ -1051,7 +1034,6 @@ return
 rtp_header_extensions_
 ;
 }
-virtual
 void
 set_rtp_header_extensions
 (
@@ -1070,7 +1052,6 @@ rtp_header_extensions_set_
 true
 ;
 }
-virtual
 void
 AddRtpHeaderExtension
 (
@@ -1095,7 +1076,6 @@ rtp_header_extensions_set_
 true
 ;
 }
-virtual
 void
 ClearRtpHeaderExtensions
 (
@@ -1193,7 +1173,6 @@ other
 information
 )
 .
-virtual
 bool
 rtp_header_extensions_set
 (
@@ -1204,7 +1183,6 @@ return
 rtp_header_extensions_set_
 ;
 }
-virtual
 const
 StreamParamsVec
 &
@@ -1236,7 +1214,6 @@ access
 /
 to
 MediaContentDescription
-virtual
 StreamParamsVec
 &
 mutable_streams
@@ -1247,7 +1224,6 @@ return
 send_streams_
 ;
 }
-virtual
 void
 AddStream
 (
@@ -1329,7 +1305,6 @@ sp
 )
 ;
 }
-virtual
 uint32_t
 first_ssrc
 (
@@ -1360,7 +1335,6 @@ first_ssrc
 )
 ;
 }
-virtual
 bool
 has_ssrcs
 (
@@ -1391,7 +1365,6 @@ has_ssrcs
 )
 ;
 }
-virtual
 void
 set_conference_mode
 (
@@ -1404,7 +1377,6 @@ conference_mode_
 enable
 ;
 }
-virtual
 bool
 conference_mode
 (
@@ -1469,7 +1441,6 @@ session
 level
 one
 .
-virtual
 void
 set_connection_address
 (
@@ -1487,7 +1458,6 @@ connection_address_
 address
 ;
 }
-virtual
 const
 rtc
 :
@@ -1538,7 +1508,6 @@ kSession
 kMedia
 }
 ;
-virtual
 void
 set_extmap_allow_mixed_enum
 (
@@ -1580,7 +1549,6 @@ extmap_allow_mixed_enum_
 new_extmap_allow_mixed
 ;
 }
-virtual
 ExtmapAllowMixed
 extmap_allow_mixed_enum
 (
@@ -1591,7 +1559,6 @@ return
 extmap_allow_mixed_enum_
 ;
 }
-virtual
 bool
 extmap_allow_mixed
 (
@@ -1610,7 +1577,6 @@ kNo
 Simulcast
 functionality
 .
-virtual
 bool
 HasSimulcast
 (
@@ -1626,7 +1592,6 @@ empty
 )
 ;
 }
-virtual
 SimulcastDescription
 &
 simulcast_description
@@ -1637,7 +1602,6 @@ return
 simulcast_
 ;
 }
-virtual
 const
 SimulcastDescription
 &
@@ -1650,7 +1614,6 @@ return
 simulcast_
 ;
 }
-virtual
 void
 set_simulcast_description
 (
@@ -1665,7 +1628,6 @@ simulcast_
 simulcast
 ;
 }
-virtual
 const
 std
 :
@@ -1684,7 +1646,6 @@ return
 receive_rids_
 ;
 }
-virtual
 void
 set_receive_rids
 (
