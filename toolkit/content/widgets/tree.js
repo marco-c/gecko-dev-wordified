@@ -1450,7 +1450,7 @@ this
 .
 style
 .
-MozBoxOrdinalGroup
+order
 =
 "
 "
@@ -2427,7 +2427,7 @@ this
 .
 style
 .
-MozBoxOrdinalGroup
+order
 =
 this
 .
@@ -2512,7 +2512,7 @@ this
 .
 style
 .
-MozBoxOrdinalGroup
+order
 =
 val
 ;
@@ -2539,7 +2539,7 @@ this
 .
 style
 .
-MozBoxOrdinalGroup
+order
 ;
 if
 (
@@ -6986,7 +6986,7 @@ i
 .
 style
 .
-MozBoxOrdinalGroup
+order
 =
 (
 i

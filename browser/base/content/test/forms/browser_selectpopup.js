@@ -5326,10 +5326,7 @@ Visible
 0
 ?
 "
--
-moz
--
-box
+flex
 "
 :
 "
