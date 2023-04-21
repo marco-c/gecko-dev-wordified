@@ -6526,7 +6526,10 @@ teeState
 >
 SetBranch1
 (
-CreateReadableByteStream
+ReadableStream
+:
+:
+CreateByteAbstract
 (
 aCx
 global
@@ -6572,7 +6575,10 @@ teeState
 >
 SetBranch2
 (
-CreateReadableByteStream
+ReadableStream
+:
+:
+CreateByteAbstract
 (
 aCx
 global
