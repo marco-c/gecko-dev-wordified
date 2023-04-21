@@ -194,6 +194,9 @@ PrincipalPrivacy
 :
 uint8_t
 ;
+class
+RemoteTrackSource
+;
 namespace
 dom
 {
@@ -854,6 +857,12 @@ dom
 MediaStreamTrack
 >
 mTrack
+;
+RefPtr
+<
+RemoteTrackSource
+>
+mTrackSource
 ;
 RefPtr
 <
