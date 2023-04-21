@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-copy
-import
-deepcopy
-from
 taskgraph
 .
 transforms
@@ -98,6 +94,14 @@ transforms
 test
 import
 test_description_schema
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 transforms
 =
 TransformSequence
@@ -734,7 +738,7 @@ continue
             
 atest
 =
-deepcopy
+copy_task
 (
 test
 )
@@ -1045,7 +1049,7 @@ job
             
 chunked
 =
-deepcopy
+copy_task
 (
 test
 )

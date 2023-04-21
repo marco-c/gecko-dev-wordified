@@ -68,10 +68,6 @@ ElementTree
 as
 ET
 from
-copy
-import
-deepcopy
-from
 urllib
 .
 parse
@@ -101,6 +97,14 @@ util
 attributes
 import
 release_level
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 #
 Suppress
 chatty
@@ -3246,7 +3250,7 @@ dict
             
 all_configs
 =
-deepcopy
+copy_task
 (
 kind_config
 .
@@ -3311,7 +3315,7 @@ all_locales
     
 subpartner_config
 =
-deepcopy
+copy_task
 (
 orig_config
 )
@@ -3825,7 +3829,7 @@ graph_config
     
 partner_url_config
 =
-deepcopy
+copy_task
 (
 graph_config
 [
