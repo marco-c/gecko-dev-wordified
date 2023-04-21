@@ -290,6 +290,9 @@ clipboardRead
 clipboardWrite
 "
 "
+declarativeNetRequestFeedback
+"
+"
 devtools
 "
 "
