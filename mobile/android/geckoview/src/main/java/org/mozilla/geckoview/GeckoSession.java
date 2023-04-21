@@ -21490,6 +21490,9 @@ int
 FLAG_IS_COLLAPSED
 =
 1
+<
+<
+0
 ;
 /
 *
@@ -21516,7 +21519,10 @@ final
 int
 FLAG_IS_EDITABLE
 =
-2
+1
+<
+<
+1
 ;
 /
 *
@@ -21535,7 +21541,10 @@ final
 int
 FLAG_IS_PASSWORD
 =
-4
+1
+<
+<
+2
 ;
 /
 *
