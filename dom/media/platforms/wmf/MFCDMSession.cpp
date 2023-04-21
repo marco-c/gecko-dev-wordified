@@ -1834,7 +1834,7 @@ mExpirationEvent
 .
 Notify
 (
-ExpirationInfo
+MFCDMKeyExpiration
 {
 *
 mSessionId
