@@ -2468,7 +2468,6 @@ leaveAdInterestGroup
 testCase
 .
 interestGroup
-INTEREST_GROUP_LIFETIME_SECS
 )
 ;
 assert_true
