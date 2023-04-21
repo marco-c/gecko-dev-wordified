@@ -2542,6 +2542,9 @@ iAmt
 else
 if
 (
+rc
+=
+=
 SQLITE_IOERR_SHORT_READ
 &
 &
