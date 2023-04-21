@@ -387,6 +387,16 @@ x86
 version
         
 build_number
+        
+depends
+=
+"
+{
+shlibs
+:
+Depends
+}
+"
     
 )
 =
@@ -444,6 +454,18 @@ DEB_ARCH_NAME
 :
 "
 i386
+"
+        
+"
+DEB_DEPENDS
+"
+:
+"
+{
+shlibs
+:
+Depends
+}
 "
     
 }
