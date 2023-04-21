@@ -506,6 +506,14 @@ IsOnMessageLoopThread
 (
 )
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+aReason
+)
+override
+;
 ipc
 :
 :
