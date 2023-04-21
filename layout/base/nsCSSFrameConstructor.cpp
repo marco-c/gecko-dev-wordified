@@ -19588,7 +19588,7 @@ OwnerDoc
 )
 -
 >
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 &

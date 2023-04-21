@@ -315,7 +315,7 @@ Document
 )
 -
 >
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 )

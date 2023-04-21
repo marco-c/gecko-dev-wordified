@@ -19168,7 +19168,7 @@ better
 idea
 than
 using
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 but
@@ -19192,7 +19192,7 @@ that
 .
 /
 /
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 gives
@@ -19222,7 +19222,7 @@ aSelectorString
 doc
 -
 >
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 )
