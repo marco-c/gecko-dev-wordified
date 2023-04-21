@@ -2389,8 +2389,16 @@ const
 EncoderStats
 &
 stats
+bool
+discarded
 )
 {
+if
+(
+discarded
+)
+return
+;
 MutexLock
 lock
 (

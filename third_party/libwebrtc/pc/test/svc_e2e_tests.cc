@@ -1300,6 +1300,8 @@ const
 EncoderStats
 &
 stats
+bool
+discarded
 )
 override
 {
@@ -1362,6 +1364,7 @@ peer_name
 frame_id
 encoded_image
 stats
+discarded
 )
 ;
 }
