@@ -2343,6 +2343,9 @@ MustSVGElementBeAccessible
 nsIContent
 *
 aContent
+DocAccessible
+*
+aDocument
 )
 {
 /
@@ -2412,7 +2415,11 @@ true
 }
 }
 return
-false
+MustBeAccessible
+(
+aContent
+aDocument
+)
 ;
 }
 /
@@ -10185,6 +10192,7 @@ if
 MustSVGElementBeAccessible
 (
 content
+document
 )
 )
 {
@@ -10260,7 +10268,7 @@ element
 could
 contain
 <
-foreignobject
+foreignObject
 >
 which
 contains
@@ -10333,6 +10341,7 @@ g
 MustSVGElementBeAccessible
 (
 content
+document
 )
 )
 {
@@ -10345,7 +10354,7 @@ can
 also
 contain
 <
-foreignobject
+foreignObject
 >
 .
 newAcc
