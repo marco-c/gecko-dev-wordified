@@ -7445,13 +7445,7 @@ if
 (
 context
 .
-viewType
-=
-=
-=
-"
-background
-"
+isBackgroundContext
 &
 &
 context
