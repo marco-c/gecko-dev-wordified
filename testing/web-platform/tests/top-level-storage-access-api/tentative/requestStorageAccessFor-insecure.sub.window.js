@@ -300,7 +300,7 @@ com
 when
 /
 if
-requestStorageAccessForOrigin
+requestStorageAccessFor
 is
 standardized
 /
@@ -313,7 +313,7 @@ these
 helpers
 .
 function
-RunRequestStorageAccessForOriginInDetachedFrame
+RunRequestStorageAccessForInDetachedFrame
 (
 site
 )
@@ -355,14 +355,14 @@ remove
 return
 inner_doc
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 site
 )
 ;
 }
 function
-RunRequestStorageAccessForOriginViaDomParser
+RunRequestStorageAccessForViaDomParser
 (
 site
 )
@@ -401,7 +401,7 @@ html
 return
 doc
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 site
 )
@@ -428,7 +428,7 @@ assert_not_equals
 (
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 undefined
 )
 ;
@@ -443,7 +443,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -476,7 +476,7 @@ NotAllowedError
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 '
 https
@@ -491,7 +491,7 @@ com
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -512,7 +512,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -540,7 +540,7 @@ description
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -568,7 +568,7 @@ wrong
 global
 .
 return
-RunRequestStorageAccessForOriginInDetachedFrame
+RunRequestStorageAccessForInDetachedFrame
 (
 '
 https
@@ -631,7 +631,7 @@ active
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -659,7 +659,7 @@ description
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 in
@@ -670,7 +670,7 @@ result
 '
 ;
 return
-RunRequestStorageAccessForOriginViaDomParser
+RunRequestStorageAccessForViaDomParser
 (
 '
 https
@@ -733,7 +733,7 @@ active
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -772,7 +772,7 @@ validate
 that
 calls
 to
-requestStorageAccessForOrigin
+requestStorageAccessFor
 are
 rejected
 /
@@ -792,7 +792,7 @@ RunTestsInIFrame
 /
 resources
 /
-requestStorageAccessForOrigin
+requestStorageAccessFor
 -
 iframe
 .
@@ -836,7 +836,7 @@ NotAllowedError
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 document
 .
@@ -847,7 +847,7 @@ origin
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -869,7 +869,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -909,7 +909,7 @@ NotAllowedError
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 document
 .
@@ -920,7 +920,7 @@ origin
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -947,7 +947,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
