@@ -2662,7 +2662,7 @@ height
 )
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >

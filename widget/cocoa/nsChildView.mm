@@ -8051,7 +8051,7 @@ IntSize
 aSurfaceSize
 )
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -8209,6 +8209,10 @@ setupLayerManager
 (
 this
 targetContext
+.
+get
+(
+)
 BufferMode
 :
 :

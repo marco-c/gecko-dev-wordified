@@ -848,7 +848,7 @@ return
 nullptr
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -881,6 +881,10 @@ result
 Draw
 (
 context
+.
+get
+(
+)
 aSize
 ImageRegion
 :

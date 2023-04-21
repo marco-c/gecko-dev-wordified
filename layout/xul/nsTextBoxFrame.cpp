@@ -1672,7 +1672,7 @@ this
 bounds
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1691,6 +1691,10 @@ Paint
 (
 aDisplayListBuilder
 captureCtx
+.
+get
+(
+)
 )
 ;
 textDrawer
@@ -2794,7 +2798,7 @@ params
 ;
 }
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >

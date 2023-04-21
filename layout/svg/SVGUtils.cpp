@@ -3457,6 +3457,10 @@ TopLeft
 ;
 return
 mTargetCtx
+.
+get
+(
+)
 ;
 }
 void
@@ -3842,7 +3846,7 @@ gfxContext
 *
 mSourceCtx
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >

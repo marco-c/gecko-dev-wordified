@@ -19754,7 +19754,7 @@ this
 ;
 }
 }
-already_AddRefed
+UniquePtr
 <
 gfxContext
 >
@@ -19776,7 +19776,7 @@ DeviceContext
 (
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -19868,14 +19868,6 @@ CreateReferenceRenderingContext
 }
 return
 rc
-?
-rc
-.
-forget
-(
-)
-:
-nullptr
 ;
 }
 /
@@ -34416,7 +34408,7 @@ return
 nullptr
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -34883,6 +34875,10 @@ rangeInfo
 >
 mBuilder
 ctx
+.
+get
+(
+)
 nsDisplayList
 :
 :
@@ -63403,7 +63399,7 @@ CreateReferenceRenderingContext
 can
 return
 nullptr
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -63618,6 +63614,10 @@ reflowInput
 mPresContext
 target
 rcx
+.
+get
+(
+)
 reflowSize
 ReflowInput
 :
@@ -79467,7 +79467,7 @@ IsXULBoxFrame
 )
 )
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -79496,6 +79496,10 @@ state
 (
 mPresContext
 rcx
+.
+get
+(
+)
 )
 ;
 minSize

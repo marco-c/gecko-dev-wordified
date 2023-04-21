@@ -1103,7 +1103,7 @@ nullptr
 )
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1165,6 +1165,10 @@ r
 renderDocFlags
 aBackgroundColor
 thebes
+.
+get
+(
+)
 )
 ;
 }

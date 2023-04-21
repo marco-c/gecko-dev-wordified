@@ -3617,7 +3617,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -3676,6 +3676,10 @@ aImage
 Draw
 (
 context
+.
+get
+(
+)
 scaledSize
 ImageRegion
 :

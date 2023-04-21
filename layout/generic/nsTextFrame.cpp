@@ -15778,7 +15778,7 @@ nsTextFrame
 aTextFrame
 )
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >

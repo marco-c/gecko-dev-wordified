@@ -2195,7 +2195,7 @@ return
 nullptr
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -2243,6 +2243,10 @@ aDrawable
 Draw
 (
 tmpCtx
+.
+get
+(
+)
 needed
 -
 needed
@@ -3368,7 +3372,7 @@ return
 false
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -3444,6 +3448,10 @@ aDrawable
 Draw
 (
 tmpCtx
+.
+get
+(
+)
 gfxImageRect
 ExtendMode
 :

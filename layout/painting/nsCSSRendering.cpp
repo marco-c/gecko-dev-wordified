@@ -34128,7 +34128,7 @@ TransformBounds
 aSkipRect
 )
 ;
-mContext
+mOwnedContext
 =
 mAlphaBoxBlur
 .
@@ -34148,7 +34148,7 @@ useHardwareAccel
 }
 else
 {
-mContext
+mOwnedContext
 =
 mAlphaBoxBlur
 .
@@ -34165,6 +34165,14 @@ useHardwareAccel
 )
 ;
 }
+mContext
+=
+mOwnedContext
+.
+get
+(
+)
+;
 if
 (
 mContext

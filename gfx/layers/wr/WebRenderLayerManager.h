@@ -1723,10 +1723,8 @@ back
 to
 mTarget
 .
-RefPtr
-<
 gfxContext
->
+*
 mTarget
 ;
 /

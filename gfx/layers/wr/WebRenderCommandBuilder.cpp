@@ -5069,7 +5069,7 @@ ToUnknownRect
 Setup
 the
 gfxContext
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -5176,6 +5176,10 @@ aGrouper
 aStartItem
 aEndItem
 context
+.
+get
+(
+)
 recorder
 rootManager
 aResources
@@ -17202,7 +17206,7 @@ visibleRect
 )
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -17345,6 +17349,10 @@ Paint
 (
 aDisplayListBuilder
 context
+.
+get
+(
+)
 )
 ;
 break
@@ -20708,7 +20716,7 @@ size
 )
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -20772,6 +20780,10 @@ PaintMask
 (
 aDisplayListBuilder
 context
+.
+get
+(
+)
 shouldHandleOpacity
 &
 maskPainted

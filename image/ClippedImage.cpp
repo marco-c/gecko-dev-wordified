@@ -1738,7 +1738,7 @@ SourceSurface
 )
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1820,6 +1820,10 @@ gfxUtils
 DrawPixelSnapped
 (
 ctx
+.
+get
+(
+)
 drawable
 SizeDouble
 (

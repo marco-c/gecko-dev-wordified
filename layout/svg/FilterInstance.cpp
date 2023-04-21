@@ -4320,7 +4320,7 @@ IsValid
 return
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -4351,6 +4351,10 @@ gfxContextAutoSaveRestore
 saver
 (
 ctx
+.
+get
+(
+)
 )
 ;
 ctx
@@ -4393,6 +4397,10 @@ MakeFillPatternFor
 (
 mTargetFrame
 ctx
+.
+get
+(
+)
 &
 pattern
 aImgParams
@@ -4416,6 +4424,10 @@ MakeStrokePatternFor
 (
 mTargetFrame
 ctx
+.
+get
+(
+)
 &
 pattern
 aImgParams
@@ -4816,7 +4828,7 @@ real
 difference
 .
 )
-RefPtr
+UniquePtr
 <
 gfxContext
 >

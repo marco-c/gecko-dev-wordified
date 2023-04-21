@@ -118,6 +118,7 @@ gfxWindowsSurface
 h
 "
 class
+MOZ_STACK_CLASS
 gfxWindowsNativeDrawing
 {
 public
@@ -503,10 +504,8 @@ PaintToContext
 ;
 private
 :
-RefPtr
-<
 gfxContext
->
+*
 mContext
 ;
 gfxRect

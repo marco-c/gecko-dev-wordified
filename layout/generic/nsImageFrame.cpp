@@ -14072,7 +14072,7 @@ aCallerDoesSaveRestore
 true
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >

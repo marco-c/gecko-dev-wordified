@@ -509,7 +509,10 @@ null
 )
 *
 /
-already_AddRefed
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >
@@ -554,7 +557,10 @@ context
 .
 *
 /
-already_AddRefed
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >
@@ -1738,7 +1744,10 @@ CreateReferenceRenderingContext
 .
 *
 /
-already_AddRefed
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >

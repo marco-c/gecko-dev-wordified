@@ -2221,7 +2221,7 @@ return
 false
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -2278,6 +2278,10 @@ nsLayoutUtils
 PaintFrame
 (
 maskCtx
+.
+get
+(
+)
 aFrame
 nsRect
 (
@@ -32511,7 +32515,7 @@ temp
 return
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -32534,6 +32538,10 @@ Paint
 (
 aBuilder
 ctx
+.
+get
+(
+)
 mFrame
 -
 >
@@ -44930,7 +44938,7 @@ Y
 )
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -44993,6 +45001,10 @@ Paint
 (
 aBuilder
 groupTarget
+.
+get
+(
+)
 mFrame
 -
 >
@@ -49691,10 +49703,8 @@ visible
 )
 ;
 }
-RefPtr
-<
 gfxContext
->
+*
 textDrawer
 =
 aBuilder

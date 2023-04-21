@@ -212,7 +212,7 @@ gfxAlphaBoxBlur
 =
 default
 ;
-already_AddRefed
+UniquePtr
 <
 gfxContext
 >
@@ -341,7 +341,7 @@ return
 nullptr
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -392,10 +392,6 @@ TopLeft
 ;
 return
 context
-.
-forget
-(
-)
 ;
 }
 already_AddRefed

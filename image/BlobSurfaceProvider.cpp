@@ -1603,7 +1603,7 @@ FlushImageTransformInvalidation
 (
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1865,6 +1865,10 @@ NS_RGBA
 /
 transparent
 ctx
+.
+get
+(
+)
 )
 ;
 }

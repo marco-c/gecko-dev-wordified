@@ -2390,7 +2390,7 @@ the
 caller
 provided
 .
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -2424,6 +2424,10 @@ gfxUtils
 DrawPixelSnapped
 (
 ctx
+.
+get
+(
+)
 aDrawable
 SizeDouble
 (

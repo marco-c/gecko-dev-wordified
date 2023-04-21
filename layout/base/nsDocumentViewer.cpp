@@ -16760,7 +16760,7 @@ mMaxSize
 width
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -16828,6 +16828,10 @@ root
 GetMinISize
 (
 rcx
+.
+get
+(
+)
 )
 aPrefWidth
 )
@@ -16843,6 +16847,10 @@ root
 GetPrefISize
 (
 rcx
+.
+get
+(
+)
 )
 ;
 }
