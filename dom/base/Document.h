@@ -1704,6 +1704,16 @@ ACTIVE_LOCK
 /
 Status
 16
+ACTIVE_WEBTRANSPORT
+=
+1
+<
+<
+17
+/
+/
+Status
+17
 }
 ;
 }

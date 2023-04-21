@@ -408,6 +408,13 @@ aCreated
 )
 ;
 void
+NotifyWebTransport
+(
+bool
+aCreated
+)
+;
+void
 FlushReportsOnMainThread
 (
 nsIConsoleReportCollector
