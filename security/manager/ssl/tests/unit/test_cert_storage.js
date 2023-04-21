@@ -170,7 +170,7 @@ RemoteSecuritySettings
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -185,7 +185,9 @@ psm
 /
 RemoteSecuritySettings
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

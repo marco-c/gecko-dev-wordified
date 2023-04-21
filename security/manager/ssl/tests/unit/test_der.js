@@ -72,7 +72,7 @@ DER
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -87,7 +87,9 @@ psm
 /
 DER
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

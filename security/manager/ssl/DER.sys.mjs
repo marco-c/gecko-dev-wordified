@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 A
@@ -2250,6 +2245,7 @@ tag
 ;
 }
 }
+export
 const
 DER
 =
@@ -2271,13 +2267,4 @@ SEQUENCE
 SET
 DERDecoder
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-DER
-"
-]
 ;
