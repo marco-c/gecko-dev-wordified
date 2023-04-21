@@ -1384,7 +1384,7 @@ get_ParentToChildStream
 (
 )
 .
-stream
+get_RemoteLazyInputStream
 (
 )
 ;
