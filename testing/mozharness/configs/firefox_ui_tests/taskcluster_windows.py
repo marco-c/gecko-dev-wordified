@@ -121,12 +121,4 @@ hg
 )
     
 }
-    
-"
-download_symbols
-"
-:
-"
-ondemand
-"
 }

@@ -183,14 +183,6 @@ tests
 ]
     
 "
-download_symbols
-"
-:
-"
-ondemand
-"
-    
-"
 suite_definitions
 "
 :

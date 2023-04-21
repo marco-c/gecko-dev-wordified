@@ -161,14 +161,6 @@ tests
 ]
     
 "
-download_symbols
-"
-:
-"
-ondemand
-"
-    
-"
 tooltool_cache
 "
 :

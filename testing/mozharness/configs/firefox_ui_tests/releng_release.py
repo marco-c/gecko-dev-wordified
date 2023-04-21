@@ -170,16 +170,4 @@ py
 ]
     
 }
-    
-#
-mozcrash
-support
-    
-"
-download_symbols
-"
-:
-"
-ondemand
-"
 }
