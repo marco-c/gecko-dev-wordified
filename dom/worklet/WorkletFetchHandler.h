@@ -196,7 +196,7 @@ already_AddRefed
 <
 Promise
 >
-Fetch
+AddModule
 (
 Worklet
 *
