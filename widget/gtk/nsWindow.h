@@ -4957,6 +4957,12 @@ ConfigureCompositor
 (
 )
 ;
+bool
+IsAlwaysUndecoratedWindow
+(
+)
+const
+;
 /
 /
 nsBaseWidget
