@@ -12990,10 +12990,11 @@ if
 existingProcess
 &
 &
+!
 existingProcess
 -
 >
-IsAlive
+IsShuttingDown
 (
 )
 &

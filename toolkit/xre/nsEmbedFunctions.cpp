@@ -5141,11 +5141,10 @@ gContentParent
 else
 if
 (
-!
 gContentParent
 -
 >
-IsAlive
+IsShuttingDown
 (
 )
 )

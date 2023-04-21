@@ -9934,10 +9934,11 @@ if
 aOpenerContentParent
 &
 &
+!
 aOpenerContentParent
 -
 >
-IsAlive
+IsShuttingDown
 (
 )
 )
