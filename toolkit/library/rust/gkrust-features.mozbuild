@@ -260,7 +260,6 @@ OS_ARCH
 Darwin
 '
 or
-(
 CONFIG
 [
 '
@@ -272,19 +271,6 @@ OS_ARCH
 '
 WINNT
 '
-and
-CONFIG
-[
-'
-CPU_ARCH
-'
-]
-!
-=
-'
-aarch64
-'
-)
 :
 gkrust_features
 +
