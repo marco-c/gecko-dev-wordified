@@ -998,9 +998,6 @@ msvc
 target
 .
 raw_cpu
-allow_msvc
-=
-True
 )
 flags
 =
