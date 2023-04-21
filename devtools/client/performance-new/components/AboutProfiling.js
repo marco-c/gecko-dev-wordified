@@ -410,6 +410,8 @@ performance
 -
 new
 /
+shared
+/
 browser
 .
 js
