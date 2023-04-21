@@ -619,10 +619,6 @@ json
 "
 )
 }
-lastPrivateContextExited
-:
-{
-}
 documentEvent
 :
 {
