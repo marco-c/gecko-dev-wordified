@@ -959,15 +959,6 @@ customFormatterBody
 request
 :
 {
-customFormatterIndex
-:
-Arg
-(
-0
-"
-number
-"
-)
 }
 response
 :
