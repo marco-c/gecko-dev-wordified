@@ -135,8 +135,8 @@ loadSourceText
 ;
 import
 {
-getTextSearchOperation
-getTextSearchStatus
+getProjectSearchOperation
+getProjectSearchStatus
 }
 from
 "
@@ -360,7 +360,7 @@ getState
 const
 ongoingSearch
 =
-getTextSearchOperation
+getProjectSearchOperation
 (
 state
 )
@@ -368,7 +368,7 @@ state
 const
 status
 =
-getTextSearchStatus
+getProjectSearchStatus
 (
 state
 )
