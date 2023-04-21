@@ -975,10 +975,6 @@ CacheData
 &
 &
 aData
-const
-bool
-&
-aDispatchShowEvent
 )
 override
 ;
