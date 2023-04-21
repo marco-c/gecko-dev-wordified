@@ -71,7 +71,7 @@ Downloader
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -84,9 +84,7 @@ settings
 /
 Attachments
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

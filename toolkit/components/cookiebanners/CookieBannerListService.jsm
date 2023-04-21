@@ -140,6 +140,15 @@ sys
 .
 mjs
 "
+}
+)
+;
+XPCOMUtils
+.
+defineLazyModuleGetters
+(
+lazy
+{
 RemoteSettings
 :
 "
@@ -155,9 +164,7 @@ remote
 -
 settings
 .
-sys
-.
-mjs
+js
 "
 }
 )

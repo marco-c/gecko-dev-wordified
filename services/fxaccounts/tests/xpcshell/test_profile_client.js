@@ -72,7 +72,7 @@ FxAccountsProfileClientError
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -85,9 +85,7 @@ modules
 /
 FxAccountsProfileClient
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

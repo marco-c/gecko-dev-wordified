@@ -180,7 +180,7 @@ Credentials
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -193,9 +193,7 @@ modules
 /
 Credentials
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

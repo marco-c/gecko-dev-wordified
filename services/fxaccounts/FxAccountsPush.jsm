@@ -148,7 +148,6 @@ testing
 constructor
 *
 /
-export
 function
 FxAccountsPushService
 (
@@ -444,7 +443,7 @@ getFxAccountsSingleton
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -457,9 +456,7 @@ modules
 /
 FxAccounts
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -1796,4 +1793,13 @@ subscription
 ;
 }
 }
+;
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+FxAccountsPushService
+"
+]
 ;

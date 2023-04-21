@@ -840,9 +840,7 @@ modules
 /
 FxAccounts
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource
@@ -855,9 +853,7 @@ modules
 /
 FxAccountsStorage
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource

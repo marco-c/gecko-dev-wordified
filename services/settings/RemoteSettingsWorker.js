@@ -929,9 +929,7 @@ promises
 in
 RemoteSettingsWorker
 .
-sys
-.
-mjs
+jsm
 .
 *
 /
@@ -1135,9 +1133,7 @@ remote
 -
 settings
 .
-sys
-.
-mjs
+js
 const
 db
 =

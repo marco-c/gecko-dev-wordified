@@ -78,7 +78,7 @@ FxAccounts
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -91,9 +91,7 @@ modules
 /
 FxAccounts
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -150,7 +148,7 @@ LoginManagerStorage
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -163,9 +161,7 @@ modules
 /
 FxAccountsStorage
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
