@@ -3284,12 +3284,6 @@ TimeStamp
 >
 mShutdownStartedAt
 ;
-Atomic
-<
-bool
->
-mShutdownStarted
-;
 /
 /
 Accesses
