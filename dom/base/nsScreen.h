@@ -757,6 +757,7 @@ nsDeviceContext
 GetDeviceContext
 (
 )
+const
 ;
 nsresult
 GetRect
