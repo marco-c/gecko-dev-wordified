@@ -558,6 +558,14 @@ AbstractBindingIter
 TaggedParserAtomIndex
 >
 ;
+using
+ParserPositionalFormalParameterIter
+=
+AbstractPositionalFormalParameterIter
+<
+TaggedParserAtomIndex
+>
+;
 /
 /
 [
