@@ -435,11 +435,6 @@ ProcessedStack
 .
 h
 "
-"
-TelemetryOriginEnums
-.
-h
-"
 ]
 EXPORTS
 .
@@ -511,13 +506,6 @@ cpp
 core
 /
 TelemetryHistogram
-.
-cpp
-"
-"
-core
-/
-TelemetryOrigin
 .
 cpp
 "
