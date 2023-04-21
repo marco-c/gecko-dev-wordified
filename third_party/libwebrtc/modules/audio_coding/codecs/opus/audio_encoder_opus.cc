@@ -5234,6 +5234,11 @@ const
 {
 if
 (
+audio_network_adaptor_
+)
+{
+if
+(
 config_
 .
 supported_frame_lengths_ms
@@ -5250,12 +5255,6 @@ absl
 nullopt
 ;
 }
-else
-if
-(
-audio_network_adaptor_
-)
-{
 return
 {
 {
