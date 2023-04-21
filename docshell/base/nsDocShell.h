@@ -3116,12 +3116,13 @@ are
 only
 set
 when
-pref
+session
+history
 /
 /
-fission
-.
-sessionHistoryInParent
+in
+the
+parent
 is
 on
 .
