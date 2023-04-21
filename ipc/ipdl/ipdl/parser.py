@@ -4500,11 +4500,7 @@ p
 TypeSpec
 (
 loc
-QualifiedId
-(
-loc
 id
-)
 )
         
 p
@@ -4656,19 +4652,10 @@ p
 0
 ]
 =
-TypeSpec
-(
 p
 [
 1
 ]
-.
-loc
-p
-[
-1
-]
-)
     
 else
 :
@@ -4686,14 +4673,10 @@ p
 0
 ]
 =
-TypeSpec
-(
-loc
 QualifiedId
 (
 loc
 id
-)
 )
 def
 p_QualifiedID
