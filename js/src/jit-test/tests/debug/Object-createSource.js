@@ -61,9 +61,6 @@ js
 startLine
 :
 3
-startColumn
-:
-42
 sourceMapURL
 :
 "
@@ -105,14 +102,6 @@ source
 .
 startLine
 3
-)
-;
-assertEq
-(
-source
-.
-startColumn
-42
 )
 ;
 assertEq
