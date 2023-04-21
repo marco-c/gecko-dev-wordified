@@ -148,6 +148,7 @@ testing
 constructor
 *
 /
+export
 function
 FxAccountsPushService
 (
@@ -1793,13 +1794,4 @@ subscription
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FxAccountsPushService
-"
-]
 ;

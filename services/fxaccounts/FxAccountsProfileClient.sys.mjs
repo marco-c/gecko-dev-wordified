@@ -79,18 +79,6 @@ strict
 ;
 "
 ;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FxAccountsProfileClient
-"
-"
-FxAccountsProfileClientError
-"
-]
-;
 const
 {
 ERRNO_NETWORK
@@ -261,6 +249,7 @@ server
 constructor
 *
 /
+export
 var
 FxAccountsProfileClient
 =
@@ -1512,6 +1501,7 @@ message
 constructor
 *
 /
+export
 var
 FxAccountsProfileClientError
 =

@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -116,15 +111,6 @@ data
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FxAccountsProfile
-"
-]
-;
 const
 {
 ON_PROFILE_CHANGE_NOTIFICATION
@@ -210,6 +196,7 @@ jsm
 "
 )
 ;
+export
 var
 FxAccountsProfile
 =

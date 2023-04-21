@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-FxAccountsClient
-"
-]
-;
 const
 {
 CommonUtils
@@ -268,6 +259,7 @@ DEVICES_FILTER_DAYS
 =
 21
 ;
+export
 var
 FxAccountsClient
 =
