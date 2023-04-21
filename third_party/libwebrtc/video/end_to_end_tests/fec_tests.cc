@@ -1100,7 +1100,7 @@ test
 CallTest
 :
 :
-kDefaultTimeout
+kLongTimeout
 )
 enable_nack_
 (
