@@ -1720,7 +1720,7 @@ ref0
 =
 _mm_cvtsi32_si128
 (
-WebPMemToInt32
+WebPMemToUint32
 (
 &
 ref
@@ -1736,7 +1736,7 @@ ref1
 =
 _mm_cvtsi32_si128
 (
-WebPMemToInt32
+WebPMemToUint32
 (
 &
 ref
@@ -1752,7 +1752,7 @@ ref2
 =
 _mm_cvtsi32_si128
 (
-WebPMemToInt32
+WebPMemToUint32
 (
 &
 ref
@@ -1768,7 +1768,7 @@ ref3
 =
 _mm_cvtsi32_si128
 (
-WebPMemToInt32
+WebPMemToUint32
 (
 &
 ref
@@ -1998,7 +1998,7 @@ pixels
 per
 line
 .
-WebPInt32ToMem
+WebPUint32ToMem
 (
 &
 dst
@@ -2013,7 +2013,7 @@ ref0
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 &
 dst
@@ -2028,7 +2028,7 @@ ref1
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 &
 dst
@@ -2043,7 +2043,7 @@ ref2
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 &
 dst
@@ -5050,9 +5050,6 @@ values
 =
 _mm_set1_epi8
 (
-(
-char
-)
 v
 )
 ;
@@ -5110,9 +5107,6 @@ values
 =
 _mm_set1_epi8
 (
-(
-char
-)
 v
 )
 ;
@@ -5454,9 +5448,6 @@ values
 =
 _mm_set1_epi8
 (
-(
-char
-)
 left
 [
 j
@@ -5518,9 +5509,6 @@ values
 =
 _mm_set1_epi8
 (
-(
-char
-)
 left
 [
 j
@@ -7010,7 +6998,7 @@ BCDEFGH0
 )
 ;
 const
-int
+uint32_t
 vals
 =
 _mm_cvtsi128_si32
@@ -7036,7 +7024,7 @@ i
 i
 )
 {
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7367,7 +7355,7 @@ avg2
 BCDEFGH0
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7380,7 +7368,7 @@ abcdefg
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7397,7 +7385,7 @@ abcdefg
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7414,7 +7402,7 @@ abcdefg
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7615,7 +7603,7 @@ avg2
 XABCD
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7628,7 +7616,7 @@ abcd
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7641,7 +7629,7 @@ efgh
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7658,7 +7646,7 @@ abcd
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7880,9 +7868,6 @@ const
 uint32_t
 extra_out
 =
-(
-uint32_t
-)
 _mm_cvtsi128_si32
 (
 _mm_srli_si128
@@ -7892,7 +7877,7 @@ avg4
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7905,7 +7890,7 @@ avg1
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7918,7 +7903,7 @@ avg4
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -7935,7 +7920,7 @@ avg1
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -8117,7 +8102,7 @@ avg2
 KJIXABCD_
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -8130,7 +8115,7 @@ abcdefg
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -8147,7 +8132,7 @@ abcdefg
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -8164,7 +8149,7 @@ abcdefg
 )
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 +
@@ -8656,7 +8641,7 @@ top_values
 =
 _mm_cvtsi32_si128
 (
-WebPMemToInt32
+WebPMemToUint32
 (
 top
 )
@@ -8735,7 +8720,7 @@ top_base
 zero
 )
 ;
-WebPInt32ToMem
+WebPUint32ToMem
 (
 dst
 _mm_cvtsi128_si32

@@ -1594,7 +1594,7 @@ chunk_size
 )
 &
 ~
-1u
+1
 ;
 total_size
 +

@@ -528,16 +528,11 @@ c
 return
 Clip255
 (
-(
-uint32_t
-)
-(
 a
 +
 b
 -
 c
-)
 )
 ;
 }
@@ -697,10 +692,6 @@ b
 return
 Clip255
 (
-(
-uint32_t
-)
-(
 a
 +
 (
@@ -710,7 +701,6 @@ b
 )
 /
 2
-)
 )
 ;
 }
@@ -2528,9 +2518,6 @@ new_red
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 m
 -
 >
@@ -2548,9 +2535,6 @@ new_blue
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 m
 -
 >
@@ -2563,9 +2547,6 @@ new_blue
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 m
 -
 >
@@ -3367,7 +3348,7 @@ type_
 )
 {
 case
-SUBTRACT_GREEN_TRANSFORM
+SUBTRACT_GREEN
 :
 VP8LAddGreenToBlueAndRed
 (

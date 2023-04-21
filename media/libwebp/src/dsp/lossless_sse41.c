@@ -381,10 +381,6 @@ mults_rb
 _mm_set1_epi32
 (
 (
-int
-)
-(
-(
 uint32_t
 )
 CST
@@ -402,7 +398,6 @@ green_to_blue_
 )
 &
 0xffff
-)
 )
 )
 ;
@@ -427,9 +422,6 @@ mask_ag
 =
 _mm_set1_epi32
 (
-(
-int
-)
 0xff00ff00
 )
 ;

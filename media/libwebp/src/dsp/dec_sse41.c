@@ -279,7 +279,7 @@ in
 =
 _mm_cvtsi32_si128
 (
-WebPMemToInt32
+WebPMemToUint32
 (
 dst
 -

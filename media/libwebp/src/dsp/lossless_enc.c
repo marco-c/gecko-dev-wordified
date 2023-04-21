@@ -5990,9 +5990,6 @@ const
 int
 argb
 =
-(
-int
-)
 argb_data
 [
 i
@@ -6059,9 +6056,6 @@ i
 ]
 =
 (
-(
-uint32_t
-)
 argb
 &
 0xff00ff00u
@@ -6208,9 +6202,6 @@ new_red
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 m
 -
 >
@@ -6228,9 +6219,6 @@ new_blue
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 m
 -
 >
@@ -6243,9 +6231,6 @@ new_blue
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 m
 -
 >
@@ -6318,9 +6303,6 @@ new_red
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 green_to_red
 green
 )
@@ -6370,7 +6352,7 @@ argb
 16
 )
 ;
-int
+uint8_t
 new_blue
 =
 argb
@@ -6382,9 +6364,6 @@ new_blue
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 green_to_blue
 green
 )
@@ -6394,9 +6373,6 @@ new_blue
 =
 ColorTransformDelta
 (
-(
-int8_t
-)
 red_to_blue
 red
 )

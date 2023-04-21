@@ -194,13 +194,6 @@ WEBP_DSP_CPU_H_
 define
 WEBP_DSP_CPU_H_
 #
-include
-<
-stddef
-.
-h
->
-#
 ifdef
 HAVE_CONFIG_H
 #
