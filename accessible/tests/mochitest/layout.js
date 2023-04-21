@@ -985,6 +985,7 @@ value
 -
 expectedY
 <
+=
 2
 &
 &
@@ -994,6 +995,7 @@ yObj
 .
 value
 <
+=
 2
 "
 Wrong
