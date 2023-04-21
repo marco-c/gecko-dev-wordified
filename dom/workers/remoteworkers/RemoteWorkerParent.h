@@ -196,7 +196,9 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 RemoteWorkerParent
+override
 )
+;
 RemoteWorkerParent
 (
 )
