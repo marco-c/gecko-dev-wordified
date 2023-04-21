@@ -132,6 +132,13 @@ ErrorList
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 /
 *
 *
