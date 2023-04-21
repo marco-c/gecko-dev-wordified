@@ -223,7 +223,7 @@ h
 #
 include
 "
-ByteStream
+Index
 .
 h
 "
@@ -237,7 +237,7 @@ h
 #
 include
 "
-SampleIterator
+ByteStream
 .
 h
 "
