@@ -421,9 +421,6 @@ extern
 bool
 CompileAsmJS
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -467,9 +464,6 @@ extern
 bool
 CompileAsmJS
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
