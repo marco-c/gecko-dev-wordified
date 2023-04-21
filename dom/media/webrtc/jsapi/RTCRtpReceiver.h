@@ -188,6 +188,12 @@ JsepTransceiver
 class
 PeerConnectionImpl
 ;
+enum
+class
+PrincipalPrivacy
+:
+uint8_t
+;
 namespace
 dom
 {
@@ -224,8 +230,8 @@ RTCRtpReceiver
 nsPIDOMWindowInner
 *
 aWindow
-bool
-aPrivacyNeeded
+PrincipalPrivacy
+aPrivacy
 PeerConnectionImpl
 *
 aPc
