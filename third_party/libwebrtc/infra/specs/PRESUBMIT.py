@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+vpython3
+#
 Copyright
 (
 c
@@ -83,6 +92,22 @@ tree
 .
 import
 os
+#
+Runs
+PRESUBMIT
+.
+py
+in
+py3
+mode
+by
+git
+cl
+presubmit
+.
+USE_PYTHON3
+=
+True
 def
 _HasLocalChanges
 (
@@ -293,7 +318,7 @@ path
 .
 dirname
   
-angle_root
+webrtc_root
 =
 d
 (
@@ -315,7 +340,7 @@ path
 .
 join
 (
-angle_root
+webrtc_root
 '
 testing
 '
@@ -350,7 +375,7 @@ cmd
                             
 input_api
 .
-python_executable
+python3_executable
 gen_script
 '
 -
