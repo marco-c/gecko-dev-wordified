@@ -38784,6 +38784,7 @@ mPosition
 }
 ;
 class
+MOZ_STACK_CLASS
 FlattenedDisplayListIterator
 {
 public
@@ -39323,7 +39324,7 @@ nsDisplayList
 iterator
 mEnd
 ;
-nsTArray
+AutoTArray
 <
 std
 :
@@ -39339,6 +39340,7 @@ nsDisplayList
 :
 iterator
 >
+3
 >
 mStack
 ;
