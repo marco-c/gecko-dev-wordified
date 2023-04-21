@@ -1104,11 +1104,26 @@ filename
 def
 _render_deb_templates
 (
+    
 input_template_dir
 source_dir
 build_variables
+exclude_file_names
+=
+None
 )
 :
+    
+exclude_file_names
+=
+[
+]
+if
+exclude_file_names
+is
+None
+else
+exclude_file_names
     
 template_dir_filenames
 =
@@ -1145,6 +1160,11 @@ endswith
 in
 "
 )
+and
+filename
+not
+in
+exclude_file_names
     
 ]
     
