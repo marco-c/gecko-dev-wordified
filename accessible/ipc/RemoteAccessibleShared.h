@@ -458,13 +458,6 @@ aText
 )
 override
 ;
-char16_t
-CharAt
-(
-int32_t
-aOffset
-)
-;
 virtual
 int32_t
 OffsetAtPoint
