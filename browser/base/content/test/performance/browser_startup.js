@@ -576,7 +576,9 @@ modules
 /
 ShellService
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
