@@ -3786,12 +3786,7 @@ void
 SetChannelBlockedByOpaqueResponse
 (
 )
-{
-mChannelBlockedByOpaqueResponse
-=
-true
 ;
-}
 bool
 Http3Allowed
 (
