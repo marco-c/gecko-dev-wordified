@@ -411,6 +411,17 @@ MetaInfo
 .
 h
 "
+#
+include
+"
+zydis
+/
+Zycore
+/
+Types
+.
+h
+"
 /
 *
 =
