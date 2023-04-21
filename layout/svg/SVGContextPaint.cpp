@@ -1966,6 +1966,16 @@ aOpacity
 aImgParams
 )
 ;
+if
+(
+!
+pattern
+)
+{
+return
+nullptr
+;
+}
 {
 /
 /
