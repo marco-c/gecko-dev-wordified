@@ -566,7 +566,7 @@ MOZ_ASSERT
 (
 elemType_
 .
-isFunc
+isFuncHierarchy
 (
 )
 )
@@ -586,7 +586,7 @@ elemType
 (
 )
 .
-isFunc
+isFuncHierarchy
 (
 )
 ;

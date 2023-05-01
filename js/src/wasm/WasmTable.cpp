@@ -1908,7 +1908,7 @@ elemType
 (
 )
 .
-isFunc
+isFuncHierarchy
 (
 )
 &
@@ -1919,7 +1919,7 @@ elemType
 (
 )
 .
-isFunc
+isFuncHierarchy
 (
 )
 )
@@ -2093,7 +2093,7 @@ elemType
 (
 )
 .
-isFunc
+isFuncHierarchy
 (
 )
 )

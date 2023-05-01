@@ -16184,7 +16184,7 @@ tableIndex
 .
 elemType
 .
-isFunc
+isFuncHierarchy
 (
 )
 )
