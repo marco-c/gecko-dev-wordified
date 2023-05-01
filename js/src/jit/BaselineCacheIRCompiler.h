@@ -532,6 +532,15 @@ isJitCall
 )
 ;
 void
+pushFunApplyNullUndefinedArguments
+(
+Register
+calleeReg
+bool
+isJitCall
+)
+;
+void
 pushBoundFunctionArguments
 (
 Register
