@@ -80,11 +80,18 @@ MPL
 *
 /
 #
-ifndef
-mozilla_GleanJSMetricsLookup_h
-#
-define
-mozilla_GleanJSMetricsLookup_h
+include
+"
+mozilla
+/
+glean
+/
+bindings
+/
+GleanJSMetricsLookup
+.
+h
+"
 #
 include
 "
@@ -124,6 +131,13 @@ mozilla
 glean
 /
 fog_ffi_generated
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "
@@ -449,7 +463,6 @@ types
 "
 )
 ;
-static
 already_AddRefed
 <
 nsISupports
@@ -984,7 +997,6 @@ GIFFT
 .
 *
 /
-static
 already_AddRefed
 <
 nsISupports
@@ -1302,7 +1314,6 @@ sCategoryByNameLookupEntries
 0ul
 }
 ;
-static
 Maybe
 <
 uint32_t
@@ -3973,7 +3984,6 @@ sMetricByNameLookupEntries
 2305843026393563204ull
 }
 ;
-static
 Maybe
 <
 uint32_t
@@ -4571,7 +4581,6 @@ table
 .
 *
 /
-static
 const
 char
 *
@@ -4625,7 +4634,6 @@ table
 .
 *
 /
-static
 const
 char
 *
@@ -4898,8 +4906,3 @@ mozilla
 :
 :
 glean
-#
-endif
-/
-/
-mozilla_GleanJSMetricsLookup_h
