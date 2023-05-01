@@ -243,9 +243,7 @@ GeneratedFile
 "
 FeatureManifest
 .
-sys
-.
-mjs
+js
 "
 script
 =
