@@ -336,6 +336,9 @@ aReturnValue
 void
 Show
 (
+ErrorResult
+&
+aError
 )
 ;
 void
