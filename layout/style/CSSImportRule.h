@@ -283,6 +283,14 @@ nsACString
 )
 const
 ;
+void
+GetSupportsText
+(
+nsACString
+&
+)
+const
+;
 /
 /
 Clear
