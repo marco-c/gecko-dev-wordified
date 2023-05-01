@@ -245,8 +245,6 @@ RTCStatsReportInternal
 aReport
 )
 ;
-private
-:
 WebrtcGlobalInformation
 (
 )
