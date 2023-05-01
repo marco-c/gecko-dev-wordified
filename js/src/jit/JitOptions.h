@@ -310,6 +310,9 @@ bool
 disableJitBackend
 ;
 bool
+disableJitHints
+;
+bool
 disableAma
 ;
 bool
