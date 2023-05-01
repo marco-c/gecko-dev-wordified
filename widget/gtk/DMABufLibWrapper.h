@@ -134,6 +134,11 @@ StaticMutex
 h
 "
 #
+include
+<
+mutex
+>
+#
 ifdef
 MOZ_LOGGING
 #
@@ -1171,7 +1176,7 @@ nsDMABufDevice
 )
 ;
 int
-GetDRMFd
+OpenDRMFd
 (
 )
 ;
@@ -1179,6 +1184,13 @@ gbm_device
 *
 GetGbmDevice
 (
+)
+;
+int
+GetDmabufFD
+(
+uint32_t
+aGEMHandle
 )
 ;
 bool
@@ -1265,6 +1277,12 @@ mDRMFd
 -
 1
 ;
+std
+:
+:
+once_flag
+mFlagGbmDevice
+;
 gbm_device
 *
 mGbmDevice
@@ -1277,6 +1295,9 @@ char
 mFailureId
 =
 nullptr
+;
+nsAutoCString
+mDrmRenderNode
 ;
 }
 ;
