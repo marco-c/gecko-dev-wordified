@@ -8035,9 +8035,6 @@ nodiscard
 bool
 deserializeStencils
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

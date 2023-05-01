@@ -18057,9 +18057,6 @@ CompilationStencil
 :
 deserializeStencils
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
