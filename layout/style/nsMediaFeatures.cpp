@@ -1903,6 +1903,10 @@ aDocument
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CSSPrefersReducedMotion
 )
 )
 {
