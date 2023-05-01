@@ -635,6 +635,7 @@ GPURenderPipelineDescriptor
 aDesc
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 ShaderModule
@@ -642,7 +643,7 @@ ShaderModule
 DeviceCreateShaderModule
 (
 Device
-*
+&
 aDevice
 const
 dom
