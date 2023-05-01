@@ -807,9 +807,6 @@ annotationEditorMode
 1
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -820,5 +817,3 @@ enableFloatingToolbar
 true
 )
 ;
-#
-endif
