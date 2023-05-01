@@ -17411,7 +17411,7 @@ checked
 {
 FirefoxRelay
 .
-markAsAvailable
+markAsEnabled
 (
 )
 ;
