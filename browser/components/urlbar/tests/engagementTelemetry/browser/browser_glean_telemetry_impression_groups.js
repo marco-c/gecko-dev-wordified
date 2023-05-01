@@ -446,7 +446,7 @@ results
 :
 "
 search_engine
-suggest_sponsor
+rs_suggest_sponsor
 search_suggest
 search_suggest
 "
@@ -792,7 +792,7 @@ results
 :
 "
 search_engine
-suggest_non_sponsor
+rs_suggest_non_sponsor
 "
 n_results
 :
