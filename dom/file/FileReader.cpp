@@ -1695,6 +1695,8 @@ tmpBuffer
 ;
 uint32_t
 read
+=
+0
 ;
 nsresult
 rv
