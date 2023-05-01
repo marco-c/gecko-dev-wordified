@@ -208,6 +208,7 @@ TEXT_OFFSET_END_OF_TEXT
 &
 aOffset
 <
+=
 static_cast
 <
 int32_t
