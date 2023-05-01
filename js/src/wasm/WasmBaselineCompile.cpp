@@ -12304,7 +12304,7 @@ BaseCompiler
 callImport
 (
 unsigned
-globalDataOffset
+instanceDataOffset
 const
 FunctionCall
 &
@@ -12331,7 +12331,7 @@ CalleeDesc
 :
 import
 (
-globalDataOffset
+instanceDataOffset
 )
 ;
 return
@@ -12746,11 +12746,11 @@ offset
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 tagDesc
 .
-globalDataOffset
+instanceDataOffset
 )
 ;
 masm
@@ -16092,7 +16092,7 @@ globalToInstanceOffset
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 global
 .
@@ -16263,11 +16263,11 @@ wasm
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 table
 .
-globalDataOffset
+instanceDataOffset
 +
 fieldOffset
 )
@@ -40651,7 +40651,7 @@ instance
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 moduleEnv_
 .
@@ -40754,7 +40754,7 @@ instance
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 moduleEnv_
 .

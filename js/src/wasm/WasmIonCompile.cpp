@@ -11048,7 +11048,7 @@ MDefinition
 loadGlobalVar
 (
 unsigned
-globalDataOffset
+instanceDataOffset
 bool
 isConst
 bool
@@ -11166,7 +11166,7 @@ auto
 *
 cellPtr
 =
-MWasmLoadGlobalVar
+MWasmLoadInstanceDataField
 :
 :
 New
@@ -11178,7 +11178,7 @@ MIRType
 :
 :
 Pointer
-globalDataOffset
+instanceDataOffset
 /
 *
 isConst
@@ -11229,7 +11229,7 @@ globalArea
 .
 load
 =
-MWasmLoadGlobalVar
+MWasmLoadInstanceDataField
 :
 :
 New
@@ -11238,7 +11238,7 @@ alloc
 (
 )
 type
-globalDataOffset
+instanceDataOffset
 isConst
 instancePointer_
 )
@@ -11267,7 +11267,7 @@ storeGlobalVar
 uint32_t
 lineOrBytecode
 uint32_t
-globalDataOffset
+instanceDataOffset
 bool
 isIndirect
 MDefinition
@@ -11317,7 +11317,7 @@ auto
 *
 valueAddr
 =
-MWasmLoadGlobalVar
+MWasmLoadInstanceDataField
 :
 :
 New
@@ -11329,7 +11329,7 @@ MIRType
 :
 :
 Pointer
-globalDataOffset
+instanceDataOffset
 /
 *
 isConst
@@ -11578,9 +11578,9 @@ wasm
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
-globalDataOffset
+instanceDataOffset
 )
 )
 ;
@@ -11662,7 +11662,7 @@ v
 AliasSet
 :
 :
-WasmGlobalVar
+WasmInstanceData
 WasmPreBarrierKind
 :
 :
@@ -11698,7 +11698,7 @@ auto
 *
 store
 =
-MWasmStoreGlobalVar
+MWasmStoreInstanceDataField
 :
 :
 New
@@ -11706,7 +11706,7 @@ New
 alloc
 (
 )
-globalDataOffset
+instanceDataOffset
 v
 instancePointer_
 )
@@ -11738,7 +11738,7 @@ type
 )
 {
 uint32_t
-globalDataOffset
+instanceDataOffset
 =
 wasm
 :
@@ -11746,11 +11746,11 @@ wasm
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 table
 .
-globalDataOffset
+instanceDataOffset
 +
 fieldOffset
 )
@@ -11768,7 +11768,7 @@ alloc
 (
 )
 instancePointer_
-globalDataOffset
+instanceDataOffset
 type
 AliasSet
 :
@@ -14881,7 +14881,7 @@ bool
 callImport
 (
 unsigned
-globalDataOffset
+instanceDataOffset
 uint32_t
 lineOrBytecode
 const
@@ -14926,7 +14926,7 @@ CalleeDesc
 :
 import
 (
-globalDataOffset
+instanceDataOffset
 )
 ;
 ArgTypeVector
@@ -18489,11 +18489,11 @@ uint32_t
 tagIndex
 )
 {
-MWasmLoadGlobalVar
+MWasmLoadInstanceDataField
 *
 tag
 =
-MWasmLoadGlobalVar
+MWasmLoadInstanceDataField
 :
 :
 New
@@ -18512,7 +18512,7 @@ tags
 tagIndex
 ]
 .
-globalDataOffset
+instanceDataOffset
 true
 instancePointer_
 )
@@ -24761,7 +24761,7 @@ auto
 *
 load
 =
-MWasmLoadGlobalVar
+MWasmLoadInstanceDataField
 :
 :
 New
@@ -24825,7 +24825,7 @@ offset
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 moduleEnv_
 .
@@ -32520,7 +32520,7 @@ funcIndex
 )
 {
 uint32_t
-globalDataOffset
+instanceDataOffset
 =
 f
 .
@@ -32540,7 +32540,7 @@ f
 .
 callImport
 (
-globalDataOffset
+instanceDataOffset
 lineOrBytecode
 call
 funcType

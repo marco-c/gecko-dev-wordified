@@ -12673,7 +12673,7 @@ ElemSegmentVector
 &
 elemSegments
 uint32_t
-globalDataLength
+instanceDataLength
 Handle
 <
 WasmMemoryObject
@@ -13214,7 +13214,7 @@ create
 cx
 obj
 code
-globalDataLength
+instanceDataLength
 memory
 std
 :

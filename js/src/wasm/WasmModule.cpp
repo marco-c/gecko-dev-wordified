@@ -7083,7 +7083,7 @@ metadata
 (
 )
 .
-globalDataLength
+instanceDataLength
 memory
 std
 :

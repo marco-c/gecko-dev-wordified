@@ -2072,7 +2072,7 @@ MemoryDesc
 memory
 ;
 uint32_t
-globalDataLength
+instanceDataLength
 ;
 Maybe
 <
@@ -2096,7 +2096,7 @@ WASM_CHECK_CACHEABLE_POD
 (
 kind
 memory
-globalDataLength
+instanceDataLength
 startFuncIndex
 nameCustomSectionIndex
 filenameIsURL
@@ -2113,7 +2113,7 @@ kind
 (
 kind
 )
-globalDataLength
+instanceDataLength
 (
 0
 )
