@@ -1219,7 +1219,9 @@ mGbmDevice
 bool
 mInitialized
 ;
-nsCString
+const
+char
+*
 mFailureId
 ;
 static

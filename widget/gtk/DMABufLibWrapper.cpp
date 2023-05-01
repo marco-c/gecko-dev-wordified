@@ -1292,6 +1292,12 @@ errno
 )
 )
 ;
+mFailureId
+=
+"
+FEATURE_FAILURE_NO_DRM_DEVICE
+"
+;
 return
 ;
 }
