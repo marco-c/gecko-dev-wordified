@@ -694,7 +694,7 @@ else
 MOZ_CRASH
 (
 "
-Unexptected
+Unexpected
 extent
 type
 "
