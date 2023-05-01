@@ -44,6 +44,9 @@ index
 navigation
 /
 index
+push
+/
+index
 scriptSecurity
 /
 index
