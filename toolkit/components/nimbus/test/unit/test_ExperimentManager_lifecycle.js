@@ -1536,7 +1536,12 @@ updateEnrollment
 .
 alwaysReturned
 (
+Promise
+.
+resolve
+(
 true
+)
 )
 "
 updateEnrollment
