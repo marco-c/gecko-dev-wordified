@@ -672,6 +672,16 @@ n
 "
 called_from_lib
 :
+libwayland
+-
+client
+\
+n
+"
+\
+"
+called_from_lib
+:
 libX11
 .
 so
