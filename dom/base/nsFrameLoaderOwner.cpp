@@ -1647,6 +1647,11 @@ RunDOMEventWhenSafe
 )
 ;
 }
+if
+(
+mFrameLoader
+)
+{
 mFrameLoader
 -
 >
@@ -1680,6 +1685,7 @@ IsVisible
 )
 )
 ;
+}
 }
 void
 nsFrameLoaderOwner
