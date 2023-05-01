@@ -8974,6 +8974,8 @@ stop
 template
 <
 typename
+ContextT
+typename
 Unit
 >
 [
@@ -8987,7 +8989,7 @@ ScriptSource
 :
 setUncompressedSourceHelper
 (
-JSContext
+ContextT
 *
 cx
 EntryUnits
@@ -12226,9 +12228,9 @@ ScriptSource
 :
 initializeUnretrievableUncompressedSource
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 EntryUnits
 <
 Unit
@@ -12263,7 +12265,7 @@ ScriptSource
 return
 setUncompressedSourceHelper
 (
-cx
+fc
 std
 :
 :
@@ -12286,9 +12288,9 @@ ScriptSource
 :
 initializeUnretrievableUncompressedSource
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 EntryUnits
 <
 Utf8Unit
@@ -12307,9 +12309,9 @@ ScriptSource
 :
 initializeUnretrievableUncompressedSource
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 EntryUnits
 <
 char16_t
