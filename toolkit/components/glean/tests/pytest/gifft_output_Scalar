@@ -132,14 +132,14 @@ h
 #
 include
 "
-nsIThread
+nsTHashMap
 .
 h
 "
 #
 include
 "
-nsTHashMap
+nsIThread
 .
 h
 "
