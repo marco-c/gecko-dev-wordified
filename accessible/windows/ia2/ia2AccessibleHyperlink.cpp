@@ -480,11 +480,11 @@ VariantInit
 aAnchorTarget
 )
 ;
-LocalAccessible
+Accessible
 *
 thisObj
 =
-LocalAcc
+Acc
 (
 )
 ;
