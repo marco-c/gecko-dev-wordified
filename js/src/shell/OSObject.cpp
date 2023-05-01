@@ -2792,13 +2792,13 @@ return
 false
 ;
 }
-WIN32_FIND_DATA
+WIN32_FIND_DATAA
 FindFileData
 ;
 HANDLE
 hFind
 =
-FindFirstFile
+FindFirstFileA
 (
 pattern
 .
@@ -2860,7 +2860,7 @@ found
 ;
 found
 =
-FindNextFile
+FindNextFileA
 (
 hFind
 &
