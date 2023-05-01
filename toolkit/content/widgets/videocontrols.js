@@ -7356,6 +7356,12 @@ duration
 ;
 this
 .
+updateScrubberProgress
+(
+)
+;
+this
+.
 scrubber
 .
 isDragging
