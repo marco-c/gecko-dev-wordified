@@ -1238,6 +1238,12 @@ the
 async
 steps
 .
+MonitorAutoLock
+outerLock
+(
+outerMonitor
+)
+;
 outerMonitor
 .
 NotifyAll
