@@ -545,7 +545,7 @@ html
 wrong
 :
 "
-gobbledygook
+nonsense
 :
 user
 :
@@ -573,7 +573,7 @@ http
 :
 /
 /
-gobbledygook
+nonsense
 :
 user
 %

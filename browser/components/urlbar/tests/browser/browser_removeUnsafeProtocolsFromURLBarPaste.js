@@ -480,7 +480,7 @@ on
 Windows
 .
 let
-gobbledygook
+nonsense
 =
 "
 \
@@ -512,14 +512,14 @@ if
 supportsNullBytes
 )
 {
-gobbledygook
+nonsense
 =
 "
 \
 u0000
 "
 +
-gobbledygook
+nonsense
 ;
 }
 pairs
@@ -527,7 +527,7 @@ pairs
 push
 (
 [
-gobbledygook
+nonsense
 "
 foo
 "

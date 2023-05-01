@@ -3964,7 +3964,7 @@ chromeFile
 chromeUri
 +
 "
-gobbledygooknonexistentfile
+nonexistentfile
 .
 reallynothere
 "

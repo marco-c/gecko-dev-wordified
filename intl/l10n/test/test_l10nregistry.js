@@ -3160,7 +3160,7 @@ l10nReg
 hasSource
 (
 "
-gobbledygook
+nonsense
 "
 )
 false
