@@ -218,6 +218,7 @@ MediaDrmCDMCallbackProxy
 ;
 class
 MediaDrmCDMProxy
+final
 :
 public
 CDMProxy
@@ -937,12 +938,6 @@ UniquePtr
 MediaDrmProxySupport
 >
 mCDM
-;
-UniquePtr
-<
-MediaDrmCDMCallbackProxy
->
-mCallback
 ;
 bool
 mShutdownCalled

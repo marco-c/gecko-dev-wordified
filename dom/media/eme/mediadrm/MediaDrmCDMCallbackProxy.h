@@ -147,6 +147,9 @@ CDMProxy
 class
 ErrorResult
 ;
+class
+MediaDrmCDMProxy
+;
 /
 /
 Proxies
@@ -189,6 +192,7 @@ thread
 .
 class
 MediaDrmCDMCallbackProxy
+final
 :
 public
 DecryptorProxyCallback
@@ -341,8 +345,7 @@ override
 MediaDrmCDMCallbackProxy
 (
 )
-{
-}
+;
 private
 :
 friend
@@ -352,7 +355,7 @@ MediaDrmCDMProxy
 explicit
 MediaDrmCDMCallbackProxy
 (
-CDMProxy
+MediaDrmCDMProxy
 *
 aProxy
 )
@@ -373,15 +376,11 @@ CDMKeyInfo
 aKeyInfos
 )
 ;
-/
-/
-Warning
-:
-Weak
-ref
-.
-CDMProxy
-*
+const
+RefPtr
+<
+MediaDrmCDMProxy
+>
 mProxy
 ;
 }
