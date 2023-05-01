@@ -268,6 +268,7 @@ this
 .
 *
 /
+async
 function
 commonInit
 (
@@ -472,9 +473,10 @@ pword
 "
 )
 ;
+await
 pwmgr
 .
-addLogin
+addLoginAsync
 (
 login
 )
@@ -959,6 +961,7 @@ addMessageListener
 "
 setupParent
 "
+async
 (
 {
 selfFilling
@@ -975,6 +978,7 @@ false
 =
 >
 {
+await
 commonInit
 (
 selfFilling

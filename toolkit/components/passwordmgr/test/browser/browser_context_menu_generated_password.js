@@ -1354,11 +1354,12 @@ addLogin
 "
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )
