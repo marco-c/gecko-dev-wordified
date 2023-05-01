@@ -1191,7 +1191,7 @@ this
 ;
 }
 virtual
-nsresult
+void
 AfterSetAttr
 (
 int32_t
@@ -1216,7 +1216,7 @@ aNotify
 override
 ;
 virtual
-nsresult
+void
 OnAttrSetButNotChanged
 (
 int32_t
@@ -1352,7 +1352,7 @@ observers
 .
 *
 /
-nsresult
+void
 AfterMaybeChangeAttr
 (
 int32_t

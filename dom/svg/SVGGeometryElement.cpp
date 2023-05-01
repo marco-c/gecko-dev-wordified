@@ -404,7 +404,7 @@ sNumberInfo
 )
 ;
 }
-nsresult
+void
 SVGGeometryElement
 :
 :

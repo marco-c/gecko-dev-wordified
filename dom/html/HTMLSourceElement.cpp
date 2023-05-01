@@ -536,7 +536,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 HTMLSourceElement
 :
 :

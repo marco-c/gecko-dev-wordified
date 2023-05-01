@@ -626,7 +626,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 HTMLScriptElement
 :
 :

@@ -423,7 +423,7 @@ aVisitor
 )
 ;
 }
-nsresult
+void
 HTMLFieldSetElement
 :
 :

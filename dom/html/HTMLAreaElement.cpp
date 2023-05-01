@@ -544,7 +544,7 @@ aNullParent
 )
 ;
 }
-nsresult
+void
 HTMLAreaElement
 :
 :

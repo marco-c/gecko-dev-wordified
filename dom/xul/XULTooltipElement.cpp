@@ -423,7 +423,7 @@ StealNSResult
 )
 ;
 }
-nsresult
+void
 XULTooltipElement
 :
 :

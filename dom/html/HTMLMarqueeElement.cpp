@@ -801,7 +801,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 HTMLMarqueeElement
 :
 :

@@ -4584,7 +4584,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 nsGenericHTMLElement
 :
 :
@@ -13060,7 +13060,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 nsGenericHTMLFormElement
 :
 :

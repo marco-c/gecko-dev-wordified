@@ -759,7 +759,7 @@ minStr
 )
 ;
 }
-nsresult
+void
 DateTimeInputTypeBase
 :
 :
@@ -812,9 +812,6 @@ RunDOMEventWhenSafe
 )
 ;
 }
-return
-NS_OK
-;
 }
 bool
 DateTimeInputTypeBase

@@ -1569,7 +1569,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 SVGAnimationElement
 :
 :
@@ -1640,9 +1640,6 @@ AnimationNeedsResample
 ;
 }
 }
-nsresult
-rv
-=
 SVGAnimationElementBase
 :
 :
@@ -1703,7 +1700,6 @@ IsInComposedDoc
 )
 {
 return
-rv
 ;
 }
 if
@@ -1735,7 +1731,6 @@ href
 )
 {
 return
-rv
 ;
 }
 if
@@ -1996,9 +1991,6 @@ next
 BindToTree
 call
 .
-return
-rv
-;
 }
 /
 /

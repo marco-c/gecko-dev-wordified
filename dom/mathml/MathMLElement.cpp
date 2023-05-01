@@ -5250,7 +5250,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 MathMLElement
 :
 :

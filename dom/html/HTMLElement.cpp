@@ -1534,7 +1534,7 @@ return
 false
 ;
 }
-nsresult
+void
 HTMLElement
 :
 :

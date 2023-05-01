@@ -4727,7 +4727,7 @@ IgnoreErrors
 ;
 }
 }
-nsresult
+void
 XULButtonElement
 :
 :
@@ -4753,8 +4753,6 @@ bool
 aNotify
 )
 {
-MOZ_TRY
-(
 nsXULElement
 :
 :
@@ -4766,7 +4764,6 @@ aValue
 aOldValue
 aSubjectPrincipal
 aNotify
-)
 )
 ;
 if
@@ -4914,9 +4911,6 @@ UncheckRadioSiblings
 ;
 }
 }
-return
-NS_OK
-;
 }
 auto
 XULButtonElement

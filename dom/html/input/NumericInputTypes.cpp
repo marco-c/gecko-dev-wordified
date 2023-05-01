@@ -974,7 +974,7 @@ type
 range
 *
 /
-nsresult
+void
 RangeInputType
 :
 :
@@ -1162,7 +1162,6 @@ GetNonFileValueInternal
 value
 )
 ;
-return
 SetValueInternal
 (
 value

@@ -6835,7 +6835,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLTableElement
 :
 :

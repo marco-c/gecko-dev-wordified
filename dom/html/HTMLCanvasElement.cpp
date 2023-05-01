@@ -3272,7 +3272,7 @@ return
 size
 ;
 }
-nsresult
+void
 HTMLCanvasElement
 :
 :
@@ -3320,7 +3320,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLCanvasElement
 :
 :

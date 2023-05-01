@@ -540,7 +540,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLOptGroupElement
 :
 :

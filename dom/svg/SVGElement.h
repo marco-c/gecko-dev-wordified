@@ -2332,7 +2332,7 @@ aNotify
 )
 final
 ;
-nsresult
+void
 AfterSetAttr
 (
 int32_t

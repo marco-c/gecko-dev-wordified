@@ -1333,7 +1333,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLLinkElement
 :
 :

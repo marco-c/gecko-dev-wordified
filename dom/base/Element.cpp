@@ -16646,7 +16646,6 @@ oldValueSet
 )
 )
 {
-return
 OnAttrSetButNotChanged
 (
 aNamespaceID
@@ -16654,6 +16653,9 @@ aName
 value
 aNotify
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -16864,7 +16866,6 @@ oldValueSet
 )
 )
 {
-return
 OnAttrSetButNotChanged
 (
 aNamespaceID
@@ -16872,6 +16873,9 @@ aName
 value
 aNotify
 )
+;
+return
+NS_OK
 ;
 }
 Document
@@ -17594,8 +17598,6 @@ if
 aCallAfterSetAttr
 )
 {
-MOZ_TRY
-(
 AfterSetAttr
 (
 aNamespaceID
@@ -17605,7 +17607,6 @@ valueForAfterSetAttr
 oldValue
 aSubjectPrincipal
 aNotify
-)
 )
 ;
 if
@@ -18189,7 +18190,7 @@ SetMayHaveClass
 }
 }
 }
-nsresult
+void
 Element
 :
 :
@@ -18352,9 +18353,6 @@ this
 }
 }
 }
-return
-NS_OK
-;
 }
 void
 Element
@@ -18498,7 +18496,7 @@ ClearHasID
 ;
 }
 }
-nsresult
+void
 Element
 :
 :
@@ -18665,9 +18663,6 @@ definition
 ;
 }
 }
-return
-NS_OK
-;
 }
 EventListenerManager
 *
@@ -19256,8 +19251,6 @@ definition
 ;
 }
 }
-MOZ_TRY
-(
 AfterSetAttr
 (
 aNameSpaceID
@@ -19267,7 +19260,6 @@ nullptr
 oldValue
 nullptr
 aNotify
-)
 )
 ;
 UpdateState

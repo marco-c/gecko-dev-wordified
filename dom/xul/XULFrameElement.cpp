@@ -1092,7 +1092,7 @@ DestroyContent
 )
 ;
 }
-nsresult
+void
 XULFrameElement
 :
 :

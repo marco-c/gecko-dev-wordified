@@ -1340,7 +1340,7 @@ Auto
 virtual
 *
 /
-nsresult
+void
 nsGenericHTMLFrameElement
 :
 :
@@ -1606,7 +1606,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 nsGenericHTMLFrameElement
 :
 :

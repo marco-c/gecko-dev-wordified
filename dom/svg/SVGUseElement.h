@@ -608,7 +608,7 @@ nsAtom
 aAttribute
 )
 ;
-nsresult
+void
 AfterSetAttr
 (
 int32_t

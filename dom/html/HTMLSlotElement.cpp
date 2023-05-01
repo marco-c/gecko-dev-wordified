@@ -618,7 +618,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLSlotElement
 :
 :

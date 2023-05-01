@@ -206,7 +206,7 @@ aMessage
 )
 override
 ;
-nsresult
+void
 MinMaxStepAttrChanged
 (
 )

@@ -1297,7 +1297,7 @@ _ns
 )
 ;
 }
-nsresult
+void
 HTMLSharedElement
 :
 :

@@ -28995,7 +28995,7 @@ return
 0
 ;
 }
-nsresult
+void
 HTMLMediaElement
 :
 :
@@ -29328,7 +29328,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLMediaElement
 :
 :

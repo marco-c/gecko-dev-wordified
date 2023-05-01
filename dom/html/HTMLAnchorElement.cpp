@@ -1163,7 +1163,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLAnchorElement
 :
 :

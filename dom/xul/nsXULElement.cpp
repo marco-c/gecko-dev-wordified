@@ -6176,7 +6176,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 nsXULElement
 :
 :

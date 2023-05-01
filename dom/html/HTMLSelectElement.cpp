@@ -6877,7 +6877,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLSelectElement
 :
 :

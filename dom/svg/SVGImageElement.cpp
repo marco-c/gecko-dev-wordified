@@ -1745,7 +1745,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 SVGImageElement
 :
 :

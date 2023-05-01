@@ -4994,7 +4994,7 @@ Reset
 ;
 }
 }
-nsresult
+void
 HTMLTextAreaElement
 :
 :

@@ -337,7 +337,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLMetaElement
 )
-nsresult
+void
 HTMLMetaElement
 :
 :

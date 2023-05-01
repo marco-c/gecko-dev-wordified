@@ -601,7 +601,7 @@ oldShadow
 )
 ;
 }
-nsresult
+void
 HTMLStyleElement
 :
 :
