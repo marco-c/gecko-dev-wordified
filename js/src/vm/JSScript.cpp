@@ -14007,9 +14007,9 @@ ImmutableScriptData
 :
 new_
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 uint32_t
 totalSize
 )
@@ -14018,7 +14018,12 @@ void
 *
 raw
 =
-cx
+fc
+-
+>
+getAllocator
+(
+)
 -
 >
 pod_malloc
