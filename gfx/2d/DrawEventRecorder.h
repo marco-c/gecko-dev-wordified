@@ -450,7 +450,7 @@ pendingDeletions
 auto
 lockedPendingDeletions
 =
-mPendingDeleltions
+mPendingDeletions
 .
 Lock
 (
@@ -508,7 +508,7 @@ aPendingDeletion
 auto
 lockedPendingDeletions
 =
-mPendingDeleltions
+mPendingDeletions
 .
 Lock
 (
@@ -963,13 +963,13 @@ DataMutex
 <
 PendingDeletionsVector
 >
-mPendingDeleltions
+mPendingDeletions
 {
 "
 DrawEventRecorderPrivate
 :
 :
-mPendingDeleltions
+mPendingDeletions
 "
 }
 ;
