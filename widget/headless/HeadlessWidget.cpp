@@ -2389,14 +2389,6 @@ SizeModeChanged
 mSizeMode
 )
 ;
-mWidgetListener
--
->
-FullscreenChanged
-(
-aFullScreen
-)
-;
 }
 /
 /
