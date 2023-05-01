@@ -104,8 +104,6 @@ hierarchies
 =
 [
 [
-/
-/
 {
 name
 :
@@ -113,8 +111,6 @@ name
 any
 '
 }
-/
-/
 {
 name
 :
@@ -122,8 +118,6 @@ name
 eq
 '
 }
-/
-/
 {
 name
 :
@@ -161,8 +155,6 @@ new_default
 s2
 '
 }
-/
-/
 {
 name
 :
@@ -175,8 +167,6 @@ true
 }
 ]
 [
-/
-/
 {
 name
 :
@@ -184,8 +174,6 @@ name
 any
 '
 }
-/
-/
 {
 name
 :
@@ -193,8 +181,6 @@ name
 eq
 '
 }
-/
-/
 {
 name
 :
@@ -248,8 +234,6 @@ const
 )
 '
 }
-/
-/
 {
 name
 :
