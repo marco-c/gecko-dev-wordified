@@ -167,6 +167,13 @@ use
 glean_core
 :
 :
+TextMetric
+;
+pub
+use
+glean_core
+:
+:
 TimespanMetric
 ;
 pub
