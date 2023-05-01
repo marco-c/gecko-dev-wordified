@@ -1445,12 +1445,13 @@ drmRenderDevice
 ;
 if
 (
+!
 GetDMABufDevice
 (
 )
 -
 >
-IsEnabled
+Configure
 (
 failureId
 )

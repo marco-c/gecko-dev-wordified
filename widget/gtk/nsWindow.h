@@ -2578,6 +2578,12 @@ GdkEventButton
 aEvent
 )
 ;
+wl_display
+*
+GetWaylandDisplay
+(
+)
+;
 void
 CreateCompositorVsyncDispatcher
 (

@@ -692,9 +692,11 @@ UsingSoftwareWebRender
 widget
 :
 :
-nsDMABufDevice
-:
-:
+GetDMABufDevice
+(
+)
+-
+>
 IsDMABufWebGLEnabled
 (
 )
