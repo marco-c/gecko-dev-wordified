@@ -2088,13 +2088,11 @@ handle
 "
 )
 ;
-RefPtr
-<
 widget
 :
 :
 nsWaylandDisplay
->
+*
 waylandDisplay
 =
 widget
