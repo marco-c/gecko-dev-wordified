@@ -948,13 +948,6 @@ Step
 const
 override
 ;
-bool
-SetCurValue
-(
-double
-aValue
-)
-;
 Accessible
 *
 ChildAtPoint

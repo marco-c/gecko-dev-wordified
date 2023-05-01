@@ -1145,6 +1145,15 @@ const
 override
 ;
 virtual
+bool
+SetCurValue
+(
+double
+aValue
+)
+override
+;
+virtual
 Accessible
 *
 ChildAtPoint

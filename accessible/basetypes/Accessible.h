@@ -1387,6 +1387,16 @@ const
 =
 0
 ;
+virtual
+bool
+SetCurValue
+(
+double
+aValue
+)
+=
+0
+;
 /
 *
 *

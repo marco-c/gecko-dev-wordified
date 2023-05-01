@@ -3588,6 +3588,7 @@ SetCurValue
 double
 aValue
 )
+override
 ;
 /
 /
