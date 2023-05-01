@@ -817,6 +817,12 @@ rhs
 .
 mMaxEncodings
 ;
+mInHaveRemote
+=
+rhs
+.
+mInHaveRemote
+;
 mRtxIsAllowed
 =
 rhs
@@ -1590,6 +1596,7 @@ SdpMediaSection
 *
 msection
 )
+const
 ;
 void
 GetRids
