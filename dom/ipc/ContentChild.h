@@ -1462,6 +1462,10 @@ nsIDNSService
 ResolverMode
 &
 mode
+const
+uint32_t
+&
+modeFromPref
 )
 ;
 mozilla
