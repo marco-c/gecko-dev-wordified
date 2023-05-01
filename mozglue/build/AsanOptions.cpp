@@ -722,7 +722,7 @@ extern
 "
 C
 "
-MOZ_ASAN_BLACKLIST
+MOZ_ASAN_IGNORE
 const
 char
 *

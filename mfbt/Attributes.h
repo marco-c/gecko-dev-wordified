@@ -1479,7 +1479,7 @@ endif
 /
 *
 *
-MOZ_ASAN_BLACKLIST
+MOZ_ASAN_IGNORE
 is
 a
 macro
@@ -1523,7 +1523,7 @@ inlining
 currently
 breaks
 the
-blacklisting
+blocklisting
 mechanism
 of
 *
@@ -1545,7 +1545,7 @@ address_sanitizer
 )
 #
 define
-MOZ_HAVE_ASAN_BLACKLIST
+MOZ_HAVE_ASAN_IGNORE
 #
 endif
 #
@@ -1562,7 +1562,7 @@ __SANITIZE_ADDRESS__
 )
 #
 define
-MOZ_HAVE_ASAN_BLACKLIST
+MOZ_HAVE_ASAN_IGNORE
 #
 endif
 #
@@ -1571,12 +1571,11 @@ endif
 if
 defined
 (
-MOZ_HAVE_ASAN_BLACKLIST
+MOZ_HAVE_ASAN_IGNORE
 )
 #
 define
-MOZ_ASAN_BLACKLIST
-\
+MOZ_ASAN_IGNORE
 MOZ_NEVER_INLINE
 __attribute__
 (
@@ -1588,7 +1587,7 @@ no_sanitize_address
 else
 #
 define
-MOZ_ASAN_BLACKLIST
+MOZ_ASAN_IGNORE
 /
 *
 nothing
@@ -1599,7 +1598,7 @@ endif
 /
 *
 *
-MOZ_TSAN_BLACKLIST
+MOZ_TSAN_IGNORE
 is
 a
 macro
@@ -1641,7 +1640,7 @@ inlining
 currently
 breaks
 the
-blacklisting
+blocklisting
 mechanism
 of
 ThreadSanitizer
@@ -1662,8 +1661,7 @@ thread_sanitizer
 )
 #
 define
-MOZ_TSAN_BLACKLIST
-\
+MOZ_TSAN_IGNORE
 MOZ_NEVER_INLINE
 __attribute__
 (
@@ -1675,7 +1673,7 @@ no_sanitize_thread
 else
 #
 define
-MOZ_TSAN_BLACKLIST
+MOZ_TSAN_IGNORE
 /
 *
 nothing
@@ -1687,7 +1685,7 @@ endif
 else
 #
 define
-MOZ_TSAN_BLACKLIST
+MOZ_TSAN_IGNORE
 /
 *
 nothing

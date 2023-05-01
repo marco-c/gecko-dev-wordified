@@ -3957,7 +3957,7 @@ under
 valgrind
 .
 MOZ_NEVER_INLINE
-MOZ_ASAN_BLACKLIST
+MOZ_ASAN_IGNORE
 static
 pid_t
 DoClone

@@ -5594,7 +5594,7 @@ uintptr_t
 ;
 #
 endif
-MOZ_ASAN_BLACKLIST
+MOZ_ASAN_IGNORE
 static
 void
 DoFramePointerStackWalk

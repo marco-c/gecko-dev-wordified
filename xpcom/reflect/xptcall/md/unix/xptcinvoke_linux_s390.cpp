@@ -1467,7 +1467,7 @@ alloca
 instrumentation
 enabled
 .
-MOZ_ASAN_BLACKLIST
+MOZ_ASAN_IGNORE
 EXPORT_XPCOM_API
 (
 nsresult
