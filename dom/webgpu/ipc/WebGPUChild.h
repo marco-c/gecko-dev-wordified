@@ -635,6 +635,7 @@ GPURenderPipelineDescriptor
 aDesc
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 ShaderModule
