@@ -3160,6 +3160,9 @@ debugTrapHandlerOffset_
 =
 0
 ;
+BaselineInterpreterPerfSpewer
+perfSpewer_
+;
 public
 :
 explicit
