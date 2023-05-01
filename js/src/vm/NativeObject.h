@@ -10217,7 +10217,9 @@ count
 /
 /
 Copy
-all
+the
+first
+count
 dense
 elements
 from
@@ -10226,10 +10228,10 @@ to
 this
 starting
 at
+/
+/
 destStart
 .
-/
-/
 The
 initialized
 length
@@ -10249,6 +10251,8 @@ destStart
 NativeObject
 *
 src
+uint32_t
+count
 )
 ;
 /
