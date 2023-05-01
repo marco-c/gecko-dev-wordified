@@ -80,7 +80,7 @@ file
 const
 url
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
@@ -101,7 +101,7 @@ html
 const
 manifestUrl
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
@@ -372,7 +372,7 @@ url
 const
 url
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources

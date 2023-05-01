@@ -66,7 +66,7 @@ one
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_inspector_eyedropper_disabled
@@ -132,7 +132,7 @@ allow
 true
 context
 :
-URL_ROOT
+URL_ROOT_SSL
 }
 ]
 )
