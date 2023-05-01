@@ -629,6 +629,16 @@ mTrackingId
 )
 {
 }
+DAV1DDecoder
+:
+:
+~
+DAV1DDecoder
+(
+)
+=
+default
+;
 RefPtr
 <
 MediaDataDecoder

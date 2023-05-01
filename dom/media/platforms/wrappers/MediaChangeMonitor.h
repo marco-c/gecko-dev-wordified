@@ -273,6 +273,7 @@ it
 .
 class
 MediaChangeMonitor
+final
 :
 public
 MediaDataDecoder
@@ -284,6 +285,12 @@ MediaChangeMonitor
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+MediaChangeMonitor
+final
+)
+;
 static
 RefPtr
 <

@@ -967,6 +967,16 @@ codecSpecific
 )
 ;
 }
+WebrtcMediaDataEncoder
+:
+:
+~
+WebrtcMediaDataEncoder
+(
+)
+=
+default
+;
 static
 void
 InitCodecSpecficInfo
