@@ -111,6 +111,7 @@ process
 .
 class
 MediaTransportHandlerIPC
+final
 :
 public
 MediaTransportHandler
@@ -124,6 +125,12 @@ nsISerialEventTarget
 *
 aCallbackThread
 )
+;
+void
+Initialize
+(
+)
+override
 ;
 RefPtr
 <

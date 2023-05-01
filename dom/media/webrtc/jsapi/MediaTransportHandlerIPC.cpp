@@ -174,6 +174,15 @@ MediaTransportHandler
 aCallbackThread
 )
 {
+}
+void
+MediaTransportHandlerIPC
+:
+:
+Initialize
+(
+)
+{
 mInitPromise
 =
 net

@@ -386,6 +386,13 @@ true
 >
 IceLogPromise
 ;
+virtual
+void
+Initialize
+(
+)
+{
+}
 /
 /
 There
