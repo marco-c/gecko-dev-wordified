@@ -144,6 +144,7 @@ handleUserAction
 action
 )
 {
+return
 window
 .
 AWSendToParent
