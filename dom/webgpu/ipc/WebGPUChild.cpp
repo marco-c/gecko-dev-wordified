@@ -1382,7 +1382,7 @@ tag
 ffi
 :
 :
-WGPUTextureFormat_Bc6hRgbSfloat
+WGPUTextureFormat_Bc6hRgbFloat
 ;
 break
 ;
