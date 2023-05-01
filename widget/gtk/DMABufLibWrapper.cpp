@@ -238,6 +238,14 @@ mozilla
 namespace
 widget
 {
+bool
+nsDMABufDevice
+:
+:
+sUseWebGLDmabufBackend
+=
+true
+;
 #
 define
 GBMLIB_NAME
@@ -1038,10 +1046,6 @@ nsDMABufDevice
 (
 )
 :
-mUseWebGLDmabufBackend
-(
-true
-)
 mDRMFd
 (
 -
@@ -1519,7 +1523,7 @@ UseDMABuf
 d
 "
 "
-mUseWebGLDmabufBackend
+sUseWebGLDmabufBackend
 %
 d
 "
@@ -1539,7 +1543,7 @@ gfxVars
 UseDMABuf
 (
 )
-mUseWebGLDmabufBackend
+sUseWebGLDmabufBackend
 StaticPrefs
 :
 :
@@ -1561,7 +1565,7 @@ UseDMABuf
 )
 &
 &
-mUseWebGLDmabufBackend
+sUseWebGLDmabufBackend
 &
 &
 StaticPrefs
@@ -1580,7 +1584,7 @@ DisableDMABufWebGL
 (
 )
 {
-mUseWebGLDmabufBackend
+sUseWebGLDmabufBackend
 =
 false
 ;
