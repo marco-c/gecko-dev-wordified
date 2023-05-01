@@ -245,6 +245,7 @@ mozilla
 {
 class
 SVGGeometryFrame
+final
 :
 public
 nsIFrame
@@ -466,14 +467,13 @@ GetCanvasTM
 (
 )
 ;
-virtual
 bool
 IsInvisible
 (
 )
 const
 ;
-protected
+private
 :
 /
 /
@@ -543,8 +543,6 @@ return
 false
 ;
 }
-private
-:
 enum
 {
 eRenderFill
@@ -572,7 +570,6 @@ imgDrawingParams
 aImgParams
 )
 ;
-virtual
 bool
 CreateWebRenderCommands
 (
@@ -958,7 +955,6 @@ true
 )
 ;
 }
-virtual
 bool
 CreateWebRenderCommands
 (
