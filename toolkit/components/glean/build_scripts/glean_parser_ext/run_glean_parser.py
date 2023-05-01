@@ -1337,6 +1337,12 @@ id_signal_bits
 js
 .
 ID_SIGNAL_BITS
+            
+runtime_metric_bit
+=
+jog
+.
+RUNTIME_METRIC_BIT
         
 )
     
