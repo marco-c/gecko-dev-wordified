@@ -189,6 +189,8 @@ const
 nsACString
 &
 aOrigin
+bool
+aIsPrivate
 const
 ClientUsageArray
 &
@@ -510,6 +512,9 @@ mUsage
 ;
 int64_t
 mAccessTime
+;
+bool
+mIsPrivate
 ;
 bool
 mAccessed

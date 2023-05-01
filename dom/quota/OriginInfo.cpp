@@ -195,6 +195,8 @@ const
 nsACString
 &
 aOrigin
+bool
+aIsPrivate
 const
 ClientUsageArray
 &
@@ -232,6 +234,10 @@ aUsage
 mAccessTime
 (
 aAccessTime
+)
+mIsPrivate
+(
+aIsPrivate
 )
 mAccessed
 (
@@ -495,6 +501,7 @@ Group
 (
 )
 mOrigin
+mIsPrivate
 mGroupInfo
 -
 >
@@ -635,6 +642,12 @@ _ns
 mOrigin
 )
 )
+)
+;
+MOZ_ASSERT
+(
+!
+mIsPrivate
 )
 ;
 nsCString

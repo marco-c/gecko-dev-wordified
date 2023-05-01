@@ -298,6 +298,10 @@ mId
 ;
 const
 bool
+mIsPrivate
+;
+const
+bool
 mExclusive
 ;
 /
@@ -390,6 +394,8 @@ const
 OriginScope
 &
 aOriginScope
+bool
+aIsPrivate
 const
 Nullable
 <
@@ -473,6 +479,9 @@ aOriginMetadata
 .
 mOrigin
 )
+aOriginMetadata
+.
+mIsPrivate
 Nullable
 <
 Client
@@ -570,6 +579,9 @@ aOriginMetadata
 .
 mOrigin
 )
+aOriginMetadata
+.
+mIsPrivate
 Nullable
 <
 Client
@@ -656,6 +668,7 @@ _ns
 "
 _ns
 aOriginScope
+false
 aClientType
 aExclusive
 true
@@ -1156,6 +1169,7 @@ Origin
 (
 )
 )
+mIsPrivate
 GetPersistenceType
 (
 )
@@ -1367,6 +1381,8 @@ const
 OriginScope
 &
 aOriginScope
+bool
+aIsPrivate
 const
 Nullable
 <
@@ -1500,6 +1516,7 @@ aPersistenceType
 aSuffix
 aGroup
 aOriginScope
+aIsPrivate
 aClientType
 aExclusive
 aInternal

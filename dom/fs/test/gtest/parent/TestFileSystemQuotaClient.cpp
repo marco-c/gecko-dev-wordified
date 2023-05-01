@@ -414,6 +414,12 @@ quotaexample
 com
 "
 _ns
+/
+*
+aIsPrivate
+*
+/
+false
 quota
 :
 :

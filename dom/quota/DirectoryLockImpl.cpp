@@ -197,6 +197,8 @@ const
 OriginScope
 &
 aOriginScope
+bool
+aIsPrivate
 const
 Nullable
 <
@@ -256,6 +258,10 @@ mQuotaManager
 GenerateDirectoryLockId
 (
 )
+)
+mIsPrivate
+(
+aIsPrivate
 )
 mExclusive
 (
@@ -1687,6 +1693,9 @@ aOriginMetadata
 .
 mOrigin
 )
+aOriginMetadata
+.
+mIsPrivate
 Nullable
 <
 Client
