@@ -1703,7 +1703,12 @@ sScrollSeriesCounter
 OutOfTime
 (
 sTime
-kScrollSeriesTimeoutMs
+StaticPrefs
+:
+:
+mousewheel_scroll_series_timeout
+(
+)
 )
 )
 {
