@@ -3978,7 +3978,7 @@ type
 =
 =
 "
-FXA_SIGNIN_TAB_FLOW
+FXA_SIGNIN_FLOW
 "
 )
 {
@@ -4001,7 +4001,7 @@ sign_in
 sign_in_cancel
 "
 "
-FXA_SIGNIN_TAB_FLOW
+FXA_SIGNIN_FLOW
 "
 )
 ;
