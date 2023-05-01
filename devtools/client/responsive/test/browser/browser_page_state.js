@@ -56,7 +56,7 @@ const
 DUMMY_1_URL
 =
 "
-http
+https
 :
 /
 /
@@ -70,7 +70,7 @@ const
 TEST_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 doc_page_state
 .
@@ -80,7 +80,7 @@ const
 DUMMY_2_URL
 =
 "
-http
+https
 :
 /
 /

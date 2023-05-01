@@ -45,7 +45,7 @@ should
 const
 TEST_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 browser_toolbox_options_disable_js

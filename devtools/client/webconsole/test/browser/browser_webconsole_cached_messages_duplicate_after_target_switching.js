@@ -36,7 +36,7 @@ strict
 const
 TEST_URI_ORG
 =
-http
+https
 :
 /
 /

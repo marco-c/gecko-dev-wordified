@@ -66,7 +66,7 @@ tools
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_links
@@ -459,7 +459,7 @@ await
 waitForSelectedSource
 (
 dbg
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 lib_jquery_1
