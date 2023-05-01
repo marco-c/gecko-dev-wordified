@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsTHashMap
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
