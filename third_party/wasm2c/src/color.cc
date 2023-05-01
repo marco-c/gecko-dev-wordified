@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 color
 .
@@ -144,7 +144,7 @@ cstdlib
 #
 include
 "
-src
+wabt
 /
 common
 .

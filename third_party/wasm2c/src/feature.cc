@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 feature
 .
@@ -139,7 +139,7 @@ h
 #
 include
 "
-src
+wabt
 /
 option
 -
@@ -252,7 +252,7 @@ variable
 #
 include
 "
-src
+wabt
 /
 feature
 .
@@ -344,12 +344,13 @@ memory
 .
 if
 (
-reference_types_enabled_
+!
+bulk_memory_enabled_
 )
 {
-bulk_memory_enabled_
+reference_types_enabled_
 =
-true
+false
 ;
 }
 }

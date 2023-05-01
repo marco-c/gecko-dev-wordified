@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 common
 .
@@ -140,6 +140,11 @@ h
 include
 <
 cassert
+>
+#
+include
+<
+cerrno
 >
 #
 include
@@ -166,7 +171,7 @@ include
 <
 sys
 /
-types
+stat
 .
 h
 >
@@ -175,7 +180,7 @@ include
 <
 sys
 /
-stat
+types
 .
 h
 >
@@ -516,6 +521,9 @@ bytes_read
 Result
 ReadFile
 (
+std
+:
+:
 string_view
 filename
 std
@@ -534,11 +542,8 @@ std
 :
 string
 filename_str
-=
-filename
-.
-to_string
 (
+filename
 )
 ;
 const

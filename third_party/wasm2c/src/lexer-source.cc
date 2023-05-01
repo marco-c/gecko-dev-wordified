@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 lexer
 -

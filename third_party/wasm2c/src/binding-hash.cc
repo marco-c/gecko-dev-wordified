@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 binding
 -
@@ -151,7 +151,7 @@ vector
 #
 include
 "
-src
+wabt
 /
 ir
 .

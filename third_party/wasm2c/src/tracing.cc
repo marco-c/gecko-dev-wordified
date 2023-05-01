@@ -134,7 +134,7 @@ WABT_TRACING
 #
 include
 "
-src
+wabt
 /
 tracing
 .

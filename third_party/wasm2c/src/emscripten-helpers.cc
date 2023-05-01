@@ -166,7 +166,7 @@ vector
 #
 include
 "
-src
+wabt
 /
 apply
 -
@@ -177,7 +177,7 @@ h
 #
 include
 "
-src
+wabt
 /
 binary
 -
@@ -190,7 +190,7 @@ h
 #
 include
 "
-src
+wabt
 /
 binary
 -
@@ -201,7 +201,7 @@ h
 #
 include
 "
-src
+wabt
 /
 binary
 -
@@ -214,7 +214,7 @@ h
 #
 include
 "
-src
+wabt
 /
 binary
 -
@@ -225,7 +225,7 @@ h
 #
 include
 "
-src
+wabt
 /
 common
 .
@@ -234,7 +234,7 @@ h
 #
 include
 "
-src
+wabt
 /
 error
 -
@@ -245,7 +245,7 @@ h
 #
 include
 "
-src
+wabt
 /
 feature
 .
@@ -254,7 +254,7 @@ h
 #
 include
 "
-src
+wabt
 /
 filenames
 .
@@ -263,7 +263,7 @@ h
 #
 include
 "
-src
+wabt
 /
 generate
 -
@@ -274,7 +274,7 @@ h
 #
 include
 "
-src
+wabt
 /
 ir
 .
@@ -283,7 +283,7 @@ h
 #
 include
 "
-src
+wabt
 /
 stream
 .
@@ -292,7 +292,7 @@ h
 #
 include
 "
-src
+wabt
 /
 validator
 .
@@ -301,7 +301,7 @@ h
 #
 include
 "
-src
+wabt
 /
 wast
 -
@@ -312,7 +312,7 @@ h
 #
 include
 "
-src
+wabt
 /
 wast
 -
@@ -323,7 +323,7 @@ h
 #
 include
 "
-src
+wabt
 /
 wat
 -
@@ -331,7 +331,9 @@ writer
 .
 h
 "
-typedef
+using
+WabtOutputBufferPtr
+=
 std
 :
 :
@@ -342,9 +344,10 @@ wabt
 :
 OutputBuffer
 >
-WabtOutputBufferPtr
 ;
-typedef
+using
+WabtFilenameOutputBufferPair
+=
 std
 :
 :
@@ -356,7 +359,6 @@ std
 string
 WabtOutputBufferPtr
 >
-WabtFilenameOutputBufferPair
 ;
 struct
 WabtParseWatResult
@@ -591,7 +593,7 @@ enabled
 #
 include
 "
-src
+wabt
 /
 feature
 .
@@ -617,6 +619,12 @@ void
 data
 size_t
 size
+wabt
+:
+:
+Errors
+*
+errors
 )
 {
 std
@@ -642,6 +650,7 @@ CreateBufferLexer
 filename
 data
 size
+errors
 )
 ;
 return
@@ -1157,7 +1166,7 @@ std
 :
 string
 module_filename_noext
-=
+(
 wabt
 :
 :
@@ -1169,9 +1178,6 @@ out_filename
 :
 source_filename
 )
-.
-to_string
-(
 )
 ;
 WabtWriteScriptResult
@@ -2321,32 +2327,6 @@ output_buffer
 delete
 output_buffer
 ;
-}
-/
-/
-See
-https
-:
-/
-/
-github
-.
-com
-/
-kripken
-/
-emscripten
-/
-issues
-/
-7073
-.
-void
-dummy_workaround_for_emscripten_issue_7073
-(
-void
-)
-{
 }
 }
 /

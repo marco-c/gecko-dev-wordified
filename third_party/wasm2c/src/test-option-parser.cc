@@ -153,7 +153,7 @@ string
 #
 include
 "
-src
+wabt
 /
 option
 -

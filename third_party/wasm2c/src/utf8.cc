@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 utf8
 .
@@ -146,6 +146,12 @@ wabt
 {
 namespace
 {
+/
+/
+clang
+-
+format
+off
 const
 int
 s_utf8_length
@@ -478,6 +484,12 @@ f
 0xf0
 }
 ;
+/
+/
+clang
+-
+format
+on
 /
 /
 Returns

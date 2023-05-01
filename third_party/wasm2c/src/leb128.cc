@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 leb128
 .
@@ -144,7 +144,7 @@ type_traits
 #
 include
 "
-src
+wabt
 /
 stream
 .

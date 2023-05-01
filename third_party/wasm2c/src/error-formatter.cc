@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 error
 -
@@ -226,10 +226,6 @@ result
 loc
 .
 filename
-.
-to_string
-(
-)
 ;
 result
 +
@@ -627,10 +623,12 @@ PrintHeader
 :
 Never
 ;
-/
-/
-Fallthrough
-.
+[
+[
+fallthrough
+]
+]
+;
 case
 PrintHeader
 :

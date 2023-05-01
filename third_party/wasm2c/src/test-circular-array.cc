@@ -144,7 +144,7 @@ memory
 #
 include
 "
-src
+wabt
 /
 circular
 -

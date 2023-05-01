@@ -130,6 +130,8 @@ License
 #
 include
 "
+wabt
+/
 config
 .
 h

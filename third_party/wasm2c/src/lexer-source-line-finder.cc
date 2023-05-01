@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 lexer
 -
@@ -150,7 +150,7 @@ algorithm
 #
 include
 "
-src
+wabt
 /
 lexer
 -

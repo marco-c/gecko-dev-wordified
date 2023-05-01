@@ -154,7 +154,7 @@ h
 #
 include
 "
-src
+wabt
 /
 literal
 .
@@ -428,7 +428,7 @@ Test
 protected
 :
 static
-const
+constexpr
 int
 kDefaultNumThreads
 =

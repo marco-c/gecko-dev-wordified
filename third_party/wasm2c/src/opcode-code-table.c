@@ -130,7 +130,7 @@ License
 #
 include
 "
-src
+wabt
 /
 opcode
 -
@@ -143,6 +143,8 @@ h
 #
 include
 "
+wabt
+/
 config
 .
 h
@@ -179,6 +181,8 @@ Name
 #
 include
 "
+wabt
+/
 opcode
 .
 def
@@ -246,7 +250,7 @@ decomp
 prefix
 <
 <
-8
+MAX_OPCODE_BITS
 )
 +
 code
@@ -256,6 +260,8 @@ Name
 #
 include
 "
+wabt
+/
 opcode
 .
 def

@@ -144,7 +144,7 @@ memory
 #
 include
 "
-src
+wabt
 /
 wast
 -
@@ -155,7 +155,7 @@ h
 #
 include
 "
-src
+wabt
 /
 wast
 -
@@ -226,6 +226,9 @@ string
 text
 )
 {
+Errors
+errors
+;
 auto
 lexer
 =
@@ -247,10 +250,9 @@ text
 size
 (
 )
-)
-;
-Errors
+&
 errors
+)
 ;
 std
 :
