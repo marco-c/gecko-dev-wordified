@@ -165,7 +165,7 @@ assertEqual
 (
 computed_role
 "
-button
+pushbutton
 "
 )
     
