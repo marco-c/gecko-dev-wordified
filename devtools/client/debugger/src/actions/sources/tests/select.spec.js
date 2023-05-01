@@ -1404,13 +1404,12 @@ testSource
 const
 location
 =
+createLocation
+(
 {
-test
-:
-"
-testLocation
-"
+source
 }
+)
 ;
 /
 /
