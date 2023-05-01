@@ -197,12 +197,8 @@ WaylandShmPool
 >
 Create
 (
-const
-RefPtr
-<
 nsWaylandDisplay
->
-&
+*
 aWaylandDisplay
 int
 aSize
