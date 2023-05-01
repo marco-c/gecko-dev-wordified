@@ -3277,6 +3277,9 @@ CalcNode
 :
 math_function
 (
+self
+.
+0
 name
 location
 )
@@ -3539,6 +3542,9 @@ CalcNode
 :
 math_function
 (
+self
+.
+0
 name
 location
 )
