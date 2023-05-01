@@ -2169,6 +2169,17 @@ activeTracer
 isTracing
 (
 )
+&
+&
+typeof
+listener
+.
+onTracingToggled
+=
+=
+"
+function
+"
 )
 {
 listener
