@@ -5997,7 +5997,7 @@ Bc5RgSnorm
 Tf
 :
 :
-Bc6hRgbSfloat
+Bc6hRgbFloat
 |
 Tf
 :

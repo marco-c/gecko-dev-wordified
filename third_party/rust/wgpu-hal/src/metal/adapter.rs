@@ -1339,7 +1339,7 @@ Bc6hRgbUfloat
 Tf
 :
 :
-Bc6hRgbSfloat
+Bc6hRgbFloat
 |
 Tf
 :
@@ -4639,6 +4639,19 @@ true
 )
 ;
 features
+.
+set
+(
+F
+:
+:
+RG11B10UFLOAT_RENDERABLE
+self
+.
+format_rg11b10_all
+)
+;
+features
 }
 pub
 fn
@@ -5460,7 +5473,7 @@ BC5_RGSnorm
 Tf
 :
 :
-Bc6hRgbSfloat
+Bc6hRgbFloat
 =
 >
 BC6H_RGBFloat
