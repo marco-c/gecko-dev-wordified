@@ -1548,6 +1548,9 @@ required
 true
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 /
 /
 Use
@@ -1562,7 +1565,7 @@ on
 Android
 -
 bug
-1639050
+1824863
 pref
 (
 "
@@ -1575,6 +1578,8 @@ useMLBF
 false
 )
 ;
+#
+endif
 /
 /
 Whether
