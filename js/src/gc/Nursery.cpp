@@ -2871,15 +2871,6 @@ return
 nullptr
 ;
 }
-gcprobes
-:
-:
-NurseryAlloc
-(
-ptr
-size
-)
-;
 return
 ptr
 ;
