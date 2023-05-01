@@ -804,7 +804,6 @@ mTokenRequest
 ;
 class
 AllocationWrapper
-final
 :
 public
 MediaDataDecoder
@@ -819,12 +818,6 @@ Token
 ;
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-AllocationWrapper
-final
-)
-;
 AllocationWrapper
 (
 already_AddRefed
@@ -837,6 +830,11 @@ already_AddRefed
 Token
 >
 aToken
+)
+;
+~
+AllocationWrapper
+(
 )
 ;
 RefPtr
@@ -1188,11 +1186,6 @@ nullptr
 ;
 private
 :
-~
-AllocationWrapper
-(
-)
-;
 RefPtr
 <
 MediaDataDecoder

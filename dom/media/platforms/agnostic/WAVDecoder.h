@@ -140,7 +140,6 @@ MediaDataDecoder
 ;
 class
 WaveDataDecoder
-final
 :
 public
 MediaDataDecoder
@@ -152,12 +151,6 @@ WaveDataDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-WaveDataDecoder
-final
-)
-;
 explicit
 WaveDataDecoder
 (
@@ -265,13 +258,6 @@ _ns
 }
 private
 :
-~
-WaveDataDecoder
-(
-)
-=
-default
-;
 const
 AudioInfo
 mInfo

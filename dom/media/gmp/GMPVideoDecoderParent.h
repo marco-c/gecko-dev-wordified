@@ -584,10 +584,8 @@ GMPContentParent
 >
 mPlugin
 ;
-RefPtr
-<
 GMPVideoDecoderCallbackProxy
->
+*
 mCallback
 ;
 GMPVideoHostImpl

@@ -165,7 +165,6 @@ MediaDataDecoder
 ;
 class
 TheoraDecoder
-final
 :
 public
 MediaDataDecoder
@@ -177,12 +176,6 @@ TheoraDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-TheoraDecoder
-final
-)
-;
 explicit
 TheoraDecoder
 (

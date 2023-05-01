@@ -266,12 +266,6 @@ GMPVideoDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-GMPVideoDecoder
-final
-)
-;
 explicit
 GMPVideoDecoder
 (
@@ -516,13 +510,6 @@ aMethodName
 ;
 private
 :
-~
-GMPVideoDecoder
-(
-)
-=
-default
-;
 class
 GMPInitDoneCallback
 :

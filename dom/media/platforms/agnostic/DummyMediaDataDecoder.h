@@ -214,7 +214,6 @@ objects
 .
 class
 DummyMediaDataDecoder
-final
 :
 public
 MediaDataDecoder
@@ -226,12 +225,6 @@ DummyMediaDataDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-DummyMediaDataDecoder
-final
-)
-;
 DummyMediaDataDecoder
 (
 UniquePtr
@@ -322,13 +315,6 @@ override
 ;
 private
 :
-~
-DummyMediaDataDecoder
-(
-)
-=
-default
-;
 UniquePtr
 <
 DummyDataCreator

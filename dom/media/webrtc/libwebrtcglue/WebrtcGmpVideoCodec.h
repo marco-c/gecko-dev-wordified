@@ -814,7 +814,11 @@ RefCountedWebrtcVideoEncoder
 {
 public
 :
-NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+RefCountedWebrtcVideoEncoder
+)
+;
 /
 /
 Implement
@@ -994,12 +998,6 @@ RefCountedWebrtcVideoEncoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-WebrtcGmpVideoEncoder
-final
-)
-;
 WebrtcGmpVideoEncoder
 (
 const
@@ -2098,7 +2096,6 @@ aTrackingId
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 WebrtcGmpVideoDecoder
-final
 )
 ;
 /
