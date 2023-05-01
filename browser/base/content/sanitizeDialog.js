@@ -563,6 +563,8 @@ document
 .
 documentElement
 "
+sanitize
+-
 dialog
 -
 title
@@ -774,6 +776,8 @@ document
 .
 documentElement
 "
+sanitize
+-
 dialog
 -
 title
@@ -850,6 +854,8 @@ document
 .
 documentElement
 "
+sanitize
+-
 dialog
 -
 title
