@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 {
 NetUtil
@@ -762,6 +757,7 @@ t
 valid
 *
 /
+export
 function
 IdpSandbox
 (
@@ -1892,13 +1888,4 @@ spec
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-IdpSandbox
-"
-]
 ;
