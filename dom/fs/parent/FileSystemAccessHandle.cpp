@@ -1136,7 +1136,10 @@ aRv
 ;
 }
 ;
-nsString
+fs
+:
+:
+ContentType
 type
 ;
 fs
