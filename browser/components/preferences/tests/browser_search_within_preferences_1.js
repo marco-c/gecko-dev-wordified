@@ -881,6 +881,9 @@ networkProxyCategory
 "
 dataMigrationGroup
 "
+"
+translationsGroup
+"
 ]
 ;
 /
