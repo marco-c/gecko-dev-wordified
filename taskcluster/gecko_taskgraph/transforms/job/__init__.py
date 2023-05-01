@@ -902,15 +902,6 @@ hash
 )
 :
 bool
-                    
-Optional
-(
-"
-prefix
-"
-)
-:
-str
                 
 }
             
@@ -3134,10 +3125,6 @@ in
 artifacts
 :
                     
-artifact_prefix
-=
-prefix
-                    
 if
 isinstance
 (
@@ -3210,23 +3197,6 @@ hash
 "
 False
 )
-                        
-if
-"
-prefix
-"
-in
-artifact
-:
-                            
-artifact_prefix
-=
-artifact
-[
-"
-prefix
-"
-]
                     
 fetch
 =
@@ -3239,7 +3209,7 @@ artifact
 f
 "
 {
-artifact_prefix
+prefix
 }
 /
 {
