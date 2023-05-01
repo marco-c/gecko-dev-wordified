@@ -1451,7 +1451,7 @@ GetDMABufDevice
 )
 -
 >
-Configure
+IsEnabled
 (
 failureId
 )
