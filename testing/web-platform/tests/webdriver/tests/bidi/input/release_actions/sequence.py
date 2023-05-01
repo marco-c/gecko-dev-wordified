@@ -231,13 +231,13 @@ all_events
 await
 get_events
 (
+bidi_session
 top_context
 [
 "
 context
 "
 ]
-bidi_session
 )
     
 (
@@ -470,13 +470,13 @@ events
 await
 get_events
 (
+bidi_session
 top_context
 [
 "
 context
 "
 ]
-bidi_session
 )
     
 expected
