@@ -91,9 +91,9 @@ def
 gen_wrappers
 (
 unused
+template_file
 outdir
 compiler
-template_file
 *
 header_list
 )
