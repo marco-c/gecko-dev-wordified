@@ -810,7 +810,7 @@ false
 if
 (
 numFailures_
->
+=
 =
 maxFailures
 (

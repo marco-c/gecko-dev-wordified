@@ -36668,11 +36668,6 @@ Register
 outKind
 )
 ;
-template
-<
-typename
-IdType
->
 #
 ifdef
 JS_CODEGEN_X86
@@ -36687,7 +36682,7 @@ yaml
 void
 emitMegamorphicCachedSetSlot
 (
-IdType
+ValueOperand
 id
 Register
 obj
@@ -36718,7 +36713,7 @@ else
 void
 emitMegamorphicCachedSetSlot
 (
-IdType
+ValueOperand
 id
 Register
 obj

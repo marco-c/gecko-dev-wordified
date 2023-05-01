@@ -672,6 +672,20 @@ writeStringField
 )
     
 "
+PropertyNameField
+"
+:
+(
+"
+PropertyName
+*
+"
+"
+writeStringField
+"
+)
+    
+"
 SymbolField
 "
 :
@@ -1835,6 +1849,26 @@ stubOffset
 )
     
 "
+PropertyNameField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
 SymbolField
 "
 :
@@ -2834,6 +2868,14 @@ spewField
     
 "
 AtomField
+"
+:
+"
+spewField
+"
+    
+"
+PropertyNameField
 "
 :
 "
@@ -3904,6 +3946,12 @@ StringField
     
 "
 AtomField
+"
+:
+1
+    
+"
+PropertyNameField
 "
 :
 1
