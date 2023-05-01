@@ -1286,12 +1286,12 @@ fixture
 def
 modifier_key
 (
-session
+current_session
 )
 :
     
 if
-session
+current_session
 .
 capabilities
 [
