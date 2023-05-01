@@ -12115,7 +12115,6 @@ cx
 XDRStencilEncoder
 encoder
 (
-cx
 &
 fc
 buffer

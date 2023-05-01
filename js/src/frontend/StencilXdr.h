@@ -1025,9 +1025,6 @@ public
 :
 XDRStencilDecoder
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1042,7 +1039,6 @@ range
 :
 Base
 (
-cx
 fc
 range
 )
@@ -1140,9 +1136,6 @@ public
 :
 XDRStencilEncoder
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1156,7 +1149,6 @@ buffer
 :
 Base
 (
-cx
 fc
 buffer
 buffer
