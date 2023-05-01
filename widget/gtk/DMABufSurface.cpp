@@ -1232,7 +1232,7 @@ i
 ]
 )
 {
-nsGbmLib
+GbmLib
 :
 :
 Destroy
@@ -2193,7 +2193,7 @@ mDmabufFds
 0
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetFd
@@ -2216,7 +2216,7 @@ GetDMABufDevice
 >
 GetDmabufFD
 (
-nsGbmLib
+GbmLib
 :
 :
 GetHandleForPlane
@@ -2491,7 +2491,7 @@ mGbmBufferObject
 0
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 CreateWithModifiers
@@ -2533,7 +2533,7 @@ mBufferModifiers
 0
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetModifier
@@ -2577,7 +2577,7 @@ mGbmBufferObject
 0
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 Create
@@ -2647,7 +2647,7 @@ DRM_FORMAT_MOD_INVALID
 {
 mBufferPlaneCount
 =
-nsGbmLib
+GbmLib
 :
 :
 GetPlaneCount
@@ -2710,7 +2710,7 @@ mStrides
 i
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetStrideForPlane
@@ -2727,7 +2727,7 @@ mOffsets
 i
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetOffset
@@ -2752,7 +2752,7 @@ mStrides
 0
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetStride
@@ -5016,7 +5016,7 @@ mMappedRegion
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 Map
@@ -5310,7 +5310,7 @@ aPlane
 )
 ;
 }
-nsGbmLib
+GbmLib
 :
 :
 Unmap
@@ -6264,7 +6264,7 @@ mDmabufFds
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetFd
@@ -7021,7 +7021,7 @@ mGbmBufferObject
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 CreateWithModifiers
@@ -7078,7 +7078,7 @@ mGbmBufferObject
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 Create
@@ -7151,7 +7151,7 @@ mStrides
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetStride
@@ -7167,7 +7167,7 @@ mOffsets
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetOffset
@@ -7557,7 +7557,7 @@ mGbmBufferObject
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 Create
@@ -7613,7 +7613,7 @@ mStrides
 aPlane
 ]
 =
-nsGbmLib
+GbmLib
 :
 :
 GetStride

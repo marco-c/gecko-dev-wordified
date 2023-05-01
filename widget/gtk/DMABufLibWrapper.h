@@ -489,7 +489,7 @@ gbm_surface
 )
 ;
 class
-nsGbmLib
+GbmLib
 {
 public
 :
@@ -1162,16 +1162,16 @@ mModifiersCount
 }
 ;
 class
-nsDMABufDevice
+DMABufDevice
 {
 public
 :
-nsDMABufDevice
+DMABufDevice
 (
 )
 ;
 ~
-nsDMABufDevice
+DMABufDevice
 (
 )
 ;
@@ -1301,7 +1301,7 @@ mDrmRenderNode
 ;
 }
 ;
-nsDMABufDevice
+DMABufDevice
 *
 GetDMABufDevice
 (

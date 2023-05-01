@@ -717,7 +717,7 @@ EGL
 widget
 :
 :
-nsDMABufDevice
+DMABufDevice
 :
 :
 IsDMABufWebGLEnabled
