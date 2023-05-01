@@ -6131,7 +6131,7 @@ exist
 HANDLE
 hMap
 =
-CreateFileMapping
+CreateFileMappingW
 (
 hFile
 nullptr
