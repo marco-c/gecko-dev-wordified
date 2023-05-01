@@ -377,7 +377,11 @@ eq
 ref
 .
 cast
+(
+ref
+null
 struct
+)
 (
 extern
 .
@@ -446,7 +450,11 @@ eq
 ref
 .
 cast
+(
+ref
+null
 array
+)
 (
 extern
 .

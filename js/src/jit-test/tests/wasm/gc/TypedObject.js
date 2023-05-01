@@ -806,7 +806,10 @@ get
 ref
 .
 test
+(
+ref
 q
+)
 )
 (
 func
@@ -826,7 +829,10 @@ get
 ref
 .
 test
+(
+ref
 p
+)
 )
 (
 func
