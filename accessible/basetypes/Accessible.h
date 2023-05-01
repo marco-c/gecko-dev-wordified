@@ -145,6 +145,9 @@ h
 class
 nsAtom
 ;
+class
+nsStaticAtom
+;
 struct
 nsRoleMapEntry
 ;
@@ -1968,7 +1971,7 @@ applied
 *
 /
 virtual
-nsAtom
+nsStaticAtom
 *
 LandmarkRole
 (
