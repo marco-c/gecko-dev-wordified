@@ -1011,7 +1011,7 @@ DUPLEX
 &
 &
 !
-has_available_input_device
+can_run_audio_input_test
 (
 ctx
 )
@@ -1036,6 +1036,15 @@ not
 *
 have
 one
+or
+if
+the
+backend
+doesn
+'
+t
+implement
+input
 .
 *
 /
