@@ -83,7 +83,7 @@ manifest
 let
 url
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 resources
@@ -201,7 +201,7 @@ manifest
 ;
 url
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 resources
@@ -287,7 +287,7 @@ load
 ;
 url
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 resources

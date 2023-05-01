@@ -56,7 +56,7 @@ involved
 const
 TESTCASE_URI
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 doc_sourcemaps2

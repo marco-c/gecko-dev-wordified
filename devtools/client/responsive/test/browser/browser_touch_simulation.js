@@ -43,7 +43,7 @@ const
 TEST_URL
 =
 {
-URL_ROOT_SSL
+URL_ROOT
 }
 touch
 .
