@@ -159,6 +159,17 @@ include
 "
 mozilla
 /
+glean
+/
+GleanMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

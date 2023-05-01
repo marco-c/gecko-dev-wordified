@@ -1653,6 +1653,3 @@ Toolkit
 Telemetry
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
