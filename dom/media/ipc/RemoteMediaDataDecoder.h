@@ -204,6 +204,7 @@ threads
 .
 class
 RemoteMediaDataDecoder
+final
 :
 public
 MediaDataDecoder
@@ -215,6 +216,12 @@ RemoteMediaDataDecoder
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+RemoteMediaDataDecoder
+final
+)
+;
 explicit
 RemoteMediaDataDecoder
 (
