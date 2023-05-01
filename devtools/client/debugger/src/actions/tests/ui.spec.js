@@ -536,7 +536,7 @@ getState
 .
 toEqual
 (
-undefined
+null
 )
 ;
 }
