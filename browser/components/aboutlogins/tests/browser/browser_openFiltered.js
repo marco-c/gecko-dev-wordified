@@ -65,12 +65,11 @@ addLogin
 ;
 TEST_LOGIN1
 =
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 TEST_LOGIN1
 )
@@ -107,12 +106,11 @@ addLogin
 ;
 TEST_LOGIN2
 =
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 TEST_LOGIN2
 )
