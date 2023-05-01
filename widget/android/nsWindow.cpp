@@ -12231,7 +12231,7 @@ pdfErrorMsg
 stream
 -
 >
-SendError
+WriteError
 (
 )
 ;
