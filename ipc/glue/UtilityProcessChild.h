@@ -200,6 +200,15 @@ JSOracleChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerMarkers
+.
+h
+"
 namespace
 mozilla
 :
@@ -595,6 +604,9 @@ UtilityProcessChild
 ;
 private
 :
+TimeStamp
+mChildStartTime
+;
 RefPtr
 <
 ChildProfilerController

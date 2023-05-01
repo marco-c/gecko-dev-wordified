@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+ProfilerMarkers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -329,6 +338,9 @@ UtilityAudioDecoderParent
 const
 SandboxingKind
 mKind
+;
+TimeStamp
+mAudioDecoderParentStart
 ;
 }
 ;

@@ -342,6 +342,15 @@ mSandbox
 (
 aKind
 )
+mAudioDecoderChildStart
+(
+TimeStamp
+:
+:
+Now
+(
+)
+)
 {
 MOZ_ASSERT
 (
