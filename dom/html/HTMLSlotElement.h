@@ -189,7 +189,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 HTMLSlotElement
 nsGenericHTMLElement
 )
-virtual
 nsresult
 Clone
 (
@@ -209,7 +208,6 @@ override
 /
 /
 nsIContent
-virtual
 nsresult
 BindToTree
 (
@@ -221,7 +219,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -230,7 +227,6 @@ aNullParent
 )
 override
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -240,7 +236,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -248,7 +244,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (

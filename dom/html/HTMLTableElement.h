@@ -1000,7 +1000,6 @@ aError
 )
 ;
 }
-virtual
 bool
 ParseAttribute
 (
@@ -1022,7 +1021,6 @@ aResult
 )
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -1044,7 +1042,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -1061,7 +1058,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -1073,7 +1069,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -1099,7 +1094,6 @@ be
 changed
 *
 /
-virtual
 void
 BeforeSetAttr
 (
@@ -1109,7 +1103,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -1131,7 +1125,6 @@ been
 changed
 *
 /
-virtual
 void
 AfterSetAttr
 (
@@ -1175,14 +1168,12 @@ HTMLTableElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :

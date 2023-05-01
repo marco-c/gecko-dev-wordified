@@ -252,7 +252,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -263,7 +262,6 @@ true
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -299,7 +297,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -591,14 +588,12 @@ MathMLElement
 =
 default
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -620,7 +615,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -628,7 +623,6 @@ aNotify
 )
 final
 ;
-virtual
 void
 AfterSetAttr
 (

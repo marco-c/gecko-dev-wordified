@@ -210,7 +210,6 @@ nsGenericHTMLFormControlElementWithState
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 int32_t
 TabIndexDefault
 (
@@ -225,7 +224,6 @@ button
 /
 /
 Element
-virtual
 bool
 IsInteractiveHTMLContent
 (
@@ -275,7 +273,6 @@ aFormData
 )
 override
 ;
-virtual
 void
 FieldSetDisabledChanged
 (
@@ -297,7 +294,6 @@ aVisitor
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsresult
 PostHandleEvent
 (
@@ -310,7 +306,6 @@ override
 /
 /
 nsINode
-virtual
 nsresult
 Clone
 (
@@ -327,14 +322,12 @@ aResult
 const
 override
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -350,7 +343,6 @@ override
 /
 /
 nsIContent
-virtual
 nsresult
 BindToTree
 (
@@ -362,7 +354,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -373,7 +364,6 @@ true
 )
 override
 ;
-virtual
 void
 DoneCreatingElement
 (
@@ -410,7 +400,6 @@ be
 changed
 *
 /
-virtual
 void
 BeforeSetAttr
 (
@@ -420,7 +409,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -442,7 +431,6 @@ been
 changed
 *
 /
-virtual
 void
 AfterSetAttr
 (
@@ -467,7 +455,6 @@ aNotify
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -492,7 +479,6 @@ override
 /
 /
 nsGenericHTMLElement
-virtual
 bool
 IsHTMLFocusable
 (
@@ -507,7 +493,6 @@ aTabIndex
 )
 override
 ;
-virtual
 bool
 IsDisabledForEvents
 (

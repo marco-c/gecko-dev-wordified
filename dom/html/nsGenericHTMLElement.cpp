@@ -590,13 +590,6 @@ h
 #
 include
 "
-nsAttrValueOrString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 InternalMutationEvent
@@ -4366,7 +4359,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -4458,7 +4451,7 @@ aValue
 aValue
 -
 >
-IsEmpty
+IsEmptyString
 (
 )
 )
@@ -12782,7 +12775,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool

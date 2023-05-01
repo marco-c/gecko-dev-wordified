@@ -474,7 +474,6 @@ aError
 )
 ;
 }
-virtual
 bool
 IsEventAttributeNameInternal
 (
@@ -762,7 +761,6 @@ nsFramesetSpec
 aSpecs
 )
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -784,7 +782,6 @@ aResult
 )
 override
 ;
-virtual
 nsChangeHint
 GetAttributeChangeHint
 (
@@ -798,7 +795,6 @@ aModType
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -823,14 +819,12 @@ HTMLFrameSetElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -843,7 +837,6 @@ aGivenProto
 )
 override
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -853,7 +846,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -867,7 +860,7 @@ nsresult
 ParseRowCol
 (
 const
-nsAString
+nsAttrValue
 &
 aValue
 int32_t

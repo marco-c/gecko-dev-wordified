@@ -2575,7 +2575,6 @@ UpdateFormOwner
 (
 )
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -2585,7 +2584,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -2593,7 +2592,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
@@ -2618,7 +2616,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 OnAttrSetButNotChanged
 (

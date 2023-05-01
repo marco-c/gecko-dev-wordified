@@ -457,7 +457,6 @@ aRadio
 )
 override
 ;
-virtual
 uint32_t
 GetRequiredRadioCount
 (
@@ -469,7 +468,6 @@ aName
 const
 override
 ;
-virtual
 void
 RadioRequiredWillChange
 (
@@ -482,7 +480,6 @@ aRequiredAdded
 )
 override
 ;
-virtual
 bool
 GetValueMissingState
 (
@@ -494,7 +491,6 @@ aName
 const
 override
 ;
-virtual
 void
 SetValueMissingState
 (
@@ -507,7 +503,6 @@ aValue
 )
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -518,7 +513,6 @@ override
 /
 /
 EventTarget
-virtual
 void
 AsyncEventRunning
 (
@@ -531,7 +525,6 @@ override
 /
 /
 nsIContent
-virtual
 bool
 ParseAttribute
 (
@@ -571,7 +564,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsresult
 PostHandleEvent
 (
@@ -581,7 +573,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -593,7 +584,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -604,7 +594,6 @@ true
 )
 override
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -614,7 +603,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -654,7 +643,6 @@ ForgetCurrentSubmission
 (
 )
 ;
-virtual
 nsresult
 Clone
 (
@@ -2611,14 +2599,12 @@ mExpandoAndGeneration
 ;
 protected
 :
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :

@@ -515,7 +515,6 @@ bool
 aForceInDataDoc
 )
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -611,7 +610,6 @@ bool
 aForceInDataDoc
 )
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -621,7 +619,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
