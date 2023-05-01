@@ -859,16 +859,11 @@ aDir
 ;
 #
 endif
-#
-ifdef
-MOZ_WAYLAND
 bool
 IsWaylandEnabled
 (
 )
 ;
-#
-endif
 #
 endif
 /
