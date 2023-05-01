@@ -230,7 +230,7 @@ Button
 role
 :
 "
-pushbutton
+button
 "
 }
 )
@@ -298,7 +298,7 @@ ancestry
 children
 .
 length
-4
+7
 "
 Root
 doc
@@ -479,7 +479,7 @@ is
 docChildren
 .
 length
-4
+7
 "
 Root
 doc
@@ -596,7 +596,7 @@ is
 docChildren
 .
 length
-5
+8
 "
 Root
 doc
