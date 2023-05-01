@@ -146,7 +146,7 @@ BUNDLETOOL_VERSION
 .
 14
 .
-0
+1
 "
 #
 We
@@ -326,12 +326,12 @@ JAVA_VERSION_MINOR
 "
 0
 .
-6
+7
 "
 JAVA_VERSION_PATCH
 =
 "
-10
+7
 "
 ANDROID_NDK_EXISTS
 =
@@ -5775,9 +5775,9 @@ jdk
 .
 0
 .
-6
+7
 %
-2B10
+2B7
 /
 OpenJDK17U
 -
@@ -5785,7 +5785,7 @@ jre_x64_linux_hotspot_17
 .
 0
 .
-6_10
+7_7
 .
 tar
 .
@@ -5931,9 +5931,9 @@ jdk
 .
 0
 .
-6
+7
 +
-10
+7
     
 jdk_folder
 =
