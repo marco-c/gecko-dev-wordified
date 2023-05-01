@@ -662,6 +662,9 @@ enterLeave
 doc
 )
 ;
+#
+ifdef
+DEBUG
 const
 bool
 wasConnected
@@ -673,6 +676,8 @@ IsInComposedDoc
 (
 )
 ;
+#
+endif
 if
 constexpr
 (
@@ -687,7 +692,12 @@ Before
 {
 if
 (
-wasConnected
+aNode
+-
+>
+IsInComposedDoc
+(
+)
 )
 {
 NOTIFY_PRESSHELL
