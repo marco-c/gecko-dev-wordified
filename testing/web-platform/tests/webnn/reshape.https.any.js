@@ -82,7 +82,9 @@ MLOperand
 input
 sequence
 <
+unsigned
 long
+?
 >
 newShape
 )

@@ -83,6 +83,7 @@ sequence
 MLOperand
 >
 inputs
+unsigned
 long
 axis
 )
