@@ -613,7 +613,7 @@ resume
 )
 ;
 void
-resume
+resumeOnFinish
 (
 const
 AutoLockGC
