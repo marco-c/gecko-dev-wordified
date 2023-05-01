@@ -246,8 +246,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 places
 {
 struct
@@ -344,11 +344,13 @@ that
 #
 define
 RECENTLY_VISITED_URIS_MAX_AGE
+(
 6
 *
 60
 *
 PR_USEC_PER_SEC
+)
 /
 /
 When
@@ -493,7 +495,7 @@ aVisitData
 *
 *
 param
-aVisitData
+aPlace
 *
 The
 visit
@@ -515,7 +517,7 @@ InsertPlace
 (
 VisitData
 &
-aVisitData
+aPlace
 )
 ;
 /
@@ -536,7 +538,7 @@ aVisitData
 *
 *
 param
-aVisitData
+aPlace
 *
 The
 visit
@@ -559,7 +561,7 @@ UpdatePlace
 const
 VisitData
 &
-aVisitData
+aPlace
 )
 ;
 /
@@ -1230,12 +1232,10 @@ mRecentlyVisitedURIs
 /
 /
 namespace
-places
-}
-/
-/
-namespace
 mozilla
+:
+:
+places
 #
 endif
 /
