@@ -559,8 +559,8 @@ await
 Promise
 .
 all
-[
 (
+[
 BrowserTestUtils
 .
 closeWindow
@@ -573,8 +573,8 @@ closeWindow
 (
 pbWindow
 )
-)
 ]
+)
 ;
 Services
 .
