@@ -310,6 +310,14 @@ aOrigin
 )
 override
 ;
+void
+OnRepositoryClearCompleted
+(
+PersistenceType
+aPersistenceType
+)
+override
+;
 virtual
 void
 ReleaseIOThreadObjects

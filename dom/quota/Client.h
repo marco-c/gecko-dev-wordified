@@ -789,6 +789,16 @@ aOrigin
 ;
 virtual
 void
+OnRepositoryClearCompleted
+(
+PersistenceType
+aPersistenceType
+)
+=
+0
+;
+virtual
+void
 ReleaseIOThreadObjects
 (
 )

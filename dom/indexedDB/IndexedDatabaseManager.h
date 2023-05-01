@@ -478,6 +478,13 @@ InvalidateFileManagers
 (
 PersistenceType
 aPersistenceType
+)
+;
+void
+InvalidateFileManagers
+(
+PersistenceType
+aPersistenceType
 const
 nsACString
 &
