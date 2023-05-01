@@ -817,9 +817,6 @@ ref
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 js_delete
 (
 jitHintsMap_
@@ -829,8 +826,6 @@ ref
 )
 )
 ;
-#
-endif
 }
 uint32_t
 JitRuntime
@@ -977,9 +972,6 @@ return
 false
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 !
@@ -1011,8 +1003,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 JitOptions
