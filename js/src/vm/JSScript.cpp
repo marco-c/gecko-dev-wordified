@@ -9860,9 +9860,9 @@ ScriptSource
 :
 initializeWithUnretrievableCompressedSource
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 UniqueChars
 &
 &
@@ -9938,7 +9938,7 @@ deduped
 {
 ReportOutOfMemory
 (
-cx
+fc
 )
 ;
 return
@@ -10040,9 +10040,9 @@ initializeWithUnretrievableCompressedSource
 Utf8Unit
 >
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 UniqueChars
 &
 &
@@ -10063,9 +10063,9 @@ initializeWithUnretrievableCompressedSource
 char16_t
 >
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 UniqueChars
 &
 &

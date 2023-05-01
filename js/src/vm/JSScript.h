@@ -6101,9 +6101,9 @@ nodiscard
 bool
 initializeWithUnretrievableCompressedSource
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 UniqueChars
 &
 &
