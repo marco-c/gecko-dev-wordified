@@ -188,9 +188,6 @@ configure
 ]
         
 +
-extra_args
-        
-+
 [
 "
 -
@@ -210,6 +207,9 @@ devnull
 }
 "
 ]
+        
++
+extra_args
         
 logger
 =
