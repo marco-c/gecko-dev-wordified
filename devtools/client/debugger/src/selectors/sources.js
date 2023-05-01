@@ -1885,10 +1885,12 @@ state
 .
 sources
 .
-originalSources
-[
+mutableOriginalSources
+.
+get
+(
 sourceId
-]
+)
 ;
 if
 (
