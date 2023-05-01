@@ -560,6 +560,8 @@ Color
 ColorFunction
 ColorParser
 FromParsedColor
+Hsl
+Hwb
 Lab
 Lch
 NumberOrPercentage
