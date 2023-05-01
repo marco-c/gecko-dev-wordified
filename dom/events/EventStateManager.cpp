@@ -24717,6 +24717,15 @@ false
 ;
 if
 (
+StaticPrefs
+:
+:
+dom_event_wheel_event_groups_enabled
+(
+)
+&
+&
+(
 wheelEvent
 -
 >
@@ -24737,6 +24746,7 @@ mDeltaY
 0
 .
 0
+)
 )
 {
 if
