@@ -137,7 +137,7 @@ state
 .
 sourcesContent
 .
-mutableOriginalSourceTextContentMap
+mutableOriginalSourceTextContentMapBySourceId
 .
 get
 (
@@ -172,7 +172,7 @@ state
 .
 sourcesContent
 .
-mutableGeneratedSourceTextContentMap
+mutableGeneratedSourceTextContentMapBySourceActorId
 .
 get
 (
