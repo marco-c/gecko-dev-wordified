@@ -310,6 +310,7 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
+mAs
 mScriptReferrerPolicy
 false
 mIsAsync
@@ -334,6 +335,7 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
+mAs
 mScriptReferrerPolicy
 true
 mIsAsync
@@ -358,6 +360,7 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
+mAs
 mScriptReferrerPolicy
 false
 mIsAsync
@@ -382,6 +385,7 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
+mAs
 mScriptReferrerPolicy
 true
 mIsAsync
