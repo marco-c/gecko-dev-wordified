@@ -814,6 +814,13 @@ component
 internal
 state
 .
+const
+oldRoots
+=
+this
+.
+roots
+;
 this
 .
 roots
@@ -856,6 +863,7 @@ rootsChanged
 this
 .
 roots
+oldRoots
 )
 ;
 }
