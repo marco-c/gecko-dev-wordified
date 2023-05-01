@@ -5981,6 +5981,11 @@ bool
 collectedAnything
 )
 ;
+bool
+isLastCCCollectedAnything
+(
+)
+;
 uint32_t
 GetCurrentTimerNestingLevel
 (
