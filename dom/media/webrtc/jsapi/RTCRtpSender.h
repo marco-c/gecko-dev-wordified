@@ -894,15 +894,6 @@ GetJsepTransceiver
 (
 )
 ;
-void
-SetJsepRids
-(
-const
-RTCRtpSendParameters
-&
-aParameters
-)
-;
 static
 void
 ApplyJsEncodingToConduitEncoding
@@ -1020,6 +1011,11 @@ dom
 MediaStreamTrack
 >
 mSenderTrack
+;
+bool
+mAddTrackCalled
+=
+false
 ;
 RTCRtpSendParameters
 mParameters
