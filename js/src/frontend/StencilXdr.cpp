@@ -9772,9 +9772,6 @@ MOZ_ASSERT
 (
 validateResultCode
 (
-cx
-(
-)
 fc
 (
 )
@@ -10063,9 +10060,6 @@ MOZ_ASSERT
 (
 validateResultCode
 (
-cx
-(
-)
 fc
 (
 )
