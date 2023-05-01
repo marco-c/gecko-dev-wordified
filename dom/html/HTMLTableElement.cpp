@@ -6781,7 +6781,7 @@ aNullParent
 )
 ;
 }
-nsresult
+void
 HTMLTableElement
 :
 :

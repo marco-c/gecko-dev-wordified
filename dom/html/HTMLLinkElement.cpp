@@ -1262,7 +1262,7 @@ PostDOMEvent
 )
 ;
 }
-nsresult
+void
 HTMLLinkElement
 :
 :

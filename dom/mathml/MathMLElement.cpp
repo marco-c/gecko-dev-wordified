@@ -5173,7 +5173,7 @@ EventNameType_HTML
 )
 ;
 }
-nsresult
+void
 MathMLElement
 :
 :

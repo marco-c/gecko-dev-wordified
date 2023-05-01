@@ -1104,7 +1104,7 @@ GetHrefURIForAnchors
 )
 ;
 }
-nsresult
+void
 HTMLAnchorElement
 :
 :

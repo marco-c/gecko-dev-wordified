@@ -1083,7 +1083,7 @@ return
 mControls
 ;
 }
-nsresult
+void
 HTMLFormElement
 :
 :

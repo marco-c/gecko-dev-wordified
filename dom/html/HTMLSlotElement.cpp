@@ -548,7 +548,7 @@ this
 ;
 }
 }
-nsresult
+void
 HTMLSlotElement
 :
 :

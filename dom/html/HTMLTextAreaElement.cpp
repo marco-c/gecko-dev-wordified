@@ -4551,7 +4551,7 @@ false
 )
 ;
 }
-nsresult
+void
 HTMLTextAreaElement
 :
 :

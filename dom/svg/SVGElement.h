@@ -2315,7 +2315,7 @@ SVGElement
 :
 WillChangeValue
 .
-nsresult
+void
 BeforeSetAttr
 (
 int32_t

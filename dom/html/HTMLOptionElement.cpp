@@ -847,7 +847,7 @@ return
 retval
 ;
 }
-nsresult
+void
 HTMLOptionElement
 :
 :
@@ -866,9 +866,6 @@ bool
 aNotify
 )
 {
-nsresult
-rv
-=
 nsGenericHTMLElement
 :
 :
@@ -878,12 +875,6 @@ aNamespaceID
 aName
 aValue
 aNotify
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -907,7 +898,6 @@ mSelectedChanged
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -984,7 +974,6 @@ mIsSelected
 aValue
 ;
 return
-NS_OK
 ;
 }
 NS_ASSERTION
@@ -1179,9 +1168,6 @@ correctly
 mSelectedChanged
 =
 false
-;
-return
-NS_OK
 ;
 }
 nsresult

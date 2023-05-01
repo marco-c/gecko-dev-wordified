@@ -4354,7 +4354,7 @@ forget
 )
 ;
 }
-nsresult
+void
 nsGenericHTMLElement
 :
 :
@@ -12770,7 +12770,7 @@ false
 )
 ;
 }
-nsresult
+void
 nsGenericHTMLFormElement
 :
 :

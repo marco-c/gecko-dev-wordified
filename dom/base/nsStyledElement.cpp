@@ -484,7 +484,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 nsStyledElement
 :
 :

@@ -6698,7 +6698,7 @@ false
 )
 ;
 }
-nsresult
+void
 HTMLSelectElement
 :
 :
