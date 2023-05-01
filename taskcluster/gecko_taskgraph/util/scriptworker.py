@@ -3000,7 +3000,15 @@ path
 join
 (
                     
+file_config
+.
+get
+(
+"
+prefix
+"
 base_artifact_prefix
+)
                     
 jsone
 .
@@ -4183,7 +4191,15 @@ path
 join
 (
                 
+file_config
+.
+get
+(
+"
+prefix
+"
 base_artifact_prefix
+)
                 
 file_config
 [
@@ -5282,7 +5298,15 @@ path
 join
 (
                 
+file_config
+.
+get
+(
+"
+prefix
+"
 base_artifact_prefix
+)
                 
 file_config
 [
