@@ -5931,16 +5931,6 @@ FromMilliseconds
 chaosWaitInMs
 )
 ;
-MOZ_ASSERT
-(
-!
-waitFor
-.
-IsZero
-(
-)
-)
-;
 }
 mIntendedWakeupTime
 =
