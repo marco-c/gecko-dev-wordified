@@ -422,6 +422,7 @@ handlePlacesEvent
 )
 ;
 }
+async
 handlePlacesEvent
 (
 aEvents
@@ -516,7 +517,8 @@ this
 expectedTitle
 )
 ;
-do_check_guid_for_uri
+await
+check_guid_for_uri
 (
 this
 .
@@ -5352,7 +5354,8 @@ place
 guid
 )
 ;
-do_check_guid_for_uri
+await
+check_guid_for_uri
 (
 uri
 place
@@ -5898,7 +5901,8 @@ error
 )
 ;
 }
-do_check_guid_for_uri
+await
+check_guid_for_uri
 (
 place
 .

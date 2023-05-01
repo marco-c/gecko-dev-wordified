@@ -157,7 +157,8 @@ referrer
 }
 )
 ;
-do_check_guid_for_uri
+await
+check_guid_for_uri
 (
 uri1
 )
@@ -215,7 +216,8 @@ referrer
 }
 )
 ;
-do_check_guid_for_uri
+await
+check_guid_for_uri
 (
 uri2
 )
@@ -275,7 +277,8 @@ referrer
 }
 )
 ;
-do_check_guid_for_uri
+await
+check_guid_for_uri
 (
 uri3
 )
