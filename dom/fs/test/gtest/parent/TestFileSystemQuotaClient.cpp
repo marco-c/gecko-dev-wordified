@@ -839,7 +839,6 @@ aDatabaseManager
 GetOrCreateFile
 (
 aFileSlot
-sContentType
 /
 *
 create
@@ -885,7 +884,6 @@ aDatabaseManager
 GetOrCreateFile
 (
 aFileSlot
-sContentType
 /
 *
 create
@@ -917,7 +915,7 @@ nsCString
 aData
 )
 {
-ContentType
+nsString
 type
 ;
 TimeStamp
@@ -1382,17 +1380,7 @@ expected
 )
 ;
 }
-static
-ContentType
-sContentType
-;
 }
-;
-ContentType
-TestFileSystemQuotaClient
-:
-:
-sContentType
 ;
 TEST_F
 (
