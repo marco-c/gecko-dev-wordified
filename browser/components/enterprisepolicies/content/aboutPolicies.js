@@ -87,9 +87,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -107,7 +107,9 @@ policies
 /
 schema
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

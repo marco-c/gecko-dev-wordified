@@ -595,7 +595,9 @@ enabled
 in
 Schema
 .
-jsm
+sys
+.
+mjs
 that
 fail
 if
