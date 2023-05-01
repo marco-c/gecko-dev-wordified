@@ -2041,9 +2041,6 @@ mightHaveEagerBaselineHint
 =
 false
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 !
@@ -2124,8 +2121,6 @@ true
 ;
 }
 }
-#
-endif
 /
 /
 Check

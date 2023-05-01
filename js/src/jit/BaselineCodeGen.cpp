@@ -1476,9 +1476,6 @@ Method_Error
 ;
 }
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 !
@@ -1517,8 +1514,6 @@ script
 )
 ;
 }
-#
-endif
 /
 /
 Suppress
