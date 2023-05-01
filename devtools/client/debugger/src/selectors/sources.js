@@ -1419,10 +1419,12 @@ state
 .
 sources
 .
-breakableLines
-[
+mutableOriginalBreakableLines
+.
+get
+(
 sourceId
-]
+)
 ;
 }
 const
