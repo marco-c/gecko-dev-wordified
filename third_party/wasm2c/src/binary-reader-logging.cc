@@ -4232,7 +4232,7 @@ OnInitFunction
 uint32_t
 priority
 Index
-func_index
+symbol_index
 )
 {
 LOGF
@@ -4250,7 +4250,7 @@ d
 \
 n
 "
-func_index
+symbol_index
 priority
 )
 ;
@@ -4261,7 +4261,7 @@ reader_
 OnInitFunction
 (
 priority
-func_index
+symbol_index
 )
 ;
 }

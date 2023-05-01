@@ -1386,6 +1386,10 @@ os_cleanup_signal_handler
 (
 )
 ;
+g_signal_handler_installed
+=
+false
+;
 #
 endif
 }

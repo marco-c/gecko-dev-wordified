@@ -2916,7 +2916,7 @@ OnInitFunction
 uint32_t
 priority
 Index
-function_index
+symbol_index
 )
 =
 0

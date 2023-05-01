@@ -13904,7 +13904,7 @@ uint32_t
 priority
 ;
 uint32_t
-func
+symbol
 ;
 CHECK_RESULT
 (
@@ -13923,9 +13923,9 @@ CHECK_RESULT
 ReadU32Leb128
 (
 &
-func
+symbol
 "
-function
+symbol
 index
 "
 )
@@ -13935,7 +13935,7 @@ CALLBACK
 (
 OnInitFunction
 priority
-func
+symbol
 )
 ;
 }
