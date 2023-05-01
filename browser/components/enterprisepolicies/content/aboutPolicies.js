@@ -1882,6 +1882,11 @@ WindowsSSO
 "
 Windows10SSO
 "
+SecurityDevices
+:
+"
+SecurityDevices2
+"
 }
 ;
 for
