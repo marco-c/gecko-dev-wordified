@@ -144,15 +144,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 LoadURIDelegate
 :
 "
@@ -166,7 +157,9 @@ modules
 /
 LoadURIDelegate
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
