@@ -4563,7 +4563,11 @@ callback
 )
 ;
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrUAWidget
+"
 ]
 readonly
 attribute
