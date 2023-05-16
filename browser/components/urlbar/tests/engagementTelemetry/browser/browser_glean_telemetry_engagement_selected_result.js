@@ -3007,8 +3007,9 @@ browser
 await
 openPopup
 (
-"
-"
+MerinoTestUtils
+.
+WEATHER_KEYWORD
 )
 ;
 await
@@ -3045,6 +3046,7 @@ Weather
 results
 :
 "
+search_engine
 weather
 "
 }
