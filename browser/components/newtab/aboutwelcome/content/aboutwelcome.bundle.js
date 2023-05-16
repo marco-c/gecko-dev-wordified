@@ -8986,6 +8986,10 @@ title_style
 "
 }
 }
+content
+.
+title
+?
 /
 *
 #
@@ -9032,6 +9036,12 @@ mainContentHeader
 }
 )
 )
+:
+null
+content
+.
+subtitle
+?
 /
 *
 #
@@ -9188,6 +9198,8 @@ steps
 }
 )
 )
+:
+null
 content
 .
 cta_paragraph
