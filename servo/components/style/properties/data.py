@@ -3042,10 +3042,6 @@ AspectRatio
 "
                 
 "
-BaselineSource
-"
-                
-"
 BreakBetween
 "
                 

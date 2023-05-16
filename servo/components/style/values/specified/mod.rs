@@ -543,7 +543,6 @@ TouchAction
 TransitionProperty
 VerticalAlign
 WillChange
-BaselineSource
 }
 ;
 pub
