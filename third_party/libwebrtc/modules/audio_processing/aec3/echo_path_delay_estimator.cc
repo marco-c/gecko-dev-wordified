@@ -679,6 +679,13 @@ matched_filter_
 .
 Reset
 (
+/
+*
+full_reset
+=
+*
+/
+reset_lag_aggregator
 )
 ;
 old_aggregated_lag_
