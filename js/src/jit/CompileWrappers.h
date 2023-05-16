@@ -594,12 +594,6 @@ addressOfBigIntNurseryCurrentEnd
 (
 )
 ;
-uint32_t
-*
-addressOfNurseryAllocCount
-(
-)
-;
 void
 *
 addressOfNurseryAllocatedSites
@@ -616,8 +610,12 @@ canNurseryAllocateBigInts
 (
 )
 ;
-uintptr_t
-nurseryCellHeader
+gc
+:
+:
+AllocSite
+*
+catchAllAllocSite
 (
 JS
 :

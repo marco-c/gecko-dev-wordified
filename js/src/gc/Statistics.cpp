@@ -5392,12 +5392,9 @@ Now
 (
 )
 )
-allocsSinceMinorGC
+tenuredAllocsSinceMinorGC
 (
-{
 0
-0
-}
 )
 preTotalHeapBytes
 (
@@ -8030,12 +8027,9 @@ reason
 )
 ;
 }
-allocsSinceMinorGC
+tenuredAllocsSinceMinorGC
 =
-{
 0
-0
-}
 ;
 }
 Statistics

@@ -1145,10 +1145,6 @@ tenuredBigInts
 (
 0
 )
-nurseryAllocatedStrings
-(
-0
-)
 markedStrings
 (
 0
