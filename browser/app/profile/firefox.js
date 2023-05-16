@@ -19059,6 +19059,9 @@ CH
 AT
 BE
 IN
+FR
+IT
+ES
 "
 )
 ;
@@ -19407,7 +19410,7 @@ onboardingExperience
 .
 enabled
 "
-false
+true
 )
 ;
 /
