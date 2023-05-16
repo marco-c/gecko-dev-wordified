@@ -702,7 +702,9 @@ hud
 "
 globalThis
 .
-location_href
+location
+.
+href
 "
 )
 ;
