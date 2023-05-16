@@ -17922,7 +17922,7 @@ slot
 count
 is
 always
-one
+two
 less
 than
 a
@@ -17939,7 +17939,7 @@ numDynamicSlots
 )
 =
 =
-3
+6
 )
 ;
 static_assert
