@@ -6473,9 +6473,13 @@ Assert
 .
 equal
 (
+!
+!
 actual
 .
 isBestMatch
+!
+!
 expected
 .
 isBestMatch
