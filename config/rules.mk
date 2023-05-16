@@ -3550,6 +3550,11 @@ HOST_BIN_SUFFIX
 )
 -
 o
+-
+-
+disable
+-
+simd
 <
 ifeq
 (
