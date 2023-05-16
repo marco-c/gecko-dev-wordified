@@ -909,9 +909,9 @@ SerializeSpecifiedValue
 nsCSSPropertyID
 aProperty
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
-aRawSet
+aRawData
 nsACString
 &
 aString
@@ -927,7 +927,7 @@ Servo_AnimationValue_Serialize
 (
 mServo
 aProperty
-aRawSet
+aRawData
 &
 aString
 )

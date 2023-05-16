@@ -19164,7 +19164,7 @@ GetChildCount
 }
 }
 const
-RawServoSelectorList
+StyleSelectorList
 *
 nsINode
 :
@@ -19202,7 +19202,7 @@ GetSelectorCache
 (
 )
 ;
-RawServoSelectorList
+StyleSelectorList
 *
 list
 =
@@ -19319,6 +19319,8 @@ seems
 reasonable
 .
 return
+WrapUnique
+(
 Servo_SelectorList_Parse
 (
 &
@@ -19330,9 +19332,6 @@ ChromeRulesEnabled
 (
 )
 )
-.
-Consume
-(
 )
 ;
 }
@@ -19642,7 +19641,7 @@ aSelector
 )
 ;
 const
-RawServoSelectorList
+StyleSelectorList
 *
 list
 =
@@ -19727,7 +19726,7 @@ this
 )
 ;
 const
-RawServoSelectorList
+StyleSelectorList
 *
 list
 =

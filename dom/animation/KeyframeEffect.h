@@ -1985,7 +1985,7 @@ aPropertiesToSkip
 void
 ComposeStyle
 (
-RawServoAnimationValueMap
+StyleAnimationValueMap
 &
 aComposeResult
 const
@@ -3426,7 +3426,7 @@ nsChangeHint
 void
 ComposeStyleRule
 (
-RawServoAnimationValueMap
+StyleAnimationValueMap
 &
 aAnimationValues
 const

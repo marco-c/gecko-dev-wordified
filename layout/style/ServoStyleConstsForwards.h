@@ -261,9 +261,6 @@ atomic
 struct
 RawServoAnimationValueTable
 ;
-struct
-RawServoAnimationValueMap
-;
 class
 nsAtom
 ;
@@ -1019,12 +1016,10 @@ SERVO_BOXED_TYPE
 name_
 type_
 )
-using
+struct
 Style
 #
 #
-type_
-=
 type_
 ;
 #

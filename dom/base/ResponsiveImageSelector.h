@@ -923,7 +923,7 @@ bits
 .
 UniquePtr
 <
-RawServoSourceSizeList
+StyleSourceSizeList
 >
 mServoSourceSizeList
 ;

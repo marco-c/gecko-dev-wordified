@@ -1237,7 +1237,7 @@ mParts
 ;
 }
 const
-RawServoAuthorStyles
+StyleAuthorStyles
 *
 GetServoStyles
 (
@@ -1252,7 +1252,7 @@ get
 )
 ;
 }
-RawServoAuthorStyles
+StyleAuthorStyles
 *
 GetServoStyles
 (
@@ -1787,7 +1787,7 @@ sheets
 .
 UniquePtr
 <
-RawServoAuthorStyles
+StyleAuthorStyles
 >
 mServoStyles
 ;

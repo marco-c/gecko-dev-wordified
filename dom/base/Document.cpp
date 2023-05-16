@@ -9842,13 +9842,12 @@ are
 disabled
 .
 mStyleUseCounters
-=
+.
+reset
+(
 Servo_UseCounters_Create
 (
 )
-.
-Consume
-(
 )
 ;
 SetContentType

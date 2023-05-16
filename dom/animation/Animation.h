@@ -3108,7 +3108,7 @@ aComposeResult
 void
 ComposeStyle
 (
-RawServoAnimationValueMap
+StyleAnimationValueMap
 &
 aComposeResult
 const

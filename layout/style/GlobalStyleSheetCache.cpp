@@ -2339,6 +2339,7 @@ sSharedMemory
 if
 (
 auto
+*
 header
 =
 static_cast
@@ -3094,6 +3095,7 @@ memory
 )
 ;
 auto
+*
 header
 =
 static_cast
@@ -3120,7 +3122,9 @@ ifdef
 DEBUG
 for
 (
+const
 auto
+*
 ptr
 :
 header
@@ -3149,7 +3153,7 @@ zeroed
 endif
 UniquePtr
 <
-RawServoSharedMemoryBuilder
+StyleSharedMemoryBuilder
 >
 builder
 (

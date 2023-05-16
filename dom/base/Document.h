@@ -1188,12 +1188,6 @@ struct
 JSContext
 ;
 struct
-RawServoSelectorList
-;
-struct
-StyleUseCounters
-;
-struct
 nsFont
 ;
 namespace
@@ -1276,6 +1270,12 @@ class
 StyleRuleChangeKind
 :
 uint32_t
+;
+struct
+StyleSelectorList
+;
+struct
+StyleUseCounters
 ;
 template
 <
@@ -9397,7 +9397,7 @@ SelectorList
 =
 UniquePtr
 <
-RawServoSelectorList
+StyleSelectorList
 >
 ;
 using
@@ -9492,7 +9492,7 @@ a
 null
 /
 /
-RawServoSelectorList
+StyleSelectorList
 *
 that
 indicates
@@ -9517,7 +9517,7 @@ template
 typename
 F
 >
-RawServoSelectorList
+StyleSelectorList
 *
 GetListOrInsertFrom
 (

@@ -411,7 +411,7 @@ RuleChanged
 (
 \
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
 const
 RawServo

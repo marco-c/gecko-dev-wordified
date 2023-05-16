@@ -148,7 +148,7 @@ ServoStyleSet
 EvaluateSourceSizeList
 (
 const
-RawServoSourceSizeList
+StyleSourceSizeList
 *
 aSourceSizeList
 )
@@ -157,7 +157,7 @@ const
 return
 Servo_SourceSizeList_Evaluate
 (
-mRawSet
+mRawData
 .
 get
 (

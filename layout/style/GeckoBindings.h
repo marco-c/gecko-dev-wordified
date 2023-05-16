@@ -841,10 +841,8 @@ sheet_contents
 mozilla
 :
 :
-StyleOwnedOrNull
-<
 StyleUseCounters
->
+*
 use_counters
 )
 ;
@@ -1520,7 +1518,10 @@ EffectCompositor
 :
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMap
+mozilla
+:
+:
+StyleAnimationValueMap
 *
 aAnimationValues
 )

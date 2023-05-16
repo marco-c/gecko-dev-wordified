@@ -2713,7 +2713,7 @@ EffectCompositor
 :
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMap
+StyleAnimationValueMap
 *
 aAnimationValues
 )
@@ -2974,7 +2974,7 @@ PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMap
+StyleAnimationValueMap
 *
 aAnimationValues
 )
@@ -3275,7 +3275,7 @@ KeyframeEffect
 aEffect
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMap
+StyleAnimationValueMap
 *
 aAnimationValues
 )
