@@ -601,7 +601,13 @@ void
 audio_buffer
 size_t
 samples_per_channel
+absl
+:
+:
+optional
+<
 int64_t
+>
 capture_timestamp_ns
 )
 ;
@@ -1347,7 +1353,13 @@ rec_delay_ms_
 Capture
 timestamp
 .
+absl
+:
+:
+optional
+<
 int64_t
+>
 capture_timestamp_ns_
 ;
 /
