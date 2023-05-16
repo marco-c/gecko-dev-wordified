@@ -206,11 +206,6 @@ js
 "
 )
 ;
-/
-/
-expand
-threads
-pane
 const
 threadsPaneEl
 =
@@ -228,12 +223,6 @@ header
 -
 label
 "
-)
-;
-threadsPaneEl
-.
-click
-(
 )
 ;
 await
