@@ -47203,7 +47203,6 @@ group
 )
 ;
 }
-return
 BrowsingContext
 :
 :
@@ -47218,6 +47217,11 @@ aInit
 )
 group
 this
+)
+;
+return
+IPC_OK
+(
 )
 ;
 }
