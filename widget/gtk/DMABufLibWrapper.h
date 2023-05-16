@@ -1152,12 +1152,11 @@ mHasAlpha
 int
 mFormat
 ;
+nsTArray
+<
 uint64_t
-*
+>
 mModifiers
-;
-int
-mModifiersCount
 ;
 }
 ;
