@@ -6318,12 +6318,8 @@ allowed_units
 ;
 rhs
 .
-mul_by
+negate
 (
--
-1
-.
-0
 )
 ;
 sum
