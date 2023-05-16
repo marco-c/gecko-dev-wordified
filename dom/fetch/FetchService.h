@@ -877,6 +877,14 @@ OnReportPerformanceTiming
 )
 override
 ;
+void
+OnNotifyNetworkMonitorAlternateStack
+(
+uint64_t
+aChannelID
+)
+override
+;
 private
 :
 ~
