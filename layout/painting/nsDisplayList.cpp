@@ -8466,7 +8466,7 @@ if
 pc
 -
 >
-HadContentfulPaint
+HadFirstContentfulPaint
 (
 )
 &

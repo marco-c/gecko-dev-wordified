@@ -2071,7 +2071,7 @@ mHadNonBlankPaint
 (
 false
 )
-mHadContentfulPaint
+mHadFirstContentfulPaint
 (
 false
 )
@@ -17435,7 +17435,7 @@ NotifyContentfulPaint
 {
 if
 (
-mHadContentfulPaint
+mHadFirstContentfulPaint
 )
 {
 return
@@ -17539,7 +17539,7 @@ true
 return
 ;
 }
-mHadContentfulPaint
+mHadFirstContentfulPaint
 =
 true
 ;
@@ -17834,7 +17834,7 @@ mHadNonBlankPaint
 =
 false
 ;
-mHadContentfulPaint
+mHadFirstContentfulPaint
 =
 false
 ;

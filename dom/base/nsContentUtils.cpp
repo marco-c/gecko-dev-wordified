@@ -67536,7 +67536,7 @@ GetInProcessRootContentDocumentPresContext
 )
 -
 >
-HadContentfulPaint
+HadFirstContentfulPaint
 (
 )
 &

@@ -6281,13 +6281,13 @@ mHadNonBlankPaint
 ;
 }
 bool
-HadContentfulPaint
+HadFirstContentfulPaint
 (
 )
 const
 {
 return
-mHadContentfulPaint
+mHadFirstContentfulPaint
 ;
 }
 void
@@ -8169,7 +8169,7 @@ this
 PresContext
 ?
 unsigned
-mHadContentfulPaint
+mHadFirstContentfulPaint
 :
 1
 ;
