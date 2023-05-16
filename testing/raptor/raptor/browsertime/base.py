@@ -2170,6 +2170,24 @@ pageCompleteCheckPollTimeout
 "
             
 #
+delay
+before
+pageCompleteCheck
+(
+milliseconds
+)
+            
+"
+-
+-
+beforePageCompleteWaitTime
+"
+            
+"
+2000
+"
+            
+#
 running
 browser
 scripts
