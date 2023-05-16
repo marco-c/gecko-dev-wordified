@@ -107,7 +107,7 @@ PageThumbUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -120,7 +120,9 @@ modules
 /
 PageThumbUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
