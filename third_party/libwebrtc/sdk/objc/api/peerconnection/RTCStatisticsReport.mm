@@ -1240,7 +1240,11 @@ _timestamp_us
 =
 statistics
 .
-timestamp_us
+timestamp
+(
+)
+.
+us
 (
 )
 ;
@@ -1493,7 +1497,11 @@ _timestamp_us
 =
 report
 .
-timestamp_us
+timestamp
+(
+)
+.
+us
 (
 )
 ;
