@@ -2957,14 +2957,12 @@ type
 static_assert
 (
 !
-std
-:
-:
-is_base_of_v
+GCTypeIsTenured
 <
-TenuredCell
 T
 >
+(
+)
 "
 T
 must
