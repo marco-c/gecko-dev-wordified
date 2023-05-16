@@ -4870,7 +4870,7 @@ kSelectionClipboard
 *
 param
 aDispatchPasteEvent
-true
+Yes
 if
 this
 should
@@ -4882,7 +4882,7 @@ before
 pasting
 .
 Otherwise
-false
+No
 .
 *
 param
@@ -4914,6 +4914,14 @@ system
 .
 *
 /
+enum
+class
+DispatchPasteEvent
+{
+No
+Yes
+}
+;
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
@@ -4921,7 +4929,7 @@ PasteAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
@@ -5077,7 +5085,7 @@ kSelectionClipboard
 *
 param
 aDispatchPasteEvent
-true
+Yes
 if
 this
 should
@@ -5089,7 +5097,7 @@ before
 pasting
 .
 Otherwise
-false
+No
 .
 *
 param
@@ -5128,7 +5136,7 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
