@@ -3810,11 +3810,6 @@ jumpToMappedLocation
 actions
 .
 jumpToMappedLocation
-traverseResults
-:
-actions
-.
-traverseResults
 updateViewport
 :
 actions
