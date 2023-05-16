@@ -683,16 +683,11 @@ static
 pid_t
 sGLXTestPID
 ;
-#
-ifdef
-MOZ_WAYLAND
 void
 GetDataVAAPI
 (
 )
 ;
-#
-endif
 void
 AddCrashReportAnnotations
 (
