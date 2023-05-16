@@ -371,7 +371,6 @@ rv
 /
 /
 nsIContent
-virtual
 nsresult
 BindToTree
 (
@@ -383,7 +382,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -392,14 +390,12 @@ aNullParent
 )
 override
 ;
-virtual
 void
 DestroyContent
 (
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (

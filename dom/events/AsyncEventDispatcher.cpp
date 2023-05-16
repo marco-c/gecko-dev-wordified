@@ -946,7 +946,7 @@ AsyncEventDispatcher
 :
 RunDOMEventWhenSafe
 (
-nsINode
+EventTarget
 &
 aTarget
 const
@@ -957,6 +957,15 @@ CanBubble
 aCanBubble
 ChromeOnlyDispatch
 aOnlyChromeDispatch
+/
+*
+=
+ChromeOnlyDispatch
+:
+:
+eNo
+*
+/
 Composed
 aComposed
 /
@@ -982,7 +991,7 @@ IsSafeToRunScript
 {
 OwningNonNull
 <
-nsINode
+EventTarget
 >
 target
 =
