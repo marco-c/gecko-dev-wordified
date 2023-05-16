@@ -1815,11 +1815,12 @@ aUsernameField
 /
 /
 aPasswordField
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )

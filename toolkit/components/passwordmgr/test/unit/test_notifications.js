@@ -352,6 +352,7 @@ null
 ;
 add_task
 (
+async
 function
 test_notifications
 (
@@ -536,11 +537,12 @@ expectedData
 =
 testuser1
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 testuser1
 )
@@ -832,11 +834,12 @@ expectedData
 =
 testuser1
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 testuser1
 )

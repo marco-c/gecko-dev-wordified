@@ -1500,11 +1500,12 @@ Add
 user
 logins
 .
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 TEST_LOGIN1
 )
