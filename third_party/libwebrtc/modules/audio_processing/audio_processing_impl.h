@@ -1572,10 +1572,6 @@ experiment_params
 )
 ;
 const
-bool
-use_denormal_disabler_
-;
-const
 TransientSuppressor
 :
 :
