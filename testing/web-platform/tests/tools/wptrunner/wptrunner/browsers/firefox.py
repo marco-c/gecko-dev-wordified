@@ -1564,6 +1564,23 @@ webrender
 software
 "
 )
+          
+"
+editorLegacyDirectionMode
+"
+:
+get_bool_pref_if_exists
+(
+"
+editor
+.
+join_split_direction
+.
+compatible_with_the_other_browsers
+"
+)
+is
+False
 }
     
 rv
@@ -1711,6 +1728,9 @@ swgl
 "
 "
 domstreams
+"
+"
+editorLegacyDirectionMode
 "
 ]
             
