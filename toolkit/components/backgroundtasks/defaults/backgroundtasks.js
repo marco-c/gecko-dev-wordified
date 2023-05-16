@@ -88,6 +88,12 @@ firefox
 .
 js
 .
+/
+*
+global
+pref
+*
+/
 pref
 (
 "
