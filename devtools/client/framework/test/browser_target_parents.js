@@ -742,6 +742,13 @@ nsIWorkerDebugger
 initialize
 "
 )
+|
+|
+targetFront
+.
+isDestroyed
+(
+)
 )
 {
 info
