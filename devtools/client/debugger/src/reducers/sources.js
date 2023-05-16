@@ -1458,7 +1458,7 @@ mutableSourcesPerUrl
 mutableSources
 mutableOriginalSources
 mutableSourceActors
-mutableBreakableLines
+mutableOriginalBreakableLines
 mutableBreakpointPositions
 }
 =
@@ -1675,7 +1675,7 @@ removedSource
 isOriginal
 )
 {
-mutableBreakableLines
+mutableOriginalBreakableLines
 .
 delete
 (
