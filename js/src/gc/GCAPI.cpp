@@ -737,15 +737,7 @@ next
 zone
 -
 >
-setPreservingCode
-(
-false
-)
-;
-zone
--
->
-discardJitCode
+forceDiscardJitCode
 (
 gcx
 )
