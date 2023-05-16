@@ -185,9 +185,6 @@ RefPtr
 TaskQueue
 >
 aTaskQueue
-const
-bool
-aHwardwareNotAllowed
 )
 :
 mConfig
@@ -197,10 +194,6 @@ aConfig
 mTaskQueue
 (
 aTaskQueue
-)
-mHardwareNotAllowed
-(
-aHwardwareNotAllowed
 )
 mFramesCompleted
 (
@@ -449,10 +442,6 @@ RefPtr
 TaskQueue
 >
 mTaskQueue
-;
-const
-bool
-mHardwareNotAllowed
 ;
 /
 /

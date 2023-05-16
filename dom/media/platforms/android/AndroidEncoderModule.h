@@ -102,9 +102,6 @@ const
 CreateEncoderParams
 &
 aParams
-const
-bool
-aHardwareNotAllowed
 )
 const
 override

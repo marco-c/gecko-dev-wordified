@@ -172,9 +172,6 @@ const
 CreateEncoderParams
 &
 aParams
-const
-bool
-aHardwareNotAllowed
 )
 const
 {
@@ -195,7 +192,6 @@ ToH264Config
 aParams
 .
 mTaskQueue
-aHardwareNotAllowed
 )
 )
 ;
