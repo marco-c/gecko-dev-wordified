@@ -5966,6 +5966,7 @@ exe
 chromium_release
 :
 {
+                
 linux
 :
 [
@@ -5979,6 +5980,23 @@ Default
 chrome
 "
 ]
+                
+win
+:
+[
+"
+chromium
+"
+"
+Default
+"
+"
+chrome
+.
+exe
+"
+]
+            
 }
         
 }
