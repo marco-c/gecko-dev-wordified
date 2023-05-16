@@ -320,6 +320,17 @@ SEND_TO_DEVICE_EMAILS_SUPPORTED
 ;
 window
 .
+AWAddScreenImpression
+=
+receive
+(
+"
+ADD_SCREEN_IMPRESSION
+"
+)
+;
+window
+.
 AWSendToParent
 =
 (
