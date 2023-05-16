@@ -1201,6 +1201,7 @@ UDP
 ports
 .
 class
+RTC_EXPORT
 Port
 :
 public

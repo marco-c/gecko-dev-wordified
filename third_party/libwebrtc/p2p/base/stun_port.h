@@ -172,6 +172,17 @@ async_packet_socket
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 cricket
 {
@@ -235,6 +246,7 @@ a
 NAT
 .
 class
+RTC_EXPORT
 UDPPort
 :
 public

@@ -104,6 +104,17 @@ string_view
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 /
 /
 This
@@ -125,6 +136,7 @@ transports
 namespace
 cricket
 {
+RTC_EXPORT
 extern
 const
 char
@@ -132,6 +144,7 @@ UDP_PROTOCOL_NAME
 [
 ]
 ;
+RTC_EXPORT
 extern
 const
 char
