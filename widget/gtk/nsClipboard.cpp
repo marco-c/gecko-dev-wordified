@@ -1459,10 +1459,10 @@ GDK_SELECTION_PRIMARY
 ;
 }
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsClipboard
-nsIClipboard
+ClipboardSetDataHelper
 nsIObserver
 )
 nsresult
@@ -1664,7 +1664,7 @@ NS_IMETHODIMP
 nsClipboard
 :
 :
-SetData
+SetNativeClipboardData
 (
 nsITransferable
 *
