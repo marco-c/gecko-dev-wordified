@@ -1340,6 +1340,14 @@ duration
 )
         
 .
+pause
+(
+duration
+=
+0
+)
+        
+.
 key_up
 (
 modifier
@@ -1372,6 +1380,14 @@ get_element_origin
 (
 outer
 )
+)
+        
+.
+pause
+(
+duration
+=
+50
 )
         
 .
