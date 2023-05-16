@@ -5192,6 +5192,12 @@ tenuredCells
 CollectionResult
 doCollection
 (
+gc
+:
+:
+AutoGCSession
+&
+session
 JS
 :
 :
