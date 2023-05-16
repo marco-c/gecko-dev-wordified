@@ -506,6 +506,13 @@ SelectionCount
 )
 override
 ;
+virtual
+int32_t
+CaretLineNumber
+(
+)
+override
+;
 using
 RemoteAccessibleBase
 <
