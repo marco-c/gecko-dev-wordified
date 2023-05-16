@@ -114,17 +114,6 @@ tick_timer
 .
 h
 "
-#
-include
-"
-modules
-/
-include
-/
-module_common_types_public
-.
-h
-"
 namespace
 webrtc
 {
@@ -370,8 +359,8 @@ max_packet_arrival_
 nullptr
 ;
 timestamp_unwrapper_
-=
-TimestampUnwrapper
+.
+Reset
 (
 )
 ;
@@ -408,7 +397,7 @@ unwrapped_rtp_timestamp_ms
 =
 timestamp_unwrapper_
 .
-UnwrapWithoutUpdate
+PeekUnwrap
 (
 rtp_timestamp
 )
@@ -482,7 +471,7 @@ unwrapped_rtp_timestamp
 =
 timestamp_unwrapper_
 .
-UnwrapWithoutUpdate
+PeekUnwrap
 (
 rtp_timestamp
 )
