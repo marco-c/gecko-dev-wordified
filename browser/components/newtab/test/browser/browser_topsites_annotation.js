@@ -291,6 +291,7 @@ waitForVisitNotification
 href
 )
 {
+await
 PlacesTestUtils
 .
 waitForNotification
@@ -746,7 +747,6 @@ loading
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 destinationURL
@@ -2680,17 +2680,6 @@ with
 new
 tab
 .
-let
-promiseVisited
-=
-await
-waitForVisitNotification
-(
-link
-.
-url
-)
-;
 await
 openAndTest
 (
@@ -2735,9 +2724,6 @@ url
 }
 }
 )
-;
-await
-promiseVisited
 ;
 /
 /
@@ -2784,16 +2770,6 @@ with
 same
 tab
 .
-promiseVisited
-=
-await
-waitForVisitNotification
-(
-link
-.
-url
-)
-;
 await
 openAndTest
 (
@@ -2838,9 +2814,6 @@ url
 }
 }
 )
-;
-await
-promiseVisited
 ;
 /
 /
@@ -3711,7 +3684,6 @@ waitForFocus
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 host
@@ -4383,7 +4355,6 @@ tile
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 destinationURL
@@ -4611,7 +4582,6 @@ URL
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 targetURL
