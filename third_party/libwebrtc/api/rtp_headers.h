@@ -1267,6 +1267,7 @@ csrcAudioLevels
 }
 ;
 struct
+RTC_EXPORT
 RTPHeader
 {
 RTPHeader
