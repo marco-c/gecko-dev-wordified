@@ -556,6 +556,8 @@ browser
 content
 /
 firefoxview
+/
+firefoxview
 .
 html
 "
@@ -588,6 +590,8 @@ chrome
 browser
 /
 content
+/
+firefoxview
 /
 firefoxview
 -
