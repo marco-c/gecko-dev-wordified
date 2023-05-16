@@ -198,16 +198,46 @@ config_file
 )
 :
                 
-self
-.
-_parse_ini_file
-(
+try
+:
+                    
+with
 open
 (
 config_file
 )
+as
+fp
+:
+                        
+self
+.
+_parse_ini_file
+(
+fp
 type
 section
+)
+                
+except
+OSError
+:
+                    
+self
+.
+_logger
+.
+warning
+(
+"
+Unable
+to
+read
+%
+s
+"
+%
+config_file
 )
             
 else
@@ -250,7 +280,7 @@ RawConfigParser
         
 config
 .
-readfp
+read_file
 (
 fp
 )
@@ -478,8 +508,7 @@ in
 archive_list
 :
                 
-fp
-=
+with
 io
 .
 TextIOWrapper
@@ -491,7 +520,10 @@ open
 filename
 )
 )
-                
+as
+fp
+:
+                    
 self
 .
 _parse_ini_file
@@ -533,8 +565,7 @@ in
 archive_list
 :
             
-fp
-=
+with
 io
 .
 TextIOWrapper
@@ -552,7 +583,10 @@ txt
 "
 )
 )
-            
+as
+fp
+:
+                
 self
 .
 _info
