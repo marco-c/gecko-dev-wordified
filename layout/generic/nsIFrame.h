@@ -34714,9 +34714,6 @@ aViewManager
 nsView
 *
 aNewParentView
-nsView
-*
-aOldParentView
 )
 ;
 /
