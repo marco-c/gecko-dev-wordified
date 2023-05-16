@@ -322,6 +322,11 @@ testFreshGlobalEvalRedefinition
 cpp
 "
 "
+testFrontendJSON
+.
+cpp
+"
+"
 testFunctionBinding
 .
 cpp
