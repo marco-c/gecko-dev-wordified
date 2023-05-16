@@ -10002,6 +10002,9 @@ nsFrameList
 aFrameList
 )
 {
+#
+ifdef
+DEBUG
 bool
 sameGrandParent
 =
@@ -10062,6 +10065,8 @@ aNewParent
 )
 ;
 }
+#
+endif
 aFrameList
 .
 ApplySetParent

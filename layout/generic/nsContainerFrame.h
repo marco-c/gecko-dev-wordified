@@ -1224,7 +1224,7 @@ aKidFrame
 )
 ;
 static
-nsresult
+void
 ReparentFrameView
 (
 nsIFrame
