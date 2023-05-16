@@ -966,7 +966,11 @@ mRestarted
 false
 }
 ;
+Atomic
+<
 uint32_t
+ReleaseAcquire
+>
 mCaps
 {
 0
