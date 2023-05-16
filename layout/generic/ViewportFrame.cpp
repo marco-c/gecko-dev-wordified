@@ -3085,10 +3085,6 @@ ComputedPhysicalBorderPadding
 =
 nsMargin
 (
-0
-0
-0
-0
 )
 "
 Viewports
