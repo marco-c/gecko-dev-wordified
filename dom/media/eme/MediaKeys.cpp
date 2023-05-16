@@ -3068,7 +3068,7 @@ ifdef
 MOZ_WMF_CDM
 if
 (
-IsPlayReadyKeySystem
+IsPlayReadyKeySystemAndSupported
 (
 mKeySystem
 )

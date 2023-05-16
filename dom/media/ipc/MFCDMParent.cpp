@@ -655,7 +655,7 @@ ready
 .
 MOZ_ASSERT
 (
-IsPlayReadyKeySystem
+IsPlayReadyKeySystemAndSupported
 (
 aKeySystem
 )

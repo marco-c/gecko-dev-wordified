@@ -2607,7 +2607,7 @@ mKeySystem
 ifdef
 MOZ_WMF_CDM
 !
-IsPlayReadyKeySystem
+IsPlayReadyKeySystemAndSupported
 (
 aRequest
 -
