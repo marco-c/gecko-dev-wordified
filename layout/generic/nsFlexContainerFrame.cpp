@@ -3505,10 +3505,6 @@ GetNaturalBaselineBOffset
 (
 mWM
 baselineGroup
-BaselineExportContext
-:
-:
-Other
 )
 )
 {
@@ -38792,7 +38788,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
 )
 const
 {

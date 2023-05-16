@@ -10390,8 +10390,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
-aExportContext
 )
 const
 {
@@ -10421,7 +10419,6 @@ GetNaturalBaselineBOffset
 (
 aWM
 aBaselineGroup
-aExportContext
 )
 ;
 if

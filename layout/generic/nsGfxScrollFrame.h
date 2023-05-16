@@ -903,8 +903,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
-aExportContext
 )
 const
 override

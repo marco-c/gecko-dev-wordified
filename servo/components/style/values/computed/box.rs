@@ -194,7 +194,6 @@ ScrollbarGutter
 TouchAction
 TransitionProperty
 WillChange
-BaselineSource
 }
 ;
 use
