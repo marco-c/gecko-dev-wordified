@@ -2,8 +2,8 @@
 /
 Copyright
 2014
-ARM
-Limited
+VIXL
+authors
 /
 /
 All
@@ -382,6 +382,11 @@ MoveWideImmediate
 \
 V
 (
+AtomicMemory
+)
+\
+V
+(
 Bitfield
 )
 \
@@ -699,7 +704,6 @@ V
 (
 NEONPerm
 )
-\
 #
 define
 VISITOR_LIST_THAT_DONT_RETURN
