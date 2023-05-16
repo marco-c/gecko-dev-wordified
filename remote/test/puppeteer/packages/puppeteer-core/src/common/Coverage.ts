@@ -541,7 +541,7 @@ class
 provides
 methods
 to
-gathers
+gather
 information
 about
 parts
@@ -1025,7 +1025,6 @@ options
 *
 *
 *
-returns
 Promise
 that
 resolves
@@ -1153,7 +1152,6 @@ options
 *
 *
 *
-returns
 Promise
 that
 resolves
@@ -1168,6 +1166,7 @@ for
 all
 stylesheets
 .
+*
 *
 remarks
 *

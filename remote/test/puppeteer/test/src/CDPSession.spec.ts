@@ -471,6 +471,10 @@ enable
 ;
 const
 events
+:
+unknown
+[
+]
 =
 [
 ]
@@ -528,11 +532,9 @@ EMPTY_PAGE
 expect
 (
 events
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 1
 )

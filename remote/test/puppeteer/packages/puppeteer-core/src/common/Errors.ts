@@ -291,13 +291,6 @@ originalMessage
 '
 '
 ;
-/
-*
-*
-*
-internal
-*
-/
 set
 code
 (
@@ -319,6 +312,8 @@ code
 /
 *
 *
+*
+readonly
 *
 public
 *
@@ -339,13 +334,6 @@ this
 code
 ;
 }
-/
-*
-*
-*
-internal
-*
-/
 set
 originalMessage
 (
@@ -365,6 +353,8 @@ originalMessage
 /
 *
 *
+*
+readonly
 *
 public
 *

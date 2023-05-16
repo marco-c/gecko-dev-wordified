@@ -733,9 +733,7 @@ timeout
 .
 *
 defaultValue
-30
-seconds
-.
+30_000
 *
 /
 timeout
@@ -783,7 +781,7 @@ gets
 disconnected
 from
 the
-Chromium
+browser
 instance
 .
 This
@@ -800,7 +798,7 @@ following
 *
 *
 -
-Chromium
+browser
 is
 closed
 or
@@ -1034,7 +1032,7 @@ Puppeteer
 connects
 to
 a
-Chromium
+browser
 instance
 either
 through
@@ -1244,7 +1242,9 @@ able
 to
 reconnect
 to
-Chromium
+the
+browser
+.
 *
 const
 browserWSEndpoint
@@ -1261,7 +1261,9 @@ wsEndpoint
 Disconnect
 puppeteer
 from
-Chromium
+the
+browser
+.
 *
 browser
 .
@@ -1298,7 +1300,9 @@ browserWSEndpoint
 /
 /
 Close
-Chromium
+the
+browser
+.
 *
 await
 browser2
@@ -2407,7 +2411,7 @@ remarks
 *
 For
 headless
-Chromium
+browser
 this
 is
 similar
@@ -2457,7 +2461,7 @@ with
 future
 releases
 of
-Chromium
+browsers
 .
 *
 /
@@ -2536,7 +2540,8 @@ implemented
 *
 *
 Closes
-Chromium
+the
+browser
 and
 all
 of
@@ -2550,12 +2555,12 @@ opened
 )
 .
 The
+*
 {
 link
 Browser
 }
 object
-*
 itself
 is
 considered
@@ -2565,6 +2570,7 @@ disposed
 and
 cannot
 be
+*
 used
 anymore
 .
@@ -2602,7 +2608,7 @@ browser
 but
 leaves
 the
-Chromium
+browser
 process
 running
 .

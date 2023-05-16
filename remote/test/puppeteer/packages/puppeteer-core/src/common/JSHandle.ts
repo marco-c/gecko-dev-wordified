@@ -885,7 +885,6 @@ value
 *
 *
 *
-returns
 Either
 null
 or

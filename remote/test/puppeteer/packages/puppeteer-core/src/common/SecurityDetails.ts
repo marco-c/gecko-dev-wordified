@@ -283,7 +283,6 @@ sanList
 *
 *
 *
-returns
 The
 name
 of
@@ -312,7 +311,6 @@ issuer
 *
 *
 *
-returns
 {
 link
 https
@@ -362,7 +360,6 @@ validFrom
 *
 *
 *
-returns
 {
 link
 https
@@ -412,7 +409,6 @@ validTo
 *
 *
 *
-returns
 The
 security
 protocol
@@ -448,7 +444,6 @@ protocol
 *
 *
 *
-returns
 The
 name
 of
@@ -480,7 +475,6 @@ subjectName
 *
 *
 *
-returns
 The
 list
 of

@@ -212,7 +212,11 @@ js
 '
 ;
 import
-utils
+{
+attachFrame
+detachFrame
+navigateFrame
+}
 from
 '
 .
@@ -499,8 +503,6 @@ html
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -513,8 +515,6 @@ EMPTY_PAGE
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -623,8 +623,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -669,8 +667,6 @@ html
 )
 ;
 await
-utils
-.
 navigateFrame
 (
 page
@@ -783,8 +779,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -817,8 +811,6 @@ false
 )
 ;
 await
-utils
-.
 navigateFrame
 (
 page
@@ -852,8 +844,6 @@ true
 )
 ;
 await
-utils
-.
 navigateFrame
 (
 page
@@ -992,8 +982,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -1173,8 +1161,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -1207,8 +1193,6 @@ false
 )
 ;
 await
-utils
-.
 navigateFrame
 (
 page
@@ -1242,8 +1226,6 @@ true
 )
 ;
 await
-utils
-.
 detachFrame
 (
 page
@@ -1340,8 +1322,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -1383,8 +1363,6 @@ waitForNavigation
 )
 ;
 await
-utils
-.
 navigateFrame
 (
 page
@@ -1421,8 +1399,6 @@ true
 )
 ;
 await
-utils
-.
 detachFrame
 (
 page
@@ -1516,8 +1492,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -1562,8 +1536,6 @@ html
 )
 ;
 await
-utils
-.
 navigateFrame
 (
 page
@@ -1660,8 +1632,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -2012,8 +1982,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -2287,11 +2255,9 @@ oopifs
 (
 context
 )
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 1
 )
@@ -2303,11 +2269,9 @@ page
 frames
 (
 )
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 2
 )
@@ -2402,11 +2366,9 @@ oopifs
 (
 context
 )
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 2
 )
@@ -2434,11 +2396,9 @@ isOOPFrame
 ;
 }
 )
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 2
 )
@@ -2595,11 +2555,9 @@ oopifs
 (
 context
 )
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 1
 )
@@ -2689,8 +2647,6 @@ await
 oopIframePromise
 ;
 await
-utils
-.
 attachFrame
 (
 oopIframe
@@ -2741,8 +2697,6 @@ html
 )
 ;
 await
-utils
-.
 navigateFrame
 (
 oopIframe
@@ -2834,8 +2788,6 @@ document
 )
 ;
 await
-utils
-.
 detachFrame
 (
 oopIframe
@@ -2930,8 +2882,6 @@ frame
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -3363,11 +3313,9 @@ oopifs
 (
 context
 )
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 1
 )
@@ -3379,11 +3327,9 @@ page
 frames
 (
 )
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 2
 )
@@ -3612,8 +3558,6 @@ EMPTY_PAGE
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page

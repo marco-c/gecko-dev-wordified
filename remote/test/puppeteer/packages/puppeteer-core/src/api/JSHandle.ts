@@ -922,7 +922,6 @@ implemented
 *
 *
 *
-returns
 A
 vanilla
 object
@@ -997,7 +996,6 @@ implemented
 *
 *
 *
-returns
 Either
 null
 or
@@ -1154,14 +1152,8 @@ access
 to
 the
 *
-[
-Protocol
-.
-Runtime
-.
-RemoteObject
-]
-(
+{
+link
 https
 :
 /
@@ -1184,7 +1176,13 @@ Runtime
 type
 -
 RemoteObject
-)
+|
+Protocol
+.
+Runtime
+.
+RemoteObject
+}
 *
 backing
 this

@@ -9292,8 +9292,10 @@ knownDevicesByName
 as
 Record
 <
+(
 typeof
 knownDevices
+)
 [
 number
 ]

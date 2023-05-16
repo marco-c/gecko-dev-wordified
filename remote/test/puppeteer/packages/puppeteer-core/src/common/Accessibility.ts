@@ -663,7 +663,8 @@ provides
 methods
 for
 inspecting
-Chromium
+the
+browser
 '
 s
 *
@@ -917,7 +918,7 @@ NOTE
 *
 *
 The
-Chromium
+Chrome
 accessibility
 tree
 contains
