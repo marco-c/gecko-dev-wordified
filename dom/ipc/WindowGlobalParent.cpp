@@ -3068,10 +3068,12 @@ IPC_OK
 )
 ;
 }
-(
-new
 AsyncEventDispatcher
+:
+:
+RunDOMEventWhenSafe
 (
+*
 frameElement
 u
 "
@@ -3086,12 +3088,6 @@ ChromeOnlyDispatch
 :
 :
 eYes
-)
-)
--
->
-RunDOMEventWhenSafe
-(
 )
 ;
 return
