@@ -1245,7 +1245,7 @@ static
 /
 already_AddRefed
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 AnimationValue
 :

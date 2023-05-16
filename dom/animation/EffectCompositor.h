@@ -259,7 +259,7 @@ EffectSet
 class
 RestyleTracker
 ;
-class
+struct
 StyleAnimationValue
 ;
 struct

@@ -338,11 +338,6 @@ RawServoImportRule
 )
 SERVO_ARC_TYPE
 (
-AnimationValue
-RawServoAnimationValue
-)
-SERVO_ARC_TYPE
-(
 Keyframe
 RawServoKeyframe
 )

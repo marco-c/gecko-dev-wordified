@@ -1620,7 +1620,7 @@ PropertyAnimation
 aPropertyAnimations
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 &
 aAnimationValue
@@ -2863,7 +2863,7 @@ nsTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 >
 &
@@ -2914,7 +2914,7 @@ nsTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 >
 baseStyleOfDelayAnimations
@@ -2923,7 +2923,7 @@ nsTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 >
 nonAnimatingValues
@@ -2948,7 +2948,7 @@ style
 .
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 currValue
 =
@@ -4773,7 +4773,7 @@ nsTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 >
 &

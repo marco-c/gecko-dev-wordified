@@ -330,7 +330,7 @@ CopyableAutoTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 1
 >
@@ -391,7 +391,7 @@ aPropID
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 &
 aValue
@@ -674,7 +674,7 @@ a
 /
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 .
 This
@@ -716,7 +716,7 @@ FinalizeServoAnimationValues
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 &
@@ -724,14 +724,14 @@ aValue1
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 &
 aValue2
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 &
 aZeroValueStorage
@@ -1457,7 +1457,7 @@ i
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 valueToAdd
@@ -1478,7 +1478,7 @@ nullptr
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 destValue
@@ -1498,7 +1498,7 @@ nullptr
 ;
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 zeroValueStorage
 ;
@@ -1605,7 +1605,7 @@ len
 }
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 result
 ;
@@ -2145,7 +2145,7 @@ i
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 fromValue
@@ -2166,7 +2166,7 @@ nullptr
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 toValue
@@ -2181,7 +2181,7 @@ mServoValues
 ;
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 zeroValueStorage
 ;
@@ -2617,7 +2617,7 @@ i
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 startValue
@@ -2638,7 +2638,7 @@ nullptr
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 endValue
@@ -2653,7 +2653,7 @@ i
 ;
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 zeroValueStorage
 ;
@@ -2674,7 +2674,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 result
 =
@@ -3688,6 +3688,7 @@ Length
 ;
 for
 (
+const
 auto
 &
 valueToMatch
@@ -3700,7 +3701,7 @@ mServoValues
 {
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 zeroValue
 =

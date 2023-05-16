@@ -2427,7 +2427,7 @@ cannot
 use
 getters_AddRefs
 on
-RawServoAnimationValue
+StyleAnimationValue
 because
 it
 is
@@ -3407,7 +3407,7 @@ BaseValuesHashmap
 nsRefPtrHashtable
 <
 nsUint32HashKey
-RawServoAnimationValue
+StyleAnimationValue
 >
 ;
 BaseValuesHashmap

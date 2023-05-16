@@ -1790,7 +1790,10 @@ aIndex
 )
 ;
 const
-RawServoAnimationValue
+mozilla
+:
+:
+StyleAnimationValue
 *
 Gecko_ElementTransitions_EndValueAt
 (
@@ -1865,7 +1868,7 @@ is
 nsRefPtrHashtable
 <
 nsUint32HashKey
-RawServoAnimationValue
+StyleAnimationValue
 >
 .
 /
@@ -1883,7 +1886,10 @@ in
 FFI
 .
 const
-RawServoAnimationValue
+mozilla
+:
+:
+StyleAnimationValue
 *
 Gecko_AnimationGetBaseStyle
 (

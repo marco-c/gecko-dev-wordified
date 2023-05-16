@@ -7027,7 +7027,7 @@ nsTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 >
 &
@@ -7135,7 +7135,7 @@ const
 ComputedStyle
 *
 aStyle
-RawServoAnimationValue
+StyleAnimationValue
 *
 aAnimationValue
 )
@@ -7164,7 +7164,7 @@ Consume
 }
 already_AddRefed
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 ServoStyleSet
 :

@@ -308,7 +308,7 @@ AnimationValue
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 &
 aValue
@@ -739,7 +739,7 @@ Create
 an
 already_AddRefed
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 from
 a
@@ -768,7 +768,7 @@ only
 needs
 /
 /
-RawServoAnimationValue
+StyleAnimationValue
 so
 we
 return
@@ -792,7 +792,7 @@ count
 static
 already_AddRefed
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 FromAnimatable
 (
@@ -809,7 +809,7 @@ aAnimatable
 ;
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 mServo
 ;

@@ -239,13 +239,13 @@ SegmentData
 {
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 mStartValue
 ;
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 mEndValue
 ;
@@ -459,7 +459,7 @@ mAnimations
 ;
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 mBaseStyle
 ;
