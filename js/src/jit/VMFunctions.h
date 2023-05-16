@@ -3859,8 +3859,6 @@ HandleValue
 index
 HandleValue
 value
-HandleValue
-receiver
 bool
 strict
 )
@@ -3877,8 +3875,6 @@ HandleValue
 index
 HandleValue
 value
-HandleValue
-receiver
 bool
 strict
 )
