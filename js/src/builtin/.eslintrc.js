@@ -872,6 +872,11 @@ ToString
 "
 readonly
 "
+IsNullOrUndefined
+:
+"
+readonly
+"
 /
 /
 We
