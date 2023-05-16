@@ -1340,7 +1340,7 @@ js
 jit
 :
 :
-GetNativeDataPropertyByIdPure
+GetNativeDataPropertyPure
 )
 \
 _
@@ -1351,7 +1351,7 @@ js
 jit
 :
 :
-GetNativeDataPropertyByNamePure
+GetNativeDataPropertyPureWithCacheLookup
 )
 \
 _
