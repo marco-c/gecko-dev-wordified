@@ -998,7 +998,17 @@ IntrinsicRegExpBuiltinExec
 \
 _
 (
+IntrinsicRegExpBuiltinExecForTest
+)
+\
+_
+(
 IntrinsicRegExpExec
+)
+\
+_
+(
+IntrinsicRegExpExecForTest
 )
 \
 _
