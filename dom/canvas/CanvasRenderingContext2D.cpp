@@ -29723,6 +29723,10 @@ mOffscreenCanvas
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CanvasImageExtractionPrompt
 )
 )
 {
@@ -30052,6 +30056,10 @@ mOffscreenCanvas
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CanvasImageExtractionPrompt
 )
 )
 {
@@ -36366,6 +36374,10 @@ mOffscreenCanvas
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CanvasImageExtractionPrompt
 )
 ;
 }
