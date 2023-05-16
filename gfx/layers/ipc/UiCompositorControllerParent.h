@@ -262,6 +262,9 @@ ipc
 IPCResult
 RecvResume
 (
+bool
+*
+aOutResumed
 )
 ;
 mozilla
@@ -289,6 +292,9 @@ const
 int32_t
 &
 aWidth
+bool
+*
+aOutResumed
 )
 ;
 mozilla

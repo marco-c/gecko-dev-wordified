@@ -256,6 +256,11 @@ sync
 Resume
 (
 )
+returns
+(
+bool
+aOutResumed
+)
 ;
 sync
 ResumeAndResize
@@ -268,6 +273,11 @@ int32_t
 aWidth
 int32_t
 aHeight
+)
+returns
+(
+bool
+aOutResumed
 )
 ;
 async
