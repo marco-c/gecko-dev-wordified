@@ -260,6 +260,10 @@ ALERT
 :
 [
 {
+TEXT_CONTAINER
+:
+[
+{
 LABEL
 :
 [
@@ -281,6 +285,8 @@ PUSHBUTTON
 PUSHBUTTON
 :
 [
+]
+}
 ]
 }
 ]
