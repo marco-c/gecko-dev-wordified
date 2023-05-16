@@ -348,6 +348,8 @@ SessionPromise
 >
 CreateSession
 (
+uint32_t
+aPromiseId
 const
 KeySystemConfig
 :
@@ -373,6 +375,7 @@ mCDM
 >
 CreateSessionAndGenerateRequest
 (
+aPromiseId
 aSessionType
 aInitDataType
 aInitData
@@ -385,6 +388,8 @@ GenericPromise
 >
 LoadSession
 (
+uint32_t
+aPromiseId
 const
 KeySystemConfig
 :
@@ -403,6 +408,7 @@ mCDM
 >
 LoadSession
 (
+aPromiseId
 aSessionType
 aSessionId
 )
@@ -414,6 +420,8 @@ GenericPromise
 >
 UpdateSession
 (
+uint32_t
+aPromiseId
 const
 nsAString
 &
@@ -432,6 +440,7 @@ mCDM
 >
 UpdateSession
 (
+aPromiseId
 aSessionId
 aResponse
 )
@@ -443,6 +452,8 @@ GenericPromise
 >
 CloseSession
 (
+uint32_t
+aPromiseId
 const
 nsAString
 &
@@ -455,6 +466,7 @@ mCDM
 >
 CloseSession
 (
+aPromiseId
 aSessionId
 )
 ;
@@ -465,6 +477,8 @@ GenericPromise
 >
 RemoveSession
 (
+uint32_t
+aPromiseId
 const
 nsAString
 &
@@ -477,6 +491,7 @@ mCDM
 >
 RemoveSession
 (
+aPromiseId
 aSessionId
 )
 ;
