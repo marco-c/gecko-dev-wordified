@@ -204,6 +204,8 @@ gfx
 Matrix4x4
 >
 aTransformOverride
+bool
+aIsRemoteTexture
 )
 ;
 wr
@@ -518,6 +520,9 @@ gfx
 DataSourceSurface
 >
 mReadback
+;
+bool
+mIsRemoteTexture
 ;
 }
 ;
