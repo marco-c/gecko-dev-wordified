@@ -1735,7 +1735,6 @@ int32_t
 aPosition
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 CopyText
 (

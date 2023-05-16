@@ -560,13 +560,7 @@ nsIClipboard
 :
 :
 kGlobalClipboard
-EditorBase
-:
-:
-DispatchPasteEvent
-:
-:
-Yes
+true
 )
 ;
 }
