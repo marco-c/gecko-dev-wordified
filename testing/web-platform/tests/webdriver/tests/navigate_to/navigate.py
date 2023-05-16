@@ -526,7 +526,7 @@ raises
 (
 error
 .
-NoSuchElementException
+StaleElementReferenceException
 )
 :
         

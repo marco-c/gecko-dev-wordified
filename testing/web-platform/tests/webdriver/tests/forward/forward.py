@@ -1233,7 +1233,7 @@ raises
 (
 error
 .
-NoSuchElementException
+StaleElementReferenceException
 )
 :
         
