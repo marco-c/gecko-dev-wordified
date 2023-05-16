@@ -125,7 +125,9 @@ CSP_VIOLATION_MSG
 =
 "
 Content
+-
 Security
+-
 Policy
 :
 Couldn

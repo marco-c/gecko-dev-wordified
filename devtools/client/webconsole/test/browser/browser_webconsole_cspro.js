@@ -184,7 +184,9 @@ CSP_VIOLATION_MSG
 =
 "
 Content
+-
 Security
+-
 Policy
 :
 The
@@ -231,7 +233,9 @@ CSP_REPORT_MSG
 =
 "
 Content
+-
 Security
+-
 Policy
 :
 The

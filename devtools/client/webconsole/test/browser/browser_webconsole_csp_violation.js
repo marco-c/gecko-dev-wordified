@@ -145,7 +145,9 @@ CSP_VIOLATION_MSG
 =
 "
 Content
+-
 Security
+-
 Policy
 :
 The
@@ -279,7 +281,9 @@ const
 CSP_VIOLATION
 =
 Content
+-
 Security
+-
 Policy
 :
 The
@@ -555,7 +559,9 @@ const
 CSP_VIOLATION
 =
 Content
+-
 Security
+-
 Policy
 :
 The
@@ -777,7 +783,9 @@ const
 CSP_VIOLATION
 =
 Content
+-
 Security
+-
 Policy
 :
 The
@@ -968,7 +976,9 @@ const
 CSP_VIOLATION
 =
 Content
+-
 Security
+-
 Policy
 :
 The
@@ -1091,7 +1101,9 @@ const
 CSP_VIOLATION
 =
 Content
+-
 Security
+-
 Policy
 :
 The
