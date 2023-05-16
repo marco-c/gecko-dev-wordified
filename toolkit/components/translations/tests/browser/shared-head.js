@@ -385,9 +385,8 @@ detectedLangTag
 This
 is
 the
-two
--
-letter
+BCP
+47
 language
 tag
 for
@@ -3025,6 +3024,7 @@ const
 {
 fromLang
 toLang
+isBeta
 }
 of
 langPairs
@@ -3145,6 +3145,14 @@ fromLang
 toLang
 fileType
 version
+:
+isBeta
+?
+"
+0
+.
+1
+"
 :
 "
 1

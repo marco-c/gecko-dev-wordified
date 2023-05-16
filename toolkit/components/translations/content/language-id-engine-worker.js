@@ -1797,7 +1797,8 @@ which
 is
 used
 by
-BCP47
+BCP
+47
 and
 any
 edge
@@ -2203,7 +2204,8 @@ and
 returns
 *
 the
-BCP47
+BCP
+47
 language
 tag
 of
@@ -2278,7 +2280,8 @@ language
 tag
 is
 a
-BCP47
+BCP
+47
 language
 tag
 such
