@@ -17558,9 +17558,6 @@ WebTransport
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -17587,9 +17584,6 @@ WebTransportBidirectionalStream
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -17616,9 +17610,6 @@ WebTransportDatagramDuplexStream
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -17645,9 +17636,6 @@ WebTransportError
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -17674,9 +17662,6 @@ WebTransportReceiveStream
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -17703,9 +17688,6 @@ WebTransportSendStream
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
