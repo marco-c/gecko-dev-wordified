@@ -101,6 +101,13 @@ changed
 "
 )
 ;
+await
+AboutHomeStartupCache
+.
+ensureCacheEntry
+(
+)
+;
 /
 /
 We
