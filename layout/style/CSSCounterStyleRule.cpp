@@ -278,7 +278,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoCounterStyleRule
+StyleLockedCounterStyleRule
 >
 aRaw
 )

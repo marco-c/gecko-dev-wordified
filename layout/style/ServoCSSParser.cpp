@@ -257,7 +257,7 @@ static
 /
 already_AddRefed
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 ServoCSSParser
 :

@@ -6495,7 +6495,7 @@ return
 Servo_StyleSet_
 #
 #
-type_
+constant_
 #
 #
 RuleChanged
@@ -7013,7 +7013,7 @@ ServoStyleSet
 :
 GetAnimationValues
 (
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 *
 aDeclarations
 Element
@@ -7174,7 +7174,7 @@ ComputeAnimationValue
 Element
 *
 aElement
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 *
 aDeclarations
 const
@@ -8246,7 +8246,7 @@ aArray
 ;
 }
 const
-RawServoCounterStyleRule
+StyleLockedCounterStyleRule
 *
 ServoStyleSet
 :
@@ -8382,7 +8382,7 @@ ComputedStyle
 *
 aParentOrNull
 const
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 *
 aDeclarations
 )

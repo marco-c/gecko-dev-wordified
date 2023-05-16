@@ -250,7 +250,7 @@ h
 "
 /
 /
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 and
 associated
 RefPtrTraits

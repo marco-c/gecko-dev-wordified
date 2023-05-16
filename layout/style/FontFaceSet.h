@@ -185,9 +185,6 @@ nsIPrincipal
 class
 nsIGlobalObject
 ;
-struct
-RawServoFontFaceRule
-;
 namespace
 mozilla
 {

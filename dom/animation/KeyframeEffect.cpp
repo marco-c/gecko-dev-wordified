@@ -8436,7 +8436,7 @@ return
 }
 RefPtr
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 customProperties
 ;

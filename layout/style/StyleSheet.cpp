@@ -6985,7 +6985,7 @@ return
 }
 RefPtr
 <
-ServoCssRules
+StyleLockedCssRules
 >
 rules
 =
@@ -7094,7 +7094,7 @@ true
 ;
 RefPtr
 <
-ServoCssRules
+StyleLockedCssRules
 >
 rules
 =
@@ -7136,7 +7136,7 @@ unused
 .
 RefPtr
 <
-RawServoImportRule
+StyleLockedImportRule
 >
 import
 =
@@ -8973,7 +8973,7 @@ EnsureUniqueInner
 ;
 RefPtr
 <
-ServoCssRules
+StyleLockedCssRules
 >
 rawRules
 =
@@ -9401,7 +9401,7 @@ StyleSheet
 SetSharedContents
 (
 const
-ServoCssRules
+StyleLockedCssRules
 *
 aSharedRules
 )
@@ -9466,7 +9466,7 @@ have
 .
 }
 const
-ServoCssRules
+StyleLockedCssRules
 *
 StyleSheet
 :
@@ -9583,7 +9583,7 @@ IsSystemPrincipal
 )
 ;
 const
-ServoCssRules
+StyleLockedCssRules
 *
 rules
 =
