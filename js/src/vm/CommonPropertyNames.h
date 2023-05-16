@@ -3826,6 +3826,16 @@ RegExpToString
 \
 MACRO_
 (
+RegExp_prototype_Exec
+RegExp_prototype_Exec
+\
+"
+RegExp_prototype_Exec
+"
+)
+\
+MACRO_
+(
 region
 region
 "
