@@ -5256,8 +5256,6 @@ skia
 #
 ifdef
 XP_WIN
-/
-/
 pref
 (
 "
@@ -5272,10 +5270,6 @@ sequential
 false
 )
 ;
-/
-/
-no
-default
 pref
 (
 "
