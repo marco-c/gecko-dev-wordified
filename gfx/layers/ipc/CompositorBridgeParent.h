@@ -3472,12 +3472,12 @@ PauseComposition
 (
 )
 ;
-void
+bool
 ResumeComposition
 (
 )
 ;
-void
+bool
 ResumeCompositionAndResize
 (
 int
