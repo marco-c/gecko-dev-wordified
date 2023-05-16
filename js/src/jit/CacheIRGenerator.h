@@ -3127,11 +3127,15 @@ tryAttachRegExpInstanceOptimizable
 AttachDecision
 tryAttachIntrinsicRegExpBuiltinExec
 (
+InlinableNative
+native
 )
 ;
 AttachDecision
 tryAttachIntrinsicRegExpExec
 (
+InlinableNative
+native
 )
 ;
 AttachDecision
