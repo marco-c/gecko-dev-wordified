@@ -1418,6 +1418,16 @@ mCSPEventListener
 )
 ;
 }
+mFetchDriver
+-
+>
+SetAssociatedBrowsingContextID
+(
+args
+.
+mAssociatedBrowsingContextID
+)
+;
 }
 mFetchDriver
 -

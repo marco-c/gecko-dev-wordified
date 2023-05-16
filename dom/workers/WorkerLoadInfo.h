@@ -777,6 +777,9 @@ mLoadFlags
 uint64_t
 mWindowID
 ;
+uint64_t
+mAssociatedBrowsingContextID
+;
 nsCOMPtr
 <
 nsIReferrerInfo
