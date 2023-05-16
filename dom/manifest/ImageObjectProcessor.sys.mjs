@@ -158,11 +158,7 @@ aMemberName
 *
 *
 /
-"
-use
-strict
-"
-;
+export
 function
 ImageObjectProcessor
 (
@@ -1415,13 +1411,4 @@ validDecimals
 }
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ImageObjectProcessor
-"
-]
 ;

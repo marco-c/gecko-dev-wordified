@@ -74,11 +74,7 @@ errors
 .
 *
 /
-"
-use
-strict
-"
-;
+export
 class
 ValueExtractor
 {
@@ -664,12 +660,3 @@ langTag
 ;
 }
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-ValueExtractor
-"
-]
-;

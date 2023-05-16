@@ -25,7 +25,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -38,7 +38,9 @@ modules
 /
 ManifestProcessor
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

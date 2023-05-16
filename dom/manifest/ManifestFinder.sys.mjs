@@ -56,11 +56,7 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
+export
 var
 ManifestFinder
 =
@@ -423,12 +419,3 @@ return
 true
 ;
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ManifestFinder
-"
-]
-;

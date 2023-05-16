@@ -56,11 +56,7 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
+export
 var
 ManifestIcons
 =
@@ -664,12 +660,3 @@ blob
 )
 ;
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ManifestIcons
-"
-]
-;
