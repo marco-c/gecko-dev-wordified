@@ -373,6 +373,37 @@ mozilla
 geckoview_example
 "
             
+original_get
+=
+WebExtensionAndroid
+.
+get_browser_meta
+            
+WebExtensionAndroid
+.
+get_browser_meta
+=
+mock
+.
+MagicMock
+(
+)
+            
+WebExtensionAndroid
+.
+get_browser_meta
+.
+return_value
+=
+(
+"
+app
+"
+"
+version
+"
+)
+            
 web_extension
 =
 WebExtensionAndroid
@@ -393,6 +424,12 @@ power_test
 True
             
 )
+            
+WebExtensionAndroid
+.
+get_browser_meta
+=
+original_get
             
 web_extension
 .
@@ -955,6 +992,37 @@ mozilla
 geckoview_example
 "
             
+original_get
+=
+WebExtensionAndroid
+.
+get_browser_meta
+            
+WebExtensionAndroid
+.
+get_browser_meta
+=
+mock
+.
+MagicMock
+(
+)
+            
+WebExtensionAndroid
+.
+get_browser_meta
+.
+return_value
+=
+(
+"
+app
+"
+"
+version
+"
+)
+            
 web_extension
 =
 WebExtensionAndroid
@@ -975,6 +1043,12 @@ power_test
 True
             
 )
+            
+WebExtensionAndroid
+.
+get_browser_meta
+=
+original_get
             
 web_extension
 .
@@ -1554,6 +1628,37 @@ mozilla
 geckoview_example
 "
             
+original_get
+=
+WebExtensionAndroid
+.
+get_browser_meta
+            
+WebExtensionAndroid
+.
+get_browser_meta
+=
+mock
+.
+MagicMock
+(
+)
+            
+WebExtensionAndroid
+.
+get_browser_meta
+.
+return_value
+=
+(
+"
+app
+"
+"
+version
+"
+)
+            
 web_extension
 =
 WebExtensionAndroid
@@ -1574,6 +1679,12 @@ power_test
 True
             
 )
+            
+WebExtensionAndroid
+.
+get_browser_meta
+=
+original_get
             
 web_extension
 .
