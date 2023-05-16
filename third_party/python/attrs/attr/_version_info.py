@@ -1,9 +1,11 @@
-from
-__future__
-import
-absolute_import
-division
-print_function
+#
+SPDX
+-
+License
+-
+Identifier
+:
+MIT
 from
 functools
 import
@@ -37,9 +39,6 @@ True
 )
 class
 VersionInfo
-(
-object
-)
 :
     
 "
