@@ -360,7 +360,7 @@ SendFin
 void
 Reset
 (
-uint8_t
+uint64_t
 aErrorCode
 )
 ;
@@ -672,7 +672,7 @@ once
 .
 Maybe
 <
-uint8_t
+uint64_t
 >
 mResetError
 ;
