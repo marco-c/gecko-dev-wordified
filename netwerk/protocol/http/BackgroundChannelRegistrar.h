@@ -202,12 +202,6 @@ GetOrCreate
 (
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 private
 :
 virtual
