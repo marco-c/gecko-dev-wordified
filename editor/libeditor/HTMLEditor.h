@@ -1456,7 +1456,10 @@ HTMLEditor
 PasteAsAction
 (
 aClipboardType
-true
+DispatchPasteEvent
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -1471,6 +1474,10 @@ HTMLEditor
 :
 PasteAsAction
 (
+DispatchPasteEvent
+:
+:
+Yes
 )
 failed
 "
@@ -1486,7 +1493,7 @@ PasteAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
@@ -1577,7 +1584,7 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
