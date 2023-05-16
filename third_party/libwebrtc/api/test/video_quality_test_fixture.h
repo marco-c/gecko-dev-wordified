@@ -262,6 +262,11 @@ generic_descriptor
 =
 false
 ;
+bool
+dependency_descriptor
+=
+false
+;
 BitrateConstraints
 call_bitrate_config
 ;
