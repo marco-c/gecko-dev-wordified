@@ -704,8 +704,6 @@ video_send_config
 Transport
 *
 rtcp_send_transport
-bool
-send_side_bwe
 VideoDecoderFactory
 *
 decoder_factory
@@ -748,8 +746,6 @@ video_send_config
 Transport
 *
 rtcp_send_transport
-bool
-send_side_bwe
 VideoDecoderFactory
 *
 decoder_factory

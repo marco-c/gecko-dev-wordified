@@ -1267,14 +1267,6 @@ recv_config
 .
 rtp
 .
-transport_cc
-=
-true
-;
-recv_config
-.
-rtp
-.
 extensions
 =
 {
