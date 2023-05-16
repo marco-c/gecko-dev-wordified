@@ -31741,11 +31741,7 @@ deserializeStencils
 (
 &
 fc
-input
-.
-get
-(
-)
+options
 xdrRange
 &
 succeeded
