@@ -2056,13 +2056,6 @@ getXHRItem
 )
 )
 ;
-if
-(
-features
-.
-eventListenersBreakpoints
-)
-{
 items
 .
 push
@@ -2074,7 +2067,6 @@ getEventListenersItem
 )
 )
 ;
-}
 if
 (
 features
