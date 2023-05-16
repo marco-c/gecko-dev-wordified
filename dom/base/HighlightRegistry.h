@@ -407,9 +407,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 AddHighlightSelectionsToFrameSelection
 (
-ErrorResult
-&
-aRv
 )
 ;
 /
@@ -479,9 +476,6 @@ aRange
 Highlight
 &
 aHighlight
-ErrorResult
-&
-aRv
 )
 ;
 /

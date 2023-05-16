@@ -526,9 +526,6 @@ aHighlightName
 nsFrameSelection
 *
 aFrameSelection
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -658,7 +655,6 @@ MOZ_KnownLive
 *
 range
 )
-aRv
 )
 ;
 }
@@ -812,7 +808,6 @@ MaybeAddRangeToHighlightSelection
 aRange
 *
 this
-aRv
 )
 ;
 if

@@ -2797,12 +2797,6 @@ dom
 Highlight
 &
 aHighlight
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 /
@@ -2895,12 +2889,6 @@ dom
 AbstractRange
 &
 aRange
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 /

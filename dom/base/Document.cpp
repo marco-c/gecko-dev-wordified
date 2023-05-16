@@ -42139,9 +42139,6 @@ highlightRegistry
 >
 AddHighlightSelectionsToFrameSelection
 (
-IgnoreErrors
-(
-)
 )
 ;
 }

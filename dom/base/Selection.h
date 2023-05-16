@@ -3214,9 +3214,6 @@ aRv
 void
 ResetColors
 (
-ErrorResult
-&
-aRv
 )
 ;
 /
@@ -3655,12 +3652,6 @@ AddHighlightRangeAndSelectFramesAndNotifyListeners
 AbstractRange
 &
 aRange
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 /

@@ -14952,12 +14952,6 @@ AddHighlightRangeAndSelectFramesAndNotifyListeners
 AbstractRange
 &
 aRange
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 {
 MOZ_ASSERT
@@ -26620,9 +26614,6 @@ Selection
 :
 ResetColors
 (
-ErrorResult
-&
-aRv
 )
 {
 mCustomColors

@@ -552,9 +552,6 @@ aHighlightName
 nsFrameSelection
 *
 aFrameSelection
-ErrorResult
-&
-aRv
 )
 const
 ;
