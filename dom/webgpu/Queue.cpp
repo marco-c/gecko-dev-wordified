@@ -230,6 +230,13 @@ nsLayoutUtils
 .
 h
 "
+#
+include
+"
+Utility
+.
+h
+"
 namespace
 mozilla
 :
@@ -1343,9 +1350,6 @@ extent
 {
 }
 ;
-CommandEncoder
-:
-:
 ConvertExtent3DToFFI
 (
 aSize
@@ -2558,9 +2562,6 @@ extent
 {
 }
 ;
-CommandEncoder
-:
-:
 ConvertExtent3DToFFI
 (
 aCopySize
