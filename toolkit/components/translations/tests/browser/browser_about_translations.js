@@ -3484,7 +3484,7 @@ await
 openAboutTranslations
 (
 {
-detectedLanguageLabel
+detectedLangTag
 :
 "
 en

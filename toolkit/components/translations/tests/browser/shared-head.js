@@ -380,7 +380,7 @@ param
 {
 string
 }
-detectedLanguageLabel
+detectedLangTag
 *
 This
 is
@@ -389,7 +389,7 @@ two
 -
 letter
 language
-label
+tag
 for
 the
 MockedLanguageIdEngine
@@ -470,7 +470,7 @@ dataForContent
 disabled
 runInPage
 detectedLanguageConfidence
-detectedLanguageLabel
+detectedLangTag
 languagePairs
 prefs
 }
@@ -699,7 +699,7 @@ TranslationsParent
 .
 mockLanguageIdentification
 (
-detectedLanguageLabel
+detectedLangTag
 ?
 ?
 "
@@ -785,7 +785,7 @@ null
 }
 if
 (
-detectedLanguageLabel
+detectedLangTag
 &
 &
 detectedLanguageConfidence
@@ -1775,7 +1775,7 @@ setupActorTest
 languagePairs
 prefs
 detectedLanguageConfidence
-detectedLanguageLabel
+detectedLangTag
 }
 )
 {
@@ -1855,7 +1855,7 @@ client
 }
 if
 (
-detectedLanguageLabel
+detectedLangTag
 &
 &
 detectedLanguageConfidence
@@ -1865,7 +1865,7 @@ TranslationsParent
 .
 mockLanguageIdentification
 (
-detectedLanguageLabel
+detectedLangTag
 detectedLanguageConfidence
 )
 ;
@@ -1955,7 +1955,7 @@ loadTestPage
 {
 languagePairs
 detectedLanguageConfidence
-detectedLanguageLabel
+detectedLangTag
 page
 prefs
 }
@@ -2066,7 +2066,7 @@ languagePairs
 }
 if
 (
-detectedLanguageLabel
+detectedLangTag
 &
 &
 detectedLanguageConfidence
@@ -2076,7 +2076,7 @@ TranslationsParent
 .
 mockLanguageIdentification
 (
-detectedLanguageLabel
+detectedLangTag
 detectedLanguageConfidence
 )
 ;
@@ -2136,7 +2136,7 @@ null
 }
 if
 (
-detectedLanguageLabel
+detectedLangTag
 &
 &
 detectedLanguageConfidence

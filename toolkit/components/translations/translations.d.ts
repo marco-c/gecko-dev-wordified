@@ -1849,7 +1849,7 @@ LanguageIdEngineMockedPayload
 confidence
 :
 number
-languageLabel
+langTag
 :
 string
 }

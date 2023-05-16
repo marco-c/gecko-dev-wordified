@@ -718,7 +718,7 @@ autoTranslate
 true
 ]
 ]
-detectedLanguageLabel
+detectedLangTag
 :
 "
 es
