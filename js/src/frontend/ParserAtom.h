@@ -359,7 +359,6 @@ class
 AtomSet
 ;
 class
-JS_PUBLIC_API
 GenericPrinter
 ;
 class

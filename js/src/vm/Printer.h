@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-js_Printer_h
+vm_Printer_h
 #
 define
-js_Printer_h
+vm_Printer_h
 #
 include
 "
@@ -242,7 +242,6 @@ a
 LifoAlloc
 .
 class
-JS_PUBLIC_API
 GenericPrinter
 {
 protected
@@ -462,7 +461,6 @@ allocated
 buffering
 .
 class
-JS_PUBLIC_API
 Sprinter
 final
 :
@@ -1057,7 +1055,6 @@ a
 file
 .
 class
-JS_PUBLIC_API
 Fprinter
 final
 :
@@ -1266,7 +1263,6 @@ the
 string
 .
 class
-JS_PUBLIC_API
 LSprinter
 final
 :
@@ -1586,7 +1582,6 @@ ASCII
 characters
 .
 extern
-JS_PUBLIC_API
 JS
 :
 :
@@ -1631,7 +1626,6 @@ from
 above
 .
 extern
-JS_PUBLIC_API
 bool
 QuoteString
 (
@@ -1677,7 +1671,6 @@ given
 Sprinter
 .
 extern
-JS_PUBLIC_API
 bool
 JSONQuoteString
 (
@@ -1715,7 +1708,6 @@ typename
 CharT
 >
 bool
-JS_PUBLIC_API
 QuoteString
 (
 Sprinter
@@ -1749,4 +1741,4 @@ js
 endif
 /
 /
-js_Printer_h
+vm_Printer_h

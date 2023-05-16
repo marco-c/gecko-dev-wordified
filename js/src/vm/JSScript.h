@@ -435,7 +435,6 @@ class
 LexicalScope
 ;
 class
-JS_PUBLIC_API
 Sprinter
 ;
 namespace

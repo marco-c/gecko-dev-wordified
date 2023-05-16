@@ -111,7 +111,7 @@ MPL
 #
 include
 "
-js
+vm
 /
 Printer
 .
@@ -1425,7 +1425,6 @@ target
 typename
 CharT
 >
-JS_PUBLIC_API
 bool
 QuoteString
 (
@@ -2000,7 +1999,6 @@ true
 ;
 }
 template
-JS_PUBLIC_API
 bool
 QuoteString
 <
@@ -2029,7 +2027,6 @@ quote
 )
 ;
 template
-JS_PUBLIC_API
 bool
 QuoteString
 <
@@ -2058,7 +2055,6 @@ quote
 )
 ;
 template
-JS_PUBLIC_API
 bool
 QuoteString
 <
@@ -2087,7 +2083,6 @@ quote
 )
 ;
 template
-JS_PUBLIC_API
 bool
 QuoteString
 <
@@ -2115,7 +2110,6 @@ char
 quote
 )
 ;
-JS_PUBLIC_API
 bool
 QuoteString
 (
@@ -2224,7 +2218,6 @@ quote
 )
 ;
 }
-JS_PUBLIC_API
 UniqueChars
 QuoteString
 (
@@ -2291,7 +2284,6 @@ release
 )
 ;
 }
-JS_PUBLIC_API
 bool
 JSONQuoteString
 (
