@@ -217,15 +217,6 @@ DocAccessiblePlatformExtChild
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StaticPrefs_accessibility
-.
-h
-"
 using
 namespace
 mozilla
