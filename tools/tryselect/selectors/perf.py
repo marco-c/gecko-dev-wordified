@@ -77,6 +77,12 @@ import
 datetime
 timedelta
 from
+mach
+.
+util
+import
+get_state_dir
+from
 mozbuild
 .
 base
@@ -175,9 +181,9 @@ pathlib
 .
 Path
 (
-build
-.
-statedir
+get_state_dir
+(
+)
 "
 try_perf_revision_cache
 .
