@@ -777,6 +777,14 @@ mBackgroundEventTarget
 )
 ;
 }
+mAssociatedBrowsingContextID
+=
+aArgs
+.
+associatedBrowsingContextID
+(
+)
+;
 MOZ_ASSERT
 (
 !
@@ -1283,6 +1291,10 @@ self
 -
 >
 mCSPEventListener
+self
+-
+>
+mAssociatedBrowsingContextID
 self
 -
 >
