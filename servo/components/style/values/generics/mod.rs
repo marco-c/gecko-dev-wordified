@@ -140,6 +140,10 @@ StyleParseErrorKind
 ;
 pub
 mod
+animation
+;
+pub
+mod
 background
 ;
 pub
