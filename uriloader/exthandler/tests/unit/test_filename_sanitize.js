@@ -377,7 +377,7 @@ repeat
 )
 +
 "
-abc
+ab
 .
 png
 "
@@ -423,6 +423,10 @@ equal
 (
 checkFilename
 (
+"
+a
+"
++
 "
 "
 .
@@ -438,11 +442,15 @@ png
 0
 )
 "
+a
+"
++
+"
 "
 .
 repeat
 (
-41
+40
 )
 +
 "
@@ -458,6 +466,10 @@ equal
 checkFilename
 (
 "
+a
+"
++
+"
 "
 .
 repeat
@@ -471,6 +483,10 @@ png
 "
 0
 )
+"
+a
+"
++
 "
 "
 .
@@ -568,10 +584,11 @@ caf
 .
 repeat
 (
-50
+49
 )
 +
 "
+caf
 .
 png
 "
@@ -785,7 +802,7 @@ repeat
 )
 +
 "
-noextension
+noextensio
 .
 png
 "
@@ -822,7 +839,7 @@ repeat
 )
 +
 "
-noextension
+noextensio
 .
 png
 "
@@ -1080,7 +1097,7 @@ png
 repeatStr
 +
 "
-sev
+se
 .
 png
 "
@@ -1244,7 +1261,7 @@ repeatStr
 substring
 (
 0
-255
+254
 -
 ext
 .
@@ -1260,9 +1277,9 @@ ext
 lo
 %
 ?
-ng
+n
 /
-invalid
+ginvalid
 ?
 ch
 \
@@ -1288,7 +1305,7 @@ repeatStr
 "
 lo
 %
-ng_
+n_
 "
 )
 ;
@@ -1325,7 +1342,7 @@ repeatStr
 substring
 (
 0
-234
+233
 )
 +
 "
