@@ -1078,6 +1078,16 @@ mSimulcastEnvelopeSet
 =
 false
 ;
+bool
+mSimulcastEnvelopeSetByJSEP
+=
+false
+;
+bool
+mPendingRidChangeFromCompatMode
+=
+false
+;
 Maybe
 <
 RTCRtpSendParameters
