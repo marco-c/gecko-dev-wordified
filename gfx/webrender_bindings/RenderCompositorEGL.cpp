@@ -1230,9 +1230,6 @@ DestroyEGLSurface
 (
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 auto
 size
 =
@@ -1382,11 +1379,6 @@ SetEGLSurfaceOverride
 mEGLSurface
 )
 ;
-#
-endif
-/
-/
-MOZ_WIDGET_ANDROID
 }
 else
 if
