@@ -3000,7 +3000,7 @@ options
 )
 ;
 void
-moveGCOutputInto
+moveInstantiationStorageInto
 (
 JS
 :

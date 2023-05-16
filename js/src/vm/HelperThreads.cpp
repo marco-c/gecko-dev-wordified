@@ -3827,7 +3827,7 @@ void
 ParseTask
 :
 :
-moveGCOutputInto
+moveInstantiationStorageInto
 (
 JS
 :
@@ -14722,7 +14722,7 @@ allocateInstantiationStorage
 parseTask
 -
 >
-moveGCOutputInto
+moveInstantiationStorageInto
 (
 *
 storage
