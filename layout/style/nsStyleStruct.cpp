@@ -2112,7 +2112,7 @@ ScaleBy
 pc
 -
 >
-EffectiveTextZoom
+TextZoom
 (
 )
 )
