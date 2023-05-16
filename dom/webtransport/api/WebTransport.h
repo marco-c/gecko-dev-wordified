@@ -482,9 +482,6 @@ ResolveWaitingConnection
 (
 WebTransportReliabilityMode
 aReliability
-WebTransportChild
-*
-aChild
 )
 ;
 void
@@ -492,9 +489,6 @@ RejectWaitingConnection
 (
 nsresult
 aRv
-WebTransportChild
-*
-aChild
 )
 ;
 bool
