@@ -139,7 +139,7 @@ Result
 T
 >
 >
-status
+_status
 :
 Sender
 <
@@ -218,7 +218,6 @@ DeviceSelector
 :
 run
 (
-status
 )
 ;
 let

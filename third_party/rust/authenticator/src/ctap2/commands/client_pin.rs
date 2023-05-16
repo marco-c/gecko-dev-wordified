@@ -4270,6 +4270,8 @@ as_ref
 derive
 (
 Clone
+Serialize
+Deserialize
 )
 ]
 pub

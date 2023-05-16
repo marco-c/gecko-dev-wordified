@@ -158,8 +158,12 @@ pub
 enum
 UnsupportedOption
 {
-MaxPinLength
+EmptyAllowList
 HmacSecret
+MaxPinLength
+PubCredParams
+ResidentKey
+UserVerification
 }
 #
 [
