@@ -2149,9 +2149,6 @@ allocatedSites
 }
 private
 :
-class
-MaybeGCSession
-;
 void
 processSite
 (
@@ -2170,9 +2167,6 @@ sitesPretenured
 size_t
 &
 sitesInvalidated
-MaybeGCSession
-&
-session
 bool
 reportInfo
 size_t
