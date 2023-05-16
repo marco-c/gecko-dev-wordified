@@ -266,11 +266,12 @@ password
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )
@@ -693,6 +694,7 @@ tm
 .
 dispatchToMainThread
 (
+async
 (
 )
 =
@@ -714,11 +716,12 @@ by
 saving
 a
 login
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 LoginTestUtils
 .
