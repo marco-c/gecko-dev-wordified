@@ -1717,6 +1717,8 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
+BaselineExportContext
+aExportContext
 )
 const
 {
@@ -1869,6 +1871,7 @@ GetNaturalBaselineBOffset
 (
 aWM
 aBaselineGroup
+aExportContext
 )
 ;
 if
@@ -1998,6 +2001,8 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
+BaselineExportContext
+aExportContext
 )
 const
 {
@@ -2031,6 +2036,7 @@ cend
 )
 aWM
 aBaselineGroup
+aExportContext
 )
 ;
 }
@@ -2053,6 +2059,7 @@ crend
 )
 aWM
 aBaselineGroup
+aExportContext
 )
 ;
 }
