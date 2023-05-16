@@ -657,6 +657,10 @@ StructuredCloneScope
 :
 :
 DifferentProcess
+OwnTransferablePolicy
+:
+:
+IgnoreTransferablesIfAny
 )
 ;
 return
