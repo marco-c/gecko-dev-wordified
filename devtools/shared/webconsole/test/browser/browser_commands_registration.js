@@ -96,7 +96,7 @@ startListening
 /
 /
 Fetch
-WebConsoleCommands
+WebConsoleCommandsManager
 so
 that
 it
@@ -149,7 +149,7 @@ mjs
 ;
 const
 {
-WebConsoleCommands
+WebConsoleCommandsManager
 }
 =
 require
@@ -167,7 +167,9 @@ actors
 /
 webconsole
 /
-utils
+commands
+/
+manager
 .
 js
 "
@@ -191,9 +193,9 @@ next
 tasks
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 =
-WebConsoleCommands
+WebConsoleCommandsManager
 ;
 }
 )
@@ -282,7 +284,7 @@ function
 {
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 register
 (
@@ -316,7 +318,7 @@ ok
 (
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 hasCommand
 (
@@ -430,7 +432,7 @@ origKeys
 =
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 getCommand
 (
@@ -491,7 +493,7 @@ args
 ;
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 register
 (
@@ -505,7 +507,7 @@ is
 (
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 getCommand
 (
@@ -619,7 +621,7 @@ function
 {
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 register
 (
@@ -635,7 +637,7 @@ is
 (
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 getCommand
 (
@@ -689,7 +691,7 @@ function
 {
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 unregister
 (
@@ -757,7 +759,7 @@ function
 {
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 register
 (
@@ -884,7 +886,7 @@ o_
 ;
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 unregister
 (
@@ -898,7 +900,7 @@ ok
 !
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 hasCommand
 (
@@ -940,7 +942,7 @@ function
 {
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 register
 (
@@ -1016,7 +1018,7 @@ orig
 =
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 getCommand
 (
@@ -1027,7 +1029,7 @@ keys
 ;
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 register
 (
@@ -1145,7 +1147,7 @@ function
 {
 this
 .
-WebConsoleCommands
+WebConsoleCommandsManager
 .
 unregister
 (
