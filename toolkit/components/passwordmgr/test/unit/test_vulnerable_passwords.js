@@ -72,7 +72,7 @@ _storage
 .
 wrappedJSObject
 ;
-const
+let
 logins
 =
 TestData
@@ -103,18 +103,17 @@ be
 ;
 for
 (
-const
+let
 loginInfo
 of
 logins
 )
 {
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 loginInfo
 )
@@ -185,7 +184,7 @@ addVulnerablePassword
 ;
 for
 (
-const
+let
 loginInfo
 of
 logins
@@ -232,7 +231,7 @@ clearAllPotentiallyVulnerablePasswords
 ;
 for
 (
-const
+let
 loginInfo
 of
 logins
