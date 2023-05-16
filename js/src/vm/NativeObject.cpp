@@ -4737,7 +4737,7 @@ and
 provide
 at
 least
-SLOT_CAPACITY_MIN
+ELEMENT_CAPACITY_MIN
 elements
 no
 matter
@@ -5028,12 +5028,12 @@ if
 (
 amount
 <
-SLOT_CAPACITY_MIN
+ELEMENT_CAPACITY_MIN
 )
 {
 amount
 =
-SLOT_CAPACITY_MIN
+ELEMENT_CAPACITY_MIN
 ;
 }
 *
