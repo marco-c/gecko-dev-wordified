@@ -140,7 +140,9 @@ jsm
 "
 GeckoViewAutofill
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewChildModule
@@ -286,7 +288,9 @@ mjs
 "
 MediaUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 Messaging
