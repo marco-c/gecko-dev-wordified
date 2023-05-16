@@ -57,7 +57,7 @@ messagehandler
 /
 transports
 /
-FrameContextUtils
+BrowsingContextUtils
 .
 sys
 .
@@ -116,7 +116,7 @@ net
 Test
 helpers
 from
-FrameContextUtils
+BrowsingContextUtils
 in
 various
 processes
@@ -623,7 +623,7 @@ _expected
 >
 {
 const
-FrameContextUtils
+BrowsingContextUtils
 =
 ChromeUtils
 .
@@ -644,7 +644,7 @@ messagehandler
 /
 transports
 /
-FrameContextUtils
+BrowsingContextUtils
 .
 sys
 .
@@ -654,7 +654,7 @@ mjs
 ;
 is
 (
-FrameContextUtils
+BrowsingContextUtils
 .
 isBrowsingContextCompatible
 (
