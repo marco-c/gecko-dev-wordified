@@ -601,6 +601,10 @@ test
 RtpFileReader
 *
 rtp_reader
+const
+RtpHeaderExtensionMap
+&
+extensions
 )
 ;
 }
