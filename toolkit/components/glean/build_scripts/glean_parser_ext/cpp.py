@@ -330,7 +330,44 @@ the
 front
 .
         
+label_enum
+=
+"
+DynamicLabel
+"
+        
+if
+obj
+.
+labels
+and
+len
+(
+obj
+.
+labels
+)
+:
+            
+label_enum
+=
+f
+"
+{
+util
+.
+Camelize
+(
+obj
+.
+name
+)
+}
+Label
+"
+        
 return
+f
 "
 Labeled
 <
@@ -338,15 +375,14 @@ impl
 :
 :
 {
+class_name
 }
 Metric
+{
+label_enum
+}
 >
 "
-.
-format
-(
-class_name
-)
     
 generate_enums
 =
@@ -375,7 +411,7 @@ generate_enums
         
 for
 name
-suffix
+_
 in
 generate_enums
 :
@@ -659,11 +695,9 @@ dictionary
     
 #
 Monkeypatch
-a
 util
 .
 snake_case
-function
 for
 the
 templates
