@@ -7015,6 +7015,13 @@ environment
 variable
 .
                 
+base_extra_args
+=
+list
+(
+extra_args
+)
+                
 base_try_config
 =
 copy
@@ -7028,7 +7035,7 @@ comparator_obj
 .
 setup_base_revision
 (
-extra_args
+base_extra_args
 )
                 
 PerfParser
@@ -7036,7 +7043,7 @@ PerfParser
 setup_try_config
 (
 base_try_config
-extra_args
+base_extra_args
 )
                 
 with
@@ -7176,11 +7183,18 @@ teardown_base_revision
 (
 )
             
+new_extra_args
+=
+list
+(
+extra_args
+)
+            
 comparator_obj
 .
 setup_new_revision
 (
-extra_args
+new_extra_args
 )
             
 PerfParser
@@ -7190,7 +7204,7 @@ setup_try_config
                 
 try_config
                 
-extra_args
+new_extra_args
                 
 base_revision_treeherder
 =
