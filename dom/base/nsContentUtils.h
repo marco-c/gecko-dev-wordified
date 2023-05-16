@@ -2801,7 +2801,7 @@ element
 *
 /
 static
-nsINode
+Element
 *
 GetAnElementForTiming
 (

@@ -120,6 +120,11 @@ EventCounts
 h
 "
 "
+LargestContentfulPaint
+.
+h
+"
+"
 Performance
 .
 h
@@ -216,6 +221,11 @@ UNIFIED_SOURCES
 [
 "
 EventCounts
+.
+cpp
+"
+"
+LargestContentfulPaint
 .
 cpp
 "

@@ -16922,7 +16922,7 @@ nullptr
 /
 /
 static
-nsINode
+Element
 *
 nsContentUtils
 :
