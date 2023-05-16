@@ -4959,6 +4959,15 @@ override
 ;
 RTCStatsMember
 <
+std
+:
+:
+string
+>
+kind
+;
+RTCStatsMember
+<
 double
 >
 synthesized_samples_duration
