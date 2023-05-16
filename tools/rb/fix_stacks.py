@@ -1062,6 +1062,20 @@ __main__
 "
 :
     
+bpsyms
+=
+os
+.
+environ
+.
+get
+(
+"
+BREAKPAD_SYMBOLS_PATH
+"
+None
+)
+    
 for
 line
 in
@@ -1079,5 +1093,8 @@ write
 fixSymbols
 (
 line
+breakpadSymsDir
+=
+bpsyms
 )
 )
