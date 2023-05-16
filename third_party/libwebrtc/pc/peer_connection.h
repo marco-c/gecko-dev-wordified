@@ -4272,6 +4272,16 @@ data_channel_transport
 )
 override
 ;
+void
+SetSctpTransportName
+(
+std
+:
+:
+string
+sctp_transport_name
+)
+;
 std
 :
 :
