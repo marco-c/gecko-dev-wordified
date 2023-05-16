@@ -91,6 +91,16 @@ WASM_SOURCES
 [
 "
 /
+memory
+/
+mozalloc
+/
+mozalloc
+.
+cpp
+"
+"
+/
 third_party
 /
 rlbox_wasm2c_sandbox
