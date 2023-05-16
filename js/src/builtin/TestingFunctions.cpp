@@ -24224,7 +24224,7 @@ false
 UniqueChars
 bytes
 (
-JS_EncodeStringToLatin1
+JS_EncodeStringToUTF8
 (
 cx
 str
