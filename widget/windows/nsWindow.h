@@ -2007,6 +2007,16 @@ sIsRestoringSession
 aIsRestoringSession
 ;
 }
+bool
+IsRTL
+(
+)
+const
+{
+return
+mIsRTL
+;
+}
 /
 *
 *
