@@ -19099,7 +19099,7 @@ cpp
 .
 moz_set_max_dirty_page_modifier
 (
-3
+4
 )
 ;
 }
@@ -19118,7 +19118,7 @@ PROCESS_PRIORITY_BACKGROUND
 moz_set_max_dirty_page_modifier
 (
 -
-1
+2
 )
 ;
 }
