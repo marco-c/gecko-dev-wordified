@@ -2184,7 +2184,6 @@ impression
 ;
 }
 }
-async
 function
 assertAbandonmentEvent
 (
