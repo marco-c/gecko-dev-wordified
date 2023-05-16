@@ -30175,7 +30175,7 @@ masm
 callWithABI
 <
 Fn
-GetNativeDataPropertyByIdPure
+GetNativeDataPropertyPure
 >
 (
 )
@@ -30694,9 +30694,8 @@ cx
 JSObject
 *
 obj
-PropertyName
-*
-name
+PropertyKey
+id
 Value
 *
 val
