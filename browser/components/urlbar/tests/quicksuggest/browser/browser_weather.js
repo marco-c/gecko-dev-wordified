@@ -964,8 +964,6 @@ firefox
 -
 suggest
 -
-weather
--
 command
 -
 dont
