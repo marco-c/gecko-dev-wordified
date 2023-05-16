@@ -1154,6 +1154,13 @@ nsIClipboard
 :
 :
 kGlobalClipboard
+EditorBase
+:
+:
+DispatchPasteEvent
+:
+:
+Yes
 aPrincipal
 )
 ;
@@ -1169,6 +1176,10 @@ HTMLEditor
 :
 PasteNoFormattingAsAction
 (
+DispatchPasteEvent
+:
+:
+Yes
 )
 failed
 "
