@@ -142,14 +142,6 @@ long
 ulong
 ;
 #
-ifndef
-__GNUC_STDC_INLINE__
-#
-define
-inline
-#
-endif
-#
 endif
 /
 *
