@@ -2941,13 +2941,6 @@ if
 (
 this
 .
-_options
-.
-shouldShowOverlay
-&
-&
-this
-.
 isPaused
 (
 )

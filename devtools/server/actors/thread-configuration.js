@@ -185,16 +185,6 @@ ignoreCaughtExceptions
 true
 /
 /
-Shows
-the
-pause
-overlay
-.
-shouldShowOverlay
-:
-true
-/
-/
 Include
 previously
 saved
