@@ -1038,13 +1038,6 @@ active
 pretty
 :
 isPrettyCode
-blackboxed
-:
-this
-.
-props
-.
-isBlackBoxed
 }
 )
 ;
