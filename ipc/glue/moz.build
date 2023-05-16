@@ -406,6 +406,11 @@ URIUtils
 h
 "
 "
+UtilityAudioDecoder
+.
+h
+"
+"
 UtilityAudioDecoderChild
 .
 h
@@ -1054,6 +1059,11 @@ cpp
 "
 "
 URIUtils
+.
+cpp
+"
+"
+UtilityAudioDecoder
 .
 cpp
 "
