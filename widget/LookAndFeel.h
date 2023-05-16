@@ -1649,15 +1649,6 @@ TitlebarRadius
 /
 *
 *
-GTK
-menu
-radius
-*
-/
-GtkMenuRadius
-/
-*
-*
 *
 Corresponding
 to

@@ -1215,11 +1215,6 @@ titlebarRadius
 "
 ui
 .
-GtkMenuRadius
-"
-"
-ui
-.
 dynamicRange
 "
 "
