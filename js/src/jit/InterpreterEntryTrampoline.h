@@ -434,7 +434,7 @@ HashMap
 <
 HeapPtr
 <
-JSScript
+BaseScript
 *
 >
 EntryTrampoline
@@ -442,7 +442,7 @@ DefaultHasher
 <
 HeapPtr
 <
-JSScript
+BaseScript
 *
 >
 >
