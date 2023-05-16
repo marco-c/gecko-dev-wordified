@@ -670,6 +670,9 @@ newPtr
 }
 #
 ifndef
+__wasm__
+#
+ifndef
 HAVE_MEMALIGN
 /
 /
@@ -771,6 +774,8 @@ return
 ptr
 ;
 }
+#
+endif
 size_t
 moz_malloc_usable_size
 (

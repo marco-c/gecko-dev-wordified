@@ -111,6 +111,9 @@ mozilla_throw_gcc_h
 define
 mozilla_throw_gcc_h
 #
+ifndef
+__wasm__
+#
 include
 "
 mozilla
@@ -813,6 +816,8 @@ MOZ_THROW_NORETURN
 #
 undef
 MOZ_THROW_INLINE
+#
+endif
 #
 endif
 /
