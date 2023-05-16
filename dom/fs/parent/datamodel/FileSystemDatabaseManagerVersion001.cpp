@@ -4572,9 +4572,12 @@ FileSystemConnection
 &
 aConnection
 const
-Origin
+quota
+:
+:
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 )
 {
 QM_TRY_UNWRAP
@@ -4589,7 +4592,7 @@ FileSystemFileManager
 :
 CreateFileSystemFileManager
 (
-aOrigin
+aOriginMetadata
 )
 )
 ;

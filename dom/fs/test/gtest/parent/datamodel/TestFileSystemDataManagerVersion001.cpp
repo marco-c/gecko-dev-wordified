@@ -595,7 +595,7 @@ FileSystemFileManager
 :
 CreateFileSystemFileManager
 (
-GetTestOrigin
+GetTestOriginMetadata
 (
 )
 )

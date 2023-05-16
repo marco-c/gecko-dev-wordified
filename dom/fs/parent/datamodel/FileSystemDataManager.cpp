@@ -818,9 +818,12 @@ QMResult
 GetStorageConnection
 (
 const
-Origin
+quota
+:
+:
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 const
 int64_t
 aDirectoryLockId
@@ -855,7 +858,7 @@ auto
 dbFileUrl
 GetDatabaseFileURL
 (
-aOrigin
+aOriginMetadata
 aDirectoryLockId
 )
 )
@@ -2948,8 +2951,6 @@ self
 -
 >
 mOriginMetadata
-.
-mOrigin
 self
 -
 >
@@ -3004,8 +3005,6 @@ self
 -
 >
 mOriginMetadata
-.
-mOrigin
 )
 CreateAndRejectBoolPromiseFromQMResult
 )
