@@ -748,7 +748,6 @@ js
 )
 )
 ;
-await
 dispatch
 (
 actions
@@ -1423,6 +1422,7 @@ actions
 setSelectedLocation
 (
 cx
+source
 location
 )
 )
