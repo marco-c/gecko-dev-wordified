@@ -7157,6 +7157,10 @@ if
 aParent
 )
 {
+RecomputeResistFingerprinting
+(
+)
+;
 mIgnoreDocGroupMismatches
 =
 aParent
