@@ -105,6 +105,15 @@ crate
 :
 Error
 ;
+use
+core
+:
+:
+mem
+:
+:
+MaybeUninit
+;
 #
 [
 link
@@ -144,7 +153,10 @@ dest
 &
 mut
 [
+MaybeUninit
+<
 u8
+>
 ]
 )
 -
@@ -165,6 +177,10 @@ dest
 as_mut_ptr
 (
 )
+as
+*
+mut
+u8
 dest
 .
 len

@@ -110,10 +110,16 @@ use
 core
 :
 :
+{
 ffi
 :
 :
 c_void
+mem
+:
+:
+MaybeUninit
+}
 ;
 extern
 "
@@ -146,7 +152,10 @@ dest
 &
 mut
 [
+MaybeUninit
+<
 u8
+>
 ]
 )
 -

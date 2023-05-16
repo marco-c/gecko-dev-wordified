@@ -119,6 +119,12 @@ core
 :
 :
 mem
+:
+:
+{
+self
+MaybeUninit
+}
 ;
 type
 GetEntropyFn
@@ -154,7 +160,10 @@ dest
 &
 mut
 [
+MaybeUninit
+<
 u8
+>
 ]
 )
 -
@@ -255,6 +264,10 @@ chunk
 as_mut_ptr
 (
 )
+as
+*
+mut
+u8
 chunk
 .
 len

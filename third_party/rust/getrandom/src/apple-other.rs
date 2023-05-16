@@ -113,6 +113,10 @@ ffi
 :
 :
 c_void
+mem
+:
+:
+MaybeUninit
 ptr
 :
 :
@@ -171,7 +175,10 @@ dest
 &
 mut
 [
+MaybeUninit
+<
 u8
+>
 ]
 )
 -
@@ -217,6 +224,10 @@ dest
 as_mut_ptr
 (
 )
+as
+*
+mut
+u8
 )
 }
 ;

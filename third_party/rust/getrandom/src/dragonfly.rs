@@ -115,6 +115,15 @@ Weak
 Error
 }
 ;
+use
+core
+:
+:
+mem
+:
+:
+MaybeUninit
+;
 pub
 fn
 getrandom_inner
@@ -124,7 +133,10 @@ dest
 &
 mut
 [
+MaybeUninit
+<
 u8
+>
 ]
 )
 -
@@ -246,6 +258,10 @@ buf
 as_mut_ptr
 (
 )
+as
+*
+mut
+u8
 buf
 .
 len
