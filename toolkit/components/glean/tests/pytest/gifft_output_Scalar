@@ -1116,7 +1116,6 @@ aId
 ;
 }
 static
-inline
 Maybe
 <
 ScalarID
@@ -1285,7 +1284,7 @@ SOME_STRING_SCALAR
 ;
 }
 case
-13
+14
 :
 {
 /
@@ -1304,7 +1303,7 @@ SOME_OTHER_UINT_SCALAR
 ;
 }
 case
-15
+16
 :
 {
 /
@@ -1325,7 +1324,7 @@ SOME_STILL_OTHER_STRING_SCALAR
 ;
 }
 case
-19
+20
 :
 {
 /
@@ -1346,7 +1345,7 @@ TELEMETRY_TEST_MIRROR_FOR_QUANTITY
 ;
 }
 case
-22
+23
 :
 {
 /
