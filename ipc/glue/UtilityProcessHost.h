@@ -740,13 +740,6 @@ InitAfterConnect
 (
 bool
 aSucceeded
-const
-char
-*
-aCallSite
-=
-"
-"
 )
 ;
 /
@@ -924,10 +917,6 @@ false
 void
 RejectPromise
 (
-const
-char
-*
-aCallSite
 )
 ;
 void
