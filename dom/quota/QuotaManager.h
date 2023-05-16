@@ -2462,7 +2462,6 @@ PrincipalInfo
 aPrincipalInfo
 )
 ;
-static
 PrincipalMetadata
 GetInfoFromValidatedPrincipalInfo
 (
