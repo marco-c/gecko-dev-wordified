@@ -1000,7 +1000,7 @@ payload
 )
 ;
 uint8_t
-exponenta
+exponent
 =
 payload
 [
@@ -1052,7 +1052,7 @@ bitrate_bps_
 mantissa
 <
 <
-exponenta
+exponent
 )
 ;
 bool
@@ -1068,7 +1068,7 @@ bitrate_bps_
 )
 >
 >
-exponenta
+exponent
 )
 !
 =
@@ -1076,6 +1076,11 @@ mantissa
 ;
 if
 (
+bitrate_bps_
+<
+0
+|
+|
 shift_overflow
 )
 {
@@ -1109,7 +1114,7 @@ static_cast
 int
 >
 (
-exponenta
+exponent
 )
 ;
 return
