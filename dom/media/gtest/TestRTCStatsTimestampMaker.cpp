@@ -188,6 +188,8 @@ Micros
 (
 i
 )
++
+kWebrtcTimeOffset
 ;
 const
 auto
@@ -312,6 +314,8 @@ Micros
 (
 i
 )
++
+kWebrtcTimeOffset
 ;
 const
 auto
