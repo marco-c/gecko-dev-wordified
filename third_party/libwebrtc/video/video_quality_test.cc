@@ -9709,7 +9709,7 @@ RtcEventLog
 EncodingType
 :
 :
-Legacy
+NewFormat
 )
 ;
 recv_event_log_
@@ -9724,7 +9724,7 @@ RtcEventLog
 EncodingType
 :
 :
-Legacy
+NewFormat
 )
 ;
 std
@@ -11363,7 +11363,7 @@ RtcEventLog
 EncodingType
 :
 :
-Legacy
+NewFormat
 )
 ;
 recv_event_log_
@@ -11378,7 +11378,7 @@ RtcEventLog
 EncodingType
 :
 :
-Legacy
+NewFormat
 )
 ;
 std
