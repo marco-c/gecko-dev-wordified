@@ -294,7 +294,7 @@ PlacesUtils
 .
 history
 .
-removeByFilter
+removeVisitsByFilter
 (
 {
 beginDate
@@ -303,6 +303,10 @@ new
 Date
 (
 now
+.
+valueOf
+(
+)
 -
 10000
 )
@@ -312,6 +316,10 @@ new
 Date
 (
 now
+.
+valueOf
+(
+)
 +
 10000
 )
