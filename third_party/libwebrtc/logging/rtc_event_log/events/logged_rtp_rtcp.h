@@ -1423,12 +1423,6 @@ include_timestamps
 *
 /
 true
-/
-*
-include_lost
-*
-/
-true
 )
 {
 }
