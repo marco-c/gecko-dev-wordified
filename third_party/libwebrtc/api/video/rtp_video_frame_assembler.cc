@@ -307,6 +307,17 @@ logging
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+numerics
+/
+sequence_number_unwrapper
+.
+h
+"
 namespace
 webrtc
 {
