@@ -244,6 +244,9 @@ lib_json
 kvstore
 "
 "
+lz4
+"
+"
 mediasniffer
 "
 "
@@ -251,6 +254,9 @@ mozintl
 "
 "
 mozprotocol
+"
+"
+osfile
 "
 "
 parentalcontrols
