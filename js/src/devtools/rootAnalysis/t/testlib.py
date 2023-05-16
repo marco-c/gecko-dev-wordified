@@ -406,6 +406,8 @@ self
 cfg
 .
 verbose
+>
+0
 :
             
 print
@@ -724,19 +726,27 @@ py
 "
 )
             
-"
--
-v
-"
-if
-self
-.
-verbose
-else
+[
 "
 -
 q
 "
+"
+"
+"
+-
+v
+"
+]
+[
+min
+(
+self
+.
+verbose
+2
+)
+]
         
 ]
         
@@ -813,17 +823,6 @@ cfg
 .
 verbose
 :
-            
-cmd
-.
-append
-(
-"
--
--
-verbose
-"
-)
             
 print
 (
