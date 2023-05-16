@@ -3472,6 +3472,7 @@ fetchPreload
 >
 NotifyUsage
 (
+mDocument
 PreloaderBase
 :
 :

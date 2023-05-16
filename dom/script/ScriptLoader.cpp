@@ -10055,6 +10055,7 @@ GetScriptLoadContext
 >
 NotifyUsage
 (
+mDocument
 )
 ;
 /

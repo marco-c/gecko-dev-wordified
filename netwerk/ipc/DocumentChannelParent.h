@@ -301,6 +301,8 @@ EarlyHintConnectArgs
 &
 &
 aEarlyHints
+uint32_t
+aEarlyHintLinkType
 )
 ;
 virtual

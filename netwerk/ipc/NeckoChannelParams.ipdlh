@@ -2767,6 +2767,9 @@ EarlyHintConnectArgs
 ]
 earlyHints
 ;
+uint32_t
+earlyHintLinkType
+;
 }
 ;
 struct

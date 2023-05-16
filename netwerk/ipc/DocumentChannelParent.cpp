@@ -771,6 +771,9 @@ aResolveValue
 .
 mEarlyHints
 )
+aResolveValue
+.
+mEarlyHintLinkType
 )
 ;
 /
@@ -1037,6 +1040,8 @@ EarlyHintConnectArgs
 &
 &
 aEarlyHints
+uint32_t
+aEarlyHintLinkType
 )
 {
 if
@@ -1098,6 +1103,7 @@ move
 (
 aEarlyHints
 )
+aEarlyHintLinkType
 )
 ;
 return

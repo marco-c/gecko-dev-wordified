@@ -15732,6 +15732,7 @@ proxy
 >
 NotifyUsage
 (
+aLoadingDocument
 )
 ;
 imgRequest

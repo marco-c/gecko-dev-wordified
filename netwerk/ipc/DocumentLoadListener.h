@@ -758,6 +758,9 @@ EarlyHintConnectArgs
 >
 mEarlyHints
 ;
+uint32_t
+mEarlyHintLinkType
+;
 RefPtr
 <
 PDocumentChannelParent
@@ -1914,6 +1917,8 @@ EarlyHintConnectArgs
 &
 &
 aEarlyHints
+uint32_t
+aEarlyHintLinkType
 )
 const
 ;
