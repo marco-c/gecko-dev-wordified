@@ -11127,6 +11127,15 @@ patterns
 field
 input
 "
+fileSearchInput
+:
+"
+.
+search
+-
+bar
+input
+"
 }
 ;
 function
