@@ -266,6 +266,9 @@ static
 CFDictionaryRef
 BuildEncoderSpec
 (
+const
+bool
+aHardwareNotAllowed
 )
 {
 const
@@ -287,6 +290,10 @@ values
 ]
 =
 {
+aHardwareNotAllowed
+?
+kCFBooleanFalse
+:
 kCFBooleanTrue
 }
 ;
@@ -654,6 +661,7 @@ spec
 (
 BuildEncoderSpec
 (
+mHardwareNotAllowed
 )
 )
 ;
