@@ -1512,6 +1512,7 @@ subtype
 =
 MEDIASUBTYPE_dvhd
 )
+{
 isDVCamera
 =
 true
@@ -1528,6 +1529,16 @@ Use
 MS
 DV
 filter
+}
+FreeMediaType
+(
+pmt
+)
+;
+pmt
+=
+NULL
+;
 }
 RELEASE_AND_CLEAR
 (
