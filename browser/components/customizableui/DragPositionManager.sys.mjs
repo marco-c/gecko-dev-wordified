@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 var
 gManagers
 =
@@ -77,15 +72,6 @@ customization
 -
 palette
 "
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-DragPositionManager
-"
-]
 ;
 function
 AreaPositionManager
@@ -2243,6 +2229,7 @@ rv
 }
 }
 ;
+export
 var
 DragPositionManager
 =
