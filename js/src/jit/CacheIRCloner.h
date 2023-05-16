@@ -217,6 +217,9 @@ class
 GetterSetter
 ;
 class
+PropertyName
+;
+class
 Shape
 ;
 namespace
@@ -324,6 +327,14 @@ stubOffset
 JSAtom
 *
 getAtomField
+(
+uint32_t
+stubOffset
+)
+;
+PropertyName
+*
+getPropertyNameField
 (
 uint32_t
 stubOffset

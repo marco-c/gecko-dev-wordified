@@ -729,8 +729,7 @@ caches
 )
 .
 megamorphicSetPropCache
--
->
+.
 bumpGeneration
 (
 )
