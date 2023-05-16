@@ -700,6 +700,7 @@ viewSource
 toolbox
 generatedURL
 generatedLine
+generatedColumn
 )
 ;
 return
@@ -877,6 +878,12 @@ number
 }
 sourceLine
 *
+param
+{
+number
+}
+sourceColumn
+*
 *
 return
 {
@@ -894,6 +901,7 @@ function
 toolbox
 sourceURL
 sourceLine
+sourceColumn
 )
 {
 const
@@ -914,6 +922,13 @@ sourceURL
 lineNumber
 :
 sourceLine
+|
+|
+-
+1
+columnNumber
+:
+sourceColumn
 |
 |
 -
