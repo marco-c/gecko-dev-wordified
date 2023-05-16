@@ -700,7 +700,7 @@ MathDepth
 MozScriptMinSize
 MozScriptSizeMultiplier
 XLang
-XTextZoom
+XTextScale
 }
 ;
 pub

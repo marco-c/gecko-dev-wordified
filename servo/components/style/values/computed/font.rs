@@ -315,7 +315,7 @@ FontVariantEastAsian
 FontVariantLigatures
 FontVariantNumeric
 XLang
-XTextZoom
+XTextScale
 }
 ;
 pub

@@ -3348,7 +3348,7 @@ XSpan
 "
                 
 "
-XTextZoom
+XTextScale
 "
                 
 "

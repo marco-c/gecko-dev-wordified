@@ -508,7 +508,7 @@ x
 -
 text
 -
-zoom
+scale
 "
 "
 -
