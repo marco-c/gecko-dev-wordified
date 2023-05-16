@@ -792,6 +792,8 @@ path
 .
 join
 (
+                    
+topsrcdir
 path
 mozpath
 .
@@ -800,6 +802,7 @@ relpath
 filename
 folder
 )
+                
 )
                 
 "
@@ -936,6 +939,8 @@ path
 .
 join
 (
+                    
+topsrcdir
 path
 mozpath
 .
@@ -944,6 +949,7 @@ relpath
 filename
 folder
 )
+                
 )
                 
 "
@@ -1317,18 +1323,12 @@ compat_failures
 path
 "
 :
-mozpath
-.
-relpath
-(
 r
 [
 "
 file
 "
 ]
-topsrcdir
-)
                     
 "
 lineno
@@ -1436,18 +1436,12 @@ api_changes
 path
 "
 :
-mozpath
-.
-relpath
-(
 r
 [
 "
 file
 "
 ]
-topsrcdir
-)
                 
 "
 lineno
@@ -1753,32 +1747,6 @@ issue
 in
 issues
 :
-                
-issue
-[
-"
-path
-"
-]
-=
-issue
-[
-"
-path
-"
-]
-.
-replace
-(
-lintargs
-[
-"
-root
-"
-]
-"
-"
-)
                 
 #
 We
@@ -2172,18 +2140,6 @@ get
 file
 "
 )
-.
-replace
-(
-lintargs
-[
-"
-root
-"
-]
-"
-"
-)
             
 "
 lineno
@@ -2270,28 +2226,6 @@ file
 "
 )
 :
-        
-sourcepath
-=
-file
-.
-get
-(
-"
-name
-"
-)
-.
-replace
-(
-topsrcdir
-+
-"
-/
-"
-"
-"
-)
         
 for
 error
@@ -2420,7 +2354,14 @@ message
 path
 "
 :
-sourcepath
+file
+.
+get
+(
+"
+name
+"
+)
                 
 "
 lineno
@@ -3164,6 +3105,8 @@ path
 .
 join
 (
+                            
+topsrcdir
 "
 mobile
 "
@@ -3171,6 +3114,7 @@ mobile
 android
 "
 sourcepath
+                        
 )
                         
 "
