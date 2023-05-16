@@ -2196,17 +2196,6 @@ ByMoveToRect
 No
 )
 ;
-void
-SetNativeData
-(
-uint32_t
-aDataType
-uintptr_t
-aVal
-)
-override
-{
-}
 /
 /
 Should

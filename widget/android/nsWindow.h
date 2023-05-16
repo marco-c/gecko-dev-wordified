@@ -1085,16 +1085,6 @@ aDataType
 )
 override
 ;
-void
-SetNativeData
-(
-uint32_t
-aDataType
-uintptr_t
-aVal
-)
-override
-;
 virtual
 nsresult
 SetTitle
