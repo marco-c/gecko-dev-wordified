@@ -38136,9 +38136,10 @@ PrincipalInfo
 TContentPrincipalInfo
 )
 ;
-PrincipalMetadata
+QM_TRY_UNWRAP
+(
+auto
 principalMetadata
-=
 QuotaManager
 :
 :
@@ -38150,6 +38151,7 @@ Get
 GetInfoFromValidatedPrincipalInfo
 (
 storagePrincipalInfo
+)
 )
 ;
 mOriginMetadata
