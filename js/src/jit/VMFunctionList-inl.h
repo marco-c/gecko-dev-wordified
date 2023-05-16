@@ -2614,15 +2614,6 @@ RegExpSearcherRaw
 \
 _
 (
-RegExpTesterRaw
-js
-:
-:
-RegExpTesterRaw
-)
-\
-_
-(
 SameValue
 js
 :
