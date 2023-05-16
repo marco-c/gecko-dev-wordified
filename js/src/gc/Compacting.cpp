@@ -282,7 +282,7 @@ include
 "
 gc
 /
-TraceMethods
+StableCellHasher
 -
 inl
 .
@@ -293,7 +293,7 @@ include
 "
 gc
 /
-Zone
+TraceMethods
 -
 inl
 .
@@ -1496,15 +1496,10 @@ to
 the
 object
 .
-src
--
->
-zone
-(
-)
--
->
-transferUniqueId
+gc
+:
+:
+TransferUniqueId
 (
 dst
 src
