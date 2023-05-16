@@ -9843,7 +9843,7 @@ metadataFile
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aFullOriginMetadata
 .
@@ -21839,7 +21839,7 @@ const
 auto
 &
 directory
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 fullOriginMetadata
 .
@@ -23159,7 +23159,7 @@ const
 auto
 &
 directory
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOriginMetadata
@@ -24039,7 +24039,7 @@ nsresult
 QuotaManager
 :
 :
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 PersistenceType
 aPersistenceType
@@ -32580,7 +32580,7 @@ QM_TRY_UNWRAP
 (
 auto
 directory
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 PERSISTENCE_TYPE_PERSISTENT
 aOriginMetadata
@@ -32937,7 +32937,7 @@ QM_TRY_UNWRAP
 (
 auto
 directory
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOriginMetadata
@@ -37737,7 +37737,7 @@ IsShuttingDown
 break
 ;
 }
-DeleteFilesForOrigin
+DeleteOriginDirectory
 (
 doomedOriginInfo
 -
@@ -37919,7 +37919,7 @@ void
 QuotaManager
 :
 :
-DeleteFilesForOrigin
+DeleteOriginDirectory
 (
 PersistenceType
 aPersistenceType
@@ -37935,7 +37935,7 @@ const
 auto
 &
 directory
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOrigin
@@ -38337,7 +38337,7 @@ const
 auto
 &
 directory
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 fullOriginMetadata
 .
@@ -40498,7 +40498,7 @@ auto
 file
 aQuotaManager
 .
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 mPersistenceType
 .
@@ -43644,7 +43644,7 @@ auto
 directory
 aQuotaManager
 .
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOriginMetadata
@@ -49936,7 +49936,7 @@ auto
 directory
 aQuotaManager
 .
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 mPersistenceType
 .
@@ -50209,7 +50209,7 @@ auto
 directory
 aQuotaManager
 .
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 mPersistenceType
 .

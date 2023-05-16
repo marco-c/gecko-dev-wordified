@@ -1273,7 +1273,7 @@ locks
 quotaManager
 -
 >
-DeleteFilesForOrigin
+DeleteOriginDirectory
 (
 lock
 -

@@ -559,7 +559,7 @@ testPathRes
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 quota
 :
