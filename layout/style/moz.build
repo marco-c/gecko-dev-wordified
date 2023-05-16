@@ -599,11 +599,6 @@ ServoComputedData
 h
 "
 "
-ServoComputedDataInlines
-.
-h
-"
-"
 ServoCSSParser
 .
 h

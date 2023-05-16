@@ -168,6 +168,13 @@ nsBidiUtils
 .
 h
 "
+#
+include
+"
+nsStyleStruct
+.
+h
+"
 /
 /
 It

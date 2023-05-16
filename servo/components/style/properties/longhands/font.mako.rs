@@ -3089,6 +3089,9 @@ as_mut_ptr
 )
 *
 self
+&
+*
+*
 cx
 .
 style
@@ -3096,10 +3099,6 @@ style
 )
 .
 get_font
-(
-)
-.
-gecko
 (
 )
 cx

@@ -174,6 +174,16 @@ nsTextFrame
 class
 nsPresContext
 ;
+namespace
+mozilla
+{
+enum
+class
+StyleTextDecorationStyle
+:
+uint8_t
+;
+}
 /
 *
 *

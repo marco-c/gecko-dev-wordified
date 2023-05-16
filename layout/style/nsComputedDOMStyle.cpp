@@ -7017,7 +7017,8 @@ RelevantLinkVisited
 {
 if
 (
-ComputedStyle
+const
+auto
 *
 styleIfVisited
 =
