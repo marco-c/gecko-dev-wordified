@@ -2002,7 +2002,7 @@ full_task_graph
 "
 )
 def
-verify_toolchain_alias
+verify_aliases
 (
 task
 taskgraph
@@ -2020,7 +2020,6 @@ This
 function
 verifies
 that
-toolchain
 aliases
 are
 not
@@ -2039,6 +2038,50 @@ None
         
 return
     
+if
+task
+.
+kind
+not
+in
+(
+"
+toolchain
+"
+"
+fetch
+"
+)
+:
+        
+return
+    
+aliases
+=
+scratch_pad
+.
+setdefault
+(
+task
+.
+kind
+{
+}
+)
+    
+alias_attribute
+=
+f
+"
+{
+task
+.
+kind
+}
+-
+alias
+"
+    
 attributes
 =
 task
@@ -2046,11 +2089,7 @@ task
 attributes
     
 if
-"
-toolchain
--
-alias
-"
+alias_attribute
 in
 attributes
 :
@@ -2059,11 +2098,7 @@ keys
 =
 attributes
 [
-"
-toolchain
--
-alias
-"
+alias_attribute
 ]
         
 if
@@ -2099,7 +2134,7 @@ keys
 if
 key
 in
-scratch_pad
+aliases
 :
                 
 raise
@@ -2108,14 +2143,10 @@ Exception
                     
 "
 Duplicate
-toolchain
--
-alias
+{
+}
 in
 tasks
-"
-                    
-"
 {
 }
 and
@@ -2129,11 +2160,13 @@ and
 format
 (
                         
+alias_attribute
+                        
 task
 .
 label
                         
-scratch_pad
+aliases
 [
 key
 ]
@@ -2147,7 +2180,7 @@ key
 else
 :
                 
-scratch_pad
+aliases
 [
 key
 ]
