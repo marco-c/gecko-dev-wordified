@@ -1768,8 +1768,6 @@ whether
 the
 given
 JSFunction
-or
-Value
 is
 a
 self
@@ -1795,18 +1793,6 @@ IsSelfHostedFunctionWithName
 JSFunction
 *
 fun
-JSAtom
-*
-name
-)
-;
-bool
-IsSelfHostedFunctionWithName
-(
-const
-Value
-&
-v
 JSAtom
 *
 name
