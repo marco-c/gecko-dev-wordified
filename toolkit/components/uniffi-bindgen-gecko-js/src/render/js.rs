@@ -317,7 +317,9 @@ js
 /
 wrapper
 .
-jsm
+sys
+.
+mjs
 "
 escape
 =
@@ -552,7 +554,9 @@ Rust
 {
 }
 .
-jsm
+sys
+.
+mjs
 "
 namespace
 .

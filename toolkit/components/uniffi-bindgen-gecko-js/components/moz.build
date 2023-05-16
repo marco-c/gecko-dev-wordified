@@ -94,7 +94,9 @@ generated
 /
 RustTabs
 .
-jsm
+sys
+.
+mjs
 "
 ]
 with

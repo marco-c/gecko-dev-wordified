@@ -129,7 +129,9 @@ Rust
 {
 }
 .
-jsm
+sys
+.
+mjs
 "
 .
 format
