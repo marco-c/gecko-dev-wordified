@@ -3030,9 +3030,6 @@ virtual
 void
 parse
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
