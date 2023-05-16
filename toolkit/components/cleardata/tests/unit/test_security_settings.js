@@ -159,7 +159,6 @@ valid
 .
 let
 [
-serverCert
 clientCert
 ]
 =
@@ -233,7 +232,6 @@ rememberDecisionScriptable
 (
 host
 attrs
-serverCert
 clientCert
 )
 ;
@@ -587,7 +585,6 @@ hasRememberedDecisionScriptable
 (
 host
 attrs
-serverCert
 {
 }
 )
