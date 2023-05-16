@@ -117,11 +117,9 @@ h
 #
 include
 "
-modules
+rtc_base
 /
-include
-/
-module_common_types_public
+checks
 .
 h
 "
@@ -130,7 +128,9 @@ include
 "
 rtc_base
 /
-checks
+numerics
+/
+sequence_number_unwrapper
 .
 h
 "
@@ -435,7 +435,7 @@ Parameters
 params_
 ;
 mutable
-TimestampUnwrapper
+RtpTimestampUnwrapper
 unwrapper_
 ;
 }
