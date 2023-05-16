@@ -6042,7 +6042,7 @@ RtpExtension
 :
 :
 kDependencyDescriptorUri
-kRtpExtensionGenericFrameDescriptor02
+kRtpExtensionDependencyDescriptor
 )
 ;
 }
