@@ -1288,6 +1288,11 @@ Platforms
 LINUX
 .
 value
+Platforms
+.
+WINDOWS
+.
+value
 ]
             
 }
