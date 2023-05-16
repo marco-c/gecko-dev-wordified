@@ -164,9 +164,6 @@ nsIPrincipal
 class
 nsIURI
 ;
-struct
-RawServoStyleSheetContents
-;
 namespace
 mozilla
 {
@@ -175,6 +172,9 @@ StyleSheet
 ;
 struct
 StyleUseCounters
+;
+struct
+StyleStylesheetContents
 ;
 struct
 URLExtraData
@@ -621,7 +621,7 @@ mSourceURL
 RefPtr
 <
 const
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 mContents
 ;

@@ -4903,7 +4903,7 @@ SetURLExtraData
 RefPtr
 <
 const
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 rawContent
 =
@@ -7767,7 +7767,7 @@ Servo_UseCounters_Create
 }
 RefPtr
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 contents
 =
@@ -7891,7 +7891,7 @@ FinishAsyncParse
 (
 already_AddRefed
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 aSheetContents
 UniquePtr

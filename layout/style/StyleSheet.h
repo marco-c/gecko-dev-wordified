@@ -778,7 +778,7 @@ FinishAsyncParse
 (
 already_AddRefed
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 UniquePtr
 <
@@ -877,7 +877,7 @@ aRv
 )
 ;
 const
-RawServoStyleSheetContents
+StyleStylesheetContents
 *
 RawContents
 (

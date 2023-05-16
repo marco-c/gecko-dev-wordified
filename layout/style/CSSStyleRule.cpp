@@ -1330,7 +1330,7 @@ invalidation
 .
 .
 const
-RawServoStyleSheetContents
+StyleStylesheetContents
 *
 contents
 =

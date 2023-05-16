@@ -276,6 +276,9 @@ uint8_t
 struct
 Keyframe
 ;
+struct
+StyleStylesheetContents
+;
 namespace
 css
 {
@@ -835,7 +838,10 @@ mozilla
 :
 StyleStrong
 <
-RawServoStyleSheetContents
+mozilla
+:
+:
+StyleStylesheetContents
 >
 sheet_contents
 mozilla

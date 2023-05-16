@@ -409,7 +409,7 @@ i
 {
 RefPtr
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 stylesheet
 =

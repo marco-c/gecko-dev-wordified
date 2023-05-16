@@ -1232,7 +1232,7 @@ WillDirty
 )
 ;
 const
-RawServoStyleSheetContents
+StyleStylesheetContents
 *
 const
 contents

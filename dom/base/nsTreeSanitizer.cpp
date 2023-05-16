@@ -11060,7 +11060,7 @@ NodePrincipal
 ;
 RefPtr
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 contents
 =
