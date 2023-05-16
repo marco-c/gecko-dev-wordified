@@ -227,6 +227,8 @@ re
 import
 shutil
 import
+ssl
+import
 stat
 import
 sys
@@ -263,6 +265,19 @@ subprocess
 import
 PIPE
 Popen
+if
+os
+.
+name
+=
+=
+"
+nt
+"
+:
+    
+import
+certifi
 __version__
 =
 "
@@ -2210,7 +2225,6 @@ log
 .
 debug
 (
-u
 "
 normalized
 resource
@@ -2485,7 +2499,6 @@ content_hash
     
 header
 =
-u
 '
 Hawk
 mac
@@ -2515,7 +2528,6 @@ cover
         
 header
 =
-u
 '
 {
 }
@@ -2538,7 +2550,6 @@ content_hash
     
 header
 =
-u
 '
 {
 header
@@ -5046,10 +5057,7 @@ append
 f
 )
         
-else
-:
-            
-if
+elif
 not
 f
 .
@@ -5057,7 +5065,7 @@ validate
 (
 )
 :
-                
+            
 invalid_files
 .
 append
@@ -5606,6 +5614,53 @@ s
 %
 f
 )
+def
+_urlopen
+(
+req
+)
+:
+    
+ssl_context
+=
+None
+    
+if
+os
+.
+name
+=
+=
+"
+nt
+"
+:
+        
+ssl_context
+=
+ssl
+.
+create_default_context
+(
+cafile
+=
+certifi
+.
+where
+(
+)
+)
+    
+return
+urllib2
+.
+urlopen
+(
+req
+context
+=
+ssl_context
+)
 contextmanager
 retriable
 (
@@ -5639,9 +5694,7 @@ auth_file
 with
 closing
 (
-urllib2
-.
-urlopen
+_urlopen
 (
 req
 )
@@ -8963,9 +9016,7 @@ try
         
 resp
 =
-urllib2
-.
-urlopen
+_urlopen
 (
 req
 )
@@ -9351,9 +9402,7 @@ auth_file
 try
 :
         
-urllib2
-.
-urlopen
+_urlopen
 (
 req
 )
@@ -10140,9 +10189,7 @@ auth_file
 try
 :
         
-urllib2
-.
-urlopen
+_urlopen
 (
 req
 )
