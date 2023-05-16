@@ -319,6 +319,11 @@ UNIFIED_SOURCES
 =
 [
 "
+BaseVFS
+.
+cpp
+"
+"
 FileSystemModule
 .
 cpp
@@ -425,11 +430,6 @@ cpp
 "
 "
 StorageBaseStatementInternal
-.
-cpp
-"
-"
-TelemetryVFS
 .
 cpp
 "

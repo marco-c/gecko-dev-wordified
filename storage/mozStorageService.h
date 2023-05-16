@@ -770,10 +770,10 @@ reverse
 order
 .
 AutoVFSRegistration
-mTelemetrySqliteVFS
+mBaseSqliteVFS
 ;
 AutoVFSRegistration
-mTelemetryExclSqliteVFS
+mBaseExclSqliteVFS
 ;
 AutoVFSRegistration
 mQuotaSqliteVFS

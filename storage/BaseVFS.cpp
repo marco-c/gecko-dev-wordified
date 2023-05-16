@@ -3515,7 +3515,7 @@ storage
 const
 char
 *
-GetTelemetryVFSName
+GetBaseVFSName
 (
 bool
 exclusive
@@ -3525,7 +3525,7 @@ return
 exclusive
 ?
 "
-telemetry
+base
 -
 vfs
 -
@@ -3533,7 +3533,7 @@ excl
 "
 :
 "
-telemetry
+base
 -
 vfs
 "
@@ -3543,7 +3543,7 @@ UniquePtr
 <
 sqlite3_vfs
 >
-ConstructTelemetryVFS
+ConstructBaseVFS
 (
 bool
 exclusive
@@ -3780,7 +3780,7 @@ tvfs
 >
 zName
 =
-GetTelemetryVFSName
+GetBaseVFSName
 (
 exclusive
 )
