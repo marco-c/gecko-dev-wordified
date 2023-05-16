@@ -568,7 +568,11 @@ resource
 :
 /
 /
-autofill
+gre
+/
+modules
+/
+shared
 /
 FormAutofillHandler
 .
