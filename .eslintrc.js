@@ -6870,9 +6870,7 @@ configurations
 /
 ControlCenter
 .
-sys
-.
-mjs
+jsm
 "
 /
 /

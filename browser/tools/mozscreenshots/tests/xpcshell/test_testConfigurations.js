@@ -40,7 +40,7 @@ TestRunner
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -51,9 +51,7 @@ test
 /
 TestRunner
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
