@@ -1461,15 +1461,6 @@ action_overrides
 =
 {
 "
-generate_certdata_c
-"
-:
-"
-generate_certdata
-.
-py
-"
-"
 generate_mapfile
 "
 :
