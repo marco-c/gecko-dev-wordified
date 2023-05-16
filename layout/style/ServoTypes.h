@@ -176,12 +176,12 @@ X11UndefineNone
 .
 h
 "
+struct
+RawServoFontFaceRule
+;
 namespace
 mozilla
 {
-struct
-StyleLockedFontFaceRule
-;
 enum
 class
 StyleOrigin
@@ -213,10 +213,7 @@ nsFontFaceRuleContainer
 {
 RefPtr
 <
-mozilla
-:
-:
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 mRule
 ;

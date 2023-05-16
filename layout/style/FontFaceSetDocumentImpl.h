@@ -303,7 +303,7 @@ aRules
 )
 override
 ;
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 *
 FindRuleForEntry
 (
@@ -467,7 +467,7 @@ a
 userfont
 font
 entry
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 *
 FindRuleForUserFontEntry
 (

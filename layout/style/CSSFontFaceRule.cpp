@@ -337,7 +337,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 aRaw
 )
@@ -1275,7 +1275,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 aRaw
 )

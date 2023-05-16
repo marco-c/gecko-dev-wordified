@@ -1690,7 +1690,7 @@ return
 nsTArray
 <
 const
-StyleLockedStyleRule
+RawServoStyleRule
 *
 >
 rawRuleList
@@ -1893,7 +1893,7 @@ table
 for
 (
 const
-StyleLockedStyleRule
+RawServoStyleRule
 *
 rawRule
 :

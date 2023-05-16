@@ -161,7 +161,7 @@ CSSSupportsRule
 (
 RefPtr
 <
-StyleLockedSupportsRule
+RawServoSupportsRule
 >
 aRawRule
 StyleSheet
@@ -201,7 +201,7 @@ final
 ;
 #
 endif
-StyleLockedSupportsRule
+RawServoSupportsRule
 *
 Raw
 (
@@ -217,7 +217,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedSupportsRule
+RawServoSupportsRule
 >
 )
 ;
@@ -289,7 +289,7 @@ default
 ;
 RefPtr
 <
-StyleLockedSupportsRule
+RawServoSupportsRule
 >
 mRawRule
 ;

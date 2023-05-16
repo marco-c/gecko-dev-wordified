@@ -14162,7 +14162,7 @@ filters
 static
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 CreateDeclarationForServo
 (
@@ -14205,7 +14205,7 @@ CSSLoader
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 servoDeclarations
 =
@@ -14323,7 +14323,7 @@ forget
 static
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 CreateFontDeclarationForServo
 (
@@ -14373,7 +14373,7 @@ aError
 {
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 declarations
 =
@@ -14579,7 +14579,7 @@ parentStyle
 {
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 declarations
 =
@@ -14834,7 +14834,7 @@ forget
 static
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 CreateFilterDeclarationForServo
 (
@@ -14882,7 +14882,7 @@ aError
 {
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 declarations
 =

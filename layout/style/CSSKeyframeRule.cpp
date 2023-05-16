@@ -546,7 +546,7 @@ n
 void
 SetRawAfterClone
 (
-StyleLockedKeyframe
+RawServoKeyframe
 *
 aKeyframe
 )
@@ -695,7 +695,7 @@ CSSKeyframeRule
 (
 already_AddRefed
 <
-StyleLockedKeyframe
+RawServoKeyframe
 >
 aRaw
 StyleSheet
@@ -882,7 +882,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedKeyframe
+RawServoKeyframe
 >
 aRaw
 )

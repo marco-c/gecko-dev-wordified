@@ -233,7 +233,7 @@ Document
 aDoc
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 aDecls
 )
@@ -288,7 +288,7 @@ mDocument
 }
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 TakeDeclarationBlock
 (
@@ -1203,7 +1203,7 @@ mDocument
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 mDecl
 ;

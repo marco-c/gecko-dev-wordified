@@ -273,7 +273,7 @@ CSSStyleRuleDeclaration
 (
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 aDecls
 )
@@ -304,7 +304,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 )
 ;
@@ -331,7 +331,7 @@ CSSStyleRule
 (
 already_AddRefed
 <
-StyleLockedStyleRule
+RawServoStyleRule
 >
 aRawRule
 StyleSheet
@@ -475,7 +475,7 @@ Style
 )
 final
 ;
-StyleLockedStyleRule
+RawServoStyleRule
 *
 Raw
 (
@@ -491,7 +491,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedStyleRule
+RawServoStyleRule
 >
 )
 ;
@@ -560,7 +560,7 @@ CSSStyleRuleDeclaration
 ;
 RefPtr
 <
-StyleLockedStyleRule
+RawServoStyleRule
 >
 mRawRule
 ;

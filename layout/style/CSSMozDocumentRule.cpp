@@ -640,7 +640,7 @@ CSSMozDocumentRule
 (
 RefPtr
 <
-StyleLockedDocumentRule
+RawServoMozDocumentRule
 >
 aRawRule
 StyleSheet
@@ -663,7 +663,7 @@ css
 :
 ConditionRule
 (
-Servo_DocumentRule_GetRules
+Servo_MozDocumentRule_GetRules
 (
 aRawRule
 )
@@ -771,7 +771,7 @@ AppendLiteral
 )
 ;
 }
-Servo_DocumentRule_Debug
+Servo_MozDocumentRule_Debug
 (
 mRawRule
 &
@@ -805,7 +805,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedDocumentRule
+RawServoMozDocumentRule
 >
 aRaw
 )
@@ -828,7 +828,7 @@ ConditionRule
 :
 SetRawAfterClone
 (
-Servo_DocumentRule_GetRules
+Servo_MozDocumentRule_GetRules
 (
 mRawRule
 )
@@ -866,7 +866,7 @@ nsACString
 aConditionText
 )
 {
-Servo_DocumentRule_GetConditionText
+Servo_MozDocumentRule_GetConditionText
 (
 mRawRule
 &
@@ -891,7 +891,7 @@ aCssText
 )
 const
 {
-Servo_DocumentRule_GetCssText
+Servo_MozDocumentRule_GetCssText
 (
 mRawRule
 &

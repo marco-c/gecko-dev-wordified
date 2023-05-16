@@ -352,7 +352,7 @@ ServoCSSRuleList
 (
 already_AddRefed
 <
-StyleLockedCssRules
+ServoCssRules
 >
 aRawRules
 StyleSheet
@@ -575,10 +575,10 @@ column
 \
 RefPtr
 <
-StyleLocked
+RawServo
 #
 #
-const_
+name_
 #
 #
 Rule
@@ -589,7 +589,7 @@ raw
 Servo_CssRules_Get
 #
 #
-const_
+name_
 #
 #
 RuleAt
@@ -1549,7 +1549,7 @@ SetRawContents
 (
 RefPtr
 <
-StyleLockedCssRules
+ServoCssRules
 >
 aNewRules
 bool
@@ -1622,10 +1622,10 @@ column
 \
 RefPtr
 <
-StyleLocked
+RawServo
 #
 #
-constant_
+type_
 #
 #
 Rule
@@ -1636,7 +1636,7 @@ raw
 Servo_CssRules_Get
 #
 #
-constant_
+type_
 #
 #
 RuleAt
@@ -1645,7 +1645,6 @@ mRawRules
 aIndex
 &
 line
-\
 &
 column
 )

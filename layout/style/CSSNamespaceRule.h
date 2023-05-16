@@ -176,7 +176,7 @@ CSSNamespaceRule
 (
 already_AddRefed
 <
-StyleLockedNamespaceRule
+RawServoNamespaceRule
 >
 aRule
 StyleSheet
@@ -291,7 +291,7 @@ const
 final
 ;
 const
-StyleLockedNamespaceRule
+RawServoNamespaceRule
 *
 Raw
 (
@@ -311,7 +311,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedNamespaceRule
+RawServoNamespaceRule
 >
 )
 ;
@@ -400,7 +400,7 @@ CSSNamespaceRule
 ;
 RefPtr
 <
-StyleLockedNamespaceRule
+RawServoNamespaceRule
 >
 mRawRule
 ;

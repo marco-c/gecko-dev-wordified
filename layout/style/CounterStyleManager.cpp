@@ -5567,7 +5567,7 @@ CounterStyleManager
 *
 aManager
 const
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 *
 aRule
 )
@@ -5739,7 +5739,7 @@ ResetDependentData
 )
 ;
 const
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 *
 GetRule
 (
@@ -6169,7 +6169,7 @@ mManager
 RefPtr
 <
 const
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 >
 mRule
 ;

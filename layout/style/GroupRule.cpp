@@ -183,7 +183,7 @@ GroupRule
 (
 already_AddRefed
 <
-StyleLockedCssRules
+ServoCssRules
 >
 aRules
 StyleSheet

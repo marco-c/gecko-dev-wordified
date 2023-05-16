@@ -5022,7 +5022,7 @@ aDocument
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 servoDeclarationBlock
 =

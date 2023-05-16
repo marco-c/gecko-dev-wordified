@@ -223,7 +223,7 @@ MediaList
 (
 already_AddRefed
 <
-StyleLockedMediaList
+RawServoMediaList
 >
 aRawList
 )
@@ -327,7 +327,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedMediaList
+RawServoMediaList
 >
 aRaw
 )
@@ -574,7 +574,7 @@ aRv
 ;
 RefPtr
 <
-StyleLockedMediaList
+RawServoMediaList
 >
 mRawList
 ;

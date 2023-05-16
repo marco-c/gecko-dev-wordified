@@ -265,7 +265,7 @@ h
 "
 /
 /
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 #
 include
 "
@@ -1185,7 +1185,7 @@ computedStyle
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 declarations
 =

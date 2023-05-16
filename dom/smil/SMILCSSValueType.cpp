@@ -2958,7 +2958,7 @@ doc
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 servoDeclarationBlock
 =

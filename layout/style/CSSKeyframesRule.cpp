@@ -239,7 +239,7 @@ CSSKeyframeList
 (
 already_AddRefed
 <
-StyleLockedKeyframesRule
+RawServoKeyframesRule
 >
 aRawRule
 StyleSheet
@@ -288,7 +288,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedKeyframesRule
+RawServoKeyframesRule
 >
 aRaw
 )
@@ -335,7 +335,7 @@ column
 ;
 RefPtr
 <
-StyleLockedKeyframe
+RawServoKeyframe
 >
 keyframe
 =
@@ -464,7 +464,7 @@ column
 ;
 RefPtr
 <
-StyleLockedKeyframe
+RawServoKeyframe
 >
 rule
 =
@@ -865,7 +865,7 @@ nullptr
 ;
 RefPtr
 <
-StyleLockedKeyframesRule
+RawServoKeyframesRule
 >
 mRawRule
 ;
@@ -1041,7 +1041,7 @@ CSSKeyframesRule
 (
 RefPtr
 <
-StyleLockedKeyframesRule
+RawServoKeyframesRule
 >
 aRawRule
 StyleSheet
@@ -1246,7 +1246,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedKeyframesRule
+RawServoKeyframesRule
 >
 aRaw
 )

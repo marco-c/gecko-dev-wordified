@@ -168,7 +168,7 @@ CSSKeyframeRule
 (
 already_AddRefed
 <
-StyleLockedKeyframe
+RawServoKeyframe
 >
 aRaw
 StyleSheet
@@ -223,7 +223,7 @@ final
 ;
 #
 endif
-StyleLockedKeyframe
+RawServoKeyframe
 *
 Raw
 (
@@ -239,7 +239,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedKeyframe
+RawServoKeyframe
 >
 )
 ;
@@ -341,7 +341,7 @@ aCallback
 ;
 RefPtr
 <
-StyleLockedKeyframe
+RawServoKeyframe
 >
 mRaw
 ;
