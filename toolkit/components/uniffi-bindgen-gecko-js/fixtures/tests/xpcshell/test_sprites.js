@@ -32,7 +32,7 @@ Sprites
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -45,9 +45,7 @@ modules
 /
 RustSprites
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

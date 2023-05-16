@@ -32,7 +32,7 @@ Arithmetic
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -45,9 +45,7 @@ modules
 /
 RustArithmetic
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -56,7 +54,7 @@ Geometry
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -69,9 +67,7 @@ modules
 /
 RustGeometry
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -80,7 +76,7 @@ TodoList
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -93,9 +89,7 @@ modules
 /
 RustTodolist
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -104,7 +98,7 @@ Rondpoint
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -117,9 +111,7 @@ modules
 /
 RustRondpoint
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

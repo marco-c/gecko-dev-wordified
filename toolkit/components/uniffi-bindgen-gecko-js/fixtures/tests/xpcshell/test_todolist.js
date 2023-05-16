@@ -37,7 +37,7 @@ setDefaultList
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -50,9 +50,7 @@ modules
 /
 RustTodolist
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
