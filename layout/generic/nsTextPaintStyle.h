@@ -150,15 +150,6 @@ h
 #
 include
 "
-mozilla
-/
-SVGUtils
-.
-h
-"
-#
-include
-"
 nsAtom
 .
 h
