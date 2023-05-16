@@ -287,7 +287,7 @@ TestRunner
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -298,7 +298,9 @@ mozscreenshots
 /
 TestRunner
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
