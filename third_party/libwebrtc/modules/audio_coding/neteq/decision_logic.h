@@ -1237,6 +1237,17 @@ packet_history_size_ms
 =
 2000
 ;
+absl
+:
+:
+optional
+<
+int
+>
+cng_timeout_ms
+=
+1000
+;
 }
 ;
 Config
