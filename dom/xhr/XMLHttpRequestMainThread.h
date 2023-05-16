@@ -3908,9 +3908,6 @@ ProgressEventType
 aType
 )
 ;
-bool
-mInLoadProgressEvent
-;
 nsCOMPtr
 <
 nsIAsyncVerifyRedirectCallback
