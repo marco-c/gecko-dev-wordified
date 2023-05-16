@@ -227,6 +227,15 @@ aOut
 )
 override
 ;
+NS_IMETHOD
+GetStreamId
+(
+uint64_t
+*
+aId
+)
+override
+;
 private
 :
 virtual

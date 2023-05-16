@@ -320,6 +320,8 @@ aWebTransport
 nsIGlobalObject
 *
 aGlobal
+uint64_t
+aStreamId
 DataPipeSender
 *
 sender
@@ -614,8 +616,9 @@ aWebTransport
 >
 mSendStreams
 .
-AppendElement
+InsertOrUpdate
 (
+aStreamId
 stream
 )
 ;

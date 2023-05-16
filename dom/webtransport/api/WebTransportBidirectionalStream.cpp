@@ -239,6 +239,8 @@ aWebTransport
 nsIGlobalObject
 *
 aGlobal
+uint64_t
+aStreamId
 DataPipeReceiver
 *
 receiver
@@ -307,6 +309,7 @@ Create
 (
 aWebTransport
 aGlobal
+aStreamId
 receiver
 aRv
 )
@@ -334,6 +337,7 @@ Create
 (
 aWebTransport
 aGlobal
+aStreamId
 sender
 aRv
 )
