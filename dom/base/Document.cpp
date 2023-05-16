@@ -50500,9 +50500,6 @@ RemoveAnonymousContent
 AnonymousContent
 &
 aContent
-ErrorResult
-&
-aRv
 )
 {
 nsAutoScriptBlocker
@@ -62191,7 +62188,6 @@ adoptedAttr
 >
 GetOwnerElement
 (
-rv
 )
 ;
 if

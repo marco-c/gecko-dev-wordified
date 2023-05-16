@@ -267,9 +267,6 @@ Value
 >
 &
 aInterfaces
-ErrorResult
-&
-aRv
 )
 {
 JSContext

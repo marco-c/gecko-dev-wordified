@@ -606,9 +606,6 @@ GetWholeText
 nsAString
 &
 aWholeText
-ErrorResult
-&
-aRv
 )
 {
 nsIContent

@@ -1076,9 +1076,6 @@ JS
 Value
 >
 aReason
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

@@ -392,9 +392,6 @@ JS
 Value
 >
 aReason
-ErrorResult
-&
-aRv
 )
 ;
 static

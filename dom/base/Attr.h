@@ -550,9 +550,6 @@ Element
 *
 GetOwnerElement
 (
-ErrorResult
-&
-aRv
 )
 ;
 protected

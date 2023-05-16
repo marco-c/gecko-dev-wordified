@@ -208,9 +208,6 @@ GetWholeText
 nsAString
 &
 aWholeText
-ErrorResult
-&
-rv
 )
 ;
 static

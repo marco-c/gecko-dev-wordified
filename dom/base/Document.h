@@ -7790,9 +7790,6 @@ RemoveAnonymousContent
 AnonymousContent
 &
 aContent
-ErrorResult
-&
-aError
 )
 ;
 /

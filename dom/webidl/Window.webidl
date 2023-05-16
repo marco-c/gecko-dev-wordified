@@ -1076,7 +1076,6 @@ clientInformation
 ;
 [
 Replaceable
-Throws
 ]
 readonly
 attribute
@@ -3612,7 +3611,6 @@ Window
 {
 [
 Replaceable
-Throws
 UseCounter
 Pref
 =

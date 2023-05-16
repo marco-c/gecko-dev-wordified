@@ -1113,9 +1113,6 @@ Attr
 :
 GetOwnerElement
 (
-ErrorResult
-&
-aRv
 )
 {
 return
