@@ -833,11 +833,6 @@ int64_t
 end_sequence_number_exclusive
 )
 ;
-void
-TrimLeadingNotReceivedEntries
-(
-)
-;
 /
 /
 Adjust
