@@ -6230,6 +6230,16 @@ nsReflowStatus
 aStatus
 )
 {
+if
+(
+IsHiddenByContentVisibilityOfInFlowParentForLayout
+(
+)
+)
+{
+return
+;
+}
 MarkInReflow
 (
 )
