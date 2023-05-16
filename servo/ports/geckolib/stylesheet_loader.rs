@@ -392,10 +392,7 @@ ImportSupportsCondition
 >
 layer
 :
-Option
-<
 ImportLayer
->
 )
 -
 >
@@ -958,10 +955,7 @@ ImportSupportsCondition
 >
 layer
 :
-Option
-<
 ImportLayer
->
 )
 -
 >

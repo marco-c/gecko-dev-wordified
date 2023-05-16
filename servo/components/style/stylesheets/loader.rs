@@ -227,10 +227,7 @@ ImportSupportsCondition
 >
 layer
 :
-Option
-<
 ImportLayer
->
 )
 -
 >
