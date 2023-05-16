@@ -594,6 +594,7 @@ from
 )
 .
 static
+RTC_EXPORT
 std
 :
 :
