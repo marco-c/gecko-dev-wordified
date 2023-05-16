@@ -144,6 +144,17 @@ include
 "
 rtc_base
 /
+numerics
+/
+sequence_number_unwrapper
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 system
 /
 no_unique_address
@@ -319,7 +330,7 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 observer_checker_
 ;
-SequenceNumberUnwrapper
+RtpSequenceNumberUnwrapper
 seq_num_unwrapper_
 RTC_GUARDED_BY
 (
