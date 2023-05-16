@@ -1605,6 +1605,11 @@ classList
 add
 (
 "
+toolbarbutton
+-
+1
+"
+"
 unified
 -
 extensions
@@ -1614,14 +1619,6 @@ item
 menu
 -
 button
-"
-"
-subviewbutton
-"
-"
-subviewbutton
--
-iconic
 "
 )
 ;
