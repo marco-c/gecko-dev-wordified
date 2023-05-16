@@ -1245,8 +1245,6 @@ optional
 int
 >
 cng_timeout_ms
-=
-1000
 ;
 }
 ;
