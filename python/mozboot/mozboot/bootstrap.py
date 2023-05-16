@@ -1466,7 +1466,6 @@ maybe_install_private_packages_or_exit
 (
 self
 application
-checkout_type
 )
 :
         
@@ -2301,7 +2300,6 @@ self
 maybe_install_private_packages_or_exit
 (
 application
-checkout_type
 )
             
 self
@@ -2587,7 +2585,6 @@ self
 maybe_install_private_packages_or_exit
 (
 application
-checkout_type
 )
         
 self
@@ -4015,16 +4012,6 @@ path
 git
 "
         
-moz_configure
-=
-path
-/
-"
-moz
-.
-configure
-"
-        
 if
 hg
 and
@@ -4243,20 +4230,6 @@ else
 hg
 "
 )
-path
-        
-elif
-moz_configure
-.
-exists
-(
-)
-:
-            
-return
-"
-SOURCE
-"
 path
         
 if
