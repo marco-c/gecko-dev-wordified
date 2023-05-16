@@ -343,8 +343,6 @@ kMediaSsrc
 kFecPayloadType
 &
 recovered_packet_receiver_
-{
-}
 Clock
 :
 :
@@ -1147,8 +1145,6 @@ kMediaSsrc
 ulpfec_payload_type
 &
 null_callback
-{
-}
 Clock
 :
 :

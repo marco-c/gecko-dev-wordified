@@ -157,11 +157,9 @@ void
 OnRecoveredPacket
 (
 const
-uint8_t
-*
+RtpPacketReceived
+&
 packet
-size_t
-length
 )
 override
 {

@@ -168,11 +168,9 @@ void
 OnRecoveredPacket
 (
 const
-uint8_t
-*
+RtpPacketReceived
+&
 packet
-size_t
-length
 )
 override
 {
@@ -289,8 +287,6 @@ ulpfec_ssrc
 0
 &
 callback
-{
-}
 Clock
 :
 :
