@@ -68,7 +68,7 @@ lazyRequireGetter
 this
 [
 "
-validCommands
+WebConsoleCommandsManager
 "
 ]
 "
@@ -492,7 +492,11 @@ value
 |
 |
 !
-validCommands
+WebConsoleCommandsManager
+.
+getAllColonCommandNames
+(
+)
 .
 includes
 (
