@@ -347,8 +347,6 @@ used
 to
 compare
 functions
-with
-isSameNativeWithJitInfo
 but
 we
 '
@@ -357,11 +355,11 @@ need
 to
 make
 new
-/
-/
 classes
 available
 in
+/
+/
 the
 Sandbox
 and
@@ -374,8 +372,6 @@ a
 new
 property
 gets
-/
-/
 deprecated
 .
 /
