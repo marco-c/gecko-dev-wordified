@@ -2080,6 +2080,13 @@ eventListenerBreakpoints
 =
 undefined
 ;
+asyncStore
+.
+blackboxedRanges
+=
+{
+}
+;
 prefs
 .
 debuggerPrefsSchemaVersion
