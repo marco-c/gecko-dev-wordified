@@ -2159,6 +2159,9 @@ selected_source
 if
 (
 full_screen_source
+&
+&
+full_screen_source
 !
 =
 selected_source
