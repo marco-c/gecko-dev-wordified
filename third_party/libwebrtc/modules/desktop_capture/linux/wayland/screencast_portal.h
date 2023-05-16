@@ -165,6 +165,7 @@ namespace
 webrtc
 {
 class
+RTC_EXPORT
 ScreenCastPortal
 :
 public

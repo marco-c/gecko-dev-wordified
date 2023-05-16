@@ -235,6 +235,7 @@ this
 class
 .
 class
+RTC_EXPORT
 ScreenCapturePortalInterface
 {
 public

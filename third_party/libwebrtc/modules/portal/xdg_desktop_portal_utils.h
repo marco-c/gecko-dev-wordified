@@ -381,6 +381,7 @@ GAsyncResult
 gpointer
 )
 ;
+RTC_EXPORT
 std
 :
 :
@@ -417,6 +418,7 @@ and
 /
 token
 .
+RTC_EXPORT
 std
 :
 :
@@ -454,6 +456,7 @@ the
 given
 object
 .
+RTC_EXPORT
 uint32_t
 SetupRequestResponseSignal
 (
@@ -472,6 +475,7 @@ GDBusConnection
 connection
 )
 ;
+RTC_EXPORT
 void
 RequestSessionProxy
 (
@@ -490,6 +494,7 @@ gpointer
 user_data
 )
 ;
+RTC_EXPORT
 void
 SetupSessionRequestHandlers
 (
@@ -526,6 +531,7 @@ gpointer
 user_data
 )
 ;
+RTC_EXPORT
 void
 StartSessionRequest
 (
@@ -580,6 +586,7 @@ up
 related
 objects
 .
+RTC_EXPORT
 void
 TearDownSession
 (
