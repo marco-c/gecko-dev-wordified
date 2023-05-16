@@ -4071,6 +4071,11 @@ bool
 aFullScreen
 )
 ;
+void
+TryDwmResizeHack
+(
+)
+;
 static
 void
 OnCloakEvent
@@ -4441,6 +4446,11 @@ false
 ;
 bool
 mForMenupopupFrame
+=
+false
+;
+bool
+mIsPerformingDwmFlushHack
 =
 false
 ;
