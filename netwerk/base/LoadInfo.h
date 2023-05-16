@@ -2064,11 +2064,6 @@ mBrowsingContextID
 0
 ;
 uint64_t
-mWorkerAssociatedBrowsingContextID
-=
-0
-;
-uint64_t
 mFrameBrowsingContextID
 =
 0

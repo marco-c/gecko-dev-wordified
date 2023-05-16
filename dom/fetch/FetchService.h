@@ -582,9 +582,6 @@ nsICSPEventListener
 >
 mCSPEventListener
 ;
-uint64_t
-mAssociatedBrowsingContextID
-;
 nsCOMPtr
 <
 nsISerialEventTarget
@@ -874,14 +871,6 @@ override
 void
 OnReportPerformanceTiming
 (
-)
-override
-;
-void
-OnNotifyNetworkMonitorAlternateStack
-(
-uint64_t
-aChannelID
 )
 override
 ;

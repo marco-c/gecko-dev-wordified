@@ -377,13 +377,6 @@ ResponseTiming
 aTiming
 )
 ;
-void
-OnNotifyNetworkMonitorAlternateStack
-(
-uint64_t
-aChannelID
-)
-;
 private
 :
 ~
@@ -504,12 +497,6 @@ bool
 mExtendForCSPEventListener
 {
 false
-}
-;
-uint64_t
-mAssociatedBrowsingContextID
-{
-0
 }
 ;
 Atomic
