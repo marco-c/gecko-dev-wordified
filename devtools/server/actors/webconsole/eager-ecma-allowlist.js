@@ -167,7 +167,7 @@ Int8Array
 )
 ;
 const
-allowList
+functionAllowList
 =
 [
 Array
@@ -711,6 +711,12 @@ escape
 isFinite
 isNaN
 unescape
+]
+;
+const
+getterAllowList
+=
+[
 getter
 (
 ArrayBuffer
@@ -1319,7 +1325,7 @@ function
 "
 )
 {
-allowList
+functionAllowList
 .
 push
 (
@@ -1332,5 +1338,12 @@ module
 .
 exports
 =
-allowList
+{
+functions
+:
+functionAllowList
+getters
+:
+getterAllowList
+}
 ;

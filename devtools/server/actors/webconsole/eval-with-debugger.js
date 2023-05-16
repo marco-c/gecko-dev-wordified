@@ -3281,6 +3281,14 @@ natives
 .
 .
 eagerEcmaAllowlist
+.
+functions
+.
+.
+.
+eagerEcmaAllowlist
+.
+getters
 /
 /
 Pull
