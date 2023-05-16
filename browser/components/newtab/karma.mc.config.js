@@ -669,7 +669,7 @@ lines
 98
 functions
 :
-100
+94
 branches
 :
 66
@@ -741,7 +741,7 @@ lines
 66
 functions
 :
-100
+78
 branches
 :
 63
@@ -923,7 +923,7 @@ lines
 94
 functions
 :
-100
+75
 branches
 :
 84
@@ -945,7 +945,7 @@ lines
 100
 functions
 :
-100
+99
 branches
 :
 84
@@ -1128,7 +1128,7 @@ lines
 50
 functions
 :
-100
+50
 branches
 :
 0
@@ -1889,9 +1889,11 @@ mx
 loader
 :
 "
-istanbul
+jsdevtools
+/
+coverage
 -
-instrumenter
+istanbul
 -
 loader
 "
