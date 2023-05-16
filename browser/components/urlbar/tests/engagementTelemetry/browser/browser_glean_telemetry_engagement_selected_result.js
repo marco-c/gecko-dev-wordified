@@ -3963,7 +3963,7 @@ good
 -
 addon
 "
-name
+title
 :
 "
 Good
@@ -3981,7 +3981,7 @@ addon
 custom_details
 :
 {
-addons
+amo
 :
 {
 rating
@@ -3991,7 +3991,7 @@ rating
 .
 8
 "
-reviews
+number_of_ratings
 :
 "
 1234567
