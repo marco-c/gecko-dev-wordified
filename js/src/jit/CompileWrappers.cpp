@@ -558,7 +558,6 @@ addressOfMegamorphicSetPropCache
 )
 {
 return
-&
 runtime
 (
 )
@@ -569,6 +568,10 @@ caches
 )
 .
 megamorphicSetPropCache
+.
+get
+(
+)
 ;
 }
 const

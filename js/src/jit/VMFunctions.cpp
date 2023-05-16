@@ -13277,6 +13277,7 @@ MegamorphicSetPropCache
 &
 cache
 =
+*
 cx
 -
 >
