@@ -1959,7 +1959,9 @@ packed_nz_mask
 _mm256_packs_epi32
 (
 nz_mask
-nz_mask
+_mm256_setzero_si256
+(
+)
 )
 ;
 const

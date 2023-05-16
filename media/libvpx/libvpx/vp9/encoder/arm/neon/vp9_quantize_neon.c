@@ -359,8 +359,8 @@ v_eobmax
 )
 {
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 return
 (
 uint16_t
@@ -454,7 +454,7 @@ v_eobmax_final
 endif
 /
 /
-__aarch64__
+VPX_ARCH_AARCH64
 }
 static
 VPX_FORCE_INLINE
@@ -526,8 +526,8 @@ v_dequant
 )
 {
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 v_round
 =

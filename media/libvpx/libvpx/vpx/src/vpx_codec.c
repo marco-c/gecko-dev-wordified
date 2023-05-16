@@ -365,6 +365,7 @@ char
 *
 vpx_codec_error
 (
+const
 vpx_codec_ctx_t
 *
 ctx
@@ -394,6 +395,7 @@ char
 *
 vpx_codec_error_detail
 (
+const
 vpx_codec_ctx_t
 *
 ctx
@@ -535,9 +537,7 @@ iface
 )
 {
 return
-(
 iface
-)
 ?
 iface
 -

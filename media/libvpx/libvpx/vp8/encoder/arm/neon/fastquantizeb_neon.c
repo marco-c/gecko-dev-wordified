@@ -270,8 +270,9 @@ eob0
 eob1
 ;
 #
-ifndef
-__aarch64__
+if
+!
+VPX_ARCH_AARCH64
 uint16x4_t
 eob_d16
 ;
@@ -285,7 +286,8 @@ eob_q32
 endif
 /
 /
-__arch64__
+!
+VPX_ARCH_AARCH64
 /
 *
 sign
@@ -523,8 +525,8 @@ eob1
 )
 ;
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 d
 -
@@ -605,7 +607,7 @@ eob_d32
 endif
 /
 /
-__aarch64__
+VPX_ARCH_AARCH64
 /
 *
 qcoeff

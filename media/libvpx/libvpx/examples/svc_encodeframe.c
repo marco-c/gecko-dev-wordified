@@ -2788,7 +2788,6 @@ vpx_codec_err_t
 res
 ;
 int
-i
 sl
 tl
 ;
@@ -3245,6 +3244,8 @@ spatial_layers
 sl
 )
 {
+const
+int
 i
 =
 sl
@@ -3783,6 +3784,8 @@ spatial_layers
 sl
 )
 {
+const
+int
 i
 =
 sl

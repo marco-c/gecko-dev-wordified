@@ -348,10 +348,7 @@ by
 .
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 \
@@ -8853,10 +8850,7 @@ else
 /
 !
 (
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 /
@@ -15704,10 +15698,7 @@ endif
 /
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 /

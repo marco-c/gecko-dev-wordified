@@ -4754,7 +4754,7 @@ offset2_q4
 static
 const
 shuffle_filter_funcs
-shuffle_filter_funcs
+kShuffleFilterFuncs
 [
 2
 ]
@@ -4767,7 +4767,7 @@ shuffle_filter_odd_ssse3
 static
 const
 convolve8_funcs
-convolve8_funcs
+kConvolve8Funcs
 [
 2
 ]
@@ -4802,7 +4802,7 @@ SUBPEL_MASK
 f0
 )
 ;
-shuffle_filter_funcs
+kShuffleFilterFuncs
 [
 offset_idx1
 ]
@@ -4816,7 +4816,7 @@ SUBPEL_MASK
 f1
 )
 ;
-shuffle_filter_funcs
+kShuffleFilterFuncs
 [
 offset_idx2
 ]
@@ -5311,7 +5311,7 @@ d
 1
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx1
 ]
@@ -5332,7 +5332,7 @@ d
 2
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx2
 ]
@@ -5368,7 +5368,7 @@ d
 4
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx1
 ]
@@ -5393,7 +5393,7 @@ d
 5
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx2
 ]
@@ -6249,7 +6249,7 @@ d
 1
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx1
 ]
@@ -6270,7 +6270,7 @@ d
 2
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx2
 ]
@@ -6306,7 +6306,7 @@ d
 4
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx1
 ]
@@ -6331,7 +6331,7 @@ d
 5
 ]
 =
-convolve8_funcs
+kConvolve8Funcs
 [
 offset_idx2
 ]

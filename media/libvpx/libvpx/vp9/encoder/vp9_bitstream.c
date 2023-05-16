@@ -7496,7 +7496,11 @@ vp9_bitstream_worker_data
 ;
 CHECK_MEM_ERROR
 (
+&
 cm
+-
+>
+error
 cpi
 -
 >
@@ -7562,7 +7566,11 @@ height
 ;
 CHECK_MEM_ERROR
 (
+&
 cm
+-
+>
+error
 cpi
 -
 >

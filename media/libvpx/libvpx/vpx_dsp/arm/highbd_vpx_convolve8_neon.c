@@ -2686,12 +2686,6 @@ bd
 1
 )
 ;
-uint16x8_t
-t0
-t1
-t2
-t3
-;
 assert
 (
 !
@@ -2746,6 +2740,12 @@ d0
 d1
 d2
 d3
+;
+uint16x8_t
+t0
+t1
+t2
+t3
 ;
 uint16x8_t
 d01

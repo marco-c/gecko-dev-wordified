@@ -958,6 +958,13 @@ to
 /
 CHECK_MEM_ERROR
 (
+&
+cpi
+-
+>
+common
+.
+error
 sortlist
 vpx_calloc
 (

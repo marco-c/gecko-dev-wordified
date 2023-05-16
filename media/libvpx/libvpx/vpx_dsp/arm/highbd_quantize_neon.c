@@ -1153,8 +1153,8 @@ n_coeffs
 ;
 }
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 eob_ptr
 =
@@ -1214,7 +1214,7 @@ eob_max_2
 endif
 /
 /
-__aarch64__
+VPX_ARCH_AARCH64
 /
 /
 Need
@@ -2001,8 +2001,8 @@ dqcoeff_ptr
 }
 }
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 eob_ptr
 =
@@ -2062,5 +2062,5 @@ eob_max_2
 endif
 /
 /
-__aarch64__
+VPX_ARCH_AARCH64
 }

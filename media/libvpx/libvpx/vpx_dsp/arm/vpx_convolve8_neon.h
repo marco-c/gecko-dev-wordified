@@ -118,10 +118,7 @@ h
 "
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 defined
@@ -900,10 +897,7 @@ sum
 endif
 /
 /
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 defined
@@ -912,10 +906,7 @@ __ARM_FEATURE_DOTPROD
 )
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 defined
@@ -1569,10 +1560,7 @@ sum
 endif
 /
 /
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 defined

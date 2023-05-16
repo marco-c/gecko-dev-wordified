@@ -320,7 +320,7 @@ serially
 /
 DECLARE_ALIGNED
 (
-16
+32
 tran_low_t
 dqcoeff
 [

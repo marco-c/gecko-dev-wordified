@@ -4830,7 +4830,11 @@ num_layers
 ;
 CHECK_MEM_ERROR
 (
+&
 cm
+-
+>
+error
 denoiser
 -
 >
@@ -4858,7 +4862,11 @@ running_avg_y
 ;
 CHECK_MEM_ERROR
 (
+&
 cm
+-
+>
+error
 denoiser
 -
 >

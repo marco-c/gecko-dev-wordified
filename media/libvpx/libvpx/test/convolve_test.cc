@@ -1939,8 +1939,6 @@ dst
 )
 .
 {
-uint16_t
-*
 src_ptr
 =
 intermediate_buffer

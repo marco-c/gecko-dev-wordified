@@ -1712,7 +1712,6 @@ const
 struct
 macroblock_plane
 *
-const
 mb_plane
 tran_low_t
 *
@@ -1731,7 +1730,6 @@ const
 struct
 ScanOrder
 *
-const
 scan_order
 )
 {
