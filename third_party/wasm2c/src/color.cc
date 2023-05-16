@@ -154,6 +154,9 @@ h
 if
 _WIN32
 #
+if
+HAVE_WIN32_VT100
+#
 include
 <
 io
@@ -167,6 +170,8 @@ windows
 .
 h
 >
+#
+endif
 #
 elif
 HAVE_UNISTD_H
