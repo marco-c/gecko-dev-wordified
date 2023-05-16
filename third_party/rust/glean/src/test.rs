@@ -391,6 +391,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -967,6 +970,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -1322,6 +1328,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -1881,6 +1890,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -2234,6 +2246,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -2435,6 +2450,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 test_reset_glean
@@ -2718,6 +2736,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -2883,6 +2904,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -2979,6 +3003,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -3131,6 +3158,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -3523,6 +3553,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 client_info
 true
@@ -3624,6 +3657,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 client_info
 true
@@ -4065,6 +4101,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -4595,6 +4634,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -4961,6 +5003,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -5064,6 +5109,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -5343,6 +5391,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -5439,6 +5490,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -5792,6 +5846,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -5990,6 +6047,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ClientInfoMetrics
 :
@@ -6367,6 +6427,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -6774,6 +6837,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -7128,6 +7194,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -7610,6 +7679,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 /
@@ -8091,6 +8163,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -8398,6 +8473,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let
@@ -9275,6 +9353,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let

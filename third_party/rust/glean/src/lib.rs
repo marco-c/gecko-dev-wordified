@@ -862,6 +862,11 @@ trim_data_to_registered_pings
 cfg
 .
 trim_data_to_registered_pings
+log_level
+:
+cfg
+.
+log_level
 }
 ;
 glean_core
