@@ -4585,7 +4585,7 @@ stats
 .
 codec_payload_type
 =
-42
+0
 ;
 stats
 .
@@ -5129,7 +5129,7 @@ stats
 .
 codec_payload_type
 =
-42
+0
 ;
 stats
 .
@@ -18157,6 +18157,10 @@ SetAudioSendStreamStats
 (
 )
 ;
+SetAudioReceiveStreamStats
+(
+)
+;
 /
 /
 Check
@@ -18331,7 +18335,7 @@ receivers
 ssrc
 (
 )
-0u
+123u
 )
 ;
 }
@@ -19516,6 +19520,10 @@ cricket
 :
 VoiceMediaReceiveInfo
 receive_info
+;
+SetAudioReceiveStreamStats
+(
+)
 ;
 EXPECT_EQ
 (
