@@ -2612,9 +2612,6 @@ currentColor
 is
 opaque
 .
-let
-color
-=
 color
 .
 to_computed_value
@@ -2622,7 +2619,7 @@ to_computed_value
 context
 )
 .
-resolve_into_absolute
+resolve_to_absolute
 (
 &
 AbsoluteColor
@@ -2632,8 +2629,6 @@ black
 (
 )
 )
-;
-color
 .
 alpha
 }

@@ -23294,7 +23294,7 @@ clone_color
 ;
 color
 .
-resolve_into_absolute
+resolve_to_absolute
 (
 &
 current_color
