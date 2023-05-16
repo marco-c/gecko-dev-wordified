@@ -1289,6 +1289,15 @@ webrtc
 VideoType
 :
 :
+kBGR24
+:
+case
+webrtc
+:
+:
+VideoType
+:
+:
 kABGR
 :
 case
