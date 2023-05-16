@@ -264,6 +264,8 @@ private
 WinWLANLibrary
 (
 )
+=
+default
 ;
 bool
 Initialize
@@ -272,9 +274,13 @@ Initialize
 ;
 HMODULE
 mWlanLibrary
+=
+nullptr
 ;
 HANDLE
 mWlanHandle
+=
+nullptr
 ;
 decltype
 (
@@ -284,6 +290,8 @@ WlanEnumInterfaces
 )
 *
 mWlanEnumInterfacesPtr
+=
+nullptr
 ;
 decltype
 (
@@ -293,6 +301,8 @@ WlanGetNetworkBssList
 )
 *
 mWlanGetNetworkBssListPtr
+=
+nullptr
 ;
 decltype
 (
@@ -302,6 +312,8 @@ WlanFreeMemory
 )
 *
 mWlanFreeMemoryPtr
+=
+nullptr
 ;
 decltype
 (
@@ -311,6 +323,8 @@ WlanCloseHandle
 )
 *
 mWlanCloseHandlePtr
+=
+nullptr
 ;
 decltype
 (
@@ -320,6 +334,8 @@ WlanOpenHandle
 )
 *
 mWlanOpenHandlePtr
+=
+nullptr
 ;
 decltype
 (
@@ -329,6 +345,8 @@ WlanRegisterNotification
 )
 *
 mWlanRegisterNotificationPtr
+=
+nullptr
 ;
 decltype
 (
@@ -338,6 +356,8 @@ WlanScan
 )
 *
 mWlanScanPtr
+=
+nullptr
 ;
 }
 ;
