@@ -302,7 +302,7 @@ HeapPtr
 JSObject
 *
 >
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -624,7 +624,7 @@ uint32_t
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -1231,7 +1231,7 @@ template
 <
 >
 struct
-MovableCellHasher
+StableCellHasher
 <
 ObjectEntry
 >
@@ -1263,7 +1263,7 @@ hashOut
 if
 (
 !
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -1320,7 +1320,7 @@ hashOut
 if
 (
 !
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -1385,7 +1385,7 @@ hash
 collisions
 .
 return
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -1418,7 +1418,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -1626,7 +1626,7 @@ template
 <
 >
 struct
-MovableCellHasher
+StableCellHasher
 <
 NumberAndObjectEntry
 >
@@ -1657,7 +1657,7 @@ hashOut
 if
 (
 !
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -1705,7 +1705,7 @@ hashOut
 if
 (
 !
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -1748,7 +1748,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -1795,7 +1795,7 @@ l
 number
 &
 &
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -2125,7 +2125,7 @@ HeapPtr
 JSObject
 *
 >
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -2976,7 +2976,7 @@ JSObject
 *
 >
 uint32_t
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -3887,7 +3887,7 @@ WeakCache
 GCHashSet
 <
 NumberAndObjectEntry
-MovableCellHasher
+StableCellHasher
 <
 NumberAndObjectEntry
 >
@@ -4932,7 +4932,7 @@ WeakCache
 GCHashSet
 <
 ObjectEntry
-MovableCellHasher
+StableCellHasher
 <
 ObjectEntry
 >

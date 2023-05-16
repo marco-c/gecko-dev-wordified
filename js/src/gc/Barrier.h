@@ -533,7 +533,7 @@ don
 '
 t
 use
-MovableCellHasher
+StableCellHasher
 .
 *
 *
@@ -8588,7 +8588,7 @@ MOZ_IS_GCC
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -8602,7 +8602,7 @@ typename
 T
 >
 struct
-MovableCellHasher
+StableCellHasher
 <
 PreBarriered
 <
@@ -8637,7 +8637,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8664,7 +8664,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8688,7 +8688,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8715,7 +8715,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8736,7 +8736,7 @@ typename
 T
 >
 struct
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -8771,7 +8771,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8798,7 +8798,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8822,7 +8822,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8849,7 +8849,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8870,7 +8870,7 @@ typename
 T
 >
 struct
-MovableCellHasher
+StableCellHasher
 <
 WeakHeapPtr
 <
@@ -8905,7 +8905,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8932,7 +8932,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8956,7 +8956,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -8983,7 +8983,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >

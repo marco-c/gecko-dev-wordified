@@ -2052,7 +2052,7 @@ WeakHeapPtr
 GlobalObject
 *
 >
-MovableCellHasher
+StableCellHasher
 <
 WeakHeapPtr
 <

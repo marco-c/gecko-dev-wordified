@@ -229,7 +229,7 @@ HeapPtr
 JSObject
 *
 >
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -326,7 +326,7 @@ JSObject
 *
 >
 RecordVector
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -496,7 +496,7 @@ JSObject
 *
 >
 WeakRefHeapPtrVector
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <
@@ -765,7 +765,7 @@ HeapPtr
 JSObject
 *
 >
-MovableCellHasher
+StableCellHasher
 <
 HeapPtr
 <

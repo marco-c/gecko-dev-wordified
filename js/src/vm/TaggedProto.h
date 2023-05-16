@@ -399,7 +399,7 @@ template
 <
 >
 struct
-MovableCellHasher
+StableCellHasher
 <
 TaggedProto
 >
@@ -450,7 +450,7 @@ true
 ;
 }
 return
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -504,7 +504,7 @@ true
 ;
 }
 return
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -566,7 +566,7 @@ uint64_t
 ;
 }
 return
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -635,7 +635,7 @@ isObject
 )
 |
 |
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *

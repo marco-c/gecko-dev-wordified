@@ -363,7 +363,7 @@ WeakHeapPtr
 WasmInstanceObject
 *
 >
-MovableCellHasher
+StableCellHasher
 <
 WeakHeapPtr
 <

@@ -999,7 +999,7 @@ Lookup
 using
 SavedFramePtrHasher
 =
-MovableCellHasher
+StableCellHasher
 <
 SavedFrame
 *

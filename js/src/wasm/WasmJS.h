@@ -320,7 +320,7 @@ h
 "
 /
 /
-MovableCellHasher
+StableCellHasher
 #
 include
 "
@@ -2948,7 +2948,7 @@ WeakHeapPtr
 WasmInstanceObject
 *
 >
-MovableCellHasher
+StableCellHasher
 <
 WeakHeapPtr
 <

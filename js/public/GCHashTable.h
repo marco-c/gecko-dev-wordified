@@ -1041,7 +1041,7 @@ to
 use
 GCHashMap
 with
-MovableCellHasher
+StableCellHasher
 which
 takes
 /

@@ -5786,7 +5786,7 @@ don
 '
 t
 use
-MovableCellHasher
+StableCellHasher
 /
 /
 because

@@ -332,7 +332,7 @@ nsXPCWrappedJS
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 JS
 :
@@ -2276,7 +2276,7 @@ JSObject
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 JS
 :

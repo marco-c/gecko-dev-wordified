@@ -631,7 +631,7 @@ BaseScript
 *
 >
 RecompileInfoVector
-MovableCellHasher
+StableCellHasher
 <
 WeakHeapPtr
 <

@@ -27641,7 +27641,7 @@ the
 main
 thread
 since
-MovableCellHasher
+StableCellHasher
 /
 /
 must
@@ -40353,7 +40353,7 @@ JSObject
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *

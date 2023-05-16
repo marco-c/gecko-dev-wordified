@@ -1498,7 +1498,7 @@ HashMap
 <
 Key
 Value
-MovableCellHasher
+StableCellHasher
 <
 Key
 >
@@ -1516,7 +1516,7 @@ HashMap
 <
 Key
 Value
-MovableCellHasher
+StableCellHasher
 <
 Key
 >
