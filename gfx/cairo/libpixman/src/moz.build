@@ -433,14 +433,6 @@ PACKAGE
 '
 mozpixman
 '
-DEFINES
-[
-'
-_USE_MATH_DEFINES
-'
-]
-=
-True
 if
 CONFIG
 [
