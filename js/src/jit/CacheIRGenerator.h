@@ -3108,7 +3108,7 @@ isPossiblyWrapped
 )
 ;
 AttachDecision
-tryAttachRegExpMatcherSearcherTester
+tryAttachRegExpMatcherSearcher
 (
 InlinableNative
 native
