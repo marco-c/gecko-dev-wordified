@@ -5711,6 +5711,12 @@ CacheOp
 :
 CallRegExpMatcherResult
 :
+case
+CacheOp
+:
+:
+RegExpBuiltinExecMatchResult
+:
 if
 (
 !
@@ -5790,6 +5796,12 @@ CacheOp
 :
 :
 CallRegExpTesterResult
+:
+case
+CacheOp
+:
+:
+RegExpBuiltinExecTestResult
 :
 if
 (
