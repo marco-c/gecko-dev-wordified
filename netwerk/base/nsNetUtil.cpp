@@ -11356,6 +11356,16 @@ EqualsLiteral
 indexeddb
 "
 )
+|
+|
+scheme
+.
+EqualsLiteral
+(
+"
+uuid
+"
+)
 )
 {
 return
