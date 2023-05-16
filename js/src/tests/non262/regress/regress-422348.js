@@ -27,6 +27,8 @@ s390x
 mips64
 |
 loongarch64
+|
+riscv64
 /
 )
 )
