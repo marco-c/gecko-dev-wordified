@@ -634,7 +634,6 @@ IsCharacterData
 (
 )
 )
-virtual
 void
 GetNodeValueInternal
 (
@@ -644,7 +643,6 @@ aNodeValue
 )
 override
 ;
-virtual
 void
 SetNodeValueInternal
 (
