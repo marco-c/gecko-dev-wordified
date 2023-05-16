@@ -135,6 +135,7 @@ a
 chrome
 url
 .
+export
 function
 ContentAreaDropListener
 (
@@ -2074,13 +2075,4 @@ originalTarget
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ContentAreaDropListener
-"
-]
 ;

@@ -202,15 +202,7 @@ needed
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-DOMRequestIpcHelper
-"
-]
-;
+export
 function
 DOMRequestIpcHelper
 (

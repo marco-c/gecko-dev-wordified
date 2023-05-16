@@ -56,11 +56,7 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
+export
 function
 SlowScriptDebug
 (
@@ -141,13 +137,4 @@ cb
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SlowScriptDebug
-"
-]
 ;

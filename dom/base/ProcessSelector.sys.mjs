@@ -74,6 +74,7 @@ available
 /
 ones
 .
+export
 function
 RandomSelector
 (
@@ -183,6 +184,7 @@ number
 of
 tabs
 .
+export
 function
 MinTabSelector
 (
@@ -423,16 +425,4 @@ candidate
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-RandomSelector
-"
-"
-MinTabSelector
-"
-]
 ;
