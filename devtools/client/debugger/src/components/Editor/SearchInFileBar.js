@@ -195,7 +195,7 @@ import
 "
 .
 /
-SearchBar
+SearchInFileBar
 .
 css
 "
@@ -255,7 +255,7 @@ key2
 ;
 }
 class
-SearchBar
+SearchInFileBar
 extends
 Component
 {
@@ -343,7 +343,7 @@ PropTypes
 string
 .
 isRequired
-searchOn
+searchInFileEnabled
 :
 PropTypes
 .
@@ -613,7 +613,7 @@ const
 cx
 closeFileSearch
 editor
-searchOn
+searchInFileEnabled
 query
 }
 =
@@ -632,7 +632,7 @@ if
 editor
 &
 &
-searchOn
+searchInFileEnabled
 )
 {
 closeFileSearch
@@ -689,7 +689,7 @@ preventDefault
 const
 {
 editor
-searchOn
+searchInFileEnabled
 setActiveSearch
 }
 =
@@ -736,7 +736,7 @@ false
 if
 (
 !
-searchOn
+searchInFileEnabled
 )
 {
 setActiveSearch
@@ -749,11 +749,7 @@ file
 }
 if
 (
-this
-.
-props
-.
-searchOn
+searchInFileEnabled
 &
 &
 editor
@@ -1280,7 +1276,7 @@ searchResults
 {
 count
 }
-searchOn
+searchInFileEnabled
 }
 =
 this
@@ -1290,7 +1286,7 @@ props
 if
 (
 !
-searchOn
+searchInFileEnabled
 )
 {
 return
@@ -1496,7 +1492,7 @@ div
 ;
 }
 }
-SearchBar
+SearchInFileBar
 .
 contextTypes
 =
@@ -1542,7 +1538,7 @@ getContext
 (
 state
 )
-searchOn
+searchInFileEnabled
 :
 getActiveSearch
 (
@@ -1618,6 +1614,6 @@ traverseResults
 }
 )
 (
-SearchBar
+SearchInFileBar
 )
 ;

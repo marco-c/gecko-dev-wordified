@@ -97,13 +97,13 @@ enzyme
 "
 ;
 import
-SearchBar
+SearchInFileBar
 from
 "
 .
 .
 /
-SearchBar
+SearchInFileBar
 "
 ;
 import
@@ -157,9 +157,9 @@ constants
 "
 ;
 const
-SearchBarComponent
+SearchInFileBarComponent
 =
-SearchBar
+SearchInFileBar
 .
 WrappedComponent
 ;
@@ -280,7 +280,7 @@ query
 :
 "
 "
-searchOn
+searchInFileEnabled
 :
 true
 symbolSearchOn
@@ -503,7 +503,7 @@ store
 }
 >
 <
-SearchBarComponent
+SearchInFileBarComponent
 {
 .
 .
@@ -537,7 +537,7 @@ props
 describe
 (
 "
-SearchBar
+SearchInFileBar
 "
 (
 )
