@@ -348,8 +348,11 @@ ActorCreated
 ;
 }
 #
+ifdef
+DEBUG
+#
 define
-WARN_MESSAGE_UNSENT
+DEBUG_WARN_MESSAGE_UNSENT
 (
 aMeta
 aWarning
@@ -422,6 +425,17 @@ nullptr
 __FILE__
 __LINE__
 )
+#
+else
+#
+define
+DEBUG_WARN_MESSAGE_UNSENT
+(
+aMeta
+aWarning
+)
+#
+endif
 void
 JSWindowActorChild
 :
@@ -478,7 +492,7 @@ CanSend
 )
 )
 {
-WARN_MESSAGE_UNSENT
+DEBUG_WARN_MESSAGE_UNSENT
 (
 aMeta
 "
@@ -614,7 +628,7 @@ msgData
 )
 )
 {
-WARN_MESSAGE_UNSENT
+DEBUG_WARN_MESSAGE_UNSENT
 (
 aMeta
 "
@@ -723,7 +737,7 @@ stackData
 )
 )
 {
-WARN_MESSAGE_UNSENT
+DEBUG_WARN_MESSAGE_UNSENT
 (
 aMeta
 "
