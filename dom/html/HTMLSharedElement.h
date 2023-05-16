@@ -231,7 +231,6 @@ SetHasWeirdParserInsertionMode
 /
 /
 nsIContent
-virtual
 void
 DoneAddingChildren
 (
@@ -240,7 +239,6 @@ aHaveNotified
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -252,7 +250,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -263,7 +260,6 @@ true
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -898,14 +894,12 @@ HTMLSharedElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -918,7 +912,6 @@ aGivenProto
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
