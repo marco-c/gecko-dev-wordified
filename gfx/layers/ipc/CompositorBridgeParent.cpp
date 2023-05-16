@@ -3650,7 +3650,7 @@ now
 }
 }
 }
-bool
+void
 CompositorBridgeParent
 :
 :
@@ -3763,7 +3763,6 @@ state
 #
 endif
 return
-false
 ;
 }
 mPaused
@@ -3785,9 +3784,6 @@ WIDGET
 nullptr
 nullptr
 )
-;
-return
-true
 ;
 }
 void
@@ -3827,7 +3823,7 @@ height
 )
 ;
 }
-bool
+void
 CompositorBridgeParent
 :
 :
@@ -3851,7 +3847,6 @@ width
 height
 )
 ;
-return
 ResumeComposition
 (
 )
