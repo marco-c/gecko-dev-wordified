@@ -277,6 +277,7 @@ test
 name
 )
 ;
+await
 LoginTestUtils
 .
 addLogin
