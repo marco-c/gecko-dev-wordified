@@ -320,6 +320,17 @@ include
 "
 mozilla
 /
+jni
+/
+NativesInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 GeckoViewSupport
