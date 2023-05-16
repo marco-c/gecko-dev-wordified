@@ -3136,6 +3136,8 @@ total_audio_energy
 &
 total_samples_duration
 &
+playout_id
+&
 frames_received
 &
 frame_width
@@ -3230,6 +3232,12 @@ move
 id
 )
 timestamp
+)
+playout_id
+(
+"
+playoutId
+"
 )
 track_identifier
 (
