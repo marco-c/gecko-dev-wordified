@@ -263,6 +263,9 @@ NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 \
 }
 class
+nsICookieJarSettings
+;
+class
 nsIDocShell
 ;
 class
@@ -444,6 +447,13 @@ AddPostRefreshObserverIfNecessary
 nsIGlobalObject
 *
 GetParentObject
+(
+)
+const
+;
+nsICookieJarSettings
+*
+GetCookieJarSettings
 (
 )
 const
