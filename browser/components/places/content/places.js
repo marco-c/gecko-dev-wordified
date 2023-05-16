@@ -88,7 +88,7 @@ import
 globals
 -
 from
-instantEditBookmark
+editBookmark
 .
 js
 *
