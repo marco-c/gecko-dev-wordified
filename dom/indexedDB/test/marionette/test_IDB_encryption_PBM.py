@@ -1289,7 +1289,8 @@ getIDBStoragePath
 return
 False
         
-return
+walPath
+=
 self
 .
 findDirObj
@@ -1305,8 +1306,23 @@ wal
 "
 True
 )
+        
+return
+walPath
 is
 None
+or
+os
+.
+stat
+(
+walPath
+)
+.
+st_size
+=
+=
+0
     
 def
 ensureInvariantHolds
