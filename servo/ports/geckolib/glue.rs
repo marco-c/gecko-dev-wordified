@@ -1017,7 +1017,6 @@ ownership
 {
 FFIArcHelpers
 HasArcFFI
-HasFFI
 Strong
 }
 ;
@@ -12694,7 +12693,7 @@ Locked
 T
 >
 as
-HasFFI
+HasArcFFI
 >
 :
 :
@@ -12791,7 +12790,7 @@ Locked
 T
 >
 as
-HasFFI
+HasArcFFI
 >
 :
 :
@@ -12886,7 +12885,7 @@ Locked
 T
 >
 as
-HasFFI
+HasArcFFI
 >
 :
 :
@@ -12963,8 +12962,6 @@ Locked
 <
 T
 >
-as
-HasFFI
 >
 :
 :
@@ -13041,7 +13038,7 @@ Locked
 T
 >
 as
-HasFFI
+HasArcFFI
 >
 :
 :
@@ -13141,7 +13138,7 @@ Locked
 T
 >
 as
-HasFFI
+HasArcFFI
 >
 :
 :
