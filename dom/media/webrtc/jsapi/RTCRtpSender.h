@@ -985,6 +985,12 @@ nsCString
 aError
 )
 ;
+nsCString
+GetEffectiveTLDPlus1
+(
+)
+const
+;
 WatchManager
 <
 RTCRtpSender
