@@ -139,7 +139,7 @@ protection
 -
 icon
 -
-box
+container
 "
 bucket_id
 :
@@ -331,7 +331,7 @@ protection
 -
 icon
 -
-box
+container
 "
 bucket_id
 :
