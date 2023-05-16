@@ -399,6 +399,16 @@ Flip
 (
 )
 ;
+/
+/
+TODO
+:
+Change
+to
+UnlockShared
+after
+temporary
+files
 mManager
 -
 >
@@ -407,7 +417,7 @@ DataManagerStrongRef
 )
 -
 >
-UnlockShared
+UnlockExclusive
 (
 mEntryId
 )

@@ -836,6 +836,13 @@ EntryId
 >
 mExclusiveLocks
 ;
+nsTHashMap
+<
+EntryId
+uint32_t
+>
+mSharedLocks
+;
 NS_DECL_OWNINGEVENTTARGET
 const
 RefPtr
