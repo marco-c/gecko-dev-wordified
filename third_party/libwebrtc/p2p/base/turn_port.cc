@@ -2440,7 +2440,7 @@ server_address_
 .
 address
 .
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 ;
@@ -3311,11 +3311,7 @@ address
 <
 socket_address
 .
-ipaddr
-(
-)
-.
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 <
@@ -3391,11 +3387,7 @@ address
 <
 socket_address
 .
-ipaddr
-(
-)
-.
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 <
@@ -3469,11 +3461,7 @@ address
 <
 socket_address
 .
-ipaddr
-(
-)
-.
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 <
@@ -4712,7 +4700,7 @@ address
 <
 remote_addr
 .
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 <
@@ -4727,7 +4715,7 @@ server_address_
 .
 address
 .
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 ;
@@ -5191,7 +5179,7 @@ to
 <
 address
 .
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 <
@@ -5355,7 +5343,7 @@ server_address_
 .
 address
 .
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 <
@@ -5371,7 +5359,7 @@ server
 <
 address
 .
-ToSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 <
