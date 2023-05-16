@@ -32,7 +32,7 @@ Geometry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -45,7 +45,9 @@ modules
 /
 RustGeometry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
