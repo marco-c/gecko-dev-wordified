@@ -4838,16 +4838,6 @@ unwatch
 \
 MACRO_
 (
-UnwrapAndCallRegExpBuiltinExec
-UnwrapAndCallRegExpBuiltinExec
-\
-"
-UnwrapAndCallRegExpBuiltinExec
-"
-)
-\
-MACRO_
-(
 url
 url
 "

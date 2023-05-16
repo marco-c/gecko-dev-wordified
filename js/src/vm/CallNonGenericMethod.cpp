@@ -267,7 +267,7 @@ return
 ReportIncompatibleSelfHostedMethod
 (
 cx
-args
+thisv
 )
 ;
 }

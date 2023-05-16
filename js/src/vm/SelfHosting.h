@@ -1946,10 +1946,11 @@ ReportIncompatibleSelfHostedMethod
 JSContext
 *
 cx
-const
-CallArgs
-&
-args
+Handle
+<
+Value
+>
+thisValue
 )
 ;
 /
