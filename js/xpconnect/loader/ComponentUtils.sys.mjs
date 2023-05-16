@@ -113,15 +113,6 @@ loader
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ComponentUtils
-"
-]
-;
 const
 nsIFactoryQI
 =
@@ -136,6 +127,7 @@ nsIFactory
 ]
 )
 ;
+export
 var
 ComponentUtils
 =
