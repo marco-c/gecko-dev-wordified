@@ -14,7 +14,7 @@ from
 .
 import
 assert_console_entry
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 from
 .
 .
@@ -22,7 +22,6 @@ from
 import
 any_string
 int_interval
-recursive_compare
 pytest
 .
 mark
@@ -182,7 +181,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
@@ -375,7 +374,7 @@ log
 .
         
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
             
 bidi_session
@@ -395,7 +394,7 @@ else
 :
         
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
             
 bidi_session
@@ -634,7 +633,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
@@ -700,7 +699,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
@@ -782,7 +781,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
@@ -864,7 +863,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
@@ -1031,7 +1030,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
@@ -1081,7 +1080,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
