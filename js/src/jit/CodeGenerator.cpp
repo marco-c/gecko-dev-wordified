@@ -37525,15 +37525,6 @@ a
 fixed
 slot
 .
-/
-/
-See
-CanAttachDOMCall
-in
-CacheIR
-.
-cpp
-.
 masm
 .
 debugAssertObjHasFixedSlots
