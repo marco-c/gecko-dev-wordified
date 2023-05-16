@@ -4782,7 +4782,7 @@ compilation
 )
 depends
 (
-rustc_opt_level
+developer_options
 debug_rust
 "
 MOZ_AUTOMATION
