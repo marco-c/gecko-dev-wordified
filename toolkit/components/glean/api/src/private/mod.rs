@@ -192,9 +192,6 @@ mod
 string_list
 ;
 mod
-text
-;
-mod
 timespan
 ;
 mod
@@ -384,16 +381,6 @@ string_list
 :
 :
 StringListMetric
-;
-pub
-use
-self
-:
-:
-text
-:
-:
-TextMetric
 ;
 pub
 use
