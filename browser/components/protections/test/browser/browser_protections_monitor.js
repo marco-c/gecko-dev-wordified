@@ -114,7 +114,7 @@ function
 (
 )
 {
-const
+let
 tab
 =
 await
@@ -142,7 +142,7 @@ reloadTab
 tab
 )
 ;
-const
+let
 monitorCardEnabled
 =
 Services
@@ -233,12 +233,11 @@ data
 "
 )
 ;
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 TEST_LOGIN1
 )

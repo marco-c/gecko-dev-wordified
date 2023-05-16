@@ -595,7 +595,6 @@ for
 .
 *
 /
-async
 function
 add_login
 (
@@ -649,12 +648,11 @@ LOGIN_USERNAME_FIELD
 LOGIN_PASSWORD_FIELD
 )
 ;
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 login
 )
@@ -1890,7 +1888,6 @@ mozilla
 org
 "
 ;
-await
 add_login
 (
 TEST_HOST
@@ -1936,7 +1933,6 @@ mozilla
 org
 "
 ;
-await
 add_login
 (
 TEST_HOST
@@ -1980,7 +1976,6 @@ ilovemozilla
 org
 "
 ;
-await
 add_login
 (
 TEST_HOST

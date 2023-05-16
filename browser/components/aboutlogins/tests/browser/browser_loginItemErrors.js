@@ -132,12 +132,11 @@ pass2
 ;
 LOGIN_TO_UPDATE
 =
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 LOGIN_TO_UPDATE
 )
