@@ -180,7 +180,9 @@ include
 "
 rtc_base
 /
-rate_statistics
+numerics
+/
+sequence_number_unwrapper
 .
 h
 "
@@ -189,7 +191,7 @@ include
 "
 rtc_base
 /
-time_utils
+rate_statistics
 .
 h
 "
@@ -534,10 +536,7 @@ last_emitted_tl0_timestamp_
 int64_t
 last_frame_time_ms_
 ;
-rtc
-:
-:
-TimestampWrapAroundHandler
+RtpTimestampUnwrapper
 time_wrap_handler_
 ;
 uint32_t
