@@ -243,6 +243,17 @@ h
 #
 include
 "
+gc
+/
+StableCellHasher
+-
+inl
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmInstance

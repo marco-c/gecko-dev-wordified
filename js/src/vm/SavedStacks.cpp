@@ -356,6 +356,17 @@ h
 #
 include
 "
+gc
+/
+StableCellHasher
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 GeckoProfiler

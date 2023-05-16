@@ -269,6 +269,17 @@ WarnNumberLatin1
 #
 include
 "
+gc
+/
+StableCellHasher
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 Realm
