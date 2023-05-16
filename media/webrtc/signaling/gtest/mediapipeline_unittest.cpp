@@ -1552,6 +1552,9 @@ dom
 :
 :
 RTCStatsTimestampMaker
+:
+:
+Create
 (
 )
 nullptr

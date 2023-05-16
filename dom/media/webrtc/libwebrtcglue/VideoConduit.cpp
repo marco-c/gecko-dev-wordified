@@ -11410,6 +11410,10 @@ GetTimestampMaker
 GetNow
 (
 )
+.
+ToDom
+(
+)
 ;
 if
 (
