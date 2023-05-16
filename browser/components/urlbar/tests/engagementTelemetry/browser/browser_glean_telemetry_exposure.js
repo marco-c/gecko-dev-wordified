@@ -92,7 +92,7 @@ urlbar
 exposureResults
 "
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 ]
 [
@@ -131,7 +131,7 @@ assertExposureTelemetry
 results
 :
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 }
 ]
@@ -166,7 +166,7 @@ urlbar
 exposureResults
 "
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 ]
 [
@@ -205,7 +205,7 @@ assertExposureTelemetry
 results
 :
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 }
 ]
@@ -240,7 +240,7 @@ urlbar
 exposureResults
 "
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 ]
 [
@@ -282,7 +282,7 @@ await
 getResultByType
 (
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 )
 null
@@ -311,7 +311,7 @@ assertExposureTelemetry
 results
 :
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 }
 ]
@@ -346,7 +346,7 @@ urlbar
 exposureResults
 "
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 ]
 [
@@ -431,7 +431,7 @@ assertExposureTelemetry
 results
 :
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 }
 ]
@@ -466,7 +466,7 @@ urlbar
 exposureResults
 "
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 ]
 [
@@ -551,7 +551,7 @@ assertExposureTelemetry
 results
 :
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 }
 ]
@@ -586,8 +586,8 @@ urlbar
 exposureResults
 "
 "
-rs_suggest_sponsor
-rs_suggest_non_sponsor
+rs_adm_sponsored
+rs_adm_nonsponsored
 "
 ]
 [
@@ -626,7 +626,7 @@ assertExposureTelemetry
 results
 :
 "
-rs_suggest_non_sponsor
+rs_adm_nonsponsored
 "
 }
 ]

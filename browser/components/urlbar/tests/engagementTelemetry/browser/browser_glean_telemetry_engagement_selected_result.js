@@ -2683,7 +2683,7 @@ add_task
 (
 async
 function
-selected_result_suggest_sponsor
+selected_result_adm_sponsored
 (
 )
 {
@@ -2739,7 +2739,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 selected_result_subtype
 :
@@ -2754,7 +2754,7 @@ results
 :
 "
 search_engine
-rs_suggest_sponsor
+rs_adm_sponsored
 "
 }
 ]
@@ -2774,7 +2774,7 @@ add_task
 (
 async
 function
-selected_result_suggest_non_sponsor
+selected_result_adm_nonsponsored
 (
 )
 {
@@ -2830,7 +2830,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-rs_suggest_non_sponsor
+rs_adm_nonsponsored
 "
 selected_result_subtype
 :
@@ -2845,7 +2845,7 @@ results
 :
 "
 search_engine
-rs_suggest_non_sponsor
+rs_adm_nonsponsored
 "
 }
 ]
@@ -3172,7 +3172,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-merino_navigational
+merino_top_picks
 "
 selected_result_subtype
 :
@@ -3187,7 +3187,7 @@ results
 :
 "
 search_engine
-merino_navigational
+merino_top_picks
 "
 }
 ]
@@ -3337,7 +3337,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-merino_dynamic_wikipedia
+merino_wikipedia
 "
 selected_result_subtype
 :
@@ -3352,7 +3352,7 @@ results
 :
 "
 search_engine
-merino_dynamic_wikipedia
+merino_wikipedia
 "
 }
 ]

@@ -3272,7 +3272,8 @@ fetchAndCheckSuggestions
 {
 expected
 :
-null
+[
+]
 }
 )
 ;

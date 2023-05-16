@@ -377,7 +377,7 @@ results
 :
 "
 search_engine
-rs_suggest_sponsor
+rs_adm_sponsored
 search_suggest
 search_suggest
 "
@@ -698,7 +698,7 @@ results
 :
 "
 search_engine
-rs_suggest_non_sponsor
+rs_adm_nonsponsored
 "
 n_results
 :

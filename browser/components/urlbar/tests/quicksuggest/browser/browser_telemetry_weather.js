@@ -459,9 +459,6 @@ toString
 )
 }
 }
-ping
-:
-null
 }
 selectables
 :
@@ -535,10 +532,6 @@ toString
 )
 }
 }
-pings
-:
-[
-]
 }
 /
 /
@@ -609,10 +602,6 @@ toString
 )
 }
 }
-pings
-:
-[
-]
 }
 /
 /
@@ -683,10 +672,6 @@ toString
 )
 }
 }
-pings
-:
-[
-]
 }
 }
 }
