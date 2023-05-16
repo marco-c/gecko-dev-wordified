@@ -189,6 +189,10 @@ const
 nsACString
 &
 aOrigin
+const
+nsACString
+&
+aStorageOrigin
 bool
 aIsPrivate
 const
@@ -503,6 +507,10 @@ mGroupInfo
 const
 nsCString
 mOrigin
+;
+const
+nsCString
+mStorageOrigin
 ;
 bool
 mIsExtension

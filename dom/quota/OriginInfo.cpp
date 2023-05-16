@@ -195,6 +195,10 @@ const
 nsACString
 &
 aOrigin
+const
+nsACString
+&
+aStorageOrigin
 bool
 aIsPrivate
 const
@@ -227,6 +231,10 @@ mOrigin
 (
 aOrigin
 )
+mStorageOrigin
+(
+aStorageOrigin
+)
 mUsage
 (
 aUsage
@@ -255,6 +263,14 @@ aDirectoryExists
 MOZ_ASSERT
 (
 aGroupInfo
+)
+;
+MOZ_ASSERT
+(
+aOrigin
+=
+=
+aStorageOrigin
 )
 ;
 MOZ_ASSERT
@@ -501,6 +517,7 @@ Group
 (
 )
 mOrigin
+mStorageOrigin
 mIsPrivate
 mGroupInfo
 -
