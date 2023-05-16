@@ -297,17 +297,6 @@ include
 "
 modules
 /
-include
-/
-module_common_types_public
-.
-h
-"
-#
-include
-"
-modules
-/
 rtp_rtcp
 /
 include
@@ -16777,7 +16766,7 @@ Zero
 (
 )
 ;
-SequenceNumberUnwrapper
+RtpSequenceNumberUnwrapper
 seq_num_unwrapper
 ;
 auto
@@ -16881,8 +16870,8 @@ Seconds
 )
 {
 seq_num_unwrapper
-=
-SequenceNumberUnwrapper
+.
+Reset
 (
 )
 ;
