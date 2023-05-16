@@ -274,11 +274,12 @@ _nsLoginInfoFromRecord
 record
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )
@@ -843,11 +844,12 @@ _nsLoginInfoFromRecord
 record
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )
