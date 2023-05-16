@@ -2045,13 +2045,6 @@ getScopeItem
 ;
 }
 }
-if
-(
-features
-.
-xhrBreakpoints
-)
-{
 items
 .
 push
@@ -2063,7 +2056,6 @@ getXHRItem
 )
 )
 ;
-}
 if
 (
 features
