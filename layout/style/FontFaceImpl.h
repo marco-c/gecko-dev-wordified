@@ -198,9 +198,6 @@ h
 class
 gfxFontFaceBufferSource
 ;
-struct
-RawServoFontFaceRule
-;
 namespace
 mozilla
 {
@@ -209,6 +206,9 @@ CSSFontFaceDescriptors
 ;
 class
 PostTraversalTask
+;
+struct
+StyleLockedFontFaceRule
 ;
 namespace
 dom
@@ -594,12 +594,12 @@ aOwner
 FontFaceSetImpl
 *
 aFontFaceSet
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 aRule
 )
 ;
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 GetRule
 (
@@ -1435,7 +1435,7 @@ aResult
 )
 const
 ;
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 GetData
 (
@@ -1515,7 +1515,7 @@ FontFace
 .
 RefPtr
 <
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 >
 mRule
 ;
@@ -1777,7 +1777,7 @@ bug
 .
 RefPtr
 <
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 >
 mDescriptors
 ;

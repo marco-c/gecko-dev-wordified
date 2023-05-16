@@ -216,12 +216,12 @@ nsIPrincipal
 class
 nsPIDOMWindowInner
 ;
-struct
-RawServoFontFaceRule
-;
 namespace
 mozilla
 {
+struct
+StyleLockedFontFaceRule
+;
 class
 PostTraversalTask
 ;
@@ -569,7 +569,7 @@ platform
 font
 entry
 virtual
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 FindRuleForEntry
 (
@@ -1216,7 +1216,7 @@ userfont
 font
 entry
 virtual
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 FindRuleForUserFontEntry
 (

@@ -245,7 +245,7 @@ class
 nsIPrincipal
 ;
 struct
-ServoCssRules
+StyleLockedCssRules
 ;
 class
 nsIReferrerInfo
@@ -3053,7 +3053,7 @@ failure
 .
 )
 const
-ServoCssRules
+StyleLockedCssRules
 *
 ToShared
 (
@@ -3107,7 +3107,7 @@ void
 SetSharedContents
 (
 const
-ServoCssRules
+StyleLockedCssRules
 *
 aSharedRules
 )

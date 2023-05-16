@@ -543,7 +543,7 @@ s
 user
 font
 set
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 rule
 =

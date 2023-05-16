@@ -773,7 +773,7 @@ aOwner
 FontFaceSetImpl
 *
 aFontFaceSet
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 aRule
 )
@@ -3343,7 +3343,7 @@ gfxUserFontAttributes
 aAttr
 )
 {
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 data
 =

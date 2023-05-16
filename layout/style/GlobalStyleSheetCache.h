@@ -618,7 +618,7 @@ to
 kMagic
 .
 const
-ServoCssRules
+StyleLockedCssRules
 *
 mSheets
 [

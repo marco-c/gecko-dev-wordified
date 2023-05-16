@@ -188,9 +188,6 @@ h
 struct
 nsCSSRect
 ;
-struct
-RawServoDeclarationBlock
-;
 template
 <
 class
@@ -219,6 +216,9 @@ StyleFontWeight
 ;
 struct
 StyleFontStyle
+;
+struct
+StyleLockedDeclarationBlock
 ;
 union
 StyleComputedFontStyleDescriptor
@@ -516,7 +516,7 @@ value
 into
 a
 *
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 .
 *
 *
@@ -562,7 +562,7 @@ parsed
 value
 as
 a
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 .
 We
 put
@@ -590,7 +590,7 @@ Servo
 static
 already_AddRefed
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 ParseProperty
 (

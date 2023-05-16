@@ -236,7 +236,7 @@ GroupRule
 (
 already_AddRefed
 <
-ServoCssRules
+StyleLockedCssRules
 >
 aRules
 StyleSheet
@@ -359,7 +359,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-ServoCssRules
+StyleLockedCssRules
 >
 aRules
 )

@@ -176,10 +176,7 @@ use
 servo_arc
 :
 :
-{
 Arc
-RawOffsetArc
-}
 ;
 use
 std
@@ -1011,12 +1008,9 @@ RulesMutateError
 impl
 CssRulesHelpers
 for
-RawOffsetArc
-<
 Locked
 <
 CssRules
->
 >
 {
 fn

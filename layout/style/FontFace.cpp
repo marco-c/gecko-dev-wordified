@@ -723,7 +723,7 @@ aGlobal
 FontFaceSet
 *
 aFontFaceSet
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 aRule
 )

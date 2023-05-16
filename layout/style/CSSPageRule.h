@@ -274,7 +274,7 @@ CSSPageRuleDeclaration
 (
 already_AddRefed
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 aDecls
 )
@@ -284,7 +284,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 )
 ;
@@ -333,7 +333,7 @@ CSSPageRule
 (
 RefPtr
 <
-RawServoPageRule
+StyleLockedPageRule
 >
 aRawRule
 StyleSheet
@@ -367,7 +367,7 @@ IsCCLeaf
 const
 final
 ;
-RawServoPageRule
+StyleLockedPageRule
 *
 Raw
 (
@@ -383,7 +383,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoPageRule
+StyleLockedPageRule
 >
 )
 ;
@@ -505,7 +505,7 @@ CSSPageRuleDeclaration
 ;
 RefPtr
 <
-RawServoPageRule
+StyleLockedPageRule
 >
 mRawRule
 ;

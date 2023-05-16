@@ -162,7 +162,7 @@ CSSMediaRule
 (
 RefPtr
 <
-RawServoMediaRule
+StyleLockedMediaRule
 >
 aRawRule
 StyleSheet
@@ -216,7 +216,7 @@ final
 ;
 #
 endif
-RawServoMediaRule
+StyleLockedMediaRule
 *
 Raw
 (
@@ -232,7 +232,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoMediaRule
+StyleLockedMediaRule
 >
 )
 ;
@@ -316,7 +316,7 @@ CSSMediaRule
 ;
 RefPtr
 <
-RawServoMediaRule
+StyleLockedMediaRule
 >
 mRawRule
 ;
