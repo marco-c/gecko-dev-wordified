@@ -231,13 +231,6 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLSharedListElement
 )
-/
-/
-Shared
-with
-nsHTMLSharedElement
-.
-cpp
 nsAttrValue
 :
 :
