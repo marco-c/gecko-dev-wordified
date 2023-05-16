@@ -546,7 +546,13 @@ WebRtcVoiceEngine
 layer
 .
 virtual
+absl
+:
+:
+optional
+<
 uint32_t
+>
 ssrc
 (
 )
