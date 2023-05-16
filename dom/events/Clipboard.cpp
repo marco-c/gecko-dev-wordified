@@ -2469,6 +2469,7 @@ NS_IMPL_ISUPPORTS0
 (
 BlobTextHandler
 )
+static
 RefPtr
 <
 NativeEntryPromise
@@ -2861,6 +2862,7 @@ NS_IMPL_ISUPPORTS
 ImageDecodeCallback
 imgIContainerCallback
 )
+static
 RefPtr
 <
 NativeEntryPromise
@@ -3062,6 +3064,7 @@ Promise
 )
 ;
 }
+static
 Result
 <
 NativeEntry
@@ -3324,6 +3327,7 @@ NativeEntryPromise
 :
 AllPromiseType
 ;
+static
 RefPtr
 <
 NativeItemPromise
