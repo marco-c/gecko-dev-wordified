@@ -116,11 +116,12 @@ field_password
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 loginInfo
 )
@@ -295,11 +296,12 @@ field_password
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 loginInfo
 )
