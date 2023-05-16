@@ -224,6 +224,15 @@ safe_minmax
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+time_utils
+.
+h
+"
 namespace
 webrtc
 {

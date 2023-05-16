@@ -268,9 +268,9 @@ include
 "
 rtc_base
 /
-synchronization
+numerics
 /
-mutex
+sequence_number_unwrapper
 .
 h
 "
@@ -279,7 +279,9 @@ include
 "
 rtc_base
 /
-time_utils
+synchronization
+/
+mutex
 .
 h
 "
@@ -984,10 +986,7 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-rtc
-:
-:
-TimestampWrapAroundHandler
+RtpTimestampUnwrapper
 timestamp_wrap_handler_
 RTC_GUARDED_BY
 (
