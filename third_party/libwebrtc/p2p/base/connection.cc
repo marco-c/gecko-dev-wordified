@@ -3188,9 +3188,9 @@ Do
 a
 better
 thing
-RTC_LOG
+RTC_DLOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
