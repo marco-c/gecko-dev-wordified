@@ -3853,7 +3853,7 @@ i
 +
 )
 {
-mDefaultStorageFileManagers
+mPrivateStorageFileManagers
 [
 i
 ]
