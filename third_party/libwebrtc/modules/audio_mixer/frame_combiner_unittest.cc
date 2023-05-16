@@ -275,14 +275,6 @@ testing
 :
 UnorderedElementsAreArray
 ;
-using
-LimiterType
-=
-FrameCombiner
-:
-:
-LimiterType
-;
 struct
 FrameCombinerConfig
 {
