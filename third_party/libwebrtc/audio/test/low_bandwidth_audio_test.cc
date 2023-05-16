@@ -613,7 +613,7 @@ stereo
 ;
 }
 BuiltInNetworkBehaviorConfig
-GetNetworkPipeConfig
+GetSendTransportConfig
 (
 )
 const

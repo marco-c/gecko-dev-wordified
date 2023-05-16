@@ -215,7 +215,7 @@ NoLossTest
 default
 ;
 BuiltInNetworkBehaviorConfig
-GetNetworkPipeConfig
+GetSendTransportConfig
 (
 )
 const

@@ -166,7 +166,7 @@ kNackHistoryMs
 1000
 ;
 BuiltInNetworkBehaviorConfig
-GetNetworkPipeConfig
+GetSendTransportConfig
 (
 )
 const

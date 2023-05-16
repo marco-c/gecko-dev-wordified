@@ -154,7 +154,7 @@ kRttMs
 30
 ;
 BuiltInNetworkBehaviorConfig
-GetNetworkPipeConfig
+GetSendTransportConfig
 (
 )
 const
