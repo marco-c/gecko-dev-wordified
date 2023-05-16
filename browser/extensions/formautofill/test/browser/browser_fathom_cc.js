@@ -74,7 +74,9 @@ implementation
 See
 CreditCardRuleset
 .
-jsm
+sys
+.
+mjs
 )
 .
 *
@@ -720,7 +722,9 @@ in
 /
 CreditCardRuleset
 .
-jsm
+sys
+.
+mjs
 (
 See
 get
