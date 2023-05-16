@@ -1925,6 +1925,16 @@ apple
 .
 mpegurl
 "
+#
+define
+APPLICATION_DASH_XML
+"
+application
+/
+dash
++
+xml
+"
 /
 *
 x
