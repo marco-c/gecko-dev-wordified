@@ -606,7 +606,9 @@ modules
 /
 PageThumbs
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

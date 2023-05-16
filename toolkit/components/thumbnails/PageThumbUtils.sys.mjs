@@ -74,15 +74,6 @@ BackgroundPageThumbs
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PageThumbUtils
-"
-]
-;
 const
 lazy
 =
@@ -115,6 +106,7 @@ mjs
 }
 )
 ;
+export
 var
 PageThumbUtils
 =

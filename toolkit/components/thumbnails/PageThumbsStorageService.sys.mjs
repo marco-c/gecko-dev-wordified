@@ -63,15 +63,11 @@ THUMBNAIL_DIRECTORY
 thumbnails
 "
 ;
-const
+import
 {
 XPCOMUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -87,7 +83,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 lazy
@@ -182,6 +177,7 @@ converter
 }
 )
 ;
+export
 function
 PageThumbsStorageService
 (
@@ -457,13 +453,4 @@ hex
 ;
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-PageThumbsStorageService
-"
-]
 ;

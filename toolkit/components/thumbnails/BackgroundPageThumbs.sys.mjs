@@ -57,15 +57,6 @@ MPL
 *
 /
 const
-EXPORTED_SYMBOLS
-=
-[
-"
-BackgroundPageThumbs
-"
-]
-;
-const
 DEFAULT_CAPTURE_TIMEOUT
 =
 30000
@@ -285,6 +276,7 @@ mjs
 }
 )
 ;
+export
 const
 BackgroundPageThumbs
 =
