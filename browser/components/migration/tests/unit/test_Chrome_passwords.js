@@ -1732,11 +1732,12 @@ i
 )
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 newLogins
 [
