@@ -3283,11 +3283,6 @@ self
 mFirstChild
 .
 raw
-:
-:
-<
-nsIContent
->
 (
 )
 .
@@ -3390,11 +3385,6 @@ prev_or_last
 mNextSibling
 .
 raw
-:
-:
-<
-nsIContent
->
 (
 )
 .
@@ -3438,11 +3428,6 @@ self
 mNextSibling
 .
 raw
-:
-:
-<
-nsIContent
->
 (
 )
 .

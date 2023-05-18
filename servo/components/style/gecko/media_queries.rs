@@ -766,14 +766,6 @@ document
 mDocumentURI
 .
 raw
-:
-:
-<
-structs
-:
-:
-nsIURI
->
 (
 )
 &
