@@ -2002,13 +2002,6 @@ LoadFormatModifiers
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 if
 (
 !
@@ -2027,6 +2020,13 @@ XRE_IsParentProcess
 )
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 wl_display
 *
 display
