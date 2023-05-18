@@ -1123,10 +1123,7 @@ cosf
 (
 a
 *
-(
-float
-)
-M_PI
+HB_PI
 )
 ;
 float
@@ -1136,10 +1133,7 @@ sinf
 (
 a
 *
-(
-float
-)
-M_PI
+HB_PI
 )
 ;
 push_transform
@@ -1195,10 +1189,7 @@ tanf
 -
 sx
 *
-(
-float
-)
-M_PI
+HB_PI
 )
 ;
 float
@@ -1209,10 +1200,7 @@ tanf
 +
 sy
 *
-(
-float
-)
-M_PI
+HB_PI
 )
 ;
 push_transform

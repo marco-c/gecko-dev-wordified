@@ -239,7 +239,7 @@ necessary
 #
 define
 HB_NULL_POOL_SIZE
-448
+520
 template
 <
 typename

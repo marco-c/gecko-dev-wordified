@@ -692,7 +692,7 @@ iter_input
 ;
 skippy_iter
 .
-reset
+reset_fast
 (
 buffer
 -
@@ -725,6 +725,8 @@ unsafe_from
 ;
 if
 (
+unlikely
+(
 !
 skippy_iter
 .
@@ -732,6 +734,7 @@ prev
 (
 &
 unsafe_from
+)
 )
 )
 {
@@ -757,6 +760,8 @@ false
 }
 if
 (
+likely
+(
 !
 _hb_glyph_info_is_mark
 (
@@ -770,6 +775,7 @@ skippy_iter
 .
 idx
 ]
+)
 )
 )
 {

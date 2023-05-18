@@ -988,7 +988,7 @@ i
 x_offset
 +
 =
-_hb_roundf
+roundf
 (
 font
 -

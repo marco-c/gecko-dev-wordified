@@ -709,6 +709,8 @@ maxp_prime
 >
 numGlyphs
 =
+hb_min
+(
 c
 -
 >
@@ -717,6 +719,8 @@ plan
 >
 num_output_glyphs
 (
+)
+0xFFFFu
 )
 ;
 if

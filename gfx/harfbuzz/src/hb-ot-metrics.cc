@@ -1476,7 +1476,7 @@ slant
 position
 +
 =
-_hb_roundf
+roundf
 (
 mult
 *

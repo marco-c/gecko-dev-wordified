@@ -24,7 +24,6 @@ Alexei
 Podtelezhnikov
 *
 *
-*
 This
 is
 part

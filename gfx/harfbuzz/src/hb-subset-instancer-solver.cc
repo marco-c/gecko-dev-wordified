@@ -900,7 +900,6 @@ and
 outermost
 bound
 and
-and
 scale
 deltas
 *

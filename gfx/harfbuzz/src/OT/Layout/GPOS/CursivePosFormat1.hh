@@ -734,7 +734,7 @@ iter_input
 ;
 skippy_iter
 .
-reset
+reset_fast
 (
 buffer
 -
@@ -748,6 +748,8 @@ unsafe_from
 ;
 if
 (
+unlikely
+(
 !
 skippy_iter
 .
@@ -755,6 +757,7 @@ prev
 (
 &
 unsafe_from
+)
 )
 )
 {

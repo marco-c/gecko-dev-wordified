@@ -3397,6 +3397,14 @@ hb_sink
 nameids_to_retain
 )
 ;
+nameids_to_retain
+-
+>
+add
+(
+elidedFallbackNameID
+)
+;
 }
 bool
 subset

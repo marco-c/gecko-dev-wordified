@@ -627,6 +627,9 @@ float
 >
 axes_location
 ;
+hb_map_t
+glyph_map
+;
 #
 ifdef
 HB_EXPERIMENTAL_API

@@ -911,7 +911,7 @@ _
 return
 _
 .
-intersects
+intersects_lig_glyph
 (
 &
 glyphset
