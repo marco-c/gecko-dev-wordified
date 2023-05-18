@@ -5813,7 +5813,7 @@ jitRealm
 )
 -
 >
-ensureRegExpTesterStubExists
+ensureRegExpExecTestStubExists
 (
 cx_
 )

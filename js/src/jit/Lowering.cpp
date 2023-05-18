@@ -23815,7 +23815,7 @@ ins
 regexp
 (
 )
-RegExpTesterRegExpReg
+RegExpSearcherRegExpReg
 )
 useFixedAtStart
 (
@@ -23825,7 +23825,7 @@ ins
 string
 (
 )
-RegExpTesterStringReg
+RegExpSearcherStringReg
 )
 useFixedAtStart
 (
@@ -23835,7 +23835,7 @@ ins
 lastIndex
 (
 )
-RegExpTesterLastIndexReg
+RegExpSearcherLastIndexReg
 )
 )
 ;
@@ -24029,7 +24029,7 @@ ins
 regexp
 (
 )
-RegExpTesterRegExpReg
+RegExpExecTestRegExpReg
 )
 useFixedAtStart
 (
@@ -24039,11 +24039,11 @@ ins
 string
 (
 )
-RegExpTesterStringReg
+RegExpExecTestStringReg
 )
 tempFixed
 (
-RegExpTesterLastIndexReg
+RegExpExecTestLastIndexReg
 )
 )
 ;
