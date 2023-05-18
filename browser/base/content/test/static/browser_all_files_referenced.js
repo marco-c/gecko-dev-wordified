@@ -3094,7 +3094,7 @@ in
 bug
 1824826
 when
-moz
+fxview
 -
 tab
 -
@@ -3122,7 +3122,7 @@ US
 /
 browser
 /
-mozTabList
+fxviewTabList
 .
 ftl
 "
@@ -3141,7 +3141,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -3164,7 +3164,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -3187,7 +3187,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
