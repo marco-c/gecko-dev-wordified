@@ -2367,7 +2367,7 @@ assertRaises
 (
 errors
 .
-StaleElementException
+NoSuchElementException
 )
 :
             
