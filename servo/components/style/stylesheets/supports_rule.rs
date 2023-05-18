@@ -176,7 +176,6 @@ stylesheets
 {
 CssRuleType
 CssRules
-Namespaces
 }
 ;
 use
@@ -2001,10 +2000,6 @@ cx
 :
 &
 ParserContext
-namespaces
-:
-&
-Namespaces
 )
 -
 >
@@ -2030,7 +2025,6 @@ cond
 eval
 (
 cx
-namespaces
 )
 SupportsCondition
 :
@@ -2047,7 +2041,6 @@ cond
 eval
 (
 cx
-namespaces
 )
 SupportsCondition
 :
@@ -2075,7 +2068,6 @@ c
 eval
 (
 cx
-namespaces
 )
 )
 SupportsCondition
@@ -2104,7 +2096,6 @@ c
 eval
 (
 cx
-namespaces
 )
 )
 SupportsCondition
@@ -2153,7 +2144,6 @@ selector
 eval
 (
 cx
-namespaces
 )
 SupportsCondition
 :
@@ -3007,10 +2997,6 @@ context
 :
 &
 ParserContext
-namespaces
-:
-&
-Namespaces
 )
 -
 >
@@ -3070,6 +3056,11 @@ parser
 =
 SelectorParser
 {
+namespaces
+:
+&
+context
+.
 namespaces
 stylesheet_origin
 :
