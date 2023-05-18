@@ -1508,6 +1508,11 @@ encoderDelayFrameCount
 )
 ;
 }
+uint64_t
+mediaFrameCount
+=
+0
+;
 /
 /
 Pass
@@ -1523,7 +1528,12 @@ decoder
 as
 well
 .
-Index
+if
+(
+aIndices
+)
+{
+MP4SampleIndex
 :
 :
 Indice
@@ -1551,11 +1561,6 @@ Length
 1
 indice
 )
-;
-uint64_t
-mediaFrameCount
-=
-0
 ;
 if
 (
@@ -1602,9 +1607,9 @@ decoder
 so
 that
 trimming
+/
+/
 can
-/
-/
 be
 done
 properly
@@ -1673,6 +1678,7 @@ time
 "
 )
 ;
+}
 }
 AacCodecSpecificData
 aacCodecSpecificData
