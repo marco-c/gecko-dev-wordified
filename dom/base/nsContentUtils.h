@@ -22949,15 +22949,6 @@ nsIContent
 aContent
 )
 ;
-static
-bool
-IsExternalProtocol
-(
-nsIURI
-*
-aURI
-)
-;
 private
 :
 static

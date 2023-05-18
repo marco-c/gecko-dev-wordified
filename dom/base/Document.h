@@ -8972,11 +8972,6 @@ nsIChannel
 aChannel
 )
 ;
-void
-EnsureNotEnteringAndExitFullscreen
-(
-)
-;
 protected
 :
 friend
