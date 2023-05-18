@@ -432,10 +432,6 @@ aCx
 ReadableStream
 *
 aStream
-ReadableStreamDefaultReader
-*
-*
-aReader
 ErrorResult
 &
 aRv

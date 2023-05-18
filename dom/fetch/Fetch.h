@@ -1472,12 +1472,6 @@ subclasses
 .
 RefPtr
 <
-ReadableStreamDefaultReader
->
-mReadableStreamReader
-;
-RefPtr
-<
 FetchStreamReader
 >
 mFetchStreamReader
