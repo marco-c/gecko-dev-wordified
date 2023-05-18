@@ -775,13 +775,6 @@ VideoCaptureCapability
 capability
 )
 {
-MutexLock
-lock
-(
-&
-api_lock_
-)
-;
 if
 (
 capability
@@ -908,13 +901,6 @@ StopCapture
 (
 )
 {
-MutexLock
-lock
-(
-&
-api_lock_
-)
-;
 HRESULT
 hr
 =
