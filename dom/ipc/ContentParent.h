@@ -5962,9 +5962,9 @@ IPCResult
 RecvSetClipboard
 (
 const
-IPCDataTransfer
+IPCTransferableData
 &
-aDataTransfer
+aTransferableData
 const
 bool
 &
@@ -6013,9 +6013,9 @@ const
 int32_t
 &
 aWhichClipboard
-IPCDataTransfer
+IPCTransferableData
 *
-aDataTransfer
+aTransferableData
 )
 ;
 mozilla
