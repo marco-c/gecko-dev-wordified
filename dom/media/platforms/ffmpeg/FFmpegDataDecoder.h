@@ -376,7 +376,7 @@ bool
 aGotFrame
 DecodedData
 &
-aOutResults
+aResults
 )
 ;
 FFmpegLibWrapper
