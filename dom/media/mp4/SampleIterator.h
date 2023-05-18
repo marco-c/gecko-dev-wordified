@@ -350,13 +350,13 @@ start_offset
 uint64_t
 end_offset
 ;
-uint64_t
+int64_t
 start_composition
 ;
-uint64_t
+int64_t
 end_composition
 ;
-uint64_t
+int64_t
 start_decode
 ;
 bool
@@ -524,6 +524,8 @@ uint32_t
 aTrackId
 bool
 aIsAudio
+int32_t
+aTimeScale
 )
 ;
 void

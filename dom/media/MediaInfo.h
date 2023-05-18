@@ -2141,6 +2141,11 @@ media
 TimeUnit
 mMediaTime
 ;
+int32_t
+mTimeScale
+=
+0
+;
 CryptoTrack
 mCrypto
 ;
