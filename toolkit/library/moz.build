@@ -1602,16 +1602,6 @@ CoreUI
 framework
 CoreSymbolication
 "
-#
-Workaround
-for
-bug
-1801419
-"
--
-weak_framework
-SidecarCore
-"
 "
 cups
 "
