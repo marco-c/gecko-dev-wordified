@@ -4510,9 +4510,11 @@ obj
 }
 MOZ_ASSERT
 (
-IS_WN_CLASS
-(
 clazz
+-
+>
+isWrappedNative
+(
 )
 )
 ;

@@ -10118,9 +10118,11 @@ unwrappedProto
 ;
 useSandboxProxy
 =
-IS_WN_CLASS
-(
 unwrappedClass
+-
+>
+isWrappedNative
+(
 )
 |
 |
