@@ -1589,8 +1589,6 @@ in
 the
 result
 of
-GetGName
-/
 BindGName
 instead
 of
@@ -1610,11 +1608,6 @@ optimize
 the
 op
 .
-bool
-tryOptimizeGetGlobalName
-(
-)
-;
 bool
 tryOptimizeBindGlobalName
 (
