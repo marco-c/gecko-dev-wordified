@@ -3151,7 +3151,6 @@ return
 mAudioEndedPromise
 ;
 }
-else
 if
 (
 aType
@@ -7855,10 +7854,16 @@ mDecodedStream
 .
 mAudioQueueSize
 =
+AssertedCast
+<
+int
+>
+(
 mAudioQueue
 .
 GetSize
 (
+)
 )
 ;
 if
