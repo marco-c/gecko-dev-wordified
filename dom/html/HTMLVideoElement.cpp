@@ -808,9 +808,15 @@ mVisualCloneTarget
 >
 Invalidate
 (
-true
+ImageSizeChanged
+:
+:
+Yes
 newSize
-true
+ForceInvalidate
+:
+:
+Yes
 )
 ;
 }
@@ -974,7 +980,7 @@ HTMLVideoElement
 :
 Invalidate
 (
-bool
+ImageSizeChanged
 aImageSizeChanged
 const
 Maybe
@@ -983,7 +989,7 @@ nsIntSize
 >
 &
 aNewIntrinsicSize
-bool
+ForceInvalidate
 aForceInvalidate
 )
 {
