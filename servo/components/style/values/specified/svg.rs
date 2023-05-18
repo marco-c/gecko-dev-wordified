@@ -2478,7 +2478,7 @@ parse_nested_block
 |
 i
 |
-SVGPathData
+Parse
 :
 :
 parse
