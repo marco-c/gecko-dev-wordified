@@ -295,7 +295,6 @@ extern
 LazyLogModule
 sAndroidDecoderModuleLog
 ;
-const
 nsCString
 TranslateMimeType
 (

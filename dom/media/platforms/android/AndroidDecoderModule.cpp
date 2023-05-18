@@ -271,12 +271,6 @@ using
 namespace
 mozilla
 ;
-using
-media
-:
-:
-TimeUnit
-;
 namespace
 mozilla
 {
@@ -291,7 +285,6 @@ AndroidDecoderModule
 "
 )
 ;
-const
 nsCString
 TranslateMimeType
 (
@@ -338,7 +331,6 @@ return
 vp8
 ;
 }
-else
 if
 (
 VPXDecoder
