@@ -1630,6 +1630,8 @@ const
 CSSIntPoint
 &
 aPosition
+bool
+aIsContextMenu
 )
 {
 nsPresContext
@@ -1774,6 +1776,9 @@ view
 withAppearance
 :
 appearance
+asContextMenu
+:
+aIsContextMenu
 ]
 ;
 }
