@@ -2998,6 +2998,16 @@ Length
 (
 )
 ;
+EventTargetChainItem
+*
+chain
+=
+aChain
+.
+Elements
+(
+)
+;
 uint32_t
 firstCanHandleEventTargetIdx
 =
@@ -3056,7 +3066,7 @@ EventTargetChainItem
 &
 item
 =
-aChain
+chain
 [
 i
 ]
@@ -3167,7 +3177,7 @@ EventTarget
 *
 newTarget
 =
-aChain
+chain
 [
 childIndex
 ]
@@ -3310,7 +3320,7 @@ EventTarget
 *
 relatedTarget
 =
-aChain
+chain
 [
 childIndex
 ]
@@ -3402,7 +3412,7 @@ j
 ;
 if
 (
-aChain
+chain
 [
 childIndex
 ]
@@ -3416,7 +3426,7 @@ found
 =
 true
 ;
-aChain
+chain
 [
 childIndex
 ]
@@ -3509,7 +3519,7 @@ EventTargetChainItem
 &
 targetItem
 =
-aChain
+chain
 [
 firstCanHandleEventTargetIdx
 ]
@@ -3656,7 +3666,7 @@ EventTargetChainItem
 &
 item
 =
-aChain
+chain
 [
 i
 ]
