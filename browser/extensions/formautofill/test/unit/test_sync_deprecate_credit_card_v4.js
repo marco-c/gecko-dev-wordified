@@ -979,13 +979,9 @@ record
 )
 }
 )
-Date
-.
-now
+getDateForSync
 (
 )
-/
-1000
 )
 )
 ;
