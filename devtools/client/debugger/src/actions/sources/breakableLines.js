@@ -387,7 +387,6 @@ getSourceActorBreakableLines
 sourceActor
 )
 ;
-await
 dispatch
 (
 {

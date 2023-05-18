@@ -820,7 +820,6 @@ source
 }
 else
 {
-await
 dispatch
 (
 {
