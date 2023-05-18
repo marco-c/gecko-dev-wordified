@@ -375,6 +375,15 @@ video
 -
 wrappers
 /
+nytimes
+.
+js
+"
+"
+video
+-
+wrappers
+/
 piped
 .
 js
