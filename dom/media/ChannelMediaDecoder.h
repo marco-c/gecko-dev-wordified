@@ -794,7 +794,12 @@ aStats
 BaseMediaResource
 *
 aResource
-double
+const
+media
+:
+:
+TimeUnit
+&
 aDuration
 )
 ;
