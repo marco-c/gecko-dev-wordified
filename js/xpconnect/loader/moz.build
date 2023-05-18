@@ -321,6 +321,16 @@ xpcom
 base
 /
 "
+"
+/
+xpcom
+/
+io
+"
+#
+crc32c
+.
+h
 ]
 include
 (
