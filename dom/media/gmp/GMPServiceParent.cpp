@@ -4052,7 +4052,7 @@ State
 GMPState
 :
 :
-GMPStateLoaded
+Loaded
 )
 {
 /
@@ -4359,7 +4359,7 @@ State
 GMPState
 :
 :
-GMPStateLoaded
+Loaded
 )
 {
 /
@@ -6560,7 +6560,10 @@ State
 )
 !
 =
-GMPStateNotLoaded
+GMPState
+:
+:
+NotLoaded
 )
 {
 /
@@ -6628,7 +6631,10 @@ State
 )
 =
 =
-GMPStateNotLoaded
+GMPState
+:
+:
+NotLoaded
 |
 |
 !
