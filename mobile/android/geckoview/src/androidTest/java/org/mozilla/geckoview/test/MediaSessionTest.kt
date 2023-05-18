@@ -306,7 +306,7 @@ TEST_DURATION1
 =
 3
 .
-37
+34
 const
 val
 WEBM_TEST_DURATION
