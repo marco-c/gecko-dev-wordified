@@ -573,6 +573,7 @@ view
 const
 property
 =
+await
 getBackgroundImageProperty
 (
 view
@@ -831,6 +832,7 @@ menu
 )
 ;
 }
+async
 function
 getBackgroundImageProperty
 (
@@ -860,6 +862,11 @@ background
 -
 image
 "
+{
+wait
+:
+true
+}
 )
 ;
 }
