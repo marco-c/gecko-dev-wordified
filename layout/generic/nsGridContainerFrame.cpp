@@ -76297,10 +76297,6 @@ GetNaturalBaselineBOffset
 (
 childWM
 aGroup
-BaselineExportContext
-:
-:
-Other
 )
 .
 valueOrFrom
