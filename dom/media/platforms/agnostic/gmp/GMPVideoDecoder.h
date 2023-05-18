@@ -702,6 +702,9 @@ mMaxRefFrames
 ReorderQueue
 mReorderQueue
 ;
+DecodedData
+mUnorderedData
+;
 MozPromiseHolder
 <
 DecodePromise
@@ -720,9 +723,6 @@ FlushPromise
 >
 mFlushPromise
 ;
-DecodedData
-mDecodedData
-;
 bool
 mConvertToAnnexB
 =
@@ -732,6 +732,11 @@ bool
 mCanDecodeBatch
 =
 false
+;
+bool
+mReorderFrames
+=
+true
 ;
 }
 ;
