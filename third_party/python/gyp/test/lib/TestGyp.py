@@ -58,8 +58,6 @@ __future__
 import
 print_function
 import
-collections
-import
 errno
 import
 itertools
@@ -79,6 +77,12 @@ from
 contextlib
 import
 contextmanager
+from
+six
+.
+moves
+import
+collections_abc
 import
 TestCmd
 import
@@ -3844,7 +3848,7 @@ not
 isinstance
 (
 status
-collections
+collections_abc
 .
 Iterable
 )

@@ -59,8 +59,6 @@ ninja
 "
 "
 import
-collections
-import
 os
 import
 re
@@ -68,6 +66,12 @@ import
 subprocess
 import
 sys
+from
+six
+.
+moves
+import
+collections_abc
 from
 gyp
 .
@@ -82,6 +86,12 @@ import
 gyp
 .
 MSVSVersion
+from
+gyp
+.
+MSVSVersion
+import
+version_to_tuple
 try
 :
   
@@ -246,6 +256,18 @@ line
 arguments
 .
   
+if
+not
+os
+.
+getenv
+(
+'
+GYP_MSVS_DISABLE_PATH_NORMALIZATION
+'
+)
+:
+    
 #
 Use
 a
@@ -261,7 +283,7 @@ paths
 and
 normalize
 them
-  
+    
 if
 arg
 .
@@ -285,7 +307,7 @@ count
 >
 1
 :
-    
+      
 arg
 =
 os
@@ -855,9 +877,7 @@ if
 isinstance
 (
 element
-collections
-.
-abc
+collections_abc
 .
 Iterable
 )
@@ -985,9 +1005,7 @@ if
 isinstance
 (
 element
-collections
-.
-abc
+collections_abc
 .
 Iterable
 )
@@ -1107,9 +1125,7 @@ if
 isinstance
 (
 element
-collections
-.
-abc
+collections_abc
 .
 Iterable
 )
@@ -1304,6 +1320,10 @@ stderr
 subprocess
 .
 PIPE
+                         
+universal_newlines
+=
+True
 )
     
 for
@@ -3088,11 +3108,14 @@ this
 level
     
 if
+int
+(
 self
 .
 vs_version
 .
 short_name
+)
 >
 =
 2015
@@ -5116,16 +5139,20 @@ default
 )
     
 if
+version_to_tuple
+(
 self
 .
 vs_version
 .
 project_version
+)
 >
 =
+(
 12
-.
 0
+)
 :
       
 #
@@ -11013,6 +11040,10 @@ stderr
 subprocess
 .
 STDOUT
+        
+universal_newlines
+=
+True
 )
     
 variables
@@ -11243,6 +11274,10 @@ stdout
 subprocess
 .
 PIPE
+                             
+universal_newlines
+=
+True
 )
     
 output

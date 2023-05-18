@@ -757,6 +757,17 @@ Unicode
 CharacterSet
 >
 '
+          
+'
+<
+SpectreMitigation
+>
+SpectreLoadCF
+<
+/
+SpectreMitigation
+>
+'
         
 '
 <
@@ -915,6 +926,15 @@ CharacterSet
 '
 '
 Unicode
+'
+]
+            
+[
+'
+SpectreMitigation
+'
+'
+SpectreLoadCF
 '
 ]
           

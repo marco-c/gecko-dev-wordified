@@ -1220,6 +1220,10 @@ stderr
 subprocess
 .
 STDOUT
+                            
+universal_newlines
+=
+True
 )
     
 out
@@ -1993,34 +1997,44 @@ assert_f
           
 our_data
 =
+re
+.
+sub
+(
+r
+'
+\
+s
++
+'
+'
+'
 our_f
 .
 read
 (
 )
-.
-translate
-(
-None
-string
-.
-whitespace
 )
           
 assert_data
 =
+re
+.
+sub
+(
+r
+'
+\
+s
++
+'
+'
+'
 assert_f
 .
 read
 (
 )
-.
-translate
-(
-None
-string
-.
-whitespace
 )
       
 if
@@ -2268,6 +2282,10 @@ stderr
 subprocess
 .
 STDOUT
+                             
+universal_newlines
+=
+True
 )
     
 out
@@ -2581,6 +2599,10 @@ stderr
 subprocess
 .
 STDOUT
+                             
+universal_newlines
+=
+True
 )
     
 out
@@ -2787,6 +2809,10 @@ stderr
 subprocess
 .
 STDOUT
+                             
+universal_newlines
+=
+True
 )
     
 out
@@ -2942,6 +2968,10 @@ stderr
 subprocess
 .
 STDOUT
+                             
+universal_newlines
+=
+True
 )
     
 out
