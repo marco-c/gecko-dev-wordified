@@ -282,6 +282,10 @@ mSyncOffset
 int64_t
 mClusterEndOffset
 ;
+/
+/
+In
+nanoseconds
 uint64_t
 mTimecode
 ;
