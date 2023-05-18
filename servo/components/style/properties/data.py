@@ -3042,10 +3042,6 @@ AspectRatio
 "
                 
 "
-BaselineSource
-"
-                
-"
 BreakBetween
 "
                 
@@ -5304,25 +5300,6 @@ vertical
 align
 "
                 
-#
-Will
-become
-shorthand
-of
-vertical
--
-align
-(
-Bug
-1830771
-)
-                
-"
-baseline
--
-source
-"
-                
 "
 line
 -
@@ -5570,25 +5547,6 @@ color
 vertical
 -
 align
-"
-                
-#
-Will
-become
-shorthand
-of
-vertical
--
-align
-(
-Bug
-1830771
-)
-                
-"
-baseline
--
-source
 "
                 
 "

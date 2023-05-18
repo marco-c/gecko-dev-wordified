@@ -10710,8 +10710,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
-aExportContext
 )
 const
 {
@@ -10812,15 +10810,6 @@ baseline
 export
 if
 (
-aExportContext
-=
-=
-BaselineExportContext
-:
-:
-LineLayout
-&
-&
 aBaselineGroup
 =
 =
@@ -10889,7 +10878,6 @@ GetNaturalBaselineBOffset
 (
 aWM
 aBaselineGroup
-aExportContext
 )
 .
 map

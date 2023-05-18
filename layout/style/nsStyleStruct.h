@@ -9086,12 +9086,6 @@ mVerticalAlign
 mozilla
 :
 :
-StyleBaselineSource
-mBaselineSource
-;
-mozilla
-:
-:
 StyleLineClamp
 mWebkitLineClamp
 ;
