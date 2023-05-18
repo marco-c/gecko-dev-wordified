@@ -24041,10 +24041,6 @@ string
 )
 RegExpExecTestStringReg
 )
-tempFixed
-(
-RegExpExecTestLastIndexReg
-)
 )
 ;
 defineReturn

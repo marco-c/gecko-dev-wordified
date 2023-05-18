@@ -1519,13 +1519,6 @@ RegExpExecTestStringReg
 =
 CallTempReg1
 ;
-static
-constexpr
-Register
-RegExpExecTestLastIndexReg
-=
-CallTempReg2
-;
 /
 /
 Registers
