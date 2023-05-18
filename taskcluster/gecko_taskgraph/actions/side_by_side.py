@@ -327,9 +327,10 @@ searchable
 by
 the
 platform
-and
 test
 name
+and
+revisions
     
 #
 it
@@ -359,6 +360,15 @@ f
 input
 [
 '
+label
+'
+]
+}
+for
+{
+input
+[
+'
 platform
 '
 ]
@@ -371,12 +381,31 @@ test_name
 '
 ]
 }
+from
+revision
 {
 input
 [
 '
-label
+base_revision
 '
+]
+[
+:
+12
+]
+}
+to
+{
+input
+[
+'
+new_revision
+'
+]
+[
+:
+12
 ]
 }
 "
@@ -829,6 +858,7 @@ flag
 )
     
 if
+not
 (
         
 "
@@ -836,7 +866,6 @@ browsertime
 -
 tp6
 "
-not
 in
 task
 [
@@ -854,7 +883,6 @@ or
 "
 welcome
 "
-not
 in
 task
 [
