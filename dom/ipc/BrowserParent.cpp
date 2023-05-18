@@ -19880,10 +19880,10 @@ BrowserParent
 :
 SendPasteTransferable
 (
-IPCDataTransfer
+IPCTransferableData
 &
 &
-aDataTransfer
+aTransferableData
 const
 bool
 &
@@ -19908,7 +19908,7 @@ std
 :
 move
 (
-aDataTransfer
+aTransferableData
 )
 aIsPrivateData
 aRequestingPrincipal
@@ -23733,11 +23733,11 @@ RecvInvokeDragSession
 (
 nsTArray
 <
-IPCDataTransfer
+IPCTransferableData
 >
 &
 &
-aTransfers
+aTransferables
 const
 uint32_t
 &
@@ -23903,7 +23903,7 @@ std
 :
 move
 (
-aTransfers
+aTransferables
 )
 aDragRect
 aPrincipal

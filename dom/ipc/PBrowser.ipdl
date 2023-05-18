@@ -4091,7 +4091,7 @@ event
 async
 InvokeDragSession
 (
-IPCDataTransfer
+IPCTransferableData
 [
 ]
 transfers
@@ -5261,8 +5261,8 @@ pasteTransferable
 async
 PasteTransferable
 (
-IPCDataTransfer
-aDataTransfer
+IPCTransferableData
+aTransferableData
 bool
 aIsPrivateData
 nullable
