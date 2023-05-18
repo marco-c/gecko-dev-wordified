@@ -164,6 +164,7 @@ box_
 :
 {
 Appearance
+BaselineSource
 BreakBetween
 BreakWithin
 Clear
