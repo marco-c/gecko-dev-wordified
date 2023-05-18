@@ -739,6 +739,7 @@ namespace
 js
 {
 class
+JS_PUBLIC_API
 Sprinter
 ;
 namespace
