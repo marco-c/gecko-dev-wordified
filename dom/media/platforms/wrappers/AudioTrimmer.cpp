@@ -884,7 +884,7 @@ Decode
 (
 )
 .
-LOG
+LOGV
 (
 "
 No
@@ -1166,7 +1166,7 @@ sampleInterval
 )
 )
 {
-LOG
+LOGV
 (
 "
 sample
@@ -1228,7 +1228,7 @@ i
 continue
 ;
 }
-LOG
+LOGV
 (
 "
 Trimming
@@ -1397,7 +1397,7 @@ Frames
 0
 )
 {
-LOG
+LOGV
 (
 "
 sample
@@ -1502,7 +1502,7 @@ on
 "
 )
 ;
-LOG
+LOGV
 (
 "
 DecodeBatch
@@ -1737,7 +1737,7 @@ aRaw
 mOriginalPresentationWindow
 )
 {
-LOG
+LOGV
 (
 "
 sample
