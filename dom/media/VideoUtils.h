@@ -780,6 +780,13 @@ int64_t
 aDurationUsecs
 )
 ;
+double
+ToMicrosecondResolution
+(
+double
+aSeconds
+)
+;
 /
 /
 Converts
