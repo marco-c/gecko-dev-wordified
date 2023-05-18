@@ -322,6 +322,11 @@ GMPMessageUtils
 h
 "
 "
+GMPNativeTypes
+.
+h
+"
+"
 GMPParent
 .
 h

@@ -114,6 +114,15 @@ process
 h
 "
 ;
+using
+GMPPluginType
+from
+"
+GMPNativeTypes
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -155,6 +164,8 @@ returns
 (
 uint32_t
 pluginId
+GMPPluginType
+pluginType
 ProcessId
 id
 nsCString

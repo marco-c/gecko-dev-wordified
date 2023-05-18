@@ -270,6 +270,16 @@ GetPluginId
 )
 )
 ;
+SetPluginType
+(
+mParent
+-
+>
+GetPluginType
+(
+)
+)
+;
 }
 }
 GMPContentParent
