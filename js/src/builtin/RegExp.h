@@ -454,11 +454,6 @@ int32_t
 result
 )
 ;
-template
-<
-bool
-CalledFromJit
->
 [
 [
 nodiscard
@@ -466,7 +461,7 @@ nodiscard
 ]
 extern
 bool
-RegExpBuiltinExecMatchRaw
+RegExpBuiltinExecMatchFromJit
 (
 JSContext
 *
@@ -479,8 +474,6 @@ RegExpObject
 regexp
 HandleString
 input
-int32_t
-lastIndex
 MatchPairs
 *
 maybeMatches
@@ -488,11 +481,6 @@ MutableHandleValue
 output
 )
 ;
-template
-<
-bool
-CalledFromJit
->
 [
 [
 nodiscard
@@ -500,7 +488,7 @@ nodiscard
 ]
 extern
 bool
-RegExpBuiltinExecTestRaw
+RegExpBuiltinExecTestFromJit
 (
 JSContext
 *
@@ -513,8 +501,6 @@ RegExpObject
 regexp
 HandleString
 input
-int32_t
-lastIndex
 bool
 *
 result
