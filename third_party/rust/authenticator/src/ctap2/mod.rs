@@ -27,7 +27,7 @@ commands
 get_assertion
 :
 :
-AssertionObject
+GetAssertionResult
 ;
 pub
 mod
@@ -36,6 +36,13 @@ attestation
 pub
 mod
 client_data
+;
+pub
+(
+crate
+)
+mod
+preflight
 ;
 pub
 mod
