@@ -838,6 +838,11 @@ DOMTypes
 ipdlh
 "
 "
+IPCTransferable
+.
+ipdlh
+"
+"
 MemoryReportTypes
 .
 ipdlh
