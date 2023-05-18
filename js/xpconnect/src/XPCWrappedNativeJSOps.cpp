@@ -251,6 +251,10 @@ using
 namespace
 JS
 ;
+using
+namespace
+xpc
+;
 /
 *
 *
@@ -5067,7 +5071,7 @@ false
 if
 (
 !
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 unwrapped
 )

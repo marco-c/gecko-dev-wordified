@@ -5104,7 +5104,7 @@ aJSObj
 |
 |
 !
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 aJSObj
 )
@@ -5173,7 +5173,7 @@ XPCWrappedNatives
 .
 if
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 reflector
 )

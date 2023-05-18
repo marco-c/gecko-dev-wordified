@@ -3244,7 +3244,7 @@ o
 &
 &
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 o
 )
@@ -3529,7 +3529,7 @@ fails
 .
 if
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 obj
 )

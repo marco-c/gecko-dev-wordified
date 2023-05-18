@@ -241,6 +241,10 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+xpc
+;
 NS_IMPL_CLASSINFO
 (
 XPCVariant
@@ -496,7 +500,7 @@ mReturnRawObject
 unwrapped
 &
 &
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 unwrapped
 )

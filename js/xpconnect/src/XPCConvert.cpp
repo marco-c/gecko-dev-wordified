@@ -6576,7 +6576,7 @@ nullptr
 ;
 if
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 inner
 )
