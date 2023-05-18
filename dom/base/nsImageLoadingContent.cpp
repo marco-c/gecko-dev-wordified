@@ -7078,9 +7078,10 @@ GetOurPrimaryImageFrame
 f
 -
 >
-UpdateImage
+NotifyNewCurrentRequest
 (
 mCurrentRequest
+NS_OK
 )
 ;
 }
