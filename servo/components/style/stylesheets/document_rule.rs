@@ -204,6 +204,7 @@ cssparser
 {
 Parser
 SourceLocation
+BasicParseErrorKind
 }
 ;
 #
@@ -2031,12 +2032,12 @@ Err
 (
 input
 .
-new_custom_error
+new_error
 (
-StyleParseErrorKind
+BasicParseErrorKind
 :
 :
-UnsupportedAtRule
+AtRuleInvalid
 (
 "
 -
