@@ -4258,6 +4258,8 @@ TestObjectArguments
 &
 TestOptionalArguments
 &
+TestUnionArguments
+&
 TestUndefinedConstruction
 &
 TestIntegerConstruction
