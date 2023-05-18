@@ -13206,9 +13206,9 @@ BrowserChild
 RecvPasteTransferable
 (
 const
-IPCTransferableData
+IPCDataTransfer
 &
-aTransferableData
+aDataTransfer
 const
 bool
 &
@@ -13269,9 +13269,9 @@ rv
 nsContentUtils
 :
 :
-IPCTransferableDataToTransferable
+IPCTransferableToTransferable
 (
-aTransferableData
+aDataTransfer
 aIsPrivateData
 aRequestingPrincipal
 aContentPolicyType

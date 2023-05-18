@@ -21390,11 +21390,11 @@ WindowContext
 aSourceTopWindowContext
 nsTArray
 <
-IPCTransferableData
+IPCDataTransfer
 >
 &
 &
-aTransferables
+aTransfers
 const
 uint32_t
 &
@@ -21533,7 +21533,7 @@ i
 ;
 i
 <
-aTransferables
+aTransfers
 .
 Length
 (
@@ -21552,7 +21552,7 @@ auto
 &
 items
 =
-aTransferables
+aTransfers
 [
 i
 ]
@@ -21601,10 +21601,10 @@ type
 )
 =
 =
-IPCTransferableDataType
+IPCDataTransferData
 :
 :
-TIPCTransferableDataBlob
+TIPCDataTransferBlob
 )
 {
 hasFiles
@@ -21651,7 +21651,7 @@ i
 ;
 i
 <
-aTransferables
+aTransfers
 .
 Length
 (
@@ -21666,7 +21666,7 @@ auto
 &
 items
 =
-aTransferables
+aTransfers
 [
 i
 ]
@@ -21696,7 +21696,7 @@ j
 )
 {
 const
-IPCTransferableDataItem
+IPCDataTransferItem
 &
 item
 =
@@ -21722,7 +21722,7 @@ rv
 nsContentUtils
 :
 :
-IPCTransferableDataItemToVariant
+IPCTransferableItemToVariant
 (
 item
 variant
@@ -21780,10 +21780,10 @@ type
 )
 !
 =
-IPCTransferableDataType
+IPCDataTransferData
 :
 :
-TIPCTransferableDataBlob
+TIPCDataTransferBlob
 ;
 dataTransfer
 -
