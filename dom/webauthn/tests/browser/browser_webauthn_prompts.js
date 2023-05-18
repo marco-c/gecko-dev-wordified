@@ -641,7 +641,7 @@ webauthn
 -
 prompt
 -
-register
+presence
 "
 )
 ;
@@ -781,7 +781,7 @@ webauthn
 -
 prompt
 -
-register
+presence
 "
 )
 ;
@@ -913,7 +913,7 @@ webauthn
 -
 prompt
 -
-sign
+presence
 "
 )
 ;
@@ -1048,7 +1048,7 @@ webauthn
 -
 prompt
 -
-sign
+presence
 "
 )
 ;
@@ -1357,7 +1357,7 @@ webauthn
 -
 prompt
 -
-register
+presence
 "
 )
 ;
@@ -1471,7 +1471,7 @@ webauthn
 -
 prompt
 -
-register
+presence
 "
 )
 ;
@@ -1684,7 +1684,7 @@ webauthn
 -
 prompt
 -
-register
+presence
 "
 )
 ;
