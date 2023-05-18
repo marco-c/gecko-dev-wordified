@@ -3487,6 +3487,11 @@ mData
 aAlphaPlane
 .
 mData
+AssertedCast
+<
+int
+>
+(
 aBuffer
 .
 mPlanes
@@ -3495,6 +3500,12 @@ mPlanes
 ]
 .
 mStride
+)
+AssertedCast
+<
+int
+>
+(
 aBuffer
 .
 mPlanes
@@ -3503,6 +3514,7 @@ mPlanes
 ]
 .
 mStride
+)
 buffer
 .
 data
