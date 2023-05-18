@@ -77,9 +77,9 @@ path
 as
 mozpath
 import
-pytoml
-import
 six
+import
+toml
 from
 mach
 .
@@ -3729,7 +3729,7 @@ f
 :
             
 return
-pytoml
+toml
 .
 load
 (
