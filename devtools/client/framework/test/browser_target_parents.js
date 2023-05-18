@@ -749,6 +749,12 @@ targetFront
 isDestroyed
 (
 )
+|
+|
+!
+workerDescriptorFront
+.
+name
 )
 {
 info
