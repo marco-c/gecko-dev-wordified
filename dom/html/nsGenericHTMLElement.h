@@ -1321,6 +1321,13 @@ DeleteProperty
 <
 nsString
 >
+/
+*
+aTransfer
+=
+*
+/
+true
 )
 ;
 }
