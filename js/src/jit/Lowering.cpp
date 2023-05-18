@@ -23937,10 +23937,6 @@ string
 )
 RegExpMatcherStringReg
 )
-tempFixed
-(
-RegExpMatcherLastIndexReg
-)
 )
 ;
 defineReturn
