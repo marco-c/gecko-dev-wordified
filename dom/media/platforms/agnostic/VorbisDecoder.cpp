@@ -1475,7 +1475,10 @@ i
 auto
 duration
 =
-FramesToTimeUnit
+media
+:
+:
+TimeUnit
 (
 frames
 rate
@@ -1534,7 +1537,10 @@ __func__
 auto
 total_duration
 =
-FramesToTimeUnit
+media
+:
+:
+TimeUnit
 (
 mFrames
 rate

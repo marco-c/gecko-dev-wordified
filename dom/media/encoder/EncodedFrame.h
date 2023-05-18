@@ -387,7 +387,10 @@ const
 return
 mTime
 +
-FramesToTimeUnit
+media
+:
+:
+TimeUnit
 (
 mDuration
 mDurationBase
