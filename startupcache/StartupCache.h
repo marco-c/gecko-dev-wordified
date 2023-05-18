@@ -1340,6 +1340,12 @@ IgnoreDiskCache
 (
 )
 ;
+static
+bool
+GetIgnoreDiskCache
+(
+)
+;
 /
 /
 In
