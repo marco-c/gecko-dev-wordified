@@ -335,9 +335,6 @@ md
 )
 "
 {
-directory
-:
-{
 projectRoot
 }
 /
@@ -346,8 +343,7 @@ toolkit
 content
 /
 widgets
-files
-:
+/
 *
 *
 /
@@ -368,13 +364,6 @@ tsx
 |
 md
 )
-titlePrefix
-:
-"
-UI
-Widgets
-"
-}
 ]
 /
 /
