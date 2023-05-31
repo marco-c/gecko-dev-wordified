@@ -11003,6 +11003,9 @@ return
 newObj
 ;
 }
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 /
 /
 https
@@ -12548,3 +12551,5 @@ wrappedCompareFn
 )
 ;
 }
+#
+endif
