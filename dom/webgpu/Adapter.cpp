@@ -255,7 +255,7 @@ mAboutSupportInfo
 name
 ;
 }
-size_t
+uint32_t
 AdapterInfo
 :
 :
@@ -271,7 +271,7 @@ mAboutSupportInfo
 vendor
 ;
 }
-size_t
+uint32_t
 AdapterInfo
 :
 :

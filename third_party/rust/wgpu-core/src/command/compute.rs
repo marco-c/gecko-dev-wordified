@@ -199,7 +199,7 @@ SetBindGroup
 {
 index
 :
-u8
+u32
 num_dynamic_offsets
 :
 u8
@@ -1005,7 +1005,7 @@ BindGroupIndexOutOfRange
 {
 index
 :
-u8
+u32
 max
 :
 u32
@@ -2650,11 +2650,7 @@ limits
 max_bind_groups
 ;
 if
-(
 index
-as
-u32
-)
 >
 =
 max_bind_groups
@@ -2959,8 +2955,6 @@ set_bind_group
 (
 pipeline_layout
 index
-as
-u32
 +
 i
 as
@@ -4540,16 +4534,6 @@ ComputeCommand
 SetBindGroup
 {
 index
-:
-index
-.
-try_into
-(
-)
-.
-unwrap
-(
-)
 num_dynamic_offsets
 :
 offset_length

@@ -6277,8 +6277,6 @@ phd_capabilities
 properties
 .
 vendor_id
-as
-usize
 device
 :
 phd_capabilities
@@ -6286,8 +6284,6 @@ phd_capabilities
 properties
 .
 device_id
-as
-usize
 device_type
 :
 match

@@ -8528,11 +8528,7 @@ limits
 max_bind_groups
 ;
 if
-(
 index
-as
-u32
-)
 >
 =
 max_bind_groups
@@ -8901,8 +8897,6 @@ set_bind_group
 (
 pipeline_layout
 index
-as
-u32
 +
 i
 as
@@ -13031,16 +13025,6 @@ RenderCommand
 SetBindGroup
 {
 index
-:
-index
-.
-try_into
-(
-)
-.
-unwrap
-(
-)
 num_dynamic_offsets
 :
 offset_length

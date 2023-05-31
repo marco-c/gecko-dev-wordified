@@ -742,15 +742,11 @@ vendor
 desc
 .
 VendorId
-as
-usize
 device
 :
 desc
 .
 DeviceId
-as
-usize
 device_type
 :
 if

@@ -366,13 +366,13 @@ nsString
 )
 const
 ;
-size_t
+uint32_t
 WgpuVendor
 (
 )
 const
 ;
-size_t
+uint32_t
 WgpuDevice
 (
 )
