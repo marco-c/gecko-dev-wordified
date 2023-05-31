@@ -61,7 +61,7 @@ strict
 const
 JS_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 code_bundle_no_race

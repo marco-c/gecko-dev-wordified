@@ -13684,7 +13684,7 @@ const
 url
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 {
 testFolderName
@@ -13774,7 +13774,7 @@ const
 url
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 {
 testFolderName
