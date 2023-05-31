@@ -228,6 +228,9 @@ GCSizes
 namespace
 js
 {
+class
+NativeObject
+;
 #
 ifdef
 DEBUG
