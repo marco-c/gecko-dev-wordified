@@ -94,15 +94,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-NetUtil
-"
-]
-;
 /
 *
 *
@@ -311,6 +302,7 @@ setInputStream
 /
 NetUtil
 Object
+export
 var
 NetUtil
 =
