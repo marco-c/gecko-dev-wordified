@@ -161,6 +161,10 @@ const
 nsAString
 &
 aScriptURL
+const
+WorkerOptions
+&
+aOptions
 ErrorResult
 &
 aRv
