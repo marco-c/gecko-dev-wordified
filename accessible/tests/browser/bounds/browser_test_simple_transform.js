@@ -665,11 +665,6 @@ browser
 docAcc
 )
 {
-if
-(
-isCacheEnabled
-)
-{
 /
 /
 Even
@@ -816,7 +811,6 @@ transform
 "
 )
 ;
-}
 await
 testBoundsWithContent
 (

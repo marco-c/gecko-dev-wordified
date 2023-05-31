@@ -553,11 +553,6 @@ screen
 "
 )
 ;
-/
-/
-See
-bug
-1792256
 await
 untilCacheOk
 (
@@ -565,10 +560,6 @@ untilCacheOk
 )
 =
 >
-!
-isCacheEnabled
-|
-|
 testVisibility
 (
 iframeDoc
@@ -702,11 +693,6 @@ screen
 "
 )
 ;
-/
-/
-See
-bug
-1792256
 await
 untilCacheOk
 (
@@ -714,10 +700,6 @@ untilCacheOk
 )
 =
 >
-!
-isCacheEnabled
-|
-|
 testVisibility
 (
 iframeDoc
@@ -909,10 +891,6 @@ iframe
 >
 runTest
 {
-chrome
-:
-!
-isCacheEnabled
 iframe
 :
 true

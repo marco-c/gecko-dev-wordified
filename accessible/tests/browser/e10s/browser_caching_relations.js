@@ -1099,13 +1099,13 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
-isCacheEnabled
+true
 remoteIframe
 :
-isCacheEnabled
+true
 }
 )
 ;
@@ -1834,7 +1834,7 @@ parent
 {
 topLevel
 :
-isCacheEnabled
+true
 chrome
 :
 true

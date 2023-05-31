@@ -1553,10 +1553,10 @@ browser
 .
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
-isCacheEnabled
+true
 }
 )
 ;

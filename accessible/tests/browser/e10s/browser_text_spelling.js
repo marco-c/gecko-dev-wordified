@@ -1090,13 +1090,13 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
-isCacheEnabled
+true
 remoteIframe
 :
-isCacheEnabled
+true
 }
 )
 ;

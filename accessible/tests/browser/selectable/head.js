@@ -489,9 +489,6 @@ promise
 if
 (
 isRemote
-&
-&
-isCacheEnabled
 )
 {
 await
@@ -547,9 +544,6 @@ promise
 if
 (
 isRemote
-&
-&
-isCacheEnabled
 )
 {
 await
