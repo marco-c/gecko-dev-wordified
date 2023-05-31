@@ -2006,6 +2006,15 @@ aURL
 )
 const
 ;
+void
+MimeType
+(
+nsAString
+&
+aURL
+)
+const
+;
 virtual
 Relation
 RelationByType

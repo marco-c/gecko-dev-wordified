@@ -179,12 +179,5 @@ int32_t
 aY
 )
 ;
-void
-MimeType
-(
-nsString
-aMime
-)
-;
 #
 endif
