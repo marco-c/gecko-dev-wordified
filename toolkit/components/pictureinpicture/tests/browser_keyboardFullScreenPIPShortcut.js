@@ -37,7 +37,7 @@ strict
 *
 *
 *
-tests
+Tests
 that
 the
 F
@@ -52,6 +52,15 @@ screen
 mode
 in
 PiP
+for
+the
+default
+locale
+(
+en
+-
+US
+)
 .
 *
 /
