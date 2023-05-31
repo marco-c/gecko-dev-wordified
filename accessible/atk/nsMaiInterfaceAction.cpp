@@ -146,9 +146,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_accessibility
+nsAccessibilityService
 .
 h
 "
@@ -431,10 +429,10 @@ keyBindingsStr
 ;
 if
 (
-StaticPrefs
+a11y
 :
 :
-accessibility_cache_enabled_AtStartup
+IsCacheActive
 (
 )
 |

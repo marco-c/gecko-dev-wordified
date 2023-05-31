@@ -158,9 +158,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_accessibility
+nsAccessibilityService
 .
 h
 "
@@ -385,10 +383,10 @@ XP_WIN
 int32_t
 msaaId
 =
-StaticPrefs
+a11y
 :
 :
-accessibility_cache_enabled_AtStartup
+IsCacheActive
 (
 )
 ?
@@ -636,10 +634,10 @@ moves
 .
 if
 (
-StaticPrefs
+a11y
 :
 :
-accessibility_cache_enabled_AtStartup
+IsCacheActive
 (
 )
 &
