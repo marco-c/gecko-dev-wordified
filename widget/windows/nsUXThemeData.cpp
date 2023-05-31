@@ -612,6 +612,15 @@ Spin
 "
 ;
 case
+eUXStatus
+:
+return
+L
+"
+Status
+"
+;
+case
 eUXCombobox
 :
 return
