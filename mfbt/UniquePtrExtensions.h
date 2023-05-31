@@ -184,7 +184,7 @@ endif
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -1140,7 +1140,7 @@ aHelper
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -1479,7 +1479,7 @@ FileHandleDeleter
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &

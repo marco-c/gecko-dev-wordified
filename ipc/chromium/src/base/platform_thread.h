@@ -336,6 +336,12 @@ defined
 (
 OS_MACOSX
 )
+|
+|
+defined
+(
+OS_IOS
+)
 #
 include
 <
