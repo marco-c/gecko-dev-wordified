@@ -61,30 +61,11 @@ locales
 tool
 '
 from
-__future__
-import
-absolute_import
-from
-__future__
-import
-print_function
-import
-six
-from
-six
-.
-moves
-import
-zip
-from
 compare_locales
 import
 paths
 class
 Tree
-(
-object
-)
 :
     
 def
@@ -236,13 +217,12 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 self
 .
 branches
+.
+items
+(
 )
 :
             
@@ -552,9 +532,8 @@ key
 key
 )
             
-for
-child
-in
+yield
+from
 self
 .
 branches
@@ -568,10 +547,6 @@ depth
 +
 1
 )
-:
-                
-yield
-child
     
 def
 toJSON
@@ -632,9 +607,7 @@ self
 value
         
 return
-dict
-(
-(
+{
 '
 /
 '
@@ -643,6 +616,7 @@ join
 (
 key
 )
+:
 self
 .
 branches
@@ -653,8 +627,7 @@ key
 toJSON
 (
 )
-)
-                    
+                
 for
 key
 in
@@ -665,7 +638,7 @@ branches
 keys
 (
 )
-)
+}
     
 def
 getStrRows
@@ -776,9 +749,6 @@ getStrRows
 )
 class
 AddRemove
-(
-object
-)
 :
     
 def
@@ -887,15 +857,13 @@ right
         
 order_map
 =
-dict
-(
-(
+{
 item
+:
 (
 i
 -
 1
-)
 )
 for
 i
@@ -907,7 +875,7 @@ self
 .
 left
 )
-)
+}
         
 left_items
 =

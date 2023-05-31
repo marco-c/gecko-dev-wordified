@@ -53,10 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
 import
 os
 from
@@ -147,9 +143,6 @@ config
 )
 class
 ProjectFiles
-(
-object
-)
 :
     
 '
@@ -798,6 +791,45 @@ continue
                     
 continue
                 
+if
+m
+[
+'
+l10n
+'
+]
+.
+pattern
+!
+=
+m_
+[
+'
+l10n
+'
+]
+.
+pattern
+:
+                    
+#
+We
+cannot
+guess
+whether
+same
+entry
+until
+the
+pattern
+is
+                    
+#
+resolved
+continue
+                    
+continue
+                
 #
 check
 that
@@ -986,14 +1018,9 @@ iter_reference
 (
 )
         
-for
-t
-in
-inner
-:
-            
 yield
-t
+from
+inner
     
 def
 iter_locale
@@ -1661,23 +1688,14 @@ base
 )
 :
         
-for
-d
-dirs
-files
-in
+yield
+from
 os
 .
 walk
 (
 base
 )
-:
-            
-yield
-d
-dirs
-files
     
 def
 match

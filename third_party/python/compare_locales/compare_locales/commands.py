@@ -59,14 +59,6 @@ exposed
 to
 commandlines
 '
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-print_function
 import
 logging
 from
@@ -107,9 +99,6 @@ import
 compareProjects
 class
 CompareLocales
-(
-object
-)
 :
     
 "
@@ -1241,10 +1230,7 @@ clobber
 )
         
 except
-(
 OSError
-IOError
-)
 as
 exc
 :

@@ -53,14 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
@@ -369,8 +361,6 @@ val
 return
 super
 (
-IniParser
-self
 )
 .
 getNext
@@ -434,8 +424,6 @@ reSection
 return
 super
 (
-IniParser
-self
 )
 .
 getJunk

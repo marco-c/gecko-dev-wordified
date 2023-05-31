@@ -54,14 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
-from
 collections
 import
 Counter
@@ -81,9 +73,6 @@ File
 REFERENCE_LOCALE
 class
 L10nLinter
-(
-object
-)
 :
     
 def
@@ -292,9 +281,6 @@ yield
 result
 class
 EntityLinter
-(
-object
-)
 :
     
 '

@@ -1,7 +1,12 @@
 from
-__future__
+typing
 import
-unicode_literals
+Callable
+Union
+from
+typing_extensions
+import
+Literal
 from
 .
 errors
@@ -9,9 +14,6 @@ import
 ParseError
 class
 ParserStream
-(
-object
-)
 :
     
 def
@@ -19,6 +21,8 @@ __init__
 (
 self
 string
+:
+str
 )
 :
         
@@ -45,7 +49,16 @@ get
 (
 self
 offset
+:
+int
 )
+-
+>
+Union
+[
+str
+None
+]
 :
         
 try
@@ -71,7 +84,16 @@ char_at
 (
 self
 offset
+:
+int
 )
+-
+>
+Union
+[
+str
+None
+]
 :
         
 #
@@ -185,6 +207,13 @@ current_char
 (
 self
 )
+-
+>
+Union
+[
+str
+None
+]
 :
         
 return
@@ -204,6 +233,13 @@ current_peek
 (
 self
 )
+-
+>
+Union
+[
+str
+None
+]
 :
         
 return
@@ -225,6 +261,13 @@ next
 (
 self
 )
+-
+>
+Union
+[
+str
+None
+]
 :
         
 self
@@ -311,6 +354,13 @@ peek
 (
 self
 )
+-
+>
+Union
+[
+str
+None
+]
 :
         
 #
@@ -403,9 +453,14 @@ reset_peek
 (
 self
 offset
+:
+int
 =
 0
 )
+-
+>
+None
 :
         
 self
@@ -419,6 +474,9 @@ skip_to_peek
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -472,6 +530,9 @@ peek_blank_inline
 (
 self
 )
+-
+>
+str
 :
         
 start
@@ -521,6 +582,9 @@ skip_blank_inline
 (
 self
 )
+-
+>
+str
 :
         
 blank
@@ -545,6 +609,9 @@ peek_blank_block
 (
 self
 )
+-
+>
+str
 :
         
 blank
@@ -643,6 +710,9 @@ skip_blank_block
 (
 self
 )
+-
+>
+str
 :
         
 blank
@@ -667,6 +737,9 @@ peek_blank
 (
 self
 )
+-
+>
+None
 :
         
 while
@@ -692,6 +765,9 @@ skip_blank
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -711,7 +787,15 @@ expect_char
 (
 self
 ch
+:
+str
 )
+-
+>
+Literal
+[
+True
+]
 :
         
 if
@@ -746,6 +830,12 @@ expect_line_end
 (
 self
 )
+-
+>
+Literal
+[
+True
+]
 :
         
 if
@@ -819,7 +909,26 @@ take_char
 (
 self
 f
+:
+Callable
+[
+[
+str
+]
+bool
+]
 )
+-
+>
+Union
+[
+str
+Literal
+[
+False
+]
+None
+]
 :
         
 ch
@@ -831,7 +940,7 @@ current_char
 if
 ch
 is
-EOF
+None
 :
             
 return
@@ -861,13 +970,22 @@ is_char_id_start
 (
 self
 ch
+:
+Union
+[
+str
+None
+]
 )
+-
+>
+bool
 :
         
 if
 ch
 is
-EOF
+None
 :
             
 return
@@ -912,6 +1030,9 @@ is_identifier_start
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -929,6 +1050,9 @@ is_number_start
 (
 self
 )
+-
+>
+bool
 :
         
 ch
@@ -955,7 +1079,7 @@ current_char
 if
 ch
 is
-EOF
+None
 :
             
 self
@@ -1000,7 +1124,16 @@ is_char_pattern_continuation
 (
 self
 ch
+:
+Union
+[
+str
+None
+]
 )
+-
+>
+bool
 :
         
 if
@@ -1023,6 +1156,9 @@ is_value_start
 (
 self
 )
+-
+>
+bool
 :
         
 #
@@ -1055,6 +1191,9 @@ is_value_continuation
 (
 self
 )
+-
+>
+bool
 :
         
 column1
@@ -1156,10 +1295,15 @@ is_next_line_comment
 (
 self
 level
+:
+int
 =
 -
 1
 )
+-
+>
+bool
 :
         
 if
@@ -1292,6 +1436,9 @@ is_variant_start
 (
 self
 )
+-
+>
+bool
 :
         
 current_peek_offset
@@ -1364,6 +1511,9 @@ is_attribute_start
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -1381,7 +1531,12 @@ skip_to_next_entry_start
 (
 self
 junk_start
+:
+int
 )
+-
+>
+None
 :
         
 last_newline
@@ -1585,6 +1740,13 @@ take_id_start
 (
 self
 )
+-
+>
+Union
+[
+str
+None
+]
 :
         
 if
@@ -1633,13 +1795,29 @@ take_id_char
 (
 self
 )
+-
+>
+Union
+[
+str
+Literal
+[
+False
+]
+None
+]
 :
         
 def
 closure
 (
 ch
+:
+str
 )
+-
+>
+bool
 :
             
 cc
@@ -1714,13 +1892,29 @@ take_digit
 (
 self
 )
+-
+>
+Union
+[
+str
+Literal
+[
+False
+]
+None
+]
 :
         
 def
 closure
 (
 ch
+:
+str
 )
+-
+>
+bool
 :
             
 cc
@@ -1756,13 +1950,29 @@ take_hex_digit
 (
 self
 )
+-
+>
+Union
+[
+str
+Literal
+[
+False
+]
+None
+]
 :
         
 def
 closure
 (
 ch
+:
+str
 )
+-
+>
+bool
 :
             
 cc

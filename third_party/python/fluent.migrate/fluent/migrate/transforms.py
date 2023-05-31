@@ -1,7 +1,3 @@
-#
-coding
-=
-utf8
 "
 "
 "
@@ -471,14 +467,6 @@ num
 "
 "
 "
-from
-__future__
-import
-unicode_literals
-from
-__future__
-import
-absolute_import
 import
 re
 from
@@ -552,16 +540,11 @@ element
 .
 elements
             
-for
-child
-in
+yield
+from
 element
 .
 elements
-:
-                
-yield
-child
         
 elif
 isinstance
@@ -1637,8 +1620,6 @@ path
         
 super
 (
-FluentSource
-self
 )
 .
 __init__
@@ -1794,8 +1775,6 @@ pattern
 =
 super
 (
-TransformPattern
-self
 )
 .
 __call__
@@ -2187,8 +2166,6 @@ path
         
 super
 (
-LegacySource
-self
 )
 .
 __init__
@@ -2405,8 +2382,6 @@ element
 =
 super
 (
-COPY
-self
 )
 .
 __call__
@@ -3326,8 +3301,6 @@ True
         
 super
 (
-REPLACE
-self
 )
 .
 __init__
@@ -3363,8 +3336,6 @@ element
 =
 super
 (
-REPLACE
-self
 )
 .
 __call__
@@ -3536,8 +3507,6 @@ kwargs
         
 super
 (
-PLURALS
-self
 )
 .
 __init__
@@ -3573,8 +3542,6 @@ element
 =
 super
 (
-PLURALS
-self
 )
 .
 __call__
@@ -3608,6 +3575,10 @@ FTL
 TextElement
 (
 part
+.
+strip
+(
+)
 )
             
 for

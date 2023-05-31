@@ -53,10 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
 import
 os
 import
@@ -67,8 +63,6 @@ from
 compare_locales
 import
 mozpath
-import
-six
 #
 Android
 uses
@@ -125,18 +119,14 @@ for
 standard
 legacy
 in
-six
-.
-iteritems
-(
 ANDROID_LEGACY_MAP
+.
+items
+(
 )
 }
 class
 Matcher
-(
-object
-)
 :
     
 '
@@ -1489,9 +1479,6 @@ Exception
 pass
 class
 Node
-(
-object
-)
 :
     
 '
@@ -1875,8 +1862,6 @@ if
 not
 super
 (
-Pattern
-self
 )
 .
 __eq__
@@ -1933,9 +1918,7 @@ prefix_length
 class
 Literal
 (
-six
-.
-text_type
+str
 Node
 )
 :
@@ -2014,49 +1997,43 @@ repeat
 :
             
 return
+f
 '
 (
 ?
 P
 =
 {
-}
-)
-'
-.
-format
-(
 self
 .
 name
+}
 )
+'
         
 return
+f
 '
 (
 ?
 P
 <
 {
-}
->
-{
-}
-)
-'
-.
-format
-(
 self
 .
 name
+}
+>
+{
 self
 .
 _pattern_from_env
 (
 env
 )
+}
 )
+'
     
 def
 _pattern_from_env
@@ -2283,6 +2260,7 @@ self
 :
         
 return
+f
 '
 Variable
 (
@@ -2290,17 +2268,13 @@ name
 =
 "
 {
+self
+.
+name
 }
 "
 )
 '
-.
-format
-(
-self
-.
-name
-)
     
 def
 __ne__
@@ -2782,6 +2756,7 @@ env
 :
         
 return
+f
 '
 (
 ?
@@ -2789,6 +2764,9 @@ P
 <
 s
 {
+self
+.
+number
 }
 >
 [
@@ -2798,13 +2776,6 @@ s
 *
 )
 '
-.
-format
-(
-self
-.
-number
-)
     
 def
 expand
@@ -2931,6 +2902,7 @@ env
 :
         
 return
+f
 '
 (
 ?
@@ -2938,25 +2910,21 @@ P
 <
 s
 {
+self
+.
+number
 }
 >
 .
 +
 {
+self
+.
+suffix
 }
 )
 ?
 '
-.
-format
-(
-self
-.
-number
-self
-.
-suffix
-)
     
 def
 __ne__
@@ -2987,8 +2955,6 @@ if
 not
 super
 (
-Starstar
-self
 )
 .
 __eq__
@@ -3102,9 +3068,6 @@ w
 )
 class
 PatternParser
-(
-object
-)
 :
     
 def

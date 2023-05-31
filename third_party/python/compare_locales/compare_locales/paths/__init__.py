@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-from
 compare_locales
 import
 mozpath
@@ -137,9 +133,6 @@ ConfigNotFound
 ]
 class
 File
-(
-object
-)
 :
     
 def

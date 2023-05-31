@@ -53,14 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 import
@@ -83,8 +75,6 @@ compare_locales
 paths
 import
 File
-import
-six
 __constructors
 =
 [
@@ -183,9 +173,6 @@ CAN_MERGE
 4
 class
 Entry
-(
-object
-)
 :
     
 '
@@ -1093,8 +1080,6 @@ all
         
 super
 (
-LiteralEntity
-self
 )
 .
 __init__
@@ -1200,8 +1185,6 @@ key
         
 super
 (
-PlaceholderEntity
-self
 )
 .
 __init__
@@ -1377,7 +1360,6 @@ _val_cache
 .
 join
 (
-(
                 
 l
 [
@@ -1399,7 +1381,6 @@ True
 )
             
 )
-)
         
 return
 self
@@ -1407,9 +1388,6 @@ self
 _val_cache
 class
 Junk
-(
-object
-)
 :
     
 '
@@ -1850,9 +1828,6 @@ match
 pass
 class
 Parser
-(
-object
-)
 :
     
 capabilities
@@ -1904,9 +1879,6 @@ None
     
 class
 Context
-(
-object
-)
 :
         
 "
@@ -2144,47 +2116,12 @@ split
 code
 paths
         
-if
-six
-.
-PY2
-:
-            
 with
 open
 (
-file
-'
-rbU
-'
-)
-as
-f
-:
-                
-self
-.
-readContents
-(
-f
-.
-read
-(
-)
-)
-        
-else
-:
             
-with
-open
-(
-                
 file
-'
-r
-'
-                
+            
 encoding
 =
 self
@@ -2195,16 +2132,16 @@ errors
 '
 replace
 '
-                
+            
 newline
 =
 None
-            
+        
 )
 as
 f
 :
-                
+            
 self
 .
 readUnicode
@@ -2969,17 +2906,14 @@ cnt
 :
                 
 yield
+f
 '
 {
+entity_id
 }
 occurs
 {
+cnt
 }
 times
 '
-.
-format
-(
-entity_id
-cnt
-)

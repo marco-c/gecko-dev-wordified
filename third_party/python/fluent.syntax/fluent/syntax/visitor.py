@@ -1,24 +1,16 @@
-#
-coding
-=
-utf
--
-8
 from
-__future__
+typing
 import
-unicode_literals
-absolute_import
+Any
+List
 from
 .
 ast
 import
 BaseNode
+Node
 class
 Visitor
-(
-object
-)
 :
     
 '
@@ -96,7 +88,12 @@ visit
 (
 self
 node
+:
+Any
 )
+-
+>
+None
 :
         
 if
@@ -147,16 +144,13 @@ visit
 getattr
 (
 self
+f
 '
 visit_
 {
+nodename
 }
 '
-.
-format
-(
-nodename
-)
 self
 .
 generic_visit
@@ -172,11 +166,15 @@ generic_visit
 (
 self
 node
+:
+BaseNode
 )
+-
+>
+None
 :
         
 for
-propname
 propvalue
 in
 vars
@@ -184,7 +182,7 @@ vars
 node
 )
 .
-items
+values
 (
 )
 :
@@ -261,7 +259,12 @@ visit
 (
 self
 node
+:
+Any
 )
+-
+>
+Any
 :
         
 if
@@ -290,16 +293,13 @@ visit
 getattr
 (
 self
+f
 '
 visit_
 {
+nodename
 }
 '
-.
-format
-(
-nodename
-)
 self
 .
 generic_visit
@@ -316,8 +316,17 @@ generic_visit
 (
 self
 node
-)
 :
+Node
+)
+-
+>
+Node
+:
+#
+type
+:
+ignore
         
 for
 propname
@@ -342,6 +351,11 @@ list
 :
                 
 new_vals
+:
+List
+[
+Any
+]
 =
 [
 ]

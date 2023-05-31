@@ -116,14 +116,6 @@ entry
 "
 "
 "
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
@@ -205,8 +197,6 @@ endElement
         
 super
 (
-AndroidEntity
-self
 )
 .
 __init__
@@ -537,9 +527,6 @@ all
 )
 class
 NodeMixin
-(
-object
-)
 :
     
 def
@@ -760,8 +747,6 @@ all
         
 super
 (
-XMLJunk
-self
 )
 .
 __init__
@@ -1016,8 +1001,6 @@ self
         
 super
 (
-AndroidParser
-self
 )
 .
 __init__
@@ -1209,21 +1192,18 @@ DocumentWrapper
                     
 attr_name
                     
+f
 '
 {
+attr_name
 }
 =
 "
 {
+attr_value
 }
 "
 '
-.
-format
-(
-attr_name
-attr_value
-)
                 
 )
             

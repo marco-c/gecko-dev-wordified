@@ -54,14 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-from
-six
-.
-moves
-.
 configparser
 import
 ConfigParser
@@ -83,9 +75,6 @@ import
 ProjectConfig
 class
 L10nConfigParser
-(
-object
-)
 :
     
 '
@@ -950,18 +939,13 @@ ones
 "
 "
         
-for
-t
-in
+yield
+from
 self
 .
 dirsIter
 (
 )
-:
-            
-yield
-t
         
 for
 child
@@ -971,18 +955,13 @@ self
 children
 :
             
-for
-t
-in
+yield
+from
 child
 .
 directories
 (
 )
-:
-                
-yield
-t
     
 def
 allLocales
@@ -1324,9 +1303,6 @@ cp
 )
 class
 EnumerateApp
-(
-object
-)
 :
     
 reference
