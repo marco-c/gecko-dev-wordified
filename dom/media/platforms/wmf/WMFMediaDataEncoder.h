@@ -163,16 +163,6 @@ h
 namespace
 mozilla
 {
-bool
-CanCreateWMFEncoder
-(
-MediaDataEncoder
-:
-:
-CodecType
-aCodec
-)
-;
 template
 <
 typename
@@ -198,6 +188,9 @@ RefPtr
 TaskQueue
 >
 aTaskQueue
+const
+bool
+aHardwareNotAllowed
 )
 :
 mConfig
@@ -207,6 +200,10 @@ aConfig
 mTaskQueue
 (
 aTaskQueue
+)
+mHardwareNotAllowed
+(
+aHardwareNotAllowed
 )
 {
 MOZ_ASSERT
@@ -753,6 +750,7 @@ encoder
 new
 MFTEncoder
 (
+mHardwareNotAllowed
 )
 ;
 HRESULT
@@ -2147,6 +2145,10 @@ RefPtr
 TaskQueue
 >
 mTaskQueue
+;
+const
+bool
+mHardwareNotAllowed
 ;
 RefPtr
 <

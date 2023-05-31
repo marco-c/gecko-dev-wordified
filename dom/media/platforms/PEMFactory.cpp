@@ -282,6 +282,9 @@ const
 CreateEncoderParams
 &
 aParams
+const
+bool
+aHardwareNotAllowed
 )
 {
 const
@@ -327,6 +330,7 @@ m
 CreateVideoEncoder
 (
 aParams
+aHardwareNotAllowed
 )
 :
 nullptr
