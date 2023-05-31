@@ -484,12 +484,12 @@ e
 g
 .
 the
-AllocateString
-AllocateObject
+NewString
+NewObject
 and
+NewBigInt
 /
 /
-AllocateBigInt
 methods
 .
 For
@@ -501,10 +501,10 @@ parameters
 will
 be
 forwarded
-/
-/
 to
 the
+/
+/
 constructor
 .
 class
@@ -593,7 +593,7 @@ CanGC
 static
 void
 *
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 (
 JSContext
 *
@@ -633,7 +633,7 @@ CanGC
 static
 void
 *
-AllocateTenuredCell
+AllocTenuredCell
 (
 JSContext
 *
@@ -725,7 +725,7 @@ Args
 static
 T
 *
-AllocateString
+NewString
 (
 JSContext
 *
@@ -777,7 +777,7 @@ void
 *
 ptr
 =
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 <
 JS
 :
@@ -848,7 +848,7 @@ CanGC
 static
 T
 *
-AllocateBigInt
+NewBigInt
 (
 JSContext
 *
@@ -861,7 +861,7 @@ void
 *
 ptr
 =
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 <
 JS
 :
@@ -920,7 +920,7 @@ CanGC
 static
 T
 *
-AllocateObject
+NewObject
 (
 JSContext
 *
@@ -993,7 +993,7 @@ void
 *
 cell
 =
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 <
 JS
 :
@@ -1062,7 +1062,7 @@ Args
 static
 T
 *
-AllocateTenured
+NewTenuredCell
 (
 JSContext
 *
@@ -1097,7 +1097,7 @@ void
 *
 cell
 =
-AllocateTenuredCell
+AllocTenuredCell
 <
 allowGC
 >
@@ -1297,7 +1297,7 @@ valid
 parameter
 list
 in
-AllocateObject
+NewObject
 above
 .
 if
@@ -1314,7 +1314,7 @@ T
 )
 {
 return
-AllocateObject
+NewObject
 <
 T
 allowGC
@@ -1358,7 +1358,7 @@ T
 )
 {
 return
-AllocateBigInt
+NewBigInt
 <
 T
 allowGC
@@ -1419,7 +1419,7 @@ other
 strings
 go
 through
-AllocateString
+NewString
 which
 will
 forward
@@ -1473,7 +1473,7 @@ T
 )
 {
 return
-AllocateString
+NewString
 <
 T
 allowGC
@@ -1544,7 +1544,7 @@ s
 constructor
 .
 return
-AllocateTenured
+NewTenuredCell
 <
 T
 allowGC

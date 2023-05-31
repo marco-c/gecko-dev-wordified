@@ -381,7 +381,7 @@ gc
 CellAllocator
 :
 :
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 (
 JSContext
 *
@@ -693,7 +693,7 @@ gc
 CellAllocator
 :
 :
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 <
 traceKind
 allowGc
@@ -1032,7 +1032,7 @@ gc
 CellAllocator
 :
 :
-AllocateTenuredCell
+AllocTenuredCell
 (
 JSContext
 *
@@ -1157,7 +1157,7 @@ gc
 CellAllocator
 :
 :
-AllocateTenuredCell
+AllocTenuredCell
 <
 NoGC
 >
@@ -1177,7 +1177,7 @@ gc
 CellAllocator
 :
 :
-AllocateTenuredCell
+AllocTenuredCell
 <
 CanGC
 >
