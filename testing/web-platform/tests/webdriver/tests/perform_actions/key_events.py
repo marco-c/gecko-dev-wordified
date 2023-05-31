@@ -15,8 +15,6 @@ pytest
 from
 tests
 .
-classic
-.
 perform_actions
 .
 support
