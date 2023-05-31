@@ -1074,15 +1074,6 @@ include
 "
 mozilla
 /
-StaticPrefs_plugins
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_privacy
 .
 h
