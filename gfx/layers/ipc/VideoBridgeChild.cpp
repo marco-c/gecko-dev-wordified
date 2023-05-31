@@ -1001,7 +1001,6 @@ char
 *
 aMsg
 )
-const
 {
 dom
 :

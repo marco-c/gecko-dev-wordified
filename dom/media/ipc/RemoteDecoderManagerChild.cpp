@@ -5492,7 +5492,6 @@ char
 *
 aMsg
 )
-const
 {
 dom
 :

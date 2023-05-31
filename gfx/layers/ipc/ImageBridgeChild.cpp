@@ -5255,7 +5255,6 @@ char
 *
 aMsg
 )
-const
 {
 dom
 :

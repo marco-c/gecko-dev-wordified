@@ -244,7 +244,6 @@ char
 *
 aErrorMsg
 )
-const
 {
 if
 (
