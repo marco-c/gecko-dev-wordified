@@ -9370,12 +9370,7 @@ if
 paintedFrame
 -
 >
-GetContent
-(
-)
--
->
-IsText
+IsInSVGTextSubtree
 (
 )
 )
