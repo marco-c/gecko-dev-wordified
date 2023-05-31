@@ -360,6 +360,11 @@ selectedSource
 PropTypes
 .
 object
+blackboxedRangesForSelectedSource
+:
+PropTypes
+.
+array
 }
 ;
 }
@@ -636,6 +641,7 @@ cx
 breakpoint
 selectedSource
 breakpointActions
+blackboxedRangesForSelectedSource
 }
 =
 this
@@ -672,6 +678,7 @@ cx
 breakpoint
 selectedLocation
 breakpointActions
+blackboxedRangesForSelectedSource
 )
 )
 ;

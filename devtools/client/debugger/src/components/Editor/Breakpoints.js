@@ -90,6 +90,7 @@ import
 {
 getSelectedSource
 getFirstVisibleBreakpoints
+getBlackBoxRanges
 }
 from
 "
@@ -205,6 +206,11 @@ selectedSource
 PropTypes
 .
 object
+blackboxedRanges
+:
+PropTypes
+.
+object
 }
 ;
 }
@@ -220,6 +226,7 @@ selectedSource
 editor
 breakpointActions
 editorActions
+blackboxedRanges
 }
 =
 this
@@ -282,6 +289,16 @@ selectedSource
 =
 {
 selectedSource
+}
+blackboxedRangesForSelectedSource
+=
+{
+blackboxedRanges
+[
+selectedSource
+.
+url
+]
 }
 editor
 =
@@ -352,6 +369,12 @@ state
 selectedSource
 :
 getSelectedSource
+(
+state
+)
+blackboxedRanges
+:
+getBlackBoxRanges
 (
 state
 )

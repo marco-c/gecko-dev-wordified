@@ -102,9 +102,6 @@ breakpoints
 {
 }
 xhrBreakpoints
-breakpointsDisabled
-:
-false
 }
 ;
 }
