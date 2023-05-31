@@ -180,6 +180,12 @@ LaunchWithURI
 nsIURI
 *
 aURI
+mozilla
+:
+:
+dom
+:
+:
 BrowsingContext
 *
 aBrowsingContext

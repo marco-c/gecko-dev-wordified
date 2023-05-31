@@ -218,6 +218,7 @@ nsAString
 &
 _retval
 )
+override
 ;
 NS_IMETHOD
 IsCurrentAppOSDefaultForProtocol
@@ -230,6 +231,7 @@ bool
 *
 _retval
 )
+override
 ;
 /
 /
@@ -267,6 +269,7 @@ nsIMIMEInfo
 *
 aMIMEInfo
 )
+override
 ;
 NS_IMETHOD
 GetMIMEInfoFromOS
@@ -304,6 +307,7 @@ nsIHandlerInfo
 *
 _retval
 )
+override
 ;
 /
 /
@@ -390,6 +394,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 nsresult
 OSProtocolHandlerExists

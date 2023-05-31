@@ -291,8 +291,8 @@ nsOSHelperAppService
 GetProtocolHandlerInfoFromOS
 (
 const
-char
-*
+nsACString
+&
 aScheme
 bool
 *
