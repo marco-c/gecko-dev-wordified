@@ -468,17 +468,6 @@ leak_check
 False
             
 "
-stylo_threads
-"
-:
-kwargs
-[
-"
-stylo_threads
-"
-]
-            
-"
 chaos_mode_flags
 "
 :
@@ -2411,9 +2400,6 @@ leak_check
 asan
 =
 asan
-stylo_threads
-=
-stylo_threads
                          
 chaos_mode_flags
 =
@@ -2639,7 +2625,6 @@ get_env
 self
 binary
 debug_info
-stylo_threads
 headless
 chaos_mode_flags
 )
@@ -2649,7 +2634,6 @@ env
 =
 get_environ
 (
-stylo_threads
 chaos_mode_flags
 )
         

@@ -4666,11 +4666,19 @@ tests
             
 if
 suite_category
-!
-=
+not
+in
+[
 "
 cppunittest
 "
+"
+gtest
+"
+"
+jittest
+"
+]
 :
                 
 #
@@ -4681,8 +4689,9 @@ everywhere
 we
 can
 .
-cppunittest
-doesn
+Some
+tests
+don
 '
 t
                 
@@ -4693,7 +4702,7 @@ support
 setpref
 so
 ignore
-that
+those
 .
                 
 base_cmd
