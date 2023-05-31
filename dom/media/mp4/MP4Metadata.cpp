@@ -198,7 +198,7 @@ IndiceWrapper
 (
 Mp4parseByteData
 &
-aIndice
+aRustIndice
 )
 {
 mIndice
@@ -211,7 +211,7 @@ mIndice
 .
 length
 =
-aIndice
+aRustIndice
 .
 length
 ;
@@ -219,7 +219,7 @@ mIndice
 .
 indices
 =
-aIndice
+aRustIndice
 .
 indices
 ;
