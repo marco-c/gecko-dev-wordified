@@ -1092,14 +1092,8 @@ override
 void
 ConstrainPosition
 (
-bool
-aAllowSlop
-int32_t
-*
-aX
-int32_t
-*
-aY
+DesktopIntPoint
+&
 )
 override
 ;
