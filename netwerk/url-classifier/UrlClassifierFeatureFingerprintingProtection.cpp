@@ -808,7 +808,7 @@ nsIWebProgressListener
 STATE_ALLOWED_FINGERPRINTING_CONTENT
 ;
 /
-*
+/
 Need
 to
 set
@@ -823,6 +823,8 @@ Fingerprinter
 with
 a
 shim
+/
+/
 since
 the
 shim
@@ -832,8 +834,6 @@ as
 a
 blocked
 event
-*
-/
 if
 (
 event
