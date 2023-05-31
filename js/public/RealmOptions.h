@@ -1455,9 +1455,6 @@ return
 this
 ;
 }
-#
-ifdef
-ENABLE_CHANGE_ARRAY_BY_COPY
 bool
 getChangeArrayByCopyEnabled
 (
@@ -1485,8 +1482,6 @@ return
 this
 ;
 }
-#
-endif
 #
 ifdef
 ENABLE_NEW_SET_METHODS
@@ -1831,16 +1826,11 @@ arrayFromAsync_
 =
 false
 ;
-#
-ifdef
-ENABLE_CHANGE_ARRAY_BY_COPY
 bool
 changeArrayByCopy_
 =
 false
 ;
-#
-endif
 #
 ifdef
 ENABLE_NEW_SET_METHODS
