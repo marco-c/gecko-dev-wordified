@@ -4979,6 +4979,25 @@ crashreporter
 "
             
 "
+media
+-
+plugin
+-
+helper
+.
+app
+/
+Contents
+/
+MacOS
+/
+*
+Media
+Plugin
+Helper
+"
+            
+"
 {
 product
 }
