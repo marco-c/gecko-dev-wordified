@@ -1423,6 +1423,7 @@ Iter
 &
 rhs
 )
+const
 {
 return
 index_
@@ -1443,6 +1444,7 @@ Iter
 &
 rhs
 )
+const
 {
 return
 !

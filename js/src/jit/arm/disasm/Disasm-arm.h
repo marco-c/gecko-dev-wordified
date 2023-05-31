@@ -348,7 +348,6 @@ index
 ]
 ;
 }
-inline
 V8Vector
 <
 T
@@ -359,6 +358,7 @@ operator
 int
 offset
 )
+const
 {
 MOZ_ASSERT
 (

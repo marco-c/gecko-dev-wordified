@@ -975,6 +975,7 @@ operator
 size_t
 offset
 )
+const
 {
 MOZ_ASSERT
 (
