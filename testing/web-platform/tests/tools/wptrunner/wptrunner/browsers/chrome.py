@@ -54,21 +54,7 @@ executors
 .
 executorwebdriver
 import
-(
-WebDriverTestharnessExecutor
-#
-noqa
-:
-F401
-                                           
-WebDriverRefTestExecutor
-#
-noqa
-:
-F401
-                                           
 WebDriverCrashtestExecutor
-)
 #
 noqa
 :
@@ -92,11 +78,18 @@ executors
 .
 executorchrome
 import
-ChromeDriverPrintRefTestExecutor
+(
 #
 noqa
 :
 F401
+    
+ChromeDriverPrintRefTestExecutor
+    
+ChromeDriverRefTestExecutor
+    
+ChromeDriverTestharnessExecutor
+)
 __wptrunner__
 =
 {
@@ -134,7 +127,7 @@ testharness
 "
 :
 "
-WebDriverTestharnessExecutor
+ChromeDriverTestharnessExecutor
 "
                               
 "
@@ -142,7 +135,7 @@ reftest
 "
 :
 "
-WebDriverRefTestExecutor
+ChromeDriverRefTestExecutor
 "
                               
 "
@@ -300,6 +293,27 @@ kwargs
 )
 :
     
+sanitizer_enabled
+=
+kwargs
+.
+get
+(
+"
+sanitizer_enabled
+"
+)
+    
+if
+sanitizer_enabled
+:
+        
+test_type
+=
+"
+crashtest
+"
+    
 executor_kwargs
 =
 base_executor_kwargs
@@ -330,6 +344,15 @@ supports_eager_pageload
 ]
 =
 False
+    
+executor_kwargs
+[
+"
+sanitizer_enabled
+"
+]
+=
+sanitizer_enabled
     
 capabilities
 =
