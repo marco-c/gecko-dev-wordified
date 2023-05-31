@@ -15097,6 +15097,9 @@ true
 }
 #
 endif
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 if
 (
 key
@@ -15273,6 +15276,8 @@ return
 true
 ;
 }
+#
+endif
 #
 ifdef
 ENABLE_NEW_SET_METHODS
