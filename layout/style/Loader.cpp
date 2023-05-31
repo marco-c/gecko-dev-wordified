@@ -12042,14 +12042,6 @@ const
 bool
 isWorthCaching
 =
-StaticPrefs
-:
-:
-layout_css_inline_style_caching_always_enabled
-(
-)
-|
-|
 aInfo
 .
 mContent
