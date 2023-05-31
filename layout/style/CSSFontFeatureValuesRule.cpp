@@ -270,7 +270,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontFeatureValuesRule
+StyleFontFeatureValuesRule
 >
 aRaw
 )

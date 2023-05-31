@@ -169,7 +169,7 @@ CSSFontPaletteValuesRule
 (
 RefPtr
 <
-StyleLockedFontPaletteValuesRule
+StyleFontPaletteValuesRule
 >
 aRawRule
 StyleSheet
@@ -216,7 +216,7 @@ IsCCLeaf
 const
 final
 ;
-StyleLockedFontPaletteValuesRule
+StyleFontPaletteValuesRule
 *
 Raw
 (
@@ -232,7 +232,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontPaletteValuesRule
+StyleFontPaletteValuesRule
 >
 aRaw
 )
@@ -354,7 +354,7 @@ default
 ;
 RefPtr
 <
-StyleLockedFontPaletteValuesRule
+StyleFontPaletteValuesRule
 >
 mRawRule
 ;

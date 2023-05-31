@@ -161,7 +161,7 @@ CSSSupportsRule
 (
 RefPtr
 <
-StyleLockedSupportsRule
+StyleSupportsRule
 >
 aRawRule
 StyleSheet
@@ -201,7 +201,7 @@ final
 ;
 #
 endif
-StyleLockedSupportsRule
+StyleSupportsRule
 *
 Raw
 (
@@ -217,7 +217,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedSupportsRule
+StyleSupportsRule
 >
 )
 ;
@@ -289,7 +289,7 @@ default
 ;
 RefPtr
 <
-StyleLockedSupportsRule
+StyleSupportsRule
 >
 mRawRule
 ;

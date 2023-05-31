@@ -169,7 +169,7 @@ CSSFontFeatureValuesRule
 (
 RefPtr
 <
-StyleLockedFontFeatureValuesRule
+StyleFontFeatureValuesRule
 >
 aRawRule
 StyleSheet
@@ -217,7 +217,7 @@ IsCCLeaf
 const
 override
 ;
-StyleLockedFontFeatureValuesRule
+StyleFontFeatureValuesRule
 *
 Raw
 (
@@ -233,7 +233,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontFeatureValuesRule
+StyleFontFeatureValuesRule
 >
 aRaw
 )
@@ -368,7 +368,7 @@ default
 ;
 RefPtr
 <
-StyleLockedFontFeatureValuesRule
+StyleFontFeatureValuesRule
 >
 mRawRule
 ;

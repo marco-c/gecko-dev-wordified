@@ -162,7 +162,7 @@ CSSContainerRule
 (
 RefPtr
 <
-StyleLockedContainerRule
+StyleContainerRule
 >
 aRawRule
 StyleSheet
@@ -202,7 +202,7 @@ final
 ;
 #
 endif
-StyleLockedContainerRule
+StyleContainerRule
 *
 Raw
 (
@@ -218,7 +218,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedContainerRule
+StyleContainerRule
 >
 )
 ;
@@ -319,7 +319,7 @@ CSSContainerRule
 ;
 RefPtr
 <
-StyleLockedContainerRule
+StyleContainerRule
 >
 mRawRule
 ;
