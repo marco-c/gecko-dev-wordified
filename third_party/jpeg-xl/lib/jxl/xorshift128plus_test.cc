@@ -132,9 +132,7 @@ lib
 /
 jxl
 /
-base
-/
-thread_pool_internal
+test_utils
 .
 h
 "
@@ -1267,7 +1265,10 @@ TestFloat
 (
 )
 {
-ThreadPoolInternal
+test
+:
+:
+ThreadPoolForTests
 pool
 (
 8
@@ -1594,7 +1595,10 @@ TestNotZero
 (
 )
 {
-ThreadPoolInternal
+test
+:
+:
+ThreadPoolForTests
 pool
 (
 8

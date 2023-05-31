@@ -75,13 +75,13 @@ types
 .
 #
 include
-"
+<
 jxl
 /
 types
 .
 h
-"
+>
 #
 include
 "

@@ -179,17 +179,6 @@ color_encoding_internal
 .
 h
 "
-#
-include
-"
-lib
-/
-jxl
-/
-size_constraints
-.
-h
-"
 namespace
 jxl
 {
@@ -2061,9 +2050,6 @@ uint8_t
 bytes
 )
 color_hints
-SizeConstraints
-(
-)
 &
 ppf_
 )

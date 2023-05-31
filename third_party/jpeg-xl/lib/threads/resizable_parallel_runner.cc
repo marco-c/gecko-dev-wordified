@@ -44,13 +44,13 @@ file
 .
 #
 include
-"
+<
 jxl
 /
 resizable_parallel_runner
 .
 h
-"
+>
 #
 include
 <

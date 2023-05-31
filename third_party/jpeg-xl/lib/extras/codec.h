@@ -213,6 +213,9 @@ MakeBit
 namespace
 jxl
 {
+struct
+SizeConstraints
+;
 /
 /
 Decodes
@@ -265,6 +268,12 @@ ThreadPool
 pool
 =
 nullptr
+const
+SizeConstraints
+*
+constraints
+=
+nullptr
 extras
 :
 :
@@ -303,6 +312,12 @@ ThreadPool
 pool
 =
 nullptr
+const
+SizeConstraints
+*
+constraints
+=
+nullptr
 extras
 :
 :
@@ -325,6 +340,7 @@ ColorHints
 )
 io
 pool
+constraints
 orig_codec
 )
 ;
@@ -361,6 +377,12 @@ io
 ThreadPool
 *
 pool
+=
+nullptr
+const
+SizeConstraints
+*
+constraints
 =
 nullptr
 extras

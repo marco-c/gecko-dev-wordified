@@ -122,17 +122,6 @@ lib
 /
 jxl
 /
-codec_in_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 color_management
 .
 h

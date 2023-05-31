@@ -44,10 +44,10 @@ file
 .
 #
 ifndef
-LIB_PROFILER_TSC_TIMER_H_
+LIB_JXL_BASE_TSC_TIMER_H_
 #
 define
-LIB_PROFILER_TSC_TIMER_H_
+LIB_JXL_BASE_TSC_TIMER_H_
 /
 /
 High
@@ -223,6 +223,9 @@ h
 /
 /
 LoadFence
+namespace
+jxl
+{
 namespace
 profiler
 {
@@ -1412,8 +1415,13 @@ t
 /
 namespace
 profiler
+}
+/
+/
+namespace
+jxl
 #
 endif
 /
 /
-LIB_PROFILER_TSC_TIMER_H_
+LIB_JXL_BASE_TSC_TIMER_H_

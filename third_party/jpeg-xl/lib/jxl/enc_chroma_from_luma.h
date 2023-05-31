@@ -347,6 +347,10 @@ AcStrategyImage
 *
 ac_strategy
 const
+ImageI
+*
+raw_quant_field
+const
 Quantizer
 *
 quantizer

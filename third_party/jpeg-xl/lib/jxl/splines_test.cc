@@ -447,6 +447,10 @@ i
 kQuantizationAdjustment
 kYToX
 kYToB
+2u
+<
+<
+30u
 &
 total
 dequantized

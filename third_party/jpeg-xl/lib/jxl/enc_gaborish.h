@@ -160,6 +160,9 @@ Image3F
 in_out
 float
 mul
+[
+3
+]
 ThreadPool
 *
 pool

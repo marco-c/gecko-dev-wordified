@@ -70,13 +70,13 @@ orientation
 )
 #
 include
-"
+<
 jxl
 /
 codestream_header
 .
 h
-"
+>
 #
 include
 "

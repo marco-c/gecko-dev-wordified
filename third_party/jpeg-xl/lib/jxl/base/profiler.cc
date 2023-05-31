@@ -57,7 +57,7 @@ h
 "
 #
 if
-PROFILER_ENABLED
+JXL_PROFILER_ENABLED
 #
 include
 <
@@ -141,7 +141,9 @@ HWY_TARGET_INCLUDE
 "
 lib
 /
-profiler
+jxl
+/
+base
 /
 profiler
 .
@@ -169,6 +171,9 @@ HWY_BEFORE_NAMESPACE
 (
 )
 ;
+namespace
+jxl
+{
 namespace
 profiler
 {
@@ -412,6 +417,11 @@ HWY_NAMESPACE
 /
 namespace
 profiler
+}
+/
+/
+namespace
+jxl
 HWY_AFTER_NAMESPACE
 (
 )
@@ -419,6 +429,9 @@ HWY_AFTER_NAMESPACE
 #
 if
 HWY_ONCE
+namespace
+jxl
+{
 namespace
 profiler
 {
@@ -438,7 +451,7 @@ to
 allocate
 (
 if
-PROFILER_ENABLED
+JXL_PROFILER_ENABLED
 )
 per
 thread
@@ -3772,6 +3785,11 @@ Reset
 /
 namespace
 profiler
+}
+/
+/
+namespace
+jxl
 #
 endif
 /
@@ -3781,4 +3799,4 @@ HWY_ONCE
 endif
 /
 /
-PROFILER_ENABLED
+JXL_PROFILER_ENABLED

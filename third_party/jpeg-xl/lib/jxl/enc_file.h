@@ -101,17 +101,6 @@ lib
 /
 jxl
 /
-codec_in_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_cache
 .
 h
@@ -132,6 +121,9 @@ jxl
 {
 struct
 AuxOut
+;
+class
+CodecInOut
 ;
 /
 /

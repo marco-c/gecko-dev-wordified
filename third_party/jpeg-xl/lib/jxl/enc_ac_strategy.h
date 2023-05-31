@@ -99,17 +99,6 @@ lib
 /
 jxl
 /
-chroma_from_luma
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 common
 .
 h
