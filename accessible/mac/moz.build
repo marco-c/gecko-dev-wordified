@@ -129,11 +129,6 @@ AccessibleWrap
 mm
 "
 "
-CachedTextMarker
-.
-mm
-"
-"
 DocAccessibleWrap
 .
 mm
@@ -145,11 +140,6 @@ mm
 "
 "
 HyperTextAccessibleWrap
-.
-mm
-"
-"
-LegacyTextMarker
 .
 mm
 "
