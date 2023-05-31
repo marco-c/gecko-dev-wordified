@@ -746,6 +746,7 @@ cx
 breakpoint
 breakpointActions
 blackboxedRangesForSelectedSource
+isSelectedSourceOnIgnoreList
 )
 =
 >
@@ -776,6 +777,7 @@ breakpoint
 location
 .
 line
+isSelectedSourceOnIgnoreList
 )
 click
 :
@@ -1005,6 +1007,7 @@ breakpoint
 selectedLocation
 breakpointActions
 blackboxedRangesForSelectedSource
+isSelectedSourceOnIgnoreList
 )
 {
 const
@@ -1023,6 +1026,7 @@ cx
 breakpoint
 breakpointActions
 blackboxedRangesForSelectedSource
+isSelectedSourceOnIgnoreList
 )
 ]
 ;
@@ -1088,6 +1092,7 @@ cx
 selectedLocation
 breakpointActions
 blackboxedRangesForSelectedSource
+isSelectedSourceOnIgnoreList
 )
 :
 disableBreakpointsOnLineItem
@@ -1317,6 +1322,7 @@ cx
 location
 breakpointActions
 blackboxedRangesForSelectedSource
+isSelectedSourceOnIgnoreList
 )
 =
 >
@@ -1373,6 +1379,7 @@ blackboxedRangesForSelectedSource
 location
 .
 line
+isSelectedSourceOnIgnoreList
 )
 click
 :
