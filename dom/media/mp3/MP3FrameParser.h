@@ -494,6 +494,9 @@ mRaw
 [
 SIZE
 ]
+=
+{
+}
 ;
 /
 /
@@ -567,6 +570,8 @@ Update
 .
 int
 mPos
+=
+0
 ;
 }
 ;
@@ -1420,6 +1425,9 @@ mRaw
 [
 SIZE
 ]
+=
+{
+}
 ;
 /
 /
@@ -1444,6 +1452,8 @@ Update
 .
 int
 mPos
+=
+0
 ;
 }
 ;
@@ -2142,7 +2152,7 @@ header
 in
 bytes
 .
-int32_t
+uint32_t
 Length
 (
 )
