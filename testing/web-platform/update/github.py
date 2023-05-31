@@ -471,10 +471,10 @@ data
 "
 "
 Object
-respresenting
+representing
 a
 GitHub
-respoitory
+repository
 "
 "
 "
