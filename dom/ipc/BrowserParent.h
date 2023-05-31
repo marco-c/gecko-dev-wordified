@@ -2441,12 +2441,6 @@ uint64_t
 const
 MaybeDiscardedBrowsingContext
 &
-const
-uint32_t
-&
-const
-IAccessibleHolder
-&
 )
 ;
 bool
@@ -2480,14 +2474,6 @@ const
 MaybeDiscardedBrowsingContext
 &
 aBrowsingContext
-const
-uint32_t
-&
-aMsaaID
-const
-IAccessibleHolder
-&
-aDocCOMProxy
 )
 override
 ;

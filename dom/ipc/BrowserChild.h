@@ -2409,12 +2409,6 @@ uint64_t
 const
 MaybeDiscardedBrowsingContext
 &
-const
-uint32_t
-&
-const
-IAccessibleHolder
-&
 )
 ;
 bool

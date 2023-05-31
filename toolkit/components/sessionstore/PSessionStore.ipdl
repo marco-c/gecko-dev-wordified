@@ -115,6 +115,15 @@ MPL
 *
 /
 include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
+include
 protocol
 PBrowser
 ;
