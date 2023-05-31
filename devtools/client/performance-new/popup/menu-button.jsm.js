@@ -186,7 +186,7 @@ CustomizableUI
 >
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -198,7 +198,9 @@ modules
 /
 CustomizableUI
 .
-jsm
+sys
+.
+mjs
 "
 )
 CustomizableWidgets
