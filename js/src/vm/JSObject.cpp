@@ -15004,6 +15004,8 @@ return
 true
 ;
 }
+#
+endif
 /
 /
 It
@@ -15095,8 +15097,6 @@ return
 true
 ;
 }
-#
-endif
 #
 ifdef
 ENABLE_CHANGE_ARRAY_BY_COPY
