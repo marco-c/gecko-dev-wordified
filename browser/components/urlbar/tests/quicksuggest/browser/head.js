@@ -662,8 +662,6 @@ setUpTelemetryTest
 (
 {
 remoteSettingsResults
-=
-null
 merinoSuggestions
 =
 null
