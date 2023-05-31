@@ -518,7 +518,7 @@ window
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 extension
 .
@@ -658,7 +658,7 @@ hide
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 async
@@ -756,7 +756,7 @@ testWithoutBfcache
 return
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 async
@@ -978,7 +978,7 @@ unload
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 async
