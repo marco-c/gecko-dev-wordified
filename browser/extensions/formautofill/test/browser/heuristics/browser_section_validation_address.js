@@ -30,7 +30,7 @@ zero
 /
 *
 global
-runHeuristicsTest
+add_heuristic_tests
 *
 /
 "
@@ -38,7 +38,7 @@ use
 strict
 "
 ;
-runHeuristicsTest
+add_heuristic_tests
 (
 [
 {

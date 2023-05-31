@@ -30,7 +30,7 @@ zero
 /
 *
 global
-runHeuristicsTest
+add_heuristic_tests
 *
 /
 "
@@ -350,7 +350,7 @@ body
 html
 >
 ;
-runHeuristicsTest
+add_heuristic_tests
 (
 [
 {
