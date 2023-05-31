@@ -556,6 +556,15 @@ include
 "
 mozilla
 /
+StaticPrefs_plugin
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_ui
 .
 h
