@@ -176,6 +176,15 @@ hwcontext_vaapi
 h
 "
 #
+include
+"
+libavutil
+/
+hwcontext_drm
+.
+h
+"
+#
 endif
 #
 ifdef
