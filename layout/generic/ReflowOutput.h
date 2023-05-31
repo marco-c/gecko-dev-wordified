@@ -959,6 +959,7 @@ nsCollapsingMargin
 &
 aOther
 )
+const
 {
 return
 mMostPos
@@ -987,6 +988,7 @@ nsCollapsingMargin
 &
 aOther
 )
+const
 {
 return
 !
