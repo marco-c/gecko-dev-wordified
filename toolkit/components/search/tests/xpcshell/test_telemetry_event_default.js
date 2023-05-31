@@ -1034,7 +1034,7 @@ spy
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 onUpdate
 "
@@ -1046,7 +1046,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 ready
 "
@@ -1064,7 +1064,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 getVariable
 "
@@ -1220,7 +1220,7 @@ null
 ;
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 onUpdate
 .
@@ -1610,7 +1610,7 @@ null
 ;
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 onUpdate
 .
@@ -1662,7 +1662,7 @@ null
 ;
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 onUpdate
 .
