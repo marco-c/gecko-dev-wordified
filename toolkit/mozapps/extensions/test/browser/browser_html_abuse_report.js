@@ -5422,6 +5422,8 @@ monitorConsole
 resolve
 [
 {
+message
+:
 /
 /
 eslint
@@ -5434,8 +5436,6 @@ line
 max
 -
 len
-message
-:
 /
 Security
 Error

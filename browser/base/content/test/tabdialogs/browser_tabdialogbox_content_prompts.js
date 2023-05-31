@@ -386,6 +386,11 @@ test_tabdialog_content_prompts
 (
 )
 {
+await
+BrowserTestUtils
+.
+withNewTab
+(
 /
 /
 eslint
@@ -404,11 +409,6 @@ no
 insecure
 -
 url
-await
-BrowserTestUtils
-.
-withNewTab
-(
 "
 http
 :

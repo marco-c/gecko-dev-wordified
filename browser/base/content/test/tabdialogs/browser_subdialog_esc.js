@@ -136,6 +136,11 @@ test_subdialog_esc_does_not_cancel_load
 (
 )
 {
+await
+BrowserTestUtils
+.
+withNewTab
+(
 /
 /
 eslint
@@ -154,11 +159,6 @@ no
 insecure
 -
 url
-await
-BrowserTestUtils
-.
-withNewTab
-(
 "
 http
 :
@@ -401,6 +401,11 @@ test_subdialog_esc_on_dropdown_does_not_close_dialog
 (
 )
 {
+await
+BrowserTestUtils
+.
+withNewTab
+(
 /
 /
 eslint
@@ -419,11 +424,6 @@ no
 insecure
 -
 url
-await
-BrowserTestUtils
-.
-withNewTab
-(
 "
 http
 :

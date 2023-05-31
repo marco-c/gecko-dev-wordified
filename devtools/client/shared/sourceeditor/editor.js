@@ -1252,6 +1252,8 @@ u2069
 POP
 DIRECTIONAL
 ISOLATE
+specialChars
+:
 /
 /
 eslint
@@ -1266,8 +1268,6 @@ no
 control
 -
 regex
-specialChars
-:
 /
 [
 \
