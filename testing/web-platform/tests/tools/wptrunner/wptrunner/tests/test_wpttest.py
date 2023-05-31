@@ -43,6 +43,11 @@ import
 manifestexpected
 manifestupdate
 wpttest
+TestharnessTest
+.
+__test__
+=
+False
 dir_ini_0
 =
 b

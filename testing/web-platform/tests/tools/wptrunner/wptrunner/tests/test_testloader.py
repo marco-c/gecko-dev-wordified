@@ -93,6 +93,16 @@ TestLoader
 "
 )
 )
+TestFilter
+.
+__test__
+=
+False
+TestLoader
+.
+__test__
+=
+False
 include_ini
 =
 "
