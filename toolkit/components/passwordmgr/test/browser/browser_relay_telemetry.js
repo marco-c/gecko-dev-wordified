@@ -1262,7 +1262,7 @@ pref_change
 method
 :
 "
-enabled
+disabled
 "
 }
 {
@@ -1274,7 +1274,7 @@ pref_change
 method
 :
 "
-disabled
+enabled
 "
 }
 ]
