@@ -382,6 +382,7 @@ MacroAssembler
 /
 namespace
 jit
+JS_PUBLIC_API
 /
 *
 The
