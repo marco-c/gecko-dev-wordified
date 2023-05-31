@@ -9465,13 +9465,3 @@ n
 ]
 )
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-React
-"
-]
-;

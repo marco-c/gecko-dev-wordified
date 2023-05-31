@@ -57320,13 +57320,3 @@ renderSubtreeIntoContainer
 ]
 )
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-ReactDOM
-"
-]
-;
