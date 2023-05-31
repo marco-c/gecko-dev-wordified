@@ -521,6 +521,14 @@ aSVGElement
 ;
 static
 bool
+IsValidUnitType
+(
+uint16_t
+aUnitType
+)
+;
+static
+bool
 GetValueFromString
 (
 const

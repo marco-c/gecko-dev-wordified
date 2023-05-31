@@ -360,11 +360,10 @@ units
 ;
 if
 (
-!
-IsValidUnitType
-(
 unitType
-)
+=
+=
+SVG_LENGTHTYPE_UNKNOWN
 )
 {
 return
