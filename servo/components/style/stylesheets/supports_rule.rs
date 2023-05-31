@@ -2679,14 +2679,12 @@ decl
 )
 =
 >
-{
 decl
 .
 to_css
 (
 dest
 )
-}
 SupportsCondition
 :
 :

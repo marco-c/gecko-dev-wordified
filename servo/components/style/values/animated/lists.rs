@@ -230,6 +230,7 @@ Err
 (
 )
 )
+;
 }
 left
 .
@@ -254,7 +255,6 @@ left
 right
 )
 |
-{
 left
 .
 animate
@@ -262,7 +262,6 @@ animate
 right
 procedure
 )
-}
 )
 .
 collect
@@ -329,6 +328,7 @@ Err
 (
 )
 )
+;
 }
 left
 .
@@ -353,14 +353,12 @@ left
 right
 )
 |
-{
 left
 .
 compute_squared_distance
 (
 right
 )
-}
 )
 .
 sum
@@ -444,6 +442,18 @@ crate
 values
 :
 :
+animated
+:
+:
+ToAnimatedZero
+;
+use
+crate
+:
+:
+values
+:
+:
 {
 animated
 :
@@ -460,18 +470,6 @@ ComputeSquaredDistance
 SquaredDistance
 }
 }
-;
-use
-crate
-:
-:
-values
-:
-:
-animated
-:
-:
-ToAnimatedZero
 ;
 use
 itertools
@@ -602,7 +600,6 @@ map
 |
 it
 |
-{
 match
 it
 {
@@ -616,7 +613,6 @@ right
 )
 =
 >
-{
 left
 .
 animate
@@ -624,7 +620,6 @@ animate
 right
 procedure
 )
-}
 EitherOrBoth
 :
 :
@@ -634,7 +629,6 @@ left
 )
 =
 >
-{
 left
 .
 animate
@@ -648,7 +642,6 @@ to_animated_zero
 ?
 procedure
 )
-}
 EitherOrBoth
 :
 :
@@ -658,7 +651,6 @@ right
 )
 =
 >
-{
 right
 .
 to_animated_zero
@@ -671,8 +663,6 @@ animate
 right
 procedure
 )
-}
-}
 }
 )
 .
@@ -742,7 +732,6 @@ map
 |
 it
 |
-{
 match
 it
 {
@@ -756,14 +745,12 @@ right
 )
 =
 >
-{
 left
 .
 compute_squared_distance
 (
 right
 )
-}
 EitherOrBoth
 :
 :
@@ -793,7 +780,6 @@ compute_squared_distance
 (
 item
 )
-}
 }
 }
 )
@@ -1011,7 +997,6 @@ left
 right
 )
 |
-{
 left
 .
 animate
@@ -1019,7 +1004,6 @@ animate
 right
 procedure
 )
-}
 )
 .
 collect
@@ -1147,14 +1131,12 @@ left
 right
 )
 |
-{
 left
 .
 compute_squared_distance
 (
 right
 )
-}
 )
 .
 sum

@@ -274,10 +274,7 @@ specified
 font
 :
 :
-{
-FontPalette
-FontSynthesis
-}
+MozScriptSizeMultiplier
 ;
 pub
 use
@@ -293,7 +290,10 @@ specified
 font
 :
 :
-MozScriptSizeMultiplier
+{
+FontPalette
+FontSynthesis
+}
 ;
 pub
 use

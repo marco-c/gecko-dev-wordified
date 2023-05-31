@@ -485,6 +485,7 @@ find
 |
 source_size
 |
+{
 source_size
 .
 condition
@@ -504,6 +505,7 @@ unknown
 /
 false
 )
+}
 )
 ;
 match

@@ -177,10 +177,10 @@ cssparser
 :
 {
 AtRuleParser
-RuleBodyParser
-RuleBodyItemParser
 DeclarationParser
 QualifiedRuleParser
+RuleBodyItemParser
+RuleBodyParser
 }
 ;
 use

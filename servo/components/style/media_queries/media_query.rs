@@ -1014,6 +1014,7 @@ FeatureFlags
 :
 VIEWPORT_DEPENDENT
 )
+;
 }
 )
 }

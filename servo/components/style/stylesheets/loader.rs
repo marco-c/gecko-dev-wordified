@@ -119,8 +119,8 @@ import_rule
 :
 {
 ImportLayer
-ImportSupportsCondition
 ImportRule
+ImportSupportsCondition
 }
 ;
 use

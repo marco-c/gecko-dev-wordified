@@ -262,9 +262,9 @@ values
 :
 :
 {
+serialize_atom_identifier
 CustomIdent
 SelectorParseErrorKind
-serialize_atom_identifier
 }
 ;
 use

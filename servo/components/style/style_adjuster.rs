@@ -3869,6 +3869,7 @@ ContentVisibility
 Auto
 =
 >
+{
 new_contain
 .
 insert
@@ -3888,6 +3889,7 @@ Contain
 :
 STYLE
 )
+}
 ContentVisibility
 :
 :
@@ -3984,6 +3986,7 @@ ContainerType
 InlineSize
 =
 >
+{
 new_contain
 .
 insert
@@ -4003,6 +4006,7 @@ Contain
 :
 INLINE_SIZE
 )
+}
 /
 /
 https
@@ -4053,6 +4057,7 @@ ContainerType
 Size
 =
 >
+{
 new_contain
 .
 insert
@@ -4072,6 +4077,7 @@ Contain
 :
 SIZE
 )
+}
 }
 if
 new_contain

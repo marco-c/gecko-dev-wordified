@@ -323,11 +323,11 @@ cssparser
 {
 AtRuleParser
 CowRcStr
-RuleBodyParser
-RuleBodyItemParser
 DeclarationParser
 Parser
 QualifiedRuleParser
+RuleBodyItemParser
+RuleBodyParser
 SourceLocation
 }
 ;

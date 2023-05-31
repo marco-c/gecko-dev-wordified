@@ -202,9 +202,9 @@ cssparser
 :
 :
 {
+BasicParseErrorKind
 Parser
 SourceLocation
-BasicParseErrorKind
 }
 ;
 #
