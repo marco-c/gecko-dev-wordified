@@ -2273,6 +2273,9 @@ LastRelease
 )
 override
 ;
+class
+HashEntry
+;
 protected
 :
 /
@@ -3281,6 +3284,9 @@ mType
 ;
 #
 endif
+class
+HashEntry
+;
 protected
 :
 nsCacheableFuncStringContentList
