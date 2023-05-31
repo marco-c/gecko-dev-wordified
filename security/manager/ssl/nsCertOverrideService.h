@@ -249,15 +249,6 @@ disk
 nsCString
 mFingerprint
 ;
-nsCString
-mDBKey
-;
-nsCOMPtr
-<
-nsIX509Cert
->
-mCert
-;
 private
 :
 ~
@@ -736,9 +727,6 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-nsIX509Cert
-*
-aCert
 const
 bool
 aIsTemporary
@@ -746,10 +734,6 @@ const
 nsACString
 &
 fingerprint
-const
-nsACString
-&
-dbKey
 const
 mozilla
 :
