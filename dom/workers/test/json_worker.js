@@ -1594,6 +1594,7 @@ exception
 )
 {
 throw
+(
 "
 Exception
 inconsistency
@@ -1622,6 +1623,7 @@ toSource
 "
 +
 exception
+)
 ;
 }
 }

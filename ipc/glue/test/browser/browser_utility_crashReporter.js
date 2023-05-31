@@ -189,7 +189,6 @@ actorNames
 >
 {
 return
-(
 actorNames
 =
 =
@@ -210,7 +209,6 @@ join
 (
 "
 "
-)
 )
 ;
 }
