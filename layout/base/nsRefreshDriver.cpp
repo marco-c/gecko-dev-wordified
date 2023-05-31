@@ -10629,11 +10629,12 @@ case
 where
 we
 have
+no
 /
 /
-STYLO_THREADS
-=
-1
+stylo
+-
+threads
 .
 MOZ_ASSERT
 (

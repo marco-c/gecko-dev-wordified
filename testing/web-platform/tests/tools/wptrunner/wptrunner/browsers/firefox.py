@@ -778,17 +778,6 @@ asan
 )
             
 "
-stylo_threads
-"
-:
-kwargs
-[
-"
-stylo_threads
-"
-]
-            
-"
 chaos_mode_flags
 "
 :
@@ -1839,9 +1828,7 @@ get_environ
 logger
 binary
 debug_info
-stylo_threads
 headless
-                
 chaos_mode_flags
 =
 None
@@ -1884,18 +1871,6 @@ True
 log
 =
 logger
-)
-    
-env
-[
-"
-STYLO_THREADS
-"
-]
-=
-str
-(
-stylo_threads
 )
     
 #
@@ -2075,7 +2050,6 @@ debug_info
                  
 chaos_mode_flags
 headless
-stylo_threads
                  
 leak_check
 stackfix_dir
@@ -2146,12 +2120,6 @@ self
 headless
 =
 headless
-        
-self
-.
-stylo_threads
-=
-stylo_threads
         
 self
 .
@@ -2394,9 +2362,6 @@ binary
 self
 .
 debug_info
-self
-.
-stylo_threads
                           
 self
 .
@@ -5628,9 +5593,6 @@ False
 asan
 =
 False
-stylo_threads
-=
-1
 chaos_mode_flags
 =
 None
@@ -5801,8 +5763,6 @@ debug_info
 chaos_mode_flags
                                                      
 headless
-                                                     
-stylo_threads
                                                      
 leak_check
                                                      
@@ -6197,9 +6157,6 @@ False
 asan
 =
 False
-stylo_threads
-=
-1
 chaos_mode_flags
 =
 None
@@ -6294,7 +6251,6 @@ get_env
 (
 binary
 debug_info
-stylo_threads
 headless
 chaos_mode_flags
 )
@@ -6352,7 +6308,6 @@ get_env
 self
 binary
 debug_info
-stylo_threads
 headless
 chaos_mode_flags
 )
@@ -6369,8 +6324,6 @@ logger
 binary
                           
 debug_info
-                          
-stylo_threads
                           
 headless
                           

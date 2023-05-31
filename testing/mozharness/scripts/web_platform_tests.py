@@ -4522,17 +4522,6 @@ headless_height
 "
 ]
         
-env
-[
-"
-STYLO_THREADS
-"
-]
-=
-"
-4
-"
-        
 if
 self
 .
