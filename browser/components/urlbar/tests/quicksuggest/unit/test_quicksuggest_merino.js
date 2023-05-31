@@ -744,18 +744,7 @@ ensureQuickSuggestInit
 {
 remoteSettingsResults
 :
-[
-{
-type
-:
-"
-data
-"
-attachment
-:
 REMOTE_SETTINGS_RESULTS
-}
-]
 }
 )
 ;
@@ -3451,7 +3440,7 @@ UrlbarPrefs
 set
 (
 PREF_REMOTE_SETTINGS_ENABLED
-true
+false
 )
 ;
 UrlbarPrefs
