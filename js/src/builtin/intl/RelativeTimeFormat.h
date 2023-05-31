@@ -261,7 +261,7 @@ constexpr
 size_t
 EstimatedMemoryUse
 =
-10896
+8188
 ;
 mozilla
 :

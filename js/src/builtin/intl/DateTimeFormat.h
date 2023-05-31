@@ -251,7 +251,7 @@ constexpr
 size_t
 UDateFormatEstimatedMemoryUse
 =
-105402
+72440
 ;
 /
 /
@@ -270,7 +270,7 @@ constexpr
 size_t
 UDateIntervalFormatEstimatedMemoryUse
 =
-133064
+175646
 ;
 mozilla
 :

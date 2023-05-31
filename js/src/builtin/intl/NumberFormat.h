@@ -285,7 +285,7 @@ constexpr
 size_t
 EstimatedRangeFormatterMemoryUse
 =
-14143
+19894
 ;
 mozilla
 :
