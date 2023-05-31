@@ -498,7 +498,7 @@ obj
 {
 const
 {
-FieldScanner
+FormAutofillHeuristics
 }
 =
 ChromeUtils
@@ -516,7 +516,7 @@ modules
 /
 shared
 /
-FieldScanner
+FormAutofillHeuristics
 .
 sys
 .
@@ -644,7 +644,7 @@ eligibleFields
 let
 jsConfidencesKeyedByType
 =
-FieldScanner
+FormAutofillHeuristics
 .
 getFormAutofillConfidences
 (
