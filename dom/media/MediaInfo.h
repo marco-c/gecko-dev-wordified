@@ -3411,6 +3411,13 @@ MAX_RATE
 =
 640000
 ;
+static
+const
+uint32_t
+MAX_CHANNEL_COUNT
+=
+256
+;
 bool
 IsValid
 (
@@ -3422,6 +3429,12 @@ return
 mChannels
 >
 0
+&
+&
+mChannels
+<
+=
+MAX_CHANNEL_COUNT
 &
 &
 mRate
