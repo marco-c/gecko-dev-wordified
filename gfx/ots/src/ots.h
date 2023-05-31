@@ -2620,6 +2620,8 @@ exists
 void
 AddTable
 (
+TableEntry
+entry
 Table
 *
 table

@@ -1338,6 +1338,9 @@ size
 (
 )
 ;
+#
+ifndef
+NDEBUG
 off_t
 start
 =
@@ -1348,6 +1351,8 @@ Tell
 (
 )
 ;
+#
+endif
 size_t
 colorRecordsArrayOffset
 =
