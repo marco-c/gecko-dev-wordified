@@ -1093,8 +1093,8 @@ mozilla
 dom
 :
 :
-PopoverState
-GetPopoverState
+PopoverAttributeState
+GetPopoverAttributeState
 (
 )
 const

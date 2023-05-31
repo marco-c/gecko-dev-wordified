@@ -28243,12 +28243,12 @@ htmlElement
 htmlElement
 -
 >
-GetPopoverState
+GetPopoverAttributeState
 (
 )
 =
 =
-PopoverState
+PopoverAttributeState
 :
 :
 Auto
