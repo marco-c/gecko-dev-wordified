@@ -340,7 +340,10 @@ location
 line
 :
 1
-sourceId
+source
+:
+{
+id
 :
 "
 original
@@ -351,6 +354,7 @@ id
 -
 1
 "
+}
 }
 }
 }
@@ -386,7 +390,10 @@ location
 line
 :
 1
-sourceId
+source
+:
+{
+id
 :
 "
 original
@@ -397,6 +404,7 @@ id
 -
 2
 "
+}
 }
 }
 }
