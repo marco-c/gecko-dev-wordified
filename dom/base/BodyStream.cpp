@@ -2063,8 +2063,11 @@ NS_BASE_STREAM_CLOSED
 )
 ;
 }
-ReleaseObjects
+MOZ_ASSERT
 (
+IsClosed
+(
+)
 )
 ;
 }

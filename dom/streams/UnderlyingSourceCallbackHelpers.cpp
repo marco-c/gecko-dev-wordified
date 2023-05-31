@@ -3056,13 +3056,9 @@ InputToReadableStream
 }
 MOZ_ASSERT
 (
-mInput
-)
-;
-CloseAndReleaseObjects
+IsClosed
 (
-aCx
-aStream
+)
 )
 ;
 }
