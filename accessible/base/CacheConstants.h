@@ -117,6 +117,13 @@ _CacheConstants_h_
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 RelationType
 .
 h
