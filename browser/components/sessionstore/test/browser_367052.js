@@ -79,7 +79,7 @@ closed
 tab
 will
 increase
-getClosedTabCount
+getClosedTabCountForWindow
 let
 max_tabs_undo
 =
@@ -273,7 +273,7 @@ is
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )

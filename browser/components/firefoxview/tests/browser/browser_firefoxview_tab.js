@@ -1211,7 +1211,7 @@ is
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 win
 )
@@ -1278,7 +1278,7 @@ is
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 win
 )
@@ -1334,7 +1334,7 @@ is
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 win
 )

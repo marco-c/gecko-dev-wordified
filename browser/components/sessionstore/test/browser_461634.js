@@ -369,7 +369,7 @@ closedTabs
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )
@@ -404,7 +404,7 @@ stringify
 (
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )
@@ -628,7 +628,7 @@ closedTabs
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )
@@ -663,7 +663,7 @@ stringify
 (
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )

@@ -128,7 +128,7 @@ closedTabData
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

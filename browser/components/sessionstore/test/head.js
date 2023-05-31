@@ -2613,7 +2613,7 @@ while
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 win
 )

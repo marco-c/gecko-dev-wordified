@@ -307,7 +307,7 @@ throws
 >
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 {
 }

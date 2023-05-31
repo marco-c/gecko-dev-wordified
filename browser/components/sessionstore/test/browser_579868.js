@@ -196,7 +196,7 @@ savedState
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

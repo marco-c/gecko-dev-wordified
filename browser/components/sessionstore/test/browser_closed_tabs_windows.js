@@ -605,13 +605,13 @@ _closedTabs
 length
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 win
 )
 .
 length
-getClosedTabData
+getClosedTabDataForWindow
 (
 )
 for
@@ -635,7 +635,7 @@ closedCount
 =
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 browserWindows
 [
@@ -663,7 +663,7 @@ closedCount
 =
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 browserWindows
 [
@@ -725,7 +725,7 @@ equal
 1
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 browserWindows
 [
@@ -748,7 +748,7 @@ equal
 1
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 browserWindows
 [
@@ -806,7 +806,7 @@ equal
 0
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 browserWindows
 [
@@ -832,7 +832,7 @@ equal
 1
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 browserWindows
 [
@@ -864,7 +864,7 @@ equal
 0
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 browserWindows
 [

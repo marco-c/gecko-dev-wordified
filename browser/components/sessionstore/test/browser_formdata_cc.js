@@ -361,7 +361,7 @@ state
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
@@ -426,7 +426,7 @@ formdata
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

@@ -218,7 +218,7 @@ is
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 win
 )

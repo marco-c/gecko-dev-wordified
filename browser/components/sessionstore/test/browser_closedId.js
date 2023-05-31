@@ -309,7 +309,7 @@ is
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -331,7 +331,7 @@ initialClosedId
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
@@ -479,7 +479,7 @@ closedData
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

@@ -462,7 +462,7 @@ is
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -496,7 +496,7 @@ url
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

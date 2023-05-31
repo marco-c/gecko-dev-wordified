@@ -476,7 +476,7 @@ tab
 *
 *
 *
-getClosedTabCount
+getClosedTabCountForWindow
 undoCloseTab
 *
 /
@@ -491,7 +491,7 @@ count
 =
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -527,7 +527,7 @@ count
 =
 max_tabs_undo
 "
-getClosedTabCount
+getClosedTabCountForWindow
 returns
 zero
 or
@@ -581,7 +581,7 @@ closed
 tab
 will
 increase
-getClosedTabCount
+getClosedTabCountForWindow
 Services
 .
 prefs
@@ -634,13 +634,13 @@ tab
 ;
 /
 /
-getClosedTabCount
+getClosedTabCountForWindow
 let
 newcount
 =
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -655,7 +655,7 @@ after
 closing
 a
 tab
-getClosedTabCount
+getClosedTabCountForWindow
 has
 been
 incremented

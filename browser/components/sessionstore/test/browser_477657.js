@@ -285,7 +285,7 @@ is
 (
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )
@@ -354,7 +354,7 @@ is
 (
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )

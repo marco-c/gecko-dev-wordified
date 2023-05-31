@@ -499,7 +499,7 @@ is
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -1333,7 +1333,7 @@ equal
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )

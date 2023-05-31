@@ -87,7 +87,7 @@ entries
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
@@ -269,7 +269,7 @@ entries
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

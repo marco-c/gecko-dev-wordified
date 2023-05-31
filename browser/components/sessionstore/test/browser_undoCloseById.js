@@ -159,7 +159,7 @@ while
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -245,7 +245,7 @@ initialClosedId
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 win
 )
