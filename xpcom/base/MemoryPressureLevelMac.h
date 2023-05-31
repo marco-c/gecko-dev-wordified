@@ -158,7 +158,7 @@ that
 higher
 integer
 values
-respresent
+represent
 higher
 /
 /

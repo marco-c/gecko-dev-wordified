@@ -704,7 +704,7 @@ stringified
 *
 name
 that
-respresents
+represents
 where
 the
 function
