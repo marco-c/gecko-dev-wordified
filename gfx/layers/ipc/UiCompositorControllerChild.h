@@ -574,6 +574,7 @@ char
 *
 aMsg
 )
+const
 override
 ;
 mozilla
