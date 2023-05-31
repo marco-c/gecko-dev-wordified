@@ -93,9 +93,6 @@ DIRS
 app
 "
 "
-mediapluginhelper
-"
-"
 chromium
 "
 "
