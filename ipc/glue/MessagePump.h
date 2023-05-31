@@ -148,7 +148,7 @@ h
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -679,7 +679,7 @@ mWaitLock
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 /
 /
@@ -841,7 +841,7 @@ endif
 /
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 if
