@@ -1540,6 +1540,15 @@ aGlobal
 ;
 static
 void
+EndWheelTransaction
+(
+GlobalObject
+&
+aGlobal
+)
+;
+static
+void
 RegisterWindowActor
 (
 const
