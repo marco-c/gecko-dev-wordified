@@ -545,6 +545,15 @@ remoteSettingsResults
 :
 [
 {
+type
+:
+"
+data
+"
+attachment
+:
+[
+{
 id
 :
 1
@@ -681,6 +690,8 @@ iab_category
 -
 Education
 "
+}
+]
 }
 ]
 }
