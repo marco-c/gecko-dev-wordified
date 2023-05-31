@@ -1728,7 +1728,7 @@ bookmark
 )
 ;
 await
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 false
 )
@@ -1790,7 +1790,7 @@ com
 )
 ;
 await
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 true
 )
@@ -2084,7 +2084,7 @@ setupBookmarksToolbar
 )
 ;
 await
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 false
 )
@@ -2877,7 +2877,8 @@ Bookmarks
 menu
 item
 *
-appears
+is
+enabled
 in
 the
 toolbar
@@ -2900,7 +2901,8 @@ not
 the
 menu
 item
-appears
+is
+enabled
 in
 the
 toolbar
@@ -2911,7 +2913,7 @@ menu
 /
 async
 function
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 expected
 )
@@ -2941,8 +2943,9 @@ bookmarks_PersonalToolbar
 is
 (
 !
-!
 otherBookmarksMenuItem
+.
+disabled
 expected
 "
 '
