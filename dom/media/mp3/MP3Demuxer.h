@@ -824,7 +824,7 @@ uint8_t
 aBuffer
 int64_t
 aOffset
-int32_t
+uint32_t
 aSize
 )
 ;
@@ -1046,7 +1046,7 @@ if
 none
 available
 .
-int32_t
+uint32_t
 mSamplesPerFrame
 ;
 /
