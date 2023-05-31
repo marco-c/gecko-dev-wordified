@@ -47,9 +47,9 @@ searching
 on
 searchbar
 .
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -66,7 +66,9 @@ common
 /
 PlacesTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

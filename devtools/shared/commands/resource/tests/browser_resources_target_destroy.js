@@ -239,7 +239,7 @@ TargetActorRegistry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -260,7 +260,9 @@ actor
 -
 registry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

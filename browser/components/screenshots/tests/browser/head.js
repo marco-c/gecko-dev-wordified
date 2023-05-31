@@ -2148,7 +2148,7 @@ Layout
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -2169,7 +2169,9 @@ browser
 /
 Layout
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

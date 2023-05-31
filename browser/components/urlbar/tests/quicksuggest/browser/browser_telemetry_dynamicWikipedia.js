@@ -49,9 +49,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -67,7 +67,9 @@ modules
 /
 PartnerLinkAttribution
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
