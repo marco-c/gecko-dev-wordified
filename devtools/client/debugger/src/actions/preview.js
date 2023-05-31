@@ -652,9 +652,6 @@ const
 root
 =
 {
-name
-:
-expression
 path
 :
 expression
