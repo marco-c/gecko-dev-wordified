@@ -211,6 +211,11 @@ testCookieCategoryLabel
 (
 )
 {
+await
+BrowserTestUtils
+.
+withNewTab
+(
 /
 /
 eslint
@@ -229,11 +234,6 @@ no
 insecure
 -
 url
-await
-BrowserTestUtils
-.
-withNewTab
-(
 "
 http
 :
@@ -1106,6 +1106,11 @@ false
 ;
 }
 }
+await
+BrowserTestUtils
+.
+withNewTab
+(
 /
 /
 eslint
@@ -1124,11 +1129,6 @@ no
 insecure
 -
 url
-await
-BrowserTestUtils
-.
-withNewTab
-(
 "
 http
 :

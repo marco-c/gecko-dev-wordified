@@ -27,16 +27,6 @@ zero
 /
 *
 /
-/
-*
-eslint
--
-disable
-block
--
-spacing
-*
-/
 const
 {
 Log
