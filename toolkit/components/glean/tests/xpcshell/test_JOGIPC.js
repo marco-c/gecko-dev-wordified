@@ -606,7 +606,7 @@ JSON
 stringify
 (
 {
-labels
+ordered_labels
 :
 [
 "
@@ -645,7 +645,7 @@ JSON
 stringify
 (
 {
-labels
+ordered_labels
 :
 [
 "

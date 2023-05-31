@@ -222,7 +222,7 @@ Vec
 CommonMetricData
 >
 >
-labels
+ordered_labels
 :
 Option
 <
@@ -770,7 +770,7 @@ extra_args
 numerators
 extra_args
 .
-labels
+ordered_labels
 )
 ;
 extern

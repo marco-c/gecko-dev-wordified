@@ -239,6 +239,10 @@ histogram_type
 "
 numerators
 "
+    
+"
+ordered_labels
+"
 ]
 #
 List
