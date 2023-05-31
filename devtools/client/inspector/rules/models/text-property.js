@@ -2139,6 +2139,7 @@ property
 rootProperty
 deprecated
 experimental
+specUrl
 url
 unsupportedBrowsers
 }
@@ -2286,6 +2287,7 @@ false
 property
 rootProperty
 msgId
+specUrl
 url
 unsupportedBrowsers
 }
