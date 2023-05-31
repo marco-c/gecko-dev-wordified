@@ -980,6 +980,16 @@ BufferOffset
 afterPool
 )
 {
+DEBUG_PRINTF
+(
+"
+\
+tWritePoolGuard
+\
+n
+"
+)
+;
 int32_t
 off
 =
@@ -10397,6 +10407,9 @@ DEBUG_PRINTF
 tregisterBranchDeadline
 %
 d
+type
+%
+d
 \
 n
 "
@@ -10404,6 +10417,10 @@ deadline
 .
 getOffset
 (
+)
+OffsetSizeToImmBranchRangeType
+(
+bits
 )
 )
 ;

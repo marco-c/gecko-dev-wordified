@@ -28202,6 +28202,13 @@ rm
 )
 ;
 }
+BlockTrampolinePoolScope
+block_trampoline_pool
+(
+this
+2
+)
+;
 {
 switch
 (
@@ -38503,13 +38510,6 @@ left
 to
 zeroes
 .
-BlockTrampolinePoolScope
-block_trampoline_pool
-(
-this
-40
-)
-;
 {
 UseScratchRegisterScope
 temps
