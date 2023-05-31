@@ -393,16 +393,6 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-mutable
-const
-void
-*
-valid_system_queue_
-RTC_GUARDED_BY
-(
-lock_
-)
-;
 }
 ;
 /
