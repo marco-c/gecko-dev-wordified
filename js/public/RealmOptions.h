@@ -1824,7 +1824,7 @@ endif
 bool
 arrayFromAsync_
 =
-false
+true
 ;
 bool
 changeArrayByCopy_
