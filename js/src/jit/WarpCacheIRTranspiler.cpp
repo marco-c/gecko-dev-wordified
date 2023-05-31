@@ -19160,6 +19160,8 @@ StringOperandId
 inputId
 Int32OperandId
 lastIndexId
+uint32_t
+stubOffset
 )
 {
 MDefinition
@@ -19235,6 +19237,8 @@ StringOperandId
 inputId
 Int32OperandId
 lastIndexId
+uint32_t
+stubOffset
 )
 {
 MDefinition
@@ -19308,6 +19312,8 @@ ObjOperandId
 regexpId
 StringOperandId
 inputId
+uint32_t
+stubOffset
 )
 {
 MDefinition
@@ -19371,6 +19377,8 @@ ObjOperandId
 regexpId
 StringOperandId
 inputId
+uint32_t
+stubOffset
 )
 {
 MDefinition
