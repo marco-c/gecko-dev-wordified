@@ -568,25 +568,17 @@ Document
 prototype
 "
 :
-{
-            
-"
-methods
-"
-:
 [
-                
+            
 "
 getSelection
 "
-                
+            
 "
 hasStorageAccess
 "
-            
-]
         
-}
+]
     
 }
     
@@ -600,26 +592,20 @@ Range
 prototype
 "
 :
-{
-            
-"
-methods
-"
-:
 [
-                
+            
 "
 isPointInRange
 "
-                
+            
 "
 comparePoint
 "
-                
+            
 "
 intersectsNode
 "
-                
+            
 #
 These
 two
@@ -632,7 +618,7 @@ because
 they
 do
 trigger
-                
+            
 #
 layout
 when
@@ -645,7 +631,7 @@ the
 context
 of
 eager
-                
+            
 #
 evaluation
 that
@@ -658,18 +644,16 @@ thing
 to
 do
 .
-                
+            
 "
 getClientRects
 "
-                
+            
 "
 getBoundingClientRect
 "
-            
-]
         
-}
+]
     
 }
     
@@ -683,12 +667,6 @@ Selection
 prototype
 "
 :
-{
-            
-"
-methods
-"
-:
 [
 "
 getRangeAt
@@ -697,8 +675,6 @@ getRangeAt
 containsNode
 "
 ]
-        
-}
     
 }
 }
@@ -758,18 +734,10 @@ identifier
 name
             
 if
-(
 member
 .
 isMethod
 (
-)
-or
-member
-.
-isAttr
-(
-)
 )
 and
 member
@@ -807,6 +775,29 @@ _
 continue
                 
 if
+is_global
+:
+                    
+raise
+Exception
+(
+                        
+"
+Global
+methods
+and
+accessors
+are
+not
+supported
+:
+"
++
+iface
+                    
+)
+                
+if
 iface
 not
 in
@@ -822,16 +813,6 @@ iface
 }
                 
 if
-is_global
-:
-                    
-owner_type
-=
-"
-instance
-"
-                
-elif
 member
 .
 isStatic
@@ -872,8 +853,8 @@ iface
 owner_type
 ]
 =
-{
-}
+[
+]
                 
 #
 All
@@ -920,48 +901,12 @@ isMethod
 )
 :
                     
-prop_type
-=
-"
-methods
-"
-                    
-if
-prop_type
-not
-in
 pure_output
 [
 iface
 ]
 [
 owner_type
-]
-:
-                        
-pure_output
-[
-iface
-]
-[
-owner_type
-]
-[
-prop_type
-]
-=
-[
-]
-                    
-pure_output
-[
-iface
-]
-[
-owner_type
-]
-[
-prop_type
 ]
 .
 append
