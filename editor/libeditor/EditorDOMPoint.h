@@ -947,13 +947,14 @@ class
 EditorDOMPointBase
 final
 {
-typedef
+using
+SelfType
+=
 EditorDOMPointBase
 <
 ParentType
 ChildType
 >
-SelfType
 ;
 public
 :

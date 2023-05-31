@@ -175,7 +175,9 @@ we
 ll
 leak
 .
-typedef
+using
+ManualNACArray
+=
 AutoTArray
 <
 RefPtr
@@ -187,7 +189,6 @@ Element
 >
 16
 >
-ManualNACArray
 ;
 /
 *

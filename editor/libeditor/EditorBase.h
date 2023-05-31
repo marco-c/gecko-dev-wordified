@@ -18024,7 +18024,9 @@ only
 2
 items
 .
-typedef
+using
+AutoActionListenerArray
+=
 AutoTArray
 <
 OwningNonNull
@@ -18033,7 +18035,6 @@ nsIEditActionListener
 >
 2
 >
-AutoActionListenerArray
 ;
 AutoActionListenerArray
 mActionListeners
@@ -18077,7 +18078,9 @@ one
 is
 enough
 .
-typedef
+using
+AutoDocumentStateListenerArray
+=
 AutoTArray
 <
 OwningNonNull
@@ -18086,7 +18089,6 @@ nsIDocumentStateListener
 >
 1
 >
-AutoDocumentStateListenerArray
 ;
 AutoDocumentStateListenerArray
 mDocStateListeners

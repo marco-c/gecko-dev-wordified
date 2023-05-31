@@ -6088,11 +6088,12 @@ though
 .
 *
 /
-typedef
+using
+BoolFunctor
+=
 bool
 (
 *
-BoolFunctor
 )
 (
 nsINode

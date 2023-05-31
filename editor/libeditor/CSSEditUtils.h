@@ -194,11 +194,12 @@ Element
 /
 namespace
 dom
-typedef
+using
+nsProcessValueFunc
+=
 void
 (
 *
-nsProcessValueFunc
 )
 (
 const
@@ -226,6 +227,8 @@ class
 CSSEditUtils
 final
 {
+public
+:
 /
 /
 To
@@ -240,8 +243,6 @@ CSSEditUtils
 =
 delete
 ;
-public
-:
 enum
 nsCSSEditableProperty
 {
