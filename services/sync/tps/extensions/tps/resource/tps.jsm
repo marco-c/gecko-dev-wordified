@@ -3184,10 +3184,13 @@ Logger
 .
 AssertTrue
 (
+(
+await
 passwordOb
 .
 Create
 (
+)
 )
 >
 -
