@@ -3142,15 +3142,14 @@ settings_write_check
 disable
 =
 >
-(
 Services
 .
 search
 .
 wrappedJSObject
 .
-_initialized
-=
+forceInitializedForTests
+(
 !
 disable
 )
