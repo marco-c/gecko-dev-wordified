@@ -12251,7 +12251,7 @@ preferences
 /
 dialogs
 /
-translation
+translationExceptions
 .
 xhtml
 "
