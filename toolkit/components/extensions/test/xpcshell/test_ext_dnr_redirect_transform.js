@@ -911,7 +911,9 @@ contentPage
 .
 spawn
 (
+[
 url
+]
 async
 url
 =

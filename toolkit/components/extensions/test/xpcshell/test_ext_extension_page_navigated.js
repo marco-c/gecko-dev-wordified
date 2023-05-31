@@ -373,11 +373,7 @@ name
 const
 getExtensionContextIdAndURL
 =
-(
-[
 extensionId
-]
-)
 =
 >
 {
@@ -536,10 +532,8 @@ const
 getExtensionContextStatusByContextId
 =
 (
-[
 extensionId
 extPageContextId
-]
 )
 =
 >

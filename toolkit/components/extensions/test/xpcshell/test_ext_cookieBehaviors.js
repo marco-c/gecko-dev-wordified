@@ -2249,6 +2249,7 @@ extPage
 .
 spawn
 (
+[
 "
 http
 :
@@ -2266,6 +2267,7 @@ tracker
 .
 html
 "
+]
 async
 iframeURL
 =
@@ -2599,7 +2601,8 @@ extensionPage
 .
 spawn
 (
-null
+[
+]
 async
 (
 )
@@ -2800,9 +2803,11 @@ contentPage
 .
 spawn
 (
+[
 extension
 .
 uuid
+]
 uuid
 =
 >

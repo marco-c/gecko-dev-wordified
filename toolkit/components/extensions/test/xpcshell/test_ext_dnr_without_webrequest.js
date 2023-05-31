@@ -553,7 +553,8 @@ contentPage
 .
 spawn
 (
-null
+[
+]
 (
 )
 =
@@ -583,10 +584,12 @@ contentPage
 .
 spawn
 (
+[
 {
 url
 options
 }
+]
 async
 args
 =

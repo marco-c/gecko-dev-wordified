@@ -4528,7 +4528,8 @@ contentPage
 .
 spawn
 (
-null
+[
+]
 async
 (
 )
@@ -6076,7 +6077,8 @@ contentPage
 .
 spawn
 (
-null
+[
+]
 (
 )
 =
@@ -7114,7 +7116,9 @@ contentPage
 .
 spawn
 (
+[
 url
+]
 async
 url
 =
