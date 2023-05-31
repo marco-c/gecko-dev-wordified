@@ -217,7 +217,6 @@ nsIProperties
 )
 ;
 }
-export
 function
 nsDefaultCLH
 (
@@ -689,4 +688,13 @@ helpInfo
 "
 "
 }
+;
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+nsDefaultCLH
+"
+]
 ;

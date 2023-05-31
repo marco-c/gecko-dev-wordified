@@ -549,9 +549,7 @@ EXTRA_JS_MODULES
 "
 DefaultCLH
 .
-sys
-.
-mjs
+jsm
 "
 ]
 XPCOM_MANIFESTS
