@@ -692,7 +692,7 @@ isSome
 media
 :
 :
-TimeInterval
+TimeRanges
 LiveSeekableRange
 (
 )
@@ -965,7 +965,7 @@ Maybe
 media
 :
 :
-TimeInterval
+TimeRanges
 >
 mLiveSeekableRange
 ;
