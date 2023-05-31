@@ -168,6 +168,7 @@ LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 gMP4MetadataLog
