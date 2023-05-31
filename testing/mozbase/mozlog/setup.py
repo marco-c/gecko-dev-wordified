@@ -66,11 +66,11 @@ mozlog
 PACKAGE_VERSION
 =
 "
-7
+8
 .
-1
+0
 .
-1
+0
 "
 DEPS
 =
