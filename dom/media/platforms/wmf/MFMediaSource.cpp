@@ -2476,6 +2476,11 @@ SetDCompSurfaceHandle
 (
 HANDLE
 aDCompSurfaceHandle
+gfx
+:
+:
+IntSize
+aDisplay
 )
 {
 AssertOnManagerThread
@@ -2504,6 +2509,7 @@ AsVideoStream
 SetDCompSurfaceHandle
 (
 aDCompSurfaceHandle
+aDisplay
 )
 ;
 }

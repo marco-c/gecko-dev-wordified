@@ -4050,6 +4050,14 @@ mMediaSource
 SetDCompSurfaceHandle
 (
 surfaceHandle
+gfx
+:
+:
+IntSize
+{
+width
+height
+}
 )
 ;
 }
