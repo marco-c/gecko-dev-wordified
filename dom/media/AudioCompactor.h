@@ -542,10 +542,7 @@ aChannels
 auto
 duration
 =
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 framesCopied
 aSampleRate

@@ -90,11 +90,13 @@ MP4Interval
 )
 :
 start
-{
-}
+(
+0
+)
 end
-{
-}
+(
+0
+)
 {
 }
 MP4Interval

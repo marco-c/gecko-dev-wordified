@@ -997,10 +997,7 @@ flacCodecSpecificData
 auto
 duration
 =
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 mNumFrames
 sampleRate

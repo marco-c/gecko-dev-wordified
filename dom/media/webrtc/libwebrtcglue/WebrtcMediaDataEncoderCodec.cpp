@@ -2545,10 +2545,7 @@ encoder
 TimeUnit
 timestamp
 =
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 aFrame
 .

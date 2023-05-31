@@ -1699,8 +1699,6 @@ mData
 ;
 size_t
 mLength
-{
-}
 ;
 /
 /
@@ -1717,8 +1715,6 @@ mBuffer
 ;
 size_t
 mCapacity
-{
-}
 ;
 /
 /

@@ -397,11 +397,6 @@ mPaddingDiscarded
 int64_t
 mFrames
 ;
-int64_t
-mTotalFrames
-=
-0
-;
 Maybe
 <
 int64_t

@@ -252,12 +252,6 @@ inputBytes
 =
 0
 ;
-const
-size_t
-USECS_PER_MS
-=
-1000
-;
 auto
 frameData
 =
