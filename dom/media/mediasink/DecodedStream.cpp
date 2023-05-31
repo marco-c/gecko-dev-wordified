@@ -5189,7 +5189,10 @@ nullptr
 auto
 duration
 =
-FramesToTimeUnit
+media
+:
+:
+TimeUnit
 (
 missingFrames
 .
@@ -7160,7 +7163,10 @@ ref
 (
 )
 +
-FramesToTimeUnit
+media
+:
+:
+TimeUnit
 (
 mData
 -
