@@ -1974,13 +1974,6 @@ GetTickCount
 (
 )
 ;
-AccessibleWrap
-:
-:
-SuppressHandlerA11yForClipboardCopy
-(
-)
-;
 }
 }
 /
