@@ -2250,17 +2250,6 @@ ipc
 :
 :
 IPCResult
-RecvDispatchFocusToTopLevelWindow
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvRespondStartSwipeEvent
 (
 const
