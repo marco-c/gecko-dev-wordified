@@ -217,13 +217,13 @@ facilitate
 generating
 this
 #
-example
+default
 config
 .
 To
 generate
 an
-example
+default
 config
 for
 the
@@ -240,7 +240,7 @@ webrtc
 /
 third_party_build
 /
-update_example_config_env
+update_default_config_env
 .
 sh
 export
@@ -468,7 +468,7 @@ t2
 "
 "
 def
-build_example_config_env
+build_default_config_env
 (
 bug_number
 milestone
@@ -626,7 +626,7 @@ description
 "
 Updates
 the
-example_config_env
+default_config_env
 file
 for
 new
@@ -754,7 +754,7 @@ parse_args
 print
 (
         
-build_example_config_env
+build_default_config_env
 (
 args
 .
