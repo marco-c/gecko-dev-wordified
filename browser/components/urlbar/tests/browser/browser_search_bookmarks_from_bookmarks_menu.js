@@ -276,9 +276,7 @@ mode
 "
 )
 ;
-CustomizableUI
-.
-reset
+resetCUIAndReinitUrlbarInput
 (
 )
 ;

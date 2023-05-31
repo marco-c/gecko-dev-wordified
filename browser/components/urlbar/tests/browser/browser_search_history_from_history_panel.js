@@ -102,11 +102,12 @@ registerCleanupFunction
 )
 =
 >
-CustomizableUI
-.
-reset
+{
+resetCUIAndReinitUrlbarInput
 (
 )
+;
+}
 )
 ;
 let
