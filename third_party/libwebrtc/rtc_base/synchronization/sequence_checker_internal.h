@@ -227,8 +227,11 @@ SequenceCheckerImpl
 {
 public
 :
+explicit
 SequenceCheckerImpl
 (
+bool
+attach_to_current_thread
 )
 ;
 ~
@@ -444,6 +447,14 @@ SequenceCheckerDoNothing
 {
 public
 :
+explicit
+SequenceCheckerDoNothing
+(
+bool
+attach_to_current_thread
+)
+{
+}
 bool
 IsCurrent
 (
