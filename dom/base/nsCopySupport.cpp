@@ -3861,8 +3861,11 @@ GetPresShell
 ;
 if
 (
+NS_WARN_IF
+(
 !
 presShell
+)
 )
 {
 return
@@ -3884,8 +3887,11 @@ GetLastFocusedFrameSelection
 ;
 if
 (
+NS_WARN_IF
+(
 !
 frameSel
+)
 )
 {
 return
@@ -3933,9 +3939,11 @@ if
 !
 aDocument
 )
+{
 return
 false
 ;
+}
 RefPtr
 <
 Selection
