@@ -4627,7 +4627,7 @@ NS_WARN_IF
 !
 mContentCache
 .
-CacheSelection
+CacheCaretAndTextRects
 (
 this
 &
@@ -5094,7 +5094,7 @@ NS_WARN_IF
 !
 mContentCache
 .
-CacheSelection
+CacheCaretAndTextRects
 (
 this
 &
