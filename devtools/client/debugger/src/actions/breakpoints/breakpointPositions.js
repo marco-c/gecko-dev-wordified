@@ -154,6 +154,7 @@ value
 ;
 import
 {
+debuggerToSourceMapLocation
 createLocation
 }
 from
@@ -202,6 +203,11 @@ sourceMapLoader
 getOriginalLocations
 (
 generatedLocations
+.
+map
+(
+debuggerToSourceMapLocation
+)
 )
 ;
 return
