@@ -230,6 +230,9 @@ mochitest
 "
 reftest
 "
+"
+xpcshell
+"
 ]
 class
 AndroidHardwareTest

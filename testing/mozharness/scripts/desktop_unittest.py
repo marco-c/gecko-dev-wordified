@@ -325,6 +325,9 @@ mochitest
 "
 reftest
 "
+"
+xpcshell
+"
 ]
 #
 DesktopUnittest
