@@ -130,7 +130,7 @@ h
 #
 include
 <
-shobjidl_core
+shobjidl
 .
 h
 >
