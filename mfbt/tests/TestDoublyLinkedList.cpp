@@ -190,6 +190,7 @@ SomeClass
 &
 other
 )
+const
 {
 return
 mValue
