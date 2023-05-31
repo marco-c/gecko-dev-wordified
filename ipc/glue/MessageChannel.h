@@ -2359,8 +2359,6 @@ necessarily
 bool
 WaitForSyncNotify
 (
-bool
-aHandleWindowsMessages
 )
 MOZ_REQUIRES
 (
