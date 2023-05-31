@@ -797,12 +797,6 @@ StyleAppearance
 :
 Scrollcorner
 :
-case
-StyleAppearance
-:
-:
-Statusbar
-:
 /
 /
 Knowing
