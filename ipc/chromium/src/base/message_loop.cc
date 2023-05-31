@@ -1623,12 +1623,6 @@ defined
 (
 OS_WIN
 )
-|
-|
-defined
-(
-OS_MACOSX
-)
 case
 TYPE_MOZILLA_NONMAINUITHREAD
 :
@@ -1649,7 +1643,9 @@ aEventTarget
 return
 ;
 #
-elif
+endif
+#
+if
 defined
 (
 MOZ_WIDGET_ANDROID

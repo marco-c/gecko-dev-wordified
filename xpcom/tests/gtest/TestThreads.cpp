@@ -2053,7 +2053,6 @@ Shutdown
 }
 #
 if
-(
 defined
 (
 XP_WIN
@@ -2064,14 +2063,6 @@ XP_WIN
 defined
 (
 DEBUG
-)
-)
-&
-&
-!
-defined
-(
-XP_MACOSX
 )
 TEST
 (
