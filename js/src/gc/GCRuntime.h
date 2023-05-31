@@ -4143,12 +4143,7 @@ lock
 /
 Allocator
 internals
-[
-[
-nodiscard
-]
-]
-bool
+void
 gcIfNeededAtAllocation
 (
 JSContext
