@@ -766,7 +766,7 @@ behavior
 ]
 =
 "
-mac_notarize_geckodriver
+mac_geckodriver
 "
         
 yield
