@@ -148,7 +148,7 @@ nsICSSDeclaration
 h
 "
 struct
-StyleLockedPropertyRule
+StylePropertyRule
 ;
 namespace
 mozilla
@@ -172,7 +172,7 @@ CSSPropertyRule
 (
 already_AddRefed
 <
-StyleLockedPropertyRule
+StylePropertyRule
 >
 aRawRule
 StyleSheet
@@ -219,7 +219,7 @@ IsCCLeaf
 const
 final
 ;
-StyleLockedPropertyRule
+StylePropertyRule
 *
 Raw
 (
@@ -235,7 +235,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedPropertyRule
+StylePropertyRule
 >
 aRaw
 )
@@ -354,7 +354,7 @@ default
 ;
 RefPtr
 <
-StyleLockedPropertyRule
+StylePropertyRule
 >
 mRawRule
 ;

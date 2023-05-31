@@ -5236,12 +5236,6 @@ Arc
 :
 new
 (
-p
-.
-shared_lock
-.
-wrap
-(
 parse_property_block
 (
 &
@@ -5254,7 +5248,6 @@ start
 .
 source_location
 (
-)
 )
 )
 )
