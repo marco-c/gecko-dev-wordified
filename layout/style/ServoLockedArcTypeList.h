@@ -266,6 +266,10 @@ PageRule
 )
 SERVO_LOCKED_ARC_TYPE
 (
+PropertyRule
+)
+SERVO_LOCKED_ARC_TYPE
+(
 ContainerRule
 )
 SERVO_LOCKED_ARC_TYPE

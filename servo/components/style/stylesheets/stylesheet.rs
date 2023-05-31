@@ -2625,6 +2625,15 @@ Page
 CssRule
 :
 :
+Property
+(
+.
+.
+)
+|
+CssRule
+:
+:
 FontFeatureValues
 (
 .

@@ -3398,6 +3398,11 @@ CSSPageRule
 webidl
 "
 "
+CSSPropertyRule
+.
+webidl
+"
+"
 CSSPseudoElement
 .
 webidl

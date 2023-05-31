@@ -524,6 +524,10 @@ BASIC_RULE_FUNCS
 (
 Page
 )
+BASIC_RULE_FUNCS
+(
+Property
+)
 GROUP_RULE_FUNCS
 (
 Supports

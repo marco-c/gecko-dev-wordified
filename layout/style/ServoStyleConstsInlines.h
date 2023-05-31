@@ -408,6 +408,13 @@ template
 struct
 StyleStrong
 <
+StyleLockedPropertyRule
+>
+;
+template
+struct
+StyleStrong
+<
 StyleLockedSupportsRule
 >
 ;
