@@ -4097,6 +4097,11 @@ newly
 created
 InvalidModificationError
 :
+bool
+pendingRidChangeFromCompatMode
+=
+false
+;
 /
 /
 encodings
@@ -4220,7 +4225,7 @@ to
 update
 mParameters
 .
-mPendingRidChangeFromCompatMode
+pendingRidChangeFromCompatMode
 =
 true
 ;
@@ -5311,6 +5316,10 @@ of
 /
 setRemoteDescription
 .
+mPendingRidChangeFromCompatMode
+=
+pendingRidChangeFromCompatMode
+;
 mPendingParameters
 =
 Some
