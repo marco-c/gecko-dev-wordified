@@ -2558,7 +2558,7 @@ format
 and
 structure
 See
-makeBreakpointLocation
+createLocation
 location
 /
 /
@@ -2580,7 +2580,7 @@ format
 and
 structure
 See
-makeBreakpointLocation
+createLocation
 generatedLocation
 /
 /

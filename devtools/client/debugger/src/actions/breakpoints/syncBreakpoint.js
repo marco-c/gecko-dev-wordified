@@ -73,7 +73,7 @@ import
 {
 assertPendingBreakpoint
 findPosition
-makeBreakpointLocation
+makeBreakpointServerLocation
 }
 from
 "
@@ -575,9 +575,9 @@ been
 removed
 .
 const
-breakpointLocation
+breakpointServerLocation
 =
-makeBreakpointLocation
+makeBreakpointServerLocation
 (
 getState
 (
@@ -607,7 +607,7 @@ client
 .
 hasBreakpoint
 (
-breakpointLocation
+breakpointServerLocation
 )
 )
 )

@@ -71,7 +71,7 @@ create
 ;
 import
 {
-makePendingLocationId
+makeBreakpointServerLocationId
 }
 from
 "
@@ -1292,7 +1292,7 @@ return
 !
 breakpoints
 [
-makePendingLocationId
+makeBreakpointServerLocationId
 (
 location
 )
@@ -1326,7 +1326,7 @@ breakpoint
 =
 breakpoints
 [
-makePendingLocationId
+makeBreakpointServerLocationId
 (
 location
 )
@@ -1361,7 +1361,7 @@ null
 }
 breakpoints
 [
-makePendingLocationId
+makeBreakpointServerLocationId
 (
 location
 )
@@ -1596,7 +1596,7 @@ location
 delete
 breakpoints
 [
-makePendingLocationId
+makeBreakpointServerLocationId
 (
 location
 )
