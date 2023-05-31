@@ -41090,7 +41090,7 @@ button
 "
 :
 "
-key_fullScreen
+key_enterFullScreen
 "
 "
 appMenu
@@ -41101,7 +41101,7 @@ button2
 "
 :
 "
-key_fullScreen
+key_enterFullScreen
 "
 "
 new
