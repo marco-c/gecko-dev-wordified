@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 STORAGE_MAX_EVENTS
 =
@@ -353,6 +348,7 @@ innerWindowID
 ;
 *
 /
+export
 function
 ConsoleAPIStorageService
 (
@@ -1335,13 +1331,4 @@ reset
 }
 }
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ConsoleAPIStorageService
-"
-]
 ;

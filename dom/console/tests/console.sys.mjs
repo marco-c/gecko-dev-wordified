@@ -30,15 +30,7 @@ zero
 /
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ConsoleTest
-"
-]
-;
+export
 var
 ConsoleTest
 =

@@ -1105,7 +1105,9 @@ modules
 /
 ConsoleAPIStorage
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
