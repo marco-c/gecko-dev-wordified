@@ -107,6 +107,7 @@ SafeBrowsing
 protocol
 parameters
 .
+export
 const
 SBRS_UPDATE_MINIMUM_DELAY
 =
@@ -121,6 +122,7 @@ polling
 again
 in
 seconds
+export
 function
 UrlClassifierRemoteSettingsService
 (
@@ -859,16 +861,4 @@ _entries
 ;
 }
 }
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-UrlClassifierRemoteSettingsService
-"
-"
-SBRS_UPDATE_MINIMUM_DELAY
-"
-]
 ;

@@ -1,17 +1,3 @@
-"
-use
-strict
-"
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-UrlClassifierTestUtils
-"
-]
-;
 const
 ANNOTATION_TABLE_NAME
 =
@@ -189,6 +175,7 @@ Ci
 nsITimer
 )
 ;
+export
 var
 UrlClassifierTestUtils
 =

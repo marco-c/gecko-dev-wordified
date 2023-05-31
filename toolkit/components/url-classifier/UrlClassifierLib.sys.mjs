@@ -280,6 +280,7 @@ function
 .
 *
 /
+export
 function
 BindToObject
 (
@@ -1503,6 +1504,7 @@ name
 )
 ;
 }
+export
 function
 UrlClassifierLib
 (
@@ -1532,16 +1534,4 @@ generateQI
 [
 ]
 )
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-UrlClassifierLib
-"
-"
-BindToObject
-"
-]
 ;

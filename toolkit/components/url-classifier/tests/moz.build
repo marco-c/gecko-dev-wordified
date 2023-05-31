@@ -140,7 +140,9 @@ TESTING_JS_MODULES
 "
 UrlClassifierTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 if

@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SafeBrowsing
-"
-]
-;
 const
 PREF_DEBUG_ENABLED
 =
@@ -1486,6 +1477,7 @@ enabled
 }
 ]
 ;
+export
 var
 SafeBrowsing
 =

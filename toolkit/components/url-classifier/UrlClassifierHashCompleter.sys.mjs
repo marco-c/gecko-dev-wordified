@@ -127,15 +127,11 @@ safebrowsing
 debug
 "
 ;
-const
+import
 {
 XPCOMUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -151,7 +147,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 {
@@ -852,6 +847,7 @@ cacheDuration
 null
 }
 ;
+export
 function
 HashCompleter
 (
@@ -5797,12 +5793,3 @@ return
 err
 ;
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-HashCompleter
-"
-]
-;

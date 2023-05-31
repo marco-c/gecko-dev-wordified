@@ -107,7 +107,7 @@ SBRS_UPDATE_MINIMUM_DELAY
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -120,7 +120,9 @@ modules
 /
 UrlClassifierRemoteSettingsService
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

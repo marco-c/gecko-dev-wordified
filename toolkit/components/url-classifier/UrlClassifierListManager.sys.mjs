@@ -56,15 +56,11 @@ MPL
 .
 *
 /
-const
+import
 {
 XPCOMUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -80,7 +76,6 @@ sys
 .
 mjs
 "
-)
 ;
 /
 /
@@ -5515,6 +5510,7 @@ initialized
 true
 ;
 }
+export
 function
 RegistrationData
 (
@@ -5548,13 +5544,4 @@ enableTestNotifications
 PREF_TEST_NOTIFICATIONS
 false
 )
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-RegistrationData
-"
-]
 ;

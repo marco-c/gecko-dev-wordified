@@ -250,7 +250,7 @@ UrlClassifierTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -263,7 +263,9 @@ common
 /
 UrlClassifierTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
