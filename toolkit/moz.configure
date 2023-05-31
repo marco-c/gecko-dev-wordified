@@ -4102,12 +4102,6 @@ xkbcommon
 4
 .
 1
-libdrm
->
-=
-2
-.
-4
 "
 allow_missing
 =
@@ -21675,12 +21669,6 @@ unix
 2
 .
 0
-libdrm
->
-=
-2
-.
-4
 "
 )
 set_define
