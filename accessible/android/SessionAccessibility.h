@@ -325,6 +325,11 @@ Base
 :
 DisposeNative
 ;
+bool
+IsCacheEnabled
+(
+)
+;
 void
 GetNodeInfo
 (
