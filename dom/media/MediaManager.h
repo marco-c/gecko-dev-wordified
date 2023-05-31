@@ -2259,6 +2259,8 @@ mMicrophonesMuted
 =
 false
 ;
+public
+:
 /
 /
 Always
@@ -2270,6 +2272,8 @@ TaskQueue
 >
 mMediaThread
 ;
+private
+:
 nsCOMPtr
 <
 nsIAsyncShutdownBlocker
