@@ -1947,6 +1947,16 @@ when
 parsing
 values
 .
+#
+[
+derive
+(
+Clone
+Copy
+Eq
+PartialEq
+)
+]
 pub
 struct
 ParsingMode

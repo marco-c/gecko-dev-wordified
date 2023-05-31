@@ -8467,6 +8467,14 @@ flags
 for
 properties
 .
+#
+[
+derive
+(
+Clone
+Copy
+)
+]
 pub
 struct
 PropertyFlags
@@ -10125,7 +10133,7 @@ endfor
 PropertyFlags
 :
 :
-from_bits_truncate
+from_bits_retain
 (
 FLAGS
 [
@@ -11371,7 +11379,7 @@ endfor
 PropertyFlags
 :
 :
-from_bits_truncate
+from_bits_retain
 (
 FLAGS
 [

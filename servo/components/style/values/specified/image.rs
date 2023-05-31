@@ -1250,6 +1250,14 @@ MozImageRect
 bitflags
 !
 {
+#
+[
+derive
+(
+Clone
+Copy
+)
+]
 struct
 ParseImageFlags
 :

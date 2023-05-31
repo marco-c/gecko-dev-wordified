@@ -1340,8 +1340,11 @@ colors
 [
 derive
 (
+Clone
+Copy
 Default
 MallocSizeOf
+PartialEq
 ToShmem
 )
 ]
