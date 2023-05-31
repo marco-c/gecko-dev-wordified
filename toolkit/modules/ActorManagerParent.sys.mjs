@@ -1694,7 +1694,7 @@ ManifestMessages
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1707,7 +1707,9 @@ modules
 /
 ManifestMessagesChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 }

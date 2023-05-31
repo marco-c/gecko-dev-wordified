@@ -81,6 +81,7 @@ MPL
 .
 *
 /
+export
 function
 match
 (
@@ -201,6 +202,7 @@ return
 docFrag
 ;
 }
+export
 function
 replace
 (
@@ -230,6 +232,7 @@ replace
 )
 ;
 }
+export
 function
 test
 (
@@ -257,18 +260,3 @@ str
 )
 ;
 }
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-match
-"
-"
-replace
-"
-"
-test
-"
-]
-;
