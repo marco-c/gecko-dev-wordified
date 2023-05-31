@@ -524,6 +524,37 @@ kwargs
 debug_test
 "
 ]
+            
+"
+env_extras
+"
+:
+dict
+(
+[
+x
+.
+split
+(
+'
+=
+'
+)
+for
+x
+in
+kwargs
+.
+get
+(
+"
+env
+"
+[
+]
+)
+]
+)
 }
 def
 executor_kwargs
@@ -695,6 +726,9 @@ def
 get_environ
 (
 chaos_mode_flags
+env_extras
+=
+None
 )
 :
     
@@ -702,6 +736,20 @@ env
 =
 {
 }
+    
+if
+env_extras
+is
+not
+None
+:
+        
+env
+.
+update
+(
+env_extras
+)
     
 env
 [
@@ -1347,6 +1395,17 @@ None
         
 self
 .
+env_extras
+=
+kwargs
+[
+"
+env_extras
+"
+]
+        
+self
+.
 _settings
 =
 {
@@ -1699,6 +1758,9 @@ get_environ
 self
 .
 chaos_mode_flags
+self
+.
+env_extras
 )
         
 self
