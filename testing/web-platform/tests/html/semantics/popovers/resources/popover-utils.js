@@ -143,7 +143,7 @@ send_keys
 (
 document
 .
-body
+documentElement
 kTab
 )
 ;
@@ -256,7 +256,6 @@ async
 function
 sendEscape
 (
-element
 )
 {
 await
@@ -270,13 +269,9 @@ test_driver
 .
 send_keys
 (
-element
-?
-element
-:
 document
 .
-body
+documentElement
 '
 \
 uE00C
@@ -311,7 +306,7 @@ send_keys
 (
 document
 .
-body
+documentElement
 '
 \
 uE007
