@@ -231,7 +231,7 @@ unordered_map
 >
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 include
 "
@@ -1178,7 +1178,7 @@ aKey
 ;
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 font
 .
 mUnscaledFont
@@ -1640,7 +1640,7 @@ type
 =
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 FontType
 :
 :
