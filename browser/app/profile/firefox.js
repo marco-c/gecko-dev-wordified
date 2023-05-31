@@ -19248,6 +19248,9 @@ US
 CA
 DE
 GB
+FR
+IT
+ES
 "
 )
 ;
