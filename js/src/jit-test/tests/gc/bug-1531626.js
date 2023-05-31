@@ -219,11 +219,9 @@ badSizesKB
 [
 0
 1
-128
+129
 *
 1024
-+
-1
 ]
 ;
 function
