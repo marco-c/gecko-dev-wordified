@@ -796,13 +796,6 @@ kEVENT_WIN_UNKNOWN
 nsIAccessibleEvent
 :
 :
-EVENT_TABLE_STYLING_CHANGED
-kEVENT_WIN_UNKNOWN
-/
-/
-nsIAccessibleEvent
-:
-:
 EVENT_INNER_REORDER
 /
 /

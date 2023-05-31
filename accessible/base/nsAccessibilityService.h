@@ -3196,14 +3196,6 @@ removed
 /
 EVENT_LIVE_REGION_REMOVED
 "
-table
-styling
-changed
-"
-/
-/
-EVENT_TABLE_STYLING_CHANGED
-"
 inner
 reorder
 "
