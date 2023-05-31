@@ -3353,6 +3353,13 @@ ByteBuf
 buf
 )
 {
+JOG
+:
+:
+EnsureRuntimeMetricsRegistered
+(
+)
+;
 fog_ipc
 :
 :
