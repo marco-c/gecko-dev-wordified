@@ -806,7 +806,12 @@ checks
 void
 SetDuration
 (
-double
+const
+media
+:
+:
+TimeUnit
+&
 aDuration
 )
 ;
