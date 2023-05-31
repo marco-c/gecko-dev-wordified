@@ -2555,15 +2555,6 @@ horizontal
 '
 ]
 '
-zoom
-'
-:
-[
-'
-number
-'
-]
-'
 display
 '
 :
