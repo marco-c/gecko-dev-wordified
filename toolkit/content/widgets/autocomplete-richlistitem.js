@@ -92,9 +92,11 @@ MozAutocompleteRichlistitem
 class
 MozAutocompleteRichlistitem
 extends
+(
 MozElements
 .
 MozRichlistitem
+)
 {
 constructor
 (

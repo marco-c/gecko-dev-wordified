@@ -38336,9 +38336,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -39007,9 +39005,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -39448,9 +39444,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -39685,9 +39679,7 @@ quirks_values
 2px
 5px
 "
-"
 7
-"
 :
 "
 7px
@@ -40291,9 +40283,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -40467,9 +40457,7 @@ calc
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -40600,9 +40588,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -45421,9 +45407,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -47633,9 +47617,7 @@ none
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -47821,9 +47803,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -47934,9 +47914,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -49839,9 +49817,7 @@ calc
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -49988,9 +49964,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -50239,9 +50213,7 @@ px
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -50375,9 +50347,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -50511,9 +50481,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -50722,9 +50690,7 @@ auto
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -50964,9 +50930,7 @@ auto
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -51183,9 +51147,7 @@ none
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -51433,9 +51395,7 @@ none
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -53161,9 +53121,7 @@ calc
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -53545,9 +53503,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -53696,9 +53652,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -53847,9 +53801,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -53998,9 +53950,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -54791,9 +54741,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -58902,9 +58850,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -59635,9 +59581,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -61004,9 +60948,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -62132,9 +62074,7 @@ calc
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px
@@ -62450,9 +62390,7 @@ invalid_values
 quirks_values
 :
 {
-"
 5
-"
 :
 "
 5px

@@ -367,9 +367,7 @@ path
 icons
 :
 {
-"
 16
-"
 :
 path
 }
@@ -459,9 +457,7 @@ path
 icons
 :
 {
-"
 16
-"
 :
 path
 }

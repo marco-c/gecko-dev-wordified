@@ -557,9 +557,7 @@ manifest
 icons
 :
 {
-"
 16
-"
 :
 "
 foo
@@ -867,9 +865,7 @@ com
 icons
 :
 {
-"
 16
-"
 :
 "
 foo

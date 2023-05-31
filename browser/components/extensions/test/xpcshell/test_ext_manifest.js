@@ -301,9 +301,7 @@ action
 default_icon
 :
 {
-"
 16
-"
 :
 path
 }
@@ -448,9 +446,7 @@ action
 default_icon
 :
 {
-"
 16
-"
 :
 path
 }

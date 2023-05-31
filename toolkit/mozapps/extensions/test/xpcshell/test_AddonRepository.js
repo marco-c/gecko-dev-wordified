@@ -472,9 +472,7 @@ png
 icons
 :
 {
-"
 32
-"
 :
 BASE_URL
 +

@@ -11889,9 +11889,7 @@ string
 imageData
 =
 {
-"
 19
-"
 :
 imageData
 }
@@ -11957,9 +11955,7 @@ object
 path
 =
 {
-"
 19
-"
 :
 path
 }

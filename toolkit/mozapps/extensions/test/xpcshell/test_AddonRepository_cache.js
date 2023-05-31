@@ -769,9 +769,7 @@ extra
 icons
 :
 {
-"
 32
-"
 :
 BASE_URL
 +
@@ -966,9 +964,7 @@ Description
 icons
 :
 {
-"
 32
-"
 :
 BASE_URL
 +
@@ -1168,9 +1164,7 @@ version
 icons
 :
 {
-"
 32
-"
 :
 BASE_URL
 +
@@ -1374,9 +1368,7 @@ icons
 {
 return
 {
-"
 32
-"
 :
 get_subfile_uri
 (
@@ -1521,9 +1513,7 @@ icons
 {
 return
 {
-"
 32
-"
 :
 get_subfile_uri
 (
@@ -1716,9 +1706,7 @@ icons
 {
 return
 {
-"
 32
-"
 :
 get_subfile_uri
 (
@@ -1934,9 +1922,7 @@ Description
 icons
 :
 {
-"
 32
-"
 :
 BASE_URL
 +
@@ -2159,9 +2145,7 @@ icons
 {
 return
 {
-"
 32
-"
 :
 get_subfile_uri
 (
@@ -2416,9 +2400,7 @@ icons
 {
 return
 {
-"
 32
-"
 :
 get_subfile_uri
 (
@@ -2621,9 +2603,7 @@ icons
 {
 return
 {
-"
 32
-"
 :
 get_subfile_uri
 (

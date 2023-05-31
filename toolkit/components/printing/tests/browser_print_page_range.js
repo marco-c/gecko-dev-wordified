@@ -1358,9 +1358,7 @@ let
 validStrings
 =
 {
-"
 1
-"
 :
 [
 1
@@ -1374,9 +1372,7 @@ validStrings
 1
 1
 ]
-"
 2
-"
 :
 [
 2

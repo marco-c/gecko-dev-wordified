@@ -9366,9 +9366,7 @@ aOptions
 icons
 =
 {
-"
 32
-"
 :
 aOptions
 .

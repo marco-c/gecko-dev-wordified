@@ -314,11 +314,9 @@ type
 ]
 :
 {
-"
 20
 .
 5
-"
 :
 img
 }
@@ -373,9 +371,7 @@ type
 abc
 :
 img
-"
 5
-"
 :
 img
 }
@@ -396,9 +392,7 @@ imageData
 path
 :
 {
-"
 5
-"
 :
 "
 test
@@ -426,9 +420,7 @@ png
 imageData
 :
 {
-"
 5
-"
 :
 imageData
 }
@@ -566,9 +558,7 @@ bar
 png
 "
 {
-"
 38
-"
 :
 "
 foo
@@ -579,9 +569,7 @@ png
 "
 }
 {
-"
 70
-"
 :
 "
 foo
@@ -607,9 +595,7 @@ icons
 push
 (
 {
-"
 38
-"
 :
 "
 baz
@@ -618,9 +604,7 @@ quux
 .
 png
 "
-"
 70
-"
 :
 "
 foo
@@ -640,9 +624,7 @@ icons
 push
 (
 {
-"
 38
-"
 :
 "
 foo
@@ -651,9 +633,7 @@ bar
 .
 png
 "
-"
 70
-"
 :
 "
 baz

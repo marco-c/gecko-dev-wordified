@@ -418,9 +418,7 @@ html
 icons
 :
 {
-"
 16
-"
 :
 "
 icons
@@ -431,9 +429,7 @@ icon
 .
 png
 "
-"
 48
-"
 :
 "
 icons

@@ -139,9 +139,7 @@ manifest
 icons
 =
 {
-"
 64
-"
 :
 details
 .

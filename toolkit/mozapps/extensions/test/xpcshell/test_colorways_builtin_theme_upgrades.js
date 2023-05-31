@@ -431,9 +431,7 @@ version
 icons
 :
 {
-"
 32
-"
 :
 "
 icon

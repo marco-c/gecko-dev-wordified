@@ -4953,9 +4953,7 @@ fakeResponse
 list
 :
 {
-"
 123
-"
 :
 {
 time_added
@@ -5033,9 +5031,7 @@ status
 0
 "
 }
-"
 456
-"
 :
 {
 item_id
@@ -5432,9 +5428,7 @@ fakeResponse
 list
 :
 {
-"
 123
-"
 :
 {
 time_added
@@ -5512,9 +5506,7 @@ status
 0
 "
 }
-"
 456
-"
 :
 {
 item_id

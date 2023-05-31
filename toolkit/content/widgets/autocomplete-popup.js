@@ -102,7 +102,9 @@ MozAutocompleteRichlistboxPopup
 class
 MozAutocompleteRichlistboxPopup
 extends
+(
 MozPopupElement
+)
 {
 constructor
 (
