@@ -19129,14 +19129,9 @@ IsPopoverOpen
 target
 -
 >
-GetPopoverData
+SetHasPopoverInvoker
 (
-)
--
->
-SetInvoker
-(
-this
+true
 )
 ;
 target
