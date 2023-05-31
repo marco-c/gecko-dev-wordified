@@ -9193,9 +9193,6 @@ SetIsInlinableLargeFunction
 ArrayAt
 )
 ;
-#
-ifdef
-ENABLE_CHANGE_ARRAY_BY_COPY
 /
 /
 https
@@ -9830,8 +9827,6 @@ return
 sorted
 ;
 }
-#
-endif
 /
 /
 https
