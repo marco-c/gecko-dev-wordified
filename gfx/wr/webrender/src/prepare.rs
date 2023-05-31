@@ -389,7 +389,6 @@ util
 {
 clamp_to_scale_factor
 pack_as_float
-MaxRect
 }
 ;
 use
@@ -710,11 +709,11 @@ SpatialNodeIndex
 raster_spatial_node_index
 :
 SpatialNodeIndex
-_clip_store
+clip_store
 :
 &
 ClipStore
-_data_stores
+data_stores
 :
 &
 DataStores
@@ -761,10 +760,6 @@ return
 false
 ;
 }
-!
-clip_chain
-.
-needs_mask
 /
 /
 TODO
@@ -795,8 +790,6 @@ shader
 optimization
 regression
 .
-/
-*
 if
 !
 clip_chain
@@ -1012,8 +1005,6 @@ quads
 }
 }
 true
-*
-/
 }
 #
 [
@@ -11338,12 +11329,7 @@ frame_state
 .
 frame_gpu_data
 rect
-LayoutRect
-:
-:
-max_rect
-(
-)
+rect
 color
 segments
 )
