@@ -22355,11 +22355,6 @@ bug
 set
 to
 false
-(
-after
-bug
-1830710
-)
 .
 /
 /
@@ -22386,16 +22381,6 @@ true
 /
 TODO
 bug
-1830710
-:
-set
-to
-false
-.
-/
-/
-TODO
-bug
 1830712
 :
 remove
@@ -22410,7 +22395,7 @@ browser_style_mv3
 .
 same_as_mv2
 "
-true
+false
 )
 ;
 /
