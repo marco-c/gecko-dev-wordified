@@ -254,6 +254,14 @@ Constructor
 GlobalObject
 &
 aGlobal
+const
+nsACString
+&
+aName
+const
+nsACString
+&
+aAnonymizedName
 JS
 :
 :
@@ -418,6 +426,12 @@ aHolder
 )
 ;
 }
+;
+nsCString
+mName
+;
+nsCString
+mAnonymizedName
 ;
 Maybe
 <
