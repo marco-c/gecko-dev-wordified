@@ -545,6 +545,10 @@ None
 inject_script
 =
 None
+                 
+suppress_handler_traceback
+=
+None
 )
 :
         
@@ -711,6 +715,12 @@ self
 inject_script
 =
 inject_script
+        
+self
+.
+suppress_handler_traceback
+=
+suppress_handler_traceback
     
 def
 __enter__
@@ -1370,6 +1380,28 @@ inject_script
 self
 .
 inject_script
+        
+if
+self
+.
+suppress_handler_traceback
+is
+not
+None
+:
+            
+config
+.
+logging
+[
+"
+suppress_handler_traceback
+"
+]
+=
+self
+.
+suppress_handler_traceback
         
 return
 config

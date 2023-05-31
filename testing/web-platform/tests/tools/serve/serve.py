@@ -5403,7 +5403,12 @@ get_logger
 (
 config
 .
-log_level
+logging
+[
+"
+level
+"
+]
 log_handlers
 )
         
@@ -7983,14 +7988,6 @@ check_subdomains
 True
         
 "
-log_level
-"
-:
-"
-info
-"
-        
-"
 bind_address
 "
 :
@@ -8149,6 +8146,28 @@ aliases
 :
 [
 ]
+        
+"
+logging
+"
+:
+{
+            
+"
+level
+"
+:
+"
+info
+"
+            
+"
+suppress_handler_traceback
+"
+:
+False
+        
+}
     
 }
     
@@ -8591,10 +8610,15 @@ verbose
         
 rv
 .
-log_level
+logging
+[
+"
+level
+"
+]
 =
 "
-debug
+DEBUG
 "
     
 setattr
@@ -9473,7 +9497,12 @@ get_logger
 (
 config
 .
-log_level
+logging
+[
+"
+level
+"
+]
 log_handlers
 )
         
