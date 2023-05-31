@@ -273,6 +273,20 @@ quit
 (
 )
         
+binary
+=
+full_configuration
+[
+"
+browser
+"
+]
+[
+"
+binary
+"
+]
+        
 firefox_options
 =
 full_configuration
@@ -293,6 +307,8 @@ current_browser
 =
 Browser
 (
+            
+binary
             
 firefox_options
             
@@ -514,6 +530,8 @@ __init__
         
 self
         
+binary
+        
 firefox_options
         
 use_bidi
@@ -720,20 +738,6 @@ self
 .
 webdriver_bidi_file
 )
-        
-#
-Prepare
-Firefox
-runner
-        
-binary
-=
-firefox_options
-[
-"
-binary
-"
-]
         
 cmdargs
 =
@@ -1314,9 +1318,15 @@ Running
 command
 :
 {
+'
+'
+.
+join
+(
 self
 .
 command
+)
 }
 "
 )
