@@ -40,7 +40,7 @@ BasePromiseWorker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ modules
 /
 PromiseWorker
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
