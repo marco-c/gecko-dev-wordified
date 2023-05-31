@@ -4621,7 +4621,7 @@ shell
 :
 enableArrayFromAsync
 =
-false
+true
 ;
 #
 ifdef
