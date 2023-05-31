@@ -287,9 +287,17 @@ js
 class
 PropertyResult
 ;
+namespace
+gc
+{
 class
 TenuringTracer
 ;
+}
+/
+/
+namespace
+gc
 #
 ifdef
 ENABLE_RECORD_TUPLE
@@ -2159,6 +2167,9 @@ NativeObject
 ;
 friend
 class
+gc
+:
+:
 TenuringTracer
 ;
 #
@@ -5374,6 +5385,9 @@ span
 ;
 friend
 class
+gc
+:
+:
 TenuringTracer
 ;
 /
