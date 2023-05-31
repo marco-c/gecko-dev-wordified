@@ -185,6 +185,13 @@ ExtensionParent
 jsm
 "
 "
+ExtensionPermissionMessages
+.
+sys
+.
+mjs
+"
+"
 ExtensionPermissions
 .
 jsm
