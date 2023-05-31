@@ -1586,7 +1586,6 @@ char
 const
 aErrorMsg
 )
-const
 ;
 virtual
 void
@@ -1597,7 +1596,6 @@ char
 *
 aErrorMsg
 )
-const
 ;
 protected
 :
@@ -2823,6 +2821,11 @@ NotifyImpendingShutdown
 ;
 void
 Close
+(
+)
+;
+void
+CloseWithError
 (
 )
 ;

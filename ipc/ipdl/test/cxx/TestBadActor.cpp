@@ -158,7 +158,6 @@ char
 *
 aErrorMsg
 )
-const
 {
 if
 (
