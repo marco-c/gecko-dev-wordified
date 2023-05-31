@@ -1296,9 +1296,13 @@ policyCheckValue
 )
 ;
 }
-sprintf
+snprintf
 (
 moduleSpec
+sizeof
+(
+moduleSpec
+)
 "
 name
 =

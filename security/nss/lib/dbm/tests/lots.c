@@ -690,9 +690,13 @@ data
 =
 data_string
 ;
-sprintf
+snprintf
 (
 data_string
+sizeof
+(
+data_string
+)
 "
 %
 ld

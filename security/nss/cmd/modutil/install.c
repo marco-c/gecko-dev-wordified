@@ -5013,9 +5013,13 @@ PR_SKIP_BOTH
 NULL
 )
 {
-sprintf
+snprintf
 (
 filename
+sizeof
+(
+filename
+)
 "
 %
 s

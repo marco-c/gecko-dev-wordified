@@ -4483,9 +4483,13 @@ fileName
 20
 ]
 ;
-sprintf
+snprintf
 (
 fileName
+sizeof
+(
+fileName
+)
 "
 file
 %

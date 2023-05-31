@@ -4324,9 +4324,10 @@ dst
 2
 )
 {
-sprintf
+snprintf
 (
 dst
+3
 "
 %
 02x
@@ -4338,14 +4339,6 @@ src
 )
 ;
 }
-*
-dst
-=
-'
-\
-0
-'
-;
 }
 }
 static

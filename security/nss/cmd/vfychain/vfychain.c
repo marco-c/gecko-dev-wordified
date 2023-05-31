@@ -5080,9 +5080,13 @@ count
 +
 )
 {
-sprintf
+snprintf
 (
 buff
+sizeof
+(
+buff
+)
 "
 Certificate
 %

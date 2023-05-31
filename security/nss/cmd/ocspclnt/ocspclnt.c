@@ -3562,9 +3562,13 @@ i
 NULL
 )
 {
-sprintf
+snprintf
 (
 cert_label
+sizeof
+(
+cert_label
+)
 "
 Certificate
 (

@@ -3611,7 +3611,7 @@ salt
 #
 define
 KDF2_CACHE_COUNT
-3
+150
 static
 struct
 {

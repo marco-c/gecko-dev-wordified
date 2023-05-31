@@ -23,6 +23,7 @@ ecckiila
 MIT
 License
 *
+-
 *
 Copyright
 (
@@ -45,6 +46,7 @@ Billy
 Bob
 Brumley
 *
+-
 *
 Permission
 is
@@ -125,6 +127,7 @@ following
 conditions
 :
 *
+-
 *
 The
 above
@@ -149,6 +152,7 @@ the
 Software
 .
 *
+-
 *
 THE
 SOFTWARE

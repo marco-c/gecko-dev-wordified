@@ -1010,11 +1010,6 @@ SSL_LIBRARY_VERSION_TLS_1_3
 SSL_LIBRARY_VERSION_TLS_1_3
 )
 ;
-ExpectAlert
-(
-kTlsAlertDecodeError
-)
-;
 ProcessMessage
 (
 record
@@ -1122,7 +1117,7 @@ TlsAgent
 :
 :
 STATE_ERROR
-SSL_ERROR_BAD_SERVER
+SSL_ERROR_RX_MALFORMED_DTLS_ACK
 )
 ;
 }

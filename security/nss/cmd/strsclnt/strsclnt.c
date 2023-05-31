@@ -199,15 +199,6 @@ h
 "
 #
 ifndef
-PORT_Sprintf
-#
-define
-PORT_Sprintf
-sprintf
-#
-endif
-#
-ifndef
 PORT_Strstr
 #
 define

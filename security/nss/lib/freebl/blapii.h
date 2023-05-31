@@ -212,6 +212,8 @@ BL_FIPSEntryOK
 (
 PRBool
 freeblOnly
+PRBool
+rerun
 )
 ;
 PRBool
