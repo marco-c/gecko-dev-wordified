@@ -71,7 +71,7 @@ top
 -
 right
 and
-bottomInit
+bottom
 -
 left
 corners
@@ -141,7 +141,7 @@ top
 -
 right
 and
-bottomInit
+bottom
 -
 left
 corners

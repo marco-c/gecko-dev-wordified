@@ -63,7 +63,7 @@ radius
 specified
 as
 a
-DOMPoint
+DOMPointInit
 applies
 to
 the
@@ -71,7 +71,7 @@ top
 -
 left
 and
-bottomInit
+bottom
 -
 right
 corners
@@ -133,7 +133,7 @@ radius
 specified
 as
 a
-DOMPoint
+DOMPointInit
 applies
 to
 the
@@ -141,7 +141,7 @@ top
 -
 left
 and
-bottomInit
+bottom
 -
 right
 corners
