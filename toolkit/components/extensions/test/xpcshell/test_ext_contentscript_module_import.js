@@ -785,11 +785,9 @@ contentPage
 .
 spawn
 (
-[
 extension
 .
 uuid
-]
 async
 uuid
 =
@@ -1117,11 +1115,9 @@ contentPage
 .
 spawn
 (
-[
 extension
 .
 uuid
-]
 async
 uuid
 =
@@ -1662,11 +1658,9 @@ contentPage
 .
 spawn
 (
-[
 extension
 .
 uuid
-]
 async
 uuid
 =

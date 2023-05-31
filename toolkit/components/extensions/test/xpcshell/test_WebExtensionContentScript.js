@@ -1275,13 +1275,11 @@ contentPage
 .
 spawn
 (
-[
 {
 tests
 urls
 meta
 }
-]
 args
 =
 >

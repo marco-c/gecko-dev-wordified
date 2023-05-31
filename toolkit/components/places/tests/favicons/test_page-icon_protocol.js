@@ -1170,9 +1170,7 @@ contentPage
 .
 spawn
 (
-[
 PAGE_ICON_TEST_URLS
-]
 async
 URLS
 =
@@ -1426,9 +1424,7 @@ contentPage
 .
 spawn
 (
-[
 PAGE_ICON_TEST_URLS
-]
 async
 URLS
 =

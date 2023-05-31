@@ -686,8 +686,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 (
 )
 =
@@ -1081,8 +1080,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 (
 )
 =
