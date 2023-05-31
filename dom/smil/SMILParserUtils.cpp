@@ -1095,8 +1095,6 @@ hours
 =
 0
 timecount
-=
-0
 ;
 double
 fraction
@@ -1260,15 +1258,6 @@ TIMECOUNT_VALUE
 :
 if
 (
-*
-iter
-!
-=
-'
-.
-'
-&
-&
 !
 SVGContentUtils
 :
