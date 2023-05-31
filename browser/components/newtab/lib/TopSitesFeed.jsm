@@ -5042,6 +5042,9 @@ raw_image_src
 96
 96
 )
+faviconSize
+:
+96
 type
 :
 "
