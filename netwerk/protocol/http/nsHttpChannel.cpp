@@ -66910,6 +66910,10 @@ initial
 request
 "
 _ns
+OpaqueResponseBlockedTelemetryReason
+:
+:
+MEDIA_NOT_INITIAL
 )
 ;
 return
@@ -66962,6 +66966,10 @@ nor
 206
 "
 _ns
+OpaqueResponseBlockedTelemetryReason
+:
+:
+MEDIA_INCORRECT_RESP
 )
 ;
 return
