@@ -1022,5 +1022,6 @@ exports
 getBrowsersList
 getTargetBrowsers
 setTargetBrowsers
+TARGET_BROWSER_PREF
 }
 ;

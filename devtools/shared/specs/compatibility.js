@@ -264,12 +264,14 @@ getCSSDeclarationBlockIssues
 request
 :
 {
-declarationBlock
+domRulesDeclarations
 :
 Arg
 (
 0
 "
+array
+:
 array
 :
 declaration
@@ -295,6 +297,8 @@ compatibilityIssues
 RetVal
 (
 "
+array
+:
 array
 :
 compatibilityissues
