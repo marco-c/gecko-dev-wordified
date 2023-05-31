@@ -2049,7 +2049,6 @@ applied
 .
 *
 /
-virtual
 nsStaticAtom
 *
 LandmarkRole
@@ -3298,7 +3297,6 @@ mType
 eHTMLDateTimeFieldType
 ;
 }
-virtual
 bool
 IsSearchbox
 (

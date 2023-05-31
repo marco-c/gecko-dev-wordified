@@ -986,7 +986,6 @@ offset
 .
 *
 /
-virtual
 int32_t
 LinkIndexAtOffset
 (
