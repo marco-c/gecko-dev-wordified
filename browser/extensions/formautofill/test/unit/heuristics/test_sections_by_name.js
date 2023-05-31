@@ -30,7 +30,7 @@ zero
 /
 *
 global
-add_heuristic_tests
+runHeuristicsTest
 *
 /
 "
@@ -100,7 +100,7 @@ Two
 sections
 without
 name
-add_heuristic_tests
+runHeuristicsTest
 (
 [
 {
