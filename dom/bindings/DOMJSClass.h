@@ -797,10 +797,10 @@ set
 in
 /
 /
-aNonExposedGlobals
+aGlobalSet
 .
 bool
-IsNonExposedGlobal
+IsGlobalInExposureSet
 (
 JSContext
 *
@@ -809,7 +809,7 @@ JSObject
 *
 aGlobal
 uint32_t
-aNonExposedGlobals
+aGlobalSet
 )
 ;
 struct
@@ -1013,7 +1013,7 @@ if
 nonExposedGlobals
 &
 &
-IsNonExposedGlobal
+IsGlobalInExposureSet
 (
 cx
 JS
