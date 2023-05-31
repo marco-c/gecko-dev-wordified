@@ -266,9 +266,6 @@ AnimationIterationCount
 Infinite
 =
 >
-std
-:
-:
 f32
 :
 :

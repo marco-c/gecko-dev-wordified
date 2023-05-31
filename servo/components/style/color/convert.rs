@@ -426,9 +426,6 @@ delta
 }
 else
 {
-std
-:
-:
 f32
 :
 :
