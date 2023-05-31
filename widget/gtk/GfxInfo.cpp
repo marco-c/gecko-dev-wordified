@@ -7094,6 +7094,8 @@ Release
 /
 late
 Beta
+on
+AMD
 #
 if
 !
@@ -7110,7 +7112,7 @@ Linux
 DeviceFamily
 :
 :
-All
+AtiAll
 nsIGfxInfo
 :
 :
