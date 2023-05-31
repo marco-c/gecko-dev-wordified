@@ -166,14 +166,6 @@ location
 )
 {
 const
-{
-sourceId
-line
-}
-=
-location
-;
-const
 positions
 =
 await
@@ -183,8 +175,7 @@ setBreakpointPositions
 (
 {
 cx
-sourceId
-line
+location
 }
 )
 )
