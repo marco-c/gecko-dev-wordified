@@ -56,17 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-]
-;
 const
 DEBUG
 =

@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 DEBUG
 =
@@ -155,6 +150,7 @@ kMessageNotificationSaveKo
 kMessageNotificationDeleteKo
 ]
 ;
+export
 function
 NotificationStorage
 (
@@ -1024,13 +1020,4 @@ nsINotificationStorage
 ]
 )
 }
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-NotificationStorage
-"
-]
 ;
