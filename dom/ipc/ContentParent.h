@@ -1734,6 +1734,7 @@ ContentParentIterator
 &
 aOther
 )
+const
 {
 MOZ_ASSERT
 (
