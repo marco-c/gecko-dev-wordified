@@ -117,7 +117,7 @@ CustomizableUITestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -130,7 +130,9 @@ common
 /
 CustomizableUITestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

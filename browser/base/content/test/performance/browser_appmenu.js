@@ -16,7 +16,7 @@ CustomizableUITestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -29,7 +29,9 @@ common
 /
 CustomizableUITestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -155,7 +157,9 @@ modules
 /
 PanelMultiView
 .
-jsm
+sys
+.
+mjs
 "
 ]
 }
@@ -174,7 +178,9 @@ modules
 /
 PanelMultiView
 .
-jsm
+sys
+.
+mjs
 "
 "
 handleEvent
@@ -187,7 +193,9 @@ modules
 /
 PanelMultiView
 .
-jsm
+sys
+.
+mjs
 "
 ]
 maxCount

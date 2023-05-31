@@ -128,7 +128,9 @@ test
 /
 CustomizableUITestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 EXTRA_JS_MODULES
@@ -164,7 +166,9 @@ mjs
 "
 PanelMultiView
 .
-jsm
+sys
+.
+mjs
 "
 "
 SearchWidgetTracker
