@@ -2499,7 +2499,6 @@ OverflowBlock
 {
 None
 Scroll
-OptionalPaged
 Paged
 }
 /
@@ -2681,11 +2680,6 @@ OverflowBlock
 :
 :
 None
-|
-OverflowBlock
-:
-:
-OptionalPaged
 =
 >
 false
