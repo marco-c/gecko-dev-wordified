@@ -6171,7 +6171,7 @@ return
 ;
 }
 const
-UChar
+char16_t
 *
 currencyCode
 =
@@ -6428,7 +6428,7 @@ char
 <
 -
 >
-UChar
+char16_t
 conversion
 .
 .
@@ -6747,7 +6747,7 @@ char
 <
 -
 >
-UChar
+char16_t
 conversion
 .
 .
@@ -6860,7 +6860,7 @@ char
 <
 -
 >
-UChar
+char16_t
 conversion
 .
 .
@@ -9061,7 +9061,7 @@ char
 <
 -
 >
-UChar
+char16_t
 conversion
 .
 .
@@ -9202,7 +9202,7 @@ char
 <
 -
 >
-UChar
+char16_t
 conversion
 .
 .
@@ -9252,7 +9252,7 @@ char
 <
 -
 >
-UChar
+char16_t
 conversion
 .
 .

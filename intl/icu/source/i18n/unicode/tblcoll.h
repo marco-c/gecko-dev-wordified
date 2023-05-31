@@ -1015,7 +1015,7 @@ Collator
 class
 U_I18N_API
 RuleBasedCollator
-U_FINAL
+final
 :
 public
 Collator
@@ -1563,7 +1563,7 @@ collator
 must
 not
 be
-NULL
+nullptr
 .
 *
 The
@@ -4732,7 +4732,7 @@ result
 in
 .
 If
-NULL
+nullptr
 number
 of
 bytes
@@ -4890,7 +4890,7 @@ result
 in
 .
 If
-NULL
+nullptr
 number
 of
 bytes
@@ -5000,7 +5000,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -5121,7 +5121,7 @@ order
 This
 can
 be
-NULL
+nullptr
 if
 the
 *
@@ -5377,7 +5377,7 @@ string
 definition
 .
 If
-NULL
+nullptr
 the
 locale
 will
@@ -5652,7 +5652,7 @@ param
 contractions
 if
 not
-NULL
+nullptr
 the
 set
 to
@@ -5664,7 +5664,7 @@ param
 expansions
 if
 not
-NULL
+nullptr
 the
 set
 to

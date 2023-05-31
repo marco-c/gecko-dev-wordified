@@ -7870,7 +7870,7 @@ array
 .
 Arrays
 are
-NULL
+nullptr
 -
 terminated
 .
@@ -8259,7 +8259,7 @@ array
 .
 Arrays
 are
-NULL
+nullptr
 -
 terminated
 .
@@ -11481,7 +11481,7 @@ if
 they
 are
 not
-NULL
+nullptr
 /
 /
 caller

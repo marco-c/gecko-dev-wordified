@@ -690,7 +690,7 @@ UCOL_ATTRIBUTE_COUNT
 uint32_t
 variableTopValue
 ;
-UChar
+char16_t
 variableTopString
 [
 locElementCapacity
@@ -1189,7 +1189,7 @@ if
 end
 =
 =
-NULL
+nullptr
 |
 |
 end
@@ -1361,7 +1361,7 @@ string
 }
 U_CDECL_END
 static
-UChar
+char16_t
 readHexCodeUnit
 (
 const
@@ -1374,7 +1374,7 @@ UErrorCode
 status
 )
 {
-UChar
+char16_t
 result
 =
 0
@@ -1559,7 +1559,7 @@ result
 )
 |
 (
-UChar
+char16_t
 )
 value
 ;
@@ -3243,7 +3243,7 @@ b
 "
 collations
 "
-NULL
+nullptr
 status
 )
 ;
@@ -3251,7 +3251,7 @@ UResourceBundle
 *
 collElem
 =
-NULL
+nullptr
 ;
 char
 keyBuffer
@@ -3365,7 +3365,7 @@ collations
 "
 default
 "
-NULL
+nullptr
 status
 )
 ;
@@ -3384,7 +3384,7 @@ defaultKeyLen
 0
 ;
 const
-UChar
+char16_t
 *
 defaultKey
 =
@@ -3805,7 +3805,7 @@ result
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3889,7 +3889,7 @@ result
 ;
 result
 =
-NULL
+nullptr
 ;
 }
 UTRACE_EXIT_PTR_STATUS
@@ -3942,7 +3942,7 @@ if
 coll
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4153,7 +4153,7 @@ ucol_getContractionsAndExpansions
 (
 coll
 contractions
-NULL
+nullptr
 false
 status
 )
@@ -4274,7 +4274,7 @@ if
 coll
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4309,7 +4309,7 @@ if
 rbc
 =
 =
-NULL
+nullptr
 )
 {
 *

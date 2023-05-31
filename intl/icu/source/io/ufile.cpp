@@ -736,7 +736,7 @@ if
 f
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -762,7 +762,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -906,7 +906,7 @@ if
 codepage
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -945,7 +945,7 @@ memset
 '
 d
 to
-NULL
+nullptr
 .
 *
 /
@@ -1005,7 +1005,7 @@ result
 ;
 result
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1336,7 +1336,7 @@ U_EXPORT2
 u_fopen_u
 (
 const
-UChar
+char16_t
 *
 filename
 const
@@ -1582,7 +1582,7 @@ wperm
 /
 may
 return
-NULL
+nullptr
 for
 long
 filename
@@ -1636,7 +1636,7 @@ systemFile
 if
 systemFile
 is
-NULL
+nullptr
 .
 *
 /
@@ -1681,7 +1681,7 @@ UFILE
 U_EXPORT2
 u_fstropen
 (
-UChar
+char16_t
 *
 stringBuf
 int32_t
@@ -1704,7 +1704,7 @@ capacity
 )
 {
 return
-NULL
+nullptr
 ;
 }
 result
@@ -1733,11 +1733,11 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1862,7 +1862,7 @@ if
 f
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1899,7 +1899,7 @@ f
 fFile
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2347,7 +2347,7 @@ char
 *
 codepage
 =
-NULL
+nullptr
 ;
 if
 (

@@ -245,7 +245,7 @@ UErrorCode
 &
 status
 )
-U_OVERRIDE
+override
 {
 ResourceTable
 miscTable
@@ -576,7 +576,7 @@ rb
 (
 ures_open
 (
-NULL
+nullptr
 localeName
 &
 status
@@ -1406,6 +1406,8 @@ NumberFormatterImpl
 writeNumber
 (
 micros1
+.
+simple
 data
 .
 quantity1
@@ -1525,6 +1527,8 @@ NumberFormatterImpl
 writeNumber
 (
 microsAppx
+.
+simple
 data
 .
 quantity1
@@ -2415,6 +2419,8 @@ NumberFormatterImpl
 writeNumber
 (
 micros1
+.
+simple
 data
 .
 quantity1
@@ -2451,6 +2457,8 @@ NumberFormatterImpl
 writeNumber
 (
 micros2
+.
+simple
 data
 .
 quantity2

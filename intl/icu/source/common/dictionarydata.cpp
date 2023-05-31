@@ -531,7 +531,7 @@ if
 values
 !
 =
-NULL
+nullptr
 )
 {
 values
@@ -551,7 +551,7 @@ if
 lengths
 !
 =
-NULL
+nullptr
 )
 {
 lengths
@@ -567,7 +567,7 @@ if
 cpLengths
 !
 =
-NULL
+nullptr
 )
 {
 cpLengths
@@ -624,7 +624,7 @@ if
 prefix
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -908,7 +908,7 @@ if
 values
 !
 =
-NULL
+nullptr
 )
 {
 values
@@ -928,7 +928,7 @@ if
 lengths
 !
 =
-NULL
+nullptr
 )
 {
 lengths
@@ -944,7 +944,7 @@ if
 cpLengths
 !
 =
-NULL
+nullptr
 )
 {
 cpLengths
@@ -1001,7 +1001,7 @@ if
 prefix
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1091,7 +1091,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1281,6 +1281,15 @@ headerSize
 ;
 outBytes
 =
+(
+outData
+=
+=
+nullptr
+)
+?
+nullptr
+:
 (
 uint8_t
 *

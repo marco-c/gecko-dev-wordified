@@ -6747,7 +6747,7 @@ the
 object
 or
 *
-NULL
+nullptr
 to
 leave
 the
@@ -10364,7 +10364,7 @@ or
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -10389,7 +10389,7 @@ or
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -10434,7 +10434,7 @@ or
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -10471,7 +10471,7 @@ to
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -10489,7 +10489,7 @@ or
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt

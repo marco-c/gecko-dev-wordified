@@ -2205,7 +2205,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2213,7 +2213,7 @@ if
 filterSet
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2222,7 +2222,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 Normalizer2
@@ -2253,7 +2253,7 @@ if
 fn2
 =
 =
-NULL
+nullptr
 )
 {
 *

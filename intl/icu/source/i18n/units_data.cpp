@@ -1588,7 +1588,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 u
 =
@@ -1632,7 +1632,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 g
 =
@@ -2860,7 +2860,7 @@ unitsBundle
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 units
 "
@@ -2978,7 +2978,7 @@ unitsBundle
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 units
 "

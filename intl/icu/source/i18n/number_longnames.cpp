@@ -1100,7 +1100,7 @@ coreUnit
 PlaceholderPosition
 &
 placeholderPosition
-UChar
+char16_t
 &
 joinerChar
 )
@@ -1629,7 +1629,7 @@ resultLen
 0
 ;
 const
-UChar
+char16_t
 *
 result
 =
@@ -2096,7 +2096,7 @@ UErrorCode
 &
 status
 )
-U_OVERRIDE
+override
 {
 int32_t
 pluralIndex
@@ -2923,7 +2923,7 @@ UErrorCode
 &
 status
 )
-U_OVERRIDE
+override
 {
 if
 (
@@ -4387,7 +4387,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 ptr
 =
@@ -4750,7 +4750,7 @@ derivationsBundle
 getAlias
 (
 )
-NULL
+nullptr
 "
 grammaticalFeatures
 "
@@ -5496,7 +5496,7 @@ derivationsBundle
 getAlias
 (
 )
-NULL
+nullptr
 "
 grammaticalFeatures
 "
@@ -6089,12 +6089,12 @@ cpp
 '
 trimWhitespace
 const
-UChar
+char16_t
 *
 trimSpaceChars
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -8522,7 +8522,7 @@ length
 )
 ;
 const
-UChar
+char16_t
 *
 trimmed
 =
@@ -9218,7 +9218,7 @@ globalPlaceholder
 ARRAY_LENGTH
 ]
 ;
-UChar
+char16_t
 globalJoinerChar
 =
 0
@@ -10868,7 +10868,7 @@ coreUnit
 PlaceholderPosition
 placeholderPosition
 ;
-UChar
+char16_t
 joinerChar
 ;
 extractCorePattern
@@ -12205,7 +12205,7 @@ if
 parent
 !
 =
-NULL
+nullptr
 )
 {
 parent
@@ -13768,7 +13768,7 @@ unit
 width
 unitDisplayCase
 rules
-NULL
+nullptr
 mlnh
 status
 )
@@ -13810,7 +13810,7 @@ unit
 width
 unitDisplayCase
 rules
-NULL
+nullptr
 lnh
 status
 )

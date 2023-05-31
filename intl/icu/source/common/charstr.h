@@ -650,7 +650,7 @@ CharString
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -711,7 +711,7 @@ CharString
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1485,7 +1485,7 @@ CharString
 appendInvariantChars
 (
 const
-UChar
+char16_t
 *
 uchars
 int32_t

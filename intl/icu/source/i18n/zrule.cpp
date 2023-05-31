@@ -498,7 +498,7 @@ zrule_getName
 ZRule
 *
 rule
-UChar
+char16_t
 *
 name
 int32_t
@@ -801,7 +801,7 @@ U_EXPORT2
 izrule_open
 (
 const
-UChar
+char16_t
 *
 name
 int32_t
@@ -933,7 +933,7 @@ izrule_getName
 IZRule
 *
 rule
-UChar
+char16_t
 *
 &
 name
@@ -987,7 +987,7 @@ length
 name
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc

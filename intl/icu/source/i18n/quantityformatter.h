@@ -633,7 +633,7 @@ a
 *
 non
 -
-NULL
+nullptr
 value
 .
 *

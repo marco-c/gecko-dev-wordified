@@ -463,7 +463,7 @@ UFILE
 *
 gStdOut
 =
-NULL
+nullptr
 ;
 static
 UInitOnce
@@ -476,7 +476,6 @@ UBool
 U_CALLCONV
 uprintf_cleanup
 (
-void
 )
 {
 if
@@ -484,7 +483,7 @@ if
 gStdOut
 !
 =
-NULL
+nullptr
 )
 {
 u_fclose
@@ -494,7 +493,7 @@ gStdOut
 ;
 gStdOut
 =
-NULL
+nullptr
 ;
 }
 gStdOutInitOnce
@@ -519,7 +518,7 @@ U_ASSERT
 gStdOut
 =
 =
-NULL
+nullptr
 )
 ;
 gStdOut
@@ -527,8 +526,8 @@ gStdOut
 u_finit
 (
 stdout
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 ucln_io_registerCleanup
@@ -567,7 +566,7 @@ void
 *
 context
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -599,7 +598,7 @@ u_printf_spec_info
 *
 info
 const
-UChar
+char16_t
 *
 result
 int32_t
@@ -894,7 +893,7 @@ UFILE
 *
 f
 const
-UChar
+char16_t
 *
 patternSpecification
 .
@@ -938,7 +937,7 @@ U_EXPORT2
 u_printf_u
 (
 const
-UChar
+char16_t
 *
 patternSpecification
 .
@@ -1013,11 +1012,11 @@ ap
 int32_t
 count
 ;
-UChar
+char16_t
 *
 pattern
 ;
-UChar
+char16_t
 buffer
 [
 UFMT_DEFAULT_BUFFER_SIZE
@@ -1058,7 +1057,7 @@ buffer
 pattern
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -1067,7 +1066,7 @@ size
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -1179,7 +1178,7 @@ UFILE
 *
 f
 const
-UChar
+char16_t
 *
 patternSpecification
 va_list
@@ -1218,7 +1217,7 @@ u_printf_parse
 g_stream_handler
 patternSpecification
 f
-NULL
+nullptr
 &
 f
 -

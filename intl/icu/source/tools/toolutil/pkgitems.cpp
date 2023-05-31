@@ -588,19 +588,19 @@ NativeItem
 :
 pItem
 (
-NULL
+nullptr
 )
 pInfo
 (
-NULL
+nullptr
 )
 bytes
 (
-NULL
+nullptr
 )
 swapped
 (
-NULL
+nullptr
 )
 length
 (
@@ -621,7 +621,7 @@ swap
 :
 swapped
 (
-NULL
+nullptr
 )
 {
 setItem
@@ -885,7 +885,7 @@ if
 swapped
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1135,7 +1135,7 @@ if
 itemID
 !
 =
-NULL
+nullptr
 )
 {
 +
@@ -1425,7 +1425,7 @@ if
 itemID
 !
 =
-NULL
+nullptr
 )
 {
 +
@@ -1461,7 +1461,7 @@ if
 suffix
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1693,7 +1693,7 @@ bundles
 *
 static
 const
-UChar
+char16_t
 SLASH
 =
 0x2f
@@ -1726,7 +1726,7 @@ itemName
 Resource
 res
 const
-UChar
+char16_t
 *
 alias
 int32_t
@@ -2218,7 +2218,7 @@ depth
 inKey
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -2324,7 +2324,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 alias
 =
@@ -2387,7 +2387,7 @@ depth
 parentKey
 !
 =
-NULL
+nullptr
 &
 &
 0
@@ -2439,7 +2439,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 alias
 =
@@ -2487,7 +2487,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 alias
 =
@@ -2714,7 +2714,7 @@ ures_enumDependencies
 itemName
 pResData
 item
-NULL
+nullptr
 inKey
 depth
 +
@@ -3231,8 +3231,8 @@ resData
 resData
 .
 rootRes
-NULL
-NULL
+nullptr
+nullptr
 0
 check
 context

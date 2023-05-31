@@ -593,7 +593,7 @@ maxDataLength
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -601,7 +601,7 @@ if
 fillIn
 !
 =
-NULL
+nullptr
 )
 {
 trie
@@ -630,11 +630,11 @@ if
 trie
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -660,7 +660,7 @@ UBool
 fillIn
 =
 =
-NULL
+nullptr
 )
 ;
 if
@@ -668,7 +668,7 @@ if
 aliasData
 !
 =
-NULL
+nullptr
 )
 {
 trie
@@ -712,7 +712,7 @@ trie
 data
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -721,7 +721,7 @@ trie
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 trie
@@ -1002,7 +1002,7 @@ if
 other
 =
 =
-NULL
+nullptr
 |
 |
 other
@@ -1011,7 +1011,7 @@ other
 data
 =
 =
-NULL
+nullptr
 |
 |
 other
@@ -1021,7 +1021,7 @@ isCompacted
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1035,7 +1035,7 @@ if
 aliasData
 !
 =
-NULL
+nullptr
 &
 &
 aliasDataCapacity
@@ -1082,11 +1082,11 @@ if
 aliasData
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 isDataAllocated
@@ -1123,7 +1123,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1211,7 +1211,7 @@ if
 trie
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1235,7 +1235,7 @@ trie
 >
 data
 =
-NULL
+nullptr
 ;
 }
 if
@@ -1273,17 +1273,17 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 pLength
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 *
@@ -1576,7 +1576,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 trie
@@ -1670,7 +1670,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 trie
@@ -1692,7 +1692,7 @@ if
 pInBlockZero
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1723,7 +1723,7 @@ if
 pInBlockZero
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1936,7 +1936,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 trie
@@ -3210,7 +3210,7 @@ U16_LEAD
 (
 c
 )
-NULL
+nullptr
 )
 )
 {
@@ -3929,7 +3929,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -3955,7 +3955,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5086,7 +5086,7 @@ uint8_t
 *
 data
 =
-NULL
+nullptr
 ;
 /
 *
@@ -5099,7 +5099,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5118,7 +5118,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 capacity
@@ -5135,7 +5135,7 @@ capacity
 dt
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -5153,7 +5153,7 @@ if
 getFoldedValue
 =
 =
-NULL
+nullptr
 )
 {
 getFoldedValue
@@ -5855,7 +5855,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -6255,7 +6255,7 @@ trie
 >
 data32
 =
-NULL
+nullptr
 ;
 trie
 -
@@ -6351,7 +6351,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -6681,7 +6681,7 @@ trie
 >
 data32
 =
-NULL
+nullptr
 ;
 /
 *
@@ -7188,7 +7188,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 trie
@@ -7197,13 +7197,13 @@ trie
 index
 =
 =
-NULL
+nullptr
 |
 |
 enumRange
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -7214,7 +7214,7 @@ if
 enumValue
 =
 =
-NULL
+nullptr
 )
 {
 enumValue
@@ -7270,7 +7270,7 @@ if
 data32
 =
 =
-NULL
+nullptr
 )
 {
 nullBlock
@@ -7540,7 +7540,7 @@ context
 data32
 !
 =
-NULL
+nullptr
 ?
 data32
 [
@@ -7757,7 +7757,7 @@ value
 data32
 !
 =
-NULL
+nullptr
 ?
 data32
 [
@@ -8067,7 +8067,7 @@ context
 data32
 !
 =
-NULL
+nullptr
 ?
 data32
 [

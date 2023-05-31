@@ -455,7 +455,7 @@ s
 )
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -715,7 +715,7 @@ clone
 const
 {
 return
-NULL
+nullptr
 ;
 }
 same
@@ -804,7 +804,7 @@ const
 override
 ;
 virtual
-UChar
+char16_t
 getCharAt
 (
 int32_t
@@ -893,7 +893,7 @@ rep
 )
 ;
 }
-UChar
+char16_t
 ReplaceableGlue
 :
 :
@@ -1209,7 +1209,7 @@ U_EXPORT2
 utrans_openU
 (
 const
-UChar
+char16_t
 *
 id
 int32_t
@@ -1217,7 +1217,7 @@ idLength
 UTransDirection
 dir
 const
-UChar
+char16_t
 *
 rules
 int32_t
@@ -1235,7 +1235,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1246,7 +1246,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1254,7 +1254,7 @@ if
 id
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1263,7 +1263,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 UParseError
@@ -1274,7 +1274,7 @@ if
 parseError
 =
 =
-NULL
+nullptr
 )
 {
 parseError
@@ -1304,14 +1304,14 @@ if
 rules
 =
 =
-NULL
+nullptr
 )
 {
 Transliterator
 *
 trans
 =
-NULL
+nullptr
 ;
 trans
 =
@@ -1338,7 +1338,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1371,7 +1371,7 @@ Transliterator
 *
 trans
 =
-NULL
+nullptr
 ;
 trans
 =
@@ -1399,7 +1399,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1424,7 +1424,7 @@ id
 UTransDirection
 dir
 const
-UChar
+char16_t
 *
 rules
 /
@@ -1515,7 +1515,7 @@ utrans_ENTRY
 (
 status
 )
-NULL
+nullptr
 ;
 UTransliterator
 *
@@ -1563,14 +1563,14 @@ utrans_ENTRY
 (
 status
 )
-NULL
+nullptr
 ;
 if
 (
 trans
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1579,7 +1579,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 Transliterator
@@ -1604,7 +1604,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1641,7 +1641,7 @@ trans
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 utrans_getUnicodeID
@@ -1687,7 +1687,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1794,7 +1794,7 @@ U_EXPORT2
 utrans_unregisterID
 (
 const
-UChar
+char16_t
 *
 id
 int32_t
@@ -1869,7 +1869,7 @@ UTransliterator
 *
 trans
 const
-UChar
+char16_t
 *
 filterPattern
 int32_t
@@ -1888,14 +1888,14 @@ UnicodeFilter
 *
 filter
 =
-NULL
+nullptr
 ;
 if
 (
 filterPattern
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -1938,7 +1938,7 @@ status
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -1946,7 +1946,7 @@ if
 filter
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1971,7 +1971,7 @@ filter
 ;
 filter
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1995,7 +1995,6 @@ int32_t
 U_EXPORT2
 utrans_countAvailableIDs
 (
-void
 )
 {
 return
@@ -2021,7 +2020,7 @@ buf
 /
 may
 be
-NULL
+nullptr
 int32_t
 bufCapacity
 )
@@ -2130,7 +2129,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2159,7 +2158,7 @@ count
 }
 static
 const
-UChar
+char16_t
 *
 U_CALLCONV
 utrans_enum_unext
@@ -2180,7 +2179,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2249,7 +2248,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2284,7 +2283,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2294,7 +2293,7 @@ resultLength
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -2315,7 +2314,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2381,8 +2380,8 @@ UEnumeration
 utransEnumeration
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 utrans_enum_close
 utrans_enum_count
 utrans_enum_unext
@@ -2410,7 +2409,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2421,7 +2420,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 ute
@@ -2443,7 +2442,7 @@ if
 ute
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2452,7 +2451,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 ute
@@ -2821,7 +2820,7 @@ const
 UTransliterator
 *
 trans
-UChar
+char16_t
 *
 text
 int32_t
@@ -2879,7 +2878,7 @@ textLen
 textLength
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -2967,7 +2966,7 @@ if
 neededCapacity
 !
 =
-NULL
+nullptr
 )
 .
 textLen
@@ -2987,7 +2986,7 @@ if
 textLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3006,7 +3005,7 @@ const
 UTransliterator
 *
 trans
-UChar
+char16_t
 *
 text
 int32_t
@@ -3062,7 +3061,7 @@ textLen
 textLength
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -3148,7 +3147,7 @@ if
 neededCapacity
 !
 =
-NULL
+nullptr
 )
 .
 textLen
@@ -3168,7 +3167,7 @@ if
 textLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3189,7 +3188,7 @@ UTransliterator
 trans
 UBool
 escapeUnprintable
-UChar
+char16_t
 *
 result
 int32_t
@@ -3211,7 +3210,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 ?
 resultLength
@@ -3303,7 +3302,7 @@ if
 fillIn
 =
 =
-NULL
+nullptr
 )
 {
 fillIn

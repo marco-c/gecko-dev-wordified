@@ -676,7 +676,7 @@ if
 fTree
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -878,13 +878,13 @@ if
 bofTop
 =
 =
-NULL
+nullptr
 |
 |
 bofLeaf
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1009,7 +1009,7 @@ if
 cn
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1070,7 +1070,7 @@ cn
 fRightChild
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1624,7 +1624,7 @@ if
 n
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2107,7 +2107,7 @@ if
 n
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2621,7 +2621,7 @@ if
 n
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3135,7 +3135,7 @@ if
 n
 =
 =
-NULL
+nullptr
 |
 |
 n
@@ -3602,7 +3602,7 @@ if
 node
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5357,7 +5357,7 @@ failState
 Set
 it
 to
-NULL
+nullptr
 to
 avoid
 uninitialized
@@ -5366,7 +5366,7 @@ RBBIStateDescriptor
 *
 initialState
 =
-NULL
+nullptr
 ;
 /
 /
@@ -5415,7 +5415,7 @@ if
 failState
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5447,7 +5447,7 @@ failState
 fPositions
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5464,7 +5464,7 @@ failState
 fPositions
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5546,7 +5546,7 @@ if
 initialState
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5588,7 +5588,7 @@ initialState
 fPositions
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5668,7 +5668,7 @@ RBBIStateDescriptor
 *
 T
 =
-NULL
+nullptr
 ;
 int32_t
 tx
@@ -5735,7 +5735,7 @@ if
 T
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -5821,7 +5821,7 @@ UVector
 *
 U
 =
-NULL
+nullptr
 ;
 RBBINode
 *
@@ -5902,7 +5902,7 @@ if
 U
 =
 =
-NULL
+nullptr
 )
 {
 U
@@ -5919,7 +5919,7 @@ if
 U
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5970,7 +5970,7 @@ if
 U
 !
 =
-NULL
+nullptr
 )
 {
 U_ASSERT
@@ -6092,7 +6092,7 @@ if
 newState
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8645,7 +8645,7 @@ if
 thisStatesTagValues
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -9336,7 +9336,7 @@ if
 vector
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9356,7 +9356,7 @@ if
 vector
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -9765,7 +9765,7 @@ destOriginalSize
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -9815,7 +9815,7 @@ sourceSize
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -10507,7 +10507,7 @@ if
 n
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -12243,7 +12243,7 @@ if
 fTree
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -12604,7 +12604,7 @@ fStatus
 fTree
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -15409,7 +15409,7 @@ RBBIDebugPrintf
 v
 =
 =
-NULL
+nullptr
 ?
 -
 1
@@ -16962,15 +16962,15 @@ fTagsIdx
 ;
 fTagVals
 =
-NULL
+nullptr
 ;
 fPositions
 =
-NULL
+nullptr
 ;
 fDtran
 =
-NULL
+nullptr
 ;
 fDtran
 =
@@ -17001,7 +17001,7 @@ if
 fDtran
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -17075,15 +17075,15 @@ fTagVals
 ;
 fPositions
 =
-NULL
+nullptr
 ;
 fDtran
 =
-NULL
+nullptr
 ;
 fTagVals
 =
-NULL
+nullptr
 ;
 }
 U_NAMESPACE_END

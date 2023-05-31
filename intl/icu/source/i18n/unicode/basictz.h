@@ -993,7 +993,7 @@ points
 to
 non
 -
-NULL
+nullptr
 <
 code
 >
@@ -1419,7 +1419,7 @@ code
 >
 always
 not
-NULL
+nullptr
 .
 *
 param
@@ -1456,7 +1456,7 @@ the
 *
 specified
 date
-NULL
+nullptr
 is
 set
 .
@@ -1495,7 +1495,7 @@ around
 the
 specified
 date
-NULL
+nullptr
 is
 set
 .

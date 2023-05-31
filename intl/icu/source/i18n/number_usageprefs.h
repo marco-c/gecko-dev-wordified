@@ -282,7 +282,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -712,7 +712,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

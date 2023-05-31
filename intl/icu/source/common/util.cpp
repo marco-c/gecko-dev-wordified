@@ -313,7 +313,7 @@ h
 /
 /
 Define
-UChar
+char16_t
 constants
 using
 hex
@@ -322,7 +322,7 @@ EBCDIC
 compatibility
 static
 const
-UChar
+char16_t
 BACKSLASH
 =
 0x005C
@@ -334,7 +334,7 @@ BACKSLASH
 /
 static
 const
-UChar
+char16_t
 UPPER_U
 =
 0x0055
@@ -346,7 +346,7 @@ U
 /
 static
 const
-UChar
+char16_t
 LOWER_U
 =
 0x0075
@@ -358,7 +358,7 @@ u
 /
 static
 const
-UChar
+char16_t
 APOSTROPHE
 =
 0x0027
@@ -371,7 +371,7 @@ APOSTROPHE
 '
 static
 const
-UChar
+char16_t
 SPACE
 =
 0x0020
@@ -387,7 +387,7 @@ SPACE
 "
 static
 const
-UChar
+char16_t
 DIGITS
 [
 ]
@@ -472,7 +472,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 63
 /
@@ -504,7 +504,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 45
 /
@@ -1098,7 +1098,7 @@ int32_t
 start
 int32_t
 limit
-UChar
+char16_t
 charToFind
 )
 {
@@ -1118,7 +1118,7 @@ limit
 i
 )
 {
-UChar
+char16_t
 c
 =
 text
@@ -1303,7 +1303,7 @@ p
 pos
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -1853,7 +1853,7 @@ id
 int32_t
 &
 pos
-UChar
+char16_t
 ch
 )
 {
@@ -2304,7 +2304,7 @@ result
 =
 0
 ;
-UChar
+char16_t
 c
 ;
 while
@@ -3426,7 +3426,7 @@ if
 matcher
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString

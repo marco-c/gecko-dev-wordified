@@ -395,7 +395,7 @@ if
 filename
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -408,7 +408,7 @@ filename
 mode
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -439,7 +439,7 @@ file
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -521,7 +521,7 @@ fnMbsSize
 =
 wcstombs
 (
-NULL
+nullptr
 filename
 (
 (
@@ -566,7 +566,7 @@ mdMbsSize
 =
 wcstombs
 (
-NULL
+nullptr
 mode
 (
 (
@@ -1256,7 +1256,6 @@ FileStream
 U_EXPORT2
 T_FileStream_stdin
 (
-void
 )
 {
 return
@@ -1273,7 +1272,6 @@ FileStream
 U_EXPORT2
 T_FileStream_stdout
 (
-void
 )
 {
 return
@@ -1290,7 +1288,6 @@ FileStream
 U_EXPORT2
 T_FileStream_stderr
 (
-void
 )
 {
 return

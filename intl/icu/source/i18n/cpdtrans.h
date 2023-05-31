@@ -634,7 +634,7 @@ compound
 transliterator
 *
 or
-NULL
+nullptr
 *
 /
 CompoundTransliterator
@@ -672,7 +672,7 @@ FORWARD
 direction
 with
 a
-NULL
+nullptr
 filter
 .
 *
@@ -767,7 +767,6 @@ virtual
 int32_t
 getCount
 (
-void
 )
 const
 ;
@@ -1116,7 +1115,7 @@ internal
 /
 static
 const
-UChar
+char16_t
 PASS_STRING
 [
 ]
@@ -1309,13 +1308,11 @@ transCount
 void
 freeTransliterators
 (
-void
 )
 ;
 void
 computeMaximumContextLength
 (
-void
 )
 ;
 }

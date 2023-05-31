@@ -683,7 +683,7 @@ i
 i
 )
 {
-UChar
+char16_t
 keyChar
 =
 pattern
@@ -885,7 +885,7 @@ return
 U_PARTIAL_MATCH
 ;
 }
-UChar
+char16_t
 keyChar
 =
 pattern
@@ -1077,7 +1077,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 40
 )
@@ -1108,7 +1108,7 @@ length
 i
 )
 {
-UChar
+char16_t
 keyChar
 =
 pattern
@@ -1187,7 +1187,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 41
 )
@@ -1382,7 +1382,7 @@ if
 matcher
 =
 =
-NULL
+nullptr
 )
 {
 toUnionTo
@@ -1592,7 +1592,7 @@ rule
 append
 (
 (
-UChar
+char16_t
 )
 0x0024
 /
@@ -1846,7 +1846,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 f

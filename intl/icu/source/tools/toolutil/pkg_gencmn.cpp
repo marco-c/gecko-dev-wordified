@@ -681,7 +681,7 @@ U_IS_BIG_ENDIAN
 U_CHARSET_FAMILY
 sizeof
 (
-UChar
+char16_t
 )
 0
 {
@@ -770,7 +770,7 @@ File
 *
 files
 =
-NULL
+nullptr
 ;
 static
 uint32_t
@@ -789,7 +789,7 @@ char
 *
 symPrefix
 =
-NULL
+nullptr
 ;
 #
 define
@@ -1101,7 +1101,7 @@ char
 *
 s
 =
-NULL
+nullptr
 ;
 UErrorCode
 errorCode
@@ -1142,7 +1142,7 @@ if
 line
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1187,7 +1187,7 @@ if
 destDir
 =
 =
-NULL
+nullptr
 )
 {
 destDir
@@ -1202,7 +1202,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 name
@@ -1215,7 +1215,7 @@ if
 type
 =
 =
-NULL
+nullptr
 )
 {
 type
@@ -1228,7 +1228,7 @@ if
 source
 =
 =
-NULL
+nullptr
 )
 {
 source
@@ -1243,7 +1243,7 @@ if
 dataFile
 =
 =
-NULL
+nullptr
 )
 {
 in
@@ -1270,7 +1270,7 @@ if
 in
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1382,7 +1382,7 @@ while
 s
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -1409,7 +1409,7 @@ LINE_BUFFER_SIZE
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -1430,7 +1430,7 @@ if
 s
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -1642,7 +1642,7 @@ n
 dataFile
 =
 =
-NULL
+nullptr
 ?
 "
 <
@@ -1806,7 +1806,7 @@ dataInfo
 copyRight
 =
 =
-NULL
+nullptr
 ?
 U_COPYRIGHT_STRING
 :
@@ -2108,7 +2108,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -2537,7 +2537,7 @@ if
 gencmnFileName
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strcpy
@@ -2552,7 +2552,7 @@ if
 out
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -2590,9 +2590,13 @@ source
 file
 *
 /
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 "
 /
 *
@@ -2705,9 +2709,13 @@ out
 buffer
 )
 ;
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 "
 extern
 const
@@ -2756,9 +2764,13 @@ fileCount
 i
 )
 {
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 "
 \
 n
@@ -2802,9 +2814,13 @@ n
 "
 )
 ;
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 "
 U_EXPORT
 struct
@@ -3025,9 +3041,13 @@ out
 buffer
 )
 ;
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 "
 {
 \
@@ -3083,9 +3103,13 @@ fileCount
 i
 )
 {
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 "
 \
 n
@@ -3190,7 +3214,7 @@ char
 *
 fullPath
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3239,7 +3263,7 @@ if
 files
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3496,7 +3520,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3982,7 +4006,7 @@ if
 source
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strcpy

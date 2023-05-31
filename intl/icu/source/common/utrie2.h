@@ -5273,7 +5273,7 @@ UTrie2
 *
 t
 const
-UChar
+char16_t
 *
 p
 )
@@ -5302,7 +5302,7 @@ UTrie2
 trie
 ;
 const
-UChar
+char16_t
 *
 codePointStart
 *
@@ -5328,11 +5328,11 @@ UTrie2
 *
 t
 const
-UChar
+char16_t
 *
 s
 const
-UChar
+char16_t
 *
 p
 )
@@ -5354,7 +5354,7 @@ previous16
 )
 ;
 const
-UChar
+char16_t
 *
 start
 ;
@@ -5375,7 +5375,7 @@ limit
 l
 can
 be
-NULL
+nullptr
 .
 /
 /
@@ -5400,11 +5400,11 @@ UTrie2
 *
 t
 const
-UChar
+char16_t
 *
 p
 const
-UChar
+char16_t
 *
 l
 )
@@ -5426,7 +5426,7 @@ next16
 )
 ;
 const
-UChar
+char16_t
 *
 limit
 ;

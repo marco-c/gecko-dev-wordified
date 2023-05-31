@@ -175,7 +175,7 @@ CharStringMap
 &
 other
 )
-U_NOEXCEPT
+noexcept
 :
 map
 (
@@ -222,7 +222,7 @@ CharStringMap
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 map
 =

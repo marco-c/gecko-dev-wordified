@@ -657,7 +657,7 @@ IX_ROOT_ELEMENTS_OFFSET
 Byte
 offset
 to
-UChar
+char16_t
 *
 contexts
 [
@@ -1677,7 +1677,7 @@ class
 .
 *
 *
-UChar
+char16_t
 *
 contexts
 [

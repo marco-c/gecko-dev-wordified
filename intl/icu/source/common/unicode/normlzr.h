@@ -6448,7 +6448,7 @@ fFilteredNorm2
 owned
 if
 not
-NULL
+nullptr
 const
 Normalizer2
 *

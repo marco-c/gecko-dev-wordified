@@ -593,7 +593,7 @@ string
 object
 )
 or
-NULL
+nullptr
 if
 i
 is
@@ -653,7 +653,7 @@ the
 attribute
 value
 or
-NULL
+nullptr
 if
 this
 element
@@ -736,7 +736,7 @@ child
 node
 object
 or
-NULL
+nullptr
 if
 i
 is
@@ -802,7 +802,7 @@ next
 child
 element
 or
-NULL
+nullptr
 if
 there
 is
@@ -871,7 +871,7 @@ the
 element
 node
 or
-NULL
+nullptr
 if
 this
 element

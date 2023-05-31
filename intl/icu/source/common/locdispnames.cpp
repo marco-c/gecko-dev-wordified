@@ -606,7 +606,7 @@ result
 )
 const
 {
-UChar
+char16_t
 *
 buffer
 ;
@@ -798,7 +798,7 @@ result
 )
 const
 {
-UChar
+char16_t
 *
 buffer
 ;
@@ -990,7 +990,7 @@ result
 )
 const
 {
-UChar
+char16_t
 *
 buffer
 ;
@@ -1182,7 +1182,7 @@ result
 )
 const
 {
-UChar
+char16_t
 *
 buffer
 ;
@@ -1374,7 +1374,7 @@ result
 )
 const
 {
-UChar
+char16_t
 *
 buffer
 ;
@@ -2077,7 +2077,7 @@ const
 char
 *
 substitute
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2088,11 +2088,11 @@ pErrorCode
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
-NULL
+nullptr
 ;
 int32_t
 length
@@ -2104,7 +2104,7 @@ if
 itemKey
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2224,7 +2224,7 @@ isLanguageCode
 uprv_strtol
 (
 itemKey
-NULL
+nullptr
 10
 )
 )
@@ -2360,7 +2360,7 @@ copyLength
 s
 !
 =
-NULL
+nullptr
 )
 {
 u_memcpy
@@ -2452,7 +2452,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2488,7 +2488,7 @@ char
 *
 root
 =
-NULL
+nullptr
 ;
 /
 *
@@ -2501,7 +2501,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2531,7 +2531,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -2661,7 +2661,7 @@ _getStringOrCopyKey
 root
 displayLocale
 tag
-NULL
+nullptr
 localeBuffer
 localeBuffer
 dest
@@ -2683,7 +2683,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2719,7 +2719,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2848,7 +2848,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2884,7 +2884,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2955,7 +2955,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -3168,7 +3168,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -3180,7 +3180,7 @@ pErrorCode
 {
 static
 const
-UChar
+char16_t
 defaultSeparator
 [
 9
@@ -3212,7 +3212,7 @@ defaultSeparator
 /
 static
 const
-UChar
+char16_t
 sub0
 [
 4
@@ -3234,7 +3234,7 @@ sub0
 /
 static
 const
-UChar
+char16_t
 sub1
 [
 4
@@ -3263,7 +3263,7 @@ subLen
 ;
 static
 const
-UChar
+char16_t
 defaultPattern
 [
 10
@@ -3326,7 +3326,7 @@ result
 *
 /
 const
-UChar
+char16_t
 *
 separator
 ;
@@ -3336,7 +3336,7 @@ sepLen
 0
 ;
 const
-UChar
+char16_t
 *
 pattern
 ;
@@ -3349,7 +3349,7 @@ int32_t
 sub0Pos
 sub1Pos
 ;
-UChar
+char16_t
 formatOpenParen
 =
 0x0028
@@ -3357,7 +3357,7 @@ formatOpenParen
 /
 /
 (
-UChar
+char16_t
 formatReplaceOpenParen
 =
 0x005B
@@ -3365,7 +3365,7 @@ formatReplaceOpenParen
 /
 /
 [
-UChar
+char16_t
 formatCloseParen
 =
 0x0029
@@ -3373,7 +3373,7 @@ formatCloseParen
 /
 /
 )
-UChar
+char16_t
 formatReplaceCloseParen
 =
 0x005D
@@ -3480,7 +3480,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -3510,7 +3510,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -3558,7 +3558,7 @@ getAlias
 (
 )
 _kLocaleDisplayPattern
-NULL
+nullptr
 &
 status
 )
@@ -3767,7 +3767,7 @@ below
 *
 /
 {
-UChar
+char16_t
 *
 p0
 =
@@ -3777,7 +3777,7 @@ separator
 sub0
 )
 ;
-UChar
+char16_t
 *
 p1
 =
@@ -3792,13 +3792,13 @@ if
 p0
 =
 =
-NULL
+nullptr
 |
 |
 p1
 =
 =
-NULL
+nullptr
 |
 |
 p1
@@ -3819,7 +3819,7 @@ separator
 =
 (
 const
-UChar
+char16_t
 *
 )
 p0
@@ -3900,7 +3900,7 @@ default
 pattern
 *
 /
-UChar
+char16_t
 *
 p0
 =
@@ -3910,7 +3910,7 @@ pattern
 sub0
 )
 ;
-UChar
+char16_t
 *
 p1
 =
@@ -3925,13 +3925,13 @@ if
 p0
 =
 =
-NULL
+nullptr
 |
 |
 p1
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4009,7 +4009,7 @@ pattern
 )
 !
 =
-NULL
+nullptr
 )
 {
 formatOpenParen
@@ -4162,7 +4162,7 @@ repeat
 /
 do
 {
-UChar
+char16_t
 *
 p
 =
@@ -4616,7 +4616,7 @@ if
 kw
 =
 =
-NULL
+nullptr
 )
 {
 len
@@ -4925,7 +4925,7 @@ cap
 )
 {
 const
-UChar
+char16_t
 *
 plimit
 =
@@ -5404,7 +5404,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -5425,7 +5425,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5455,7 +5455,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -5473,7 +5473,7 @@ return
 pass
 itemKey
 =
-NULL
+nullptr
 to
 look
 for
@@ -5490,7 +5490,7 @@ _getStringOrCopyKey
 U_ICUDATA_LANG
 displayLocale
 _kKeys
-NULL
+nullptr
 keyword
 keyword
 dest
@@ -5520,7 +5520,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 dest
 int32_t
@@ -5541,7 +5541,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5571,7 +5571,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -5658,11 +5658,11 @@ dispNameLen
 0
 ;
 const
-UChar
+char16_t
 *
 dispName
 =
-NULL
+nullptr
 ;
 icu
 :
@@ -5692,7 +5692,7 @@ getAlias
 (
 )
 _kCurrencies
-NULL
+nullptr
 status
 )
 )
@@ -5715,7 +5715,7 @@ keywordValue
 data
 (
 )
-NULL
+nullptr
 status
 )
 )
@@ -5791,7 +5791,7 @@ dispName
 over
 if
 not
-NULL
+nullptr
 *
 /
 if
@@ -5799,7 +5799,7 @@ if
 dispName
 !
 =
-NULL
+nullptr
 )
 {
 if

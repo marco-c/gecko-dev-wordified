@@ -1404,7 +1404,7 @@ Locale
 getUS
 (
 )
-NULL
+nullptr
 status
 )
 ;
@@ -1517,7 +1517,7 @@ ICU
 class
 U_I18N_API
 StringSearch
-U_FINAL
+final
 :
 public
 SearchIterator
@@ -1725,7 +1725,7 @@ desired
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -1749,7 +1749,7 @@ pattern
 or
 text
 is
-NULL
+nullptr
 or
 if
 *
@@ -1980,7 +1980,7 @@ desired
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -2273,7 +2273,7 @@ desired
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -2572,7 +2572,7 @@ desired
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -2752,7 +2752,7 @@ an
 error
 occurs
 then
-NULL
+nullptr
 is
 returned
 .

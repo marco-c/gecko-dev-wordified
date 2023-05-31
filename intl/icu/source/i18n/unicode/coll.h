@@ -5469,7 +5469,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -5613,7 +5613,7 @@ order
 This
 can
 be
-NULL
+nullptr
 if
 the
 *
@@ -5784,7 +5784,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 *
@@ -6389,7 +6389,7 @@ collation
 keyword
 values
 or
-NULL
+nullptr
 *
 upon
 error
@@ -8510,7 +8510,7 @@ result
 in
 .
 If
-NULL
+nullptr
 number
 of
 bytes
@@ -8689,7 +8689,7 @@ result
 in
 .
 If
-NULL
+nullptr
 number
 of
 bytes
@@ -9619,7 +9619,7 @@ string
 definition
 .
 If
-NULL
+nullptr
 the
 locale
 will
@@ -10204,7 +10204,7 @@ is
 not
 supported
 return
-NULL
+nullptr
 .
 *
 param
@@ -10229,7 +10229,7 @@ locale
 is
 supported
 otherwise
-NULL
+nullptr
 .
 *
 stable

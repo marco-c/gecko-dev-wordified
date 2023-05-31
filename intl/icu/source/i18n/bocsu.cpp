@@ -892,7 +892,7 @@ u_writeIdenticalLevelRun
 UChar32
 prev
 const
-UChar
+char16_t
 *
 s
 int32_t

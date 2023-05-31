@@ -379,7 +379,7 @@ define
 UNDERSCORE_CHAR
 (
 (
-UChar
+char16_t
 )
 0x005f
 )
@@ -388,7 +388,7 @@ define
 AT_SIGN_CHAR
 (
 (
-UChar
+char16_t
 )
 64
 )
@@ -397,7 +397,7 @@ define
 PERIOD_CHAR
 (
 (
-UChar
+char16_t
 )
 46
 )
@@ -481,7 +481,7 @@ _bundleName
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UObject
@@ -611,7 +611,7 @@ pkg
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -625,7 +625,7 @@ status
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 #

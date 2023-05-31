@@ -507,7 +507,7 @@ END
 .
 *
 /
-UChar
+char16_t
 *
 spec
 ;
@@ -518,7 +518,7 @@ owned
 may
 not
 be
-NULL
+nullptr
 public
 :
 /
@@ -590,7 +590,7 @@ UnicodeString
 &
 ID
 const
-UChar
+char16_t
 *
 spec
 )

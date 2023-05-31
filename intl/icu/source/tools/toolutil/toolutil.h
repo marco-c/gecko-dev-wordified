@@ -789,7 +789,6 @@ int32_t
 U_EXPORT2
 getCurrentYear
 (
-void
 )
 ;
 /

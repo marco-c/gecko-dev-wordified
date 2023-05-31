@@ -427,7 +427,7 @@ c
 )
 ;
 }
-UChar
+char16_t
 UIterCollationIterator
 :
 :
@@ -472,7 +472,7 @@ iter
 }
 return
 (
-UChar
+char16_t
 )
 trail
 ;
@@ -968,7 +968,7 @@ c
 )
 ;
 }
-UChar
+char16_t
 FCDUIterCollationIterator
 :
 :
@@ -1037,7 +1037,7 @@ iter
 }
 return
 (
-UChar
+char16_t
 )
 trail
 ;
@@ -1055,7 +1055,7 @@ length
 )
 )
 ;
-UChar
+char16_t
 trail
 ;
 if

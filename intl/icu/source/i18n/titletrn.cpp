@@ -378,7 +378,7 @@ Title
 "
 9
 )
-NULL
+nullptr
 )
 {
 /
@@ -909,7 +909,7 @@ UnicodeString
 tmp
 ;
 const
-UChar
+char16_t
 *
 s
 ;

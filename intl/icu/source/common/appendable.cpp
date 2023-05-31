@@ -312,7 +312,7 @@ return
 appendCodeUnit
 (
 (
-UChar
+char16_t
 )
 c
 )
@@ -347,7 +347,7 @@ Appendable
 appendString
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -361,7 +361,7 @@ length
 0
 )
 {
-UChar
+char16_t
 c
 ;
 while
@@ -403,7 +403,7 @@ length
 )
 {
 const
-UChar
+char16_t
 *
 limit
 =
@@ -460,7 +460,7 @@ return
 true
 ;
 }
-UChar
+char16_t
 *
 Appendable
 :
@@ -475,7 +475,7 @@ int32_t
 desiredCapacityHint
 *
 /
-UChar
+char16_t
 *
 scratch
 int32_t
@@ -503,7 +503,7 @@ resultCapacity
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 *

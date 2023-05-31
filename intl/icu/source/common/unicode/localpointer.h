@@ -695,7 +695,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 ptr
@@ -750,7 +750,7 @@ ptr
 *
 *
 *
-NULL
+nullptr
 check
 .
 *
@@ -759,7 +759,7 @@ true
 if
 =
 =
-NULL
+nullptr
 *
 stable
 ICU
@@ -778,14 +778,14 @@ return
 ptr
 =
 =
-NULL
+nullptr
 ;
 }
 /
 *
 *
 *
-NULL
+nullptr
 check
 .
 *
@@ -794,7 +794,7 @@ true
 if
 !
 =
-NULL
+nullptr
 *
 stable
 ICU
@@ -813,7 +813,7 @@ return
 ptr
 !
 =
-NULL
+nullptr
 ;
 }
 /
@@ -833,7 +833,7 @@ code
 with
 =
 =
-NULL
+nullptr
 need
 not
 be
@@ -899,7 +899,7 @@ code
 with
 !
 =
-NULL
+nullptr
 need
 not
 be
@@ -1067,7 +1067,7 @@ the
 internal
 pointer
 becomes
-NULL
+nullptr
 .
 *
 return
@@ -1105,7 +1105,7 @@ ptr
 ;
 ptr
 =
-NULL
+nullptr
 ;
 return
 p
@@ -1505,7 +1505,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -1529,7 +1529,7 @@ reports
 an
 error
 if
-NULL
+nullptr
 .
 *
 *
@@ -1602,7 +1602,7 @@ if
 p
 =
 =
-NULL
+nullptr
 and
 no
 other
@@ -1640,7 +1640,7 @@ if
 p
 =
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -1690,7 +1690,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 LocalPointerBase
 <
@@ -1706,7 +1706,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 }
 /
@@ -1916,7 +1916,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 delete
 LocalPointerBase
@@ -1943,7 +1943,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 return
 *
@@ -2024,7 +2024,7 @@ T
 &
 p
 )
-U_NOEXCEPT
+noexcept
 {
 adoptInstead
 (
@@ -2069,7 +2069,7 @@ T
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 T
 *
@@ -2155,7 +2155,7 @@ T
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 p1
 .
@@ -2287,7 +2287,7 @@ the
 input
 pointer
 is
-NULL
+nullptr
 *
 then
 U_MEMORY_ALLOCATION_ERROR
@@ -2300,7 +2300,7 @@ object
 is
 deleted
 and
-NULL
+nullptr
 is
 set
 .
@@ -2331,7 +2331,7 @@ if
 p
 =
 =
-NULL
+nullptr
 and
 no
 other
@@ -2389,7 +2389,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2760,7 +2760,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -2784,7 +2784,7 @@ reports
 an
 error
 if
-NULL
+nullptr
 .
 *
 *
@@ -2860,7 +2860,7 @@ if
 p
 =
 =
-NULL
+nullptr
 and
 no
 other
@@ -2898,7 +2898,7 @@ if
 p
 =
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -2948,7 +2948,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 LocalPointerBase
 <
@@ -2964,7 +2964,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 }
 /
@@ -3182,7 +3182,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 delete
 [
@@ -3211,7 +3211,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 return
 *
@@ -3294,7 +3294,7 @@ T
 &
 p
 )
-U_NOEXCEPT
+noexcept
 {
 adoptInstead
 (
@@ -3339,7 +3339,7 @@ T
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 T
 *
@@ -3425,7 +3425,7 @@ T
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 p1
 .
@@ -3562,7 +3562,7 @@ the
 input
 pointer
 is
-NULL
+nullptr
 *
 then
 U_MEMORY_ALLOCATION_ERROR
@@ -3575,7 +3575,7 @@ array
 is
 deleted
 and
-NULL
+nullptr
 is
 set
 .
@@ -3609,7 +3609,7 @@ if
 p
 =
 =
-NULL
+nullptr
 and
 no
 other
@@ -3669,7 +3669,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -4064,7 +4064,7 @@ Type
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -4084,7 +4084,7 @@ LocalPointerClassName
 &
 src
 )
-U_NOEXCEPT
+noexcept
 \
 :
 LocalPointerBase
@@ -4102,7 +4102,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 \
 }
@@ -4176,7 +4176,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 {
 closeFunction
@@ -4197,7 +4197,7 @@ LocalPointerClassName
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 \
 if
@@ -4205,7 +4205,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 {
 closeFunction
@@ -4232,7 +4232,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 \
 return
@@ -4313,7 +4313,7 @@ LocalPointerClassName
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 \
 Type
@@ -4363,7 +4363,7 @@ LocalPointerClassName
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 \
 p1
@@ -4390,7 +4390,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 {
 closeFunction

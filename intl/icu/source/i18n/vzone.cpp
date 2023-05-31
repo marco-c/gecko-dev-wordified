@@ -300,7 +300,7 @@ U_EXPORT2
 vzone_openID
 (
 const
-UChar
+char16_t
 *
 ID
 int32_t
@@ -342,7 +342,7 @@ U_EXPORT2
 vzone_openData
 (
 const
-UChar
+char16_t
 *
 vtzdata
 int32_t
@@ -477,7 +477,7 @@ vzone_getTZURL
 VZone
 *
 zone
-UChar
+char16_t
 *
 &
 url
@@ -540,7 +540,7 @@ vzone_setTZURL
 VZone
 *
 zone
-UChar
+char16_t
 *
 url
 int32_t
@@ -648,7 +648,7 @@ vzone_write
 VZone
 *
 zone
-UChar
+char16_t
 *
 &
 result
@@ -692,7 +692,7 @@ length
 result
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -724,7 +724,7 @@ VZone
 zone
 UDate
 start
-UChar
+char16_t
 *
 &
 result
@@ -769,7 +769,7 @@ length
 result
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -801,7 +801,7 @@ VZone
 zone
 UDate
 time
-UChar
+char16_t
 *
 &
 result
@@ -846,7 +846,7 @@ length
 result
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc

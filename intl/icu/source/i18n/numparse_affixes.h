@@ -354,7 +354,7 @@ class
 U_I18N_API
 MaybeStackArray
 <
-UChar
+char16_t
 4
 >
 ;

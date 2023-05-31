@@ -684,7 +684,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -736,7 +736,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -848,7 +848,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -894,7 +894,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -1011,7 +1011,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -1057,7 +1057,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -1228,7 +1228,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -1274,7 +1274,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -1542,7 +1542,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -1632,7 +1632,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -1778,7 +1778,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1818,7 +1818,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -2275,7 +2275,7 @@ start
 UChar32
 *
 end
-UChar
+char16_t
 *
 str
 int32_t
@@ -2717,7 +2717,7 @@ if
 ec
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2778,7 +2778,7 @@ if
 fillSet
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2790,7 +2790,7 @@ if
 src
 =
 =
-NULL
+nullptr
 |
 |
 srcLength
@@ -2959,7 +2959,7 @@ if
 fillSet
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -3243,7 +3243,7 @@ if
 set
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -3700,7 +3700,7 @@ if
 set
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3767,7 +3767,7 @@ if
 set
 =
 =
-NULL
+nullptr
 |
 |
 rangeIndex
@@ -3778,13 +3778,13 @@ rangeIndex
 pStart
 =
 =
-NULL
+nullptr
 |
 |
 pEnd
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4304,7 +4304,7 @@ if
 set
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -4909,7 +4909,7 @@ if
 newArray
 =
 =
-NULL
+nullptr
 )
 {
 /

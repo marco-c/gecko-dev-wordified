@@ -398,7 +398,6 @@ static
 UBool
 japanese_calendar_cleanup
 (
-void
 )
 {
 if
@@ -581,7 +580,7 @@ the
 same
 thing
 .
-UChar
+char16_t
 varName
 [
 26
@@ -681,7 +680,7 @@ if
 envVarVal
 !
 =
-NULL
+nullptr
 &
 &
 uprv_stricmp
@@ -1443,9 +1442,8 @@ gJapaneseEraRules
 getEraIndex
 (
 year
-internalGet
+internalGetMonth
 (
-UCAL_MONTH
 )
 +
 1

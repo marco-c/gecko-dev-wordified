@@ -4484,7 +4484,7 @@ pattern
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -5648,7 +5648,7 @@ Format
 *
 objects
 or
-NULL
+nullptr
 if
 out
 of
@@ -5664,7 +5664,7 @@ array
 elements
 may
 be
-NULL
+nullptr
 .
 *
 stable
@@ -6583,7 +6583,7 @@ its
 contents
 .
 Returns
-NULL
+nullptr
 if
 status
 is
@@ -7274,7 +7274,7 @@ object
 Must
 not
 be
-NULL
+nullptr
 .
 *
 param
@@ -7288,7 +7288,7 @@ object
 Must
 not
 be
-NULL
+nullptr
 .
 *
 *
@@ -7713,7 +7713,7 @@ default
 formats
 (
 or
-NULL
+nullptr
 on
 failure
 )
@@ -7924,7 +7924,7 @@ from
 *
 param
 plNumber
-NULL
+nullptr
 except
 when
 formatting
@@ -7962,13 +7962,13 @@ array
 Must
 not
 be
-NULL
+nullptr
 .
 )
 *
 param
 argumentNames
-NULL
+nullptr
 if
 numbered
 values
@@ -8015,7 +8015,7 @@ if
 that
 is
 not
-NULL
+nullptr
 )
 .
 *
@@ -8535,7 +8535,7 @@ solely
 to
 store
 a
-NULL
+nullptr
 value
 .
 UHash
@@ -8544,7 +8544,7 @@ does
 not
 support
 storing
-NULL
+nullptr
 values
 .
 *

@@ -2780,7 +2780,7 @@ This
 parameter
 can
 be
-NULL
+nullptr
 ;
 if
 so
@@ -3036,7 +3036,7 @@ Locale
 &
 other
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -3183,7 +3183,7 @@ Locale
 &
 other
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -3335,7 +3335,7 @@ an
 error
 occurs
 then
-NULL
+nullptr
 is
 returned
 .
@@ -3575,7 +3575,7 @@ set
 to
 .
 If
-NULL
+nullptr
 set
 to
 the
@@ -4132,7 +4132,7 @@ from
 Must
 not
 be
-NULL
+nullptr
 .
 *
 return
@@ -4940,7 +4940,7 @@ to
 StringEnumeration
 class
 or
-NULL
+nullptr
 if
 there
 are
@@ -5007,7 +5007,7 @@ to
 StringEnumeration
 class
 or
-NULL
+nullptr
 if
 there
 are
@@ -5956,7 +5956,7 @@ If
 length
 or
 *
-NULL
+nullptr
 will
 result
 in
@@ -6122,7 +6122,7 @@ If
 length
 or
 *
-NULL
+nullptr
 will
 result
 in
@@ -6285,7 +6285,7 @@ If
 length
 or
 *
-NULL
+nullptr
 will
 result
 in

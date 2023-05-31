@@ -332,7 +332,7 @@ U_EXPORT2
 ures_openU
 (
 const
-UChar
+char16_t
 *
 myPath
 const
@@ -364,7 +364,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -375,7 +375,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -383,12 +383,12 @@ if
 myPath
 =
 =
-NULL
+nullptr
 )
 {
 path
 =
-NULL
+nullptr
 ;
 }
 else
@@ -420,7 +420,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -536,7 +536,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -571,7 +571,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -592,7 +592,7 @@ status
 U_UNSUPPORTED_ERROR
 ;
 return
-NULL
+nullptr
 ;
 #
 endif

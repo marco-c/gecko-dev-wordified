@@ -1388,7 +1388,7 @@ FileStream
 *
 out
 =
-NULL
+nullptr
 ;
 static
 struct
@@ -1404,7 +1404,7 @@ char
 *
 outDir
 =
-NULL
+nullptr
 ;
 *
 /
@@ -1414,7 +1414,7 @@ char
 *
 bName
 =
-NULL
+nullptr
 ;
 static
 const
@@ -1422,7 +1422,7 @@ char
 *
 pName
 =
-NULL
+nullptr
 ;
 static
 void
@@ -1479,7 +1479,7 @@ UConverter
 *
 conv
 =
-NULL
+nullptr
 ;
 static
 int32_t
@@ -1491,7 +1491,7 @@ target
 int32_t
 targetLen
 const
-UChar
+char16_t
 *
 source
 int32_t
@@ -2322,7 +2322,7 @@ void
 str_write_java
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -2372,7 +2372,7 @@ if
 buf
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2937,7 +2937,7 @@ SResource
 *
 current
 =
-NULL
+nullptr
 ;
 UBool
 allStrings
@@ -2982,7 +2982,7 @@ while
 current
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -3094,7 +3094,7 @@ while
 current
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -3324,7 +3324,7 @@ if
 resname
 !
 =
-NULL
+nullptr
 &
 &
 uprv_strcmp
@@ -3734,7 +3734,7 @@ uint8_t
 *
 byteArray
 =
-NULL
+nullptr
 ;
 int
 byteIterator
@@ -3833,9 +3833,13 @@ byteIterator
 128
 )
 {
-sprintf
+snprintf
 (
 byteBuffer
+sizeof
+(
+byteBuffer
+)
 byteDecl
 byteArray
 [
@@ -3846,9 +3850,13 @@ byteIterator
 }
 else
 {
-sprintf
+snprintf
 (
 byteBuffer
+sizeof
+(
+byteBuffer
+)
 byteDecl
 (
 byteArray
@@ -4012,7 +4020,7 @@ SResource
 *
 current
 =
-NULL
+nullptr
 ;
 const
 char
@@ -4104,7 +4112,7 @@ while
 current
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -4156,7 +4164,7 @@ if
 currentKeyString
 !
 =
-NULL
+nullptr
 )
 {
 T_FileStream_write
@@ -4351,7 +4359,7 @@ if
 res
 !
 =
-NULL
+nullptr
 )
 {
 switch
@@ -4626,7 +4634,7 @@ bName
 bundleName
 =
 =
-NULL
+nullptr
 )
 ?
 "
@@ -4641,7 +4649,7 @@ pName
 packageName
 =
 =
-NULL
+nullptr
 )
 ?
 "
@@ -4811,7 +4819,7 @@ if
 out
 =
 =
-NULL
+nullptr
 )
 {
 *

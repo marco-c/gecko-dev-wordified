@@ -359,13 +359,13 @@ if
 fInputBytes
 =
 =
-NULL
+nullptr
 |
 |
 fByteStats
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -540,7 +540,7 @@ return
 fRawInput
 !
 =
-NULL
+nullptr
 ;
 }
 /

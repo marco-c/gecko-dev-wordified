@@ -441,7 +441,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -457,7 +457,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 columns
@@ -509,13 +509,13 @@ if
 pv
 =
 =
-NULL
+nullptr
 |
 |
 v
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -534,7 +534,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memset
@@ -694,7 +694,7 @@ if
 pv
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1216,7 +1216,7 @@ if
 pv
 =
 =
-NULL
+nullptr
 |
 |
 start
@@ -1583,7 +1583,7 @@ if
 newVectors
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2154,7 +2154,7 @@ rows
 )
 {
 return
-NULL
+nullptr
 ;
 }
 columns
@@ -2180,7 +2180,7 @@ if
 pRangeStart
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2200,7 +2200,7 @@ if
 pRangeEnd
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2436,7 +2436,7 @@ if
 handler
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3082,7 +3082,7 @@ isCompacted
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3090,7 +3090,7 @@ if
 pRows
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3107,7 +3107,7 @@ if
 pColumns
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3166,7 +3166,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3184,7 +3184,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 byteLength
@@ -3221,7 +3221,7 @@ if
 clonedArray
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3230,7 +3230,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -3248,7 +3248,7 @@ if
 pRows
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3265,7 +3265,7 @@ if
 pColumns
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3301,7 +3301,7 @@ UPVecToUTrie2Context
 toUTrie2
 =
 {
-NULL
+nullptr
 0
 0
 0
@@ -3345,7 +3345,7 @@ toUTrie2
 .
 trie
 =
-NULL
+nullptr
 ;
 }
 return

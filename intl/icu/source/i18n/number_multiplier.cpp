@@ -420,7 +420,7 @@ Scale
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 fMagnitude
 (
@@ -470,7 +470,7 @@ Scale
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 fMagnitude
 =

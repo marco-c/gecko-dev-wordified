@@ -533,7 +533,7 @@ char
 *
 gCurrentFileName
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -562,14 +562,14 @@ fBytes
 ;
 fBytes
 =
-NULL
+nullptr
 ;
 delete
 fStrings
 ;
 fStrings
 =
-NULL
+nullptr
 ;
 }
 enum
@@ -867,7 +867,7 @@ char
 *
 language
 =
-NULL
+nullptr
 ;
 static
 const
@@ -875,7 +875,7 @@ char
 *
 xliffOutputFileName
 =
-NULL
+nullptr
 ;
 int
 main
@@ -899,18 +899,18 @@ char
 *
 arg
 =
-NULL
+nullptr
 ;
 const
 char
 *
 outputDir
 =
-NULL
+nullptr
 ;
 /
 *
-NULL
+nullptr
 =
 no
 output
@@ -924,14 +924,14 @@ char
 *
 inputDir
 =
-NULL
+nullptr
 ;
 const
 char
 *
 filterDir
 =
-NULL
+nullptr
 ;
 const
 char
@@ -2575,7 +2575,7 @@ WRITE_XLIFF
 value
 !
 =
-NULL
+nullptr
 )
 {
 xliffOutputFileName
@@ -2695,7 +2695,7 @@ adoptInsteadAndCheckErrorCode
 new
 SRBRoot
 (
-NULL
+nullptr
 true
 status
 )
@@ -2779,7 +2779,7 @@ if
 nameWithoutSuffix
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -2944,7 +2944,7 @@ USE_POOL_BUNDLE
 value
 !
 =
-NULL
+nullptr
 )
 {
 poolFileName
@@ -3015,7 +3015,7 @@ if
 poolFile
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3114,7 +3114,7 @@ poolBundle
 fBytes
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3665,7 +3665,7 @@ fStrings
 new
 PseudoListResource
 (
-NULL
+nullptr
 status
 )
 ;
@@ -3676,7 +3676,7 @@ poolBundle
 fStrings
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3729,13 +3729,13 @@ status
 )
 ;
 const
-UChar
+char16_t
 *
 p
 =
 (
 const
-UChar
+char16_t
 *
 )
 (
@@ -4050,7 +4050,7 @@ if
 sr
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -4164,7 +4164,7 @@ poolBundle
 .
 fStrings
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4190,7 +4190,7 @@ poolBundle
 fStrings
 !
 =
-NULL
+nullptr
 )
 {
 printf
@@ -4289,7 +4289,7 @@ poolBundle
 fStrings
 =
 =
-NULL
+nullptr
 &
 &
 !
@@ -4568,7 +4568,7 @@ encoding
 inputDir
 outputDir
 filterDir
-NULL
+nullptr
 newPoolBundle
 .
 getAlias
@@ -4621,7 +4621,7 @@ WRITE_POOL_BUNDLE
 value
 !
 =
-NULL
+nullptr
 )
 {
 writePoolDir
@@ -4653,7 +4653,7 @@ newPoolBundle
 write
 (
 writePoolDir
-NULL
+nullptr
 outputFileName
 sizeof
 (
@@ -4812,7 +4812,7 @@ if
 filename
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4827,7 +4827,7 @@ if
 inputDir
 =
 =
-NULL
+nullptr
 )
 {
 const
@@ -4846,7 +4846,7 @@ if
 filenameBegin
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -5282,7 +5282,7 @@ if
 cp
 !
 =
-NULL
+nullptr
 &
 &
 isVerbose
@@ -6056,7 +6056,7 @@ if
 packageName
 !
 =
-NULL
+nullptr
 )
 {
 pkgLen
@@ -6192,7 +6192,7 @@ if
 outputDir
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -6268,7 +6268,7 @@ if
 packageName
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strcat
@@ -6346,7 +6346,7 @@ if
 resName
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6399,7 +6399,7 @@ if
 packageName
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strcat

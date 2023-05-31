@@ -864,7 +864,7 @@ variableTop
 )
 reorderTable
 (
-NULL
+nullptr
 )
 minHighNoReorder
 (
@@ -872,7 +872,7 @@ minHighNoReorder
 )
 reorderRanges
 (
-NULL
+nullptr
 )
 reorderRangesLength
 (
@@ -880,7 +880,7 @@ reorderRangesLength
 )
 reorderCodes
 (
-NULL
+nullptr
 )
 reorderCodesLength
 (
@@ -1026,7 +1026,7 @@ return
 reorderTable
 !
 =
-NULL
+nullptr
 ;
 }
 static
@@ -1550,7 +1550,7 @@ primary
 lead
 bytes
 ;
-NULL
+nullptr
 if
 no
 reordering

@@ -333,7 +333,7 @@ struct
 Params
 {
 *
-UChar
+char16_t
 *
 target
 ;
@@ -343,7 +343,7 @@ targetLen
 ;
 *
 const
-UChar
+char16_t
 *
 source
 ;
@@ -588,11 +588,11 @@ error
 U_ZERO_ERROR
 ;
 *
-UChar
+char16_t
 *
 dest
 =
-NULL
+nullptr
 ;
 *
 int32_t
@@ -621,7 +621,7 @@ retVal
 ;
 *
 *
-UChar
+char16_t
 arr
 [
 5000
@@ -1011,12 +1011,12 @@ perf
 UTimer
 *
 timer
-UChar
+char16_t
 *
 source
 int32_t
 sourceLen
-UChar
+char16_t
 *
 target
 int32_t

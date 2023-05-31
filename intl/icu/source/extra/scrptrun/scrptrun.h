@@ -314,7 +314,7 @@ ScriptRun
 ScriptRun
 (
 const
-UChar
+char16_t
 chars
 [
 ]
@@ -325,7 +325,7 @@ length
 ScriptRun
 (
 const
-UChar
+char16_t
 chars
 [
 ]
@@ -353,7 +353,7 @@ void
 reset
 (
 const
-UChar
+char16_t
 chars
 [
 ]
@@ -489,7 +489,7 @@ int32_t
 charLimit
 ;
 const
-UChar
+char16_t
 *
 charArray
 ;
@@ -596,7 +596,7 @@ ScriptRun
 {
 reset
 (
-NULL
+nullptr
 0
 0
 )
@@ -609,7 +609,7 @@ ScriptRun
 ScriptRun
 (
 const
-UChar
+char16_t
 chars
 [
 ]
@@ -632,7 +632,7 @@ ScriptRun
 ScriptRun
 (
 const
-UChar
+char16_t
 chars
 [
 ]
@@ -752,7 +752,7 @@ ScriptRun
 reset
 (
 const
-UChar
+char16_t
 chars
 [
 ]

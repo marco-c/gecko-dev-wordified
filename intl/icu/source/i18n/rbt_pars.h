@@ -751,7 +751,7 @@ code
 .
 *
 /
-UChar
+char16_t
 variableNext
 ;
 /
@@ -798,7 +798,7 @@ code
 .
 *
 /
-UChar
+char16_t
 variableLimit
 ;
 /
@@ -911,7 +911,7 @@ thereafter
 .
 *
 /
-UChar
+char16_t
 dotStandIn
 ;
 public
@@ -1894,7 +1894,7 @@ it
 .
 *
 /
-UChar
+char16_t
 parseSet
 (
 const
@@ -1956,7 +1956,7 @@ UnicodeFunctor
 .
 *
 /
-UChar
+char16_t
 generateStandInFor
 (
 UnicodeFunctor
@@ -2002,7 +2002,7 @@ segment
 .
 *
 /
-UChar
+char16_t
 getSegmentStandin
 (
 int32_t
@@ -2097,7 +2097,7 @@ set
 .
 *
 /
-UChar
+char16_t
 getDotStandIn
 (
 UErrorCode

@@ -23141,7 +23141,7 @@ propsTrie_index
 propsTrie_index
 +
 4692
-NULL
+nullptr
 4692
 18324
 0xa40
@@ -23150,12 +23150,12 @@ NULL
 0x0
 0x110000
 0x59e4
-NULL
+nullptr
 0
 false
 false
 0
-NULL
+nullptr
 }
 ;
 static
@@ -55871,7 +55871,7 @@ propsVectorsTrie_index
 propsVectorsTrie_index
 +
 5348
-NULL
+nullptr
 5348
 27344
 0xa40
@@ -55880,12 +55880,12 @@ NULL
 0x0
 0x110000
 0x7fb0
-NULL
+nullptr
 0
 false
 false
 0
-NULL
+nullptr
 }
 ;
 static

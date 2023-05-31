@@ -1635,7 +1635,7 @@ not
 including
 the
 terminating
-NULL
+NUL
 .
 *
 /
@@ -1910,7 +1910,7 @@ if
 str1
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1918,7 +1918,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1939,7 +1939,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1953,7 +1953,7 @@ else
 compare
 non
 -
-NULL
+nullptr
 strings
 lexically
 with
@@ -2118,7 +2118,7 @@ if
 str1
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -2126,7 +2126,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2147,7 +2147,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2161,7 +2161,7 @@ else
 compare
 non
 -
-NULL
+nullptr
 strings
 lexically
 with

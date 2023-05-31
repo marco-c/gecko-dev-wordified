@@ -281,21 +281,21 @@ UTraceEntry
 *
 pTraceEntryFunc
 =
-NULL
+nullptr
 ;
 static
 UTraceExit
 *
 pTraceExitFunc
 =
-NULL
+nullptr
 ;
 static
 UTraceData
 *
 pTraceDataFunc
 =
-NULL
+nullptr
 ;
 static
 const
@@ -303,7 +303,7 @@ void
 *
 gTraceContext
 =
-NULL
+nullptr
 ;
 /
 *
@@ -345,7 +345,7 @@ if
 pTraceEntryFunc
 !
 =
-NULL
+nullptr
 )
 {
 (
@@ -459,7 +459,7 @@ if
 pTraceExitFunc
 !
 =
-NULL
+nullptr
 )
 {
 va_list
@@ -576,7 +576,7 @@ if
 pTraceDataFunc
 !
 =
-NULL
+nullptr
 )
 {
 va_list
@@ -927,7 +927,7 @@ c
 {
 /
 *
-Nulls
+NULs
 only
 appear
 as
@@ -963,7 +963,7 @@ output
 will
 overwrite
 the
-null
+NUL
 .
 *
 /
@@ -1269,7 +1269,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 s
@@ -1316,7 +1316,7 @@ void
 outputUString
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1338,7 +1338,7 @@ i
 =
 0
 ;
-UChar
+char16_t
 c
 ;
 if
@@ -1346,12 +1346,12 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 outputString
 (
-NULL
+nullptr
 outBuf
 outIx
 capacity
@@ -1560,7 +1560,7 @@ fmtC
 We
 hit
 the
-null
+NUL
 that
 terminates
 the
@@ -1670,7 +1670,7 @@ s
 char
 *
 string
-null
+NUL
 terminated
 .
 *
@@ -1708,7 +1708,7 @@ S
 :
 /
 *
-UChar
+char16_t
 *
 string
 with
@@ -1719,7 +1719,7 @@ len
 -
 1
 for
-null
+NUL
 terminated
 .
 *
@@ -1758,7 +1758,7 @@ outputUString
 (
 (
 const
-UChar
+char16_t
 *
 )
 ptrArg
@@ -1964,7 +1964,7 @@ so
 that
 the
 terminating
-null
+NUL
 will
 be
 *
@@ -2149,7 +2149,7 @@ if
 ptrPtr
 =
 =
-NULL
+nullptr
 )
 {
 outputString
@@ -2293,7 +2293,7 @@ longArg
 ptrPtr
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -2303,7 +2303,7 @@ NULL
 *
 test
 for
-null
+nullptr
 terminated
 array
 .
@@ -2345,7 +2345,7 @@ i8Ptr
 for
 test
 for
-null
+nullptr
 terminated
 array
 .
@@ -2401,7 +2401,7 @@ longArg
 ptrPtr
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -2412,7 +2412,7 @@ NULL
 for
 test
 for
-null
+nullptr
 term
 .
 array
@@ -2438,7 +2438,7 @@ outputUString
 (
 (
 const
-UChar
+char16_t
 *
 )
 *
@@ -2471,7 +2471,7 @@ longArg
 ptrPtr
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -2482,7 +2482,7 @@ NULL
 for
 test
 for
-null
+nullptr
 term
 .
 array
@@ -2662,7 +2662,7 @@ sure
 that
 output
 is
-null
+NUL
 terminated
 *
 /
@@ -2684,7 +2684,7 @@ increment
 when
 outputting
 final
-null
+NUL
 .
 *
 /
@@ -2881,15 +2881,15 @@ utrace_cleanup
 {
 pTraceEntryFunc
 =
-NULL
+nullptr
 ;
 pTraceExitFunc
 =
-NULL
+nullptr
 ;
 pTraceDataFunc
 =
-NULL
+nullptr
 ;
 utrace_level
 =
@@ -2897,7 +2897,7 @@ UTRACE_OFF
 ;
 gTraceContext
 =
-NULL
+nullptr
 ;
 return
 true
@@ -2919,7 +2919,7 @@ u_init
 "
 u_cleanup
 "
-NULL
+nullptr
 }
 ;
 static
@@ -2956,7 +2956,7 @@ ucnv_load
 "
 ucnv_unload
 "
-NULL
+nullptr
 }
 ;
 static
@@ -2996,7 +2996,7 @@ ucol_openFromShortString
 "
 ucol_strcollUTF8
 "
-NULL
+nullptr
 }
 ;
 static
@@ -3027,7 +3027,7 @@ res
 -
 open
 "
-NULL
+nullptr
 }
 ;
 U_CAPI

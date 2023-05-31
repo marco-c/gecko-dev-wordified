@@ -3815,9 +3815,6 @@ pLength
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4069,7 +4066,7 @@ range
 )
 .
 *
-draft
+stable
 ICU
 71
 *
@@ -4262,7 +4259,7 @@ is
 closed
 .
 *
-draft
+stable
 ICU
 71
 *
@@ -4288,13 +4285,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 /

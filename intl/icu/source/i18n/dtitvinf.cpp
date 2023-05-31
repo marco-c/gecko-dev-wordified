@@ -541,7 +541,7 @@ fallback
 }
 static
 const
-UChar
+char16_t
 gFirstPattern
 [
 ]
@@ -559,7 +559,7 @@ RIGHT_CURLY_BRACKET
 }
 static
 const
-UChar
+char16_t
 gSecondPattern
 [
 ]
@@ -578,7 +578,7 @@ fall
 back
 static
 const
-UChar
+char16_t
 gDefaultFallbackPattern
 [
 ]
@@ -1209,7 +1209,7 @@ PATH_PREFIX_LENGTH
 ;
 static
 const
-UChar
+char16_t
 PATH_PREFIX
 [
 ]
@@ -1243,7 +1243,7 @@ PATH_SUFFIX_LENGTH
 ;
 static
 const
-UChar
+char16_t
 PATH_SUFFIX
 [
 ]
@@ -2599,7 +2599,7 @@ the
 fallback
 pattern
 const
-UChar
+char16_t
 *
 resStr
 =
@@ -3261,9 +3261,13 @@ UTF
 "
 )
 ;
-sprintf
+snprintf
 (
 mesg
+sizeof
+(
+mesg
+)
 "
 in
 getBestSkeleton
@@ -3935,9 +3939,13 @@ UTF
 "
 )
 ;
-sprintf
+snprintf
 (
 mesg
+sizeof
+(
+mesg
+)
 "
 available
 skeletons

@@ -735,7 +735,7 @@ ICU
 class
 U_COMMON_API
 Edits
-U_FINAL
+final
 :
 public
 UMemory
@@ -895,7 +895,7 @@ Edits
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 array
 (
@@ -1052,7 +1052,7 @@ Edits
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1077,7 +1077,7 @@ void
 reset
 (
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1538,7 +1538,7 @@ ICU
 struct
 U_COMMON_API
 Iterator
-U_FINAL
+final
 :
 public
 UMemory
@@ -3847,7 +3847,7 @@ void
 releaseArray
 (
 )
-U_NOEXCEPT
+noexcept
 ;
 Edits
 &
@@ -3867,7 +3867,7 @@ Edits
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 void
 setLastUnit

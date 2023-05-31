@@ -405,7 +405,7 @@ UHashtable
 *
 gGenderInfoCache
 =
-NULL
+nullptr
 ;
 static
 const
@@ -445,7 +445,7 @@ GenderInfo
 *
 gObjs
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -471,7 +471,6 @@ UBool
 U_CALLCONV
 gender_cleanup
 (
-void
 )
 {
 if
@@ -479,7 +478,7 @@ if
 gGenderInfoCache
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -489,7 +488,7 @@ gGenderInfoCache
 ;
 gGenderInfoCache
 =
-NULL
+nullptr
 ;
 delete
 [
@@ -529,7 +528,7 @@ U_ASSERT
 gGenderInfoCache
 =
 =
-NULL
+nullptr
 )
 ;
 if
@@ -556,7 +555,7 @@ if
 gObjs
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -598,7 +597,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 status
 )
@@ -685,7 +684,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -697,7 +696,7 @@ GenderInfo
 *
 result
 =
-NULL
+nullptr
 ;
 const
 char
@@ -770,7 +769,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -862,7 +861,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -893,7 +892,7 @@ rb
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 genderList
 "
@@ -911,7 +910,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocalUResourceBundlePointer
@@ -927,7 +926,7 @@ getAlias
 "
 genderList
 "
-NULL
+nullptr
 &
 status
 )
@@ -942,7 +941,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -967,7 +966,7 @@ key_status
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -990,7 +989,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 key_status
@@ -1014,7 +1013,7 @@ while
 s
 =
 =
-NULL
+nullptr
 &
 &
 uloc_getParent
@@ -1064,7 +1063,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 return

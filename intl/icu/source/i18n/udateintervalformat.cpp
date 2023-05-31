@@ -354,13 +354,13 @@ char
 *
 locale
 const
-UChar
+char16_t
 *
 skeleton
 int32_t
 skeletonLength
 const
-UChar
+char16_t
 *
 tzID
 int32_t
@@ -380,7 +380,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -389,7 +389,7 @@ if
 skeleton
 =
 =
-NULL
+nullptr
 ?
 skeletonLength
 !
@@ -407,7 +407,7 @@ skeletonLength
 tzID
 =
 =
-NULL
+nullptr
 ?
 tzIDLength
 !
@@ -427,7 +427,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -478,7 +478,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -520,7 +520,7 @@ if
 zone
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -529,7 +529,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 formatter
@@ -584,7 +584,7 @@ UDate
 fromDate
 UDate
 toDate
-UChar
+char16_t
 *
 result
 int32_t
@@ -616,7 +616,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultCapacity
 !
@@ -645,12 +645,12 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 /
 /
-NULL
+nullptr
 destination
 for
 pure

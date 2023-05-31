@@ -614,7 +614,7 @@ fMatchCloseParen
 ;
 fCaptureName
 =
-NULL
+nullptr
 ;
 fLastSetLiteral
 =
@@ -648,7 +648,7 @@ fDeferredStatus
 }
 static
 const
-UChar
+char16_t
 chAmp
 =
 0x26
@@ -660,7 +660,7 @@ chAmp
 '
 static
 const
-UChar
+char16_t
 chDash
 =
 0x2d
@@ -853,7 +853,7 @@ fCaptureName
 Normally
 will
 be
-NULL
+nullptr
 but
 can
 exist
@@ -1315,7 +1315,7 @@ fRXPat
 fPattern
 =
 =
-NULL
+nullptr
 |
 |
 utext_nativeLength
@@ -2645,7 +2645,7 @@ fRXPat
 fSets8
 =
 =
-NULL
+nullptr
 )
 {
 e
@@ -3606,7 +3606,7 @@ if
 fCaptureName
 =
 =
-NULL
+nullptr
 )
 {
 error
@@ -4069,7 +4069,7 @@ if
 fCaptureName
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4133,7 +4133,7 @@ fStatus
 ;
 fCaptureName
 =
-NULL
+nullptr
 ;
 /
 /
@@ -9764,7 +9764,7 @@ U_ASSERT
 fCaptureName
 =
 =
-NULL
+nullptr
 )
 ;
 fCaptureName
@@ -9777,7 +9777,7 @@ if
 fCaptureName
 =
 =
-NULL
+nullptr
 )
 {
 error
@@ -9936,7 +9936,7 @@ fCaptureName
 ;
 fCaptureName
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -12956,7 +12956,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeSet
@@ -13033,7 +13033,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeSet
@@ -18279,7 +18279,7 @@ if
 theSet
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -20356,7 +20356,7 @@ RECaseFixCounts
 ;
 static
 const
-UChar
+char16_t
 RECaseFixData
 [
 ]
@@ -29305,7 +29305,7 @@ EBCDIC
 /
 static
 const
-UChar
+char16_t
 chCR
 =
 0x0d
@@ -29320,7 +29320,7 @@ comments
 .
 static
 const
-UChar
+char16_t
 chLF
 =
 0x0a
@@ -29331,7 +29331,7 @@ Line
 Feed
 static
 const
-UChar
+char16_t
 chPound
 =
 0x23
@@ -29347,7 +29347,7 @@ comment
 .
 static
 const
-UChar
+char16_t
 chDigit0
 =
 0x30
@@ -29359,7 +29359,7 @@ chDigit0
 '
 static
 const
-UChar
+char16_t
 chDigit7
 =
 0x37
@@ -29371,7 +29371,7 @@ chDigit7
 '
 static
 const
-UChar
+char16_t
 chColon
 =
 0x3A
@@ -29383,7 +29383,7 @@ chColon
 '
 static
 const
-UChar
+char16_t
 chE
 =
 0x45
@@ -29395,7 +29395,7 @@ E
 '
 static
 const
-UChar
+char16_t
 chQ
 =
 0x51
@@ -29409,7 +29409,7 @@ Q
 /
 static
 const
-UChar
+char16_t
 chN
 =
 0x4E
@@ -29421,7 +29421,7 @@ N
 '
 static
 const
-UChar
+char16_t
 chP
 =
 0x50
@@ -29433,7 +29433,7 @@ P
 '
 static
 const
-UChar
+char16_t
 chBackSlash
 =
 0x5c
@@ -29451,7 +29451,7 @@ escape
 /
 static
 const
-UChar
+char16_t
 chLBracket
 =
 0x5b
@@ -29463,7 +29463,7 @@ chLBracket
 '
 static
 const
-UChar
+char16_t
 chRBracket
 =
 0x5d
@@ -29475,7 +29475,7 @@ chRBracket
 '
 static
 const
-UChar
+char16_t
 chUp
 =
 0x5e
@@ -29487,14 +29487,14 @@ chUp
 '
 static
 const
-UChar
+char16_t
 chLowerP
 =
 0x70
 ;
 static
 const
-UChar
+char16_t
 chLBrace
 =
 0x7b
@@ -29506,7 +29506,7 @@ chLBrace
 '
 static
 const
-UChar
+char16_t
 chRBrace
 =
 0x7d
@@ -29518,7 +29518,7 @@ chRBrace
 '
 static
 const
-UChar
+char16_t
 chNEL
 =
 0x85
@@ -29530,7 +29530,7 @@ newline
 variant
 static
 const
-UChar
+char16_t
 chLS
 =
 0x2028
@@ -32145,7 +32145,7 @@ pattern
 /
 /
 or
-NULL
+nullptr
 if
 the
 pattern
@@ -32247,7 +32247,7 @@ UnicodeSet
 *
 uset
 =
-NULL
+nullptr
 ;
 if
 (
@@ -32259,7 +32259,7 @@ fStatus
 )
 {
 return
-NULL
+nullptr
 ;
 }
 (
@@ -32329,7 +32329,7 @@ U_REGEX_PROPERTY_SYNTAX
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 for
@@ -32389,7 +32389,7 @@ U_REGEX_PROPERTY_SYNTAX
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 propertyName
@@ -32588,7 +32588,7 @@ pattern
 /
 /
 or
-NULL
+nullptr
 if
 this
 is
@@ -32778,7 +32778,7 @@ UnicodeSet
 *
 uset
 =
-NULL
+nullptr
 ;
 if
 (
@@ -32790,7 +32790,7 @@ fStatus
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -33456,7 +33456,7 @@ UnicodeSet
 (
 setExpr
 usetFlags
-NULL
+nullptr
 status
 )
 status
@@ -35195,13 +35195,13 @@ UnicodeSet
 *
 rightOperand
 =
-NULL
+nullptr
 ;
 UnicodeSet
 *
 leftOperand
 =
-NULL
+nullptr
 ;
 for
 (

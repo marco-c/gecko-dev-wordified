@@ -769,7 +769,7 @@ UChar32
 ScanHex
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -786,14 +786,12 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -1268,7 +1266,7 @@ together
 into
 one
 long
-UChar
+char16_t
 (
 UTF
 -
@@ -2523,7 +2521,7 @@ fUDM
 /
 If
 not
-NULL
+nullptr
 our
 data
 came
@@ -2569,7 +2567,7 @@ uint16_t
 *
 fCFUValues
 ;
-UChar
+char16_t
 *
 fCFUStrings
 ;

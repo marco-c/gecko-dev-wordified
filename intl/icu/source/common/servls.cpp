@@ -365,7 +365,7 @@ define
 UNDERSCORE_CHAR
 (
 (
-UChar
+char16_t
 )
 0x005f
 )
@@ -374,7 +374,7 @@ define
 AT_SIGN_CHAR
 (
 (
-UChar
+char16_t
 )
 64
 )
@@ -383,7 +383,7 @@ define
 PERIOD_CHAR
 (
 (
-UChar
+char16_t
 )
 46
 )
@@ -466,7 +466,7 @@ LocaleKey
 :
 :
 KIND_ANY
-NULL
+nullptr
 status
 )
 ;
@@ -495,7 +495,7 @@ get
 (
 locale
 kind
-NULL
+nullptr
 status
 )
 ;
@@ -559,7 +559,7 @@ UObject
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -624,7 +624,7 @@ if
 actualReturn
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -658,7 +658,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 key
@@ -855,7 +855,7 @@ if
 factory
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -870,7 +870,7 @@ delete
 objToAdopt
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -995,7 +995,7 @@ if
 factory
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1010,7 +1010,7 @@ delete
 objToAdopt
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -1066,7 +1066,7 @@ getTimestamp
 _ids
 (
 uprv_deleteUObject
-NULL
+nullptr
 status
 )
 _pos
@@ -1110,7 +1110,7 @@ _timestamp
 _ids
 (
 uprv_deleteUObject
-NULL
+nullptr
 status
 )
 _pos
@@ -1258,7 +1258,7 @@ delete
 result
 ;
 return
-NULL
+nullptr
 ;
 }
 virtual
@@ -1306,7 +1306,7 @@ cl
 ;
 cl
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1428,7 +1428,7 @@ _pos
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 virtual
@@ -1493,14 +1493,12 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -1527,7 +1525,6 @@ ICULocaleService
 :
 getAvailableLocales
 (
-void
 )
 const
 {

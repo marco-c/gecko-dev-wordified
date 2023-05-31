@@ -693,13 +693,13 @@ if
 fields
 =
 =
-NULL
+nullptr
 |
 |
 lineFn
 =
 =
-NULL
+nullptr
 |
 |
 fieldCount
@@ -721,7 +721,7 @@ if
 filename
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -753,7 +753,7 @@ filename
 {
 filename
 =
-NULL
+nullptr
 ;
 file
 =
@@ -780,7 +780,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -804,7 +804,7 @@ line
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -954,7 +954,7 @@ if
 limit
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -1243,7 +1243,7 @@ if
 filename
 !
 =
-NULL
+nullptr
 )
 {
 T_FileStream_close
@@ -1332,7 +1332,7 @@ if
 s
 =
 =
-NULL
+nullptr
 |
 |
 destCapacity
@@ -1349,7 +1349,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -1573,7 +1573,7 @@ const
 char
 *
 s
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1614,7 +1614,7 @@ if
 s
 =
 =
-NULL
+nullptr
 |
 |
 destCapacity
@@ -1631,7 +1631,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -1649,7 +1649,7 @@ if
 pFirst
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1819,7 +1819,7 @@ if
 pFirst
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1829,7 +1829,7 @@ value
 ;
 pFirst
 =
-NULL
+nullptr
 ;
 }
 /
@@ -1955,19 +1955,19 @@ if
 s
 =
 =
-NULL
+nullptr
 |
 |
 pStart
 =
 =
-NULL
+nullptr
 |
 |
 pEnd
 =
 =
-NULL
+nullptr
 )
 {
 *

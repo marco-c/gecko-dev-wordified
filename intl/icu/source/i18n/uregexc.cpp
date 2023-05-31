@@ -501,7 +501,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -509,7 +509,7 @@ if
 pattern
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -518,7 +518,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 UnicodeString

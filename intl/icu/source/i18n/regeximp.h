@@ -2463,7 +2463,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -2654,7 +2654,7 @@ UText
 fUText
 ;
 const
-UChar
+char16_t
 *
 fFoldChars
 ;
@@ -2670,7 +2670,7 @@ fFoldIndex
 /
 Case
 folded
-UChar
+char16_t
 *
 string
 iterator
@@ -2679,7 +2679,7 @@ iterator
 /
 Wraps
 a
-UChar
+char16_t
 *
 provides
 a
@@ -2719,7 +2719,7 @@ public
 CaseFoldingUCharIterator
 (
 const
-UChar
+char16_t
 *
 chars
 int64_t
@@ -2803,7 +2803,7 @@ index
 private
 :
 const
-UChar
+char16_t
 *
 fChars
 ;
@@ -2814,7 +2814,7 @@ int64_t
 fLimit
 ;
 const
-UChar
+char16_t
 *
 fFoldChars
 ;

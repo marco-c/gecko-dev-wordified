@@ -389,7 +389,7 @@ break
 /
 |
 return
-NULL
+nullptr
 ;
 /
 /
@@ -532,7 +532,7 @@ TESTCASE_AUTO_END
 /
 |
 return
-NULL
+nullptr
 ;
 /
 /
@@ -956,12 +956,12 @@ char
 *
 name
 =
-NULL
+nullptr
 char
 *
 par
 =
-NULL
+nullptr
 )
 ;
 /
@@ -974,7 +974,6 @@ virtual
 void
 usage
 (
-void
 )
 ;
 virtual
@@ -1021,7 +1020,7 @@ status
 )
 ;
 const
-UChar
+char16_t
 *
 getBuffer
 (
@@ -1107,7 +1106,7 @@ char
 *
 par
 =
-NULL
+nullptr
 )
 ;
 /
@@ -1191,7 +1190,7 @@ numLines
 UBool
 line_mode
 ;
-UChar
+char16_t
 *
 buffer
 ;

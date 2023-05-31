@@ -169,7 +169,7 @@ UErrorCode
 &
 status
 )
-U_OVERRIDE
+override
 {
 ResourceArray
 entriesArray
@@ -511,7 +511,7 @@ internalStatus
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 set
 =

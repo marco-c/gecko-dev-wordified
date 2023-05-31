@@ -516,7 +516,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -578,7 +578,7 @@ UnicodeFunctor
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -636,7 +636,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -702,7 +702,7 @@ variables
 ;
 variables
 =
-NULL
+nullptr
 ;
 return
 ;

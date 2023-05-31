@@ -356,14 +356,14 @@ DataMap
 *
 settings
 =
-NULL
+nullptr
 ;
 *
 DataMap
 *
 cases
 =
-NULL
+nullptr
 ;
 *
 while
@@ -520,7 +520,7 @@ will
 be
 set
 to
-NULL
+nullptr
 *
 /
 virtual
@@ -584,7 +584,7 @@ user
 .
 Will
 be
-NULL
+nullptr
 if
 *
 no
@@ -672,7 +672,7 @@ user
 .
 Will
 be
-NULL
+nullptr
 if
 *
 no

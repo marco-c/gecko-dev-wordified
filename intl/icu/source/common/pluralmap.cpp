@@ -260,7 +260,7 @@ gPluralForms
 )
 )
 ?
-NULL
+nullptr
 :
 gPluralForms
 [

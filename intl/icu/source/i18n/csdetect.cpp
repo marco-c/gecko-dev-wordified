@@ -407,7 +407,7 @@ CSRecognizerInfo
 *
 fCSRecognizers
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -430,7 +430,6 @@ UBool
 U_CALLCONV
 csdet_cleanup
 (
-void
 )
 {
 U_NAMESPACE_USE
@@ -439,7 +438,7 @@ if
 fCSRecognizers
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -470,7 +469,7 @@ fCSRecognizers
 r
 ]
 =
-NULL
+nullptr
 ;
 }
 DELETE_ARRAY
@@ -480,7 +479,7 @@ fCSRecognizers
 ;
 fCSRecognizers
 =
-NULL
+nullptr
 ;
 fCSRecognizers_size
 =
@@ -891,7 +890,7 @@ if
 fCSRecognizers
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -940,7 +939,7 @@ r
 ]
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -993,7 +992,7 @@ status
 )
 resultArray
 (
-NULL
+nullptr
 )
 resultCount
 (
@@ -1009,7 +1008,7 @@ false
 )
 fEnabledRecognizers
 (
-NULL
+nullptr
 )
 {
 if
@@ -1062,7 +1061,7 @@ if
 resultArray
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1107,7 +1106,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1327,7 +1326,7 @@ resultArray
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1380,7 +1379,7 @@ text
 not
 set
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1491,7 +1490,7 @@ resultArray
 0
 ]
 charsetMatchComparator
-NULL
+nullptr
 true
 &
 status
@@ -1520,7 +1519,7 @@ status
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1656,7 +1655,7 @@ if
 fEnabledRecognizers
 =
 =
-NULL
+nullptr
 &
 &
 !
@@ -1686,7 +1685,7 @@ if
 fEnabledRecognizers
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1740,7 +1739,7 @@ if
 fEnabledRecognizers
 !
 =
-NULL
+nullptr
 )
 {
 fEnabledRecognizers
@@ -1845,7 +1844,7 @@ en
 context
 !
 =
-NULL
+nullptr
 )
 {
 DELETE_ARRAY
@@ -1939,7 +1938,7 @@ if
 enabledArray
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2048,7 +2047,7 @@ char
 *
 currName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2165,7 +2164,7 @@ if
 enabledArray
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2177,7 +2176,7 @@ while
 currName
 =
 =
-NULL
+nullptr
 &
 &
 (
@@ -2274,7 +2273,7 @@ while
 currName
 =
 =
-NULL
+nullptr
 &
 &
 (
@@ -2370,7 +2369,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2379,7 +2378,7 @@ resultLength
 currName
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -2431,8 +2430,8 @@ UEnumeration
 gCSDetEnumeration
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 enumClose
 enumCount
 uenum_unextDefault
@@ -2494,7 +2493,7 @@ if
 en
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2539,7 +2538,7 @@ en
 context
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2628,7 +2627,7 @@ if
 en
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2673,7 +2672,7 @@ en
 context
 =
 =
-NULL
+nullptr
 )
 {
 status

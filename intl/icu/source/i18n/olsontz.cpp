@@ -552,13 +552,13 @@ if
 a1
 =
 =
-NULL
+nullptr
 &
 &
 a2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -571,13 +571,13 @@ if
 a1
 !
 =
-NULL
+nullptr
 &
 &
 a2
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -585,13 +585,13 @@ NULL
 a1
 =
 =
-NULL
+nullptr
 &
 &
 a2
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -812,7 +812,7 @@ constructEmpty
 {
 canonicalID
 =
-NULL
+nullptr
 ;
 transitionCountPre32
 =
@@ -828,11 +828,11 @@ transitionTimes32
 =
 transitionTimesPost32
 =
-NULL
+nullptr
 ;
 typeMapData
 =
-NULL
+nullptr
 ;
 typeCount
 =
@@ -844,7 +844,7 @@ ZEROS
 ;
 finalZone
 =
-NULL
+nullptr
 ;
 }
 /
@@ -936,7 +936,7 @@ tzid
 )
 finalZone
 (
-NULL
+nullptr
 )
 {
 clearTransitionRules
@@ -972,13 +972,13 @@ if
 top
 =
 =
-NULL
+nullptr
 |
 |
 res
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -1125,7 +1125,7 @@ pre
 transitions
 transitionTimesPre32
 =
-NULL
+nullptr
 ;
 transitionCountPre32
 =
@@ -1238,7 +1238,7 @@ No
 transitions
 transitionTimes32
 =
-NULL
+nullptr
 ;
 transitionCount32
 =
@@ -1340,7 +1340,7 @@ pre
 transitions
 transitionTimesPost32
 =
-NULL
+nullptr
 ;
 transitionCountPost32
 =
@@ -1500,7 +1500,7 @@ transition
 count
 typeMapData
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1599,7 +1599,7 @@ ec
 )
 {
 const
-UChar
+char16_t
 *
 ruleIdUStr
 =
@@ -1694,7 +1694,7 @@ loadRule
 (
 top
 ruleID
-NULL
+nullptr
 ec
 )
 ;
@@ -1826,7 +1826,7 @@ if
 finalZone
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -2648,7 +2648,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 &
 &
 year
@@ -2772,7 +2772,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 &
 &
 date
@@ -2848,7 +2848,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 &
 &
 date
@@ -4040,7 +4040,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 &
 &
 current
@@ -4242,7 +4242,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -4353,7 +4353,7 @@ if
 z
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4437,7 +4437,7 @@ if
 finalZone
 =
 =
-NULL
+nullptr
 &
 &
 z
@@ -4446,7 +4446,7 @@ z
 finalZone
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -4454,7 +4454,7 @@ NULL
 finalZone
 !
 =
-NULL
+nullptr
 &
 &
 z
@@ -4463,7 +4463,7 @@ z
 finalZone
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -4471,7 +4471,7 @@ NULL
 finalZone
 !
 =
-NULL
+nullptr
 &
 &
 z
@@ -4480,7 +4480,7 @@ z
 finalZone
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -4504,7 +4504,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4687,24 +4687,23 @@ OlsonTimeZone
 :
 clearTransitionRules
 (
-void
 )
 {
 initialRule
 =
-NULL
+nullptr
 ;
 firstTZTransition
 =
-NULL
+nullptr
 ;
 firstFinalTZTransition
 =
-NULL
+nullptr
 ;
 historicRules
 =
-NULL
+nullptr
 ;
 historicRuleCount
 =
@@ -4712,7 +4711,7 @@ historicRuleCount
 ;
 finalZoneWithStartYear
 =
-NULL
+nullptr
 ;
 firstTZTransitionIdx
 =
@@ -4731,7 +4730,6 @@ OlsonTimeZone
 :
 deleteTransitionRules
 (
-void
 )
 {
 if
@@ -4739,7 +4737,7 @@ if
 initialRule
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -4751,7 +4749,7 @@ if
 firstTZTransition
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -4763,7 +4761,7 @@ if
 firstFinalTZTransition
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -4775,7 +4773,7 @@ if
 finalZoneWithStartYear
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -4787,7 +4785,7 @@ if
 historicRules
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -4814,7 +4812,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -5025,7 +5023,7 @@ if
 initialRule
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5205,7 +5203,7 @@ if
 times
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5295,7 +5293,7 @@ if
 finalZone
 =
 =
-NULL
+nullptr
 |
 |
 tt
@@ -5367,7 +5365,7 @@ if
 historicRules
 =
 =
-NULL
+nullptr
 )
 {
 historicRuleCount
@@ -5397,7 +5395,7 @@ if
 historicRules
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5438,13 +5436,13 @@ Initialize
 TimeArrayTimeZoneRule
 pointers
 as
-NULL
+nullptr
 historicRules
 [
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -5491,7 +5489,7 @@ typeIdx
 ]
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5563,7 +5561,7 @@ if
 firstTZTransition
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5584,7 +5582,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -5609,7 +5607,7 @@ TimeZoneRule
 *
 firstFinalRule
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5716,7 +5714,7 @@ if
 finalZoneWithStartYear
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5780,7 +5778,7 @@ if
 firstFinalRule
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5837,7 +5835,7 @@ if
 finalZoneWithStartYear
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5894,7 +5892,7 @@ if
 firstFinalRule
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5913,7 +5911,7 @@ TimeZoneRule
 *
 prevRule
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5940,7 +5938,7 @@ if
 prevRule
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -5980,7 +5978,7 @@ if
 firstFinalTZTransition
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6068,7 +6066,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6163,7 +6161,7 @@ if
 historicRules
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6248,7 +6246,7 @@ if
 firstFinalTZTransition
 !
 =
-NULL
+nullptr
 )
 {
 result
@@ -6497,7 +6495,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6591,7 +6589,7 @@ if
 historicRules
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6908,7 +6906,7 @@ if
 historicRules
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6953,7 +6951,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 count
@@ -6968,7 +6966,7 @@ if
 finalZone
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -7074,7 +7072,7 @@ if
 historicRules
 !
 =
-NULL
+nullptr
 &
 &
 trscount
@@ -7124,7 +7122,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 trsrules
@@ -7158,7 +7156,7 @@ if
 finalZoneWithStartYear
 !
 =
-NULL
+nullptr
 &
 &
 trscount

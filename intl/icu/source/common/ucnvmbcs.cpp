@@ -3924,8 +3924,8 @@ UCNV_MBCS
 ucnv_MBCSLoad
 ucnv_MBCSUnload
 ucnv_MBCSOpen
-NULL
-NULL
+nullptr
+nullptr
 ucnv_MBCSToUnicodeWithOffsets
 ucnv_MBCSToUnicodeWithOffsets
 ucnv_MBCSFromUnicodeWithOffsets
@@ -3934,9 +3934,9 @@ ucnv_MBCSGetNextUChar
 ucnv_MBCSGetStarters
 ucnv_MBCSGetName
 ucnv_MBCSWriteSub
-NULL
+nullptr
 ucnv_MBCSGetUnicodeSet
-NULL
+nullptr
 ucnv_SBCSFromUTF8
 }
 ;
@@ -3950,8 +3950,8 @@ UCNV_MBCS
 ucnv_MBCSLoad
 ucnv_MBCSUnload
 ucnv_MBCSOpen
-NULL
-NULL
+nullptr
+nullptr
 ucnv_MBCSToUnicodeWithOffsets
 ucnv_MBCSToUnicodeWithOffsets
 ucnv_MBCSFromUnicodeWithOffsets
@@ -3960,9 +3960,9 @@ ucnv_MBCSGetNextUChar
 ucnv_MBCSGetStarters
 ucnv_MBCSGetName
 ucnv_MBCSWriteSub
-NULL
+nullptr
 ucnv_MBCSGetUnicodeSet
-NULL
+nullptr
 ucnv_DBCSFromUTF8
 }
 ;
@@ -3976,8 +3976,8 @@ UCNV_MBCS
 ucnv_MBCSLoad
 ucnv_MBCSUnload
 ucnv_MBCSOpen
-NULL
-NULL
+nullptr
+nullptr
 ucnv_MBCSToUnicodeWithOffsets
 ucnv_MBCSToUnicodeWithOffsets
 ucnv_MBCSFromUnicodeWithOffsets
@@ -3986,10 +3986,10 @@ ucnv_MBCSGetNextUChar
 ucnv_MBCSGetStarters
 ucnv_MBCSGetName
 ucnv_MBCSWriteSub
-NULL
+nullptr
 ucnv_MBCSGetUnicodeSet
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 /
@@ -4032,8 +4032,8 @@ sizeof
 UConverterSharedData
 )
 1
-NULL
-NULL
+nullptr
+nullptr
 false
 true
 &
@@ -5223,7 +5223,7 @@ point
 c
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -8063,12 +8063,12 @@ sharedData
 UChar32
 cp
 const
-UChar
+char16_t
 *
 *
 source
 const
-UChar
+char16_t
 *
 sourceLimit
 uint8_t
@@ -8118,7 +8118,7 @@ extIndexes
 )
 !
 =
-NULL
+nullptr
 &
 &
 ucnv_extInitialMatchFromU
@@ -8530,12 +8530,12 @@ const
 uint8_t
 *
 sourceLimit
-UChar
+char16_t
 *
 *
 target
 const
-UChar
+char16_t
 *
 targetLimit
 int32_t
@@ -8570,7 +8570,7 @@ extIndexes
 )
 !
 =
-NULL
+nullptr
 &
 &
 ucnv_extInitialMatchToU
@@ -9668,7 +9668,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9922,7 +9922,7 @@ icu
 :
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -9933,7 +9933,7 @@ mbcsTable
 swapLFNLStateTable
 =
 =
-NULL
+nullptr
 )
 {
 mbcsTable
@@ -9963,7 +9963,7 @@ name
 ;
 newStateTable
 =
-NULL
+nullptr
 ;
 }
 icu
@@ -9971,7 +9971,7 @@ icu
 :
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 /
@@ -9994,7 +9994,7 @@ if
 newStateTable
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -10650,7 +10650,7 @@ mbcsTable
 reconstitutedData
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -11431,7 +11431,7 @@ extIndexes
 )
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -11668,7 +11668,7 @@ mbcs
 baseSharedData
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_unload
@@ -11860,21 +11860,21 @@ mbcsTable
 >
 swapLFNLStateTable
 =
-NULL
+nullptr
 ;
 mbcsTable
 -
 >
 swapLFNLFromUnicodeBytes
 =
-NULL
+nullptr
 ;
 mbcsTable
 -
 >
 swapLFNLName
 =
-NULL
+nullptr
 ;
 /
 *
@@ -11900,7 +11900,7 @@ mbcsTable
 >
 reconstitutedData
 =
-NULL
+nullptr
 ;
 /
 *
@@ -12210,7 +12210,7 @@ if
 newStateTable
 =
 =
-NULL
+nullptr
 )
 {
 ucnv_unload
@@ -13262,7 +13262,7 @@ maxFastUChar
 (
 (
 (
-UChar
+char16_t
 )
 header
 -
@@ -13591,7 +13591,7 @@ mbcsTable
 swapLFNLStateTable
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -13632,7 +13632,7 @@ mbcsTable
 baseSharedData
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_unload
@@ -13652,7 +13652,7 @@ mbcsTable
 reconstitutedData
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -13796,7 +13796,7 @@ icu
 :
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 isCached
@@ -13807,14 +13807,14 @@ mbcsTable
 swapLFNLStateTable
 !
 =
-NULL
+nullptr
 ;
 icu
 :
 :
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -13897,7 +13897,7 @@ name
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -13914,7 +13914,7 @@ gb18030
 )
 !
 =
-NULL
+nullptr
 |
 |
 uprv_strstr
@@ -13929,7 +13929,7 @@ GB18030
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -13974,7 +13974,7 @@ KEIS
 )
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -13991,7 +13991,7 @@ keis
 )
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -14038,7 +14038,7 @@ JEF
 )
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -14055,7 +14055,7 @@ jef
 )
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -14102,7 +14102,7 @@ JIPS
 )
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -14119,7 +14119,7 @@ jips
 )
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -14198,7 +14198,7 @@ if
 extIndexes
 !
 =
-NULL
+nullptr
 )
 {
 maxBytesPerUChar
@@ -14394,7 +14394,7 @@ mbcs
 swapLFNLName
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -14658,12 +14658,12 @@ source
 *
 sourceLimit
 ;
-UChar
+char16_t
 *
 target
 ;
 const
-UChar
+char16_t
 *
 targetLimit
 ;
@@ -14687,7 +14687,7 @@ sourceIndex
 int32_t
 entry
 ;
-UChar
+char16_t
 c
 ;
 uint8_t
@@ -14985,7 +14985,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -14997,7 +14997,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -15111,13 +15111,13 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xd800
 |
 (
-UChar
+char16_t
 )
 (
 entry
@@ -15132,7 +15132,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -15146,13 +15146,13 @@ sourceIndex
 c
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
 |
 (
-UChar
+char16_t
 )
 (
 entry
@@ -15180,7 +15180,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -15263,7 +15263,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -15275,7 +15275,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -15601,7 +15601,7 @@ sourceLimit
 *
 lastSource
 ;
-UChar
+char16_t
 *
 target
 ;
@@ -15792,7 +15792,7 @@ is
 1
 :
 1
-UChar
+char16_t
 :
 uint8_t
 we
@@ -15910,7 +15910,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -15939,7 +15939,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -15968,7 +15968,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -15997,7 +15997,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16026,7 +16026,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16055,7 +16055,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16084,7 +16084,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16113,7 +16113,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16142,7 +16142,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16171,7 +16171,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16200,7 +16200,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16229,7 +16229,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16258,7 +16258,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16287,7 +16287,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16316,7 +16316,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16345,7 +16345,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16425,7 +16425,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 lastSource
@@ -16666,7 +16666,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16749,7 +16749,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -16835,7 +16835,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -17154,7 +17154,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 size_t
@@ -17646,12 +17646,12 @@ source
 *
 sourceLimit
 ;
-UChar
+char16_t
 *
 target
 ;
 const
-UChar
+char16_t
 *
 targetLimit
 ;
@@ -17694,7 +17694,7 @@ nextSourceIndex
 int32_t
 entry
 ;
-UChar
+char16_t
 c
 ;
 uint8_t
@@ -18229,7 +18229,7 @@ if
 offsets
 =
 =
-NULL
+nullptr
 )
 {
 do
@@ -18416,7 +18416,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -18474,7 +18474,7 @@ else
 offsets
 !
 =
-NULL
+nullptr
 *
 /
 {
@@ -18584,7 +18584,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -18691,7 +18691,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -18703,7 +18703,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19053,7 +19053,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19125,7 +19125,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 entry
 ;
@@ -19134,7 +19134,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19191,7 +19191,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -19203,7 +19203,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19274,7 +19274,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19325,7 +19325,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 c
@@ -19338,7 +19338,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19375,7 +19375,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19482,7 +19482,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19565,13 +19565,13 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xd800
 |
 (
-UChar
+char16_t
 )
 (
 entry
@@ -19586,7 +19586,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19604,13 +19604,13 @@ byteIndex
 c
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
 |
 (
-UChar
+char16_t
 )
 (
 entry
@@ -19638,7 +19638,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -19854,7 +19854,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -19866,7 +19866,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -20675,7 +20675,7 @@ point
 /
 return
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -20793,7 +20793,7 @@ point
 /
 return
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -21677,7 +21677,7 @@ point
 c
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -22168,7 +22168,7 @@ point
 c
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -22846,7 +22846,7 @@ point
 /
 return
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -22950,7 +22950,7 @@ point
 /
 return
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -23597,7 +23597,7 @@ point
 c
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -23846,7 +23846,7 @@ point
 c
 =
 (
-UChar
+char16_t
 )
 MBCS_ENTRY_FINAL_VALUE_16
 (
@@ -23997,7 +23997,7 @@ if
 cx
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -24096,7 +24096,7 @@ UConverter
 cnv
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -24481,7 +24481,7 @@ point
 *
 a
 single
-UChar
+char16_t
 for
 a
 BMP
@@ -24544,7 +24544,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -24753,7 +24753,7 @@ code
 unit
 *
 /
-UChar
+char16_t
 trail
 =
 *
@@ -25270,7 +25270,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -25334,7 +25334,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -25365,7 +25365,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -25550,7 +25550,7 @@ UConverter
 cnv
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -25951,7 +25951,7 @@ point
 *
 a
 single
-UChar
+char16_t
 for
 a
 BMP
@@ -26018,7 +26018,7 @@ code
 unit
 *
 /
-UChar
+char16_t
 trail
 =
 *
@@ -26281,7 +26281,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -26667,7 +26667,7 @@ UConverter
 cnv
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -26955,7 +26955,7 @@ is
 1
 :
 1
-UChar
+char16_t
 :
 uint8_t
 we
@@ -27265,7 +27265,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 lastSource
@@ -27351,7 +27351,7 @@ point
 *
 a
 single
-UChar
+char16_t
 for
 a
 BMP
@@ -27617,7 +27617,7 @@ code
 unit
 *
 /
-UChar
+char16_t
 trail
 =
 *
@@ -27809,7 +27809,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -28114,7 +28114,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 size_t
@@ -28264,7 +28264,7 @@ UConverter
 cnv
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -28653,7 +28653,7 @@ else
 {
 mbcsIndex
 =
-NULL
+nullptr
 ;
 }
 if
@@ -29106,7 +29106,7 @@ point
 *
 a
 single
-UChar
+char16_t
 for
 a
 BMP
@@ -29169,7 +29169,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -29243,7 +29243,7 @@ c
 mbcsIndex
 !
 =
-NULL
+nullptr
 )
 {
 value
@@ -30457,7 +30457,7 @@ code
 unit
 *
 /
-UChar
+char16_t
 trail
 =
 *
@@ -32216,7 +32216,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 prevSourceIndex
@@ -32276,7 +32276,7 @@ if
 offsets
 =
 =
-NULL
+nullptr
 )
 {
 switch
@@ -32762,7 +32762,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -32798,7 +32798,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -32829,7 +32829,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -32899,7 +32899,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 prevSourceIndex
@@ -33132,7 +33132,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -34390,7 +34390,7 @@ if
 cx
 !
 =
-NULL
+nullptr
 )
 {
 length
@@ -36473,13 +36473,13 @@ conversion
 /
 static
 const
-UChar
+char16_t
 nul
 =
 0
 ;
 const
-UChar
+char16_t
 *
 noSource
 =
@@ -36504,7 +36504,7 @@ target
 target
 +
 targetCapacity
-NULL
+nullptr
 -
 1
 pFromUArgs
@@ -38511,13 +38511,13 @@ conversion
 /
 static
 const
-UChar
+char16_t
 nul
 =
 0
 ;
 const
-UChar
+char16_t
 *
 noSource
 =
@@ -38542,7 +38542,7 @@ target
 target
 +
 targetCapacity
-NULL
+nullptr
 -
 1
 pFromUArgs
@@ -39190,7 +39190,7 @@ mbcs
 extIndexes
 !
 =
-NULL
+nullptr
 ?
 cnv
 -

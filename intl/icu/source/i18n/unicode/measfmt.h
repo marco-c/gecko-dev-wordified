@@ -1488,7 +1488,7 @@ a
 formatter
 object
 or
-NULL
+nullptr
 upon
 error
 *
@@ -1580,7 +1580,7 @@ a
 formatter
 object
 or
-NULL
+nullptr
 upon
 error
 *

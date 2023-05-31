@@ -653,7 +653,7 @@ error
 occurs
 *
 then
-NULL
+nullptr
 is
 returned
 .
@@ -888,7 +888,7 @@ no
 more
 elements
 returns
-NULL
+nullptr
 .
 If
 the
@@ -897,7 +897,7 @@ pointer
 *
 is
 not
-NULL
+nullptr
 the
 length
 of
@@ -1005,7 +1005,7 @@ set
 to
 U_ENUM_OUT_OF_SYNC_ERROR
 and
-NULL
+nullptr
 is
 returned
 .
@@ -1070,7 +1070,7 @@ undefined
 (
 though
 not
-NULL
+nullptr
 )
 .
 <
@@ -1134,7 +1134,7 @@ the
 length
 can
 be
-NULL
+nullptr
 .
 *
 return
@@ -1144,7 +1144,7 @@ to
 the
 string
 or
-NULL
+nullptr
 .
 *
 *
@@ -1196,7 +1196,7 @@ no
 more
 elements
 returns
-NULL
+nullptr
 .
 If
 the
@@ -1205,7 +1205,7 @@ pointer
 *
 is
 not
-NULL
+nullptr
 the
 length
 of
@@ -1313,7 +1313,7 @@ set
 to
 U_ENUM_OUT_OF_SYNC_ERROR
 and
-NULL
+nullptr
 is
 returned
 .
@@ -1361,7 +1361,7 @@ the
 length
 can
 be
-NULL
+nullptr
 .
 *
 return
@@ -1371,7 +1371,7 @@ to
 the
 string
 or
-NULL
+nullptr
 .
 *
 *
@@ -1419,7 +1419,7 @@ no
 more
 elements
 returns
-NULL
+nullptr
 .
 <
 /
@@ -1495,7 +1495,7 @@ set
 to
 U_ENUM_OUT_OF_SYNC_ERROR
 and
-NULL
+nullptr
 is
 returned
 .
@@ -1557,7 +1557,7 @@ to
 the
 string
 or
-NULL
+nullptr
 .
 *
 *

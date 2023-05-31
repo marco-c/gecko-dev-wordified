@@ -98,7 +98,7 @@ stdio
 .
 h
 >
-UChar
+char16_t
 testChars
 [
 ]

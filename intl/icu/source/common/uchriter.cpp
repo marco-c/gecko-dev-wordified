@@ -532,15 +532,20 @@ return
 false
 ;
 }
+const
 UCharCharacterIterator
 &
 realThat
 =
-(
+static_cast
+<
+const
 UCharCharacterIterator
 &
-)
+>
+(
 that
+)
 ;
 return
 text
@@ -625,7 +630,7 @@ this
 )
 ;
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :
@@ -658,7 +663,7 @@ DONE
 ;
 }
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :
@@ -693,7 +698,7 @@ DONE
 ;
 }
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :
@@ -728,7 +733,7 @@ DONE
 ;
 }
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :
@@ -791,7 +796,7 @@ DONE
 ;
 }
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :
@@ -827,7 +832,7 @@ DONE
 ;
 }
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :
@@ -874,7 +879,7 @@ DONE
 ;
 }
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :
@@ -928,7 +933,7 @@ false
 )
 ;
 }
-UChar
+char16_t
 UCharCharacterIterator
 :
 :

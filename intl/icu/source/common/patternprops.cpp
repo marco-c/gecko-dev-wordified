@@ -1525,7 +1525,7 @@ false
 }
 }
 const
-UChar
+char16_t
 *
 PatternProps
 :
@@ -1533,7 +1533,7 @@ PatternProps
 skipWhiteSpace
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1623,7 +1623,7 @@ i
 ;
 }
 const
-UChar
+char16_t
 *
 PatternProps
 :
@@ -1631,7 +1631,7 @@ PatternProps
 trimWhiteSpace
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1783,7 +1783,7 @@ PatternProps
 isIdentifier
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1803,7 +1803,7 @@ false
 ;
 }
 const
-UChar
+char16_t
 *
 limit
 =
@@ -1841,7 +1841,7 @@ true
 ;
 }
 const
-UChar
+char16_t
 *
 PatternProps
 :
@@ -1849,7 +1849,7 @@ PatternProps
 skipIdentifier
 (
 const
-UChar
+char16_t
 *
 s
 int32_t

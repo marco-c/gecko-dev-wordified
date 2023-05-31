@@ -528,7 +528,7 @@ uint8_t
 )
 sizeof
 (
-UChar
+char16_t
 )
 0
 {
@@ -900,7 +900,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -911,7 +911,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -919,7 +919,7 @@ if
 data
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -947,7 +947,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 pHeader
@@ -1025,7 +1025,7 @@ pErrorCode
 U_UNSUPPORTED_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1142,7 +1142,7 @@ pErrorCode
 U_UNSUPPORTED_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1200,7 +1200,7 @@ if
 pInfo
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1747,7 +1747,7 @@ prepend
 the
 path
 unless
-NULL
+nullptr
 or
 empty
 if
@@ -1755,7 +1755,7 @@ if
 path
 !
 =
-NULL
+nullptr
 &
 &
 path
@@ -2024,7 +2024,7 @@ U_FILE_SEP_CHAR
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2189,7 +2189,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -2726,7 +2726,7 @@ pkgPrefix
 ;
 inData
 =
-NULL
+nullptr
 ;
 inLength
 =
@@ -2750,7 +2750,7 @@ itemMax
 ;
 items
 =
-NULL
+nullptr
 ;
 inStringTop
 =
@@ -2766,7 +2766,7 @@ findPrefix
 =
 findSuffix
 =
-NULL
+nullptr
 ;
 findPrefixLength
 =
@@ -3100,7 +3100,7 @@ inData
 =
 readFile
 (
-NULL
+nullptr
 filename
 inLength
 type
@@ -4139,7 +4139,7 @@ if
 prefixLimit
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -5125,7 +5125,7 @@ if
 comment
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -5354,7 +5354,7 @@ i
 =
 TYPE_B
 ?
-NULL
+nullptr
 :
 udata_openSwapper
 (
@@ -5376,7 +5376,7 @@ i
 =
 TYPE_L
 ?
-NULL
+nullptr
 :
 udata_openSwapper
 (
@@ -5393,7 +5393,7 @@ ds
 TYPE_LE
 ]
 =
-NULL
+nullptr
 ;
 ds
 [
@@ -5405,7 +5405,7 @@ i
 =
 TYPE_E
 ?
-NULL
+nullptr
 :
 udata_openSwapper
 (
@@ -5476,7 +5476,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 ds
@@ -5536,7 +5536,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -5579,7 +5579,7 @@ if
 dsLocalToOut
 !
 =
-NULL
+nullptr
 )
 {
 udata_swapDataHeader
@@ -5781,7 +5781,7 @@ if
 dsLocalToOut
 !
 =
-NULL
+nullptr
 )
 {
 dsLocalToOut
@@ -6110,7 +6110,7 @@ if
 dsLocalToOut
 !
 =
-NULL
+nullptr
 )
 {
 dsLocalToOut
@@ -6289,7 +6289,7 @@ if
 dsLocalToOut
 !
 =
-NULL
+nullptr
 )
 {
 dsLocalToOut
@@ -6543,7 +6543,7 @@ type
 ]
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -7010,7 +7010,7 @@ if
 pattern
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -7034,7 +7034,7 @@ pattern
 ;
 findSuffix
 =
-NULL
+nullptr
 ;
 findSuffixLength
 =
@@ -7055,7 +7055,7 @@ if
 wild
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -7108,7 +7108,7 @@ findSuffix
 ;
 if
 (
-NULL
+nullptr
 !
 =
 strchr
@@ -7383,7 +7383,7 @@ if
 treeSep
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -7469,7 +7469,7 @@ name
 addItem
 (
 name
-NULL
+nullptr
 0
 false
 U_ICUDATA_TYPE_LETTER
@@ -8396,7 +8396,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -8688,7 +8688,7 @@ idx
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -8973,7 +8973,7 @@ sizeof
 Item
 )
 compareItems
-NULL
+nullptr
 false
 &
 errorCode
@@ -9069,7 +9069,7 @@ if
 newItems
 =
 =
-NULL
+nullptr
 )
 {
 fprintf

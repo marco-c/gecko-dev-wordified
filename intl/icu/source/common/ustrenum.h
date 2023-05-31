@@ -581,7 +581,7 @@ no
 more
 elements
 returns
-NULL
+nullptr
 .
 *
 param
@@ -598,7 +598,7 @@ to
 the
 string
 or
-NULL
+nullptr
 .
 *
 /

@@ -626,13 +626,12 @@ subclassing
 a
 little
 easier
-UChar
+char16_t
 CharacterIterator
 :
 :
 firstPostInc
 (
-void
 )
 {
 setToStart
@@ -651,7 +650,6 @@ CharacterIterator
 :
 first32PostInc
 (
-void
 )
 {
 setToStart

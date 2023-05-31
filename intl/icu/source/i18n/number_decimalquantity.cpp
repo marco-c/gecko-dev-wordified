@@ -431,7 +431,7 @@ DecimalQuantity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 *
 this
@@ -501,7 +501,7 @@ DecimalQuantity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 if
 (

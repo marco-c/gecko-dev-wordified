@@ -3345,7 +3345,7 @@ recognized
 In
 these
 cases
-NULL
+nullptr
 is
 *
 /
@@ -3712,7 +3712,7 @@ return
 context
 ;
 return
-NULL
+nullptr
 ;
 /
 *
@@ -3904,7 +3904,7 @@ recognized
 In
 these
 cases
-NULL
+nullptr
 is
 *
 /
@@ -4271,7 +4271,7 @@ return
 context
 ;
 return
-NULL
+nullptr
 ;
 /
 *

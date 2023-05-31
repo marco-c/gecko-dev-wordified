@@ -601,7 +601,7 @@ protected
 :
 static
 const
-UChar
+char16_t
 PREFIX_DELIMITER
 ;
 public
@@ -1618,7 +1618,7 @@ key
 .
 Otherwise
 return
-NULL
+nullptr
 .
 <
 /
@@ -1743,7 +1743,7 @@ the
 service
 object
 or
-NULL
+nullptr
 if
 the
 factory
@@ -2305,7 +2305,7 @@ instance
 must
 not
 be
-NULL
+nullptr
 .
 The
 SimpleFactory
@@ -2475,7 +2475,7 @@ the
 service
 object
 or
-NULL
+nullptr
 if
 the
 factory
@@ -3218,7 +3218,7 @@ creation
 was
 successful
 otherwise
-NULL
+nullptr
 .
 *
 /
@@ -4563,7 +4563,7 @@ the
 service
 instance
 or
-NULL
+nullptr
 .
 *
 /
@@ -4637,7 +4637,7 @@ the
 matched
 descriptor
 or
-NULL
+nullptr
 .
 *
 param
@@ -4653,7 +4653,7 @@ the
 service
 instance
 or
-NULL
+nullptr
 .
 *
 /
@@ -4717,7 +4717,7 @@ the
 service
 instance
 or
-NULL
+nullptr
 .
 *
 /
@@ -4754,7 +4754,7 @@ actualReturn
 *
 is
 not
-NULL
+nullptr
 the
 descriptor
 with
@@ -4779,7 +4779,7 @@ matches
 this
 key
 returns
-NULL
+nullptr
 and
 leaves
 actualReturn
@@ -4918,7 +4918,7 @@ the
 matched
 descriptor
 or
-NULL
+nullptr
 .
 *
 param
@@ -4934,7 +4934,7 @@ the
 service
 instance
 or
-NULL
+nullptr
 .
 *
 /
@@ -5045,7 +5045,7 @@ the
 matched
 descriptor
 or
-NULL
+nullptr
 .
 *
 param
@@ -5071,7 +5071,7 @@ the
 service
 instance
 or
-NULL
+nullptr
 .
 *
 /
@@ -5297,7 +5297,7 @@ key
 *
 is
 not
-NULL
+nullptr
 its
 isFallbackOf
 method
@@ -5349,7 +5349,7 @@ filter
 the
 result
 or
-NULL
+nullptr
 if
 all
 IDs
@@ -5607,7 +5607,7 @@ as
 the
 locale
 and
-NULL
+nullptr
 for
 *
 the
@@ -5684,7 +5684,7 @@ UnicodeString
 that
 *
 uses
-NULL
+nullptr
 for
 the
 matchID
@@ -5916,7 +5916,7 @@ key
 *
 is
 not
-NULL
+nullptr
 its
 isFallbackOf
 method
@@ -5983,7 +5983,7 @@ filter
 the
 result
 or
-NULL
+nullptr
 if
 all
 IDs
@@ -6620,7 +6620,6 @@ virtual
 void
 reset
 (
-void
 )
 ;
 /
@@ -6673,7 +6672,6 @@ virtual
 UBool
 isDefault
 (
-void
 )
 const
 ;
@@ -6694,9 +6692,9 @@ ID
 If
 ID
 is
-NULL
+nullptr
 returns
-NULL
+nullptr
 .
 <
 /
@@ -6768,7 +6766,7 @@ corresponding
 to
 ID
 or
-NULL
+nullptr
 .
 *
 /
@@ -6870,7 +6868,7 @@ passed
 in
 instance
 or
-NULL
+nullptr
 if
 cloning
 was
@@ -7202,7 +7200,6 @@ virtual
 void
 reInitializeFactories
 (
-void
 )
 ;
 /
@@ -7245,7 +7242,7 @@ The
 default
 implementation
 returns
-NULL
+nullptr
 .
 <
 /
@@ -7272,7 +7269,7 @@ the
 matched
 descriptor
 or
-NULL
+nullptr
 .
 *
 param
@@ -7288,7 +7285,7 @@ the
 service
 instance
 or
-NULL
+nullptr
 .
 *
 /
@@ -7385,7 +7382,6 @@ virtual
 void
 clearCaches
 (
-void
 )
 ;
 /
@@ -7707,7 +7703,6 @@ p
 void
 clearServiceCache
 (
-void
 )
 ;
 /
@@ -7807,7 +7802,6 @@ timestamp
 int32_t
 getTimestamp
 (
-void
 )
 const
 ;
@@ -7849,7 +7843,6 @@ call
 int32_t
 countFactories
 (
-void
 )
 const
 ;

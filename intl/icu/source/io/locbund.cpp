@@ -431,7 +431,6 @@ UBool
 U_CALLCONV
 locbund_cleanup
 (
-void
 )
 {
 int32_t
@@ -465,7 +464,7 @@ gPosixNumberFormat
 style
 ]
 =
-NULL
+nullptr
 ;
 }
 return
@@ -511,7 +510,7 @@ style
 ]
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -524,7 +523,7 @@ style
 ]
 =
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -539,12 +538,12 @@ formatAlias
 unum_open
 (
 style
-NULL
+nullptr
 0
 "
 en_US_POSIX
 "
-NULL
+nullptr
 &
 status
 )
@@ -593,7 +592,7 @@ style
 ]
 !
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -669,7 +668,7 @@ if
 loc
 =
 =
-NULL
+nullptr
 )
 {
 loc
@@ -965,7 +964,7 @@ fNumberFormat
 styleIdx
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -979,7 +978,7 @@ fNumberFormat
 styleIdx
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1138,7 +1137,7 @@ UNumberFormat
 *
 formatAlias
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1164,7 +1163,7 @@ if
 formatAlias
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1196,13 +1195,13 @@ formatAlias
 unum_open
 (
 style
-NULL
+nullptr
 0
 bundle
 -
 >
 fLocale
-NULL
+nullptr
 &
 status
 )
@@ -1222,7 +1221,7 @@ formatAlias
 ;
 formatAlias
 =
-NULL
+nullptr
 ;
 }
 else

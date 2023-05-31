@@ -1859,7 +1859,6 @@ DateFormatSymbols
 *
 getDateFormatSymbols
 (
-void
 )
 const
 ;
@@ -2070,7 +2069,7 @@ return
 the
 string
 or
-NULL
+nullptr
 if
 none
 at
@@ -2080,7 +2079,7 @@ location
 *
 /
 const
-UChar
+char16_t
 *
 getStringForDay
 (
@@ -2184,7 +2183,7 @@ to
 be
 adopted
 or
-NULL
+nullptr
 for
 TimeZone
 :
@@ -2337,7 +2336,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 /
@@ -2439,7 +2437,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override

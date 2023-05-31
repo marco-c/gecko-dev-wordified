@@ -2021,7 +2021,7 @@ if
 bmpSet
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2151,7 +2151,7 @@ if
 stringSpan
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2515,7 +2515,6 @@ UnicodeSet
 :
 hashCode
 (
-void
 )
 const
 {
@@ -2762,7 +2761,6 @@ UnicodeSet
 :
 size
 (
-void
 )
 const
 {
@@ -2864,7 +2862,6 @@ UnicodeSet
 :
 isEmpty
 (
-void
 )
 const
 {
@@ -3000,7 +2997,7 @@ if
 bmpSet
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -3018,7 +3015,7 @@ if
 stringSpan
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -4919,7 +4916,7 @@ the
 reverse
 direction
 .
-UChar
+char16_t
 firstChar
 =
 text
@@ -5009,7 +5006,7 @@ the
 empty
 string
 }
-UChar
+char16_t
 c
 =
 trial
@@ -7770,7 +7767,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -8445,7 +8442,7 @@ if
 set
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -8544,7 +8541,7 @@ if
 set
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -9416,7 +9413,6 @@ UnicodeSet
 :
 complement
 (
-void
 )
 {
 if
@@ -9795,7 +9791,7 @@ c
 list
 !
 =
-NULL
+nullptr
 )
 {
 add
@@ -9823,7 +9819,7 @@ c
 strings
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -10428,7 +10424,6 @@ UnicodeSet
 :
 clear
 (
-void
 )
 {
 if
@@ -10463,7 +10458,7 @@ if
 strings
 !
 =
-NULL
+nullptr
 )
 {
 strings
@@ -10740,7 +10735,7 @@ buffer
 ;
 buffer
 =
-NULL
+nullptr
 ;
 bufferCapacity
 =
@@ -10981,7 +10976,7 @@ kSerialized
 data
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -11415,7 +11410,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -12163,7 +12158,7 @@ if
 strings
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -12195,7 +12190,7 @@ strings
 ;
 strings
 =
-NULL
+nullptr
 ;
 return
 false
@@ -12345,7 +12340,7 @@ if
 temp
 =
 =
-NULL
+nullptr
 )
 {
 setToBogus
@@ -12481,7 +12476,7 @@ if
 temp
 =
 =
-NULL
+nullptr
 )
 {
 setToBogus
@@ -12558,7 +12553,6 @@ UnicodeSet
 :
 swapBuffers
 (
-void
 )
 {
 /
@@ -13163,7 +13157,7 @@ isBogus
 other
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -15178,7 +15172,7 @@ if
 pat
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -16096,7 +16090,7 @@ pat
 ;
 pat
 =
-NULL
+nullptr
 ;
 patLen
 =
@@ -16138,7 +16132,7 @@ releasePattern
 pat
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -16151,7 +16145,7 @@ newPatLen
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -16375,7 +16369,7 @@ stringSpan
 ;
 stringSpan
 =
-NULL
+nullptr
 ;
 }
 }
@@ -16384,7 +16378,7 @@ if
 stringSpan
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -16415,7 +16409,7 @@ if
 bmpSet
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -16444,7 +16438,7 @@ UnicodeSet
 span
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -16464,7 +16458,7 @@ length
 bmpSet
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -16520,7 +16514,7 @@ if
 stringSpan
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -16672,7 +16666,7 @@ UnicodeSet
 spanBack
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -16692,7 +16686,7 @@ length
 bmpSet
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -16748,7 +16742,7 @@ if
 stringSpan
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -16917,7 +16911,7 @@ length
 bmpSet
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -16986,7 +16980,7 @@ if
 stringSpan
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -17168,7 +17162,7 @@ length
 bmpSet
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -17230,7 +17224,7 @@ if
 stringSpan
 !
 =
-NULL
+nullptr
 )
 {
 return

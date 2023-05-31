@@ -270,7 +270,7 @@ UnicodeString
 *
 strs
 =
-NULL
+nullptr
 ;
 static
 const
@@ -303,7 +303,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -334,7 +334,6 @@ static
 void
 udbg_cleanup
 (
-void
 )
 {
 if
@@ -342,7 +341,7 @@ if
 strs
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -378,7 +377,7 @@ strs
 ;
 strs
 =
-NULL
+nullptr
 ;
 }
 }
@@ -386,7 +385,6 @@ static
 UBool
 tu_cleanup
 (
-void
 )
 {
 udbg_cleanup
@@ -401,7 +399,6 @@ static
 void
 udbg_register_cleanup
 (
-void
 )
 {
 ucln_registerCleanup
@@ -416,7 +413,6 @@ static
 void
 udbg_setup
 (
-void
 )
 {
 if
@@ -424,7 +420,7 @@ if
 strs
 =
 =
-NULL
+nullptr
 )
 {
 udbg_register_cleanup
@@ -582,7 +578,7 @@ if
 strs
 =
 =
-NULL
+nullptr
 )
 {
 udbg_setup
@@ -891,7 +887,7 @@ ch
 ]
 ;
 const
-UChar
+char16_t
 *
 u
 =
@@ -959,7 +955,7 @@ ch
 ]
 ;
 const
-UChar
+char16_t
 *
 u
 =
@@ -1051,7 +1047,7 @@ length
 i
 )
 {
-UChar
+char16_t
 c
 =
 src

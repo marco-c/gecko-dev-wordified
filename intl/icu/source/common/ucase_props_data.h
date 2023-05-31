@@ -15355,7 +15355,7 @@ UCaseProps
 ucase_props_singleton
 =
 {
-NULL
+nullptr
 ucase_props_indexes
 ucase_props_exceptions
 ucase_props_unfold
@@ -15364,7 +15364,7 @@ ucase_props_trieIndex
 ucase_props_trieIndex
 +
 3412
-NULL
+nullptr
 3412
 9736
 0x188
@@ -15373,12 +15373,12 @@ NULL
 0x0
 0xe0800
 0x3358
-NULL
+nullptr
 0
 false
 false
 0
-NULL
+nullptr
 }
 {
 4

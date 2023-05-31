@@ -535,7 +535,7 @@ contractionIndex
 ;
 /
 *
-UChar
+char16_t
 *
 contractionIndex
 ;
@@ -694,7 +694,7 @@ contractionUCACombosWidth
 *
 sizeof
 (
-UChar
+char16_t
 )
 *
 /

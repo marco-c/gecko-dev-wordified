@@ -134,7 +134,7 @@ length_
 str
 =
 =
-NULL
+nullptr
 )
 ?
 0
@@ -322,7 +322,7 @@ if
 str
 !
 =
-NULL
+nullptr
 )
 length_
 =

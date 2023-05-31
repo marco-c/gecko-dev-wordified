@@ -846,20 +846,20 @@ FindName
 #
 define
 DO_FIND_NAME
-NULL
+nullptr
 static
 UDataMemory
 *
 uCharNamesData
 =
-NULL
+nullptr
 ;
 static
 UCharNames
 *
 uCharNames
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -1174,7 +1174,6 @@ UBool
 U_CALLCONV
 unames_cleanup
 (
-void
 )
 {
 if
@@ -1189,7 +1188,7 @@ uCharNamesData
 ;
 uCharNamesData
 =
-NULL
+nullptr
 ;
 }
 if
@@ -1199,7 +1198,7 @@ uCharNames
 {
 uCharNames
 =
-NULL
+nullptr
 ;
 }
 gCharNamesInitOnce
@@ -1367,7 +1366,7 @@ U_ASSERT
 uCharNamesData
 =
 =
-NULL
+nullptr
 )
 ;
 U_ASSERT
@@ -1375,18 +1374,18 @@ U_ASSERT
 uCharNames
 =
 =
-NULL
+nullptr
 )
 ;
 uCharNamesData
 =
 udata_openChoice
 (
-NULL
+nullptr
 DATA_TYPE
 DATA_NAME
 isAcceptable
-NULL
+nullptr
 &
 status
 )
@@ -1401,7 +1400,7 @@ status
 {
 uCharNamesData
 =
-NULL
+nullptr
 ;
 }
 else
@@ -5509,7 +5508,7 @@ if
 elementBases
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5566,7 +5565,7 @@ if
 elements
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -6138,8 +6137,8 @@ range
 >
 start
 indexes
-NULL
-NULL
+nullptr
+nullptr
 buffer
 bufferLength
 )
@@ -8711,7 +8710,7 @@ if
 tokenLengths
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -8895,7 +8894,7 @@ if
 tokenLengths
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memset
@@ -9153,7 +9152,7 @@ if
 tokenLengths
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -9463,7 +9462,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -9500,7 +9499,7 @@ bufferLength
 buffer
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -9800,7 +9799,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -9831,7 +9830,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -9936,7 +9935,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -9961,7 +9960,7 @@ U_CHAR_NAME_CHOICE_COUNT
 name
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -10719,7 +10718,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -10743,7 +10742,7 @@ U_CHAR_NAME_CHOICE_COUNT
 fn
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -11240,7 +11239,7 @@ USetAdder
 sa
 )
 {
-UChar
+char16_t
 us
 [
 256
@@ -11343,7 +11342,7 @@ char
 string
 to
 a
-UChar
+char16_t
 string
 *
 /
@@ -11358,7 +11357,7 @@ length
 *
 add
 each
-UChar
+char16_t
 to
 the
 USet
@@ -11407,7 +11406,7 @@ invariant
 chars
 become
 (
-UChar
+char16_t
 )
 0
 *
@@ -12141,7 +12140,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -12353,6 +12352,15 @@ headerSize
 ;
 outBytes
 =
+(
+outData
+=
+=
+nullptr
+)
+?
+nullptr
+:
 (
 uint8_t
 *
@@ -12976,7 +12984,7 @@ if
 temp
 =
 =
-NULL
+nullptr
 )
 {
 udata_printError

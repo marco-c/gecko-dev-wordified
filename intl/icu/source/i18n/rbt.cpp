@@ -361,7 +361,7 @@ Replaceable
 *
 gLockedText
 =
-NULL
+nullptr
 ;
 void
 RuleBasedTransliterator
@@ -448,7 +448,7 @@ parser
 compoundFilter
 !
 =
-NULL
+nullptr
 |
 |
 parser
@@ -1747,7 +1747,7 @@ if
 fData
 !
 =
-NULL
+nullptr
 )
 {
 while
@@ -1797,7 +1797,7 @@ m
 ;
 gLockedText
 =
-NULL
+nullptr
 ;
 }
 umtx_unlock

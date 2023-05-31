@@ -2974,7 +2974,7 @@ UNF
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 UNF
 (
@@ -3006,7 +3006,7 @@ UNF
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 NFS
 <
@@ -3092,7 +3092,7 @@ UNF
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 NFS
 <
@@ -3230,7 +3230,7 @@ LocalizedNumberFormatter
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 LNF
 (
@@ -3262,7 +3262,7 @@ LNF
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 NFS
 <
@@ -3396,7 +3396,7 @@ LNF
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 NFS
 <

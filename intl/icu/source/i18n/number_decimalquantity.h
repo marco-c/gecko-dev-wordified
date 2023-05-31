@@ -263,7 +263,7 @@ DecimalQuantity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 DecimalQuantity
 (
@@ -329,7 +329,7 @@ DecimalQuantity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1304,7 +1304,7 @@ isInfinite
 (
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -1332,7 +1332,7 @@ isNaN
 (
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -1877,14 +1877,14 @@ PluralOperand
 operand
 )
 const
-U_OVERRIDE
+override
 ;
 bool
 hasIntegerValue
 (
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *

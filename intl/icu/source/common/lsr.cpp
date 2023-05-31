@@ -244,7 +244,7 @@ LSR
 &
 other
 )
-U_NOEXCEPT
+noexcept
 :
 language
 (
@@ -349,7 +349,7 @@ LSR
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 this
 -

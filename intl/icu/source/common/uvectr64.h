@@ -986,7 +986,6 @@ inline
 int64_t
 lastElementi
 (
-void
 )
 const
 ;
@@ -1066,7 +1065,6 @@ inline
 int32_t
 size
 (
-void
 )
 const
 ;
@@ -1074,7 +1072,6 @@ inline
 UBool
 isEmpty
 (
-void
 )
 const
 {
@@ -1570,7 +1567,6 @@ public
 UBool
 empty
 (
-void
 )
 const
 ;
@@ -1593,7 +1589,6 @@ it
 int64_t
 peeki
 (
-void
 )
 const
 ;
@@ -1601,7 +1596,6 @@ inline
 int64_t
 popi
 (
-void
 )
 ;
 inline
@@ -1790,7 +1784,7 @@ false
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int64_t
@@ -1862,7 +1856,6 @@ UVector64
 :
 size
 (
-void
 )
 const
 {
@@ -1877,7 +1870,6 @@ UVector64
 :
 lastElementi
 (
-void
 )
 const
 {
@@ -1965,7 +1957,6 @@ UVector64
 :
 popi
 (
-void
 )
 {
 int64_t

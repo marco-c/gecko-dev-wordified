@@ -405,7 +405,7 @@ status
 {
 m_strsrch_
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -455,7 +455,7 @@ m_search_
 ;
 m_search_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -529,7 +529,7 @@ status
 {
 m_strsrch_
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -539,7 +539,7 @@ if
 coll
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -548,7 +548,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 m_strsrch_
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -599,7 +599,7 @@ m_search_
 ;
 m_search_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -673,7 +673,7 @@ status
 {
 m_strsrch_
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -723,7 +723,7 @@ m_search_
 ;
 m_search_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -796,7 +796,7 @@ status
 {
 m_strsrch_
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -806,7 +806,7 @@ if
 coll
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -815,7 +815,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 m_strsrch_
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -866,7 +866,7 @@ m_search_
 ;
 m_search_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -942,7 +942,7 @@ m_search_
 ;
 m_search_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -951,7 +951,7 @@ that
 m_strsrch_
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -964,7 +964,7 @@ good
 copy
 m_strsrch_
 =
-NULL
+nullptr
 ;
 }
 else
@@ -1058,7 +1058,7 @@ if
 m_strsrch_
 !
 =
-NULL
+nullptr
 )
 {
 usearch_close
@@ -1068,7 +1068,7 @@ m_strsrch_
 ;
 m_search_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1234,7 +1234,7 @@ m_strsrch_
 -
 >
 collator
-NULL
+nullptr
 &
 status
 )
@@ -1249,7 +1249,7 @@ if
 m_strsrch_
 !
 =
-NULL
+nullptr
 )
 {
 m_search_
@@ -1307,15 +1307,31 @@ that
 )
 )
 {
+const
 StringSearch
-&
+*
 thatsrch
 =
-(
+dynamic_cast
+<
+const
 StringSearch
+*
+>
+(
 &
-)
 that
+)
+;
+if
+(
+thatsrch
+=
+=
+nullptr
+)
+return
+false
 ;
 return
 (
@@ -1326,7 +1342,8 @@ m_pattern_
 =
 =
 thatsrch
-.
+-
+>
 m_pattern_
 &
 &
@@ -1340,7 +1357,8 @@ collator
 =
 =
 thatsrch
-.
+-
+>
 m_strsrch_
 -
 >
@@ -1433,7 +1451,6 @@ StringSearch
 :
 getOffset
 (
-void
 )
 const
 {
@@ -1790,7 +1807,7 @@ status
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -1857,7 +1874,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2246,7 +2263,7 @@ if
 m_breakiterator_
 =
 =
-NULL
+nullptr
 #
 if
 !
@@ -2742,7 +2759,7 @@ if
 m_breakiterator_
 =
 =
-NULL
+nullptr
 #
 if
 !

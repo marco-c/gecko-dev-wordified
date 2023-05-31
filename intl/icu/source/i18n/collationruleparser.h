@@ -373,7 +373,7 @@ Position
 /
 static
 const
-UChar
+char16_t
 POS_LEAD
 =
 0xfffe
@@ -415,7 +415,7 @@ POS_LEAD
 /
 static
 const
-UChar
+char16_t
 POS_BASE
 =
 0x2800

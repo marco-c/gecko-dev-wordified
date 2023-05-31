@@ -325,7 +325,7 @@ return
 this
 ;
 }
-UChar
+char16_t
 *
 array
 =

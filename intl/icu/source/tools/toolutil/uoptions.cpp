@@ -380,7 +380,7 @@ UOption
 *
 option
 =
-NULL
+nullptr
 ;
 arg
 +
@@ -500,7 +500,7 @@ if
 option
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -668,7 +668,7 @@ option
 optionFn
 !
 =
-NULL
+nullptr
 &
 &
 option
@@ -782,7 +782,7 @@ if
 option
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1016,7 +1016,7 @@ option
 optionFn
 !
 =
-NULL
+nullptr
 &
 &
 option
@@ -1070,7 +1070,7 @@ letter
 /
 option
 =
-NULL
+nullptr
 ;
 c
 =

@@ -718,7 +718,7 @@ the
 struct
 might
 be
-NULL
+nullptr
 .
 This
 can
@@ -1702,7 +1702,7 @@ ret
 snprintf
 (
 gmtOffsetTz
-UPRV_LENGTHOF
+sizeof
 (
 gmtOffsetTz
 )
@@ -1758,7 +1758,7 @@ of
 the
 struct
 is
-NULL
+nullptr
 then
 we
 may
@@ -3021,7 +3021,7 @@ regionCodeW
 )
 ;
 const
-UChar
+char16_t
 *
 icuTZ16
 =

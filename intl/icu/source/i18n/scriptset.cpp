@@ -1453,7 +1453,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 0x20
 )
@@ -1810,7 +1810,7 @@ script_count
 )
 =
 =
-NULL
+nullptr
 )
 {
 status

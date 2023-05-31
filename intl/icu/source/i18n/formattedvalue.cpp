@@ -997,7 +997,7 @@ impl
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ufmtval_getString

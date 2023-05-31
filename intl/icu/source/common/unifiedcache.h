@@ -565,7 +565,7 @@ It
 can
 also
 return
-NULL
+nullptr
 *
 and
 set
@@ -591,7 +591,7 @@ created
 .
 May
 be
-NULL
+nullptr
 .
 *
 param
@@ -612,7 +612,7 @@ return
 a
 *
 non
-NULL
+nullptr
 object
 and
 set
@@ -660,7 +660,7 @@ Written
 *
 description
 is
-NULL
+nullptr
 terminated
 .
 *
@@ -1452,7 +1452,7 @@ to
 get
 (
 key
-NULL
+nullptr
 ptr
 status
 )
@@ -1488,7 +1488,7 @@ const
 get
 (
 key
-NULL
+nullptr
 ptr
 status
 )
@@ -1532,7 +1532,7 @@ entry
 ptr
 must
 be
-NULL
+nullptr
 or
 be
 included
@@ -1581,7 +1581,7 @@ set
 to
 a
 non
-NULL
+nullptr
 value
 .
 *
@@ -1659,7 +1659,7 @@ SharedObject
 *
 value
 =
-NULL
+nullptr
 ;
 _get
 (
@@ -1806,7 +1806,7 @@ with
 creationContext
 =
 =
-NULL
+nullptr
 .
 *
 param
@@ -1820,7 +1820,7 @@ On
 entry
 must
 be
-NULL
+nullptr
 or
 included
 in
@@ -1863,7 +1863,7 @@ set
 to
 a
 non
-NULL
+nullptr
 value
 .
 *
@@ -2666,7 +2666,7 @@ held
 value
 must
 be
-NULL
+nullptr
 .
 status
 *
@@ -2755,7 +2755,7 @@ value
 is
 set
 to
-NULL
+nullptr
 .
 Caller
 must
@@ -2766,7 +2766,7 @@ on
 value
 if
 non
-NULL
+nullptr
 .
 *
 /
@@ -2818,7 +2818,7 @@ held
 value
 must
 be
-NULL
+nullptr
 and
 status
 must
@@ -3465,7 +3465,7 @@ value
 must
 be
 non
-NULL
+nullptr
 .
 *
 On
@@ -3745,7 +3745,7 @@ value
 must
 be
 either
-NULL
+nullptr
 or
 must
 be

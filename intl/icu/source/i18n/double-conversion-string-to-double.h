@@ -1601,12 +1601,12 @@ NaN
 /
 infinity_symbol
 =
-NULL
+nullptr
 /
 /
 nan_symbol
 =
-NULL
+nullptr
 :
 /
 /

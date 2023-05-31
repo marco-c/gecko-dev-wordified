@@ -382,7 +382,7 @@ csd
 ;
 csd
 =
-NULL
+nullptr
 ;
 }
 return
@@ -490,7 +490,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -576,7 +576,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -619,7 +619,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -719,7 +719,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 CharsetDetector
@@ -891,7 +891,7 @@ if
 ucsd
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -942,7 +942,7 @@ if
 ucsd
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -990,7 +990,7 @@ const
 UCharsetMatch
 *
 ucsm
-UChar
+char16_t
 *
 buf
 int32_t

@@ -3370,7 +3370,7 @@ sizeof
 WeightRange
 )
 compareRanges
-NULL
+nullptr
 false
 &
 errorCode

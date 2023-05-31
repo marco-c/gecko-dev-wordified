@@ -309,7 +309,6 @@ UStack
 :
 pop
 (
-void
 )
 {
 int32_t
@@ -353,7 +352,6 @@ UStack
 :
 popi
 (
-void
 )
 {
 int32_t

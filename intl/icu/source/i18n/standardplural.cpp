@@ -617,7 +617,7 @@ return
 }
 static
 const
-UChar
+char16_t
 gZero
 [
 ]
@@ -629,7 +629,7 @@ zero
 ;
 static
 const
-UChar
+char16_t
 gOne
 [
 ]
@@ -641,7 +641,7 @@ one
 ;
 static
 const
-UChar
+char16_t
 gTwo
 [
 ]
@@ -653,7 +653,7 @@ two
 ;
 static
 const
-UChar
+char16_t
 gFew
 [
 ]
@@ -665,7 +665,7 @@ few
 ;
 static
 const
-UChar
+char16_t
 gMany
 [
 ]
@@ -677,7 +677,7 @@ many
 ;
 static
 const
-UChar
+char16_t
 gOther
 [
 ]
@@ -689,7 +689,7 @@ other
 ;
 static
 const
-UChar
+char16_t
 gEq0
 [
 ]
@@ -702,7 +702,7 @@ u
 ;
 static
 const
-UChar
+char16_t
 gEq1
 [
 ]

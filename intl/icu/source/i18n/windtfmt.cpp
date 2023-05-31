@@ -556,7 +556,7 @@ UnicodeString
 *
 result
 =
-NULL
+nullptr
 ;
 const
 char
@@ -608,7 +608,7 @@ topBundle
 "
 calendar
 "
-NULL
+nullptr
 &
 status
 )
@@ -621,7 +621,7 @@ ures_getByKeyWithFallback
 (
 calBundle
 type
-NULL
+nullptr
 &
 status
 )
@@ -636,7 +636,7 @@ typBundle
 "
 DateTimePatterns
 "
-NULL
+nullptr
 &
 status
 )
@@ -690,7 +690,7 @@ status
 {
 static
 const
-UChar
+char16_t
 defaultPattern
 [
 ]
@@ -799,7 +799,7 @@ kDateOffset
 ;
 }
 const
-UChar
+char16_t
 *
 resStr
 =
@@ -1306,7 +1306,7 @@ DateFormat
 )
 fDateTimeMsg
 (
-NULL
+nullptr
 )
 fTimeStyle
 (
@@ -1568,9 +1568,9 @@ other
 fDateTimeMsg
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 new
 UnicodeString
@@ -1665,9 +1665,9 @@ other
 fWindowsLocaleName
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 new
 UnicodeString
@@ -2052,7 +2052,7 @@ if
 fCalendar
 =
 =
-NULL
+nullptr
 |
 |
 strcmp
@@ -2311,10 +2311,10 @@ fDateStyle
 kDateOffset
 ]
 st
-NULL
+nullptr
 buffer
 STACK_BUFFER_SIZE
-NULL
+nullptr
 )
 ;
 if
@@ -2348,10 +2348,10 @@ fDateStyle
 kDateOffset
 ]
 st
-NULL
-NULL
+nullptr
+nullptr
 0
-NULL
+nullptr
 )
 ;
 buffer
@@ -2372,10 +2372,10 @@ fDateStyle
 kDateOffset
 ]
 st
-NULL
+nullptr
 buffer
 newLength
-NULL
+nullptr
 )
 ;
 }
@@ -2386,7 +2386,7 @@ append
 (
 (
 const
-UChar
+char16_t
 *
 )
 buffer
@@ -2505,7 +2505,7 @@ tfFlags
 fTimeStyle
 ]
 st
-NULL
+nullptr
 buffer
 STACK_BUFFER_SIZE
 )
@@ -2539,8 +2539,8 @@ tfFlags
 fTimeStyle
 ]
 st
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;
@@ -2560,7 +2560,7 @@ tfFlags
 fTimeStyle
 ]
 st
-NULL
+nullptr
 buffer
 newLength
 )
@@ -2573,7 +2573,7 @@ append
 (
 (
 const
-UChar
+char16_t
 *
 )
 buffer

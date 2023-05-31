@@ -505,7 +505,7 @@ char
 *
 locale
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -696,7 +696,7 @@ if
 text
 !
 =
-NULL
+nullptr
 )
 {
 ubrk_setText
@@ -904,13 +904,13 @@ U_EXPORT2
 ubrk_openRules
 (
 const
-UChar
+char16_t
 *
 rules
 int32_t
 rulesLength
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -928,7 +928,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -996,7 +996,7 @@ if
 text
 !
 =
-NULL
+nullptr
 )
 {
 ubrk_setText
@@ -1025,7 +1025,7 @@ binaryRules
 int32_t
 rulesLength
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1045,7 +1045,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1061,7 +1061,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 LocalPointer
@@ -1092,7 +1092,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UBreakIterator
@@ -1117,7 +1117,7 @@ if
 text
 !
 =
-NULL
+nullptr
 )
 {
 ubrk_setText
@@ -1163,7 +1163,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1174,7 +1174,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1182,7 +1182,7 @@ if
 bi
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1191,7 +1191,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1199,7 +1199,7 @@ if
 pBufferSize
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -1222,7 +1222,7 @@ inputSize
 )
 {
 return
-NULL
+nullptr
 ;
 /
 /
@@ -1254,7 +1254,7 @@ if
 newBI
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1269,7 +1269,7 @@ if
 pBufferSize
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1338,7 +1338,7 @@ UBreakIterator
 *
 bi
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1387,7 +1387,7 @@ allocated
 UText
 wrapping
 a
-UChar
+char16_t
 *
 string
 /
@@ -1760,7 +1760,7 @@ if
 bi
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1779,7 +1779,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1877,7 +1877,7 @@ if
 binaryRules
 =
 =
-NULL
+nullptr
 &
 &
 rulesCapacity
@@ -1927,7 +1927,7 @@ bi
 )
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1976,7 +1976,7 @@ if
 binaryRules
 !
 =
-NULL
+nullptr
 )
 {
 /

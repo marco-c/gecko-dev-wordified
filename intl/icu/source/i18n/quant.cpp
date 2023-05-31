@@ -751,7 +751,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 63
 )
@@ -777,7 +777,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 42
 )
@@ -815,7 +815,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 43
 )
@@ -831,7 +831,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 123
 )
@@ -855,7 +855,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 44
 )
@@ -887,7 +887,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 125
 )

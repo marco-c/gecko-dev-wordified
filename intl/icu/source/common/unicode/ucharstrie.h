@@ -577,7 +577,7 @@ trieUChars
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 uchars_
 (
@@ -669,7 +669,7 @@ other
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 uchars_
 (
@@ -999,7 +999,7 @@ State
 {
 uchars
 =
-NULL
+nullptr
 ;
 }
 private
@@ -1185,7 +1185,7 @@ uchars
 uchars_
 !
 =
-NULL
+nullptr
 )
 {
 pos_
@@ -1604,7 +1604,7 @@ string
 .
 Can
 be
-NULL
+nullptr
 if
 length
 is
@@ -1877,7 +1877,7 @@ return
 pos
 !
 =
-NULL
+nullptr
 &
 &
 findUniqueValue
@@ -2528,7 +2528,7 @@ truncateAndStop
 {
 pos_
 =
-NULL
+nullptr
 ;
 value_
 =
@@ -2820,7 +2820,7 @@ stop
 {
 pos_
 =
-NULL
+nullptr
 ;
 }
 /
@@ -4485,7 +4485,7 @@ unit
 to
 read
 .
-NULL
+nullptr
 if
 no
 more

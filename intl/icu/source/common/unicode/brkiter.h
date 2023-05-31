@@ -1378,7 +1378,7 @@ filled
 in
 .
 If
-NULL
+nullptr
 a
 new
 UText
@@ -4157,7 +4157,7 @@ new
 clone
 .
 If
-NULL
+nullptr
 new
 memory
 will

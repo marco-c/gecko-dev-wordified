@@ -838,7 +838,7 @@ ICU
 CompactDecimalFormat
 (
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -920,7 +920,7 @@ clone
 (
 )
 const
-U_OVERRIDE
+override
 ;
 using
 DecimalFormat
@@ -987,7 +987,7 @@ ParsePosition
 parsePosition
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -1048,7 +1048,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -1154,7 +1154,7 @@ implementation
 always
 returns
 *
-NULL
+nullptr
 .
 *
 *
@@ -1256,7 +1256,7 @@ parse
 fails
 this
 is
-NULL
+nullptr
 .
 *
 internal
@@ -1275,7 +1275,7 @@ ParsePosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -1481,7 +1481,7 @@ getDynamicClassID
 (
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

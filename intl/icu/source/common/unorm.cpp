@@ -509,7 +509,7 @@ U_EXPORT2
 unorm_quickCheck
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -557,7 +557,7 @@ U_EXPORT2
 unorm_quickCheckWithOptions
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -656,7 +656,7 @@ U_EXPORT2
 unorm_isNormalized
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -704,7 +704,7 @@ U_EXPORT2
 unorm_isNormalizedWithOptions
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -879,7 +879,7 @@ U_EXPORT2
 unorm_normalize
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -888,7 +888,7 @@ UNormalizationMode
 mode
 int32_t
 options
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1050,7 +1050,7 @@ UCharIterator
 src
 UBool
 forward
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1093,7 +1093,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -1105,7 +1105,7 @@ destCapacity
 src
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1122,7 +1122,7 @@ if
 pNeededToNormalize
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1394,7 +1394,7 @@ if
 pNeededToNormalize
 !
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -1454,7 +1454,7 @@ UCharIterator
 src
 UBool
 forward
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1565,7 +1565,7 @@ unorm_previous
 UCharIterator
 *
 src
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1607,7 +1607,7 @@ unorm_next
 UCharIterator
 *
 src
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1692,18 +1692,18 @@ int32_t
 _concatenate
 (
 const
-UChar
+char16_t
 *
 left
 int32_t
 leftLength
 const
-UChar
+char16_t
 *
 right
 int32_t
 rightLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1741,7 +1741,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -1753,7 +1753,7 @@ destCapacity
 left
 =
 =
-NULL
+nullptr
 |
 |
 leftLength
@@ -1765,7 +1765,7 @@ leftLength
 right
 =
 =
-NULL
+nullptr
 |
 |
 rightLength
@@ -1798,7 +1798,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -1935,18 +1935,18 @@ U_EXPORT2
 unorm_concatenate
 (
 const
-UChar
+char16_t
 *
 left
 int32_t
 leftLength
 const
-UChar
+char16_t
 *
 right
 int32_t
 rightLength
-UChar
+char16_t
 *
 dest
 int32_t

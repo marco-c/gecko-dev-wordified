@@ -14541,7 +14541,7 @@ UBiDiProps
 ubidi_props_singleton
 =
 {
-NULL
+nullptr
 ubidi_props_indexes
 ubidi_props_mirrors
 ubidi_props_jgArray
@@ -14551,7 +14551,7 @@ ubidi_props_trieIndex
 ubidi_props_trieIndex
 +
 3612
-NULL
+nullptr
 3612
 9412
 0x1a0
@@ -14560,12 +14560,12 @@ NULL
 0x0
 0x110000
 0x32dc
-NULL
+nullptr
 0
 false
 false
 0
-NULL
+nullptr
 }
 {
 2

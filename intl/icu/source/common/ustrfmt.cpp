@@ -217,7 +217,7 @@ h
 Fills
 in
 a
-UChar
+char16_t
 *
 string
 with
@@ -253,7 +253,7 @@ room
 *
 param
 buffer
-UChar
+char16_t
 buffer
 to
 receive
@@ -336,7 +336,7 @@ int32_t
 U_EXPORT2
 uprv_itou
 (
-UChar
+char16_t
 *
 buffer
 int32_t
@@ -360,7 +360,7 @@ digit
 int32_t
 j
 ;
-UChar
+char16_t
 temp
 ;
 do
@@ -384,7 +384,7 @@ length
 ]
 =
 (
-UChar
+char16_t
 )
 (
 digit
@@ -439,7 +439,7 @@ length
 ]
 =
 (
-UChar
+char16_t
 )
 0x0030
 ;
@@ -471,7 +471,7 @@ length
 ]
 =
 (
-UChar
+char16_t
 )
 0x0000
 ;

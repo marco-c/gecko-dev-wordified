@@ -492,11 +492,11 @@ h
 endif
 /
 /
-UChar
+char16_t
 constants
 static
 const
-UChar
+char16_t
 LOCALE_SEP
 =
 95
@@ -510,7 +510,7 @@ _
 /
 static
 const
-UChar
+char16_t
 ID_SEP
 =
 0x002D
@@ -524,7 +524,7 @@ ID_SEP
 /
 static
 const
-UChar
+char16_t
 VARIANT_SEP
 =
 0x002F
@@ -540,7 +540,7 @@ String
 constants
 static
 const
-UChar
+char16_t
 ANY
 [
 ]
@@ -557,7 +557,7 @@ ANY
 Any
 static
 const
-UChar
+char16_t
 LAT
 [
 ]
@@ -1044,7 +1044,7 @@ Transliterator
 *
 t
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -1216,7 +1216,7 @@ UnicodeString
 noIDBlock
 (
 (
-UChar
+char16_t
 )
 (
 0xffff
@@ -1228,7 +1228,7 @@ noIDBlock
 =
 (
 (
-UChar
+char16_t
 )
 (
 0xffff
@@ -1285,7 +1285,7 @@ aliasesOrRules
 indexOf
 (
 (
-UChar
+char16_t
 )
 (
 0xffff
@@ -1376,7 +1376,7 @@ aliasesOrRules
 indexOf
 (
 (
-UChar
+char16_t
 )
 (
 0xffff
@@ -2138,7 +2138,7 @@ status
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -2729,7 +2729,7 @@ UVector
 *
 DEBUG_entries
 =
-NULL
+nullptr
 ;
 static
 void
@@ -2742,7 +2742,7 @@ if
 DEBUG_entries
 =
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -3005,7 +3005,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -3533,7 +3533,7 @@ prototype
 ;
 compoundFilter
 =
-NULL
+nullptr
 ;
 entryType
 =
@@ -3652,7 +3652,7 @@ u
 dataVector
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -4026,7 +4026,7 @@ if
 emptyString
 !
 =
-NULL
+nullptr
 )
 {
 variantList
@@ -4107,7 +4107,7 @@ U_ASSERT
 aliasReturn
 =
 =
-NULL
+nullptr
 )
 ;
 TransliteratorEntry
@@ -4166,7 +4166,7 @@ U_ASSERT
 aliasReturn
 =
 =
-NULL
+nullptr
 )
 ;
 TransliteratorEntry
@@ -4496,7 +4496,7 @@ UNICODE_STRING_SIMPLE
 "
 Any
 -
-NULL
+nullptr
 "
 )
 ;
@@ -4853,7 +4853,7 @@ stringArg
 +
 =
 (
-UChar
+char16_t
 )
 0xffff
 ;
@@ -4921,7 +4921,7 @@ if
 entry
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -4993,7 +4993,7 @@ if
 entry
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -5059,7 +5059,7 @@ if
 entry
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -5178,7 +5178,7 @@ if
 entry
 !
 =
-NULL
+nullptr
 )
 {
 entry
@@ -5537,7 +5537,6 @@ TransliteratorRegistry
 :
 countAvailableIDs
 (
-void
 )
 const
 {
@@ -5680,7 +5679,6 @@ TransliteratorRegistry
 :
 countAvailableSources
 (
-void
 )
 const
 {
@@ -6189,7 +6187,7 @@ if
 v
 !
 =
-NULL
+nullptr
 )
 {
 result
@@ -6609,7 +6607,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -6696,7 +6694,7 @@ unistr
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -7192,7 +7190,7 @@ if
 newID
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -7413,7 +7411,7 @@ status
 targets
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -7491,7 +7489,7 @@ if
 variantEntry
 !
 =
-NULL
+nullptr
 )
 {
 variantList
@@ -7653,7 +7651,7 @@ if
 targets
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -8143,7 +8141,7 @@ _
 '
 static
 const
-UChar
+char16_t
 TRANSLITERATE_TO
 [
 ]
@@ -8174,7 +8172,7 @@ TransliterateTo
 "
 static
 const
-UChar
+char16_t
 TRANSLITERATE_FROM
 [
 ]
@@ -8207,7 +8205,7 @@ TransliterateFrom
 "
 static
 const
-UChar
+char16_t
 TRANSLITERATE
 [
 ]
@@ -8658,7 +8656,7 @@ pass
 /
 Failed
 return
-NULL
+nullptr
 ;
 }
 /
@@ -9646,7 +9644,7 @@ if
 rbts
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -9654,7 +9652,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t

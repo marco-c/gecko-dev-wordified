@@ -4732,7 +4732,7 @@ h
 U_NAMESPACE_BEGIN
 inline
 const
-UChar
+char16_t
 *
 res_getString
 (
@@ -5036,7 +5036,7 @@ override
 ;
 virtual
 const
-UChar
+char16_t
 *
 getString
 (
@@ -5052,7 +5052,7 @@ override
 ;
 virtual
 const
-UChar
+char16_t
 *
 getAliasString
 (

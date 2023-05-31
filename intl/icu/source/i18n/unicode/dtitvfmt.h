@@ -603,7 +603,7 @@ FormattedDateInterval
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -626,7 +626,7 @@ virtual
 FormattedDateInterval
 (
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -709,7 +709,7 @@ FormattedDateInterval
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -731,7 +731,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -753,7 +753,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -779,7 +779,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -804,7 +804,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :
@@ -4508,7 +4508,7 @@ Formattable
 *
 object
 or
-NULL
+nullptr
 *
 on
 failure
@@ -7246,12 +7246,12 @@ UnicodeString
 *
 extendedSkeleton
 =
-NULL
+nullptr
 UnicodeString
 *
 extendedBestSkeleton
 =
-NULL
+nullptr
 )
 ;
 /

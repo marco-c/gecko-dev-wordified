@@ -1577,7 +1577,7 @@ ICU
 class
 U_I18N_API
 DateIntervalInfo
-U_FINAL
+final
 :
 public
 UObject

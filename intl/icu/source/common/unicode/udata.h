@@ -2670,7 +2670,7 @@ icu
 /
 userguide
 /
-icudata
+icu_data
 *
 *
 The
@@ -3108,7 +3108,7 @@ icu
 /
 userguide
 /
-icudata
+icu_data
 *
 *
 The

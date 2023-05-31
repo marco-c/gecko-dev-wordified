@@ -1470,7 +1470,6 @@ UBool
 U_CALLCONV
 regex_cleanup
 (
-void
 )
 {
 delete

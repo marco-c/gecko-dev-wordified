@@ -714,7 +714,6 @@ DateTimeRule
 :
 getDateRuleType
 (
-void
 )
 const
 {
@@ -731,7 +730,6 @@ DateTimeRule
 :
 getTimeRuleType
 (
-void
 )
 const
 {
@@ -745,7 +743,6 @@ DateTimeRule
 :
 getRuleMonth
 (
-void
 )
 const
 {
@@ -759,7 +756,6 @@ DateTimeRule
 :
 getRuleDayOfMonth
 (
-void
 )
 const
 {
@@ -773,7 +769,6 @@ DateTimeRule
 :
 getRuleDayOfWeek
 (
-void
 )
 const
 {
@@ -787,7 +782,6 @@ DateTimeRule
 :
 getRuleWeekInMonth
 (
-void
 )
 const
 {
@@ -801,7 +795,6 @@ DateTimeRule
 :
 getRuleMillisInDay
 (
-void
 )
 const
 {

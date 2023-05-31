@@ -2062,7 +2062,7 @@ UObject
 )
 fLocale
 (
-NULL
+nullptr
 )
 {
 fResource
@@ -2102,7 +2102,7 @@ other
 )
 fLocale
 (
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -2143,7 +2143,7 @@ bundle
 /
 fResource
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2165,7 +2165,7 @@ UObject
 )
 fLocale
 (
-NULL
+nullptr
 )
 {
 if
@@ -2197,7 +2197,7 @@ bundle
 /
 fResource
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2224,7 +2224,7 @@ UObject
 )
 fLocale
 (
-NULL
+nullptr
 )
 {
 fResource
@@ -2285,7 +2285,7 @@ fResource
 ;
 fResource
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2293,7 +2293,7 @@ if
 fLocale
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2301,7 +2301,7 @@ fLocale
 ;
 fLocale
 =
-NULL
+nullptr
 ;
 }
 UErrorCode
@@ -2342,7 +2342,7 @@ bundle
 /
 fResource
 =
-NULL
+nullptr
 ;
 }
 return
@@ -2377,7 +2377,7 @@ if
 fLocale
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2424,7 +2424,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -2552,7 +2552,6 @@ ResourceBundle
 :
 getName
 (
-void
 )
 const
 {
@@ -2571,7 +2570,6 @@ ResourceBundle
 :
 getKey
 (
-void
 )
 const
 {
@@ -2588,7 +2586,6 @@ ResourceBundle
 :
 getType
 (
-void
 )
 const
 {
@@ -2605,7 +2602,6 @@ ResourceBundle
 :
 getSize
 (
-void
 )
 const
 {
@@ -2622,7 +2618,6 @@ ResourceBundle
 :
 hasNext
 (
-void
 )
 const
 {
@@ -2639,7 +2634,6 @@ ResourceBundle
 :
 resetIterator
 (
-void
 )
 {
 ures_resetIterator
@@ -2721,7 +2715,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -2766,7 +2760,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -2869,7 +2863,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -3037,7 +3031,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -3104,7 +3098,6 @@ ResourceBundle
 :
 getLocale
 (
-void
 )
 const
 {
@@ -3124,7 +3117,7 @@ if
 fLocale
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -3180,7 +3173,7 @@ ncThis
 fLocale
 !
 =
-NULL
+nullptr
 ?
 *
 ncThis

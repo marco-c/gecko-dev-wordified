@@ -477,7 +477,7 @@ which
 must
 not
 be
-NULL
+nullptr
 *
 param
 ec

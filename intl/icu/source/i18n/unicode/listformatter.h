@@ -644,7 +644,7 @@ FormattedList
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -667,7 +667,7 @@ virtual
 FormattedList
 (
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -750,7 +750,7 @@ FormattedList
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -772,7 +772,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -794,7 +794,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -820,7 +820,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -845,7 +845,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

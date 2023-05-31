@@ -376,7 +376,7 @@ NameUnicodeTransliterator
 )
 static
 const
-UChar
+char16_t
 OPEN
 [
 ]
@@ -401,7 +401,7 @@ N
 "
 static
 const
-UChar
+char16_t
 OPEN_DELIM
 =
 92
@@ -418,7 +418,7 @@ of
 OPEN
 static
 const
-UChar
+char16_t
 CLOSE_DELIM
 =
 125
@@ -430,7 +430,7 @@ CLOSE_DELIM
 '
 static
 const
-UChar
+char16_t
 SPACE
 =
 32
@@ -525,7 +525,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -640,7 +640,7 @@ USet
 UnicodeSet
 *
 _set_add
-NULL
+nullptr
 /
 /
 Don
@@ -648,7 +648,7 @@ Don
 t
 need
 _set_addRange
-NULL
+nullptr
 /
 /
 Don
@@ -656,7 +656,7 @@ Don
 t
 need
 _set_addString
-NULL
+nullptr
 /
 /
 Don
@@ -666,7 +666,7 @@ need
 remove
 (
 )
-NULL
+nullptr
 }
 ;
 uprv_getCharNameCharacters
@@ -890,7 +890,7 @@ malloc
 )
 =
 >
-NULL
+nullptr
 )
 .
 int32_t
@@ -955,7 +955,7 @@ if
 cbuf
 =
 =
-NULL
+nullptr
 )
 {
 offsets

@@ -841,7 +841,6 @@ UBool
 U_EXPORT2
 enableTentativeEra
 (
-void
 )
 ;
 /
@@ -871,7 +870,6 @@ uint32_t
 U_EXPORT2
 getCurrentEra
 (
-void
 )
 ;
 /
@@ -1231,7 +1229,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -1322,7 +1319,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 /

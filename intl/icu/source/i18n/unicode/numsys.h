@@ -1232,7 +1232,7 @@ ICU
 .
 Otherwise
 returns
-NULL
+nullptr
 .
 *
 The

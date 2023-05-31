@@ -303,7 +303,7 @@ LSTMBreakEngine
 ;
 virtual
 const
-UChar
+char16_t
 *
 name
 (
@@ -496,7 +496,7 @@ data
 ;
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 LSTMDataName

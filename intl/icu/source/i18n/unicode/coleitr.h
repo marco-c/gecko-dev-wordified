@@ -1149,7 +1149,7 @@ Jan
 class
 U_I18N_API
 CollationElementIterator
-U_FINAL
+final
 :
 public
 UObject

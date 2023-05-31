@@ -2204,12 +2204,12 @@ source
 *
 sourceLimit
 ;
-UChar
+char16_t
 *
 target
 ;
 const
-UChar
+char16_t
 *
 targetLimit
 ;
@@ -2608,7 +2608,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2920,7 +2920,7 @@ ended
 with
 an
 incomplete
-UChar
+char16_t
 or
 none
 after
@@ -2964,7 +2964,7 @@ comes
 after
 a
 complete
-UChar
+char16_t
 which
 was
 already
@@ -3127,7 +3127,7 @@ illegally
 left
 over
 a
-UChar
+char16_t
 is
 incomplete
 *
@@ -3171,7 +3171,7 @@ else
 /
 *
 previous
-UChar
+char16_t
 was
 complete
 *
@@ -3334,7 +3334,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3357,7 +3357,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3423,7 +3423,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3446,7 +3446,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3512,7 +3512,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3530,7 +3530,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3634,7 +3634,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3678,7 +3678,7 @@ illegally
 left
 over
 a
-UChar
+char16_t
 is
 incomplete
 *
@@ -3926,7 +3926,7 @@ UConverter
 cnv
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -3947,7 +3947,7 @@ length
 targetCapacity
 sourceIndex
 ;
-UChar
+char16_t
 c
 ;
 /
@@ -4242,7 +4242,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4300,7 +4300,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4339,7 +4339,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4410,7 +4410,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4574,7 +4574,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4629,7 +4629,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4824,7 +4824,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4852,7 +4852,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4993,7 +4993,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5028,7 +5028,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5089,7 +5089,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5245,7 +5245,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5280,7 +5280,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5336,7 +5336,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5500,7 +5500,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5570,7 +5570,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5797,19 +5797,19 @@ _UTF7Impl
 =
 {
 UCNV_UTF7
-NULL
-NULL
+nullptr
+nullptr
 _UTF7Open
-NULL
+nullptr
 _UTF7Reset
 _UTF7ToUnicodeWithOffsets
 _UTF7ToUnicodeWithOffsets
 _UTF7FromUnicodeWithOffsets
 _UTF7FromUnicodeWithOffsets
-NULL
-NULL
+nullptr
+nullptr
 _UTF7GetName
-NULL
+nullptr
 /
 *
 we
@@ -5832,10 +5832,10 @@ fromUnicode
 )
 *
 /
-NULL
+nullptr
 ucnv_getCompleteUnicodeSet
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static
@@ -6942,12 +6942,12 @@ source
 *
 sourceLimit
 ;
-UChar
+char16_t
 *
 target
 ;
 const
-UChar
+char16_t
 *
 targetLimit
 ;
@@ -6990,7 +6990,7 @@ int32_t
 sourceIndex
 nextSourceIndex
 ;
-UChar
+char16_t
 c
 ;
 uint8_t
@@ -7331,7 +7331,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7699,7 +7699,7 @@ case
 c
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -7755,7 +7755,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7818,7 +7818,7 @@ case
 c
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -7874,7 +7874,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7937,7 +7937,7 @@ case
 c
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -7988,7 +7988,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -8091,7 +8091,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -8155,7 +8155,7 @@ illegally
 left
 over
 a
-UChar
+char16_t
 is
 incomplete
 *
@@ -8618,7 +8618,7 @@ UConverter
 cnv
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -8639,7 +8639,7 @@ length
 targetCapacity
 sourceIndex
 ;
-UChar
+char16_t
 c
 ;
 uint8_t
@@ -8907,7 +8907,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -8965,7 +8965,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9004,7 +9004,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9075,7 +9075,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9233,7 +9233,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9276,7 +9276,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9488,7 +9488,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9516,7 +9516,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9693,7 +9693,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9728,7 +9728,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9798,7 +9798,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9999,7 +9999,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10034,7 +10034,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10099,7 +10099,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10281,7 +10281,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10351,7 +10351,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10530,19 +10530,19 @@ _IMAPImpl
 =
 {
 UCNV_IMAP_MAILBOX
-NULL
-NULL
+nullptr
+nullptr
 _UTF7Open
-NULL
+nullptr
 _UTF7Reset
 _IMAPToUnicodeWithOffsets
 _IMAPToUnicodeWithOffsets
 _IMAPFromUnicodeWithOffsets
 _IMAPFromUnicodeWithOffsets
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 /
 *
 we
@@ -10565,10 +10565,10 @@ fromUnicode
 )
 *
 /
-NULL
+nullptr
 ucnv_getCompleteUnicodeSet
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static

@@ -568,7 +568,7 @@ trieBytes
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 bytes_
 (
@@ -668,7 +668,7 @@ other
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 bytes_
 (
@@ -998,7 +998,7 @@ State
 {
 bytes
 =
-NULL
+nullptr
 ;
 }
 private
@@ -1184,7 +1184,7 @@ bytes
 bytes_
 !
 =
-NULL
+nullptr
 )
 {
 pos_
@@ -1518,7 +1518,7 @@ sequence
 .
 Can
 be
-NULL
+nullptr
 if
 length
 is
@@ -1789,7 +1789,7 @@ return
 pos
 !
 =
-NULL
+nullptr
 &
 &
 findUniqueValue
@@ -2760,7 +2760,7 @@ stop
 {
 pos_
 =
-NULL
+nullptr
 ;
 }
 /
@@ -4202,7 +4202,7 @@ byte
 to
 read
 .
-NULL
+nullptr
 if
 no
 more

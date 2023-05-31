@@ -234,7 +234,7 @@ ICU
 class
 U_COMMON_API
 Char16Ptr
-U_FINAL
+final
 {
 public
 :
@@ -811,7 +811,7 @@ ICU
 class
 U_COMMON_API
 ConstChar16Ptr
-U_FINAL
+final
 {
 public
 :

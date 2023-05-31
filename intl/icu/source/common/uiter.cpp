@@ -557,7 +557,7 @@ noopHasNext
 noopCurrent
 noopCurrent
 noopCurrent
-NULL
+nullptr
 noopGetState
 noopSetState
 }
@@ -609,12 +609,12 @@ a
 code
 unit
 (
-UChar
+char16_t
 )
 iterator
 *
 for
-UChar
+char16_t
 *
 strings
 .
@@ -645,6 +645,7 @@ iter
 UCharIteratorOrigin
 origin
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 switch
 (
@@ -731,6 +732,7 @@ delta
 UCharIteratorOrigin
 origin
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 int32_t
 pos
@@ -934,7 +936,7 @@ return
 (
 (
 const
-UChar
+char16_t
 *
 )
 (
@@ -986,7 +988,7 @@ return
 (
 (
 const
-UChar
+char16_t
 *
 )
 (
@@ -1040,7 +1042,7 @@ return
 (
 (
 const
-UChar
+char16_t
 *
 )
 (
@@ -1108,7 +1110,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1131,7 +1133,7 @@ if
 iter
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1204,7 +1206,7 @@ stringIteratorHasPrevious
 stringIteratorCurrent
 stringIteratorNext
 stringIteratorPrevious
-NULL
+nullptr
 stringIteratorGetState
 stringIteratorSetState
 }
@@ -1218,7 +1220,7 @@ UCharIterator
 *
 iter
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1357,7 +1359,7 @@ a
 code
 unit
 (
-UChar
+char16_t
 )
 iterator
 *
@@ -1378,7 +1380,7 @@ vectors
 where
 *
 each
-UChar
+char16_t
 is
 stored
 as
@@ -1412,7 +1414,7 @@ like
 with
 a
 normal
-UChar
+char16_t
 iterator
 (
 uiter_setString
@@ -1466,7 +1468,7 @@ context
 return
 (
 (
-UChar
+char16_t
 )
 p
 [
@@ -1480,7 +1482,7 @@ index
 )
 |
 (
-UChar
+char16_t
 )
 p
 [
@@ -1664,7 +1666,7 @@ stringIteratorHasPrevious
 utf16BEIteratorCurrent
 utf16BEIteratorNext
 utf16BEIteratorPrevious
-NULL
+nullptr
 stringIteratorGetState
 stringIteratorSetState
 }
@@ -1686,7 +1688,7 @@ string
 before
 a
 terminating
-UChar
+char16_t
 NUL
 *
 i
@@ -1757,7 +1759,7 @@ machine
 but
 searching
 for
-UChar
+char16_t
 NUL
 *
 does
@@ -1772,7 +1774,7 @@ u_strlen
 (
 (
 const
-UChar
+char16_t
 *
 )
 s
@@ -1865,7 +1867,7 @@ if
 iter
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -1890,7 +1892,7 @@ if
 s
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -1987,7 +1989,7 @@ string
 :
 use
 normal
-UChar
+char16_t
 iterator
 *
 /
@@ -1996,7 +1998,7 @@ uiter_setString
 iter
 (
 const
-UChar
+char16_t
 *
 )
 s
@@ -2151,6 +2153,7 @@ iter
 UCharIteratorOrigin
 origin
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 switch
 (
@@ -2289,6 +2292,7 @@ delta
 UCharIteratorOrigin
 origin
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 switch
 (
@@ -2754,7 +2758,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2777,7 +2781,7 @@ if
 iter
 =
 =
-NULL
+nullptr
 |
 |
 iter
@@ -2786,7 +2790,7 @@ iter
 context
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2897,7 +2901,7 @@ characterIteratorHasPrevious
 characterIteratorCurrent
 characterIteratorNext
 characterIteratorPrevious
-NULL
+nullptr
 characterIteratorGetState
 characterIteratorSetState
 }
@@ -3007,7 +3011,7 @@ a
 code
 unit
 (
-UChar
+char16_t
 )
 iterator
 *
@@ -3238,7 +3242,7 @@ stringIteratorHasPrevious
 replaceableIteratorCurrent
 replaceableIteratorNext
 replaceableIteratorPrevious
-NULL
+nullptr
 stringIteratorGetState
 stringIteratorSetState
 }
@@ -3423,7 +3427,7 @@ Maintain
 a
 single
 -
-UChar
+char16_t
 buffer
 for
 an
@@ -3649,6 +3653,7 @@ iter
 UCharIteratorOrigin
 origin
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 switch
 (
@@ -4194,6 +4199,7 @@ delta
 UCharIteratorOrigin
 origin
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 const
 uint8_t
@@ -5721,7 +5727,7 @@ reservedField
 0
 )
 {
-UChar
+char16_t
 trail
 =
 U16_TRAIL
@@ -5985,7 +5991,7 @@ reservedField
 0
 )
 {
-UChar
+char16_t
 lead
 =
 U16_LEAD
@@ -6280,7 +6286,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -6303,7 +6309,7 @@ if
 iter
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -6562,7 +6568,7 @@ utf8IteratorHasPrevious
 utf8IteratorCurrent
 utf8IteratorNext
 utf8IteratorPrevious
-NULL
+nullptr
 utf8IteratorGetState
 utf8IteratorSetState
 }
@@ -7125,7 +7131,7 @@ if
 iter
 =
 =
-NULL
+nullptr
 |
 |
 iter
@@ -7134,7 +7140,7 @@ iter
 getState
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -7174,7 +7180,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -7197,7 +7203,7 @@ if
 iter
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7215,7 +7221,7 @@ iter
 setState
 =
 =
-NULL
+nullptr
 )
 {
 *

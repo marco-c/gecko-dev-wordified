@@ -2358,7 +2358,8 @@ c
 !
 =
 CharacterIterator
-.
+:
+:
 DONE
 ;
 c
@@ -2430,7 +2431,8 @@ c
 !
 =
 CharacterIterator
-.
+:
+:
 DONE
 ;
 c
@@ -2529,7 +2531,8 @@ c
 !
 =
 CharacterIterator
-.
+:
+:
 DONE
 &
 &
@@ -2590,7 +2593,8 @@ c
 !
 =
 CharacterIterator
-.
+:
+:
 DONE
 &
 &

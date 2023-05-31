@@ -660,7 +660,7 @@ Map
 category
 variable
 (
-UChar
+char16_t
 )
 to
 set
@@ -846,7 +846,7 @@ objects
 .
 *
 /
-UChar
+char16_t
 variablesBase
 ;
 /
@@ -938,7 +938,7 @@ it
 *
 represents
 or
-NULL
+nullptr
 if
 it
 doesn
@@ -995,7 +995,7 @@ it
 *
 represents
 or
-NULL
+nullptr
 if
 it
 doesn
@@ -1064,7 +1064,7 @@ it
 *
 represents
 or
-NULL
+nullptr
 if
 it
 doesn

@@ -1449,7 +1449,7 @@ Return
 a
 non
 -
-NULL
+nullptr
 aliasReturn
 value
 if
@@ -1486,7 +1486,7 @@ should
 *
 make
 aliasReturn
-NULL
+nullptr
 before
 calling
 .
@@ -1508,7 +1508,7 @@ TransliteratorAlias
 *
 should
 be
-NULL
+nullptr
 on
 entry
 *
@@ -1678,7 +1678,7 @@ TransliteratorAlias
 *
 should
 be
-NULL
+nullptr
 on
 entry
 *
@@ -2240,7 +2240,6 @@ internal
 int32_t
 countAvailableIDs
 (
-void
 )
 const
 ;
@@ -2387,7 +2386,6 @@ specifiers
 int32_t
 countAvailableSources
 (
-void
 )
 const
 ;
@@ -3436,7 +3434,6 @@ U_CFUNC
 UBool
 utrans_transliterator_cleanup
 (
-void
 )
 ;
 #

@@ -1502,7 +1502,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1510,7 +1510,7 @@ if
 locale
 !
 =
-NULL
+nullptr
 &
 &
 locale
@@ -1661,7 +1661,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1687,7 +1687,7 @@ cnv
 >
 extraInfo
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1767,12 +1767,12 @@ source
 *
 sourceLimit
 ;
-UChar
+char16_t
 *
 target
 ;
 const
-UChar
+char16_t
 *
 targetLimit
 ;
@@ -2215,7 +2215,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 b
 ;
@@ -2224,7 +2224,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2277,7 +2277,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -2286,7 +2286,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2313,7 +2313,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xd7c0
@@ -2339,7 +2339,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -2356,7 +2356,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2388,7 +2388,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2408,7 +2408,7 @@ UCharErrorBuffer
 ]
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -2600,7 +2600,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 b
 ;
@@ -2609,7 +2609,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2899,7 +2899,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -2917,7 +2917,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2966,7 +2966,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 staticOffsets
@@ -2982,7 +2982,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3035,7 +3035,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -3044,7 +3044,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3071,7 +3071,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xd7c0
@@ -3097,7 +3097,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -3114,7 +3114,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3146,7 +3146,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3166,7 +3166,7 @@ UCharErrorBuffer
 ]
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -3542,7 +3542,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3563,7 +3563,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3951,7 +3951,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3969,7 +3969,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4220,12 +4220,12 @@ source
 *
 sourceLimit
 ;
-UChar
+char16_t
 *
 target
 ;
 const
-UChar
+char16_t
 *
 targetLimit
 ;
@@ -4616,7 +4616,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 b
 ;
@@ -4662,7 +4662,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -4682,7 +4682,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xd7c0
@@ -4708,7 +4708,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -4738,7 +4738,7 @@ UCharErrorBuffer
 ]
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -4922,7 +4922,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 b
 ;
@@ -5193,7 +5193,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -5240,7 +5240,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 staticOffsets
@@ -5293,7 +5293,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -5313,7 +5313,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xd7c0
@@ -5339,7 +5339,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -5369,7 +5369,7 @@ UCharErrorBuffer
 ]
 =
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -5733,7 +5733,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -6109,7 +6109,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -7413,7 +7413,7 @@ SCSUData
 scsu
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -7461,7 +7461,7 @@ heuristics
 uint32_t
 offset
 ;
-UChar
+char16_t
 lead
 trail
 ;
@@ -7761,7 +7761,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7856,7 +7856,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7942,7 +7942,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7980,7 +7980,7 @@ getTrailSingle
 lead
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -8186,7 +8186,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -8450,7 +8450,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9216,7 +9216,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9653,7 +9653,7 @@ getTrailUnicode
 lead
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -10310,7 +10310,7 @@ if
 offsets
 =
 =
-NULL
+nullptr
 )
 {
 switch
@@ -10861,7 +10861,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10897,7 +10897,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10928,7 +10928,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -11042,7 +11042,7 @@ SCSUData
 scsu
 ;
 const
-UChar
+char16_t
 *
 source
 *
@@ -11082,7 +11082,7 @@ heuristics
 uint32_t
 offset
 ;
-UChar
+char16_t
 lead
 trail
 ;
@@ -11509,7 +11509,7 @@ getTrailSingle
 lead
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -13115,7 +13115,7 @@ getTrailUnicode
 lead
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -14104,9 +14104,19 @@ target
 *
 /
 c
->
->
 =
+(
+length
+=
+=
+4
+)
+?
+0
+:
+c
+>
+>
 8
 *
 length
@@ -14520,8 +14530,8 @@ _SCSUImpl
 =
 {
 UCNV_SCSU
-NULL
-NULL
+nullptr
+nullptr
 _SCSUOpen
 _SCSUClose
 _SCSUReset
@@ -14529,14 +14539,14 @@ _SCSUToUnicode
 _SCSUToUnicodeWithOffsets
 _SCSUFromUnicode
 _SCSUFromUnicodeWithOffsets
-NULL
-NULL
+nullptr
+nullptr
 _SCSUGetName
-NULL
+nullptr
 _SCSUSafeClone
 ucnv_getCompleteUnicodeSet
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static
@@ -14567,7 +14577,7 @@ UCNV_SCSU
 /
 *
 one
-UChar
+char16_t
 generates
 at
 least

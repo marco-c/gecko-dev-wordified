@@ -1822,7 +1822,7 @@ is
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -1915,7 +1915,7 @@ that
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -4005,7 +4005,7 @@ is
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -4042,7 +4042,7 @@ BreakIterator
 *
 breakiter
 =
-NULL
+nullptr
 )
 ;
 /
@@ -4225,7 +4225,7 @@ is
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -4261,7 +4261,7 @@ BreakIterator
 *
 breakiter
 =
-NULL
+nullptr
 )
 ;
 /

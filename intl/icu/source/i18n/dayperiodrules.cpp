@@ -303,11 +303,11 @@ DayPeriodRulesData
 :
 localeToRuleSetNumMap
 (
-NULL
+nullptr
 )
 rules
 (
-NULL
+nullptr
 )
 maxRuleSetNum
 (
@@ -330,7 +330,7 @@ maxRuleSetNum
 *
 data
 =
-NULL
+nullptr
 ;
 enum
 CutoffType
@@ -621,7 +621,7 @@ data
 rules
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2230,7 +2230,7 @@ data
 ;
 data
 =
-NULL
+nullptr
 ;
 return
 true
@@ -2279,7 +2279,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 errorCode
 )
@@ -2289,7 +2289,7 @@ rb_dayPeriods
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 dayPeriods
 "
@@ -2413,7 +2413,7 @@ want
 does
 )
 return
-NULL
+nullptr
 .
 if
 (
@@ -2424,7 +2424,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -2503,7 +2503,7 @@ errorCode
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -2683,7 +2683,7 @@ with
 fallback
 .
 return
-NULL
+nullptr
 ;
 }
 else

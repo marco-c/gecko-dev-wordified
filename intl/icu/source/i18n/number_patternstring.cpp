@@ -7156,7 +7156,7 @@ offset
 +
 )
 {
-UChar
+char16_t
 ch
 =
 input

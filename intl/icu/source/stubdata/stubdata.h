@@ -334,7 +334,6 @@ building
 tools
 .
 *
-*
 /
 #
 ifndef
@@ -371,6 +370,10 @@ h
 "
 typedef
 struct
+alignas
+(
+16
+)
 {
 uint16_t
 headerSize
@@ -417,10 +420,10 @@ toc
 ;
 *
 /
-int
+uint64_t
 fakeNameAndData
 [
-4
+2
 ]
 ;
 /

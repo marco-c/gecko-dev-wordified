@@ -383,7 +383,7 @@ rs
 )
 ffffString
 (
-UChar
+char16_t
 (
 0xffff
 )
@@ -391,11 +391,11 @@ UChar
 {
 fHashTable
 =
-NULL
+nullptr
 ;
 fCachedSetLookup
 =
-NULL
+nullptr
 ;
 fHashTable
 =
@@ -403,7 +403,7 @@ uhash_open
 (
 uhash_hashUnicodeString
 uhash_compareUnicodeString
-NULL
+nullptr
 &
 status
 )
@@ -563,11 +563,11 @@ if
 el
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 varRefNode
@@ -704,7 +704,7 @@ This
 >
 fCachedSetLookup
 =
-NULL
+nullptr
 ;
 }
 return
@@ -859,7 +859,7 @@ UnicodeSet
 *
 retVal
 =
-NULL
+nullptr
 ;
 RBBISymbolTable
 *
@@ -1029,7 +1029,7 @@ i
 limit
 )
 {
-UChar
+char16_t
 c
 =
 text
@@ -1154,7 +1154,7 @@ for
 this
 name
 return
-NULL
+nullptr
 .
 /
 /
@@ -1176,7 +1176,7 @@ RBBINode
 *
 retNode
 =
-NULL
+nullptr
 ;
 RBBISymbolTableEntry
 *
@@ -1200,7 +1200,7 @@ if
 el
 !
 =
-NULL
+nullptr
 )
 {
 retNode
@@ -1320,7 +1320,7 @@ if
 e
 !
 =
-NULL
+nullptr
 )
 {
 err
@@ -1340,7 +1340,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 err
@@ -1393,7 +1393,7 @@ key
 )
 val
 (
-NULL
+nullptr
 )
 {
 }
@@ -1475,7 +1475,7 @@ val
 >
 fLeftChild
 =
-NULL
+nullptr
 ;
 delete
 val
@@ -1633,7 +1633,7 @@ UHashElement
 *
 e
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1655,7 +1655,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -1776,7 +1776,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 break

@@ -514,12 +514,12 @@ UCNV_NUMBER_OF_SUPPORTED_CONVERTER_TYPES
 ]
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 #
 if
 UCONFIG_NO_LEGACY_CONVERSION
-NULL
+nullptr
 #
 else
 &
@@ -537,8 +537,8 @@ _UTF16LEData
 #
 if
 UCONFIG_ONLY_HTML_CONVERSION
-NULL
-NULL
+nullptr
+nullptr
 #
 else
 &
@@ -547,11 +547,11 @@ _UTF32BEData
 _UTF32LEData
 #
 endif
-NULL
+nullptr
 #
 if
 UCONFIG_NO_LEGACY_CONVERSION
-NULL
+nullptr
 #
 else
 &
@@ -564,19 +564,19 @@ UCONFIG_NO_LEGACY_CONVERSION
 |
 |
 UCONFIG_ONLY_HTML_CONVERSION
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 #
 else
 &
@@ -610,7 +610,7 @@ endif
 #
 if
 UCONFIG_ONLY_HTML_CONVERSION
-NULL
+nullptr
 #
 else
 &
@@ -623,7 +623,7 @@ UCONFIG_NO_LEGACY_CONVERSION
 |
 |
 UCONFIG_ONLY_HTML_CONVERSION
-NULL
+nullptr
 #
 else
 &
@@ -635,13 +635,13 @@ _ASCIIData
 #
 if
 UCONFIG_ONLY_HTML_CONVERSION
-NULL
-NULL
+nullptr
+nullptr
 &
 _UTF16Data
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 #
 else
 &
@@ -664,7 +664,7 @@ UCONFIG_NO_LEGACY_CONVERSION
 |
 |
 UCONFIG_ONLY_HTML_CONVERSION
-NULL
+nullptr
 #
 else
 &
@@ -1050,7 +1050,7 @@ UHashtable
 *
 SHARED_DATA_HASHTABLE
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -1086,7 +1086,7 @@ char
 *
 gAvailableConverters
 =
-NULL
+nullptr
 ;
 static
 uint16_t
@@ -1141,7 +1141,7 @@ UCNV_MAX_CONVERTER_NAME_LENGTH
 +
 1
 for
-NULL
+nullptr
 *
 /
 static
@@ -1150,7 +1150,7 @@ char
 *
 gDefaultConverterName
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1223,7 +1223,7 @@ UConverterSharedData
 *
 gDefaultAlgorithmicSharedData
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1323,7 +1323,7 @@ gAvailableConverters
 ;
 gAvailableConverters
 =
-NULL
+nullptr
 ;
 }
 gAvailableConvertersInitOnce
@@ -1380,7 +1380,6 @@ UBool
 U_CALLCONV
 ucnv_cleanup
 (
-void
 )
 {
 ucnv_flushCache
@@ -1392,7 +1391,7 @@ if
 SHARED_DATA_HASHTABLE
 !
 =
-NULL
+nullptr
 &
 &
 uhash_count
@@ -1411,7 +1410,7 @@ SHARED_DATA_HASHTABLE
 ;
 SHARED_DATA_HASHTABLE
 =
-NULL
+nullptr
 ;
 }
 /
@@ -1445,7 +1444,7 @@ if
 U_CHARSET_IS_UTF8
 gDefaultConverterName
 =
-NULL
+nullptr
 ;
 gDefaultConverterNameBuffer
 [
@@ -1460,7 +1459,7 @@ false
 ;
 gDefaultAlgorithmicSharedData
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -1469,7 +1468,7 @@ return
 SHARED_DATA_HASHTABLE
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1478,7 +1477,6 @@ void
 U_EXPORT2
 ucnv_enableCleanup
 (
-void
 )
 {
 ucln_common_registerCleanup
@@ -1741,7 +1739,7 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1760,7 +1758,7 @@ type
 ]
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -1803,7 +1801,7 @@ status
 U_INVALID_TABLE_FORMAT
 ;
 return
-NULL
+nullptr
 ;
 }
 data
@@ -1825,7 +1823,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1834,7 +1832,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1918,7 +1916,7 @@ impl
 load
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -1955,7 +1953,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2037,7 +2035,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UTRACE_DATA2
@@ -2077,7 +2075,7 @@ pArgs
 >
 name
 isCnvAcceptable
-NULL
+nullptr
 err
 )
 ;
@@ -2097,7 +2095,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 sharedData
@@ -2130,7 +2128,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2408,7 +2406,7 @@ type
 }
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2580,7 +2578,7 @@ void
 *
 sanity
 =
-NULL
+nullptr
 ;
 *
 /
@@ -2589,7 +2587,7 @@ if
 SHARED_DATA_HASHTABLE
 =
 =
-NULL
+nullptr
 )
 {
 SHARED_DATA_HASHTABLE
@@ -2598,7 +2596,7 @@ uhash_openSize
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 ucnv_io_countKnownConverters
 (
 &
@@ -2662,7 +2660,7 @@ if
 sanity
 !
 =
-NULL
+nullptr
 )
 {
 UCNV_DEBUG_LOG
@@ -2744,7 +2742,7 @@ as
 keyDeleter
 =
 =
-NULL
+nullptr
 *
 /
 data
@@ -2812,7 +2810,7 @@ SHARED_DATA_HASHTABLE
 (
 might
 return
-NULL
+nullptr
 if
 it
 isn
@@ -2863,7 +2861,7 @@ been
 created
 we
 return
-NULL
+nullptr
 *
 /
 if
@@ -2871,11 +2869,11 @@ if
 SHARED_DATA_HASHTABLE
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -3076,7 +3074,7 @@ impl
 unload
 !
 =
-NULL
+nullptr
 )
 {
 deadSharedData
@@ -3099,7 +3097,7 @@ deadSharedData
 dataMemory
 !
 =
-NULL
+nullptr
 )
 {
 UDataMemory
@@ -3154,7 +3152,7 @@ If
 pkg
 =
 =
-NULL
+nullptr
 then
 this
 function
@@ -3191,7 +3189,7 @@ if
 err
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -3202,7 +3200,7 @@ err
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3213,7 +3211,7 @@ pArgs
 pkg
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -3261,7 +3259,7 @@ if
 mySharedConverterData
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -3299,12 +3297,12 @@ err
 mySharedConverterData
 =
 =
-NULL
+nullptr
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -3428,7 +3426,7 @@ if
 sharedData
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -3495,7 +3493,7 @@ if
 sharedData
 !
 =
-NULL
+nullptr
 &
 &
 sharedData
@@ -3537,7 +3535,7 @@ if
 sharedData
 !
 =
-NULL
+nullptr
 &
 &
 sharedData
@@ -4324,7 +4322,7 @@ UConverterSharedData
 *
 mySharedConverterData
 =
-NULL
+nullptr
 ;
 UErrorCode
 internalErrorCode
@@ -4351,7 +4349,7 @@ err
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4359,7 +4357,7 @@ if
 pPieces
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -4367,7 +4365,7 @@ if
 pArgs
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -4401,7 +4399,7 @@ err
 U_INTERNAL_PROGRAM_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 pPieces
@@ -4415,7 +4413,7 @@ if
 pArgs
 =
 =
-NULL
+nullptr
 )
 {
 uprv_memset
@@ -4509,7 +4507,7 @@ case
 name
 "
 is
-NULL
+nullptr
 we
 want
 to
@@ -4525,7 +4523,7 @@ if
 converterName
 =
 =
-NULL
+nullptr
 )
 {
 #
@@ -4586,7 +4584,7 @@ pArgs
 name
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4595,7 +4593,7 @@ err
 U_MISSING_RESOURCE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 mySharedConverterData
@@ -4708,7 +4706,7 @@ used
 *
 /
 return
-NULL
+nullptr
 ;
 }
 /
@@ -4751,7 +4749,7 @@ pArgs
 name
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -4890,7 +4888,7 @@ if
 mySharedConverterData
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -4969,7 +4967,7 @@ pArgs
 >
 pkg
 =
-NULL
+nullptr
 ;
 umtx_lock
 (
@@ -5004,12 +5002,12 @@ err
 mySharedConverterData
 =
 =
-NULL
+nullptr
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -5130,7 +5128,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 U_CFUNC
@@ -5318,7 +5316,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 sharedData
@@ -5333,7 +5331,7 @@ if
 sharedData
 =
 =
-NULL
+nullptr
 |
 |
 sharedData
@@ -5366,7 +5364,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 stackArgs
@@ -5469,7 +5467,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UTRACE_DATA2
@@ -5561,7 +5559,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 stackArgs
@@ -5612,7 +5610,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -5627,7 +5625,7 @@ myUConverter
 =
 ucnv_createConverterFromSharedData
 (
-NULL
+nullptr
 mySharedConverterData
 &
 stackArgs
@@ -5655,7 +5653,7 @@ err
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UTRACE_EXIT_PTR_STATUS
@@ -5714,7 +5712,7 @@ if
 myUConverter
 =
 =
-NULL
+nullptr
 )
 {
 myUConverter
@@ -5736,7 +5734,7 @@ if
 myUConverter
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5750,7 +5748,7 @@ mySharedConverterData
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 isCopyLocal
@@ -5969,7 +5967,7 @@ impl
 open
 !
 =
-NULL
+nullptr
 )
 {
 mySharedConverterData
@@ -6023,7 +6021,7 @@ myUConverter
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6063,7 +6061,7 @@ UConverterSharedData
 *
 mySharedData
 =
-NULL
+nullptr
 ;
 int32_t
 pos
@@ -6143,7 +6141,7 @@ if
 SHARED_DATA_HASHTABLE
 =
 =
-NULL
+nullptr
 )
 {
 UTRACE_EXIT_VALUE
@@ -6350,7 +6348,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 mySharedData
@@ -6564,7 +6562,7 @@ U_ASSERT
 gAvailableConverters
 =
 =
-NULL
+nullptr
 )
 ;
 ucnv_enableCleanup
@@ -6687,7 +6685,7 @@ ucnv_createConverter
 (
 &
 tempConverter
-NULL
+nullptr
 &
 localStatus
 )
@@ -6725,7 +6723,7 @@ converterName
 uenum_next
 (
 allConvEnum
-NULL
+nullptr
 &
 localStatus
 )
@@ -6850,7 +6848,7 @@ U_INDEX_OUTOFBOUNDS_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -7074,7 +7072,7 @@ UCNV_OPTION_SEP_CHAR
 )
 !
 =
-NULL
+nullptr
 )
 ;
 const
@@ -7410,7 +7408,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -7422,7 +7420,7 @@ UConverter
 *
 cnv
 =
-NULL
+nullptr
 ;
 name
 =
@@ -7454,7 +7452,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 cnv
@@ -7477,7 +7475,7 @@ errorCode
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 name
@@ -7496,7 +7494,7 @@ if
 name
 =
 =
-NULL
+nullptr
 |
 |
 name
@@ -7517,7 +7515,7 @@ errorCode
 cnv
 =
 =
-NULL
+nullptr
 |
 |
 uprv_strlen
@@ -7699,7 +7697,7 @@ if
 converterName
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -7713,7 +7711,7 @@ codepage
 /
 gDefaultConverterName
 =
-NULL
+nullptr
 ;
 }
 else
@@ -7727,14 +7725,14 @@ UConverter
 *
 cnv
 =
-NULL
+nullptr
 ;
 const
 char
 *
 name
 =
-NULL
+nullptr
 ;
 /
 *
@@ -7775,7 +7773,7 @@ errorCode
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 name
@@ -7799,7 +7797,7 @@ errorCode
 name
 !
 =
-NULL
+nullptr
 )
 {
 internalSetName
@@ -8073,7 +8071,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -8310,6 +8308,15 @@ headerSize
 ;
 outBytes
 =
+(
+outData
+=
+=
+nullptr
+)
+?
+nullptr
+:
 (
 uint8_t
 *
@@ -8585,6 +8592,13 @@ inBytes
 =
 staticDataSize
 ;
+if
+(
+outBytes
+!
+=
+nullptr
+)
 outBytes
 +
 =
@@ -9346,7 +9360,7 @@ matter
 /
 inExtIndexes
 =
-NULL
+nullptr
 ;
 }
 else

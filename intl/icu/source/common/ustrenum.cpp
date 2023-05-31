@@ -441,7 +441,7 @@ if
 chars
 !
 =
-NULL
+nullptr
 &
 &
 chars
@@ -481,7 +481,7 @@ clone
 const
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -521,7 +521,7 @@ status
 s
 !
 =
-NULL
+nullptr
 )
 {
 unistr
@@ -554,7 +554,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -584,11 +584,11 @@ chars
 }
 }
 return
-NULL
+nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 StringEnumeration
 :
@@ -624,7 +624,7 @@ status
 s
 !
 =
-NULL
+nullptr
 )
 {
 unistr
@@ -637,7 +637,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -659,7 +659,7 @@ getTerminatedBuffer
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -782,7 +782,7 @@ if
 chars
 =
 =
-NULL
+nullptr
 )
 {
 chars
@@ -839,7 +839,7 @@ status
 s
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -860,7 +860,7 @@ s
 )
 ;
 }
-UChar
+char16_t
 *
 buffer
 =
@@ -878,7 +878,7 @@ if
 buffer
 !
 =
-NULL
+nullptr
 )
 {
 u_charsToUChars
@@ -916,7 +916,7 @@ U_MEMORY_ALLOCATION_ERROR
 }
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1049,7 +1049,7 @@ uenumToAdopt
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UStringEnumeration
@@ -1067,7 +1067,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1080,7 +1080,7 @@ uenumToAdopt
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1189,7 +1189,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 str
 =
@@ -1443,7 +1443,7 @@ UEnumeration
 /
 static
 const
-UChar
+char16_t
 *
 U_CALLCONV
 ustrenum_unext
@@ -1596,8 +1596,8 @@ UEnumeration
 USTRENUM_VT
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 /
 /
 store
@@ -1671,7 +1671,7 @@ UEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1685,7 +1685,7 @@ ec
 adopted
 !
 =
-NULL
+nullptr
 )
 {
 result
@@ -1707,7 +1707,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1743,7 +1743,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1887,7 +1887,7 @@ count
 }
 static
 const
-UChar
+char16_t
 *
 U_CALLCONV
 ucharstrenum_unext
@@ -1932,18 +1932,18 @@ count
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 result
 =
 (
 (
 const
-UChar
+char16_t
 *
 *
 )
@@ -2031,7 +2031,7 @@ count
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -2120,8 +2120,8 @@ UEnumeration
 UCHARSTRENUM_VT
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 /
 /
 store
@@ -2141,8 +2141,8 @@ UEnumeration
 UCHARSTRENUM_U_VT
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 /
 /
 store
@@ -2181,7 +2181,7 @@ UCharStringEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2231,7 +2231,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2319,7 +2319,7 @@ U_EXPORT2
 uenum_openUCharStringsEnumeration
 (
 const
-UChar
+char16_t
 *
 const
 strings
@@ -2336,7 +2336,7 @@ UCharStringEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2386,7 +2386,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 *

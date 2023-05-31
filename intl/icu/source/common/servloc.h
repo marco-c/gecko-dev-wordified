@@ -1646,7 +1646,7 @@ create
 The
 default
 returns
-NULL
+nullptr
 .
 *
 /
@@ -3251,7 +3251,6 @@ StringEnumeration
 *
 getAvailableLocales
 (
-void
 )
 const
 ;

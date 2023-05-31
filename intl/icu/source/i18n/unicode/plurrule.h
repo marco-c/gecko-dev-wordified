@@ -2205,7 +2205,7 @@ parsable
 otherwise
 *
 returns
-NULL
+nullptr
 .
 *
 *
@@ -2244,7 +2244,7 @@ new
 PluralRules
 pointer
 .
-NULL
+nullptr
 if
 there
 is
@@ -2318,7 +2318,7 @@ new
 PluralRules
 pointer
 .
-NULL
+nullptr
 if
 there
 is
@@ -3600,7 +3600,7 @@ values
 May
 *
 be
-NULL
+nullptr
 if
 destCapacity
 is
@@ -3759,7 +3759,7 @@ values
 May
 *
 be
-NULL
+nullptr
 if
 destCapacity
 is
@@ -3942,7 +3942,7 @@ values
 May
 *
 be
-NULL
+nullptr
 if
 destCapacity
 is

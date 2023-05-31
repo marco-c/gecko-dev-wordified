@@ -427,7 +427,7 @@ UPPERCASE_Z
 int
 ufmt_digitvalue
 (
-UChar
+char16_t
 c
 )
 {
@@ -524,7 +524,7 @@ return
 UBool
 ufmt_isdigit
 (
-UChar
+char16_t
 c
 int32_t
 radix
@@ -602,7 +602,7 @@ a
 void
 ufmt_64tou
 (
-UChar
+char16_t
 *
 buffer
 int32_t
@@ -626,7 +626,7 @@ length
 uint32_t
 digit
 ;
-UChar
+char16_t
 *
 left
 *
@@ -660,7 +660,7 @@ length
 ]
 =
 (
-UChar
+char16_t
 )
 (
 uselower
@@ -790,7 +790,7 @@ length
 void
 ufmt_ptou
 (
-UChar
+char16_t
 *
 buffer
 int32_t
@@ -976,7 +976,7 @@ int64_t
 ufmt_uto64
 (
 const
-UChar
+char16_t
 *
 buffer
 int32_t
@@ -987,7 +987,7 @@ radix
 )
 {
 const
-UChar
+char16_t
 *
 limit
 ;
@@ -1100,7 +1100,7 @@ void
 ufmt_utop
 (
 const
-UChar
+char16_t
 *
 buffer
 int32_t
@@ -1167,7 +1167,7 @@ result
 .
 ptr
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1465,7 +1465,7 @@ result
 ptr
 ;
 }
-UChar
+char16_t
 *
 ufmt_defaultCPToUnicode
 (
@@ -1475,14 +1475,14 @@ char
 s
 int32_t
 sSize
-UChar
+char16_t
 *
 target
 int32_t
 tSize
 )
 {
-UChar
+char16_t
 *
 alias
 ;
@@ -1578,7 +1578,7 @@ s
 sSize
 -
 1
-NULL
+nullptr
 true
 &
 status

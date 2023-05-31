@@ -663,7 +663,6 @@ char
 *
 locale_get_default
 (
-void
 )
 ;
 /
@@ -814,7 +813,7 @@ be
 terminated
 with
 a
-NULL
+nullptr
 entry
 followed
 by
@@ -824,7 +823,7 @@ second
 list
 and
 another
-NULL
+nullptr
 entry
 .
 The
@@ -2821,7 +2820,7 @@ zxx
 "
 zza
 "
-NULL
+nullptr
 "
 in
 "
@@ -2853,7 +2852,7 @@ language
 codes
 *
 /
-NULL
+nullptr
 }
 ;
 static
@@ -2881,8 +2880,8 @@ jw
 "
 mo
 "
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static
@@ -2910,8 +2909,8 @@ jv
 "
 ro
 "
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 /
@@ -3041,7 +3040,7 @@ be
 terminated
 with
 a
-NULL
+nullptr
 entry
 followed
 by
@@ -3051,7 +3050,7 @@ second
 list
 and
 another
-NULL
+nullptr
 entry
 .
 The
@@ -4897,7 +4896,7 @@ zxx
 "
 zza
 "
-NULL
+nullptr
 /
 *
 "
@@ -4950,7 +4949,7 @@ swc
 "
 tgl
 "
-NULL
+nullptr
 }
 ;
 /
@@ -5014,7 +5013,7 @@ be
 terminated
 with
 a
-NULL
+nullptr
 entry
 followed
 by
@@ -5024,7 +5023,7 @@ second
 list
 and
 another
-NULL
+nullptr
 entry
 .
 The
@@ -5339,6 +5338,9 @@ CN
 "
 "
 CO
+"
+"
+CQ
 "
 "
 CR
@@ -5952,7 +5954,7 @@ ZM
 "
 ZW
 "
-NULL
+nullptr
 "
 AN
 "
@@ -5990,7 +5992,7 @@ country
 codes
 *
 /
-NULL
+nullptr
 }
 ;
 static
@@ -6051,8 +6053,8 @@ YU
 "
 ZR
 "
-NULL
-NULL
+nullptr
+nullptr
 /
 *
 deprecated
@@ -6172,8 +6174,8 @@ RS
 "
 CD
 "
-NULL
-NULL
+nullptr
+nullptr
 /
 *
 replacement
@@ -6275,7 +6277,7 @@ be
 terminated
 with
 a
-NULL
+nullptr
 entry
 followed
 by
@@ -6285,7 +6287,7 @@ second
 list
 and
 another
-NULL
+nullptr
 entry
 .
 The
@@ -6608,6 +6610,9 @@ CN
 CO
 "
 "
+CQ
+"
+"
 CR
 "
 *
@@ -6632,6 +6637,9 @@ CHN
 "
 "
 COL
+"
+"
+CRQ
 "
 "
 CRI
@@ -7950,7 +7958,7 @@ ZMB
 "
 ZWE
 "
-NULL
+nullptr
 /
 *
 "
@@ -8015,7 +8023,7 @@ YUG
 "
 ZAR
 "
-NULL
+nullptr
 }
 ;
 typedef
@@ -8327,7 +8335,7 @@ id
 )
 =
 =
-NULL
+nullptr
 &
 &
 getShortestSubtagLength
@@ -8393,7 +8401,7 @@ uloc_forLanguageTag
 id
 buffer
 length
-NULL
+nullptr
 err
 )
 ;
@@ -8799,7 +8807,7 @@ char
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8815,7 +8823,7 @@ localeID
 )
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -8914,7 +8922,7 @@ charToFind
 )
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -8930,7 +8938,7 @@ charToFind
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 /
@@ -9255,14 +9263,14 @@ char
 *
 equalSign
 =
-NULL
+nullptr
 ;
 const
 char
 *
 semicolon
 =
-NULL
+nullptr
 ;
 int32_t
 i
@@ -9881,7 +9889,7 @@ sizeof
 KeywordStruct
 )
 compareKeywordStructs
-NULL
+nullptr
 false
 status
 )
@@ -10131,14 +10139,14 @@ char
 *
 startSearchHere
 =
-NULL
+nullptr
 ;
 const
 char
 *
 nextSeparator
 =
-NULL
+nullptr
 ;
 char
 keywordNameBuffer
@@ -10183,7 +10191,7 @@ if
 keywordName
 =
 =
-NULL
+nullptr
 |
 |
 keywordName
@@ -10264,7 +10272,7 @@ if
 startSearchHere
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -10855,25 +10863,25 @@ char
 *
 nextSeparator
 =
-NULL
+nullptr
 ;
 char
 *
 nextEqualsign
 =
-NULL
+nullptr
 ;
 char
 *
 startSearchHere
 =
-NULL
+nullptr
 ;
 char
 *
 keywordStart
 =
-NULL
+nullptr
 ;
 CharString
 updatedKeysAndValues
@@ -10923,7 +10931,7 @@ if
 keywordName
 =
 =
-NULL
+nullptr
 |
 |
 keywordName
@@ -10980,7 +10988,7 @@ length
 !
 Is
 this
-NULL
+NUL
 terminated
 ?
 *
@@ -11152,7 +11160,7 @@ if
 startSearchHere
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -12688,7 +12696,7 @@ should
 contain
 *
 a
-NULL
+nullptr
 entry
 followed
 by
@@ -12697,7 +12705,7 @@ entries
 and
 a
 second
-NULL
+nullptr
 entry
 .
 *
@@ -12755,7 +12763,7 @@ two
 passes
 through
 two
-NULL
+nullptr
 -
 terminated
 arrays
@@ -12817,7 +12825,7 @@ list
 *
 skip
 final
-NULL
+nullptr
 *
 CWB
 *
@@ -13256,7 +13264,7 @@ if
 pEnd
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -13300,7 +13308,7 @@ if
 pEnd
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -13400,7 +13408,7 @@ if
 pEnd
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -13675,7 +13683,7 @@ if
 pEnd
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -13913,7 +13921,7 @@ localeID
 )
 !
 =
-NULL
+nullptr
 )
 {
 +
@@ -14241,7 +14249,7 @@ else
 {
 result
 =
-NULL
+nullptr
 ;
 }
 if
@@ -14312,8 +14320,8 @@ UEnumeration
 gKeywordsEnum
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 uloc_kw_closeKeywords
 uloc_kw_countKeywords
 uenum_unextDefault
@@ -14562,7 +14570,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -14606,7 +14614,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -14783,7 +14791,7 @@ tmpLocaleID
 )
 !
 =
-NULL
+nullptr
 )
 {
 CharString
@@ -14818,7 +14826,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -14839,7 +14847,7 @@ status
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -15070,14 +15078,14 @@ char
 *
 keywordAssign
 =
-NULL
+nullptr
 ;
 const
 char
 *
 separatorIndicator
 =
-NULL
+nullptr
 ;
 if
 (
@@ -15296,7 +15304,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -15814,7 +15822,7 @@ to
 '
 or
 is
-NULL
+nullptr
 *
 /
 if
@@ -15829,7 +15837,7 @@ tmpLocaleID
 )
 !
 =
-NULL
+nullptr
 )
 {
 keywordAssign
@@ -15881,13 +15889,13 @@ _ULOC_CANONICALIZE
 tmpLocaleID
 !
 =
-NULL
+nullptr
 &
 &
 keywordAssign
 =
 =
-NULL
+nullptr
 )
 {
 for
@@ -15957,13 +15965,13 @@ if
 tmpLocaleID
 !
 =
-NULL
+nullptr
 &
 &
 keywordAssign
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -16143,7 +16151,7 @@ empty
 tmpLocaleID
 !
 =
-NULL
+nullptr
 )
 {
 break
@@ -16218,13 +16226,13 @@ if
 tmpLocaleID
 !
 =
-NULL
+nullptr
 &
 &
 keywordAssign
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -16368,7 +16376,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 localeID
 =
@@ -16391,7 +16399,7 @@ if
 lastUnderscore
 !
 =
-NULL
+nullptr
 )
 {
 i
@@ -16533,7 +16541,7 @@ if
 err
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -16552,7 +16560,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -16566,7 +16574,7 @@ return
 ulocimp_getLanguage
 (
 localeID
-NULL
+nullptr
 *
 err
 )
@@ -16604,7 +16612,7 @@ if
 err
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -16623,7 +16631,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -16677,7 +16685,7 @@ ulocimp_getScript
 localeID
 +
 1
-NULL
+nullptr
 *
 err
 )
@@ -16725,7 +16733,7 @@ if
 err
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -16744,7 +16752,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -16867,7 +16875,7 @@ ulocimp_getCountry
 localeID
 +
 1
-NULL
+nullptr
 *
 err
 )
@@ -16932,7 +16940,7 @@ if
 err
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -16976,7 +16984,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -17676,7 +17684,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -17763,7 +17771,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -18515,7 +18523,7 @@ if
 bcpKey
 =
 =
-NULL
+nullptr
 &
 &
 ultag_isUnicodeLocaleKey
@@ -18570,8 +18578,8 @@ ulocimp_toBcpType
 (
 keyword
 value
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -18579,7 +18587,7 @@ if
 bcpType
 =
 =
-NULL
+nullptr
 &
 &
 ultag_isUnicodeLocaleType
@@ -18791,7 +18799,7 @@ if
 legacyKey
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -18929,8 +18937,8 @@ ulocimp_toLegacyType
 (
 keyword
 value
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -18938,7 +18946,7 @@ if
 legacyType
 =
 =
-NULL
+nullptr
 )
 {
 /

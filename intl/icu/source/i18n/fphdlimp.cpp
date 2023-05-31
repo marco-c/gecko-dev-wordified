@@ -441,7 +441,6 @@ FieldPositionOnlyHandler
 :
 isRecording
 (
-void
 )
 const
 {
@@ -501,7 +500,7 @@ posIter
 )
 vec
 (
-NULL
+nullptr
 )
 status
 (
@@ -622,7 +621,7 @@ free
 it
 vec
 =
-NULL
+nullptr
 ;
 }
 void
@@ -817,7 +816,6 @@ FieldPositionIteratorHandler
 :
 isRecording
 (
-void
 )
 const
 {

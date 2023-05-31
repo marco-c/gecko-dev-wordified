@@ -380,14 +380,14 @@ UnicodeSet
 *
 gInclusionSet
 =
-NULL
+nullptr
 ;
 static
 UnicodeSet
 *
 gRecommendedSet
 =
-NULL
+nullptr
 ;
 static
 const
@@ -395,7 +395,7 @@ Normalizer2
 *
 gNfdNormalizer
 =
-NULL
+nullptr
 ;
 static
 UInitOnce
@@ -409,7 +409,6 @@ UBool
 U_CALLCONV
 uspoof_cleanup
 (
-void
 )
 {
 delete
@@ -417,18 +416,18 @@ gInclusionSet
 ;
 gInclusionSet
 =
-NULL
+nullptr
 ;
 delete
 gRecommendedSet
 ;
 gRecommendedSet
 =
-NULL
+nullptr
 ;
 gNfdNormalizer
 =
-NULL
+nullptr
 ;
 gSpoofInitStaticsOnce
 .
@@ -528,7 +527,7 @@ if
 gInclusionSet
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3127,7 +3126,7 @@ if
 gRecommendedSet
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3217,7 +3216,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 SpoofImpl
@@ -3236,7 +3235,7 @@ if
 si
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3245,7 +3244,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3261,7 +3260,7 @@ delete
 si
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3303,7 +3302,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3311,7 +3310,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3320,7 +3319,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 umtx_initOnce
@@ -3342,7 +3341,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 SpoofData
@@ -3363,7 +3362,7 @@ if
 sd
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3372,7 +3371,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3388,7 +3387,7 @@ delete
 sd
 ;
 return
-NULL
+nullptr
 ;
 }
 SpoofImpl
@@ -3408,7 +3407,7 @@ if
 si
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3435,7 +3434,7 @@ be
 called
 .
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3465,7 +3464,7 @@ delete
 it
 .
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3473,7 +3472,7 @@ if
 pActualLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3531,11 +3530,11 @@ if
 src
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 SpoofImpl
@@ -3560,7 +3559,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3569,7 +3568,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3586,7 +3585,7 @@ result
 ;
 result
 =
-NULL
+nullptr
 ;
 }
 return
@@ -3664,7 +3663,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3753,7 +3752,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3802,7 +3801,7 @@ if
 This
 !
 =
-NULL
+nullptr
 )
 {
 This
@@ -3857,7 +3856,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3907,7 +3906,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3958,11 +3957,11 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4048,11 +4047,11 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4136,7 +4135,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4176,7 +4175,7 @@ if
 clonedSet
 =
 =
-NULL
+nullptr
 |
 |
 clonedSet
@@ -4234,7 +4233,7 @@ USpoofChecker
 *
 sc
 const
-UChar
+char16_t
 *
 id
 int32_t
@@ -4257,7 +4256,7 @@ if
 position
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4277,7 +4276,7 @@ uspoof_check2
 sc
 id
 length
-NULL
+nullptr
 status
 )
 ;
@@ -4292,7 +4291,7 @@ USpoofChecker
 *
 sc
 const
-UChar
+char16_t
 *
 id
 int32_t
@@ -4325,7 +4324,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4416,7 +4415,7 @@ if
 position
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4436,7 +4435,7 @@ uspoof_check2UTF8
 sc
 id
 length
-NULL
+nullptr
 status
 )
 ;
@@ -4533,13 +4532,13 @@ USpoofChecker
 *
 sc
 const
-UChar
+char16_t
 *
 id1
 int32_t
 length1
 const
-UChar
+char16_t
 *
 id2
 int32_t
@@ -5301,7 +5300,7 @@ if
 position
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5320,7 +5319,7 @@ uspoof_check2UnicodeString
 (
 sc
 id
-NULL
+nullptr
 status
 )
 ;
@@ -5351,7 +5350,7 @@ U_ASSERT
 This
 !
 =
-NULL
+nullptr
 )
 ;
 U_ASSERT
@@ -5359,7 +5358,7 @@ U_ASSERT
 checkResult
 !
 =
-NULL
+nullptr
 )
 ;
 checkResult
@@ -5933,7 +5932,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5945,7 +5944,7 @@ if
 checkResult
 !
 =
-NULL
+nullptr
 )
 {
 CheckResult
@@ -5967,7 +5966,7 @@ if
 ThisCheckResult
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -6028,12 +6027,12 @@ sc
 uint32_t
 type
 const
-UChar
+char16_t
 *
 id
 int32_t
 length
-UChar
+char16_t
 *
 dest
 int32_t
@@ -6089,7 +6088,7 @@ destCapacity
 dest
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -6391,7 +6390,7 @@ destCapacity
 dest
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -6525,7 +6524,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 U_ASSERT
@@ -6736,7 +6735,7 @@ if
 checkResult
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -6745,7 +6744,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -6928,7 +6927,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

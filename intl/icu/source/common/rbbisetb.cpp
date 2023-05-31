@@ -859,7 +859,7 @@ fRangeList
 nextRangeDesc
 !
 =
-NULL
+nullptr
 ;
 )
 {
@@ -1149,7 +1149,7 @@ if
 fRangeList
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1255,7 +1255,7 @@ if
 usetNode
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -2293,7 +2293,7 @@ if
 usetNode
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -3551,7 +3551,7 @@ if
 leafNode
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3581,7 +3581,7 @@ usetNode
 fLeftChild
 =
 =
-NULL
+nullptr
 )
 {
 usetNode
@@ -3657,7 +3657,7 @@ if
 orNode
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5178,7 +5178,7 @@ if
 setRef
 !
 =
-NULL
+nullptr
 )
 {
 RBBINode
@@ -5195,7 +5195,7 @@ if
 varRef
 !
 =
-NULL
+nullptr
 &
 &
 varRef
@@ -5599,7 +5599,7 @@ if
 usetNode
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -5636,7 +5636,7 @@ if
 setRef
 !
 =
-NULL
+nullptr
 )
 {
 varRef
@@ -5651,7 +5651,7 @@ if
 varRef
 !
 =
-NULL
+nullptr
 &
 &
 varRef
@@ -5710,7 +5710,7 @@ usetNode
 fLeftChild
 !
 =
-NULL
+nullptr
 )
 {
 RBBINode

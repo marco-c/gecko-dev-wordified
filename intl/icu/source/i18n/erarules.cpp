@@ -200,7 +200,7 @@ MIN_INT32
 ;
 static
 const
-UChar
+char16_t
 VAL_FALSE
 [
 ]
@@ -220,7 +220,7 @@ false
 "
 static
 const
-UChar
+char16_t
 VAL_FALSE_LEN
 =
 5
@@ -372,10 +372,18 @@ day
 )
 {
 return
+(
+int32_t
+)
+(
+(
+uint32_t
+)
 year
 <
 <
 16
+)
 |
 month
 <
@@ -1224,7 +1232,7 @@ named
 )
 {
 const
-UChar
+char16_t
 *
 val
 =

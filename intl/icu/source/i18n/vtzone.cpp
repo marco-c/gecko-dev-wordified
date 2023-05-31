@@ -316,7 +316,7 @@ RFC2445
 VTIMEZONE
 static
 const
-UChar
+char16_t
 COLON
 =
 0x3A
@@ -328,7 +328,7 @@ COLON
 /
 static
 const
-UChar
+char16_t
 SEMICOLON
 =
 0x3B
@@ -340,7 +340,7 @@ SEMICOLON
 /
 static
 const
-UChar
+char16_t
 EQUALS_SIGN
 =
 0x3D
@@ -352,7 +352,7 @@ EQUALS_SIGN
 /
 static
 const
-UChar
+char16_t
 COMMA
 =
 0x2C
@@ -363,7 +363,7 @@ COMMA
 /
 static
 const
-UChar
+char16_t
 PLUS
 =
 0x2B
@@ -375,7 +375,7 @@ PLUS
 /
 static
 const
-UChar
+char16_t
 MINUS
 =
 0x2D
@@ -392,7 +392,7 @@ VTIMEZONE
 tokens
 static
 const
-UChar
+char16_t
 ICAL_BEGIN_VTIMEZONE
 [
 ]
@@ -427,7 +427,7 @@ VTIMEZONE
 /
 static
 const
-UChar
+char16_t
 ICAL_END_VTIMEZONE
 [
 ]
@@ -460,7 +460,7 @@ VTIMEZONE
 /
 static
 const
-UChar
+char16_t
 ICAL_BEGIN
 [
 ]
@@ -483,7 +483,7 @@ BEGIN
 /
 static
 const
-UChar
+char16_t
 ICAL_END
 [
 ]
@@ -504,7 +504,7 @@ END
 /
 static
 const
-UChar
+char16_t
 ICAL_VTIMEZONE
 [
 ]
@@ -531,7 +531,7 @@ VTIMEZONE
 /
 static
 const
-UChar
+char16_t
 ICAL_TZID
 [
 ]
@@ -553,7 +553,7 @@ TZID
 /
 static
 const
-UChar
+char16_t
 ICAL_STANDARD
 [
 ]
@@ -579,7 +579,7 @@ STANDARD
 /
 static
 const
-UChar
+char16_t
 ICAL_DAYLIGHT
 [
 ]
@@ -605,7 +605,7 @@ DAYLIGHT
 /
 static
 const
-UChar
+char16_t
 ICAL_DTSTART
 [
 ]
@@ -630,7 +630,7 @@ DTSTART
 /
 static
 const
-UChar
+char16_t
 ICAL_TZOFFSETFROM
 [
 ]
@@ -660,7 +660,7 @@ TZOFFSETFROM
 /
 static
 const
-UChar
+char16_t
 ICAL_TZOFFSETTO
 [
 ]
@@ -688,7 +688,7 @@ TZOFFSETTO
 /
 static
 const
-UChar
+char16_t
 ICAL_RDATE
 [
 ]
@@ -711,7 +711,7 @@ RDATE
 /
 static
 const
-UChar
+char16_t
 ICAL_RRULE
 [
 ]
@@ -734,7 +734,7 @@ RRULE
 /
 static
 const
-UChar
+char16_t
 ICAL_TZNAME
 [
 ]
@@ -758,7 +758,7 @@ TZNAME
 /
 static
 const
-UChar
+char16_t
 ICAL_TZURL
 [
 ]
@@ -781,7 +781,7 @@ TZURL
 /
 static
 const
-UChar
+char16_t
 ICAL_LASTMOD
 [
 ]
@@ -814,7 +814,7 @@ MODIFIED
 /
 static
 const
-UChar
+char16_t
 ICAL_FREQ
 [
 ]
@@ -836,7 +836,7 @@ FREQ
 /
 static
 const
-UChar
+char16_t
 ICAL_UNTIL
 [
 ]
@@ -859,7 +859,7 @@ UNTIL
 /
 static
 const
-UChar
+char16_t
 ICAL_YEARLY
 [
 ]
@@ -883,7 +883,7 @@ YEARLY
 /
 static
 const
-UChar
+char16_t
 ICAL_BYMONTH
 [
 ]
@@ -908,7 +908,7 @@ BYMONTH
 /
 static
 const
-UChar
+char16_t
 ICAL_BYDAY
 [
 ]
@@ -931,7 +931,7 @@ BYDAY
 /
 static
 const
-UChar
+char16_t
 ICAL_BYMONTHDAY
 [
 ]
@@ -959,7 +959,7 @@ BYMONTHDAY
 /
 static
 const
-UChar
+char16_t
 ICAL_NEWLINE
 [
 ]
@@ -977,7 +977,7 @@ CRLF
 /
 static
 const
-UChar
+char16_t
 ICAL_DOW_NAMES
 [
 7
@@ -1111,7 +1111,7 @@ custom
 property
 static
 const
-UChar
+char16_t
 ICU_TZINFO_PROP
 [
 ]
@@ -1141,7 +1141,7 @@ TZINFO
 /
 static
 const
-UChar
+char16_t
 ICU_TZINFO_PARTIAL
 [
 ]
@@ -1169,7 +1169,7 @@ Partial
 /
 static
 const
-UChar
+char16_t
 ICU_TZINFO_SIMPLE
 [
 ]
@@ -1590,7 +1590,7 @@ str
 append
 (
 (
-UChar
+char16_t
 )
 (
 digits
@@ -1769,7 +1769,7 @@ str
 append
 (
 (
-UChar
+char16_t
 )
 (
 digits
@@ -1877,7 +1877,7 @@ str
 append
 (
 (
-UChar
+char16_t
 )
 0x0054
 /
@@ -1994,7 +1994,7 @@ str
 append
 (
 (
-UChar
+char16_t
 )
 0x005A
 /
@@ -2545,7 +2545,7 @@ break
 /
 /
 sign
-UChar
+char16_t
 s
 =
 str
@@ -6565,7 +6565,7 @@ str
 void
 write
 (
-UChar
+char16_t
 ch
 )
 ;
@@ -6573,7 +6573,7 @@ void
 write
 (
 const
-UChar
+char16_t
 *
 str
 )
@@ -6584,7 +6584,7 @@ void
 write
 (
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -6651,7 +6651,7 @@ VTZWriter
 :
 write
 (
-UChar
+char16_t
 ch
 )
 {
@@ -6671,7 +6671,7 @@ VTZWriter
 write
 (
 const
-UChar
+char16_t
 *
 str
 )
@@ -6696,7 +6696,7 @@ VTZWriter
 write
 (
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -6733,10 +6733,9 @@ VTZReader
 (
 )
 ;
-UChar
+char16_t
 read
 (
-void
 )
 ;
 private
@@ -6781,16 +6780,15 @@ VTZReader
 )
 {
 }
-UChar
+char16_t
 VTZReader
 :
 :
 read
 (
-void
 )
 {
-UChar
+char16_t
 ch
 =
 0xFFFF
@@ -7602,7 +7600,7 @@ bundle
 nullptr
 ;
 const
-UChar
+char16_t
 *
 versionStr
 =
@@ -7781,7 +7779,7 @@ bundle
 nullptr
 ;
 const
-UChar
+char16_t
 *
 versionStr
 =
@@ -8342,7 +8340,6 @@ VTimeZone
 :
 getRawOffset
 (
-void
 )
 const
 {
@@ -8361,7 +8358,6 @@ VTimeZone
 :
 useDaylightTime
 (
-void
 )
 const
 {
@@ -8611,7 +8607,7 @@ while
 true
 )
 {
-UChar
+char16_t
 ch
 =
 reader
@@ -11842,7 +11838,7 @@ icutzprop
 append
 (
 (
-UChar
+char16_t
 )
 0x005B
 /
@@ -11885,7 +11881,7 @@ icutzprop
 append
 (
 (
-UChar
+char16_t
 )
 0x005D
 /
@@ -12167,7 +12163,7 @@ icutzprop
 append
 (
 (
-UChar
+char16_t
 )
 0x005B
 /
@@ -12210,7 +12206,7 @@ icutzprop
 append
 (
 (
-UChar
+char16_t
 )
 0x005D
 /

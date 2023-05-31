@@ -269,6 +269,8 @@ length
 writeNumber
 (
 micros
+.
+simple
 inValue
 outString
 0
@@ -489,6 +491,8 @@ length
 writeNumber
 (
 micros
+.
+simple
 inValue
 outString
 0
@@ -1492,6 +1496,8 @@ isDecimalFormatSymbols
 {
 fMicros
 .
+simple
+.
 symbols
 =
 macros
@@ -1569,6 +1575,8 @@ nullptr
 }
 fMicros
 .
+simple
+.
 symbols
 =
 newSymbols
@@ -1637,6 +1645,8 @@ isCurrency
 &
 fMicros
 .
+simple
+.
 symbols
 -
 >
@@ -1651,6 +1661,8 @@ nullptr
 pattern
 =
 fMicros
+.
+simple
 .
 symbols
 -
@@ -2362,6 +2374,8 @@ isBogus
 {
 fMicros
 .
+simple
+.
 grouping
 =
 macros
@@ -2388,6 +2402,8 @@ ICU
 59
 fMicros
 .
+simple
+.
 grouping
 =
 Grouper
@@ -2403,6 +2419,8 @@ else
 {
 fMicros
 .
+simple
+.
 grouping
 =
 Grouper
@@ -2415,6 +2433,8 @@ UNUM_GROUPING_AUTO
 ;
 }
 fMicros
+.
+simple
 .
 grouping
 .
@@ -2554,6 +2574,8 @@ UNUM_DECIMAL_SEPARATOR_COUNT
 {
 fMicros
 .
+simple
+.
 decimal
 =
 macros
@@ -2564,6 +2586,8 @@ decimal
 else
 {
 fMicros
+.
+simple
 .
 decimal
 =
@@ -2577,6 +2601,8 @@ monetary
 separator
 symbols
 fMicros
+.
+simple
 .
 useCurrency
 =
@@ -2616,6 +2642,8 @@ macros
 .
 notation
 fMicros
+.
+simple
 .
 symbols
 chain
@@ -2819,6 +2847,8 @@ setSymbols
 (
 fMicros
 .
+simple
+.
 symbols
 currency
 unitWidth
@@ -2844,6 +2874,8 @@ patternModifier
 setSymbols
 (
 fMicros
+.
+simple
 .
 symbols
 currency
@@ -2899,6 +2931,8 @@ currencyAsDecimal
 )
 {
 fMicros
+.
+simple
 .
 currencyAsDecimal
 =
@@ -3757,7 +3791,7 @@ NumberFormatterImpl
 writeNumber
 (
 const
-MicroProps
+SimpleMicroProps
 &
 micros
 DecimalQuantity
@@ -4093,7 +4127,7 @@ NumberFormatterImpl
 writeIntegerDigits
 (
 const
-MicroProps
+SimpleMicroProps
 &
 micros
 DecimalQuantity
@@ -4263,7 +4297,7 @@ NumberFormatterImpl
 writeFractionDigits
 (
 const
-MicroProps
+SimpleMicroProps
 &
 micros
 DecimalQuantity

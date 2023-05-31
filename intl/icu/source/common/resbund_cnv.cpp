@@ -315,7 +315,7 @@ UObject
 )
 fLocale
 (
-NULL
+nullptr
 )
 {
 constructForLocale
@@ -345,7 +345,7 @@ UObject
 )
 fLocale
 (
-NULL
+nullptr
 )
 {
 constructForLocale
@@ -393,7 +393,7 @@ fResource
 =
 ures_open
 (
-NULL
+nullptr
 locale
 .
 getName
@@ -417,7 +417,7 @@ nullTerminatedPath
 append
 (
 (
-UChar
+char16_t
 )
 0
 )

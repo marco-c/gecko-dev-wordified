@@ -1358,12 +1358,12 @@ int32_t
 u_strToPunycode
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1397,7 +1397,7 @@ k
 t
 srcCPCount
 ;
-UChar
+char16_t
 c
 c2
 ;
@@ -1412,7 +1412,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1431,7 +1431,7 @@ if
 src
 =
 =
-NULL
+nullptr
 |
 |
 srcLength
@@ -1444,7 +1444,7 @@ srcLength
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -1615,7 +1615,7 @@ destLength
 caseFlags
 !
 =
-NULL
+nullptr
 ?
 asciiCaseMap
 (
@@ -1648,7 +1648,7 @@ n
 caseFlags
 !
 =
-NULL
+nullptr
 &
 &
 caseFlags
@@ -1808,7 +1808,7 @@ destLength
 caseFlags
 !
 =
-NULL
+nullptr
 ?
 asciiCaseMap
 (
@@ -1841,7 +1841,7 @@ n
 caseFlags
 !
 =
-NULL
+nullptr
 &
 &
 caseFlags
@@ -2585,12 +2585,12 @@ int32_t
 u_strFromPunycode
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2620,7 +2620,7 @@ destCPCount
 firstSupplementaryIndex
 cpLength
 ;
-UChar
+char16_t
 b
 ;
 /
@@ -2634,7 +2634,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2653,7 +2653,7 @@ if
 src
 =
 =
-NULL
+nullptr
 |
 |
 srcLength
@@ -2666,7 +2666,7 @@ srcLength
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -2863,7 +2863,7 @@ j
 ]
 =
 (
-UChar
+char16_t
 )
 b
 ;
@@ -2872,7 +2872,7 @@ if
 caseFlags
 !
 =
-NULL
+nullptr
 )
 {
 caseFlags
@@ -3489,7 +3489,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -3638,7 +3638,7 @@ codeUnitIndex
 *
 use
 the
-UChar
+char16_t
 index
 codeUnitIndex
 instead
@@ -3681,7 +3681,7 @@ if
 caseFlags
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memmove
@@ -3724,7 +3724,7 @@ codeUnitIndex
 ]
 =
 (
-UChar
+char16_t
 )
 n
 ;
@@ -3769,7 +3769,7 @@ if
 caseFlags
 !
 =
-NULL
+nullptr
 )
 {
 /

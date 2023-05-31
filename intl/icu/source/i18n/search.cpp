@@ -527,7 +527,7 @@ if
 m_search_
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -937,7 +937,7 @@ m_search_
 >
 breakIter
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1065,7 +1065,6 @@ SearchIterator
 :
 getBreakIterator
 (
-void
 )
 const
 {
@@ -1189,7 +1188,6 @@ SearchIterator
 :
 getText
 (
-void
 )
 const
 {
@@ -1382,6 +1380,16 @@ getOffset
 &
 &
 (
+m_search_
+-
+>
+textLength
+=
+=
+0
+|
+|
+(
 uprv_memcmp
 (
 m_search_
@@ -1401,12 +1409,13 @@ textLength
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 =
 =
 0
+)
 )
 )
 ;
@@ -2247,7 +2256,7 @@ m_search_
 >
 breakIter
 =
-NULL
+nullptr
 ;
 m_search_
 -
@@ -2303,7 +2312,7 @@ m_search_
 >
 text
 =
-NULL
+nullptr
 ;
 m_search_
 -
@@ -2314,7 +2323,7 @@ textLength
 ;
 m_breakiterator_
 =
-NULL
+nullptr
 ;
 }
 SearchIterator
@@ -2359,7 +2368,7 @@ m_search_
 >
 breakIter
 =
-NULL
+nullptr
 ;
 m_search_
 -
@@ -2470,7 +2479,7 @@ m_search_
 >
 breakIter
 =
-NULL
+nullptr
 ;
 m_search_
 -

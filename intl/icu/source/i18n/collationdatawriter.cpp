@@ -367,7 +367,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocalMemory
@@ -400,7 +400,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 length
@@ -435,7 +435,7 @@ length
 )
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -443,7 +443,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 errorCode
@@ -473,7 +473,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -615,7 +615,7 @@ return
 write
 (
 true
-NULL
+nullptr
 data
 settings
 rootElements
@@ -667,7 +667,7 @@ t
 .
 data
 settings
-NULL
+nullptr
 0
 indexes
 dest
@@ -743,7 +743,7 @@ capacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -839,7 +839,7 @@ data
 fastLatinTable
 !
 =
-NULL
+nullptr
 )
 {
 fastLatinVersion
@@ -942,7 +942,7 @@ if
 baseData
 =
 =
-NULL
+nullptr
 )
 {
 hasMappings
@@ -1569,7 +1569,7 @@ else
 {
 dest
 =
-NULL
+nullptr
 ;
 capacity
 =
@@ -1766,7 +1766,7 @@ settings
 reorderTable
 !
 =
-NULL
+nullptr
 )
 {
 totalSize
@@ -1832,7 +1832,7 @@ utrie2_serialize
 data
 .
 trie
-NULL
+nullptr
 0
 &
 errorCode2
@@ -2121,7 +2121,7 @@ unsafeBackwardSet
 .
 serialize
 (
-NULL
+nullptr
 0
 errorCode2
 )
@@ -2197,7 +2197,7 @@ scripts
 append
 (
 (
-UChar
+char16_t
 )
 data
 .
@@ -2211,7 +2211,7 @@ append
 reinterpret_cast
 <
 const
-UChar
+char16_t
 *
 >
 (
@@ -2233,7 +2233,7 @@ append
 reinterpret_cast
 <
 const
-UChar
+char16_t
 *
 >
 (

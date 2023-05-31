@@ -1054,7 +1054,7 @@ LanguageBreakEngine
 *
 lbe
 =
-NULL
+nullptr
 ;
 UErrorCode
 status
@@ -1174,7 +1174,7 @@ if
 lbe
 !
 =
-NULL
+nullptr
 &
 &
 lbe
@@ -1398,7 +1398,7 @@ if
 m
 !
 =
-NULL
+nullptr
 )
 {
 switch
@@ -1628,7 +1628,7 @@ if
 engine
 =
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1649,7 +1649,7 @@ engine
 ;
 engine
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1658,7 +1658,7 @@ engine
 }
 }
 return
-NULL
+nullptr
 ;
 }
 DictionaryMatcher
@@ -1717,7 +1717,7 @@ dictnlength
 0
 ;
 const
-UChar
+char16_t
 *
 dictfname
 =
@@ -1748,7 +1748,7 @@ b
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 CharString
@@ -1758,7 +1758,7 @@ CharString
 ext
 ;
 const
-UChar
+char16_t
 *
 extStart
 =
@@ -1778,7 +1778,7 @@ if
 extStart
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -1928,7 +1928,7 @@ DictionaryMatcher
 *
 m
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1993,13 +1993,13 @@ TRIE_TYPE_UCHARS
 )
 {
 const
-UChar
+char16_t
 *
 characters
 =
 (
 const
-UChar
+char16_t
 *
 )
 (
@@ -2023,7 +2023,7 @@ if
 m
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2063,7 +2063,7 @@ if
 dictfname
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2080,7 +2080,7 @@ matcher
 /
 /
 returning
-NULL
+nullptr
 here
 will
 cause
@@ -2100,11 +2100,11 @@ status
 U_ZERO_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 U_NAMESPACE_END

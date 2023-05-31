@@ -1979,7 +1979,7 @@ the
 desired
 characteristics
 or
-NULL
+nullptr
 .
 *
 /

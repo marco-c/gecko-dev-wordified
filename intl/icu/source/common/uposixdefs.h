@@ -513,7 +513,7 @@ Make
 sure
 things
 like
-readlink
+realpath
 and
 such
 functions

@@ -1679,7 +1679,7 @@ inline
 int32_t
 getCharIndex
 (
-UChar
+char16_t
 c
 )
 {
@@ -1841,13 +1841,13 @@ primaries
 int32_t
 options
 const
-UChar
+char16_t
 *
 left
 int32_t
 leftLength
 const
-UChar
+char16_t
 *
 right
 int32_t
@@ -1949,7 +1949,7 @@ c
 uint32_t
 ce
 const
-UChar
+char16_t
 *
 s16
 const

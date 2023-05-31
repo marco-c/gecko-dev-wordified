@@ -794,7 +794,7 @@ illegal
 *
 /
 return
-NULL
+nullptr
 ;
 }
 for
@@ -1489,7 +1489,7 @@ s
 =
 0
 ?
-NULL
+nullptr
 :
 s
 ;
@@ -1586,7 +1586,7 @@ if
 error
 !
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -5843,7 +5843,7 @@ if
 oldStateTable
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -6185,14 +6185,14 @@ sum
 *
 pUnicodeCodeUnits
 =
-NULL
+nullptr
 ;
 if
 (
 oldUnicodeCodeUnits
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -6232,7 +6232,7 @@ if
 pUnicodeCodeUnits
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -7734,7 +7734,7 @@ sizeof
 _MBCSToUFallback
 )
 compareFallbacks
-NULL
+nullptr
 false
 &
 errorCode

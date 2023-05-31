@@ -899,7 +899,7 @@ zero
 if
 segments
 is
-NULL
+nullptr
 .
 *
 /
@@ -1637,7 +1637,6 @@ virtual
 int32_t
 getContextLength
 (
-void
 )
 const
 ;

@@ -761,7 +761,7 @@ a
 append
 (
 (
-UChar
+char16_t
 )
 123
 /
@@ -779,7 +779,7 @@ b
 append
 (
 (
-UChar
+char16_t
 )
 124
 /
@@ -797,7 +797,7 @@ c
 append
 (
 (
-UChar
+char16_t
 )
 124
 /
@@ -815,7 +815,7 @@ d
 append
 (
 (
-UChar
+char16_t
 )
 125
 /
@@ -934,7 +934,7 @@ target
 {
 static
 const
-UChar
+char16_t
 digitString
 [
 ]
@@ -1178,7 +1178,7 @@ buf
 append
 (
 (
-UChar
+char16_t
 )
 32
 )
@@ -2007,7 +2007,6 @@ TransliterationRuleSet
 :
 getMaximumContextLength
 (
-void
 )
 const
 {
@@ -2595,7 +2594,7 @@ n
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -2902,7 +2901,7 @@ size
 {
 rules
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -2933,7 +2932,7 @@ TransliterationRule
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -3590,7 +3589,7 @@ _debugOut
 no
 match
 "
-NULL
+nullptr
 text
 pos
 )
@@ -3677,7 +3676,7 @@ ruleSource
 append
 (
 (
-UChar
+char16_t
 )
 0x000A
 /

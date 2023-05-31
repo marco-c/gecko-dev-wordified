@@ -2804,9 +2804,6 @@ const
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3026,7 +3023,7 @@ range
 )
 .
 *
-draft
+stable
 ICU
 71
 *
@@ -3162,7 +3159,7 @@ is
 deleted
 .
 *
-draft
+stable
 ICU
 71
 *
@@ -3180,13 +3177,6 @@ status
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 /

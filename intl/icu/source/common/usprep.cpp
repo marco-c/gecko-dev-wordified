@@ -399,7 +399,7 @@ UHashtable
 *
 SHARED_DATA_HASHTABLE
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -1026,13 +1026,13 @@ UStringPrepProfile
 *
 profile
 =
-NULL
+nullptr
 ;
 UStringPrepKey
 *
 key
 =
-NULL
+nullptr
 ;
 int32_t
 pos
@@ -1079,7 +1079,7 @@ if
 SHARED_DATA_HASHTABLE
 =
 =
-NULL
+nullptr
 )
 {
 umtx_unlock
@@ -1121,7 +1121,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 profile
@@ -1202,7 +1202,7 @@ key
 name
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1218,7 +1218,7 @@ key
 >
 name
 =
-NULL
+nullptr
 ;
 }
 if
@@ -1229,7 +1229,7 @@ key
 path
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1245,7 +1245,7 @@ key
 >
 path
 =
-NULL
+nullptr
 ;
 }
 uprv_free
@@ -1298,7 +1298,6 @@ UBool
 U_CALLCONV
 usprep_cleanup
 (
-void
 )
 {
 if
@@ -1306,7 +1305,7 @@ if
 SHARED_DATA_HASHTABLE
 !
 =
-NULL
+nullptr
 )
 {
 usprep_internal_flushCache
@@ -1319,7 +1318,7 @@ if
 SHARED_DATA_HASHTABLE
 !
 =
-NULL
+nullptr
 &
 &
 uhash_count
@@ -1338,7 +1337,7 @@ SHARED_DATA_HASHTABLE
 ;
 SHARED_DATA_HASHTABLE
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1353,7 +1352,7 @@ return
 SHARED_DATA_HASHTABLE
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1384,7 +1383,7 @@ uhash_open
 (
 hashEntry
 compareEntries
-NULL
+nullptr
 &
 status
 )
@@ -1399,7 +1398,7 @@ status
 {
 SHARED_DATA_HASHTABLE
 =
-NULL
+nullptr
 ;
 }
 ucln_common_registerCleanup
@@ -1485,7 +1484,7 @@ int32_t
 *
 p
 =
-NULL
+nullptr
 ;
 const
 uint8_t
@@ -1505,7 +1504,7 @@ if
 errorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1545,7 +1544,7 @@ path
 type
 name
 isSPrepAcceptable
-NULL
+nullptr
 errorCode
 )
 ;
@@ -1651,7 +1650,7 @@ profile
 sprepData
 =
 =
-NULL
+nullptr
 )
 {
 profile
@@ -1663,7 +1662,7 @@ dataMemory
 ;
 dataMemory
 =
-NULL
+nullptr
 ;
 uprv_memcpy
 (
@@ -1992,7 +1991,7 @@ if
 dataMemory
 !
 =
-NULL
+nullptr
 )
 {
 udata_close
@@ -2002,7 +2001,7 @@ dataMemory
 ;
 /
 *
-NULL
+nullptr
 if
 it
 was
@@ -2040,7 +2039,7 @@ UStringPrepProfile
 *
 profile
 =
-NULL
+nullptr
 ;
 initCache
 (
@@ -2057,7 +2056,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UStringPrepKey
@@ -2154,7 +2153,7 @@ if
 profile
 !
 =
-NULL
+nullptr
 )
 {
 profile
@@ -2176,7 +2175,7 @@ if
 profile
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2209,7 +2208,7 @@ allocateInsteadAndReset
 )
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2218,7 +2217,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2253,7 +2252,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2338,7 +2337,7 @@ allocateInsteadAndReset
 )
 =
 =
-NULL
+nullptr
 |
 |
 keyName
@@ -2360,14 +2359,14 @@ name
 )
 =
 =
-NULL
+nullptr
 |
 |
 (
 path
 !
 =
-NULL
+nullptr
 &
 &
 keyPath
@@ -2389,7 +2388,7 @@ path
 )
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -2408,7 +2407,7 @@ getAlias
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 umtx_lock
@@ -2455,7 +2454,7 @@ if
 profile
 !
 =
-NULL
+nullptr
 )
 {
 profile
@@ -2510,7 +2509,7 @@ if
 path
 !
 =
-NULL
+nullptr
 )
 {
 key
@@ -2608,7 +2607,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2619,7 +2618,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2658,7 +2657,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2669,7 +2668,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -2702,13 +2701,13 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return
 usprep_open
 (
-NULL
+nullptr
 PROFILE_NAMES
 [
 index
@@ -2732,7 +2731,7 @@ if
 profile
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2782,7 +2781,7 @@ void
 uprv_syntaxError
 (
 const
-UChar
+char16_t
 *
 rules
 int32_t
@@ -2799,7 +2798,7 @@ if
 parseError
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3186,7 +3185,7 @@ writing
 to
 UnicodeString
 not
-UChar
+char16_t
 *
 static
 int32_t
@@ -3197,12 +3196,12 @@ UStringPrepProfile
 *
 profile
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -3623,7 +3622,7 @@ destIndex
 ]
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -4003,12 +4002,12 @@ UStringPrepProfile
 *
 profile
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -4050,14 +4049,14 @@ if
 profile
 =
 =
-NULL
+nullptr
 |
 |
 (
 src
 =
 =
-NULL
+nullptr
 ?
 srcLength
 !
@@ -4075,7 +4074,7 @@ srcLength
 dest
 =
 =
-NULL
+nullptr
 ?
 destCapacity
 !
@@ -4124,7 +4123,7 @@ map
 UnicodeString
 s1
 ;
-UChar
+char16_t
 *
 b1
 =
@@ -4140,7 +4139,7 @@ if
 b1
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4229,7 +4228,7 @@ if
 b1
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4394,7 +4393,7 @@ in
 one
 pass
 const
-UChar
+char16_t
 *
 b2
 =
@@ -4890,7 +4889,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5103,6 +5102,15 @@ headerSize
 ;
 outBytes
 =
+(
+outData
+=
+=
+nullptr
+)
+?
+nullptr
+:
 (
 uint8_t
 *

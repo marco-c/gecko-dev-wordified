@@ -1775,7 +1775,7 @@ status
 fOneLF
 (
 (
-UChar
+char16_t
 )
 0x0a
 )
@@ -1815,7 +1815,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1882,7 +1882,7 @@ UConverter
 *
 cnv
 ;
-UChar
+char16_t
 *
 buffer
 *
@@ -1906,7 +1906,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 f
@@ -1924,7 +1924,7 @@ if
 f
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1932,7 +1932,7 @@ errorCode
 U_FILE_ACCESS_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 bytesLength
@@ -2039,7 +2039,7 @@ ucnv_detectUnicodeSignature
 (
 bytes
 bytesLength
-NULL
+nullptr
 &
 errorCode
 )
@@ -2055,7 +2055,7 @@ errorCode
 charset
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2145,7 +2145,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2190,7 +2190,7 @@ pb
 bytes
 +
 bytesLength
-NULL
+nullptr
 true
 &
 errorCode
@@ -2224,7 +2224,7 @@ cnv
 ;
 cnv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2300,7 +2300,7 @@ src
 indexOf
 (
 (
-UChar
+char16_t
 )
 x_l
 )
@@ -2486,7 +2486,7 @@ if
 charset
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2621,7 +2621,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2664,7 +2664,7 @@ pb
 bytes
 +
 bytesLength
-NULL
+nullptr
 false
 &
 errorCode
@@ -2838,7 +2838,7 @@ errorCode
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2867,14 +2867,14 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UXMLElement
 *
 root
 =
-NULL
+nullptr
 ;
 fPos
 =
@@ -3630,7 +3630,7 @@ doc
 .
 el
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -3741,7 +3741,7 @@ if
 el
 !
 =
-NULL
+nullptr
 |
 |
 !
@@ -3866,7 +3866,7 @@ delete
 root
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -4215,7 +4215,7 @@ UnicodeString
 oneSpace
 (
 (
-UChar
+char16_t
 )
 0x0020
 )
@@ -4731,7 +4731,7 @@ replacement
 setTo
 (
 (
-UChar
+char16_t
 )
 x_AMP
 )
@@ -4758,7 +4758,7 @@ replacement
 setTo
 (
 (
-UChar
+char16_t
 )
 x_LT
 )
@@ -4785,7 +4785,7 @@ replacement
 setTo
 (
 (
-UChar
+char16_t
 )
 x_GT
 )
@@ -4812,7 +4812,7 @@ replacement
 setTo
 (
 (
-UChar
+char16_t
 )
 x_APOS
 )
@@ -4839,7 +4839,7 @@ replacement
 setTo
 (
 (
-UChar
+char16_t
 )
 x_QUOT
 )
@@ -5163,7 +5163,7 @@ src
 indexOf
 (
 (
-UChar
+char16_t
 )
 0x0a
 ci
@@ -5250,7 +5250,7 @@ if
 he
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -5357,7 +5357,7 @@ if
 he
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -5391,7 +5391,7 @@ else
 unknown
 name
 return
-NULL
+nullptr
 ;
 }
 }
@@ -5502,7 +5502,7 @@ errorCode
 )
 fParent
 (
-NULL
+nullptr
 )
 {
 }
@@ -5721,7 +5721,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 text
@@ -5878,7 +5878,7 @@ i
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -5933,11 +5933,11 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 /
 /
@@ -6010,7 +6010,7 @@ i
 }
 }
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -6093,7 +6093,7 @@ node
 )
 !
 =
-NULL
+nullptr
 )
 {
 type
@@ -6115,7 +6115,7 @@ node
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6141,7 +6141,7 @@ i
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -6201,7 +6201,7 @@ if
 elem
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -6210,7 +6210,7 @@ elem
 }
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -6264,11 +6264,11 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 /
 /
@@ -6346,7 +6346,7 @@ if
 elem
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6367,7 +6367,7 @@ elem
 }
 }
 return
-NULL
+nullptr
 ;
 }
 U_NAMESPACE_END

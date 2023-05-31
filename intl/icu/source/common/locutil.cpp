@@ -321,14 +321,14 @@ Hashtable
 *
 LocaleUtility_cache
 =
-NULL
+nullptr
 ;
 #
 define
 UNDERSCORE_CHAR
 (
 (
-UChar
+char16_t
 )
 0x005f
 )
@@ -337,7 +337,7 @@ define
 AT_SIGN_CHAR
 (
 (
-UChar
+char16_t
 )
 64
 )
@@ -346,7 +346,7 @@ define
 PERIOD_CHAR
 (
 (
-UChar
+char16_t
 )
 46
 )
@@ -441,7 +441,6 @@ UBool
 U_CALLCONV
 service_cleanup
 (
-void
 )
 {
 if
@@ -454,7 +453,7 @@ LocaleUtility_cache
 ;
 LocaleUtility_cache
 =
-NULL
+nullptr
 ;
 }
 return
@@ -480,7 +479,7 @@ U_ASSERT
 LocaleUtility_cache
 =
 =
-NULL
+nullptr
 )
 ;
 ucln_common_registerCleanup
@@ -510,7 +509,7 @@ LocaleUtility_cache
 ;
 LocaleUtility_cache
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -520,7 +519,7 @@ if
 LocaleUtility_cache
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -562,7 +561,7 @@ if
 id
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -771,7 +770,7 @@ n
 i
 )
 {
-UChar
+char16_t
 c
 =
 result
@@ -825,7 +824,7 @@ n
 i
 )
 {
-UChar
+char16_t
 c
 =
 result
@@ -894,13 +893,13 @@ nasty
 to
 go
 from
-UChar
+char16_t
 to
 char
 to
 char
 to
-UChar
+char16_t
 -
 -
 but
@@ -1378,7 +1377,7 @@ id
 indexOf
 (
 (
-UChar
+char16_t
 )
 0x40
 prev
@@ -1678,7 +1677,7 @@ if
 cache
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1687,7 +1686,7 @@ Catastrophic
 failure
 .
 return
-NULL
+nullptr
 ;
 }
 Hashtable
@@ -1696,7 +1695,7 @@ htp
 ;
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 htp
@@ -1715,7 +1714,7 @@ bundleID
 ;
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1723,7 +1722,7 @@ if
 htp
 =
 =
-NULL
+nullptr
 )
 {
 htp
@@ -1767,7 +1766,7 @@ isEmpty
 (
 )
 ?
-NULL
+nullptr
 :
 cbundleID
 .
@@ -1796,7 +1795,7 @@ for
 )
 {
 const
-UChar
+char16_t
 *
 id
 =
@@ -1807,7 +1806,7 @@ uenum
 getAlias
 (
 )
-NULL
+nullptr
 &
 status
 )
@@ -1817,7 +1816,7 @@ if
 id
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -1853,12 +1852,12 @@ delete
 htp
 ;
 return
-NULL
+nullptr
 ;
 }
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 Hashtable
@@ -1885,7 +1884,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -1912,7 +1911,7 @@ theirs
 .
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 delete
@@ -1941,7 +1940,7 @@ status
 ;
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 }

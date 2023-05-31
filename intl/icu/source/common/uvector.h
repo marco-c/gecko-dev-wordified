@@ -1526,7 +1526,6 @@ void
 *
 firstElement
 (
-void
 )
 const
 {
@@ -1542,7 +1541,6 @@ void
 *
 lastElement
 (
-void
 )
 const
 {
@@ -1559,7 +1557,6 @@ inline
 int32_t
 lastElementi
 (
-void
 )
 const
 {
@@ -1688,7 +1685,6 @@ inline
 int32_t
 size
 (
-void
 )
 const
 {
@@ -1700,7 +1696,6 @@ inline
 UBool
 isEmpty
 (
-void
 )
 const
 {
@@ -1767,7 +1762,7 @@ in
 new
 slots
 with
-NULL
+nullptr
 .
 *
 /
@@ -2725,7 +2720,6 @@ inline
 UBool
 empty
 (
-void
 )
 const
 {
@@ -2740,7 +2734,6 @@ void
 *
 peek
 (
-void
 )
 const
 {
@@ -2754,7 +2747,6 @@ inline
 int32_t
 peeki
 (
-void
 )
 const
 {
@@ -2800,13 +2792,11 @@ void
 *
 pop
 (
-void
 )
 ;
 int32_t
 popi
 (
-void
 )
 ;
 inline

@@ -476,7 +476,7 @@ errorCode
 )
 {
 const
-UChar
+char16_t
 *
 us
 =
@@ -487,7 +487,7 @@ getBuffer
 )
 ;
 const
-UChar
+char16_t
 *
 uLimit
 =
@@ -647,7 +647,7 @@ is
 set
 *
 /
-UChar
+char16_t
 uBuffer
 [
 16
@@ -700,14 +700,14 @@ errorCode
 )
 )
 {
-UChar
+char16_t
 *
 us
 =
 uBuffer
 ;
 const
-UChar
+char16_t
 *
 uLimit
 =
@@ -728,7 +728,7 @@ sLimit
 char
 ch
 ;
-UChar
+char16_t
 ch32
 ;
 UBool

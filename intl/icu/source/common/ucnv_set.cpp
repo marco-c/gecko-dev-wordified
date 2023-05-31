@@ -364,7 +364,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -382,13 +382,13 @@ if
 cnv
 =
 =
-NULL
+nullptr
 |
 |
 setFillIn
 =
 =
-NULL
+nullptr
 |
 |
 whichSet
@@ -435,7 +435,7 @@ impl
 getUnicodeSet
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -451,7 +451,7 @@ USetAdder
 sa
 =
 {
-NULL
+nullptr
 uset_add
 uset_addRange
 uset_addString

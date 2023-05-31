@@ -798,7 +798,7 @@ Same
 as
 getInstance
 (
-NULL
+nullptr
 "
 nfc
 "
@@ -909,7 +909,7 @@ Same
 as
 getInstance
 (
-NULL
+nullptr
 "
 nfc
 "
@@ -1020,7 +1020,7 @@ Same
 as
 getInstance
 (
-NULL
+nullptr
 "
 nfkc
 "
@@ -1131,7 +1131,7 @@ Same
 as
 getInstance
 (
-NULL
+nullptr
 "
 nfkc
 "
@@ -1242,7 +1242,7 @@ Same
 as
 getInstance
 (
-NULL
+nullptr
 "
 nfkc_cf
 "
@@ -1396,7 +1396,7 @@ it
 Use
 packageName
 =
-NULL
+nullptr
 for
 data
 files
@@ -1466,7 +1466,7 @@ NFKC_Casefold
 *
 param
 packageName
-NULL
+nullptr
 for
 ICU
 built
@@ -4404,7 +4404,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -4645,7 +4645,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -4791,7 +4791,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -4933,7 +4933,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5023,7 +5023,7 @@ UnicodeString
 decomposition
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5113,7 +5113,7 @@ UnicodeString
 decomposition
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5210,7 +5210,7 @@ UChar32
 b
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5266,7 +5266,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5371,7 +5371,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5568,7 +5568,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5669,7 +5669,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5780,7 +5780,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5845,7 +5845,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5910,7 +5910,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -5966,7 +5966,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

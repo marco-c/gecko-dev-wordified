@@ -6469,7 +6469,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -6637,7 +6637,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -6774,7 +6774,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =
@@ -6919,7 +6919,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 r
 =

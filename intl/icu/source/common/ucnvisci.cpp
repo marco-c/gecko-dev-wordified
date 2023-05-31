@@ -652,7 +652,7 @@ version
 typedef
 struct
 {
-UChar
+char16_t
 contextCharToUnicode
 ;
 /
@@ -665,7 +665,7 @@ contextual
 analysis
 *
 /
-UChar
+char16_t
 contextCharFromUnicode
 ;
 /
@@ -1213,7 +1213,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -1448,7 +1448,7 @@ cnv
 >
 extraInfo
 =
-NULL
+nullptr
 ;
 *
 errorCode
@@ -1484,7 +1484,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1510,7 +1510,7 @@ cnv
 >
 extraInfo
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1556,7 +1556,7 @@ name
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -7790,7 +7790,7 @@ err
 )
 {
 const
-UChar
+char16_t
 *
 source
 =
@@ -7800,7 +7800,7 @@ args
 source
 ;
 const
-UChar
+char16_t
 *
 sourceLimit
 =
@@ -7903,7 +7903,7 @@ args
 converter
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -8945,7 +8945,7 @@ converterData
 contextCharFromUnicode
 =
 (
-UChar
+char16_t
 )
 targetByteUnit
 ;
@@ -9053,7 +9053,7 @@ code
 unit
 *
 /
-UChar
+char16_t
 trail
 =
 (
@@ -9434,7 +9434,7 @@ target
 +
 =
 (
-UChar
+char16_t
 )
 targetUniChar
 ;
@@ -9487,7 +9487,7 @@ UCharErrorBufferLength
 =
 \
 (
-UChar
+char16_t
 )
 targetUniChar
 ;
@@ -9831,7 +9831,7 @@ args
 >
 source
 ;
-UChar
+char16_t
 *
 target
 =
@@ -9851,7 +9851,7 @@ args
 sourceLimit
 ;
 const
-UChar
+char16_t
 *
 targetLimit
 =
@@ -9878,18 +9878,18 @@ UChar32
 *
 toUnicodeStatus
 =
-NULL
+nullptr
 ;
 UChar32
 tempTargetUniChar
 =
 0x0000
 ;
-UChar
+char16_t
 *
 contextCharToUnicode
 =
-NULL
+nullptr
 ;
 UBool
 found
@@ -9911,7 +9911,7 @@ args
 converter
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -10708,7 +10708,7 @@ ATR
 contextCharToUnicode
 =
 (
-UChar
+char16_t
 )
 sourceChar
 ;
@@ -12232,7 +12232,7 @@ write
 toUnicodeStatus
 =
 (
-UChar
+char16_t
 )
 targetUniChar
 ;
@@ -12938,8 +12938,8 @@ _ISCIIImpl
 =
 {
 UCNV_ISCII
-NULL
-NULL
+nullptr
+nullptr
 _ISCIIOpen
 _ISCIIClose
 _ISCIIReset
@@ -12947,14 +12947,14 @@ UConverter_toUnicode_ISCII_OFFSETS_LOGIC
 UConverter_toUnicode_ISCII_OFFSETS_LOGIC
 UConverter_fromUnicode_ISCII_OFFSETS_LOGIC
 UConverter_fromUnicode_ISCII_OFFSETS_LOGIC
-NULL
-NULL
+nullptr
+nullptr
 _ISCIIgetName
-NULL
+nullptr
 _ISCII_SafeClone
 _ISCIIGetUnicodeSet
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static

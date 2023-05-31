@@ -493,7 +493,7 @@ hardRefCount
 )
 cachePtr
 (
-NULL
+nullptr
 )
 {
 }
@@ -530,7 +530,7 @@ hardRefCount
 )
 cachePtr
 (
-NULL
+nullptr
 )
 {
 }
@@ -862,7 +862,7 @@ returned
 .
 *
 Returns
-NULL
+nullptr
 if
 cloning
 failed
@@ -943,11 +943,11 @@ if
 p2
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 p
@@ -1013,7 +1013,7 @@ dest
 must
 either
 be
-NULL
+nullptr
 or
 *
 be
@@ -1074,7 +1074,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -1094,7 +1094,7 @@ if
 src
 !
 =
-NULL
+nullptr
 )
 {
 src
@@ -1115,7 +1115,7 @@ Equivalent
 to
 copyPtr
 (
-NULL
+nullptr
 dest
 )
 .
@@ -1142,7 +1142,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 {
 ptr
@@ -1154,7 +1154,7 @@ removeRef
 ;
 ptr
 =
-NULL
+nullptr
 ;
 }
 }

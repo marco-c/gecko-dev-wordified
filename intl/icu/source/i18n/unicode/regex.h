@@ -589,7 +589,7 @@ ICU
 class
 U_I18N_API
 RegexPattern
-U_FINAL
+final
 :
 public
 UObject
@@ -4097,7 +4097,7 @@ If
 a
 field
 is
-NULL
+nullptr
 a
 new
 UText
@@ -4790,7 +4790,7 @@ ICU
 class
 U_I18N_API
 RegexMatcher
-U_FINAL
+final
 :
 public
 UObject
@@ -6746,7 +6746,7 @@ should
 be
 cloned
 or
-NULL
+nullptr
 to
 create
 a
@@ -6812,7 +6812,7 @@ dest
 if
 non
 -
-NULL
+nullptr
 a
 shallow
 copy
@@ -6951,7 +6951,7 @@ should
 be
 cloned
 or
-NULL
+nullptr
 to
 create
 a
@@ -7018,7 +7018,7 @@ dest
 if
 non
 -
-NULL
+nullptr
 a
 shallow
 copy
@@ -9074,7 +9074,7 @@ should
 be
 copied
 or
-NULL
+nullptr
 to
 create
 a
@@ -9091,7 +9091,7 @@ dest
 if
 non
 -
-NULL
+nullptr
 a
 shallow
 copy
@@ -10621,7 +10621,7 @@ placed
 .
 *
 If
-NULL
+nullptr
 a
 new
 UText
@@ -11084,7 +11084,7 @@ placed
 .
 *
 If
-NULL
+nullptr
 a
 new
 UText
@@ -11527,7 +11527,7 @@ appended
 Must
 not
 be
-NULL
+nullptr
 .
 *
 param
@@ -11841,7 +11841,7 @@ appended
 Must
 not
 be
-NULL
+nullptr
 .
 *
 param
@@ -12235,7 +12235,7 @@ If
 a
 field
 is
-NULL
+nullptr
 a
 new
 UText
@@ -13785,7 +13785,7 @@ fPatternOwned
 /
 Non
 -
-NULL
+nullptr
 if
 this
 matcher
@@ -13832,7 +13832,7 @@ matched
 .
 Is
 never
-NULL
+nullptr
 .
 UText
 *
@@ -14374,7 +14374,7 @@ funct
 .
 /
 /
-NULL
+nullptr
 if
 there
 is
@@ -14410,7 +14410,7 @@ funct
 .
 /
 /
-NULL
+nullptr
 if
 there
 is

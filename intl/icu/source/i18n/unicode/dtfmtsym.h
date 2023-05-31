@@ -790,7 +790,7 @@ gregorian
 *
 (
 or
-NULL
+nullptr
 or
 an
 empty
@@ -881,7 +881,7 @@ type
 class
 U_I18N_API
 DateFormatSymbols
-U_FINAL
+final
 :
 public
 UObject
@@ -1175,7 +1175,7 @@ strings
 .
 *
 (
-NULL
+nullptr
 or
 empty
 string
@@ -1292,7 +1292,7 @@ strings
 .
 *
 (
-NULL
+nullptr
 or
 empty
 string
@@ -4110,7 +4110,7 @@ EMonthPatternType
 values
 .
 Returns
-NULL
+nullptr
 if
 calendar
 *
@@ -4198,7 +4198,7 @@ ownership
 *
 May
 be
-NULL
+nullptr
 if
 there
 are

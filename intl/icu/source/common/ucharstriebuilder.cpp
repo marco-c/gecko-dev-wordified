@@ -471,7 +471,7 @@ stringOffset
 ]
 ;
 }
-UChar
+char16_t
 charAt
 (
 int32_t
@@ -636,7 +636,7 @@ strings
 append
 (
 (
-UChar
+char16_t
 )
 length
 )
@@ -703,7 +703,7 @@ errorCode
 :
 elements
 (
-NULL
+nullptr
 )
 elementsCapacity
 (
@@ -715,7 +715,7 @@ elementsLength
 )
 uchars
 (
-NULL
+nullptr
 )
 ucharsCapacity
 (
@@ -849,7 +849,7 @@ if
 newElements
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1041,7 +1041,7 @@ UCharsTrie
 *
 newTrie
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1071,7 +1071,7 @@ if
 newTrie
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1083,7 +1083,7 @@ else
 {
 uchars
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1185,7 +1185,7 @@ if
 uchars
 !
 =
-NULL
+nullptr
 &
 &
 ucharsLength
@@ -1356,7 +1356,7 @@ current
 /
 Create
 and
-UChar
+char16_t
 -
 serialize
 the
@@ -1406,7 +1406,7 @@ uchars
 =
 static_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -1423,7 +1423,7 @@ if
 uchars
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1457,7 +1457,7 @@ if
 uchars
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1489,7 +1489,7 @@ strings
 )
 ;
 }
-UChar
+char16_t
 UCharsTrieBuilder
 :
 :
@@ -1650,7 +1650,7 @@ start
 ;
 do
 {
-UChar
+char16_t
 unit
 =
 elements
@@ -1726,7 +1726,7 @@ const
 {
 do
 {
-UChar
+char16_t
 unit
 =
 elements
@@ -1788,7 +1788,7 @@ int32_t
 i
 int32_t
 unitIndex
-UChar
+char16_t
 unit
 )
 const
@@ -1828,7 +1828,7 @@ UCTLinearMatchNode
 UCTLinearMatchNode
 (
 const
-UChar
+char16_t
 *
 units
 int32_t
@@ -1915,12 +1915,15 @@ UCTLinearMatchNode
 &
 o
 =
-(
+static_cast
+<
 const
 UCTLinearMatchNode
 &
-)
+>
+(
 other
+)
 ;
 return
 0
@@ -2057,7 +2060,7 @@ if
 uchars
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2099,13 +2102,13 @@ newCapacity
 length
 )
 ;
-UChar
+char16_t
 *
 newUChars
 =
 static_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -2122,7 +2125,7 @@ if
 newUChars
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2138,7 +2141,7 @@ uchars
 ;
 uchars
 =
-NULL
+nullptr
 ;
 ucharsCapacity
 =
@@ -2222,7 +2225,7 @@ ucharsLength
 ]
 =
 (
-UChar
+char16_t
 )
 unit
 ;
@@ -2238,7 +2241,7 @@ UCharsTrieBuilder
 write
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -2361,7 +2364,7 @@ isFinal
 )
 ;
 }
-UChar
+char16_t
 intUnits
 [
 3
@@ -2391,7 +2394,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 UCharsTrie
@@ -2406,7 +2409,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -2424,7 +2427,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 i
 ;
@@ -2455,7 +2458,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 i
@@ -2476,7 +2479,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 UCharsTrie
@@ -2498,7 +2501,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 i
 ;
@@ -2513,7 +2516,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 intUnits
@@ -2564,7 +2567,7 @@ node
 )
 ;
 }
-UChar
+char16_t
 intUnits
 [
 3
@@ -2594,7 +2597,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 UCharsTrie
@@ -2609,7 +2612,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -2627,7 +2630,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 value
 ;
@@ -2654,7 +2657,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -2680,7 +2683,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 UCharsTrie
@@ -2706,7 +2709,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 value
 ;
@@ -2722,7 +2725,7 @@ intUnits
 |
 =
 (
-UChar
+char16_t
 )
 node
 ;
@@ -2777,7 +2780,7 @@ i
 )
 ;
 }
-UChar
+char16_t
 intUnits
 [
 3
@@ -2803,7 +2806,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 UCharsTrie
@@ -2832,7 +2835,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 UCharsTrie
@@ -2847,7 +2850,7 @@ intUnits
 ]
 =
 (
-UChar
+char16_t
 )
 (
 i
@@ -2869,7 +2872,7 @@ length
 ]
 =
 (
-UChar
+char16_t
 )
 i
 ;

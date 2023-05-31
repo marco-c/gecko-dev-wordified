@@ -422,7 +422,7 @@ DecimalQuantity
 ;
 static
 const
-UChar
+char16_t
 OTHER_STRING
 [
 ]
@@ -470,7 +470,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -479,7 +479,7 @@ offset
 {
 init
 (
-NULL
+nullptr
 UPLURAL_TYPE_CARDINAL
 status
 )
@@ -509,7 +509,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -518,7 +518,7 @@ offset
 {
 init
 (
-NULL
+nullptr
 UPLURAL_TYPE_CARDINAL
 status
 )
@@ -553,7 +553,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -597,7 +597,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -639,7 +639,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -648,7 +648,7 @@ offset
 {
 init
 (
-NULL
+nullptr
 type
 status
 )
@@ -683,7 +683,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -692,7 +692,7 @@ offset
 {
 init
 (
-NULL
+nullptr
 UPLURAL_TYPE_CARDINAL
 status
 )
@@ -732,7 +732,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -741,7 +741,7 @@ offset
 {
 init
 (
-NULL
+nullptr
 UPLURAL_TYPE_CARDINAL
 status
 )
@@ -786,7 +786,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -840,7 +840,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -892,7 +892,7 @@ status
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -901,7 +901,7 @@ offset
 {
 init
 (
-NULL
+nullptr
 type
 status
 )
@@ -942,7 +942,7 @@ msgPattern
 )
 numberFormat
 (
-NULL
+nullptr
 )
 offset
 (
@@ -979,7 +979,7 @@ if
 numberFormat
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -993,7 +993,7 @@ pluralRulesWrapper
 pluralRules
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1009,7 +1009,7 @@ other
 numberFormat
 =
 =
-NULL
+nullptr
 )
 {
 numberFormat
@@ -1047,7 +1047,7 @@ pluralRulesWrapper
 pluralRules
 =
 =
-NULL
+nullptr
 )
 {
 pluralRulesWrapper
@@ -1128,7 +1128,7 @@ if
 rules
 =
 =
-NULL
+nullptr
 )
 {
 pluralRulesWrapper
@@ -1166,7 +1166,7 @@ pluralRulesWrapper
 pluralRules
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1209,7 +1209,7 @@ msgPattern
 parsePluralStyle
 (
 newPattern
-NULL
+nullptr
 status
 )
 ;
@@ -2129,7 +2129,7 @@ offset
 ;
 numberFormat
 =
-NULL
+nullptr
 ;
 pluralRulesWrapper
 .
@@ -2139,7 +2139,7 @@ reset
 ;
 init
 (
-NULL
+nullptr
 UPLURAL_TYPE_CARDINAL
 status
 )
@@ -2187,7 +2187,7 @@ if
 nf
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2361,7 +2361,7 @@ offset
 numberFormat
 =
 =
-NULL
+nullptr
 )
 =
 =
@@ -2371,7 +2371,7 @@ o
 numberFormat
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -2379,7 +2379,7 @@ NULL
 numberFormat
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -2399,7 +2399,7 @@ pluralRulesWrapper
 pluralRules
 =
 =
-NULL
+nullptr
 )
 =
 =
@@ -2411,7 +2411,7 @@ pluralRulesWrapper
 pluralRules
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -2421,7 +2421,7 @@ pluralRulesWrapper
 pluralRules
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -3674,7 +3674,7 @@ if
 rbnfLenientScanner
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -4000,7 +4000,7 @@ pluralRules
 ;
 pluralRules
 =
-NULL
+nullptr
 ;
 }
 U_NAMESPACE_END

@@ -672,7 +672,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -693,7 +693,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return

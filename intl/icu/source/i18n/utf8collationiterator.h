@@ -729,7 +729,7 @@ errorCode
 override
 ;
 virtual
-UChar
+char16_t
 handleGetTrailSurrogate
 (
 )

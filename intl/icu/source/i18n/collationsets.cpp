@@ -447,7 +447,7 @@ U_ASSERT
 baseData
 !
 =
-NULL
+nullptr
 )
 ;
 utrie2_enum
@@ -456,7 +456,7 @@ data
 -
 >
 trie
-NULL
+nullptr
 enumTailoredRange
 this
 )
@@ -679,7 +679,7 @@ ce32
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -724,7 +724,7 @@ baseCE32
 )
 {
 const
-UChar
+char16_t
 *
 q
 =
@@ -795,7 +795,7 @@ baseCE32
 )
 {
 const
-UChar
+char16_t
 *
 q
 =
@@ -850,7 +850,7 @@ ce32
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -921,7 +921,7 @@ baseCE32
 )
 {
 const
-UChar
+char16_t
 *
 q
 =
@@ -1017,7 +1017,7 @@ baseCE32
 )
 {
 const
-UChar
+char16_t
 *
 q
 =
@@ -1663,7 +1663,7 @@ Collation
 HANGUL_TAG
 )
 {
-UChar
+char16_t
 jamos
 [
 3
@@ -1759,11 +1759,11 @@ comparePrefixes
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 const
-UChar
+char16_t
 *
 q
 )
@@ -1805,7 +1805,7 @@ UnicodeString
 *
 tp
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1817,7 +1817,7 @@ UnicodeString
 *
 bp
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1857,7 +1857,7 @@ UnicodeString
 none
 (
 (
-UChar
+char16_t
 )
 0xffff
 )
@@ -1873,7 +1873,7 @@ if
 tp
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1910,7 +1910,7 @@ if
 bp
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -2011,7 +2011,7 @@ getValue
 ;
 tp
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2053,7 +2053,7 @@ getValue
 ;
 bp
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2091,11 +2091,11 @@ resetPrefix
 ;
 tp
 =
-NULL
+nullptr
 ;
 bp
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2109,11 +2109,11 @@ compareContractions
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 const
-UChar
+char16_t
 *
 q
 )
@@ -2155,7 +2155,7 @@ UnicodeString
 *
 ts
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2167,7 +2167,7 @@ UnicodeString
 *
 bs
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2223,7 +2223,7 @@ UnicodeString
 none
 (
 (
-UChar
+char16_t
 )
 0xffff
 )
@@ -2233,7 +2233,7 @@ none
 append
 (
 (
-UChar
+char16_t
 )
 0xffff
 )
@@ -2249,7 +2249,7 @@ if
 ts
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -2286,7 +2286,7 @@ if
 bs
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -2378,7 +2378,7 @@ ts
 ;
 ts
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2411,7 +2411,7 @@ bs
 ;
 bs
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2443,15 +2443,15 @@ getValue
 ;
 suffix
 =
-NULL
+nullptr
 ;
 ts
 =
-NULL
+nullptr
 ;
 bs
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2469,7 +2469,7 @@ d
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 )
@@ -2563,7 +2563,7 @@ ce32
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -2619,7 +2619,7 @@ addContractions
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 )
@@ -2715,7 +2715,7 @@ isEmpty
 suffix
 =
 =
-NULL
+nullptr
 )
 {
 tailored
@@ -2747,7 +2747,7 @@ if
 suffix
 !
 =
-NULL
+nullptr
 )
 {
 s
@@ -3124,7 +3124,7 @@ d
 base
 !
 =
-NULL
+nullptr
 )
 {
 checkTailored
@@ -3143,7 +3143,7 @@ data
 -
 >
 trie
-NULL
+nullptr
 enumCnERange
 this
 )
@@ -3156,7 +3156,7 @@ d
 base
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -3212,7 +3212,7 @@ data
 -
 >
 trie
-NULL
+nullptr
 enumCnERange
 this
 )
@@ -3363,7 +3363,7 @@ if
 sink
 !
 =
-NULL
+nullptr
 )
 {
 sink
@@ -3447,7 +3447,7 @@ if
 sink
 !
 =
-NULL
+nullptr
 )
 {
 sink
@@ -3478,7 +3478,7 @@ if
 sink
 !
 =
-NULL
+nullptr
 )
 {
 sink
@@ -3509,7 +3509,7 @@ if
 sink
 !
 =
-NULL
+nullptr
 )
 {
 ces
@@ -3597,7 +3597,7 @@ if
 sink
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -3721,7 +3721,7 @@ if
 sink
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -3917,7 +3917,7 @@ if
 sink
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -3953,12 +3953,12 @@ iter
 (
 data
 false
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
-UChar
+char16_t
 hangul
 [
 1
@@ -3991,7 +3991,7 @@ hangul
 ]
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -4174,7 +4174,7 @@ ce32
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -4326,7 +4326,7 @@ ce32
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -4518,7 +4518,7 @@ getValue
 }
 suffix
 =
-NULL
+nullptr
 ;
 }
 void
@@ -4545,7 +4545,7 @@ isEmpty
 suffix
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -4553,7 +4553,7 @@ if
 expansions
 !
 =
-NULL
+nullptr
 )
 {
 expansions
@@ -4598,7 +4598,7 @@ if
 set
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4624,7 +4624,7 @@ if
 suffix
 !
 =
-NULL
+nullptr
 )
 {
 s

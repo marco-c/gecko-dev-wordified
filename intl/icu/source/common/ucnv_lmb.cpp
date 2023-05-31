@@ -2170,7 +2170,7 @@ ibm
 0x0007
 *
 /
-NULL
+nullptr
 /
 *
 Unused
@@ -2191,7 +2191,7 @@ windows
 0x0009
 *
 /
-NULL
+nullptr
 /
 *
 Control
@@ -2204,7 +2204,7 @@ HT
 0x000A
 *
 /
-NULL
+nullptr
 /
 *
 Control
@@ -2227,7 +2227,7 @@ windows
 0x000C
 *
 /
-NULL
+nullptr
 /
 *
 Unused
@@ -2238,7 +2238,7 @@ Unused
 0x000D
 *
 /
-NULL
+nullptr
 /
 *
 Control
@@ -2251,7 +2251,7 @@ CR
 0x000E
 *
 /
-NULL
+nullptr
 /
 *
 Unused
@@ -2262,7 +2262,7 @@ Unused
 0x000F
 *
 /
-NULL
+nullptr
 /
 *
 Control
@@ -2661,11 +2661,11 @@ struct
 _UniLMBCSGrpMap
 {
 const
-UChar
+char16_t
 uniStartRange
 ;
 const
-UChar
+char16_t
 uniEndRange
 ;
 const
@@ -3376,7 +3376,7 @@ static
 ulmbcs_byte_t
 FindLMBCSUniRange
 (
-UChar
+char16_t
 uniChar
 )
 {
@@ -4007,7 +4007,7 @@ zh
 ULMBCS_GRP_CN
 }
 {
-NULL
+nullptr
 ULMBCS_GRP_L1
 }
 }
@@ -4385,8 +4385,8 @@ UCNV_LMBCS_
 #
 n
 \
-NULL
-NULL
+nullptr
+nullptr
 \
 _LMBCSOpen
 #
@@ -4395,7 +4395,7 @@ n
 \
 _LMBCSClose
 \
-NULL
+nullptr
 \
 _LMBCSToUnicodeWithOffsets
 \
@@ -4405,21 +4405,21 @@ _LMBCSFromUnicode
 \
 _LMBCSFromUnicode
 \
-NULL
+nullptr
 \
-NULL
+nullptr
 \
-NULL
+nullptr
 \
-NULL
+nullptr
 \
 _LMBCSSafeClone
 \
 ucnv_getCompleteUnicodeSet
 \
-NULL
+nullptr
 \
-NULL
+nullptr
 \
 }
 ;
@@ -4666,7 +4666,7 @@ if
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 UConverterNamePieces
@@ -4730,7 +4730,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 extraInfo
@@ -4828,7 +4828,7 @@ _this
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 ulmbcs_byte_t
@@ -4874,7 +4874,7 @@ Ix
 ]
 !
 =
-NULL
+nullptr
 )
 ucnv_unloadSharedDataIfReady
 (
@@ -4910,7 +4910,7 @@ _this
 >
 extraInfo
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4986,7 +4986,7 @@ LMBCSClone
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 extraInfo
@@ -5072,7 +5072,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_incrementRefCount
@@ -5313,7 +5313,7 @@ the
 results
 *
 /
-UChar
+char16_t
 *
 pUniChar
 /
@@ -5749,7 +5749,7 @@ LMBCSConvertUni
 ulmbcs_byte_t
 *
 pLMBCS
-UChar
+char16_t
 uniChar
 )
 {
@@ -5867,7 +5867,7 @@ lastConverterIndex
 =
 0
 ;
-UChar
+char16_t
 uniChar
 ;
 ulmbcs_byte_t
@@ -7388,7 +7388,7 @@ LMBCS
 *
 /
 static
-UChar
+char16_t
 GetUniFromLMBCSUni
 (
 char
@@ -7474,7 +7474,7 @@ character
 }
 return
 (
-UChar
+char16_t
 )
 (
 (
@@ -8056,7 +8056,7 @@ group
 )
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -8539,7 +8539,7 @@ LMBCS
 ULMBCS_CHARSIZE_MAX
 ]
 ;
-UChar
+char16_t
 uniChar
 ;
 /
@@ -8587,7 +8587,7 @@ char
 *
 errSource
 =
-NULL
+nullptr
 ;
 /
 *
@@ -8822,7 +8822,7 @@ size_new
 uniChar
 =
 (
-UChar
+char16_t
 )
 _LMBCSGetNextUCharWorker
 (
@@ -8959,7 +8959,7 @@ saveSource
 uniChar
 =
 (
-UChar
+char16_t
 )
 _LMBCSGetNextUCharWorker
 (

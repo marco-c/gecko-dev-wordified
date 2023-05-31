@@ -1409,7 +1409,7 @@ an
 error
 occurs
 then
-NULL
+nullptr
 is
 returned
 .
@@ -3078,7 +3078,7 @@ and
 the
 result
 is
-NULL
+nullptr
 .
 *
 param
@@ -3225,7 +3225,7 @@ this
 *
 formattable
 or
-NULL
+nullptr
 if
 this
 object
@@ -3241,7 +3241,7 @@ a
 UObject
 pointer
 or
-NULL
+nullptr
 *
 stable
 ICU
@@ -3276,7 +3276,7 @@ this
 *
 formattable
 or
-NULL
+nullptr
 if
 this
 object

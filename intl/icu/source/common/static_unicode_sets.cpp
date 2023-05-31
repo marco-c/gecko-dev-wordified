@@ -454,7 +454,7 @@ UErrorCode
 &
 status
 )
-U_OVERRIDE
+override
 {
 ResourceTable
 contextsTable

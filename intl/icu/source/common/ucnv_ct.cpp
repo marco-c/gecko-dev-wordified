@@ -2414,7 +2414,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 UConverterDataCompoundText
@@ -2446,7 +2446,7 @@ myConverterArray
 COMPOUND_TEXT_SINGLE_0
 ]
 =
-NULL
+nullptr
 ;
 myConverterData
 -
@@ -3005,7 +3005,7 @@ converter
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -3048,7 +3048,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_unloadSharedDataIfReady
@@ -3077,7 +3077,7 @@ converter
 >
 extraInfo
 =
-NULL
+nullptr
 ;
 }
 }
@@ -3183,7 +3183,7 @@ args
 targetLimit
 ;
 const
-UChar
+char16_t
 *
 source
 =
@@ -3193,7 +3193,7 @@ args
 source
 ;
 const
-UChar
+char16_t
 *
 sourceLimit
 =
@@ -3394,11 +3394,11 @@ code
 unit
 *
 /
-UChar
+char16_t
 trail
 =
 (
-UChar
+char16_t
 )
 *
 source
@@ -4044,7 +4044,7 @@ args
 >
 source
 ;
-UChar
+char16_t
 *
 myTarget
 =
@@ -4104,7 +4104,7 @@ UConverterSharedData
 *
 savedSharedData
 =
-NULL
+nullptr
 ;
 UConverterToUnicodeArgs
 subArgs
@@ -4830,8 +4830,8 @@ _CompoundTextImpl
 =
 {
 UCNV_COMPOUND_TEXT
-NULL
-NULL
+nullptr
+nullptr
 _CompoundTextOpen
 _CompoundTextClose
 _CompoundTextReset
@@ -4839,14 +4839,14 @@ UConverter_toUnicode_CompoundText_OFFSETS
 UConverter_toUnicode_CompoundText_OFFSETS
 UConverter_fromUnicode_CompoundText_OFFSETS
 UConverter_fromUnicode_CompoundText_OFFSETS
-NULL
-NULL
+nullptr
+nullptr
 _CompoundTextgetName
-NULL
-NULL
+nullptr
+nullptr
 _CompoundText_GetUnicodeSet
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static

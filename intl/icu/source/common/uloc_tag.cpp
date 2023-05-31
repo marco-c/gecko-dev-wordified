@@ -3588,7 +3588,7 @@ char
 *
 pSubtag
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3633,7 +3633,7 @@ if
 pSubtag
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3663,7 +3663,7 @@ false
 }
 pSubtag
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3672,7 +3672,7 @@ if
 pSubtag
 =
 =
-NULL
+nullptr
 )
 {
 pSubtag
@@ -3690,7 +3690,7 @@ if
 pSubtag
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5352,7 +5352,7 @@ if
 first
 =
 =
-NULL
+nullptr
 )
 {
 var
@@ -5360,7 +5360,7 @@ var
 >
 next
 =
-NULL
+nullptr
 ;
 *
 first
@@ -5390,7 +5390,7 @@ preserved
 /
 prev
 =
-NULL
+nullptr
 ;
 cur
 =
@@ -5407,7 +5407,7 @@ if
 cur
 =
 =
-NULL
+nullptr
 )
 {
 prev
@@ -5422,7 +5422,7 @@ var
 >
 next
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -5511,7 +5511,7 @@ if
 first
 =
 =
-NULL
+nullptr
 )
 {
 attr
@@ -5519,7 +5519,7 @@ attr
 >
 next
 =
-NULL
+nullptr
 ;
 *
 first
@@ -5549,7 +5549,7 @@ order
 /
 prev
 =
-NULL
+nullptr
 ;
 cur
 =
@@ -5566,7 +5566,7 @@ if
 cur
 =
 =
-NULL
+nullptr
 )
 {
 prev
@@ -5581,7 +5581,7 @@ attr
 >
 next
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -5612,7 +5612,7 @@ if
 prev
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5705,7 +5705,7 @@ if
 first
 =
 =
-NULL
+nullptr
 )
 {
 ext
@@ -5713,7 +5713,7 @@ ext
 >
 next
 =
-NULL
+nullptr
 ;
 *
 first
@@ -5743,7 +5743,7 @@ order
 /
 prev
 =
-NULL
+nullptr
 ;
 cur
 =
@@ -5760,7 +5760,7 @@ if
 cur
 =
 =
-NULL
+nullptr
 )
 {
 prev
@@ -5775,7 +5775,7 @@ ext
 >
 next
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -6088,7 +6088,7 @@ if
 prev
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -6173,7 +6173,7 @@ langtag
 >
 buf
 =
-NULL
+nullptr
 ;
 langtag
 -
@@ -6205,7 +6205,7 @@ extlang
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 langtag
@@ -6227,14 +6227,14 @@ langtag
 >
 variants
 =
-NULL
+nullptr
 ;
 langtag
 -
 >
 extensions
 =
-NULL
+nullptr
 ;
 langtag
 -
@@ -6956,7 +6956,7 @@ first
 var1
 !
 =
-NULL
+nullptr
 ;
 var1
 =
@@ -6980,7 +6980,7 @@ next
 var2
 !
 =
-NULL
+nullptr
 ;
 var2
 =
@@ -7170,11 +7170,11 @@ VariantListEntry
 *
 varFirst
 =
-NULL
+nullptr
 ;
 pVar
 =
-NULL
+nullptr
 ;
 p
 =
@@ -7240,7 +7240,7 @@ if
 pVar
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -7389,7 +7389,7 @@ if
 var
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7530,7 +7530,7 @@ position
 /
 pVar
 =
-NULL
+nullptr
 ;
 }
 else
@@ -7539,7 +7539,7 @@ if
 pVar
 =
 =
-NULL
+nullptr
 )
 {
 pVar
@@ -7566,7 +7566,7 @@ if
 varFirst
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -7610,7 +7610,7 @@ while
 var
 !
 =
-NULL
+nullptr
 )
 {
 sink
@@ -7672,7 +7672,7 @@ while
 var
 !
 =
-NULL
+nullptr
 )
 {
 VariantListEntry
@@ -7835,7 +7835,7 @@ ExtensionListEntry
 *
 firstExt
 =
-NULL
+nullptr
 ;
 ExtensionListEntry
 *
@@ -7845,7 +7845,7 @@ AttributeListEntry
 *
 firstAttr
 =
-NULL
+nullptr
 ;
 AttributeListEntry
 *
@@ -7899,7 +7899,7 @@ keywordEnum
 getAlias
 (
 )
-NULL
+nullptr
 status
 )
 ;
@@ -7908,7 +7908,7 @@ if
 key
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -8157,7 +8157,7 @@ if
 attr
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8190,7 +8190,7 @@ if
 attrValue
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8266,7 +8266,7 @@ LOCALE_ATTRIBUTE_KEY
 ;
 bcpValue
 =
-NULL
+nullptr
 ;
 }
 }
@@ -8288,7 +8288,7 @@ if
 bcpKey
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -8338,7 +8338,7 @@ if
 bcpValue
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -8641,7 +8641,7 @@ if
 ext
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8734,7 +8734,7 @@ if
 ext
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8792,13 +8792,13 @@ status
 firstExt
 !
 =
-NULL
+nullptr
 |
 |
 firstAttr
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -9192,7 +9192,7 @@ ExtensionListEntry
 *
 kwdFirst
 =
-NULL
+nullptr
 ;
 /
 *
@@ -9229,14 +9229,14 @@ ldmlext
 ;
 pKwds
 =
-NULL
+nullptr
 ;
 {
 AttributeListEntry
 *
 attrFirst
 =
-NULL
+nullptr
 ;
 /
 *
@@ -9361,7 +9361,7 @@ if
 attr
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9523,7 +9523,7 @@ if
 kwd
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9552,7 +9552,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9584,7 +9584,7 @@ while
 attr
 !
 =
-NULL
+nullptr
 )
 {
 nextAttr
@@ -9696,7 +9696,7 @@ char
 *
 pBcpKey
 =
-NULL
+nullptr
 ;
 /
 *
@@ -9711,7 +9711,7 @@ char
 *
 pBcpType
 =
-NULL
+nullptr
 ;
 /
 *
@@ -9768,7 +9768,7 @@ char
 *
 pNextBcpKey
 =
-NULL
+nullptr
 ;
 int32_t
 nextBcpKeyLen
@@ -9869,7 +9869,7 @@ U_ASSERT
 pBcpKey
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -9966,7 +9966,7 @@ char
 *
 pKey
 =
-NULL
+nullptr
 ;
 /
 *
@@ -9979,7 +9979,7 @@ char
 *
 pType
 =
-NULL
+nullptr
 ;
 /
 *
@@ -10010,7 +10010,7 @@ U_ASSERT
 pBcpKey
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -10088,7 +10088,7 @@ if
 pKey
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10158,7 +10158,7 @@ if
 key
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10282,7 +10282,7 @@ if
 pType
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10360,7 +10360,7 @@ if
 type
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10492,7 +10492,7 @@ if
 kwd
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10554,7 +10554,7 @@ bcpKeyLen
 pNextBcpKey
 !
 =
-NULL
+nullptr
 ?
 nextBcpKeyLen
 :
@@ -10562,7 +10562,7 @@ nextBcpKeyLen
 ;
 pBcpType
 =
-NULL
+nullptr
 ;
 bcpTypeLen
 =
@@ -10580,7 +10580,7 @@ while
 kwd
 !
 =
-NULL
+nullptr
 )
 {
 nextKwd
@@ -10632,7 +10632,7 @@ ExtensionListEntry
 *
 kwdFirst
 =
-NULL
+nullptr
 ;
 ExtensionListEntry
 *
@@ -10802,7 +10802,7 @@ if
 kwd
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10901,7 +10901,7 @@ if
 kwd
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -11010,7 +11010,7 @@ status
 kwdFirst
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -11290,7 +11290,7 @@ writeValue
 ;
 pPriv
 =
-NULL
+nullptr
 ;
 p
 =
@@ -11360,7 +11360,7 @@ if
 pPriv
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -11653,7 +11653,7 @@ position
 /
 pPriv
 =
-NULL
+nullptr
 ;
 }
 else
@@ -11662,7 +11662,7 @@ if
 pPriv
 =
 =
-NULL
+nullptr
 )
 {
 pPriv
@@ -12038,7 +12038,7 @@ if
 parsedLen
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -12057,7 +12057,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -12104,7 +12104,7 @@ if
 tagBuf
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -12113,7 +12113,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -12186,7 +12186,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 _initializeULanguageTag
@@ -12460,7 +12460,7 @@ if
 tagBuf
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -12469,7 +12469,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 t
@@ -12877,15 +12877,15 @@ extlangIdx
 ;
 pExtension
 =
-NULL
+nullptr
 ;
 pExtValueSubtag
 =
-NULL
+nullptr
 ;
 pExtValueSubtagEnd
 =
-NULL
+nullptr
 ;
 while
 (
@@ -12952,7 +12952,7 @@ subtag
 /
 pNext
 =
-NULL
+nullptr
 ;
 }
 else
@@ -13340,7 +13340,7 @@ if
 var
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -13349,7 +13349,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -13439,7 +13439,7 @@ if
 pExtension
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -13447,13 +13447,13 @@ if
 pExtValueSubtag
 =
 =
-NULL
+nullptr
 |
 |
 pExtValueSubtagEnd
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -13472,7 +13472,7 @@ pExtension
 ;
 pExtension
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -13548,7 +13548,7 @@ pExtension
 ;
 pExtension
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -13581,7 +13581,7 @@ if
 pExtension
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -13590,7 +13590,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -13613,7 +13613,7 @@ pExtension
 >
 value
 =
-NULL
+nullptr
 ;
 /
 *
@@ -13645,11 +13645,11 @@ extension
 /
 pExtValueSubtag
 =
-NULL
+nullptr
 ;
 pExtValueSubtagEnd
 =
-NULL
+nullptr
 ;
 next
 =
@@ -13680,7 +13680,7 @@ if
 pExtValueSubtag
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -13772,7 +13772,7 @@ if
 pExtension
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -13788,13 +13788,13 @@ if
 pExtValueSubtag
 =
 =
-NULL
+nullptr
 |
 |
 pExtValueSubtagEnd
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -13813,7 +13813,7 @@ pExtension
 ;
 pExtension
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -13876,7 +13876,7 @@ pExtValueSubtagEnd
 ;
 pExtension
 =
-NULL
+nullptr
 ;
 }
 else
@@ -13895,7 +13895,7 @@ pExtension
 ;
 pExtension
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -13921,7 +13921,7 @@ if
 pNext
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -14013,7 +14013,7 @@ subtag
 /
 pNext
 =
-NULL
+nullptr
 ;
 }
 else
@@ -14168,7 +14168,7 @@ if
 pExtension
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -14184,13 +14184,13 @@ if
 pExtValueSubtag
 =
 =
-NULL
+nullptr
 |
 |
 pExtValueSubtagEnd
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -14280,7 +14280,7 @@ if
 parsedLen
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -14365,7 +14365,7 @@ if
 langtag
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -14518,7 +14518,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 ;
 i
 +
@@ -14601,7 +14601,7 @@ idx
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -14715,7 +14715,7 @@ char
 *
 var
 =
-NULL
+nullptr
 ;
 VariantListEntry
 *
@@ -14804,7 +14804,7 @@ if
 cur
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -14845,7 +14845,7 @@ char
 *
 key
 =
-NULL
+nullptr
 ;
 ExtensionListEntry
 *
@@ -14919,7 +14919,7 @@ char
 *
 val
 =
-NULL
+nullptr
 ;
 ExtensionListEntry
 *
@@ -15008,7 +15008,7 @@ if
 cur
 =
 =
-NULL
+nullptr
 )
 {
 break

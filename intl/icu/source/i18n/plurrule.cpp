@@ -495,7 +495,7 @@ RoundingMode
 ;
 static
 const
-UChar
+char16_t
 PLURAL_KEYWORD_OTHER
 [
 ]
@@ -511,7 +511,7 @@ LOW_R
 ;
 static
 const
-UChar
+char16_t
 PLURAL_DEFAULT_RULE
 [
 ]
@@ -530,7 +530,7 @@ LOW_N
 ;
 static
 const
-UChar
+char16_t
 PK_IN
 [
 ]
@@ -543,7 +543,7 @@ LOW_N
 ;
 static
 const
-UChar
+char16_t
 PK_NOT
 [
 ]
@@ -557,7 +557,7 @@ LOW_T
 ;
 static
 const
-UChar
+char16_t
 PK_IS
 [
 ]
@@ -570,7 +570,7 @@ LOW_S
 ;
 static
 const
-UChar
+char16_t
 PK_MOD
 [
 ]
@@ -584,7 +584,7 @@ LOW_D
 ;
 static
 const
-UChar
+char16_t
 PK_AND
 [
 ]
@@ -598,7 +598,7 @@ LOW_D
 ;
 static
 const
-UChar
+char16_t
 PK_OR
 [
 ]
@@ -611,7 +611,7 @@ LOW_R
 ;
 static
 const
-UChar
+char16_t
 PK_VAR_N
 [
 ]
@@ -623,7 +623,7 @@ LOW_N
 ;
 static
 const
-UChar
+char16_t
 PK_VAR_I
 [
 ]
@@ -635,7 +635,7 @@ LOW_I
 ;
 static
 const
-UChar
+char16_t
 PK_VAR_F
 [
 ]
@@ -647,7 +647,7 @@ LOW_F
 ;
 static
 const
-UChar
+char16_t
 PK_VAR_T
 [
 ]
@@ -659,7 +659,7 @@ LOW_T
 ;
 static
 const
-UChar
+char16_t
 PK_VAR_E
 [
 ]
@@ -671,7 +671,7 @@ LOW_E
 ;
 static
 const
-UChar
+char16_t
 PK_VAR_C
 [
 ]
@@ -683,7 +683,7 @@ LOW_C
 ;
 static
 const
-UChar
+char16_t
 PK_VAR_V
 [
 ]
@@ -695,7 +695,7 @@ LOW_V
 ;
 static
 const
-UChar
+char16_t
 PK_WITHIN
 [
 ]
@@ -712,7 +712,7 @@ LOW_N
 ;
 static
 const
-UChar
+char16_t
 PK_DECIMAL
 [
 ]
@@ -730,7 +730,7 @@ LOW_L
 ;
 static
 const
-UChar
+char16_t
 PK_INTEGER
 [
 ]
@@ -5382,7 +5382,7 @@ getBaseName
 )
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -7163,7 +7163,7 @@ UnicodeString
 result
 )
 {
-UChar
+char16_t
 digitString
 [
 16
@@ -8686,7 +8686,7 @@ status
 return
 ;
 }
-UChar
+char16_t
 ch
 ;
 while
@@ -9157,7 +9157,7 @@ PluralRuleParser
 :
 charType
 (
-UChar
+char16_t
 ch
 )
 {
@@ -11208,7 +11208,7 @@ Slow
 path
 convert
 with
-sprintf
+snprintf
 parse
 converted
 output
@@ -11223,9 +11223,13 @@ buf
 0
 }
 ;
-sprintf
+snprintf
 (
 buf
+sizeof
+(
+buf
+)
 "
 %
 1

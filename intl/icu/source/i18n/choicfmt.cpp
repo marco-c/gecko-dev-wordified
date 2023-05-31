@@ -747,7 +747,7 @@ define
 SINGLE_QUOTE
 (
 (
-UChar
+char16_t
 )
 0x0027
 )
@@ -761,7 +761,7 @@ define
 LESS_THAN
 (
 (
-UChar
+char16_t
 )
 0x003C
 )
@@ -775,7 +775,7 @@ define
 LESS_EQUAL
 (
 (
-UChar
+char16_t
 )
 0x0023
 )
@@ -789,7 +789,7 @@ define
 LESS_EQUAL2
 (
 (
-UChar
+char16_t
 )
 0x2264
 )
@@ -798,7 +798,7 @@ define
 VERTICAL_BAR
 (
 (
-UChar
+char16_t
 )
 0x007C
 )
@@ -812,7 +812,7 @@ define
 MINUS
 (
 (
-UChar
+char16_t
 )
 0x002D
 )
@@ -823,7 +823,7 @@ UChar
 /
 static
 const
-UChar
+char16_t
 LEFT_CURLY_BRACE
 =
 0x7B
@@ -835,7 +835,7 @@ LEFT_CURLY_BRACE
 /
 static
 const
-UChar
+char16_t
 RIGHT_CURLY_BRACE
 =
 0x7D
@@ -858,7 +858,7 @@ define
 INFINITY
 (
 (
-UChar
+char16_t
 )
 0x221E
 )
@@ -866,7 +866,7 @@ UChar
 /
 static
 const
-UChar
+char16_t
 gPositiveInfinity
 [
 ]
@@ -880,7 +880,7 @@ INFINITY
 /
 static
 const
-UChar
+char16_t
 gNegativeInfinity
 [
 ]
@@ -1066,7 +1066,7 @@ constructorErrorCode
 setChoices
 (
 limits
-NULL
+nullptr
 formats
 cnt
 constructorErrorCode
@@ -1398,15 +1398,20 @@ that
 return
 false
 ;
+const
 ChoiceFormat
 &
 thatAlias
 =
-(
+static_cast
+<
+const
 ChoiceFormat
 &
-)
+>
+(
 that
+)
 ;
 return
 msgPattern
@@ -1664,9 +1669,13 @@ char
 *
 expPtr
 ;
-sprintf
+snprintf
 (
 temp
+sizeof
+(
+temp
+)
 "
 %
 .
@@ -1693,7 +1702,7 @@ some
 machines
 will
 cause
-sprintf
+snprintf
 to
 use
 a
@@ -1947,7 +1956,7 @@ itrPtr
 }
 /
 /
-NULL
+NUL
 terminate
 *
 expPtr
@@ -2043,7 +2052,7 @@ msgPattern
 parseChoiceStyle
 (
 pattern
-NULL
+nullptr
 status
 )
 ;
@@ -2278,7 +2287,7 @@ U_ZERO_ERROR
 setChoices
 (
 limits
-NULL
+nullptr
 formats
 cnt
 errorCode
@@ -2411,13 +2420,13 @@ if
 limits
 =
 =
-NULL
+nullptr
 |
 |
 formats
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2548,7 +2557,7 @@ if
 closures
 !
 =
-NULL
+nullptr
 &
 &
 closures
@@ -2640,7 +2649,7 @@ textLength
 j
 )
 {
-UChar
+char16_t
 c
 =
 text
@@ -2941,7 +2950,7 @@ cnt
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3009,7 +3018,7 @@ cnt
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3077,7 +3086,7 @@ cnt
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3709,7 +3718,7 @@ partIndex
 +
 )
 ;
-UChar
+char16_t
 boundaryChar
 =
 pattern

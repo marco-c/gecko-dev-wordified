@@ -239,7 +239,7 @@ h
 "
 U_NAMESPACE_BEGIN
 U_CFUNC
-UChar
+char16_t
 U_CALLCONV
 uregex_utext_unescape_charAt
 (
@@ -386,7 +386,7 @@ c
 {
 return
 (
-UChar
+char16_t
 )
 c
 ;
@@ -399,7 +399,7 @@ return
 }
 }
 U_CFUNC
-UChar
+char16_t
 U_CALLCONV
 uregex_ucstr_unescape_charAt
 (
@@ -413,7 +413,7 @@ context
 return
 (
 (
-UChar
+char16_t
 *
 )
 context

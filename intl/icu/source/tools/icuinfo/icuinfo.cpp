@@ -1251,7 +1251,7 @@ i
 )
 !
 =
-NULL
+nullptr
 ;
 i
 +
@@ -1318,7 +1318,7 @@ char
 *
 message
 =
-NULL
+nullptr
 ;
 printf
 (
@@ -1353,7 +1353,7 @@ plug
 name
 !
 =
-NULL
+nullptr
 ?
 (
 *
@@ -1404,7 +1404,7 @@ libStatus
 lib
 !
 =
-NULL
+nullptr
 ?
 lib
 :
@@ -1423,7 +1423,7 @@ libStatus
 sym
 !
 =
-NULL
+nullptr
 ?
 sym
 :
@@ -1439,7 +1439,7 @@ if
 config
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -1558,7 +1558,7 @@ U_ZERO_ERROR
 :
 message
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1605,7 +1605,7 @@ if
 message
 !
 =
-NULL
+nullptr
 )
 {
 printf
@@ -2103,7 +2103,7 @@ if
 out
 =
 =
-NULL
+nullptr
 )
 {
 fprintf

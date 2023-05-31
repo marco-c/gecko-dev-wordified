@@ -7816,7 +7816,7 @@ char
 *
 pPosixID
 =
-NULL
+nullptr
 ;
 #
 if
@@ -8262,7 +8262,7 @@ char
 *
 pCandidate
 =
-NULL
+nullptr
 ;
 langID
 =
@@ -8370,7 +8370,7 @@ pCandidate
 pPosixID
 =
 =
-NULL
+nullptr
 |
 |
 uprv_strlen

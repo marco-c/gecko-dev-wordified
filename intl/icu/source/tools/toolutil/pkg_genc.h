@@ -504,6 +504,10 @@ destdir
 const
 char
 *
+optEntryPoint
+const
+char
+*
 optName
 const
 char

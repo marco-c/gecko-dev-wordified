@@ -1147,7 +1147,7 @@ FormattedRelativeDateTime
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1170,7 +1170,7 @@ virtual
 FormattedRelativeDateTime
 (
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -1253,7 +1253,7 @@ FormattedRelativeDateTime
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1275,7 +1275,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -1297,7 +1297,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -1323,7 +1323,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -1348,7 +1348,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :
@@ -2181,7 +2181,7 @@ constructor
 Caller
 may
 pass
-NULL
+nullptr
 for
 *
 this

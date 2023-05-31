@@ -424,7 +424,7 @@ StringProp
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 fValue
 (
@@ -479,7 +479,7 @@ StringProp
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 if
 (
@@ -642,6 +642,13 @@ U_MEMORY_ALLOCATION_ERROR
 return
 ;
 }
+if
+(
+fLength
+>
+0
+)
+{
 uprv_strncpy
 (
 fValue
@@ -653,6 +660,7 @@ data
 fLength
 )
 ;
+}
 fValue
 [
 fLength

@@ -487,7 +487,7 @@ n
 endif
 static
 const
-UChar
+char16_t
 gDateFormatSkeleton
 [
 ]
@@ -585,7 +585,7 @@ latestFirst
 :
 static
 const
-UChar
+char16_t
 gLaterFirstPrefix
 [
 ]
@@ -611,7 +611,7 @@ earliestFirst
 :
 static
 const
-UChar
+char16_t
 gEarlierFirstPrefix
 [
 ]
@@ -837,9 +837,13 @@ UTF
 "
 )
 ;
-sprintf
+snprintf
 (
 mesg
+sizeof
+(
+mesg
+)
 "
 skeleton
 :
@@ -4846,9 +4850,13 @@ UTF
 "
 )
 ;
-sprintf
+snprintf
 (
 mesg
+sizeof
+(
+mesg
+)
 "
 in
 getBestSkeleton
@@ -5191,9 +5199,13 @@ UTF
 "
 )
 ;
-sprintf
+snprintf
 (
 mesg
+sizeof
+(
+mesg
+)
 "
 in
 getBestSkeleton
@@ -5371,7 +5383,7 @@ int32_t
 dateTimeFormatLength
 ;
 const
-UChar
+char16_t
 *
 dateTimeFormat
 =
@@ -6251,7 +6263,7 @@ result
 =
 skeleton
 ;
-UChar
+char16_t
 hourMetachar
 =
 u
@@ -6260,7 +6272,7 @@ u
 0
 '
 ;
-UChar
+char16_t
 dayPeriodChar
 =
 u
@@ -6309,7 +6321,7 @@ i
 +
 )
 {
-UChar
+char16_t
 c
 =
 result
@@ -6480,7 +6492,7 @@ err
 =
 U_ZERO_ERROR
 ;
-UChar
+char16_t
 hourChar
 =
 CAP_H
@@ -6996,7 +7008,7 @@ zCount
 =
 0
 ;
-UChar
+char16_t
 hourChar
 =
 u
@@ -7027,7 +7039,7 @@ length
 i
 )
 {
-UChar
+char16_t
 ch
 =
 skeleton
@@ -9259,7 +9271,7 @@ to
 MMMM
 "
 .
-UChar
+char16_t
 fieldLetter
 =
 fgCalendarFieldToPatternLetter
@@ -9531,7 +9543,7 @@ inQuote
 =
 false
 ;
-UChar
+char16_t
 prevCh
 =
 0
@@ -9768,7 +9780,7 @@ length
 i
 )
 {
-UChar
+char16_t
 ch
 =
 intervalPattern
@@ -10883,7 +10895,7 @@ skeleton
 )
 {
 const
-UChar
+char16_t
 fieldChar
 =
 fgCalendarFieldToPatternLetter
@@ -11555,7 +11567,7 @@ inQuote
 =
 false
 ;
-UChar
+char16_t
 prevCh
 =
 0
@@ -11602,7 +11614,7 @@ adjustedPtnLength
 i
 )
 {
-UChar
+char16_t
 ch
 =
 adjustedPtn
@@ -11633,7 +11645,7 @@ repeativeness
 of
 pattern
 letter
-UChar
+char16_t
 skeletonChar
 =
 prevCh
@@ -11975,7 +11987,7 @@ repeativeness
 of
 pattern
 letter
-UChar
+char16_t
 skeletonChar
 =
 prevCh
@@ -12457,7 +12469,7 @@ is
 valid
 }
 const
-UChar
+char16_t
 DateIntervalFormat
 :
 :

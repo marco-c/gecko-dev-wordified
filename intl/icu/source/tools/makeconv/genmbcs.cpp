@@ -1140,7 +1140,7 @@ if
 mbcsData
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -1225,7 +1225,7 @@ if
 mbcsData
 !
 =
-NULL
+nullptr
 )
 {
 MBCSDestruct
@@ -1361,7 +1361,7 @@ mbcsData
 unicodeCodeUnits
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1527,7 +1527,7 @@ mbcsData
 fromUBytes
 =
 =
-NULL
+nullptr
 )
 {
 fprintf

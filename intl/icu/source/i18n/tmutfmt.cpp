@@ -322,7 +322,7 @@ define
 LEFT_CURLY_BRACKET
 (
 (
-UChar
+char16_t
 )
 0x007B
 )
@@ -331,7 +331,7 @@ define
 RIGHT_CURLY_BRACKET
 (
 (
-UChar
+char16_t
 )
 0x007D
 )
@@ -340,7 +340,7 @@ define
 SPACE
 (
 (
-UChar
+char16_t
 )
 0x0020
 )
@@ -349,7 +349,7 @@ define
 DIGIT_ZERO
 (
 (
-UChar
+char16_t
 )
 0x0030
 )
@@ -358,7 +358,7 @@ define
 LOW_S
 (
 (
-UChar
+char16_t
 )
 0x0073
 )
@@ -367,7 +367,7 @@ define
 LOW_M
 (
 (
-UChar
+char16_t
 )
 0x006D
 )
@@ -376,7 +376,7 @@ define
 LOW_I
 (
 (
-UChar
+char16_t
 )
 0x0069
 )
@@ -385,7 +385,7 @@ define
 LOW_N
 (
 (
-UChar
+char16_t
 )
 0x006E
 )
@@ -394,7 +394,7 @@ define
 LOW_H
 (
 (
-UChar
+char16_t
 )
 0x0068
 )
@@ -403,7 +403,7 @@ define
 LOW_W
 (
 (
-UChar
+char16_t
 )
 0x0077
 )
@@ -412,7 +412,7 @@ define
 LOW_D
 (
 (
-UChar
+char16_t
 )
 0x0064
 )
@@ -421,7 +421,7 @@ define
 LOW_Y
 (
 (
-UChar
+char16_t
 )
 0x0079
 )
@@ -430,7 +430,7 @@ define
 LOW_Z
 (
 (
-UChar
+char16_t
 )
 0x007A
 )
@@ -439,7 +439,7 @@ define
 LOW_E
 (
 (
-UChar
+char16_t
 )
 0x0065
 )
@@ -448,7 +448,7 @@ define
 LOW_R
 (
 (
-UChar
+char16_t
 )
 0x0072
 )
@@ -457,7 +457,7 @@ define
 LOW_O
 (
 (
-UChar
+char16_t
 )
 0x006F
 )
@@ -466,7 +466,7 @@ define
 LOW_N
 (
 (
-UChar
+char16_t
 )
 0x006E
 )
@@ -475,7 +475,7 @@ define
 LOW_T
 (
 (
-UChar
+char16_t
 )
 0x0074
 )
@@ -620,7 +620,7 @@ other
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_PATTERN_FOR_SECOND
 [
 ]
@@ -636,7 +636,7 @@ LOW_S
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_PATTERN_FOR_MINUTE
 [
 ]
@@ -654,7 +654,7 @@ LOW_N
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_PATTERN_FOR_HOUR
 [
 ]
@@ -670,7 +670,7 @@ LOW_H
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_PATTERN_FOR_WEEK
 [
 ]
@@ -686,7 +686,7 @@ LOW_W
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_PATTERN_FOR_DAY
 [
 ]
@@ -702,7 +702,7 @@ LOW_D
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_PATTERN_FOR_MONTH
 [
 ]
@@ -718,7 +718,7 @@ LOW_M
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_PATTERN_FOR_YEAR
 [
 ]
@@ -734,7 +734,7 @@ LOW_Y
 ;
 static
 const
-UChar
+char16_t
 PLURAL_COUNT_ZERO
 [
 ]
@@ -749,7 +749,7 @@ LOW_O
 ;
 static
 const
-UChar
+char16_t
 PLURAL_COUNT_ONE
 [
 ]
@@ -763,7 +763,7 @@ LOW_E
 ;
 static
 const
-UChar
+char16_t
 PLURAL_COUNT_TWO
 [
 ]
@@ -794,7 +794,7 @@ getDefault
 (
 )
 UMEASFMT_WIDTH_WIDE
-NULL
+nullptr
 status
 )
 ;
@@ -823,7 +823,7 @@ initMeasureFormat
 (
 locale
 UMEASFMT_WIDTH_WIDE
-NULL
+nullptr
 status
 )
 ;
@@ -862,7 +862,7 @@ initMeasureFormat
 (
 locale
 UMEASFMT_WIDTH_WIDE
-NULL
+nullptr
 status
 )
 ;
@@ -875,7 +875,7 @@ initMeasureFormat
 (
 locale
 UMEASFMT_WIDTH_SHORT
-NULL
+nullptr
 status
 )
 ;
@@ -887,7 +887,7 @@ initMeasureFormat
 (
 locale
 UMEASFMT_WIDTH_WIDE
-NULL
+nullptr
 status
 )
 ;
@@ -1010,7 +1010,7 @@ fTimeUnitToCountToPatterns
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1071,7 +1071,7 @@ fTimeUnitToCountToPatterns
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1179,7 +1179,7 @@ fTimeUnitToCountToPatterns
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 for
@@ -1269,7 +1269,7 @@ fTimeUnitToCountToPatterns
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1351,7 +1351,7 @@ UnicodeString
 *
 countOfLongestMatch
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -1475,7 +1475,7 @@ UHashElement
 *
 elem
 =
-NULL
+nullptr
 ;
 while
 (
@@ -1492,7 +1492,7 @@ elemPos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -2191,7 +2191,7 @@ its
 elements
 initialized
 to
-NULL
+nullptr
 first
 /
 /
@@ -2241,7 +2241,7 @@ fTimeUnitToCountToPatterns
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2472,7 +2472,7 @@ err
 )
 !
 =
-NULL
+nullptr
 )
 {
 pluralCounts
@@ -2585,7 +2585,7 @@ fTimeUnitToCountToPatterns
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2753,7 +2753,7 @@ if
 timeUnitName
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -2944,7 +2944,7 @@ if
 countToPatterns
 =
 =
-NULL
+nullptr
 )
 {
 localCountToPatterns
@@ -3128,7 +3128,7 @@ if
 formatters
 =
 =
-NULL
+nullptr
 )
 {
 LocalMemory
@@ -3176,14 +3176,14 @@ localFormatters
 UTMUTFMT_FULL_STYLE
 ]
 =
-NULL
+nullptr
 ;
 localFormatters
 [
 UTMUTFMT_ABBREVIATED_STYLE
 ]
 =
-NULL
+nullptr
 ;
 countToPatterns
 -
@@ -3242,7 +3242,7 @@ timeUnitField
 ]
 =
 =
-NULL
+nullptr
 )
 {
 timeUnitFormatObj
@@ -3378,7 +3378,7 @@ getAlias
 (
 )
 key
-NULL
+nullptr
 &
 status
 )
@@ -3705,7 +3705,7 @@ err
 )
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -3761,7 +3761,7 @@ if
 countToPatterns
 =
 =
-NULL
+nullptr
 )
 {
 fTimeUnitToCountToPatterns
@@ -3812,7 +3812,7 @@ if
 formatters
 =
 =
-NULL
+nullptr
 |
 |
 formatters
@@ -3821,7 +3821,7 @@ style
 ]
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -4064,7 +4064,7 @@ U_ASSERT
 countToPatterns
 !
 =
-NULL
+nullptr
 )
 ;
 while
@@ -4119,7 +4119,7 @@ getAlias
 (
 )
 key
-NULL
+nullptr
 &
 status
 )
@@ -4147,14 +4147,14 @@ getAlias
 (
 )
 timeUnitName
-NULL
+nullptr
 &
 status
 )
 )
 ;
 const
-UChar
+char16_t
 *
 pattern
 ;
@@ -4246,7 +4246,7 @@ if
 formatters
 =
 =
-NULL
+nullptr
 )
 {
 LocalMemory
@@ -4286,14 +4286,14 @@ localFormatters
 UTMUTFMT_FULL_STYLE
 ]
 =
-NULL
+nullptr
 ;
 localFormatters
 [
 UTMUTFMT_ABBREVIATED_STYLE
 ]
 =
-NULL
+nullptr
 ;
 countToPatterns
 -
@@ -4523,7 +4523,7 @@ if
 formatters
 !
 =
-NULL
+nullptr
 &
 &
 formatters
@@ -4532,7 +4532,7 @@ style
 ]
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -4595,11 +4595,11 @@ MessageFormat
 messageFormat
 ;
 const
-UChar
+char16_t
 *
 pattern
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4724,7 +4724,7 @@ if
 pattern
 !
 =
-NULL
+nullptr
 )
 {
 messageFormat
@@ -4785,7 +4785,7 @@ if
 formatters
 =
 =
-NULL
+nullptr
 )
 {
 LocalMemory
@@ -4841,14 +4841,14 @@ formatters
 UTMUTFMT_FULL_STYLE
 ]
 =
-NULL
+nullptr
 ;
 formatters
 [
 UTMUTFMT_ABBREVIATED_STYLE
 ]
 =
-NULL
+nullptr
 ;
 countToPatterns
 -
@@ -5012,7 +5012,7 @@ UHashElement
 *
 element
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5034,7 +5034,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -5131,7 +5131,7 @@ UHashElement
 *
 element
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5153,7 +5153,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -5443,7 +5443,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 Hashtable
@@ -5464,7 +5464,7 @@ status
 )
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -5472,7 +5472,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -5487,7 +5487,7 @@ delete
 hTable
 ;
 return
-NULL
+nullptr
 ;
 }
 hTable
@@ -5529,7 +5529,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 switch
@@ -5607,7 +5607,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }

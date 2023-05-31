@@ -654,7 +654,7 @@ string
 must
 not
 be
-NULL
+nullptr
 if
 length
 !
@@ -1382,7 +1382,7 @@ string
 must
 not
 be
-NULL
+nullptr
 if
 length
 !

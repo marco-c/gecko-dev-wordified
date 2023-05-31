@@ -778,7 +778,7 @@ target
 variant
 .
 Returns
-NULL
+nullptr
 if
 the
 source

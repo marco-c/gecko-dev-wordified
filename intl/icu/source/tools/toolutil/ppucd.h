@@ -824,7 +824,7 @@ s
 next
 field
 or
-NULL
+nullptr
 .
 *
 /
@@ -945,7 +945,7 @@ filled
 in
 UniProps
 or
-NULL
+nullptr
 if
 something
 went

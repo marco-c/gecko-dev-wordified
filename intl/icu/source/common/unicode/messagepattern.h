@@ -2896,7 +2896,7 @@ pattern
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -3150,7 +3150,7 @@ pattern
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -3312,7 +3312,7 @@ pattern
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -3474,7 +3474,7 @@ pattern
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -3636,7 +3636,7 @@ pattern
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param

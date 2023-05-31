@@ -1011,7 +1011,7 @@ the
 region
 code
 is
-NULL
+nullptr
 or
 not
 recognized
@@ -1159,7 +1159,7 @@ this
 region
 .
 Returns
-NULL
+nullptr
 if
 this
 region
@@ -1252,7 +1252,7 @@ if
 necessary
 .
 Returns
-NULL
+nullptr
 if
 no
 containing
@@ -1292,7 +1292,7 @@ in
 this
 API
 .
-NULL
+nullptr
 will
 be
 returned
@@ -1402,7 +1402,7 @@ This
 API
 may
 return
-NULL
+nullptr
 if
 this
 region

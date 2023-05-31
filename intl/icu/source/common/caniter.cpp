@@ -844,7 +844,7 @@ status
 :
 pieces
 (
-NULL
+nullptr
 )
 pieces_length
 (
@@ -852,11 +852,11 @@ pieces_length
 )
 pieces_lengths
 (
-NULL
+nullptr
 )
 current
 (
-NULL
+nullptr
 )
 current_length
 (
@@ -940,7 +940,7 @@ if
 pieces
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -966,7 +966,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -986,7 +986,7 @@ pieces
 ;
 pieces
 =
-NULL
+nullptr
 ;
 pieces_length
 =
@@ -998,7 +998,7 @@ if
 pieces_lengths
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1008,7 +1008,7 @@ pieces_lengths
 ;
 pieces_lengths
 =
-NULL
+nullptr
 ;
 }
 if
@@ -1016,7 +1016,7 @@ if
 current
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1026,7 +1026,7 @@ current
 ;
 current
 =
-NULL
+nullptr
 ;
 current_length
 =
@@ -1385,7 +1385,7 @@ UnicodeString
 *
 list
 =
-NULL
+nullptr
 ;
 nfd
 .
@@ -1493,19 +1493,19 @@ if
 pieces
 =
 =
-NULL
+nullptr
 |
 |
 pieces_lengths
 =
 =
-NULL
+nullptr
 |
 |
 current
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1845,19 +1845,19 @@ if
 pieces
 =
 =
-NULL
+nullptr
 |
 |
 pieces_lengths
 =
 =
-NULL
+nullptr
 |
 |
 current
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1986,7 +1986,7 @@ if
 list
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2164,7 +2164,7 @@ source
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -2273,7 +2273,7 @@ UHashElement
 *
 ne
 =
-NULL
+nullptr
 ;
 int32_t
 el
@@ -2502,7 +2502,7 @@ while
 ne
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -2536,13 +2536,13 @@ cp
 /
 test
 for
-NULL
+nullptr
 if
 (
 chStr
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2723,7 +2723,7 @@ setValueDeleter
 uprv_deleteUObject
 )
 ;
-UChar
+char16_t
 USeg
 [
 256
@@ -2784,7 +2784,7 @@ UHashElement
 *
 ne
 =
-NULL
+nullptr
 ;
 int32_t
 el
@@ -2826,7 +2826,7 @@ while
 ne
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2882,7 +2882,7 @@ UHashElement
 *
 ne2
 =
-NULL
+nullptr
 ;
 int32_t
 el2
@@ -2924,7 +2924,7 @@ while
 ne2
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -3198,7 +3198,7 @@ UnicodeString
 *
 finalResult
 =
-NULL
+nullptr
 ;
 int32_t
 resultCount
@@ -3240,7 +3240,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3251,7 +3251,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3285,7 +3285,7 @@ while
 ne
 !
 =
-NULL
+nullptr
 )
 {
 finalResult
@@ -3336,7 +3336,7 @@ Hashtable
 *
 fillinResult
 const
-UChar
+char16_t
 *
 segment
 int32_t
@@ -3355,7 +3355,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3533,7 +3533,7 @@ status
 )
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -3588,7 +3588,7 @@ while
 ne
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -3624,7 +3624,7 @@ prefix
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -3640,7 +3640,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -3715,7 +3715,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3770,7 +3770,7 @@ fillinResult
 UChar32
 comp
 const
-UChar
+char16_t
 *
 segment
 int32_t
@@ -3867,7 +3867,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -3906,7 +3906,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3923,11 +3923,11 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 decomp
 =
@@ -4236,7 +4236,7 @@ if
 ok
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -4349,7 +4349,7 @@ segmentPos
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

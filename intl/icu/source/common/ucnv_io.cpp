@@ -1995,7 +1995,7 @@ UDataMemory
 *
 gAliasData
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -2274,7 +2274,6 @@ UBool
 U_CALLCONV
 ucnv_io_cleanup
 (
-void
 )
 {
 if
@@ -2289,7 +2288,7 @@ gAliasData
 ;
 gAliasData
 =
-NULL
+nullptr
 ;
 }
 gAliasDataInitOnce
@@ -2362,18 +2361,18 @@ U_ASSERT
 gAliasData
 =
 =
-NULL
+nullptr
 )
 ;
 data
 =
 udata_openChoice
 (
-NULL
+nullptr
 DATA_TYPE
 DATA_NAME
 isAcceptable
-NULL
+nullptr
 &
 errCode
 )
@@ -2844,7 +2843,7 @@ if
 alias
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4749,7 +4748,7 @@ should
 be
 non
 -
-NULL
+nullptr
 .
 *
 /
@@ -4968,7 +4967,7 @@ convNum
 findConverter
 (
 alias
-NULL
+nullptr
 &
 myErr
 )
@@ -5330,7 +5329,7 @@ convNum
 findConverter
 (
 alias
-NULL
+nullptr
 &
 myErr
 )
@@ -5752,7 +5751,7 @@ break
 }
 }
 return
-NULL
+nullptr
 ;
 }
 U_CDECL_BEGIN
@@ -5972,7 +5971,7 @@ resultLength
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -6056,8 +6055,8 @@ UEnumeration
 gEnumAliases
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 ucnv_io_closeUEnumeration
 ucnv_io_countStandardAliases
 uenum_unextDefault
@@ -6088,7 +6087,7 @@ UEnumeration
 *
 myEnum
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6178,7 +6177,7 @@ if
 myEnum
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -6187,7 +6186,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -6223,7 +6222,7 @@ if
 myContext
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -6237,7 +6236,7 @@ myEnum
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 myContext
@@ -6311,7 +6310,7 @@ convNum
 findConverter
 (
 alias
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -6443,7 +6442,7 @@ convNum
 findConverter
 (
 alias
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -6622,7 +6621,7 @@ convNum
 findConverter
 (
 alias
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -6753,7 +6752,7 @@ found
 /
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -6853,7 +6852,7 @@ U_INDEX_OUTOFBOUNDS_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -6980,7 +6979,7 @@ U_INVALID_FORMAT_ERROR
 }
 }
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -7065,7 +7064,6 @@ uint16_t
 U_EXPORT2
 ucnv_countStandards
 (
-void
 )
 {
 UErrorCode
@@ -7149,7 +7147,7 @@ convNum
 }
 }
 return
-NULL
+nullptr
 ;
 }
 U_CDECL_BEGIN
@@ -7297,7 +7295,7 @@ resultLength
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -7341,8 +7339,8 @@ UEnumeration
 gEnumAllConverters
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 ucnv_io_closeUEnumeration
 ucnv_io_countAllConverters
 uenum_unextDefault
@@ -7365,7 +7363,7 @@ UEnumeration
 *
 myEnum
 =
-NULL
+nullptr
 ;
 if
 (
@@ -7401,7 +7399,7 @@ if
 myEnum
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7410,7 +7408,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -7446,7 +7444,7 @@ if
 myContext
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7460,7 +7458,7 @@ myEnum
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -7884,7 +7882,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -8794,7 +8792,7 @@ tempTable
 rows
 =
 =
-NULL
+nullptr
 )
 {
 udata_printError

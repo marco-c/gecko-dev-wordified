@@ -307,7 +307,7 @@ maxCapacity
 )
 elements
 (
-NULL
+nullptr
 )
 {
 _init
@@ -794,7 +794,6 @@ UVector64
 :
 removeAllElements
 (
-void
 )
 {
 count
@@ -1004,7 +1003,7 @@ if
 newElems
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1191,7 +1190,7 @@ if
 newElems
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1287,7 +1286,7 @@ new
 *
 slots
 with
-NULL
+nullptr
 .
 *
 /

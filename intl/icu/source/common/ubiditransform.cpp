@@ -730,7 +730,7 @@ reordering
 scheme
 *
 /
-UChar
+char16_t
 *
 src
 ;
@@ -740,7 +740,7 @@ input
 text
 *
 /
-UChar
+char16_t
 *
 dest
 ;
@@ -864,7 +864,7 @@ UBiDiTransform
 *
 pBiDiTransform
 =
-NULL
+nullptr
 ;
 if
 (
@@ -895,7 +895,7 @@ if
 pBiDiTransform
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -924,7 +924,7 @@ if
 pBiDiTransform
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -935,7 +935,7 @@ pBiDiTransform
 pBidi
 !
 =
-NULL
+nullptr
 )
 {
 ubidi_close
@@ -955,7 +955,7 @@ pBiDiTransform
 src
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1081,7 +1081,7 @@ pActiveScheme
 -
 >
 baseLevel
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -1683,7 +1683,7 @@ in
 <
 code
 >
-UChar
+char16_t
 <
 /
 code
@@ -1701,7 +1701,7 @@ in
 <
 code
 >
-UChar
+char16_t
 <
 /
 code
@@ -1728,7 +1728,7 @@ UBiDiTransform
 *
 pTransform
 const
-UChar
+char16_t
 *
 newSrc
 uint32_t
@@ -1787,7 +1787,7 @@ pTransform
 src
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1803,7 +1803,7 @@ pTransform
 >
 src
 =
-NULL
+nullptr
 ;
 }
 pTransform
@@ -1812,7 +1812,7 @@ pTransform
 src
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -1821,7 +1821,7 @@ newSize
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -1833,7 +1833,7 @@ pTransform
 src
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2470,7 +2470,7 @@ LTR
 action_shapeArabic
 action_resolve
 action_reorder
-NULL
+nullptr
 }
 }
 /
@@ -2497,7 +2497,7 @@ RTL
 action_resolve
 action_reorder
 action_shapeArabic
-NULL
+nullptr
 }
 }
 /
@@ -2525,7 +2525,7 @@ action_shapeArabic
 action_resolve
 action_reorder
 action_reverse
-NULL
+nullptr
 }
 }
 /
@@ -2553,7 +2553,7 @@ action_resolve
 action_reorder
 action_shapeArabic
 action_reverse
-NULL
+nullptr
 }
 }
 /
@@ -2581,7 +2581,7 @@ action_shapeArabic
 action_setInverse
 action_resolve
 action_reorder
-NULL
+nullptr
 }
 }
 /
@@ -2610,7 +2610,7 @@ action_shapeArabic
 action_setInverse
 action_resolve
 action_reorder
-NULL
+nullptr
 }
 }
 /
@@ -2638,7 +2638,7 @@ action_setInverse
 action_resolve
 action_reorder
 action_shapeArabic
-NULL
+nullptr
 }
 }
 /
@@ -2667,7 +2667,7 @@ action_setInverse
 action_resolve
 action_reorder
 action_shapeArabic
-NULL
+nullptr
 }
 }
 /
@@ -2697,7 +2697,7 @@ action_mirror
 action_setRunsOnly
 action_resolve
 action_reorder
-NULL
+nullptr
 }
 }
 /
@@ -2727,7 +2727,7 @@ action_setRunsOnly
 action_resolve
 action_reorder
 action_shapeArabic
-NULL
+nullptr
 }
 }
 /
@@ -2756,7 +2756,7 @@ action_setInverse
 action_resolve
 action_mirror
 action_reverse
-NULL
+nullptr
 }
 }
 /
@@ -2785,7 +2785,7 @@ action_shapeArabic
 action_setInverse
 action_resolve
 action_mirror
-NULL
+nullptr
 }
 }
 /
@@ -2812,7 +2812,7 @@ LTR
 action_resolve
 action_mirror
 action_shapeArabic
-NULL
+nullptr
 }
 }
 /
@@ -2839,7 +2839,7 @@ RTL
 action_resolve
 action_mirror
 action_shapeArabic
-NULL
+nullptr
 }
 }
 /
@@ -2866,7 +2866,7 @@ LTR
 action_resolve
 action_mirror
 action_shapeArabic
-NULL
+nullptr
 }
 }
 /
@@ -2895,7 +2895,7 @@ action_resolve
 action_mirror
 action_shapeArabic
 action_reverse
-NULL
+nullptr
 }
 }
 }
@@ -2965,7 +2965,7 @@ void
 resolveBaseDirection
 (
 const
-UChar
+char16_t
 *
 text
 uint32_t
@@ -3128,7 +3128,7 @@ code
 >
 object
 or
-NULL
+nullptr
 *
 /
 static
@@ -3218,7 +3218,7 @@ pScheme
 }
 }
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -3230,12 +3230,12 @@ UBiDiTransform
 *
 pBiDiTransform
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -3279,7 +3279,7 @@ UBiDiAction
 *
 action
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3299,13 +3299,13 @@ if
 src
 =
 =
-NULL
+nullptr
 |
 |
 dest
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3336,7 +3336,7 @@ if
 pBiDiTransform
 =
 =
-NULL
+nullptr
 )
 {
 pBiDiTransform
@@ -3409,7 +3409,7 @@ pBiDiTransform
 pActiveScheme
 =
 =
-NULL
+nullptr
 )
 {
 goto
@@ -3514,7 +3514,7 @@ pBiDiTransform
 pBidi
 =
 =
-NULL
+nullptr
 )
 {
 pBiDiTransform
@@ -3744,14 +3744,14 @@ pBiDiTransform
 >
 dest
 =
-NULL
+nullptr
 ;
 pBiDiTransform
 -
 >
 pDestLength
 =
-NULL
+nullptr
 ;
 pBiDiTransform
 -

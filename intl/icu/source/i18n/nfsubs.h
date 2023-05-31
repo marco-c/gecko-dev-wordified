@@ -2165,7 +2165,7 @@ character
 *
 /
 virtual
-UChar
+char16_t
 tokenChar
 (
 )
@@ -2284,14 +2284,12 @@ static
 UClassID
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override

@@ -258,7 +258,7 @@ public
 UMemory
 {
 const
-UChar
+char16_t
 *
 mzid
 ;
@@ -411,7 +411,7 @@ returns
 a
 persistent
 const
-UChar
+char16_t
 *
 which
 is
@@ -469,7 +469,7 @@ ID
 /
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getCanonicalCLDRID
@@ -501,7 +501,7 @@ zone
 /
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getCanonicalCLDRID
@@ -602,7 +602,7 @@ UBool
 *
 isPrimary
 =
-NULL
+nullptr
 )
 ;
 /
@@ -713,7 +713,7 @@ zone
 ID
 string
 or
-NULL
+nullptr
 if
 the
 given
@@ -743,7 +743,7 @@ duplication
 /
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 findTimeZoneID
@@ -769,7 +769,7 @@ zone
 ID
 string
 or
-NULL
+nullptr
 if
 the
 given
@@ -797,7 +797,7 @@ duplication
 /
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 findMetaZoneID
@@ -913,7 +913,7 @@ available
 /
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getShortID
@@ -991,7 +991,7 @@ available
 /
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getShortID
@@ -1046,12 +1046,12 @@ id
 ;
 static
 const
-UChar
+char16_t
 *
 getShortIDFromCanonical
 (
 const
-UChar
+char16_t
 *
 canonicalID
 )

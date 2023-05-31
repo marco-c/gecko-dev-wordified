@@ -378,7 +378,7 @@ const
 char
 *
 displayLocale
-UChar
+char16_t
 *
 displayName
 int32_t
@@ -393,7 +393,7 @@ UResourceBundle
 rb
 ;
 const
-UChar
+char16_t
 *
 name
 ;
@@ -416,7 +416,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -435,7 +435,7 @@ if
 cnv
 =
 =
-NULL
+nullptr
 |
 |
 displayNameCapacity
@@ -452,7 +452,7 @@ displayNameCapacity
 displayName
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -483,7 +483,7 @@ rb
 =
 ures_open
 (
-NULL
+nullptr
 displayLocale
 pErrorCode
 )

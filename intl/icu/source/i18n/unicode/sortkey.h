@@ -2021,7 +2021,7 @@ the
 new
 buffer
 or
-NULL
+nullptr
 if
 the
 allocation

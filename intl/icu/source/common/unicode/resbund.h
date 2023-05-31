@@ -1432,7 +1432,7 @@ is
 deprecated
 .
 *
-NULL
+nullptr
 is
 used
 to
@@ -1666,7 +1666,7 @@ an
 error
 occurs
 then
-NULL
+nullptr
 is
 returned
 .
@@ -2472,7 +2472,7 @@ to
 this
 resource
 or
-NULL
+nullptr
 if
 it
 doesn
@@ -2610,7 +2610,7 @@ a
 given
 resource
 or
-NULL
+nullptr
 if
 there
 are
@@ -2660,7 +2660,7 @@ in
 a
 resource
 or
-NULL
+nullptr
 if
 there
 are
@@ -2716,7 +2716,7 @@ in
 a
 resource
 or
-NULL
+nullptr
 if
 there
 are

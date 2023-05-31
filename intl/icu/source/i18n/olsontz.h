@@ -1988,7 +1988,7 @@ points
 to
 non
 -
-NULL
+nullptr
 <
 code
 >
@@ -2172,7 +2172,7 @@ setID
 *
 /
 const
-UChar
+char16_t
 *
 getCanonicalID
 (
@@ -2404,7 +2404,7 @@ int32_t
 '
 s
 .
-NULL
+nullptr
 if
 no
 transitions
@@ -2454,7 +2454,7 @@ int32_t
 '
 s
 .
-NULL
+nullptr
 if
 no
 transitions
@@ -2523,7 +2523,7 @@ int32_t
 '
 s
 .
-NULL
+nullptr
 if
 no
 transitions
@@ -2646,7 +2646,7 @@ int16_t
 '
 s
 .
-NULL
+nullptr
 if
 no
 transitions
@@ -2694,7 +2694,7 @@ finalZone
 owned
 may
 be
-NULL
+nullptr
 /
 *
 *
@@ -2749,7 +2749,7 @@ zone
 *
 /
 const
-UChar
+char16_t
 *
 canonicalID
 ;
@@ -2762,13 +2762,11 @@ support
 void
 clearTransitionRules
 (
-void
 )
 ;
 void
 deleteTransitionRules
 (
-void
 )
 ;
 void
@@ -3042,7 +3040,7 @@ typeOffsets
 }
 inline
 const
-UChar
+char16_t
 *
 OlsonTimeZone
 :

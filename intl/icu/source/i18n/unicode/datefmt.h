@@ -2125,7 +2125,7 @@ UDateFormatField
 .
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -2695,7 +2695,7 @@ UDateFormatField
 .
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -3131,7 +3131,7 @@ UDateFormatField
 .
 Can
 be
-NULL
+nullptr
 .
 *
 param

@@ -568,7 +568,7 @@ pErr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 This
@@ -590,7 +590,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -665,7 +665,7 @@ if
 pdh
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -887,7 +887,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 )
 {
 uprv_unmapFile
@@ -936,7 +936,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -945,7 +945,7 @@ pData
 pHeader
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -972,7 +972,7 @@ pHeader
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1169,7 +1169,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1178,7 +1178,7 @@ pData
 pHeader
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1278,7 +1278,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1287,7 +1287,7 @@ pData
 pHeader
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1300,7 +1300,7 @@ pHeader
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1321,6 +1321,6 @@ This
 pHeader
 !
 =
-NULL
+nullptr
 ;
 }

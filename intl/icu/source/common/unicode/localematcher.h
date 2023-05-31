@@ -1333,7 +1333,7 @@ Result
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1405,7 +1405,7 @@ Result
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -2078,7 +2078,7 @@ Builder
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -2150,7 +2150,7 @@ Builder
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -3564,7 +3564,7 @@ LocaleMatcher
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -3650,7 +3650,7 @@ LocaleMatcher
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *

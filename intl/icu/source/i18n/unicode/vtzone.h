@@ -792,7 +792,7 @@ zone
 ID
 *
 or
-NULL
+nullptr
 when
 the
 ID
@@ -965,7 +965,7 @@ VTIMEZONE
 data
 or
 *
-NULL
+nullptr
 if
 failed
 to
@@ -3171,7 +3171,7 @@ points
 to
 non
 -
-NULL
+nullptr
 <
 code
 >

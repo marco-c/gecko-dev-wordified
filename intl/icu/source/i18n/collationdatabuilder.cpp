@@ -1347,7 +1347,7 @@ nfcImpl
 )
 s
 (
-NULL
+nullptr
 )
 pos
 (
@@ -2318,15 +2318,15 @@ errorCode
 )
 base
 (
-NULL
+nullptr
 )
 baseSettings
 (
-NULL
+nullptr
 )
 trie
 (
-NULL
+nullptr
 )
 ce32s
 (
@@ -2354,11 +2354,11 @@ false
 )
 fastLatinBuilder
 (
-NULL
+nullptr
 )
 collIter
 (
-NULL
+nullptr
 )
 {
 /
@@ -2446,7 +2446,7 @@ if
 trie
 !
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2461,7 +2461,7 @@ if
 b
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -4240,7 +4240,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 utrie2_isFrozen
@@ -4955,7 +4955,7 @@ length
 i
 )
 {
-UChar
+char16_t
 c
 =
 s
@@ -5255,7 +5255,7 @@ addConditionalCE32
 UnicodeString
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -5337,7 +5337,7 @@ UnicodeString
 context
 (
 (
-UChar
+char16_t
 )
 prefix
 .
@@ -5898,7 +5898,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 utrie2_isFrozen
@@ -6961,7 +6961,7 @@ of
 ConditionalCE32
 .
 const
-UChar
+char16_t
 *
 p
 =
@@ -7019,7 +7019,7 @@ UnicodeString
 context
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -7148,7 +7148,7 @@ insert
 (
 0
 (
-UChar
+char16_t
 )
 context
 .
@@ -7271,7 +7271,7 @@ withContext
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -7323,7 +7323,7 @@ UnicodeString
 context
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -7473,7 +7473,7 @@ return
 ;
 }
 const
-UChar
+char16_t
 *
 p
 =
@@ -8770,7 +8770,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 utrie2_isFrozen
@@ -8801,7 +8801,7 @@ utrie2_enum
 src
 .
 trie
-NULL
+nullptr
 enumRangeForCopy
 &
 helper
@@ -9219,7 +9219,7 @@ anyJamoAssigned
 base
 =
 =
-NULL
+nullptr
 ;
 /
 /
@@ -9980,7 +9980,7 @@ errorCode
 {
 for
 (
-UChar
+char16_t
 lead
 =
 0xd800
@@ -10004,7 +10004,7 @@ utrie2_enumForLeadSurrogate
 (
 trie
 lead
-NULL
+nullptr
 enumRangeLeadValue
 &
 value
@@ -10061,7 +10061,7 @@ if
 base
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -10156,7 +10156,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 utrie2_isFrozen
@@ -10730,7 +10730,7 @@ c
 ;
 for
 (
-UChar
+char16_t
 lead
 =
 0xd800
@@ -12441,7 +12441,7 @@ context
 append
 (
 (
-UChar
+char16_t
 )
 (
 defaultCE32
@@ -12454,7 +12454,7 @@ defaultCE32
 append
 (
 (
-UChar
+char16_t
 )
 defaultCE32
 )
@@ -12571,7 +12571,7 @@ if
 fastLatinBuilder
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -12620,7 +12620,7 @@ if
 base
 !
 =
-NULL
+nullptr
 &
 &
 length
@@ -12668,7 +12668,7 @@ fastLatinBuilder
 ;
 fastLatinBuilder
 =
-NULL
+nullptr
 ;
 table
 =
@@ -12698,7 +12698,7 @@ fastLatinBuilder
 ;
 fastLatinBuilder
 =
-NULL
+nullptr
 ;
 }
 }
@@ -12819,7 +12819,7 @@ if
 collIter
 =
 =
-NULL
+nullptr
 )
 {
 collIter
@@ -12836,7 +12836,7 @@ if
 collIter
 =
 =
-NULL
+nullptr
 )
 {
 return

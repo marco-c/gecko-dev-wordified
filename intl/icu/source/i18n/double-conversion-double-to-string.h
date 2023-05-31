@@ -1010,7 +1010,7 @@ If
 the
 string
 is
-NULL
+nullptr
 and
 the
 special
@@ -4100,7 +4100,7 @@ either
 of
 them
 is
-NULL
+nullptr
 or
 the
 value

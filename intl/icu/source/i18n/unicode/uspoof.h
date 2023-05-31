@@ -11491,7 +11491,7 @@ This
 parameter
 may
 be
-NULL
+nullptr
 .
 *
 param
@@ -11700,7 +11700,7 @@ identifier
 .
 Can
 be
-NULL
+nullptr
 .
 *
 param

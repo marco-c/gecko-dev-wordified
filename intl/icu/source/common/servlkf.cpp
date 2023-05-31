@@ -379,7 +379,7 @@ define
 UNDERSCORE_CHAR
 (
 (
-UChar
+char16_t
 )
 0x005f
 )
@@ -388,7 +388,7 @@ define
 AT_SIGN_CHAR
 (
 (
-UChar
+char16_t
 )
 64
 )
@@ -397,7 +397,7 @@ define
 PERIOD_CHAR
 (
 (
-UChar
+char16_t
 )
 46
 )
@@ -487,12 +487,15 @@ LocaleKey
 &
 lkey
 =
-(
+static_cast
+<
 const
 LocaleKey
 &
-)
+>
+(
 key
+)
 ;
 int32_t
 kind
@@ -524,7 +527,7 @@ status
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UBool
@@ -578,7 +581,7 @@ id
 )
 !
 =
-NULL
+nullptr
 ;
 }
 return
@@ -632,7 +635,7 @@ UHashElement
 *
 elem
 =
-NULL
+nullptr
 ;
 int32_t
 pos
@@ -654,7 +657,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -876,7 +879,7 @@ status
 const
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -947,7 +950,7 @@ status
 const
 {
 return
-NULL
+nullptr
 ;
 }
 #

@@ -528,7 +528,7 @@ parser
 -
 static
 const
-UChar
+char16_t
 gRuleSet_rule_char_pattern
 [
 ]
@@ -638,7 +638,7 @@ N
 ;
 static
 const
-UChar
+char16_t
 gRuleSet_name_char_pattern
 [
 ]
@@ -677,7 +677,7 @@ N
 ;
 static
 const
-UChar
+char16_t
 gRuleSet_digit_char_pattern
 [
 ]
@@ -700,7 +700,7 @@ gRuleSet_digit_char_pattern
 ;
 static
 const
-UChar
+char16_t
 gRuleSet_name_start_char_pattern
 [
 ]
@@ -729,7 +729,7 @@ L
 ;
 static
 const
-UChar
+char16_t
 kAny
 [
 ]
@@ -1026,7 +1026,7 @@ fLastChar
 ;
 fStateTable
 =
-NULL
+nullptr
 ;
 fStack
 [
@@ -1044,7 +1044,7 @@ fNodeStack
 0
 ]
 =
-NULL
+nullptr
 ;
 fNodeStackPtr
 =
@@ -1064,11 +1064,11 @@ false
 ;
 fSymbolTable
 =
-NULL
+nullptr
 ;
 fSetTable
 =
-NULL
+nullptr
 ;
 fRuleNum
 =
@@ -1418,7 +1418,7 @@ if
 fSymbolTable
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1438,7 +1438,7 @@ uhash_open
 (
 uhash_hashUnicodeString
 uhash_compareUnicodeString
-NULL
+nullptr
 rb
 -
 >
@@ -1650,7 +1650,7 @@ if
 fSetTable
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -1660,7 +1660,7 @@ fSetTable
 ;
 fSetTable
 =
-NULL
+nullptr
 ;
 }
 /
@@ -2001,7 +2001,7 @@ RBBINode
 *
 n
 =
-NULL
+nullptr
 ;
 UBool
 returnVal
@@ -3171,7 +3171,7 @@ if
 destRules
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -4508,7 +4508,7 @@ if
 n
 =
 =
-NULL
+nullptr
 |
 |
 n
@@ -4666,7 +4666,7 @@ n
 fLeftChild
 =
 =
-NULL
+nullptr
 )
 {
 error
@@ -6065,7 +6065,7 @@ if
 el
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -6138,7 +6138,7 @@ if
 setToAdopt
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -6242,7 +6242,7 @@ if
 usetNode
 =
 =
-NULL
+nullptr
 )
 {
 error
@@ -6361,19 +6361,19 @@ if
 tkey
 =
 =
-NULL
+nullptr
 |
 |
 el
 =
 =
-NULL
+nullptr
 |
 |
 setToAdopt
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -6388,7 +6388,7 @@ tkey
 ;
 tkey
 =
-NULL
+nullptr
 ;
 uprv_free
 (
@@ -6397,14 +6397,14 @@ el
 ;
 el
 =
-NULL
+nullptr
 ;
 delete
 setToAdopt
 ;
 setToAdopt
 =
-NULL
+nullptr
 ;
 error
 (
@@ -6480,7 +6480,7 @@ EBCDIC
 /
 static
 const
-UChar
+char16_t
 chCR
 =
 0x0d
@@ -6495,14 +6495,14 @@ comments
 .
 static
 const
-UChar
+char16_t
 chLF
 =
 0x0a
 ;
 static
 const
-UChar
+char16_t
 chNEL
 =
 0x85
@@ -6514,7 +6514,7 @@ newline
 variant
 static
 const
-UChar
+char16_t
 chLS
 =
 0x2028
@@ -6526,7 +6526,7 @@ Line
 Separator
 static
 const
-UChar
+char16_t
 chApos
 =
 0x27
@@ -6541,7 +6541,7 @@ chars
 .
 static
 const
-UChar
+char16_t
 chPound
 =
 0x23
@@ -6557,7 +6557,7 @@ comment
 .
 static
 const
-UChar
+char16_t
 chBackSlash
 =
 0x5c
@@ -6573,14 +6573,14 @@ char
 escape
 static
 const
-UChar
+char16_t
 chLParen
 =
 0x28
 ;
 static
 const
-UChar
+char16_t
 chRParen
 =
 0x29
@@ -9296,7 +9296,7 @@ fRB
 fForwardTree
 =
 =
-NULL
+nullptr
 )
 {
 error
@@ -9972,7 +9972,7 @@ fStatus
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -10005,7 +10005,7 @@ overflow
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 fNodeStackPtr
@@ -10031,7 +10031,7 @@ fNodeStackPtr
 ]
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10371,7 +10371,7 @@ if
 uset
 =
 =
-NULL
+nullptr
 )
 {
 localStatus
@@ -10492,7 +10492,7 @@ U_ASSERT
 uset
 !
 =
-NULL
+nullptr
 )
 ;
 if

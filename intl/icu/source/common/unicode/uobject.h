@@ -314,7 +314,7 @@ Since
 ICU
 64
 use
-U_NOEXCEPT
+noexcept
 instead
 .
 *
@@ -362,7 +362,7 @@ compiler
 adds
 the
 additional
-NULL
+nullptr
 check
 *
 before
@@ -381,7 +381,7 @@ new
 code
 >
 returns
-NULL
+nullptr
 the
 *
 constructor
@@ -421,7 +421,7 @@ Since
 ICU
 64
 Use
-U_NOEXCEPT
+noexcept
 instead
 .
 See
@@ -437,7 +437,7 @@ U_NO_THROW
 #
 define
 U_NO_THROW
-U_NOEXCEPT
+noexcept
 #
 endif
 /
@@ -1137,7 +1137,7 @@ new
 size_t
 size
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1178,7 +1178,7 @@ new
 size_t
 size
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1265,7 +1265,7 @@ void
 *
 p
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1306,7 +1306,7 @@ void
 *
 p
 )
-U_NOEXCEPT
+noexcept
 ;
 #
 if
@@ -1353,7 +1353,7 @@ void
 *
 ptr
 )
-U_NOEXCEPT
+noexcept
 {
 return
 ptr
@@ -1400,7 +1400,7 @@ void
 void
 *
 )
-U_NOEXCEPT
+noexcept
 {
 }
 #
@@ -1474,7 +1474,7 @@ file
 int
 line
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -1539,7 +1539,7 @@ file
 int
 line
 )
-U_NOEXCEPT
+noexcept
 ;
 #
 endif

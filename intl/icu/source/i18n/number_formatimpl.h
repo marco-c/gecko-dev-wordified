@@ -509,7 +509,7 @@ int32_t
 writeNumber
 (
 const
-MicroProps
+SimpleMicroProps
 &
 micros
 DecimalQuantity
@@ -1003,7 +1003,7 @@ int32_t
 writeIntegerDigits
 (
 const
-MicroProps
+SimpleMicroProps
 &
 micros
 DecimalQuantity
@@ -1024,7 +1024,7 @@ int32_t
 writeFractionDigits
 (
 const
-MicroProps
+SimpleMicroProps
 &
 micros
 DecimalQuantity

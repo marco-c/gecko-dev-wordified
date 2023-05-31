@@ -978,7 +978,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 0x7C
 )

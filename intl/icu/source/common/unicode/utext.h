@@ -2166,7 +2166,7 @@ UText
 struct
 .
 If
-NULL
+nullptr
 a
 new
 UText
@@ -2178,7 +2178,7 @@ created
 If
 non
 -
-NULL
+nullptr
 must
 refer
 to
@@ -2295,7 +2295,7 @@ UText
 struct
 .
 If
-NULL
+nullptr
 a
 new
 UText
@@ -2307,7 +2307,7 @@ created
 If
 non
 -
-NULL
+nullptr
 must
 refer
 to
@@ -2423,7 +2423,7 @@ UText
 struct
 .
 If
-NULL
+nullptr
 a
 new
 UText
@@ -2435,7 +2435,7 @@ created
 If
 non
 -
-NULL
+nullptr
 must
 refer
 to
@@ -2549,7 +2549,7 @@ UText
 struct
 .
 If
-NULL
+nullptr
 a
 new
 UText
@@ -2561,7 +2561,7 @@ created
 If
 non
 -
-NULL
+nullptr
 must
 refer
 to

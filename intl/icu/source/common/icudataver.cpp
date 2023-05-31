@@ -269,7 +269,7 @@ UResourceBundle
 *
 icudatares
 =
-NULL
+nullptr
 ;
 if
 (
@@ -288,14 +288,14 @@ if
 dataVersionFillin
 !
 =
-NULL
+nullptr
 )
 {
 icudatares
 =
 ures_openDirect
 (
-NULL
+nullptr
 U_ICU_VERSION_BUNDLE
 status
 )

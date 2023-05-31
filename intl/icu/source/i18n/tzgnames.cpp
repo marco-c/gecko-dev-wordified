@@ -441,7 +441,7 @@ fallbackFormat
 ;
 static
 const
-UChar
+char16_t
 gEmpty
 [
 ]
@@ -452,7 +452,7 @@ gEmpty
 ;
 static
 const
-UChar
+char16_t
 gDefRegionPattern
 [
 ]
@@ -473,7 +473,7 @@ gDefRegionPattern
 "
 static
 const
-UChar
+char16_t
 gDefFallbackPattern
 [
 ]
@@ -521,12 +521,12 @@ struct
 PartialLocationKey
 {
 const
-UChar
+char16_t
 *
 tzID
 ;
 const
-UChar
+char16_t
 *
 mzID
 ;
@@ -601,7 +601,7 @@ str
 append
 (
 (
-UChar
+char16_t
 )
 0x26
 )
@@ -619,7 +619,7 @@ mzID
 append
 (
 (
-UChar
+char16_t
 )
 0x23
 )
@@ -627,7 +627,7 @@ UChar
 append
 (
 (
-UChar
+char16_t
 )
 (
 p
@@ -716,13 +716,13 @@ if
 p1
 =
 =
-NULL
+nullptr
 |
 |
 p2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -826,7 +826,7 @@ UTimeZoneGenericNameType
 type
 ;
 const
-UChar
+char16_t
 *
 tzID
 ;
@@ -1081,7 +1081,7 @@ if
 fMatches
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1103,7 +1103,7 @@ if
 fMatches
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1151,7 +1151,7 @@ if
 minfo
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1206,7 +1206,7 @@ if
 minfo
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1257,7 +1257,7 @@ if
 minfo
 !
 =
-NULL
+nullptr
 &
 &
 minfo
@@ -1269,7 +1269,7 @@ gnameInfo
 tzID
 !
 =
-NULL
+nullptr
 )
 {
 tzID
@@ -1484,7 +1484,7 @@ types
 )
 fResults
 (
-NULL
+nullptr
 )
 fMaxMatchLen
 (
@@ -1505,7 +1505,7 @@ if
 fResults
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1599,7 +1599,7 @@ if
 nameinfo
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -1631,7 +1631,7 @@ if
 fResults
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -1644,7 +1644,7 @@ new
 UVector
 (
 uprv_free
-NULL
+nullptr
 status
 )
 status
@@ -1692,7 +1692,7 @@ if
 gmatch
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1807,7 +1807,7 @@ fMaxMatchLen
 reset
 fResults
 =
-NULL
+nullptr
 ;
 fMaxMatchLen
 =
@@ -1971,7 +1971,7 @@ tzCanonicalID
 )
 ;
 const
-UChar
+char16_t
 *
 getGenericLocationName
 (
@@ -2024,7 +2024,7 @@ name
 const
 ;
 const
-UChar
+char16_t
 *
 getPartialLocationName
 (
@@ -2251,19 +2251,19 @@ locale
 )
 fTimeZoneNames
 (
-NULL
+nullptr
 )
 fLocationNamesMap
 (
-NULL
+nullptr
 )
 fPartialLocationNamesMap
 (
-NULL
+nullptr
 )
 fLocaleDisplayNames
 (
-NULL
+nullptr
 )
 fStringPool
 (
@@ -2422,7 +2422,7 @@ tmpsts
 )
 {
 const
-UChar
+char16_t
 *
 regionPattern
 =
@@ -2430,7 +2430,7 @@ ures_getStringByKeyWithFallback
 (
 zoneStrings
 gRegionFormatTag
-NULL
+nullptr
 &
 tmpsts
 )
@@ -2466,7 +2466,7 @@ tmpsts
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 fallbackPattern
 =
@@ -2474,7 +2474,7 @@ ures_getStringByKeyWithFallback
 (
 zoneStrings
 gFallbackFormatTag
-NULL
+nullptr
 &
 tmpsts
 )
@@ -2579,7 +2579,7 @@ uhash_open
 (
 uhash_hashUChars
 uhash_compareUChars
-NULL
+nullptr
 &
 status
 )
@@ -2605,7 +2605,7 @@ uhash_open
 (
 hashPartialLocationKey
 comparePartialLocationKey
-NULL
+nullptr
 &
 status
 )
@@ -2793,7 +2793,7 @@ createDefault
 )
 ;
 const
-UChar
+char16_t
 *
 tzID
 =
@@ -2811,7 +2811,7 @@ if
 tzID
 !
 =
-NULL
+nullptr
 )
 {
 loadStrings
@@ -2843,7 +2843,7 @@ if
 fLocaleDisplayNames
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2855,7 +2855,7 @@ if
 fTimeZoneNames
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2910,7 +2910,7 @@ UTZGNM_LOCATION
 :
 {
 const
-UChar
+char16_t
 *
 tzCanonicalID
 =
@@ -2927,7 +2927,7 @@ if
 tzCanonicalID
 !
 =
-NULL
+nullptr
 )
 {
 getGenericLocationName
@@ -2970,7 +2970,7 @@ isEmpty
 )
 {
 const
-UChar
+char16_t
 *
 tzCanonicalID
 =
@@ -2987,7 +2987,7 @@ if
 tzCanonicalID
 !
 =
-NULL
+nullptr
 )
 {
 getGenericLocationName
@@ -3052,11 +3052,11 @@ name
 ;
 }
 const
-UChar
+char16_t
 *
 locname
 =
-NULL
+nullptr
 ;
 TZGNCore
 *
@@ -3100,7 +3100,7 @@ if
 locname
 =
 =
-NULL
+nullptr
 )
 {
 name
@@ -3146,7 +3146,7 @@ lock
 *
 /
 const
-UChar
+char16_t
 *
 TZGNCore
 :
@@ -3181,7 +3181,7 @@ ZID_KEY_MAX
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UErrorCode
@@ -3189,7 +3189,7 @@ status
 =
 U_ZERO_ERROR
 ;
-UChar
+char16_t
 tzIDKey
 [
 ZID_KEY_MAX
@@ -3233,13 +3233,13 @@ tzIDKeyLen
 0
 ;
 const
-UChar
+char16_t
 *
 locname
 =
 (
 const
-UChar
+char16_t
 *
 )
 uhash_get
@@ -3253,7 +3253,7 @@ if
 locname
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -3274,7 +3274,7 @@ gEmpty
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3479,7 +3479,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3491,7 +3491,7 @@ isEmpty
 (
 )
 ?
-NULL
+nullptr
 :
 fStringPool
 .
@@ -3515,7 +3515,7 @@ Cache
 the
 result
 const
-UChar
+char16_t
 *
 cacheID
 =
@@ -3532,7 +3532,7 @@ U_ASSERT
 cacheID
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -3540,7 +3540,7 @@ if
 locname
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -3600,7 +3600,7 @@ status
 {
 locname
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3635,7 +3635,7 @@ if
 nameinfo
 !
 =
-NULL
+nullptr
 )
 {
 nameinfo
@@ -3711,7 +3711,7 @@ setToBogus
 )
 ;
 const
-UChar
+char16_t
 *
 uID
 =
@@ -3728,7 +3728,7 @@ if
 uID
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3798,7 +3798,7 @@ name
 Try
 meta
 zone
-UChar
+char16_t
 mzIDBuf
 [
 32
@@ -3849,7 +3849,7 @@ int32_t
 raw
 sav
 ;
-UChar
+char16_t
 tmpNameBuf
 [
 ZONE_NAME_U16_MAX
@@ -3918,7 +3918,7 @@ BasicTimeZone
 *
 btz
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3932,7 +3932,7 @@ tmptz
 )
 !
 =
-NULL
+nullptr
 |
 |
 dynamic_cast
@@ -3945,7 +3945,7 @@ tmptz
 )
 !
 =
-NULL
+nullptr
 |
 |
 dynamic_cast
@@ -3958,7 +3958,7 @@ tmptz
 )
 !
 =
-NULL
+nullptr
 |
 |
 dynamic_cast
@@ -3971,7 +3971,7 @@ tmptz
 )
 !
 =
-NULL
+nullptr
 )
 {
 btz
@@ -3988,7 +3988,7 @@ if
 btz
 !
 =
-NULL
+nullptr
 )
 {
 TimeZoneTransition
@@ -4338,7 +4338,7 @@ generic
 name
 below
 .
-UChar
+char16_t
 genNameBuf
 [
 ZONE_NAME_U16_MAX
@@ -4473,7 +4473,7 @@ the
 given
 date
 .
-UChar
+char16_t
 idBuf
 [
 32
@@ -4730,11 +4730,11 @@ name
 ;
 }
 const
-UChar
+char16_t
 *
 uplname
 =
-NULL
+nullptr
 ;
 TZGNCore
 *
@@ -4781,7 +4781,7 @@ if
 uplname
 =
 =
-NULL
+nullptr
 )
 {
 name
@@ -4826,7 +4826,7 @@ lock
 *
 /
 const
-UChar
+char16_t
 *
 TZGNCore
 :
@@ -4919,7 +4919,7 @@ key
 tzID
 !
 =
-NULL
+nullptr
 &
 &
 key
@@ -4927,17 +4927,17 @@ key
 mzID
 !
 =
-NULL
+nullptr
 )
 ;
 const
-UChar
+char16_t
 *
 uplname
 =
 (
 const
-UChar
+char16_t
 *
 )
 uhash_get
@@ -4956,7 +4956,7 @@ if
 uplname
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -5187,7 +5187,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uplname
@@ -5236,7 +5236,7 @@ if
 cacheKey
 !
 =
-NULL
+nullptr
 )
 {
 cacheKey
@@ -5331,7 +5331,7 @@ if
 nameinfo
 !
 =
-NULL
+nullptr
 )
 {
 nameinfo
@@ -5481,7 +5481,7 @@ status
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5633,7 +5633,7 @@ if
 mzIDs
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -5792,7 +5792,7 @@ if
 tznamesMatches
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -6284,7 +6284,7 @@ if
 localMatches
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -6511,14 +6511,14 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 TimeZoneGenericNameMatchInfo
 *
 gmatchInfo
 =
-NULL
+nullptr
 ;
 int32_t
 maxLen
@@ -6541,7 +6541,7 @@ if
 results
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -6582,7 +6582,7 @@ if
 gmatchInfo
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6593,7 +6593,7 @@ delete
 results
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -6605,7 +6605,7 @@ if
 results
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -6664,8 +6664,8 @@ TimeZone
 createTimeZoneIDEnumeration
 (
 UCAL_ZONE_TYPE_CANONICAL
-NULL
-NULL
+nullptr
+nullptr
 status
 )
 ;
@@ -6697,7 +6697,7 @@ status
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6727,7 +6727,7 @@ if
 tzIDs
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -6767,7 +6767,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_lock
@@ -6819,7 +6819,7 @@ if
 results
 !
 =
-NULL
+nullptr
 &
 &
 maxLen
@@ -6840,7 +6840,7 @@ if
 gmatchInfo
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6851,7 +6851,7 @@ delete
 results
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6961,7 +6961,7 @@ status
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 typedef
@@ -6996,7 +6996,7 @@ UHashtable
 *
 gTZGNCoreCache
 =
-NULL
+nullptr
 ;
 static
 UBool
@@ -7111,7 +7111,6 @@ UBool
 U_CALLCONV
 tzgnCore_cleanup
 (
-void
 )
 {
 if
@@ -7119,7 +7118,7 @@ if
 gTZGNCoreCache
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -7129,7 +7128,7 @@ gTZGNCoreCache
 ;
 gTZGNCoreCache
 =
-NULL
+nullptr
 ;
 }
 gTZGNCoreCacheInitialized
@@ -7266,7 +7265,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 TZGNCoreRef
@@ -7406,7 +7405,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 TimeZoneGenericNames
@@ -7423,7 +7422,7 @@ if
 instance
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -7431,14 +7430,14 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 TZGNCoreRef
 *
 cacheEntry
 =
-NULL
+nullptr
 ;
 {
 Mutex
@@ -7465,7 +7464,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 status
 )
@@ -7511,7 +7510,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -7555,20 +7554,20 @@ if
 cacheEntry
 =
 =
-NULL
+nullptr
 )
 {
 TZGNCore
 *
 tzgnCore
 =
-NULL
+nullptr
 ;
 char
 *
 newKey
 =
-NULL
+nullptr
 ;
 tzgnCore
 =
@@ -7584,7 +7583,7 @@ if
 tzgnCore
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -7621,7 +7620,7 @@ if
 newKey
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -7666,7 +7665,7 @@ if
 cacheEntry
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -7726,7 +7725,7 @@ if
 tzgnCore
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -7738,7 +7737,7 @@ if
 newKey
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -7752,7 +7751,7 @@ if
 cacheEntry
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -7763,7 +7762,7 @@ cacheEntry
 }
 cacheEntry
 =
-NULL
+nullptr
 ;
 }
 }
@@ -7832,14 +7831,14 @@ if
 cacheEntry
 =
 =
-NULL
+nullptr
 )
 {
 delete
 instance
 ;
 return
-NULL
+nullptr
 ;
 }
 instance

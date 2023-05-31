@@ -141,7 +141,7 @@ ICU
 class
 U_COMMON_API
 CaseMap
-U_FINAL
+final
 :
 public
 UMemory
@@ -212,7 +212,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -318,7 +318,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -392,7 +392,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -553,7 +553,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -659,7 +659,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -733,7 +733,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -939,7 +939,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -1019,7 +1019,7 @@ next
 .
 *
 If
-NULL
+nullptr
 then
 a
 word
@@ -1123,7 +1123,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -1197,7 +1197,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -1495,7 +1495,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -1569,7 +1569,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -1714,7 +1714,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -1819,7 +1819,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -1930,7 +1930,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -2035,7 +2035,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -2191,7 +2191,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -2271,7 +2271,7 @@ next
 .
 *
 If
-NULL
+nullptr
 then
 a
 word
@@ -2374,7 +2374,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -2616,7 +2616,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -2735,7 +2735,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -2841,7 +2841,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -2915,7 +2915,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -3076,7 +3076,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -3182,7 +3182,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -3256,7 +3256,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -3462,7 +3462,7 @@ ID
 =
 root
 locale
-NULL
+nullptr
 =
 default
 locale
@@ -3542,7 +3542,7 @@ next
 .
 *
 If
-NULL
+nullptr
 then
 a
 word
@@ -3646,7 +3646,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -3720,7 +3720,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param
@@ -4015,7 +4015,7 @@ then
 dest
 may
 be
-NULL
+nullptr
 and
 the
 function
@@ -4089,7 +4089,7 @@ U_EDITS_NO_RESET
 edits
 can
 be
-NULL
+nullptr
 .
 *
 param

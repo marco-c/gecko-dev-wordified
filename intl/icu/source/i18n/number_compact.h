@@ -147,10 +147,10 @@ int32_t
 magnitude
 )
 const
-U_OVERRIDE
+override
 ;
 const
-UChar
+char16_t
 *
 getPattern
 (
@@ -182,7 +182,7 @@ const
 private
 :
 const
-UChar
+char16_t
 *
 patterns
 [
@@ -254,7 +254,7 @@ UErrorCode
 &
 status
 )
-U_OVERRIDE
+override
 ;
 private
 :
@@ -275,7 +275,7 @@ ImmutablePatternModifier
 mod
 ;
 const
-UChar
+char16_t
 *
 patternString
 ;
@@ -327,7 +327,7 @@ status
 CompactHandler
 (
 )
-U_OVERRIDE
+override
 ;
 void
 processQuantity
@@ -343,7 +343,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

@@ -188,7 +188,7 @@ Destructor
 LocalizedNumberFormatterAsFormat
 (
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -210,7 +210,7 @@ Format
 other
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -231,7 +231,7 @@ clone
 (
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -276,7 +276,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -321,7 +321,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -354,7 +354,7 @@ ParsePosition
 parse_pos
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -494,7 +494,7 @@ getDynamicClassID
 (
 )
 const
-U_OVERRIDE
+override
 ;
 static
 UClassID

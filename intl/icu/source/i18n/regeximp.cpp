@@ -123,7 +123,7 @@ text
 )
 fFoldChars
 (
-NULL
+nullptr
 )
 fFoldLength
 (
@@ -159,7 +159,7 @@ if
 fFoldChars
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -283,7 +283,7 @@ fFoldLength
 ;
 fFoldChars
 =
-NULL
+nullptr
 ;
 return
 foldedC
@@ -320,7 +320,7 @@ fFoldLength
 {
 fFoldChars
 =
-NULL
+nullptr
 ;
 }
 return
@@ -339,7 +339,7 @@ return
 fFoldChars
 !
 =
-NULL
+nullptr
 ;
 }
 CaseFoldingUCharIterator
@@ -348,7 +348,7 @@ CaseFoldingUCharIterator
 CaseFoldingUCharIterator
 (
 const
-UChar
+char16_t
 *
 chars
 int64_t
@@ -371,7 +371,7 @@ limit
 )
 fFoldChars
 (
-NULL
+nullptr
 )
 fFoldLength
 (
@@ -407,7 +407,7 @@ if
 fFoldChars
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -531,7 +531,7 @@ fFoldLength
 ;
 fFoldChars
 =
-NULL
+nullptr
 ;
 return
 foldedC
@@ -568,7 +568,7 @@ fFoldLength
 {
 fFoldChars
 =
-NULL
+nullptr
 ;
 }
 return
@@ -587,7 +587,7 @@ return
 fFoldChars
 !
 =
-NULL
+nullptr
 ;
 }
 int64_t

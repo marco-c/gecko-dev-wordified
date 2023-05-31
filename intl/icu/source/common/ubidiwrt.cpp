@@ -606,12 +606,12 @@ int32_t
 doWriteForward
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -803,7 +803,7 @@ remaining
 =
 destSize
 ;
-UChar
+char16_t
 c
 ;
 do
@@ -1071,12 +1071,12 @@ int32_t
 doWriteReverse
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1689,7 +1689,7 @@ length
 =
 srcLength
 ;
-UChar
+char16_t
 ch
 ;
 i
@@ -1987,12 +1987,12 @@ U_EXPORT2
 ubidi_writeReverse
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcLength
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2012,7 +2012,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2038,7 +2038,7 @@ if
 src
 =
 =
-NULL
+nullptr
 |
 |
 srcLength
@@ -2061,7 +2061,7 @@ destSize
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -2089,7 +2089,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -2313,7 +2313,7 @@ ubidi_writeReordered
 UBiDi
 *
 pBiDi
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2326,11 +2326,11 @@ pErrorCode
 )
 {
 const
-UChar
+char16_t
 *
 text
 ;
-UChar
+char16_t
 *
 saveDest
 ;
@@ -2349,7 +2349,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2375,7 +2375,7 @@ if
 pBiDi
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -2388,7 +2388,7 @@ text
 )
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -2417,7 +2417,7 @@ destSize
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -2445,7 +2445,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -2961,7 +2961,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -3002,11 +3002,11 @@ pBiDi
 dirProps
 ;
 const
-UChar
+char16_t
 *
 src
 ;
-UChar
+char16_t
 uc
 ;
 UBiDiDirection
@@ -3213,7 +3213,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -3450,7 +3450,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -3669,7 +3669,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -3710,7 +3710,7 @@ pBiDi
 dirProps
 ;
 const
-UChar
+char16_t
 *
 src
 ;
@@ -3835,7 +3835,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -3956,7 +3956,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 )
 {
 dest

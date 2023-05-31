@@ -309,7 +309,7 @@ h
 "
 static
 const
-UChar
+char16_t
 CURR_ID
 [
 ]
@@ -514,7 +514,7 @@ if
 result
 !
 =
-NULL
+nullptr
 &
 &
 getFilter

@@ -413,7 +413,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 toTempString
@@ -423,7 +423,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 Appendable
 &
@@ -437,7 +437,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UBool
 nextPosition
@@ -450,7 +450,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 /
@@ -813,6 +813,27 @@ FormattedValueStringBuilderImpl
 (
 )
 ;
+FormattedValueStringBuilderImpl
+(
+FormattedValueStringBuilderImpl
+&
+&
+)
+=
+default
+;
+FormattedValueStringBuilderImpl
+&
+operator
+=
+(
+FormattedValueStringBuilderImpl
+&
+&
+)
+=
+default
+;
 /
 /
 Implementation
@@ -830,7 +851,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 toTempString
@@ -840,7 +861,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 Appendable
 &
@@ -854,7 +875,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UBool
 nextPosition
@@ -867,7 +888,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 /
@@ -1263,7 +1284,7 @@ Name
 &
 src
 )
-U_NOEXCEPT
+noexcept
 \
 :
 fData
@@ -1329,7 +1350,7 @@ Name
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 \
 delete

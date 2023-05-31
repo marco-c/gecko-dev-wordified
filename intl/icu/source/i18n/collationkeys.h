@@ -518,7 +518,7 @@ return
 buffer_
 !
 =
-NULL
+nullptr
 ;
 }
 protected
@@ -558,7 +558,7 @@ SetNotOk
 {
 buffer_
 =
-NULL
+nullptr
 ;
 capacity_
 =

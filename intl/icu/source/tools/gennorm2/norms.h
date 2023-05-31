@@ -1342,7 +1342,7 @@ Norm
 &
 norm
 )
-U_OVERRIDE
+override
 ;
 }
 ;
@@ -1406,7 +1406,7 @@ Norm
 &
 norm
 )
-U_OVERRIDE
+override
 ;
 UBool
 didDecompose

@@ -470,7 +470,7 @@ UErrorCode
 status
 )
 ;
-UChar
+char16_t
 getDecimalPoint
 (
 )
@@ -759,7 +759,7 @@ radix
 int16_t
 exponent
 ;
-UChar
+char16_t
 decimalPoint
 ;
 UnicodeString

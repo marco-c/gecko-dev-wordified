@@ -1611,7 +1611,7 @@ an
 error
 occurs
 then
-NULL
+nullptr
 is
 returned
 .

@@ -352,7 +352,7 @@ data
 ;
 data
 =
-NULL
+nullptr
 ;
 pos
 =
@@ -369,7 +369,7 @@ FieldPositionIterator
 :
 data
 (
-NULL
+nullptr
 )
 pos
 (
@@ -395,7 +395,7 @@ rhs
 )
 data
 (
-NULL
+nullptr
 )
 pos
 (
@@ -449,7 +449,7 @@ data
 ;
 data
 =
-NULL
+nullptr
 ;
 pos
 =
@@ -513,7 +513,7 @@ rhs
 data
 =
 =
-NULL
+nullptr
 ;
 }
 return
@@ -599,7 +599,7 @@ adopt
 ;
 adopt
 =
-NULL
+nullptr
 ;
 }
 else
@@ -740,7 +740,7 @@ pos
 adopt
 =
 =
-NULL
+nullptr
 ?
 -
 1

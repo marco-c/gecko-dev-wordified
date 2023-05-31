@@ -804,7 +804,7 @@ symbols
 ;
 static
 const
-UChar
+char16_t
 INTL_CURRENCY_SYMBOL_STR
 [
 ]
@@ -864,7 +864,7 @@ decimal
 "
 group
 "
-NULL
+nullptr
 /
 *
 #
@@ -886,7 +886,7 @@ symbol
 "
 percentSign
 "
-NULL
+nullptr
 /
 *
 Native
@@ -905,7 +905,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 Pattern
@@ -929,7 +929,7 @@ minusSign
 "
 plusSign
 "
-NULL
+nullptr
 /
 *
 currency
@@ -947,7 +947,7 @@ from
 CLDR
 *
 /
-NULL
+nullptr
 /
 *
 intl
@@ -975,7 +975,7 @@ exponential
 "
 perMille
 "
-NULL
+nullptr
 /
 *
 Escape
@@ -993,7 +993,7 @@ infinity
 "
 nan
 "
-NULL
+nullptr
 /
 *
 Significant
@@ -1008,7 +1008,7 @@ CLDR
 "
 currencyGroup
 "
-NULL
+nullptr
 /
 *
 one
@@ -1022,7 +1022,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 two
@@ -1036,7 +1036,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 three
@@ -1050,7 +1050,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 four
@@ -1064,7 +1064,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 five
@@ -1078,7 +1078,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 six
@@ -1092,7 +1092,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 seven
@@ -1106,7 +1106,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 eight
@@ -1120,7 +1120,7 @@ numbering
 system
 *
 /
-NULL
+nullptr
 /
 *
 nine
@@ -1229,10 +1229,6 @@ UObject
 locale
 (
 )
-currPattern
-(
-NULL
-)
 {
 initialize
 (
@@ -1316,10 +1312,6 @@ locale
 (
 loc
 )
-currPattern
-(
-NULL
-)
 {
 initialize
 (
@@ -1353,10 +1345,6 @@ locale
 (
 loc
 )
-currPattern
-(
-NULL
-)
 {
 initialize
 (
@@ -1386,10 +1374,6 @@ Locale
 getRoot
 (
 )
-)
-currPattern
-(
-NULL
 )
 {
 *
@@ -1426,7 +1410,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 DecimalFormatSymbols
@@ -1443,7 +1427,7 @@ if
 sym
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1779,6 +1763,14 @@ currPattern
 rhs
 .
 currPattern
+;
+uprv_strcpy
+(
+nsName
+rhs
+.
+nsName
+)
 ;
 }
 return
@@ -2328,7 +2320,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 &
 &
 uprv_strcmp
@@ -3296,6 +3288,15 @@ nsName
 gLatn
 ;
 }
+uprv_strcpy
+(
+this
+-
+>
+nsName
+nsName
+)
+;
 /
 /
 Open
@@ -3317,7 +3318,7 @@ resource
 (
 ures_open
 (
-NULL
+nullptr
 locStr
 &
 status
@@ -3335,7 +3336,7 @@ getAlias
 (
 )
 gNumberElements
-NULL
+nullptr
 &
 status
 )
@@ -3767,7 +3768,7 @@ t
 propagate
 failures
 out
-UChar
+char16_t
 curriso
 [
 4
@@ -3922,7 +3923,7 @@ kDecimalSeparatorSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x2e
 ;
@@ -3955,7 +3956,7 @@ kPatternSeparatorSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x3b
 ;
@@ -3972,7 +3973,7 @@ kPercentSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x25
 ;
@@ -3989,7 +3990,7 @@ kZeroDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x30
 ;
@@ -4007,7 +4008,7 @@ kOneDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x31
 ;
@@ -4025,7 +4026,7 @@ kTwoDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x32
 ;
@@ -4043,7 +4044,7 @@ kThreeDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x33
 ;
@@ -4061,7 +4062,7 @@ kFourDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x34
 ;
@@ -4079,7 +4080,7 @@ kFiveDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x35
 ;
@@ -4097,7 +4098,7 @@ kSixDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x36
 ;
@@ -4115,7 +4116,7 @@ kSevenDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x37
 ;
@@ -4133,7 +4134,7 @@ kEightDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x38
 ;
@@ -4151,7 +4152,7 @@ kNineDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x39
 ;
@@ -4169,7 +4170,7 @@ kDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x23
 ;
@@ -4186,7 +4187,7 @@ kPlusSignSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x002b
 ;
@@ -4203,7 +4204,7 @@ kMinusSignSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x2d
 ;
@@ -4220,7 +4221,7 @@ kCurrencySymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0xa4
 ;
@@ -4249,7 +4250,7 @@ kMonetarySeparatorSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x2e
 ;
@@ -4267,7 +4268,7 @@ kExponentialSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x45
 ;
@@ -4283,7 +4284,7 @@ kPerMillSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x2030
 ;
@@ -4301,7 +4302,7 @@ kPadEscapeSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x2a
 ;
@@ -4319,7 +4320,7 @@ kInfinitySymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x221e
 ;
@@ -4335,7 +4336,7 @@ kNaNSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0xfffd
 ;
@@ -4349,7 +4350,7 @@ kSignificantDigitSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0x0040
 ;
@@ -4376,7 +4377,7 @@ kExponentMultiplicationSymbol
 ]
 =
 (
-UChar
+char16_t
 )
 0xd7
 ;
@@ -4438,6 +4439,13 @@ currPattern
 =
 nullptr
 ;
+nsName
+[
+0
+]
+=
+0
+;
 }
 void
 DecimalFormatSymbols
@@ -4446,7 +4454,7 @@ DecimalFormatSymbols
 setCurrency
 (
 const
-UChar
+char16_t
 *
 currency
 UErrorCode
@@ -4621,7 +4629,7 @@ getAlias
 "
 Currencies
 "
-NULL
+nullptr
 &
 localStatus
 )

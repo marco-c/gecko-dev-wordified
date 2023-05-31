@@ -563,7 +563,7 @@ will
 be
 set
 to
-NULL
+nullptr
 *
 /
 virtual

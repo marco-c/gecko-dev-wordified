@@ -1082,7 +1082,7 @@ but
 newNode
 =
 =
-NULL
+nullptr
 .
 *
 return
@@ -1180,7 +1180,7 @@ but
 newNode
 =
 =
-NULL
+nullptr
 .
 *
 return
@@ -1261,7 +1261,7 @@ If
 they
 get
 a
-NULL
+nullptr
 pointer
 they
 will
@@ -1277,11 +1277,11 @@ a
 failure
 they
 return
-NULL
+nullptr
 .
 *
 *
-NULL
+nullptr
 Node
 pointers
 can
@@ -1307,7 +1307,7 @@ which
 checks
 for
 a
-NULL
+nullptr
 pointer
 first
 .
@@ -1443,7 +1443,7 @@ Handles
 node
 =
 =
-NULL
+nullptr
 .
 static
 inline
@@ -1460,7 +1460,7 @@ return
 node
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -2557,7 +2557,7 @@ equal
 length
 ]
 =
-NULL
+nullptr
 ;
 values
 [
@@ -2664,7 +2664,7 @@ kMaxBranchLinearSubNodeLength
 ;
 /
 /
-NULL
+nullptr
 means
 "
 has

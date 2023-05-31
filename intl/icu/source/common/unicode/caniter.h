@@ -889,7 +889,7 @@ ICU
 class
 U_COMMON_API
 CanonicalIterator
-U_FINAL
+final
 :
 public
 UObject

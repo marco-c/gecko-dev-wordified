@@ -404,7 +404,7 @@ h
 U_NAMESPACE_BEGIN
 static
 const
-UChar
+char16_t
 ID_DELIM
 =
 0x003B
@@ -414,7 +414,7 @@ ID_DELIM
 ;
 static
 const
-UChar
+char16_t
 TARGET_SEP
 =
 0x002D
@@ -424,7 +424,7 @@ TARGET_SEP
 -
 static
 const
-UChar
+char16_t
 VARIANT_SEP
 =
 0x002F
@@ -434,7 +434,7 @@ VARIANT_SEP
 /
 static
 const
-UChar
+char16_t
 OPEN_REV
 =
 0x0028
@@ -444,7 +444,7 @@ OPEN_REV
 (
 static
 const
-UChar
+char16_t
 CLOSE_REV
 =
 0x0029
@@ -456,7 +456,7 @@ CLOSE_REV
 /
 static
 const
-UChar
+char16_t
 EMPTY
 [
 ]
@@ -471,7 +471,7 @@ EMPTY
 "
 static
 const
-UChar
+char16_t
 ANY
 [
 ]
@@ -490,7 +490,7 @@ Any
 "
 static
 const
-UChar
+char16_t
 ANY_NULL
 [
 ]
@@ -533,7 +533,7 @@ Hashtable
 *
 SPECIAL_INVERSES
 =
-NULL
+nullptr
 ;
 static
 UInitOnce
@@ -728,7 +728,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -906,7 +906,7 @@ a
 SingleID
 object
 or
-NULL
+nullptr
 *
 /
 TransliteratorIDParser
@@ -973,13 +973,13 @@ Specs
 *
 specsA
 =
-NULL
+nullptr
 ;
 Specs
 *
 specsB
 =
-NULL
+nullptr
 ;
 UBool
 sawParen
@@ -1062,7 +1062,7 @@ if
 specsA
 =
 =
-NULL
+nullptr
 )
 {
 pos
@@ -1070,7 +1070,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1128,7 +1128,7 @@ if
 specsB
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -1151,7 +1151,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1209,13 +1209,13 @@ if
 b
 =
 =
-NULL
+nullptr
 |
 |
 single
 =
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1229,7 +1229,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 single
@@ -1260,7 +1260,7 @@ if
 specsA
 !
 =
-NULL
+nullptr
 )
 {
 single
@@ -1310,13 +1310,13 @@ if
 a
 =
 =
-NULL
+nullptr
 |
 |
 single
 =
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1330,7 +1330,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 single
@@ -1361,7 +1361,7 @@ if
 specsB
 !
 =
-NULL
+nullptr
 )
 {
 single
@@ -1389,7 +1389,7 @@ assert
 specsA
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -1425,7 +1425,7 @@ if
 single
 =
 =
-NULL
+nullptr
 )
 {
 single
@@ -1442,14 +1442,14 @@ REVERSE
 /
 Check
 for
-NULL
+nullptr
 pointer
 if
 (
 single
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1457,7 +1457,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 single
@@ -1609,7 +1609,7 @@ if
 specs
 =
 =
-NULL
+nullptr
 )
 {
 pos
@@ -1617,7 +1617,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1640,7 +1640,7 @@ if
 single
 !
 =
-NULL
+nullptr
 )
 {
 single
@@ -1844,7 +1844,7 @@ character
 .
 May
 be
-NULL
+nullptr
 .
 *
 return
@@ -1852,12 +1852,12 @@ a
 UnicodeSet
 object
 or
-NULL
+nullptr
 .
 A
 non
 -
-NULL
+nullptr
 results
 *
 indicates
@@ -1923,7 +1923,7 @@ UnicodeSet
 *
 filter
 =
-NULL
+nullptr
 ;
 int32_t
 start
@@ -1984,7 +1984,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2029,7 +2029,7 @@ UnicodeSet
 id
 ppos
 USET_IGNORE_SPACE
-NULL
+nullptr
 ec
 )
 ;
@@ -2037,7 +2037,7 @@ ec
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -2072,7 +2072,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -2127,7 +2127,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2179,7 +2179,7 @@ if
 canonID
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2480,7 +2480,7 @@ this
 direction
 or
 *
-NULL
+nullptr
 if
 there
 is
@@ -2573,7 +2573,7 @@ filter
 ;
 globalFilter
 =
-NULL
+nullptr
 ;
 canonID
 .
@@ -2615,7 +2615,7 @@ if
 filter
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2675,7 +2675,7 @@ filter
 }
 filter
 =
-NULL
+nullptr
 ;
 }
 UBool
@@ -2706,7 +2706,7 @@ if
 single
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -2917,7 +2917,7 @@ if
 filter
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2966,7 +2966,7 @@ filter
 }
 filter
 =
-NULL
+nullptr
 ;
 }
 }
@@ -3035,7 +3035,7 @@ globalFilter
 ;
 globalFilter
 =
-NULL
+nullptr
 ;
 return
 false
@@ -3087,7 +3087,7 @@ entries
 are
 removed
 the
-NULL
+nullptr
 transliterator
 will
 be
@@ -3356,7 +3356,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -3398,7 +3398,7 @@ is
 equivalent
 to
 a
-NULL
+nullptr
 transliterator
 .
 if
@@ -3423,7 +3423,7 @@ true
 ANY_NULL
 8
 )
-NULL
+nullptr
 )
 ;
 if
@@ -3431,7 +3431,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -3637,7 +3637,7 @@ and
 isSourcePresent
 will
 be
-NULL
+nullptr
 .
 Otherwise
 *
@@ -3646,7 +3646,7 @@ will
 be
 non
 -
-NULL
+nullptr
 .
 The
 target
@@ -4128,7 +4128,7 @@ id
 append
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -4537,7 +4537,7 @@ if
 tempus
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4575,7 +4575,7 @@ if
 tempus
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4875,7 +4875,7 @@ a
 Specs
 object
 or
-NULL
+nullptr
 if
 the
 parse
@@ -4922,7 +4922,7 @@ returned
 filter
 reference
 is
-NULL
+nullptr
 .
 If
 the
@@ -4932,7 +4932,7 @@ for
 any
 reason
 *
-NULL
+nullptr
 is
 returned
 .
@@ -4974,7 +4974,7 @@ variant
 UnicodeString
 filter
 ;
-UChar
+char16_t
 delimiter
 =
 0
@@ -5109,7 +5109,7 @@ set
 id
 ppos
 USET_IGNORE_SPACE
-NULL
+nullptr
 ec
 )
 ;
@@ -5126,7 +5126,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 id
@@ -5161,7 +5161,7 @@ delimiter
 0
 )
 {
-UChar
+char16_t
 c
 =
 id
@@ -5478,7 +5478,7 @@ pos
 start
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -5598,7 +5598,7 @@ SingleID
 ;
 never
 returns
-NULL
+nullptr
 .
 Returned
 object
@@ -5610,7 +5610,7 @@ filter
 '
 field
 of
-NULL
+nullptr
 .
 *
 /
@@ -5646,7 +5646,7 @@ if
 specs
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -5850,14 +5850,14 @@ inverse
 *
 then
 return
-NULL
+nullptr
 .
 *
 return
 a
 SingleID
 or
-NULL
+nullptr
 .
 Returned
 object
@@ -5869,7 +5869,7 @@ filter
 '
 field
 of
-NULL
+nullptr
 .
 *
 /
@@ -5910,7 +5910,7 @@ U_FOLD_CASE_DEFAULT
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_initOnce
@@ -5929,7 +5929,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -5969,7 +5969,7 @@ if
 inverseTarget
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6158,7 +6158,7 @@ basicID
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -6256,7 +6256,7 @@ U_ASSERT
 SPECIAL_INVERSES
 =
 =
-NULL
+nullptr
 )
 ;
 ucln_i18n_registerCleanup
@@ -6279,7 +6279,7 @@ if
 SPECIAL_INVERSES
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6326,7 +6326,7 @@ SPECIAL_INVERSES
 ;
 SPECIAL_INVERSES
 =
-NULL
+nullptr
 ;
 }
 gSpecialInversesInitOnce

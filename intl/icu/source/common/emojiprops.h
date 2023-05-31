@@ -150,7 +150,7 @@ UBool
 hasBinaryProperty
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -393,7 +393,7 @@ UBool
 hasBinaryPropertyImpl
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -416,7 +416,7 @@ cpTrie
 nullptr
 ;
 const
-UChar
+char16_t
 *
 stringTries
 [

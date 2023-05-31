@@ -1908,6 +1908,10 @@ category
 "
 brkitr_lstm
 "
+and
+"
+brkitr_adaboost
+"
 as
 "
 exclude
@@ -1919,6 +1923,13 @@ now
 if
 "
 brkitr_lstm
+"
+=
+=
+category
+or
+"
+brkitr_adaboost
 "
 =
 =

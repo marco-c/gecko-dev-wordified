@@ -680,7 +680,7 @@ UnicodeSet
 *
 setToAdopt
 =
-NULL
+nullptr
 )
 ;
 UChar32

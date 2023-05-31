@@ -2504,7 +2504,7 @@ points
 to
 non
 -
-NULL
+nullptr
 <
 code
 >

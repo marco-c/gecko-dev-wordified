@@ -699,7 +699,7 @@ Return
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -741,7 +741,7 @@ or
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -799,7 +799,7 @@ Return
 <
 tt
 >
-NULL
+nullptr
 <
 /
 tt
@@ -835,7 +835,7 @@ given
 *
 character
 or
-NULL
+nullptr
 if
 there
 is

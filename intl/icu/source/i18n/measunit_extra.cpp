@@ -881,7 +881,7 @@ unitsBundle
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 units
 "
@@ -1490,7 +1490,7 @@ int32_t
 len
 ;
 const
-UChar
+char16_t
 *
 uTarget
 =
@@ -1697,7 +1697,7 @@ in
 order
 into
 a
-UChar
+char16_t
 *
 array
 while
@@ -1720,7 +1720,7 @@ index
 into
 the
 aforementioned
-UChar
+char16_t
 *
 array
 .
@@ -1748,7 +1748,7 @@ param
 out
 Array
 of
-UChar
+char16_t
 *
 to
 which
@@ -1824,7 +1824,7 @@ explicit
 CategoriesSink
 (
 const
-UChar
+char16_t
 *
 *
 out
@@ -2036,7 +2036,7 @@ outIndex
 private
 :
 const
-UChar
+char16_t
 *
 *
 outQuantitiesArray
@@ -2164,7 +2164,7 @@ nullptr
 /
 Array
 of
-UChar
+char16_t
 *
 pointing
 at
@@ -2204,7 +2204,7 @@ pointer
 but
 the
 individual
-UChar
+char16_t
 *
 in
 that
@@ -2217,7 +2217,7 @@ static
 memory
 .
 const
-UChar
+char16_t
 *
 *
 gCategories
@@ -2410,7 +2410,7 @@ quantitiesMallocSize
 =
 sizeof
 (
-UChar
+char16_t
 *
 )
 *
@@ -2421,7 +2421,7 @@ gCategories
 static_cast
 <
 const
-UChar
+char16_t
 *
 *
 >
@@ -6007,6 +6007,7 @@ UErrorCode
 status
 )
 const
+UPRV_NO_SANITIZE_UNDEFINED
 {
 int32_t
 absPower
@@ -7633,6 +7634,7 @@ UErrorCode
 status
 )
 const
+UPRV_NO_SANITIZE_UNDEFINED
 {
 SingleUnitImpl
 singleUnit

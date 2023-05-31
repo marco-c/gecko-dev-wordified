@@ -1871,7 +1871,7 @@ to
 be
 non
 -
-NULL
+nullptr
 .
 *
 If
@@ -1974,7 +1974,7 @@ area
 code
 .
 When
-NULL
+nullptr
 no
 filtering
 *
@@ -2004,7 +2004,7 @@ any
 .
 *
 When
-NULL
+nullptr
 no
 filtering
 done
@@ -2643,7 +2643,7 @@ letter
 country
 code
 or
-NULL
+nullptr
 to
 *
 retrieve
@@ -2755,7 +2755,7 @@ letter
 country
 code
 or
-NULL
+nullptr
 to
 *
 retrieve
@@ -3583,7 +3583,7 @@ time
 zone
 .
 If
-NULL
+nullptr
 is
 specified
 for
@@ -4639,7 +4639,7 @@ ID
 param
 region
 A
-null
+NUL
 -
 terminated
 region
@@ -4648,7 +4648,7 @@ or
 <
 code
 >
-NULL
+nullptr
 <
 /
 code
@@ -8256,7 +8256,7 @@ bundle
 to
 reuse
 or
-NULL
+nullptr
 *
 param
 status
@@ -8403,7 +8403,7 @@ the
 ID
 resource
 or
-NULL
+nullptr
 .
 *
 /
@@ -8479,7 +8479,7 @@ then
 it
 returns
 *
-NULL
+nullptr
 .
 *
 param
@@ -8493,7 +8493,7 @@ the
 dereferenced
 zone
 or
-NULL
+nullptr
 *
 /
 static
@@ -8523,7 +8523,7 @@ given
 zone
 *
 or
-NULL
+nullptr
 if
 the
 zone
@@ -8580,7 +8580,7 @@ given
 zone
 *
 or
-NULL
+nullptr
 if
 the
 zone

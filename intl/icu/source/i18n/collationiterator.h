@@ -728,7 +728,7 @@ cesIndex
 )
 skipped
 (
-NULL
+nullptr
 )
 numCpFwd
 (
@@ -1660,7 +1660,7 @@ advance
 *
 /
 virtual
-UChar
+char16_t
 handleGetTrailSurrogate
 (
 )
@@ -1957,7 +1957,7 @@ d
 uint32_t
 contractionCE32
 const
-UChar
+char16_t
 *
 p
 uint32_t

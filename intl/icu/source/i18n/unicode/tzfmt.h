@@ -3740,7 +3740,7 @@ the
 display
 name
 or
-NULL
+nullptr
 if
 the
 information
@@ -3789,7 +3789,7 @@ UTimeZoneFormatTimeType
 *
 timeType
 =
-NULL
+nullptr
 )
 const
 ;
@@ -4284,7 +4284,7 @@ unknown
 )
 *
 or
-NULL
+nullptr
 if
 the
 information
@@ -4348,7 +4348,7 @@ UTimeZoneFormatTimeType
 *
 timeType
 =
-NULL
+nullptr
 )
 const
 ;
@@ -4436,7 +4436,7 @@ unknown
 )
 *
 or
-NULL
+nullptr
 if
 the
 information
@@ -4497,7 +4497,7 @@ UTimeZoneFormatTimeType
 *
 timeType
 =
-NULL
+nullptr
 )
 const
 ;
@@ -4887,7 +4887,7 @@ Formattable
 *
 object
 or
-NULL
+nullptr
 on
 failure
 .
@@ -5735,7 +5735,7 @@ of
 GMTOffsetField
 objects
 or
-NULL
+nullptr
 on
 error
 .
@@ -6413,7 +6413,7 @@ UBool
 *
 hasDigitOffset
 =
-NULL
+nullptr
 )
 const
 ;

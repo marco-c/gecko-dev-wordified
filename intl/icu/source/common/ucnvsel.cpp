@@ -775,7 +775,7 @@ j
 start_char
 &
 end_char
-NULL
+nullptr
 0
 &
 smallStatus
@@ -921,7 +921,7 @@ j
 start_char
 &
 end_char
-NULL
+nullptr
 0
 status
 )
@@ -1020,7 +1020,7 @@ result
 -
 >
 pvCount
-NULL
+nullptr
 status
 )
 ;
@@ -1067,7 +1067,7 @@ converters
 If
 excludedCodePoints
 is
-NULL
+nullptr
 don
 '
 t
@@ -1118,7 +1118,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1139,7 +1139,7 @@ converterListSize
 converterList
 =
 =
-NULL
+nullptr
 &
 &
 converterListSize
@@ -1155,7 +1155,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1195,7 +1195,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memset
@@ -1222,7 +1222,7 @@ converterListSize
 {
 converterList
 =
-NULL
+nullptr
 ;
 converterListSize
 =
@@ -1267,7 +1267,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 newSelector
@@ -1278,7 +1278,7 @@ encodings
 0
 ]
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1334,7 +1334,7 @@ uprv_strlen
 converterList
 !
 =
-NULL
+nullptr
 ?
 converterList
 [
@@ -1424,7 +1424,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 for
@@ -1464,7 +1464,7 @@ i
 converterList
 !
 =
-NULL
+nullptr
 ?
 converterList
 [
@@ -1571,7 +1571,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1955,7 +1955,7 @@ bufferCapacity
 p
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -2000,7 +2000,7 @@ sel
 -
 >
 trie
-NULL
+nullptr
 0
 status
 )
@@ -3174,7 +3174,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3214,7 +3214,7 @@ length
 p
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -3237,7 +3237,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3266,7 +3266,7 @@ status
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -3381,7 +3381,7 @@ status
 U_INVALID_FORMAT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3406,14 +3406,14 @@ status
 U_UNSUPPORTED_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uint8_t
 *
 swapped
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3466,7 +3466,7 @@ ds
 p
 -
 1
-NULL
+nullptr
 status
 )
 ;
@@ -3485,7 +3485,7 @@ ds
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3506,7 +3506,7 @@ status
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 swapped
@@ -3525,7 +3525,7 @@ if
 swapped
 =
 =
-NULL
+nullptr
 )
 {
 udata_closeSwapper
@@ -3539,7 +3539,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 ucnvsel_swap
@@ -3571,7 +3571,7 @@ swapped
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 p
@@ -3629,7 +3629,7 @@ status
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 p
@@ -3688,7 +3688,7 @@ status
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 p
@@ -3751,13 +3751,13 @@ if
 sel
 =
 =
-NULL
+nullptr
 |
 |
 encodings
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -3781,7 +3781,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memset
@@ -3854,7 +3854,7 @@ indexes
 [
 UCNVSEL_INDEX_TRIE_SIZE
 ]
-NULL
+nullptr
 status
 )
 ;
@@ -3881,7 +3881,7 @@ sel
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -4146,7 +4146,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int16_t
@@ -4201,7 +4201,7 @@ length
 )
 {
 return
-NULL
+nullptr
 ;
 }
 sel
@@ -4345,8 +4345,8 @@ UEnumeration
 defaultEncodings
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 ucnvsel_close_selector_iterator
 ucnvsel_count_encodings
 uenum_unextDefault
@@ -4940,7 +4940,7 @@ otherwise
 index
 will
 remain
-NULL
+nullptr
 (
 and
 will
@@ -4998,7 +4998,7 @@ UConverterSelector
 *
 sel
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -5024,7 +5024,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -5039,14 +5039,14 @@ if
 sel
 =
 =
-NULL
+nullptr
 |
 |
 (
 s
 =
 =
-NULL
+nullptr
 &
 &
 length
@@ -5062,7 +5062,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -5099,7 +5099,7 @@ if
 mask
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5108,7 +5108,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memset
@@ -5126,11 +5126,11 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 const
-UChar
+char16_t
 *
 limit
 ;
@@ -5153,7 +5153,7 @@ else
 {
 limit
 =
-NULL
+nullptr
 ;
 }
 while
@@ -5161,7 +5161,7 @@ while
 limit
 =
 =
-NULL
+nullptr
 ?
 *
 s
@@ -5272,7 +5272,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -5287,14 +5287,14 @@ if
 sel
 =
 =
-NULL
+nullptr
 |
 |
 (
 s
 =
 =
-NULL
+nullptr
 &
 &
 length
@@ -5310,7 +5310,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -5347,7 +5347,7 @@ if
 mask
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5356,7 +5356,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memset
@@ -5392,7 +5392,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 const

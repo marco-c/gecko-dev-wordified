@@ -360,7 +360,7 @@ define
 DOT
 (
 (
-UChar
+char16_t
 )
 0x002E
 )
@@ -369,7 +369,7 @@ define
 SINGLE_QUOTE
 (
 (
-UChar
+char16_t
 )
 0x0027
 )
@@ -378,7 +378,7 @@ define
 SLASH
 (
 (
-UChar
+char16_t
 )
 0x002F
 )
@@ -387,7 +387,7 @@ define
 BACKSLASH
 (
 (
-UChar
+char16_t
 )
 0x005C
 )
@@ -396,7 +396,7 @@ define
 SPACE
 (
 (
-UChar
+char16_t
 )
 0x0020
 )
@@ -405,7 +405,7 @@ define
 TAB
 (
 (
-UChar
+char16_t
 )
 0x0009
 )
@@ -414,7 +414,7 @@ define
 QUOTATION_MARK
 (
 (
-UChar
+char16_t
 )
 0x0022
 )
@@ -423,7 +423,7 @@ define
 ASTERISK
 (
 (
-UChar
+char16_t
 )
 0x002A
 )
@@ -432,7 +432,7 @@ define
 COMMA
 (
 (
-UChar
+char16_t
 )
 0x002C
 )
@@ -441,7 +441,7 @@ define
 HYPHEN
 (
 (
-UChar
+char16_t
 )
 0x002D
 )
@@ -450,7 +450,7 @@ define
 U_ZERO
 (
 (
-UChar
+char16_t
 )
 0x0030
 )
@@ -459,7 +459,7 @@ define
 U_ONE
 (
 (
-UChar
+char16_t
 )
 0x0031
 )
@@ -468,7 +468,7 @@ define
 U_TWO
 (
 (
-UChar
+char16_t
 )
 0x0032
 )
@@ -477,7 +477,7 @@ define
 U_THREE
 (
 (
-UChar
+char16_t
 )
 0x0033
 )
@@ -486,7 +486,7 @@ define
 U_FOUR
 (
 (
-UChar
+char16_t
 )
 0x0034
 )
@@ -495,7 +495,7 @@ define
 U_FIVE
 (
 (
-UChar
+char16_t
 )
 0x0035
 )
@@ -504,7 +504,7 @@ define
 U_SIX
 (
 (
-UChar
+char16_t
 )
 0x0036
 )
@@ -513,7 +513,7 @@ define
 U_SEVEN
 (
 (
-UChar
+char16_t
 )
 0x0037
 )
@@ -522,7 +522,7 @@ define
 U_EIGHT
 (
 (
-UChar
+char16_t
 )
 0x0038
 )
@@ -531,7 +531,7 @@ define
 U_NINE
 (
 (
-UChar
+char16_t
 )
 0x0039
 )
@@ -540,7 +540,7 @@ define
 COLON
 (
 (
-UChar
+char16_t
 )
 0x003A
 )
@@ -549,7 +549,7 @@ define
 SEMI_COLON
 (
 (
-UChar
+char16_t
 )
 0x003B
 )
@@ -558,7 +558,7 @@ define
 CAP_A
 (
 (
-UChar
+char16_t
 )
 0x0041
 )
@@ -567,7 +567,7 @@ define
 CAP_B
 (
 (
-UChar
+char16_t
 )
 0x0042
 )
@@ -576,7 +576,7 @@ define
 CAP_R
 (
 (
-UChar
+char16_t
 )
 0x0052
 )
@@ -585,7 +585,7 @@ define
 CAP_Z
 (
 (
-UChar
+char16_t
 )
 0x005A
 )
@@ -594,7 +594,7 @@ define
 LOWLINE
 (
 (
-UChar
+char16_t
 )
 0x005F
 )
@@ -603,7 +603,7 @@ define
 LEFTBRACE
 (
 (
-UChar
+char16_t
 )
 0x007B
 )
@@ -612,7 +612,7 @@ define
 RIGHTBRACE
 (
 (
-UChar
+char16_t
 )
 0x007D
 )
@@ -621,7 +621,7 @@ define
 LOW_A
 (
 (
-UChar
+char16_t
 )
 0x0061
 )
@@ -630,7 +630,7 @@ define
 LOW_B
 (
 (
-UChar
+char16_t
 )
 0x0062
 )
@@ -639,7 +639,7 @@ define
 LOW_C
 (
 (
-UChar
+char16_t
 )
 0x0063
 )
@@ -648,7 +648,7 @@ define
 LOW_D
 (
 (
-UChar
+char16_t
 )
 0x0064
 )
@@ -657,7 +657,7 @@ define
 LOW_E
 (
 (
-UChar
+char16_t
 )
 0x0065
 )
@@ -666,7 +666,7 @@ define
 LOW_F
 (
 (
-UChar
+char16_t
 )
 0x0066
 )
@@ -675,7 +675,7 @@ define
 LOW_G
 (
 (
-UChar
+char16_t
 )
 0x0067
 )
@@ -684,7 +684,7 @@ define
 LOW_H
 (
 (
-UChar
+char16_t
 )
 0x0068
 )
@@ -693,7 +693,7 @@ define
 LOW_I
 (
 (
-UChar
+char16_t
 )
 0x0069
 )
@@ -702,7 +702,7 @@ define
 LOW_J
 (
 (
-UChar
+char16_t
 )
 0x006a
 )
@@ -711,7 +711,7 @@ define
 LOW_K
 (
 (
-UChar
+char16_t
 )
 0x006B
 )
@@ -720,7 +720,7 @@ define
 LOW_L
 (
 (
-UChar
+char16_t
 )
 0x006C
 )
@@ -729,7 +729,7 @@ define
 LOW_M
 (
 (
-UChar
+char16_t
 )
 0x006D
 )
@@ -738,7 +738,7 @@ define
 LOW_N
 (
 (
-UChar
+char16_t
 )
 0x006E
 )
@@ -747,7 +747,7 @@ define
 LOW_O
 (
 (
-UChar
+char16_t
 )
 0x006F
 )
@@ -756,7 +756,7 @@ define
 LOW_P
 (
 (
-UChar
+char16_t
 )
 0x0070
 )
@@ -765,7 +765,7 @@ define
 LOW_Q
 (
 (
-UChar
+char16_t
 )
 0x0071
 )
@@ -774,7 +774,7 @@ define
 LOW_R
 (
 (
-UChar
+char16_t
 )
 0x0072
 )
@@ -783,7 +783,7 @@ define
 LOW_S
 (
 (
-UChar
+char16_t
 )
 0x0073
 )
@@ -792,7 +792,7 @@ define
 LOW_T
 (
 (
-UChar
+char16_t
 )
 0x0074
 )
@@ -801,7 +801,7 @@ define
 LOW_U
 (
 (
-UChar
+char16_t
 )
 0x0075
 )
@@ -810,7 +810,7 @@ define
 LOW_V
 (
 (
-UChar
+char16_t
 )
 0x0076
 )
@@ -819,7 +819,7 @@ define
 LOW_W
 (
 (
-UChar
+char16_t
 )
 0x0077
 )
@@ -828,7 +828,7 @@ define
 LOW_X
 (
 (
-UChar
+char16_t
 )
 0x0078
 )
@@ -837,7 +837,7 @@ define
 LOW_Y
 (
 (
-UChar
+char16_t
 )
 0x0079
 )
@@ -846,7 +846,7 @@ define
 LOW_Z
 (
 (
-UChar
+char16_t
 )
 0x007A
 )

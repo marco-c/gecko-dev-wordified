@@ -632,7 +632,7 @@ UText
 .
 May
 be
-NULL
+nullptr
 .
 *
 param
@@ -666,7 +666,7 @@ points
 *
 May
 be
-NULL
+nullptr
 .
 *
 param
@@ -686,7 +686,7 @@ found
 *
 May
 be
-NULL
+nullptr
 .
 *
 param
@@ -732,7 +732,7 @@ matched
 .
 May
 be
-NULL
+nullptr
 .
 *
 return
@@ -838,7 +838,7 @@ destruction
 UCharsDictionaryMatcher
 (
 const
-UChar
+char16_t
 *
 c
 UDataMemory
@@ -900,7 +900,7 @@ override
 private
 :
 const
-UChar
+char16_t
 *
 characters
 ;

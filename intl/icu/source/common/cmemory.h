@@ -1628,7 +1628,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -1671,7 +1671,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 LocalPointerBase
 <
@@ -1687,7 +1687,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 }
 /
@@ -1777,7 +1777,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 uprv_free
 (
@@ -1806,7 +1806,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 return
 *
@@ -1838,7 +1838,7 @@ T
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 T
 *
@@ -1920,7 +1920,7 @@ T
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 p1
 .
@@ -2041,7 +2041,7 @@ and
 this
 method
 returns
-NULL
+nullptr
 .
 *
 param
@@ -2057,7 +2057,7 @@ allocated
 array
 pointer
 or
-NULL
+nullptr
 if
 the
 allocation
@@ -2117,7 +2117,7 @@ and
 this
 method
 returns
-NULL
+nullptr
 .
 *
 param
@@ -2177,7 +2177,7 @@ allocated
 array
 pointer
 or
-NULL
+nullptr
 if
 the
 allocation
@@ -2306,7 +2306,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memset
@@ -2350,7 +2350,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2406,7 +2406,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2479,7 +2479,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2673,7 +2673,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -2688,7 +2688,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -2706,7 +2706,7 @@ size_t
 void
 *
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -2893,7 +2893,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -2930,7 +2930,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 /
 *
@@ -3194,7 +3194,7 @@ otherArray
 must
 not
 be
-NULL
+nullptr
 *
 param
 otherCapacity
@@ -3219,7 +3219,7 @@ if
 otherArray
 !
 =
-NULL
+nullptr
 &
 &
 otherCapacity
@@ -3289,7 +3289,7 @@ and
 this
 method
 returns
-NULL
+nullptr
 .
 *
 param
@@ -3335,7 +3335,7 @@ allocated
 array
 pointer
 or
-NULL
+nullptr
 if
 the
 allocation
@@ -3387,7 +3387,7 @@ array
 .
 *
 Returns
-NULL
+nullptr
 if
 the
 allocation
@@ -3514,7 +3514,7 @@ capacity
 )
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3720,7 +3720,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 ptr
 (
@@ -3824,7 +3824,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 releaseArray
 (
@@ -4007,7 +4007,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4081,7 +4081,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4135,7 +4135,7 @@ length
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -4212,11 +4212,11 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -4372,7 +4372,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -4387,7 +4387,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -4405,7 +4405,7 @@ size_t
 void
 *
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -4746,7 +4746,7 @@ otherArray
 must
 not
 be
-NULL
+nullptr
 *
 param
 otherCapacity
@@ -4771,7 +4771,7 @@ if
 otherMemory
 !
 =
-NULL
+nullptr
 &
 &
 otherCapacity
@@ -4847,7 +4847,7 @@ and
 this
 method
 returns
-NULL
+nullptr
 .
 *
 param
@@ -4892,7 +4892,7 @@ the
 allocated
 pointer
 or
-NULL
+nullptr
 if
 the
 allocation
@@ -4947,7 +4947,7 @@ memory
 .
 *
 Returns
-NULL
+nullptr
 if
 the
 allocation
@@ -5268,7 +5268,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5360,7 +5360,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -5506,11 +5506,11 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -5798,7 +5798,7 @@ MemoryPool
 &
 other
 )
-U_NOEXCEPT
+noexcept
 :
 fCount
 (
@@ -5836,7 +5836,7 @@ MemoryPool
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 /
 /

@@ -475,7 +475,6 @@ void
 U_EXPORT2
 u_cleanup
 (
-void
 )
 {
 UTRACE_ENTRY_OC
@@ -488,7 +487,7 @@ icu
 :
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 /
@@ -511,7 +510,7 @@ icu
 :
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 /
@@ -615,7 +614,7 @@ gLibCleanupFunctions
 libType
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -935,7 +934,6 @@ U_CFUNC
 UBool
 ucln_lib_cleanup
 (
-void
 )
 {
 int32_t
@@ -1010,7 +1008,7 @@ gCommonCleanupFunctions
 commonFunc
 ]
 =
-NULL
+nullptr
 ;
 }
 }

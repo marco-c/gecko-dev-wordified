@@ -1180,7 +1180,7 @@ n
 /
 *
 =
-NULL
+nullptr
 *
 /
 )

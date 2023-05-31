@@ -353,7 +353,7 @@ UnicodeNameTransliterator
 )
 static
 const
-UChar
+char16_t
 OPEN_DELIM
 [
 ]
@@ -374,7 +374,7 @@ N
 "
 static
 const
-UChar
+char16_t
 CLOSE_DELIM
 =
 125
@@ -632,7 +632,7 @@ malloc
 )
 =
 >
-NULL
+nullptr
 )
 .
 int32_t
@@ -688,7 +688,7 @@ if
 buf
 =
 =
-NULL
+nullptr
 )
 {
 offsets

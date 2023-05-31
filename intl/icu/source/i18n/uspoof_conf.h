@@ -719,7 +719,7 @@ SpoofImpl
 *
 fSpoofImpl
 ;
-UChar
+char16_t
 *
 fInput
 ;

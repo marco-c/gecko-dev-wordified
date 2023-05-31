@@ -8015,7 +8015,7 @@ setGroupingUsed
 UBool
 newValue
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -8063,7 +8063,7 @@ setParseIntegerOnly
 UBool
 value
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -8117,7 +8117,7 @@ setLenient
 UBool
 enable
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -8608,7 +8608,7 @@ ICU
 DecimalFormat
 (
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -8657,7 +8657,7 @@ clone
 (
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -8725,7 +8725,7 @@ Format
 other
 )
 const
-U_OVERRIDE
+override
 ;
 using
 NumberFormat
@@ -8830,7 +8830,7 @@ FieldPosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -8934,7 +8934,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -9010,7 +9010,7 @@ call
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -9058,7 +9058,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -9155,7 +9155,7 @@ FieldPosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -9266,7 +9266,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -9340,7 +9340,7 @@ call
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -9388,7 +9388,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -9485,7 +9485,7 @@ FieldPosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -9596,7 +9596,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -9670,7 +9670,7 @@ call
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -9718,7 +9718,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -9814,7 +9814,7 @@ call
 *
 Can
 be
-NULL
+nullptr
 .
 *
 param
@@ -9862,7 +9862,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -10009,7 +10009,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -10155,7 +10155,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -10208,7 +10208,7 @@ index
 is
 unchanged
 and
-NULL
+nullptr
 is
 *
 returned
@@ -10357,7 +10357,7 @@ ParsePosition
 parsePosition
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -10555,7 +10555,7 @@ parse
 fails
 this
 is
-NULL
+nullptr
 .
 *
 stable
@@ -10576,7 +10576,7 @@ ParsePosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -12135,7 +12135,7 @@ getRoundingMode
 void
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -12179,7 +12179,7 @@ setRoundingMode
 ERoundingMode
 roundingMode
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -15620,7 +15620,7 @@ setMaximumIntegerDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -15694,7 +15694,7 @@ setMinimumIntegerDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -15768,7 +15768,7 @@ setMaximumFractionDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -15842,7 +15842,7 @@ setMinimumFractionDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 /
 *
@@ -16387,7 +16387,7 @@ empty
 *
 string
 or
-NULL
+nullptr
 to
 indicate
 no
@@ -16420,7 +16420,7 @@ UErrorCode
 &
 ec
 )
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -17239,7 +17239,7 @@ getDynamicClassID
 void
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

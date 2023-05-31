@@ -322,7 +322,6 @@ virtual
 UBool
 isRecording
 (
-void
 )
 const
 =
@@ -387,7 +386,7 @@ start
 int32_t
 limit
 )
-U_OVERRIDE
+override
 ;
 void
 shiftLast
@@ -395,15 +394,14 @@ shiftLast
 int32_t
 delta
 )
-U_OVERRIDE
+override
 ;
 UBool
 isRecording
 (
-void
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *
@@ -477,7 +475,7 @@ iter
 /
 can
 be
-NULL
+nullptr
 UVector32
 *
 vec
@@ -562,7 +560,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -577,7 +575,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -595,7 +593,7 @@ size_t
 void
 *
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -657,7 +655,7 @@ start
 int32_t
 limit
 )
-U_OVERRIDE
+override
 ;
 void
 shiftLast
@@ -665,15 +663,14 @@ shiftLast
 int32_t
 delta
 )
-U_OVERRIDE
+override
 ;
 UBool
 isRecording
 (
-void
 )
 const
-U_OVERRIDE
+override
 ;
 /
 *

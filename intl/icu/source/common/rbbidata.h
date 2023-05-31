@@ -754,7 +754,7 @@ fRuleSourceLen
 rules
 .
 Stored
-UChar
+char16_t
 *
 .
 *
@@ -1532,7 +1532,6 @@ U_CFUNC
 UBool
 rbbi_cleanup
 (
-void
 )
 ;
 #

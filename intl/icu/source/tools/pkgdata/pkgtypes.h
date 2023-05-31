@@ -330,7 +330,7 @@ delim
 delim
 can
 be
-NULL
+nullptr
 )
 .
 quoted
@@ -575,7 +575,7 @@ to
 append
 to
 or
-NULL
+nullptr
 *
 param
 end
@@ -965,7 +965,7 @@ to
 install
 to
 (
-NULL
+nullptr
 =
 don
 '

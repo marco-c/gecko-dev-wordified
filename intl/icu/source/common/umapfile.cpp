@@ -1458,7 +1458,7 @@ u_strFromUTF8
 (
 reinterpret_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -1610,7 +1610,7 @@ Note
 :
 We
 use
-NULL
+nullptr
 /
 nullptr
 for

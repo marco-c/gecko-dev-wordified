@@ -474,7 +474,7 @@ NUL
 terminated
 .
 If
-NULL
+nullptr
 the
 currency
 *

@@ -341,7 +341,7 @@ LSR
 &
 other
 )
-U_NOEXCEPT
+noexcept
 ;
 LSR
 (
@@ -393,7 +393,7 @@ LSR
 &
 other
 )
-U_NOEXCEPT
+noexcept
 ;
 LSR
 &

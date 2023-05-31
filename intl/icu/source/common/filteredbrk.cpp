@@ -383,7 +383,7 @@ strcpy
 (
 buf
 "
-NULL
+nullptr
 "
 )
 ;
@@ -812,7 +812,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1058,7 +1058,7 @@ kAddToForward
 ;
 static
 const
-UChar
+char16_t
 kFULLSTOP
 =
 0x002E
@@ -1439,13 +1439,12 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
 {
 return
-NULL
+nullptr
 ;
 }
 virtual
@@ -1622,7 +1621,6 @@ CharacterIterator
 &
 getText
 (
-void
 )
 const
 override
@@ -1649,7 +1647,6 @@ virtual
 int32_t
 first
 (
-void
 )
 override
 ;
@@ -1666,7 +1663,6 @@ virtual
 int32_t
 previous
 (
-void
 )
 override
 ;
@@ -1683,7 +1679,6 @@ virtual
 int32_t
 current
 (
-void
 )
 const
 override
@@ -1714,7 +1709,6 @@ virtual
 int32_t
 next
 (
-void
 )
 override
 ;
@@ -1740,7 +1734,6 @@ virtual
 int32_t
 last
 (
-void
 )
 override
 ;
@@ -2272,7 +2265,7 @@ C
 n
 "
 (
-UChar
+char16_t
 )
 uch
 )
@@ -2301,7 +2294,7 @@ C
 n
 "
 (
-UChar
+char16_t
 )
 uch
 )
@@ -2335,7 +2328,7 @@ C
 n
 "
 (
-UChar
+char16_t
 )
 uch
 )
@@ -2473,7 +2466,7 @@ d
 n
 "
 (
-UChar
+char16_t
 )
 uch
 r
@@ -2537,7 +2530,7 @@ d
 n
 "
 (
-UChar
+char16_t
 )
 uch
 r
@@ -2592,7 +2585,7 @@ d
 n
 "
 (
-UChar
+char16_t
 )
 uch
 r
@@ -2660,7 +2653,7 @@ d
 n
 "
 (
-UChar
+char16_t
 )
 uch
 r
@@ -2916,7 +2909,7 @@ d
 n
 "
 (
-UChar
+char16_t
 )
 uch
 rfwd
@@ -2963,7 +2956,7 @@ match
 n
 "
 (
-UChar
+char16_t
 )
 uch
 )
@@ -3011,7 +3004,7 @@ match
 n
 "
 (
-UChar
+char16_t
 )
 uch
 )
@@ -3082,7 +3075,7 @@ d
 n
 "
 (
-UChar
+char16_t
 )
 uch
 r
@@ -3557,7 +3550,6 @@ SimpleFilteredSentenceBreakIterator
 :
 first
 (
-void
 )
 {
 /
@@ -3613,7 +3605,6 @@ SimpleFilteredSentenceBreakIterator
 :
 previous
 (
-void
 )
 {
 return
@@ -3772,7 +3763,6 @@ SimpleFilteredSentenceBreakIterator
 :
 last
 (
-void
 )
 {
 /
@@ -4057,7 +4047,7 @@ getAlias
 "
 exceptions
 "
-NULL
+nullptr
 &
 subStatus
 )
@@ -4155,7 +4145,7 @@ getAlias
 "
 SentenceBreak
 "
-NULL
+nullptr
 &
 subStatus
 )
@@ -4628,7 +4618,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -4820,7 +4810,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 partials
@@ -5556,7 +5546,7 @@ FB_TRACE
 "
 AbbrCount
 "
-NULL
+nullptr
 false
 subCount
 )
@@ -5596,14 +5586,14 @@ u_errorName
 (
 status
 )
-NULL
+nullptr
 false
 -
 1
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -5642,14 +5632,14 @@ u_errorName
 (
 status
 )
-NULL
+nullptr
 false
 -
 1
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -5733,7 +5723,7 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 LocalPointer
 <
@@ -5764,7 +5754,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 FilteredBreakIteratorBuilder
@@ -5806,7 +5796,7 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 LocalPointer
 <
@@ -5836,7 +5826,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 U_NAMESPACE_END

@@ -3278,7 +3278,7 @@ units
 .
 *
 const
-UChar
+char16_t
 *
 s
 =

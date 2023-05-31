@@ -2092,7 +2092,7 @@ th
 bucket
 .
 Returns
-NULL
+nullptr
 if
 the
 index
@@ -4528,7 +4528,7 @@ over
 .
 *
 Return
-NULL
+nullptr
 if
 the
 current
@@ -5127,7 +5127,7 @@ label
 .
 /
 /
-NULL
+nullptr
 when
 no
 iteration

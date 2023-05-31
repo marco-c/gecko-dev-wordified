@@ -445,7 +445,7 @@ if
 base
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -453,7 +453,7 @@ if
 inBytes
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -522,8 +522,8 @@ isAcceptable
 tailoring
 .
 version
-NULL
-NULL
+nullptr
+nullptr
 &
 header
 -
@@ -599,7 +599,7 @@ if
 inBytes
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -694,7 +694,7 @@ state
 /
 /
 with
-NULL
+nullptr
 pointers
 and
 0
@@ -844,9 +844,9 @@ baseData
 base
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 base
 -
@@ -858,7 +858,7 @@ int32_t
 *
 reorderCodes
 =
-NULL
+nullptr
 ;
 int32_t
 reorderCodesLength
@@ -870,7 +870,7 @@ uint32_t
 *
 reorderRanges
 =
-NULL
+nullptr
 ;
 int32_t
 reorderRangesLength
@@ -916,7 +916,7 @@ if
 baseData
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1125,7 +1125,7 @@ uint8_t
 *
 reorderTable
 =
-NULL
+nullptr
 ;
 index
 =
@@ -1222,7 +1222,7 @@ if
 baseData
 !
 =
-NULL
+nullptr
 &
 &
 baseData
@@ -1252,12 +1252,12 @@ CollationData
 *
 data
 =
-NULL
+nullptr
 ;
 /
 /
 Remains
-NULL
+nullptr
 if
 there
 are
@@ -1353,7 +1353,7 @@ inBytes
 +
 offset
 length
-NULL
+nullptr
 &
 errorCode
 )
@@ -1376,7 +1376,7 @@ if
 baseData
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -1452,7 +1452,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1536,7 +1536,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1604,7 +1604,7 @@ if
 data
 =
 =
-NULL
+nullptr
 |
 |
 data
@@ -1613,7 +1613,7 @@ data
 ce32s
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1653,7 +1653,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1669,7 +1669,7 @@ if
 baseData
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -1745,7 +1745,7 @@ if
 data
 =
 =
-NULL
+nullptr
 |
 |
 length
@@ -1920,7 +1920,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1946,7 +1946,7 @@ contexts
 reinterpret_cast
 <
 const
-UChar
+char16_t
 *
 >
 (
@@ -2004,7 +2004,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2019,7 +2019,7 @@ if
 baseData
 =
 =
-NULL
+nullptr
 )
 {
 #
@@ -2057,7 +2057,7 @@ tailoring
 unsafeBackwardSet
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2239,7 +2239,7 @@ tailoring
 unsafeBackwardSet
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2314,7 +2314,7 @@ tailoring
 unsafeBackwardSet
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2467,7 +2467,7 @@ c
 ;
 for
 (
-UChar
+char16_t
 lead
 =
 0xd800
@@ -2539,7 +2539,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2555,7 +2555,7 @@ if
 baseData
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -2642,7 +2642,7 @@ if
 data
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -2650,7 +2650,7 @@ data
 >
 fastLatinTable
 =
-NULL
+nullptr
 ;
 data
 -
@@ -2784,7 +2784,7 @@ if
 baseData
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -2849,7 +2849,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3062,7 +3062,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -3078,7 +3078,7 @@ if
 baseData
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -3161,7 +3161,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3195,7 +3195,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -3211,7 +3211,7 @@ if
 baseData
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -3391,7 +3391,7 @@ if
 settings
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3660,7 +3660,7 @@ if
 version
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memcpy

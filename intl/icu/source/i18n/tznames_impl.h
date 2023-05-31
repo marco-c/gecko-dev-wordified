@@ -335,7 +335,7 @@ ZNStringPool
 Pool
 of
 (
-UChar
+char16_t
 *
 )
 strings
@@ -421,12 +421,12 @@ pool
 *
 /
 const
-UChar
+char16_t
 *
 get
 (
 const
-UChar
+char16_t
 *
 s
 UErrorCode
@@ -466,7 +466,7 @@ present
 *
 /
 const
-UChar
+char16_t
 *
 get
 (
@@ -507,12 +507,12 @@ copying
 *
 /
 const
-UChar
+char16_t
 *
 adopt
 (
 const
-UChar
+char16_t
 *
 s
 UErrorCode
@@ -678,7 +678,7 @@ UVector
 of
 values
 .
-UChar
+char16_t
 fCharacter
 ;
 /
@@ -723,7 +723,7 @@ value
 fValues
 =
 =
-NULL
+nullptr
 and
 fHasValuesVector
 =
@@ -781,7 +781,7 @@ UBool
 fValues
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -799,7 +799,7 @@ return
 fValues
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -997,7 +997,7 @@ void
 put
 (
 const
-UChar
+char16_t
 *
 void
 *
@@ -1069,7 +1069,7 @@ addChildNode
 CharacterNode
 *
 parent
-UChar
+char16_t
 c
 UErrorCode
 &
@@ -1083,7 +1083,7 @@ getChildNode
 CharacterNode
 *
 parent
-UChar
+char16_t
 c
 )
 const
@@ -1737,7 +1737,7 @@ available
 this
 method
 returns
-NULL
+nullptr
 /
 /
 but

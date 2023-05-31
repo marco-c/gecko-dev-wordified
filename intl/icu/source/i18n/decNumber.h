@@ -2313,7 +2313,6 @@ char
 U_EXPORT2
 uprv_decNumberVersion
 (
-void
 )
 ;
 U_CAPI

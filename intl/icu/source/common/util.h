@@ -1029,7 +1029,7 @@ int32_t
 limit
 /
 /
-UChar
+char16_t
 c
 )
 ;
@@ -1459,7 +1459,7 @@ id
 int32_t
 &
 pos
-UChar
+char16_t
 ch
 )
 ;

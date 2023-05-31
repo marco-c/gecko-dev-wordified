@@ -514,7 +514,7 @@ int32_t
 textLength
 ;
 const
-UChar
+char16_t
 *
 textArray
 ;
@@ -1163,7 +1163,7 @@ U_EXPORT2
 uscript_openRun
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -1177,14 +1177,14 @@ UScriptRun
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1195,7 +1195,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 result
@@ -1217,7 +1217,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1226,7 +1226,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uscript_setRunText
@@ -1267,7 +1267,7 @@ result
 ;
 result
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1289,7 +1289,7 @@ if
 scriptRun
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1314,7 +1314,7 @@ if
 scriptRun
 !
 =
-NULL
+nullptr
 )
 {
 scriptRun
@@ -1371,7 +1371,7 @@ UScriptRun
 *
 scriptRun
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -1386,7 +1386,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1404,7 +1404,7 @@ if
 scriptRun
 =
 =
-NULL
+nullptr
 |
 |
 length
@@ -1417,7 +1417,7 @@ length
 src
 =
 =
-NULL
+nullptr
 )
 !
 =
@@ -1506,7 +1506,7 @@ if
 scriptRun
 =
 =
-NULL
+nullptr
 |
 |
 scriptRun
@@ -1568,7 +1568,7 @@ scriptLimit
 1
 )
 {
-UChar
+char16_t
 high
 =
 scriptRun
@@ -1654,7 +1654,7 @@ textLength
 1
 )
 {
-UChar
+char16_t
 low
 =
 scriptRun
@@ -2035,7 +2035,7 @@ if
 pRunStart
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2052,7 +2052,7 @@ if
 pRunLimit
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2069,7 +2069,7 @@ if
 pRunScript
 !
 =
-NULL
+nullptr
 )
 {
 *

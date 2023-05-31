@@ -348,7 +348,7 @@ Transliterator
 /
 static
 const
-UChar
+char16_t
 ID_SEP
 =
 0x002D
@@ -360,7 +360,7 @@ ID_SEP
 /
 static
 const
-UChar
+char16_t
 ID_DELIM
 =
 0x003B
@@ -372,14 +372,14 @@ ID_DELIM
 /
 static
 const
-UChar
+char16_t
 NEWLINE
 =
 10
 ;
 static
 const
-UChar
+char16_t
 COLON_COLON
 [
 ]
@@ -398,7 +398,7 @@ COLON_COLON
 "
 U_NAMESPACE_BEGIN
 const
-UChar
+char16_t
 CompoundTransliterator
 :
 :
@@ -940,7 +940,7 @@ Transliterator
 UnicodeString
 (
 )
-NULL
+nullptr
 )
 trans
 (
@@ -1019,7 +1019,7 @@ Transliterator
 UnicodeString
 (
 )
-NULL
+nullptr
 )
 trans
 (
@@ -1066,7 +1066,7 @@ trans
 and
 filter
 to
-NULL
+nullptr
 .
 *
 param
@@ -1138,7 +1138,7 @@ string
 May
 be
 *
-NULL
+nullptr
 to
 insert
 no
@@ -1243,7 +1243,7 @@ UnicodeSet
 *
 compoundFilter
 =
-NULL
+nullptr
 ;
 UnicodeString
 regenID
@@ -1296,7 +1296,7 @@ if
 compoundFilter
 !
 =
-NULL
+nullptr
 )
 {
 adoptFilter
@@ -1333,7 +1333,7 @@ trans
 and
 filter
 to
-NULL
+nullptr
 .
 *
 param
@@ -1512,7 +1512,7 @@ Transliterator
 *
 test
 for
-NULL
+nullptr
 *
 /
 if
@@ -1905,7 +1905,6 @@ CompoundTransliterator
 :
 freeTransliterators
 (
-void
 )
 {
 if
@@ -2024,7 +2023,7 @@ if
 trans
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -2071,7 +2070,7 @@ if
 trans
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -2112,7 +2111,7 @@ if
 trans
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -2155,7 +2154,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 failed
@@ -2221,7 +2220,7 @@ trans
 n
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2294,7 +2293,6 @@ CompoundTransliterator
 :
 getCount
 (
-void
 )
 const
 {
@@ -2410,7 +2408,7 @@ if
 a
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2464,7 +2462,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 failed
@@ -2519,7 +2517,7 @@ a
 n
 ]
 =
-NULL
+nullptr
 ;
 }
 return
@@ -2632,7 +2630,7 @@ _smartAppend
 UnicodeString
 &
 buf
-UChar
+char16_t
 c
 )
 {
@@ -2787,7 +2785,7 @@ getFilter
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -4346,7 +4344,6 @@ CompoundTransliterator
 :
 computeMaximumContextLength
 (
-void
 )
 {
 int32_t

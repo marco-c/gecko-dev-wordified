@@ -3008,7 +3008,7 @@ count
 *
 *
 Returns
-NULL
+nullptr
 and
 0
 .
@@ -3039,7 +3039,7 @@ to
 .
 *
 return
-NULL
+nullptr
 *
 deprecated
 ICU
@@ -3075,7 +3075,7 @@ const
 *
 *
 Returns
-NULL
+nullptr
 and
 0
 .
@@ -3106,7 +3106,7 @@ to
 .
 *
 return
-NULL
+nullptr
 *
 deprecated
 ICU
@@ -3142,7 +3142,7 @@ const
 *
 *
 Returns
-NULL
+nullptr
 and
 0
 .
@@ -3174,7 +3174,7 @@ to
 .
 *
 return
-NULL
+nullptr
 *
 deprecated
 ICU

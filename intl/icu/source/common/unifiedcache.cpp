@@ -353,7 +353,7 @@ UnifiedCache
 *
 gCache
 =
-NULL
+nullptr
 ;
 #
 ifndef
@@ -592,7 +592,7 @@ U_ASSERT
 gCache
 =
 =
-NULL
+nullptr
 )
 ;
 ucln_common_registerCleanup
@@ -639,7 +639,7 @@ if
 gCache
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -660,7 +660,7 @@ gCache
 ;
 gCache
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -695,7 +695,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -703,7 +703,7 @@ U_ASSERT
 gCache
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -722,7 +722,7 @@ status
 :
 fHashtable
 (
-NULL
+nullptr
 )
 fEvictPos
 (
@@ -836,7 +836,7 @@ uhash_open
 ucache_hashKeys
 &
 ucache_compareKeys
-NULL
+nullptr
 &
 status
 )
@@ -1327,7 +1327,7 @@ for
 element
 !
 =
-NULL
+nullptr
 ;
 element
 =
@@ -1433,7 +1433,7 @@ sharedObject
 =
 fNoValue
 ?
-NULL
+nullptr
 :
 sharedObject
 sharedObject
@@ -1626,7 +1626,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 {
 fEvictPos
@@ -2018,7 +2018,7 @@ if
 keyToAdopt
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2159,7 +2159,7 @@ if
 element
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -2184,7 +2184,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -2284,7 +2284,7 @@ U_ASSERT
 value
 =
 =
-NULL
+nullptr
 )
 ;
 U_ASSERT
@@ -2371,7 +2371,7 @@ while
 element
 !
 =
-NULL
+nullptr
 &
 &
 _inProgress
@@ -2430,7 +2430,7 @@ if
 element
 !
 =
-NULL
+nullptr
 )
 {
 _fetch
@@ -2521,7 +2521,7 @@ U_ASSERT
 value
 =
 =
-NULL
+nullptr
 )
 ;
 U_ASSERT
@@ -2588,7 +2588,7 @@ U_ASSERT
 value
 =
 =
-NULL
+nullptr
 |
 |
 value
@@ -2604,7 +2604,7 @@ U_ASSERT
 value
 !
 =
-NULL
+nullptr
 |
 |
 status
@@ -2618,7 +2618,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 SharedObject
@@ -2991,7 +2991,7 @@ SharedObject
 *
 value
 =
-NULL
+nullptr
 ;
 _fetch
 (

@@ -1007,7 +1007,7 @@ and
 constants
 static
 const
-UChar
+char16_t
 WORLD
 [
 ]
@@ -1028,7 +1028,7 @@ WORLD
 /
 static
 const
-UChar
+char16_t
 GMT_ID
 [
 ]
@@ -1049,7 +1049,7 @@ GMT
 /
 static
 const
-UChar
+char16_t
 UNKNOWN_ZONE_ID
 [
 ]
@@ -1100,7 +1100,7 @@ TimeZone
 *
 DEFAULT_ZONE
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -1200,21 +1200,21 @@ int32_t
 *
 MAP_SYSTEM_ZONES
 =
-NULL
+nullptr
 ;
 static
 int32_t
 *
 MAP_CANONICAL_SYSTEM_ZONES
 =
-NULL
+nullptr
 ;
 static
 int32_t
 *
 MAP_CANONICAL_SYSTEM_LOCATION_ZONES
 =
-NULL
+nullptr
 ;
 static
 int32_t
@@ -1267,7 +1267,6 @@ UBool
 U_CALLCONV
 timeZone_cleanup
 (
-void
 )
 {
 U_NAMESPACE_USE
@@ -1276,7 +1275,7 @@ DEFAULT_ZONE
 ;
 DEFAULT_ZONE
 =
-NULL
+nullptr
 ;
 gDefaultZoneInitOnce
 .
@@ -1429,7 +1428,7 @@ UnicodeString
 copy
 ;
 const
-UChar
+char16_t
 *
 u
 ;
@@ -1754,7 +1753,7 @@ for
 reuse
 (
 or
-NULL
+nullptr
 )
 .
 see
@@ -1817,7 +1816,7 @@ ures_getByKey
 (
 top
 kNAMES
-NULL
+nullptr
 &
 status
 )
@@ -1874,7 +1873,7 @@ oldbundle
 /
 oldbundle
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2056,7 +2055,7 @@ oldbundle
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -2511,7 +2510,7 @@ ures_getByKey
 (
 top
 kZONES
-NULL
+nullptr
 &
 ec
 )
@@ -2798,7 +2797,6 @@ TimeZone
 :
 getGMT
 (
-void
 )
 {
 umtx_initOnce
@@ -3380,7 +3378,7 @@ ec
 )
 {
 return
-NULL
+nullptr
 ;
 }
 TimeZone
@@ -3475,7 +3473,7 @@ if
 z
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -3550,7 +3548,7 @@ z
 ;
 z
 =
-NULL
+nullptr
 ;
 }
 return
@@ -3700,7 +3698,7 @@ object
 We
 cannot
 return
-NULL
+nullptr
 because
 that
 would
@@ -3727,7 +3725,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 U_DEBUG_TZ_MSG
@@ -3763,7 +3761,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 U_DEBUG_TZ_MSG
@@ -4035,7 +4033,7 @@ TimeZone
 *
 hostZone
 =
-NULL
+nullptr
 ;
 UnicodeString
 hostStrID
@@ -4154,7 +4152,7 @@ if
 hostZone
 !
 =
-NULL
+nullptr
 &
 &
 rawOffset
@@ -4209,7 +4207,7 @@ hostZone
 ;
 hostZone
 =
-NULL
+nullptr
 ;
 }
 /
@@ -4236,7 +4234,7 @@ if
 hostZone
 =
 =
-NULL
+nullptr
 &
 &
 hostDetectionSucceeded
@@ -4307,7 +4305,7 @@ if
 hostZone
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -4417,7 +4415,7 @@ DEFAULT_ZONE
 will
 not
 be
-NULL
+nullptr
 unless
 operator
 new
@@ -4425,7 +4423,7 @@ new
 )
 *
 returns
-NULL
+nullptr
 .
 *
 /
@@ -4478,7 +4476,7 @@ if
 DEFAULT_ZONE
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -4618,7 +4616,7 @@ U_ASSERT
 DEFAULT_ZONE
 =
 =
-NULL
+nullptr
 )
 ;
 DEFAULT_ZONE
@@ -4694,7 +4692,7 @@ return
 DEFAULT_ZONE
 !
 =
-NULL
+nullptr
 )
 ?
 DEFAULT_ZONE
@@ -4704,7 +4702,7 @@ clone
 (
 )
 :
-NULL
+nullptr
 ;
 }
 }
@@ -4914,7 +4912,7 @@ if
 zone
 !
 =
-NULL
+nullptr
 )
 {
 {
@@ -5166,7 +5164,7 @@ if
 m
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -5305,7 +5303,7 @@ UCAL_ZONE_TYPE_CANONICAL_LOCATION
 )
 {
 const
-UChar
+char16_t
 *
 region
 =
@@ -5402,7 +5400,7 @@ if
 m
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -5443,7 +5441,7 @@ U_ASSERT
 MAP_SYSTEM_ZONES
 =
 =
-NULL
+nullptr
 )
 ;
 MAP_SYSTEM_ZONES
@@ -5464,7 +5462,7 @@ U_ASSERT
 MAP_CANONICAL_SYSTEM_ZONES
 =
 =
-NULL
+nullptr
 )
 ;
 MAP_CANONICAL_SYSTEM_ZONES
@@ -5485,7 +5483,7 @@ U_ASSERT
 MAP_CANONICAL_SYSTEM_LOCATION_ZONES
 =
 =
-NULL
+nullptr
 )
 ;
 MAP_CANONICAL_SYSTEM_LOCATION_ZONES
@@ -6005,7 +6003,7 @@ If
 map
 =
 =
-NULL
+nullptr
 /
 /
 then
@@ -6081,7 +6079,7 @@ adoptMapData
 ?
 mapData
 :
-NULL
+nullptr
 ;
 len
 =
@@ -6104,11 +6102,11 @@ idLen
 0
 ;
 const
-UChar
+char16_t
 *
 id
 =
-NULL
+nullptr
 ;
 UResourceBundle
 *
@@ -6221,14 +6219,14 @@ ec
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
 *
 m
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -6309,7 +6307,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 m
 =
-NULL
+nullptr
 ;
 len
 =
@@ -6361,7 +6359,7 @@ ec
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -6387,7 +6385,7 @@ ec
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -6413,7 +6411,7 @@ int32_t
 *
 filteredMap
 =
-NULL
+nullptr
 ;
 int32_t
 numEntries
@@ -6425,13 +6423,13 @@ if
 region
 !
 =
-NULL
+nullptr
 |
 |
 rawOffset
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -6460,7 +6458,7 @@ if
 filteredMap
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -6468,7 +6466,7 @@ ec
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -6557,7 +6555,7 @@ if
 region
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6631,7 +6629,7 @@ if
 rawOffset
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -6732,7 +6730,7 @@ if
 tmp
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -6775,7 +6773,7 @@ filteredMap
 ;
 filteredMap
 =
-NULL
+nullptr
 ;
 }
 ures_close
@@ -6788,7 +6786,7 @@ TZEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6811,7 +6809,7 @@ if
 filteredMap
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -6839,7 +6837,7 @@ true
 ;
 filteredMap
 =
-NULL
+nullptr
 ;
 }
 if
@@ -6847,7 +6845,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -6861,7 +6859,7 @@ if
 filteredMap
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -6887,11 +6885,11 @@ StringEnumeration
 )
 map
 (
-NULL
+nullptr
 )
 localMap
 (
-NULL
+nullptr
 )
 len
 (
@@ -6909,7 +6907,7 @@ other
 localMap
 !
 =
-NULL
+nullptr
 )
 {
 localMap
@@ -6935,7 +6933,7 @@ if
 localMap
 !
 =
-NULL
+nullptr
 )
 {
 len
@@ -6981,7 +6979,7 @@ pos
 ;
 map
 =
-NULL
+nullptr
 ;
 }
 }
@@ -6995,7 +6993,7 @@ map
 ;
 localMap
 =
-NULL
+nullptr
 ;
 len
 =
@@ -7080,7 +7078,7 @@ status
 map
 !
 =
-NULL
+nullptr
 &
 &
 pos
@@ -7136,14 +7134,12 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -7163,7 +7159,7 @@ if
 localMap
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -7233,8 +7229,8 @@ TZEnumeration
 create
 (
 UCAL_ZONE_TYPE_ANY
-NULL
-NULL
+nullptr
+nullptr
 status
 )
 ;
@@ -7261,7 +7257,7 @@ TZEnumeration
 create
 (
 UCAL_ZONE_TYPE_ANY
-NULL
+nullptr
 &
 rawOffset
 status
@@ -7293,7 +7289,7 @@ create
 (
 UCAL_ZONE_TYPE_ANY
 region
-NULL
+nullptr
 status
 )
 ;
@@ -7744,7 +7740,7 @@ ures_getByKey
 (
 top
 kNAMES
-NULL
+nullptr
 &
 ec
 )
@@ -7768,7 +7764,7 @@ idLen
 0
 ;
 const
-UChar
+char16_t
 *
 id2
 =
@@ -7948,7 +7944,7 @@ class
 only
 .
 const
-UChar
+char16_t
 *
 TimeZone
 :
@@ -7962,11 +7958,11 @@ id
 )
 {
 const
-UChar
+char16_t
 *
 result
 =
-NULL
+nullptr
 ;
 UErrorCode
 ec
@@ -7979,7 +7975,7 @@ rb
 =
 ures_openDirect
 (
-NULL
+nullptr
 kZONEINFO
 &
 ec
@@ -8000,7 +7996,7 @@ ures_getByKey
 (
 rb
 kNAMES
-NULL
+nullptr
 &
 ec
 )
@@ -8021,7 +8017,7 @@ ures_getStringByIndex
 (
 names
 idx
-NULL
+nullptr
 &
 ec
 )
@@ -8036,7 +8032,7 @@ ec
 {
 result
 =
-NULL
+nullptr
 ;
 }
 ures_close
@@ -8054,7 +8050,7 @@ result
 ;
 }
 const
-UChar
+char16_t
 *
 TimeZone
 :
@@ -8068,11 +8064,11 @@ id
 )
 {
 const
-UChar
+char16_t
 *
 result
 =
-NULL
+nullptr
 ;
 UErrorCode
 ec
@@ -8085,7 +8081,7 @@ rb
 =
 ures_openDirect
 (
-NULL
+nullptr
 kZONEINFO
 &
 ec
@@ -8106,7 +8102,7 @@ ures_getByKey
 (
 rb
 kNAMES
-NULL
+nullptr
 &
 ec
 )
@@ -8127,7 +8123,7 @@ ures_getStringByIndex
 (
 names
 idx
-NULL
+nullptr
 &
 ec
 )
@@ -8198,7 +8194,7 @@ ec
 )
 ;
 const
-UChar
+char16_t
 *
 tmp
 =
@@ -8206,7 +8202,7 @@ ures_getStringByIndex
 (
 names
 deref
-NULL
+nullptr
 &
 ec
 )
@@ -8241,7 +8237,7 @@ result
 ;
 }
 const
-UChar
+char16_t
 *
 TimeZone
 :
@@ -8268,7 +8264,7 @@ status
 ;
 }
 const
-UChar
+char16_t
 *
 TimeZone
 :
@@ -8293,15 +8289,15 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 result
 =
-NULL
+nullptr
 ;
 UResourceBundle
 *
@@ -8309,7 +8305,7 @@ rb
 =
 ures_openDirect
 (
-NULL
+nullptr
 kZONEINFO
 &
 status
@@ -8330,7 +8326,7 @@ ures_getByKey
 (
 rb
 kNAMES
-NULL
+nullptr
 &
 status
 )
@@ -8360,7 +8356,7 @@ status
 )
 ;
 const
-UChar
+char16_t
 *
 tmp
 =
@@ -8368,7 +8364,7 @@ ures_getStringByIndex
 (
 res
 idx
-NULL
+nullptr
 &
 status
 )
@@ -8484,11 +8480,11 @@ return
 ;
 }
 const
-UChar
+char16_t
 *
 uregion
 =
-NULL
+nullptr
 ;
 /
 /
@@ -8537,7 +8533,7 @@ if
 uregion
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -9609,7 +9605,7 @@ customID
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -10460,7 +10456,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 MINUS
 ;
@@ -10471,7 +10467,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 PLUS
 ;
@@ -10487,7 +10483,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 ZERO_DIGIT
 ;
@@ -10498,7 +10494,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 (
 ZERO_DIGIT
@@ -10513,7 +10509,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 (
 ZERO_DIGIT
@@ -10527,7 +10523,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 COLON
 ;
@@ -10542,7 +10538,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 ZERO_DIGIT
 ;
@@ -10553,7 +10549,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 (
 ZERO_DIGIT
@@ -10568,7 +10564,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 (
 ZERO_DIGIT
@@ -10587,7 +10583,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 COLON
 ;
@@ -10602,7 +10598,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 ZERO_DIGIT
 ;
@@ -10613,7 +10609,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 (
 ZERO_DIGIT
@@ -10628,7 +10624,7 @@ id
 +
 =
 (
-UChar
+char16_t
 )
 (
 ZERO_DIGIT
@@ -10715,14 +10711,14 @@ bundle
 getAlias
 (
 )
-NULL
+nullptr
 kZONEINFO
 &
 status
 )
 ;
 const
-UChar
+char16_t
 *
 tzver
 =
@@ -11119,7 +11115,7 @@ mapTimezones
 =
 ures_openDirect
 (
-NULL
+nullptr
 "
 windowsZones
 "
@@ -11154,7 +11150,7 @@ UResourceBundle
 *
 winzone
 =
-NULL
+nullptr
 ;
 UBool
 found
@@ -11212,7 +11208,7 @@ UResourceBundle
 *
 regionalData
 =
-NULL
+nullptr
 ;
 while
 (
@@ -11265,7 +11261,7 @@ int32_t
 len
 ;
 const
-UChar
+char16_t
 *
 tzids
 =
@@ -11290,7 +11286,7 @@ break
 ;
 }
 const
-UChar
+char16_t
 *
 start
 =
@@ -11307,7 +11303,7 @@ hasNext
 )
 {
 const
-UChar
+char16_t
 *
 end
 =
@@ -11315,7 +11311,7 @@ u_strchr
 (
 start
 (
-UChar
+char16_t
 )
 0x20
 )
@@ -11325,7 +11321,7 @@ if
 end
 =
 =
-NULL
+nullptr
 )
 {
 end
@@ -11460,7 +11456,7 @@ zones
 =
 ures_openDirect
 (
-NULL
+nullptr
 "
 windowsZones
 "
@@ -11608,11 +11604,11 @@ id
 ;
 }
 const
-UChar
+char16_t
 *
 tzid
 =
-NULL
+nullptr
 ;
 int32_t
 len
@@ -11630,7 +11626,7 @@ region
 )
 {
 const
-UChar
+char16_t
 *
 tzids
 =
@@ -11675,7 +11671,7 @@ the
 default
 one
 const
-UChar
+char16_t
 *
 end
 =
@@ -11683,7 +11679,7 @@ u_strchr
 (
 tzids
 (
-UChar
+char16_t
 )
 0x20
 )
@@ -11693,7 +11689,7 @@ if
 end
 =
 =
-NULL
+nullptr
 )
 {
 id

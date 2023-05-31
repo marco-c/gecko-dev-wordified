@@ -4774,7 +4774,6 @@ DecimalFormat
 :
 getDecimalFormatSymbols
 (
-void
 )
 const
 {
@@ -4862,7 +4861,7 @@ fields
 >
 symbols
 to
-NULL
+nullptr
 }
 /
 /
@@ -5034,7 +5033,6 @@ DecimalFormat
 :
 getCurrencyPluralInfo
 (
-void
 )
 const
 {
@@ -5847,7 +5845,6 @@ DecimalFormat
 :
 getMultiplier
 (
-void
 )
 const
 {
@@ -6243,7 +6240,6 @@ DecimalFormat
 :
 getRoundingIncrement
 (
-void
 )
 const
 {
@@ -6355,7 +6351,6 @@ DecimalFormat
 :
 getRoundingMode
 (
-void
 )
 const
 {
@@ -6449,6 +6444,7 @@ setRoundingMode
 ERoundingMode
 roundingMode
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 if
 (
@@ -6540,7 +6536,6 @@ DecimalFormat
 :
 getFormatWidth
 (
-void
 )
 const
 {
@@ -6798,7 +6793,6 @@ DecimalFormat
 :
 getPadPosition
 (
-void
 )
 const
 {
@@ -6946,7 +6940,6 @@ DecimalFormat
 :
 isScientificNotation
 (
-void
 )
 const
 {
@@ -7099,7 +7092,6 @@ DecimalFormat
 :
 getMinimumExponentDigits
 (
-void
 )
 const
 {
@@ -7223,7 +7215,6 @@ DecimalFormat
 :
 isExponentSignAlwaysShown
 (
-void
 )
 const
 {
@@ -7338,7 +7329,6 @@ DecimalFormat
 :
 getGroupingSize
 (
-void
 )
 const
 {
@@ -7472,7 +7462,6 @@ DecimalFormat
 :
 getSecondaryGroupingSize
 (
-void
 )
 const
 {
@@ -7717,7 +7706,6 @@ DecimalFormat
 :
 isDecimalSeparatorAlwaysShown
 (
-void
 )
 const
 {
@@ -7832,7 +7820,6 @@ DecimalFormat
 :
 isDecimalPatternMatchRequired
 (
-void
 )
 const
 {

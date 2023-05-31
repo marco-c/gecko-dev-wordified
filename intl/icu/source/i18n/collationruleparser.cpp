@@ -399,7 +399,7 @@ namespace
 {
 static
 const
-UChar
+char16_t
 BEFORE
 [
 ]
@@ -535,7 +535,7 @@ errorCode
 )
 rules
 (
-NULL
+nullptr
 )
 baseData
 (
@@ -543,23 +543,23 @@ base
 )
 settings
 (
-NULL
+nullptr
 )
 parseError
 (
-NULL
+nullptr
 )
 errorReason
 (
-NULL
+nullptr
 )
 sink
 (
-NULL
+nullptr
 )
 importer
 (
-NULL
+nullptr
 )
 ruleIndex
 (
@@ -622,7 +622,7 @@ if
 parseError
 !
 =
-NULL
+nullptr
 )
 {
 parseError
@@ -663,7 +663,7 @@ postContext
 }
 errorReason
 =
-NULL
+nullptr
 ;
 parse
 (
@@ -719,7 +719,7 @@ length
 )
 )
 {
-UChar
+char16_t
 c
 =
 rules
@@ -1237,7 +1237,7 @@ ruleIndex
 int32_t
 j
 ;
-UChar
+char16_t
 c
 ;
 int32_t
@@ -1551,7 +1551,7 @@ i
 =
 ruleIndex
 ;
-UChar
+char16_t
 c
 =
 rules
@@ -1914,7 +1914,7 @@ errorCode
 return
 ;
 }
-UChar
+char16_t
 next
 =
 (
@@ -2823,7 +2823,7 @@ raw
 append
 (
 (
-UChar
+char16_t
 )
 0x27
 )
@@ -2958,7 +2958,7 @@ raw
 append
 (
 (
-UChar
+char16_t
 )
 c
 )
@@ -3091,7 +3091,7 @@ raw
 append
 (
 (
-UChar
+char16_t
 )
 c
 )
@@ -3399,7 +3399,7 @@ str
 setTo
 (
 (
-UChar
+char16_t
 )
 POS_LEAD
 )
@@ -3407,7 +3407,7 @@ POS_LEAD
 append
 (
 (
-UChar
+char16_t
 )
 (
 POS_BASE
@@ -3439,7 +3439,7 @@ str
 setTo
 (
 (
-UChar
+char16_t
 )
 POS_LEAD
 )
@@ -3447,7 +3447,7 @@ POS_LEAD
 append
 (
 (
-UChar
+char16_t
 )
 (
 POS_BASE
@@ -3479,7 +3479,7 @@ str
 setTo
 (
 (
-UChar
+char16_t
 )
 POS_LEAD
 )
@@ -3487,7 +3487,7 @@ POS_LEAD
 append
 (
 (
-UChar
+char16_t
 )
 (
 POS_BASE
@@ -3712,7 +3712,7 @@ raw
 lastIndexOf
 (
 (
-UChar
+char16_t
 )
 0x20
 )
@@ -3771,7 +3771,7 @@ value
 =
 UCOL_DEFAULT
 ;
-UChar
+char16_t
 c
 =
 v
@@ -4719,7 +4719,7 @@ if
 importer
 =
 =
-NULL
+nullptr
 )
 {
 setParseError
@@ -4775,7 +4775,7 @@ if
 errorReason
 =
 =
-NULL
+nullptr
 )
 {
 errorReason
@@ -4827,7 +4827,7 @@ if
 parseError
 !
 =
-NULL
+nullptr
 )
 {
 parseError
@@ -5130,7 +5130,7 @@ raw
 indexOf
 (
 (
-UChar
+char16_t
 )
 0x20
 i
@@ -5520,7 +5520,7 @@ return
 j
 ;
 }
-UChar
+char16_t
 c
 =
 rules
@@ -5698,7 +5698,7 @@ const
 {
 static
 const
-UChar
+char16_t
 sp
 =
 0x20
@@ -5739,7 +5739,7 @@ return
 0
 ;
 }
-UChar
+char16_t
 c
 =
 rules
@@ -5898,7 +5898,7 @@ length
 )
 )
 {
-UChar
+char16_t
 c
 =
 rules
@@ -6089,7 +6089,7 @@ if
 parseError
 !
 =
-NULL
+nullptr
 )
 {
 setErrorContext
@@ -6111,7 +6111,7 @@ if
 parseError
 =
 =
-NULL
+nullptr
 )
 {
 return

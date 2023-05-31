@@ -481,7 +481,7 @@ ICU
 class
 U_COMMON_API
 SimpleFormatter
-U_FINAL
+final
 :
 public
 UMemory
@@ -1459,7 +1459,7 @@ appendTo
 *
 Can
 be
-NULL
+nullptr
 if
 valuesLength
 =
@@ -1536,7 +1536,7 @@ values
 .
 Can
 be
-NULL
+nullptr
 if
 offsetsLength
 =
@@ -1697,7 +1697,7 @@ result
 *
 Can
 be
-NULL
+nullptr
 if
 valuesLength
 =
@@ -1777,7 +1777,7 @@ values
 .
 Can
 be
-NULL
+nullptr
 if
 offsetsLength
 =
