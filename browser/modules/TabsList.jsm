@@ -1907,11 +1907,6 @@ button
 "
 subviewbutton
 "
-"
-subviewbutton
--
-iconic
-"
 )
 ;
 muteButton
