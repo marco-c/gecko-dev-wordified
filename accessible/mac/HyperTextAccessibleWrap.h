@@ -113,6 +113,13 @@ PlatformExtTypes
 .
 h
 "
+#
+include
+"
+WordMovementType
+.
+h
+"
 namespace
 mozilla
 {
