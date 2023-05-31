@@ -136,7 +136,7 @@ namespace
 a11y
 {
 class
-HyperTextAccessibleWrap
+HyperTextAccessibleBase
 ;
 class
 ia2AccessibleEditableText
@@ -339,7 +339,7 @@ attributes
 ;
 private
 :
-HyperTextAccessibleWrap
+HyperTextAccessibleBase
 *
 TextAcc
 (
