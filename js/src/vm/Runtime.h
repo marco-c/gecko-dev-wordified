@@ -600,6 +600,9 @@ class
 FrontendContext
 ;
 class
+PlainObject
+;
+class
 StaticStrings
 ;
 }
