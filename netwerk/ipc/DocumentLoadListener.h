@@ -1670,6 +1670,8 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
 )
 override
 {
@@ -1687,6 +1689,12 @@ params
 mCategory
 =
 aCategory
+;
+params
+.
+mIsWarning
+=
+aIsWarning
 ;
 mSecurityWarningFunctions
 .
@@ -3252,6 +3260,9 @@ mMessage
 ;
 nsCString
 mCategory
+;
+bool
+mIsWarning
 ;
 }
 ;

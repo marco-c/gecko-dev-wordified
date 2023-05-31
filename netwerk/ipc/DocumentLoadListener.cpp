@@ -9236,6 +9236,9 @@ mMessage
 aParams
 .
 mCategory
+aParams
+.
+mIsWarning
 )
 ;
 }

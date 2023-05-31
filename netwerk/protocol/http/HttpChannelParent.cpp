@@ -13798,6 +13798,8 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
 )
 {
 if
@@ -13818,6 +13820,7 @@ nsCString
 (
 aCategory
 )
+aIsWarning
 )
 )
 )

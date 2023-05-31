@@ -848,6 +848,8 @@ nsString
 message
 nsCString
 category
+bool
+isWarning
 )
 ;
 async

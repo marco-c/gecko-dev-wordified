@@ -385,6 +385,10 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
+=
+false
 )
 ;
 private
