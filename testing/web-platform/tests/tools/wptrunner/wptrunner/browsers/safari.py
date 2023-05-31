@@ -11,17 +11,15 @@ os
 import
 plistlib
 from
-distutils
-.
-spawn
-import
-find_executable
-from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
+from
+shutil
+import
+which
 import
 psutil
 from
@@ -363,10 +361,6 @@ location
 "
 )
     
-V
-=
-LooseVersion
-    
 browser_bundle_version
 =
 run_info_data
@@ -377,12 +371,14 @@ browser_bundle_version
 ]
     
 if
+(
 browser_bundle_version
 is
 not
 None
 and
-V
+        
+Version
 (
 browser_bundle_version
 [
@@ -392,7 +388,7 @@ browser_bundle_version
 )
 >
 =
-V
+Version
 (
 "
 613
@@ -403,6 +399,7 @@ V
 .
 1
 "
+)
 )
 :
         
@@ -1193,7 +1190,7 @@ webdriver_binary
             
 wd_path
 =
-find_executable
+which
 (
 webdriver_binary
 )

@@ -425,6 +425,28 @@ chromedriver
 exe
 "
 )
+        
+#
+By
+default
+Windows
+treats
+paths
+as
+case
+-
+insensitive
+        
+path_fn
+=
+lambda
+path
+:
+path
+.
+lower
+(
+)
     
 else
 :
@@ -468,6 +490,13 @@ chrome
 chromedriver
 "
 )
+        
+path_fn
+=
+lambda
+path
+:
+path
     
 if
 os
@@ -518,10 +547,16 @@ version
 )
     
 assert
+path_fn
+(
 binary_path
+)
 =
 =
+path_fn
+(
 chromedriver_path
+)
     
 assert
 os
