@@ -3346,11 +3346,6 @@ highlightedLineRange
 :
 null
 }
-{
-features
-.
-blackboxLines
-?
 <
 BlackboxLines
 editor
@@ -3360,14 +3355,10 @@ editor
 }
 /
 >
-:
-null
-}
 <
 Exceptions
 /
 >
-{
 <
 EditorMenu
 editor
@@ -3399,7 +3390,6 @@ editorWrappingEnabled
 }
 /
 >
-}
 {
 conditionalPanelLocation
 ?
