@@ -694,12 +694,9 @@ release
 it
 explicitly
 .
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 bufferData
 .
 release

@@ -1061,9 +1061,9 @@ GetSingleton
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !
@@ -1146,9 +1146,9 @@ if
 cc
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !
