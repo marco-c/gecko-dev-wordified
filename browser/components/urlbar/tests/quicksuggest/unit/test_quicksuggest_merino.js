@@ -3451,7 +3451,7 @@ UrlbarPrefs
 set
 (
 PREF_REMOTE_SETTINGS_ENABLED
-false
+true
 )
 ;
 UrlbarPrefs
