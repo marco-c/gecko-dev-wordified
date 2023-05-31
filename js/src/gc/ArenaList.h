@@ -185,6 +185,9 @@ Nursery
 class
 SliceBudget
 ;
+class
+TenuringTracer
+;
 namespace
 gcstats
 {
@@ -209,9 +212,6 @@ FreeSpan
 ;
 class
 TenuredCell
-;
-class
-TenuringTracer
 ;
 /
 *
@@ -2547,6 +2547,9 @@ Nursery
 ;
 friend
 class
+js
+:
+:
 TenuringTracer
 ;
 }
