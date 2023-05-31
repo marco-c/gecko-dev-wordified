@@ -5007,6 +5007,11 @@ uint32_t
 value
 )
 ;
+void
+checkInvariants
+(
+)
+;
 static
 bool
 megabytesToBytes
