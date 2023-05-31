@@ -69,6 +69,9 @@ dom
 '
 html
 '
+'
+permissions
+'
 ]
 async
 idl_array
