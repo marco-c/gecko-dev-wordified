@@ -457,13 +457,6 @@ jest
 fn
 (
 )
-checkSourceOnIgnoreList
-:
-jest
-.
-fn
-(
-)
 }
 ;
 return
