@@ -1,22 +1,3 @@
-MYPY
-=
-False
-if
-MYPY
-:
-    
-#
-MYPY
-is
-set
-to
-True
-when
-run
-under
-Mypy
-.
-    
 from
 typing
 import
@@ -124,18 +105,13 @@ __init__
 (
 self
 path
-)
 :
-        
-#
-type
-:
-(
 Text
 )
 -
 >
 None
+:
         
 self
 .
@@ -148,18 +124,13 @@ output
 (
 self
 line
-)
 :
-        
-#
-type
-:
-(
 Text
 )
 -
 >
 None
+:
         
 with
 open
@@ -200,13 +171,7 @@ def
 get_gh_checks_outputter
 (
 filepath
-)
 :
-    
-#
-type
-:
-(
 Optional
 [
 Text
@@ -218,6 +183,7 @@ Optional
 [
 GitHubChecksOutputter
 ]
+:
     
 "
 "

@@ -223,14 +223,12 @@ else
 :
             
 assert
-(
 isinstance
 (
 self
 .
 value_node
 ListNode
-)
 )
             
 while

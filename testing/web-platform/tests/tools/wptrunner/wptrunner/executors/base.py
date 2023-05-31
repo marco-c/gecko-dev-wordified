@@ -1779,10 +1779,6 @@ __metaclass__
 ABCMeta
     
 test_type
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -1876,10 +1872,6 @@ annotated
 .
     
 convert_result
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -4616,10 +4608,6 @@ convert_result
 pytest_result_converter
     
 protocol_cls
-=
-WdspecProtocol
-#
-type
 :
 ClassVar
 [
@@ -4628,6 +4616,8 @@ Type
 Protocol
 ]
 ]
+=
+WdspecProtocol
     
 def
 __init__
@@ -5251,12 +5241,6 @@ implementation
 "
     
 unimplemented_exc
-=
-(
-NotImplementedError
-)
-#
-type
 :
 ClassVar
 [
@@ -5271,6 +5255,10 @@ Exception
 .
 ]
 ]
+=
+(
+NotImplementedError
+)
     
 def
 __init__

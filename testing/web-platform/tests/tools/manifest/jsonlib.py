@@ -2,25 +2,6 @@ import
 re
 import
 json
-MYPY
-=
-False
-if
-MYPY
-:
-    
-#
-MYPY
-is
-set
-to
-True
-when
-run
-under
-Mypy
-.
-    
 from
 typing
 import
@@ -76,12 +57,6 @@ has_ujson
 :
     
 load
-=
-ujson
-.
-load
-#
-type
 :
 Callable
 [
@@ -93,6 +68,10 @@ AnyStr
 ]
 Any
 ]
+=
+ujson
+.
+load
 else
 :
     
@@ -110,12 +89,6 @@ has_ujson
 :
     
 loads
-=
-ujson
-.
-loads
-#
-type
 :
 Callable
 [
@@ -124,6 +97,10 @@ AnyStr
 ]
 Any
 ]
+=
+ujson
+.
+loads
 else
 :
     
@@ -143,6 +120,12 @@ some
 libraries
 #
 _ujson_dump_local_kwargs
+:
+Dict
+[
+str
+Any
+]
 =
 {
     
@@ -170,15 +153,13 @@ reject_bytes
 :
 True
 }
-#
-type
+_json_dump_local_kwargs
 :
 Dict
 [
 str
 Any
 ]
-_json_dump_local_kwargs
 =
 {
     
@@ -207,14 +188,6 @@ separators
 )
 }
 #
-type
-:
-Dict
-[
-str
-Any
-]
-#
 #
 dump_local
 (
@@ -236,15 +209,10 @@ def
 dump_local
 (
 obj
-fp
-)
 :
-        
-#
-type
-:
-(
 Any
+fp
+:
 IO
 [
 str
@@ -253,6 +221,7 @@ str
 -
 >
 None
+:
         
 return
 ujson
@@ -272,15 +241,10 @@ def
 dump_local
 (
 obj
-fp
-)
 :
-        
-#
-type
-:
-(
 Any
+fp
+:
 IO
 [
 str
@@ -289,6 +253,7 @@ str
 -
 >
 None
+:
         
 return
 json
@@ -323,18 +288,13 @@ def
 dumps_local
 (
 obj
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 Text
+:
         
 return
 ujson
@@ -353,18 +313,13 @@ def
 dumps_local
 (
 obj
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 Text
+:
         
 return
 json
@@ -395,6 +350,12 @@ roundtrip
 )
 #
 _ujson_dump_dist_kwargs
+:
+Dict
+[
+str
+Any
+]
 =
 {
     
@@ -416,15 +377,13 @@ reject_bytes
 :
 True
 }
-#
-type
+_json_dump_dist_kwargs
 :
 Dict
 [
 str
 Any
 ]
-_json_dump_dist_kwargs
 =
 {
     
@@ -452,14 +411,6 @@ separators
 '
 )
 }
-#
-type
-:
-Dict
-[
-str
-Any
-]
 if
 has_ujson
 :
@@ -509,18 +460,13 @@ def
 _ujson_fixup
 (
 s
-)
 :
-            
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
             
 return
 s
@@ -564,18 +510,13 @@ def
 _ujson_fixup
 (
 s
-)
 :
-            
-#
-type
-:
-(
 str
 )
 -
 >
 str
+:
             
 return
 _ujson_fixup_re
@@ -608,15 +549,10 @@ def
 dump_dist
 (
 obj
-fp
-)
 :
-        
-#
-type
-:
-(
 Any
+fp
+:
 IO
 [
 str
@@ -625,6 +561,7 @@ str
 -
 >
 None
+:
         
 fp
 .
@@ -648,18 +585,13 @@ def
 dumps_dist
 (
 obj
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 Text
+:
         
 return
 _ujson_fixup
@@ -681,15 +613,10 @@ def
 dump_dist
 (
 obj
-fp
-)
 :
-        
-#
-type
-:
-(
 Any
+fp
+:
 IO
 [
 str
@@ -698,6 +625,7 @@ str
 -
 >
 None
+:
         
 json
 .
@@ -714,18 +642,13 @@ def
 dumps_dist
 (
 obj
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 Text
+:
         
 return
 json

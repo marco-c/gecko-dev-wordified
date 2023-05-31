@@ -27,11 +27,6 @@ Step
 :
     
 provides
-=
-[
-]
-#
-type
 :
 ClassVar
 [
@@ -39,6 +34,9 @@ List
 [
 str
 ]
+]
+=
+[
 ]
     
 def
@@ -322,11 +320,6 @@ StepRunner
 :
     
 steps
-=
-[
-]
-#
-type
 :
 ClassVar
 [
@@ -337,6 +330,9 @@ Type
 Step
 ]
 ]
+]
+=
+[
 ]
     
 def

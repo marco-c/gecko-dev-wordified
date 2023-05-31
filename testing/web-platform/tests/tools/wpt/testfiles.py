@@ -102,7 +102,7 @@ to
 handle
 both
 and
-MYPY
+mypy
 has
 no
 knowledge
@@ -136,73 +136,18 @@ get_git_cmd
 type
 :
 ignore
-MYPY
-=
-False
-if
-MYPY
-:
-    
-#
-MYPY
-is
-set
-to
-True
-when
-run
-under
-Mypy
-.
-    
 from
 typing
 import
 Any
-    
-from
-typing
-import
 Dict
-    
-from
-typing
-import
 Iterable
-    
-from
-typing
-import
 List
-    
-from
-typing
-import
 Optional
-    
-from
-typing
-import
 Pattern
-    
-from
-typing
-import
 Sequence
-    
-from
-typing
-import
 Set
-    
-from
-typing
-import
 Text
-    
-from
-typing
-import
 Tuple
 DEFAULT_IGNORE_RULES
 =
@@ -264,16 +209,10 @@ def
 display_branch_point
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 None
+:
     
 print
 (
@@ -285,19 +224,13 @@ def
 branch_point
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
     
 git
 =
@@ -446,6 +379,11 @@ defined
 "
         
 branch_point
+:
+Optional
+[
+Text
+]
 =
 git
 (
@@ -459,13 +397,6 @@ HEAD
 "
 base_branch
 )
-#
-type
-:
-Optional
-[
-Text
-]
     
 else
 :
@@ -746,12 +677,6 @@ commits_bytes
 )
         
 commit_parents
-=
-OrderedDict
-(
-)
-#
-type
 :
 Dict
 [
@@ -761,6 +686,10 @@ List
 Text
 ]
 ]
+=
+OrderedDict
+(
+)
         
 commits
 =
@@ -1135,13 +1064,7 @@ def
 compile_ignore_rule
 (
 rule
-)
 :
-    
-#
-type
-:
-(
 Text
 )
 -
@@ -1150,6 +1073,7 @@ Pattern
 [
 Text
 ]
+:
     
 rule
 =
@@ -1298,22 +1222,18 @@ def
 repo_files_changed
 (
 revish
+:
+Text
 include_uncommitted
+:
+bool
 =
 False
 include_new
+:
+bool
 =
 False
-)
-:
-    
-#
-type
-:
-(
-Text
-bool
-bool
 )
 -
 >
@@ -1321,6 +1241,7 @@ Set
 [
 Text
 ]
+:
     
 git
 =
@@ -1672,18 +1593,13 @@ def
 exclude_ignored
 (
 files
-ignore_rules
-)
 :
-    
-#
-type
-:
-(
 Iterable
 [
 Text
 ]
+ignore_rules
+:
 Optional
 [
 Sequence
@@ -1705,6 +1621,7 @@ List
 Text
 ]
 ]
+:
     
 if
 ignore_rules
@@ -1820,16 +1737,10 @@ def
 files_changed
 (
 revish
-#
-type
 :
 Text
                   
 ignore_rules
-=
-None
-#
-type
 :
 Optional
 [
@@ -1838,33 +1749,21 @@ Sequence
 Text
 ]
 ]
+=
+None
                   
 include_uncommitted
-=
-False
-#
-type
 :
 bool
+=
+False
                   
 include_new
-=
-False
-#
-type
 :
 bool
+=
+False
                   
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
@@ -1879,6 +1778,7 @@ List
 Text
 ]
 ]
+:
     
 "
 "
@@ -1972,18 +1872,13 @@ def
 _in_repo_root
 (
 full_path
-)
 :
-    
-#
-type
-:
-(
 Text
 )
 -
 >
 bool
+:
     
 rel_path
 =
@@ -2019,29 +1914,25 @@ def
 load_manifest
 (
 manifest_path
-=
-None
-manifest_update
-=
-True
-)
 :
-    
-#
-type
-:
-(
 Optional
 [
 Text
 ]
+=
+None
+manifest_update
+:
 bool
+=
+True
 )
 -
 >
 manifest
 .
 Manifest
+:
     
 if
 manifest_path
@@ -2084,8 +1975,6 @@ def
 affected_testfiles
 (
 files_changed
-#
-type
 :
 Iterable
 [
@@ -2093,10 +1982,6 @@ Text
 ]
                        
 skip_dirs
-=
-None
-#
-type
 :
 Optional
 [
@@ -2105,36 +1990,24 @@ Set
 Text
 ]
 ]
-                       
-manifest_path
 =
 None
-#
-type
+                       
+manifest_path
 :
 Optional
 [
 Text
 ]
+=
+None
                        
 manifest_update
-=
-True
-#
-type
 :
 bool
+=
+True
                        
-)
-:
-    
-#
-type
-:
-(
-.
-.
-.
 )
 -
 >
@@ -2149,6 +2022,7 @@ Set
 Text
 ]
 ]
+:
     
 "
 "
@@ -2434,6 +2308,12 @@ set
 )
     
 rewrites
+:
+Dict
+[
+Text
+Text
+]
 =
 {
 "
@@ -2458,14 +2338,6 @@ WebIDLParser
 js
 "
 }
-#
-type
-:
-Dict
-[
-Text
-Text
-]
     
 for
 full_path
@@ -2622,18 +2494,13 @@ def
 affected_by_wdspec
 (
 test
-)
 :
-        
-#
-type
-:
-(
 Text
 )
 -
 >
 bool
+:
         
 affected
 =
@@ -2748,18 +2615,13 @@ def
 affected_by_interfaces
 (
 file_contents
-)
 :
-        
-#
-type
-:
-(
 Text
 )
 -
 >
 bool
+:
         
 if
 len
@@ -2954,16 +2816,14 @@ fh
 :
                 
 raw_file_contents
+:
+bytes
 =
 fh
 .
 read
 (
 )
-#
-type
-:
-bytes
                 
 if
 raw_file_contents
@@ -2981,6 +2841,8 @@ xff
 :
                     
 file_contents
+:
+Text
 =
 raw_file_contents
 .
@@ -2995,10 +2857,6 @@ utf
 replace
 "
 )
-#
-type
-:
-Text
                 
 elif
 raw_file_contents
@@ -3110,18 +2968,12 @@ def
 get_parser
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 argparse
 .
 ArgumentParser
+:
     
 parser
 =
@@ -3405,18 +3257,12 @@ def
 get_parser_affected
 (
 )
-:
-    
-#
-type
-:
-(
-)
 -
 >
 argparse
 .
 ArgumentParser
+:
     
 parser
 =
@@ -3471,20 +3317,13 @@ get_revish
 *
 *
 kwargs
-)
 :
-    
-#
-type
-:
-(
-*
-*
 Any
 )
 -
 >
 Text
+:
     
 revish
 =
@@ -3529,20 +3368,13 @@ run_changed_files
 *
 *
 kwargs
-)
 :
-    
-#
-type
-:
-(
-*
-*
 Any
 )
 -
 >
 None
+:
     
 revish
 =
@@ -3642,20 +3474,13 @@ run_tests_affected
 *
 *
 kwargs
-)
 :
-    
-#
-type
-:
-(
-*
-*
 Any
 )
 -
 >
 None
+:
     
 revish
 =

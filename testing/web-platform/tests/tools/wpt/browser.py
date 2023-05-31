@@ -16955,14 +16955,10 @@ strip
 )
         
 assert
-(
 os_id
-)
         
 assert
-(
 version_id
-)
         
 osidversion
 =
@@ -16975,23 +16971,19 @@ os_id
 version_id
         
 assert
-(
 '
 '
 not
 in
 osidversion
-)
         
 assert
-(
 len
 (
 osidversion
 )
 >
 3
-)
         
 return
 osidversion

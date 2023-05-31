@@ -101,10 +101,6 @@ only
 .
     
 http_status
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -112,10 +108,6 @@ int
 ]
     
 status_code
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -1110,6 +1102,11 @@ item
 =
 =
 type
+and
+item
+!
+=
+WebDriverException
 and
 issubclass
 (

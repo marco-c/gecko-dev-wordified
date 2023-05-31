@@ -3,49 +3,18 @@ os
 .
 path
 from
-inspect
-import
-isabstract
-from
-urllib
-.
-parse
-import
-urljoin
-urlparse
-parse_qs
-from
 abc
 import
 ABCMeta
 abstractproperty
 from
-.
-utils
+inspect
 import
-to_os_path
-MYPY
-=
-False
-if
-MYPY
-:
-    
-#
-MYPY
-is
-set
-to
-True
-when
-run
-under
-Mypy
-.
-    
+isabstract
 from
 typing
 import
+(
 Any
 Dict
 Hashable
@@ -55,15 +24,33 @@ Sequence
 Text
 Tuple
 Type
+                    
+TYPE_CHECKING
 Union
 cast
+)
+from
+urllib
+.
+parse
+import
+urljoin
+urlparse
+parse_qs
+from
+.
+utils
+import
+to_os_path
+if
+TYPE_CHECKING
+:
     
 from
 .
 manifest
 import
 Manifest
-    
 Fuzzy
 =
 Dict
@@ -82,7 +69,6 @@ List
 int
 ]
 ]
-    
 PageRanges
 =
 Dict
@@ -94,20 +80,20 @@ int
 ]
 ]
 item_types
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 Type
 [
+"
 ManifestItem
+"
 ]
 ]
+=
+{
+}
 class
 ManifestItemMeta
 (
@@ -154,25 +140,24 @@ def
 __new__
 (
 cls
-name
-bases
-attrs
-)
 :
-        
-#
-type
-:
-(
 Type
 [
+"
 ManifestItemMeta
+"
 ]
+name
+:
 str
+bases
+:
 Tuple
 [
 type
 ]
+attrs
+:
 Dict
 [
 str
@@ -181,7 +166,10 @@ Any
 )
 -
 >
+"
 ManifestItemMeta
+"
+:
         
 inst
 =
@@ -214,10 +202,6 @@ inst
 ManifestItem
 )
         
-if
-MYPY
-:
-            
 item_type
 =
 cast
@@ -227,24 +211,6 @@ inst
 .
 item_type
 )
-        
-else
-:
-            
-assert
-isinstance
-(
-inst
-.
-item_type
-str
-)
-            
-item_type
-=
-inst
-.
-item_type
         
 item_types
 [
@@ -280,20 +246,16 @@ __init__
 (
 self
 tests_root
-path
-)
 :
-        
-#
-type
-:
-(
 Text
+path
+:
 Text
 )
 -
 >
 None
+:
         
 self
 .
@@ -314,16 +276,10 @@ id
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 "
 "
@@ -351,16 +307,10 @@ item_type
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 str
+:
         
 "
 "
@@ -383,13 +333,6 @@ path_parts
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -399,6 +342,7 @@ Text
 .
 .
 ]
+:
         
 return
 tuple
@@ -422,16 +366,10 @@ key
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Hashable
+:
         
 "
 "
@@ -461,18 +399,13 @@ __eq__
 (
 self
 other
-)
 :
-        
-#
-type
-:
-(
 Any
 )
 -
 >
 bool
+:
         
 if
 not
@@ -510,16 +443,10 @@ __hash__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 int
+:
         
 return
 hash
@@ -536,16 +463,10 @@ __repr__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 str
+:
         
 return
 f
@@ -590,13 +511,6 @@ to_json
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -606,6 +520,7 @@ Any
 .
 .
 ]
+:
         
 return
 (
@@ -619,37 +534,26 @@ from_json
 cls
                   
 manifest
-#
-type
 :
+"
 Manifest
+"
                   
 path
-#
-type
 :
 Text
                   
 obj
-#
-type
 :
 Any
                   
 )
-:
-        
-#
-type
-:
-(
-.
-.
-.
-)
 -
 >
+"
 ManifestItem
+"
+:
         
 path
 =
@@ -706,26 +610,18 @@ __init__
 self
                  
 tests_root
-#
-type
 :
 Text
                  
 path
-#
-type
 :
 Text
                  
 url_base
-#
-type
 :
 Text
                  
 url
-#
-type
 :
 Optional
 [
@@ -735,25 +631,14 @@ Text
 *
 *
 extras
-#
-type
 :
 Any
                  
 )
-:
-        
-#
-type
-:
-(
-.
-.
-.
-)
 -
 >
 None
+:
         
 super
 (
@@ -882,16 +767,10 @@ id
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 return
 self
@@ -905,16 +784,10 @@ url
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 rel_url
 =
@@ -987,16 +860,10 @@ https
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 bool
+:
         
 return
 "
@@ -1032,16 +899,10 @@ h2
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 bool
+:
         
 return
 "
@@ -1059,16 +920,10 @@ subdomain
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 bool
+:
         
 #
 Note
@@ -1114,13 +969,6 @@ to_json
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -1135,6 +983,7 @@ Any
 Any
 ]
 ]
+:
         
 rel_url
 =
@@ -1166,14 +1015,6 @@ self
 _url
         
 rv
-=
-(
-rel_url
-{
-}
-)
-#
-type
 :
 Tuple
 [
@@ -1187,6 +1028,12 @@ Any
 Any
 ]
 ]
+=
+(
+rel_url
+{
+}
+)
         
 return
 rv
@@ -1199,20 +1046,16 @@ from_json
 cls
                   
 manifest
-#
-type
 :
+"
 Manifest
+"
                   
 path
-#
-type
 :
 Text
                   
 obj
-#
-type
 :
 Tuple
 [
@@ -1225,19 +1068,12 @@ Any
 ]
                   
 )
-:
-        
-#
-type
-:
-(
-.
-.
-.
-)
 -
 >
+"
 URLManifestItem
+"
+:
         
 path
 =
@@ -1305,19 +1141,13 @@ timeout
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -1338,19 +1168,13 @@ pac
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -1371,19 +1195,13 @@ testdriver
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -1404,19 +1222,13 @@ jsshell
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -1437,13 +1249,6 @@ script_metadata
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
@@ -1457,6 +1262,7 @@ Text
 ]
 ]
 ]
+:
         
 return
 self
@@ -1475,13 +1281,6 @@ to_json
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -1496,6 +1295,7 @@ Text
 Any
 ]
 ]
+:
         
 rv
 =
@@ -1657,26 +1457,18 @@ __init__
 self
                  
 tests_root
-#
-type
 :
 Text
                  
 path
-#
-type
 :
 Text
                  
 url_base
-#
-type
 :
 Text
                  
 url
-#
-type
 :
 Optional
 [
@@ -1684,10 +1476,6 @@ Text
 ]
                  
 references
-=
-None
-#
-type
 :
 Optional
 [
@@ -1700,12 +1488,12 @@ Text
 ]
 ]
 ]
+=
+None
                  
 *
 *
 extras
-#
-type
 :
 Any
                  
@@ -1736,11 +1524,6 @@ None
 self
 .
 references
-=
-[
-]
-#
-type
 :
 List
 [
@@ -1749,6 +1532,9 @@ Tuple
 Text
 Text
 ]
+]
+=
+[
 ]
         
 else
@@ -1767,19 +1553,13 @@ timeout
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -1800,19 +1580,13 @@ viewport_size
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -1833,19 +1607,13 @@ dpi
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -1866,33 +1634,12 @@ fuzzy
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Fuzzy
+:
         
 fuzzy
-=
-self
-.
-_extras
-.
-get
-(
-"
-fuzzy
-"
-{
-}
-)
-#
-type
 :
 Union
 [
@@ -1915,6 +1662,19 @@ int
 ]
 ]
 ]
+=
+self
+.
+_extras
+.
+get
+(
+"
+fuzzy
+"
+{
+}
+)
         
 if
 not
@@ -1929,13 +1689,11 @@ return
 fuzzy
         
 rv
+:
+Fuzzy
 =
 {
 }
-#
-type
-:
-Fuzzy
         
 for
 k
@@ -1968,10 +1726,6 @@ None
 :
                 
 key
-=
-None
-#
-type
 :
 Optional
 [
@@ -1982,6 +1736,8 @@ Text
 Text
 ]
 ]
+=
+None
             
 else
 :
@@ -2034,17 +1790,6 @@ to_json
 (
 self
 )
-:
-#
-type
-:
-ignore
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -2067,6 +1812,11 @@ Text
 Any
 ]
 ]
+:
+#
+type
+:
+ignore
         
 rel_url
 =
@@ -2086,17 +1836,6 @@ self
 _url
         
 rv
-=
-(
-rel_url
-self
-.
-references
-{
-}
-)
-#
-type
 :
 Tuple
 [
@@ -2118,6 +1857,15 @@ Text
 Any
 ]
 ]
+=
+(
+rel_url
+self
+.
+references
+{
+}
+)
         
 extras
 =
@@ -2226,20 +1974,16 @@ type
 ignore
                   
 manifest
-#
-type
 :
+"
 Manifest
+"
                   
 path
-#
-type
 :
 Text
                   
 obj
-#
-type
 :
 Tuple
 [
@@ -2260,19 +2004,12 @@ Any
 ]
                   
 )
-:
-        
-#
-type
-:
-(
-.
-.
-.
-)
 -
 >
+"
 RefTest
+"
+:
         
 tests_root
 =
@@ -2348,16 +2085,10 @@ page_ranges
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 PageRanges
+:
         
 return
 self
@@ -2493,19 +2224,13 @@ timeout
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 None
@@ -2534,19 +2259,13 @@ timeout
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Optional
 [
 Text
 ]
+:
         
 return
 self
@@ -2565,13 +2284,6 @@ to_json
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Tuple
@@ -2586,6 +2298,7 @@ Text
 Any
 ]
 ]
+:
         
 rv
 =
@@ -2648,16 +2361,10 @@ id
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 return
 self

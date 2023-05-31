@@ -8,80 +8,23 @@ from
 collections
 import
 defaultdict
-MYPY
-=
-False
-if
-MYPY
-:
-    
-#
-MYPY
-is
-set
-to
-True
-when
-run
-under
-Mypy
-.
-    
 from
 typing
 import
+(
 Any
-    
-from
-typing
-import
 Dict
-    
-from
-typing
-import
 Iterable
-    
-from
-typing
-import
 List
-    
-from
-typing
-import
 MutableMapping
-    
-from
-typing
-import
 Optional
-    
-from
-typing
-import
 Pattern
-    
-from
-typing
-import
 Tuple
-    
-from
-typing
-import
 TypeVar
-    
-from
-typing
-import
+                    
 Union
-    
-from
-typing
-import
 cast
-    
+)
 T
 =
 TypeVar
@@ -114,13 +57,7 @@ def
 fnmatch_translate
 (
 pat
-)
 :
-    
-#
-type
-:
-(
 bytes
 )
 -
@@ -133,6 +70,7 @@ Pattern
 bytes
 ]
 ]
+:
     
 parts
 =
@@ -140,15 +78,13 @@ parts
 ]
     
 seq
-=
-None
-#
-type
 :
 Optional
 [
 int
 ]
+=
+None
     
 i
 =
@@ -895,13 +831,7 @@ def
 parse_line
 (
 line
-)
 :
-    
-#
-type
-:
-(
 bytes
 )
 -
@@ -933,6 +863,7 @@ bytes
 ]
 ]
 ]
+:
     
 line
 =
@@ -1058,22 +989,6 @@ literal
 True
         
 pattern
-=
-tuple
-(
-line
-.
-rsplit
-(
-b
-"
-/
-"
-1
-)
-)
-#
-type
 :
 Union
 [
@@ -1093,6 +1008,20 @@ bytes
 ]
 ]
 ]
+=
+tuple
+(
+line
+.
+rsplit
+(
+b
+"
+/
+"
+1
+)
+)
     
 else
 :
@@ -1122,20 +1051,10 @@ __init__
 (
 self
 root
-extras
-=
-None
-cache
-=
-None
-)
 :
-        
-#
-type
-:
-(
 bytes
+extras
+:
 Optional
 [
 List
@@ -1143,6 +1062,10 @@ List
 bytes
 ]
 ]
+=
+None
+cache
+:
 Optional
 [
 MutableMapping
@@ -1151,16 +1074,24 @@ bytes
 bool
 ]
 ]
+=
+None
 )
 -
 >
 None
+:
         
 if
 root
 :
             
 ignore_path
+:
+Optional
+[
+bytes
+]
 =
 os
 .
@@ -1175,13 +1106,6 @@ b
 gitignore
 "
 )
-#
-type
-:
-Optional
-[
-bytes
-]
         
 else
 :
@@ -1215,13 +1139,6 @@ False
 self
 .
 literals_file
-=
-defaultdict
-(
-dict
-)
-#
-type
 :
 Dict
 [
@@ -1245,17 +1162,15 @@ bytes
 ]
 ]
 ]
+=
+defaultdict
+(
+dict
+)
         
 self
 .
 literals_dir
-=
-defaultdict
-(
-dict
-)
-#
-type
 :
 Dict
 [
@@ -1279,15 +1194,15 @@ bytes
 ]
 ]
 ]
+=
+defaultdict
+(
+dict
+)
         
 self
 .
 patterns_file
-=
-[
-]
-#
-type
 :
 List
 [
@@ -1313,16 +1228,14 @@ bytes
 ]
 ]
 ]
+]
+=
+[
 ]
         
 self
 .
 patterns_dir
-=
-[
-]
-#
-type
 :
 List
 [
@@ -1348,6 +1261,9 @@ bytes
 ]
 ]
 ]
+]
+=
+[
 ]
         
 if
@@ -1364,16 +1280,14 @@ cache
 self
 .
 cache
-=
-cache
-#
-type
 :
 MutableMapping
 [
 bytes
 bool
 ]
+=
+cache
         
 if
 extras
@@ -1400,11 +1314,6 @@ ignore_path
 :
             
 args
-=
-ignore_path
-extras
-#
-type
 :
 Tuple
 [
@@ -1417,6 +1326,11 @@ List
 bytes
 ]
 ]
+=
+(
+ignore_path
+extras
+)
         
 else
 :
@@ -1439,18 +1353,13 @@ _read_ignore
 (
 self
 ignore_path
-extras
-)
 :
-        
-#
-type
-:
-(
 Optional
 [
 bytes
 ]
+extras
+:
 List
 [
 bytes
@@ -1459,6 +1368,7 @@ bytes
 -
 >
 None
+:
         
 if
 ignore_path
@@ -1510,18 +1420,13 @@ _read_line
 (
 self
 line
-)
 :
-        
-#
-type
-:
-(
 bytes
 )
 -
 >
 None
+:
         
 parsed
 =
@@ -1589,10 +1494,6 @@ assert
 not
 literal
             
-if
-MYPY
-:
-                
 rule
 =
 cast
@@ -1614,6 +1515,25 @@ dir_only
 :
                 
 rules_iter
+:
+Iterable
+[
+Tuple
+[
+Any
+List
+[
+Tuple
+[
+bool
+Pattern
+[
+bytes
+]
+]
+]
+]
+]
 =
 itertools
 .
@@ -1676,27 +1596,6 @@ self
 .
 patterns_file
 )
-#
-type
-:
-Iterable
-[
-Tuple
-[
-Any
-List
-[
-Tuple
-[
-bool
-Pattern
-[
-bytes
-]
-]
-]
-]
-]
             
 else
 :
@@ -1760,10 +1659,6 @@ if
 literal
 :
                 
-if
-MYPY
-:
-                    
 rule
 =
 cast
@@ -1850,10 +1745,6 @@ pattern
 else
 :
                 
-if
-MYPY
-:
-                    
 rule
 =
 cast
@@ -1906,8 +1797,6 @@ filter
 self
                
 iterator
-#
-type
 :
 Iterable
 [
@@ -1934,16 +1823,6 @@ T
 ]
                
 )
-:
-        
-#
-type
-:
-(
-.
-.
-.
-)
 -
 >
 Iterable
@@ -1969,19 +1848,18 @@ T
 ]
 ]
 ]
+:
         
 empty
-=
-{
-}
-#
-type
 :
 Dict
 [
 Any
 Any
 ]
+=
+{
+}
         
 for
 dirpath
@@ -2031,11 +1909,6 @@ b
 )
             
 keep_dirs
-=
-[
-]
-#
-type
 :
 List
 [
@@ -2044,14 +1917,12 @@ Tuple
 bytes
 T
 ]
+]
+=
+[
 ]
             
 keep_files
-=
-[
-]
-#
-type
 :
 List
 [
@@ -2060,6 +1931,9 @@ Tuple
 bytes
 T
 ]
+]
+=
+[
 ]
             
 for
@@ -2392,8 +2266,6 @@ __call__
 self
                  
 iterator
-#
-type
 :
 Iterable
 [
@@ -2420,16 +2292,6 @@ T
 ]
                  
 )
-:
-        
-#
-type
-:
-(
-.
-.
-.
-)
 -
 >
 Iterable
@@ -2455,6 +2317,7 @@ T
 ]
 ]
 ]
+:
         
 if
 self
@@ -2476,18 +2339,13 @@ def
 has_ignore
 (
 dirpath
-)
 :
-    
-#
-type
-:
-(
 bytes
 )
 -
 >
 bool
+:
     
 return
 os

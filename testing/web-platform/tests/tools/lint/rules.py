@@ -6,25 +6,6 @@ import
 os
 import
 re
-MYPY
-=
-False
-if
-MYPY
-:
-    
-#
-MYPY
-is
-set
-to
-True
-when
-run
-under
-Mypy
-.
-    
 from
 typing
 import
@@ -36,7 +17,6 @@ Pattern
 Text
 Tuple
 cast
-    
 Error
 =
 Tuple
@@ -53,18 +33,13 @@ def
 collapse
 (
 text
-)
 :
-    
-#
-type
-:
-(
 Text
 )
 -
 >
 Text
+:
     
 return
 inspect
@@ -106,16 +81,10 @@ name
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 pass
     
@@ -128,29 +97,21 @@ description
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 pass
     
 to_fix
-=
-None
-#
-type
 :
 Optional
 [
 Text
 ]
+=
+None
     
 classmethod
     
@@ -159,21 +120,10 @@ error
 (
 cls
 path
-context
-=
-(
-)
-line_no
-=
-None
-)
 :
-        
-#
-type
-:
-(
 Text
+context
+:
 Tuple
 [
 Any
@@ -181,19 +131,23 @@ Any
 .
 .
 ]
+=
+(
+)
+line_no
+:
 Optional
 [
 int
 ]
+=
+None
 )
 -
 >
 Error
-        
-if
-MYPY
 :
-            
+        
 name
 =
 cast
@@ -203,7 +157,7 @@ cls
 .
 name
 )
-            
+        
 description
 =
 cast
@@ -213,25 +167,6 @@ cls
 .
 description
 )
-        
-else
-:
-            
-name
-=
-cls
-.
-name
-            
-description
-=
-cls
-.
-description
-        
-description
-=
-description
 %
 context
         
@@ -2424,16 +2359,10 @@ pattern
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 bytes
+:
         
 pass
     
@@ -2446,16 +2375,10 @@ name
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 pass
     
@@ -2468,24 +2391,14 @@ description
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 Text
+:
         
 pass
     
 file_extensions
-=
-None
-#
-type
 :
 Optional
 [
@@ -2494,26 +2407,27 @@ List
 Text
 ]
 ]
+=
+None
     
 def
 __init__
 (
 self
 )
-:
-        
-#
-type
-:
-(
-)
 -
 >
 None
+:
         
 self
 .
 _re
+:
+Pattern
+[
+bytes
+]
 =
 re
 .
@@ -2523,31 +2437,19 @@ self
 .
 pattern
 )
-#
-type
-:
-Pattern
-[
-bytes
-]
     
 def
 applies
 (
 self
 path
-)
 :
-        
-#
-type
-:
-(
 Text
 )
 -
 >
 bool
+:
         
 return
 (
@@ -2580,13 +2482,7 @@ search
 (
 self
 line
-)
 :
-        
-#
-type
-:
-(
 bytes
 )
 -
@@ -2598,6 +2494,7 @@ Match
 bytes
 ]
 ]
+:
         
 return
 self

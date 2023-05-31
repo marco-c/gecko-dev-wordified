@@ -77,10 +77,6 @@ only
 .
     
 error_code
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -508,6 +504,11 @@ item
 =
 =
 type
+and
+item
+!
+=
+BidiException
 and
 issubclass
 (

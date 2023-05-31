@@ -83,11 +83,6 @@ Pipeline
 :
     
 pipes
-=
-{
-}
-#
-type
 :
 ClassVar
 [
@@ -103,6 +98,9 @@ Any
 ]
 ]
 ]
+=
+{
+}
     
 def
 __init__

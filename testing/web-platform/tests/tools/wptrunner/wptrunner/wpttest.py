@@ -13,6 +13,10 @@ subprocess
 import
 sys
 from
+abc
+import
+ABC
+from
 collections
 import
 defaultdict
@@ -22,6 +26,7 @@ import
 Any
 ClassVar
 Dict
+Optional
 Type
 from
 urllib
@@ -67,6 +72,9 @@ reftest
 }
 class
 Result
+(
+ABC
+)
 :
     
 def
@@ -203,6 +211,9 @@ status
 "
 class
 SubtestResult
+(
+ABC
+)
 :
     
 def
@@ -1402,13 +1413,12 @@ http
 "
 class
 Test
+(
+ABC
+)
 :
     
 result_cls
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -1419,24 +1429,21 @@ Result
 ]
     
 subtest_result_cls
-=
-None
-#
-type
 :
 ClassVar
+[
+Optional
 [
 Type
 [
 SubtestResult
 ]
 ]
-    
-test_type
+]
 =
 None
-#
-type
+    
+test_type
 :
 ClassVar
 [
@@ -3042,32 +3049,6 @@ self
 .
 url
 class
-ManualTest
-(
-Test
-)
-:
-    
-test_type
-=
-"
-manual
-"
-    
-property
-    
-def
-id
-(
-self
-)
-:
-        
-return
-self
-.
-url
-class
 ReftestTest
 (
 Test
@@ -4397,12 +4378,6 @@ testharness
 "
 :
 TestharnessTest
-                     
-"
-manual
-"
-:
-ManualTest
                      
 "
 wdspec

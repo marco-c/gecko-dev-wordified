@@ -229,11 +229,6 @@ __metaclass__
 ABCMeta
     
 implements
-=
-[
-]
-#
-type
 :
 ClassVar
 [
@@ -241,9 +236,14 @@ List
 [
 Type
 [
+"
 ProtocolPart
+"
 ]
 ]
+]
+=
+[
 ]
     
 def
@@ -635,10 +635,6 @@ __metaclass__
 ABCMeta
     
 name
-=
-None
-#
-type
 :
 ClassVar
 [

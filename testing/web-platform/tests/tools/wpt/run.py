@@ -1277,10 +1277,6 @@ BrowserSetup
 :
     
 name
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -1288,10 +1284,6 @@ str
 ]
     
 browser_cls
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -2655,12 +2647,6 @@ chrome
 "
     
 browser_cls
-=
-browser
-.
-Chrome
-#
-type
 :
 ClassVar
 [
@@ -2671,8 +2657,23 @@ browser
 ChromeChromiumBase
 ]
 ]
+=
+browser
+.
+Chrome
     
 experimental_channels
+:
+ClassVar
+[
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 (
 "
@@ -2685,19 +2686,6 @@ canary
 nightly
 "
 )
-#
-type
-:
-ClassVar
-[
-Tuple
-[
-str
-.
-.
-.
-]
-]
     
 def
 setup_kwargs
@@ -3512,12 +3500,6 @@ chromium
 "
     
 browser_cls
-=
-browser
-.
-Chromium
-#
-type
 :
 ClassVar
 [
@@ -3528,6 +3510,10 @@ browser
 ChromeChromiumBase
 ]
 ]
+=
+browser
+.
+Chromium
     
 experimental_channels
 =

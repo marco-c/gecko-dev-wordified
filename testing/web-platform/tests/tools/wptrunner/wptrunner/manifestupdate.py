@@ -33,6 +33,7 @@ Callable
 ClassVar
 Dict
 List
+Optional
 from
 .
 wptmanifest
@@ -2165,10 +2166,6 @@ PropertyUpdate
 :
     
 property_name
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -2176,26 +2173,28 @@ str
 ]
     
 cls_default_value
-=
-None
-#
-type
 :
 ClassVar
+[
+Optional
 [
 Any
 ]
-    
-value_type
+]
 =
 None
-#
-type
+    
+value_type
 :
 ClassVar
 [
+Optional
+[
 type
 ]
+]
+=
+None
     
 #
 property_builder
@@ -2228,10 +2227,6 @@ annotated
 .
     
 property_builder
-=
-None
-#
-type
 :
 ClassVar
 [
@@ -5707,11 +5702,6 @@ PropertyUpdate
 :
     
 cls_default_value
-=
-[
-]
-#
-type
 :
 ClassVar
 [
@@ -5719,6 +5709,9 @@ List
 [
 str
 ]
+]
+=
+[
 ]
     
 property_builder
@@ -6024,11 +6017,6 @@ threshold
 "
     
 cls_default_value
-=
-{
-}
-#
-type
 :
 ClassVar
 [
@@ -6038,6 +6026,9 @@ str
 int
 ]
 ]
+=
+{
+}
     
 property_builder
 =
