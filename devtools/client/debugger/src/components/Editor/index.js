@@ -252,6 +252,8 @@ getHighlightedCalls
 getBlackBoxRanges
 isSourceBlackBoxed
 getHighlightedLineRangeForSelectedSource
+isSourceMapIgnoreListEnabled
+isSourceOnSourceMapIgnoreList
 }
 from
 "
@@ -817,6 +819,11 @@ highlightedLineRange
 PropTypes
 .
 object
+isSourceOnIgnoreList
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -2283,6 +2290,7 @@ editorActions
 isPaused
 conditionalPanelLocation
 closeConditionalPanel
+isSourceOnIgnoreList
 blackboxedRanges
 }
 =
@@ -2458,6 +2466,7 @@ selectedSource
 editorActions
 editor
 blackboxedRanges
+isSourceOnIgnoreList
 line
 )
 ]
@@ -2540,6 +2549,7 @@ addBreakpointAtLine
 continueToHere
 breakableLines
 blackboxedRanges
+isSourceOnIgnoreList
 }
 =
 this
@@ -2706,6 +2716,7 @@ selectedSource
 url
 ]
 sourceLine
+isSourceOnIgnoreList
 )
 )
 ;
@@ -3644,6 +3655,19 @@ selectedSource
 )
 :
 null
+isSourceOnIgnoreList
+:
+isSourceMapIgnoreListEnabled
+(
+state
+)
+&
+&
+isSourceOnSourceMapIgnoreList
+(
+state
+selectedSource
+)
 searchInFileEnabled
 :
 getActiveSearch

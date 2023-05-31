@@ -673,6 +673,7 @@ cx
 selectedSource
 blackboxedRanges
 editorActions
+isSourceOnIgnoreList
 )
 =
 >
@@ -756,6 +757,9 @@ accesskey
 )
 disabled
 :
+isSourceOnIgnoreList
+|
+|
 !
 shouldBlackbox
 (
@@ -788,6 +792,7 @@ selectedSource
 editorActions
 editor
 blackboxedRanges
+isSourceOnIgnoreList
 /
 /
 the
@@ -958,6 +963,18 @@ when
 1
 )
 The
+source
+is
+on
+the
+sourcemap
+ignore
+list
+/
+/
+2
+)
+The
 whole
 source
 is
@@ -965,7 +982,7 @@ blackboxed
 or
 /
 /
-2
+3
 )
 Multiple
 lines
@@ -974,7 +991,7 @@ blackboxed
 or
 /
 /
-3
+4
 )
 Multiple
 lines
@@ -986,15 +1003,9 @@ editor
 const
 shouldDisable
 =
-(
-blackboxedRanges
-[
-selectedSource
-.
-url
-]
-&
-&
+isSourceOnIgnoreList
+|
+|
 !
 blackboxedRanges
 [
@@ -1002,9 +1013,9 @@ selectedSource
 .
 url
 ]
+?
 .
 length
-)
 |
 |
 !
@@ -1166,6 +1177,7 @@ selectedSource
 editorActions
 editor
 blackboxedRanges
+isSourceOnIgnoreList
 )
 =
 >
@@ -1322,7 +1334,7 @@ accesskey
 )
 disabled
 :
-false
+isSourceOnIgnoreList
 click
 :
 (
@@ -1717,6 +1729,7 @@ isTextSelected
 isPaused
 editorWrappingEnabled
 editor
+isSourceOnIgnoreList
 }
 )
 {
@@ -1861,6 +1874,7 @@ cx
 selectedSource
 blackboxedRanges
 editorActions
+isSourceOnIgnoreList
 )
 )
 ;
@@ -2028,6 +2042,7 @@ selectedSource
 editorActions
 editor
 blackboxedRanges
+isSourceOnIgnoreList
 )
 )
 ;
