@@ -1064,7 +1064,7 @@ raises
 (
 error
 .
-NoSuchElementException
+StaleElementReferenceException
 )
 :
         
