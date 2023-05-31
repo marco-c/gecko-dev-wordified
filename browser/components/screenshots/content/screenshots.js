@@ -588,6 +588,15 @@ ScreenshotsUtils
 copyScreenshot
 (
 dataUrl
+window
+.
+parent
+.
+ownerGlobal
+.
+gBrowser
+.
+selectedBrowser
 )
 ;
 this
