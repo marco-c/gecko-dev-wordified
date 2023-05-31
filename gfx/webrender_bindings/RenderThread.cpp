@@ -3760,19 +3760,6 @@ front
 (
 )
 ;
-frameInfo
-.
-mFrameNeedsRender
-|
-=
-aRender
-;
-render
-=
-frameInfo
-.
-mFrameNeedsRender
-;
 frame
 =
 frameInfo
@@ -3802,7 +3789,6 @@ Now
 VsyncId
 (
 )
-aRender
 }
 ;
 }
@@ -6019,7 +6005,6 @@ PendingFrameInfo
 {
 aStartTime
 aStartId
-false
 }
 )
 ;
