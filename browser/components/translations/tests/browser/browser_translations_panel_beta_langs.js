@@ -357,8 +357,6 @@ translations
 -
 panel
 -
-default
--
 to
 "
 )
@@ -383,8 +381,6 @@ getByL10nId
 translations
 -
 panel
--
-default
 -
 translate
 -

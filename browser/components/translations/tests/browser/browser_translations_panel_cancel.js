@@ -140,8 +140,6 @@ translations
 -
 panel
 -
-default
--
 translate
 -
 cancel
