@@ -977,32 +977,34 @@ CLANGXX
 )
 +
 SUPPORTS_GNUXX1Z
-CLANG_5_0
+CLANG_7_0
 =
 CLANG
 (
 "
-5
+7
 .
 0
 .
-1
+0
 "
 )
 +
 DEFAULT_C11
-CLANGXX_5_0
+CLANGXX_7_0
 =
 CLANGXX
 (
 "
-5
+7
 .
 0
 .
-1
+0
 "
 )
++
+DEFAULT_CXX_14
 +
 SUPPORTS_GNUXX17
 XCODE_CLANG_3_3
@@ -1124,16 +1126,16 @@ __apple_build_version__
 "
 }
 )
-XCODE_CLANG_5_0
+XCODE_CLANG_7_0
 =
 CLANG
 (
 "
-9
-.
-1
+10
 .
 0
+.
+1
 "
 )
 +
@@ -1148,18 +1150,18 @@ __apple_build_version__
 1
 "
 }
-XCODE_CLANGXX_5_0
+XCODE_CLANGXX_7_0
 =
 (
     
 CLANGXX
 (
 "
-9
-.
-1
+10
 .
 0
+.
+1
 "
 )
 +
@@ -1177,10 +1179,10 @@ __apple_build_version__
 )
 DEFAULT_CLANG
 =
-CLANG_5_0
+CLANG_7_0
 DEFAULT_CLANGXX
 =
-CLANGXX_5_0
+CLANGXX_7_0
 def
 CLANG_PLATFORM
 (
@@ -3109,12 +3111,12 @@ bin
 /
 clang
 -
-5
+7
 .
 0
 "
 :
-CLANG_5_0
+CLANG_7_0
 +
 CLANG_PLATFORM_X86_64_LINUX
         
@@ -3128,12 +3130,12 @@ clang
 +
 +
 -
-5
+7
 .
 0
 "
 :
-CLANGXX_5_0
+CLANGXX_7_0
 +
 CLANG_PLATFORM_X86_64_LINUX
         
@@ -3554,7 +3556,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -3584,7 +3586,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -3614,7 +3616,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -3644,7 +3646,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -3665,7 +3667,7 @@ version
     
 )
     
-CLANG_5_0_RESULT
+CLANG_7_0_RESULT
 =
 CompilerResult
 (
@@ -3690,11 +3692,11 @@ gnu99
 version
 =
 "
-5
+7
 .
 0
 .
-1
+0
 "
         
 type
@@ -3713,7 +3715,7 @@ bin
 /
 clang
 -
-5
+7
 .
 0
 "
@@ -3726,7 +3728,7 @@ C
     
 )
     
-CLANGXX_5_0_RESULT
+CLANGXX_7_0_RESULT
 =
 CompilerResult
 (
@@ -3754,11 +3756,11 @@ gnu
 version
 =
 "
-5
+7
 .
 0
 .
-1
+0
 "
         
 type
@@ -3779,7 +3781,7 @@ clang
 +
 +
 -
-5
+7
 .
 0
 "
@@ -3796,7 +3798,7 @@ C
     
 DEFAULT_CLANG_RESULT
 =
-CLANG_5_0_RESULT
+CLANG_7_0_RESULT
 +
 {
 "
@@ -3815,7 +3817,7 @@ clang
     
 DEFAULT_CLANGXX_RESULT
 =
-CLANGXX_5_0_RESULT
+CLANGXX_7_0_RESULT
 +
 {
 "
@@ -4859,7 +4861,7 @@ c_compiler
 :
 self
 .
-CLANG_5_0_RESULT
+CLANG_7_0_RESULT
                 
 "
 cxx_compiler
@@ -4867,7 +4869,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_5_0_RESULT
+CLANGXX_7_0_RESULT
             
 }
             
@@ -4881,7 +4883,7 @@ CC
 "
 clang
 -
-5
+7
 .
 0
 "
@@ -6348,7 +6350,7 @@ bin
 clang
 "
 :
-XCODE_CLANG_5_0
+XCODE_CLANG_7_0
 +
 CLANG_PLATFORM_X86_64_OSX
         
@@ -6363,7 +6365,7 @@ clang
 +
 "
 :
-XCODE_CLANGXX_5_0
+XCODE_CLANGXX_7_0
 +
 CLANG_PLATFORM_X86_64_OSX
         
@@ -6461,7 +6463,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -6495,7 +6497,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -6529,7 +6531,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -6563,7 +6565,7 @@ Only
 clang
 /
 llvm
-5
+7
 .
 0
 or
@@ -6613,11 +6615,11 @@ gnu99
 version
 =
 "
-5
+7
 .
 0
 .
-2
+0
 "
         
 type
@@ -6681,11 +6683,11 @@ gnu
 version
 =
 "
-5
+7
 .
 0
 .
-2
+0
 "
         
 type
@@ -7534,12 +7536,12 @@ bin
 /
 clang
 -
-5
+7
 .
 0
 "
 :
-CLANG_5_0
+CLANG_7_0
 +
 CLANG_PLATFORM_X86_WIN
         
@@ -7553,12 +7555,12 @@ clang
 +
 +
 -
-5
+7
 .
 0
 "
 :
-CLANGXX_5_0
+CLANGXX_7_0
 +
 CLANG_PLATFORM_X86_WIN
         
@@ -8744,12 +8746,12 @@ bin
 /
 clang
 -
-5
+7
 .
 0
 "
 :
-CLANG_5_0
+CLANG_7_0
 +
 CLANG_PLATFORM_X86_64_WIN
         
@@ -8763,12 +8765,12 @@ clang
 +
 +
 -
-5
+7
 .
 0
 "
 :
-CLANGXX_5_0
+CLANGXX_7_0
 +
 CLANG_PLATFORM_X86_64_WIN
         
@@ -12434,7 +12436,7 @@ bin
 clang
 "
 :
-CLANG_5_0
+CLANG_7_0
 +
 CLANG_PLATFORM_X86_64_LINUX
             
@@ -12449,7 +12451,7 @@ clang
 +
 "
 :
-CLANGXX_5_0
+CLANGXX_7_0
 +
 CLANG_PLATFORM_X86_64_LINUX
         
@@ -12482,11 +12484,11 @@ gnu99
 version
 =
 "
-5
+7
 .
 0
 .
-1
+0
 "
         
 type
@@ -12542,11 +12544,11 @@ gnu
 version
 =
 "
-5
+7
 .
 0
 .
-1
+0
 "
         
 type
