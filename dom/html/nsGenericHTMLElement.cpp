@@ -22177,6 +22177,14 @@ aRv
 return
 ;
 }
+bool
+shouldRestoreFocus
+=
+false
+;
+nsWeakPtr
+originallyFocusedElement
+;
 if
 (
 IsAutoPopover
@@ -22270,9 +22278,6 @@ aRv
 return
 ;
 }
-}
-const
-bool
 shouldRestoreFocus
 =
 !
@@ -22303,9 +22308,6 @@ s
 DOM
 anchor
 .
-nsWeakPtr
-originallyFocusedElement
-;
 if
 (
 nsIContent
@@ -22332,6 +22334,7 @@ AsElement
 )
 )
 ;
+}
 }
 document
 -
