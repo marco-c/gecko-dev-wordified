@@ -740,6 +740,7 @@ bool
 HasActiveDocument
 (
 )
+const
 ;
 /
 /

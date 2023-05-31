@@ -1146,6 +1146,12 @@ return
 mClientOffset
 ;
 }
+LayoutDeviceIntPoint
+GetScreenEdgeSlop
+(
+)
+override
+;
 /
 /
 Recomputes
