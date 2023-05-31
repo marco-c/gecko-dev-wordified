@@ -17093,7 +17093,7 @@ If
 ASAN
 _is_
 on
-undefine
+disable
 FORTIFY_SOURCE
 just
 to
@@ -17108,7 +17108,9 @@ append
 (
 "
 -
-U_FORTIFY_SOURCE
+D_FORTIFY_SOURCE
+=
+0
 "
 )
 #
