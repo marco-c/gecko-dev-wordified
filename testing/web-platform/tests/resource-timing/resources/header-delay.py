@@ -46,27 +46,33 @@ writer
 .
 _handler
     
+if
+b
+"
+with100
+"
+in
+request
+.
+GET
+:
+        
 sleep
 (
 delay
 )
-    
+        
 handler
 .
 send_response
 (
 100
 )
-    
+        
 handler
 .
 end_headers
 (
-)
-    
-sleep
-(
-delay
 )
     
 if
@@ -79,6 +85,11 @@ request
 .
 GET
 :
+        
+sleep
+(
+delay
+)
         
 handler
 .
@@ -118,7 +129,7 @@ handler
 end_headers
 (
 )
-        
+    
 sleep
 (
 delay
