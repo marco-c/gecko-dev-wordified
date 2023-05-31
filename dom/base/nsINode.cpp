@@ -2312,7 +2312,7 @@ GetParentNode
 const
 LinkedList
 <
-AbstractRange
+nsRange
 >
 *
 ranges
@@ -2336,7 +2336,7 @@ continue
 for
 (
 const
-AbstractRange
+nsRange
 *
 range
 :
