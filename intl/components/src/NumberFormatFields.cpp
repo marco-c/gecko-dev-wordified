@@ -2640,9 +2640,6 @@ NumberPartType
 Compact
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 case
 UNUM_APPROXIMATELY_SIGN_FIELD
 :
@@ -2655,8 +2652,6 @@ NumberPartType
 ApproximatelySign
 )
 ;
-#
-endif
 #
 ifndef
 U_HIDE_DEPRECATED_API
