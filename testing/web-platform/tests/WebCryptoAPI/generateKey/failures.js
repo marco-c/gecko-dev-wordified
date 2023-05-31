@@ -1945,12 +1945,14 @@ should
 be
 checked
 is
-an
 empty
 usages
 (
+disallowed
 for
 secret
+and
+private
 keys
 )
 .
