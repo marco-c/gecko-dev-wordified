@@ -2673,6 +2673,61 @@ None
 None
 )
 )
+    
+classmethod
+    
+def
+process_count
+(
+cls
+requested_processes
+num_test_groups
+)
+:
+        
+"
+"
+"
+Get
+the
+number
+of
+processes
+to
+use
+.
+        
+This
+must
+always
+be
+at
+least
+one
+but
+otherwise
+not
+more
+than
+the
+number
+of
+test
+groups
+"
+"
+"
+        
+return
+max
+(
+1
+min
+(
+requested_processes
+num_test_groups
+)
+)
 class
 GroupedSource
 (
@@ -2828,21 +2883,35 @@ put
 item
 )
         
+processes
+=
 cls
 .
-add_sentinal
+process_count
 (
-test_queue
 kwargs
 [
 "
 processes
 "
 ]
+len
+(
+groups
+)
+)
+        
+cls
+.
+add_sentinal
+(
+test_queue
+processes
 )
         
 return
 test_queue
+processes
     
 classmethod
     
@@ -2967,6 +3036,10 @@ mp
 Queue
 (
 )
+        
+num_test_groups
+=
+0
         
 for
 test_type
@@ -3106,22 +3179,38 @@ TestGroup
 item
 )
 )
+                    
+num_test_groups
++
+=
+1
         
+processes
+=
 cls
 .
-add_sentinal
+process_count
 (
-test_queue
 kwargs
 [
 "
 processes
 "
 ]
+num_test_groups
+)
+        
+cls
+.
+add_sentinal
+(
+test_queue
+processes
 )
         
 return
 test_queue
+processes
     
 classmethod
     
@@ -3370,6 +3459,10 @@ Queue
 (
 )
         
+num_test_groups
+=
+0
+        
 for
 test_type
 tests
@@ -3477,22 +3570,38 @@ test_type
 group_metadata
 )
 )
+                
+num_test_groups
++
+=
+1
         
+processes
+=
 cls
 .
-add_sentinal
+process_count
 (
-test_queue
 kwargs
 [
 "
 processes
 "
 ]
+num_test_groups
+)
+        
+cls
+.
+add_sentinal
+(
+test_queue
+processes
 )
         
 return
 test_queue
+processes
     
 classmethod
     
