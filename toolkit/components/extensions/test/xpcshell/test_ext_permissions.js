@@ -258,7 +258,9 @@ webext
 -
 perms
 -
-add
+sideload
+-
+text
 "
 )
 ;

@@ -827,6 +827,12 @@ Failed
 )
 )
 {
+rv
+.
+SuppressException
+(
+)
+;
 InitialTranslationCompleted
 (
 false
