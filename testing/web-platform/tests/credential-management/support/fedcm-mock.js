@@ -595,6 +595,12 @@ configURL
 {
 }
 async
+closeModalDialogView
+(
+)
+{
+}
+async
 reset
 (
 )
