@@ -266,7 +266,7 @@ SVGAttrTearoffTable
 (
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 mTable
