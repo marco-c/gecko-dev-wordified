@@ -1591,6 +1591,7 @@ JSObject
 Symbol
 String
 BaseScript
+JitCode
 Id
 AllocSite
 /

@@ -236,6 +236,9 @@ class
 ICCacheIRStub
 ;
 class
+JitCode
+;
+class
 MOZ_RAII
 CacheIRCloner
 {
@@ -343,6 +346,14 @@ stubOffset
 BaseScript
 *
 getBaseScriptField
+(
+uint32_t
+stubOffset
+)
+;
+JitCode
+*
+getJitCodeField
 (
 uint32_t
 stubOffset
