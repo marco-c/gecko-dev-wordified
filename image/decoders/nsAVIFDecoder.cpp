@@ -1483,11 +1483,9 @@ mColorImage
 >
 mDuration
 .
-ToMicroseconds
+ToMilliseconds
 (
 )
-/
-USECS_PER_MS
 ;
 aImage
 .
