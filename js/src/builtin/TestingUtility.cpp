@@ -149,7 +149,7 @@ h
 "
 /
 /
-JS_EncodeStringToLatin1
+JS_EncodeStringToUTF8
 #
 include
 "
@@ -501,7 +501,7 @@ fileNameBytes
 *
 fileNameBytes
 =
-JS_EncodeStringToLatin1
+JS_EncodeStringToUTF8
 (
 cx
 s

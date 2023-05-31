@@ -669,6 +669,12 @@ ScriptedCaller
 UniqueChars
 filename
 ;
+/
+/
+UTF
+-
+8
+encoded
 bool
 filenameIsURL
 ;
