@@ -595,6 +595,13 @@ configURL
 {
 }
 async
+resolveTokenRequest
+(
+token
+)
+{
+}
+async
 closeModalDialogView
 (
 )
