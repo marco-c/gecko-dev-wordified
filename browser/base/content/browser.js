@@ -132,7 +132,7 @@ mjs
 ;
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -145,7 +145,9 @@ modules
 /
 NotificationDB
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
