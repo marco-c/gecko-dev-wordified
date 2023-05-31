@@ -313,9 +313,9 @@ BUG_COMPONENT
 Toolkit
 "
 "
-OS
-.
-File
+IOUtils
+and
+PathUtils
 "
 )
 PREPROCESSED_WEBIDL_FILES
