@@ -418,8 +418,13 @@ modified_paths
 +
 =
 [
+os
+.
 path
-+
+.
+join
+(
+path
 "
 *
 *
@@ -432,6 +437,7 @@ path
 sep
 +
 exts
+)
 ]
     
 #
