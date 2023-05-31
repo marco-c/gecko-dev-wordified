@@ -1375,7 +1375,7 @@ above
 js
 :
 :
-MainThreadData
+MainThreadOrIonCompileData
 <
 bool
 >
@@ -1384,7 +1384,7 @@ allocNurseryObjects_
 js
 :
 :
-MainThreadData
+MainThreadOrIonCompileData
 <
 bool
 >
@@ -1393,7 +1393,7 @@ allocNurseryStrings_
 js
 :
 :
-MainThreadData
+MainThreadOrIonCompileData
 <
 bool
 >
