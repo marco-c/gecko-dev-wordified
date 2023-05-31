@@ -161,6 +161,13 @@ h
 #
 include
 "
+AccessibleDocument_i
+.
+c
+"
+#
+include
+"
 AccessibleEditableText
 .
 h
