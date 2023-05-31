@@ -597,6 +597,7 @@ GetTrackIndice
 uint32_t
 aTrackId
 )
+const
 ;
 nsresult
 Parse
