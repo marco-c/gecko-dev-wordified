@@ -15261,6 +15261,10 @@ GlobalScope
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 loadInfo
@@ -16244,6 +16248,10 @@ document
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 /
@@ -16794,6 +16802,10 @@ document
 or
 CookieJarSettings
 "
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 MOZ_ASSERT
