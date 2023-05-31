@@ -3020,7 +3020,7 @@ this
 ;
 if
 (
-cachedIonBytecodeInfo_
+usesEnvironmentChain_
 .
 isSome
 (
@@ -3045,13 +3045,12 @@ return
 false
 ;
 }
-cachedIonBytecodeInfo_
+usesEnvironmentChain_
 .
 emplace
 (
-AnalyzeBytecodeForIon
+ScriptUsesEnvironmentChain
 (
-cx
 script
 )
 )
