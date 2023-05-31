@@ -687,12 +687,7 @@ public
 :
 /
 /
-The
-UTF
--
-8
-encoded
-source
+Source
 file
 name
 URL

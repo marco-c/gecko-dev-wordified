@@ -7619,7 +7619,7 @@ nsIScriptError
 InitWithWindowID
 (
 bestMessage
-NS_ConvertUTF8toUTF16
+NS_ConvertASCIItoUTF16
 (
 report
 -

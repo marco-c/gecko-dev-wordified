@@ -10,6 +10,13 @@ error
 unsafe
 filename
 :
+(
+invalid
+UTF
+-
+8
+filename
+)
 setTestFilenameValidationCallback
 (
 )

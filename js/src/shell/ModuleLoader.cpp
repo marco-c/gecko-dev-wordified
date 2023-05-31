@@ -2677,7 +2677,7 @@ module
 UniqueChars
 filename
 =
-JS_EncodeStringToUTF8
+JS_EncodeStringToLatin1
 (
 cx
 path
