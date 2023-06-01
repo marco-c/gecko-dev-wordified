@@ -1490,12 +1490,6 @@ parser
 (
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 options
 chars
 .
