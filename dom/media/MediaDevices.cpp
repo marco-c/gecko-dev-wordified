@@ -1937,6 +1937,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -5597,6 +5601,10 @@ a
 simple
 one
 "
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -5671,6 +5679,10 @@ window
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {

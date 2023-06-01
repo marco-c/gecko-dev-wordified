@@ -562,6 +562,10 @@ ownerDoc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {

@@ -924,6 +924,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 fields

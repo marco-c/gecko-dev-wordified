@@ -166,6 +166,12 @@ MediaInfo
 class
 MediaResult
 ;
+enum
+class
+RFPTarget
+:
+uint32_t
+;
 namespace
 dom
 {
@@ -1440,6 +1446,8 @@ virtual
 bool
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 const
 =

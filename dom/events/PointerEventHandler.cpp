@@ -2061,6 +2061,10 @@ ShouldResistFingerprinting
 Efficiency
 Check
 "
+RFPTarget
+:
+:
+PointerEvents
 )
 &
 &
@@ -2171,6 +2175,10 @@ OwnerDoc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+PointerEvents
 )
 )
 {

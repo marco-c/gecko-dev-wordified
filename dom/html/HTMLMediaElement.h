@@ -2253,6 +2253,8 @@ HadCrossOriginRedirects
 bool
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 const
 override
