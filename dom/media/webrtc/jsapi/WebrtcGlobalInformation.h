@@ -210,6 +210,13 @@ DOMHighResTimeStamp
 >
 &
 aAfter
+const
+Optional
+<
+DOMHighResTimeStamp
+>
+&
+aSdpAfter
 ErrorResult
 &
 aRv
