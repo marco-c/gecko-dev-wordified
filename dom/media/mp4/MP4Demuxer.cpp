@@ -356,7 +356,7 @@ const
 IndiceWrapper
 &
 aIndices
-int32_t
+uint32_t
 aTimeScale
 )
 ;
@@ -2244,7 +2244,7 @@ const
 IndiceWrapper
 &
 aIndices
-int32_t
+uint32_t
 aTimeScale
 )
 :

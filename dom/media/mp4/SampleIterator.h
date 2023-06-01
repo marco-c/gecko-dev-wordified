@@ -524,7 +524,7 @@ uint32_t
 aTrackId
 bool
 aIsAudio
-int32_t
+uint32_t
 aTimeScale
 )
 ;
