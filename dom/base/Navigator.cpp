@@ -5260,6 +5260,10 @@ ShouldResistFingerprinting
 GetDocShell
 (
 )
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
