@@ -118,6 +118,7 @@ subdomains
 .
 *
 /
+export
 function
 getDomain
 (
@@ -214,6 +215,7 @@ return
 domain
 ;
 }
+export
 class
 TippyTopProvider
 {
@@ -396,15 +398,3 @@ site
 ;
 }
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-TippyTopProvider
-"
-"
-getDomain
-"
-]
-;

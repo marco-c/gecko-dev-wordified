@@ -149,7 +149,7 @@ FeatureCalloutMessages
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -164,7 +164,9 @@ lib
 /
 FeatureCalloutMessages
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2115,7 +2117,9 @@ state
 see
 FeatureCalloutMessages
 .
-jsm
+sys
+.
+mjs
 for
 valid
 values

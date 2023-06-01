@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 FACEBOOK_CONTAINER_PARAMS
 =
@@ -4690,6 +4685,7 @@ bar
 }
 ]
 ;
+export
 const
 CFRMessageProvider
 =
@@ -4719,13 +4715,4 @@ exclude
 ;
 }
 }
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-CFRMessageProvider
-"
-]
 ;

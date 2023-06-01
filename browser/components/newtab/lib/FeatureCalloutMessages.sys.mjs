@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Eventually
@@ -3034,6 +3029,7 @@ messages
 ;
 }
 ;
+export
 const
 FeatureCalloutMessages
 =
@@ -3049,13 +3045,4 @@ MESSAGES
 ;
 }
 }
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-FeatureCalloutMessages
-"
-]
 ;

@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 TWO_DAYS
 =
@@ -3320,6 +3315,7 @@ lifetime
 }
 ]
 ;
+export
 const
 PanelTestProvider
 =
@@ -3365,13 +3361,4 @@ SHOW_TEST
 ;
 }
 }
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-PanelTestProvider
-"
-]
 ;

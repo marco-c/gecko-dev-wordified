@@ -98,7 +98,7 @@ getDomain
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -113,7 +113,9 @@ lib
 /
 TippyTopProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

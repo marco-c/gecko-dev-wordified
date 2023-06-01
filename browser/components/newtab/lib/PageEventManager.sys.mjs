@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -96,6 +91,7 @@ clicked
 .
 *
 /
+export
 class
 PageEventManager
 {
@@ -600,12 +596,3 @@ clear
 ;
 }
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-PageEventManager
-"
-]
-;

@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 TEST_ICON
 =
@@ -4649,6 +4644,7 @@ Block
 }
 ]
 ;
+export
 const
 SnippetsTestMessageProvider
 =
@@ -4708,13 +4704,4 @@ SHOW_TEST
 ;
 }
 }
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-SnippetsTestMessageProvider
-"
-]
 ;

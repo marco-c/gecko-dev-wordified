@@ -25,7 +25,9 @@ lib
 /
 ASRouterNewTabHook
 .
-jsm
+sys
+.
+mjs
 "
 ;
 describe

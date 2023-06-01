@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -81,6 +76,7 @@ object
 .
 *
 /
+export
 class
 PersistentCache
 {
@@ -596,12 +592,3 @@ tmp
 ;
 }
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-PersistentCache
-"
-]
-;

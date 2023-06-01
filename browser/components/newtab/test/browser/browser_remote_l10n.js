@@ -39,7 +39,7 @@ RemoteL10n
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -54,7 +54,9 @@ lib
 /
 RemoteL10n
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -231,7 +233,9 @@ ftl
 see
 RemoteL10n
 .
-jsm
+sys
+.
+mjs
 RemoteL10n
 .
 reloadL10n

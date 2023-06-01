@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -120,6 +115,7 @@ action_position
 "
 ]
 ;
+export
 class
 UTEventReporting
 {
@@ -367,12 +363,3 @@ false
 ;
 }
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-UTEventReporting
-"
-]
-;

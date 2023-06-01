@@ -132,15 +132,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 RemoteL10n
 :
 "
@@ -156,7 +147,9 @@ lib
 /
 RemoteL10n
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

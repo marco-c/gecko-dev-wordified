@@ -179,7 +179,7 @@ PersistentCache
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -194,7 +194,9 @@ lib
 /
 PersistentCache
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
