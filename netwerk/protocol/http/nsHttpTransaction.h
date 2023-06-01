@@ -1799,6 +1799,10 @@ const
 nsACString
 &
 aFailedDomainName
+const
+nsACString
+&
+aFailedAlpn
 bool
 &
 aAllRecordsHaveEchConfig
@@ -3819,11 +3823,6 @@ false
 ;
 bool
 mFastFallbackTriggered
-=
-false
-;
-bool
-mAllRecordsInH3ExcludedListBefore
 =
 false
 ;
