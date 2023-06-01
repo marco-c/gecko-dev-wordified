@@ -2546,7 +2546,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -2576,7 +2576,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {

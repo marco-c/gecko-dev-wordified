@@ -780,7 +780,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -789,7 +789,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 static
@@ -878,7 +881,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -887,7 +890,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 static
@@ -930,7 +936,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -939,7 +945,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 static
@@ -1922,7 +1931,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -1931,7 +1940,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 template
@@ -1970,7 +1982,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -1979,7 +1991,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 template

@@ -1004,7 +1004,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 ;
@@ -1290,7 +1290,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 uint32_t
 numElements
@@ -1990,7 +1990,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 uint32_t
 inlineBytes
@@ -2112,7 +2112,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 {

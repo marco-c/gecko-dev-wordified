@@ -3075,7 +3075,10 @@ uintptr_t
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 |
 |
@@ -3087,7 +3090,10 @@ uintptr_t
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 )
 ;

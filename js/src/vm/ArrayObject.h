@@ -413,7 +413,7 @@ kind
 gc
 :
 :
-InitialHeap
+Heap
 heap
 Handle
 <

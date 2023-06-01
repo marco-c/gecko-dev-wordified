@@ -4480,7 +4480,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 ;

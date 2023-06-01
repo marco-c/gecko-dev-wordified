@@ -282,7 +282,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 js
 :

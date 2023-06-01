@@ -10266,7 +10266,7 @@ nullptr
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 GetInitialHeap
@@ -11046,7 +11046,10 @@ allocKind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 shape
 )
 ;

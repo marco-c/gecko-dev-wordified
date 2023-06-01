@@ -34665,7 +34665,7 @@ templateConst
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 bool
 vmCall
@@ -49598,7 +49598,7 @@ templateObj
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 {

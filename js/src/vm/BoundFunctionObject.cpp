@@ -2606,7 +2606,10 @@ allocKind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 shape
 )
 ;
@@ -3042,7 +3045,10 @@ allocKind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 shape
 )
 ;

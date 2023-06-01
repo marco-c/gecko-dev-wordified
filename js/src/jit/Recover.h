@@ -3777,7 +3777,7 @@ allocKind_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 public
@@ -3822,7 +3822,7 @@ length_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 public

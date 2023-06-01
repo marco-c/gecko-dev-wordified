@@ -165,7 +165,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 #
 include
 "
@@ -393,7 +393,7 @@ class_
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 GetInitialHeap

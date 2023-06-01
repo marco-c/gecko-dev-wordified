@@ -756,7 +756,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -765,7 +765,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 {
 MOZ_ASSERT
@@ -903,7 +906,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -912,7 +915,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 {
 MOZ_ASSERT

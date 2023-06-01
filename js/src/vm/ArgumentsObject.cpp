@@ -1610,7 +1610,10 @@ FINALIZE_KIND
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 shape
 )
 ;
@@ -1957,7 +1960,10 @@ FINALIZE_KIND
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 shape
 )
 ;

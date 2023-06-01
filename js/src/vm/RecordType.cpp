@@ -795,7 +795,10 @@ NewObjectGCKind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 &
 RecordType
 :

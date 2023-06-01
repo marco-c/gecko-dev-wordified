@@ -12392,7 +12392,10 @@ allocKind
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 shape
 )
 ;

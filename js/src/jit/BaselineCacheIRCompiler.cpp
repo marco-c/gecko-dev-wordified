@@ -22599,7 +22599,10 @@ allocKind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 &
 fail
 AllocSiteInput
@@ -22911,7 +22914,10 @@ allocKind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 &
 fail
 AllocSiteInput

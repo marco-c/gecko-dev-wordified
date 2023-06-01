@@ -1150,7 +1150,7 @@ the
 tenured
 heap
 .
-InitialHeap
+Heap
 initialHeap
 (
 )
@@ -1167,9 +1167,15 @@ State
 :
 LongLived
 ?
-TenuredHeap
+Heap
 :
-DefaultHeap
+:
+Tenured
+:
+Heap
+:
+:
+Default
 ;
 }
 bool

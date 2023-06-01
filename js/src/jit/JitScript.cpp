@@ -4462,7 +4462,10 @@ initialHeap
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 |
 |
@@ -4481,7 +4484,10 @@ initialHeap
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 )
 {

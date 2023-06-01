@@ -657,7 +657,10 @@ this
 .
 *
 *
-TenuredHeap
+Heap
+:
+:
+Tenured
 Like
 Heap
 but
@@ -902,7 +905,10 @@ Use
 JS
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 <
 T
 >

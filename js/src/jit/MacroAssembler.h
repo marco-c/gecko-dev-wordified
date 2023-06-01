@@ -33397,7 +33397,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -35840,7 +35840,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 ;
@@ -35949,7 +35949,7 @@ nDynamicSlots
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -35996,7 +35996,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -36109,7 +36109,7 @@ templateObj
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -36143,7 +36143,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -36179,7 +36179,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -36250,7 +36250,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -36267,7 +36267,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -36284,7 +36284,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *

@@ -4925,7 +4925,7 @@ nullptr
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 GetInitialHeap
@@ -25191,7 +25191,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -25441,7 +25441,10 @@ heap
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 |
 |
 CanNurseryAllocateFinalizedClass

@@ -2473,7 +2473,7 @@ inline
 gc
 :
 :
-InitialHeap
+Heap
 GetInitialHeap
 (
 NewObjectKind
@@ -2504,7 +2504,10 @@ return
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 ;
 }
 if
@@ -2528,7 +2531,10 @@ return
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 ;
 }
 if
@@ -2549,7 +2555,10 @@ return
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 ;
 }
 /

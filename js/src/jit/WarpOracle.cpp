@@ -7925,7 +7925,7 @@ oldWord
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 =
 site
