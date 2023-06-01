@@ -248,6 +248,9 @@ class
 ErrorResult
 ;
 class
+IMEContentObserver
+;
+class
 TextEditor
 ;
 class
@@ -2369,11 +2372,6 @@ aValue
 )
 const
 ;
-bool
-HasNonEmptyValue
-(
-)
-;
 /
 /
 The
@@ -3769,7 +3767,7 @@ nullptr
 *
 *
 param
-aHandlingState
+aHandlingSetValue
 Must
 be
 inner
@@ -3800,7 +3798,7 @@ SetValueWithTextEditor
 (
 AutoTextControlHandlingState
 &
-aHandlingState
+aHandlingSetValue
 )
 ;
 /
@@ -3846,7 +3844,7 @@ nullptr
 *
 *
 param
-aHandlingState
+aHandlingSetValue
 Must
 be
 inner
@@ -3877,8 +3875,15 @@ SetValueWithoutTextEditor
 (
 AutoTextControlHandlingState
 &
-aHandlingState
+aHandlingSetValue
 )
+;
+IMEContentObserver
+*
+GetIMEContentObserver
+(
+)
+const
 ;
 /
 /
