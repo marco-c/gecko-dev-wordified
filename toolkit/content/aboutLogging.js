@@ -583,6 +583,9 @@ MediaDecoderStateMachine
 MediaDecoder
 :
 4
+MediaFormatReader
+:
+5
 "
 l10nIds
 :
