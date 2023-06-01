@@ -274,10 +274,6 @@ override
 NS_IMETHOD
 BeginPage
 (
-const
-IntSize
-&
-aSizeInPoints
 )
 override
 {

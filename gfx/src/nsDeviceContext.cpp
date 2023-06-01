@@ -2062,10 +2062,6 @@ nsDeviceContext
 :
 BeginPage
 (
-const
-IntSize
-&
-aSizeInPoints
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -2100,7 +2096,6 @@ mDeviceContextSpec
 >
 BeginPage
 (
-aSizeInPoints
 )
 )
 ;
@@ -2117,7 +2112,6 @@ mPrintTarget
 >
 BeginPage
 (
-aSizeInPoints
 )
 )
 ;
