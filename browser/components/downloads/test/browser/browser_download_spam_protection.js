@@ -290,15 +290,6 @@ browser
 .
 download
 .
-improvements_to_download_panel
-"
-]
-[
-"
-browser
-.
-download
-.
 alwaysOpenPanel
 "
 ]
