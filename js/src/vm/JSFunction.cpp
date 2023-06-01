@@ -7521,12 +7521,6 @@ DelazifyCanonicalScriptedFunction
 cx
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 fun
 )
 )

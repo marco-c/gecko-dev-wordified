@@ -7526,11 +7526,6 @@ DelazifyCanonicalScriptedFunction
 cx
 &
 fc_
-fc_
-.
-stackLimit
-(
-)
 &
 scopeCache
 borrow
