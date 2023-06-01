@@ -2020,11 +2020,6 @@ nsIGlobalObject
 aGlobalObject
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 /
@@ -2062,11 +2057,6 @@ nsIGlobalObject
 aGlobalObject
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 static

@@ -13240,15 +13240,6 @@ nsIGlobalObject
 aGlobalObject
 RFPTarget
 aTarget
-/
-*
-=
-RFPTarget
-:
-:
-Unknown
-*
-/
 )
 {
 if

@@ -1796,6 +1796,10 @@ ShouldResistFingerprinting
 (
 aCallerType
 global
+RFPTarget
+:
+:
+StreamVideoFacingMode
 )
 )
 {
