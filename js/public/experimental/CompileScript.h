@@ -642,11 +642,6 @@ options
 JS
 :
 :
-NativeStackLimit
-stackLimit
-JS
-:
-:
 SourceText
 <
 mozilla
@@ -691,11 +686,6 @@ options
 JS
 :
 :
-NativeStackLimit
-stackLimit
-JS
-:
-:
 SourceText
 <
 char16_t
@@ -734,11 +724,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-JS
-:
-:
-NativeStackLimit
-stackLimit
 JS
 :
 :
@@ -783,11 +768,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-JS
-:
-:
-NativeStackLimit
-stackLimit
 JS
 :
 :
