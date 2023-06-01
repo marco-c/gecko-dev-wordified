@@ -362,6 +362,11 @@ OriginAttributes
 aOriginAttributes
 )
 ;
+bool
+mODoHActivated
+=
+false
+;
 /
 /
 We

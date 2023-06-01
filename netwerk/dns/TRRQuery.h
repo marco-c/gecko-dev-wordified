@@ -186,6 +186,10 @@ TRR
 pushedTRR
 =
 nullptr
+bool
+aUseODoHProxy
+=
+false
 )
 ;
 void
@@ -438,6 +442,10 @@ TRR
 pushedTRR
 =
 nullptr
+bool
+aUseODoHProxy
+=
+false
 )
 ;
 private
@@ -464,6 +472,8 @@ MutexAutoLock
 void
 PrepareQuery
 (
+bool
+aUseODoH
 TrrType
 aRecType
 nsTArray
@@ -638,6 +648,11 @@ of
 successful
 TRR
 responses
+bool
+mUsingODoH
+=
+false
+;
 bool
 mCalledCompleteLookup
 =

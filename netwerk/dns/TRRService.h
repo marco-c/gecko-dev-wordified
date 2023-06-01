@@ -139,6 +139,13 @@ h
 #
 include
 "
+ODoHService
+.
+h
+"
+#
+include
+"
 TRRServiceBase
 .
 h
@@ -625,6 +632,10 @@ TRRServiceChild
 friend
 class
 TRRServiceParent
+;
+friend
+class
+ODoHService
 ;
 static
 void
@@ -2520,6 +2531,12 @@ mConfirmationTriggered
 {
 false
 }
+;
+RefPtr
+<
+ODoHService
+>
+mODoHService
 ;
 nsCOMPtr
 <

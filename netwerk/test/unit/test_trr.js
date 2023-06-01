@@ -44,6 +44,10 @@ trr_test_setup
 (
 )
 ;
+runningODoHTests
+=
+false
+;
 }
 setup
 (

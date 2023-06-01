@@ -143,6 +143,9 @@ class
 NetworkConnectivityService
 ;
 class
+ODoHService
+;
+class
 TRR
 ;
 class
@@ -154,6 +157,10 @@ private
 friend
 class
 NetworkConnectivityService
+;
+friend
+class
+ODoHService
 ;
 friend
 class

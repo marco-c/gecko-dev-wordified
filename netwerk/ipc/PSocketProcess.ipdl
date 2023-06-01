@@ -832,6 +832,13 @@ aAccepted
 )
 ;
 async
+ODoHServiceActivated
+(
+bool
+aActivated
+)
+;
+async
 ExcludeHttp2OrHttp3
 (
 HttpConnectionInfoCloneArgs
