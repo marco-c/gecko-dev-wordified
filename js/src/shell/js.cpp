@@ -30057,12 +30057,6 @@ CompileModule
 cx
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 options
 srcBuf
 )
@@ -33318,12 +33312,6 @@ ParseModuleToExtensibleStencil
 cx
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 cx
 -
 >

@@ -863,12 +863,6 @@ CompileModule
 cx
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 options
 srcBuf
 )
