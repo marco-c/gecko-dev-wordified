@@ -1175,7 +1175,7 @@ on
 *
 {
 *
-version_added
+added
 :
 {
 String
@@ -1189,7 +1189,7 @@ was
 added
 .
 *
-version_removed
+removed
 :
 {
 String
