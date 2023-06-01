@@ -835,12 +835,6 @@ CompileGlobalScript
 cx
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 options
 srcBuf
 scopeKind
@@ -3512,12 +3506,6 @@ CompileGlobalScript
 cx
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 options
 srcBuf
 scopeKind
