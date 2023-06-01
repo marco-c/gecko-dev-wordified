@@ -3346,6 +3346,8 @@ Side
 aSide
 nscoord
 aBorderWidth
+nscoord
+aAppUnitsPerDevPixel
 )
 {
 nscoord
@@ -3354,7 +3356,7 @@ roundedWidth
 NS_ROUND_BORDER_TO_PIXELS
 (
 aBorderWidth
-mTwipsPerPixel
+aAppUnitsPerDevPixel
 )
 ;
 mBorder
@@ -4266,9 +4268,6 @@ mBorder
 ;
 private
 :
-nscoord
-mTwipsPerPixel
-;
 nsStyleBorder
 &
 operator
@@ -4543,9 +4542,6 @@ layout
 .
 nscoord
 mActualOutlineWidth
-;
-nscoord
-mTwipsPerPixel
 ;
 }
 ;
@@ -6229,12 +6225,12 @@ mozilla
 StyleTextUnderlinePosition
 mTextUnderlinePosition
 ;
-nscoord
+mozilla
+:
+:
+StyleAu
 mWebkitTextStrokeWidth
 ;
-/
-/
-coord
 mozilla
 :
 :
@@ -13247,9 +13243,6 @@ layout
 .
 nscoord
 mActualColumnRuleWidth
-;
-nscoord
-mTwipsPerPixel
 ;
 }
 ;
