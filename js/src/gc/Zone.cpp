@@ -1151,6 +1151,10 @@ finalizedStrings
 (
 0
 )
+suppressAllocationMetadataBuilder
+(
+false
+)
 allocNurseryObjects_
 (
 true
@@ -1162,10 +1166,6 @@ true
 allocNurseryBigInts_
 (
 true
-)
-suppressAllocationMetadataBuilder
-(
-false
 )
 pretenuring
 (
