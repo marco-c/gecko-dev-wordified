@@ -29,7 +29,7 @@ ExtensionTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -42,7 +42,9 @@ common
 /
 ExtensionXPCShellUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -595,7 +597,7 @@ ExtensionCommon
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -608,7 +610,9 @@ modules
 /
 ExtensionCommon
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -19,7 +19,7 @@ Schemas
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -32,7 +32,9 @@ modules
 /
 Schemas
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -43,7 +45,7 @@ ExtensionCommon
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -56,7 +58,9 @@ modules
 /
 ExtensionCommon
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -12316,7 +12316,9 @@ created
 by
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 when
 debugging
 tabs
@@ -12409,7 +12411,9 @@ endsWith
 "
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
