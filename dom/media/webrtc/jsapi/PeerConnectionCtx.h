@@ -75,13 +75,6 @@ string
 #
 include
 "
-WebrtcGlobalChild
-.
-h
-"
-#
-include
-"
 api
 /
 field_trials_view
