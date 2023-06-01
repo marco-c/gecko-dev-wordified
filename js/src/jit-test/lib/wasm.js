@@ -1814,11 +1814,11 @@ wasm
 =
 wasmTextToBinary
 (
-'
+\
 {
 wast
 }
-'
+\
 )
 ;
 var
