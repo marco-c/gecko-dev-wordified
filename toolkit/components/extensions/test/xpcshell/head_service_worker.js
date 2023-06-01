@@ -54,9 +54,9 @@ exported
 TestWorkerWatcher
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -73,9 +73,7 @@ modules
 /
 ExtensionCommon
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

@@ -159,7 +159,7 @@ getTrimmedString
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -172,9 +172,7 @@ modules
 /
 ExtensionTelemetry
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -185,7 +183,7 @@ ExtensionStorage
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -198,9 +196,7 @@ modules
 /
 ExtensionStorage
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -211,7 +207,7 @@ ExtensionStorageIDB
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -224,9 +220,7 @@ modules
 /
 ExtensionStorageIDB
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

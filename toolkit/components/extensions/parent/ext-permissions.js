@@ -61,9 +61,9 @@ use
 strict
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -80,9 +80,7 @@ modules
 /
 ExtensionPermissions
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

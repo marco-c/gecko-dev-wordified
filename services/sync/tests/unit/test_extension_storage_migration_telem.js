@@ -85,7 +85,7 @@ rustImpl
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -98,9 +98,7 @@ modules
 /
 ExtensionStorageSync
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -113,7 +111,7 @@ kintoImpl
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -126,9 +124,7 @@ modules
 /
 ExtensionStorageSyncKinto
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

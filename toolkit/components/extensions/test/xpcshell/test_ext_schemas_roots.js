@@ -55,7 +55,7 @@ SchemaRoot
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -68,9 +68,7 @@ modules
 /
 Schemas
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

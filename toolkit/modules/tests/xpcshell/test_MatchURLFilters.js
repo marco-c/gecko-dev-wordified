@@ -39,7 +39,7 @@ MatchURLFilters
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -52,9 +52,7 @@ modules
 /
 MatchURLFilters
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

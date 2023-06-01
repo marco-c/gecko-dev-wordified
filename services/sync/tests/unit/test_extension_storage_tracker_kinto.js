@@ -116,7 +116,7 @@ extensionStorageSync
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -129,9 +129,7 @@ modules
 /
 ExtensionStorageSyncKinto
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

@@ -113,7 +113,7 @@ ExtensionUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -126,9 +126,7 @@ modules
 /
 ExtensionUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

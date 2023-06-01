@@ -1131,7 +1131,7 @@ windowTracker
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1144,9 +1144,7 @@ modules
 /
 Extension
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -2414,7 +2412,7 @@ browserActionFor
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -2427,9 +2425,7 @@ modules
 /
 Extension
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

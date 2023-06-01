@@ -153,7 +153,7 @@ ExtensionParent
 return
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -166,9 +166,7 @@ modules
 /
 ExtensionParent
 .
-sys
-.
-mjs
+jsm
 "
 )
 .
@@ -193,7 +191,7 @@ ExtensionProcessScript
 return
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -206,9 +204,7 @@ modules
 /
 ExtensionProcessScript
 .
-sys
-.
-mjs
+jsm
 "
 )
 .
@@ -233,7 +229,7 @@ ExtensionStorageIDB
 return
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -246,9 +242,7 @@ modules
 /
 ExtensionStorageIDB
 .
-sys
-.
-mjs
+jsm
 "
 )
 .

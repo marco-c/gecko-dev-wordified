@@ -625,7 +625,7 @@ PRIVILEGED_PERMS
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -638,9 +638,7 @@ modules
 /
 Extension
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

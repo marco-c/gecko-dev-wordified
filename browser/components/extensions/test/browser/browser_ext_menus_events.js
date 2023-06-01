@@ -68,7 +68,7 @@ ExtensionPermissions
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -81,9 +81,7 @@ modules
 /
 ExtensionPermissions
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -3728,7 +3726,7 @@ WebNavigationFrames
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -3741,9 +3739,7 @@ modules
 /
 WebNavigationFrames
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

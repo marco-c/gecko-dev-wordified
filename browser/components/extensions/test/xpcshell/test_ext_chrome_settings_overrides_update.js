@@ -2670,7 +2670,7 @@ ExtensionSettingsStore
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -2683,9 +2683,7 @@ modules
 /
 ExtensionSettingsStore
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

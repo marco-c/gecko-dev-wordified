@@ -258,11 +258,9 @@ contentPage
 .
 legacySpawn
 (
-[
 extension
 .
 id
-]
 extensionId
 =
 >
@@ -274,7 +272,7 @@ ExtensionProcessScript
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -287,9 +285,7 @@ modules
 /
 ExtensionProcessScript
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

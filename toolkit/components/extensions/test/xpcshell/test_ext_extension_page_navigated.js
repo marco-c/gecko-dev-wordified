@@ -384,7 +384,7 @@ ExtensionProcessScript
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -397,9 +397,7 @@ modules
 /
 ExtensionProcessScript
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -547,7 +545,7 @@ ExtensionProcessScript
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -560,9 +558,7 @@ modules
 /
 ExtensionProcessScript
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

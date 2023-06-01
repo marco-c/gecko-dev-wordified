@@ -75,7 +75,7 @@ strict
 ;
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -88,9 +88,7 @@ modules
 /
 ExtensionProcessScript
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

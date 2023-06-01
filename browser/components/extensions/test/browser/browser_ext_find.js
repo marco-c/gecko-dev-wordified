@@ -93,7 +93,7 @@ FindContent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -106,9 +106,7 @@ modules
 /
 FindContent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

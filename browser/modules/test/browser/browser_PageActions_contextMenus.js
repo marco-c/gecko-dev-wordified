@@ -18,9 +18,9 @@ the
 context
 menus
 .
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -37,9 +37,7 @@ modules
 /
 ExtensionCommon
 .
-sys
-.
-mjs
+jsm
 "
 }
 )
