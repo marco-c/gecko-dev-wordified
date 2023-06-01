@@ -645,6 +645,10 @@ GlobalScope
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+NavigatorAppName
 )
 )
 {
@@ -750,6 +754,10 @@ GlobalScope
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+NavigatorAppVersion
 )
 )
 {
@@ -855,6 +863,10 @@ GlobalScope
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+NavigatorPlatform
 )
 )
 {
@@ -1151,6 +1163,10 @@ GlobalScope
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+NavigatorUserAgent
 )
 )
 ;
@@ -1210,6 +1226,10 @@ GlobalScope
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+NavigatorHWConcurrency
 )
 ;
 return
