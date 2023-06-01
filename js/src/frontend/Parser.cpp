@@ -23973,15 +23973,6 @@ fc_
 this
 -
 >
-fc_
--
->
-stackLimit
-(
-)
-this
--
->
 parserAtoms
 (
 )
