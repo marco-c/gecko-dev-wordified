@@ -18574,7 +18574,7 @@ aEnumerableOnly
 ;
 }
 bool
-IsNonExposedGlobal
+IsGlobalInExposureSet
 (
 JSContext
 *
@@ -18583,12 +18583,12 @@ JSObject
 *
 aGlobal
 uint32_t
-aNonExposedGlobals
+aGlobalSet
 )
 {
 MOZ_ASSERT
 (
-aNonExposedGlobals
+aGlobalSet
 "
 Why
 did
@@ -18602,7 +18602,7 @@ called
 MOZ_ASSERT
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 ~
 (
@@ -18652,9 +18652,6 @@ ShadowRealmGlobalScope
 0
 "
 Unknown
-non
--
-exposed
 global
 type
 "
@@ -18679,7 +18676,7 @@ name
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
@@ -18717,7 +18714,7 @@ true
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
@@ -18743,7 +18740,7 @@ true
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
@@ -18769,7 +18766,7 @@ true
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
@@ -18795,7 +18792,7 @@ true
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
@@ -18821,7 +18818,7 @@ true
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
@@ -18847,7 +18844,7 @@ true
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
@@ -18873,7 +18870,7 @@ true
 if
 (
 (
-aNonExposedGlobals
+aGlobalSet
 &
 GlobalNames
 :
