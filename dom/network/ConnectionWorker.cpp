@@ -831,6 +831,10 @@ GlobalScope
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 ;
 RefPtr
