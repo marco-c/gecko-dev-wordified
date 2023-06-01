@@ -165,7 +165,7 @@ h
 "
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 #
 include
 "

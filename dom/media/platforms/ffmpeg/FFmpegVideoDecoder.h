@@ -196,7 +196,7 @@ h
 endif
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 #
 include
 "
@@ -720,7 +720,7 @@ const
 endif
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 void
 InitHWDecodingPrefs
 (
@@ -808,7 +808,7 @@ aResults
 endif
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 AVBufferRef
 *
 mVAAPIDeviceContext
