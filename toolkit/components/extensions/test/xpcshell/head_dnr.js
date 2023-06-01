@@ -42,9 +42,9 @@ getSchemaNormalizedRule
 getSchemaNormalizedRules
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -61,7 +61,9 @@ modules
 /
 Schemas
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

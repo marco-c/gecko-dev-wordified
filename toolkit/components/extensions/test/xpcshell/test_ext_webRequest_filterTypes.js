@@ -274,7 +274,7 @@ Schemas
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -287,7 +287,9 @@ modules
 /
 Schemas
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

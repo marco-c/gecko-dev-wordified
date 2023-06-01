@@ -94,7 +94,7 @@ MessageChannel
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -107,7 +107,9 @@ common
 /
 MessageChannel
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -181,7 +181,7 @@ ExtensionTestCommon
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -194,7 +194,9 @@ common
 /
 ExtensionTestCommon
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

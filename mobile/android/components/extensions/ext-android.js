@@ -191,7 +191,7 @@ ExtensionCommon
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -204,7 +204,9 @@ modules
 /
 ExtensionCommon
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -215,7 +217,7 @@ ExtensionUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -228,7 +230,9 @@ modules
 /
 ExtensionUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
