@@ -418,6 +418,13 @@ JS
 RealmOptions
 options
 ;
+/
+/
+TODO
+(
+bug
+1834744
+)
 options
 .
 behaviors
@@ -428,6 +435,10 @@ setShouldResistFingerprinting
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 )
 ;
