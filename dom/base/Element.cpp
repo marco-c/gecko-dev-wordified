@@ -19778,7 +19778,7 @@ IsClosestCommonInclusiveAncestorForRangeInSelection
 const
 LinkedList
 <
-nsRange
+AbstractRange
 >
 *
 ranges
@@ -19816,7 +19816,7 @@ unfortunately
 for
 (
 const
-nsRange
+AbstractRange
 *
 r
 =
