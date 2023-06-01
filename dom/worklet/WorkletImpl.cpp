@@ -602,6 +602,10 @@ AsGlobal
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 }

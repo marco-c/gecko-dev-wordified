@@ -2369,6 +2369,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -2410,15 +2414,6 @@ CallerType
 aCallerType
 RFPTarget
 aTarget
-/
-*
-=
-RFPTarget
-:
-:
-Unknown
-*
-/
 )
 const
 {

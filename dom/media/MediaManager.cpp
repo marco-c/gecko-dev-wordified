@@ -16879,6 +16879,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 ;
 if
@@ -20684,6 +20688,10 @@ AsGlobal
 ShouldResistFingerprinting
 (
 aCallerType
+RFPTarget
+:
+:
+Unknown
 )
 ;
 return
