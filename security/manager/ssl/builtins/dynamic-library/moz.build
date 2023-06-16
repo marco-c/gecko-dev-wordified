@@ -210,9 +210,6 @@ OS_LIBS
 "
 bcrypt
 "
-"
-ntdll
-"
 ]
 SharedLibrary
 (
