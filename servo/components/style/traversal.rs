@@ -300,6 +300,7 @@ please
 derive
 (
 Clone
+Copy
 Debug
 )
 ]
