@@ -240,7 +240,7 @@ WebRTC
 .
 Screenshare
 .
-DesktopCapturerUsage
+DesktopCapturerFullscreenDetector
 "
 true
 )
