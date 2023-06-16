@@ -1071,6 +1071,12 @@ pwLib
 ;
 GET_FUNC
 (
+pw_stream_state_as_string
+pwLib
+)
+;
+GET_FUNC
+(
 pw_thread_loop_destroy
 pwLib
 )
@@ -1132,6 +1138,12 @@ pwLib
 GET_FUNC
 (
 pw_get_library_version
+pwLib
+)
+;
+GET_FUNC
+(
+pw_proxy_destroy
 pwLib
 )
 ;
