@@ -521,6 +521,10 @@ PrintTargetThebes
 :
 BeginPage
 (
+const
+IntSize
+&
+aSizeInPoints
 )
 {
 #
