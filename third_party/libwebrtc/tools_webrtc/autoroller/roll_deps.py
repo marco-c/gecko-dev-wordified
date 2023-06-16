@@ -4357,6 +4357,34 @@ group
 deps_content
 )
   
+for
+dep
+in
+changed_deps
+:
+    
+if
+isinstance
+(
+dep
+ChangedVersionEntry
+)
+:
+      
+deps_content
+=
+deps_content
+.
+replace
+(
+dep
+.
+current_version
+dep
+.
+new_version
+)
+  
 with
 open
 (
@@ -4399,6 +4427,15 @@ in
 changed_deps
 :
     
+#
+ChangedVersionEntry
+types
+are
+already
+been
+processed
+.
+    
 if
 isinstance
 (
@@ -4406,20 +4443,6 @@ dep
 ChangedVersionEntry
 )
 :
-      
-deps_content
-=
-deps_content
-.
-replace
-(
-dep
-.
-current_version
-dep
-.
-new_version
-)
       
 continue
     
