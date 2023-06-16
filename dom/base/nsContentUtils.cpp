@@ -14722,15 +14722,6 @@ nsILoadInfo
 aLoadInfo
 RFPTarget
 aTarget
-/
-*
-=
-RFPTarget
-:
-:
-Unknown
-*
-/
 )
 {
 MOZ_ASSERT

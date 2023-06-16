@@ -2108,11 +2108,6 @@ nsILoadInfo
 aLoadInfo
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 /
