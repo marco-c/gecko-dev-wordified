@@ -6824,8 +6824,6 @@ well
 .
 if
 (
-NS_WARN_IF
-(
 !
 Theme
 :
@@ -6840,7 +6838,6 @@ PresContext
 )
 aFrame
 aAppearance
-)
 )
 )
 {
