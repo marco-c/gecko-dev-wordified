@@ -222,15 +222,6 @@ devtools
 js
 "
 "
-enable
--
-devtools
--
-popup
-.
-js
-"
-"
 local
 -
 tab
