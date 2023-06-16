@@ -469,11 +469,7 @@ const
 DOMHighResTimeStamp
 RedirectStart
 (
-Maybe
-<
 nsIPrincipal
-*
->
 &
 aSubjectPrincipal
 )
@@ -483,11 +479,7 @@ override
 DOMHighResTimeStamp
 RedirectEnd
 (
-Maybe
-<
 nsIPrincipal
-*
->
 &
 aSubjectPrincipal
 )
