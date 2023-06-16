@@ -1713,14 +1713,10 @@ this
 ;
 }
 void
-SetInitialState
+SetInitialThumbPos
 (
 OuterCSSCoord
 aThumbPos
-const
-CSSRect
-&
-aScrollableRect
 )
 ;
 void
@@ -1750,9 +1746,6 @@ mDragMetrics
 ;
 OuterCSSCoord
 mInitialThumbPos
-;
-CSSRect
-mInitialScrollableRect
 ;
 bool
 mReceivedMouseUp
