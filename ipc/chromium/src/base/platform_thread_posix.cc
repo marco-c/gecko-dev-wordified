@@ -126,7 +126,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -181,7 +181,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -232,7 +232,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 namespace
 base
@@ -329,7 +329,7 @@ kernel
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 mach_port_t
 port
@@ -540,7 +540,7 @@ remaining
 }
 #
 ifndef
-OS_MACOSX
+XP_DARWIN
 /
 /
 Mac
@@ -683,7 +683,7 @@ endif
 /
 /
 !
-OS_MACOSX
+XP_DARWIN
 namespace
 {
 bool
@@ -708,7 +708,7 @@ thread_handle
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 base
 :
@@ -721,7 +721,7 @@ InitThreading
 endif
 /
 /
-OS_MACOSX
+XP_DARWIN
 bool
 success
 =

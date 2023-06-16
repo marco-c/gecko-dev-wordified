@@ -258,7 +258,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -355,7 +355,7 @@ ConditionVariable
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 /
 /
@@ -542,7 +542,7 @@ kNanosecondsPerMicrosecond
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 int
 rv
@@ -772,7 +772,7 @@ HAVE_PTHREAD_COND_TIMEDWAIT_MONOTONIC
 endif
 /
 /
-OS_MACOSX
+XP_DARWIN
 /
 /
 On

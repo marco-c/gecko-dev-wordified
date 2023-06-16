@@ -294,7 +294,7 @@ MODE_CLIENT
 elif
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 channel
 -

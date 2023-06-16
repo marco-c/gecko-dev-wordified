@@ -202,7 +202,7 @@ h
 elif
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -332,7 +332,7 @@ endif
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 struct
 kinfo_proc
@@ -1126,7 +1126,7 @@ nullptr
 endif
 #
 ifdef
-OS_MACOSX
+XP_DARWIN
 /
 /
 On
@@ -1219,7 +1219,7 @@ __aarch64__
 endif
 /
 /
-OS_MACOSX
+XP_DARWIN
 }
 ;
 #

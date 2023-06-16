@@ -176,7 +176,7 @@ XP_WIN
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -293,7 +293,7 @@ elif
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 typedef
 mozilla
@@ -653,7 +653,7 @@ elif
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 RefPtr
 <

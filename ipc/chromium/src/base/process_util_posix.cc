@@ -940,7 +940,7 @@ fd
 elif
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 static
 const

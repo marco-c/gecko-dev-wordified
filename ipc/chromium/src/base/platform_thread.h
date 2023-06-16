@@ -334,13 +334,7 @@ PlatformThreadId
 elif
 defined
 (
-OS_MACOSX
-)
-|
-|
-defined
-(
-OS_IOS
+XP_DARWIN
 )
 #
 include

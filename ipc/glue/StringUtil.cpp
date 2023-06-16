@@ -515,7 +515,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -573,7 +573,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 &
 &

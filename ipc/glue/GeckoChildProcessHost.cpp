@@ -7745,7 +7745,7 @@ get
 ;
 #
 elif
-OS_MACOSX
+XP_DARWIN
 /
 /
 defined

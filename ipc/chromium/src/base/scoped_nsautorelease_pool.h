@@ -116,7 +116,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 if
@@ -144,7 +144,7 @@ __OBJC__
 endif
 /
 /
-OS_MACOSX
+XP_DARWIN
 namespace
 base
 {
@@ -246,7 +246,7 @@ if
 !
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 ScopedNSAutoreleasePool
 (
@@ -263,7 +263,7 @@ Recycle
 else
 /
 /
-OS_MACOSX
+XP_DARWIN
 ScopedNSAutoreleasePool
 (
 )
@@ -347,7 +347,7 @@ autorelease_pool_
 endif
 /
 /
-OS_MACOSX
+XP_DARWIN
 private
 :
 DISALLOW_COPY_AND_ASSIGN

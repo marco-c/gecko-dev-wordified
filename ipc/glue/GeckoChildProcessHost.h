@@ -1984,7 +1984,7 @@ mHandleLock
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 task_t
 mChildTask

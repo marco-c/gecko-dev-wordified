@@ -1215,7 +1215,7 @@ CloseClientFileDescriptor
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 /
 /
@@ -1564,7 +1564,7 @@ enum
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 /
 /

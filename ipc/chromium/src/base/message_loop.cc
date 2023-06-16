@@ -208,7 +208,7 @@ h
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -1627,7 +1627,7 @@ XP_WIN
 |
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 case
 TYPE_MOZILLA_NONMAINUITHREAD
@@ -1802,7 +1802,7 @@ TYPE_UI
 if
 defined
 (
-OS_MACOSX
+XP_DARWIN
 )
 pump_
 =
