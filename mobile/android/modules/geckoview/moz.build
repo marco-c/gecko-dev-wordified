@@ -171,6 +171,13 @@ sys
 mjs
 "
 "
+GeckoViewIdentityCredential
+.
+sys
+.
+mjs
+"
+"
 GeckoViewMediaControl
 .
 sys
