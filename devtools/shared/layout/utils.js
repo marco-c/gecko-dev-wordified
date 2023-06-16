@@ -5670,10 +5670,6 @@ null
 /
 /
 nsICSPEventListener
-null
-/
-/
-nsILoadInfo
 uri
 null
 /
@@ -5683,6 +5679,14 @@ false
 /
 /
 aSendViolationReports
+null
+/
+/
+aNonce
+false
+/
+/
+aParserCreated
 )
 ;
 return
