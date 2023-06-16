@@ -579,7 +579,7 @@ assertTranslationsButton
 {
 button
 :
-false
+true
 }
 "
 The
@@ -1442,7 +1442,7 @@ assertTranslationsButton
 {
 button
 :
-false
+true
 }
 "
 The
