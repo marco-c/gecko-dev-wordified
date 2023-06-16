@@ -214,7 +214,7 @@ succeeds
 .
 export
 function
-default_request_options
+request_options_with_mediation_required
 (
 manifest_filename
 )
@@ -299,6 +299,11 @@ nonce
 '
 }
 ]
+mediation
+:
+'
+required
+'
 }
 }
 ;
@@ -324,7 +329,7 @@ succeeds
 .
 export
 function
-default_alt_request_options
+alt_request_options_with_mediation_required
 (
 manifest_filename
 )
@@ -391,6 +396,11 @@ nonce
 '
 }
 ]
+mediation
+:
+'
+required
+'
 }
 }
 ;
@@ -412,7 +422,7 @@ succeeds
 .
 export
 function
-request_options_with_auto_reauthn
+request_options_with_mediation_optional
 (
 manifest_filename
 )
@@ -420,7 +430,7 @@ manifest_filename
 let
 options
 =
-default_request_options
+alt_request_options_with_mediation_required
 (
 manifest_filename
 )
@@ -448,9 +458,11 @@ options
 .
 identity
 .
-autoReauthn
+mediation
 =
-true
+'
+optional
+'
 ;
 return
 options
