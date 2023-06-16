@@ -4481,7 +4481,7 @@ inspect
 (
 )
 .
-IsSet
+IsSetAndValid
 (
 )
 )
