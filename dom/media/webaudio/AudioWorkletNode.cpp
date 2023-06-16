@@ -1731,6 +1731,10 @@ report
 -
 >
 filename
+.
+c_str
+(
+)
 )
 details
 .
