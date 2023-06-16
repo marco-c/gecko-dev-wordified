@@ -154,7 +154,7 @@ h
 elif
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 #
 include
@@ -353,7 +353,7 @@ port
 elif
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 return
 syscall

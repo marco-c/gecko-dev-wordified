@@ -242,7 +242,7 @@ endif
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -1820,7 +1820,7 @@ Create
 elif
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -1842,7 +1842,7 @@ MessagePumpForUI
 endif
 /
 /
-OS_LINUX
+XP_LINUX
 }
 else
 if

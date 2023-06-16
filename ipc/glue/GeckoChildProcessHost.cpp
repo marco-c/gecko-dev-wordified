@@ -7671,7 +7671,7 @@ path
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -7750,7 +7750,7 @@ XP_DARWIN
 /
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -8007,7 +8007,7 @@ endif
 /
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -8410,7 +8410,7 @@ IsDummy
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -8542,7 +8542,7 @@ MOZ_WIDGET_COCOA
 *
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -8577,7 +8577,7 @@ endif
 /
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |

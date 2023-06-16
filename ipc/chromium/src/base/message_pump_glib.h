@@ -185,7 +185,7 @@ MessageLoops
 on
 /
 /
-OS_LINUX
+XP_LINUX
 platforms
 using
 GLib
