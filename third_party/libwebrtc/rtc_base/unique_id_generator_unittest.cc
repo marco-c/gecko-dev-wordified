@@ -424,6 +424,8 @@ values
 push_back
 (
 generator
+.
+Generate
 (
 )
 )
@@ -559,6 +561,8 @@ known_values
 push_back
 (
 generator1
+.
+Generate
 (
 )
 )
@@ -622,6 +626,8 @@ values
 push_back
 (
 generator2
+.
+Generate
 (
 )
 )
@@ -756,6 +762,8 @@ known_values
 push_back
 (
 generator1
+.
+Generate
 (
 )
 )
@@ -838,6 +846,8 @@ values
 push_back
 (
 generator2
+.
+Generate
 (
 )
 )
@@ -941,6 +951,8 @@ value_type
 id
 =
 generator1
+.
+Generate
 (
 )
 ;
@@ -996,6 +1008,8 @@ value_type
 id
 =
 generator1
+.
+Generate
 (
 )
 ;
@@ -1061,6 +1075,8 @@ value_type
 id
 =
 generator1
+.
+Generate
 (
 )
 ;
@@ -1238,7 +1254,7 @@ context
 .
 generator
 .
-GenerateNumber
+Generate
 (
 )
 ;
@@ -1345,7 +1361,7 @@ context
 .
 generator
 .
-GenerateNumber
+Generate
 (
 )
 ;
@@ -1385,7 +1401,7 @@ EXPECT_DEATH
 (
 generator
 .
-GenerateNumber
+Generate
 (
 )
 "
