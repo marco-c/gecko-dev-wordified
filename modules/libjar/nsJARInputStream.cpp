@@ -457,7 +457,7 @@ rv
 =
 NS_OK
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aFd
 "
@@ -469,6 +469,16 @@ null
 "
 )
 ;
+if
+(
+!
+aFd
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 MOZ_ASSERT
 (
 aItem
