@@ -341,7 +341,9 @@ specified
 BorderSideWidth
 :
 :
-Medium
+medium
+(
+)
 "
 animation_value_type
 =

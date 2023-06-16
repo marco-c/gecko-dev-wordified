@@ -400,7 +400,9 @@ specified
 BorderSideWidth
 :
 :
-Medium
+medium
+(
+)
 "
 spec
 =

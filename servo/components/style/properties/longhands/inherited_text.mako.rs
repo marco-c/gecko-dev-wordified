@@ -2010,7 +2010,7 @@ stroke
 width
 "
 "
-BorderSideWidth
+LineWidth
 "
 "
 app_units
@@ -2032,7 +2032,7 @@ initial_specified_value
 specified
 :
 :
-BorderSideWidth
+LineWidth
 :
 :
 zero

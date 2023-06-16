@@ -482,6 +482,7 @@ BorderImageWidth
 BorderRadius
 BorderSideWidth
 BorderSpacing
+LineWidth
 }
 ;
 pub
