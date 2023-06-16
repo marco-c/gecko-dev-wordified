@@ -382,6 +382,11 @@ allocationOverflow
 error
 ;
 }
+void
+clearErrors
+(
+)
+;
 }
 ;
 class
@@ -1032,6 +1037,11 @@ hadErrors
 (
 )
 const
+;
+void
+clearErrors
+(
+)
 ;
 #
 ifdef
