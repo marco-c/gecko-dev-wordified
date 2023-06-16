@@ -178,10 +178,6 @@ import
 (
     
 WebExtensionAndroid
-    
-WebExtensionDesktopChrome
-    
-WebExtensionFirefox
 )
 LOG
 =
@@ -528,30 +524,18 @@ if
 args
 .
 app
-=
+!
 =
 "
 firefox
 "
-:
-            
-raptor_class
-=
-WebExtensionFirefox
-        
-elif
+and
 args
 .
 app
+not
 in
 CHROMIUM_DISTROS
-:
-            
-raptor_class
-=
-WebExtensionDesktopChrome
-        
-else
 :
             
 raptor_class

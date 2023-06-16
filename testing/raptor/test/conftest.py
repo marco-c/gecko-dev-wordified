@@ -78,10 +78,6 @@ from
 perftest
 import
 Perftest
-from
-webextension
-import
-WebExtensionFirefox
 pytest
 .
 fixture
@@ -258,23 +254,6 @@ browsertime_no_ffwindowrecorder
     
 return
 options
-pytest
-.
-fixture
-def
-raptor
-(
-options
-)
-:
-    
-return
-WebExtensionFirefox
-(
-*
-*
-options
-)
 pytest
 .
 fixture
