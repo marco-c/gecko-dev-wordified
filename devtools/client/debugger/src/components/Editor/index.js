@@ -2678,6 +2678,8 @@ ev
 continueToHere
 (
 cx
+createLocation
+(
 {
 line
 :
@@ -2685,12 +2687,11 @@ sourceLine
 column
 :
 undefined
-sourceId
+source
 :
 selectedSource
-.
-id
 }
+)
 )
 ;
 return
