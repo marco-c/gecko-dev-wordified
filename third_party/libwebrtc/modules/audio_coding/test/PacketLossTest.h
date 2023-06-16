@@ -138,9 +138,12 @@ ReceiverWithPacketLoss
 void
 Setup
 (
-AudioCodingModule
+acm2
+:
+:
+AcmReceiver
 *
-acm
+acm_receiver
 RTPStream
 *
 rtpStream
