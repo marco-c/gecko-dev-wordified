@@ -950,6 +950,16 @@ aApzc
 )
 const
 ;
+bool
+ScrollingUpWillTriggerPullToRefresh
+(
+const
+AsyncPanZoomController
+*
+aApzc
+)
+const
+;
 private
 :
 std
