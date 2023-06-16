@@ -1166,6 +1166,15 @@ unicode
 getter
 (
 RegExp
+.
+prototype
+"
+unicodeSets
+"
+)
+getter
+(
+RegExp
 Symbol
 .
 species
