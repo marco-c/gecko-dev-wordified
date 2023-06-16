@@ -365,12 +365,7 @@ ShutdownOnWorker
 )
 ;
 return
-WorkerRunnable
-:
-:
-Cancel
-(
-)
+NS_OK
 ;
 }
 bool
