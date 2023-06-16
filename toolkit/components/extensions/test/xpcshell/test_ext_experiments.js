@@ -16,7 +16,7 @@ AddonSettings
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -31,7 +31,9 @@ addons
 /
 AddonSettings
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

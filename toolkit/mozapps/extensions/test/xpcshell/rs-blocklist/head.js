@@ -650,7 +650,7 @@ BlocklistPrivate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -663,7 +663,9 @@ modules
 /
 Blocklist
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -783,7 +785,7 @@ ExtensionBlocklistMLBF
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -796,7 +798,9 @@ modules
 /
 Blocklist
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

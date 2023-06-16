@@ -101,7 +101,7 @@ AddonTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -114,7 +114,9 @@ common
 /
 AddonTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

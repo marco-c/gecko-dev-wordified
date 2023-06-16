@@ -397,7 +397,7 @@ ExtensionBlocklistRS
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -410,7 +410,9 @@ modules
 /
 Blocklist
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

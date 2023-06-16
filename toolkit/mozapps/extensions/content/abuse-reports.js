@@ -132,7 +132,7 @@ AbuseReporter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -145,7 +145,9 @@ modules
 /
 AbuseReporter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

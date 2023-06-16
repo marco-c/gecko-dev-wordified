@@ -273,7 +273,7 @@ ProductAddonCheckerTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -288,7 +288,9 @@ addons
 /
 ProductAddonChecker
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
