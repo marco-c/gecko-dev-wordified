@@ -218,7 +218,6 @@ NS_IMPL_FROMNODE_HTML_WITH_TAG
 HTMLObjectElement
 object
 )
-virtual
 int32_t
 TabIndexDefault
 (
@@ -228,7 +227,6 @@ override
 /
 /
 Element
-virtual
 bool
 IsInteractiveHTMLContent
 (
@@ -239,7 +237,6 @@ override
 /
 /
 EventTarget
-virtual
 void
 AsyncEventRunning
 (
@@ -249,7 +246,6 @@ aEvent
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -261,7 +257,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -272,7 +267,6 @@ true
 )
 override
 ;
-virtual
 bool
 IsHTMLFocusable
 (
@@ -315,7 +309,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 DoneAddingChildren
 (
@@ -324,14 +317,6 @@ aHaveNotified
 )
 override
 ;
-virtual
-bool
-IsDoneAddingChildren
-(
-)
-override
-;
-virtual
 bool
 ParseAttribute
 (
@@ -353,7 +338,6 @@ aResult
 )
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -375,7 +359,6 @@ aAttribute
 const
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -383,7 +366,6 @@ IntrinsicState
 const
 override
 ;
-virtual
 void
 DestroyContent
 (
@@ -393,7 +375,6 @@ override
 /
 /
 nsObjectLoadingContent
-virtual
 uint32_t
 GetCapabilities
 (
@@ -401,7 +382,6 @@ GetCapabilities
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -1190,7 +1170,6 @@ return
 this
 ;
 }
-virtual
 void
 AfterSetAttr
 (
@@ -1215,7 +1194,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 OnAttrSetButNotChanged
 (
@@ -1255,7 +1233,6 @@ HTMLObjectElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode

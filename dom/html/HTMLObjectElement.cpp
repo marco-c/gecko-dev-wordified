@@ -383,7 +383,6 @@ const
 return
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -417,18 +416,6 @@ AsyncEventRunning
 (
 aEvent
 )
-;
-}
-bool
-HTMLObjectElement
-:
-:
-IsDoneAddingChildren
-(
-)
-{
-return
-mIsDoneAddingChildren
 ;
 }
 void

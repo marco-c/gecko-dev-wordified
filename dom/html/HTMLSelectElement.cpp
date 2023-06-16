@@ -7369,7 +7369,6 @@ aValue
 )
 ;
 }
-else
 if
 (
 aAttribute

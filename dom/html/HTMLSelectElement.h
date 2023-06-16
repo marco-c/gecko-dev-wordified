@@ -393,7 +393,7 @@ true
 )
 {
 return
-0
+nullptr
 ;
 }
 static
@@ -1869,7 +1869,7 @@ bool
 IsDoneAddingChildren
 (
 )
-override
+const
 {
 return
 mIsDoneAddingChildren
