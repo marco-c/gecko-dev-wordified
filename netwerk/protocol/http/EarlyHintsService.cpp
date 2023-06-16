@@ -961,6 +961,11 @@ EarlyHintsService
 :
 RegisterLinksAndGetConnectArgs
 (
+dom
+:
+:
+ContentParentId
+aCpId
 nsTArray
 <
 EarlyHintConnectArgs
@@ -974,6 +979,7 @@ mOngoingEarlyHints
 >
 RegisterLinksAndGetConnectArgs
 (
+aCpId
 aOutLinks
 )
 ;
