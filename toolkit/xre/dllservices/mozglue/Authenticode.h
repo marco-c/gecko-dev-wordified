@@ -186,6 +186,11 @@ const
 wchar_t
 *
 aFilePath
+bool
+*
+aHasNestedMicrosoftSignature
+=
+nullptr
 AuthenticodeFlags
 aFlags
 =

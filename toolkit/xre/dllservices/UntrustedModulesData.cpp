@@ -745,6 +745,11 @@ to
 avoid
 it
 .
+bool
+hasNestedMicrosoftSignature
+=
+false
+;
 UniquePtr
 <
 wchar_t
@@ -766,6 +771,8 @@ aPath
 get
 (
 )
+&
+hasNestedMicrosoftSignature
 AuthenticodeFlags
 :
 :
@@ -799,6 +806,7 @@ get
 (
 )
 )
+hasNestedMicrosoftSignature
 )
 )
 ;
@@ -880,6 +888,7 @@ VersionInfo
 verInfo
 .
 mCompanyName
+false
 )
 )
 ;
