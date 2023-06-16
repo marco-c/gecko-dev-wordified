@@ -6010,7 +6010,6 @@ nsIAutoCompleteObserver
 (
 this
 )
-nullptr
 )
 ;
 if
