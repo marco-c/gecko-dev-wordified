@@ -13203,15 +13203,6 @@ ShouldResistFingerprinting
 (
 RFPTarget
 aTarget
-/
-*
-=
-RFPTarget
-:
-:
-Unknown
-*
-/
 )
 {
 return

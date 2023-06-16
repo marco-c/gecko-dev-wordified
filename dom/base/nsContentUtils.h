@@ -2013,11 +2013,6 @@ ShouldResistFingerprinting
 (
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 static
