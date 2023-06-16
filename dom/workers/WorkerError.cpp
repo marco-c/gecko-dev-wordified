@@ -1523,10 +1523,6 @@ aReport
 -
 >
 filename
-.
-c_str
-(
-)
 )
 mFilename
 )

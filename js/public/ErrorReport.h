@@ -687,7 +687,12 @@ public
 :
 /
 /
-Source
+The
+UTF
+-
+8
+encoded
+source
 file
 name
 URL
@@ -696,10 +701,9 @@ etc
 or
 null
 .
-JS
-:
-:
-ConstUTF8CharsZ
+const
+char
+*
 filename
 ;
 /

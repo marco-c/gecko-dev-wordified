@@ -1640,10 +1640,6 @@ aOptions
 filename
 (
 )
-.
-c_str
-(
-)
 )
 mHasReturnValue
 (

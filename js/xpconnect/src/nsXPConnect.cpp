@@ -1371,10 +1371,6 @@ aReport
 -
 >
 filename
-.
-c_str
-(
-)
 )
 mFileName
 )

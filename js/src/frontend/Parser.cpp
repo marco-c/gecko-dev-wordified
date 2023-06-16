@@ -3146,10 +3146,6 @@ fc_
 getFilename
 (
 )
-.
-c_str
-(
-)
 0
 line
 column
@@ -3365,10 +3361,6 @@ this
 >
 fc_
 getFilename
-(
-)
-.
-c_str
 (
 )
 0
