@@ -6621,17 +6621,6 @@ testmode
 false
 )
 ;
-pref
-(
-"
-accessibility
-.
-usetexttospeech
-"
-"
-"
-)
-;
 /
 /
 Type
