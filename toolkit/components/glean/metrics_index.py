@@ -353,6 +353,18 @@ yaml
 "
     
 "
+toolkit
+/
+components
+/
+translations
+/
+metrics
+.
+yaml
+"
+    
+"
 xpcom
 /
 metrics
