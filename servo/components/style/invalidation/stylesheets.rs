@@ -3375,12 +3375,6 @@ Property
 .
 )
 |
-Viewport
-(
-.
-.
-)
-|
 FontFeatureValues
 (
 .
@@ -3931,12 +3925,6 @@ Property
 .
 )
 |
-Viewport
-(
-.
-.
-)
-|
 FontFeatureValues
 (
 .
@@ -3963,7 +3951,6 @@ marking
 the
 whole
 subtree
-\
 invalid
 .
 "
