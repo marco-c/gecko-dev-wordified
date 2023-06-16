@@ -91,15 +91,6 @@ from
 "
 .
 /
-getFrameUrl
-"
-;
-export
-*
-from
-"
-.
-/
 getLibraryFromUrl
 "
 ;

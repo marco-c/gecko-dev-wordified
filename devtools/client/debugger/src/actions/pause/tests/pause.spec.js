@@ -1202,6 +1202,9 @@ originalDisplayName
 "
 foo
 "
+library
+:
+null
 scope
 :
 {
@@ -1735,6 +1738,9 @@ undefined
 isOriginal
 :
 true
+library
+:
+null
 location
 :
 originalLocation
@@ -1800,6 +1806,9 @@ undefined
 isOriginal
 :
 true
+library
+:
+null
 location
 :
 originalLocation2
