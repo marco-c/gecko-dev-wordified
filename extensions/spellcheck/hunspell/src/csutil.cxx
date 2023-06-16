@@ -902,6 +902,9 @@ by
 multiple
 Hunspell
 instances
+#
+ifndef
+MOZILLA_CLIENT
 void
 myopen
 (
@@ -1052,6 +1055,8 @@ mode
 )
 ;
 }
+#
+endif
 std
 :
 :
