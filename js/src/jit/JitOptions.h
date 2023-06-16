@@ -562,9 +562,6 @@ bool
 spectreJitToCxxCalls
 ;
 bool
-writeProtectCode
-;
-bool
 supportsUnalignedAccesses
 ;
 BaseRegForAddress

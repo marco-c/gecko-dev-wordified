@@ -627,6 +627,15 @@ enum
 class
 ProtectionSetting
 {
+Protected
+/
+/
+Not
+readable
+writable
+or
+executable
+.
 Writable
 Executable
 }
