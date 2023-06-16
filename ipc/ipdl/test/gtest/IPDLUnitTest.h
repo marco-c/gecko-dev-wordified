@@ -365,11 +365,13 @@ mActor
 ;
 \
 \
+RefPtr
+<
 actorname
 #
 #
 Parent
-*
+>
 mActor
 ;
 \
