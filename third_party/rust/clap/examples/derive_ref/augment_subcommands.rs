@@ -28,7 +28,7 @@ Derived
 {
 #
 [
-arg
+clap
 (
 short
 long
@@ -120,12 +120,12 @@ Derived
 subcommands
 :
 {
-derived_subcommands
 :
 #
 ?
 }
 "
+derived_subcommands
 )
 ;
 }

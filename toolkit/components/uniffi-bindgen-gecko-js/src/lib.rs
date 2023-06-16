@@ -320,11 +320,9 @@ Utf8PathBuf
 clap
 (
 long
-num_args
+multiple_values
 =
-1
-.
-.
+true
 value_name
 =
 "
@@ -343,11 +341,9 @@ Utf8PathBuf
 clap
 (
 long
-num_args
+multiple_values
 =
-1
-.
-.
+true
 value_name
 =
 "
