@@ -2035,7 +2035,7 @@ cache
 value
 ]
 .
-deref
+get
 (
 )
 ;

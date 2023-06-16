@@ -1368,7 +1368,11 @@ getFilledStateByElement
 (
 field
 .
-element
+elementWeakRef
+.
+get
+(
+)
 )
 ;
 let
