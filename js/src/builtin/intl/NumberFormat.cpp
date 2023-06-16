@@ -833,9 +833,9 @@ DontDefineConstructor
 *
 *
 *
-11
+15
 .
-2
+1
 .
 1
 Intl
@@ -851,11 +851,11 @@ options
 )
 *
 *
-ES2017
+ES2024
 Intl
 draft
 rev
-94045d234762ad107a3d09bb6f7381a65f1a2f9b
+74ca7099f103d143431b2ea422ae640c6f43e3e6
 *
 /
 static
