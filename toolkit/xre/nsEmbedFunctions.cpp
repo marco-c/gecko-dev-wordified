@@ -3485,10 +3485,7 @@ a
 static
 context
 .
-Maybe
-<
-IOInterposerInit
->
+AutoIOInterposer
 ioInterposerGuard
 ;
 /
@@ -3540,7 +3537,7 @@ GeckoProcessType_Content
 :
 ioInterposerGuard
 .
-emplace
+Init
 (
 )
 ;
@@ -3673,7 +3670,7 @@ GeckoProcessType_Socket
 :
 ioInterposerGuard
 .
-emplace
+Init
 (
 )
 ;

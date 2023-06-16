@@ -35518,8 +35518,14 @@ NS_OK
 mozilla
 :
 :
-IOInterposerInit
+AutoIOInterposer
 ioInterposerGuard
+;
+ioInterposerGuard
+.
+Init
+(
+)
 ;
 #
 if
