@@ -233,12 +233,12 @@ selectors
 .
 getBreakpoint
 (
+createLocation
+(
 {
-sourceId
+source
 :
 sortedSrc
-.
-id
 line
 :
 9
@@ -246,6 +246,7 @@ column
 :
 4
 }
+)
 )
 "
 Breakpoint

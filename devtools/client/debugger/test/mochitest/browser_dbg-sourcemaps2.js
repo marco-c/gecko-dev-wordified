@@ -226,12 +226,12 @@ ok
 (
 getBreakpoint
 (
+createLocation
+(
 {
-sourceId
+source
 :
 mainSrc
-.
-id
 line
 :
 4
@@ -239,6 +239,7 @@ column
 :
 2
 }
+)
 )
 "
 Breakpoint
