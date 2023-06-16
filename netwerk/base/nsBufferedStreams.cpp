@@ -2676,8 +2676,14 @@ NS_FAILED
 (
 rv
 )
-|
-|
+)
+{
+return
+rv
+;
+}
+if
+(
 mFillPoint
 =
 =
