@@ -5378,6 +5378,9 @@ expected
 ;
 [
 "
+identifier
+"
+"
 autofill
 "
 "
