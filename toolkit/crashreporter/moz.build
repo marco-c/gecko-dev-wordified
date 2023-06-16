@@ -418,6 +418,9 @@ client
 "
 mozannotation_client
 "
+"
+mozannotation_server
+"
 ]
 if
 CONFIG
