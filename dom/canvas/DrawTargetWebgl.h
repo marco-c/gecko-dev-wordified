@@ -2382,6 +2382,10 @@ StrokeOptions
 aStrokeOptions
 =
 nullptr
+bool
+aAllowStrokeAlpha
+=
+false
 const
 ShadowOptions
 *
@@ -3727,6 +3731,10 @@ StrokeOptions
 aStrokeOptions
 =
 nullptr
+bool
+aAllowStrokeAlpha
+=
+false
 )
 ;
 bool

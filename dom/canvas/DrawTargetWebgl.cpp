@@ -23386,6 +23386,8 @@ const
 StrokeOptions
 &
 aStrokeOptions
+bool
+aAllowStrokeAlpha
 )
 {
 if
@@ -23464,6 +23466,10 @@ mAlpha
 1
 .
 0f
+&
+&
+!
+aAllowStrokeAlpha
 ?
 AAStrokeMode
 :
@@ -24252,6 +24258,8 @@ const
 StrokeOptions
 *
 aStrokeOptions
+bool
+aAllowStrokeAlpha
 const
 ShadowOptions
 *
@@ -25378,6 +25386,7 @@ aPattern
 aOptions
 *
 aStrokeOptions
+aAllowStrokeAlpha
 )
 !
 =
@@ -26038,6 +26047,7 @@ aPattern
 aOptions
 *
 aStrokeOptions
+aAllowStrokeAlpha
 )
 =
 =
@@ -26986,6 +26996,8 @@ const
 StrokeOptions
 *
 aStrokeOptions
+bool
+aAllowStrokeAlpha
 )
 {
 /
@@ -27027,6 +27039,7 @@ aPath
 aPattern
 aOptions
 aStrokeOptions
+aAllowStrokeAlpha
 )
 )
 {
@@ -27725,6 +27738,7 @@ aPath
 aPattern
 aOptions
 aStrokeOptions
+false
 &
 aShadow
 )
@@ -27893,6 +27907,7 @@ path
 pattern
 options
 nullptr
+false
 &
 aShadow
 false
@@ -28098,6 +28113,7 @@ aPattern
 aOptions
 &
 aStrokeOptions
+true
 )
 ;
 }
@@ -28900,6 +28916,7 @@ aPattern
 aOptions
 &
 aStrokeOptions
+true
 )
 ;
 }
@@ -29051,6 +29068,11 @@ skiaPath
 countVerbs
 (
 )
+;
+bool
+allowStrokeAlpha
+=
+false
 ;
 if
 (
@@ -29205,6 +29227,10 @@ as
 a
 path
 .
+allowStrokeAlpha
+=
+true
+;
 }
 }
 DrawPath
@@ -29214,6 +29240,7 @@ aPattern
 aOptions
 &
 aStrokeOptions
+allowStrokeAlpha
 )
 ;
 }
