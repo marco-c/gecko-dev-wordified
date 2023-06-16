@@ -25703,6 +25703,9 @@ autoclose
 "
 standalone
 "
+"
+legacy
+"
 .
 pref
 (
@@ -25722,7 +25725,7 @@ welcome
 behavior
 "
 "
-default
+legacy
 "
 )
 ;
