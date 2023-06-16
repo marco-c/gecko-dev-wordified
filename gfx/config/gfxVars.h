@@ -819,6 +819,13 @@ UseWebRenderDCompSwVideoOverlayWin
 bool
 false
 )
+\
+_
+(
+AllowSoftwareWebRenderOGL
+bool
+false
+)
 /
 *
 Add
