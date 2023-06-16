@@ -586,16 +586,6 @@ mConfig
 mInitDataTypes
 mPersistentStateRequired
 mDistinctiveIdentifierRequired
-false
-/
-*
-TODO
-:
-support
-HW
-secure
-*
-/
 mProxyCallback
 GenerateMFCDMMediaCapabilities
 (

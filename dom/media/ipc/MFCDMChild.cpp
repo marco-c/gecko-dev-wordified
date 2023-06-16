@@ -1084,9 +1084,6 @@ MFCDMMediaCapability
 >
 &
 aVideoCapabilities
-const
-bool
-aHWSecure
 WMFCDMProxyCallback
 *
 aProxyCallback
@@ -1168,7 +1165,6 @@ aDistinctiveID
 aPersistentState
 aAudioCapabilities
 aVideoCapabilities
-aHWSecure
 }
 ;
 auto

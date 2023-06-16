@@ -1099,9 +1099,6 @@ aParams
 mVideoCapabilities
 aParams
 .
-mHWSecure
-aParams
-.
 mProxyCallback
 )
 -

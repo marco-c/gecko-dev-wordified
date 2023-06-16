@@ -321,9 +321,6 @@ mPersistentStateRequired
 bool
 mDistinctiveIdentifierRequired
 ;
-bool
-mHWSecure
-;
 WMFCDMProxyCallback
 *
 mProxyCallback

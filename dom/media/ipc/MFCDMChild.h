@@ -255,9 +255,6 @@ MFCDMMediaCapability
 >
 &
 aVideoCapabilities
-const
-bool
-aHWSecure
 WMFCDMProxyCallback
 *
 aProxyCallback
