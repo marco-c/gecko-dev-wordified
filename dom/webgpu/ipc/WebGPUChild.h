@@ -517,6 +517,17 @@ aDesc
 )
 ;
 RawId
+RenderBundleEncoderFinishError
+(
+RawId
+aDeviceId
+const
+nsString
+&
+aLabel
+)
+;
+RawId
 DeviceCreateBindGroupLayout
 (
 RawId
