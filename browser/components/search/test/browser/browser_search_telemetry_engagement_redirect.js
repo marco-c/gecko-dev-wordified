@@ -243,9 +243,7 @@ test
 browser
 \
 /
-searchTelemetryAd_adsLink_redirect
-.
-html
+redirect_ad
 /
 ]
 components
