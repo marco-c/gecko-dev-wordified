@@ -331,13 +331,6 @@ homepageControlled
 .
 message
 "
-learnMoreMessageId
-:
-"
-homepageControlled
-.
-learnMore
-"
 learnMoreLink
 :
 "
