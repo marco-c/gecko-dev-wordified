@@ -1450,11 +1450,11 @@ FlushType
 Style
 )
 ;
-}
 mRegisteredWithRefreshDriver
 =
 false
 ;
+}
 }
 /
 *
