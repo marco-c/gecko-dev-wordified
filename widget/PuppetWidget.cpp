@@ -3833,6 +3833,12 @@ mBrowserChild
 SendRequestIMEToCommitComposition
 (
 aCancel
+composition
+-
+>
+Id
+(
+)
 &
 isCommitted
 &
@@ -3977,6 +3983,12 @@ mBrowserChild
 SendOnEventNeedingAckHandled
 (
 eCompositionCommitRequestHandled
+composition
+-
+>
+Id
+(
+)
 )
 ;
 /
