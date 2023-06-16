@@ -562,10 +562,10 @@ assert_equals
 (
 notRestoredReasonsSet
 .
-length
+size
 expectedNotRestoredReasonsSet
 .
-length
+size
 )
 ;
 for
