@@ -122,7 +122,7 @@ CHROME_COMMON_CHROME_SWITCHES_H__
 if
 defined
 (
-COMPILER_MSVC
+_MSC_VER
 )
 #
 include

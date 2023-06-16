@@ -118,7 +118,7 @@ h
 if
 defined
 (
-COMPILER_MSVC
+_MSC_VER
 )
 /
 /
@@ -618,7 +618,7 @@ code
 endif
 /
 /
-COMPILER_MSVC
+_MSC_VER
 /
 /
 Annotate
@@ -673,7 +673,7 @@ WARN_UNUSED_RESULT
 if
 defined
 (
-COMPILER_GCC
+__GNUC__
 )
 |
 |

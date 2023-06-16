@@ -123,7 +123,7 @@ h
 "
 #
 ifdef
-COMPILER_MSVC
+_MSC_VER
 #
 define
 GG_LONGLONG
@@ -464,7 +464,7 @@ machines
 if
 defined
 (
-COMPILER_GCC
+__GNUC__
 )
 #
 define
@@ -484,7 +484,7 @@ _b
 elif
 defined
 (
-COMPILER_MSVC
+_MSC_VER
 )
 #
 define
