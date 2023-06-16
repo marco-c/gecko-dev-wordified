@@ -588,6 +588,11 @@ max_added
 ;
 }
 }
+[
+[
+maybe_unused
+]
+]
 static
 void
 record_error
@@ -613,6 +618,11 @@ str
 )
 ;
 }
+[
+[
+maybe_unused
+]
+]
 static
 void
 record_warning
