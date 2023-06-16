@@ -124,7 +124,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -135,7 +135,7 @@ mozilla
 /
 a11y
 /
-TableCellAccessibleBase
+TableCellAccessible
 .
 h
 "
@@ -178,7 +178,7 @@ CachedTableCellAccessible
 final
 :
 public
-TableCellAccessibleBase
+TableCellAccessible
 {
 public
 :
@@ -193,7 +193,7 @@ aAcc
 )
 ;
 virtual
-TableAccessibleBase
+TableAccessible
 *
 Table
 (
@@ -492,7 +492,7 @@ CachedTableAccessible
 final
 :
 public
-TableAccessibleBase
+TableAccessible
 {
 public
 :

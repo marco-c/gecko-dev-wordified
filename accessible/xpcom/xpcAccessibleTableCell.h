@@ -138,7 +138,7 @@ namespace
 a11y
 {
 class
-TableCellAccessibleBase
+TableCellAccessible
 ;
 /
 *
@@ -266,7 +266,7 @@ xpcAccessibleTableCell
 }
 private
 :
-TableCellAccessibleBase
+TableCellAccessible
 *
 Intl
 (
@@ -276,7 +276,7 @@ return
 mIntl
 -
 >
-AsTableCellBase
+AsTableCell
 (
 )
 ;

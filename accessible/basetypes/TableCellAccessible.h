@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_TableCellAccessibleBase_h__
+mozilla_a11y_TableCellAccessible_h__
 #
 define
-mozilla_a11y_TableCellAccessibleBase_h__
+mozilla_a11y_TableCellAccessible_h__
 #
 include
 "
@@ -141,7 +141,7 @@ class
 Accessible
 ;
 class
-TableAccessibleBase
+TableAccessible
 ;
 /
 *
@@ -158,7 +158,7 @@ accessibles
 *
 /
 class
-TableCellAccessibleBase
+TableCellAccessible
 {
 public
 :
@@ -177,7 +177,7 @@ in
 *
 /
 virtual
-TableAccessibleBase
+TableAccessible
 *
 Table
 (
@@ -386,4 +386,4 @@ mozilla
 endif
 /
 /
-mozilla_a11y_TableCellAccessibleBase_h__
+mozilla_a11y_TableCellAccessible_h__

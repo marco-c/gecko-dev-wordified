@@ -1531,7 +1531,7 @@ TABLE
 and
 *
 support
-TableAccessibleBase
+TableAccessible
 .
 In
 contrast
@@ -1578,7 +1578,7 @@ will
 not
 support
 *
-TableAccessibleBase
+TableAccessible
 .
 This
 is

@@ -155,7 +155,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -166,7 +166,7 @@ mozilla
 /
 a11y
 /
-TableCellAccessibleBase
+TableCellAccessible
 .
 h
 "
@@ -191,7 +191,7 @@ mozilla
 :
 a11y
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 ia2AccessibleTableCell
 :
@@ -214,7 +214,7 @@ acc
 acc
 -
 >
-AsTableCellBase
+AsTableCell
 (
 )
 :
@@ -344,7 +344,7 @@ aTable
 =
 nullptr
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -360,7 +360,7 @@ tableCell
 return
 CO_E_OBJNOTCONNECTED
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =
@@ -439,7 +439,7 @@ aSpan
 =
 0
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -507,7 +507,7 @@ aNColumnHeaderCells
 =
 0
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -667,7 +667,7 @@ aColIdx
 -
 1
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -721,7 +721,7 @@ aSpan
 =
 0
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -789,7 +789,7 @@ aNRowHeaderCells
 =
 0
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -949,7 +949,7 @@ aRowIdx
 -
 1
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -1045,7 +1045,7 @@ aIsSelected
 =
 false
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =
@@ -1139,7 +1139,7 @@ aIsSelected
 =
 false
 ;
-TableCellAccessibleBase
+TableCellAccessible
 *
 tableCell
 =

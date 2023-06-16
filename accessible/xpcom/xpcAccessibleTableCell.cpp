@@ -136,7 +136,7 @@ mozilla
 /
 a11y
 /
-TableAccessibleBase
+TableAccessible
 .
 h
 "
@@ -147,7 +147,7 @@ mozilla
 /
 a11y
 /
-TableCellAccessibleBase
+TableCellAccessible
 .
 h
 "
@@ -394,7 +394,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-TableAccessibleBase
+TableAccessible
 *
 table
 =

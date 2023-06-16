@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-TABLE_ACCESSIBLE_BASE_H
+TABLE_ACCESSIBLE_H
 #
 define
-TABLE_ACCESSIBLE_BASE_H
+TABLE_ACCESSIBLE_H
 #
 include
 "
@@ -151,7 +151,7 @@ interface
 *
 /
 class
-TableAccessibleBase
+TableAccessible
 {
 public
 :

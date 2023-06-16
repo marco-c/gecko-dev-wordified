@@ -183,10 +183,10 @@ class
 RemoteAccessible
 ;
 class
-TableAccessibleBase
+TableAccessible
 ;
 class
-TableCellAccessibleBase
+TableCellAccessible
 ;
 /
 *
@@ -3602,9 +3602,9 @@ nullptr
 ;
 }
 virtual
-TableAccessibleBase
+TableAccessible
 *
-AsTableBase
+AsTable
 (
 )
 {
@@ -3613,9 +3613,9 @@ nullptr
 ;
 }
 virtual
-TableCellAccessibleBase
+TableCellAccessible
 *
-AsTableCellBase
+AsTableCell
 (
 )
 {

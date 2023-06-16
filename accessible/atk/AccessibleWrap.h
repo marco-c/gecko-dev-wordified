@@ -377,7 +377,7 @@ Accessible
 *
 GetColumnHeader
 (
-TableAccessibleBase
+TableAccessible
 *
 aAccessible
 int32_t
@@ -389,7 +389,7 @@ Accessible
 *
 GetRowHeader
 (
-TableAccessibleBase
+TableAccessible
 *
 aAccessible
 int32_t
