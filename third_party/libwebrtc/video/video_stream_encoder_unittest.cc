@@ -65782,7 +65782,7 @@ buffer
 /
 This
 sets
-spatial
+simulcast
 index
 0
 content
@@ -65809,7 +65809,7 @@ kVp8SteadyStateQpThreshold
 (
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 =
