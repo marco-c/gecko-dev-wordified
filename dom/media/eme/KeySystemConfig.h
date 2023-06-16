@@ -1139,11 +1139,6 @@ mMP4
 ContainerSupport
 mWebM
 ;
-bool
-mIsHW
-=
-false
-;
 }
 ;
 KeySystemConfig
