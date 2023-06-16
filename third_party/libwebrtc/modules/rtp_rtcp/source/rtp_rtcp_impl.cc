@@ -1336,13 +1336,15 @@ ModuleRtpRtcpImpl
 :
 IncomingRtcpPacket
 (
+rtc
+:
+:
+ArrayView
+<
 const
 uint8_t
-*
+>
 rtcp_packet
-const
-size_t
-length
 )
 {
 rtcp_receiver_
@@ -1350,7 +1352,6 @@ rtcp_receiver_
 IncomingPacket
 (
 rtcp_packet
-length
 )
 ;
 }
