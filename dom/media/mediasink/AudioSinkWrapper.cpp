@@ -272,7 +272,7 @@ stopped
 "
 )
 ;
-mCreator
+mSinkCreator
 =
 nullptr
 ;
@@ -2381,10 +2381,7 @@ audioSink
 .
 reset
 (
-mCreator
--
->
-Create
+mSinkCreator
 (
 )
 )
@@ -2908,10 +2905,7 @@ mAudioSink
 .
 reset
 (
-mCreator
--
->
-Create
+mSinkCreator
 (
 )
 )
