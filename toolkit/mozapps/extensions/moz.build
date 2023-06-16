@@ -391,7 +391,9 @@ mjs
 "
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
 "
 amContentHandler
