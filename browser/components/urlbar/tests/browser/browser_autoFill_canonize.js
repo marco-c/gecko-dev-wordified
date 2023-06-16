@@ -282,8 +282,6 @@ test_autocomplete
 desc
 :
 "
-CTRL
-+
 ENTER
 on
 the
