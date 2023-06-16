@@ -3633,7 +3633,10 @@ flag
         
 return
 "
-DllBlockInfo
+mozilla
+:
+:
+DllBlockInfoFlags
 :
 :
 "

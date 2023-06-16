@@ -330,10 +330,7 @@ MOZ_ASSERT
 mFlags
 =
 =
-DllBlockInfo
-:
-:
-Flags
+DllBlockInfoFlags
 :
 :
 FLAGS_DEFAULT

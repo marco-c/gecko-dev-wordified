@@ -203,6 +203,12 @@ SharedSection
 .
 h
 "
+using
+mozilla
+:
+:
+DllBlockInfoFlags
+;
 #
 define
 DLL_BLOCKLIST_ENTRY
@@ -1204,12 +1210,12 @@ aInfo
 mFlags
 &
 (
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BLOCK_WIN8_AND_OLDER
 |
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BLOCK_WIN7_AND_OLDER
@@ -1261,7 +1267,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BLOCK_WIN8_AND_OLDER
@@ -1309,7 +1315,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BLOCK_WIN7_AND_OLDER
@@ -1358,7 +1364,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 CHILD_PROCESSES_ONLY
@@ -1388,7 +1394,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 UTILITY_PROCESSES_ONLY
@@ -1418,7 +1424,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 SOCKET_PROCESSES_ONLY
@@ -1448,7 +1454,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 GPU_PROCESSES_ONLY
@@ -1478,7 +1484,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BROWSER_PROCESS_ONLY
@@ -1507,7 +1513,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 GMPLUGIN_PROCESSES_ONLY
@@ -1570,7 +1576,7 @@ aInfo
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 USE_TIMESTAMP
@@ -2436,7 +2442,7 @@ entry
 >
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 REDIRECT_TO_NOOP_ENTRYPOINT
