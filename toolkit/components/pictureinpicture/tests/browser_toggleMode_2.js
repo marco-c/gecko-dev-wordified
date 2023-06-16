@@ -625,9 +625,6 @@ true
 toggleStyles
 :
 TOGGLE_STYLES_LEFT_EXPLAINER
-shouldSeeClickEventAfterToggle
-:
-true
 }
 }
 )
@@ -771,9 +768,6 @@ true
 toggleStyles
 :
 TOGGLE_STYLES_RIGHT_EXPLAINER
-shouldSeeClickEventAfterToggle
-:
-true
 }
 }
 )
