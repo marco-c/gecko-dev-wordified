@@ -350,6 +350,9 @@ false
 log_level
 :
 None
+rate_limit
+:
+None
 }
 ;
 let

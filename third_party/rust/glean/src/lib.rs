@@ -867,6 +867,11 @@ log_level
 cfg
 .
 log_level
+rate_limit
+:
+cfg
+.
+rate_limit
 }
 ;
 glean_core
