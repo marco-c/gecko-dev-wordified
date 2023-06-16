@@ -56,9 +56,6 @@ MPL
 .
 *
 /
-add_task
-(
-async
 function
 test
 (
@@ -110,6 +107,8 @@ is
 (
 gURLBar
 .
+inputField
+.
 value
 "
 http
@@ -142,5 +141,3 @@ handleRevert
 )
 ;
 }
-)
-;
