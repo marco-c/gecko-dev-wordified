@@ -1677,12 +1677,8 @@ if
 context
 .
 for_non_inherited_property
-.
-is_some
-(
-)
-{
-if
+&
+&
 base_size
 =
 =
@@ -1706,7 +1702,6 @@ reference_font_size
 computed_size
 )
 ;
-}
 }
 (
 reference_font_size
@@ -7793,10 +7788,6 @@ if
 context
 .
 for_non_inherited_property
-.
-is_some
-(
-)
 {
 context
 .

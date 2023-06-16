@@ -5930,7 +5930,7 @@ context
 .
 for_non_inherited_property
 =
-None
+false
 ;
 specified
 :
