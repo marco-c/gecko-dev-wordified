@@ -94,8 +94,8 @@ mjs
 ;
 const
 {
-WebDriverSession
 getWebDriverSessionById
+WebDriverSession
 }
 =
 ChromeUtils
