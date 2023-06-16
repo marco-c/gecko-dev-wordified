@@ -6277,7 +6277,11 @@ WebGPUChild
 :
 DeviceCreateShaderModule
 (
+const
+RefPtr
+<
 Device
+>
 &
 aDevice
 const
@@ -6301,7 +6305,8 @@ RawId
 deviceId
 =
 aDevice
-.
+-
+>
 mId
 ;
 RawId
@@ -6329,7 +6334,6 @@ shaderModule
 new
 ShaderModule
 (
-&
 aDevice
 moduleId
 aPromise
@@ -6393,6 +6397,7 @@ GetCurrentSerialEventTarget
 __func__
 [
 aPromise
+aDevice
 shaderModule
 ]
 (
@@ -6438,7 +6443,7 @@ infoObject
 new
 CompilationInfo
 (
-shaderModule
+aDevice
 )
 )
 ;

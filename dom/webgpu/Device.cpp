@@ -1341,7 +1341,6 @@ mBridge
 >
 DeviceCreateShaderModule
 (
-*
 this
 aDesc
 promise

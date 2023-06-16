@@ -153,7 +153,7 @@ nsWrapperCache
 public
 ChildOf
 <
-CompilationInfo
+Device
 >
 {
 dom
@@ -206,7 +206,7 @@ CompilationMessage
 explicit
 CompilationMessage
 (
-CompilationInfo
+Device
 *
 const
 aParent

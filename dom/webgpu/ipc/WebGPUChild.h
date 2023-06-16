@@ -642,7 +642,11 @@ ShaderModule
 >
 DeviceCreateShaderModule
 (
+const
+RefPtr
+<
 Device
+>
 &
 aDevice
 const
