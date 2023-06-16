@@ -747,6 +747,7 @@ client
 info
 .
 child_pid
+remote_task
 )
 ;
 bool
