@@ -69,6 +69,16 @@ path
 )
 ;
 const
+fs
+=
+require
+(
+"
+fs
+"
+)
+;
+const
 {
 rollup
 }
