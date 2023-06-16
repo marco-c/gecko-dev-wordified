@@ -1381,6 +1381,8 @@ kVideoCodecVP8
 payload
 rtp_video_header
 0
+{
+}
 )
 )
 ;

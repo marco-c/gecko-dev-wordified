@@ -2256,6 +2256,8 @@ capture_time_ms
 payload
 rtp_video_header
 0
+{
+}
 )
 ;
 return
