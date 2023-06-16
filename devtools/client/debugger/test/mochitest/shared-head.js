@@ -6196,11 +6196,6 @@ createLocation
 (
 {
 source
-sourceUrl
-:
-source
-.
-url
 line
 column
 }
@@ -7391,11 +7386,6 @@ createLocation
 (
 {
 source
-sourceUrl
-:
-source
-.
-url
 line
 column
 }

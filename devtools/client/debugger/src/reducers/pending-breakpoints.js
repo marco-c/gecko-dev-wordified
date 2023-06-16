@@ -553,7 +553,9 @@ breakpoint
 .
 location
 .
-sourceUrl
+source
+.
+url
 )
 ?
 breakpoint
@@ -566,7 +568,7 @@ location
 ;
 const
 {
-sourceUrl
+source
 line
 column
 }
@@ -576,7 +578,9 @@ location
 const
 sourceUrlString
 =
-sourceUrl
+source
+.
+url
 |
 |
 "
@@ -736,7 +740,7 @@ column
 ;
 const
 {
-sourceUrl
+source
 line
 column
 }
@@ -745,7 +749,9 @@ location
 ;
 assert
 (
-sourceUrl
+source
+.
+url
 !
 =
 =
@@ -764,6 +770,10 @@ url
 return
 {
 sourceUrl
+:
+source
+.
+url
 line
 column
 }
