@@ -69,8 +69,6 @@ logins
 wrappedJSObject
 .
 _storage
-.
-wrappedJSObject
 ;
 const
 logins

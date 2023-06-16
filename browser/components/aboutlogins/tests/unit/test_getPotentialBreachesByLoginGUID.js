@@ -1360,8 +1360,6 @@ logins
 wrappedJSObject
 .
 _storage
-.
-wrappedJSObject
 ;
 storageJSON
 .

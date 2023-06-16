@@ -36,7 +36,7 @@ Tests
 that
 the
 default
-nsILoginManagerStorage
+storage
 module
 attached
 to
