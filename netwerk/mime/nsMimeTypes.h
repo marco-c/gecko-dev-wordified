@@ -1245,6 +1245,14 @@ aac
 "
 #
 define
+AUDIO_AACP
+"
+audio
+/
+aacp
+"
+#
+define
 AUDIO_MPEG_TS
 "
 audio
