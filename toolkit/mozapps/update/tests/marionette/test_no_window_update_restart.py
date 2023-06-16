@@ -1262,21 +1262,7 @@ updates
 0
 "
 ]
-)
-;
-            
-statusFile
-.
-create
-(
-Ci
-.
-nsIFile
-.
-DIRECTORY_TYPE
-FileUtils
-.
-PERMS_DIRECTORY
+true
 )
 ;
             

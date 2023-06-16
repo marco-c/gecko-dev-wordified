@@ -1858,6 +1858,7 @@ sysfeatures
 app0
 "
 ]
+true
 )
 ;
 AddonTestUtils
