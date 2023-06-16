@@ -859,6 +859,24 @@ topsrcdir
 "
 )
     
+env
+[
+"
+MOZ_DEVELOPER_OBJ_DIR
+"
+]
+=
+mozinfo
+.
+info
+.
+get
+(
+"
+topobjdir
+"
+)
+    
 #
 crashreporter
     
