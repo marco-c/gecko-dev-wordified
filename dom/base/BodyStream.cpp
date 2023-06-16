@@ -3415,7 +3415,7 @@ window
 )
 )
 {
-Close
+CloseInputAndReleaseObjects
 (
 )
 ;
