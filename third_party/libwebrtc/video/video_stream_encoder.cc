@@ -9276,6 +9276,7 @@ VideoCodecMode
 kScreensharing
 )
 ;
+const
 VideoEncoder
 :
 :
@@ -12887,6 +12888,7 @@ encode
 complete
 callback
 .
+const
 VideoEncoder
 :
 :
