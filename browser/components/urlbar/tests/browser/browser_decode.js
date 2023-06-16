@@ -390,8 +390,6 @@ equal
 (
 gURLBar
 .
-inputField
-.
 value
 urlNoScheme
 "
@@ -586,8 +584,6 @@ Assert
 equal
 (
 gURLBar
-.
-inputField
 .
 value
 urlNoScheme
