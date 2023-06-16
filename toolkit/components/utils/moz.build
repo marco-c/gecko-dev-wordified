@@ -153,13 +153,6 @@ mozjexl
 js
 "
 "
-PreferenceFilters
-.
-sys
-.
-mjs
-"
-"
 Sampling
 .
 sys
