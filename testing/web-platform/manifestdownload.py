@@ -649,6 +649,20 @@ mozilla
 -
 esr102
 "
+        
+"
+releases
+/
+mozilla
+-
+esr115
+"
+:
+"
+mozilla
+-
+esr115
+"
     
 }
     
