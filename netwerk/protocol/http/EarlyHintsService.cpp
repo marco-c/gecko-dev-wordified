@@ -321,9 +321,6 @@ const
 nsACString
 &
 aCSPHeader
-nsIInterfaceRequestor
-*
-aCallbacks
 )
 {
 mEarlyHintsCount
@@ -913,7 +910,6 @@ loadInfo
 GetBrowsingContextID
 (
 )
-aCallbacks
 )
 ;
 }
