@@ -22,7 +22,7 @@ Parser
 ]
 #
 [
-clap
+command
 (
 author
 version
@@ -44,19 +44,16 @@ to
 use
 #
 [
-clap
+arg
 (
-parse
-(
-try_from_str
+value_parser
 =
 port_in_range
-)
 )
 ]
 port
 :
-usize
+u16
 }
 fn
 main
@@ -114,7 +111,7 @@ str
 >
 Result
 <
-usize
+u16
 String
 >
 {
@@ -139,6 +136,7 @@ format
 (
 "
 {
+s
 }
 isn
 '
@@ -147,7 +145,6 @@ a
 port
 number
 "
-s
 )
 )
 ?
@@ -164,6 +161,8 @@ port
 Ok
 (
 port
+as
+u16
 )
 }
 else
@@ -174,7 +173,7 @@ format
 !
 (
 "
-Port
+port
 not
 in
 range

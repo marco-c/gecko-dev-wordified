@@ -1,12 +1,3 @@
-/
-/
-Note
-:
-this
-requires
-the
-derive
-feature
 use
 clap
 :
@@ -32,7 +23,7 @@ Debug
 ]
 #
 [
-clap
+command
 (
 author
 version
@@ -56,7 +47,7 @@ to
 greet
 #
 [
-clap
+arg
 (
 short
 long
@@ -75,7 +66,7 @@ to
 greet
 #
 [
-clap
+arg
 (
 short
 long
