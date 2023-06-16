@@ -406,11 +406,6 @@ ShouldResistFingerprinting
 (
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 const
 override

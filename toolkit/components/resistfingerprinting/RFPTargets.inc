@@ -370,6 +370,14 @@ JSMathFdlibm
 <
 22
 )
+ITEM_VALUE
+(
+Gamepad
+1u
+<
+<
+23
+)
 /
 /
 !
