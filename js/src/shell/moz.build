@@ -209,11 +209,6 @@ WasmTesting
 .
 cpp
 "
-"
-wizer
-.
-cpp
-"
 ]
 if
 CONFIG
@@ -281,12 +276,6 @@ LOCAL_INCLUDES
 "
 .
 .
-"
-"
-/
-third_party
-/
-wizer
 "
 ]
 OS_LIBS
