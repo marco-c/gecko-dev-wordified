@@ -538,6 +538,9 @@ nsresult
 aReason
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 NS_FAILED
@@ -546,6 +549,8 @@ aReason
 )
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIAsyncSetClipboardData
