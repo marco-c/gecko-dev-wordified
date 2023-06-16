@@ -22249,7 +22249,7 @@ IsAutoPopover
 {
 RefPtr
 <
-Element
+nsINode
 >
 ancestor
 =
@@ -22266,11 +22266,6 @@ ancestor
 ancestor
 =
 document
--
->
-GetDocumentElement
-(
-)
 ;
 }
 document
