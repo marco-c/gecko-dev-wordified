@@ -24225,7 +24225,13 @@ AudioSinkWrapper
 (
 mTaskQueue
 mAudioQueue
+std
+:
+:
+move
+(
 audioSinkCreator
+)
 mVolume
 mPlaybackRate
 mPreservesPitch
