@@ -2173,6 +2173,11 @@ test_section_toggle
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 initialize
