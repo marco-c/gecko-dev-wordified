@@ -3481,12 +3481,6 @@ nsIContentPolicy
 :
 :
 TYPE_PROXIED_WEBRTC_MEDIA
-TYPE_WEB_TRANSPORT
-=
-nsIContentPolicy
-:
-:
-TYPE_WEB_TRANSPORT
 }
 ;
 typedef
