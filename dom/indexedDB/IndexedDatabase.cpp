@@ -2494,6 +2494,7 @@ ReadFullySerializableObjects
 aCx
 aReader
 aTag
+true
 )
 ;
 }
