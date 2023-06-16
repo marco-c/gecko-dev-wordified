@@ -4220,6 +4220,12 @@ ExtContentPolicy
 :
 TYPE_SPECULATIVE
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_WEB_TRANSPORT
+:
 break
 ;
 case
