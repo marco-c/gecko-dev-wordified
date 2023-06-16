@@ -304,7 +304,7 @@ typename
 ToType
 >
 ToType
-GhettoStringConvert
+HackyStringConvert
 (
 const
 FromType
@@ -541,7 +541,7 @@ this
 with
 iconv
 return
-GhettoStringConvert
+HackyStringConvert
 <
 std
 :
@@ -596,7 +596,7 @@ this
 with
 iconv
 return
-GhettoStringConvert
+HackyStringConvert
 <
 StringPiece
 std
