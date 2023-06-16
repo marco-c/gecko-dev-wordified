@@ -621,7 +621,7 @@ target
 *
 return
 An
-nsIEventTarget
+nsISerialEventTarget
 interface
 to
 the
@@ -638,7 +638,7 @@ thread
 /
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetIOEventTarget
 (

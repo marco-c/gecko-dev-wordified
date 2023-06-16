@@ -3006,7 +3006,7 @@ bool
 aIncludePath
 uint32_t
 aExtraHeapSize
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -5685,7 +5685,7 @@ bool
 aIncludePath
 uint32_t
 aExtraHeapSize
-nsIEventTarget
+nsISerialEventTarget
 *
 )
 {

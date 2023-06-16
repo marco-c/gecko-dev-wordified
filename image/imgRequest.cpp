@@ -4425,7 +4425,7 @@ thread
 .
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

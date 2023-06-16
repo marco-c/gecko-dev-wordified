@@ -522,7 +522,7 @@ forget
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;
@@ -2082,7 +2082,7 @@ BaseWebSocketChannel
 :
 RetargetDeliveryTo
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aTargetThread
 )
@@ -2166,7 +2166,7 @@ BaseWebSocketChannel
 :
 GetDeliveryTarget
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 *
 aTargetThread
@@ -2181,7 +2181,7 @@ NS_IsMainThread
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -2215,7 +2215,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 BaseWebSocketChannel
 :
@@ -2226,7 +2226,7 @@ GetTargetThread
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;
@@ -2262,7 +2262,7 @@ IsOnTargetThread
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

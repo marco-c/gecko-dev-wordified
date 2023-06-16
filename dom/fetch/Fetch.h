@@ -1609,7 +1609,7 @@ dispatching
 .
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;

@@ -600,13 +600,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsINestedURI
 .
 h
@@ -5470,7 +5463,7 @@ aCloseWhenDone
 false
 *
 /
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThreadTarget
 /

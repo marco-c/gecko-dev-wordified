@@ -6492,7 +6492,7 @@ InterceptedHttpChannel
 :
 RetargetDeliveryTo
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aNewTarget
 )
@@ -6585,7 +6585,7 @@ InterceptedHttpChannel
 :
 GetDeliveryTarget
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 *
 aEventTarget

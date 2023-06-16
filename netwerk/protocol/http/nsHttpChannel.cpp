@@ -55438,7 +55438,7 @@ nsHttpChannel
 :
 RetargetDeliveryTo
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aNewTarget
 )
@@ -55677,7 +55677,7 @@ retargetableCachePump
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 main
 =
@@ -55713,7 +55713,7 @@ nsHttpChannel
 :
 GetDeliveryTarget
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 *
 aEventTarget

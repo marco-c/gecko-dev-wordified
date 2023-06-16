@@ -471,7 +471,7 @@ uint32_t
 segcount
 bool
 closeWhenDone
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadTarget
 )
@@ -881,7 +881,7 @@ mOffMainThread
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mainThread
 =
@@ -2346,7 +2346,7 @@ uint32_t
 segcount
 bool
 closeWhenDone
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadTarget
 )
@@ -5332,7 +5332,7 @@ nsInputStreamPump
 :
 RetargetDeliveryTo
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aNewTarget
 )
@@ -5592,7 +5592,7 @@ nsInputStreamPump
 :
 GetDeliveryTarget
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 *
 aNewTarget
@@ -5606,7 +5606,7 @@ mMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

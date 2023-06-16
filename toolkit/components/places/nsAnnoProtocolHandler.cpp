@@ -1270,7 +1270,7 @@ LoadInfo
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

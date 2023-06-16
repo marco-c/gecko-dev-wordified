@@ -925,7 +925,7 @@ mReferrerPolicyHeaderValue
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;

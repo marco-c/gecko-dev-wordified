@@ -1259,7 +1259,7 @@ Run
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 DecodePool
 :
@@ -1276,7 +1276,7 @@ mMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

@@ -4416,7 +4416,7 @@ aRequest
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 thread
 ;
@@ -5625,7 +5625,7 @@ IsActorThread
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 StreamFilterParent
 :

@@ -1366,7 +1366,7 @@ stream
 pump
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

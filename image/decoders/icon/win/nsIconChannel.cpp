@@ -5367,7 +5367,7 @@ specifies
 otherwise
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 listenerTarget
 =

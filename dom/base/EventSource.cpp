@@ -625,7 +625,7 @@ nsIInterfaceRequestor
 public
 nsSupportsWeakReference
 public
-nsIEventTarget
+nsISerialEventTarget
 public
 nsITimerCallback
 public
@@ -2070,6 +2070,7 @@ nsIRequestObserver
 nsIChannelEventSink
 nsIInterfaceRequestor
 nsISupportsWeakReference
+nsISerialEventTarget
 nsIEventTarget
 nsIThreadRetargetableStreamListener
 nsITimerCallback

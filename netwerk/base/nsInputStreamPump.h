@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsIEventTarget
+nsISerialEventTarget
 .
 h
 "
@@ -268,7 +268,7 @@ bool
 closeWhenDone
 =
 false
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadTarget
 =
@@ -585,7 +585,7 @@ mMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mTargetThread
 MOZ_GUARDED_BY
@@ -595,7 +595,7 @@ mMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mLabeledMainThreadTarget
 MOZ_GUARDED_BY

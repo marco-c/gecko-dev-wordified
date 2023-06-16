@@ -750,7 +750,7 @@ ODA
 .
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetODATarget
 (
@@ -782,13 +782,13 @@ mChannel
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mTargetThread
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mODATarget
 ;
