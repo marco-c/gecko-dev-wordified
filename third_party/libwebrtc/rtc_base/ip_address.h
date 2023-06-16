@@ -1201,6 +1201,7 @@ IPAddress
 ip
 )
 ;
+RTC_EXPORT
 bool
 IPIsUnspec
 (

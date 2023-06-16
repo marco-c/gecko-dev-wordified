@@ -147,6 +147,17 @@ ice_transport_internal
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 cricket
 {
@@ -163,6 +174,7 @@ circular
 dependency
 .
 struct
+RTC_EXPORT
 IceRecheckEvent
 {
 IceRecheckEvent

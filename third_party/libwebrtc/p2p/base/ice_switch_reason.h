@@ -93,6 +93,17 @@ include
 <
 string
 >
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 cricket
 {
@@ -138,6 +149,7 @@ place
 ICE_CONTROLLER_RECHECK
 }
 ;
+RTC_EXPORT
 std
 :
 :
