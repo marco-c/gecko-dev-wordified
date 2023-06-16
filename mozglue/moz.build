@@ -165,6 +165,14 @@ OS_ARCH
 "
 Linux
 "
+and
+not
+CONFIG
+[
+"
+FUZZING_SNAPSHOT
+"
+]
 :
 DIRS
 +
