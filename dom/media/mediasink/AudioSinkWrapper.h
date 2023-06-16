@@ -600,6 +600,11 @@ IsCurrentThreadIn
 )
 ;
 }
+bool
+NeedAudioSink
+(
+)
+;
 /
 /
 An
