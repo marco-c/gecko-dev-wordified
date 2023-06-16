@@ -1266,6 +1266,8 @@ BytecodeSection
 :
 updateDepth
 (
+JSOp
+op
 BytecodeOffset
 target
 )
@@ -1284,6 +1286,7 @@ nuses
 =
 StackUses
 (
+op
 pc
 )
 ;
@@ -1292,7 +1295,7 @@ ndefs
 =
 StackDefs
 (
-pc
+op
 )
 ;
 stackDepth_

@@ -1543,6 +1543,8 @@ maxStackDepth_
 void
 updateDepth
 (
+JSOp
+op
 BytecodeOffset
 target
 )

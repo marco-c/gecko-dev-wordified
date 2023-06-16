@@ -2285,6 +2285,7 @@ bytecodeSection
 .
 updateDepth
 (
+op
 offset
 )
 ;
@@ -2370,6 +2371,7 @@ bytecodeSection
 .
 updateDepth
 (
+op
 offset
 )
 ;
@@ -2489,6 +2491,7 @@ bytecodeSection
 .
 updateDepth
 (
+op
 offset
 )
 ;
@@ -2638,6 +2641,7 @@ bytecodeSection
 .
 updateDepth
 (
+op
 off
 )
 ;
@@ -2985,6 +2989,7 @@ bytecodeSection
 .
 updateDepth
 (
+op
 offset
 )
 ;
@@ -4711,6 +4716,7 @@ bytecodeSection
 .
 updateDepth
 (
+op
 offset
 )
 ;
@@ -12705,6 +12711,10 @@ bytecodeSection
 .
 updateDepth
 (
+JSOp
+:
+:
+Double
 offset
 )
 ;

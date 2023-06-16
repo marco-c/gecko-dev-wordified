@@ -3492,6 +3492,7 @@ js
 :
 StackUses
 (
+op
 pc
 )
 ;
