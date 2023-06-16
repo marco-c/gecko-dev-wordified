@@ -313,6 +313,7 @@ function
 response
 )
 {
+return
 createImageBitmap
 (
 response
@@ -363,7 +364,6 @@ canvas
 )
 ;
 }
-t_fail
 )
 ;
 }
