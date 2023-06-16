@@ -2399,7 +2399,7 @@ code
 return
 code
 class
-TestType
+CanvasType
 (
 str
 enum
@@ -2426,7 +2426,7 @@ WORKER
 worker
 '
 def
-_get_enabled_test_types
+_get_enabled_canvas_types
 (
 test
 :
@@ -2440,13 +2440,13 @@ Any
 >
 Set
 [
-TestType
+CanvasType
 ]
 :
     
 return
 {
-TestType
+CanvasType
 (
 t
 .
@@ -2464,7 +2464,7 @@ get
 '
 canvasType
 '
-TestType
+CanvasType
 )
 }
 dataclasses
@@ -2891,7 +2891,7 @@ enabled_tests
 :
 Set
 [
-TestType
+CanvasType
 ]
                           
 canvas_path
@@ -2904,7 +2904,7 @@ str
 :
     
 if
-TestType
+CanvasType
 .
 HTML_CANVAS
 in
@@ -2953,7 +2953,7 @@ utf
 )
     
 if
-TestType
+CanvasType
 .
 OFFSCREEN_CANVAS
 in
@@ -3002,7 +3002,7 @@ utf
 )
     
 if
-TestType
+CanvasType
 .
 WORKER
 in
@@ -3137,7 +3137,7 @@ html
 '
     
 if
-TestType
+CanvasType
 .
 HTML_CANVAS
 in
@@ -3185,10 +3185,10 @@ utf
     
 if
 {
-TestType
+CanvasType
 .
 OFFSCREEN_CANVAS
-TestType
+CanvasType
 .
 WORKER
 }
@@ -3255,7 +3255,7 @@ enabled_tests
 :
 Set
 [
-TestType
+CanvasType
 ]
                             
 canvas_path
@@ -3279,7 +3279,7 @@ offscreencanvas
 .
     
 if
-TestType
+CanvasType
 .
 HTML_CANVAS
 in
@@ -3328,7 +3328,7 @@ utf
 )
     
 if
-TestType
+CanvasType
 .
 OFFSCREEN_CANVAS
 in
@@ -3378,7 +3378,7 @@ utf
 )
     
 if
-TestType
+CanvasType
 .
 WORKER
 in
@@ -3450,7 +3450,7 @@ enabled_tests
 :
 Set
 [
-TestType
+CanvasType
 ]
                    
 html_canvas_cfg
@@ -3636,7 +3636,7 @@ expected
 )
             
 if
-TestType
+CanvasType
 .
 HTML_CANVAS
 in
@@ -3713,10 +3713,10 @@ cairo
             
 if
 {
-TestType
+CanvasType
 .
 OFFSCREEN_CANVAS
-TestType
+CanvasType
 .
 WORKER
 }
@@ -4539,9 +4539,9 @@ t
 '
 )
             
-enabled_test_types
+enabled_canvas_types
 =
-_get_enabled_test_types
+_get_enabled_canvas_types
 (
 test
 )
@@ -4556,7 +4556,7 @@ name
 intersection
 (
                 
-enabled_test_types
+enabled_canvas_types
 )
             
 if
@@ -4591,7 +4591,7 @@ name
 .
 update
 (
-enabled_test_types
+enabled_canvas_types
 )
             
 sub_dir
@@ -4611,7 +4611,7 @@ jinja_env
                 
 sub_dir
                 
-enabled_test_types
+enabled_canvas_types
                 
 html_canvas_cfg
 =
