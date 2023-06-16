@@ -1419,7 +1419,7 @@ capabilities
 =
 {
 "
-test
+moz
 :
 fooBar
 "
@@ -1452,7 +1452,7 @@ session
 get
 (
 "
-test
+moz
 :
 fooBar
 "
@@ -2356,7 +2356,7 @@ capabilities
 =
 {
 "
-test
+moz
 :
 fooBar
 "
@@ -2405,7 +2405,7 @@ session
 get
 (
 "
-test
+moz
 :
 fooBar
 "
