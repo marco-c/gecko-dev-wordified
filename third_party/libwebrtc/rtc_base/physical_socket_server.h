@@ -1157,6 +1157,16 @@ return
 ss_
 ;
 }
+SOCKET
+GetSocketFD
+(
+)
+const
+{
+return
+s_
+;
+}
 protected
 :
 int
