@@ -280,14 +280,6 @@ dialog
 centerscreen
 "
 {
-onResize
-:
-(
-)
-=
->
-{
-}
 }
 )
 ;
