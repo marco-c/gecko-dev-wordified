@@ -175,11 +175,8 @@ getSelectedLocation
 bp
 selectedSource
 )
-?
 .
-source
-.
-id
+sourceId
 =
 =
 =

@@ -1996,6 +1996,11 @@ column
 line
 :
 34
+sourceId
+:
+"
+foo
+"
 source
 :
 {
@@ -2011,6 +2016,10 @@ undefined
 sourceActor
 :
 null
+sourceUrl
+:
+"
+"
 }
 )
 ;
@@ -2129,6 +2138,7 @@ column
 line
 :
 34
+sourceId
 source
 :
 {
@@ -2142,6 +2152,10 @@ undefined
 sourceActor
 :
 null
+sourceUrl
+:
+"
+"
 }
 )
 ;
@@ -2804,6 +2818,9 @@ mockcx
 column
 :
 undefined
+sourceId
+:
+id
 line
 :
 0
@@ -2818,6 +2835,10 @@ undefined
 sourceActor
 :
 null
+sourceUrl
+:
+"
+"
 }
 )
 ;
@@ -2980,6 +3001,9 @@ undefined
 line
 :
 0
+sourceId
+:
+id
 source
 :
 {
@@ -2991,6 +3015,10 @@ undefined
 sourceActor
 :
 null
+sourceUrl
+:
+"
+"
 }
 )
 ;
@@ -3155,6 +3183,9 @@ column
 line
 :
 3
+sourceId
+:
+id
 source
 :
 {
@@ -3166,6 +3197,10 @@ undefined
 sourceActor
 :
 null
+sourceUrl
+:
+"
+"
 }
 )
 ;
