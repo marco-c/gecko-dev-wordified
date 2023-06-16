@@ -158,7 +158,7 @@ video_coding
 /
 timing
 /
-codec_timer
+decode_time_percentile_filter
 .
 h
 "
@@ -947,9 +947,9 @@ std
 :
 unique_ptr
 <
-CodecTimer
+DecodeTimePercentileFilter
 >
-codec_timer_
+decode_time_filter_
 RTC_GUARDED_BY
 (
 mutex_
