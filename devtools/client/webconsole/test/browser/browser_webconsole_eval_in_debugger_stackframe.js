@@ -330,7 +330,7 @@ dbg
 .
 selectors
 .
-getCallStackFrames
+getCurrentThreadFrames
 (
 )
 ;

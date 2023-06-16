@@ -132,17 +132,6 @@ expressions
 ;
 export
 {
-getCallStackFrames
-}
-from
-"
-.
-/
-getCallStackFrames
-"
-;
-export
-{
 isLineInScope
 }
 from

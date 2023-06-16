@@ -178,9 +178,10 @@ import
 {
 getFrameworkGroupingState
 getSelectedFrame
-getCallStackFrames
+getCurrentThreadFrames
 getCurrentThread
 getThreadContext
+getShouldSelectOriginalLocation
 }
 from
 "
@@ -356,6 +357,7 @@ const
 frames
 selectedFrame
 frameworkGroupingOn
+shouldDisplayOriginalLocation
 }
 =
 this
@@ -407,6 +409,15 @@ frameworkGroupingOn
 nextProps
 .
 frameworkGroupingOn
+|
+|
+shouldDisplayOriginalLocation
+!
+=
+=
+nextProps
+.
+shouldDisplayOriginalLocation
 )
 ;
 }
@@ -509,6 +520,7 @@ copyStackTrace
 const
 {
 frames
+shouldDisplayOriginalLocation
 }
 =
 this
@@ -538,6 +550,7 @@ formatCopyName
 (
 f
 l10n
+shouldDisplayOriginalLocation
 )
 )
 .
@@ -599,6 +612,7 @@ getFrameTitle
 disableContextMenu
 panel
 restart
+shouldDisplayOriginalLocation
 }
 =
 this
@@ -738,6 +752,11 @@ selectedFrame
 =
 {
 selectedFrame
+}
+shouldDisplayOriginalLocation
+=
+{
+shouldDisplayOriginalLocation
 }
 toggleBlackBox
 =
@@ -1127,7 +1146,7 @@ state
 )
 frames
 :
-getCallStackFrames
+getCurrentThreadFrames
 (
 state
 )
@@ -1146,6 +1165,12 @@ getCurrentThread
 (
 state
 )
+)
+shouldDisplayOriginalLocation
+:
+getShouldSelectOriginalLocation
+(
+state
 )
 disableFrameTruncate
 :
