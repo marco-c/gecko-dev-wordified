@@ -1440,6 +1440,11 @@ getState
 toEqual
 (
 {
+sourceId
+:
+source
+.
+id
 .
 .
 .

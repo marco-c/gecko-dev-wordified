@@ -1811,9 +1811,7 @@ selPos
 .
 location
 .
-source
-.
-id
+sourceId
 source
 .
 id
@@ -1824,8 +1822,7 @@ column
 has
 the
 right
-source
-id
+sourceId
 "
 )
 ;
@@ -1835,9 +1832,7 @@ selPos
 .
 location
 .
-source
-.
-url
+sourceUrl
 source
 .
 url
@@ -1848,8 +1843,7 @@ column
 has
 the
 right
-source
-url
+sourceUrl
 "
 )
 ;

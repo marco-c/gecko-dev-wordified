@@ -185,9 +185,7 @@ getSymbols
 (
 location
 .
-source
-.
-id
+sourceId
 )
 }
 )
@@ -274,9 +272,7 @@ location
 >
 location
 .
-source
-.
-id
+sourceId
 action
 :
 (

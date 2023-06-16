@@ -626,9 +626,7 @@ removeBreakpointsAtLine
 cx
 selectedLocation
 .
-source
-.
-id
+sourceId
 selectedLocation
 .
 line

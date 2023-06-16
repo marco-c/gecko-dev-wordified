@@ -573,6 +573,7 @@ startLine
 column
 :
 undefined
+sourceId
 source
 :
 {
@@ -586,6 +587,10 @@ null
 sourceActorId
 :
 undefined
+sourceUrl
+:
+"
+"
 }
 )
 ;
@@ -1364,6 +1369,7 @@ line
 column
 :
 undefined
+sourceId
 source
 :
 {
@@ -1377,6 +1383,10 @@ null
 sourceActorId
 :
 undefined
+sourceUrl
+:
+"
+"
 }
 )
 ;
