@@ -3903,8 +3903,7 @@ metrics
 "
 Options
 :
-geomean
-mean
+median
 .
 "
                     
