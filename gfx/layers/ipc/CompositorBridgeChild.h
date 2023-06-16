@@ -817,6 +817,16 @@ return
 mCanSend
 ;
 }
+bool
+IsPaused
+(
+)
+const
+{
+return
+mPaused
+;
+}
 static
 void
 ShutDown
@@ -1338,6 +1348,9 @@ destroyed
 .
 bool
 mActorDestroyed
+;
+bool
+mPaused
 ;
 /
 *
