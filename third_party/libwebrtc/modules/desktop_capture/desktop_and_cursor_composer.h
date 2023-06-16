@@ -581,6 +581,12 @@ Callback
 interface
 .
 void
+OnFrameCaptureStart
+(
+)
+override
+;
+void
 OnCaptureResult
 (
 DesktopCapturer
