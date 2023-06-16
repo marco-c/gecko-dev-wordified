@@ -8617,7 +8617,7 @@ NS_OK
 }
 Result
 <
-bool
+EntryId
 QMResult
 >
 FileSystemDatabaseManagerVersion001
@@ -8715,7 +8715,7 @@ aNewName
 )
 {
 return
-true
+entryId
 ;
 }
 QM_TRY
@@ -8809,12 +8809,12 @@ Commit
 )
 ;
 return
-true
+entryId
 ;
 }
 Result
 <
-bool
+EntryId
 QMResult
 >
 FileSystemDatabaseManagerVersion001
@@ -8951,7 +8951,7 @@ value
 )
 {
 return
-true
+entryId
 ;
 }
 QM_TRY
@@ -9143,7 +9143,7 @@ Commit
 )
 ;
 return
-true
+entryId
 ;
 }
 if
@@ -9207,7 +9207,7 @@ Commit
 )
 ;
 return
-true
+entryId
 ;
 }
 Result

@@ -527,7 +527,7 @@ override
 virtual
 Result
 <
-bool
+EntryId
 QMResult
 >
 RenameEntry
@@ -546,7 +546,7 @@ override
 virtual
 Result
 <
-bool
+EntryId
 QMResult
 >
 MoveEntry
