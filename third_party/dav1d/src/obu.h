@@ -267,7 +267,7 @@ internal
 .
 h
 "
-int
+ptrdiff_t
 dav1d_parse_obus
 (
 Dav1dContext
@@ -276,8 +276,6 @@ c
 Dav1dData
 *
 in
-int
-global
 )
 ;
 #

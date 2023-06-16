@@ -303,6 +303,17 @@ typedef
 struct
 Av1RestorationUnit
 {
+/
+*
+SGR
+:
+type
+=
+DAV1D_RESTORATION_SGRPROJ
++
+sgr_idx
+*
+/
 uint8_t
 /
 *
@@ -323,9 +334,6 @@ filter_v
 [
 3
 ]
-;
-uint8_t
-sgr_idx
 ;
 int8_t
 sgr_weights
