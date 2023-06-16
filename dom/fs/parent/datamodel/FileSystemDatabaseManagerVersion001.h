@@ -675,8 +675,6 @@ aFileId
 )
 const
 ;
-private
-:
 nsresult
 SetUsageTracking
 (
