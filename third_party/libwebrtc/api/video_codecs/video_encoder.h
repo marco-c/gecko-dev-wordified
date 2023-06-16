@@ -3134,6 +3134,8 @@ GetEncoderInfo
 (
 )
 const
+=
+0
 ;
 }
 ;
