@@ -837,6 +837,10 @@ mCurrentPoint
 =
 aPoint
 ;
+mFigureEmpty
+=
+false
+;
 }
 void
 PathBuilderD2D
@@ -892,6 +896,10 @@ mCurrentPoint
 =
 aCP3
 ;
+mFigureEmpty
+=
+false
+;
 }
 void
 PathBuilderD2D
@@ -938,6 +946,10 @@ aCP2
 mCurrentPoint
 =
 aCP2
+;
+mFigureEmpty
+=
+false
 ;
 }
 void
@@ -1612,6 +1624,10 @@ mCurrentPoint
 =
 endPoint
 ;
+mFigureEmpty
+=
+false
+;
 }
 void
 PathBuilderD2D
@@ -1727,6 +1743,7 @@ PathD2D
 (
 mGeometry
 mFigureActive
+mFigureEmpty
 mCurrentPoint
 mFillRule
 mBackendType
