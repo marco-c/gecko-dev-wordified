@@ -438,6 +438,7 @@ int32_t
 aID
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Paste
 (
