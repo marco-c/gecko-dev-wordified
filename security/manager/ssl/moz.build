@@ -612,11 +612,6 @@ nsClientAuthRemember
 cpp
 "
 "
-nsCryptoHash
-.
-cpp
-"
-"
 nsNSSCallbacks
 .
 cpp
