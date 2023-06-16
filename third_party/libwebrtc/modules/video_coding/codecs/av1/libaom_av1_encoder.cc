@@ -5579,9 +5579,10 @@ sid
 tid
 ]
 =
-encoder_settings_
-.
-maxFramerate
+EncoderInfo
+:
+:
+kMaxFramerateFraction
 /
 svc_params_
 -
