@@ -1911,13 +1911,13 @@ offset
 position
 "
 "
-PositionOrAuto
+OffsetPosition
 "
 "
 computed
 :
 :
-PositionOrAuto
+OffsetPosition
 :
 :
 auto
