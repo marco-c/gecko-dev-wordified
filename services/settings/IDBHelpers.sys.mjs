@@ -56,15 +56,6 @@ MPL
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-IDBHelpers
-"
-]
-;
 const
 DB_NAME
 =
@@ -1483,6 +1474,7 @@ resolve
 )
 ;
 }
+export
 var
 IDBHelpers
 =

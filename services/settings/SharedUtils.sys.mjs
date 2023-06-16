@@ -77,15 +77,7 @@ thread
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-SharedUtils
-"
-]
-;
+export
 var
 SharedUtils
 =
