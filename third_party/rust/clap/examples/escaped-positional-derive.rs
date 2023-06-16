@@ -1,12 +1,3 @@
-/
-/
-Note
-:
-this
-requires
-the
-derive
-feature
 use
 clap
 :
@@ -20,9 +11,14 @@ derive
 Parser
 )
 ]
+/
+/
+requires
+derive
+feature
 #
 [
-clap
+command
 (
 author
 version
@@ -37,7 +33,7 @@ Cli
 {
 #
 [
-clap
+arg
 (
 short
 =
@@ -51,7 +47,7 @@ eff
 bool
 #
 [
-clap
+arg
 (
 short
 =
@@ -73,7 +69,7 @@ String
 >
 #
 [
-clap
+arg
 (
 last
 =
