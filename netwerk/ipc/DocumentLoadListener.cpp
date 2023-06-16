@@ -9557,9 +9557,6 @@ uint32_t
 aRedirectFlags
 uint32_t
 aLoadFlags
-ContentParent
-*
-aParent
 nsTArray
 <
 EarlyHintConnectArgs
@@ -10106,7 +10103,6 @@ DocumentChannel
 .
 Serialize
 (
-aParent
 )
 )
 ;
@@ -14035,7 +14031,6 @@ aIsCrossProcess
 true
 aRedirectFlags
 aLoadFlags
-cp
 std
 :
 :

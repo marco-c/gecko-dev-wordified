@@ -3227,12 +3227,6 @@ dom
 ReplacementChannelConfigInit
 Serialize
 (
-dom
-:
-:
-ContentParent
-*
-aParent
 )
 ;
 }
