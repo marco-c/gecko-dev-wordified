@@ -1312,7 +1312,14 @@ onTabDragEnd
 key
 =
 {
-index
+source
+.
+id
++
+sourceActor
+?
+.
+id
 }
 index
 =
