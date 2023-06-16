@@ -379,8 +379,6 @@ SharedSubResourceCacheLoadingValueBase
 SheetLoadData
 >
 public
-nsIRunnable
-public
 nsIThreadObserver
 {
 using
@@ -673,7 +671,6 @@ aChannel
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIRUNNABLE
 NS_DECL_NSITHREADOBSERVER
 css
 :
@@ -2014,6 +2011,7 @@ RootLoadData
 )
 const
 {
+const
 auto
 *
 top
@@ -2105,7 +2103,7 @@ p
 return
 NS_ISUPPORTS_CAST
 (
-nsIRunnable
+nsIThreadObserver
 *
 p
 )
