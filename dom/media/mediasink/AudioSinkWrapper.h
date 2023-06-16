@@ -617,6 +617,11 @@ TimeUnit
 aStartTime
 )
 ;
+void
+ShutDownAudioSink
+(
+)
+;
 /
 /
 Create
