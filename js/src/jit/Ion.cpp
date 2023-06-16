@@ -1691,6 +1691,7 @@ generateVMWrappers
 (
 cx
 masm
+rangeRecorder
 )
 )
 {
@@ -1698,18 +1699,6 @@ return
 false
 ;
 }
-rangeRecorder
-.
-recordOffset
-(
-"
-Trampoline
-:
-VM
-Wrapper
-"
-)
-;
 JitSpew
 (
 JitSpew_Codegen
