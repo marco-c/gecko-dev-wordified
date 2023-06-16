@@ -763,6 +763,10 @@ StylePositionOrAuto
 )
 BASIC_SERDE_FUNCS
 (
+StyleOffsetPosition
+)
+BASIC_SERDE_FUNCS
+(
 StyleComputedTimingFunction
 )
 #

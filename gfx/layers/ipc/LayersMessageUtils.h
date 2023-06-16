@@ -8027,6 +8027,10 @@ StylePositionOrAuto
 )
 IMPL_PARAMTRAITS_BY_SERDE
 (
+StyleOffsetPosition
+)
+IMPL_PARAMTRAITS_BY_SERDE
+(
 StyleRotate
 )
 IMPL_PARAMTRAITS_BY_SERDE

@@ -224,6 +224,7 @@ eCSSProperty_offset_distance
 eCSSProperty_offset_rotate
 eCSSProperty_offset_anchor
 *
+eCSSProperty_offset_position
 eCSSProperty_opacity
 *
 and

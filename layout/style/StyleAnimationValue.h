@@ -573,6 +573,17 @@ GetOffsetAnchorProperty
 )
 const
 ;
+const
+mozilla
+:
+:
+StyleOffsetPosition
+&
+GetOffsetPositionProperty
+(
+)
+const
+;
 /
 /
 Return

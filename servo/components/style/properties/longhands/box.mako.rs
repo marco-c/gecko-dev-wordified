@@ -1951,6 +1951,11 @@ position
 .
 enabled
 "
+flags
+=
+"
+CAN_ANIMATE_ON_COMPOSITOR
+"
 spec
 =
 "
