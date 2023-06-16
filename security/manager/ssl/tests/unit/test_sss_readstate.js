@@ -686,8 +686,6 @@ expired
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -706,8 +704,6 @@ notexpired
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -737,8 +733,6 @@ includesubdomains
 preloaded
 .
 test
-:
-HSTS
 \
 t0
 \
@@ -757,8 +751,6 @@ incsubdomain
 example
 .
 com
-:
-HSTS
 \
 t0
 \
@@ -789,8 +781,6 @@ includesubdomains2
 preloaded
 .
 test
-:
-HSTS
 \
 t0
 \

@@ -323,8 +323,6 @@ frequentlyused
 example
 .
 com
-:
-HSTS
 "
 )
 )
@@ -590,8 +588,6 @@ frequentlyused
 example
 .
 com
-:
-HSTS
 \
 t4
 \
