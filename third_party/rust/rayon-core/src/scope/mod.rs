@@ -6788,10 +6788,7 @@ registry
 .
 inject
 (
-&
-[
 job_ref
-]
 )
 }
 }
