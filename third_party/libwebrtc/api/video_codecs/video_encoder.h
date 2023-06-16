@@ -2472,9 +2472,13 @@ only
 supported
 by
 LibvpxVp8Encoder
+and
+/
+/
+the
+OpenH264
+encoder
 .
-/
-/
 If
 set
 limits
