@@ -813,6 +813,13 @@ const
 void
 OnAudioEnded
 (
+const
+EndedPromise
+:
+:
+ResolveOrRejectValue
+&
+aValue
 )
 ;
 bool
