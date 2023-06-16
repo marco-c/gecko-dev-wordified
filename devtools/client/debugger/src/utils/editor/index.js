@@ -369,7 +369,9 @@ toEditorLine
 (
 location
 .
-sourceId
+source
+.
+id
 location
 .
 line
@@ -380,7 +382,9 @@ isWasm
 (
 location
 .
-sourceId
+source
+.
+id
 )
 |
 |
