@@ -148,7 +148,7 @@ global
 newGlobal
 (
 {
-shouldResistFingerprinting
+forceUTC
 :
 true
 }

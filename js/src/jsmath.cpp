@@ -427,11 +427,11 @@ nonCCWRealm
 )
 -
 >
-behaviors
+creationOptions
 (
 )
 .
-shouldResistFingerprinting
+alwaysUseFdlibm
 (
 )
 ;
