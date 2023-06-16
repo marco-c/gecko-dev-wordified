@@ -2556,7 +2556,7 @@ mList
 aIndex
 ]
 .
-GetValueInUserUnits
+GetValueInPixels
 (
 mElement
 mAxis

@@ -801,7 +801,7 @@ xRes
 =
 x
 .
-GetValueInUserUnits
+GetValueInPixels
 (
 mSVGElement
 SVGContentUtils
@@ -815,7 +815,7 @@ yRes
 =
 y
 .
-GetValueInUserUnits
+GetValueInPixels
 (
 mSVGElement
 SVGContentUtils

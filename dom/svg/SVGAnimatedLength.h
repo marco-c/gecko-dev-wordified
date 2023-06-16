@@ -252,17 +252,6 @@ UserSpaceMetrics
 {
 public
 :
-static
-bool
-ResolveAbsoluteUnit
-(
-uint8_t
-aUnitType
-float
-&
-aRes
-)
-;
 virtual
 ~
 UserSpaceMetrics
