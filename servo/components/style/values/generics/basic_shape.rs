@@ -1718,7 +1718,9 @@ Serialize
 [
 derive
 (
+Animate
 Clone
+ComputeSquaredDistance
 Copy
 Debug
 Deserialize
@@ -1852,13 +1854,6 @@ skip_if
 "
 is_default
 "
-)
-]
-#
-[
-animation
-(
-constant
 )
 ]
 pub

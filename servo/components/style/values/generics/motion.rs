@@ -193,6 +193,7 @@ Parse
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -289,6 +290,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -652,6 +654,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -829,6 +832,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue

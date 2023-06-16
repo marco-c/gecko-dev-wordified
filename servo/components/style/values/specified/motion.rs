@@ -429,6 +429,7 @@ Parse
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
