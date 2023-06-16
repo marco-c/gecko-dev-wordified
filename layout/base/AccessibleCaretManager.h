@@ -1447,6 +1447,7 @@ number
 bool
 IsPhoneNumber
 (
+const
 nsAString
 &
 aCandidate

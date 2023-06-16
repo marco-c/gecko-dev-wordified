@@ -534,7 +534,13 @@ nsContentUtils
 IsPatternMatching
 (
 value
+std
+:
+:
+move
+(
 pattern
+)
 doc
 mInputElement
 -
