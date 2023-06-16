@@ -191,14 +191,6 @@ TransformReferenceBox
 namespace
 mozilla
 {
-using
-RayFunction
-=
-StyleRayFunction
-<
-StyleAngle
->
-;
 namespace
 layers
 {
@@ -427,7 +419,7 @@ struct
 RayData
 {
 const
-RayFunction
+StyleRayFunction
 *
 mRay
 ;
@@ -530,7 +522,7 @@ OffsetPathData
 Ray
 (
 const
-RayFunction
+StyleRayFunction
 &
 aRay
 const
@@ -553,7 +545,7 @@ OffsetPathData
 Ray
 (
 const
-RayFunction
+StyleRayFunction
 &
 aRay
 RayReferenceData
@@ -883,7 +875,7 @@ aIsClosed
 OffsetPathData
 (
 const
-RayFunction
+StyleRayFunction
 *
 aRay
 RayReferenceData
@@ -915,7 +907,7 @@ aRef
 OffsetPathData
 (
 const
-RayFunction
+StyleRayFunction
 *
 aRay
 const
