@@ -988,10 +988,6 @@ undefined
 sourceActor
 :
 null
-sourceUrl
-:
-"
-"
 }
 )
 ;
