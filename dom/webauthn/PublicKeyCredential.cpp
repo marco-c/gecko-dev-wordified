@@ -185,7 +185,7 @@ h
 "
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 "
@@ -582,7 +582,7 @@ time
 .
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 WinWebAuthnManager
@@ -801,7 +801,7 @@ nullptr
 }
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 WinWebAuthnManager

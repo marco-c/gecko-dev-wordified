@@ -5498,7 +5498,7 @@ name
 {
 #
 ifdef
-OS_POSIX
+XP_UNIX
 printf_stderr
 (
 "
@@ -5536,7 +5536,7 @@ sleep
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -11898,7 +11898,7 @@ XP_LINUX
 !
 defined
 (
-OS_ANDROID
+ANDROID
 )
 CrashReporter
 :
@@ -11938,7 +11938,7 @@ XP_LINUX
 &
 &
 !
-OS_ANDROID
+ANDROID
 *
 /
 #

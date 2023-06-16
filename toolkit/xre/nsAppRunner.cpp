@@ -36031,7 +36031,7 @@ NS_OK
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 CommandLine
 :

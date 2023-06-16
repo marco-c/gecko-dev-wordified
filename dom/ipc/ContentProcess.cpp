@@ -284,7 +284,7 @@ rv
 ;
 #
 ifdef
-OS_MACOSX
+XP_DARWIN
 /
 /
 Walk
@@ -374,7 +374,7 @@ NS_ERROR_UNEXPECTED
 }
 #
 ifdef
-OS_MACOSX
+XP_DARWIN
 rv
 =
 current

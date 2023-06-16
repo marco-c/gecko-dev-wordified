@@ -1339,7 +1339,7 @@ temp
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -1502,7 +1502,7 @@ ab
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -1877,7 +1877,7 @@ false
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 if
 (
@@ -1926,7 +1926,7 @@ false
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 if
 (

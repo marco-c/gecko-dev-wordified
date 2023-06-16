@@ -2170,7 +2170,7 @@ IsInitialized
 {
 #
 ifdef
-OS_WIN
+XP_WIN
 CommandLine
 :
 :

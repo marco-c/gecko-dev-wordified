@@ -258,7 +258,7 @@ limitation
 /
 /
 on
-OS_POSIX
+XP_UNIX
 (
 MACOSX
 or

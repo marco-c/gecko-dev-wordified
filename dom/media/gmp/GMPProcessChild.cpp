@@ -185,7 +185,7 @@ pluginFilename
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -291,7 +291,7 @@ pluginFilename
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 std
 :
