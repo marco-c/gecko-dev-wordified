@@ -3578,16 +3578,6 @@ _visuallySelected
 =
 true
 ;
-this
-.
-tabbrowser
-.
-tabContainer
-.
-_setPositionalAttributes
-(
-)
-;
 }
 this
 .
