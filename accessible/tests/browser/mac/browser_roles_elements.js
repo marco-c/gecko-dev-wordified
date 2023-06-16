@@ -2269,7 +2269,9 @@ meter
 "
 AXLevelIndicator
 "
-null
+"
+AXMeter
+"
 "
 level
 indicator
