@@ -5746,7 +5746,7 @@ _ns
 smile
 U
 +
-1F604
+1F642
 outputHTML
 glyphTextLen
 )
@@ -5770,7 +5770,7 @@ _ns
 smile
 U
 +
-1F604
+1F642
 outputHTML
 glyphTextLen
 )
@@ -5857,8 +5857,6 @@ aInLength
 bArg
 "
 :
--
-[
 "
 u
 "
@@ -5869,7 +5867,7 @@ _ns
 embarassed
 U
 +
-1F605
+1F633
 outputHTML
 glyphTextLen
 )
