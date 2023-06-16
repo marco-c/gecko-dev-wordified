@@ -455,6 +455,10 @@ extern
 crate
 rust_minidump_writer_linux
 ;
+extern
+crate
+mozannotation_client
+;
 #
 [
 cfg
