@@ -4370,22 +4370,6 @@ _process_sandboxed_wasm_library
 obj
 backend_file
 )
-            
-self
-.
-_no_skip
-[
-"
-syms
-"
-]
-.
-add
-(
-backend_file
-.
-relobjdir
-)
         
 elif
 isinstance
