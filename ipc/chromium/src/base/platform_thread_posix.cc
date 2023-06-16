@@ -371,7 +371,7 @@ OS_OPENBSD
 |
 defined
 (
-OS_SOLARIS
+XP_SOLARIS
 )
 |
 |

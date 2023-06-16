@@ -8422,7 +8422,7 @@ OS_BSD
 |
 defined
 (
-OS_SOLARIS
+XP_SOLARIS
 )
 int
 childCrashFd
@@ -8555,7 +8555,7 @@ OS_BSD
 \
 defined
 (
-OS_SOLARIS
+XP_SOLARIS
 )
 *
 /
@@ -8589,7 +8589,7 @@ OS_BSD
 |
 defined
 (
-OS_SOLARIS
+XP_SOLARIS
 )
 }
 int

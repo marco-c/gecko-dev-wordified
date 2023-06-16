@@ -630,7 +630,7 @@ it
 out
 #
 ifndef
-OS_SOLARIS
+XP_SOLARIS
 timestruct
 .
 tm_gmtoff
