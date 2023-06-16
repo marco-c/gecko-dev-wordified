@@ -774,10 +774,6 @@ mWindow
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Unknown
 )
 ;
 }

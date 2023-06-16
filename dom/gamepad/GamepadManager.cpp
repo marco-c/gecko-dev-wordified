@@ -904,10 +904,6 @@ aWindow
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Gamepad
 )
 )
 {
@@ -1666,10 +1662,6 @@ i
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Gamepad
 )
 )
 {
@@ -1908,10 +1900,6 @@ i
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Gamepad
 )
 )
 {
@@ -2108,10 +2096,6 @@ aWindow
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Gamepad
 )
 )
 {
@@ -2864,10 +2848,6 @@ i
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Gamepad
 )
 )
 {

@@ -8043,10 +8043,6 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 this
-RFPTarget
-:
-:
-HttpUserAgent
 )
 )
 {

@@ -2097,6 +2097,11 @@ nsIChannel
 aChannel
 RFPTarget
 aTarget
+=
+RFPTarget
+:
+:
+Unknown
 )
 ;
 static
@@ -2108,6 +2113,11 @@ nsILoadInfo
 aLoadInfo
 RFPTarget
 aTarget
+=
+RFPTarget
+:
+:
+Unknown
 )
 ;
 /
