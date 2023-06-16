@@ -247,6 +247,8 @@ if
 (
 err
 instanceof
+SpecialPowers
+.
 Ci
 .
 nsIException
