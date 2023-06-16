@@ -216,6 +216,15 @@ GenerateUUIDStr
 (
 )
 ;
+FilePathResult
+GetRelativeBinaryPath
+(
+const
+wchar_t
+*
+suffix
+)
+;
 #
 endif
 /
