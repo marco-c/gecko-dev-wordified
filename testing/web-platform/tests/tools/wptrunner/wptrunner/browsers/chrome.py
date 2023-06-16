@@ -345,6 +345,23 @@ sanitizer_enabled
 =
 sanitizer_enabled
     
+executor_kwargs
+[
+"
+reuse_window
+"
+]
+=
+kwargs
+.
+get
+(
+"
+reuse_window
+"
+False
+)
+    
 capabilities
 =
 {
