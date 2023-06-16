@@ -106,15 +106,6 @@ BASE_DIR_READER_POSIX_H_
 #
 pragma
 once
-#
-include
-"
-build
-/
-build_config
-.
-h
-"
 /
 /
 This

@@ -106,15 +106,6 @@ BASE_SHARED_MEMORY_H_
 define
 BASE_SHARED_MEMORY_H_
 #
-include
-"
-build
-/
-build_config
-.
-h
-"
-#
 if
 defined
 (
