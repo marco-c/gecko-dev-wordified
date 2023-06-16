@@ -2790,7 +2790,7 @@ sheetSize
 sheet
 -
 >
-PrecomputeSheetSize
+ComputeSheetSize
 (
 aPresContext
 )
@@ -2968,7 +2968,9 @@ sheetSize
 PrintedSheetFrame
 :
 :
-PrecomputeSheetSize
+ComputeSheetSize
+(
+)
 gave
 the
 wrong
