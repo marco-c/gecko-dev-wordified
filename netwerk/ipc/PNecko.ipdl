@@ -618,6 +618,9 @@ uri
 nullable
 nsIPrincipal
 principal
+OriginAttributes
+?
+originAttributes
 bool
 anonymous
 )
