@@ -1666,7 +1666,7 @@ fps_allocation
 0
 ]
 =
-kFullFramerate
+kMaxFramerateFraction
 /
 2
 ;
@@ -1680,7 +1680,7 @@ fps_allocation
 1
 ]
 =
-kFullFramerate
+kMaxFramerateFraction
 ;
 /
 /
