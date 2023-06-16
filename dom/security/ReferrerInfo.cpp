@@ -1491,6 +1491,10 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 aChannel
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 cjs

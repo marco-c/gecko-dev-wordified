@@ -2097,11 +2097,6 @@ nsIChannel
 aChannel
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 static

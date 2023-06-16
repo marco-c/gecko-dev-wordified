@@ -13824,15 +13824,6 @@ nsIChannel
 aChannel
 RFPTarget
 aTarget
-/
-*
-=
-RFPTarget
-:
-:
-Unknown
-*
-/
 )
 {
 if
