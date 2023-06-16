@@ -5611,15 +5611,12 @@ gecko_profile_threads
                 
 )
         
-else
-:
-            
-if
+elif
 self
 .
 extra_profiler_run
 :
-                
+            
 gecko_results
 .
 append
@@ -7096,20 +7093,18 @@ binary
 =
 binary_path
         
-else
-:
 #
 Running
 on
 Chromium
-            
-if
+        
+elif
 not
 self
 .
 run_local
 :
-                
+            
 #
 When
 running
@@ -7124,7 +7119,7 @@ above
 in
 init
 .
-                
+            
 #
 In
 production
@@ -7137,13 +7132,13 @@ set
 the
 binary
 path
-                
+            
 #
 to
 our
 install
 .
-                
+            
 kw_options
 [
 "

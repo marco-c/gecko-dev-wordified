@@ -57,8 +57,3 @@ MPL
 0
 /
 .
-from
-.
-android
-import
-WebExtensionAndroid
