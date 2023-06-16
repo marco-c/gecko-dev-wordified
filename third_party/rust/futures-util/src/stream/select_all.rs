@@ -67,12 +67,6 @@ Poll
 }
 ;
 use
-pin_project_lite
-:
-:
-pin_project
-;
-use
 super
 :
 :
@@ -92,9 +86,6 @@ StreamExt
 StreamFuture
 }
 ;
-pin_project
-!
-{
 /
 /
 /
@@ -246,10 +237,6 @@ SelectAll
 St
 >
 {
-#
-[
-pin
-]
 inner
 :
 FuturesUnordered
@@ -259,7 +246,6 @@ StreamFuture
 St
 >
 >
-}
 }
 impl
 <

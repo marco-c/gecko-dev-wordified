@@ -160,9 +160,12 @@ stream
 :
 :
 {
+All
+Any
 Chain
 Collect
 Concat
+Count
 Cycle
 Enumerate
 Filter
@@ -328,6 +331,8 @@ stream
 {
 BufferUnordered
 Buffered
+FlatMapUnordered
+FlattenUnordered
 ForEachConcurrent
 }
 ;
@@ -512,6 +517,7 @@ try_stream
 {
 TryBufferUnordered
 TryBuffered
+TryFlattenUnordered
 TryForEachConcurrent
 }
 ;
