@@ -421,11 +421,7 @@ PRIx64L
 I64x
 "
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 #
 define
 PRId64L

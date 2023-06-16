@@ -956,11 +956,7 @@ string
 StringType
 ;
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 /
 /
 On
@@ -992,9 +988,6 @@ StringType
 ;
 #
 endif
-/
-/
-XP_WIN
 typedef
 StringType
 :
@@ -2498,11 +2491,7 @@ x
 )
 x
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 #
 define
 FILE_PATH_LITERAL
@@ -2515,9 +2504,6 @@ L
 x
 #
 endif
-/
-/
-XP_WIN
 #
 endif
 /

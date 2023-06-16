@@ -1275,11 +1275,7 @@ mode
 #
 endif
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 /
 /
 Tell
@@ -1330,12 +1326,6 @@ mode
 ;
 #
 endif
-/
-/
-defined
-(
-XP_UNIX
-)
 /
 /
 On

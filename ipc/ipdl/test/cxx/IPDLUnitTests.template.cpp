@@ -500,11 +500,7 @@ c_str
 )
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 vector
 <
 string
@@ -539,11 +535,6 @@ c_str
 )
 )
 ;
-#
-else
-#
-error
-Sorry
 #
 endif
 }

@@ -303,11 +303,7 @@ kInvalidProcessId
 kuint32max
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 /
 /
 On

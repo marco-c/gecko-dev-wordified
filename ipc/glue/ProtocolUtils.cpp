@@ -513,11 +513,7 @@ GetLastError
 )
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 error
 =
 errno

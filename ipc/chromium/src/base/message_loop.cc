@@ -1804,11 +1804,7 @@ MessagePumpForUI
 ;
 }
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 if
 (
 type_
@@ -1917,9 +1913,6 @@ MessagePumpDefault
 }
 #
 endif
-/
-/
-XP_UNIX
 /
 /
 We
@@ -5251,11 +5244,7 @@ filter
 ;
 }
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 bool
 MessageLoopForIO
 :

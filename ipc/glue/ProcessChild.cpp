@@ -621,11 +621,7 @@ snooze
 ;
 }
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 static
 void
 ReallySleep

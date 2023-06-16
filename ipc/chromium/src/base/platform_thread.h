@@ -259,11 +259,7 @@ PlatformThreadHandle
 /
 HANDLE
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 #
 include
 <

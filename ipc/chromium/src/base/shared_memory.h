@@ -1560,12 +1560,6 @@ false
 ;
 #
 elif
-defined
-(
-XP_UNIX
-)
-&
-&
 !
 defined
 (

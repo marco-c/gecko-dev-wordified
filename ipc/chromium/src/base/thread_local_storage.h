@@ -469,11 +469,7 @@ int
 slot_
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 pthread_key_t
 key_
 ;

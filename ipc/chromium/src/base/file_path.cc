@@ -2183,11 +2183,7 @@ component
 )
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 return
 Append
 (
@@ -2336,11 +2332,7 @@ path_
 ;
 }
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 /
 /
 static
