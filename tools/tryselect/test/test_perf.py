@@ -618,9 +618,31 @@ TEST_VARIANTS
 =
 {
     
+#
+Bug
+1837058
+-
+Switch
+this
+back
+to
 Variants
 .
 NO_FISSION
+when
+    
+#
+the
+default
+flips
+to
+fission
+on
+android
+    
+Variants
+.
+FISSION
 .
 value
 :
@@ -1022,7 +1044,7 @@ value
 [
 Variants
 .
-NO_FISSION
+FISSION
 .
 value
 ]
@@ -1558,7 +1580,7 @@ value
 [
 Variants
 .
-NO_FISSION
+FISSION
 .
 value
 ]
@@ -3666,8 +3688,6 @@ requested_variants
 :
 [
 "
-no
--
 fission
 "
 ]
@@ -3753,8 +3773,6 @@ android
 -
 a51
 fenix
-no
--
 fission
 "
 :
@@ -3815,8 +3833,6 @@ essential
 )
 android
 fenix
-no
--
 fission
 "
 :
@@ -3937,8 +3953,6 @@ requested_variants
 :
 [
 "
-no
--
 fission
 "
 "
@@ -4024,8 +4038,6 @@ android
 -
 a51
 fenix
-no
--
 fission
 "
 :
@@ -4147,8 +4159,6 @@ essential
 )
 android
 fenix
-no
--
 fission
 "
 :
@@ -4208,8 +4218,6 @@ profil
 Pageload
 android
 fenix
-no
--
 fission
 +
 live
