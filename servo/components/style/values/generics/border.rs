@@ -388,9 +388,11 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+Serialize
 ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
@@ -703,9 +705,11 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+Serialize
 ToAnimatedValue
 ToComputedValue
 ToResolvedValue

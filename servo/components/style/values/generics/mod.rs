@@ -1104,11 +1104,13 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Deserialize
 Hash
 MallocSizeOf
 PartialEq
 PartialOrd
 SpecifiedValueInfo
+Serialize
 ToAnimatedZero
 ToComputedValue
 ToCss
