@@ -1738,6 +1738,8 @@ equal
 (
 gURLBar
 .
+inputField
+.
 value
 TEST_VALUE
 "
