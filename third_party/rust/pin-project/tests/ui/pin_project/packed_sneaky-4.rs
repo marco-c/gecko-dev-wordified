@@ -19,14 +19,6 @@ project
 issues
 /
 342
-#
-!
-[
-allow
-(
-unaligned_references
-)
-]
 use
 auxiliary_macro
 :

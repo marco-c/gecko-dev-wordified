@@ -45,7 +45,7 @@ foo
 ~
 ERROR
 unexpected
-token
+argument
 impl
 PinnedDrop
 for

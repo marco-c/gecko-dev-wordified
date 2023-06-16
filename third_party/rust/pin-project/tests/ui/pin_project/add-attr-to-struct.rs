@@ -34,12 +34,11 @@ struct
 /
 ~
 ERROR
-duplicate
-#
-[
-pin
-]
+expected
 attribute
+arguments
+in
+parentheses
 struct
 Foo
 {

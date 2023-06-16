@@ -1,11 +1,3 @@
-#
-!
-[
-forbid
-(
-unaligned_references
-)
-]
 /
 /
 Refs

@@ -26,6 +26,8 @@ pin
 ERROR
 unexpected
 token
+in
+attribute
 f
 :
 (
@@ -55,6 +57,8 @@ foo
 ERROR
 unexpected
 token
+in
+attribute
 #
 [
 pin_project
@@ -80,6 +84,8 @@ foo
 ERROR
 unexpected
 token
+in
+attribute
 }
 #
 [
@@ -103,6 +109,8 @@ foo
 ERROR
 unexpected
 token
+in
+attribute
 f
 :
 (

@@ -23,14 +23,6 @@ been
 renamed
 to
 unaligned_references
-#
-!
-[
-allow
-(
-unaligned_references
-)
-]
 /
 /
 This
