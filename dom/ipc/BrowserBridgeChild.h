@@ -317,13 +317,6 @@ uint64_t
 aActionId
 )
 ;
-void
-SetIsUnderHiddenEmbedderElement
-(
-bool
-aIsUnderHiddenEmbedderElement
-)
-;
 already_AddRefed
 <
 BrowserBridgeHost

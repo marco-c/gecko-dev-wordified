@@ -826,13 +826,6 @@ aActionId
 )
 ;
 async
-SetIsUnderHiddenEmbedderElement
-(
-bool
-aIsUnderHiddenEmbedderElement
-)
-;
-async
 UpdateRemoteStyle
 (
 StyleImageRendering

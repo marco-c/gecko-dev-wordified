@@ -2146,6 +2146,15 @@ GetForceDesktopViewport
 )
 )
 ;
+txn
+.
+SetIsUnderHiddenEmbedderElement
+(
+GetIsUnderHiddenEmbedderElement
+(
+)
+)
+;
 /
 /
 Propagate
