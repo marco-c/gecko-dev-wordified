@@ -260,6 +260,13 @@ height
 )
 override
 ;
+Resolution
+GetResolution
+(
+)
+const
+override
+;
 private
 :
 class
