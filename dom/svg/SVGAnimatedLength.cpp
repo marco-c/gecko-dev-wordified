@@ -739,9 +739,11 @@ SVGElementMetrics
 :
 SVGElementMetrics
 (
+const
 SVGElement
 *
 aSVGElement
+const
 SVGViewportElement
 *
 aCtx
@@ -876,12 +878,14 @@ svg
 )
 )
 {
+const
 auto
 *
 e
 =
 static_cast
 <
+const
 SVGViewportElement
 *
 >
@@ -1110,6 +1114,7 @@ SVGAnimatedLength
 :
 GetPixelsPerUnit
 (
+const
 SVGElement
 *
 aSVGElement
@@ -1139,6 +1144,7 @@ SVGAnimatedLength
 :
 GetPixelsPerUnit
 (
+const
 SVGViewportElement
 *
 aCtx
@@ -1177,6 +1183,7 @@ aUnitType
 )
 const
 {
+const
 nsIContent
 *
 content
@@ -1225,6 +1232,7 @@ SVGElementMetrics
 (
 static_cast
 <
+const
 SVGElement
 *
 >

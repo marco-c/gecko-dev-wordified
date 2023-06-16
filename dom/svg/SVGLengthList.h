@@ -2455,6 +2455,7 @@ const
 SVGLengthList
 *
 aList
+const
 dom
 :
 :
@@ -2608,6 +2609,7 @@ SVGLengthList
 *
 mList
 ;
+const
 dom
 :
 :

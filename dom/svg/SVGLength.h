@@ -701,17 +701,7 @@ dom
 :
 SVGElementMetrics
 (
-const_cast
-<
-dom
-:
-:
-SVGElement
-*
->
-(
 aElement
-)
 )
 aAxis
 )
