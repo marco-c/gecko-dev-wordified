@@ -633,7 +633,7 @@ field1
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -698,7 +698,7 @@ field1
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -822,7 +822,7 @@ v
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -1058,7 +1058,7 @@ field2
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -1155,7 +1155,7 @@ v
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -1382,7 +1382,7 @@ field3
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -1600,7 +1600,7 @@ field4
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -1813,7 +1813,7 @@ j
 "
 null
 previousResult
-null
+false
 {
 onSearchCompletion
 (
@@ -2007,7 +2007,7 @@ j
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (
@@ -2118,7 +2118,7 @@ t
 "
 null
 null
-null
+false
 {
 onSearchCompletion
 (

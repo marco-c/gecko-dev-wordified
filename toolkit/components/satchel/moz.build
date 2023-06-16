@@ -159,11 +159,6 @@ nsIFormFillController
 .
 idl
 "
-"
-nsIInputListAutoComplete
-.
-idl
-"
 ]
 XPIDL_MODULE
 =
@@ -218,13 +213,6 @@ mjs
 "
 "
 FormHistoryStartup
-.
-sys
-.
-mjs
-"
-"
-InputListAutoComplete
 .
 sys
 .
