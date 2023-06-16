@@ -6671,17 +6671,6 @@ aTangent
 nullptr
 )
 ;
-virtual
-bool
-IsEmpty
-(
-)
-const
-{
-return
-false
-;
-}
 protected
 :
 Path
