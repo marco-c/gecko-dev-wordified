@@ -1726,6 +1726,10 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+const
+CSSRect
+&
+aScrollableRect
 )
 ;
 void
@@ -1746,6 +1750,9 @@ mDragMetrics
 ;
 OuterCSSCoord
 mInitialThumbPos
+;
+CSSRect
+mInitialScrollableRect
 ;
 bool
 mReceivedMouseUp

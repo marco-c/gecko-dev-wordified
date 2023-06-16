@@ -1706,11 +1706,19 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+const
+CSSRect
+&
+aScrollableRect
 )
 {
 mDragMetrics
 =
 aDragMetrics
+;
+mInitialScrollableRect
+=
+aScrollableRect
 ;
 }
 void
@@ -1759,6 +1767,7 @@ HandleDragEvent
 mouseInput
 mDragMetrics
 mInitialThumbPos
+mInitialScrollableRect
 )
 ;
 }
