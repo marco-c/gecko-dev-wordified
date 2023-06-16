@@ -2060,14 +2060,10 @@ DistroID
 int8_t
 {
 Unknown
-=
-0
-Ubuntu
-=
-1
+Ubuntu_any
+Ubuntu_20
+Ubuntu_22
 Fedora
-=
-2
 /
 /
 To
