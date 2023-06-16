@@ -1874,8 +1874,8 @@ true
 expected
 :
 "
-Top
-pick
+Firefox
+extension
 "
 }
 {
