@@ -841,7 +841,7 @@ bool
 URL
 :
 :
-IsValidURL
+IsValidObjectURL
 (
 const
 GlobalObject
@@ -867,7 +867,7 @@ return
 URLMainThread
 :
 :
-IsValidURL
+IsValidObjectURL
 (
 aGlobal
 aURL
@@ -879,7 +879,7 @@ return
 URLWorker
 :
 :
-IsValidURL
+IsValidObjectURL
 (
 aGlobal
 aURL

@@ -401,7 +401,7 @@ aRv
 ;
 static
 bool
-IsValidURL
+IsValidObjectURL
 (
 const
 GlobalObject
