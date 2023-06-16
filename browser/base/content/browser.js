@@ -33000,7 +33000,7 @@ gBrowser
 .
 currentURI
 .
-spec
+scheme
 )
 )
 {
