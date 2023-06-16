@@ -474,6 +474,11 @@ mImageHeight
 )
 ;
 }
+bool
+IsSiteSpecific
+(
+)
+;
 void
 ResetZoomLevel
 (
