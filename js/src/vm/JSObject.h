@@ -3548,6 +3548,12 @@ constructHook
 )
 const
 ;
+bool
+isBackgroundFinalized
+(
+)
+const
+;
 MOZ_ALWAYS_INLINE
 void
 finalize
