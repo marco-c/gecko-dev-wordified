@@ -722,6 +722,11 @@ webrtc
 CryptoOptions
 &
 crypto_options
+webrtc
+:
+:
+AudioCodecPairId
+codec_pair_id
 )
 {
 /
@@ -816,6 +821,15 @@ call
 config
 options
 crypto_options
+webrtc
+:
+:
+AudioCodecPairId
+:
+:
+Create
+(
+)
 )
 ;
 }
