@@ -1271,6 +1271,8 @@ of
 SSE2
 when
 AVX2
+/
+FMA3
 supported
 .
 if
@@ -1278,6 +1280,12 @@ if
 GetCPUInfo
 (
 kAVX2
+)
+&
+&
+GetCPUInfo
+(
+kFMA3
 )
 )
 convolve_proc_
