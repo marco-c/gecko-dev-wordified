@@ -509,9 +509,9 @@ f
 <
 {
 cls_name
-:
 }
-tatus
+:
+status
 =
 {
 self
