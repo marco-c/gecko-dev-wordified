@@ -167,10 +167,6 @@ Impl
 :
 AttrValue
 >
-pub
-never_matches
-:
-bool
 }
 impl
 <
@@ -311,7 +307,7 @@ AttrSelectorOperator
 case_sensitivity
 :
 ParsedCaseSensitivity
-expected_value
+value
 :
 AttrValue
 }
@@ -341,7 +337,7 @@ AttrSelectorOperator
 case_sensitivity
 :
 CaseSensitivity
-expected_value
+value
 :
 AttrValue
 }
@@ -396,7 +392,7 @@ WithValue
 operator
 case_sensitivity
 ref
-expected_value
+value
 }
 =
 >
@@ -405,7 +401,7 @@ operator
 eval_str
 (
 element_attr_value
-expected_value
+value
 .
 as_ref
 (

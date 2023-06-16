@@ -12580,7 +12580,7 @@ WithValue
 {
 operator
 case_sensitivity
-expected_value
+value
 }
 =
 >
@@ -12607,17 +12607,6 @@ AsciiCaseInsensitive
 true
 }
 ;
-/
-/
-FIXME
-:
-case
-sensitivity
-for
-operators
-other
-than
-Equal
 match
 operator
 {
@@ -12645,7 +12634,7 @@ local_name
 as_ptr
 (
 )
-expected_value
+value
 .
 as_ptr
 (
@@ -12676,7 +12665,7 @@ local_name
 as_ptr
 (
 )
-expected_value
+value
 .
 as_ptr
 (
@@ -12707,7 +12696,7 @@ local_name
 as_ptr
 (
 )
-expected_value
+value
 .
 as_ptr
 (
@@ -12738,7 +12727,7 @@ local_name
 as_ptr
 (
 )
-expected_value
+value
 .
 as_ptr
 (
@@ -12769,7 +12758,7 @@ local_name
 as_ptr
 (
 )
-expected_value
+value
 .
 as_ptr
 (
@@ -12800,7 +12789,7 @@ local_name
 as_ptr
 (
 )
-expected_value
+value
 .
 as_ptr
 (
