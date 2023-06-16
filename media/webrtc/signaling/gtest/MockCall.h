@@ -1115,6 +1115,17 @@ override
 {
 }
 virtual
+void
+UpdateRtxSsrc
+(
+uint32_t
+ssrc
+)
+override
+{
+}
+;
+virtual
 ~
 MockVideoReceiveStream
 (
