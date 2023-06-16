@@ -789,7 +789,9 @@ disabled
 !
 selectedLocation
 .
-sourceUrl
+source
+.
+url
 click
 :
 (
@@ -822,7 +824,9 @@ disabled
 !
 selectedLocation
 .
-sourceUrl
+source
+.
+url
 click
 :
 (
