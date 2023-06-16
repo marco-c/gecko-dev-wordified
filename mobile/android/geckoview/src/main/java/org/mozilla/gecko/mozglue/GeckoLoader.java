@@ -2831,8 +2831,6 @@ int
 ipcFd
 int
 crashFd
-int
-crashAnnotationFd
 boolean
 xpcshell
 String

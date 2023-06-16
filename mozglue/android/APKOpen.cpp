@@ -2328,8 +2328,6 @@ int
 ipcFd
 int
 crashFd
-int
-crashAnnotationFd
 bool
 xpcshell
 jstring
@@ -2483,7 +2481,6 @@ prefsFd
 prefMapFd
 ipcFd
 crashFd
-crashAnnotationFd
 }
 )
 ;

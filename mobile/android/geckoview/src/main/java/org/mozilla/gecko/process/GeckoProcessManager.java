@@ -4139,9 +4139,6 @@ ipcFd
 final
 int
 crashFd
-final
-int
-crashAnnotationFd
 )
 {
 final
@@ -4238,11 +4235,6 @@ ipcFd
 crashReporter
 (
 crashFd
-)
-.
-crashAnnotation
-(
-crashAnnotationFd
 )
 .
 build
@@ -5028,11 +5020,6 @@ info
 pfds
 .
 crashReporter
-info
-.
-pfds
-.
-crashAnnotation
 )
 ;
 if
