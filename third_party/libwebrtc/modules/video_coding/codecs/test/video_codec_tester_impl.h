@@ -163,7 +163,7 @@ std
 :
 unique_ptr
 <
-VideoCodecTestStats
+VideoCodecStats
 >
 RunDecodeTest
 (
@@ -195,7 +195,7 @@ std
 :
 unique_ptr
 <
-VideoCodecTestStats
+VideoCodecStats
 >
 RunEncodeTest
 (
@@ -227,7 +227,7 @@ std
 :
 unique_ptr
 <
-VideoCodecTestStats
+VideoCodecStats
 >
 RunEncodeDecodeTest
 (
