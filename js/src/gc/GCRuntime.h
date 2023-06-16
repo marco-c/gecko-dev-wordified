@@ -4143,6 +4143,7 @@ lock
 /
 Allocator
 internals
+static
 void
 gcIfNeededAtAllocation
 (
