@@ -35,7 +35,7 @@ jsesc
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,7 @@ jsesc
 /
 jsesc
 .
-js
+mjs
 "
 )
 ;
