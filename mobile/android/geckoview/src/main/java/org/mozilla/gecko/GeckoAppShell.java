@@ -6341,6 +6341,11 @@ calledFrom
 "
 gecko
 "
+exceptionMode
+=
+"
+nsresult
+"
 )
 private
 static
