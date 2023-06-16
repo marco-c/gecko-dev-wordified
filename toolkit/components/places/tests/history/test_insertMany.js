@@ -718,6 +718,13 @@ pageInfos
 )
 ;
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 promiseRankingChanged
 ;
 }

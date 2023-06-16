@@ -176,6 +176,7 @@ getTime
 (
 )
 ;
+async
 function
 setVisit
 (
@@ -228,6 +229,16 @@ push
 visit
 )
 ;
+await
+PlacesUtils
+.
+history
+.
+insert
+(
+visit
+)
+;
 }
 /
 /
@@ -254,6 +265,7 @@ i
 i
 )
 {
+await
 setVisit
 (
 {
@@ -283,6 +295,7 @@ visits
 }
 )
 ;
+await
 setVisit
 (
 {
@@ -322,16 +335,6 @@ NewTabUtils
 .
 init
 (
-)
-;
-await
-PlacesUtils
-.
-history
-.
-insertMany
-(
-visits
 )
 ;
 /
