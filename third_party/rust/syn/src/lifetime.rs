@@ -744,6 +744,9 @@ parsing
 )
 ]
 pub
+(
+crate
+)
 mod
 parsing
 {

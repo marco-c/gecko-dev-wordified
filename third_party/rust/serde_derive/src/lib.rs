@@ -152,7 +152,7 @@ serde_derive
 .
 0
 .
-152
+163
 "
 )
 ]
@@ -360,6 +360,10 @@ clippy
 :
 :
 items_after_statements
+clippy
+:
+:
+let_underscore_untyped
 clippy
 :
 :

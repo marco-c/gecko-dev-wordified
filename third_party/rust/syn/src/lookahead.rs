@@ -261,7 +261,7 @@ syn
 ConstParam
 Ident
 Lifetime
-LifetimeDef
+LifetimeParam
 Result
 Token
 TypeParam
@@ -435,7 +435,7 @@ TypeParam
 /
 Lifetime
 (
-LifetimeDef
+LifetimeParam
 )
 /
 /
@@ -641,6 +641,9 @@ str
 >
 }
 pub
+(
+crate
+)
 fn
 new
 (
@@ -1363,6 +1366,9 @@ self
 }
 }
 pub
+(
+crate
+)
 fn
 is_delimiter
 (
