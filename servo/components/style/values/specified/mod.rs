@@ -2091,6 +2091,10 @@ the
 value
 val
 .
+#
+[
+inline
+]
 fn
 new_with_clamping_mode
 (
@@ -2160,6 +2164,10 @@ the
 value
 val
 .
+#
+[
+inline
+]
 pub
 fn
 new
