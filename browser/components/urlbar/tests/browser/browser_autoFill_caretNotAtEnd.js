@@ -98,8 +98,6 @@ xample
 .
 gURLBar
 .
-inputField
-.
 value
 =
 "
