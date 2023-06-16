@@ -461,9 +461,6 @@ false
 expectRDD
 =
 false
-expectError
-=
-false
 }
 )
 {
@@ -487,11 +484,6 @@ expectRDD
 =
 {
 expectRDD
-}
-expectError
-=
-{
-expectError
 }
 )
 ;
@@ -629,9 +621,15 @@ await
 play
 (
 tab
+expectUtility
+?
 expectation
 .
 process
+:
+"
+RDD
+"
 expectation
 .
 decoder
@@ -641,8 +639,6 @@ expectUtility
 &
 !
 expectRDD
-false
-expectError
 )
 ;
 info

@@ -117,9 +117,6 @@ false
 expectRDD
 :
 true
-expectError
-:
-true
 }
 )
 ;
@@ -195,7 +192,7 @@ flac
 ]
 ;
 await
-verifyNoTelemetryForProcess
+verifyTelemetryForProcess
 (
 "
 rdd
