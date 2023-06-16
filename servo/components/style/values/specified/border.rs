@@ -2403,7 +2403,9 @@ width
 BorderSideWidth
 :
 :
-Medium
+medium
+(
+)
 ;
 if
 !
