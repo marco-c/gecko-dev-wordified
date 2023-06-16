@@ -29201,7 +29201,7 @@ addcode
                 
 #
 ifdef
-OS_WIN
+XP_WIN
                 
 GetIPCChannel
 (

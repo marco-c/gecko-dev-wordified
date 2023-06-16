@@ -2171,7 +2171,7 @@ component
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 return
 Append
@@ -2339,7 +2339,7 @@ path_
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /

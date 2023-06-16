@@ -877,7 +877,7 @@ endif
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -1041,7 +1041,7 @@ private
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 CONDITION_VARIABLE
 cv_

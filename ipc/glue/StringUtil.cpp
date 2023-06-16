@@ -522,7 +522,7 @@ OS_MACOSX
 !
 defined
 (
-OS_WIN
+XP_WIN
 )
 std
 :
@@ -580,7 +580,7 @@ OS_MACOSX
 !
 defined
 (
-OS_WIN
+XP_WIN
 )
 std
 :

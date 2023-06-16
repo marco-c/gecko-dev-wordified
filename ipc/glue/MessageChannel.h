@@ -169,7 +169,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -188,7 +188,7 @@ endif
 /
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -1825,7 +1825,7 @@ Nothing
 endif
 #
 ifdef
-OS_WIN
+XP_WIN
 struct
 MOZ_STACK_CLASS
 SyncStackFrame
@@ -1995,7 +1995,7 @@ endif
 /
 defined
 (
-OS_WIN
+XP_WIN
 )
 private
 :
@@ -4808,7 +4808,7 @@ mPendingResponses
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 HANDLE
 mEvent
 ;

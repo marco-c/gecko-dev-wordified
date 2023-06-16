@@ -182,7 +182,7 @@ h
 "
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 <
@@ -345,7 +345,7 @@ difference
 .
 #
 ifdef
-OS_WIN
+XP_WIN
 typedef
 std
 :
@@ -1287,7 +1287,7 @@ endif
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /

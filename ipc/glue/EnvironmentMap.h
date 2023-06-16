@@ -125,7 +125,7 @@ base
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 std

@@ -125,7 +125,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -201,7 +201,7 @@ public
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 using
 NativeHandle

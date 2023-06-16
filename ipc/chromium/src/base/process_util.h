@@ -136,7 +136,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -818,7 +818,7 @@ false
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 bool
 start_hidden
@@ -1226,7 +1226,7 @@ OS_MACOSX
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -2233,7 +2233,7 @@ len
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 std
 :
@@ -2303,7 +2303,7 @@ mozilla
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /

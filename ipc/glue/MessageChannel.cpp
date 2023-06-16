@@ -385,7 +385,7 @@ h
 "
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 "
@@ -2786,7 +2786,7 @@ MessageChannel
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 mEvent
 =
 CreateEventW
@@ -2869,7 +2869,7 @@ CxxStack
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 mEvent
@@ -8239,7 +8239,7 @@ GetLifecycleProxy
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 SyncStackFrame
 frame
 (
@@ -12039,7 +12039,7 @@ true
 }
 #
 ifndef
-OS_WIN
+XP_WIN
 bool
 MessageChannel
 :

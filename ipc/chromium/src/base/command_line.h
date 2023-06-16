@@ -296,7 +296,7 @@ public
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -780,7 +780,7 @@ const
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -1069,7 +1069,7 @@ value
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 AppendLooseValue
@@ -1271,7 +1271,7 @@ code
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /

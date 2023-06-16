@@ -460,7 +460,7 @@ gIPDLUnitTestName
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 vector
 <

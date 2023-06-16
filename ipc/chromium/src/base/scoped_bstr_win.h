@@ -120,7 +120,7 @@ needed
 to
 pick
 up
-OS_WIN
+XP_WIN
 #
 include
 "

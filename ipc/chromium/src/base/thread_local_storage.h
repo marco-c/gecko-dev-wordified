@@ -463,7 +463,7 @@ initialized_
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 int
 slot_
@@ -490,7 +490,7 @@ Slot
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -610,7 +610,7 @@ kThreadLocalStorageSize
 endif
 /
 /
-OS_WIN
+XP_WIN
 DISALLOW_COPY_AND_ASSIGN
 (
 ThreadLocalStorage

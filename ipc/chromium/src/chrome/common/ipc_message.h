@@ -2295,7 +2295,7 @@ const
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 return
 num_handles

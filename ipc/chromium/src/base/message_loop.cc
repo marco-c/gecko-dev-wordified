@@ -443,7 +443,7 @@ tls_ptr
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -541,7 +541,7 @@ endif
 /
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -1418,7 +1418,7 @@ false
 )
 #
 ifdef
-OS_WIN
+XP_WIN
 os_modal_loop_
 (
 false
@@ -1427,7 +1427,7 @@ false
 endif
 /
 /
-OS_WIN
+XP_WIN
 transient_hang_timeout_
 (
 0
@@ -1621,7 +1621,7 @@ return
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 |
 |
@@ -1708,7 +1708,7 @@ break
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -2349,7 +2349,7 @@ RunHandler
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 if
 (
@@ -4478,7 +4478,7 @@ false
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 dispatcher
 =
@@ -4925,7 +4925,7 @@ MessageLoopForUI
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 MessageLoopForUI
@@ -5070,7 +5070,7 @@ endif
 /
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -5159,7 +5159,7 @@ MessageLoopForIO
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 MessageLoopForIO

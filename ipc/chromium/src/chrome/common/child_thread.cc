@@ -274,7 +274,7 @@ nullptr
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 channel
 -

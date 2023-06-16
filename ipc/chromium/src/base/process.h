@@ -125,7 +125,7 @@ h
 >
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 <
@@ -176,7 +176,7 @@ OS
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 HANDLE

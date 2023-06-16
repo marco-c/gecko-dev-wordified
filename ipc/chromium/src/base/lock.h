@@ -361,7 +361,7 @@ PriorityInheritanceAvailable
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -423,7 +423,7 @@ XP_UNIX
 |
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /

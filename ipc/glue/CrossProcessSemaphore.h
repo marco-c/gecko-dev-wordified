@@ -151,7 +151,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -169,7 +169,7 @@ if
 !
 defined
 (
-OS_WIN
+XP_WIN
 )
 &
 &
@@ -279,7 +279,7 @@ handle
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 mozilla
@@ -636,7 +636,7 @@ CrossProcessSemaphore
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 explicit
 CrossProcessSemaphore

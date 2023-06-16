@@ -868,7 +868,7 @@ test
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 define
@@ -880,7 +880,7 @@ FILE_PATH_USES_WIN_SEPARATORS
 endif
 /
 /
-OS_WIN
+XP_WIN
 /
 /
 An
@@ -959,7 +959,7 @@ StringType
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 /
 /
@@ -994,7 +994,7 @@ StringType
 endif
 /
 /
-OS_WIN
+XP_WIN
 typedef
 StringType
 :
@@ -1154,7 +1154,7 @@ path
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 explicit
 FilePath
@@ -2501,7 +2501,7 @@ x
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 define
@@ -2517,7 +2517,7 @@ x
 endif
 /
 /
-OS_WIN
+XP_WIN
 #
 endif
 /
