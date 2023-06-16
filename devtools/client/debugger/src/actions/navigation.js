@@ -196,12 +196,6 @@ clearDocuments
 (
 )
 ;
-parserWorker
-.
-clear
-(
-)
-;
 const
 thread
 =

@@ -406,12 +406,6 @@ async
 =
 >
 {
-parserWorker
-.
-clear
-(
-)
-;
 clearDocuments
 (
 )
