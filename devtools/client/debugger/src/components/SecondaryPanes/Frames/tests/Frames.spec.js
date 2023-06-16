@@ -764,10 +764,6 @@ renderFoo
 location
 :
 {
-line
-:
-55
-}
 source
 :
 {
@@ -786,6 +782,10 @@ mahscripts
 .
 js
 "
+}
+line
+:
+55
 }
 }
 ]
@@ -883,10 +883,6 @@ renderFoo
 location
 :
 {
-line
-:
-55
-}
 source
 :
 {
@@ -905,6 +901,10 @@ mahscripts
 .
 js
 "
+}
+line
+:
+55
 }
 }
 ]
@@ -999,10 +999,6 @@ renderFoo
 location
 :
 {
-line
-:
-55
-}
 source
 :
 {
@@ -1022,6 +1018,10 @@ mahscripts
 js
 "
 }
+line
+:
+55
+}
 }
 {
 id
@@ -1040,10 +1040,6 @@ a
 location
 :
 {
-line
-:
-55
-}
 source
 :
 {
@@ -1062,6 +1058,10 @@ back
 .
 js
 "
+}
+line
+:
+55
 }
 }
 {
@@ -1081,10 +1081,6 @@ b
 location
 :
 {
-line
-:
-55
-}
 source
 :
 {
@@ -1103,6 +1099,10 @@ back
 .
 js
 "
+}
+line
+:
+55
 }
 }
 ]
@@ -1513,6 +1513,9 @@ id
 -
 webpackBootstrapFrame
 "
+location
+:
+{
 source
 :
 {
@@ -1529,6 +1532,7 @@ webpack
 bootstrap
 01d88449ca6e9335a66f
 "
+}
 }
 }
 {
@@ -1539,6 +1543,9 @@ id
 -
 webpackBundleFrame
 "
+location
+:
+{
 source
 :
 {
@@ -1559,6 +1566,7 @@ js
 "
 }
 }
+}
 {
 id
 :
@@ -1567,6 +1575,9 @@ id
 -
 webpackBootstrapFrame
 "
+location
+:
+{
 source
 :
 {
@@ -1585,6 +1596,7 @@ bootstrap
 "
 }
 }
+}
 {
 id
 :
@@ -1593,6 +1605,9 @@ id
 -
 webpackBundleFrame
 "
+location
+:
+{
 source
 :
 {
@@ -1611,6 +1626,7 @@ bundle
 .
 js
 "
+}
 }
 }
 ]
