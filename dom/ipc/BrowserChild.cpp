@@ -12953,6 +12953,9 @@ SendOnEventNeedingAckHandled
 aEvent
 .
 mMessage
+localEvent
+.
+mCompositionId
 )
 ;
 return
@@ -13029,6 +13032,7 @@ SendOnEventNeedingAckHandled
 aEvent
 .
 mMessage
+0u
 )
 ;
 return

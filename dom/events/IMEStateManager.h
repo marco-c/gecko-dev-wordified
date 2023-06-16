@@ -1869,10 +1869,8 @@ widget
 *
 /
 static
-already_AddRefed
-<
 TextComposition
->
+*
 GetTextCompositionFor
 (
 nsIWidget
@@ -1894,10 +1892,8 @@ event
 *
 /
 static
-already_AddRefed
-<
 TextComposition
->
+*
 GetTextCompositionFor
 (
 const
@@ -1945,10 +1941,8 @@ nullptr
 *
 /
 static
-already_AddRefed
-<
 TextComposition
->
+*
 GetTextCompositionFor
 (
 nsPresContext

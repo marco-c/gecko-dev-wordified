@@ -11152,6 +11152,8 @@ nsIWidget
 aWidget
 EventMessage
 aMessage
+uint32_t
+aCompositionId
 )
 {
 /
@@ -11195,6 +11197,12 @@ aMessage
 =
 %
 s
+aCompositionId
+=
+%
+"
+PRIu32
+"
 )
 mPendingEventsNeedingAck
 =
@@ -11231,6 +11239,7 @@ ToChar
 (
 aMessage
 )
+aCompositionId
 mPendingEventsNeedingAck
 GetBoolName
 (
@@ -11932,6 +11941,8 @@ nsIWidget
 aWidget
 bool
 aCancel
+uint32_t
+aCompositionId
 nsAString
 &
 aCommittedString
@@ -11961,14 +11972,18 @@ aCancel
 =
 %
 s
+aCompositionId
+=
+%
+"
+PRIu32
+"
 )
 mPendingCompositionCount
 =
 %
 "
 PRIu8
-"
-"
 "
 mPendingCommitCount
 =
@@ -12010,6 +12025,7 @@ GetBoolName
 (
 aCancel
 )
+aCompositionId
 mPendingCompositionCount
 mPendingCommitCount
 GetBoolName
