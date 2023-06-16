@@ -3852,6 +3852,17 @@ values
 .
 if
 (
+mPipeline
+&
+&
+mPipeline
+-
+>
+mConduit
+)
+{
+if
+(
 !
 aTargetMs
 .
@@ -3970,6 +3981,7 @@ valueOr
 )
 )
 ;
+}
 }
 void
 RTCRtpReceiver
