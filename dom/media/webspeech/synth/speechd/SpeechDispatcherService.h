@@ -256,6 +256,15 @@ SpeechDispatcherService
 )
 ;
 void
+NotifyError
+(
+const
+nsString
+&
+aError
+)
+;
+void
 RegisterVoices
 (
 )
