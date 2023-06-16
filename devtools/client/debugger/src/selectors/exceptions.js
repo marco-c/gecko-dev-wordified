@@ -70,6 +70,7 @@ reselect
 import
 {
 shallowEqual
+arrayShallowEqual
 }
 from
 "
@@ -242,12 +243,16 @@ same
 content
 .
 {
+memoizeOptions
+:
+{
 equalityCheck
 :
 shallowEqual
 resultEqualityCheck
 :
-shallowEqual
+arrayShallowEqual
+}
 }
 )
 ;
