@@ -68,7 +68,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /
@@ -104,7 +104,7 @@ urls
 =
 [
 "
-http
+https
 :
 /
 /
@@ -263,7 +263,7 @@ webRequest
 webRequestBlocking
 "
 "
-http
+https
 :
 /
 /
