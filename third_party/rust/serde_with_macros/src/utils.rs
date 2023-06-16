@@ -1,4 +1,13 @@
 use
+core
+:
+:
+iter
+:
+:
+Iterator
+;
+use
 darling
 :
 :
@@ -23,15 +32,6 @@ quote
 :
 :
 ToTokens
-;
-use
-std
-:
-:
-iter
-:
-:
-Iterator
 ;
 use
 syn
@@ -210,7 +210,6 @@ macros
 derive
 (
 FromDeriveInput
-Debug
 )
 ]
 #
@@ -411,7 +410,7 @@ L3120
 Serde
 is
 also
-licences
+licensed
 Apache
 2
 +

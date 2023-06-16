@@ -518,11 +518,9 @@ mi
 ?
 )
 .
-abs
+unsigned_abs
 (
 )
-as
-u64
 }
 ;
 Ok

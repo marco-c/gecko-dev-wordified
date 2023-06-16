@@ -58,7 +58,7 @@ MPL
 /
 pub
 use
-darling
+serde_with
 :
 :
 *

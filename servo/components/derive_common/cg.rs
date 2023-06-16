@@ -88,7 +88,7 @@ syn
 {
 self
 AngleBracketedGenericArguments
-Binding
+AssocType
 DeriveInput
 Field
 }
@@ -1797,7 +1797,7 @@ f
 GenericArgument
 :
 :
-Binding
+AssocType
 (
 ref
 data
@@ -1808,9 +1808,9 @@ data
 GenericArgument
 :
 :
-Binding
+AssocType
 (
-Binding
+AssocType
 {
 ty
 :
