@@ -205,6 +205,13 @@ sys
 mjs
 "
 "
+FormAutoCompleteResult
+.
+sys
+.
+mjs
+"
+"
 FormHistory
 .
 sys
@@ -213,13 +220,6 @@ mjs
 "
 "
 FormHistoryStartup
-.
-sys
-.
-mjs
-"
-"
-nsFormAutoCompleteResult
 .
 sys
 .
