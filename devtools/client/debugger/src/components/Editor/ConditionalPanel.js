@@ -845,7 +845,9 @@ toEditorLine
 (
 location
 .
-sourceId
+source
+.
+id
 location
 .
 line
