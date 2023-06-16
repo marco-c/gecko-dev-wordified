@@ -2190,6 +2190,8 @@ deserialize
 (
 realm
 serialized
+{
+}
 )
 ;
 if
@@ -2430,6 +2432,8 @@ value
 :
 dateString
 }
+{
+}
 )
 ;
 Assert
@@ -2536,6 +2540,8 @@ deserialize
 (
 realm
 serialized
+{
+}
 )
 ;
 assertLocalValue
@@ -2681,13 +2687,15 @@ channel
 )
 ;
 const
-deserializedValue
+value
 =
 deserialize
 (
 realm
 channel
 deserializationOptions
+{
+}
 )
 ;
 Assert
@@ -2702,7 +2710,7 @@ toString
 .
 call
 (
-deserializedValue
+value
 )
 "
 [
@@ -2722,7 +2730,7 @@ Assert
 .
 equal
 (
-deserializedValue
+value
 (
 "
 foo
@@ -2870,6 +2878,8 @@ Map
 (
 )
 realm1
+{
+}
 )
 ;
 /
@@ -2918,12 +2928,14 @@ in
 realm1
 .
 const
-deserializedValue
+value
 =
 deserialize
 (
 realm1
 remoteReference
+{
+}
 )
 ;
 assertLocalValue
@@ -2931,7 +2943,7 @@ assertLocalValue
 serialized
 .
 type
-deserializedValue
+value
 expectedValue
 )
 ;
@@ -2947,6 +2959,8 @@ deserialize
 (
 realm2
 remoteReference
+{
+}
 )
 /
 NoSuchHandleError
@@ -2985,6 +2999,8 @@ deserialize
 (
 realm1
 remoteReference
+{
+}
 )
 /
 NoSuchHandleError
@@ -3067,6 +3083,8 @@ object
 handle
 :
 invalidType
+}
+{
 }
 )
 /
@@ -3718,6 +3736,8 @@ realm
 type
 value
 }
+{
+}
 )
 /
 InvalidArgument
@@ -4086,6 +4106,8 @@ value
 :
 dateString
 }
+{
+}
 )
 /
 InvalidArgumentError
@@ -4170,6 +4192,8 @@ type
 :
 invalidType
 }
+{
+}
 )
 /
 InvalidArgumentError
@@ -4211,6 +4235,8 @@ type
 invalidType
 }
 ]
+}
+{
 }
 )
 /
@@ -4649,6 +4675,8 @@ realm
 type
 value
 }
+{
+}
 )
 /
 InvalidArgumentError
@@ -4732,6 +4760,8 @@ none
 "
 serializationInternalMap
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -4798,6 +4828,8 @@ root
 "
 serializationInternalMapWithRoot
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -4896,6 +4928,8 @@ none
 "
 serializationInternalMapWithNone
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -4952,6 +4986,8 @@ root
 "
 serializationInternalMapWithRoot
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -5090,6 +5126,8 @@ none
 "
 serializationInternalMapWithNone
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -5146,6 +5184,8 @@ root
 "
 serializationInternalMapWithRoot
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -6800,6 +6840,8 @@ none
 "
 serializationInternalMap
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -6998,6 +7040,8 @@ none
 "
 serializationInternalMap
 realm
+{
+}
 )
 ;
 assertInternalIds
@@ -7861,6 +7905,8 @@ deserialize
 (
 realm
 _serialized
+{
+}
 )
 ;
 }
