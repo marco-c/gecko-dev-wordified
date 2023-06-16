@@ -4220,9 +4220,7 @@ GetStringOrBooleanOption
 (
 options
 property
-values
-trueValue
-falsyValue
+stringValues
 fallback
 )
 {
@@ -4230,7 +4228,7 @@ assert
 (
 IsObject
 (
-values
+stringValues
 )
 "
 GetStringOrBooleanOption
@@ -4283,7 +4281,7 @@ true
 )
 {
 return
-trueValue
+true
 ;
 }
 /
@@ -4300,7 +4298,7 @@ value
 )
 {
 return
-falsyValue
+false
 ;
 }
 /
@@ -4325,7 +4323,7 @@ if
 callFunction
 (
 std_Array_indexOf
-values
+stringValues
 value
 )
 =
@@ -4335,8 +4333,16 @@ value
 1
 )
 {
-return
-fallback
+ThrowRangeError
+(
+JSMSG_INVALID_OPTION_VALUE
+property
+"
+{
+value
+}
+"
+)
 ;
 }
 /
