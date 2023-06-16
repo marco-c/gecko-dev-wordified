@@ -844,17 +844,10 @@ SandboxingKind
 GENERIC_UTILITY
 )
 {
-JS
-:
-:
-DisableJitBackend
-(
-)
-;
 if
 (
 !
-JS_Init
+JS_FrontendOnlyInit
 (
 )
 )
@@ -886,7 +879,7 @@ initialization
 otherwise
 /
 /
-JS_Init
+JS_FrontendOnlyInit
 triggers
 sysctl
 (
@@ -1004,7 +997,7 @@ SandboxingKind
 GENERIC_UTILITY
 )
 {
-JS_ShutDown
+JS_FrontendOnlyShutDown
 (
 )
 ;
