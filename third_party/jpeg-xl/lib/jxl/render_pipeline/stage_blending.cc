@@ -882,13 +882,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-Blend
-"
-)
-;
 JXL_ASSERT
 (
 initialized_

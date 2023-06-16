@@ -213,13 +213,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-HorizontalChromaUpsampling
-"
-)
-;
 HWY_FULL
 (
 float
@@ -506,13 +499,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-VerticalChromaUpsampling
-"
-)
-;
 HWY_FULL
 (
 float

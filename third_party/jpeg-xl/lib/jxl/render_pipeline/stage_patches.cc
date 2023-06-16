@@ -123,13 +123,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-RenderPatches
-"
-)
-;
 JXL_ASSERT
 (
 xpos

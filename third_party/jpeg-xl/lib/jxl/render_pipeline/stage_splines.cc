@@ -158,13 +158,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-RenderSplines
-"
-)
-;
 float
 *
 row_x

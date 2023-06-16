@@ -994,8 +994,6 @@ JXL_RESTRICT
 out
 )
 {
-PROFILER_FUNC
-;
 const
 int64_t
 xsize
@@ -1384,8 +1382,6 @@ ImageF
 out
 )
 {
-PROFILER_FUNC
-;
 const
 float
 *
@@ -1548,8 +1544,6 @@ ImageF
 out
 )
 {
-PROFILER_FUNC
-;
 const
 float
 *

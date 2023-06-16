@@ -121,19 +121,6 @@ lib
 /
 jxl
 /
-base
-/
-profiler
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_color_management
 .
 h
@@ -208,8 +195,6 @@ Image3F
 out
 )
 {
-PROFILER_FUNC
-;
 ColorSpaceTransform
 c_transform
 (
@@ -1018,8 +1003,6 @@ ThreadPool
 pool
 )
 {
-PROFILER_FUNC
-;
 JXL_RETURN_IF_ERROR
 (
 CopyTo

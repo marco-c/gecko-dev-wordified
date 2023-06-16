@@ -155,13 +155,6 @@ Print
 function
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 hwy
 /
@@ -252,6 +245,7 @@ VFromD
 D
 >
 >
+HWY_API
 void
 Print
 (
@@ -262,10 +256,7 @@ const
 char
 *
 caption
-VecArg
-<
 V
->
 v
 size_t
 lane_u

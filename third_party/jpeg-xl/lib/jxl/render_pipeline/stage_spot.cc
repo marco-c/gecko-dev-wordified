@@ -139,13 +139,6 @@ veluca
 add
 SIMD
 .
-PROFILER_ZONE
-(
-"
-RenderSpotColors
-"
-)
-;
 float
 scale
 =

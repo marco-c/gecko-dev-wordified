@@ -161,6 +161,7 @@ kPGX
 kJPG
 kGIF
 kEXR
+kJXL
 }
 ;
 std

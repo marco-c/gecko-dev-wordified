@@ -1274,8 +1274,6 @@ JXL_RESTRICT
 out
 )
 {
-PROFILER_FUNC
-;
 const
 size_t
 ysize

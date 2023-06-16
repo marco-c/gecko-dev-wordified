@@ -132,19 +132,6 @@ lib
 /
 jxl
 /
-base
-/
-profiler
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 common
 .
 h
@@ -3509,8 +3496,6 @@ JXL_RESTRICT
 out
 )
 {
-PROFILER_FUNC
-;
 JXL_CHECK
 (
 SameSize
@@ -4577,8 +4562,6 @@ double
 sigma
 )
 {
-PROFILER_FUNC
-;
 auto
 rg
 =
@@ -5787,8 +5770,6 @@ JXL_RESTRICT
 out
 )
 {
-PROFILER_FUNC
-;
 JXL_CHECK
 (
 SameSize

@@ -218,8 +218,14 @@ HWY_ARCH_RVV
 &
 defined
 (
-__riscv_vector
+__riscv_v_intrinsic
 )
+&
+&
+__riscv_v_intrinsic
+>
+=
+11000
 /
 /
 Not

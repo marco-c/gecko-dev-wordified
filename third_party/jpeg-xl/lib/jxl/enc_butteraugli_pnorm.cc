@@ -127,19 +127,6 @@ jxl
 /
 base
 /
-profiler
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
-base
-/
 status
 .
 h
@@ -226,8 +213,6 @@ double
 p
 )
 {
-PROFILER_FUNC
-;
 const
 double
 onePerPixels
@@ -1080,8 +1065,6 @@ JxlCmsInterface
 cms
 )
 {
-PROFILER_FUNC
-;
 /
 /
 Convert

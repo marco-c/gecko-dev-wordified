@@ -510,6 +510,9 @@ false
 size_t
 xoffset_
 ;
+bool
+need_context_rows_
+;
 int
 min_scaled_dct_size
 ;

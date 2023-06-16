@@ -274,10 +274,6 @@ HWY_RESTRICT
 keys
 size_t
 num
-uint64_t
-*
-HWY_RESTRICT
-buf
 )
 {
 #
@@ -313,7 +309,6 @@ d
 st
 keys
 num
-buf
 )
 ;
 #
@@ -327,11 +322,6 @@ keys
 void
 )
 num
-;
-(
-void
-)
-buf
 ;
 HWY_ASSERT
 (
@@ -385,12 +375,7 @@ SortKV64Desc
 /
 namespace
 void
-Sorter
-:
-:
-operator
-(
-)
+VQSort
 (
 K32V32
 *
@@ -400,7 +385,6 @@ size_t
 n
 SortDescending
 )
-const
 {
 HWY_DYNAMIC_DISPATCH
 (
@@ -416,12 +400,6 @@ uint64_t
 keys
 )
 n
-Get
-<
-uint64_t
->
-(
-)
 )
 ;
 }

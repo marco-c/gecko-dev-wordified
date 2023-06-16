@@ -277,6 +277,7 @@ HIGHWAY_HWY_EXAMPLES_SKELETON_INL_H_
 )
 =
 =
+\
 defined
 (
 HWY_TARGET_TOGGLE
@@ -309,13 +310,6 @@ or
 inl
 headers
 .
-#
-include
-<
-stddef
-.
-h
->
 #
 include
 "

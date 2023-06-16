@@ -426,13 +426,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-ToneMapping
-"
-)
-;
 if
 (
 !

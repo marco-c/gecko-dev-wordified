@@ -245,10 +245,6 @@ HWY_RESTRICT
 keys
 size_t
 num
-int32_t
-*
-HWY_RESTRICT
-buf
 )
 {
 SortTag
@@ -284,7 +280,6 @@ d
 st
 keys
 num
-buf
 )
 ;
 }
@@ -332,12 +327,7 @@ SortI32Asc
 /
 namespace
 void
-Sorter
-:
-:
-operator
-(
-)
+VQSort
 (
 int32_t
 *
@@ -347,7 +337,6 @@ size_t
 n
 SortAscending
 )
-const
 {
 HWY_DYNAMIC_DISPATCH
 (
@@ -356,12 +345,6 @@ SortI32Asc
 (
 keys
 n
-Get
-<
-int32_t
->
-(
-)
 )
 ;
 }

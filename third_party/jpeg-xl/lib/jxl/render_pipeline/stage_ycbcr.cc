@@ -176,13 +176,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-UndoYCbCr
-"
-)
-;
 const
 HWY_FULL
 (

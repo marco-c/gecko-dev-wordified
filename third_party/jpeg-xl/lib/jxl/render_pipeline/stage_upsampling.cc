@@ -394,13 +394,6 @@ thread_id
 const
 final
 {
-PROFILER_ZONE
-(
-"
-Upsampling
-"
-)
-;
 static
 HWY_FULL
 (
