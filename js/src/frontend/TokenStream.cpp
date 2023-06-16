@@ -3085,6 +3085,10 @@ options
 filename
 (
 )
+.
+c_str
+(
+)
 )
 longLineColumnInfo_
 (
