@@ -1018,6 +1018,7 @@ tabSources
 onDragOver
 onDragStart
 onDragEnd
+index
 }
 =
 this
@@ -1175,7 +1176,18 @@ className
 {
 className
 }
-key
+data
+-
+index
+=
+{
+index
+}
+data
+-
+source
+-
+id
 =
 {
 sourceId
