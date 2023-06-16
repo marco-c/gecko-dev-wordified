@@ -545,6 +545,9 @@ endif
 struct
 JSContext
 ;
+class
+nsIChannel
+;
 namespace
 mozilla
 {
@@ -2130,11 +2133,9 @@ uint8_t
 >
 GenerateKey
 (
-nsIURI
+nsIChannel
 *
-aTopLevelURI
-bool
-aIsPrivate
+aChannel
 )
 ;
 /

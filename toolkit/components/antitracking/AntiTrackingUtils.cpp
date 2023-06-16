@@ -5569,11 +5569,7 @@ nsRFPService
 :
 GenerateKey
 (
-uri
-NS_UsePrivateBrowsing
-(
 aChannel
-)
 )
 ;
 if
