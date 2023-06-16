@@ -167,6 +167,11 @@ FileSystemHashSource
 cpp
 "
 "
+FileSystemHashStorageFunction
+.
+cpp
+"
+"
 FileSystemManagerParent
 .
 cpp
