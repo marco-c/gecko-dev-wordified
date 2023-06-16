@@ -16884,7 +16884,9 @@ aOptions
 bool
 aIsSystemPrincipal
 bool
-aShouldResistFingerprinting
+aForceUTC
+bool
+aAlwaysUseFdlibm
 )
 ;
 /

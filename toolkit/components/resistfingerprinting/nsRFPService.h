@@ -1303,8 +1303,6 @@ ReduceTimePrecisionAsUSecsWrapper
 (
 double
 aTime
-bool
-aShouldResistFingerprinting
 JSContext
 *
 aCx
