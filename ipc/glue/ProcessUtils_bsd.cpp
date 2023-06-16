@@ -133,7 +133,7 @@ if
 !
 defined
 (
-OS_NETBSD
+XP_NETBSD
 )
 #
 include
@@ -163,7 +163,7 @@ aName
 if
 defined
 (
-OS_NETBSD
+XP_NETBSD
 )
 pthread_setname_np
 (

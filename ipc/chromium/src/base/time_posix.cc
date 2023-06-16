@@ -1586,7 +1586,7 @@ years
 elif
 defined
 (
-OS_OPENBSD
+XP_OPENBSD
 )
 |
 |
