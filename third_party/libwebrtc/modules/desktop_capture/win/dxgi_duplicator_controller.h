@@ -380,7 +380,7 @@ vary
 /
 /
 The
-underyling
+underlying
 DxgiOutputDuplicators
 may
 take
@@ -454,7 +454,7 @@ information
 we
 are
 interested
-on
+in
 which
 may
 impact
@@ -876,7 +876,8 @@ into
 target
 .
 monitor_id
-should
+must
+be
 >
 =
 0
@@ -952,7 +953,7 @@ based
 capturer
 .
 DesktopVector
-dpi
+system_dpi
 (
 )
 ;
@@ -1423,6 +1424,7 @@ all
 COM
 components
 referred
+to
 by
 this
 instance
@@ -1953,7 +1955,7 @@ mutex_
 )
 ;
 DesktopVector
-dpi_
+system_dpi_
 RTC_GUARDED_BY
 (
 mutex_
@@ -1994,7 +1996,7 @@ to
 indicate
 how
 many
-succeeded
+successful
 duplications
 have
 been

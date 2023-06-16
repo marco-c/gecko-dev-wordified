@@ -1078,6 +1078,7 @@ display_configuration_monitor_
 .
 IsChanged
 (
+kFullDesktopScreenId
 )
 )
 {
