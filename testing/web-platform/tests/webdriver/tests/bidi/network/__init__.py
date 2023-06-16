@@ -251,12 +251,6 @@ tlsStart
 any_int
             
 "
-tlsEnd
-"
-:
-any_int
-            
-"
 requestStart
 "
 :
