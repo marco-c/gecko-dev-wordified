@@ -1248,6 +1248,10 @@ null
 /
 /
 nsICSPEventListener
+null
+/
+/
+aLoadInfo
 NetUtil
 .
 newURI
@@ -1268,8 +1272,6 @@ js
 )
 null
 true
-null
-false
 )
 ;
 }
@@ -1624,6 +1626,10 @@ null
 /
 /
 nsICSPEventListener
+null
+/
+/
+nsILoadInfo
 NetUtil
 .
 newURI
@@ -1642,8 +1648,6 @@ base64data
 )
 null
 true
-null
-false
 )
 ;
 }
@@ -1709,6 +1713,10 @@ null
 /
 /
 nsICSPEventListener
+null
+/
+/
+nsILoadInfo
 NetUtil
 .
 newURI
@@ -1743,8 +1751,6 @@ sll
 )
 null
 true
-null
-false
 )
 ;
 }
@@ -1819,6 +1825,10 @@ null
 /
 /
 nsICSPEventListener
+null
+/
+/
+nsILoadInfo
 NetUtil
 .
 newURI
@@ -1832,8 +1842,6 @@ bar
 )
 null
 true
-null
-false
 )
 ;
 }
