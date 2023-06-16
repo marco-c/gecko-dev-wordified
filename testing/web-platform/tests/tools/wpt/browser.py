@@ -458,6 +458,33 @@ logger
 logger
     
 def
+_get_browser_download_dir
+(
+self
+dest
+channel
+)
+:
+        
+if
+dest
+is
+None
+:
+            
+return
+self
+.
+_get_browser_binary_dir
+(
+dest
+channel
+)
+        
+return
+dest
+    
+def
 _get_browser_binary_dir
 (
 self
@@ -687,7 +714,7 @@ dest
 =
 self
 .
-_get_browser_binary_dir
+_get_browser_download_dir
 (
 dest
 channel
@@ -1593,19 +1620,13 @@ uname
 ]
 )
         
-if
-dest
-is
-None
-:
-            
 dest
 =
 self
 .
-_get_browser_binary_dir
+_get_browser_download_dir
 (
-None
+dest
 channel
 )
         
@@ -7201,19 +7222,13 @@ None
 )
 :
         
-if
-dest
-is
-None
-:
-            
 dest
 =
 self
 .
-_get_browser_binary_dir
+_get_browser_download_dir
 (
-None
+dest
 channel
 )
         
@@ -14676,19 +14691,13 @@ channel
 "
 )
         
-if
-dest
-is
-None
-:
-            
 dest
 =
 self
 .
-_get_browser_binary_dir
+_get_browser_download_dir
 (
-None
+dest
 channel
 )
         
@@ -16828,6 +16837,10 @@ join
 (
 dirname
 "
+.
+.
+"
+"
 identifier
 "
 )
@@ -17172,19 +17185,13 @@ base_download_dir
 +
 bundle_filename
         
-if
-dest
-is
-None
-:
-            
 dest
 =
 self
 .
-_get_browser_binary_dir
+_get_browser_download_dir
 (
-None
+dest
 channel
 )
         
