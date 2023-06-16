@@ -5323,6 +5323,14 @@ mLoadInfo
 mWatchedByDevTools
 ;
 }
+bool
+ShouldResistFingerprinting
+(
+RFPTarget
+aTarget
+)
+const
+;
 RemoteWorkerChild
 *
 GetRemoteWorkerController
