@@ -1239,7 +1239,8 @@ l10nfilesource_addref
 (
 source
 :
-&
+*
+const
 FileSource
 )
 {

@@ -193,7 +193,8 @@ fluent_resource_addref
 (
 res
 :
-&
+*
+const
 FluentResource
 )
 {

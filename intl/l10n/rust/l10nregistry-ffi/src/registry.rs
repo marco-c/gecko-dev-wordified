@@ -1528,7 +1528,8 @@ l10nregistry_addref
 (
 reg
 :
-&
+*
+const
 GeckoL10nRegistry
 )
 {
@@ -1582,7 +1583,8 @@ l10nregistry_release
 (
 reg
 :
-&
+*
+const
 GeckoL10nRegistry
 )
 {
