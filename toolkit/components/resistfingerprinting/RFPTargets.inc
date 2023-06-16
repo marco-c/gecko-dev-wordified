@@ -378,6 +378,14 @@ Gamepad
 <
 23
 )
+ITEM_VALUE
+(
+HttpUserAgent
+1u
+<
+<
+24
+)
 /
 /
 !
