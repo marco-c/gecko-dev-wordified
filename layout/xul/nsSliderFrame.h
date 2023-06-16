@@ -1121,8 +1121,8 @@ Notify
 void
 PageScroll
 (
-nscoord
-aChange
+bool
+aClickAndHold
 )
 ;
 nsPoint
@@ -1147,7 +1147,7 @@ int32_t
 mCurPos
 ;
 nscoord
-mChange
+mRepeatDirection
 ;
 bool
 mDragFinished
