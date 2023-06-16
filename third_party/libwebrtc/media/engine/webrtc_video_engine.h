@@ -3212,11 +3212,16 @@ Does
 not
 return
 codecs
+nor
+header
+extensions
 they
 are
 filled
 by
 the
+/
+/
 owning
 WebRtcVideoChannel
 .
