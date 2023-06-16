@@ -196,6 +196,13 @@ NotifyVoicesChanged
 )
 ;
 async
+NotifyVoicesError
+(
+nsString
+aError
+)
+;
+async
 InitialVoicesAndState
 (
 RemoteVoice
