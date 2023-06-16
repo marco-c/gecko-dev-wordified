@@ -689,24 +689,6 @@ args
 .
 host
             
-power_test
-=
-args
-.
-power_test
-            
-cpu_test
-=
-args
-.
-cpu_test
-            
-memory_test
-=
-args
-.
-memory_test
-            
 live_sites
 =
 args
