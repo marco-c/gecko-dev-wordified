@@ -7611,6 +7611,10 @@ dst_stride
 )
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 VP8DspInitSSE2
 (

@@ -14937,10 +14937,7 @@ top
 row
 #
 if
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 const
 uint16_t
 p2
@@ -15637,10 +15634,7 @@ top
 row
 #
 if
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 const
 uint16_t
 p3

@@ -1450,6 +1450,10 @@ VP8AccumulateSSE
 #
 endif
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 VP8SSIMDspInitSSE2
 (

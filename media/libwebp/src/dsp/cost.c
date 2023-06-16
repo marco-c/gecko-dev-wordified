@@ -3458,6 +3458,10 @@ VP8SetResidualCoeffsFunc
 VP8SetResidualCoeffs
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 VP8EncDspCostInitMIPS32
 (

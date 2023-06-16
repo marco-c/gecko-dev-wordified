@@ -4354,6 +4354,10 @@ return
 16
 ;
 }
+extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
 WEBP_DSP_INIT_FUNC
 (
 InitGetCoeffs

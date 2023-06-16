@@ -1999,6 +1999,10 @@ WebPRescalerExportRowFunc
 WebPRescalerExportRowShrink
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 WebPRescalerDspInitSSE2
 (

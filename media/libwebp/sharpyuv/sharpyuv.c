@@ -4165,6 +4165,10 @@ VP8CPUInfo
 /
 function
 .
+extern
+VP8CPUInfo
+SharpYuvGetCPUInfo
+;
 SHARPYUV_EXTERN
 void
 SharpYuvInit

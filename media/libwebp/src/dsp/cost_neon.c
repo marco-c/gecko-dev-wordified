@@ -333,8 +333,8 @@ position
 )
 ;
 #
-ifdef
-__aarch64__
+if
+WEBP_AARCH64
 res
 -
 >
@@ -447,7 +447,7 @@ last
 endif
 /
 /
-__aarch64__
+WEBP_AARCH64
 res
 -
 >
