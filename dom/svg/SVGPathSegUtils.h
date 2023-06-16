@@ -1792,7 +1792,7 @@ aType
 ;
 }
 static
-uint32_t
+bool
 SameTypeModuloRelativeness
 (
 uint32_t
@@ -1807,6 +1807,13 @@ if
 IsRelativeOrAbsoluteType
 (
 aType1
+)
+|
+|
+!
+IsRelativeOrAbsoluteType
+(
+aType2
 )
 )
 {
