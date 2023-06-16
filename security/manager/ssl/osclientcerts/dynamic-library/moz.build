@@ -140,6 +140,9 @@ userenv
 "
 ws2_32
 "
+"
+ntdll
+"
 ]
 if
 CONFIG
