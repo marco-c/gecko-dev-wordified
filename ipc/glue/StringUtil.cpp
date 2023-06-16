@@ -223,7 +223,7 @@ converters
 .
 #
 ifdef
-WCHAR_T_IS_UTF16
+XP_WIN
 #
 define
 ICONV_WCHAR_T_ENCODING

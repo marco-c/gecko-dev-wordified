@@ -112,7 +112,7 @@ h
 if
 defined
 (
-WCHAR_T_IS_UTF16
+XP_WIN
 )
 #
 error
@@ -169,11 +169,7 @@ be
 wrapped
 .
 #
-elif
-defined
-(
-WCHAR_T_IS_UTF32
-)
+else
 #
 include
 "
@@ -493,6 +489,3 @@ string16_char_traits
 ;
 #
 endif
-/
-/
-WCHAR_T_IS_UTF32
