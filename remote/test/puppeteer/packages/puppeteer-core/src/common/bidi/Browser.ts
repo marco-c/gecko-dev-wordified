@@ -298,6 +298,10 @@ session
 new
 '
 {
+capabilities
+:
+{
+}
 }
 )
 ;
