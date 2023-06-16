@@ -865,11 +865,9 @@ dom
 :
 RTCStatsCollection
 mClosed
-mLocalSdp
 mSdpHistory
 mPcid
 mBrowserId
-mRemoteSdp
 mTimestamp
 mCallDurationMs
 mIceRestarts
