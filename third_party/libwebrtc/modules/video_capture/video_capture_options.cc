@@ -238,6 +238,7 @@ pipewire_session_
 Init
 (
 callback
+pipewire_fd_
 )
 ;
 return
