@@ -163,9 +163,6 @@ namespace
 mozilla
 {
 class
-BindingStyleRule
-;
-class
 StyleSheet
 ;
 namespace
@@ -206,10 +203,13 @@ namespace
 mozilla
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
+class
+CSSStyleRule
+;
 /
 *
 *
@@ -274,7 +274,7 @@ nsTArray
 <
 RefPtr
 <
-BindingStyleRule
+CSSStyleRule
 >
 >
 &
@@ -544,7 +544,7 @@ GetSelectorCount
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 )
@@ -568,7 +568,7 @@ GetSelectorText
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -588,7 +588,7 @@ GetSpecificity
 GlobalObject
 &
 aGlobal
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -632,7 +632,7 @@ aGlobal
 Element
 &
 aElement
-BindingStyleRule
+CSSStyleRule
 &
 aRule
 uint32_t
@@ -1762,12 +1762,10 @@ aNamespaceURI
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
