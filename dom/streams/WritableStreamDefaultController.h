@@ -926,7 +926,7 @@ WritableStreamDefaultController
 aController
 UnderlyingSinkAlgorithmsBase
 *
-aSinkCallbacks
+aAlgorithms
 double
 aHighWaterMark
 QueuingStrategySize

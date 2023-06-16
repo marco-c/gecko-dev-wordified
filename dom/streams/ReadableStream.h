@@ -864,7 +864,6 @@ readablestream
 set
 -
 up
-MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
@@ -944,7 +943,6 @@ for
 /
 subclasses
 .
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpByteNative
 (
@@ -992,7 +990,6 @@ purpose
 in
 subclasses
 .
-MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <

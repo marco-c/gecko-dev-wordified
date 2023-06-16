@@ -1033,7 +1033,6 @@ Intended
 for
 subclasses
 .
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpNative
 (
@@ -1077,7 +1076,6 @@ in
 /
 subclasses
 .
-MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
