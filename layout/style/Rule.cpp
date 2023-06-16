@@ -788,6 +788,15 @@ type
 StyleCssRuleType
 :
 :
+Style
+|
+|
+type
+=
+=
+StyleCssRuleType
+:
+:
 Document
 |
 |

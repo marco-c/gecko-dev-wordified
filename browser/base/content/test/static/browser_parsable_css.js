@@ -2635,8 +2635,12 @@ layer
 block
 )
 keyframes
-continue
-;
+style
+rules
+with
+nested
+rules
+.
 }
 if
 (

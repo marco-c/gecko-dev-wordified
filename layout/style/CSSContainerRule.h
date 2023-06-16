@@ -222,6 +222,15 @@ StyleContainerRule
 >
 )
 ;
+already_AddRefed
+<
+StyleLockedCssRules
+>
+GetOrCreateRawRules
+(
+)
+final
+;
 /
 /
 WebIDL
