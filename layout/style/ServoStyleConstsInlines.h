@@ -2699,10 +2699,6 @@ _0
 >
 1
 ]
-.
-get
-(
-)
 ;
 }
 return
@@ -5834,6 +5830,7 @@ LengthPercentage
 "
 )
 ;
+const
 auto
 *
 self
@@ -5986,6 +5983,7 @@ Nothing
 )
 ;
 }
+const
 auto
 &
 list
@@ -6389,6 +6387,7 @@ return
 this
 ;
 }
+const
 auto
 &
 set
@@ -6483,6 +6482,7 @@ IsImageRequestType
 )
 const
 {
+const
 auto
 &
 finalImage
@@ -6521,6 +6521,7 @@ GetImageRequestURLValue
 )
 const
 {
+const
 auto
 &
 finalImage
@@ -6586,6 +6587,7 @@ GetImageRequest
 )
 const
 {
+const
 auto
 *
 url
@@ -6620,6 +6622,7 @@ IsResolved
 )
 const
 {
+const
 auto
 *
 url
