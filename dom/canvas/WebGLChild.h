@@ -249,6 +249,16 @@ why
 )
 override
 ;
+FlushedCmdInfo
+GetFlushedCmdInfo
+(
+)
+const
+{
+return
+mFlushedCmdInfo
+;
+}
 private
 :
 friend
