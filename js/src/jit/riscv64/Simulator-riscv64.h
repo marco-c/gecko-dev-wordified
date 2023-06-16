@@ -7007,6 +7007,11 @@ registerState
 (
 )
 ;
+void
+HandleWasmTrap
+(
+)
+;
 /
 /
 Handle

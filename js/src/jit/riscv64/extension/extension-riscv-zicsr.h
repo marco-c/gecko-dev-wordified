@@ -174,6 +174,16 @@ imm5
 ;
 /
 /
+illegal_trap
+void
+illegal_trap
+(
+uint8_t
+code
+)
+;
+/
+/
 Read
 instructions
 -
