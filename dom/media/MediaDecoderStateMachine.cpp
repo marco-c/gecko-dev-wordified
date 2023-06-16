@@ -24171,10 +24171,12 @@ OnTaskQueue
 )
 )
 ;
+UniquePtr
+<
 AudioSink
-*
+>
 audioSink
-=
+{
 new
 AudioSink
 (
@@ -24187,6 +24189,7 @@ Info
 mAudio
 mShouldResistFingerprinting
 )
+}
 ;
 mAudibleListener
 .
