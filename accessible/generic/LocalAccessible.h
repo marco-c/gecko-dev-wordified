@@ -2052,7 +2052,7 @@ index
 *
 /
 virtual
-LocalAccessible
+Accessible
 *
 EmbeddedChildAt
 (
