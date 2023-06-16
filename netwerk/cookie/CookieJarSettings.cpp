@@ -747,6 +747,10 @@ CookieJarSettings
 here
 .
 "
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 if

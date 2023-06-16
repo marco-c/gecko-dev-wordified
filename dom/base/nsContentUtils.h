@@ -2212,11 +2212,6 @@ char
 aJustification
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 static
@@ -2232,11 +2227,6 @@ char
 aJustification
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 /
