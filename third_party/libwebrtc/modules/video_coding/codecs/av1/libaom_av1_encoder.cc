@@ -4617,6 +4617,17 @@ timestamp
 ;
 encoded_image
 .
+SetCaptureTimeIdentifier
+(
+frame
+.
+capture_time_identifier
+(
+)
+)
+;
+encoded_image
+.
 capture_time_ms_
 =
 frame
