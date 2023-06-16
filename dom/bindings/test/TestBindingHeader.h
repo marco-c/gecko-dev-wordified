@@ -254,6 +254,9 @@ class
 TestExternalInterface
 ;
 class
+TestUnionArguments
+;
+class
 Promise
 ;
 }
