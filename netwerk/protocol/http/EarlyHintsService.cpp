@@ -904,6 +904,12 @@ principal
 cookieJarSettings
 aReferrerPolicy
 aCSPHeader
+loadInfo
+-
+>
+GetBrowsingContextID
+(
+)
 )
 ;
 }
