@@ -94,6 +94,11 @@ MEDIA_ENGINE_WEBRTC_VIDEO_ENGINE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 map
 >
 #
@@ -3405,6 +3410,13 @@ SetLocalSsrc
 (
 uint32_t
 local_ssrc
+)
+;
+void
+UpdateRtxSsrc
+(
+uint32_t
+ssrc
 )
 ;
 private
