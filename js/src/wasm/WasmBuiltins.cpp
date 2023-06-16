@@ -257,6 +257,15 @@ include
 "
 jit
 /
+ProcessExecutableMemory
+.
+h
+"
+#
+include
+"
+jit
+/
 Simulator
 .
 h
@@ -12585,6 +12594,9 @@ return
 false
 ;
 }
+AutoMarkJitCodeWritableForThread
+writable
+;
 masm
 .
 executableCopy
