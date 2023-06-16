@@ -1484,15 +1484,6 @@ rtp_rtcp_
 IncomingRtcpPacket
 (
 rtcp_packet
-.
-data
-(
-)
-rtcp_packet
-.
-size
-(
-)
 )
 ;
 int64_t
