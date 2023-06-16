@@ -181,14 +181,6 @@ FileSystemDataManager
 class
 FileSystemFileManager
 ;
-using
-FileSystemConnection
-=
-fs
-:
-:
-ResultConnection
-;
 /
 *
 *
