@@ -9334,7 +9334,7 @@ rules
 aGroup
 -
 >
-CssRules
+GetCssRules
 (
 )
 ;
