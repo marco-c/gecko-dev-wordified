@@ -344,7 +344,7 @@ command_line
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -810,7 +810,7 @@ command_line_string_
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -1326,7 +1326,7 @@ StringType
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /

@@ -134,7 +134,7 @@ h
 "
 #
 ifdef
-OS_POSIX
+XP_UNIX
 #
 include
 <
@@ -516,7 +516,7 @@ GetLastError
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 error
 =

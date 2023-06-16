@@ -1036,7 +1036,7 @@ h
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include

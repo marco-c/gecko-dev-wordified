@@ -862,7 +862,7 @@ h
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -1055,7 +1055,7 @@ srwlock_
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 pthread_cond_t
 condition_

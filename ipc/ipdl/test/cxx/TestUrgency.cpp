@@ -21,7 +21,7 @@ etc
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -51,7 +51,7 @@ _ipdltest
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 static
 void

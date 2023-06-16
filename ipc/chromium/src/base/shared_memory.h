@@ -118,7 +118,7 @@ h
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -1293,7 +1293,7 @@ size
 ;
 #
 ifdef
-OS_POSIX
+XP_UNIX
 /
 /
 If
@@ -1432,7 +1432,7 @@ MappingDeleter
 {
 #
 ifdef
-OS_POSIX
+XP_UNIX
 /
 /
 A
@@ -1571,7 +1571,7 @@ false
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 &
 &

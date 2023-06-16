@@ -909,7 +909,7 @@ public
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -2488,7 +2488,7 @@ CharType
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 define

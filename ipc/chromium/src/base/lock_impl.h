@@ -138,7 +138,7 @@ h
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -212,7 +212,7 @@ SRWLOCK
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 using
 NativeHandle
@@ -362,7 +362,7 @@ native_handle_
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /

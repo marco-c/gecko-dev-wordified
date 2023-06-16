@@ -199,7 +199,7 @@ h
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -2567,7 +2567,7 @@ get
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 base
 :
@@ -4234,7 +4234,7 @@ get
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 typedef
 base
@@ -4352,7 +4352,7 @@ endif
 /
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 }
 ;

@@ -653,7 +653,7 @@ h
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -701,7 +701,7 @@ SlotType
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 typedef
 pthread_key_t

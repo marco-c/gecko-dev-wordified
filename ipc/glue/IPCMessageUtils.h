@@ -231,7 +231,7 @@ if
 !
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -770,7 +770,7 @@ if
 !
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -868,7 +868,7 @@ endif
 !
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 template
 <

@@ -1773,7 +1773,7 @@ endif
 XP_WIN
 #
 ifdef
-OS_POSIX
+XP_UNIX
 class
 PosixProcessLauncher
 :
@@ -2449,7 +2449,7 @@ endif
 endif
 /
 /
-OS_POSIX
+XP_UNIX
 using
 base
 :
@@ -3446,7 +3446,7 @@ exePathBuf
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 exePath
 =
@@ -7547,7 +7547,7 @@ endif
 MOZ_WIDGET_GTK
 #
 ifdef
-OS_POSIX
+XP_UNIX
 Result
 <
 Ok
@@ -8741,7 +8741,7 @@ Ok
 endif
 /
 /
-OS_POSIX
+XP_UNIX
 #
 if
 defined
@@ -8778,7 +8778,7 @@ endif
 MOZ_WIDGET_ANDROID
 #
 ifdef
-OS_POSIX
+XP_UNIX
 RefPtr
 <
 ProcessHandlePromise
@@ -8956,7 +8956,7 @@ Ok
 endif
 /
 /
-OS_POSIX
+XP_UNIX
 #
 ifdef
 XP_MACOSX

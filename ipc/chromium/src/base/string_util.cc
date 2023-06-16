@@ -1046,7 +1046,7 @@ else
 /
 /
 assume
-OS_POSIX
+XP_UNIX
 return
 strtoll
 (
@@ -1147,7 +1147,7 @@ else
 /
 /
 assume
-OS_POSIX
+XP_UNIX
 std
 :
 :

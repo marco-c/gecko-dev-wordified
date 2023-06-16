@@ -76,7 +76,7 @@ etc
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -176,7 +176,7 @@ count
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 return
 random
@@ -347,7 +347,7 @@ return
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 srandom
 (
@@ -478,7 +478,7 @@ Choose
 ;
 #
 ifdef
-OS_POSIX
+XP_UNIX
 usleep
 (
 micros
@@ -1312,7 +1312,7 @@ RecvStart
 {
 #
 ifdef
-OS_POSIX
+XP_UNIX
 srandom
 (
 time
@@ -1395,7 +1395,7 @@ Choose
 ;
 #
 ifdef
-OS_POSIX
+XP_UNIX
 usleep
 (
 micros

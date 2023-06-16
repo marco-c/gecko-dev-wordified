@@ -157,7 +157,7 @@ INVALID_HANDLE_VALUE
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 typedef
 int

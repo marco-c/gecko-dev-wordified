@@ -2,7 +2,7 @@
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -287,7 +287,7 @@ accident
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
@@ -404,7 +404,7 @@ Note2
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /

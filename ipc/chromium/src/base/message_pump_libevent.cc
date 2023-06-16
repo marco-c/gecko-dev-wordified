@@ -130,7 +130,7 @@ ANDROID
 |
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include

@@ -118,7 +118,7 @@ h
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -472,7 +472,7 @@ slot_
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 pthread_key_t
 key_

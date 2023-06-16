@@ -306,7 +306,7 @@ kuint32max
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 /
 /
