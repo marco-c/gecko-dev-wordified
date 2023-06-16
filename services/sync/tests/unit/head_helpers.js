@@ -3743,9 +3743,9 @@ engines
 {
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 engine
 .
@@ -3761,9 +3761,9 @@ interval
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 engine
 .
@@ -3779,9 +3779,9 @@ percentageChance
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 engine
 .
@@ -3798,9 +3798,9 @@ maxRecords
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setBoolPref
 (
 engine
 .

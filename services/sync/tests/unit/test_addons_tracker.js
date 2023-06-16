@@ -176,9 +176,9 @@ true
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setBoolPref
 (
 "
 engine

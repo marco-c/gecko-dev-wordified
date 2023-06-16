@@ -254,9 +254,9 @@ daily
 ping
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 "
 lastPing

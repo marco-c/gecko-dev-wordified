@@ -1205,9 +1205,9 @@ DumpAppender
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 "
 network
