@@ -274,7 +274,7 @@ OS_NACL
 (
 defined
 (
-OS_ANDROID
+ANDROID
 )
 &
 &
@@ -726,7 +726,7 @@ paranoia
 if
 defined
 (
-OS_ANDROID
+ANDROID
 )
 &
 &
@@ -764,7 +764,7 @@ absolute_time
 endif
 /
 /
-OS_ANDROID
+ANDROID
 &
 &
 HAVE_PTHREAD_COND_TIMEDWAIT_MONOTONIC

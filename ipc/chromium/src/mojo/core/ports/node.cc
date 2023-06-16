@@ -853,7 +853,7 @@ ERROR_PORT_UNKNOWN
 if
 defined
 (
-OS_ANDROID
+ANDROID
 )
 &
 &

@@ -237,7 +237,7 @@ OS_NACL
 |
 defined
 (
-OS_ANDROID
+ANDROID
 )
 #
 define
