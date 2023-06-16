@@ -3025,6 +3025,7 @@ config_
 not_probe_if_delay_increased
 &
 &
+(
 bandwidth_limited_cause_
 =
 =
@@ -3032,6 +3033,16 @@ BandwidthLimitedCause
 :
 :
 kDelayBasedLimitedDelayIncreased
+|
+|
+bandwidth_limited_cause_
+=
+=
+BandwidthLimitedCause
+:
+:
+kRttBasedBackOffHighRtt
+)
 )
 {
 return

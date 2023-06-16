@@ -576,12 +576,14 @@ not
 send
 probes
 if
-network
-is
 either
 overusing
-or
+/
 underusing
+network
+or
+high
+rtt
 .
 FieldTrialParameter
 <
@@ -642,6 +644,9 @@ kDelayBasedLimited
 kDelayBasedLimitedDelayIncreased
 =
 3
+kRttBasedBackOffHighRtt
+=
+4
 }
 ;
 /
