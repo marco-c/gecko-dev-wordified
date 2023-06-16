@@ -352,6 +352,8 @@ MediaChannel
 :
 MediaChannel
 (
+Role
+role
 TaskQueueBase
 *
 network_thread
@@ -359,6 +361,10 @@ bool
 enable_dscp
 )
 :
+role_
+(
+role
+)
 enable_dscp_
 (
 enable_dscp

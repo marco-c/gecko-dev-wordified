@@ -289,6 +289,16 @@ Current
 :
 FakeVideoMediaChannel
 (
+cricket
+:
+:
+MediaChannel
+:
+:
+Role
+:
+:
+kBoth
 engine
 options
 network_thread
