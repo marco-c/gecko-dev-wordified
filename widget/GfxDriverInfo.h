@@ -973,6 +973,7 @@ IntelHaswell
 IntelSandyBridge
 IntelGen7Baytrail
 IntelSkylake
+IntelKabyLake
 IntelHD520
 IntelMobileHDGraphics
 NvidiaBlockD3D9Layers
