@@ -1268,7 +1268,7 @@ payload
             
 for
 path
-mode
+st
 content
 in
 uncpio
@@ -1295,6 +1295,8 @@ stat
 .
 S_ISREG
 (
+st
+.
 mode
 )
 :

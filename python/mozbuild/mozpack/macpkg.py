@@ -125,6 +125,12 @@ etree
 ElementTree
 import
 XML
+from
+mozbuild
+.
+util
+import
+ReadOnlyNamespace
 class
 ZlibFile
 (
@@ -1435,6 +1441,22 @@ unpack
 header
 )
         
+dev
+=
+int
+(
+dev
+8
+)
+        
+ino
+=
+int
+(
+ino
+8
+)
+        
 mode
 =
 int
@@ -1621,7 +1643,21 @@ filesize
         
 yield
 name
+ReadOnlyNamespace
+(
 mode
+=
+mode
+nlink
+=
+nlink
+dev
+=
+dev
+ino
+=
+ino
+)
 content
         
 #
