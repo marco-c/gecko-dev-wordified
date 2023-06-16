@@ -176,9 +176,8 @@ static_assertions
 assert_impl_all
 !
 (
-label
-;
 FakeType
+:
 core
 :
 :
