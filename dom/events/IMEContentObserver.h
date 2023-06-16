@@ -2341,12 +2341,6 @@ nsStubDocumentObserver
 {
 public
 :
-DocumentObserver
-(
-)
-=
-delete
-;
 explicit
 DocumentObserver
 (
@@ -2445,6 +2439,12 @@ mDocumentUpdating
 }
 private
 :
+DocumentObserver
+(
+)
+=
+delete
+;
 virtual
 ~
 DocumentObserver
