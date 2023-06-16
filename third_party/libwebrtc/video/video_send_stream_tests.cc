@@ -17282,7 +17282,7 @@ height
 ;
 encoded
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 i
 )

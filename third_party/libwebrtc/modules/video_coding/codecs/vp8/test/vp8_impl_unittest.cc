@@ -677,7 +677,7 @@ EXPECT_EQ
 encoded_frame
 -
 >
-SpatialIndex
+SimulcastIndex
 (
 )
 )

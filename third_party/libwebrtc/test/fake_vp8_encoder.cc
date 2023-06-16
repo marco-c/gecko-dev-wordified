@@ -562,11 +562,11 @@ sequence_checker_
 )
 ;
 uint8_t
-stream_idx
+simulcast_index
 =
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -580,7 +580,7 @@ frame_buffer_controller_
 >
 NextFrameConfig
 (
-stream_idx
+simulcast_index
 encoded_image
 .
 Timestamp
@@ -601,7 +601,7 @@ size
 encoded_image
 .
 _frameType
-stream_idx
+simulcast_index
 encoded_image
 .
 Timestamp
