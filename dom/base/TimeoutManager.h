@@ -150,9 +150,6 @@ nsGlobalWindowInner
 namespace
 mozilla
 {
-class
-PerformanceCounter
-;
 namespace
 dom
 {
@@ -787,15 +784,6 @@ aDuration
 TimeDuration
 (
 )
-)
-;
-mozilla
-:
-:
-PerformanceCounter
-*
-GetPerformanceCounter
-(
 )
 ;
 private
