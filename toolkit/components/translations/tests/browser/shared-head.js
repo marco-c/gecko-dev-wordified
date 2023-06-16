@@ -4358,6 +4358,8 @@ translations
 -
 manage
 -
+language
+-
 download
 -
 button
@@ -4383,6 +4385,8 @@ id
 translations
 -
 manage
+-
+language
 -
 delete
 -
@@ -4422,6 +4426,8 @@ translations
 -
 manage
 -
+language
+-
 download
 -
 button
@@ -4447,6 +4453,8 @@ id
 translations
 -
 manage
+-
+language
 -
 delete
 -
