@@ -165,6 +165,11 @@ SVGLengthBinding
 .
 h
 "
+enum
+nsCSSUnit
+:
+uint32_t
+;
 namespace
 mozilla
 {
@@ -785,6 +790,14 @@ uint8_t
 aUnits
 uint8_t
 aPerUnit
+)
+;
+static
+nsCSSUnit
+SpecifiedUnitTypeToCSSUnit
+(
+uint8_t
+aSpecifiedUnit
 )
 ;
 static
