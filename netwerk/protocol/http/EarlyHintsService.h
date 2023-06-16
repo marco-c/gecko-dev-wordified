@@ -224,6 +224,9 @@ const
 nsACString
 &
 aCSPHeader
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 ;
 void
