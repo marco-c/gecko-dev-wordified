@@ -1118,6 +1118,12 @@ StaticPrefs
 gfx_webrender_max_shared_surface_size_AtStartup
 (
 )
+StaticPrefs
+:
+:
+gfx_webrender_enable_subpixel_aa_AtStartup
+(
+)
 )
 )
 {
