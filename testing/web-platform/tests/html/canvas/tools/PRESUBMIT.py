@@ -86,9 +86,6 @@ depot_tools
 "
 "
 "
-USE_PYTHON3
-=
-True
 def
 CommonChecks
 (
