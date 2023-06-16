@@ -1889,9 +1889,6 @@ maximumSignificantDigits
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 DefineDataProperty
 (
 result
@@ -1925,8 +1922,6 @@ internals
 trailingZeroDisplay
 )
 ;
-#
-endif
 /
 /
 Step
@@ -2011,9 +2006,6 @@ pluralCategories
 pluralCategories
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 DefineDataProperty
 (
 result
@@ -2025,8 +2017,6 @@ internals
 roundingPriority
 )
 ;
-#
-endif
 /
 /
 Step
