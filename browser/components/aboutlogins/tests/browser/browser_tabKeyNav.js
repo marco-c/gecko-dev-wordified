@@ -1488,7 +1488,8 @@ shadowRoot
 querySelector
 (
 "
-.
+login
+-
 breach
 -
 alert
