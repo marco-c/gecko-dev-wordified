@@ -731,11 +731,6 @@ mResolverPrefsUpdated
 =
 false
 ;
-bool
-mODoHActivated
-=
-false
-;
 nsClassHashtable
 <
 nsCStringHashKey
