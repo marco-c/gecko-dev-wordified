@@ -1398,21 +1398,23 @@ implied
       
 default
 is
-an
-empty
-PositiveOptionValue
+a
+NegativeOptionValue
+(
+disabled
+)
 .
 When
 it
 starts
 with
+      
 '
 -
 -
 disable
 -
 '
-      
 or
 '
 -
@@ -1424,8 +1426,13 @@ the
 implied
 default
 is
-a
-NegativeOptionValue
+an
+empty
+      
+PositiveOptionValue
+(
+enabled
+)
 .
     
 -
