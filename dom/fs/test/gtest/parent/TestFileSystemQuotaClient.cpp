@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+FileSystemParentTypes
+.
+h
+"
+#
+include
+"
 FileSystemQuotaClient
 .
 h
@@ -2251,7 +2258,10 @@ dbm
 >
 UpdateUsage
 (
+FileId
+(
 testFileId
+)
 )
 )
 ;
@@ -3144,7 +3154,10 @@ dbm
 >
 UpdateUsage
 (
+FileId
+(
 testFileId
+)
 )
 )
 ;
