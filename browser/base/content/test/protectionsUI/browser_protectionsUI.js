@@ -3802,11 +3802,6 @@ testQuickSwitchTabAfterTogglingTPSwitch
 (
 )
 {
-requestLongerTimeout
-(
-2
-)
-;
 const
 FIRST_TEST_SITE
 =
