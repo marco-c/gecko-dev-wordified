@@ -133,7 +133,10 @@ selectors
 parser
 :
 :
+{
 SelectorList
+ParseRelative
+}
 ;
 use
 std
@@ -615,6 +618,10 @@ new
 mut
 input
 )
+ParseRelative
+:
+:
+No
 )
 }
 /
