@@ -177,12 +177,6 @@ l10n
 ]
     
 "
-max_build_output_timeout
-"
-:
-0
-    
-"
 secret_files
 "
 :
