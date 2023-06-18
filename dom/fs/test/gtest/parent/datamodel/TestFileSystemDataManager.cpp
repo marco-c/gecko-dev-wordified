@@ -220,6 +220,16 @@ TearDownTestCase
 (
 )
 {
+EXPECT_NO_FATAL_FAILURE
+(
+ClearStoragesForOrigin
+(
+GetTestOriginMetadata
+(
+)
+)
+)
+;
 ASSERT_NO_FATAL_FAILURE
 (
 ShutdownFixture
