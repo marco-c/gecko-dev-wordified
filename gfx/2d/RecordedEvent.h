@@ -2017,6 +2017,8 @@ public
 :
 enum
 EventType
+:
+uint8_t
 {
 DRAWTARGETCREATION
 =
@@ -2516,7 +2518,7 @@ aOutput
 MOZ_IMPLICIT
 RecordedEvent
 (
-int32_t
+EventType
 aType
 )
 :
@@ -2526,7 +2528,7 @@ aType
 )
 {
 }
-int32_t
+EventType
 mType
 ;
 std
