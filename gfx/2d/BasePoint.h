@@ -298,9 +298,9 @@ y
 void
 MoveTo
 (
-T
+Coord
 aX
-T
+Coord
 aY
 )
 {
@@ -316,9 +316,9 @@ aY
 void
 MoveBy
 (
-T
+Coord
 aDx
-T
+Coord
 aDy
 )
 {
@@ -869,7 +869,7 @@ true
 void
 Clamp
 (
-T
+Coord
 aMaxAbsValue
 )
 {
