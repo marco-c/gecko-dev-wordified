@@ -220,6 +220,7 @@ PrincipalHashKey
 &
 aKey
 )
+noexcept
 :
 mPrincipal
 (
@@ -314,6 +315,7 @@ nsIPrincipal
 aKey
 )
 {
+const
 auto
 *
 bp
