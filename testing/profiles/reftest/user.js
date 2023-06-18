@@ -1025,16 +1025,6 @@ xml
 "
 )
 ;
-user_pref
-(
-"
-media
-.
-openUnsupportedTypeWithExternalApp
-"
-false
-)
-;
 /
 /
 Reftests

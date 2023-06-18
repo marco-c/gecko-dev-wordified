@@ -2688,16 +2688,6 @@ user_pref
 "
 media
 .
-openUnsupportedTypeWithExternalApp
-"
-false
-)
-;
-user_pref
-(
-"
-media
-.
 preload
 .
 auto
