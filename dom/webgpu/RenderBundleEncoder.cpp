@@ -324,10 +324,12 @@ WasPassed
 )
 )
 {
+depthStencilFormat
+=
 WebGPUChild
 :
 :
-ConvertTextureFormatRef
+ConvertTextureFormat
 (
 aDesc
 .
@@ -336,7 +338,6 @@ mDepthStencilFormat
 Value
 (
 )
-depthStencilFormat
 )
 ;
 desc
@@ -393,10 +394,12 @@ ffi
 WGPUTextureFormat_Sentinel
 }
 ;
+format
+=
 WebGPUChild
 :
 :
-ConvertTextureFormatRef
+ConvertTextureFormat
 (
 aDesc
 .
@@ -404,7 +407,6 @@ mColorFormats
 [
 i
 ]
-format
 )
 ;
 colorFormats
