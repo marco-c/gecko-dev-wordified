@@ -53,11 +53,9 @@ U
 +
 0020
 and
+are
+NOT
 collapsed
-(
-per
-CSS
-)
 /
 /
 Note
@@ -107,11 +105,9 @@ U
 +
 0020
 and
+are
+NOT
 collapsed
-(
-per
-CSS
-)
 "
 )
 ;
@@ -285,7 +281,7 @@ E
 EE
 '
 -
-100
+150
 37
 .
 5

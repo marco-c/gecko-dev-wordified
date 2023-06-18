@@ -51,13 +51,8 @@ U
 +
 0020
 and
+NOT
 collapsed
-(
-per
-CSS
-)
-for
-OffscreenCanvas
 /
 /
 Note
@@ -107,13 +102,8 @@ U
 +
 0020
 and
+NOT
 collapsed
-(
-per
-CSS
-)
-for
-OffscreenCanvas
 "
 )
 ;
@@ -342,7 +332,7 @@ x0dB
 )
 .
 width
-150
+650
 "
 ctx
 .
@@ -380,7 +370,7 @@ x0dB
 width
 "
 "
-150
+650
 "
 )
 ;
@@ -435,7 +425,7 @@ AB
 )
 .
 width
-100
+150
 "
 ctx
 .
@@ -449,7 +439,7 @@ AB
 width
 "
 "
-100
+150
 "
 )
 ;
@@ -465,7 +455,7 @@ AB
 )
 .
 width
-100
+150
 "
 ctx
 .
@@ -479,7 +469,7 @@ AB
 width
 "
 "
-100
+150
 "
 )
 ;
