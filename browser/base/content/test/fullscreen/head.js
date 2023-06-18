@@ -32,6 +32,7 @@ waitForFullScreenState
 (
 browser
 state
+actionAfterFSEvent
 )
 {
 return
@@ -129,6 +130,16 @@ eventReceived
 =
 true
 ;
+if
+(
+actionAfterFSEvent
+)
+{
+actionAfterFSEvent
+(
+)
+;
+}
 }
 {
 once
@@ -325,6 +336,7 @@ testExpectFullScreenExit
 browser
 leaveFS
 action
+actionAfterFSEvent
 )
 {
 let
@@ -334,6 +346,7 @@ waitForFullScreenState
 (
 browser
 false
+actionAfterFSEvent
 )
 ;
 if
