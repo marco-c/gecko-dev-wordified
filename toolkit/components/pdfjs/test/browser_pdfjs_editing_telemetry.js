@@ -379,7 +379,7 @@ browser
 freeTextEditor
 "
 )
-1
+2
 )
 ;
 await
@@ -406,7 +406,7 @@ freetext
 testGetValue
 (
 )
-1
+2
 )
 ;
 spanBox
@@ -473,7 +473,7 @@ browser
 freeTextEditor
 "
 )
-2
+3
 )
 ;
 await
@@ -500,7 +500,7 @@ freetext
 testGetValue
 (
 )
-2
+3
 )
 ;
 Assert

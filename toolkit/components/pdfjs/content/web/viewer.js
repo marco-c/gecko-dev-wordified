@@ -2662,9 +2662,6 @@ l10nArgs
 ;
 }
 catch
-(
-e
-)
 {
 console
 .
@@ -6490,9 +6487,6 @@ url
 ;
 }
 catch
-(
-ex
-)
 {
 title
 =
@@ -7386,9 +7380,6 @@ options
 ;
 }
 catch
-(
-reason
-)
 {
 await
 this
@@ -23723,9 +23714,6 @@ toString
 }
 }
 catch
-(
-ex
-)
 {
 }
 if
@@ -28472,9 +28460,6 @@ tagName
 ;
 }
 catch
-(
-e
-)
 {
 return
 ;
@@ -42764,9 +42749,6 @@ destRef
 ;
 }
 catch
-(
-ex
-)
 {
 }
 }
@@ -43290,9 +43272,6 @@ true
 ;
 }
 catch
-(
-reason
-)
 {
 this
 .
@@ -47515,9 +47494,6 @@ destroySandbox
 ;
 }
 catch
-(
-ex
-)
 {
 }
 for
@@ -53525,7 +53501,7 @@ viewerVersion
 .
 8
 .
-58
+83
 '
 ;
 if
@@ -79609,14 +79585,14 @@ pdfjsVersion
 .
 8
 .
-58
+83
 '
 ;
 const
 pdfjsBuild
 =
 '
-9af50dc35
+46b8f9e2f
 '
 ;
 const

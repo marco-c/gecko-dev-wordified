@@ -1112,6 +1112,16 @@ waitForTick
 (
 )
 ;
+/
+/
+The
+PDF
+already
+has
+a
+text
+annotation
+.
 Assert
 .
 equal
@@ -1125,7 +1135,7 @@ browser
 freeTextEditor
 "
 )
-1
+2
 )
 ;
 /
@@ -1265,7 +1275,7 @@ freeTextEditor
 !
 =
 =
-1
+2
 )
 ;
 Assert
@@ -1281,7 +1291,7 @@ browser
 freeTextEditor
 "
 )
-0
+1
 "
 The
 FreeText
@@ -1326,6 +1336,13 @@ pdfjs
 -
 redo
 "
+"
+context
+-
+pdfjs
+-
+selectall
+"
 ]
 )
 ;
@@ -1367,7 +1384,7 @@ freeTextEditor
 !
 =
 =
-0
+1
 )
 ;
 Assert
@@ -1383,7 +1400,7 @@ browser
 freeTextEditor
 "
 )
-1
+2
 "
 The
 FreeText
@@ -1498,7 +1515,7 @@ freeTextEditor
 !
 =
 =
-1
+2
 )
 ;
 Assert
@@ -1514,7 +1531,7 @@ browser
 freeTextEditor
 "
 )
-0
+1
 "
 The
 FreeText
@@ -1552,6 +1569,13 @@ context
 pdfjs
 -
 paste
+"
+"
+context
+-
+pdfjs
+-
+selectall
 "
 ]
 )
@@ -1594,7 +1618,7 @@ freeTextEditor
 !
 =
 =
-0
+1
 )
 ;
 Assert
@@ -1610,7 +1634,7 @@ browser
 freeTextEditor
 "
 )
-1
+2
 "
 The
 FreeText
@@ -1731,7 +1755,7 @@ freeTextEditor
 !
 =
 =
-1
+2
 )
 ;
 Assert
@@ -1747,7 +1771,7 @@ browser
 freeTextEditor
 "
 )
-0
+1
 "
 The
 FreeText
@@ -1806,7 +1830,7 @@ freeTextEditor
 !
 =
 =
-0
+1
 )
 ;
 Assert
@@ -1822,7 +1846,7 @@ browser
 freeTextEditor
 "
 )
-1
+2
 "
 The
 FreeText
@@ -1920,7 +1944,7 @@ freeTextEditor
 !
 =
 =
-1
+2
 )
 ;
 Assert
@@ -1936,7 +1960,7 @@ browser
 freeTextEditor
 "
 )
-2
+3
 "
 The
 FreeText
@@ -2018,7 +2042,7 @@ freeTextEditor
 !
 =
 =
-2
+3
 )
 ;
 Assert
