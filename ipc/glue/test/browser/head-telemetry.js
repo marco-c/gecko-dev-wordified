@@ -461,6 +461,9 @@ false
 expectRDD
 =
 false
+expectError
+=
+false
 }
 )
 {
@@ -484,6 +487,11 @@ expectRDD
 =
 {
 expectRDD
+}
+expectError
+=
+{
+expectError
 }
 )
 ;
@@ -639,6 +647,8 @@ expectUtility
 &
 !
 expectRDD
+false
+expectError
 )
 ;
 info
