@@ -743,6 +743,36 @@ example
     
 )
     
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+output
+-
+path
+"
+        
+required
+=
+True
+        
+help
+=
+"
+path
+name
+of
+file
+to
+write
+"
+    
+)
+    
 args
 =
 parser
@@ -751,11 +781,28 @@ parse_args
 (
 )
     
-print
+with
+open
 (
+args
+.
+output_path
+"
+w
+"
+)
+as
+ofile
+:
         
+ofile
+.
+write
+(
+            
 build_default_config_env
 (
+                
 args
 .
 bug_number
@@ -765,11 +812,7 @@ milestone
 args
 .
 release_target
+            
 )
         
-end
-=
-"
-"
-    
 )
