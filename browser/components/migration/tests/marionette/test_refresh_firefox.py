@@ -1933,26 +1933,16 @@ loginCount
 =
 self
 .
-runAsyncCode
+marionette
+.
+execute_script
 (
             
 "
 "
 "
           
-let
-resolve
-=
-arguments
-[
-arguments
-.
-length
--
-1
-]
-;
-          
+return
 Services
 .
 logins
@@ -1961,18 +1951,7 @@ getAllLogins
 (
 )
 .
-then
-(
-logins
-=
->
-resolve
-(
-logins
-.
 length
-)
-)
 ;
         
 "

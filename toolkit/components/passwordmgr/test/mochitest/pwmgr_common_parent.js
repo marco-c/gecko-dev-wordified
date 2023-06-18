@@ -309,7 +309,6 @@ logins
 var
 logins
 =
-await
 pwmgr
 .
 getAllLogins
@@ -490,7 +489,6 @@ sanity
 check
 logins
 =
-await
 pwmgr
 .
 getAllLogins
@@ -574,7 +572,6 @@ registerRunTests
 )
 ;
 }
-async
 function
 dumpLogins
 (
@@ -583,7 +580,6 @@ dumpLogins
 let
 logins
 =
-await
 Services
 .
 logins
@@ -1266,7 +1262,6 @@ addMessageListener
 "
 proxyLoginManager
 "
-async
 msg
 =
 >
@@ -1327,7 +1322,6 @@ arg
 let
 rv
 =
-await
 Services
 .
 logins

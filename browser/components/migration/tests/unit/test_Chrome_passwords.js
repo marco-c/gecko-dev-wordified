@@ -1447,7 +1447,6 @@ exists
 let
 logins
 =
-await
 Services
 .
 logins
@@ -1494,7 +1493,6 @@ true
 ;
 logins
 =
-await
 Services
 .
 logins
@@ -1651,7 +1649,6 @@ removeAllUserFacingLogins
 let
 logins
 =
-await
 Services
 .
 logins
@@ -1751,7 +1748,6 @@ i
 }
 logins
 =
-await
 Services
 .
 logins
@@ -1835,7 +1831,6 @@ true
 ;
 logins
 =
-await
 Services
 .
 logins

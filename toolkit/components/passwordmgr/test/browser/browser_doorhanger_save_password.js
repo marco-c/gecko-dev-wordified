@@ -815,7 +815,6 @@ the
 expected
 values
 .
-await
 verifyLogins
 (
 expectOutcome
