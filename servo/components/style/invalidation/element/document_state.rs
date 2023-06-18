@@ -166,6 +166,7 @@ matching
 :
 :
 {
+IgnoreNthChildForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -395,6 +396,10 @@ VisitedHandlingMode
 AllLinksVisitedAndUnvisited
 quirks_mode
 NeedsSelectorFlags
+:
+:
+No
+IgnoreNthChildForInvalidation
 :
 :
 No

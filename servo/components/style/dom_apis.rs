@@ -188,6 +188,7 @@ matching
 :
 {
 self
+IgnoreNthChildForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -307,6 +308,10 @@ mut
 nth_index_cache
 quirks_mode
 NeedsSelectorFlags
+:
+:
+No
+IgnoreNthChildForInvalidation
 :
 :
 No
@@ -447,6 +452,10 @@ mut
 nth_index_cache
 quirks_mode
 NeedsSelectorFlags
+:
+:
+No
+IgnoreNthChildForInvalidation
 :
 :
 No
@@ -4273,6 +4282,10 @@ mut
 nth_index_cache
 quirks_mode
 NeedsSelectorFlags
+:
+:
+No
+IgnoreNthChildForInvalidation
 :
 :
 No

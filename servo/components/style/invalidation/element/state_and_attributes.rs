@@ -252,6 +252,7 @@ matching
 :
 {
 matches_selector
+IgnoreNthChildForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -570,6 +571,10 @@ NeedsSelectorFlags
 :
 :
 No
+IgnoreNthChildForInvalidation
+:
+:
+Yes
 )
 ;
 Self
