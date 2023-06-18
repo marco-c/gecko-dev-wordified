@@ -8476,7 +8476,7 @@ uint32_t
 SimdOp
 :
 :
-F32x4RelaxedFma
+F32x4RelaxedMadd
 )
 :
 case
@@ -8485,7 +8485,7 @@ uint32_t
 SimdOp
 :
 :
-F32x4RelaxedFnma
+F32x4RelaxedNmadd
 )
 :
 case
@@ -8494,7 +8494,7 @@ uint32_t
 SimdOp
 :
 :
-F64x2RelaxedFma
+F64x2RelaxedMadd
 )
 :
 case
@@ -8503,7 +8503,7 @@ uint32_t
 SimdOp
 :
 :
-F64x2RelaxedFnma
+F64x2RelaxedNmadd
 )
 :
 case

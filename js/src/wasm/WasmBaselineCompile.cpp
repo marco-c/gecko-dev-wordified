@@ -52650,7 +52650,7 @@ ifdef
 ENABLE_WASM_RELAXED_SIMD
 static
 void
-RelaxedFmaF32x4
+RelaxedMaddF32x4
 (
 MacroAssembler
 &
@@ -52675,7 +52675,7 @@ rsd
 }
 static
 void
-RelaxedFnmaF32x4
+RelaxedNmaddF32x4
 (
 MacroAssembler
 &
@@ -52700,7 +52700,7 @@ rsd
 }
 static
 void
-RelaxedFmaF64x2
+RelaxedMaddF64x2
 (
 MacroAssembler
 &
@@ -52725,7 +52725,7 @@ rsd
 }
 static
 void
-RelaxedFnmaF64x2
+RelaxedNmaddF64x2
 (
 MacroAssembler
 &
@@ -65940,7 +65940,7 @@ uint32_t
 SimdOp
 :
 :
-F32x4RelaxedFma
+F32x4RelaxedMadd
 )
 :
 if
@@ -65967,7 +65967,7 @@ CHECK_NEXT
 (
 dispatchTernary2
 (
-RelaxedFmaF32x4
+RelaxedMaddF32x4
 ValType
 :
 :
@@ -65981,7 +65981,7 @@ uint32_t
 SimdOp
 :
 :
-F32x4RelaxedFnma
+F32x4RelaxedNmadd
 )
 :
 if
@@ -66008,7 +66008,7 @@ CHECK_NEXT
 (
 dispatchTernary2
 (
-RelaxedFnmaF32x4
+RelaxedNmaddF32x4
 ValType
 :
 :
@@ -66022,7 +66022,7 @@ uint32_t
 SimdOp
 :
 :
-F64x2RelaxedFma
+F64x2RelaxedMadd
 )
 :
 if
@@ -66049,7 +66049,7 @@ CHECK_NEXT
 (
 dispatchTernary2
 (
-RelaxedFmaF64x2
+RelaxedMaddF64x2
 ValType
 :
 :
@@ -66063,7 +66063,7 @@ uint32_t
 SimdOp
 :
 :
-F64x2RelaxedFnma
+F64x2RelaxedNmadd
 )
 :
 if
@@ -66090,7 +66090,7 @@ CHECK_NEXT
 (
 dispatchTernary2
 (
-RelaxedFnmaF64x2
+RelaxedNmaddF64x2
 ValType
 :
 :
