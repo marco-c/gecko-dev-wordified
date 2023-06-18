@@ -809,22 +809,7 @@ ShutdownFixture
 )
 ;
 }
-static
-ContentType
-sContentType
-;
 }
-;
-ContentType
-TestFileSystemDatabaseManagerVersion001
-:
-:
-sContentType
-=
-"
-psid
-"
-_ns
 ;
 TEST_F
 (
@@ -1567,7 +1552,6 @@ dm
 GetOrCreateFile
 (
 firstChildMeta
-sContentType
 /
 *
 create
@@ -1602,7 +1586,6 @@ dm
 GetOrCreateFile
 (
 firstChildMeta
-sContentType
 /
 *
 create
@@ -1631,7 +1614,6 @@ dm
 GetOrCreateFile
 (
 firstChildMeta
-sContentType
 /
 *
 create
@@ -1785,12 +1767,6 @@ ASSERT_NSEQ
 (
 NS_OK
 rv
-)
-;
-ASSERT_STREQ
-(
-sContentType
-type
 )
 ;
 const
@@ -1966,7 +1942,6 @@ dm
 GetOrCreateFile
 (
 notAChildMeta
-sContentType
 /
 *
 create
@@ -2161,7 +2136,6 @@ dm
 GetOrCreateFile
 (
 thirdChildMeta
-sContentType
 /
 *
 create
@@ -2328,7 +2302,6 @@ dm
 GetOrCreateFile
 (
 thirdChildMeta
-sContentType
 /
 *
 create
@@ -3377,7 +3350,6 @@ dm
 GetOrCreateFile
 (
 testFileMeta
-sContentType
 /
 *
 create
@@ -3966,7 +3938,6 @@ dm
 GetOrCreateFile
 (
 testFileMeta
-sContentType
 /
 *
 create
@@ -4248,7 +4219,6 @@ dm
 GetOrCreateFile
 (
 testFileMeta
-sContentType
 /
 *
 create
@@ -4440,7 +4410,6 @@ dm
 GetOrCreateFile
 (
 oldLocation
-sContentType
 /
 *
 create
@@ -4714,7 +4683,6 @@ dm
 GetOrCreateFile
 (
 oldLocation
-sContentType
 /
 *
 create
@@ -4944,7 +4912,6 @@ dm
 GetOrCreateFile
 (
 oldLocation
-sContentType
 /
 *
 create
@@ -4995,7 +4962,6 @@ dm
 GetOrCreateFile
 (
 newFileMeta
-sContentType
 /
 *
 create
@@ -5195,7 +5161,6 @@ dm
 GetOrCreateFile
 (
 newFileMeta
-sContentType
 /
 *
 create
@@ -5890,7 +5855,6 @@ childName
 (
 )
 }
-sContentType
 /
 *
 create
@@ -5922,7 +5886,6 @@ childName
 (
 )
 }
-sContentType
 /
 *
 create
@@ -6016,7 +5979,6 @@ childName
 (
 )
 }
-sContentType
 /
 *
 create
@@ -6079,7 +6041,6 @@ childName
 (
 )
 }
-sContentType
 /
 *
 create
