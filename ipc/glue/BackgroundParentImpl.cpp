@@ -8324,12 +8324,10 @@ BackgroundParentImpl
 :
 AllocPLockManagerParent
 (
-NotNull
-<
-nsIPrincipal
-*
->
-aPrincipal
+const
+ContentPrincipalInfo
+&
+aPrincipalInfo
 const
 nsID
 &
@@ -8351,7 +8349,7 @@ locks
 LockManagerParent
 >
 (
-aPrincipal
+aPrincipalInfo
 aClientId
 )
 ;
