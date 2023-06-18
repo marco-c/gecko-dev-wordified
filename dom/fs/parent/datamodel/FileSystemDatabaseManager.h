@@ -560,6 +560,10 @@ const
 FileSystemChildMetadata
 &
 aHandle
+const
+ContentType
+&
+aType
 bool
 aCreate
 )
