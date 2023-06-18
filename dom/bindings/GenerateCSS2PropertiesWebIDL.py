@@ -140,7 +140,7 @@ dataFile
 )
 :
     
-propList
+propsData
 =
 runpy
 .
@@ -162,7 +162,11 @@ props
 for
 p
 in
-propList
+propsData
+.
+values
+(
+)
 :
         
 if

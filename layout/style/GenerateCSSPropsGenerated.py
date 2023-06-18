@@ -277,6 +277,10 @@ in
 enumerate
 (
 raw_properties
+.
+values
+(
+)
 )
         
 if
@@ -560,6 +564,10 @@ for
 p
 in
 raw_properties
+.
+values
+(
+)
 :
         
 if

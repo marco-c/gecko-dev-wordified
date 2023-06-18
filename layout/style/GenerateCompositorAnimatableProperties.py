@@ -146,6 +146,10 @@ filter
 (
 can_animate_on_compositor
 properties
+.
+values
+(
+)
 )
     
 count
