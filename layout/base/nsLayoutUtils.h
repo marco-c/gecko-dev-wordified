@@ -21582,6 +21582,16 @@ StyleGeometryBox
 )
 ;
 static
+StyleGeometryBox
+CoordBoxToGeometryBox
+(
+mozilla
+:
+:
+StyleCoordBox
+)
+;
+static
 nsRect
 ComputeGeometryBox
 (
