@@ -4427,7 +4427,10 @@ aOriginMetadata
 {
 QM_TRY_UNWRAP
 (
+UniquePtr
+<
 FileSystemFileManager
+>
 fileManager
 data
 :
@@ -4448,6 +4451,7 @@ ok
 ScanTrackedFiles
 (
 aConnection
+*
 fileManager
 )
 )
@@ -4474,6 +4478,7 @@ ok
 ScanTrackedFiles
 (
 aConnection
+*
 fileManager
 )
 )
