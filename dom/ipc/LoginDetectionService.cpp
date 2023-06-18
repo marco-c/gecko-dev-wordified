@@ -616,7 +616,7 @@ Unused
 loginManager
 -
 >
-GetAllLoginsWithCallbackAsync
+GetAllLoginsWithCallback
 (
 this
 )

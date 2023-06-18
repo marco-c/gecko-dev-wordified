@@ -1640,6 +1640,7 @@ for
 let
 login
 of
+await
 Services
 .
 logins

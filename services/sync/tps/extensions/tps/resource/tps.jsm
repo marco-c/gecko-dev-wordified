@@ -3376,6 +3376,7 @@ catch
 e
 )
 {
+await
 lazy
 .
 DumpPasswords

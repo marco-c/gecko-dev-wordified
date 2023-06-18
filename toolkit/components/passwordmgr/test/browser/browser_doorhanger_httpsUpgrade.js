@@ -170,6 +170,7 @@ exists
 let
 logins
 =
+await
 Services
 .
 logins
@@ -294,6 +295,7 @@ is
 HTTP
 logins
 =
+await
 Services
 .
 logins
@@ -477,6 +479,7 @@ exists
 let
 logins
 =
+await
 Services
 .
 logins
@@ -638,6 +641,7 @@ saved
 login
 is
 HTTP
+await
 checkOnlyLoginWasUsedTwice
 (
 {
@@ -649,6 +653,7 @@ true
 ;
 logins
 =
+await
 Services
 .
 logins
@@ -861,6 +866,7 @@ login1HTTPS
 let
 logins
 =
+await
 Services
 .
 logins
@@ -1015,6 +1021,7 @@ com
 ;
 logins
 =
+await
 Services
 .
 logins
@@ -1395,12 +1402,15 @@ Assert
 .
 equal
 (
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -1438,6 +1448,7 @@ REMEMBER_BUTTON
 let
 logins
 =
+await
 Services
 .
 logins
@@ -1647,6 +1658,7 @@ popup
 ;
 logins
 =
+await
 Services
 .
 logins
