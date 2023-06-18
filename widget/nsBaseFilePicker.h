@@ -405,6 +405,16 @@ _retval
 =
 0
 ;
+virtual
+nsresult
+ResolveSpecialDirectory
+(
+const
+nsAString
+&
+aSpecialDirectory
+)
+;
 bool
 mAddToRecentDocs
 ;
