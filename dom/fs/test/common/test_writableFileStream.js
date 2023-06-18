@@ -326,7 +326,7 @@ shrinkedStorageSizeKB
 const
 defaultDatabaseSize
 =
-294912
+458752
 ;
 /
 /
