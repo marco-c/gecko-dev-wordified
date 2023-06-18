@@ -2150,6 +2150,14 @@ GPUTextureUsage_Binding
 :
 COPY_SRC
 ;
+desc
+.
+mViewFormats
+=
+aDesc
+.
+mViewFormats
+;
 return
 CreateTexture
 (
