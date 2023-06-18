@@ -100,11 +100,6 @@ CoseTest
 cpp
 "
 "
-DataStorageTest
-.
-cpp
-"
-"
 DeserializeCertTest
 .
 cpp
