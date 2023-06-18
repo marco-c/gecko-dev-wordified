@@ -3654,6 +3654,9 @@ nsIEventTarget
 >
 launcherThread
 (
+ipc
+:
+:
 GetIPCLauncher
 (
 )
