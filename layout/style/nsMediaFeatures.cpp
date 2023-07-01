@@ -536,7 +536,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSDeviceSize
 )
 )
 {
@@ -1126,7 +1126,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSColorInfo
 )
 )
 {
@@ -1233,7 +1233,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSColorInfo
 )
 )
 {
@@ -1418,7 +1418,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSResolution
 )
 )
 {
@@ -1969,7 +1969,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSPrefersReducedTransparency
 )
 )
 {
@@ -2278,7 +2278,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSInvertedColors
 )
 )
 {
@@ -2424,7 +2424,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSVideoDynamicRange
 )
 )
 {
@@ -2720,7 +2720,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+CSSPointerCapabilities
 )
 )
 {
