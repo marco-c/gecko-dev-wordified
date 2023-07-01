@@ -1588,6 +1588,9 @@ TrustedScrollSettingsDriver
 (
 )
 ;
+#
+ifndef
+EARLY_BETA_OR_EARLIER
 /
 /
 Returns
@@ -1640,6 +1643,8 @@ IsOverridingSystemScrollSpeedAllowed
 (
 )
 ;
+#
+endif
 int32_t
 GetScrollAmount
 (
@@ -1744,6 +1749,9 @@ return
 3
 ;
 }
+#
+ifndef
+EARLY_BETA_OR_EARLIER
 static
 int32_t
 DefaultScrollChars
@@ -1754,6 +1762,8 @@ return
 3
 ;
 }
+#
+endif
 private
 :
 bool

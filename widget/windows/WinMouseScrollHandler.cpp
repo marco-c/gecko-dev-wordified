@@ -5615,6 +5615,9 @@ mAllowToOverrideSystemScrollSpeed
 =
 false
 ;
+#
+ifndef
+EARLY_BETA_OR_EARLIER
 }
 else
 if
@@ -5799,6 +5802,8 @@ false
 ;
 }
 }
+#
+endif
 }
 MOZ_LOG
 (
@@ -7081,6 +7086,9 @@ drivers
 .
 .
 }
+#
+ifndef
+EARLY_BETA_OR_EARLIER
 bool
 MouseScrollHandler
 :
@@ -7109,6 +7117,8 @@ DefaultScrollChars
 )
 ;
 }
+#
+endif
 /
 *
 *
