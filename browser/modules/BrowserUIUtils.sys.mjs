@@ -1484,6 +1484,16 @@ other
 windows
 .
 *
+returns
+{
+ChromeWindow
+}
+A
+new
+browser
+window
+.
+*
 /
 async
 openNewBrowserWindow
