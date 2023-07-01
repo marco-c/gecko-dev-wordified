@@ -1391,6 +1391,10 @@ attr
 :
 CaseSensitivity
 {
+#
+[
+inline
+]
 fn
 eq_atom
 (
