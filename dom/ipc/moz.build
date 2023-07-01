@@ -835,11 +835,6 @@ IPDL_SOURCES
 =
 [
 "
-CustomElementTypes
-.
-ipdlh
-"
-"
 DOMTypes
 .
 ipdlh
