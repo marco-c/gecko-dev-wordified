@@ -5690,8 +5690,6 @@ JS_NULL_OBJECT_OPS
 type
 }
               
-false
-              
 {
 prototypeID
 }
@@ -5703,8 +5701,6 @@ depth
 {
 hooks
 }
-              
-nullptr
               
 {
 protoGetter
@@ -6504,19 +6500,21 @@ fill
             
 static
 const
-DOMIfaceAndProtoJSClass
+DOMIfaceJSClass
 sInterfaceObjectClass
 =
 {
               
 {
                 
+{
+                  
 "
 {
 classString
 }
 "
-                
+                  
 JSCLASS_IS_DOMIFACEANDPROTOJSCLASS
 |
 JSCLASS_HAS_RESERVED_SLOTS
@@ -6525,23 +6523,41 @@ JSCLASS_HAS_RESERVED_SLOTS
 slotCount
 }
 )
-                
+                  
 {
 classOpsPtr
 }
-                
+                  
 JS_NULL_CLASS_SPEC
-                
+                  
 JS_NULL_CLASS_EXT
-                
+                  
 {
 objectOps
 }
-              
+                
 }
-              
+                
 {
 type
+}
+                
+{
+prototypeID
+}
+                
+{
+depth
+}
+                
+{
+hooks
+}
+                
+{
+protoGetter
+}
+              
 }
               
 {
@@ -6549,23 +6565,7 @@ needsHasInstance
 }
               
 {
-prototypeID
-}
-              
-{
-depth
-}
-              
-{
-hooks
-}
-              
-{
 funToString
-}
-              
-{
-protoGetter
 }
             
 }
@@ -6622,6 +6622,18 @@ else
 eInterface
 "
             
+prototypeID
+=
+prototypeID
+            
+depth
+=
+depth
+            
+protoGetter
+=
+protoGetter
+            
 needsHasInstance
 =
 toStringBool
@@ -6629,21 +6641,9 @@ toStringBool
 needsHasInstance
 )
             
-prototypeID
-=
-prototypeID
-            
-depth
-=
-depth
-            
 funToString
 =
 funToString
-            
-protoGetter
-=
-protoGetter
         
 )
         
@@ -24274,8 +24274,6 @@ protoClass
 "
 &
 sPrototypeClass
-.
-mBase
 "
             
 protoCache
@@ -24355,8 +24353,6 @@ interfaceClass
 "
 &
 sInterfaceObjectClass
-.
-mBase
 "
             
 interfaceCache
