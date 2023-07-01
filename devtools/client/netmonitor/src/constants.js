@@ -1142,6 +1142,9 @@ stacktrace
 isThirdPartyTrackingResource
 "
 "
+isResolvedByTRR
+"
+"
 referrerPolicy
 "
 "
