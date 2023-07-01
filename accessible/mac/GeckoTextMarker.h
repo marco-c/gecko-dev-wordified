@@ -662,7 +662,16 @@ Accessible
 *
 aContainer
 )
+{
+return
+mRange
+.
+Crop
+(
+aContainer
+)
 ;
+}
 TextLeafRange
 mRange
 ;
