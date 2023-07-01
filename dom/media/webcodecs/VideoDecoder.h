@@ -390,11 +390,11 @@ IsConfigSupported
 const
 GlobalObject
 &
-global
+aGlobal
 const
 VideoDecoderConfig
 &
-config
+aConfig
 ErrorResult
 &
 aRv
