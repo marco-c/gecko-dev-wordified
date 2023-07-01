@@ -2166,7 +2166,10 @@ errorString
 %
 08x
 "
+uint32_t
+(
 aRv
+)
 )
 ;
 result

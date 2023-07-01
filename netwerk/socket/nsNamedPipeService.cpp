@@ -978,7 +978,10 @@ failed
 08x
 )
 "
+uint32_t
+(
 rv
+)
 )
 ;
 mObservers

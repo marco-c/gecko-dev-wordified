@@ -525,7 +525,10 @@ GetStaticErrorName
 (
 res
 )
+uint32_t
+(
 res
+)
 )
 )
 ;

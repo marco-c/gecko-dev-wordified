@@ -1860,7 +1860,10 @@ nsresult
 %
 08X
 "
+uint32_t
+(
 aRv
+)
 )
 ;
 }

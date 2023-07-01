@@ -1386,7 +1386,10 @@ rv
 %
 d
 "
+uint32_t
+(
 rv
+)
 )
 ;
 return
@@ -1431,7 +1434,10 @@ rv
 %
 d
 "
+uint32_t
+(
 rv
+)
 )
 ;
 return

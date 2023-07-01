@@ -691,9 +691,12 @@ error
 %
 x
 "
+uint32_t
+(
 nsresult
 (
 mState
+)
 )
 )
 ;
@@ -1007,7 +1010,10 @@ error
 %
 x
 "
+uint32_t
+(
 rv
+)
 )
 ;
 mState
@@ -1132,9 +1138,12 @@ error
 %
 x
 "
+uint32_t
+(
 nsresult
 (
 mState
+)
 )
 )
 ;
