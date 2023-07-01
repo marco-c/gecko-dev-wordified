@@ -977,9 +977,6 @@ this
 )
 )
 ;
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 /
 /
 See
@@ -999,13 +996,16 @@ the
 main
 thread
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 if
 (
 mDoDiagnosticAssertWhenOnStopNotCalledOnDestroy
