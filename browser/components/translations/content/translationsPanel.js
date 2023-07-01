@@ -4193,8 +4193,6 @@ neverTranslateSiteMenuItems
 =
 panel
 .
-ownerDocument
-.
 querySelectorAll
 (
 "
@@ -4314,8 +4312,6 @@ alwaysTranslateMenuItems
 =
 panel
 .
-ownerDocument
-.
 querySelectorAll
 (
 "
@@ -4334,8 +4330,6 @@ const
 neverTranslateMenuItems
 =
 panel
-.
-ownerDocument
 .
 querySelectorAll
 (
@@ -5447,17 +5441,9 @@ popup
 =
 button
 .
-ownerDocument
-.
-getElementById
+querySelector
 (
 "
-translations
--
-panel
--
-settings
--
 menupopup
 "
 )
@@ -5467,9 +5453,6 @@ popup
 openPopup
 (
 button
-"
-after_end
-"
 )
 ;
 }
