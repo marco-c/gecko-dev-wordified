@@ -655,12 +655,6 @@ peer_pid
 )
 override
 ;
-void
-OnChannelError
-(
-)
-override
-;
 #
 if
 defined

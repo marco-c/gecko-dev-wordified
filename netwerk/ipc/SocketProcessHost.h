@@ -511,12 +511,6 @@ peer_pid
 )
 override
 ;
-void
-OnChannelError
-(
-)
-override
-;
 #
 if
 defined
@@ -568,11 +562,6 @@ thread
 .
 void
 OnChannelConnectedTask
-(
-)
-;
-void
-OnChannelErrorTask
 (
 )
 ;

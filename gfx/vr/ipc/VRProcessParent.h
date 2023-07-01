@@ -383,12 +383,6 @@ true
 ;
 }
 void
-OnChannelError
-(
-)
-override
-;
-void
 OnChannelConnected
 (
 base
