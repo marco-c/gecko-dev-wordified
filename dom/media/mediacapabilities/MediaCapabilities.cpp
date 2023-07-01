@@ -2286,7 +2286,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+MediaCapabilities
 )
 ;
 /

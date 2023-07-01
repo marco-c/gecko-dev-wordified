@@ -518,6 +518,14 @@ MediaDevices
 <
 36
 )
+ITEM_VALUE
+(
+MediaCapabilities
+1llu
+<
+<
+37
+)
 /
 /
 !
