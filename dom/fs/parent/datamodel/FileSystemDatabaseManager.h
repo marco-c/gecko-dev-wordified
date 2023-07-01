@@ -592,6 +592,12 @@ const
 EntryId
 &
 aEntryId
+const
+FileId
+&
+aFileId
+bool
+aAsCopy
 ContentType
 &
 aType

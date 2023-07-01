@@ -1188,6 +1188,13 @@ MutableDatabaseManagerPtr
 GetFile
 (
 mEntryId
+fileId
+/
+*
+asCopy
+*
+/
+false
 type
 lastModifiedMilliSeconds
 path

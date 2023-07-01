@@ -993,6 +993,13 @@ aDatabaseManager
 GetFile
 (
 aEntryId
+fileId
+/
+*
+asCopy
+*
+/
+false
 type
 lastModMilliS
 path
