@@ -918,12 +918,6 @@ return
 window
 ;
 }
-#
-if
-defined
-(
-MOZ_WAYLAND
-)
 void
 GtkCompositorWidget
 :
@@ -936,6 +930,12 @@ LayoutDeviceIntSize
 aEGLWindowSize
 )
 {
+#
+if
+defined
+(
+MOZ_WAYLAND
+)
 if
 (
 mWidget
@@ -950,9 +950,9 @@ aEGLWindowSize
 )
 ;
 }
-}
 #
 endif
+}
 LayoutDeviceIntRegion
 GtkCompositorWidget
 :
