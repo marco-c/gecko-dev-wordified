@@ -329,7 +329,7 @@ CPU_ARCH
 '
 ]
 .
-startsWith
+startswith
 (
 '
 mips
