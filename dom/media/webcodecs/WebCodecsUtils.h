@@ -314,7 +314,7 @@ aBuffer
 ;
 Result
 <
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+Ok
 nsresult
 >
 CloneBuffer
@@ -322,10 +322,13 @@ CloneBuffer
 JSContext
 *
 aCx
+OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+&
+aDest
 const
 OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
-aBuffer
+aSrc
 )
 ;
 /
