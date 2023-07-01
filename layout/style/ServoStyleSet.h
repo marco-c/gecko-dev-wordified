@@ -316,9 +316,6 @@ struct
 StyleTimingFunction
 ;
 struct
-StylePagePseudoClassFlags
-;
-struct
 StylePiecewiseLinearFunction
 ;
 using
@@ -1704,14 +1701,7 @@ or
 the
 empty
 atom
-and
-has
-no
-pseudo
-classes
 gets
-/
-/
 the
 global
 page
@@ -1727,10 +1717,6 @@ const
 nsAtom
 *
 aPageName
-const
-StylePagePseudoClassFlags
-&
-aPseudo
 )
 ;
 already_AddRefed
