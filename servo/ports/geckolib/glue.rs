@@ -1295,6 +1295,7 @@ ContainerRule
 CounterStyleRule
 CssRule
 CssRuleType
+CssRuleTypes
 CssRules
 CssRulesHelpers
 DocumentRule
@@ -1309,8 +1310,8 @@ MediaRule
 NamespaceRule
 Origin
 OriginSet
-PageRule
 PagePseudoClassFlags
+PageRule
 PropertyRule
 SanitizationData
 SanitizationKind
@@ -12696,9 +12697,9 @@ nsACString
 index
 :
 u32
-nested
+containing_rule_types
 :
-bool
+u32
 loader
 :
 *
@@ -12817,7 +12818,13 @@ contents
 index
 as
 usize
-nested
+CssRuleTypes
+:
+:
+from_bits
+(
+containing_rule_types
+)
 loader
 allow_import_rules
 )
