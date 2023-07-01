@@ -603,6 +603,14 @@ FrameRate
 <
 45
 )
+ITEM_VALUE
+(
+RoundWindowSize
+1llu
+<
+<
+46
+)
 /
 /
 !
