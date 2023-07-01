@@ -2370,18 +2370,6 @@ str
 browser_cycles
 )
             
-"
--
--
-videoParams
-.
-androidVideoWaitTime
-"
-            
-"
-20000
-"
-            
 #
 running
 browsertime
