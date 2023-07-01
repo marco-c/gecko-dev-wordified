@@ -819,7 +819,8 @@ mAudioStream
 /
 /
 The
-presentation
+media
+data
 time
 of
 the
@@ -848,6 +849,7 @@ determine
 the
 current
 audio
+data
 time
 .
 media
