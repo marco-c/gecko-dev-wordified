@@ -119,6 +119,15 @@ h
 #
 include
 "
+LocalAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsEventShell
 .
 h
