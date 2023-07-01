@@ -595,6 +595,14 @@ DeviceSensors
 <
 44
 )
+ITEM_VALUE
+(
+FrameRate
+1llu
+<
+<
+45
+)
 /
 /
 !

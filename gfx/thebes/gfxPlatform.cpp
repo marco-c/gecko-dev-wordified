@@ -21477,7 +21477,7 @@ property
 RFPTarget
 :
 :
-Unknown
+FrameRate
 )
 )
 {
