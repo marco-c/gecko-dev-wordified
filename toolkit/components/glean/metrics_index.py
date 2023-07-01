@@ -917,6 +917,18 @@ yaml
 "
     
 "
+browser
+/
+components
+/
+urlbar
+/
+pings
+.
+yaml
+"
+    
+"
 toolkit
 /
 components
