@@ -613,6 +613,11 @@ void_t
 ok
 )
 ;
+sync
+SyncPing
+(
+)
+;
 async
 TexImage
 (
