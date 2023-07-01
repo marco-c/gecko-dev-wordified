@@ -2213,6 +2213,10 @@ mGbmBufferFlags
 (
 0
 )
+mWlBuffer
+(
+nullptr
+)
 {
 }
 DMABufSurfaceRGBA
@@ -2223,15 +2227,10 @@ DMABufSurfaceRGBA
 (
 )
 {
-#
-ifdef
-MOZ_WAYLAND
 ReleaseWlBuffer
 (
 )
 ;
-#
-endif
 ReleaseSurface
 (
 )
@@ -4660,9 +4659,6 @@ ReleaseDMABuf
 )
 ;
 }
-#
-ifdef
-MOZ_WAYLAND
 bool
 DMABufSurfaceRGBA
 :
@@ -4812,8 +4808,6 @@ wl_buffer_destroy
 )
 ;
 }
-#
-endif
 /
 /
 We

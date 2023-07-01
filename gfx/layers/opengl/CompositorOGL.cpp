@@ -640,7 +640,7 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 #
 include
 "
@@ -4889,7 +4889,7 @@ Size
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 if
 (
 mWidget
@@ -11237,7 +11237,7 @@ ReleaseSurface
 elif
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 )
 /
 /
@@ -11282,7 +11282,7 @@ MOZ_WIDGET_UIKIT
 \
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 )
 if
 (

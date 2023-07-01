@@ -461,7 +461,7 @@ mMappedStride
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 /
 /
 On

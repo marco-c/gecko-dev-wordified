@@ -448,6 +448,8 @@ is
 supported
 on
 Linux
+/
+Wayland
 only
 .
 #
@@ -460,7 +462,7 @@ MOZ_AV1
 &
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 )
 &
 &

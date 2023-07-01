@@ -537,7 +537,7 @@ MacIOSurfaceImage
 ;
 #
 elif
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 class
 DMABUFSurfaceImage
 ;
@@ -1003,7 +1003,7 @@ nullptr
 }
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 virtual
 DMABUFSurfaceImage
 *
