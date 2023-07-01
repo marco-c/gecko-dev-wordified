@@ -1873,7 +1873,7 @@ source
 element
 .
 const
-nsMappedAttributes
+StyleLockedDeclarationBlock
 *
 GetMappedAttributesFromSource
 (
@@ -2704,11 +2704,7 @@ static
 void
 MapAttributesIntoRule
 (
-const
-nsMappedAttributes
-*
-aAttributes
-MappedDeclarations
+MappedDeclarationsBuilder
 &
 )
 ;

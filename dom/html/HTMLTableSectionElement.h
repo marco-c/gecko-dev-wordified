@@ -394,7 +394,6 @@ aError
 )
 ;
 }
-virtual
 bool
 ParseAttribute
 (
@@ -416,7 +415,6 @@ aResult
 )
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -500,11 +498,7 @@ static
 void
 MapAttributesIntoRule
 (
-const
-nsMappedAttributes
-*
-aAttributes
-MappedDeclarations
+MappedDeclarationsBuilder
 &
 )
 ;
