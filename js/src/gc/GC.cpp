@@ -10494,7 +10494,6 @@ unlimited
 )
 ;
 }
-else
 if
 (
 isWorkBudget
@@ -10522,8 +10521,6 @@ workBudget
 )
 ;
 }
-else
-{
 const
 char
 *
@@ -10606,7 +10603,6 @@ timeBudget
 extra
 )
 ;
-}
 }
 bool
 SliceBudget
@@ -20536,7 +20532,6 @@ return
 QueueYielded
 ;
 }
-else
 if
 (
 js

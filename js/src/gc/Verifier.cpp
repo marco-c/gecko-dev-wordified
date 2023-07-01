@@ -1245,8 +1245,6 @@ EdgeValue
 )
 ;
 }
-else
-{
 return
 (
 VerifyNode
@@ -1279,7 +1277,6 @@ count
 )
 )
 ;
-}
 }
 template
 <

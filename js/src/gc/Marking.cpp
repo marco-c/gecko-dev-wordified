@@ -2457,8 +2457,6 @@ isGCMarking
 )
 ;
 }
-else
-{
 /
 /
 Check
@@ -2563,7 +2561,6 @@ isGCMarkingBlackAndGray
 (
 )
 ;
-}
 }
 static
 bool
