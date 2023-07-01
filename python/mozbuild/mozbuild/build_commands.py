@@ -1229,10 +1229,6 @@ _mach_context
 append_env
 =
 append_env
-            
-virtualenv_topobjdir
-=
-orig_topobjdir
         
 )
         
