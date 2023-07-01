@@ -1179,7 +1179,6 @@ origin
 .
 getOriginCoordinates
 (
-state
 null
 null
 )
@@ -1583,7 +1582,6 @@ origin
 .
 getTargetCoordinates
 (
-state
 inputSource
 [
 actionItem
@@ -1727,7 +1725,6 @@ origin
 .
 getTargetCoordinates
 (
-state
 inputSource
 [
 actionItem
