@@ -4215,7 +4215,7 @@ mCachedMotionPath
 MotionPathUtils
 :
 :
-BuildPath
+BuildSVGPath
 (
 offsetPath
 .
