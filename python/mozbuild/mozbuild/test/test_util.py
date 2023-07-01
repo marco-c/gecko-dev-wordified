@@ -6543,6 +6543,11 @@ EnumString
 subclass
 (
 "
+Test
+"
+)
+(
+"
 gcc
 "
 "
