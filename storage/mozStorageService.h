@@ -207,8 +207,8 @@ Collator
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 storage
 {
 class
@@ -1044,10 +1044,12 @@ mLastSensitivity
 /
 /
 namespace
-mozilla
-:
-:
 storage
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
