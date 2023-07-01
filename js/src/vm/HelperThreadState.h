@@ -1824,6 +1824,10 @@ gcParallelWorklist_
 size_t
 getGCParallelThreadCount
 (
+const
+AutoLockHelperThreadState
+&
+lock
 )
 const
 {
@@ -1839,6 +1843,7 @@ count
 const
 AutoLockHelperThreadState
 &
+lock
 )
 {
 MOZ_ASSERT
