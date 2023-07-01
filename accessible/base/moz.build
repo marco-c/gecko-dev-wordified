@@ -276,6 +276,11 @@ nsAccessibilityService
 cpp
 "
 "
+nsAccessiblePivot
+.
+cpp
+"
+"
 nsAccUtils
 .
 cpp

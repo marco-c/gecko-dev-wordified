@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIAccessiblePivot
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y
