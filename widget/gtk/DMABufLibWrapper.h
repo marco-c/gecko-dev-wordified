@@ -1234,6 +1234,9 @@ DisableDMABufWebGL
 (
 )
 ;
+#
+ifdef
+MOZ_WAYLAND
 void
 AddFormatModifier
 (
@@ -1247,6 +1250,8 @@ uint32_t
 mModifierLo
 )
 ;
+#
+endif
 GbmFormat
 *
 GetGbmFormat
@@ -1262,6 +1267,9 @@ Configure
 (
 )
 ;
+#
+ifdef
+MOZ_WAYLAND
 void
 LoadFormatModifiers
 (
@@ -1277,6 +1285,8 @@ GetModifiersFromGfxVars
 (
 )
 ;
+#
+endif
 private
 :
 GbmFormat
