@@ -344,7 +344,7 @@ h
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -642,7 +642,7 @@ break
 }
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 case
 SurfaceDescriptor
 :

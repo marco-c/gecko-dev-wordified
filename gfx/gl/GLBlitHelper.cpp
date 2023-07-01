@@ -351,7 +351,7 @@ h
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -371,6 +371,17 @@ mozilla
 widget
 /
 DMABufSurface
+.
+h
+"
+#
+include
+"
+mozilla
+/
+widget
+/
+DMABufLibWrapper
 .
 h
 "
@@ -5843,7 +5854,7 @@ destOrigin
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 case
 layers
 :
@@ -6243,7 +6254,7 @@ DMABUF
 :
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 return
 BlitImage
 (
@@ -9572,7 +9583,7 @@ type
 {
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 case
 layers
 :
@@ -9863,7 +9874,7 @@ false
 -
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 bool
 GLBlitHelper
 :
