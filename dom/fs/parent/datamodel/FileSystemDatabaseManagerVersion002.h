@@ -247,7 +247,6 @@ FileSystemConnection
 aConnection
 )
 ;
-virtual
 Result
 <
 EntryId
@@ -263,7 +262,6 @@ aHandle
 const
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -279,7 +277,6 @@ aFileId
 const
 override
 ;
-virtual
 Result
 <
 FileId
@@ -294,7 +291,6 @@ aEntryId
 )
 override
 ;
-virtual
 Result
 <
 FileId
@@ -309,7 +305,6 @@ aEntryId
 )
 override
 ;
-virtual
 Result
 <
 FileId
@@ -325,7 +320,6 @@ aEntryId
 const
 override
 ;
-virtual
 nsresult
 MergeFileId
 (
@@ -342,7 +336,6 @@ aAbort
 )
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -361,7 +354,6 @@ aNewDesignation
 )
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -382,7 +374,6 @@ override
 ;
 protected
 :
-virtual
 Result
 <
 Usage
@@ -398,7 +389,6 @@ aEntryId
 const
 override
 ;
-virtual
 Result
 <
 nsTArray
@@ -417,7 +407,6 @@ aEntryId
 const
 override
 ;
-virtual
 Result
 <
 bool
@@ -433,7 +422,6 @@ aFileId
 const
 override
 ;
-virtual
 nsresult
 RemoveFileId
 (

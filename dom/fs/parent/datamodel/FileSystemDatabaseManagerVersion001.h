@@ -430,7 +430,6 @@ FileSystemConnection
 aConnection
 )
 ;
-virtual
 nsresult
 UpdateUsage
 (
@@ -441,7 +440,6 @@ aFileId
 )
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -458,7 +456,6 @@ aCreate
 )
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -475,7 +472,6 @@ aCreate
 )
 override
 ;
-virtual
 nsresult
 GetFile
 (
@@ -510,7 +506,6 @@ aFile
 const
 override
 ;
-virtual
 Result
 <
 FileSystemDirectoryListing
@@ -528,7 +523,6 @@ aPage
 const
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -547,7 +541,6 @@ aNewName
 )
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -566,7 +559,6 @@ aNewDesignation
 )
 override
 ;
-virtual
 Result
 <
 bool
@@ -583,7 +575,6 @@ aRecursive
 )
 override
 ;
-virtual
 Result
 <
 bool
@@ -598,7 +589,6 @@ aHandle
 )
 override
 ;
-virtual
 Result
 <
 Path
@@ -614,7 +604,6 @@ aEndpoints
 const
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -630,7 +619,6 @@ aHandle
 const
 override
 ;
-virtual
 Result
 <
 EntryId
@@ -646,7 +634,6 @@ aFileId
 const
 override
 ;
-virtual
 Result
 <
 FileId
@@ -661,7 +648,6 @@ aEntryId
 )
 override
 ;
-virtual
 Result
 <
 FileId
@@ -676,7 +662,6 @@ aEntryId
 )
 override
 ;
-virtual
 Result
 <
 FileId
@@ -692,7 +677,6 @@ aEntryId
 const
 override
 ;
-virtual
 nsresult
 MergeFileId
 (
@@ -709,14 +693,12 @@ aAbort
 )
 override
 ;
-virtual
 void
 Close
 (
 )
 override
 ;
-virtual
 nsresult
 BeginUsageTracking
 (
@@ -727,7 +709,6 @@ aFileId
 )
 override
 ;
-virtual
 nsresult
 EndUsageTracking
 (
