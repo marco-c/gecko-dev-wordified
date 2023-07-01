@@ -1169,7 +1169,7 @@ aValue
 ;
 }
 return
-escape
+encodeURIComponent
 (
 aName
 )
@@ -1178,7 +1178,7 @@ aName
 =
 "
 +
-escape
+encodeURIComponent
 (
 aValue
 )
