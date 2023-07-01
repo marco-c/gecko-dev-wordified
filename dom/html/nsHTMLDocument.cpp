@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsHTMLStyleSheet
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

@@ -2164,7 +2164,15 @@ GetMappedAttributes
 (
 )
 const
+{
+return
+mAttrs
+.
+GetMapped
+(
+)
 ;
+}
 void
 ClearMappedServoStyle
 (
