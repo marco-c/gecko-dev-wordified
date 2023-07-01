@@ -787,14 +787,6 @@ aFormData
 =
 0
 ;
-virtual
-bool
-AllowDrop
-(
-)
-=
-0
-;
 /
 *
 *

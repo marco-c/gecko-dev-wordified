@@ -580,16 +580,6 @@ aFormData
 )
 override
 ;
-bool
-AllowDrop
-(
-)
-override
-{
-return
-true
-;
-}
 void
 SetFieldSet
 (
