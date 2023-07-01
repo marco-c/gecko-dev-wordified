@@ -1028,7 +1028,7 @@ code
 )
 {
 case
-64768
+1036288
 /
 *
 OperatorCode
@@ -1038,7 +1038,7 @@ v128_load
 /
 :
 case
-64769
+1036289
 /
 *
 OperatorCode
@@ -1048,7 +1048,7 @@ i16x8_load8x8_s
 /
 :
 case
-64770
+1036290
 /
 *
 OperatorCode
@@ -1058,7 +1058,7 @@ i16x8_load8x8_u
 /
 :
 case
-64771
+1036291
 /
 *
 OperatorCode
@@ -1068,7 +1068,7 @@ i32x4_load16x4_s
 /
 :
 case
-64772
+1036292
 /
 *
 OperatorCode
@@ -1078,7 +1078,7 @@ i32x4_load16x4_u
 /
 :
 case
-64773
+1036293
 /
 *
 OperatorCode
@@ -1088,7 +1088,7 @@ i64x2_load32x2_s
 /
 :
 case
-64774
+1036294
 /
 *
 OperatorCode
@@ -1098,7 +1098,7 @@ i64x2_load32x2_u
 /
 :
 case
-64775
+1036295
 /
 *
 OperatorCode
@@ -1108,7 +1108,7 @@ v8x16_load_splat
 /
 :
 case
-64776
+1036296
 /
 *
 OperatorCode
@@ -1118,7 +1118,7 @@ v16x8_load_splat
 /
 :
 case
-64777
+1036297
 /
 *
 OperatorCode
@@ -1128,7 +1128,7 @@ v32x4_load_splat
 /
 :
 case
-64778
+1036298
 /
 *
 OperatorCode
@@ -1138,7 +1138,7 @@ v64x2_load_splat
 /
 :
 case
-64779
+1036299
 /
 *
 OperatorCode
@@ -1294,7 +1294,7 @@ i64_atomic_rmw_cmpxchg
 /
 :
 case
-64861
+1036381
 /
 *
 OperatorCode
@@ -1580,7 +1580,7 @@ i64_atomic_rmw32_cmpxchg_u
 /
 :
 case
-64860
+1036380
 /
 *
 OperatorCode
@@ -7454,7 +7454,7 @@ i64_atomic_rmw32_cmpxchg_u
 /
 :
 case
-64768
+1036288
 /
 *
 OperatorCode
@@ -7464,7 +7464,7 @@ v128_load
 /
 :
 case
-64769
+1036289
 /
 *
 OperatorCode
@@ -7474,7 +7474,7 @@ i16x8_load8x8_s
 /
 :
 case
-64770
+1036290
 /
 *
 OperatorCode
@@ -7484,7 +7484,7 @@ i16x8_load8x8_u
 /
 :
 case
-64771
+1036291
 /
 *
 OperatorCode
@@ -7494,7 +7494,7 @@ i32x4_load16x4_s
 /
 :
 case
-64772
+1036292
 /
 *
 OperatorCode
@@ -7504,7 +7504,7 @@ i32x4_load16x4_u
 /
 :
 case
-64773
+1036293
 /
 *
 OperatorCode
@@ -7514,7 +7514,7 @@ i64x2_load32x2_s
 /
 :
 case
-64774
+1036294
 /
 *
 OperatorCode
@@ -7524,7 +7524,7 @@ i64x2_load32x2_u
 /
 :
 case
-64775
+1036295
 /
 *
 OperatorCode
@@ -7534,7 +7534,7 @@ v8x16_load_splat
 /
 :
 case
-64776
+1036296
 /
 *
 OperatorCode
@@ -7544,7 +7544,7 @@ v16x8_load_splat
 /
 :
 case
-64777
+1036297
 /
 *
 OperatorCode
@@ -7554,7 +7554,7 @@ v32x4_load_splat
 /
 :
 case
-64778
+1036298
 /
 *
 OperatorCode
@@ -7564,7 +7564,7 @@ v64x2_load_splat
 /
 :
 case
-64779
+1036299
 /
 *
 OperatorCode
@@ -7574,7 +7574,7 @@ v128_store
 /
 :
 case
-64860
+1036380
 /
 *
 OperatorCode
@@ -7584,7 +7584,7 @@ v128_load32_zero
 /
 :
 case
-64861
+1036381
 /
 *
 OperatorCode
@@ -7778,7 +7778,7 @@ literal
 break
 ;
 case
-64780
+1036300
 /
 *
 OperatorCode
@@ -7810,7 +7810,7 @@ literal
 break
 ;
 case
-64781
+1036301
 /
 *
 OperatorCode
@@ -7841,7 +7841,7 @@ lines
 break
 ;
 case
-64789
+1036309
 /
 *
 OperatorCode
@@ -7851,7 +7851,7 @@ i8x16_extract_lane_s
 /
 :
 case
-64790
+1036310
 /
 *
 OperatorCode
@@ -7861,7 +7861,7 @@ i8x16_extract_lane_u
 /
 :
 case
-64791
+1036311
 /
 *
 OperatorCode
@@ -7871,7 +7871,7 @@ i8x16_replace_lane
 /
 :
 case
-64792
+1036312
 /
 *
 OperatorCode
@@ -7881,7 +7881,7 @@ i16x8_extract_lane_s
 /
 :
 case
-64793
+1036313
 /
 *
 OperatorCode
@@ -7891,7 +7891,7 @@ i16x8_extract_lane_u
 /
 :
 case
-64794
+1036314
 /
 *
 OperatorCode
@@ -7901,7 +7901,7 @@ i16x8_replace_lane
 /
 :
 case
-64795
+1036315
 /
 *
 OperatorCode
@@ -7911,7 +7911,7 @@ i32x4_extract_lane
 /
 :
 case
-64796
+1036316
 /
 *
 OperatorCode
@@ -7921,7 +7921,7 @@ i32x4_replace_lane
 /
 :
 case
-64799
+1036319
 /
 *
 OperatorCode
@@ -7931,7 +7931,7 @@ f32x4_extract_lane
 /
 :
 case
-64800
+1036320
 /
 *
 OperatorCode
@@ -7941,7 +7941,7 @@ f32x4_replace_lane
 /
 :
 case
-64797
+1036317
 /
 *
 OperatorCode
@@ -7951,7 +7951,7 @@ i64x2_extract_lane
 /
 :
 case
-64798
+1036318
 /
 *
 OperatorCode
@@ -7961,7 +7961,7 @@ i64x2_replace_lane
 /
 :
 case
-64801
+1036321
 /
 *
 OperatorCode
@@ -7971,7 +7971,7 @@ f64x2_extract_lane
 /
 :
 case
-64802
+1036322
 /
 *
 OperatorCode
