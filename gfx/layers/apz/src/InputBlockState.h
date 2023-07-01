@@ -367,7 +367,6 @@ uint8_t
 {
 eUnconfirmed
 eTimedOut
-eTimedOutAndMainThreadResponded
 eConfirmed
 }
 ;
@@ -520,12 +519,6 @@ const
 ;
 bool
 IsTargetConfirmed
-(
-)
-const
-;
-bool
-HasReceivedRealConfirmedTarget
 (
 )
 const
