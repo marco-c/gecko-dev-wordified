@@ -1769,6 +1769,17 @@ nsCString
 aNames
 )
 ;
+static
+bool
+ShouldResistFingerprinting
+(
+GlobalObject
+&
+aGlobal
+JSRFPTarget
+aTarget
+)
+;
 private
 :
 /
