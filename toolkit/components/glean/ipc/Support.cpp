@@ -170,6 +170,17 @@ include
 "
 mozilla
 /
+ipc
+/
+ByteBuf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
