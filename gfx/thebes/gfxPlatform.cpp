@@ -16971,17 +16971,7 @@ means
 WR
 was
 enabled
-via
-gfx
-.
-webrender
-.
-all
-.
-qualified
 on
-/
-/
 qualified
 hardware
 /
