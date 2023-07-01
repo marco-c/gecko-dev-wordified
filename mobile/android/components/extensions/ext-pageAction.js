@@ -765,6 +765,9 @@ event
 "
 onClicked
 "
+inputHandling
+:
+true
 extensionApi
 :
 this
