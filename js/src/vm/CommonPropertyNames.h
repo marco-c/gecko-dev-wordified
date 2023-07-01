@@ -2088,6 +2088,16 @@ GetModuleNamespace
 \
 MACRO_
 (
+getOffsetNanosecondsFor
+getOffsetNanosecondsFor
+\
+"
+getOffsetNanosecondsFor
+"
+)
+\
+MACRO_
+(
 getOwnPropertyDescriptor
 getOwnPropertyDescriptor
 \
