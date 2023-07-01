@@ -5895,6 +5895,28 @@ chrome
 exe
 "
 ]
+                
+mac
+:
+[
+"
+chromium
+"
+"
+Chromium
+.
+app
+"
+"
+Contents
+"
+"
+MacOS
+"
+"
+chromium
+"
+]
             
 }
         
