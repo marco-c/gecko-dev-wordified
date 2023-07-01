@@ -3354,14 +3354,14 @@ implied_option
 .
 caller
 [
-1
+0
 ]
                             
 implied_option
 .
 caller
 [
-2
+1
 ]
                         
 )
@@ -4343,12 +4343,8 @@ not
 None
 :
                 
-_
 filename
 line
-_
-_
-_
 =
 implied
 [
@@ -9201,6 +9197,32 @@ possible_reasons
 0
 ]
         
+frame
+=
+inspect
+.
+currentframe
+(
+)
+        
+line
+=
+frame
+.
+f_back
+.
+f_lineno
+        
+filename
+=
+frame
+.
+f_back
+.
+f_code
+.
+co_filename
+        
 if
 not
 reason
@@ -9245,22 +9267,6 @@ an
 immediate
 value
 .
-            
-_
-filename
-line
-_
-_
-_
-=
-inspect
-.
-stack
-(
-)
-[
-1
-]
             
 reason
 =
@@ -9379,14 +9385,10 @@ value
                 
 caller
 =
-inspect
-.
-stack
 (
+filename
+line
 )
-[
-1
-]
                 
 reason
 =
