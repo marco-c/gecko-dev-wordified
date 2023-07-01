@@ -2871,6 +2871,10 @@ parameters
 from
 signature
                     
+if
+signature
+:
+                        
 pmatch
 =
 re
@@ -2892,11 +2896,11 @@ r
 "
 signature
 )
-                    
+                        
 if
 pmatch
 :
-                        
+                            
 signature
 =
 pmatch
