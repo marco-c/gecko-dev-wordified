@@ -225,6 +225,13 @@ fs
 EntryId
 &
 aEntryId
+const
+fs
+:
+:
+FileId
+&
+aTemporaryFileId
 )
 :
 mManager
@@ -240,6 +247,10 @@ aManager
 mEntryId
 (
 aEntryId
+)
+mTemporaryFileId
+(
+aTemporaryFileId
 )
 {
 }
