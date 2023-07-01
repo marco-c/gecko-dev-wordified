@@ -3297,12 +3297,7 @@ Connection
 :
 :
 SYNCHRONOUS
-"
-:
-memory
-:
-"
-_ns
+kMozStorageMemoryStorageKey
 interruptible
 )
 ;
@@ -3984,11 +3979,9 @@ storageFile
 {
 telemetryFilename
 .
-AssignLiteral
+Assign
 (
-"
-memory
-"
+kMozStorageMemoryStorageKey
 )
 ;
 }
