@@ -452,7 +452,7 @@ let
 src
 =
 "
-http
+https
 :
 /
 /
@@ -589,7 +589,7 @@ url
 src
 =
 "
-http
+https
 :
 /
 /
