@@ -2640,6 +2640,15 @@ isPrototypeOf
 \
 MACRO_
 (
+iso8601
+iso8601
+"
+iso8601
+"
+)
+\
+MACRO_
+(
 isStepStart
 isStepStart
 "
