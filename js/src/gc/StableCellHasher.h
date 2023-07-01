@@ -132,9 +132,6 @@ TypeDecls
 .
 h
 "
-namespace
-js
-{
 /
 /
 StableCellHasher
@@ -151,6 +148,9 @@ RootingAPI
 h
 .
 namespace
+js
+:
+:
 gc
 {
 struct
@@ -358,12 +358,10 @@ uid
 /
 /
 namespace
-gc
-}
-/
-/
-namespace
 js
+:
+:
+gc
 #
 endif
 /

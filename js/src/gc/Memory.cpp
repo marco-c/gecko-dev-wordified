@@ -289,8 +289,8 @@ endif
 XP_WIN
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 /
@@ -6966,9 +6966,7 @@ ReadWrite
 /
 /
 namespace
-gc
-}
-/
-/
-namespace
 js
+:
+:
+gc

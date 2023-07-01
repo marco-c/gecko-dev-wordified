@@ -4422,8 +4422,8 @@ namespace
 JS
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 const
@@ -4445,12 +4445,10 @@ state
 /
 /
 namespace
-gc
-}
-/
-/
-namespace
 js
+:
+:
+gc
 #
 endif
 /

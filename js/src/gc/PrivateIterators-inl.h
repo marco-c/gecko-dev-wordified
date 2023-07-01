@@ -150,8 +150,8 @@ h
 "
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 class
@@ -964,12 +964,10 @@ get
 /
 /
 namespace
-gc
-}
-/
-/
-namespace
 js
+:
+:
+gc
 #
 endif
 /

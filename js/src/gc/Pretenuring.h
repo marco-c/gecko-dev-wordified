@@ -249,8 +249,8 @@ namespace
 JS
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 class
@@ -2205,12 +2205,10 @@ site
 /
 /
 namespace
-gc
-}
-/
-/
-namespace
 js
+:
+:
+gc
 #
 endif
 /

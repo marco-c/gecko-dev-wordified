@@ -1371,8 +1371,8 @@ mover
 }
 namespace
 js
-{
-namespace
+:
+:
 gc
 {
 template
@@ -1458,12 +1458,10 @@ ObjectPtrEdge
 /
 /
 namespace
-gc
-}
-/
-/
-namespace
 js
+:
+:
+gc
 void
 js
 :
