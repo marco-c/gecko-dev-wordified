@@ -568,14 +568,14 @@ aIsBlankDecode
 void
 SetCanonicalDuration
 (
-AbstractCanonical
+Canonical
 <
 media
 :
 :
 NullableTimeUnit
 >
-*
+&
 aCanonical
 )
 ;
