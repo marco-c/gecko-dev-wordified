@@ -1060,7 +1060,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 targetPrin
 targetOrigin
@@ -1077,7 +1077,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 mProvidedPrincipal
 providedOrigin

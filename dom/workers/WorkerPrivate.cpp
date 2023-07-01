@@ -12116,7 +12116,7 @@ mHostname
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 aBaseURI
 mLocationInfo

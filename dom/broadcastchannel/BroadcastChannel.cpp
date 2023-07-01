@@ -1334,7 +1334,7 @@ aRv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 storagePrincipal
 originForEvents

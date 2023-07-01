@@ -703,7 +703,7 @@ rv
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 uri
 s

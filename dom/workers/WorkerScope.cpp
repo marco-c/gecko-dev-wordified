@@ -4000,7 +4000,7 @@ AssertIsOnWorkerThread
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 mWorkerPrivate
 -

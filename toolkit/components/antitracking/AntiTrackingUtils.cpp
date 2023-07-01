@@ -2971,7 +2971,7 @@ rv
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 trackingURI
 trackingOrigin
@@ -3013,7 +3013,7 @@ NS_FAILED
 targetPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
 targetOrigin
 )

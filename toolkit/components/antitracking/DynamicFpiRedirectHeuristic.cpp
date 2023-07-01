@@ -1755,7 +1755,7 @@ rv
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 aNewURI
 newOrigin

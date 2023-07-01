@@ -586,7 +586,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 principal
 origin
@@ -1644,7 +1644,7 @@ Unused
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 aURI
 trackingOrigin
@@ -2984,7 +2984,7 @@ Unused
 nsContentUtils
 :
 :
-GetASCIIOrigin
+GetWebExposedOriginSerialization
 (
 uri
 trackingOrigin

@@ -10685,7 +10685,7 @@ IsEmpty
 )
 ;
 nsCString
-asciiOrigin
+webExposedOriginSerialization
 ;
 nsresult
 rv
@@ -10693,9 +10693,9 @@ rv
 aPrincipal
 -
 >
-GetAsciiOrigin
+GetWebExposedOriginSerialization
 (
-asciiOrigin
+webExposedOriginSerialization
 )
 ;
 if
@@ -10706,7 +10706,7 @@ rv
 )
 )
 {
-asciiOrigin
+webExposedOriginSerialization
 .
 AssignLiteral
 (
@@ -10741,7 +10741,7 @@ rv
 }
 ToLowerCase
 (
-asciiOrigin
+webExposedOriginSerialization
 )
 ;
 nsCOMPtr
@@ -10784,7 +10784,7 @@ mChannel
 AsyncOpenNative
 (
 uri
-asciiOrigin
+webExposedOriginSerialization
 aPrincipal
 -
 >
@@ -12736,7 +12736,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetWebExposedOriginSerialization
 (
 parsedURL
 mUTF16Origin
