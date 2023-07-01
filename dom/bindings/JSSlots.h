@@ -257,8 +257,9 @@ DOM_INTERFACE_SLOTS_BASE
 +
 number
 of
-named
-constructors
+legacy
+factory
+functions
 .
 #
 define

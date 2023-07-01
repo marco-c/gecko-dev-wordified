@@ -509,8 +509,9 @@ constructor
 None
 of
 the
-named
-constructors
+legacy
+factory
+functions
 match
 so
 the

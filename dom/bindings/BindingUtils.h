@@ -6208,7 +6208,7 @@ isConstructorChromeOnly
 const
 LegacyFactoryFunction
 *
-namedConstructors
+legacyFactoryFunctions
 JS
 :
 :

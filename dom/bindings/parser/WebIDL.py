@@ -6385,7 +6385,7 @@ maplikeOrSetlikeOrIterable
 None
         
 #
-namedConstructors
+legacyFactoryFunctions
 needs
 deterministic
 ordering
@@ -6401,7 +6401,7 @@ in
 the
 order
 that
-namedConstructors
+legacyFactoryFunctions
 enumerates
         
 #
@@ -12915,8 +12915,9 @@ self
 )
                 
 #
-Named
-constructors
+Legacy
+factory
+functions
 are
 always
 assumed
