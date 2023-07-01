@@ -498,6 +498,11 @@ source
 "
 merino
 "
+provider
+:
+"
+wikipedia
+"
 helpUrl
 :
 QuickSuggest

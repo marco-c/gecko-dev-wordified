@@ -1170,6 +1170,11 @@ remote
 -
 settings
 "
+provider
+:
+"
+AdmWikipedia
+"
 }
 }
 ;

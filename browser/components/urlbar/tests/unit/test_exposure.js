@@ -507,6 +507,11 @@ remote
 -
 settings
 "
+provider
+:
+"
+AdmWikipedia
+"
 }
 }
 ;
@@ -750,6 +755,11 @@ source
 remote
 -
 settings
+"
+provider
+:
+"
+AdmWikipedia
 "
 }
 }
