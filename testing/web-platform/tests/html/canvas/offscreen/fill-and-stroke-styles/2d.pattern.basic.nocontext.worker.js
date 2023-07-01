@@ -144,7 +144,7 @@ getContext
 )
 ;
 var
-offscreenCanvas2
+canvas2
 =
 new
 OffscreenCanvas
@@ -160,7 +160,7 @@ ctx
 .
 createPattern
 (
-offscreenCanvas2
+canvas2
 '
 no
 -

@@ -163,7 +163,7 @@ fillRect
 )
 ;
 var
-offscreenCanvas2
+g
 =
 new
 OffscreenCanvas
@@ -171,11 +171,6 @@ OffscreenCanvas
 100
 50
 )
-;
-var
-g
-=
-offscreenCanvas2
 .
 getContext
 (
