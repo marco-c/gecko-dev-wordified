@@ -1052,7 +1052,7 @@ sessionAcc
 return
 ;
 }
-MOZ_ASSERT
+if
 (
 aReason
 =
@@ -1062,7 +1062,7 @@ nsIAccessiblePivot
 :
 REASON_POINT
 )
-;
+{
 sessionAcc
 -
 >
@@ -1071,6 +1071,18 @@ SendHoverEnterEvent
 aNewPosition
 )
 ;
+}
+else
+{
+sessionAcc
+-
+>
+SendAccessibilityFocusedEvent
+(
+aNewPosition
+)
+;
+}
 }
 void
 a11y
