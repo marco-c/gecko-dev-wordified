@@ -5808,7 +5808,7 @@ return
 incrementalLimitBytes_
 ;
 }
-double
+size_t
 eagerAllocTrigger
 (
 bool

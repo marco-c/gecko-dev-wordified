@@ -3768,6 +3768,17 @@ char
 *
 end
 ;
+long
+millis
+=
+strtol
+(
+str
+&
+end
+10
+)
+;
 *
 durationOut
 =
@@ -3776,12 +3787,9 @@ TimeDuration
 :
 FromMilliseconds
 (
-strtol
+double
 (
-str
-&
-end
-10
+millis
 )
 )
 ;
@@ -8443,7 +8451,7 @@ GC
 parallel
 tasks
 .
-double
+size_t
 cpuCount
 =
 GetHelperThreadCPUCount
@@ -8459,7 +8467,10 @@ clamp
 (
 size_t
 (
+double
+(
 cpuCount
+)
 *
 helperThreadRatio
 .
@@ -11692,7 +11703,7 @@ HeapThreshold
 threshold
 )
 {
-double
+size_t
 thresholdBytes
 =
 threshold
@@ -11706,7 +11717,7 @@ inHighFrequencyGCMode
 )
 )
 ;
-double
+size_t
 usedBytes
 =
 size
@@ -25652,7 +25663,7 @@ newDuration
 )
 {
 long
-newDurationMS
+millis
 =
 lround
 (
@@ -25661,7 +25672,7 @@ newDuration
 ;
 if
 (
-newDurationMS
+millis
 <
 =
 budget
@@ -25688,7 +25699,7 @@ SliceBudget
 (
 TimeBudget
 (
-newDuration
+millis
 )
 nullptr
 )

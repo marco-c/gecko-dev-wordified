@@ -383,6 +383,8 @@ kind
 )
 jitHeapThreshold
 (
+size_t
+(
 jit
 :
 :
@@ -391,6 +393,7 @@ MaxCodeBytesPerProcess
 0
 .
 8
+)
 )
 {
 }

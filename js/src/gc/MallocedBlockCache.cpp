@@ -815,7 +815,7 @@ MallocedBlockCache
 :
 preen
 (
-float
+double
 percentOfBlocksToDiscard
 )
 {

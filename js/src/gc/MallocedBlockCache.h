@@ -797,7 +797,7 @@ discarded
 void
 preen
 (
-float
+double
 percentOfBlocksToDiscard
 )
 ;
