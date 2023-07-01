@@ -219,7 +219,9 @@ sameValue
 (
 d1
 .
-calendar
+getCalendar
+(
+)
 this
 "
 d1
@@ -234,7 +236,9 @@ sameValue
 (
 d2
 .
-calendar
+getCalendar
+(
+)
 this
 "
 d2

@@ -233,9 +233,7 @@ sameValue
 (
 datetime
 .
-calendar
-.
-id
+calendarId
 cid
 )
 ;

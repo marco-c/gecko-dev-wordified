@@ -133,7 +133,9 @@ sameValue
 (
 plainDateTime
 .
-calendar
+getCalendar
+(
+)
 calendar
 )
 ;
@@ -210,7 +212,9 @@ sameValue
 (
 result
 .
-timeZone
+getTimeZone
+(
+)
 timeZone
 )
 ;
@@ -220,7 +224,9 @@ sameValue
 (
 result
 .
-calendar
+getCalendar
+(
+)
 calendar
 )
 ;

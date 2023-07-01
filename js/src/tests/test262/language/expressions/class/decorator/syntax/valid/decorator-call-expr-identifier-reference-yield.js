@@ -216,7 +216,6 @@ Yield
 ?
 Await
 ]
-PrivateIdentifier
 DecoratorMemberExpression
 [
 ?
@@ -226,6 +225,15 @@ Await
 ]
 .
 IdentifierName
+DecoratorMemberExpression
+[
+?
+Yield
+?
+Await
+]
+.
+PrivateIdentifier
 IdentifierReference
 [
 Yield

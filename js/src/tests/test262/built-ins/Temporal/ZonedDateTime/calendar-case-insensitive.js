@@ -114,9 +114,7 @@ sameValue
 (
 result
 .
-calendar
-.
-id
+calendarId
 "
 iso8601
 "

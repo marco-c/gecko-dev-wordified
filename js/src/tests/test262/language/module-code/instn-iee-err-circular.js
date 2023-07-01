@@ -211,7 +211,7 @@ negative
 :
 phase
 :
-runtime
+resolution
 type
 :
 SyntaxError
@@ -225,6 +225,10 @@ module
 -
 *
 /
+DONOTEVALUATE
+(
+)
+;
 export
 {
 x

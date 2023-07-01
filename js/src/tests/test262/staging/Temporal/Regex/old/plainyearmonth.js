@@ -144,9 +144,7 @@ sameValue
 (
 yearMonth
 .
-calendar
-.
-id
+calendarId
 cid
 )
 ;

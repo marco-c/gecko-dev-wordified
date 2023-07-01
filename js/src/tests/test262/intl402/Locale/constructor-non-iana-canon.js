@@ -627,6 +627,15 @@ canonical
 "
 hyw
 "
+maximized
+:
+"
+hyw
+-
+Armn
+-
+AM
+"
 }
 ]
 ;

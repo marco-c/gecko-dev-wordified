@@ -149,8 +149,14 @@ sameValue
 (
 pym
 .
+getISOFields
+(
+)
+.
 calendar
-calendar
+"
+iso8601
+"
 )
 ;
 reportCompare

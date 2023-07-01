@@ -300,9 +300,7 @@ sameValue
 (
 plainMonthDay
 .
-calendar
-.
-id
+calendarId
 "
 iso8601
 "

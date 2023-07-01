@@ -153,11 +153,7 @@ sameValue
 (
 dateExplicit
 .
-calendar
-.
-toString
-(
-)
+calendarId
 "
 iso8601
 "
@@ -183,11 +179,7 @@ sameValue
 (
 dateImplicit
 .
-calendar
-.
-toString
-(
-)
+calendarId
 "
 iso8601
 "

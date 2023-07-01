@@ -231,7 +231,7 @@ negative
 :
 phase
 :
-runtime
+resolution
 type
 :
 SyntaxError
@@ -245,6 +245,10 @@ module
 -
 *
 /
+DONOTEVALUATE
+(
+)
+;
 import
 {
 default

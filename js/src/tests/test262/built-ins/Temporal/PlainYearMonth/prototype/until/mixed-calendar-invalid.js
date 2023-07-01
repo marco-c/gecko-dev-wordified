@@ -108,7 +108,8 @@ iso8601
 )
 ;
 }
-toString
+get
+id
 (
 )
 {

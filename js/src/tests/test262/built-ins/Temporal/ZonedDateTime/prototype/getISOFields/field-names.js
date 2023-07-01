@@ -268,8 +268,6 @@ sameValue
 result
 .
 calendar
-.
-id
 "
 iso8601
 "
@@ -286,8 +284,6 @@ sameValue
 result
 .
 timeZone
-.
-id
 "
 UTC
 "

@@ -242,10 +242,6 @@ IT
 :
 "
 aae
--
-Latn
--
-IT
 "
 "
 aae
@@ -308,8 +304,6 @@ CW
 :
 "
 pap
--
-CW
 "
 "
 und

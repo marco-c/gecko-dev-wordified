@@ -2976,11 +2976,10 @@ Test262Error
 .
 thrower
 =
+function
 (
 message
 )
-=
->
 {
 throw
 new

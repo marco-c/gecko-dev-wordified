@@ -232,7 +232,9 @@ sameValue
 (
 result
 .
-calendar
+getCalendar
+(
+)
 calendar
 "
 calendar

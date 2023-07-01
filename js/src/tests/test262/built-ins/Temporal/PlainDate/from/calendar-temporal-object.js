@@ -283,7 +283,9 @@ sameValue
 (
 result
 .
-calendar
+getCalendar
+(
+)
 calendar
 "
 Temporal

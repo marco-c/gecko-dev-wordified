@@ -162,8 +162,16 @@ sameValue
 (
 result
 .
+getISOFields
+(
+)
+.
 calendar
 orig
+.
+getISOFields
+(
+)
 .
 calendar
 "

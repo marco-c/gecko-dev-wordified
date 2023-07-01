@@ -106,9 +106,6 @@ expected
 =
 [
 "
-calendar
-"
-"
 isoHour
 "
 "

@@ -145,11 +145,7 @@ sameValue
 (
 result
 .
-timeZone
-.
-toString
-(
-)
+timeZoneId
 "
 +
 00

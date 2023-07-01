@@ -187,7 +187,9 @@ sameValue
 (
 relativeTo
 .
-calendar
+getCalendar
+(
+)
 cal
 )
 ;

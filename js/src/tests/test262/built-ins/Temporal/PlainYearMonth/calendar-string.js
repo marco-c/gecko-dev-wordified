@@ -117,9 +117,11 @@ sameValue
 (
 result
 .
-calendar
+getISOFields
+(
+)
 .
-id
+calendar
 "
 iso8601
 "

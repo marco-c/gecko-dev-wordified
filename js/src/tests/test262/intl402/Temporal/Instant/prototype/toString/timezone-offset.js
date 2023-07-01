@@ -84,7 +84,7 @@ the
 string
 serialization
 (
-Intl
+IANA
 time
 zones
 )
