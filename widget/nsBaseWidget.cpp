@@ -1264,6 +1264,10 @@ mCurrentPanGestureBelongsToSwipe
 (
 false
 )
+mIsPIPWindow
+(
+false
+)
 {
 #
 ifdef
@@ -2930,6 +2934,13 @@ aInitData
 -
 >
 mHasRemoteContent
+;
+mIsPIPWindow
+=
+aInitData
+-
+>
+mPIPWindow
 ;
 }
 if
