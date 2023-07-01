@@ -27463,16 +27463,6 @@ window
 to
 appear
 .
-/
-/
-content
-area
-when
-the
-docshells
-are
-swapped
-.
 if
 (
 !
