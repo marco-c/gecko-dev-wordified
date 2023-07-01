@@ -64,12 +64,6 @@ test
 (
 )
 {
-gURLBar
-.
-focus
-(
-)
-;
 await
 UrlbarTestUtils
 .
@@ -86,11 +80,6 @@ example
 com
 /
 "
-{
-replaceContent
-:
-true
-}
 )
 ;
 gURLBar
