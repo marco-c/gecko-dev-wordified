@@ -1393,6 +1393,16 @@ on
 BSD
         
 "
+process
+.
+h
+"
+#
+Windows
+-
+specific
+        
+"
 winbase
 .
 h
@@ -1409,6 +1419,21 @@ headers
         
 "
 windef
+.
+h
+"
+#
+Must
+precede
+other
+system
+headers
+(
+?
+)
+        
+"
+windows
 .
 h
 "
