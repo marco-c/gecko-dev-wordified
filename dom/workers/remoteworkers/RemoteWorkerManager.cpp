@@ -3635,7 +3635,7 @@ In
 ContentParent
 :
 :
-MaybeAsyncSendShutDownMessage
+MaybeBeginShutdown
 we
 only
 dispatch
