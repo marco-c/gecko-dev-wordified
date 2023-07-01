@@ -508,6 +508,9 @@ mozilla
 :
 :
 TimeDuration
+:
+:
+Zero
 (
 )
 ;

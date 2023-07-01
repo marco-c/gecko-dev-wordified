@@ -3911,6 +3911,9 @@ false
 thresholdOut
 =
 TimeDuration
+:
+:
+Zero
 (
 )
 ;
@@ -21710,6 +21713,9 @@ currentTime
 collectorTimeSinceAllocRateUpdate
 =
 TimeDuration
+:
+:
+Zero
 (
 )
 ;
