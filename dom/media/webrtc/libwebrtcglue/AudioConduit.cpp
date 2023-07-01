@@ -723,16 +723,10 @@ mLock
 )
 mCallThread
 (
-std
-:
-:
-move
-(
 mCall
 -
 >
 mCallThread
-)
 )
 mStsThread
 (
