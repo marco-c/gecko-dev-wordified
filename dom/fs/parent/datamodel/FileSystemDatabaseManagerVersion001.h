@@ -487,8 +487,10 @@ const
 FileId
 &
 aFileId
-bool
-aAsCopy
+const
+FileMode
+&
+aMode
 ContentType
 &
 aType

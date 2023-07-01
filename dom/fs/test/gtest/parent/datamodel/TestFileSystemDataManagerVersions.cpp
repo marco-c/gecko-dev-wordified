@@ -2126,12 +2126,10 @@ entryId
 (
 )
 fileId
-/
-*
-asCopy
-*
-/
-false
+FileMode
+:
+:
+EXCLUSIVE
 type
 lastModifiedMilliSeconds
 path

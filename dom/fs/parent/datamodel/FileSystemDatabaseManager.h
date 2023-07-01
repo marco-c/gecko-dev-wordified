@@ -215,6 +215,10 @@ fs
 struct
 FileId
 ;
+enum
+class
+FileMode
+;
 class
 FileSystemChildMetadata
 ;
@@ -596,8 +600,10 @@ const
 FileId
 &
 aFileId
-bool
-aAsCopy
+const
+FileMode
+&
+aMode
 ContentType
 &
 aType

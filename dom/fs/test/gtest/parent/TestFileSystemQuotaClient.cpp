@@ -994,12 +994,10 @@ GetFile
 (
 aEntryId
 fileId
-/
-*
-asCopy
-*
-/
-false
+FileMode
+:
+:
+EXCLUSIVE
 type
 lastModMilliS
 path
