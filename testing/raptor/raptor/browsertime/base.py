@@ -867,6 +867,11 @@ self
 .
 config
 test
+debug_mode
+=
+self
+.
+debug_mode
 )
             
 test
@@ -1288,7 +1293,7 @@ test
 )
         
 #
-if
+If
 we
 were
 using
@@ -1320,6 +1325,34 @@ self
 playback
 =
 None
+        
+#
+Stop
+the
+benchmark
+server
+if
+we
+'
+re
+running
+a
+benchmark
+test
+        
+if
+self
+.
+benchmark
+:
+            
+self
+.
+benchmark
+.
+stop_http_server
+(
+)
     
 def
 check_for_crashes
