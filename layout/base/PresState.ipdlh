@@ -184,6 +184,9 @@ BlobImpl
 h
 "
 ;
+include
+CustomElementTypes
+;
 namespace
 mozilla
 {
@@ -272,6 +275,8 @@ handler
 FileContentData
 [
 ]
+;
+CustomElementTuple
 ;
 }
 ;
