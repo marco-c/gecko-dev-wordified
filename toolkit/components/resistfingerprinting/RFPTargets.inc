@@ -106,7 +106,7 @@ used
 ITEM_VALUE
 (
 TouchEvents
-1u
+1llu
 <
 <
 0
@@ -114,7 +114,7 @@ TouchEvents
 ITEM_VALUE
 (
 PointerEvents
-1u
+1llu
 <
 <
 1
@@ -122,7 +122,7 @@ PointerEvents
 ITEM_VALUE
 (
 KeyboardEvents
-1u
+1llu
 <
 <
 2
@@ -130,7 +130,7 @@ KeyboardEvents
 ITEM_VALUE
 (
 ScreenOrientation
-1u
+1llu
 <
 <
 3
@@ -147,7 +147,7 @@ API
 ITEM_VALUE
 (
 SpeechSynthesis
-1u
+1llu
 <
 <
 4
@@ -165,7 +165,7 @@ feature
 ITEM_VALUE
 (
 CSSPrefersColorScheme
-1u
+1llu
 <
 <
 5
@@ -183,7 +183,7 @@ feature
 ITEM_VALUE
 (
 CSSPrefersReducedMotion
-1u
+1llu
 <
 <
 6
@@ -199,7 +199,7 @@ feature
 ITEM_VALUE
 (
 CSSPrefersContrast
-1u
+1llu
 <
 <
 7
@@ -219,7 +219,7 @@ canvas
 ITEM_VALUE
 (
 CanvasRandomization
-1u
+1llu
 <
 <
 8
@@ -243,7 +243,7 @@ IsImageExtractionAllowed
 ITEM_VALUE
 (
 CanvasImageExtractionPrompt
-1u
+1llu
 <
 <
 9
@@ -251,7 +251,7 @@ CanvasImageExtractionPrompt
 ITEM_VALUE
 (
 CanvasExtractionFromThirdPartiesIsBlocked
-1u
+1llu
 <
 <
 10
@@ -259,7 +259,7 @@ CanvasExtractionFromThirdPartiesIsBlocked
 ITEM_VALUE
 (
 CanvasExtractionBeforeUserInputIsBlocked
-1u
+1llu
 <
 <
 11
@@ -279,7 +279,7 @@ object
 ITEM_VALUE
 (
 NavigatorAppName
-1u
+1llu
 <
 <
 12
@@ -287,7 +287,7 @@ NavigatorAppName
 ITEM_VALUE
 (
 NavigatorAppVersion
-1u
+1llu
 <
 <
 13
@@ -295,7 +295,7 @@ NavigatorAppVersion
 ITEM_VALUE
 (
 NavigatorBuildID
-1u
+1llu
 <
 <
 14
@@ -303,7 +303,7 @@ NavigatorBuildID
 ITEM_VALUE
 (
 NavigatorHWConcurrency
-1u
+1llu
 <
 <
 15
@@ -311,7 +311,7 @@ NavigatorHWConcurrency
 ITEM_VALUE
 (
 NavigatorOscpu
-1u
+1llu
 <
 <
 16
@@ -319,7 +319,7 @@ NavigatorOscpu
 ITEM_VALUE
 (
 NavigatorPlatform
-1u
+1llu
 <
 <
 17
@@ -327,7 +327,7 @@ NavigatorPlatform
 ITEM_VALUE
 (
 NavigatorUserAgent
-1u
+1llu
 <
 <
 18
@@ -341,7 +341,7 @@ labels
 ITEM_VALUE
 (
 StreamTrackLabel
-1u
+1llu
 <
 <
 19
@@ -349,7 +349,7 @@ StreamTrackLabel
 ITEM_VALUE
 (
 StreamVideoFacingMode
-1u
+1llu
 <
 <
 20
@@ -357,7 +357,7 @@ StreamVideoFacingMode
 ITEM_VALUE
 (
 JSDateTimeUTC
-1u
+1llu
 <
 <
 21
@@ -365,7 +365,7 @@ JSDateTimeUTC
 ITEM_VALUE
 (
 JSMathFdlibm
-1u
+1llu
 <
 <
 22
@@ -373,7 +373,7 @@ JSMathFdlibm
 ITEM_VALUE
 (
 Gamepad
-1u
+1llu
 <
 <
 23
@@ -381,7 +381,7 @@ Gamepad
 ITEM_VALUE
 (
 HttpUserAgent
-1u
+1llu
 <
 <
 24
@@ -389,7 +389,7 @@ HttpUserAgent
 ITEM_VALUE
 (
 WindowOuterSize
-1u
+1llu
 <
 <
 25
@@ -397,7 +397,7 @@ WindowOuterSize
 ITEM_VALUE
 (
 WindowScreenXY
-1u
+1llu
 <
 <
 26
@@ -405,7 +405,7 @@ WindowScreenXY
 ITEM_VALUE
 (
 WindowInnerScreenXY
-1u
+1llu
 <
 <
 27
@@ -413,7 +413,7 @@ WindowInnerScreenXY
 ITEM_VALUE
 (
 ScreenPixelDepth
-1u
+1llu
 <
 <
 28
@@ -421,7 +421,7 @@ ScreenPixelDepth
 ITEM_VALUE
 (
 ScreenRect
-1u
+1llu
 <
 <
 29
@@ -429,7 +429,7 @@ ScreenRect
 ITEM_VALUE
 (
 ScreenAvailRect
-1u
+1llu
 <
 <
 30
@@ -619,4 +619,6 @@ ITEM_VALUE
 (
 Unknown
 0xffffffff
+'
+ffffffff
 )
