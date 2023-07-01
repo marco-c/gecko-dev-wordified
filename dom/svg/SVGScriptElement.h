@@ -293,15 +293,6 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsIScriptElement
-bool
-GetScriptType
-(
-nsAString
-&
-type
-)
-override
-;
 void
 GetScriptText
 (

@@ -249,6 +249,16 @@ FireErrorEvent
 )
 override
 ;
+virtual
+bool
+GetScriptType
+(
+nsAString
+&
+aType
+)
+override
+;
 protected
 :
 /
