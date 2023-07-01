@@ -121,6 +121,14 @@ error
 .
 UnknownCommandException
 )
+    
+expected_exc
+=
+(
+error
+.
+WebDriverException
+)
 class
 WebDriverBaseProtocolPart
 (
