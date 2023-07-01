@@ -61,6 +61,9 @@ RUST_DERIVE_IN_ARRAY_LIMIT
 }
 ;
 pub
+(
+crate
+)
 fn
 gen_debug_impl
 (
@@ -391,6 +394,9 @@ impl
 Debug
 .
 pub
+(
+crate
+)
 trait
 ImplDebug
 <

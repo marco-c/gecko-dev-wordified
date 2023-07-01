@@ -22,7 +22,7 @@ or
 CI
 when
 the
-testing_only_extra_assertions
+__testing_only_extra_assertions
 feature
 is
 enabled
@@ -42,7 +42,7 @@ using
 /
 /
 /
-testing_only_extra_assertions
+__testing_only_extra_assertions
 .
 #
 [
@@ -67,7 +67,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {
@@ -101,7 +101,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {
@@ -133,7 +133,7 @@ using
 /
 /
 /
-testing_only_extra_assertions
+__testing_only_extra_assertions
 .
 #
 [
@@ -161,7 +161,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {
@@ -199,7 +199,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {

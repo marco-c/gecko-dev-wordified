@@ -103,6 +103,9 @@ Ord
 )
 ]
 pub
+(
+crate
+)
 enum
 HasVtableResult
 {
@@ -198,6 +201,9 @@ and
 rhs
 .
 pub
+(
+crate
+)
 fn
 join
 (
@@ -430,6 +436,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 HasVtableAnalysis
 <
@@ -1501,6 +1510,9 @@ specific
 thing
 .
 pub
+(
+crate
+)
 trait
 HasVtable
 {

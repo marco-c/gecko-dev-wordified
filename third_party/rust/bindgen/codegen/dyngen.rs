@@ -55,6 +55,9 @@ Default
 )
 ]
 pub
+(
+crate
+)
 struct
 DynamicItems
 {
@@ -552,6 +555,9 @@ impl
 DynamicItems
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -568,6 +574,9 @@ default
 )
 }
 pub
+(
+crate
+)
 fn
 get_tokens
 (

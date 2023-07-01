@@ -165,6 +165,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDeriveDebug
 {
@@ -228,6 +231,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDeriveCopy
 {
@@ -291,6 +297,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDeriveDefault
 {
@@ -354,6 +363,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDeriveHash
 {
@@ -417,6 +429,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDerivePartialEq
 {
@@ -480,6 +495,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDerivePartialOrd
 {
@@ -543,6 +561,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDeriveEq
 {
@@ -603,6 +624,9 @@ given
 thing
 .
 pub
+(
+crate
+)
 trait
 CanDeriveOrd
 {
@@ -844,6 +868,9 @@ and
 rhs
 .
 pub
+(
+crate
+)
 fn
 join
 (

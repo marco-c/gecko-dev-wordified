@@ -138,6 +138,9 @@ ignore
 /
 !
 pub
+(
+crate
+)
 type
 Fml
 <
@@ -1512,6 +1515,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 UsedTemplateParameters
 <
@@ -2701,7 +2707,7 @@ of
 all
 of
 this
-id
+ID
 '
 s
 /
@@ -3504,7 +3510,7 @@ cfg
 feature
 =
 "
-testing_only_extra_assertions
+__testing_only_extra_assertions
 "
 )
 {
@@ -3845,7 +3851,7 @@ the
 set
 for
 this
-id
+ID
 out
 of
 the

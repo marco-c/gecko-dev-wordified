@@ -120,6 +120,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 struct
 Edge
 {
@@ -152,6 +155,9 @@ given
 kind
 .
 pub
+(
+crate
+)
 fn
 new
 (
@@ -244,6 +250,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 enum
 EdgeKind
 {
@@ -1223,6 +1232,9 @@ through
 it
 .
 pub
+(
+crate
+)
 type
 TraversalPredicate
 =
@@ -1280,6 +1292,9 @@ s
 roots
 .
 pub
+(
+crate
+)
 fn
 all_edges
 (
@@ -1368,6 +1383,9 @@ be
 processed
 .
 pub
+(
+crate
+)
 fn
 only_inner_type_edges
 (
@@ -1434,6 +1452,9 @@ code
 generation
 .
 pub
+(
+crate
+)
 fn
 codegen_edges
 (
@@ -1667,6 +1688,9 @@ active
 traversal
 .
 pub
+(
+crate
+)
 trait
 TraversalStorage
 <
@@ -1892,6 +1916,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 Paths
 <
@@ -2179,6 +2206,9 @@ IR
 graph
 .
 pub
+(
+crate
+)
 trait
 TraversalQueue
 :
@@ -2344,6 +2374,9 @@ Trace
 implementation
 .
 pub
+(
+crate
+)
 trait
 Tracer
 {
@@ -2507,6 +2540,9 @@ outgoing
 edges
 .
 pub
+(
+crate
+)
 trait
 Trace
 {
@@ -2639,6 +2675,9 @@ more
 information
 .
 pub
+(
+crate
+)
 struct
 ItemTraversal
 <
@@ -2778,6 +2817,9 @@ given
 roots
 .
 pub
+(
+crate
+)
 fn
 new
 <
@@ -3162,6 +3204,9 @@ more
 information
 .
 pub
+(
+crate
+)
 type
 AssertNoDanglingItemsTraversal
 <

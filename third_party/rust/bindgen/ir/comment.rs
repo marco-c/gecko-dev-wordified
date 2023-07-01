@@ -113,6 +113,9 @@ Rust
 comment
 .
 pub
+(
+crate
+)
 fn
 preprocess
 (

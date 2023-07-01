@@ -77,6 +77,9 @@ compound
 type
 .
 pub
+(
+crate
+)
 fn
 gen_partialeq_impl
 (
@@ -180,10 +183,6 @@ assert
 ctx
 .
 options
-(
-)
-.
-rust_features
 (
 )
 .

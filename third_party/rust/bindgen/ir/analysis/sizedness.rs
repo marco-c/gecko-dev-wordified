@@ -197,6 +197,9 @@ Ord
 )
 ]
 pub
+(
+crate
+)
 enum
 SizednessResult
 {
@@ -433,6 +436,7 @@ now
 /
 /
 /
+<
 https
 :
 /
@@ -452,6 +456,7 @@ bindgen
 issues
 /
 586
+>
 DependsOnTypeParam
 /
 /
@@ -550,6 +555,9 @@ and
 rhs
 .
 pub
+(
+crate
+)
 fn
 join
 (
@@ -755,6 +763,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 SizednessAnalysis
 <
@@ -2301,7 +2312,7 @@ whether
 some
 type
 or
-id
+ID
 is
 sized
 .
@@ -2344,6 +2355,9 @@ specific
 thing
 .
 pub
+(
+crate
+)
 trait
 Sizedness
 {

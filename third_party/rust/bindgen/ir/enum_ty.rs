@@ -188,6 +188,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 Enum
 {
@@ -293,6 +296,9 @@ and
 variants
 .
 pub
+(
+crate
+)
 fn
 new
 (
@@ -330,6 +336,9 @@ s
 representation
 .
 pub
+(
+crate
+)
 fn
 repr
 (
@@ -358,6 +367,9 @@ s
 variants
 .
 pub
+(
+crate
+)
 fn
 variants
 (
@@ -389,6 +401,9 @@ Clang
 type
 .
 pub
+(
+crate
+)
 fn
 from_ty
 (
@@ -1099,6 +1114,9 @@ the
 enum
 .
 pub
+(
+crate
+)
 fn
 computed_enum_variation
 (
@@ -1366,6 +1384,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 EnumVariant
 {
@@ -1526,6 +1547,9 @@ given
 parts
 .
 pub
+(
+crate
+)
 fn
 new
 (
@@ -1575,6 +1599,9 @@ s
 name
 .
 pub
+(
+crate
+)
 fn
 name
 (
@@ -1602,6 +1629,9 @@ s
 name
 .
 pub
+(
+crate
+)
 fn
 name_for_allowlisting
 (
@@ -1629,6 +1659,9 @@ s
 value
 .
 pub
+(
+crate
+)
 fn
 val
 (
@@ -1654,6 +1687,9 @@ s
 documentation
 .
 pub
+(
+crate
+)
 fn
 comment
 (
@@ -1698,6 +1734,9 @@ code
 generation
 .
 pub
+(
+crate
+)
 fn
 force_constification
 (
@@ -1749,6 +1788,9 @@ rust
 enum
 .
 pub
+(
+crate
+)
 fn
 hidden
 (

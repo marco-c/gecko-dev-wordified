@@ -85,6 +85,9 @@ dot
 file
 .
 pub
+(
+crate
+)
 trait
 DotAttributes
 {
@@ -172,6 +175,9 @@ our
 IR
 .
 pub
+(
+crate
+)
 fn
 write_dot_file
 <

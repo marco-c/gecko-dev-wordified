@@ -246,6 +246,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 HasFloat
 <

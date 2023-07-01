@@ -62,7 +62,7 @@ UChar
 /
 /
 /
-An
+A
 wchar_t
 .
 WChar
@@ -334,6 +334,9 @@ type
 signed
 ?
 pub
+(
+crate
+)
 fn
 is_signed
 (
@@ -519,6 +522,9 @@ parameters
 )
 .
 pub
+(
+crate
+)
 fn
 known_size
 (
@@ -611,6 +617,9 @@ the
 value
 .
 pub
+(
+crate
+)
 fn
 signedness_matches
 (

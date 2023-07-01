@@ -260,6 +260,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 HasTypeParameterInArray
 <
