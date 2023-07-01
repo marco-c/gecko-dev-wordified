@@ -217,7 +217,10 @@ is
 normalBox
 .
 collapsed
-true
+!
+AppConstants
+.
+IS_ESR
 )
 ;
 is
@@ -225,7 +228,9 @@ is
 basicBox
 .
 collapsed
-false
+AppConstants
+.
+IS_ESR
 )
 ;
 dialog
