@@ -1131,11 +1131,6 @@ return
 [
 this
 .
-renderTraceButton
-(
-)
-this
-.
 renderPauseButton
 (
 )
@@ -2531,6 +2526,13 @@ filler
 "
 /
 >
+{
+this
+.
+renderTraceButton
+(
+)
+}
 {
 this
 .
