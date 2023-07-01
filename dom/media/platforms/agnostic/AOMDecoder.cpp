@@ -5694,7 +5694,6 @@ initial_display_delay_present_flag
 }
 if
 (
-!
 aInfo
 .
 mImage
@@ -5702,9 +5701,6 @@ mImage
 IsEmpty
 (
 )
-<
-=
-0
 )
 {
 NS_WARNING
