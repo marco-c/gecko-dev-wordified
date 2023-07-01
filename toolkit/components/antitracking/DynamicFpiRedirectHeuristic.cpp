@@ -1962,6 +1962,7 @@ StorageAccessPromptChoices
 :
 :
 eAllow
+false
 StaticPrefs
 :
 :

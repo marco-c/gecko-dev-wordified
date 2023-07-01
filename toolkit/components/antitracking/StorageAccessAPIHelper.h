@@ -588,6 +588,8 @@ nsIPrincipal
 aTrackingPrincipal
 int
 aAllowMode
+bool
+aFrameOnly
 uint64_t
 aExpirationTime
 =
@@ -619,6 +621,8 @@ nsIPrincipal
 aTrackingPrincipal
 int
 aAllowMode
+bool
+aFrameOnly
 uint64_t
 aExpirationTime
 =
@@ -1480,6 +1484,8 @@ nsIPrincipal
 aPrincipal
 bool
 aHasUserInteraction
+bool
+aFrameOnly
 ContentBlockingNotifier
 :
 :

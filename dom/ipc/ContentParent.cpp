@@ -44083,6 +44083,10 @@ StorageAccessPermissionGrantedReason
 >
 &
 aReason
+const
+bool
+&
+aFrameOnly
 StorageAccessPermissionGrantedForOriginResolver
 &
 &
@@ -44200,6 +44204,7 @@ get_canonical
 )
 aTrackingPrincipal
 aAllowMode
+aFrameOnly
 )
 -
 >

@@ -7584,6 +7584,10 @@ StorageAccessPermissionGrantedReason
 >
 &
 aReason
+const
+bool
+&
+aFrameOnly
 StorageAccessPermissionGrantedForOriginResolver
 &
 &

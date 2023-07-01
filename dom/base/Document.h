@@ -7420,6 +7420,8 @@ nsCString
 >
 &
 aTopLevelBaseDomain
+bool
+aFrameOnly
 )
 ;
 already_AddRefed
