@@ -550,6 +550,14 @@ WindowDevicePixelRatio
 <
 40
 )
+ITEM_VALUE
+(
+MouseEventScreenPoint
+1llu
+<
+<
+41
+)
 /
 /
 !
