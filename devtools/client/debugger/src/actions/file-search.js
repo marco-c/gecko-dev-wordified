@@ -298,14 +298,11 @@ export
 function
 closeFileSearch
 (
-cx
-editor
 )
 {
 return
 (
 {
-getState
 dispatch
 }
 )

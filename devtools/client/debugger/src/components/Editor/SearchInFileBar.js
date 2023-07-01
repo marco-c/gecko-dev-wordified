@@ -111,7 +111,6 @@ import
 {
 getActiveSearch
 getSelectedSource
-getContext
 getSelectedSourceTextContent
 getSearchOptions
 }
@@ -357,13 +356,6 @@ closeFileSearch
 PropTypes
 .
 func
-.
-isRequired
-cx
-:
-PropTypes
-.
-object
 .
 isRequired
 editor
@@ -731,7 +723,6 @@ e
 {
 const
 {
-cx
 closeFileSearch
 editor
 searchInFileEnabled
@@ -757,8 +748,6 @@ searchInFileEnabled
 {
 closeFileSearch
 (
-cx
-editor
 )
 ;
 e
@@ -1997,12 +1986,6 @@ state
 ;
 return
 {
-cx
-:
-getContext
-(
-state
-)
 searchInFileEnabled
 :
 getActiveSearch

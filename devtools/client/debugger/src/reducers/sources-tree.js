@@ -1141,7 +1141,7 @@ SET_PROJECT_DIRECTORY_ROOT
 :
 const
 {
-url
+uniquePath
 name
 }
 =
@@ -1151,7 +1151,7 @@ return
 updateProjectDirectoryRoot
 (
 state
-url
+uniquePath
 name
 )
 ;
@@ -1563,7 +1563,7 @@ function
 updateProjectDirectoryRoot
 (
 state
-root
+uniquePath
 name
 )
 {
@@ -1600,10 +1600,10 @@ anything
 if
 (
 !
-root
+uniquePath
 |
 |
-root
+uniquePath
 .
 startsWith
 (
@@ -1619,7 +1619,7 @@ prefs
 .
 projectDirectoryRoot
 =
-root
+uniquePath
 ;
 prefs
 .
@@ -1636,7 +1636,7 @@ return
 state
 projectDirectoryRoot
 :
-root
+uniquePath
 projectDirectoryRootName
 :
 name
