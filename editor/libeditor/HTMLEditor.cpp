@@ -2866,7 +2866,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 &
@@ -9032,7 +9032,7 @@ tabulation
 .
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -41458,7 +41458,7 @@ CommitComposition
 ?
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -45517,7 +45517,7 @@ this
 if
 (
 !
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )

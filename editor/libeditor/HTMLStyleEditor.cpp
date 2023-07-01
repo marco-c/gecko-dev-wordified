@@ -1773,7 +1773,7 @@ CommitComposition
 ?
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -25594,7 +25594,7 @@ CommitComposition
 ?
 if
 (
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )

@@ -20098,7 +20098,7 @@ if
 !
 aHTMLEditor
 .
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
@@ -20975,7 +20975,7 @@ if
 !
 aHTMLEditor
 .
-IsInPlaintextMode
+IsPlaintextMailComposer
 (
 )
 )
