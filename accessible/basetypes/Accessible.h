@@ -4146,7 +4146,7 @@ mRoleMapEntryIndex
 ;
 friend
 class
-DocAccessibleChildBase
+DocAccessibleChild
 ;
 friend
 class
