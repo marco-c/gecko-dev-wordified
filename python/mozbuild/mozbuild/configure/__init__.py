@@ -9525,11 +9525,12 @@ __globals__
             
 if
 (
-inspect
-.
-isfunction
+isinstance
 (
 v
+types
+.
+FunctionType
 )
 and
 v
@@ -9542,11 +9543,10 @@ _templates
             
 or
 (
-inspect
-.
-isclass
+isinstance
 (
 v
+type
 )
 and
 issubclass
