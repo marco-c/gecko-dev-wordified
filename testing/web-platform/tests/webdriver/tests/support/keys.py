@@ -1682,6 +1682,7 @@ OrderedDict
 code
 "
 "
+NumpadEqual
 "
 )
                 
@@ -2959,7 +2960,7 @@ OrderedDict
 code
 "
 "
-OSLeft
+MetaLeft
 "
 )
                 
@@ -4023,6 +4024,7 @@ OrderedDict
 code
 "
 "
+Pause
 "
 )
                 
@@ -4945,7 +4947,7 @@ OrderedDict
 code
 "
 "
-OSRight
+MetaRight
 "
 )
                 
