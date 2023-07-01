@@ -26178,6 +26178,19 @@ onremovesourcebuffer
 )
     
 #
+WebCodecs
+    
+Atom
+(
+"
+ondequeue
+"
+"
+ondequeue
+"
+)
+    
+#
 RDF
 (
 not
