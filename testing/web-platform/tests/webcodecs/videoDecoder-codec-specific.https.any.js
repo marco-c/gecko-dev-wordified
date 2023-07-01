@@ -2792,7 +2792,7 @@ promise_rejects_dom
 (
 t
 '
-AbortError
+EncodingError
 '
 decoder
 .
@@ -2937,7 +2937,7 @@ promise_rejects_dom
 (
 t
 '
-AbortError
+EncodingError
 '
 decoder
 .
