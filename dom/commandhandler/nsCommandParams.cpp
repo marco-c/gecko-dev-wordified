@@ -116,15 +116,6 @@ MPL
 /
 #
 include
-"
-xpcom
--
-config
-.
-h
-"
-#
-include
 <
 new
 >
