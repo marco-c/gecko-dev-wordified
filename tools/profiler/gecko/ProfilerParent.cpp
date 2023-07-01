@@ -4631,6 +4631,11 @@ SendStop
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER
 ProfilerParent
 :
 :
@@ -4651,6 +4656,9 @@ NS_IsMainThread
 )
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 ProfilerParentTracker
 :
 :
@@ -4659,7 +4667,12 @@ StopTracking
 this
 )
 ;
+#
+endif
 }
+#
+ifdef
+MOZ_GECKO_PROFILER
 /
 *
 static
