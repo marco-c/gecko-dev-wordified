@@ -526,6 +526,14 @@ MediaCapabilities
 <
 37
 )
+ITEM_VALUE
+(
+AudioSampleRate
+1llu
+<
+<
+38
+)
 /
 /
 !

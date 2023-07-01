@@ -1438,7 +1438,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+AudioSampleRate
 )
 )
 mPlaybackRate
