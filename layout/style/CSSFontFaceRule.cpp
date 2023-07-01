@@ -475,7 +475,7 @@ declarations
 )
 ;
 }
-NS_IMETHODIMP
+void
 CSSFontFaceRuleDecl
 :
 :
@@ -522,9 +522,6 @@ aResult
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 CSSFontFaceRuleDecl

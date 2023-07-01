@@ -267,28 +267,6 @@ p
 .
 id
         
-#
-Unfortunately
-even
-some
-of
-the
-getters
-here
-are
-fallible
-        
-#
-(
-e
-.
-g
-.
-on
-nsComputedDOMStyle
-)
-.
-        
 extendedAttrs
 =
 [
@@ -311,7 +289,7 @@ CEReactions
 "
             
 "
-Throws
+SetterThrows
 "
             
 "
