@@ -1678,6 +1678,8 @@ af_print_idx
 char
 *
 p
+size_t
+n
 int
 idx
 )
@@ -1721,9 +1723,10 @@ p
 ;
 }
 else
-ft_sprintf
+ft_snprintf
 (
 p
+n
 "
 %
 d
@@ -2363,6 +2366,7 @@ point_idx
 af_print_idx
 (
 buf1
+16
 af_get_edge_index
 (
 hints
@@ -2373,11 +2377,13 @@ segment_idx_1
 af_print_idx
 (
 buf2
+16
 segment_idx_1
 )
 af_print_idx
 (
 buf3
+16
 af_get_edge_index
 (
 hints
@@ -2388,6 +2394,7 @@ segment_idx_0
 af_print_idx
 (
 buf4
+16
 segment_idx_0
 )
 (
@@ -2466,6 +2473,7 @@ y
 af_print_idx
 (
 buf5
+16
 af_get_strong_edge_index
 (
 hints
@@ -2479,6 +2487,7 @@ before
 af_print_idx
 (
 buf6
+16
 af_get_strong_edge_index
 (
 hints
@@ -2492,6 +2501,7 @@ after
 af_print_idx
 (
 buf7
+16
 af_get_strong_edge_index
 (
 hints
@@ -2505,6 +2515,7 @@ before
 af_print_idx
 (
 buf8
+16
 af_get_strong_edge_index
 (
 hints
@@ -2958,6 +2969,7 @@ points
 af_print_idx
 (
 buf1
+16
 AF_INDEX_NUM
 (
 seg
@@ -2970,6 +2982,7 @@ segments
 af_print_idx
 (
 buf2
+16
 AF_INDEX_NUM
 (
 seg
@@ -2982,6 +2995,7 @@ segments
 af_print_idx
 (
 buf3
+16
 AF_INDEX_NUM
 (
 seg
@@ -3700,6 +3714,7 @@ dir
 af_print_idx
 (
 buf1
+16
 AF_INDEX_NUM
 (
 edge
@@ -3712,6 +3727,7 @@ edges
 af_print_idx
 (
 buf2
+16
 AF_INDEX_NUM
 (
 edge

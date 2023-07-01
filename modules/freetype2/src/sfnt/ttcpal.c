@@ -1626,7 +1626,7 @@ files
 /
 typedef
 int
-_tt_cpal_dummy
+tt_cpal_dummy_
 ;
 #
 endif

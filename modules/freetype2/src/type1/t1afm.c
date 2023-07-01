@@ -2292,7 +2292,7 @@ files
 /
 typedef
 int
-_t1_afm_dummy
+t1_afm_dummy_
 ;
 #
 endif

@@ -438,7 +438,7 @@ FT_Error
 )
 cff_get_var_blend
 (
-CFF_Face
+FT_Face
 face
 FT_UInt
 *
@@ -463,7 +463,7 @@ void
 )
 cff_done_blend
 (
-CFF_Face
+FT_Face
 face
 )
 ;

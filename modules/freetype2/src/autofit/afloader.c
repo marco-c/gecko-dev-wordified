@@ -355,9 +355,6 @@ autohint
 .
 finalizer
 =
-(
-FT_Generic_Finalizer
-)
 af_face_globals_free
 ;
 }

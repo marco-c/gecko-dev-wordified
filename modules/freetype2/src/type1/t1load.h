@@ -373,7 +373,7 @@ FT_Error
 )
 T1_Get_Multi_Master
 (
-T1_Face
+FT_Face
 face
 FT_Multi_Master
 *
@@ -386,7 +386,7 @@ FT_Error
 )
 T1_Get_MM_Var
 (
-T1_Face
+FT_Face
 face
 FT_MM_Var
 *
@@ -400,7 +400,7 @@ FT_Error
 )
 T1_Set_MM_Blend
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 num_coords
@@ -415,7 +415,7 @@ FT_Error
 )
 T1_Get_MM_Blend
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 num_coords
@@ -430,7 +430,7 @@ FT_Error
 )
 T1_Set_MM_Design
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 num_coords
@@ -445,7 +445,7 @@ FT_Error
 )
 T1_Reset_MM_Blend
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 instance_index
@@ -457,7 +457,7 @@ FT_Error
 )
 T1_Get_Var_Design
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 num_coords
@@ -472,7 +472,7 @@ FT_Error
 )
 T1_Set_Var_Design
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 num_coords
@@ -487,7 +487,7 @@ void
 )
 T1_Done_Blend
 (
-T1_Face
+FT_Face
 face
 )
 ;
@@ -497,7 +497,7 @@ FT_Error
 )
 T1_Set_MM_WeightVector
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 len
@@ -512,7 +512,7 @@ FT_Error
 )
 T1_Get_MM_WeightVector
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 *

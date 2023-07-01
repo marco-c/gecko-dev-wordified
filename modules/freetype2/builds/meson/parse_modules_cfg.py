@@ -643,6 +643,34 @@ gxvalid
 )
 :
             
+name
+=
+{
+                
+"
+gxvalid
+"
+:
+"
+gxv
+"
+                
+"
+otvalid
+"
+:
+"
+otv
+"
+            
+}
+.
+get
+(
+module
+module
+)
+            
 result
 +
 =
@@ -659,7 +687,7 @@ s_module_class
 n
 "
 %
-module
+name
             
 )
     

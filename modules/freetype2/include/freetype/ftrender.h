@@ -776,6 +776,7 @@ get_glyph_cbox
 FT_Renderer_SetModeFunc
 set_mode
 ;
+const
 FT_Raster_Funcs
 *
 raster_class

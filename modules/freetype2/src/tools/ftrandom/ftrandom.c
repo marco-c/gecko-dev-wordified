@@ -2583,9 +2583,10 @@ buffer
 1024
 ]
 ;
-sprintf
+snprintf
 (
 buffer
+1024
 "
 %
 s

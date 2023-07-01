@@ -3359,6 +3359,9 @@ color
 alpha
 +
 =
+(
+FT_F2Dot14
+)
 item_deltas
 [
 0
@@ -9046,6 +9049,9 @@ color
 alpha
 +
 =
+(
+FT_F2Dot14
+)
 item_deltas
 [
 1
@@ -10807,7 +10813,7 @@ files
 /
 typedef
 int
-_tt_colr_dummy
+tt_colr_dummy_
 ;
 #
 endif

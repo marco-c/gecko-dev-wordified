@@ -6265,7 +6265,7 @@ files
 /
 typedef
 int
-_tt_subpix_dummy
+tt_subpix_dummy_
 ;
 #
 endif

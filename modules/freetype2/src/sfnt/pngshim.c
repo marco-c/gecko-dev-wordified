@@ -2253,8 +2253,6 @@ but
 .
 *
 /
-FALL_THROUGH
-;
 case
 PNG_COLOR_TYPE_RGB_ALPHA
 :
@@ -2490,7 +2488,7 @@ files
 /
 typedef
 int
-_pngshim_dummy
+pngshim_dummy_
 ;
 #
 endif

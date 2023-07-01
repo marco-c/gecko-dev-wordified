@@ -858,7 +858,7 @@ FT_Error
 )
 af_cjk_metrics_init
 (
-AF_CJKMetrics
+AF_StyleMetrics
 metrics
 FT_Face
 face
@@ -870,7 +870,7 @@ void
 )
 af_cjk_metrics_scale
 (
-AF_CJKMetrics
+AF_StyleMetrics
 metrics
 AF_Scaler
 scaler
@@ -884,7 +884,7 @@ af_cjk_hints_init
 (
 AF_GlyphHints
 hints
-AF_CJKMetrics
+AF_StyleMetrics
 metrics
 )
 ;
@@ -901,7 +901,7 @@ hints
 FT_Outline
 *
 outline
-AF_CJKMetrics
+AF_StyleMetrics
 metrics
 )
 ;

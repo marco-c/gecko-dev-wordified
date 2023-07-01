@@ -985,7 +985,7 @@ FT_Error
 )
 af_latin_metrics_init
 (
-AF_LatinMetrics
+AF_StyleMetrics
 metrics
 FT_Face
 face
@@ -997,7 +997,7 @@ void
 )
 af_latin_metrics_scale
 (
-AF_LatinMetrics
+AF_StyleMetrics
 metrics
 AF_Scaler
 scaler

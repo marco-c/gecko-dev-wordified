@@ -11936,7 +11936,7 @@ files
 /
 typedef
 int
-_sfwoff2_dummy
+sfwoff2_dummy_
 ;
 #
 endif

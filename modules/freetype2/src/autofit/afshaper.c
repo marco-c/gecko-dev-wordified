@@ -1437,7 +1437,7 @@ single
 zone
 *
 (
-this
+that
 is
 not
 a
@@ -1701,7 +1701,7 @@ glyphs
 are
 real
 '
-this
+that
 is
 they
 have
@@ -1726,7 +1726,7 @@ superscript
 *
 position
 (
-this
+that
 is
 the
 sups

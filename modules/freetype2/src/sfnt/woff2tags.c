@@ -1551,7 +1551,7 @@ files
 /
 typedef
 int
-_woff2tags_dummy
+woff2tags_dummy_
 ;
 #
 endif

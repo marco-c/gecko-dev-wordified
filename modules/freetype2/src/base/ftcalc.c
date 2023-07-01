@@ -6066,7 +6066,7 @@ vectors
 is
 dominant
 '
-this
+that
 is
 much
 larger
@@ -6303,6 +6303,10 @@ i
 ;
 return
 (
+FT_Int32
+)
+(
+(
 temp
 +
 0x8000
@@ -6310,6 +6314,7 @@ temp
 >
 >
 16
+)
 ;
 #
 else
