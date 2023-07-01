@@ -229,8 +229,6 @@ visibilities
 match
 .
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -1248,8 +1246,6 @@ menuItems
 )
 {
 await
-TestUtils
-.
 waitForCondition
 (
 (

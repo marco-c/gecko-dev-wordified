@@ -181,8 +181,6 @@ doCommand
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (

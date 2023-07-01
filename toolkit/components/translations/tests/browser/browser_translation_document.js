@@ -391,8 +391,6 @@ html
 try
 {
 await
-BrowserTestUtils
-.
 waitForCondition
 (
 (
@@ -1009,8 +1007,6 @@ PAGE
 try
 {
 await
-BrowserTestUtils
-.
 waitForCondition
 (
 (

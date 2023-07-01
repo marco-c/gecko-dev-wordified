@@ -158,8 +158,6 @@ getTranslationsParent
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 async
