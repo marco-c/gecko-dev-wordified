@@ -5677,11 +5677,11 @@ result
 initialize
 (
 days
-ToInstantDifference
+ToInstantSpan
 (
 nanos
 )
-Instant
+InstantSpan
 :
 :
 fromNanoseconds
@@ -5760,7 +5760,7 @@ initialize
 nanosAndDays
 .
 days
-Instant
+InstantSpan
 :
 :
 fromNanoseconds
@@ -5769,7 +5769,7 @@ nanosAndDays
 .
 nanoseconds
 )
-Instant
+InstantSpan
 :
 :
 fromNanoseconds
@@ -6090,7 +6090,7 @@ time
 auto
 nanoseconds
 =
-Instant
+InstantSpan
 :
 :
 fromNanoseconds
@@ -6101,7 +6101,7 @@ total
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 nanoseconds
 )
@@ -6145,7 +6145,7 @@ false
 if
 (
 !
-IsValidInstantDifference
+IsValidInstantSpan
 (
 nanoseconds
 )
@@ -6163,7 +6163,7 @@ return
 NanosecondsToDays
 (
 cx
-ToInstantDifference
+ToInstantSpan
 (
 nanoseconds
 )
@@ -9871,7 +9871,7 @@ epochInstant
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 nanoseconds
 )
@@ -10045,7 +10045,7 @@ days
 &
 ns
 >
-Instant
+InstantSpan
 {
 }
 )
@@ -10059,7 +10059,7 @@ days
 &
 ns
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -10149,7 +10149,7 @@ BigInt
 nanos
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 ns
@@ -10244,7 +10244,7 @@ BigInt
 ns
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanoseconds
@@ -10386,7 +10386,7 @@ JSContext
 *
 cx
 const
-Instant
+InstantSpan
 &
 nanoseconds
 TemporalUnit
@@ -10398,7 +10398,7 @@ result
 {
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 nanoseconds
 )
@@ -10476,7 +10476,7 @@ BigInt
 nanos
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanoseconds
@@ -18803,7 +18803,7 @@ ZonedDateTimeObject
 >
 >
 relativeTo
-Instant
+InstantSpan
 dayLength
 Duration
 *
@@ -18820,7 +18820,7 @@ duration
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLength
 )
@@ -18903,7 +18903,7 @@ BigInt
 dayLengthNs
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 dayLength
@@ -18922,7 +18922,7 @@ false
 }
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLengthNs
 )
@@ -19552,7 +19552,7 @@ dayStart
 ;
 MOZ_ASSERT
 (
-IsValidInstantDifference
+IsValidInstantSpan
 (
 dayLength
 )
@@ -27394,7 +27394,7 @@ dayLength
 (
 )
 >
-Instant
+InstantSpan
 {
 }
 )
@@ -27430,7 +27430,7 @@ BigInt
 nanoseconds
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -27459,7 +27459,7 @@ BigInt
 dayLength
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -28007,7 +28007,7 @@ nanoseconds
 (
 )
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -30091,7 +30091,7 @@ nanoseconds
 (
 )
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -30740,7 +30740,7 @@ dayLength
 (
 )
 >
-Instant
+InstantSpan
 {
 }
 )
@@ -30798,7 +30798,7 @@ BigInt
 nanoseconds
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -30827,7 +30827,7 @@ BigInt
 dayLength
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -31379,7 +31379,7 @@ return
 nanoseconds
 =
 =
-Instant
+InstantSpan
 {
 }
 |
@@ -31396,7 +31396,7 @@ isNegative
 (
 nanoseconds
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -31909,7 +31909,7 @@ nanoseconds
 (
 )
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -32803,7 +32803,7 @@ nanoseconds
 (
 )
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -32992,7 +32992,7 @@ return
 nanoseconds
 =
 =
-Instant
+InstantSpan
 {
 }
 |
@@ -33008,7 +33008,7 @@ days
 (
 nanoseconds
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -33706,7 +33706,7 @@ dayLength
 (
 )
 >
-Instant
+InstantSpan
 {
 }
 )
@@ -33764,7 +33764,7 @@ BigInt
 nanoseconds
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -33793,7 +33793,7 @@ BigInt
 dayLength
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -34342,7 +34342,7 @@ return
 nanoseconds
 =
 =
-Instant
+InstantSpan
 {
 }
 |
@@ -34359,7 +34359,7 @@ isNegative
 (
 nanoseconds
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -34808,7 +34808,7 @@ nanoseconds
 (
 )
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -35441,7 +35441,7 @@ nanoseconds
 (
 )
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -35684,7 +35684,7 @@ return
 nanoseconds
 =
 =
-Instant
+InstantSpan
 {
 }
 |
@@ -35700,7 +35700,7 @@ days
 (
 nanoseconds
 <
-Instant
+InstantSpan
 {
 }
 )
@@ -36583,7 +36583,7 @@ dayLength
 (
 )
 >
-Instant
+InstantSpan
 {
 }
 )
@@ -36619,7 +36619,7 @@ BigInt
 nanoseconds
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -36648,7 +36648,7 @@ BigInt
 dayLength
 (
 cx
-ToEpochDifferenceNanoseconds
+ToEpochNanoseconds
 (
 cx
 nanosAndDays
@@ -36968,7 +36968,7 @@ dayLength
 (
 )
 >
-Instant
+InstantSpan
 {
 }
 )

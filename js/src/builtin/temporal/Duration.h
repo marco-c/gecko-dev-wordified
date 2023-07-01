@@ -863,7 +863,7 @@ JSContext
 *
 cx
 const
-Instant
+InstantSpan
 &
 nanoseconds
 TemporalUnit
