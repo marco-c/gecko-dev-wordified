@@ -3846,10 +3846,7 @@ page_cycles
             
 )
         
-else
-:
-            
-if
+elif
 int
 (
 next_test
@@ -3865,7 +3862,7 @@ page_cycles
 >
 max_page_cycles
 :
-                
+            
 next_test
 [
 "
@@ -3874,12 +3871,12 @@ page_cycles
 ]
 =
 max_page_cycles
-                
+            
 LOG
 .
 info
 (
-                    
+                
 "
 setting
 page
@@ -3895,7 +3892,7 @@ profling
 is
 enabled
 "
-                    
+                
 %
 next_test
 [
@@ -3903,7 +3900,7 @@ next_test
 page_cycles
 "
 ]
-                
+            
 )
         
 #
@@ -3992,10 +3989,7 @@ browser_cycles
             
 )
         
-else
-:
-            
-if
+elif
 int
 (
 next_test
@@ -4011,7 +4005,7 @@ browser_cycles
 >
 max_browser_cycles
 :
-                
+            
 next_test
 [
 "
@@ -4020,12 +4014,12 @@ browser_cycles
 ]
 =
 max_browser_cycles
-                
+            
 LOG
 .
 info
 (
-                    
+                
 "
 setting
 browser
@@ -4041,7 +4035,7 @@ profilng
 is
 enabled
 "
-                    
+                
 %
 next_test
 [
@@ -4049,7 +4043,7 @@ next_test
 browser_cycles
 "
 ]
-                
+            
 )
         
 #

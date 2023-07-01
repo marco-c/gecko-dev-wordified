@@ -3370,10 +3370,7 @@ is
 there
 .
         
-else
-:
-            
-if
+elif
 len
 (
 raw_btresults
@@ -3385,11 +3382,10 @@ int
 page_cycles
 )
 :
-                
+            
 raise
 MissingResultsError
 (
-                    
 "
 Missing
 results
@@ -3403,7 +3399,6 @@ page
 cycle
 .
 "
-                
 )
         
 #
@@ -3894,6 +3889,10 @@ name
 if
 requested
                             
+filtered_k
+=
+k
+                            
 for
 name_filter
 in
@@ -3906,9 +3905,9 @@ split
 )
 :
                                 
-k
+filtered_k
 =
-k
+filtered_k
 .
 replace
 (
@@ -3934,9 +3933,11 @@ measurements
 .
 setdefault
 (
-k
+                                    
+filtered_k
 [
 ]
+                                
 )
 .
 extend
@@ -3956,9 +3957,11 @@ measurements
 .
 setdefault
 (
-k
+                                    
+filtered_k
 [
 ]
+                                
 )
 .
 append

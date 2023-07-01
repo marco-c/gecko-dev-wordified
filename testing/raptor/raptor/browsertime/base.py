@@ -1694,21 +1694,9 @@ js
             
 )
         
-else
-:
+elif
+(
             
-#
-Custom
-scripts
-are
-treated
-as
-pageload
-tests
-for
-now
-            
-if
 test
 .
 get
@@ -1724,8 +1712,20 @@ name
 "
 browsertime
 "
+        
+)
 :
-                
+#
+Custom
+scripts
+are
+treated
+as
+pageload
+tests
+for
+now
+            
 #
 Check
 for
@@ -1737,7 +1737,7 @@ a
 url
 from
 the
-                
+            
 #
 -
 -
@@ -1745,11 +1745,11 @@ browsertime
 -
 arg
 options
-                
+            
 browsertime_script
 =
 None
-                
+            
 for
 option
 in
@@ -1757,7 +1757,7 @@ self
 .
 browsertime_user_args
 :
-                    
+                
 arg
 val
 =
@@ -1770,7 +1770,7 @@ split
 "
 1
 )
-                    
+                
 if
 arg
 in
@@ -1783,21 +1783,21 @@ url
 "
 )
 :
-                        
+                    
 browsertime_script
 =
 val
-                
+            
 if
 browsertime_script
 is
 None
 :
-                    
+                
 raise
 Exception
 (
-                        
+                    
 "
 You
 must
@@ -1815,7 +1815,7 @@ like
 so
 :
 "
-                        
+                    
 "
 -
 -
@@ -1831,7 +1831,7 @@ TO
 SCRIPT
 or
 "
-                        
+                    
 "
 -
 -
@@ -1850,9 +1850,9 @@ sitespeed
 .
 io
 "
-                    
-)
                 
+)
+            
 #
 Make
 it
@@ -1863,7 +1863,7 @@ our
 builtin
 test
 scripts
-                
+            
 if
 browsertime_script
 =
@@ -1872,7 +1872,7 @@ browsertime_script
 pageload
 "
 :
-                    
+                
 browsertime_script
 =
 os
@@ -1881,16 +1881,16 @@ path
 .
 join
 (
-                        
+                    
 browsertime_path
 "
 browsertime_pageload
 .
 js
 "
-                    
-)
                 
+)
+            
 elif
 browsertime_script
 =
@@ -1899,7 +1899,7 @@ browsertime_script
 interactive
 "
 :
-                    
+                
 browsertime_script
 =
 os
@@ -1908,16 +1908,16 @@ path
 .
 join
 (
-                        
+                    
 browsertime_path
 "
 browsertime_interactive
 .
 js
 "
-                    
+                
 )
-            
+        
 elif
 test
 .
@@ -1929,7 +1929,7 @@ interactive
 False
 )
 :
-                
+            
 browsertime_script
 =
 os
@@ -1938,20 +1938,20 @@ path
 .
 join
 (
-                    
+                
 browsertime_path
-                    
+                
 "
 browsertime_interactive
 .
 js
 "
-                
-)
             
+)
+        
 else
 :
-                
+            
 browsertime_script
 =
 os
@@ -1960,9 +1960,9 @@ path
 .
 join
 (
-                    
+                
 browsertime_path
-                    
+                
 test
 .
 get
@@ -1976,7 +1976,7 @@ browsertime_pageload
 js
 "
 )
-                
+            
 )
         
 page_cycle_delay
@@ -5540,9 +5540,6 @@ test
 timeout
 )
 :
-        
-global
-BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
         
 self
 .

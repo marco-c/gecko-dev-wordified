@@ -1003,6 +1003,10 @@ the
 old
 method
                 
+value
+=
+value_info
+                
 if
 not
 isinstance
@@ -1012,7 +1016,7 @@ dict
 )
 :
                     
-value_info
+value
 =
 {
 "
@@ -1028,7 +1032,7 @@ new_subtest
 }
                 
 if
-value_info
+value
 .
 get
 (
@@ -1077,7 +1081,7 @@ value
 "
 ]
 =
-value_info
+value
 [
 "
 values
@@ -1091,7 +1095,7 @@ lowerIsBetter
 "
 ]
 =
-value_info
+value
 .
 get
 (
@@ -1108,7 +1112,7 @@ alertThreshold
 "
 ]
 =
-value_info
+value
 .
 get
 (
@@ -1127,7 +1131,7 @@ unit
 "
 ]
 =
-value_info
+value
 .
 get
 (
@@ -1147,7 +1151,7 @@ if
 shouldAlert
 "
 in
-value_info
+value
 :
                     
 new_subtest
@@ -1157,7 +1161,7 @@ shouldAlert
 "
 ]
 =
-value_info
+value
 .
 get
 (
@@ -4221,6 +4225,10 @@ replicates
                     
 }
                 
+updated_metric
+=
+value
+                
 if
 not
 isinstance
@@ -4230,7 +4238,7 @@ Iterable
 )
 :
                     
-value
+updated_metric
 =
 [
 value
@@ -4255,6 +4263,7 @@ replicates
 .
 extend
 (
+                    
 [
 round
 (
@@ -4264,8 +4273,9 @@ x
 for
 x
 in
-value
+updated_metric
 ]
+                
 )
         
 vals
@@ -10283,7 +10293,7 @@ _subtests
 }
         
 for
-metric
+metric_name
 data
 in
 test
@@ -10305,9 +10315,9 @@ perfstat
 "
 not
 in
-metric
+metric_name
 and
-metric
+metric_name
 !
 =
 "
@@ -10329,7 +10339,7 @@ metric
 continue
             
 if
-metric
+metric_name
 =
 =
 "
@@ -10345,6 +10355,13 @@ metric
 run
 "
             
+else
+:
+                
+metric
+=
+metric_name
+            
 #
 data
 is
@@ -10357,7 +10374,7 @@ single
 number
             
 for
-page_cycle
+polymorphic_page_cycle
 in
 data
 :
@@ -10382,7 +10399,7 @@ if
 not
 isinstance
 (
-page_cycle
+polymorphic_page_cycle
 list
 )
 :
@@ -10390,8 +10407,15 @@ list
 page_cycle
 =
 [
-page_cycle
+polymorphic_page_cycle
 ]
+                
+else
+:
+                    
+page_cycle
+=
+polymorphic_page_cycle
                 
 for
 val
