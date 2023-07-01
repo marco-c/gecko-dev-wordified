@@ -15103,6 +15103,16 @@ mCondition
 ;
 if
 (
+gIOService
+-
+>
+IsNetTearingDown
+(
+)
+)
+{
+if
+(
 mInputCopyContext
 )
 {
@@ -15124,6 +15134,7 @@ mOutputCopyContext
 mCondition
 )
 ;
+}
 }
 }
 if
