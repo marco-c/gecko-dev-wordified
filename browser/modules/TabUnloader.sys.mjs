@@ -85,11 +85,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -150,15 +145,6 @@ closed
 .
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-TabUnloader
-"
-]
-;
 const
 lazy
 =
@@ -957,6 +943,7 @@ them
 .
 *
 /
+export
 var
 TabUnloader
 =

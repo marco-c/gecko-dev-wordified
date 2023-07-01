@@ -540,7 +540,9 @@ modules
 /
 AboutNewTab
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -552,7 +554,9 @@ modules
 /
 BrowserUsageTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -564,7 +568,9 @@ modules
 /
 ContentCrashHandlers
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -775,7 +781,9 @@ Bug
 -
 BrowserWindowTracker
 .
-jsm
+sys
+.
+mjs
 is
 intermittently
 used
@@ -792,7 +800,9 @@ modules
 /
 BrowserWindowTracker
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
