@@ -2897,8 +2897,17 @@ AudioSinkWrapper
 :
 :
 SyncCreateAudioSink
+(
+%
+lf
+)
 "
 this
+aStartTime
+.
+ToSeconds
+(
+)
 )
 ;
 UniquePtr
