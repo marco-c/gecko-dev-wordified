@@ -3081,13 +3081,12 @@ read
         
 code
 =
-compile
+self
+.
+get_compiled_source
 (
 source
 path
-"
-exec
-"
 )
         
 exec_
@@ -3104,6 +3103,28 @@ pop
 (
 -
 1
+)
+    
+staticmethod
+    
+memoize
+    
+def
+get_compiled_source
+(
+source
+path
+)
+:
+        
+return
+compile
+(
+source
+path
+"
+exec
+"
 )
     
 def
