@@ -60775,6 +60775,8 @@ ScreenMargin
 (
 0
 0
+ScreenCoord
+(
 presContext
 -
 >
@@ -60787,6 +60789,7 @@ presContext
 >
 GetDynamicToolbarMaxHeight
 (
+)
 )
 0
 )
