@@ -11855,7 +11855,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+NavigatorConnection
 )
 )
 ;

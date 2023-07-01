@@ -534,6 +534,14 @@ AudioSampleRate
 <
 38
 )
+ITEM_VALUE
+(
+NavigatorConnection
+1llu
+<
+<
+39
+)
 /
 /
 !
