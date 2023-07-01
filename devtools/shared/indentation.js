@@ -216,6 +216,7 @@ prefs
 getIntPref
 (
 TAB_SIZE
+2
 )
 ;
 return
