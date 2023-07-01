@@ -5144,14 +5144,9 @@ key
 {
 if
 (
-!
 labelStrings
 )
 {
-return
-false
-;
-}
 for
 (
 const
@@ -5175,6 +5170,7 @@ key
 return
 true
 ;
+}
 }
 }
 Element
