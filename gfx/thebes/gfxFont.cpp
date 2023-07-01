@@ -30688,6 +30688,9 @@ aOrientation
 ;
 if
 (
+std
+:
+:
 isnan
 (
 result
@@ -30707,6 +30710,9 @@ mAlphabetic
 }
 if
 (
+std
+:
+:
 isnan
 (
 result
@@ -30728,6 +30734,9 @@ emAscent
 }
 if
 (
+std
+:
+:
 isnan
 (
 result
