@@ -79,7 +79,10 @@ preamble
 type
 s1
 (
+sub
+(
 struct
+)
 )
 )
 (
@@ -101,11 +104,14 @@ i32
 type
 a1
 (
+sub
+(
 array
 (
 ref
 null
 s1
+)
 )
 )
 )

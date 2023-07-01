@@ -32,7 +32,10 @@ types
 (
 type
 (
+sub
+(
 struct
+)
 )
 )
 \
@@ -679,7 +682,10 @@ type
 name
 }
 (
+sub
+(
 struct
+)
 )
 )
 \
