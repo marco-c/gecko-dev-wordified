@@ -241,12 +241,6 @@ None
         
 self
 .
-http2Server
-=
-None
-        
-self
-.
 dohServer
 =
 None
@@ -851,14 +845,6 @@ self
 .
 options
 .
-http2ServerPath
-=
-None
-        
-self
-.
-options
-.
 keep_open
 =
 False
@@ -893,14 +879,6 @@ self
 options
 .
 useHttp3Server
-=
-False
-        
-self
-.
-options
-.
-useHttp2Server
 =
 False
         
