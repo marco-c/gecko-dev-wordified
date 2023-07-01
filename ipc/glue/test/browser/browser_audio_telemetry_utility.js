@@ -140,6 +140,21 @@ appinfo
 .
 OS
 ;
+const
+extraKey
+=
+getExtraKey
+(
+{
+rddPref
+:
+true
+utilityPref
+:
+true
+}
+)
+;
 for
 (
 let
@@ -160,6 +175,7 @@ process
 exp
 .
 codecs
+extraKey
 )
 ;
 }
@@ -183,6 +199,7 @@ aac
 flac
 "
 ]
+extraKey
 )
 ;
 }
