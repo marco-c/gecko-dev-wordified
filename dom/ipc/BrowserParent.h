@@ -4320,11 +4320,6 @@ aEnabled
 )
 ;
 void
-DestroyInternal
-(
-)
-;
-void
 SetRenderLayersInternal
 (
 bool
