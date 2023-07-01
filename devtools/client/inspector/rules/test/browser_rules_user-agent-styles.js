@@ -760,7 +760,7 @@ rule
 >
 rule
 .
-matchedSelectors
+matchedDesugaredSelectors
 .
 length
 =
@@ -815,7 +815,7 @@ rule
 return
 rule
 .
-matchedSelectors
+matchedDesugaredSelectors
 .
 includes
 (
@@ -855,7 +855,7 @@ rule
 return
 rule
 .
-matchedSelectors
+matchedDesugaredSelectors
 .
 includes
 (
@@ -891,7 +891,7 @@ rule
 return
 rule
 .
-matchedSelectors
+matchedDesugaredSelectors
 .
 length
 =

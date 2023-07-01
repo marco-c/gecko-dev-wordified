@@ -777,7 +777,7 @@ the
 selected
 element
 .
-matchedSelectors
+matchedDesugaredSelectors
 :
 PropTypes
 .

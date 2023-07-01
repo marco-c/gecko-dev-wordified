@@ -7398,7 +7398,7 @@ ruleProp
 !
 ruleProp
 .
-matchedSelectors
+matchedDesugaredSelectors
 .
 length
 )
