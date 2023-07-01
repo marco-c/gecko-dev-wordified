@@ -166,7 +166,9 @@ http
 -
 client
 .
-js
+sys
+.
+mjs
 "
 "
 kinto
