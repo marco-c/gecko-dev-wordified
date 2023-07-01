@@ -15,15 +15,8 @@ asserts
 import
 assert_dialog_handled
 assert_error
-assert_success
-from
-tests
-.
-support
-.
-pdf
-import
 assert_pdf
+assert_success
 from
 .
 import

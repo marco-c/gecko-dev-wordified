@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 from
 .
@@ -161,7 +159,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -501,7 +499,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -748,7 +746,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :
@@ -962,7 +960,7 @@ async
 def
 on_event
 (
-method
+_
 data
 )
 :

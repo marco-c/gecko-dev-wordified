@@ -26,7 +26,6 @@ async
 def
 test_params_empty
 (
-bidi_session
 send_blocking_command
 )
 :
@@ -40,8 +39,6 @@ InvalidArgumentException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (
@@ -82,7 +79,6 @@ async
 def
 test_params_events_invalid_type
 (
-bidi_session
 send_blocking_command
 value
 )
@@ -97,8 +93,6 @@ InvalidArgumentException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (
@@ -191,8 +185,6 @@ InvalidArgumentException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (
@@ -261,8 +253,6 @@ InvalidArgumentException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (
@@ -473,7 +463,6 @@ async
 def
 test_params_contexts_invalid_type
 (
-bidi_session
 send_blocking_command
 value
 )
@@ -488,8 +477,6 @@ InvalidArgumentException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (
@@ -598,8 +585,6 @@ InvalidArgumentException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (
@@ -652,8 +637,6 @@ NoSuchFrameException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (

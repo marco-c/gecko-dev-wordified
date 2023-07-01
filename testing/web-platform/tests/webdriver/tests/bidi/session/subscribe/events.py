@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 #
 The
@@ -84,7 +82,7 @@ def
 on_event
 (
 method
-data
+_
 )
 :
         

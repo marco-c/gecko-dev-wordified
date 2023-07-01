@@ -37,7 +37,6 @@ async
 def
 test_bidi_session_status
 (
-bidi_session
 send_blocking_command
 )
 :
