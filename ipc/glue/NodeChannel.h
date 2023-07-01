@@ -763,10 +763,6 @@ THREAD
 void
 Start
 (
-bool
-aCallConnect
-=
-true
 )
 ;
 /

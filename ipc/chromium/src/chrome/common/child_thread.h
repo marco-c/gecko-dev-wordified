@@ -303,15 +303,6 @@ MessageLoop
 *
 owner_loop_
 ;
-IPC
-:
-:
-Channel
-:
-:
-ChannelId
-channel_name_
-;
 mozilla
 :
 :
