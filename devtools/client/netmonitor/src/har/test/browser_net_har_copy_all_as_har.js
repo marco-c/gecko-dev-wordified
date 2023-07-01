@@ -381,12 +381,7 @@ is
 page
 .
 title
-"
-Network
-Monitor
-test
-page
-"
+SIMPLE_URL
 "
 There
 must
