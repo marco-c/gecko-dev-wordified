@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsAccessiblePivot
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

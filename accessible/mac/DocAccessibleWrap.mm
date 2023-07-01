@@ -121,6 +121,13 @@ h
 #
 include
 "
+ARIAMap
+.
+h
+"
+#
+include
+"
 DocAccessible
 -
 inl
