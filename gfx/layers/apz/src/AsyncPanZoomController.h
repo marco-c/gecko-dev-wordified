@@ -10907,10 +10907,12 @@ origin
 void
 SmoothScrollTo
 (
-const
-CSSPoint
+CSSSnapTarget
+&
 &
 aDestination
+ScrollTriggeredByScript
+aTriggeredByScript
 const
 ScrollOrigin
 &
