@@ -11141,7 +11141,6 @@ mElement
 >
 GetAttr
 (
-kNameSpaceID_None
 aName
 aValueRet
 )

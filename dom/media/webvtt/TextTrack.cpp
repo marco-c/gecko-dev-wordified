@@ -1867,7 +1867,6 @@ mTrackElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

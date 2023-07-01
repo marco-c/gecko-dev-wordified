@@ -4195,7 +4195,6 @@ metaElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4228,7 +4227,6 @@ metaElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17868,7 +17866,6 @@ element
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -18005,7 +18002,6 @@ rootElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -24355,7 +24351,6 @@ anchor
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -40670,7 +40665,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 aAttribute
 existingValue
 )
@@ -40849,7 +40843,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -41282,7 +41275,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 aAttribute
 )
 )

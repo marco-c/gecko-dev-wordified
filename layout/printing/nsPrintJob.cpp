@@ -2270,7 +2270,6 @@ root
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -958,7 +958,6 @@ mInputElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

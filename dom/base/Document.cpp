@@ -26855,7 +26855,6 @@ aLinkElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -27063,7 +27062,6 @@ aLinkElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -57457,7 +57455,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -57646,7 +57643,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -68792,7 +68788,6 @@ aMetaElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -69433,7 +69428,6 @@ form
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

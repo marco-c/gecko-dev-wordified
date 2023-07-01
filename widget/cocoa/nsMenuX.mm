@@ -257,13 +257,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -690,7 +683,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5311,7 +5303,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5932,7 +5923,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6006,7 +5996,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6161,7 +6150,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

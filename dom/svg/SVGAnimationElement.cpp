@@ -606,7 +606,6 @@ href
 |
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1242,7 +1241,6 @@ href
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1819,7 +1817,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1876,7 +1873,6 @@ kNameSpaceID_XLink
 &
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

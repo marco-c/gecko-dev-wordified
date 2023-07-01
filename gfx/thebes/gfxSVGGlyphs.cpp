@@ -3005,7 +3005,6 @@ aGlyphElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

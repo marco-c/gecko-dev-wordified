@@ -254,7 +254,6 @@ aSVGElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -297,7 +296,6 @@ aSVGElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -501,7 +499,6 @@ mSVGElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

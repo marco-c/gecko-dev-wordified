@@ -2185,7 +2185,6 @@ const
 {
 GetAttr
 (
-kNameSpaceID_None
 aName
 aResult
 )

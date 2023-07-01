@@ -541,7 +541,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1383,7 +1382,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 sortState
 -
 >
@@ -1421,7 +1419,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 sortState
 -
 >
@@ -2491,7 +2488,6 @@ aRootElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2507,7 +2503,6 @@ aRootElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

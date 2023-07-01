@@ -12048,7 +12048,6 @@ mTextCtrlElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -12061,7 +12060,6 @@ mTextCtrlElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

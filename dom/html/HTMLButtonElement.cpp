@@ -2325,7 +2325,6 @@ disabled
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

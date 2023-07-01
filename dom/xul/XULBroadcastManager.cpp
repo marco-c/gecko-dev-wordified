@@ -1260,7 +1260,6 @@ aBroadcaster
 >
 GetAttr
 (
-kNameSpaceID_None
 name
 value
 )
@@ -2113,7 +2112,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2129,7 +2127,6 @@ aBroadcaster
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2175,7 +2172,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2388,7 +2384,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 aAttribute
 value
 )
@@ -2492,7 +2487,6 @@ listenerEl
 >
 GetAttr
 (
-kNameSpaceID_None
 aAttribute
 currentValue
 )
@@ -3144,7 +3138,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3170,7 +3163,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3233,7 +3225,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3272,7 +3263,6 @@ aElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

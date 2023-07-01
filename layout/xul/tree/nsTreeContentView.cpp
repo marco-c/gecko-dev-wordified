@@ -1044,7 +1044,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1180,7 +1179,6 @@ cell
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2319,7 +2317,6 @@ cell
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2464,7 +2461,6 @@ cell
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2602,7 +2598,6 @@ mContent
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2682,7 +2677,6 @@ cell
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3056,7 +3050,6 @@ column
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3165,7 +3158,6 @@ column
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

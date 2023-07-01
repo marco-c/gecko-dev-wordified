@@ -1728,7 +1728,6 @@ iframe
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -1114,7 +1114,6 @@ aElement
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1138,7 +1137,6 @@ aElement
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2735,7 +2733,6 @@ domElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3162,7 +3159,6 @@ elem
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -6773,7 +6773,6 @@ aElement
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -8589,7 +8588,6 @@ resizedElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -8681,7 +8679,6 @@ resizedElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -6513,7 +6513,6 @@ element
 >
 GetAttr
 (
-kNameSpaceID_None
 attrName
 handlerBody
 )

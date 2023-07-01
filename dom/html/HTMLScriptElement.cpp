@@ -1193,7 +1193,6 @@ if
 (
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1481,7 +1480,6 @@ mExternal
 :
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -461,7 +461,6 @@ isDisabled
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

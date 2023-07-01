@@ -4687,7 +4687,6 @@ mAttrs
 >
 GetAttr
 (
-kNameSpaceID_None
 mAttrAtom
 value
 )
@@ -4922,7 +4921,6 @@ mAttrs
 >
 GetAttr
 (
-kNameSpaceID_None
 mAttrAtom
 value
 )

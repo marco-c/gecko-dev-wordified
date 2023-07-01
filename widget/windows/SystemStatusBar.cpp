@@ -1067,7 +1067,6 @@ mMenu
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1558,7 +1557,6 @@ mMenu
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

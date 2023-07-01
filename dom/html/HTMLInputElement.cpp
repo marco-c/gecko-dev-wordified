@@ -3810,7 +3810,6 @@ mInput
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -7256,7 +7255,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -8920,7 +8918,6 @@ else
 {
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -9687,7 +9684,6 @@ value
 .
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -9721,7 +9717,6 @@ if
 !
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10334,7 +10329,6 @@ dataListId
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11457,7 +11451,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11474,7 +11467,6 @@ minStr
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11569,7 +11561,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11586,7 +11577,6 @@ maxStr
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11695,7 +11685,6 @@ if
 (
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -11738,7 +11727,6 @@ if
 (
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14488,7 +14476,6 @@ dom_webkitBlink_dirPicker_enabled
 &
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14520,7 +14507,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14953,7 +14939,6 @@ dom_webkitBlink_dirPicker_enabled
 &
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17090,7 +17075,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17256,7 +17240,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17337,7 +17320,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17452,7 +17434,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -21599,7 +21580,6 @@ dom_webkitBlink_dirPicker_enabled
 &
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -25450,7 +25430,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -26130,7 +26109,6 @@ InputImage
 &
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -26252,7 +26230,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -28038,7 +28015,6 @@ isRequired
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -36595,7 +36571,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -37163,7 +37138,6 @@ IsEmpty
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -37715,7 +37689,6 @@ disabled
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -39342,7 +39315,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -39431,7 +39403,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -39822,7 +39793,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -39886,7 +39856,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -40141,7 +40110,6 @@ DoesReadOnlyApply
 &
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -40781,7 +40749,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -40804,7 +40771,6 @@ stepStr
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -41440,7 +41406,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -41962,7 +41927,6 @@ InputReset
 |
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -42832,7 +42796,6 @@ NS_ASSERTION
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -42981,7 +42944,6 @@ accept
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

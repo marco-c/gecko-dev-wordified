@@ -5056,7 +5056,6 @@ aArea
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

@@ -23523,7 +23523,6 @@ rootElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -28822,7 +28821,6 @@ AsElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -30579,7 +30577,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -30783,7 +30780,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -30950,7 +30946,6 @@ aRootElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

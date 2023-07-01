@@ -3720,7 +3720,6 @@ keyElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3788,7 +3787,6 @@ keyElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

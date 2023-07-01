@@ -1072,7 +1072,6 @@ AsElement
 >
 GetAttr
 (
-kNameSpaceID_None
 atom
 value
 )

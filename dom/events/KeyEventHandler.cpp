@@ -3263,7 +3263,6 @@ handlerElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3433,7 +3432,6 @@ aKeyElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3496,7 +3494,6 @@ aKeyElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3518,7 +3515,6 @@ aKeyElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3771,7 +3767,6 @@ aKeyElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4144,7 +4139,6 @@ aKeyElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

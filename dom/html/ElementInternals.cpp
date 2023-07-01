@@ -2893,7 +2893,6 @@ mAttrs
 .
 HasAttr
 (
-kNameSpaceID_None
 aName
 )
 ?

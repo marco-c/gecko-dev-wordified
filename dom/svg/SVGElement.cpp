@@ -9446,7 +9446,6 @@ modType
 =
 HasAttr
 (
-kNameSpaceID_None
 aName
 )
 ?

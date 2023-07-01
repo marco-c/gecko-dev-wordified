@@ -3734,7 +3734,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3974,7 +3973,6 @@ disabled
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -5793,7 +5791,6 @@ SetBarredFromConstraintValidation
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

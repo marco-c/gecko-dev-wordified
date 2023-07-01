@@ -18891,7 +18891,6 @@ aSourceElement
 .
 GetAttr
 (
-kNameSpaceID_None
 &
 aAttribute
 attrValue
@@ -41133,7 +41132,6 @@ rootElement
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

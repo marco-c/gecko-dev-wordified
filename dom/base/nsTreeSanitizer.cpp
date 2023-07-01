@@ -10128,7 +10128,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10141,7 +10140,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10211,7 +10209,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -10224,7 +10221,6 @@ aElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

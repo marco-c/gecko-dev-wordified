@@ -9376,7 +9376,6 @@ mOwner
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14342,7 +14341,6 @@ this
 mSrcAttrStream
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14827,7 +14825,6 @@ mSrcAttrStream
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14966,7 +14963,6 @@ if
 (
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -16410,7 +16406,6 @@ child
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -16459,7 +16454,6 @@ child
 >
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -17965,7 +17959,6 @@ PRELOAD_METADATA
 mHasSuspendTaint
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -29009,7 +29002,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -30377,7 +30369,6 @@ PRELOAD_METADATA
 mHasSuspendTaint
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -30885,7 +30876,6 @@ PRELOAD_METADATA
 mHasSuspendTaint
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -33430,7 +33420,6 @@ mPaused
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -33894,7 +33883,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -37320,7 +37308,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -40409,7 +40396,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

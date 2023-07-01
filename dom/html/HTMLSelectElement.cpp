@@ -1779,7 +1779,6 @@ if
 !
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3610,7 +3609,6 @@ if
 (
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -8185,7 +8183,6 @@ disabled
 =
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -8825,7 +8822,6 @@ name
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

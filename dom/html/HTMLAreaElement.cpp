@@ -303,7 +303,6 @@ if
 !
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -367,7 +366,6 @@ aTarget
 {
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

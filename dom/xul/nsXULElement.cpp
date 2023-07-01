@@ -3862,7 +3862,6 @@ control
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -4543,7 +4542,6 @@ value
 ;
 GetAttr
 (
-kNameSpaceID_None
 aLocalName
 value
 )
@@ -5207,7 +5205,6 @@ cspPolicyStr
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6002,7 +5999,6 @@ oldValue
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6021,7 +6017,6 @@ IsEmpty
 {
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -7386,7 +7381,6 @@ command
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :

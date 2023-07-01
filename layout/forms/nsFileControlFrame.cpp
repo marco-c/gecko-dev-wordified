@@ -1457,7 +1457,6 @@ inputElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1984,7 +1983,6 @@ inputElement
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
