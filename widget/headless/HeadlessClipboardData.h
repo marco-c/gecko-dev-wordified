@@ -133,6 +133,12 @@ GetText
 )
 const
 ;
+int32_t
+GetChangeCount
+(
+)
+const
+;
 /
 /
 For
@@ -147,6 +153,11 @@ private
 :
 nsAutoString
 mPlain
+;
+int32_t
+mChangeCount
+=
+0
 ;
 }
 ;
