@@ -39816,9 +39816,9 @@ BaselineSharingGroup
 :
 First
 ?
-mBaselineFromLastReflow
+mFirstBaseline
 :
-mLastBaselineFromLastReflow
+mLastBaseline
 )
 ;
 }
@@ -49091,13 +49091,13 @@ baseline
 align
 us
 .
-mBaselineFromLastReflow
+mFirstBaseline
 =
 aFlr
 .
 mAscent
 ;
-mLastBaselineFromLastReflow
+mLastBaseline
 =
 aFlr
 .
