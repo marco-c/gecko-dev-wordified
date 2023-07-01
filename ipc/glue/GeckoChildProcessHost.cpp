@@ -5479,12 +5479,14 @@ IPC
 Channel
 >
 channel
-(
-new
+=
+MakeUnique
+<
 IPC
 :
 :
 Channel
+>
 (
 std
 :
@@ -5500,8 +5502,6 @@ Channel
 :
 :
 MODE_SERVER
-nullptr
-)
 )
 ;
 #
