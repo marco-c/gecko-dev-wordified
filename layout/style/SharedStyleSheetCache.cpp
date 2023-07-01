@@ -1343,13 +1343,6 @@ mSheet
 ;
 }
 }
-data
--
->
-ScheduleLoadEventIfNeeded
-(
-)
-;
 aDatasToNotify
 .
 AppendElement
