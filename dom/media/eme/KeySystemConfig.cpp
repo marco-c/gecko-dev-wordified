@@ -150,6 +150,13 @@ StaticPrefs_media
 h
 "
 #
+include
+"
+nsPrintfCString
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
