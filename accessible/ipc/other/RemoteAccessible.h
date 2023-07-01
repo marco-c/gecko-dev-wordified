@@ -264,17 +264,6 @@ MOZ_COUNTED_DTOR
 (
 RemoteAccessible
 )
-#
-include
-"
-mozilla
-/
-a11y
-/
-RemoteAccessibleShared
-.
-h
-"
 protected
 :
 explicit

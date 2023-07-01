@@ -107,16 +107,6 @@ RemoteAccessible
 h
 "
 ]
-SOURCES
-+
-=
-[
-"
-RemoteAccessible
-.
-cpp
-"
-]
 LOCAL_INCLUDES
 +
 =
