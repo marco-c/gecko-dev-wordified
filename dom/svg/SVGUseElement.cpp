@@ -2042,8 +2042,6 @@ break
 ;
 }
 return
-NS_WARN_IF
-(
 aCount
 >
 =
@@ -2052,7 +2050,6 @@ StaticPrefs
 :
 svg_use_element_recursive_clone_limit
 (
-)
 )
 ;
 }
