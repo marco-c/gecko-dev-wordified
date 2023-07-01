@@ -215,7 +215,7 @@ h
 "
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -726,7 +726,7 @@ false
 }
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 if
 (
 mWidget
@@ -965,7 +965,7 @@ GetNextRenderFrameId
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 if
 (
 mWidget
