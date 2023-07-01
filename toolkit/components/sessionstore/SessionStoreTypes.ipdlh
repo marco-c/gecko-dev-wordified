@@ -139,6 +139,9 @@ h
 "
 ;
 include
+CustomElementTypes
+;
+include
 DOMTypes
 ;
 namespace
@@ -209,6 +212,8 @@ FileList
 SingleSelect
 ;
 MultipleSelect
+;
+CustomElementTuple
 ;
 }
 ;
