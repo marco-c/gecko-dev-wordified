@@ -2379,7 +2379,9 @@ BackgroundFinalizePhases
 .
 for
 (
+const
 auto
+&
 phase
 :
 BackgroundFinalizePhases
