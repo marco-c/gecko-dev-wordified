@@ -611,6 +611,14 @@ RoundWindowSize
 <
 46
 )
+ITEM_VALUE
+(
+UseStandinsForNativeColors
+1llu
+<
+<
+47
+)
 /
 /
 !
