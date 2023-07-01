@@ -5707,7 +5707,7 @@ self
 .
 logger
 .
-error
+warning
 (
 "
 Action
@@ -5717,19 +5717,6 @@ failed
 "
 %
 action
-)
-            
-self
-.
-logger
-.
-warning
-(
-traceback
-.
-format_exc
-(
-)
 )
             
 self
