@@ -645,7 +645,7 @@ TYPE_WEBSOCKET
 :
 return
 "
-websocket
+empty
 "
 _ns
 ;
