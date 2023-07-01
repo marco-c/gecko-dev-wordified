@@ -229,6 +229,9 @@ mman
 h
 >
 #
+ifdef
+HAVE_EVENTFD
+#
 include
 <
 sys
@@ -237,6 +240,8 @@ eventfd
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -855,6 +860,9 @@ GlobalRefRelease
 (
 )
 {
+#
+ifdef
+HAVE_EVENTFD
 if
 (
 !
@@ -991,6 +999,8 @@ get
 ;
 }
 }
+#
+endif
 }
 void
 DMABufSurface
@@ -1000,6 +1010,9 @@ GlobalRefAdd
 (
 )
 {
+#
+ifdef
+HAVE_EVENTFD
 LOGDMABUFREF
 (
 (
@@ -1074,6 +1087,8 @@ get
 )
 ;
 }
+#
+endif
 }
 void
 DMABufSurface
@@ -1083,6 +1098,9 @@ GlobalRefCountCreate
 (
 )
 {
+#
+ifdef
+HAVE_EVENTFD
 LOGDMABUFREF
 (
 (
@@ -1179,6 +1197,8 @@ mGlobalRefCountFd
 return
 ;
 }
+#
+endif
 }
 void
 DMABufSurface
@@ -1190,6 +1210,9 @@ int
 aFd
 )
 {
+#
+ifdef
+HAVE_EVENTFD
 mGlobalRefCountFd
 =
 aFd
@@ -1220,6 +1243,8 @@ GlobalRefAdd
 )
 ;
 }
+#
+endif
 }
 int
 DMABufSurface
