@@ -5228,7 +5228,7 @@ GetDocShell
 RFPTarget
 :
 :
-Unknown
+PointerEvents
 )
 )
 {
