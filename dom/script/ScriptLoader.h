@@ -3038,8 +3038,6 @@ StartLoad
 ScriptLoadRequest
 *
 aRequest
-uint64_t
-aEarlyHintPreloaderId
 const
 Maybe
 <
@@ -3081,8 +3079,6 @@ StartClassicLoad
 ScriptLoadRequest
 *
 aRequest
-uint64_t
-aEarlyHintPreloaderId
 const
 Maybe
 <
@@ -3145,8 +3141,6 @@ ScriptLoadRequest
 aRequest
 nsSecurityFlags
 securityFlags
-uint64_t
-aEarlyHintPreloaderId
 const
 Maybe
 <

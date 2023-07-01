@@ -493,6 +493,8 @@ aBrowsingContextID
 nsIInterfaceRequestor
 *
 aCallbacks
+bool
+aIsModulepreload
 )
 ;
 /
@@ -701,10 +703,8 @@ nsIPrincipal
 aPrincipal
 CORSMode
 corsMode
-const
-nsAString
-&
-aType
+bool
+aIsModulepreload
 )
 ;
 static
@@ -715,8 +715,6 @@ CORSMode
 aCORSMode
 ASDestination
 aAs
-bool
-aIsModule
 )
 ;
 /
