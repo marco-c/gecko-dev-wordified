@@ -296,7 +296,6 @@ common
 blank
 .
 html
-}
 "
 ;
 event
