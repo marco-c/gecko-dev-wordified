@@ -119,7 +119,7 @@ PRLibrary
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 struct
 AVCodecHWConfig
 ;
@@ -291,7 +291,7 @@ Unlink
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 /
 /
 Check
@@ -948,7 +948,7 @@ frame
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 const
 AVCodecHWConfig
 *
@@ -1241,7 +1241,7 @@ mAVUtilLib
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 PRLibrary
 *
 mVALib

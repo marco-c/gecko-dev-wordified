@@ -391,7 +391,7 @@ LinkStatus_FAILED
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 sFFVPXLib
 .
 LinkVAAPILibs
