@@ -385,11 +385,16 @@ endif
 namespace
 ipc
 {
+/
+*
+static
+*
+/
 IPCResult
 IPCResult
 :
 :
-Fail
+FailImpl
 (
 NotNull
 <
