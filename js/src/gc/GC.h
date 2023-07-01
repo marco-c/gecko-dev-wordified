@@ -744,7 +744,7 @@ JSObject
 *
 b
 unsigned
-preResult
+removedFlags
 )
 ;
 using

@@ -275,7 +275,7 @@ trace
 (
 JSTracer
 *
-tracer
+trc
 )
 ;
 V

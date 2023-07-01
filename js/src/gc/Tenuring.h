@@ -951,7 +951,7 @@ traceObject
 (
 JSObject
 *
-src
+obj
 )
 ;
 void
@@ -984,7 +984,7 @@ traceString
 (
 JSString
 *
-src
+str
 )
 ;
 void
@@ -995,7 +995,7 @@ JS
 :
 BigInt
 *
-src
+bi
 )
 ;
 private

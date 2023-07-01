@@ -3151,7 +3151,7 @@ gcx
 bool
 keepAtleastOne
 bool
-lastGC
+destroyingRuntime
 )
 ;
 /

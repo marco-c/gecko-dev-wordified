@@ -2920,7 +2920,7 @@ double
 computeMMU
 (
 TimeDuration
-resolution
+window
 )
 const
 ;
