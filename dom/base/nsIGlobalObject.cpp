@@ -2372,7 +2372,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+ReduceTimerPrecision
 )
 )
 {
