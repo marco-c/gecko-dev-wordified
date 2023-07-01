@@ -118,7 +118,7 @@ h
 "
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -1193,7 +1193,7 @@ AV_FUNC_60
 )
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 AV_FUNC_OPTION_SILENT
 (
 avcodec_get_hw_config
@@ -1357,7 +1357,7 @@ undef
 AV_FUNC_OPTION
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 define
 VA_FUNC_OPTION_SILENT
@@ -1706,7 +1706,7 @@ mAVCodecLib
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 if
 (
 mVALib
@@ -1739,7 +1739,7 @@ this
 }
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 void
 FFmpegLibWrapper
 :
@@ -1946,7 +1946,7 @@ lib
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 bool
 FFmpegLibWrapper
 :
