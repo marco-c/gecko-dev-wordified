@@ -279,7 +279,7 @@ MOZ_AV1
 &
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 )
 &
 &
@@ -11392,10 +11392,7 @@ supportedHWCodecs
 }
 numProfiles
 =
-std
-:
-:
-min
+MIN
 (
 numProfiles
 maxProfiles
@@ -11508,10 +11505,7 @@ continue
 }
 numEntryPoints
 =
-std
-:
-:
-min
+MIN
 (
 numEntryPoints
 maxEntryPoints

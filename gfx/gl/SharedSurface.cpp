@@ -271,7 +271,7 @@ h
 endif
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 #
 include
 "
@@ -283,17 +283,6 @@ h
 include
 "
 SharedSurfaceDMABUF
-.
-h
-"
-#
-include
-"
-mozilla
-/
-widget
-/
-DMABufLibWrapper
 .
 h
 "
@@ -709,7 +698,7 @@ DMABUF
 :
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WAYLAND
 if
 (
 gl

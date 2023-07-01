@@ -3961,7 +3961,10 @@ true
 }
 if
 (
-kIsLinux
+kIsX11
+|
+|
+kIsWayland
 )
 {
 types

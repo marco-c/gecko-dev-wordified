@@ -404,6 +404,9 @@ stdarg
 h
 >
 #
+ifdef
+MOZ_WAYLAND
+#
 include
 <
 gdk
@@ -412,6 +415,8 @@ gdk
 .
 h
 >
+#
+endif
 #
 if
 defined
@@ -1709,6 +1714,9 @@ n
 )
 ;
 }
+#
+ifdef
+MOZ_WAYLAND
 static
 void
 set_render_device_path
@@ -2398,6 +2406,8 @@ return
 result
 ;
 }
+#
+endif
 static
 bool
 get_egl_gl_status
@@ -3317,6 +3327,9 @@ n
 }
 else
 {
+#
+ifdef
+MOZ_WAYLAND
 const
 char
 *
@@ -3364,6 +3377,8 @@ renderNodeString
 ;
 }
 }
+#
+endif
 }
 }
 log
