@@ -12,7 +12,9 @@ test
 for
 PageActions
 .
-jsm
+sys
+.
+mjs
 specifically
 the
 generalized

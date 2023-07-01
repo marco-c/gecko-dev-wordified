@@ -9084,7 +9084,7 @@ ExtensionsUI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -9096,7 +9096,9 @@ modules
 /
 ExtensionsUI
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

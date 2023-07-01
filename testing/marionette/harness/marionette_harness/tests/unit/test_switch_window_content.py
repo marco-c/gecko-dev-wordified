@@ -322,7 +322,7 @@ BrowserWindowTracker
 =
 ChromeUtils
 .
-import
+importESModule
 (
                     
 "
@@ -335,7 +335,9 @@ modules
 /
 BrowserWindowTracker
 .
-jsm
+sys
+.
+mjs
 "
                   
 )

@@ -421,7 +421,9 @@ triggered
 in
 FaviconLoader
 .
-jsm
+sys
+.
+mjs
 module
 it
 should
@@ -488,7 +490,9 @@ modules
 /
 FaviconLoader
 .
-jsm
+sys
+.
+mjs
 "
 line
 :
