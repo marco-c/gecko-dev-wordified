@@ -248,6 +248,12 @@ defined
 (
 WEBRTC_LINUX
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 bool
 allow_v4l2
 (
@@ -335,6 +341,12 @@ if
 defined
 (
 WEBRTC_LINUX
+)
+|
+|
+defined
+(
+WEBRTC_BSD
 )
 bool
 allow_v4l2_
