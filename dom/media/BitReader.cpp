@@ -216,9 +216,8 @@ mTotalBitsLeft
 aNum
 )
 {
-NS_ASSERTION
+NS_WARNING
 (
-false
 "
 Reading
 past
