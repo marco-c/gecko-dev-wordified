@@ -1695,8 +1695,7 @@ ElfSection
 *
 getSectionAt
 (
-unsigned
-int
+Elf64_Off
 offset
 )
 ;
@@ -1965,14 +1964,12 @@ shdr
 sh_flags
 ;
 }
-unsigned
-int
+Elf64_Addr
 getAddr
 (
 )
 ;
-unsigned
-int
+Elf64_Off
 getSize
 (
 )
@@ -2125,8 +2122,7 @@ markDirty
 ;
 }
 }
-unsigned
-int
+Elf64_Off
 getOffset
 (
 )
