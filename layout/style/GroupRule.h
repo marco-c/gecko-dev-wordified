@@ -285,6 +285,17 @@ IsCCLeaf
 const
 override
 ;
+bool
+IsGroupRule
+(
+)
+const
+final
+{
+return
+true
+;
+}
 #
 ifdef
 DEBUG

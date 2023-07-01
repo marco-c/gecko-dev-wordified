@@ -361,6 +361,17 @@ IsCCLeaf
 const
 MOZ_MUST_OVERRIDE
 ;
+virtual
+bool
+IsGroupRule
+(
+)
+const
+{
+return
+false
+;
+}
 #
 ifdef
 DEBUG
