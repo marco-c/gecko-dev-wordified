@@ -11,6 +11,14 @@ MPL
 2
 .
 0
+#
+!
+[
+doc
+(
+hidden
+)
+]
 /
 /
 !
@@ -82,7 +90,7 @@ crate
 field
 :
 :
-FieldElement
+FftFriendlyFieldElement
 ;
 use
 crate
@@ -142,7 +150,7 @@ benchmarked_iterative_fft
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 outp
@@ -201,7 +209,7 @@ benchmarked_recursive_fft
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 outp
@@ -302,7 +310,7 @@ benchmarked_gadget_mul_call_poly_fft
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 g
@@ -391,7 +399,7 @@ benchmarked_gadget_mul_call_poly_direct
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 g
@@ -469,7 +477,7 @@ benchmarked_v2_prove
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 data
