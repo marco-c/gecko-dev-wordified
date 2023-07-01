@@ -594,10 +594,6 @@ browser
 file_hwconcurrency_iframer
 .
 html
-?
-mode
-=
-iframe
 ;
 requestLongerTimeout
 (
