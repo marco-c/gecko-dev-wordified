@@ -760,7 +760,7 @@ updated
 }
 )
 ;
-const
+let
 formSubmittedPromise
 =
 listenForTestNotification
@@ -827,7 +827,7 @@ type
 expectedDoorhanger
 )
 ;
-const
+let
 notif
 =
 await
@@ -844,7 +844,7 @@ expectedUsername
 expectedPassword
 )
 ;
-const
+let
 promiseLogin
 =
 TestUtils

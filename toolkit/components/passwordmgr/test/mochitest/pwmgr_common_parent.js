@@ -1262,7 +1262,6 @@ addMessageListener
 "
 proxyLoginManager
 "
-async
 msg
 =
 >
@@ -1323,7 +1322,6 @@ arg
 let
 rv
 =
-await
 Services
 .
 logins
