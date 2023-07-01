@@ -189,7 +189,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 HTMLParagraphElement
 nsGenericHTMLElement
 )
-virtual
 bool
 ParseAttribute
 (
@@ -225,7 +224,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -233,7 +231,6 @@ GetAttributeMappingFunction
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -306,14 +303,12 @@ HTMLParagraphElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -332,11 +327,7 @@ static
 void
 MapAttributesIntoRule
 (
-const
-nsMappedAttributes
-*
-aAttributes
-MappedDeclarations
+MappedDeclarationsBuilder
 &
 )
 ;

@@ -310,13 +310,6 @@ h
 #
 include
 "
-nsMappedAttributes
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
