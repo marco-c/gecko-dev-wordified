@@ -2004,7 +2004,7 @@ Unused
 stream
 -
 >
-BeginClose
+BeginAbort
 (
 )
 ;
