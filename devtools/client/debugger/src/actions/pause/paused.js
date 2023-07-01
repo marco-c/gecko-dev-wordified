@@ -164,12 +164,10 @@ object
 }
 pauseInfo
 *
-memberof
-actions
-/
-pause
-*
-static
+See
+createPause
+method
+.
 *
 /
 export
