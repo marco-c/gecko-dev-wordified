@@ -816,10 +816,8 @@ this
 _targetActor
 .
 window
-instanceof
-Ci
 .
-nsIDOMChromeWindow
+isChromeWindow
 )
 {
 return
