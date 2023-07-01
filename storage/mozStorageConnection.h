@@ -246,8 +246,8 @@ nsIThread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 storage
 {
 class
@@ -550,6 +550,10 @@ int
 aFlags
 ConnectionOperation
 aSupportedOperations
+const
+nsCString
+&
+aTelemetryFilename
 bool
 aInterruptible
 =
@@ -677,10 +681,6 @@ initialize
 nsIFileURL
 *
 aFileURL
-const
-nsACString
-&
-aTelemetryFilename
 )
 ;
 /
@@ -1189,7 +1189,7 @@ internalClose
 (
 sqlite3
 *
-aDBConn
+aNativeconnection
 )
 ;
 /
@@ -3288,12 +3288,10 @@ mCallback
 /
 /
 namespace
-storage
-}
-/
-/
-namespace
 mozilla
+:
+:
+storage
 /
 *
 *
