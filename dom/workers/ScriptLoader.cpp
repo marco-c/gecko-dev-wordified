@@ -9135,6 +9135,16 @@ mRunnable
 =
 this
 ;
+}
+for
+(
+ThreadSafeRequestHandle
+*
+handle
+:
+mLoadingRequests
+)
+{
 nsresult
 rv
 =
