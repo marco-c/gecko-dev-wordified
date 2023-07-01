@@ -232,7 +232,7 @@ notEqual
 (
 null
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -267,7 +267,7 @@ notEqual
 (
 null
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -294,7 +294,7 @@ notEqual
 (
 null
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

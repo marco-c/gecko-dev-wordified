@@ -603,7 +603,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1006,7 +1006,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1071,7 +1071,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1332,7 +1332,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1416,7 +1416,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1776,7 +1776,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1859,7 +1859,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -1942,7 +1942,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2114,7 +2114,7 @@ let
 itemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2497,7 +2497,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2562,7 +2562,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2627,7 +2627,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -2695,7 +2695,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3290,7 +3290,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3355,7 +3355,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3420,7 +3420,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3488,7 +3488,7 @@ changed
 id
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

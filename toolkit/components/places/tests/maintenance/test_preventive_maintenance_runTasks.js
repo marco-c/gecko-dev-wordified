@@ -85,7 +85,7 @@ runTasks
 [
 PlacesDBUtils
 .
-invalidateCaches
+removeOldCorruptDBs
 ]
 )
 ;

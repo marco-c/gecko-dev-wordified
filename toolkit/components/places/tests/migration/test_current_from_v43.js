@@ -805,7 +805,7 @@ parent
 "
 )
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

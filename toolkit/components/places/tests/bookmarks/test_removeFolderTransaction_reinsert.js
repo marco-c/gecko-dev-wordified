@@ -314,7 +314,7 @@ let
 folderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -327,7 +327,7 @@ let
 fxId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -340,7 +340,7 @@ let
 tbId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -360,7 +360,7 @@ let
 bookmarksMenuItemId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -444,7 +444,7 @@ undo
 folderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -456,7 +456,7 @@ guid
 fxId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -468,7 +468,7 @@ guid
 tbId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

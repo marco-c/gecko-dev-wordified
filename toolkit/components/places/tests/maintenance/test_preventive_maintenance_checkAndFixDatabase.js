@@ -226,7 +226,7 @@ Assert
 equal
 (
 numberOfTasksRun
-8
+7
 "
 Check
 that
@@ -246,7 +246,7 @@ equal
 successfulTasks
 .
 length
-8
+7
 "
 Check
 that

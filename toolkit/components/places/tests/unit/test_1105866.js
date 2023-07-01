@@ -85,7 +85,7 @@ shortcutNode
 .
 itemId
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -108,7 +108,7 @@ shortcutNode
 .
 folderItemId
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -226,7 +226,7 @@ shortcutNode
 .
 itemId
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -249,7 +249,7 @@ shortcutNode
 .
 folderItemId
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

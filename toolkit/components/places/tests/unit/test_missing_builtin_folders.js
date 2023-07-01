@@ -330,7 +330,7 @@ let
 rootId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -511,7 +511,7 @@ Assert
 equal
 (
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -534,7 +534,7 @@ Assert
 equal
 (
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (

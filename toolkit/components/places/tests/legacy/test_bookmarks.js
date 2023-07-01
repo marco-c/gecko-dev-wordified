@@ -413,7 +413,7 @@ id
 root
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -526,7 +526,7 @@ let
 testRootGuid
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -723,7 +723,7 @@ bookmarks
 fetch
 (
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -860,7 +860,7 @@ bookmarks
 fetch
 (
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -1932,7 +1932,7 @@ let
 testFolderGuid
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -2898,7 +2898,7 @@ bookmarks
 fetch
 (
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (
@@ -3195,7 +3195,7 @@ let
 parentGuid
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemGuid
 (

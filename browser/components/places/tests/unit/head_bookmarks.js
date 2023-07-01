@@ -325,7 +325,7 @@ name
 )
 {
 return
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

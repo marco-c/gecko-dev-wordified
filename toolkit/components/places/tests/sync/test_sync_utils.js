@@ -3809,7 +3809,7 @@ let
 tagFolderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

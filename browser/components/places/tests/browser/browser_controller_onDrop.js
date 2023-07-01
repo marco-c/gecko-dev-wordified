@@ -192,7 +192,7 @@ com
 bookmarkIds
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseManyItemIds
 (

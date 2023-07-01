@@ -3508,7 +3508,7 @@ let
 mozFolderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3521,7 +3521,7 @@ let
 commFolderId
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3541,7 +3541,7 @@ notifications
 itemId
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3612,7 +3612,7 @@ guid
 itemId
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
@@ -3657,7 +3657,7 @@ guid
 itemId
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

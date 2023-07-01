@@ -2307,7 +2307,7 @@ let
 fx_id
 =
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (

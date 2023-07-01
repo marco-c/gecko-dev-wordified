@@ -425,7 +425,7 @@ PlacesInsertionPoint
 parentId
 :
 await
-PlacesUtils
+PlacesTestUtils
 .
 promiseItemId
 (
