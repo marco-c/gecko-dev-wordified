@@ -22582,6 +22582,8 @@ any
 (
 )
 ref
+&
+inputType
 )
 )
 {
