@@ -2813,6 +2813,11 @@ IPv4
 .
 *
 /
+[
+noscript
+notxpcom
+nostdcall
+]
 void
 setIPv4Disabled
 (
@@ -2834,6 +2839,11 @@ IPv6
 .
 *
 /
+[
+noscript
+notxpcom
+nostdcall
+]
 void
 setIPv6Disabled
 (

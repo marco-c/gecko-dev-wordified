@@ -715,11 +715,6 @@ NS_HTTP_CONNECTION_RESTARTABLE
 ;
 }
 void
-RemoveConnection
-(
-)
-;
-void
 SetIsHttp2Websocket
 (
 bool
