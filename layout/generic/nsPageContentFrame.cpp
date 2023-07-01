@@ -3318,6 +3318,10 @@ StyleSet
 ResolvePageContentStyle
 (
 mPageName
+StylePagePseudoClassFlags
+:
+:
+FIRST
 )
 ;
 SetComputedStyleWithoutNotification
