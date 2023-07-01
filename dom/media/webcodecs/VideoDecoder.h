@@ -610,7 +610,6 @@ DecodeQueueSize
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Configure
 (
@@ -623,7 +622,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Decode
 (
@@ -635,7 +633,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -655,7 +652,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Close
 (
@@ -724,7 +720,6 @@ nsresult
 aResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 Result
 <
 Ok
@@ -762,6 +757,18 @@ MediaData
 &
 &
 aData
+)
+;
+class
+ErrorRunnable
+;
+void
+ScheduleReportError
+(
+const
+nsresult
+&
+aResult
 )
 ;
 class
@@ -812,7 +819,6 @@ nsresult
 aResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 ProcessControlMessageQueue
 (
@@ -845,7 +851,6 @@ NotProcessed
 Processed
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 MessageProcessedResult
 ProcessConfigureMessage
 (
