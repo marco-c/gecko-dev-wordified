@@ -792,6 +792,22 @@ recursive
 false
 )
 ;
+/
+/
+Clear
+the
+add
+-
+on
+repository
+override
+.
+AMBrowserExtensionsImport
+.
+_addonRepository
+=
+null
+;
 }
 )
 ;
@@ -833,8 +849,9 @@ ext
 "
 ]
 ;
-const
-addonRepository
+AMBrowserExtensionsImport
+.
+_addonRepository
 =
 mockAddonRepository
 (
@@ -902,7 +919,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 await
@@ -1180,8 +1196,9 @@ ext
 "
 ]
 ;
-const
-addonRepository
+AMBrowserExtensionsImport
+.
+_addonRepository
 =
 mockAddonRepository
 (
@@ -1249,7 +1266,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 await
@@ -1300,8 +1316,9 @@ ext
 "
 ]
 ;
-const
-addonRepository
+AMBrowserExtensionsImport
+.
+_addonRepository
 =
 mockAddonRepository
 (
@@ -1376,7 +1393,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 await
@@ -1400,7 +1416,6 @@ stageInstalls
 browserID
 [
 ]
-addonRepository
 )
 /
 Cannot
@@ -1466,7 +1481,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 assertStageInstallsResult
@@ -1514,8 +1528,9 @@ ext
 "
 ]
 ;
-const
-addonRepository
+AMBrowserExtensionsImport
+.
+_addonRepository
 =
 mockAddonRepository
 (
@@ -1552,7 +1567,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 Assert
@@ -1648,8 +1662,9 @@ ext
 "
 ]
 ;
-const
-addonRepository
+AMBrowserExtensionsImport
+.
+_addonRepository
 =
 mockAddonRepository
 (
@@ -1717,7 +1732,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 await
@@ -1845,7 +1859,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 Assert
@@ -2062,8 +2075,9 @@ ext
 "
 ]
 ;
-const
-addonRepository
+AMBrowserExtensionsImport
+.
+_addonRepository
 =
 mockAddonRepository
 (
@@ -2223,7 +2237,6 @@ stageInstalls
 (
 browserID
 extensionIDs
-addonRepository
 )
 ;
 await
