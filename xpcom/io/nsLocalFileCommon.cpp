@@ -446,6 +446,14 @@ der
 "
 "
 .
+diagcab
+"
+/
+/
+Windows
+archive
+"
+.
 exe
 "
 "

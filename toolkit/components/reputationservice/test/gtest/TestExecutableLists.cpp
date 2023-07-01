@@ -625,6 +625,14 @@ dhtml
 HTML
 "
 .
+diagcab
+"
+/
+/
+Windows
+archive
+"
+.
 diskcopy42
 "
 /
